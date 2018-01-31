@@ -142,7 +142,7 @@ If there is an EditorConfig file anywhere in the directory structure at or above
 
    **"User preferences for this file type are overridden by this project's coding conventions."**
 
-This means that if any editor settings in **Tools**, **Options**, **Text Editor** (such as indent size and style, tab size, or coding conventions) are specified in an EditorConfig file at or above the project in the directory structure, the conventions in the EditorConfig file override the settings in Options. You can control this behavior by toggling the **Follow project coding conventions** option in **Tools**, **Options**, **Text Editor**. Unchecking the option turns off EditorConfig support for Visual Studio.
+This means that if any editor settings in **Tools** > **Options** > **Text Editor** (such as indent size and style, tab size, or coding conventions) are specified in an EditorConfig file at or above the project in the directory structure, the conventions in the EditorConfig file override the settings in Options. You can control this behavior by toggling the **Follow project coding conventions** option in **Tools** > **Options** > **Text Editor**. Unchecking the option turns off EditorConfig support for Visual Studio.
 
 ![Tools Options - follow project coding conventions](media/coding_conventions_option.png)
 
@@ -157,6 +157,7 @@ You can control the scope of your EditorConfig conventions by setting the ```roo
 ## See also
 
 [.NET code style conventions](../ide/editorconfig-code-style-settings-reference.md)  
+[.NET naming conventions](../ide/editorconfig-naming-conventions.md)  
 [Supporting EditorConfig for a language service](../extensibility/supporting-editorconfig.md)  
 [EditorConfig.org](http://editorconfig.org/)  
 [Writing code in the editor](writing-code-in-the-code-and-text-editor.md)
