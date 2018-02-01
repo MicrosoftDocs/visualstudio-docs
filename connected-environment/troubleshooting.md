@@ -15,7 +15,7 @@ Running the VS Code debugger reports the error: `Configured debug type 'coreclr'
 **Reason:** You do not have the VS Code extension for Connected Environment installed on your development machine.
 
 **Try:**
-Install the [VS Code extension for Conneced Environment](get-started-netcore-01.md#get-kubernetes-debugging-tools).
+Install the [VS Code extension for Conneced Environment](get-started-netcore-01.md#kubernetes-debugging-with-vs-code).
 
 ## Error 'upstream connect error or disconnect/reset before headers'
 You may see this error when trying to access your service - for example, when you navigate to the service's URL in a browser. 
