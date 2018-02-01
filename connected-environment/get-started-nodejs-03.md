@@ -30,7 +30,7 @@ Updating server-side code files requires a little more work, because a Node.js a
 1. Open the code file named `server.js`, and edit service's hello message: 
 
 ```javascript
-res.send('Hello from service A running in Azure!');
+res.send('Hello from webfrontend running in Azure!');
 ```
 
 3. Save the file.
