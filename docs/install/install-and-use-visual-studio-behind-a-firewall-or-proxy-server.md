@@ -46,7 +46,7 @@ If it's possible for your environment, consider adding the following domains wit
 | *.windows.net | Sign-in location |
 | *.microsoftonline.com | Sign-in location |
 | *.live.com | Sign-in location |
-| vsdrop.corp.microsoft.com <br>vsblobprodscussu1shard20.blob.core.windows.net<br>vsblobprodscussu1shard21.blob.core.windows.net | Updates location for Visual Studio and the Visual Studio Installer |
+
 
 
 ### Non-Microsoft domains
@@ -63,7 +63,7 @@ If it's possible for your environment, consider adding the following domains wit
 | incredibuildvs2017i.azureedge.net | Game development with C++ (IncrediBuild) |
 | www.python.org | Python development (Python) <br /><br />Data science and analytical applications (Python) |
 
-## URLs to whitelist when you use Visual Studio 
+## URLs to whitelist when you use Visual Studio
 When you use Visual Studio or Azure services behind a firewall or proxy server, there are URLs you might want to whitelist and some ports and protocols that you might want to open up. For more information, see the [Ports and protocols for Visual Studio and for Azure services](visual-studio-and-azure-services-ports-and-protocols.md) page.
 
 ## Troubleshoot network-related errors
