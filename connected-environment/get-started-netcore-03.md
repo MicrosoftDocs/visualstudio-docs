@@ -57,7 +57,7 @@ Scan the console output for information about the public URL that was created by
 Open this URL in a browser window - or better yet, from a mobile device - and you should see the web app load! As the container executes, `stdout` and `stderr` output is streamed to the terminal window.
 
 ## Update a Content File
-Connected Environment isn't just about getting code running in Kubernetes - it's about enabling you to quickly and iteratively seeing your code changes take affect in a Kubernetes environment in the cloud.
+Connected Environment isn't just about getting code running in Kubernetes - it's about enabling you to quickly and iteratively see your code changes take affect in a Kubernetes environment in the cloud.
 
 1. Locate the file `./Views/Home/Index.cshtml` and make an edit to the HTML. For example, change line 70 that reads `<h2>Application uses</h2>` to something like: `<h2>Hello k8s in Azure!</h2>`
 1. Save the file. Moments later, in the Terminal window you'll see a message saying the code was successfully synced in the Terminal window.
@@ -76,7 +76,7 @@ Updating code files requires a little more work, because a .NET Core app needs t
 This rebuilds the container image and redeploys the Helm chart. To see your code changes take effect in the running application, navigate to the About menu in the web app.
 
 
-But there is a *faster method* even for code edits, which we'll explore in the next section. 
+But there is a *faster method* even for developing code, which we'll explore in the next section. 
 > [!div class="nextstepaction"]
 > [Debugging a container in Kubernetes](get-started-netcore-04.md)
 

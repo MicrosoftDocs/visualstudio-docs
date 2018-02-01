@@ -9,7 +9,7 @@ Our sample application isn't very complex at the moment. But in real-world devel
 Picture yourself working on a service that interacts with tens of other services.
 
 1. It can become unrealistic to run everything locally for development. Your dev machine may simply not have enough resources to run the entire app; or maybe your app has endpoints that need to be publicly reachable (e.g. your app responds to a webhook from a SaaS app).
-1. You can try to "just run" the services that you depend on, but this means you'd need know the full closure of dependencies (i.e. dependencies of dependencies). Or, it's simply a matter of not easily knowing how to run your dependencies because you didn't work on it.
+1. You can try to only run the services that you depend on, but this means you'd need know the full closure of dependencies (i.e. dependencies of dependencies). Or, it's simply a matter of not easily knowing how to build and run your dependencies because you didn't work on them.
 1. Some developers resort to simulating, or mocking up, most of their service dependencies. This can help sometimes, but managing those mocks can soon take on its own development effort. Plus, this leads to your dev environment looking very different to production, and subtle bugs can creep in.
 1. It follows that doing any type of end-to-end testing becomes difficult. Integration testing can only realistically happen post-commit, which means we see problems later in the development cycle.
 
@@ -22,7 +22,7 @@ With Connected Environment, you can easily set up a *shared* development environ
 ## Work in Your Own Space
 As you develop code for your service, and before you're ready to check it in, code often won't be in a good state - you're still iteratively shaping it, testing it, and experimenting with solutions. Connected Environment provides the concept of a **space**, which allows you to work in isolation, and without the fear of breaking your team members.
 
-Before you proceed, close any F5/debug sessions for both services, and then run `vsce up` in each of the service's root folder.
+Before you proceed, close any F5/debug sessions for both services, and then run `vsce up` in each of the service's root folders.
 
 Now let's take a closer look at where the services are currently running. Run the `vsce list` command, and you'll see output similar to the following:
 
@@ -33,10 +33,10 @@ mywebapi     mainline  mywebapi-0.1.0     80/TCP  2m ago     http://localhost:64
 webfrontend  mainline  webfrontend-0.1.0  80/TCP  1m ago     https://webfrontend-contosodev.vsce.io
 ```
 
-Both services should show they are running, and that they are in a space named `mainline`. Anyone who opens the public URL and navigates to the web app's About page will invoke the code path we previously wrote that runs through both services. Now suppose we want to continue developing `mywebapi` - how can we do this and not interrupt other developers who are using the dev environment? To do that, we'll set up our own space.
+The Space column shows that both services are running in a space named `mainline`. Anyone who opens the public URL and navigates to the web app will invoke the code path we previously wrote that runs through both services. Now suppose we want to continue developing `mywebapi` - how can we do this and not interrupt other developers who are using the dev environment? To do that, we'll set up our own space.
 
 ## Create a Space
-To run our own version of `mywebapi` in a space other than `mainline`, we first create our own space:
+To run our own version of `mywebapi` in a space other than `mainline`, we create our own space:
 ``` 
 vsce space create --name scott
 ```

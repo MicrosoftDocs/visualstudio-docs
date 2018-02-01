@@ -12,12 +12,14 @@ Download code from GitHub by navigating to https://github.com/johnsta/vsce-sampl
 [!INCLUDE[](common/build-and-run-in-k8s-cli.md)]
 
 ## Update a Content File
-Connected Environment isn't just about getting code running in Kubernetes - it's about enabling you to quickly and iteratively seeing your code changes take affect in a Kubernetes environment in the cloud.
+Connected Environment isn't just about getting code running in Kubernetes - it's about enabling you to quickly and iteratively see your code changes take affect in a Kubernetes environment in the cloud.
 
 1. Locate the file `./public/index.html` and make an edit to the HTML. For example, change the page's background color to a shade of blue:
+
 ```html
 <body style="background-color: #95B9C7; margin-left:10px; margin-right:10px;">
 ```
+
 2. Save the file. Moments later, in the Terminal window you'll see a message saying the code was successfully synced in the Terminal window.
 1. Go to your browser and refresh the page. You should see your color update.
 
@@ -39,6 +41,6 @@ res.send('Hello from webfrontend running in Azure!');
 This rebuilds the container image and redeploys the Helm chart. Reload the browser page to see your code changes take effect.
 
 
-But there is a *faster method* even for code edits, which we'll explore in the next section. 
+But there is a *faster method* even for developing code, which we'll explore in the next section. 
 > [!div class="nextstepaction"]
 > [Debugging a container in Kubernetes](get-started-nodejs-04.md)

@@ -40,7 +40,7 @@ app.get('/api', function (req, res) {
 Note how Kubernetes' DNS service discovery is employed to simply refer to the service as `http://mywebapi`. **Code in our development environment is running the same way it will run in production**.
 
 ## Propagate Headers
-You will notice that when making a request to `mywebapi`, the code utilizes the helper module `contextful` to ensure the outgoing request headers are propagated from the original incoming request. We'll see later how this faciliates a more productive development experience in team scenarios.
+You will notice that when making a request to `mywebapi`, the code utilizes a helper module named `contextful` to ensure the outgoing request headers are propagated from the original incoming request. We'll see later how this faciliates a more productive development experience in team scenarios.
 
 For now, let's add the contextful helper module:
 1. Add this line of code at the top of `server.js`:

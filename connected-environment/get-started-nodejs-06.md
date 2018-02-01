@@ -6,6 +6,7 @@ Previous step: [Call a service running in a separate container](get-started-node
 
 Now let's see it in action:
 1. Go to the VS Code window for `mywebapi` and make a code edit to the default GET `/` handler, for example:
+
 ```javascript
 app.get('/', function (req, res) {
     res.send('mywebapi now says something new');

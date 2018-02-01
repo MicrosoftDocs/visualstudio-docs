@@ -13,8 +13,7 @@ In this section, we'll use VS Code to directly debug our container running in Az
 1. To open the Debug view, click on the Debug icon in the **Activity Bar** on the side of VS Code.
 1. Select **Launch Program (VSCE)** as the active debug configuration.
 
-<TODO: debug configuration screenshot for Node.js>
-<!-- ![](media/debug-configuration.png) -->
+![](media/debug-configuration-nodejs.png)
 
 ## Debug the Container in Kubernetes
 Hit **F5** to debug your code in Kubernetes!
@@ -36,7 +35,7 @@ app.get('/api', function (req, res) {
 
 Save the file, and in the **Debug actions pane**, click the **Refresh** button. 
 
-![](media/debug-action-refresh.png)
+![](media/debug-action-refresh-nodejs.png)
 
 Instead of rebuilding and redeploying a new container image each time code edits are made, which will often take considerable time, Connected Environment will restart the Node.js process in between debug sessions to provide a faster edit/debug loop.
 
@@ -45,7 +44,7 @@ Now refresh the web app in the browser, or press the *Say It Again* button - you
 ## An Even Faster Development Flow with Nodemon
 *Nodemon* is a popular tool that Node.js developers use for rapid development - instead of manually restarting the Node process each time a server-side code edit is made, developers will often configure their Node project to have *nodemon* monitor file changes and automatically restart the server process. In this style of working, the developer just refreshes their browser after making a code edit.
 
-Connected Environment's intent is for you to be able to use the same, productive development workflow that you have when doing development locally. To illustrate this, the sample `webfrontend` project was configured to use *nodemon* (it is configured as a `devDependency` in `package.json`). Connected Environment detects this when its VS Code extension is used to generate debug assets (in `.vscode/launch.json`), and generates a second launch option: **Attach (VSCE)**.
+Connected Environment's intent is for you to be able to use the same, productive development workflows you employ when developing locally. To illustrate this, the sample `webfrontend` project was configured to use *nodemon* (it is configured as a `devDependency` in `package.json`). Connected Environment detects this when its VS Code extension is used to generate debug assets (in `.vscode/launch.json`), and generates a second launch option: **Attach (VSCE)**.
 
 Try the following:
 1. Stop the VS Code debugger.
