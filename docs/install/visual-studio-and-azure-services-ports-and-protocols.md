@@ -24,12 +24,12 @@ ms.workload:
 ---
 
 # Ports and protocols for Visual Studio and Azure Services
-To make sure that you have access to everything you need When you use Visual Studio or Azure Services behind a firewall or proxy server, here are lists of the URLs you might want to whitelist and the ports and protocols that you might want to open up.
+To make sure that you have access to everything you need when you use Visual Studio or Azure Services behind a firewall or proxy server, here are lists of the URLs you should whitelist and the ports and protocols that you should open.
 
   > [!NOTE]
   > For each list, the port for the HTTPS protocol is 443, and the port for the HTTP protocol is 80.
 
-## Visual Studio whitelist URLs and ports and protocols
+## URLs to whitelist and ports and protocols to open for Visual Studio
 | Service or scenario | DNS endpoint | Protocol | Port | Description |
 | --- | --- | --- | --- | --- |
 | URL<br>resolution | go.microsoft.com<br><br>aka.ms | | |Used to shorten URLs, which then resolve into longer URLs
@@ -68,7 +68,7 @@ To make sure that you have access to everything you need When you use Visual Stu
 > [!NOTE]
 > For each list, the port for the HTTPS protocol is 443, and the port for the HTTP protocol is 80.
 
-## Azure Services whitelist URLs and ports and protocols
+## URLs to whitelist and ports and protocols to open for Azure Services
 
 | Service or scenario | DNS endpoint | Protocol | Port | Description |
 | --- | --- | --- | --- | --- |

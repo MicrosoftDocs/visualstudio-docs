@@ -63,7 +63,7 @@ If it's possible for your environment, consider adding the following domains wit
 | incredibuildvs2017i.azureedge.net | Game development with C++ (IncrediBuild) |
 | www.python.org | Python development (Python) <br /><br />Data science and analytical applications (Python) |
 
-## URLs to whitelist and ports and protocols to open when you use Visual Studio or Azure Services
+## URLs to whitelist when you use Visual Studio 
 When you use Visual Studio or Azure services behind a firewall or proxy server, there are URLs you might want to whitelist and some ports and protocols that you might want to open up. For more information, see the [Ports and protocols for Visual Studio and for Azure services](visual-studio-and-azure-services-ports-and-protocols.md) page.
 
 ## Troubleshoot network-related errors
