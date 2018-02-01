@@ -19,9 +19,10 @@ You should already have the sample code for `mywebapi` for this guide under a fo
 ## Make a Request from 'webfrontend' to 'mywebapi'
 Let's now write code in `webfrontend` that makes a request to `mywebapi`.
 1. Switch to the VS Code window for `webfrontend`.
-1. Add this line of code at the top of `server.js`:
+1. Add these lines of code at the top of `server.js`:
 ```javascript
 var request = require('request');
+var propagateHeaders = require('./propagateHeaders');
 ```
 
 3. *Replace* the code for the `/api` GET handler. When handling a request, it in turn makes a call to `mywebapi`, and then returns the results from both services.
@@ -30,7 +31,7 @@ var request = require('request');
 app.get('/api', function (req, res) {
     request({
         uri: 'http://mywebapi',
-        headers: contextful.from(req) // propagate headers to outgoing requests
+        headers: propagateHeaders.from(req) // propagate headers to outgoing requests
     }, function (error, response, body) {
         res.send('Hello from webfrontend and ' + body);
     });
@@ -39,48 +40,8 @@ app.get('/api', function (req, res) {
 
 Note how Kubernetes' DNS service discovery is employed to simply refer to the service as `http://mywebapi`. **Code in our development environment is running the same way it will run in production**.
 
-## Propagate Headers
-You will notice that when making a request to `mywebapi`, the code utilizes a helper module named `contextful` to ensure the outgoing request headers are propagated from the original incoming request. We'll see later how this faciliates a more productive development experience in team scenarios.
+The code example above utilizes a helper module named `propagateHeaders`. This helper was added to your code folder at the time you ran `vsce init`. The `propagateHeaders.from()` function propagates specific headers from an existing http.IncomingMessage object into a headers object for an outgoing request. We'll see later how this facilitates a more productive development experience in team scenarios.
 
-For now, let's add the contextful helper module:
-1. Add this line of code at the top of `server.js`:
-```javascript
-var contextful = require('./contextful');
-```
-
-2. Add a file in the root directory named `contextful.js` and paste the following code:
-
-```javascript
-var metaHeader = "context-headers";
-
-function init(options) {
-    if (options.metaHeader) {
-        metaHeader = options.metaHeader.toLowerCase();
-    }
-}
-
-function from(req, headers) {
-    headers = headers || {};
-    if (req.headers[metaHeader.toLowerCase()]) {
-        headers[metaHeader] = req.headers[metaHeader];
-        headers[metaHeader].split(",").forEach(function (header) {
-            header = header.toLowerCase();
-            if (header[header.length - 1] === "*") {
-              header = header.slice(0, -1);
-              for (var candidate in req.headers) {
-                if (candidate.indexOf(header) === 0) {
-                  headers[candidate] = req.headers[candidate];
-                }
-              }
-            } else if (req.headers[header]) {
-                headers[header] = req.headers[header];
-            }
-        });
-    }
-    return headers;
-}
-exports.from = from;
-```
 
 ## Debug Across Multiple Services
 1. At this point, `mywebapi` should still be running with the debugger attached. If it is not, hit F5 in the `mywebapi` project.

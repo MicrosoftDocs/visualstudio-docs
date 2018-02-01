@@ -43,71 +43,8 @@ public async Task<IActionResult> About()
 
 Note how Kubernetes' DNS service discovery is employed to simply refer to the service as `http://mywebapi`. **Code in our development environment is running the same way it will run in production**.
 
-## Propagate Headers
-Next, let's add the helper class `HeaderPropagatingHttpClient` that we reference in the above code. `HeaderPropagatingHttpClient` is dervied from the well-known `HttpClient` class - its job is to ensure that headers in the incoming request are propagated in an outgoing request. We'll see later how this facilitates a more productive development experience in team scenarios.
-1. Create a file named HeaderPropagation.cs in the `webfrontend` project.
-1. Paste the following code:
+The code example above also makes use of a `HeaderPropagatingHttpClient` class. This helper class was added to your code folder at the time you ran `vsce init`. `HeaderPropagatingHttpClient` is dervied from the well-known `HttpClient` class - the only functionality it adds to `HttpClient` is to propagate specific headers from an existing ASP .NET HttpRequest object into an outgoing HttpRequestMessage object. We'll see later how this facilitates a more productive development experience in team scenarios.
 
-```csharp
-using System;
-using System.Net.Http;
-using System.Threading;
-using Microsoft.AspNetCore.Http;
- 
-namespace webfrontend
-{
-    public class HeaderPropagatingHttpClient : HttpClient
-    {
-        public HeaderPropagatingHttpClient(HttpRequest source)
-            : this(source, null)
-        {
-        }
- 
-        public HeaderPropagatingHttpClient(HttpRequest source, HttpMessageHandler innerHandler)
-            : this(source, null, innerHandler)
-        {
-        }
- 
-        public HeaderPropagatingHttpClient(HttpRequest source, string metaHeader, HttpMessageHandler innerHandler)
-            : base(new HeaderPropagatingHttpHandler(source, metaHeader, innerHandler))
-        {
-        }
-    }
- 
-    public class HeaderPropagatingHttpHandler : MessageProcessingHandler
-    {
-        public HeaderPropagatingHttpHandler(HttpRequest source, string metaHeader = null, HttpMessageHandler innerHandler = null)
-            : base(innerHandler ?? new HttpClientHandler())
-        {
-            this.Source = source ?? throw new ArgumentNullException(nameof(source));
-            this.MetaHeader = metaHeader ?? "Context-Headers";
-        }
- 
-        public HttpRequest Source { get; private set; }
- 
-        public string MetaHeader { get; set; }
- 
-        protected override HttpRequestMessage ProcessRequest(HttpRequestMessage request, CancellationToken cancellationToken)
-        {
-            if (this.Source.Headers.ContainsKey(this.MetaHeader))
-            {
-                request.Headers.Add(this.MetaHeader, this.Source.Headers[this.MetaHeader][0]);
-
-                foreach (var header in this.Source.Headers[this.MetaHeader][0].Split(","))
-                {
-                    request.Headers.Add(header, this.Source.Headers[header][0]);
-                }
-            }
-            return request;
-        }
- 
-        protected override HttpResponseMessage ProcessResponse(HttpResponseMessage response, CancellationToken cancellationToken)
-        {
-            return response;
-        }
-    }
-}
-``` 
 
 ## Debug Across Multiple Services
 1. At this point, `mywebapi` should still be running with the debugger attached. If it is not, hit F5 in the `mywebapi` project.
