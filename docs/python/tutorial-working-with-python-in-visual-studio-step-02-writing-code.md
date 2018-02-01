@@ -41,12 +41,12 @@ Although Solution Explorer is where you manage project files, the *editor* windo
     print("Hello, Visual Studio")
     ```
 
-1. Notice the syntax coloration that differentiates the statement `print` from the argument `"Hello Visual Studio"`. Also, temporarily delete the last `"` on the string and notice how Visual Studio will show a red underline for code that contains syntax errors. Then replace the `"` to correct the code.
+1. Notice the syntax coloration that differentiates the statement `print` from the argument `"Hello Visual Studio"`. Also, temporarily delete the last `"` on the string and notice how Visual Studio shows a red underline for code that contains syntax errors. Then replace the `"` to correct the code.
 
     ![IntelliSense syntax coloring and error highlighting](media/vs-getting-started-python-06-IntelliSense3b.png)
 
     > [!Tip]
-    > Because one's development environment is a very personal matter, Visual Studio gives you complete control over Visual Studio's appearance and behavior. Select the **Tools > Options** menu command and explore the settings under the **Environment** and **Text Editor** tabs. By default you'll see only a limited number of options; to see every option for every programming language, select **Show all settings** at the bottom of the dialog box. 
+    > Because one's development environment is a very personal matter, Visual Studio gives you complete control over Visual Studio's appearance and behavior. Select the **Tools > Options** menu command and explore the settings under the **Environment** and **Text Editor** tabs. By default you see only a limited number of options; to see every option for every programming language, select **Show all settings** at the bottom of the dialog box. 
 
 1. Run the code you've written to this point by pressing Ctrl+F5 or selecting **Debug > Start Without Debugging** menu item. Visual Studio warns you if you still have errors in your code.
 
@@ -76,7 +76,7 @@ Although Solution Explorer is where you manage project files, the *editor* windo
     ```
 
     > [!Tip]
-    > Completions work with substrings as you type, matching parts of words, letters at the beginning of words, and even skipped characters. See [Editing code - Completions](code-editing.md#completions) for details.
+    > Completions work with substrings as you type, matching parts of words, letters at the beginning of words, and even skipped characters. See [Editing code - Completions](editing-python-code-in-visual-studio.md#completions) for details.
 
 1. Add a little more code to print the cosine values for 360 degrees:
 
@@ -94,7 +94,7 @@ Although Solution Explorer is where you manage project files, the *editor* windo
 
 ## Going deeper
 
-- [Editing code](code-editing.md)
-- [Formatting code](code-formatting.md)
-- [Refactoring code](code-refactoring.md)
-- [Using PyLint](code-pylint.md)
+- [Editing code](editing-python-code-in-visual-studio.md)
+- [Formatting code](formatting-python-code.md)
+- [Refactoring code](refactoring-python-code.md)
+- [Using PyLint](linting-python-code.md)

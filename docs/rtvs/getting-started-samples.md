@@ -1,7 +1,8 @@
 ---
-title: "Sample projects for R Tools for Visual Studio | Microsoft Docs"
+title: Sample projects for R Tools for Visual Studio | Microsoft Docs
+description: An index of a collection of samples to get started with R and Visual Studio.
 ms.custom: ""
-ms.date: 06/29/2017
+ms.date: 01/24/2018
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 

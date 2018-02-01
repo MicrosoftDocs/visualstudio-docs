@@ -1,5 +1,6 @@
 ---
-title: "Managing Python on Azure App Service | Microsoft Docs"
+title: Installing Python interpreters and libraries on Azure App Service | Microsoft Docs
+description: How to install a Python interpreter and libraries on Azure App Service, and configuring web applications to properly refer to that interpreter.
 ms.custom: ""
 ms.date: 09/13/2017
 ms.reviewer: ""
@@ -128,7 +129,7 @@ The `<appSettings>` defined here are available to your app as environment variab
 - `WSGI_HANDLER` must point to a WSGI app importable from your app.
 - `WSGI_LOG` is optional but recommended for debugging your app. 
 
-See [Publishing to Azure](publishing-to-azure.md) for additional details on `web.config` contents for Bottle, Flask, and Django web apps.
+See [Publishing to Azure](publishing-python-web-applications-to-azure-from-visual-studio.md) for additional details on `web.config` contents for Bottle, Flask, and Django web apps.
 
 ### Configuring the HttpPlatform handler
 
@@ -167,7 +168,7 @@ To install packages directly in the server environment, use one of the following
 | --- | --- |
 | [Azure App Service Kudu console](#azure-app-service-kudu-console) | Installs packages interactively. Packages must be pure Python or must publish wheels. |
 | [Kudu REST API](#kudu-rest-api) | Can be used to automate package installation.  Packages must be pure Python or must publish wheels. |
-| Bundle with app | Install packages directly into your project and then deploy them to App Service as if they were part of your app. Depending on how many dependencies you have and how frequently you update them, this method may be the easiest way to get a working deployment going. Be advised that libraries must match the version of Python on the server, otherwise you'll see obscure errors after deployment. That said, because the versions of Python in the App Service site extensions are exactly the same as those versions released on python.org, you can easily obtain a compatible version for local development. |
+| Bundle with app | Install packages directly into your project and then deploy them to App Service as if they were part of your app. Depending on how many dependencies you have and how frequently you update them, this method may be the easiest way to get a working deployment going. Be advised that libraries must match the version of Python on the server, otherwise you see obscure errors after deployment. That said, because the versions of Python in the App Service site extensions are exactly the same as those versions released on python.org, you can easily obtain a compatible version for local development. |
 | Virtual environments | Not supported. Instead, use bundling and set the `PYTHONPATH` environment variable to point to the location of the packages. |
 
 ### Azure App Service Kudu console
