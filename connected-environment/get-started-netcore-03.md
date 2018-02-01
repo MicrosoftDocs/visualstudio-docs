@@ -36,7 +36,7 @@ Updating code files requires a little more work, because a .NET Core app needs t
 This rebuilds the container image and redeploys the Helm chart. To see your code changes take effect in the running application, navigate to the About menu in the web app.
 
 
-But there is a *faster method* even for developing code, which we'll explore in the next section. 
+But there is an even *faster method* for developing code, which we'll explore in the next section. 
 > [!div class="nextstepaction"]
 > [Debugging a container in Kubernetes](get-started-netcore-04.md)
 

@@ -23,7 +23,7 @@ Connected Environment isn't just about getting code running in Kubernetes - it's
 2. Save the file. Moments later, in the Terminal window you'll see a message saying the code was successfully synced in the Terminal window.
 1. Go to your browser and refresh the page. You should see your color update.
 
-What happened? Edits to content files, like HTML and CSS, don't require the Node.js service to restart, so an active `vsce up` command will automatically sync any modified content files directly into the running container in Azure, thereby providing a fast way to see your content edits.
+What happened? Edits to content files, like HTML and CSS, don't require the Node.js process to restart, so an active `vsce up` command will automatically sync any modified content files directly into the running container in Azure, thereby providing a fast way to see your content edits.
 
 ## Update a Code File
 Updating server-side code files requires a little more work, because a Node.js app needs to restart. The simplest method from the command-line is to stop and re-run `vsce up`.
@@ -41,6 +41,6 @@ res.send('Hello from webfrontend running in Azure!');
 This rebuilds the container image and redeploys the Helm chart. Reload the browser page to see your code changes take effect.
 
 
-But there is a *faster method* even for developing code, which we'll explore in the next section. 
+But there is an even *faster method* for developing code, which we'll explore in the next section. 
 > [!div class="nextstepaction"]
 > [Debugging a container in Kubernetes](get-started-nodejs-04.md)
