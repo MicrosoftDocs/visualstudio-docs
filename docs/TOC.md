@@ -310,7 +310,7 @@
 ### [Creating Applications in Bi-directional Languages](ide/creating-applications-in-bi-directional-languages.md)
 # Reference
 ## [What's New](ide/whats-new-in-visual-studio.md)
-### Project and Item Templates
+## Project and Item Templates
 ### [Template Parameters](ide/template-parameters.md)
 ### [Template Schema Reference (Extensibility)](extensibility/visual-studio-template-schema-reference.md?context=visualstudio/default)
 ## General User Interface Elements
