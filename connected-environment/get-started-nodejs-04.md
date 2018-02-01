@@ -2,7 +2,7 @@
 
 Previous step: [Create a Node.js container in Kubernetes](get-started-nodejs-03.md)
 
-In this section, we'll use VS Code to directly debug our container running in Azure (be sure to have installed the [VS Code extension for Conneced Environment](get-started-nodejs-01.md#kubernetes-debugging-with-vs-code)). We'll also learn how to make our edit-run-test loop even faster. To do this, we need to configure our code project so VS Code will communicate with our development environment in Azure.
+[!INCLUDE[](common/debug-intro.md)]
 
 [!INCLUDE[](common/init-debug-assets-vscode.md)]
 
@@ -40,6 +40,7 @@ Save the file, and in the **Debug actions pane**, click the **Refresh** button.
 Instead of rebuilding and redeploying a new container image each time code edits are made, which will often take considerable time, Connected Environment will restart the Node.js process in between debug sessions to provide a faster edit/debug loop.
 
 Now refresh the web app in the browser, or press the *Say It Again* button - you should see your custom message appear in the UI.
+
 
 ## An Even Faster Development Flow with Nodemon
 *Nodemon* is a popular tool that Node.js developers use for rapid development - instead of manually restarting the Node process each time a server-side code edit is made, developers will often configure their Node project to have *nodemon* monitor file changes and automatically restart the server process. In this style of working, the developer just refreshes their browser after making a code edit.

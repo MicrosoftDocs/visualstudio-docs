@@ -2,7 +2,7 @@
  
 Previous step: [Create an ASP.NET Core Web App](get-started-netcore-03.md)
 
-In this section, we'll use VS Code to directly debug our container running in Azure (be sure to have installed the [VS Code extension for Conneced Environment](get-started-netcore-01.md#kubernetes-debugging-with-vs-code)). We'll also learn how to make our edit-run-test loop even faster. To do this, we need to configure our code project so VS Code will communicate with our development environment in Azure.
+[!INCLUDE[](common/debug-intro.md)]
 
 [!INCLUDE[](common/init-debug-assets-vscode.md)]
 
