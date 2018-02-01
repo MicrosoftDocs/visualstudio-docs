@@ -177,7 +177,7 @@ To allow Visual Studio to extract the right information from such warnings and s
 ^(?<filename>.+?)\((?<line>\d+),(?<column>\d+)\): warning (?<msg_id>.+?): (?<message>.+?)$]]
 ```
 
-(Note that `msg_id` in the value should actually be `code`, see [Issues 3680](https://github.com/Microsoft/PTVS/issues/3680).)
+(Note that `msg_id` in the value should actually be `code`, see [Issue 3680](https://github.com/Microsoft/PTVS/issues/3680).)
 
 ## Creating a .targets file with custom commands
 
@@ -329,7 +329,7 @@ Attribute values can be empty if you refer to a property that's not defined. For
 
 ### Visual Studio hangs and crashes when running the command
 
-You're likely attempting to run a console command with `ExecuteIn="output"`, in which case Visual Studio may crash trying to parse the output. Use `ExecuteIn="console"` instead.
+You're likely attempting to run a console command with `ExecuteIn="output"`, in which case Visual Studio may crash trying to parse the output. Use `ExecuteIn="console"` instead. (See [Issue 3682](https://github.com/Microsoft/PTVS/issues/3681).)
 
 ### Executable command "is not recognized as an internal or external command, operate program or batch file"
 
