@@ -24,14 +24,15 @@ ms.workload:
 ---
 
 # Ports and protocols for Visual Studio and Azure Services
-When you use Visual Studio or Azure Services behind a firewall or proxy server, here are URLs you might want to whitelist and the ports and protocols that you might want to open up, and why.
+To make sure that you have access to everything you need When you use Visual Studio or Azure Services behind a firewall or proxy server, here are lists of the URLs you might want to whitelist and the ports and protocols that you might want to open up.
 
   > [!NOTE]
   > For each list, the port for the HTTPS protocol is 443, and the port for the HTTP protocol is 80.
 
-## Visual Studio ports and protocols
+## Visual Studio whitelist URLs and ports and protocols
 | Service or scenario | DNS endpoint | Protocol | Port | Description |
 | --- | --- | --- | --- | --- |
+| URL<br>resolution | go.microsoft.com<br><br>aka.ms | | |Used to shorten URLs, which then resolve into longer URLs
 | Customer Experience <br />Improvement Program (CEIP) | vortex.data.microsoft.com <br><br/>dc.services.visualstudio.com <br><br>az667904.vo.msecnd.net <br><br>visualstudio-devdiv-c2s.msedge.net <br />  |  |  | Used to collect anonymous usage patterns and error logs |
 | AI Project <br />Integration | go.microsoft.com <br /><br />az861674.vo.msecnd.net  | | | Used to configure new projects to send usage data to your registered Application Insights account |
 | PerfWatson.exe | az667904.vo.msecnd.net <br><br>dc.services.visualstudio.com <br><br>scus-breeziest-in.cloudapp.net <br><br>vortex.data.microsoft.com | | | Used to track UI freeze issues |
@@ -67,7 +68,7 @@ When you use Visual Studio or Azure Services behind a firewall or proxy server, 
 > [!NOTE]
 > For each list, the port for the HTTPS protocol is 443, and the port for the HTTP protocol is 80.
 
-## Azure Services ports and protocols
+## Azure Services whitelist URLs and ports and protocols
 
 | Service or scenario | DNS endpoint | Protocol | Port | Description |
 | --- | --- | --- | --- | --- |
