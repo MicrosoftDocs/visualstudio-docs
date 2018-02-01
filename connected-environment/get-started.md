@@ -1,6 +1,6 @@
 # Getting Started on VS Connected Environment
 
-Welcome! Please select a **language-specific guide** below to get started:
+Welcome! Please select a **language-specific guide** to get started:
 
 > [!div class="nextstepaction"]
 > [.NET Core (VS Code & CLI](get-started-netcore-01.md)
