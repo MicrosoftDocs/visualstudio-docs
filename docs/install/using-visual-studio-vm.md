@@ -1,4 +1,4 @@
-.---
+---
 title: "Using Visual Studio on an Azure Virtual Machine | Microsoft Docs"
 description: "Learn how to use Visual Studio on an Azure Virtual Machine"
 ms.date: "01/30/2018"
