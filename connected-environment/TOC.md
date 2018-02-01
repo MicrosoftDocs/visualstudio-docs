@@ -18,5 +18,9 @@
 ##[Node.js (VS Code & CLI)](get-started-nodejs-01.md)
 ###[1. Install Tools](get-started-nodejs-01.md)
 ###[2. Create a Dev Environment in Azure](get-started-nodejs-02.md)
+###[3. Create a Node.js Web App](get-started-nodejs-03.md)
+###[4. Debug a Container in Kubernetes](get-started-nodejs-04.md)
+###[5. Call another container](get-started-nodejs-05.md)
+###[6. Team Development](get-started-nodejs-06.md)
 
 
