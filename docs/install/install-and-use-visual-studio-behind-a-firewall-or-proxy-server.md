@@ -63,8 +63,8 @@ If it's possible for your environment, consider adding the following domains wit
 | incredibuildvs2017i.azureedge.net | Game development with C++ (IncrediBuild) |
 | www.python.org | Python development (Python) <br /><br />Data science and analytical applications (Python) |
 
-## Ports and protocols to enable when you use Visual Studio or Azure Services behind a firewall or proxy server
-When you use Visual Studio or Azure services behind a firewall or proxy server, there are some ports and protocols that you might want to enable to ensure that you have access to everything you need. For more information, see the [Ports and protocols for Visual Studio and for Azure services](visual-studio-and-azure-services-ports-and-protocols.md) page.
+## Whitelist URLs when you use Visual Studio or Azure Services
+When you use Visual Studio or Azure services behind a firewall or proxy server, there are URLs you might want to whitelist, and some ports and protocols that you might want to enable to ensure that you have access to everything you need. For more information, see the [Ports and protocols for Visual Studio and for Azure services](visual-studio-and-azure-services-ports-and-protocols.md) page.
 
 ## Troubleshoot network-related errors
 Sometimes, you might run in to network- or proxy-related errors when you install or use Visual Studio behind a firewall or a proxy server. For more information about solutions for such error messages, see the [Troubleshooting network errors when you install or use Visual Studio](troubleshooting-network-errors.md) page.
