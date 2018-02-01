@@ -1,7 +1,3 @@
-# Getting Started on Connected Environment with .NET Core
-
-[!INCLUDE[common_test](common/learning-objectives.md)]
-
 ## Install the Connected Environment CLI
 There is minimal "local machine" setup required with Connected Environment. Most of your development environment's configuration will be in the cloud, making it easily shareable with others.
 
@@ -29,9 +25,3 @@ While you can use the Connected Environment CLI as a standalone tool, rich featu
 ```cmd
 code --install-extension path-to-downloaded-extension/vsce-0.1.0.vsix
 ```
-
-
-We're now ready to create a Kubernetes-based development environment in Azure.
-
-> [!div class="nextstepaction"]
-> [Create a Dev Environment in Azure](get-started-netcore-02.md)
