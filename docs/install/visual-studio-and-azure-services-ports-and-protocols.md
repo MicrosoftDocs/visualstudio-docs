@@ -26,17 +26,17 @@ ms.workload:
 # Ports, protocols, and whitelist URLs for Visual Studio and Azure Services
 To make sure that you have access to everything you need when you use Visual Studio or Azure Services behind a firewall or proxy server, here are lists of the URLs you should whitelist and the ports and protocols that you should open.
 
-  > [!NOTE]
-  > For each list, the port for the HTTPS protocol is 443, and the port for the HTTP protocol is 80.
+## Visual Studio: URLs to whitelist and ports &amp; protocols to open
+> [!NOTE]
+> The port for the HTTPS protocol is 443, and the port for the HTTP protocol is 80.
 
-## Visual Studio: URLs to whitelist and ports and protocols to open
 | Service or scenario | DNS endpoint | Protocol | Port | Description |
 | --- | --- | --- | --- | --- |
 | URL<br>resolution | go.microsoft.com<br><br>aka.ms | | |Used to shorten URLs, which then resolve into longer URLs
 | Customer Experience <br />Improvement Program (CEIP) | vortex.data.microsoft.com <br><br/>dc.services.visualstudio.com <br><br>az667904.vo.msecnd.net <br><br>visualstudio-devdiv-c2s.msedge.net <br />  |  |  | Used to collect anonymous usage patterns and error logs |
 | AI Project <br />Integration | go.microsoft.com <br /><br />az861674.vo.msecnd.net  | | | Used to configure new projects to send usage data to your registered Application Insights account |
 | PerfWatson.exe | az667904.vo.msecnd.net <br><br>dc.services.visualstudio.com <br><br>scus-breeziest-in.cloudapp.net <br><br>vortex.data.microsoft.com | | | Used to track UI freeze issues |
-| Code Lens | codelensprodscus1su0.app.codelens.visualstudio.com | | | Used to provide information in the editor about when a file was last updated, the timeline of changes, the work items that changes are associated with, the authors, and more|
+| Code Lens | codelensprodscus1su0.app.<br>codelens.visualstudio.com | | | Used to provide information in the editor about when a file was last updated, the timeline of changes, the work items that changes are associated with, the authors, and more|
 |Experimental <br>feature enabling  | visualstudio-devdiv-c2s.msedge.net | | | Used to activate experimental new features or feature changes |
 | Identity “badge” <br>(user name and avatar) | app.vssps.visualstudio.com <br><br>app.vsspsext.visualstudio.com | | | Used to display the user's name and avatar in the IDE  |
 | Roaming Settings | app.vssps.visualstudio.com | | | Used to make sure that setting changes roam from one machine to another |
@@ -65,10 +65,10 @@ To make sure that you have access to everything you need when you use Visual Stu
 | SharePoint and <br>Office Add-ins | sharepoint.com |  |  | Used to publish and test SharePoint and Office Add-ins to SharePoint Online |
 | Workflow Manager <br />Test Service<br> Host | |  | 12292 | A firewall rule that is created automatically for testing SharePoint Add-ins with workflows |
 
-> [!NOTE]
-> For each list, the port for the HTTPS protocol is 443, and the port for the HTTP protocol is 80.
 
-## Azure Services: URLs to whitelist and ports and protocols to open
+## Azure Services: URLs to whitelist and ports &amp; protocols to open
+> [!NOTE]
+> The port for the HTTPS protocol is 443, and the port for the HTTP protocol is 80.
 
 | Service or scenario | DNS endpoint | Protocol | Port | Description |
 | --- | --- | --- | --- | --- |
