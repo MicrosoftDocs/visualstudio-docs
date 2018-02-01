@@ -30,7 +30,7 @@ The following illustration shows results of a CTest run using Google Test framew
 
 ![CTest with Google Test Framework in VS2017 15.6](media/ctest-test-explorer.png "CTest and Google Test in Test Explorer")
 
-If you are using CTest but not the Google or Boost adapters, you will see results at the CTest level instead of the individual test method level. CTest-only tests do not support stepping in debug mode via Test Explorer and do not support stack traces.
+If you are using CTest but not the Google or Boost adapters, you will see results at the CTest level instead of the individual test method level. You can debug and step-through CTest-only executables, but stack traces on individual tests are not supported.
 
 ## To run tests (Visual Studio 2017 version 15.5)
 
