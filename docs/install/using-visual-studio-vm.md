@@ -1,4 +1,4 @@
----
+.---
 title: "Using Visual Studio on an Azure Virtual Machine | Microsoft Docs"
 description: "Learn how to use Visual Studio on an Azure Virtual Machine"
 ms.date: "01/30/2018"
@@ -22,7 +22,7 @@ Using Visual Studio running in a preconfigured Azure virtual machine (VM) is the
 New to Azure? [Create a free Azure account](https://azure.microsoft.com/free).
 
 ## What configurations and versions are available?
-In the Azure Marketplace, you find images for the most recent major versions:  Visual Studio 2017 and Visual Studio 2015.  For each major version, you see the originally released (aka ‘RTW’) version, and the “latest” updated versions.  For each of these different versions, you find the Visual Studio Enterprise and Visual Studio Community editions.  We update these images at least every month to include the latest Visual Studio and Windows updates.  While the names of the images remain the same, each image's description includes the installed product version and the image's 'as of' date.
+In the Azure Marketplace, you find images for the most recent major versions:  Visual Studio 2017 and Visual Studio 2015.  For each major version, you see the originally released (a.k.a. ‘RTW’) version, and the “latest” updated versions.  For each of these different versions, you find the Visual Studio Enterprise and Visual Studio Community editions.  We update these images at least every month to include the latest Visual Studio and Windows updates.  While the names of the images remain the same, each image's description includes the installed product version and the image's 'as of' date.
 
 |               Release version              |        Editions       |     Product Version     |
 |:------------------------------------------:|:---------------------:|:-----------------------:|
