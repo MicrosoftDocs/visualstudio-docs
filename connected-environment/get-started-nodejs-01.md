@@ -2,6 +2,8 @@
 
 [!INCLUDE[](common/learning-objectives.md)]
 
+[!INCLUDE[](common/see-troubleshooting.md)]
+
 [!INCLUDE[](common/install-cli-and-vscode.md)]
 
 
