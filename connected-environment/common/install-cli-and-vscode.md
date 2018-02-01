@@ -1,5 +1,5 @@
 ## Install the Connected Environment CLI
-There is minimal "local machine" setup required with Connected Environment. Most of your development environment's configuration will be in the cloud, making it easily shareable with others.
+There is minimal local machine setup required with Connected Environment. Most of your development environment's configuration will be in the cloud, making it easily shareable with others.
 
 ### Install on Mac
 Download and install the Connected Environment CLI:

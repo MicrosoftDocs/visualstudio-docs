@@ -8,7 +8,7 @@ vsce up
 Keep an eye on the command's output, you'll notice several things as it progresses:
 1. Source code is synced to the development environment in Azure.
 1. A container image is built in Azure, as specified by the Docker assets in your code folder.
-1. A container instance is deployed to Kubernetes, specified by your Kubernetes assets.
+1. Kubernetes objects are created that utilize the container image as specified by the Helm chart in your code folder.
 1. Information about the container's endpoint(s) is displayed. In our case, we're expecting a public HTTPS URL.
 1. Assuming the above stages complete successfully, you should begin to see `stdout` (and `stderr`) output as the container starts up.
 

@@ -14,8 +14,8 @@ This approach carries several benefits:
 
 > [!div class="checklist"]
 > * Get an infrastructure-less development environment that is representative of production, with full access to cloud resources.
-> * Debug Node.js and .NET Core code directly in Kubernetes containers with VS Code or Visual Studio. All other languages can be developed with the command-line interface.
-> * Easily share a Kubernetes instance across your development team to save costs and to minimize "local machine" setup for new team members.
+> * Debug Node.js and .NET Core containers directly in Kubernetes with VS Code or Visual Studio. All other languages can be developed with the command-line interface.
+> * Easily share a Kubernetes instance across your development team to save costs and to minimize local machine setup for new team members.
 > * Develop your code in isolation, and do end-to-end testing with other components without replicating or mocking up dependencies.
 
 

@@ -29,7 +29,7 @@ Now let's take a closer look at where the services are currently running. Run th
 ```
 Name         Space     Chart              Ports   Updated     Access Points
 -----------  --------  -----------------  ------  ----------  -------------------------
-mywebapi     mainline  mywebapi-0.1.0     80/TCP  2m ago     http://localhost:64322
+mywebapi     mainline  mywebapi-0.1.0     80/TCP  2m ago     <not attached>
 webfrontend  mainline  webfrontend-0.1.0  80/TCP  1m ago     https://webfrontend-contosodev.vsce.io
 ```
 

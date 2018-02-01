@@ -4,7 +4,7 @@
 > **If you get stuck** at any time, see the [Troubleshooting](troubleshooting.md) section.
 
 ## Install the Connected Environment CLI
-There is minimal "local machine" setup required with Connected Environment. Most of your development environment's configuration will be in the cloud, making it easily shareable with others.
+There is minimal local machine setup required with Connected Environment. Most of your development environment's configuration will be in the cloud, making it easily shareable with others.
 
 1. Install [Git for Windows](https://git-scm.com/downloads), select the default install options. 
 1. Download **kubectl.exe** from [this link](https://storage.googleapis.com/kubernetes-release/release/v1.9.0/bin/windows/amd64/kubectl.exe) and **save** it to a location on your PATH.
