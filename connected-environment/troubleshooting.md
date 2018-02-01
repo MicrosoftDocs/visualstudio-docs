@@ -20,7 +20,7 @@ Install the [VS Code extension for Conneced Environment](get-started-netcore-01.
 ## Error 'upstream connect error or disconnect/reset before headers'
 You may see this error when trying to access your service - for example, when you navigate to the service's URL in a browser. 
 
-**Reason:** The container is in the process of being updated because of a new code edit.
+**Reason:** The container is in the process of being updated and is not yet ready.
 
 **Try:**
-Just wait a few seconds, and access the service again.
+Wait a few seconds, and try accessing the service again. If this doesn't seem to work, run `vsce up` (or hit F5) again.
