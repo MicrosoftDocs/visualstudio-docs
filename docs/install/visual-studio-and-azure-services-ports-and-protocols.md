@@ -24,7 +24,7 @@ ms.workload:
 ---
 
 # Ports and protocols for Visual Studio and Azure Services
-Whether you are using Azure Services with Visual Studio or you are an Azure developer, here are the DNS endpoints, protocols, and output ports you'll want to know about.
+When you use Visual Studio or Azure Services behind a firewall or proxy server, here are URLs you might want to whitelist and the ports and protocols that you might want to open up, and why.
 
   > [!NOTE]
   > For each list, the port for the HTTPS protocol is 443, and the port for the HTTP protocol is 80.
