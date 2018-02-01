@@ -1926,6 +1926,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/debugger/graphics/how-to-use-graphics-diagnostics-with-an-arm-device.md",
+            "redirect_url": "/visualstudio/debugger/graphics/graphics-diagnostics-examples",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/profiling/analyze-cpu-usage-in-a-windows-universal-app.md",
             "redirect_url": "/visualstudio/profiling/beginners-guide-to-performance-profiling",
             "redirect_document_id": false
