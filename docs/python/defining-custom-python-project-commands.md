@@ -11,7 +11,6 @@ dev_langs:
   - "python"
 ms.tgt_pltfrm:
 ms.topic: "article"
-caps.latest.revision: 1
 author: kraigb
 ms.author: kraigb
 manager: ghogen
@@ -146,10 +145,10 @@ All attribute values are case-insensitive.
 
 | Attribute | Required | Description |
 | --- | --- | --- |
-| TargetType | Yes | Specifies what the Target attribute contains and how it's used along with the Arguments attribute:<ul><li>**executable**: Run the executable named in Target, appending the value in Arguments, as if entered directly on the command line. The value must contain only a program name without arguments.</li><li>**script**: Run `python.exe` with the filename in Target, followed with the value in Arguments.</li><li>**module**: Run `python -m` followed by the module name in Target, followed with the value in Arguments.</li><li>**code**: Run the inline code contained in Target. The Arguments value is ignored.</li><li>**pip**: Run `pip` with the command in Target, followed by Arguments.</li></ul> |
+| TargetType | Yes | Specifies what the Target attribute contains and how it's used along with the Arguments attribute:<ul><li>**executable**: Run the executable named in Target, appending the value in Arguments, as if entered directly on the command line. The value must contain only a program name without arguments.</li><li>**script**: Run `python.exe` with the filename in Target, followed with the value in Arguments.</li><li>**module**: Run `python -m` followed by the module name in Target, followed with the value in Arguments.</li><li>**code**: Run the inline code contained in Target. The Arguments value is ignored.</li><li>**pip**: Run `pip` with the command in Target, followed by Arguments; is ExecuteIn is set to "output", however, pip assumes the `install` command and uses Target as the package name.</li></ul> |
 | Target | Yes | The filename, module name, code, or pip command to use, depending on the TargetType. |
 | Arguments | Optional | Specifies a string of arguments (if any) to give to the target. Note that when TargetType is `script`, the arguments are given to the Python program, not `python.exe`. Ignored for the `code` TargetType. |
-| ExecuteIn | Yes | Specifies the environment in which to run the command:<ul><li>**console**: (Default) Runs Target and the arguments as if they are entered directly on the command line. A command window appears while the Target is running, then is closed automatically.</li><li>**consolepause**: Same a console, but waits for a keypress before closing the window.</li><li>**output**: Runs Target and displays its results in the Output window in Visual Studio</li><li>**repl**: Runs Target in the [Python Interactive Window](interactive-repl.md); the optional display name is used for the title of the window.</li><li>**none**: Runs the command in the console but does not show the console window itself. Output does appear in the Visual Studio output window.</li></ul>|
+| ExecuteIn | Yes | Specifies the environment in which to run the command:<ul><li>**console**: (Default) Runs Target and the arguments as if they are entered directly on the command line. A command window appears while the Target is running, then is closed automatically.</li><li>**consolepause**: Same a console, but waits for a keypress before closing the window.</li><li>**output**: Runs Target and displays its results in the Output window in Visual Studio. If TargetType is "pip" then Visual Studio uses Target as the package name and appends Arguments.</li><li>**repl**: Runs Target in the [Python Interactive Window](interactive-repl.md); the optional display name is used for the title of the window.</li><li>**none**: Runs the command in the console but does not show the console window itself. Output does appear in the Visual Studio output window.</li></ul>|
 | WorkingDirectory | Optional | The folder in which to run the command. |
 | ErrorRegex<br>WarningRegEx | Optional | Used only when ExecuteIn is `output`. Both values specify a regular expression with which Visual Studio parses command output to show errors and warnings in its Error List window. If not specified, the command does not affect the Error List window. For more information on what Visual Studio expects, see [Named capture groups](#named-capture-groups-for-regular-expression). |
 | RequiredPackages | Optional | A list of package requirements for the command using the same format as [requirements.txt](https://pip.readthedocs.io/en/1.1/requirements.html) (pip.readthedocs.io). The **Run PyLint** command, for example specifies `pylint>=1.0.0`. Before running the command, Visual Studio checks that all packages in the list are installed. Visual Studio uses pip to install any missing packages. |
@@ -160,7 +159,7 @@ All attribute values are case-insensitive.
 When parsing error and warnings from a command's output, Visual Studio expects that the regular expressions in the `ErrorRegex` and `WarningRegex` values use the following named groups:
 
 - `(?<message>...)`: Text of the error
-- `(?<code>...)`: Error code [TODO: is this msg_id?]
+- `(?<code>...)`: Error code
 - `(?<filename>...)`: Name of the file for which the error is reported
 - `(?<line>...)`: Line number of the location in the file for which the error reported.
 - `(?<column>...)`: Column number of the location in the file for which the error reported.
@@ -172,11 +171,13 @@ For example, PyLint produces warnings of the following form:
 C:  1, 0: Missing module docstring (missing-docstring)
 ```
 
-To allow Visual Studio to extract the right information from such warnings and show them in the **Error List** window, the `WarningRegex` value for the **Run PyLint** command is as follows:
+To allow Visual Studio to extract the right information from such warnings and show them in the **Error List** window, the `WarningRegex` value for the **Run Pylint** command is as follows:
 
 ```regex
 ^(?<filename>.+?)\((?<line>\d+),(?<column>\d+)\): warning (?<msg_id>.+?): (?<message>.+?)$]]
 ```
+
+(Note that `msg_id` in the value should actually be `code`, see [Issues 3680](https://github.com/Microsoft/PTVS/issues/3680).)
 
 ## Creating a .targets file with custom commands
 
@@ -239,6 +240,56 @@ The following code appears in the `Microsoft.PythonTools.targets` file:
 </Target>
 ```
 
+### Run pip install with a specific package (pip target)
+
+The following command runs `pip install my-package` in the Output window. You might use a command like this when developing a package and testing its installation. Note that Target contains the package name rather than the `install` command, which is assumed when using `ExecuteIn="output"`.
+
+```xml
+<PropertyGroup>
+  <PythonCommands>$(PythonCommands);InstallMyPackage</PythonCommands>
+</PropertyGroup>
+
+<Target Name="InstallMyPackage" Label="pip install my-package" Returns="@(Commands)">
+  <CreatePythonCommandItem Target="my-package" TargetType="pip" Arguments=""
+    WorkingDirectory="$(MSBuildProjectDirectory)" ExecuteIn="output">
+    <Output TaskParameter="Command" ItemName="Commands" />
+  </CreatePythonCommandItem>
+</Target>
+```
+
+### Show outdated pip packages (pip target)
+
+```xml
+<PropertyGroup>
+  <PythonCommands>$(PythonCommands);ShowOutdatedPackages</PythonCommands>
+</PropertyGroup>
+
+<Target Name="ShowOutdatedPackages" Label="Show outdated pip packages" Returns="@(Commands)">
+  <CreatePythonCommandItem Target="list" TargetType="pip" Arguments="-o --format columns"
+    WorkingDirectory="$(MSBuildProjectDirectory)" ExecuteIn="consolepause">
+    <Output TaskParameter="Command" ItemName="Commands" />
+  </CreatePythonCommandItem>
+</Target>
+```
+
+### Run an executable with consolepause
+
+The following command simply runs `where` to show Python files starting in the project folder:
+
+```xml
+<PropertyGroup>
+  <PythonCommands>$(PythonCommands);InstallMyPackage;ShowOutdatedPackages;ShowAllPythonFilesInProject</PythonCommands>
+</PropertyGroup>
+
+<Target Name="ShowAllPythonFilesInProject" Label="Show Python files in project" Returns="@(Commands)">
+  <CreatePythonCommandItem Target="where" TargetType="executable" Arguments="/r . *.py"
+    WorkingDirectory="$(MSBuildProjectDirectory)" ExecuteIn="output">
+    <Output TaskParameter="Command" ItemName="Commands" />
+  </CreatePythonCommandItem>
+</Target>
+```
+
+
 ## Troubleshooting
 
 ### Message: "The project file could not be loaded"
@@ -272,10 +323,9 @@ Indicates that the contents of the `<Target>` or `<CreatePythonCommandItem>` ele
 - The required `TargetType` attribute is empty or contains an unrecognized value.
 - The required `ExecuteIn` attribute is empty or contains an unrecognized value.
 - `ErrorRegex` or `WarningRegex` is specified without setting `ExecuteIn="output"`.
+- Unrecognized attributes exist in the element. For example, you may have used `Argumnets` (misspelled) instead of `Arguments`.
 
 Attribute values can be empty if you refer to a property that's not defined. For example, if you use the token `$(StartupFile)` but no startup file has been defined in the project, then the token resolves to an empty string. In such cases you may want to define a default value. For example, the **Run server** and **Run debug server** commands defined in the Bottle, Flask, and Django project templates default to `manage.py` if you haven't otherwise specified a server startup file in the project properties.
-
-[TBD: details logged somewhere?]
 
 ### Visual Studio hangs and crashes when running the command
 

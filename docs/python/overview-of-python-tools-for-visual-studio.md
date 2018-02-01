@@ -1,16 +1,16 @@
 ---
 title: Overview of Python Support in Visual Studio (Windows) | Microsoft Docs
 description: Summary of features available for Python in Visual Studio (also know as Python Tools for Visual Studio, PTVS), including questions and answers (FAQ) and feature support matrix across Visual Studio versions.
-ms.custom: ""
+ms.custom:
 ms.date: 01/09/2018
-ms.reviewer: ""
-ms.suite: ""
+ms.reviewer:
+ms.suite:
 ms.technology: 
   - "devlang-python"
-ms.devlang: python
-ms.tgt_pltfrm: ""
+dev_langs:
+  - "python"
+ms.tgt_pltfrm:
 ms.topic: "hero-article"
-caps.latest.revision: 11
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen

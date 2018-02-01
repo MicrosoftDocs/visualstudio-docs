@@ -1,16 +1,16 @@
 ---
 title: Working with Python in Visual Studio, Step 2, Writing and Running Code | Microsoft Docs
 description: Step 2 of a core tutorial for working with Python within Visual Studio, covering how to edit and run a simple Hello World program, followed by more interesting code that demonstrates Visual Studio's editing and IntelliSense features.
-ms.custom: ""
+ms.custom:
 ms.date: 01/16/2018
-ms.reviewer: ""
-ms.suite: ""
+ms.reviewer:
+ms.suite:
 ms.technology: 
   - "devlang-python"
-ms.devlang: python
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
-caps.latest.revision: 1
+dev_langs:
+  - "python"
+ms.tgt_pltfrm:
+ms.topic: "tutorial"
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen

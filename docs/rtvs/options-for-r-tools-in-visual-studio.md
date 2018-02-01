@@ -1,21 +1,21 @@
 ---
 title: R Tools options in Visual Studio | Microsoft Docs
 description: Reference for the options in Visual Studio for the R language and associated features.
-ms.custom: ""
+ms.custom:
 ms.date: 12/04/2017
-ms.reviewer: ""
-ms.suite: ""
+ms.reviewer:
+ms.suite:
 ms.technology: 
   - "devlang-r"
-ms.devlang: r
-ms.tgt_pltfrm: ""
+dev_langs:
+  - "R"
+ms.tgt_pltfrm:
 f1_keywords: 
   - "vs.toolsoptionspages.text_editor.r.advanced"
   - "vs.toolsoptionspages.r_tools"
   - "vs.toolsoptionspages.r_tools.advanced"
   - "vs.toolsoptionspages.r_tools.#150"
 ms.topic: "article"
-caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen

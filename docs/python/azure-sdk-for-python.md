@@ -7,10 +7,10 @@ ms.reviewer:
 ms.suite:
 ms.technology: 
   - "devlang-python"
-ms.devlang: python
+dev_langs:
+  - "python"
 ms.tgt_pltfrm:
 ms.topic: "article"
-caps.latest.revision: 11
 author: kraigb
 ms.author: kraigb
 manager: ghogen
