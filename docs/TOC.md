@@ -1,5 +1,6 @@
 # [Visual Studio Documentation](ide/index.md)
 # [Overview](ide/visual-studio-ide.md)
+## [What's New](ide/whats-new-in-visual-studio.md)
 # Installation
 ## [Install Visual Studio](install/install-visual-studio.md)
 ## [Sign in to Visual Studio](ide/signing-in-to-visual-studio.md)
@@ -309,7 +310,6 @@
 #### [Culture-Specific Classes for Global Windows Forms and Web Forms](ide/culture-specific-classes-for-global-windows-forms-and-web-forms.md)
 ### [Creating Applications in Bi-directional Languages](ide/creating-applications-in-bi-directional-languages.md)
 # Reference
-## [What's New](ide/whats-new-in-visual-studio.md)
 ## Project and Item Templates
 ### [Template Parameters](ide/template-parameters.md)
 ### [Template Schema Reference (Extensibility)](extensibility/visual-studio-template-schema-reference.md?context=visualstudio/default)
