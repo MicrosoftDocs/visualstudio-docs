@@ -11,5 +11,4 @@ Welcome! Please select a **language-specific guide** below to get started:
 > [!div class="nextstepaction"]
 > [Node.js (VS Code & CLI)](get-started-nodejs-01.md)
 
-> [!Note]
-> If you get stuck at any time, see the [Troubleshooting](troubleshooting.md) section.
+
