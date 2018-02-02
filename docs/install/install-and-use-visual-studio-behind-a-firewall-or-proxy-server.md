@@ -64,7 +64,7 @@ If it's possible for your environment, consider adding the following domains wit
 | www.python.org | Python development (Python) <br /><br />Data science and analytical applications (Python) |
 
 ## URLs to whitelist when you use Visual Studio
-When you use Visual Studio or Azure Services behind a firewall or proxy server, there is another set of URLs you might want to whitelist, along with some ports & protocols that you might want to open. For more information, see the [Ports & protocols to open and URLs to whitelist when you use Visual Studio or Azure Services](visual-studio-and-azure-services-ports-and-protocols.md) page.
+When you use Visual Studio or Azure Services behind a firewall or proxy server, there are more URLs you might want to whitelist, along with some ports & protocols that you might want to open. For more information, see the [Ports & protocols to open and URLs to whitelist when you use Visual Studio or Azure Services](visual-studio-and-azure-services-ports-and-protocols.md) page.
 
 ## Troubleshoot network-related errors
 Sometimes, you might run in to network- or proxy-related errors when you install or use Visual Studio behind a firewall or a proxy server. For more information about solutions for such error messages, see the [Troubleshooting network errors when you install or use Visual Studio](troubleshooting-network-errors.md) page.
