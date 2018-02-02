@@ -2,7 +2,7 @@
 title: How To Define Custom Menu Commands for Python Projects in Visual Studio | Microsoft Docs
 description: Demonstrates how to edit project and targets files to add custom commands to the Python project context menu in Visual Studio. Commands can invoke on executable programs, scripts, modules, inline code snippets, and pip.
 ms.custom:
-ms.date: 01/29/2018
+ms.date: 02/02/2018
 ms.reviewer:
 ms.suite:
 ms.technology: 
@@ -289,6 +289,9 @@ The following command simply runs `where` to show Python files starting in the p
 </Target>
 ```
 
+### Run server and run debug server commands
+
+To explore how the **Start server** and **Start debug server** commands for web projects are defined, examine the [Microsoft.PythonTools.Web.targets](https://github.com/Microsoft/PTVS/blob/master/Python/Product/BuildTasks/Microsoft.PythonTools.Web.targets) (GitHub).
 
 ## Troubleshooting
 
