@@ -21,3 +21,6 @@ This approach carries several benefits:
 
 > [!div class="nextstepaction"]
 > [Get Started](get-started.md)
+
+
+![](media/vscode-overview.png)
