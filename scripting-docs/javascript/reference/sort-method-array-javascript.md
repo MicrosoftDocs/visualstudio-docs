@@ -17,8 +17,6 @@ dev_langs:
   - "DHTML"
 helpviewer_keywords: 
   - "Sort method"
-ms.assetid: 9bd8b54a-c838-4806-85c8-62eebe6bc48c
-caps.latest.revision: 15
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
