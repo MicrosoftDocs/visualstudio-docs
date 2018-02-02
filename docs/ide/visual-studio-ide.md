@@ -41,7 +41,7 @@ You can leverage Azure services for your apps using Connected Services such as:
 
 [HockeyApp](https://www.visualstudio.com/hockey-app/) helps you distribute beta versions, collect live crash reports, and get feedback from real users. In addition, you can integrate Office 365 REST APIs into your own app to connect to data stored in the cloud. For more information, see [these GitHub samples](https://github.com/OfficeDev/?utf8=%E2%9C%93&query=o365).
 
-[Application Insights](https://marketplace.visualstudio.com/items?itemName=VisualStudioOnlineApplicationInsights.application-insights) helps you detect and diagnose quality issues in your apps and web services. Application Insights will also help you understand what your users actually do with your app so you can optimize the user experience.
+[Application Insights](https://marketplace.visualstudio.com/items?itemName=VisualStudioOnlineApplicationInsights.application-insights) helps you detect and diagnose quality issues in your apps and web services. Application Insights also helps you understand what your users actually do with your app, so you can optimize the user experience.
 
 ### Create apps for the web
 
@@ -63,7 +63,7 @@ You can use Visual Studio to build apps and games for macOS, Linux, and Windows,
 
 - Build native C++ apps for iOS, Android and Windows devices, and share common code in libraries built for iOS, Android, and Windows, by using [C++ for cross-platform development](../cross-platform/visual-cpp-for-cross-platform-mobile-development.md).
 
-- Deploy, test and debug Android apps with Visual Studio's [Android emulator](../cross-platform/visual-studio-emulator-for-android.md).
+- Deploy, test, and debug Android apps with Visual Studio's [Android emulator](../cross-platform/visual-studio-emulator-for-android.md).
 
 Visual Studio can do help you do many more things. For a more complete list, see [www.visualstudio.com](https://www.visualstudio.com/vs/).
 
@@ -98,11 +98,13 @@ One good way to learn about something is to use it! Let's dive in and create a n
 
    Visual Studio uses the template to create your project. It is a simple "Hello World" application that calls the <xref:System.Console.WriteLine> method to display the literal string "Hello World!" in the console window.
 
-1. Shortly, you should see something like the following screenshot. The C# code for your application is shown in the editor window, which takes up most of the space. The project files are listed on the right side in a window called **Solution Explorer**.
+1. Shortly, you should see something like the following screenshot:
 
   ![Visual Studio IDE](../ide/media/overview-ide-console-app.png)
 
-   Notice that the code syntax is automatically colorized to indicate different types of code, such as keywords and types. In addition, small, vertical dashed lines in the code indicate which braces match one another, and line numbers help you locate code later. You can choose the small, boxed minus signs to collapse or expand code. This code outlining feature lets you hide code you don't need, helping to minimize onscreen clutter.
+   The C# code for your application is shown in the editor window, which takes up most of the space. Notice that the code syntax is automatically colorized to indicate different types of code, such as keywords and types. In addition, small, vertical dashed lines in the code indicate which braces match one another, and line numbers help you locate code later. You can choose the small, boxed minus signs to collapse or expand code. This code outlining feature lets you hide code you don't need, helping to minimize onscreen clutter.
+
+   The project files are listed on the right side in a window called **Solution Explorer**.
 
   ![Visual Studio IDE with red boxes](../ide/media/overview-ide-console-app-red-boxes.png)
 
@@ -127,7 +129,7 @@ One good way to learn about something is to use it! Let's dive in and create a n
 
    This code displays "What is your name?" in the console window, and waits until the user enters some text followed by the **Enter** key.
 
-1. Now change the line that says `Console.WriteLine("Hello World!");` to the following:
+1. Now change the line that says `Console.WriteLine("Hello World!");` to the following code:
 
    ```csharp
    Console.WriteLine($"\nHello {name}!");
@@ -217,7 +219,7 @@ The following image shows the Team Explorer window for a solution that is hosted
 
 ![Visual Studio Team Explorer](../ide/media/vs2017_teamexplorer.png)
 
-You can also automate your build process to build the code that the devs on your team have checked into version control. For example, you can build one or more projects nightly or every time that code is checked in. See [Build and Release (VSTS and TFS)](/vsts/build-release/index) for more information.
+You can also automate your build process to build the code that the devs on your team have checked into version control. For example, you can build one or more projects nightly or every time that code is checked in. For more information, see [Build and release (VSTS and TFS)](/vsts/build-release/index).
 
 ## Connect to services, databases, and cloud-based resources
 
