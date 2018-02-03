@@ -200,6 +200,33 @@ You could use the following `tsconfig.json` to make sure the language service on
   }
 }
 ```
+# Troubleshoot: The JavaScript language service has been disabled for the following project(s)
+When opening a JavaScript project that has a huge amount of content you might get a message that reads "The JavaScript language service has been disabled for the following project(s)". The most common reason for having so much .js source is due to including libraries with a ton of content.
+
+The simpliest way to optimize your project, is by adding a `tsconfig.json` file on your project root to let the language service know which files are safe to ignore. Use the sample below to exclude the most common directories where libraries are stored:
+
+```json
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "maxNodeModuleJsDepth": 2,
+    "noEmit": true,
+    "skipLibCheck": true
+  },
+  "exclude": [
+    "**/bin",
+    "**/bower_components",
+    "**/jspm_packages",
+    "**/node_modules",
+    "**/obj",
+    "**/platforms"
+  ]
+}
+```
+
+More details on [Language Service Disabled](https://billti.github.io/jsdocs/articles/troubleshooting/index.html#language-service-is-disabled)
+
 
 # Notable Changes from VS 2015 
 As [!include[vs_dev15](../../docs/misc/includes/vs_dev15_md.md)] features a completely new language service, there are a few behaviors that will be different or absent from the previous experience.
