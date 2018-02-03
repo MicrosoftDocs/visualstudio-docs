@@ -91,7 +91,7 @@ You can use [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Graphic
   
 ##### To capture graphics information  
   
--   To start capturing graphics information, use `BeginCapture`:  
+- To start capturing graphics information, use `BeginCapture`:  
   
     ```  
     ...  
@@ -106,6 +106,8 @@ You can use [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Graphic
     pGraphicsAnalysis->EndCapture();  
     ...  
     ```  
+
+- After the call to `EndCapture`, release the graphics object. 
   
 ## Next Steps  
  This walkthrough demonstrated how to capture graphics information programmatically. As a next step, consider this option:  
