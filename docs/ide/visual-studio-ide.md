@@ -53,7 +53,7 @@ For more information, see [Modern Web Tooling](https://www.visualstudio.com/vs/m
 
 You can use Visual Studio to build apps and games for macOS, Linux, and Windows, as well as for Android, iOS, and other mobile devices.
 
-- Build [.NET Core](/dotnet/core/) apps in C#, Visual Basic, or F#, that run on Windows, macOS and Linux.
+- Build [.NET Core](/dotnet/core/) apps that run on Windows, macOS and Linux.
 
 - Build mobile apps for iOS, Android, and Windows in C# and F# by using [Xamarin](https://developer.xamarin.com/guides/cross-platform/windows/visual-studio/).
 
@@ -91,10 +91,10 @@ One good way to learn about something is to use it! Let's dive in and create a n
 
 1. The **New Project** dialog box shows several project templates. Choose the **.NET Core** category under **Visual C#**, and then choose the **Console App (.NET Core)** template. In the **Name** text box, type "HelloWorld". Select the **OK** button.
 
+  ![.NET Core app template](../ide/media/overview-new-project-dialog.png)
+
   > [!NOTE]
   > If you don't see the **.NET Core** category, you need to install the **.NET Core cross-platform development** workload. To do this, choose the **Open Visual Studio Installer** link on the bottom left of the **New Project** dialog. After **Visual Studio Installer** opens, scroll down and select the **.NET Core cross-platform development** workload, and then choose **Modify**.
-
-  ![.NET Core app template](../ide/media/overview-new-project-dialog.png)
 
    Visual Studio uses the template to create your project. It is a simple "Hello World" application that calls the <xref:System.Console.WriteLine> method to display the literal string "Hello World!" in the console window.
 
