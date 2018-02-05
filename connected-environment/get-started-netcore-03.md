@@ -17,7 +17,7 @@ Alternatively, **download code from GitHub** by navigating to https://github.com
 [!INCLUDE[](common/build-and-run-in-k8s-cli.md)]
 
 ## Update a Content File
-Connected Environment isn't just about getting code running in Kubernetes - it's about enabling you to quickly and iteratively see your code changes take affect in a Kubernetes environment in the cloud.
+Connected Environment isn't just about getting code running in Kubernetes - it's about enabling you to quickly and iteratively see your code changes take effect in a Kubernetes environment in the cloud.
 
 1. Locate the file `./Views/Home/Index.cshtml` and make an edit to the HTML. For example, change line 70 that reads `<h2>Application uses</h2>` to something like: `<h2>Hello k8s in Azure!</h2>`
 1. Save the file. Moments later, in the Terminal window you'll see a message saying the code was successfully synced in the Terminal window.
