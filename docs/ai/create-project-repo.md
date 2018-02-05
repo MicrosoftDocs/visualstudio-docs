@@ -34,7 +34,7 @@ Once you've [installed Visual Studio Tools for AI](installation.md), you can eas
 
     ![First output from the Python MNIST program](media\create-project-repo\tensorflow-mnist-running.png)
 
-> If you are using Anaconda and get an error about missing numpy, you may need to change your python environment you may need to [change your python environment to use Anaconda](https://docs.microsoft.com/visualstudio/python/python-environments) 
+> If you are using Anaconda and get an error about missing numpy, you may need to change your python environment you may need to [change your python environment to use Anaconda](../python/managing-python-environments-in-visual-studio.md)
 
 11. You can visualize the progress with TensorBoard. Right click your project and click **Run TensorBoard** then select the directory of your output TensorBoard logs.
 

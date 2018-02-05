@@ -235,8 +235,6 @@ ms.workload:
   
  ![Infobar inside a window](../../extensibility/ux-guidelines/media/0903-06_infobarinwindow.png "0903-06_InfoBarInWindow")  
   
- **Infobar inside the Code Analysis window**  
-  
 ##### Inline  
  Inline progress indication can be represented by any of the progress loader types. Typically the progress indicator is paired with messaging, but this is not a requirement.  
   

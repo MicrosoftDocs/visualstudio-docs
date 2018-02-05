@@ -1,5 +1,5 @@
 ---
-title: "Managing Python Projects in Visual Studio | Microsoft Docs"
+title: Managing Projects for Python Applications in Visual Studio | Microsoft Docs
 description: Explains the purpose of projects in Visual Studio, demonstrates how to create and manage projects for Python code, and outlines the different project templates available for Python.
 ms.custom: ""
 ms.date: 01/16/2018
@@ -69,8 +69,8 @@ The following table summarizes the templates available in Visual Studio 2017 (no
 | --- | --- |
 | [From existing Python code](#creating-a-project-from-existing-files) | Creates a Visual Studio project from existing Python code in a folder structure.  |
 | Python Application | A basic project structure for a new Python application with a single, empty source file. By default, the project runs in the console interpreter of the default global environment, which you can change by [assigning a different environment](managing-python-environments-in-visual-studio.md#selecting-an-environment-for-a-project). |
-| [Azure cloud service](template-azure-cloud-service.md) | A project for an Azure cloud service written in Python. |
-| [Web projects](template-web.md) | Projects for web servers based on various frameworks including Bottle, Django, Flask, and Flask/Jade. |
+| [Azure cloud service](python-azure-cloud-service-project-template.md) | A project for an Azure cloud service written in Python. |
+| [Web projects](python-web-application-project-templates.md) | Projects for web servers based on various frameworks including Bottle, Django, Flask, and Flask/Jade. |
 | IronPython Application | Similar to the Python Application template, but uses IronPython by default enabling .NET interop and mixed-mode debugging with .NET languages. |
 | IronPython WPF Application | A project structure using IronPython with Windows Presentation Foundation XAML files for the application's user interface. Visual Studio provides a XAML UI designer, code-behind can be written in Python, and the application runs without displaying a console. |
 | IronPython Silverlight Web Page | An IronPython project that runs in a browser using Silverlight. The application's Python code is included in the web page as script. A boilerplate script tag pulls down some JavaScript code that initializes IronPython running inside of Silverlight, from which your Python code can interact with the DOM. |

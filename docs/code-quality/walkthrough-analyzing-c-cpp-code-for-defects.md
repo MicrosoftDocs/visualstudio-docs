@@ -82,9 +82,9 @@ This walkthrough demonstrates how to analyze C/C++ code for potential code defec
   
 3.  Correct this warning by using the SUCCEEDED macro. Your code should resemble the following code:  
   
-    ```  
-    if (SUCCEEDED (ReadUserAccount()) )  
-    ```  
+   ```cpp
+   if (SUCCEEDED (ReadUserAccount()) )  
+   ```  
   
 4.  In the **Error List**, double-click the following warning:  
   
@@ -92,17 +92,17 @@ This walkthrough demonstrates how to analyze C/C++ code for potential code defec
   
 5.  Correct this warning by testing for equality. Your code should look similar to the following code:  
   
-    ```  
-    if ((len == ACCOUNT_DOMAIN_LEN) || (g_userAccount[len] != '\\'))  
-    ```  
+   ```cpp
+   if ((len == ACCOUNT_DOMAIN_LEN) || (g_userAccount[len] != '\\'))  
+   ```  
   
 ### To treat warning as an error  
   
 1.  In the Bug.cpp file, add the following `#pragma` statement to the beginning of the file to treat the warning C6001 as an error:  
   
-    ```  
-    #pragma warning (error: 6001)  
-    ```  
+   ```cpp
+   #pragma warning (error: 6001)  
+   ```  
   
 2.  Rebuild the CodeDefects project.  
   
@@ -138,17 +138,14 @@ This walkthrough demonstrates how to analyze C/C++ code for potential code defec
   
 8.  To correct this warning, use an 'if' statement to test the return value. Your code should resemble the following code:  
   
-     `if (NULL != newNode)`  
-  
-     `{`  
-  
-     `newNode->data = value;`  
-  
-     `newNode->next = 0;`  
-  
-     `node->next = newNode;`  
-  
-     `}`  
+   ```cpp
+   if (NULL != newNode)  
+   {  
+   newNode->data = value;  
+   newNode->next = 0;  
+   node->next = newNode;  
+   }
+   ```
   
 9. Rebuild the Annotations project.  
   
@@ -158,15 +155,13 @@ This walkthrough demonstrates how to analyze C/C++ code for potential code defec
   
 1.  Annotate formal parameters and return value of the function `AddTail` by using the Pre and Post conditions as shown in this example:  
   
-     `[returnvalue:SA_Post (Null=SA_Maybe)] LinkedList* AddTail`  
-  
-     `(`  
-  
-     `[SA_Pre(Null=SA_Maybe)] LinkedList* node,`  
-  
-     `int value`  
-  
-     `)`  
+   ```cpp
+   [returnvalue:SA_Post (Null=SA_Maybe)] LinkedList* AddTail
+   (
+   [SA_Pre(Null=SA_Maybe)] LinkedList* node,
+   int value
+   )
+   ```
   
 2.  Rebuild Annotations project.  
   
@@ -178,19 +173,21 @@ This walkthrough demonstrates how to analyze C/C++ code for potential code defec
   
 4.  To correct this warning, use an 'if' statement to test the return value. Your code should resemble the following code:  
   
-    ```  
-    . . .  
-    LinkedList *newNode = NULL;   
-    if (NULL == node)  
-    {  
-         return NULL;  
+   ```cpp
+   . . .  
+   LinkedList *newNode = NULL;   
+   if (NULL == node)  
+   {  
+        return NULL;  
         . . .  
-    }  
-    ```  
+   }  
+   ```  
   
 5.  Rebuild Annotations project.  
   
      The project builds without any warnings or errors.  
   
-## See Also  
- [Walkthrough: Analyzing Managed Code for Code Defects](../code-quality/walkthrough-analyzing-managed-code-for-code-defects.md)
+## See also
+
+[Walkthrough: Analyzing Managed Code for Code Defects](../code-quality/walkthrough-analyzing-managed-code-for-code-defects.md)  
+[Code analysis for C/C++](../code-quality/code-analysis-for-c-cpp-overview.md)
