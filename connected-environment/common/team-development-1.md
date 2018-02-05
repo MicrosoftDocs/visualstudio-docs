@@ -22,7 +22,8 @@ With Connected Environment, you can easily set up a *shared* development environ
 ## Work in Your Own Space
 As you develop code for your service, and before you're ready to check it in, code often won't be in a good state - you're still iteratively shaping it, testing it, and experimenting with solutions. Connected Environment provides the concept of a **space**, which allows you to work in isolation, and without the fear of breaking your team members.
 
-Before you proceed, close any F5/debug sessions for both services, and then run `vsce up` in each of the service's root folders.
+> [!Note]
+> Before you proceed, close all VS Code windows for both services, and then run `vsce up -d` in each of the service's root folders. (This is a Preview limitation.)
 
 Now let's take a closer look at where the services are currently running. Run the `vsce list` command, and you'll see output similar to the following:
 

@@ -31,11 +31,11 @@ Let's now write code in `webfrontend` that makes a request to `mywebapi`. Switch
         // Use HeaderPropagatingHttpClient instead of HttpClient so we can propagate
         // headers in the incoming request to any outgoing requests
         using (var client = new HeaderPropagatingHttpClient(this.Request))
-            {
-                // Call 'mywebapi', and display its response in the page
-                var response = await client.GetAsync("http://mywebapi/api/values/1");
-                ViewData["Message"] += " and " + await response.Content.ReadAsStringAsync();
-            }
+        {
+            // Call 'mywebapi', and display its response in the page
+            var response = await client.GetAsync("http://mywebapi/api/values/1");
+            ViewData["Message"] += " and " + await response.Content.ReadAsStringAsync();
+        }
     
         return View();
     }
