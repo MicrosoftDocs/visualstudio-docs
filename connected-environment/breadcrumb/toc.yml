@@ -6,6 +6,6 @@
     tocHref: /visualstudio/
     topicHref: /visualstudio/
     items:
-    name: Connected Environment
-    tocHref: /visualstudio/connected-environment/
-    topicHref: /visualstudio/connected-environment/
+    - name: Connected Environment
+      tocHref: /visualstudio/connected-environment/
+      topicHref: /visualstudio/connected-environment/
