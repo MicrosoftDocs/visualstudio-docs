@@ -24,6 +24,13 @@ You run `vsce up` and get the following error: `Config file not found: .../vsce.
 1. Change your current directory to the root folder containing your service code. 
 1. If you do not have a vsce.yaml file in the code folder, run `vsce init` to generate Docker, Kubernetes, and VSCE assets.
 
+## Error: 'The pipe program 'vsce' exited unexpectedly with code 126.'
+Starting the VS Code debugger may sometimes result in this error. This is a bug.
+
+**Try:**
+1. Close and re-open VS Code.
+2. Hit F5 again.
+
 
 ## Debugging error 'Configured debug type 'coreclr' is not supported'
 Running the VS Code debugger reports the error: `Configured debug type 'coreclr' is not supported.`
