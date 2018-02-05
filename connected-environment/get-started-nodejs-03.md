@@ -12,7 +12,7 @@ Download code from GitHub by navigating to https://github.com/johnsta/vsce-sampl
 [!INCLUDE[](common/build-and-run-in-k8s-cli.md)]
 
 ## Update a Content File
-Connected Environment isn't just about getting code running in Kubernetes - it's about enabling you to quickly and iteratively see your code changes take affect in a Kubernetes environment in the cloud.
+Connected Environment isn't just about getting code running in Kubernetes - it's about enabling you to quickly and iteratively see your code changes take effect in a Kubernetes environment in the cloud.
 
 1. Locate the file `./public/index.html` and make an edit to the HTML. For example, change the page's background color to a shade of blue:
 
@@ -20,7 +20,7 @@ Connected Environment isn't just about getting code running in Kubernetes - it's
 <body style="background-color: #95B9C7; margin-left:10px; margin-right:10px;">
 ```
 
-2. Save the file. Moments later, in the Terminal window you'll see a message saying the code was successfully synced in the Terminal window.
+2. Save the file. Moments later, in the Terminal window you'll see a message saying a file in the running container was updated.
 1. Go to your browser and refresh the page. You should see your color update.
 
 What happened? Edits to content files, like HTML and CSS, don't require the Node.js process to restart, so an active `vsce up` command will automatically sync any modified content files directly into the running container in Azure, thereby providing a fast way to see your content edits.
