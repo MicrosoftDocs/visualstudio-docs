@@ -14,7 +14,10 @@
 ###[1. Install Tools](get-started-netcore-visualstudio-01.md)
 ###[2. Create an ASP.NET Web App](get-started-netcore-visualstudio-02.md)
 ###[3. Create a Dev Environment in Azure](get-started-netcore-visualstudio-03.md)
-###[4. Debug your App](get-started-netcore-visualstudio-04.md)
+###[4. Debug a Container in Kubernetes](get-started-netcore-visualstudio-04.md)
+###[5. Call another container](get-started-netcore-visualstudio-05.md)
+###[6. Team Development](get-started-netcore-visualstudio-06.md)
+###[7. Summary](get-started-netcore-visualstudio-07.md)
 
 ##[Node.js (VS Code & CLI)](get-started-nodejs-01.md)
 ###[1. Install Tools](get-started-nodejs-01.md)
