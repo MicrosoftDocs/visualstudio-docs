@@ -15,16 +15,16 @@ You can use the default values provided or adjust them as you like. Click **OK**
 
 ![](images/NewEnvDialog.png)
 
-Back on the previous dialog leave the **Space** dropdown defaulted to your username for now, we will discuss this later in more detail. Check the **Publicly Accessible** checkbox so the web app will be accessible via a public endpoint. This isn't required but it will be helpful to demonstrate some concepts later in this walkthrough. But don’t worry, in either case you will be able to debug your website using Visual Studio.
+Back on the previous dialog leave the **Space** dropdown defaulted to `mainline` for now, we will discuss this later in more detail. Check the **Publicly Accessible** checkbox so the web app will be accessible via a public endpoint. This isn't required but it will be helpful to demonstrate some concepts later in this walkthrough. But don’t worry, in either case you will be able to debug your website using Visual Studio.
 
 ![](images/ConnectedEnvDialog2.png)
 
-Click **OK** to select or create the development environment. If you chose to create a new development environment a background task will be started to accomplish this, it will take a number of minutes to complete. You can see if it is still being created by hovering your cursor over the **Background tasks** icon in the bottom left corner of the status bar (see below). You will actually see two background tasks, one for creating the development environment and another to create the Space.
+Click **OK** to select or create the development environment. A background task will be started to accomplish this, it will take a number of minutes to complete. You can see if it is still being created by hovering your cursor over the **Background tasks** icon in the bottom left corner of the status bar (see below).
 
 ![](images/BackgroundTasks.png)
 
 > [!Note]
-Until the development environment and Space are successfully created you cannot debug your application.
+Until the development environment is successfully created you cannot debug your application.
 
 ## Files Added to Project
 While we wait for the development environment to be created, let’s look at the files that have been added to your project when you chose to use a development environment.

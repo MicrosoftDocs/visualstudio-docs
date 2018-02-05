@@ -12,7 +12,7 @@ For the sake of time, let's download some sample code from a GitHub repository. 
 
 ## Run mywebapi
 1. Open the project `mywebapi` in a *separate Visual Studio window*.
-1. Select **Connected Environment for AKS** from the launch settings dropdown as you did previously for the `webfrontend` project. Rather than create a new development environment this time, select the same one you already created. As before, leave the Space defaulted to your username and click **OK**. In the Output window you may notice Visual Studio starts to "warm up" this new service in your development environment in order to speed things up when you start debugging. 
+1. Select **Connected Environment for AKS** from the launch settings dropdown as you did previously for the `webfrontend` project. Rather than create a new development environment this time, select the same one you already created. As before, leave the Space defaulted to `mainline` and click **OK**. In the Output window you may notice Visual Studio starts to "warm up" this new service in your development environment in order to speed things up when you start debugging,
 1. Hit F5, and wait for the service to build and deploy. You'll know it's ready when the Visual Studio status bar turns orange
 1. Take note of the endpoint URL displayed in the **Connected Environment for AKS** pane in the **Output** window, it will look something like http://localhost:\<portnumber\>. Again, it may seem like the container is running locally, but actually it is running in our development environment in Azure.
 1. When `mywebapi` is ready, open your browser to the localhost address and append `/api/values` to the URL to invoke the default GET API for the `ValuesController`. 
