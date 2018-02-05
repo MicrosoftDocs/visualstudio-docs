@@ -20,7 +20,7 @@ Connected Environment isn't just about getting code running in Kubernetes - it's
 <body style="background-color: #95B9C7; margin-left:10px; margin-right:10px;">
 ```
 
-2. Save the file. Moments later, in the Terminal window you'll see a message saying the code was successfully synced in the Terminal window.
+2. Save the file. Moments later, in the Terminal window you'll see a message saying a file in the running container was updated.
 1. Go to your browser and refresh the page. You should see your color update.
 
 What happened? Edits to content files, like HTML and CSS, don't require the Node.js process to restart, so an active `vsce up` command will automatically sync any modified content files directly into the running container in Azure, thereby providing a fast way to see your content edits.
