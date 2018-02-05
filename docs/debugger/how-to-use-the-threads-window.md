@@ -58,7 +58,7 @@ To begin this tutorial, you need a multithreaded application project. Follow the
     Console.WriteLine()
     ```  
   
-    ```CSharp  
+    ```csharp  
     Thread.Sleep(3000);  
     Console.WriteLine();  
     ```  
@@ -86,7 +86,7 @@ To begin this tutorial, you need a multithreaded application project. Follow the
     Thread.Sleep(5000)   
     ```  
   
-    ```CSharp  
+    ```csharp  
     Thread.Sleep(3000);  
     ```  
   

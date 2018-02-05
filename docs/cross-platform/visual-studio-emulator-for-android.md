@@ -24,7 +24,9 @@ The Visual Studio Emulator for Android is a desktop application that emulates an
  You can test your app on a unique device profile for each of the Android platforms, screen resolutions, and other hardware properties supported by Visual Studio Emulator for Android.
 
 > [!NOTE]
-> The Google Android emulator is recommended for use with the Visual Studio Tools for Apache Cordova. For more information, see [Run your Apache Cordova app on Android](/visualstudio/cross-platform/tools-for-cordova/run-your-app/run-app-android#a-idgoogle-android-emulatora-run-on-the-google-android-emulator).
+> The Google Android emulator is recommended for use in the following cases:
+> - When using Visual Studio Tools for Apache Cordova. For more information, see [Run your Apache Cordova app on Android](/visualstudio/cross-platform/tools-for-cordova/run-your-app/run-app-android#a-idgoogle-android-emulatora-run-on-the-google-android-emulator).
+> - When in need of emulator images containing Android 7.0 or later as there are no plans to publish Android images past version 6.0 for use in Visual Studio Emulator for Android.
   
 ##  <a name="Installing"></a> Installing and uninstalling  
  Installing  
@@ -76,7 +78,7 @@ The Visual Studio Emulator for Android is a desktop application that emulates an
  Once you've installed the set of profiles that you'd like to target, you can start these new profiles directly from the manager by pressing the green **Play** button. They will also appear in the debug target dropdown menu in any Visual Studio cross-platform mobile project type.  
   
 ##  <a name="FeaturesTest"></a> Features that you can test in the emulator  
- For detailed information on features you can test in the emulator, see this [documentation](http://blogs.msdn.com/b/visualstudioalm/archive/2014/11/12/introducing-visual-studio-s-emulator-for-android.aspx).  
+ For detailed information on features you can test in the emulator, see this [blog post](http://blogs.msdn.com/b/visualstudioalm/archive/2014/11/12/introducing-visual-studio-s-emulator-for-android.aspx).  
   
 ##  <a name="FeaturesNonTest"></a> Features that you can't test in the emulator  
  The following list describes features of the Android platform that you **cannot** test in the emulator. You have to test these features on a physical device.  

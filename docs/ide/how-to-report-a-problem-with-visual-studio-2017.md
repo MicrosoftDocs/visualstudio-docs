@@ -20,8 +20,9 @@ If you experience a problem with Visual Studio, we want to know about it. Here's
 ## Sign in to Visual Studio
 If you haven't already done so, sign in to Visual Studio before you report a problem. That way, you can report a problem that you're experiencing, and also vote or comment on it. You can even vote or comment on any other problem that you see posted, too.
 
-1.	Click **Sign In**; it's on the right-hand side of the tool, as shown in the following screenshot.
-2.	Follow the instructions on-screen to sign in.
+1.  In Visual Studio, select **Help** > **Send Feedback** > **Report a Problem**.
+2.	If needed, select **Sign In**; it's on the right-hand side of the tool, as shown in the following screenshot.
+3.	Follow the instructions on-screen to sign in.
 
  ![Sign in to report a problem](../ide/media/sign-in-new-ux.png "Sign in to report a problem")  
 

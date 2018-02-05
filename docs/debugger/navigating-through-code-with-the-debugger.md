@@ -54,7 +54,7 @@ Get familiar with commands and shortcuts to navigate code in the debugger and th
   
 -   The debugger actually steps through code statements rather than physical lines. For example an `if` clause can be written on one line:  
   
-    ```CSharp  
+    ```csharp  
     int x = 42;  
     string s = "Not answered";  
     if( int x == 42) s = "Answered!";  

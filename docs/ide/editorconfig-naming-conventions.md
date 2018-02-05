@@ -1,10 +1,9 @@
 ---
-title: ".NET Naming Conventions For EditorConfig | Microsoft Docs"
+title: ".NET Naming Conventions For EditorConfig files | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/20/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "naming conventions [EditorConfig]"
@@ -12,12 +11,11 @@ helpviewer_keywords:
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
-ms.technology: 
-  - "vs-ide-general"
+ms.technology: vs-ide-general
 ms.workload: 
   - "multiple"
 ---
-# Naming Conventions for EditorConfig
+# .NET naming conventions for EditorConfig
 
 Naming conventions concern the naming of code elements such as classes, properties, and methods. For example, you can specify that public members must be capitalized, or that asynchronous methods must end in "Async". You can enforce these rules by specifying them in an [.editorconfig file](../ide/create-portable-custom-editor-options.md). Naming rule violations appear either in the Error List or as a suggestion under the name, depending on the severity you choose for your rule. There is no need to build the project in order to see violations.
 

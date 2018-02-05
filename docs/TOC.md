@@ -1,5 +1,6 @@
 # [Visual Studio Documentation](ide/index.md)
 # [Overview](ide/visual-studio-ide.md)
+## [What's New](ide/whats-new-in-visual-studio.md)
 # Installation
 ## [Install Visual Studio](install/install-visual-studio.md)
 ## [Sign in to Visual Studio](ide/signing-in-to-visual-studio.md)
@@ -39,6 +40,7 @@
 ### Reference
 #### [Visual Studio workload and component IDs](install/workload-and-component-ids.md)
 #### [Visual Studio build numbers and release dates](install/visual-studio-build-numbers-and-release-dates.md)
+## [Use Visual Studio from an Azure virtual machine](install/using-visual-studio-vm.md)
 ## [Install Build Tools into a Container](install/build-tools-container.md)
 ### [Advanced Example for Containers](install/advanced-build-tools-container.md)
 ### [Known Issues for Containers](install/build-tools-container-issues.md)
@@ -287,8 +289,7 @@
 #### [Culture-Specific Classes for Global Windows Forms and Web Forms](ide/culture-specific-classes-for-global-windows-forms-and-web-forms.md)
 ### [Creating Applications in Bi-directional Languages](ide/creating-applications-in-bi-directional-languages.md)
 # Reference
-## [What's New](ide/whats-new-in-visual-studio.md)
-### Project and Item Templates
+## Project and Item Templates
 ### [Template Parameters](ide/template-parameters.md)
 ### [Template Schema Reference (Extensibility)](extensibility/visual-studio-template-schema-reference.md?context=visualstudio/default)
 ## General User Interface Elements
