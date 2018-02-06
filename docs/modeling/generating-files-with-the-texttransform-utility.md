@@ -4,7 +4,6 @@ ms.custom: ""
 ms.date: "09/21/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "text templates, TextTransform utility"
