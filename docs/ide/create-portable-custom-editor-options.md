@@ -101,7 +101,7 @@ EditorConfig files are read top to bottom, and the closest EditorConfig files ar
 
 ## Editing EditorConfig files
 
-Visual Studio provides some IntelliSense for editing .editorconfig files.
+Visual Studio helps you edit .editorconfig files by providing IntelliSense completion lists.
 
 ![IntelliSense in an .editorconfig file](media/editorconfig-intellisense-no-extension.png)
 
