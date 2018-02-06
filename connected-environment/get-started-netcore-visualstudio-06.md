@@ -20,7 +20,6 @@ Picture yourself working on a service that interacts with tens of other services
 1. It follows that doing any type of end-to-end testing becomes difficult. Integration testing can only realistically happen post-commit, which means we see problems later in the development cycle.
 
     ![](media/microservices-challenges.png)
-microservices-challenges.png
 
 ## Work in a Shared Development Environment
 With Connected Environment, you can easily set up a *shared* development environment in Azure. Each developer can focus on just their part of the application, and can iteratively develop *pre-commit code* in an environment that already contains all the other services and cloud resources that their scenarios depend on. Dependencies are always up to date, and developers are working in a way that mirrors production.
@@ -32,6 +31,9 @@ Do the following to make sure both our `webfrontend` and `mywebapi` services are
 1. Close any F5/debug sessions for both services, but keep the projects open in their Visual Studio windows.
 2. Switch to the Visual Studio window with the `mywebapi` project and press Ctrl+F5 to run the service without the debugger attached
 3. Switch to the Visual Studio window with the `webfrontend` project and press Ctrl+F5 to run it as well.
+
+> [!Note]
+It is sometimes necessarry to refresh your browser after it the web page is initially displayed following a Ctrl+F5.
 
 Anyone who opens the public URL and navigates to the web app will invoke the code path we have written which runs through both services using the default `mainline` space. Now suppose we want to continue developing `mywebapi` - how can we do this and not interrupt other developers who are using the development environment? To do that, we'll set up our own space.
 
