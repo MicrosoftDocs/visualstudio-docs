@@ -2,7 +2,7 @@
 title: "Install and use Visual Studio behind a firewall or proxy server | Microsoft Docs"
 description: ""
 ms.custom: ""
-ms.date: "02/05/2018"
+ms.date: "02/12/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -22,7 +22,7 @@ ms.workload:
   - "multiple"
 ---
 # Install and use Visual Studio behind a firewall or proxy server
-When you install and use Visual Studio, there might be scenarios in which you'll want to "whitelist" some domain URLs or enable some ports and protocols.
+When you install and use Visual Studio behind a firewall or proxy server, there might be scenarios in which you'll want to "whitelist" some domain URLs or enable some ports and protocols.
 
 ## URLs to whitelist when you install Visual Studio
 Because the Visual Studio Installer downloads files from various domains and their download servers, here are the domain URLs that you might want to whitelist as trusted in the UI or in your deployment scripts.
@@ -46,8 +46,6 @@ If it's possible for your environment, consider adding the following domains wit
 | *.windows.net | Sign-in location |
 | *.microsoftonline.com | Sign-in location |
 | *.live.com | Sign-in location |
-
-
 
 ### Non-Microsoft domains
 | Domain | Installs these workloads |
