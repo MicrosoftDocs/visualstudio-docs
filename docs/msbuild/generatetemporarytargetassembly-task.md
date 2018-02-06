@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: msbuild
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
@@ -20,8 +19,8 @@ helpviewer_keywords:
   - "creating an assembly [WPF MSBuild], XAML page refers to a locally declared type"
 ms.assetid: 92b6539c-6897-45e0-8989-0c234bbfe782
 caps.latest.revision: 7
-author: "kempb"
-ms.author: "kempb"
+author: Mikejo5000
+ms.author: mikejo
 manager: ghogen
 ms.workload: 
   - "multiple"

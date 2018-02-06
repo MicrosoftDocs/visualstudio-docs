@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "03/13/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: msbuild
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -20,8 +19,8 @@ helpviewer_keywords:
   - "PropertyGroup element [MSBuild]"
 ms.assetid: ff1e6c68-b9a1-4263-a1ce-dc3b829a64d4
 caps.latest.revision: 21
-author: "kempb"
-ms.author: "kempb"
+author: Mikejo5000
+ms.author: mikejo
 manager: ghogen
 ms.workload: 
   - "multiple"

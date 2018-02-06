@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: msbuild
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -20,8 +19,8 @@ helpviewer_keywords:
   - "FindUnderPath task [MSBuild]"
 ms.assetid: 3c6d58b0-36e8-47aa-bfca-b73dd2045d91
 caps.latest.revision: 9
-author: "kempb"
-ms.author: "kempb"
+author: Mikejo5000
+ms.author: mikejo
 manager: ghogen
 ms.workload: 
   - "multiple"

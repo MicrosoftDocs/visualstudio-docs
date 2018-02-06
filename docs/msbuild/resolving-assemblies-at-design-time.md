@@ -4,16 +4,15 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: msbuild
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "msbuild"
 ms.assetid: 20dae076-733e-49c1-a2e9-b336757ae21d
 caps.latest.revision: 8
-author: "kempb"
-ms.author: "kempb"
+author: Mikejo5000
+ms.author: mikejo
 manager: ghogen
 ms.workload: 
   - "multiple"

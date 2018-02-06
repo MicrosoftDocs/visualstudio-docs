@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: msbuild
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
@@ -14,8 +13,8 @@ helpviewer_keywords:
   - ".NET Framework extensions, registering"
 ms.assetid: deee6f53-ea87-4b88-a120-bea589822e03
 caps.latest.revision: 5
-author: "kempb"
-ms.author: "kempb"
+author: Mikejo5000
+ms.author: mikejo
 manager: ghogen
 ms.workload: 
   - "dotnet"
