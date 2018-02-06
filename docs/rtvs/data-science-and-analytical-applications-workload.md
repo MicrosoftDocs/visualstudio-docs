@@ -8,7 +8,6 @@ ms.suite: ""
 ms.technology: 
   - "devlang-r"
   - "devlang-python"
-  - "devlang-fsharp"
 ms.tgt_pltfrm: ""
 ms.topic: "landing-page"
 caps.latest.revision: 1
