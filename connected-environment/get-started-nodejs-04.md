@@ -6,8 +6,8 @@ Previous step: [Create a Node.js container in Kubernetes](get-started-nodejs-03.
 
 [!INCLUDE[](common/init-debug-assets-vscode.md)]
 
-> [!Note]
-> If you don't see any Connected Environment commands in the Command Palette, ensure you have [installed the VS Code extension for Connected Environment](get-started-nodejs-01.md#kubernetes-debugging-with-vs-code).
+<!-- > [!Note]
+> If you don't see any Connected Environment commands in the Command Palette, ensure you have [installed the VS Code extension for Connected Environment](get-started-nodejs-01.md#kubernetes-debugging-with-vs-code). -->
 
 ## Select the VSCE Debug Configuration
 1. To open the Debug view, click on the Debug icon in the **Activity Bar** on the side of VS Code.
