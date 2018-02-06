@@ -22,9 +22,9 @@ ms.workload:
   - "multiple"
 ---
 # Install and use Visual Studio behind a firewall or proxy server
-When you [install Visual Studio](install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md#urls-to-whitelist-when-you-install-visual-studio) behind a firewall or proxy server, there are domain URLs to "whitelist" so that you have access to all the components and workloads that you want. And when you [use Visual Studio or Azure Services](install-and-use-visual-studio-behind-a-firewall-or-proxy-server.mdurls-to-whitelist-and-ports-and- protocols-to-open-for-visual-studio-and-azure-services) behind a firewall or proxy server, there are both domain URLs to whitelist and ports and protocols to open so that you have a great experience using all the features of the product and services.
+When you [install Visual Studio](install-and-use-visual-studio-behind-a-firewall-or-proxy-server#install-visual-studio:-urls-to-whitelist.md) behind a firewall or proxy server, there are domain URLs to "whitelist" so that you have access to all the components and workloads that you want. And when you [use Visual Studio or Azure Services](install-and-use-visual-studio-behind-a-firewall-or-proxy-server#urls-to-whitelist-and-ports-and- protocols-to-open-for-visual-studio-and-azure-services.md) behind a firewall or proxy server, there are both domain URLs to whitelist and ports and protocols to open so that you have a great experience using all the features of the product and services.
 
-## URLs to whitelist when you install Visual Studio
+## Install Visual Studio: URLs to whitelist
 Because the Visual Studio Installer downloads files from various domains and their download servers, here are the domain URLs that you might want to whitelist as trusted in the UI or in your deployment scripts.
 
 If it's possible for your environment, consider adding the following domains with both HTTP and HTTPS protocols.
@@ -61,7 +61,7 @@ If it's possible for your environment, consider adding the following domains wit
 | incredibuildvs2017i.azureedge.net | Game development with C++ (IncrediBuild) |
 | www.python.org | Python development (Python) <br /><br />Data science and analytical applications (Python) |
 
-## URLs to whitelist and ports and protocols to open for Visual Studio and Azure Services
+## Use Visual Studio and Azure Services: URLs to whitelist and ports and protocols to open
 To make sure that you have access to everything you need when you use Visual Studio or Azure Services behind a firewall or proxy server, here are the URLs you should whitelist and the ports and protocols that you might want to open.
 
 | Service or scenario | DNS endpoint | Protocol | Port | Description |
@@ -76,7 +76,7 @@ To make sure that you have access to everything you need when you use Visual Stu
 | Identity “badge” <br>(user name and avatar)<br>and <br>Roaming settings | app.vssps.visualstudio.com <br><br>app.vsspsext.visualstudio.com<br><br>app.vssps.visualstudio.com<br><br> ns-sb2-prod-ch1-002.cloudapp.net <br><br>az700632.vo.msecnd.net  | |443 | Used to display the user's name and avatar in the IDE <br><br> Used to make sure that setting changes roam from one machine to another |
 | Remote Settings | az700632.vo.msecnd.net | | | Used to turn off extensions that are known to cause problems in Visual Studio   |
 | Windows Tools | developer.microsoft.com <br><br>dev.windows.com  <br><br>appdev.microsoft.com  | | | Used for Windows app store scenarios  |
-| JSON Schema <br>Discovery <br><br>JSON Schema <br>Definition<br><br>JSON Schema <br>Support for <br>Azure Resources| json.schemastore.org <br>schemastoreorg.azurewebsites.net<br><br>json-schema.org<br><br>schema.management.azure.com| | | Used to discover and download JSON schemas that the user might use when editing JSON documents <br><br>Used to obtain the meta-validation schema for JSON<br><br>Used to obtain the current schema for Azure Resource Manager deployment templates|
+| JSON Schema <br>Discovery <br><br>JSON Schema <br>Definition<br><br>JSON Schema <br>Support for <br>Azure Resources| json.schemastore.org <br>schemastoreorg.azurewebsites.net<br><br>json-schema.org<br><br>schema.management.azure.com| https |443 | Used to discover and download JSON schemas that the user might use when editing JSON documents <br><br>Used to obtain the meta-validation schema for JSON<br><br>Used to obtain the current schema for Azure Resource Manager deployment templates|
 | NPM package <br>discovery  |Skimdb.npmjs.com <br><br>Registry.npmjs.org <br><br>Api.npms.io  | | | Required for searching for NPM packages, and used for client-side script package installation in web projects |
 |Bower package<br> icons<br><br>Bower package <br>search  |Bower.io <br><br>bowercache.azurewebsites.net <br>go.microsoft.com <br>Registry.bower.io | | |Provides the default bower package icon  <br><br>Provides the ability to search for Bower packages |
 |NuGet<br><br>NuGet package<br> discovery | Api.nuget.org <br>www.nuget.org <br>Nuget.org<br><br>crl3.digicert.com <br>crl4.digicert.com <br>ocsp.digicert.com <br>cacerts.digicert.com  | http<br>https |443<br>80 |Used to verify signed NuGet packages.<br><br>Required for searching for NuGet packages and versions |
