@@ -77,7 +77,7 @@ ms.workload:
   
      For more information about host items, see [Host Items and Host Controls Overview](../vsto/host-items-and-host-controls-overview.md).  
   
-6.  Extract an interface from the class that you are exposing to VBA. In the **Extract Interface** dialog box, select the public members that you want to include in the interface declaration. For more information, see [Extract Interface Refactoring](../ide/reference/extract-interface-csharp.md).
+6.  Extract an interface from the class that you are exposing to VBA. In the **Extract Interface** dialog box, select the public members that you want to include in the interface declaration. For more information, see [Extract Interface Refactoring](../ide/reference/extract-interface.md).
   
 7.  Add the **public** keyword to the interface declaration.  
   
