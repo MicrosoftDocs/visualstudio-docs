@@ -13,6 +13,7 @@ ms.author: gewarren
 manager: ghogen
 ms.workload: 
   - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Troubleshoot extensions for dependency diagrams
 This topic addresses some problems that you might encounter when you create layer model extensions.  

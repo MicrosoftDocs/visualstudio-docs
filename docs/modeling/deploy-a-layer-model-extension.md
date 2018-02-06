@@ -13,6 +13,7 @@ ms.author: gewarren
 manager: ghogen
 ms.workload: 
   - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Deploy a layer model extension
 Other users of Visual Studio can install layer modeling extensions that you create by using Visual Studio.  

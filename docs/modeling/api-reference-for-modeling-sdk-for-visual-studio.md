@@ -10,6 +10,7 @@ ms.author: gewarren
 manager: ghogen
 ms.workload: 
   - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # API Reference for Modeling SDK for Visual Studio
 The Visual Studio Visualization and Modeling SDK provides the platform on which your domain-specific languages (DSL) tools are built.  

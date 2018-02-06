@@ -10,6 +10,7 @@ ms.author: gewarren
 manager: ghogen
 ms.workload: 
   - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Creating a WPF-Based Domain-Specific Language
 You can create a domain-specific language that has a WPF designer instead of a graphical designer.  

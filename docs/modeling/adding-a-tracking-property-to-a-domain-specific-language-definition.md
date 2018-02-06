@@ -14,6 +14,7 @@ ms.author: gewarren
 manager: ghogen
 ms.workload: 
   - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Adding a Tracking Property to a Domain-Specific Language Definition
 This walkthrough shows how to add a tracking property to a domain model.  

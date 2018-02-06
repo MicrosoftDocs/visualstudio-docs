@@ -10,6 +10,7 @@ ms.author: gewarren
 manager: ghogen
 ms.workload: 
   - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Working with Domain-Specific Language Solutions
 A domain-specific language (DSL) is created using a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution. This section is about how to set up and customize the solution.  

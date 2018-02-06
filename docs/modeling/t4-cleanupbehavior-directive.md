@@ -10,6 +10,7 @@ ms.author: gewarren
 manager: ghogen
 ms.workload: 
   - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # T4 CleanUpBehavior directive
 To delete the appDomain after processing a text template, include the following line:  

@@ -14,6 +14,7 @@ ms.author: gewarren
 manager: ghogen
 ms.workload: 
   - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Customizing Deletion Behavior
 Deleting an element usually causes related elements to be deleted also. All relationships connected to it, and any child elements are deleted. This behavior is named *delete propagation*. You can customize delete propagation, for example to arrange that additional related elements are deleted. By writing program code, you can make delete propagation depend on the state of the model. You can also cause other changes to occur in response to a deletion.  

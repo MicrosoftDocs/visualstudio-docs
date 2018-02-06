@@ -12,6 +12,7 @@ ms.author: gewarren
 manager: ghogen
 ms.workload: 
   - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Writing Code to Customise a Domain-Specific Language
 This section shows you how to use custom code to access, modify, or create a model in a domain-specific language.  

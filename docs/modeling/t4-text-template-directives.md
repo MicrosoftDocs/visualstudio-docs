@@ -17,6 +17,7 @@ ms.author: gewarren
 manager: ghogen
 ms.workload: 
   - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # T4 Text Template Directives
 Directives provide instructions to the text template transformation engine.  
