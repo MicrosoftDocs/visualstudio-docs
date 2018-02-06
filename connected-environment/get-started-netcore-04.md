@@ -6,8 +6,8 @@ Previous step: [Create an ASP.NET Core Web App](get-started-netcore-03.md)
 
 [!INCLUDE[](common/init-debug-assets-vscode.md)]
 
-> [!Note]
-> If you don't see any Connected Environment commands in the Command Palette, ensure you have [installed the VS Code extension for Connected Environment](get-started-netcore-01.md#kubernetes-debugging-with-vs-code).
+<!-- > [!Note]
+> If you don't see any Connected Environment commands in the Command Palette, ensure you have [installed the VS Code extension for Connected Environment](get-started-netcore-01.md#kubernetes-debugging-with-vs-code). -->
 
 
 ## Select the VSCE Debug Configuration
