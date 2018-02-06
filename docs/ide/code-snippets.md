@@ -57,7 +57,7 @@ finally
 
 You can insert this snippet by clicking **Insert Snippet** in the context menu of the code window, then **Visual C#**, then type `tryf`, and then press **Tab**. Or, you can type `tryf` and press **Tab** twice.
 
-An example of a surround-with snippet: in C++ the shortcut `if` can be used either as an insertion snippet or as a surround-with snippet. If you select a line of code (for example `return FALSE;`), and then click **Surround With**, then **if**, the snippet is expanded around the line:
+An example of a surround-with snippet: in C++ the shortcut `if` can be used either as an insertion snippet or as a surround-with snippet. If you select a line of code (for example `return FALSE;`), and then choose **Surround With** > **if**, the snippet is expanded around the line:
 
 ```cpp
 if (true)
@@ -70,7 +70,11 @@ if (true)
 
 Snippets can contain replacement parameters, which are placeholders that you must replace to fit the precise code you are writing. In the previous example `true` is a replacement parameter, which you would replace with the appropriate condition. The replacement you make is repeated for every instance of the same replacement parameter in the snippet.
 
-For example, in Visual Basic there is a code snippet that inserts a property. Click **Insert Snippet** on the context menu of the code window, then **Code Patterns**, then **Properties, Procedures, Events**, then **Define a Property**. The following code is inserted:
+For example, in Visual Basic there is a code snippet that inserts a property. To insert the snippet, choose **Snippet...** > **Insert Snippet** from the right-click or context menu in a Visual Basic code file. Then, choose **Code Patterns** > **Properties, Procedures, Events** > **Define a Property**.
+
+![Code snippet menu for Define a Property](media/code-snippets-vb-property.png)
+
+The following code is inserted:
 
 ```vb
 Private newPropertyValue As String
@@ -88,10 +92,10 @@ If you change `newPropertyValue` to `m_property`, then every instance of `newPro
 
 ## See also
 
-[Walkthrough: Creating a Code Snippet](../ide/walkthrough-creating-a-code-snippet.md)  
-[How to: Distribute Code Snippets](../ide/how-to-distribute-code-snippets.md)  
-[Best Practices for Using Code Snippets](../ide/best-practices-for-using-code-snippets.md)  
-[Troubleshooting Snippets](../ide/troubleshooting-snippets.md)  
-[C# Code Snippets](../ide/visual-csharp-code-snippets.md)  
-[Visual C++ Code Snippets](../ide/visual-cpp-code-snippets.md)  
-[Code Snippets Schema Reference](../ide/code-snippets-schema-reference.md)
+[Walkthrough: Creating a code snippet](../ide/walkthrough-creating-a-code-snippet.md)  
+[How to: Distribute code snippets](../ide/how-to-distribute-code-snippets.md)  
+[Best practices for Using code snippets](../ide/best-practices-for-using-code-snippets.md)  
+[Troubleshooting snippets](../ide/troubleshooting-snippets.md)  
+[C# code snippets](../ide/visual-csharp-code-snippets.md)  
+[Visual C++ code snippets](../ide/visual-cpp-code-snippets.md)  
+[Code snippets schema reference](../ide/code-snippets-schema-reference.md)
