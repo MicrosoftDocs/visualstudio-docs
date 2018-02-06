@@ -33,26 +33,21 @@ To make sure that you have access to everything you need when you use Visual Stu
 | Service or scenario | DNS endpoint | Protocol | Port | Description |
 | --- | --- | --- | --- | --- |
 | URL<br>resolution | go.microsoft.com<br><br>aka.ms | | |Used to shorten URLs, which then resolve into longer URLs
+| Start Page | vsstartpage.blob.core.windows.net | | | Used to display Developer News shown on the start page in Visual Studio |
+| Targeted<br> Notification <br>Service | targetednotifications.azurewebsites.net <br><br>www.research.net | | | Used to filter a global list of notifications to a list that is applicable only to specific types of machines/usage scenarios |
 | AI Project <br>Integration | az861674.vo.msecnd.net  | | | Used to configure new projects to send usage data to your registered Application Insights account |
 | Code Lens | codelensprodscus1su0.app.<br>codelens.visualstudio.com | | | Used to provide information in the editor about when a file was last updated, the timeline of changes, the work items that changes are associated with, the authors, and more|
 |Experimental <br>feature enabling  | visualstudio-devdiv-c2s.msedge.net | | | Used to activate experimental new features or feature changes |
 | Identity “badge” <br>(user name and avatar)<br>and <br>Roaming settings | app.vssps.visualstudio.com <br><br>app.vsspsext.visualstudio.com<br><br>app.vssps.visualstudio.com<br><br> ns-sb2-prod-ch1-002.cloudapp.net <br><br>az700632.vo.msecnd.net  | | | Used to display the user's name and avatar in the IDE <br><br> Used to make sure that setting changes roam from one machine to another |
 | Remote Settings | az700632.vo.msecnd.net | | | Used to turn off extensions that are known to cause problems in Visual Studio   |
-| Start Page | go.microsoft.com <br><br>vsstartpage.blob.core.windows.net | | | Used to display Developer News shown on the start page in Visual Studio |
-| Targeted<br> Notification <br>Service | targetednotifications.azurewebsites.net <br><br>www.research.net | | | Used to filter a global list of notifications to a list that is applicable only to specific types of machines/usage scenarios |
 | Windows Tools | developer.microsoft.com <br><br>dev.windows.com  <br><br>appdev.microsoft.com  | | | Used for Windows app store scenarios  |
-| JSON Schema <br>Discovery | json.schemastore.org <br><br>schemastoreorg.azurewebsites.net| | | Used to discover and download JSON schemas that the user might use when editing JSON documents |
-| JSON Schema <br>Definition |  json-schema.org  | | | Used to obtain the meta-validation schema for JSON |
-|JSON Schema <br>Support for <br>Azure Resources  | schema.management.azure.com  | | | Used to obtain the current schema for Azure Resource Manager deployment templates |
+| JSON Schema <br>Discovery <br><br>JSON Schema <br>Definition<br><br>JSON Schema <br>Support for <br>Azure Resources| json.schemastore.org <br>schemastoreorg.azurewebsites.net<br><br>json-schema.org<br><br>schema.management.azure.com| | | Used to discover and download JSON schemas that the user might use when editing JSON documents <br><br>Used to obtain the meta-validation schema for JSON<br><br>Used to obtain the current schema for Azure Resource Manager deployment templates|
 | NPM package <br>discovery  |Skimdb.npmjs.com <br><br>Registry.npmjs.org <br><br>Api.npms.io  | | | Required for searching for NPM packages, and used for client-side script package installation in web projects |
-|Bower package<br> icons  |Bower.io  | | |Provides the default bower package icon  |
-| Bower package search |bowercache.azurewebsites.net <br><br>go.microsoft.com <br><br>Registry.bower.io  | | |Provides the ability to search for Bower packages |
+|Bower package<br> icons<br><br>Bower package <br>search  |Bower.io <br><br>bowercache.azurewebsites.net <br>go.microsoft.com <br>Registry.bower.io | | |Provides the default bower package icon  <br><br>Provides the ability to search for Bower packages |
 |NuGet package<br> discovery  |Api.nuget.org <br><br>www.nuget.org <br><br>Nuget.org  | | |Required for searching for NuGet packages and versions |
 |GitHub repository information  |api.github.com  | | | Required for getting additional information about bower packages |
 | Web Linters|Eslint.org<br><br>www.Bing.com <br><br>www.coffeelint.org  | | | |
-| Python package discovery| pypi.org| | | Provides the ability to search for pip packages|
-| Python package management | go.microsoft.com <br><br>pypi.python.org <br><br>bootstrap.pypa.io | | |Used to install pip automatically if it is missing |
-|Python <bf>New Project <br>templates  | go.microsoft.com |
+| Python package <br>discovery<br><br>Python package <br>management<br><br>Python <br>New Project <br>templates| pypi.org<br> <br>pypi.python.org <br>bootstrap.pypa.io<br><br>go.microsoft.com| | | Provides the ability to search for pip packages<br><br>Used to install pip automatically if it is missing|
 | Office web <br>add-in <br> Manifest <br>Verification <br>Service | verificationservice.osi.office.net |  |  | Used to validate manifests for Office web add-ins |
 | SharePoint and <br>Office Add-ins | sharepoint.com |  |  | Used to publish and test SharePoint and Office Add-ins to SharePoint Online |
 | Workflow Manager <br>Test Service<br> Host | |  | 12292 | A firewall rule that is created automatically for testing SharePoint Add-ins with workflows |
