@@ -121,6 +121,5 @@ Here are a few more support options:
 
 ## See also
 * [Install and use Visual Studio behind a firewall or proxy server](install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md)
-* [Visual Studio and Azure Services ports and protocols list](visual-studio-and-azure-services-ports-and-protocols.md)
 * [Visual Studio Administrator Guide](visual-studio-administrator-guide.md)
 * [Install Visual Studio 2017](install-visual-studio.md)
