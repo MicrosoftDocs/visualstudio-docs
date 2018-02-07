@@ -51,6 +51,7 @@ If it's possible for your environment, consider adding the following domains wit
 | *.windows.net | Sign-in location |
 | *.microsoftonline.com | Sign-in location |
 | *.live.com | Sign-in location |
+|  |  | |
 
 #### Non-Microsoft domains
 | Domain | Installs these workloads |
@@ -65,6 +66,7 @@ If it's possible for your environment, consider adding the following domains wit
 | www.incredibuild.com | Game development with C++ (IncrediBuild) |
 | incredibuildvs2017i.azureedge.net | Game development with C++ (IncrediBuild) |
 | www.python.org | Python development (Python) <br /><br />Data science and analytical applications (Python) |
+|  |  | |
 
 ## Use Visual Studio and Azure Services
 ### URLs to whitelist and ports and protocols to open
@@ -105,7 +107,8 @@ To make sure that you have access to everything you need when you use Visual Stu
 | Service Fabric | 1. <br>ocs.Microsoft.com<br>aka.ms <br>go.microsoft.com <br><br>2. <br>vssftools.blob.core.windows.net <br>Vault.azure.com <br>Portal.azure.com <br><br> 3. &#42; vault.azure.net<br><br> 4. <br>app.vsaex.visualstudio.com<br>&#42; .vsspsext.visualstudio.com<br>clouds.vsrm.visualstudio.com <br>clouds.visualstudio.com<br>app.vssps.visualstudio.com <br>&#42; .visualstudio.com | https | 443 | 1. Documentation <br><br> 2. Create Cluster feature <br><br>3. The &#42; is the azure key vault name (Example:- test11220180112110108.vault.azure.net  <br><br>  4. The &#42; is dynamic (Example: vsspsextprodch1su1.vsspsext.visualstudio.com |
 | Snapshot <br>Debugger | 1. go.microsoft.com <br>2. management.azure.com <br> 3. &#42;azurewebsites.net <br> 4. &#42;scm.azurewebsites.net<br>5. api.nuget.org/v3/index.json <br>6. msvsmon | 1. https <br>2. https  <br>3. http <br>4. https <br>5. https <br>6. Concord <br> | 1. 443<br> 2. 443<br>3. 80  <br>4. 443<br> 5. 443<br> 6. 4022 (Visual Studio version dependent) | 1. Query .json file for app service SKU size <br>2. Various Azure RM calls <br>3. Site warmup call via  <br>4. Customer's targeted App Service Kudu endpoint <br>5. Query Site Extension version published in nuget.org <br>6. Remote debugging channel |
 |Azure Stream Analytics <br><br>HDInsight | Management.azure.com |https|443 |Used to view, submit, run, and manage ASA jobs <br><br> Used to browse HDI clusters, and to submit, diagnose, and debuge HDI jobs |
-| Azure Data Lake | &#42;.azuredatalakestore.net <br>&#42;.azuredatalakeanalytics.net | https | 443 | Used to compile, submit, view, diagnose, and debug  jobs; wsed to browse ADLS files; used to upload and download files | 
+| Azure Data Lake | &#42;.azuredatalakestore.net <br>&#42;.azuredatalakeanalytics.net | https | 443 | Used to compile, submit, view, diagnose, and debug  jobs; wsed to browse ADLS files; used to upload and download files |
+|||||||
 
 
 ## Troubleshoot network-related errors
