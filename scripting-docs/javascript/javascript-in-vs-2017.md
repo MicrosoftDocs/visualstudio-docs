@@ -201,7 +201,7 @@ You could use the following `tsconfig.json` to make sure the language service on
 }
 ```
 # Troubleshooting The JavaScript language service has been disabled for the following project(s)
-When opening a JavaScript project that has a huge amount of content you might get a message that reads "The JavaScript language service has been disabled for the following project(s)". The most common reason for having so much .js source is due to including libraries with a ton of content.
+When opening a JavaScript project that has a huge amount of content you might get a message that reads "The JavaScript language service has been disabled for the following project(s)". The most common reason for having so much .js source is due to including libraries with so much source code that exceeds a 20MB project limit.
 
 A simple way to optimize your project, is by adding a `tsconfig.json` file on your project root to let the language service know which files are safe to ignore. Use the sample below to exclude the most common directories where libraries are stored:
 
@@ -226,8 +226,6 @@ A simple way to optimize your project, is by adding a `tsconfig.json` file on yo
 ```
 
 Add more directories as you see fit. Some other examples include "vendor" or "wwwroot/lib" directories.
-
-More details on [Language Service Disabled](https://billti.github.io/jsdocs/articles/troubleshooting/index.html#language-service-is-disabled).
 
 # Notable Changes from VS 2015 
 As [!include[vs_dev15](../../docs/misc/includes/vs_dev15_md.md)] features a completely new language service, there are a few behaviors that will be different or absent from the previous experience.
