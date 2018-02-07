@@ -9,7 +9,6 @@ ms.technology:
   - "devlang-r"
   - "devlang-python"
 ms.tgt_pltfrm: ""
-  - "devlang-fsharp"
 ms.topic: "landing-page"
 author: "kraigb"
 ms.author: "kraigb"
