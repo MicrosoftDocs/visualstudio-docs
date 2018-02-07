@@ -4,13 +4,13 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 author: gewarren
 ms.author: gewarren
 manager: ghogen
 ms.workload: 
   - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Using Visual Studio ModelBus in a Text Template
 If you write text templates that read a model that contains [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] ModelBus references, you might want to resolve the references to access the target models. In that case, you have to adapt the text templates and the referenced domain-specific languages (DSLs):  
