@@ -37,7 +37,7 @@ manager: ghogen
 
 ### 3. Assembly-based discovery is no longer working for my project. How do I turn it back on?
 
-  Go to **Tools > Options > Test** and check the box for **Additionally discover tests built from assemblies after builds.**
+  Go to **Tools > Options > Test** and check the box for **Additionally discover tests from built assemblies after builds.**
 
   ![Assembly-based option](media/testex-toolsoptions.png)
 
@@ -48,6 +48,20 @@ manager: ghogen
 ### 5. What languages and test frameworks can use Real Time Test Discovery?
 
   [Real Time Test Discovery](https://go.microsoft.com/fwlink/?linkid=862824) only works for the managed languages (C# and Visual Basic), since it is built using the Roslyn compiler. For now, Real Time Test Discovery only works for the xUnit, NUnit, and MSTest frameworks.
+
+### 6. How can I turn on logs for the Test Explorer?
+
+  Navigate to **Tools > Options > Test** and find the Logging section there.
+
+### 7. Why are my tests in UWP projects not discovered until I deploy my app?
+
+  UWP tests target a different runtime when the app is deployed. This means that to discover tests accurately for UWP projects you not only need to build your project, but also deploy.
+
+### 8. How does sorting test results work in the hierarchy view?
+
+  The hierarchy view sorts tests alphabetically as opposed to outcome. The other group by settings normally sort test results by outcome and then alphabetically. The different group by options are shown below for comparison. You can provide feedback on this design [here]().
+
+  ![SortingExamples](media/testex-sortingex.png)
 
 ## Features
 
