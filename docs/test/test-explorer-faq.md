@@ -43,11 +43,11 @@ manager: ghogen
 
 ### 4. Tests now appear in Test Explorer while I type, without having to build my project. What changed?
 
-  This feature is called [Real Time Test Discovery](https://go.microsoft.com/fwlink/?linkid=862824). It uses a Roslyn analyzer to discover tests and populate Test Explorer in real time, without requiring you to build your project. See FAQ #1 for more information about test discovery behavior for dynamically defined tests such as theories or custom traits.
+  This feature is called [Real Time Test Discovery](https://go.microsoft.com/fwlink/?linkid=862824). It uses a .NET Complier Platform ("Roslyn") analyzer to discover tests and populate Test Explorer in real time, without requiring you to build your project. See FAQ #1 for more information about test discovery behavior for dynamically defined tests such as theories or custom traits.
 
 ### 5. What languages and test frameworks can use Real Time Test Discovery?
 
-  [Real Time Test Discovery](https://go.microsoft.com/fwlink/?linkid=862824) only works for the managed languages (C# and Visual Basic), since it is built using the Roslyn compiler. For now, Real Time Test Discovery only works for the xUnit, NUnit, and MSTest frameworks.
+  [Real Time Test Discovery](https://go.microsoft.com/fwlink/?linkid=862824) only works for the managed languages (C# and Visual Basic), since it is built using the .NET ("Roslyn") compiler. For now, Real Time Test Discovery only works for the xUnit, NUnit, and MSTest frameworks.
 
 ## Features
 

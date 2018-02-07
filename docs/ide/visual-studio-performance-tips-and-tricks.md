@@ -81,7 +81,7 @@ Some tools or extensions may to turned off to improve performance.
 
 ### Managed Language Services (Roslyn)
 
-For information about Roslyn performance considerations, see [Performance considerations for large solutions] (https://github.com/dotnet/roslyn/wiki/Performance-considerations-for-large-solutions).
+For information about .NET Compiler Platform ("Roslyn") performance considerations, see [Performance considerations for large solutions] (https://github.com/dotnet/roslyn/wiki/Performance-considerations-for-large-solutions).
 
 - **Disable Full Solution Analysis**
 

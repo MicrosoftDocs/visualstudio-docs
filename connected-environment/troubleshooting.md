@@ -44,3 +44,18 @@ Install the [VS Code extension for Conneced Environment](get-started-netcore-01.
 ## I don't see any Connected Environment instances in the Azure Portal
 
 **Reason:** An Azure Portal experience for Connected Environment is not yet ready for preview.
+
+
+## Error During Warmup Displayed in Visual Studio Output Window
+An error occurred during warmup for project '<projectname>'
+
+**Reason:** This occurs when Visual Studio attempts to warmup a Connected Environment that has not yet finished being created, or is in an incomplete or error state. You will often see this right after you have started to create a new Connected Environment.
+
+**Try:**
+If you have just started the creation of a new Connected Environment, wait until it is successfully created before attempting to F5 or Ctrl+F5 your project/service. If this is a Connected Environment you created more than 15 minutes ago, it is likely in a bad state. You can try creating a new environment and wait for it to successfully be created. 
+
+You can see if your Connected Environment is still being created by *hovering your cursor* over the **Background tasks** icon in the bottom left corner of the status bar.    
+![](images/BackgroundTasks.png)
+
+You can also see if a Connected Environment you recently created from within Visual Studio has been created sucessfully by *clicking* on the **Background tasks** icon in the bottom left corner of the status bar.    
+![](images/BackgroundTasks2.png)
