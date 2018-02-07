@@ -17,7 +17,8 @@ ms.workload:
   - "multiple"
 ---
 # Learn about Debugger Windows in Visual Studio
-You can open most debugger windows while you are debugging your program. To see a list of debugger windows, set a breakpoint and start debugging. When you hit the breakpoint and execution stops, click **Debug > Windows**.  
+
+You can open most debugger windows while you are debugging your program. To see a list of debugger windows, set a breakpoint and start debugging. When you hit the breakpoint and execution stops, click **Debug > Windows**.
 
 ||||
 |-|-|-|
@@ -34,10 +35,10 @@ You can open most debugger windows while you are debugging your program. To see 
 |Parallel Stacks|CTR:+SHIFT+D, S|[Using the Parallel Stacks Window](../debugger/using-the-parallel-stacks-window.md)|
 |Parallel Watch|CTR:+SHIFT+D, (1, 2, 3, 4)|[Get started Debugging Multithreaded Applications](../debugger/get-started-debugging-multithreaded-apps.md)|
 |Threads|CTRL+ALT+H|[Debug using the Threads Window](../debugger/how-to-use-the-threads-window.md)|
-|Modules|CTRL+ALT+U|[How to: Use the Modules Window](../debugger/how-to-use-the-modules-window.md)| 
+|Modules|CTRL+ALT+U|[How to: Use the Modules Window](../debugger/how-to-use-the-modules-window.md)|
 |GPU Threads|-|[How to: Use the GPU Threads Window](../debugger/how-to-use-the-gpu-threads-window.md)|
-|Tasks|CTR:+SHIFT+D, K|[Using the Tasks Window](../debugger/using-the-tasks-window.md)| 
-|Python Debug Interactive|SHIFT+ALT+I|[Getting Started with PTVS: Interactive Python](../python/python-interactive-repl-in-visual-studio.md)
+|Tasks|CTR:+SHIFT+D, K|[Using the Tasks Window](../debugger/using-the-tasks-window.md)|
+|Python Debug Interactive|SHIFT+ALT+I|[Python Interactive REPL](../python/interactive-repl.md)|
 |JavaScript Console|CTRL+ALT+V, C|[QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md)|
 |DOM Explorer|CTRL+ALT+V, D|[Debug layout using DOM Explorer](../debugger/debug-layout-using-dom-explorer.md)|
 |Live Visual Tree|-|[Inspect XAML properties while debugging](../debugger/inspect-xaml-properties-while-debugging.md)|
@@ -47,5 +48,6 @@ You can open most debugger windows while you are debugging your program. To see 
 |Disassembly|CTRL+ALT+D|[How to: Use the Disassembly Window](../debugger/how-to-use-the-disassembly-window.md)|
 |Registers|CTRL+ALT+G|[How to: Use the Registers Window](../debugger/how-to-use-the-registers-window.md)|
 
-## See Also  
- [Debugger Basics](../debugger/debugger-basics.md)
+## See Also
+
+[Debugger Basics](../debugger/debugger-basics.md)
