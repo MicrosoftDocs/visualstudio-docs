@@ -9,12 +9,11 @@ ms.technology:
   - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: quickstart
-ms.devlang: python
+dev_langs:
+  - python
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
-dev_langs: 
-  - python
 ms.workload: 
   - "python"
   - "data-science"

@@ -1,14 +1,15 @@
 ---
 title: Options and settings for Python in Visual Studio | Microsoft Docs
 description: A reference for the various settings in Visual Studio that relate to Python code and projects.
-ms.custom: ""
+ms.custom:
 ms.date: 01/04/2018
-ms.reviewer: ""
-ms.suite: ""
+ms.reviewer:
+ms.suite:
 ms.technology: 
   - "devlang-python"
-ms.devlang: python
-ms.tgt_pltfrm: ""
+dev_langs:
+  - "python"
+ms.tgt_pltfrm:
 ms.topic: "article"
 f1_keywords: 
   - "VS.ToolsOptionsPages.Python_Tools"

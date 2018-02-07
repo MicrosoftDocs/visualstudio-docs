@@ -101,7 +101,7 @@ Now you can run Code Analysis on the RuleSetSample project and look for any erro
   
 2.  In the Error List window, click **Warnings** and then click the **Description** column header to sort the warnings alphanumerically.  
   
-     In a real-world application, you would fix any rule violations worth fixing at this point, or optionally turn off or suppress a rule if you determined that it was not worth fixing. For more information, see [Suppress Warnings By Using the SuppressMessage Attribute](../code-quality/suppress-warnings-by-using-the-suppressmessage-attribute.md).  
+     In a real-world application, you would fix any rule violations worth fixing at this point, or optionally turn off or suppress a rule if you determined that it was not worth fixing. For more information, see [Suppress warnings](../code-quality/in-source-suppression-overview.md).
   
 3.  Notice the CA1704 warnings. These violations on this rule indicate that you should " Consider providing a more meaningful name for the parameters." You could correct the issue in your code or you can disable the rule, as explained in the next procedure.  
   

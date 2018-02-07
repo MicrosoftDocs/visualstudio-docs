@@ -1,18 +1,18 @@
 ---
 title: Linting R Code with the R Tools for Visual Studio | Microsoft Docs
 description: How to work with Visual Studio's build-in linting support for R, including linting options.
-ms.custom: ""
+ms.custom:
 ms.date: 01/15/2018
-ms.reviewer: ""
-ms.suite: ""
+ms.reviewer:
+ms.suite:
 ms.technology: 
   - "devlang-r"
-ms.devlang: r
-ms.tgt_pltfrm: ""
+dev_langs:
+  - "R"
+ms.tgt_pltfrm:
 f1_keywords: 
   - "vs.toolsoptionspages.text_editor.r.lint"
 ms.topic: "article"
-caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
