@@ -19,4 +19,4 @@ If you are searching for help on the text editor itself, see [Writing code in th
 
 ## Help us improve F1
 
-Please help us improve the F1 help experience by leaving feedback about what you were looking for when you pressed **F1**. For example, what symbol or window was your cursor on? Use the **Sign in to give documentation feedback** or **Give documentation feedback** button below. Thank you!
+Please help us improve the F1 help experience by leaving feedback about what you were looking for when you pressed **F1**. For example, what symbol or window was your cursor on? Use the **Give documentation feedback** button below. Thank you!
