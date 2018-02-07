@@ -1,5 +1,5 @@
 ---
-title: "Suppressing code analysis warnings using the SuppressMessage attribute in Visual Studio | Microsoft Docs"
+title: "Suppress code analysis warnings in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: 01/29/2018
 ms.reviewer: ""
@@ -29,6 +29,9 @@ In C++/CLI, use the macros CA\_SUPPRESS\_MESSAGE or CA\_GLOBAL\_SUPPRESS_MESSAGE
 
 > [!NOTE]
 > You should not use in-source suppressions on release builds, to prevent shipping the in-source suppression metadata accidentally. Additionally, because of the processing cost of in-source suppression, the performance of your application can be degraded.
+
+> [!NOTE]
+> If you migrate a project to Visual Studio 2017, you might suddenly be faced with an overwhelming number of code analysis warnings. If you aren't ready to fix the warnings and want to temporarily turn code analysis off, open the project's property pages (**Project** > ***project* Properties...**) and go to the **Code Analysis** tab. Deselect **Enable Code Analysis on Build**, and then rebuild your project. Alternatively, you can select a different, smaller rule set to run against the code. Remember to turn code analysis back on when you are ready to fix the warnings.
 
 ## SuppressMessage attribute
 
@@ -90,7 +93,7 @@ For maintainability reasons, omitting the rule name is not recommended.
 
 Suppression attributes can be applied to a method, but cannot be embedded within a method body. This means that all violations of a particular rule are suppressed if you add the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute to the method.
 
-In some cases, you might want to suppress a particular instance of the violation, for example so that future code isn't automatically exempt from the code analysis rule. Certain code analysis rules allow you to do this by using the `MessageId` property of the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute. In general, legacy rules for violations on a particular symbol (a local variable or parameter) respect the `MessageId` property. [CA1500:VariableNamesShouldNotMatchFieldNames](../code-quality/ca1500-variable-names-should-not-match-field-names.md) is an example of such a rule. However, legacy rules for violations on executable code (non-symbol) do not respect the `MessageId` property. Additionally, Roslyn analyzers do not respect the `MessageId` property.
+In some cases, you might want to suppress a particular instance of the violation, for example so that future code isn't automatically exempt from the code analysis rule. Certain code analysis rules allow you to do this by using the `MessageId` property of the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute. In general, legacy rules for violations on a particular symbol (a local variable or parameter) respect the `MessageId` property. [CA1500:VariableNamesShouldNotMatchFieldNames](../code-quality/ca1500-variable-names-should-not-match-field-names.md) is an example of such a rule. However, legacy rules for violations on executable code (non-symbol) do not respect the `MessageId` property. Additionally, .NET Compiler Platform ("Roslyn") analyzers do not respect the `MessageId` property.
 
 To suppress a particular symbol violation of a rule, specify the symbol name for the `MessageId` property of the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute. The following example shows code with two violations of [CA1500:VariableNamesShouldNotMatchFieldNames](../code-quality/ca1500-variable-names-should-not-match-field-names.md)&mdash;one for the `name` variable and one for the `age` variable. Only the violation for the `age` symbol is suppressed.
 

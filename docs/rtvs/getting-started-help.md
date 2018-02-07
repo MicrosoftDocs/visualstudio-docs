@@ -1,16 +1,16 @@
 ---
 title: Help Window in the R Tools for Visual Studio | Microsoft Docs
 description: Help for R is integrated directly into the interactive window in Visual Studio through the ? command.
-ms.custom: ""
+ms.custom:
 ms.date: 001/24/2018
-ms.reviewer: ""
-ms.suite: ""
+ms.reviewer:
+ms.suite:
 ms.technology: 
   - "devlang-r"
-ms.devlang: r
-ms.tgt_pltfrm: ""
+dev_langs:
+  - "R"
+ms.tgt_pltfrm:
 ms.topic: "get-started-article"
-caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen

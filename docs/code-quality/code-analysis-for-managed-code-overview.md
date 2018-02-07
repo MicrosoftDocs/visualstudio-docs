@@ -36,11 +36,11 @@ To run code analysis manually on a project, from the menu bar choose **Analyze**
 
 Code analysis rules for managed code are grouped into *rule sets*. You can use one of the Microsoft standard rule sets, or you can create a custom rule set to fulfill a specific need. For more information, see [Using Rule Sets to Group Code Analysis Rules](../code-quality/using-rule-sets-to-group-code-analysis-rules.md).
 
-## In source suppression
+## Suppress warnings
 
 Frequently, it is useful to indicate that a warning is non-applicable. This informs the developer, and other people who might review the code later, that a warning was investigated and then either suppressed or ignored.
 
-In source suppression of warnings is implemented through custom attributes. To suppress a warning, add the attribute `SuppressMessage` to the source code as shown in the following example:
+In-source suppression of warnings is implemented through custom attributes. To suppress a warning, add the attribute `SuppressMessage` to the source code as shown in the following example:
 
 ```csharp
 [System.Diagnosis.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1039:ListsAreStrongTyped")]
@@ -50,7 +50,10 @@ Public class MyClass
 }
 ```
 
-For more information, see [Suppress Warnings By Using the SuppressMessage Attribute](../code-quality/suppress-warnings-by-using-the-suppressmessage-attribute.md).
+For more information, see [Suppress warnings](../code-quality/in-source-suppression-overview.md).
+
+> [!NOTE]
+> If you migrate a project to Visual Studio 2017, you might suddenly be faced with an overwhelming number of code analysis warnings. If you aren't ready to fix the warnings and want to temporarily turn code analysis off, open the project's property pages (**Project** > ***project* Properties...**) and go to the **Code Analysis** tab. Deselect **Enable Code Analysis on Build**, and then rebuild your project. Alternatively, you can select a different, smaller rule set to run against the code. Remember to turn code analysis back on when you are ready to fix the warnings.
 
 ## Run code analysis as part of check-in policy
 
