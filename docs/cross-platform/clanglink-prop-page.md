@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "10/23/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
+ms.technology: vs-ide-mobile
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 66e88848-116c-4eb0-bc57-183394d35b57

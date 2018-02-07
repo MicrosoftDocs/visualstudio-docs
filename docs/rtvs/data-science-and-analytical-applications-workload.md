@@ -8,8 +8,7 @@ ms.suite:
 ms.technology: 
   - "devlang-r"
   - "devlang-python"
-  - "devlang-fsharp"
-ms.tgt_pltfrm:
+ms.tgt_pltfrm: ""
 ms.topic: "landing-page"
 author: "kraigb"
 ms.author: "kraigb"
