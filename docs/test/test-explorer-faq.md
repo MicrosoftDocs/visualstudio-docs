@@ -59,7 +59,7 @@ manager: ghogen
 
 ### 8. How does sorting test results work in the hierarchy view?
 
-  The hierarchy view sorts tests alphabetically as opposed to outcome. The other group by settings normally sort test results by outcome and then alphabetically. The different group by options are shown below for comparison. You can provide feedback on this design [here]().
+  The hierarchy view sorts tests alphabetically as opposed to outcome. The other group by settings normally sort test results by outcome and then alphabetically. The different group by options are shown below for comparison. You can provide feedback on this design [here](https://github.com/Microsoft/vstest/issues/1425).
 
   ![SortingExamples](media/testex-sortingex.png)
 
