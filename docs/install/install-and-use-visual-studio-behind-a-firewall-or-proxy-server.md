@@ -112,7 +112,7 @@ To make sure that you have access to everything you need when you use Visual Stu
 
 
 ## Troubleshoot network-related errors
-Sometimes, you might run in to network- or proxy-related errors when you install or use Visual Studio behind a firewall or a proxy server. For more information about solutions for such error messages, see the [Troubleshooting network errors when you install or use Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md) page.
+Sometimes, you might run in to network- or proxy-related errors when you install or use Visual Studio behind a firewall or a proxy server. For more information about solutions for such error messages, see the [Troubleshooting network-related errors when you install or use Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md) page.
 
 ## Get support
 Here are a few more support options for you:
