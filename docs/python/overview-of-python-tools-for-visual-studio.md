@@ -66,7 +66,7 @@ A. Python is generally an interpreted language, with which code is run on demand
 
 ## Features matrix
 
-Python support can be installed in the following editions of Visual Studio as described in the [installation guide](installing-python-support-in-visual-studio.md):
+Python features can be installed in the following editions of Visual Studio as described in the [installation guide](installing-python-support-in-visual-studio.md):
 
 - [Visual Studio 2017 (all editions)](https://www.visualstudio.com/vs/)
 - [Visual Studio 2015 (all editions)] (https://www.visualstudio.com/en-us/downloads/visual-studio-2015-downloads-vs)
@@ -77,7 +77,7 @@ Python support can be installed in the following editions of Visual Studio as de
 - Visual Studio 2012 (Pro edition or higher)
 - Visual Studio 2010 SP1 (Pro edition or higher; .NET 4.5 required)
 
-Supported features by Visual Studio version and edition:
+Features are fully supported and maintained for only the latest version of Visual Studio. Features are available in older versions but are not actively maintained.
 
 | Python Support | 2017 | 2015 | 2013 Comm | 2013 Desktop | 2013 Web | 2013 Pro+ | 2012 Pro+ | 2010 SP1 Pro+ |
 | --- | --- | --- | --- | --- | --- | --- | --- | ---|
@@ -162,6 +162,8 @@ Supported features by Visual Studio version and edition:
 | Remote debugging (Windows, Mac OS X, Linux) | &#10004; | &#10004; | &#10004; | &#10004; | &#10007; | &#10004; | &#10004; | &#10004; |
 | Debug interactive window | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; |
 <br/>
+
+<a name="matrix-profiling"></a>
 
 | Profiling | 2017 | 2015 | 2013 Comm | 2013 Desktop | 2013 Web | 2013 Pro+ | 2012 Pro+ | 2010 SP1 Pro+ |
 | --- | --- | --- | --- | --- | --- | --- | --- | ---|

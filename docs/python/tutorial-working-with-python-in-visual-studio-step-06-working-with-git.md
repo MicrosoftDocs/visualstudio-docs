@@ -31,7 +31,7 @@ This topic describes creating a local Git repository for an existing project. Fo
 
   ![Additional information appears when hovering over a Git control on the Visual Studio window](media/working-with-git-01.png)
 
-1. The **Team Explorer** window also appears with various Git options available by selecting the repository header. The **Sync** pane, as shown, provides options for publishing to a remote repository.
+1. The **Team Explorer** window also appears with various Git options available by selecting the repository header. The **Sync** pane, as shown when you select the **Push** header, provides options for publishing to a remote repository.
 
   ![Team Explorer in Visual Studio after creating a local repository](media/working-with-git-02.png)
 
@@ -43,7 +43,7 @@ This topic describes creating a local Git repository for an existing project. Fo
 
   ![Team Explorer in Visual Studio showing branches](media/working-with-git-04.png)
 
-1. When using a local repository, committed changes go directly into the repository. If you're connected to a remote repository, select **Sync** to push your local commits.
+1. When using a local repository, committed changes go directly into the repository. If you're connected to a remote repository, select the header, choose **Sync** to switch to the **Synchronization** section, and work with the commands presented there.
 
 ## Going deeper
 

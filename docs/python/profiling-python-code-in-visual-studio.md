@@ -21,7 +21,7 @@ ms.workload:
 
 # Profiling Python code
 
-Visual Studio supports profiling a Python application when using CPython-based interpreters.
+You can profile a Python application when using CPython-based interpreters. (See [Features matrix - profiling](overview-of-python-tools-for-visual-studio.md#matrix-profiling) for the availability of this feature for different versions of Visual Studio.)
 
 Profiling is started through the **Analyze > Launch Python Profiling** menu command, which opens a configuration dialog:
 
