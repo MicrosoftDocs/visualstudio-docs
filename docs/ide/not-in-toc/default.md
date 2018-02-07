@@ -17,6 +17,6 @@ It looks like you landed here by mistake. If you are looking for F1 help on a ke
 
 If you are searching for help on the text editor itself, see [Writing code in the editor](../../ide/writing-code-in-the-code-and-text-editor.md).
 
-## Provide feedback
+## Help us improve F1
 
-Please help us improve the F1 help experience by leaving feedback about what you were looking for when you pressed **F1**. For example, what symbol or window was your cursor on? Use the **documentation feedback** button at the bottom of this page. Thank you!
+Please help us improve the F1 help experience by leaving feedback about what you were looking for when you pressed **F1**. For example, what symbol or window was your cursor on? Use the **Sign in to give documentation feedback** or **Give documentation feedback** button below. Thank you!
