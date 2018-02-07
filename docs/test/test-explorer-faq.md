@@ -23,15 +23,15 @@ manager: ghogen
 
 ## Test Discovery
 
-### 1. The Test Explorer is not discovering my tests that have theories, custom adapters, custom traits, use #ifdefs, or are dynamically defined. How can I discover these tests?
+### 1. The Test Explorer is not discovering my tests that are dynamically defined. (For example, theories, custom adapters, custom traits, #ifdefs, etc.) How can I discover these tests?
 
   Build your project and make sure assembly-based discovery is turned on in **Tools > Options > Test**.
 
-  [Real Time Test Discovery](https://go.microsoft.com/fwlink/?linkid=862824), which is source-based test discovery, can’t discover tests that use theories, custom adapters, custom traits, `#ifdef` statements, or that are dynamically defined in some other way. A build is required for those tests to be accurately discovered. In the 15.6 Previews, assembly-based discovery (the traditional discoverer) runs only after builds. This means Real Time Test Discovery discovers as many tests as it can while you are editing, and assembly-based discovery allows theories (or any dynamically defined tests) to appear after a build. Real Time Test Discovery improves responsiveness, but stills allow you to get complete and accurate results after a build.
+  [Real Time Test Discovery](https://go.microsoft.com/fwlink/?linkid=862824) is source-based test discovery. It can’t discover tests that use theories, custom adapters, custom traits, `#ifdef` statements, etc. because they are defined at runtime. A build is required for those tests to be accurately discovered. In the 15.6 Previews, assembly-based discovery (the traditional discoverer) runs only after builds. This setting means Real Time Test Discovery discovers as many tests as it can while you are editing, and assembly-based discovery allows dynamically defined tests to appear after a build. Real Time Test Discovery improves responsiveness, but stills allow you to get complete and accurate results after a build.
 
 ### 2. What does the '+' (plus) symbol that appears in the top line of Test Explorer mean?
 
-  The '+' (plus) symbol indicates that more tests may be discovered after a build if assembly-based discovery is turned on. It will appear if dynamically defined tests are detected in your project.
+  The '+' (plus) symbol indicates that more tests may be discovered after a build as long as assembly-based discovery is turned on. It appears if dynamically defined tests are detected in your project.
 
   ![Plus symbol summary line](media/testex-plussymbol.png)
 
@@ -43,7 +43,7 @@ manager: ghogen
 
 ### 4. Tests now appear in Test Explorer while I type, without having to build my project. What changed?
 
-  This feature is called [Real Time Test Discovery](https://go.microsoft.com/fwlink/?linkid=862824). It uses a Roslyn analyzer to discover tests and populate Test Explorer in real time, without requiring you to build your project. See FAQ #1 for more information about test discovery behavior for dynamically defined tests such as theories or custom traits.
+  This feature is called [Real Time Test Discovery](https://go.microsoft.com/fwlink/?linkid=862824). It uses a Roslyn analyzer to discover tests and populate Test Explorer in real time, without requiring you to build your project. For more information about test discovery behavior for dynamically defined tests such as theories or custom traits, see FAQ #1 .
 
 ### 5. What languages and test frameworks can use Real Time Test Discovery?
 
@@ -53,7 +53,7 @@ manager: ghogen
 
 ### How can I turn on feature flags to try out new testing features?
 
-Feature flags are used to ship experimental or unfinished parts of the product to avid users who would like to give feedback before the features ship officially. They may destabilize your IDE experience. It is recommended to use them only in safe development environments, such as virtual machines. Feature flags are always use-at-your-own-risk settings. You can turn on experimental features with the [Feature Flags extension](https://marketplace.visualstudio.com/items?itemName=PaulHarrington.FeatureFlagsExtension), or through the developer command prompt.
+Feature flags are used to ship experimental or unfinished parts of the product to avid users who would like to give feedback before the features ship officially. They may destabilize your IDE experience. Use them only in safe development environments, such as virtual machines. Feature flags are always use-at-your-own-risk settings. You can turn on experimental features with the [Feature Flags extension](https://marketplace.visualstudio.com/items?itemName=PaulHarrington.FeatureFlagsExtension), or through the developer command prompt.
 
 ![Feature Flag Extension](media/testex-featureflag.png)
 
