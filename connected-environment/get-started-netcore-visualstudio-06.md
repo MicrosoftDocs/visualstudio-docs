@@ -81,7 +81,7 @@ This built-in capability of Connected Environment enables you to easily test cod
 ## Test Code Running in the `scott` Space
 To test our new version of `mywebapi` in conjunction with `webfrontend`, open your browser to the public access point URL for `webfrontend` (ex. https://webfrontend-teamenv.vsce.io) and navigate to the About page. You should see the original message "Hello from webfrontend and Hello from mywebapi".
 
-Now, add the "scott-" part to the URL so it reads something like https://scott-webfrontend-teamenv.vsce.io and refresh the browser. The breakpoint you set in your `mywebapi` project should get hit. Click F5 to proceed and in your browser you should now see the new message "Hello from webfrontend and mywebapi now says something new". This is because the path to your updated code in `mywebapi` is ruunning in the `scott` space.
+Now, add the "scott-" part to the URL so it reads something like https://scott-webfrontend-teamenv.vsce.io and refresh the browser. The breakpoint you set in your `mywebapi` project should get hit. Click F5 to proceed and in your browser you should now see the new message "Hello from webfrontend and mywebapi now says something new". This is because the path to your updated code in `mywebapi` is running in the `scott` space.
 
 > [!div class="nextstepaction"]
-> [Summarry](get-started-netcore-visualstudio-07.md)
+> [Summary](get-started-netcore-visualstudio-07.md)
