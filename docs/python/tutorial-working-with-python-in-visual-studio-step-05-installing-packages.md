@@ -1,16 +1,16 @@
 ---
 title: Working with Python in Visual Studio, Step 5, Installing Packages | Microsoft Docs
 description: Step 5 of a core tutorial for working with Python within Visual Studio, demonstrating Visual Studio's features for managing packages in a Python environment.
-ms.custom: ""
+ms.custom:
 ms.date: 01/16/2018
-ms.reviewer: ""
-ms.suite: ""
+ms.reviewer:
+ms.suite:
 ms.technology: 
   - "devlang-python"
-ms.devlang: python
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
-caps.latest.revision: 1
+dev_langs:
+  - "python"
+ms.tgt_pltfrm:
+ms.topic: "tutorial"
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen

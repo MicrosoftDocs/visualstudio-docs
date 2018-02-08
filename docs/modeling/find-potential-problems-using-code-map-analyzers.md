@@ -4,7 +4,6 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 f1_keywords: 
   - "vs.progression.codemapanalyzers"
@@ -17,6 +16,7 @@ ms.author: gewarren
 manager: ghogen
 ms.workload: 
   - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Find potential problems using code map analyzers
 Run analyzers on code maps to help you identify code that might be overly complex or that might need improvement. For example, you can use these analyzers:  

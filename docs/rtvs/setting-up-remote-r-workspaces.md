@@ -1,16 +1,16 @@
 ---
 title: Remote workspaces with R Tools for Visual Studio | Microsoft Docs
 description: How to set up remote R workspaces and connect to it from Visual Studio.
-ms.custom: ""
+ms.custom:
 ms.date: 12/04/2017
-ms.reviewer: ""
-ms.suite: ""
+ms.reviewer:
+ms.suite:
 ms.technology: 
   - "devlang-r"
-ms.devlang: r
-ms.tgt_pltfrm: ""
+dev_langs:
+  - "R"
+ms.tgt_pltfrm:
 ms.topic: "article"
-caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen

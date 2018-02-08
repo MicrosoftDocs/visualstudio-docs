@@ -1,16 +1,16 @@
 ---
 title: Installing the R Tools for Visual Studio | Microsoft Docs
 description: How to install the R Tools for Visual Studio in Visual Studio 2017 and Visual Studio 2015, including offline installations.
-ms.custom: ""
+ms.custom:
 ms.date: 01/24/2018
-ms.reviewer: ""
-ms.suite: ""
+ms.reviewer:
+ms.suite:
 ms.technology: 
   - "devlang-r"
-ms.tgt_pltfrm: ""
-ms.devlang: r
+ms.tgt_pltfrm:
+dev_langs:
+  - "R"
 ms.topic: "article"
-caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
