@@ -961,6 +961,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/ide/supplying-xml-code-comments.md",
+            "redirect_url": "/visualstudio/ide/reference/generate-xml-documentation-comments",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/ide/targeting-a-specific-dotnet-framework-version.md",
             "redirect_url": "/visualstudio/ide/visual-studio-multi-targeting-overview/",
             "redirect_document_id": false

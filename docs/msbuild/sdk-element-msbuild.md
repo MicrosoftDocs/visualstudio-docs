@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "01/25/2018"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: msbuild
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -19,7 +18,7 @@ helpviewer_keywords:
   - "Sdk element [MSBuild]"
   - "<Sdk> element [MSBuild]"
 author: "jeffkl"
-ms.author: "jeffkl"
+ms.author: jeffkl
 manager: angerlic
 ms.workload: 
   - "multiple"

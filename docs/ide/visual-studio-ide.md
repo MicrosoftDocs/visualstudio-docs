@@ -6,7 +6,10 @@ ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"
 author: "gewarren"
-ms.author: "gewarren"
+f1_keywords:
+  - vs.startpage
+  - VS.StartPage.HowDoI
+ms.author: gewarren
 manager: ghogen
 ms.workload: 
   - "multiple"

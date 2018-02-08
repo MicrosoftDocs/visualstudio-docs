@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "tgt-pltfrm-cross-plat"
+ms.technology: vs-ide-mobile
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1da4064f-af69-472c-8f31-98484be5f790

@@ -4,7 +4,6 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Domain-Specific Language, overriding event handlers"
@@ -13,6 +12,7 @@ ms.author: gewarren
 manager: ghogen
 ms.workload: 
   - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Domain Property Value Change Handlers
 In a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] domain-specific language, when the value of a domain property changes, the `OnValueChanging()` and `OnValueChanged()` methods are invoked in the domain property handler. To respond to the change, you can override these methods.  
