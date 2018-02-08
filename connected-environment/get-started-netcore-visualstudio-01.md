@@ -22,10 +22,8 @@ While you can use the Connected Environment CLI as a standalone tool, rich featu
 
 ### Visual Studio debugging 
 1. Install the latest version of [Visual Studio 2017](https://www.visualstudio.com/vs/)
-1. In the Visual Studio installer, select these Workloads:
+1. In the Visual Studio installer make sure the following Workload is selected:
     * ASP.NET and web development
-    * Azure development
-    * .NET Core cross-platform development
 1. Install the [Visual Studio extension for Connected Environment](https://aka.ms/get-vsce-visualstudio)
 
 We're now ready to create an ASP.NET Web App with Visual Studio.
