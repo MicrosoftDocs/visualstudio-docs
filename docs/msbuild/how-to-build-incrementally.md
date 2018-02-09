@@ -75,7 +75,7 @@ When you build a large project, it is important that previously built components
   
     <ItemGroup>  
         <TXTFile Include="*.txt"/>  
-        <XMLFile Include="\metadata\*.xml"/>  
+        <XMLFiles Include="\metadata\*.xml"/>  
     </ItemGroup>  
   
     <Target Name = "Convert"  
@@ -95,7 +95,7 @@ When you build a large project, it is important that previously built components
   
         <BuildHelp  
             ContentFiles = "@(ContentFiles)"  
-            MetadataFiles = "@(XMLFile)"  
+            MetadataFiles = "@(XMLFiles)"  
             OutputFileName = "$(MSBuildProjectName).help"/>  
     </Target>  
 </Project>  
