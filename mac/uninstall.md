@@ -126,9 +126,6 @@ rm -rf ~/.android/avd
 
 Xamarin.iOS allows iOS application development using C# or F# with Visual Studio for Mac.
 
-The Xamarin Build Host was also installed automatically with earlier versions of Xamarin.iOS to allow for
-iOS development in Visual Studio. To uninstall both from a machine, using the following steps:
-
 Use the following commands in Terminal to remove all Xamarin.iOS files from a file system:
 
 ```bash
