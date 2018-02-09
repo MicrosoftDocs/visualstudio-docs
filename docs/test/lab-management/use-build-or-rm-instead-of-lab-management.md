@@ -118,4 +118,4 @@ and implement build-deploy-test scenarios. For example, you can use the task to:
 * Run custom PowerShell scripts for SCVMM
 
 For more information, see
-[Create a virtual network isolated environment for build-deploy-test scenarios](https://docs.microsoft.com/vsts/build-release/actions/virtual-networks/create-virtual-network).
+[Create a virtual network isolated environment for build-deploy-test scenarios](/vsts/build-release/actions/virtual-networks/create-virtual-network).
