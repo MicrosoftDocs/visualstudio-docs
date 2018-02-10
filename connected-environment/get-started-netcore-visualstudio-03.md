@@ -1,8 +1,8 @@
 # Get Started on Connected Environment with .NET Core and Visual Studio
 
-Previous step: [Create an ASP.NET Web Apps](get-started-netcore-visualstudio-02.md)
+Previous step: [Create an ASP.NET web apps](get-started-netcore-visualstudio-02.md)
 
-## Create a Dev Environment in Azure
+## Create a dev environment in Azure
 With Connected Environment, you can create Kubernetes-based development environments that are fully managed by Azure and optimized for development. With the project we just created open, select **Connected Environment for AKS** from the launch settings dropdown as shown below.
 
 ![](images/LaunchSettings.png)
@@ -26,7 +26,7 @@ Click **OK** to select or create the development environment. A background task 
 > [!Note]
 Until the development environment is successfully created you cannot debug your application.
 
-## Files Added to Project
+## Look at the files added to project
 While we wait for the development environment to be created, let’s look at the files that have been added to your project when you chose to use a development environment.
 
 First, you can see a folder named `charts` has been added and within this a Helm chart for your application has been scaffolded. These files are used to deploy your application into the development environment.
@@ -38,4 +38,4 @@ Lastly, you will see a file named `vsce.yaml` which contains configuration infor
 ![](images/ProjectFiles.png)
 
 > [!div class="nextstepaction"]
-> [Debug a Container in Kubernetes](get-started-netcore-visualstudio-04.md)
+> [Debug a container in Kubernetes](get-started-netcore-visualstudio-04.md)

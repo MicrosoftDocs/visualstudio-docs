@@ -21,10 +21,10 @@ Picture yourself working on a service that interacts with tens of other services
 
     ![](media/microservices-challenges.png)
 
-## Work in a Shared Development Environment
+## Work in a shared development environment
 With Connected Environment, you can easily set up a *shared* development environment in Azure. Each developer can focus on just their part of the application, and can iteratively develop *pre-commit code* in an environment that already contains all the other services and cloud resources that their scenarios depend on. Dependencies are always up to date, and developers are working in a way that mirrors production.
 
-## Work in Your Own Space
+## Work in your own space
 As you develop code for your service, and before you're ready to check it in, code often won't be in a good state. You're still iteratively shaping it, testing it, and experimenting with solutions. Connected Environment provides the concept of a **space**, which allows you to work in isolation, and without the fear of breaking your team members.
 
 Do the following to make sure both our `webfrontend` and `mywebapi` services are running in our development environment **and in the `mainline` space**.

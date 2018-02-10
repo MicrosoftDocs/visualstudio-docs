@@ -9,13 +9,13 @@ Previous step: [Create a Node.js container in Kubernetes](get-started-nodejs-03.
 <!-- > [!Note]
 > If you don't see any Connected Environment commands in the Command Palette, ensure you have [installed the VS Code extension for Connected Environment](get-started-nodejs-01.md#kubernetes-debugging-with-vs-code). -->
 
-## Select the VSCE Debug Configuration
+## Select the VSCE debug configuration
 1. To open the Debug view, click on the Debug icon in the **Activity Bar** on the side of VS Code.
 1. Select **Launch Program (VSCE)** as the active debug configuration.
 
 ![](media/debug-configuration-nodejs.png)
 
-## Debug the Container in Kubernetes
+## Debug the container in Kubernetes
 Hit **F5** to debug your code in Kubernetes!
 
 Similar to the `up` command, code is synced to the development environment when you start debugging, and a container is built and deployed to Kubernetes. This time, of course, the debugger is attached to the remote container.
@@ -24,7 +24,7 @@ Set a breakpoint in a server-side code file, for example within the `app.get('/a
 
 You have full access to debug information just like you would if the code was executing locally, such as the call stack, local variables, exception information, etc.
 
-## Edit and Refresh the Debug Session
+## Edit code and refresh the debug session
 With the debugger active, make a code edit; for example, modify the hello message again:
 
 ```javascript
@@ -42,7 +42,7 @@ Instead of rebuilding and redeploying a new container image each time code edits
 Now refresh the web app in the browser, or press the *Say It Again* button - you should see your custom message appear in the UI.
 
 
-## An Even Faster Development Flow with Nodemon
+## Use NodeMon to develop even faster
 *Nodemon* is a popular tool that Node.js developers use for rapid development - instead of manually restarting the Node process each time a server-side code edit is made, developers will often configure their Node project to have *nodemon* monitor file changes and automatically restart the server process. In this style of working, the developer just refreshes their browser after making a code edit.
 
 Connected Environment's intent is for you to be able to use the same, productive development workflows you employ when developing locally. To illustrate this, the sample `webfrontend` project was configured to use *nodemon* (it is configured as a dev dependency in `package.json`).

@@ -1,6 +1,6 @@
 # Get Started on Connected Environment with .NET Core
 
-Previous step: [Install Tools](get-started-netcore-01.md)
+Previous step: [Install tools](get-started-netcore-01.md)
 
 [!INCLUDE[](common/sign-into-azure.md)]
 

@@ -1,6 +1,6 @@
 # Get Started on Connected Environment with .NET Core and Visual Studio
 
-Previous step: [Debug a Container in Kubernetes](get-started-netcore-visualstudio-04.md)
+Previous step: [Debug a container in Kubernetes](get-started-netcore-visualstudio-04.md)
 
 ## Call another container
 In this section we're going to create a second service, `mywebapi`, and have `webfrontend` call it. Each service will run in separate containers. We'll then debug across both containers.
@@ -20,7 +20,7 @@ For the sake of time, let's download some sample code from a GitHub repository. 
 
     ![](images/WebAPIResponse.png)
 
-## Make a Request from 'webfrontend' to 'mywebapi'
+## Make a request from 'webfrontend' to 'mywebapi'
 Let's now write code in `webfrontend` that makes a request to `mywebapi`. Switch to the Visual Studio window which has the `webfrontend` project. In the `HomeController.cs` file *replace* the code for the About method with the following:
 
  ```csharp
@@ -46,7 +46,7 @@ Note how Kubernetes' DNS service discovery is employed to simply refer to the se
 
 The code example above also makes use of a `HeaderPropagatingHttpClient` class. This helper class is the file `HeaderPropagation.cs` that was added to your project when you configured it to use Connected Environment. `HeaderPropagatingHttpClient` is dervied from the well-known `HttpClient` class - the only functionality it adds to `HttpClient` is to propagate specific headers from an existing ASP .NET HttpRequest object into an outgoing HttpRequestMessage object. We'll see later how this facilitates a more productive development experience in team scenarios.
 
-## Debug Across Multiple Services
+## Debug across multiple services
 1. At this point, `mywebapi` should still be running with the debugger attached. If it is not, hit F5 in the `mywebapi` project.
 1. Set a breakpoint in the `Get(int id)` method in the `ValuesController.cs` file that handles `api/values/{id}` GET requests.
 1. In the `webfrontend` project where we pasted the above code, set a breakpoint just before it sends a GET request to `mywebapi/api/values`.

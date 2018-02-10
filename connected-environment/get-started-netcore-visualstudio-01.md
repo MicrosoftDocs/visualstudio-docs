@@ -26,7 +26,7 @@ While you can use the Connected Environment CLI as a standalone tool, rich featu
     * ASP.NET and web development
 1. Install the [Visual Studio extension for Connected Environment](https://aka.ms/get-vsce-visualstudio)
 
-We're now ready to create an ASP.NET Web App with Visual Studio.
+We're now ready to Create an ASP.NET web app with Visual Studio.
 
 > [!div class="nextstepaction"]
-> [Create an ASP.NET Web App](get-started-netcore-visualstudio-02.md)
+> [Create an ASP.NET web app](get-started-netcore-visualstudio-02.md)

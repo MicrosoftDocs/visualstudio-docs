@@ -1,6 +1,6 @@
 # Get Started on Connected Environment with Node.js
 
-Previous step: [Install Tools](get-started-nodejs-01.md)
+Previous step: [Install tools](get-started-nodejs-01.md)
 
 [!INCLUDE[](common/sign-into-azure.md)]
 

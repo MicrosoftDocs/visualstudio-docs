@@ -12,7 +12,7 @@ webfrontend  mainline  webfrontend-0.1.0  80/TCP  5h ago      https://scott-webf
 
 This built-in capability of Connected Environment enables you easily test code end-to-end in a shared evironment without requiring each developer  to re-create the full stack of services in their space. Note that this routing requires propagation headers to be forwarded in your app code, as illustrated in the previous step of this guide.
 
-## Test Code Running in the 'Scott' Space
+## Test code in a space
 To test our new version of `mywebapi` in conjunction with `webfrontend`, open your browser to the public access point URL for webfrontend and navigate to the About page. You should see your new message displayed.
 
 Now, remove the "scott-" part of the URL, and refresh the browser - you should see the old behavior (exhibited by the `mywebapi` version running in `mainline`).

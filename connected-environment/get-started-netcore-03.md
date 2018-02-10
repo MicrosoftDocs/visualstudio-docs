@@ -16,7 +16,7 @@ Alternatively, **download code from GitHub** by navigating to https://github.com
 
 [!INCLUDE[](common/build-and-run-in-k8s-cli.md)]
 
-## Update a Content File
+## Update a content file
 Connected Environment isn't just about getting code running in Kubernetes - it's about enabling you to quickly and iteratively see your code changes take effect in a Kubernetes environment in the cloud.
 
 1. Locate the file `./Views/Home/Index.cshtml` and make an edit to the HTML. For example, change line 70 that reads `<h2>Application uses</h2>` to something like: `<h2>Hello k8s in Azure!</h2>`
@@ -25,7 +25,7 @@ Connected Environment isn't just about getting code running in Kubernetes - it's
 
 What happened? Edits to content files, like HTML and CSS, don't require re-compilation in a .NET Core web app, so an active `vsce up` command will automatically sync any modified content files into the running container in Azure, thereby providing a fast way to see your content edits.
 
-## Update a Code File
+## Update a code file
 Updating code files requires a little more work, because a .NET Core app needs to rebuild and produce updated application binaries. The simplest method from the command-line is to stop and re-run `vsce up`.
 
 1. In the terminal window, press `Ctrl+C` (to stop `vsce up`).

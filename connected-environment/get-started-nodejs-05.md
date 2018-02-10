@@ -16,7 +16,7 @@ You should already have the sample code for `mywebapi` for this guide under a fo
 1. When `mywebapi` is ready, open your browser to the localhost address. You should see a simple response from the `mywebapi` service ("Hello from mywebapi").
 
 
-## Make a Request from 'webfrontend' to 'mywebapi'
+## Make a request from 'webfrontend' to 'mywebapi'
 Let's now write code in `webfrontend` that makes a request to `mywebapi`.
 1. Switch to the VS Code window for `webfrontend`.
 1. Add these lines of code at the top of `server.js`:
@@ -43,7 +43,7 @@ Note how Kubernetes' DNS service discovery is employed to simply refer to the se
 The code example above utilizes a helper module named `propagateHeaders`. This helper was added to your code folder at the time you ran `vsce init`. The `propagateHeaders.from()` function propagates specific headers from an existing http.IncomingMessage object into a headers object for an outgoing request. We'll see later how this facilitates a more productive development experience in team scenarios.
 
 
-## Debug Across Multiple Services
+## Debug across multiple services
 1. At this point, `mywebapi` should still be running with the debugger attached. If it is not, hit F5 in the `mywebapi` project.
 1. Set a breakpoint in the default GET `/` handler.
 1. In the `webfrontend` project, set a breakpoint just before it sends a GET request to `http://mywebapi`.

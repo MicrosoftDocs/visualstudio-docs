@@ -16,10 +16,10 @@ Picture yourself working on a service that interacts with tens of other services
 ![](../media/microservices-challenges.png)
 
 
-## Work in a Shared Development Environment
+## Work in a shared development environment
 With Connected Environment, you can easily set up a *shared* development environment in Azure. Each developer can focus on just their part of the application, and can iteratively develop *pre-commit code* in an environment that already contains all the other services and cloud resources that their scenarios depend on. Dependencies are always up to date, and developers are working in a way that mirrors production.
 
-## Work in Your Own Space
+## Work in your own space
 As you develop code for your service, and before you're ready to check it in, code often won't be in a good state - you're still iteratively shaping it, testing it, and experimenting with solutions. Connected Environment provides the concept of a **space**, which allows you to work in isolation, and without the fear of breaking your team members.
 
 > [!Note]
@@ -36,7 +36,7 @@ webfrontend  mainline  webfrontend-0.1.0  80/TCP  1m ago     https://webfrontend
 
 The Space column shows that both services are running in a space named `mainline`. Anyone who opens the public URL and navigates to the web app will invoke the code path we previously wrote that runs through both services. Now suppose we want to continue developing `mywebapi` - how can we do this and not interrupt other developers who are using the dev environment? To do that, we'll set up our own space.
 
-## Create a Space
+## Create a space
 To run our own version of `mywebapi` in a space other than `mainline`, we create our own space:
 ``` 
 vsce space create --name scott

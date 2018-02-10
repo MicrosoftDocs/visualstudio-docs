@@ -9,4 +9,4 @@
 We're now ready to create a Kubernetes-based development environment in Azure.
 
 > [!div class="nextstepaction"]
-> [Create a Dev Environment in Azure](get-started-netcore-02.md)
+> [Create a dev environment in Azure](get-started-netcore-02.md)

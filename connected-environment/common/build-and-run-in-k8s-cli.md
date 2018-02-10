@@ -15,7 +15,7 @@ Keep an eye on the command's output, you'll notice several things as it progress
 > [!Note]
 > These steps will take longer the first time the `up` command is run - they are considerably shortened on subsequent runs.
 
-## Test the App
+## Test the web app
 Scan the console output for information about the public URL that was created by the `up` command. It will be in the form: 
 
 `Running at public URL: https://<servicename>-<environmentname>.vsce.io` 

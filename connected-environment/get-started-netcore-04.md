@@ -10,13 +10,13 @@ Previous step: [Create an ASP.NET Core Web App](get-started-netcore-03.md)
 > If you don't see any Connected Environment commands in the Command Palette, ensure you have [installed the VS Code extension for Connected Environment](get-started-netcore-01.md#kubernetes-debugging-with-vs-code). -->
 
 
-## Select the VSCE Debug Configuration
+## Select the VSCE debug configuration
 1. To open the Debug view, click on the Debug icon in the **Activity Bar** on the side of VS Code.
 1. Select **.NET Core Launch (VSCE)** as the active debug configuration.
 
 ![](media/debug-configuration.png)
 
-## Debug the Container in Kubernetes
+## Debug the container in Kubernetes
 Hit **F5** to debug your code in Kubernetes!
 
 As with the `up` command, code is synced to the development environment, and a container is built and deployed to Kubernetes. This time, of course, the debugger is attached to the remote container.
@@ -25,7 +25,7 @@ Set a breakpoint in a server-side code file, for example within the `Index()` fu
 
 You have full access to debug information just like you would if the code was executing locally, such as the call stack, local variables, exception information, etc.
 
-## Edit and Refresh
+## Edit code and refresh
 With the debugger active, make a code edit; for example, modify the About page's message in `Controllers/HomeController.cs`. 
 
 ```csharp
