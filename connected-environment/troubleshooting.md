@@ -38,7 +38,7 @@ Running the VS Code debugger reports the error: `Configured debug type 'coreclr'
 **Reason:** You do not have the VS Code extension for Connected Environment installed on your development machine.
 
 **Try:**
-Install the [VS Code extension for Conneced Environment](get-started-netcore-01.md#kubernetes-debugging-with-vs-code).
+Install the [VS Code extension for Connected Environment](get-started-netcore-01.md#get-kubernetes-debugging-for-vs-code).
 
 
 ## I don't see any Connected Environment instances in the Azure Portal
