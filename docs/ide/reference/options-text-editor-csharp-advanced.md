@@ -38,8 +38,11 @@ Use the **Advanced** options page to modify the settings for editor formatting, 
 ## Using Directives
 
 - Place 'System' directives first when sorting usings
+
 - Separate using directive groups
+
 - Suggest usings for types in reference assemblies
+
 - Suggest usings for types in NuGet packages
 
 ## Highlighting
@@ -69,11 +72,13 @@ Use the **Advanced** options page to modify the settings for editor formatting, 
 ## Fading
 
 - Fade out unused usings
+
 - Fade out unreachable code
 
 ## Block Structure Guides
 
 - Show guides for declaration level constructs
+
 - Show guides for code level constructs
 
 ## Editor Help
