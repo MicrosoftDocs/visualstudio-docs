@@ -1,4 +1,4 @@
-## Build and Run Code in Kubernetes
+## Build and run code in Kubernetes
 Let's run our code! In the terminal window, run this command from the **root code folder**, webfrontend:
 
 ```cmd

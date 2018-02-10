@@ -1,12 +1,12 @@
 # Get Started on Connected Environment with .NET Core
 
-Previous step: [Debugging containers in Kubernetes](get-started-netcore-04.md)
+Previous step: [Debug a container in Kubernetes](get-started-netcore-04.md)
 
 In this section we're going to create a second service, `mywebapi`, and have `webfrontend` call it. Each service will run in separate containers. We'll then debug across both containers.
 
 ![](media/multi-container.png)
 
-## Download Sample Code for mywebapi
+## Download sample code for *mywebapi*
 For the sake of time, let's download sample code from a GitHub repository. Go to https://github.com/johnsta/vsce-samples and select **Clone or Download** to download the GitHub repository. The code for this section is in `vsce-samples/dotnetcore/getting-started/mywebapi`.
 
 
@@ -18,7 +18,7 @@ For the sake of time, let's download sample code from a GitHub repository. Go to
 1. If all the steps were successful, you should be able to see a response from the `mywebapi` service.
 
 
-## Make a request from 'webfrontend' to 'mywebapi'
+## Make a request from *webfrontend* to *mywebapi*
 Let's now write code in `webfrontend` that makes a request to `mywebapi`.
 1. Switch to the VS Code window for `webfrontend`.
 1. *Replace* the code for the About method:
@@ -32,7 +32,7 @@ public async Task<IActionResult> About()
     // headers in the incoming request to any outgoing requests
     using (var client = new HeaderPropagatingHttpClient(this.Request))
     {
-        // Call 'mywebapi', and display its response in the page
+        // Call *mywebapi*, and display its response in the page
         var response = await client.GetAsync("http://mywebapi/api/values/1");
         ViewData["Message"] += " and " + await response.Content.ReadAsStringAsync();
     }

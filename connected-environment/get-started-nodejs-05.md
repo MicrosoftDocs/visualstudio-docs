@@ -6,17 +6,17 @@ In this section we're going to create a second service, `mywebapi`, and have `we
 
 ![](media/multi-container.png)
 
-## Open Sample Code for mywebapi
+## Open sample code for *mywebapi*
 You should already have the sample code for `mywebapi` for this guide under a folder named `vsce-samples` (if not, go to https://github.com/johnsta/vsce-samples and select **Clone or Download** to download the GitHub repository.) The code for this section is in `vsce-samples/nodejs/getting-started/mywebapi`.
 
-## Run mywebapi
+## Run *mywebapi*
 1. Open the folder `mywebapi` in a *separate VS Code window*.
 1. Hit F5, and wait for the service to build and deploy. You'll know it's ready when the VS Code debug bar appears.
 1. Take note of the endpoint URL, it will look something like http://localhost:\<portnumber\>. **Tip: The VS Code status bar will display a clickable URL.** It may seem like the container is running locally, but actually it is running in our development environment in Azure. The reason for the localhost address is because `mywebapi` has not defined any public endpoints and can only be accessed from within the Kubernetes instance. For your convenience, and to facilitate interacting with the private service from your local machine, Connected Environment creates a temporary SSH tunnel to the container running in Azure.
 1. When `mywebapi` is ready, open your browser to the localhost address. You should see a response from the `mywebapi` service ("Hello from mywebapi").
 
 
-## Make a request from 'webfrontend' to 'mywebapi'
+## Make a request from *webfrontend* to *mywebapi*
 Let's now write code in `webfrontend` that makes a request to `mywebapi`.
 1. Switch to the VS Code window for `webfrontend`.
 1. Add these lines of code at the top of `server.js`:

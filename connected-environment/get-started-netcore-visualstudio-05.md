@@ -7,7 +7,7 @@ In this section we're going to create a second service, `mywebapi`, and have `we
 
 ![](media/multi-container.png)
 
-## Download Sample Code for mywebapi
+## Download sample code for *mywebapi*
 For the sake of time, let's download sample code from a GitHub repository. Go to https://github.com/johnsta/vsce-samples and select **Clone or Download** to download the GitHub repository. The code for this section is in `vsce-samples/dotnetcore/getting-started/mywebapi`.
 
 ## Run mywebapi
@@ -20,7 +20,7 @@ For the sake of time, let's download sample code from a GitHub repository. Go to
 
     ![](images/WebAPIResponse.png)
 
-## Make a request from 'webfrontend' to 'mywebapi'
+## Make a request from *webfrontend* to *mywebapi*
 Let's now write code in `webfrontend` that makes a request to `mywebapi`. Switch to the Visual Studio window which has the `webfrontend` project. In the `HomeController.cs` file *replace* the code for the About method with the following:
 
  ```csharp
@@ -32,7 +32,7 @@ Let's now write code in `webfrontend` that makes a request to `mywebapi`. Switch
         // headers in the incoming request to any outgoing requests
         using (var client = new HeaderPropagatingHttpClient(this.Request))
         {
-            // Call 'mywebapi', and display its response in the page
+            // Call *mywebapi*, and display its response in the page
             var response = await client.GetAsync("http://mywebapi/api/values/1");
             ViewData["Message"] += " and " + await response.Content.ReadAsStringAsync();
         }

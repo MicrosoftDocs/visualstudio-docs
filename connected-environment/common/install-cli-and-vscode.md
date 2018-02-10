@@ -15,7 +15,7 @@ curl -L https://aka.ms/get-vsce-mac | bash
 ### Install on Linux
 Coming soon...
 
-## Kubernetes debugging with VS Code
+## Get Kubernetes debugging for VS Code
 While you can use the Connected Environment CLI as a standalone tool, rich features like Kubernetes debugging are available for .NET Core and Node.js developers using VS Code.
 
 1. If you don't have it, install [VS Code](https://code.visualstudio.com/Download).

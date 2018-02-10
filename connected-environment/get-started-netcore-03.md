@@ -1,6 +1,6 @@
 # Get Started on Connected Environment with .NET Core
 
-Previous step: [Create a Kubernetes Development Environment in Azure](get-started-netcore-02.md)
+Previous step: [Create a Kubernetes development environment in Azure](get-started-netcore-02.md)
 
 ## Create an ASP.NET Core Web App
 If you have [.NET Core](https://www.microsoft.com/net) installed, you can quickly create an ASP.NET Core Web App in a folder named `webfrontend`.
@@ -8,7 +8,7 @@ If you have [.NET Core](https://www.microsoft.com/net) installed, you can quickl
 dotnet new mvc --name webfrontend
 ```
 
-Alternatively, **download code from GitHub** by navigating to https://github.com/johnsta/vsce-samples and select **Clone or Download** to download the GitHub repository to your local environment. The code for this guide is in `vsce-samples/dotnetcore/getting-started/webfrontend`.
+Alternatively, **download sample code from GitHub** by navigating to https://github.com/johnsta/vsce-samples and select **Clone or Download** to download the GitHub repository to your local environment. The code for this guide is in `vsce-samples/dotnetcore/getting-started/webfrontend`.
 
 [!INCLUDE[](common/vsce-init.md)]
 

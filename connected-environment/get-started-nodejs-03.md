@@ -1,6 +1,6 @@
 # Get Started on Connected Environment with Node.js
 
-Previous step: [Create a Kubernetes Development Environment in Azure](get-started-nodejs-02.md)
+Previous step: [Create a Kubernetes development environment in Azure](get-started-nodejs-02.md)
 
 ## Create a Node.js Web App
 Download code from GitHub by navigating to https://github.com/johnsta/vsce-samples and select **Clone or Download** to download the GitHub repository to your local environment. The code for this guide is in `vsce-samples/nodejs/getting-started/webfrontend`.

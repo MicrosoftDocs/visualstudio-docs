@@ -9,7 +9,7 @@ So far we've run our application's code as if we were the only developer working
 * Supports each developer iterating on their code in isolation and without fear of breaking others.
 * Test code end-to-end, prior to code commit, without having to create mocks or simulate dependencies.
 
-## Challenges with Developing Microservices
+## Challenges with developing microservices
 Our sample application isn't very complex at the moment. But in real-world development, challenges soon emerge as more services are added and the development team grows.
 
 Picture yourself working on a service that interacts with dozens of other services.
