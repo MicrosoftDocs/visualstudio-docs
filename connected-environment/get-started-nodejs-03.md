@@ -26,7 +26,7 @@ Connected Environment isn't just about getting code running in Kubernetes - it's
 What happened? Edits to content files, like HTML and CSS, don't require the Node.js process to restart, so an active `vsce up` command will automatically sync any modified content files directly into the running container in Azure, thereby providing a fast way to see your content edits.
 
 ## Update a code file
-Updating server-side code files requires a little more work, because a Node.js app needs to restart. The simplest method from the command-line is to stop and re-run `vsce up`.
+Updating server-side code files requires a little more work, because a Node.js app needs to restart.
 
 1. In the terminal window, press `Ctrl+C` (to stop `vsce up`).
 1. Open the code file named `server.js`, and edit service's hello message: 

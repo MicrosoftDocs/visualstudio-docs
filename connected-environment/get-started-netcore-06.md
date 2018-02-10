@@ -4,7 +4,7 @@ Previous step: [Call another container](get-started-netcore-05.md)
 
 [!INCLUDE[](common/team-development-1.md)]
 
-Now let's see it in action:
+Let's see it in action:
 1. Go to the VS Code window for `mywebapi` and make a code edit to the `string Get(int id)` method, for example:
 
 ```csharp

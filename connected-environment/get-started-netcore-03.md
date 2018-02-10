@@ -26,14 +26,14 @@ Connected Environment isn't just about getting code running in Kubernetes - it's
 What happened? Edits to content files, like HTML and CSS, don't require re-compilation in a .NET Core web app, so an active `vsce up` command will automatically sync any modified content files into the running container in Azure, thereby providing a fast way to see your content edits.
 
 ## Update a code file
-Updating code files requires a little more work, because a .NET Core app needs to rebuild and produce updated application binaries. The simplest method from the command-line is to stop and re-run `vsce up`.
+Updating code files requires a little more work, because a .NET Core app needs to rebuild and produce updated application binaries.
 
 1. In the terminal window, press `Ctrl+C` (to stop `vsce up`).
 1. Open the code file named `Controllers/HomeController.cs`, and edit the message that the About page will display: `ViewData["Message"] = "Your application description page.";`
 1. Save the file.
 1. Run  `vsce up` in the terminal window. 
 
-This rebuilds the container image and redeploys the Helm chart. To see your code changes take effect in the running application, navigate to the About menu in the web app.
+This rebuilds the container image and redeploys the Helm chart. To see your code changes take effect in the running application, go to the About menu in the web app.
 
 
 But there is an even *faster method* for developing code, which we'll explore in the next section. 
