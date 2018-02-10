@@ -102,6 +102,7 @@ Use the **Advanced** options page to modify the settings for editor formatting, 
 ## Implement Interface or Abstract Class
 
 - When inserting properties, events and methods, place them with other members of the same kind, or at the end
+
 - When generating properties, prefer throwing properties or prefer auto properties
 
 ## See also
