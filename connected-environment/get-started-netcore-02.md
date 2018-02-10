@@ -1,4 +1,4 @@
-# Getting Started on Connected Environment with .NET Core
+# Get Started on Connected Environment with .NET Core
 
 Previous step: [Install Tools](get-started-netcore-01.md)
 

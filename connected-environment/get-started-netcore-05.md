@@ -1,4 +1,4 @@
-# Getting Started on Connected Environment with .NET Core
+# Get Started on Connected Environment with .NET Core
 
 Previous step: [Debugging containers in Kubernetes](get-started-netcore-04.md)
 

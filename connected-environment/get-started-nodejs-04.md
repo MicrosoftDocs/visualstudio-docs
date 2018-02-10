@@ -1,4 +1,4 @@
-# Getting Started on Connected Environment with Node.js
+# Get Started on Connected Environment with Node.js
 
 Previous step: [Create a Node.js container in Kubernetes](get-started-nodejs-03.md)
 

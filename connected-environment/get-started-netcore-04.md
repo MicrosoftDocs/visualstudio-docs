@@ -1,4 +1,4 @@
-# Getting Started on Connected Environment with .NET Core
+# Get Started on Connected Environment with .NET Core
  
 Previous step: [Create an ASP.NET Core Web App](get-started-netcore-03.md)
 

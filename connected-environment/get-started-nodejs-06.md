@@ -1,4 +1,4 @@
-# Getting Started on Connected Environment with Node.js
+# Get Started on Connected Environment with Node.js
 
 Previous step: [Call a service running in a separate container](get-started-nodejs-05.md)
 

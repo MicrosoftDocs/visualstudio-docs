@@ -1,4 +1,4 @@
-# Getting Started on Connected Environment with Node.js
+# Get Started on Connected Environment with Node.js
 
 [!INCLUDE[](common/learning-objectives.md)]
 

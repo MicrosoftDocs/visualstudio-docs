@@ -1,4 +1,4 @@
-# Getting Started on Connected Environment with Node.js
+# Get Started on Connected Environment with Node.js
 
 Previous step: [Create a Kubernetes Development Environment in Azure](get-started-nodejs-02.md)
 

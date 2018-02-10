@@ -1,4 +1,4 @@
-# Getting Started on Connected Environment with .NET Core and Visual Studio
+# Get Started on Connected Environment with .NET Core and Visual Studio
 
 Previous step: [Create a Dev Environment in Azure](get-started-netcore-visualstudio-03.md)
 

@@ -1,4 +1,4 @@
-# Getting Started on Connected Environment with .NET Core and Visual Studio
+# Get Started on Connected Environment with .NET Core and Visual Studio
 
 In this guide, you will learn how to:
 

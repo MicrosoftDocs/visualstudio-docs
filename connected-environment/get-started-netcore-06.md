@@ -1,4 +1,4 @@
-# Getting Started on Connected Environment with .NET Core
+# Get Started on Connected Environment with .NET Core
 
 Previous step: [Call another container](get-started-netcore-05.md)
 

@@ -1,4 +1,4 @@
-# Getting Started on Connected Environment with Node.js
+# Get Started on Connected Environment with Node.js
 
 Previous step: [Debugging a container in Kubernetes](get-started-nodejs-04.md)
 
