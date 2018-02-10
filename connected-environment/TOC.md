@@ -28,4 +28,5 @@
 ###[6. Work in a shared dev environment](get-started-nodejs-06.md)
 ###[7. Summary](get-started-nodejs-07.md)
 
+# [Troubleshoot](troubleshooting.md)
 
