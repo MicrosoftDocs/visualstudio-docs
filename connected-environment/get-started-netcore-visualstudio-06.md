@@ -1,30 +1,30 @@
-# Getting Started on Connected Environment with .NET Core and Visual Studio
+# Get Started on Connected Environment with .NET Core and Visual Studio
 
 Previous step: [Call another container](get-started-netcore-visualstudio-05.md)
 
 ## Learn about team development
 
-So far we've run our application's code as if we were the only developer working on the app. In this section, we'll learn how Connected Environment streamlines team development by making it easy to:
+So far we've run our application's code as if we were the only developer working on the app. In this section, we'll learn how Connected Environment streamlines team development:
 * Enable a team of developers to work in the same development environment.
 * Supports each developer iterating on their code in isolation and without fear of breaking others.
-* Easily test code end-to-end, prior to code commit, without having to create mocks or simulate dependencies.
+* Test code end-to-end, prior to code commit, without having to create mocks or simulate dependencies.
 
-## Challenges with Developing Microservices
+## Challenges with developing microservices
 Our sample application isn't very complex at the moment. But in real-world development, challenges soon emerge as more services are added and the development team grows.
 
-Picture yourself working on a service that interacts with tens of other services.
+Picture yourself working on a service that interacts with dozens of other services.
 
-1. It can become unrealistic to run everything locally for development. Your dev machine may simply not have enough resources to run the entire app; or maybe your app has endpoints that need to be publicly reachable (e.g. your app responds to a webhook from a SaaS app).
-1. You can try to only run the services that you depend on, but this means you'd need know the full closure of dependencies (i.e. dependencies of dependencies). Or, it's simply a matter of not easily knowing how to build and run your dependencies because you didn't work on them.
-1. Some developers resort to simulating, or mocking up, most of their service dependencies. This can help sometimes, but managing those mocks can soon take on its own development effort. Plus, this leads to your dev environment looking very different to production, and subtle bugs can creep in.
+1. It can become unrealistic to run everything locally for development. Your dev machine may not have enough resources to run the entire app. Or, perhaps your app has endpoints that need to be publicly reachable (for example, your app responds to a webhook from a SaaS app).
+1. You can try to only run the services that you depend on, but this means you'd need know the full closure of dependencies (for example, dependencies of dependencies). Or, it's a matter of not easily knowing how to build and run your dependencies because you didn't work on them.
+1. Some developers resort to simulating, or mocking up, many of their service dependencies. This can help sometimes, but managing those mocks can soon take on its own development effort. Plus, this leads to your dev environment looking very different to production, and subtle bugs can creep in.
 1. It follows that doing any type of end-to-end testing becomes difficult. Integration testing can only realistically happen post-commit, which means we see problems later in the development cycle.
 
     ![](media/microservices-challenges.png)
 
-## Work in a Shared Development Environment
-With Connected Environment, you can easily set up a *shared* development environment in Azure. Each developer can focus on just their part of the application, and can iteratively develop *pre-commit code* in an environment that already contains all the other services and cloud resources that their scenarios depend on. Dependencies are always up to date, and developers are working in a way that mirrors production.
+## Work in a shared development environment
+With Connected Environment, you can set up a *shared* development environment in Azure. Each developer can focus on just their part of the application, and can iteratively develop *pre-commit code* in an environment that already contains all the other services and cloud resources that their scenarios depend on. Dependencies are always up to date, and developers are working in a way that mirrors production.
 
-## Work in Your Own Space
+## Work in your own space
 As you develop code for your service, and before you're ready to check it in, code often won't be in a good state. You're still iteratively shaping it, testing it, and experimenting with solutions. Connected Environment provides the concept of a **space**, which allows you to work in isolation, and without the fear of breaking your team members.
 
 Do the following to make sure both our `webfrontend` and `mywebapi` services are running in our development environment **and in the `mainline` space**.
@@ -49,7 +49,7 @@ Do the following to create a new space:
 
     ![](images/Settings.png)
 
-6. In the **Add Space** dialog type in a name for the space and click **OK**. I've used my name ("scott") for the new space so that it is easily identifiable to my peers what space I'm working in.
+6. In the **Add Space** dialog type in a name for the space and click **OK**. I've used my name ("scott") for the new space so that it is identifiable to my peers what space I'm working in.
 
     ![](images/AddSpace.png)
 
@@ -69,17 +69,17 @@ Do the following to create a new space:
     }
     ```
 
-2. Set a breakpoint in this updated block of code - you may already have one set from before.
+2. Set a breakpoint in this updated block of code (you may already have one set from before).
 3. Hit F5 to start the `mywebapi` service. This will start the service in your development environment using the selected space, which in my case is `scott`.
 
 Here is a diagram that will help you understand how the different spaces work. The blue path shows a request via the `mainline` space, which is the default path used if no space is prepended to the URL. The green path shows a request via the `scott` space.
 
 ![](media/Space-Routing.png)
 
-This built-in capability of Connected Environment enables you to easily test code end-to-end in a shared evironment without requiring each developer  to re-create the full stack of services in their space. Note that this routing requires propagation headers to be forwarded in your app code, as illustrated in the previous step of this guide.
+This built-in capability of Connected Environment enables you to test code end-to-end in a shared evironment without requiring each developer  to re-create the full stack of services in their space. Note that this routing requires propagation headers to be forwarded in your app code, as illustrated in the previous step of this guide.
 
 ## Test Code Running in the `scott` Space
-To test our new version of `mywebapi` in conjunction with `webfrontend`, open your browser to the public access point URL for `webfrontend` (ex. https://webfrontend-teamenv.vsce.io) and navigate to the About page. You should see the original message "Hello from webfrontend and Hello from mywebapi".
+To test our new version of `mywebapi` in conjunction with `webfrontend`, open your browser to the public access point URL for `webfrontend` (ex. https://webfrontend-teamenv.vsce.io) and go to the About page. You should see the original message "Hello from webfrontend and Hello from mywebapi".
 
 Now, add the "scott-" part to the URL so it reads something like https://scott-webfrontend-teamenv.vsce.io and refresh the browser. The breakpoint you set in your `mywebapi` project should get hit. Click F5 to proceed and in your browser you should now see the new message "Hello from webfrontend and mywebapi now says something new". This is because the path to your updated code in `mywebapi` is running in the `scott` space.
 

@@ -1,13 +1,13 @@
-# Getting Started on Connected Environment with .NET Core
+# Get Started on Connected Environment with .NET Core
 
-Previous step: [Debugging containers in Kubernetes](get-started-netcore-04.md)
+Previous step: [Debug a container in Kubernetes](get-started-netcore-04.md)
 
 In this section we're going to create a second service, `mywebapi`, and have `webfrontend` call it. Each service will run in separate containers. We'll then debug across both containers.
 
 ![](media/multi-container.png)
 
-## Download Sample Code for mywebapi
-For the sake of time, let's download some sample code from a GitHub repository. Navigate to https://github.com/johnsta/vsce-samples and select **Clone or Download** to download the GitHub repository. The code for this section is in `vsce-samples/dotnetcore/getting-started/mywebapi`.
+## Download sample code for *mywebapi*
+For the sake of time, let's download sample code from a GitHub repository. Go to https://github.com/johnsta/vsce-samples and select **Clone or Download** to download the GitHub repository. The code for this section is in `vsce-samples/dotnetcore/getting-started/mywebapi`.
 
 
 ## Run mywebapi
@@ -18,7 +18,7 @@ For the sake of time, let's download some sample code from a GitHub repository. 
 1. If all the steps were successful, you should be able to see a response from the `mywebapi` service.
 
 
-## Make a Request from 'webfrontend' to 'mywebapi'
+## Make a request from *webfrontend* to *mywebapi*
 Let's now write code in `webfrontend` that makes a request to `mywebapi`.
 1. Switch to the VS Code window for `webfrontend`.
 1. *Replace* the code for the About method:
@@ -32,7 +32,7 @@ public async Task<IActionResult> About()
     // headers in the incoming request to any outgoing requests
     using (var client = new HeaderPropagatingHttpClient(this.Request))
     {
-        // Call 'mywebapi', and display its response in the page
+        // Call *mywebapi*, and display its response in the page
         var response = await client.GetAsync("http://mywebapi/api/values/1");
         ViewData["Message"] += " and " + await response.Content.ReadAsStringAsync();
     }
@@ -41,12 +41,12 @@ public async Task<IActionResult> About()
 }
 ```
 
-Note how Kubernetes' DNS service discovery is employed to simply refer to the service as `http://mywebapi`. **Code in our development environment is running the same way it will run in production**.
+Note how Kubernetes' DNS service discovery is employed to refer to the service as `http://mywebapi`. **Code in our development environment is running the same way it will run in production**.
 
-The code example above also makes use of a `HeaderPropagatingHttpClient` class. This helper class was added to your code folder at the time you ran `vsce init`. `HeaderPropagatingHttpClient` is dervied from the well-known `HttpClient` class - the only functionality it adds to `HttpClient` is to propagate specific headers from an existing ASP .NET HttpRequest object into an outgoing HttpRequestMessage object. We'll see later how this facilitates a more productive development experience in team scenarios.
+The code example above also makes use of a `HeaderPropagatingHttpClient` class. This helper class was added to your code folder at the time you ran `vsce init`. `HeaderPropagatingHttpClient` is dervied from the well-known `HttpClient` class, and it adds functionality to propagate specific headers from an existing ASP .NET HttpRequest object into an outgoing HttpRequestMessage object. We'll see later how this facilitates a more productive development experience in team scenarios.
 
 
-## Debug Across Multiple Services
+## Debug across multiple services
 1. At this point, `mywebapi` should still be running with the debugger attached. If it is not, hit F5 in the `mywebapi` project.
 1. Set a breakpoint in the `Get(int id)` method that handles `api/values/{id}` GET requests.
 1. In the `webfrontend` project, set a breakpoint just before it sends a GET request to `mywebapi/api/values`.

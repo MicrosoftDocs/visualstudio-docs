@@ -1,4 +1,4 @@
-# Getting Started on Connected Environment with Node.js
+# Get Started on Connected Environment with Node.js
 
 Previous step: [Debugging a container in Kubernetes](get-started-nodejs-04.md)
 
@@ -6,17 +6,17 @@ In this section we're going to create a second service, `mywebapi`, and have `we
 
 ![](media/multi-container.png)
 
-## Open Sample Code for mywebapi
-You should already have the sample code for `mywebapi` for this guide under a folder named `vsce-samples` (if not, navigate to https://github.com/johnsta/vsce-samples and select **Clone or Download** to download the GitHub repository.) The code for this section is in `vsce-samples/nodejs/getting-started/mywebapi`.
+## Open sample code for *mywebapi*
+You should already have the sample code for `mywebapi` for this guide under a folder named `vsce-samples` (if not, go to https://github.com/johnsta/vsce-samples and select **Clone or Download** to download the GitHub repository.) The code for this section is in `vsce-samples/nodejs/getting-started/mywebapi`.
 
-## Run mywebapi
+## Run *mywebapi*
 1. Open the folder `mywebapi` in a *separate VS Code window*.
 1. Hit F5, and wait for the service to build and deploy. You'll know it's ready when the VS Code debug bar appears.
 1. Take note of the endpoint URL, it will look something like http://localhost:\<portnumber\>. **Tip: The VS Code status bar will display a clickable URL.** It may seem like the container is running locally, but actually it is running in our development environment in Azure. The reason for the localhost address is because `mywebapi` has not defined any public endpoints and can only be accessed from within the Kubernetes instance. For your convenience, and to facilitate interacting with the private service from your local machine, Connected Environment creates a temporary SSH tunnel to the container running in Azure.
-1. When `mywebapi` is ready, open your browser to the localhost address. You should see a simple response from the `mywebapi` service ("Hello from mywebapi").
+1. When `mywebapi` is ready, open your browser to the localhost address. You should see a response from the `mywebapi` service ("Hello from mywebapi").
 
 
-## Make a Request from 'webfrontend' to 'mywebapi'
+## Make a request from *webfrontend* to *mywebapi*
 Let's now write code in `webfrontend` that makes a request to `mywebapi`.
 1. Switch to the VS Code window for `webfrontend`.
 1. Add these lines of code at the top of `server.js`:
@@ -38,12 +38,12 @@ app.get('/api', function (req, res) {
 });
 ```
 
-Note how Kubernetes' DNS service discovery is employed to simply refer to the service as `http://mywebapi`. **Code in our development environment is running the same way it will run in production**.
+Note how Kubernetes' DNS service discovery is employed to refer to the service as `http://mywebapi`. **Code in our development environment is running the same way it will run in production**.
 
 The code example above utilizes a helper module named `propagateHeaders`. This helper was added to your code folder at the time you ran `vsce init`. The `propagateHeaders.from()` function propagates specific headers from an existing http.IncomingMessage object into a headers object for an outgoing request. We'll see later how this facilitates a more productive development experience in team scenarios.
 
 
-## Debug Across Multiple Services
+## Debug across multiple services
 1. At this point, `mywebapi` should still be running with the debugger attached. If it is not, hit F5 in the `mywebapi` project.
 1. Set a breakpoint in the default GET `/` handler.
 1. In the `webfrontend` project, set a breakpoint just before it sends a GET request to `http://mywebapi`.
