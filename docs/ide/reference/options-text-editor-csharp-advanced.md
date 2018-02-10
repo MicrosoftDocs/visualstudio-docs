@@ -31,7 +31,7 @@ Use the **Advanced** options page to modify the settings for editor formatting, 
 
 - Enable full solution analysis
 
-   Enables code analysis on all files in the solution, not just open code files. For more information, see [Full solution analysis](../code-quality/how-to-enable-and-disable-full-solution-analysis-for-managed-code.md)
+   Enables code analysis on all files in the solution, not just open code files. For more information, see [Full solution analysis](../../code-quality/how-to-enable-and-disable-full-solution-analysis-for-managed-code.md)
 
 - Perform editor feature analysis in external process (experimental)
 
