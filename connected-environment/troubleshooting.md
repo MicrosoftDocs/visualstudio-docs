@@ -41,12 +41,12 @@ Running the VS Code debugger reports the error: `Configured debug type 'coreclr'
 Install the [VS Code extension for Connected Environment](get-started-netcore-01.md#get-kubernetes-debugging-for-vs-code).
 
 
-## I don't see any Connected Environment instances in the Azure Portal
+## The Azure portal doesn't show Connected Environment instances
 
-**Reason:** An Azure Portal experience for Connected Environment is not yet ready for preview.
+**Reason:** An Azure portal experience for Connected Environment is not yet ready for preview.
 
 
-## Error During Warmup Displayed in Visual Studio Output Window
+## Error during warmup displayed in Visual Studio Output Window
 An error occurred during warmup for project '<projectname>'
 
 **Reason:** This occurs when Visual Studio attempts to warmup a Connected Environment that has not yet finished being created, or is in an incomplete or error state. You will often see this right after you have started to create a new Connected Environment.
