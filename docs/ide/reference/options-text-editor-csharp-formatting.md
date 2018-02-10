@@ -24,7 +24,7 @@ ms.workload:
 ---
 # Options, Text Editor, C#, Formatting
 
-Use the **Formatting** options page to set options for formatting code in the Code Editor. To access the **Options** dialog box in Visual Studio, choose **Tools** > **Options**. Then, expand **Text Editor** > **C#** > **Code Style**, and choose **Formatting**.
+Use the **Formatting** options page to set options for formatting code in the Code Editor. To access this options page, choose **Tools** > **Options**, and then choose **Text Editor** > **C#** > **Code Style** > **Formatting**.
 
 > [!NOTE]
 > The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).

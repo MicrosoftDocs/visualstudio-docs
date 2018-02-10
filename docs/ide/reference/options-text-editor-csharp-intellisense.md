@@ -22,7 +22,7 @@ ms.workload:
 ---
 # Options, Text Editor, C#, IntelliSense
 
-Use the **IntelliSense** options page to modify settings that affect the behavior of IntelliSense for C#. You can access the **IntelliSense** property page by choosing **Tools** > **Options** > **Text Editor** > **C#** > **IntelliSense**.
+Use the **IntelliSense** options page to modify settings that affect the behavior of IntelliSense for C#. To access this options page, choose **Tools** > **Options**, and then choose **Text Editor** > **C#** > **IntelliSense**.
 
 > [!NOTE]
 > The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).

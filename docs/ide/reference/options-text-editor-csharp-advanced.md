@@ -22,7 +22,7 @@ ms.workload:
 ---
 # Options, Text Editor, C#, Advanced
 
-Use the **Advanced** options page to modify the settings for editor formatting, code refactoring, and XML documentation comments for C#. To access this dialog box, choose **Tools** > **Options**, then choose **Text Editor** > **C#** > **Advanced**.
+Use the **Advanced** options page to modify the settings for editor formatting, code refactoring, and XML documentation comments for C#. To access this options page, choose **Tools** > **Options**, and then choose **Text Editor** > **C#** > **Advanced**.
 
 > [!NOTE]
 > The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).
