@@ -1,6 +1,6 @@
 # Get Started on Connected Environment with Node.js
 
-Previous step: [Debugging a container in Kubernetes](get-started-nodejs-04.md)
+Previous step: [Debug a container in Kubernetes](get-started-nodejs-04.md)
 
 In this section we're going to create a second service, `mywebapi`, and have `webfrontend` call it. Each service will run in separate containers. We'll then debug across both containers.
 

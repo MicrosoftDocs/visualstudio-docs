@@ -10,7 +10,7 @@ In this section we're going to create a second service, `mywebapi`, and have `we
 ## Download sample code for *mywebapi*
 For the sake of time, let's download sample code from a GitHub repository. Go to https://github.com/johnsta/vsce-samples and select **Clone or Download** to download the GitHub repository. The code for this section is in `vsce-samples/dotnetcore/getting-started/mywebapi`.
 
-## Run mywebapi
+## Run *mywebapi*
 1. Open the project `mywebapi` in a *separate Visual Studio window*.
 1. Select **Connected Environment for AKS** from the launch settings dropdown as you did previously for the `webfrontend` project. Rather than create a new development environment this time, select the same one you already created. As before, leave the Space defaulted to `mainline` and click **OK**. In the Output window you may notice Visual Studio starts to "warm up" this new service in your development environment in order to speed things up when you start debugging,
 1. Hit F5, and wait for the service to build and deploy. You'll know it's ready when the Visual Studio status bar turns orange

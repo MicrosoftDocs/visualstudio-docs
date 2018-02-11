@@ -38,5 +38,5 @@ This rebuilds the container image and redeploys the Helm chart. To see your code
 
 But there is an even *faster method* for developing code, which we'll explore in the next section. 
 > [!div class="nextstepaction"]
-> [Debugging a container in Kubernetes](get-started-netcore-04.md)
+> [Debug a container in Kubernetes](get-started-netcore-04.md)
 

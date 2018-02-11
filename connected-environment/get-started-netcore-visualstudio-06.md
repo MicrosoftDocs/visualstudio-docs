@@ -57,7 +57,7 @@ Do the following to create a new space:
 
     ![](images/Settings2.png)
 
-### Update the `mywebapi` Code
+### Update code for *mywebapi*
 
 1. In the `mywebapi` project make a code change to the `string Get(int id)` method in file `ValuesController.cs` as follows:
  
