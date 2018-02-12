@@ -308,7 +308,7 @@ To explore how the **Start server** and **Start debug server** commands for web 
   </Target>
 ```
 
-*From [fxthomas/Example.pyproj.xml](https://gist.github.com/fxthomas/5c601e3e0c1a091bcf56aed0f2960cfa)] (GitHub), used with permission.*
+*From [fxthomas/Example.pyproj.xml](https://gist.github.com/fxthomas/5c601e3e0c1a091bcf56aed0f2960cfa) (GitHub), used with permission.*
 
 ### Generate Windows installer
 
@@ -327,7 +327,7 @@ To explore how the **Start server** and **Start debug server** commands for web 
   </Target>
 ```
 
-*From [fxthomas/Example.pyproj.xml](https://gist.github.com/fxthomas/5c601e3e0c1a091bcf56aed0f2960cfa)] (GitHub), used with permission.*
+*From [fxthomas/Example.pyproj.xml](https://gist.github.com/fxthomas/5c601e3e0c1a091bcf56aed0f2960cfa) (GitHub), used with permission.*
 
 ### Generate wheel package
 
@@ -347,7 +347,7 @@ To explore how the **Start server** and **Start debug server** commands for web 
 </Target>
 ```
 
-*From [fxthomas/Example.pyproj.xml](https://gist.github.com/fxthomas/5c601e3e0c1a091bcf56aed0f2960cfa)] (GitHub), used with permission.*
+*From [fxthomas/Example.pyproj.xml](https://gist.github.com/fxthomas/5c601e3e0c1a091bcf56aed0f2960cfa) (GitHub), used with permission.*
 
 ## Troubleshooting
 
