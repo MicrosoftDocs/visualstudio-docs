@@ -20,4 +20,4 @@ Scan the console output for information about the public URL that was created by
 
 `Running at public URL: https://<servicename>-<environmentname>.vsce.io` 
 
-Open this URL in a browser window - or better yet, from a mobile device - and you should see the web app load. As the container executes, `stdout` and `stderr` output is streamed to the terminal window.
+Open this URL in a browser window, and you should see the web app load. As the container executes, `stdout` and `stderr` output is streamed to the terminal window.

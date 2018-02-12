@@ -25,6 +25,25 @@ Connected Environment isn't just about getting code running in Kubernetes - it's
 
 What happened? Edits to content files, like HTML and CSS, don't require the Node.js process to restart, so an active `vsce up` command will automatically sync any modified content files directly into the running container in Azure, thereby providing a fast way to see your content edits.
 
+### Test from a mobile device
+If you open the web app on a mobile device, you will notice that the UI does not display properly on a small device.
+
+To fix this, we'll add a `viewport` meta tag:
+1. Open the file `./public/index.html`
+1. Add a `viewport` meta tag in the existing `header` tag:
+
+```html
+<header>
+    <!-- Add this line -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</header>
+```
+
+1. Save the file.
+1. Refresh your device's browser. You should now see the web app rendered correctly. 
+
+This is an example of how some problems just aren't found until you test on the devices an app is meant to be used. With VS Connected Environment you can rapidly iterate on your code and validate any changes on target devices.
+
 ## Update a code file
 Updating server-side code files requires a little more work, because a Node.js app needs to restart.
 
