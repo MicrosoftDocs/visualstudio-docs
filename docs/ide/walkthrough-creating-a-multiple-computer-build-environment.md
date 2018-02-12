@@ -1,35 +1,19 @@
 ---
 title: "Walkthrough: Creating a Multiple-Computer Build Environment | Microsoft Docs"
-ms.custom: ""
+ms.custom: 
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
+ms.reviewer: 
+ms.suite: 
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
+ms.tgt_pltfrm: 
 ms.topic: "article"
 helpviewer_keywords: 
   - "MSBuild, building on multiple computers"
   - "build environment, MSBuild"
-ms.assetid: ae5391b1-3eec-42f5-beb3-f28630615a9e
-caps.latest.revision: 7
 author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Walkthrough: Creating a Multiple-Computer Build Environment
 You can create a build environment within your organization by installing Visual Studio on a host computer and then copying various files and settings to another computer so that it can participate in builds. You don't have to install Visual Studio on the other computer.  
@@ -75,21 +59,20 @@ You can create a build environment within your organization by installing Visual
 -   [Building projects](../ide/walkthrough-creating-a-multiple-computer-build-environment.md#BuildingProjects)  
   
 -   [Creating the build environment so that it can be checked into source control](../ide/walkthrough-creating-a-multiple-computer-build-environment.md#CreatingForSourceControl)  
-  
-## Prerequisites  
-  
--   A licensed copy of Visual Studio Ultimate, Visual Studio Premium, or Visual Studio Professional  
-  
--   A copy of the .NET Framework 4.5.1, which you can download from the [Visual Studio](http://www.microsoft.com/visualstudio/eng/downloads#d-additional-software) website.  
-  
-##  <a name="InstallingSoftware"></a> Installing software on the computers  
- First, set up the host computer and then set up the build computer.  
-  
- By installing Visual Studio on the host computer, you create the files and settings that you will copy to the build computer later. You can install Visual Studio on an x86 or an x64 computer, but the architecture of the build computer must match the architecture of the host computer.  
-  
-#### To install software on the computers  
-  
-1.  On the host computer, install Visual Studio.  
+
+## Prerequisites
+
+- Visual Studio with the .NET development workload installed, including .NET Framework 4.5.1 or later.
+
+##  <a name="InstallingSoftware"></a> Installing software on the computers
+
+First, set up the host computer and then set up the build computer.
+
+By installing Visual Studio on the host computer, you create the files and settings that you will copy to the build computer later. You can install Visual Studio on an x86 or an x64 computer, but the architecture of the build computer must match the architecture of the host computer.
+
+#### To install software on the computers
+
+1.  On the host computer, install Visual Studio.
   
 2.  On the build computer, install the .NET Framework 4.5. To verify that it's installed, make sure that the value of the registry key HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full@Version starts with "4.5".  
   

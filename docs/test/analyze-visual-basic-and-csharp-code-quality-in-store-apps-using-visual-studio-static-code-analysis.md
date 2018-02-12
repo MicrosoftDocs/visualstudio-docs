@@ -1,56 +1,26 @@
 ---
 title: "Analyze Visual Basic and C# code quality in Store apps using Visual Studio static code analysis | Microsoft Docs"
-ms.custom: ""
+ms.custom: 
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
+ms.reviewer: 
+ms.suite: 
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
+ms.tgt_pltfrm: 
 ms.topic: "article"
 f1_keywords: 
   - "vs.codeanalysis.propertypages.csvb.express"
-ms.assetid: cab553fc-19a9-4cbf-858e-8200258ffe50
-caps.latest.revision: 14
 author: "erickson-doug"
 ms.author: "douge"
 manager: "douge"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Analyze Visual Basic and C# code quality in Store apps using Visual Studio static code analysis
-![Applies to Windows and Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  
-  
- The code analysis tool in  Visual Studio Express examines your code for a set of common defects and violations of good programming practice. Code analysis warnings differ from compiler errors and warnings because the code analysis tool searches for specific code patterns that are valid but could still create issues for you or other people who use your code. Code analysis can also find defects in your code that are difficult to discover through testing. Running the code analysis tool at regular intervals during your development process can enhance the quality of your completed app.  
-  
-> [!NOTE]
->  In Visual Studio Ultimate, Visual Studio Premium, and Visual Studio Professional, you can use the full functionality of code analysis. See [Analyzing Application Quality by Using Code Analysis Tools](http://msdn.microsoft.com/library/dd264897.aspx) in the MSDN Library.  
-  
-## In this topic  
- You can learn about:  
-  
- [Running code analysis](../test/analyze-visual-basic-and-csharp-code-quality-in-store-apps-using-visual-studio-static-code-analysis.md#BKMK_Run)  
-  
- [Analyzing and resolving code analysis warnings](../test/analyze-visual-basic-and-csharp-code-quality-in-store-apps-using-visual-studio-static-code-analysis.md#BKMK_Analyze)  
-  
- [Suppressing code analysis warnings](../test/analyze-visual-basic-and-csharp-code-quality-in-store-apps-using-visual-studio-static-code-analysis.md#BKMK_Suppress)  
-  
- [Searching and filtering code analysis results](../test/analyze-visual-basic-and-csharp-code-quality-in-store-apps-using-visual-studio-static-code-analysis.md#BKMK_Search)  
-  
- [Visual Basic and C# code analysis warnings](../test/analyze-visual-basic-and-csharp-code-quality-in-store-apps-using-visual-studio-static-code-analysis.md#BKMK_Warnings)  
-  
+![Applies to Windows and Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")
+
+The code analysis tool in Visual Studio examines your code for a set of common defects and violations of good programming practice. Code analysis warnings differ from compiler errors and warnings because the code analysis tool searches for specific code patterns that are valid but could still create issues for you or other people who use your code. Code analysis can also find defects in your code that are difficult to discover through testing. Running the code analysis tool at regular intervals during your development process can enhance the quality of your completed app.  
+
+Also see [Code analysis for managed code overview](../code-quality/code-analysis-for-managed-code-overview.md).
+
 ##  <a name="BKMK_Run"></a> Running code analysis  
  To run code analysis on your Visual Studio solution:  
   
