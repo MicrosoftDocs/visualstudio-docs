@@ -1,17 +1,18 @@
 ---
-title: "Working with C++ and Python in Visual Studio | Microsoft Docs"
+title: Working with C++ and Python in Visual Studio | Microsoft Docs
 description: A walkthrough of creating a C++ extension for Python using Visual Studio, including a walkthrough of mixed-mode debugging.
-ms.custom: ""
+ms.custom:
 ms.date: 01/16/2018
-ms.reviewer: ""
-ms.suite: ""
+ms.reviewer:
+ms.suite:
 ms.technology: 
   - "devlang-python"
-ms.devlang: python
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+dev_langs:
+  - "python"
+  - "C++"
+ms.tgt_pltfrm:
+ms.topic: "tutorial"
 description: The process amd steps to write a C++ extension or module for Python in Visual Studio
-caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
@@ -47,7 +48,7 @@ For more information, see [Installing Python Support for Visual Studio](installi
 
 1. Create a new Python project in Visual Studio by selecting **File > New > Project**. Search for "Python", select the **Python Application** template, give it a suitable name and location, and select **OK**.
 
-1. In the project's `.py` file, paste the following code that benchmarks the computation of a hyperbolic tangent (implemented without using the math library for easier comparison). Feel free to enter the code manually to experience some of the [Python editing features](code-editing.md).
+1. In the project's `.py` file, paste the following code that benchmarks the computation of a hyperbolic tangent (implemented without using the math library for easier comparison). Feel free to enter the code manually to experience some of the [Python editing features](editing-python-code-in-visual-studio.md).
 
     ```python
     from itertools import islice
@@ -286,7 +287,7 @@ Visual Studio supports debugging Python and C++ code together.
 
     ![Stopping at a breakpoint in C++ code](media/cpp-debugging.png)
 
-1. At this point you can step through the C++ code, examine variables, and so on. These features are detailed in [Debugging C++ and Python Together](debugging-mixed-mode.md).
+1. At this point you can step through the C++ code, examine variables, and so on. These features are detailed in [Debugging C++ and Python Together](debugging-mixed-mode-c-cpp-python-in-visual-studio.md).
 
 ## Alternative approaches
 

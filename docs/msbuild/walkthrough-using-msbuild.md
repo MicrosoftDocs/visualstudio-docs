@@ -4,16 +4,14 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: msbuild
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "MSBuild, tutorial"
 ms.assetid: b8a8b866-bb07-4abf-b9ec-0b40d281c310
-caps.latest.revision: 32
-author: "kempb"
-ms.author: "kempb"
+author: Mikejo5000
+ms.author: mikejo
 manager: ghogen
 ms.workload: 
   - "multiple"
@@ -58,45 +56,33 @@ MSBuild is the build platform for Microsoft and Visual Studio. This walkthrough 
      The project file appears in the code editor.  
   
 ## Targets and Tasks  
- Project files are XML-formatted files with the root node [Project](../msbuild/project-element-msbuild.md).  
+Project files are XML-formatted files with the root node [Project](../msbuild/project-element-msbuild.md).  
   
 ```xml  
 <?xml version="1.0" encoding="utf-8"?>  
-<Project ToolsVersion="12.0" DefaultTargets="Build"  xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
+<Project ToolsVersion="15.0"  xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
 ```  
   
- You must specify the xmlns namespace in the Project element.  
+You must specify the xmlns namespace in the Project element. If `ToolsVersion` is present in a new project, it must be "15.0".
   
- The work of building an application is done with [Target](../msbuild/target-element-msbuild.md) and [Task](../msbuild/task-element-msbuild.md) elements.  
+The work of building an application is done with [Target](../msbuild/target-element-msbuild.md) and [Task](../msbuild/task-element-msbuild.md) elements.  
   
 -   A task is the smallest unit of work, in other words, the "atom" of a build. Tasks are independent executable components which may have inputs and outputs. There are no tasks currently referenced or defined in the project file. You add tasks to the project file in the sections below. For more information, see the [Tasks](../msbuild/msbuild-tasks.md) topic.  
   
--   A target is a named sequence of tasks. There are two targets at the end of the project file that are currently enclosed in HTML comments: BeforeBuild and AfterBuild.  
+-   A target is a named sequence of tasks. For more information, see the [Targets](../msbuild/msbuild-targets.md) topic.  
   
-    ```xml  
-    <Target Name="BeforeBuild">  
-    </Target>  
-    <Target Name="AfterBuild">  
-    </Target>  
-    ```  
-  
-     For more information, see the [Targets](../msbuild/msbuild-targets.md) topic.  
-  
- The Project node has an optional DefaultTargets attribute that selects the default target to build, in this case Build.  
-  
-```xml  
-<Project ToolsVersion="12.0" DefaultTargets="Build" ...  
-```  
-  
- The Build target is not defined in the project file. Instead, it is imported from the file Microsoft.CSharp.targets by using the [Import](../msbuild/import-element-msbuild.md) element.  
+The default target is not defined in the project file. Instead, it is specified in imported projects. The [Import](../msbuild/import-element-msbuild.md) element specifies imported projects. For example, in a C# project, the default target is imported from the file Microsoft.CSharp.targets. 
   
 ```xml  
 <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />  
 ```  
   
- Imported files are effectively inserted into the project file wherever they are referenced.  
+Imported files are effectively inserted into the project file wherever they are referenced.  
+
+> [!NOTE]
+> Some project types, such as .NET Core, use a simplified schema with an `Sdk` attribute instead of `ToolsVersion`. These projects have implicit imports and different default attribute values.
   
- MSBuild keeps track of the targets of a build, and guarantees that each target is built no more than once.  
+MSBuild keeps track of the targets of a build, and guarantees that each target is built no more than once.  
   
 ## Adding a Target and a Task  
  Add a target to the project file. Add a task to the target that prints out a message.  
@@ -156,9 +142,6 @@ MSBuild is the build platform for Microsoft and Visual Studio. This walkthrough 
   
  By alternating between the code editor and the command window, you can change the project file and quickly see the results.  
   
-> [!NOTE]
->  If you run msbuild without the /t command switch, msbuild builds the target given by the DefaultTarget attribute of the Project element, in this case "Build". This builds the Windows Forms application BuildApp.exe.  
-  
 ## Build Properties  
  Build properties are name-value pairs that guide the build. Several build properties are already defined at the top of the project file:  
   
@@ -176,10 +159,10 @@ MSBuild is the build platform for Microsoft and Visual Studio. This walkthrough 
  All properties are child elements of PropertyGroup elements. The name of the property is the name of the child element, and the value of the property is the text element of the child element. For example,  
   
 ```xml  
-<TargetFrameworkVersion>v12.0</TargetFrameworkVersion>  
+<TargetFrameworkVersion>v15.0</TargetFrameworkVersion>  
 ```  
   
- defines the property named TargetFrameworkVersion, giving it the string value "v12.0".  
+ defines the property named TargetFrameworkVersion, giving it the string value "v15.0".  
   
  Build properties may be redefined at any time. If  
   
@@ -221,7 +204,7 @@ $(PropertyName)
   
     ```  
     Configuration is Debug  
-    MSBuildToolsPath is C:\Program Files\MSBuild\12.0\bin  
+    MSBuildToolsPath is C:\Program Files (x86)\Microsoft Visual Studio\2017\<Visual Studio SKU>\MSBuild\15.0\Bin  
     ```  
   
 > [!NOTE]

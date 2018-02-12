@@ -37,7 +37,7 @@
     "globalMetadata": {
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/visualstudio-docs",
-      "feedback_product_url": "https://developercommunity.visualstudio.com/",
+      "feedback_product_url": "https://aka.ms/vsce-product-survey",
       "breadcrumb_path": "/visualstudio/connected-environment/breadcrumb/toc.json",
       "extendBreadcrumb": true,
       "ms.prod": "visualstudio-dev15",

@@ -1,11 +1,7 @@
 ---
 title: "Visual Studio testing tools | Microsoft Docs"
-ms.custom: na
-ms.date: "02/17/2017"
-ms.reviewer: na
-ms.suite: na
+ms.date: 01/31/2018
 ms.technology: vs-devops-test
-ms.tgt_pltfrm: na
 ms.topic: "article"
 helpviewer_keywords: 
   - "testing tools [Visual Studio]"

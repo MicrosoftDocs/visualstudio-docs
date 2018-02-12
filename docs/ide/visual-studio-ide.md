@@ -6,7 +6,10 @@ ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"
 author: "gewarren"
-ms.author: "gewarren"
+f1_keywords:
+  - vs.startpage
+  - VS.StartPage.HowDoI
+ms.author: gewarren
 manager: ghogen
 ms.workload: 
   - "multiple"
@@ -258,7 +261,7 @@ You can view and manage your Azure-based cloud resources within Visual Studio us
 
 If Visual Studio doesn't have the exact functionality you need, you can add it! You can personalize the IDE based on your workflow and style, add support for external tools not yet integrated with Visual Studio, and modify existing functionality to increase your productivity. To find the latest version of the Visual Studio Extensibility Tools (VS SDK), see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).
 
-You can use the .NET Compiler Platform (Roslyn) to write your own code analyzers and code generators. Find everything you need at [Roslyn](https://github.com/dotnet/Roslyn).
+You can use the .NET Compiler Platform ("Roslyn") to write your own code analyzers and code generators. Find everything you need at [Roslyn](https://github.com/dotnet/Roslyn).
 
 Find [existing extensions](https://marketplace.visualstudio.com/vs) for Visual Studio created by Microsoft developers as well as our development community.
 

@@ -1,6 +1,31 @@
 {
     "redirections": [
         {
+            "source_path": "docs/code-quality/analyzing-application-quality-by-using-code-analysis-tools.md",
+            "redirect_url": "/visualstudio/code-quality/code-analysis-for-managed-code-overview",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/code-quality/analyzing-managed-code-quality-by-using-code-analysis.md",
+            "redirect_url": "/visualstudio/code-quality/code-analysis-for-managed-code-overview",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/code-quality/analyzing-c-cpp-code-quality-by-using-code-analysis.md",
+            "redirect_url": "/visualstudio/code-quality/code-analysis-for-c-cpp-overview",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/code-quality/how-to-suppress-warnings-by-using-the-menu-item.md",
+            "redirect_url": "/visualstudio/code-quality/in-source-suppression-overview",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/code-quality/how-to-view-managed-code-defects.md",
+            "redirect_url": "/visualstudio/code-quality/code-analysis-for-managed-code-overview",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/code-quality/index.md",
             "redirect_url": "/visualstudio/code-quality/analyzing-application-quality-by-using-code-analysis-tools",
             "redirect_document_id": false
@@ -8,6 +33,11 @@
         {
             "source_path": "docs/code-quality/measuring-complexity-and-maintainability-of-managed-code.md",
             "redirect_url": "/visualstudio/code-quality/code-metrics-values/",
+            "redirect_document_id": false
+        },        
+        {
+            "source_path": "docs/code-quality/suppress-warnings-by-using-the-suppressmessage-attribute.md",
+            "redirect_url": "/visualstudio/code-quality/in-source-suppression-overview",
             "redirect_document_id": false
         },
         {
@@ -22,72 +52,72 @@
         },
         {
             "source_path": "docs/csharp-ide/code-generation/index.md",
-            "redirect_url": "/visualstudio/csharp-ide/code-generation-csharp",
+            "redirect_url": "/visualstudio/ide/code-generation-in-visual-studio",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/csharp-ide/code-generation/generate-class-type.md",
-            "redirect_url": "/visualstudio/ide/reference/generate-class-type-csharp",
+            "redirect_url": "/visualstudio/ide/reference/generate-class-type",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/csharp-ide/code-generation/generate-constructor.md",
-            "redirect_url": "/visualstudio/ide/reference/generate-constructor-csharp",
+            "redirect_url": "/visualstudio/ide/reference/generate-constructor",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/csharp-ide/code-generation/generate-field-property-local.md",
-            "redirect_url": "/visualstudio/ide/reference/generate-field-property-local-csharp",
+            "redirect_url": "/visualstudio/ide/reference/generate-field-property-local",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/csharp-ide/code-generation/generate-method.md",
-            "redirect_url": "/visualstudio/ide/reference/generate-method-csharp",
+            "redirect_url": "/visualstudio/ide/reference/generate-method",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/csharp-ide/code-generation/generate-override.md",
-            "redirect_url": "/visualstudio/ide/reference/generate-override-csharp",
+            "redirect_url": "/visualstudio/ide/reference/generate-override",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/csharp-ide/code-generation/generate-overrides.md",
-            "redirect_url": "/visualstudio/ide/reference/generate-overrides-csharp",
+            "redirect_url": "/visualstudio/ide/reference/generate-equals-gethashcode-methods",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/csharp-ide/code-generation/generate-xml-documentation-comments.md",
-            "redirect_url": "/visualstudio/ide/reference/generate-xml-documentation-comments-csharp",
+            "redirect_url": "/visualstudio/ide/reference/generate-xml-documentation",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/csharp-ide/code-generation/implement-abstract-class.md",
-            "redirect_url": "/visualstudio/ide/reference/implement-abstract-class-csharp",
+            "redirect_url": "/visualstudio/ide/reference/implement-abstract-class",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/csharp-ide/code-generation/implement-interface.md",
-            "redirect_url": "/visualstudio/ide/reference/implement-interface-csharp",
+            "redirect_url": "/visualstudio/ide/reference/implement-interface",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/csharp-ide/code-generation/introduce-local-variable.md",
-            "redirect_url": "/visualstudio/ide/reference/introduce-local-variable-csharp",
+            "redirect_url": "/visualstudio/ide/reference/introduce-local-variable",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/csharp-ide/encapsulate-field-refactoring-csharp.md",
-            "redirect_url": "/visualstudio/csharp-ide/refactoring/encapsulate-field",
+            "redirect_url": "/visualstudio/ide/reference/encapsulate-field",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/csharp-ide/extract-interface-refactoring-csharp.md",
-            "redirect_url": "/visualstudio/csharp-ide/refactoring/extract-interface",
+            "redirect_url": "/visualstudio/ide/reference/extract-interface",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/csharp-ide/extract-method-refactoring-csharp.md",
-            "redirect_url": "/visualstudio/csharp-ide/refactoring/extract-method",
+            "redirect_url": "/visualstudio/ide/reference/extract-method",
             "redirect_document_id": false
         },
         {
@@ -97,7 +127,7 @@
         },
         {
             "source_path": "docs/csharp-ide/index.md",
-            "redirect_url": "/visualstudio/csharp-ide/using-the-visual-studio-development-environment-for-csharp",
+            "redirect_url": "/visualstudio/ide/code-generation-in-visual-studio",
             "redirect_document_id": false
         },
         {
@@ -112,77 +142,62 @@
         },
         {
             "source_path": "docs/csharp-ide/refactoring/index.md",
-            "redirect_url": "/visualstudio/csharp-ide/refactoring-csharp",
+            "redirect_url": "/visualstudio/ide/refactoring-in-visual-studio",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/csharp-ide/refactoring/change-method-signature.md",
-            "redirect_url": "/visualstudio/ide/reference/change-method-signature-csharp",
+            "redirect_url": "/visualstudio/ide/reference/change-method-signature",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/csharp-ide/refactoring/convert-get-method-to-property.md",
-            "redirect_url": "/visualstudio/ide/reference/convert-get-method-to-property-csharp",
+            "redirect_url": "/visualstudio/ide/reference/convert-get-method-to-property",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/csharp-ide/refactoring/encapsulate-field.md",
-            "redirect_url": "/visualstudio/ide/reference/encapsulate-field-csharp",
+            "redirect_url": "/visualstudio/ide/reference/encapsulate-field",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/csharp-ide/refactoring/extract-interface.md",
-            "redirect_url": "/visualstudio/ide/reference/extract-interface-csharp",
+            "redirect_url": "/visualstudio/ide/reference/extract-interface",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/csharp-ide/refactoring/extract-method.md",
-            "redirect_url": "/visualstudio/ide/reference/extract-method-csharp",
+            "redirect_url": "/visualstudio/ide/reference/extract-method",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/csharp-ide/refactoring/inline-temporary-variable.md",
-            "redirect_url": "/visualstudio/ide/reference/inline-temporary-variable-csharp",
+            "redirect_url": "/visualstudio/ide/reference/inline-temporary-variable",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/csharp-ide/refactoring/move-declaration-near-reference.md",
-            "redirect_url": "/visualstudio/ide/reference/move-declaration-near-reference-csharp",
+            "redirect_url": "/visualstudio/ide/reference/move-declaration-near-reference",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/csharp-ide/refactoring/move-type-to-matching-file.md",
-            "redirect_url": "/visualstudio/ide/reference/move-type-to-matching-file-csharp",
+            "redirect_url": "/visualstudio/ide/reference/move-type-to-matching-file",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/csharp-ide/refactoring/remove-unreachable-code.md",
-            "redirect_url": "/visualstudio/ide/reference/remove-unreachable-code-csharp",
+            "redirect_url": "/visualstudio/ide/reference/remove-unreachable-code",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/csharp-ide/refactoring/rename.md",
-            "redirect_url": "/visualstudio/ide/reference/rename-csharp",
+            "redirect_url": "/visualstudio/ide/reference/rename",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/csharp-ide/refactoring/sync-type-and-file.md",
-            "redirect_url": "/visualstudio/ide/reference/sync-type-and-file-csharp",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "docs/csharp-ide/remove-parameters-refactoring-csharp.md",
-            "redirect_url": "/visualstudio/csharp-ide/refactoring/change-method-signature",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "docs/csharp-ide/rename-refactoring-csharp.md",
-            "redirect_url": "/visualstudio/csharp-ide/refactoring/rename",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "docs/csharp-ide/reorder-parameters-refactoring-csharp.md",
-            "redirect_url": "/visualstudio/csharp-ide/refactoring/change-method-signature",
+            "redirect_url": "/visualstudio/ide/reference/sync-type-and-file",
             "redirect_document_id": false
         },
         {
@@ -852,7 +867,7 @@
         },
         {
             "source_path": "docs/ide/how-to-restore-csharp-refactoring-snippets.md",
-            "redirect_url": "/visualstudio/csharp-ide/refactoring-csharp",
+            "redirect_url": "/visualstudio/ide/reference/refactoring-in-visual-studio",
             "redirect_document_id": false
         },
         {
@@ -943,6 +958,11 @@
         {
             "source_path": "docs/ide/retain-topics-for-later-use.md",
             "redirect_url": "/visualstudio/ide/microsoft-help-viewer",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/supplying-xml-code-comments.md",
+            "redirect_url": "/visualstudio/ide/reference/generate-xml-documentation-comments",
             "redirect_document_id": false
         },
         {
@@ -1346,8 +1366,63 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/python/code-editing.md",
+            "redirect_url": "/visualstudio/python/editing-python-code-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/code-formatting.md",
+            "redirect_url": "/visualstudio/python/formatting-python-code",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/code-pylint.md",
+            "redirect_url": "/visualstudio/python/linting-python-code",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/code-refactoring.md",
+            "redirect_url": "/visualstudio/python/refactoring-python-code",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/cookiecutter.md",
+            "redirect_url": "/visualstudio/python/using-python-cookiecutter-templates",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/python/cpp-and-python.md",
             "redirect_url": "/visualstudio/python/working-with-c-cpp-python-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/debugging.md",
+            "redirect_url": "/visualstudio/python/debugging-python-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/debugging-azure-remote.md",
+            "redirect_url": "/visualstudio/python/debugging-remote-python-code-on-azure",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/debugging-azure-remote-troubleshooting.md",
+            "redirect_url": "/visualstudio/python/debugging-remote-python-code-on-azure-troubleshooting",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/debugging-cross-platform-remote.md",
+            "redirect_url": "/visualstudio/python/debugging-python-code-on-remote-linux-machines",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/debugging-mixed-mode.md",
+            "redirect_url": "/visualstudio/python/debugging-mixed-mode-c-cpp-python-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/debugging-symbols-for-mixed-mode.md",
+            "redirect_url": "/visualstudio/python/debugging-symbols-for-mixed-mode-c-cpp-python",
             "redirect_document_id": false
         },
         {
@@ -1401,6 +1476,26 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/python/interactive-repl.md",
+            "redirect_url": "/visualstudio/python/python-interactive-repl-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/options.md",
+            "redirect_url": "/visualstudio/python/python-support-options-and-settings-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/profiling.md",
+            "redirect_url": "/visualstudio/python/profiling-python-code-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/publishing-to-azure.md",
+            "redirect_url": "/visualstudio/python/publishing-python-web-applications-to-azure-from-visual-studio",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/python/python-environments.md",
             "redirect_url": "/visualstudio/python/managing-python-environments-in-visual-studio",
             "redirect_document_id": false
@@ -1413,6 +1508,46 @@
         {
             "source_path": "docs/python/python-projects.md",
             "redirect_url": "/visualstudio/python/managing-python-projects-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/quickstart-01-project-from-existing.md",
+            "redirect_url": "/visualstudio/python/quickstart-01-python-in-visual-studio-project-from-existing-code",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/quickstart-02-project-from-template.md",
+            "redirect_url": "/visualstudio/python/quickstart-02-python-in-visual-studio-project-from-template",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/quickstart-03-project-from-repository.md",
+            "redirect_url": "/visualstudio/python/quickstart-03-python-in-visual-studio-project-from-repository",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/quickstart-04-project-from-cookiecutter.md",
+            "redirect_url": "/visualstudio/python/quickstart-04-python-in-visual-studio-project-from-cookiecutter",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/template-azure-cloud-service.md",
+            "redirect_url": "/visualstudio/python/project-template-python-azure-cloud-service",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/template-django.md",
+            "redirect_url": "/visualstudio/python/python-django-web-application-project-template",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/template-web.md",
+            "redirect_url": "/visualstudio/python/python-web-application-project-templates",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/python/unit-testing.md",
+            "redirect_url": "/visualstudio/python/unit-testing-python-in-visual-studio",
             "redirect_document_id": false
         },
         {
@@ -1449,7 +1584,97 @@
             "source_path": "docs/python/vs-tutorial-01-06.md",
             "redirect_url": "/visualstudio/python/tutorial-working-with-python-in-visual-studio-step-06-working-with-git",
             "redirect_document_id": false
-        },                                                
+        },
+        {
+            "source_path": "docs/rtvs/code-editing.md",
+            "redirect_url": "/visualstudio/rtvs/editing-r-code-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/rtvs/code-intellisense.md",
+            "redirect_url": "/visualstudio/rtvs/r-intellisense",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/rtvs/code-linting.md",
+            "redirect_url": "/visualstudio/rtvs/linting-r-code",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/rtvs/code-snippets.md",
+            "redirect_url": "/visualstudio/rtvs/code-snippets-for-r",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/rtvs/data-science-workload.md",
+            "redirect_url": "/visualstudio/rtvs/data-science-and-analytical-applications-workload",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/rtvs/debugging.md",
+            "redirect_url": "/visualstudio/rtvs/debugging-r-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/rtvs/installation.md",
+            "redirect_url": "/visualstudio/rtvs/installing-r-tools-for-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/rtvs/interactive-repl.md",
+            "redirect_url": "/visualstudio/rtvs/interactive-repl-for-r-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/rtvs/options.md",
+            "redirect_url": "/visualstudio/rtvs/options-for-r-tools-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/rtvs/package-manager.md",
+            "redirect_url": "/visualstudio/rtvs/r-package-manager-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/rtvs/projects.md",
+            "redirect_url": "/visualstudio/rtvs/r-projects-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/rtvs/rmarkdown.md",
+            "redirect_url": "/visualstudio/rtvs/rmarkdown-with-r-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/rtvs/sql-server.md",
+            "redirect_url": "/visualstudio/rtvs/integrating-sql-server-with-r",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/rtvs/visualizing-data.md",
+            "redirect_url": "/visualstudio/rtvs/visualizing-data-with-r-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/rtvs/workspaces.md",
+            "redirect_url": "/visualstudio/rtvs/r-workspaces-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/rtvs/workspaces-remote-setup.md",
+            "redirect_url": "/visualstudio/rtvs/setting-up-remote-r-workspaces",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/rtvs/workspaces-remote-r-service-for-linux.md",
+            "redirect_url": "/visualstudio/rtvs/setting-up-remote-r-service-on-linux",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/rtvs/workspaces-using-docker-containers.md",
+            "redirect_url": "/visualstudio/rtvs/using-docker-containers-with-r",
+            "redirect_document_id": false
+        },
         {
             "source_path": "docs/sharepoint/index.md",
             "redirect_url": "/visualstudio/sharepoint/create-sharepoint-solutions",
@@ -1527,57 +1752,57 @@
         },
         {
             "source_path": "docs/vb-ide/code-generation/index.md",
-            "redirect_url": "/visualstudio/vb-ide/code-generation-vb",
+            "redirect_url": "/visualstudio/ide/code-generation-in-visual-studio",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/vb-ide/code-generation/generate-class-type.md",
-            "redirect_url": "/visualstudio/ide/reference/generate-class-type-vb",
+            "redirect_url": "/visualstudio/ide/reference/generate-class-type",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/vb-ide/code-generation/generate-constructor.md",
-            "redirect_url": "/visualstudio/ide/reference/generate-constructor-vb",
+            "redirect_url": "/visualstudio/ide/reference/generate-constructor",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/vb-ide/code-generation/generate-field-property-local.md",
-            "redirect_url": "/visualstudio/ide/reference/generate-field-property-local-vb",
+            "redirect_url": "/visualstudio/ide/reference/generate-field-property-local",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/vb-ide/code-generation/generate-method.md",
-            "redirect_url": "/visualstudio/ide/reference/generate-method-vb",
+            "redirect_url": "/visualstudio/ide/reference/generate-method",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/vb-ide/code-generation/generate-override.md",
-            "redirect_url": "/visualstudio/ide/reference/generate-override-vb",
+            "redirect_url": "/visualstudio/ide/reference/generate-override",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/vb-ide/code-generation/generate-xml-documentation-comments.md",
-            "redirect_url": "/visualstudio/ide/reference/generate-xml-documentation-comments-vb",
+            "redirect_url": "/visualstudio/ide/reference/generate-xml-documentation-comments",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/vb-ide/code-generation/implement-abstract-class.md",
-            "redirect_url": "/visualstudio/ide/reference/implement-abstract-class-vb",
+            "redirect_url": "/visualstudio/ide/reference/implement-abstract-class",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/vb-ide/code-generation/implement-interface.md",
-            "redirect_url": "/visualstudio/ide/reference/implement-interface-vb",
+            "redirect_url": "/visualstudio/ide/reference/implement-interface",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/vb-ide/code-generation/introduce-local-variable.md",
-            "redirect_url": "/visualstudio/ide/reference/introduce-local-variable-vb",
+            "redirect_url": "/visualstudio/ide/reference/introduce-local-variable",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/vb-ide/index.md",
-            "redirect_url": "/visualstudio/vb-ide/refactoring-vb",
+            "redirect_url": "/visualstudio/ide/refactoring-in-visual-studio",
             "redirect_document_id": false
         },
         {
@@ -1587,47 +1812,47 @@
         },
         {
             "source_path": "docs/vb-ide/refactoring/change-method-signature.md",
-            "redirect_url": "/visualstudio/ide/reference/change-method-signature-vb",
+            "redirect_url": "/visualstudio/ide/reference/change-method-signature",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/vb-ide/refactoring/encapsulate-field.md",
-            "redirect_url": "/visualstudio/ide/reference/encapsulate-field-vb",
+            "redirect_url": "/visualstudio/ide/reference/encapsulate-field",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/vb-ide/refactoring/extract-interface.md",
-            "redirect_url": "/visualstudio/ide/reference/extract-interface-vb",
+            "redirect_url": "/visualstudio/ide/reference/extract-interface",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/vb-ide/refactoring/extract-method.md",
-            "redirect_url": "/visualstudio/ide/reference/extract-method-vb",
+            "redirect_url": "/visualstudio/ide/reference/extract-method",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/vb-ide/refactoring/inline-temporary-variable.md",
-            "redirect_url": "/visualstudio/ide/reference/inline-temporary-variable-vb",
+            "redirect_url": "/visualstudio/ide/reference/inline-temporary-variable",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/vb-ide/refactoring/move-type-to-matching-file.md",
-            "redirect_url": "/visualstudio/ide/reference/move-type-to-matching-file-vb",
+            "redirect_url": "/visualstudio/ide/reference/move-type-to-matching-file",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/vb-ide/refactoring/rename.md",
-            "redirect_url": "/visualstudio/ide/reference/rename-vb",
+            "redirect_url": "/visualstudio/ide/reference/rename",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/vb-ide/refactoring/sync-type-and-file.md",
-            "redirect_url": "/visualstudio/ide/reference/sync-type-and-file-vb",
+            "redirect_url": "/visualstudio/ide/reference/sync-type-and-file",
             "redirect_document_id": false
         },
         {
             "source_path": "docs/vb-ide/refactoring/index.md",
-            "redirect_url": "/visualstudio/vb-ide/refactoring-vb",
+            "redirect_url": "/visualstudio/ide/refactoring-in-visual-studio",
             "redirect_document_id": false
         },
         {
@@ -1688,6 +1913,11 @@
         {
             "source_path": "docs/debugger/run-windows-phone-apps-in-the-emulator.md",
             "redirect_url": "http://msdn.microsoft.com/en-US/library/dn632391(VS.140).aspx",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/graphics/how-to-use-graphics-diagnostics-with-an-arm-device.md",
+            "redirect_url": "/visualstudio/debugger/graphics/graphics-diagnostics-examples",
             "redirect_document_id": false
         },
         {

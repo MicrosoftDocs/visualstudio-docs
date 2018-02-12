@@ -1,15 +1,16 @@
 ---
 title: "Current version of R Tools for Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: 12/12/2017
-ms.reviewer: ""
-ms.suite: ""
+description: How to check the version of R Tools for Visual Studio and install updates.
+ms.custom:
+ms.date: 01/24/2018
+ms.reviewer:
+ms.suite:
 ms.technology: 
   - "devlang-r"
-ms.devlang: r
-ms.tgt_pltfrm: ""
+dev_langs:
+  - "R"
+ms.tgt_pltfrm:
 ms.topic: "article"
-caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
@@ -29,6 +30,6 @@ To update your version of RTVS in Visual Studio 2017, go to the Visual Studio in
 
 For Visual Studio 2015, the most recent installer is available from [aka.ms/rtvs-current](https://aka.ms/rtvs-current) (direct download).
 
-See [Installation](installation.md) for Visual Studio and Windows requirements.
+See [Installation](installing-r-tools-for-visual-studio.md) for Visual Studio and Windows requirements.
 
 For updates on Microsoft R Open and Microsoft R Server, see: [Microsoft R products.](http://aka.ms/rtvs-msft-r)

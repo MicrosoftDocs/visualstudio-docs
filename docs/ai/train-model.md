@@ -7,7 +7,6 @@ ms.author: liwong
 manager: routlaw
 ms.date: 11/13/2017
 ms.topic: how-to article
-ms.technology: visual studio
 ms.devlang: multiple
 ms.service: multiple
 ms.workload: 
