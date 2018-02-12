@@ -20,6 +20,7 @@
 ## [Run unit tests with Test Explorer](run-unit-tests-with-test-explorer.md)
 ### [Run a unit test as a 64-bit process](run-a-unit-test-as-a-64-bit-process.md)
 ### [Walkthrough: Creating and Running Unit Tests for UWP apps](walkthrough-creating-and-running-unit-tests-for-windows-store-apps.md)
+### [Test Explorer FAQ](test-explorer-faq.md)
 ## [Configure unit tests by using a .runsettings file](configure-unit-tests-by-using-a-dot-runsettings-file.md)
 ## [Writing Unit Tests for Managed Code](writing-unit-tests-for-the-dotnet-framework-with-the-microsoft-unit-test-framework-for-managed-code.md)
 ### [Walkthrough: Creating and Running Unit Tests for Managed Code](walkthrough-creating-and-running-unit-tests-for-managed-code.md)

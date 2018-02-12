@@ -132,12 +132,12 @@ string ValueAsNumber
   
 ###  <a name="UsingHTML5ControlsCodedUITestsProgressbar"></a> ProgressBar  
  **ProgreesBar control:** The ProgressBar is a non-interactable control. You can add assertions on the `Value` and `Max` properties of this control.  
-  
+
  ![HTML5 ProgressBar control](../test/media/codedui_html5_progressbar.png "CodedUI_HTML5_ProgressBar")  
-  
-## See Also  
- [HTML Elements](http://go.microsoft.com/fwlink/?LinkID=232441)   
- [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)   
- [Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITCreate)   
- [Customizing your coded UI test](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeCUITModify)   
- [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)
+
+## See also
+
+[HTML Elements](http://go.microsoft.com/fwlink/?LinkID=232441)  
+[Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)  
+[Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md)  
+[Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)

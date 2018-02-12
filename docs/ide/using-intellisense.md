@@ -1,35 +1,26 @@
 ---
-title: "Using IntelliSense | Microsoft Docs"
+title: "Visual Studio IntelliSense | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vc.tools.intellisense"
 helpviewer_keywords: 
-  - "IntelliSense, Complete Word"
-  - "IntelliSense, completion mode"
-  - "parameter information"
-  - "IntelliSense, List Members"
-  - "Quick Info"
-  - "Parameter Info"
+  - "Quick info"
+  - "Parameter info"
+  - "Complete word"
+  - "List members"
   - "IntelliSense [Visual Studio]"
-  - "IntelliSense, suggestion mode"
-  - "IntelliSense, Parameter Info"
-  - "IntelliSense, customizing"
-  - "Complete Word"
-  - "IntelliSense"
-  - "List Members"
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.workload: 
   - "multiple"
 ---
-# Using IntelliSense
+# Using IntelliSense in Visual Studio
 
 IntelliSense is the general term for a number of features: List Members, Parameter Info, Quick Info, and Complete Word. These features help you to learn more about the code you are using, keep track of the parameters you are typing, and add calls to properties and methods with only a few keystrokes.
 
@@ -81,7 +72,7 @@ You can turn Quick Info off for C++ code by navigating to **Tools** > **Options*
 
 ## Complete Word
 
-Complete Word completes the rest of a variable, command, or function name after you have entered enough characters to disambiguate the term. You can invoke Complete Word by choosing **Edit** > **IntelliSense** > **Complete Word**, by pressing **Ctrl** + **SPACE**, or by choosing the **Complete Word** button on the editor toolbar.
+Complete Word completes the rest of a variable, command, or function name after you have entered enough characters to disambiguate the term. You can invoke Complete Word by choosing **Edit** > **IntelliSense** > **Complete Word**, by pressing **Ctrl**+**Space**, or by choosing the **Complete Word** button on the editor toolbar.
 
 ## IntelliSense Options
 
@@ -105,8 +96,8 @@ MessageBox( hWnd, "String literal|")
 
 ## See also
 
-[Visual Basic-Specific IntelliSense](../ide/visual-basic-specific-intellisense.md)  
-[Visual C# IntelliSense](../ide/visual-csharp-intellisense.md)  
+[Visual Basic IntelliSense](../ide/visual-basic-specific-intellisense.md)  
+[C# IntelliSense](../ide/visual-csharp-intellisense.md)  
 [JavaScript IntelliSense](../ide/javascript-intellisense.md)  
-[Writing and Refactoring Code (C++)](/cpp/ide/writing-and-refactoring-code-cpp)  
-[Supplying XML Code Comments](../ide/supplying-xml-code-comments.md)
+[Writing and refactoring code (C++)](/cpp/ide/writing-and-refactoring-code-cpp)  
+[Supplying XML code comments](../ide/supplying-xml-code-comments.md)

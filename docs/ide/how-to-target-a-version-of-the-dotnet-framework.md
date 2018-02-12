@@ -19,7 +19,7 @@ ms.workload:
 ---
 # How to: Target a Version of the .NET Framework
 
-This document describes how to target a version of the .NET Framework when you create a project, and how to change the targeted version in an existing Visual Basic, Visual C#, or Visual F# project.
+This document describes how to target a version of the .NET Framework when you create a project, and how to change the targeted version in an existing Visual Basic, C#, or Visual F# project.
 
 > [!IMPORTANT]
 > For information about how to change the target version for C++ projects, see [How to: Modify the Target Framework and Platform Toolset](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset).
@@ -40,7 +40,7 @@ When you create a project, the version of the .NET Framework that you target det
 
 ## Changing the target version
 
-You can change the targeted version of the .NET Framework in a Visual Basic, Visual C#, or Visual F# project by following this procedure.
+You can change the targeted version of the .NET Framework in a Visual Basic, C#, or Visual F# project by following this procedure.
 
 For information about how to change the target version for C++ projects, see [How to: Modify the Target Framework and Platform Toolset](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset).
 

@@ -14,8 +14,6 @@ f1_keywords:
 helpviewer_keywords: 
   - "Project Designer, Application page"
   - "Application page in Project Designer"
-ms.assetid: f13701a8-4e2e-4474-9d60-bb43decbe0c1
-caps.latest.revision: 56
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
@@ -23,6 +21,7 @@ ms.workload:
   - "dotnet"
 ---
 # Application Page, Project Designer (C#)
+
 Use the **Application** page of the **Project Designer** to specify the project's application settings and properties.  
   
 To access the **Application** page, choose a project node (not the **Solution** node) in **Solution Explorer**. Then choose **Project**, **Properties** on the menu bar. When the Project Designer appears, click the **Application** tab.  
@@ -95,8 +94,4 @@ To access the **Application** page, choose a project node (not the **Solution** 
 **Resource File**  
 Select this radio button when you are providing a resource file for the project. Selecting this option disables the **Icon** and **Manifest** options.  
   
-Enter a path name or use the Browse button (**...**) to add a Win32 resource file to the project.  
-  
-## See Also  
-[Managing Application Properties](../../ide/application-properties.md)  
-[Writing Code in Office Solutions](/office-dev/office-dev/writing-code-in-office-solutions)
+Enter a path name or use the Browse button (**...**) to add a Win32 resource file to the project.

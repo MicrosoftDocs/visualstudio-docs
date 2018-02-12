@@ -1,14 +1,14 @@
 ---
 title: "Use command-line parameters to install Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "09/22/2017"
+ms.date: "01/17/2018"
 ms.reviewer: "tims"
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords: 
+f1_keywords:
   - "command-line parameters"
   - "switches"
   - "command prompt"
@@ -16,7 +16,7 @@ ms.assetid: 480f3cb4-d873-434e-a8bf-82cff7401cf2
 author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Use command-line parameters to install Visual Studio 2017
@@ -37,7 +37,10 @@ The command-line options are used in conjunction with the setup bootstrapper, wh
 
 > Syntax: `vs_enterprise.exe [command] <options>...`
 
-(Replace `vs_enterprise.exe` as appropriate for the product edition you're installing. For examples, see the [Command-line parameter examples](command-line-parameter-examples.md) page.)
+(Replace `vs_enterprise.exe` as appropriate for the product edition you're installing.)
+
+>[!TIP]
+> For more examples of how to use the command line to install Visual Studio 2017, see the [Command-line parameter examples](command-line-parameter-examples.md) page.)
 
 | **Command** | **Description** |
 | ----------------------- | --------------- |
@@ -140,7 +143,6 @@ Here are a few more support options:
 
 ## See also
 
- * [Install Visual Studio 2017](install-visual-studio.md)
- * [Create an offline installation of Visual Studio 2017](create-an-offline-installation-of-visual-studio.md)
  * [Command-line parameter examples for Visual Studio 2017 installation](command-line-parameter-examples.md)
+ * [Create an offline installation of Visual Studio 2017](create-an-offline-installation-of-visual-studio.md)
  * [Automate Visual Studio installation with a response file](automated-installation-with-response-file.md)

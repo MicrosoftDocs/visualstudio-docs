@@ -1,15 +1,16 @@
 ---
 title: R Tools for Visual Studio FAQ | Microsoft Docs
-ms.custom: ""
+description: Frequently-asked questions on R in Visual Studio.
+ms.custom:
 ms.date: 12/04/2017
-ms.reviewer: ""
-ms.suite: ""
+ms.reviewer:
+ms.suite:
 ms.technology: 
   - "devlang-r"
-ms.devlang: r
-ms.tgt_pltfrm: ""
+dev_langs:
+  - "R"
+ms.tgt_pltfrm:
 ms.topic: "article"
-caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
@@ -65,7 +66,7 @@ A. [CRAN R](https://cran.r-project.org/), [Microsoft R Client, and Microsoft Mac
 
 **Q. Where can I download these interpreters?**
 
-A. See [Installation](installation.md).
+A. See [Installation](installing-r-tools-for-visual-studio.md).
 
 Q **What is Microsoft R Server?**
 
@@ -87,7 +88,7 @@ A. Github maintains a master repository of recommended `.gitignore` files. You c
 
 Q. **What is Remote Services in Visual Studio?**
 
-A. Remote R Services for Visual Studio allows you to set up Windows or Linux machine and then connect to it from RTVS. See [Setting up Remote Workspaces](workspaces-remote-setup.md).
+A. Remote R Services for Visual Studio allows you to set up Windows or Linux machine and then connect to it from RTVS. See [Setting up Remote Workspaces](setting-up-remote-r-workspaces.md).
 
 Q. **Can RTVS connect to Microsoft R Server?**
 
@@ -99,7 +100,7 @@ A. Yes; the [Data Science VM - Windows 2016](https://azure.microsoft.com/service
 
 Q, **Can RTVS connect to a remote machine with R installed?**
 
-To execute R code on a remote machine there has to be some service listening to the requests, receiving code and sending results back to the client machine. This is what Remote R Services for Visual Studio do. See [Setting up Remote Workspaces](workspaces-remote-setup.md).
+To execute R code on a remote machine there has to be some service listening to the requests, receiving code and sending results back to the client machine. This is what Remote R Services for Visual Studio do. See [Setting up Remote Workspaces](setting-up-remote-r-workspaces.md).
 
 Q. **What is Remote Session?**
 

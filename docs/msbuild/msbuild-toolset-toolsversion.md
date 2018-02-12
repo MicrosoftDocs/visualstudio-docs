@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "01/31/2018"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: msbuild
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
@@ -13,8 +12,9 @@ helpviewer_keywords:
   - "targeting a specific .NET framework [MSBuild]"
   - "MSBuild, targeting a specific .NET framework"
   - "multitargeting [MSBuild]"
-author: "kempb"
-ms.author: "kempb"
+ms.assetid: 40040ee7-4620-4043-a6d8-ccba921421d1
+author: Mikejo5000
+ms.author: mikejo
 manager: ghogen
 ms.workload: 
   - "multiple"

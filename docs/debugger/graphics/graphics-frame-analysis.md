@@ -10,8 +10,6 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.graphics.frameanalysis"
-ms.assetid: 336c48ba-a1c4-4db9-b2a4-3de4a129cdd6
-caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
@@ -145,37 +143,32 @@ Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and op
 ### GPU counters  
  Support for GPU hardware counters is hardware-dependent.  
   
- Because no computer GPU currently offered by Intel, AMD, or nVidia supports GPU hardware counters reliably, Frame Analysis doesn't collect counters from them. However, Frame Analysis does collect hardware counters from these GPUs, which reliably support them:  
+ Because no computer GPU currently offered by Intel, AMD, or nVidia supports GPU hardware counters reliably, Frame Analysis doesn't collect counters from them. However, Frame Analysis does collect hardware counters from the following GPU, which reliably supports them:  
   
--   Qualcomm SOCs (any that supports Windows Phone)  
-  
--   nVidia T40 (Tegra4).  
+-   nVidia T40 (Tegra4)
   
  No other platform that supports Frame Analysis collects GPU hardware counters.  
   
 > [!NOTE]
 >  Because GPU hardware counters are hardware resources, it can take multiple passes to collect the complete set of hardware counters for each rendering variant. As a result, the order in which GPU counters are collected is unspecified.  
   
-### Windows Phone  
- Timestamps, occlusion queries, and GPU hardware counters are only supported on Windows Phone handsets that originally shipped with Windows Phone 8.1 or Windows Phone 10. Frame Analysis requires these in order to play back the graphics log file. Windows Phone handsets that were originally shipped with Windows Phone 8 do not support Frame Analysis, even for handsets that have been updated to Windows Phone 8.1 or Windows Phone 10.  
-  
 ## Unsupported scenarios  
  Certain ways of using frame analysis are unsupported or are just a bad idea.  
-  
-### WARP  
- Frame analysis is intended to be used to profile and improve rendering performance on real hardware. Running frame analysis on WARP devices isn't prevented—the Windows Phone emulator runs on WARP—but it's not usually a worthwhile pursuit because WARP running on a high-end CPU is slower than even the least-capable modern GPUs, and because WARP performance can vary greatly depending on the particular CPU it's running on.  
   
 ### Playback of high-feature-level captures on down-level devices  
  In Graphics Analyzer, when you play back a graphics log file that uses a higher feature level than the playback machine supports, it automatically falls back to WARP. In Frame Analysis it explicitly does not fall back to WARP and it generates an error—WARP is useful for examining the correctness of your Direct3D app, but not for examining its performance.  
   
 > [!NOTE]
->  Although it's important to keep the feature-level issues in mind, you can capture and play back graphics log files on different hardware configurations and devices. For example, you can capture graphics information on a Windows Phone and play it back on a desktop computer, and the reverse is also supported. In both cases, the graphics log can be played back as long as the log file doesn't contain APIs or use feature levels that aren't supported on the playback machine.  
+>  Although it's important to keep the feature-level issues in mind, you can capture and play back graphics log files on different hardware configurations and devices. The graphics log can be played back as long as the log file doesn't contain APIs or use feature levels that aren't supported on the playback machine.  
   
 ### Direct3D 10 and lower  
  If your app calls the Direct3D 10 API, Frame Analysis won't recognize or profile them even though they're recognized and used by other Graphics Analyzer tools.
   
 > [!NOTE]
 >  This applies only to the Direct3D API calls that you're using, not feature levels.
+
+### WARP  
+ Frame analysis is intended to be used to profile and improve rendering performance on real hardware. Running frame analysis on WARP devices isn't prevented, but it's not usually a worthwhile pursuit because WARP running on a high-end CPU is slower than even the least-capable modern GPUs, and because WARP performance can vary greatly depending on the particular CPU it's running on.  
   
 ##  <a name="Variants"></a> Variants  
  Each change that Frame Analysis makes to the way a frame is rendered during playback is known as a *variant*. The variants that Frame Analysis examines correspond to common, relatively easy changes that you could make to improve the rendering performance or visual quality of your app—for example, reducing the size of textures, using texture compression, or enabling different kinds of anti-aliasing. Variants override the usual rendering context and parameters of your app. Here's a summary:  

@@ -4,17 +4,13 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-techdebt"
-ms.tgt_pltfrm: ""
+ms.technology: vs-ide-modeling
 ms.topic: "get-started-article"
 helpviewer_keywords: 
   - "UML, using models"
-ms.assetid: a33ac8fc-4ba0-4850-b71b-014dc8674e54
-caps.latest.revision: 29
-author: "alexhomer1"
-ms.author: "ahomer"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
 ---
@@ -130,12 +126,13 @@ In Visual Studio, you can use a model to help you understand and change a system
 |**Blogs**|[Visual Studio ALM + Team Foundation Server Blog](http://go.microsoft.com/fwlink/?LinkID=201340)|  
 |**Technical Articles and Journals**|[MSDN Architecture Center](http://go.microsoft.com/fwlink/?LinkId=201343)<br /><br /> [Visual Studio Architecture Tooling Guidance](../modeling/visual-studio-architecture-tooling-guidance.md)|  
   
-## See Also  
- [Use models in Agile development](http://msdn.microsoft.com/en-us/592ac27c-3d3e-454a-9c38-b76658ed137f)   
- [Create models for your app](../modeling/create-models-for-your-app.md)   
- [Model user requirements](../modeling/model-user-requirements.md)   
- [Model your app's architecture](../modeling/model-your-app-s-architecture.md)   
- [Develop tests from a model](../modeling/develop-tests-from-a-model.md)   
- [Structure your modeling solution](../modeling/structure-your-modeling-solution.md)
+## See also
+
+[Use models in Agile development](http://msdn.microsoft.com/592ac27c-3d3e-454a-9c38-b76658ed137f)   
+[Create models for your app](../modeling/create-models-for-your-app.md)   
+[Model user requirements](../modeling/model-user-requirements.md)   
+[Model your app's architecture](../modeling/model-your-app-s-architecture.md)   
+[Develop tests from a model](../modeling/develop-tests-from-a-model.md)   
+[Structure your modeling solution](../modeling/structure-your-modeling-solution.md)
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]

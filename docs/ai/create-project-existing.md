@@ -1,6 +1,8 @@
+---
+---
 # Create an AI project from existing code
 
-Once you've [installed Visual Studio Tools for AI](installation.md), it's easy to bring existing Python code into a Visual Studio project. 
+Once you've [installed Visual Studio Tools for AI](installation.md), it's easy to bring existing Python code into a Visual Studio project.
 
 > [!Important]
 >
@@ -10,10 +12,9 @@ Once you've [installed Visual Studio Tools for AI](installation.md), it's easy t
 
 1. In the **New Project** dialog, search for "**AI Tools**", select the "**From Existing Python code**" template, give the project a name and location, and select **OK**.
 
-	![New Project from Existing Code, step 1](media\create-project-existing\new-ai-project.png)
+    ![New Project from Existing Code, step 1](media\create-project-existing\new-ai-project.png)
 
 1. In the wizard that appears, set the path to your existing code, set a filter for file types, and specify any search paths that your project requires, then select **OK**. If you don't know what search paths are, leave that field blank.
-
 
 ![New Project from Existing Code, step 2](media\create-project-existing\azurebatch-newproject.png)
 
@@ -21,11 +22,11 @@ Once you've [installed Visual Studio Tools for AI](installation.md), it's easy t
 
 1. To set a startup file, locate the file in Solution Explorer, right-click, and select **Set as Startup File**.
 
-8. If desired, run the program by pressing Ctrl+F5 or selecting **Debug > Start Without Debugging**. 
+1. If desired, run the program by pressing Ctrl+F5 or selecting **Debug > Start Without Debugging**.
 
 > [!div class="nextstepaction"]
-> [Tutorial: Working with Python in Visual Studio](https://docs.microsoft.com/visualstudio/python/vs-tutorial-01-00)
+> [Tutorial: Working with Python in Visual Studio](../python/tutorial-working-with-python-in-visual-studio-step-00-installation.md)
 
 ## See Also
 
-- [Creating an environment for an existing Python interpreter](https://docs.microsoft.com/visualstudio/python/python-environments#creating-an-environment-for-an-existing-interpreter)
+- [Creating an environment for an existing Python interpreter](../python/managing-python-environments-in-visual-studio.md#creating-an-environment-for-an-existing-interpreter)

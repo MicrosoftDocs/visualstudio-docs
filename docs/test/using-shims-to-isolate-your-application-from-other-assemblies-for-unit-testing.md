@@ -410,7 +410,7 @@ public class ShimMyBase : ShimBase<MyBase> {
 ```  
   
 ###  <a name="BKMK_Static_constructors"></a> Static constructors  
- Shim types expose a static method `StaticConstructor` to shim the static constructor of a type. Since static constructors are executed once only, you need to ensure that the shim is configured before any member of the type is accessed.  
+ Shim types expose a static method `StaticConstructor` to shim the static constructor of a type. Since static constructors are executed once only, you need to make sure that the shim is configured before any member of the type is accessed.  
   
 ###  <a name="BKMK_Finalizers"></a> Finalizers  
  Finalizers are not supported in Fakes.  

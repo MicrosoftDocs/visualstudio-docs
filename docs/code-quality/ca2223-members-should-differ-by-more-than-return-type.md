@@ -43,7 +43,7 @@ ms.workload:
  Do not suppress a warning from this rule.  
   
 ## Example  
- The following example, in Microsoft intermediate language (MSIL), shows a type that violates this rule. Notice that this rule cannot be violated by using C# or Visual Basic .NET.  
+ The following example, in Microsoft intermediate language (MSIL), shows a type that violates this rule. Notice that this rule cannot be violated by using C# or Visual Basic.  
   
 ```  
   

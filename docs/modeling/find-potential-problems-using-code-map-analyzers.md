@@ -4,7 +4,6 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 f1_keywords: 
   - "vs.progression.codemapanalyzers"
@@ -12,13 +11,12 @@ helpviewer_keywords:
   - "code analysis, dependency graphs"
   - "dependency graphs, analyzing code"
   - "graph documents, analyzing"
-ms.assetid: 9dd799a7-f7eb-42ff-8612-b19dde7ff4eb
-caps.latest.revision: 11
-author: "alexhomer1"
-ms.author: "ahomer"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Find potential problems using code map analyzers
 Run analyzers on code maps to help you identify code that might be overly complex or that might need improvement. For example, you can use these analyzers:  
