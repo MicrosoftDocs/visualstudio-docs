@@ -4,7 +4,6 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "dependency diagrams, deploying extensions"
@@ -14,6 +13,7 @@ ms.author: gewarren
 manager: ghogen
 ms.workload: 
   - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Deploy a layer model extension
 Other users of Visual Studio can install layer modeling extensions that you create by using Visual Studio.  

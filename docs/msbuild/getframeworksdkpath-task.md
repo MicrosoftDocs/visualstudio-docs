@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: msbuild
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -20,8 +19,8 @@ helpviewer_keywords:
   - "MSBuild, GetFrameworkSdkPath task"
 ms.assetid: 2ef82b98-02b6-40cf-a9b5-f0e882fb5064
 caps.latest.revision: 10
-author: "kempb"
-ms.author: "kempb"
+author: Mikejo5000
+ms.author: mikejo
 manager: ghogen
 ms.workload: 
   - "multiple"

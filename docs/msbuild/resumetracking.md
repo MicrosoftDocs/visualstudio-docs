@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: msbuild
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 apiname: 
@@ -17,8 +16,8 @@ helpviewer_keywords:
   - "ResumeTracking"
 ms.assetid: d637e019-7c50-4b0a-812e-bc822001e697
 caps.latest.revision: 4
-author: "kempb"
-ms.author: "kempb"
+author: Mikejo5000
+ms.author: mikejo
 manager: ghogen
 ms.workload: 
   - "multiple"

@@ -4,7 +4,6 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.dsltools.dsldesigner.diagram"
@@ -20,6 +19,7 @@ ms.author: gewarren
 manager: ghogen
 ms.workload: 
   - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Working with the DSL Definition Diagram
 The diagram of a [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] definition is an important tool for defining the domain-specific language. You can add elements to your domain model and define relationships on the diagram, and you can modify the layout of the diagram to make it more readable.  

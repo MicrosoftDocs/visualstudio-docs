@@ -4,7 +4,6 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "dependency diagrams, adding custom properties"
@@ -13,6 +12,7 @@ ms.author: gewarren
 manager: ghogen
 ms.workload: 
   - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Add custom properties to dependency diagrams
 When you write extension code for dependency diagrams, you can store values with any element on a dependency diagram. The values will persist when the diagram is saved and re-opened. You can also have these properties appear in the **Properties** window so that users can see and edit them. For example, you could let users specify a regular expression for each layer, and write validation code to verify that the names of classes in each layer conform to the pattern specified by the user.  

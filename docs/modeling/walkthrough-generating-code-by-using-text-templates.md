@@ -4,7 +4,6 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "walkthroughs [text templates], generating application code"
@@ -14,6 +13,7 @@ ms.author: gewarren
 manager: ghogen
 ms.workload: 
   - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Walkthrough: Generating Code by using Text Templates
 Code generation allows you to produce program code that is strongly typed, and yet can be easily changed when the source model changes. Contrast this with the alternative technique of writing a completely generic program that accepts a configuration file, which is more flexible, but results in code that is neither so easy to read and change, nor has such good performance. This walkthrough demonstrates this benefit.  

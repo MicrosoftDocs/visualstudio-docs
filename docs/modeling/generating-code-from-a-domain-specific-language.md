@@ -4,13 +4,13 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 author: gewarren
 ms.author: gewarren
 manager: ghogen
 ms.workload: 
   - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Generating Code from a Domain-Specific Language
 Microsoft [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] provides a powerful way to generate code, documents, configuration files and other artifacts from data represented in models. Using [!INCLUDE[dsl](../modeling/includes/dsl_md.md)], you can create a set of classes that represent your data, and you can write your text templates in classes whose names and properties reflect that data.  

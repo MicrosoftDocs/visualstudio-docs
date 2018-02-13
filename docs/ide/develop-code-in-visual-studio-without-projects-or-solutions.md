@@ -5,12 +5,7 @@ ms.date: "02/27/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "JScript"
-  - "VB"
-  - "CSharp"
 helpviewer_keywords: 
   - "open folder [Visual Studio]"
   - "anycode [Visual Studio]"

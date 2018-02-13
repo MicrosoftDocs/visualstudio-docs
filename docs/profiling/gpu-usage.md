@@ -8,8 +8,6 @@ ms.technology:
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 957fed3c-4ded-4e05-87c6-ccc33de65349
-caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
@@ -115,7 +113,7 @@ Starting with Visual Studio 2017, this data can be opened with [GPUView](/window
 |**Thread ID**|The thread ID from which the event came.|  
   
 > [!IMPORTANT]
->  Windows 8.1 is required for event attribution. Additionally, if your GPU or driver don't support the necessary instrumentation features, all events will appear as 'unattributed'. Make sure to update your GPU driver and try again if you experience this problem. For more information, see [Hardware and driver support](#hwsupport) below.  
+>  If your GPU or driver don't support the necessary instrumentation features, all events will appear as 'unattributed'. Make sure to update your GPU driver and try again if you experience this problem. For more information, see [Hardware and driver support](#hwsupport) below.  
   
 ## GPU Usage settings  
  You can configure the GPU Usage tool to postpone collection of profiling information, rather than starting to collect information as soon as the app starts. Because the size of the profiling information can be significant, this is useful when you know that slowdowns in your app's performance won't appear until later.  

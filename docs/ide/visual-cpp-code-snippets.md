@@ -10,6 +10,8 @@ ms.topic: "article"
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+dev_langs:
+ - CPP
 ms.workload: 
   - "cplusplus"
 ---
@@ -27,7 +29,7 @@ To insert a code snippet, open a C++ code file (.cpp or .h), click somewhere ins
 
 - In the **Edit / IntelliSense** menu, select **Insert Snippet**
 
-- Use the hotkeys: **CTRL + K + X**
+- Use the hotkeys: **Ctrl**+**K**+**X**
 
 You should see a list of choices beginning with **#if**. When you select **#if**, you should see the following code added to the file:
 
@@ -43,11 +45,11 @@ You can then replace the 0 with the correct condition.
 
 To use a code snippet to surround selected code, select a line (or multiple lines) and do one of the following:
 
-1. Right-click to get the context menu and select **Surround With**
+- Right-click to get the context menu, and select **Surround With**
 
-2. In the **Edit / IntelliSense** menu, select **Surround With**
+- From the **Edit** > **IntelliSense** menu, select **Surround With**
 
-3. Use the hotkeys: **CTRL + K + S**
+- Using a keyboard, press: **CTRL**+**K**+**S**
 
 Select **#if**. You should see something like this:
 

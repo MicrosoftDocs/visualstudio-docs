@@ -4,7 +4,6 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 f1_keywords: 
   - "vs.progression.codemap"
@@ -31,6 +30,7 @@ ms.author: gewarren
 manager: ghogen
 ms.workload: 
   - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Map dependencies across your solutions
 
@@ -59,13 +59,13 @@ When you want to understand dependencies across your code, visualize them by cre
   
  **You can map dependencies for code in these languages**:  
   
--   Visual C# .NET or Visual Basic .NET in a solution or assemblies (.dll or .exe)  
+-   Visual C# or Visual Basic in a solution or assemblies (.dll or .exe)  
   
 -   Native or managed C or C++ code in Visual C++ projects, header files (.h or `#include`), or binaries  
   
 -   X++ projects and assemblies made from .NET modules for Microsoft Dynamics AX  
   
- **Note:** For projects other than C# or Visual Basic .NET, there are fewer options for starting a code map or adding items to an existing code map. For example, you cannot right-click an object in the text editor of a C++ project and add it to a code map. However, you can drag and drop individual code elements or files from Solution Explorer, Class View, and Object Browser.  
+ **Note:** For projects other than C# or Visual Basic, there are fewer options for starting a code map or adding items to an existing code map. For example, you cannot right-click an object in the text editor of a C++ project and add it to a code map. However, you can drag and drop individual code elements or files from Solution Explorer, Class View, and Object Browser.  
   
 #### To see the overall dependencies across your solution  
   

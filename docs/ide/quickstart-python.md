@@ -9,12 +9,11 @@ ms.technology:
   - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: quickstart
-ms.devlang: python
+dev_langs:
+  - python
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
-dev_langs: 
-  - python
 ms.workload: 
   - "python"
   - "data-science"
@@ -144,6 +143,6 @@ Congratulations on completing this Quickstart, in which you've learned a little 
 > [!div class="nextstepaction"]
 > [Tutorial: Getting Started with Python in Visual Studio](../python/tutorial-working-with-python-in-visual-studio-step-01-create-project.md).
 
-- Learn about [Python web app templates in Visual Studio](../python/template-web.md)
-- Learn about [Python debugging](../python/debugging.md)
+- Learn about [Python web app templates in Visual Studio](../python/python-web-application-project-templates.md)
+- Learn about [Python debugging](../python/debugging-python-in-visual-studio.md)
 - Learn more about the [Visual Studio IDE](../ide/visual-studio-ide.md)

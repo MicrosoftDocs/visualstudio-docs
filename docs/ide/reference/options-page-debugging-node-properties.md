@@ -36,7 +36,7 @@ The following tables describe the pages (or properties collections) that are ass
 |ShowAllMembers|Get/Set (Boolean)|For non-user objects, determines whether the debugger displays all object members in the variables windows. This option has no effect unless Just My Code is enabled.|  
 |WarnIfNoUserCode|Get/Set (Boolean)|Determines whether the debugger emits a warning when the user tries to attach to a process that has no user code. This option has no effect unless Just My Code is enabled.|  
 |EnablePropertyEvaluation|Get/Set (Boolean)|Determines whether the debugger automatically evaluates properties and implicit function calls in managed code.|  
-|CallStringConversion|Get/Set (Boolean)|Determines whether the debugger implicitly calls a string conversion function on objects in the variables windows. This option applies to C# and JScript code only.|  
+|CallStringConversion|Get/Set (Boolean)|Determines whether the debugger implicitly calls a string conversion function on objects in the variables windows.|  
 |EnableSourceServer|Get/Set (Boolean)|Determines whether the debugger can access code from a source server.|  
 |PrintSourceServerDiagnostics|Get/Set (Boolean)|Determines whether the Output window shows diagnostic messages related to the source server. This option has no effect unless source server access is enabled.|  
 |HighlightEntireLine|Get/Set (Boolean)|Determines whether the debugger highlights an entire line for breakpoints and the current statement.|  

@@ -14,29 +14,20 @@ ms.workload:
 ---
 # Code generation features in Visual Studio
 
-There are numerous ways to have Visual Studio generate code for you in the editor. By using these code generation features, you can save time and keystrokes, reduce syntax errors, and improve consistency across your code.
+There are numerous ways that Visual Studio can help you generate, fix, and refactor code.
 
-Some of the features in Visual Studio that generate code for you include [code snippets](../ide/code-snippets.md) and [Quick Actions](../ide/quick-actions.md) ![Small Light Bulb Icon](media/vs2015_lightbulbsmall.png).
+- You can use [code snippets](../ide/code-snippets.md) to insert a template such as a [switch](/dotnet/csharp/language-reference/keywords/switch) block or an [enum](/dotnet/csharp/language-reference/keywords/enum) declaration.
 
-Some common code generation tasks available through [Quick Actions](../ide/quick-actions.md) are:
+- You can use [Quick Actions](../ide/quick-actions.md) to generate code such as classes and properties, or to introduce a local variable. You can also use Quick Actions to [improve code](../ide/common-quick-actions.md), for example to remove unnecessary casts and unused variables, or to add null checks before accessing variables.
 
-* Generating classes, methods, properties, etc.
+- You can [refactor code](../ide/refactoring-in-visual-studio.md) to rename a variable, re-order method parameters, or synchronize a type with its filename, to name a few.
 
-* Implementing abstract classes or interfaces
-
-* Introducing a local variable into a complex expression
-
-Additionally, by typing certain characters you can:
-
-* generate [XML-formatted comment blocks]() for your code that can later be processed to produce documentation automatically
-
-* generate [method override]() signatures
-
-Because the logic of code generation is closely tied to language syntax, each language service in Visual Studio provides its own code generation capabilities.
+> [!NOTE]
+> Each language service in Visual Studio provides its own code generation capabilities, so some features are only available in C#, and some are available in both C# and Visual Basic.
 
 ## See also
 
-[Quick Actions](../ide/quick-actions.md)  
 [Code Snippets](../ide/code-snippets.md)  
-[Code Generation and T4 Text Templates](../modeling/code-generation-and-t4-text-templates.md)  
-[Refactoring](../ide/refactoring-in-visual-studio.md)
+[Quick Actions](../ide/quick-actions.md)  
+[Refactoring](../ide/refactoring-in-visual-studio.md)  
+[Code Generation and T4 Text Templates](../modeling/code-generation-and-t4-text-templates.md)

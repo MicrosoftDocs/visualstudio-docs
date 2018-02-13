@@ -4,7 +4,6 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.dsltools.dsldesigner.selectimagedialog"
@@ -16,6 +15,7 @@ ms.author: gewarren
 manager: ghogen
 ms.workload: 
   - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Properties of Image Shapes
 You can use image shapes to specify how domain classes appear in a generated designer. Define an image shape by setting the `Image` property of the class to a predefined image file. The following formats are supported:  
