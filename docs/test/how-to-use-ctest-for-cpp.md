@@ -20,17 +20,17 @@ CMake (which includes CTest) is integrated into the Visual Studio IDE by default
 
 ## To write tests
 
-CMake support in Visual Studio does not involve the Visual Studio project system. Therefore, you write and configure CTest tests just as you would in any CMake environment. See [CMake Tools for Visual C++](/cpp/ide/cmake-tools-for-visual-cpp) for more infomation about using CMake in Visual Studio.
+CMake support in Visual Studio doesn't involve the Visual Studio project system. Therefore, you write and configure CTest tests just as you would in any CMake environment. For more information about using CMake in Visual Studio, see [CMake Tools for Visual C++](/cpp/ide/cmake-tools-for-visual-cpp). 
 
 ## To run tests (Visual Studio 2017 version 15.6)
 
-In Visual Studio 2017 version 15.6, CTest is fully-integrated with **Test Explorer** and also supports both the Google and Boost unit testing frameworks. Those frameworks are included by default as components in the **Desktop Develoment with C++** workload but if you are upgrading a project from an older version of Visual Studio, you may need install those frameworks by using the Visual Studio Installer program.
+In Visual Studio 2017 version 15.6, CTest is fully integrated with **Test Explorer** and also supports both the Google and Boost unit testing frameworks. Those frameworks are included by default as components in the **Desktop Develoment with C++** workload. However, if you are upgrading a project from an older version of Visual Studio, you may need to install those frameworks by using the Visual Studio Installer program.
 
 The following illustration shows results of a CTest run using Google Test framework:
 
 ![CTest with Google Test Framework in VS2017 15.6](media/ctest-test-explorer.png "CTest and Google Test in Test Explorer")
 
-If you are using CTest but not the Google or Boost adapters, you will see results at the CTest level instead of the individual test method level. You can debug and step-through CTest-only executables, but stack traces on individual tests are not supported.
+If you are using CTest but not the Google or Boost adapters, you see results at the CTest level instead of the individual test method level. You can debug and step-through CTest-only executables, but stack traces on individual tests aren't supported.
 
 ## To run tests (Visual Studio 2017 version 15.5)
 
