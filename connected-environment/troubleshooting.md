@@ -62,11 +62,14 @@ You can also see if a Connected Environment you recently created from within Vis
 
 
 ## 'Microsoft.ConnectedEnvironment/register/action' authorization error when creating an environment
-If the user is not an owner/contributor on the selected Azure subscription, the following error is displayed when working with an environment (for example, creating a new environment, or listing existing environments):
+You may see the following error when managing an environment (for example, creating a new environment, or listing existing environments).
 `The client '<User email/Id>' with object id '<Guid>' does not have authorization to perform action 'Microsoft.ConnectedEnvironment/register/action' over scope '/subscriptions/<Subscription Id>'.`
 
+**Reason:**
+The user is not an Owner or Contributor on the selected Azure subscription.
+
 **Try:**
-Someone with Owner or Contributor access to the Azure subscription needs to manually register the subscription with the Microsoft.ConnectedEnvironment service. This can be done with the following Azure CLI command:
+Someone with Owner or Contributor access to the Azure subscription should manually register the Microsoft.ConnectedEnvironment service. This can be done with the following Azure CLI command:
 
 ```cmd
 az provider register --namespace Microsoft.ConnectedEnvironment
