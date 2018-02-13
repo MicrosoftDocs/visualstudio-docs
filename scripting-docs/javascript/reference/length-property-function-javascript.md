@@ -13,6 +13,7 @@ f1_keywords:
   - "length Property"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "Length property"
@@ -43,7 +44,7 @@ functionName.length
 ## Example  
  The following example illustrates the use of the **length** property:  
   
-```javascript  
+```JavaScript  
 function ArgTest(a, b){  
     var s = "";  
   

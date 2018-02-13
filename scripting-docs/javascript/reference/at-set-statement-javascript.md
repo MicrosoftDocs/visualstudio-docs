@@ -13,6 +13,7 @@ f1_keywords:
   - "@set_JavaScriptKeyword"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "@set statement"
@@ -48,7 +49,7 @@ Creates variables used with conditional compilation statements.
   
  Examples of variable declarations look like this:  
   
-```javascript  
+```JavaScript  
   
       @set @myvar1 = 12  
   
@@ -77,7 +78,7 @@ Creates variables used with conditional compilation statements.
   
  If a variable is used before it has been defined, its value is `NaN`. `NaN` can be checked for using the `@if` statement:  
   
-```javascript  
+```JavaScript  
 @if (@newVar != @newVar)  
    ...  
 ```  

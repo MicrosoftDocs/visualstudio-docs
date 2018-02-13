@@ -13,6 +13,7 @@ f1_keywords:
   - "return_JavaScriptKeyword"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "terminating execution"
@@ -44,7 +45,7 @@ return[(][expression][)];
 ## Example  
  The following example illustrates the use of the `return` statement.  
   
-```javascript  
+```JavaScript  
 function myfunction(arg1, arg2){  
    var r;  
    r = arg1 * arg2;  
@@ -55,7 +56,7 @@ function myfunction(arg1, arg2){
 ## Example  
  The following example illustrates the use of the `return` statement to return a function.  
   
-```javascript  
+```JavaScript  
 function doWork() {  
     return function calculate(y) { return y + 1; };  
 }  

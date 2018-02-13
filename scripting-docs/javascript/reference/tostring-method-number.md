@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 07c3484b-d9d8-4451-a2be-88a19a081966
 caps.latest.revision: 2
@@ -38,7 +39,7 @@ number.toString()
 ## Example  
  The following example illustrates the use of the **toString** method with a number.  
   
-```javascript  
+```JavaScript  
 var number = 234.567;  
 var s = number.toString();  
 document.write(s.length);  

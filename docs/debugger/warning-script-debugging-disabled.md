@@ -11,29 +11,17 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.scriptdisabled"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 ms.assetid: 323d2b1d-52a4-42f7-b4ad-96b4b0c23b8d
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Warning: Script Debugging Disabled
 Script Debugging is currently disabled in Internet Explorer  

@@ -14,21 +14,9 @@ ms.assetid: 8ffcee99-7950-41af-906e-661e19e3257a
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Messages Menu Commands
 The **Messages** menu provides commands for controlling message views.  

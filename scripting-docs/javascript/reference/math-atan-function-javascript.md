@@ -13,6 +13,7 @@ f1_keywords:
   - "atan"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "arctangent method"

@@ -13,6 +13,7 @@ f1_keywords:
   - "callee"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "callee property"
@@ -40,7 +41,7 @@ Returns the `Function` object being executed, that is, the body text of the spec
   
 ## Example  
   
-```javascript  
+```JavaScript  
 function factorial(n){  
   if (n <= 0)  
      return 1;  

@@ -14,35 +14,24 @@ helpviewer_keywords:
   - "IEnumDebugBoundBreakpoints2::GetCount"
 ms.assetid: 5a572eeb-beb7-4fc7-8259-792d277069be
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IEnumDebugBoundBreakpoints2::GetCount
 Returns the number of elements in the enumeration.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetCount(  
    ULONG* pcelt  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetCount(  
    out uint pcelt  
 );  

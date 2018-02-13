@@ -12,22 +12,11 @@ helpviewer_keywords:
   - "VSCT files, designing"
 ms.assetid: bb87a322-bac4-4258-92bc-9a876f05d653
 caps.latest.revision: 27
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Designing XML Command Table (.Vsct) Files
 An XML command table (.vsct) file describes the layout and appearance of command items for a VSPackage. Command items include buttons, combo boxes, menus, toolbars, and groups of command items. This topic describes XML command table files, how they affect command items and menus, and how to create them.  
@@ -76,7 +65,7 @@ An XML command table (.vsct) file describes the layout and appearance of command
   
  The new compiler, vsct.exe, compiles both .ctc and .vsct files. The old ctc.exe compiler, however, will neither recognize nor compile .vsct files.  
   
- You can use the vsct.exe compiler to convert an existing .cto file into an .vsct file. For more information about this, see [How to: Create a .Vsct File from an Existing .Cto File](../../misc/how-to-create-a-dot-vsct-file-from-an-existing-dot-cto-file.md).  
+ You can use the vsct.exe compiler to convert an existing .cto file into an .vsct file. For more information about this, see [How to: Create a .Vsct File from an Existing .Cto File](../../extensibility/internals/how-to-create-a-dot-vsct-file.md#how-to-create-a-dot-vsct-file-from-an-existing-dot-cto-file).  
   
 ## The .vsct File Elements  
  The command table has the following hierarchy and elements:  

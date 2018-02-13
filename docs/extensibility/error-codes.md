@@ -14,22 +14,11 @@ helpviewer_keywords:
   - "errors [Visual Studio SDK]"
 ms.assetid: d9cbd1c4-719b-467a-8100-333c1e146d3b
 caps.latest.revision: 19
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Error Codes
 When a Source Control Plug-in API function returns an error, it is expected to be one of the following error codes. All errors are negative, warnings or informational error codes are positive, and success is 0.  
@@ -78,7 +67,7 @@ When a Source Control Plug-in API function returns an error, it is expected to b
   
 ## Macros Provided for Quick Checking  
   
-```cpp#  
+```cpp  
 IS_SCC_ERROR(rtn) (((rtn) < 0) ? TRUE : FALSE)  
 IS_SCC_SUCCESS(rtn) (((rtn) == SCC_OK) ? TRUE : FALSE)  
 IS_SCC_WARNING(rtn) (((rtn) > 0) ? TRUE : FALSE)  

@@ -13,22 +13,11 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], ports"
 ms.assetid: 745c2337-cfff-4d02-b49c-3ca7c4945c5e
 caps.latest.revision: 14
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Getting a Port
 A port represents a connection to a machine on which processes are running. That machine could be the local machine or a remote machine (which could possibly be running a non-Windows-based operating system; see [Ports](../../extensibility/debugger/ports.md) for more information).  
@@ -45,7 +34,7 @@ A port represents a connection to a machine on which processes are running. That
 > [!NOTE]
 >  This example uses the port to launch and resume the process and assumes that the [IDebugPortEx2](../../extensibility/debugger/reference/idebugportex2.md) interface is implemented on the port. This is by no means the only way to perform these tasks, and it is possible that the port may not even be involved other than to have the program's [IDebugProgramNode2](../../extensibility/debugger/reference/idebugprogramnode2.md) given to it.  
   
-```cpp#  
+```cpp  
 // This is an IDebugEngineLaunch2 method.  
 HRESULT CDebugEngine::LaunchSuspended(/* omitted parameters */,  
                                       IDebugPort2 *pPort,  

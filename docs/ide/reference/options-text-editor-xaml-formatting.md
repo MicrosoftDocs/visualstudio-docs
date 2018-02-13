@@ -4,15 +4,15 @@ ms.custom: ""
 ms.date: "01/17/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords:
+f1_keywords: 
   - "VS.ToolsOptionsPages.Text_Editor.XAML.Formatting.General"
   - "VS.ToolsOptionsPages.Text_Editor.XAML.Miscellaneous"
   - "VS.ToolsOptionsPages.Text_Editor.XAML.Formatting.Spacing"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "element spacing, XAML view settings"
   - "attribute spacing, XAML view settings"
   - "XAML view settings, auto-formatting events"
@@ -32,29 +32,17 @@ helpviewer_keywords:
   - "XAML view settings, attribute spacing"
 ms.assetid: ad3820b1-0d94-4807-a74c-c3467ed973a2
 caps.latest.revision: 15
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht:
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.workload: 
+  - "uwp"
 ---
 # Options, Text Editor, XAML, Formatting
 Use the **Formatting** property page to specify how elements and attributes are formatted in your XAML documents. To open the **Options** dialog box, click the **Tools** menu and then click **Options**. To access the **Formatting** property page, expand the **Text Editor**, **XAML**, **Formatting** node.  
 
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).  
 
 ## Auto-Formatting Events  
  Auto-formatting may occur when any of the following events is detected.  
@@ -67,7 +55,7 @@ Use the **Formatting** property page to specify how elements and attributes are 
 
 -   Formatting keyboard commands.  
 
- You can specify which events cause auto-formatting.  
+You can specify which events cause auto-formatting.  
 
 |||  
 |-|-|  
@@ -122,7 +110,6 @@ Use the **Formatting** property page to specify how elements and attributes are 
 |**Closing braces for MarkupExtensions**|Specifies whether a markup extension's closing brace (}) is automatically generated when you type the opening brace character ({).|  
 |**Commas to separate MarkupExtension parameters**|Specifies whether commas are generated when you type more than one parameter in a markup extension.|  
 
-## See Also  
- [XAML in WPF](http://msdn.microsoft.com/Library/5d858575-a83b-42df-ad3f-047ed2d6e3c8)   
- [How to: Change XAML View Settings](http://msdn.microsoft.com/en-us/aee87c79-ca01-4f84-8fb7-a9e47048ee47)   
- [XAML and Code Walkthroughs](http://msdn.microsoft.com/en-us/b3ff41a0-a2a3-4f61-b698-ac88ec8f799c)
+## See also
+
+[XAML in WPF](/dotnet/framework/wpf/advanced/xaml-in-wpf)

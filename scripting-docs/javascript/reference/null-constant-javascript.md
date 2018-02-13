@@ -13,6 +13,7 @@ f1_keywords:
   - "null_JavaScriptKeyword"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "JavaScript null"

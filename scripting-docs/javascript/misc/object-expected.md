@@ -13,6 +13,7 @@ f1_keywords:
   - "VS.WebClient.Help.SCRIPT5007"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 5d88c93d-e5b5-4b11-9bb5-bf1a5e41ccc3
 caps.latest.revision: 9
@@ -33,13 +34,13 @@ You attempted to invoke a method or property on an object of a type other than `
   
      For example, if you get this error on myVar in the following code:  
   
-    ```javascript  
+    ```JavaScript  
     var str = myVar.toString();  
     ```  
   
      you can use this code instead:  
   
-    ```javascript  
+    ```JavaScript  
     if (myVar) {  
         var str = myVar.toString();  
     }  

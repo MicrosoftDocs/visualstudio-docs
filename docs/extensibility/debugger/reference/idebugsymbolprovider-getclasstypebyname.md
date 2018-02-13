@@ -14,29 +14,18 @@ helpviewer_keywords:
   - "IDebugSymbolProvider::GetClassTypeByName method"
 ms.assetid: 2c748909-51dc-49b7-b193-19f96fca1138
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugSymbolProvider::GetClassTypeByName
 This method gets the class field type representing a fully qualified class name.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetClassTypeByName(   
    LPCOLESTR          pszClassName,  
    NAME_MATCH         nameMatch,  
@@ -44,7 +33,7 @@ HRESULT GetClassTypeByName( 
 );  
 ```  
   
-```c#  
+```csharp  
 int GetClassTypeByName(  
    string               pszClassName,   
    NAME_MATCH           nameMatch,   

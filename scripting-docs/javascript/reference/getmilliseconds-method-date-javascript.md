@@ -13,6 +13,7 @@ f1_keywords:
   - "getMilliseconds"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "milliseconds"
@@ -45,7 +46,7 @@ dateObj.getMilliseconds()
 ## Example  
  The following example shows how to use the **getMilliseconds** method.  
   
-```javascript  
+```JavaScript  
 var date = new Date("1/1/2001");  
 document.write(date.getMilliseconds());  
 document.write("<br/>");  

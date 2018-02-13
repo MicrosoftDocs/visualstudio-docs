@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: msbuild
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
@@ -13,23 +12,11 @@ helpviewer_keywords:
   - "MSBuild, logging"
 ms.assetid: dd4dae65-ed04-4883-b48d-59bcb891c4dc
 caps.latest.revision: 9
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: Mikejo5000
+ms.author: mikejo
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Logging in a Multi-Processor Environment
 The ability of MSBuild to use multiple processors can greatly decrease project building time, but it also adds complexity to logging. In a single-processor environment, the logger can handle incoming events, messages, warnings, and errors in a predictable, sequential manner. However, in a multi-processor environment, events from several sources can arrive simultaneously or out of sequence. MSBuild provides a new multi-processor-aware logger and enables the creation of custom "forwarding loggers."  
@@ -46,7 +33,7 @@ The ability of MSBuild to use multiple processors can greatly decrease project b
   
  Although only <xref:Microsoft.Build.Framework.ILogger> is required to be implemented by the central logger, we recommend that you also implement <xref:Microsoft.Build.Framework.INodeLogger> if you want the central logger to initialize with the number of nodes that are participating in the build. The following overload of the <xref:Microsoft.Build.Framework.ILogger.Initialize%2A> method is invoked when the engine initializes the logger:  
   
-```cs
+```csharp
 public interface INodeLogger: ILogger  
 {  
     public void Initialize(IEventSource eventSource, int nodeCount);  
@@ -60,7 +47,7 @@ public interface INodeLogger: ILogger
   
  You can create a forwarding logger by implementing the <xref:Microsoft.Build.Framework.IForwardingLogger> interface, which derives from <xref:Microsoft.Build.Framework.ILogger>. The interface is defined as:  
   
-```cs
+```csharp
 public interface IForwardingLogger: INodeLogger  
 {  
     public IEventRedirector EventRedirector { get; set; }  

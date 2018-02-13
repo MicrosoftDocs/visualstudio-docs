@@ -13,6 +13,7 @@ f1_keywords:
   - "setTime"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "SetTime method"
@@ -48,7 +49,7 @@ dateObj.setTime(milliseconds)
 ## Example  
  The following example illustrates the use of the `setTime` method.  
   
-```javascript  
+```JavaScript  
 function SetTimeTest(newtime){  
    var d, s;                  //Declare variables.  
    d = new Date();            //Create Date object.  

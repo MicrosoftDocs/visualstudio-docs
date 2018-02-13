@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "Boolean values, program flow"
@@ -59,7 +60,7 @@ Normally, statements in a [!INCLUDE[javascript](../javascript/includes/javascrip
   
  The following examples demonstrate syntaxes you can use with **if** and `if...else` statements. The first example shows the simplest kind of Boolean test. If (and only if) the item between the parentheses evaluates to (or can be coerced to) **true**, the statement or block of statements after the **if** is executed.  
   
-```javascript  
+```JavaScript  
 function GetReaction(newShip, color, texture, dayOfWeek)  
 {  
    // The test succeeds if the newShip Boolean value is true.  
@@ -94,7 +95,7 @@ document.write(reaction);
 ## Conditional Operator  
  [!INCLUDE[javascript](../javascript/includes/javascript-md.md)] also supports an implicit conditional form. It uses a question mark after the condition to be tested (rather than the word **if** before the condition). It also specifies two alternatives, one to be used if the condition is met and one if it is not. A colon must separate these alternatives.  
   
-```javascript  
+```JavaScript  
 var AMorPM = (theHour >= 12) ? "PM" : "AM";  
 ```  
   
@@ -106,7 +107,7 @@ var AMorPM = (theHour >= 12) ? "PM" : "AM";
   
  A benefit of designing your script in this manner is that **runsecond()** will not be executed in the following example if **runfirst()** returns 0.  
   
-```javascript  
+```JavaScript  
 if ((runfirst() == 0) || (runsecond() == 0)) {  
     // some code  
 }  
@@ -120,7 +121,7 @@ if ((runfirst() == 0) || (runsecond() == 0)) {
   
  If the condition for looping is never met, the loop is never executed. If the test condition is always met, an infinite loop results. While the former may be desirable in certain cases, the latter rarely is, so be cautious when writing your loop conditions.  
   
-```javascript  
+```JavaScript  
 // The update expression ("icount++" in the following examples)  
 // is executed at the end of the loop, after the block of  
 // statements that forms the body of the loop is executed, and  
@@ -159,7 +160,7 @@ for(var icount = 0; icount >= 0; icount++)
 ## Using for...in Loops  
  [!INCLUDE[javascript](../javascript/includes/javascript-md.md)] provides a special kind of loop for stepping through all the user-defined properties of an [object](../javascript/objects-and-arrays-javascript.md), or all the elements of an array. The loop counter in a `for...in` loop is a string, not a number. It contains the name of current property or the index of the current array element.  
   
-```javascript  
+```JavaScript  
 // Create an object with some properties  
 var myObject = new Object();  
 myObject.name = "James";  
@@ -181,7 +182,7 @@ for (var prop in myObject)
 ## Using while Loops  
  A `while` loop is similar to a **for** loop. The difference is, a `while` loop does not have a built-in counter variable or update expression. If you want to control repetitive execution of a statement or block of statements, but need a more complex rule than simply "run this code n times", use a `while` loop. The following example uses the Internet Explorer object model and a `while` loop to ask the user a simple question.  
   
-```javascript  
+```JavaScript  
 var x = 0;  
 while ((x != 5) && (x != null))  
 {  
@@ -199,7 +200,7 @@ else
   
  As noted above, there is also a **do...while** loop in [!INCLUDE[javascript](../javascript/includes/javascript-md.md)] that is similar to the while loop, except that it is guaranteed to always execute at least once, since the condition is tested at the end of the loop, rather than at the start. For example, the loop above can be re-written as:  
   
-```javascript  
+```JavaScript  
 var x = 0;  
 do  
 {  
@@ -217,7 +218,7 @@ else
   
  The following example builds on the previous example to use the **break** and **continue** statements to control the loop.  
   
-```javascript  
+```JavaScript  
 var x = 0;  
 do  
 {  

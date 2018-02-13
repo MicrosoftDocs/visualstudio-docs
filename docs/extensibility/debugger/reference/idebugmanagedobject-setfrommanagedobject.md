@@ -14,35 +14,24 @@ helpviewer_keywords:
   - "IDebugManagedObject::SetFromManagedObject method"
 ms.assetid: 8700ee8d-2704-4580-bccc-046837a24edd
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugManagedObject::SetFromManagedObject
 Sets the value of the instance of the value class object from the instance of the value class provided as a parameter.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT SetFromManagedObject(   
    IUnknown* pManagedObject  
 );  
 ```  
   
-```c#  
+```csharp  
 int SetFromManagedObject(  
    object pManagedObject  
 );  

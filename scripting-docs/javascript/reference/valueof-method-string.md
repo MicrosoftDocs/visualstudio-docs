@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: dfb55e6b-e38f-4b49-8196-9693f87126a4
 caps.latest.revision: 2
@@ -37,7 +38,7 @@ string.valueOf()
 ## Remarks  
  In the following example, the string object is the same as the return value.  
   
-```javascript  
+```JavaScript  
 var str = "every good boy does fine";  
 var strStr = str.valueOf();  
   

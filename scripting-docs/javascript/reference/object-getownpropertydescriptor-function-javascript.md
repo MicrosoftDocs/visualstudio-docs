@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "getOwnPropertyDescriptor method [JavaScript]"
@@ -47,7 +48,7 @@ Object.getOwnPropertyDescriptor(object, propertyname)
 ## Data Property Example  
  The following example gets a data property descriptor and uses it to make the property read-only.  
   
-```javascript  
+```JavaScript  
 // Create a user-defined object.  
 var obj = {};  
   
@@ -65,7 +66,7 @@ Object.defineProperty(obj, "newDataProperty", descriptor);
   
  To list the property attributes, you can add the following code to this example.  
   
-```javascript  
+```JavaScript  
 // Get the descriptor from the object.  
 var desc2 = Object.getOwnPropertyDescriptor(obj, "newDataProperty");  
   

@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: bf45ebad-4678-4062-88df-55d32b603c69
 caps.latest.revision: 7
@@ -54,7 +55,7 @@ class classname () [extends object] {    [constructor([arg1 [,... [,argN]]]) {  
   
 ## Example  
   
-```javascript  
+```JavaScript  
 class Spelunking extends EXPERIENCE.Outdoor {  
   constructor(name, location) {  
     super(name, location);  
@@ -75,7 +76,7 @@ class Spelunking extends EXPERIENCE.Outdoor {
 ## Example  
  You can also create computed property names for classes. The following code example creates a computed property name using `set` syntax.  
   
-```javascript  
+```JavaScript  
 var propName = "prop_42";  
   
 class Spelunking {  
@@ -98,7 +99,7 @@ console.log(s.value);
 ## Example  
  The following code example creates a property name for a class dynamically using `get` syntax.  
   
-```javascript  
+```JavaScript  
 var propName = "prop_42";  
   
 class Spelunking {  

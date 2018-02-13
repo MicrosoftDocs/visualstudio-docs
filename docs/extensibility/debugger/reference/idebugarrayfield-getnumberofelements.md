@@ -14,35 +14,24 @@ helpviewer_keywords:
   - "IDebugArrayField::GetNumberOfElements method"
 ms.assetid: a1961ef3-d69d-4022-b8c9-b9cfb9811345
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugArrayField::GetNumberOfElements
 Gets the number of elements in the array.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetNumberOfElements(   
    DWORD* pdwNumElements  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetNumberOfElements(  
    out uint pdwNumElements  
 );  

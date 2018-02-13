@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "operator precedence"
@@ -49,7 +50,7 @@ Operator precedence describes the order in which operations are performed when a
   
  For example:  
   
-```javascript  
+```JavaScript  
 var result = 78 * 96 + 3;  
 document.write(result);  
 document.write("<br/>");  
@@ -68,7 +69,7 @@ document.write(result);
   
  The following example shows a statement that includes a variety of operators and resolves to `true`.  
   
-```javascript  
+```JavaScript  
 var num = 10;  
   
 if(5 == num / 2 && (2 + 2 * num).toString() === "22") {  

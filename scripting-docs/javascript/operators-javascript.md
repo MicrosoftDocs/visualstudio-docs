@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "JavaScript, operators"
@@ -91,7 +92,7 @@ manager: "ghogen"
   
  For example:  
   
-```javascript  
+```JavaScript  
 // Two strings with the same value.  
 var string1 = "Hello";  
 var string2 = "Hello";  

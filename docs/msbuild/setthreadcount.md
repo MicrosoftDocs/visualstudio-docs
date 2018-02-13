@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: msbuild
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 apiname: 
@@ -17,23 +16,11 @@ helpviewer_keywords:
   - "SetThreadCount"
 ms.assetid: 335335a5-8ca0-4e18-95f5-62aa6a691386
 caps.latest.revision: 4
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: Mikejo5000
+ms.author: mikejo
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # SetThreadCount
 Sets the global thread count, and assigns that count to the current thread.  
@@ -49,7 +36,7 @@ HRESULT WINAPI SetThreadCount(int threadCount);
  The number of threads to use.  
   
 ## Return Value  
- An [HRESULT](assetId:///HRESULT?qualifyHint=False&autoUpgrade=True) with the [SUCCEEDED](assetId:///SUCCEEDED?qualifyHint=False&autoUpgrade=True) bit set if the thread count was updated.  
+ An **HRESULT** with the **SUCCEEDED** bit set if the thread count was updated.  
   
 ## Requirements  
  **Header:** FileTracker.h

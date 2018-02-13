@@ -13,22 +13,11 @@ helpviewer_keywords:
   - "project items, adding properties"
 ms.assetid: d7a0f2b0-d427-4d49-9536-54edfb37c0f3
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Persisting the Property of a Project Item
 You may want to persist a property you add to a project item, such as the author of a source file. You can do this by storing the property in the project file.  
@@ -41,7 +30,7 @@ You may want to persist a property you add to a project item, such as the author
   
 1.  Add the following code to your VSPackage:  
   
-    ```c#  
+    ```csharp  
     EnvDTE.DTE dte = (EnvDTE.DTE)Package.GetGlobalService(typeof(EnvDTE.DTE));  
     EnvDTE.Project project = dte.Solution.Projects.Item(1);  
   
@@ -55,7 +44,7 @@ You may want to persist a property you add to a project item, such as the author
   
 1.  Add the following code to the code given in the method in the previous procedure:  
   
-    ```c#  
+    ```csharp  
     IVsBuildPropertyStorage buildPropertyStorage =   
         hierarchy as IVsBuildPropertyStorage;  
     if (buildPropertyStorage != null)  
@@ -72,7 +61,7 @@ You may want to persist a property you add to a project item, such as the author
   
 1.  Add the following code to your VSPackage:  
   
-    ```c#  
+    ```csharp  
     IVsHierarchy hierarchy = null;  
     IntPtr hierarchyPtr = IntPtr.Zero;  
     IntPtr selectionContainer = IntPtr.Zero;  

@@ -7,19 +7,16 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.breakpt.choose"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
   - "JScript"
   - "SQL"
-  - "VB"
-  - "CSharp"
-  - "C++"
 helpviewer_keywords: 
   - "breakpoints, ambiguous"
   - "breakpoints, Choose Breakpoints dialog box"
@@ -28,21 +25,9 @@ ms.assetid: 35cbd591-4c4f-4035-8731-8162ba1c8318
 caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Choose Breakpoints Dialog Box
 The **Choose Breakpoints** dialog box opens when you try to set a breakpoint from ambiguous input in the **New Breakpoint** dialog box. A common example of ambiguous input is an overloaded function name.  

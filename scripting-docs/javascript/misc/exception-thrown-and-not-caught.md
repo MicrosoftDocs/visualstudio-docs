@@ -13,6 +13,7 @@ f1_keywords:
   - "VS.WebClient.Help.SCRIPT5022"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: b5235490-a8e7-42e3-804e-d85235bc6f05
 caps.latest.revision: 6

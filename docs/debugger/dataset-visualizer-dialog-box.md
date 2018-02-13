@@ -11,15 +11,12 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.dataviewer"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
   - "JScript"
   - "SQL"
-  - "VB"
-  - "CSharp"
-  - "C++"
 helpviewer_keywords: 
   - "datasets [Visual Studio], Dataset Visualizer dialog box"
   - "visualizers, Dataset Visualizer dialog box"
@@ -28,21 +25,9 @@ ms.assetid: dfbede03-805b-4f88-a645-b479450e6cb0
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Dataset Visualizer Dialog Box
 The DataSet Visualizer allows you to view the contents of a DataSet, DataTable, DataView, or DataViewManager object. You can access this visualizer by clicking on the magnifying glass icon that appears next to the Value for one of those objects in a debugger variables window or in a DataTip.  

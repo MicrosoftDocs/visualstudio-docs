@@ -14,22 +14,11 @@ helpviewer_keywords:
   - "IDebugObject2 interface"
 ms.assetid: ef640967-8adb-4793-994d-ae1736510891
 caps.latest.revision: 15
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugObject2
 > [!IMPORTANT]
@@ -47,7 +36,7 @@ IDebugObject2 : IDebugObject
  The expression evaluator implements this interface to offer support for aliases and access to information about the object.  
   
 ## Notes for Callers  
- An [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) interface can obtain this interface by using [QueryInterface](/visual-cpp/atl/queryinterface). Also, [GetObject](../../../extensibility/debugger/reference/idebugalias-getobject.md) returns this interface.  
+ An [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) interface can obtain this interface by using [QueryInterface](/cpp/atl/queryinterface). Also, [GetObject](../../../extensibility/debugger/reference/idebugalias-getobject.md) returns this interface.  
   
 ## Methods in Vtable order  
  In addition to the methods on the [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) interface, the `IDebugObject2` interface implements the following:  

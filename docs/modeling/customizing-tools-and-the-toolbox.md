@@ -4,7 +4,6 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.dsltools.dsldesigner.selectiondialog"
@@ -12,11 +11,12 @@ f1_keywords:
   - "vs.dsltools.dsldesigner.selectcursordialog"
 helpviewer_keywords: 
   - "Domain-Specific Language, toolbox"
-ms.assetid: 2a0d03d7-ebc6-4458-b9f4-d2cb8418a62d
-caps.latest.revision: 26
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Customizing Tools and the Toolbox
 You must define toolbox items for the elements that you want to let users add to their models. There are two kinds of tools: element tools and connection tools. In the generated designer, a user can select an element tool to drag shapes to the diagram, and can select a connection tool to draw links between the shapes. In general, element tools let users add instances of domain classes to their models, and connection tools let them add instances of domain relationships.  
@@ -228,19 +228,19 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
     {  
       return sourceInPort.Component == targetInPort.Component.Parent;  
     }  
-// And similar for OutPorts…  
+// And similar for OutPorts...  
 ```  
   
  For more information about customizing the model by using program code, see [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md).  
   
- You can use similar code, for example, to prevent users from creating loops with parent-child links. These restrictions are considered ‘hard’ constraints because users cannot violate them at any time. You can also create ‘soft’ validation checks that users can bypass temporarily by creating invalid configurations that they cannot save.  
+ You can use similar code, for example, to prevent users from creating loops with parent-child links. These restrictions are considered 'hard' constraints because users cannot violate them at any time. You can also create 'soft' validation checks that users can bypass temporarily by creating invalid configurations that they cannot save.  
   
 ### Good Practice in Defining Connection Builders  
  You should define one connection builder to create different types of relationships only if they are conceptually related. In the task flow sample, you use the same builder to create flows between tasks and also between tasks and objects. However, it would be confusing to use the same builder to create relationships between comments and tasks.  
   
  If you define a connection builder for multiple types of relationships, you should ensure that it cannot match more than one type from the same pair of source and target objects. Otherwise, the results will be unpredictable.  
   
- You use custom code to apply ‘hard’ constraints, but you should consider whether users should be able to temporarily make invalid connections. If they should, you can modify the constraints so that connections are not validated until users try to save changes.  
+ You use custom code to apply 'hard' constraints, but you should consider whether users should be able to temporarily make invalid connections. If they should, you can modify the constraints so that connections are not validated until users try to save changes.  
   
 ## See Also  
  [Customizing Element Creation and Movement](../modeling/customizing-element-creation-and-movement.md)   

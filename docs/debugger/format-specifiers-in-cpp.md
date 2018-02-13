@@ -1,5 +1,5 @@
 ---
-title: "Format Specifiers in C++ | Microsoft Docs"
+title: "Format specifiers in the debugger (C++) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -11,9 +11,9 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "QuickWatch dialog box, format specifiers in C++"
@@ -31,30 +31,17 @@ ms.assetid: 0f6f3b7c-ce2c-4b4d-b14f-7589dbed5444
 caps.latest.revision: 40
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "cplusplus"
 ---
-# Format Specifiers in C++
+# Format specifiers in C++ in the Visual Studio debugger
 You can change the format in which a value is displayed in the **Watch** window using format specifiers.  
   
  You can also use format specifiers in the **Immediate** window, the **Command** window, and even in source windows. If you pause on an expression in those windows, the result will appear in a DataTip. The DataTip display reflects the format specifier.  
   
 > [!NOTE]
->  The Visual Studio native debugger changed to a new debugging engine. As part of this change, some new format specifiers were added and some old ones were removed. The  older debugger is still used when you do interop (mixed native and managed) debugging with C++/CLI. The following sections in this topic show the format specifiers for each debug engine.  
+>  When the Visual Studio native debugger changed to a new debugging engine, some new format specifiers were added and some old ones were removed. The  older debugger is still used when you do interop (mixed native and managed) debugging with C++/CLI. The following sections in this topic show the format specifiers for each debug engine.
 >   
 >  -   [Format Specifiers](#BKMK_Visual_Studio_2012_format_specifiers) describes the format specifiers in the new debugging engine.  
 > -   [Format specifiers for interop debugging with C++/CLI](#BKMK_Format_specifiers_for_interop_debugging_and_C___edit_and_continue) describes the format specifiers in the older debugging engine.  
@@ -70,7 +57,7 @@ int main() {
 }  
 ```  
   
- Add the `my_var1` variable to the **Watch** window (while debugging, **Debug / Windows / Watch / Watch 1**) and set the display to hexadecimal (in the **Watch** window, right-click the variable and select **Hexadecimal Display**). Now the Watch window shows that it contains the value 0x0065. To see this value expressed as a character instead of an integer, in the Name column, after the variable name, add the character format specifier **, c**. The **Value** column now appears with **101 'e'**.  
+ Add the `my_var1` variable to the **Watch** window (while debugging, **Debug > Windows > Watch > Watch 1**) and set the display to hexadecimal (in the **Watch** window, right-click the variable and select **Hexadecimal Display**). Now the Watch window shows that it contains the value 0x0065. To see this value expressed as a character instead of an integer, in the Name column, after the variable name, add the character format specifier **, c**. The **Value** column now appears with **101 'e'**.  
   
  ![WatchFormatCPlus1](../debugger/media/watchformatcplus1.png "WatchFormatCPlus1")  
   
@@ -84,18 +71,19 @@ int main() {
 |x<br /><br /> **h**|hexadecimal integer|102|0xcccccccc|  
 |X<br /><br /> **H**|hexadecimal integer|102|0xCCCCCCCC|  
 |c|single character|0x0065, c|101 'e'|  
-|s|const char* string|\<location> “hello world”|"hello world"|  
-|**sb**|const char* string|\<location> “hello world”|hello world|  
-|s8|const char* string|\<location> “hello world”|"hello world"|  
-|**s8b**|const char* string|\<location> “hello world”|"hello world"|  
-|su|const wchar_t*  const<br /><br /> char16_t\* string|\<location> L”hello world”|L"hello world"<br /><br /> u"hello world"|  
-|sub|const wchar_t*  const<br /><br /> char16_t\* string|\<location> L”hello world”|hello world|  
-|bstr|BSTR string|\<location> L”hello world”|L”hello world”|  
-|**s32**|UTF-32 string|\<location> U”hello world”|U”hello world”|  
-|**s32b**|UTF-32 string (no quotation marks)|\<location> U”hello world”|hello world|  
+|s|const char* string|\<location> "hello world"|"hello world"|  
+|**sb**|const char* string (no quotation marks)|\<location> "hello world"|hello world|  
+|s8|UTF-8 string|\<location> "This is a UTF-8 coffee cup â˜•"|"This is a UTF-8 coffee cup ☕"|
+|**s8b**|UTF-8 string (no quotation marks)|\<location> "hello world"|hello world|  
+|su|Unicode (UTF-16 encoding) string|\<location> L"hello world"|L"hello world"<br /><br /> u"hello world"|  
+|sub|Unicode (UTF-16 encoding) string (no quotation marks)|\<location> L"hello world"|hello world|  
+|bstr|BSTR string|\<location> L"hello world"|L"hello world"|  
+|env|Environment block (double-null terminated string)|\<location> L"=::=::\\\\"|L"=::=::\\\\\\0=C:=C:\\\\windows\\\\system32\\0ALLUSERSPROFILE=...|
+|**s32**|UTF-32 string|\<location> U"hello world"|U"hello world"|  
+|**s32b**|UTF-32 string (no quotation marks)|\<location> U"hello world"|hello world|  
 |**en**|enum|Saturday(6)|Saturday|  
-|**hv**|Pointer type - indicates that the pointer value being inspected is the result of the heap allocation of an array, for example, `new int[3]`.|\<location>{\<first member>}|\<location>{\<first member>, \<second member>, …}|  
-|**na**|Suppresses the memory address of a pointer to an object.|\<location>, {member=value…}|{member=value…}|  
+|**hv**|Pointer type - indicates that the pointer value being inspected is the result of the heap allocation of an array, for example, `new int[3]`.|\<location>{\<first member>}|\<location>{\<first member>, \<second member>, ...}|  
+|**na**|Suppresses the memory address of a pointer to an object.|\<location>, {member=value...}|{member=value...}|  
 |**nd**|Displays only the base class information, ignoring derived classes|`(Shape*) square` includes base class and derived class information|Displays only base class information|  
 |hr|HRESULT or Win32 error code. (The debugger now decodes HRESULTs automatically, so this specifier is not required in those cases.|S_OK|S_OK|  
 |wc|Window class flag|0x0010|WC_DEFAULTCHAR|  
@@ -108,7 +96,7 @@ int main() {
 ###  <a name="BKMK_Size_specifiers_for_pointers_as_arrays_in_Visual_Studio_2012"></a> Size specifiers for pointers as arrays  
  If you have a pointer to an object you want to view as an array, you can use an integer or an expression to specify the number of array elements:  
   
-|Specifier|Format|Original Watch Valuen|Value Displayed|  
+|Specifier|Format|Original Watch Value|Value Displayed|  
 |---------------|------------|---------------------------|---------------------|  
 |n|Decimal or **hexadecimal** integer|pBuffer,[32]<br /><br /> pBuffer,**[0x20]**|Displays `pBuffer` as a 32 element array.|  
 |**[exp]**|A valid C++ expression that evaluates to an integer.|pBuffer,[bufferSize]|Displays pBuffer as an array of `bufferSize` elements.|  
@@ -126,7 +114,7 @@ int main() {
 |**l,h**|long or short prefix for: d, i, u, o, x, X|00406042|0x0c22|  
 |**f**|signed floating point|(3./2.), f|1.500000|  
 |**e**|signed scientific notation|(3.0/2.0)|1.500000e+000|  
-|**g**g|signed floating point or signed scientific notation, whichever is shorter|(3.0/2.0)|1.5|  
+|**g**|signed floating point or signed scientific notation, whichever is shorter|(3.0/2.0)|1.5|  
 |c|single character|\<location>|101 'e'|  
 |s|const char*|\<location>|"hello world"|  
 |su|const wchar_t*<br /><br /> const char16_t\*|\<location>|L"hello world"|  
@@ -150,7 +138,7 @@ int main() {
 |**mq**|2 quadwords|0x0012ffac|0x0012ffac 7ffdf00000000000 5f441a790012fdd4|  
 |**mu**|2-byte characters (Unicode)|0x0012ffac|0x0012ffac 8478 77f4 ffff ffff 0000 0000 0000 0000|  
   
-###  <a name="BKMK_Size_specifier_for_pointers_as_arrays_in_interop_debugging_and_C___edit_and_continue"></a> Size specifier for pointers as arrays in interop debugging with C++/CLIt  
+###  <a name="BKMK_Size_specifier_for_pointers_as_arrays_in_interop_debugging_and_C___edit_and_continue"></a> Size specifier for pointers as arrays in interop debugging with C++/CLI  
  If you have a pointer to an object you want to view as an array, you can use an integer to specify the number of array elements:  
   
 |Specifier|Format|Expression|Value Displayed|  

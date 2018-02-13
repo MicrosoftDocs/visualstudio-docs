@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: a075d5a6-e502-4636-85fc-1af001b8ac35
 caps.latest.revision: 3
@@ -23,7 +24,7 @@ Returns a reference to the prototype for a set.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 set.prototype  
 ```  
   

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Trin_VstcoreProgrammingWordVB">
+</Property><Property Name="Solution File" Value="C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingWord\VB\Trin_VstcoreProgrammingWordVB.sln">
+</Property><Property Name="User Options File" Value="C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingWord\VB\Trin_VstcoreProgrammingWordVB.v11.suo">
+</Property><Property Name="Date" Value="Tuesday, November 08, 2011">
+</Property><Property Name="Time" Value="14:54 PM">
+</Property></Properties><Event ErrorLevel="3" Project="" Source="Trin_VstcoreProgrammingWordVB.sln" Description="SafeUpgrade">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_VstcoreProgrammingWordVB.sln" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingWord\VB\Backup\Trin_VstcoreProgrammingWordVB.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_VstcoreProgrammingWordVB.v11.suo" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingWord\VB\Backup\Trin_VstcoreProgrammingWordVB.v11.suo">
+</Event><Event ErrorLevel="3" Project="Trin_VstcoreProgrammingWordVB" Source="Trin_VstcoreProgrammingWordVB.vbproj" Description="SafeRepair">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreProgrammingWordVB" Source="Trin_VstcoreProgrammingWordVB.vbproj" Description="Project file successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingWord\VB\Backup\Trin_VstcoreProgrammingWordVB.vbproj">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreProgrammingWordVB" Source="Trin_VstcoreProgrammingWordVB.vbproj.user" Description="Project user file successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingWord\VB\Backup\Trin_VstcoreProgrammingWordVB.vbproj.user">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreProgrammingWordVB" Source="ThisDocument.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingWord\VB\Backup\ThisDocument.vb">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreProgrammingWordVB" Source="ThisDocument.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingWord\VB\Backup\ThisDocument.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreProgrammingWordVB" Source="My Project\AssemblyInfo.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingWord\VB\Backup\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreProgrammingWordVB" Source="My Project\Resources.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingWord\VB\Backup\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreProgrammingWordVB" Source="My Project\Settings.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingWord\VB\Backup\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreProgrammingWordVB" Source="DocumentVB.docx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingWord\VB\Backup\DocumentVB.docx">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreProgrammingWordVB" Source="ThisDocument.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingWord\VB\Backup\ThisDocument.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreProgrammingWordVB" Source="My Project\Settings.settings" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingWord\VB\Backup\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreProgrammingWordVB" Source="Trin_VstcoreProgrammingWordVB_TemporaryKey.pfx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingWord\VB\Backup\Trin_VstcoreProgrammingWordVB_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreProgrammingWordVB" Source="My Project\Resources.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingWord\VB\Backup\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreProgrammingWordVB" Source="Trin_VstcoreProgrammingWordVB.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Trin_VstcoreProgrammingWordVB" Source="Trin_VstcoreProgrammingWordVB.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_VstcoreProgrammingWordVB.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Trin_VstcoreProgrammingWordVB.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreProgrammingWordVB" Source="Trin_VstcoreProgrammingWordVB.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

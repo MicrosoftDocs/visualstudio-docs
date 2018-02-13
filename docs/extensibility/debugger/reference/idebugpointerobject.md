@@ -14,22 +14,11 @@ helpviewer_keywords:
   - "IDebugPointerObject interface"
 ms.assetid: 257fa167-b46e-4ffb-9a12-272efbf26702
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugPointerObject
 > [!IMPORTANT]
@@ -47,7 +36,7 @@ IDebugPointerObject : IDebugObject
  The expression evaluator implements this interface to represent a pointer object.  
   
 ## Notes for Callers  
- The [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) interface can obtain this interface by using [QueryInterface](/visual-cpp/atl/queryinterface) if the `IDebugObject` represents a pointer.  
+ The [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) interface can obtain this interface by using [QueryInterface](/cpp/atl/queryinterface) if the `IDebugObject` represents a pointer.  
   
 ## Methods in Vtable Order  
  In addition to the methods inherited from [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md), the `IDebugPointerObject` interface exposes the following methods.  

@@ -1,0 +1,3 @@
+﻿<hostctls:hostControls hostctls:namespace="Trin_VstcoreProgrammingControlsExcelCS" hostctls:factoryType="Trin_VstcoreProgrammingControlsExcelCS" xmlns:hostctls="http://schemas.microsoft.com/2004/VisualStudio/Tools/Applications/HostControls.xsd">
+  <hostctls:windowsFormsHostControl hostctls:name="Trin_VstcoreProgrammingControlsExcelCS_ChartOptions" hostctls:primaryType="Trin_VstcoreProgrammingControlsExcelCS.ChartOptions" hostctls:extenderType="Microsoft.Office.Tools.Excel.ControlSite" />
+</hostctls:hostControls>

@@ -13,6 +13,7 @@ f1_keywords:
   - "setHours"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "hours"
@@ -60,7 +61,7 @@ dateObj.setHours(numHours[, numMin[, numSec[, numMilli]]])
 ## Example  
  The following example illustrates the use of the `setHours` method.  
   
-```javascript  
+```JavaScript  
 function SetHoursDemo(nhr, nmin, nsec){  
    var d, s;                     //Declare variables.  
    d = new Date();               //Create Date object.  

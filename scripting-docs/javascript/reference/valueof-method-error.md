@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: ca25c57d-c9ad-445b-8235-561390de680c
 caps.latest.revision: 2
@@ -37,7 +38,7 @@ error.valueOf()
 ## Example  
  The following example illustrates the use of the `valueOF` method with a date.  
   
-```javascript  
+```JavaScript  
 var myError = new Error();  
 myError.message = "This is an error.";  
 var value = myError.valueOf();  

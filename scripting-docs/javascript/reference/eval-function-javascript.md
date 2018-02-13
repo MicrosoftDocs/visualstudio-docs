@@ -13,6 +13,7 @@ f1_keywords:
   - "eval"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "eval function"
@@ -49,7 +50,7 @@ eval(codeString)
 ## Example  
  The following code initializes the variable `myDate` to a test date.  
   
-```javascript  
+```JavaScript  
 var dateFn = "Date(1971,3,8)";  
 var myDate;  
 eval("myDate = new " + dateFn + ";");  

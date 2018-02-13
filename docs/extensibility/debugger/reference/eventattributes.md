@@ -14,29 +14,18 @@ helpviewer_keywords:
   - "EVENTATTRIBUTES enumeration"
 ms.assetid: 04db10f7-df31-4464-98e8-b3777428179e
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # EVENTATTRIBUTES
 Specifies the event attributes.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_EVENTATTRIBUTES {   
    EVENT_ASYNCHRONOUS          = 0x0000,  
    EVENT_SYNCHRONOUS           = 0x0001,  
@@ -49,7 +38,7 @@ enum enum_EVENTATTRIBUTES { 
 typedef DWORD EVENTATTRIBUTES;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_EVENTATTRIBUTES {   
    EVENT_ASYNCHRONOUS          = 0x0000,  
    EVENT_SYNCHRONOUS           = 0x0001,  

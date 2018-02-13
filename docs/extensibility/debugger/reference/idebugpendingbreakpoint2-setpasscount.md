@@ -15,35 +15,24 @@ helpviewer_keywords:
   - "IDebugPendingBreakpoint2::SetPassCount method"
 ms.assetid: 08ddd328-57eb-42e0-baa9-8424dcd1bf04
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugPendingBreakpoint2::SetPassCount
 Sets or changes the pass count associated with the pending breakpoint.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT SetPassCount(   
    BP_PASSCOUNT bpPassCount  
 );  
 ```  
   
-```c#  
+```csharp  
 int SetPassCount(   
    BP_PASSCOUNT bpPassCount  
 );  

@@ -13,6 +13,7 @@ f1_keywords:
   - "getHours"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "Date object"
@@ -46,7 +47,7 @@ dateObj.getHours()
 ## Example  
  The following example shows how to use the `getHours` method.  
   
-```javascript  
+```JavaScript  
 var date = new Date("1/1/2001");  
 document.write(date.getHours());  
 document.write("<br/>");  

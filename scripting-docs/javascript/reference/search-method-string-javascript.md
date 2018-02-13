@@ -13,6 +13,7 @@ f1_keywords:
   - "search"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "search method"
@@ -48,7 +49,7 @@ stringObj.search(rgExp)
 ## Example  
  The following example illustrates the use of the **search** method.  
   
-```javascript  
+```JavaScript  
 var src = "is but a Dream within a dream";  
 var re = /dream/;  
 var pos = src.search(re);  

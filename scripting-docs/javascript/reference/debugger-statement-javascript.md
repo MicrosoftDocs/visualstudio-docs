@@ -13,6 +13,7 @@ f1_keywords:
   - "debugger_JavaScriptKeyword"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "debugger statement"
@@ -47,7 +48,7 @@ debugger
 >   
 >  Internet Explorer 8 includes the [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] debugger. If you are using an earlier version of Internet Explorer, see [How to: Enable and Start Script Debugging from Internet Explorer](http://go.microsoft.com/fwlink/?LinkId=133801).  
   
-```javascript  
+```JavaScript  
 for(i = 1; i<5; i++) {  
    // Print i to the Output window.  
    Debug.write("loop index is " + i);  

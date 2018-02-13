@@ -8,34 +8,17 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.datasource.datasourcefieldspicker"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "aspx"
 helpviewer_keywords: 
   - "data [Visual Studio], data sources"
   - "data sources"
 ms.assetid: ed28c625-bb89-4037-bfde-cfa435d182a2
 caps.latest.revision: 56
-author: "mikeblome"
-ms.author: "mblome"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.technology: "vs-data-tools"
+ms.workload: 
+  - "data-storage"
 ---
 # Add new data sources
 In the context of .NET data tools in Visual Studio, the term *data source* refers to .NET objects that connect to a data store and expose the data to a .NET application. The Visual Studio designers can consume the output of the data source to generate the boilerplate code that binds the data to forms when you drag and drop database objects from the **Data Sources** window. This kind of data source can be:  
@@ -64,7 +47,7 @@ In the context of .NET data tools in Visual Studio, the term *data source* refer
 ## Data source for a database or a database file  
   
 ### Dataset  
- To create a dataset as a data source, run the **Data Source Configuration Wizard** (**Project** > **Add New Data** Source) and choose the **Database** data-source type. Follow the prompts to specify a new or existing database connection, or a database file.  
+ To create a dataset as a data source, run the **Data Source Configuration Wizard** (**Project** > **Add New Data Source**) and choose the **Database** data-source type. Follow the prompts to specify a new or existing database connection, or a database file.  
   
 ### Entity classes  
  To create an Entity Framework model as a data source, first run the **Entity Data Model Wizard** to create the entity classes (**Project** > **Add New Item** > **ADO.NET Entity Data Model**).  
@@ -86,9 +69,9 @@ In the context of .NET data tools in Visual Studio, the term *data source* refer
   
  You can create a data source from the following types of services:  
   
--   WCF Data Services. For more information, see [Overview](http://msdn.microsoft.com/Library/7924cf94-c9a6-4015-afc9-f5d22b1743bb).  
+-   WCF Data Services. For more information, see [Overview](/dotnet/framework/data/wcf/wcf-data-services-overview).  
   
--   WCF data services. For more information, see [Windows Communication Foundation Services and WCF Data Services in Visual Studio](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md).  
+-   WCF services. For more information, see [Windows Communication Foundation Services and WCF Data Services in Visual Studio](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md).  
   
 -   Web services.  
   

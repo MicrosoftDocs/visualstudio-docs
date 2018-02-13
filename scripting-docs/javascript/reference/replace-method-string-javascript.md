@@ -13,6 +13,7 @@ f1_keywords:
   - "replace"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "replacing strings"
@@ -30,7 +31,7 @@ Replaces text in a string, using a regular expression or search string.
   
 ```  
   
-stringObj. replace(rgExp, replaceText)  
+stringObj.replace(rgExp, replaceText)  
 ```  
   
 ## Parameters  
@@ -65,7 +66,7 @@ stringObj. replace(rgExp, replaceText)
 ## Example  
  The following example illustrates the use of the **replace** method to replace all instances of "the" with "a."  
   
-```javascript  
+```JavaScript  
 var s = "the batter hit the ball with the bat";  
   
 // Replace "the" with "a".  
@@ -77,7 +78,7 @@ document.write(result);
   
  In addition, the **replace** method can also replace subexpressions in the pattern. The following example exchanges each pair of words in the string.  
   
-```javascript  
+```JavaScript  
   
 var s = "The quick brown fox jumped over the lazy dog.";  
 var re = /(\S+)(\s+)(\S+)/g;  
@@ -85,12 +86,12 @@ var re = /(\S+)(\s+)(\S+)/g;
 var result = s.replace(re, "$3$2$1");  
 document.write(result);  
   
-// Output:  quick The fox brown over jumps lazy the dog.  
+// Output:  quick The fox brown over jumped lazy the dog.  
 ```  
   
  The following example, which works in [!INCLUDE[jsv55textspecific](../../javascript/reference/includes/jsv55textspecific-md.md)] and later, shows how to use a function that returns the replacement text. It replaces any instance of a number followed by "F" with a Celsius conversion.  
   
-```javascript  
+```JavaScript  
 function f2c(s1) {  
     // Initialize pattern.  
     var test = /(\d+(\.\d*)?)F\b/g;  

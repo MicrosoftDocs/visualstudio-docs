@@ -10,24 +10,11 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 19c95b0d-9a4d-441f-9ed7-3acb39e67521
 caps.latest.revision: 5
-author: "BrianPeek"
-ms.author: "brpeek"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # VSG_NODEFAULT_INSTANCE
 Defines by its presence whether a default instance of the [VsgDbg Class](vsgdbg-class.md) class—which provides the programmatic capture interface—is supplied.  

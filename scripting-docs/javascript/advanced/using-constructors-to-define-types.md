@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "creating objects, constructor functions"
@@ -29,7 +30,7 @@ A constructor is a function that instantiates a particular type of [Object](../.
   
 ## Constructor Examples  
   
-```javascript  
+```JavaScript  
 // Creates a generic object.  
 var myObject = new Object();  
 // Creates a Date object.  
@@ -43,7 +44,7 @@ var myCar = new Car();
 ## Writing Constructors  
  You can create objects using the **new** operator in conjunction with predefined constructor functions such as **Object()**, **Date()**, and **Function()**. You can also create custom constructor functions that define a set of properties and methods. Here is an example of a custom constructor.  
   
-```javascript  
+```JavaScript  
 function Circle (xPoint, yPoint, radius) {  
     this.x = xPoint;  // The x component of the center of the circle.  
     this.y = yPoint;  // The y component of the center of the circle.  
@@ -53,7 +54,7 @@ function Circle (xPoint, yPoint, radius) {
   
  When you invoke the Circle constructor, you supply values for the circle's center point and the radius. You end up with a Circle object that contains three properties. Here is how you would instantiate a Circle object.  
   
-```javascript  
+```JavaScript  
 var aCircle = new Circle(5, 11, 99);  
 ```  
   

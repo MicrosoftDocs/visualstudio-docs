@@ -10,23 +10,11 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 282e9bbb-51aa-4cd0-8e5c-0901268c29e5
 caps.latest.revision: 6
-author: "BrianPeek"
-ms.author: "brpeek"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Half/Quarter Texture Dimensions Variant
 Reduces the texture dimensions on textures that are not render targets.  

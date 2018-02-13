@@ -13,6 +13,7 @@ f1_keywords:
   - "in_JavaScriptKeyword"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "in operator"
@@ -48,7 +49,7 @@ result = property in object
 ## Example  
  The following example shows how to use the `in` operator:  
   
-```javascript  
+```JavaScript  
 // Create an object that has some properties.  
 var myObject = new Object();  
 myObject.name = "James";  

@@ -13,6 +13,7 @@ f1_keywords:
   - "|"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "bitwise operators, OR operator"
@@ -47,7 +48,7 @@ result = expression1 | expression2
 ## Remarks  
  The **&#124;** operator looks at the binary representation of the values of two expressions and does a bitwise OR operation on them. The result of this operation behaves as follows:  
   
-```javascript  
+```JavaScript  
 0101   (expression1)  
 1100   (expression2)  
 ----  

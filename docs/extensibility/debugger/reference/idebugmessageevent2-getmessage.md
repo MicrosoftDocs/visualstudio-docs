@@ -15,29 +15,18 @@ helpviewer_keywords:
   - "IDebugMessageEvent2::GetMessage method"
 ms.assetid: 9fca7285-f7f1-422d-8565-92bf0e0db60a
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugMessageEvent2::GetMessage
 Gets the message to be displayed.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetMessage(   
    MESSAGETYPE* pMessageType,  
    BSTR*        pbstrMessage,  
@@ -47,7 +36,7 @@ HRESULT GetMessage( 
 );  
 ```  
   
-```c#  
+```csharp  
 int GetMessage(   
    out enum_MESSAGETYPE pMessageType,  
    out string           pbstrMessage,  
@@ -65,7 +54,7 @@ int GetMessage( 
  [out] Returns the message.  
   
  `pdwType`  
- [out] Returns the type of the message, using the conventions of the Win32 `MessageBox` function. See the [AfxMessageBox](http://msdn.microsoft.com/Library/d66d0328-cdcc-48f6-96a4-badf089099c8) function for details.  
+ [out] Returns the type of the message, using the conventions of the Win32 `MessageBox` function. See the [AfxMessageBox](/cpp/mfc/reference/cstring-formatting-and-message-box-display#afxmessagebox) function for details.  
   
  `pbstrHelpFileName`  
  [in, out] Returns the help file name. May be a null (C++) or empty (C#) value if there is no help file.  
@@ -79,4 +68,4 @@ int GetMessage( 
 ## See Also  
  [IDebugMessageEvent2](../../../extensibility/debugger/reference/idebugmessageevent2.md)   
  [MESSAGETYPE](../../../extensibility/debugger/reference/messagetype.md)   
- [AfxMessageBox](http://msdn.microsoft.com/Library/d66d0328-cdcc-48f6-96a4-badf089099c8)
+ [AfxMessageBox](/cpp/mfc/reference/cstring-formatting-and-message-box-display#afxmessagebox)

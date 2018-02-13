@@ -18,22 +18,9 @@ ms.assetid: 4bc9dd6e-379c-4930-9bba-59a4faa93303
 caps.latest.revision: 18
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # VSPerfCLREnv
 The VSPerfCLREnv tool is used to set environment variables that are required to profile a .NET Framework application. It uses the following syntax:  

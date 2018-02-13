@@ -1,0 +1,143 @@
+﻿<hostitem:hostItem hostitem:baseType="Microsoft.Office.Tools.Excel.WorksheetBase" hostitem:namespace="ExcelWorkbook1" hostitem:className="Sheet1" hostitem:identifier="Sheet1" hostitem:primaryCookie="Sheet1" hostitem:factoryType="Microsoft.Office.Tools.Excel.Factory" hostitem:startupIndex="1" xmlns:hostitem="http://schemas.microsoft.com/2004/VisualStudio/Tools/Applications/HostItem.xsd">
+  <hostitem:componentsDeclaration />
+  <hostitem:componentsInitialization><![CDATA[<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:CodeStatementCollection id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/System.CodeDom/System%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+<CollectionBase_x002B_list href="#ref-3"/>
+</a1:CodeStatementCollection>
+<a2:ArrayList id="ref-3" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-4"/>
+<_size>3</_size>
+<_version>3</_version>
+</a2:ArrayList>
+<SOAP-ENC:Array id="ref-4" SOAP-ENC:arrayType="xsd:anyType[4]">
+<item href="#ref-5"/>
+<item href="#ref-6"/>
+<item href="#ref-7"/>
+</SOAP-ENC:Array>
+<a1:CodeCommentStatement id="ref-5" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/System.CodeDom/System%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+<comment href="#ref-8"/>
+<CodeStatement_x002B_linePragma xsi:null="1"/>
+<CodeStatement_x002B_startDirectives href="#ref-9"/>
+<CodeStatement_x002B_endDirectives href="#ref-10"/>
+<CodeObject_x002B_userData href="#ref-11"/>
+</a1:CodeCommentStatement>
+<a1:CodeCommentStatement id="ref-6" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/System.CodeDom/System%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+<comment href="#ref-12"/>
+<CodeStatement_x002B_linePragma xsi:null="1"/>
+<CodeStatement_x002B_startDirectives href="#ref-13"/>
+<CodeStatement_x002B_endDirectives href="#ref-14"/>
+<CodeObject_x002B_userData href="#ref-15"/>
+</a1:CodeCommentStatement>
+<a1:CodeCommentStatement id="ref-7" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/System.CodeDom/System%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+<comment href="#ref-16"/>
+<CodeStatement_x002B_linePragma xsi:null="1"/>
+<CodeStatement_x002B_startDirectives href="#ref-17"/>
+<CodeStatement_x002B_endDirectives href="#ref-18"/>
+<CodeObject_x002B_userData href="#ref-19"/>
+</a1:CodeCommentStatement>
+<a1:CodeComment id="ref-8" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/System.CodeDom/System%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+<text id="ref-20"></text>
+<docComment>false</docComment>
+<CodeObject_x002B_userData href="#ref-21"/>
+</a1:CodeComment>
+<a1:CodeDirectiveCollection id="ref-9" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/System.CodeDom/System%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+<CollectionBase_x002B_list href="#ref-22"/>
+</a1:CodeDirectiveCollection>
+<a1:CodeDirectiveCollection id="ref-10" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/System.CodeDom/System%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+<CollectionBase_x002B_list href="#ref-23"/>
+</a1:CodeDirectiveCollection>
+<a4:ListDictionary id="ref-11" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/System.Collections.Specialized/System%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+<head xsi:null="1"/>
+<version>0</version>
+<count>0</count>
+<comparer xsi:null="1"/>
+</a4:ListDictionary>
+<a1:CodeComment id="ref-12" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/System.CodeDom/System%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+<text id="ref-24">Sheet1</text>
+<docComment>false</docComment>
+<CodeObject_x002B_userData href="#ref-25"/>
+</a1:CodeComment>
+<a1:CodeDirectiveCollection id="ref-13" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/System.CodeDom/System%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+<CollectionBase_x002B_list href="#ref-26"/>
+</a1:CodeDirectiveCollection>
+<a1:CodeDirectiveCollection id="ref-14" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/System.CodeDom/System%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+<CollectionBase_x002B_list href="#ref-27"/>
+</a1:CodeDirectiveCollection>
+<a4:ListDictionary id="ref-15" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/System.Collections.Specialized/System%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+<head xsi:null="1"/>
+<version>0</version>
+<count>0</count>
+<comparer xsi:null="1"/>
+</a4:ListDictionary>
+<a1:CodeComment id="ref-16" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/System.CodeDom/System%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+<text href="#ref-20"/>
+<docComment>false</docComment>
+<CodeObject_x002B_userData href="#ref-28"/>
+</a1:CodeComment>
+<a1:CodeDirectiveCollection id="ref-17" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/System.CodeDom/System%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+<CollectionBase_x002B_list href="#ref-29"/>
+</a1:CodeDirectiveCollection>
+<a1:CodeDirectiveCollection id="ref-18" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/System.CodeDom/System%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+<CollectionBase_x002B_list href="#ref-30"/>
+</a1:CodeDirectiveCollection>
+<a4:ListDictionary id="ref-19" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/System.Collections.Specialized/System%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+<head xsi:null="1"/>
+<version>0</version>
+<count>0</count>
+<comparer xsi:null="1"/>
+</a4:ListDictionary>
+<a4:ListDictionary id="ref-21" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/System.Collections.Specialized/System%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+<head xsi:null="1"/>
+<version>0</version>
+<count>0</count>
+<comparer xsi:null="1"/>
+</a4:ListDictionary>
+<a2:ArrayList id="ref-22" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-31"/>
+<_size>0</_size>
+<_version>0</_version>
+</a2:ArrayList>
+<a2:ArrayList id="ref-23" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-31"/>
+<_size>0</_size>
+<_version>0</_version>
+</a2:ArrayList>
+<a4:ListDictionary id="ref-25" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/System.Collections.Specialized/System%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+<head xsi:null="1"/>
+<version>0</version>
+<count>0</count>
+<comparer xsi:null="1"/>
+</a4:ListDictionary>
+<a2:ArrayList id="ref-26" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-31"/>
+<_size>0</_size>
+<_version>0</_version>
+</a2:ArrayList>
+<a2:ArrayList id="ref-27" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-31"/>
+<_size>0</_size>
+<_version>0</_version>
+</a2:ArrayList>
+<a4:ListDictionary id="ref-28" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/System.Collections.Specialized/System%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
+<head xsi:null="1"/>
+<version>0</version>
+<count>0</count>
+<comparer xsi:null="1"/>
+</a4:ListDictionary>
+<a2:ArrayList id="ref-29" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-31"/>
+<_size>0</_size>
+<_version>0</_version>
+</a2:ArrayList>
+<a2:ArrayList id="ref-30" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-31"/>
+<_size>0</_size>
+<_version>0</_version>
+</a2:ArrayList>
+<SOAP-ENC:Array id="ref-31" SOAP-ENC:arrayType="xsd:anyType[0]">
+</SOAP-ENC:Array>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+]]></hostitem:componentsInitialization>
+</hostitem:hostItem>

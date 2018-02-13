@@ -16,22 +16,9 @@ ms.assetid: b68e2e68-6483-4936-bf97-1b0a13cb75e2
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaFrameData::get_addressOffset
 Retrieves the offset part of the code address for the frame.  

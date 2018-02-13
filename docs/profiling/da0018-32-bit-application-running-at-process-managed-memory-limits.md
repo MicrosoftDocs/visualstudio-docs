@@ -16,22 +16,9 @@ ms.assetid: 98eb2d96-f92f-42f9-915c-e5ac2330ffbf
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "dotnet"
 ---
 # DA0018: 32-bit Application running at process managed memory limits
 |||  
@@ -65,15 +52,15 @@ translation.priority.mt:
   
  If excessive managed memory overhead is a problem, consider either of these options:  
   
--   optimizing the application’s usage of managed memory resources  
+-   optimizing the application's usage of managed memory resources  
   
      -or-  
   
 -   taking steps to relieve the architectural constraints on the maximum size of virtual memory for a 32-bit process  
   
- To optimize the application’s usage of managed memory resources, gather managed memory allocation data in a .NET Memory Allocation profiling run. Review the [.NET Memory Data Views](../profiling/dotnet-memory-data-views.md) reports to understand the application’s pattern of memory allocation.  
+ To optimize the application's usage of managed memory resources, gather managed memory allocation data in a .NET Memory Allocation profiling run. Review the [.NET Memory Data Views](../profiling/dotnet-memory-data-views.md) reports to understand the application's pattern of memory allocation.  
   
- Use the [Object Lifetime View](../profiling/object-lifetime-view.md) to determine which of the program’s data objects are surviving into generation and then being reclaimed from there.  
+ Use the [Object Lifetime View](../profiling/object-lifetime-view.md) to determine which of the program's data objects are surviving into generation and then being reclaimed from there.  
   
  Use the [Allocations View](../profiling/dotnet-memory-allocations-view.md) to determine the execution path that resulted in these allocations.  
   

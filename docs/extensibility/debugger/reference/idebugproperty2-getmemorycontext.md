@@ -14,35 +14,24 @@ helpviewer_keywords:
   - "IDebugProperty2::GetMemoryContext"
 ms.assetid: 91793d25-790f-4881-a5c0-d0458e534514
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProperty2::GetMemoryContext
 Gets the memory context of the property value.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetMemoryContext (   
    IDebugMemoryContext2** ppMemory  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetMemoryContext(  
    out IDebugMemoryContext2 ppMemory  
 );  

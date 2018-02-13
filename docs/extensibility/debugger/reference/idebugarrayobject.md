@@ -14,22 +14,11 @@ helpviewer_keywords:
   - "IDebugArrayObject method"
 ms.assetid: a1c8e77e-dee1-4748-a516-6ab032a8f54f
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugArrayObject
 > [!IMPORTANT]
@@ -47,7 +36,7 @@ IDebugArrayObject : IDebugObject
  The expression evaluator implements this interface to represent an array.  
   
 ## Notes for Callers  
- The [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) interface can obtain this interface by using [QueryInterface](/visual-cpp/atl/queryinterface) if the object represents an array.  
+ The [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) interface can obtain this interface by using [QueryInterface](/cpp/atl/queryinterface) if the object represents an array.  
   
 ## Methods in Vtable Order  
  In addition to the methods on the `IDebugObject` interface, the following methods are implemented on the `IDebugArrayObject` interface.  

@@ -13,35 +13,24 @@ helpviewer_keywords:
   - "IsCustomAttributeDefined"
 ms.assetid: c7425db6-4347-4f69-8f88-337ddaa34fa6
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugCustomAttributeQuery::IsCustomAttributeDefined
 Determines if the specified custom attribute is defined.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT IsCustomAttributeDefined(  
    LPCOLESTR pszCustomAttributeName  
 );  
 ```  
   
-```c#  
+```csharp  
 int IsCustomAttributeDefined(  
    string pszCustomAttributeName  
 );  
@@ -57,7 +46,7 @@ int IsCustomAttributeDefined(
 ## Example  
  The following example shows how to implement this method for a **CDebugClassFieldSymbol** object that exposes the [IDebugCustomAttributeQuery](../../../extensibility/debugger/reference/idebugcustomattributequery.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugClassFieldSymbol::IsCustomAttributeDefined(  
     LPCOLESTR pszCustomAttribute  
 )  

@@ -27,23 +27,11 @@ helpviewer_keywords:
   - "user interface, culture setting"
 ms.assetid: b0788993-e62d-4f68-8235-5f87b1d48525
 caps.latest.revision: 11
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.workload: 
+  - "dotnet"
 ---
 # Introduction to International Applications Based on the .NET Framework
 In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], there are two parts to creating a world-ready application: globalization, the process of designing applications that can adapt to different cultures, and localization, the process of translating resources for a specific culture. For general information on designing applications for an international audience, see [Best Practices for Developing World-Ready Applications](http://msdn.microsoft.com/Library/f08169c7-aad8-4ec3-9a21-9ebd3b89986c).  
@@ -56,7 +44,7 @@ In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], there are two part
   
  The project system for both Windows Forms and Web Forms allows you to build resource files using an Assembly Resource File template, access the resources, and build your project. Satellite assemblies will be created along with the main assembly.  
   
- When a localized application executes, its appearance is determined by two culture values. (A *culture* is a set of user preference information related to the user's language, environment, and cultural conventions.) The UI culture setting determines which resources will be loaded. The UI culture is set as `UICulture` in Web.config files and page directives, and <xref:System.Globalization.CultureInfo.CurrentUICulture%2A> in Visual Basic or Visual C# code. The culture setting determines formatting of values such as dates, numbers, currency, and so on. The culture is set as `Culture` in Web.config files and page directives, <xref:System.Globalization.CultureInfo.CurrentCulture%2A> in Visual Basic or Visual C# code.  
+ When a localized application executes, its appearance is determined by two culture values. (A *culture* is a set of user preference information related to the user's language, environment, and cultural conventions.) The UI culture setting determines which resources will be loaded. The UI culture is set as `UICulture` in Web.config files and page directives, and <xref:System.Globalization.CultureInfo.CurrentUICulture%2A> in Visual Basic or C# code. The culture setting determines formatting of values such as dates, numbers, currency, and so on. The culture is set as `Culture` in Web.config files and page directives, <xref:System.Globalization.CultureInfo.CurrentCulture%2A> in Visual Basic or C# code.  
   
 ## See Also  
  <xref:System.Globalization>   

@@ -14,22 +14,11 @@ helpviewer_keywords:
   - "TemplateContent element [Visual Studio project templates]"
 ms.assetid: 90ae401c-b294-49ac-98da-e0d274f5bebb
 caps.latest.revision: 14
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # TemplateContent Element (Visual Studio Templates)
 Specifies the contents of the template.  

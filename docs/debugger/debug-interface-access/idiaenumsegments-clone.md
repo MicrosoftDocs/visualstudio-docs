@@ -16,22 +16,9 @@ ms.assetid: 93deaac6-72ab-4408-ba14-66174a618757
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaEnumSegments::Clone
 Creates an enumerator that contains the same enumeration state as the current enumerator.  

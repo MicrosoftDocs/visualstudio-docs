@@ -14,35 +14,24 @@ helpviewer_keywords:
   - "IDebugProgram2::CauseBreak"
 ms.assetid: 07d353fc-68ab-4297-a18f-3d3c7a80e121
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProgram2::CauseBreak
 Requests that the program stop execution the next time one of its threads attempts to run.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT CauseBreak(   
    void   
 );  
 ```  
   
-```c#  
+```csharp  
 int CauseBreak();  
 ```  
   

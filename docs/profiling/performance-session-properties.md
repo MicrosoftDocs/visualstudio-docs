@@ -16,22 +16,9 @@ ms.assetid: c3a86913-172b-488f-a31a-cea01a71b2ea
 caps.latest.revision: 16
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Performance Session Properties
 A **Performance Session** enables you to configure settings that determine how the application is profiled. It also stores reports that are generated for the profiling session.  

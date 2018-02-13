@@ -10,23 +10,11 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 24b22ad9-5ad0-4161-809a-9b518eb924bf
 caps.latest.revision: 5
-author: "BrianPeek"
-ms.author: "brpeek"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # 16bpp Render Target Format Variant
 Sets the pixel format to DXGI_FORMAT_B5G6R5_UNORM for all render targets and back buffers.  

@@ -13,29 +13,18 @@ helpviewer_keywords:
   - "GetTypeFromToken"
 ms.assetid: 4452bc5d-0225-40e0-a467-c472a5c7c4ee
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugComPlusSymbolProvider2::GetTypeFromToken
 Retrieves a type given its token.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetTypeFromToken(  
    ULONG32       appDomain,  
    GUID          guidModule,  
@@ -44,7 +33,7 @@ HRESULT GetTypeFromToken(
 );  
 ```  
   
-```c#  
+```csharp  
 int GetTypeFromToken(  
    uint            appDomain,  
    Guid            guidModule,  
@@ -72,7 +61,7 @@ int GetTypeFromToken(
 ## Example  
  The following example shows how to implement this method for a **CDebugSymbolProvider** object that exposes the [IDebugComPlusSymbolProvider2](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugSymbolProvider::GetTypeFromToken(  
     ULONG32 ulAppDomainID,  
     GUID guidModule,  

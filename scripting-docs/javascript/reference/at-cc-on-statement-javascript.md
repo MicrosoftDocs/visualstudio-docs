@@ -13,6 +13,7 @@ f1_keywords:
   - "@cc_on_JavaScriptKeyword"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "conditional compilation, activating"
@@ -51,7 +52,7 @@ Activates conditional compilation support within comments in a script.
 ## Example  
  The following example illustrates the use of the `@cc_on` statement.  
   
-```javascript  
+```JavaScript  
 /*@cc_on @*/  
 /*@  
     document.write("JavaScript version: " + @_jscript_version + ".");  

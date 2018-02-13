@@ -5,14 +5,16 @@ ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-ide-general"
+  - "vs-ide-designers"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: af8eb0f3-bf6a-4d1c-ab47-dcd88ab04efa
 caps.latest.revision: 9
-author: "BrianPeek"
-ms.author: "brpeek"
-manager: "ghogen"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Walkthrough: Creating a Realistic 3-D Billiard Ball
 This walkthrough demonstrates how to create a realistic 3-D billiard ball by using the Shader Designer and Image Editor in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. The 3-D appearance of the billiard ball is achieved by combining several shader techniques with appropriate texture resources.  
@@ -184,7 +186,7 @@ This walkthrough demonstrates how to create a realistic 3-D billiard ball by usi
   
  ![Layout of the environment cube map](../designers/media/gfx_shader_demo_billiard_art_env_texture_top.png "gfx_shader_demo_billiard_art_env_texture_top")  
   
- The image at the top is the positive Y (+Y) cube face; in the middle, from left to right, is the –X, +Z, +X, and –Z cube faces; at the bottom is the –Y cube face.  
+ The image at the top is the positive Y (+Y) cube face; in the middle, from left to right, is the -X, +Z, +X, and -Z cube faces; at the bottom is the -Y cube face.  
   
  Now you can modify the shader to blend the cube map sample into the rest of the shader.  
   

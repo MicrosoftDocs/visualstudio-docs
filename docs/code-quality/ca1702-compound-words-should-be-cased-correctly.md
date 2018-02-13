@@ -5,7 +5,7 @@ ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-devops-test"
+  - "vs-ide-code-analysis"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,24 +16,11 @@ helpviewer_keywords:
   - "CompoundWordsShouldBeCasedCorrectly"
 ms.assetid: 05481245-7ad8-48c3-a456-3aa44b6160a6
 caps.latest.revision: 20
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA1702: Compound words should be cased correctly
 |||  
@@ -65,5 +52,5 @@ translation.priority.mt:
  [CA1708: Identifiers should differ by more than case](../code-quality/ca1708-identifiers-should-differ-by-more-than-case.md)  
   
 ## See Also  
- [Naming Guidelines](http://msdn.microsoft.com/Library/fc076d66-9b5f-42d3-aa65-61d970c794a3)   
- [Capitalization Conventions](http://msdn.microsoft.com/Library/4c4ea526-9203-486f-b72d-29d61c5b3c6d)
+ [Naming Guidelines](/dotnet/standard/design-guidelines/naming-guidelines)   
+ [Capitalization Conventions](/dotnet/standard/design-guidelines/capitalization-conventions)

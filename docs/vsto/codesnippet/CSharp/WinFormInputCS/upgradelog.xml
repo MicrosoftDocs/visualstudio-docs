@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="WinFormInputCS">
+</Property><Property Name="Solution File" Value="C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingCollectingData\CS\WinFormInputCS.sln">
+</Property><Property Name="User Options File" Value="C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingCollectingData\CS\WinFormInputCS.v11.suo">
+</Property><Property Name="Date" Value="Tuesday, November 08, 2011">
+</Property><Property Name="Time" Value="14:49 PM">
+</Property></Properties><Event ErrorLevel="3" Project="" Source="WinFormInputCS.sln" Description="SafeUpgrade">
+</Event><Event ErrorLevel="0" Project="" Source="WinFormInputCS.sln" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingCollectingData\CS\Backup\WinFormInputCS.sln">
+</Event><Event ErrorLevel="0" Project="" Source="WinFormInputCS.v11.suo" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingCollectingData\CS\Backup\WinFormInputCS.v11.suo">
+</Event><Event ErrorLevel="3" Project="WinFormInputCS" Source="WinFormInputCS.csproj" Description="SafeRepair">
+</Event><Event ErrorLevel="0" Project="WinFormInputCS" Source="WinFormInputCS.csproj" Description="Project file successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingCollectingData\CS\Backup\WinFormInputCS.csproj">
+</Event><Event ErrorLevel="0" Project="WinFormInputCS" Source="WinFormInputCS.csproj.user" Description="Project user file successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingCollectingData\CS\Backup\WinFormInputCS.csproj.user">
+</Event><Event ErrorLevel="0" Project="WinFormInputCS" Source="GetInputString.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingCollectingData\CS\Backup\GetInputString.cs">
+</Event><Event ErrorLevel="0" Project="WinFormInputCS" Source="GetInputString.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingCollectingData\CS\Backup\GetInputString.Designer.cs">
+</Event><Event ErrorLevel="0" Project="WinFormInputCS" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingCollectingData\CS\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="WinFormInputCS" Source="Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingCollectingData\CS\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="WinFormInputCS" Source="Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingCollectingData\CS\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="WinFormInputCS" Source="Sheet1.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingCollectingData\CS\Backup\Sheet1.cs">
+</Event><Event ErrorLevel="0" Project="WinFormInputCS" Source="Sheet1.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingCollectingData\CS\Backup\Sheet1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="WinFormInputCS" Source="ThisWorkbook.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingCollectingData\CS\Backup\ThisWorkbook.cs">
+</Event><Event ErrorLevel="0" Project="WinFormInputCS" Source="ThisWorkbook.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingCollectingData\CS\Backup\ThisWorkbook.Designer.cs">
+</Event><Event ErrorLevel="0" Project="WinFormInputCS" Source="Properties\Settings.settings" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingCollectingData\CS\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="WinFormInputCS" Source="WinFormInputCS.xlsx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingCollectingData\CS\Backup\WinFormInputCS.xlsx">
+</Event><Event ErrorLevel="0" Project="WinFormInputCS" Source="ThisWorkbook.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingCollectingData\CS\Backup\ThisWorkbook.Designer.xml">
+</Event><Event ErrorLevel="0" Project="WinFormInputCS" Source="Sheet1.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingCollectingData\CS\Backup\Sheet1.Designer.xml">
+</Event><Event ErrorLevel="0" Project="WinFormInputCS" Source="WinFormInputCS_TemporaryKey.pfx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingCollectingData\CS\Backup\WinFormInputCS_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="WinFormInputCS" Source="Properties\Resources.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreProgrammingCollectingData\CS\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="WinFormInputCS" Source="WinFormInputCS.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="WinFormInputCS" Source="WinFormInputCS.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="WinFormInputCS.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="WinFormInputCS.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WinFormInputCS" Source="WinFormInputCS.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 7872b0b2-5701-4d72-9b52-ed13991542cc
 caps.latest.revision: 4
@@ -45,7 +46,7 @@ for (variable of object) {
 ## Example  
  The following example illustrates the use of the `for...of` statement on an array.  
   
-```javascript  
+```JavaScript  
 let arr = [ "fred", "tom", "bob" ];  
   
 for (let i of arr) {  
@@ -62,7 +63,7 @@ for (let i of arr) {
 ## Example  
  The following example illustrates the use of the `for...of` statement on a `Map` object.  
   
-```javascript  
+```JavaScript  
 var m = new Map();  
 m.set(1, "black");  
 m.set(2, "red");  

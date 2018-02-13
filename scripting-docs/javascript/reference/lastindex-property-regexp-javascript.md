@@ -13,6 +13,7 @@ f1_keywords:
   - "lastIndex"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "lastIndex property"
@@ -35,7 +36,7 @@ RegExp.lastIndex
 ## Remarks  
  The object associated with this property is always the global `RegExp` object.  
   
- The `lastIndex` property is zero-based, that is, the index of the first character is zero. Its initial value is –1. Its value is modified whenever a successful match is made.  
+ The `lastIndex` property is zero-based, that is, the index of the first character is zero. Its initial value is -1. Its value is modified whenever a successful match is made.  
   
  The `lastIndex` property is modified by the `exec` and **test** methods of the `RegExp` object, and the `match`, **replace**, and **split** methods of the `String` object.  
   
@@ -52,7 +53,7 @@ RegExp.lastIndex
 ## Example  
  The following example illustrates the use of the `lastIndex` property. This function iterates a search string and prints out the **index** and `lastIndex` values for each word in the string.  
   
-```javascript  
+```JavaScript  
 function RegExpTest()  
 {  
    var ver = Number(ScriptEngineMajorVersion() + "." + ScriptEngineMinorVersion())  

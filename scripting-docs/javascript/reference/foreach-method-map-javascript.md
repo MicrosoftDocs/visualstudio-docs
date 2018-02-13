@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 9cdf0adc-77c7-4407-8ba7-ada0fb09e507
 caps.latest.revision: 7
@@ -23,7 +24,7 @@ Performs the specified action for each element in a map.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 mapObj.forEach(callbackfn[, thisArg])  
 ```  
   
@@ -56,7 +57,7 @@ mapObj.forEach(callbackfn[, thisArg])
 ## Example  
  The following example shows how to retrieve members of a `Map` using `forEach`.  
   
-```javascript  
+```JavaScript  
 var m = new Map();  
 m.set(1, "black");  
 m.set(2, "red");  

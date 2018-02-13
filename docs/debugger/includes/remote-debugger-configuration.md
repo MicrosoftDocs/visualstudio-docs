@@ -16,11 +16,11 @@ translation.priority.ht:
 ---
 You must have administrative permissions on the remote computer.  
   
-1.  Locate the Remote Debugger application. (Open the Start menu and search for **Remote Debugger**.)
+1.  Locate the Remote Debugger application. (Find msvsmon.exe in the location where it has been installed, or open the Start menu and search for **Remote Debugger**.)
   
-     If you are running the remote debugger on a  remote server, you can right-click the Remote Debugger app and choose **Run as administrator** (Or, you can [run the remote debugger as a service](../../debugger/remote-debugging.md#bkmk_configureService)). If you are not running it on a remote server, just start it normally.
+     If you are running the remote debugger on a  remote server, you can right-click the Remote Debugger app and choose **Run as administrator**. If you are not running it on a remote server, just start it normally.
   
-3.  When you start the remote tools for the first time (or before you have configured it), the **Remote Debugging Configuration** dalog box appears.  
+3.  When you start the remote tools for the first time (or before you have configured it), the **Remote Debugging Configuration** dialog box appears.  
   
      ![RemoteDebuggerConfWizardPage](../media/remotedebuggerconfwizardpage.png "RemoteDebuggerConfWizardPage")  
   
@@ -34,25 +34,8 @@ You must have administrative permissions on the remote computer.
   
      ![RemoteDebuggerWindow](../media/remotedebuggerwindow.png "RemoteDebuggerWindow")
   
-     The remote debugger is now waiting for a connection. Make a note of the server name and port number that is displayed, because you will need this later for configuration in Visual Studio.  
+     The remote debugger is now waiting for a connection. Make a note of the server name and port number that is displayed, because this must match the configuration you later use in Visual Studio.  
   
- When you are finished debugging and need to stop the remote debugger, click **File / Exit** on the window. You can restart it from the **Start** menu or from the command line:  
+ When you are finished debugging and need to stop the remote debugger, click **File > Exit** on the window. You can restart it from the **Start** menu or from the command line:  
   
- **\<Visual Studio installation directory>\Common7\IDE\Remote Debugger\\<x86, x64, or Appx\msvsmon.exe**.  
-  
-### Configure the remote debugger  
-You can change some aspects of the configuration of the remote debugger after you have started it for the first time.
-  
--   If you need to add permissions for other users to connect to the remote debugger, choose **Tools / Permissions**. You must have administrator privileges to grant or deny permissions.
-
-     > [!IMPORTANT] 
-     > You can run the remote debugger under a user account that differs from the user account you are using on the Visual Studio computer, but you must add the different user account to the remote debugger's permissions. 
-
-     Alternatively, you can start the remote debugger from the command line with the **/allow \<username>** parameter: **msvsmon /allow \<username@computer>**.
-  
--   If you need to change the Authentication mode or the port number, or specify a timeout value for the remote tools: choose **Tools / Options**.  
-  
-     For a listing of the port numbers used by default, see [Remote Debugger Port Assignments](../../debugger/remote-debugger-port-assignments.md).  
-  
-     > [!WARNING]
-     >  You can choose to run the remote tools in No Authentication mode, but this mode is strongly discouraged. There is no network security when you run in this mode. Choose the No Authentication mode only if you are sure that the network is not at risk from malicious or hostile traffic.
+ **\<Visual Studio installation directory>\Common7\IDE\Remote Debugger\\<x86, x64, or Appx>\msvsmon.exe**.  

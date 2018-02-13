@@ -14,29 +14,18 @@ helpviewer_keywords:
   - "IDebugThread2::EnumFrameInfo"
 ms.assetid: 17914a71-10ea-4b6f-8982-e364f87dca53
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugThread2::EnumFrameInfo
 Retrieves a list of the stack frames for this thread.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumFrameInfo (   
    FRAMEINFO_FLAGS        dwFieldSpec,  
    UINT                   nRadix,  
@@ -44,7 +33,7 @@ HRESULT EnumFrameInfo ( 
 );  
 ```  
   
-```c#  
+```csharp  
 int EnumFrameInfo (   
    enum_FRAMEINFO_FLAGS     dwFieldSpec,  
    uint                     nRadix,  

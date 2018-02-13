@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "callback function, reduce method [JavaScript]"
@@ -106,7 +107,7 @@ array1.reduce(callbackfn[, initialValue])
 ## Example  
  The following example concatenates array values into a string, separating the values with "::". Because no initial value is provided to the `reduce` method, the first call to the callback function has "abc" as the `previousValue` argument and "def" as the `currentValue` argument.  
   
-```javascript  
+```JavaScript  
 // Define the callback function.  
 function appendCurrent (previousValue, currentValue) {  
     return previousValue + "::" + currentValue;  
@@ -129,7 +130,7 @@ document.write(result);
 ## Example  
  The following example adds the values of an array after they have been rounded. The `reduce` method is called with an initial value of 0.  
   
-```javascript  
+```JavaScript  
 // Define the callback function.  
 function addRounded (previousValue, currentValue) {  
     return previousValue + Math.round(currentValue);  
@@ -148,7 +149,7 @@ document.write (result);
 ## Example  
  The following example adds the values in an array. The `currentIndex` and `array1` parameters are used in the callback function.  
   
-```javascript  
+```JavaScript  
 function addDigitValue(previousValue, currentDigit, currentIndex, array) {  
     var exponent = (array.length - 1) - currentIndex;  
     var digitValue = currentDigit * Math.pow(10, exponent);  
@@ -167,7 +168,7 @@ document.write (result);
 ## Example  
  The following example gets an array that contains only those values that are between 1 and 10 in another array. The initial value provided to the `reduce` method is an empty array.  
   
-```javascript  
+```JavaScript  
 function Process(previousArray, currentValue) {  
     // If currentValue is between 1 and 10,   
     // append currentValue to the array.  

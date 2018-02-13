@@ -13,6 +13,7 @@ f1_keywords:
   - "Number"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "Number property"
@@ -46,7 +47,7 @@ object
 ## Example  
  The following example causes an exception to be thrown and displays the error code that is derived from the error number.  
   
-```javascript  
+```JavaScript  
 try  
     {  
     // Cause an error.  
@@ -70,7 +71,7 @@ catch(e)
 ## Example  
  The output of this code is as follows.  
   
-```javascript  
+```JavaScript  
 Error Code: 5009  
 Facility Code: 10  
 Error Message: 'y' is undefined  

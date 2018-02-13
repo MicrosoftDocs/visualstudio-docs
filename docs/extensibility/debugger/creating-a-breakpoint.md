@@ -13,22 +13,11 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], creating breakpoints"
 ms.assetid: 6f9f87bb-192e-45e0-9a7a-ffe729e87f7d
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Creating a Breakpoint
 The following describes the process of creating a breakpoint.  

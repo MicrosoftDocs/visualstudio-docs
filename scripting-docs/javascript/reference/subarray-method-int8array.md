@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 46271ed6-a3c3-41fb-bd6f-81efa9e8dedc
 caps.latest.revision: 9
@@ -23,7 +24,7 @@ Gets a new Int8Array view of the ArrayBuffer store for this array, referencing t
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 var newInt8Array = int8Array.subset(begin, end);  
 ```  
   
@@ -43,7 +44,7 @@ var newInt8Array = int8Array.subset(begin, end);
 ## Example  
  The following example shows how to get a subarray two elements long, starting with the first element of the array.  
   
-```javascript  
+```JavaScript  
 var req = new XMLHttpRequest();  
     req.open('GET', "http://www.example.com");  
     req.responseType = "arraybuffer";  

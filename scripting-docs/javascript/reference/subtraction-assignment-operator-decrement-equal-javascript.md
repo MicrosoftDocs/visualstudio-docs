@@ -13,6 +13,7 @@ f1_keywords:
   - "-="
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "subtraction assignment operator [JavaScript]"
@@ -44,8 +45,8 @@ result -= expression
 ## Remarks  
  Using the `-=` operator is exactly the same as doing the following:  
   
-```javascript  
-result = result – expression  
+```JavaScript  
+result = result - expression  
 ```  
   
 ## Requirements  

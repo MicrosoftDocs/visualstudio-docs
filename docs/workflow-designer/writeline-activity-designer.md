@@ -13,26 +13,14 @@ caps.latest.revision: 5
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+ms.workload: 
+  - "multiple"
 ---
 # WriteLine Activity Designer
 The **WriteLine** activity designer is used to create and configure a <xref:System.Activities.Statements.WriteLine> activity.  
   
 ## The WriteLine Activity  
- The <xref:System.Activities.Statements.Writeline> activity writes text to a specified <xref:System.IO.TextWriter> object. If no <xref:System.IO.TextWriter> is specified, <xref:System.Activities.Statements.Writeline> writes the text to the console.  
+ The <xref:System.Activities.Statements.WriteLine> activity writes text to a specified <xref:System.IO.TextWriter> object. If no <xref:System.IO.TextWriter> is specified, <xref:System.Activities.Statements.WriteLine> writes the text to the console.  
   
 ### Using the WriteLine Activity Designer  
  The **WriteLine** activity designer can be found in the **Primitives** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab of the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] (Alternatively, select **Toolbar** from the **View** menu, or CTRL+ALT+X.)  

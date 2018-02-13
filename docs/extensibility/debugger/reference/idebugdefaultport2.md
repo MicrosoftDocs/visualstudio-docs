@@ -14,22 +14,11 @@ helpviewer_keywords:
   - "IDebugDefaultPort2 interface"
 ms.assetid: 7b3452af-9a96-4c4c-9946-4339b72d3d7b
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugDefaultPort2
 This interface provides several methods for accessing a port's server and notification facilities.  
@@ -44,7 +33,7 @@ IDebugDefaultPort2 : IDebugPort2
  Visual Studio implements this interface to represent the debug port for accessing programs. A custom port supplier can also implement this interface if it handles remote debugging.  
   
 ## Notes for Callers  
- An argument to methods on the [IDebugProgramProvider2](../../../extensibility/debugger/reference/idebugprogramprovider2.md) interface supplies this interface. Calling [QueryInterface](/visual-cpp/atl/queryinterface) on an [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md) interface can also obtain this interface.  
+ An argument to methods on the [IDebugProgramProvider2](../../../extensibility/debugger/reference/idebugprogramprovider2.md) interface supplies this interface. Calling [QueryInterface](/cpp/atl/queryinterface) on an [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md) interface can also obtain this interface.  
   
 ## Methods in Vtable order  
  In addition to the methods defined in [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md), this interface implements the following methods:  

@@ -13,6 +13,7 @@ f1_keywords:
   - "Map"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: a91dbcbe-f58d-41a0-be15-8c9d30020327
 caps.latest.revision: 8
@@ -25,7 +26,7 @@ A collection of key/value pairs.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 mapObj = new Map()  
 ```  
   
@@ -58,7 +59,7 @@ mapObj = new Map()
 ## Example  
  The following example shows how to add members to a `Map` and then retrieve them.  
   
-```javascript  
+```JavaScript  
 var m = new Map();  
 m.set(1, "black");  
 m.set(2, "red");  

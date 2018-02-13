@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "arrays [JavaScript]"
@@ -35,7 +36,7 @@ manager: "ghogen"
 ## Expando Properties and Methods  
  All objects in [!INCLUDE[javascript](../javascript/includes/javascript-md.md)] support expando properties and methods, which can be added and removed at run time. These properties and methods can have any name and can be identified by numbers. If the name of the property or method is a simple identifier, it can be written after the object name with a period, such as `myObj.name`, `myObj.age`, and `myObj.getAge` in the following code:  
   
-```javascript  
+```JavaScript  
 var myObj = new Object();  
 myObj.name = "Fred";  
 myObj.age = 42;  
@@ -60,7 +61,7 @@ document.write(myObj.getAge());
   
  If the name of the property or method is not a simple identifier or is unknown at the time you write the script, you can use an expression inside square brackets to index the property. The names of all expando properties in [!INCLUDE[javascript](../javascript/includes/javascript-md.md)] are converted to strings before being added to the object.  
   
-```javascript  
+```JavaScript  
 var myObj = new Object();  
   
 // Add two expando properties that cannot be written in the  
@@ -81,7 +82,7 @@ myObj[100] = "100";
   
  Arrays have a `length` property but objects do not. When you assign a value to an element of an array whose index is greater than its length (for example, `myArray[100] = "hello"`), the `length` property is automatically increased to the new length. Similarly, if you make the `length` property smaller, any element whose index is outside the length of the array is deleted.  
   
-```javascript  
+```JavaScript  
 // An array with three elements  
 var myArray = new Array(3);  
   
@@ -108,7 +109,7 @@ document.write("new length is : " + myArray.length);
   
  Arrays provide methods to iterate over and manipulate members. The following example shows how to obtain the properties of objects stored in an array.  
   
-```javascript  
+```JavaScript  
 var myArray = new Array(3);  
   
 // Add some data  
@@ -129,7 +130,7 @@ myArray.forEach(function (item) {
 ## Multi-Dimensional Arrays  
  [!INCLUDE[javascript](../javascript/includes/javascript-md.md)] does not directly support multi-dimensional arrays, but you can get the behavior of multi-dimensional arrays by storing arrays within the elements of another array. (You can store any sort of data inside array elements, including other arrays.) For example, the following code builds a multiplication table for the numbers up to 5.  
   
-```javascript  
+```JavaScript  
 // The size of the table.  
 var iMaxNum = 5;  
 // Loop counters.  

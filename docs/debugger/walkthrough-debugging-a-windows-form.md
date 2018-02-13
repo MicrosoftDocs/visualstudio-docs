@@ -9,12 +9,9 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
+  - "CSharp"
+  - "VB"
   - "FSharp"
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "VB"
-  - "CSharp"
   - "C++"
 helpviewer_keywords: 
   - "debugging [Visual Studio], walkthroughs"
@@ -29,21 +26,9 @@ ms.assetid: 529db1e2-d9ea-482a-b6a0-7c543d17f114
 caps.latest.revision: 28
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Walkthrough: Debugging a Windows Form
 A Windows Form is one of the most common managed applications. A Windows Form creates a standard Windows application. You can complete this walkthrough using Visual Basic, C#, or C++.  
@@ -139,7 +124,7 @@ A Windows Form is one of the most common managed applications. A Windows Form cr
   
 4.  On the **Debug** menu, choose **Windows**, then **Watch**, and click **Watch1**.  
   
-5.  In the **Watch1** window, click on a blank row. In the **Name** column, type `textBox1.Text` (if you are using Visual Basic, Visual C#, or J#) or `textBox1->Text` (if you are using C++), then press ENTER.  
+5.  In the **Watch1** window, click on a blank row. In the **Name** column, type `textBox1.Text` (if you are using Visual Basic or Visual C#) or `textBox1->Text` (if you are using C++), then press ENTER.  
   
      The **Watch1** window shows the value of this variable in quotation marks as:  
   
@@ -149,7 +134,7 @@ A Windows Form is one of the most common managed applications. A Windows Form cr
   
 6.  On the **Debug** menu, choose **Step Into**.  
   
-     The value of textBox1.Text changes in the **Watch1**window to:  
+     The value of textBox1.Text changes in the **Watch1** window to:  
   
     ```  
     Button was clicked!  

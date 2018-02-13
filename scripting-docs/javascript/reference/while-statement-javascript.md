@@ -13,6 +13,7 @@ f1_keywords:
   - "while_JavaScriptKeyword"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "loop structures, while statements"
@@ -47,7 +48,7 @@ while (expression) {
 ## Example  
  The following example illustrates the use of the `while` statement.  
   
-```javascript  
+```JavaScript  
 var i = 0;  
 var j = 10;  
 while (i < 100) {  

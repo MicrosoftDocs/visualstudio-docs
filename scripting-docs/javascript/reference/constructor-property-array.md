@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: b78d517b-cb56-4866-b30f-ef8121a27843
 caps.latest.revision: 2
@@ -36,7 +37,7 @@ array.constructor
 ## Example  
  The following example illustrates the use of the constructor property.  
   
-```javascript  
+```JavaScript  
 var x = new Array();  
   
 if (x.constructor == Array)  

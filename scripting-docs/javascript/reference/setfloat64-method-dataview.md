@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 63d2c631-876f-4d4b-b3b6-62b0aaffe6c5
 caps.latest.revision: 5
@@ -43,7 +44,7 @@ dataView.setFloat64 (byteOffset, value, littleEndian);
 ## Example  
  The following example shows how to set the first Float64 in the DataView.  
   
-```javascript  
+```JavaScript  
 var req = new XMLHttpRequest();  
     req.open('GET', "http://www.example.com");  
     req.responseType = "arraybuffer";  

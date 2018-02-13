@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" Id="16ed9bd1-2583-45b2-bd67-f7d7ffd4260a" solutionId="16ed9bd1-2583-45b2-bd67-f7d7ffd4260a" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" name="FeatureEvtTest2">
+    <features>
+        <featureReference projectId="8ee52585-c46c-4a43-9e11-f9964c25f632" itemId="c58887d2-0746-4ade-83dd-39e71c4de85e" />
+    </features>
+</package>

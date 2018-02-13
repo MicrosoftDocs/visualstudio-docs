@@ -13,6 +13,7 @@ f1_keywords:
   - "toString"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "ToString method"
@@ -56,7 +57,7 @@ objectname.toString([radix])
 ## Example  
  The following example illustrates the use of the **toString** method with a radix argument. The return value of function shown below is a Radix conversion table.  
   
-```javascript  
+```JavaScript  
 function CreateRadixTable (){  
    var s = "";  
   

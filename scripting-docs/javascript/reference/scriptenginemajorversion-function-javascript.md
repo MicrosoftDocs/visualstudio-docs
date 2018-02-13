@@ -13,6 +13,7 @@ f1_keywords:
   - "ScriptEngineMajorVersion"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "ScriptEngineMajorVersion function"
@@ -37,7 +38,7 @@ ScriptEngineMajorVersion()
 ## Example  
  The following example illustrates the use of the `ScriptEngineMajorVersion` function:  
   
-```javascript  
+```JavaScript  
 if (window.ScriptEngineMajorVersion) {  
     console.log(window.ScriptEngine());   
 }  

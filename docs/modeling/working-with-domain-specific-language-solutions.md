@@ -4,13 +4,13 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3db02722-5fd5-437f-a789-9acaaa809de8
-caps.latest.revision: 6
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Working with Domain-Specific Language Solutions
 A domain-specific language (DSL) is created using a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution. This section is about how to set up and customize the solution.  
@@ -43,5 +43,5 @@ A domain-specific language (DSL) is created using a [!INCLUDE[vsprvs](../code-qu
  [How to: Extend the Domain-Specific Language Designer](../modeling/how-to-extend-the-domain-specific-language-designer.md)  
  You can customize the DSL Designer with menu commands.  
   
- [How to Automate Transform All Templates](http://msdn.microsoft.com/en-us/b63cfe20-fe5e-47cc-9506-59b29bca768a)  
+ [How to Automate Transform All Templates](http://msdn.microsoft.com/b63cfe20-fe5e-47cc-9506-59b29bca768a)  
  To avoid clicking Transform All Templates, you can make it an automatic part of the build.

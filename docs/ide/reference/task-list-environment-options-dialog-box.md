@@ -25,23 +25,11 @@ helpviewer_keywords:
   - "Task List, comment tasks"
 ms.assetid: 88327e04-fa3e-48db-995b-ad89e0dc4ed2
 caps.latest.revision: 15
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Task List, Environment, Options Dialog Box
 This Options page allows you to add, delete, and change the comment tokens that generate **Task List** reminders. To display these settings, select **Options** from the **Tools** menu, expand the **Environment** folder, and choose **Task List**.  
@@ -60,7 +48,7 @@ This Options page allows you to add, delete, and change the comment tokens that 
  When you insert a comment into your code whose text begins with a token from the **Token List**, the **Task List** displays your comment as new entry whenever the file is opened for editing. You can click this **Task List** entry to jump directly to the comment line in your code. For more information, see [Using the Task List](../../ide/using-the-task-list.md).  
   
  Token List  
- Displays a list of tokens, and allows you to add or remove custom tokens. Comment tokens are case sensitive in Visual C# and Visual C++, but not in Visual Basic.  
+ Displays a list of tokens, and allows you to add or remove custom tokens. Comment tokens are case sensitive in C# and Visual C++, but not in Visual Basic.  
   
 > [!NOTE]
 >  If you do not type the desired token exactly as it appears in the **Token List**, a comment task will not be displayed in the **Task List**.  

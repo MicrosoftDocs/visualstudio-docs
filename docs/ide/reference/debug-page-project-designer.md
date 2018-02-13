@@ -15,27 +15,15 @@ helpviewer_keywords:
   - "Debug page in Project Designer"
 ms.assetid: ef11eae9-df96-4e20-aabd-2678ba317140
 caps.latest.revision: 32
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Debug Page, Project Designer
 > [!WARNING]
->  This topic does not apply to Windows Store apps. See [Start a debug session (VB, C#, C++ and XAML)](../../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md) in the Windows Dev Center.  
+>  This topic does not apply to UWP apps. See [Start a debug session (VB, C#, C++ and XAML)](../../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md) in the Windows Dev Center.  
   
  Use the **Debug** page of the **Project Designer** to set properties for debugging behavior in a Visual Basic or C# project.  
   
@@ -45,10 +33,10 @@ translation.priority.ht:
  The following options allow you to select the configuration and platform to display or modify.  
   
  **Configuration**  
- Specifies which configuration settings to display or modify. The settings can be **Debug** (default), **Release**, or **All Configurations**. For more information, see [Debug and Release Project Configurations](http://msdn.microsoft.com/en-us/0440b300-0614-4511-901a-105b771b236e).  
+ Specifies which configuration settings to display or modify. The settings can be **Debug** (default), **Release**, or **All Configurations**.
   
  **Platform**  
- Specifies which platform settings to display or modify. The choices can include **Any CPU** (default), **x64**, and **x86**. For more information, see [Debug and Release Project Configurations](http://msdn.microsoft.com/en-us/0440b300-0614-4511-901a-105b771b236e).  
+ Specifies which platform settings to display or modify. The choices can include **Any CPU** (default), **x64**, and **x86**.
   
 ## Start Action  
  **Start Action** indicates the item to start when the application is debugged: the project, a custom program, a URL, or nothing. By default, this option is set to **Start project**. The **Start Action** setting on the **Debug** page determines the value of the `StartAction` property.  
@@ -84,10 +72,10 @@ translation.priority.ht:
   
  To debug in a security zone, you must enable this option and **Debug this application with the selected permission set** in the [Advanced Security Settings Dialog Box](../../ide/reference/advanced-security-settings-dialog-box.md).  
   
-## See Also  
- [Debugging in Visual Studio](../../debugger/debugging-in-visual-studio.md)   
- [Project Settings for  C# Debug Configurations](../../debugger/project-settings-for-csharp-debug-configurations.md)   
- [Project Settings for a Visual Basic Debug Configuration](../../debugger/project-settings-for-a-visual-basic-debug-configuration.md)   
- [Managing Debugging Properties](http://msdn.microsoft.com/en-us/92474d16-e7fe-4fac-9287-6bd6b3a7eb68)   
- [How to: Debug a ClickOnce Application with Restricted Permissions](../../deployment/how-to-debug-a-clickonce-application-with-restricted-permissions.md)   
- [How to: Create and Edit Configurations](../../ide/how-to-create-and-edit-configurations.md)
+## See also
+
+[Debugging in Visual Studio](../../debugger/debugging-in-visual-studio.md)  
+[Project Settings for  C# Debug Configurations](../../debugger/project-settings-for-csharp-debug-configurations.md)  
+[Project Settings for a Visual Basic Debug Configuration](../../debugger/project-settings-for-a-visual-basic-debug-configuration.md)  
+[How to: Debug a ClickOnce Application with Restricted Permissions](../../deployment/how-to-debug-a-clickonce-application-with-restricted-permissions.md)  
+[How to: Create and Edit Configurations](../../ide/how-to-create-and-edit-configurations.md)

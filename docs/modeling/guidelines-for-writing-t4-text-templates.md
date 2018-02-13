@@ -4,27 +4,13 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 04dd3fc4-10e8-488a-bdea-4d615f50f063
-caps.latest.revision: 9
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Guidelines for Writing T4 Text Templates
 These general guidelines might be helpful if you are generating program code or other application resources in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. They are not fixed rules.  
@@ -62,7 +48,7 @@ These general guidelines might be helpful if you are generating program code or 
  Move common material into include files or run-time templates  
  To avoid repeating similar blocks of text and code in multiple templates, use the `<#@ include #>` directive. For more information, see [T4 Include Directive](../modeling/t4-include-directive.md).  
   
- You can also build run-time text templates in a separate project, and then call them from the design-time template. To do this, use the `<#@ assembly #>` directive to access the separate project. For examples, see ["Inheritance in Text Templates" in Gareth Jones’ Blog](http://go.microsoft.com/fwlink/?LinkId=208373).  
+ You can also build run-time text templates in a separate project, and then call them from the design-time template. To do this, use the `<#@ assembly #>` directive to access the separate project. For examples, see ["Inheritance in Text Templates" in Gareth Jones' Blog](http://go.microsoft.com/fwlink/?LinkId=208373).  
   
  Consider moving large blocks of code into a separate assembly.  
  If you have large code blocks and class feature blocks, it might be useful to move some of this code into methods that you compile in a separate project. You can use the `<#@ assembly #>` directive to access the code in the template. For more information, see [T4 Assembly Directive](../modeling/t4-assembly-directive.md).  

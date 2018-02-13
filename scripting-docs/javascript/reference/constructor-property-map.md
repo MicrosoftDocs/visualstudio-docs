@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: a90d6a29-bd64-4e01-8d2f-988b7e3e4a24
 caps.latest.revision: 3
@@ -23,7 +24,7 @@ Specifies the function that creates a map.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 map.constructor  
 ```  
   

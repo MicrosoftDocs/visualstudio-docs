@@ -1,6 +1,6 @@
 ---
-title: "Viewing Modules, DLLs, and Executables | Microsoft Docs"
-ms.custom: ""
+title: "View DLLs and Executables in the Debugger | Microsoft Docs"
+ms.custom: "H1Hack27Feb2017"
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,14 +11,11 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.debug.modules"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
   - "JScript"
-  - "VB"
-  - "CSharp"
-  - "C++"
 helpviewer_keywords: 
   - "debugger, Modules window"
   - "Modules window"
@@ -30,31 +27,20 @@ ms.assetid: d840fdca-b035-4452-b652-72580c831896
 caps.latest.revision: 36
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
-# How to: Use the Modules Window in the Debugger
+# View DLLs and Executables using the Modules Window in the Visual Studio Debugger
+ 
+The **Modules** window lists the DLLs and executables (EXE) that are used by your program and shows relevant information for each. 
+
 > [!NOTE]
->  This feature is not available for SQL or script debugging.  
+>  This feature is not available for SQL or script debugging. 
   
- The **Modules** window lists the DLLs and EXE that are used by your program and shows relevant information for each.  
+### To display the Modules window  
   
-### To display the Modules window in break mode or in run mode  
-  
--   On the **Debug** menu, choose **Windows**, and then click **Modules**.  
+-   While you are debugging, select **Debug > Windows** and then click **Modules**.  
   
      By default, the **Modules** window sorts modules by load order. However, you can choose to sort by any column.  
   

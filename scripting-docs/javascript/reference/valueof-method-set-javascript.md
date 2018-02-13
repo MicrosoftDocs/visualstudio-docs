@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: f7269f10-9076-48eb-b63a-35faf3f56ae5
 caps.latest.revision: 3
@@ -23,7 +24,7 @@ Returns the primitive value of the specified object.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 setObj.valueOf()  
 ```  
   

@@ -14,36 +14,25 @@ helpviewer_keywords:
   - "IDebugDocumentTextEvents2::onInsertText"
 ms.assetid: 6040181f-7288-4a42-953c-d23f74200431
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugDocumentTextEvents2::onInsertText
 Notifies the debug package that text has been inserted into the document.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT onInsert(   
    TEXT_POSITION pos,  
    DWORD         dwNumToInsert  
 );  
 ```  
   
-```c#  
+```csharp  
 int onInsert(   
    enum_TEXT_POSITION pos,  
    uint               dwNumToInsert  

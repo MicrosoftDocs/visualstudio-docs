@@ -1,13 +1,13 @@
 ---
-title: "Inspect Variables in the Debugger | Microsoft Docs"
-ms.custom: ""
-ms.date: "02/07/2017"
+title: "Inspect Variables in the Autos and Locals Windows | Microsoft Docs"
+ms.custom: "H1Hack27Feb2017"
+ms.date: "04/17/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "hero-article"
+ms.topic: "article"
 f1_keywords: 
   - "vs.debug.autos"
   - "vs.debug.locals"
@@ -18,25 +18,12 @@ ms.assetid: bb6291e1-596d-4af0-9f22-5fd713d6b84b
 caps.latest.revision: 24
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
-# Inspecting Variables in the Autos and Locals Windows
-The **Autos** window (while debugging, **CTRL+ALT+V, A**, or **Debug / Windows / Autos**) and the **Locals** window (while debugging, **CTRL+ALT+V, L**, or **Debug / Windows / Locals**) are quite useful when you want to see variable values while you are debugging. The **Locals** window displays variables that are defined in the local  scope, which is generally the function or method that is currently being executed. The **Autos** window displays variables used around the current line (the place where the debugger is stopped). Exactly which variables displayed is different in different languages. See What variables appear in the Autos Window? below.  
+# Inspect Variables in the Autos and Locals Windows in Visual Studio
+The **Autos** window (while debugging, **CTRL+ALT+V, A**, or **Debug > Windows > Autos**) and the **Locals** window (while debugging, **CTRL+ALT+V, L**, or **Debug > Windows > Locals**) are quite useful when you want to see variable values while you are debugging. The **Locals** window displays variables that are defined in the local  scope, which is generally the function or method that is currently being executed. The **Autos** window displays variables used around the current line (the place where the debugger is stopped). Exactly which variables display in this window is different in different languages. See [What variables appear in the Autos Window?](#bkmk_whatvariables) below.  
   
 If you need more information about basic debugging, see [Getting Started with the Debugger](../debugger/getting-started-with-the-debugger.md).  
   
@@ -45,12 +32,12 @@ Arrays and objects are displayed in the Autos and Locals windows as tree control
   
 ![Locals&#45;FileStream](../debugger/media/locals-filestream.png "Locals-FileStream")  
   
-## What variables appear in the Autos window?  
+## <a name="bkmk_whatvariables"></a> What variables appear in the Autos window?  
  You can use the **Autos** window in C#, Visual Basic, and C++ code. The **Autos** window does not support JavaScript or F#.  
   
  In C# and Visual Basic, the **Autos** window displays any  variable used on the current or preceding line. For example, if you declare four variables and set them as follows:
 
-```CSharp
+```csharp
     public static void Main()
     {
        int a, b, c, d;
@@ -94,7 +81,7 @@ Arrays and objects are displayed in the Autos and Locals windows as tree control
   
  The following C# code adds the return values of two functions:  
 
-```CSharp
+```csharp
 static void Main(string[] args)  
 {  
     int a, b, c, d;  
@@ -116,7 +103,7 @@ private static int subtractVars(int i, int j)
 }  
 ```
 
- Set a breakpoint on the int `x = sumVars(a, b) + subtractVars(c, d);` line.  
+ Set a breakpoint on the `int x = sumVars(a, b) + subtractVars(c, d);` line.  
   
  Start debugging, and when execution breaks at the first breakpoint, press **F10 (Step Over)**. You should see the following in the **Autos** window:  
   
@@ -128,7 +115,7 @@ You may notice that the value of a variable is sometimes red in the **Locals** a
 ## Changing the numeric format of a variable window  
 The default numeric format is decimal, but you can change it to hexadecimal. Right-click inside a **Locals** or **Autos** window and select **Hexadecimal Display**. The change affects all debugger windows.  
   
-## Editing a Value in a Variable Window  
+## Editing a value in a Variable window  
 You can edit the values of most variables that appear in the **Autos**, **Locals**, **Watch**, and **QuickWatch** windows. For information about **Watch** and **QuickWatch** windows, see [Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md). Just double-click the value you want to change and add the new the value.  
   
 You can enter an expression for a value, for example `a + b`. The debugger accepts most valid language expressions.  
@@ -143,12 +130,10 @@ However, you should exercise caution when changing values. Here are some possibl
   
 -   Editing floating-point values can result in minor inaccuracies because of decimal-to-binary conversion of fractional components. Even a seemingly harmless edit can result in changes to some of the least significant bits in the floating-point variable.  
   
-## Debug Location toolbar  
-You can use the **Debug Location** toolbar to select the desired function, thread, or process. Set a breakpoint and start debugging. (If you do not see this toolbar, you can enable it by clicking in an empty part of the toolbar area. You should see a list of toolbars; select **Debug Location**). When the breakpoint is hit, execution stops and you can see the Debug Location toolbar, which is the bottom row of the following graphic:
+## Changing the window context  
+You can use the **Debug Location** toolbar to select the desired function, thread, or process, which changes the context for the variable windows. Set a breakpoint and start debugging. (If you do not see this toolbar, you can enable it by clicking in an empty part of the toolbar area. You should see a list of toolbars; select **Debug Location**). When the breakpoint is hit, execution stops and you can see the Debug Location toolbar, which is the bottom row of the following illustration.
   
-![DebugLocationToolbar](../debugger/media/debuglocationtoolbar.png "DebugLocationToolbar")  
-  
-You can also change the context to different function calls, threads, or processes by  double-clicking the element in the **Call Stack** window, the **Threads** window, or the **Processes** window.  
+![DebugLocationToolbar](../debugger/media/debuglocationtoolbar.png "DebugLocationToolbar")   
   
 ## See Also  
  [Debugger Windows](../debugger/debugger-windows.md)

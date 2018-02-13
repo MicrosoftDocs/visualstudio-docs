@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 helpviewer_keywords: 
   - "threading [Visual Studio], thread properties"
   - "thread properties"
@@ -15,21 +15,9 @@ ms.assetid: 46b6c668-6786-456e-97dc-337bcac0d812
 caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # General Tab, Thread Properties Dialog Box
 Use this dialog box to find out more about a specific thread. To display this dialog box, move the focus to a [Threads View](../debugger/threads-view.md) window, or open [Messages View](../debugger/messages-view.md) and expand a message. Select any thread node in the tree, then choose **Properties** from the **View** menu.  

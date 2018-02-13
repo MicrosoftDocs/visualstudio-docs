@@ -14,22 +14,11 @@ helpviewer_keywords:
   - "IDebugProviderProgramNode2"
 ms.assetid: f0bca1cc-afbe-44cf-b5aa-d078aa685d24
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProviderProgramNode2
 This interface marshals program-related interfaces across process boundaries.  
@@ -44,7 +33,7 @@ IDebugProviderProgramNode2 : IUnknown
  The debug engine (DE) implements this interface on the same object that implements [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) to support marshaling interfaces across process boundaries.  
   
 ## Notes for Callers  
- Call [QueryInterface](/visual-cpp/atl/queryinterface) on an `IDebugProgramNode2` interface to obtain this interface. If this interface cannot be obtained, the DE does not support marshaling of interfaces.  
+ Call [QueryInterface](/cpp/atl/queryinterface) on an `IDebugProgramNode2` interface to obtain this interface. If this interface cannot be obtained, the DE does not support marshaling of interfaces.  
   
 ## Methods in Vtable order  
  This interface implements the following method:  

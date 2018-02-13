@@ -13,6 +13,7 @@ f1_keywords:
   - "propertyIsEnumerable"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "propertyIsEnumerable property"
@@ -46,7 +47,7 @@ object. propertyIsEnumerable(proName)
   
 ## Example  
   
-```javascript  
+```JavaScript  
 var a = new Array("apple", "banana", "cactus");  
 document.write(a.propertyIsEnumerable(1));  
   

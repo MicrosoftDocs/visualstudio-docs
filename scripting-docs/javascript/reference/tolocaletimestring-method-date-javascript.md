@@ -13,6 +13,7 @@ f1_keywords:
   - "toLocaleTimeString"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "toLocaleTimeString method"
@@ -54,12 +55,12 @@ dateObj.toLocaleTimeString([locales][, options])
   
 -   The returned time is in the default format of the host environment's current locale.  
   
- If you omit the `locales` parameter, the return value of this method cannot be relied upon in scripting, because it will vary from computer to computer. In this scenario, use the method only to format displayed text – never as part of a computation.  
+ If you omit the `locales` parameter, the return value of this method cannot be relied upon in scripting, because it will vary from computer to computer. In this scenario, use the method only to format displayed text - never as part of a computation.  
   
 ## Example  
  The following example shows how to use the `toLocaleTimeString` method with a specified locale and comparison options.  
   
-```javascript  
+```JavaScript  
 var date = new Date(Date.UTC(2013, 1, 1, 14, 0, 0));  
 var options = { weekday: "long", year: "numeric", month: "short",  
     day: "numeric" };  

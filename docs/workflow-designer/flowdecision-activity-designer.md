@@ -13,20 +13,8 @@ caps.latest.revision: 4
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+ms.workload: 
+  - "multiple"
 ---
 # FlowDecision Activity Designer
 The <xref:System.Activities.Statements.FlowDecision> node is a conditional node that provides a branch for the flow of control into one of two alternatives based on whether a specified condition is satisfied. If the flow requires more than two branches, use <xref:System.Activities.Statements.FlowSwitch%601> instead.  
@@ -41,7 +29,7 @@ The <xref:System.Activities.Statements.FlowDecision> node is a conditional node 
   
  After dragging the **FlowDecision** designer and other designers onto the **Flowchart**, the nodes can be linked together to specify the order of execution. To create a link between a source node (including the **True** and **False** branches of the **FlowDecision**) and a destination node, mouse over the designer of the source node and square handles appear on each side of it. Click one of the square handles and drag it by holding down the mouse button to one of the handles that appears in a similar manner around the destination node when you mouse over it. Release the mouse button and a link is between created these two nodes that is represented as an arrow from the source designer to the destination designer.  
   
- The expression that states the <xref:System.Activities.Statements.FlowDecision.Condition%2A> can be typed in the **Condition** box of the **Properties** window by clicking where the hint text says “Enter a VB expression”.  
+ The expression that states the <xref:System.Activities.Statements.FlowDecision.Condition%2A> can be typed in the **Condition** box of the **Properties** window by clicking where the hint text says "Enter a VB expression".  
   
 ### The FlowDecision Properties  
  The following table shows the <xref:System.Activities.Statements.FlowDecision> properties and describes how they are used in the designer. These properties can be edited in the property grid or on the designer surface.  

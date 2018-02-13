@@ -14,22 +14,11 @@ helpviewer_keywords:
   - "IDebugFunctionObject interface"
 ms.assetid: 8d94e97c-a9d1-400c-8a98-a44b5385b33a
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugFunctionObject
 > [!IMPORTANT]
@@ -47,7 +36,7 @@ IDebugFunctionObject : IDebugObject
  An expression evaluator implements this interface to represent a function.  
   
 ## Notes for Callers  
- This interface is a specialization of the [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) interface and is obtained using [QueryInterface](/visual-cpp/atl/queryinterface) on the `IDebugObject` interface.  
+ This interface is a specialization of the [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) interface and is obtained using [QueryInterface](/cpp/atl/queryinterface) on the `IDebugObject` interface.  
   
 ## Methods in Vtable Order  
  In addition to the methods inherited from [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md), the `IDebugFunctionObject` interface exposes the following methods.  

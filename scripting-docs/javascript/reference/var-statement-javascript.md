@@ -13,6 +13,7 @@ f1_keywords:
   - "var_JavaScriptKeyword"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "declaring variables, var statement"
@@ -51,7 +52,7 @@ var variable1 = value1
 ## Example  
  The following examples illustrate the use of the `var` statement.  
   
-```javascript  
+```JavaScript  
 var index;  
 var name = "Thomas Jefferson";  
 var answer = 42, counter, numpages = 10;  

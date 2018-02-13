@@ -5,7 +5,7 @@ ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-devops-test"
+  - "vs-ide-code-analysis"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -17,23 +17,11 @@ helpviewer_keywords:
   - "ValidateArgumentsOfPublicMethods"
 ms.assetid: db1f69ca-68f7-477e-94f3-d135cc5dfcbc
 caps.latest.revision: 27
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA1062: Validate arguments of public methods
 |||  
@@ -60,7 +48,7 @@ translation.priority.ht:
 ## Example  
  The following example shows a method that violates the rule and a method that satisfies the rule.  
   
- ```cs
+ ```csharp
  using System;
 
 namespace DesignLibrary
@@ -129,7 +117,7 @@ End Namespace
 ## Example  
  In [!INCLUDE[vsprvslong](../code-quality/includes/vsprvslong_md.md)], this rule does not detect that parameters are being passed to another method that does the validation.  
 
-```cs
+```csharp
 public string Method(string value)
 {
 	EnsureNotNull(value);
@@ -165,7 +153,7 @@ End Sub
   
  In the following `Person` class example, the `other` object that is passed to the `Person` copy constructor might be `null`.  
   
-```cs  
+```csharp  
 public class Person  
 {  
     public string Name { get; private set; }  
@@ -189,7 +177,7 @@ public class Person
 ## Example  
  In the following revised `Person` example, the `other` object that is passed to the copy constructor is first checked for null in the `PassThroughNonNull` method.  
   
-```cs  
+```csharp  
 public class Person  
 {  
     public string Name { get; private set; }  

@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 1887324f-892b-4fcd-ad33-748ba9517a06
 caps.latest.revision: 5
@@ -23,7 +24,7 @@ Determines whether an object provides a view of the buffer.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 ArrayBuffer.isView(object)  
 ```  
   
@@ -45,7 +46,7 @@ ArrayBuffer.isView(object)
 ## Example  
  The following example illustrates the use of the `isView` function to test a typed array and a `DataView` object.  
   
-```javascript  
+```JavaScript  
 var uint = new UInt8ClampedArray(10);  
   
 if(console && console.log) {  

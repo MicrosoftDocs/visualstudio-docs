@@ -14,29 +14,18 @@ helpviewer_keywords:
   - "IEnumDebugAddresses::Next method"
 ms.assetid: 941e4be7-858d-433a-9259-18d0d017be9e
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IEnumDebugAddresses::Next
 This method returns the next set of elements from the enumeration.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Next(  
    ULONG           celt,  
    IDebugAddress** rgelt,  
@@ -44,7 +33,7 @@ HRESULT Next(
 );  
 ```  
   
-```c#  
+```csharp  
 int Next(  
    uint            celt,  
    IDebugAddress[] rgelt,  

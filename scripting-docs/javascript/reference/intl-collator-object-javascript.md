@@ -13,6 +13,7 @@ f1_keywords:
   - "Collator"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: acbb9461-f956-4b5b-ae5f-6a47815ae15c
 caps.latest.revision: 14
@@ -46,9 +47,9 @@ collatorObj = new Intl.Collator([locales][, options])
   
 -   -kn to specify a numeric comparison: "*language*-*region*-u-kn-true&#124;false".  
   
--   –kf to specify whether to sort uppercase or lowercase characters first: "*language*-*region*-u-kf-upper&#124;lower&#124;false"). This extension is not currently supported.  
+-   -kf to specify whether to sort uppercase or lowercase characters first: "*language*-*region*-u-kf-upper&#124;lower&#124;false"). This extension is not currently supported.  
   
- To specify a numeric comparison, you can set the –kn extension in the locale string or use the `numeric` property in the `options` parameter. If you're using the `numeric` property, the –kn value will not apply.  
+ To specify a numeric comparison, you can set the -kn extension in the locale string or use the `numeric` property in the `options` parameter. If you're using the `numeric` property, the -kn value will not apply.  
   
  The `options` parameter may include the following properties:  
   
@@ -56,7 +57,7 @@ collatorObj = new Intl.Collator([locales][, options])
   
 -   `usage`. Specifies whether the goal of comparison is sorting or searching. The possible values are "sort" and "search". The default value is "sort".  
   
--   `sensitivity`. Specifies the collator’s sensitivity. The possible values are "base", "accent", "case", and "variant". The default value is `undefined`.  
+-   `sensitivity`. Specifies the collator's sensitivity. The possible values are "base", "accent", "case", and "variant". The default value is `undefined`.  
   
 -   `ignorePunctuation`. Specifies whether punctuation is ignored in the comparison. The possible values are "true" and "false". The default value is `false`.  
   
@@ -70,7 +71,7 @@ collatorObj = new Intl.Collator([locales][, options])
 |||  
 |-|-|  
 |Property|Description|  
-|[compare](../../javascript/reference/compare-property-intl-collator.md)|Returns a function that compares two strings by using the collator’s sort order.|  
+|[compare](../../javascript/reference/compare-property-intl-collator.md)|Returns a function that compares two strings by using the collator's sort order.|  
 |[constructor](../../javascript/reference/constructor-property-intl-collator.md)|Specifies the function that creates a collator.|  
 |[prototype](../../javascript/reference/prototype-property-intl-collator.md)|Returns a reference to the prototype for a collator.|  
   
@@ -85,7 +86,7 @@ collatorObj = new Intl.Collator([locales][, options])
 ## Example  
  The following example creates a `Collator` object and performs a comparison.  
   
-```javascript  
+```JavaScript  
 var co = new Intl.Collator(["de-DE"]);  
 co.compare("a", "b"); // Returns -1  
   
@@ -94,7 +95,7 @@ co.compare("a", "b"); // Returns -1
 ## Example  
  The following example uses `Collator` objects to sort an array. This example shows locale-specific differences.  
   
-```javascript  
+```JavaScript  
 var co1 = new Intl.Collator(["de-DE-u-co-phonebk"]);  
 var co2 = new Intl.Collator(["de-DE"]);  
 var co3 = new Intl.Collator(["en-US"]);  
@@ -111,7 +112,7 @@ if (console && console.log) {
 ## Example  
  The following example uses a `Collator` object to search for a string and specifies comparison options.  
   
-```javascript  
+```JavaScript  
 // String to search  
 var arr = ["ä", "ad", "af", "a"];  
 // String searched for  

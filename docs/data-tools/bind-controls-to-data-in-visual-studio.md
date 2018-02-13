@@ -6,11 +6,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "aspx"
 helpviewer_keywords: 
   - "data, displaying"
   - "data sources, displaying data"
@@ -18,24 +13,12 @@ helpviewer_keywords:
   - "dislaying data"
 ms.assetid: be8b6623-86a6-493e-ab7a-050de4661fd6
 caps.latest.revision: 40
-author: "mikeblome"
-ms.author: "mblome"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.technology: "vs-data-tools"
+ms.workload: 
+  - "data-storage"
 ---
 # Bind controls to data in Visual Studio
 You can display data to users of your application by binding data to controls. You can create these data-bound controls by dragging items from the **Data Sources** window onto a design surface or controls on a surface  in Visual Studio.  
@@ -81,4 +64,4 @@ You can display data to users of your application by binding data to controls. Y
   
 ## See Also  
  [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md)   
- [Windows Forms Data Binding](http://msdn.microsoft.com/Library/c3826d8e-ea25-4ad4-a669-45bfb19192aa)
+ [Windows Forms Data Binding](/dotnet/framework/winforms/windows-forms-data-binding)

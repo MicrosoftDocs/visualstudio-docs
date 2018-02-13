@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: d35d0287-6b33-4720-b9d7-8954c428ce4e
 caps.latest.revision: 2
@@ -23,7 +24,7 @@ Adds a new element to a `WeakSet`.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 weaksetObj.add(obj)  
 ```  
   
@@ -40,7 +41,7 @@ weaksetObj.add(obj)
 ## Example  
  The following example shows how to add members to a set and verify that they have been added.  
   
-```javascript  
+```JavaScript  
 var ws = new WeakSet();  
   
 var str = new String("Thomas Jefferson");  

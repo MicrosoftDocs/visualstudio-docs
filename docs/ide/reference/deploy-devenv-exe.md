@@ -15,23 +15,11 @@ helpviewer_keywords:
   - "/deploy Devenv switch"
 ms.assetid: e47c8723-df08-4645-aa2d-0c956e7ccca2
 caps.latest.revision: 13
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # /Deploy (devenv.exe)
 Deploys a solution after a build or rebuild. Applies to managed code projects only.  

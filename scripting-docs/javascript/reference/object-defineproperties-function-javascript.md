@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "Object.defineProperties function [JavaScript]"
@@ -56,7 +57,7 @@ object.defineProperties(object, descriptors)
   
  The example uses an object literal to create the `descriptors` object with the `newDataProperty` and `newAccessorProperty` descriptor objects.  
   
-```javascript  
+```JavaScript  
 var newLine = "<br />";  
   
 var obj = {};  
@@ -93,7 +94,7 @@ document.write ("newAccessorProperty value: " + obj.newAccessorProperty + newLin
   
  Like the earlier example, the following example adds properties dynamically instead of with an object literal.  
   
-```javascript  
+```JavaScript  
   
 var newLine = "<br />";  
   

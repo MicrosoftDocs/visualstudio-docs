@@ -1,6 +1,0 @@
-# [Install Visual Studio](install-visual-studio.md)
-# [Modify Visual Studio](modify-visual-studio.md)
-# [Uninstall Visual Studio](uninstall-visual-studio.md)
-# [Visual Studio Administrator Guide](visual-studio-administrator-guide.md)
-## [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
-## [Create an offline installation of Visual Studio](create-an-offline-installation-of-visual-studio.md)

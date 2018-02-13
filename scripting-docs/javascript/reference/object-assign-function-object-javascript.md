@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 2dd6b312-dcd3-414e-8d53-088c6341c46d
 caps.latest.revision: 4
@@ -45,7 +46,7 @@ Object.assign(target, ...sources );
 ## Example  
  The following code example shows how to merge an object using `Object.assign`.  
   
-```javascript  
+```JavaScript  
 var first = { name: "Bob" };  
 var last = { lastName: "Smith" };  
   
@@ -59,7 +60,7 @@ console.log(person);
 ## Example  
  The following example shows how to clone an object using `Object.assign`.  
   
-```javascript  
+```JavaScript  
 var obj = { person: "Bob Smith"};  
 var clone = Object.assign({}, obj);  
 ```  

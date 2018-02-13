@@ -20,20 +20,8 @@ caps.latest.revision: 10
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+ms.workload: 
+  - "multiple"
 ---
 # How to: Specify a Support URL for Individual Prerequisites in a ClickOnce Deployment
 A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment can test for a number of prerequisites that must be available on the client computer for the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application to run. These include the required minimum version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], the version of the operating system, and any assemblies that must be preinstalled in the global assembly cache (GAC). [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)], however, cannot install any of these prerequisites itself; if a prerequisite is not found, it simply halts installation and displays a dialog box explaining why the installation failed.  
@@ -95,7 +83,7 @@ A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment c
  The support URL is not displayed on the dialog box if the application is marked to run in partial trust.  
   
 ## See Also  
- [Mage.exe (Manifest Generation and Editing Tool)](http://msdn.microsoft.com/Library/77dfe576-2962-407e-af13-82255df725a1)   
+ [Mage.exe (Manifest Generation and Editing Tool)](/dotnet/framework/tools/mage-exe-manifest-generation-and-editing-tool)   
  [Walkthrough: Manually Deploying a ClickOnce Application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)   
  [\<compatibleFrameworks> Element](../deployment/compatibleframeworks-element-clickonce-deployment.md)   
  [ClickOnce and Authenticode](../deployment/clickonce-and-authenticode.md)   

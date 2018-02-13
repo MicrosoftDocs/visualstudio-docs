@@ -14,29 +14,18 @@ helpviewer_keywords:
   - "IDebugParsedExpression::EvaluateSync method"
 ms.assetid: 0ea04cfa-de87-4b6c-897e-4572c1a28942
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugParsedExpression::EvaluateSync
 This method evaluates the parsed expression and optionally casts the result to another data type.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EvaluateSync(   
    DWORD                 dwEvalFlags,  
    DWORD                 dwTimeout,  
@@ -48,7 +37,7 @@ HRESULT EvaluateSync( 
 );  
 ```  
   
-```c#  
+```csharp  
 int EvaluateSync(  
    uint                 dwEvalFlags,   
    uint                 dwTimeout,   

@@ -16,25 +16,12 @@ ms.assetid: 3d7ed601-2222-4be9-a557-f217db008753
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CvCreateMarkerSeriesWithCodePageA Function
-Creates marker series for a given provider and specifed code page. This function can be used to specify the code page explicitly for the text written out by marker API ANSI functions. Setting the code page can be useful in case the trace is captured and then analyzed on different machines with different locales/languages. By default the code page returned by GetACP() function is used.  
+Creates marker series for a given provider and specified code page. This function can be used to specify the code page explicitly for the text written out by marker API ANSI functions. Setting the code page can be useful in case the trace is captured and then analyzed on different machines with different locales/languages. By default the code page returned by GetACP() function is used.  
   
 ## Syntax  
   

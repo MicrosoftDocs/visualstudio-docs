@@ -14,22 +14,11 @@ helpviewer_keywords:
   - "IDebugProgramEngines2 interface"
 ms.assetid: 53d648f0-6c11-4337-badd-c43f3872b62c
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProgramEngines2
 This interface is used by program nodes to specify all the possible debug engines (DE) that can debug this program.  
@@ -44,7 +33,7 @@ IDebugProgramEngines2 : IUnknown
  A DE or a custom port supplier implements this interface on the same object that implements [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) to support establishing a specific DE to use for a particular program.  
   
 ## Notes for Callers  
- Call [QueryInterface](/visual-cpp/atl/queryinterface) on an `IDebugProgramNode2` interface to obtain this interface.  
+ Call [QueryInterface](/cpp/atl/queryinterface) on an `IDebugProgramNode2` interface to obtain this interface.  
   
 ## Methods in Vtable Order  
  The following table shows the methods of `IDebugProgramEngines2`.  

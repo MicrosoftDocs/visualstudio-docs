@@ -14,22 +14,11 @@ helpviewer_keywords:
   - "IDebugProcess3::SetHostingProcessLanguage"
 ms.assetid: e42f33ed-f29c-4e45-92ce-ab504b72d77c
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProcess3::SetHostingProcessLanguage
 This method sets the language that the process will be hosted under. This language can then be used by the debug engine (DE) to load the appropriate expression evaluator.  
@@ -42,7 +31,7 @@ HRESULT SetHostingProcessLanguage(
 );  
 ```  
   
-```c#  
+```csharp  
 int SetHostingProcessLanguage(  
    ref Guid guidLang  
 );  

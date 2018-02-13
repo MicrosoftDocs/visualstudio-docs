@@ -14,36 +14,25 @@ helpviewer_keywords:
   - "IDebugFunctionObject::CreatePrimitiveObject method"
 ms.assetid: 6e9dc8b6-b4e1-4abf-b6e0-e885910775bc
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugFunctionObject::CreatePrimitiveObject
 Creates a primitive data object, such as a simple integer.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT CreatePrimitiveObject(   
    OBJECT_TYPE    ot,  
    IDebugObject** ppObject  
 );  
 ```  
   
-```c#  
+```csharp  
 int CreatePrimitiveObject(  
    enum_OBJECT_TYPE ot,   
    out IDebugObject ppObject  

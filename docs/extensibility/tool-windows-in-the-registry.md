@@ -12,22 +12,11 @@ helpviewer_keywords:
   - "tool windows, registering"
 ms.assetid: c4bb8add-7148-49e4-a377-01d059fd5524
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Tool Windows in the Registry
 VSPackages that provide tool windows must register with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] as tool window providers. Tool windows created by using the Visual Studio Package template do this by default. Tool window providers have system registry keys that specify visibility attributes, such as default tool window size and location, the GUID of the window that serves as the tool window pane, and docking style.  
@@ -53,4 +42,4 @@ VSPackages that provide tool windows must register with [!INCLUDE[vsprvs](../cod
  The second optional key, ToolWindows\Visibility, specifies the GUIDs of commands that require the tool window to be made visible. In this case, there are no commands specified. For more information, see [Tool Window Display Configuration](../extensibility/tool-window-display-configuration.md).  
   
 ## See Also  
- [VSPackage Essentials](../misc/vspackage-essentials.md)
+ [VSPackages](../extensibility/internals/vspackages.md)

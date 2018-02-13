@@ -4,17 +4,17 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.dsltools.dsldesigner.xmlbehavior"
 helpviewer_keywords: 
   - "Domain-Specific Language, serialization"
-ms.assetid: 76c53ef1-e3b9-45da-b425-1bddb3c01395
-caps.latest.revision: 17
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Customizing File Storage and XML Serialization
 When the user saves an instance, or *model*, of a domain-specific language (DSL) in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], an XML file is created or updated. The file can be reloaded to recreate the model in the Store.  
@@ -150,7 +150,7 @@ When the user saves an instance, or *model*, of a domain-specific language (DSL)
      Create an Inheritance relationship from the domain class to another class that has a moniker key property.  
   
 ### Avoiding Duplicate Monikers  
- If you use qualified key monikers, it is possible that two elements in a user’s model could have the same value in the key property. For example, if your DSL has a class Person that has a property Name, the user could set the Names of two elements to be the same. Although the model could be saved to file, it would not reload correctly.  
+ If you use qualified key monikers, it is possible that two elements in a user's model could have the same value in the key property. For example, if your DSL has a class Person that has a property Name, the user could set the Names of two elements to be the same. Although the model could be saved to file, it would not reload correctly.  
   
  There are several methods that help avoid this situation:  
   
@@ -187,7 +187,7 @@ When the user saves an instance, or *model*, of a domain-specific language (DSL)
   
  Notice that because a GUID is unique, it is never prefixed by the moniker of its parent.  
   
- If you know that a particular domain property will always have a unique value within a model, you can set **Is Moniker Qualifier** to `true` for that property. This will cause it to be used as a qualifier, without using the moniker of the parent. For example, if you set both **Is Moniker Qualifier** and **Is Moniker Key** for the Title domain property of the Album class, the model’s name or identifier is not used in monikers for Album and its embedded children:  
+ If you know that a particular domain property will always have a unique value within a model, you can set **Is Moniker Qualifier** to `true` for that property. This will cause it to be used as a qualifier, without using the moniker of the parent. For example, if you set both **Is Moniker Qualifier** and **Is Moniker Key** for the Title domain property of the Album class, the model's name or identifier is not used in monikers for Album and its embedded children:  
   
 ```  
 <albumMoniker name="Jazz after Teatime" />  

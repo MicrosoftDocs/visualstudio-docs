@@ -5,7 +5,7 @@ ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-devops-test"
+  - "vs-ide-code-analysis"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -127,24 +127,11 @@ f1_keywords:
   - "_Ret_null_"
 ms.assetid: 82826a3d-0c81-421c-8ffe-4072555dca3a
 caps.latest.revision: 15
-author: "corob-msft"
-ms.author: "corob"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: mikeblome
+ms.author: mblome
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Annotating Function Parameters and Return Values
 This article describes typical uses of annotations for simple function parameters—scalars, and pointers to structures and classes—and most kinds of buffers.  This article also shows common usage patterns for annotations. For additional annotations that are related to functions, see [Annotating Function Behavior](../code-quality/annotating-function-behavior.md)  
@@ -284,19 +271,19 @@ This article describes typical uses of annotations for simple function parameter
   
 -   `_In_reads_to_ptr_(p)`  
   
-     A pointer to an array for which the expression `p` – `_Curr_` (that is, `p` minus `_Curr_`) is defined by the appropriate language standard.  The elements prior to `p` must be valid in pre-state.  
+     A pointer to an array for which the expression `p` - `_Curr_` (that is, `p` minus `_Curr_`) is defined by the appropriate language standard.  The elements prior to `p` must be valid in pre-state.  
   
 -   `_In_reads_to_ptr_z_(p)`  
   
-     A pointer to a null-terminated array for which the expression `p` – `_Curr_` (that is, `p` minus `_Curr_`) is defined by the appropriate language standard.  The elements prior to `p` must be valid in pre-state.  
+     A pointer to a null-terminated array for which the expression `p` - `_Curr_` (that is, `p` minus `_Curr_`) is defined by the appropriate language standard.  The elements prior to `p` must be valid in pre-state.  
   
 -   `_Out_writes_to_ptr_(p)`  
   
-     A pointer to an array for which the expression `p` – `_Curr_` (that is, `p` minus `_Curr_`) is defined by the appropriate language standard.  The elements prior to `p` do not have to be valid in pre-state and must be valid in post-state.  
+     A pointer to an array for which the expression `p` - `_Curr_` (that is, `p` minus `_Curr_`) is defined by the appropriate language standard.  The elements prior to `p` do not have to be valid in pre-state and must be valid in post-state.  
   
 -   `_Out_writes_to_ptr_z_(p)`  
   
-     A pointer to a null-terminated array for which the expression `p` – `_Curr_` (that is, `p` minus `_Curr_`) is defined by the appropriate language standard.  The elements prior to `p` do not have to be valid in pre-state and must be valid in post-state.  
+     A pointer to a null-terminated array for which the expression `p` - `_Curr_` (that is, `p` minus `_Curr_`) is defined by the appropriate language standard.  The elements prior to `p` do not have to be valid in pre-state and must be valid in post-state.  
   
 ## Optional Pointer Parameters  
  When a pointer parameter annotation includes `_opt_`, it indicates that the parameter may be null. Otherwise, the annotation performs the same as the version that doesn't include `_opt_`. Here is a list of the `_opt_` variants of the pointer parameter annotations:  
@@ -398,7 +385,7 @@ This article describes typical uses of annotations for simple function parameter
      The returned pointer points to a valid buffer if the function succeeds, or null if the function fails. This annotation is for a reference parameter.  
   
 ## Output Reference Parameters  
- A common use of the reference parameter is for output parameters.  For simple output reference parameters—for example, `int&`—`_Out_` provides the correct semantics.  However, when the output value is a pointer—for example `int *&`—the equivalent pointer annotations like `_Outptr_ int **` don’t provide the correct semantics.  To concisely express the semantics of output reference parameters for pointer types, use these composite annotations:  
+ A common use of the reference parameter is for output parameters.  For simple output reference parameters—for example, `int&`—`_Out_` provides the correct semantics.  However, when the output value is a pointer—for example `int *&`—the equivalent pointer annotations like `_Outptr_ int **` don't provide the correct semantics.  To concisely express the semantics of output reference parameters for pointer types, use these composite annotations:  
   
  **Annotations and Descriptions**  
   

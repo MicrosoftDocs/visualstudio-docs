@@ -14,36 +14,25 @@ helpviewer_keywords:
   - "IDebugObject::IsEqual method"
 ms.assetid: 4b76e663-ef2e-41ff-9be1-bf26d666a34a
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugObject::IsEqual
 Compares an object with this object.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT IsEqual(   
    IDebugObject* pObject,  
    BOOL*         pfIsEqual  
 );  
 ```  
   
-```c#  
+```csharp  
 int IsEqual(  
    IDebugObject pObject,  
    out int      pfIsEqual  

@@ -13,6 +13,7 @@ f1_keywords:
   - "toDateString"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "toDateString method"

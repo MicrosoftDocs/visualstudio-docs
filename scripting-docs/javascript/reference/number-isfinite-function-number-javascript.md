@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 41a91408-09d1-49f2-b7a0-6da105e2ed8e
 caps.latest.revision: 3
@@ -34,7 +35,7 @@ Number.isFinite(numValue)
   
 ## Example  
   
-```javascript  
+```JavaScript  
 // Returns true  
 Number.isFinite(100)  
 Number.isFinite(-100)  

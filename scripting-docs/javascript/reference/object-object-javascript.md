@@ -13,6 +13,7 @@ f1_keywords:
   - "object"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "Object object"

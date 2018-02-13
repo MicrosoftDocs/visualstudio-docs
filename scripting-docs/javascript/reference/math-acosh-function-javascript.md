@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 881dd2a0-36a5-403b-a3dc-523d8e1e1317
 caps.latest.revision: 3
@@ -36,7 +37,7 @@ Math.acosh(number)
 ## Example  
  The following code shows how to use the `acosh` function.  
   
-```javascript  
+```JavaScript  
 var v1 = Math.acosh(3);  
 vary v2 = Math.acosh(-1);  
   

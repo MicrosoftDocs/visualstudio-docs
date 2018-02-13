@@ -13,6 +13,7 @@ f1_keywords:
   - "length Property"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "Array object"
@@ -44,7 +45,7 @@ numVar = arrayObj.length
 ## Remarks  
  In JavaScript arrays are sparse, and the elements in an array do not have to be contiguous. The `length` property is not necessarily the number of elements in the array. For example, in the following array definition, `my_array.length` contains 7, not 2:  
   
-```javascript  
+```JavaScript  
 var my_array = new Array( );  
 my_array[0] = "Test";  
 my_array[6] = "Another Test";  
@@ -56,7 +57,7 @@ my_array[6] = "Another Test";
   
  The following example illustrates the use of the `length` property:  
   
-```javascript  
+```JavaScript  
 var a;  
 a = new Array(0,1,2,3,4);  
 document.write(a.length);  

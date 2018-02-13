@@ -14,29 +14,18 @@ helpviewer_keywords:
   - "IDebugDocumentContext2::Compare"
 ms.assetid: 2327b1ba-52d0-42fb-a01e-63cb4b332d2f
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugDocumentContext2::Compare
 Compares this document context to a given array of document contexts.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Compare(   
    DOCCONTEXT_COMPARE       compare,  
    IDebugDocumentContext2** rgpDocContextSet,  
@@ -45,7 +34,7 @@ HRESULT Compare( 
 );  
 ```  
   
-```c#  
+```csharp  
 int Compare(   
    enum_ DOCCONTEXT_COMPARE compare,  
    IDebugDocumentContext2[] rgpDocContextSet,  

@@ -14,35 +14,24 @@ helpviewer_keywords:
   - "IDebugProperty2::GetReference method"
 ms.assetid: 2fa97d9b-c3d7-478e-ba5a-a933f40a0103
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProperty2::GetReference
 Returns a reference to the property's value.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetReference(  
    IDebugReference2** ppReference  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetReference(  
    out IDebugReference2 ppReference  
 );  

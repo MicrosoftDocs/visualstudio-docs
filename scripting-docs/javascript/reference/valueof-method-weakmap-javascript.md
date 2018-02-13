@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: b31b9701-27ab-4553-b907-6f6f51f896c5
 caps.latest.revision: 3
@@ -23,7 +24,7 @@ Returns the primitive value of the specified object.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 weakmapObj.valueOf()  
 ```  
   

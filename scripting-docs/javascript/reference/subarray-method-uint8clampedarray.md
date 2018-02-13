@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 309ed9e8-5805-47ab-b3ed-501cae1323dd
 caps.latest.revision: 5
@@ -23,7 +24,7 @@ Gets a new [Uint8ClampedArray](../../javascript/reference/uint8array-object.md) 
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 var newUint8ClampedArray = uint8ClampedArray.subarray(begin, end);  
 ```  
   
@@ -43,7 +44,7 @@ var newUint8ClampedArray = uint8ClampedArray.subarray(begin, end);
 ## Example  
  The following example shows how to get a subarray that is two elements long, starting with the first element of the array.  
   
-```javascript  
+```JavaScript  
 var req = new XMLHttpRequest();  
     req.open('GET', "http://www.example.com");  
     req.responseType = "arraybuffer";  

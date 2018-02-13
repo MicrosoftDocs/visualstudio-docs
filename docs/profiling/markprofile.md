@@ -14,21 +14,9 @@ ms.assetid: 54dac8c8-c8ee-4023-af27-b25466e3a6ec
 caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # MarkProfile
 The `MarkProfile` method inserts a profile mark in the .vsp file. Profiling for the thread containing the `MarkProfile` function must be ON for the mark to be inserted.  

@@ -13,6 +13,7 @@ f1_keywords:
   - "split"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "split method"
@@ -48,7 +49,7 @@ stringObj.split([separator[, limit]])
 ## Example  
  The following example illustrates the use of the **split** method.  
   
-```javascript  
+```JavaScript  
 var s = "The quick brown fox jumps over the lazy dog.";  
 var ss = s.split(" ");  
 for (var i in ss) {  

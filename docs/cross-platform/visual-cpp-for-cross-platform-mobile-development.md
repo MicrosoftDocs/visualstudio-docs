@@ -4,32 +4,18 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "tgt-pltfrm-cross-plat"
+ms.technology: vs-ide-mobile
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
 ms.assetid: 0bb872d6-981b-4c96-9143-fcec5336bf0d
 caps.latest.revision: 9
-author: "BrianPeek"
-ms.author: "brpeek"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "corob-msft"
+ms.author: "corob"
+manager: ghogen
+ms.workload: 
+  - "xplat-cplusplus"
 ---
 # Visual C++ for Cross-Platform Mobile Development
 You can build native C++ apps for iOS, Android and Windows devices, and share common code in libraries built for iOS, Android, and Windows, by using Visual C++ for Cross-Platform Mobile Development. This is an option available in Visual Studio 2015 that installs the SDKs and tools you need for cross-platform development of shared libraries and native apps. When it's installed, you can use Visual C++ to create code that runs on iOS and Android devices and platforms, in addition to Windows, Windows Phone, and Xbox.  

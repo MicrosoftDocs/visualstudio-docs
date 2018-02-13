@@ -13,6 +13,7 @@ f1_keywords:
   - "VS.WebClient.Help.SCRIPT5002"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: f62ade94-9f6f-4832-9b9b-49a06a385bbe
 caps.latest.revision: 8
@@ -23,7 +24,7 @@ manager: "ghogen"
 # Function expected
 Either you attempted to invoke one of the **Function prototype** methods on an object that was not a `Function` object, or you used an object in a function call context. For example, the following code produces this error because **example** is not a function.  
   
-```javascript  
+```JavaScript  
 var example = new Object();  // Create a new object called "example".  
 var x = example();           // Try and call example as if it were a function.  
 ```  

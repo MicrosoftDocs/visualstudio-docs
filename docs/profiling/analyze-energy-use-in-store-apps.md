@@ -1,5 +1,5 @@
 ---
-title: "Analyze energy use in Store apps | Microsoft Docs"
+title: "Analyze energy use in UWP apps | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -9,33 +9,20 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 ms.assetid: 96d06843-b97e-45a8-8126-07478a40bfc4
 caps.latest.revision: 34
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "uwp"
 ---
-# Analyze energy use in Store apps
-The Visual Studio **Energy Consumption** profiler helps you analyze the power and energy consumption of Windows Store apps on low-power tablet devices that run all or part of the time on their own batteries. On a battery-powered device, an app that uses too much energy can cause so much customer dissatisfaction that, eventually, customers might even uninstall it. Optimizing energy use can increase your app’s adoption and use by customers.  
+# Analyze energy use in UWP apps
+The Visual Studio **Energy Consumption** profiler helps you analyze the power and energy consumption of UWP apps on low-power tablet devices that run all or part of the time on their own batteries. On a battery-powered device, an app that uses too much energy can cause so much customer dissatisfaction that, eventually, customers might even uninstall it. Optimizing energy use can increase your app's adoption and use by customers.  
   
 ##  <a name="BKMK_What_the_Energy_Consumption_tool_is__how_it_works__and_what_it_measures"></a> What the Energy Consumption profiler is, how it works, and what it measures  
  The Energy Consumption profiler captures the activities of the display, CPU, and network connections of a device during a profiling session. It then generates estimates of the power used for those activities and the total amount of energy for the profiling session.  
@@ -71,7 +58,7 @@ The Visual Studio **Energy Consumption** profiler helps you analyze the power an
  When the method executes, a user mark is added to the profiling data along with a message.  
   
 > [!NOTE]
->  -   Windows.Foundation.Diagnostics LoggingChannel implements the [Windows.Foundation.IClosable](http://msdn.microsoft.com/library/windows/apps/windows.foundation.iclosable.aspx) interface  (projected as [System.IDisposable](http://msdn.microsoft.com/library/System.IDisposable.aspx) in C# and VB).To avoid leaking operating system resources, call [LoggingChannel.Close](http://msdn.microsoft.com/library/windows/apps/windows.foundation.diagnostics.loggingchannel.close.aspx) ([Windows.Foundation.Diagnostics.LoggingChannel.Dispose](https://msdn.microsoft.com/en-us/library/windows/apps/windows.foundation.diagnostics.loggingchannel.dispose.aspx) in C# and VB) when you are finished with a logging channel.  
+>  -   Windows.Foundation.Diagnostics LoggingChannel implements the [Windows.Foundation.IClosable](/uwp/api/windows.foundation.iclosable) interface  (projected as [System.IDisposable](/dotnet/api/system.idisposable) in C# and VB).To avoid leaking operating system resources, call [LoggingChannel.Close](/uwp/api/Windows.Foundation.Diagnostics.LoggingChannel) ([Windows.Foundation.Diagnostics.LoggingChannel.Dispose](/uwp/api/Windows.Foundation.Diagnostics.LoggingChannel) in C# and VB) when you are finished with a logging channel.  
 > -   Each open logging channel must have a unique name. Attempting to create a new logging channel with the same name as an undisposed channel causes an exception.  
   
  See the Windows SDK Sample [LoggingSession Sample](http://code.msdn.microsoft.com/windowsapps/LoggingSession-Sample-ccd52336) for examples.  
@@ -89,10 +76,10 @@ if (performance && performance.mark) {
  *markDescription* is a string that contains the message to display in the user mark tooltip.  
   
 ##  <a name="BKMK_Configure_your_environment_for_profiling"></a> Configure your environment for profiling  
- To obtain the good estimates, you’ll want to profile the energy use of the app on a low-powered device that is being powered by its batteries. Because Visual Studio does not run on most of these devices, you’ll need to connect your Visual Studio computer to the device using the Visual Studio remote tools. To connect to a remote device, you need to configure both the Visual Studio project and the remote device. See [Run Windows Store apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md) for more information.  
+ To obtain the good estimates, you'll want to profile the energy use of the app on a low-powered device that is being powered by its batteries. Because Visual Studio does not run on most of these devices, you'll need to connect your Visual Studio computer to the device using the Visual Studio remote tools. To connect to a remote device, you need to configure both the Visual Studio project and the remote device. See [Run UWP apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md) for more information.  
   
 > [!TIP]
->  -   We don’t recommend energy profiling on the Windows Store simulator or on the Visual Studio computer. Profiling on the actual device provides far more realistic data.  
+>  -   We don't recommend energy profiling on the UWP simulator or on the Visual Studio computer. Profiling on the actual device provides far more realistic data.  
 > -   Profile on the target device while it is powered by its batteries.  
 > -   Close other apps that might use the same resources (network, CPU, or display).  
   
@@ -116,7 +103,7 @@ if (performance && performance.mark) {
      Visual Studio analyzes the collected data and displays the results.  
   
 ##  <a name="BKMK_Collect_energy_profile_data_for_an_installed_app"></a> Collect energy profile data for an installed app  
- The Energy Consumption tool can only be run on Window Store 8.1 apps that are launched from a Visual Studio solution or are installed from the Windows store. When a solution is open in Visual Studio, the default target is the **Startup Project**. To target an installed app:  
+ The Energy Consumption tool can only be run on UWP apps that are launched from a Visual Studio solution or are installed from the Microsoft Store. When a solution is open in Visual Studio, the default target is the **Startup Project**. To target an installed app:  
   
 1.  Choose **Change Target** and then choose **Installed App**.  
   
@@ -161,6 +148,10 @@ if (performance && performance.mark) {
   
 -   The **Connection state and cost management** sections for [C#/VB/C++ and XAML](http://msdn.microsoft.com/en-us/0ee0b706-8432-4d49-9801-306ed90764e1) and [JavaScript and HTML](http://msdn.microsoft.com/en-us/372afa6a-1c7c-4657-967d-03a77cd8e933) in the Windows Dev Center describe the Windows APIs that provide network connectivity information that your app can use to minimize the cost of network traffic.  
   
-     The Visual Studio simulator for Windows Store apps enables you to simulate data connection properties of the network information APIs. See [Run Windows Store apps in the simulator](../debugger/run-windows-store-apps-in-the-simulator.md)  
+     The Visual Studio simulator for UWP apps enables you to simulate data connection properties of the network information APIs. See [Run UWP apps in the simulator](../debugger/run-windows-store-apps-in-the-simulator.md)  
   
 -   The **JavaScript Function Timing** and the **CPU Usage** tools can help you reduce the CPU load when it is caused by inefficient functions. See [Analyze CPU Usage](../profiling/analyze-cpu-usage-in-a-windows-universal-app.md).
+
+## See Also
+ [Profiling in Visual Studio](../profiling/index.md)  
+ [Profiling Feature Tour](../profiling/profiling-feature-tour.md)

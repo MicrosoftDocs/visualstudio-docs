@@ -9,7 +9,8 @@
         "exclude": [
           "**/obj/**",
           "vsdocsdocs/**",
-          "**/includes/**"
+          "**/includes/**",
+          "missingapi.yml"
         ]
       }
     ],
@@ -31,22 +32,26 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-            "breadcrumb_path": "~/_breadcrumb/toc.yml",
-            "ROBOTS": "INDEX,FOLLOW",
-            "author": "",
-            "ms.author": "",
-            "manager": "ghogen",
-            "ms.date": "11/16/2016",
-            "ms.topic": "article",
-            "audience": "developer",
-            "ms.reviewer": "",
-            "ms.prod": "visual-studio-dev15",
-            "ms.technology": "vs-ide-general",
-            "ms.tgt_pltfrm": "dotnet",
-            "searchScope": ["VS IDE"]},
-    "fileMetadata": {},
+      "feedback_system": "GitHub",
+      "feedback_github_repo": "MicrosoftDocs/visualstudio-docs",
+      "feedback_product_url": "https://developercommunity.visualstudio.com/",
+      "breadcrumb_path": "~/_breadcrumb/toc.yml",
+      "ROBOTS": "INDEX,FOLLOW",
+      "author": "",
+      "ms.author": "",
+      "manager": "ghogen",
+      "ms.date": "11/16/2016",
+      "ms.topic": "article",
+      "audience": "developer",
+      "ms.reviewer": "",
+      "ms.prod": "visual-studio-dev15",
+      "ms.technology": "vs-ide-general",
+      "ms.tgt_pltfrm": "dotnet",
+      "searchScope": ["VS IDE"],
+      "uhfHeaderId": "MSDocsHeader-VisualStudio"
+    },
     "template": [],
-    "xref": ["msdn.4.5.2.zip", "namespaces.4.5.2.zip", "vs.110.zip", "vs.140.zip", "office15.zip"],
+    "xref": ["missingapi.yml", "../dotnet-xref/_zip/dotnet.zip", "namespaces.4.5.2.zip", "vs.110.zip", "vs.140.zip", "office15.zip"],
     "dest": "vsdocsdocs"
   }
 }

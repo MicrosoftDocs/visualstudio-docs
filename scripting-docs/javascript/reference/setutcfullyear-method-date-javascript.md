@@ -13,6 +13,7 @@ f1_keywords:
   - "setUTCFullYear"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "dates, UTC"
@@ -59,7 +60,7 @@ dateObj.setUTCFullYear(numYear[, numMonth[, numDate]])
 ## Example  
  The following example illustrates the use of the `setUTCFullYear` method.  
   
-```javascript  
+```JavaScript  
 var dtFirst = new Date();  
 dtFirst.setUTCFullYear(2007);  
   

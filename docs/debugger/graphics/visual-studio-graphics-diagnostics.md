@@ -12,23 +12,11 @@ f1_keywords:
   - "vs.graphics"
 ms.assetid: fa69c550-62a7-41b5-bb1f-7eb04af1a6e8
 caps.latest.revision: 39
-author: "BrianPeek"
-ms.author: "brpeek"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Visual Studio Graphics Diagnostics
 Visual Studio*Graphics Diagnostics* is a set of tools for recording and then analyzing rendering and performance problems in Direct3D apps. Graphics Diagnostics can be used on apps that are running locally on your Windows PC, in a Windows device emulator, or on a remote PC or device.  
@@ -93,5 +81,5 @@ Visual Studio*Graphics Diagnostics* is a set of tools for recording and then ana
   
 |Title|Description|  
 |-----------|-----------------|  
-|[Debugging in Visual Studio](../debugging-in-visual-studio.md)|Introduces the debugging functionality in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].|  
+|[Debugger Feature Tour](../debugging-in-visual-studio.md)|Introduces the debugging functionality in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].|  
 |[DirectX Graphics and Gaming](http://go.microsoft.com/fwlink/?LinkId=256498)|Provides articles that discuss DirectX graphics technologies.|

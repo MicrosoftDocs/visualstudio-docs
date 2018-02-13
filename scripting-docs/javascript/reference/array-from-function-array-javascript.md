@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 1bf59a99-f860-4c4d-b4c6-d5f1f946a490
 caps.latest.revision: 3
@@ -45,7 +46,7 @@ Array.from (arrayLike [ , mapfn [ , thisArg ] ] );
 ## Example  
  The following example returns an array from a collection of DOM element nodes.  
   
-```javascript  
+```JavaScript  
 var elemArr = Array.from(document.querySelectorAll('*'));  
 var elem = elemArr[0]; // elem contains a reference to the first DOM element  
   
@@ -54,7 +55,7 @@ var elem = elemArr[0]; // elem contains a reference to the first DOM element
 ## Example  
  The following example returns an array of characters.  
   
-```javascript  
+```JavaScript  
 var charArr = Array.from("abc");  
 // charArr[0] == "a";  
 ```  
@@ -62,7 +63,7 @@ var charArr = Array.from("abc");
 ## Example  
  The following example returns an array of objects contained in the collection.  
   
-```javascript  
+```JavaScript  
 var setObj = new Set("a", "b", "c");  
 var objArr = Array.from(setObj);  
 // objArr[1] == "b";   
@@ -71,7 +72,7 @@ var objArr = Array.from(setObj);
 ## Example  
  The following example shows the use of arrow syntax and a mapping function to change the value of elements.  
   
-```javascript  
+```JavaScript  
 var arr = Array.from([1, 2, 3], x => x * 10);  
 // arr[0] == 10;  
 // arr[1] == 20;  

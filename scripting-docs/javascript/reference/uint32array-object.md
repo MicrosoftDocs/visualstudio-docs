@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: c4bf5409-2d4b-4660-9f4b-a45d7a02b47e
 caps.latest.revision: 15
@@ -77,7 +78,7 @@ uint32Array = new Uint32Array( buffer, byteOffset, length);
 ## Example  
  The following example shows how to use a Uint32Array object to process the binary data acquired from an XMLHttpRequest:  
   
-```javascript  
+```JavaScript  
 var req = new XMLHttpRequest();  
     req.open('GET', "http://www.example.com");  
     req.responseType = "arraybuffer";  

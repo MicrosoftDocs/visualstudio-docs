@@ -12,22 +12,11 @@ helpviewer_keywords:
   - "Tools Options pages [Visual Studio SDK], creating"
 ms.assetid: 9f4e210c-4b47-4daa-91fa-1c301c4587f9
 caps.latest.revision: 62
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Creating an Options Page
 This walkthrough creates a simple Tools/Options page that uses a property grid to examine and set properties.  
@@ -54,20 +43,20 @@ This walkthrough creates a simple Tools/Options page that uses a property grid t
   
 2.  Add the following using statement.  
   
-    ```c#  
+    ```csharp  
     using System.ComponentModel;  
     ```  
   
 3.  Declare an OptionPageGrid class and derive it from <xref:Microsoft.VisualStudio.Shell.DialogPage>.  
   
-    ```c#  
+    ```csharp  
     public class OptionPageGrid : DialogPage  
     {  }  
     ```  
   
 4.  Apply a <xref:Microsoft.VisualStudio.Shell.ProvideOptionPageAttribute> to the VSPackage class to assign to the class an options category and options page name for the OptionPageGrid. The result should look like this:  
   
-    ```c#  
+    ```csharp  
     [PackageRegistration(UseManagedResourcesOnly = true)]  
     [InstalledProductRegistration("#110", "#112", "1.0", IconResourceID = 400)]  
     [ProvideMenuResource("Menus.ctmenu", 1)]  
@@ -85,7 +74,7 @@ This walkthrough creates a simple Tools/Options page that uses a property grid t
   
     -   Apply a <xref:System.ComponentModel.DescriptionAttribute?displayProperty=fullName> to assign to the property a description.  
   
-    ```c#  
+    ```csharp  
     public class OptionPageGrid : DialogPage  
     {  
         private int optionInt = 256;  
@@ -110,7 +99,7 @@ This walkthrough creates a simple Tools/Options page that uses a property grid t
   
      In the left pane you should see **My Category**. (Options categories are listed in alphabetical order, so it should appear about halfway down the list.) Open **My Category** and then click **My Grid Page**.The options grid appears in the right pane. The property category is **My Options**, and the property name is **My Integer Option**. The property description, **My integer option**, appears at the bottom of the pane. Change the value from its initial value of 256 to something else. Click **OK**, and then reopen **My Grid Page**. You can see that the new value persists.  
   
-     Your options page is also available through Visual Studio’s Quick Launch. In the Quick Launch window in the upper right corner of the IDE, type **My Category** and you will see **My Category –> My Grid Page** listed in the dropdown.  
+     Your options page is also available through Visual Studio's Quick Launch. In the Quick Launch window in the upper right corner of the IDE, type **My Category** and you will see **My Category -> My Grid Page** listed in the dropdown.  
   
 ## Creating a Tools Options Custom Page  
  In this section, you create a Tools Options page with a custom UI. You use this page to display and change the value of a property.  
@@ -125,7 +114,7 @@ This walkthrough creates a simple Tools/Options page that uses a property grid t
   
 3.  Add an `OptionPageCustom` class, just before the `OptionPageGrid` class. Derive the new class from `DialogPage`.  
   
-    ```c#  
+    ```csharp  
     public class OptionPageCustom : DialogPage  
     {  
         private string optionValue = "alpha";  
@@ -140,7 +129,7 @@ This walkthrough creates a simple Tools/Options page that uses a property grid t
   
 4.  Add a GUID attribute. Add an OptionString property:  
   
-    ```c#  
+    ```csharp  
     [Guid("00000000-0000-0000-0000-000000000000")]  
     public class OptionPageCustom : DialogPage  
     {  
@@ -156,7 +145,7 @@ This walkthrough creates a simple Tools/Options page that uses a property grid t
   
 5.  Apply a second <xref:Microsoft.VisualStudio.Shell.ProvideOptionPageAttribute> to the VSPackage class. This attribute assigns the class an options category and options page name.  
   
-    ```c#  
+    ```csharp  
     [PackageRegistration(UseManagedResourcesOnly = true)]  
     [InstalledProductRegistration("#110", "#112", "1.0", IconResourceID = 400)]  
     [ProvideMenuResource("Menus.ctmenu", 1)]  
@@ -176,7 +165,7 @@ This walkthrough creates a simple Tools/Options page that uses a property grid t
   
 8.  Add a public `OptionsPage` field, an `Initialize` method to the control class, and update the event handler to set the option value to the contents of the text box:  
   
-    ```c#  
+    ```csharp  
     public partial class MyUserControl : UserControl  
     {  
         public MyUserControl()  
@@ -202,7 +191,7 @@ This walkthrough creates a simple Tools/Options page that uses a property grid t
   
 9. In the package code file, add an override for the `OptionPageCustom.Window` property to the OptionPageCustom class to create, initialize, and return an instance of `MyUserControl`. The class should now look like this:  
   
-    ```c#  
+    ```csharp  
     [Guid("00000000-0000-0000-0000-000000000000")]  
     public class OptionPageCustom : DialogPage  
     {  
@@ -256,9 +245,9 @@ This walkthrough creates a simple Tools/Options page that uses a property grid t
   
 2.  Now add a custom command item template named **MyToolsOptionsCommand** to display the value. In the **Add New Item** dialog, go to **Visual C# / Extensibility** and select **Custom Command**. In the **Name** field at the bottom of the window, change the command file name to **MyToolsOptionsCommand.cs**.  
   
-3.  In the MyToolsOptionsCommand file, replace the body of the command’s `ShowMessageBox` method with the following:  
+3.  In the MyToolsOptionsCommand file, replace the body of the command's `ShowMessageBox` method with the following:  
   
-    ```c#  
+    ```csharp  
     private void ShowMessageBox(object sender, EventArgs e)  
     {  
         MyToolsOptionsPackage myToolsOptionsPackage = this.package as MyToolsOptionsPackage;  

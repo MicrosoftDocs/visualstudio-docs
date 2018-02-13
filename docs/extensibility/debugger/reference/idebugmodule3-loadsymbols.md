@@ -14,35 +14,24 @@ helpviewer_keywords:
   - "IDebugModule3::LoadSymbols"
 ms.assetid: 7548c8c1-cbc6-48aa-a845-19058d4a85bb
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugModule3::LoadSymbols
 Loads the symbols for the current module.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT LoadSymbols(  
    void  
 );  
 ```  
   
-```c#  
+```csharp  
 int LoadSymbols();  
 ```  
   

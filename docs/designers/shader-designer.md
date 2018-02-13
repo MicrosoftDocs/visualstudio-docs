@@ -5,7 +5,7 @@ ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-ide-general"
+  - "vs-ide-designers"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -13,24 +13,11 @@ f1_keywords:
   - "vs.graphics.shaderdesigner"
 ms.assetid: 5db09a16-b82c-4ba3-8ec9-630cdc109397
 caps.latest.revision: 32
-author: "BrianPeek"
-ms.author: "brpeek"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Shader Designer
 This document describes how to work with the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Shader Designer to create, modify, and export custom visual effects that are known as *shaders*.  
@@ -139,8 +126,8 @@ This document describes how to work with the [!INCLUDE[vsprvs](../code-quality/i
   
 |Parameter|Properties|  
 |---------------|----------------|  
-|**Texture 1** – **Texture 8**|**Access**:                             **Public** to allow the property to be set from the Model Editor; otherwise, **Private**.<br /><br /> **Filename**: The full path of the texture file that is associated with this texture register.|  
-|**Material Ambient**|**Access**:                             **Public** to allow the property to be set from the Model Editor; otherwise, **Private**.<br /><br /> **Value**: The diffuse color of the current pixel due to indirect – or ambient – lighting.|  
+|**Texture 1** - **Texture 8**|**Access**:                             **Public** to allow the property to be set from the Model Editor; otherwise, **Private**.<br /><br /> **Filename**: The full path of the texture file that is associated with this texture register.|  
+|**Material Ambient**|**Access**:                             **Public** to allow the property to be set from the Model Editor; otherwise, **Private**.<br /><br /> **Value**: The diffuse color of the current pixel due to indirect - or ambient - lighting.|  
 |**Material Diffuse**|**Access**: **Public** to allow the property to be set from the Model Editor; otherwise, **Private**.<br /><br /> **Value**:  A color that describes how the current pixel diffuses direct lighting.|  
 |**Material Emissive**|**Access**:                              **Public** to allow the property to be set from the Model Editor; otherwise, **Private**.<br /><br /> **Value**: The color contribution of the current pixel due to self-provided lighting.|  
 |**Material Specular**|**Access**:                              **Public** to allow the property to be set from the Model Editor; otherwise, **Private**.<br /><br /> **Value**: A color that describes how the current pixel reflects direct lighting.|  

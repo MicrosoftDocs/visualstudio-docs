@@ -14,35 +14,24 @@ helpviewer_keywords:
   - "IDebugStackFrame2::GetName"
 ms.assetid: 069d4f96-363f-404e-9c89-5318c4c9821b
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugStackFrame2::GetName
 Gets the name of the stack frame.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetName (   
    BSTR* pbstrName  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetName (   
    out string pbstrName  
 );  

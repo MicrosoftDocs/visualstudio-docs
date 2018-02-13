@@ -14,22 +14,11 @@ helpviewer_keywords:
   - "IPropertyProxyProvider interface"
 ms.assetid: 52e9f7fc-6fe0-4d23-890b-5673dca8c3cb
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IPropertyProxyProvider
 This interface supplies a proxy interface to view and change an object's data.  
@@ -44,7 +33,7 @@ IPropertyProxyProvider : IUnknown
  The expression evaluator (EE) implements this interface on the same object that implements the [IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md) interface as part of the EE's support of type visualizers.  
   
 ## Notes for Callers  
- Call [QueryInterface](/visual-cpp/atl/queryinterface) on an `IDebugProperty3` interface to obtain this interface.  
+ Call [QueryInterface](/cpp/atl/queryinterface) on an `IDebugProperty3` interface to obtain this interface.  
   
 ## Methods in Vtable order  
  The `IPropertyProxyProvider` interface implements the following method:  

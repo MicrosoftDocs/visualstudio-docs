@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 97aa27c0-d650-411e-b929-dd9c4a2ae9a5
 caps.latest.revision: 9
@@ -23,7 +24,7 @@ Gets a new Float32Array view of the [ArrayBuffer Object](../../javascript/refere
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 var newFloat32Array = float32Array.subarray(begin, end);  
 ```  
   
@@ -43,7 +44,7 @@ var newFloat32Array = float32Array.subarray(begin, end);
 ## Example  
  The following example shows how to get a subarray three elements long, starting with the first element of the array.  
   
-```javascript  
+```JavaScript  
 var req = new XMLHttpRequest();  
     req.open('GET', "http://www.example.com");  
     req.responseType = "arraybuffer";  

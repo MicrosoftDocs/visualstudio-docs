@@ -13,6 +13,7 @@ f1_keywords:
   - "&="
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "&= operator"
@@ -45,13 +46,13 @@ result &= expression
 ## Remarks  
  Using this operator is the same as specifying:  
   
-```javascript  
+```JavaScript  
 result = result & expression  
 ```  
   
  The [Bitwise AND Operator (&)](../../javascript/reference/bitwise-and-operator-decrement-javascript.md) looks at the binary representation of the values of `result` and `expression` and does a bitwise AND operation on them. The output of this operation behaves like this:  
   
-```javascript  
+```JavaScript  
 // 9 is 00000000000000000000000000001001  
 var expr1 = 9;  
   

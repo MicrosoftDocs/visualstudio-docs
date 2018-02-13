@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 12bedca1-bde7-413a-a4e2-06c03559044f
 caps.latest.revision: 5
@@ -23,7 +24,7 @@ Returns `true` if the `WeakMap` object contains the specified element.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 weakmapObj.has(key)  
 ```  
   
@@ -40,7 +41,7 @@ weakmapObj.has(key)
 ## Example  
  The following example shows how to add a member to a `WeakMap` and then use `has` to check whether it is present.  
   
-```javascript  
+```JavaScript  
 var dog = {  
     breed: "yorkie"  
 }  

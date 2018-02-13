@@ -9,12 +9,9 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
+  - "CSharp"
+  - "VB"
   - "FSharp"
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "VB"
-  - "CSharp"
   - "C++"
 helpviewer_keywords: 
   - "debugging managed code"
@@ -24,21 +21,9 @@ ms.assetid: fa3aff01-c271-4aa7-b5b1-def560471c84
 caps.latest.revision: 34
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "dotnet"
 ---
 # Debugging Managed Code
 This section covers common debugging problems and techniques for managed applications, or applications written in languages that target the common language runtime, such as Visual Basic, C#, and C++. The techniques described here are high-level techniques. For more information, see [Using the Debugger](../debugger/debugger-basics.md).  
@@ -78,28 +63,29 @@ This section covers common debugging problems and techniques for managed applica
  [IntelliTrace](../debugger/intellitrace.md)  
  Find bugs faster and easier by recording your app's execution history with IntelliTrace. Step backward and forward through recorded events and calls to examine your app's state at key points in time. Debug your code without setting lots of breakpoints or restarting your app as frequently. Requires Visual Studio Ultimate.  
   
- [Tracing and Instrumenting Applications](http://msdn.microsoft.com/Library/773b6fc4-9013-4322-b728-5dec7a72e743)  
+ [Tracing and Instrumenting Applications](/dotnet/framework/debug-trace-profile/tracing-and-instrumenting-applications)  
  Describes tracing, a way for you to monitor the execution of your application while it is running, and instrumenting, which involves placing trace statements at strategic locations in your code. This topic also provides links to an introduction to instrumentation and tracing, trace switches, trace listeners, tracing code in an application, adding trace statements to application code, and compiling conditionally with <xref:System.Diagnostics.Debug> and <xref:System.Diagnostics.Trace>.  
   
- [/ASSEMBLYDEBUG](/visual-cpp/build/reference/assemblydebug-add-debuggableattribute)  
+ [/ASSEMBLYDEBUG](/cpp/build/reference/assemblydebug-add-debuggableattribute)  
  Describes a linker option that adds <xref:System.Diagnostics.DebuggableAttribute> to code written with C++. This attribute is needed to use debugging features such as attach with C++.  
   
- [Debugging Windows Service Applications](http://msdn.microsoft.com/Library/63ab0800-0f05-4f1e-88e6-94c73fd920a2)  
+ [Debugging Windows Service Applications](/dotnet/framework/windows-services/how-to-debug-windows-service-applications)  
  Provides considerations for debugging Windows service applications, including setting up, attaching to the process, debugging the code in the service's `OnStart` method and the code in the Main method, setting breakpoints, and using the Services Control Manager to start, stop, pause, and continue your service.  
   
- [Debugging and Profiling](http://msdn.microsoft.com/Library/4a04863e-2475-46f4-bc3f-3c11510c2a4b)  
+ [Debugging and Profiling](/dotnet/framework/debug-trace-profile/index)  
  Discusses debugging .NET Framework applications and the configuration requirements.  
   
  [Debugging Script and Web Applications](../debugger/debugging-web-applications-and-script.md)  
  Describes common debugging problems and techniques you may encounter when debugging script and Web applications.  
   
- [What’s New for the Debugger in Visual Studio 2015](../debugger/what-s-new-for-the-debugger-in-visual-studio.md)  
+ [What's New for the Debugger in Visual Studio 2015](../debugger/what-s-new-for-the-debugger-in-visual-studio.md)  
  Description of new debugging features added in this release of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
- [Debugging Home Page](../debugger/debugging-in-visual-studio.md)  
+ [Debugging Home Page](../debugger/debugger-feature-tour.md)  
  Provides links to the larger sections of the debugging documentation. Information includes what's new in the debugger, settings and preparation, breakpoints, handling exceptions, edit and continue, debugging managed code, debugging Visual C++ projects, debugging COM and ActiveX, debugging DLLs, debugging SQL, and the user interface references.  
   
 ## See Also  
- [Walkthrough: Debugging Custom Windows Forms Controls at Design Time](http://msdn.microsoft.com/Library/1fd83ccd-3798-42fc-85a3-6cba99467387)   
- [Debugger Security](../debugger/debugger-security.md)   
- [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)
+ [Walkthrough: Debugging Custom Windows Forms Controls at Design Time](/dotnet/framework/winforms/controls/walkthrough-debugging-custom-windows-forms-controls-at-design-time)   
+ [Debugger Security](../debugger/debugger-security.md)  
+ [Debugging in Visual Studio](../debugger/index.md) 
+ [Debugger Feature Tour](../debugger/debugger-feature-tour.md)

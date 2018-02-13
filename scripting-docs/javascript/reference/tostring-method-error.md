@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 5d6d9712-c06d-4b31-9bc9-e46f6bb5cd38
 caps.latest.revision: 2
@@ -38,7 +39,7 @@ error.toString()
 ## Example  
  The following example illustrates the use of the `toString` method with an error.  
   
-```javascript  
+```JavaScript  
 var myError = new Error();  
 myError.message = "My Error";  
 var errorString = myError.toString();  

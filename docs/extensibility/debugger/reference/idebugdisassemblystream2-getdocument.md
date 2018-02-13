@@ -14,36 +14,25 @@ helpviewer_keywords:
   - "IDebugDisassemblyStream2::GetDocument"
 ms.assetid: 3d039a44-ebaa-4413-ac18-7cfd92c408bd
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugDisassemblyStream2::GetDocument
 Gets the source document associated with this input stream.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetDocument(   
    BSTR              bstrDocumentUrl,  
    IDebugDocument2** ppDocument  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetDocument(   
    string              bstrDocumentUrl,  
    out IDebugDocument2 ppDocument  

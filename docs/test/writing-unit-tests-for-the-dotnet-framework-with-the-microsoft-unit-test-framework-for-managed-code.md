@@ -4,29 +4,14 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: fbeba971-c468-4429-8017-0f12ab55638c
-caps.latest.revision: 5
-ms.author: "mlearned"
-manager: "douge"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "dotnet"
+author: gewarren
 ---
 # Writing Unit Tests for the .NET Framework with the Microsoft Unit Test Framework for Managed Code
 ## In this section  

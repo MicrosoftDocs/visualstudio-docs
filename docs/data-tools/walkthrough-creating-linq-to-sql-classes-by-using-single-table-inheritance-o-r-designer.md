@@ -6,26 +6,17 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "VB"
+  - "CSharp"
 ms.assetid: 63bc6328-e0df-4655-9ce3-5ff74dbf69a4
 caps.latest.revision: 4
-author: "mikeblome"
-ms.author: "mblome"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.technology: "vs-data-tools"
+ms.workload: 
+  - "data-storage"
 ---
 # Walkthrough: Creating LINQ to SQL Classes by Using Single-Table Inheritance (O/R Designer)
 The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md) supports single-table inheritance as it is typically implemented in relational systems. This walkthrough expands upon the generic steps provided in the [How to: Configure inheritance by using the O/R Designer](../data-tools/how-to-configure-inheritance-by-using-the-o-r-designer.md) topic and provides some real data to demonstrate the use of inheritance in the [!INCLUDE[vs_ordesigner_short](../data-tools/includes/vs_ordesigner_short_md.md)].  
@@ -98,18 +89,17 @@ The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
 ## Create a New Project  
  Now that you have created the table, create a new project to demonstrate configuring inheritance.  
   
-#### To create the new Windows Application  
+#### To create the new Windows Forms Application  
   
-1.  From the **File** menu, create a new project.  
+1. In Visual Studio, on the **File** menu, select **New**, **Project...**.  
   
-2.  Name the project **InheritanceWalkthrough**.  
+2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Classic Desktop**.  
+
+3. In the middle pane, select the **Windows Forms App** project type.  
+
+4. Name the project **InheritanceWalkthrough**, and then choose **OK**. 
   
-    > [!NOTE]
-    >  The [!INCLUDE[vs_ordesigner_short](../data-tools/includes/vs_ordesigner_short_md.md)] is supported in Visual Basic and C# projects. Create the new project in one of these languages.  
-  
-3.  Click the **Windows Forms Application** template and then click **OK**. For more information, see [Client Applications](http://msdn.microsoft.com/Library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
-  
-4.  The InheritanceWalkthrough project is created and added to **Solution Explorer**.  
+     The **InheritanceWalkthrough** project is created, and added to **Solution Explorer**.  
   
 ## Add a LINQ to SQL Classes File to the Project  
   
@@ -161,7 +151,7 @@ The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
   
 3.  Add the following code to the `Form1_Load` event handler:  
   
-    ```vb#  
+    ```vb  
     Dim dc As New DataClasses1DataContext  
     Dim results = From emp In dc.Persons _  
         Where TypeOf emp Is Employee _  
@@ -172,7 +162,7 @@ The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
     Next  
     ```  
   
-    ```c#  
+    ```csharp  
     NorthwindDataContext dc = new DataClasses1DataContext();  
     var results = from emp in dc.Persons  
                   where emp is Employee  
@@ -199,5 +189,5 @@ The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
  [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   
  [Walkthrough: Creating LINQ to SQL Classes (O-R Designer)](how-to-create-linq-to-sql-classes-mapped-to-tables-and-views-o-r-designer.md)   
  [How to: Assign stored procedures to perform updates, inserts, and deletes (O/R Designer)](../data-tools/how-to-assign-stored-procedures-to-perform-updates-inserts-and-deletes-o-r-designer.md)   
- [LINQ to SQL](http://msdn.microsoft.com/Library/73d13345-eece-471a-af40-4cc7a2f11655)   
- [How to: Generate the Object Model in Visual Basic or C#](http://msdn.microsoft.com/Library/a0c73b33-5650-420c-b9dc-f49310c201ee)
+ [LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/index)   
+ [How to: Generate the Object Model in Visual Basic or C#](/dotnet/framework/data/adonet/sql/linq/how-to-generate-the-object-model-in-visual-basic-or-csharp)

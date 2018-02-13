@@ -7,40 +7,24 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.error.workgroup_remote_logon_failure"
 dev_langs: 
+  - "CSharp"
+  - "VB"
   - "FSharp"
-  - "VB"
-  - "CSharp"
-  - "C++"
   - "JScript"
-  - "VB"
-  - "CSharp"
   - "C++"
 helpviewer_keywords: 
   - "logon failure, remote debugging"
   - "remote debugging, logon failure"
-ms.assetid: 7be2c5bb-40fe-48d6-8cfc-c231fbd3d64e
 caps.latest.revision: 19
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Error: Workgroup Remote Logon Failure
 This error reads:  
@@ -64,19 +48,17 @@ This error reads:
   
 ### To add user rights assignments  
   
-1.  Open the Loca  
+1.  Open the **Local Security Policy** window.  
   
-2.  Open the **Local Security Policy** window.  
+2.  Expand the **Local Policies** folder.  
   
-3.  Expand the **Local Policies** folder.  
+3.  Click **User Rights Assignment**.  
   
-4.  Click **User Rights Assignment**.  
-  
-5.  In the **Policy** column, double-click **Debug programs** to view current local group policy assignments in the **Local Security Policy Setting** dialog box.  
+4.  In the **Policy** column, double-click **Debug programs** to view current local group policy assignments in the **Local Security Policy Setting** dialog box.  
   
      ![Local Security Policy User Rights](../debugger/media/dbg_err_localsecuritypolicy_userrightsdebugprograms.png "DBG_ERR_LocalSecurityPolicy_UserRightsDebugPrograms")  
   
-6.  To add new users, click the **Add User or Group** button.  
+5.  To add new users, click the **Add User or Group** button.  
   
 ### To change the Sharing and Security Model  
   

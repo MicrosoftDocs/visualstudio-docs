@@ -10,23 +10,11 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 35a7fcad-f3bf-4a96-9008-4306e7276223
 caps.latest.revision: 2
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Schema Cache
 The XML Editor provides a schema cache located in the %InstallRoot%\Xml\Schemas directory. The schema cache is global to all users on your computer and includes standard XML Schemas that are used for IntelliSense and XML document validation.  
@@ -63,13 +51,13 @@ The XML Editor provides a schema cache located in the %InstallRoot%\Xml\Schemas 
   
  The XML editor also supports any number of schema catalog files in the schema cache directory. Schema catalogs can point to other locations for schemas that you always want the editor to know about. The catalog.xsd file defines the format for the catalog file and is included in the schema cache directory. The catalog.xml file is the default catalog and it contains links to other schemas in the %InstallDir%. The following is a sampling of the catalog.xml file:  
   
-```  
+```xml
 <SchemaCatalog xmlns="http://schemas.microsoft.com/xsd/catalog">  
   <Schema href="%InstallDir%/help/schemas/Favorites.xsd" targetNamespace="urn:Favorites-Schema"/>  
   <Schema href="%InstallDir%/help/schemas/Links.xsd" targetNamespace="urn:Links-Schema"/>  
   <Schema href="%InstallDir%/help/schemas/MyHelp.xsd" targetNamespace="urn:VSHelp-Schema"/>  
 </SchemaCatalog>  
-```  
+```
   
  The `href` attribute can be any file path or http URL pointing to the schema. The file path can be relative to the catalog document. The following variables, delimited by %%, are recognized by the editor and will be expanded in the path:  
   
@@ -89,27 +77,27 @@ The XML Editor provides a schema cache located in the %InstallRoot%\Xml\Schemas 
   
 -   LCID  
   
- The catalog document can include a `Catalog` element, which points to other catalogs. You can use the `Catalog` element to point to a central catalog shared by your team or company, or an online catalog shared with your business partners. The `href` attribute is the file path or http URL for the other catalogs. The following is an example of the `Catalog` element:  
+The catalog document can include a `Catalog` element, which points to other catalogs. You can use the `Catalog` element to point to a central catalog shared by your team or company, or an online catalog shared with your business partners. The `href` attribute is the file path or http URL for the other catalogs. The following is an example of the `Catalog` element:  
   
-```  
+```xml
 <Catalog href="file://c:/xcbl/xcblCatalog.xml"/>  
-```  
+```
   
  The catalog can also control how schemas are associated with XML documents using the special `Association` element. This element associates schemas that have no target namespace with a particular file extension, which can be useful because the XML Editor does not do any auto-association of schemas that do not have a `targetNamespace` attribute. In the following example the `Association` element associates the dotNetConfig schema with all files that have the "config" file extension:  
   
-```  
+```xml
 <Association extension="config" schema="%InstallDir%/xml/schemas/dotNetConfig.xsd"/>  
-```  
+```
   
 ## Localized Schemas  
  In many cases the catalog.xml file does not contain entries for localized schemas. You can add additional entries to the catalog.xml file that point to the localized schema directory.  
   
  In the following example a new `Schema` element has been created that uses the %LCID% variable to point to the localized schema.  
   
-```  
+```xml
 <Schema href="%InstallRoot%/Common7/IDE/Policy/Schemas/%LCID%/TDLSchema.xsd"  
   targetNamespace="http://www.microsoft.com/schema/EnterpriseTemplates/TDLSchema"/>  
-```  
+```
   
 ## Changing the Location of the Schema Cache  
  You can customize the location for the schema cache using the **Miscellaneous** options page. If you have a directory of favorite schemas, the editor can be configured to use those schemas instead.  
@@ -131,7 +119,7 @@ The XML Editor provides a schema cache located in the %InstallRoot%\Xml\Schemas 
   
 1.  Edit the catalog.xml file in the XML editor schema cache directory.  
   
-2.  Add a new `<Catalog href="…"/>` element that points to the directory of additional schemas.  
+2.  Add a new `<Catalog href="..."/>` element that points to the directory of additional schemas.  
   
 3.  Save your changes.  
   

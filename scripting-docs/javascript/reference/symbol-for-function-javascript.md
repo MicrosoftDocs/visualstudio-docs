@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 27db15f3-9108-4892-8f89-e84031729cb6
 caps.latest.revision: 4
@@ -36,7 +37,7 @@ Symbol.for(key);
   
 ## Example  
   
-```javascript  
+```JavaScript  
 var sym = Symbol.for("desc");  
   
 console.log(sym.toString());  

@@ -13,6 +13,7 @@ f1_keywords:
   - "abs"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "absolute values, calculating"
@@ -43,7 +44,7 @@ Math.abs(number)
 ## Example  
  The following example illustrates the use of the `abs` function.  
   
-```javascript  
+```JavaScript  
 var s;  
 var v1 = Math.abs(6);  
 var v2 = Math.abs(-6);  

@@ -14,35 +14,24 @@ helpviewer_keywords:
   - "IDebugEngine2::ContinueFromSynchronousEvent"
 ms.assetid: 9a57dfcd-df8e-4be5-b1fe-bd853e3c6bb2
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugEngine2::ContinueFromSynchronousEvent
 Called by the session debug manager (SDM) to indicate that a synchronous debug event, previously sent by the debug engine (DE) to the SDM, was received and processed.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT ContinueFromSynchronousEvent(   
    IDebugEvent2* pEvent  
 );  
 ```  
   
-```c#  
+```csharp  
 HRESULT ContinueFromSynchronousEvent(   
    IDebugEvent2 pEvent  
 );  
@@ -61,7 +50,7 @@ HRESULT ContinueFromSynchronousEvent( 
 ## Example  
  The following example shows how to implement this method for a simple `CEngine` object that implements the [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CEngine::ContinueFromSynchronousEvent(IDebugEvent2* pEvent)  
 {  
    HRESULT hr;  

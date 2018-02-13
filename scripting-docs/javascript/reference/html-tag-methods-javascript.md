@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "link method [JavaScript]"
@@ -64,7 +65,7 @@ You can use HTML tag methods to place HTML elements around text in a `String` ob
 ## Example  
  The following examples show how to use the HTML tag methods.  
   
-```javascript  
+```JavaScript  
 // anchor method.  
 var strVariable = "This is an anchor.";  
 document.write(strVariable.anchor("Anchor1"));  

@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "defineProperty function [JavaScript]"
@@ -70,7 +71,7 @@ Object.defineProperty(object, propertyname, descriptor)
 ## Adding a Data Property  
  In the following example, the `Object.defineProperty` function adds a data property to a user-defined object. To instead add the property to an existing DOM object, uncomment the `var = window.document` line.  
   
-```javascript  
+```JavaScript  
 var newLine = "<br />";  
   
 // Create a user-defined object.  
@@ -94,7 +95,7 @@ document.write("Property value: " + obj.newDataProperty + newLine);
   
  To list the object properties, add the following code to this example.  
   
-```javascript  
+```JavaScript  
 var names = Object.getOwnPropertyNames(obj);  
 for (var i = 0; i < names.length; i++) {  
     var prop = names[i];  
@@ -110,7 +111,7 @@ for (var i = 0; i < names.length; i++) {
 ## Modifying a Data Property  
  To modify a property attribute for the object, add the following code to the `addDataProperty` function shown earlier. The `descriptor` parameter contains only a `writable` attribute. The other data property attributes remain the same.  
   
-```javascript  
+```JavaScript  
 // Modify the writable attribute of the property.  
 Object.defineProperty(obj, "newDataProperty", { writable: false });  
   
@@ -132,7 +133,7 @@ for (var prop in descriptor) {
 ## Adding an Accessor Property  
  In the following example, the `Object.defineProperty` function adds an accessor property to a user-defined object.  
   
-```javascript  
+```JavaScript  
 var newLine = "<br />";  
   
 // Create a user-defined object.  
@@ -165,7 +166,7 @@ document.write("Property value: " + obj.newAccessorProperty + newLine);
   
  To list the object properties, add the following code to this example.  
   
-```javascript  
+```JavaScript  
 var names = Object.getOwnPropertyNames(obj);  
 for (var i = 0; i < names.length; i++) {  
     var prop = names[i];  
@@ -182,7 +183,7 @@ for (var i = 0; i < names.length; i++) {
 ## Modifying an Accessor Property  
  To modify a property attribute for the object, add the following code to the code shown earlier. The `descriptor` parameter contains only a `get` accessor definition. The other property attributes remain the same.  
   
-```javascript  
+```JavaScript  
 // Modify the get accessor.  
 Object.defineProperty(obj, "newAccessorProperty", {  
     get: function () { return this.newaccpropvalue; }  
@@ -206,7 +207,7 @@ for (var prop in descriptor) {
 ## Modifying a Property on a DOM Element  
  The following example demonstrates how to customize built-in DOM properties by using the `Object.getOwnPropertyDescriptor` function to get and modify the property's property descriptor. For this example, there must by a DIV element with an ID of "div".  
   
-```javascript  
+```JavaScript  
 // Get the querySelector property descriptor.  
 var descriptor = Object.getOwnPropertyDescriptor(Element.prototype, "querySelector");  
   

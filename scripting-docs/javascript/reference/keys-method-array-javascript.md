@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: fc5b6a30-642c-4bd7-ad31-a42667af2f3f
 caps.latest.revision: 4
@@ -36,7 +37,7 @@ arrayObj.keys();
 ## Example  
  The following example shows how to get the key values of an array.  
   
-```javascript  
+```JavaScript  
 var k = ["a", "b", "c"].keys();  
 // k.next().value == 0  
 // k.next().value == 1  

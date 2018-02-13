@@ -4,31 +4,15 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-techdebt"
-ms.tgt_pltfrm: ""
+ms.technology: vs-ide-modeling
 ms.topic: "get-started-article"
 helpviewer_keywords: 
   - "UML, using models"
-ms.assetid: a33ac8fc-4ba0-4850-b71b-014dc8674e54
-caps.latest.revision: 29
-author: "alexhomer1"
-ms.author: "ahomer"
-manager: "douge"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Use models in your development process
 In Visual Studio, you can use a model to help you understand and change a system, application, or component. A model can help you visualize the world in which your system works, clarify users' needs, define the architecture of your system, analyze the code, and ensure that your code meets the requirements. See [Channel 9 Video: Improve architecture through modeling](http://go.microsoft.com/fwlink/?LinkID=252078).  
@@ -62,7 +46,7 @@ In Visual Studio, you can use a model to help you understand and change a system
   
  Other aspects of specification that are ordinarily used together with models include the following. Depending on the scale and style of your project, you might use several of these aspects or not use any at all:  
   
--   User stories. A user story is a short description, discussed with users and other stakeholders, of an aspect of the system's behavior that will be delivered in one of the project's iterations. A typical user story begins "The customer will be able to…." A user story might introduce a group of use cases, or can define extensions of use cases that have been previously developed. Defining or extending the use cases helps make the user story clearer.  
+-   User stories. A user story is a short description, discussed with users and other stakeholders, of an aspect of the system's behavior that will be delivered in one of the project's iterations. A typical user story begins "The customer will be able to...." A user story might introduce a group of use cases, or can define extensions of use cases that have been previously developed. Defining or extending the use cases helps make the user story clearer.  
   
 -   Change Requests. A change request in a more formal project is very similar to a user story in an agile project. The agile approach treats all requirements as changes to what was developed in previous iterations.  
   
@@ -103,7 +87,7 @@ In Visual Studio, you can use a model to help you understand and change a system
 -   Nontechnical stakeholders usually have no problems understanding UML diagrams, with some guidance from you.  
   
 #### Link Model to Work Items  
- After the requirements workshop, elaborate the details of the requirements model, and link the model to development tasks. You can do this by linking work items in [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)] to elements in the model. To learn how to do this, see [Link model elements and work items](../modeling/link-model-elements-and-work-items.md).  
+ After the requirements workshop, elaborate the details of the requirements model, and link the model to development tasks. You can do this by linking work items in [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)] to elements in the model.
   
  You can link any element to work items, but the most useful elements are as follows:  
   
@@ -142,12 +126,13 @@ In Visual Studio, you can use a model to help you understand and change a system
 |**Blogs**|[Visual Studio ALM + Team Foundation Server Blog](http://go.microsoft.com/fwlink/?LinkID=201340)|  
 |**Technical Articles and Journals**|[MSDN Architecture Center](http://go.microsoft.com/fwlink/?LinkId=201343)<br /><br /> [Visual Studio Architecture Tooling Guidance](../modeling/visual-studio-architecture-tooling-guidance.md)|  
   
-## See Also  
- [Use models in Agile development](http://msdn.microsoft.com/en-us/592ac27c-3d3e-454a-9c38-b76658ed137f)   
- [Create models for your app](../modeling/create-models-for-your-app.md)   
- [Model user requirements](../modeling/model-user-requirements.md)   
- [Model your app's architecture](../modeling/model-your-app-s-architecture.md)   
- [Develop tests from a model](../modeling/develop-tests-from-a-model.md)   
- [Structure your modeling solution](../modeling/structure-your-modeling-solution.md)
+## See also
+
+[Use models in Agile development](http://msdn.microsoft.com/592ac27c-3d3e-454a-9c38-b76658ed137f)   
+[Create models for your app](../modeling/create-models-for-your-app.md)   
+[Model user requirements](../modeling/model-user-requirements.md)   
+[Model your app's architecture](../modeling/model-your-app-s-architecture.md)   
+[Develop tests from a model](../modeling/develop-tests-from-a-model.md)   
+[Structure your modeling solution](../modeling/structure-your-modeling-solution.md)
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]

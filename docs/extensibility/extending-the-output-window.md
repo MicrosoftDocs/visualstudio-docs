@@ -12,22 +12,11 @@ helpviewer_keywords:
   - "Output window, about Output window"
 ms.assetid: b02fa88c-f92a-4ff6-ba5f-2eb4d48a643a
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Extending the Output Window
 The **Output** window is a set of read/write text panes. Visual Studio has these built-in panes: **Build**, in which projects communicate messages about builds, and **General**, in which [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] communicates messages about the IDE. Projects get a reference to the **Build** pane automatically through the <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildableProjectCfg> interface methods, and Visual Studio offers direct access to the **General** pane through the <xref:Microsoft.VisualStudio.Shell.Interop.SVsGeneralOutputWindowPane> service. In addition to the built-in panes, you can create and manage your own custom panes.  
@@ -54,7 +43,7 @@ The **Output** window is a set of read/write text panes. Visual Studio has these
   
 4.  In TestOutput.cs, delete the ShowMessageBox method. Add the following method stub:  
   
-    ```c#  
+    ```csharp  
     private void OutputCommandHandler(object sender, EventArgs e)  
     {  
     }  
@@ -62,7 +51,7 @@ The **Output** window is a set of read/write text panes. Visual Studio has these
   
 5.  In the TestOutput constructor, change the command handler to OutputCommandHandler. Here is the part that adds the commands:  
   
-    ```c#  
+    ```csharp  
     OleMenuCommandService commandService = this.ServiceProvider.GetService(typeof(IMenuCommandService)) as OleMenuCommandService;  
     if (commandService != null)  
     {  
@@ -75,7 +64,7 @@ The **Output** window is a set of read/write text panes. Visual Studio has these
   
 6.  The sections below have different methods that show different ways of dealing with the Output pane. You can call these methods to body of the OutputCommandHandler() method. For example, the following code adds the CreatePane() method given in the next section.  
   
-    ```c#  
+    ```csharp  
     private void OutputCommandHandler(object sender, EventArgs e)  
     {  
         CreatePane(new Guid(), "Created Pane", true, false);  
@@ -85,7 +74,7 @@ The **Output** window is a set of read/write text panes. Visual Studio has these
 ## Creating an Output Window with IVsOutputWindow  
  This example shows how to create a new **Output** window pane by using the <xref:Microsoft.VisualStudio.Shell.Interop.IVsOutputWindow> interface.  
   
-```c#  
+```csharp  
 void CreatePane(Guid paneGuid, string title,   
     bool visible, bool clearWithSolution)  
 {  
@@ -112,7 +101,7 @@ void CreatePane(Guid paneGuid, string title,
 ## Creating an Output Window with OutputWindow  
  This example shows how to create an **Output** window pane by using the <xref:EnvDTE.OutputWindow> object.  
   
-```c#  
+```csharp  
 void CreatePane(string title)  
 {  
     DTE2 dte = (DTE2)GetService(typeof(DTE));  
@@ -139,7 +128,7 @@ void CreatePane(string title)
 ## Deleting an Output Window  
  This example shows how to delete an **Output** window pane.  
   
-```c#  
+```csharp  
 void DeletePane(Guid paneGuid)  
 {  
     IVsOutputWindow output =  
@@ -164,7 +153,7 @@ void DeletePane(Guid paneGuid)
 ## Getting the General Pane of the Output Window  
  This example shows how to get the built-in **General** pane of the **Output** window.  
   
-```c#  
+```csharp  
 void GetGeneralPane()  
 {  
     return (IVsOutputWindowPane)GetService(  
@@ -175,9 +164,9 @@ void GetGeneralPane()
  If you add this method to the extension given in the preceding section, when you click the **Invoke TestOutput** command you should see that the **Output** window shows the words **Found General pane** in the pane.  
   
 ## Getting the Build Pane of the Output Window  
- This example shows how to find the Build pane and write to it. Since the Build pane isn’t activated by default, it activates it also.  
+ This example shows how to find the Build pane and write to it. Since the Build pane isn't activated by default, it activates it also.  
   
-```c#  
+```csharp  
 void OutputTaskItemStringExExample(string buildMessage)  
 {  
     EnvDTE80.DTE2 dte = (EnvDTE80.DTE2)ServiceProvider.GetService(typeof(EnvDTE.DTE));  

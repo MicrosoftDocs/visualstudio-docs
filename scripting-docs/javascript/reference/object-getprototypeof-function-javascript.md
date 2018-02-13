@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "getPrototypeOf function [JavaScript]"
@@ -26,7 +27,7 @@ Returns the prototype of an object.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 Object.getPrototypeOf(object)  
 ```  
   
@@ -43,7 +44,7 @@ Object.getPrototypeOf(object)
 ## Example  
  The following example illustrates the use of the `Object.getPrototypeOf` function.  
   
-```javascript  
+```JavaScript  
 // Create a constructor function.  
 function Pasta(grain, width) {  
     this.grain = grain;  
@@ -76,7 +77,7 @@ document.write(result);
 ## Example  
  The following example uses the `Object.getPrototypeOf` function to validate data types.  
   
-```javascript  
+```JavaScript  
 var reg = /a/;  
 var result = (Object.getPrototypeOf(reg) === RegExp.prototype);  
 document.write(result + " ");  

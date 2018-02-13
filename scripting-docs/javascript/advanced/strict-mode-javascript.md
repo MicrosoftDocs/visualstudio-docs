@@ -20,6 +20,7 @@ f1_keywords:
   - "VS.WebClient.Help.SCRIPT1039"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "strict mode"
@@ -39,7 +40,7 @@ Strict mode is a way to introduce better error-checking into your code. When you
 ## Declaring Strict Mode  
  You can declare strict mode by adding `"use strict";` at the beginning of a file, a program, or a function. This kind of declaration is known as a *directive prologue*. The scope of a strict mode declaration depends on its context. If it is declared in a global context (outside the scope of a function), all the code in the program is in strict mode. If it is declared in a function, all the code in the function is in strict mode. For example, in the following example all the code is in strict mode, and the variable declaration outside the function causes the syntax error "Variable undefined in strict mode."  
   
-```javascript  
+```JavaScript  
 "use strict";  
 function testFunction(){  
     var testvar = 4;  
@@ -53,7 +54,7 @@ testvar = 5;
   
  In the following example, only the code inside `testFunction` is in strict mode. The variable declaration outside the function does not cause a syntax error, but the declaration inside the function does.  
   
-```javascript  
+```JavaScript  
 function testFunction(){  
     "use strict";  
     // This causes a syntax error.  

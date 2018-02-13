@@ -4,16 +4,16 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Domain-Specific Language Tools, walkthroughs"
   - "walkthroughs [Domain-Specific Language Tools]"
-ms.assetid: cd550399-05fc-4dbf-be4c-f5094bb752ce
-caps.latest.revision: 22
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # How to: Add a Command to the Shortcut Menu
 You can add menu commands to your domain-specific language (DSL) so that your users can perform tasks that are specific to your DSL. The commands appear on the context (shortcut) menu when users right-click on the diagram. You can define a command so that it only appears in the menu in specific circumstances. For example, you can make the command visible only when the user clicks specific types of element, or elements in specific states.  

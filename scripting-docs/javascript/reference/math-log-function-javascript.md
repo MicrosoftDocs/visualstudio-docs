@@ -13,6 +13,7 @@ f1_keywords:
   - "log"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "log method"
@@ -42,7 +43,7 @@ Math.log(number)
 ## Example  
  The following code shows how to use this function.  
   
-```javascript  
+```JavaScript  
 var numArr = [ 45.3, 69.0, 557.04, 0.222 ];  
   
 for (i in numArr) {  

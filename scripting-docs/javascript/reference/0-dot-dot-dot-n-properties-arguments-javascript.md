@@ -13,6 +13,7 @@ f1_keywords:
   - "0...n"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "0...n properties"
@@ -44,7 +45,7 @@ Returns the actual value of individual arguments from an **arguments** object re
 ## Example  
  The following example illustrates the use of the **0 . . .**  ***n*** properties of the **arguments** object. To fully understand the example, pass one or more arguments to the function:  
   
-```javascript  
+```JavaScript  
 function ArgTest(){  
    var s = "";  
    s += "The individual arguments are: "  

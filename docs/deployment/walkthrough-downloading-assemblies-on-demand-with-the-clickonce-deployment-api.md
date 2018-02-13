@@ -21,20 +21,8 @@ caps.latest.revision: 16
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+ms.workload: 
+  - "multiple"
 ---
 # Walkthrough: Downloading Assemblies on Demand with the ClickOnce Deployment API
 By default, all of the assemblies included in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application are downloaded when the application is first run. However, you may have parts of your application that are used by a small set of your users. In this case, you want to download an assembly only when you create one of its types. The following walkthrough demonstrates how to mark certain assemblies in your application as "optional", and how to download them by using classes in the <xref:System.Deployment.Application> namespace when the common language runtime (CLR) demands them.  
@@ -68,17 +56,17 @@ By default, all of the assemblies included in a [!INCLUDE[ndptecclick](../deploy
 5.  Using Notepad or another text editor, define a class named `DynamicClass` with a single property named `Message`.  
   
      [!code-vb[ClickOnceLibrary#1](../deployment/codesnippet/VisualBasic/walkthrough-downloading-assemblies-on-demand-with-the-clickonce-deployment-api_1.vb)]
-     [!code-cs[ClickOnceLibrary#1](../deployment/codesnippet/CSharp/walkthrough-downloading-assemblies-on-demand-with-the-clickonce-deployment-api_1.cs)]  
+     [!code-csharp[ClickOnceLibrary#1](../deployment/codesnippet/CSharp/walkthrough-downloading-assemblies-on-demand-with-the-clickonce-deployment-api_1.cs)]  
   
 6.  Save the text as a file named `ClickOnceLibrary.cs` or `ClickOnceLibrary.vb`, depending on the language you use, to the ClickOnceOnDemand directory.  
   
 7.  Compile the file into an assembly.  
   
-    ```c#  
+    ```csharp  
     csc /target:library /keyfile:TestKey.snk ClickOnceLibrary.cs  
     ```  
   
-    ```vb#  
+    ```vb  
     vbc /target:library /keyfile:TestKey.snk ClickOnceLibrary.vb  
     ```  
   
@@ -90,7 +78,7 @@ By default, all of the assemblies included in a [!INCLUDE[ndptecclick](../deploy
   
 9. Create a new file using your text editor and enter the following code. This code creates a Windows Forms application that downloads the ClickOnceLibrary assembly when it is required.  
   
-     [!code-cs[ClickOnceOnDemandCmdLine#1](../deployment/codesnippet/CSharp/walkthrough-downloading-assemblies-on-demand-with-the-clickonce-deployment-api_2.cs)]
+     [!code-csharp[ClickOnceOnDemandCmdLine#1](../deployment/codesnippet/CSharp/walkthrough-downloading-assemblies-on-demand-with-the-clickonce-deployment-api_2.cs)]
      [!code-vb[ClickOnceOnDemandCmdLine#1](../deployment/codesnippet/VisualBasic/walkthrough-downloading-assemblies-on-demand-with-the-clickonce-deployment-api_2.vb)]  
   
 10. In the code, locate the call to <xref:System.Reflection.Assembly.LoadFile%2A>.  
@@ -101,11 +89,11 @@ By default, all of the assemblies included in a [!INCLUDE[ndptecclick](../deploy
   
 13. Compile it into an executable using the following command.  
   
-    ```c#  
+    ```csharp  
     csc /target:exe /reference:ClickOnceLibrary.dll Form1.cs  
     ```  
   
-    ```vb#  
+    ```vb  
     vbc /target:exe /reference:ClickOnceLibrary.dll Form1.vb  
     ```  
   

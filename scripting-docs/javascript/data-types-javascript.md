@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "Boolean data type, supported data types"
@@ -49,7 +50,7 @@ In [!INCLUDE[javascript](../javascript/includes/javascript-md.md)], there are th
 ## String Data Type  
  A string value is a chain of zero or more Unicode characters (letters, digits, and punctuation marks). You use the string data type to represent text in [!INCLUDE[javascript](../javascript/includes/javascript-md.md)]. You include string literals in your scripts by enclosing them in single or double quotation marks. Double quotation marks can be contained in strings surrounded by single quotation marks, and single quotation marks can be contained in strings surrounded by double quotation marks. The following are examples of strings:  
   
-```javascript  
+```JavaScript  
 "Happy am I; from care I'm free!"  
 '"Avast, ye lubbers!" roared the technician.'   
 "45"  
@@ -109,7 +110,7 @@ In [!INCLUDE[javascript](../javascript/includes/javascript-md.md)], there are th
   
  Comparisons you make in your scripts always have a Boolean outcome. Consider the following line of [!INCLUDE[javascript](../javascript/includes/javascript-md.md)] code.  
   
-```javascript  
+```JavaScript  
 y = (x == 2000);  
 ```  
   
@@ -117,7 +118,7 @@ y = (x == 2000);
   
  Boolean values are especially useful in control structures. The following code combines a comparison that creates a Boolean value directly with a statement that uses it. Consider the following [!INCLUDE[javascript](../javascript/includes/javascript-md.md)] code sample.  
   
-```javascript  
+```JavaScript  
 if (x == 2000) {  
     z = z + 1;  
 }  
@@ -130,14 +131,14 @@ else {
   
  You can use any expression as a comparative expression. Any expression that evaluates to 0, null, undefined, or an empty string is interpreted as `false`. An expression that evaluates to any other value is interpreted as `true`. For example, you could use an expression such as:  
   
-```javascript  
+```JavaScript  
 // This may not do what you expect. See below!  
 if (x = y + z)   
 ```  
   
  Note that the above line does not check whether `x` is equal to `y + z`, since only a single equal sign (the assignment operator) is used. Instead, the code above assigns the value of `y + z` to the variable `x`, and then checks whether the result of the entire expression (the value of `x`) is zero. To check whether `x` is equal to `y + z`, you need to use the following code.  
   
-```javascript  
+```JavaScript  
 // This is different from the code above!  
 if (x == y + z)   
 ```  
@@ -156,7 +157,7 @@ if (x == y + z)
   
  you can check to see if a variable exists by comparing it to `undefined`, although you can check if its type is `undefined` by comparing the type of the variable to the string "undefined". The following example shows how to find out the variable `x` has been declared:  
   
-```javascript  
+```JavaScript  
   
 var x;  
   
@@ -182,13 +183,13 @@ if (typeof(x) == "undefined") {
   
  You can also compare the undefined value to `null`. This comparison is `true` if the property `someObject.prop` is `null` or if the property `someObject.prop` does not exist.  
   
-```javascript  
+```JavaScript  
 someObject.prop == null;  
 ```  
   
  To find out whether an object property exists, you can use the **in** operator:  
   
-```javascript  
+```JavaScript  
 if ("prop" in someObject)  
     // someObject has the property 'prop'  
 ```  

@@ -13,6 +13,7 @@ f1_keywords:
   - "__proto__"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 97c3f84d-125e-4905-b921-b021264964ee
 caps.latest.revision: 11
@@ -46,7 +47,7 @@ object.__proto__
 ## Example  
  The following code example shows how to set the prototype for an object.  
   
-```javascript  
+```JavaScript  
 function Rectangle() {  
 }  
   
@@ -62,7 +63,7 @@ if (console && console.log) {
 ## Example  
  The following code example shows how to add properties to an object by adding them to the prototype.  
   
-```javascript  
+```JavaScript  
 var proto = { y: 2 };  
   
 var obj = { x: 10 };  
@@ -81,7 +82,7 @@ if (console && console.log) {
 ## Example  
  The following code example adds properties to the `String` object by setting a new prototype on it.  
   
-```javascript  
+```JavaScript  
 var stringProp = { desc: "description" };  
   
 String.__proto__ = stringProp;  

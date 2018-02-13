@@ -13,6 +13,7 @@ f1_keywords:
   - "^="
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "^= operator, about ^= operator"
@@ -46,13 +47,13 @@ result ^= expression
 ## Remarks  
  Using the **^=** operator is exactly the same as specifying:  
   
-```javascript  
+```JavaScript  
 result = result ^ expression  
 ```  
   
  The **^=** operator looks at the binary representation of the values of two expressions and does a bitwise exclusive OR operation on them. The result of this operation behaves as follows:  
   
-```javascript  
+```JavaScript  
 0101    (result)  
 1100    (expression)  
 ----  

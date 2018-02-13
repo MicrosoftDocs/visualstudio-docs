@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 813bff6e-6098-4260-ab6e-b0d2da6be94d
 caps.latest.revision: 8
@@ -23,7 +24,7 @@ Performs the specified action for each element in a set.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 setObj.forEach(callbackfn[, thisArg])  
 ```  
   
@@ -56,7 +57,7 @@ setObj.forEach(callbackfn[, thisArg])
 ## Example  
  The following example shows how to use `forEach`. The `callbackfn` argument includes the code for the callback function.  
   
-```javascript  
+```JavaScript  
 var s = new Set();  
   
 s.add("scale");  
@@ -81,7 +82,7 @@ s.forEach(function(item, sameItem, s) {
 ## Example  
  The following example shows that you can also retrieve members from a set by passing only a single parameter to the callback function.  
   
-```javascript  
+```JavaScript  
 var s = new Set();  
 s.add("Thomas Jefferson");  
 s.add(1776);  

@@ -14,21 +14,9 @@ ms.assetid: 3e839007-c388-4fc4-a6d1-8127cd207750
 caps.latest.revision: 14
 author: "kempb"
 ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Security Bibliography
 Following are selected resources available online and in print on the subject of developing secure applications and configuring secure environments:  

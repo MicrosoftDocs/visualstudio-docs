@@ -13,6 +13,7 @@ f1_keywords:
   - "toLocaleUpperCase"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "toLocaleUpperCase method"

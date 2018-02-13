@@ -5,7 +5,7 @@ ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-ide-general"
+  - "vs-ide-designers"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -13,23 +13,11 @@ f1_keywords:
   - "VS.XamlDesigner.EditResource"
 ms.assetid: 3ff4006d-659d-4073-9a41-06ff85e6cfdf
 caps.latest.revision: 13
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to create and apply a resource
 Styles and templates for elements in the XAML Designer are stored in reusable entities called resources. Styles enable you to set element properties and reuse those settings for a consistent appearance across multiple elements. A [ControlTemplate](http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.controltemplate.aspx) defines the appearance of a control and can also be applied as a resource. For more info, see [Quickstart: styling controls](http://go.microsoft.com/fwlink/?LinkID=248239) and [QuickStart: control templates](http://go.microsoft.com/fwlink/?LinkID=247982).  
@@ -68,7 +56,7 @@ Styles and templates for elements in the XAML Designer are stored in reusable en
   
     -   Apply a resource to a property. In the Properties window, choose the property marker next to the property value, choose **Local Resource** or **System Resource**, and then choose an available resource from the list that appears.  
   
-         If you don't see a resource that you expect to see, it might be because the type of the resource doesn’t match the type of the property.  
+         If you don't see a resource that you expect to see, it might be because the type of the resource doesn't match the type of the property.  
   
     -   Apply a style or control template resource to a control. Open the context menu for a control in the Document Outline window, choose **Edit Template** or **Edit Additional Templates**, choose **Apply Resource**, and then choose the name of the control template from the list that appears.  
   

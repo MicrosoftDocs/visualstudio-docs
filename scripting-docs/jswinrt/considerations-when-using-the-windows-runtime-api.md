@@ -21,7 +21,7 @@ manager: "ghogen"
 You can use nearly every element of the Windows Runtime API in JavaScript. However, there are some aspects of the JavaScript representation of Windows Runtime elements that you should keep in mind.  
   
 > [!IMPORTANT]
->  For information about creating Windows Runtime components in C++, C#, or Visual Basic and consuming them in JavaScript, see [Creating Windows Runtime Components](../Topic/Creating%20Windows%20Runtime%20Components.md).  
+>  For information about creating Windows Runtime components in C++, C#, or Visual Basic and consuming them in JavaScript, see [Creating Windows Runtime Components in C++](/windows/uwp/winrt-components/creating-windows-runtime-components-in-cpp) and [Creating Windows Runtime Components in C# and Visual Basic](/windows/uwp/winrt-components/creating-windows-runtime-components-in-csharp-and-visual-basic).  
   
 ## Special Cases in the JavaScript Representation of Windows Runtime Types  
   
@@ -66,7 +66,7 @@ You can use nearly every element of the Windows Runtime API in JavaScript. Howev
   
      Here is how you can call the above code in JavaScript.  
   
-    ```javascript  
+    ```JavaScript  
     var example = new ExampleObject();  
     example["CollisionExample.InterfaceA.draw"](12);  
     example["CollisionExample.InterfaceB.draw"]("hello");  
@@ -83,7 +83,7 @@ You can use nearly every element of the Windows Runtime API in JavaScript. Howev
   
      The JavaScript version of this signature is:  
   
-    ```javascript  
+    ```JavaScript  
     var returnValue = exampleMethod();  
   
     ```  
@@ -92,7 +92,7 @@ You can use nearly every element of the Windows Runtime API in JavaScript. Howev
   
 -   Static members: The Windows Runtime defines both static members and instance members. In JavaScript, static members are added to the object that is associated with the Windows Runtime class or interface.  
   
-    ```javascript  
+    ```JavaScript  
     // Static method.   
     var accel = Windows.Devices.Sensors.Accelerometer.getDefault();   
     // Instance method.   

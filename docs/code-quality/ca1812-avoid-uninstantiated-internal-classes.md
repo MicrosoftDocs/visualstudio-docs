@@ -5,7 +5,7 @@ ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-devops-test"
+  - "vs-ide-code-analysis"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,24 +16,11 @@ helpviewer_keywords:
   - "CA1812"
 ms.assetid: 1bb92a42-322a-44cc-98a8-8858212c1e1f
 caps.latest.revision: 26
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA1812: Avoid uninstantiated internal classes
 |||  
@@ -77,13 +64,13 @@ translation.priority.mt:
 ## When to Suppress Warnings  
  It is safe to suppress a warning from this rule. We recommend that you suppress this warning in the following situations:  
   
--   The class is created through late-bound reflection methods such as <xref:System.Activator.CreateInstance?displayProperty=fullName>.  
+-   The class is created through late-bound reflection methods such as <xref:System.Activator.CreateInstance%2A?displayProperty=fullName>.  
   
 -   The class is created automatically by the runtime or [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)]. For example, classes that implement <xref:System.Configuration.IConfigurationSectionHandler?displayProperty=fullName> or <xref:System.Web.IHttpHandler?displayProperty=fullName>.  
   
 -   The class is passed as a generic type parameter that has a new constraint. For example, the following example will raise this rule.  
   
-    ```c#  
+    ```csharp  
     internal class MyClass  
     {     
         public DoSomething()     

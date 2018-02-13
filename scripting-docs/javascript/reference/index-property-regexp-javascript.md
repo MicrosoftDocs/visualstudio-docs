@@ -13,6 +13,7 @@ f1_keywords:
   - "index"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "Index property"
@@ -36,12 +37,12 @@ RegExp.index
 ## Remarks  
  The object associated with this property is always the global `RegExp` object.  
   
- The **index** property is zero-based. The initial value of the **index** property is –1. Its value changes whenever a successful match is made.  
+ The **index** property is zero-based. The initial value of the **index** property is -1. Its value changes whenever a successful match is made.  
   
 ## Example  
  The following example illustrates the use of the **index** property. This function iterates a search string and prints out the **index** and `lastIndex` values for each word in the string.  
   
-```javascript  
+```JavaScript  
 function RegExpTest()  
 {  
    var ver = Number(ScriptEngineMajorVersion() + "." + ScriptEngineMinorVersion())  

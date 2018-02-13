@@ -13,6 +13,7 @@ f1_keywords:
   - "constructor"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "constructor property"
@@ -40,7 +41,7 @@ object.constructor
 ## Example  
  The following example illustrates the use of the constructor property.  
   
-```javascript  
+```JavaScript  
 // A constructor function.  
 function MyObj() {  
     this.number = 1;  

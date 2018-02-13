@@ -9,12 +9,9 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
+  - "CSharp"
+  - "VB"
   - "FSharp"
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "VB"
-  - "CSharp"
   - "C++"
 helpviewer_keywords: 
   - "project settings, debugger"
@@ -23,21 +20,9 @@ ms.assetid: 5e1b2a30-d2db-49e8-aba3-2d3a190eea80
 caps.latest.revision: 17
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Debugger Project Settings
 Certain project settings also affect debugging. These settings determine such things as what directories the debugger looks at, the command and command arguments used to launch the program, and the type of debug information created for the program. You can change these settings in the **Property Pages** dialog box.  
@@ -68,7 +53,7 @@ Certain project settings also affect debugging. These settings determine such th
  Describes how the debugger uses symbol files and source files to display information for debugging.  
   
  [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md)  
- Describes how to debug Windows Store apps. (Windows Dev Center)  
+ Describes how to debug UWP apps. (Windows Dev Center)  
   
  [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)  
  Describes the debugger-related property settings, and the preparation needed in order to debug your program with the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger.  

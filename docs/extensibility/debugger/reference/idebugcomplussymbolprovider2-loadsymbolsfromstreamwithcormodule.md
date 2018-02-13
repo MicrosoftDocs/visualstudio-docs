@@ -13,29 +13,18 @@ helpviewer_keywords:
   - "LoadSymbolsFromStreamWithCorModule"
 ms.assetid: f79b894f-52c4-43c2-9a68-c71536451f6c
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugComPlusSymbolProvider2::LoadSymbolsFromStreamWithCorModule
 Load debug symbols from a data stream given the **ICorDebugModule** object.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT LoadSymbolsFromStreamWithCorModule(  
    ULONG32   ulAppDomainID,  
    GUID      guidModule,  
@@ -46,7 +35,7 @@ HRESULT LoadSymbolsFromStreamWithCorModule(
 );  
 ```  
   
-```c#  
+```csharp  
 int LoadSymbolsFromStreamWithCorModule(  
    uint    ulAppDomainID,  
    Guid    guidModule,  
@@ -71,7 +60,7 @@ int LoadSymbolsFromStreamWithCorModule(
  [in] Object that contains the symbol metadata.  
   
  `pUnkCorDebugModule`  
- [in] Object that implements the [ICorDebugModule Interface](ICorDebugModule%20Interface.xml).  
+ [in] Object that implements the [ICorDebugModule Interface](/dotnet/framework/unmanaged-api/debugging/icordebugmodule-interface).  
   
  `pStream`  
  [in] Data stream that contains the debug symbols to load.  
@@ -82,7 +71,7 @@ int LoadSymbolsFromStreamWithCorModule(
 ## Example  
  The following example shows how to implement this method for a **CDebugSymbolProvider** object that exposes the [IDebugComPlusSymbolProvider2](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugSymbolProvider::LoadSymbolsFromStreamWithCorModule(  
     ULONG32 ulAppDomainID,  
     GUID guidModule,  

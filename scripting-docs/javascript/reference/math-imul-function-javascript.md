@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: dce5e11c-36b9-4c39-84d3-6cd494dd1cbf
 caps.latest.revision: 3
@@ -40,7 +41,7 @@ Math.imul(x, y);
 ## Example  
  The following code example shows how to multiply numbers using `Math.imul`.  
   
-```javascript  
+```JavaScript  
 var result1 = Math.imul(2, 5);  
 // result1 == 10  
   

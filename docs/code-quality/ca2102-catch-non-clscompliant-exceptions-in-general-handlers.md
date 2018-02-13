@@ -5,7 +5,7 @@ ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-devops-test"
+  - "vs-ide-code-analysis"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -15,24 +15,11 @@ helpviewer_keywords:
   - "CA2102"
 ms.assetid: bf2df68f-d386-4379-ad9e-930a2c2e930d
 caps.latest.revision: 19
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA2102: Catch non-CLSCompliant exceptions in general handlers
 |||  
@@ -80,7 +67,7 @@ translation.priority.mt:
 ## Example  
  The following example shows a method that contains a general catch block that satisfies the rule.  
   
- [!code-cs[FxCop.Security.CatchNonClsCompliantException#1](../code-quality/codesnippet/CSharp/ca2102-catch-non-clscompliant-exceptions-in-general-handlers_1.cs)]  
+ [!code-csharp[FxCop.Security.CatchNonClsCompliantException#1](../code-quality/codesnippet/CSharp/ca2102-catch-non-clscompliant-exceptions-in-general-handlers_1.cs)]  
   
  Compile the previous examples as follows.  
   
@@ -94,6 +81,5 @@ csc /r:ThrowNonClsCompliantException.dll CatchNonClsCompliantException.cs
   
 ## See Also  
  [Exceptions and Exception Handling](/dotnet/csharp/programming-guide/exceptions/exceptions-and-exception-handling)   
- [Ilasm.exe (IL Assembler)](http://msdn.microsoft.com/Library/4ca3a4f0-4400-47ce-8936-8e219961c76f)   
- [Overriding Security Checks](http://msdn.microsoft.com/en-us/4acdeff5-fc05-41bf-8505-7387cdbfca28)   
- [Language Independence and Language-Independent Components](http://msdn.microsoft.com/Library/4f0b77d0-4844-464f-af73-6e06bedeafc6)
+ [Ilasm.exe (IL Assembler)](/dotnet/framework/tools/ilasm-exe-il-assembler)   
+ [Language Independence and Language-Independent Components](/dotnet/standard/language-independence-and-language-independent-components)

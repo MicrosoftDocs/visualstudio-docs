@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 11
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ExcelWorkbook1", "ExcelWorkbook1.vbproj", "{77A0D763-3C98-4729-815D-958563778BF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = preSolution
+		{77A0D763-3C98-4729-815D-958563778BF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77A0D763-3C98-4729-815D-958563778BF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77A0D763-3C98-4729-815D-958563778BF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77A0D763-3C98-4729-815D-958563778BF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -16,25 +16,12 @@ ms.assetid: 704c1cc0-5b84-4334-a02a-70f43aff39d5
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_noReturn
-Retrieves a flag that specifies whether the function has been marked as never returning with the [noreturn](/visual-cpp/cpp/noreturn) attribute.  
+Retrieves a flag that specifies whether the function has been marked as never returning with the [noreturn](/cpp/cpp/noreturn) attribute.  
   
 ## Syntax  
   
@@ -63,4 +50,4 @@ HRESULT get_noReturn(
   
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
- [noreturn](/visual-cpp/cpp/noreturn)
+ [noreturn](/cpp/cpp/noreturn)

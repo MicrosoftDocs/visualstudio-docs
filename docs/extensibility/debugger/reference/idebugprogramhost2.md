@@ -14,22 +14,11 @@ helpviewer_keywords:
   - "IDebugProgramHost2 interface"
 ms.assetid: 2c37b3aa-97a9-4665-8709-edd917f18cb1
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProgramHost2
 This interface provides host (process) information about a program.  
@@ -44,7 +33,7 @@ IDebugProgramHost2 : IUnknown
  The debug engine implements this interface on the same object as the [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) interface to provide information about the hosting process. This is an optional interface.  
   
 ## Notes for Callers  
- Call [QueryInterface](/visual-cpp/atl/queryinterface) on an `IDebugProgram2` interface to obtain this interface.  
+ Call [QueryInterface](/cpp/atl/queryinterface) on an `IDebugProgram2` interface to obtain this interface.  
   
 ## Methods in Vtable Order  
  The following table shows the methods of `IDebugProgramHost2`.  

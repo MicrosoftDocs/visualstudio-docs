@@ -14,35 +14,24 @@ helpviewer_keywords:
   - "IDebugCoreServer3::DisableAutoAttach"
 ms.assetid: 9d860a20-c154-4df4-ba15-636e0fcd42bf
 caps.latest.revision: 6
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugCoreServer3::DisableAutoAttach
 Disables automatic attaching for all debug engines associated with this server.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT DisableAutoAttach(  
    void  
 );  
 ```  
   
-```c#  
+```csharp  
 int DisableAutoAttach();  
 ```  
   

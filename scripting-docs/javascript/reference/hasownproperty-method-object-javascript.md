@@ -13,6 +13,7 @@ f1_keywords:
   - "hasOwnProperty"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "hasOwnProperty method"
@@ -47,7 +48,7 @@ object.hasOwnProperty(proName)
 ## Example  
  In the following example, all `String` objects share a common split method. The following code will display **false** and **true**.  
   
-```javascript  
+```JavaScript  
 var s = new String("Sample");  
 document.write(s.hasOwnProperty("split"));  
 document.write("<br/>");  

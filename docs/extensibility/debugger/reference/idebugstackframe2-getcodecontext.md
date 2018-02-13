@@ -14,35 +14,24 @@ helpviewer_keywords:
   - "IDebugStackFrame2::GetCodeContext"
 ms.assetid: 93d66159-a41d-49ef-982f-91bb4d073b74
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugStackFrame2::GetCodeContext
 Gets the code context for this stack frame.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetCodeContext (   
    IDebugCodeContext2** ppCodeCxt  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetCodeContext (   
    out IDebugCodeContext2 ppCodeCxt  
 );  

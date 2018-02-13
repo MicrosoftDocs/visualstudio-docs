@@ -12,22 +12,11 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], legacy - suppress file change notification"
 ms.assetid: 891c1eb4-f6d0-4073-8df0-2859dbd417ca
 caps.latest.revision: 18
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # How to: Suppress File Change Notifications
 When the physical file representing the text buffer has been changed, a dialog box displays with the message **Do you want to save changes to the following items?** This is known as file change notification. If many changes are going to be to the file, however, this dialog box displaying over and over again can quickly become annoying.  
@@ -55,7 +44,7 @@ When the physical file representing the text buffer has been changed, a dialog b
 ## Example  
  The following demonstrates how to suppress file change notification.  
   
-```cpp#  
+```cpp  
 //Misc. helper classes  
   
 CSuspendFileChanges::CSuspendFileChanges(  

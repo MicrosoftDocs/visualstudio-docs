@@ -1,5 +1,5 @@
 ---
-title: "What&#39;s New in Profiling Tools | Microsoft Docs"
+title: "What's New in Profiling | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -15,22 +15,9 @@ ms.assetid: d4736cc8-8961-4089-be9e-d5190ce8353c
 caps.latest.revision: 42
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # What's New in Profiling Tools in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]
 The Diagnostics Tools include new visualizations to help you identify issues in your app that need fixing. The Diagnostics Tools now include support for ASP.NET apps.
@@ -46,4 +33,5 @@ The CPU usage tool has [new visualizations](../profiling/Beginners-Guide-to-Perf
 ![Diagnostics Tools Caller Callee View](../profiling/media/DiagToolsCallerCallee.png "DiagToolsCallerCallee")
   
 ## See Also  
- [Profiling Tools](../profiling/profiling-tools.md)
+ [Profiling in Visual Studio](../profiling/index.md)  
+ [Profiling Feature Tour](../profiling/profiling-feature-tour.md)

@@ -13,6 +13,7 @@ f1_keywords:
   - "JSON"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "JSON object"
@@ -44,7 +45,7 @@ JSON.[method]
   
  To use the intrinsic `JSON` object, make sure that you do not override it with another `JSON` object that is defined in your script. You may need to modify existing script statements that detect the presence of a `JSON` object because those statements will evaluate differently. This is demonstrated in the following example.  
   
-```javascript  
+```JavaScript  
 if (!this.JSON) {  
     // JSON object does not exist.  
     }  

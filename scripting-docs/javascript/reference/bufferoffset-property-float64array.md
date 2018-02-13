@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 9b566ec9-97d1-4a54-96cd-c1608f0ed330
 caps.latest.revision: 7
@@ -23,14 +24,14 @@ Read-only. The offset of this array from the start of its ArrayBuffer, in bytes,
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 var arrayOffset = float64Array.byteOffset;  
 ```  
   
 ## Example  
  The following example shows how to get the offset of the array.  
   
-```javascript  
+```JavaScript  
 var req = new XMLHttpRequest();  
     req.open('GET', "http://www.example.com");  
     req.responseType = "arraybuffer";  

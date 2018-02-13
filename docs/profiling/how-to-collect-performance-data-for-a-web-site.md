@@ -22,22 +22,9 @@ ms.assetid: a62d27fd-a966-4065-bebe-6874195a71fb
 caps.latest.revision: 33
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Collect Performance Data for a Web Site
 You can use the **Performance Wizard** to collect performance data for an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application. You can profile a Web application that is open in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], or you can profile an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web site that is located on your local computer and not open in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE.  
@@ -47,11 +34,11 @@ You can use the **Performance Wizard** to collect performance data for an [!INCL
   
  Depending on User Access Permissions settings that an administrator has made available, an individual user might or might not have security permission to create a profiler session on the computer that hosts the ASP.NET process. The following examples illustrate possible differences among users:  
   
--   Some users may access advanced profiling features when the Administrator has set the driver and service to start.  
+-   Some users might access advanced profiling features when the Administrator has set the driver and service to start.  
   
--   Domain users may access sample profiling only.  
+-   Domain users might access sample profiling only.  
   
--   Some users my deny access to profiling to all other users.  
+-   Some users might deny access to profiling to all other users.  
   
  For more information, see [Profiling and Windows Vista Security](../profiling/profiling-and-windows-vista-security.md) and the ADMIN options in [VSPerfCmd](../profiling/vsperfcmd.md).  
   
@@ -59,7 +46,7 @@ You can use the **Performance Wizard** to collect performance data for an [!INCL
   
 1.  Open the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web project in [!INCLUDE[vsPreShort](../code-quality/includes/vspreshort_md.md)] or [!INCLUDE[vsUltShort](../code-quality/includes/vsultshort_md.md)].  
   
-2.  On the **Analyze** menu, click **Launch Performance Wizard**.  
+2.  On the **Analyze** menu, select **Performance Profiler**, select **Performance Explorer**, and then select **Start**.  
   
 3.  On the first page of the wizard, select a profiling method, and then click **Next**. For more information about profiling methods, see [Understanding Performance Collection Methods](../profiling/understanding-performance-collection-methods.md). Note that the concurrency visualizer profiling method is not available for web applications.  
   
@@ -83,7 +70,7 @@ You can use the **Performance Wizard** to collect performance data for an [!INCL
   
 1.  Open [!INCLUDE[vsPreShort](../code-quality/includes/vspreshort_md.md)] or [!INCLUDE[vsUltShort](../code-quality/includes/vsultshort_md.md)].  
   
-2.  On the **Analyze** menu, click **Launch Performance Wizard**.  
+2.  On the **Analyze** menu, select **Performance Profiler**, select **Performance Explorer**, and then select **Start**.  
   
 3.  On the first page of the wizard, select a profiling method, and then click **Next**. For more information, see [Understanding Performance Collection Methods](../profiling/understanding-performance-collection-methods.md).  
   

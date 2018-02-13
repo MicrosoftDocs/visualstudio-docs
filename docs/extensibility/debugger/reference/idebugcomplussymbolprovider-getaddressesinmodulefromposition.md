@@ -13,22 +13,11 @@ helpviewer_keywords:
   - "IDebugComPlusSymbolProvider::GetAddressesInModuleFromPosition"
 ms.assetid: f901c66e-f53c-4ea0-8004-d8fcbf46f916
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugComPlusSymbolProvider::GetAddressesInModuleFromPosition
 Maps a document position in the specified module to an array of debug addresses.  
@@ -84,7 +73,7 @@ int GetAddressesInModuleFromPosition(
 ## Example  
  The following example shows how to implement this method for a **CDebugSymbolProvider** object that exposes the [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugSymbolProvider::GetAddressesInModuleFromPosition(  
     ULONG32 ulAppDomainID,  
     GUID guidModule,  

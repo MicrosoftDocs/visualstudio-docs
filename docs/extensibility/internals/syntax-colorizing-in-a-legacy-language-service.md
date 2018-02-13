@@ -15,22 +15,11 @@ helpviewer_keywords:
   - "language services [managed package framework], colorization"
 ms.assetid: 1ca1736a-f554-42e4-a9c7-fe8c3c1717df
 caps.latest.revision: 28
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Syntax Colorizing in a Legacy Language Service
 Syntax colorization is a feature that causes different elements of a programming language to be displayed in a source file in different colors and styles. To support this feature, you need to supply a parser or scanner that can identify the types of lexical elements or tokens in the file. Many languages distinguish keywords, delimiters (such as parentheses or braces), and comments by colorizing them in different ways.  
@@ -64,7 +53,7 @@ Syntax colorization is a feature that causes different elements of a programming
 ### Example  
  This example shows one way to declare and populate an array of custom colorable items using the <xref:Microsoft.VisualStudio.Package.ColorableItem> class. This example sets the keyword and comment colors using 24-bit colors.  
   
-```c#  
+```csharp  
 using Microsoft.VisualStudio.Package;  
 using Microsoft.VisualStudio.TextManager.Interop;  
   
@@ -77,21 +66,21 @@ namespace TestLanguagePackage
         TestLanguageService() : base()  
         {  
             m_colorableItems = new ColorableItem[] {  
-                new ColorableItem("TestLanguage – Text",  
+                new ColorableItem("TestLanguage - Text",  
                                   "Text",  
                                   COLORINDEX.CI_SYSPLAINTEXT_FG,  
                                   COLORINDEX.CI_SYSPLAINTEXT_BK,  
                                   System.Drawing.Color.Empty,  
                                   System.Drawing.Color.Empty,  
                                   FONTFLAGS.FF_DEFAULT),  
-                new ColorableItem("TestLanguage – Keyword",  
+                new ColorableItem("TestLanguage - Keyword",  
                                   "Keyword",  
                                   COLORINDEX.CI_MAROON,  
                                   COLORINDEX.CI_SYSPLAINTEXT_BK,  
                                   System.Drawing.Color.FromArgb(192,32,32),  
                                   System.Drawing.Color.Empty,  
                                   FONTFLAGS.FF_BOLD),  
-                new ColorableItem("TestLanguage – Comment",  
+                new ColorableItem("TestLanguage - Comment",  
                                   "Comment",  
                                   COLORINDEX.CI_DARKGREEN,  
                                   COLORINDEX.CI_LIGHTGRAY,  
@@ -118,7 +107,7 @@ namespace TestLanguagePackage
 ### Example  
  The following example shows how the scanner might identify three token types: numbers, punctuation, and identifiers (anything that is not a number or punctuation). This example is for illustrative purposes only and does not represent a comprehensive parser and scanner implementation. It assumes that there is a `Lexer` class with a `GetNextToken()` method that returns a string.  
   
-```c#  
+```csharp  
 using Microsoft.VisualStudio.Package;  
 using Microsoft.VisualStudio.TextManager.Interop;  
   

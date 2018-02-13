@@ -14,36 +14,25 @@ helpviewer_keywords:
   - "BP_PASSCOUNT structure"
 ms.assetid: 791ac175-b897-4c70-873e-240da7e0ac89
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # BP_PASSCOUNT
 Describes the count and conditions upon which a conditional breakpoint is fired.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct _BP_PASSCOUNT {   
    DWORD              dwPassCount;  
    BP_PASSCOUNT_STYLE stylePassCount;  
 } BP_PASSCOUNT;  
 ```  
   
-```c#  
+```csharp  
 public struct BP_PASSCOUNT {   
    public uint dwPassCount;  
    public uint stylePassCount;  

@@ -13,6 +13,7 @@ f1_keywords:
   - "ScriptEngine"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "ScriptEngine function"
@@ -37,7 +38,7 @@ ScriptEngine()
 ## Example  
  The following example illustrates the use of the `ScriptEngine` function:  
   
-```javascript  
+```JavaScript  
 if (window.ScriptEngine) {  
     console.log(window.ScriptEngine());  
 }  

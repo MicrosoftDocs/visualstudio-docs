@@ -13,6 +13,7 @@ f1_keywords:
   - "sin"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "sin method"

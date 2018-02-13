@@ -13,6 +13,7 @@ f1_keywords:
   - "&"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "assignment operators, bitwise [JavaScript]"
@@ -59,7 +60,7 @@ result = expression1 & expression2
   
  The following examples show how to use the `&` operator.  
   
-```javascript  
+```JavaScript  
 // 9 is 00000000000000000000000000001001  
 var expr1 = 9;  
   

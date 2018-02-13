@@ -10,24 +10,11 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f27ab0e6-9575-4ca0-9901-37d3e5c3a2f5
 caps.latest.revision: 4
-author: "BrianPeek"
-ms.author: "brpeek"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # DONT_SAVE_VSGLOG_TO_TEMP
 Defines by its presence whether the graphics log file is saved to the user's temporary files directory.  

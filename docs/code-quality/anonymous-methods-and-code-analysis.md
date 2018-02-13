@@ -5,7 +5,7 @@ ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-devops-test"
+  - "vs-ide-code-analysis"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
@@ -14,23 +14,11 @@ helpviewer_keywords:
   - "anonymous methods, code analysis"
 ms.assetid: bf0a1a9b-b954-4d46-9c0b-cee65330ad00
 caps.latest.revision: 19
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Anonymous Methods and Code Analysis
 An *anonymous method* is a method that has no name. Anonymous methods are most frequently used to pass a code block as a delegate parameter.  
@@ -42,7 +30,7 @@ An *anonymous method* is a method that has no name. Anonymous methods are most f
   
  For example, in the following class, any warnings that are found in the declaration of **anonymousMethod** should be raised against **Method1** and not **Method2**.  
   
-```vb#  
+```vb  
   
       Delegate Function ADelegate(ByVal value As Integer) As Boolean  
 Class AClass  
@@ -55,7 +43,7 @@ Class AClass
     End SubEnd Class  
 ```  
   
-```c#  
+```csharp  
   
       delegate void Delegate();  
 class Class  
@@ -81,7 +69,7 @@ class Class
   
  For example, in the following class, any warnings that are found in the declaration of **anonymousMethod1** will be raised against the implicitly generated default constructor of **Class**. Whereas, those found in **anonymousMethod2** will be applied against the implicitly generated class constructor.  
   
-```vb#  
+```vb  
   
   Delegate Function ADelegate(ByVal value As Integer) As BooleanClass AClass  
 Dim anonymousMethod1 As ADelegate = Function(ByVal value As    Integer) value > 5  
@@ -93,7 +81,7 @@ Sub Method1()
 End SubEnd Class  
 ```  
   
-```c#  
+```csharp  
   
       delegate void Delegate();  
 class Class  
@@ -120,7 +108,7 @@ class Class
   
  For example, in the following class, any warnings that are found in the declaration of **anonymousMethod** should be raised against **Class(int)** and **Class(string)** but not against **Class()**.  
   
-```vb#  
+```vb  
   
   Delegate Function ADelegate(ByVal value As Integer) As BooleanClass AClass  
   
@@ -134,7 +122,7 @@ End SubSub New(ByVal a As String)
 End SubEnd Class  
 ```  
   
-```c#  
+```csharp  
   
       delegate void Delegate();  
 class Class  

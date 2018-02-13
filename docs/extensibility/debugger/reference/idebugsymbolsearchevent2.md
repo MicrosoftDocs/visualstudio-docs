@@ -14,22 +14,11 @@ helpviewer_keywords:
   - "IDebugSymbolSearchEvent2"
 ms.assetid: 9b946d55-ff85-44eb-b40a-efbf8282eafd
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugSymbolSearchEvent2
 This interface is sent by the debug engine (DE) to indicate that the debugging symbols for a module being debugged have been loaded.  
@@ -41,7 +30,7 @@ IDebugSymbolSearchEvent2 : IUnknown
 ```  
   
 ## Notes for Implementers  
- The DE implements this interface to report that a module's symbols have been loaded. The [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md) interface must be implemented on the same object as this interface. The SDM uses [QueryInterface](/visual-cpp/atl/queryinterface) to access the `IDebugEvent2` interface.  
+ The DE implements this interface to report that a module's symbols have been loaded. The [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md) interface must be implemented on the same object as this interface. The SDM uses [QueryInterface](/cpp/atl/queryinterface) to access the `IDebugEvent2` interface.  
   
 ## Notes for Callers  
  The DE creates and sends this event object to report that a module's symbols have been loaded. The event is sent by using the [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) callback function that is supplied by the SDM when it attached to the program being debugged.  

@@ -5,7 +5,7 @@ ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-devops-test"
+  - "vs-ide-code-analysis"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,23 +16,11 @@ helpviewer_keywords:
   - "CA2218"
 ms.assetid: 69b020cd-29e8-45a6-952e-32cf3ce2e21d
 caps.latest.revision: 20
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA2218: Override GetHashCode on overriding Equals
 |||  
@@ -48,23 +36,23 @@ translation.priority.ht:
 ## Rule Description  
  <xref:System.Object.GetHashCode%2A> returns a value, based on the current instance, that is suited for hashing algorithms and data structures such as a hash table. Two objects that are the same type and are equal must return the same hash code to ensure that instances of the following types work correctly:  
   
--   <xref:System.Collections.HashTable?displayProperty=fullName>  
+-   <xref:System.Collections.Hashtable?displayProperty=fullName>  
   
 -   <xref:System.Collections.SortedList?displayProperty=fullName>  
   
--   <xref:System.Collections.Generic.Dictionary?displayProperty=fullName>  
+-   <xref:System.Collections.Generic.Dictionary%602?displayProperty=fullName>  
   
--   <xref:System.Collections.Generic.SortDictionary?displayProperty=fullName>  
+-   <xref:System.Collections.Generic.SortedDictionary%602?displayProperty=fullName>  
   
--   <xref:System.Collections.Generic.SortList?displayProperty=fullName>  
+-   <xref:System.Collections.Generic.SortedList%602?displayProperty=fullName>  
   
--   <xref:System.Collections.Specialized.HybredDictionary?displayProperty=fullName>  
+-   <xref:System.Collections.Specialized.HybridDictionary?displayProperty=fullName>  
   
 -   <xref:System.Collections.Specialized.ListDictionary?displayProperty=fullName>  
   
 -   <xref:System.Collections.Specialized.OrderedDictionary?displayProperty=fullName>  
   
--   Types that implement <xref:System.Collections.Generic.IEqualityComparer?displayProperty=fullName>  
+-   Types that implement <xref:System.Collections.Generic.IEqualityComparer%601?displayProperty=fullName>  
   
 ## How to Fix Violations  
  To fix a violation of this rule, provide an implementation of <xref:System.Object.GetHashCode%2A>. For a pair of objects of the same type, you must ensure that the implementation returns the same value if your implementation of <xref:System.Object.Equals%2A> returns `true` for the pair.  
@@ -78,13 +66,13 @@ translation.priority.ht:
  The following example shows a class (reference type) that violates this rule.  
   
 ### Code  
- [!code-cs[FxCop.Usage.GetHashCodeErrorClass#1](../code-quality/codesnippet/CSharp/ca2218-override-gethashcode-on-overriding-equals_1.cs)]  
+ [!code-csharp[FxCop.Usage.GetHashCodeErrorClass#1](../code-quality/codesnippet/CSharp/ca2218-override-gethashcode-on-overriding-equals_1.cs)]  
   
 ### Comments  
  The following example fixes the violation by overriding <xref:System.Object.GetHashCode>.  
   
 ### Code  
- [!code-cs[FxCop.Usage.GetHashCodeFixedClass#1](../code-quality/codesnippet/CSharp/ca2218-override-gethashcode-on-overriding-equals_2.cs)]  
+ [!code-csharp[FxCop.Usage.GetHashCodeFixedClass#1](../code-quality/codesnippet/CSharp/ca2218-override-gethashcode-on-overriding-equals_2.cs)]  
   
 ## Structure Example  
   
@@ -92,13 +80,13 @@ translation.priority.ht:
  The following example shows a structure (value type) that violates this rule.  
   
 ### Code  
- [!code-cs[FxCop.Usage.GetHashCodeErrorStruct#1](../code-quality/codesnippet/CSharp/ca2218-override-gethashcode-on-overriding-equals_3.cs)]  
+ [!code-csharp[FxCop.Usage.GetHashCodeErrorStruct#1](../code-quality/codesnippet/CSharp/ca2218-override-gethashcode-on-overriding-equals_3.cs)]  
   
 ### Comments  
  The following example fixes the violation by overriding <xref:System.Object.GetHashCode>.  
   
 ### Code  
- [!code-cs[FxCop.Usage.GetHashCodeFixedStruct#1](../code-quality/codesnippet/CSharp/ca2218-override-gethashcode-on-overriding-equals_4.cs)]  
+ [!code-csharp[FxCop.Usage.GetHashCodeFixedStruct#1](../code-quality/codesnippet/CSharp/ca2218-override-gethashcode-on-overriding-equals_4.cs)]  
   
 ## Related Rules  
  [CA1046: Do not overload operator equals on reference types](../code-quality/ca1046-do-not-overload-operator-equals-on-reference-types.md)  
@@ -114,5 +102,5 @@ translation.priority.ht:
 ## See Also  
  <xref:System.Object.Equals%2A?displayProperty=fullName>   
  <xref:System.Object.GetHashCode%2A?displayProperty=fullName>   
- <xref:System.Collections.HashTable?displayProperty=fullName>   
- [Equality Operators](http://msdn.microsoft.com/Library/bc496a91-fefb-4ce0-ab4c-61f09964119a)
+ <xref:System.Collections.Hashtable?displayProperty=fullName>   
+ [Equality Operators](/dotnet/standard/design-guidelines/equality-operators)

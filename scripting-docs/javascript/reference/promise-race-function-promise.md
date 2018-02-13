@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 9236eced-d313-4d03-8c3e-d89d762b3084
 caps.latest.revision: 6
@@ -36,12 +37,12 @@ Promise.race(iterable)
   
 ## Example  
   
-```javascript  
+```JavaScript  
 var p1 = new Promise(function(resolve, reject) {  
     setTimeout(resolve, 0, 'success');  
 });  
 var p2 = new Promise(function(resolve, reject) { });  
-var p2 = new Promise(function(resolve, reject) { });  
+var p3 = new Promise(function(resolve, reject) { });  
   
 var race = Promise.race( [p1, p2, p3] );  
 race.then(function(result) {  

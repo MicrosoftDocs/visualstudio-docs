@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Trin_BindableComponent">
+</Property><Property Name="Solution File" Value="C:\Users\normesta\Desktop\Trin_BindableComponent\CS\Trin_BindableComponent.sln">
+</Property><Property Name="User Options File" Value="C:\Users\normesta\Desktop\Trin_BindableComponent\CS\Trin_BindableComponent.v11.suo">
+</Property><Property Name="Date" Value="Thursday, October 27, 2011">
+</Property><Property Name="Time" Value="6:11 AM">
+</Property></Properties><Event ErrorLevel="3" Project="" Source="Trin_BindableComponent.sln" Description="SafeUpgrade">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_BindableComponent.sln" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_BindableComponent\CS\Backup\Trin_BindableComponent.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_BindableComponent.v11.suo" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_BindableComponent\CS\Backup\Trin_BindableComponent.v11.suo">
+</Event><Event ErrorLevel="3" Project="Trin_BindableComponent" Source="Trin_BindableComponent.csproj" Description="SafeRepair">
+</Event><Event ErrorLevel="0" Project="Trin_BindableComponent" Source="Trin_BindableComponent.csproj" Description="Project file successfully backed up as C:\Users\normesta\Desktop\Trin_BindableComponent\CS\Backup\Trin_BindableComponent.csproj">
+</Event><Event ErrorLevel="0" Project="Trin_BindableComponent" Source="Trin_BindableComponent.csproj.user" Description="Project user file successfully backed up as C:\Users\normesta\Desktop\Trin_BindableComponent\CS\Backup\Trin_BindableComponent.csproj.user">
+</Event><Event ErrorLevel="0" Project="Trin_BindableComponent" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_BindableComponent\CS\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Trin_BindableComponent" Source="Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_BindableComponent\CS\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_BindableComponent" Source="Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_BindableComponent\CS\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_BindableComponent" Source="Sheet1.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_BindableComponent\CS\Backup\Sheet1.cs">
+</Event><Event ErrorLevel="0" Project="Trin_BindableComponent" Source="Sheet1.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_BindableComponent\CS\Backup\Sheet1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_BindableComponent" Source="Sheet2.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_BindableComponent\CS\Backup\Sheet2.cs">
+</Event><Event ErrorLevel="0" Project="Trin_BindableComponent" Source="Sheet2.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_BindableComponent\CS\Backup\Sheet2.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_BindableComponent" Source="Sheet3.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_BindableComponent\CS\Backup\Sheet3.cs">
+</Event><Event ErrorLevel="0" Project="Trin_BindableComponent" Source="Sheet3.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_BindableComponent\CS\Backup\Sheet3.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_BindableComponent" Source="ThisWorkbook.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_BindableComponent\CS\Backup\ThisWorkbook.cs">
+</Event><Event ErrorLevel="0" Project="Trin_BindableComponent" Source="ThisWorkbook.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_BindableComponent\CS\Backup\ThisWorkbook.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_BindableComponent" Source="Properties\Settings.settings" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_BindableComponent\CS\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Trin_BindableComponent" Source="Trin_BindableComponent.xlsx" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_BindableComponent\CS\Backup\Trin_BindableComponent.xlsx">
+</Event><Event ErrorLevel="0" Project="Trin_BindableComponent" Source="ThisWorkbook.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_BindableComponent\CS\Backup\ThisWorkbook.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_BindableComponent" Source="Sheet1.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_BindableComponent\CS\Backup\Sheet1.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_BindableComponent" Source="Sheet2.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_BindableComponent\CS\Backup\Sheet2.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_BindableComponent" Source="Sheet3.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_BindableComponent\CS\Backup\Sheet3.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_BindableComponent" Source="Trin_BindableComponent_TemporaryKey.pfx" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_BindableComponent\CS\Backup\Trin_BindableComponent_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="Trin_BindableComponent" Source="Properties\Resources.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_BindableComponent\CS\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Trin_BindableComponent" Source="Trin_BindableComponent.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Trin_BindableComponent" Source="Trin_BindableComponent.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_BindableComponent.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Trin_BindableComponent.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Trin_BindableComponent" Source="Trin_BindableComponent.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

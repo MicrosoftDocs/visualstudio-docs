@@ -17,22 +17,9 @@ ms.assetid: aca4ec77-bc08-4cdd-a6ce-8d4a28ea5ea3
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Constants (Debug Interface Access SDK)
 These string constants can be used to identify various sections of a program debug database (PDB) file through the DIA SDK.  

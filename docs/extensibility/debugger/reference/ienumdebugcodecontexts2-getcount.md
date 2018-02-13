@@ -14,35 +14,24 @@ helpviewer_keywords:
   - "IEnumDebugCodeContexts2::GetCount"
 ms.assetid: 74c52fcf-688c-40df-9acd-29b3b84e6216
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IEnumDebugCodeContexts2::GetCount
 Returns the number of elements in the enumeration.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetCount(  
    ULONG* pcelt  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetCount(  
    out uint pcelt  
 );  

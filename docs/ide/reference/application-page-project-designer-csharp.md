@@ -14,33 +14,19 @@ f1_keywords:
 helpviewer_keywords: 
   - "Project Designer, Application page"
   - "Application page in Project Designer"
-ms.assetid: f13701a8-4e2e-4474-9d60-bb43decbe0c1
-caps.latest.revision: 56
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.workload: 
+  - "dotnet"
 ---
 # Application Page, Project Designer (C#)
+
 Use the **Application** page of the **Project Designer** to specify the project's application settings and properties.  
   
- To access the **Application** page, choose a project node (not the **Solution** node) in **Solution Explorer**. Then choose **Project**, **Properties** on the menu bar. When the Project Designer appears, click the **Application** tab.  
+To access the **Application** page, choose a project node (not the **Solution** node) in **Solution Explorer**. Then choose **Project**, **Properties** on the menu bar. When the Project Designer appears, click the **Application** tab.  
   
- [!INCLUDE[note_settings_general](../../data-tools/includes/note_settings_general_md.md)]  
+[!INCLUDE[note_settings_general](../../data-tools/includes/note_settings_general_md.md)]  
   
 ## General Application Settings  
  The following options enable you to configure general settings for the application.  
@@ -66,14 +52,14 @@ Use the **Application** page of the **Project Designer** to specify the project'
  For more information, see [How to: Target a Version of the .NET Framework](../../ide/how-to-target-a-version-of-the-dotnet-framework.md) and [Visual Studio Multi-Targeting Overview](../../ide/visual-studio-multi-targeting-overview.md).  
   
  **Application type**  
- Specifies the type of application to build. For [!INCLUDE[win8_appname_long](../../debugger/includes/win8_appname_long_md.md)] apps, you can specify **Windows Store App**, **Class Library**, or **WinMD File**. For most other application types, you can specify **Windows Application**, **Console Application**, **Class Library**, **Windows Service**, or **Web Control Library**.  
+ Specifies the type of application to build. For Windows 8.x apps, you can specify **Windows Store App**, **Class Library**, or **WinMD File**. For most other application types, you can specify **Windows Application**, **Console Application**, **Class Library**, **Windows Service**, or **Web Control Library**.  
   
  For a web application project, you must specify **Class Library**.  
   
- If you specify the **WinMD File** option, types can be projected into any Windows Runtime programming language. By packaging the project's output as a WinMD file, you can code an application in multiple languages and have code interoperate as if you wrote it all in the same language. You can specify this option for solutions that target the Windows Runtime libraries, including [!INCLUDE[win8_appname_long](../../debugger/includes/win8_appname_long_md.md)] apps. For more information, see [Creating Windows Runtime Components in C# and Visual Basic](http://go.microsoft.com/fwlink/?LinkId=231895).  
+ If you specify the **WinMD File** option, types can be projected into any Windows Runtime programming language. By packaging the project's output as a WinMD file, you can code an application in multiple languages and have code interoperate as if you wrote it all in the same language. You can specify this option for solutions that target the Windows Runtime libraries, including [!INCLUDE[win8_appname_long](../../debugger/includes/win8_appname_long_md.md)] apps. For more information, see [Creating Windows Runtime Components in C# and Visual Basic](/windows/uwp/winrt-components/creating-windows-runtime-components-in-csharp-and-visual-basic).  
   
 > [!NOTE]
->  The Windows Runtime can project types so that they appear as native objects in whichever language uses them. For example, JavaScript applications that interact with Windows Runtime use it as a set of JavaScript objects, and C# applications use the library as a collection of .NET objects. By packaging the project’s output as a WinMD file, you can take advantage of the same technology that Windows Runtime uses.  
+>  The Windows Runtime can project types so that they appear as native objects in whichever language uses them. For example, JavaScript applications that interact with Windows Runtime use it as a set of JavaScript objects, and C# applications use the library as a collection of .NET objects. By packaging the project's output as a WinMD file, you can take advantage of the same technology that Windows Runtime uses.  
   
  For more information about the **Application type** property, see [/target (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/target-compiler-option). For information about how to access this property programmatically, see <xref:VSLangProj.ProjectProperties.OutputType%2A>.  
   
@@ -105,11 +91,7 @@ Use the **Application** page of the **Project Designer** to specify the project'
   
 -   **Properties\app.manifest**. This option is required for applications deployed by ClickOnce or Registration-Free COM. If you publish an application by using ClickOnce deployment, **Manifest** is automatically set to this option.  
   
- **Resource File**  
- Select this radio button when you are providing a resource file for the project. Selecting this option disables the **Icon** and **Manifest** options.  
+**Resource File**  
+Select this radio button when you are providing a resource file for the project. Selecting this option disables the **Icon** and **Manifest** options.  
   
- Enter a path name or use the Browse button (**...**) to add a Win32 resource file to the project.  
-  
-## See Also  
-[Managing Application Properties](../../ide/application-properties.md)  
- [Writing Code in Office Solutions](/office-dev/office-dev/writing-code-in-office-solutions)
+Enter a path name or use the Browse button (**...**) to add a Win32 resource file to the project.

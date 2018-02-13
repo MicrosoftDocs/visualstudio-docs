@@ -12,22 +12,9 @@ ms.assetid: 509d2d4f-48a5-4cdf-acad-6f7b75421303
 caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # PerfTips
 Visual Studio debugger *PerfTips* and the debugger-integrated **Diagnostic Tools** help you to monitor and analyze the performance of your app while you are debugging.  
@@ -40,7 +27,7 @@ Visual Studio debugger *PerfTips* and the debugger-integrated **Diagnostic Tools
  ![PerfTip](../profiling/media/dbgdiag_perf_perftip.png "DBGDIAG_PERF_PerfTip")  
   
 ## Diagnostics Tools window  
- Breakpoints and associated timing data timing data are recorded in the Diagnostic Tools window  
+ Breakpoints and associated timing data are recorded in the Diagnostic Tools window  
   
  The following graphic shows the Diagnostic Tools window in Visual Studio 2015 Update 1:  
   
@@ -67,3 +54,7 @@ Visual Studio debugger *PerfTips* and the debugger-integrated **Diagnostic Tools
 1.  On the **Debug** menu, choose **Options**.  
   
 2.  Check or clear **Enable Diagnostics Tools while debugging**.
+
+## See Also
+ [Profiling in Visual Studio](../profiling/index.md)  
+ [Profiling Feature Tour](../profiling/profiling-feature-tour.md)

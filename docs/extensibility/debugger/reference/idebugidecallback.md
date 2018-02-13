@@ -12,22 +12,11 @@ helpviewer_keywords:
   - "IDebugIDECallback interface"
 ms.assetid: 8d31adc0-1c44-4658-8d4f-f4b73e35f4a6
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugIDECallback
 > [!IMPORTANT]
@@ -45,7 +34,7 @@ IDebugIDECallback : IUnknown
  This callback is implemented by the managed debug engine.  
   
 ## Notes for Callers  
- It can be consumed by an expression evaluator to send output to the debugger’s output window.  
+ It can be consumed by an expression evaluator to send output to the debugger's output window.  
   
 ## Methods  
  This interface implements the following method:  

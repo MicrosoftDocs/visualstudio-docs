@@ -13,22 +13,11 @@ helpviewer_keywords:
   - "language services [managed package framework], commenting code"
 ms.assetid: 9600d6f0-e2b6-4fe0-b935-fb32affb97a4
 caps.latest.revision: 14
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Commenting Code in a Legacy Language Service
 Programming languages typically provide a means to annotate or comment the code. A comment is a section of text that provides additional information about the code but is ignored during compilation or interpretation.  
@@ -54,7 +43,7 @@ Programming languages typically provide a means to annotate or comment the code.
 ### Example  
  Here is an example implementation of the <xref:Microsoft.VisualStudio.Package.Source.GetCommentFormat%2A> method.  
   
-```c#  
+```csharp  
 using Microsoft.VisualStudio.Package;  
   
 namespace MyLanguagePackage  

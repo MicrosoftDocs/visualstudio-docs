@@ -10,24 +10,11 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4509311d-6fe2-4b65-9b4a-ff0522585d6a
 caps.latest.revision: 5
-author: "BrianPeek"
-ms.author: "brpeek"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CaptureCurrentFrame
 Captures the remainder of the current frame to the graphics log file.  

@@ -13,6 +13,7 @@ f1_keywords:
   - "let_JavaScriptKeyword"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "let statement"
@@ -49,7 +50,7 @@ let variable1 = value1
 ## Example  
  The following example illustrates the use of the `let` statement.  
   
-```javascript  
+```JavaScript  
 var  l = 10;  
 {  
     let l = 2;  

@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 31488f5a-2230-4114-911e-b6d854c7b0a0
 caps.latest.revision: 4
@@ -43,7 +44,7 @@ Math.hypot ( value1[, value2[, ...values] );
 ## Example  
  The following example shows an example of using the `Math.hypot` function.  
   
-```javascript  
+```JavaScript  
 Math.hypot(3, 4);  
 // Returns 5  
   

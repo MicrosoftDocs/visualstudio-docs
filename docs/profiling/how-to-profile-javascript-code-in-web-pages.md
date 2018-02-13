@@ -16,22 +16,9 @@ ms.assetid: 37d02aad-ca4d-4eb0-bf66-ca3ecef31fbe
 caps.latest.revision: 27
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Profile JavaScript Code in Web Pages
 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools can collect performance data for JavaScript code that executes in an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application, an arbitrary Web page, or JavaScript application by using the instrumentation profiling method.  
@@ -43,7 +30,7 @@ translation.priority.mt:
 -   Internet Explorer 8 or later.  
   
 > [!WARNING]
->  To profile JavaScript in Windows Store apps, see [JavaScript Memory](../profiling/javascript-memory.md) 
+>  To profile JavaScript in UWP apps, see [JavaScript Memory](../profiling/javascript-memory.md) 
   
  You can use the Profiling Wizard to create a performance session. Specify the instrumentation method and then specify the JavaScript profiling option on the Instrumentation page of the properties dialog box for the performance session.  
   

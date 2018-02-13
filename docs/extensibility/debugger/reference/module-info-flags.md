@@ -14,36 +14,25 @@ helpviewer_keywords:
   - "MODULE_INFO_FLAGS enumeration"
 ms.assetid: e22d3723-b4d4-4524-8a2f-3adb55bbd273
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # MODULE_INFO_FLAGS
 Specifies the state of symbols for a module.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_MODULE_INFO_FLAGS {  
    MIF_SYMBOLS_LOADED = 0x0001  
 };  
 typedef DWORD MODULE_INFO_FLAGS;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_MODULE_INFO_FLAGS {  
    MIF_SYMBOLS_LOADED = 0x0001  
 };  

@@ -13,6 +13,7 @@ f1_keywords:
   - "reverse"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "arrays [Visual Studio], reversing elements"
@@ -51,7 +52,7 @@ arrayObj.reverse()
 ## Example  
  The following example illustrates the use of the `reverse` method.  
   
-```javascript  
+```JavaScript  
 var arr = new Array(0,1,2,3,4);   
 var reverseArr = arr.reverse();  
 document.write(reverseArr);  

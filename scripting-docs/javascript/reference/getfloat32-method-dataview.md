@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: adecf671-bde4-46be-a875-33b6d6e970b1
 caps.latest.revision: 5
@@ -43,7 +44,7 @@ var testFloat = dataView.getFloat32(byteOffset, littleEndian);
 ## Example  
  The following example shows how to get the first Float32 in the DataView.  
   
-```javascript  
+```JavaScript  
 var req = new XMLHttpRequest();  
     req.open('GET', "http://www.example.com");  
     req.responseType = "arraybuffer";  

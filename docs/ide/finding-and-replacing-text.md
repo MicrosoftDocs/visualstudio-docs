@@ -38,23 +38,11 @@ helpviewer_keywords:
   - "replacing text"
 ms.assetid: a62545c3-1570-4d12-99fb-a82607eb35a1
 caps.latest.revision: 31
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Finding and Replacing Text
 You can find and replace text in the Visual Studio code editor, and certain text-based output windows such as the **Find Results** windows, using the **Find and Replace** control or **Find/Replace in Files**. You can also search and replace in some designer windows, such as the XAML designer and the Windows Forms designer, and tool windows  
@@ -84,7 +72,7 @@ You can find and replace text in the Visual Studio code editor, and certain text
  When you choose **Find All**, a **Find Results** window opens and lists the matches for your search. Selecting a result in the list displays the associated file and highlights the match. If the file is not already open for editing, it is opened in a preview tab in the right side of the tab well. You can use the **Find** control to search through the **Find Results** list.  
   
 ### Creating Custom Search Folder Sets  
- You can define a search scope by choosing the **Choose Search Folders** button (it looks like **…**) next to the **Look in** box. In the **Choose Search Folders** dialog box, you can specify a set of folders in which to search, and you can save the specification so that you can reuse it later. You can specify folders on a remote machine only if you have mapped its drive to the local machine.  
+ You can define a search scope by choosing the **Choose Search Folders** button (it looks like **...**) next to the **Look in** box. In the **Choose Search Folders** dialog box, you can specify a set of folders in which to search, and you can save the specification so that you can reuse it later. You can specify folders on a remote machine only if you have mapped its drive to the local machine.  
   
 ### Creating Custom Component Sets  
  You can define component sets as your search scope by choosing the **Edit Custom Component Set** button next to the **Look in** box. You can specify installed .NET or COM components, Visual Studio projects that are included in your solution, or any assembly or type library (.dll, .tlb, .olb, .exe, or .ocx). To search references, select the **Look in references** box.  

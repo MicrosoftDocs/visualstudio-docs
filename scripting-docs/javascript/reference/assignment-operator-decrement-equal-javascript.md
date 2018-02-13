@@ -14,6 +14,7 @@ f1_keywords:
   - "Assign"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "= operator, about = operator"

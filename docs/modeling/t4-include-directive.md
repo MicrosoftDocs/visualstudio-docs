@@ -4,27 +4,13 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8c3de9f3-755a-47c5-a30a-65717dcaaac2
-caps.latest.revision: 6
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # T4 Include Directive
 In a text template in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], you can include text from another file by using an `<#@include#>` directive. You can place `include` directives anywhere in a text template before the first class feature block `<#+ ... #>`. The included files can also contain `include` directives, and other directives. This allows you to share template code and boilerplate text between templates.  
@@ -55,7 +41,7 @@ In a text template in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)],
   
 -   The included content is processed almost as if it were part of the including text template. However, you can include a file that contains a class feature block `<#+...#>` even if the `include` directive is followed by ordinary text and standard control blocks.  
   
--   Use `once="true"` to ensure that a template is included only once, even if it’s invoked from more than one other include file.  
+-   Use `once="true"` to ensure that a template is included only once, even if it's invoked from more than one other include file.  
   
      This feature makes it easy to build up a library of reusable T4 snippets that you can include at will without worrying that some other snippet has already included them.  For example, suppose you have a library of very fine-grained snippets that deal with template processing and C# generation.  In turn, these are used by some more task-specific utilities such as generating exceptions, which you can then use from any more application-specific template. If you draw the dependency graph, you see that some snippets would be included several times. But the `once` parameter prevents the subsequent inclusions.  
   
@@ -121,7 +107,7 @@ Output message 5 (from top template).
 ```  
   
 ##  <a name="msbuild"></a> Using project properties in MSBuild and Visual Studio  
- Although you can use Visual Studio macros like $(SolutionDir) in an include directive, they don’t work in MSBuild. If you want to transform templates in your build machine, you have to use project properties instead.  
+ Although you can use Visual Studio macros like $(SolutionDir) in an include directive, they don't work in MSBuild. If you want to transform templates in your build machine, you have to use project properties instead.  
   
  Edit your .csproj or .vbproj file to define a project property. This example defines a property named `myIncludeFolder`:  
   

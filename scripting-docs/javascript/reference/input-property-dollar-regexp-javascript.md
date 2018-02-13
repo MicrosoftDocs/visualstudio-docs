@@ -13,6 +13,7 @@ f1_keywords:
   - "$_"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "input property"
@@ -40,7 +41,7 @@ RegExp.input
   
  The following example illustrates the use of the **input** property:  
   
-```javascript  
+```JavaScript  
 function inputDemo(){  
    var s;  
    var re = new RegExp("d(b+)(d)","ig");  

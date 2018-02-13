@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: debbe2f4-fe1e-4f9d-af7d-b24430bfa962
 caps.latest.revision: 9
@@ -23,7 +24,7 @@ Omittable. Gets the element at the specified index.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 var value = float64Array.get(index);  
 ```  
   
@@ -37,7 +38,7 @@ var value = float64Array.get(index);
 ## Example  
  The following example shows how to get the first element of the array.  
   
-```javascript  
+```JavaScript  
 var req = new XMLHttpRequest();  
     req.open('GET', "http://www.example.com");  
     req.responseType = "arraybuffer";  

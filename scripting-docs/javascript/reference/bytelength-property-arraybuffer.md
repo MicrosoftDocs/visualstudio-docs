@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: c158fa59-d006-4842-9d06-0fd8e630ea31
 caps.latest.revision: 7
@@ -23,7 +24,7 @@ Read-only. The length of the ArrayBuffer (in bytes).
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 var arrayLength = arrayBuffer.byteLength;  
 ```  
   
@@ -32,7 +33,7 @@ var arrayLength = arrayBuffer.byteLength;
 ## Example  
  The following example shows how to get the byte length of the ArrayBuffer.  
   
-```javascript  
+```JavaScript  
 var req = new XMLHttpRequest();  
     req.open('GET', "http://www.example.com");  
     req.responseType = "arraybuffer";  
