@@ -10,7 +10,7 @@
 ### [Obtaining & Managing Product Keys](product-keys.md)
 ### Visual Studio Dev Essentials
 #### [Joining Visual Studio Dev Essentials](join-dev-essentials.md)
-#### [Opting Out of Visual Studio Dev Essentials](leave.vsde.md)
+#### [Opting Out of Visual Studio Dev Essentials](leave-vsde.md)
 ### [Subscriber Benefits](subscriber-benefits.md)
 ## Using Subscriber Benefits
 ### Tools
