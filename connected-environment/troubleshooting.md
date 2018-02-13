@@ -51,16 +51,10 @@ Install the [VS Code extension for Connected Environment](get-started-netcore-01
 **Reason:** The build context is at the project/service level by default, therefore a library project you are using will not be found.
 
 **Try:**
-What needs to be done is:
+What needs to be done:
 1. Modify the vsce.yaml file to set the build context to the solution level.
 2. Modify the Dockerfile and Dockerfile.develop files to refer to the csproj files correctly, relative to the new build context.
 3. Place a .dockerignore file beside the .sln file and modify as needed.
-
-You can see if your Connected Environment is still being created by *hovering your cursor* over the **Background tasks** icon in the bottom left corner of the status bar.    
-![](images/BackgroundTasks.png)
-
-You can also see if a Connected Environment you recently created from within Visual Studio has been created sucessfully by *clicking* on the **Background tasks** icon in the bottom left corner of the status bar.    
-![](images/BackgroundTasks2.png)
 
 You can find an example at https://github.com/sgreenmsft/buildcontextsample
 
