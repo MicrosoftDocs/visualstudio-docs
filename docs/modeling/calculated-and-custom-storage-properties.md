@@ -4,7 +4,6 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Domain-Specific Language, programming domain properties"
@@ -13,6 +12,7 @@ ms.author: gewarren
 manager: ghogen
 ms.workload: 
   - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Calculated and Custom Storage Properties
 All domain properties in a domain-specific language (DSL) can be displayed to the user on the diagram and in your language explorer, and can be accessed by program code. However, properties differ in the way that their values are stored.  

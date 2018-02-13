@@ -27,10 +27,7 @@ features in Team Foundation Server (TFS) and Visual Studio Team Services:
 
 * [Self-service management of SCVMM environments](#managescvmm)
 
-Build and Release Management do not support self-service
-creation of network isolated SCVMM environments, and there are
-no plans to provide this support in the future. However, there
-are some [suggested alternatives](#isolatedenvir).
+* [Creation of network isolated environments](#isolatedenvir)
 
 <a name="bdtautomation"></a>
 ## Build-deploy-test automation
@@ -101,7 +98,7 @@ they are test or deployment activities):
 | Take a checkpoint of an environment, or restore an environment to a clean checkpoint. | Open the lab environment in Environment viewer. Select the option to take a checkpoint or to restore to a previous checkpoint. | Use SCVMM administration console directly to perform these operations on virtual machines. Or, to perform these steps as part of a larger automation, include the checkpoint tasks from the [SCVMM Integration extension](https://marketplace.visualstudio.com/items?itemname=ms-vscs-rm.scvmmapp) as part of the environment in a release definition. |
 
 <a name="isolatedenvir"></a>
-## Self-service creation of network isolated environments
+## Creation of network isolated environments
 
 A network isolated lab environment is a group of SCVMM 
 virtual machines that can be cloned safely without causing 
@@ -111,30 +108,14 @@ configure the virtual machines in a private network, and
 another set of network interface cards to configure the 
 virtual machines in a public network.
 
-With the evolution of richer public and private cloud 
-management systems such as [Microsoft Azure](https://azure.microsoft.com/)
-and [Microsoft Azure Stack](https://azure.microsoft.com/overview/azure-stack/), 
-you can rely more on the cloud management tools 
-directly for similar capabilities. There is no equivalent way
-to accomplish this goal in Build and Release Management.
+However, VSTS and TFS, in conjunction with the SCVMM build and deploy task,
+can be used to manage SCVMM environments, provision isolated virtual networks,
+and implement build-deploy-test scenarios. For example, you can use the task to:
 
-You are encouraged to consider the following alternatives if 
-you need network isolation:
+* Create, restore, and delete checkpoints
+* Create new virtual machines using a template
+* Start and stop virtual machines
+* Run custom PowerShell scripts for SCVMM
 
-* One motivation for network isolation has been the ease of 
-  configuration of multiple clones. As each clone is an exact 
-  replica of the original, the computer names and configuration
-  settings are preserved as is, and this makes it easy to set 
-  up new environments. However, the same benefit causes 
-  problems to arise later in the lifecycle (for example, in
-  production) because the way applications are finally deployed
-  is not in the same. **Instead**, consider setting up new
-  environments in the same way that you set up production, and
-  avoid using network isolation.
-
-* Use a public cloud infrastructure such as [Microsoft Azure](https://azure.microsoft.com/)
-  for your testing needs. You can easily use 
-  [Azure Resource Manager templates](https://azure.microsoft.com/documentation/templates/) from the [Azure Marketplace](https://azure.microsoft.com/marketplace/) or from [Azure quick start templates](https://azure.microsoft.com/documentation/templates/)
-  to set up groups of virtual machines that are 
-  connected through a private network, and are exposed to the 
-  public network only using a proxy or a 'jumpbox'.
+For more information, see
+[Create a virtual network isolated environment for build-deploy-test scenarios](/vsts/build-release/actions/virtual-networks/create-virtual-network).

@@ -4,7 +4,6 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "architecture, dependency diagrams"
@@ -16,24 +15,27 @@ ms.author: gewarren
 manager: ghogen
 ms.workload: 
   - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Create dependency diagrams from your code
-To visualize your software system's high-level, logical architecture, create a *dependency diagram* in Visual Studio. To make sure that your code stays consistent with this design, validate your code with a dependency diagram. You can create dependency diagrams for Visual C# .NET and Visual Basic .NET projects. To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport)  
-  
- ![Create a dependency diagram](../modeling/media/layerdiagramvisualizecode.png "LayerDiagramVisualizeCode")  
-  
- A dependency diagram lets you organize Visual Studio solution items into logical, abstract groups called *layers*. You can use layers to describe major tasks that these artifacts perform or the system's major components. Each layer can contain other layers that describe more detailed tasks. You can also specify the intended or existing *dependencies* between layers. These dependencies, which are represented as arrows, show which layers can use or currently use the functionality represented by other layers. To maintain architectural control of the code, show the intended dependencies on the diagram and then validate the code against the diagram.  
-  
- [Video: Validate your architecture dependencies in real time](https://sec.ch9.ms/sessions/69613110-c334-4f25-bb36-08e5a93456b5/170ValidateArchitectureDependenciesWithVisualStudio.mp4) 
-  
-##  <a name="CreateDiagram"></a> Create a dependency diagram  
- Before you create a dependency diagram, make sure your solution has a modeling project. 
-  
+
+To visualize your software system's high-level, logical architecture, create a *dependency diagram* in Visual Studio. To make sure that your code stays consistent with this design, validate your code with a dependency diagram. You can create dependency diagrams for Visual C# and Visual Basic projects. To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
+
+![Create a dependency diagram](../modeling/media/layerdiagramvisualizecode.png "LayerDiagramVisualizeCode")
+
+A dependency diagram lets you organize Visual Studio solution items into logical, abstract groups called *layers*. You can use layers to describe major tasks that these artifacts perform or the system's major components. Each layer can contain other layers that describe more detailed tasks. You can also specify the intended or existing *dependencies* between layers. These dependencies, which are represented as arrows, show which layers can use or currently use the functionality represented by other layers. To maintain architectural control of the code, show the intended dependencies on the diagram and then validate the code against the diagram.
+
+[Video: Validate your architecture dependencies in real time](https://sec.ch9.ms/sessions/69613110-c334-4f25-bb36-08e5a93456b5/170ValidateArchitectureDependenciesWithVisualStudio.mp4) 
+
+##  <a name="CreateDiagram"></a> Create a dependency diagram
+
+Before you create a dependency diagram, make sure your solution has a modeling project.
+
 > [!IMPORTANT]
->  Don't add, drag, or copy an existing dependency diagram from a modeling project to another modeling project or to another place in the solution. This preserves the references from the original diagram, even if you change the diagram. This also prevents layer validation from working correctly and might cause other issues, such as missing elements or other errors when you try to open the diagram.  
->   
->  Instead, add a new dependency diagram to the modeling project. Copy the elements from the source diagram to the new diagram. Save both the modeling project and the new dependency diagram.  
-  
+> Don't add, drag, or copy an existing dependency diagram from a modeling project to another modeling project or to another place in the solution. This preserves the references from the original diagram, even if you change the diagram. This also prevents layer validation from working correctly and might cause other issues, such as missing elements or other errors when you try to open the diagram.
+>
+> Instead, add a new dependency diagram to the modeling project. Copy the elements from the source diagram to the new diagram. Save both the modeling project and the new dependency diagram.
+
 #### To add a new dependency diagram to a modeling project  
   
 1.  On the **Architecture** menu, choose **New Dependency Diagram**.  

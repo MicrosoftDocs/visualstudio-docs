@@ -1,16 +1,16 @@
 ---
 title: Installing Python support in Visual Studio | Microsoft Docs
 description: Detailed instructions on how to install the Python Tools for Visual Studio (PTVS) in Visual Studio 2017, 2015, 2013, 2012, and 2010, including options and installation locations.
-ms.custom: ""
+ms.custom:
 ms.date: 01/16/2018
-ms.reviewer: ""
-ms.suite: ""
+ms.reviewer:
+ms.suite:
 ms.technology: 
   - "devlang-python"
-ms.devlang: python
-ms.tgt_pltfrm: ""
+dev_langs:
+  - "python"
+ms.tgt_pltfrm:
 ms.topic: "article"
-caps.latest.revision: 11
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
@@ -27,12 +27,12 @@ To install Python support for Visual Studio (also known as Python Tools for Visu
 - [Visual Studio 2015](#visual-studio-2015)
 - [Visual Studio 2013 and earlier](#visual-studio-2013-and-earlier)
 
-For Visual Studio 2015 and earlier you also need to separately install a Python interpreter of your choice (Python  3.5 and earlier; 3.6 is not supported and will generate the message "Unsupported Python version 3.6"). For details, see [Python environments](managing-python-environments-in-visual-studio.md). The same page also contains instructions for adding an existing Python interpreter to Visual Studio 2017.
+For Visual Studio 2015 and earlier you also need to separately install a Python interpreter of your choice (Python  3.5 and earlier; 3.6 is not supported and generates the message "Unsupported Python version 3.6"). For details, see [Python environments](managing-python-environments-in-visual-studio.md). The same page also contains instructions for adding an existing Python interpreter to Visual Studio 2017.
 
 To quickly test Python support after following the installation steps, Open the Python Interactive window by pressing Alt-I and entering `2+2`. If you don't see the output of `4`, recheck your steps.
 
 > [!Tip]
-> The Python workload includes the helpful Cookiecutter extension that provides a graphical user interface to discover templates, input template options, and create projects and files. For details, see [Using Cookiecutter](cookiecutter.md).
+> The Python workload includes the helpful Cookiecutter extension that provides a graphical user interface to discover templates, input template options, and create projects and files. For details, see [Using Cookiecutter](using-python-cookiecutter-templates.md).
 
 > [!Note]
 > Python support is not presently available in Visual Studio for Mac, but is available on Mac and Linux through Visual Studio Code. See [questions and answers](overview-of-python-tools-for-visual-studio.md#questions-and-answers).
@@ -60,11 +60,11 @@ To quickly test Python support after following the installation steps, Open the 
     | Option | Description |
     | --- | --- |
     | Python distributions | Choose any combination of the 32-bit and 64-bit variants of the Python 2, Python 3, Anaconda2, and Anaconda3 distributions that you plan to work with. Each includes the distribution's interpreter, runtime, and libraries. Anaconda, specifically, is an open data science platform that includes a wide range of pre-installed packages. (You can return to the Visual Studio installer at any time to add or remove distributions.) |
-    | Cookiecutter template support | Installs the Cookiecutter graphical UI to discover templates, input template options, and create projects and files. See [Using the Cookiecutter extension](cookiecutter.md). |
-    | Python web support | Installs tools for web development including HTML, CSS, and JavaScript editing support, along with templates for projects using the Bottle, Flask, and Django frameworks. See [Python web project templates](template-web.md). |
+    | Cookiecutter template support | Installs the Cookiecutter graphical UI to discover templates, input template options, and create projects and files. See [Using the Cookiecutter extension](using-python-cookiecutter-templates.md). |
+    | Python web support | Installs tools for web development including HTML, CSS, and JavaScript editing support, along with templates for projects using the Bottle, Flask, and Django frameworks. See [Python web project templates](python-web-application-project-templates.md). |
     | Python IoT support | Supports Windows IoT Core development using Python. |
     | Python native development tools | Installs the C++ compiler and other necessary components to develop native extensions for Python. See [Creating a C++ extension for Python](working-with-c-cpp-python-in-visual-studio.md). Also install the **Desktop development with C++** workload for full C++ support. |
-    | Azure Cloud Services core tools | Provides additional support for developer Azure Cloud Services in Python. See [Azure cloud service Projects](template-azure-cloud-service.md). |
+    | Azure Cloud Services core tools | Provides additional support for developer Azure Cloud Services in Python. See [Azure cloud service Projects](python-azure-cloud-service-project-template.md). |
 
 1. After installation, the installer provides options to modify, launch, repair, or uninstall Visual Studio. The **Modify** button changes to **Update** when updates to Visual Studio when updates are available for any installed components. (The modify option is then available on the drop-down menu.) You can also launch Visual Studio and the installer from the Windows Start menu by searching on "Visual Studio".
 

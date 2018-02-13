@@ -4,7 +4,6 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - ".vsct files, adding commands to a domain-specific language"
@@ -14,6 +13,7 @@ ms.author: gewarren
 manager: ghogen
 ms.workload: 
   - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # How to: Modify a Standard Menu Command in a Domain-Specific Language
 You can modify the behavior of some of the standard commands that are defined automatically in your DSL. For example, you could modify **Cut** so that it excludes sensitive information. To do this, you override methods in a command set class. These classes are defined in the CommandSet.cs file, in the DslPackage project, and are derived from <xref:Microsoft.VisualStudio.Modeling.Shell.CommandSet>.  

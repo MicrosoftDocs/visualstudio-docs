@@ -4,7 +4,6 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "dependency diagrams, adding custom commands"
@@ -14,6 +13,7 @@ ms.author: gewarren
 manager: ghogen
 ms.workload: 
   - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Add commands and gestures to dependency diagrams
 You can define context menu commands and gesture handlers on dependency diagrams in Visual Studio. You can package these extensions into a Visual Studio Integration Extension (VSIX) that you can distribute to other Visual Studio users.  

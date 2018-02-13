@@ -1,15 +1,16 @@
 ---
 title: IPython REPL in Visual Studio | Microsoft Docs
-ms.custom: ""
+description: Using the Visual Studio interactive window in IPython mode for a user-friendly interactive development environment with Interactive Parallel Computing features.
+ms.custom:
 ms.date: 07/13/2017
-ms.reviewer: ""
-ms.suite: ""
+ms.reviewer:
+ms.suite:
 ms.technology: 
   - "devlang-python"
-ms.devlang: python
-ms.tgt_pltfrm: ""
+dev_langs:
+  - "python"
+ms.tgt_pltfrm:
 ms.topic: "article"
-caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
@@ -20,7 +21,7 @@ ms.workload:
 
 # Using IPython in the Interactive Window
 
-The Visual Studio interactive window in IPython mode is an advanced yet user-friendly interactive development environment that has Interactive Parallel Computing features. This topic walks through using IPython in the Visual Studio interactive window, in which all of the regular [interactive window](interactive-repl.md) features are also available.
+The Visual Studio interactive window in IPython mode is an advanced yet user-friendly interactive development environment that has Interactive Parallel Computing features. This topic walks through using IPython in the Visual Studio interactive window, in which all of the regular [interactive window](python-interactive-repl-in-visual-studio.md) features are also available.
 
 For this walkthrough you should have the [Anaconda](https://www.continuum.io) environment installed, which includes IPython and the necessary libraries.
 
@@ -61,14 +62,14 @@ For this walkthrough you should have the [Anaconda](https://www.continuum.io) en
         xs = np.arange(20)
         ys = np.random.rand(20)
         # You can provide either a single color or an array. To demonstrate this,
-        # the first bar of each set will be colored cyan.
-        cs = [c] * len(xs) 
-        cs[0] = 'c' 
+        # the first bar of each set is colored cyan.
+        cs = [c] * len(xs)
+        cs[0] = 'c'
         ax.bar(xs, ys, zs=z, zdir='y', color=cs, alpha=0.8)
 
-    ax.set_xlabel('X') 
-    ax.set_ylabel('Y') 
-    ax.set_zlabel('Z') 
+    ax.set_xlabel('X')
+    ax.set_ylabel('Y')
+    ax.set_zlabel('Z')
     plt.show()
     ```
 

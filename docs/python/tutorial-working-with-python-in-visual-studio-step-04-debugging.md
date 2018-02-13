@@ -1,16 +1,16 @@
 ---
 title: Working with Python in Visual Studio, Step 4, Debugging | Microsoft Docs
 description: Step 4 of a core tutorial for working with Python within Visual Studio, covering how to run Python code in the debugger.
-ms.custom: ""
+ms.custom:
 ms.date: 01/16/2018
-ms.reviewer: ""
-ms.suite: ""
+ms.reviewer:
+ms.suite:
 ms.technology: 
   - "devlang-python"
-ms.devlang: python
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
-caps.latest.revision: 1
+dev_langs:
+  - "python"
+ms.tgt_pltfrm:
+ms.topic: "tutorial"
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
@@ -92,7 +92,7 @@ In addition to managing projects, providing a rich editing experience, and the i
 
 1. Continue using Step Into until you're again partway into `make_dot_string`. Then use **Step Out** and notice that you return to the `for` loop. With Step Out, the debugger runs the remainder of the function and then automatically pauses in the calling code. This is very helpful when you've stepped through some portion of a lengthy function that you wish to debug, but don't need to step through the rest and don't want to set an explicit breakpoint in the calling code.
 
-1. To continue running the program until the next breakpoint is reached, use **Continue** (F5). Because you have a breakpoint in the `for` loop, you'll break on the next iteration.
+1. To continue running the program until the next breakpoint is reached, use **Continue** (F5). Because you have a breakpoint in the `for` loop, you break on the next iteration.
 
 1. Stepping through hundreds of iterations of a loop can be tedious, so Visual Studio lets you add a *condition* to a breakpoint. The debugger then pauses the program at the breakpoint only when the condition is met. For example, you can use a condition with the breakpoint on the `for` statement so that it pauses only when the value of `i` exceeds 1600. To set this condition, right-click the red breakpoint dot and select **Conditions...** (Alt+F9,C). In the **Breakpoint Settings** popup that appears, enter `i > 1600` as the expression and select **Close**. Press F5 to continue and observe that the program runs many iterations before the next break.
 
@@ -110,5 +110,5 @@ In addition to managing projects, providing a rich editing experience, and the i
 
 ### Going deeper
 
-- [Debugging](debugging.md).
+- [Debugging](debugging-python-in-visual-studio.md)
 - [Debugging in Visual Studio](../debugger/debugger-feature-tour.md) provides full documentation of Visual Studio's debugging features.

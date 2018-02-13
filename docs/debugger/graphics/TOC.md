@@ -30,7 +30,6 @@
 ## [Walkthrough: Debugging Rendering Errors Due to Shading](walkthrough-debugging-rendering-errors-due-to-shading.md)
 ## [Walkthrough: Using Graphics Diagnostics to Debug a Compute Shader](walkthrough-using-graphics-diagnostics-to-debug-a-compute-shader.md)
 ## [How to: Change the Graphics Diagnostics Playback Machine](how-to-change-the-graphics-diagnostics-playback-machine.md)
-## [How to: Use Graphics Diagnostics with an ARM Device](how-to-use-graphics-diagnostics-with-an-arm-device.md)
 # [Reference (Programmatic Capture)](reference-programmatic-capture.md)
 ## [VsgDbg Class](vsgdbg-class.md)
 ### [VsgDbg::VsgDbg (Constructor)](vsgdbg-vsgdbg-constructor.md)

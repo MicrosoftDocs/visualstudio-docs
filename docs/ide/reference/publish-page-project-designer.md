@@ -29,10 +29,8 @@ The **Publish** page of the **Project Designer** is used to configure properties
   
 ## UIElement List  
  **Publishing Folder Location**  
- Specifies the location where the application is published. Can be a drive path (`C:\deploy\myapplication`), a file share (`\\server\myapplication`), an FTP server (`ftp://ftp.microsoft.com/myapplication`), or a Web site (`http://www.microsoft.com/myapplication`). Note that text must be present in the **Publishing Location** box in order for the browse (**...**) button to work.  
-  
- By default, the publishing location is `http://localhost/<projectname>/` if you have IIS installed, or the `publish\` directory if you do not have IIS installed. If your computer is running Windows Vista, the default is always the `publish\` directory, regardless of whether you have IIS installed.  
-  
+ Specifies the location where the application is published. Can be a drive path (`C:\deploy\myapplication`), a file share (`\\server\myapplication`), or an FTP server (`ftp://ftp.microsoft.com/myapplication`). Note that text must be present in the **Publishing Location** box in order for the browse (**...**) button to work.  
+   
  **Installation Folder URL**  
  Optional. Specifies a Web site to which users go to install the application. This is necessary only when it differs from the **Publishing Location**, for example, when the application is published to a staging server.  
   
