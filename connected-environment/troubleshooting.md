@@ -46,13 +46,15 @@ Install the [VS Code extension for Connected Environment](get-started-netcore-01
 **Reason:** An Azure portal experience for Connected Environment is not yet ready for preview.
 
 
-## Error during warmup displayed in Visual Studio Output Window
-An error occurred during warmup for project '<projectname>'
+## The type or namespace name 'MyLibrary' could not be found
 
-**Reason:** This occurs when Visual Studio attempts to warmup a Connected Environment that has not yet finished being created, or is in an incomplete or error state. You will often see this right after you have started to create a new Connected Environment.
+**Reason:** The build context is at the project/service level by default, therefore a library project you are using will not be found.
 
 **Try:**
-If you have just started the creation of a new Connected Environment, wait until it is successfully created before attempting to F5 or Ctrl+F5 your project/service. If this is a Connected Environment you created more than 15 minutes ago, it is likely in a bad state. You can try creating a new environment and wait for it to successfully be created. 
+What needs to be done is:
+1. Modify the vsce.yaml file to set the build context to the solution level.
+2. Modify the Dockerfile and Dockerfile.develop files to refer to the csproj files correctly, relative to the new build context.
+3. Place a .dockerignore file beside the .sln file and modify as needed.
 
 You can see if your Connected Environment is still being created by *hovering your cursor* over the **Background tasks** icon in the bottom left corner of the status bar.    
 ![](images/BackgroundTasks.png)
@@ -60,6 +62,7 @@ You can see if your Connected Environment is still being created by *hovering yo
 You can also see if a Connected Environment you recently created from within Visual Studio has been created sucessfully by *clicking* on the **Background tasks** icon in the bottom left corner of the status bar.    
 ![](images/BackgroundTasks2.png)
 
+You can find an example at https://github.com/sgreenmsft/buildcontextsample
 
 ## 'Microsoft.ConnectedEnvironment/register/action' authorization error when creating an environment
 You may see the following error when managing an environment and you are working in an Azure subscription you do not have Owner or Contributor access.
