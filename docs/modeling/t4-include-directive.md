@@ -4,13 +4,13 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 author: gewarren
 ms.author: gewarren
 manager: ghogen
 ms.workload: 
   - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # T4 Include Directive
 In a text template in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], you can include text from another file by using an `<#@include#>` directive. You can place `include` directives anywhere in a text template before the first class feature block `<#+ ... #>`. The included files can also contain `include` directives, and other directives. This allows you to share template code and boilerplate text between templates.  

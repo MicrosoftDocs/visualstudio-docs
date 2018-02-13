@@ -196,7 +196,7 @@ To begin this tutorial, you need a multithreaded application project. Follow the
   
 -   In the source code editor, look for the following code: 
   
-    ```CSharp  
+    ```csharp  
     Thread.Sleep(3000);  
     Console.WriteLine();  
     ```  
@@ -225,7 +225,7 @@ To begin this tutorial, you need a multithreaded application project. Follow the
   
 4.  In the source code editor, locate the line that contains the breakpoint:  
   
-    ```CSharp  
+    ```csharp  
     Thread.Sleep(3000);  
     ```  
   

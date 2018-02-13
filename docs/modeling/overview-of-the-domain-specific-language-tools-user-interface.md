@@ -4,7 +4,6 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.dsltools.dsldesigner.editor"
@@ -15,6 +14,7 @@ ms.author: gewarren
 manager: ghogen
 ms.workload: 
   - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Overview of the Domain-Specific Language Tools User Interface
 When you first open a Domain-Specific Language Tools (DSL Tools) solution in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], the user interface will resemble the following picture.  

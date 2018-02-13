@@ -1,15 +1,16 @@
 ---
-title: "Getting started with R in Visual Studio | Microsoft Docs"
-ms.custom: ""
+title: Getting started with R in Visual Studio | Microsoft Docs
+description: A walkthrough of using R in Visual Studio including project creation, the interactive window, code editing, and debugging.
+ms.custom:
 ms.date: 06/29/2017
-ms.reviewer: ""
-ms.suite: ""
+ms.reviewer:
+ms.suite:
 ms.technology: 
   - "devlang-r"
-ms.devlang: r
-ms.tgt_pltfrm: ""
+dev_langs:
+  - "R"
+ms.tgt_pltfrm:
 ms.topic: "get-started-article"
-caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
@@ -19,13 +20,7 @@ ms.workload:
 
 # Getting started with R Tools for Visual Studio
 
-Once you have R Tools for Visual Studio (RTVS) installed (see [Installation](installation.md)), you can quickly get a taste of the experience that those tools provide. The following sections guide you through a short tour:
-
-- [Create an R project](#create-an-r-project)
-- [Explore the Interactive window and IntelliSense](#explore-the-interactive-window-and-intellisense)
-- [Experience code editing features](#experience-code-editing-features)
-- [Debugging your code](#debugging-your-code)
-- [Next steps](#next-steps)
+Once you have R Tools for Visual Studio (RTVS) installed (see [Installation](installing-r-tools-for-visual-studio.md)), you can quickly get a taste of the experience that those tools provide. 
 
 ## Create an R project
 
@@ -37,7 +32,7 @@ Once you have R Tools for Visual Studio (RTVS) installed (see [Installation](ins
 
 1. Once the project is created, you see the following windows:
 
-    - On the right is Visual Studio Solution Explorer, where you see your project inside a containing *solution*. (Solutions can contain any number of projects of different types; see [Projects](projects.md) for details.
+    - On the right is Visual Studio Solution Explorer, where you see your project inside a containing *solution*. (Solutions can contain any number of projects of different types; see [Projects](r-projects-in-visual-studio.md) for details.
     - On the top left is a new R file (`script.R`) where you can edit source code with all of Visual Studio's editing features.
     - On the bottom left is the **R Interactive** window in which you can interactively develop and test code.
 
@@ -72,13 +67,13 @@ Once you have R Tools for Visual Studio (RTVS) installed (see [Installation](ins
 
     ![Display of a plot in Visual Studio](media/getting-started-07-plot-window.png)
 
-The interactive window also lets you review your history, load and save workspaces, attach to a debugger, and interact with source code files instead of using copy-paste. See [Working with the R Interactive Window](interactive-repl.md) for details.
+The interactive window also lets you review your history, load and save workspaces, attach to a debugger, and interact with source code files instead of using copy-paste. See [Working with the R Interactive Window](interactive-repl-for-r-in-visual-studio.md) for details.
 
 ## Experience code editing features
 
 Working briefly with the interactive window demonstrates basic editing features like IntelliSense that also work in the code editor. If you enter the same code as before, you see the same auto-completion and IntelliSense prompts, but not the output.
 
-Writing code in a `.R` file lets you see all your code at once, and makes it easier to make small changes and then quickly see the result by running the code in the interactive window. You can also have as many files as you want in a project. When code is in a file, you can also run it step-by-step in the debugger (discussed later in this topic). These capabilities are helpful when you're developing computational algorithms and writing code to manipulate one or more datasets, especially when you want to examine all intermediate results.
+Writing code in a `.R` file lets you see all your code at once, and makes it easier to make small changes and then quickly see the result by running the code in the interactive window. You can also have as many files as you want in a project. When code is in a file, you can also run it step-by-step in the debugger (discussed later in this article). These capabilities are helpful when you're developing computational algorithms and writing code to manipulate one or more datasets, especially when you want to examine all intermediate results.
 
 As an example, the following steps create a little code to explore the [Central Limit Theorem](https://en.wikipedia.org/wiki/Central_limit_theorem) (Wikipedia). (This example is adapted from the *R Cookbook* by Paul Teetor.)
 
@@ -107,7 +102,7 @@ As an example, the following steps create a little code to explore the [Central 
 
     ```R
     n <- 30
-    samp.means <- rnorm(N, mean = mu, sd = stddev / sqrt(n))    
+    samp.means <- rnorm(N, mean = mu, sd = stddev / sqrt(n))
     lines(density(samp.means))
     ```
 
@@ -137,7 +132,7 @@ As an example, the following steps create a little code to explore the [Central 
 
     ![Updated dual plot in Visual Studio, scaled correctly](media/getting-started-10-plot3.png)
 
-There's more you can do in the editor. For details, see [editing code](code-editing.md), [IntelliSense](code-intellisense.md), and [code snippets](code-snippets.md).
+There's more you can do in the editor. For details, see [editing code](editing-r-code-in-visual-studio.md), [IntelliSense](r-intellisense.md), and [code snippets](code-snippets-for-r.md).
 
 ## Debugging your code
 
@@ -167,14 +162,14 @@ One of the key strengths of Visual Studio is its debugging UI. RTVS builds on to
 
 1. You can continue stepping through the program line by line, or select **Continue** (F5) to run it to completion (or the next breakpoint).
 
-To go deeper, see [Debugging](debugging.md) and [Variable Explorer](variable-explorer.md).
+To go deeper, see [Debugging](debugging-r-in-visual-studio.md) and [Variable Explorer](variable-explorer.md).
 
 ## Next steps
 
-In this walkthrough you've learned the basics of R projects, using the interactive window, code editing, and debugging in Visual Studio. To continue exploring more capabilities, see the following topics as well as topics shown in the table of contents:
+In this walkthrough you've learned the basics of R projects, using the interactive window, code editing, and debugging in Visual Studio. To continue exploring more capabilities, see the following articles as well as articles shown in the table of contents:
 
 - [Sample projects](getting-started-samples.md)
-- [Editing code](code-editing.md)
-- [Debugging](debugging.md)
-- [Workspaces](workspaces.md)
-- [Visualizing data](visualizing-data.md)
+- [Editing code](editing-r-code-in-visual-studio.md)
+- [Debugging](debugging-r-in-visual-studio.md)
+- [Workspaces](r-workspaces-in-visual-studio.md)
+- [Visualizing data](visualizing-data-with-r-in-visual-studio.md)

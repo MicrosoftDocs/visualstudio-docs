@@ -1,16 +1,16 @@
 ---
 title: Working with Python in Visual Studio, Step 6, Working with Git | Microsoft Docs
 description: Step 6 of a core tutorial for working with Python within Visual Studio, covering Visual Studio's Git-related features.
-ms.custom: ""
+ms.custom:
 ms.date: 01/16/2018
-ms.reviewer: ""
-ms.suite: ""
+ms.reviewer:
+ms.suite:
 ms.technology: 
   - "devlang-python"
-ms.devlang: python
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
-caps.latest.revision: 1
+dev_langs:
+  - "python"
+ms.tgt_pltfrm:
+ms.topic: "tutorial"
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
@@ -25,13 +25,13 @@ ms.workload:
 
 Visual Studio provides direct integration with local Git repositories and those that reside on services like GitHub and Visual Studio Team Services. The integration includes cloning a repository, committing changes, and managing branches.
 
-This topic describes creating a local Git repository for an existing project. For a walkthrough of creating a project from a remote Git repository, see [Quickstart: clone a repository of Python code in Visual Studio](quickstart-03-project-from-repository.md).
+This topic describes creating a local Git repository for an existing project. For a walkthrough of creating a project from a remote Git repository, see [Quickstart: clone a repository of Python code in Visual Studio](quickstart-03-python-in-visual-studio-project-from-repository.md).
 
 1. With a project open in Visual Studio, such as the project from the [previous step](tutorial-working-with-python-in-visual-studio-step-05-installing-packages.md), right-click the solution and select **Add Solution to Source Control**. Visual Studio creates a local Git repository that contains your project code and displays Git-related controls also appear along the bottom of the Visual Studio window. The controls show pending commits, changes, the name of the repository, and the branch. Hover over the controls to see additional information.
 
   ![Additional information appears when hovering over a Git control on the Visual Studio window](media/working-with-git-01.png)
 
-1. The **Team Explorer** window also appears with various Git options available by selecting the repository header. The **Sync** pane, as shown, provides options for publishing to a remote repository.
+1. The **Team Explorer** window also appears with various Git options available by selecting the repository header. The **Sync** pane, as shown when you select the **Push** header, provides options for publishing to a remote repository.
 
   ![Team Explorer in Visual Studio after creating a local repository](media/working-with-git-02.png)
 
@@ -43,7 +43,7 @@ This topic describes creating a local Git repository for an existing project. Fo
 
   ![Team Explorer in Visual Studio showing branches](media/working-with-git-04.png)
 
-1. When using a local repository, committed changes go directly into the repository. If you're connected to a remote repository, select **Sync** to push your local commits.
+1. When using a local repository, committed changes go directly into the repository. If you're connected to a remote repository, select the header, choose **Sync** to switch to the **Synchronization** section, and work with the commands presented there.
 
 ## Going deeper
 
@@ -63,6 +63,6 @@ Congratulations on completing this tutorial on Python in Visual Studio. In this 
 From here, explore the Concepts and How-to Guides, including the following:
 
 - [Creating a C++ extension for Python](working-with-c-cpp-python-in-visual-studio.md)
-- [Publishing to Azure App Service](publishing-to-azure.md)
-- [Profiling](profiling.md)
-- [Unit testing](unit-testing.md)
+- [Publishing to Azure App Service](publishing-python-web-applications-to-azure-from-visual-studio.md)
+- [Profiling](profiling-python-code-in-visual-studio.md)
+- [Unit testing](unit-testing-python-in-visual-studio.md)

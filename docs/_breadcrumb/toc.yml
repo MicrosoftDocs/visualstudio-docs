@@ -62,7 +62,7 @@
       topicHref: /visualstudio/profiling/index
     - name: Python
       tocHref: /visualstudio/python/
-      topicHref: /visualstudio/python/getting-started-with-python
+      topicHref: /visualstudio/overview-of-python-tools-for-visual-studio
     - name: R
       tocHref: /visualstudio/rtvs/
       topicHref: /visualstudio/rtvs/index

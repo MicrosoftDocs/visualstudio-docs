@@ -45,7 +45,7 @@ You can specify these team project check-in policies:
 |Task|Supporting Content|
 |----------|------------------------|
 |**Use Code Analysis in development process:** Team members run code analysis on their development computers. In Visual Studio, developers configure and run code analysis runs for individual code projects, view and analyze issues found by the runs, and create work items for warnings.|[Analyzing Application Quality](../code-quality/analyzing-application-quality-by-using-code-analysis-tools.md)|
-|**Create and run unit tests:** Unit tests give developers and testers a quick way to look for logic errors in the methods of classes in C#, Visual Basic .NET, and C++ projects. A unit test can be created one time and run every time that source code is changed to make sure that no bugs are introduced.|[Unit Test Your Code](../test/unit-test-your-code.md)|
+|**Create and run unit tests:** Unit tests give developers and testers a quick way to look for logic errors in the methods of classes in C#, Visual Basic, and C++ projects. A unit test can be created one time and run every time that source code is changed to make sure that no bugs are introduced.|[Unit Test Your Code](../test/unit-test-your-code.md)|
 |**Track work items and defects:** You can use work items to track and manage both your work and information about your team project. A work item is a database record that [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)] uses to track the assignment and progress of work. You can use different types of work items to track different types of work, such as customer requirements, product bugs, and development tasks.|[Work items (VSTS)](/vsts/work/work-items/index)|
 
 ## External resources

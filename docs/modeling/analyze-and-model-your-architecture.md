@@ -4,9 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-techdebt"
-ms.tgt_pltfrm: ""
+ms.technology: vs-ide-modeling
 ms.topic: "get-started-article"
 helpviewer_keywords: 
   - "Visual Studio Ultimate, exploring code"

@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: msbuild
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -20,8 +19,8 @@ helpviewer_keywords:
   - "LC task [MSBuild]"
 ms.assetid: d5a53472-6f2a-42b8-a6db-593ca99c9790
 caps.latest.revision: 15
-author: "kempb"
-ms.author: "kempb"
+author: Mikejo5000
+ms.author: mikejo
 manager: ghogen
 ms.workload: 
   - "multiple"

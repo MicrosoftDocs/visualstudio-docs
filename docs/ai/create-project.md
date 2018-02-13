@@ -1,6 +1,8 @@
+---
+---
 # Create an AI project from a template in Visual Studio
 
-Once you've [installed Visual Studio Tools for AI](installation.md), it's easy to create a new Python project using a variety of templates.
+Once you've [installed Visual Studio Tools for AI](installation.md), it's easy to create a new AI project using a variety of templates.
 
 1. Launch Visual Studio.
 

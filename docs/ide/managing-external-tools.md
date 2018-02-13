@@ -22,12 +22,12 @@ ms.workload:
 
 You can call external tools from inside Visual Studio by using the **Tools** menu. A few default tools are available from the **Tools** menu, and you can customize the menu by adding other executables of your own.
 
-## Tools available on the Visual Studio Tools menu
+## Tools available on the Tools menu
 
 The **Tools** menu contains several built-in commands, such as:
 
 * **Extensions and Updates** for [managing Visual Studio Extensions](finding-and-using-visual-studio-extensions.md)
-* **Code Snippets Manager...** for [organizing Code Snippets](code-snippets.md#code-snippet-manager)
+* **Code Snippets Manager...** for [organizing Code Snippets](code-snippets.md)
 * **PreEmptive Protection - Dotfuscator** for launching [Dotfuscator Community Edition (CE)](dotfuscator/index.md) if it is [installed](dotfuscator/install.md)
 * **Customize...** for [customizing menus and toolbars](how-to-customize-menus-and-toolbars-in-visual-studio.md)
 * **Options...** for [setting a variety of different options for the Visual Studio IDE and other tools](reference/options-dialog-box-visual-studio.md)
@@ -36,7 +36,7 @@ The **Tools** menu contains several built-in commands, such as:
 
 You can add an external tool to appear on the **Tools** menu.
 
-1. Open the **External Tools** dialog box by choosing **Tools**, **External Tools...**.
+1. Open the **External Tools** dialog box by choosing **Tools** > **External Tools...**.
 
 1. Click **Add**, and then fill in the information. For example, the following entry causes Windows Explorer to open at the directory of the file you currently have open in Visual Studio:
 

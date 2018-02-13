@@ -4,13 +4,13 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 author: gewarren
 ms.author: gewarren
 manager: ghogen
 ms.workload: 
   - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # T4 Import Directive
 In the code blocks of a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] T4 text template, the `import` directive allows you to refer to elements in another namespace without providing a fully-qualified name. It is the equivalent of `using` in C# or `imports` in [!INCLUDE[vb_current_short](../debugger/includes/vb_current_short_md.md)].  
