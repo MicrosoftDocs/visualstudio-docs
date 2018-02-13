@@ -59,3 +59,16 @@ You can see if your Connected Environment is still being created by *hovering yo
 
 You can also see if a Connected Environment you recently created from within Visual Studio has been created sucessfully by *clicking* on the **Background tasks** icon in the bottom left corner of the status bar.    
 ![](images/BackgroundTasks2.png)
+
+
+## 'Microsoft.ConnectedEnvironment/register/action' authorization error when creating an environment
+In the case where the user is not an owner/contributor on the selected Azure subscription, the following error is displayed:
+`The client '<User email/Id>' with object id '<Guid>' does not have authorization to perform action 'Microsoft.ConnectedEnvironment/register/action' over scope '/subscriptions/<Subscription Id>'.`
+
+**Try:**
+Someone with Owner or Contributor access to the Azure subscription needs to manually register the subscription by running the following command:
+
+```cmd
+az provider register --namespace Microsoft.ConnectedEnvironment
+```
+
