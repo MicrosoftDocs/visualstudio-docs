@@ -1995,17 +1995,17 @@
             "source_path": "docs/cross-platform/visual-studio-tools-for-unity-azure-setup.md",
             "redirect_url": "/sandbox/gamedev/unity/samples/azure-mobile-apps-unity-racer",
             "redirect_document_id": false
-        }
+        },
         {
           "source_path": "docs/ide/reference/proxy-authorization-required",
           "redirect_url": "visualstudio/install/troubleshooting-network-related-errors-in-visual-studio",
           "redirect_document_id": false
-        }
+        },
         {
           "source_path": "docs/install/install-visual-studio-behind-a-firewall-or-proxy-server",
           "redirect_url": "visualstudio/install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server",
           "redirect_document_id": false
-        }
+        },
         {
           "source_path": "docs/ide/whitelisting-urls-in-a-private-network",
           "redirect_url": "visualstudio/install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server",
