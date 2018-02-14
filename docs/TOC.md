@@ -188,6 +188,7 @@
 ### [Office and Sharepoint Development](vsto/office-and-sharepoint-development-in-visual-studio.md)
 ### [Work with XML and XSLT Files](xml-tools/xml-tools-in-visual-studio.md)
 ### Additional Tutorials
+#### [Create a WPF app with C# or Visual Basic](ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md)
 #### [Tutorial 1: Create a Picture Viewer (C#)](ide/tutorial-1-create-a-picture-viewer.md)
 ##### [Step 1: Create a Windows Forms Application Project](ide/step-1-create-a-windows-forms-application-project.md)
 ##### [Step 2: Run Your Program](ide/step-2-run-your-program.md)
