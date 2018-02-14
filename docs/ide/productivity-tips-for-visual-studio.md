@@ -119,7 +119,7 @@ At any one time, you may be working in multiple code files and moving among seve
 
 ## See also
 
-[Default Keyboard Shortcuts for Frequently Used Commands](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md)
-[How to: Customize Menus and Toolbars](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md)
-[Walkthrough: Create a Simple Application](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md)
-[Accessibility Tips and Tricks](../ide/reference/accessibility-tips-and-tricks.md)
+- [Default Keyboard Shortcuts for Frequently Used Commands](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md)
+- [How to: Customize Menus and Toolbars](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md)
+- [Walkthrough: Create a Simple Application](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md)
+- [Accessibility Tips and Tricks](../ide/reference/accessibility-tips-and-tricks.md)

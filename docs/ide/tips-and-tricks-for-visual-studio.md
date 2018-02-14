@@ -120,9 +120,9 @@ You can navigate in Visual Studio more easily by using the keyboard shortcuts in
 
 ## See also
 
-[Keyboard shortcuts (VSTS and TFS)](/vsts/collaborate/keyboard-shortcuts)
-[Visual Studio Blog](http://blogs.msdn.com/b/visualstudio)
-[Visual Studio Tips and Tricks Blog](http://blogs.msdn.com/b/zainnab)
-[Visual Studio Toolbox on Channel 9](http://channel9.msdn.com/Shows/Visual-Studio-Toolbox)
-[Visual Studio UserVoice](http://visualstudio.uservoice.com/forums/121579-visual-studio)
-[Visual Studio Connect Bugs](http://connect.microsoft.com/VisualStudio)
+- [Keyboard shortcuts (VSTS and TFS)](/vsts/collaborate/keyboard-shortcuts)
+- [Visual Studio Blog](http://blogs.msdn.com/b/visualstudio)
+- [Visual Studio Tips and Tricks Blog](http://blogs.msdn.com/b/zainnab)
+- [Visual Studio Toolbox on Channel 9](http://channel9.msdn.com/Shows/Visual-Studio-Toolbox)
+- [Visual Studio UserVoice](http://visualstudio.uservoice.com/forums/121579-visual-studio)
+- [Visual Studio Connect Bugs](http://connect.microsoft.com/VisualStudio)
