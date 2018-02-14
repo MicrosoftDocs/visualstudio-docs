@@ -10,7 +10,7 @@ ms.topic: "article"
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Productivity tips for Visual Studio
@@ -23,7 +23,7 @@ For information about common keyboard shortcuts, see [Keyboard tips](../ide/tips
 
 Write code more quickly by using the following features.
 
-- **Use convenience commands**. Visual Studio contains various commands to help you accomplish common editing tasks faster. For example, in **Visual Studio 2017 version 15.6 preview 2** and later, you can choose a command to easily duplicate a line of code without having to copy it, reposition the cursor, and then paste it. Choose **Edit** > **Duplicate** or press **Ctrl**+**E**,**V**. You can also quickly expand or contract a selection of text by choosing **Edit** > **Advanced** > **Expand Selection** and **Contract Selection**, or by pressing **Ctrl**+**W** and **Ctrl**+**Shift**+**W** (available in **Visual Studio 2017 version 15.5** and later).
+- **Use convenience commands**. Visual Studio contains various commands to help you accomplish common editing tasks faster. For example, in **Visual Studio 2017 version 15.6 preview 2** and later, you can choose a command to easily duplicate a line of code without having to copy it, reposition the cursor, and then paste it. Choose **Edit** > **Duplicate** or press **Ctrl**+**E**,**V**. You can also quickly expand or contract a selection of text by choosing **Edit** > **Advanced** > **Expand Selection** or **Edit** > **Advanced** > **Contract Selection** (available in **Visual Studio 2017 version 15.5** and later).
 
 - **Use IntelliSense**. As you enter code in the editor, IntelliSense information, such as List Members, Parameter Info, Quick Info, Signature Help, and Complete Word, appears. These features support fuzzy matching of text; for example, the results lists for List Members includes not only entries that start with the characters that you have entered but also entries that contain the character combination anywhere in their names. For more information, see [Using IntelliSense](../ide/using-intellisense.md).
 
@@ -119,7 +119,7 @@ At any one time, you may be working in multiple code files and moving among seve
 
 ## See also
 
-[Default Keyboard Shortcuts for Frequently Used Commands](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md)  
-[How to: Customize Menus and Toolbars](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md)  
-[Walkthrough: Create a Simple Application](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md)  
+[Default Keyboard Shortcuts for Frequently Used Commands](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md)
+[How to: Customize Menus and Toolbars](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md)
+[Walkthrough: Create a Simple Application](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md)
 [Accessibility Tips and Tricks](../ide/reference/accessibility-tips-and-tricks.md)
