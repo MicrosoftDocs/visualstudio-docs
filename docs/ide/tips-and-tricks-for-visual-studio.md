@@ -79,8 +79,8 @@ You can navigate in Visual Studio more easily by using the keyboard shortcuts in
 |Block Selection|Hold Alt and drag mouse, Shift+Alt+Arrow Keys||
 |Move Line Up/Down|Alt+Up / Alt+Down||
 |Duplicate line|Ctrl+E,V|Visual Studio 2017 version 15.6 preview 2|
-|Expand selection|**Shift**+**Alt**+**=** (in C# profile)|Visual Studio 2017 version 15.5|
-|Contract selection|**Shift**+**Alt**+**-** (in C# profile)|Visual Studio 2017 version 15.5|
+|Expand selection|**Shift**+**Alt**+**=**|Visual Studio 2017 version 15.5|
+|Contract selection|**Shift**+**Alt**+**-**|Visual Studio 2017 version 15.5|
 |Go To Definition|F12||
 |Peek Definition|Alt+F12||
 |Go To Definition Stack|Ctrl+Shift+8 (Back), Ctrl+Shift+7 (Forward)||
