@@ -77,7 +77,8 @@ Python features can be installed in the following editions of Visual Studio as d
 - Visual Studio 2012 (Pro edition or higher)
 - Visual Studio 2010 SP1 (Pro edition or higher; .NET 4.5 required)
 
-Features are fully supported and maintained for only the latest version of Visual Studio. Features are available in older versions but are not actively maintained.
+> [!Important]
+> Features are fully supported and maintained for only the latest version of Visual Studio. Features are available in older versions but are not actively maintained.
 
 | Python Support | 2017 | 2015 | 2013 Comm | 2013 Desktop | 2013 Web | 2013 Pro+ | 2012 Pro+ | 2010 SP1 Pro+ |
 | --- | --- | --- | --- | --- | --- | --- | --- | ---|
