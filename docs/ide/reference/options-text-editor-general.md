@@ -1,11 +1,9 @@
 ---
 title: "Options, Text Editor, General | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
+ms.technology: vs-ide-general
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -18,14 +16,12 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.T-SQL80.General"
   - "VS.ToolsOptionsPages.Text_Editor.CSS"
   - "VS.ToolsOptionsPages.Text_Editor.Plain_Text.General"
-  - "VS.ToolsOptionsPages.Text_Editor.Visual_JSharp.General"
   - "VS.ToolsOptionsPages.Text_Editor.SQL_Script.General"
   - "VS.ToolsOptionsPages.Text_Editor.CSharp.General"
   - "VS.ToolsOptionsPages.Text_Editor.All_Languages"
   - "VS.ToolsOptionsPages.Text_Editor.T-SQL7.General"
   - "VS.ToolsOptionsPages.Text_Editor.Basic.General"
   - "VS.ToolsOptionsPages.Text_Editor.T-SQL.General"
-  - "vs.toolsoptionspages.text_editor.visual_jsharp"
   - "VS.ToolsOptionsPages.Text_Editor.F#.Tabs"
   - "VS.ToolsOptionsPages.Text_Editor.F#"
   - "VS.ToolsOptionsPages.Text_Editor.PL/SQL.General"
@@ -50,7 +46,6 @@ helpviewer_keywords:
   - "Text Editor [Visual Studio]"
   - "editors, global settings"
 ms.assetid: 4ac21e48-3243-4141-9058-7eaf12b3cde7
-caps.latest.revision: 29
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

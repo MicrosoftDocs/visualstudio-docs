@@ -4,7 +4,6 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Domain-Specific Language Tools, DSL Explorer"
@@ -13,6 +12,7 @@ ms.author: gewarren
 manager: ghogen
 ms.workload: 
   - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Working with the Domain-Specific Language Explorer
 The **DSL Explorer** displays several kinds of information in a tree view. For more information about most of the items in the DSL Explorer, see [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md).  

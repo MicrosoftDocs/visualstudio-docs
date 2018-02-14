@@ -1,4 +1,4 @@
-# Getting Started on VS Connected Environment
+# Get Started on VS Connected Environment
 
 Welcome! Please select a **language-specific guide** to get started:
 

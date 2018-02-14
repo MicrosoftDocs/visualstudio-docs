@@ -1,3 +1,5 @@
+---
+---
 # Browse storage to upload data or download models and logs
 
 You can browse all storage on the remote machine or Azure file share to enable uploading data or downloading models and logs. Or if you want to access logs and job outputs for a specific job you can do that as well in the job browser
