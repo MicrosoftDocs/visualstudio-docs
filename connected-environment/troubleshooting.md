@@ -51,9 +51,24 @@ Install the [VS Code extension for Connected Environment](get-started-netcore-01
 **Reason:** The build context is at the project/service level by default, therefore a library project you are using will not be found.
 
 **Try:**
-What needs to be done is:
+What needs to be done:
 1. Modify the vsce.yaml file to set the build context to the solution level.
 2. Modify the Dockerfile and Dockerfile.develop files to refer to the csproj files correctly, relative to the new build context.
 3. Place a .dockerignore file beside the .sln file and modify as needed.
 
 You can find an example at https://github.com/sgreenmsft/buildcontextsample
+
+## 'Microsoft.ConnectedEnvironment/register/action' authorization error when creating an environment
+You may see the following error when managing an environment and you are working in an Azure subscription you do not have Owner or Contributor access.
+`The client '<User email/Id>' with object id '<Guid>' does not have authorization to perform action 'Microsoft.ConnectedEnvironment/register/action' over scope '/subscriptions/<Subscription Id>'.`
+
+**Reason:**
+The selected Azure subscription has not registered the Microsoft.ConnectedEnvironment namespace.
+
+**Try:**
+Someone with Owner or Contributor access to the Azure subscription can run the following Azure CLI command to manually register the Microsoft.ConnectedEnvironment namespace:
+
+```cmd
+az provider register --namespace Microsoft.ConnectedEnvironment
+```
+

@@ -21,6 +21,8 @@ Hit **F5** to debug your code in Kubernetes!
 
 Similar to the `up` command, code is synced to the development environment when you start debugging, and a container is built and deployed to Kubernetes. This time, of course, the debugger is attached to the remote container.
 
+[!INCLUDE[](common/tip-vscode-status-bar-url.md)]
+
 Set a breakpoint in a server-side code file, for example within the `app.get('/api'...` in  `server.js`. Refresh the browser page, or press the 'Say It Again' button, and you should hit the breakpoint and be able to step through code.
 
 You have full access to debug information just like you would if the code was executing locally, such as the call stack, local variables, exception information, etc.
