@@ -1997,17 +1997,17 @@
             "redirect_document_id": false
         },
         {
-          "source_path": "docs/ide/reference/proxy-authorization-required",
+          "source_path": "docs/ide/reference/proxy-authorization-required.md",
           "redirect_url": "visualstudio/install/troubleshooting-network-related-errors-in-visual-studio",
           "redirect_document_id": false
         },
         {
-          "source_path": "docs/install/install-visual-studio-behind-a-firewall-or-proxy-server",
+          "source_path": "docs/ide/whitelisting-urls-in-a-private-network.md",
           "redirect_url": "visualstudio/install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server",
           "redirect_document_id": false
         },
         {
-          "source_path": "docs/ide/whitelisting-urls-in-a-private-network",
+          "source_path": "docs/install/install-visual-studio-behind-a-firewall-or-proxy-server.md",
           "redirect_url": "visualstudio/install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server",
           "redirect_document_id": false
         }
