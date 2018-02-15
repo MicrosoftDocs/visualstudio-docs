@@ -26,13 +26,11 @@ ms.workload:
   - "dotnet"
 ---
 # Debugging Managed Code
-
 This section covers common debugging problems and techniques for managed applications, or applications written in languages that target the common language runtime, such as Visual Basic, C#, and C++. The techniques described here are high-level techniques. For more information, see [Using the Debugger](../debugger/debugger-basics.md).  
-
+  
 ## In This Section  
-
-[Diagnostic Messages in the Output Window](../debugger/diagnostic-messages-in-the-output-window.md)  
-Describes the <xref:System.Diagnostics.Debug> and <xref:System.Diagnostics.Trace> classes, with which you can write run-time messages to the **Output** window. These classes include output methods that enable information output without breaking execution and information output that also breaks execution if a specified condition fails.  
+ [Diagnostic Messages in the Output Window](../debugger/diagnostic-messages-in-the-output-window.md)  
+ Describes the <xref:System.Diagnostics.Debug> and <xref:System.Diagnostics.Trace> classes, with which you can write run-time messages to the **Output** window. These classes include output methods that enable information output without breaking execution and information output that also breaks execution if a specified condition fails.  
   
  [Assertions in Managed Code](../debugger/assertions-in-managed-code.md)  
  Describes assertions in managed code, which test conditions that you specify as arguments to `Assert` methods. In addition, this topic provides example code, information on using <xref:System.Diagnostics.Debug> and <xref:System.Diagnostics.Trace> class methods, considerations in Debug and Release versions of code, side effects, assert arguments, customizing assert behavior, and configuration files.  
@@ -63,7 +61,7 @@ Describes the <xref:System.Diagnostics.Debug> and <xref:System.Diagnostics.Trace
   
 ## Related Sections  
  [IntelliTrace](../debugger/intellitrace.md)  
- Find bugs faster and easier by recording your app's execution history with IntelliTrace. Step backward and forward through recorded events and calls to examine your app's state at key points in time. Debug your code without setting lots of breakpoints or restarting your app as frequently. Requires Visual Studio Enterprise.  
+ Find bugs faster and easier by recording your app's execution history with IntelliTrace. Step backward and forward through recorded events and calls to examine your app's state at key points in time. Debug your code without setting lots of breakpoints or restarting your app as frequently. Requires Visual Studio Ultimate.  
   
  [Tracing and Instrumenting Applications](/dotnet/framework/debug-trace-profile/tracing-and-instrumenting-applications)  
  Describes tracing, a way for you to monitor the execution of your application while it is running, and instrumenting, which involves placing trace statements at strategic locations in your code. This topic also provides links to an introduction to instrumentation and tracing, trace switches, trace listeners, tracing code in an application, adding trace statements to application code, and compiling conditionally with <xref:System.Diagnostics.Debug> and <xref:System.Diagnostics.Trace>.  

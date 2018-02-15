@@ -6,8 +6,9 @@ ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: 
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+caps.latest.revision: 21
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
@@ -62,9 +63,9 @@ The following table helps you compare the referencing features of an SDK with th
 |You can use a Symbol package for debugging support.|Y|If you drop .pdb files in the SDK, the files get picked up automatically.|Y||
 |The mechanism supports package manager auto-updates.|N/A|The SDK gets revised with MSBuild.|Y||
 |The mechanism supports a lightweight manifest format.|Y|SDKManifest.xml supports many attributes, but a small subset is usually necessary.|Y||
-|The mechanism is available for all Visual Studio editions.|Y|The SDK supports all Visual Studio editions.|
-|The mechanism is available for all project types.|N|The SDK supports [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps starting in [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)].|N|You can review a list of allowed projects.|
+|The mechanism is available for  all Visual Studio editions.|Y|The SDK supports all Visual Studio editions, from Visual Studio Express through [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)].|Y|NuGet supports all Visual Studio editions, Express up through [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)].|
+|The mechanism is available for  all project types.|N|The SDK supports [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps starting in [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)].|N|You can review a list of allowed projects.|
 
-## See Also
+## See also
 
 [Managing references in a project](../ide/managing-references-in-a-project.md)

@@ -1,37 +1,38 @@
 ---
 title: "Performance Session Properties | Microsoft Docs"
-ms.custom:
+ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer:
-ms.suite:
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm:
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Profiling Tools,properties"
   - "property pages,Profiling Tools"
   - "performance tools, performance session properties"
+ms.assetid: c3a86913-172b-488f-a31a-cea01a71b2ea
+caps.latest.revision: 16
 author: "mikejo5000"
 ms.author: "mikejo"
-<<<<<<< HEAD
-manager: "ghogen"
-=======
 manager: ghogen
 ms.workload: 
   - "multiple"
->>>>>>> master
 ---
 # Performance Session Properties
-
-A **Performance Session** enables you to configure settings that determine how the application is profiled. It also stores reports that are generated for the profiling session.
-
-You create a **Performance Session** in Visual Studio by running the **Performance Wizard** or by manually creating a session. The **Performance Session** is displayed in the **Performance Explorer** after the **Performance Session** has been created.
-
-To view **Performance Session** properties, select the session name in **Performance Explorer**, right-click it and then select **Properties**.
-
-The performance session has the property pages described in the following sections.
-
+A **Performance Session** enables you to configure settings that determine how the application is profiled. It also stores reports that are generated for the profiling session.  
+  
+ **Requirements**  
+  
+-   [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)], [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)], [!INCLUDE[vsPro](../code-quality/includes/vspro_md.md)]  
+  
+ You create a **Performance Session** by running the **Performance Wizard** or by manually creating a session. The **Performance Session** is displayed in the **Performance Explorer** after the **Performance Session** has been created.  
+  
+ To view **Performance Session** properties, select the session name in **Performance Explorer**, right-click it and then select **Properties**.  
+  
+ The performance session has the following property pages:  
+  
 ## General  
  These settings enable you to select the profiling method, to add .NET object collection and lifetime data, and to specify the default report location and naming conventions.  
   

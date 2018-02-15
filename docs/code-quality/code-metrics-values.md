@@ -23,7 +23,7 @@ Developers can use Visual Studio to generate code metrics data that measure the 
 
 ## Software measurements
 
-The following list shows the code metrics results that Visual Studio calculates:
+The following list shows the code metrics results that [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] calculates:
 
 - **Maintainability Index** - Calculates an index value between 0 and 100 that represents the relative ease of maintaining the code. A high value means better maintainability. Color coded ratings can be used to quickly identify trouble spots in your code. A green rating is between 20 and 100 and indicates that the code has good maintainability. A yellow rating is between 10 and 19 and indicates that the code is moderately maintainable. A red rating is a rating between 0 and 9 and indicates low maintainability.
 

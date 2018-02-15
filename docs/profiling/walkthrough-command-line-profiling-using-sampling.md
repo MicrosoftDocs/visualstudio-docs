@@ -1,26 +1,24 @@
 ---
 title: "Walkthrough: Command-Line Profiling Using Sampling | Microsoft Docs"
-ms.custom: 
+ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: 
-ms.suite: 
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: 
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "profiling tools, walkthroughs"
   - "performance tools, walkthroughs"
   - "performance tools, command-line tools"
+ms.assetid: 1d53972f-6f35-4842-8c74-1b627f18c70a
+caps.latest.revision: 21
 author: "mikejo5000"
 ms.author: "mikejo"
-<<<<<<< HEAD
-manager: "ghogen"
-=======
 manager: ghogen
 ms.workload: 
   - "multiple"
->>>>>>> master
 ---
 # Walkthrough: Command-Line Profiling Using Sampling
 This walkthrough demonstrates how to profile an application by using command-line tools and sampling to identify performance problems.  
@@ -33,7 +31,9 @@ This walkthrough demonstrates how to profile an application by using command-lin
   
 -   Analyze sampled profiling results to locate and fix performance issues.  
   
-## Prerequisites
+## Prerequisites  
+  
+-   [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)], [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)], or [!INCLUDE[vsPro](../code-quality/includes/vspro_md.md)]  
   
 -   Intermediate understanding of [!INCLUDE[csharp_current_short](../misc/includes/csharp_current_short_md.md)]  
   
@@ -103,7 +103,7 @@ This walkthrough demonstrates how to profile an application by using command-lin
         VSPerfReport <dir> PeopleTraxReport.vsp /output:<dir> /summary:all  
         ```  
   
-## See also  
+## See Also  
  [Performance Session Overview](../profiling/performance-session-overview.md)   
  [Profiling from the Command-Line](../profiling/using-the-profiling-tools-from-the-command-line.md)   
  [VSPerfCmd](../profiling/vsperfcmd.md)   

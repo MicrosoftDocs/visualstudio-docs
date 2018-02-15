@@ -58,21 +58,21 @@ This walkthrough steps you through the process of using code analysis to analyze
 ### To analyze a managed project for code defects
 
 1. Select the CodeAnalysisManagedDemo project in **Solution Explorer**.
-
+  
 1. On the **Project** menu, click **Properties**.
-
+  
      The CodeAnalysisManagedDemo properties page is displayed.
-
+  
 1. Choose the **Code Analysis** tab.
-
+  
 1. Make sure that **Enable Code Analysis on Build** is checked.
- 
+  
 1. From the **Run this rule set** drop-down list, select **Microsoft All Rules**.
-
+  
 1. On the **File** menu, click **Save Selected Items**, and then close the properties pages.
-
+  
 1. On the **Build** menu, click **Build CodeAnalysisManagedDemo**.
-
+  
     The CodeAnalysisManagedDemo project build warnings are shown in the **Error List** and **Output** windows.
 
 ## Correct the code analysis issues
