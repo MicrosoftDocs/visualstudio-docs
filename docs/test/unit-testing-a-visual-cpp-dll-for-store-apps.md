@@ -1,7 +1,7 @@
 ---
 title: "Unit testing a C++ UWP DLL | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2017"
+ms.date: "02/15/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: vs-devops-test
