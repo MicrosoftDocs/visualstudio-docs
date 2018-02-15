@@ -97,6 +97,7 @@
 ##### [Substitute Parameters in a Template](ide/how-to-substitute-parameters-in-a-template.md)
 #### [Visual Studio IDE 64-Bit Support](ide/visual-studio-ide-64-bit-support.md)
 ### [Develop without Projects or Solutions ("Open Folder")](ide/develop-code-in-visual-studio-without-projects-or-solutions.md)
+#### [Customize Codebases using JSON Files](ide/customize-codebases-using-json-files.md)
 ### [Write Code in the Editor](ide/writing-code-in-the-code-and-text-editor.md)
 #### [Find and Replace Text](ide/finding-and-replacing-text.md)
 ##### [Use Regular Expressions](ide/using-regular-expressions-in-visual-studio.md)
