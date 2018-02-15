@@ -37,7 +37,7 @@ Boost.Test requires [Boost](http://www.boost.org/)! If you do not have Boost ins
 
 1. Run **vcpkg integrate install** to configure Visual Studio with the library and include paths to the Boost headers and binaries.
 
-## Add the item template (Visual Studio 2017 15.6 and later)
+## Add the item template (Visual Studio 2017 version 15.6 and later)
 
 1. To create a .cpp file for your tests, right-click on the project node in **Solution Explorer** and choose **Add New Item**. 
  
@@ -45,9 +45,9 @@ Boost.Test requires [Boost](http://www.boost.org/)! If you do not have Boost ins
 
 1. The new file contains a sample test method. Build your project to enable **Test Explorer** to discover the method.
 
-The item template uses the single-header variant of Boost.Test, but you can modify the #include path to use the standalone library variant. See [Add include directives](#add_include_directives) below for more information.
+The item template uses the single-header variant of Boost.Test, but you can modify the #include path to use the standalone library variant. For more information, see [Add include directives](#add_include_directives).
 
-## Create a test project (Visual Studio 2017 15.5)
+## Create a test project (Visual Studio 2017 version 15.5)
 
 In Visual Studio 2017 version 15.5, no pre-configured test project or item templates are available for Boost.Test. Therefore, you have to create and configure a console application project to hold your tests. 
 
