@@ -63,7 +63,7 @@ You can use Visual Studio to build apps and games for macOS, Linux, and Windows,
 
 - Build native C++ apps for iOS, Android and Windows devices, and share common code in libraries built for iOS, Android, and Windows, by using [C++ for cross-platform development](../cross-platform/visual-cpp-for-cross-platform-mobile-development.md).
 
-- Deploy, test, and debug Android apps with Visual Studio's [Android emulator](../cross-platform/visual-studio-emulator-for-android.md).
+- Deploy, test, and debug Android apps with the [Android emulator](../cross-platform/visual-studio-emulator-for-android.md).
 
 Visual Studio can do help you do many more things. For a more complete list, see [www.visualstudio.com](https://www.visualstudio.com/vs/).
 
