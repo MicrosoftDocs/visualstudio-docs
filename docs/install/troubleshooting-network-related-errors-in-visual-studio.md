@@ -30,7 +30,7 @@ We've got solutions for the most typical network- or proxy-related errors that y
 
 This error generally occurs when users are connected to the internet through a proxy server, and the proxy server blocks the calls that Visual Studio makes to some network resources.
 
-#### To fix this error:
+### To fix this error:
 
 - Restart Visual Studio. A proxy authentication dialog box should appear. Enter your credentials when prompted in the dialog.
 
@@ -76,7 +76,7 @@ If you are using Visual Studio in a private network that has a firewall, Visual 
 
 Visual Studio uses Transport Layer Security (TLS) 1.2 protocol to connect to network resources. Security appliances on some private networks block certain server connections when Visual Studio uses TLS 1.2.
 
-#### To fix this error:
+### To fix this error:
 
 Enable connections for the following URLs:
 

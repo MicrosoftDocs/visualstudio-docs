@@ -16,6 +16,16 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/code-quality/creating-and-using-code-analysis-check-in-policies.md",
+            "redirect_url": "/visualstudio/code-quality/how-to-create-or-update-standard-code-analysis-check-in-policies",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/code-quality/enhancing-code-quality-with-team-project-check-in-policies.md",
+            "redirect_url": "/visualstudio/code-quality/how-to-create-or-update-standard-code-analysis-check-in-policies",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/code-quality/how-to-suppress-warnings-by-using-the-menu-item.md",
             "redirect_url": "/visualstudio/code-quality/in-source-suppression-overview",
             "redirect_document_id": false
@@ -1998,17 +2008,17 @@
         },
         {
           "source_path": "docs/ide/reference/proxy-authorization-required.md",
-          "redirect_url": "visualstudio/install/troubleshooting-network-related-errors-in-visual-studio",
+          "redirect_url": "/visualstudio/install/troubleshooting-network-related-errors-in-visual-studio",
           "redirect_document_id": false
         },
         {
           "source_path": "docs/ide/whitelisting-urls-in-a-private-network.md",
-          "redirect_url": "visualstudio/install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server",
+          "redirect_url": "/visualstudio/install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server",
           "redirect_document_id": false
         },
         {
           "source_path": "docs/install/install-visual-studio-behind-a-firewall-or-proxy-server.md",
-          "redirect_url": "visualstudio/install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server",
+          "redirect_url": "/visualstudio/install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server",
           "redirect_document_id": false
         }
     ]
