@@ -23,9 +23,8 @@
 ### Install on a network
 #### [Create a network-based installation of Visual Studio](install/create-a-network-installation-of-visual-studio.md)
 #### [Update a network-based installation of Visual Studio](install/update-a-network-installation-of-visual-studio.md)
-#### [Installing Visual Studio behind a firewall or proxy server](install/install-visual-studio-behind-a-firewall-or-proxy-server.md)
-#### [Correcting proxy authorization errors](ide/reference/proxy-authorization-required.md)
-#### [Whitelisting URLs in a private network](ide/whitelisting-urls-in-a-private-network.md)
+#### [Install and use Visual Studio behind a firewall or proxy server](install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md)
+##### [Troubleshooting network errors when you install or use Visual Studio](install/troubleshooting-network-related-errors-in-visual-studio.md)
 ### Deploy in an enterprise
 #### [Automate Visual Studio installation with a response file](install/automated-installation-with-response-file.md)
 #### [Automatically apply product keys when deploying Visual Studio](install/automatically-apply-product-keys-when-deploying-visual-studio.md)
@@ -188,6 +187,7 @@
 ### [Office and Sharepoint Development](vsto/office-and-sharepoint-development-in-visual-studio.md)
 ### [Work with XML and XSLT Files](xml-tools/xml-tools-in-visual-studio.md)
 ### Additional Tutorials
+#### [Create a WPF app with C# or Visual Basic](ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md)
 #### [Tutorial 1: Create a Picture Viewer (C#)](ide/tutorial-1-create-a-picture-viewer.md)
 ##### [Step 1: Create a Windows Forms Application Project](ide/step-1-create-a-windows-forms-application-project.md)
 ##### [Step 2: Run Your Program](ide/step-2-run-your-program.md)
