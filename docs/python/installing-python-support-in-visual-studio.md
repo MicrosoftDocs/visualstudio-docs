@@ -2,7 +2,7 @@
 title: Installing Python support in Visual Studio | Microsoft Docs
 description: Detailed instructions on how to install the Python Tools for Visual Studio (PTVS) in Visual Studio 2017, 2015, 2013, 2012, and 2010, including options and installation locations.
 ms.custom:
-ms.date: 01/16/2018
+ms.date: 02/15/2018
 ms.reviewer:
 ms.suite:
 ms.technology: 
@@ -39,7 +39,7 @@ To quickly test Python support after following the installation steps, Open the 
 
 ## Visual Studio 2017
 
-1. Download and run the latest Visual Studio 2017 installer. You must install version 15.2 and above to use Python.
+1. Download and run the latest Visual Studio 2017 installer. If you have Visual Studio installed already, run the Visual Studio installer and skip to step 2.
 
     > [!div class="nextstepaction"]
     > <a target="frameTarget" href="https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Community&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_install">Install Visual Studio 2017 Community</a>
@@ -51,7 +51,10 @@ To quickly test Python support after following the installation steps, Open the 
 
     ![Python development workload in the Visual Studio installer](media/installation-python-workload.png)
 
-    Optional: if you're working with data science, also consider the **Data science and analytical applications** workload (Visual Studio 2017 15.2 and later). This workload includes support for Python as well as the R and F# languages. For more information, see [Data science and analytical applications workload](../rtvs/data-science-workload.md).
+    Optional: if you're working with data science, also consider the **Data science and analytical applications** workload. This workload includes support for Python as well as the R and F# languages. For more information, see [Data science and analytical applications workload](../rtvs/data-science-and-analytical-applications-workload.md).
+
+    > [!Note]
+    > The Python and Data Science workloads are available only with Visual Studio 2017 release 15.2 and later.
 
 1. On the right side of the installer, chose additional options if desired. Skip this step to accept the default options.
 
@@ -59,7 +62,7 @@ To quickly test Python support after following the installation steps, Open the 
 
     | Option | Description |
     | --- | --- |
-    | Python distributions | Choose any combination of the 32-bit and 64-bit variants of the Python 2, Python 3, Anaconda2, and Anaconda3 distributions that you plan to work with. Each includes the distribution's interpreter, runtime, and libraries. Anaconda, specifically, is an open data science platform that includes a wide range of pre-installed packages. (You can return to the Visual Studio installer at any time to add or remove distributions.) |
+    | Python distributions | Choose any combination of the 32-bit and 64-bit variants of the Python 2, Python 3, Anaconda2, and Anaconda3 distributions that you plan to work with. Each includes the distribution's interpreter, runtime, and libraries. Anaconda, specifically, is an open data science platform that includes a wide range of pre-installed packages. (You can return to the Visual Studio installer at any time to add or remove distributions.)  **Note**: If you've installed a distribution outside of the Visual Studio installer, there's no need to check the equivalent option here. Visual Studio automatically detects existing Python installations. See [Python environments](managing-python-environments-in-visual-studio.md). |
     | Cookiecutter template support | Installs the Cookiecutter graphical UI to discover templates, input template options, and create projects and files. See [Using the Cookiecutter extension](using-python-cookiecutter-templates.md). |
     | Python web support | Installs tools for web development including HTML, CSS, and JavaScript editing support, along with templates for projects using the Bottle, Flask, and Django frameworks. See [Python web project templates](python-web-application-project-templates.md). |
     | Python IoT support | Supports Windows IoT Core development using Python. |
@@ -70,7 +73,9 @@ To quickly test Python support after following the installation steps, Open the 
 
     ![Launching, modifying, modifying, or uninstalling Visual Studio from the installer](media/installation-vs-launch.png)
 
-> [!VIDEO https://mva.microsoft.com/en-US/training-courses-embed/python-tools-for-visual-studio-2017-18121/Video-Installing-Visual-Studio-Python-Support-go1id3LWE_1705918567]
+|   |   |
+|---|---|
+| ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | [Watch a video (Microsoft Virtual Academy)](https://mva.microsoft.com/en-US/training-courses-embed/python-tools-for-visual-studio-2017-18121/Video-Installing-Visual-Studio-Python-Support-go1id3LWE_1705918567) on installing Python support in Visual Studio.|
 
 ## Visual Studio 2015
 
