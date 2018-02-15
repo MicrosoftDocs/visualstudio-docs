@@ -4,19 +4,15 @@ ms.custom: ""
 ms.date: "02/01/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
+ms.technology: vs-ide-general
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords: 
-  - "vs.startpage"
-  - "VS.StartPage.HowDoI"
+f1_keywords:
   - "vs.ToolsOptionsPages.Startup"
 helpviewer_keywords: 
   - "Start Page [Visual Studio]"
   - "customizing Start Page [Visual Studio]"
-  - "Visual Studio Start page"
-caps.latest.revision: 45
+  - "Visual Studio Start Page"
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

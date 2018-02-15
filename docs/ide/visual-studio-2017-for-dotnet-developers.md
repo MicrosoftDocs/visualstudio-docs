@@ -7,19 +7,19 @@ manager: ghogen
 ms.technology: vs-ide-general
 ms.date: "01/16/2018"
 ms.topic: "article"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "editor"
-ms.workload: 
+ms.workload:
   - "dotnet"
 ---
 # Visual Studio 2017 for .NET Developers
 
 ## Smart code editor
 
-[Documentation: Using IntelliSense](using-intellisense.md)  
-[Documentation: Smart editor features](writing-code-in-the-code-and-text-editor.md)
+- [Documentation: Using IntelliSense](using-intellisense.md)
+- [Documentation: Smart editor features](writing-code-in-the-code-and-text-editor.md)
 
-Visual Studio has a deep understanding of your code via the Roslyn compiler to provide you with smart editing features like syntax colorization, code completion, spell-checking mistyped variables, unimported type resolution, outlining, structure visualizers, [CodeLens](find-code-changes-and-other-history-with-codelens.md), call hierarchy, hover-able quick info, parameter help, as well as tools for refactoring, applying quick actions, and generating code.
+Visual Studio has a deep understanding of your code via the .NET ("Roslyn") compiler to provide you with smart editing features like syntax colorization, code completion, spell-checking mistyped variables, unimported type resolution, outlining, structure visualizers, [CodeLens](find-code-changes-and-other-history-with-codelens.md), call hierarchy, hover-able quick info, parameter help, as well as tools for refactoring, applying quick actions, and generating code.
 
 ![Visual Studio smart code editor](../ide/media/VSIDE_Productivity_SmartCodeEditor.png "VSIDE_Productivity_SmartCodeEditor")
 
@@ -45,14 +45,14 @@ Additionally, use code suggestions to learn best practices, stub or generate cod
 
 [Documentation: Unit testing in Visual Studio](../test/improve-code-quality.md)
 
-Run and debug your unit tests based on the MSTest, NUnit, or XUnit testing frameworks for any application targeting .NET Framework, .NET Standard, or .NET Core. Explore and review your tests in the *Test Explorer* or immediately see how code changes impact your unit tests inside the editor with *Live Unit Testing* (Enterprise SKU only). 
+Run and debug your unit tests based on the MSTest, NUnit, or XUnit testing frameworks for any application targeting .NET Framework, .NET Standard, or .NET Core. Explore and review your tests in the *Test Explorer* or immediately see how code changes impact your unit tests inside the editor with *Live Unit Testing* (Enterprise SKU only).
 
 ![Live Unit Testing in Visual Studio](../ide/media/VSIDE_Productivity_LiveUnitTesting.png "VSIDE_Productivity_LiveUnitTesting")
 
 ## Code consistency and style
 
-[Documentation: Portable custom editor options](create-portable-custom-editor-options.md)  
-[Documentation: EditorConfig code style settings for .NET](editorconfig-code-style-settings-reference.md)
+- [Documentation: Portable custom editor options](create-portable-custom-editor-options.md)
+- [Documentation: EditorConfig code style settings for .NET](editorconfig-code-style-settings-reference.md)
 
 Visual Studio enables coding convention configuration, detects coding style violations, and provides quick-fixes to remedy style issues with the **Ctrl+.** shortcut. Configure and enforce your team’s formatting, naming, and code style conventions across a repository—allowing overriding values at the project and file level—using *EditorConfig*.
 
@@ -102,8 +102,6 @@ The following are popular Visual Studio shortcuts. Note that some extensions unb
 | **Shift+F12** | Find All References | See all symbol or literal references |
 | **Ctrl+.** (also **Alt+Enter** in C# Profile) | Quick Actions and Refactorings | See what code fixes, code generation actions, refactorings, or other quick actions are available at your cursor position or code selection |
 | **Ctrl**+**E**,**V** | Duplicate line | Duplicates the line of code that the cursor is in (available in **Visual Studio 2017 version 15.6 preview 2** and later) |
-| **Ctrl**+**W** | Expand selection | Expands the current selection by one structural unit (available in **Visual Studio 2017 version 15.5**) |
-| **Ctrl**+**Shift**+**W** | Contract selection | Contracts (decreases) the current selection by one structural unit (available in **Visual Studio 2017 version 15.5**) |
 | **Ctrl+Q** | Quick Launch | Search all Visual Studio settings |
 | **F5** | Start Debugging | Start debugging your application |
 | **Ctrl+F5** | Run without Debug | Run your application locally without debugging |

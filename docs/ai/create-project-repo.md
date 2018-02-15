@@ -1,3 +1,5 @@
+---
+---
 # Clone a repository of Python code in Visual Studio
 
 Once you've [installed Visual Studio Tools for AI](installation.md), you can easily clone a repository of Python code and create a project from it.

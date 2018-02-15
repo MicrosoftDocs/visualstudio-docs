@@ -4,14 +4,13 @@ ms.custom: ""
 ms.date: "01/25/2018"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: msbuild
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "MSBuild, SDKs, SDK"
 author: "jeffkl"
-ms.author: "jeffkl"
+ms.author: jeffkl
 manager: angerlic
 ms.workload: 
   - "multiple"

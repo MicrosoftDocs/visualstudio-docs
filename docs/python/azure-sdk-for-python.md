@@ -1,18 +1,18 @@
 ---
 title: Azure SDK for Python | Microsoft Docs
 description: The Azure SDK for Python makes it easy to consume Microsoft Azure services from Python applications running on any platform.
-ms.custom: ""
+ms.custom:
 ms.date: 01/22/2018
-ms.reviewer: ""
-ms.suite: ""
+ms.reviewer:
+ms.suite:
 ms.technology: 
   - "devlang-python"
-ms.devlang: python
-ms.tgt_pltfrm: ""
+dev_langs:
+  - "python"
+ms.tgt_pltfrm:
 ms.topic: "article"
-caps.latest.revision: 11
-author: "kraigb"
-ms.author: "kraigb"
+author: kraigb
+ms.author: kraigb
 manager: ghogen
 ms.workload: 
   - "python"
@@ -34,7 +34,7 @@ Install the **latest stable version** (supports Python 2.7 and 3.x) as follows:
 pip install azure
 ```
 
-You can also follow [Install Python and the SDK](https://azure.microsoft.com/documentation/articles/python-how-to-install/) in the Azure documentation.
+You can also follow [Install Python and the SDK](https://docs.microsoft.com/azure/python-how-to-install/) in the Azure documentation.
 
 ## Documentation
 
