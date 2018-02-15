@@ -19,6 +19,8 @@ caps.latest.revision: 28
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # SDK Helpers for Debugging
 These functions and declarations are global helper functions for implementing debug engines, expression evaluators, and symbol providers in C++.  

@@ -15,6 +15,8 @@ caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugBreakpointChecksumRequest2::GetChecksum
 Retrieves the document checksum for a breakpoint request given the unique identifier of the checksum algorithm to use.  

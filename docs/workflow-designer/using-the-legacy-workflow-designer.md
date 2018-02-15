@@ -13,6 +13,8 @@ caps.latest.revision: 10
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+ms.workload: 
+  - "multiple"
 ---
 # Using the Legacy Workflow Designer
 The legacy [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] provided by [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)] can be used to target the [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] or the [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)].  

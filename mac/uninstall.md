@@ -16,20 +16,20 @@ including stand-alone apps like Visual Studio for Mac.
 
 This guide can be used to uninstall each product individually by navigating to the relevant section. The entire Xamarin toolset can be uninstalled by following this guide all the way through.
 
-If you have previously had Xamarin Studio installed on your machine, you may also need to follow the instructions in the [uninstall](https://developer.xamarin.com/guides/cross-platform/getting_started/installation/uninstalling_xamarin/) guide on developer.xamarin.com, in addition to the steps below.
+If you have previously had Xamarin Studio installed on your machine, you may also need to follow the instructions in the [uninstall](https://developer.xamarin.com/guides/cross-platform/getting_started/installation/uninstalling_xamarin/) guide on developer.xamarin.com, in addition to the following steps.
 
 ## Uninstall Script
 
-You can uninstall Visual Studio and its associated components in one go by using the uninstall script, which is located [here](https://raw.githubusercontent.com/MicrosoftDocs/visualstudio-docs/master/mac/resources/uninstall-vsmac.sh).
+You can uninstall Visual Studio and its associated components in one go by using the [uninstall script](https://raw.githubusercontent.com/MicrosoftDocs/visualstudio-docs/master/mac/resources/uninstall-vsmac.sh).
 
 This uninstall script contains most of the commands that you will find in the article. There are two main omissions from the script and are not included due to possible external dependencies:
 
 - **Uninstalling Mono**
 - **Uninstalling Android AVD**
 
-To run the script, do the following:
+To run the script, do the following steps:
 
-1. Right-click on the script and select **Save As..** to save the file on your Mac.
+1. Right-click on the script and select **Save As…** to save the file on your Mac.
 2. Open Terminal and change the working directory to where the script was downloaded:
 
     ```bash
@@ -45,11 +45,11 @@ To run the script, do the following:
 
 ## Uninstall Visual Studio for Mac
 
-The first step in uninstalling Visual Studio from a Mac is to locate **Visual Studio.app** in the **/Applications** directory and drag it to the **Trash Can**. Alternatively, right-click and select **Move to Trash** as illustrated below:
+The first step in uninstalling Visual Studio from a Mac is to locate **Visual Studio.app** in the **/Applications** directory and drag it to the **Trash Can**. Alternatively, right-click and select **Move to Trash** as illustrated in the following image:
 
 ![Move Visual Studio Application to trash](media/uninstall-image1.png)
 
-Deleting this app bundle will remove Visual Studio for Mac, even though there may be other files relating to Xamarin still on a file system.
+Deleting this app bundle removes Visual Studio for Mac, even though there may be other files relating to Xamarin still on a file system.
 
 To remove all traces of Visual Studio for Mac, the following commands should be run in Terminal:
 
@@ -57,17 +57,18 @@ To remove all traces of Visual Studio for Mac, the following commands should be 
 sudo rm -rf "/Applications/Visual Studio.app"
 rm -rf ~/Library/Caches/VisualStudio
 rm -rf ~/Library/Preferences/VisualStudio
-rm -rf "~/Library/Preferences/Visual Studio"
+rm -rf ~/Library/Preferences/Visual\ Studio
 rm -rf ~/Library/Logs/VisualStudio
 rm -rf ~/Library/VisualStudio
 rm -rf ~/Library/Preferences/Xamarin/
 rm -rf ~/Library/Developer/Xamarin
-rm -rf "~/Library/Application Support/VisualStudio"
+rm -rf ~/Library/Application\ Support/VisualStudio
+rm -rf ~/Library/Application\ Support/VisualStudio/7.0/LocalInstall/Addins/
 ```
 
 ## Uninstall Mono SDK (MDK)
 
-Mono is an open source implementation of Microsoft's .NET Framework and is used by all Xamarin Products—Xamarin.iOS, Xamarin.Android and Xamarin.Mac to allow development of these platforms in C#.
+Mono is an open-source implementation of Microsoft's .NET Framework and is used by all Xamarin Products—Xamarin.iOS, Xamarin.Android, and Xamarin.Mac to allow development of these platforms in C#.
 
 > [!WARNING]
 > There are other applications outside of Visual Studio for Mac that also use Mono, such as Unity.
@@ -125,9 +126,6 @@ rm -rf ~/.android/avd
 
 Xamarin.iOS allows iOS application development using C# or F# with Visual Studio for Mac.
 
-The Xamarin Build Host was also installed automatically with earlier versions of Xamarin.iOS to allow for
-iOS development in Visual Studio. To uninstall both from a machine, follow the steps below:
-
 Use the following commands in Terminal to remove all Xamarin.iOS files from a file system:
 
 ```bash
@@ -141,7 +139,7 @@ sudo pkgutil --forget com.xamarin.xamarin.ios.pkg
 
 ## Uninstall Xamarin.Mac
 
-Once Visual Studio for Mac has been successfully uninstalled, Xamarin.Mac can be removed from your machine using the following two commands to eradicate the product and license from your Mac respectively:
+Xamarin.Mac can be removed from your machine using the following two commands to eradicate the product and license from your Mac respectively:
 
 ```bash
 sudo rm -rf /Library/Frameworks/Xamarin.Mac.framework
@@ -156,7 +154,7 @@ Starting with 1.2.2, Xamarin Workbooks & Inspector can be uninstalled from a ter
 sudo /Library/Frameworks/Xamarin.Interactive.framework/Versions/Current/uninstall
 ```
 
-For older versions, you will need to manually remove the following:
+For older versions, you need to manually remove the following artifacts:
 
 * Delete the Workbooks app at `"/Applications/Xamarin Workbooks.app"`
 * Delete the Inspector app at `"Applications/Xamarin Inspector.app"`

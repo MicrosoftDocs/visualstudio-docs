@@ -15,6 +15,8 @@ caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Lines View - Contention Data
 The Lines view of contention data lists performance data for the statements that were executing when the samples were collected in the profiling run. In a source file, a statement can span more than one line in a source file, and a single line can include more than one statement.  

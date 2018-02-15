@@ -18,6 +18,8 @@ caps.latest.revision: 16
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # VTable
 The virtual table is identified by the `SymTagVTable` symbol.  

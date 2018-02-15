@@ -4,17 +4,17 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.dsltools.dsldesigner.dsldiagram"
 helpviewer_keywords: 
   - "Domain-Specific Language, diagram"
-ms.assetid: 00bba4b8-6aa6-4027-96cb-4f4c41a77d3c
-caps.latest.revision: 25
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Properties of Diagrams
 You can set properties that specify how diagrams will appear in the generated designer. For example, you can specify a default color for text in the diagram.  
@@ -44,4 +44,4 @@ You can set properties that specify how diagrams will appear in the generated de
 |Help Keyword|The keyword that is used to index F1 help for this diagram.|\<none>|  
   
 ## See Also  
- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/en-us/ca5e84cb-a315-465c-be24-76aa3df276aa)
+ [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

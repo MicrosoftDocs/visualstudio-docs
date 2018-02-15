@@ -18,6 +18,8 @@ caps.latest.revision: 15
 author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Resources for Designing Accessible Applications
 Use the following links to find information about technologies that support accessible design as well as tips and examples for developing accessible Windows applications and Web sites. General information on accessibility can be found online at [http://www.microsoft.com/enable/](http://www.microsoft.com/enable/).  
@@ -28,7 +30,7 @@ Use the following links to find information about technologies that support acce
   
 -   **Microsoft .NET Speech Technologies** The Microsoft .NET Speech SDK is a set of Microsoft [!INCLUDE[vstecasp](../../code-quality/includes/vstecasp_md.md)] controls, a Microsoft Internet Explorer Speech add-in, sample applications and documentation that allows Web developers to create, debug and deploy speech-enabled [!INCLUDE[vstecasp](../../code-quality/includes/vstecasp_md.md)] applications. The tools are integrated seamlessly into Microsoft Visual Studio, allowing developers to leverage the familiar development environment. For more information, see [http://msdn.microsoft.com/library/ms950383.aspx](http://msdn.microsoft.com/library/ms950383.aspx).  
   
--   **Understanding SAMI 1.0** Microsoft Synchronized Accessible Media Interchange (SAMI) technology provides a way for developers to caption audio content for PC multimedia. For more information, see [http://msdn.microsoft.com/en-us/library/ms971327.aspx](http://msdn.microsoft.com/library/ms971327.aspx).  
+-   **Understanding SAMI 1.0** Microsoft Synchronized Accessible Media Interchange (SAMI) technology provides a way for developers to caption audio content for PC multimedia. For more information, see [Understanding SAMI 1.0](http://msdn.microsoft.com/library/ms971327.aspx).  
   
 ## Windows Applications  
   
@@ -40,13 +42,9 @@ Use the following links to find information about technologies that support acce
   
 ## Web Sites  
   
--   [Walkthrough: Accessibility Guidelines for Using Image Controls, Menu Controls, and AutoPostBack](http://msdn.microsoft.com/Library/ff7b5021-48b3-46bf-921f-9fe1e0e32202) This topic provides step-by-step instructions for including accessible controls in a sample Web page as well as some accessibility design tips for the Web.  
+-   [Walkthrough: Accessibility Guidelines for Using Image Controls, Menu Controls, and AutoPostBack](http://msdn.microsoft.com/Library/ff7b5021-48b3-46bf-921f-9fe1e0e32202) This topic provides step-by-step instructions for including accessible controls in a sample Web page as well as some accessibility design tips for the Web.
   
--   **Making Web Pages More Accessible** This technical article lists HTML 3.2 elements that are accessible as well as elements that can be made accessible for use in Web site development. For more information, see [http://msdn2.microsoft.com/en-us/library/ms971309.aspx](http://msdn2.microsoft.com/library/ms971309.aspx).  
-  
--   **Creating Accessible Web Pages with DHTML** This technical article lists HTML 4.0 elements that are accessible as well as accessible Web design tips. For more information, see [http://msdn2.microsoft.com/library/ms528445.aspx](http://msdn2.microsoft.com/library/ms528445.aspx).  
-  
--   **Text Alternatives to Inaccessible Web Pages** This technical article describes how to use XML and XSLT to provide multiple views of the same Web page, such as text only versions. For more information, see [http://msdn2.microsoft.com/library/aa468593.aspx](http://msdn2.microsoft.com/library/aa468593.aspx).  
+-   **Creating Accessible Web Pages with DHTML** This technical article lists HTML 4.0 elements that are accessible as well as accessible Web design tips. For more information, see [http://msdn2.microsoft.com/library/ms528445.aspx](http://msdn2.microsoft.com/library/ms528445.aspx).
   
 ### Third-party Resources  
   

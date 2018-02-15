@@ -18,6 +18,8 @@ caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Code Snippets Schema Reference
 IntelliSense Code Snippets are pre-authored pieces of code that are ready to be inserted into your application with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. You can increase productivity by providing code snippets that reduce the amount of time spent typing repetitive code or searching for samples. You can use the IntelliSense Code Snippet XML schema to create your own code snippets and add them to the code snippets that [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] already includes.  
@@ -235,7 +237,7 @@ There are three attributes available for the Code element:
  Specifies a function to execute when the literal or object receives focus in Visual Studio.  
   
 > [!NOTE]
->  The `Function` element is only supported in Visual C# code snippets.  
+>  The `Function` element is only supported in C# code snippets.  
   
 ```xml  
 <Function>  
@@ -558,7 +560,7 @@ There are three attributes available for the Code element:
   
 -   `Expansion`: allows the code snippet to be inserted at the cursor.  
   
--   `Refactoring`: specifies that the code snippet is used during Visual C# refactoring. `Refactoring` cannot be used in custom code snippets.  
+-   `Refactoring`: specifies that the code snippet is used during C# refactoring. `Refactoring` cannot be used in custom code snippets.  
   
 ##  <a name="snippettypes"></a> SnippetTypes Element  
  Groups individual `SnippetType` elements. If the `SnippetTypes` element is not present, the code snippet can be inserted anywhere in the code.  

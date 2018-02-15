@@ -17,6 +17,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # MODULE_SYMBOL_SEARCH_INFO
 Contains status information about symbol search paths that have been searched.  

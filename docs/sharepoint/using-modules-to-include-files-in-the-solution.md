@@ -15,11 +15,11 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, deployment modules"
   - "SharePoint development in Visual Studio, modules"
   - "modules [SharePoint development in Visual Studio]"
-ms.assetid: 74d1d69f-5cd9-452f-8d35-e1f4d8a084fd
-caps.latest.revision: 16
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Using Modules to Include Files in the Solution
   There may be times when you may want to deploy files to the SharePoint server regardless of their file type, such as new master pages. To do this, you can use *Modules* (not to be confused with [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)] code modules). Modules are containers for files in a SharePoint solution. When the solution is deployed, the files in the module are copied to the specified folders on the SharePoint server.  

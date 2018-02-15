@@ -12,6 +12,8 @@ ms.assetid: d20a30c0-0dcc-4e2c-a809-31c8ea28c7df
 caps.latest.revision: 10
 ms.author: "v-brickg"
 manager: ghogen
+ms.workload: 
+  - "v-brickg"
 ---
 # Visual Language Dictionary for Visual Studio
 Visual Studio uses a common visual language to illustrate the concepts that are the building blocks of its iconography and other imagery. When designing new icons, use this dictionary to identify the concepts that you want to convey in your own image.  
@@ -443,7 +445,7 @@ Visual Studio uses a common visual language to illustrate the concepts that are 
 | **Action status: paused** | ![Action status: paused icon](../../extensibility/ux-guidelines/media/vld_s_actionstatuspaused.png "VLD_S_ActionStatusPaused") | ![Server paused icon](../../extensibility/ux-guidelines/media/vld_s_actionstatuspaused_serverpaused.png "VLD_S_ActionStatusPaused_ServerPaused")<br />Server paused |
 | **Action status: playing, running** | ![Action status: playing, running icon](../../extensibility/ux-guidelines/media/vld_s_actionstatusplayingrunning.png "VLD_S_ActionStatusPlayingRunning") | ![Server started icon](../../extensibility/ux-guidelines/media/vld_s_actionstatusplayingrunning_serverstarted.png "VLD_S_ActionStatusPlayingRunning_ServerStarted")<br />Server started<br />![Never run icon](../../extensibility/ux-guidelines/media/vld_s_actionstatusplayingrunning_neverrun.png "VLD_S_ActionStatusPlayingRunning_NeverRun")<br />Never run |
 | **Action status: stopped** | ![Action status: stopped icon](../../extensibility/ux-guidelines/media/vld_s_actionstatusstopped.png "VLD_S_ActionStatusStopped") | ![Server stopped icon](../../extensibility/ux-guidelines/media/vld_s_actionstatusstopped_serverstopped.png "VLD_S_ActionStatusStopped_ServerStopped")<br />Server stopped |
-| **Alert** | ![Alert icon](../../extensibility/ux-guidelines/media/vld_s_alert.png "VLD_S_Alert") | ![Linked table with error tab cue icon](../../extensibility/ux-guidelines/media/vld_s_alert_linkedtablewitherrortabcue.png "VLD_S_Alert_LinkedTableWithErrorTabCue")<br />Linked table with error tab cue<br />![Code analysis window icon](../../extensibility/ux-guidelines/media/vld_s_alert_codeanalysiswindow.png "VLD_S_Alert_CodeAnalysisWindow")<br />Code analysis window |
+| **Alert** | ![Alert icon](../../extensibility/ux-guidelines/media/vld_s_alert.png "VLD_S_Alert") | ![Linked table with error tab cue icon](../../extensibility/ux-guidelines/media/vld_s_alert_linkedtablewitherrortabcue.png "VLD_S_Alert_LinkedTableWithErrorTabCue")<br />Linked table with error tab cue |
 | **Breakpoint: advanced disabled** | ![Breakpoint: advanced disabled icon](../../extensibility/ux-guidelines/media/vld_s_breakpointadvanceddisabled.png "VLD_S_BreakpointAdvancedDisabled") ||
 | **Breakpoint: advanced enabled**  |![Breakpoint: advanced enabled icon](../../extensibility/ux-guidelines/media/vld_s_breakpointadvancedenabled.png "VLD_S_BreakpointAdvancedEnabled") ||
 | **Breakpoint: bound** | ![Breakpoint: bound icon](../../extensibility/ux-guidelines/media/vld_s_breakpointbound.png "VLD_S_BreakpointBound") ||

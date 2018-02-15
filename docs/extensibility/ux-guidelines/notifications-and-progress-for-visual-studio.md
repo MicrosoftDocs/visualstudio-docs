@@ -13,6 +13,8 @@ caps.latest.revision: 6
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Notifications and Progress for Visual Studio
 ##  <a name="BKMK_NotificationSystems"></a> Notification systems  
@@ -232,8 +234,6 @@ manager: ghogen
  **Infobar with progress bar and textual description**  
   
  ![Infobar inside a window](../../extensibility/ux-guidelines/media/0903-06_infobarinwindow.png "0903-06_InfoBarInWindow")  
-  
- **Infobar inside the Code Analysis window**  
   
 ##### Inline  
  Inline progress indication can be represented by any of the progress loader types. Typically the progress indicator is paired with messaging, but this is not a requirement.  

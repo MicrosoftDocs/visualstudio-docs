@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: msbuild
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -22,9 +21,12 @@ helpviewer_keywords:
   - "ResolveAssemblyReference task [MSBuild]"
   - "MSBuild, ResolveAssemblyReference task"
 ms.assetid: 4d56d848-b29b-4dff-86a2-0a96c9e4a170
-author: "kempb"
-ms.author: "kempb"
+caps.latest.revision: 29
+author: Mikejo5000
+ms.author: mikejo
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # ResolveAssemblyReference Task
 Determines all assemblies that depend on the specified assemblies. This includes second and `n`th-order dependencies.  

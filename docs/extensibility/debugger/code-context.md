@@ -15,6 +15,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Code Context
 In [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debugging, a **code context**:  

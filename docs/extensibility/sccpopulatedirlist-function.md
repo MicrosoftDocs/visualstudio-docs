@@ -17,6 +17,8 @@ caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # SccPopulateDirList Function
 This function determines which directories and (optionally) files are stored in source control, given a list of directories to examine.  

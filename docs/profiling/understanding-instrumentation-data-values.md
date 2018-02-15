@@ -16,6 +16,8 @@ caps.latest.revision: 29
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Understanding Instrumentation Data Values
 The *instrumentation* profiling method of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] records detailed timing information for the function calls, lines, and instructions in the profiled application  

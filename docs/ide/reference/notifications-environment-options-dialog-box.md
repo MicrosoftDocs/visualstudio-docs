@@ -15,6 +15,8 @@ caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Notifications, Environment, Options Dialog Box
 Use this option to stop ignoring any notifications that you previously chose to ignore through the Notifications dialog. For more information, see [Notifications](../../ide/visual-studio-notifications.md).  

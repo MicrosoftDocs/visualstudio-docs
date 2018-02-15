@@ -17,6 +17,8 @@ caps.latest.revision: 2
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # marker_series::~marker_series Destructor
 Destroys marker_series object and releases all allocated resources.  

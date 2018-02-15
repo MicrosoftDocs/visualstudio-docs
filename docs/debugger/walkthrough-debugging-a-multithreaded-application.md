@@ -28,6 +28,8 @@ caps.latest.revision: 44
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # View Threads in the debugger in Visual Studio using the Threads window
 In the **Threads** window, you can examine and work with threads in the application that you are debugging. For step-by-step guidance on how to use the **Threads** window, see [Walkthrough: Debug using the Threads Window](../debugger/how-to-use-the-threads-window.md).

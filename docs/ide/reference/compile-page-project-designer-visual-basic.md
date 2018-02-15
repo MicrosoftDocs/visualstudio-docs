@@ -23,6 +23,8 @@ caps.latest.revision: 60
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Compile Page, Project Designer (Visual Basic)
 Use the **Compile** page of the Project Designer to specify compilation instructions. You can also specify advanced compiler options and pre-build or post-build events on this page.  
@@ -35,21 +37,21 @@ To access the **Compile** page, choose a project node (not the **Solution** node
  The following settings enable you to select the configuration and platform to display or modify.  
   
 > [!NOTE]
->  With simplified build configurations, the project system determines whether to build a debug or release version. Therefore, the **Configuration** and **Platform** lists are not displayed. For more information, see [Debug and Release Project Configurations](http://msdn.microsoft.com/en-us/0440b300-0614-4511-901a-105b771b236e).  
+> With simplified build configurations, the project system determines whether to build a debug or release version. Therefore, the **Configuration** and **Platform** lists are not displayed.
   
  **Configuration**  
- Specifies which configuration settings to display or modify. The settings are **Debug** (default), **Release**, or **All Configurations**. For more information, see [Debug and Release Project Configurations](http://msdn.microsoft.com/en-us/0440b300-0614-4511-901a-105b771b236e) and [How to: Create and Edit Configurations](../../ide/how-to-create-and-edit-configurations.md).  
+ Specifies which configuration settings to display or modify. The settings are **Debug** (default), **Release**, or **All Configurations**. For more information, see [Understanding Build Configurations](../../ide/understanding-build-configurations.md) and [How to: Create and Edit Configurations](../../ide/how-to-create-and-edit-configurations.md).
   
  **Platform**  
- Specifies which platform settings to display or modify. You can specify **Any CPU** (default), **x64**, or **x86**. For more information, see [Debug and Release Project Configurations](http://msdn.microsoft.com/en-us/0440b300-0614-4511-901a-105b771b236e).  
+ Specifies which platform settings to display or modify. You can specify **Any CPU** (default), **x64**, or **x86**.
   
 ## Compiler Configuration Options  
  The following settings enable you to set the compiler configuration options.  
   
  **Build output path**  
- Specifies the location of the output files for this project's configuration. Type the path of the build output in this box, or click the **Browse** button to select a path. Note that the path is relative; if you enter an absolute path, it will be saved as relative. The default path is bin\Debug\ or bin\Release\\. For more information, see [Debug and Release Project Configurations](http://msdn.microsoft.com/en-us/0440b300-0614-4511-901a-105b771b236e).  
+ Specifies the location of the output files for this project's configuration. Type the path of the build output in this box, or click the **Browse** button to select a path. Note that the path is relative; if you enter an absolute path, it will be saved as relative. The default path is bin\Debug\ or bin\Release\\.
   
- With simplified build configurations, the project system determines whether to build a debug or release version. The **Build** command from the **Debug** menu (F5) will put the build in the debug location regardless of the **Output path** you specify. However, the **Build** command from the **Build** menu puts it in the location you specify. For more information, see [Debug and Release Project Configurations](http://msdn.microsoft.com/en-us/0440b300-0614-4511-901a-105b771b236e).  
+ With simplified build configurations, the project system determines whether to build a debug or release version. The **Build** command from the **Debug** menu (F5) will put the build in the debug location regardless of the **Output path** you specify. However, the **Build** command from the **Build** menu puts it in the location you specify.
   
  **Option explicit**  
  Specifies whether to allow implicit declaration of variables. Select **On** to require explicit declaration of variables. This causes the compiler to report errors if variables are not declared before they are used. Select **Off** to allow implicit declaration of variables.  
@@ -163,10 +165,9 @@ Click this button to access the **Build Events** dialog box. Use this dialog box
   
 **Advanced Compile Options**  
 Click this button to access the **AdvancedCompiler Settings** dialog box. Use the **AdvancedCompiler Settings** dialog box to specify a project's advanced build configuration properties. This dialog box applies to Visual Basic projects only. For more information, see [Advanced Compiler Settings Dialog Box (Visual Basic)](../../ide/reference/advanced-compiler-settings-dialog-box-visual-basic.md).  
-  
-## See Also  
- [Debug and Release Project Configurations](http://msdn.microsoft.com/en-us/0440b300-0614-4511-901a-105b771b236e)   
- [Managing Compilation Properties](http://msdn.microsoft.com/en-us/94308881-f10f-4caf-a729-f1028e596a2c)   
- [How to: Specify Build Events (Visual Basic)](../../ide/how-to-specify-build-events-visual-basic.md)   
- [Visual Basic Command-Line Compiler](/dotnet/visual-basic/reference/command-line-compiler/index)   
- [How to: Create and Edit Configurations](../../ide/how-to-create-and-edit-configurations.md)
+
+## See also
+
+[How to: Specify Build Events (Visual Basic)](../../ide/how-to-specify-build-events-visual-basic.md)  
+[Visual Basic Command-Line Compiler](/dotnet/visual-basic/reference/command-line-compiler/index)  
+[How to: Create and Edit Configurations](../../ide/how-to-create-and-edit-configurations.md)

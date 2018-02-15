@@ -5,7 +5,7 @@ ms.date: "11/22/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-ide-debug"
+  - "vs-ide-deployment"
 ms.tgt_pltfrm: ""
 ms.topic: "quickstart"
 helpviewer_keywords: 
@@ -15,6 +15,8 @@ caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+ms.workload: 
+  - "azure"
 ---
 # Publish an ASP.NET or ASP.NET Core app to Azure App Service using Visual Studio
 
@@ -68,5 +70,5 @@ If you do not already have an Azure account, you can [sign up here](https://azur
 
 ## Next steps
 
-- [Deploy an ASP.NET Core app to Azure](https://docs.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-webapp-using-vs)
-- [Continuous deployment of ASP.NET Core to Azure with Git](https://docs.microsoft.com/en-us/aspnet/core/publishing/azure-continuous-deployment)
+- [Deploy an ASP.NET Core app to Azure](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs)
+- [Continuous deployment of ASP.NET Core to Azure with Git](/aspnet/core/publishing/azure-continuous-deployment)

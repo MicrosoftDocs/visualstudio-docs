@@ -21,6 +21,8 @@ caps.latest.revision: 41
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Analyzing Performance Tools Data
 The performance reports of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools enable you to view and analyze application performance problems. This section provides an overview of the performance reports and views that can be used to examine performance data.  

@@ -15,11 +15,11 @@ helpviewer_keywords:
   - "databases [Office development in Visual Studio], scrolling records"
   - "records [Office development in Visual Studio], scrolling"
   - "data [Office development in Visual Studio], scrolling database records"
-ms.assetid: 9b008be4-06a3-4ffc-9f02-79dd6cfe00ab
-caps.latest.revision: 38
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Walkthrough: Binding to Data from a Service in a VSTO add-in Project
   You can bind data to host controls in VSTO Add-in projects. This walkthrough demonstrates how to add controls to a Microsoft Office Word document, bind the controls to data retrieved from the MSDN Content Service, and respond to events at run time.  

@@ -22,11 +22,11 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, list instances"
   - "SharePoint development in Visual Studio, fields"
   - "SharePoint development in Visual Studio, content types"
-ms.assetid: caebacc2-616c-4373-8e21-edc7979338e7
-caps.latest.revision: 54
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Walkthrough: Create a Site Column, Content Type, and List for SharePoint
   The following procedures demonstrate how to create custom SharePoint site columns—or *fields*—as well as a content type that uses the site columns. It also shows how to create a list that uses the new content type.  

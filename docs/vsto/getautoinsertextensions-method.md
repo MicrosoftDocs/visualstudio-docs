@@ -11,11 +11,11 @@ ms.topic: "article"
 dev_langs: 
   - "VB"
   - "CSharp"
-ms.assetid: 78388cce-7aae-4163-8db5-ce00d0a0c331
-caps.latest.revision: 12
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # GetAutoInsertExtensions Method
   Gets information about the apps for Office that are to be automatically inserted during debugging.  

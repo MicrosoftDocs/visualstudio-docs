@@ -16,6 +16,8 @@ caps.latest.revision: 17
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Walkthrough: Publishing a Visual Studio Extension
 
@@ -65,9 +67,7 @@ In this case we will use a default VSPackage extension, but the same steps are v
 
   ![Upload to Marketplace](media/upload-to-marketplace.png)
 
-6. Choose the publisher you want to use to upload your extension.  You can change publishers by clicking on the publisher name on the upper-left corner.
-
-  ![Change Marketplace Publisher](media/change-marketplace-publisher.png)
+6. Choose the publisher you want to use to upload your extension.  You can change publishers by clicking on the publisher names listed on the left.  Click on **New extension** and select **Visual Studio**.
 
 7. In **1: Upload extension**, you can choose to upload a VSIX file directly to Visual Studio Marketplace or just add a link to your own website. In this case, we will upload our extension, TestPublish.vsix.  Drag and drop your extension or use the **click** link to browse for the file.  Your extension can be found in the \bin\Release folder of the project.  Click **Continue**.
 
@@ -81,7 +81,7 @@ In this case we will use a default VSPackage extension, but the same steps are v
     
     * **VSIX ID** is the unique identifier that Visual Studio uses for your extension.  This is required if you would like to have your extension be auto-updated.  This is auto-populated from the source.extension.vsixmanifest file.
     
-    * **Logo** that will be used for your extension.  This will be auto-populated from the source.extension.vsixmanifest file if provided.
+   * **Logo** that will be used for your extension.  This will be auto-populated from the source.extension.vsixmanifest file if provided.
     
     * **Short description** of what your extension does.  This will be auto-populated from the source.extension.vsixmanifest file.
     
@@ -103,12 +103,32 @@ In this case we will use a default VSPackage extension, but the same steps are v
     
     * **Allow Q&A for your extension** will allow users to leave questions on your extension entry page.
 
-9. Click **Save & Upload**. This will take you back to your publisher manage page.  Your extension has not yet been published.  To publish your extension hover over the entry of your extension and click on **...** and then **Make Public**.  You can view how your extension will look like on Marketplace by selecting **View details**.  For acquisition numbers, click on **Reports**.  To make changes to your extension, click on **Edit*.
+9. Click **Save & Upload**. This will take you back to your publisher manage page.  Your extension has not yet been published.  To publish your extension, right-click on your extension and select **Make Public**.  You can view how your extension will look like on Marketplace by selecting **View Extension**.  For acquisition numbers, click on **Reports**.  To make changes to your extension, click on **Edit*.
 
   ![Extension Entry Menu](media/extension-entry-menu.png)
 
 10. After clicking **Make Public**, your extension is now public.  Search the Visual Studio Marketplace for your extension.
 
+## Add Additional Users to Manage your Publisher Account
+
+Marketplace supports granting additional users permissions to access and manage a publisher account.
+
+1. Navigate to the publisher account you wish to add additional users to.
+
+2. Select **Members** and click on **Add**
+
+  ![Add Additional User](media/add-users.png)
+
+3. You can then specify the email address of the user you wish to add and grant the right level of access under **Select a role**.  You can choose from the following:
+
+  * **Creator**: The user can publish extensions, but cannot view or manage extensions published by other users.
+  
+  * **Reader**: The user can view extensions, but cannot publish or manage extensions.
+  
+  * **Contributor**: The user can publish and manage extensions, but cannot edit publisher settings or manage access.
+  
+  * **Owner**: The user can publish and manage extensions, edit publisher settings, and manage access.
+  
 ## Install the Extension from the Visual Studio Marketplace
 
 Now that the extension is published, install it in Visual Studio and test it there.
@@ -121,7 +141,7 @@ Now that the extension is published, install it in Visual Studio and test it the
 
 4. To complete the installation, close all instances of Visual Studio.
 
-## Removing the Extension
+## Remove the Extension
 
 You can remove the extension from the Visual Studio Marketplace and from your computer.
 
@@ -131,7 +151,7 @@ You can remove the extension from the Visual Studio Marketplace and from your co
 
 2. In the upper-right hand corner, click **Publish** extensions.  Pick the publisher that you used to publish TestPublish.  The listing for TestPublish is displayed.
 
-3. Hover over the extension entry and click on **...** and **Remove...** You will be asked to confirm if you want to remove the extension.  Click **OK**.
+3. Right-click on the extension entry and click **Remove** You will be asked to confirm if you want to remove the extension.  Click **OK**.
 
 ### To remove the extension from your computer
 

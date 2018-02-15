@@ -13,6 +13,8 @@ ms.assetid: 9aa0e8d6-8129-4438-8389-d460611581a7
 caps.latest.revision: 7
 ms.author: "sdanie"
 manager: "erikre"
+ms.workload: 
+  - "multiple"
 ---
 # How to: Add comments to a workflow in the Workflow Designer
 To facilitate creating larger, more complicated workflows, [!INCLUDE[net_v45](../ide/includes/net_v45_md.md)] allows the developer to add annotations to the following types of item in the designer:  
@@ -34,54 +36,52 @@ To facilitate creating larger, more complicated workflows, [!INCLUDE[net_v45](..
   
 ### Adding an annotation to an activity in the designer  
   
-1.  In the workflow designer, right-click on an item in the workflow designer and select **Annotations**, **Add Annotation**.  
+1. In the workflow designer, right-click on an item in the workflow designer and select **Annotations**, **Add Annotation**.  
   
-2.  Add the text of the annotation in the space provided.  
+1. Add the text of the annotation in the space provided.  
   
-3.  The item will show an annotation icon. Hovering over the annotation icon will display the text of the annotation.  
-  
-     ![Sequence activity showing annotation](../debugger/debug-interface-access/annotation.md "Annotation")  
-  
+   The item shows an annotation icon. Hovering over the annotation icon displays the text of the annotation.
+
 ### Displaying an annotation in an activity's designer  
   
 1.  With an activity designer which has an annotation displaying outside the activity, click the **Pin** icon in the annotation adorner.  
   
-2.  The annotation will be displayed in the activity's designer. In the screenshot below, the annotation "Starting activity in the workflow" is displayed in the activity's designer.  
+   The annotation is displayed in the activity's designer. In the screenshot below, the annotation "Starting activity in the workflow" is displayed in the activity's designer.  
   
-     ![Annotation shown in the activity designer](../workflow-designer/media/annotationindesigner.png "AnnotationInDesigner")  
+   ![Annotation shown in the activity designer](../workflow-designer/media/annotationindesigner.png "AnnotationInDesigner")  
   
-3.  To display the annotation outside the activity's designer, hover over the annotation area in the activity's designer and click the **Unpin** icon  
+1. To display the annotation outside the activity's designer, hover over the annotation area in the activity's designer and click the **Unpin** icon  
   
-     ![Annotation displayed outside an activity's designe](../workflow-designer/media/annotationoutsidedesigner.png "AnnotationOutsideDesigner")  
+   ![Annotation displayed outside an activity's designe](../workflow-designer/media/annotationoutsidedesigner.png "AnnotationOutsideDesigner")  
   
-### Showing or hiding all annotations  
-  
-1.  Right-click an activity that has an annotation. Select **Annotations**, **Show All Annotations**.  
-  
-2.  All the annotations will be displayed in the activity's designers.  
-  
-3.  To display all annotations outside the activity's designers, right-click on the activity and select **Annotations**, **Hide All Annotations**.  
-  
-### Editing or deleting an annotation for an activity  
-  
-1.  Right-click on an activity that has an annotation.  
-  
-2.  Select **Annotations**, **Edit Annotation** or **Delete Annotation**.  
-  
-3.  The annotation will be opened for editing or deleted.  
-  
-4.  To delete all the annotations at once, right-click the workflow designer and select **Annotation**, **Delete All Annotations**.  
-  
-### Adding, editing, and deleting an annotation for a variable or argument  
-  
-1.  Right-click on a variable or argument and select Add Annotation.  
-  
-2.  Enter the text of the annotation. The variable or argument will display an annotation icon.  
-  
-3.  Right-click on a variable or argument that has an annotation. Select Edit Annotation.  
-  
-4.  The annotation will be opened for editing.  
-  
-5.  Right-click on a variable or argument that has an annotation. Select Delete Annotation.  
-  
-6.  The annotation will be deleted.
+### Showing or hiding all annotations
+
+1. Right-click an activity that has an annotation. Select **Annotations**, **Show All Annotations**.
+
+   All the annotations are displayed in the activity's designers.
+
+1. To display all annotations outside the activity's designers, right-click on the activity and select **Annotations**, **Hide All Annotations**.
+
+### Editing or deleting an annotation for an activity
+
+1. Right-click on an activity that has an annotation.
+
+1. Select **Annotations**, **Edit Annotation** or **Delete Annotation**.
+
+   The annotation is opened for editing or deleted.
+
+1. To delete all the annotations at once, right-click the workflow designer and select **Annotation**, **Delete All Annotations**.
+
+### Adding, editing, and deleting an annotation for a variable or argument
+
+1. Right-click on a variable or argument and select Add Annotation.
+
+1. Enter the text of the annotation. The variable or argument displays an annotation icon.
+
+1. Right-click on a variable or argument that has an annotation. Select Edit Annotation.
+
+   The annotation is opened for editing.
+
+1. Right-click on a variable or argument that has an annotation. Select Delete Annotation.
+
+   The annotation is deleted.

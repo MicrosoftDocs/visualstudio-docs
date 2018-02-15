@@ -17,6 +17,8 @@ caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_hasAssignmentOperator
 Retrieves a flag that specifies whether the user-defined data type has any assignment operators defined.  

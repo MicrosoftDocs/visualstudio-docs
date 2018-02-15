@@ -14,6 +14,8 @@ ms.author: "mikejo"
 manager: ghogen
 dev_langs: 
   - JavaScript
+ms.workload: 
+  - "nodejs"
 ---
 # Getting started with Node.js in Visual Studio
 In this tutorial for Node.js development using Visual Studio, you'll create a simple Node.js web application, add some code, explore some features of the IDE, and run the app. If you haven't already installed Visual Studio, install it for free [here](http://www.visualstudio.com).  
@@ -130,6 +132,8 @@ First, you'll create an Node.js web application project.
 
 1. Click the buttons to display different images.
 
+    ![App running in browser](../nodejs/media/tutorial-nodejs-running-in-browser.png)  
+
 1. Open the Node.js Interactive Window by selecting **View > Other Windows > Node.js Interactive Window**.
 
    ![Open the Node.js Interactive Window](../nodejs/media/tutorial-nodejs-interactive-window.png)  
@@ -140,7 +144,7 @@ First, you'll create an Node.js web application project.
 
 1. Close the web browser.  
 
-## Publish to Azure App Service
+## (Optional) Publish to Azure App Service
 
 1. In Solution Explorer, right-click the project and choose **Publish**.
 

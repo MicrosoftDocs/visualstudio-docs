@@ -17,6 +17,8 @@ caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaEnumDebugStreamData::Clone
 Creates an enumerator that contains the same enumerated sequence as the current enumerator.  

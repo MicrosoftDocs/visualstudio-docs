@@ -13,6 +13,8 @@ caps.latest.revision: 4
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Sample XSD File: Purchase Order Schema
 The following XSD file is used in various examples in the XSD Schema Designer documentation. This file is a purchase order schema.  

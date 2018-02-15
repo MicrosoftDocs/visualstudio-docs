@@ -19,6 +19,8 @@ caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA1048: Do not declare virtual members in sealed types
 |||  
@@ -34,7 +36,7 @@ manager: ghogen
 ## Rule Description  
  Types declare methods as virtual so that inheriting types can override the implementation of the virtual method. By definition, you cannot inherit from a sealed type, making a virtual method on a sealed type meaningless.  
   
- The Visual Basic .NET and C# compilers do not allow types to violate this rule.  
+ The Visual Basic and C# compilers do not allow types to violate this rule.  
   
 ## How to Fix Violations  
  To fix a violation of this rule, make the method non-virtual or make the type inheritable.  

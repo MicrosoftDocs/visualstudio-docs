@@ -13,6 +13,8 @@ caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Distributing Isolated Shell Applications
 You must install Visual Studio and the Visual Studio SDK in order to create an isolated shell application. To distribute the application to the machines of other users or customers, you must include a special redistributable package for the isolated shell.  

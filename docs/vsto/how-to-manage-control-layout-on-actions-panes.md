@@ -15,11 +15,11 @@ helpviewer_keywords:
   - "actions panes [Office development in Visual Studio], control layout"
   - "controls [Office development in Visual Studio], layout on actions panes"
   - "smart documents [Office development in Visual Studio], control layout"
-ms.assetid: 857550d0-b9c0-4d2f-a947-dd955bcf2823
-caps.latest.revision: 59
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Manage Control Layout on Actions Panes
   An actions pane is docked to the right of a document or worksheet by default; however, it can be docked to the left, top, or bottom. If you are using multiple user controls, you can write code to properly stack the user controls on the actions pane. For more information, see [Actions Pane Overview](../vsto/actions-pane-overview.md).  

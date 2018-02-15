@@ -14,11 +14,11 @@ dev_langs:
 helpviewer_keywords: 
   - "workbooks [Office development in Visual Studio], common tasks"
   - "Excel [Office development in Visual Studio], workbooks"
-ms.assetid: 4eca9d7b-5d99-4bc8-9d05-13714f017909
-caps.latest.revision: 14
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Working with Workbooks
   The <xref:Microsoft.Office.Tools.Excel.Workbook> and <xref:Microsoft.Office.Interop.Excel.Workbooks> class contains the methods and properties you use to perform tasks with workbooks.  

@@ -13,6 +13,8 @@ caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Copy (Programmatic Capture)
 Copies the contents of the active graphics log (.vsglog) file into a new file.  

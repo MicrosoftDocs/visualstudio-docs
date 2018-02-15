@@ -15,6 +15,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Automatic Formatting in a Legacy Language Service
 With automatic formatting, a language service automatically inserts a snippet of code when a user begins to type a known code construct.  

@@ -15,6 +15,8 @@ caps.latest.revision: 4
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Substitution Strings Used in .Pkgdef and .Pkgundef Files
 You can use the substitution strings listed below in the .pkgdef and .pkgundef files you define for your Visual Studio isolated shell application.  

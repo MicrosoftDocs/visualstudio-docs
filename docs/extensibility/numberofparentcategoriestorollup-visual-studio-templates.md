@@ -18,6 +18,8 @@ caps.latest.revision: 7
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # NumberOfParentCategoriesToRollUp (Visual Studio Templates)
 Specifies the number of parent categories that will display the template in the **New Project** dialog box.  

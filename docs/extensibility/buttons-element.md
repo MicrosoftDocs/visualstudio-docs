@@ -16,6 +16,8 @@ caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Buttons Element
 Groups [Button](../extensibility/button-element.md) elements, which represent individual commands.  

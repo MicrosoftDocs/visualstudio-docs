@@ -18,6 +18,8 @@ caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Annotation
 A location program code can be annotated with a `SymTagAnnotation` symbol.  

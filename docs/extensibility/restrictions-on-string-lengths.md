@@ -15,6 +15,8 @@ caps.latest.revision: 14
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Restrictions on String Lengths
 The Source Control Plug-in API limits the lengths of strings used in various functions.  

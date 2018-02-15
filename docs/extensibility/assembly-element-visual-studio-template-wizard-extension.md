@@ -18,6 +18,8 @@ caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Assembly Element (Visual Studio Template Wizard Extension)
 Specifies the name or strong name of the assembly that implements the `IWizard` interface.  

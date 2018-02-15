@@ -4,13 +4,13 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 87fff01c-60ba-440a-b8a0-185edcef83ac
-caps.latest.revision: 16
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Customizing Copy Behavior
 In a domain-specific language (DSL) created with the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Visualization and Modeling SDK, you can alter what happens when the user copies and pastes elements.  
@@ -557,11 +557,11 @@ namespace Company.MyDsl
   
 ```  
   
-## See Also  
- [Customizing Element Creation and Movement](../modeling/customizing-element-creation-and-movement.md)   
- [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md)   
- [Customizing Deletion Behavior](../modeling/customizing-deletion-behavior.md)   
- [Sample: VMSDK Circuit Diagrams sample](http://go.microsoft.com/fwlink/?LinkId=213879)
+## See also
+
+[Customizing Element Creation and Movement](../modeling/customizing-element-creation-and-movement.md)   
+[How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md)   
+[Customizing Deletion Behavior](../modeling/customizing-deletion-behavior.md)   
+[Sample: VMSDK Circuit Diagrams sample](http://go.microsoft.com/fwlink/?LinkId=213879)
  
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
- 

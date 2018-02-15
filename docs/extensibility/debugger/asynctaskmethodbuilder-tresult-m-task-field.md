@@ -15,6 +15,8 @@ caps.latest.revision: 4
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # AsyncTaskMethodBuilder&lt;TResult&gt;.m_task Field
 Represents the lazily initialized built task.  

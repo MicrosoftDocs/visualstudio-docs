@@ -15,6 +15,8 @@ caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Setting General Performance Session Options
 You can set the collection method and profiling data naming conventions for a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools performance session on the **General** page of the properties dialog box for the performance session. To open this dialog box from **Performance Explorer**, right-click the performance session, and then click **Properties**.  

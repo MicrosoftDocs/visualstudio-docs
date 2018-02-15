@@ -11,6 +11,8 @@ caps.latest.revision: 16
 author: "ghogen"
 ms.author: "ghogen"
 manager: ghogen
+ms.workload: 
+  - "xamarin"
 ---
 # Setup and install
 To build native iOS, Android, and Windows apps from a common C#/.NET code base using Xamarin, you need the following:  

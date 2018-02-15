@@ -13,6 +13,8 @@ caps.latest.revision: 54
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Creating a Software Development Kit
 A software development kit (SDK) is a collection of APIs that you can reference as a single item in Visual Studio. The **Reference Manager** dialog box lists all the SDKs that are relevant to the project. When you add an SDK to a project, the APIs are available in Visual Studio.  

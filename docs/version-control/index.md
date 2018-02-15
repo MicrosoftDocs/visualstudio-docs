@@ -1,7 +1,7 @@
-﻿---
+---
 layout: LandingPage
 title: Version control in Visual Studio | VSTS & TFS
-description: Guide to getting started with version control in Viual Studio 
+description: Guide to getting started with version control in Viual Studio
 keywords: VSTS, TFS, Version Control
 author: steved0x
 ms.manager: douge
@@ -10,6 +10,8 @@ ms.date: 12/15/2017
 ms.topic: article
 ms.prod: .net-core
 ms.assetid: 2c119a5f-0272-48c0-8d6c-806196944aea
+ms.workload: 
+  - "multiple"
 ---
 
 # Version Control in Visual Studio

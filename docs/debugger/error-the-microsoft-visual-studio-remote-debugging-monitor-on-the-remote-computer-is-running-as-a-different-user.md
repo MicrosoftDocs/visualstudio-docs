@@ -24,6 +24,8 @@ caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Error: The Microsoft Visual Studio Remote Debugging Monitor on the remote computer is running as a different user
 When trying to do remote debugging, you may get the following error message:  

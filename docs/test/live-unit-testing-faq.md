@@ -2,16 +2,16 @@
 title: "Live Unit Testing FAQ | Microsoft Docs"
 ms.date: "2017-10-03"
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Visual Studio ALM"
   - "Live Unit Testing FAQ"
-ms.assetid: 61baf3bb-646f-4c5a-b7c0-a6bdff68f21c
 author: "rpetrusha"
 ms.author: "ronpet"
+ms.workload: 
+  - "dotnet"
 ---
 # Live Unit Testing Frequently Asked Questions
 

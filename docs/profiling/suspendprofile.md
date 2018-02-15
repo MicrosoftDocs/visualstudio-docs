@@ -15,6 +15,8 @@ caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # SuspendProfile
 The `SuspendProfile` method increments the Suspend/Resume counter for the specified profiling level.  

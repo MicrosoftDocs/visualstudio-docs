@@ -16,11 +16,11 @@ helpviewer_keywords:
   - "NewMail event"
   - "mail items [Office development in Visual Studio], custom actions"
   - "e-mail [Office development in Visual Studio], custom actions"
-ms.assetid: cdd34fe4-e3d5-405a-a0ae-1e87216fe09c
-caps.latest.revision: 27
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Perform Actions When an E-Mail Message Is Received
   This example performs custom actions when the user receives an e-mail message.  

@@ -16,6 +16,8 @@ caps.latest.revision: 40
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Installing an Isolated Shell Application
 To install a Shell app you must perform the following steps.  

@@ -17,6 +17,8 @@ ms.author: "gewarren"
 manager: ghogen
 ms.technology: 
   - "vs-ide-code-analysis"
+ms.workload: 
+  - "multiple"
 ---
 # Automatic feature suspension
 If your available system memory falls to 200MB or less, Visual Studio displays the following message in the code editor.  

@@ -17,6 +17,8 @@ caps.latest.revision: 4
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # /DebugExe (devenv.exe)
 Opens the specified executable file to be debugged.  

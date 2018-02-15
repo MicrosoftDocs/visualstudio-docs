@@ -18,11 +18,11 @@ helpviewer_keywords:
   - "customizing the Ribbon, tabs"
   - "custom Ribbon, tabs"
   - "Custom tab [Office development in Visual Studio]"
-ms.assetid: 312865e6-950f-46ab-88de-fe7eb8036bfe
-caps.latest.revision: 68
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Walkthrough: Creating a Custom Tab by Using the Ribbon Designer
   By using the Ribbon Designer, you can create a custom tab and then add and position controls on it.  

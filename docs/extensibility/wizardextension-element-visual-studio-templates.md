@@ -18,6 +18,8 @@ caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # WizardExtension Element (Visual Studio Templates)
 Contains the registration elements for customizing the template wizard.  

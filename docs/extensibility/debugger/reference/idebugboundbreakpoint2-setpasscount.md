@@ -18,6 +18,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugBoundBreakpoint2::SetPassCount
 Sets or changes the pass count associated with this bound breakpoint.  

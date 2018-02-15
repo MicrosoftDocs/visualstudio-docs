@@ -13,6 +13,8 @@ caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How To: Use the Concurrency Visualizer Markers SDK
 This topic shows how to use the Concurrency Visualizer SDK to create spans and write flags, messages, and alerts.  
@@ -88,7 +90,7 @@ This topic shows how to use the Concurrency Visualizer SDK to create spans and w
   
     ```  
   
-    ```CSharp  
+    ```csharp  
     using Microsoft.ConcurrencyVisualizer.Instrumentation;  
     ```  
   
@@ -114,7 +116,7 @@ This topic shows how to use the Concurrency Visualizer SDK to create spans and w
   
     ```  
   
-    ```CSharp  
+    ```csharp  
   
     Span flagSpan = Markers.EnterSpan("flag span");  
     Markers.WriteFlag("Here is the flag.");  
@@ -155,7 +157,7 @@ This topic shows how to use the Concurrency Visualizer SDK to create spans and w
     messageSeriesSpan.Leave()  
     ```  
   
-    ```CSharp  
+    ```csharp  
   
     MarkerSeries flagSeries = Markers.DefaultWriter.CreateMarkerSeries("flag series");  
     Span flagSeriesSpan = flagSeries.EnterSpan("flag span");  

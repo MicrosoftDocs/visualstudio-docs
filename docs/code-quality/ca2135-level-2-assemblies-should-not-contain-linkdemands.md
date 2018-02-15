@@ -15,6 +15,8 @@ caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA2135: Level 2 assemblies should not contain LinkDemands
 |||  

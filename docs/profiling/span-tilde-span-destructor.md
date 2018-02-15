@@ -17,6 +17,8 @@ caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # span::~span Destructor
 Destroys the `span` object and releases its resources.  

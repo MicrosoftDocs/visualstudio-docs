@@ -15,6 +15,8 @@ caps.latest.revision: 24
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Command Implementation
 To implement a command in a VSPackage, you must perform the following tasks:  

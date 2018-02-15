@@ -4,15 +4,15 @@ ms.custom: ""
 ms.date: "03/01/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: msbuild
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9976b6fd-d052-4017-b848-35b5bf4b2f66
-caps.latest.revision: 23
-author: "kempb"
-ms.author: "kempb"
+author: Mikejo5000
+ms.author: mikejo
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # What's New in MSBuild 15
 MSBuild is now available as part of the [.NET Core SDK](https://www.microsoft.com/net/download/core) and can build .NET Core projects on Windows, macOS, and Linux.  
@@ -34,7 +34,7 @@ MSBuild is now available as part of the [.NET Core SDK](https://www.microsoft.co
 -   The `SDK35ToolsPath` and `SDK40ToolsPath` properties point to the .NET Framework SDK that's packaged with this version of Visual Studio (for example, 10.0A for the 4.X tools).  
 
 ## Updates
-- [Project Element](../msbuild/project-element-msbuild.md) has a new `SDK` attribute. Also the `Xmlns` attribute is now optional.
+- [Project Element](../msbuild/project-element-msbuild.md) has a new `SDK` attribute. Also the `Xmlns` attribute is now optional. For more information, see [Packages, Metadata, and Frameworks](/dotnet/core/packages) and [Additions to the csproj format for .NET Core](/dotnet/core/tools/csproj).
 - [Item Element](../msbuild/item-element-msbuild.md) outside targets has a new `Update` attribute. Also, the restriction on the `Remove` attribute has been eliminated.
 - `Directory.Build.props` is a user-defined file that provides customizations to projects under a directory. This file is automatically imported from Microsoft.Common.props unless the property `ImportDirectoryBuildTargets` is set to **false**. `Directory.Build.targets` is imported by Microsoft.Common.targets.
 - Any metadata with a name that doesn't conflict with the current list of attributes can optionally be expressed as an attribute. For more information, see [Item Element](../msbuild/item-element-msbuild.md).

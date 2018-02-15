@@ -18,6 +18,8 @@ caps.latest.revision: 29
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Customize Class Diagrams (Class Designer)
 You can change the way that class diagrams display information. You can customize the whole diagram or the individual types on the design surface.  

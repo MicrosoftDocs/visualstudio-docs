@@ -19,6 +19,8 @@ caps.latest.revision: 7
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # List Registers Command
 Displays the value of the selected registers and lets you modify the list of registers to show.  

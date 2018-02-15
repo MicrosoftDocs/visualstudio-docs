@@ -18,6 +18,8 @@ caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Manage Editor Windows
 You can work on code in several locations at once. Do this by splitting an Editor window, or by opening several instances of editor windows.  

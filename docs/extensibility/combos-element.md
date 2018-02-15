@@ -16,6 +16,8 @@ caps.latest.revision: 6
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Combos Element
 Groups [Combo Element](../extensibility/combo-element.md) elements.  

@@ -34,11 +34,11 @@ helpviewer_keywords:
   - "projects [Office development in Visual Studio], writing code"
   - "Office applications [Office development in Visual Studio], programming model"
   - "managed code extensions [Office development in Visual Studio], writing code"
-ms.assetid: 2d4d8fd0-e881-4829-976f-0d1a9221dec0
-caps.latest.revision: 37
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Writing Code in Office Solutions
   There are some aspects of writing code in Office projects that are different from other types of projects in Visual Studio. Many of these differences are related to the way the Office object models are exposed to managed code. Other differences are related to the design of Office projects.  

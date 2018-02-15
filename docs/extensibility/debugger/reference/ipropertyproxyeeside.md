@@ -17,6 +17,8 @@ caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IPropertyProxyEESide
 This interface provides methods to view data on the associated object. This interface is part of the support for type visualizers.  

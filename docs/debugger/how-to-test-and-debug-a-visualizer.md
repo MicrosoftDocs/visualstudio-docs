@@ -22,6 +22,8 @@ caps.latest.revision: 15
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Test and Debug a Visualizer
 Once you have written a visualizer, you need to debug and test it.  

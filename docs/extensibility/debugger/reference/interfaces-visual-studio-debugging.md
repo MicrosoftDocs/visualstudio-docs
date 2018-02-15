@@ -15,6 +15,8 @@ caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Interfaces (Visual Studio Debugging)
 Methods are listed alphabetically under each interface in the table of contents and on the interface page in Vtable order.  
