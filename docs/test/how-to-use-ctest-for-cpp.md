@@ -1,7 +1,7 @@
 ---
 title: "How to use CTest for C++ in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "02/15/2018"
+ms.date: "11/07/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: vs-devops-test

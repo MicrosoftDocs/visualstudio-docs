@@ -22,6 +22,22 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
  This topic also creates a single Visual Studio solution and separate projects for the unit tests and the DLL that you want to test. You can also include the unit tests directly in the DLL project, or you can create separate solutions for the unit tests and the .DLL. See [Adding unit tests to existing C++ applications](../test/unit-testing-existing-cpp-applications-with-test-explorer.md) for tips on which structure to use.
 
+##  <a name="In_this_topic"></a> In this topic
+
+ [Create the solution and the unit test project](#Create_the_solution_and_the_unit_test_project)
+
+ [Verify that the tests run in Test Explorer](#Verify_that_the_tests_run_in_Test_Explorer)
+
+ [Add the DLL project to the solution](#Add_the_DLL_project_to_the_solution)
+
+ [Make the DLL functions visible to the test code](#make_the_dll_functions_visible_to_the_test_code)
+
+ [Iteratively augment the tests and make them pass](#Iteratively_augment_the_tests_and_make_them_pass)
+
+ [Debug a failing test](#Debug_a_failing_test)
+
+ [Refactor the code without changing tests](#Refactor_the_code_without_changing_tests)
+
 ##  <a name="Create_the_solution_and_the_unit_test_project"></a> Create the solution and the unit test project  
 
 1.On the **File** menu, choose **New**, and then choose **New Project**.
