@@ -1,5 +1,5 @@
 ---
-title: "Security in Visual Studio | Microsoft Docs"
+title: "Maintaining application security | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
