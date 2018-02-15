@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.ENC.SupportedButNotAvaiable"
   - "vs.debug.ENC.CannotEditWhileException"
@@ -23,6 +23,8 @@ caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Edit and Continue Error Message Dialog Box
 This dialog box appears when you are debugging in a language that supports Edit and Continue, but **Edit and Continue** is not available for the type of code changes you have made. The error message inside the box provides a more detailed explanation. Possible reasons for seeing this dialog box include:  

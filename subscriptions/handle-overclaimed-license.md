@@ -1,5 +1,5 @@
 ---
-title: Handle over-claimed licenses | Visual Studio Marketplace
+title: Handle over-claimed licenses | Microsoft Docs
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp

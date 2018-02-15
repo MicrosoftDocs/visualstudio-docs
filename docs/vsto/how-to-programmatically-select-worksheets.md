@@ -14,11 +14,11 @@ dev_langs:
 helpviewer_keywords: 
   - "worksheets, selecting"
   - "Excel projects, selecting worksheets"
-ms.assetid: 9e7cdb11-e825-4c9f-abcd-d46fd20dc5e0
-caps.latest.revision: 44
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Select Worksheets
   The <xref:Microsoft.Office.Tools.Excel.Worksheet.Select%2A> method selects the specified object, which moves the user's selection to the new object. Use the <xref:Microsoft.Office.Tools.Excel.Worksheet.Activate%2A> method if you want to bring focus to the object without changing the user's selection.  

@@ -15,6 +15,8 @@ caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_isHLSLData
 Specifies whether this symbol represents High Level Shader Language (HLSL) data.  

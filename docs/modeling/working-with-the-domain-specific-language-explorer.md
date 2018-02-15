@@ -4,15 +4,15 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Domain-Specific Language Tools, DSL Explorer"
-ms.assetid: ca0e8550-bb55-4218-92e2-f79ab5308d4f
-caps.latest.revision: 11
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Working with the Domain-Specific Language Explorer
 The **DSL Explorer** displays several kinds of information in a tree view. For more information about most of the items in the DSL Explorer, see [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md).  
@@ -40,4 +40,4 @@ The **DSL Explorer** displays several kinds of information in a tree view. For m
 -   **Xml Serialization Behavior**. Serialization settings for the model. For more information about serialization, see [Customizing File Storage and XML Serialization](../modeling/customizing-file-storage-and-xml-serialization.md).  
   
 ## See Also  
- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/en-us/ca5e84cb-a315-465c-be24-76aa3df276aa)
+ [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

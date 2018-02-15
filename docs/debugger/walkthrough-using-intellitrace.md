@@ -13,6 +13,8 @@ caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # View events with IntelliTrace in Visual Studio
 You can use IntelliTrace to collect information about specific events or categories of events, or about individual function calls in addition to events. The following procedures show how to do this.  
@@ -28,13 +30,13 @@ You can use IntelliTrace to collect information about specific events or categor
   
 1.  Create a C# console application. In the Program.cs file, add the following `using` statement:  
   
-    ```CSharp  
+    ```csharp  
     using System.IO;  
     ```  
   
 2.  Create a <xref:System.IO.FileStream> in the Main method, read from it, close it, and delete the file. Add another line just to have a place to set a breakpoint:  
   
-    ```CSharp  
+    ```csharp  
     static void Main(string[] args)  
     {  
         FileStream fs = File.Create("WordSearchInputs.txt");  

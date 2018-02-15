@@ -16,6 +16,8 @@ caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Required Port Supplier Interfaces
 A port supplier must implement the [IDebugPortSupplier2](../../extensibility/debugger/reference/idebugportsupplier2.md) interface.[IDebugPortSupplier2](../../extensibility/debugger/reference/idebugportsupplier2.md)  

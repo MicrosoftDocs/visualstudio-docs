@@ -1,21 +1,21 @@
 ---
-title: ".NET Naming Conventions For EditorConfig | Microsoft Docs"
+title: ".NET Naming Conventions For EditorConfig files | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/20/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
- - "naming conventions [EditorConfig]"
- - "EditorConfig naming conventions"
+helpviewer_keywords: 
+  - "naming conventions [EditorConfig]"
+  - "EditorConfig naming conventions"
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
-ms.technology:
-  - "vs-ide-general"
+ms.technology: vs-ide-general
+ms.workload: 
+  - "multiple"
 ---
-# Naming Conventions for EditorConfig
+# .NET naming conventions for EditorConfig
 
 Naming conventions concern the naming of code elements such as classes, properties, and methods. For example, you can specify that public members must be capitalized, or that asynchronous methods must end in "Async". You can enforce these rules by specifying them in an [.editorconfig file](../ide/create-portable-custom-editor-options.md). Naming rule violations appear either in the Error List or as a suggestion under the name, depending on the severity you choose for your rule. There is no need to build the project in order to see violations.
 
@@ -69,7 +69,7 @@ The following list shows the allowable values, and you can specify multiple valu
 - protected\_internal or protected_friend
 
 > [!NOTE]
-> You must specify an accessibility level as part of your naming convention, otherwise your naming convention might be ignored.
+> Do not specify an accessibility level as part of your naming convention if accessibility is not applicable to the kind of symbol you are targeting. For example, parameters do not have accessibility levels. If you specify an accessibility level for a parameter naming convention, your naming rule will not function correctly.
 
 ### Symbol modifiers
 
@@ -152,7 +152,7 @@ error | When this style is not being followed, show a compiler error in the Erro
 
 The following .editorconfig file contains a naming convention that specifies that public properties, methods, fields, events, and delegates must be capitalized. Notice that this naming convention specifies multiple kinds of symbol to apply the rule to, using a comma to separate the values.
 
-```
+```EditorConfig
 # Public members must be capitalized (public_members_must_be_capitalized)
 [*.{cs,vb}]
 dotnet_naming_rule.public_members_must_be_capitalized.symbols   = public_symbols
@@ -172,7 +172,7 @@ The following screenshot shows the effect of this naming convention in the Edito
 
 Now let's change the violation severity to `warning`:
 
-```
+```EditorConfig
 dotnet_naming_rule.public_members_must_be_capitalized.severity = warning
 ```
 

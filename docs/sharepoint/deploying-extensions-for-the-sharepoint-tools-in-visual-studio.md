@@ -13,11 +13,11 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, deploying extensions"
-ms.assetid: 69927d95-acdf-4fd8-ac43-28e9a7fa8a38
-caps.latest.revision: 40
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Deploying Extensions for the SharePoint Tools in Visual Studio
   To deploy a SharePoint tools extension, create a [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] extension (VSIX) package that contains the extension assembly and any other files that you want to distribute with the extension. A VSIX package is a compressed file that follows the Open Packaging Conventions (OPC) standard. VSIX packages have the .vsix extension.  

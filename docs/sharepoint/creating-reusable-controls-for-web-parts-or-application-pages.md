@@ -16,11 +16,11 @@ dev_langs:
 helpviewer_keywords: 
   - "user controls [SharePoint development in Visual Studio], creating"
   - "SharePoint development in Visual Studio, user controls"
-ms.assetid: 8fcafd98-c002-47f1-b4a9-cbb500232616
-caps.latest.revision: 19
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Creating Reusable Controls for Web Parts or Application Pages
   In Visual Studio, you can create custom, reusable controls that can be consumed by application pages and Web Parts that run in SharePoint. These controls are called user controls. A user control is a kind of composite control that works much like an ASP.NET Web page—you can add existing Web server controls and markup to a user control, and define properties and methods for the control. You can then embed them in ASP.NET Web pages, where they act as a unit.  

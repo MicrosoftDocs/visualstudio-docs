@@ -19,6 +19,8 @@ caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "cplusplus"
 ---
 # CA2115: Call GC.KeepAlive when using native resources
 |||  

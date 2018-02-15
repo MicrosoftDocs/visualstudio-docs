@@ -16,6 +16,8 @@ caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Common Data Views
 This section contains reference information about the views and reports of profiler data files that are common to all profiling methods.  

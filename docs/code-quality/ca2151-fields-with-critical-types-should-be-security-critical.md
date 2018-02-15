@@ -13,6 +13,8 @@ caps.latest.revision: 4
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA2151: Fields with critical types should be security critical
 |||  

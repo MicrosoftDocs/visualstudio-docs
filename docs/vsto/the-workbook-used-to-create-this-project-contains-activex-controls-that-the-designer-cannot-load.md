@@ -13,11 +13,11 @@ f1_keywords:
 dev_langs: 
   - "VB"
   - "CSharp"
-ms.assetid: 91e9c6ee-7543-41e3-be0c-6c000cfd32d1
-caps.latest.revision: 15
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # The workbook used to create this project contains ActiveX controls that the designer cannot load
   This error appears when you add a control to a Word document or an Excel worksheet programmatically, save the document or workbook, and then create a new document-level solution based on the document or workbook.  

@@ -14,11 +14,11 @@ dev_langs:
 helpviewer_keywords: 
   - "documents [Office development in Visual Studio], checking spelling"
   - "spelling checker, documents"
-ms.assetid: 5bbe3a8d-fc65-4f57-bd63-5bb549dbc4bd
-caps.latest.revision: 24
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Check Spelling in Documents
   To check the spelling in a document, use the <xref:Microsoft.Office.Interop.Word._Application.CheckSpelling%2A> method. This method returns a Boolean value that indicates whether the supplied parameter is spelled correctly.  

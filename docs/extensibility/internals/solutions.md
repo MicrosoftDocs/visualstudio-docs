@@ -16,6 +16,8 @@ caps.latest.revision: 19
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Solutions
 A solution is a grouping of one or more projects that work together to create an application. The project and status information that pertain to the solution are stored in two solution files, a text-based solution (.sln) file and a binary solution user option (.suo) file.  

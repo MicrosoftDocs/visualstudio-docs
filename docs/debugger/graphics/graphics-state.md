@@ -15,6 +15,8 @@ caps.latest.revision: 2
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Graphics State
 The State window in Visual Studio graphics Diagnostics helps you understand the graphics state that is active at the time of the current event, such as a draw call.  

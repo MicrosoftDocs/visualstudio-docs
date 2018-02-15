@@ -4,14 +4,14 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5161b533-2127-4172-b473-d4ffc76ff05b
-caps.latest.revision: 15
-ms.author: "douge"
-manager: "douge"
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+author: gewarren
 ---
 # Quick Start: Test Driven Development with Test Explorer
 We recommend that you create unit tests to help keep your code working correctly through many incremental steps of development. There are several frameworks that you can use to write unit tests, including some developed by third parties. Some test frameworks are   specialized to testing in different languages or platforms. Test Explorer provides a single interface for unit tests in any of these frameworks. Adapters are available for the most commonly-used frameworks, and you can write your own adapters for other frameworks.  
@@ -143,15 +143,15 @@ We recommend that you create unit tests to help keep your code working correctly
   
      ![Unit Test Explorer showing a passing test.](../test/media/unittestexplorerwalkthrough3.png "UnitTestExplorerWalkthrough3")  
   
-#### Add tests to extend the range of inputs  
-  
-1.  To improve your confidence that your code works in all cases, add tests that try a broader range of input values.  
-  
+#### Add tests to extend the range of inputs
+
+1.  To improve your confidence that your code works in all cases, add tests that try a broader range of input values.
+
     > [!TIP]
-    >  Avoid altering existing tests that pass. Instead, add new tests. Change existing tests only when the user requirements change. This policy helps ensure that you don't lose existing functionality as you work to extend the code.  
-  
-     In your test class, add the following test, which tries a range of input values:  
-  
+    >  Avoid altering existing tests that pass. Instead, add new tests. Change existing tests only when the user requirements change. This policy helps to make sure that you don't lose existing functionality as you work to extend the code.
+
+     In your test class, add the following test, which tries a range of input values:
+
     ```csharp  
     [TestMethod]  
     public void RooterValueRange()  

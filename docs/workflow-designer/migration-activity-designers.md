@@ -11,6 +11,8 @@ caps.latest.revision: 5
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+ms.workload: 
+  - "multiple"
 ---
 # Migration Activity Designers
 The Migration activity designers are used to call workflow 3.0/3.5 activities from a workflow targeting the [!INCLUDE[netfx40_long](../workflow-designer/includes/netfx40_long_md.md)]. The topics contained in this section provide guidance on how to use the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] activity designers.  

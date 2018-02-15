@@ -13,6 +13,8 @@ caps.latest.revision: 6
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: search for topics
 You can use the full-text search feature to locate all topics that contain a particular word. You can also refine and customize your search by using wildcard expressions, logical operators, and advanced search operators.  

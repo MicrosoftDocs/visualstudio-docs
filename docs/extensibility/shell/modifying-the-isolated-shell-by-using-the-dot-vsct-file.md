@@ -15,6 +15,8 @@ caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Modifying the Isolated Shell By Using the .Vsct File
 The UI project for a Visual Studio isolated shell project contains a .vsct file that lets you specify which application groups and individual commands are available in the application. The following is an excerpt from an unmodified .vsct file.  

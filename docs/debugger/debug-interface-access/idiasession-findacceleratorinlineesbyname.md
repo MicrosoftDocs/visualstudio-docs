@@ -15,6 +15,8 @@ caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSession::findAcceleratorInlineesByName
 Returns an enumeration of symbols for inline frames corresponding to the specified inline function name.  

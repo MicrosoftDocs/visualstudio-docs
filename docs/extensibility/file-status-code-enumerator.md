@@ -18,6 +18,8 @@ caps.latest.revision: 15
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # File Status Code Enumerator
 The `SccStatus` enumerator contains named constant values that specify the state of a file in the source control system. This enumeration is used by the [SccQueryInfo](../extensibility/sccqueryinfo-function.md) and the `POPLISTFUNC` callback function (see [POPLISTFUNC](../extensibility/poplistfunc.md) for details).  

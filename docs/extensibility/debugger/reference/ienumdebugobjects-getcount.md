@@ -17,6 +17,8 @@ caps.latest.revision: 5
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IEnumDebugObjects::GetCount
 This method returns the number of elements in the enumeration.  

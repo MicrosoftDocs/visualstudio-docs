@@ -19,6 +19,8 @@ caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA1406: Avoid Int64 arguments for Visual Basic 6 clients
 |||  

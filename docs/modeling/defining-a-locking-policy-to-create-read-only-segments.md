@@ -4,13 +4,13 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: fa549c71-2bf6-4b08-b7b2-7756dd6f1dc8
-caps.latest.revision: 12
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Defining a Locking Policy to Create Read-Only Segments
 The Immutability API of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Visualization and Modeling SDK allows a program to lock part or all of a domain-specific language (DSL) model so that it can be read but not changed. This read-only option could be used, for example, so that a user can ask colleagues to annotate and review a DSL model but can disallow them from changing the original.  
@@ -20,7 +20,7 @@ The Immutability API of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md
 > [!NOTE]
 >  A locking policy can be circumvented by using reflection. It provides a clear boundary for third-party developers, but does not provide strong security.  
   
- More information and samples are available at the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] [Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkId=186128) Web site.  
+ More information and samples are available at the Visual Studio [Visualization and Modeling SDK](https://code.msdn.microsoft.com/Visualization-and-Modeling-313535db) Web site.
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
   

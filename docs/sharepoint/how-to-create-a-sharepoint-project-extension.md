@@ -15,11 +15,11 @@ helpviewer_keywords:
   - "projects [SharePoint development in Visual Studio], extending"
   - "SharePoint development in Visual Studio, extending projects"
   - "SharePoint projects, extending"
-ms.assetid: ceecb9cb-4a5d-44c9-992f-9624737ac996
-caps.latest.revision: 29
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Create a SharePoint Project Extension
   Create a project extension when you want to add functionality to any SharePoint project that is open in Visual Studio. For more information, see [Extending the SharePoint Project System](../sharepoint/extending-the-sharepoint-project-system.md).  

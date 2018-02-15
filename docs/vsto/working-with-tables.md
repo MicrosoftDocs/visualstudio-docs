@@ -16,11 +16,11 @@ helpviewer_keywords:
   - "Office documents [Office development in Visual Studio, tables"
   - "Word [Office development in Visual Studio], tables"
   - "documents [Office development in Visual Studio], tables"
-ms.assetid: d0c0a84c-48d5-4c02-b026-d6924f155e04
-caps.latest.revision: 14
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Working with Tables
   The topics in this section provide step-by-step procedures and code examples for using the object model of Microsoft Office Word to work with tables in Office projects. In some cases, the ways that you perform these tasks in VSTO Add-ins is different from the ways that you perform them in document-level customizations.  

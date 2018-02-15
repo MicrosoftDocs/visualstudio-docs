@@ -4,7 +4,6 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.dsltools.designerwizard"
@@ -12,11 +11,12 @@ helpviewer_keywords:
   - "Domain-Specific Language Tools, walkthroughs"
   - "walkthroughs [Domain-Specific Language Tools], creating domain-specific language"
   - "Domain-Specific Language Tools, creating solutions"
-ms.assetid: e585b63b-34d2-405a-8d81-39ea22317975
-caps.latest.revision: 41
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # How to: Create a Domain-Specific Language Solution
 A domain-specific language (DSL) is created by using a specialized [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution.  
@@ -128,7 +128,8 @@ A domain-specific language (DSL) is created by using a specialized [!INCLUDE[vsp
  Use this option if you want to integrate your DSL with another assembly.  
   
  For more information about strong naming, see [Creating and Using Strong-Named Assemblies](http://go.microsoft.com/fwlink/?LinkId=186073).  
-  
-## See Also  
- [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)   
- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/en-us/ca5e84cb-a315-465c-be24-76aa3df276aa)
+
+## See also
+
+[How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)  
+[Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

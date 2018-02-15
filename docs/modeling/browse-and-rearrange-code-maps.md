@@ -4,7 +4,6 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.progression.dgmlgraph.layouthelp"
@@ -21,11 +20,12 @@ helpviewer_keywords:
   - "Visual Studio ALM, graph documents"
   - "Visual Studio Ultimate, graph documents"
   - "dependency graphs, browsing"
-ms.assetid: 08f65f77-6ca7-4b25-b060-3f6c9f5847a4
-caps.latest.revision: 91
-author: "alexhomer1"
-ms.author: "ahomer"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Browse and rearrange code maps
 Rearrange items on code maps to make them easier to read and improve their performance.  
@@ -103,7 +103,7 @@ Rearrange items on code maps to make them easier to read and improve their perfo
 |------------|-----------------------------|  
 |See more information about a node or a link.|Move the mouse pointer on top of the node or link until a tooltip appears.<br /><br /> The tooltip for an aggregated link lists the individual dependencies that it represents.<br /><br /> - or -<br /><br /> Open the shortcut menu for the node or the link. Choose **Edit**, **Properties**.|  
 |Show or hide the contents of a group.|-   To expand a group, open the shortcut menu for the node and choose **Group**, **Expand**.<br />     - or -<br />     Move the mouse pointer on top of the node until the chevron (down arrow) button appears. Click this button to expand the group. Keyboard: to expand or collapse the selected group, press the **PLUS** key (**+**) or the **MINUS** key (**-**).<br />-   To collapse a group, open the shortcut menu for the node and choose **Group**, **Collapse**.<br />     - or -<br />     Move the mouse pointer on top of a group until the chevron (up arrow) button appears. Click this button to collapse the group.<br />-   To expand all groups, press **CTRL** + **A** to select all the nodes. Open the shortcut menu for the map and choose **Group**, **Expand**. **Note:**      This command is not available if expanding all groups generates an unusable map or memory issues. It is recommended that you expand the map only to the level of detail that you care about.<br />-   To collapse all groups, open the shortcut menu for a node or for the map. Choose **Group**, **Collapse All**.|  
-|See the code definition for a namespace, type, or member.|Open the shortcut menu for the node and choose **Go To Definition**.<br /><br /> -or-<br /><br /> Double-click the node. For expanded groups, double-click the header on the group.<br /><br /> -or-<br /><br /> Select the node and press **F12**.<br /><br /> For example:<br /><br /> -   For a namespace containing one class, the code file for the class opens to show the definition of that class. In other cases, the **Find Symbol Results** window shows a list of code files. **Note:**      When you perform this task on a Visual Basic .NET namespace, the code file behind the namespace does not open. This issue also occurs when you perform this task on a group of selected nodes that include a Visual Basic .NET namespace. To work around this issue, browse manually to the code file behind the namespace, or omit the node for the namespace from your selection.<br />-   For a class or a partial class, the code file for that class opens to show the class definition.<br />-   For a method, the code file for the parent class opens to show the method definition.|  
+|See the code definition for a namespace, type, or member.|Open the shortcut menu for the node and choose **Go To Definition**.<br /><br /> -or-<br /><br /> Double-click the node. For expanded groups, double-click the header on the group.<br /><br /> -or-<br /><br /> Select the node and press **F12**.<br /><br /> For example:<br /><br /> -   For a namespace containing one class, the code file for the class opens to show the definition of that class. In other cases, the **Find Symbol Results** window shows a list of code files. **Note:**      When you perform this task on a Visual Basic namespace, the code file behind the namespace does not open. This issue also occurs when you perform this task on a group of selected nodes that include a Visual Basic namespace. To work around this issue, browse manually to the code file behind the namespace, or omit the node for the namespace from your selection.<br />-   For a class or a partial class, the code file for that class opens to show the class definition.<br />-   For a method, the code file for the parent class opens to show the method definition.|  
 |Examine dependencies and items that participate in an aggregate link.|Select the links you're interested in and open the shortcut menu for your selection. Choose **Show Contributing Links**  or **Show Contributing Links on New Code Map**.<br /><br /> Visual Studio expands the groups at both ends of the link and shows only those items and dependencies that participate in the link. **Note:**  When you examine dependencies between items in partial groups, you might see this behavior: <ul><li>Links to items that don't participate in your examination disappear from the map, even though those links still exist.</li><li>Suppose you examine a link to an item in a partial group, and then later examine a different link to the same item. During your second examination, the target partial group shows only items from your first examination. Links and target items that didn't participate in your first examination but participate in your second examination don't appear.</li></ul> To see missing items from a group, choose **Refetch Children**![Refetch Children Icon](../modeling/media/dependencygraph_deletednodesicon.png "DependencyGraph_DeletedNodesIcon") (which indicates that not all members of a group appear on the map). You can also try undoing your actions (Keyboard: press **CTRL+Z**) and examine the dependencies on a new map.|  
 |Examine dependencies across multiple nodes in different groups.|Expand the groups so you can see all their children. Select all the nodes that interest you, including their children. The map shows the cross-group links between the selected nodes.<br /><br /> To select all nodes in a group, press and hold **SHIFT** and the left mouse button while you draw a rectangle around that group. To select all nodes on a map, press **CTRL**+**A**. **Tip:**  To show cross-group links at all times, choose **Layout** on the map toolbar, **Advanced**, **Show All Cross-Group Links**.|  
 |See the items that a node or link references.|Open the shortcut menu for the node and choose **Find All References**. **Note:**  This applies only when the `Reference` attribute is set for the node or link in the map's .dgml file. To add references to items from nodes or links, see [Customize code maps by editing the DGML files](../modeling/customize-code-maps-by-editing-the-dgml-files.md).|  

@@ -4,15 +4,17 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
-dev.langs:
- - "VB"
- - "CSharp"
 ms.topic: "article"
-ms.author: "douge"
-manager: "douge"
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+author: gewarren
+dev_langs: 
+  - "VB"
+  - "CSharp"
 ---
 # Isolating Code Under Test with Microsoft Fakes
 

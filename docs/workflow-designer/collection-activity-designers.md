@@ -11,6 +11,8 @@ caps.latest.revision: 4
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+ms.workload: 
+  - "multiple"
 ---
 # Collection Activity Designers
 The Collection activity designers are used to create and configure activities used to manage collections The topics contained in this section and listed in the following table provide guidance on how to use the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)]activity and template designers.  

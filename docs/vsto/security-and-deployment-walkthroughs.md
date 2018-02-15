@@ -16,11 +16,11 @@ helpviewer_keywords:
   - "walkthroughs [Office development in Visual Studio], security"
   - "deployment manifests [Office development in Visual Studio], walkthroughs"
   - "walkthroughs [Office development in Visual Studio], deployment"
-ms.assetid: 0a74f24e-abb0-49ba-ad12-0e6a5b78b85d
-caps.latest.revision: 29
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Security and Deployment Walkthroughs
   The following topics demonstrate how you can set security policy to allow your solution to run, and how you can deploy your Office solution.  

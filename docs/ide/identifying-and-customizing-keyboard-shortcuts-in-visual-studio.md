@@ -20,6 +20,8 @@ helpviewer_keywords:
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Identifying and customizing keyboard shortcuts in Visual Studio
 

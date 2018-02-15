@@ -15,6 +15,8 @@ caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # m_contingentProperties Field
 Stores additional properties of the <xref:System.Threading.Tasks.Task> object.  

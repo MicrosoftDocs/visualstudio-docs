@@ -15,6 +15,8 @@ caps.latest.revision: 6
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugTypeFieldBuilder
 Represents the ability to create a field that represents a type.  

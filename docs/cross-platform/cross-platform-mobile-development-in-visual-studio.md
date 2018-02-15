@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "12/06/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "tgt-pltfrm-cross-plat"
+ms.technology: vs-ide-mobile
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8202717a-e990-45cf-b092-438651ccb38a
@@ -13,6 +12,8 @@ caps.latest.revision: 64
 author: "ghogen"
 ms.author: "ghogen"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Cross-Platform Mobile Development in Visual Studio
 You can build apps for Android, iOS, and Windows devices by using Visual Studio.  As you design your app, use tools in Visual Studio to easily add connected services such as Office 365, Azure App Service, and Application Insights.
@@ -113,7 +114,7 @@ You can build apps for Android, iOS, and Windows devices by using Visual Studio.
 |**Learn more**|
 |--------------------|
 |[Install Visual Studio](http://www.visualstudio.com/products/visual-studio-community-vs) (VisualStudio.com)|
-|[Get started with Visual Studio Tools for Apache Cordova](https://docs.microsoft.com/visualstudio/cross-platform/tools-for-cordova/) (docs.microsoft.com)|
+|[Get started with Visual Studio Tools for Apache Cordova](/visualstudio/cross-platform/tools-for-cordova/) (docs.microsoft.com)|
 |[Learn about the Visual Studio Emulator for Android](http://www.visualstudio.com/explore/msft-android-emulator-vs) (VisualStudio.com)|
 
 ##  <a name="CPP"></a> Build an app for Android and Windows (C++)

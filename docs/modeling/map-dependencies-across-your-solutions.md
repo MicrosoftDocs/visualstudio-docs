@@ -4,7 +4,6 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 f1_keywords: 
   - "vs.progression.codemap"
@@ -26,27 +25,30 @@ helpviewer_keywords:
   - "dependency graphs"
   - "graph documents, exporting"
   - "code exploration, visualizing"
-ms.assetid: e04850a2-17c5-459b-93ec-6c74143b3292
-caps.latest.revision: 243
-author: "alexhomer1"
-ms.author: "ahomer"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Map dependencies across your solutions
-When you want to understand dependencies across your code, visualize them by creating code maps. This helps you see how the code fits together without reading through files and lines of code.  
-  
- ![View dependencies across your solutions](../modeling/media/codemapsmainintro.png "CodeMapsMainIntro")  
-  
- **Here are some videos**:  
-  
--   [Understand your code dependencies through visualization](http://go.microsoft.com/fwlink/?LinkID=252065)  
-  
--   [Visualize the impact of a change](http://go.microsoft.com/fwlink/?LinkID=252068)  
-  
--   [Understanding complex code with code maps](http://go.microsoft.com/fwlink/?LinkID=259869)  
-  
-##  <a name="GetStarted"></a> Get started with code maps  
- **To use code maps you'll need either**:  
+
+When you want to understand dependencies across your code, visualize them by creating code maps. This helps you see how the code fits together without reading through files and lines of code.
+
+![View dependencies across your solutions](../modeling/media/codemapsmainintro.png "CodeMapsMainIntro")
+
+**Here are some videos**:
+
+- [Understand your code dependencies through visualization](https://channel9.msdn.com/Series/Visual-Studio-2012-Premium-and-Ultimate-Overview/Visual-Studio-Ultimate-2012-Understand-your-code-dependencies-through-visualization)
+
+- [Visualize the impact of a change](https://channel9.msdn.com/Series/Visual-Studio-2012-Premium-and-Ultimate-Overview/Visual-Studio-Ultimate-2012-Visualize-the-impact-of-a-change)
+
+- [Understanding complex code with code maps](https://channel9.msdn.com/Series/Visual-Studio-2012-Premium-and-Ultimate-Overview/Visual-Studio-Ultimate-2012-Understanding-complex-code-with-Code-Map-ENU)
+
+## <a name="GetStarted"></a> Get started with code maps
+
+**To use code maps you'll need either**:
   
 -   Visual Studio Enterprise: Create code maps from the code editor, Solution Explorer, Class View, or Object Browser.  
   
@@ -57,13 +59,13 @@ When you want to understand dependencies across your code, visualize them by cre
   
  **You can map dependencies for code in these languages**:  
   
--   Visual C# .NET or Visual Basic .NET in a solution or assemblies (.dll or .exe)  
+-   Visual C# or Visual Basic in a solution or assemblies (.dll or .exe)  
   
 -   Native or managed C or C++ code in Visual C++ projects, header files (.h or `#include`), or binaries  
   
 -   X++ projects and assemblies made from .NET modules for Microsoft Dynamics AX  
   
- **Note:** For projects other than C# or Visual Basic .NET, there are fewer options for starting a code map or adding items to an existing code map. For example, you cannot right-click an object in the text editor of a C++ project and add it to a code map. However, you can drag and drop individual code elements or files from Solution Explorer, Class View, and Object Browser.  
+ **Note:** For projects other than C# or Visual Basic, there are fewer options for starting a code map or adding items to an existing code map. For example, you cannot right-click an object in the text editor of a C++ project and add it to a code map. However, you can drag and drop individual code elements or files from Solution Explorer, Class View, and Object Browser.  
   
 #### To see the overall dependencies across your solution  
   
@@ -165,7 +167,7 @@ When you want to understand dependencies across your code, visualize them by cre
   
 10. Another way to focus in on a complex solution map is to generate a new map containing selected items from an existing map. Hold **CTRL** while selecting the items you want to focus on, open the shortcut menu, and choose **New Graph from Selection**.  
   
-     ![Show selected items on a new code map](../ide/media/codemapsshowonnewmap.png "CodeMapsShowOnNewMap")  
+     ![Show selected items on a new code map](../modeling/media/codemapsshowonnewmap.png "CodeMapsShowOnNewMap")  
   
 11. The containing context is carried over to the new map. Hide Solution Folders and any other containers you don't want to see using the **Filters** pane.  
   

@@ -13,6 +13,8 @@ caps.latest.revision: 1
 author: "willbrown"
 ms.author: "willbrown"
 manager: "justinclareburt"
+ms.workload: 
+  - "willbrown"
 ---
 # How to: Make Extensions Compatible with Visual Studio 2017 and Visual Studio 2015
 
@@ -164,7 +166,7 @@ It is highly recommended to have a reference to a modified .csproj open while do
 For example:
 
 ```xml
-<Import Project="packages\Microsoft.VSSDK.BuildTools.15.0.26201… Condition="'$(VisualStudioVersion)' != '14.0' And Exists(…/>
+<Import Project="packages\Microsoft.VSSDK.BuildTools.15.0.26201…" Condition="'$(VisualStudioVersion)' != '14.0' And Exists(…" />
 ```
 
 * Add additional conditional statements to the `<import>` tags that have a Microsoft.VisualStudio.Sdk.BuildTasks.14.0.  Do this by inserting `'$(VisualStudioVersion)' == '14.0' And` at the front of the condition statement. These statements will appear in the header and footer of the csproj file.
@@ -172,7 +174,7 @@ For example:
 For example:
 
 ```xml
-<Import Project="packages\ Microsoft.VisualStudio.Sdk.BuildTasks.14.0.14.0… Condition="'$(VisualStudioVersion)' == '14.0' And Exists(…/>
+<Import Project="packages\Microsoft.VisualStudio.Sdk.BuildTasks.14.0.14.0…" Condition="'$(VisualStudioVersion)' == '14.0' And Exists(…" />
 ```
 
 * Add additional conditional statements to the `<Error>` tags that have a Microsoft.VSSDK.BuildTools reference.  Do this by inserting `'$(VisualStudioVersion)' != '14.0' And` at the front of the condition statement. These statements will appear in the footer of the csproj file.
@@ -180,7 +182,7 @@ For example:
 For example:
 
 ```xml
-<Error Condition="'$(VisualStudioVersion)' != '14.0' And Exists('packages\Microsoft.VSSDK.BuildTools.15.0.26201…/>
+<Error Condition="'$(VisualStudioVersion)' != '14.0' And Exists('packages\Microsoft.VSSDK.BuildTools.15.0.26201…" />
 ```
 
 * Add additional conditional statements to the `<Error>` tags that have a Microsoft.VisualStudio.Sdk.BuildTasks.14.0.  Do this by inserting `'$(VisualStudioVersion)' == '14.0' And` at the front of the condition statement. These statements will appear in the footer of the csproj file.
@@ -188,7 +190,7 @@ For example:
 For example:
 
 ```xml
-<Error Condition="'$(VisualStudioVersion)' == '14.0' And Exists('packages\ Microsoft.VisualStudio.Sdk.BuildTasks.14.0.14.0…/>
+<Error Condition="'$(VisualStudioVersion)' == '14.0' And Exists('packages\Microsoft.VisualStudio.Sdk.BuildTasks.14.0.14.0…" />
 ```
 
 * Save the csproj file and close it.

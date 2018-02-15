@@ -15,11 +15,11 @@ helpviewer_keywords:
   - "meeting requests [Office development in Visual Studio]"
   - "appointments [Office development in Visual Studio]"
   - "calendars [Office development in Visual Studio], meeting requests"
-ms.assetid: 889f8fa4-c0d0-42be-9c16-9987b43008ab
-caps.latest.revision: 20
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Create a Meeting Request
   This example creates a meeting request in Microsoft Office Outlook and sends the request to a required attendee.  

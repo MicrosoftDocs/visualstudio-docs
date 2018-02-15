@@ -15,6 +15,8 @@ caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugBreakpointChecksumRequest2::IsChecksumEnabled
 Determines whether the checksum is enabled for this document.  

@@ -16,6 +16,8 @@ caps.latest.revision: 22
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Getting Started with Source Control VSPackages
 A source-control VSPackage is a more advanced alternative to the source control plug-in. (See [Creating a Source Control Plug-in](../../extensibility/internals/creating-a-source-control-plug-in.md) for more information on source control plug-ins.) A source-control VSPackage enables complete control over the source control model, features, and user interface (UI), and it integrates into the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] environment as a VSPackage.  

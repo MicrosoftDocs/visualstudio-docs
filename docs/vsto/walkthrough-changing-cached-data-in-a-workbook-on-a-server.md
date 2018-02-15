@@ -17,11 +17,11 @@ helpviewer_keywords:
   - "server-side data access [Office development in Visual Studio]"
   - "data [Office development in Visual Studio], accessing on server"
   - "documents [Office development in Visual Studio], server-side data access"
-ms.assetid: 69e13de3-9286-40cc-8c4b-1727caf761bf
-caps.latest.revision: 38
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Walkthrough: Changing Cached Data in a Workbook on a Server
   This walkthrough demonstrates how to modify a dataset that is cached in a Microsoft Office Excel workbook without starting Excel by using the <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument> class.  

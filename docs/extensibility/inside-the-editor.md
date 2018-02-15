@@ -15,6 +15,8 @@ caps.latest.revision: 31
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Inside the Editor
 The editor is composed of a number of different subsystems, which are designed to keep the editor text model separate from the text view and the user interface.  

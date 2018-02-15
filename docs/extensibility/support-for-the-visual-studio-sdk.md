@@ -19,6 +19,8 @@ caps.latest.revision: 22
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Support for the Visual Studio SDK
 Several support options are available for customers who have questions about how to extend the Visual Studio integrated development environment (IDE).  

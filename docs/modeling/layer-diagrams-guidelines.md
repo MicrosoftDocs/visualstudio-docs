@@ -4,18 +4,18 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "architecture, dependency diagrams"
   - "dependency diagrams"
   - "diagrams - modeling, layer"
   - "constraints, architectural"
-ms.assetid: 2903bec7-a93b-46a6-aac6-994ac4f3f1a7
-caps.latest.revision: 55
-author: "alexhomer1"
-ms.author: "ahomer"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Dependency Diagrams: Guidelines
 Describe your app's architecture at a high level by creating *dependency diagrams* in Visual Studio. Make sure that your code stays consistent with this design by validating your code with a dependency diagram. You can also include layer validation in your build process. See [Channel 9 Video: Design and validate your architecture using dependency diagrams](http://go.microsoft.com/fwlink/?LinkID=252073).  
@@ -58,7 +58,7 @@ Describe your app's architecture at a high level by creating *dependency diagram
  See [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md).  
   
 ##  <a name="CreateLayers"></a> Define layers to represent functional areas or components  
- Layers represent logical groups of *artifacts*, such as projects, code files, namespaces, classes, and methods. You can create layers from artifacts from Visual C# .NET and Visual Basic .NET projects, or you can attach specifications or plans to a layer by linking documents, such as Word files or PowerPoint presentations. Each layer appears as a rectangle on the diagram and shows the number of artifacts that are linked to it. A layer can contain nested layers that describe more specific tasks.  
+ Layers represent logical groups of *artifacts*, such as projects, code files, namespaces, classes, and methods. You can create layers from artifacts from Visual C# and Visual Basic projects, or you can attach specifications or plans to a layer by linking documents, such as Word files or PowerPoint presentations. Each layer appears as a rectangle on the diagram and shows the number of artifacts that are linked to it. A layer can contain nested layers that describe more specific tasks.  
   
  As a general guideline, name layers according to their function, for example, "Presentation" or "Services". If the artifacts are closely interdependent, place them in the same layer. If the artifacts can be updated separately or used in separate applications, place them in different layers. To learn about layering patterns, visit the Patterns & Practices site at [http://go.microsoft.com/fwlink/?LinkId=145794](http://go.microsoft.com/fwlink/?LinkId=145794).  
   

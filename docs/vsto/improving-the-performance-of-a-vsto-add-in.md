@@ -11,11 +11,11 @@ ms.topic: "article"
 dev_langs: 
   - "VB"
   - "CSharp"
-ms.assetid: 03ef25c2-6308-4737-a655-74bbbb472dc2
-caps.latest.revision: 14
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Improving the Performance of a VSTO Add-in
   You can give your users a better experience by optimizing VSTO Add-ins that you create for Office applications so that they quickly start up, shut down, open items, and perform other tasks. If your VSTO Add-in is for Outlook, you can also reduce the chance that your VSTO Add-in will be disabled because of poor performance. You can increase the performance of your VSTO Add-in by implementing the following strategies:  

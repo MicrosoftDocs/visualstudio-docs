@@ -21,11 +21,11 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "troubleshooting [Office development in Visual Studio]"
-ms.assetid: 8bbf5433-1992-4ecf-ae1b-19117b8ebe43
-caps.latest.revision: 69
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Troubleshooting Errors in Office Solutions
   You might encounter issues when you perform the following tasks while you develop Office solutions in Visual Studio:  

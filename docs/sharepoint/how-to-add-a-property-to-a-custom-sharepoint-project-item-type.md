@@ -15,11 +15,11 @@ helpviewer_keywords:
   - "SharePoint project items, defining your own types"
   - "project items [SharePoint development in Visual Studio], defining your own types"
   - "SharePoint development in Visual Studio, defining new project item types"
-ms.assetid: 47e940f6-1779-4530-aea6-c43a370c544f
-caps.latest.revision: 16
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Add a Property to a Custom SharePoint Project Item Type
   When you define a custom SharePoint project item type, you can add a property to the project item. The property appears in the **Properties** window when the project item is selected in **Solution Explorer**.  

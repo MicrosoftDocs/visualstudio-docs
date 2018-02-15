@@ -17,17 +17,20 @@ caps.latest.revision: 46
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Advanced Compiler Settings Dialog Box (Visual Basic)
+
 Use the **AdvancedCompiler Settings** dialog box of the **Project Designer** to specify the project's advanced build-configuration properties. This dialog box applies to Visual Basic projects only.  
   
-### To access this dialog box  
+### To access this dialog box
   
 1.  In **Solution Explorer**, choose a project node (not the **Solution** node).  
   
 2.  On the **Project** menu, click **Properties**. When the **Project Designer** appears, click the **Compile** tab.  
   
-3.  On the [Compile Page, Project Designer (Visual Basic)](../../ide/reference/compile-page-project-designer-visual-basic.md), select the **Configuration** and **Platform**. In simplified build configurations, the **Configuration** and **Platform** lists are not displayed. For more information, see [Debug and Release Project Configurations](http://msdn.microsoft.com/en-us/0440b300-0614-4511-901a-105b771b236e).  
+3.  On the [Compile Page, Project Designer (Visual Basic)](../../ide/reference/compile-page-project-designer-visual-basic.md), select the **Configuration** and **Platform**. In simplified build configurations, the **Configuration** and **Platform** lists are not displayed. For more information, see [How to: Set debug and release configurations](../../debugger/how-to-set-debug-and-release-configurations.md).
   
 4.  Click **Advanced Compile Options**.  
   
@@ -62,9 +65,11 @@ Use the **AdvancedCompiler Settings** dialog box of the **Project Designer** to 
  **Custom constants**  
  Enter any custom constants for your application in this text box. Entries should be delimited by commas, using this form: **Name1="Value1",Name2="Value2",Name3="Value3"**.  
   
-## Other Settings  
+## Other Settings
+
  **Generate serialization assemblies**  
  This setting specifies whether the compiler will create XML serialization assemblies. Serialization assemblies can improve the startup performance of <xref:System.Xml.Serialization.XmlSerializer> if you have used that class to serialize types in your code. By default, this option is set to **Auto**, which specifies that serialization assemblies be generated only if you have used <xref:System.Xml.Serialization.XmlSerializer> to encode types in your code to XML. **Off** specifies that serialization assemblies never be generated, regardless of whether your code uses <xref:System.Xml.Serialization.XmlSerializer>. **On** specifies that serialization assemblies always be generated. Serialization assemblies are named `TypeName`.XmlSerializers.dll.  
-  
-## See Also  
- [Compile Page, Project Designer (Visual Basic)](../../ide/reference/compile-page-project-designer-visual-basic.md)
+
+## See also
+
+[Compile Page, Project Designer (Visual Basic)](../../ide/reference/compile-page-project-designer-visual-basic.md)

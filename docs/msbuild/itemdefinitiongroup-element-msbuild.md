@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "03/13/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: msbuild
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -20,9 +19,11 @@ helpviewer_keywords:
   - "<ItemDefinitionGroup> Element [MSBuild]"
 ms.assetid: 4e9fb04b-5148-4ae5-a394-42861dd62371
 caps.latest.revision: 5
-author: "kempb"
-ms.author: "kempb"
+author: Mikejo5000
+ms.author: mikejo
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # ItemDefinitionGroup Element (MSBuild)
 The `ItemDefinitionGroup` element lets you define a set of Item Definitions, which are metadata values that are applied to all items in the project, by default. ItemDefinitionGroup supersedes the need to use the [CreateItem Task](../msbuild/createitem-task.md) and the [CreateProperty Task](../msbuild/createproperty-task.md). For more information, see [Item Definitions](../msbuild/item-definitions.md).  
@@ -33,10 +34,10 @@ The `ItemDefinitionGroup` element lets you define a set of Item Definitions, whi
 ## Syntax  
 
 ```  
-<ItemGroup Condition="'String A' == 'String B'">  
+<ItemDefinitionGroup Condition="'String A' == 'String B'">  
     <Item1>... </Item1>  
     <Item2>... </Item2>  
-</ItemGroup>  
+</ItemDefinitionGroup>  
 ```  
 
 ## Attributes and Elements  

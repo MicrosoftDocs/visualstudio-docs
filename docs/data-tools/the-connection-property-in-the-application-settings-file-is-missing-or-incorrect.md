@@ -12,6 +12,8 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.technology: "vs-data-tools"
+ms.workload: 
+  - "data-storage"
 ---
 # The connection property in the Application Settings file is missing or incorrect
 The connection property in the Application Settings file is missing or incorrect. The connection string from the .dbml file has been used in its place.  

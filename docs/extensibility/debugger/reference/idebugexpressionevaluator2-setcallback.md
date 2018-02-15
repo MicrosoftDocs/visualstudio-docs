@@ -16,6 +16,8 @@ caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugExpressionEvaluator2::SetCallback
 Enables the expression evaluator (EE) to specify the callback interface that the debugger engine (DE) will use to read metric settings.  

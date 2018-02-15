@@ -39,11 +39,11 @@ helpviewer_keywords:
   - "custom XML parts, content controls"
   - "templates [Office development in Visual Studio], content controls"
   - "BuildingBlockGalleryContentControl class"
-ms.assetid: ed59e522-dd6e-4c82-8d49-f5dbcfcc950d
-caps.latest.revision: 65
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Content Controls
   Content controls provide a way for you to design documents and templates that have these features:  

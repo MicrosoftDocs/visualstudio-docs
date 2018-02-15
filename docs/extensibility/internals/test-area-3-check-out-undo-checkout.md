@@ -18,6 +18,8 @@ caps.latest.revision: 16
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Test Area 3: Check Out/Undo Checkout
 This source-control plug-in test area covers editing and reverting items from the version store via the **Check Out** and **Undo Checkout** commands.  

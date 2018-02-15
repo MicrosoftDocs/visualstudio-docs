@@ -21,6 +21,8 @@ caps.latest.revision: 11
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+ms.workload: 
+  - "multiple"
 ---
 # &lt;assembly&gt; Element (ClickOnce Deployment)
 The top-level element for the deployment manifest.  

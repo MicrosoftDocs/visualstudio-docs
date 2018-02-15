@@ -17,6 +17,8 @@ caps.latest.revision: 14
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IPropertyProxyProvider::GetPropertyProxy
 Retrieves the property proxy interface for the specified proxy ID.  

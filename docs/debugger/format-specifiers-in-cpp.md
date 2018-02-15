@@ -32,6 +32,8 @@ caps.latest.revision: 40
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "cplusplus"
 ---
 # Format specifiers in C++ in the Visual Studio debugger
 You can change the format in which a value is displayed in the **Watch** window using format specifiers.  
@@ -136,7 +138,7 @@ int main() {
 |**mq**|2 quadwords|0x0012ffac|0x0012ffac 7ffdf00000000000 5f441a790012fdd4|  
 |**mu**|2-byte characters (Unicode)|0x0012ffac|0x0012ffac 8478 77f4 ffff ffff 0000 0000 0000 0000|  
   
-###  <a name="BKMK_Size_specifier_for_pointers_as_arrays_in_interop_debugging_and_C___edit_and_continue"></a> Size specifier for pointers as arrays in interop debugging with C++/CLIt  
+###  <a name="BKMK_Size_specifier_for_pointers_as_arrays_in_interop_debugging_and_C___edit_and_continue"></a> Size specifier for pointers as arrays in interop debugging with C++/CLI  
  If you have a pointer to an object you want to view as an array, you can use an integer to specify the number of array elements:  
   
 |Specifier|Format|Expression|Value Displayed|  

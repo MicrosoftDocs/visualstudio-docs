@@ -15,11 +15,11 @@ helpviewer_keywords:
   - "worksheets [Office development in Visual Studio], populating"
   - "databases [Office development in Visual Studio], populating worksheets"
   - "data [Office development in Visual Studio], adding to worksheets"
-ms.assetid: e9e37cf1-53ca-45d0-8409-5428be7f96c5
-caps.latest.revision: 39
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Populate Worksheets with Data from a Database
   You can access data in document-level Office projects in the same way that you access data in Windows Forms projects. You use the same tools and code to bring the data into your solution, and you can even use Windows Forms controls to display the data. In addition, you can take advantage of controls called host controls, which are native objects in Microsoft Office Excel that have been enhanced with events and data-binding capability. For more information, see [Host Items and Host Controls Overview](../vsto/host-items-and-host-controls-overview.md).  

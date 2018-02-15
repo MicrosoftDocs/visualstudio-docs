@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: msbuild
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
@@ -18,9 +17,11 @@ helpviewer_keywords:
   - "MSBuild, FindInList task"
 ms.assetid: d49b9f84-52a2-4242-9269-b741a7a7e9f7
 caps.latest.revision: 7
-author: "kempb"
-ms.author: "kempb"
+author: Mikejo5000
+ms.author: mikejo
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # FindInList Task
 In a specified list, finds an item that has the matching itemspec.  

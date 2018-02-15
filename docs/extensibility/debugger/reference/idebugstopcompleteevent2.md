@@ -15,6 +15,8 @@ caps.latest.revision: 6
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugStopCompleteEvent2
 The debug engine (DE) can send this optional event to the session debug manager (SDM) when a program has stopped.  

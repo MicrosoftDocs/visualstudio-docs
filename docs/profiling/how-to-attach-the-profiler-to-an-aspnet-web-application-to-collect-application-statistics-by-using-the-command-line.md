@@ -13,6 +13,8 @@ caps.latest.revision: 33
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "aspnet"
 ---
 # How to: Attach the Profiler to an ASP.NET Web Application to Collect Application Statistics by Using the Command Line
 This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to attach the profiler to an ASP.NET Web application and collect performance statistics by using the sampling method.  

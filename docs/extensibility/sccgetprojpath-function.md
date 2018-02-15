@@ -17,6 +17,8 @@ caps.latest.revision: 15
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # SccGetProjPath Function
 This function prompts the user for a project path, which is a string that is meaningful only to the source control plug-in. It is called when the user is:  

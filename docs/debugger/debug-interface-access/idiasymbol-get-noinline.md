@@ -17,6 +17,8 @@ caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_noInline
 Retrieves a flag that specifies whether the function has been marked as being not inline (using the [noinline](/cpp/cpp/noinline) attribute).  

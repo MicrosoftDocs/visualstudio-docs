@@ -13,11 +13,11 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "ExtensionDataItem element"
-ms.assetid: 6a5fe7eb-b433-42dc-bd50-4882b780e2fb
-caps.latest.revision: 10
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # ExtensionDataItem Element
   Represents a custom data item that is associated with the SharePoint project item, in key/value format. Both the key and value must be strings.  

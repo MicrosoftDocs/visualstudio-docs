@@ -4,15 +4,17 @@ ms.custom: ""
 ms.date: "11/15/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
- - "vs-ide-general"
+ms.technology: 
+  - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "quickstart"
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
-# Quickstart: first look at the Visual Studio IDE
+# Quickstart: First look at the Visual Studio IDE
 
 In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), we'll take a tour of some of the windows, menus, and other UI features.
 
@@ -94,6 +96,6 @@ We've looked at just a few of the features of the Visual Studio IDE to get acqua
 
 ## See also
 
-[Quickstart: personalizing the IDE](../ide/personalizing-the-visual-studio-ide.md)  
-[Quickstart: coding in the editor](../ide/quickstart-editor.md)  
-[Quickstart: projects and solutions](../ide/quickstart-projects-solutions.md)  
+[Quickstart: Personalizing the IDE](../ide/personalizing-the-visual-studio-ide.md)  
+[Quickstart: Coding in the editor](../ide/quickstart-editor.md)  
+[Quickstart: Projects and solutions](../ide/quickstart-projects-solutions.md)

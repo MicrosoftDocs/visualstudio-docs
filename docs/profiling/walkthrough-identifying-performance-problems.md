@@ -18,6 +18,8 @@ caps.latest.revision: 53
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Walkthrough: Identifying Performance Problems
 This walkthrough demonstrates how to profile an application to identify performance problems.  

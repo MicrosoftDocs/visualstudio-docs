@@ -4,14 +4,14 @@ ms.custom: ""
 ms.date: "11/07/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a8b30934-5f38-4a18-8819-263e0733cdbe
-caps.latest.revision: 14
 ms.author: mblome
 manager: ghogen
+ms.workload: 
+  - "cplusplus"
+author: mikeblome
 ---
 
 # How to use CTest for C++ in Visual Studio
@@ -24,16 +24,5 @@ CTest is not currently integrated with **Test Explorer**. You can run your tests
 
 ![Run CTest tests](media/cpp-cmake-run-tests.png "Run CTest tests")
 
-
 ## See Also
 [Writing Unit Tests for C/C++](writing-unit-tests-for-c-cpp.md)
-
-
-  
-
-
-
-
-
-
-

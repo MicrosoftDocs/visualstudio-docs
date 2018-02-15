@@ -1,20 +1,22 @@
 ---
 title: Visual Studio 2017 workload and component IDs | Microsoft Docs
 description: "Use workload and component IDs to install Visual Studio by using a command line, or to specify as a dependency in a VSIX manifest"
-keywords:
+keywords: 
 author: TerryGLee
 ms.author: tglee
 manager: ghogen
 ms.date: 10/09/2017
 ms.topic: article
-helpviewer_keywords:
+helpviewer_keywords: 
   - "workload ID, Visual Studio"
   - "component ID, Visual Studio"
   - "install Visual Studio, administrator guide"
-ms.service:
-ms.technology:
+ms.service: 
+ms.technology: 
   - "vs-acquisition"
 ms.assetid: 34e19ef1-abfb-44fd-aad2-33c5d7874482
+ms.workload: 
+  - "multiple"
 ---
 
 # Visual Studio 2017 workload and component IDs
@@ -42,7 +44,7 @@ Here are a few more support options:
 * You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
 * You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
 * You can track product issues in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/), and ask questions and find answers.
-* You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).  (This option requires a [GitHub](https://github.com/) account).
+* You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).  (This option requires a [GitHub](https://github.com/) account.)
 
 ## See Also
 * [Visual Studio administrator guide for Visual Studio 2017](visual-studio-administrator-guide.md)

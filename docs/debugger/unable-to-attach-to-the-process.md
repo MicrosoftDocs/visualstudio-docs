@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.remote.unable2attach"
 dev_langs: 
@@ -15,11 +15,11 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-ms.assetid: 0468de6c-3ff1-4979-a8c6-8afb53f37547
-caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Unable to Attach to the Process
 Unable to attach to the process. Debugger component on server received access denied while connecting to this machine.  

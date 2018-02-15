@@ -19,11 +19,11 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, application pages"
   - "application pages [SharePoint development in Visual Studio], developing"
   - "application pages [SharePoint development in Visual Studio], creating"
-ms.assetid: a6e97149-15dd-4bdb-8d75-3b53f886f76c
-caps.latest.revision: 36
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Creating Application Pages for SharePoint
   An *application page* is an ASP.NET Web page that is designed for use in a SharePoint Web site. Application pages are a specialized type of ASP.NET page. The primary difference between an application page and a standard ASP.NET page is that an application page contains content that is merged with a SharePoint master page. A master page enables application pages to share the same appearance and behavior as other pages on a site.  

@@ -13,6 +13,8 @@ caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Start
 The **Start** option is a VSPerfCmd.exe option that initializes the profiler to the specified profiling method.  

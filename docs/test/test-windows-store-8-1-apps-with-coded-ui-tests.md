@@ -4,14 +4,14 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c8d9c15e-ce3c-401a-86ec-c5c124a239d8
-caps.latest.revision: 23
-ms.author: "douge"
-manager: "douge"
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "uwp"
+author: gewarren
 ---
 # Test Windows UWP Apps with Coded UI Tests
 

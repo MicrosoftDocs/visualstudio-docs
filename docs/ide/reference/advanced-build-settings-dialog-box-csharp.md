@@ -17,6 +17,8 @@ caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "dotnet"
 ---
 # Advanced Build Settings Dialog Box (C#)
 

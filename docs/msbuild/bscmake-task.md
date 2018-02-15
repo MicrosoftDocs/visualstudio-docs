@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: msbuild
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -22,9 +21,11 @@ helpviewer_keywords:
   - "BscMake task (MSBuild (Visual C++))"
 ms.assetid: bb98fc67-cad8-43a7-9598-60df6d734db2
 caps.latest.revision: 7
-author: "kempb"
-ms.author: "kempb"
+author: Mikejo5000
+ms.author: mikejo
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # BscMake Task
 > [!IMPORTANT]

@@ -23,6 +23,8 @@ caps.latest.revision: 19
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Error: Workgroup Remote Logon Failure
 This error reads:  

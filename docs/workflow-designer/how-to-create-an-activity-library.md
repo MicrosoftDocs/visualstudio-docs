@@ -11,6 +11,8 @@ caps.latest.revision: 12
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+ms.workload: 
+  - "multiple"
 ---
 # How to: Create an Activity Library
 Custom activities are used to model your particular business processes in a workflow. The Activity Library template in [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)] has been provided to enable you to create such custom activities visually using the [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)].  

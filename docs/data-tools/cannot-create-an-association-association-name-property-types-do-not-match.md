@@ -12,6 +12,8 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.technology: "vs-data-tools"
+ms.workload: 
+  - "data-storage"
 ---
 # Cannot create an association &lt;association name&gt; - property types do not match
 Cannot create an association \<association name> - property types do not match. Properties do not have matching types: \<property names>.  

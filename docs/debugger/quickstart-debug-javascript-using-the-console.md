@@ -1,5 +1,5 @@
 ---
-title: "QuickStart: Debug JavaScript using the console | Microsoft Docs"
+title: "Debug JavaScript using the console | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -11,24 +11,21 @@ ms.topic: "article"
 f1_keywords: 
   - "VS.WebClient.JavaScriptConsole"
 dev_langs: 
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
+  - "JavaScript"
 helpviewer_keywords: 
   - "JavaScript Console"
   - "JavaScript debugging"
   - "debugging, JavaScript"
-ms.assetid: ea7adb71-52b6-4a5a-9346-98ca94b06bd7
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
-# QuickStart: Debug JavaScript using the console
-![Applies to Windows and Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  
+# Debug JavaScript using the console in Visual Studio
   
- You can use the JavaScript Console window to interact with and debug UWP apps built using JavaScript. These features are supported for [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps, Windows Phone apps, and apps created using Visual Studio Tools for Apache Cordova. For the console command reference, see [JavaScript Console commands](../debugger/javascript-console-commands.md).  
+ You can use the JavaScript Console window to interact with and debug UWP apps built using JavaScript. These features are supported for UWP apps and apps created using Visual Studio Tools for Apache Cordova. For the console command reference, see [JavaScript Console commands](../debugger/javascript-console-commands.md).  
   
  The JavaScript Console window allows you to:  
   
@@ -44,36 +41,26 @@ manager: ghogen
   
 -   Perform other tasks, like clearing the screen. See [JavaScript Console commands](../debugger/javascript-console-commands.md) for the full list of commands.  
   
- In this topic:  
-  
--   [Debug by using the JavaScript Console window](#InteractiveConsole)  
-  
--   [Interactive debugging and break mode](#InteractiveDebuggingBreakMode)  
-  
--   [Single-line mode and multiline mode in the JavaScript Console window](#SinglelineMultilineMode)  
-  
--   [Switching the script execution context](#Switching)  
-  
 > [!TIP]
->  If the JavaScript Console window is closed, choose **Debug**>**Windows** > **JavaScript Console** to re-open it. The window appears only during a script debugging session.  
+>  If the JavaScript Console window is closed, choose **Debug**> **Windows** > **JavaScript Console** to re-open it. The window appears only during a script debugging session.  
   
  Using the JavaScript Console window, you can interact with your app without stopping and restarting the debugger. For more info, see [Refresh an app (JavaScript)](../debugger/refresh-an-app-javascript.md). For info on other JavaScript debugging features, such as using the DOM Explorer and setting breakpoints, see [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md) and [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md).  
   
 ##  <a name="InteractiveConsole"></a> Debug by using the JavaScript Console window  
  The following steps create a `FlipView` app and show how to interactively debug a JavaScript coding error.  
   
-> [!CAUTION]
+> [!NOTE]
 >  The sample app here is a UWP app. However, the console features described here also apply to apps created using Visual Studio Tools for Apache Cordova.  
   
 #### To debug JavaScript code in the FlipView app  
   
 1.  Create a new solution in Visual Studio by choosing **File** > **New Project**.  
   
-2.  Choose **JavaScript** > **Store Apps**, choose either **Windows Apps** or **Windows Phone Apps**, and then choose **Blank App**.  
+2.  Choose **JavaScript** > **Windows Universal**, and then choose **WinJS App**.  
   
 3.  Type a name for the project, such as `FlipViewApp`, and choose **OK** to create the app.  
   
-4.  In the BODY element of default.html, replace the existing HTML code with this code:  
+4.  In the BODY element of index.html, replace the existing HTML code with this code:  
   
     ```html  
     <div id="flipTemplate" data-win-control="WinJS.Binding.Template"  
@@ -129,9 +116,9 @@ manager: ghogen
   
         function updateImages() {  
   
-            pages.push(0, { flipImg: "http://go.microsoft.com/fwlink/?LinkID=223195" });  
-            pages.push(1, { flipImg: "http://go.microsoft.com/fwlink/?LinkID=223196" });  
-            pages.push(2, { flipImg: "http://go.microsoft.com/fwlink/?LinkID=223197" });  
+            pages.push(0, { flipImg: "http://public-domain-photos.com/free-stock-photos-1/flowers/cactus-76.jpg" });  
+            pages.push(1, { flipImg: "http://public-domain-photos.com/free-stock-photos-1/flowers/cactus-77.jpg" });  
+            pages.push(2, { flipImg: "http://public-domain-photos.com/free-stock-photos-1/flowers/cactus-78.jpg" });  
   
         };  
   
@@ -149,7 +136,7 @@ manager: ghogen
     })();  
     ```  
   
-7.  If a debugging target isn't already selected, choose **Simulator** or, for Windows Phone, **Emulator 8.1 WVGA 4 inch 512MB** from the drop-down list next to the **Device** button on the **Debug** toolbar:  
+7.  If a debugging target isn't already selected, choose **Local Machine** from the drop-down list next to the **Device** button on the **Debug** toolbar:  
   
      ![Select debug target list](../debugger/media/js_select_target.png "JS_Select_Target")  
   
@@ -157,7 +144,7 @@ manager: ghogen
   
      The app runs but images are missing. APPHOST errors in the JavaScript Console window indicate that images are missing.  
   
-9. With the `FlipView` app running in the Simulator or the Phone Emulator, type `Data.items` in the console window input prompt (next to the ">>" symbol) and press Enter.  
+9. With the `FlipView` app running, type `Data.items` in the console window input prompt (next to the ">>" symbol) and press Enter.  
   
      A visualizer for the `items` object appears in the console window. This indicates that the `items` object instantiated and is available in the current script context. In the console window, you can click through the nodes of an object to view property values (or use the arrow keys). If you click down into the `items._data` object, as you see in this illustration, you'll find that its image source references are incorrect, as expected. The default images (logo.png) are still present in the object, and there are missing images interspersed with the expected images.  
   
@@ -170,9 +157,9 @@ manager: ghogen
 11. To fix this problem interactively without stopping the debugging session, open default.js and select this code from the `updateImages` function:  
   
     ```javascript  
-    pages.push(0, { flipImg: "http://go.microsoft.com/fwlink/?LinkID=223195" });  
-    pages.push(1, { flipImg: "http://go.microsoft.com/fwlink/?LinkID=223196" });  
-    pages.push(2, { flipImg: "http://go.microsoft.com/fwlink/?LinkID=223197" });  
+    pages.push(0, { flipImg: "http://public-domain-photos.com/free-stock-photos-1/flowers/cactus-76.jpg" });  
+    pages.push(1, { flipImg: "http://public-domain-photos.com/free-stock-photos-1/flowers/cactus-77.jpg" });  
+    pages.push(2, { flipImg: "http://public-domain-photos.com/free-stock-photos-1/flowers/cactus-78.jpg" });  
     ```  
   
      Copy and paste this code into the JavaScript Console input prompt.  
@@ -183,9 +170,9 @@ manager: ghogen
 12. Correct the `push` function calls in the prompt, replacing `pages.push` with `Data.items.setAt`. The corrected code should look like this:  
   
     ```javascript  
-    Data.items.setAt(0, { flipImg: "http://go.microsoft.com/fwlink/?LinkID=223195" });  
-    Data.items.setAt(1, { flipImg: "http://go.microsoft.com/fwlink/?LinkID=223196" });  
-    Data.items.setAt(2, { flipImg: "http://go.microsoft.com/fwlink/?LinkID=223197" });  
+    Data.items.setAt(0, { flipImg: "http://public-domain-photos.com/free-stock-photos-1/flowers/cactus-76.jpg" });  
+    Data.items.setAt(1, { flipImg: "http://public-domain-photos.com/free-stock-photos-1/flowers/cactus-77.jpg" });  
+    Data.items.setAt(2, { flipImg: "http://public-domain-photos.com/free-stock-photos-1/flowers/cactus-78.jpg" });  
     ```  
   
     > [!TIP]
@@ -197,7 +184,7 @@ manager: ghogen
   
 15. Type `Data.items.length = 3` at the prompt, and then press Enter. This removes the extraneous elements from the data.  
   
-16. Check the Simulator or the Phone Emulator again, and you'll see that the correct images are on the correct `FlipView` pages.  
+16. Check the app again, and you'll see that the correct images are on the correct `FlipView` pages.  
   
 17. In DOM Explorer, you can see the updated DIV element, and you can navigate into the subtree to find the expected IMG elements.  
   
@@ -214,7 +201,7 @@ manager: ghogen
   
 1.  In the default.html file of the `FlipView` app that you previously created, open the shortcut menu for the `updateImages()` function, and then choose **Breakpoint** > **Insert Breakpoint**.  
   
-2.  Choose **Local Machine** or **Emulator 8.1 WVGA 4 inch 512MB** in the drop-down list next to the **Start Debugging** button on the **Debug** toolbar.  
+2.  Choose **Local Machine** in the drop-down list next to the **Start Debugging** button on the **Debug** toolbar.  
   
 3.  Choose **Debug** > **Start Debugging**, or press F5.  
   
@@ -235,7 +222,7 @@ manager: ghogen
 6.  Copy one line of the function from the output window to the input prompt, and change the index value to 3:  
   
     ```javascript  
-    pages.setAt(3, { flipImg: "http://go.microsoft.com/fwlink/?LinkID=223197" });  
+    pages.setAt(3, { flipImg: "http://public-domain-photos.com/free-stock-photos-1/flowers/cactus-76.jpg" });  
     ```  
   
 7.  Press Enter to run the line of code.  
@@ -260,16 +247,7 @@ manager: ghogen
   
  ![Target selection in the JavaScript console window](../debugger/media/js_console_target.png "JS_Console_Target")  
   
- You can also switch the execution context by using the `cd` command, but you must know the name of the other execution context and the reference you use must be in scope. The **Target** list provides better access to other execution contexts.  
-  
-##  <a name="BrowserSupport"></a> Browser and Platform Support  
- The JavaScript Console window is supported on the following platforms:  
-  
--   [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] and Windows Phone apps using JavaScript and HTML  
-  
--   Internet Explorer 11 running on [!INCLUDE[win81](../debugger/includes/win81_md.md)]  
-  
--   Internet Explorer 10 running on [!INCLUDE[win8](../debugger/includes/win8_md.md)]  
+ You can also switch the execution context by using the `cd` command, but you must know the name of the other execution context and the reference you use must be in scope. The **Target** list provides better access to other execution contexts.   
   
 ## See Also  
  [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md)   

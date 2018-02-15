@@ -16,6 +16,8 @@ caps.latest.revision: 21
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # VSIX Project Template
 You can use the VSIX Project template to wrap one or more Visual Studio extensions in a VSIX project, and then publish the package on the [Visual Studio Gallery](http://go.microsoft.com/fwlink/?LinkID=123847) Web site.  

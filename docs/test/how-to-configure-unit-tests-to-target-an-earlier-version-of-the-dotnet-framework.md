@@ -4,14 +4,14 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: adb6c011-5abd-41d2-8ead-08cd7579bf37
-caps.latest.revision: 12
-ms.author: "douge"
-manager: "douge"
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "dotnet"
+author: gewarren
 ---
 # How to: Configure Unit Tests to Target An Earlier Version of the .NET Framework
 When you create a test project in Microsoft Visual Studio, the most recent version of the .NET Framework is set as the target, by default. Additionally, if you upgrade test projects from previous versions of Visual Studio, they are upgraded to target the most recent version of the .NET Framework. By editing the project properties, you can explicitly re-target the project to earlier versions of the .NET Framework.  
@@ -58,7 +58,7 @@ When you create a test project in Microsoft Visual Studio, the most recent versi
   
      The properties for your Visual Basic test project are displayed.  
   
-5.  On the **Compile** tab choose **Advanced Compile Options** as shown in the following illustration.  
+5.  On the **Compile** tab, choose **Advanced Compile Options** as shown in the following illustration.
   
      ![Advanced Compile Options](../test/media/howtoconfigureunittest35frameworka.png "HowToConfigureUnitTest35FrameworkA")  
   
@@ -80,7 +80,7 @@ When you create a test project in Microsoft Visual Studio, the most recent versi
   
      The properties for your Visual C# test project are displayed.  
   
-5.  On the **Application** tab choose **Target framework** and then choose **.NET Framework 3.5** or a later version from the drop-down list to change the target framework.as shown in the following illustration. You should not specify a client version.  
+5.  On the **Application** tab, choose **Target framework**. From the drop-down list, choose **.NET Framework 3.5** or a later version, as shown in the following illustration. You should not specify a client version.
   
      ![Target framework drop&#45;down list](../test/media/howtoconfigureunittest35frameworkcsharp.png "HowToConfigureUnitTest35FrameworkCSharp")  
   
@@ -121,8 +121,8 @@ When you create a test project in Microsoft Visual Studio, the most recent versi
   
 8.  In Solution Explorer, choose select **Reload Project** from the shortcut menu of your new Visual C++ test project.  
   
-## See Also  
- [Creating and Running Unit Tests for Existing Code](http://msdn.microsoft.com/en-us/e8370b93-085b-41c9-8dec-655bd886f173)   
- [Create SharePoint Solutions](/office-dev/office-dev/create-sharepoint-solutions)   
- [Building and Debugging SharePoint Solutions](/office-dev/office-dev/building-and-debugging-sharepoint-solutions)   
- [Advanced Compiler Settings Dialog Box (Visual Basic)](../ide/reference/advanced-compiler-settings-dialog-box-visual-basic.md)
+## See also
+
+[Create SharePoint Solutions](/office-dev/office-dev/create-sharepoint-solutions)  
+[Building and Debugging SharePoint Solutions](/office-dev/office-dev/building-and-debugging-sharepoint-solutions)  
+[Advanced Compiler Settings Dialog Box (Visual Basic)](../ide/reference/advanced-compiler-settings-dialog-box-visual-basic.md)

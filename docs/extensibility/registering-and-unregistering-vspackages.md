@@ -16,6 +16,8 @@ caps.latest.revision: 35
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Registering and Unregistering VSPackages
 You use attributes to register a VSPackage, but  

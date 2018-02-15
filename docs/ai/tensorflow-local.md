@@ -7,9 +7,10 @@ ms.author: liwong
 manager: routlaw
 ms.date: 11/13/2017
 ms.topic: quickstart
-ms.technology: visual studio
 ms.devlang: python
 ms.service: multiple
+ms.workload: 
+  - "multiple"
 ---
 
 # Train a TensorFlow model locally 

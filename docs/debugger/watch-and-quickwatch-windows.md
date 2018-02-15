@@ -17,21 +17,21 @@ helpviewer_keywords:
   - "expression evaluation"
   - "registers, evaluating"
   - "debugging [Visual Studio], expression evaluation"
-ms.assetid: d5c18377-2a0e-4819-a645-407e24ccc58c
-caps.latest.revision: 45
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Set a Watch on Variables using the Watch and QuickWatch Windows in Visual Studio
-While you are debugging, you can use the **Watch** (**Debug > Windows > Watch > Watch (1, 2, 3, 4)**) and **QuickWatch** (right-click on variable / **Debug > QuickWatch**) windows to watch variables and expressions.  The difference is that the **Watch** window can display several variables, while the **QuickWatch** window displays a single variable at a time.
+While you are debugging, you can use the **Watch** and **QuickWatch** windows to watch variables and expressions.  The difference is that the **Watch** window can display several variables, while the **QuickWatch** window displays a single variable at a time. 
 
-The windows are only available during a debugging session. 
+The windows are only available during a debugging session. To open the **Watch** window, choose **Debug > Windows > Watch > Watch (1, 2, 3, 4)**). To open the **QuickWatch** window, either right-click on variable and choose **QuickWatch** or choose **Debug > QuickWatch**.
   
 ## Observing a single variable with QuickWatch  
  You can use the **QuickWatch** window to observe a single variable. For example, if you have the following code:  
   
-```CSharp
+```csharp
 static void Main(string[] args)  
 {  
     int a, b;  
@@ -50,7 +50,7 @@ static void Main(string[] args)
   
 2.  Start debugging. Execution stops at the breakpoint.  
   
-3.  Open the **QuickWatch** window (right-click on a, then choose **QuickWatch**, or **SHIFT+F9**).
+3.  Open the **QuickWatch** window (right-click on `a`, then choose **QuickWatch**, or select `a` and press **SHIFT+F9**).
 
     You should see a variable in the **Values** window, with a value of 1.
 
@@ -120,7 +120,7 @@ int main()
 ##  <a name="bkmk_refreshWatch"></a> Refreshing Watch values that are out of date  
  In certain circumstances, you might see a refresh icon (a circular arrow) when an expression is evaluated in the **Watch** window.  For example, if you have property evaluation turned off (**Tools > Options > Debugging > Enable property evaluation and other implicit function calls**), and you have the following code:  
   
-```CSharp  
+```csharp  
 static void Main(string[] args)  
 {  
     List<string> list = new List<string>();  
@@ -172,7 +172,7 @@ var1 = var2
   
  In the following code, one method creates a `Person` using a local variable, but you want to find out what the `Person`'s name is in a different method:  
   
-```CSharp  
+```csharp  
 class Person  
 {  
     public Person(string name)  
@@ -229,7 +229,7 @@ public class Program
 ## Dynamic View and the Watch window  
  Some scripting languages (for example, JavaScript or Python) use dynamic or [duck typing](https://en.wikipedia.org/wiki/Duck_typing), and .NET languages (in version 4.0 and later) support objects that are difficult to observe using the normal debugging windows, because they may have runtime properties and methods that cannot be displayed.  
   
- When the Watch window displays an object created from a type that implements the [IDynamicMetaObjectProvider Interface](https://docs.microsoft.com/en-us/dotnet/api/system.dynamic.idynamicmetaobjectprovider?view=netframework-4.7), the debugger adds a special **Dynamic View**  node to the **Autos** display. This node shows the dynamic members of the dynamic object but does not allow editing of the member values.  
+ When the Watch window displays an object created from a type that implements the [IDynamicMetaObjectProvider Interface](/dotnet/api/system.dynamic.idynamicmetaobjectprovider?view=netframework-4.7), the debugger adds a special **Dynamic View**  node to the **Autos** display. This node shows the dynamic members of the dynamic object but does not allow editing of the member values.  
   
  If you right-click any child of a **Dynamic View** and choose **Add Watch**, the debugger inserts a new watch variable that casts an object to a dynamic object. In other words, **object Name** becomes (**(dynamic)object).Name**.  
   

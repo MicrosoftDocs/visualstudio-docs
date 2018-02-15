@@ -15,6 +15,8 @@ caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Persisting Data in the MSBuild Project File
 A project subtype may need to persist subtype-specific data into the project file for later use. A project subtype uses project file persistence to meet the following requirements:  

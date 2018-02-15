@@ -4,36 +4,30 @@ ms.custom: ""
 ms.date: "05/02/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "unit testing, create unit tests"
-ms.assetid: 5D625021-BA96-48A5-9453-3EF6F0943466
-caps.latest.revision: 56
-ms.author: "douge"
-manager: "douge"
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+author: gewarren
 ---
 # Create unit test method stubs with the Create Unit Tests command
 
-The Visual Studio **Create Unit Tests**
-command provides the ability to create unit 
-test method stubs. This feature allows easy 
-configuration of a test project, the test class, 
-and the test method stub within it. 
+The Visual Studio **Create Unit Tests** command provides the ability to create unit test method stubs. This feature allows easy configuration of a test project, the test class, and the test method stub within it.
 
 ## Availability and extensions
 
 The **Create Unit Tests** menu command:
 
-* Is available in the Community, Professional, and Enterprise
-  Editions of Visual Studio 2015 and later.
+* Is available in the Community, Professional, and Enterprise Editions of Visual Studio 2015 and later.
 
 * Supports only C# code that targets the .NET Framework.
 
-* Is [extensible](#extend-framework), and supports emitting tests in MSTest,
-  MSTest V2, NUnit, xUnit format.
+* Is [extensible](#extend-framework), and supports emitting tests in MSTest, MSTest V2, NUnit, xUnit format.
 
 ## Get started
 
@@ -89,8 +83,7 @@ want to quickly create a unit test method stub
 (with a suitable test class, and a suitable test project) 
 for a particular piece of code. 
 
-## More information
+## See also
 
-See the blog post [Creating unit test method stubs with "Create Unit Tests"](https://blogs.msdn.microsoft.com/visualstudioalm/2015/03/06/creating-unit-test-method-stubs-with-create-unit-tests/).
-
-More unit testing blog posts can be found [here](https://blogs.msdn.microsoft.com/visualstudioalm/tag/unit-testing/).
+[Creating unit test method stubs with "Create Unit Tests"](https://blogs.msdn.microsoft.com/visualstudioalm/2015/03/06/creating-unit-test-method-stubs-with-create-unit-tests/)  
+[Unit testing blog posts](https://blogs.msdn.microsoft.com/visualstudioalm/tag/unit-testing/)

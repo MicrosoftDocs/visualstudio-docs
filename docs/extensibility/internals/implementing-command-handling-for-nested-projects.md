@@ -15,6 +15,8 @@ caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Implementing Command Handling for Nested Projects
 The IDE can pass commands that are passed through the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy> and the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interfaces to nested projects, or parent projects can filter or override the commands.  

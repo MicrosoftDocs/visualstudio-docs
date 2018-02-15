@@ -13,6 +13,8 @@ caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Walkthrough: LinqToXmlDataBinding Example
 This walkthrough describes the LinqToXmlDataBinding example, and explains some of the more interesting contents of its two primary source files, L2DBForm.xaml and L2DBForm.xaml.cs.  

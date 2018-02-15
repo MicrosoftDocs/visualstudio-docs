@@ -21,6 +21,8 @@ caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Alias Command
 Creates a new alias for a complete command, complete command and arguments, or another alias.  

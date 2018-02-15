@@ -16,6 +16,8 @@ caps.latest.revision: 16
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Important Commands for Language Service Filters
 If you want to create a fully featured language service filter, consider handling the following commands. The full list of command identifiers is defined in the <xref:Microsoft.VisualStudio.VSConstants.VSStd2KCmdID> enumeration for managed code and the Stdidcmd.h header file for unmanaged [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] code. You can find the Stdidcmd.h file in *Visual Studio SDK installation path*\VisualStudioIntegration\Common\Inc.  

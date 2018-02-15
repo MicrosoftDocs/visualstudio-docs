@@ -17,6 +17,8 @@ caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugPortSupplier2
 This interface supplies ports to the session debug manager (SDM).  

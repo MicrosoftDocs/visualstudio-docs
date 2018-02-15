@@ -13,6 +13,8 @@ caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # VSG_NODEFAULT_INSTANCE
 Defines by its presence whether a default instance of the [VsgDbg Class](vsgdbg-class.md) class—which provides the programmatic capture interface—is supplied.  

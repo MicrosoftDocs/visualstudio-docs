@@ -16,6 +16,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugDynamicFieldCOMPlus::GetTypeFromPrimitive
 Retrieves a type given its primitive type.  

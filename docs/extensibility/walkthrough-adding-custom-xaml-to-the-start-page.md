@@ -16,6 +16,8 @@ caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Walkthrough: Adding Custom XAML to the Start Page
 This walkthrough shows how to create a custom Visual Studio Start Page that contains a Web browser.  

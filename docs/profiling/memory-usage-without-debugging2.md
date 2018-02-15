@@ -13,13 +13,14 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-ms.assetid: 24238fc0-40b8-4079-8579-698211db9a26
 caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
-# Memory Usage without the Debugger
+# Analyze Memory Usage without the Visual Studio Debugger
 You can use the **Memory Usage** tool without debugging to do the following  
   
 -   Monitor your app's memory use right in Visual Studio while you are developing a scenario.  
@@ -28,7 +29,7 @@ You can use the **Memory Usage** tool without debugging to do the following
   
 -   Compare snapshots to find the root cause of memory issues.  
   
- This topic describes how use the Memory Usage tool to analyze a Windows Universal XAML app. If you want to analyze memory use in Windows Universal apps that use JavaScript and HTML, see [Analyze memory usage (JavaScript)](http://msdn.microsoft.com/library/windows/apps/jj819176.aspx).  
+ This topic describes how use the Memory Usage tool to analyze a UWP XAML app. If you want to analyze memory use in UWP app that uses JavaScript and HTML, see [Analyze memory usage (JavaScript)](../profiling/javascript-memory.md).  
   
 ##  <a name="BKMK_Start_a_Memory_Usage_diagnostic_session"></a> Start a Memory Usage diagnostic session  
   

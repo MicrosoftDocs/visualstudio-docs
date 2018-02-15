@@ -17,6 +17,8 @@ caps.latest.revision: 36
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Using Rule Sets to Group Code Analysis Rules
 When you configure code analysis in [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)], [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)], or [!INCLUDE[vsPro](../code-quality/includes/vspro_md.md)], you can choose from a list of Microsoft built-in *rule sets*. A rule set is a logical grouping of code analysis rules that identify targeted issues and specific conditions. For example, you can apply a rule set that is designed to scan code for publicly available APIs, or you can apply a rule set that includes only the minimum recommended rules. You can also apply a rule set that includes all the rules.  

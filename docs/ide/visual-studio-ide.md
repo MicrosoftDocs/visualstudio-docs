@@ -1,14 +1,18 @@
 ---
-title: "Visual Studio IDE overview | Microsoft Docs"
+title: "Overview of Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/09/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 author: "gewarren"
-ms.author: "gewarren"
+f1_keywords:
+  - vs.startpage
+  - VS.StartPage.HowDoI
+ms.author: gewarren
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Visual Studio IDE overview
 
@@ -24,9 +28,9 @@ Or, you can simply open some code you get from almost anywhere and get working. 
 
 ### Create mobile apps
 
-You can create native mobile apps for different platforms by using Visual C# and Xamarin, or Visual C++, or hybrid apps using JavaScript with Apache Cordova. You can write mobile games for Unity, Unreal, DirectX, Cocos, and more. Visual Studio includes an Android emulator to help you run and debug Android apps.
+You can create native mobile apps for different platforms by using C# and Xamarin, or Visual C++, or hybrid apps using JavaScript with Apache Cordova. You can write mobile games for Unity, Unreal, DirectX, Cocos, and more. Visual Studio includes an Android emulator to help you run and debug Android apps.
 
-You can leverage the power of the cloud for your mobile apps by creating Azure app services. Azure app services enable your apps to store data on the cloud, securely authenticate users, and automatically scale its resources up or down to accommodate the needs of your app and your business. To learn more, see [Mobile App Development](https://www.visualstudio.com/vs/mobile-app-development/).
+You can leverage the power of the cloud for your mobile apps by creating Azure app services. Azure app services enable your apps to store data on the cloud, securely authenticate users, and automatically scale its resources up or down to accommodate the needs of your app and your business. To learn more, see [Mobile app development](https://www.visualstudio.com/vs/mobile-app-development/).
 
 ### Create cloud apps for Azure
 
@@ -50,7 +54,7 @@ For more information, see [Modern Web Tooling](https://www.visualstudio.com/vs/m
 
 ### Build cross-platform apps and games
 
-You can use Visual Studio to build apps and games for Android, iOS, Linux, Windows, and other devices. Learn more about it at [Cross-Platform Mobile Development](../cross-platform/cross-platform-mobile-development-in-visual-studio.md). Universal Windows Apps help you leverage your code across multiple platforms. See [Universal Windows Apps](https://dev.windows.com/en-us/windows-apps) for more information.
+You can use Visual Studio to build apps and games for Android, iOS, Linux, Windows, and other devices. Learn more about it at [Cross-Platform Mobile Development](../cross-platform/cross-platform-mobile-development-in-visual-studio.md). Universal Windows Apps help you leverage your code across multiple platforms. See [Universal Windows Apps](https://dev.windows.com/windows-apps) for more information.
 
 Choose the tools you need based on your app requirements and the language you want to use:
 
@@ -70,7 +74,7 @@ Visual Studio can do help you do many more things. For a more complete list, see
 
 ## Install the Visual Studio IDE
 
-To get started, download Visual Studio and install it on your system. You can download it at [Visual Studio 2017](https://www.visualstudio.com/vs/visual-studio-2017/).
+To get started, download Visual Studio and install it on your system. You can download it at [Visual Studio 2017](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs).
 
 Visual Studio is now more lightweight than ever! The modular installer enables you to choose and install *workloads*, which are groups of features needed for the programming language or platform you prefer. This strategy helps keep the footprint of the Visual Studio installation smaller than ever before, which means it installs and updates faster too.
 
@@ -80,7 +84,7 @@ To follow the steps for creating a program below, be sure to select and install 
 
 In addition to improved installation performance, Visual Studio 2017 also has shorter IDE start-up and solution load times.
 
-To learn more about setting up Visual Studio on your system, see [Install Visual Studio 2017](https://docs.microsoft.com/visualstudio/install/install-visual-studio).  
+To learn more about setting up Visual Studio on your system, see [Install Visual Studio 2017](../install/install-visual-studio.md).
 
 ## Sign in
 
@@ -90,7 +94,7 @@ When you start Visual Studio for the first time, you can optionally sign in usin
 
 One good way to learn about something is to use it! Let's dive in and create a new, simple program.
 
-1. Open Visual Studio. On the menu, choose **File**, **New**, **Project**.
+1. Open Visual Studio. On the menu, choose **File** > **New** > **Project**.
 
   ![screenshot](../ide/media/VSIDE_Tour_NewProject1.png)
 
@@ -98,11 +102,14 @@ One good way to learn about something is to use it! Let's dive in and create a n
 
 1. The **New Project** dialog box shows several project templates. Choose the **Windows Universal** category under **Visual C#**, choose the **Blank App (Universal Windows)** template, and then choose the **OK** button.
 
-  ![screenshot](../ide/media/VSIDE_Tour_NewProject2.png)
+  > [!NOTE]
+  > If you don't see the **Windows Universal** category, you need to install the **Universal Windows Platform Development** workload. To do this, choose the **Open Visual Studio Installer** link on the bottom left of the **New Project** dialog. After **Visual Studio Installer** opens, select the **Universal Windows Platform Development** workload and then choose **Modify**.
 
-  This creates a new blank Universal Windows app project using Visual C# and XAML as the programming languages. Wait for a bit while Visual Studio sets up the project for you. If you are prompted for any information, just accept the default values for now.
+  ![UWP blank app template](../ide/media/new-uwp-blank-app-template.png)
 
-1. In the **New Universal Windows Project** dialog box, accept the defaults by choosing **OK**.
+  This creates a new blank Universal Windows app project using C# and XAML as the programming languages. Wait for a bit while Visual Studio sets up the project for you. If you are prompted for any information, just accept the default values for now.
+
+1. In the **New Universal Windows Platform Project** dialog box, accept the defaults by choosing **OK**.
 
 1. Shortly, you should see something like the following screenshot. Your project files are listed on the right side in a window called Solution Explorer.
 
@@ -134,7 +141,7 @@ One good way to learn about something is to use it! Let's dive in and create a n
 
   ![screenshot](../ide/media/VSIDE_Tour_XAMLButton2.png)
 
-1. Now, start the app. You can do this by choosing the **Start** (![Start button](../ide/media/VSIDE_StartButton.png)) button on the toolbar, or by choosing the **F5** key, or on the menu, choosing **Debug**, **Start Debugging**.
+1. Now, start the app. You can do this by choosing the **Start** (![Start button](../ide/media/VSIDE_StartButton.png)) button on the toolbar, or by choosing the **F5** key, or on the menu, choosing **Debug** > **Start Debugging**.
 
   ![screenshot](../ide/media/VSIDE_Tour_RunButton.png)
 
@@ -146,7 +153,7 @@ One good way to learn about something is to use it! Let's dive in and create a n
 
 1. When you're done running the program, choose the Stop (![Stop button](../ide/media/VSIDE_StopButton.png)) button on the toolbar to stop it.
 
-Let's recap what you did so far: you created a new C# Windows Universal project in Visual Studio, viewed its code, added a control to the designer, changed some XAML code, and then ran the project. Although the process was simplified for this example, this shows you some common parts of the Visual Studio IDE that you will use when you develop your own apps. If you want further details about this example, see [Create a "Hello, world" app (XAML)](https://docs.microsoft.com/windows/uwp/get-started/create-a-hello-world-app-xaml-universal).
+Let's recap what you did so far: you created a new C# Windows Universal project in Visual Studio, viewed its code, added a control to the designer, changed some XAML code, and then ran the project. Although the process was simplified for this example, this shows you some common parts of the Visual Studio IDE that you will use when you develop your own apps. If you want further details about this example, see [Create a "Hello, world" app (XAML)](/windows/uwp/get-started/create-a-hello-world-app-xaml-universal).
 
 ## Debug, test, and improve your code
 
@@ -178,7 +185,7 @@ To give you a high-level visual overview of Visual Studio, the following image s
 
 Following are some other common productivity features in Visual Studio:
 
-- The [Quick Launch](https://docs.microsoft.com/en-us/visualstudio/ide/reference/quick-launch-environment-options-dialog-box) search box is a great way to rapidly find what you need in Visual Studio. Just start entering in the name of whatever you are looking for, and Visual Studio lists results that take you exactly where you want to go. Quick Launch also shows links that start the Visual Studio Installer for any workload or individual component.
+- The [Quick Launch](../ide/reference/quick-launch-environment-options-dialog-box.md) search box is a great way to rapidly find what you need in Visual Studio. Just start entering in the name of whatever you are looking for, and Visual Studio lists results that take you exactly where you want to go. Quick Launch also shows links that start the Visual Studio Installer for any workload or individual component.
 
   ![Quick Launch search box](../ide/media/VSIDE_Tour_QuickLaunch.png)
 
@@ -186,11 +193,11 @@ Following are some other common productivity features in Visual Studio:
 
  ![Refactoring](../ide/media/VSIDE_refactor.png)
 
-- **IntelliSense** is an umbrella term for a set of popular features that display type information about your code directly in the editor and, in some cases, write small bits of code for you. It's like having basic documentation inline in the editor, which saves you from having to look up type information in a separate help window. IntelliSense features vary by language. For more information, see [Visual C# IntelliSense](../ide/visual-csharp-intellisense.md), [Visual C++ Intellisense](../ide/visual-cpp-intellisense.md), [JavaScript IntelliSense](../ide/javascript-intellisense.md), and [Visual Basic-Specific IntelliSense](../ide/visual-basic-specific-intellisense.md). The following illustration shows some IntelliSense features at work:
+- **IntelliSense** is an umbrella term for a set of popular features that display type information about your code directly in the editor and, in some cases, write small bits of code for you. It's like having basic documentation inline in the editor, which saves you from having to look up type information in a separate help window. IntelliSense features vary by language. For more information, see [C# IntelliSense](../ide/visual-csharp-intellisense.md), [Visual C++ Intellisense](../ide/visual-cpp-intellisense.md), [JavaScript IntelliSense](../ide/javascript-intellisense.md), and [Visual Basic-Specific IntelliSense](../ide/visual-basic-specific-intellisense.md). The following illustration shows some IntelliSense features at work:
 
   ![Visual Studio Member List](../ide/media/vs2017_Intellisense.png)
 
-- **Squiggles** are wavy red underlines that alert you to errors or potential problems in your code in real time as you type. This enables you to fix them immediately without waiting for the error to be discovered during compilation or run time. If you hover over the squiggle, you see additional information about the error. A light bulb may also appear in the left margin with suggestions for how to fix the error. For more information, see [Perform quick actions with light bulbs](../ide/perform-quick-actions-with-light-bulbs.md).
+- **Squiggles** are wavy red underlines that alert you to errors or potential problems in your code in real time as you type. This enables you to fix them immediately without waiting for the error to be discovered during compilation or run time. If you hover over the squiggle, you see additional information about the error. A light bulb may also appear in the left margin with suggestions for how to fix the error. For more information, see [Quick Actions](../ide/quick-actions.md).
 
  ![Squiggles](../ide/media/vs2017_squiggle.png)
 
@@ -228,7 +235,7 @@ The following image shows the Team Explorer window for a solution that is hosted
 
 ![Visual Studio Team Explorer](../ide/media/vs2017_teamexplorer.png)
 
-You can also automate your build process to build the code that the devs on your team have checked into version control. For example, you can build one or more projects nightly or every time that code is checked in. See [Continuous integration on any platform](https://www.visualstudio.com/en-us/docs/build/overview) for more information.
+You can also automate your build process to build the code that the devs on your team have checked into version control. For example, you can build one or more projects nightly or every time that code is checked in. See [Build and Release (VSTS and TFS)](/vsts/build-release/index) for more information.
 
 ## Connect to services, databases, and cloud-based resources
 
@@ -242,18 +249,19 @@ You can view and manage your Azure-based cloud resources within Visual Studio us
 
 ![Cloud Explorer](../ide/media/VSIDE_CloudExplorer.png)
 
-**Server Explorer** helps you browse and manage SQL Server instances and assets locally, remotely, and on Azure, Salesforce.com, Office 365, and websites. To open Server Explorer, on the main menu, choose **View**, **Server Explorer**. See [Add new connections](https://docs.microsoft.com/visualstudio/data-tools/add-new-connections) for more information on using Server Explorer.
+**Server Explorer** helps you browse and manage SQL Server instances and assets locally, remotely, and on Azure, Salesforce.com, Office 365, and websites. To open Server Explorer, on the main menu, choose **View** > **Server Explorer**. See [Add new connections](../data-tools/add-new-connections.md) for more information on using Server Explorer.
 
-[SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt) is a powerful development environment for SQL Server, Azure SQL Database and Azure SQL Data Warehouse. It enables you to build, debug, maintain, and refactor databases. You can work with a database project, or directly with a connected database instance on- or off-premises.
+[SQL Server Data Tools (SSDT)](/sql/ssdt/download-sql-server-data-tools-ssdt) is a powerful development environment for SQL Server, Azure SQL Database and Azure SQL Data Warehouse. It enables you to build, debug, maintain, and refactor databases. You can work with a database project, or directly with a connected database instance on- or off-premises.
 
 **SQL Server Object Explorer** in Visual Studio provides a view of your database objects similar to SQL Server Management Studio. SQL Server Object Explorer enables you to do light-duty database administration and design work, including editing table data, comparing schemas, executing queries by using contextual menus right from SQL Server Object Explorer, and more.
 
 ![SQL Server Object Explorer](../ide/media/vs2015_sqlobjectexplorer.png)
 
 ## Extend Visual Studio
+
 If Visual Studio doesn't have the exact functionality you need, you can add it! You can personalize the IDE based on your workflow and style, add support for external tools not yet integrated with Visual Studio, and modify existing functionality to increase your productivity. To find the latest version of the Visual Studio Extensibility Tools (VS SDK), see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).
 
-You can use the .NET Compiler Platform (Roslyn) to write your own code analyzers and code generators. Find everything you need at [Roslyn](https://github.com/dotnet/Roslyn).
+You can use the .NET Compiler Platform ("Roslyn") to write your own code analyzers and code generators. Find everything you need at [Roslyn](https://github.com/dotnet/Roslyn).
 
 Find [existing extensions](https://marketplace.visualstudio.com/vs) for Visual Studio created by Microsoft developers as well as our development community.
 
@@ -270,6 +278,6 @@ Congratulations on completing the tour of the Visual Studio IDE! We hope you lea
 * [Visual Studio IDE](https://www.visualstudio.com/vs/)
 * [Visual Studio Downloads](https://www.visualstudio.com/downloads/)
 * [The Visual Studio Blog](https://blogs.msdn.microsoft.com/visualstudio/)
-* [Visual Studio Forums](https://social.msdn.microsoft.com/Forums/vstudio/en-US/home?category=visualstudio%2Cvsarch%2Cvsdbg%2Cvstest%2Cvstfs%2Cvsdata%2Cvsappdev%2Cvisualbasic%2Cvisualcsharp%2Cvisualc)
+* [Visual Studio Forums](https://social.msdn.microsoft.com/Forums/vstudio/home?category=visualstudio%2Cvsarch%2Cvsdbg%2Cvstest%2Cvstfs%2Cvsdata%2Cvsappdev%2Cvisualbasic%2Cvisualcsharp%2Cvisualc)
 * [Microsoft Virtual Academy](https://mva.microsoft.com/)
 * [Channel 9](https://channel9.msdn.com/)
