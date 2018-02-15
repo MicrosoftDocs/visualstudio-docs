@@ -48,6 +48,7 @@ An App Service runs on cloud-hosted virtual machines in Azure, but those virtual
 
 > If you want to use Azure App Service in your own datacenter or other on-premises computers, you can do so using the [Azure Stack](https://azure.microsoft.com/overview/azure-stack/).
 
+For more information on publishing ASP.NET Core apps, see [Publish an ASP.NET Core web app to Azure App Service using Visual Studio](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs).
 
 ## Azure Virtual Machines
 
@@ -81,7 +82,7 @@ Note that if for any reason (such as machine access) you are not able to use clo
 - You need only a local test deployment.
 - You want to examine and potentially modify the application files independently before sending them onto another deployment target.
 
-
+For more information on deploying .NET Core apps, see [Deploying .NET Core apps with Visual Studio](/dotnet/core/deploying/deploy-with-vs).
 
 ## Custom targets
 
@@ -101,3 +102,5 @@ You can create any number of Custom deployment profiles in Visual Studio, making
 - You're using cloud services on a provide other than Azure that can be accessed through URLs.
 - You want to deploy using credentials other than the ones that you use within Visual Studio, or those tied directly to your Azure accounts.
 - You want to delete files from the target each time you deploy.
+
+For more information on publishing to IIS, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45) and [Remote Debug ASP.NET on a Remote IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md).
