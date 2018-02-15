@@ -46,7 +46,7 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
         </a>
     </li>
     <li>
-        <a href="https://mva.microsoft.com/training-courses-embed/getting-started-with-visual-studio-2017-17798/Profiling-with-Diagnostics-Tools-in-Visual-Studio-2017-daHnzMD6D_9211787171">
+        <a href="https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Profiling-with-Diagnostics-Tools-in-Visual-Studio-2017-daHnzMD6D_9211787171">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
