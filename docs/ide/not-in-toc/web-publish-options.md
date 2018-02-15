@@ -102,4 +102,4 @@ You can create any number of Custom deployment profiles in Visual Studio, making
 - You want to deploy using credentials other than the ones that you use within Visual Studio, or those tied directly to your Azure accounts.
 - You want to delete files from the target each time you deploy.
 
-For more information on publishing to IIS, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45) and [Remote Debug ASP.NET on a Remote IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md).
+For more information on publishing to IIS, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45) and [Remote Debug ASP.NET on a Remote IIS Computer](../../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md).
