@@ -14,29 +14,16 @@ ms.assetid: 577c8011-9269-4373-8577-b4822a983724
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_isPointerBasedOnSymbolValue
 Specifies whether the `this` pointer is based on a symbol value.  
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_isPointerBasedOnSymbolValue(   
    BOOL* pRetVal);  
 ```  

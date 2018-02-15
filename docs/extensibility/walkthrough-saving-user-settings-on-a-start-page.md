@@ -10,22 +10,11 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 754b9bf3-8681-4c77-b0a4-09146a4e1d2d
 caps.latest.revision: 18
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Walkthrough: Saving User Settings on a Start Page
 You can persist user settings for your start page. By following this walkthrough, you can create a control that saves a setting to the registry when the user clicks a button, and then retrieves that setting every time the Start Page loads. Because the Start Page project template includes a customizable user control, and the default Start Page XAML calls that control, you do not have to modify the Start Page itself.  
@@ -95,11 +84,11 @@ You can persist user settings for your start page. By following this walkthrough
   
 2.  Add the following `using` statements to the top of the file.  
   
-     [!code-cs[StartPageDTE#11](../extensibility/codesnippet/CSharp/walkthrough-saving-user-settings-on-a-start-page_1.cs)]  
+     [!code-csharp[StartPageDTE#11](../extensibility/codesnippet/CSharp/walkthrough-saving-user-settings-on-a-start-page_1.cs)]  
   
 3.  Add a private `SettingsStore` property, as shown in the following example.  
   
-    ```c#  
+    ```csharp  
     private IVsWritableSettingsStore _settingsStore = null;  
     private IVsWritableSettingsStore SettingsStore  
     {  
@@ -133,7 +122,7 @@ You can persist user settings for your start page. By following this walkthrough
   
 4.  Fill in the `Button_Click` event as follows.  
   
-    ```c#  
+    ```csharp  
     private void Button_Click(object sender, RoutedEventArgs e)  
     {  
         int exists = 0;  
@@ -150,7 +139,7 @@ You can persist user settings for your start page. By following this walkthrough
   
 5.  Add the following handler for the `OnLoaded` event of the user control.  
   
-    ```c#  
+    ```csharp  
     private void OnLoaded(Object sender, RoutedEventArgs e)  
     {  
         string value;  

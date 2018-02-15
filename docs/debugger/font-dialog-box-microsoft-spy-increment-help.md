@@ -14,21 +14,9 @@ ms.assetid: 414c42a5-7168-46a9-bbea-6ab10f2d82a8
 caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Font Dialog Box (Microsoft Spy++ Help)
 Use this dialog box to configure the character font used in a [Spy++ Views](../debugger/spy-increment-views.md) window. To display this dialog box, expand the **View** menu and choose **Font**.  

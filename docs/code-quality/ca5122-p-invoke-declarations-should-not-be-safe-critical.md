@@ -5,28 +5,16 @@ ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-devops-test"
+  - "vs-ide-code-analysis"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f2581a6d-2a0e-40c1-b600-f5dc70909200
 caps.latest.revision: 4
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA5122 P/Invoke declarations should not be safe critical
 |||  
@@ -39,7 +27,7 @@ translation.priority.ht:
 ## Cause  
  A P/Invoke declaration has been marked with a <xref:System.Security.SecuritySafeCriticalAttribute>:  
   
-```c#  
+```csharp  
 [assembly: AllowPartiallyTrustedCallers]  
   
 // ...  
@@ -47,7 +35,7 @@ public class C
 {  
     [SecuritySafeCritical]  
     [DllImport("kernel32.dll")]  
-    public static extern bool Beep(int frequency, int duration); // CA5122 – safe critical p/invoke  
+    public static extern bool Beep(int frequency, int duration); // CA5122 - safe critical p/invoke  
    }  
   
 ```  
@@ -60,13 +48,13 @@ public class C
 ## How to Fix Violations  
  To make a P/Invoke available to transparent code, expose a security safe critical wrapper method for it:  
   
-```c#  
+```csharp  
 [assembly: AllowPartiallyTrustedCallers  
   
 class C  
 {  
    [SecurityCritical]  
-   [DllImport(“kernel32.dll”, EntryPoint=”Beep”)]  
+   [DllImport("kernel32.dll", EntryPoint="Beep")]  
    private static extern bool BeepPinvoke(int frequency, int duration); // Security Critical P/Invoke  
   
    [SecuritySafeCritical]  

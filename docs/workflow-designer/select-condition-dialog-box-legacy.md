@@ -15,20 +15,8 @@ caps.latest.revision: 5
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+ms.workload: 
+  - "multiple"
 ---
 # Select Condition Dialog Box (Legacy)
 This topic describes how use the **Select Condition** dialog box in the legacy [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)]. Use the legacy [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] when you need to target either the [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] or the [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)].  
@@ -49,9 +37,9 @@ This topic describes how use the **Select Condition** dialog box in the legacy [
   
 |UI Element|Description|  
 |----------------|-----------------|  
-|**New…**|Click to open the [Rule Condition Editor Dialog Box (Legacy)](../workflow-designer/rule-condition-editor-dialog-box-legacy.md) to create a new rule condition.|  
-|**Edit…**|Click to open the [Rule Condition Editor Dialog Box (Legacy)](../workflow-designer/rule-condition-editor-dialog-box-legacy.md) to edit the selected rule condition.|  
-|**Rename…**|Click to open a dialog box used to rename the selected rule condition.|  
+|**New...**|Click to open the [Rule Condition Editor Dialog Box (Legacy)](../workflow-designer/rule-condition-editor-dialog-box-legacy.md) to create a new rule condition.|  
+|**Edit...**|Click to open the [Rule Condition Editor Dialog Box (Legacy)](../workflow-designer/rule-condition-editor-dialog-box-legacy.md) to edit the selected rule condition.|  
+|**Rename...**|Click to open a dialog box used to rename the selected rule condition.|  
 |**Delete**|Click to delete the selected rule condition.|  
 |**Condition Preview**|Displays the condition expression for the selected rule condition.|  
 |**OK**|Click to assign the selected rule condition to the activity's condition.|  

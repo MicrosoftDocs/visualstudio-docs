@@ -14,29 +14,18 @@ helpviewer_keywords:
   - "FIELD_MODIFIERS enumeration"
 ms.assetid: 1e44681c-1f03-41a9-9c04-b79f231b0822
 caps.latest.revision: 15
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # FIELD_MODIFIERS
 Specifies modifiers for a field type.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_FIELD_MODIFIERS {   
    FIELD_MOD_NONE             = 0x00000000,  
   
@@ -75,7 +64,7 @@ enum enum_FIELD_MODIFIERS { 
 typedef DWORD FIELD_MODIFIERS;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_FIELD_MODIFIERS {  
    FIELD_MOD_NONE             = 0x00000000,  
   

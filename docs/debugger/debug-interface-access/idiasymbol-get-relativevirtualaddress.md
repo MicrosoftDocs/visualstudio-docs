@@ -16,29 +16,16 @@ ms.assetid: e37219e3-c021-4057-9ec8-4f7cf3c13a15
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_relativeVirtualAddress
 Retrieves the relative virtual address (RVA) of the location. Use when the [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md) is set to `LocIsStatic`.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_relativeVirtualAddress (   
    DWORD* pRetVal  
 );  
@@ -56,7 +43,7 @@ HRESULT get_relativeVirtualAddress ( 
   
 ## Example  
   
-```cpp#  
+```C++  
 IDiaSymbol* pSymbol;  
 DWORD       rva;  
 pSymbol->get_relativeVirtualAddress( &rva );  

@@ -14,36 +14,25 @@ helpviewer_keywords:
   - "BSTR_ARRAY structure"
 ms.assetid: 48da37f7-a237-48a9-9ff9-389c1a00862c
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # BSTR_ARRAY
 A structure that describes an array of strings.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct tagBSTR_ARRAY {  
    DWORD dwCount;  
    BSTR* Members;  
 } BSTR_ARRAY;  
 ```  
   
-```c#  
+```csharp  
 struct BSTR_ARRAY {  
    DWORD    dwCount;  
    string[] Members;  

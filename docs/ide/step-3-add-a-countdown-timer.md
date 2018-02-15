@@ -5,29 +5,16 @@ ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-ide-general"
+  - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 62670a2b-efdc-45c6-9646-9b17eeb33dcb
 caps.latest.revision: 23
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "TerryGLee"
+ms.author: "tglee"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Step 3: Add a Countdown Timer
 In the third part of this tutorial, you'll add a countdown timer to track the number of seconds that remain for the quiz taker to finish.  
@@ -40,7 +27,7 @@ In the third part of this tutorial, you'll add a countdown timer to track the nu
 1.  Add an integer variable that's named **timeLeft**, just like you did in the previous procedure. Your code should look like the following.  
   
      [!code-vb[VbExpressTutorial3Step3#5](../ide/codesnippet/VisualBasic/step-3-add-a-countdown-timer_1.vb)]
-     [!code-cs[VbExpressTutorial3Step3#5](../ide/codesnippet/CSharp/step-3-add-a-countdown-timer_1.cs)]  
+     [!code-csharp[VbExpressTutorial3Step3#5](../ide/codesnippet/CSharp/step-3-add-a-countdown-timer_1.cs)]  
   
      Now you need a method that actually counts the seconds, such as a timer, which raises an event after the amount of time that you specify.  
   
@@ -59,7 +46,7 @@ In the third part of this tutorial, you'll add a countdown timer to track the nu
 5.  Add the following statements to the new event handler method.  
   
      [!code-vb[VbExpressTutorial3Step3#6](../ide/codesnippet/VisualBasic/step-3-add-a-countdown-timer_2.vb)]
-     [!code-cs[VbExpressTutorial3Step3#6](../ide/codesnippet/CSharp/step-3-add-a-countdown-timer_2.cs)]  
+     [!code-csharp[VbExpressTutorial3Step3#6](../ide/codesnippet/CSharp/step-3-add-a-countdown-timer_2.cs)]  
   
      Based on what you added, the timer checks each second whether time has run out by determining whether the **timeLeft** integer variable is greater than 0. If it is, time still remains. The timer first subtracts 1 from timeLeft and then updates the **Text** property of the `timeLabel` control to show the quiz taker how many seconds remain.  
   
@@ -68,7 +55,7 @@ In the third part of this tutorial, you'll add a countdown timer to track the nu
      You just added an `if else` statement, which is how you tell programs to make decisions. An `if else` statement looks like the following.  
   
     > [!NOTE]
-    >  The following example is for illustration only–don't add it to your project.  
+    >  The following example is for illustration only-don't add it to your project.  
   
     ```vb  
     If (something that your program will check) Then  
@@ -80,7 +67,7 @@ In the third part of this tutorial, you'll add a countdown timer to track the nu
     End If  
     ```  
   
-    ```c#  
+    ```csharp  
     if (something that your program will check)  
     {  
         // One or more statements that will run  
@@ -96,7 +83,7 @@ In the third part of this tutorial, you'll add a countdown timer to track the nu
      Look closely at the statement that you added in the `else` block to show the answer to the addition problem.  
   
      [!code-vb[VbExpressTutorial3Step3#24](../ide/codesnippet/VisualBasic/step-3-add-a-countdown-timer_3.vb)]
-     [!code-cs[VbExpressTutorial3Step3#24](../ide/codesnippet/CSharp/step-3-add-a-countdown-timer_3.cs)]  
+     [!code-csharp[VbExpressTutorial3Step3#24](../ide/codesnippet/CSharp/step-3-add-a-countdown-timer_3.cs)]  
   
      The statement `addend1 + addend2` adds the values in the two variables together. The first part (`sum.Value`) uses the **Value** property of the sum `NumericUpDown` control to display the correct answer. You use the same property later to check the answers for the quiz.  
   
@@ -105,7 +92,7 @@ In the third part of this tutorial, you'll add a countdown timer to track the nu
 6.  Add three lines to the end of the `StartTheQuiz()` method, so the code looks like the following.  
   
      [!code-vb[VbExpressTutorial3Step3#7](../ide/codesnippet/VisualBasic/step-3-add-a-countdown-timer_4.vb)]
-     [!code-cs[VbExpressTutorial3Step3#7](../ide/codesnippet/CSharp/step-3-add-a-countdown-timer_4.cs)]  
+     [!code-csharp[VbExpressTutorial3Step3#7](../ide/codesnippet/CSharp/step-3-add-a-countdown-timer_4.cs)]  
   
      Now, when your quiz starts, the **timeLeft** variable is set to 30 and the **Text** property of the `timeLabel` control is set to 30 seconds. Then the `Start()` method of the `Timer` control starts the countdown. (The quiz doesn't check the answer yet—that comes next.)  
   

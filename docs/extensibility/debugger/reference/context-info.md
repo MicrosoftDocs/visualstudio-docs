@@ -14,29 +14,18 @@ helpviewer_keywords:
   - "CONTEXT_INFO structure"
 ms.assetid: 6b513f4e-e7b0-4969-adf0-2205ccc1e09b
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # CONTEXT_INFO
 This structure describes a memory context or code context.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct _tagCONTEXT_INFO {   
    CONTEXT_INFO_FIELDS dwFields;  
    BSTR                bstrModuleUrl;  
@@ -48,7 +37,7 @@ typedef struct _tagCONTEXT_INFO { 
 } CONTEXT_INFO;  
 ```  
   
-```c#  
+```csharp  
 public struct CONTEXT_INFO {  
    public uint          dwFields;  
    public string        bstrModuleUrl;  

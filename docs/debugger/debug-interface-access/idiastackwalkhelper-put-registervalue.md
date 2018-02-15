@@ -16,29 +16,16 @@ ms.assetid: 8f02ce54-ef59-455f-8aa6-dc26761c7aff
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaStackWalkHelper::put_registerValue
 Sets the value of a register.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT put_registerValue (   
    DWORD     index,  
    ULONGLONG NewVal  

@@ -16,29 +16,16 @@ ms.assetid: d66712dd-6c24-4192-919a-cce262066f0e
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaDataSource::loadAndValidateDataFromPdb
 Opens and verifies that the program database (.pdb) file matches the signature information provided, and  prepares the .pdb file as a debug data source.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT loadAndValidateDataFromPdb (   
    LPCOLESTR pdbPath,  
    GUID*     pcsig70,  
@@ -83,7 +70,7 @@ HRESULT loadAndValidateDataFromPdb ( 
   
 ## Example  
   
-```cpp#  
+```C++  
 IDiaDataSource* pSource;  // Previously created data source.  
 DEFINE_GUID(expectedGUIDSignature,0x1234,0x5678,0x01,0x02,0x03,0x04,0x05,0x06,0x07,0x08);  
 DWORD expectedFileSignature = 0x12345678;  

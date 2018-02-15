@@ -14,7 +14,13 @@ helpviewer_keywords:
   - "performance collection methods"
 author: "mikejo5000"
 ms.author: "mikejo"
+<<<<<<< HEAD
 manager: "ghogen"
+=======
+manager: ghogen
+ms.workload: 
+  - "multiple"
+>>>>>>> master
 ---
 # How to: Choose Collection Methods
 

@@ -1,18 +1,20 @@
 ---
 title: "How to: Configure Code Analysis for an ASP.NET Web Application | Microsoft Docs"
-ms.custom:
+ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer:
-ms.suite:
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: 
+  - "vs-ide-code-analysis"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.codeanalysis.propertypages.asp"
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.workload: 
+  - "aspnet"
 ---
 # How to: Configure Code Analysis for an ASP.NET Web Application
 

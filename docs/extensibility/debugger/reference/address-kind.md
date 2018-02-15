@@ -14,22 +14,11 @@ helpviewer_keywords:
   - "ADDRESS_KIND enumeration"
 ms.assetid: 3a12fbec-7088-4cf9-8f6f-ad8ddec6009a
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # ADDRESS_KIND
 Specifies the kinds of addresses.  
@@ -51,7 +40,7 @@ enum enum_ADDRESS_KIND {
 typedef DWORD ADDRESS_KIND;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_ADDRESS_KIND {  
    ADDRESS_KIND_NATIVE                  = 0x0001,  
    ADDRESS_KIND_UNMANAGED_THIS_RELATIVE = 0x0002,  

@@ -14,29 +14,18 @@ helpviewer_keywords:
   - "IEnumDebugProcesses2::Next"
 ms.assetid: abef89eb-198b-49cd-a4c9-17bce6cac0e1
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IEnumDebugProcesses2::Next
 Returns the next set of elements from the enumeration.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Next(  
    ULONG            celt,  
    IDebugProcess2** rgelt,  
@@ -44,7 +33,7 @@ HRESULT Next(
 );  
 ```  
   
-```c#  
+```csharp  
 int Next(  
    uint             celt,  
    IDebugProcess2[] rgelt,  

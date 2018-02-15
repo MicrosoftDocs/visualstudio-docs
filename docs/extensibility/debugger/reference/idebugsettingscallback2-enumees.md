@@ -12,29 +12,18 @@ helpviewer_keywords:
   - "IDebugSettingsCallback2::EnumEEs"
 ms.assetid: 9f884c49-426f-461b-b547-9d909486e73f
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugSettingsCallback2::EnumEEs
 Enumerates the available expression evaluators given the language and vendor identifiers.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumEEs(  
    DWORD  celtBuffer,  
    GUID*  rgguidLang,  
@@ -43,7 +32,7 @@ HRESULT EnumEEs(
 );  
 ```  
   
-```c#  
+```csharp  
 public int EnumEEs(  
    uint       celtBuffer,  
    ref Guid   rgguidLang,  

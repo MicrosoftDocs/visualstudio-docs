@@ -16,29 +16,16 @@ ms.assetid: 5c610b78-f1a3-494a-acf8-c42b97935be1
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_noInline
-Retrieves a flag that specifies whether the function has been marked as being not inline (using the [noinline](/visual-cpp/cpp/noinline) attribute).  
+Retrieves a flag that specifies whether the function has been marked as being not inline (using the [noinline](/cpp/cpp/noinline) attribute).  
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_noInline(  
    BOOL *pFlag  
 );  
@@ -63,4 +50,4 @@ HRESULT get_noInline(
   
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
- [noinline](/visual-cpp/cpp/noinline)
+ [noinline](/cpp/cpp/noinline)

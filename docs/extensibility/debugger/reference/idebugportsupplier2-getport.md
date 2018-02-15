@@ -14,36 +14,25 @@ helpviewer_keywords:
   - "IDebugPortSupplier2::GetPort"
 ms.assetid: d55d5055-7386-4037-bf22-4c3e434a99ca
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugPortSupplier2::GetPort
 Gets a port from a port supplier.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetPort(   
    REFGUID       guidPort,  
    IDebugPort2** ppPort  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetPort(   
    ref Guid        guidPort,  
    out IDebugPort2 ppPort  

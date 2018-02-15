@@ -10,23 +10,11 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e8db7c7d-31cf-479e-9dcc-299759891795
 caps.latest.revision: 3
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Content Model View
 The Content Model View provides a graphic representation of local and global schema nodes and their components, including simple and complex types, elements, model groups, attributes, and attribute groups. XML comments and processing instructions cannot be viewed in the Content Model View. The Content Model View contains two panels: a **Workspace** panel that contains a list of the nodes in the [XML Schema Designer Workspace](../xml-tools/xml-schema-designer-workspace.md), and the design surface where you can see the content model of schema nodes that are selected in the **Workspace** panel. The Content Model View also includes the XML Schema Designer toolbar and the breadcrumb bar.  
@@ -59,7 +47,7 @@ The Content Model View provides a graphic representation of local and global sch
 |**Show in Graph View**|Switches to the Graph View.|  
 |**Generate Sample XML**|Available only for global elements. Generates a sample XML file for the global element.|  
 |**Show Documentation**|Shows or hides Annotation/Documentation node contents.|  
-|**Export Diagram as Image…**|Saves the design surface to an XPS file.|  
+|**Export Diagram as Image...**|Saves the design surface to an XPS file.|  
 |**View Code**|Opens the file that contains the selected node in the XML Editor. The item that is selected in the XML Schema Explorer will also be selected in the XML Editor.|  
 |**Properties Window**|Opens the **Properties** window (if it is not already open). This window displays information about the node.|  
   
@@ -118,7 +106,7 @@ The Content Model View provides a graphic representation of local and global sch
   
 -   By using the slider control. The slider shows the current zoom level.  
   
- The Zoom slider is opaque when you select it, hover over it, or use CTRL with the mouse wheel to zoom; at all other times, it is transparent.  
+The Zoom slider is opaque when you select it, hover over it, or use CTRL with the mouse wheel to zoom; at all other times, it is transparent.  
   
 ## XML Editor Integration  
  You can switch back and forth between the XSD Designer and the XML Editor by using the context menu.  

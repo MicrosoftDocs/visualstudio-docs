@@ -1,47 +1,28 @@
 ---
-title: "JavaScript Console commands | Microsoft Docs"
+title: "JavaScript Console commands in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "07/17/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "FSharp"
-  - "VB"
-  - "CSharp"
-  - "C++"
 helpviewer_keywords: 
-  - "JavaScript Console commands [Windows Store apps]"
-  - "JavaScript debugging, console [Windows Store apps]"
-  - "debugging JavaScript, console [Windows Store apps]"
-ms.assetid: 359e2b24-6bb7-48e7-8b55-b570df0cb774
+  - "JavaScript Console commands [UWP apps]"
+  - "JavaScript debugging, console [UWP apps]"
+  - "debugging JavaScript, console [UWP apps]"
 caps.latest.revision: 47
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "uwp"
+  - "cordova"
 ---
-# JavaScript Console commands
-![Applies to Windows and Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  
+# JavaScript Console commands in Visual Studio
   
- You can use commands to send messages and perform other tasks in the JavaScript Console window of Visual Studio. For examples that show how to use that window, see [QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md). The information in this topic applies to Windows Store apps, Windows Phone Store apps, and apps created using Visual Studio Tools for Apache Cordova. For info on supported console commands in Cordova apps, see [Debug Your App](https://taco.visualstudio.com/en-us/docs/debug-using-visual-studio/). For info on using the console in Internet Explorer F12 tools, see [this topic](http://msdn.microsoft.com/library/ie/dn255006.aspx).  
+ You can use commands to send messages and perform other tasks in the JavaScript Console window of Visual Studio. For examples that show how to use that window, see [QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md). The information in this topic applies to UWP apps and apps created using Visual Studio Tools for Apache Cordova. For info on supported console commands in Cordova apps, see [Debug Your App](https://taco.visualstudio.com/en-us/docs/debug-using-visual-studio/). For info on using the console in Internet Explorer F12 tools, see [this topic](http://msdn.microsoft.com/library/ie/dn255006.aspx).  
   
  If the JavaScript Console window is closed, you can open it while you're debugging in Visual Studio by choosing **Debug** > **Windows** > **JavaScript Console**.  
   
@@ -70,9 +51,9 @@ translation.priority.mt:
 |`groupEnd()`|Ends the current group.<br /><br /> Requirements:<br /><br /> Visual Studio 2013|See the example for the `group` command.|  
 |`info(message)`|Sends `message` to the console window. The message is prefaced by an information symbol.|`console.info("info message");`<br /><br /> For more examples, see [Formatting console.log output](#ConsoleLog) later in this topic.|  
 |`log(message)`|Sends `message` to the console window.<br /><br /> If you pass an object, this command sends that object to the console window and displays it in an object visualizer. You can use the visualizer to inspect properties in the console window.|`console.log("logging message");`|  
-|`msIsIndependentlyComposed(element)`|Used in web apps. Not supported in Store apps using JavaScript.|Not supported.|  
-|`profile(reportName)`|Used in web apps. Not supported in Store apps using JavaScript.|Not supported.|  
-|`profileEnd()`|Used in web apps. Not supported in Store apps using JavaScript.|Not supported.|  
+|`msIsIndependentlyComposed(element)`|Used in web apps. Not supported in UWP apps using JavaScript.|Not supported.|  
+|`profile(reportName)`|Used in web apps. Not supported in UWP apps using JavaScript.|Not supported.|  
+|`profileEnd()`|Used in web apps. Not supported in UWP apps using JavaScript.|Not supported.|  
 |`select(element)`|Selects the specified HTML `element` in the [DOM Explorer](../debugger/quickstart-debug-html-and-css.md).|console.select(element);|  
 |`time (name)`|Starts a timer that's identified by the optional `name` parameter. When used with `console.timeEnd`, calculates the time that elapses between `time` and `timeEnd`, and sends the result (measured in ms) to the console using the `name` string as a prefix. Used to enable instrumentation of app code for measuring performance.|`console.time("app start");  app.start();  console.timeEnd("app start");`|  
 |`timeEnd(name)`|Stops a timer that's identified by the optional `name` parameter. See the `time` console command.|`console.time("app start"); app.start(); console.timeEnd("app start");`|  

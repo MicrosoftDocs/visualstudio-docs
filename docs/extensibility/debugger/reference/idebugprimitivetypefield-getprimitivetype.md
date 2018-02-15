@@ -13,35 +13,24 @@ helpviewer_keywords:
   - "IDebugPrimitiveTypeField::GetPrimitiveType"
 ms.assetid: a186c922-bbfe-478c-a744-b21eb4672d8f
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugPrimitiveTypeField::GetPrimitiveType
 Retrieves the primitive type that is associated with this field.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetPrimitiveType (  
    DWORD* pdwType  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetPrimitiveType (  
    out uint pdwType  
 );  
@@ -49,7 +38,7 @@ int GetPrimitiveType (
   
 #### Parameters  
  `pdwType`  
- [out] Value from the [CorElementType Enumeration](CorElementType%20Enumeration.xml) that represents the primitive type.  
+ [out] Value from the [CorElementType Enumeration](/dotnet/framework/unmanaged-api/metadata/corelementtype-enumeration) that represents the primitive type.  
   
 ## Return Value  
  If successful, returns `S_OK`; otherwise, returns `S_FALSE`.  

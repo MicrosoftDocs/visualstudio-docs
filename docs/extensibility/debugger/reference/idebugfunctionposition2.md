@@ -14,22 +14,11 @@ helpviewer_keywords:
   - "IDebugFunctionPosition2 interface"
 ms.assetid: a835f65b-91b0-48ad-8485-04534c814b1b
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugFunctionPosition2
 This interface represents an abstract position of a function in a source document.  

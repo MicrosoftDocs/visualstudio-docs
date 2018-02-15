@@ -1,0 +1,20 @@
+﻿<VSTemplate Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>CustomAction</DefaultName>
+    <Name>Custom Action</Name>
+    <Description>SharePoint Custom Action by Contoso</Description>
+    <ProjectType>VisualBasic</ProjectType>
+    <SortOrder>1000</SortOrder>
+    <Icon>ItemTemplate.ico</Icon>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$\Elements.xml" OpenInEditor="true">Elements.xml</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$\SharePointProjectItem.spdata">CustomAction.spdata</ProjectItem>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>ItemTemplateWizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4f1a82232fa8c082</Assembly>
+    <FullClassName>ItemTemplateWizard.CustomActionWizard</FullClassName>
+  </WizardExtension>
+</VSTemplate>
+

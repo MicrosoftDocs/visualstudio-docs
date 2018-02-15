@@ -16,29 +16,16 @@ ms.assetid: b101853e-2bcf-47c1-acef-e13984c7ea9d
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaLineNumber::get_lineNumberEnd
 Retrieves the one-based source line number where the statement or expression ends.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_lineNumberEnd (   
    DWORD* pRetVal  
 );  

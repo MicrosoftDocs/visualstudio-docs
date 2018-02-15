@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+	<assembly>
+		<name>Microsoft.SharePoint.Search</name>
+	</assembly>
+	<members>
+		<member name="M:Microsoft.SharePoint.Search.Administration.SPSearchService.Delete">
+			<summary>Removes this object from the collection and the farm.</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.Search.Administration.SPSearchService.Provision">
+			<summary>Makes the necessary changes to the local server to use the object.</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.Search.Administration.SPSearchService.Unprovision">
+			<summary>Makes the necessary changes to the local server to cleanup after deleting the object.</summary>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Administration.SPSearchService.Microsoft.SharePoint.Administration.Backup.IBackupRestore.Name">
+			<summary>Gets or sets the name that identifies a particular instance of the object.</summary>
+			<returns>A string containing the object's name.</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Administration.SPSearchService.TypeName">
+			<summary>Gets the user-friendly name that describes the object type in the Administration user interface. </summary>
+			<returns>A string containing the name. </returns>
+		</member>
+		<member name="M:Microsoft.SharePoint.Search.Administration.SPSearchServiceInstance.#ctor">
+			<summary> </summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.Search.Administration.SPSearchServiceInstance.Delete">
+			<summary>Removes this object from the collection and the farm.</summary>
+		</member>
+		<member name="M:Microsoft.SharePoint.Search.Administration.SPSearchServiceInstance.Update">
+			<summary>Causes the service instance to save its state and propagate changes to all machines in the farm.</summary>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Administration.SPSearchServiceInstance.DisplayName">
+			<summary>Gets the user-friendly name that describes this instance in the Administration user interface.</summary>
+			<returns>A string containing the name.</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Administration.SPSearchServiceInstance.Microsoft.SharePoint.Administration.Backup.IBackupRestore.Name">
+			<summary>Gets or sets the name that identifies a particular instance of the object.</summary>
+			<returns>A string containing the object's name.</returns>
+		</member>
+		<member name="P:Microsoft.SharePoint.Search.Administration.SPSearchServiceInstance.TypeName">
+			<summary>Gets the user-friendly name that describes this service instance in the Administration user interface.</summary>
+			<returns>A string containing the name of this service instance.</returns>
+		</member>
+	</members>
+</doc>

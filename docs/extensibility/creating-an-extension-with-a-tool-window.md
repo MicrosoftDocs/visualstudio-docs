@@ -10,22 +10,11 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 585b0a3a-f85b-4f92-81bb-9ca499bb8a89
 caps.latest.revision: 5
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Creating an Extension with a Tool Window
 In this procedure, you learn how to use the VSIX project template and the **Custom Tool Window** item template to create an extension with a tool window.  
@@ -37,7 +26,7 @@ In this procedure, you learn how to use the VSIX project template and the **Cust
   
 1.  Create a VSIX project named **FirstWindow**. You can find the VSIX project template in the **New Project** dialog under **Visual C# / Extensibility**.  
   
-2.  When the project opens, add a tool window item template named **FirstWindow**. In the **Solution Explorer**, right-click the project node and select **Add / New Item**. In the **Add New Item** dialog, go to **Visual C# / Extensibility** and select **Custom Tool Window**. In the **Name** field at the bottom of the window, change the tool window file name to **FirstWindow.cs**.  
+2.  When the project opens, add a tool window item template named **MyWindow**. In the **Solution Explorer**, right-click the project node and select **Add / New Item**. In the **Add New Item** dialog, go to **Visual C# / Extensibility** and select **Custom Tool Window**. In the **Name** field at the bottom of the window, change the tool window file name to **MyWindow.cs**.  
   
 3.  Build the project and start debugging.  
   
@@ -45,6 +34,6 @@ In this procedure, you learn how to use the VSIX project template and the **Cust
   
 4.  In the experimental instance, go to **View / Other Windows**.  
   
-     You should see a menu item for **FirstWindow**. Click it.  
+     You should see a menu item for **MyWindow**. Click it.  
   
-     You should see a tool window with the title **FirstWindow** and a button saying **Click Me!.**
+     You should see a tool window with the title **MyWindow** and a button saying **Click Me!.**

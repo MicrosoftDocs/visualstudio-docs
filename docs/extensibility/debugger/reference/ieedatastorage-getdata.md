@@ -14,29 +14,18 @@ helpviewer_keywords:
   - "IEEDataStorage::GetData"
 ms.assetid: 4d384039-73d4-40b4-ace6-a2474c546397
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IEEDataStorage::GetData
 Retrieves the specified number of bytes from the object.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetData(  
    ULONG  dataSize,  
    ULONG* sizeGotten,  
@@ -44,7 +33,7 @@ HRESULT GetData(
 );  
 ```  
   
-```c#  
+```csharp  
 int GetData(  
    uint     dataSize,  
    out uint sizeGotten,  

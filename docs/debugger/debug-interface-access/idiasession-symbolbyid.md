@@ -16,29 +16,16 @@ ms.assetid: 062e4b5a-9c4d-4703-88da-ec13102c2b66
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSession::symbolById
 Retrieves a symbol by its unique identifier.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT symbolById (   
    DWORD        id,  
    IDiaSymbol** ppSymbol  
@@ -63,7 +50,7 @@ HRESULT symbolById ( 
 ## Example  
  This example retrieves an [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) representing the type of another symbol. This example shows how to use the `symbolById` method in the session. A simpler approach is to call the [IDiaSymbol::get_type](../../debugger/debug-interface-access/idiasymbol-get-type.md) method to retrieve the type symbol directly.  
   
-```cpp#  
+```C++  
 IDiaSymbol *GetSymbolType(IDiaSymbol *pSymbol, IDiaSession *pSession)  
 {  
     IDiaSymbol *pTypeSymbol = NULL;  

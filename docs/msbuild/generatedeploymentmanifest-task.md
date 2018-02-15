@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: msbuild
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -20,23 +19,11 @@ helpviewer_keywords:
   - "GenerateDeploymentManifest task [MSBuild]"
 ms.assetid: 0734ebda-734d-49c4-9642-8d9d919d45fd
 caps.latest.revision: 27
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: Mikejo5000
+ms.author: mikejo
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # GenerateDeploymentManifest Task
 Generates a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment manifest. A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment manifest describes the deployment of an application by defining a unique identity for the deployment, identifying deployment traits such as install or online mode, specifying application update settings and update locations, and indicating the corresponding [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest.  
@@ -53,9 +40,9 @@ Generates a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] de
 |`Description`|Optional `String` parameter.<br /><br /> Specifies an optional description for the application.|  
 |`DisallowUrlActivation`|Optional `Boolean` parameter.<br /><br /> Specifies whether the application should be run automatically when it is opened through a URL. If this parameter is `true`, the application can only be started from the Start menu. The default value of this parameter is `false`. This input applies only when the `Install` parameter value is `true`.|  
 |`EntryPoint`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Indicates the entry point for the generated manifest assembly. For a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment manifest, this input specifies the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest.<br /><br /> In [!INCLUDE[vsprvslong](../code-quality/includes/vsprvslong_md.md)], the [GenerateApplicationManifest Task](../msbuild/generateapplicationmanifest-task.md) required an `EntryPoint` to generate an application manifest. (Assembly or native manifests do not require an `EntryPoint`.) This requirement was enforced with the build error: "MSB3185: EntryPoint not specified for manifest."<br /><br /> [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] does not issue this error when the `EntryPoint` task parameter is not specified. Instead, the \<customHostSpecified> tag is inserted as a child of the \<entryPoint> tag, for example:<br /><br /> `<entryPoint xmlns="urn:schemas-`<br /><br /> `microsoft-com:asm.v2">`<br /><br /> `<co.v1:customHostSpecified />`<br /><br /> `</entryPoint>`<br /><br /> You can add DLL dependencies to the application manifest by using the following steps:<br /><br /> 1.  Resolve the assembly references with a call to <xref:Microsoft.Build.Tasks.ResolveAssemblyReference>.<br />2.  Pass the output of the previous task and the assembly itself to <xref:Microsoft.Build.Tasks.ResolveManifestFiles>.<br />3.  Pass the dependencies by using the `Dependencies` parameter to <xref:Microsoft.Build.Tasks.GenerateApplicationManifest>.|  
-|`ErrorReportUrl`|Optional [String](assetId:///String?qualifyHint=False&autoUpgrade=True) parameter.<br /><br /> Specifies the URL of the Web page that is displayed in dialog boxes during ClickOnce installations.|  
+|`ErrorReportUrl`|Optional <xref:System.String?displayProperty=fullName> parameter.<br /><br /> Specifies the URL of the Web page that is displayed in dialog boxes during ClickOnce installations.|  
 |`InputManifest`|Optional <xref:Microsoft.Build.Framework.ITaskItem> parameter.<br /><br /> Indicates an input XML document to serve as a base for the manifest generator. This enables structured data, such as custom manifest definitions, to be reflected in the output manifest. The root element in the XML document must be an assembly node in the asmv1 namespace.|  
-|`Install`|Optional `Boolean` parameter.<br /><br /> Specifies whether the application is an installed application or an online-only application. If this parameter is `true`, the application will be installed on the user’s Start menu, and can be removed by using the Add or Remove Programs dialog box. If this parameter is `false`, the application is intended for online use from a Web page. The default value of this parameter is `true`.|  
+|`Install`|Optional `Boolean` parameter.<br /><br /> Specifies whether the application is an installed application or an online-only application. If this parameter is `true`, the application will be installed on the user's Start menu, and can be removed by using the Add or Remove Programs dialog box. If this parameter is `false`, the application is intended for online use from a Web page. The default value of this parameter is `true`.|  
 |`MapFileExtensions`|Optional `Boolean` parameter.<br /><br /> Specifies whether the .deploy file name extension mapping is used. If this parameter is `true`, every program file is published with a .deploy file name extension. This option is useful for Web server security to limit the number of file name extensions that must be unblocked to enable [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application deployment. The default value of this parameter is `false`.|  
 |`MaxTargetPath`|Optional `String` parameter.<br /><br /> Specifies the maximum allowed length of a file path in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application deployment. If this parameter is specified, the length of each file path in the application is checked against this limit. Any items that exceed the limit will cause a build warning. If this input is not specified or is zero, no checking is performed.|  
 |`MinimumRequiredVersion`|Optional `String` parameter.<br /><br /> Specifies whether the user can skip the update. If the user has a version that is less than the minimum required, he will not have the option to skip the update. This input only applies when the value of the `Install` parameter is `true`.|  

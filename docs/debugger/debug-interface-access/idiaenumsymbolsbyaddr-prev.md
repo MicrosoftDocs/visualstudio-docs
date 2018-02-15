@@ -16,29 +16,16 @@ ms.assetid: da3b3dca-68cb-4cb0-b25c-e28a1ffe49d3
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaEnumSymbolsByAddr::Prev
 Retrieves the previous symbols in order by address.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT Prev (   
    ULONG        celt,   
    IDiaSymbol** rgelt,  

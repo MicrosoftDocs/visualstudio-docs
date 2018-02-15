@@ -16,7 +16,13 @@ helpviewer_keywords:
   - "performance tools, setting profiling permissions"
 author: "mikejo5000"
 ms.author: "mikejo"
+<<<<<<< HEAD
 manager: "ghogen"
+=======
+manager: ghogen
+ms.workload: 
+  - "multiple"
+>>>>>>> master
 ---
 # How to: Set Permissions
 

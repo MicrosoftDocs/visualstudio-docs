@@ -10,27 +10,16 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 99e5566d-450e-4660-9bca-454e1c056a02
 caps.latest.revision: 16
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Walkthrough: Displaying Light Bulb Suggestions
 Light bulbs are icons used in the Visual Studio editor that expand to display a set of actions, for example fixes for problems identified by the built-in code analyzers or code refactoring.  
   
- In the Visual C# and Visual Basic editors, you can also use the .NET Compiler Platform (“Roslyn”) to write and package your own code analyzers with actions that display light bulbs automatically. For more information, see:  
+ In the Visual C# and Visual Basic editors, you can also use the .NET Compiler Platform ("Roslyn") to write and package your own code analyzers with actions that display light bulbs automatically. For more information, see:  
   
 -   [How To: Write a C# Diagnostic and Code Fix](https://github.com/dotnet/roslyn/wiki/How-To-Write-a-C%23-Analyzer-and-Code-Fix)  
   
@@ -38,7 +27,7 @@ Light bulbs are icons used in the Visual Studio editor that expand to display a 
   
  Other languages such as C++ also provide light bulbs for some quick actions, such as a suggestion to create a stub implementation of that function.  
   
- Here’s what a light bulb looks like. In a Visual Basic or Visual C# project, a red squiggle appears under a variable name when it is invalid. When you mouse over the invalid identifier, a light bulb is displayed near the cursor.  
+ Here's what a light bulb looks like. In a Visual Basic or Visual C# project, a red squiggle appears under a variable name when it is invalid. When you mouse over the invalid identifier, a light bulb is displayed near the cursor.  
   
  ![light bulb](../extensibility/media/lightbulb.png "LightBulb")  
   
@@ -67,7 +56,7 @@ Light bulbs are icons used in the Visual Studio editor that expand to display a 
   
 6.  Add the following using statements:  
   
-    ```c#  
+    ```csharp  
     using System;  
     using System.Linq;  
     using System.Collections.Generic;  
@@ -86,7 +75,7 @@ Light bulbs are icons used in the Visual Studio editor that expand to display a 
   
 1.  In the LightBulbTest.cs class file, delete the LightBulbTest class. Add a class named **TestSuggestedActionsSourceProvider** that implements <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSourceProvider>. Export it with a Name of **Test Suggested Actions** and a <xref:Microsoft.VisualStudio.Utilities.ContentTypeAttribute> of "text".  
   
-    ```c#  
+    ```csharp  
     [Export(typeof(ISuggestedActionsSourceProvider))]  
     [Name("Test Suggested Actions")]  
     [ContentType("text")]  
@@ -95,14 +84,14 @@ Light bulbs are icons used in the Visual Studio editor that expand to display a 
   
 2.  Inside the source provider class, import the <xref:Microsoft.VisualStudio.Text.Operations.ITextStructureNavigatorSelectorService> and add it as a property.  
   
-    ```c#  
+    ```csharp  
     [Import(typeof(ITextStructureNavigatorSelectorService))]  
     internal ITextStructureNavigatorSelectorService NavigatorService { get; set; }  
     ```  
   
 3.  Implement the <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSourceProvider.CreateSuggestedActionsSource%2A> method to return an <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSource> object. We will discuss the source in the next section.  
   
-    ```c#  
+    ```csharp  
     public ISuggestedActionsSource CreateSuggestedActionsSource(ITextView textView, ITextBuffer textBuffer)  
     {  
         if (textBuffer == null && textView == null)  
@@ -118,13 +107,13 @@ Light bulbs are icons used in the Visual Studio editor that expand to display a 
   
 1.  Add a class **TestSuggestedActionsSource** that implements <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSource>.  
   
-    ```c#  
+    ```csharp  
     internal class TestSuggestedActionsSource : ISuggestedActionsSource  
     ```  
   
 2.  Add private read-only fields for the suggested action source provider, the text buffer and the text view.  
   
-    ```c#  
+    ```csharp  
     private readonly TestSuggestedActionsSourceProvider m_factory;  
     private readonly ITextBuffer m_textBuffer;  
     private readonly ITextView m_textView;  
@@ -132,7 +121,7 @@ Light bulbs are icons used in the Visual Studio editor that expand to display a 
   
 3.  Add a constructor that sets the private fields.  
   
-    ```c#  
+    ```csharp  
     public TestSuggestedActionsSource(TestSuggestedActionsSourceProvider testSuggestedActionsSourceProvider, ITextView textView, ITextBuffer textBuffer)  
     {  
         m_factory = testSuggestedActionsSourceProvider;  
@@ -143,7 +132,7 @@ Light bulbs are icons used in the Visual Studio editor that expand to display a 
   
 4.  Add a private method that returns the word that is currently under the cursor. The following method looks at the current location of the cursor and asks the text structure navigator for the extent of the word. If the cursor is on a word, the <xref:Microsoft.VisualStudio.Text.Operations.TextExtent> is returned in the out parameter; otherwise the `out` parameter is `null` and the method returns `false`.  
   
-    ```c#  
+    ```csharp  
     private bool TryGetWordUnderCaret(out TextExtent wordExtent)  
     {  
         ITextCaret caret = m_textView.Caret;  
@@ -170,7 +159,7 @@ Light bulbs are icons used in the Visual Studio editor that expand to display a 
   
      In our implementation it asynchronously gets the <xref:Microsoft.VisualStudio.Text.Operations.TextExtent> and determines whether the extent is significant, i.e., whether it has some text other than whitespace.  
   
-    ```c#  
+    ```csharp  
     public Task<bool> HasSuggestedActionsAsync(ISuggestedActionCategorySet requestedActionCategories, SnapshotSpan range, CancellationToken cancellationToken)  
     {  
         return Task.Factory.StartNew(() =>  
@@ -191,7 +180,7 @@ Light bulbs are icons used in the Visual Studio editor that expand to display a 
     > [!WARNING]
     >  You should make sure that the implementations of `HasSuggestedActionsAsync()` and `GetSuggestedActions()` are consistent; that is, if `HasSuggestedActionsAsync()` returns `true`, then `GetSuggestedActions()` should have some actions to display. In many cases `HasSuggestedActionsAsync()` is called just before `GetSuggestedActions()`, but this is not always the case. For example, if the user invokes the light bulb actions by pressing (CTRL + .) only `GetSuggestedActions()` is called.  
   
-    ```c#  
+    ```csharp  
     public IEnumerable<SuggestedActionSet> GetSuggestedActions(ISuggestedActionCategorySet requestedActionCategories, SnapshotSpan range, CancellationToken cancellationToken)  
     {  
         TextExtent extent;  
@@ -208,13 +197,13 @@ Light bulbs are icons used in the Visual Studio editor that expand to display a 
   
 7.  Define a `SuggestedActionsChanged` event.  
   
-    ```c#  
+    ```csharp  
     public event EventHandler<EventArgs> SuggestedActionsChanged;  
     ```  
   
-8.  To complete the implementation, add implementations for the `Dispose()` and `TryGetTelemetryId()` methods. We don’t want to do telemetry, so just return false and set the GUID to Empty.  
+8.  To complete the implementation, add implementations for the `Dispose()` and `TryGetTelemetryId()` methods. We don't want to do telemetry, so just return false and set the GUID to Empty.  
   
-    ```c#  
+    ```csharp  
     public void Dispose()  
     {  
     }  
@@ -233,7 +222,7 @@ Light bulbs are icons used in the Visual Studio editor that expand to display a 
   
 2.  Create two classes, the first named `UpperCaseSuggestedAction` and the second named `LowerCaseSuggestedAction`. Both classes implement <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedAction>.  
   
-    ```c#  
+    ```csharp  
     internal class UpperCaseSuggestedAction : ISuggestedAction   
     internal class LowerCaseSuggestedAction : ISuggestedAction  
     ```  
@@ -242,7 +231,7 @@ Light bulbs are icons used in the Visual Studio editor that expand to display a 
   
 3.  Add the following using statements for these classes:  
   
-    ```c#  
+    ```csharp  
     using Microsoft.VisualStudio.Imaging.Interop;  
     using System.Windows;  
     using System.Windows.Controls;  
@@ -253,7 +242,7 @@ Light bulbs are icons used in the Visual Studio editor that expand to display a 
   
 4.  Declare a set of private fields.  
   
-    ```c#  
+    ```csharp  
     private ITrackingSpan m_span;  
     private string m_upper;  
     private string m_display;  
@@ -262,7 +251,7 @@ Light bulbs are icons used in the Visual Studio editor that expand to display a 
   
 5.  Add a constructor that sets the fields.  
   
-    ```c#  
+    ```csharp  
     public UpperCaseSuggestedAction(ITrackingSpan span)  
     {  
         m_span = span;  
@@ -274,7 +263,7 @@ Light bulbs are icons used in the Visual Studio editor that expand to display a 
   
 6.  Implement the <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedAction.GetPreviewAsync%2A> method so that it displays the action preview.  
   
-    ```c#  
+    ```csharp  
     public Task<object> GetPreviewAsync(CancellationToken cancellationToken)  
     {  
         var textBlock = new TextBlock();  
@@ -286,7 +275,7 @@ Light bulbs are icons used in the Visual Studio editor that expand to display a 
   
 7.  Implement the <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedAction.GetActionSetsAsync%2A> method so that it returns an empty <xref:Microsoft.VisualStudio.Language.Intellisense.SuggestedActionSet> enumeration.  
   
-    ```c#  
+    ```csharp  
     public Task<IEnumerable<SuggestedActionSet>> GetActionSetsAsync(CancellationToken cancellationToken)  
     {  
         return Task.FromResult<IEnumerable<SuggestedActionSet>>(null);  
@@ -295,7 +284,7 @@ Light bulbs are icons used in the Visual Studio editor that expand to display a 
   
 8.  Implement the properties as follows.  
   
-    ```c#  
+    ```csharp  
     public bool HasActionSets  
     {  
         get { return false; }  
@@ -330,7 +319,7 @@ Light bulbs are icons used in the Visual Studio editor that expand to display a 
   
 9. Implement the <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedAction.Invoke%2A> method by replacing the text in the span with its uppercase equivalent.  
   
-    ```c#  
+    ```csharp  
     public void Invoke(CancellationToken cancellationToken)  
     {  
         m_span.TextBuffer.Replace(m_span.GetSpan(m_snapshot), m_upper);  
@@ -342,7 +331,7 @@ Light bulbs are icons used in the Visual Studio editor that expand to display a 
   
 10. To complete the implementation, add the `Dispose()` and `TryGetTelemetryId()` methods.  
   
-    ```c#  
+    ```csharp  
     public void Dispose()  
     {  
     }  
@@ -355,7 +344,7 @@ Light bulbs are icons used in the Visual Studio editor that expand to display a 
     }  
     ```  
   
-11. Don’t forget to do the same thing for `LowerCaseSuggestedAction` changing the display text to “Convert ‘{0}’ to lower case” and the call <xref:System.String.ToUpper%2A> to <xref:System.String.ToLower%2A>.  
+11. Don't forget to do the same thing for `LowerCaseSuggestedAction` changing the display text to "Convert '{0}' to lower case" and the call <xref:System.String.ToUpper%2A> to <xref:System.String.ToLower%2A>.  
   
 ## Building and Testing the Code  
  To test this code, build the LightBulbTest solution and run it in the Experimental instance.  
@@ -374,4 +363,5 @@ Light bulbs are icons used in the Visual Studio editor that expand to display a 
   
      ![test light bulb, expanded](../extensibility/media/testlightbulbexpanded.gif "TestLIghtBulbExpanded")  
   
-6.  If you click the first action, all the text in the current word should be converted to upper case. If you click the second action, all the text should be converted to lower case.
+6.  If you click the first action, all the text in the current word should be converted to upper case. If you click the second action, all the text should be converted to lower case.  
+  

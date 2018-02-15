@@ -18,22 +18,11 @@ helpviewer_keywords:
   - "SccMsgDataOnAfterGetFile structure"
 ms.assetid: 2025c969-e3c7-4cf4-a5c5-099d342895ea
 caps.latest.revision: 21
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # LPTEXTOUTPROC
 When the user executes a source control operation from inside the integrated development environment (IDE), the source control plug-in might want to convey error or status messages relating to the operation. The plug-in can display its own message boxes for this purpose. However, for more seamless integration, the plug-in can pass strings to the IDE, which then displays them in its native way of displaying status information. The mechanism for this is the `LPTEXTOUTPROC` function pointer. The IDE implements this function (described in more detail below) for displaying error and status.  
@@ -43,7 +32,7 @@ When the user executes a source control operation from inside the integrated dev
 ## Signature  
  The IDE's output function has the following signature:  
   
-```cpp#  
+```cpp  
 typedef LONG (*LPTEXTOUTPROC) (  
    LPSTR display_string,  
    LONG mesg_type  
@@ -83,7 +72,7 @@ typedef LONG (*LPTEXTOUTPROC) (
   
 ###  <a name="LinkSccMsgDataIsCancelled"></a> SccMsgDataIsCancelled  
   
-```cpp#  
+```cpp  
 typedef struct {  
    DWORD dwBackgroundOperationID;  
 } SccMsgDataIsCancelled;  
@@ -93,7 +82,7 @@ typedef struct {
   
 ###  <a name="LinkSccMsgDataOnBeforeGetFile"></a> SccMsgDataOnBeforeGetFile  
   
-```cpp#  
+```cpp  
 typedef struct {  
    DWORD dwBackgroundOperationID;  
    PCSTR szFile;  
@@ -104,7 +93,7 @@ typedef struct {
   
 ###  <a name="LinkSccMsgDataOnAfterGetFile"></a> SccMsgDataOnAfterGetFile  
   
-```cpp#  
+```cpp  
 typedef struct {  
    DWORD dwBackgroundOperationID;  
    PCSTR szFile;  
@@ -130,7 +119,7 @@ typedef struct {
 ## Code Example  
  Here is a brief example of calling `LPTEXTOUTPROC` to send the `SCC_MSG_BACKGROUND_ON_MESSAGE` message, showing how to cast the structure for the call.  
   
-```cpp#  
+```cpp  
 LONG SendStatusMessage(  
     LPTEXTOUTPROC pTextOutProc,  
     DWORD         dwBackgroundID,  

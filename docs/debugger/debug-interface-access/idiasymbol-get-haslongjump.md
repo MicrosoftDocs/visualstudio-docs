@@ -16,29 +16,16 @@ ms.assetid: 14484cb1-43b0-47a1-a9a8-081b55566886
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_hasLongJump
-Retrieves a flag that specifies whether the function contains a use of the [longjmp](/visual-cpp/c-runtime-library/reference/longjmp) command (paired with a [setjmp](/visual-cpp/c-runtime-library/reference/setjmp) command, these form the C-style method of exception handling).  
+Retrieves a flag that specifies whether the function contains a use of the [longjmp](/cpp/c-runtime-library/reference/longjmp) command (paired with a [setjmp](/cpp/c-runtime-library/reference/setjmp) command, these form the C-style method of exception handling).  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_hasLongJump  
    BOOL *pFlag  
 );  
@@ -64,5 +51,5 @@ HRESULT get_hasLongJump
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
  [IDiaSymbol::get_hasSetJump](../../debugger/debug-interface-access/idiasymbol-get-hassetjump.md)   
- [longjmp](/visual-cpp/c-runtime-library/reference/longjmp)   
- [setjmp](/visual-cpp/c-runtime-library/reference/setjmp)
+ [longjmp](/cpp/c-runtime-library/reference/longjmp)   
+ [setjmp](/cpp/c-runtime-library/reference/setjmp)

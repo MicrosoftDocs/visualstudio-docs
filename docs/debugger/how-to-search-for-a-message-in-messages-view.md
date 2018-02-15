@@ -16,21 +16,9 @@ ms.assetid: 732b7ccc-54ea-41db-823b-2b96e3e4083e
 caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Search for a Message in Messages View
 You can search for a specific message in Messages view by using its handle, type, or message ID as search criteria. Any one of these — or a combination — will be valid search criteria. The initial direction of the search can also be specified. The fields in the dialog box are preloaded with the attributes of the message currently selected.  
@@ -45,11 +33,11 @@ You can search for a specific message in Messages view by using its handle, type
   
 3.  Drag the **Finder Tool** over the desired window. As you drag the tool, the **Message Search** dialog box displays details on the selected window.  
   
-     – or –  
+     - or -  
   
      If you have the handle of the window whose messages you want to examine, type it into the **Handle** text box.  
   
-     – or –  
+     - or -  
   
      If you know the message type and/or message ID you want, select them from the **Type** and **Message** dropdown menus, and clear the **Handle** text box.  
   

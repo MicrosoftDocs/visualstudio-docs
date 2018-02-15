@@ -17,7 +17,13 @@ helpviewer_keywords:
   - "vs.performance.rules.DA0029"
 author: "mikejo5000"
 ms.author: "mikejo"
+<<<<<<< HEAD
 manager: "ghogen"
+=======
+manager: ghogen
+ms.workload: 
+  - "multiple"
+>>>>>>> master
 ---
 # DA0029: Unsupported CLR Version
 

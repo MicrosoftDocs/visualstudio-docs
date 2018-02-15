@@ -19,20 +19,8 @@ caps.latest.revision: 17
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+ms.workload: 
+  - "multiple"
 ---
 # Developing Applications with the Workflow Designer
 The [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] is a visual designer and debugger for the graphical construction and debugging of [!INCLUDE[wf](../workflow-designer/includes/wf_md.md)] applications in the [!INCLUDE[netfx40_long](../workflow-designer/includes/netfx40_long_md.md)] that is hosted in the [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)] development environment. It enables you to compose a composite workflow application, activity library, or [!INCLUDE[indigo1](../workflow-designer/includes/indigo1_md.md)] service through the use of templates and activity designers. [!INCLUDE[crabout](../test/includes/crabout_md.md)] workflows, see the [Windows Workflow Foundation &#91;.NET Framework 4&#93;](http://msdn.microsoft.com/Library/9a23ea6b-d600-483e-89cd-8889cfec5f66).  
@@ -57,7 +45,7 @@ The [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] is a visual desig
   
 -   The messaging activities have been enhanced, allowing you to write fully-declarative (no code) [!INCLUDE[indigo1](../workflow-designer/includes/indigo1_md.md)] services.  
   
--   The **Add Service Reference…** functionality allows you to generate activities automatically that access Web services.  
+-   The **Add Service Reference...** functionality allows you to generate activities automatically that access Web services.  
   
 ## In This Section  
  [Using the Workflow Designer](../workflow-designer/using-the-workflow-designer.md)  
@@ -78,5 +66,5 @@ The [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] is a visual desig
  [Designer ReHosting &#91;WF Samples&#93;](http://msdn.microsoft.com/Library/b676ad31-5f64-4d84-9a36-b4d7113a2f4d)  
  This sample shows how to create the WPF layout to contain the designer.  
   
- [Custom Activity Designers](http://msdn.microsoft.com/Library/dcf14dca-ce6d-4278-96ba-062f0a679075)  
+ [Custom Activity Designers](/dotnet/framework/windows-workflow-foundation/samples/custom-activity-designers)  
  This section contains activity samples that use custom designers for display in the workflow designer.

@@ -16,29 +16,16 @@ ms.assetid: 66eaaf72-68d4-40ee-b132-97bea9fe395c
 caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_compilerName
 Returns the name of the compiler used to generate the [Compiland](../../debugger/debug-interface-access/compiland.md).  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_compilerName (  
    BSTR *pName  
 );  

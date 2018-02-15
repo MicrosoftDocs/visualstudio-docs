@@ -16,29 +16,16 @@ ms.assetid: 588163f7-958e-4072-bf66-db5c5f07d3cb
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_scoped
 Retrieves a flag that specifies whether the user-defined data type appears in a non-global lexical scope.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_scoped (   
    BOOL* pRetVal  
 );  

@@ -16,29 +16,16 @@ ms.assetid: f00b9ab1-d4da-4818-973a-58f8f0e66769
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaFrameData::get_functionParent
 Retrieves a frame data interface for the enclosing function.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_functionParent (   
    IDiaFrameData** pRetVal  
 );  

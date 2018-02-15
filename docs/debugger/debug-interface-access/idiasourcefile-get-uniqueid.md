@@ -16,29 +16,16 @@ ms.assetid: e0b8dbc0-6061-4f31-bead-2cd72be44e41
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSourceFile::get_uniqueId
 Retrieves a simple integer key value that is unique for this image.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_uniqueId (   
    DWORD* pRetVal  
 );  

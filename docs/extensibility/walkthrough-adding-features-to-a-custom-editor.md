@@ -12,22 +12,11 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], custom - add features"
 ms.assetid: bfe083b6-3e35-4b9c-ad4f-b30b9ff412a5
 caps.latest.revision: 38
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Walkthrough: Adding Features to a Custom Editor
 After you create a custom editor, you can add more features to it.  
@@ -50,7 +39,7 @@ After you create a custom editor, you can add more features to it.
   
 4.  Decide whether you want your editor to use in-place activation or simplified embedding to manage the document view object window.  
   
-     A simplified embedding editor window hosts a standard document view, while an in-place activation editor window hosts an ActiveX control or other active object as its document view. For more information, see [Simplified Embedding](../extensibility/simplified-embedding.md) and [In-Place Activation](../misc/in-place-activation.md).  
+     A simplified embedding editor window hosts a standard document view, while an in-place activation editor window hosts an ActiveX control or other active object as its document view. For more information, see [Simplified Embedding](../extensibility/simplified-embedding.md) and [In-Place Activation](../extensibility/in-place-activation.md).  
   
 5.  Implement the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface to handle commands.  
   

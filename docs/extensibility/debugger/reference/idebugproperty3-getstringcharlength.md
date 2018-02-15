@@ -14,22 +14,11 @@ helpviewer_keywords:
   - "IDebugProperty3::GetStringCharLength"
 ms.assetid: 89a8676b-6da9-4358-91c2-039bf33f99e4
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProperty3::GetStringCharLength
 Returns the number of characters in the associated property's string.  
@@ -42,7 +31,7 @@ HRESULT GetStringCharLength(
 );  
 ```  
   
-```c#  
+```csharp  
 int GetStringCharLength(  
    out uint pLen  
 );  
@@ -63,7 +52,7 @@ int GetStringCharLength(
 ## Example  
  The following example shows how to implement this method for a **CProperty** object that exposes the [IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md) interface.  
   
-```cpp#  
+```cpp  
 STDMETHODIMP CProperty::GetStringCharLength(ULONG *pLen)  
 {  
     HRESULT hr = E_INVALIDARG;  

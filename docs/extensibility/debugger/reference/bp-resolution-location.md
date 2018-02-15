@@ -14,29 +14,18 @@ helpviewer_keywords:
   - "BP_RESOLUTION_LOCATION structure"
 ms.assetid: 21dc5246-69c1-43e3-855c-9cd4e596c0e6
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # BP_RESOLUTION_LOCATION
 Specifies the structure of the breakpoint resolution location.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 struct _BP_RESOLUTION_LOCATION {  
    BP_TYPE bpType;  
    union {  
@@ -47,7 +36,7 @@ struct _BP_RESOLUTION_LOCATION {
 } BP_RESOLUTION_LOCATION;  
 ```  
   
-```c#  
+```csharp  
 public struct BP_RESOLUTION_LOCATION {  
    public uint bpType;  
    public IntPtr unionmember1;  
@@ -95,7 +84,7 @@ public struct BP_RESOLUTION_LOCATION {
 ## Example  
  This example shows how to interpret the `BP_RESOLUTION_LOCATION` structure in C#.  
   
-```c#  
+```csharp  
 using System;  
 using System.Runtime.Interop.Services;  
 using Microsoft.VisualStudio.Debugger.Interop;  

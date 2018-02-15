@@ -1,18 +1,20 @@
 ---
 title: "How to: Specify Managed Code Rule Sets for Multiple Projects in a Solution | Microsoft Docs"
-ms.custom: 
+ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: 
-ms.suite: 
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: 
+  - "vs-ide-code-analysis"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.codeanalysis.propertypages.solution"
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.workload: 
+  - "dotnet"
 ---
 # How to: Specify Managed Code Rule Sets for Multiple Projects in a Solution
 

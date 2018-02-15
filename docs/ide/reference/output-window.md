@@ -18,23 +18,11 @@ helpviewer_keywords:
   - "Toolbox, removing controls"
 ms.assetid: d8931d88-250e-4db4-963f-2c5b3e99b45f
 caps.latest.revision: 30
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Output Window
 The **Output** window can display status messages for various features in the integrated development environment (IDE). To open the **Output** window, on the menu bar, choose **View/Output** (or click CTRL + ALT + O).  
@@ -71,7 +59,7 @@ The **Output** window can display status messages for various features in the in
   
  You can also program your own applications to write diagnostic messages at run time to an **Output** pane. To do this, use members of the <xref:System.Diagnostics.Debug> class or <xref:System.Diagnostics.Trace> class in the <xref:System.Diagnostics> namespace of the .NET Framework Class Library. Members of the <xref:System.Diagnostics.Debug> class display output when you build Debug configurations of your solution or project; members of the <xref:System.Diagnostics.Trace> class display output when you build either Debug or Release configurations. For more information, see [Diagnostic Messages in the Output Window](../../debugger/diagnostic-messages-in-the-output-window.md).  
   
- In [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)], you can create custom build steps and build events whose warnings and errors are displayed and counted in the **Output** pane. By pressing F1 on a line of output, you can display an appropriate help topic. For more information, see [Formatting the Output of a Custom Build Step or Build Event](/visual-cpp/ide/formatting-the-output-of-a-custom-build-step-or-build-event).  
+ In [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)], you can create custom build steps and build events whose warnings and errors are displayed and counted in the **Output** pane. By pressing F1 on a line of output, you can display an appropriate help topic. For more information, see [Formatting the Output of a Custom Build Step or Build Event](/cpp/ide/formatting-the-output-of-a-custom-build-step-or-build-event).  
   
 ## Scrolling Behavior  
  If you use autoscrolling in the Output window and then navigate by using the mouse or arrow keys, autoscrolling stops. To resume autoscrolling, press CTRL+END.  
@@ -81,4 +69,4 @@ The **Output** window can display status messages for various features in the in
  [How to: Control the Output Window](http://msdn.microsoft.com/Library/91aebd15-8854-4a7a-9f7d-57376fb4e858)   
  [Compiling and Building](../../ide/compiling-and-building-in-visual-studio.md)   
  [Understanding Build Configurations](../../ide/understanding-build-configurations.md)   
- [Class Library Overview](http://msdn.microsoft.com/Library/7e4c5921-955d-4b06-8709-101873acf157)
+ [Class Library Overview](/dotnet/standard/class-library-overview)

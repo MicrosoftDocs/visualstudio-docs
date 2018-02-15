@@ -16,29 +16,16 @@ ms.assetid: 71e2f5ab-4aa8-4922-aa8a-b7db97ee143c
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaStackFrame::get_size
 Retrieves the size of the stack frame in bytes.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_size (   
    DWORD* pRetVal  
 );  

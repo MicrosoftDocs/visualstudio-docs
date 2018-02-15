@@ -14,7 +14,13 @@ helpviewer_keywords:
   - "Tier Interactions view"
 author: "mikejo5000"
 ms.author: "mikejo"
+<<<<<<< HEAD
 manager: "ghogen"
+=======
+manager: ghogen
+ms.workload: 
+  - "multiple"
+>>>>>>> master
 ---
 # Tier Interactions View
 

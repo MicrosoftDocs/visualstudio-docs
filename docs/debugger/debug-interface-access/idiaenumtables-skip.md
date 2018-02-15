@@ -16,29 +16,16 @@ ms.assetid: 5c9db956-0654-4f1a-8775-530aa980d8ec
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaEnumTables::Skip
 Skips a specified number of tables in an enumeration sequence.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT Skip (   
    ULONG celt  
 );  

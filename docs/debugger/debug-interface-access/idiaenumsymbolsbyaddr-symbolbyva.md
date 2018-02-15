@@ -16,29 +16,16 @@ ms.assetid: ac84339f-70c6-48ed-85d0-6d7d1b5194e8
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaEnumSymbolsByAddr::symbolByVA
 Positions the enumerator by performing a lookup by virtual address (VA).  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT symbolByVA (   
    DWORD**      virtualAddress,  
    IDiaSymbol** ppsymbol  

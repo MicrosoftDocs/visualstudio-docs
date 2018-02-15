@@ -9,10 +9,7 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
-  - "C++"
 helpviewer_keywords: 
   - "visualizers, writing"
   - "walkthroughs [Visual Studio], visualizers"
@@ -20,37 +17,29 @@ ms.assetid: 53467461-8e0f-45ee-9bc4-374bbaeaf00f
 caps.latest.revision: 33
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "dotnet"
 ---
 # Walkthrough: Writing a Visualizer in C# #
 This walkthrough shows how to write a simple visualizer by using C#. The visualizer you will create in this walkthrough displays the contents of a string using a Windows forms message box. This simple string visualizer is not especially useful in itself, but it shows the basic steps that you must follow to create more useful visualizers for other data types.  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition. To change your settings, go to the **Tools** menu and choose **Import and Export Settings**. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition. To change your settings, go to the **Tools** menu and choose **Import and Export Settings**. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).  
   
  Visualizer code must be placed in a DLL, which will be read by the debugger. Therefore, the first step is to create a Class Library project for the DLL.  
+
+## Create a visualizer manually
+
+Follow the tasks below to create a visualizer.
   
 #### To create a class library project  
   
-1.  On the **File** menu, choose **New** and then click **New Project**.  
+1.  On the **File** menu, choose **New > Project**.  
   
-2.  In the **New Project** dialog box, under **Project Type**s, select **Visual C#**.  
+2.  In the **New Project** dialog box, under **Visual C#**, select **.NET Standard**.  
   
-3.  In the **Templates** box, choose **Class Library**.  
+3.  In the middle pane, choose **Class Library**.  
   
 4.  In the **Name** box, type an appropriate name for the class library, such as MyFirstVisualizer.  
   
@@ -75,7 +64,7 @@ This walkthrough shows how to write a simple visualizer by using C#. The visuali
   
 6.  In DebuggerSide.cs, add the following statement to the `using` statements:  
   
-    ```  
+    ```csharp  
     using Microsoft.VisualStudio.DebuggerVisualizers;  
     ```  
   
@@ -85,13 +74,13 @@ This walkthrough shows how to write a simple visualizer by using C#. The visuali
   
 1.  In DebuggerSide.cs, go to the following line of code:  
   
-    ```  
+    ```csharp  
     public class DebuggerSide  
     ```  
   
 2.  Change the code to:  
   
-    ```  
+    ```csharp  
     public class DebuggerSide : DialogDebuggerVisualizer  
     ```  
   
@@ -101,8 +90,8 @@ This walkthrough shows how to write a simple visualizer by using C#. The visuali
   
 -   In `public class DebuggerSide`, add the following **method:**  
   
-    ```  
-    override protected void Show(IDialogVisualizerService windowService, IVisualizerObjectProvider objectProvider)  
+    ```csharp  
+    protected override void Show(IDialogVisualizerService windowService, IVisualizerObjectProvider objectProvider)  
     {  
     }  
     ```  
@@ -119,7 +108,7 @@ This walkthrough shows how to write a simple visualizer by using C#. The visuali
   
 4.  In DebuggerSide.cs, add the following statement to the `using` statements:  
   
-    ```  
+    ```csharp  
     using System.Windows.Forms;  
     ```  
   
@@ -129,7 +118,7 @@ This walkthrough shows how to write a simple visualizer by using C#. The visuali
   
 1.  In the `Show` method, add the following line of code:  
   
-    ```  
+    ```csharp  
     MessageBox.Show(objectProvider.GetObject().ToString());  
     ```  
   
@@ -143,12 +132,12 @@ This walkthrough shows how to write a simple visualizer by using C#. The visuali
   
 1.  Add the following attribute code to DebuggerSide.cs, after the `using` statements but before `namespace MyFirstVisualizer`:  
   
-    ```  
+    ```csharp  
     [assembly:System.Diagnostics.DebuggerVisualizer(  
     typeof(MyFirstVisualizer.DebuggerSide),  
     typeof(VisualizerObjectSource),  
-    Target  = typeof(System.String),  
-    Description  = "My First Visualizer")]  
+    Target = typeof(System.String),  
+    Description = "My First Visualizer")]  
     ```  
   
 2.  On the **Build** menu, choose **Build MyFirstVisualizer**. The project should build successfully. Correct any build errors before continuing.  
@@ -159,7 +148,7 @@ This walkthrough shows how to write a simple visualizer by using C#. The visuali
   
 1.  Add the following method to class `public DebuggerSide`:  
   
-    ```  
+    ```csharp  
     public static void TestShowVisualizer(object objectToVisualize)  
     {  
        VisualizerDevelopmentHost visualizerHost = new VisualizerDevelopmentHost(objectToVisualize, typeof(DebuggerSide));  
@@ -209,13 +198,13 @@ This walkthrough shows how to write a simple visualizer by using C#. The visuali
   
 3.  In TestConsole.cs, add the following code to the `using` statements:  
   
-    ```  
+    ```csharp  
     using MyFirstVisualizer;  
     ```  
   
 4.  In method `Main`, add the following code:  
   
-    ```  
+    ```csharp  
     String myString = "Hello, World";  
     DebuggerSide.TestShowVisualizer(myString);  
     ```  
@@ -234,18 +223,18 @@ This walkthrough shows how to write a simple visualizer by using C#. The visuali
   
  If you want to use your visualizer in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] rather than just calling it from the test harness, you have to install it. For more information, see [How to: Install a Visualizer](../debugger/how-to-install-a-visualizer.md).  
   
-## Using the Visualizer Item Template  
+## Create a visualizer using the Visualizer item template  
  So far, this walkthrough has shown you how to create a visualizer manually. This was done as a learning exercise. Now that you know how a simple visualizer works, there is an easier way to create one: using the visualizer item template.  
   
  First, you have to create a new class library project.  
   
 #### To create a new class library  
   
-1.  On the **File** menu, choose **Add** and then click **New Project**.  
+1.  On the **File** menu, choose **New > Project**.  
   
-2.  In the **Add New Project** dialog box, under **Project Type**s, select **Visual C#**.  
+2.  In the **New Project** dialog box, under **Visual C#**, select **.NET Standard**.  
   
-3.  In the **Templates** box, choose **Class Library**.  
+3.  In the middle pane, choose **Class Library**.   
   
 4.  In the **Name** box, type an appropriate name for the class library, such as MySecondVisualizer.  
   
@@ -259,7 +248,7 @@ This walkthrough shows how to write a simple visualizer by using C#. The visuali
   
 2.  On the shortcut menu, choose **Add** and then click **New Item**.  
   
-3.  In the **Add New Item** dialog box, under **Templates**, **Visual Studio Installed Templates**, select **Debugger Visualizer**.  
+3.  In the **Add New Item** dialog box, under **Visual C# Items**, select **Debugger Visualizer**.  
   
 4.  In the **Name** box, type an appropriate name, such as SecondVisualizer.cs.  
   

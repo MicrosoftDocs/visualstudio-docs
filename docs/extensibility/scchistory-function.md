@@ -14,29 +14,18 @@ helpviewer_keywords:
   - "SccHistory function"
 ms.assetid: a636d9d3-47c1-4b48-ac6b-bcfde19d6cf9
 caps.latest.revision: 16
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # SccHistory Function
 This function displays the history of the specified files.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 SCCRTN SccHistory(  
    LPVOID    pvContext,  
    HWND      hWnd,  

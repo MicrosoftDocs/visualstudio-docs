@@ -14,22 +14,11 @@ helpviewer_keywords:
   - "IDebugStackFrame2 interface"
 ms.assetid: bd212a6a-dcc6-4756-a77a-e8dfda38b104
 caps.latest.revision: 14
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugStackFrame2
 This interface represents a single stack frame in a call stack in a particular thread.  

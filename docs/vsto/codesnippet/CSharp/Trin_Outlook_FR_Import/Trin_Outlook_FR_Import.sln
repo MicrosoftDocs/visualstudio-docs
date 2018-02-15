@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 11
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trin_Outlook_FR_Import", "Trin_Outlook_FR_Import.csproj", "{57C8F6E6-2F7A-41B3-99D7-776AA988B5C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = preSolution
+		{57C8F6E6-2F7A-41B3-99D7-776AA988B5C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57C8F6E6-2F7A-41B3-99D7-776AA988B5C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57C8F6E6-2F7A-41B3-99D7-776AA988B5C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57C8F6E6-2F7A-41B3-99D7-776AA988B5C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

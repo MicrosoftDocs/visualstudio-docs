@@ -16,29 +16,16 @@ ms.assetid: 73196d3f-112c-4b3a-997b-7c6b815d4afc
 caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaStackWalker::getEnumFrames2
 Retrieves a stack frame enumerator for a specific platform type.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
   
       HRESULT getEnumFrames2(   
    enum  CV_CPU_TYPE_e    cpuid,  

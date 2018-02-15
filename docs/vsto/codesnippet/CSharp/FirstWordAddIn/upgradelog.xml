@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="FirstWordAddIn">
+</Property><Property Name="Solution File" Value="C:\Users\normesta\Desktop\Projects\Trin_WordAddInTutorial\CS\FirstWordAddIn.sln">
+</Property><Property Name="User Options File" Value="C:\Users\normesta\Desktop\Projects\Trin_WordAddInTutorial\CS\FirstWordAddIn.v11.suo">
+</Property><Property Name="Date" Value="Tuesday, November 08, 2011">
+</Property><Property Name="Time" Value="15:33 PM">
+</Property></Properties><Event ErrorLevel="3" Project="" Source="FirstWordAddIn.sln" Description="SafeUpgrade">
+</Event><Event ErrorLevel="0" Project="" Source="FirstWordAddIn.sln" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_WordAddInTutorial\CS\Backup\FirstWordAddIn.sln">
+</Event><Event ErrorLevel="0" Project="" Source="FirstWordAddIn.v11.suo" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_WordAddInTutorial\CS\Backup\FirstWordAddIn.v11.suo">
+</Event><Event ErrorLevel="3" Project="FirstWordAddIn" Source="FirstWordAddIn.csproj" Description="SafeRepair">
+</Event><Event ErrorLevel="0" Project="FirstWordAddIn" Source="FirstWordAddIn.csproj" Description="Project file successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_WordAddInTutorial\CS\Backup\FirstWordAddIn.csproj">
+</Event><Event ErrorLevel="0" Project="FirstWordAddIn" Source="FirstWordAddIn.csproj.user" Description="Project user file successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_WordAddInTutorial\CS\Backup\FirstWordAddIn.csproj.user">
+</Event><Event ErrorLevel="0" Project="FirstWordAddIn" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_WordAddInTutorial\CS\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="FirstWordAddIn" Source="Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_WordAddInTutorial\CS\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="FirstWordAddIn" Source="Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_WordAddInTutorial\CS\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="FirstWordAddIn" Source="ThisAddIn.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_WordAddInTutorial\CS\Backup\ThisAddIn.cs">
+</Event><Event ErrorLevel="0" Project="FirstWordAddIn" Source="ThisAddIn.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_WordAddInTutorial\CS\Backup\ThisAddIn.Designer.cs">
+</Event><Event ErrorLevel="0" Project="FirstWordAddIn" Source="FirstWordAddIn_TemporaryKey.pfx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_WordAddInTutorial\CS\Backup\FirstWordAddIn_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="FirstWordAddIn" Source="Properties\Settings.settings" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_WordAddInTutorial\CS\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="FirstWordAddIn" Source="ThisAddIn.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_WordAddInTutorial\CS\Backup\ThisAddIn.Designer.xml">
+</Event><Event ErrorLevel="0" Project="FirstWordAddIn" Source="Properties\Resources.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_WordAddInTutorial\CS\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="FirstWordAddIn" Source="FirstWordAddIn.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="FirstWordAddIn" Source="FirstWordAddIn.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="FirstWordAddIn.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="FirstWordAddIn.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="FirstWordAddIn" Source="FirstWordAddIn.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

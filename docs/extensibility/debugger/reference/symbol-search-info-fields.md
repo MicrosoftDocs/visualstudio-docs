@@ -14,29 +14,18 @@ helpviewer_keywords:
   - "SYMBOL_SEARCH_INFO_FIELDS enumeration"
 ms.assetid: bce35af0-722d-46d4-afa6-eaae598c51ff
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # SYMBOL_SEARCH_INFO_FIELDS
 Specifies the kind of symbol information to retrieve.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_SYMBOL_SEARCH_INFO_FIELDS  
 {  
    SSIF_NONE                = 0x00000000,  
@@ -45,7 +34,7 @@ enum enum_SYMBOL_SEARCH_INFO_FIELDS
 typedef DWORD SYMBOL_SEARCH_INFO_FIELDS;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_SYMBOL_SEARCH_INFO_FIELDS  
 {  
    SSIF_NONE                = 0x00000000,  

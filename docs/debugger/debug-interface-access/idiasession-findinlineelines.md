@@ -14,29 +14,16 @@ ms.assetid: b6822d8b-70d5-470b-8278-3aec4680326c
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSession::findInlineeLines
 Retrieves an enumeration that allows a client to iterate through the line number information of all functions that are inlined, directly or indirectly, by the specified parent symbol.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT findInlineeLines (   
    IDiaSymbol*       parent,  
    IDiaEnumLineNumbers** ppResult  

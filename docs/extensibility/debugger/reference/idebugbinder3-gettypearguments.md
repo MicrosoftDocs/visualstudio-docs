@@ -14,22 +14,11 @@ helpviewer_keywords:
   - "IDebugBinder3::GetTypeArguments method"
 ms.assetid: fa0c37a7-327f-463e-9a9d-bb3f534584cb
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugBinder3::GetTypeArguments
 This method retrieves a list of argument types associated with this object.  
@@ -45,7 +34,7 @@ HRESULT GetTypeArguments(
 );  
 ```  
   
-```c#  
+```csharp  
 int GetTypeArguments(  
    uint          skip,  
    uint          count,  
@@ -65,7 +54,7 @@ int GetTypeArguments(
  [in, out] An array of fields that will be filled in on return of this method.  
   
  `pFetched`  
- [out] (optional) The number of argument type fields actually returned.  
+ [out] \(optional) The number of argument type fields actually returned.  
   
 ## Return Value  
  If successful, returns `S_OK`; otherwise, returns an error code.  

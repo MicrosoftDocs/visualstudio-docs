@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ContentControlTemplateWalkthrough">
+</Property><Property Name="Solution File" Value="C:\Users\normesta\Desktop\Trin_ContentControlTemplateWalkthrough\VB\ContentControlTemplateWalkthrough.sln">
+</Property><Property Name="User Options File" Value="C:\Users\normesta\Desktop\Trin_ContentControlTemplateWalkthrough\VB\ContentControlTemplateWalkthrough.v11.suo">
+</Property><Property Name="Date" Value="Friday, October 28, 2011">
+</Property><Property Name="Time" Value="7:35 AM">
+</Property></Properties><Event ErrorLevel="3" Project="" Source="ContentControlTemplateWalkthrough.sln" Description="SafeUpgrade">
+</Event><Event ErrorLevel="0" Project="" Source="ContentControlTemplateWalkthrough.sln" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlTemplateWalkthrough\VB\Backup\ContentControlTemplateWalkthrough.sln">
+</Event><Event ErrorLevel="0" Project="" Source="ContentControlTemplateWalkthrough.v11.suo" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlTemplateWalkthrough\VB\Backup\ContentControlTemplateWalkthrough.v11.suo">
+</Event><Event ErrorLevel="3" Project="ContentControlTemplateWalkthrough" Source="ContentControlTemplateWalkthrough.vbproj" Description="SafeRepair">
+</Event><Event ErrorLevel="0" Project="ContentControlTemplateWalkthrough" Source="ContentControlTemplateWalkthrough.vbproj" Description="Project file successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlTemplateWalkthrough\VB\Backup\ContentControlTemplateWalkthrough.vbproj">
+</Event><Event ErrorLevel="0" Project="ContentControlTemplateWalkthrough" Source="ContentControlTemplateWalkthrough.vbproj.user" Description="Project user file successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlTemplateWalkthrough\VB\Backup\ContentControlTemplateWalkthrough.vbproj.user">
+</Event><Event ErrorLevel="0" Project="ContentControlTemplateWalkthrough" Source="ThisDocument.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlTemplateWalkthrough\VB\Backup\ThisDocument.vb">
+</Event><Event ErrorLevel="0" Project="ContentControlTemplateWalkthrough" Source="ThisDocument.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlTemplateWalkthrough\VB\Backup\ThisDocument.Designer.vb">
+</Event><Event ErrorLevel="0" Project="ContentControlTemplateWalkthrough" Source="My Project\AssemblyInfo.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlTemplateWalkthrough\VB\Backup\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="ContentControlTemplateWalkthrough" Source="My Project\Resources.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlTemplateWalkthrough\VB\Backup\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="ContentControlTemplateWalkthrough" Source="My Project\Settings.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlTemplateWalkthrough\VB\Backup\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="ContentControlTemplateWalkthrough" Source="ContentControlTemplateWalkthrough.dotx" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlTemplateWalkthrough\VB\Backup\ContentControlTemplateWalkthrough.dotx">
+</Event><Event ErrorLevel="0" Project="ContentControlTemplateWalkthrough" Source="ContentControlTemplateWalkthrough_TemporaryKey.pfx" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlTemplateWalkthrough\VB\Backup\ContentControlTemplateWalkthrough_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="ContentControlTemplateWalkthrough" Source="ThisDocument.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlTemplateWalkthrough\VB\Backup\ThisDocument.Designer.xml">
+</Event><Event ErrorLevel="0" Project="ContentControlTemplateWalkthrough" Source="My Project\Settings.settings" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlTemplateWalkthrough\VB\Backup\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="ContentControlTemplateWalkthrough" Source="My Project\Resources.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ContentControlTemplateWalkthrough\VB\Backup\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="ContentControlTemplateWalkthrough" Source="ContentControlTemplateWalkthrough.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ContentControlTemplateWalkthrough" Source="ContentControlTemplateWalkthrough.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ContentControlTemplateWalkthrough.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ContentControlTemplateWalkthrough.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ContentControlTemplateWalkthrough" Source="ContentControlTemplateWalkthrough.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

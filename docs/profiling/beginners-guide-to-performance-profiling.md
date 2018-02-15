@@ -1,9 +1,17 @@
 ---
+<<<<<<< HEAD
 title: "Beginners Guide to Performance Profiling | Microsoft Docs"
 ms.custom:
 ms.date: "11/04/2016"
 ms.reviewer:
 ms.suite:
+=======
+title: "Profile application performance in Visual Studio | Microsoft Docs"
+ms.custom: "H1Hack27Feb2017"
+ms.date: "02/27/2017"
+ms.reviewer: ""
+ms.suite: ""
+>>>>>>> master
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm:
@@ -17,17 +25,39 @@ helpviewer_keywords:
   - "Diagnostics Tools"
 author: "mikejo5000"
 ms.author: "mikejo"
+<<<<<<< HEAD
 manager: "ghogen"
 ---
 # Beginners Guide to Performance Profiling
 
 You can use Visual Studio Profiling Tools to analyze performance issues in your application. This procedure shows how to use **CPU Usage** tab of the Diagnostics Tools to obtain performance data for your app. The Diagnostics Tools are supported for .NET development in Visual Studio, including ASP.NET, and for native/C++ development.
 
+=======
+manager: ghogen
+ms.workload: 
+  - "multiple"
+---
+# Profile application performance in Visual Studio
+You can use Visual Studio profiling tools to analyze performance issues in your application. This procedure shows how to use **CPU Usage** tab of the Diagnostics Tools to obtain performance data for your app. The Diagnostics Tools are supported for .NET development in Visual Studio, including ASP.NET, and for native/C++ development.
+  
+>>>>>>> master
 When the debugger pauses, the **CPU Usage** tool collects information about the functions that are executing in your application. The tool lists the functions that were performing work, and provides a timeline graph you can use to focus on specific segments of the sampling session.
 
 The Diagnostic hub offers you a lot of other options to run and manage your diagnostics session. If **CPU Usage** does not give you the data that you need, the [other profiling tools](../profiling/Profiling-Tools.md) provide different kinds of information that might be helpful to you. In many cases, the performance bottleneck of your application may be caused by something other than your CPU, such as memory, rendering UI, or network request time. The Diagnostics hub offers you a lot of other options to record and analyze this kind of data.
 
+<<<<<<< HEAD
 In this topic, we'll discuss analyzing CPU usage in your normal debugging workflow. You can also analyze CPU usage without a debugger attached or by targeting a running app - for more information see [Run profiling tools without debugging](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
+=======
+|         |         |
+|---------|---------|
+|  ![movie camera icon for video](../install/media/video-icon.png "Watch a video")  |    [Watch a video](https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Profiling-with-Diagnostics-Tools-in-Visual-Studio-2017-daHnzMD6D_9211787171) on using the diagnostics tools that shows how to analyze CPU usage and how to analyze memory usage. |
+
+In this topic, we'll discuss analyzing CPU usage in your normal debugging workflow. You can also analyze CPU usage without a debugger attached or by targeting a running app - for more information see [Collect profiling data without debugging](../profiling/running-profiling-tools-with-or-without-the-debugger.md#collect-profiling-data-without-debugging) in [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
+  
+##  <a name="BKMK_Quick_start__Collect_diagnostic_data"></a> Step 1: Collect profiling data 
+  
+1.  Open the project you want to debug in Visual Studio and set a breakpoint in your app at the point where you want to examine CPU usage.
+>>>>>>> master
 
 ## <a name="BKMK_Quick_start__Collect_diagnostic_data"></a> Step 1: Collect profiling data
 
@@ -60,7 +90,7 @@ In this topic, we'll discuss analyzing CPU usage in your normal debugging workfl
 
      ![Diagnostics Tools Enable CPU Profiling](../profiling/media/DiagToolsEnableCPUProfiling.png "DiagToolsEnableCPUProfiling")
 
-     When you choose **Enable CPU Profiling**, Visual Studio will begin recording your functions and how much time they take to execute. You can only view this collected data when your application is halted at a breakpoint.
+     When you choose **Record CPU Profile**, Visual Studio will begin recording your functions and how much time they take to execute. You can only view this collected data when your application is halted at a breakpoint.
 
 8. Hit F5 to run the app to your second breakpoint.
 
@@ -100,7 +130,6 @@ We recommend that you begin analyzing your data by examining the list of functio
     In this view, the selected function shows up in the heading and in the **Current Function** box (GetNumber, in this example). The function that called the current function is shown on the left under **Calling Function**, and any functions called by the current function are shown in **Called Functions** box on the right. (You can select either box to change the current function.)
 
     This view shows you the total time (ms) and the percentage of the overall app running time that the function has taken to complete.
-
     **Function Body** also shows you the total amount of time (and the percentage of time) spent in the function body excluding time spent in calling and called functions. (In this example, 3713 out of 3729 ms were spent in the function body, and the remaining 16 ms were spent in external code called by this function).
 
     > [!TIP]
@@ -129,6 +158,7 @@ Here is more information on the column values:
 
 ## <a name="BKMK_External_Code"></a>View external code
 
+<<<<<<< HEAD
 External code are functions in system and framework components that executed by the code you write. External code include functions that start and stop the app, draw the UI, control threading, and provide other low-level services to the app. In most cases, you won’t be interested in external code, and so the CPU Usage tool gathers the external functions of a user method into one **[External Code]** node.
 
 If you want to view the call paths of external code, choose **Show External Code** from the **Filter view** list and then choose **Apply**.
@@ -137,13 +167,32 @@ If you want to view the call paths of external code, choose **Show External Code
 
 Be aware that many external code call chains are deeply nested, so that the width of the Function Name column can exceed the display width of all but the largest of computer monitors. When this happens, function names are shown as **[…]**.
 
+=======
+External code are functions in system and framework components that executed by the code you write. External code include functions that start and stop the app, draw the UI, control threading, and provide other low-level services to the app. In most cases, you won't be interested in external code, and so the CPU Usage tool gathers the external functions of a user method into one **[External Code]** node.
+  
+If you want to view the call paths of external code, choose **Show External Code** from the **Filter view** list and then choose **Apply**.  
+  
+![Choose Filter View, then Show External Code](../profiling/media/DiagToolsShowExternalCode.png "DiagToolsShowExternalCode")  
+  
+Be aware that many external code call chains are deeply nested, so that the width of the Function Name column can exceed the display width of all but the largest of computer monitors. When this happens, function names are shown as **[...]**.
+  
+>>>>>>> master
 Use the search box to find a node that you are looking for, then use the horizontal scroll bar to bring the data into view.
 
 > [!TIP]
 > If you profile external code that calls Windows functions, you should make sure that you have the most current .pdb files. Without these files, your report views will list Windows function names that are cryptic and difficult to understand. For more information about how to make sure that you have the files you need, see [Specify Symbol (.pdb) and Source Files in the Debugger](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).
+<<<<<<< HEAD
 
 ## See Also
 
 [[Memory Usage](../profiling/memory-usage.md)
 [CPU Usage](../profiling/cpu-usage.md)
 [Profiling Tools](../profiling/profiling-tools.md)
+=======
+  
+## See Also  
+ [Memory Usage](../profiling/memory-usage.md)  
+ [CPU Usage](../profiling/cpu-usage.md)  
+ [Profiling in Visual Studio](../profiling/index.md)  
+ [Profiling Feature Tour](../profiling/profiling-feature-tour.md)
+>>>>>>> master

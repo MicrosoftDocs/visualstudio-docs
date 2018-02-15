@@ -10,22 +10,11 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3a01d333-6e31-423f-ae06-5091a4fcb7a9
 caps.latest.revision: 22
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # FAQ: Converting Add-ins to VSPackage Extensions
 Add-ins are now deprecated. To make a new Visual Studio extension, you need to create a VSIX extension. Here are the answers to some frequently asked questions about how to convert a Visual Studio add-in to a VSIX extension.  
@@ -50,7 +39,7 @@ Add-ins are now deprecated. To make a new Visual Studio extension, you need to c
  An add-in project can't be converted directly to a VSIX project because the mechanisms used in VSIX projects are not the same as the ones in add-in projects. The VSIX project template, plus the right project item templates have a lot of code that makes it relatively easy to get up and running as a VSIX extension.  
   
 ##  <a name="BKMK_StartDeveloping"></a> How do I start developing VSIX extensions?  
- Here’s how you make a VSIX that has a menu command:  
+ Here's how you make a VSIX that has a menu command:  
   
 #### To make a VSIX extension that has a menu command  
   
@@ -81,20 +70,20 @@ Add-ins are now deprecated. To make a new Visual Studio extension, you need to c
   
 3.  Add the following `using` statements to the file:  
   
-    ```c#  
+    ```csharp  
     using EnvDTE;  
     using EnvDTE80;  
     ```  
   
 4.  Find the `MenuItemCallback` method. Add a call to <xref:Microsoft.VisualStudio.Shell.Package.GetService%2A> to get the <xref:EnvDTE80.DTE2> object:  
   
-    ```c#  
+    ```csharp  
     DTE2 dte = (DTE2)GetService(typeof(DTE));  
     ```  
   
 5.  Add the code that your add-in had in its `IDTCommandTarget.Exec` method. For example, here is some code that adds a new pane to the **Output** window and prints "Some Text" in the new pane.  
   
-    ```c#  
+    ```csharp  
     private void MenuItemCallback(object sender, EventArgs e)  
     {  
         DTE2 dte = (DTE2) GetService(typeof(DTE));  
@@ -118,13 +107,13 @@ Add-ins are now deprecated. To make a new Visual Studio extension, you need to c
   
 2.  Open TestAutoloadPackage.cs. Find the line where the package class is declared:  
   
-    ```c#  
+    ```csharp  
     public sealed class <name of your package>Package : Package  
     ```  
   
 3.  Above this line is a set of attributes. Add this attribute:  
   
-    ```c#  
+    ```csharp  
     [ProvideAutoLoad(UIContextGuids80.SolutionExists)]  
     ```  
   
@@ -143,14 +132,14 @@ Add-ins are now deprecated. To make a new Visual Studio extension, you need to c
   
 2.  Add these `using` statements:  
   
-    ```c#  
+    ```csharp  
     using EnvDTE;  
     using EnvDTE80;  
     ```  
   
 3.  Find the `Initialize` method. This method handles the command you specified in the package wizard. Add a call to <xref:Microsoft.VisualStudio.Shell.Package.GetService%2A> to get the DTE object:  
   
-    ```c#  
+    ```csharp  
     DTE dte = (DTE)GetService(typeof(DTE));  
     ```  
   
@@ -175,20 +164,20 @@ Add-ins are now deprecated. To make a new Visual Studio extension, you need to c
   
 3.  Add these `using` statements:  
   
-    ```c#  
+    ```csharp  
     using EnvDTE;  
     using EnvDTE80;  
     ```  
   
 4.  Find the `MenuItemCallback` method. Add a call to <xref:Microsoft.VisualStudio.Shell.Package.GetService%2A> to get the <xref:EnvDTE80.DTE2> object:  
   
-    ```c#  
+    ```csharp  
     DTE2 dte = (DTE2)GetService(typeof(DTE));  
     ```  
   
 5.  Add the code from your add-in. For example, here is some code that adds new tasks to the **Task List**, lists the number of tasks, and then deletes one task.  
   
-    ```c#  
+    ```csharp  
     private void MenuItemCallback(object sender, EventArgs e)   
     {  
         DTE2 dte = (DTE2) GetService(typeof(DTE));   
@@ -223,20 +212,20 @@ Add-ins are now deprecated. To make a new Visual Studio extension, you need to c
   
 3.  Add these `using` statements:  
   
-    ```c#  
+    ```csharp  
     using EnvDTE;  
     using EnvDTE80;  
     ```  
   
 4.  Find the `MenuItemCallback` method. Add a call to <xref:Microsoft.VisualStudio.Shell.Package.GetService%2A> to get the <xref:EnvDTE80.DTE2> object:  
   
-    ```c#  
+    ```csharp  
     DTE2 dte = (DTE2)GetService(typeof(DTE));  
     ```  
   
 5.  Add the code from your add-in. For example, the following code gets the name of the startup project in a solution. (A multi-project solution must be open when this package runs.)  
   
-    ```c#  
+    ```csharp  
     private void MenuItemCallback(object sender, EventArgs e)  
     {  
         DTE2 dte = (DTE2) GetService(typeof(DTE));   
@@ -268,7 +257,7 @@ Add-ins are now deprecated. To make a new Visual Studio extension, you need to c
 ## How do I handle automation events in a VSPackage?  
  You handle automation events in a VSPackage in the same way as in your add-in. The following code shows how to handle the `OnItemRenamed` event. (This example assumes that you've already gotten the DTE object.)  
   
-```c#  
+```csharp  
 Events2 dteEvents = (Events2)dte.Events;  
 dteEvents.ProjectItemsEvents.ItemRenamed += listener1.OnItemRenamed;   
 . . .  

@@ -5,7 +5,7 @@ ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-ide-general"
+  - "vs-ide-code-analysis"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -14,24 +14,11 @@ f1_keywords:
   - "vs.code.analysis.policyeditor"
 ms.assetid: fd029003-5671-4b24-8b6f-032e0a98b2e8
 caps.latest.revision: 21
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.workload: 
+  - "dotnet"
 ---
 # Implementing Custom Code Analysis Check-in Policies for Managed Code
 A code analysis check-in policy specifies a set of rules that members of a team project must run on source code before it is checked in to version control. Microsoft provides a set of standard *rule sets* that group code analysis rules into functional areas. *Custom check-in policy rule sets* specify a set of code analysis rules that are specific to a team project. A rule set is stored in a .ruleset file.  
@@ -46,7 +33,7 @@ A code analysis check-in policy specifies a set of rules that members of a team 
  To create a custom rule set for a team project, you first create a special folder for the check-in policy rule set in **Source Control Explorer**. Then you create the rule set file and add the file to version control. Finally, you specify the rule set as the code analysis check-in policy for the team project.  
   
 > [!NOTE]
->  To create a folder in a team project, you first must map the team project root to a location on the local computer. For more information, see [Create and work with workspaces (old)](http://msdn.microsoft.com/en-us/db4d5692-179a-44fe-ad31-0c1c900c9cb2).  
+>  To create a folder in a team project, you first must map the team project root to a location on the local computer.  
   
 #### To create the version control folder for the check-in policy rule set  
   
@@ -72,7 +59,7 @@ A code analysis check-in policy specifies a set of rules that members of a team 
   
 1.  In **Source Control Explorer**, right-click the new folder, and then click **Add Items to Folder**.  
   
-     For more information, see [Use version control](http://msdn.microsoft.com/Library/33267cee-fe5f-4aa3-b2cd-6d22ceace314).  
+     For more information, see [Git and VSTS](/vsts/git/overview).  
   
 2.  Click the rule set file that you created, and then click **Finish**.  
   

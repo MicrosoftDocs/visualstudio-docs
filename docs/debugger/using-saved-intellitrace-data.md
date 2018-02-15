@@ -19,22 +19,9 @@ ms.assetid: 9f2cce86-345a-4e22-84ba-91542d81e67a
 caps.latest.revision: 106
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Using saved IntelliTrace data
 Go to specific points in your application's execution when you start debugging from an IntelliTrace log (.iTrace) file. This file can contain performance events, exceptions, threads, test steps, modules, and other system info that IntelliTrace records while your app runs.  
@@ -50,7 +37,7 @@ Go to specific points in your application's execution when you start debugging f
     |**Source**|**See**|  
     |----------------|-------------|  
     |An IntelliTrace session in Visual Studio Enterprise (but not Professional or Community editions)|[IntelliTrace Features](../debugger/intellitrace-features.md)|  
-    |A test session in Microsoft Test Manager. This attaches an .iTrace file to a Team Foundation Server work item.|[Collect more diagnostic data in manual tests](/devops-test-docs/test/collect-more-diagnostic-data-in-manual-tests)|  
+    |A test session in Microsoft Test Manager. This attaches an .iTrace file to a Team Foundation Server work item.|[Collect more diagnostic data in manual tests](/vsts/manual-test/mtm/collect-more-diagnostic-data-in-manual-tests)|  
     |Microsoft Monitoring Agent, either alone or with System Center 2012 R2 Operations Manager, for ASP.NET web apps and SharePoint applications running in deployment|-   [Diagnose problems after deployment](../debugger/diagnose-problems-after-deployment.md)<br />-   [What's New for System Center 2012 R2 Operations Manager](http://technet.microsoft.com/library/dn249700.aspx)|  
   
 ##  <a name="GetStarted"></a> What do you want to do?  
@@ -84,13 +71,14 @@ Go to specific points in your application's execution when you start debugging f
   
 |**Section**|**Contains**|**Collection Source**|  
 |-----------------|------------------|---------------------------|  
-|[Performance Violations](#Performance)|Performance events with function calls that exceed the configured threshold|Microsoft Monitoring Agent, either alone or with System Center 2012 R2 Operations Manager for ASP.NET web apps hosted on IIS|  
+|[Performance Violations](#Performance)|Performance events with function calls that exceed the configured threshold|Microsoft Monitoring Agent, either standalone collector or with System Center 2012 R2 Operations Manager for ASP.NET web apps hosted on IIS|  
 |[Exception Data](#ExceptionData)|Exceptions, including the full call stack for each exception|All sources|  
-|[Analysis](#Analysis)|For SharePoint 2010 and SharePoint 2013 applications only. Diagnose IntelliTrace and SharePoint events, such as debugger events, ULS events, unhandled exceptions, and other data that the Microsoft Monitoring Agent recorded.|Microsoft Monitoring Agent, either alone or with System Center 2012 R2 Operations Manager|  
+|[Analysis](#Analysis)|For SharePoint 2010 and SharePoint 2013 applications only. Diagnose IntelliTrace and SharePoint events, such as debugger events, ULS events, unhandled exceptions, and other data that the Microsoft Monitoring Agent recorded.|Microsoft Monitoring Agent, either standalone collector or with System Center 2012 R2 Operations Manager|  
 |[System Info](#SystemInfo)|Settings and specifications of the host system|All sources|  
 |[Threads List](#ThreadsList)|Threads that ran during collection|All sources|  
 |[Test Data](#TestData)|Test steps and their results from a test session|Test Manager|  
-|[Modules](#Modules)|Modules that the target process loaded in the order that they loaded.|All sources|  
+|[Modules](#Modules)|Modules that the target process loaded in the order that they loaded.|All sources| 
+|[Web Request](#Modules)|Web request data for production IIS web applications and SharePoint 2010 and SharePoint 2013|Microsoft Monitoring Agent and the standalone collector| 
   
  Here's some tips to help you find information in each section:  
   
@@ -218,7 +206,7 @@ Go to specific points in your application's execution when you start debugging f
   
      ![IntelliTrace log &#45; SharePoint unhandled exceptions](../debugger/media/sharepointunhandledexceptions_intellitrace.png "SharePointUnhandledExceptions_IntelliTrace")  
   
- For a walkthrough, see [Walkthrough: Debugging a SharePoint Application by Using IntelliTrace](http://msdn.microsoft.com/Library/4bd80d2f-f680-4bf4-81c3-f14e8185f6a4). For the kinds of data that the agent records, see [IntelliTrace Features](../debugger/intellitrace-features.md).  
+ For a walkthrough, see [Walkthrough: Debugging a SharePoint Application by Using IntelliTrace](../sharepoint/walkthrough-debugging-a-sharepoint-application-by-using-intellitrace.md). For the kinds of data that the agent records, see [IntelliTrace Features](../debugger/intellitrace-features.md).  
   
 ###  <a name="ThreadsList"></a> Threads List  
  Examine the recorded threads that ran in the target process. You can start debugging from the first valid IntelliTrace event in a selected thread.  
@@ -276,7 +264,7 @@ Go to specific points in your application's execution when you start debugging f
   
  [IntelliTrace Features](../debugger/intellitrace-features.md)  
   
- [Collect more diagnostic data in manual tests](/devops-test-docs/test/collect-more-diagnostic-data-in-manual-tests)  
+ [Collect more diagnostic data in manual tests](/vsts/manual-test/mtm/collect-more-diagnostic-data-in-manual-tests)  
   
  [IntelliTrace](../debugger/intellitrace.md)  
   
@@ -284,4 +272,4 @@ Go to specific points in your application's execution when you start debugging f
  [Visual Studio Debugger](http://go.microsoft.com/fwlink/?LinkId=262263)  
   
 #### Guidance  
- [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 6: A Testing Toolbox](http://go.microsoft.com/fwlink/?LinkID=255203)
+ [Testing for Continuous Delivery with Visual Studio 2012 - Chapter 6: A Testing Toolbox](http://go.microsoft.com/fwlink/?LinkID=255203)

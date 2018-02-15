@@ -1,21 +1,23 @@
 ---
-title: "Walkthrough: Analyzing C-C++ Code for Defects | Microsoft Docs"
-ms.custom: 
+title: "Walkthrough: Analyzing C/C++ Code for Defects | Microsoft Docs"
+ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: 
-ms.suite: 
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: 
+  - "vs-ide-code-analysis"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "C/C++, code analysis"
   - "code analysis, walkthroughs"
   - "code, analyzing C/C++"
   - "code analysis tool, walkthroughs"
-author: "corob-msft"
-ms.author: "corob"
-manager: "ghogen"
+author: mikeblome
+ms.author: mblome
+manager: ghogen
+ms.workload: 
+  - "cplusplus"
 ---
 # Walkthrough: Analyzing C/C++ Code for Defects
 
@@ -32,8 +34,8 @@ You will complete the following steps:
 
 ## Prerequisites
 
-- A copy of the [Demo Sample](../code-quality/demo-sample.md). 
-- Basic understanding of C/C++. 
+- A copy of the [Demo Sample](../code-quality/demo-sample.md).
+- Basic understanding of C/C++.
 
 ## To run code defect analysis on native code
 
@@ -41,21 +43,21 @@ You will complete the following steps:
 
      The Demo solution now populates **Solution Explorer**.
 
-1. On the **Build** menu, click **Rebuild Solution**.
+2. On the **Build** menu, click **Rebuild Solution**.
 
      The solution builds without any errors or warnings.
 
-1. In **Solution Explorer**, select the CodeDefects project.
+3. In **Solution Explorer**, select the CodeDefects project.
 
-1. On the **Project** menu, click **Properties**.
+4. On the **Project** menu, click **Properties**.
 
      The **CodeDefects Property Pages** dialog box is displayed.
 
-1. Click **Code Analysis**.
+5. Click **Code Analysis**.
 
-1. Click the **Enable Code Analysis for C/C++ on Build** check box.
+6. Click the **Enable Code Analysis for C/C++ on Build** check box.
 
-1. Rebuild the CodeDefects project.
+7. Rebuild the CodeDefects project.
 
      Code analysis warnings are displayed in the **Error List**.
 
@@ -63,18 +65,19 @@ You will complete the following steps:
 
 1. On the **View** menu, click **Error List**.
 
-     Depending on the developer profile that you chose in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], you might have to point to **Other Windows** on the **View** menu, and then click **Error List**.
+     Depending on the developer profile that you chose in Visual Studio, you might have to point to **Other Windows** on the **View** menu, and then click **Error List**.
 
-2. In the **Error List**, double-click the following warning: 
+2. In the **Error List**, double-click the following warning:
+
      warning C6230: Implicit cast between semantically different types: using HRESULT in a Boolean context.
 
      The code editor displays the line that caused the warning in the function `bool``ProcessDomain()`. This warning indicates that a HRESULT is being used in an 'if' statement where a Boolean result is expected.
 
 3. Correct this warning by using the SUCCEEDED macro. Your code should resemble the following code:
 
-    ```cpp
-    if (SUCCEEDED (ReadUserAccount()) )
-    ```
+   ```cpp
+   if (SUCCEEDED (ReadUserAccount()) )
+   ```
 
 4. In the **Error List**, double-click the following warning:
 
@@ -82,17 +85,17 @@ You will complete the following steps:
 
 5. Correct this warning by testing for equality. Your code should look similar to the following code:
 
-    ```c+pp
-    if ((len == ACCOUNT_DOMAIN_LEN) || (g_userAccount[len] != '\\'))
-    ```
+   ```cpp
+   if ((len == ACCOUNT_DOMAIN_LEN) || (g_userAccount[len] != '\\'))
+   ```
 
 ## To treat warning as an error
- 
+
 1. In the Bug.cpp file, add the following `#pragma` statement to the beginning of the file to treat the warning C6001 as an error:
 
-    ```cpp
-    #pragma warning (error: 6001)
-    ```
+   ```cpp
+   #pragma warning (error: 6001)
+   ```
 
 2. Rebuild the CodeDefects project.
 
@@ -128,14 +131,14 @@ You will complete the following steps:
 
 8. To correct this warning, use an 'if' statement to test the return value. Your code should resemble the following code:
 
-    ```cpp
-    if (NULL != newNode)
-    {
-        newNode->data = value;
-        newNode->next = 0;
-        node->next = newNode;
-    }
-    ```
+   ```cpp
+   if (NULL != newNode)
+   {
+   newNode->data = value;
+   newNode->next = 0;
+   node->next = newNode;
+   }
+   ```
 
 9. Rebuild the Annotations project.
 
@@ -145,13 +148,13 @@ You will complete the following steps:
 
 1. Annotate formal parameters and return value of the function `AddTail` by using the Pre and Post conditions as shown in this example:
 
-    ```cpp
-    [returnvalue:SA_Post (Null=SA_Maybe)] LinkedList* AddTail`
-    (
-        [SA_Pre(Null=SA_Maybe)] LinkedList* node,
-        int value
-    )
-    ```
+   ```cpp
+   [returnvalue:SA_Post (Null=SA_Maybe)] LinkedList* AddTail
+   (
+   [SA_Pre(Null=SA_Maybe)] LinkedList* node,
+   int value
+   )
+   ```
 
 2. Rebuild Annotations project.
 
@@ -159,24 +162,25 @@ You will complete the following steps:
 
      warning C6011: Dereferencing NULL pointer 'node'.
 
-     This warning indicates that the node passed into the function might be null, and indicates the line number where the warning was raised. 
+     This warning indicates that the node passed into the function might be null, and indicates the line number where the warning was raised.
 
 4. To correct this warning, use an 'if' statement to test the return value. Your code should resemble the following code:
 
-    ```cpp
-    //...
-    LinkedList *newNode = NULL;
-    if (NULL == node)
-    {
-         return NULL;
-        //...
-    }
-    ```
+   ```cpp
+   . . .
+   LinkedList *newNode = NULL; 
+   if (NULL == node)
+   {
+        return NULL;
+        . . .
+   }
+   ```
 
-5. Rebuild Annotations project. 
+5. Rebuild Annotations project.
 
      The project builds without any warnings or errors.
 
-## See Also
+## See also
 
 [Walkthrough: Analyzing Managed Code for Code Defects](../code-quality/walkthrough-analyzing-managed-code-for-code-defects.md)
+[Code analysis for C/C++](../code-quality/code-analysis-for-c-cpp-overview.md)

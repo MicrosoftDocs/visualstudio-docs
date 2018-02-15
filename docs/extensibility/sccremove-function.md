@@ -14,29 +14,18 @@ helpviewer_keywords:
   - "SccRemove function"
 ms.assetid: 20830fdc-c0e9-4a5f-bf60-33f28874442f
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # SccRemove Function
 This function deletes files from the source control system.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 SCCRTN SccRemove(  
    LPVOID    pvContext,  
    HWND      hWnd,  

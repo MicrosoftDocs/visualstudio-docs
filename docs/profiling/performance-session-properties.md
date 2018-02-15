@@ -14,7 +14,13 @@ helpviewer_keywords:
   - "performance tools, performance session properties"
 author: "mikejo5000"
 ms.author: "mikejo"
+<<<<<<< HEAD
 manager: "ghogen"
+=======
+manager: ghogen
+ms.workload: 
+  - "multiple"
+>>>>>>> master
 ---
 # Performance Session Properties
 

@@ -12,29 +12,18 @@ helpviewer_keywords:
   - "EVALFLAGS90 enumeration"
 ms.assetid: 64fb0139-8b04-4726-b52c-db2e04d65498
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # EVALFLAGS90
 Enumerates the valid values for flags that control expression evaluation. This enumeration extends the [EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md) enumeration.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_EVALFLAGS90  
 {  
    // VS 8.0 values  
@@ -54,7 +43,7 @@ enum enum_EVALFLAGS90
 typedef DWORD EVALFLAGS90;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_EVALFLAGS90  
 {  
    // VS 8.0 values  

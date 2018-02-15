@@ -13,7 +13,13 @@ helpviewer_keywords:
   - "instrumentation profiling method"
 author: "mikejo5000"
 ms.author: "mikejo"
+<<<<<<< HEAD
 manager: "ghogen"
+=======
+manager: ghogen
+ms.workload: 
+  - "multiple"
+>>>>>>> master
 ---
 # Understanding Instrumentation Data Values
 

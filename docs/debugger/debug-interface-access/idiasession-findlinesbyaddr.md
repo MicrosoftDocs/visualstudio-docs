@@ -16,29 +16,16 @@ ms.assetid: 640403c0-14cf-403c-ad19-38b3bdc28ca8
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSession::findLinesByAddr
 Retrieves the lines in a specified compiland that contain a specified address.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT findLinesByAddr (   
    DWORD                 seg,  
    DWORD                 offset,  
@@ -66,7 +53,7 @@ HRESULT findLinesByAddr ( 
 ## Example  
  This example shows a function that obtains all line numbers contained in a function using the function's address and length.  
   
-```cpp#  
+```C++  
 IDiaEnumLineNumbers* GetLineNumbersByAddr(IDiaSymbol *pFunc,  
                                           IDiaSession *pSession)  
 {  

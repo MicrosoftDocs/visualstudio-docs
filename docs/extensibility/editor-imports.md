@@ -12,22 +12,11 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], new - services"
 ms.assetid: 8d096de3-33b4-427a-a122-4aeff8a72da0
 caps.latest.revision: 19
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Editor Imports
 You can import a number of editor services, factories, and brokers that provide your extension with different kinds of access to the core editor. For example, you can import the <xref:Microsoft.VisualStudio.Text.Operations.ITextStructureNavigatorSelectorService> to provide you with a <xref:Microsoft.VisualStudio.Text.Operations.ITextStructureNavigator> for a given content type. (This navigator allows you perform different kinds of searches on a text buffer.)  
@@ -35,7 +24,7 @@ You can import a number of editor services, factories, and brokers that provide 
  To use an editor import, you import it as a field or property of a class that exports a Managed Extensibility Framework component part.  
   
 > [!NOTE]
->  For more information about the Managed Extensibility Framework, see [Managed Extensibility Framework (MEF)](http://msdn.microsoft.com/Library/6c61b4ec-c6df-4651-80f1-4854f8b14dde).  
+>  For more information about the Managed Extensibility Framework, see [Managed Extensibility Framework (MEF)](/dotnet/framework/mef/index).  
   
 ## Import Syntax  
  The following example shows how to import the editor options factory service.  
@@ -66,7 +55,7 @@ internal IEditorOptionsFactoryService m_editorOptions = null;
   
  [Walkthrough: Displaying Statement Completion](../extensibility/walkthrough-displaying-statement-completion.md)  
   
- [Walkthrough: Displaying SmartTags](../misc/walkthrough-displaying-smarttags.md)  
+ [Walkthrough: Displaying Light Bulb Suggestions](../extensibility/walkthrough-displaying-light-bulb-suggestions.md)  
   
 ## Importing the Service Provider  
  You can also import a <xref:Microsoft.VisualStudio.Shell.SVsServiceProvider> (found in the assembly Microsoft.VisualStudio.Shell.Immutable.10.0) in the same way to get access to Visual Studio services:  

@@ -16,29 +16,16 @@ ms.assetid: 7c42847a-f0df-443a-a9fe-c495c1271ea8
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaInjectedSource::get_objectFilename
 Retrieves the object file name to which the source was compiled.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_objectFilename (   
    BSTR* pRetVal  
 );  

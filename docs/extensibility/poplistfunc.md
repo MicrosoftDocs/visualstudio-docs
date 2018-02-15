@@ -14,22 +14,11 @@ helpviewer_keywords:
   - "POPLISTFUNC callback function"
 ms.assetid: b2199fd5-d707-4628-92dd-e2a01e2f507a
 caps.latest.revision: 16
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # POPLISTFUNC
 This callback is supplied to the [SccPopulateList](../extensibility/sccpopulatelist-function.md) by the IDE and is used by the source control plug-in to update a list of files or directories (also supplied to the `SccPopulateList` function).  
@@ -39,7 +28,7 @@ This callback is supplied to the [SccPopulateList](../extensibility/sccpopulatel
 ## Signature  
  The source control plug-in modifies the list by calling an IDE-implemented function with the following prototype:  
   
-```cpp#  
+```cpp  
 typedef BOOL (*POPLISTFUNC) (  
    LPVOID pvCallerData,  
    BOOL fAddRemove,  

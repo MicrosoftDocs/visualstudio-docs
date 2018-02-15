@@ -15,20 +15,8 @@ caps.latest.revision: 5
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+ms.workload: 
+  - "multiple"
 ---
 # Error Messages in Workflow Designer
 This topic describes the types of error messages that can be encountered when working with [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)].  
@@ -55,7 +43,7 @@ This topic describes the types of error messages that can be encountered when wo
  When the validation constraints of an activity have not been satisfied, a red circle with a white exclamation point appears in the top right corner of the activity. Hovering over this icon displays a tooltip that describes the source of the error.  
   
 ### XAML Load Errors  
- When an activity fails to load, a red box with the text “Activity could not be loaded because of errors in the XAML” appears. This typically occurs when the activity’s type cannot be resolved. The invalid activity can be deleted in the designer by selecting the red box and deleting it.  
+ When an activity fails to load, a red box with the text "Activity could not be loaded because of errors in the XAML" appears. This typically occurs when the activity's type cannot be resolved. The invalid activity can be deleted in the designer by selecting the red box and deleting it.  
   
 ### Workflow Load Errors  
- When a workflow fails to load, the text “Workflow Designer encountered problems with your document” appears on the designer surface, along with the exception information that caused the failure of the workflow to load. This typically occurs when the XAML file cannot be parsed.
+ When a workflow fails to load, the text "Workflow Designer encountered problems with your document" appears on the designer surface, along with the exception information that caused the failure of the workflow to load. This typically occurs when the XAML file cannot be parsed.

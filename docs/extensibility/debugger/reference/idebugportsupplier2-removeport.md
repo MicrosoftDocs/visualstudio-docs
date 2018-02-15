@@ -14,35 +14,24 @@ helpviewer_keywords:
   - "IDebugPortSupplier2::RemovePort"
 ms.assetid: f5c1fbf2-9084-46f2-a682-7db963928df2
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugPortSupplier2::RemovePort
 Removes a port.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT RemovePort(   
    IDebugPort2* pPort  
 );  
 ```  
   
-```c#  
+```csharp  
 int RemovePort(   
    IDebugPort2 pPort  
 );  

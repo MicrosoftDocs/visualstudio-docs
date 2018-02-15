@@ -14,22 +14,11 @@ helpviewer_keywords:
   - "IDebugField interface"
 ms.assetid: adecdd1c-b1b9-4027-92da-74cbe910636f
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugField
 This interface represents a field, that is, a description of a symbol or type.  
@@ -44,7 +33,7 @@ IDebugField : IUnknown
  A symbol provider implements this interface as the base class for all fields.  
   
 ## Notes for Callers  
- This interface is the base class for all fields. Based on the return value of [GetKind](../../../extensibility/debugger/reference/idebugfield-getkind.md), this interface may return more specialized interfaces by using [QueryInterface](/visual-cpp/atl/queryinterface). In addition, many interfaces return `IDebugField` objects from various methods.  
+ This interface is the base class for all fields. Based on the return value of [GetKind](../../../extensibility/debugger/reference/idebugfield-getkind.md), this interface may return more specialized interfaces by using [QueryInterface](/cpp/atl/queryinterface). In addition, many interfaces return `IDebugField` objects from various methods.  
   
 ## Methods in Vtable Order  
  The following table shows the methods of `IDebugField`.  
@@ -66,7 +55,7 @@ IDebugField : IUnknown
   
  In the following C++ language example, `weather` is a class type, and `sunny` and `stormy` are symbols:  
   
-```cpp#  
+```cpp  
 class weather;  
 weather sunny;  
 weather stormy;  

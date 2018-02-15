@@ -10,7 +10,13 @@ ms.tgt_pltfrm:
 ms.topic: "article"
 author: "mikejo5000"
 ms.author: "mikejo"
+<<<<<<< HEAD
 manager: "ghogen"
+=======
+manager: ghogen
+ms.workload: 
+  - "multiple"
+>>>>>>> master
 ---
 # Collecting Additional Performance Data
 

@@ -16,29 +16,16 @@ ms.assetid: f647eee9-a73c-483b-9fe9-21f42e560a7b
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSession::findLinesByVA
 Retrieves the line number information for lines contained in a specified virtual address (VA) range.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT findLinesByVA (   
    ULONGLONG             va,  
    DWORD                 length,  
@@ -59,7 +46,7 @@ HRESULT findLinesByVA ( 
 ## Example  
  This example shows a function that obtains all line numbers contained in a function using the function's virtual address and length.  
   
-```cpp#  
+```C++  
 IDiaEnumLineNumbers *GetLineNumbersByVA(IDiaSymbol *pFunc, IDiaSession *pSession)  
 {  
     IDiaEnumLineNumbers* pEnum = NULL;  

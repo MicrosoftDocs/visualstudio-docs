@@ -16,29 +16,16 @@ ms.assetid: 5162ae1a-38e3-4571-8995-4ed9be1dec3e
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSession::get_loadAddress
 Retrieves the load address for the executable file that corresponds to the symbols in this symbol store.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_loadAddress (   
    ULONGLONG* pRetVal  
 );  

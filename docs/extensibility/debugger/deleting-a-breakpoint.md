@@ -13,22 +13,11 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], deleting breakpoints"
 ms.assetid: 75a046cc-d20a-4c79-ad2d-1f18426ac5d0
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Deleting a Breakpoint
 The following describes the process when deleting a pending breakpoint:  

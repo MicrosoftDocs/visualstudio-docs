@@ -16,29 +16,16 @@ ms.assetid: ad1822db-4572-48f7-9919-f8137f6701f2
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaPropertyStorage::ReadBOOL
 Reads `BOOL` values in a property set.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT ReadBOOL (   
    PROPID id,  
    BOOL*  pValue  

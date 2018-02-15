@@ -1,47 +1,41 @@
 ---
 title: "Walkthrough: Configuring and Using a Custom Rule Set | Microsoft Docs"
-ms.custom: 
+ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: 
-ms.suite: "
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: "
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: vs-ide-code-analysis
 ms.topic: "article"
 helpviewer_keywords: 
   - "code analysis, walkthroughs"
   - "code analysis, rule sets"
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Walkthrough: Configuring and Using a Custom Rule Set
 
 This walkthrough shows how to use code analysis tools that have been configured to use a customized *rule set* on a class library. You can select a rule set that relates to the project type that you specified for your solution, or you can select alternative rule sets to fulfill a specific need such as scanning legacy code for issues that can be fixed in a nonbreaking way. In either case, the rule sets can also be customized to fine tune them to your project requirements.
 
+In this walkthrough, you will step through these processes:
+
 - Create a class library.
-
 - Select the **Microsoft Basic Design Guideline Rules** Code Analysis rule set.
-
 - Add your own code to the class.
-
 - Run Code Analysis.
-
 - Customize the rule set.
-
 - Run Code Analysis and see how the rule set customization behavior works.
 
 ## Create a class library
 
 1. On the **File** menu, click **New** and then click **Project**.
-
 2. In the **New Project** dialog box, under **Project Types**, click **Visual C#**.
-
 3. Under **Visual C#**, select **Class Library**.
-
 4. In the **Name** text box, type **RuleSetSample** and then click **OK**.
 
- Next, you will select the **Microsoft Basic Design Guideline Rules** rule set and save it with your project.
+Next, you will select the **Microsoft Basic Design Guideline Rules** rule set and save it with your project.
 
 ## Select a code analysis rule set
 
@@ -58,13 +52,13 @@ This walkthrough shows how to use code analysis tools that have been configured 
     > [!TIP]
     > In a real-world situation, a good practice to use for prioritizing which issues you want to target with code analysis is to start with the **Minimum Recommended Rules** rule set and correct the desired issues, and then incrementally add more rules or rule sets to find and correct the additional issues.
 
- Next, you will add some code to the class library which will be used to demonstrate violations of the CA1704 "Identifiers should be spelled correctly" Code Analysis rule. For more information, see [CA1704: Identifiers should be spelled correctly](../code-quality/ca1704-identifiers-should-be-spelled-correctly.md).
+Next, you will add some code to the class library which will be used to demonstrate violations of the CA1704 "Identifiers should be spelled correctly" Code Analysis rule. For more information, see [CA1704: Identifiers should be spelled correctly](../code-quality/ca1704-identifiers-should-be-spelled-correctly.md).
 
 ## Add your own code
 
 - In Solution Explorer, open the Class1.cs file and replace the existing code with the following:
 
-    ```cs
+    ```csharp
     using System;
     using System.Collections.Generic;
     using System.Text;
@@ -85,7 +79,6 @@ This walkthrough shows how to use code analysis tools that have been configured 
             }
         }
     }
-
     ```
 
 Now you can run Code Analysis on the RuleSetSample project and look for any errors and warnings generated in the Error List window.
@@ -96,9 +89,10 @@ Now you can run Code Analysis on the RuleSetSample project and look for any erro
 
 2. In the Error List window, click **Warnings** and then click the **Description** column header to sort the warnings alphanumerically.
 
-     In a real-world application, you would fix any rule violations worth fixing at this point, or optionally turn off or suppress a rule if you determined that it was not worth fixing. For more information, see [Suppress Warnings By Using the SuppressMessage Attribute](../code-quality/suppress-warnings-by-using-the-suppressmessage-attribute.md).
+     In a real-world application, you would fix any rule violations worth fixing at this point, or optionally turn off or suppress a rule if you determined that it was not worth fixing. For more information, see [Suppress warnings](../code-quality/in-source-suppression-overview.md).
 
 3. Notice the CA1704 warnings. These violations on this rule indicate that you should " Consider providing a more meaningful name for the parameters." You could correct the issue in your code or you can disable the rule, as explained in the next procedure.
+
 Next, you will customize the rule set to exclude the CA1704 warning, " Identifiers should be spelled correctly".
 
 ## Customize the rule set for your project to disable a specific rule
@@ -111,7 +105,7 @@ Next, you will customize the rule set to exclude the CA1704 warning, " Identifie
 
 4. Under the **Action** column, select **None.** This prevents CA1704 from displaying as an warning or error in the Error List window.
 
-     Now would be a good time to experiment with the various toolbar buttons and filtering options to become familiar with them. For example, you can use the **Group By** drop-down list to help in locating a specific rule, or category of rules. Another example is that you can use the **Hide Disabled Rules** button in the rule set pages toolbar to hide or show all the rules with the **Action** column set to **None**. This can be useful if you want to scan for any rules that you have turned off to verify that you still want to have them disabled.
+     Now is a good time to experiment with the various toolbar buttons and filtering options to become familiar with them. For example, you can use the **Group By** drop-down list to help in locating a specific rule, or category of rules. Another example is that you can use the **Hide Disabled Rules** button in the rule set pages toolbar to hide or show all the rules with the **Action** column set to **None**. This can be useful if you want to scan for any rules that you have turned off to verify that you still want to have them disabled.
 
 5. On the View menu, click Properties Window. Type **My Custom Rule Set** in the Name box of the Properties tool window. This changes the display name of the new rule set in the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] IDE.
 
@@ -137,7 +131,7 @@ Finally, you will run Code Analysis again using your MyCustomRuleSet rule set. N
 
 2. In the Error List window, notice that when you click **Warnings**, you no longer see the CA1704 warning violations for the "Identifiers should be spelled correctly" rule.
 
-## See Also
+## See also
 
 [How to: Configure Code Analysis for a Managed Code Project](../code-quality/how-to-configure-code-analysis-for-a-managed-code-project.md) 
 [Code analysis rule set reference](../code-quality/code-analysis-rule-set-reference.md)

@@ -14,22 +14,9 @@ ms.assetid: 4b22cdf9-59b1-4c88-a6d8-1644a4a11e08
 caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Concurrency Visualizer SDK
 You can instrument your source code by using the Concurrency Visualizer SDK to display additional information in the Concurrency Visualizer. You can associate the additional data with phases and events in your code. These additional visualizations are known as *markers*.  For an introductory walkthrough, see [Introducing the Concurrency Visualizer SDK](http://go.microsoft.com/fwlink/?LinkId=235405).  
@@ -51,11 +38,11 @@ You can instrument your source code by using the Concurrency Visualizer SDK to d
   
 3.  Add an imports or using statement to your code.  
   
-    ```c#  
+    ```csharp  
     using Microsoft.ConcurrencyVisualizer.Instrumentation;  
     ```  
   
-    ```vb  
+    ```VB  
     Imports Microsoft.ConcurrencyVisualizer.Instrumentation  
     ```  
   
@@ -78,7 +65,7 @@ You can instrument your source code by using the Concurrency Visualizer SDK to d
   
 5.  Create a `marker_series` object and pass it to the `span` constructor.  
   
-    ```cpp  
+    ```C++  
   
     marker_series mySeries;  
     span s(mySeries, _T("Span description"));  
@@ -104,14 +91,14 @@ You can instrument your source code by using the Concurrency Visualizer SDK to d
   
 1.  To use a new <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.MarkerSeries>, first create it by using a <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.MarkerWriter> object, and then generate marker events directly from the new series.  
   
-    ```c#  
-    MarkerSeries series1 = myMarkerWriter.CreateMarkerSeries(″Series 1″);  
-    series1.WriteFlag(″My flag″);  
+    ```csharp  
+    MarkerSeries series1 = myMarkerWriter.CreateMarkerSeries("Series 1");  
+    series1.WriteFlag("My flag");  
     ```  
   
-    ```vb  
-    Dim series1 As New myMarkerWriter.CreateMarkerSeries(″Series 1″)  
-    series1.WriteFlag(″My flag″)  
+    ```VB  
+    Dim series1 As New myMarkerWriter.CreateMarkerSeries("Series 1")  
+    series1.WriteFlag("My flag")  
     ```  
   
 #### To use a marker series in a C++ project  
@@ -127,7 +114,7 @@ You can instrument your source code by using the Concurrency Visualizer SDK to d
   
 1.  Use the `CvCreateMarkerSeries` function to create a PCV_MARKERSERIES.  
   
-    ```cpp  
+    ```C++  
     PCV_MARKERSERIES series;  
     CvCreatemarkerSeries(myProvider, _T("My Series"), &series);  
     CvWriteFlag(series, _T("Writing a flag"));  

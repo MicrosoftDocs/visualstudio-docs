@@ -14,22 +14,11 @@ helpviewer_keywords:
   - "IDebugClassField interface"
 ms.assetid: 49358cbc-8973-4862-9dcc-79b1248e6712
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugClassField
 This interface represents a class as a type.  
@@ -44,7 +33,7 @@ IDebugClassField : IDebugContainerField
  A symbol provider implements this interface on the same object that implements the [IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md) interface. This interface is a specialization that represents a class type.  
   
 ## Notes for Callers  
- A number of interfaces have methods that can return this interface including [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md), [IDebugMethodField](../../../extensibility/debugger/reference/idebugmethodfield.md), and [IDebugCustomAttribute](../../../extensibility/debugger/reference/idebugcustomattribute.md). Also, you can use [QueryInterface](/visual-cpp/atl/queryinterface) to obtain this interface from the [IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md) interface if the [GetKind](../../../extensibility/debugger/reference/idebugfield-getkind.md) method returns the flag `FIELD_TYPE_CLASS`.  
+ A number of interfaces have methods that can return this interface including [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md), [IDebugMethodField](../../../extensibility/debugger/reference/idebugmethodfield.md), and [IDebugCustomAttribute](../../../extensibility/debugger/reference/idebugcustomattribute.md). Also, you can use [QueryInterface](/cpp/atl/queryinterface) to obtain this interface from the [IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md) interface if the [GetKind](../../../extensibility/debugger/reference/idebugfield-getkind.md) method returns the flag `FIELD_TYPE_CLASS`.  
   
 ## Methods in Vtable Order  
  In addition to the methods on the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) and [IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md) interfaces, this interface implements the following:  

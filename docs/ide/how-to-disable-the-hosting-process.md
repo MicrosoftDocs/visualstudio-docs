@@ -13,23 +13,11 @@ helpviewer_keywords:
   - "vshost.exe, disabling the hosting process"
 ms.assetid: 9157488d-737f-454b-8d8d-36f99de38bb0
 caps.latest.revision: 10
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Disable the Hosting Process
 Calls to certain APIs can be affected when the hosting process is enabled. In these cases, it is necessary to disable the hosting process to return the correct results.  
@@ -54,7 +42,7 @@ Calls to certain APIs can be affected when the hosting process is enabled. In th
   
 -   Partial trust debugging is unavailable.  
   
-## See Also  
- [Debugging and the Hosting Process](../debugger/debugging-and-the-hosting-process.md)   
- [Hosting Process (vshost.exe)](../ide/hosting-process-vshost-exe.md)   
- [Builds During Application Development](http://msdn.microsoft.com/en-us/c9497d62-3b7b-4449-88e8-cf27acc9efe6)
+## See also
+
+[Debugging and the Hosting Process](../debugger/debugging-and-the-hosting-process.md)   
+[Hosting Process (vshost.exe)](../ide/hosting-process-vshost-exe.md)

@@ -15,23 +15,11 @@ helpviewer_keywords:
   - "<SupportsCodeSeparation> element [Visual Studio Templates]"
 ms.assetid: 8112aac8-a269-40e5-b92b-9b9a6ff5a542
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # SupportsCodeSeparation Element (Visual Studio Templates)
 Specifies whether or not the **Place code in separate file** check box is enabled in the **Add New Item** dialog box.  

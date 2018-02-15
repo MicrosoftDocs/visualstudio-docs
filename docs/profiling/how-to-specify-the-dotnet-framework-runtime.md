@@ -13,7 +13,13 @@ helpviewer_keywords:
   - ".NET Framework versions,profililng"
 author: "mikejo5000"
 ms.author: "mikejo"
+<<<<<<< HEAD
 manager: "ghogen"
+=======
+manager: ghogen
+ms.workload: 
+  - "dotnet"
+>>>>>>> master
 ---
 # How to: Specify the .NET Framework Runtime
 

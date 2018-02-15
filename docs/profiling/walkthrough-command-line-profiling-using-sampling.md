@@ -14,7 +14,13 @@ helpviewer_keywords:
   - "performance tools, command-line tools"
 author: "mikejo5000"
 ms.author: "mikejo"
+<<<<<<< HEAD
 manager: "ghogen"
+=======
+manager: ghogen
+ms.workload: 
+  - "multiple"
+>>>>>>> master
 ---
 # Walkthrough: Command-Line Profiling Using Sampling
 This walkthrough demonstrates how to profile an application by using command-line tools and sampling to identify performance problems.  

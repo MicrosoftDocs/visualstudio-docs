@@ -1,24 +1,26 @@
 ---
 title: "Code analysis rule set reference | Microsoft Docs"
-ms.custom: 
+ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: 
-ms.suite: 
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: 
+  - "vs-ide-code-analysis"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "code analysis, rule sets"
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Code analysis rule set reference
 
 When you configure code analysis for managed code projects in Visual Studio, you are presented with a list of built-in *rule sets*. You can either use one of the standard rule sets, or you can customize a  rule set to fit your project requirements.
 
-## Available rule sets
+## Available Rule Sets
 
 The following table lists the default rule sets:
 
@@ -30,7 +32,7 @@ The following table lists the default rule sets:
 |[Extended Correctness Rules rule set for managed code](../code-quality/extended-correctness-rules-rule-set-for-managed-code.md)|These rules expand on the basic correctness rules to maximize the logic and framework usage errors that are reported. Extra emphasis is placed on specific scenarios such as COM interop and mobile applications. Consider including this rule set if one of these scenarios applies to your project or to find additional problems in your project.|
 |[Extended Design Guidelines Rules rule set for managed code](../code-quality/extended-design-guidelines-rules-rule-set-for-managed-code.md)|These rules expand on the basic design guideline rules to maximize the usability and maintainability issues that are reported. Extra emphasis is placed on naming guidelines. Consider including this rule set if your project includes library code or if you want to enforce the highest standards for writing maintainable code.|
 |[Globalization Rules rule set for managed code](../code-quality/globalization-rules-rule-set-for-managed-code.md)|These rules focus on problems that prevent data in your application from displaying correctly when used in different languages, locales, and cultures. Include this rule set if your application is localized or globalized.|
-|[Managed Minimun Rules rule set for managed code](../code-quality/managed-minimun-rules-rule-set-for-managed-code.md)|These rules focus on the most critical problems in your code for which Code Analysis is the most accurate.  These rules are small in number and they are intended only to run in limited Visual Studio editions.  Use MinimumRecommendedRules.ruleset with other Visual Studio editions.|
+|[Managed Minimum Rules rule set for managed code](../code-quality/managed-minimun-rules-rule-set-for-managed-code.md)|These rules focus on the most critical problems in your code for which Code Analysis is the most accurate.  These rules are small in number and they are intended only to run in limited Visual Studio editions.  Use MinimumRecommendedRules.ruleset with other Visual Studio editions.|
 |[Managed Recommended Rules rule set for managed code](../code-quality/managed-recommended-rules-rule-set-for-managed-code.md)|These rules focus on the most critical problems in your code, including potential security holes, application crashes, and other important logic and design errors. You should include this rule set in any custom rule set you create for your projects.|
 |[Mixed Minimum Rules rule set](../code-quality/mixed-minimum-rules-rule-set.md)|These rules focus on the most critical problems in your C++ projects that support the Common Language Runtime, including potential security holes and application crashes. You should include this rule set in any custom rule set you create for your C++ projects that support the Common Language Runtime.|
 |[Mixed Recommended Rules rule set](../code-quality/mixed-recommended-rules-rule-set.md)|These rules focus on the most common and critical problems in your C++ projects that support the Common Language Runtime, including potential security holes, application crashes, and other important logic and design errors. You should include this rule set in any custom rule set you create for your C++ projects that support the Common Language Runtime.  This ruleset is designed to be configured with the Visual Studio Professional edition and higher.|

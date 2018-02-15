@@ -16,29 +16,16 @@ ms.assetid: 9fece9c7-064a-4d6b-9cef-fc387f322205
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSegment::get_frame
 Retrieves the segment number.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_frame (   
    DWORD* pRetVal  
 );  

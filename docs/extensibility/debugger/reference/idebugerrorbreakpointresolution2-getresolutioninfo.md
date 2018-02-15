@@ -14,36 +14,25 @@ helpviewer_keywords:
   - "IDebugErrorBreakpointResolution2::GetResolutionInfo"
 ms.assetid: d94c4f60-8796-4848-86ee-186bbaa613f5
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugErrorBreakpointResolution2::GetResolutionInfo
 Gets the breakpoint error resolution information.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetResolutionInfo(   
    BPERESI_FIELDS            dwFields,  
    BP_ERROR_RESOLUTION_INFO* pErrorResolutionInfo  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetResolutionInfo(   
    enum_BPERESI_FIELDS        dwFields,  
    BP_ERROR_RESOLUTION_INFO[] pErrorResolutionInfo  

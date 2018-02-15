@@ -12,7 +12,13 @@ f1_keywords:
   - "vs.performance.property.general"
 author: "mikejo5000"
 ms.author: "mikejo"
+<<<<<<< HEAD
 manager: "ghogen"
+=======
+manager: ghogen
+ms.workload: 
+  - "multiple"
+>>>>>>> master
 ---
 # Setting General Performance Session Options
 

@@ -5,29 +5,16 @@ ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-devops-test"
+  - "vs-ide-code-analysis"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 65798d66-7a30-4359-b064-61a8660c1eed
 caps.latest.revision: 17
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA3075: Insecure DTD Processing
 |||  
@@ -41,7 +28,7 @@ translation.priority.mt:
  If you use insecure <xref:System.Xml.XmlReaderSettings.DtdProcessing%2A> instances or reference external entity sources, the parser may accept untrusted input and disclose sensitive information to attackers.  
   
 ## Rule Description  
- A [Document Type Definition (DTD)](https://msdn.microsoft.com/en-us/library/aa468547.aspx) is one of two ways an XML parser can determine the validity of a document, as defined by the  [World Wide Web Consortium (W3C) Extensible Markup Language (XML) 1.0](http://www.w3.org/TR/2008/REC-xml-20081126/). This rule seeks properties and instances where untrusted data is accepted to warn developers about potential [Information Disclosure](http://msdn.microsoft.com/Library/4064c89f-afa6-444a-aa7e-807ef072131c) threats, which may lead to [Denial of Service (DoS)](http://msdn.microsoft.com/Library/dfb150f3-d598-4697-a5e6-6779e4f9b600) attacks. This rule triggers when:  
+ A *Document Type Definition (DTD)* is one of two ways an XML parser can determine the validity of a document, as defined by the  [World Wide Web Consortium (W3C) Extensible Markup Language (XML) 1.0](http://www.w3.org/TR/2008/REC-xml-20081126/). This rule seeks properties and instances where untrusted data is accepted to warn developers about potential [Information Disclosure](/dotnet/framework/wcf/feature-details/information-disclosure) threats, which may lead to [Denial of Service (DoS)](/dotnet/framework/wcf/feature-details/denial-of-service) attacks. This rule triggers when:  
   
 -   DtdProcessing is enabled on the <xref:System.Xml.XmlReader> instance, which resolves external XML entities using <xref:System.Xml.XmlUrlResolver>.  
   
@@ -59,23 +46,23 @@ translation.priority.mt:
   
 ## How to Fix Violations  
   
--   Catch and process all XmlTextReader exceptions properly to avoid path information disclosure    .  
+-   Catch and process all XmlTextReader exceptions properly to avoid path information disclosure    .  
   
--   Use the <xref:System.Xml.XmlSecureResolver> to restrict the resources      that the XmlTextReader can access.  
+-   Use the <xref:System.Xml.XmlSecureResolver> to restrict the resources      that the XmlTextReader can access.  
   
--   Do not allow the <xref:System.Xml.XmlReader> to open any external resources by setting the <xref:System.Xml.XmlResolver> property to **null**.  
+-   Do not allow the <xref:System.Xml.XmlReader> to open any external resources by setting the <xref:System.Xml.XmlResolver> property to **null**.  
   
 -   Ensure that the <xref:System.Data.DataViewManager.DataViewSettingCollectionString%2A> property of <xref:System.Data.DataViewManager> is assigned from a trusted source.  
   
  .NET 3.5 and earlier  
   
--   Disable DTD processing if you are dealing with untrusted sources by setting the <xref:System.Xml.XmlReaderSettings.ProhibitDtd%2A> property to **true** .  
+-   Disable DTD processing if you are dealing with untrusted sources by setting the <xref:System.Xml.XmlReaderSettings.ProhibitDtd%2A> property to **true** .  
   
--   XmlTextReader class has a full trust inheritance demand. See [Inheritance Demands](http://msdn.microsoft.com/en-us/28b9adbb-8f08-4f10-b856-dbf59eb932d9) for more information    .  
+-   XmlTextReader class has a full trust inheritance demand.  
   
  .NET 4 and later  
   
--   Avoid enabling DtdProcessing if you're dealing with untrusted sources by setting the DtdProcessing  property to [Prohibit or Ignore](https://msdn.microsoft.com/en-us/library/system.xml.dtdprocessing.aspx)  
+-   Avoid enabling DtdProcessing if you're dealing with untrusted sources by setting the <xref:System.Xml.XmlReaderSettings.DtdProcessing%2A?displayProperty=nameWithType>  property to **Prohibit** or **Ignore**.  
   
 -   Ensure that the Load() method takes an XmlReader instance in all InnerXml cases.  
   
@@ -89,7 +76,7 @@ translation.priority.mt:
   
 ### Violation  
   
-```c#  
+```csharp  
 using System.IO;   
 using System.Xml.Schema;   
   
@@ -110,7 +97,7 @@ class TestClass
   
 ### Solution  
   
-```c#  
+```csharp  
 using System.IO;   
 using System.Xml;   
 using System.Xml.Schema;   
@@ -133,7 +120,7 @@ class TestClass
   
 ### Violation  
   
-```c#  
+```csharp  
 using System.Xml;   
   
 namespace TestNamespace   
@@ -151,7 +138,7 @@ namespace TestNamespace
   
 ### Solution  
   
-```c#  
+```csharp  
 using System.Xml;   
   
 namespace TestNamespace   
@@ -173,7 +160,7 @@ namespace TestNamespace
   
 ### Violations  
   
-```c#  
+```csharp  
 using System.Xml;   
   
 namespace TestNamespace   
@@ -189,7 +176,7 @@ namespace TestNamespace
 }  
 ```  
   
-```c#  
+```csharp  
 using System.Xml;   
   
 namespace TestNamespace   
@@ -207,7 +194,7 @@ namespace TestNamespace
   
 ### Solution  
   
-```c#  
+```csharp  
 using System.Xml;   
   
 public static void TestMethod(string xml)   
@@ -221,7 +208,7 @@ public static void TestMethod(string xml)
   
 ### Violation  
   
-```c#  
+```csharp  
 using System.IO;   
 using System.Xml;   
 using System.Xml.Serialization;   
@@ -241,7 +228,7 @@ namespace TestNamespace
   
 ### Solution  
   
-```c#  
+```csharp  
 using System.IO;   
 using System.Xml;   
 using System.Xml.Serialization;   
@@ -262,7 +249,7 @@ namespace TestNamespace
   
 ### Violation  
   
-```c#  
+```csharp  
 using System.Xml;   
 using System.Xml.XPath;   
   
@@ -280,7 +267,7 @@ namespace TestNamespace
   
 ### Solution  
   
-```c#  
+```csharp  
 using System.Xml;   
 using System.Xml.XPath;   
   
@@ -299,7 +286,7 @@ namespace TestNamespace
   
 ### Violation  
   
-```c#  
+```csharp  
 using System.Xml;   
   
 namespace TestNamespace   
@@ -313,7 +300,7 @@ namespace TestNamespace
   
 ### Solution  
   
-```c#  
+```csharp  
 using System.Xml;   
   
 namespace TestNamespace   
@@ -327,7 +314,7 @@ namespace TestNamespace
   
 ### Violations  
   
-```c#  
+```csharp  
 using System.Xml;   
   
 namespace TestNamespace   
@@ -343,7 +330,7 @@ namespace TestNamespace
 }  
 ```  
   
-```c#  
+```csharp  
 using System.Xml;   
   
 namespace TestNamespace   
@@ -358,7 +345,7 @@ namespace TestNamespace
 }  
 ```  
   
-```c#  
+```csharp  
 using System.Xml;   
   
 namespace TestNamespace   
@@ -379,7 +366,7 @@ namespace TestNamespace
   
 ### Solution  
   
-```c#  
+```csharp  
 using System.Xml;   
   
 namespace TestNamespace   

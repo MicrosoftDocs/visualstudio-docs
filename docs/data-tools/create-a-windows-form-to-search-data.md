@@ -6,37 +6,20 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "aspx"
 helpviewer_keywords: 
   - "Windows Forms, searching data"
   - "Windows Forms, displaying data"
   - "parameters, displaying filtered data"
-  - "data [Visual Studio], paramaterizing queries"
+  - "data [Visual Studio], parameterizing queries"
   - "data [Visual Studio], searching"
 ms.assetid: 65ca79a9-7458-466c-af55-978cd24c549e
 caps.latest.revision: 28
-author: "mikeblome"
-ms.author: "mblome"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.technology: "vs-data-tools"
+ms.workload: 
+  - "data-storage"
 ---
 # Create a Windows Form to search data
 A common application scenario is to display selected data on a form. For example, you might want to display the orders for a specific customer or the details of a specific order. In this scenario, a user enters information into a form, and then a query is executed with the user's input as a parameter; that is, the data is selected based on a parameterized query. The query returns only the data that satisfies the criteria entered by the user. This walkthrough shows how to create a query that returns customers in a specific city, and modify the user interface so that users can enter a city's name and press a button to execute the query.  
@@ -61,26 +44,41 @@ A common application scenario is to display selected data on a form. For example
   
 -   Entering parameters into the form and executing the parameterized query.  
   
-## Prerequisites  
- In order to complete this walkthrough, you need:  
+## Prerequisites
+
+This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.  
+
+1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the Visual Studio Installer, SQL Server Express LocalDB can be installed as part of the **Data storage and processing** workload, or as an individual component.
+
+2.  Install the Northwind sample database by following these steps:  
+
+    1. In Visual Studio, open the **SQL Server Object Explorer** window. (SQL Server Object Explorer is installed as part of the **Data storage and processing** workload in the Visual Studio Installer.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query...**.  
+
+       A query editor window opens.  
+
+    2. Copy the [Northwind Transact-SQL script](https://github.com/MicrosoftDocs/visualstudio-docs/blob/master/docs/data-tools/samples/northwind.sql?raw=true) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.  
+
+    3. Paste the T-SQL script into the query editor, and then choose the **Execute** button.  
+
+       After a short time, the query finishes executing and the Northwind database is created.  
   
--   Access to the Northwind sample database.  
+## Create the Windows Forms Application  
+ The first step is to create a **Windows Forms Application**. Assigning a name to the project is optional at this step, but you'll give it a name here because you'll save the project later.  
   
-## Create the Windows Application  
- The first step is to create a **Windows Application**. Assigning a name to the project is optional at this step, but you'll give it a name here because you'll save it later.  
+#### To create the new Windows Forms Application project  
   
-#### To create the new Windows Application project  
+1. In Visual Studio, on the **File** menu, select **New**, **Project...**.  
   
-1.  From the **File** menu, create a new project.  
-  
-2.  Name the project `WindowsSearchForm`.  
-  
-3.  Select **Windows Application** and click **OK**.  
+2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Classic Desktop**.  
+
+3. In the middle pane, select the **Windows Forms App** project type.  
+
+4. Name the project **WindowsSearchForm**, and then choose **OK**. 
   
      The **WindowsSearchForm** project is created and added to **Solution Explorer**.  
   
 ## Create the data source  
- This step creates a data source from a database using the **Data Source Configuration** wizard. You must have access to the Northwind sample database to create the connection. For information on setting up the Northwind sample database, see [Install SQL Server sample databases](../data-tools/install-sql-server-sample-databases.md).  
+This step creates a data source from a database using the **Data Source Configuration** wizard.  
   
 #### To create the data source  
   
@@ -117,7 +115,7 @@ A common application scenario is to display selected data on a form. For example
   
      A <xref:System.Windows.Forms.DataGridView> and a tool strip (<xref:System.Windows.Forms.BindingNavigator>) for navigating records appear on the form. A [NorthwindDataSet](../data-tools/dataset-tools-in-visual-studio.md), CustomersTableAdapter, <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray.  
   
-## Addparameterization (search functionality) to the query  
+## Add parameterization (search functionality) to the query  
  You can add a WHERE clause to the original query using the **Search Criteria Builder** dialog box.  
   
 #### To create a parameterized query and controls to enter the parameters  
@@ -130,11 +128,12 @@ A common application scenario is to display selected data on a form. For example
   
      The query should be similar to the following:  
   
-     `SELECT CustomerID, CompanyName, ContactName, ContactTitle, Address, City, Region, PostalCode, Country, Phone, Fax`  
-  
-     `FROM Customers`  
-  
-     `WHERE City = @City`  
+     ```sql
+     SELECT CustomerID, CompanyName, ContactName, ContactTitle,  
+          Address, City, Region, PostalCode, Country, Phone, Fax  
+     FROM Customers
+     WHERE City = @City  
+     ```
   
     > [!NOTE]
     >  Access and OLE DB data sources use the question mark ('?') to denote parameters, so the WHERE clause would look like this: `WHERE City = ?`.  

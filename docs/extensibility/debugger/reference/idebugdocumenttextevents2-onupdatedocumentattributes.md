@@ -14,35 +14,24 @@ helpviewer_keywords:
   - "IDebugDocumentTextEvents2::onUpdateDocumentAttributes"
 ms.assetid: 31b7d151-9ce2-438e-b405-f8cc46b9f537
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugDocumentTextEvents2::onUpdateDocumentAttributes
 Notifies receiver of the event that the document attributes have been updated.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT onUpdateDocumentAttributes(   
    TEXT_DOC_ATTR_2 textdocattr  
 );  
 ```  
   
-```c#  
+```csharp  
 int onUpdateDocumentAttributes(   
    enum_TEXT_DOC_ATTR_2 textdocattr  
 );  

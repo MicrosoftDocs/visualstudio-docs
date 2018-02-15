@@ -4,27 +4,13 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2ba70ba4-2cea-4e01-93c2-055903d59470
-caps.latest.revision: 14
-author: "alexhomer1"
-ms.author: "ahomer"
-manager: "douge"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Structure your modeling solution
 To use models effectively in a development project, the team members must be able to work on models of different parts of the project at the same time. This topic suggests a scheme for dividing the application into different parts that correspond to the layers in an overall layering diagram.  
@@ -115,8 +101,7 @@ To use models effectively in a development project, the team members must be abl
 ## Related materials  
  [Organizing and Managing Your Models](http://channel9.msdn.com/posts/clinted/UML-with-VS-2010-Part-9-Organizing-and-Managing-Your-Models/) - video by Clint Edmondson.  
   
- [Visual Studio Architecture Tooling Guidance](../modeling/visual-studio-architecture-tooling-guidance.md) – Further guidance on managing models in a team  
+ [Visual Studio Architecture Tooling Guidance](../modeling/visual-studio-architecture-tooling-guidance.md) - Further guidance on managing models in a team  
   
 ## See Also  
- [Manage models and diagrams under version control](../modeling/manage-models-and-diagrams-under-version-control.md)   
  [Use models in your development process](../modeling/use-models-in-your-development-process.md)

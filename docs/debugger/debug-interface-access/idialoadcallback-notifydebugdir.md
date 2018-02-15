@@ -16,29 +16,16 @@ ms.assetid: bd04e2f6-0dbf-4742-a556-96f2cd99aa19
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaLoadCallback::NotifyDebugDir
 Called when a debug directory was found in the .exe file.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT NotifyDebugDir (   
    BOOL  fExecutable,  
    DWORD cbData,  

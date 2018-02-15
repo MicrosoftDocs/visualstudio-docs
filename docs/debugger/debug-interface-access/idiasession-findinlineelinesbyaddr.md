@@ -14,29 +14,16 @@ ms.assetid: bb70e408-eed1-4c9c-b5b1-44323125f48b
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSession::findInlineeLinesByAddr
 Retrieves an enumeration that allows a client to iterate through the line number information of all functions that are inlined, directly or indirectly, by the specified parent symbol and are contained within the specified address range.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT findInlineeLinesByAddr (   
    IDiaSymbol*           parent,   DWORD                 isect,   DWORD                 offset,   DWORD                 length,  
    IDiaEnumLineNumbers** ppResult  

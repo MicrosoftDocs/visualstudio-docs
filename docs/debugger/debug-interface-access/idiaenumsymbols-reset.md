@@ -16,29 +16,16 @@ ms.assetid: dd3c41a5-ebdf-4a9e-bc84-2fe985be0075
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaEnumSymbols::Reset
 Resets an enumeration sequence to the beginning.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT Reset ();  
 ```  
   

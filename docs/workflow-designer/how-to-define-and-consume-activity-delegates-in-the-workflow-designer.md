@@ -10,20 +10,8 @@ ms.assetid: c68e42ad-3ec0-4c2d-b104-fe36c6d83b5e
 caps.latest.revision: 3
 ms.author: "sdanie"
 manager: "erikre"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+ms.workload: 
+  - "multiple"
 ---
 # How to: Define and consume activity delegates in the Workflow Designer
 [!INCLUDE[net_v45](../ide/includes/net_v45_md.md)] includes a new out-of-box designer for the <xref:System.Activities.Statements.InvokeDelegate> activity. This designer can be used to assign delegates to the activity that derive from <xref:System.Activities.ActivityDelegate>, such as <xref:System.Activities.ActivityAction> or <xref:System.Activities.ActivityFunc%601>.  
@@ -32,7 +20,7 @@ translation.priority.ht:
   
 1.  In [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)], select **File**, **New**, **Project**. Select the **Workflow** node on the left, and the **Workflow Console Application** template on the right. Name the project (if desired) and click **Ok**.  
   
-2.  Right-click on the project in **Solution Explorer** and select **Add**, **New Item…**. Select the **Workflow** node on the left, and the **Activity** template on the right. Name the new activity **MyForEach.xaml** and click **Ok**. The activity will open in the workflow designer.  
+2.  Right-click on the project in **Solution Explorer** and select **Add**, **New Item...**. Select the **Workflow** node on the left, and the **Activity** template on the right. Name the new activity **MyForEach.xaml** and click **Ok**. The activity will open in the workflow designer.  
   
 3.  In the workflow designer, click the **Arguments** tab.  
   
@@ -44,7 +32,7 @@ translation.priority.ht:
   
 7.  Click **Create Argument** again. Name the new argument **Body**. In the **Direction** column for the new argument, select **Property**.  
   
-8.  In the Argument Type column, select **Browse for types…**  
+8.  In the Argument Type column, select **Browse for types...**  
   
 9. In the type browser, enter **ActivityAction** in the **Type Name** field. Select **ActivityAction\<T>** in the tree view. Select **Object** in the dropdown that appears to assign the type **ActivityAction\<Object>** to the argument.  
   
@@ -62,7 +50,7 @@ translation.priority.ht:
   
 16. Select **Body** in the delegate drop-down.  
   
-17. In the **Properties** grid for the <xref:System.Activities.Statements.InvokeDelegate> activity, click the **…** button in the **Delegate Arguments** property.  
+17. In the **Properties** grid for the <xref:System.Activities.Statements.InvokeDelegate> activity, click the **...** button in the **Delegate Arguments** property.  
   
 18. In the **Value** column of the argument named **Argument**, enter **Items[Index]**. Click **Ok** to close the **DelegateArguments** dialog.  
   

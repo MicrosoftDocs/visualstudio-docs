@@ -1,7 +1,7 @@
 ---
 title: "Starting to Develop Visual Studio Extensions | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "09/18/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,39 +13,28 @@ helpviewer_keywords:
   - "Visual Studio, integration"
 ms.assetid: 8fe5e2ab-a424-4173-9d39-dd082c4d58d0
 caps.latest.revision: 29
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Starting to Develop Visual Studio Extensions
-If you’ve never written a Visual Studio extension before, you probably have some questions. We’ve listed some of the most common ones here. If you don’t see the information you’re looking for, use the feedback buttons (**Was this page helpful?** at the bottom of the screen) to ask for what you want.  
+If you've never written a Visual Studio extension before, you probably have some questions. We've listed some of the most common ones here. If you don't see the information you're looking for, use the feedback buttons (**Was this page helpful?** at the bottom of the screen) to ask for what you want.  
   
 ## What software do I need to develop Visual Studio extensions?  
- You need to install the Visual Studio 2015 SDK in addition to Visual Studio 2015 in order to develop Visual Studio extensions.   You can install the Visual Studio 2015 SDK as part of regular setup, or you can install it later on. For more information about installing the Visual Studio SDK, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).  
+ You need to install the Visual Studio SDK in addition to Visual Studio in order to develop Visual Studio extensions. You can install the Visual Studio SDK as part of regular setup, or you can install it later on. For more information about installing the Visual Studio SDK, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).  
   
 ## What kinds of things can I do with Visual Studio extensions?  
- The sky’s the limit when it comes to imagining different Visual Studio extensions. Of course, most extensions have something to do with writing code, but that doesn’t have to be the case. Here are some examples of the kinds of extensions you can build:  
+ The sky's the limit when it comes to imagining different Visual Studio extensions. Of course, most extensions have something to do with writing code, but that doesn't have to be the case. Here are some examples of the kinds of extensions you can build:  
   
--   Support for languages that aren’t included in Visual Studio, with syntax coloring, IntelliSense, and compiler and debug support  
+-   Support for languages that aren't included in Visual Studio, with syntax coloring, IntelliSense, and compiler and debug support  
   
 -   Productivity tools that extend the core IDE experience with additional templates, code refactoring, new dialogs or tool windows  
   
 -   Domain-specific designers for scenarios like data design or cloud support  
   
- For examples of extensions, check out the [Visual Studio Gallery](https://visualstudiogallery.msdn.microsoft.com/). You can also take a look at [Visual Studio Open Source Extensions](https://github.com/Microsoft/extendvs/blob/master/CommunityExtensions.md).  
+ For examples of extensions, check out the [Visual Studio Marketplace](https://marketplace.visualstudio.com/vs). Many extensions are open sourced, and the Marketplace includes links to their GitHub repo. 
   
 ## Which Visual Studio features can I extend?  
  In theory, you can extend just about any part of Visual Studio: menus, toolbars, commands, windows, solutions, projects, editors, and so on.  
@@ -71,7 +60,7 @@ If you’ve never written a Visual Studio extension before, you probably have so
 ##  <a name="BKMK_ProjectTemplate"></a> What project templates are provided by the VSSDK?  
  The two main types of extensions are VSPackages and MEF extensions. In general, VSPackage extensions are used for extensions that use or extend commands, tool windows, and projects. MEF extensions are used to extend or customize the Visual Studio editor.  
   
- For Visual C# and Visual Basic extensions, the VSSDK provides an empty VSIX project template that you can use together with the new item templates that create menu commands, tool windows, and editor extensions. For more information, see [What's New in the Visual Studio 2015 SDK](../extensibility/what-s-new-in-the-visual-studio-2015-sdk.md). You can also use this template to package project templates, code snippets, and other artifacts for distribution to other users.  
+ For Visual C# and Visual Basic extensions, the VSSDK provides an empty VSIX project template that you can use together with the new item templates that create menu commands, tool windows, and editor extensions. You can also use this template to package project templates, code snippets, and other artifacts for distribution to other users.  
   
  For C++, the VSPackage wizard provides the code to add menu commands, tool windows, and custom editors.  
   
@@ -93,9 +82,9 @@ If you’ve never written a Visual Studio extension before, you probably have so
  Get great tips for designing the UI for your extension in [Visual Studio User Experience Guidelines](../extensibility/ux-guidelines/visual-studio-user-experience-guidelines.md).  
   
 ## Where can I find examples of VSSDK code?  
- Each of the links listed in the preceding section have step-by-step walkthroughs that show you how to implement specific features. You can also find open source VSSDK samples on GitHub at [Visual Studio Samples](https://aka.ms/vs2015sdksamples).  
+ Each of the links listed in the preceding section have step-by-step walkthroughs that show you how to implement specific features. You can also find open source VSSDK samples on GitHub at [Visual Studio Samples](https://github.com/Microsoft/VSSDK-Extensibility-Samples).  
   
 ## How can I distribute my extension?  
  You can install your extension on another computer or send it to your friends as a .vsix file, which you install by double-clicking it. You can find out more about VSIX packages at [Shipping Visual Studio Extensions](../extensibility/shipping-visual-studio-extensions.md).  
   
- You can also publish your extension on the Visual Studio Gallery, which makes it visible to large numbers of Visual Studio customers. For an example of packaging an extension for the Gallery, see [Walkthrough: Publishing a Visual Studio Extension](../extensibility/walkthrough-publishing-a-visual-studio-extension.md). For more information about what you need to do to publish on the Gallery, see [Products and Extensions for Visual Studio](https://visualstudiogallery.msdn.microsoft.com/).
+ You can also publish your extension on the Visual Studio Marketplace, which makes it visible to large numbers of Visual Studio customers. For an example of packaging an extension to the Marketplace, see [Walkthrough: Publishing a Visual Studio Extension](../extensibility/walkthrough-publishing-a-visual-studio-extension.md). For more information about what you need to do to publish on the Marketplace, see [Products and Extensions for Visual Studio](/vsts/integrate/ide/extensions/overview).

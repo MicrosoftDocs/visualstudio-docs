@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 11
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trin_Outlook_RL_SearchForContact", "Trin_Outlook_RL_SearchForContact.csproj", "{DD40C11F-442D-439E-8854-4F7FB9D6265B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = preSolution
+		{DD40C11F-442D-439E-8854-4F7FB9D6265B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD40C11F-442D-439E-8854-4F7FB9D6265B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD40C11F-442D-439E-8854-4F7FB9D6265B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD40C11F-442D-439E-8854-4F7FB9D6265B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,11 +1,9 @@
 ---
 title: "Options, Text Editor, General | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
+ms.technology: vs-ide-general
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -18,14 +16,12 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.T-SQL80.General"
   - "VS.ToolsOptionsPages.Text_Editor.CSS"
   - "VS.ToolsOptionsPages.Text_Editor.Plain_Text.General"
-  - "VS.ToolsOptionsPages.Text_Editor.Visual_JSharp.General"
   - "VS.ToolsOptionsPages.Text_Editor.SQL_Script.General"
   - "VS.ToolsOptionsPages.Text_Editor.CSharp.General"
   - "VS.ToolsOptionsPages.Text_Editor.All_Languages"
   - "VS.ToolsOptionsPages.Text_Editor.T-SQL7.General"
   - "VS.ToolsOptionsPages.Text_Editor.Basic.General"
   - "VS.ToolsOptionsPages.Text_Editor.T-SQL.General"
-  - "vs.toolsoptionspages.text_editor.visual_jsharp"
   - "VS.ToolsOptionsPages.Text_Editor.F#.Tabs"
   - "VS.ToolsOptionsPages.Text_Editor.F#"
   - "VS.ToolsOptionsPages.Text_Editor.PL/SQL.General"
@@ -42,36 +38,25 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.T-SQL90.General"
   - "VS.ToolsOptionsPages.Text_Editor.General"
   - "VS.ToolsOptionsPages.Text_Editor.CSharp"
+  - "VS.ToolsOptionsPages.Text_Editor.Python"
+  - "VS.ToolsOptionsPages.Text_Editor.R"
 helpviewer_keywords: 
   - "Text Editor Options dialog box"
   - "Code Editor"
   - "Text Editor [Visual Studio]"
   - "editors, global settings"
 ms.assetid: 4ac21e48-3243-4141-9058-7eaf12b3cde7
-caps.latest.revision: 29
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Options, Text Editor, General
 This dialog box lets you change global settings for the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Code and Text Editor. To display this dialog box, click **Options** on the **Tools** menu, expand the **Text Editor** folder, and then click **General**.  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).  
   
 ## Settings  
  Drag and drop text editing  

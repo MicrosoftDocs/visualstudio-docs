@@ -1,16 +1,18 @@
 ---
 title: "Using Rule Sets to Specify the C++ Rules to Run | Microsoft Docs"
-ms.custom:
+ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer:
-ms.suite:
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm:
+  - "vs-ide-code-analysis"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
-author: "corob-msft"
-ms.author: "corob"
-manager: "ghogen"
+author: mikeblome
+ms.author: mblome
+manager: ghogen
+ms.workload: 
+  - "cplusplus"
 ---
 # Using Rule Sets to Specify the C++ Rules to Run
 

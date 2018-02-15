@@ -12,7 +12,13 @@ helpviewer_keywords:
   - "profiling tools, tier interaction method views"
 author: "mikejo5000"
 ms.author: "mikejo"
+<<<<<<< HEAD
 manager: "ghogen"
+=======
+manager: ghogen
+ms.workload: 
+  - "multiple"
+>>>>>>> master
 ---
 # Tier Interaction Views
 

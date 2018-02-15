@@ -23,20 +23,8 @@ caps.latest.revision: 34
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+ms.workload: 
+  - "multiple"
 ---
 # Walkthrough: Creating a Custom Installer for a ClickOnce Application
 Any ClickOnce application based on an .exe file can be silently installed and updated by a custom installer. A custom installer can implement custom user experience during installation, including custom dialog boxes for security and maintenance operations. To perform installation operations, the custom installer uses the <xref:System.Deployment.Application.InPlaceHostingManager> class. This walkthrough demonstrates how to create a custom installer that silently installs a ClickOnce application.  
@@ -51,12 +39,12 @@ Any ClickOnce application based on an .exe file can be silently installed and up
   
 3.  Add the following `Imports` or `using` statements to the top of your new class.  
   
-    ```vb#  
+    ```vb  
     Imports System.Deployment.Application  
     Imports System.Windows.Forms  
     ```  
   
-    ```c#  
+    ```csharp  
     using System.Deployment.Application;  
     using System.Windows.Forms;  
     ```  
@@ -69,17 +57,17 @@ Any ClickOnce application based on an .exe file can be silently installed and up
     >  Permissions assigned by pre-trusting cannot exceed the permissions of the custom installer code.  
   
      [!code-vb[System.Deployment.Application.InPlaceHostingManager#1](../deployment/codesnippet/VisualBasic/walkthrough-creating-a-custom-installer-for-a-clickonce-application_1.vb)]
-     [!code-cs[System.Deployment.Application.InPlaceHostingManager#1](../deployment/codesnippet/CSharp/walkthrough-creating-a-custom-installer-for-a-clickonce-application_1.cs)]  
+     [!code-csharp[System.Deployment.Application.InPlaceHostingManager#1](../deployment/codesnippet/CSharp/walkthrough-creating-a-custom-installer-for-a-clickonce-application_1.cs)]  
   
 5.  To attempt installation from your code, call the `InstallApplication` method. For example, if you named your class `MyInstaller`, you might call `InstallApplication` in the following way.  
   
-    ```vb#  
+    ```vb  
     Dim installer As New MyInstaller()  
     installer.InstallApplication("\\myServer\myShare\myApp.application")  
     MessageBox.Show("Installer object created.")  
     ```  
   
-    ```c#  
+    ```csharp  
     MyInstaller installer = new MyInstaller();  
     installer.InstallApplication(@"\\myServer\myShare\myApp.application");  
     MessageBox.Show("Installer object created.");  

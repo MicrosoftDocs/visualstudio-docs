@@ -9,12 +9,9 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
+  - "CSharp"
+  - "VB"
   - "FSharp"
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "VB"
-  - "CSharp"
   - "C++"
 helpviewer_keywords: 
   - "debugging [Visual Studio], assertions in managed code"
@@ -29,21 +26,9 @@ ms.assetid: 70ab2522-6486-4076-a1a9-e0f11cd0f3a1
 caps.latest.revision: 29
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "dotnet"
 ---
 # Assertions in Managed Code
 An assertion, or `Assert` statement, tests a condition, which you specify as an argument to the `Assert` statement. If the condition evaluates to true, no action occurs. If the condition evaluates to false, the assertion fails. If you are running with a debug build, your program enters break mode.  
@@ -73,14 +58,14 @@ An assertion, or `Assert` statement, tests a condition, which you specify as an 
 ##  <a name="BKMK_The_Debug_Assert_method"></a> The Debug.Assert method  
  Use the <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName> method freely to test conditions that should hold true if your code is correct. For example, suppose you have written an integer divide function. By the rules of mathematics, the divisor can never be zero. You might test this using an assertion:  
   
-```vb  
+```VB  
 Function IntegerDivide(ByVal dividend As Integer, ByVal divisor As Integer) As Integer  
     Debug.Assert(divisor <> 0)  
     Return CInt(dividend / divisor)  
 End Function  
 ```  
   
-```c#  
+```csharp  
 int IntegerDivide ( int dividend , int divisor )  
     { Debug.Assert ( divisor != 0 );  
         return ( dividend / divisor ); }  
@@ -90,14 +75,14 @@ int IntegerDivide ( int dividend , int divisor )
   
  Here is another example. You have a class that implements a checking account, as follows:  
   
-```vb  
+```VB  
 Dim amount, balance As Double  
 balance = savingsAccount.balance  
 Debug.Assert(amount <= balance)  
 SavingsAccount.Withdraw(amount)  
 ```  
   
-```c#  
+```csharp  
 float balance = savingsAccount.Balance;  
 Debug.Assert ( amount <= balance );  
 savingsAccount.Withdraw ( amount );  
@@ -105,14 +90,14 @@ savingsAccount.Withdraw ( amount );
   
  Before you withdraw money from the account, you want to make sure that the account balance is sufficient to cover the amount you are preparing to withdraw. You might write an assertion to check the balance:  
   
-```vb  
+```VB  
 Dim amount, balance As Double  
 balance = savingsAccount.balance  
 Trace.Assert(amount <= balance)  
 SavingsAccount.Withdraw(amount)  
 ```  
   
-```c#  
+```csharp  
 float balance = savingsAccount.Balance;  
 Trace.Assert ( amount <= balance );  
 savingsAccount.Withdraw ( amount );  
@@ -127,24 +112,24 @@ savingsAccount.Withdraw ( amount );
 ##  <a name="BKMK_Side_effects_of_Debug_Assert"></a> Side effects of Debug.Assert  
  When you use <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName>, make sure that any code inside `Assert` does not change the results of the program if `Assert` is removed. Otherwise, you might accidentally introduce a bug that only shows up in the Release version of your program. Be especially careful about asserts that contain function or procedure calls, such as the following example:  
   
-```vb  
+```VB  
 ' unsafe code  
 Debug.Assert (meas(i) <> 0 )  
 ```  
   
-```c#  
+```csharp  
 // unsafe code  
 Debug.Assert (meas(i) != 0 );  
 ```  
   
  This use of <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName> might appear safe at first glance, but suppose the function meas updates a counter each time it is called. When you build the Release version, this call to meas is eliminated, so the counter does not get updated. This is an example of a function with a side effect. Eliminating a call to a function that has side effects could result in a bug that only appears in the Release version. To avoid such problems, do not place function calls in a <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName> statement. Use a temporary variable instead:  
   
-```vb  
+```VB  
 temp = meas( i )  
 Debug.Assert (temp <> 0)  
 ```  
   
-```c#  
+```csharp  
 temp = meas( i );  
 Debug.Assert ( temp != 0 );  
 ```  
@@ -175,37 +160,37 @@ Debug.Assert ( temp != 0 );
 ##  <a name="BKMK_Assert_arguments"></a> Assert arguments  
  <xref:System.Diagnostics.Trace.Assert%2A?displayProperty=fullName> and <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName> take up to three arguments. The first argument, which is mandatory, is the condition you want to check. If you call <xref:System.Diagnostics.Trace.Assert(System.Boolean)?displayProperty=fullName> or <xref:System.Diagnostics.Debug.Assert(System.Boolean)?displayProperty=fullName> with only one argument, the `Assert` method checks the condition and, if the result is false, outputs the contents of the call stack to the **Output** window. The following example shows <xref:System.Diagnostics.Trace.Assert(System.Boolean)?displayProperty=fullName> and <xref:System.Diagnostics.Debug.Assert(System.Boolean)?displayProperty=fullName>:  
   
-```vb  
+```VB  
 Debug.Assert(stacksize > 0)  
 Trace.Assert(stacksize > 0)  
 ```  
   
-```c#  
+```csharp  
 Debug.Assert ( stacksize > 0 );  
 Trace.Assert ( stacksize > 0 );   
 ```  
   
  The second and third arguments, if present, must be strings. If you call <xref:System.Diagnostics.Trace.Assert%2A?displayProperty=fullName> or <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName> with two or three arguments, the first argument is a condition. The method checks the condition and, if the result is false, outputs the second string and third strings. The following example shows <xref:System.Diagnostics.Debug.Assert(System.Boolean,System.String)?displayProperty=fullName> and <xref:System.Diagnostics.Trace.Assert(System.Boolean,System.String)?displayProperty=fullName> used with two arguments:  
   
-```vb  
+```VB  
 Debug.Assert(stacksize > 0, "Out of stack space")  
 Trace.Assert(stacksize > 0, "Out of stack space")  
 ```  
   
-```c#  
+```csharp  
 Debug.Assert ( stacksize > 0, "Out of stack space" );  
 Trace.Assert ( stacksize > 0, "Out of stack space" );  
 ```  
   
  The following example shows <xref:System.Diagnostics.Debug.Assert%2A> and <xref:System.Diagnostics.Trace.Assert%2A>:  
   
-```vb  
+```VB  
 Debug.Assert(stacksize > 0, "Out of stack space. Bytes left:" , Format(size, "G"))  
 Trace.Assert(stacksize > 0, "Out of stack space. Bytes left:" , Format(size, "G"))  
 Trace.Assert(stacksize > 0, "Out of stack space. Bytes left:", "inctemp failed on third call" )  
 ```  
   
-```c#  
+```csharp  
 Debug.Assert ( stacksize > 100, "Out of stack space" , "Failed in inctemp" );  
 Trace.Assert ( stacksize > 0, "Out of stack space", "Failed in inctemp" );   
 ```  
@@ -221,7 +206,7 @@ Trace.Assert ( stacksize > 0, "Out of stack space", "Failed in inctemp" );
   
  To customize the output in this way, your program must contain a listener, and you must inherit from <xref:System.Diagnostics.TraceListener> and override its <xref:System.Diagnostics.TraceListener.Fail%2A?displayProperty=fullName> method.  
   
- For more Information, see [Trace Listeners](http://msdn.microsoft.com/Library/444b0d33-67ea-4c36-9e94-79c50f839025).  
+ For more Information, see [Trace Listeners](/dotnet/framework/debug-trace-profile/trace-listeners).  
   
  [In this topic](#BKMK_In_this_topic)  
   
@@ -232,7 +217,7 @@ Trace.Assert ( stacksize > 0, "Out of stack space", "Failed in inctemp" );
  <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName>   
  <xref:System.Diagnostics.Trace.Assert%2A?displayProperty=fullName>   
  [Debugger Security](../debugger/debugger-security.md)   
- [Tracing and Instrumenting Applications](http://msdn.microsoft.com/Library/773b6fc4-9013-4322-b728-5dec7a72e743)   
- [How to: Compile Conditionally with Trace and Debug](http://msdn.microsoft.com/Library/56d051c3-012c-42c1-9a58-7270edc624aa)   
+ [Tracing and Instrumenting Applications](/dotnet/framework/debug-trace-profile/tracing-and-instrumenting-applications)   
+ [How to: Compile Conditionally with Trace and Debug](/dotnet/framework/debug-trace-profile/how-to-compile-conditionally-with-trace-and-debug)   
  [C#, F#, and Visual Basic Project Types](../debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)   
  [Debugging Managed Code](../debugger/debugging-managed-code.md)

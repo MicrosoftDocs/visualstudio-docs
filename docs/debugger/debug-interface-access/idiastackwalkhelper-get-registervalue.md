@@ -16,29 +16,16 @@ ms.assetid: 46ac5eee-73a3-44a1-8635-6c58ba193cb6
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaStackWalkHelper::get_registerValue
 Retrieves the value of a register.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_registerValue (   
    DWORD      index,  
    ULONGLONG* pRetVal  

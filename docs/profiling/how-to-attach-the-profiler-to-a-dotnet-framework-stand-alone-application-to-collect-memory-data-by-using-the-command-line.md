@@ -10,7 +10,13 @@ ms.tgt_pltfrm:
 ms.topic: "article"
 author: "mikejo5000"
 ms.author: "mikejo"
+<<<<<<< HEAD
 manager: "ghogen"
+=======
+manager: ghogen
+ms.workload: 
+  - "dotnet"
+>>>>>>> master
 ---
 # How to: Attach the Profiler to a .NET Framework Stand-Alone Application to Collect Memory Data by Using the Command Line
 

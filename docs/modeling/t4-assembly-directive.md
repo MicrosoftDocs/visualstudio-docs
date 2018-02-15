@@ -4,27 +4,13 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 44949749-ce3c-4fb5-8690-a17f1564ac2f
-caps.latest.revision: 4
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # T4 Assembly Directive
 In a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] design-time text template, the `assembly` directive loads an assembly so that your template code can use its types. The effect is similar to adding an assembly reference in a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project.  
@@ -75,7 +61,7 @@ In a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] design-time text 
 -   The assembly containing your DSL.  
   
 ##  <a name="msbuild"></a> Using project properties in both MSBuild and Visual Studio  
- Visual Studio macros like $(SolutionDir) don’t work in MSBuild. If you want to transform templates in your build machine, you have to use project properties instead.  
+ Visual Studio macros like $(SolutionDir) don't work in MSBuild. If you want to transform templates in your build machine, you have to use project properties instead.  
   
  Edit your .csproj or .vbproj file to define a project property. This example defines a property named `myLibFolder`:  
   

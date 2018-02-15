@@ -5,28 +5,16 @@ ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-ide-general"
+  - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1b0c5c80-e5a6-4f69-a4a4-0e89a82d4de0
 caps.latest.revision: 11
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "TerryGLee"
+ms.author: "tglee"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Step 9: Try Other Features
 To learn more, try changing icons and colors, adding a game timer, and adding sounds. To make the game more challenging, try making the board bigger and adjusting the timer.  
@@ -48,12 +36,12 @@ To learn more, try changing icons and colors, adding a game timer, and adding so
 -   Add a sound when the player finds a match, another sound when the player uncovers two icons that don't match, and a third sound when the program hides the icons again.  
   
     > [!TIP]
-    >  To play sounds, you can use the System.media namespace. See [Play Sounds in Windows Forms App (C# .NET)](http://youtu.be/qOh4ooHg1UU) or [How To Play Audio In Visual Basic](http://youtu.be/-4oPDeQrtMs) for more information.  
+    >  To play sounds, you can use the System.media namespace. See [Play Sounds in Windows Forms App (C#)](http://youtu.be/qOh4ooHg1UU) or [How To Play Audio In Visual Basic](http://youtu.be/-4oPDeQrtMs) for more information.  
   
 -   Make the game more difficult by making the board bigger.  
   
     > [!TIP]
-    >  You'll need to do more than just add rows and columns to the TableLayoutPanel – you'll also need to consider the number of icons you create.  
+    >  You'll need to do more than just add rows and columns to the TableLayoutPanel - you'll also need to consider the number of icons you create.  
   
 -   Make the game more challenging by hiding the first icon if the player is too slow to respond and doesn't choose the second icon before a certain amount of time.  
   

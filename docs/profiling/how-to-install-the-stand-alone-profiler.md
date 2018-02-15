@@ -13,7 +13,13 @@ helpviewer_keywords:
   - "profiling tools, stand-alone profiler"
 author: "mikejo5000"
 ms.author: "mikejo"
+<<<<<<< HEAD
 manager: "ghogen"
+=======
+manager: ghogen
+ms.workload: 
+  - "multiple"
+>>>>>>> master
 ---
 # How to: Install the Stand-Alone Profiler
 

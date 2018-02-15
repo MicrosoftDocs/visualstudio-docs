@@ -16,29 +16,16 @@ ms.assetid: d50e73aa-11a1-4813-ba23-d5861090ee12
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaEnumLineNumbers::Reset
 Resets an enumeration sequence to the beginning.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT Reset();  
 ```  
   

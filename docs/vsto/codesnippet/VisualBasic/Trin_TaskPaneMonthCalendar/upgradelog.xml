@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Trin_TaskPaneMonthCalendar">
+</Property><Property Name="Solution File" Value="C:\Users\normesta\Desktop\Projects\Trin_TaskPaneMonthCalendar\VB\Trin_TaskPaneMonthCalendar.sln">
+</Property><Property Name="User Options File" Value="C:\Users\normesta\Desktop\Projects\Trin_TaskPaneMonthCalendar\VB\Trin_TaskPaneMonthCalendar.v11.suo">
+</Property><Property Name="Date" Value="Monday, November 07, 2011">
+</Property><Property Name="Time" Value="13:27 PM">
+</Property></Properties><Event ErrorLevel="3" Project="" Source="Trin_TaskPaneMonthCalendar.sln" Description="SafeUpgrade">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_TaskPaneMonthCalendar.sln" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_TaskPaneMonthCalendar\VB\Backup\Trin_TaskPaneMonthCalendar.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_TaskPaneMonthCalendar.v11.suo" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_TaskPaneMonthCalendar\VB\Backup\Trin_TaskPaneMonthCalendar.v11.suo">
+</Event><Event ErrorLevel="3" Project="Trin_TaskPaneMonthCalendar" Source="Trin_TaskPaneMonthCalendar.vbproj" Description="SafeRepair">
+</Event><Event ErrorLevel="0" Project="Trin_TaskPaneMonthCalendar" Source="Trin_TaskPaneMonthCalendar.vbproj" Description="Project file successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_TaskPaneMonthCalendar\VB\Backup\Trin_TaskPaneMonthCalendar.vbproj">
+</Event><Event ErrorLevel="0" Project="Trin_TaskPaneMonthCalendar" Source="Trin_TaskPaneMonthCalendar.vbproj.user" Description="Project user file successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_TaskPaneMonthCalendar\VB\Backup\Trin_TaskPaneMonthCalendar.vbproj.user">
+</Event><Event ErrorLevel="0" Project="Trin_TaskPaneMonthCalendar" Source="MyUserControl.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_TaskPaneMonthCalendar\VB\Backup\MyUserControl.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_TaskPaneMonthCalendar" Source="MyUserControl.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_TaskPaneMonthCalendar\VB\Backup\MyUserControl.vb">
+</Event><Event ErrorLevel="0" Project="Trin_TaskPaneMonthCalendar" Source="ThisAddIn.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_TaskPaneMonthCalendar\VB\Backup\ThisAddIn.vb">
+</Event><Event ErrorLevel="0" Project="Trin_TaskPaneMonthCalendar" Source="ThisAddIn.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_TaskPaneMonthCalendar\VB\Backup\ThisAddIn.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_TaskPaneMonthCalendar" Source="My Project\AssemblyInfo.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_TaskPaneMonthCalendar\VB\Backup\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="Trin_TaskPaneMonthCalendar" Source="My Project\Resources.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_TaskPaneMonthCalendar\VB\Backup\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_TaskPaneMonthCalendar" Source="My Project\Settings.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_TaskPaneMonthCalendar\VB\Backup\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_TaskPaneMonthCalendar" Source="ThisAddIn.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_TaskPaneMonthCalendar\VB\Backup\ThisAddIn.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_TaskPaneMonthCalendar" Source="My Project\Settings.settings" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_TaskPaneMonthCalendar\VB\Backup\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Trin_TaskPaneMonthCalendar" Source="Trin_TaskPaneMonthCalendar_TemporaryKey.pfx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_TaskPaneMonthCalendar\VB\Backup\Trin_TaskPaneMonthCalendar_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="Trin_TaskPaneMonthCalendar" Source="My Project\Resources.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_TaskPaneMonthCalendar\VB\Backup\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Trin_TaskPaneMonthCalendar" Source="MyUserControl.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_TaskPaneMonthCalendar\VB\Backup\MyUserControl.resx">
+</Event><Event ErrorLevel="0" Project="Trin_TaskPaneMonthCalendar" Source="Trin_TaskPaneMonthCalendar.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Trin_TaskPaneMonthCalendar" Source="Trin_TaskPaneMonthCalendar.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_TaskPaneMonthCalendar.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Trin_TaskPaneMonthCalendar.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Trin_TaskPaneMonthCalendar" Source="Trin_TaskPaneMonthCalendar.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

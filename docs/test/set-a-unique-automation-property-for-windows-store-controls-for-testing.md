@@ -1,36 +1,22 @@
 ---
-title: "Set a Unique Automation Property for Windows Store Controls for Testing | Microsoft Docs"
+title: "Set a Unique Automation Property for UWP Controls for Testing | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9bdd74ff-2534-4fc7-a5c3-a77bf7843037
-caps.latest.revision: 10
-ms.author: "mlearned"
-manager: "douge"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "uwp"
+author: gewarren
 ---
-# Set a Unique Automation Property for Windows Store Controls for Testing
-If you want to run coded UI tests for your XAML-based Windows Store application, you must have a unique automation property that identifies each control.  
+# Set a Unique Automation Property for UWP Controls for Testing
+If you want to run coded UI tests for your XAML-based UWP application, you must have a unique automation property that identifies each control.  
   
- You can assign a unique automation property based on the type of XAML control in your application. Here’s how to assign this unique automation property in the following situations:  
+ You can assign a unique automation property based on the type of XAML control in your application. Here's how to assign this unique automation property in the following situations:  
   
 -   [Static XAML definition of controls](#UniquePropertyWindowsStoreControlsStaticXAML)  
   
@@ -68,7 +54,7 @@ If you want to run coded UI tests for your XAML-based Windows Store application,
  Set the AutomationProperties.AutomationId to **ButtonX** explicitly in the XAML for the control.  
   
 ```xaml  
-<Button AutomationProperties.AutomationId=“ButtonX” Height="31" HorizontalAlignment="Left" Margin="23,26,0,0"  VerticalAlignment="Top" Width="140" Click="ButtonX_Click" />  
+<Button AutomationProperties.AutomationId="ButtonX" Height="31" HorizontalAlignment="Left" Margin="23,26,0,0"  VerticalAlignment="Top" Width="140" Click="ButtonX_Click" />  
   
 ```  
   
@@ -191,14 +177,14 @@ public override string ToString()
   
 ```xaml  
   
-<Button Content=”Button1” Style="{StaticResource MyButton}" Width="140"/>  
-<Button Content=”Button2” Style="{StaticResource MyButton}" Width="140"/>  
+<Button Content="Button1" Style="{StaticResource MyButton}" Width="140"/>  
+<Button Content="Button2" Style="{StaticResource MyButton}" Width="140"/>  
 ```  
   
 ###  <a name="UniquePropertyWindowsStoreControlsDynamicControls"></a> Dynamic controls  
  If you have controls that are created dynamically from your code and not created statically or through templates in XAML files, you must set the Content or Name properties for the control. This makes sure that each dynamic control has a unique automation property. For example, if you have a check box that must be displayed when you select a list item, you can set these properties, as shown here:  
   
-```c#  
+```csharp  
   
 private void CreateCheckBox(string txt, StackPanel panel)  
    {  
@@ -213,4 +199,4 @@ private void CreateCheckBox(string txt, StackPanel panel)
 ```  
   
 ## See Also  
- [Test Windows Store 8.1 Apps with Coded UI Tests](../test/test-windows-store-8-1-apps-with-coded-ui-tests.md)
+ [Test Windows UWP Apps with Coded UI Tests](../test/test-windows-store-8-1-apps-with-coded-ui-tests.md)

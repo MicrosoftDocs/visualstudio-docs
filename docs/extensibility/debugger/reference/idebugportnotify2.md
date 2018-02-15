@@ -14,22 +14,11 @@ helpviewer_keywords:
   - "IDebugPortNotify2 interface"
 ms.assetid: 43278b79-bf16-4c08-bcf1-6f7f7a17feab
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugPortNotify2
 This interface registers or unregisters a program that can be debugged with the port it is running on.  
@@ -44,7 +33,7 @@ IDebugPortNotify2 : IUnknown
  A custom port supplier implements this interface to support adding and removing programs from the port. It is typically implemented on the same object that implements the [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md) interface.  
   
 ## Notes for Callers  
- A call to [QueryInterface](/visual-cpp/atl/queryinterface) on the `IDebugPort2` interface returns this interface. Also, a call to [GetPortNotify](../../../extensibility/debugger/reference/idebugdefaultport2-getportnotify.md) returns this interface. A debug engine can see this interface as a parameter to [WatchForProviderEvents](../../../extensibility/debugger/reference/idebugprogramprovider2-watchforproviderevents.md).  
+ A call to [QueryInterface](/cpp/atl/queryinterface) on the `IDebugPort2` interface returns this interface. Also, a call to [GetPortNotify](../../../extensibility/debugger/reference/idebugdefaultport2-getportnotify.md) returns this interface. A debug engine can see this interface as a parameter to [WatchForProviderEvents](../../../extensibility/debugger/reference/idebugprogramprovider2-watchforproviderevents.md).  
   
 ## Methods in Vtable Order  
  The following table shows the methods of `IDebugPortNotify2`.  

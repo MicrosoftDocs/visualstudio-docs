@@ -1,45 +1,57 @@
 ---
-title: "Walkthrough: Analyzing Managed Code for Code Defects | Microsoft Docs"
-ms.custom: 
-ms.date: "11/04/2016"
-ms.reviewer: "
+title: Walkthrough Analyzing Managed Code for Code Defects | Microsoft Docs
+ms.custom: ""
+ms.date: 01/29/2018
+ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: "
+ms.technology: vs-ide-code-analysis
 ms.topic: "article"
 helpviewer_keywords: 
-  - "code analysis, walkthroughs"
+  - "code analysis [Visual Studio]"
   - "managed code, analyzing"
-  - "code analysis tool, walkthroughs"
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.workload: 
+  - "dotnet"
 ---
-# Walkthrough: Analyzing Managed Code for Code Defects
-In this walkthrough, you analyze a managed project for code defects by using the code analysis tool.
+# Walkthrough: Analyzing managed code for code defects
 
-This walkthrough will step you through the process of using code analysis to analyze your .NET managed code assemblies for conformance with the Microsoft .NET Framework Design Guidelines.
+In this walkthrough, you'll analyze a managed project for code defects by using the code analysis tool.
+
+This walkthrough steps you through the process of using code analysis to analyze your .NET managed code assemblies for conformance with the Microsoft .NET Framework design guidelines.
 
 ## Create a class library
 
 ### To create a class library
 
-1. On the **File** menu of [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)], click **New** and then click **Project**.
+1. On the **File** menu, choose **New** > **Project...**.
 
-2. In the **New Project** dialog box, under **Project Types**, click **Visual C#**.
+1. In the **New Project** dialog box, expand **Installed** > **Visual C#**, and then choose **Windows Classic Desktop**.
 
-3. Under **Templates**, select **Class Library**.
- 
-4. In the **Name** text box, type **CodeAnalysisManagedDemo** and then click **OK**.
+1. Choose the **Class Library (.NET Framework)** template.
 
-5. After the project is created, open the Class1.cs file.
+1. In the **Name** text box, type **CodeAnalysisManagedDemo** and then click **OK**.
 
-6. Replace the existing text in Class1.cs with the following code:
+1. After the project is created, open the *Class1.cs* file.
 
-     `//CodeAnalysisManagedDemo //Class1.cs using System;  namespace testCode {          public class demo : Exception     {                  public static void Initialize(int size) { }         protected static readonly int _item;         public static int item { get { return _item; } }     } }`
+1. Replace the existing text in Class1.cs with the following code:
 
-7. Save the Class1.cs file.
+   ```csharp
+   using System;
+
+   namespace testCode
+   {
+       public class demo : Exception
+       {
+           public static void Initialize(int size) { }
+           protected static readonly int _item;
+           public static int item { get { return _item; } }
+       }
+   }
+   ```
+
+1. Save the Class1.cs file.
 
 ## Analyze the project
 
@@ -47,150 +59,139 @@ This walkthrough will step you through the process of using code analysis to ana
 
 1. Select the CodeAnalysisManagedDemo project in **Solution Explorer**.
 
-2. On the **Project** menu, click **Properties**.
+1. On the **Project** menu, click **Properties**.
 
      The CodeAnalysisManagedDemo properties page is displayed.
 
-3. Click **CodeAnalysis**.
+1. Choose the **Code Analysis** tab.
 
-4. Make sure that  **Enable Code Analysis on Build (defines CODE_ANALYSIS constant**) is checked.
+1. Make sure that **Enable Code Analysis on Build** is checked.
+ 
+1. From the **Run this rule set** drop-down list, select **Microsoft All Rules**.
 
-5. From the **Run this rule set** drop-down list, select **Microsoft All Rules**.
+1. On the **File** menu, click **Save Selected Items**, and then close the properties pages.
 
-6. On the **File** menu, click **Save Selected Items**, and then close the ManagedDemo properties pages.
+1. On the **Build** menu, click **Build CodeAnalysisManagedDemo**.
 
-7. On the **Build** menu, click **Build ManagedDemo**.
+    The CodeAnalysisManagedDemo project build warnings are shown in the **Error List** and **Output** windows.
 
-     The CodeAnalysisManagedDemo project build warnings are reported in the **Code Analysis** and **Output** windows.
-
-     If the **Code Analysis** window does not appear, on the **Analyze** menu, choose **Windows** and then **choose Code Analysis**.
-
-## Correct the Code Analysis Issues
+## Correct the code analysis issues
 
 ### To correct code analysis rule violations
 
-1. On the **View** menu, click **Error List**.
+1. On the **View** menu, choose **Error List**.
 
-     Depending on the developer profile that you chose, you might have to point to **Other Windows** on the **View** menu, and then click **Error List**.
+    Depending on the developer profile that you chose, you might have to point to **Other Windows** on the **View** menu, and then choose **Error List**.
 
-2. In **Solution Explorer**, click **Show All Files**.
+1. In **Solution Explorer**, choose **Show All Files**.
 
-3. Next, expand the Properties node, and then open the AssemblyInfo.cs file.
+1. Expand the Properties node, and then open the *AssemblyInfo.cs* file.
 
-4. Use the following  to correct warnings:
+1. Use the following tips to correct the warnings:
 
-- [CA1014: Mark assemblies with CLSCompliantAttribute](../code-quality/ca1014-mark-assemblies-with-clscompliantattribute.md): Microsoft.Design: 'demo' should be marked with the CLSCompliantAttribute, and its value should be true.
+   [CA1014: Mark assemblies with CLSCompliantAttribute](../code-quality/ca1014-mark-assemblies-with-clscompliantattribute.md): Microsoft.Design: 'demo' should be marked with the CLSCompliantAttribute, and its value should be true.
 
-    - Add the code `using``System;` to the AssemblyInfo.cs file.
+   1. Add the code `using System;` to the AssemblyInfo.cs file.
 
-         Next, add the code `[assembly: CLSCompliant(true)]` to the end of the AssemblyInfo.cs file.
+   1. Next, add the code `[assembly: CLSCompliant(true)]` to the end of the AssemblyInfo.cs file.
 
-         Rebuild the project.
+   [CA1032: Implement standard exception constructors](../code-quality/ca1032-implement-standard-exception-constructors.md): Microsoft.Design: Add the following constructor to this class: public demo(String)
 
-- [CA1032: Implement standard exception constructors](../code-quality/ca1032-implement-standard-exception-constructors.md): Microsoft.Design: Add the following constructor to this class: public demo(String)
+   1. Add the constructor `public demo (String s) : base(s) { }` to the class `demo`.
 
-    - Add the constructor `public demo (String s) : base(s) { }` to the class `demo`.
+   [CA1032: Implement standard exception constructors](../code-quality/ca1032-implement-standard-exception-constructors.md): Microsoft.Design: Add the following constructor to this class: public demo(String, Exception)
 
-- [CA1032: Implement standard exception constructors](../code-quality/ca1032-implement-standard-exception-constructors.md): Microsoft.Design: Add the following constructor to this class: public demo(String, Exception)
+   1. Add the constructor `public demo (String s, Exception e) : base(s, e) { }` to the class `demo`.
 
-    - Add the constructor `public demo (String s, Exception e) : base(s, e) { }` to the class `demo`.
+   [CA1032: Implement standard exception constructors](../code-quality/ca1032-implement-standard-exception-constructors.md): Microsoft.Design: Add the following constructor to this class: protected demo(SerializationInfo, StreamingContext)
 
-- [CA1032: Implement standard exception constructors](../code-quality/ca1032-implement-standard-exception-constructors.md): Microsoft.Design: Add the following constructor to this class: protected demo(SerializationInfo, StreamingContext)
+   1. Add the code `using System.Runtime.Serialization;` to the beginning of the Class1.cs file.
 
-    - Add the code `using System.Runtime.Serialization;` to the beginning of the Class1.cs file.
+   1. Next, add the constructor `protected demo (SerializationInfo info, StreamingContext context) : base(info, context) { } to the class demo.`
 
-         Next, add the constructor `protected demo (SerializationInfo info, StreamingContext context) : base(info, context) { } to the class demo.`
+   [CA1032: Implement standard exception constructors](../code-quality/ca1032-implement-standard-exception-constructors.md): Microsoft.Design: Add the following constructor to this class: public demo()
 
-         Rebuild the project.
+   1. Add the constructor `public demo () : base() { }` to the class `demo`**.**
 
-- [CA1032: Implement standard exception constructors](../code-quality/ca1032-implement-standard-exception-constructors.md): Microsoft.Design: Add the following constructor to this class: public demo()
+   [CA1709: Identifiers should be cased correctly](../code-quality/ca1709-identifiers-should-be-cased-correctly.md): Microsoft.Naming: Correct the casing of namespace name 'testCode' by changing it to 'TestCode'.
 
-    - Add the constructor `public demo () : base() { }` to the class `demo`**.**
+   1. Change the casing of the namespace `testCode` to `TestCode`.
 
-         Rebuild the project.
+   [CA1709: Identifiers should be cased correctly](../code-quality/ca1709-identifiers-should-be-cased-correctly.md): Microsoft.Naming: Correct the casing of type name 'demo' by changing it to 'Demo'.
 
-- [CA1709: Identifiers should be cased correctly](../code-quality/ca1709-identifiers-should-be-cased-correctly.md): Microsoft.Naming: Correct the casing of namespace name 'testCode' by changing it to 'TestCode'.
+   1. Change the name of the member to `Demo`.
 
-    - Change the casing of the namespace `testCode` to `TestCode`.
+   [CA1709: Identifiers should be cased correctly](../code-quality/ca1709-identifiers-should-be-cased-correctly.md): Microsoft.Naming: Correct the casing of member name 'item' by changing it to 'Item'.
 
-- [CA1709: Identifiers should be cased correctly](../code-quality/ca1709-identifiers-should-be-cased-correctly.md): Microsoft.Naming: Correct the casing of type name 'demo' by changing it to 'Demo'.
+   1. Change the name of the member to `Item`.
 
-    - Change the name of the member to `Demo`.
+   [CA1710: Identifiers should have correct suffix](../code-quality/ca1710-identifiers-should-have-correct-suffix.md): Microsoft.Naming: Rename 'testCode.demo' to end in 'Exception'.
 
-- [CA1709: Identifiers should be cased correctly](../code-quality/ca1709-identifiers-should-be-cased-correctly.md): Microsoft.Naming: Correct the casing of member name 'item' by changing it to 'Item'.
+   1. Change the name of the class and its constructors to `DemoException`.
 
-    - Change the name of the member to `Item`.
+   [CA2210: Assemblies should have valid strong names](../code-quality/ca2210-assemblies-should-have-valid-strong-names.md): Sign 'CodeAnalysisManagedDemo' with a strong name key.
 
-- [CA1710: Identifiers should have correct suffix](../code-quality/ca1710-identifiers-should-have-correct-suffix.md): Microsoft.Naming: Rename 'testCode.demo' to end in 'Exception'.
+   1. On the **Project** menu, choose **CodeAnalysisManagedDemo Properties**.
 
-    - Change the name of the class and its constructors to `DemoException`.
+      The project properties appear.
 
-- [CA2210: Assemblies should have valid strong names](../code-quality/ca2210-assemblies-should-have-valid-strong-names.md): Sign 'ManagedDemo' with a strong name key.
+   1. Choose the **Signing** tab.
 
-    - On the **Project** menu, click **ManagedDemo Properties**.
+   1. Select the **Sign the assembly** check box.
 
-         The project properties appear.
+   1. In the **Choose a string name key file** list, select **\<New...>**.
 
-         Click **Signing**.
+      The **Create Strong Name Key** dialog box appears.
 
-         Select the **Sign the assembly** check box.
+   1. In the **Key file name**, type TestKey.
 
-         In the **Choose a string name key file** list, select **\<New…>**.
+   1. Enter a password and then choose **OK**.
 
-         The **Create Strong Name Key** dialog box appears.
+   1. On the **File** menu, choose **Save Selected Items**, and then close the property pages.
 
-         In the **Key file name**, type TestKey.
+   [CA2237: Mark ISerializable types with SerializableAttribute](../code-quality/ca2237-mark-iserializable-types-with-serializableattribute.md): Microsoft.Usage: Add a [Serializable] attribute to type 'demo' as this type implements ISerializable.
 
-         Enter a password and then click **OK**.
+   1. Add the `[Serializable ()]` attribute to the class `demo`.
 
-         On the **File** menu, click **Save Selected Items**, and then close the property pages.
+   After you complete the changes, the Class1.cs file should look like the following:
 
-         Rebuild the project.
+   ```csharp
+   using System;
+   using System.Runtime.Serialization;
 
-- [CA2237: Mark ISerializable types with SerializableAttribute](../code-quality/ca2237-mark-iserializable-types-with-serializableattribute.md): Microsoft.Usage: Add a [Serializable] attribute to type 'demo' as this type implements ISerializable.
+   namespace TestCode
+   {
+       [Serializable()]
+       public class DemoException : Exception
+       {
+           public DemoException () : base() { }
+           public DemoException(String s) : base(s) { }
+           public DemoException(String s, Exception e) : base(s, e) { }
+           protected DemoException(SerializationInfo info, StreamingContext context) : base(info, context) { }
 
-    - Add the `[Serializable ()]` attribute to the class `demo`.
+           public static void Initialize(int size) { }
+           protected static readonly int _item;
+           public static int Item { get { return _item; } }
+       }
+   }
+   ```
 
-         Rebuild the project.
+1. Rebuild the project.
 
- After you complete the changes, the Class1.cs file should look like the following:
-
-```cs
-//CodeAnalysisManagedDemo
-//Class1.cs
-using System;
-using System.Runtime.Serialization;
-
-namespace TestCode
-{
-
-    [Serializable()] 
-    public class DemoException : Exception
-    {
-        public DemoException () : base() { }
-        public DemoException(String s) : base(s) { }
-        public DemoException(String s, Exception e) : base(s, e) { }
-        protected DemoException(SerializationInfo info, StreamingContext context) : base(info, context) { }
-
-        public static void Initialize(int size) { }
-        protected static readonly int _item;
-        public static int Item { get { return _item; } }
-    }
-}
-```
-
-## Exclude Code Analysis Warnings
+## Exclude code analysis warnings
 
 ### To exclude code defect warnings
 
 1. For each of the remaining warnings, do the following:
 
-    1. In the Code Analysis window, select the warning.
+    1. Select the warning in the **Error List**.
 
-    2. Choose **Actions**, then choose **Suppress Message**, and then choose **In Project Suppression File**.
+    1. From the right-click or context menu, choose **Suppress** > **In Suppression File**.
 
-     For more information, see [How to: Suppress Warnings by Using the Menu Item](../code-quality/how-to-suppress-warnings-by-using-the-menu-item.md)
-
-2. Rebuild the project.
+1. Rebuild the project.
 
      The project builds without any warnings or errors.
+
+## See also
+
+[Code analysis for managed code](../code-quality/code-analysis-for-managed-code-overview.md)

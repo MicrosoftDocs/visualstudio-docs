@@ -12,9 +12,9 @@ f1_keywords:
   - "vs.debug.gputthreads"
   - "vs.debug.gputhreads"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "debugger, GPU threads window"
@@ -22,30 +22,18 @@ ms.assetid: c647c502-a9f0-48e0-a430-976744a5fa51
 caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Use the GPU Threads Window
-In the GPU Threads window, you can examine and work with threads that are running on the GPU in the application that you are debugging. For more information about applications that run on the GPU, see [C++ AMP Overview](/visual-cpp/parallel/amp/cpp-amp-overview).  
+In the GPU Threads window, you can examine and work with threads that are running on the GPU in the application that you are debugging. For more information about applications that run on the GPU, see [C++ AMP Overview](/cpp/parallel/amp/cpp-amp-overview).  
   
  The GPU Threads window contains a table in which each row represents a set of GPU threads that have the same values in all of the columns. You can sort, reorder, remove, and group items that are in the columns. You can flag, unflag, freeze (suspend), and thaw (resume) threads from the GPU Threads window. The following columns are displayed in the GPU Threads window:  
   
 -   The flag column, in which you can mark a thread that you want to pay special attention to.  
   
--   The active thread column, in which a yellow arrow indicates an active thread. An arrow indicates a thread where execution broke into the debugger.  
+-   The current thread column, in which a yellow arrow indicates the current thread.  
   
 -   The **Thread Count** column, which displays the number of threads at the same location.  
   
@@ -79,7 +67,7 @@ In the GPU Threads window, you can examine and work with threads that are runnin
   
 7.  One the menu bar, choose **Debug**, **Windows**, **GPU Threads**.  
   
-### To change to a different active thread  
+### To switch to a different thread  
   
 -   Double-click the column. (Keyboard: Select the row and choose Enter.)  
   
@@ -118,4 +106,4 @@ In the GPU Threads window, you can examine and work with threads that are runnin
 ## See Also  
  [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)   
  [How to: Use the Parallel Watch Window](../debugger/how-to-use-the-parallel-watch-window.md)   
- [Walkthrough: Debugging a C++ AMP Application](http://msdn.microsoft.com/Library/40e92ecc-f6ba-411c-960c-b3047b854fb5)
+ [Walkthrough: Debugging a C++ AMP Application](/cpp/parallel/amp/walkthrough-debugging-a-cpp-amp-application)

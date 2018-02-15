@@ -14,22 +14,11 @@ helpviewer_keywords:
   - "IDebugProgramProvider2::WatchForProviderEvents"
 ms.assetid: 2eb93653-b5fb-45b6-b136-56008c5d25ef
 caps.latest.revision: 14
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProgramProvider2::WatchForProviderEvents
 Allows the process to be notified of port events.  
@@ -47,7 +36,7 @@ HRESULT WatchForProviderEvents(
 );  
 ```  
   
-```c#  
+```csharp  
 int WatchForProviderEvents(  
    enum_PROVIDER_FLAGS   Flags,  
    IDebugDefaultPort2    pPort,  
@@ -93,7 +82,7 @@ int WatchForProviderEvents(
 ## Example  
  The following example shows how to implement this method for a **CDebugEngine** object that exposes the [IDebugProgramProvider2](../../../extensibility/debugger/reference/idebugprogramprovider2.md) interface.  
   
-```cpp#  
+```cpp  
 STDMETHODIMP CDebugEngine::WatchForProviderEvents(  
     PROVIDER_FLAGS Flags,   
     IDebugDefaultPort2 *pPort,   

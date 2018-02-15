@@ -14,29 +14,18 @@ helpviewer_keywords:
   - "BP_FLAGS enumeration"
 ms.assetid: c45dfc74-5e7f-4f1e-a147-ab2a55dccbd0
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # BP_FLAGS
 Provides optional flags that may be used to specify additional information when setting a breakpoint.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_BP_FLAGS {   
    BP_FLAG_NONE            = 0x0000,  
    BP_FLAG_MAP_DOCPOSITION = 0x0001,  
@@ -45,7 +34,7 @@ enum enum_BP_FLAGS { 
 typedef DWORD BP_FLAGS;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_BP_FLAGS {   
    BP_FLAG_NONE            = 0x0000,  
    BP_FLAG_MAP_DOCPOSITION = 0x0001,  

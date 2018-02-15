@@ -16,29 +16,16 @@ ms.assetid: 7e75348e-c12c-44ec-b004-e97767580a3f
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSectionContrib::get_write
 Retrieves a flag that indicates whether the section can be modified.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_write (   
    BOOL* pRetVal  
 );  

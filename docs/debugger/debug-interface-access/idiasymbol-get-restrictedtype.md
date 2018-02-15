@@ -14,29 +14,16 @@ ms.assetid: c48b00a6-26b0-47b0-b824-fe44dedbc756
 caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_restrictedType
 Specifies whether the `this` pointer is flagged as restricted.  
   
 ## Syntax  
   
-```cpp  
+```C++  
 HRESULT get_restrictedType(   
    BOOL* pRetVal);  
 ```  

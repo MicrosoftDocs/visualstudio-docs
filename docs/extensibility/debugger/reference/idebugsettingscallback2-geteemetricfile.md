@@ -12,29 +12,18 @@ helpviewer_keywords:
   - "IDebugSettingsCallback2::GetEEMetricFile"
 ms.assetid: 3a0bf9e5-bbd2-4d15-840d-8244732787fc
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugSettingsCallback2::GetEEMetricFile
 Retrieves the expression evaluator metric file given the name or the metric.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetEEMetricFile(  
    REFGUID guidLang,  
    REFGUID guidVendor,  
@@ -43,7 +32,7 @@ HRESULT GetEEMetricFile(
 );  
 ```  
   
-```c#  
+```csharp  
 private int GetEEMetricFile(  
    ref Guid   guidLang,  
    ref Guid   guidVendor,  

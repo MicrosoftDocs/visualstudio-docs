@@ -13,20 +13,8 @@ caps.latest.revision: 5
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+ms.workload: 
+  - "multiple"
 ---
 # Rethrow Activity Designer
 The **Rethrow** activity designer is used to create and configure a <xref:System.Activities.Statements.Rethrow> activity.  
@@ -44,7 +32,7 @@ The **Rethrow** activity designer is used to create and configure a <xref:System
   
 |Property Name|Required|Usage|  
 |-------------------|--------------|-----------|  
-|<xref:System.Activities.Activity.DisplayName%2A>|False|Specifies the optional friendly name of the <xref:System.Activities.Statements.ReThrow> activity. The default is Rethrow.|  
+|<xref:System.Activities.Activity.DisplayName%2A>|False|Specifies the optional friendly name of the <xref:System.Activities.Statements.Rethrow> activity. The default is Rethrow.|  
   
 ## See Also  
  [Collection](../workflow-designer/collection-activity-designers.md)   

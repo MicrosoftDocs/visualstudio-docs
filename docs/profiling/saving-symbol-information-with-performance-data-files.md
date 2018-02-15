@@ -13,7 +13,13 @@ helpviewer_keywords:
   - "profiling tools, packsymbols"
 author: "mikejo5000"
 ms.author: "mikejo"
+<<<<<<< HEAD
 manager: "ghogen"
+=======
+manager: ghogen
+ms.workload: 
+  - "multiple"
+>>>>>>> master
 ---
 # Saving Symbol Information with Performance Data Files
 

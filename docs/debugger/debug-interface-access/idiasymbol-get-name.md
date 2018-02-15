@@ -16,29 +16,16 @@ ms.assetid: 050ec02f-b7b3-48fc-8e35-58bdf7d938b0
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_name
 Retrieves the name of the symbol.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_name (   
    BSTR* pRetVal  
 );  
@@ -56,7 +43,7 @@ HRESULT get_name ( 
   
 ## Example  
   
-```cpp#  
+```C++  
 IDiaSymbol* pType;  
 BSTR        name;  
 pType->get_name( &name );  

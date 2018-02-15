@@ -16,7 +16,13 @@ helpviewer_keywords:
   - "VSPerfCLREnv tool"
 author: "mikejo5000"
 ms.author: "mikejo"
+<<<<<<< HEAD
 manager: "ghogen"
+=======
+manager: ghogen
+ms.workload: 
+  - "multiple"
+>>>>>>> master
 ---
 # VSPerfCLREnv
 

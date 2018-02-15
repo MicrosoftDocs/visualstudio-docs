@@ -14,29 +14,18 @@ helpviewer_keywords:
   - "PROCESS_INFO_FLAGS enumeration"
 ms.assetid: 696951ce-701a-40c2-ac8c-b897f3aae6e2
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # PROCESS_INFO_FLAGS
 Describes or specifies properties of a process.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_PROCESS_INFO_FLAGS {   
    PIFLAG_SYSTEM_PROCESS    = 0x00000001,  
    PIFLAG_DEBUGGER_ATTACHED = 0x00000002,  
@@ -46,7 +35,7 @@ enum enum_PROCESS_INFO_FLAGS { 
 typedef DWORD PROCESS_INFO_FLAGS;  
 ```  
   
-```c#  
+```csharp  
 enum enum_PROCESS_INFO_FLAGS {   
    PIFLAG_SYSTEM_PROCESS    = 0x00000001,  
    PIFLAG_DEBUGGER_ATTACHED = 0x00000002,  

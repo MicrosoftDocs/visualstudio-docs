@@ -4,30 +4,16 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "text templates, custom directive processors"
   - "walkthroughs [text templates], directive processor"
-ms.assetid: b8f35a36-14e1-4467-8f5f-e01402af14d5
-caps.latest.revision: 74
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Walkthrough: Creating a Custom Directive Processor
 *Directive processors* work by adding code to the *generated transformation class*. If you call a *directive* from a *text template*, the rest of the code that you write in your text template can rely on the functionality that the directive provides.  
@@ -60,7 +46,7 @@ translation.priority.ht:
   
  The code that the directive creates looks like the following:  
   
-```c#  
+```csharp  
 private System.Xml.XmlDocument document0Value;  
   
 public virtual System.Xml.XmlDocument Document0  
@@ -76,7 +62,7 @@ public virtual System.Xml.XmlDocument Document0
 }  
 ```  
   
-```vb#  
+```vb  
 Private document0Value As System.Xml.XmlDocument  
   
 Public Overridable ReadOnly Property Document0() As System.Xml.XmlDocument  
@@ -104,7 +90,7 @@ End Property
   
 3.  Replace the code in **Class1** with the following code. This code defines a CustomDirectiveProcessor class that inherits from the <xref:Microsoft.VisualStudio.TextTemplating.DirectiveProcessor> class and implements the necessary methods.  
   
-    ```c#  
+    ```csharp  
     using System;  
     using System.CodeDom;  
     using System.CodeDom.Compiler;  
@@ -363,7 +349,7 @@ End Property
     }//end namespace CustomDP  
     ```  
   
-    ```vb#  
+    ```vb  
     Imports System  
     Imports System.CodeDom  
     Imports System.CodeDom.Compiler  
@@ -755,7 +741,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\*.0\TextTemplatin
   
      The language of the text template does not have to match the language of the directive processor.  
   
-    ```c#  
+    ```csharp  
     <#@ assembly name="System.Xml" #>  
     <#@ template debug="true" #>  
     <#@ output extension=".txt" #>  
@@ -795,7 +781,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\*.0\TextTemplatin
     #>  
     ```  
   
-    ```vb#  
+    ```vb  
     <#@ assembly name="System.Xml" #>  
     <#@ template debug="true" language="vb" #>  
     <#@ output extension=".txt" #>  
@@ -892,7 +878,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\*.0\TextTemplatin
     > [!NOTE]
     >  Additional open \<# and close #> tags separate the statement code from the HTML tags.  
   
-    ```c#  
+    ```csharp  
     <#@ assembly name="System.Xml" #>  
     <#@ template debug="true" #>  
     <#@ output extension=".htm" #>  
@@ -932,7 +918,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\*.0\TextTemplatin
     </body></html>  
     ```  
   
-    ```vb#  
+    ```vb  
     <#@ assembly name="System.Xml" #>  
     <#@ template debug="true" language="vb" #>  
     <#@ output extension=".htm" #>  

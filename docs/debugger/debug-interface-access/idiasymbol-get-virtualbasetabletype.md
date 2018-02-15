@@ -16,29 +16,16 @@ ms.assetid: e0581c4f-0343-49b5-9754-a48477460e9f
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_virtualBaseTableType
 Retrieves the type of a virtual base table pointer.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_virtualBaseTableType(  
    IDiaSymbol *pRetVal  
 };  

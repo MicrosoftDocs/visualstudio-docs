@@ -13,22 +13,11 @@ helpviewer_keywords:
   - "IDebugExpressionEvaluator2 property"
 ms.assetid: 6305874f-a2c4-4432-834c-07530ea84bff
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Implementing GetMethodProperty
 > [!IMPORTANT]
@@ -49,7 +38,7 @@ translation.priority.mt:
 ## Managed Code  
  This example shows an implementation of `IDebugExpressionEvaluator::GetMethodProperty` in managed code.  
   
-```c#  
+```csharp  
 namespace EEMC  
 {  
     [GuidAttribute("462D4A3D-B257-4AEE-97CD-5918C7531757")]  

@@ -16,29 +16,16 @@ ms.assetid: 08efbeaf-22f7-49e9-96a8-bb906dfe4fd8
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaEnumLineNumbers::Item
 Retrieves a line number by means of an index.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT Item (   
    DWORD            index,  
    IDiaLineNumber** lineNumber  

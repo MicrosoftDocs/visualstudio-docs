@@ -14,22 +14,11 @@ helpviewer_keywords:
   - "IDebugCoreServer3 interface"
 ms.assetid: 51f5f41b-a5a4-4df0-a703-41f3d1811d7f
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugCoreServer3
 This interface gives access to information about the server the process is running in.  
@@ -44,7 +33,7 @@ IDebugCoreServer3 : IDebugCoreServer2
  Visual Studio implements this interface.  
   
 ## Notes for Callers  
- Use [QueryInterface](/visual-cpp/atl/queryinterface) to obtain this interface from an [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md) interface. A call to [GetServer](../../../extensibility/debugger/reference/idebugdefaultport2-getserver.md) can also return this interface. This interface is used most often by a custom port supplier to launch programs on a server (either local or remote).  
+ Use [QueryInterface](/cpp/atl/queryinterface) to obtain this interface from an [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md) interface. A call to [GetServer](../../../extensibility/debugger/reference/idebugdefaultport2-getserver.md) can also return this interface. This interface is used most often by a custom port supplier to launch programs on a server (either local or remote).  
   
 ## Methods in Vtable Order  
  In addition to the methods on the [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md) interface, this interface implements the following methods:  

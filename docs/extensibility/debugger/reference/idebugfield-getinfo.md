@@ -14,36 +14,25 @@ helpviewer_keywords:
   - "IDebugField::GetInfo method"
 ms.assetid: 7d508200-89ce-400f-a8ea-f28e7610cb2b
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugField::GetInfo
 This method gets displayable information about the field.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetInfo(   
    FIELD_INFO_FIELDS dwFields,  
    FIELD_INFO* pFieldInfo  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetInfo(  
    enum_FIELD_INFO_FIELDS dwFields,  
    FIELD_INFO[] pFieldInfo  

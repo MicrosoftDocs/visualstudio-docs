@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema targetNamespace="http://schemas.microsoft.com/vsto/samples" elementFormDefault="qualified"
+    xmlns="http://schemas.microsoft.com/vsto/samples"
+    xmlns:mstns="http://schemas.microsoft.com/vsto/samples"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Sample" type="SampleType"></xs:element>
+  <xs:complexType name="SampleType">
+    <xs:all>
+      <xs:element name="Insert" type="InsertType" minOccurs="0" maxOccurs="1" />
+      <xs:element name="Table" type="xs:string" minOccurs="0" maxOccurs="1" />
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="InsertType">
+    <xs:sequence>
+      <xs:element name="MemoTo" type="xs:string" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="MemoFrom" type="xs:string" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="MemoSubject" type="xs:string" minOccurs="1" maxOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

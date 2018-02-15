@@ -16,29 +16,16 @@ ms.assetid: a9177ed6-9ba8-4384-b411-24cad07d031b
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaFrameData::get_lengthParams
 Retrieves the number of bytes of parameters pushed on the stack.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_lengthParams (   
    DWORD* pRetVal  
 );  

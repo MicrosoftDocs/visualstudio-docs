@@ -14,22 +14,11 @@ helpviewer_keywords:
   - "IDebugProgramProvider2::GetProviderProcessData"
 ms.assetid: 90cf7b7f-53d2-487e-b793-94501a6e24dd
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProgramProvider2::GetProviderProcessData
 Retrieves a list of running programs from a specified process.  
@@ -46,7 +35,7 @@ HRESULT GetProviderProcessData(
 );  
 ```  
   
-```c#  
+```csharp  
 int GetProviderProcessData(  
    enum_PROVIDER_FLAGS     Flags,  
    IDebugDefaultPort2      pPort,  

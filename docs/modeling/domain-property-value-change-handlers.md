@@ -4,15 +4,15 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Domain-Specific Language, overriding event handlers"
-ms.assetid: 96d8f392-045e-4bc5-b165-fbaa470a3e16
-caps.latest.revision: 24
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Domain Property Value Change Handlers
 In a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] domain-specific language, when the value of a domain property changes, the `OnValueChanging()` and `OnValueChanged()` methods are invoked in the domain property handler. To respond to the change, you can override these methods.  
@@ -98,11 +98,11 @@ if (newValue > 10)
  However, a potential drawback of calculated properties is that the expression is evaluated every time the value is used, which might present a performance problem. Also, there is no OnValueChanging() and OnValueChanged() on a calculated property.  
   
 ### Alternative technique: Change Rules  
- If you define a ChangeRule, it is executed at the end of a transaction in which a property’s value changes.  For more information, see [Rules Propagate Changes Within the Model](../modeling/rules-propagate-changes-within-the-model.md).  
+ If you define a ChangeRule, it is executed at the end of a transaction in which a property's value changes.  For more information, see [Rules Propagate Changes Within the Model](../modeling/rules-propagate-changes-within-the-model.md).  
   
  If several changes are made in one transaction, the ChangeRule executes when they are all complete. By contrast, the OnValue... methods are executed when some of the changes have not been performed. Depending on what you want to achieve, this might make a ChangeRule more appropriate.  
   
- You can also use a ChangeRule to adjust the property’s new value to keep it within a specific range.  
+ You can also use a ChangeRule to adjust the property's new value to keep it within a specific range.  
   
 > [!WARNING]
 >  If a rule makes changes to the store content, other rules and property handlers might be triggered. If a rule changes the property that triggered it, it will be called again. You must make sure that your rule definitions do not result in endless triggering.  

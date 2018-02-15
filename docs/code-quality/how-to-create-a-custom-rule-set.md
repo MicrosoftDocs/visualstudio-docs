@@ -1,20 +1,22 @@
 ---
 title: "How to: Create a Custom Rule Set | Microsoft Docs"
-ms.custom:
+ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer:
-ms.suite:
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm:
+ms.reviewer: ""
+ms.suite: ""
+ms.technology:
+  - "vs-ide-code-analysis"
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.codeanalysis.addremoverulesets"
 helpviewer_keywords: 
   - "Development Edition, rule sets"
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Create a Custom Rule Set
 

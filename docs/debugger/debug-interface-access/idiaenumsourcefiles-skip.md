@@ -16,29 +16,16 @@ ms.assetid: 4821e6dd-d33f-403d-857d-e3ae81e4a9e3
 caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaEnumSourceFiles::Skip
 Skips a specified number of source files in an enumeration sequence.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT Skip (   
    ULONG celt  
 );  

@@ -10,22 +10,11 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c19e3022-047c-43b6-a046-a82717efed4f
 caps.latest.revision: 2
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Layout for Visual Studio
 The majority of Visual Studio dialogs are [Utility dialog layout](../../extensibility/ux-guidelines/layout-for-visual-studio.md#BKMK_UtilityDialogLayout), which are the unthemed dialogs that follow standard [Windows Desktop dialog layout principles](https://msdn.microsoft.com/en-us/library/windows/desktop/dn742499\(v=vs.85\).aspx). As Visual Studio moves to refresh its UI, some of the more prominent dialogs have a new design that establishes them as product-defining experiences. These [Themed dialog layout](../../extensibility/ux-guidelines/layout-for-visual-studio.md#BKMK_ThemedDialogLayout) have a themed appearance.  
@@ -69,7 +58,7 @@ The majority of Visual Studio dialogs are [Utility dialog layout](../../extensib
   
 -   If there are horizontal buttons that operate within the dialog, the alternate command button configuration is a vertical stack at the upper right. See [Interior command buttons](../../extensibility/ux-guidelines/layout-for-visual-studio.md#BKMK_InteriorCommandButtons) below.  
   
--   The space to the left of the command buttons (lower left/center of the dialog) is considered part of the “band” of dialog operation controls. The only thing that should intrude on that space is a Help link that is relevant to the overall task or dialog.  
+-   The space to the left of the command buttons (lower left/center of the dialog) is considered part of the "band" of dialog operation controls. The only thing that should intrude on that space is a Help link that is relevant to the overall task or dialog.  
   
 -   Command buttons should be 75x23 pixels.  
   
@@ -113,7 +102,7 @@ The majority of Visual Studio dialogs are [Utility dialog layout](../../extensib
 -   The line length should be a comfortable width for a user to parse and read. A medium dialog should be no more than 550 pixels wide.  
   
 ####  <a name="BKMK_InteriorCommandButtons"></a> Interior command buttons  
- In more complex dialogs, an internal control might have its own related buttons, which might affect where the dialog’s commit buttons are located.  
+ In more complex dialogs, an internal control might have its own related buttons, which might affect where the dialog's commit buttons are located.  
   
 -   Use a vertical alignment (column) of interior buttons when **OK**/**Cancel** are horizontally oriented in the lower right corner.  
   
@@ -129,8 +118,8 @@ The majority of Visual Studio dialogs are [Utility dialog layout](../../extensib
   
  **Figure 08.01-g: Horizontal interior buttons with vertical OK/Cancel**  
   
-#### [Browse…] button  
- **[Browse…]** buttons that follow a text box should spell out "Browse…" in full, including the ellipsis. If space is tight or there are multiple **[Browse…]** buttons on the screen, the button can be reduced to just the ellipsis.  
+#### [Browse...] button  
+ **[Browse...]** buttons that follow a text box should spell out "Browse..." in full, including the ellipsis. If space is tight or there are multiple **[Browse...]** buttons on the screen, the button can be reduced to just the ellipsis.  
   
 ##  <a name="BKMK_ThemedDialogLayout"></a> Themed dialog layout  
  Themed dialogs in Visual Studio have a lighter appearance and offer more white space. Typography provides more emphasis and interest, offering more open line spacing and a variation of font sizes and weights. Where possible, chrome and title bars have been reduced or removed. The layout of these dialogs should follow this basic pattern:  
@@ -156,15 +145,15 @@ The majority of Visual Studio dialogs are [Utility dialog layout](../../extensib
   
  ![Themed dialog dimensions](../../extensibility/ux-guidelines/media/0801-i_themeddialogdimensions.png "0801-i_ThemedDialogDimensions")  
   
- **Figure 08.01-i: Themed dialog – Dimensions**  
+ **Figure 08.01-i: Themed dialog - Dimensions**  
   
  ![Themed dialog fonts](../../extensibility/ux-guidelines/media/0801-j_themeddialogfonts.png "0801-j_ThemedDialogFonts")  
   
- **Figure 08.01-j: Themed dialog – Fonts**  
+ **Figure 08.01-j: Themed dialog - Fonts**  
   
  ![Themed dialog colors](../../extensibility/ux-guidelines/media/0801-k_themeddialogcolors.png "0801-k_ThemedDialogColors")  
   
- **Figure 08.01-k: Themed dialog – Colors**  
+ **Figure 08.01-k: Themed dialog - Colors**  
   
 ## See Also  
  [Application Patterns for Visual Studio](../../extensibility/ux-guidelines/application-patterns-for-visual-studio.md)   

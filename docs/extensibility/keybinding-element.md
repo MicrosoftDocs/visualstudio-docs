@@ -13,22 +13,11 @@ helpviewer_keywords:
   - "KeyBinding element (VSCT XML schema)"
 ms.assetid: e55a1098-15df-42a9-9f87-e3a99cf437dd
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # KeyBinding Element
 The KeyBinding element specifies keyboard shortcuts for the commands.  
@@ -51,9 +40,9 @@ The KeyBinding element specifies keyboard shortcuts for the commands.
 |guid|Required.|  
 |id|Required.|  
 |editor|Required. The editor GUID indicates the editing context for which this keyboard shortcut will be active. The global binding scope value is "guidVSStd97".|  
-|key1|Required. Valid values include all typable alphanumerics, and also two-digit hexadecimal values preceded by 0x and VK_constants.|  
+|key1|Required. Valid values include all typable alphanumerics, and also two-digit hexadecimal values preceded by 0x and [VK_constants](https://msdn.microsoft.com/en-us/library/windows/desktop/dd375731.aspx).|  
 |mod1|Optional. Any combination of CTRL, ALT, and SHIFT separated by space.|  
-|key2|Optional. Valid values include all typable alphanumerics, and also two-digit hexadecimal values preceded by 0x and VK_constants.|  
+|key2|Optional. Valid values include all typable alphanumerics, and also two-digit hexadecimal values preceded by 0x and [VK_constants](https://msdn.microsoft.com/en-us/library/windows/desktop/dd375731.aspx).|  
 |mod2|Optional. Any combination of CTRL, ALT, and SHIFT separated by space.|  
 |emulator|Optional.|  
 |Condition|Optional. See [Conditional Attributes](../extensibility/vsct-xml-schema-conditional-attributes.md).|  

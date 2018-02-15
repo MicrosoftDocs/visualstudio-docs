@@ -16,29 +16,16 @@ ms.assetid: 5d0ae226-981d-4541-a801-fc4993fe663b
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # DiaAddressMapEntry
 Describes an entry in an address map.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 struct DiaAddressMapEntry {   
    DWORD rva,  
    DWORD rvaTo  
@@ -59,7 +46,7 @@ struct DiaAddressMapEntry { 
   
 1.  Search the map for the entry, `e`, with the largest `rva` less than or equal to `addrA`.  
   
-2.  Set `delta = addrA – e.rva`.  
+2.  Set `delta = addrA - e.rva`.  
   
 3.  Set `addrB = e.rvaTo + delta`.  
   

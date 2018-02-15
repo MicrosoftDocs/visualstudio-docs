@@ -16,29 +16,16 @@ ms.assetid: 853b5c6f-e1cb-4675-ad36-9ee16e3341c3
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_indirectVirtualBaseClass
 Retrieves a flag that specifies whether the user-defined data type is an indirect virtual base class.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_indirectVirtualBaseClass (   
    BOOL* pRetVal  
 );  

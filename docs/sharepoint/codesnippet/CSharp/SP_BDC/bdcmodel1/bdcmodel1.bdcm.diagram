@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<minimalLanguageDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="$rootname$">
+  <modelRootMoniker Name="/BdcModel1" />
+  <nestedChildShapes>
+    <entityShape Id="1ab9a081-2c7c-4b37-afa7-381579413509" absoluteBounds="0.625, 2.75, 1.5, 2.0853483072916665">
+      <entityMoniker name="SP_BDC.BdcModel1.Contact" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4228cf53-3e60-4148-9a9b-b57292d5f78c" absoluteBounds="0.64000000000000012, 3.16, 1.4700000000000002, 0.37180582682291663" name="Identifiers" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="4d32408f-307b-4fb4-ba6d-0c599fe238db" absoluteBounds="0.64, 3.5418058268229169, 1.4700000000000002, 1.19354248046875" name="Methods" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </entityShape>
+    <entityShape Id="9bb9244b-0dc4-4d7f-88c8-3c905a36f38b" absoluteBounds="6.125, 0.5, 1.5, 1.9210009765625">
+      <entityMoniker name="SP_BDC.BdcModel1.SalesOrderDetail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="99f26b45-9d77-40fe-86a0-d385c4c83a8b" absoluteBounds="6.1400000000000006, 0.91000000000000014, 1.4700000000000002, 0.53615315755208326" name="Identifiers" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="086f4505-0014-40c2-832a-6bd12048206d" absoluteBounds="6.1400000000000006, 1.4561531575520834, 1.4700000000000002, 0.86484781901041663" name="Methods" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </entityShape>
+    <entityShape Id="2f21d2ad-49b8-4d0c-9ec5-8c3b649dd92f" absoluteBounds="3.375, 1.625, 1.5, 1.7566536458333335">
+      <entityMoniker name="SP_BDC.BdcModel1.SalesOrder" />
+      <nestedChildShapes>
+        <elementListCompartment Id="40d37b0d-3407-4dd0-8e2c-0dd82934c380" absoluteBounds="3.3899999999999997, 2.035, 1.4700000000000002, 0.37180582682291663" name="Identifiers" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="0cb7ab67-8f93-4771-98ee-1db30b8c2ff8" absoluteBounds="3.39, 2.4168058268229169, 1.4700000000000002, 0.86484781901041663" name="Methods" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </entityShape>
+    <associationGroupConnector edgePoints="[(2.125 : 3.06582682291667); (3.375 : 3.06582682291667)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <associationGroupMoniker name="/SP_BDC.BdcModel1.Contact/ContactToSalesOrderAssociation" />
+      <relativeChildShapes />
+      <nodes>
+        <entityShapeMoniker Id="1ab9a081-2c7c-4b37-afa7-381579413509" />
+        <entityShapeMoniker Id="2f21d2ad-49b8-4d0c-9ec5-8c3b649dd92f" />
+      </nodes>
+    </associationGroupConnector>
+    <associationGroupConnector edgePoints="[(2.125 : 4.1397509765625); (6.875 : 4.1397509765625); (6.875 : 2.4210009765625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <associationGroupMoniker name="/SP_BDC.BdcModel1.Contact/ContactToSalesOrderDetailAssociation" />
+      <relativeChildShapes />
+      <nodes>
+        <entityShapeMoniker Id="1ab9a081-2c7c-4b37-afa7-381579413509" />
+        <entityShapeMoniker Id="9bb9244b-0dc4-4d7f-88c8-3c905a36f38b" />
+      </nodes>
+    </associationGroupConnector>
+  </nestedChildShapes>
+</minimalLanguageDiagram>

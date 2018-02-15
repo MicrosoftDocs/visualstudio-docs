@@ -14,35 +14,24 @@ helpviewer_keywords:
   - "IDebugBreakpointUnboundEvent2::GetReason"
 ms.assetid: 0f8a4fec-d3eb-417d-8516-4f7b51904033
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugBreakpointUnboundEvent2::GetReason
 Gets the reason the breakpoint was unbound.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetReason(   
    BP_UNBOUND_REASON* pdwUnboundReason  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetReason(   
    out enum_ BP_UNBOUND_REASON pdwUnboundReason  
 );  
@@ -61,7 +50,7 @@ int GetReason( 
 ## Example  
  The following example shows how to implement this method for a **CBreakpointUnboundDebugEventBase** object that exposes the [IDebugBreakpointUnboundEvent2](../../../extensibility/debugger/reference/idebugbreakpointunboundevent2.md) interface.  
   
-```cpp#  
+```cpp  
 STDMETHODIMP CBreakpointUnboundDebugEventBase::GetReason(  
     BP_UNBOUND_REASON* pdwUnboundReason)  
 {  

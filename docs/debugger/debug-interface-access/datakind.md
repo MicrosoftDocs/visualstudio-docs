@@ -16,29 +16,16 @@ ms.assetid: b64be708-22d6-4360-99e7-8f4e6b196de7
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # DataKind
 Indicates the particular scope of a data value.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 enum DataKind {   
    DataIsUnknown,  
    DataIsLocal,  

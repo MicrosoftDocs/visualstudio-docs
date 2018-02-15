@@ -14,29 +14,18 @@ helpviewer_keywords:
   - "BP_LOCATION_CODE_CONTEXT structure"
 ms.assetid: 37412896-021a-4f73-9bb7-4125502c2e18
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # BP_LOCATION_CODE_CONTEXT
 Describes the location of a breakpoint that is bound directly to an address in the program being debugged.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct _BP_LOCATION_CODE_CONTEXT {   
    IDebugCodeContext2* pCodeContext;  
 } BP_LOCATION_CODE_CONTEXT;  

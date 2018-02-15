@@ -16,29 +16,16 @@ ms.assetid: f7dab1c6-112b-4966-baa5-afc976949c76
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_frontEndBuild
 Retrieves the front end build number.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_frontEndBuild (   
    DWORD* pRetVal  
 );  

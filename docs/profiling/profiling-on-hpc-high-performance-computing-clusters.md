@@ -22,7 +22,13 @@ helpviewer_keywords:
   - "HPC profiling"
 author: "mikejo5000"
 ms.author: "mikejo"
+<<<<<<< HEAD
 manager: "ghogen"
+=======
+manager: ghogen
+ms.workload: 
+  - "multiple"
+>>>>>>> master
 ---
 # Profiling on HPC (High Performance Computing) Clusters
 

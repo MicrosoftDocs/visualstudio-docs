@@ -11,20 +11,8 @@ caps.latest.revision: 14
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+ms.workload: 
+  - "multiple"
 ---
 # How to: Add a New Item to a Workflow Project
 After you have created a workflow project, you can add workflow activities, designers, and other familiar [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] items to your project.  
@@ -40,7 +28,7 @@ After you have created a workflow project, you can add workflow activities, desi
   
 ### To add a new item to a workflow project  
   
-1.  On the **Project** menu, click **Add New Item…**.  
+1.  On the **Project** menu, click **Add New Item...**.  
   
      The **Add a New Item** dialog box opens.  
   

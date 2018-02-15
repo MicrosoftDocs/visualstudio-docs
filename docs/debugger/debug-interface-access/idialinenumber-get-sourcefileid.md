@@ -16,29 +16,16 @@ ms.assetid: 4f482a1e-e85f-4173-98de-8e5f7622554b
 caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaLineNumber::get_sourceFileId
 Retrieves a unique source file identifier for the source file that contributed this line.  
   
 ## Syntax  
   
-```cpp#  
+```C++  
 HRESULT get_sourceFileId (   
    DWORD* pRetVal  
 );  

@@ -16,22 +16,9 @@ ms.assetid: f230560b-4243-432d-8f19-46df112043b9
 caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CV_call_e
 Specifies the calling convention for a function.  
@@ -41,7 +28,7 @@ Specifies the calling convention for a function.
   
 ## Syntax  
   
-```cpp#  
+```C++  
 typedef enum CV_call_e {   
    CV_CALL_NEAR_C    = 0x00,  
    CV_CALL_NEAR_FAST = 0x04,  

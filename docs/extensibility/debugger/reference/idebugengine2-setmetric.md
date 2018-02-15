@@ -14,36 +14,25 @@ helpviewer_keywords:
   - "IDebugEngine2:::SetMetric"
 ms.assetid: dcda4972-c32e-4693-a0e1-25d5c58b9782
 caps.latest.revision: 15
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugEngine2::SetMetric
 This method sets a registry value known as a metric.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT SetMetric(  
    LPCOLESTR pszMetric,  
    VARIANT   varValue  
 );  
 ```  
   
-```c#  
+```csharp  
 int SetMetric(  
    string pszMetric,  
    object varValue  

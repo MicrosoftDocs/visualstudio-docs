@@ -12,25 +12,11 @@ ms.assetid: 45cfcee6-7a68-4d4f-b3f6-e2d8a0fa066a
 caps.latest.revision: 1
 author: "gregg-miskelly"
 ms.author: "greggm"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "greggm"
 ---
 # Migrate 64-bit debugger COM class registration
-
->**Note:** This documentation is preliminary and based on the Visual Studio 2017 RC release.
 
 For debugger extensions that register COM classes in HKEY_CLASSES_ROOT (by using regasm, regsvr32, or directly writing to the registry) and loaded into msvsmon.exe (the remote debugger), it is now possible to provide this registration to msvsmon without needing to write to HKEY_CLASSES_ROOT. This affects legacy .NET debugger expression evaluators, or debug engines that are configured to load in the msvsmon.exe process.
 
