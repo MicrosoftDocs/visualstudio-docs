@@ -34,7 +34,7 @@
             "source_path": "docs/code-quality/measuring-complexity-and-maintainability-of-managed-code.md",
             "redirect_url": "/visualstudio/code-quality/code-metrics-values/",
             "redirect_document_id": false
-        },        
+        },
         {
             "source_path": "docs/code-quality/suppress-warnings-by-using-the-suppressmessage-attribute.md",
             "redirect_url": "/visualstudio/code-quality/in-source-suppression-overview",
@@ -983,7 +983,7 @@
         {
             "source_path": "docs/ide/using-the-toolbox.md",
             "redirect_url": "/visualstudio/ide/reference/toolbox",
-            "redirect_document_id": false 
+            "redirect_document_id": false
         },
         {
             "source_path": "docs/ide/viewing-types-and-relationships-class-designer.md",
@@ -1995,6 +1995,21 @@
             "source_path": "docs/cross-platform/visual-studio-tools-for-unity-azure-setup.md",
             "redirect_url": "/sandbox/gamedev/unity/samples/azure-mobile-apps-unity-racer",
             "redirect_document_id": false
+        },
+        {
+          "source_path": "docs/ide/reference/proxy-authorization-required.md",
+          "redirect_url": "visualstudio/install/troubleshooting-network-related-errors-in-visual-studio",
+          "redirect_document_id": false
+        },
+        {
+          "source_path": "docs/ide/whitelisting-urls-in-a-private-network.md",
+          "redirect_url": "visualstudio/install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server",
+          "redirect_document_id": false
+        },
+        {
+          "source_path": "docs/install/install-visual-studio-behind-a-firewall-or-proxy-server.md",
+          "redirect_url": "visualstudio/install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server",
+          "redirect_document_id": false
         }
     ]
 }

@@ -4,18 +4,18 @@ description: "Learn how to update Visual Studio, step-by-step."
 ms.date: "12/18/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "update Visual Studio"
   - "change visual studio"
   - "changing Visual Studio"
 author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Update Visual Studio 2017 to the most recent release
