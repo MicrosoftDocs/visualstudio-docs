@@ -28,8 +28,8 @@ Visual Studio also provides support for virtual environments, `requirements.txt`
 
 **Note**: if you're new to Python in Visual Studio, see the following articles for necessary background:
 
-- [Working with Python in Visual Studio](python-in-visual-studio.md)
-- [Installing Python support in Visual Studio](installation.md)
+- [Working with Python in Visual Studio](overview-of-python-tools-for-visual-studio.md)
+- [Installing Python support in Visual Studio](installing-python-support-in-visual-studio.md)
 
 ## Global and virtual environments
 
@@ -45,7 +45,7 @@ In Visual Studio, you can create a virtual environment for a specific project, w
 
 ### Selecting and installing Python interpreters
 
-By default, installing the Python development workload in Visual Studio 2017 also installs Python 3 (64-bit). You can optionally choose to install 32-bit and 64-bit versions of Python 2, Python 3, Anaconda 2, and Anaconda 3, as described in [Installation](installation.md). You can also manually install any of the interpreters listed in the table below, and Visual Studio detects them. (For example, if you installed Anaconda 3 before installing Visual Studio, you don't need to install it again through the Visual Studio installer.)
+By default, installing the Python development workload in Visual Studio 2017 also installs Python 3 (64-bit). You can optionally choose to install 32-bit and 64-bit versions of Python 2, Python 3, Anaconda 2, and Anaconda 3, as described in [Installation](installing-python-support-in-visual-studio.md). You can also manually install any of the interpreters listed in the table below, and Visual Studio detects them. (For example, if you installed Anaconda 3 before installing Visual Studio, you don't need to install it again through the Visual Studio installer.)
 
 For Visual Studio 2015 and earlier, you must manually install one of the interpreters.
 
@@ -121,7 +121,7 @@ Provides basic information and commands for the environment:
 | --- | --- |
 | Make this environment the default for new projects | Sets the active environment, which may cause Visual Studio to briefly become non-responsive while it loads the IntelliSense database. Environments with many packages may be non-responsive for longer. |
 | Visit the distributor's website | Opens a browser to the URL provided by the Python distribution. Python 3.x, for example, goes to python.org. |
-| Open interactive window | Opens the [interactive (REPL) window](interactive-repl.md) for this environment within Visual Studio, applying any [startup scripts (see below)](#startup-scripts). |
+| Open interactive window | Opens the [interactive (REPL) window](python-interactive-repl-in-visual-studio.md) for this environment within Visual Studio, applying any [startup scripts (see below)](#startup-scripts). |
 | Explore interactive scripts | See [startup scripts](#startup-scripts). |
 | Use IPython interactive mode | When set, opens the interactive window with IPython by default. This enabled inline plots as well as the extended IPython syntax such as `name?` to view help and `!command` for shell commands. This option is recommended when using an Anaconda distribution, as it requires extra packages. For more information, see [Using IPython in the Interactive Window](interactive-repl-ipython.md). |
 | Open in PowerShell | Starts the interpreter in a PowerShell command window. |
@@ -230,7 +230,7 @@ Note that one drawback to virtual environments is that they contain hard-coded f
 
 ## Managing required packages (requirements.txt)
 
-If you're sharing a project with others, using a build system, or plan to [publish it to Microsoft Azure](template-azure-cloud-service.md), you need to specify the external packages that the project requires. The recommended approach is to use a [requirements.txt file](http://pip.readthedocs.org/en/latest/user_guide.html#requirements-files) (readthedocs.org) that contains a list of commands for pip that installs the required versions of dependent packages.
+If you're sharing a project with others, using a build system, or plan to [publish it to Microsoft Azure](python-azure-cloud-service-project-template.md), you need to specify the external packages that the project requires. The recommended approach is to use a [requirements.txt file](http://pip.readthedocs.org/en/latest/user_guide.html#requirements-files) (readthedocs.org) that contains a list of commands for pip that installs the required versions of dependent packages.
 
 Technically, any filename may be used to track requirements (by using `-r <full path to file>` when installing a package), but Visual Studio provides specific support for `requirements.txt`:
 
