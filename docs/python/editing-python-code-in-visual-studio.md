@@ -2,7 +2,7 @@
 title: Editing Python Code in Visual Studio | Microsoft Docs
 description: Editing Python in Visual Studio provides IntelliSense, code snippets, and navigation features, alongside formatting, linting, and refactoring.
 ms.custom:
-ms.date: 07/10/2017
+ms.date: 02/15/2018
 ms.reviewer:
 ms.suite:
 ms.technology: 
@@ -21,13 +21,13 @@ ms.workload:
 
 # Editing Python code
 
-Developers spend much of their time in the code editor, so [Python support in Visual Studio](installing-python-support-in-visual-studio.md) provides functionality to help you be more productive. Features include IntelliSense syntax highlighting, auto-completion, signature help, method overrides, search, and navigation. 
+Developers spend much of their time in the code editor, so [Python support in Visual Studio](installing-python-support-in-visual-studio.md) provides functionality to help you be more productive. Features include IntelliSense syntax highlighting, auto-completion, signature help, method overrides, search, and navigation.
 
 The editor is also integrated with the interactive window in Visual Studio, making it easy to exchange code between the two. See [Tutorial Step 3: Using the interactive REPL window](tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md) and [Using the interactive window - Send code to interactive command](python-interactive-repl-in-visual-studio.md#send-code-to-interactive-command) for details.
 
-For an introduction to editing Python code, see [Editing Python code](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121?l=r2iQH5LWE_4605918567) (Microsoft Virtual Academy, 2m30s):
-
-> [!VIDEO https://mva.microsoft.com/en-US/training-courses-embed/python-tools-for-visual-studio-2017-18121/Video-Editing-Python-Code-r2iQH5LWE_4605918567]
+|   |   |
+|---|---|
+| ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | [Watch a video (Microsoft Virtual Academy)](https://mva.microsoft.com/en-US/training-courses-embed/python-tools-for-visual-studio-2017-18121/Video-Editing-Python-Code-r2iQH5LWE_4605918567) for a demonstration of editing Python code (2m 30s).|
 
 For general documentation on editing code in Visual Studio, see [Writing Code in the Code and Text Editor](../ide/writing-code-in-the-code-and-text-editor.md). Also see [Outlining in Visual Studio](../ide/outlining.md), which helps you stay focused on particular sections of your code.
 
