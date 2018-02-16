@@ -111,7 +111,7 @@ In this section, you'll add two pages and an image to the application.
 
 1. In the designer, choose the **ExpenseItHome.xaml** tab if it isn't already the active designer tab.
 
-1. Choose the `<Title>` element and change the title to **ExpenseIt - Home**.
+1. Choose the `Title` element and change the title to **ExpenseIt - Home**.
   
      Your **ExpenseItHome.xaml** file should now look like this in C#:  
   
