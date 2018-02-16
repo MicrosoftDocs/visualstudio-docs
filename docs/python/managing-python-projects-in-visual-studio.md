@@ -2,7 +2,7 @@
 title: Managing Projects for Python Applications in Visual Studio | Microsoft Docs
 description: Explains the purpose of projects in Visual Studio, demonstrates how to create and manage projects for Python code, and outlines the different project templates available for Python.
 ms.custom:
-ms.date: 01/16/2018
+ms.date: 02/15/2018
 ms.reviewer:
 ms.suite:
 ms.technology: 
@@ -36,11 +36,10 @@ Visual Studio provides a variety of Python project templates to quickly set up a
 >
 > It's a simple matter to create a Visual Studio project from existing code, as described in [Creating a project from existing files](#creating-a-project-from-existing-files).
 
-For an introduction to Python projects in Visual Studio, see the video [Getting Python Code](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121?l=iLAv23LWE_3905918567) (Microsoft Virtual Academy, 2m17s).
-
-> [!VIDEO https://mva.microsoft.com/en-US/training-courses-embed/python-tools-for-visual-studio-2017-18121/Video-Getting-Python-Code-iLAv23LWE_3905918567]
-
-Also see the older video [Deep Dive: Using source control with Python projects](https://youtu.be/Aq8eqApnugM) (youtube.com, 8m55s).
+|   |   |
+|---|---|
+| ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | [Watch a video (Microsoft Virtual Academy)](https://mva.microsoft.com/en-US/training-courses-embed/python-tools-for-visual-studio-2017-18121/Video-Getting-Python-Code-iLAv23LWE_3905918567) for an introduction to Python projects (2m 17s). |
+| ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | Also see [Deep Dive: Using source control with Python projects](https://youtu.be/Aq8eqApnugM) (youtube.com, 8m 55s). |
 
 ## Adding files, assigning a startup file, and setting environments
 

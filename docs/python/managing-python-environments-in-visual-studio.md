@@ -1,15 +1,14 @@
 ---
 title: Managing Python environments in Visual Studio | Microsoft Docs
 description: How to use the Python Environments window in Visual Studio to manage global and virtual environments, set up custom environments, installing Python interpreters, installing packages, setting search paths, and managing environments for Visual Studio projects.
-ms.custom:
-ms.date: 01/16/2018
-ms.reviewer:
-ms.suite:
+ms.custom: ""
+ms.date: 02/13/2018
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-python"
-dev_langs:
-  - "python"
-ms.tgt_pltfrm:
+ms.devlang: python
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 author: "kraigb"
 ms.author: "kraigb"
@@ -46,7 +45,7 @@ In Visual Studio, you can create a virtual environment for a specific project, w
 
 ### Selecting and installing Python interpreters
 
-By default, installing the Python development workload in Visual Studio 2017 also installs Python 3 (64-bit). You can optionally choose to install 32-bit and 64-bit versions of Python 2, Python 3, Anaconda 2, and Anaconda 3, as described in [Installation](installing-python-support-in-visual-studio.md). You can also manually install any of the interpreters listed in the following table.
+By default, installing the Python development workload in Visual Studio 2017 also installs Python 3 (64-bit). You can optionally choose to install 32-bit and 64-bit versions of Python 2, Python 3, Anaconda 2, and Anaconda 3, as described in [Installation](installing-python-support-in-visual-studio.md). You can also manually install any of the interpreters listed in the table below, and Visual Studio detects them. (For example, if you installed Anaconda 3 before installing Visual Studio, you don't need to install it again through the Visual Studio installer.)
 
 For Visual Studio 2015 and earlier, you must manually install one of the interpreters.
 
@@ -66,13 +65,16 @@ Developers that want to provide new forms of detection for Python environments, 
 
 To open the Python Environments window, select the **View > Other Windows > Python Environments** menu command or right-click the **Python Environments** node for a project in Solution Explorer and select **View All Python Environments**:
 
-![View All Environments command in Solution Explorer](media/environments-view-all.png)
+    ![View All Environments command in Solution Explorer](media/environments-view-all.png)
 
 In either case, the Python Environments window appears as a sibling tab to Solution Explorer:
 
 ![Python Environments window](media/environments-default-view.png)
 
-The example above shows that Python 3.4 (32-bit CPython) is installed along with 32-bit and 64-bit versions of IronPython 2.7. The default environment in boldface is Python 3.4, which is used for any new projects. If you don't see any environments listed, it means that you've installed Python Tools for Visual Studio in Visual Studio 2015 or earlier, but haven't installed a Python interpreter (see [Selecting and installing Python interpreters](#selecting-and-installing-python-interpreters) above). The **+ Custom...** command lets you [create an environment for an existing interpreter](#creating-an-environment-for-an-existing-interpreter).
+The example above shows that Python 3.4 (32-bit CPython) is installed along with 32-bit and 64-bit versions of IronPython 2.7. The default environment in boldface is Python 3.4, which is used for any new projects. If you don't see any environments listed, it means that you've installed Python Tools for Visual Studio in Visual Studio 2015 or earlier, but haven't installed a Python interpreter (see [Selecting and installing Python interpreters](#selecting-and-installing-python-interpreters) above). The **+ Custom...** command lets you [create an environment for an existing interpreter](#create-an-environment-for-an-existing-interpreter).
+
+> [!Tip]
+> Visual Studio detects updates to an existing interpreter, such as upgrading Python 2.7.11 to 2.7.14 using the installers from python.org. During the installation process, the older environment will disappear from the **Python Environments** list before the update appears in its place.
 
 To the right of each listed environment is a control that opens an interactive window for that environment. Another control may appear that refreshes the IntelliSense database for that environment.
 
@@ -83,9 +85,9 @@ Below the list of environments is a drop-down selector for the **Overview**, **P
 > [!Note]
 > Although Visual Studio respects the system-site-packages option, it doesn't provide a way to change it from within Visual Studio.
 
-For a video introduction to managing environments in Visual Studio, see [Managing Python Environments](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121?l=qrDmN4LWE_8305918567) (Microsoft Virtual Academy, 2m35s).
-
-> [!VIDEO https://mva.microsoft.com/en-US/training-courses-embed/python-tools-for-visual-studio-2017-18121/Video-Managing-Python-Environments-qrDmN4LWE_8305918567]
+|   |   |
+|---|---|
+| ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | [Watch a video (Microsoft Virtual Academy)](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121?l=qrDmN4LWE_8305918567) on Python environments in Visual Studio (2m 35s).|
 
 ### Creating an environment for an existing interpreter
 

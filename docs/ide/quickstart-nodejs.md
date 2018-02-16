@@ -36,6 +36,10 @@ First, you'll create an Node.js web application project.
 
     Visual Studio creates and the new solution and opens the project. **server.js** open in the editor.
 
+4. If you don't have the Node.js runtime already installed, install it from the [Node.js](https://nodejs.org/en/download/) website.
+
+    In general, Visual Studio automatically detects the installed Node.js runtime. If it does not detect an installed runtime you can configure your project to reference the installed runtime.
+
 ## Explore the IDE  
 
 1. Take a look at **Solution Explorer** in the right pane.
