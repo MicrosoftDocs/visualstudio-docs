@@ -79,7 +79,7 @@ If your codebase uses custom build tools that Visual Studio doesn't recognize, t
 
   ![Custom build task](./media/VSIDE_Code_Tasks_CustTask2.png)
 
-1. Save the project.
+1. Save the file.
 
 1. Open the context menu for the selected file. The new custom build tasks should appear in the middle of the context menu.
 
@@ -237,6 +237,16 @@ To specify additional command line arguments, add them in the `args` array as sh
 ```
 
 When you save this file, the new configuration appears in the debug target drop-down list, and you can select it to start the debugger. You can create as many debug configurations as you like, for any number of executables. If you press **F5**, the debugger launches and hits any breakpoint you may have already set. All the familiar debugger windows are available and functional.
+
+> [!NOTE]
+> The`configuration` array property in launch.vs.json is unioned for two file locations&mdash;the root directory for the codebase, and the **.vs** directory. In case of a conflict, priority is given to the value in **.vs\launch.vs.json**.
+
+## Define workspace settings in VSWorkspaceSettings.json
+
+
+## Scope of settings
+
+Visual Studio uses a concept of *scopes* that enable settings to be aggregated or overridden throughout the codebase. sMultiple  **tasks.vs.json** files can exist at the root and subdirectories of a folder, but their content is only applied in their directory and its subdirectories. If there are overlapping “cones” of settings, then priority is given to the file that is deepest n the directory structure.
 
 ## See also
 
