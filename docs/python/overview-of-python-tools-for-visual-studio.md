@@ -49,11 +49,7 @@ The Python workload also includes the [Azure SDK for Python](azure-sdk-for-pytho
 |   |   |
 |---|---|
 | ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | [Watch a video series (Microsoft Virtual Academy)](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121) for an introduction to Python in Visual Studio (22 minutes total). |
-| ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | Also see the following videos on Microsoft Virtual Academy:  
-- [Introduction to Programming with Python](https://mva.microsoft.com/en-US/training-courses/introduction-to-programming-with-python-8360?l=lqhuMxFz_8904984382).  
-- [Python Beginner: Strings and Functions](https://mva.microsoft.com/en-US/training-courses/python-beginner-strings-and-functions-18015)  
-- [Python Fundamentals: List and Loops](https://mva.microsoft.com/en-US/training-courses/python-fundamentals-lists-and-loops-18019)  
-- [Top Python Questions](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121). |
+| ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | Also see the following videos on Microsoft Virtual Academy:<ul><li>[Introduction to Programming with Python](https://mva.microsoft.com/en-US/training-courses/introduction-to-programming-with-python-8360?l=lqhuMxFz_8904984382)</li><li>[Python Beginner: Strings and Functions](https://mva.microsoft.com/en-US/training-courses/python-beginner-strings-and-functions-18015)</li><li>[Python Fundamentals: List and Loops](https://mva.microsoft.com/en-US/training-courses/python-fundamentals-lists-and-loops-18019)</li><li>[Top Python Questions](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121)</li></ul> |
 
 ## Questions and answers
 
