@@ -55,7 +55,7 @@ In this section, you'll create the application infrastructure, which includes th
 
 1. In the **Properties** window, expand the **Common** category node and choose the **Title** property, and then enter `ExpenseIt` and press the **Enter** key.
   
-     Notice that the **Title** element in the XAML window changes to match the new value. You can modify XAML properties in either the XAML window or the **Properties** window, and the changes are synchronized.
+     Notice that the **Title** attribute in the XAML window changes to match the new value. You can modify XAML properties in either the XAML window or the **Properties** window, and the changes are synchronized.
 
 1. In the XAML window, set the value of the **Height** element to `375`, and set the value of the **Width** property to `500`.
   
@@ -111,7 +111,7 @@ In this section, you'll add two pages and an image to the application.
 
 1. In the designer, choose the **ExpenseItHome.xaml** tab if it isn't already the active designer tab.
 
-1. Choose the `Title` element and change the title to **ExpenseIt - Home**.
+1. Choose the `Title` attribute and change its value to **ExpenseIt - Home**.
   
      Your **ExpenseItHome.xaml** file should now look like this in C#:  
   
@@ -173,7 +173,7 @@ In this section, you'll add two pages and an image to the application.
 
 1. In the designer, choose the **ExpenseReportPage.xaml** tab if it isn't already the active designer tab.
 
-1. Choose the `<Title>` element and change the title to **ExpenseIt - View Expense**.
+1. Choose the `Title` attribute and change its value to **ExpenseIt - View Expense**.
   
      Your ExpenseReportPage.xaml file should now look like this in C#:  
   
