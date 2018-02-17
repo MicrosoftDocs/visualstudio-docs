@@ -4,7 +4,7 @@ With Connected Environment, you can share your development environment with othe
 
 To set up an environment for multiple developers:
 1. [Create a Connected Environment in Azure](../get-started.md). You'll need to have Owner or Contributor access to an Azure subscription.
-1. For each team member, [grant Contributor access](https://docs.microsoft.com/en-us/azure/active-directory/role-based-access-control-configure) to the dev environment's **resource group**. You can check an environment's resource group by running this command: `vsce env list`
+1. Configure the environment's **resource group** to [grant Contributor access](https://docs.microsoft.com/en-us/azure/active-directory/role-based-access-control-configure) for each team member. You can check an environment's resource group by running this command: `vsce env list`
 1. Team members **select the environment** to develop in it.
      * **Command line or VS Code**: To see existing Connected Environments you have access to: `vsce env list`. To select an environment: `vsce env select`.
-     * **Visual Studio IDE**: Open a project in Visual Studio, select **Connected Environment for AKS** from the launch settings drop-down. In the dialog that open, select an existing development environment.
+     * **Visual Studio IDE**: Open a project in Visual Studio, select **Connected Environment for AKS** from the launch settings drop-down. In the dialog that opens, select an existing development environment.
