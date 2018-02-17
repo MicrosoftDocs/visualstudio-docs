@@ -1,4 +1,4 @@
-# [Visual Studio Connected Environment](visual-studio-connected-environment.md)
+# [VS Connected Environment](visual-studio-connected-environment.md)
 
 # [Get Started](get-started.md)
 ##[.NET Core (VS Code & CLI)](get-started-netcore-01.md)
