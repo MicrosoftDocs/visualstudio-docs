@@ -158,6 +158,7 @@ In the previous steps, we added webpack-config.js to the project. Next, we add w
 
     ```javascript
     module.exports = {
+        devtool: 'source-map',
         entry: "./app.js",
         output: {
             filename: "./browser-bundle.js"
@@ -261,9 +262,6 @@ In the preceding section, we attached the debugger to server-side Node.js code. 
 
     ![Set a breakpoint](../nodejs/media/tutorial-nodejs-react-set-breakpoint-client-code.png) 
 
-    > [!NOTE]
-    > If you set up and configure source map files using webpack and babel, you can set breakpoints in your source file instead of the bundled JavaScript code. The sourcemap configuration is out of scope for this topic.
-
 1. With Chrome selected as the debug target in Visual Studio, press **Ctrl + F5** (**Debug** > **Start Without Debugging**) to run the app in the browser.
 
     The app opens in a new browser tab.
@@ -283,6 +281,18 @@ In the preceding section, we attached the debugger to server-side Node.js code. 
     While paused in the debugger, you can examine your app state by hovering over variables and using debugger windows.
 
 Next time you want to attach the debugger, you can save time by using **Debug** > **Reattach to Process**.
+
+## (Optional) Set and hit a breakpoint using sourcemaps
+
+We previously generated a sourcemap file by including `devtool: 'source-map'` in the `webpack-config.js file`. To use the sourcemap file for debugging:
+
+1. In Solution Explorer, right-click the project and choose **Add** > **Existing Item**, then add the *browser-bundle.js.map* file the project root.
+
+1. In *browser-bundle.js*, remove the breakpoint you set previously.
+
+1. In *app.js*, set a breakpoint on the `render()` line of code.
+
+1. Either choose **Debug** > **Reattach to Process** (if you attached the debugger to client-side React code previously) or follow all the steps in the section **Set and hit a breakpoint in the client-side React code**. (Skip the step on setting a breakpoint in *browser-bundle.js*.)
 
 ## Next steps 
 
