@@ -27,6 +27,8 @@ First, create an Node.js web application project.
 
     In general, Visual Studio automatically detects the installed Node.js runtime. If it does not detect an installed runtime you can configure your project to reference the installed runtime.
 
+    This topic was tested with version 8.9.4.
+
 1. Open Visual Studio 2017.  
 
 1. From the top menu bar, choose **File** > **New** > **Project...**.  
