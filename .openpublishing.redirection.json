@@ -1,6 +1,88 @@
 {
     "redirections": [
         {
+            "source_path": "docs/extensibility/shell/shell-isolated-or-integrated.md",
+            "redirect_url": "https://vspartner.com/pages/vsshells",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/extensibility/shell/visual-studio-isolated-shell.md",
+            "redirect_url": "https://vspartner.com/pages/vsshells",
+            "redirect_document_id": false
+        },
+        {
+
+            "source_path": "docs/extensibility/shell/walkthrough-creating-a-basic-isolated-shell-application.md",
+            "redirect_url": "https://vspartner.com/pages/vsshells",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/extensibility/shell/customizing-the-isolated-shell.md",
+            "redirect_url": "https://vspartner.com/pages/vsshells",
+            "redirect_document_id": false
+        },
+        {
+
+            "source_path": "docs/extensibility/shell/extending-the-isolated-shell.md",
+            "redirect_url": "https://vspartner.com/pages/vsshells",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/extensibility/shell/elements-of-the-isolated-shell.md",
+            "redirect_url": "https://vspartner.com/pages/vsshells",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/extensibility/shell/modifying-the-isolated-shell-by-using-the-dot-vsct-file.md",
+            "redirect_url": "https://vspartner.com/pages/vsshells",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/extensibility/shell/modifying-the-isolated-shell-by-using-the-dot-pkgundef-file.md",
+            "redirect_url": "https://vspartner.com/pages/vsshells",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/extensibility/shell/modifying-the-isolated-shell-by-using-the-dot-pkgdef-file.md",
+            "redirect_url": "https://vspartner.com/pages/vsshells",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/extensibility/shell/substitution-strings-used-in-dot-pkgdef-and-dot-pkgundef-files.md",
+            "redirect_url": "https://vspartner.com/pages/vsshells",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/extensibility/shell/isolated-shell-entry-point-parameters-cpp.md",
+            "redirect_url": "https://vspartner.com/pages/vsshells",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/extensibility/shell/package-guids-of-visual-studio-features.md",
+            "redirect_url": "https://vspartner.com/pages/vsshells",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/extensibility/shell/visual-studio-shell-integrated.md",
+            "redirect_url": "https://vspartner.com/pages/vsshells",
+            "redirect_document_id": false
+        },
+        {   
+            "source_path": "docs/extensibility/shell/distributing-isolated-shell-applications.md",
+            "redirect_url": "https://vspartner.com/pages/vsshells",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/extensibility/shell/installing-an-isolated-shell-application.md",
+            "redirect_url": "https://vspartner.com/pages/vsshells",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/extensibility/shell/servicing-guidelines-for-isolated-shell-applications.md",
+            "redirect_url": "https://vspartner.com/pages/vsshells",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/code-quality/analyzing-application-quality-by-using-code-analysis-tools.md",
             "redirect_url": "/visualstudio/code-quality/code-analysis-for-managed-code-overview",
             "redirect_document_id": false
