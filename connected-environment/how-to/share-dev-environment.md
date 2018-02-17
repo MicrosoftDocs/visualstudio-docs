@@ -1,6 +1,6 @@
 # Share a Development Environment
 
-With Connected Environment, you can share your development environment with others on your team. Each developer can work in their own space without feature of breaking others. Also, working together in one environment can enable you to test code end-to-end without having to create mocks or simulate dependencies. See the [Learn about team development](../get-started-nodejs-06.md) guide for more information.
+With Connected Environment, you can share your development environment with others on your team. Each developer can work in their own space without fear of breaking others. Also, working together in one environment can enable you to test code end-to-end without having to create mocks or simulate dependencies. See the [Learn about team development](../get-started-nodejs-06.md) guide for more information.
 
 To set up an environment for multiple developers:
 1. [Create a Connected Environment in Azure](../get-started.md). You'll need to have Owner or Contributor access to an Azure subscription.
