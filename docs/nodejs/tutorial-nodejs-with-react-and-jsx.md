@@ -236,12 +236,6 @@ Each time you make changes to *app.js*, you must re-run the webpack command.
 
 1. Press **F5** to continue the app.
 
-1. If you want to open the Node.js Interactive Window, right-click the project and select **Open Node.js Interactive Window**.
-
-   ![Open the Node.js Interactive Window](../nodejs/media/tutorial-nodejs-react-interactive-window.png)  
-
-    The interactive window supports everything you can do in code including the use of `require()` statements.
-
 1. If you want to use the Chrome Developer Tools, press **F12**. You can use these tools to examine the DOM and interact with the app using the JavaScript Console.
 
 1. Close the web browser and the console.
