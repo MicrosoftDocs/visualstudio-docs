@@ -23,11 +23,15 @@ In this tutorial for Node.js development using Visual Studio, you'll create a No
 ## Create a project
 First, create an Node.js web application project.
 
+1. If you don't have the Node.js runtime already installed, install the LTS version from the [Node.js](https://nodejs.org/en/download/) website.
+
+    In general, Visual Studio automatically detects the installed Node.js runtime. If it does not detect an installed runtime you can configure your project to reference the installed runtime.
+
 1. Open Visual Studio 2017.  
 
-2. From the top menu bar, choose **File** > **New** > **Project...**.  
+1. From the top menu bar, choose **File** > **New** > **Project...**.  
 
-3. In the **New Project** dialog box, in the left pane, expand **JavaScript**, then choose **Node.js**. In the middle pane, choose **Blank Node.js Web Application**, type the name **NodejsWebAppBlank**, then choose **OK**.   
+1. In the **New Project** dialog box, in the left pane, expand **JavaScript**, then choose **Node.js**. In the middle pane, choose **Blank Node.js Web Application**, type the name **NodejsWebAppBlank**, then choose **OK**.   
 
      If you don't see the **Blank Node.js Web Application** project template, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **Node.js development** workload, then choose **Modify**. 
 
@@ -36,12 +40,6 @@ First, create an Node.js web application project.
     ![Node.js project in Solution Explorer](../nodejs/media/tutorial-nodejs-react-project-structure.png)  
 
     If you are not familiar with Visual Studio solutions and projects, see [Quickstart: Use Visual Studio to create your first Node.js app](../ide/quickstart-nodejs.md). If you are more interested in the Express 4 template, see [Getting started with Express 4](../nodejs/tutorial-nodejs.md)
-
-4. If you don't have the Node.js runtime already installed, install it from the [Node.js](https://nodejs.org/en/download/) website.
-
-    In general, Visual Studio automatically detects the installed Node.js runtime. If it does not detect an installed runtime you can configure your project to reference the installed runtime.
-
-    This project was created with Node.js version 6.9.2.
 
 ## Add npm packages
 
@@ -109,7 +107,10 @@ For this simple app, we will just add the new project files in the project root.
     var staticPath = path.join(__dirname, '/');
     app.use(express.static(staticPath));
 
-    app.listen(1337, function () {
+    // Allows you to set port in the project properties.
+    app.set('port', process.env.PORT || 3000);
+
+    var server = app.listen(app.get('port'), function() {
         console.log('listening');
     });
     ```
@@ -233,13 +234,13 @@ Each time you make changes to *app.js*, you must re-run the webpack command.
 
     The debugger pauses at the breakpoint you set (the line of code is marked in yellow). Now, you can inspect your app state by hovering over variables that are currently in scope, using debugger windows like the **Locals** and **Watch** window, etc.
 
-1. While paused at the breakpoint, open the Node.js Interactive Window by right-clicking the project and selecting **Open Node.js Interactive Window**.
+1. Press **F5** to continue the app.
+
+1. If you want to open the Node.js Interactive Window, right-click the project and select **Open Node.js Interactive Window**.
 
    ![Open the Node.js Interactive Window](../nodejs/media/tutorial-nodejs-react-interactive-window.png)  
 
-    The interactive window supports everything you can do in code including the use of `require()` statements. The code in the following screenshot defines a variable and displays the location of the Node.js interpreter.
-
-   ![Node.js Interactive Window](../nodejs/media/tutorial-nodejs-interactive-window-example.png)  
+    The interactive window supports everything you can do in code including the use of `require()` statements.
 
 1. If you want to use the Chrome Developer Tools, press **F12**. You can use these tools to examine the DOM and interact with the app using the JavaScript Console.
 
