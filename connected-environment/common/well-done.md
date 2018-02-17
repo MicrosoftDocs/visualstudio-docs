@@ -1,4 +1,4 @@
-## Well done
+## Well done!
 You've completed the getting started guide! You learned how to:
 
 > [!div class="checklist"]
