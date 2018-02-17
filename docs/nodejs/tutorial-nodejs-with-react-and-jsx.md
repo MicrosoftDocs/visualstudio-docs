@@ -115,7 +115,7 @@ For this simple app, we will just add the new project files in the project root.
     });
     ```
 
-   The preceding code uses Express to start Node.js as your web application server. This code sets the port to 1337.
+   The preceding code uses Express to start Node.js as your web application server. This code sets the port to the port number configured in the project properties (1337 by default). To open the project properties, right-click the project in Solution Explorer and choose **Properties**.
 
 1. Open *app.js* and add the following code:
 
