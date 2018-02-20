@@ -45,7 +45,7 @@ If the product came installed with a new computer or device, the hardware manufa
 Microsoft support services are subject to then-current prices, terms, and conditions. Prices, terms, and conditions are subject to change without notice.
 
 ## I want to get involved in the developer community
- If you want to share your questions and answers with other developers, you can use the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/index.html) site, the [MSDN Forums](http://social.msdn.microsoft.com/Forums/home), or [StackOverflow](http://stackoverflow.com/). You can also view code from other developers and share your own examples on the [Developer code samples](http://code.msdn.microsoft.com/) and [CodePlex](http://www.codeplex.com/) websites.
+If you want to share your questions and answers with other developers, you can use the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/index.html) site, the [MSDN Forums](http://social.msdn.microsoft.com/Forums/home), or [StackOverflow](http://stackoverflow.com/). You can also view code from other developers and share your own examples on the [Developer code samples](http://code.msdn.microsoft.com/) site.
 
 ## I want to help improve the Visual Studio documentation
 Please use the **Was this page helpful?** feedback button at the bottom of the page. You can find this button on all our documentation pages. Alternatively, you can add feedback to any Visual Studio page on [docs.microsoft.com](https://docs.microsoft.com/visualstudio/) by using the **Sign in to give documentation feedback** button, also at the bottom of the page.
