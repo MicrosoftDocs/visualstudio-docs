@@ -152,8 +152,6 @@ After saving tasks.vs.json, you can right-click any .js file in the folder, choo
 1. Open the context menu for the selected folder. You should see the new arbitrary task appear at the bottom of the context menu.
 
 1. Choose the **F5** key to begin debugging.
-2. 
-3. 
 
 ### Properties for tasks.vs.json
 
