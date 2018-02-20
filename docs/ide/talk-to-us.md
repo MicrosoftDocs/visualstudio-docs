@@ -38,7 +38,7 @@ For other Microsoft products and services, see [Microsoft Support](http://go.mic
 > [!NOTE]
 > Support outside the United States and Canada may vary. For a list of regional contacts, see [Microsoft Worldwide Sites](http://www.microsoft.com/worldwide/).
 
-For larger organizations that require managed support directly from Microsoft, contracts are available through various Premier Support offerings. For more information, see [Microsoft Enterprise Services Support Solutions](https://enterprise.microsoft.com/en-us/trends/microsoft-enterprise-services-support-solutions/).
+For larger organizations that require managed support directly from Microsoft, contracts are available through various Premier Support offerings. For more information, see [Microsoft Enterprise Support Solutions](http://go.microsoft.com/fwlink/?LinkId=258223).
 
 If the product came installed with a new computer or device, the hardware manufacturer provides technical support and assistance for this software. Contact the manufacturer directly for support.
 
