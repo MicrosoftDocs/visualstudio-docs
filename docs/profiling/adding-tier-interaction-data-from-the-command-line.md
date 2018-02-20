@@ -27,7 +27,7 @@ To collect tier interaction data on Windows 8 desktop apps and Windows Server 20
 
 **Visual Studio editions**
 
-Tier interaction profiling can be collected using any edition of Visual studio. However, tier interaction profiling data can be viewed only in Visual Studio Enterprise.
+Tier interaction profiling can be collected using any edition of Visual Studio. However, tier interaction profiling data can be viewed only in Visual Studio Enterprise.
 
 **Collecting TIP data on a remote machine**
 
@@ -84,9 +84,9 @@ For more information, see [Profiling Stand-Alone Applications](../profiling/comm
 
 To profile services, including [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] applications, use the **VSPerfClrEnv /GlobalInteractionOn** option to set the environment variables, and the **VSPerfClrEnv /GlobalInteractionOff** option to remove them.
 
- When you are profiling services, including [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web applications, you will often need to restart the computer to enable profiling.
+When you are profiling services, including [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web applications, you will often need to restart the computer to enable profiling.
 
- In the following example, a Windows service is profiled by using the instrumenation method and tier interaction data is collected.
+In the following example, a Windows service is profiled by using the instrumentation method and tier interaction data is collected.
 
 ### Profiling a Windows service example
 

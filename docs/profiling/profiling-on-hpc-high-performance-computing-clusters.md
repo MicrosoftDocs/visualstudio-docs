@@ -53,13 +53,12 @@ To profile on a HPC compute node, you must do the following:
 |||
 |-|-|
 |*%HeadNode%*|Name of the head node for the cluster.|
-|*%FxPath%*|Path to the [!INCLUDE[net_v40_long](../code-quality/includes/net_v40_long_md.md)] installer. On the [!INCLUDE[vsPreShort](../code-quality/includes/vspreshort_md.md)] installation media the path is: WCU\dotNetFramework\dotNetFx40_Full_x86_x64.exe|
-|*%ProfilerPath%*|Path to the standalone version of the Profiling Tools installer. On the [!INCLUDE[vsPreShort](../code-quality/includes/vspreshort_md.md)] installation media the path is: Standalone Profiler\x64\vs_profiler.exe|
+|*%FxPath%*|Path to the [!INCLUDE[net_v40_long](../code-quality/includes/net_v40_long_md.md)] installer. On the Visual Studio installation media the path is: WCU\dotNetFramework\dotNetFx40_Full_x86_x64.exe|
+|*%ProfilerPath%*|Path to the standalone version of the Profiling Tools installer. On the Visual Studio installation media the path is: Standalone Profiler\x64\vs_profiler.exe|
 
 ## Profiling on an HPC Compute Node
- You configure a profiling session by using the HPC Performance Wizard to specify the HPC cluster and target information. You can set additional options in the performance session property pages. The Profiling Tools automatically deploy the necessary target binaries and start the profiler and the HPC application.
 
-### To profile on an HPC compute node
+You configure a profiling session by using the HPC Performance Wizard to specify the HPC cluster and target information. You can set additional options in the performance session property pages. The Profiling Tools automatically deploy the necessary target binaries and start the profiler and the HPC application.
 
 1. On the **Analyze** menu, click **Launch HPC Performance Wizard**. If the command is not available, make sure that you have the prerequisites listed above.
 
