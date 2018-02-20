@@ -1,7 +1,8 @@
 ---
-title: "Getting started with Node.js and React.js - Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "02/16/2018"
+title: "Create a Node.js and React app - Visual Studio | Microsoft Docs"
+description: tutorial - create a Node.js and React app in Visual Studio
+ms.custom: "mvc"
+ms.date: "02/19/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,8 +18,16 @@ dev_langs:
 ms.workload: 
   - "nodejs"
 ---
-# Getting started with Node.js and React.js in Visual Studio
-In this tutorial for Node.js development using Visual Studio, you'll create a Node.js web application project from a Visual Studio template, add packages using npm, create a simple app using React and JSX, transpile the code from JSX to JavaScript, and run the app. If you haven't already installed Visual Studio, install it for free [here](http://www.visualstudio.com).  
+# Tutorial: Create a Node.js and React app in Visual Studio
+In this tutorial for Node.js development using Visual Studio, you'll create a Node.js web application project from a Visual Studio template and then create a simple app using React. If you haven't already installed Visual Studio, install it for free [here](http://www.visualstudio.com).  
+
+In this tutorial, you learn how to:
+> [!div class="checklist"]
+> * Create a Node.js project
+> * Add npm packages
+> * Add React code to your app
+> * Transpile JSX
+> * Attach the debugger
 
 ## Create a project
 First, create an Node.js web application project.
@@ -41,7 +50,7 @@ First, create an Node.js web application project.
 
     ![Node.js project in Solution Explorer](../nodejs/media/tutorial-nodejs-react-project-structure.png)  
 
-    If you are not familiar with Visual Studio solutions and projects, see [Quickstart: Use Visual Studio to create your first Node.js app](../ide/quickstart-nodejs.md). If you are more interested in the Express 4 template, see [Getting started with Express 4](../nodejs/tutorial-nodejs.md)
+    If you are not familiar with Visual Studio solutions and projects, see [Quickstart: Use Visual Studio to create your first Node.js app](../ide/quickstart-nodejs.md). If you are more interested in the Express 4 template, see [Create an Express 4 web application](../nodejs/tutorial-nodejs.md)
 
 ## Add npm packages
 
@@ -243,6 +252,8 @@ Each time you make changes to *app.js*, you must re-run the webpack command.
 
 1. Close the web browser and the console.
 
+If you would like to create an app using the Express 4 Web Application template, see [Create an Express 4 web application](../nodejs/tutorial-nodejs.md)
+
 ## (Optional) Set and hit a breakpoint in the client-side React code
 
 In the preceding section, we attached the debugger to server-side Node.js code. To attach the debugger and hit breakpoints in client-side React code, the Visual Studio debugger needs help to identify the correct process. Here is one way to enable this.
@@ -296,6 +307,5 @@ We previously generated a sourcemap file by including `devtool: 'source-map'` in
 
 ## Next steps 
 
-- Create an app with the [Express 4 Web Application template](../nodejs/tutorial-nodejs.md)
-- Learn more about [Node.js Tools for Visual Studio](https://github.com/Microsoft/nodejstools/wiki)  
-- Learn more about the [Visual Studio IDE](../ide/visual-studio-ide.md)  
+> [!div class="nextstepaction"]
+> [Node.js Tools for Visual Studio](https://github.com/Microsoft/nodejstools/wiki)
