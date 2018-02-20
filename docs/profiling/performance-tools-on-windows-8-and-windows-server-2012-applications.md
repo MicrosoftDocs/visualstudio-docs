@@ -115,7 +115,7 @@ You can use [VSPerfCmd](../profiling/vsperfcmd.md) or [VSPerfASPNetCmd](../profi
 
 **TIP reports**
 
-Tier interaction data can only be viewed in the [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)] or [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)] IDE. File based tier interaction reports through [VSPerfReport](../profiling/vsperfreport.md) are not available.
+Tier interaction data can only be viewed in Visual Studio Enterprise. File based tier interaction reports through [VSPerfReport](../profiling/vsperfreport.md) are not available.
 
 ## See also
 

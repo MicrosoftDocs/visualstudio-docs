@@ -35,7 +35,7 @@ When you specify JavaScript profiling, both the JavaScript code that executes in
 
 ## To profile JavaScript in an ASP.NET Web application project
 
-1. In [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)], open the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web project.
+1. Open the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web project in Visual Studio.
 
 2. On the **Analyze** menu, click **Launch Performance Wizard**.
 
@@ -53,7 +53,7 @@ When you specify JavaScript profiling, both the JavaScript code that executes in
 
 ### To profile JavaScript in individual Web pages or a JavaScript applications
 
-1. Open [!INCLUDE[vsPreShort](../code-quality/includes/vspreshort_md.md)].
+1. Open Visual Studio.
 
 2. On the **Analyze** menu, click **Launch Performance Wizard**.
 

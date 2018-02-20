@@ -22,7 +22,7 @@ By using the instrumentation profiling method, you can limit the collection of p
 
 ## To limit instrumentation to specific DLLs in a Visual Studio solution
 
-1. Open the solution that contains the DLL in [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)].
+1. Open the solution that contains the DLL in Visual Studio].
 
 2. On the **Analyze** menu, select **Launch Performance Wizard**.
 
@@ -42,7 +42,7 @@ By using the instrumentation profiling method, you can limit the collection of p
 
 ## To specify specific DLLs to profile as independent binaries
 
-1. Open [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)].
+1. Open Visual Studio.
 
 2. On the **Analyze** menu, select **Launch Performance Wizard**.
 

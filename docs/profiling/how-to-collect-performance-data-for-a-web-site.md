@@ -43,7 +43,7 @@ You can use the **Performance Wizard** to collect performance data for an [!INCL
 
 ## To profile a Web site project
 
-1. Open the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web project in [!INCLUDE[vsPreShort](../code-quality/includes/vspreshort_md.md)] or [!INCLUDE[vsUltShort](../code-quality/includes/vsultshort_md.md)].
+1. Open the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web project in Visual Studio.
 
 2. On the **Analyze** menu, select **Performance Profiler**, select **Performance Explorer**, and then select **Start**.
 
@@ -67,7 +67,7 @@ You can use the **Performance Wizard** to collect performance data for an [!INCL
 
 ## To profile a Web site without opening a project in Visual Studio
 
-1. Open [!INCLUDE[vsPreShort](../code-quality/includes/vspreshort_md.md)] or [!INCLUDE[vsUltShort](../code-quality/includes/vsultshort_md.md)].
+1. Open Visual Studio.
 
 2. On the **Analyze** menu, select **Performance Profiler**, select **Performance Explorer**, and then select **Start**.
 
