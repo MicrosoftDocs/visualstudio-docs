@@ -1,5 +1,5 @@
 ## Create a Kubernetes development environment in Azure
-With Connected Environment, you can create Kubernetes-based environments that are fully managed by Azure and optimized for development. The command creates an environment named `mydevenvironment` in `eastus`. You'll need to enter a unique environment name.
+With Connected Environment, you can create Kubernetes-based environments that are fully managed by Azure and optimized for development. The command creates an environment named `mydevenvironment` in `eastus`.
 ```cmd
 vsce env create --name mydevenvironment --location eastus
 ```

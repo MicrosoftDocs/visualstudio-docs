@@ -20,8 +20,6 @@ ms.workload:
 
 In Visual Studio, you can select from a list of Code Analysis *rule sets* to apply to [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application. The default rule set is the Microsoft Minimum Recommended Rules. You can select another rule set to apply to the Web site.
 
-## To configure a rule set for an ASP.NET Page Framework project
-
 1. Select the Web site in **Solution Explorer**.
 
 2. On the **Analyze** menu, click **Configure Code Analysis for Web Site**.

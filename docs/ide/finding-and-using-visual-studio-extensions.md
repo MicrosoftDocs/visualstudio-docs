@@ -4,13 +4,13 @@ ms.custom: ""
 ms.date: "06/07/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords: 
+f1_keywords:
   - "vs.ExtensionManager"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "install extensions"
   - "install packages"
   - "managing extensions visual studio"
@@ -19,7 +19,7 @@ caps.latest.revision: 42
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Find and use Visual Studio Extensions
@@ -68,22 +68,22 @@ If you wish to disable automatic updates, you can disable the feature for all ex
 
 New in **Visual Studio 2017 version 15.3**, Visual Studio notifies you if it suspects that an extension was involved in a crash during a previous session. When Visual Studio crashes, it stores the exception stack. The next time Visual Studio launches, it examines the stack, starting with the leaf and working towards the base. If Visual Studio determines that a frame belongs to a module that is part of an installed and enabled extension, it shows a notification.
 
-New in **Visual Studio version 15.6 preview 3**, Visual Studio also notifies you if it suspects an extension is causing the UI to be unresponsive.
+New in **Visual Studio 2017 version 15.6 preview 3**, Visual Studio also notifies you if it suspects an extension is causing the UI to be unresponsive.
 
 When these notifications are shown, you can ignore the notification or take one of the following actions:
 
 - Choose **Disable this extension**. Visual Studio disables the extension and lets you know whether you need to restart your system for the disabling to take effect. You can re-enable the extension in the **Extensions and Updates** dialog box if you want.
 
-- Choose **Never show this message again**. 
-  - If the notification concerns a crash in a previous session, Visual Studio will no longer show a notification when a crash associated with this extension occurs. Visual Studio will still show notifications when unresponsiveness can be associated with this extension, or for crashes or unresponsiveness that can be associated with other extensions. 
-  - If the notification concerns unresponsiveness, the IDE will no longer show a notification when this extension is associated with unresponsiveness. Visual Studio will still show crash-related notifications for this extension, and crash- and unresponsiveness-related notifications for other extensions. 
+- Choose **Never show this message again**.
+  - If the notification concerns a crash in a previous session, Visual Studio will no longer show a notification when a crash associated with this extension occurs. Visual Studio will still show notifications when unresponsiveness can be associated with this extension, or for crashes or unresponsiveness that can be associated with other extensions.
+  - If the notification concerns unresponsiveness, the IDE will no longer show a notification when this extension is associated with unresponsiveness. Visual Studio will still show crash-related notifications for this extension, and crash- and unresponsiveness-related notifications for other extensions.
 
 - Choose **Learn more** to come to this page.
 
 - Choose the **X** button at the end of the notification to dismiss the notification. A new notification will appear for future instances of the extension being associated with a crash or UI unresponsiveness.
 
 > [!NOTE]
-> A UI unresponsiveness or crash notification means only that one of the extension’s modules was on the stack when the UI was unresponsive or when the crash occurred. It does not necessarily mean that the extension itself was the culprit. It is possible that the extension called code which is part of Visual Studio, which in turn resulted in unresponsive UI or a crash. However, the notification may still be useful if the extension which led to the UI unresponsiveness or crash is not important to you. In this case, disabling the extension avoids the UI unresponsiveness or the crash in the future, without impacting your productivity. 
+> A UI unresponsiveness or crash notification means only that one of the extension’s modules was on the stack when the UI was unresponsive or when the crash occurred. It does not necessarily mean that the extension itself was the culprit. It is possible that the extension called code which is part of Visual Studio, which in turn resulted in unresponsive UI or a crash. However, the notification may still be useful if the extension which led to the UI unresponsiveness or crash is not important to you. In this case, disabling the extension avoids the UI unresponsiveness or the crash in the future, without impacting your productivity.
 
 ## Sample Master Copies and Working Copies
 
