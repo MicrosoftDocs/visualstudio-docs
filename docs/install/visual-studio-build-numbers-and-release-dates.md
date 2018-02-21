@@ -5,7 +5,7 @@ keywords:
 author: TerryGLee
 ms.author: tglee
 manager: ghogen
-ms.date: 02/08/2018
+ms.date: 02/15/2018
 ms.topic: article
 helpviewer_keywords:
 ms.technology:
@@ -20,6 +20,7 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 15.6.0 Preview 5.0 | Preview | 2/14/2018 | 15.6.27413.0 |
 | 15.6.0 Preview 4.0 | Preview | 2/7/2018 | 15.6.27406.0 |
 | 15.0.9 | Release | 2/2/2018 | 15.0.26228.23 |
 | 15.5.6 | Release | 1/29/2018 | 15.5.27130.2027 |

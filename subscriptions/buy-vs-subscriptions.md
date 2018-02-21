@@ -22,16 +22,17 @@ There are two main types of Visual Studio subscriptions, cloud and standard, whi
 ## Buy Visual Studio Standard subscriptions
 You will need to contact your software reseller to purchase a standard Visual Studio subscription, or visit the [Microsoft Store](https://www.microsoft.com/store) online.
 
-*	To sign up for your Azure subscription and buy from the Visual Studio Marketplace, 
+
+
+### Buy Visual Studio cloud subscriptions
+
+To sign up for your Azure subscription and buy from the Visual Studio Marketplace, 
 you'll need a "personal" [Microsoft account](https://www.microsoft.com/account) 
 or a ["work or school account"](/azure/active-directory/sign-up-organization) 
 if you're buying for your organization, and they manage identities with Azure Active Directory (Azure AD).
 
 > [!WARNING]
 > If you use an Azure subscription to purchase Visual Studio Cloud Subscriptions, these charges will appear as overages and will not count against your Azure Monetary Commitment. Find out more about Azure billing in the [FAQ](/vsts/billing/faq-azure-billing).  
-
-### Buy subscriptions
-
 
 1.	Sign in to 
 [Visual Studio Marketplace > Subscriptions](https://marketplace.visualstudio.com/subscriptions).

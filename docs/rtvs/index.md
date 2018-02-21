@@ -48,9 +48,9 @@ Then follow the links below to learn more about R-related features as well as th
 
 Also see [Frequently asked questions](faq.md).
 
-The following video also provides a brief (5m 48s) review of the R Tools capabilities:
-
-> [!VIDEO https://www.youtube.com/embed/RcSDEfMgUvU]
+|   |   |
+|---|---|
+| ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | [Watch a video (youtube.com)](https://www.youtube.com/watch?v=dll3IS1bfWQ) for an overview of R Tools for Visual Studio (12m 36s). Also see [more R Tools videos](https://www.youtube.com/results?search_query=R+Tools+for+visual+studio). |
 
 ## Send us your feedback!
 
