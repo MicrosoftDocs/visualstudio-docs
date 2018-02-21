@@ -1,7 +1,7 @@
 ---
 title: "How to test a Visual C++ DLL for UWP apps | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2017"
+ms.date: "02/15/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: vs-devops-test
@@ -49,7 +49,7 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
   
 1.  Insert some test code:  
   
-    ```cpp  
+    ```cpp
     TEST_METHOD(TestMethod1)  
     {  
         Assert::AreEqual(1,1);  
