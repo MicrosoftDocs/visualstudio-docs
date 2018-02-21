@@ -1,7 +1,7 @@
 ---
 title: "Develop code in Visual Studio without projects or solutions | Microsoft Docs"
 ms.custom: ""
-ms.date: 02/14/2018
+ms.date: 02/21/2018
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: "vs-ide-general"
@@ -24,7 +24,7 @@ After you open your code files in Visual Studio, Solution Explorer displays all 
 
 If Visual Studio knows how to run your code, you don't need to configure anything. However, if your codebase uses custom build tools that Visual Studio doesn't recognize, then you will need to complete some additional steps. You must specify a valid executable file type, such as a compiler, along with any custom parameters and arguments required by the language. To enable this, Visual Studio provides *build tasks*. For more information, see [Customize your codebase](../ide/customize-codebases-using-json-files.md).
 
-For information about opening C++ code without solutions or projects in Visual Studio, see [Open Folder projects for C++](/cpp/ide/non-msbuild-projects). 
+For information about opening C++ code without solutions or projects in Visual Studio, see [Open Folder projects for C++](/cpp/ide/non-msbuild-projects).
 
 ## Open code anywhere
 
