@@ -35,7 +35,7 @@ During instrumentation, probes are inserted into the binary to measure applicati
 
 4. Specify the location for the instrumented binary.
 
-## See lso
+## See also
 
 [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)  
 [VSInstr](../profiling/vsinstr.md)
