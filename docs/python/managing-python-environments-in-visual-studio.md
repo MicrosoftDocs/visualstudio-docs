@@ -106,7 +106,9 @@ Use the following steps to identify an environment that's installed in a non-sta
 
 1. If Visual Studio detects an Python interpreter at that location (such as the path shown below for a conda environment), it enables the **Auto Detect** command. Selecting **Auto Detect* completes the remaining fields. You can also complete those fields manually.
 
-    ![Enabling the Auto Detect command](media/environments-custom-2.png)  ![Completion of environment fields after using Auto Detect](media/environments-custom-3.png)
+    ![Enabling the Auto Detect command](media/environments-custom-2.png)
+
+    ![Completion of environment fields after using Auto Detect](media/environments-custom-3.png)
 
 1. Once the fields contain the values you want, select **Apply** to save the configuration. You can now use the environment like any other within Visual Studio.
 

@@ -2,7 +2,7 @@
 title: Options and settings for Python in Visual Studio | Microsoft Docs
 description: A reference for the various settings in Visual Studio that relate to Python code and projects.
 ms.custom:
-ms.date: 01/04/2018
+ms.date: 02/21/2018
 ms.reviewer:
 ms.suite:
 ms.technology: 
@@ -42,8 +42,8 @@ There are also additional Python-specific options on the **Text Editor > Python 
 | Option | Default | Description |
 | --- | --- | --- |
 | Show the Output Window when creating virtual environments| On | Clear to prevent the output window from appearing. |
-| Show the Output Window when installing or removing packages | On |  Clear to prevent the output window from appearing. |
-| Always run pip as administrator | Off | Always elevates `pip install` operations for all environments. When installing packages, Visual Studio prompts for administrator privileges if the environment is located in a protected area of the file system such as `c:\Program Files`. In that prompt you can choose to always elevate `pip install` for just that one environment. See [pip tab](python-environments-window-tab-reference.md#pip-tab). |
+| Show the Output Window when installing or removing packages | On | Clear to prevent the output window from appearing. |
+| Always run pip as administrator | Off | Always elevates `pip install` operations for all environments. When installing packages, Visual Studio prompts for administrator privileges if the environment is located in a protected area of the file system such as `c:\Program Files`. In that prompt you can choose to always elevate `pip install` for just that one environment. See [packages tab](python-environments-window-tab-reference.md#packages-tab). |
 | Automatically generate completion DB on first use | On | For [IntelliSense completions](editing-python-code-in-visual-studio.md#intellisense) to work for a library, Visual Studio must generate a completion database for that library. Building the database is done in the background when a library is installed, but may not be complete when you start writing code. With this option selected, Visual Studio prioritizes completion of the database for a library when you write code that uses it. |
 | Ignore system-wide PYTHONPATH variables | On | PYTHONPATH is ignored by default because Visual Studio provides a more direct means to specify search paths in environments and projects. See [Search paths](search-paths.md) for details. |
 | Update search paths when adding linked files | On | When set, adding a [linked file](managing-python-projects-in-visual-studio.md#linked-files) to a project updates [Search paths](search-paths.md) so that IntelliSense can include the contents of the linked file's folder in its completion database. Clear this option to exclude such content from the completion database. |

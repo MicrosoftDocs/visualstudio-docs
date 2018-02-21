@@ -72,11 +72,13 @@ If available, contains details as described in the table below. If this tab isn'
 | **Architecture** | Normally detected and filled in automatically, otherwise specifies 32-bit or 64-bit. |
 | **Path environment variable** | The environment variable that the interpreter uses to find search paths. Visual Studio changes the value of the variable when starting Python so that it contains the project's search paths. Typically this property should be set to `PYTHONPATH`, but some interpreters use a different value. |
 
-## pip tab
+## Packages tab
+
+*Also labeled "pip" in earlier versions.*
 
 Manages the packages installed in the environment, allowing you to also search for and install new ones (including any dependencies). Searching filters your currently installed packages and [PyPI](https://pypi.python.org). You can also directly enter any `pip install` command in the search box, including flags such as `--user` or `--no-deps`.
 
-![Python environments pip tab](media/environments-pip-tab.png)
+![Python environments packages tab](media/environments-pip-tab.png)
 
 Installing a package creates subfolders within the environment's `Lib` folder on the file system. For example, if you have Python 3.6 installed in `c:\Python36`, packages are installed in `c:\Python36\Lib`; if you have Anaconda3 installed in `c:\Program Files\Anaconda3` then packages are installed in `c:\Program Files\Anaconda3\Lib`.
 
