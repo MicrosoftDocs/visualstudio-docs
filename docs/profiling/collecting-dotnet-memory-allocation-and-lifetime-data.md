@@ -45,7 +45,7 @@ For information about how to collect .NET memory data by using the Profiling Too
 
 1. In **Performance Explorer**, right-click the performance session, and then click **Properties**.
 
-2. On the *Performance Session***Property Pages** dialog box, click the **General** tab, and select the **Collect .NET object allocation information** check box.
+2. On the *Performance Session* **Property Pages** dialog box, click the **General** tab, and select the **Collect .NET object allocation information** check box.
 
 3. To collect .NET object lifetime data, select the **Also collect .NET object lifetime information** check box.
 
