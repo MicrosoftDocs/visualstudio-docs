@@ -37,13 +37,13 @@ Also note that you cannot manage environments for Python code that is opened onl
 
 Each Python installation (for example, Python 2.7, Python 3.6, Anaconda 4.4.0, etc., see [selecting and installing Python interpreters](installing-python-interpreters.md)) maintains its own global environment. Each environment is composed of the specific Python interpreter, its standard library, and a set of pre-installed packages. Installing a package into a global environment makes it available to all projects using that environment. If the environment is located in a protect area of the file system (within `c:\program files`, for example), then installing packages requires administrator privileges.
 
-Global environments are available to all projects on the computer. In Visual Studio, you select one global environment as the default, which is used for all projects unless you specifically choose a different one for a project. For more information, see [Selecting an environment for a project](selecting-an-environment-for-a-project.md).
+Global environments are available to all projects on the computer. In Visual Studio, you select one global environment as the default, which is used for all projects unless you specifically choose a different one for a project. For more information, see [Selecting an environment for a project](selecting-a-python-environment-for-a-project.md).
 
 ### Virtual environments
 
 Because packages installed into a global environment are available to all projects that use that environment, conflicts may occur when two projects require incompatible packages or different versions of the same package. Virtual environments avoid such conflicts by using the interpreter and standard library from a global environment but maintaining their own package stores in isolated folders.
 
-In Visual Studio, you can create a virtual environment for a specific project, which is stored in a subfolder in the project (see [Creating virtual environments](selecting-an-environment-for-a-project.md#creating-virtual-environments). The project file also identifies the virtual environment. Visual Studio also records any packages that you install into that virtual environment in the project's `requirements.txt` file. If you then share the project and other developers open it on their computers, Visual Studio provides the option to recreate the virtual environment.
+In Visual Studio, you can create a virtual environment for a specific project, which is stored in a subfolder in the project (see [Creating virtual environments](selecting-a-python-environment-for-a-project.md#creating-a-virtual-environment). The project file also identifies the virtual environment. Visual Studio also records any packages that you install into that virtual environment in the project's `requirements.txt` file. If you then share the project and other developers open it on their computers, Visual Studio provides the option to recreate the virtual environment.
 
 ### Conda environments
 
