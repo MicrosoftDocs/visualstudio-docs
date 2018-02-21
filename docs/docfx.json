@@ -34,7 +34,7 @@
     "globalMetadata": {
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/visualstudio-docs",
-      "feedback_product_url": "https://developercommunity.visualstudio.com/",
+      "feedback_product_url": "https://visualstudio.uservoice.com",
       "breadcrumb_path": "~/_breadcrumb/toc.yml",
       "ROBOTS": "INDEX,FOLLOW",
       "author": "",
@@ -50,6 +50,10 @@
       "searchScope": ["VS IDE"],
       "uhfHeaderId": "MSDocsHeader-VisualStudio"
     },
+    "fileMetadata": {    
+      "feedback_product_url": {
+        "ide/**/*.md": "https://visualstudio.uservoice.com/forums/121579-visual-studio-ide"
+      },  
     "template": [],
     "xref": ["missingapi.yml", "../dotnet-xref/_zip/dotnet.zip", "namespaces.4.5.2.zip", "vs.110.zip", "vs.140.zip", "office15.zip"],
     "dest": "vsdocsdocs"
