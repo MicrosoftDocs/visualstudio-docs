@@ -1,6 +1,5 @@
 ---
 title: "Develop code in Visual Studio without projects or solutions | Microsoft Docs"
-ms.custom: ""
 ms.date: 02/21/2018
 ms.reviewer: ""
 ms.suite: ""
@@ -22,22 +21,18 @@ In Visual Studio 2017, you can open code from nearly any type of directory-based
 
 After you open your code files in Visual Studio, Solution Explorer displays all the files in the folder. You can click on any file to begin editing it. In the background, Visual Studio starts indexing the files to enable IntelliSense, navigation, and refactoring features. As you edit, create, move, or delete files, Visual Studio tracks the changes automatically and continuously updates its IntelliSense index. Code will appear with syntax colorization and, in many cases, include basic IntelliSense statement completion.
 
-If Visual Studio knows how to run your code, you don't need to configure anything. However, if your codebase uses custom build tools that Visual Studio doesn't recognize, then you will need to complete some additional steps. You must specify a valid executable file type, such as a compiler, along with any custom parameters and arguments required by the language. To enable this, Visual Studio provides *build tasks*. For more information, see [Customize your codebase](../ide/customize-codebases-using-json-files.md).
+If Visual Studio knows how to run your code, you don't need to configure anything. However, if your codebase uses custom build tools that Visual Studio doesn't recognize, then you must complete some additional steps. You can tell Visual Studio how to build your code using *build tasks* that are defined in a JSON file. For more information, see [Customize build and debug tasks](../ide/customize-build-and-debug-tasks-in-visual-studio.md).
 
 For information about opening C++ code without solutions or projects in Visual Studio, see [Open Folder projects for C++](/cpp/ide/non-msbuild-projects).
 
-## Open code anywhere
+## Open any code
 
-You can open code into Visual Studio in the following ways:
+You can open code into Visual Studio in any of the following ways:
 
 - On the Visual Studio menu bar, choose **File** > **Open** > **Folder**, and then browse to the code location.
-
 - On the context (right-click) menu of a folder containing code, choose the **Open in Visual Studio** command.
-
 - Choose the **Open Folder** link on the Visual Studio Start Page.
-
 - If you are a keyboard user, press **Ctrl**+**Shift**+**Alt**+**O** in Visual Studio.
-
 - Open code from a cloned GitHub repo.
 
 ### To open code from a cloned GitHub repo
@@ -48,30 +43,25 @@ The following example shows how to clone a GitHub repo and then open its code in
 
 1. Choose the **Clone or Download** button and then choose the **Copy to Clipboard** button in the dropdown menu to copy the secure URL for the GitHub repo.
 
-  ![GitHub clone button](./media/VSIDE_Code_Clone.png)
-
-    > [!NOTE]
-    >  While you also have the option to open the project on your desktop or download a .zip file of the project, this example demonstrates how to clone the repo using the secure URL method.
+   ![GitHub clone button](./media/VSIDE_Code_Clone.png)
 
 1. In Visual Studio, choose the **Team Explorer** tab to open Team Explorer. If you don't see the tab, open it from **View** > **Team Explorer**.
 
 1. In Team Explorer, under the **Local Git Repositories** section, choose the **Clone** command and then paste the URL of the GitHub page into the text box.
 
-  ![Clone the project](./media/VSIDE_Code_Clone2.png)
+   ![Clone the project](./media/VSIDE_Code_Clone2.png)
 
 1. Choose the **Clone** button to clone the project's files to a local Git repository. Depending on the size of the repo, this process could take several minutes.
 
 1. After the repo has been cloned to your system, in Team Explorer, choose the **Open** command on the context (right-click) menu of the newly cloned repo.
 
-  ![Cloned repo](./media/VSIDE_Code_Clone3.png)
+   ![Cloned repo](./media/VSIDE_Code_Clone3.png)
 
 1. Choose the **Show Folder View** command to view the files in Solution Explorer
 
-  ![Show folder view](./media/VSIDE_Code_Clone3_show.png)
+   ![Show folder view](./media/VSIDE_Code_Clone3_show.png)
 
-  You can now browse folders and files in the cloned repo, and view and search the code in the Visual Studio code editor, complete with syntax colorization and other features.
-
-    ![Searching cloned project code](./media/VSIDE_Code_Clone4.png)
+   You can now browse folders and files in the cloned repo, and view and search the code in the Visual Studio code editor, complete with syntax colorization and other features.
 
 |         |         |
 |---------|---------|
@@ -79,21 +69,18 @@ The following example shows how to clone a GitHub repo and then open its code in
 
 ## Debug your code
 
-You can debug your code in Visual Studio without a project or solution. To debug some languages, you may need to specify a valid *startup file* in the code project, such as a script, executable, or project. Visual Studio runs this specified code first when you debug your code.
+You can debug your code in Visual Studio without a project or solution. To debug some languages, you may need to specify a valid *startup file* in the code project, such as a script, executable, or project. The drop-down list box next to the **Start** button on the toolbar lists all of the startup items that Visual Studio detects, as well as items you specifically designate. Visual Studio runs this code first when you debug your code.
 
-The drop-down list box next to the Start button on the toolbar lists all of the startup items that Visual Studio detects, as well as items you specifically choose in a folder.
-
-![Start debugging button](./media/start_button.png)
-
-Visual Studio automatically recognizes projects, but scripts (such as Python and JavaScript) need to be explicitly selected by you as a startup item before they will appear in the list. In addition, some startup items, such as MSBuild and CMake, can have multiple build configurations that appear in the Start button's drop-down list.
+Visual Studio automatically recognizes projects, but scripts (such as Python and JavaScript) need to be explicitly selected by you as a startup item before they will appear in the list. In addition, some startup items, such as MSBuild and CMake, can have multiple build configurations that appear in the **Start** button's drop-down list.
 
 Visual Studio currently supports debugging (without using projects and solutions) for the following types of code:
 
 - MSBuild-based codebases (C#, VB, C++)
-
 - Any executable that has associated program database (.pdb) files
 
-### To debug Node.js and Python
+For information about configuring debugging in codebases that Visual Studio doesn't know how to run, see [Customize build and debug tasks](../ide/customize-build-and-debug-tasks-in-visual-studio.md).
+
+### To debug Node.js and Python code
 
 1. Install the [Node.js development](https://www.visualstudio.com/vs/node-js/) or [Python development](https://www.visualstudio.com/vs/python/) workload by choosing **Tools** > **Get Tools and Features...**, or by closing Visual Studio and running the Visual Studio Installer.
 
@@ -105,13 +92,13 @@ Visual Studio currently supports debugging (without using projects and solutions
 
 ### To debug MSBuild-based codebases or executable files
 
-1. On the Visual Studio menu, choose **Debug**. On the drop-down menu, choose the file that you want to display as the startup item in Solution Explorer.
+1. On the Visual Studio menu, choose **Debug**. On the drop-down menu, choose the file that you want to use as the startup item.
 
 1. Choose the **F5** key to begin debugging.
 
 ## See also
 
-- [Customize codebases using JSON files](../ide/customize-codebases-using-json-files.md)
+- [Customize build and debug tasks](../ide/customize-build-and-debug-tasks-in-visual-studio.md)
 - [Open Folder projects for C++](/cpp/ide/non-msbuild-projects)
 - [CMake projects in C++](/cpp/ide/cmake-tools-for-visual-cpp)
 - [Writing code in the code and text editor](../ide/writing-code-in-the-code-and-text-editor.md)

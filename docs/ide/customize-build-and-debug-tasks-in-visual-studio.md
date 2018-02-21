@@ -1,7 +1,6 @@
 ---
 title: "Customize build and debug tasks in Visual Studio using tasks.vs.json and launch.vs.json | Microsoft Docs"
 ms.date: 02/21/2018
-ms.reviewer: ""
 ms.technology: vs-ide-general
 ms.topic: "article"
 helpviewer_keywords:
@@ -19,11 +18,9 @@ ms.workload:
 ---
 # Customize build and debug tasks for "Open Folder" development
 
-Visual Studio knows how to run many different languages and codebases, but it doesn't know how to run everything. If you opened a code folder in Visual Studio, and Visual Studio knows how to run your code, you can run it right away without any additional configuration. If you try to run your code but Visual Studio doesn't know how to run it, an information bar prompts you to designate a file in your codebase to act as the startup item.
+Visual Studio knows how to run many different languages and codebases, but it doesn't know how to run everything. If you [opened a code folder](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md) in Visual Studio, and Visual Studio knows how to run your code, you can run it right away without any additional configuration. If you try to run your code but Visual Studio doesn't know how to run it, an information bar prompts you to designate a file in your codebase to act as the startup item.
 
-If the codebase uses custom build tools that Visual Studio doesn't recognize, you need to provide some configuration details to run and debug the code in Visual Studio. You must specify a valid executable file type, such as a compiler, along with any custom parameters and arguments required by the language. To enable this, Visual Studio provides *build tasks*. You can create a build task to specify all the items a language needs to build and run its code. You can also create more targeted custom build tasks that do things such as compile and build your codebase using specific arguments.
-
-You can also create arbitrary tasks that can do nearly anything you want. For example, you can create a task to list the contents of a folder, or to rename a file.
+If the codebase uses custom build tools that Visual Studio doesn't recognize, you need to provide some configuration details to run and debug the code in Visual Studio. You can tell Visual Studio how to build your code by defining *build tasks*. You can create one or more build tasks to specify all the items a language needs to build and run its code. You can also create arbitrary tasks that can do nearly anything you want. For example, you can create a task to list the contents of a folder, or to rename a file.
 
 You can customize your project-less codebase by using three *.json* files:
 
@@ -33,7 +30,7 @@ You can customize your project-less codebase by using three *.json* files:
 |*launch.vs.json*|Specify command line arguments for debugging.<br>Accessed via the **Solution Explorer** context menu item **Debug and Launch Settings**.|
 |*VSWorkspaceSettings.json*|Generic settings that may impact tasks and launch. For example, defining `envVars` in *VSWorkspaceSettings.json* adds the specified environment variables to externally run commands.<br>You create this file manually.|
 
-The *.json* files are located in a hidden folder called *.vs* in the root folder of your codebase. The *tasks.vs.json* and *launch.vs.json* files are created by Visual Studio on an as-needed basis when you choose either **Configure Tasks** or **Debug and Launch Settings** from the Solution Explorer context menu. These *.json* files are hidden because most users generally don't want to check them into source control. However, if you want to be able to check them into source control, drag the files into the root of your codebase, where they will be visible.
+The *.json* files are located in a hidden folder called *.vs* in the root folder of your codebase. The *tasks.vs.json* and *launch.vs.json* files are created by Visual Studio on an as-needed basis when you choose either **Configure Tasks** or **Debug and Launch Settings** on a file or folder in **Solution Explorer**. These *.json* files are hidden because users generally don't want to check them into source control. However, if you want to be able to check them into source control, drag the files into the root of your codebase, where they are visible.
 
 > [!TIP]
 > To view hidden files in Visual Studio, choose the **Show All Files** button on the Solution Explorer toolbar.
@@ -44,9 +41,11 @@ You can automate build scripts or any other external operations on the files you
 
 ![Configure Tasks menu](../ide/media/customize-configure-tasks-menu.png)
 
-This creates (or opens) the `tasks.vs.json` file in the .vs folder. You can define a build task or arbitrary task in this file, and then invoke it using the name you gave it from the **Solution Explorer** context menu.
+This creates (or opens) the `tasks.vs.json` file in the *.vs* folder. You can define a build task or arbitrary task in this file, and then invoke it using the name you gave it from the **Solution Explorer** context menu.
 
-### Define custom build tasks in tasks.vs.json
+Custom tasks can be added to individual files, or to all files of a specific type. For instance, NuGet package files can be configured to have a "Restore Packages" task, or all source files can be configured to have a static analysis task, such as a linter for all *.js* files.
+
+### Define custom build tasks
 
 If your codebase uses custom build tools that Visual Studio doesn't recognize, then you will likely not be able to run and debug the code in Visual Studio until you complete some configuration steps. Visual Studio provides *build tasks* where you can tell Visual Studio how to build, rebuild, and clean your code. The *tasks.vs.json* build task file couples the Visual Studio inner development loop to the custom build tools used by your codebase.
 
@@ -118,25 +117,22 @@ For such a makefile that contains build, clean, and rebuild targets, you can def
     }
   ]
 }
-```json
+```
 
-After you define the build tasks in *tasks.vs.json*, you can choose the **Build**, **Rebuild**, or **Clean** options from the context menu of *makefile*. Output from the build task appears in the **Output** window, and build errors appear in the **Error List**.
+After you define build tasks in *tasks.vs.json*, additional context menu items are added to the corresponding files in **Solution Explorer**. For this example, **Build**, **Rebuild**, and **Clean** options are added to the context menu of any *makefile* files.
 
 ![makefile context menu with build, rebuild, and clean](media/customize-build-rebuild-clean.png)
 
 > [!NOTE]
 > The commands appear in the context menu under the **Configure Tasks** command due to their `contextType` settings. "build", "rebuild", and "clean" are build commands, so they appear in the build section in the middle of the context menu.
 
-Custom build tasks can be added to individual files or to all files of a specific type. For instance, NuGet package files can be configured to have a "Restore Packages" task, or all source files can be configured to have a static analysis task, such as a linter for all .js files.
+When you select one of these options, the task executes. Output appears in the **Output** window, and build errors appear in the **Error List**.
 
-### Define arbitrary tasks in tasks.vs.json
+### Define arbitrary tasks
 
 You can define arbitrary tasks in the *tasks.vs.json* file, to do just about anything you want. For example, you can define a task to display the name of the currently selected file in the **Output** window, or to list the files in a specified directory.
 
-> [!NOTE]
-> If your codebase doesn't contain a *tasks.vs.json* file, you can create one by choosing **Configure Tasks** from the right-click or context menu of a file in **Solution Explorer**.
-
-The following example shows a tasks.vs.json file that defines a single task. When invoked, the task displays the filename of the currently selected *.js* file.
+The following example shows a *tasks.vs.json* file that defines a single task. When invoked, the task displays the filename of the currently selected *.js* file.
 
 ```json
 {
@@ -153,15 +149,18 @@ The following example shows a tasks.vs.json file that defines a single task. Whe
 }
 ```
 
+> [!NOTE]
+> If your codebase doesn't contain a *tasks.vs.json* file, you can create one by choosing **Configure Tasks** from the right-click or context menu of a file in **Solution Explorer**.
+
 - `taskName` specifies the name that appears in the context menu.
 - `appliesTo` specifies which files the command can be performed on.
 - The `command` property refers to the COMSPEC environment variable, which identifies the path for the console (*cmd.exe* on Windows).
 - The `args` property specifies the command line to be invoked.
 - The `${file}` macro retrieves the selected file in **Solution Explorer**.
 
-After saving *tasks.vs.json*, you can right-click on any *.js* file in the folder and choose **Echo filename**, and the file name is displayed in the **Output** window.
+After saving *tasks.vs.json*, you can right-click on any *.js* file in the folder and choose **Echo filename**. The file name is displayed in the **Output** window.
 
-The next example defines a task that lists the files and subfolders of the *bin* directory in the **Output** window.
+The next example defines a task that lists the files and subfolders of the *bin* directory.
 
    ```json
    {
@@ -182,9 +181,20 @@ The next example defines a task that lists the files and subfolders of the *bin*
 > [!NOTE]
 > `${outDir}` is a custom macro that is first defined before the `tasks` block. It is then called in the `args` property.
 
-When you open the context menu for the selected file or folder, the new arbitrary task's name appears at the bottom of the context menu.
+This task applies to all files. When you open the context menu on any file in **Solution Explorer**, the task's name **List Outputs** appears at the bottom of the menu. When you choose **List Outputs**, the contents of the *bin* directory are listed in the **Output** window in Visual Studio.
 
-   ![Arbitrary task in context menu](../ide/media/customize-arbitrary-task-menu.png)
+![Arbitrary task in context menu](../ide/media/customize-arbitrary-task-menu.png)
+
+### Settings scope
+
+Multiple *tasks.vs.json* files can exist at the root and subdirectories of a codebase. This enables the flexibility to have different behavior in different subdirectories of the codebase. Visual Studio aggregates or overrides settings throughout the codebase, prioritizing files in the following order:
+
+- Settings files in the root folder’s *.vs* directory.
+- The directory where a setting is being computed.
+- The current directory’s parent directory, all the way up to the root directory.
+- Settings files in the root directory.
+
+These aggregation rulese apply to *tasks.vs.json* and *VSWorkspaceSettings.json* files. For information on how settings in other file are aggregated, see the corresponding section for that file in this article.
 
 ### Properties for tasks.vs.json
 
@@ -270,23 +280,19 @@ You can also specify command line arguments to pass to the executable for debugg
 When you save this file, the new configuration appears in the debug target drop-down list, and you can select it to start the debugger. You can create as many debug configurations as you like, for any number of executables.
 
 > [!NOTE]
-> The `configurations` array property in *launch.vs.json* is unioned for two file locations&mdash;the root directory for the codebase, and the *.vs* directory. In case of a conflict, priority is given to the value in *.vs\launch.vs.json*.
+> The `configurations` array property in *launch.vs.json* is read from two file locations&mdash;the root directory for the codebase, and the *.vs* directory. In case of a conflict, priority is given to the value in *.vs\launch.vs.json*.
 
 ## Define workspace settings in VSWorkspaceSettings.json
 
 You can specify generic settings that may impact tasks and launch in the *VSWorkspaceSettings.json* file. For example, if you define `envVars` in *VSWorkspaceSettings.json*, Visual Studio adds the specified environment variables to commands that are run externally. To use this file, you must create it manually.
 
-## Scope of settings
-
-Visual Studio uses a concept of *scopes* that enable settings to be aggregated or overridden throughout the codebase. Multiple  *tasks.vs.json* files can exist at the root and subdirectories of a folder, but their content is only applied in their directory and its subdirectories. If there are overlapping “cones” of settings, then priority is given to the file that is deepest in the directory structure.
-
 ## Additional settings files
 
-In addition to the 3 .json files described in this topic, Visual Studio also reads settings from some additional files, if they exist in your codebase.
+In addition to the 3 *.json* files described in this topic, Visual Studio also reads settings from some additional files, if they exist in your codebase.
 
 ### .vscode\settings.json
 
-Visual Studio reads limited settings from a file named *settings.json*, if it is in a directory named *.vscode*. This functionality is provided for Visual Studio Code users, or for codebases that have been developed in Visual Studio Code at some point in time. Currently, the only setting that is read from *.vscode\settings.json* is `files.exclude`, which filters files visually in Solution Explorer, and from some search tools.
+Visual Studio reads limited settings from a file named *settings.json*, if it is in a directory named *.vscode*. This functionality is provided for codebases that have previously been developed in Visual Studio Code. Currently, the only setting that is read from *.vscode\settings.json* is `files.exclude`, which filters files visually in Solution Explorer, and from some search tools.
 
 You can have any number of *.vscode\settings.json* files in your codebase. Settings read from this file are applied to the parent directory of *.vscode* and all of its subdirectories.
 
