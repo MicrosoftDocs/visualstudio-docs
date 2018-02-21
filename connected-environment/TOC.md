@@ -1,4 +1,4 @@
-# [Visual Studio Connected Environment](visual-studio-connected-environment.md)
+# [VS Connected Environment](visual-studio-connected-environment.md)
 
 # [Get Started](get-started.md)
 ##[.NET Core (VS Code & CLI)](get-started-netcore-01.md)
@@ -27,6 +27,9 @@
 ###[5. Call another container](get-started-nodejs-05.md)
 ###[6. Work in a shared dev environment](get-started-nodejs-06.md)
 ###[7. Summary](get-started-nodejs-07.md)
+
+# How to
+##[Share a development environment](how-to/share-dev-environment.md)
 
 # [Troubleshoot](troubleshooting.md)
 
