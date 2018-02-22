@@ -25,7 +25,7 @@ ms.workload:
 ---
 # Debug at Design Time in Visual Studio
 
-In some scenarios, you may want to debug code at design time instead of while the application is running. You can do this using the **Immediate** window. If you want to debug XAML code that interacts with other code, such as data binding code, you can use attach to process to do that.
+In some scenarios, you may want to debug code at design time instead of while the application is running. You can do this using the **Immediate** window. If you want to debug XAML code that interacts with other code, such as data binding code, you can use **Debug** > **Attach to Process** to do that.
   
 ### Debug at design time using the Immediate window  
 
@@ -98,7 +98,7 @@ It can be helpful to debug code behind from the XAML designer in some declarativ
     ```xaml
     <TextBlock Text="{Binding title, ConverterParameter=lower, Converter={StaticResource StringFormatConverter}, Mode=TwoWay}"  />
     ```
-   When the page loads, the breakpoint will be hit. If the breakpoint is not hit, make sure that the code where you set the breakpoint is code that will execute.
+   When the page loads, the breakpoint is hit.
   
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   
