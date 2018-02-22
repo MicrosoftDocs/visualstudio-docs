@@ -31,7 +31,7 @@ Normally the Release build configuration creates optimized code and the Debug bu
 
 In the .NET ecosystem, code is turned from source to CPU instructions in a two-step process: first, the C# compiler converts the text you type to an intermediate binary form called MSIL and writes this out to .dll files. Later, the .NET Runtime converts this MSIL to CPU instructions. Both steps can optimize to some degree, but the second step performed by the .NET Runtime performs the more significant optimizations.
 
-**The 'Suppress JIT optimization on module load' option:** The debugger exposes an option that controls what happens when a DLL that is compiled with optimizations enabled loads inside of the target process. If this option is unchecked (the default state), then when the .NET Runtime compiles the MSIL code into CPU code, it leaves the optimizations enabled. If the option is checked, then the debugger requests that optimizations be disabled.
+**The 'Suppress JIT optimization on module load (Managed only' option:** The debugger exposes an option that controls what happens when a DLL that is compiled with optimizations enabled loads inside of the target process. If this option is unchecked (the default state), then when the .NET Runtime compiles the MSIL code into CPU code, it leaves the optimizations enabled. If the option is checked, then the debugger requests that optimizations be disabled.
 
 The **Suppress JIT optimization on module load (Managed only)** option can be found on the **General** page under the **Debugging** node in the **Options** dialog box.
 
