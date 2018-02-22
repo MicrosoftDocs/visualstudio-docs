@@ -216,7 +216,7 @@ To make the C++ DLL into an extension for Python, you first modify the exported 
 1. Set the target configuration to "Release" and build the C++ project again to verify your code. If you encounter errors, check the following cases:
     - Unable to locate Python.h: verify that the path in **C/C++ > General > Additional Include Directories** in the project properties points to your Python installation's `include` folder.
     - Unable to locate Python libraries: verify that the path in **Linker > General > Additional Library Directories** in the project properties points to your Python installation's `libs` folder.
-    - Linker errors related to target architecture: change the C++ target's project architecture to match that of your Python installation.
+    - Linker errors related to target architecture: change the C++ target's project architecture to match that of your Python installation. For example, if you're targeting x64 with the C++ project but your Python installation is x86, change the C++ project to target x86.
 
 ## Test the code and compare the results
 

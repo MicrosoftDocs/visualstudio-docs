@@ -50,7 +50,7 @@ Each Python project has one assigned start-up file, shown in boldface in Solutio
 > [!Tip]
 > If you remove the selected startup file from a project and don't select a new one, running your project results in a Python output window appearing but then disappearing almost immediately. If you encounter this behavior, check that you have an assigned startup file. Also, to keep the output window open in such cases, right-click your project, select **Properties**, select the **Debug** tab, then add `-i` to the **Interpreter Arguments** field. This argument causes the interpreter to go into interactive mode after a program completes, thereby keeping the window open until you enter Ctrl+Z, Enter to exit.
 
-A new project is always associated with the default global Python environment. To associate the project with a different environment (including virtual environments), right-click with **Python Environments** node in the project, select **Add/Remove Python Environments**, and select the ones you want. To change the active environment, right-click the desired environment and select **Activate Environment** as shown below. For more information, see [Python environments](managing-python-environments-in-visual-studio.md#selecting-an-environment-for-a-project).
+A new project is always associated with the default global Python environment. To associate the project with a different environment (including virtual environments), right-click the **Python Environments** node in the project, select **Add/Remove Python Environments**, and select the ones you want. To change the active environment, right-click the desired environment and select **Activate Environment** as shown below. For more information, see [Selecting an environment for a project](selecting-a-python-environment-for-a-project.md).
 
 ![Activating an environment for a Python project](media/projects-activate-environment.png)
 
@@ -67,7 +67,7 @@ The following table summarizes the templates available in Visual Studio 2017 (no
 | Template | Description |
 | --- | --- |
 | [From existing Python code](#creating-a-project-from-existing-files) | Creates a Visual Studio project from existing Python code in a folder structure.  |
-| Python Application | A basic project structure for a new Python application with a single, empty source file. By default, the project runs in the console interpreter of the default global environment, which you can change by [assigning a different environment](managing-python-environments-in-visual-studio.md#selecting-an-environment-for-a-project). |
+| Python Application | A basic project structure for a new Python application with a single, empty source file. By default, the project runs in the console interpreter of the default global environment, which you can change by [assigning a different environment](selecting-a-python-environment-for-a-project.md). |
 | [Azure cloud service](python-azure-cloud-service-project-template.md) | A project for an Azure cloud service written in Python. |
 | [Web projects](python-web-application-project-templates.md) | Projects for web servers based on various frameworks including Bottle, Django, Flask, and Flask/Jade. |
 | IronPython Application | Similar to the Python Application template, but uses IronPython by default enabling .NET interop and mixed-mode debugging with .NET languages. |
@@ -132,7 +132,7 @@ A reference to a `.pyd` file enables IntelliSense for the generated module. Visu
 
 If at any time the extension module is updated on disk, Visual Studio reanalyzes the module in the background. This action has no effect on runtime behavior but some completions aren't available until analysis is complete.
 
-You may also need to add a [search path](managing-python-environments-in-visual-studio.md#search-paths) to the folder containing the module.
+You may also need to add a [search path](search-paths.md) to the folder containing the module.
 
 ### .NET projects
 
