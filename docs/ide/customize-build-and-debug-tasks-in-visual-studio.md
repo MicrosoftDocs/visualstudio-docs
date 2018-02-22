@@ -4,7 +4,7 @@ ms.date: 02/21/2018
 ms.technology: vs-ide-general
 ms.topic: "article"
 helpviewer_keywords:
-  - nmake [Visual Studio]
+  - NMAKE [Visual Studio]
   - makefiles [Visual Studio]
   - customize codebases [Visual Studio]
   - tasks.vs.json file [Visual Studio]
@@ -18,9 +18,13 @@ ms.workload:
 ---
 # Customize build and debug tasks for "Open Folder" development
 
-Visual Studio knows how to run many different languages and codebases, but it doesn't know how to run everything. If you [opened a code folder](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md) in Visual Studio, and Visual Studio knows how to run your code, you can run it right away without any additional configuration. If you try to run your code but Visual Studio doesn't know how to run it, an information bar prompts you to designate a file in your codebase to act as the startup item.
+Visual Studio knows how to run many different languages and codebases, but it doesn't know how to run everything. If you [opened a code folder](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md) in Visual Studio, and Visual Studio knows how to run your code, you can run it right away without any additional configuration.
 
-If the codebase uses custom build tools that Visual Studio doesn't recognize, you need to provide some configuration details to run and debug the code in Visual Studio. You instruct Visual Studio how to build your code by defining *build tasks*. You can create one or more build tasks to specify all the items a language needs to build and run its code. You can also create arbitrary tasks that can do nearly anything you want. For example, you can create a task to list the contents of a folder, or to rename a file.
+If you try to run your code but Visual Studio doesn't know how to run it, a dialog box prompts you to designate a file as the startup item.
+
+![Select a startup item dialog box](media/customize-select-a-startup-item.png)
+
+If the codebase uses custom build tools that Visual Studio doesn't recognize, you need to provide some configuration details to run and debug the code in Visual Studio. You instruct Visual Studio how to build your code by defining *build tasks*. You can create one or more build tasks to specify all the items a language needs to build and run its code. You can also create arbitrary tasks that can do nearly anything you want. For example, you can create a task to list the contents of a folder or to rename a file.
 
 Customize your project-less codebase by using the following *.json* files:
 
@@ -60,9 +64,7 @@ hello.exe: hello.cs
 clean:
 	del bin\hello.exe bin\hello.pdb
 
-rebuild:
-	del bin\hello.exe bin\hello.pdb
-	csc -debug hello.cs /out:bin\hello.exe
+rebuild: clean build
 
 directory: bin
 
@@ -70,18 +72,13 @@ bin:
 	md bin
 ```
 
-For such a makefile that contains build, clean, and rebuild targets, you can define the following *tasks.vs.json* file. It contains three build tasks for building, rebuilding, and cleaning the codebase, using nMake as the build tool.
+For such a makefile that contains build, clean, and rebuild targets, you can define the following *tasks.vs.json* file. It contains three build tasks for building, rebuilding, and cleaning the codebase, using NMAKE as the build tool.
 
 ```json
 {
   "version": "0.2.1",
   "outDir": "\"${workspaceRoot}\\bin\"",
   "tasks": [
-    {
-      "taskName": "task-makefile",
-      "appliesTo": "makefile",
-      "type": "launch"
-    },
     {
       "taskName": "makefile-build",
       "appliesTo": "makefile",
@@ -315,4 +312,5 @@ Settings read from this file are applied to the parent directory of the *.gitign
 - [Develop code without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md)
 - [Open Folder projects for C++](/cpp/ide/non-msbuild-projects)
 - [CMake projects in C++](/cpp/ide/cmake-tools-for-visual-cpp)
+- [NMAKE reference](/cpp/build/nmake-reference)
 - [Writing code in the code and text editor](../ide/writing-code-in-the-code-and-text-editor.md)
