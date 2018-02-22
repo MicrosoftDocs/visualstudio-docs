@@ -41,7 +41,7 @@ You can automate build scripts or any other external operations on the files you
 
 ![Configure Tasks menu](../ide/media/customize-configure-tasks-menu.png)
 
-This creates (or opens) the `tasks.vs.json` file in the *.vs* folder. You can define a build task or arbitrary task in this file, and then invoke it using the name you gave it from the **Solution Explorer** context menu.
+This creates (or opens) the *tasks.vs.json* file in the *.vs* folder. You can define a build task or arbitrary task in this file, and then invoke it using the name you gave it from the **Solution Explorer** context menu.
 
 Custom tasks can be added to individual files, or to all files of a specific type. For instance, NuGet package files can be configured to have a "Restore Packages" task, or all source files can be configured to have a static analysis task, such as a linter for all *.js* files.
 
@@ -49,7 +49,7 @@ Custom tasks can be added to individual files, or to all files of a specific typ
 
 If your codebase uses custom build tools that Visual Studio doesn't recognize, then you cannot run and debug the code in Visual Studio until you complete some configuration steps. Visual Studio provides *build tasks* where you can tell Visual Studio how to build, rebuild, and clean your code. The *tasks.vs.json* build task file couples the Visual Studio inner development loop to the custom build tools used by your codebase.
 
-Consider a codebase that consists of a single C# file called *hello.exe*. The makefile for such a codebase might look like this:
+Consider a codebase that consists of a single C# file called *hello.cs*. The makefile for such a codebase might look like this:
 
 ```makefile
 build: directory hello.exe
@@ -70,7 +70,7 @@ bin:
 	md bin
 ```
 
-For such a makefile that contains build, clean, and rebuild targets, you can define the following *tasks.vs.json* file. It contains three build tasks for building, rebuilding, and cleaning a codebase, using nMake as the build tool.
+For such a makefile that contains build, clean, and rebuild targets, you can define the following *tasks.vs.json* file. It contains three build tasks for building, rebuilding, and cleaning the codebase, using nMake as the build tool.
 
 ```json
 {
@@ -149,9 +149,6 @@ The following example shows a *tasks.vs.json* file that defines a single task. W
 }
 ```
 
-> [!NOTE]
-> If your codebase doesn't contain a *tasks.vs.json* file, you can create one by choosing **Configure Tasks** from the right-click or context menu of a file in **Solution Explorer**.
-
 - `taskName` specifies the name that appears in the context menu.
 - `appliesTo` specifies which files the command can be performed on.
 - The `command` property refers to the COMSPEC environment variable, which identifies the path for the console (*cmd.exe* on Windows).
@@ -159,6 +156,9 @@ The following example shows a *tasks.vs.json* file that defines a single task. W
 - The `${file}` macro retrieves the selected file in **Solution Explorer**.
 
 After saving *tasks.vs.json*, you can right-click on any *.js* file in the folder and choose **Echo filename**. The file name is displayed in the **Output** window.
+
+> [!NOTE]
+> If your codebase doesn't contain a *tasks.vs.json* file, you can create one by choosing **Configure Tasks** from the right-click or context menu of a file in **Solution Explorer**.
 
 The next example defines a task that lists the files and subfolders of the *bin* directory.
 
@@ -178,8 +178,7 @@ The next example defines a task that lists the files and subfolders of the *bin*
    }
    ```
 
-> [!NOTE]
-> `${outDir}` is a custom macro that is first defined before the `tasks` block. It is then called in the `args` property.
+- `${outDir}` is a custom macro that is first defined before the `tasks` block. It is then called in the `args` property.
 
 This task applies to all files. When you open the context menu on any file in **Solution Explorer**, the task's name **List Outputs** appears at the bottom of the menu. When you choose **List Outputs**, the contents of the *bin* directory are listed in the **Output** window in Visual Studio.
 
@@ -260,7 +259,9 @@ You can create tasks for any file or folder by specifying its name in the `appli
 
    When you choose **F5**, the debugger launches and stops at any breakpoint you may have already set. All the familiar debugger windows are available and functional.
 
-You can also specify command-line arguments to pass to the executable for debugging in the *launch.vs.json* file. To specify command-line arguments, add them in the `args` array, as shown in the following example:
+### Specify arguments for debugging
+
+You can specify command-line arguments to pass in for debugging in the *launch.vs.json* file. Add the arguments in the `args` array, as shown in the following example:
 
 ```json
 {
@@ -269,15 +270,22 @@ You can also specify command-line arguments to pass to the executable for debugg
   "configurations": [
     {
       "type": "default",
-      "project": "7zip\\Bundles\\Alone\\O\\7za.exe",
-      "name": "7za.exe list content of helloworld.zip",
-      "args": [ "l", "d:\\sources\\helloworld.zip" ]
+      "project": "bin\\hello.exe",
+      "name": "hello.exe"
+    },
+    {
+      "type": "default",
+      "project": "bin\\hello.exe",
+      "name": "hello.exe a1",
+      "args": [ "a1" ]
     }
   ]
 }
 ```
 
-When you save this file, the new configuration appears in the debug target drop-down list, and you can select it to start the debugger. You can create as many debug configurations as you like, for any number of executables.
+When you save this file, the name of the new configuration appears in the debug target drop-down list, and you can select it to start the debugger. You can create as many debug configurations as you like.
+
+![Debug configurations drop-down list](media/customize-debug-configurations.png)
 
 > [!NOTE]
 > The `configurations` array property in *launch.vs.json* is read from two file locations&mdash;the root directory for the codebase, and the *.vs* directory. If there is a conflict, priority is given to the value in *.vs\launch.vs.json*.
