@@ -131,7 +131,7 @@ The LSP does not include specification on how to provide text colorization for l
 
 1. Create a folder called "Grammars" inside your extension (or it can be whatever name you choose).
 
-2. Inside the "Grammars" folder, include any *.tmlanguage or *.tmtheme files you’d like which provides custom colorization.
+2. Inside the "Grammars" folder, include any *.tmlanguage, *.plist, *.tmtheme, or *.json files you’d like which provides custom colorization.
 
 3. Right-click on the files and select **Properties**. Change the Build action to **Content** and the **Include in VSIX** property to true.
 
