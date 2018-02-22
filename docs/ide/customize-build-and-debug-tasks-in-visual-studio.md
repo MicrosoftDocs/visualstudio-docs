@@ -155,21 +155,21 @@ After saving *tasks.vs.json*, you can right-click on any *.js* file in the folde
 
 The next example defines a task that lists the files and subfolders of the *bin* directory.
 
-   ```json
-   {
-     "version": "0.2.1",
-     "outDir": "\"${workspaceRoot}\\bin\"",
-     "tasks": [
-       {
-         "taskName": "List Outputs",
-         "appliesTo": "*",
-         "type": "default",
-         "command": "${env.COMSPEC}",
-         "args": [ "dir ${outDir}" ]
-       }
-     ]
-   }
-   ```
+```json
+{
+  "version": "0.2.1",
+  "outDir": "\"${workspaceRoot}\\bin\"",
+  "tasks": [
+    {
+      "taskName": "List Outputs",
+      "appliesTo": "*",
+      "type": "default",
+      "command": "${env.COMSPEC}",
+      "args": [ "dir ${outDir}" ]
+    }
+  ]
+}
+```
 
 - `${outDir}` is a custom macro that is first defined before the `tasks` block. It is then called in the `args` property.
 

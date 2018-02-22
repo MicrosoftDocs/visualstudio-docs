@@ -113,7 +113,7 @@ For information about configuring debugging in codebases that Visual Studio does
 1. Choose the **F5** key to begin debugging.
 
 > [!NOTE]
-> For C++ and CMake codebases, you need to have the **Desktop development with C++** workload installed. For C# codebases, you need to have the **.NET desktop development** workload installed.
+> For C++ and CMake codebases, you must have the **Desktop development with C++** workload installed. For C# and Visual Basic codebases, you must have the **.NET desktop development** workload installed.
 
 ## See also
 
