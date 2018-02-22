@@ -21,9 +21,25 @@ In Visual Studio 2017, you can open code from nearly any type of directory-based
 
 After you open your code files in Visual Studio, Solution Explorer displays all the files in the folder. You can click on any file to begin editing it. In the background, Visual Studio starts indexing the files to enable IntelliSense, navigation, and refactoring features. As you edit, create, move, or delete files, Visual Studio tracks the changes automatically and continuously updates its IntelliSense index. Code will appear with syntax colorization and, in many cases, include basic IntelliSense statement completion.
 
-If Visual Studio knows how to run your code, you don't need to configure anything. However, if your codebase uses custom build tools that Visual Studio doesn't recognize, then you must complete some additional steps. You can tell Visual Studio how to build your code using *build tasks* that are defined in a JSON file. For more information, see [Customize build and debug tasks](../ide/customize-build-and-debug-tasks-in-visual-studio.md).
+If Visual Studio knows how to run your code, you don't need to configure anything to run and debug it.
 
-For information about opening C++ code without solutions or projects in Visual Studio, see [Open Folder projects for C++](/cpp/ide/non-msbuild-projects).
+If you try to run your code but Visual Studio doesn't know how to run it, a dialog box prompts you to designate a file as the startup item.
+
+![Select a startup item dialog box](media/customize-select-a-startup-item.png)
+
+- If your code folder contains a Visual Studio project, you can designate the project as the startup item.
+
+   ![Set project as startup item](media/customize-set-project-as-startup-item.png)
+
+   The **Start** button's text changes to reflect that the project is the startup item.
+
+   ![Project on Start button](media/customize-start-button-project.png)
+
+- If your codebase uses custom build tools, then you must tell Visual Studio how to build your code using *build tasks* that are defined in a *.json* file. For more information, see [Customize build and debug tasks](../ide/customize-build-and-debug-tasks-in-visual-studio.md).
+
+- If your codebase contains Python or JavaScript code, you don't have to configure any *.json* files, but you do have to install the corresponding workload. You must also [configure the startup script](#to-debug-nodejs-and-python-code).
+
+- For information about opening C++ code without solutions or projects in Visual Studio, see [Open Folder projects for C++](/cpp/ide/non-msbuild-projects).
 
 ## Open any code
 
@@ -95,6 +111,9 @@ For information about configuring debugging in codebases that Visual Studio does
 1. On the Visual Studio menu, choose **Debug**. On the drop-down menu, choose the file that you want to use as the startup item.
 
 1. Choose the **F5** key to begin debugging.
+
+> [!NOTE]
+> For C++ and CMake codebases, you need to have the **Desktop development with C++** workload installed. For C# codebases, you need to have the **.NET desktop development** workload installed.
 
 ## See also
 

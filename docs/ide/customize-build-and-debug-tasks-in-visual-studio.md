@@ -20,10 +20,6 @@ ms.workload:
 
 Visual Studio knows how to run many different languages and codebases, but it doesn't know how to run everything. If you [opened a code folder](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md) in Visual Studio, and Visual Studio knows how to run your code, you can run it right away without any additional configuration.
 
-If you try to run your code but Visual Studio doesn't know how to run it, a dialog box prompts you to designate a file as the startup item.
-
-![Select a startup item dialog box](media/customize-select-a-startup-item.png)
-
 If the codebase uses custom build tools that Visual Studio doesn't recognize, you need to provide some configuration details to run and debug the code in Visual Studio. You instruct Visual Studio how to build your code by defining *build tasks*. You can create one or more build tasks to specify all the items a language needs to build and run its code. You can also create arbitrary tasks that can do nearly anything you want. For example, you can create a task to list the contents of a folder or to rename a file.
 
 Customize your project-less codebase by using the following *.json* files:
@@ -148,8 +144,8 @@ The following example shows a *tasks.vs.json* file that defines a single task. W
 
 - `taskName` specifies the name that appears in the context menu.
 - `appliesTo` specifies which files the command can be performed on.
-- The `command` property refers to the COMSPEC environment variable, which identifies the path for the console (*cmd.exe* on Windows).
-- The `args` property specifies the command to be invoked at the command-line.
+- The `command` property specifies the command to invoke. In this example, the `COMSPEC` environment variable is used to identify the command line interpreter, typically *cmd.exe*.
+- The `args` property specifies the arguments to be passed to the invoked command.
 - The `${file}` macro retrieves the selected file in **Solution Explorer**.
 
 After saving *tasks.vs.json*, you can right-click on any *.js* file in the folder and choose **Echo filename**. The file name is displayed in the **Output** window.
@@ -297,13 +293,13 @@ In addition to the three *.json* files described in this topic, Visual Studio al
 
 ### .vscode\settings.json
 
-Visual Studio reads limited settings from a file named *settings.json*, if it is in a directory named *.vscode*. This functionality is provided for codebases that have previously been developed in Visual Studio Code. Currently, the only setting that is read from *.vscode\settings.json* is `files.exclude`, which filters files visually in Solution Explorer, and from some search tools.
+Visual Studio reads limited settings from a file named *settings.json*, if it is in a directory named *.vscode*. This functionality is provided for codebases that have previously been developed in Visual Studio Code. Currently, the only setting that is read from *.vscode\settings.json* is `files.exclude`, which filters files visually in Solution Explorer and from some search tools.
 
 You can have any number of *.vscode\settings.json* files in your codebase. Settings read from this file are applied to the parent directory of *.vscode* and all of its subdirectories.
 
 ### .gitignore
 
-*.gitignore* files are used to tell Git which files to ignore; that is, which files and directories you don't want to check in. *.gitignore* files are usually included as part of a codebase, so that ignore rules are shared with all of its developers. Visual Studio reads patterns in *.gitignore* files to filter items visually, and from some search tools.
+*.gitignore* files are used to tell Git which files to ignore; that is, which files and directories you don't want to check in. *.gitignore* files are usually included as part of a codebase, so that ignore rules are shared with all of its developers. Visual Studio reads patterns in *.gitignore* files to filter items visually and from some search tools.
 
 Settings read from this file are applied to the parent directory of the *.gitignore* file, and all of its subdirectories.
 
