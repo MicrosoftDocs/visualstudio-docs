@@ -299,9 +299,9 @@ You can have any number of *.vscode\settings.json* files in your codebase. Setti
 
 ### .gitignore
 
-*.gitignore* files are used to tell Git which files to ignore; that is, which files and directories you don't want to check in. *.gitignore* files are usually included as part of a codebase, so that ignore rules are shared with all of its developers. Visual Studio reads patterns in *.gitignore* files to filter items visually and from some search tools.
+*.gitignore* files are used to tell Git which files to ignore; that is, which files and directories you don't want to check in. *.gitignore* files are usually included as part of a codebase so that the settings can be shared with all developers of the codebase. Visual Studio reads patterns in *.gitignore* files to filter items visually and from some search tools.
 
-Settings read from this file are applied to the parent directory of the *.gitignore* file, and all of its subdirectories.
+Settings read from the *.gitignore* file are applied to its parent directory and all subdirectories.
 
 ## See also
 
