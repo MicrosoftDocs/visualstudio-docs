@@ -6,7 +6,7 @@ ms.topic: landing-page
 title: Write and Manage Code using Visual Studio | Microsoft Docs
 description: Learn how to use the code editor and other tools in Visual Studio to write, navigate, manage, and improve your code.
 ms.technology: vs-ide-general
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Write and manage code using Visual Studio
@@ -122,6 +122,13 @@ Learn how to use the code editor and other tools in Visual Studio to write, navi
         </div>
         </a>
     </li>
+</ul>
+
+## Get started with programming languages in Visual Studio
+
+Create your first app in Visual Studio.
+
+<ul class="panelContent cardsFTitle">
     <li>
         <a href="/visualstudio/ide/tutorial-csharp-aspnet-core">
         <div class="cardSize">
@@ -169,7 +176,7 @@ Learn how to use the code editor and other tools in Visual Studio to write, navi
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Create your first Python web app in Visual Studio</h3>
+                        <h3>Get started with Python in Visual Studio</h3>
                     </div>
                 </div>
             </div>
