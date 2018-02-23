@@ -232,6 +232,20 @@ C26483 STATIC_INDEX_OUT_OF_RANGE:
 
 [C26485 NO_ARRAY_TO_POINTER_DECAY](C26485.md)   
   Expression '%expr%': No array to pointer decay. See [C++ Core Guidelines Bounds.3](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#SS-bounds).  
-  
+
+## Deprecated Warnings
+
+The following warnings are present in an early experimental rule set of the core guidelines checker but are now deprecated and can be safely ignored. The warnings are superceded by warnings from the list above.
+
+- 26412 DEREF_INVALID_POINTER
+- 26413 DEREF_NULLPTR
+- 26420 ASSIGN_NONOWNER_TO_EXPLICIT_OWNER
+- 26421 ASSIGN_VALID_OWNER
+- 26422 VALID_OWNER_LEAVING_SCOPE
+- 26423 ALLOCATION_NOT_ASSIGNED_TO_OWNER
+- 26424 VALID_ALLOCATION_LEAVING_SCOPE
+- 26425 ASSIGNING_TO_STATIC
+- 26499 NO_LIFETIME_TRACKING
+
 ## See Also  
 [Using the C++ Core Guidelines Checkers](using-the-cpp-core-guidelines-checkers.md)
