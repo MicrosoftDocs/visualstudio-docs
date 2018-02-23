@@ -43,7 +43,6 @@
 #### [How to: Collect performance data for a Web site](how-to-collect-performance-data-for-a-web-site.md)
 #### [How to: Manually create performance sessions](how-to-manually-create-performance-sessions.md)
 #### [Walkthrough: Identify performance problems](walkthrough-identifying-performance-problems.md)
-#### [PeopleTrax sample (profiling tools)](peopletrax-sample-profiling-tools.md)
 ### [Configure performance sessions](configuring-performance-sessions.md)
 #### [How to: Reference Windows symbol information](how-to-reference-windows-symbol-information.md)
 #### [How to: Choose collection methods](how-to-choose-collection-methods.md)
