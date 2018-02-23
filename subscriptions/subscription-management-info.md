@@ -17,5 +17,5 @@ Subscription management capabilities are available for customers who have acquir
 
 Given the different purchasing channels, it's important for Subscription Administrators to know how their subscriptions were procured so the appropriate permissions and user guides can be leveraged. 
 
-The Visual Studio Subscriptions team recently created "The Visual Studio [Subscriptions Administration Portal](https://www.visualstudio.com/subscriptions-administration/)".  The goal of this portal is to help Subscription Administrators quickly understand the tools and capabilities they have to assign and manage subscriptions within their organization. 
+The Visual Studio Subscriptions team created "The Visual Studio [Subscriptions Administration Portal](https://www.visualstudio.com/subscriptions-administration/)".  The goal of this portal is to help Subscription Administrators quickly understand the tools and capabilities they have to assign and manage subscriptions within their organization. 
 

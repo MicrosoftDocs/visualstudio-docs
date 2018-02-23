@@ -5,7 +5,7 @@ ms.custom:
 ms.date: 01/24/2018
 ms.reviewer:
 ms.suite:
-ms.technology: 
+ms.technology:
   - "devlang-r"
 ms.tgt_pltfrm:
 dev_langs:
@@ -14,7 +14,7 @@ ms.topic: "article"
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
-ms.workload: 
+ms.workload:
   - "data-science"
 ---
 
@@ -40,7 +40,7 @@ RTVS does not install if you have only the Visual Studio Shell that's included w
 
 ## Installing RTVS in Visual Studio 2017
 
-1. Run the Visual Studio installer. (See [Downloads](https://www.visualstudio.com/downloads/) if you don't yet have Visual Studio installed.) On Windows 7, be sure that your installer is updated to show Visual Studio version *15.2 build 26430.12* or later.
+1. Run the Visual Studio installer. (See [Downloads](https://www.visualstudio.com/downloads/) if you don't yet have Visual Studio installed.) On Windows 7, be sure that your installer is updated to show Visual Studio 2017 version *15.2 build 26430.12* or later.
 
 1. Select the **Data science and analytical applications** workload:
 
@@ -77,12 +77,12 @@ RTVS for Visual Studio 2015 is installed in: `%ProgramFiles(x86)%\Microsoft Visu
 
 Offline installation is suitable for computers that are not connected to the Internet:
 
-1. Follow the instructions to create an offline installer for your version of Visual Studio: 
+1. Follow the instructions to create an offline installer for your version of Visual Studio:
 
     - [Visual Studio 2017](../install/create-an-offline-installation-of-visual-studio.md)
     - [Visual Studio 2015](https://msdn.microsoft.com/library/mt706497.aspx)
 
-1. For Visual Studio 2015, download the offline RTVS installers from [https://aka.ms/rtvs-current-zip](https://aka.ms/rtvs-current-zip) and [https://aka.ms/rtvs-remote-zip](https://aka.ms/rtvs-remote-zip). 
+1. For Visual Studio 2015, download the offline RTVS installers from [https://aka.ms/rtvs-current-zip](https://aka.ms/rtvs-current-zip) and [https://aka.ms/rtvs-remote-zip](https://aka.ms/rtvs-remote-zip).
 
 1. Install Visual Studio and RTVS from the offline installers.
 

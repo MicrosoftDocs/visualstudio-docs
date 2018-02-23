@@ -3,7 +3,7 @@ title: Handle over-claimed licenses | Microsoft Docs
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp
-Ms.date: 10/3/2017
+Ms.date: 2/13/2018
 Ms.topic: Get-Started-Article
 Description:  Learn how administrators can resolve over-claimed subscriptions
 Ms.prod: vs-subscription
@@ -12,8 +12,9 @@ Searchscope: VS Subscription
 ---
 
 # Handling ‘Over-claimed’ Subscriptions
-Sometimes orders are changed after subscribers have been added, which can result in having more assigned subscriptions than licenses owned by your company. When this happens, the Subscribers tab will show an alert and provide you with further information. 
-**Note: Overclaimed scenarios will not be allowed in Open License programs.**
+Sometimes orders are changed after subscribers have been added, which can result in having more assigned subscriptions than licenses owned by your company. When this happens, the Subscribers tab shows an alert and provides you with further information. 
+> [!NOTE] 
+> Overclaimed scenarios are not allowed in Open License programs.
 
 ![Notice of Over-claimed Subscriptions](_img\over-claimed\over-claimed-alert.png)
 

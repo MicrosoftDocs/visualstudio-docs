@@ -2,7 +2,7 @@
 title: Debugging Python Code in Visual Studio | Microsoft Docs
 description: A walkthrough of the debugging features in Visual Studio specifically for Python code, including setting breakpoints, stepping, inspecting values, looking at exceptions, and debugging in the interactive window.
 ms.custom:
-ms.date: 07/13/2017
+ms.date: 02/15/2018
 ms.reviewer:
 ms.suite:
 ms.technology: 
@@ -30,9 +30,9 @@ Also see the following scenario-specific debugging topics:
 - [Mixed-mode Python/C++ debugging](debugging-mixed-mode-c-cpp-python-in-visual-studio.md)
 - [Symbols for mixed-mode debugging](debugging-symbols-for-mixed-mode-c-cpp-python.md)
 
-For a debugging overview, see [Debugging Python](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121?l=Ep5dp5LWE_3805918567) (Microsoft Virtual Academy, 3m32s).
-
-> [!VIDEO https://mva.microsoft.com/en-US/training-courses-embed/python-tools-for-visual-studio-2017-18121/Video-Debugging-Python-Ep5dp5LWE_3805918567]
+|   |   |
+|---|---|
+| ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | [Watch a video (Microsoft Virtual Academy)](https://mva.microsoft.com/en-US/training-courses-embed/python-tools-for-visual-studio-2017-18121/Video-Debugging-Python-Ep5dp5LWE_3805918567) for a demonstration of Python debugging (3m 32s).|
 
 <a name="debugging-without-a-project"></a>
 
@@ -50,7 +50,7 @@ The basic debugging workflow involves settings breakpoints, stepping through cod
 A debugging session starts with the **Debug > Start Debugging** command, the **Start** button on the toolbar, or the F5 key. These actions launch your project's startup file (shown in bold in Solution Explorer) with the project's active environment and any command-line arguments or search paths that have been specified in Project Properties (see [Project debugging options](#project-debugging-options). If for some reason you don't have a startup file set, however, a Python output window briefly appears and disappears. In this case, right-click the appropriate file and select **Set as Startup File**.
 
 > [!Note]
-> The debugger always starts with the active Python environment for the project. To change the environment, make a different one active as described on [Python environments](managing-python-environments-in-visual-studio.md).
+> The debugger always starts with the active Python environment for the project. To change the environment, make a different one active as described on [Selecting a Python environment for a project](selecting-a-python-environment-for-a-project.md).
 
 ### Breakpoints
 

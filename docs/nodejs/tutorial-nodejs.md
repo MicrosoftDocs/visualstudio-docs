@@ -33,6 +33,10 @@ First, you'll create an Node.js web application project.
 
     Visual Studio creates the new solution and opens your project. The **app.js** project file opens in the editor (left pane). If you are not familiar with Visual Studio solutions and projects, see [Quickstart: Use Visual Studio to create your first Node.js app](../ide/quickstart-nodejs.md).
 
+4. If you don't have the Node.js runtime already installed, install it from the [Node.js](https://nodejs.org/en/download/) website.
+
+    In general, Visual Studio automatically detects the installed Node.js runtime. If it does not detect an installed runtime you can configure your project to reference the installed runtime.
+
 ## Add some code
 
 1. In Solution Explorer (right pane), open the views folder, then open index.pug.
@@ -116,7 +120,7 @@ First, you'll create an Node.js web application project.
 
     ![Select the debug target](../nodejs/media/tutorial-nodejs-deploy-target.png) 
 
-1. Press **Ctrl+F5** to run the application.
+1. Press **F5** (**Debug** > **Start Debugging**) to run the application.
 
     The debugger pauses at the breakpoint you set. Now, you can inspect your app state.
 
@@ -124,7 +128,7 @@ First, you'll create an Node.js web application project.
 
     ![Inspect variables](../nodejs/media/tutorial-nodejs-inspect-variables.png)
 
-1. Press **F5** to continue.
+1. Press **F5** (**Debug** > **Continue**) to continue.
 
     The app opens in a browser.
 
@@ -134,7 +138,7 @@ First, you'll create an Node.js web application project.
 
     ![App running in browser](../nodejs/media/tutorial-nodejs-running-in-browser.png)  
 
-1. Open the Node.js Interactive Window by selecting **View > Other Windows > Node.js Interactive Window**.
+1. Open the Node.js Interactive Window by selecting **View** > **Other Windows** > **Node.js Interactive Window**.
 
    ![Open the Node.js Interactive Window](../nodejs/media/tutorial-nodejs-interactive-window.png)  
 

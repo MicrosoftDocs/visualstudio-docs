@@ -1,15 +1,15 @@
 # Troubleshooting Guide
 
 ## Error 'upstream connect error or disconnect/reset before headers'
-You may see this error when trying to access your service - for example, when you navigate to the service's URL in a browser. 
+You may see this error when trying to access your service. For example, when you go to the service's URL in a browser. 
 
-**Reason:** The container port is not available. There are several possible reasons: 
+**Reason:** The container port is not available. These are the most common reasons: 
 * The container is still in the process of being built and deployed. This can be the case if you run `vsce up` or start the debugger, and then try to access the container before it has successfully deployed.
 * Port configuration is not consistent across your Dockerfile, Helm Chart, and any server code that opens up a port.
 
 **Try:**
-1. If the container is in the process of being built/deployed, you can wait a few seconds and try access the service again. 
-1. Check your port configuration; the specified port numbers should be **identical** in all the assets below:
+1. If the container is in the process of being built/deployed, you can wait 2-3 seconds and try accessing the service again. 
+1. Check your port configuration. The specified port numbers should be **identical** in all the assets below:
     * **Dockerfile:** Specified by the `EXPOSE` instruction.
     * **Helm Chart:** Specified by the `externalPort` and `internalPort` values for a service (often located in a `values.yml` file),
     * Any ports being opened up in application code, for example in Node.js: `var server = app.listen(80, function () {...}`
@@ -38,24 +38,52 @@ Running the VS Code debugger reports the error: `Configured debug type 'coreclr'
 **Reason:** You do not have the VS Code extension for Connected Environment installed on your development machine.
 
 **Try:**
-Install the [VS Code extension for Conneced Environment](get-started-netcore-01.md#kubernetes-debugging-with-vs-code).
+Install the [VS Code extension for Connected Environment](get-started-netcore-01.md#get-kubernetes-debugging-for-vs-code).
 
 
-## I don't see any Connected Environment instances in the Azure Portal
+## The Azure portal doesn't show Connected Environment instances
 
-**Reason:** An Azure Portal experience for Connected Environment is not yet ready for preview.
+**Reason:** An Azure portal experience for Connected Environment is not yet ready for preview.
 
 
-## Error During Warmup Displayed in Visual Studio Output Window
-An error occurred during warmup for project '<projectname>'
+## The type or namespace name 'MyLibrary' could not be found
 
-**Reason:** This occurs when Visual Studio attempts to warmup a Connected Environment that has not yet finished being created, or is in an incomplete or error state. You will often see this right after you have started to create a new Connected Environment.
+**Reason:** The build context is at the project/service level by default, therefore a library project you are using will not be found.
 
 **Try:**
-If you have just started the creation of a new Connected Environment, wait until it is successfully created before attempting to F5 or Ctrl+F5 your project/service. If this is a Connected Environment you created more than 15 minutes ago, it is likely in a bad state. You can try creating a new environment and wait for it to successfully be created. 
+What needs to be done:
+1. Modify the vsce.yaml file to set the build context to the solution level.
+2. Modify the Dockerfile and Dockerfile.develop files to refer to the csproj files correctly, relative to the new build context.
+3. Place a .dockerignore file beside the .sln file and modify as needed.
 
-You can see if your Connected Environment is still being created by *hovering your cursor* over the **Background tasks** icon in the bottom left corner of the status bar.    
-![](images/BackgroundTasks.png)
+You can find an example at https://github.com/sgreenmsft/buildcontextsample
 
-You can also see if a Connected Environment you recently created from within Visual Studio has been created sucessfully by *clicking* on the **Background tasks** icon in the bottom left corner of the status bar.    
-![](images/BackgroundTasks2.png)
+## 'Microsoft.ConnectedEnvironment/register/action' authorization error when creating an environment
+You may see the following error when managing an environment and you are working in an Azure subscription you do not have Owner or Contributor access.
+`The client '<User email/Id>' with object id '<Guid>' does not have authorization to perform action 'Microsoft.ConnectedEnvironment/register/action' over scope '/subscriptions/<Subscription Id>'.`
+
+**Reason:**
+The selected Azure subscription has not registered the Microsoft.ConnectedEnvironment namespace.
+
+**Try:**
+Someone with Owner or Contributor access to the Azure subscription can run the following Azure CLI command to manually register the Microsoft.ConnectedEnvironment namespace:
+
+```cmd
+az provider register --namespace Microsoft.ConnectedEnvironment
+```
+
+## VSCE doesn't seem to use my existing Dockerfile to build a container 
+
+**Reason:**
+VSCE can be configured to point to a specific Dockerfile in your project. If it appears VSCE isn't using the Dockerfile you expect to build your containers, you may need to explicitly tell VSCE where it is. 
+
+**Try:**
+Open the `vsce.yaml` file that was generated by VSCE in your project. Use the `configurations->develop->build->dockerfile` directive to point to the Dockerfile you want to use:
+
+```
+...
+configurations:
+  develop:
+    build:
+      dockerfile: Dockerfile.develop
+```
