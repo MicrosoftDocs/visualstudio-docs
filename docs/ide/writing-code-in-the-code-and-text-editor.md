@@ -1,7 +1,7 @@
 ---
-title: "Use the code editor in Visual Studio | Microsoft Docs"
+title: "Code editor features in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "09/27/2017"
+ms.date: 02/23/2018
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: vs-ide-general
@@ -12,10 +12,10 @@ helpviewer_keywords:
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
-# Use the code editor
+# Features of the code editor
 
 The Visual Studio editor provides many features that make it easier for you to write and manage your code and text. You can expand and collapse different blocks of code by using outlining. You can learn more about the code by using IntelliSense, the **Object Browser**, and the Call Hierarchy. You can find code by using features such as **Go To**, **Go To Definition**, and **Find All References**. You can insert blocks of code with code snippets, and you can generate code by using features such as **Generate From Usage**. If you have never used the Visual Studio editor before, see [Editing Your Code](https://www.visualstudio.com/features/ide-vs) for a quick overview.
 
@@ -86,4 +86,4 @@ For more information about customizing the editor, see [Customizing the editor](
 - [Visual Studio IDE](../ide/visual-studio-ide.md)
 - [Get started with C++ in Visual Studio](../ide/quickstart-cpp.md)
 - [Get started with C# and ASP.NET in Visual Studio](../ide/tutorial-csharp-aspnet-core.md)
-- [Get started with Python in Visual Studio](..ide/quickstart-python.md)
+- [Get started with Python in Visual Studio](../ide/quickstart-python.md)

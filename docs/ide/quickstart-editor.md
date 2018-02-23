@@ -10,14 +10,16 @@ ms.topic: "quickstart"
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
-dev_langs: 
+dev_langs:
   - "CSharp"
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
-# Quickstart: Coding in the editor
+# Quickstart: Use the code editor
 
 In this 10-minute introduction to the editor, we'll add code to a file to look at some of the ways that Visual Studio makes writing, navigating, and understanding code easier.
+
+This quickstart assumes you are already familiar with a programming language. If you aren't, we suggest you look at one of the programming quickstarts first, such as create a web app with [Python](../ide/quickstart-python.md) or [C#](../ide/tutorial-csharp-aspnet-core.md), or create a console app with [Visual Basic](../ide/quickstart-visual-basic-console.md) or [C++](../ide/quickstart-cpp.md).
 
 ## Create a new code file
 
@@ -152,11 +154,11 @@ You've completed this quickstart for the Visual Studio editor! Next you might tr
 
 ## See also
 
-[Quickstart: First look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)  
-[Quickstart: Personalize the Visual Studio IDE and editor](../ide/quickstart-personalize-the-ide.md)  
-[Quickstart: Projects and solutions](../ide/quickstart-projects-solutions.md)  
-[Code snippets](../ide/code-snippets.md)  
-[Outlining](../ide/outlining.md)  
-[Go To Definition and Peek Definition](../ide/go-to-and-peek-definition.md)  
-[Refactoring](../ide/refactoring-in-visual-studio.md)  
+[Quickstart: First look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)
+[Quickstart: Personalize the Visual Studio IDE and editor](../ide/quickstart-personalize-the-ide.md)
+[Quickstart: Projects and solutions](../ide/quickstart-projects-solutions.md)
+[Code snippets](../ide/code-snippets.md)
+[Outlining](../ide/outlining.md)
+[Go To Definition and Peek Definition](../ide/go-to-and-peek-definition.md)
+[Refactoring](../ide/refactoring-in-visual-studio.md)
 [Using IntelliSense](../ide/using-intellisense.md)
