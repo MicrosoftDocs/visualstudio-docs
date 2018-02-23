@@ -154,11 +154,11 @@ You've completed this quickstart for the Visual Studio editor! Next you might tr
 
 ## See also
 
-[Quickstart: First look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)
-[Quickstart: Personalize the Visual Studio IDE and editor](../ide/quickstart-personalize-the-ide.md)
-[Quickstart: Projects and solutions](../ide/quickstart-projects-solutions.md)
-[Code snippets](../ide/code-snippets.md)
-[Outlining](../ide/outlining.md)
-[Go To Definition and Peek Definition](../ide/go-to-and-peek-definition.md)
-[Refactoring](../ide/refactoring-in-visual-studio.md)
-[Using IntelliSense](../ide/using-intellisense.md)
+- [Quickstart: First look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)
+- [Quickstart: Personalize the Visual Studio IDE and editor](../ide/quickstart-personalize-the-ide.md)
+- [Quickstart: Projects and solutions](../ide/quickstart-projects-solutions.md)
+- [Code snippets](../ide/code-snippets.md)
+- [Outlining](../ide/outlining.md)
+- [Go To Definition and Peek Definition](../ide/go-to-and-peek-definition.md)
+- [Refactoring](../ide/refactoring-in-visual-studio.md)
+- [Using IntelliSense](../ide/using-intellisense.md)
