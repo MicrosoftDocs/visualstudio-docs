@@ -74,7 +74,7 @@ You can use [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Graphic
     HRESULT getAnalysis = DXGIGetDebugInterface1(0, __uuidof(pGraphicsAnalysis), reinterpret_cast<void**>(&pGraphicsAnalysis));  
     ```  
   
-     Be sure to check the `HRESULT` returned by `DXGIGetDebugInterface1` to ensure you get a valid interface before you use it:  
+     Be sure to check the `HRESULT` returned by [DXGIGetDebugInterface1](https://msdn.microsoft.com/library/windows/desktop/dn457937(v=vs.85).aspx) to ensure you get a valid interface before you use it:  
   
     ```  
     if (FAILED(getAnalysis))  
