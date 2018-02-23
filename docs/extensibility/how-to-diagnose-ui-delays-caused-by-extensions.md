@@ -15,16 +15,7 @@ ms.workload: "multiple"
 ---
 # How to: Diagnose UI delays caused by extensions
 
-When UI becomes unresponsive, Visual Studio examines the call-stack of the UI thread, starting with the leaf and working towards the base. If Visual Studio determines that
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
- a call-stack frame
- a frame consistently appearing on that call-stack
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-belongs to a module that is part of an installed and enabled extension, it shows a notification.
+When UI becomes unresponsive, Visual Studio examines the call-stack of the UI thread, starting with the leaf and working towards the base. If Visual Studio determines that a call-stack frame belongs to a module that is part of an installed and enabled extension, it shows a notification.
 
 ![UI delay (unresponsiveness) Notification](media/ui-delay-notification-in-vs.png)
 
