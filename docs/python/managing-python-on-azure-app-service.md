@@ -1,20 +1,22 @@
 ---
-title: "Managing Python on Azure App Service | Microsoft Docs"
-ms.custom: ""
+title: Installing Python interpreters and libraries on Azure App Service | Microsoft Docs
+description: How to install a Python interpreter and libraries on Azure App Service, and configuring web applications to properly refer to that interpreter.
+ms.custom:
 ms.date: 09/13/2017
-ms.reviewer: ""
-ms.suite: ""
+ms.reviewer:
+ms.suite:
 ms.technology: 
   - "devlang-python"
-ms.devlang: python
-ms.tgt_pltfrm: ""
+dev_langs:
+  - "python"
+ms.tgt_pltfrm:
 ms.topic: "article"
-caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
 ms.workload: 
   - "python"
+  - "data-science"
   - "azure"
 ---
 
@@ -22,7 +24,7 @@ ms.workload:
 
 [Azure App Service](https://azure.microsoft.com/services/app-service/) is a platform-as-a-service offering for web apps, whether they are sites accessed through a browser, REST APIs used by your own clients, or event-triggered processing. App Service fully supports using Python to implement apps.
 
-Customizable Python support on Azure App Service is provided as a set of App Service *site extensions* that each contain a specific version of the Python runtime. You can then install any desired packages directly into that environment, as described in this topic. By customizing the environment in the App Service itself, you don't need to maintain packages in your web app projects or upload them with the app code. 
+Customizable Python support on Azure App Service is provided as a set of App Service *site extensions* that each contain a specific version of the Python runtime. You can then install any desired packages directly into that environment, as described in this topic. By customizing the environment in the App Service itself, you don't need to maintain packages in your web app projects or upload them with the app code.
 
 > [!Tip]
 > Although App Service by default has Python 2.7 and Python 3.4 installed in root folders on the server, you cannot customize or install packages in these environments, nor should you depend on their presence. You should instead rely on a site extension that you control, as described in this topic.
@@ -84,7 +86,7 @@ Begin by finding the full path to the site extension's `python.exe`, then create
 
 A Python site extension is installed on the server under `d:\home` in a folder appropriate to the Python version and architecture (except in the case of a few older versions). For example, Python 3.6.1 x64 is installed in `d:\home\python361x64`. The full path to the Python interpreter is then `d:\home\python361x64\python.exe`.
 
-To see the specific path on your App Service, select **Extensions** on the App Service page, then select the extension in the list. 
+To see the specific path on your App Service, select **Extensions** on the App Service page, then select the extension in the list.
 
 ![Extension list on Azure App Service](media/python-on-azure-extension-list.png)
 
@@ -127,7 +129,7 @@ The `<appSettings>` defined here are available to your app as environment variab
 - `WSGI_HANDLER` must point to a WSGI app importable from your app.
 - `WSGI_LOG` is optional but recommended for debugging your app. 
 
-See [Publishing to Azure](publishing-to-azure.md) for additional details on `web.config` contents for Bottle, Flask, and Django web apps.
+See [Publishing to Azure](publishing-python-web-applications-to-azure-from-visual-studio.md) for additional details on `web.config` contents for Bottle, Flask, and Django web apps.
 
 ### Configuring the HttpPlatform handler
 
@@ -162,11 +164,11 @@ The Python interpreter installed through a site extension is only one piece of y
 
 To install packages directly in the server environment, use one of the following methods:
 
-| Methods | Usage | 
+| Methods | Usage |
 | --- | --- |
 | [Azure App Service Kudu console](#azure-app-service-kudu-console) | Installs packages interactively. Packages must be pure Python or must publish wheels. |
 | [Kudu REST API](#kudu-rest-api) | Can be used to automate package installation.  Packages must be pure Python or must publish wheels. |
-| Bundle with app | Install packages directly into your project and then deploy them to App Service as if they were part of your app. Depending on how many dependencies you have and how frequently you update them, this method may be the easiest way to get a working deployment going. Be advised that libraries must match the version of Python on the server, otherwise you'll see obscure errors after deployment. That said, because the versions of Python in the App Service site extensions are exactly the same as those versions released on python.org, you can easily obtain a compatible version for local development. |
+| Bundle with app | Install packages directly into your project and then deploy them to App Service as if they were part of your app. Depending on how many dependencies you have and how frequently you update them, this method may be the easiest way to get a working deployment going. Be advised that libraries must match the version of Python on the server, otherwise you see obscure errors after deployment. That said, because the versions of Python in the App Service site extensions are exactly the same as those versions released on python.org, you can easily obtain a compatible version for local development. |
 | Virtual environments | Not supported. Instead, use bundling and set the `PYTHONPATH` environment variable to point to the location of the packages. |
 
 ### Azure App Service Kudu console
@@ -196,7 +198,7 @@ The [Kudu console](https://github.com/projectkudu/kudu/wiki/Kudu-console) gives 
     Using `requirements.txt` is recommended because it's easy to reproduce your exact package set both locally and on the server. Just remember to visit the console after deploying any changes to `requirements.txt` and run the command again.
 
 > [!Note]
-> There's no C compiler on App Service, so you need to install the wheel for any packages with native extension modules. Many popular packages provide their own wheels. For packages that don't, use `pip wheel <package_name>` on your local development computer and then upload the wheel to your site. For an example, see [Managing required packages](python-environments.md#managing-required-packages)
+> There's no C compiler on App Service, so you need to install the wheel for any packages with native extension modules. Many popular packages provide their own wheels. For packages that don't, use `pip wheel <package_name>` on your local development computer and then upload the wheel to your site. For an example, see [Managing required packages with requirements.txt](managing-required-packages-with-requirements-txt.md).
 
 ### Kudu REST API
 

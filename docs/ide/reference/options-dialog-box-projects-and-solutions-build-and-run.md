@@ -25,10 +25,10 @@ ms.workload:
 ---
 # Options Dialog Box,  Projects and Solutions, Build and Run
 
-In this dialog box, you can specify the maximum number of Visual C++ or Visual C# projects that can build at the same time, certain default build behaviors, and some build log settings. To access these options, select **Tools > Options** expand **Projects and Solutions**, and select **Build and Run**.
+In this dialog box, you can specify the maximum number of Visual C++ or C# projects that can build at the same time, certain default build behaviors, and some build log settings. To access these options, select **Tools > Options** expand **Projects and Solutions**, and select **Build and Run**.
   
 **Maximum number of parallel project builds**  
-Specifies the maximum number of Visual C++ and Visual C# projects that can build at the same time. To optimize the build process, the maximum number of parallel project builds is automatically set to the number of CPUs of your computer. The maximum is 32.  
+Specifies the maximum number of Visual C++ and C# projects that can build at the same time. To optimize the build process, the maximum number of parallel project builds is automatically set to the number of CPUs of your computer. The maximum is 32.  
 
 **Only build startup projects and dependencies on Run**  
 Builds only the startup project and its dependencies when you use the F5 key, select the **Debug > Start** menu command, or applicable commands on the **Build** menu. If clear, all projects and dependencies are build. 

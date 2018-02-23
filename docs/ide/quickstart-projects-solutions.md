@@ -13,7 +13,7 @@ manager: ghogen
 ms.workload: 
   - "multiple"
 ---
-# Quickstart: projects and solutions
+# Quickstart: Projects and solutions
 
 In this 10-minute quickstart, we'll explore what it means to create a solution and a project in Visual Studio. We'll look at the properties of a project and some of the files it can contain. We'll also create a reference to a second project.
 
@@ -58,7 +58,7 @@ Now let's add our first project to the solution. We'll start with an empty proje
    A project named "QuickDate" appears beneath the solution in **Solution Explorer**. Currently it contains a single file called **App.config**.
 
    > [!NOTE]
-   > If you don't see **Visual C#** in the left pane of the dialog box, you need to install the **.NET desktop development** workload. An easy way to do this is to click the **Open Visual Studio Installer** link at the bottom of that left pane. The **Visual Studio Installer** opens, and from there you can choose the correct workload and then the **Modify** button.
+   > If you don't see **Visual C#** in the left pane of the dialog box, you need to install the **.NET desktop development** workload. An easy way to do this is to choose the **Open Visual Studio Installer** link in the bottom left corner of the dialog box. After **Visual Studio Installer** launches, choose the **.NET desktop development** workload and then the **Modify** button.
 
    ![Open Visual Studio Installer link](media/quickstart-projects-open-installer.png)
 
@@ -178,9 +178,9 @@ Congratulations on completing this quickstart! Next, you might want to explore s
 
 ## See also
 
-[Quickstart: first look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)  
-[Quickstart: personalize the Visual Studio IDE and editor](../ide/quickstart-personalize-the-ide.md)  
-[Quickstart: coding in the editor](../ide/quickstart-editor.md)  
+[Quickstart: First look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)  
+[Quickstart: Personalize the Visual Studio IDE and editor](../ide/quickstart-personalize-the-ide.md)  
+[Quickstart: Coding in the editor](../ide/quickstart-editor.md)  
 [Managing project and solution properties](../ide/managing-project-and-solution-properties.md)  
 [Managing references in a project](../ide/managing-references-in-a-project.md)  
 [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md)  

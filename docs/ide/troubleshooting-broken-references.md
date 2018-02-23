@@ -9,7 +9,7 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
-  - "Visual C# projects, references"
+  - "C# projects, references"
   - "Visual Basic projects, references"
   - "troubleshooting references"
   - "referencing files from projects"
@@ -58,7 +58,7 @@ To fix this problem, you can delete the broken reference and then replace it usi
 
 1. If you are using Visual Basic, select the **References** page and click the **Reference Paths** button. In the **Reference Paths** dialog box, type the path of the folder that contains the item you want to reference in the **Folder** field, and then click the **Add Folder** button.
 
-    If you are using Visual C#, select the **Reference Paths** page. In the **Folder** field, type the path of the folder that contains the item you want to reference, and then click the **Add Folder** button.
+    If you are using C#, select the **Reference Paths** page. In the **Folder** field, type the path of the folder that contains the item you want to reference, and then click the **Add Folder** button.
 
 ## Referenced file has been deleted
 

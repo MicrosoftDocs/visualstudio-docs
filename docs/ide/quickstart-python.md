@@ -1,5 +1,6 @@
 ---
 title: "Quickstart: use Visual Studio to create your first Python web app | Microsoft Docs"
+description: A short introduction to using Python in Visual Studio that builds a simple web app using the Falcon framework.
 ms.custom: ""
 ms.date: 01/08/2018
 ms.reviewer: ""
@@ -8,14 +9,14 @@ ms.technology:
   - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: quickstart
-ms.devlang: python
+dev_langs:
+  - python
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
-dev_langs: 
-  - python
 ms.workload: 
   - "python"
+  - "data-science"
 ---
 
 # Quickstart: use Visual Studio to create your first Python web app
@@ -66,7 +67,7 @@ In this Quickstart, however, you use the Falcon library to experience the proces
 
 For more information about Falcon, visit [falconframework.org](https://falconframework.org/).
 
-Note that instead of installing libraries in the global environment, developers typically create a "virtual environment" in which to install libraries for a specific project. Many Python project templates in Visual Studio include a `requirements.txt` file that lists the libraries on which the template depends. Creating a project from one of those templates triggers creation of a virtual environment into which the libraries are installed. For more information, see [Python environments - Virtual environments](../python/python-environments.md#virtual-environments).
+Note that instead of installing libraries in the global environment, developers typically create a "virtual environment" in which to install libraries for a specific project. Many Python project templates in Visual Studio include a `requirements.txt` file that lists the libraries on which the template depends. Creating a project from one of those templates triggers creation of a virtual environment into which the libraries are installed. For more information, see [Using virtual environments](../python/selecting-a-python-environment-for-a-project.md#using-virtual-environments).
 
 ## Add a code file
 
@@ -140,8 +141,8 @@ For more information about Falcon, see the [Falcon Quickstart](https://falcon.re
 Congratulations on completing this Quickstart, in which you've learned a little about the Visual Studio IDE with Python. To continue with a fuller tutorial on Python in Visual Studio, including using the interactive window, debugging, data visualization, and working with Git, select the button below.
 
 > [!div class="nextstepaction"]
-> [Tutorial: Getting Started with Python in Visual Studio](../python/vs-tutorial-01-01.md).
+> [Tutorial: Getting Started with Python in Visual Studio](../python/tutorial-working-with-python-in-visual-studio-step-01-create-project.md).
 
-- Learn about [Python web app templates in Visual Studio](../python/template-web.md)
-- Learn about [Python debugging](../python/debugging.md)
+- Learn about [Python web app templates in Visual Studio](../python/python-web-application-project-templates.md)
+- Learn about [Python debugging](../python/debugging-python-in-visual-studio.md)
 - Learn more about the [Visual Studio IDE](../ide/visual-studio-ide.md)

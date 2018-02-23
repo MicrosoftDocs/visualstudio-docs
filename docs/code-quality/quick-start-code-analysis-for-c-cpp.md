@@ -4,37 +4,20 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-code-analysis"
+ms.technology: vs-ide-code-analysis
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "C/C++ code analysis"
   - "code analysis,C/C++"
-ms.assetid: 6110b8ba-0af6-4acd-b1ba-bb0551f90e44
-caps.latest.revision: 8
 author: mikeblome
 ms.author: mblome
 manager: ghogen
 ms.workload: 
   - "cplusplus"
 ---
-# Quick Start: Code Analysis for C/C++
-You can improve the quality of your application by running code analysis regularly on C or C++ code. This can help you find common problems, violations of good programming practice, or defects that are difficult to discover through testing. Code analysis warnings differ from compiler errors and warnings because code analysis searches for specific code patterns that are valid but could still create issues for you or other people who use your code.  
-  
-## In this topic  
-  
--   [Configure rule sets for a project](../code-quality/quick-start-code-analysis-for-c-cpp.md#BKMK_ConfigureRuleSets)  
-  
--   [Run code analysis](../code-quality/quick-start-code-analysis-for-c-cpp.md#BKMK_Run)  
-  
--   [Analyze and resolve code analysis warnings](../code-quality/quick-start-code-analysis-for-c-cpp.md#BKMK_Analyze)  
-  
--   [Suppressing code analysis warnings](../code-quality/quick-start-code-analysis-for-c-cpp.md#BKMK_Suppress)  
-  
--   [Creating work items for code analysis warnings](../code-quality/quick-start-code-analysis-for-c-cpp.md#BKMK_Creating_work_items_for_code_analysis_warnings)  
-  
--   [Searching and filtering code analysis results](../code-quality/quick-start-code-analysis-for-c-cpp.md#BKMK_Search)  
+# Quickstart: Code analysis for C/C++
+You can improve the quality of your application by running code analysis regularly on C or C++ code. This can help you find common problems, violations of good programming practice, or defects that are difficult to discover through testing. Code analysis warnings differ from compiler errors and warnings because code analysis searches for specific code patterns that are valid but could still create issues for you or other people who use your code.
   
 ##  <a name="BKMK_ConfigureRuleSets"></a> Configure rule sets for a project  
   
@@ -82,20 +65,18 @@ You can improve the quality of your application by running code analysis regular
   
 -   On the **Build** menu, choose **Run Code Analysis on** *Project Name*.  
   
- The project or solution is compiled and code analysis runs. Results appear in the Code Analysis window.  
+ The project or solution is compiled and code analysis runs. Results appear in the Error List.  
   
-##  <a name="BKMK_Analyze"></a> Analyze and resolve code analysis warnings  
- To analyze a specific warning, choose the title of the warning in the Code Analysis window. The warning expands to display additional information about the issue. When possible, code analysis displays the line numbers and analysis logic that led to the warning. For detailed information about the warning, including possible solutions to the issue, choose the warning id to display the help topic in the MSND Library for the message.  
-  
- When you expand a warning, the line of code that caused the warning is highlighted in the Visual Studio code editor.  
-  
- After you understand the problem, you can resolve it in your code. Then rerun code analysis to make sure that the warning no longer appears in the Code Analysis window, and that your fix has not raised new warnings.  
-  
-> [!TIP]
->  You can rerun code analysis from the Code Analysis window. Choose the **Analyze** button and choose the scope of the analysis. You can rerun analysis on the entire solution or on a selected project.  
-  
+##  <a name="BKMK_Analyze"></a> Analyze and resolve code analysis warnings
+
+To analyze a specific warning, choose the title of the warning in the Error List. The warning expands to display additional information about the issue. When possible, code analysis displays the line numbers and analysis logic that led to the warning. For detailed information about the warning, including possible solutions to the issue, choose the warning ID to display its corresponding online help topic.
+
+When you select a warning, the line of code that caused the warning is highlighted in the Visual Studio code editor.
+
+After you understand the problem, you can resolve it in your code. Then, rerun code analysis to make sure that the warning no longer appears in the Error List, and that your fix has not raised any new warnings.
+
 ##  <a name="BKMK_Suppress"></a> Suppressing code analysis warnings  
- There are times when you might decide not to fix a code analysis warning. You might decide that resolving the warning requires too much recoding in relation to the probability that the issue will arise in any real-world implementation of your code. Or you might believe that the analysis that is used in the warning is inappropriate for the particular context. You can suppress individual warnings so that they no longer appear in the Code Analysis window.  
+ There are times when you might decide not to fix a code analysis warning. You might decide that resolving the warning requires too much recoding in relation to the probability that the issue will arise in any real-world implementation of your code. Or you might believe that the analysis that is used in the warning is inappropriate for the particular context. You can suppress individual warnings so that they no longer appear in the Error List.  
   
  To suppress a warning:  
   
@@ -112,19 +93,22 @@ You can improve the quality of your application by running code analysis regular
   
  **To create a work item for one or more C/C++ code warnings**  
   
-1.  In the Code Analysis window, expand and select the warnings  
+1.  In the Error List, expand and select the warnings  
   
-2.  On the shortcut menu for the warnings, choose **Create Work Item**, and then choose the work item type.  
+2.  On the shortcut menu for the warnings, choose **Create Work Item**, and then choose the work item type.
   
 3.  Visual Studio creates a single work item for the selected warnings and displays the work item in a document window of the IDE.  
   
 4.  Add any additional information, and then choose **Save Work Item**.  
   
-##  <a name="BKMK_Search"></a> Searching and filtering code analysis results  
- You can search long lists of warning messages and you can filter warnings in multi-project solutions.  
+##  <a name="BKMK_Search"></a> Searching and filtering code analysis results
+
+You can search long lists of warning messages and you can filter warnings in multi-project solutions.  
   
-1.  **To filter warnings by title or warning id**: Enter the keyword in the **Filter** text box.  
+- **To filter warnings by title or warning id**: Enter the keyword in the search box.
   
-2.  **To filter warnings by project**: In a multi-project solution, choose one or more projects in the list at the top right of the Code Analysis window. Choose the solution name to display all warnings.  
-  
-3.  **To filter warnings by severity**: By default, code analysis messages are assigned a severity of **Warning**. You can assign the severity of one or more messages as **Error** in a custom rule set. Choose either **Warning** or **Error** to display only the messages that are assigned the respective severity. Choose **All** to display all messages.
+- **To filter warnings by severity**: By default, code analysis messages are assigned a severity of **Warning**. You can assign the severity of one or more messages as **Error** in a custom rule set. On the **Severity** column of the **Error List**, choose the drop-down arrow and then the filter icon. Choose **Warning** or **Error** to display only the messages that are assigned the respective severity. Choose **Select All** to display all messages.
+
+## See also
+
+[Code analysis for C/C++](../code-quality/code-analysis-for-c-cpp-overview.md)

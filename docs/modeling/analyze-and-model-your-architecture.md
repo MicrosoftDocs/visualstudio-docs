@@ -4,9 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-techdebt"
-ms.tgt_pltfrm: ""
+ms.technology: vs-ide-modeling
 ms.topic: "get-started-article"
 helpviewer_keywords: 
   - "Visual Studio Ultimate, exploring code"
@@ -31,11 +29,9 @@ helpviewer_keywords:
   - "application, architecture"
   - "Visual Studio ALM, visualizing code"
   - "applications, designing"
-ms.assetid: c9f04cfa-72bd-419d-a952-616eed01472e
-caps.latest.revision: 127
-author: "alexhomer1"
-ms.author: "ahomer"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
 ---

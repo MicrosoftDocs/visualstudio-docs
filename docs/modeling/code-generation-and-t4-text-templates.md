@@ -4,9 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-techdebt"
-ms.tgt_pltfrm: ""
+ms.technology: vs-ide-modeling
 ms.topic: "article"
 f1_keywords: 
   - "VS.ToolsOptionsPages.TextTemplating.TextTemplating"
@@ -16,11 +14,9 @@ helpviewer_keywords:
   - "code generation"
   - "text templates"
   - "generating code"
-ms.assetid: 74a0a748-5b11-4999-8bea-49572967827d
-caps.latest.revision: 82
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
 ---

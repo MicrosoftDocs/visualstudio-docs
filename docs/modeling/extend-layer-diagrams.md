@@ -4,18 +4,14 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-techdebt"
-ms.tgt_pltfrm: ""
+ms.technology: vs-ide-modeling
 ms.topic: "article"
 helpviewer_keywords: 
   - "dependency diagrams, creating extensions"
   - "layer models"
-ms.assetid: 83fca301-b008-485a-87eb-218050e71451
-caps.latest.revision: 39
-author: "alexhomer1"
-ms.author: "ahomer"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
 ---

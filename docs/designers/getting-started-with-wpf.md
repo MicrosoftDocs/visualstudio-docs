@@ -25,7 +25,7 @@ Windows Presentation Foundation (WPF) is a UI framework that creates desktop cli
 |-|-|  
 |I want to jump right in...|[Walkthrough: My First WPF Desktop Application](../designers/walkthrough-my-first-wpf-desktop-application2.md)|  
 | I want to compare XAML design tools... |[Designing XAML in Visual Studio and Blend for Visual Studio](../designers/designing-xaml-in-visual-studio.md)|  
-|New to .NET?|[Overview of the .NET Framework](https://msdn.microsoft.com/en-us/library/zw4w595w\(v=vs.140\).aspx)<br /><br /> [Application Essentials](/dotnet/standard/application-essentials)<br /><br /> [Getting Started with Visual C# and Visual Basic](../ide/getting-started-with-visual-csharp-and-visual-basic.md)|  
+|New to .NET?|[Overview of the .NET Framework](/dotnet/framework/get-started/overview)<br /><br /> [Application Essentials](/dotnet/standard/application-essentials)<br /><br /> [Getting Started with Visual C# and Visual Basic](../ide/getting-started-with-visual-csharp-and-visual-basic.md)|  
 |Tell me more about WPF...|[Introduction to WPF](../designers/introduction-to-wpf.md)<br /><br /> [XAML Overview (WPF)](/dotnet/framework/wpf/advanced/xaml-overview-wpf)<br /><br /> [Controls](/dotnet/framework/wpf/controls/)<br /><br /> [Data Binding Overview](/dotnet/framework/wpf/data/data-binding-overview)<br /><br /> [WPF Data Binding with LINQ to XML](../designers/wpf-data-binding-with-linq-to-xml.md)|  
 |Are you a Windows Forms developer?|[Windows Forms Controls and Equivalent WPF Controls](/dotnet/framework/wpf/advanced/windows-forms-controls-and-equivalent-wpf-controls)<br /><br /> [Supported Scenarios in WPF and Windows Forms Interoperation](/dotnet/framework/wpf/advanced/wpf-and-windows-forms-interoperation)|  
   

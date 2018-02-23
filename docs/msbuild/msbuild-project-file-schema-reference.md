@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: msbuild
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
@@ -17,8 +16,8 @@ helpviewer_keywords:
   - "MSBuild, file schema"
 ms.assetid: d9a68146-1f43-4621-ac78-2c8c3f400936
 caps.latest.revision: 19
-author: "kempb"
-ms.author: "kempb"
+author: Mikejo5000
+ms.author: mikejo
 manager: ghogen
 ms.workload: 
   - "multiple"
@@ -49,6 +48,7 @@ Provides a table of all the [!INCLUDE[vstecmsbuild](../extensibility/internals/i
 |[ProjectExtensions Element (MSBuild)](../msbuild/projectextensions-element-msbuild.md)|--|--|  
 |[Property Element (MSBuild)](../msbuild/property-element-msbuild.md)|--|Condition|  
 |[PropertyGroup Element (MSBuild)](../msbuild/propertygroup-element-msbuild.md)|*Property*|Condition|  
+|[Sdk Element (MSBuild)](../msbuild/sdk-element-msbuild.md)|--|Name<br /><br /> Version|  
 |[Target Element (MSBuild)](../msbuild/target-element-msbuild.md)|OnError<br /><br /> *Task*|AfterTargets<br /><br /> BeforeTargets<br /><br /> Condition<br /><br /> DependsOnTargets<br /><br /> Inputs<br /><br /> KeepDuplicateOutputs<br /><br /> Name<br /><br /> Outputs<br /><br /> Returns|  
 |[Task Element (MSBuild)](../msbuild/task-element-msbuild.md)|Output|Condition<br /><br /> ContinueOnError<br /><br /> *Parameter*|  
 |[TaskBody Element (MSBuild)](../msbuild/taskbody-element-msbuild.md)|*Data*|Evaluate|  

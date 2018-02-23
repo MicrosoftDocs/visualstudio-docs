@@ -4,9 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
+ms.technology: vs-ide-modeling
 ms.topic: "get-started-article"
 f1_keywords: 
   - "vs.progression.debugwithcodemaps"
@@ -29,11 +27,9 @@ helpviewer_keywords:
   - "Call Stack window, show on code map"
   - "debugging [Visual Studio], tracing the call stack visually"
   - "debugging [Visual Studio], visualizing the call stack"
-ms.assetid: d6a72e5e-f88d-46fc-94a3-1789d34805ef
-caps.latest.revision: 39
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
 ---
@@ -46,7 +42,7 @@ Create a code map to visually trace the call stack while you're debugging. You c
   
 -   [Visual Studio Enterprise](https://www.visualstudio.com/downloads/download-visual-studio-vs)  
   
--   Code that you can debug, such as Visual C# .NET, Visual Basic .NET, C++, JavaScript, or X++  
+-   Code that you can debug, such as Visual C#, Visual Basic, C++, JavaScript, or X++  
   
  See:  
   
@@ -91,7 +87,7 @@ Create a code map to visually trace the call stack while you're debugging. You c
  ![Update code map with next call stack](../debugger/media/debuggermap_addclearcallstack.png "DebuggerMap_AddClearCallStack")  
   
 ##  <a name="AddRelatedCode"></a> Add related code to the map  
- Now you've got a map - what next? If you're working with Visual C# .NET or Visual Basic .NET, add items, such as fields, properties, and other methods, to track what's happening in the code.  
+ Now you've got a map - what next? If you're working with C# or Visual Basic, add items, such as fields, properties, and other methods, to track what's happening in the code.  
   
  Double-click a method to see its code definition, or use the shortcut menu for the method. (Keyboard: Select the method on the map and press **F12**)  
   

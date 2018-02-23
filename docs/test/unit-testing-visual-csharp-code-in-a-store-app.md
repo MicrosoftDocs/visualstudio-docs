@@ -14,49 +14,24 @@ ms.workload:
 author: gewarren
 ---
 # Unit testing Visual C# code in a UWP app
-This topic describes one way to create unit tests for a Visual C# class in a UWP app. The Rooter class demonstrates vague memories of limit theory from calculus by implementing a function that calculates an estimate of the square root of a given number. The Maths app can then use this function to show a user the fun things that can be done with math.  
-  
- This topic demonstrates how to use unit testing as the first step in development. In this approach, you first write a test method that verifies a specific behavior in the system that you are testing and then you write the code that passes the test. By making changes in the order of the following procedures, you can reverse this strategy to first write the code that you want to test and then write the unit tests.  
-  
- This topic also creates a single Visual Studio solution and separate projects for the unit tests and the DLL that you want to test. You can also include the unit tests directly in the DLL project, or you can create separate solutions for the unit tests and the DLL.  
-  
-> [!NOTE]
->  Visual Studio Community, Enterprise, and Professional provide additional features for unit testing.  
->   
->  -   Use any third-party and open source unit test framework that has created an add-on adapter for the Microsoft Test Explorer. You can also analyze and display code coverage information for the tests.  
-> -   Run your tests after every build.  
-> -   VS Enterprise also contains Microsoft Fakes, an isolation framework for managed code that helps you to focus your tests on your own code by substituting test code for system and third-party functionality.  
->   
->  For more information, see [Verifying Code by Using Unit Tests](http://msdn.microsoft.com/library/dd264975.aspx) in the MSDN Library.  
-  
-##  <a name="BKMK_In_this_topic"></a> In this topic  
- [Create the solution and the unit test project](#BKMK_Create_the_solution_and_the_unit_test_project)  
-  
- [Verify that the tests run in Test Explorer](#BKMK_Verify_that_the_tests_run_in_Test_Explorer)  
-  
- [Add the Rooter class to the Maths project](#BKMK_Add_the_Rooter_class_to_the_Maths_project)  
-  
- [Couple the test project to the app project](#BKMK_Couple_the_test_project_to_the_app_project)  
-  
- [Iteratively augment the tests and make them pass](#BKMK_Iteratively_augment_the_tests_and_make_them_pass)  
-  
- [Debug a failing test](#BKMK_Debug_a_failing_test)  
-  
- [Refactor the code](#BKMK_Refactor_the_code_)  
-  
+
+This topic describes one way to create unit tests for a Visual C# class in a UWP app. The Rooter class demonstrates vague memories of limit theory from calculus by implementing a function that calculates an estimate of the square root of a given number. The Maths app can then use this function to show a user the fun things that can be done with math.
+
+This topic demonstrates how to use unit testing as the first step in development. In this approach, you first write a test method that verifies a specific behavior in the system that you are testing and then you write the code that passes the test. By making changes in the order of the following procedures, you can reverse this strategy to first write the code that you want to test and then write the unit tests.
+
+This topic also creates a single Visual Studio solution and separate projects for the unit tests and the DLL that you want to test. You can also include the unit tests directly in the DLL project, or you can create separate solutions for the unit tests and the DLL.
+
 ##  <a name="BKMK_Create_the_solution_and_the_unit_test_project"></a> Create the solution and the unit test project  
   
-1.  On the **File** menu, choose **New**, and then choose **New Project**.  
+1.  On the **File** menu, choose **New** > **Project...**.
   
-2.  In the **New Project** dialog box, expand **Installed**, then expand **Visual C#** and choose **Windows Universal**. Then choose **Blank App** from the list of project templates.  
+2.  In the **New Project** dialog box, expand **Installed** > **Visual C#** and choose **Windows Universal**. Then choose **Blank App** from the list of project templates.
   
 3.  Name the project `Maths` and make sure **Create directory for solution** is selected.  
   
 4.  In Solution Explorer, choose the solution name, choose **Add** from the shortcut menu, and then choose **New Project**.  
   
-5.  In the **New Project** dialog box, expand **Installed**, then expand **Visual C#** and choose **Windows Universal** . Then choose **Unit Test Library (Universal Windows)** from the list of project templates.  
-  
-     ![Create the unit test project](../test/media/ute_cs_windows_createunittestproject.png "UTE_Cs_windows_CreateUnitTestProject")  
+5.  In the **New Project** dialog box, expand **Installed**, then expand **Visual C#** and choose **Windows Universal** . Then choose **Unit Test App (Universal Windows)** from the list of project templates.
   
 6.  Open UnitTest1.cs in the Visual Studio editor.  
   

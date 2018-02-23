@@ -74,7 +74,7 @@ Coded UI tests can automate testing for web applications by recording your tests
     > [!TIP]
     >  You can also download the Selenium components for Coded UI Cross Browser Testing from [here](http://visualstudiogallery.msdn.microsoft.com/11cfc881-f8c9-4f96-b303-a2780156628d/).  
   
- For more information about creating and using coded UI tests, see [Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITCreate).  
+ For more information about creating and using coded UI tests, see [Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md).  
   
 ### Enable debugging  
  To enable debugging your web application, you must complete the following configuration options:  
@@ -97,13 +97,13 @@ Coded UI tests can automate testing for web applications by recording your tests
  *What else should I know?*  
  **Notes**  
   
--   ![Prerequsite](../test/media/prereq.png "Prereq") Apple Safari web browser is not supported.  
+-   ![Prerequisite](../test/media/prereq.png "Prereq") Apple Safari web browser is not supported.  
   
--   ![Prerequsite](../test/media/prereq.png "Prereq") The action of starting the web browser must be part of the coded UI test.  
+-   ![Prerequisite](../test/media/prereq.png "Prereq") The action of starting the web browser must be part of the coded UI test.  
   
      If you have a web browser already open and you want to run steps on it, the playback will fail unless you are using Internet Explorer. Therefore, it is a best practice to include the startup of your web browser as part of your coded UI tests.  
   
--   ![Prerequsite](../test/media/prereq.png "Prereq") Automating browser specific based UI actions such as maximize, minimize and restore is not supported.  
+-   ![Prerequisite](../test/media/prereq.png "Prereq") Automating browser specific based UI actions such as maximize, minimize and restore is not supported.  
   
  **Tips**  
   

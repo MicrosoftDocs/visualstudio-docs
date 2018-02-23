@@ -108,11 +108,12 @@ By using the procedures in this topic, you can build, rebuild, or clean all or s
     -   Choose the Ctrl + Break keys.  
   
 ## See also
-[How to: View, Save, and Configure Build Log Files](../ide/how-to-view-save-and-configure-build-log-files.md)   
-[Obtaining Build Logs](../msbuild/obtaining-build-logs-with-msbuild.md)   
-[Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)   
-[Understanding Build Configurations](../ide/understanding-build-configurations.md)   
-[Debug and Release Project Configurations](http://msdn.microsoft.com/en-us/0440b300-0614-4511-901a-105b771b236e)   
-[C/C++ Building Reference](/cpp/build/reference/c-cpp-building-reference)   
-[Devenv Command Line Switches](../ide/reference/devenv-command-line-switches.md)   
+
+[How to: View, Save, and Configure Build Log Files](../ide/how-to-view-save-and-configure-build-log-files.md)  
+[Obtaining Build Logs](../msbuild/obtaining-build-logs-with-msbuild.md)  
+[Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)  
+[Understanding Build Configurations](../ide/understanding-build-configurations.md)  
+[How to: Set debug and release configurations](../debugger/how-to-set-debug-and-release-configurations.md)  
+[C/C++ Building Reference](/cpp/build/reference/c-cpp-building-reference)  
+[Devenv Command Line Switches](../ide/reference/devenv-command-line-switches.md)  
 [Solutions and Projects](../ide/solutions-and-projects-in-visual-studio.md)
