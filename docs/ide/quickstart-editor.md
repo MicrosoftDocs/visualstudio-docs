@@ -67,7 +67,7 @@ The toolbar provides a number of buttons to make you more productive as you code
         "brown",
         "fox",
         "jumps"
-    }
+    };
 
     string[] morewords = {
         "over",
