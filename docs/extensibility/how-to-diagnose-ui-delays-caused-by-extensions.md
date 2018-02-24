@@ -49,7 +49,7 @@ Visual Studio can generate an "activity log" that provides information helpful w
 %APPDATA%\Microsoft\VisualStudio\<vs_instance_id>\ActivityLog.xml
 ```
 
-To learn more about how you can find your VS instance ID, see [Tools for detecting and managing Visual Studio instances](../install/tools-for-managing-visual-studio-instances). We will use this activity log later to find out more information about UI delays and related notifications.
+To learn more about how you can find your VS instance ID, see [Tools for detecting and managing Visual Studio instances](../install/tools-for-managing-visual-studio-instances.md). We will use this activity log later to find out more information about UI delays and related notifications.
 
 ## Starting ETW tracing
 
