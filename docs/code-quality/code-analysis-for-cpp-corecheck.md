@@ -235,7 +235,7 @@ C26483 STATIC_INDEX_OUT_OF_RANGE:
 
 ## Deprecated Warnings
 
-The following warnings are present in an early experimental rule set of the core guidelines checker but are now deprecated and can be safely ignored. The warnings are superceded by warnings from the list above.
+The following warnings are present in an early experimental rule set of the core guidelines checker, but are now deprecated and can be safely ignored. The warnings are superceded by warnings from the list above.
 
 - 26412 DEREF_INVALID_POINTER
 - 26413 DEREF_NULLPTR
