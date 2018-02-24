@@ -1,5 +1,5 @@
 ---
-title: "Diagnosing extension UI delay notifications in Visual Studio| Microsoft Docs"
+title: "Diagnosing extension UI delays in Visual Studio| Microsoft Docs"
 ms.custom: ""
 ms.date: "01/26/2018"
 ms.reviewer: ""
@@ -23,8 +23,8 @@ The notification informs the user that the UI delay (i.e. the unresponsiveness i
 
 This document describes how you can diagnose what in your extension code is causing UI delay notifications. 
 
-> [!Note] Do not use the Visual Studio experimental instance to diagnose UI
-> delays. Some parts of the call-stack analysis required for UI delay notifications are turned off when using the experimental instance, meaning that UI delay notifications may not be shown.
+> [!NOTE]
+> Do not use the Visual Studio experimental instance to diagnose UI delays. Some parts of the call-stack analysis required for UI delay notifications are turned off when using the experimental instance, meaning that UI delay notifications may not be shown.
 
 An overview of the diagnostic process is as follows:
 1. Identify the trigger scenario.
@@ -38,9 +38,11 @@ An overview of the diagnostic process is as follows:
 In the following sections, we will go through these steps in more detail.
 
 ## Identifying the trigger scenario
+
 To do diagnose a UI delay, you first need to idetify what (sequence of actions) causes Visual Studio to show the notification. This is in order for you to able to trigger the notification later with logging turned on.
 
 ## Restarting VS with activity logging on
+
 Visual Studio can generate an "activity log" that provides information helpful when debugging an issue. To turn on activity logging in Visual Studio,you need to (re)start Visual Studio with the `/log` command line option.  Once Visual Studio starts, the activity log is stored in the following location:
 
 ```DOS
@@ -50,6 +52,7 @@ Visual Studio can generate an "activity log" that provides information helpful w
 To learn more about how you can find your VS instance ID, see [Tools for detecting and managing Visual Studio instances](../install/tools-for-managing-visual-studio-instances). We will use this activity log later to find out more information about UI delays and related notifications.
 
 ## Starting ETW tracing
+
 You can use [PerfView](https://github.com/Microsoft/perfview/) to collect an ETW trace. PerfView provides an easy-to-use interface both for collecting an ETW trace and for analyzing it. Use the following command to collect a trace:
 
 ```DOS
@@ -58,13 +61,16 @@ Perfview.exe collect C:\trace.etl /BufferSizeMB=1024 -CircularMB:2048 -Merge:tru
 This enables the "Microsoft-VisualStudio" provider, which is the provider Visual Studio uses for events related to UI delay notifications. It also specifies the keyword for the kernel provider that PerfView can use to generate the "Thread Time Stacks" view.
 
 ## Triggering the notification to appear again
+
 Once PerfView has started trace collection, you can use the trigger action sequence (from step 1) for the notification to appear again. Once the notification is shown, you can stop trace collection for PerfView to process and generate the output trace file.
 
 ## Stopping ETW tracing
+
 To stop trace collection, simply use the `Stop collection` button on the PerfView window. After you stop trace collection, PerfView will automatically process the ETW events and generates an output trace file.
 
 ## Examining the activity log to get the delay ID
-As we mentioned earlier, you can find the activity log at 
+
+As mentioned earlier, you can find the activity log at 
 `%APPDATA%\Microsoft\VisualStudio\<vs_instance_id>\ActivityLog.xml`.
 Every time Visual Studio detects an extension UI delay, it writes a node to the activity log with `UIDelayNotifications` as the source. This node contains 4 pieces of information about the UI delay:
 - The UI delay ID, a sequential number that uniquely identifies a UI delay in a VS session
@@ -88,6 +94,7 @@ Every time Visual Studio detects an extension UI delay, it writes a node to the 
 Once you find the right UI delay in the activity log, write down the UI delay ID specified in the node. We will use this ID to look for the corresponding ETW event in the next step.
 
 ## Analyzing the ETW trace
+
 Next, we need to open the trace file. You can do this either using the same instance of PerfView or by starting a new instance and setting the current folder path in the top-left of the window to the location of the trace file.
 
 ![Setting the folder path in Perfview](media/perfview-set-path.png)
