@@ -62,5 +62,5 @@ private void Method()
 
 ## See also
 
-[Refactoring](../refactoring-in-visual-studio.md)
-[Preview Changes](../../ide/preview-changes.md)
+- [Refactoring](../refactoring-in-visual-studio.md)
+- [Preview Changes](../../ide/preview-changes.md)

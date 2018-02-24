@@ -66,5 +66,5 @@ This code generation applies to:
 
 ## See also
 
-[Code Generation](../code-generation-in-visual-studio.md)
-[Preview Changes](../../ide/preview-changes.md)
+- [Code Generation](../code-generation-in-visual-studio.md)
+- [Preview Changes](../../ide/preview-changes.md)

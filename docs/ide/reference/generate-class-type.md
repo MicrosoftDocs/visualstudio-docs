@@ -88,5 +88,5 @@ The class or struct is created. For C#, a constructor is also created.
 
 ## See also
 
-[Code Generation](../code-generation-in-visual-studio.md)
-[Preview Changes](../../ide/preview-changes.md)
+- [Code Generation](../code-generation-in-visual-studio.md)
+- [Preview Changes](../../ide/preview-changes.md)
