@@ -7,19 +7,19 @@ ms.suite: ""
 ms.technology: vs-ide-general
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords: 
+f1_keywords:
   - "vsregularexpressionhelp"
   - "vs.regularexpressionhelp"
   - "vs.wildcardsbuilder"
   - "vs.netregularexpressionhelp"
   - "vs.wildcards"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "regular expressions [Visual Studio]"
   - "regular expressions"
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Using regular expressions in Visual Studio
@@ -51,7 +51,7 @@ Here are some examples:
 |Invalidate a match|(?!abc)|`real (?!ity)` matches "real" in "realty" and "really" but not in "reality." It also finds the second "real" (but not the first "real") in "realityreal".|
 |Match any character that is not in a given set of characters|[^abc]|`be[^n-t]` matches "bef" in "before", "beh" in "behind", and "bel" in "below", but not "beneath".|
 |Match either the expression before or the one after the symbol.|&#124;|`(sponge&#124;mud) bath` matches "sponge bath" and "mud bath."|
-|Escape the character following the backslash|\\|`\^` matches the character ^.|
+|Escape the character following the backslash| \\ |`\^` matches the character ^.|
 |Specify the number of occurrences of the preceding character or group|{x}, where x is the number of occurrences|`x(ab){2}x` matches "xababx", and `x(ab){2,3}x` matches "xababx" and "xabababx" but not "xababababx".|
 |Match text in a Unicode character class, where "X" is the Unicode number. For more information about Unicode character classes, see<br /><br /> [Unicode Standard 5.2 Character Properties](http://www.unicode.org/versions/Unicode5.2.0/ch04.pdf).|\p{X}|`\p{Lu}` matches "T" and "D" in "Thomas Doe".|
 |Match a word boundary|`\b` (Outside a character class \b specifies a word boundary, and inside a character class specifies a backspace).|`\bin` matches "in" in "inside" but not "pinto".|
