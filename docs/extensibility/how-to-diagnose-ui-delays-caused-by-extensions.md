@@ -43,7 +43,7 @@ To do diagnose a UI delay, you first need to idetify what (sequence of actions) 
 
 ## Restarting VS with activity logging on
 
-Visual Studio can generate an "activity log" that provides information helpful when debugging an issue. To turn on activity logging in Visual Studio,you need to (re)start Visual Studio with the `/log` command line option.  Once Visual Studio starts, the activity log is stored in the following location:
+Visual Studio can generate an "activity log" that provides information helpful when debugging an issue. To turn on activity logging in Visual Studio, start Visual Studio with the `/log` command line option. After Visual Studio starts, the activity log is stored in the following location:
 
 ```DOS
 %APPDATA%\Microsoft\VisualStudio\<vs_instance_id>\ActivityLog.xml
@@ -58,6 +58,7 @@ You can use [PerfView](https://github.com/Microsoft/perfview/) to collect an ETW
 ```DOS
 Perfview.exe collect C:\trace.etl /BufferSizeMB=1024 -CircularMB:2048 -Merge:true -Providers:*Microsoft-VisualStudio:@StacksEnabled=true -NoV2Rundown /kernelEvents=default+FileIOInit+ContextSwitch+Dispatcher
 ```
+
 This enables the "Microsoft-VisualStudio" provider, which is the provider Visual Studio uses for events related to UI delay notifications. It also specifies the keyword for the kernel provider that PerfView can use to generate the "Thread Time Stacks" view.
 
 ## Triggering the notification to appear again
@@ -70,9 +71,8 @@ To stop trace collection, simply use the `Stop collection` button on the PerfVie
 
 ## Examining the activity log to get the delay ID
 
-As mentioned earlier, you can find the activity log at 
-`%APPDATA%\Microsoft\VisualStudio\<vs_instance_id>\ActivityLog.xml`.
-Every time Visual Studio detects an extension UI delay, it writes a node to the activity log with `UIDelayNotifications` as the source. This node contains 4 pieces of information about the UI delay:
+As mentioned earlier, you can find the activity log at `%APPDATA%\Microsoft\VisualStudio\<vs_instance_id>\ActivityLog.xml`. Every time Visual Studio detects an extension UI delay, it writes a node to the activity log with `UIDelayNotifications` as the source. This node contains four pieces of information about the UI delay:
+
 - The UI delay ID, a sequential number that uniquely identifies a UI delay in a VS session
 - The session ID, which uniquely identifies your Visual Studio session from start to close
 - Whether or not a notification was shown for the UI delay
@@ -88,20 +88,20 @@ Every time Visual Studio detects an extension UI delay, it writes a node to the 
 </entry>
 ```
 
-> [!Note]
+> [!NOTE]
 > Not all UI delays result in a notification. Therefore, you should always check the "Notification shown?" value to correctly identify the right UI delay.
 
-Once you find the right UI delay in the activity log, write down the UI delay ID specified in the node. We will use this ID to look for the corresponding ETW event in the next step.
+After you find the correct UI delay in the activity log, write down the UI delay ID specified in the node. You'll use the ID to look for the corresponding ETW event in the next step.
 
 ## Analyzing the ETW trace
 
-Next, we need to open the trace file. You can do this either using the same instance of PerfView or by starting a new instance and setting the current folder path in the top-left of the window to the location of the trace file.
+Next, open the trace file. You can do this either using the same instance of PerfView or by starting a new instance and setting the current folder path in the top-left of the window to the location of the trace file.
 
 ![Setting the folder path in Perfview](media/perfview-set-path.png)
 
 Then, select the trace file in the left pane and open it by choosing Open from the right-click or context menu.
 
-> [!Note]
+> [!NOTE]
 > By default PerfView outputs a Zip archive. When you open trace.zip, it automatically decompresses the archive and opens the trace. You can skip this by unchecking the "Zip" box during trace collection. However, if you are planning to transfer and use traces across different machines, we strongly recommend against unchecking the "Zip" box. Without this option, the required PDBs for Ngen assemblies will not accompany the trace and thus symbols from Ngen assemblies will not be resolved on the destination machine. (See [this blog post](https://blogs.msdn.microsoft.com/devops/2012/12/10/creating-ngen-pdbs-for-profiling-reports/) for more information on PDBs for Ngen assemblies.) 
 
 It can take several minutes for PerfView to process and open the trace. Once the trace is open, a list of various "views" appear under it.
@@ -109,6 +109,7 @@ It can take several minutes for PerfView to process and open the trace. Once the
 ![PerfView trace summary view](media/perfview-summary-view-events-selected.png)
 
 We will first use the "Events" view to obtain the time-range of the UI delay:
+
 1. Open the "Events" view by selecting "Events" node under the trace and choosing Open from the right-click or context menu.
 2. Select "`Microsoft-VisualStudio/ExtensionUIUnresponsiveness`" in the left pane.
 3. Press Enter
@@ -148,6 +149,7 @@ You can also further filter this view by only including stacks that contain modu
 ![Setting GroupPath and IncPath in Thread Time Stacks view](media/perfview-tts-group-path-inc-path.png)
 
 PerfView has detailed guidance under the Help menu that you can use to identify performance bottlenecks in your code. Additionally, the following links provide more information on how to utilize Visual Studio threading APIs to optimize your code:
+
 * [https://aka.ms/vsthreading](https://aka.ms/vsthreading)
 * [https://aka.ms/vsthreadingcookbook](https://aka.ms/vsthreadingcookbook)
 
