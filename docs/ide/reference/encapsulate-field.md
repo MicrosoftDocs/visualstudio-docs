@@ -9,12 +9,12 @@ ms.topic: reference
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
-f1_keywords: 
+f1_keywords:
   - "vs.csharp.refactoring.encapsulatefield"
-dev_langs: 
+dev_langs:
   - CSharp
   - VB
-ms.workload: 
+ms.workload:
   - "dotnet"
 ---
 # Encapsulate a field refactoring
@@ -47,7 +47,7 @@ This refactoring applies to:
 
    - **Keyboard**
      - Press **Ctrl+R**, then **Ctrl+E**.  (Note that your keyboard shortcut may be different based on which profile you've selected.)
-     - Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu and select either **Encapsulate field** entry from the Preview window popup.
+     - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu and select either **Encapsulate field** entry from the Preview window popup.
    - **Mouse**
      - Select **Edit > Refactor > Encapsulate Field**.
      - Right-click the code, select the **Quick Actions and Refactorings** menu and select either **Encapsulate field** entry from the Preview window popup.
@@ -72,5 +72,5 @@ This refactoring applies to:
 
 ## See also
 
-[Refactoring](../refactoring-in-visual-studio.md)  
+[Refactoring](../refactoring-in-visual-studio.md)
 [Preview Changes](../../ide/preview-changes.md)

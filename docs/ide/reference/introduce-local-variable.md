@@ -9,7 +9,7 @@ ms.topic: reference
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
-ms.workload: 
+ms.workload:
   - "dotnet"
 ---
 # Introduce a local variable in Visual Studio
@@ -41,7 +41,7 @@ This code generation applies to:
 1. Next, do one of the following:
 
    - **Keyboard**
-     - Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu.
+     - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
    - **Mouse**
      - Right-click and select the **Quick Actions and Refactorings** menu.
      - Click the ![Lightbulb](media/bulb-cs.png) icon which appears in the left margin if the text cursor is already on the line with the red squiggle.
@@ -68,5 +68,5 @@ This code generation applies to:
 
 ## See also
 
-[Code Generation](../code-generation-in-visual-studio.md)  
+[Code Generation](../code-generation-in-visual-studio.md)
 [Preview Changes](../../ide/preview-changes.md)
