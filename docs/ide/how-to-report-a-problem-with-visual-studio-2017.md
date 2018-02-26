@@ -68,13 +68,13 @@ Trace and heap dump files are useful in helping us diagnose problems. We appreci
 
 ### Report a problem by using the Visual Studio Installer
 
-If you can't complete the Visual Studio installation, or you can't access the feedback tool within Visual Studio, you can report feedback tool by using the Visual Studio Installer. To do so, choose the feedback icon in the upper-right corner of the Visual Studio Installer.
+If you can't complete the Visual Studio installation, or you can't access the feedback tool within Visual Studio, you can report a problem by using the Visual Studio Installer. To do so, choose the feedback icon in the upper-right corner of the Visual Studio Installer.
 
  ![You can tab to the Provide Feedback button in the Visual Studio Installer to open the feedback tool](../install/media/report-a-problem.png)
 
 ### Report a problem directly to the Visual Studio developer community
 
-If you do not want to or cannot use the Visual Studio product UI to report a problem, you can report a problem directly to the Visual Studio developer community; to do so, see [https://developercommunity.visualstudio.com/](https://developercommunity.visualstudio.com/)
+If you don't want to or can't use Visual Studio to report a problem, you can instead report a problem directly to the Visual Studio developer community; to do so, see [https://developercommunity.visualstudio.com/](https://developercommunity.visualstudio.com/)
 
 #### Provide product feedback or a suggestion
 
