@@ -46,11 +46,17 @@ First, create an Node.js web application project.
 
      If you don't see the **Blank Node.js Web Application** project template, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **Node.js development** workload, then choose **Modify**. 
 
-    Visual Studio creates the new solution and opens your project. The **server.js** project file opens in the editor (left pane). In Solution Explorer, server.js appears in bold and is the default startup file for the project.
+    Visual Studio creates the new solution and opens your project. The *server.js* project file opens in the editor (left pane).
 
     ![Node.js project in Solution Explorer](../nodejs/media/tutorial-nodejs-react-project-structure.png)  
 
-    If you are not familiar with Visual Studio solutions and projects, see [Quickstart: Use Visual Studio to create your first Node.js app](../ide/quickstart-nodejs.md). If you are more interested in the Express 4 template, see [Create an Express 4 web application](../nodejs/tutorial-nodejs.md)
+    - Highlighted in bold is your project, using the name you gave in the **New Project** dialog box. On disk, this project is represented by a *.njsproj* file in your project folder.
+
+    - At the top level is a solution, which by default has the same name as your project. A solution, represented by a *.sln* file on disk, is a container for one or more related projects.
+
+    - The npm node shows any installed npm packages. You can right-click the npm node to search for and install npm packages using a dialog box.
+
+    - Project files such as server.js show up under the project node. *server.js* is the project startup file (to configure properties such as the startup file, right-click the project node and choose **Properties**).
 
 ## Add npm packages
 
@@ -73,7 +79,7 @@ This app requires a number of npm modules to run correctly.
 
     The **Output** window shows progress on installing each package. When installed, package appears under the **npm** node.
 
-    The project's package.json file is updated with the new package information including the package version.
+    The project's *package.json* file is updated with the new package information including the package version.
 
 1. Repeat the previous steps for each of the other npm modules.
     Here are the npm modules as they appear in Solution Explorer after they are installed.
@@ -161,7 +167,7 @@ For this simple app, we will just add the new project files in the project root.
 
 ## Configure webpack and babel
 
-In the previous steps, we added webpack-config.js to the project. Next, we add webpack configuration code. We will add a very simple webpack configuration that specifies an input file (*app.js*) and an output file (*browser-bundle.js*) for bundling and transpiling JSX to plain JavaScript. We also configure some babel options to support React. This is a very basic configuration that is intended as an introduction to webpack and babel.
+In the previous steps, we added *webpack-config.js* to the project. Next, we add webpack configuration code. We will add a very simple webpack configuration that specifies an input file (*app.js*) and an output file (*browser-bundle.js*) for bundling and transpiling JSX to plain JavaScript. We also configure some babel options to support React. This is a very basic configuration that is intended as an introduction to webpack and babel.
 
 1. In Solution Explorer, open *webpack-config.js* and add the following code.
 
@@ -244,7 +250,7 @@ Each time you make changes to *app.js*, you must re-run the webpack command.
 
 1. Press **F5** (**Debug** > **Start Debugging**) to run the application.
 
-    The debugger pauses at the breakpoint you set (the line of code is marked in yellow). Now, you can inspect your app state by hovering over variables that are currently in scope, using debugger windows like the **Locals** and **Watch** window, etc.
+    The debugger pauses at the breakpoint you set (the current statement is marked in yellow). Now, you can inspect your app state by hovering over variables that are currently in scope, using debugger windows like the **Locals** and **Watch** window, etc.
 
 1. Press **F5** to continue the app.
 
@@ -252,7 +258,7 @@ Each time you make changes to *app.js*, you must re-run the webpack command.
 
 1. Close the web browser and the console.
 
-If you would like to create an app using the Express 4 Web Application template, see [Create an Express 4 web application](../nodejs/tutorial-nodejs.md)
+If you would like more information on using a template based on Express, see [Create an Express 4 web application](../nodejs/tutorial-nodejs.md)
 
 ## (Optional) Set and hit a breakpoint in the client-side React code
 
