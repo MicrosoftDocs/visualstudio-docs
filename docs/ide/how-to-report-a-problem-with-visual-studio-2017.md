@@ -74,7 +74,7 @@ If you can't complete the Visual Studio installation or you can't access the fee
 
 ### Report a problem directly to the Visual Studio developer community
 
-If you don't want to or can't use Visual Studio to report a problem, you can report a problem directly to the Visual Studio developer community instead. For more information, see the [https://developercommunity.visualstudio.com/](https://developercommunity.visualstudio.com/) page.
+If you don't want to or can't use Visual Studio to report a problem, you can report a problem directly to the Visual Studio developer community instead. For more information, see the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/) page.
 
 #### Provide product feedback or a suggestion
 
