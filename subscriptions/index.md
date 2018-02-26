@@ -3,8 +3,10 @@ title: Visual Studio Subscriptions
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp
+layout: LandingPage
 Ms.date: 10/3/2017
-Ms.topic: Get-Started-Article
+Ms.topic: landing-page
+Ms.service: VS Subscription
 Description:  Welcome to Visual Studio Subscriptions
 Ms.prod: vs-subscription
 Ms.technology: vs-subscriptions
