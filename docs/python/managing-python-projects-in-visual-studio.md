@@ -2,7 +2,7 @@
 title: Managing Projects for Python Applications in Visual Studio | Microsoft Docs
 description: Explains the purpose of projects in Visual Studio, demonstrates how to create and manage projects for Python code, and outlines the different project templates available for Python.
 ms.custom:
-ms.date: 02/15/2018
+ms.date: 03/05/2018
 ms.reviewer:
 ms.suite:
 ms.technology: 
@@ -48,7 +48,9 @@ As you develop your application, you typically need to add new files of differen
 Each Python project has one assigned start-up file, shown in boldface in Solution Explorer. The startup file is the file that's run when you start debugging (F5 or **Debug > Start Debugging**) or when you run your project in the interactive window (Shift+Alt+F5 or **Debug > Execute Project in Python Interactive**). To change it, right-click the new file and select **Set as Startup File**.
 
 > [!Tip]
-> If you remove the selected startup file from a project and don't select a new one, running your project results in a Python output window appearing but then disappearing almost immediately. If you encounter this behavior, check that you have an assigned startup file. Also, to keep the output window open in such cases, right-click your project, select **Properties**, select the **Debug** tab, then add `-i` to the **Interpreter Arguments** field. This argument causes the interpreter to go into interactive mode after a program completes, thereby keeping the window open until you enter Ctrl+Z, Enter to exit.
+> If you remove the selected startup file from a project and don't select a new one, Visual Studio won't know what Python file to start with when you try to run the project. In this case, Visual Studio 2017 version 15.6 and later shows an error; earlier versions either open an output window with the Python interpreter running, or you see the output window appears but then disappear almost immediately. If you encounter any of these behaviors, check that you have an assigned startup file.
+>
+> If you want to keep the output window open for any reason, right-click your project, select **Properties**, select the **Debug** tab, then add `-i` to the **Interpreter Arguments** field. This argument causes the interpreter to go into interactive mode after a program completes, thereby keeping the window open until you enter Ctrl+Z, Enter to exit.
 
 A new project is always associated with the default global Python environment. To associate the project with a different environment (including virtual environments), right-click the **Python Environments** node in the project, select **Add/Remove Python Environments**, and select the ones you want. To change the active environment, right-click the desired environment and select **Activate Environment** as shown below. For more information, see [Selecting an environment for a project](selecting-a-python-environment-for-a-project.md).
 
