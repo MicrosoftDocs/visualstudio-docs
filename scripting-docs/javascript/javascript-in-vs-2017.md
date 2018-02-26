@@ -228,7 +228,7 @@ A simple way to optimize your project, is by adding a `tsconfig.json` file on yo
 Add more directories as you see fit. Some other examples include "vendor" or "wwwroot/lib" directories. 
 
 > [!NOTE]
-> The compiler property `disableSizeLimit` can be used as well to disable the 20MB check limit. Take special precautions when using this proprty as disabling the limit might crash the language service.
+> The compiler property `disableSizeLimit` can be used as well to disable the 20MB check limit. Take special precautions when using this property as disabling the limit might crash the language service.
 
 # Notable Changes from VS 2015 
 As [!include[vs_dev15](../../docs/misc/includes/vs_dev15_md.md)] features a completely new language service, there are a few behaviors that will be different or absent from the previous experience.
