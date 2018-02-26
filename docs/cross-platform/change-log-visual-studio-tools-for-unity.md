@@ -19,6 +19,15 @@ ms.workload:
 # Change Log (Visual Studio Tools for Unity)
 Visual Studio Tools for Unity change log.  
 
+## 3.5.0.3
+ Released 2018-01-09
+
+### Bug fixes  
+
+-   **Integration:**  
+
+    -   Fixed automatic pdb to mdb debug symbol conversion.
+
 ## 3.5.0.2
  Released 2017-12-04
 
