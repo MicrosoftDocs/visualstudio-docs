@@ -99,7 +99,7 @@ Administrators sign into [https://manage.visualstudio.com](https://manage.visual
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/logos/logo_visual-studio.svg" alt="" />
+                            <img src="https://docs.microsoft.com/media/logos/logo_vs-mac.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
