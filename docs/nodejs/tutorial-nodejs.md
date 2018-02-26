@@ -23,19 +23,19 @@ In this tutorial for Node.js development using Visual Studio, you'll create a si
 ## Create a project
 First, you'll create an Node.js web application project.
 
+1. If you don't have the Node.js runtime already installed, install the LTS version from the [Node.js](https://nodejs.org/en/download/) website.
+
+    In general, Visual Studio automatically detects the installed Node.js runtime. If it does not detect an installed runtime you can configure your project to reference the installed runtime.
+
 1. Open Visual Studio 2017.  
 
-2. From the top menu bar, choose **File** > **New** > **Project...**.  
+1. From the top menu bar, choose **File** > **New** > **Project...**.  
 
-3. In the **New Project** dialog box, in the left pane, expand **JavaScript**, then choose **Node.js**. In the middle pane, choose **Basic Azure Node.js Express 4 Application**, then choose **OK**.   
+1. In the **New Project** dialog box, in the left pane, expand **JavaScript**, then choose **Node.js**. In the middle pane, choose **Basic Azure Node.js Express 4 Application**, then choose **OK**.   
 
      If you don't see the **Basic Azure Node.js Express 4 Application** project template, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **Node.js development** workload, then choose **Modify**. 
 
     Visual Studio creates the new solution and opens your project. The **app.js** project file opens in the editor (left pane). If you are not familiar with Visual Studio solutions and projects, see [Quickstart: Use Visual Studio to create your first Node.js app](../ide/quickstart-nodejs.md).
-
-4. If you don't have the Node.js runtime already installed, install it from the [Node.js](https://nodejs.org/en/download/) website.
-
-    In general, Visual Studio automatically detects the installed Node.js runtime. If it does not detect an installed runtime you can configure your project to reference the installed runtime.
 
 ## Add some code
 

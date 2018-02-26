@@ -24,21 +24,21 @@ In this 5-10 minute introduction to the Visual Studio integrated development env
 ## Create a project
 First, you'll create an Node.js web application project.
 
+1. If you don't have the Node.js runtime already installed, install the LTS version from the [Node.js](https://nodejs.org/en/download/) website.
+
+    In general, Visual Studio automatically detects the installed Node.js runtime. If it does not detect an installed runtime you can configure your project to reference the installed runtime.
+
 1. Open Visual Studio 2017.  
 
-2. From the top menu bar, choose **File** > **New** > **Project...**.  
+1. From the top menu bar, choose **File** > **New** > **Project...**.  
 
-3. In the **New Project** dialog box, in the left pane, expand **JavaScript**, then choose **Node.js**. In the middle pane, choose **Blank Node.js Web application**, then choose **OK**.   
+1. In the **New Project** dialog box, in the left pane, expand **JavaScript**, then choose **Node.js**. In the middle pane, choose **Blank Node.js Web application**, then choose **OK**.   
 
      If you don't see the **Blank Node.js Web application** project template, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **Node.js development** workload, then choose **Modify**.  
 
      ![Node.js workload in VS Installer](../ide/media/quickstart-nodejs-workload.png)  
 
     Visual Studio creates and the new solution and opens the project. **server.js** open in the editor.
-
-4. If you don't have the Node.js runtime already installed, install it from the [Node.js](https://nodejs.org/en/download/) website.
-
-    In general, Visual Studio automatically detects the installed Node.js runtime. If it does not detect an installed runtime you can configure your project to reference the installed runtime.
 
 ## Explore the IDE  
 
