@@ -47,7 +47,7 @@ The following LSP features are supported in Visual Studio so far:
 Message | Has Support in Visual Studio
 --- | ---
 initialize | yes
-initialized | 
+initialized | yes
 shutdown | yes
 exit | yes
 $/cancelRequest | yes
@@ -67,12 +67,12 @@ textDocument/didOpen | yes
 textDocument/didChange | yes
 textDocument/willSave |
 textDocument/willSaveWaitUntil |
-textDocument/didSave |
+textDocument/didSave | yes
 textDocument/didClose | yes
 textDocument/completion | yes
 completion/resolve | yes
-textDocument/hover |
-textDocument/signatureHelp |
+textDocument/hover | yes
+textDocument/signatureHelp | yes
 textDocument/references | yes
 textDocument/documentHighlight |
 textDocument/documentSymbol | yes
@@ -131,7 +131,7 @@ The LSP does not include specification on how to provide text colorization for l
 
 1. Create a folder called "Grammars" inside your extension (or it can be whatever name you choose).
 
-2. Inside the "Grammars" folder, include any *.tmlanguage or *.tmtheme files you’d like which provides custom colorization.
+2. Inside the "Grammars" folder, include any *.tmlanguage, *.plist, *.tmtheme, or *.json files you’d like which provides custom colorization.
 
 3. Right-click on the files and select **Properties**. Change the Build action to **Content** and the **Include in VSIX** property to true.
 
@@ -205,6 +205,16 @@ namespace MockLanguageExtension
         public async Task OnLoadedAsync()
         {
             await StartAsync?.InvokeAsync(this, EventArgs.Empty);
+        }
+
+        public async Task OnServerInitializeFailedAsync(Exception e)
+        {
+            return Task.CompletedTask;
+        }
+
+        public async Task OnServerInitializedAsync()
+        {
+            return Task.CompletedTask;
         }
     }
 }
@@ -423,6 +433,7 @@ internal class MockCustomLanguageClient : MockLanguageClient, ILanguageClientCus
     public async Task<string> SendServerCustomMessage(string test)
     {
         return await this.customMessageRpc.InvokeAsync<string>("OnCustomRequest", test);
+    }
 }
 ```
 
@@ -435,7 +446,6 @@ Each LSP message has its own middle layer interface for interception. To interce
 ```csharp
 public class MockLanguageClient: ILanguageClient, ILanguageClientCustomMessage
 {
-
     public object MiddleLayer => MiddleLayerProvider.Instance;
 
     private class MiddleLayerProvider : ILanguageClientWorkspaceSymbolProvider
@@ -454,6 +464,7 @@ public class MockLanguageClient: ILanguageClient, ILanguageClientCustomMessage
             // Only return symbols that are "files"
             return symbols.Where(sym => string.Equals(new Uri(sym.Location.Uri).Scheme, "file", StringComparison.OrdinalIgnoreCase)).ToArray();
         }
+    }
 }
 ```
 

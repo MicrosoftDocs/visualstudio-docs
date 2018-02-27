@@ -1,6 +1,17 @@
-# Getting Started on Connected Environment with Node.js
+---
+title: "Visual Studio Connected Environment | Microsoft Docs"
+author: "johnsta"
+ms.author: "johnsta"
+ms.date: "02/20/2018"
+ms.topic: "get-started-article"
+ms.technology: "vsce-kubernetes"
+description: "Rapid Kubernetes development with containers and microservices on Azure"
+keywords: "Docker, Kubernetes, Azure, AKS, Azure Container Service, containers"
+manager: "ghogen"
+---
+# Get Started on Connected Environment with Node.js
 
-Previous step: [Install Tools](get-started-nodejs-01.md)
+Previous step: [Install tools](get-started-nodejs-01.md)
 
 [!INCLUDE[](common/sign-into-azure.md)]
 

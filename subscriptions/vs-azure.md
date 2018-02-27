@@ -64,11 +64,16 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 ![Azure Dashboard](_img\vs-azure\vs-azure-dashboard-cropped.png)
 
 ## FAQ
-*Check here for updates*
+### Q: How do I submit a technical support incident from within the Azure portal?
+A:  Submitting a support incident from the Azure portal is a three-step process.
+1. Activate your technical support benefit, and obtain your Contract ID Access ID.
+2. Link your support contract to your Azure subscription. 
+3. Submit a support incident.
+Please visit the [Technical Support](/visualstudio/subscriptions/vs-tech-support) documentation for complete details. 
 
 ## Support Resources
 -  Need help with Azure?  Check out these resources:
-    - Technical Support: https://azure.microsoft.com/support/options/ 
-    - [Documentation](/azure/)
+    - Technical Support: [https://azure.microsoft.com/support/options/](https://azure.microsoft.com/support/options/)
+    - [Azure documentation](/visualstudio/azure/)
 -  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://www.visualstudio.com/subscriptions/support/).
 -  Have a question about Visual Studio IDE, Visual Studio Team Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://www.visualstudio.com/support/). 

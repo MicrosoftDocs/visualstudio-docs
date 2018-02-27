@@ -1,5 +1,5 @@
-## Initialize Code for Docker and Kubernetes Development
-So far, we have a basic web app that can run locally - we'll now containerize it by creating assets that define the app's container and how it will deploy to Kubernetes. This is easy to do with Connected Environment: 
+## Initialize code for Docker and Kubernetes development
+So far, we have a basic web app that can run locally. We'll now containerize it by creating assets that define the app's container and how it will deploy to Kubernetes. This is easy to do with Connected Environment: 
 
 1. Launch VS Code and open the `webfrontend` folder. (You can ignore any default prompts to add debug assets or restore the project.)
 1. Open the Integrated Terminal in VS Code (using the **View | Integrated Terminal** menu).

@@ -1,8 +1,19 @@
-# Getting Started on Connected Environment with .NET Core and Visual Studio
+---
+title: "Visual Studio Connected Environment | Microsoft Docs"
+author: "johnsta"
+ms.author: "johnsta"
+ms.date: "02/20/2018"
+ms.topic: "get-started-article"
+ms.technology: "vsce-kubernetes"
+description: "Rapid Kubernetes development with containers and microservices on Azure"
+keywords: "Docker, Kubernetes, Azure, AKS, Azure Container Service, containers"
+manager: "ghogen"
+---
+# Get Started on Connected Environment with .NET Core and Visual Studio
 
-Previous step: [Install Tools](get-started-netcore-visualstudio-01.md)
+Previous step: [Install tools](get-started-netcore-visualstudio-01.md)
 
-## Create an ASP.NET Web App
+## Create an ASP.NET web app
 From within Visual Studio 2017 create a new project, currently this must be an **ASP.NET Core Web Application**. Name the project '**webfrontend**'.
 
 ![](images/NewProjectDialog1.png)
@@ -12,4 +23,4 @@ Select the **Web Application (Model-View-Controller)** template and be sure you 
 ![](images/NewProjectDialog2.png)
 
 > [!div class="nextstepaction"]
-> [Create a Dev Environment in Azure](get-started-netcore-visualstudio-03.md)
+> [Create a dev environment in Azure](get-started-netcore-visualstudio-03.md)

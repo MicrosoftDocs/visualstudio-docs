@@ -28,9 +28,9 @@ Visual Studio's excellent support for SQL Server helps data scientists work with
 > - Visual Studio 2017: run the Visual Studio installer and select the Data storage and processing workload, which includes SQL Server Data tools.
 > - Visual Studio 2015: follow the instructions on [Download SQL Server Data Tools](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt).
 
-The following video (3m 03s) provides a brief overview of SQL Server and R:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/n4AYr0QIwdQ" frameborder="0" allowfullscreen></iframe>
+|   |   |
+|---|---|
+| ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | [Watch a video (youtube.com)](https://www.youtube.com/watch?v=n4AYr0QIwdQ) for an overview of SQL Server and R (3m 03s). |
 
 ## Creating and running SQL Queries
 
@@ -61,9 +61,9 @@ RTVS simplifies the otherwise unwieldy and error-prone process of combining SQL 
 - [Write and test a SQL stored procedure](#write-and-test-a-sql-stored-procedure)
 - [Publish a SQL stored procedure](#publish-a-sql-stored-procedure)
 
-The following video (6m 09s) also provides an overview of these features:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dFKIT2OitWQ" frameborder="0" allowfullscreen></iframe>
+|   |   |
+|---|---|
+| ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | [Watch a video (youtube.com)](https://www.youtube.com/watch?v=dFKIT2OitWQ) for an overview of R and SQL stored procedures (6m 09s). |
 
 ### Add a database connection
 
