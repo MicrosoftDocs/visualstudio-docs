@@ -188,6 +188,7 @@
 ## [How to: Use AsyncPackage to Load VSPackages in the Background](how-to-use-asyncpackage-to-load-vspackages-in-the-background.md)
 ## [How to: Use Rule-based UI Context for Visual Studio Extensions](how-to-use-rule-based-ui-context-for-visual-studio-extensions.md)
 ## [How to: Diagnose extension performance](how-to-diagnose-extension-performance.md)
+## [How to: Diagnose UI delays caused by extensions](how-to-diagnose-ui-delays-caused-by-extensions.md)
 ## [Troubleshooting VSPackages](troubleshooting-vspackages.md)
 # [Shell (Integrated or Isolated)](https://vspartner.com/pages/vsshells)
 # [Shipping Visual Studio Extensions](shipping-visual-studio-extensions.md)
