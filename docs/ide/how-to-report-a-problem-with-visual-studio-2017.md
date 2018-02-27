@@ -37,7 +37,7 @@ If you haven't already done so, sign in to Visual Studio before you report a pro
 
 ## Report a new problem <a name="report_new_problem"></a>
 
-1.If you don’t find what you're looking for, choose the **Report new problem** button at the bottom of the screen.
+1. If you don’t find what you're looking for, choose the **Report new problem** button at the bottom of the screen.
 2. Create a descriptive title for the problem that helps us route it to the correct Visual Studio team.
 3. Give us any additional details, and if possible, provide us with the steps to reproduce the problem.
 
