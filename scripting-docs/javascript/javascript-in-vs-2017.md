@@ -144,7 +144,7 @@ The language service is powered by static analysis which means it analyzes your 
 Therefore, the larger the quantity and size of files that are included your project context, the more memory and CPU will be used during analysis.
 Because of this there are a few default assumptions that are made about your project shape:
 
-- `package.json` and `bower.json` list dependencies used by your project and by default are included in Automatic Type Acquisition (ATA) <TODO - add link>
+- `package.json` and `bower.json` list dependencies used by your project and by default are included in Automatic Type Acquisition (ATA)
 - A top level `node_modules` folder contains library source code and its contents are excluded from the project context by default
 - Every other `.js`, `.jsx`, `.ts`, and `.tsx` file is possibly one of *your own* source files and must be included in project context
 
