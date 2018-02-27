@@ -138,9 +138,9 @@ After you build and test the project task list, you can deploy it to the *local 
 
 ### To deploy the project task list to the local system
 
-1. On the Visual Studio menu bar, choose **Build**, **Deploy Solution**.
+On the Visual Studio menu bar, choose **Build**, **Deploy Solution**.
 
-     Visual Studio recycles the IIS application pool, retracts any existing versions of the solution, copies the solution package (.wsp) file to SharePoint, and then activates its features. You can now use the solution in SharePoint. For more information about deployment configuration steps, see [How to: Edit a SharePoint Deployment Configuration](../sharepoint/how-to-edit-a-sharepoint-deployment-configuration.md).
+Visual Studio recycles the IIS application pool, retracts any existing versions of the solution, copies the solution package (.wsp) file to SharePoint, and then activates its features. You can now use the solution in SharePoint. For more information about deployment configuration steps, see [How to: Edit a SharePoint Deployment Configuration](../sharepoint/how-to-edit-a-sharepoint-deployment-configuration.md).
 
 ### To deploy the project task list to a remote system
 

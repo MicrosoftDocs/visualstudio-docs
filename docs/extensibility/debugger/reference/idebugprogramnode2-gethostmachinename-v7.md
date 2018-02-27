@@ -21,7 +21,8 @@ ms.workload:
 ---
 # IDebugProgramNode2::GetHostMachineName_V7
 
-DEPRECATED. DO NOT USE.
+> [!Note]
+> DEPRECATED. DO NOT USE.
 
 ## Syntax
 

@@ -34,7 +34,7 @@ To rerun Remote Debugging setup, follow the instructions at [Remote Debugging](.
 
 If you can locate a copy of ssdebugps.dll, you can copy it onto the [!INCLUDE[sqprsqlong](../debugger/includes/sqprsqlong_md.md)] machine. If present, the file will be in the directory \Program Files\ Common Files\Microsoft Shared\SQL Debugging. You might find it on another [!INCLUDE[sqprsqlong](../debugger/includes/sqprsqlong_md.md)] machine, or on a machine that has Visual Studio 2005 installed.
 
-## To copy SSDEBUGPS.dll onto the SQL Server 2005 machine
+To copy SSDEBUGPS.dll onto the SQL Server 2005 machine:
 
 1. Copy the file to the directory with the same name and path on the [!INCLUDE[sqprsqlong](../debugger/includes/sqprsqlong_md.md)] machine.
 
