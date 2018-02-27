@@ -82,7 +82,7 @@ Packages that are already installed appear with controls to update (an up arrow)
 
 ![Python environments packages tab](media/environments-pip-tab-controls.png)
 
-Entering a search term filters the list of installed packages as well packages that can be installed.
+Entering a search term filters the list of installed packages as well as packages that can be installed from PyPI.
 
 ![Python environments packages tab with a search on "num"](media/environments-pip-tab.png)
 
