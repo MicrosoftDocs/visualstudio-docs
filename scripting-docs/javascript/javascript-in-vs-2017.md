@@ -200,6 +200,35 @@ You could use the following `tsconfig.json` to make sure the language service on
   }
 }
 ```
+# Troubleshooting The JavaScript language service has been disabled for the following project(s)
+When you open a JavaScript project that has a very large amount of content, you might get a message that reads "The JavaScript language service has been disabled for the following project(s)". The most common reason for having a very large amount of JavaScript source is due to including libraries with source code that exceeds a 20MB project limit.
+
+A simple way to optimize your project is to add a `tsconfig.json` file in your project root to let the language service know which files are safe to ignore. Use the sample below to exclude the most common directories where libraries are stored:
+
+```json
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "maxNodeModuleJsDepth": 2,
+    "noEmit": true,
+    "skipLibCheck": true
+  },
+  "exclude": [
+    "**/bin",
+    "**/bower_components",
+    "**/jspm_packages",
+    "**/node_modules",
+    "**/obj",
+    "**/platforms"
+  ]
+}
+```
+
+Add more directories as you see fit. Some other examples include "vendor" or "wwwroot/lib" directories. 
+
+> [!NOTE]
+> The compiler property `disableSizeLimit` can be used as well to disable the 20MB check limit. Take special precautions when using this property because disabling the limit might crash the language service.
 
 # Notable Changes from VS 2015 
 As [!include[vs_dev15](../../docs/misc/includes/vs_dev15_md.md)] features a completely new language service, there are a few behaviors that will be different or absent from the previous experience.
