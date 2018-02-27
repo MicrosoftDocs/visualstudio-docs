@@ -183,11 +183,11 @@ When you run the project, the SharePoint site opens. The web part is automatical
 
 ### To specify lists to include in the monthly calendar view
 
-1. In the web part, specify calendars that you want to include in the monthly calendar view, and then choose the **Update** button.
+In the web part, specify calendars that you want to include in the monthly calendar view, and then choose the **Update** button.
 
-     Events from all calendars that you specified appear in the monthly calendar view.
+Events from all calendars that you specified appear in the monthly calendar view.
 
-## See Also
+## See also
 
 [Creating Web Parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md)  
 [How to: Create a SharePoint Web Part](../sharepoint/how-to-create-a-sharepoint-web-part.md)  

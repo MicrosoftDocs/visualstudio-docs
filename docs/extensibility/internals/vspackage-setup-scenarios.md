@@ -40,8 +40,7 @@ For example, registry values used to register your VSPackage with the [!INCLUDE[
 
 In this scenario, a shared VSPackage (a single binary that supports multiple versions of Visual Studio is shipped in a Windows Installer package. Registering with each version of Visual Studio is controlled by user-selectable features. It also means that when assigned to separate features, each component can be selected individually for installation or uninstallation, putting the user in control of integrating the VSPackage into different versions of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. (See [Windows Installer Features](http://msdn.microsoft.com/library/aa372840\(VS.85\).aspx) for more information on using features in Windows Installer packages.)
 
-![VS Shared VSPackage graphic](../../extensibility/internals/media/vs_sharedpackage.gif "VS_SharedPackage")
-Shared VSPackage installer
+![VS Shared VSPackage installer](../../extensibility/internals/media/vs_sharedpackage.gif "VS_SharedPackage")
 
 As shown in the illustration, shared components are made part of the Feat_Common feature, which is always installed. By making the Feat_VS2002 and Feat_VS2003 features visible, users can choose at install-time into which versions of Visual Studio they want the VSPackage to integrate. Users can also use Windows Installer maintenance mode to add or remove features, which in this case adds or removes the VSPackage registration information from different versions of Visual Studio.
 
@@ -55,8 +54,7 @@ In this scenario, an updated version of the VSPackage installer in scenario 1 is
 > [!CAUTION]
 > Whenever a VSPackage is shared among multiple versions of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], it is essential that subsequent releases of the VSPackage maintain backward compatibility with prior versions of Visual Studio. Where you cannot maintain backward compatibility, you must use side-by-side, private VSPackages. For more information, see [Supporting Multiple Versions of Visual Studio](../../extensibility/supporting-multiple-versions-of-visual-studio.md).
 
-![VS Shared VS Package Update Image](../../extensibility/internals/media/vs_sharedpackageupdate.gif "VS_SharedPackageUpdate")
-Shared VSPackage update installer
+![VS Shared VS Package Update installer](../../extensibility/internals/media/vs_sharedpackageupdate.gif "VS_SharedPackageUpdate")
 
 This scenario presents a new VSPackage installer, taking advantage of Windows Installer's support for minor upgrades. Users simply install version 1.1 and it upgrades version 1.0. However, it is not necessary to have version 1.0 on the system. The same installer will install version 1.1 on a system without version 1.0. The advantage to provide minor upgrades in this manner is that it is not necessary to go through the work of developing an upgrade installer and a full-product installer. One installer does both jobs. A security fix or service pack might instead take advantage of Windows Installer patches. For more information, see [Patching and Upgrades](http://msdn.microsoft.com/library/aa370579\(VS.85\).aspx).
 
@@ -64,8 +62,7 @@ This scenario presents a new VSPackage installer, taking advantage of Windows In
 
 This scenario presents two VSPackage installers — one for each version of Visual Studio .NET 2003 and Visual Studio. Each installer installs a side-by-side, or private, VSPackage (one that is specifically built and installed for a particular version of Visual Studio). Each VSPackage is in its own component. Consequently, each can be individually serviced with patches or maintenance releases. Because the VSPackage DLL is now version-specific, it is safe to include its registration information in the same component as the DLL.
 
-![VS Side&#45;by&#45;Side VS Package graphic](../../extensibility/internals/media/vs_sbys_package.gif "VS_SbyS_Package")
-Side-by-side VSPackage installer
+![VS Side-by-Side VS Package installer](../../extensibility/internals/media/vs_sbys_package.gif "VS_SbyS_Package")
 
 Each installer also includes code that is shared between the two installers. If the shared code is installed to a common location, installing both .msi files will install the shared code only once. The second installer just increments a reference count on the component. The reference count ensures that if one of the VSPackages is uninstalled, the shared code will remain for the other VSPackage. If the second VSPackage is uninstalled as well, the shared code will be removed.
 
@@ -75,10 +72,9 @@ In this scenario, your VSPackage for Visual Studio suffered from a security vuln
 
 In this case, the VSPackage is a managed VSPackage installed in the global assembly cache (GAC). When you rebuild it to include the security fix, you must change the revision number portion of the assembly version number. The registration information for the new assembly version number overwrites the previous version, causing [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] to load the fixed assembly.
 
-![VS Side&#45;by&#45;Side VS Package Update graphic](../../extensibility/internals/media/vs_sbys_packageupdate.gif "VS_SbyS_PackageUpdate")
-Side-by-side VSPackage update installer
+![VS Side-by-Side VS Package Update installer](../../extensibility/internals/media/vs_sbys_packageupdate.gif "VS_SbyS_PackageUpdate")
 
-**Note** For more information on deployment of side-by-side assemblies, see [Simplifying Deployment and Solving DLL Hell with the .NET Framework](http://msdn.microsoft.com/library/ms973843.aspx).
+For more information on deployment of side-by-side assemblies, see [Simplifying Deployment and Solving DLL Hell with the .NET Framework](http://msdn.microsoft.com/library/ms973843.aspx).
 
 ## See Also
 
