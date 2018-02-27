@@ -39,7 +39,7 @@ If you install a supported version of Visual Studio, the .NET Framework, and Mic
 
      Office developer tools are an optional component of Visual Studio, but they are usually installed automatically along with Visual Studio. If you customize the Visual Studio installation by specifying which features to install, make sure that you choose **Microsoft Office Developer Tools** during setup to install the tools.
 
-     To ensure that these tools are installed, start the Visual Studio setup program, and choose the **Modify** button. Select the **Microsoft Office Developer Tools** check box, and then choose the **Update** button.
+     To make sure that these tools are installed, start the Visual Studio setup program, and choose the **Modify** button. Select the **Microsoft Office Developer Tools** check box, and then choose the **Update** button.
 
 - Ensure that you're not running a version of Office that was delivered by Click-to-Run. See [How to: Verify Whether Outlook Is a Click-to-Run Application on a Computer](http://msdn.microsoft.com/library/office/ff864733(v=office.14).aspx).
 

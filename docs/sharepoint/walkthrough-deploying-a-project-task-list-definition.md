@@ -25,14 +25,6 @@ ms.workload:
 
 This walkthrough shows you how to use [!INCLUDE[vs_dev11_long](../sharepoint/includes/vs-dev11-long-md.md)] to create, customize, debug, and deploy a SharePoint list to track project tasks.
 
-This walkthrough illustrates the following tasks:
-
-- [Creating a SharePoint List](#CreatingListDef).
-- [Creating a SharePoint List](#CreatingListDef).
-- [Adding an Event Receiver](#AddEventRcvr).
-- [Customizing the Project Task List Feature](#CustomizeFeature).
-- [Building and Testing the Project Task List](#BuildTest).
-
 [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]
 
 ## Prerequisites
