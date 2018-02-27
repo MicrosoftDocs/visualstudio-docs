@@ -33,6 +33,8 @@
 #### [Control updates to Visual Studio deployments](install/controlling-updates-to-visual-studio-deployments.md)
 ### Manage installations
 #### [Tools for detecting and managing Visual Studio instances](install/tools-for-managing-visual-studio-instances.md)
+### Manage subscriptions
+#### [Visual Studio subscriptions: Administrator overview](/visualstudio/subscriptions/admin-responsibilities) 
 ### [Help Viewer Administrator Guide](ide/help-viewer-administrator-guide.md)
 #### [Command-Line Arguments for the Help Content Manager](ide/command-line-arguments-for-the-help-content-manager.md)
 #### [Help Content Manager Overrides](ide/help-content-manager-overrides.md)
