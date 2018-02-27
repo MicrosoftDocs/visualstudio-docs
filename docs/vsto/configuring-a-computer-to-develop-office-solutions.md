@@ -41,7 +41,7 @@ If you install a supported version of Visual Studio, the .NET Framework, and Mic
 
      To make sure that these tools are installed, start the Visual Studio setup program, and choose the **Modify** button. Select the **Microsoft Office Developer Tools** check box, and then choose the **Update** button.
 
-- Ensure that you're not running a version of Office that was delivered by Click-to-Run. See [How to: Verify Whether Outlook Is a Click-to-Run Application on a Computer](http://msdn.microsoft.com/library/office/ff864733(v=office.14).aspx).
+- Make sure that you're not running a version of Office that was delivered by Click-to-Run. See [How to: Verify Whether Outlook Is a Click-to-Run Application on a Computer](http://msdn.microsoft.com/library/office/ff864733(v=office.14).aspx).
 
 - Ensure that you're running only one version of Microsoft Office.
 
