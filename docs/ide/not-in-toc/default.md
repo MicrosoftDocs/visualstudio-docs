@@ -11,7 +11,7 @@ ms.technology: vs-ide-general
 ---
 # F1 help
 
-It looks like we couldn't find what you were looking for, and we apologize. Please [help use improve](#help-us-improve-f1).
+It looks like we couldn't find what you were looking for, and we apologize. Please [help us improve](#help-us-improve-f1).
 
 ## Cursor position
 
