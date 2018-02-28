@@ -33,6 +33,8 @@
 #### [Control updates to Visual Studio deployments](install/controlling-updates-to-visual-studio-deployments.md)
 ### Manage installations
 #### [Tools for detecting and managing Visual Studio instances](install/tools-for-managing-visual-studio-instances.md)
+### Manage subscriptions
+#### [Visual Studio subscriptions: Administrator overview](/visualstudio/subscriptions/admin-responsibilities) 
 ### [Help Viewer Administrator Guide](ide/help-viewer-administrator-guide.md)
 #### [Command-Line Arguments for the Help Content Manager](ide/command-line-arguments-for-the-help-content-manager.md)
 #### [Help Content Manager Overrides](ide/help-content-manager-overrides.md)
@@ -46,7 +48,7 @@
 # Quickstarts
 ## [Visual Studio Orientation](ide/quickstart-ide-orientation.md)
 ## [Projects and Solutions](ide/quickstart-projects-solutions.md)
-## [Write Code in the Editor](ide/quickstart-editor.md)
+## [Use the Editor](ide/quickstart-editor.md)
 ## [Personalize Theme and Text Colors](ide/quickstart-personalize-the-ide.md)
 ## [C++: Create a Console App](ide/getting-started-with-cpp-in-visual-studio.md)
 ## [Python: Create a Web App](ide/quickstart-python.md)
@@ -98,7 +100,7 @@
 #### [Visual Studio IDE 64-Bit Support](ide/visual-studio-ide-64-bit-support.md)
 ### [Develop without Projects or Solutions ("Open Folder")](ide/develop-code-in-visual-studio-without-projects-or-solutions.md)
 #### [Customize Build and Debug Tasks](ide/customize-build-and-debug-tasks-in-visual-studio.md)
-### [Write Code in the Editor](ide/writing-code-in-the-code-and-text-editor.md)
+### [Use the Editor](ide/writing-code-in-the-code-and-text-editor.md)
 #### [Find and Replace Text](ide/finding-and-replacing-text.md)
 ##### [Use Regular Expressions](ide/using-regular-expressions-in-visual-studio.md)
 ##### [Find-Command Box](ide/find-command-box.md)
