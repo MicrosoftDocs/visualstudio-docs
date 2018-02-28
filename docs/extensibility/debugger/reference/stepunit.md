@@ -17,6 +17,8 @@ caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # STEPUNIT
 Specifies the step unit for stepping.  

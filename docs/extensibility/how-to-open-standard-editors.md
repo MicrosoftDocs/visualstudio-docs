@@ -16,6 +16,8 @@ caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # How to: Open Standard Editors
 When you open a standard editor, you let the IDE determine a standard editor for a designated file type, instead of specifying a project-specific editor for the file.  

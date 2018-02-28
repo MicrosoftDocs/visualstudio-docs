@@ -17,6 +17,8 @@ caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaStackFrame::get_registerValue
 Retrieves the value of a specified register as stored in the stack frame.  

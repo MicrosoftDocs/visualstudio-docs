@@ -31,6 +31,8 @@ caps.latest.revision: 34
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+ms.workload: 
+  - "multiple"
 ---
 # &lt;dependency&gt; Element (ClickOnce Application)
 Identifies a platform or assembly dependency that is required for the application.  

@@ -11,11 +11,11 @@ ms.topic: "article"
 dev_langs: 
   - "VB"
   - "CSharp"
-ms.assetid: 0bd1c6a6-67a5-4478-b942-8b937b28f723
-caps.latest.revision: 12
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # IWefDebuggingSupport Interface
   Implemented by a debugging environment, such as Visual Studio, to facilitate debugging of apps for Office. The Office application, such as Word or Excel, obtains this interface from Visual Studio and then calls methods on the interface at certain points during the debugging session.  

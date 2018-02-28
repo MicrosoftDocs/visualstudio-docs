@@ -26,6 +26,8 @@ helpviewer_keywords:
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Project and solution file types
 

@@ -17,6 +17,8 @@ caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_count
 Retrieves the number of items in a list or array.  

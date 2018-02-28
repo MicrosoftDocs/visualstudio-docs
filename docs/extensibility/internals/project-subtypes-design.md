@@ -15,6 +15,8 @@ caps.latest.revision: 32
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Project Subtypes Design
 Project subtypes let VSPackages extend projects based on the Microsoft Build Engine (MSBuild). The use of aggregation lets you reuse the bulk of the core managed project system implemented in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] yet still customize the behavior for a particular scenario.  

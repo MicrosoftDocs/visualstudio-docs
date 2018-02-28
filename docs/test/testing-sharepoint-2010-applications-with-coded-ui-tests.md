@@ -4,14 +4,14 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 51b53778-469c-4cc9-854c-4e4992d6389b
-caps.latest.revision: 30
-ms.author: "douge"
-manager: "douge"
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+author: gewarren
 ---
 # Testing SharePoint 2010 Applications with Coded UI Tests
 Including coded UI tests in a SharePoint application lets you verify that the whole application, including its UI controls, is functioning correctly. Coded UI tests can also validate values and logic in the user interface.  
@@ -25,12 +25,12 @@ Including coded UI tests in a SharePoint application lets you verify that the wh
   
  **Notes**  
   
--   ![Prerequsite](../test/media/prereq.png "Prereq") Coded UI tests for SharePoint applications are supported only with SharePoint 2010.  
+-   ![Prerequisite](../test/media/prereq.png "Prereq") Coded UI tests for SharePoint applications are supported only with SharePoint 2010.  
   
--   ![Prerequsite](../test/media/prereq.png "Prereq") Support for Visio and PowerPoint 2010 controls in your SharePoint application is not supported.  
+-   ![Prerequisite](../test/media/prereq.png "Prereq") Support for Visio and PowerPoint 2010 controls in your SharePoint application is not supported.  
   
 ## Creating a coded UI test for your SharePoint app  
- [Creating coded UI tests](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITCreate) for your SharePoint 2010 applications is the same as creating tests for other types of applications. Record and Playback is supported for all controls on the Web Editing interface. The interface for selecting categories and web parts are all standard web controls.  
+ [Creating coded UI tests](../test/use-ui-automation-to-test-your-code.md) for your SharePoint 2010 applications is the same as creating tests for other types of applications. Record and Playback is supported for all controls on the Web Editing interface. The interface for selecting categories and web parts are all standard web controls.  
   
  ![SharePoint web parts](../test/media/cuit_sharepoint.png "CUIT_SharePoint")  
   
@@ -139,10 +139,10 @@ uiGridKeyboardInputEdit.Text=value;
 ### Forum  
  [Visual Studio ALM + Team Foundation Server Blog](http://go.microsoft.com/fwlink/?LinkID=254496)  
   
-## See Also  
- [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)   
- [Web performance and load testing SharePoint 2010 and 2013 applications](/devops-test-docs/test/web-performance-and-load-testing-sharepoint-2010-and-2013-applications)   
- [Create SharePoint Solutions](/office-dev/office-dev/create-sharepoint-solutions)   
- [Verifying and Debugging SharePoint Code](/office-dev/office-dev/verifying-and-debugging-sharepoint-code)   
- [Building and Debugging SharePoint Solutions](/office-dev/office-dev/building-and-debugging-sharepoint-solutions)   
- [Profiling the Performance of SharePoint Applications](/office-dev/office-dev/profiling-the-performance-of-sharepoint-applications)
+## See also
+
+[Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)  
+[Create SharePoint Solutions](/office-dev/office-dev/create-sharepoint-solutions)   
+[Verifying and Debugging SharePoint Code](/office-dev/office-dev/verifying-and-debugging-sharepoint-code)   
+[Building and Debugging SharePoint Solutions](/office-dev/office-dev/building-and-debugging-sharepoint-solutions)   
+[Profiling the Performance of SharePoint Applications](/office-dev/office-dev/profiling-the-performance-of-sharepoint-applications)

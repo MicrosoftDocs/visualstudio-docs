@@ -13,11 +13,11 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "application manifests [Office development in Visual Studio], <application> element"
-ms.assetid: b8d3db7c-9127-4812-b18f-bb17e1f8788f
-caps.latest.revision: 22
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # &lt;application&gt; Element (Office Development in Visual Studio)
   The `application` element of the `vstav3` namespace wraps the description of Office solutions. The child elements are different for document-level customizations and VSTO Add-ins.  

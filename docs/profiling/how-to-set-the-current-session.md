@@ -16,29 +16,27 @@ helpviewer_keywords:
   - "performance sessions, setting multiple"
   - "performance tools, setting current performance session"
   - "sessions, setting multiple"
-ms.assetid: a593e551-18ec-46fd-bfd5-8a045165a334
-caps.latest.revision: 16
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Set the Current Session
-You can open multiple performance sessions in the **Performance Explorer**, and can then select one of the visible performance sessions to be set as the current session.  
-  
- **Requirements**  
-  
--   [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)], [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)], [!INCLUDE[vsPro](../code-quality/includes/vspro_md.md)]  
-  
- After you set a session as the current session, clicking **Launch** on the **Performance Explorer** toolbar will start profiling the current session.  
-  
-### To set current performance session  
-  
--   In **Performance Explorer**, right-click the performance session, and then click **Set as Current Session**.  
-  
-     The session name appears in bold.  
-  
-## See Also  
- [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)   
- [Performance Explorer Window](../profiling/performance-explorer-window.md)   
- [Performance Session Properties](../profiling/performance-session-properties.md)   
- [Performance Session Overview](../profiling/performance-session-overview.md)
+
+You can open multiple performance sessions in the **Performance Explorer**, and can then select one of the visible performance sessions to be set as the current session.
+
+After you set a session as the current session, clicking **Launch** on the **Performance Explorer** toolbar will start profiling the current session.
+
+## To set current performance session
+
+- In **Performance Explorer**, right-click the performance session, and then click **Set as Current Session**.
+
+     The session name appears in bold.
+
+## See also
+
+[Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)  
+[Performance Explorer Window](../profiling/performance-explorer-window.md)  
+[Performance Session Properties](../profiling/performance-session-properties.md)  
+[Performance Session Overview](../profiling/performance-session-overview.md)

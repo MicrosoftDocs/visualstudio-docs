@@ -17,6 +17,8 @@ caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CV_CPU_TYPE_e
 Specifies the target processor.  

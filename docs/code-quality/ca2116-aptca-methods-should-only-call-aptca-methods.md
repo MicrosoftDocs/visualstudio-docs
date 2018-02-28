@@ -19,6 +19,8 @@ caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA2116: APTCA methods should only call APTCA methods
 |||  

@@ -4,16 +4,16 @@ ms.custom: ""
 ms.date: "05/02/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "IntelliTest Reference Manual, IntelliTest"
-ms.assetid: C5FA1C59-BB82-43B6-BF96-D0D85E033DAE
-caps.latest.revision: 56
-ms.author: "douge"
-manager: "douge"
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+author: gewarren
 ---
 # IntelliTest Reference Manual
 

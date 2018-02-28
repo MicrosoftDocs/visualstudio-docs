@@ -17,6 +17,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugExpressionEvaluationCompleteEvent2::GetResult
 Gets the result of expression evaluation.  

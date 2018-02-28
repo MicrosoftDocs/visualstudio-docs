@@ -16,6 +16,8 @@ caps.latest.revision: 22
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Troubleshooting VSPackages
 Following are common problems that you might have with your VSPackage and tips to resolve the issues.  

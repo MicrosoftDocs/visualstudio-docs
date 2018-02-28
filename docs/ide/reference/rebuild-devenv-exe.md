@@ -19,6 +19,8 @@ caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # /Rebuild (devenv.exe)
 Cleans and then builds the specified solution configuration.  

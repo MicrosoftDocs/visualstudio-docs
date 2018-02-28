@@ -14,11 +14,11 @@ dev_langs:
 helpviewer_keywords: 
   - "Outlook folders [Office development in Visual Studio], creating"
   - "Outlook folders [Office development in Visual Studio], custom"
-ms.assetid: 5af5b11c-3911-46fa-8a80-413c23b4f2b5
-caps.latest.revision: 17
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Create Custom Folder Items
   This example creates a new folder in Microsoft Office Outlook. The name of the user who is logged on is used for the folder name.  

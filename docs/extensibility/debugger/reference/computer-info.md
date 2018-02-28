@@ -15,6 +15,8 @@ caps.latest.revision: 6
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # COMPUTER_INFO
 Describes the computer on which the debugger is running.  

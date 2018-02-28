@@ -15,6 +15,8 @@ caps.latest.revision: 16
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Legacy Language Service Features
 The following topics list some of the legacy language service features you can provide.  

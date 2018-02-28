@@ -16,6 +16,8 @@ caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Combo Element
 Defines commands that appear in a combo box. There are four kinds of combo boxes, as follows: DropDownCombo, DynamicCombo, IndexCombo, and MRUCombo.  

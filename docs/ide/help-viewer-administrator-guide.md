@@ -13,6 +13,8 @@ caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Help Viewer administrator guide
 The Help Viewer allows you to manage local Help installations for network environments with or without internet access. Local help content is configured on a per machine basis. By default, users must have administrator rights to update their local Help installation.  

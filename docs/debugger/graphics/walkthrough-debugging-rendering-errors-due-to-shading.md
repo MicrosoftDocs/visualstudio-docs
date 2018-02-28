@@ -13,6 +13,8 @@ caps.latest.revision: 14
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Walkthrough: Debugging Rendering Errors Due to Shading
 This walkthrough demonstrates how to use [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Graphics Diagnostics to investigate an object that is colored incorrectly due to a shader bug.  

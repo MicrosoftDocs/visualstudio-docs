@@ -17,6 +17,8 @@ caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # DA0021: High rate of Gen 1 garbage collections
 |||  

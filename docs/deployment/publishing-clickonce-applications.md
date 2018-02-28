@@ -25,6 +25,8 @@ caps.latest.revision: 22
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+ms.workload: 
+  - "multiple"
 ---
 # Publishing ClickOnce Applications
 When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application for the first time, publish properties can be set using the Publish Wizard. Only a few of the properties are available in the wizard; all other properties are set to their default values.  

@@ -16,11 +16,11 @@ helpviewer_keywords:
   - "filling ranges automatically"
   - "ranges, automatically filling"
   - "workbooks, filling ranges"
-ms.assetid: 27639d55-8ab5-483c-8907-2ea50dfd2188
-caps.latest.revision: 40
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Automatically Fill Ranges with Incrementally Changing Data
   The <xref:Microsoft.Office.Interop.Excel.Range.AutoFill%2A> method of the <xref:Microsoft.Office.Interop.Excel.Range> object enables you to fill a range in a worksheet with values automatically. Most often, the <xref:Microsoft.Office.Interop.Excel.Range.AutoFill%2A> method is used to store incrementally increasing or decreasing values in a range. You can specify the behavior by supplying an optional constant from the <xref:Microsoft.Office.Interop.Excel.XlAutoFillType> enumeration.  

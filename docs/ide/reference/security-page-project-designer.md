@@ -17,6 +17,8 @@ helpviewer_keywords:
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Security Page, Project Designer
 The **Security** page of the **Project Designer** is used to configure code access security settings for applications that are deployed by using [!INCLUDE[ndptecclick](../../deployment/includes/ndptecclick_md.md)] deployment. For more information, see [Code Access Security for ClickOnce Applications](../../deployment/code-access-security-for-clickonce-applications.md).  

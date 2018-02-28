@@ -25,6 +25,8 @@ caps.latest.revision: 49
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+ms.workload: 
+  - "multiple"
 ---
 # Walkthrough: Manually Deploying a ClickOnce Application
 If you cannot use Visual Studio to deploy your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application, or you need to use advanced deployment features, such as Trusted Application Deployment, you should use the Mage.exe command-line tool to create your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] manifests. This walkthrough describes how to create a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment by using either the command-line version (Mage.exe) or the graphical version (MageUI.exe) of the Manifest Generation and Editing Tool.  

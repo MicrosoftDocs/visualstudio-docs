@@ -13,6 +13,8 @@ caps.latest.revision: 21
 author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Step 10: Write Code for Additional Buttons and a Check Box
 Now you're ready to complete the other four methods. You could copy and paste this code, but if you want to learn the most from this tutorial, type the code and use IntelliSense.  

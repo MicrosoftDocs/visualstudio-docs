@@ -15,6 +15,8 @@ caps.latest.revision: 22
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Extending the Editor and Language Services
 You can add language service features (such as IntelliSense) to your own editor, and extend most features of the Visual Studio code editor.  For a full list of what you can extend, see [Language Service and Editor Extension Points](../extensibility/language-service-and-editor-extension-points.md).  

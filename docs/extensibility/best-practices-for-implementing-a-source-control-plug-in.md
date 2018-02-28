@@ -17,6 +17,8 @@ caps.latest.revision: 17
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Best Practices for Implementing a Source Control Plug-in
 The following technical details can help you reliably implement a source control plug-in in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  

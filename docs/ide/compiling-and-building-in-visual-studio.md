@@ -16,6 +16,8 @@ caps.latest.revision: 28
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 
 # Compiling and building in Visual Studio

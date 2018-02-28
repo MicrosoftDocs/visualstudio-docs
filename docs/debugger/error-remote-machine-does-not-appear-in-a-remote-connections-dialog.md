@@ -17,6 +17,8 @@ caps.latest.revision: 2
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Error: Remote machine does not appear in a Remote Connections dialog
 If the remote machine does not appear in the Remote Connections dialog, check the following common causes.  

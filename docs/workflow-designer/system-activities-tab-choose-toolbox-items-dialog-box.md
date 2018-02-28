@@ -14,6 +14,8 @@ caps.latest.revision: 5
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+ms.workload: 
+  - "multiple"
 ---
 # System.Activities Tab, Choose Toolbox Items Dialog Box
 This tab of the **Choose Toolbox Items** dialog box displays a list of [!INCLUDE[wf](../workflow-designer/includes/wf_md.md)] activities, templates and items available to you. To display this list, select **Choose Toolbox Items** from the **Tools** menu or by right-clicking the **Toolbox** and selecting **Choose Items** to display the **Choose Toolbox Items** dialog box, and then select its **System.Activities** tab. Out of the box, the list contains workflow activities from System.Activities, System.ServiceModel.Activities, and System.Activities.Core.Presentation assemblies; however, only the system-provided activities shown and activities added through other assemblies displayed in the **Toolbox** are checked by default. Recently added activities are automatically checked and appear in the **Toolbox** when you click **OK** on the dialog box. Also, these items appear in the **Toolbox** under a new category that corresponds to the namespace where the activity/item/template resides.  

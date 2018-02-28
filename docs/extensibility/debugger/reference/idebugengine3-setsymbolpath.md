@@ -17,6 +17,8 @@ caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugEngine3::SetSymbolPath
 Sets the path or paths that are searched for debugging symbols.  

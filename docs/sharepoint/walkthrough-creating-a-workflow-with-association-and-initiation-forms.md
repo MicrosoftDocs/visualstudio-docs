@@ -20,11 +20,11 @@ helpviewer_keywords:
   - "association forms [SharePoint development in Visual Studio]"
   - "initiation forms [SharePoint development in Visual Studio]"
   - "SharePoint development in Visual Studio, workflow initiation forms"
-ms.assetid: c8666d8c-b173-4245-8014-9c1cd6acb071
-caps.latest.revision: 38
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Walkthrough: Creating a Workflow with Association and Initiation Forms
   This walkthrough demonstrates how to create a basic sequential workflow that incorporates the use of association and initiation forms. These are ASPX forms that enable parameters to be added to a workflow when it is first associated by the SharePoint administrator (the association form), and when the workflow is started by the user (the initiation form).  

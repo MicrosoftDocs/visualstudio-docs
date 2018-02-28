@@ -17,6 +17,8 @@ caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaStackWalkHelper::imageForVA
 Returns the start of an executable's image in memory given a virtual address somewhere in the executable's memory space.  

@@ -17,11 +17,11 @@ helpviewer_keywords:
   - "WPF [Office development in Visual Studio]"
   - "toolbars [Office development in Visual Studio], customizing"
   - "Office applications [Office development in Visual Studio], UI customization"
-ms.assetid: 3d7c7b88-2053-4ada-bfe7-e7bb202c430b
-caps.latest.revision: 74
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Office UI Customization
   You can customize the user interface (UI) of Microsoft Office applications by using the Office developer tools in Visual Studio. This topic describes the UI features that you can customize in the following sections:  

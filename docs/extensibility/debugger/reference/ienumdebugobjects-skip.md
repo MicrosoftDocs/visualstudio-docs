@@ -17,6 +17,8 @@ caps.latest.revision: 4
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IEnumDebugObjects::Skip
 This method skips over the specified number of elements.  

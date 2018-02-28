@@ -17,6 +17,8 @@ caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaStackFrame::get_type
 Retrieves the frame type.  

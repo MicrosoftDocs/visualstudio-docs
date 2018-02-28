@@ -16,6 +16,8 @@ caps.latest.revision: 22
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Project Types
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] includes several project types for languages such as [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] and [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)]. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] also lets you create your own project types.  

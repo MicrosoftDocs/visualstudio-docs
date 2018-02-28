@@ -16,6 +16,8 @@ caps.latest.revision: 7
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Expression Evaluation (Visual Studio Debugging SDK)
 During break mode, the IDE must be able to evaluate simple expressions involving several variables of your program. To accomplish this, the debug engine (DE) must be able to parse and evaluate an expression that is entered into one of the windows of the IDE.  

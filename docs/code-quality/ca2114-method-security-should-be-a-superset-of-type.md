@@ -19,6 +19,8 @@ caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA2114: Method security should be a superset of type
 |||  

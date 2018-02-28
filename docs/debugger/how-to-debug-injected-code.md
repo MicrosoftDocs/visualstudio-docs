@@ -29,6 +29,8 @@ caps.latest.revision: 17
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Debug Injected Code
 > [!NOTE]

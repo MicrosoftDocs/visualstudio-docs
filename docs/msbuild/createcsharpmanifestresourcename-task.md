@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: msbuild
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
@@ -18,9 +17,11 @@ helpviewer_keywords:
   - "CreateCSharpManifestResourceName task [MSBuild]"
 ms.assetid: 2ace88c1-d757-40a7-8158-c1d3f5ff0511
 caps.latest.revision: 8
-author: "kempb"
-ms.author: "kempb"
+author: Mikejo5000
+ms.author: mikejo
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CreateCSharpManifestResourceName Task
 Creates a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)]-style manifest name from a given .resx file name or other resource.  

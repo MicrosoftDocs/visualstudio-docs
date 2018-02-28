@@ -20,11 +20,11 @@ helpviewer_keywords:
   - "document-level customizations [Office development in Visual Studio]"
   - "AddInLoader.dll"
   - "architecture [Office development in Visual Studio], document-level customizations"
-ms.assetid: bafed4d0-5ff6-457b-9974-7c90f6ecb547
-caps.latest.revision: 86
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Architecture of Document-Level Customizations
   [!INCLUDE[vs_dev12](../vsto/includes/vs-dev12-md.md)] includes projects for creating document-level customizations for Microsoft Office Word and Microsoft Office Excel. This topic describes the following aspects of document-level customizations:  

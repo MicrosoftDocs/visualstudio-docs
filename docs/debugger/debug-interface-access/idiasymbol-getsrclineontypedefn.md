@@ -15,6 +15,8 @@ caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::getSrcLineOnTypeDefn
 Retrieves the source file and line number that indicate where a specified user-defined type is defined.  

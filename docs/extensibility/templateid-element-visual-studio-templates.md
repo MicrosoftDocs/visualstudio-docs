@@ -18,6 +18,8 @@ caps.latest.revision: 15
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # TemplateID Element (Visual Studio Templates)
 Specifies an identifier for an item template that is categorized into a group of item templates by the [TemplateGroupID](../extensibility/templategroupid-element-visual-studio-templates.md) element.  

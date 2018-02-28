@@ -13,6 +13,8 @@ caps.latest.revision: 8
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+ms.workload: 
+  - "multiple"
 ---
 # Delay Activity Designer
 The **Delay** activity designer is used to create and configure a <xref:System.Activities.Statements.Delay> activity.  

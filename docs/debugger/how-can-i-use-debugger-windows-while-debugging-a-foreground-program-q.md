@@ -26,6 +26,8 @@ caps.latest.revision: 16
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How Can I Use Debugger Windows While Debugging a Foreground Program?
 ## Problem Description  

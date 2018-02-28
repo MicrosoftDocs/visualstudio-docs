@@ -17,6 +17,8 @@ caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProgramEx2::Attach
 Attach a session to a program.  

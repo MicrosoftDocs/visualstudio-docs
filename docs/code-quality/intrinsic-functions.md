@@ -20,6 +20,8 @@ caps.latest.revision: 7
 author: mikeblome
 ms.author: mblome
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Intrinsic Functions
 An expression in SAL can be a C/C++ expression provided that it is an expression that does not have side effects—for example, ++, --, and function calls all have side effects in this context.  However, SAL does provide some function-like objects and some reserved symbols that can be used in SAL expressions. These are referred to as *intrinsic functions*.  

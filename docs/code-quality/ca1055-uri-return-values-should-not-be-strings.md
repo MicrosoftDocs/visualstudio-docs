@@ -19,6 +19,8 @@ caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA1055: URI return values should not be strings
 |||  

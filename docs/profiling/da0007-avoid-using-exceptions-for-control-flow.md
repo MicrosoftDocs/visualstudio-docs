@@ -18,6 +18,8 @@ caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # DA0007: Avoid using exceptions for control flow
 |||  

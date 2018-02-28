@@ -17,6 +17,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugReference2::GetReferenceInfo
 Gets the [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-reference-info.md) structure that describes a reference. Reserved for future use.  

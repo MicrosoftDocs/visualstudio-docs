@@ -4,16 +4,16 @@ ms.custom: ""
 ms.date: "05/02/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "IntelliTest, Dynamic symbolic execution"
-ms.assetid: B938E2D2-7B7C-4D76-B26C-2616F5B4A9F5
-caps.latest.revision: 56
-ms.author: "douge"
-manager: "douge"
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+author: gewarren
 ---
 # Input generatation using dynamic symbolic execution
 

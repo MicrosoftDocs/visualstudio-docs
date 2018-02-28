@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: msbuild
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
@@ -15,9 +14,11 @@ helpviewer_keywords:
   - "Hello World example [Visual Studio]"
 ms.assetid: d14f1212-ddd9-434f-b138-f840011b0fb2
 caps.latest.revision: 20
-author: "kempb"
-ms.author: "kempb"
+author: Mikejo5000
+ms.author: mikejo
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Build the Same Source Files with Different Options
 When you build projects, you frequently compile the same components with different build options. For example, you can create a debug build with symbol information or a release build with no symbol information but with optimizations enabled. Or you can build a project to run on a specific platform, such as x86 or [!INCLUDE[vcprx64](../extensibility/internals/includes/vcprx64_md.md)]. In all these cases, most of the build options stay the same; only a few options are changed to control the build configuration. With [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)], you use properties and conditions to create the different build configurations.  

@@ -17,6 +17,8 @@ caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IEnumDebugPorts2
 This interface enumerates the ports of a machine or port supplier.  

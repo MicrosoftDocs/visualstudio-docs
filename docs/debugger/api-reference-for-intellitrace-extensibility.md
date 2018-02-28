@@ -15,6 +15,8 @@ caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # API Reference for IntelliTrace Extensibility
 By using the information in this section, you can use IntelliTrace extensibility APIs to read and decode .itrace files in your application.  

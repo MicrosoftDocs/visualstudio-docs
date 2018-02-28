@@ -21,6 +21,8 @@ caps.latest.revision: 23
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Error: Debugging Isn&#39;t Possible Because a Kernel Debugger is Enabled on the System
 When you debug managed code, you might receive the following error message:  

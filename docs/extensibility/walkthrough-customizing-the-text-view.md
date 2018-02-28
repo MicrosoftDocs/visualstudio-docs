@@ -15,6 +15,8 @@ caps.latest.revision: 22
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Walkthrough: Customizing the Text View
 You can customize a text view by modifying any of the following properties in its editor-format map:  

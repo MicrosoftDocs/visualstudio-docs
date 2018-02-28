@@ -16,6 +16,8 @@ caps.latest.revision: 6
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # PreviewImage Element (Visual Studio Templates)
 Specifies the preview image, as a file name, for the preview image that will appear in either the **New Project** or **Add New Item** dialog box.  

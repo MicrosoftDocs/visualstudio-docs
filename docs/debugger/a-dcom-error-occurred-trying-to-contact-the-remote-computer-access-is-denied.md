@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.remote.dcom_access_denied"
 dev_langs: 
@@ -25,6 +25,8 @@ caps.latest.revision: 27
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # A DCOM error occurred trying to contact the remote computer. Access is denied.
 Remote debugging uses DCOM to communicate between the local and remote computers in the following situations:  

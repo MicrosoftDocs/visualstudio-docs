@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "tgt-pltfrm-cross-plat"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -13,6 +13,8 @@ caps.latest.revision: 4
 author: "conceptdev"
 ms.author: "crdun"
 manager: crdun
+ms.workload: 
+  - "unity"
 ---
 # Overview of Visual Studio Tools for Unity
 In this section, you'll learn more about the features Visual Studio Tools for Unity offers, and how you can use them to become more productive with Unity.  

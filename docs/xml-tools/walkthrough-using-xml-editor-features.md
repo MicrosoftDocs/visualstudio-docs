@@ -13,6 +13,8 @@ caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Walkthrough: Using XML Editor Features
 The steps in this walkthrough show you how to create a new XML document. The walkthrough also uses some of the features of the XML Editor that make it valuable for XML authoring.  
@@ -123,7 +125,7 @@ The steps in this walkthrough show you how to create a new XML document. The wal
     </xs:complexType>  
   </xs:element>  
 </xs:schema>  
-```  
+```
   
 ## See Also  
  [XML Editor](../xml-tools/xml-editor.md)

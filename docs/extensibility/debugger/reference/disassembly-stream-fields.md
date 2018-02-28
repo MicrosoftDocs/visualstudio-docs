@@ -17,6 +17,8 @@ caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # DISASSEMBLY_STREAM_FIELDS
 Specifies what information to retrieve about a disassembly field.  

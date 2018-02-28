@@ -21,6 +21,8 @@ caps.latest.revision: 24
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Object Lifetime View
 The Object Lifetime view is available when **Also collect .NET object lifetime data** is checked on the Performance Session property pages.  

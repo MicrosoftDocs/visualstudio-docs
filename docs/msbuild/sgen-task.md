@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: msbuild
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -20,9 +19,11 @@ helpviewer_keywords:
   - "MSBuild, SGen task"
 ms.assetid: 22c5ade4-4159-4667-b891-0c1aa06f4df5
 caps.latest.revision: 11
-author: "kempb"
-ms.author: "kempb"
+author: Mikejo5000
+ms.author: mikejo
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # SGen Task
 Creates an XML serialization assembly for types in the specified assembly. This task wraps the XML Serializer Generator Tool (Sgen.exe). For more information, see [XML Serializer Generator Tool (Sgen.exe)](/dotnet/framework/serialization/xml-serializer-generator-tool-sgen-exe).  

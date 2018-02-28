@@ -16,6 +16,8 @@ caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Modules
 In terms of the debugger architecture, a **module**:  

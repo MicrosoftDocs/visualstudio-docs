@@ -17,6 +17,8 @@ caps.latest.revision: 6
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # NATIVE_ADDRESS
 This structure represents a native address.  

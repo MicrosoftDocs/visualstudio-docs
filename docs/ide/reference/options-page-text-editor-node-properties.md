@@ -16,6 +16,8 @@ caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Options Page, Text Editor Node Properties
 This document describes some pages (or properties collections) that are associated with the **Text Editor** category, `DTE.Properties("TextEditor", <Property Page>)`, of the **Options** dialog box. The title of each subsection is the call that is used to access the `Properties` collection, and the table in each subsection lists the properties in the collection.  

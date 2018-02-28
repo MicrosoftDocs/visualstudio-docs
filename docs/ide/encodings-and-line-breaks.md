@@ -22,6 +22,8 @@ caps.latest.revision: 8
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Encodings and Line Breaks
 The following characters are interpreted as line breaks in Visual Studio:  

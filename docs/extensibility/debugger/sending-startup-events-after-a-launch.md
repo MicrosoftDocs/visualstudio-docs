@@ -15,6 +15,8 @@ caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Sending Startup Events After a Launch
 Once the debug engine (DE) is attached to the program, it sends a series of startup events back to the debug session.  

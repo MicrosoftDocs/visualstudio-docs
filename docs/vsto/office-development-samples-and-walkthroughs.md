@@ -21,11 +21,11 @@ helpviewer_keywords:
   - "application development [Office development in Visual Studio], samples"
   - "sample applications [Office development in Visual Studio]"
   - "examples [Office development in Visual Studio]"
-ms.assetid: 6c59604d-7e14-41c0-bc51-851355100726
-caps.latest.revision: 28
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Office Development Samples and Walkthroughs
   This section contains sample applications, example code, and step-by-step walkthroughs that illustrate the syntax, structure, and techniques used to build Microsoft Office solutions.  

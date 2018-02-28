@@ -18,6 +18,8 @@ caps.latest.revision: 35
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Making Commands Available
 When multiple VSPackages are added to Visual Studio, the user interface (UI) may become overcrowded with commands. You can program your package to help reduce this problem, as follows:  

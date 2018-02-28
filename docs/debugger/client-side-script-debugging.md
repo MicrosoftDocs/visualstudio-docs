@@ -21,12 +21,14 @@ caps.latest.revision: 30
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Client-Side Script Debugging
 The Visual Studio  debugger provides a comprehensive debugging environment for finding and correcting errors in client-side scripts in ASP.NET pages.  
   
 ## Opening Script Documents  
- You can see lists of server-side and client-side script documents in the **Solution Explorer** to view . You can open any script document from **Solution Explorer**. For more information, see [How to: View Script Documents](../debugger/how-to-view-script-documents.md).  
+You can see lists of server-side and client-side script documents in the **Solution Explorer** to view. You can open any script document from **Solution Explorer**. For more information, see [How to: View Script Documents](../debugger/how-to-view-script-documents.md).  
   
 ## Breakpoint Mapping  
  In Visual Studio, you cannot directly debug server-side code, but you can set a breakpoint in a server-side file. Visual Studio automatically maps the breakpoint to a corresponding location in the client-side file and creates a mapped breakpoint in the client-side code.  

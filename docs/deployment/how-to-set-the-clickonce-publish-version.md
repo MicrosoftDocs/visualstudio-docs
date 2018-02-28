@@ -21,6 +21,8 @@ caps.latest.revision: 9
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+ms.workload: 
+  - "multiple"
 ---
 # How to: Set the ClickOnce Publish Version
 The [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] `Publish Version` property determines whether or not the application that you are publishing will be treated as an update. Each time version is incremented, the application will be published as an update.  

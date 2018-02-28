@@ -13,6 +13,8 @@ caps.latest.revision: 18
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Walkthrough: Saving User Settings on a Start Page
 You can persist user settings for your start page. By following this walkthrough, you can create a control that saves a setting to the registry when the user clicks a button, and then retrieves that setting every time the Start Page loads. Because the Start Page project template includes a customizable user control, and the default Start Page XAML calls that control, you do not have to modify the Start Page itself.  

@@ -15,11 +15,11 @@ helpviewer_keywords:
   - "project items [SharePoint development in Visual Studio], extending"
   - "SharePoint project items, extending"
   - "SharePoint development in Visual Studio, extending project items"
-ms.assetid: 1cea4e0f-ce33-4cd7-a664-800184865456
-caps.latest.revision: 36
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Walkthrough: Extending a SharePoint Project Item Type
   You can use the **Business Data Connectivity Model** project item to create a model for the Business Data Connectivity (BDC) service in SharePoint. By default, when you create a model by using this project item, the data in the model is not displayed to users. You must also create an external list in SharePoint to enable users to view the data.  

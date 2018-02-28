@@ -12,6 +12,8 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.technology: "vs-data-tools"
+ms.workload: 
+  - "data-storage"
 ---
 # How to: Configure inheritance by using the O/R Designer
 The [!INCLUDE[vs_ordesigner_long](../data-tools/includes/vs_ordesigner_long_md.md)] ([!INCLUDE[vs_ordesigner_short](../data-tools/includes/vs_ordesigner_short_md.md)]) supports the concept of single-table inheritance as it is often implemented in relational systems. In single-table inheritance, there is a single database table that contains fields for both parent information and child information. With relational data, a discriminator column contains the value that determines which class any record belongs to.  

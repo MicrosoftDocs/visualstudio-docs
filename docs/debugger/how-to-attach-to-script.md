@@ -23,6 +23,8 @@ caps.latest.revision: 23
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Attach to Script
 This topic explains how to manually attach the Visual Studio debugger to a script file for debugging.  

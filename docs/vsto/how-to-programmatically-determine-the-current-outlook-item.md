@@ -16,11 +16,11 @@ helpviewer_keywords:
   - "e-mail [Office development in Visual Studio], current item"
   - "SelectionChange event"
   - "Outlook [Office development in Visual Studio], current item"
-ms.assetid: b4fb5ccd-b297-463e-9208-1fec42482531
-caps.latest.revision: 28
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Determine the Current Outlook Item
   This example uses the Explorer.SelectionChange event to display the name of the current folder and some information about the selected item. The code then displays the selected item.  

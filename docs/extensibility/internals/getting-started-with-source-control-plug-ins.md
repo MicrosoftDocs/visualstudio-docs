@@ -16,6 +16,8 @@ caps.latest.revision: 21
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Getting Started with Source Control Plug-ins
 To create a source control plug-in, you must create a DLL that implements the functions defined in the Source Control Plug-in API, and then to register the DLL with [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] to make it available for use in source code version control.  

@@ -16,6 +16,8 @@ caps.latest.revision: 7
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Terminating a Program
 The following is a description of the termination of a single program with one thread.  

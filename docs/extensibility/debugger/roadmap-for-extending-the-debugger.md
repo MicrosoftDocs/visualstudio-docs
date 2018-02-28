@@ -16,6 +16,8 @@ caps.latest.revision: 16
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Roadmap for Extending the Debugger
 This documentation provides guide and reference information for extending the [!INCLUDE[vs_current_short](../../code-quality/includes/vs_current_short_md.md)] debugger with the [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)].  

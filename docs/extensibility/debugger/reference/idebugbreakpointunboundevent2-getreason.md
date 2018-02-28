@@ -17,6 +17,8 @@ caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugBreakpointUnboundEvent2::GetReason
 Gets the reason the breakpoint was unbound.  

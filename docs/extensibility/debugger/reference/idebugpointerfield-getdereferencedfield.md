@@ -17,6 +17,8 @@ caps.latest.revision: 7
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugPointerField::GetDereferencedField
 This method returns the type of object to which this pointer object points.  

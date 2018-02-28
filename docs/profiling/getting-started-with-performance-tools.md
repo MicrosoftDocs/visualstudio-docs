@@ -16,6 +16,8 @@ caps.latest.revision: 28
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Getting Started with Performance Tools
 This section provides an overview of the concepts and tasks that you will apply when you collect, view, and analyze code performance using the Visual Studio performance tools.  
@@ -32,7 +34,7 @@ This section provides an overview of the concepts and tasks that you will apply 
 |----------|---------------------|  
 |**Quickly profile an application or a Web site:** Use the Performance Wizard to configure and run a profiling session for a Visual Studio solution or a Web site.|-   [Beginners Guide to Performance Profiling](../profiling/beginners-guide-to-cpu-sampling.md)<br />-   [How to: Collect Performance Data for a Web Site](../profiling/how-to-collect-performance-data-for-a-web-site.md)|  
 |**Profile an application without the wizard:** Learn to use the performance session property pages to create a performance session.|-   [How to: Manually Create Performance Sessions](../profiling/how-to-manually-create-performance-sessions.md)|  
-|**Try it:** Get hands-on experience by profiling a sample application.|-   [Walkthrough: Identifying Performance Problems](../profiling/walkthrough-identifying-performance-problems.md)<br />-   [PeopleTrax Sample](../profiling/peopletrax-sample-profiling-tools.md)|  
+|**Try it:** Get hands-on experience by profiling a sample application.|-   [Walkthrough: Identifying Performance Problems](../profiling/walkthrough-identifying-performance-problems.md)<br />-   [PeopleTrax sample](../profiling/peopletrax-sample-profiling-tools.md)|  
   
 ## See Also  
  [Overviews](../profiling/overviews-performance-tools.md)   

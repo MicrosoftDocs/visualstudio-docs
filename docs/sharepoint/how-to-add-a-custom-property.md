@@ -20,11 +20,11 @@ helpviewer_keywords:
   - "Business Data Connectivity service [SharePoint development in Visual Studio], properties"
   - "Business Data Connectivity service [SharePoint development in Visual Studio], custom properties"
   - "BDC [SharePoint development in Visual Studio], custom properties"
-ms.assetid: 670c7fff-a8fb-499f-8694-d5aecc432c16
-caps.latest.revision: 10
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Add a Custom Property
   You can add custom properties to the model by using the **Property Editor**. You can access these properties in code to retrieve information such as connection strings and other data at run time.  

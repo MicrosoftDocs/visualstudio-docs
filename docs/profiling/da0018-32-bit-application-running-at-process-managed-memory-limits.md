@@ -17,6 +17,8 @@ caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "dotnet"
 ---
 # DA0018: 32-bit Application running at process managed memory limits
 |||  

@@ -18,6 +18,8 @@ caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # SupportsMasterPage Element (Visual Studio Templates)
 Specifies whether the or not the **Select Master Page** checkbox is enabled on the **Add New Item** dialog box.  

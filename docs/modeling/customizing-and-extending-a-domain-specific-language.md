@@ -4,15 +4,15 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Domain-Specific Language Tools, creating solutions"
-ms.assetid: b155eb79-4e0a-4a99-a6f2-ca4f811fb5ca
-caps.latest.revision: 48
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Customizing and Extending a Domain-Specific Language
 Visual Studio Modeling and Visualization SDK (VMSDK) provides several levels at which you can define modeling tools:  
@@ -67,10 +67,10 @@ Visual Studio Modeling and Visualization SDK (VMSDK) provides several levels at 
 |Integrate several DSLs so that they work as part of one application.|See [Integrating Models by using Visual Studio Modelbus](../modeling/integrating-models-by-using-visual-studio-modelbus.md).|  
 |Allow your DSL to be extended by third parties, and control the extension.|[Extend your DSL by using MEF](../modeling/extend-your-dsl-by-using-mef.md)<br /><br /> [Sharing Classes between DSLs by using a DSL Library](../modeling/sharing-classes-between-dsls-by-using-a-dsl-library.md)<br /><br /> [Defining a Locking Policy to Create Read-Only Segments](../modeling/defining-a-locking-policy-to-create-read-only-segments.md)|
   
-## See Also  
- [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)   
- [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)   
- [Modeling SDK for Visual Studio - Domain-Specific Languages](../modeling/modeling-sdk-for-visual-studio-domain-specific-languages.md)  
+## See also
+
+[How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)   
+[Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)   
+[Modeling SDK for Visual Studio - Domain-Specific Languages](../modeling/modeling-sdk-for-visual-studio-domain-specific-languages.md)  
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
-

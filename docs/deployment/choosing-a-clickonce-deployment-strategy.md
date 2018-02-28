@@ -20,6 +20,8 @@ caps.latest.revision: 19
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+ms.workload: 
+  - "multiple"
 ---
 # Choosing a ClickOnce Deployment Strategy
 There are three different strategies for deploying a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application; the strategy that you choose depends primarily on the type of application that you are deploying. The three deployment strategies are as follows:  

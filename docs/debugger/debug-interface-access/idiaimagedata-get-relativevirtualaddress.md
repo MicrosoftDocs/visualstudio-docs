@@ -17,6 +17,8 @@ caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaImageData::get_relativeVirtualAddress
 Retrieves the location in virtual memory of the module relative to the application.  

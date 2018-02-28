@@ -18,6 +18,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # BuildProjectOnLoad (Visual Studio Templates)
 Specifies whether to build the project immediately after it's created.  
@@ -66,7 +68,7 @@ Specifies whether to build the project immediately after it's created.
         <Description>A basic template</Description>  
         <Icon>TemplateIcon.ico</Icon>  
         <ProjectType>CSharp</ProjectType>  
-        <BuildProjectOnload>true</BuildProjectOnLoad>  
+        <BuildProjectOnLoad>true</BuildProjectOnLoad>  
     </TemplateData>  
     <TemplateContent>  
         <Project File="MyTemplate.csproj">  

@@ -17,6 +17,8 @@ caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProgramNode2::GetHostPid
 Gets the system process identifier for the process hosting the program.  

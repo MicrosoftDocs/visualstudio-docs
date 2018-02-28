@@ -17,6 +17,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # MACHINE_INFO_FLAGS
 Used to describe a machine.  

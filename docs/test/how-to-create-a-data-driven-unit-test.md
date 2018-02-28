@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -15,10 +14,11 @@ helpviewer_keywords:
   - "unit tests, running"
   - "unit tests, data-driven"
   - "data-driven unit tests"
-ms.assetid: a0322bc5-02c8-4f9f-af43-100a60b1bd28
-caps.latest.revision: 33
-ms.author: "douge"
-manager: "douge"
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+author: gewarren
 ---
 # How To: Create a Data-Driven Unit Test
 Using the Microsoft unit test framework for managed code, you can set up a unit test method to retrieve values used in the test method from a data source. The method is run successively for each row in the data source, which makes it easy to test a variety of input by using a single method.  
@@ -178,12 +178,12 @@ int x = Convert.ToInt32(TestContext.DataRow["FirstNumber"]);
   
  When the method under test is corrected and the test rerun, the results bar turns green and the test method is moved to the **Passed Test** group.  
   
-## See Also  
- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute?displayProperty=fullName>   
- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext?displayProperty=fullName>   
- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.DataRow%2A?displayProperty=fullName>   
- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert?displayProperty=fullName>   
- [How to: Create and Run a Unit Test](http://msdn.microsoft.com/en-us/5e0f43cf-5e51-48e2-9c98-0eb9324bdc48)   
- [Unit Test Your Code](../test/unit-test-your-code.md)   
- [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md)   
- [Writing Unit Tests for the .NET Framework with the Microsoft Unit Test Framework for Managed Code](../test/writing-unit-tests-for-the-dotnet-framework-with-the-microsoft-unit-test-framework-for-managed-code.md)
+## See also
+
+<xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute?displayProperty=fullName>  
+<xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext?displayProperty=fullName>  
+<xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.DataRow%2A?displayProperty=fullName>  
+<xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert?displayProperty=fullName>  
+[Unit Test Your Code](../test/unit-test-your-code.md)  
+[Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md)  
+[Writing Unit Tests for the .NET Framework with the Microsoft Unit Test Framework for Managed Code](../test/writing-unit-tests-for-the-dotnet-framework-with-the-microsoft-unit-test-framework-for-managed-code.md)

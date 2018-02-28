@@ -22,6 +22,8 @@ caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Error: Unable to Automatically Step Into the Server
 The error reads:  

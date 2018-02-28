@@ -17,6 +17,8 @@ caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_optimizedCodeDebugInfo
 Retrieves a flag that indicates whether the function contains debug information that is specific for optimized code.  

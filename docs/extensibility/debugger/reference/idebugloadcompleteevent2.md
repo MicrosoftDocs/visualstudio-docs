@@ -17,6 +17,8 @@ caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugLoadCompleteEvent2
 This interface is sent by the debug engine (DE) to the session debug manager (SDM) when a program is loaded, but before any code is executed.  

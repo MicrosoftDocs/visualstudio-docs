@@ -13,6 +13,8 @@ caps.latest.revision: 20
 author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Step 5: Add Controls to Your Form
 In this step, you add controls, such as a `PictureBox` control and a `CheckBox` control, to your form. You then add buttons to your form.  

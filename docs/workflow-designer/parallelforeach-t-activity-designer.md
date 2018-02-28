@@ -13,6 +13,8 @@ caps.latest.revision: 9
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+ms.workload: 
+  - "multiple"
 ---
 # ParallelForEach&lt;T&gt; Activity Designer
 The <xref:System.Activities.Statements.ParallelForEach%601> activity enumerates the elements of a collection and executes an embedded statement for each element of the collection in parallel, which is asynchronously on the same thread. Use this flow control activity instead of the <xref:System.Activities.Statements.Sequence> activity if the child activities of this activity are expected to go idle.  

@@ -17,6 +17,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # BP_COND_STYLE
 Specifies the breakpoint condition style for pending and bound breakpoints.  

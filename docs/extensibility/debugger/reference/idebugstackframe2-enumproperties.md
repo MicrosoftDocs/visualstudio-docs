@@ -17,6 +17,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugStackFrame2::EnumProperties
 Creates an enumerator for properties associated with the stack frame, such as local variables.  

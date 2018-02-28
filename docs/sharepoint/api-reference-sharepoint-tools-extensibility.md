@@ -13,11 +13,11 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, reference for project and tools extensibility"
-ms.assetid: 3a42dacd-0213-4c25-aeba-9b6935ab70db
-caps.latest.revision: 13
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # API Reference (SharePoint Tools Extensibility)
   This section contains API reference documentation for extending the SharePoint tools in Visual Studio.  

@@ -15,6 +15,8 @@ caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # s_taskIdCounter Field
 The next available identifier for a <xref:System.Threading.Tasks.Task> object.  

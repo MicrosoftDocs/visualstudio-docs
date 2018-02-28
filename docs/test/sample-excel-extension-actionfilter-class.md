@@ -4,14 +4,14 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c69fe3c7-f797-4e90-b21c-f2cc4dddf152
-caps.latest.revision: 11
-ms.author: "douge"
-manager: "douge"
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+author: gewarren
 ---
 # Sample Excel Extension: ActionFilter Class
 This internal class extends the <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter> class and represents a filter for test actions on a [!INCLUDE[ofprexcel](../test/includes/ofprexcel_md.md)] element.  

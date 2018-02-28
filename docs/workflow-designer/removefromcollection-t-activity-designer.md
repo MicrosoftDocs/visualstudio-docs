@@ -13,6 +13,8 @@ caps.latest.revision: 6
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+ms.workload: 
+  - "multiple"
 ---
 # RemoveFromCollection&lt;T&gt; Activity Designer
 The **RemoveFromCollection\<T>** activity designer is used to create and configure a <xref:System.Activities.Statements.RemoveFromCollection%601> activity.  

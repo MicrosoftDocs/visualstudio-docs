@@ -15,6 +15,8 @@ caps.latest.revision: 18
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Contained Languages
 *Contained languages* are languages that are contained by other languages. For example, HTML in [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] pages may contain [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] or [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] scripts. A dual-language architecture is required for the .aspx file editor to provide IntelliSense, colorization, and other editing features for both the HTML and the scripting language.  

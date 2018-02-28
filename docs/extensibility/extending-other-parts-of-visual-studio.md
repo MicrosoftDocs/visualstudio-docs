@@ -15,6 +15,8 @@ caps.latest.revision: 22
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Extending Other Parts of Visual Studio
 There are many more parts of the Visual Studio UI that you can extend. Here we show you just a few.  

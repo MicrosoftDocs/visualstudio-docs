@@ -17,6 +17,8 @@ caps.latest.revision: 14
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugCustomViewer
 This interface enables an expression evaluator (EE) to display a property's value in whatever format is necessary.  

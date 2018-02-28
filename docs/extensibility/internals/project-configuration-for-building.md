@@ -16,6 +16,8 @@ caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Project Configuration for Building
 The list of solution configurations for a given solution is managed by the Solution Configurations dialog box.  

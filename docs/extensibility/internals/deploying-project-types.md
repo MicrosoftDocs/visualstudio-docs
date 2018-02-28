@@ -16,6 +16,8 @@ caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Deploying Project Types
 [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)] installs a new project-type aggregator (ProjectAggregator2.dll) and also a Windows Installer package for redistribution (ProjectAggregator2.msi). You must use the new aggregator for managed-code project types. ProjectAggregator2 works arounds limitations in the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] project aggregator that prevent managed-code project types from working correctly. The following steps describe how to change your VSPackage to use the new aggregator.  

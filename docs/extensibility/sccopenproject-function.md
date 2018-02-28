@@ -17,6 +17,8 @@ caps.latest.revision: 16
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # SccOpenProject Function
 This function opens an existing source control project or creates a new one.  

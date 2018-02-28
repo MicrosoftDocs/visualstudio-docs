@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: msbuild
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
@@ -24,9 +23,11 @@ helpviewer_keywords:
   - "When Element [MSBuild]"
 ms.assetid: dd54258e-f4fb-448f-9da4-d1817e0cbaf2
 caps.latest.revision: 9
-author: "kempb"
-ms.author: "kempb"
+author: Mikejo5000
+ms.author: mikejo
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # MSBuild Conditional Constructs
 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] provides a mechanism for either/or processing with the [Choose](../msbuild/choose-element-msbuild.md), [When](../msbuild/when-element-msbuild.md), and [Otherwise](../msbuild/otherwise-element-msbuild.md) elements.  

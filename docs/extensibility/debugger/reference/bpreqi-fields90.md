@@ -15,6 +15,8 @@ caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # BPREQI_FIELDS90
 Enumerates the valid values that specify the information to be retrieved about a breakpoint request. This enumeration extends the [BPREQI_FIELDS](../../../extensibility/debugger/reference/bpreqi-fields.md) enumeration.  

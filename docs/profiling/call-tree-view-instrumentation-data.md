@@ -15,6 +15,8 @@ caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Call Tree View - Instrumentation Data
 The values for a function in the call tree indicate the time for the function instances that were called by the parent function in the call tree. Percentage values are calculated by comparing the value of the function instances to the total elapsed inclusive time of all functions in the profiling run.  

@@ -17,6 +17,8 @@ caps.latest.revision: 6
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IEnumDebugObjects::Next
 This method returns the next set of elements from the enumeration.  

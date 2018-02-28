@@ -17,6 +17,8 @@ caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaStackFrame::get_cplusplusExceptionHandling
 Retrieves a flag that indicates if C++ exception handling is in effect.  

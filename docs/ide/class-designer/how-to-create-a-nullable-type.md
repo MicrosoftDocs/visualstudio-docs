@@ -16,6 +16,8 @@ caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Create a Nullable Type (Class Designer)
 Certain value types do not always have (or need) a defined value. This is common practice in databases, where some fields might not be assigned any value. For example, you might assign a null value to a database field to signify that it has not yet been assigned a value.  
@@ -32,7 +34,7 @@ By default, when you declare a variable as a nullable type, it has no defined va
   
 Class Designer displays a nullable type just as it displays its underlying type.  
   
-For more information about nullable types in Visual C#, see [Nullable Types](/dotnet/csharp/programming-guide/nullable-types/index). For more information about nullable types in Visual Basic, see [Nullable Value Types](/dotnet/visual-basic/programming-guide/language-features/data-types/nullable-value-types).  
+For more information about nullable types in C#, see [Nullable Types](/dotnet/csharp/programming-guide/nullable-types/index). For more information about nullable types in Visual Basic, see [Nullable Value Types](/dotnet/visual-basic/programming-guide/language-features/data-types/nullable-value-types).  
   
 [!INCLUDE[note_settings_general](../../data-tools/includes/note_settings_general_md.md)]  
   

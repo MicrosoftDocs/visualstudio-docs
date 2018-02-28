@@ -18,6 +18,8 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.technology: "vs-data-tools"
+ms.workload: 
+  - "data-storage"
 ---
 # Create a Windows Forms user control that supports simple data binding
 When displaying data on forms in Windows applications, you can choose existing controls from the **Toolbox**, or you can author custom controls if your application requires functionality that is not available in the standard controls. This walkthrough shows how to create a control that implements the <xref:System.ComponentModel.DefaultBindingPropertyAttribute>. Controls that implement the <xref:System.ComponentModel.DefaultBindingPropertyAttribute> can contain one property that can be bound to data. Such controls are similar to a <xref:System.Windows.Forms.TextBox> or <xref:System.Windows.Forms.CheckBox>.  
@@ -53,7 +55,7 @@ When displaying data on forms in Windows applications, you can choose existing c
 ## Prerequisites  
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.  
   
-1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Editions download page](https://www.microsoft.com/en-us/server-cloud/Products/sql-server-editions/sql-server-express.aspx), or through the **Visual Studio Installer**. In the Visual Studio Installer, SQL Server Express LocalDB can be installed as part of the **Data storage and processing** workload, or as an individual component.  
+1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the Visual Studio Installer, SQL Server Express LocalDB can be installed as part of the **Data storage and processing** workload, or as an individual component.  
   
 2.  Install the Northwind sample database by following these steps:  
 

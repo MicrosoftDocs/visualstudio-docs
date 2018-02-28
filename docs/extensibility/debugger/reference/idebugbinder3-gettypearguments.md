@@ -17,6 +17,8 @@ caps.latest.revision: 7
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugBinder3::GetTypeArguments
 This method retrieves a list of argument types associated with this object.  

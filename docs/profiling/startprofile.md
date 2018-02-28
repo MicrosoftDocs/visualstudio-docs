@@ -15,6 +15,8 @@ caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # StartProfile
 The `StartProfile` function sets the counter to 1 (on) for the specified profiling level.  

@@ -4,16 +4,16 @@ ms.custom: ""
 ms.date: "2015-10-05"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.UnitTest.CreateIntelliTest"
-ms.assetid: cd9ff940-e948-4d28-a72c-b291ef5c1e90
-caps.latest.revision: 33
-ms.author: "douge"
-manager: "douge"
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+author: gewarren
 ---
 # Generate unit tests for your code with IntelliTest
 IntelliTest explores your .NET code to generate test data and a suite of unit tests. For every statement in the code, a test input is generated that will execute that statement. A case analysis is performed for every conditional branch in the code. For example, `if` statements, assertions, and all operations that can throw exceptions are analyzed. This analysis is used to generate test data for a parameterized unit test for each of your methods, creating unit tests with high code coverage.  

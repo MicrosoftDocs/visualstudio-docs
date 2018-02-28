@@ -16,6 +16,8 @@ caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugGenericFieldInstance::TypeArgumentCount
 Returns the number of type parameter arguments for this instance.  

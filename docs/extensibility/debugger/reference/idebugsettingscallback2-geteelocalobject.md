@@ -15,6 +15,8 @@ caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugSettingsCallback2::GetEELocalObject
 Retrieves a expression evaluator local object given the metric name.  

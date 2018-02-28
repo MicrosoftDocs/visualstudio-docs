@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "03/13/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: msbuild
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
@@ -18,9 +17,11 @@ helpviewer_keywords:
   - "Property Element [MSBuild]"
 ms.assetid: 69ab08ab-3e76-41dd-a01b-49aa1d2e0cac
 caps.latest.revision: 17
-author: "kempb"
-ms.author: "kempb"
+author: Mikejo5000
+ms.author: mikejo
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Property Element (MSBuild)
 Contains a user defined property name and value. Every property used in an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project must be specified as a child of a `PropertyGroup` element.  

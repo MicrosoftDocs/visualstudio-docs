@@ -15,6 +15,8 @@ caps.latest.revision: 6
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProgram3::ExecuteOnThread
 Executes the debugger program. The thread is returned to give the debugger information on which thread the user is viewing when executing the program.  

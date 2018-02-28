@@ -16,6 +16,8 @@ caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Creating a Multi-Instance Tool Window
 You can program a tool window so that multiple instances of it can be open simultaneously. By default, tool windows can have only one instance open.  

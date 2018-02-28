@@ -17,6 +17,8 @@ caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # PENDING_BP_STATE_INFO
 Contains information about the state of a breakpoint that is ready to bind to a code location.  

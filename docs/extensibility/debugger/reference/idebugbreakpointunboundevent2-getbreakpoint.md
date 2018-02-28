@@ -17,6 +17,8 @@ caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugBreakpointUnboundEvent2::GetBreakpoint
 Gets the breakpoint that became unbound.  

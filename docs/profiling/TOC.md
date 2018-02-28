@@ -8,14 +8,15 @@
 ## [Analyze CPU usage (ASP.NET)](quickstart-cpu-usage-aspnet.md)
 # Tutorials
 ## [Profile application performance in Visual Studio](beginners-guide-to-performance-profiling.md)
+## [Profile memory usage in Visual Studio](memory-usage.md)
 # Concepts
 ## [Run profiling tools with or without the debugger](running-profiling-tools-with-or-without-the-debugger.md)
 # How-to guides
-## [Analyze memory usage](memory-usage.md)
-### [Custom native ETW heap events](custom-native-etw-heap-events.md)
-### [Memory usage without the debugger](memory-usage-without-debugging2.md)
 ## [Analyze CPU usage](cpu-usage.md)
 ### [Analyze CPU usage in a Universal Windows App (UWP)](analyze-cpu-usage-in-a-windows-universal-app.md)
+## [Analyze memory usage](analyze-memory-usage.md)
+### [Custom native ETW heap events](custom-native-etw-heap-events.md)
+### [Memory usage without the debugger](memory-usage-without-debugging2.md)
 ## [Analyze GPU usage](gpu-usage.md)
 ## [Analyze Resource Consumption](application-timeline.md)
 ## [Use PerfTips](perftips.md)
@@ -42,7 +43,6 @@
 #### [How to: Collect performance data for a Web site](how-to-collect-performance-data-for-a-web-site.md)
 #### [How to: Manually create performance sessions](how-to-manually-create-performance-sessions.md)
 #### [Walkthrough: Identify performance problems](walkthrough-identifying-performance-problems.md)
-#### [PeopleTrax sample (profiling tools)](peopletrax-sample-profiling-tools.md)
 ### [Configure performance sessions](configuring-performance-sessions.md)
 #### [How to: Reference Windows symbol information](how-to-reference-windows-symbol-information.md)
 #### [How to: Choose collection methods](how-to-choose-collection-methods.md)

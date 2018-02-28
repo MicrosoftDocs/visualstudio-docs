@@ -19,6 +19,8 @@ caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Error: Ensure that DNS is Correctly Configured on the Target Computer
 When trying to do remote debugging, you may get the following error message:  

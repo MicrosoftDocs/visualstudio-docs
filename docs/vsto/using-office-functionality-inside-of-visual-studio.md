@@ -15,11 +15,11 @@ helpviewer_keywords:
   - "security [Office development in Visual Studio], document protection"
   - "Office applications [Office development in Visual Studio]"
   - "Office functionality inside Visual Studio"
-ms.assetid: 593fd583-57e5-4ed5-8489-89f73b886c6c
-caps.latest.revision: 15
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Using Office Functionality Inside of Visual Studio
   When you create a document-level project, the document and the associated application are hosted inside Visual Studio so you can design and work directly with the document. When you have a Microsoft Office application open in Visual Studio, it generally works as expected. However, some of the application's functionality is different or inaccessible.  

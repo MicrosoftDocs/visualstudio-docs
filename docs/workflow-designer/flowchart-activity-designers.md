@@ -11,6 +11,8 @@ caps.latest.revision: 4
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+ms.workload: 
+  - "multiple"
 ---
 # Flowchart Activity Designers
 [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] includes a number of system-provided activities that you can use when constructing your workflows. This section contains the system-provided activities used to manage flowcharts within a workflow. The following topics describe these activities and provide guidance on how to use them.  

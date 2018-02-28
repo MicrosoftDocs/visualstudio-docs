@@ -8,23 +8,25 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "CSharp"
-ms.assetid: 65929fab-5d78-4e04-af1e-cf4957f230f6
-caps.latest.revision: 22
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.technology: "vs-data-tools"
+ms.workload: 
+  - "data-storage"
 ---
 # Create a simple data application with WPF and Entity Framework 6
+
 This walkthough shows how to create a basic "forms over data" application in Visual Studio with SQL Server LocalDB, the Northwind database, Entity Framework 6, and Windows Presentation Foundation. It shows how to do basic databinding with a master-detail view, and it also has a custom "Binding Navigator" with buttons for "Move Next," "Move Previous," "Move to beginning," "Move to end," "Update" and "Delete."  
   
  This article focuses on using data tools in Visual Studio, and does not attempt to explain the underlying technologies in any depth. It assumes that you have a basic familiarity with XAML, Entity Framework, and SQL. This example also does not demonstrate Model-View-View Model (MVVM) architecture, which is standard for WPF applications. However, you can copy this code into your own MVVM application with very few modifications.  
   
-## Install and connect to Northwind  
+## Install and connect to Northwind
+
 This example uses SQL Server Express LocalDB and the Northwind sample database. It should work with other SQL database products just as well, if the ADO.NET data provider for that product supports Entity Framework.  
-  
-1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Editions download page](https://www.microsoft.com/en-us/server-cloud/Products/sql-server-editions/sql-server-express.aspx), or through the **Visual Studio Installer**. In the Visual Studio Installer, SQL Server Express LocalDB can be installed as part of the **.NET desktop development** workload, or as an individual component.  
-  
+
+1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the Visual Studio Installer, SQL Server Express LocalDB can be installed as part of the **.NET desktop development** workload, or as an individual component.
+
 2.  Install the Northwind sample database by following these steps:  
 
     1. In Visual Studio, open the **SQL Server Object Explorer** window. (SQL Server Object Explorer is installed as part of the **Data storage and processing** workload in the Visual Studio Installer.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query...**.  
@@ -39,7 +41,7 @@ This example uses SQL Server Express LocalDB and the Northwind sample database. 
   
 3.  [Add new connections](../data-tools/add-new-connections.md) for Northwind.  
   
-## Configure the project  
+## Configure the project
   
 1.  In Visual Studio, choose **File**, **New**, **Project...** and then create a new C# WPF Application.  
   
@@ -53,7 +55,7 @@ This example uses SQL Server Express LocalDB and the Northwind sample database. 
   
 4.  Now we can use Visual Studio to create a model based on the Northwind database.  
   
-## Create the model  
+## Create the model
   
 1.  Right click on the project node in Solution Explorer and choose **Add**, **New Item...**. In the left pane, under the C# node, choose **Data** and in the middle pane choose **ADO.NET Entity Data Model**.  
   
@@ -87,8 +89,9 @@ This example uses SQL Server Express LocalDB and the Northwind sample database. 
   
 Now we are ready to hook up this model to the XAML page so that we can view, navigate and modify the data.  
   
-## Databind the model to the XAML page  
- It is possible to write your own databinding code, but it is much easier to let Visual Studio do it for you.  
+## Databind the model to the XAML page
+
+It is possible to write your own databinding code, but it is much easier to let Visual Studio do it for you.  
   
 1.  From the main menu, choose **Project > Add new data source** to bring up the **Data Source Configuration Wizard**. Choose **Object** because we are binding to the model classes, not to the database:  
   
@@ -139,8 +142,9 @@ Now we are ready to hook up this model to the XAML page so that we can view, nav
      [!code-csharp[Window_Loaded#2](../data-tools/codesnippet/CSharp/CreateWPFDataApp/MainWindow.xaml.cs#2)]  
 
 8.  Press **F5**. You should see the details for the first customer that was retrieved into the CollectionViewSource. You should also see their orders in the data grid. The formatting isn't great, so let's fix that up. We'll also create a way to view the other records and do basic CRUD operations.  
-  
-## Adjust the page design and add grids for new customers and orders  
+
+## Adjust the page design and add grids for new customers and orders
+
 The default arrangement produced by Visual Studio is not ideal for our application, so we'll make some changes manually in the XAML. We will also need some "forms" (which are actually Grids) to enable the user to add a new customer or order. In order to be able to add a new customer and order, we need a separate set of text boxes that are not data-bound to the `CollectionViewSource`. We'll control which grid the user sees at any given time by setting the Visible property in the handler methods. Finally, we will add a Delete button to each row in the Orders grid to enable the user to delete an individual order.  
   
 First, add these styles to the Windows.Resources element in MainWindow.xaml:  
@@ -345,11 +349,12 @@ Next, replace the entire outer Grid with this markup:
 ```  
   
 ## Add buttons to navigate, add, update and delete  
- In Windows Forms applications, you get a BindingNavigator object with buttons for navigating through rows in a database and doing basic CRUD operations. WPF does not provide a BindingNavigator, but it is easy enough to create one. We'll do that with buttons inside a horizontal StackPanel, and we'll associate the buttons with Commands that are bound to methods in the code behind.  
+
+In Windows Forms applications, you get a BindingNavigator object with buttons for navigating through rows in a database and doing basic CRUD operations. WPF does not provide a BindingNavigator, but it is easy enough to create one. We'll do that with buttons inside a horizontal StackPanel, and we'll associate the buttons with Commands that are bound to methods in the code behind.  
   
- There are fours parts to the command logic: (1) the commands, (2) the bindings, (3) the buttons, and (4) the command handlers in the code-behind.  
+There are fours parts to the command logic: (1) the commands, (2) the bindings, (3) the buttons, and (4) the command handlers in the code-behind.  
   
-#### Add commands, bindings and buttons in XAML  
+### Add commands, bindings and buttons in XAML
   
 1.  First, let's add the commands in our MainWindow.xaml file inside the Windows.Resources element:  
   
@@ -409,7 +414,7 @@ Next, replace the entire outer Grid with this markup:
     </StackPanel>  
     ```  
   
-#### Add command handlers to the MainWindow class  
+### Add command handlers to the MainWindow class  
   
 The code-behind is minimal except for the add and delete methods. Navigation is performed by calling methods on the View property of the CollectionViewSource. The DeleteOrderCommandHandler shows how to perform a cascade delete on an order. We have to first delete the Order_Details that are associated with it. The UpdateCommandHandler adds a new customer or order to the collection, or else just updates an existing customer or order with the changes that the user made in the text boxes.  
   
@@ -418,8 +423,10 @@ Add these handler methods to the MainWindow class in MainWindow.xaml.cs. If your
 [!code-csharp[CommandHandlers#3](../data-tools/codesnippet/CSharp/CreateWPFDataApp/MainWindow.xaml.cs#3)]  
   
 ## Run the application
+
 To start debugging, press **F5**. You should see customer and order data populated in the grid, and the navigation buttons should work as expected. Click on "Commit" to add a new customer or order to the model after you have entered the data. Click on "Cancel" to back out of a new customer or new order form without saving the data. You can make edits to existing customers and orders directly in the text boxes, and those changes are written to the model automatically.  
   
 ## See also
+
 [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md)  
-[Entity Framework Documentation](https://msdn.microsoft.com/en-us/data/ee712907.aspx)
+[Entity Framework Documentation](/ef/)

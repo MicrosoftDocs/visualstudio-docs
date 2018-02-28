@@ -13,6 +13,8 @@ caps.latest.revision: 4
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Troubleshooting Code Metrics Issues
 You might encounter some of the following issues when you collect code metrics:  

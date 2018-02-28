@@ -15,6 +15,8 @@ ms.author: "mikejo"
 manager: ghogen
 dev_langs: 
   - JavaScript
+ms.workload: 
+  - "nodejs"
 ---
 # Quickstart: Use Visual Studio to create your first Node.js app
 In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you'll create a simple Node.js web application. If you haven't already installed Visual Studio, install it for free [here](http://www.visualstudio.com).  
@@ -33,6 +35,10 @@ First, you'll create an Node.js web application project.
      ![Node.js workload in VS Installer](../ide/media/quickstart-nodejs-workload.png)  
 
     Visual Studio creates and the new solution and opens the project. **server.js** open in the editor.
+
+4. If you don't have the Node.js runtime already installed, install it from the [Node.js](https://nodejs.org/en/download/) website.
+
+    In general, Visual Studio automatically detects the installed Node.js runtime. If it does not detect an installed runtime you can configure your project to reference the installed runtime.
 
 ## Explore the IDE  
 

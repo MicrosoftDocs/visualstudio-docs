@@ -14,11 +14,11 @@ dev_langs:
 helpviewer_keywords: 
   - "VBA code, managed code extensions"
   - "managed code extensions [Office development in Visual Studio], VBA compared to"
-ms.assetid: 31756c2f-8829-4011-ad77-134cb3728344
-caps.latest.revision: 29
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # VBA and Office Solutions in Visual Studio Compared
   Microsoft Visual Basic for Applications (VBA) uses unmanaged code that is tightly integrated with Office applications. Microsoft Office projects created by using Visual Studio enable you to take advantage of the .NET Framework and Visual Studio design tools.  

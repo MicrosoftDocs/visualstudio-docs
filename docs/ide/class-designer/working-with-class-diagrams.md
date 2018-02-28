@@ -20,6 +20,8 @@ caps.latest.revision: 25
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Working with Class Diagrams (Class Designer)
 Class diagrams help you understand the class structure of projects others have written (or that you wrote a long time ago). You can use them to customize, share and present project information with others.  
@@ -34,6 +36,7 @@ After you have fine-tuned one or more class diagrams, you can copy them into Mic
 >  Class Designer does not track the location of your source files, so changing your project structure or moving source files in the project can cause Class Designer to lose track of the type, especially the source type of a typedef, base classes, or association types. You might get an error, like **Class Designer is unable to display this type**. If you do, drag the modified or relocated source code to the class diagram again to redisplay it.
   
 ## See also
-[Viewing Types and Relationships](viewing-types-and-relationships.md)   
-[How to: Customize Class Diagrams](how-to-customize-class-diagrams.md)   
-[How to: Remove Type Shapes from Class Diagrams](http://msdn.microsoft.com/en-us/ae41897d-d066-4b8c-bb9b-05436e12ff39)
+
+[Viewing Types and Relationships](viewing-types-and-relationships.md)  
+[How to: Customize Class Diagrams](how-to-customize-class-diagrams.md)  
+[How to: Remove Type Shapes from Class Diagrams](http://msdn.microsoft.com/ae41897d-d066-4b8c-bb9b-05436e12ff39)

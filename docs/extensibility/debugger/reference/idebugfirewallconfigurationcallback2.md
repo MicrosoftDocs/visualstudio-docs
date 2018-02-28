@@ -15,6 +15,8 @@ caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugFirewallConfigurationCallback2
 Enables a debug engine that uses DCOM to ask the [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] UI to make sure that the firewall will not block remote debugging.  

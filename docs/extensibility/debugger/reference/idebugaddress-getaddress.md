@@ -17,6 +17,8 @@ caps.latest.revision: 6
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugAddress::GetAddress
 Returns a structure describing an object and its location within its scope or container.  

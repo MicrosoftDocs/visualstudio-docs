@@ -15,6 +15,8 @@ caps.latest.revision: 16
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Text Buffer Events in the Legacy API
 The text buffer object emits several different events that allow you to respond to different situations.  

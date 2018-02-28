@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: msbuild
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -32,9 +31,11 @@ helpviewer_keywords:
   - "Link task (MSBuild (Visual C++))"
 ms.assetid: 0a61f168-3113-4fa7-83a3-d9142e2a33f8
 caps.latest.revision: 12
-author: "kempb"
-ms.author: "kempb"
+author: Mikejo5000
+ms.author: mikejo
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Link Task
 Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object File Format (COFF) object files and libraries to create an executable (.exe) file or a dynamic-link library (DLL). For more information, see [Linker Options](/cpp/build/reference/linker-options).  

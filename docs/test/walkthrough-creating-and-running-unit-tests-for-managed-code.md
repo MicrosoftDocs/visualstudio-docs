@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
@@ -14,10 +13,11 @@ helpviewer_keywords:
   - "unit tests, generating"
   - "unit tests, running"
   - "unit tests, authoring"
-ms.assetid: 2b018b18-b412-4e0e-b0ee-b580a2f3ba9c
-caps.latest.revision: 83
-ms.author: "douge"
-manager: "douge"
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "dotnet"
+author: gewarren
 ---
 # Walkthrough: Creating and Running Unit Tests for Managed Code
 This walkthrough will step you through creating, running, and customizing a series of unit tests using the Microsoft unit test framework for managed code and the Visual Studio Test Explorer. You start with a C# project that is under development, create tests that exercise its code, run the tests, and examine the results. Then you can change your project code and re-run the tests.  

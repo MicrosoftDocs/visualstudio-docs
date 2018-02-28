@@ -16,6 +16,8 @@ caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugSymbolProviderDirect::GetCurrentModulesInfo
 Retrieves information about the modules in the symbol group.  

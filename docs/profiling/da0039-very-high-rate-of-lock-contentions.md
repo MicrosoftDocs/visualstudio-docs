@@ -17,6 +17,8 @@ caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # DA0039: Very High Rate of Lock contentions
 |||  

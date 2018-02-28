@@ -17,6 +17,8 @@ caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaEnumSymbolsByAddr::symbolByVA
 Positions the enumerator by performing a lookup by virtual address (VA).  

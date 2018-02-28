@@ -18,6 +18,8 @@ caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Quick Watch Command
 Displays the selected or specified text in the Expression field of the [QuickWatch](../../debugger/watch-and-quickwatch-windows.md) window. You can use this dialog box to calculate the current value of a variable or expression recognized by the debugger, or the contents of a register. In addition, you can change the value of any non-const variable or the contents of any register.  
