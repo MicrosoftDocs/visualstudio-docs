@@ -9,9 +9,9 @@ ms.topic: reference
 author: "kuhlenh"
 ms.author: "kaseyu"
 manager: ghogen
-dev_langs: 
+dev_langs:
   - csharp
-ms.workload: 
+ms.workload:
   - "dotnet"
 ---
 # Remove unreachable code refactoring
@@ -35,7 +35,7 @@ This refactoring applies to:
 1. Next, do one of the following:
 
    - **Keyboard**
-     - Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu and select **Remove unreachable code** from the Preview window popup.
+     - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu and select **Remove unreachable code** from the Preview window popup.
    - **Mouse**
      - Right-click the code, select the **Quick Actions and Refactorings** menu and select **Remove unreachable code** from the Preview window popup.
 
@@ -62,5 +62,5 @@ private void Method()
 
 ## See also
 
-[Refactoring](../refactoring-in-visual-studio.md)  
-[Preview Changes](../../ide/preview-changes.md)
+- [Refactoring](../refactoring-in-visual-studio.md)
+- [Preview Changes](../../ide/preview-changes.md)
