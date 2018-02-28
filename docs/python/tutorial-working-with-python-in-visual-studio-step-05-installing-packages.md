@@ -2,7 +2,7 @@
 title: Working with Python in Visual Studio, Step 5, Installing Packages | Microsoft Docs
 description: Step 5 of a core tutorial for working with Python within Visual Studio, demonstrating Visual Studio's features for managing packages in a Python environment.
 ms.custom:
-ms.date: 01/16/2018
+ms.date: 03/05/2018
 ms.reviewer:
 ms.suite:
 ms.technology: 
@@ -40,12 +40,14 @@ The Python developer community has produced thousands of useful packages that yo
   ![Installing matplotlib in the environment](media/environments-add-matplotlib1.png)
 
 1. Consent to elevation if prompted to do so.
- 
-1. After the package is installed, it appears in the Python Environments window. The **X** to the right of the package uninstalls it. 
+
+1. After the package is installed, it appears in the Python Environments window. The **X** to the right of the package uninstalls it.
 
   ![Completion of installing matplotlib in the environment](media/environments-add-matplotlib2.png)
 
   The small progress bar underneath the environment indicates that Visual Studio is building its IntelliSense database for the newly-installed package. The **IntelliSense** tab also shows more detailed information. Note that until that database is complete, IntelliSense features like auto-completion and syntax checking won't be active in the editor for that package.
+
+  Note that Visual Studio 2017 version 15.6 and higher use a different and faster method for working with IntelliSense, and display a message to that effect on the **IntelliSense** tab.
 
 1. Create a new project with **File > New > Project**, selecting the "Python Application" template. In the code file that appears, paste the following code, which creates a cosine wave like the previous tutorial steps, only this time plotted graphically:
 
