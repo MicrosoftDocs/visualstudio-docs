@@ -156,7 +156,7 @@ By default, the debugger starts your program with the standard Python launcher, 
 | Interpreter Path | Overrides the path associated with the current environment.  value may be useful for launching your script with a non-standard interpreter. |
 | Environment Variables | In this multi-line text box, add entries of the form `NAME=VALUE`. Because this setting is applied last, on top of any existing global environment variables, and after `PYTHONPATH` is set according to the Search Paths setting, it can be used to manually override any of those other variables. |
 
-<a name="the-debug-interactive-window"</a>
+<a name="the-debug-interactive-window"></a>
 
 ## Immediate and interactive windows
 
