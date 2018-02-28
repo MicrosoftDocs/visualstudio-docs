@@ -82,8 +82,11 @@ Unit tests in Visual Studio can be configured by using a \*.runsettings file. (T
   
           </CodeCoverage>  
         </Configuration>  
-      </DataCollector>  
+      </DataCollector>
   
+      <!--Video data collector is only available with Visual Studio 2017 Update 5 and higher -->
+      <DataCollector uri="datacollector://microsoft/VideoRecorder/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.DataCollection.VideoRecorder.VideoRecorderDataCollector, Microsoft.VisualStudio.TestTools.DataCollection.VideoRecorder, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Screen and Voice Recorder">
+      </DataCollector>
     </DataCollectors>  
   </DataCollectionRunSettings>  
   
@@ -133,15 +136,23 @@ Unit tests in Visual Studio can be configured by using a \*.runsettings file. (T
   
 #### Code coverage adapter  
  The code coverage data collector creates a log of which parts of the application code have been exercised in the test. For more information about customizing the settings for code coverage, see [Customizing Code Coverage Analysis](../test/customizing-code-coverage-analysis.md).  
+ 
+#### Video data collector
+The video data collector captures a screen recording when tests are run. This is useful for troubleshooting UI tests. Video data collector is available only with Visual Studio 2017 Update 5 and later.
   
-#### Other diagnostic data adapters  
- The code coverage adapter is currently the only adapter that can be customized by using the run settings file.  
-  
- To customize any other type of diagnostic data adapter, you must use a test settings file. For more information, see [Specifying Test Settings for Visual Studio Tests](/devops-test-docs/test/specifying-test-settings-for-visual-studio-tests).  
+To customize any other type of diagnostic data adapter, you must use a test settings file. For more information, see [Specifying Test Settings for Visual Studio Tests](/devops-test-docs/test/specifying-test-settings-for-visual-studio-tests).  
   
 #### TestRunParameters  
- TestRunParameters provides a way to define variables and values that are available to the tests at runtime.  
-  
+ TestRunParameters provides a way to define variables and values that are available to the tests at runtime. These variables can be accessed using the [TestContext](https://msdn.microsoft.com/en-us/library/microsoft.visualstudio.testtools.unittesting.testcontext(v=vs.140).aspx) object.
+ 
+ ```  
+ [TestMethod]
+public void HomePageTest()  
+{  
+    string appURL = TestContext.Properties["webAppUrl"];  
+```
+To use TestContext, you must add a private [TestContext](https://msdn.microsoft.com/en-us/library/microsoft.visualstudio.testtools.unittesting.testcontext(v=vs.140).aspx) field and a public `TestContext` property to your test class.
+
 ### MSTest Run Settings  
  These settings are specific to the test adapter that runs test methods that have the `[TestMethod]` attribute.  
   
