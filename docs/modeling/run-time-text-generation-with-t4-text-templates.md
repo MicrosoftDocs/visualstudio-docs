@@ -28,7 +28,7 @@ Each template is a mixture of the text as it will appear in the generated string
 
 For example, the following template could be used in an application that creates an HTML report.
 
-```
+```html
 <#@ template language="C#" #>
 <html><body>
 <h1>Sales for Previous Month</h2>
@@ -53,7 +53,7 @@ Using a template in your application makes it is easier to see the final form of
 
 1. In Solution Explorer, on the shortcut menu of your project, choose **Add**, **New Item**.
 
-2. In the **Add New Item** dialog box, select **Runtime Text Template**. (In [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] look under **Common Items\General**.)
+2. In the **Add New Item** dialog box, select **Runtime Text Template**. (In Visual Basic look under **Common Items** > **General**.)
 
 3. Type a name for your template file.
 
@@ -62,7 +62,7 @@ Using a template in your application makes it is easier to see the final form of
 
 4. Choose **Add**.
 
-     A new file is created that has extension **.tt**. Its **Custom Tool** property is set to **TextTemplatingFilePreprocessor**. It contains the following lines:
+    A new file is created that has extension **.tt**. Its **Custom Tool** property is set to **TextTemplatingFilePreprocessor**. It contains the following lines:
 
     ```
     <#@ template language="C#" #>
@@ -78,7 +78,7 @@ A good way to create a template is to convert an existing example of the output.
 
 ### To convert an existing text file to a run-time template
 
-1. Include the file into your Visual Studio project. In Solution Explorer, on the shortcut menu of the project, choose **Add**, **Existing Item**.
+1. Include the file into your Visual Studio project. In Solution Explorer, on the shortcut menu of the project, choose **Add** > **Existing Item**.
 
 2. Set the file's **Custom Tools** property to **TextTemplatingFilePreprocessor**. In Solution Explorer, on the shortcut menu of the file, choose **Properties**.
 
@@ -107,7 +107,7 @@ The language parameter will depend on the language of your project.
 
 Edit the **.tt** file to contain the text that you want your application to generate. For example:
 
-```
+```html
 <html><body>
 <h1>Sales for January</h2>
 <!-- table to be inserted here -->
@@ -148,9 +148,9 @@ Notice that statements are inserted between `<# ... #>` and expressions are inse
 
 ### The code built from the template
 
-Whenever you save the **.tt** file, a subsidiary **.cs** or **.vb** file will be generated. To see this file in Solution Explorer, expand the **.tt** file node. In a Visual Basic project, you will be able to expand the node after you click **Show All Files** in the Solution Explorer toolbar.
+When you save the **.tt** file, a subsidiary **.cs** or **.vb** file is generated. To see this file in Solution Explorer, expand the **.tt** file node. In a Visual Basic project, first choose **Show All Files** in the Solution Explorer toolbar.
 
-Notice that this subsidiary file contains a partial class that contains a method called `TransformText()`. You can call this method from your application.
+Notice that the subsidiary file contains a partial class that contains a method called `TransformText()`. You can call this method from your application.
 
 ### Generating text at run time
 
@@ -191,7 +191,7 @@ partial class MyWebPage
 
 In your template file **MyWebPage.tt**, you could write:
 
-```csharp
+```html
 <h2>Sales figures</h2>
 <table>
 <# foreach (MyDataItem item in m_data.Items)
@@ -215,7 +215,7 @@ System.IO.File.WriteAllText("outputPage.html", pageContent);
 
 #### Constructor parameters in Visual Basic
 
-In [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)], the separate file **MyWebPageCode.vb** contains:
+In Visual Basic, the separate file **MyWebPageCode.vb** contains:
 
 ```vb
 Namespace My.Templates
@@ -230,7 +230,7 @@ End Namespace
 
 The template file could contain:
 
-```vb
+```html
 <#@ template language="VB" #>
 <html><body>
 <h1>Sales for January</h2>
@@ -248,7 +248,7 @@ This report is Company Confidential.
 </body></html>
 ```
 
-And the template would be invoked by passing the parameter in the constructor:
+The template can invoked by passing the parameter in the constructor:
 
 ```vb
 Dim data = New My.Templates.MyData
@@ -260,17 +260,17 @@ System.IO.File.WriteAllText("outputPage.html", pageContent)
 
 #### Passing data in template properties
 
-An alternative method of passing data to the template is to add public properties to the template class in a partial class definition. Your application can set the properties before invoking `TransformText()`.
+An alternative way of passing data to the template is to add public properties to the template class in a partial class definition. Your application can set the properties before invoking `TransformText()`.
 
-You can also add fields to your template class in a partial definition. This would enable you to pass data between successive executions of the template.
+You can also add fields to your template class in a partial definition. This enables you to pass data between successive executions of the template.
 
 ### Use partial classes for code
 
-Many developers prefer to avoid writing large bodies of code in templates. Instead, define methods in a partial class that has the same name as the template file. Call those methods from the template. In this way, the template shows you more clearly what the target output string will look like. Discussions about the appearance of the result can be separated from the logic of creating the data that it displays.
+Many developers prefer to avoid writing large bodies of code in templates. Instead, you can define methods in a partial class that has the same name as the template file. Call those methods from the template. In this way, the template shows more clearly what the target output string will look like. Discussions about the appearance of the result can be separated from the logic of creating the data that it displays.
 
 ### Assemblies and references
 
-If you want your template code to reference a .NET or other assembly such as **System.Xml.dll**, you should add it to your project's **References** in the usual manner.
+If you want your template code to reference a .NET or other assembly such as **System.Xml.dll**, add it to your project's **References** in the usual manner.
 
 If you want to import a namespace in the same way as a `using` statement, you can do this with the `import` directive:
 
@@ -302,17 +302,17 @@ In the pattern used in the example that follows, notice the following points:
 
 - The base class `SharedFragments` defines methods within class feature blocks `<#+ ... #>`.
 
-- The base class contains no free text. Instead, all its text blocks occur inside the class feature methods.
+- The base class contains no free text. Instead, all of its text blocks occur inside the class feature methods.
 
 - The derived class invokes the methods defined in `SharedFragments`.
 
 - The application calls the `TextTransform()` method of the derived class, but does not transform the base class `SharedFragments`.
 
-- Both the base and derived classes are runtime text templates: that is, the **Custom Tool** property is set to **TextTemplatingFilePreprocessor**.
+- Both the base and derived classes are runtime text templates; that is, the **Custom Tool** property is set to **TextTemplatingFilePreprocessor**.
 
 **SharedFragments.tt:**
 
-```csharp
+```
 <#@ template language="C#" #>
 <#+
 protected void SharedText(int n)
@@ -327,7 +327,7 @@ protected void SharedText(int n)
 
 **MyTextTemplate1.tt:**
 
-```csharp
+```
 <#@ template language="C#" inherits="SharedFragments" #>
 begin 1
    <# SharedText(2); #>
@@ -357,7 +357,7 @@ In this alternative approach to using template inheritance, the bulk of the text
 
 **AbstractBaseTemplate1.tt:**
 
-```csharp
+```
 <#@ template language="C#" #>
 
 Here is the description for this derived template:
@@ -380,7 +380,7 @@ End of common template.
 
 **DerivedTemplate1.tt:**
 
-```csharp
+```
 <#@ template language="C#" inherits="AbstractBaseTemplate1" #>
 <#
   // Set the base template properties:
@@ -427,9 +427,9 @@ End material for DerivedTemplate1.
 
 ## Related Topics
 
-Design Time Templates: If you want to use a template to generate code that becomes part of your application, see [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md).
+Design-time templates: If you want to use a template to generate code that becomes part of your application, see [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md).
 
-Runtime templates can be used in any application where the templates and their content are determined at compile time. But if you want to write a Visual Studio extension that generates text from templates that change at run time, see [Invoking Text Transformation in a VS Extension](../modeling/invoking-text-transformation-in-a-vs-extension.md).
+Run-time templates can be used in any application where the templates and their content are determined at compile time. But if you want to write a Visual Studio extension that generates text from templates that change at run time, see [Invoking Text Transformation in a VS Extension](../modeling/invoking-text-transformation-in-a-vs-extension.md).
 
 ## See also
 
