@@ -70,7 +70,7 @@ Use the following command-line switches to display the IDE and perform the descr
 |[/Log (devenv.exe)](../../ide/reference/log-devenv-exe.md)|Starts Visual Studio and logs all activity to the log file.|
 |[/Run (devenv.exe)](../../ide/reference/run-devenv-exe.md) or `/r`|Compiles and runs the specified solution.|
 |[/Runexit (devenv.exe)](../../ide/reference/runexit-devenv-exe.md)|Compiles and runs the specified solution, minimizes the IDE when the solution is run, and closes the IDE after the solution has finished running.|
-|[/UseEnv (devenv.exe)](../../ide/reference/useenv-devenv-exe.md)|Causes the IDE to use PATH, INCLUDE, and LIB environment variables for C++ compilation instead of the settings specified in the VC++ Directories section of **Projects** options in the **Options** dialog box. For more information, see [Setting the Path and Environment Variables for Command-Line Builds](/cpp/build/setting-the-path-and-environment-variables-for-command-line-builds)|
+|[/UseEnv (devenv.exe)](../../ide/reference/useenv-devenv-exe.md)|Causes the IDE to use PATH, INCLUDE, and LIB environment variables for C++ compilation instead of the settings specified in the VC++ Directories section of **Projects** options in the **Options** dialog box. This switch is installed with the **Desktop development with C++** workload. For more information, see [Setting the Path and Environment Variables for Command-Line Builds](/cpp/build/setting-the-path-and-environment-variables-for-command-line-builds)|
 |[/Edit (devenv.exe)](../../ide/reference/edit-devenv-exe.md)|Opens the specified files in a running instance of this application. If there are no running instances, it will start a new instance with a simplified window layout.|
 |[/SafeMode (devenv.exe)](../../ide/reference/safemode-devenv-exe.md)|Starts Visual Studio in safe mode, and loads only the default environment and services, and shipped versions of third-party packages.|
 |[/ResetSkipPkgs (devenv.exe)](../../ide/reference/resetskippkgs-devenv-exe.md)|Clears all SkipLoading tags that have been added to VSPackages by users who want to avoid loading problem VSPackages.|
@@ -90,7 +90,6 @@ Use the following command line switches to perform the described task. These com
 |[/ProjectConfig (devenv.exe)](../../ide/reference/projectconfig-devenv-exe.md)|Specifies the project configuration to build or deploy. You can use this switch only if you have also supplied the /project switch.|
 |[/Rebuild (devenv.exe)](../../ide/reference/rebuild-devenv-exe.md)|Cleans and then builds the specified solution or project according to the configuration of the specified solution.|
 |[/ResetSettings (devenv.exe)](../../ide/reference/resetsettings-devenv-exe.md)|Restores Visual Studio default settings. Optionally resets the settings to the specified .vssettings file.|
-|[/Updateconfiguration (devenv.exe)](../../ide/reference/updateconfiguration-devenv-exe.md)|Notifies Visual Studio to merge the Visual Studio packages on the system and check the MEF cache for any changes.|
 |[/Upgrade (devenv.exe)](../../ide/reference/upgrade-devenv-exe.md)|Upgrades the specified solution file and all its project files, or the specified project file, to the current Visual Studio formats for these files.|
 
 ## See also
