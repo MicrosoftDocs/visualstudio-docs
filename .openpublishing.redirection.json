@@ -67,7 +67,7 @@
             "redirect_url": "https://vspartner.com/pages/vsshells",
             "redirect_document_id": false
         },
-        {   
+        {
             "source_path": "docs/extensibility/shell/distributing-isolated-shell-applications.md",
             "redirect_url": "https://vspartner.com/pages/vsshells",
             "redirect_document_id": false
@@ -1035,6 +1035,21 @@
         {
             "source_path": "docs/ide/reference/general-user-interface-elements-visual-studio.md",
             "redirect_url": "/visualstudio/ide/reference/call-hierarchy",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/reference/installvstemplates-devenv-exe.md",
+            "redirect_url": "/visualstudio/ide/reference/devenv-command-line-switches",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/reference/resetaddin-devenv-exe.md",
+            "redirect_url": "/visualstudio/ide/reference/devenv-command-line-switches",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/reference/updateconfiguration-devenv-exe.md",
+            "redirect_url": "/visualstudio/ide/reference/devenv-command-line-switches",
             "redirect_document_id": false
         },
         {
