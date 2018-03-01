@@ -20,7 +20,7 @@ ms.workload:
 Devenv lets you set various options for the integrated development environment (IDE), as well as build, debug, and deploy projects, from the command line. Use these switches to run the IDE from a script or a .bat file, for example a nightly build script, or to start the IDE in a particular configuration.
 
 > [!NOTE]
-> - For build-related tasks, it is recommended that you use MSBuild instead of devenv. For more information, see [MSBuild command-line reference](../../msbuild/msbuild-command-line-reference.md).
+> For build-related tasks, it is recommended that you use MSBuild instead of devenv. For more information, see [MSBuild command-line reference](../../msbuild/msbuild-command-line-reference.md).
 
 ## Devenv switch syntax
 
