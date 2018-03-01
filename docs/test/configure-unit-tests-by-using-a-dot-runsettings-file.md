@@ -11,14 +11,14 @@ author: gewarren
 ---
 # Configure unit tests by using a *.runsettings* file
 
-Unit tests in Visual Studio can be configured by using a *.runsettings* file. For example, you can change the .NET Framework version on which the tests are run, the directory where test results are delivered, and the data collected during a test run.
+Unit tests in Visual Studio can be configured by using a *.runsettings* file. For example, you can change the .NET Framework version on which the tests are run, the directory where test results are delivered, or the data that's collected during a test run.
 
 > [!NOTE]
 > The file name doesn't matter, as long as you use the extension '.runsettings'.
 
 If you don't require any special configuration, you don't need a *.runsettings* file. The most common use of a *.runsettings* file is to customize [Code coverage analysis](../test/customizing-code-coverage-analysis.md).
 
-## Customize tests with a *.runsettings* file
+## Customize tests
 
 1. Add an XML file to your Visual Studio solution and rename it to *test.runsettings*.
 
@@ -76,6 +76,10 @@ Following is a typical *.runsettings* file. Each element of the file is optional
         </Configuration>
       </DataCollector>
 
+      <!--Video data collector is only available with Visual Studio 2017 version 15.5 and higher -->
+      <DataCollector uri="datacollector://microsoft/VideoRecorder/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.DataCollection.VideoRecorder.VideoRecorderDataCollector, Microsoft.VisualStudio.TestTools.DataCollection.VideoRecorder, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Screen and Voice Recorder">
+      </DataCollector>
+
     </DataCollectors>
   </DataCollectionRunSettings>
 
@@ -123,15 +127,30 @@ The sections that follow detail the elements of a *.runsettings* file.
 
 ### Diagnostic Data Adapters (Data Collectors)
 
-The `DataCollectors` element specifies settings of diagnostic data adapters. Diagnostic data adapters are used to gather additional information about the environment and the application under test. Each adapter has default settings, and you only have to provide settings if you don't want to use the defaults.
+The `DataCollectors` element specifies settings of diagnostic data adapters. Diagnostic data adapters gather additional information about the environment and the application under test. Each adapter has default settings, and you only have to provide settings if you don't want to use the defaults.
 
 #### Code coverage adapter
 
 The code coverage data collector creates a log of which parts of the application code have been exercised in the test. For more information about customizing the settings for code coverage, see [Customizing Code Coverage Analysis](../test/customizing-code-coverage-analysis.md).
 
+#### Video data collector
+
+The video data collector captures a screen recording when tests are run. This recording is useful for troubleshooting UI tests. Video data collector is available in **Visual Studio 2017 version 15.5** and higher.
+
+To customize any other type of diagnostic data adapter, you must use a test settings file. For more information, see [Specifying Test Settings for Visual Studio Tests](/devops-test-docs/test/specifying-test-settings-for-visual-studio-tests).
+
 ### TestRunParameters
 
-TestRunParameters provides a way to define variables and values that are available to the tests at runtime.
+TestRunParameters provides a way to define variables and values that are available to the tests at runtime. These variables can be accessed by using the [TestContext](https://msdn.microsoft.com/library/microsoft.visualstudio.testtools.unittesting.testcontext(v=vs.140).aspx) object.
+
+```csharp
+[TestMethod]
+public void HomePageTest()
+{
+    string appURL = TestContext.Properties["webAppUrl"];
+```
+
+To use TestContext, add a private [TestContext](https://msdn.microsoft.com/library/microsoft.visualstudio.testtools.unittesting.testcontext(v=vs.140).aspx) field and a public `TestContext` property to your test class.
 
 ### MSTest Run Settings
 
