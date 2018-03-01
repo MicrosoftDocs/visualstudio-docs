@@ -20,9 +20,9 @@ Visual Studio Tools for Unity change log.
 ## 3.5.0.3
  Released 2018-01-09
 
-### Bug fixes  
+### Bug fixes
 
--   **Integration:**  
+-   **Integration:**
 
     -   Fixed automatic pdb to mdb debug symbol conversion.
 
@@ -739,7 +739,7 @@ Visual Studio Tools for Unity change log.
 
 -   Update MonBehavior wizards with new APIs.
 
--   Intellisense documentation in C# for Unity types.
+-   IntelliSense documentation in C# for Unity types.
 
 -   Arithmetic and logical expressions evaluation.
 
