@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio Code Metrics Results window | Microsoft Docs"
+title: "The Code Metrics Results window in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "12/12/2017"
 ms.reviewer: ""
