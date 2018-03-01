@@ -77,7 +77,7 @@ Following is a typical \*.runsettings file. Each element of the file is optional
         </Configuration>  
       </DataCollector>
   
-      <!--Video data collector is only available with Visual Studio 2017 Update 5 and higher -->
+      <!--Video data collector is only available with Visual Studio 2017 version 15.5 and higher -->
       <DataCollector uri="datacollector://microsoft/VideoRecorder/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.DataCollection.VideoRecorder.VideoRecorderDataCollector, Microsoft.VisualStudio.TestTools.DataCollection.VideoRecorder, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Screen and Voice Recorder">
       </DataCollector>
     </DataCollectors>  
@@ -135,7 +135,7 @@ The code coverage data collector creates a log of which parts of the application
 
 #### Video data collector
 
-The video data collector captures a screen recording when tests are run. This is useful for troubleshooting UI tests. Video data collector is available only with Visual Studio 2017 Update 5 and later.
+The video data collector captures a screen recording when tests are run. This is useful for troubleshooting UI tests. Video data collector is available only with Visual Studio 2017 version 15.5 and higher.
  
 To customize any other type of diagnostic data adapter, you must use a test settings file. For more information, see [Specifying Test Settings for Visual Studio Tests](/devops-test-docs/test/specifying-test-settings-for-visual-studio-tests).
 
