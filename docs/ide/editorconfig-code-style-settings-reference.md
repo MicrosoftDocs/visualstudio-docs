@@ -386,8 +386,8 @@ The following table shows the rule names, rule IDs, applicable programming langu
 | dotnet_style_explicit_tuple_names | IDE0033 | C# 7.0+ and Visual Basic 15+ | true:suggestion | First release |
 | dotnet_style_coalesce_expression | IDE0029 | C# and Visual Basic | true:suggestion | First release |
 | dotnet_style_null_propagation | IDE0031 | C# 6.0+ and Visual Basic 14+ | true:suggestion | First release |
-| dotnet_prefer_inferred_tuple_names | IDE0037 | C# 7.1+ and Visual Basic 15+ | true:suggestion | 15.6 preview 2 |
-| dotnet_prefer_inferred_anonymous_type_member_names | IDE0037 | C# and Visual Basic | true:suggestion | 15.6 preview 2 |
+| dotnet_prefer_inferred_tuple_names | IDE0037 | C# 7.1+ and Visual Basic 15+ | true:suggestion | 15.6 |
+| dotnet_prefer_inferred_anonymous_type_member_names | IDE0037 | C# and Visual Basic | true:suggestion | 15.6 |
 
 **dotnet\_style\_object_initializer**
 
