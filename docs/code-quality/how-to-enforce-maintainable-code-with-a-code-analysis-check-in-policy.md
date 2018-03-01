@@ -26,23 +26,23 @@ Administrators of version control for Team Foundation can add the Code Analysis 
 
 ## To open the Code Analysis Policy editor
 
-1.In **Team Explorer**, right-click the team project, click **Team Project Settings**, and then click **Source Control**.
+1. In **Team Explorer**, right-click the team project, click **Team Project Settings**, and then click **Source Control**.
 
      The **Source Control** dialog box appears.
 
-2.On the **Check-in Policy** tab, and click **Add**.
+2. On the **Check-in Policy** tab, and click **Add**.
 
      The **Add Check-in Policy** dialog box appears.
 
-3.In the **Check-in Policy** list, select the **Code Analysis** check box, and then click **OK**.
+3. In the **Check-in Policy** list, select the **Code Analysis** check box, and then click **OK**.
 
      The **Code Analysis Policy Editor** dialog box appears.
 
 ## To enable code analysis maintainability rules
 
-1.In the **Code Analysis Policy Editor** dialog box, under **Rule Settings**, expand the **Maintainability Rules** node.
+1. In the **Code Analysis Policy Editor** dialog box, under **Rule Settings**, expand the **Maintainability Rules** node.
 
-2.Select the check boxes for the following rules:
+2. Select the check boxes for the following rules:
 
     -   Depth of Inheritance: **CA1501 AvoidExcessiveInheritance** - Threshold: Warning at more than 5 levels deep
 
@@ -54,9 +54,9 @@ Administrators of version control for Team Foundation can add the Code Analysis 
 
     In addition, if you want a rule violation to prevent a successful build, select the **Treat Warning As An Error** check box next to the rule description.
 
-3.Click **OK**. The new check-in policy now applies to future check-ins.
+3. Click **OK**. The new check-in policy now applies to future check-ins.
 
 ## See also
 
-[Code metrics values](../code-quality/code-metrics-values.md)
-[Creating and using code analysis check-in policies](../code-quality/creating-and-using-code-analysis-check-in-policies.md)
+- [Code metrics values](../code-quality/code-metrics-values.md)
+- [Creating and using code analysis check-in policies](../code-quality/creating-and-using-code-analysis-check-in-policies.md)
