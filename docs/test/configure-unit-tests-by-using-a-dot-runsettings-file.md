@@ -32,7 +32,7 @@ You can create more than one *.runsettings* file in your solution, and enable or
 
 ## Example *.runsettings* file
 
-Following is a typical *.runsettings* file. Each element of the file is optional, because every value has a default value.
+Following is a typical *.runsettings* file. Each element of the file is optional, because every value has a default.
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -167,7 +167,7 @@ These settings are specific to the test adapter that runs test methods that have
 |DeleteDeploymentDirectoryAfterTestRunIsComplete|true|You can retain the Deployment Directory after a test run by setting this value to false.|
 |MapInconclusiveToFailed|false|If a test returns with an inconclusive status, it is usually mapped to Skipped status in Test Explorer. If you want Inconclusive tests to be shown as Failed, use this configuration.|
 |InProcMode|false|If you want your tests to be run in the same process as the MS Test adapter, set this value to true. This setting provides a minor performance gain. But if a test exits with an exception, the other tests will not continue.|
-|AssemblyResolution|false|You can specify paths to additional assemblies when finding and running unit tests. For example, use these paths for dependency assemblies that don't reside in the same directory as the test assembly. To specify a path, use a "Directory Path" element. Paths can contain environment variables.<br /><br /> `<AssemblyResolution>  <Directory Path>"D:\myfolder\bin\" includeSubDirectories="false"/> </AssemblyResolution>`|
+|AssemblyResolution|false|You can specify paths to additional assemblies when finding and running unit tests. For example, use these paths for dependency assemblies that don't reside in the same directory as the test assembly. To specify a path, use a "Directory Path" element. Paths can contain environment variables.<br /><br /> `<AssemblyResolution>  <Directory Path="D:\myfolder\bin\" includeSubDirectories="false"/> </AssemblyResolution>`|
 
 ## See also
 
