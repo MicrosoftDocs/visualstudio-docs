@@ -75,8 +75,11 @@ Following is a typical \*.runsettings file. Each element of the file is optional
   
           </CodeCoverage>  
         </Configuration>  
-      </DataCollector>  
+      </DataCollector>
   
+      <!--Video data collector is only available with Visual Studio 2017 version 15.5 and higher -->
+      <DataCollector uri="datacollector://microsoft/VideoRecorder/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.DataCollection.VideoRecorder.VideoRecorderDataCollector, Microsoft.VisualStudio.TestTools.DataCollection.VideoRecorder, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Screen and Voice Recorder">
+      </DataCollector>
     </DataCollectors>  
   </DataCollectionRunSettings>  
   
@@ -121,7 +124,7 @@ The .runsettings file has the following elements.
 |`TreatTestAdapterErrorsAsWarnings`|false|false, true|  
 |`TestAdaptersPaths`||One or multiple paths to the directory where the TestAdapters are located|  
 |`MaxCpuCount`|1|This controls the degree of parallel test execution when running unit tests, using available cores on the machine.  The test execution engine starts as a distinct process on each available core and gives each core a container with tests to run, like an assembly, DLL, or relevant artifact.  The test container is the scheduling unit.  In each container, the tests are run according to the test framework.  If there are many containers, then as processes finish executing the tests in a container, they are given the next available container.<br /><br /> MaxCpuCount can be:<br /><br /> n, where 1 <= n <= number of cores: up to n processes will be launched<br /><br /> n, where n = any other value:  the number of processes launched will be up to as many as available cores on the machine|  
-  
+
 ### Diagnostic Data Adapters (Data Collectors)
 
 The `DataCollectors` element specifies settings of diagnostic data adapters. Diagnostic data adapters are used to gather additional information about the environment and the application under test. Each adapter has default settings, and you only have to provide settings if you don't want to use the defaults.
@@ -130,9 +133,24 @@ The `DataCollectors` element specifies settings of diagnostic data adapters. Dia
 
 The code coverage data collector creates a log of which parts of the application code have been exercised in the test. For more information about customizing the settings for code coverage, see [Customizing Code Coverage Analysis](../test/customizing-code-coverage-analysis.md).
 
+#### Video data collector
+
+The video data collector captures a screen recording when tests are run. This is useful for troubleshooting UI tests. Video data collector is available only with Visual Studio 2017 version 15.5 and higher.
+ 
+To customize any other type of diagnostic data adapter, you must use a test settings file. For more information, see [Specifying Test Settings for Visual Studio Tests](/devops-test-docs/test/specifying-test-settings-for-visual-studio-tests).
+
 ### TestRunParameters
 
-TestRunParameters provides a way to define variables and values that are available to the tests at runtime.  
+TestRunParameters provides a way to define variables and values that are available to the tests at runtime. These variables can be accessed by using the [TestContext](https://msdn.microsoft.com/library/microsoft.visualstudio.testtools.unittesting.testcontext(v=vs.140).aspx) object.
+
+```csharp
+[TestMethod]
+public void HomePageTest()  
+{  
+    string appURL = TestContext.Properties["webAppUrl"];  
+```
+
+To use TestContext, add a private [TestContext](https://msdn.microsoft.com/library/microsoft.visualstudio.testtools.unittesting.testcontext(v=vs.140).aspx) field and a public `TestContext` property to your test class.
 
 ### MSTest Run Settings
 
