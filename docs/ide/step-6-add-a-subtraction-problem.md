@@ -53,7 +53,7 @@ In the sixth part of this tutorial, you'll add a subtraction problem and learn h
      ![IntelliSense window tooltip](../ide/media/express_overloads.png "Express_Overloads")
 IntelliSense window tooltip
 
-     The tooltip shows **(+ 2 overload(s))**, which means that you can call the `Next()` method in two other ways. Overloads contain different numbers or types of arguments, so that they work slightly differently from one another. For example, a method might take a single integer argument, whereas one of its overloads might take an integer and a string. You choose the correct overload based on what you want it to do. When you add the code to the `StartTheQuiz()` method, more information appears in the IntelliSense window as soon as you enter `randomizer.Next(`. Choose the Up Arrow and Down Arrow keys to cycle through the overloads, as the following illustration shows.
+     The tooltip shows **(+ 2 overload(s))**, which means that you can call the `Next()` method in two other ways. Overloads contain different numbers or types of arguments, so that they work slightly differently from one another. For example, a method might take a single integer argument, and one of its overloads might take an integer and a string. You choose the correct overload based on what you want it to do. When you add the code to the `StartTheQuiz()` method, more information appears in the IntelliSense window as soon as you enter `randomizer.Next(`. To cycle through the overloads, choose the Up Arrow and Down Arrow keys as shown in the following illustration:
 
      ![Overload for Next&#40;&#41; method in IntelliSense](../ide/media/express_nextoverload.png "Express_NextOverload")
 Overload for Next() method in IntelliSense
@@ -74,7 +74,7 @@ Overload for Next() method in IntelliSense
 
 5.  Save and run your code.
 
-     Your program includes a subtraction problem, as the following illustration shows.
+     Your program includes a subtraction problem, as the following illustration shows:
 
      ![Math quiz with subtraction problem](../ide/media/express_addsubtract.png "Express_AddSubtract")
 Math quiz with subtraction problem
