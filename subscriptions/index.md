@@ -38,7 +38,7 @@ Administrators sign in to [https://manage.visualstudio.com](https://manage.visua
         </a>
     </li>
     <li>
-        <a href="/visualstudio/subscriptions/vs-ide-benefit">
+        <a href="/visualstudio/">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -143,7 +143,7 @@ Administrators sign in to [https://manage.visualstudio.com](https://manage.visua
                         <ul>
                             <li><a href="/visualstudio/subscriptions/vs-ide-benefit">Visual Studio</a></li>
                             <li>Visual Studio for Mac</li>
-                            <li><a href="/visualstudio/subscriptions/vs-vsts">Visual Studio for Team Services</a></li>
+                            <li><a href="/visualstudio/subscriptions/vs-vsts">Visual Studio Team Services</a></li>
                             <li>Team Foundation Server and TFS CAL</li>
                         </ul>                        
                     </div>
@@ -177,7 +177,7 @@ Administrators sign in to [https://manage.visualstudio.com](https://manage.visua
                 <div class="card">
                     <div class="cardText">
                         <h3>Training and Support</h3>
-                        <p>Visual Studio subscriptions include technical and                               professional training benefits through Microsoft and our                        partners. Training content includes the latest courses                          on technology topics and also professional courseware                           for your all-up career development. Get expert help to                          solve issues and answer questions. Your subscription may                        include:</p>
+                        <p>Visual Studio subscriptions include technical and                               professional training benefits through Microsoft and our                        partners. Training content includes the latest courses                          on technology topics and professional courseware for                            your continued career development. Get expert help to                           solve issues and answer questions. Your subscription may                        include:</p>
                         <ul>
                             <li><a href="/visualstudio/subscriptions/vs-linkedin-learning">LinkedIn Premium</a> (business, tech, and creative)</li>
                             <li><a href="/visualstudio/subscriptions/vs-pluralsight">Pluralsight</a> (cloud, design, mobile and data)</li>
