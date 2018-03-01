@@ -319,5 +319,6 @@ You cannot edit partial methods by using the Class Designer or the Class Details
 You cannot edit native C++ code by using the Class Designer or the Class Details window; you must use the Code Editor to edit native C++ code.
 
 ## See also
-[Viewing Types and Relationships](viewing-types-and-relationships.md)
-[Refactoring Classes and Types](refactoring-classes-and-types.md)
+
+- [Viewing Types and Relationships](viewing-types-and-relationships.md)
+- [Refactoring Classes and Types](refactoring-classes-and-types.md)
