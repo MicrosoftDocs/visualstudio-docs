@@ -40,7 +40,7 @@ Devenv /useenv
 
 ## Example
 
-The following example starts Visual Studioand loads environment variables into the **VC++ Directories** dialog box.
+The following example starts Visual Studio and loads environment variables into the **VC++ Directories** dialog box.
 
 ```shell
 Devenv.exe /useenv
