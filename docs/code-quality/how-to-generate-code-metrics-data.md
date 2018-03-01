@@ -1,5 +1,5 @@
 ---
-title: "How to generate Code Metrics data in Visual Studio | Microsoft Docs"
+title: "How to generate code metrics data in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "12/12/2017"
 ms.reviewer: ""
@@ -50,4 +50,4 @@ In the **Code Metrics Results** window, expand the tree in the **Hierarchy** col
 ## See also
 
 - [Use the Code Metrics Results window](../code-quality/working-with-code-metrics-data.md)
-- [Code Metrics values](../code-quality/code-metrics-values.md)
+- [Code metrics values](../code-quality/code-metrics-values.md)

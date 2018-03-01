@@ -21,7 +21,7 @@ The increased complexity of modern software applications also increases the diff
 
 Developers can use Visual Studio to generate code metrics data that measure the complexity and maintainability of their managed code. Code metrics data can be generated for an entire solution or a single project.
 
-For information about how to generate code metrics data in Visual Studio, see [How to: Generate Code Metrics data](../code-quality/how-to-generate-code-metrics-data.md).
+For information about how to generate code metrics data in Visual Studio, see [How to: Generate code metrics data](../code-quality/how-to-generate-code-metrics-data.md).
 
 ## Software measurements
 
@@ -51,5 +51,5 @@ Code generated for Windows Forms is not ignored, because it is code that the dev
 
 ## Next steps
 
-- [How to: Generate Code Metrics data](../code-quality/how-to-generate-code-metrics-data.md)
+- [How to: Generate code metrics data](../code-quality/how-to-generate-code-metrics-data.md)
 - [Use the Code Metrics Results window](../code-quality/working-with-code-metrics-data.md)
