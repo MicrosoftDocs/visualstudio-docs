@@ -78,7 +78,7 @@ You can navigate in Visual Studio more easily by using the keyboard shortcuts in
 |Editor Zoom|Ctrl+Shift+> (In), Ctrl+Shift+< (Out)||
 |Block Selection|Hold Alt and drag mouse, Shift+Alt+Arrow Keys||
 |Move Line Up/Down|Alt+Up / Alt+Down||
-|Duplicate line|Ctrl+E,V|Visual Studio 2017 version 15.6 preview 2|
+|Duplicate line|Ctrl+E,V|Visual Studio 2017 version 15.6|
 |Expand selection|**Shift**+**Alt**+**=**|Visual Studio 2017 version 15.5|
 |Contract selection|**Shift**+**Alt**+**-**|Visual Studio 2017 version 15.5|
 |Go To Definition|F12||
