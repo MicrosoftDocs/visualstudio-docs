@@ -142,7 +142,7 @@ Therefore, the larger the quantity and size of files that are included your proj
 Because of this, there are a few default assumptions that are made about your project shape:
 
 - `package.json` and `bower.json` list dependencies used by your project and by default are included in Automatic Type Acquisition (ATA)
-- A top-level `node_modules` folder contains library source code and its contents are excluded from the project context by default
+- A top level `node_modules` folder contains library source code and its contents are excluded from the project context by default
 - Every other `.js`, `.jsx`, `.ts`, and `.tsx` file is possibly one of *your own* source files and must be included in project context
 
 In most cases, you will be able to just open your project and have great experience using the default project configuration. However, in projects that are large or have different folder structures, it may be desirable to further configure the language service to better focus only on your own source files.
