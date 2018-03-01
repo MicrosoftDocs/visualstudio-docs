@@ -16,7 +16,7 @@ Searchscope: VS Subscription
 Visual Studio subscriptions is a comprehensive set of resources for you to create, deploy, and manage great applications on your preferred platforms and devices, including Windows, iOS, Android, and Linux.  Benefits of subscriptions include access to developer tools, cloud services and software, training, and support for your development and testing needs.
 
 ##  Get Started
-Administrators sign in to [https://manage.visualstudio.com](https://manage.visualstudio.com) to assign subscriptions to your team. 
+Administrators sign in to [https://manage.visualstudio.com]<br>(https://manage.visualstudio.com) to assign subscriptions to your team. 
 Subscribers sign in to [https://my.visualstudio.com](https://my.visualstudio.com) to access your subscription benefits.
 
 <ul class="panelContent cardsFTitle">
