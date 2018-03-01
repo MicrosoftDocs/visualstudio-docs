@@ -10,7 +10,7 @@ ms.topic: "article"
 author: "kuhlenh"
 ms.author: "kaseyu"
 manager: ghogen
-ms.workload: 
+ms.workload:
   - "dotnet"
 ---
 # Generate Equals and GetHashCode method overrides in Visual Studio
@@ -40,7 +40,7 @@ This code generation applies to:
 1. Next, do one of the following:
 
    - **Keyboard**
-     - Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu.
+     - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
    - **Mouse**
      - Right-click and select the **Quick Actions and Refactorings** menu.
      - Click the ![Lightbulb](media/bulb-cs.png) icon which appears in the left margin if the text cursor is already on the line with the type declaration.
@@ -62,5 +62,5 @@ This code generation applies to:
 
 ## See also
 
-[Code Generation](../code-generation-in-visual-studio.md)  
-[Preview Changes](../../ide/preview-changes.md)
+- [Code Generation](../code-generation-in-visual-studio.md)
+- [Preview Changes](../../ide/preview-changes.md)

@@ -9,12 +9,12 @@ ms.topic: reference
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
-f1_keywords: 
+f1_keywords:
   - "vs.csharp.refactoring.extractinterface"
-dev_langs: 
+dev_langs:
   - CSharp
   - VB
-ms.workload: 
+ms.workload:
   - "dotnet"
 ---
 # Extract an interface refactoring
@@ -47,7 +47,7 @@ This refactoring applies to:
 
    - **Keyboard**
      - Press **Ctrl+R**, then **Ctrl+I**. (Note that your keyboard shortcut may be different based on which profile you've selected.)
-     - Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu and select **Extract Interface** from the Preview window popup.
+     - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu and select **Extract Interface** from the Preview window popup.
    - **Mouse**
      - Select **Edit > Refactor > Extract Interface**.
      - Right-click the name of the class, select the **Quick Actions and Refactorings** menu and select **Extract Interface** from the Preview window popup.
