@@ -39,7 +39,8 @@ public class PythonProjectPackage : ProjectPackage
  For example, the following code specifies that an IronPython codebehind file is related to an .aspx file. When a new .aspx Web page is created in an IronPython Web site solution, a new .py source file is generated and appears as a child node of the .aspx page.
 
 ```
-[WebSiteProjectRelatedFiles("aspx", "py")]public class PythonProjectPackage : ProjectPackage
+[WebSiteProjectRelatedFiles("aspx", "py")]
+public class PythonProjectPackage : ProjectPackage
 ```
 
 ## ProvideIntellisenseProviderAttribute
@@ -48,7 +49,8 @@ public class PythonProjectPackage : ProjectPackage
  For example, the following code specifies that an instance of PythonIntellisenseProvider, which implements <xref:Microsoft.VisualStudio.Shell.Interop.IVsIntellisenseProject>, should be created on demand to provide language services.
 
 ```
-[ProvideIntellisenseProvider(typeof(PythonIntellisenseProvider), "IronPythonCodeProvider", "Iron Python", ".py", "IronPython;Python", "IronPython")]public class PythonPackage : Package, IOleComponent
+[ProvideIntellisenseProvider(typeof(PythonIntellisenseProvider), "IronPythonCodeProvider", "Iron Python", ".py", "IronPython;Python", "IronPython")]
+public class PythonPackage : Package, IOleComponent
 ```
 
  The IVsIntellisenseProject implementation handles references and calls the language compiler when a Web page with code is requested but isn't cached.
