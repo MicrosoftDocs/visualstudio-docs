@@ -98,7 +98,7 @@ MSBuild tasks are typically created by compiling a class that implements the <xr
     AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.Core.dll" >  
     <ParameterGroup />  
     <Task>  
-      <Reference Include="System.Xml.dll"/>  
+      <Reference Include="System.Xml"/>
       <Using Namespace="System"/>  
       <Using Namespace="System.IO"/>  
       <Code Type="Fragment" Language="cs">  

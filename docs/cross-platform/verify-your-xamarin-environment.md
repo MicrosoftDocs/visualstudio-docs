@@ -7,7 +7,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: fd39882e-06d1-4b39-80d2-4d07b6e4f8f5
-caps.latest.revision: 13
+ms.technology: vs-ide-mobile
 author: "ghogen"
 ms.author: "ghogen"
 manager: ghogen
