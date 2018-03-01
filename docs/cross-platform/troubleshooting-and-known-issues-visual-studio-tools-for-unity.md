@@ -35,7 +35,7 @@ This should fix your issue. In case you are still experiencing the problem, run 
  devenv /setup
 ```
 
-### Issues with VS2015 and Intellisense or code coloration.
+### Issues with VS2015 and IntelliSense or code coloration.
 You should try to upgrade your Visual Studio 2015 to update 3.
 
 ### Visual Studio hangs
