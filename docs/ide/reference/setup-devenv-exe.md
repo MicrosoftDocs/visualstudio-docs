@@ -1,6 +1,5 @@
 ---
 title: "devenv.exe setup switch | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
@@ -30,7 +29,8 @@ devenv /setup
 
 This switch takes no arguments. The `devenv /setup` command is typically given as the last step of the installation process. Use of the `/setup` switch does not start Visual Studio.
 
-You must run `devenv` as an administrator in order to use the `/setup` switch.
+> [!NOTE]
+> You must run `devenv` as an administrator in order to use the `/setup` switch.
 
 ## Example
 

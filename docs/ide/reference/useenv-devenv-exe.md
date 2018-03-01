@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
-  - "vs-ide-general"
+ms.technology: vs-ide-general
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords:
@@ -28,7 +27,7 @@ ms.workload:
 ---
 # /UseEnv (devenv.exe)
 
-Starts Visual Studioand loads environmental variables into the **VC++ Directories** dialog box.
+Starts Visual Studio and loads environmental variables into the **VC++ Directories** dialog box.
 
 > [!NOTE]
 > This switch is installed with the **Desktop development with C++** workload.
