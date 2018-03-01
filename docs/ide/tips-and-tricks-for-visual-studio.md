@@ -1,11 +1,7 @@
 ---
 title: "Visual Studio keyboard shortcuts | Microsoft Docs"
-ms.custom: ""
 ms.date: "06/21/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 author: "gewarren"
 ms.author: "gewarren"
@@ -15,7 +11,11 @@ ms.workload:
 ---
 # Keyboard tips for Visual Studio
 
-You can navigate in Visual Studio more easily by using the keyboard shortcuts in this topic. This topic is only a subset of the available keyboard shortcuts. For a more complete list, see [Default Keyboard Shortcuts in Visual Studio](../ide/default-keyboard-shortcuts-in-visual-studio.md). For information about how to optimize Visual Studio for accessibility, see [Accessibility Tips and Tricks](../ide/reference/accessibility-tips-and-tricks.md).
+You can navigate in Visual Studio more easily by using the keyboard shortcuts in this article.
+
+The shortcuts listed here are only a subset of the available keyboard shortcuts. For a more complete list, see [Default Keyboard Shortcuts in Visual Studio](../ide/default-keyboard-shortcuts-in-visual-studio.md).
+
+For information about how to optimize Visual Studio for accessibility, see [Accessibility Tips and Tricks](../ide/reference/accessibility-tips-and-tricks.md).
 
 ## Window management
 
