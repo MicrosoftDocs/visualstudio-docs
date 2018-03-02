@@ -29,7 +29,7 @@ And if you'd like to see what we're experimenting with in the future, consider d
 
 ## Update Visual Studio 2017 version 15.6 or later
 
-New with version 15.6, we've streamlined the installation and update experience to make it easier to use directly from the IDE. Here's how.
+New with version 15.6, we've streamlined the installation and update experience to make it easier to use directly from within the IDE. Here's how.
 
 ### Update by using the Notifications hub
 
@@ -45,15 +45,15 @@ New with version 15.6, we've streamlined the installation and update experience 
 
      ![The new Visual Studio Installer experience in version 15.6](media/visual-studio-15dot6-installer.png "The new Visual Studio Installer experience in version 15.6")
 
-4. (Optional) If you want to, you can pause your update and restart it at another time. To pause, choose the **Pause** button.
+4. (Optional) If you want to, you can pause the update and resume it later. To pause the update, choose the **Pause** button.
 
      ![The Pause button in the Visual Studio Installer in version 15.6](media/visual-studio-15.6-pause.png "The Pause button in the Visual Studio Installer in version 15.6")
 
-   Then, to restart, choose the **Resume** button.      
+   Then, to resume the update, choose the **Resume** button.      
 
      ![The Resume button in the Visual Studio Installer in version 15.6](media/visual-studio-15.6-resume-from-pause.png "The Resume button in the Visual Studio Installer in version 15.6")
 
-   Your update will continue, and when it's complete, Visual Studio restarts.
+   Your update continues. Then, when it's complete, Visual Studio restarts.
 
    >![NOTE]
    >If you change your mind about what workloads you want while you are updating, click the **Modify** button. The Visual Studio Installer workloads dialog opens, where you can change what you want and then continue with the update process.
@@ -63,6 +63,8 @@ New with version 15.6, we've streamlined the installation and update experience 
 1. From the menu bar, choose **Help** and then choose **Check for Updates**.
 
      ![The new Help menu in Visual Studio version 15.6](media/vs-help-menu-check-for-updates.png "The new Help menu in Visual Studio version 15.6")
+
+2.  When the **Update** dialog box opens, choose **Update Now**. The update process proceeds as described in the previous section, and then Visual Studio opens.
 
 ## Update Visual Studio 2017 version 15.5 or earlier
 
