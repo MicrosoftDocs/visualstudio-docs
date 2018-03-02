@@ -104,5 +104,5 @@ Additionally, your development tasks or technologies might need more scale, like
 ## Next steps
 Now that you know about the preconfigured Visual Studio images, the next step is to create a new VM:
 
-* [Create a VM through the Azure portal](quick-create-portal.md)
-* [Windows Virtual Machines overview](overview.md)
+* [Create a VM through the Azure portal](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal)
+* [Windows Virtual Machines overview](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/overview)
