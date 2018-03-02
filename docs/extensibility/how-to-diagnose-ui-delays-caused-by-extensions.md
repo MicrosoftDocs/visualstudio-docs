@@ -39,7 +39,7 @@ In the following sections, we will go through these steps in more detail.
 
 ## Identifying the trigger scenario
 
-To do diagnose a UI delay, you first need to idetify what (sequence of actions) causes Visual Studio to show the notification. This is in order for you to able to trigger the notification later with logging turned on.
+To do diagnose a UI delay, you first need to identify what (sequence of actions) causes Visual Studio to show the notification. This is in order for you to able to trigger the notification later with logging turned on.
 
 ## Restarting VS with activity logging on
 
