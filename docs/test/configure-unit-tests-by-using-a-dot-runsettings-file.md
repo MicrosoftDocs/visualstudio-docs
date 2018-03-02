@@ -12,7 +12,7 @@ author: gewarren
 ---
 # Configure unit tests by using a *.runsettings* file
 
-Unit tests in Visual Studio can be configured by using a *.runsettings* file. For example, you can change the .NET Framework version on which the tests are run, the directory where test results are delivered, or the data that's collected during a test run.
+Unit tests in Visual Studio can be configured by using a *.runsettings* file. For example, you can change the .NET Framework version on which the tests are run, the directory for the test results, or the data that's collected during a test run.
 
 > [!NOTE]
 > The file name doesn't matter, as long as you use the extension '.runsettings'.
@@ -129,7 +129,7 @@ The sections that follow detail the elements of a *.runsettings* file.
 |`TreatTestAdapterErrorsAsWarnings`|false|false, true|
 |`TestAdaptersPaths`||One or multiple paths to the directory where the TestAdapters are located|
 |`MaxCpuCount`|1|This setting controls the degree of parallel test execution when running unit tests, using available cores on the machine. The test execution engine starts as a distinct process on each available core, and gives each core a container with tests to run. A container can be an assembly, DLL, or relevant artifact. The test container is the scheduling unit. In each container, the tests are run according to the test framework. If there are many containers, then as processes finish executing the tests in a container, they are given the next available container.<br /><br /> MaxCpuCount can be:<br /><br /> n, where 1 <= n <= number of cores: up to n processes will be launched<br /><br /> n, where n = any other value:  the number of processes launched will be up to as many as available cores on the machine|
-|`TestSessionTimeout`|-|Allows users to terminate a test session when it exceeds a given timeout. This ensures that resources are well consumed and test sessions are constrained to a set time. The setting is available in **Visual Studio 2017 version 15.5** and higher.
+|`TestSessionTimeout`|-|Allows users to terminate a test session when it exceeds a given timeout. Setting a timeout ensures that resources are well consumed and test sessions are constrained to a set time. The setting is available in **Visual Studio 2017 version 15.5** and later.
 
 ### Diagnostic Data Adapters (Data Collectors)
 
@@ -141,7 +141,7 @@ The code coverage data collector creates a log of which parts of the application
 
 #### Video data collector
 
-The video data collector captures a screen recording when tests are run. This recording is useful for troubleshooting UI tests. Video data collector is available in **Visual Studio 2017 version 15.5** and higher.
+The video data collector captures a screen recording when tests are run. This recording is useful for troubleshooting UI tests. Video data collector is available in **Visual Studio 2017 version 15.5** and later.
 
 To customize any other type of diagnostic data adapter, you must use a test settings file. For more information, see [Specifying Test Settings for Visual Studio Tests](/devops-test-docs/test/specifying-test-settings-for-visual-studio-tests).
 
