@@ -60,7 +60,7 @@ You should consider the following when you evaluate this problem:
 
 ![Inefficient I&#47;O](../profiling/media/inefficient_io.png "Inefficient_IO")
 
-Overuse or misuse of I/O is a common cause of inefficiencies in applications. Consider the previous illustration. The Visible Timeline Profile shows that 42 percent of the visible thread time is consumed by I/O. The timeline shows large amounts of I/O, which indicates that the profiled application is frequently blocked by I/O. To see details about the kinds of I/O and where your program is blocked, zoom into problematic regions, examine the Visible Timeline Profile, and then click a specific I/O block to see current call stacks.
+Overuse or misuse of I/O is a common cause of inefficiencies in applications. Consider the previous illustration. The Visible Timeline Profile shows that 44 percent of the visible thread time is consumed by I/O. The timeline shows large amounts of I/O, which indicates that the profiled application is frequently blocked by I/O. To see details about the kinds of I/O and where your program is blocked, zoom into problematic regions, examine the Visible Timeline Profile, and then click a specific I/O block to see current call stacks.
 
 ## Lock Convoys
 
