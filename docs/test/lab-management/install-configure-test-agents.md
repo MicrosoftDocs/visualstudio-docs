@@ -27,8 +27,6 @@ You might also consider if it's better to use [build or release management](use-
 
 ## Install the test controller and test agents
 
-You can download agents for Visual Studio 2015 and Visual Studio 2013 from the [older version](https://www.visualstudio.com/vs/older-downloads/) download page.
-
 You can download agents for Visual Studio 2017 from [visualstudio.com](https://www.visualstudio.com/downloads/?q=agents). Select either *Agent* or *Controller*. You can download agents for Visual Studio 2015 and Visual Studio 2013 from the [older downloads](https://www.visualstudio.com/vs/older-downloads/) page.
 
 These installers are available as ISO files for easy installation on virtual machines.
@@ -47,7 +45,7 @@ You can mix different versions of TFS, Microsoft Test Manager (MTM), the test co
 | 2015: upgrade from 2013 or new install | 2015 | 2013 | 2013 |
 | 2013 | 2015 | 2013 | 2013 |
 
-## Upgrading from Visual Studio 2013 test agents
+## Upgrade from Visual Studio 2013 test agents
 
 We recommend that you use agents for Visual Studio in all new automated testing scenarios. You can use the *Deploy Test Agents* task in a build definition to download and install the test agents on your machine.
 
