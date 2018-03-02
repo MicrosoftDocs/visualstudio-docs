@@ -1,6 +1,6 @@
 ---
 title: "Use Build or Release Management for automated testing in Visual Studio | Microsoft Docs"
-ms.date: "05/02/2017"
+ms.date: 03/02/2018
 ms.technology: vs-devops-test
 ms.topic: "article"
 helpviewer_keywords:

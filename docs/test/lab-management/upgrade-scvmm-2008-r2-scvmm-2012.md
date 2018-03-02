@@ -33,7 +33,8 @@ Lab Management for Team Foundation Server supports SCVMM 2008 R2 and SCVMM 2012.
 
 1. Use the **iisreset** command to restart the Team Foundation Server web service. Then restart the Team Foundation Server job agent.
 
-   **Caution:** This step disrupts the services on your Team Foundation Server.
+   > [!IMPORTANT]
+   > This step disrupts the services on your Team Foundation Server.
 
 1. Upgrade the data and templates in each project collection database so it is compatible with SCVMM 2012.
 

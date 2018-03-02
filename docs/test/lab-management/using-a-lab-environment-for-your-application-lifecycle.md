@@ -13,7 +13,7 @@ author: gewarren
 ---
 # Use a lab environment for your devops
 
-A lab environment is a collection of virtual and physical machines, which you can use to develop and test applications. A lab environment can contain multiple roles needed to test multi-tiered applications, such as workstations, web servers, and database servers. In addition, you can use a build-deploy-test workflow with your lab environment to automate the process of building, deploying, and running automated tests on your application.
+A lab environment is a collection of virtual and physical machines that you can use to develop and test applications. A lab environment can contain multiple roles needed to test multi-tiered applications, such as workstations, web servers, and database servers. In addition, you can use a build-deploy-test workflow with your lab environment to automate the process of building, deploying, and running automated tests on your application.
 
 * **Use a test plan to run automated tests** - You can run a collection of automated tests, called a *test plan*, and view the progress.
 
@@ -21,7 +21,7 @@ A lab environment is a collection of virtual and physical machines, which you ca
 
 * **Collect diagnostic data from all machines, even during manual testing** - You can collect diagnostic data from multiple machines simultaneously. For example, during a single test run, you can collect IntelliTrace, test impact, and other forms of data from a web server, a database server, and a client.
 
-Here are examples of common types of lab environments:
+Here are examples of common lab environment topologies:
 
 | Topology | Description |
 |---|---|
@@ -40,8 +40,8 @@ You can perform automated testing and build-deploy-test automation using the [Bu
 * You do not need a Build controller or Test controller.
 * The Test agent is installed through a task as part of the build or release.
 * It is easy to customize the deployment steps. You are no longer restricted to use a single script. You can also take advantage of the many tasks that are available in the product as well as in Visual Studio Marketplace.
-* You do not have to maintain test suites. You can directly run tests from binaries.
-* You get a richer inline reporting experience for the tests that ran within each build or release.
+* You don't have to maintain test suites. You can directly run tests from binaries.
+* You get a richer inline reporting experience for the tests that run within each build or release.
 * You can track which assets (release, build, work items, commits) are currently deployed and tested on each environment.
 * You can customize and extend the automation to easily deploy to multiple test environments, and even to production.
 * You can schedule the automation to happen whenever there is a check-in or commit, or at a specific time every day.
@@ -50,15 +50,15 @@ For more information, see [Use Build or Release management](use-build-or-rm-inst
 
 ## Use the Visual Studio Lab Management features of Microsoft Test Manager
 
-You can create and manage lab environments with the Visual Studio Lab Management features of Microsoft Test Manager when you use Visual Studio Enterprise or Visual Studio Test Professional.
+You can create and manage lab environments with the Visual Studio Lab Management features of Microsoft Test Manager when you use Visual Studio 2017 Enterprise edition.
 
 Lab Management automatically installs test agents on every machine in your environment.
 
-If you use Lab Management in conjunction with System Center Virtual Machine Manager (SCVMM), you can also get these benefits when you use lab environments:
+If you use Lab Management in conjunction with System Center Virtual Machine Manager (SCVMM), you also get these benefits when you use lab environments:
 
 * **Quickly reproduce machine configurations** - You can store collections of virtual machines that are configured to recreate typical production environments. You can then perform each test run on a new copy of a stored environment.
 
-* **Reproduce the exact conditions of a bug** - When a test run fails, you can store a copy of the state of your lab environment, and access it from your build results or a work item.
+* **Reproduce the exact conditions of a bug** - When a test run fails, you can store a copy of the state of your lab environment and access it from your build results or a work item.
 
 * **Run multiple copies of a lab environment at the same time** - You can run multiple copies of your lab environment at the same time without naming conflicts.
 
@@ -66,9 +66,6 @@ If you use Lab Management in conjunction with System Center Virtual Machine Mana
 
 There are two types of lab environments that you can create with Visual Studio Lab Management:
 **standard environments** and **SCVMM environments**. However, the capabilities of each type of environment are different.
-
-> [!NOTE]
-> Lab Management does not support SCVMM 2016. For information about SCVMM, see [Virtual Machine Manager](/vsts/build-release/apps/cd/scvmm/configure-scvmm).
 
 **Standard environments:** can contain a mix of virtual and physical machines. You can also add virtual machines to a standard environment that are managed by third-party virtualization frameworks. In addition, standard environments do not require additional server resources such as an SCVMM server.
 
@@ -83,6 +80,9 @@ There are two types of lab environments that you can create with Visual Studio L
 - **Virtual machine templates:** A virtual machine template is a virtual machine that has had its name and other identifiers removed. When a VM template is deployed in an SCVMM environment, Microsoft Test Manager generates new identifiers. This allows you deploy multiple copies of a virtual machine in the same environment, or multiple environments, and then run the virtual machines simultaneously.
 
 - **Stored Virtual Machines:** A virtual machine that is stored in your Team Project library and includes unique identifiers.
+
+> [!NOTE]
+> Lab Management does not support SCVMM 2016.
 
 For information about SCVMM, see [Virtual Machine Manager](/vsts/build-release/apps/cd/scvmm/configure-scvmm).
 
