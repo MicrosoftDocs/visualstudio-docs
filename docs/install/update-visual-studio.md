@@ -20,9 +20,9 @@ ms.workload:
 ---
 # Update Visual Studio 2017 to the most recent release
 
-We encourage you to update most [recent released version of Visual Studio 2017](/visualstudio/releasenotes/vs2017-relnotes) so that you always get the latest features, fixes, and updates.
+We encourage you to update most [recent version](/visualstudio/releasenotes/vs2017-relnotes) of Visual Studio 2017 so that you always get the latest features, fixes, and updates.
 
-And if you'd like to see what we're experimenting with in the future, consider downloading a [preview release](/visualstudio/releasenotes/vs2017-preview-relnotes) of our next version, too.
+And if you'd like to see what we're experimenting with in the future, consider downloading a [preview release](/visualstudio/releasenotes/vs2017-preview-relnotes) of the next version, too.
 
 >[!IMPORTANT]
 >To install, update, or modify Visual Studio, you must log on with an account that has administrative permissions. For more information, see [User Permissions and Visual Studio](../ide/user-permissions-and-visual-studio.md).
@@ -41,22 +41,22 @@ New with version 15.6: We've streamlined the installation and update experience 
 
     ![Update Visual Studio 2017 by using the Update dialog box from the Notifications hub](media/vs-update-now-from-notifications-hub.png "The Update dialog box from the Notifications hub in Visual Studio")
 
-     If a User Access Control dialog box opens, choose **Yes**. Next, a "Please wait" dialog might open for a moment, and then the Visual Studio Installer opens to start the update process.
+     If a User Access Control dialog box opens, choose **Yes**. Next, a "Please wait" dialog might open for a moment, and then the Visual Studio Installer opens to start the update.
 
      ![The new Visual Studio Installer experience in version 15.6](media/visual-studio-15dot6-installer.png "The new Visual Studio Installer experience in version 15.6")
 
 3. (Optional) If you want to, you can pause the update and resume it later. To pause the update, choose the **Pause** button.
 
-     ![The Pause button in the Visual Studio Installer in version 15.6](media/visual-studio-15.6-pause.png "The Pause button in the Visual Studio Installer in version 15.6")
+     ![The Pause button in the Visual Studio Installer in version 15.6](media/visual-studio-15dot6-pause.png "The Pause button in the Visual Studio Installer in version 15.6")
 
    Then, to resume the update, choose the **Resume** button.
 
-     ![The Resume button in the Visual Studio Installer in version 15.6](media/visual-studio-15.6-resume-from-pause.png "The Resume button in the Visual Studio Installer in version 15.6")
+     ![The Resume button in the Visual Studio Installer in version 15.6](media/visual-studio-15dot6-resume-from-pause.png "The Resume button in the Visual Studio Installer in version 15.6")
 
    Your update continues. Then, when it's complete, Visual Studio opens.
 
-   > [!NOTE]
-   > Want to change a workload while you are updating? Click the **Modify** button. Next, select the workloads you want from the Visual Studio Installer dialog and then click the **Modify** button again. The update continues while the workload installs.
+   >[!NOTE]
+   >Want to change a workload while you are updating? Click the **Modify** button. Next, select the workloads you want from the Visual Studio Installer dialog and then click the **Modify** button again. The update continues while the workload installs.
 
 ### Use the IDE
 
@@ -100,20 +100,20 @@ Choose the notifications flag to open the **Notifications** hub and then choose 
 
  ![View an optional or informational message in the Notification hub](media/notification-flag-optional.png "The optional or informational message Notification flag in Visual Studio")
 
-If you choose to ignore a notification, Visual Studio will stop showing it. If you want to reset the list of ignored notifications, choose the **Settings** button in the Notifications hub.
+If you choose to ignore a notification, Visual Studio stops showing it. If you want to reset the list of ignored notifications, choose the **Settings** button in the Notifications hub.
 
    ![Choose the Settings button in the Notifications hub to view Notification options](media/vs-notifications-hub-settings-button.png "Choose the Settings button in the Notifications hub to view notification options")
 
 ### Update by using the Visual Studio Installer
 
-1. Open the installer. You might need to update the installer before continuing. If this is the case, you'll be prompted to do so.
+1. Open the installer. You might need to update the installer before continuing. If this is the case, you are prompted to do so.
 
   > [!NOTE]
-  > On a computer running Windows 10, you'll find the installer under the letter **V** as the **Visual Studio Installer**, or under the letter **M** as the **Microsoft Visual Studio Installer**.
+  > On a computer running Windows 10, you can find the installer under the letter **V** as the **Visual Studio Installer**, or under the letter **M** as the **Microsoft Visual Studio Installer**.
 
 2. On the **Product** page in the installer, look for the edition of Visual Studio that you have installed.
 
-3. If an update is available, you'll see an **Update** button. (It might take a few seconds for the installer to determine whether an update is available.)
+3. If an update is available, you see an **Update** button. (It might take a few seconds for the installer to determine whether an update is available.)
 
   Choose the **Update** button to install the updates.
 
