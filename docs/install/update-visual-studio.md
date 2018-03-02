@@ -20,9 +20,9 @@ ms.workload:
 ---
 # Update Visual Studio 2017 to the most recent release
 
-We encourage you to update most [recent version](/visualstudio/releasenotes/vs2017-relnotes) of Visual Studio 2017 so that you always get the latest features, fixes, and updates.
+We encourage you to update most [recent version](/visualstudio/releasenotes/vs2017-relnotes) of Visual Studio 2017 so that you always get the latest features, fixes, and improvemens.
 
-And if you'd like to see what we're experimenting with in the future, consider downloading a [preview release](/visualstudio/releasenotes/vs2017-preview-relnotes) of the next version, too.
+And if you'd like to try anything out before we release it, consider downloading the [preview release](/visualstudio/releasenotes/vs2017-preview-relnotes) of the next version, too.
 
 >[!IMPORTANT]
 >To install, update, or modify Visual Studio, you must log on with an account that has administrative permissions. For more information, see [User Permissions and Visual Studio](../ide/user-permissions-and-visual-studio.md).
@@ -45,15 +45,7 @@ New with version 15.6: We've streamlined the installation and update experience 
 
      ![The new Visual Studio Installer experience in version 15.6](media/visual-studio-15dot6-installer.png "The new Visual Studio Installer experience in version 15.6")
 
-3. (Optional) If you want to, you can pause the update and resume it later. To pause the update, choose the **Pause** button.
-
-     ![The Pause button in the Visual Studio Installer in version 15.6](media/visual-studio-15dot6-pause.png "The Pause button in the Visual Studio Installer in version 15.6")
-
-   Then, to resume the update, choose the **Resume** button.
-
-     ![The Resume button in the Visual Studio Installer in version 15.6](media/visual-studio-15dot6-resume-from-pause.png "The Resume button in the Visual Studio Installer in version 15.6")
-
-   Your update continues. Then, when it's complete, Visual Studio opens.
+     Your update continues. Then, when it's complete, Visual Studio restarts.
 
    >[!NOTE]
    >Want to change a workload while you are updating? Click the **Modify** button. Next, select the workloads you want from the Visual Studio Installer dialog and then click the **Modify** button again. The update continues while the workload installs.
@@ -64,7 +56,22 @@ New with version 15.6: We've streamlined the installation and update experience 
 
      ![The new Help menu in Visual Studio version 15.6](media/vs-help-menu-check-for-updates.png "The new Help menu in Visual Studio version 15.6")
 
-2. When the **Update** dialog box opens, choose **Update Now**. The update process proceeds as described in the previous section, and then Visual Studio opens.
+2. When the **Update** dialog box opens, choose **Update Now**. The update proceeds as described in the previous section, and then Visual Studio restarts after the update completes successfully.
+
+## Use the Visual Studio Installer
+
+1. Open the installer. You might need to update the installer before continuing. If this is the case, you are prompted to do so.
+
+  > [!NOTE]
+  > On a computer running Windows 10, you can find the installer under the letter **V** as the **Visual Studio Installer**, or under the letter **M** as the **Microsoft Visual Studio Installer**.
+
+2. On the **Product** page in the installer, look for the edition of Visual Studio that you have installed.
+
+3. If an update is available, you see an **Update** button. (It might take a few seconds for the installer to determine whether an update is available.)
+
+  Choose the **Update** button to install the updates.
+
+     ![Update Visual Studio 2017 by using the Visual Studio Installer](media/update-visual-studio.png "Update Visual Studio 2017 by using the Visual Studio Installer")
 
 ## Update Visual Studio 2017 version 15.5 or earlier
 
