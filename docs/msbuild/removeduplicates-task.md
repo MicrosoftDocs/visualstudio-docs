@@ -1,7 +1,7 @@
 ---
 title: "RemoveDuplicates Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "03/01/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: msbuild
@@ -33,7 +33,7 @@ Removes duplicate items from the specified item collection.
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|`Filtered`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Contains an item collection with all duplicate items removed.|  
+|`Filtered`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Contains an item collection with all duplicate items removed. The order of the input items is preserved, keeping the first instance of each duplicate item.|  
 |`Inputs`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> The item collection to remove duplicate items from.|  
   
 ## Remarks  
@@ -65,7 +65,30 @@ Removes duplicate items from the specified item collection.
     </Target>  
 </Project>  
 ```  
+
+ The following example shows that the `RemoveDuplicates` task preserves its input order. When the task is complete, the `FilteredItems` item collection contains the items "MyFile2.cs", "MyFile1.cs", and "MyFile3.cs" in that order.  
   
+```xml  
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
+  
+    <ItemGroup>  
+        <MyItems Include="MyFile2.cs"/>  
+        <MyItems Include="MyFile1.cs" />  
+        <MyItems Include="MyFile3.cs" />  
+        <MyItems Include="myfile1.cs"/>  
+    </ItemGroup>  
+  
+    <Target Name="RemoveDuplicateItems">  
+        <RemoveDuplicates  
+            Inputs="@(MyItems)">  
+            <Output  
+                TaskParameter="Filtered"  
+                ItemName="FilteredItems"/>  
+        </RemoveDuplicates>  
+    </Target>  
+</Project>  
+```  
+
 ## See Also  
  [Task Reference](../msbuild/msbuild-task-reference.md)   
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)   
