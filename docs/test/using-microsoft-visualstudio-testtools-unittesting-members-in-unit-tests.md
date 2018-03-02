@@ -9,115 +9,115 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.author: gewarren
 manager: ghogen
-ms.workload: 
+ms.workload:
   - "multiple"
 author: gewarren
 ---
 # Using Microsoft.VisualStudio.TestTools.UnitTesting Members in Unit Tests
-The Unit Testing Framework supports unit testing in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Use the classes and members in the Microsoft.VisualStudio.TestPlatform.UnitTestFramework> namespace when you are coding unit tests. You can use them when you have written the unit test from scratch or are refining a unit test that was generated from code you are testing.  
-  
-## Groups of Elements  
- To help provide a clearer overview of the Unit Testing Framework, this section organizes the elements of the UnitTesting namespace into groups of related functionality.  
-  
+The Unit Testing Framework supports unit testing in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Use the classes and members in the <xref:Microsoft.VisualStudio.TestPlatform.UnitTestFramework> namespace when you are coding unit tests. You can use them when you have written the unit test from scratch or are refining a unit test that was generated from code you are testing.
+
+## Groups of Elements
+ To help provide a clearer overview of the Unit Testing Framework, this section organizes the elements of the UnitTesting namespace into groups of related functionality.
+
 > [!NOTE]
->  Attribute elements, whose names conclude with the string Attribute, can be used either with or without the string Attribute. For example, the following two code examples function identically:  
->   
->  `[TestClass()]`  
->   
->  `[TestClassAttribute()]`  
-  
-### Elements Used for Data-Driven Testing  
- Use the following elements to set up data-driven unit tests. For more information, see [How To: Create a Data-Driven Unit Test](../test/how-to-create-a-data-driven-unit-test.md) and [Walkthrough: Using a Configuration File to Define a Data Source](../test/walkthrough-using-a-configuration-file-to-define-a-data-source.md).  
-  
--   Microsoft.VisualStudio.TestPlatform.UnitTestFramework.DataAccessMethod  
-  
--   Microsoft.VisualStudio.TestPlatform.UnitTestFramework.DataSourceAttribute 
-  
--   Microsoft.VisualStudio.TestPlatform.UnitTestFramework.DataSourceElement  
-  
--   Microsoft.VisualStudio.TestPlatform.UnitTestFramework.DataSourceElementCollection  
-  
+>  Attribute elements, whose names conclude with the string Attribute, can be used either with or without the string Attribute. For example, the following two code examples function identically:
+>
+>  `[TestClass()]`
+>
+>  `[TestClassAttribute()]`
+
+### Elements Used for Data-Driven Testing
+ Use the following elements to set up data-driven unit tests. For more information, see [How To: Create a Data-Driven Unit Test](../test/how-to-create-a-data-driven-unit-test.md) and [Walkthrough: Using a Configuration File to Define a Data Source](../test/walkthrough-using-a-configuration-file-to-define-a-data-source.md).
+
+- Microsoft.VisualStudio.TestPlatform.UnitTestFramework.DataAccessMethod
+
+- Microsoft.VisualStudio.TestPlatform.UnitTestFramework.DataSourceAttribute
+
+- Microsoft.VisualStudio.TestPlatform.UnitTestFramework.DataSourceElement
+
+- Microsoft.VisualStudio.TestPlatform.UnitTestFramework.DataSourceElementCollection
+
 ## Attributes Used to Establish a Calling Order
 
 A code element decorated with one of the following attributes is called at the moment you specify. For more information, see [Anatomy of a Unit Test](http://msdn.microsoft.com/a03d1ee7-9999-4e7c-85df-7d9073976144).
 
-### For Assemblies  
- AssemblyInitialize and AssemblyCleanup are called right after your assembly is loaded and right before your assembly is unloaded.  
-  
--   Microsoft.VisualStudio.TestPlatform.UnitTestFramework.AssemblyInitializeAttribute  
-  
--   Microsoft.VisualStudio.TestPlatform.UnitTestFramework.AssemblyCleanupAttribute  
-  
-### For Classes  
- ClassInitialize and ClassCleanup are called right after your class is loaded and right before your class is unloaded.  
-  
--   Microsoft.VisualStudio.TestPlatform.UnitTestFramework.ClassInitializeAttribute  
-  
--   Microsoft.VisualStudio.TestPlatform.UnitTestFramework.ClassCleanupAttribute  
-  
-### For Test Methods  
-  
--   Microsoft.VisualStudio.TestPlatform.UnitTestFramework.TestInitializeAttribute  
-  
--   Microsoft.VisualStudio.TestPlatform.UnitTestFramework.TestCleanupAttribute  
-  
+### For Assemblies
+ AssemblyInitialize and AssemblyCleanup are called right after your assembly is loaded and right before your assembly is unloaded.
+
+- Microsoft.VisualStudio.TestPlatform.UnitTestFramework.AssemblyInitializeAttribute
+
+- Microsoft.VisualStudio.TestPlatform.UnitTestFramework.AssemblyCleanupAttribute
+
+### For Classes
+ ClassInitialize and ClassCleanup are called right after your class is loaded and right before your class is unloaded.
+
+- Microsoft.VisualStudio.TestPlatform.UnitTestFramework.ClassInitializeAttribute
+
+- Microsoft.VisualStudio.TestPlatform.UnitTestFramework.ClassCleanupAttribute
+
+### For Test Methods
+
+- Microsoft.VisualStudio.TestPlatform.UnitTestFramework.TestInitializeAttribute
+
+- Microsoft.VisualStudio.TestPlatform.UnitTestFramework.TestCleanupAttribute
+
 ## Attributes Used to Identify Test Classes and Methods
 
 Every test class must have the TestClass attribute, and every test method must have the TestMethod attribute. For more information, see [Anatomy of a Unit Test](http://msdn.microsoft.com/a03d1ee7-9999-4e7c-85df-7d9073976144).
-  
--   Microsoft.VisualStudio.TestPlatform.UnitTestFramework.TestClassAttribute  
-  
--   Microsoft.VisualStudio.TestPlatform.UnitTestFramework.TestMethodAttribute  
-  
-## Assert Classes and Related Exceptions  
- Unit tests can verify specific application behavior by their use of various kinds of Assert statements, exceptions, and attributes. For more information, see [Using the Assert Classes](../test/using-the-assert-classes.md).  
-  
--   Microsoft.VisualStudio.TestPlatform.UnitTestFramework.Assert 
-  
--   Microsoft.VisualStudio.TestPlatform.UnitTestFramework.CollectionAssert  
-  
--   Microsoft.VisualStudio.TestPlatform.UnitTestFramework.StringAssert  
-  
--   Microsoft.VisualStudio.TestPlatform.UnitTestFramework.AssertFailedException  
-  
--   Microsoft.VisualStudio.TestPlatform.UnitTestFramework.AssertInconclusiveException  
-  
--   Microsoft.VisualStudio.TestPlatform.UnitTestFramework.UnitTestAssertException  
-  
--   Microsoft.VisualStudio.TestPlatform.UnitTestFramework.ExpectedExceptionAttribute  
-  
-## The TestContext Class  
- The following attributes and the values assigned to them appear in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Properties window for a particular test method. These attributes are not meant to be accessed through the code of the unit test. Instead, they affect the ways the unit test is used or run, either by you through the IDE of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], or by the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] test engine.For example, some of these attributes appear as columns in the Test Manager window and Test Results window, which means that you can use them to group and sort tests and test results. One such attribute is TestPropertyAttribute, which you use to add arbitrary metadata to unit tests. For example, you could use it to store the name of a test pass that this test covers, by marking the unit test with `[TestProperty("TestPass", "Accessibility")]`. Or you could use it to store an indicator of the kind of test it is: `[TestProperty("TestKind", "Localization")]`. The property you create by using this attribute, and the property value you assign, are both displayed in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Properties window under the heading **Test specific**.  
-  
--   Microsoft.VisualStudio.TestPlatform.UnitTestFramework.OwnerAttribute  
-  
--   Microsoft.VisualStudio.TestPlatform.UnitTestFramework.DeploymentItemAttribute  
-  
--   Microsoft.VisualStudio.TestPlatform.UnitTestFramework.DescriptionAttribute  
-  
--   Microsoft.VisualStudio.TestPlatform.UnitTestFramework.HostTypeAttribute  
-  
--   Microsoft.VisualStudio.TestPlatform.UnitTestFramework.IgnoreAttribute  
-  
--   Microsoft.VisualStudio.TestPlatform.UnitTestFramework.PriorityAttribute  
-  
--   Microsoft.VisualStudio.TestPlatform.UnitTestFramework.TestPropertyAttribute  
-  
--   Microsoft.VisualStudio.TestPlatform.UnitTestFramework.WorkItemAttribute  
-  
-## Test Configuration Classes  
-  
--   Microsoft.TeamFoundation.TestManagement.Client.ObjectTypes>  
-  
--   Microsoft.VisualStudio.TestPlatform.UnitTestFramework.TestConfigurationSection  
-  
-## Attributes Used for Generating Reports  
- The attributes in this section relate the test method that they decorate to entities in the project hierarchy of a [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] team project.  
-  
--   Microsoft.VisualStudio.TestPlatform.UnitTestFramework.CssIterationAttribute  
-  
--   Microsoft.VisualStudio.TestPlatform.UnitTestFramework.CssProjectStructureAttribute  
-  
+
+- Microsoft.VisualStudio.TestPlatform.UnitTestFramework.TestClassAttribute
+
+- Microsoft.VisualStudio.TestPlatform.UnitTestFramework.TestMethodAttribute
+
+## Assert Classes and Related Exceptions
+ Unit tests can verify specific application behavior by their use of various kinds of Assert statements, exceptions, and attributes. For more information, see [Using the Assert Classes](../test/using-the-assert-classes.md).
+
+- Microsoft.VisualStudio.TestPlatform.UnitTestFramework.Assert
+
+- Microsoft.VisualStudio.TestPlatform.UnitTestFramework.CollectionAssert
+
+- Microsoft.VisualStudio.TestPlatform.UnitTestFramework.StringAssert
+
+- Microsoft.VisualStudio.TestPlatform.UnitTestFramework.AssertFailedException
+
+- Microsoft.VisualStudio.TestPlatform.UnitTestFramework.AssertInconclusiveException
+
+- Microsoft.VisualStudio.TestPlatform.UnitTestFramework.UnitTestAssertException
+
+- Microsoft.VisualStudio.TestPlatform.UnitTestFramework.ExpectedExceptionAttribute
+
+## The TestContext Class
+ The following attributes and the values assigned to them appear in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Properties window for a particular test method. These attributes are not meant to be accessed through the code of the unit test. Instead, they affect the ways the unit test is used or run, either by you through the IDE of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], or by the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] test engine.For example, some of these attributes appear as columns in the Test Manager window and Test Results window, which means that you can use them to group and sort tests and test results. One such attribute is TestPropertyAttribute, which you use to add arbitrary metadata to unit tests. For example, you could use it to store the name of a test pass that this test covers, by marking the unit test with `[TestProperty("TestPass", "Accessibility")]`. Or you could use it to store an indicator of the kind of test it is: `[TestProperty("TestKind", "Localization")]`. The property you create by using this attribute, and the property value you assign, are both displayed in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Properties window under the heading **Test specific**.
+
+- Microsoft.VisualStudio.TestPlatform.UnitTestFramework.OwnerAttribute
+
+- Microsoft.VisualStudio.TestPlatform.UnitTestFramework.DeploymentItemAttribute
+
+- Microsoft.VisualStudio.TestPlatform.UnitTestFramework.DescriptionAttribute
+
+- Microsoft.VisualStudio.TestPlatform.UnitTestFramework.HostTypeAttribute
+
+- Microsoft.VisualStudio.TestPlatform.UnitTestFramework.IgnoreAttribute
+
+- Microsoft.VisualStudio.TestPlatform.UnitTestFramework.PriorityAttribute
+
+- Microsoft.VisualStudio.TestPlatform.UnitTestFramework.TestPropertyAttribute
+
+- Microsoft.VisualStudio.TestPlatform.UnitTestFramework.WorkItemAttribute
+
+## Test Configuration Classes
+
+- Microsoft.TeamFoundation.TestManagement.Client.ObjectTypes>
+
+- Microsoft.VisualStudio.TestPlatform.UnitTestFramework.TestConfigurationSection
+
+## Attributes Used for Generating Reports
+ The attributes in this section relate the test method that they decorate to entities in the project hierarchy of a [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] team project.
+
+- Microsoft.VisualStudio.TestPlatform.UnitTestFramework.CssIterationAttribute
+
+- Microsoft.VisualStudio.TestPlatform.UnitTestFramework.CssProjectStructureAttribute
+
 ## Classes Used with Private Accessors
 
 You can generate a unit test for a private method. This generation creates a private accessor class, which instantiates an object of the PrivateObject class. The PrivateObject class is a wrapper class that uses reflection as part of the private accessor process. The PrivateType class is similar, but is used for calling private static methods instead of calling private instance methods.
