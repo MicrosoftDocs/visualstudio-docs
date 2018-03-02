@@ -1,3 +1,4 @@
+
 ---
 title: "Configure unit tests in Visual Studio by using a *.runsettings* file | Microsoft Docs"
 ms.date: 02/28/2018
@@ -52,6 +53,10 @@ Following is a typical *.runsettings* file. Each element of the file is optional
 
     <!-- Path to Test Adapters -->
     <TestAdaptersPaths>%SystemDrive%\Temp\foo;%SystemDrive%\Temp\bar</TestAdaptersPaths>
+  
+     <!--TestSessionTimeout is only available with Visual Studio 2017 version 15.5 and higher -->
+     <!-- Specify timeout in milliseconds. A valid value should be greater than 0 -->
+     <TestSessionTimeout>10000</TestSessionTimeout>
   </RunConfiguration>
 
   <!-- Configurations for data collectors -->
@@ -124,6 +129,7 @@ The sections that follow detail the elements of a *.runsettings* file.
 |`TreatTestAdapterErrorsAsWarnings`|false|false, true|
 |`TestAdaptersPaths`||One or multiple paths to the directory where the TestAdapters are located|
 |`MaxCpuCount`|1|This setting controls the degree of parallel test execution when running unit tests, using available cores on the machine. The test execution engine starts as a distinct process on each available core, and gives each core a container with tests to run. A container can be an assembly, DLL, or relevant artifact. The test container is the scheduling unit. In each container, the tests are run according to the test framework. If there are many containers, then as processes finish executing the tests in a container, they are given the next available container.<br /><br /> MaxCpuCount can be:<br /><br /> n, where 1 <= n <= number of cores: up to n processes will be launched<br /><br /> n, where n = any other value:  the number of processes launched will be up to as many as available cores on the machine|
+|`TestSessionTimeout`|-|Allows users to terminate a test session when it exceeds a given timeout. This ensures that resources are well consumed and test sessions are constrained to a set time. The setting is available in **Visual Studio 2017 version 15.5** and higher.
 
 ### Diagnostic Data Adapters (Data Collectors)
 
