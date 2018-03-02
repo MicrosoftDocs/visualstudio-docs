@@ -31,7 +31,7 @@ Here are examples of common types of lab environments:
 
 |         |         |
 |---------|---------|
-|  ![movie camera icon for video](../install/media/video-icon.png)  |    [Watch a video](https://channel9.msdn.com/Series/Visual-Studio-2012-Premium-and-Ultimate-Overview/Visual-Studio-Ultimate-2012-Managing-lab-environments-for-testing) on managing lab environments for testing. |
+|  ![movie camera icon for video](../../install/media/video-icon.png)  |    [Watch a video](https://channel9.msdn.com/Series/Visual-Studio-2012-Premium-and-Ultimate-Overview/Visual-Studio-Ultimate-2012-Managing-lab-environments-for-testing) on managing lab environments for testing. |
 
 ## Use the cloud with Team Services or Team Foundation Server Build and Release
 
