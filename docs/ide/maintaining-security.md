@@ -1,11 +1,10 @@
 ---
-title: "Maintaining Security | Microsoft Docs"
+title: "Maintaining application security | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
+ms.technology: vs-ide-general
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
@@ -16,26 +15,14 @@ helpviewer_keywords:
   - "MBSA (Microsoft Baseline Security Analyzer)"
   - "security [.NET Framework], maintaining after deployment"
 ms.assetid: 621d10c1-842b-4902-be60-bb9719591751
-caps.latest.revision: 18
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Maintaining Security
+
 It is often said that the price of security is constant vigilance. Despite your best dedication to security during the design and development of your application, you should assume that security flaws will arise after deployment. By auditing your application and analyzing event logs, you may discover some previously hidden flaws.  
   
  In addition, not only must you remain vigilant about your own application, you must also keep current on security threats and flaws for the platform on which your application runs and for other products on which your application depends.  

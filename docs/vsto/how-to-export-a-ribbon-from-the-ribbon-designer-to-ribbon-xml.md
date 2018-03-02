@@ -2,7 +2,6 @@
 title: "How to: Export a Ribbon from the Ribbon Designer to Ribbon XML | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,11 +19,11 @@ helpviewer_keywords:
   - "XML [Office development in Visual Studio], Ribbon"
   - "Ribbon Designer [Office development in Visual Studio]"
   - "exporting Ribbon"
-ms.assetid: 96e0e9ed-4392-4f45-ac33-b6f7c22ea321
-caps.latest.revision: 37
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Export a Ribbon from the Ribbon Designer to Ribbon XML
   The **Ribbon (Visual Designer)** item does not support all possible types of Ribbon customization. To customize the Ribbon in advanced ways, you can export the Ribbon from the designer to Ribbon XML and edit the XML directly.  
@@ -52,7 +51,7 @@ manager: "ghogen"
   
      After you uncomment the code, it should resemble the following example. In this example, the Ribbon class is called `MyRibbon`.  
   
-     [!code-cs[Trin_Ribbon_Custom_Tab_XML#1](../vsto/codesnippet/CSharp/Trin_Ribbon_Custom_Tab_XML_O12/ThisAddIn.cs#1)]
+     [!code-csharp[Trin_Ribbon_Custom_Tab_XML#1](../vsto/codesnippet/CSharp/Trin_Ribbon_Custom_Tab_XML_O12/ThisAddIn.cs#1)]
      [!code-vb[Trin_Ribbon_Custom_Tab_XML#1](../vsto/codesnippet/VisualBasic/Trin_Ribbon_Custom_Tab_XML_O12/ThisAddIn.vb#1)]  
   
 6.  Switch to the Ribbon XML code file and find the `Ribbon Callbacks` region.  

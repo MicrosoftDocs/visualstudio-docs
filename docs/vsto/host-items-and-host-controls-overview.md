@@ -2,7 +2,6 @@
 title: "Host Items and Host Controls Overview | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -38,11 +37,11 @@ helpviewer_keywords:
   - "document-level customizations [Office development in Visual Studio], host items"
   - "Word [Office development in Visual Studio], host controls"
   - "host controls [Office development in Visual Studio], deleting"
-ms.assetid: 0601fed9-1a5b-4504-95ed-c6a2ddb710d9
-caps.latest.revision: 100
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Host Items and Host Controls Overview
   Host items and host controls are types that help provide the programming model for Office solutions that are created by using the Office development tools in Visual Studio. Host items and host controls make interacting with the object models of Microsoft Office Word and Microsoft Office Excel, which are based on COM, more like interacting with managed objects such as Windows Forms controls.  

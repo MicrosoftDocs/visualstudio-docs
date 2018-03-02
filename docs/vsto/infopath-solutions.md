@@ -2,7 +2,6 @@
 title: "InfoPath Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,17 +19,17 @@ helpviewer_keywords:
   - "projects [Office development in Visual Studio], InfoPath"
   - "Office solutions [Office development in Visual Studio], InfoPath"
   - "Office projects [Office development in Visual Studio], InfoPath"
-ms.assetid: 20ac6bee-b17f-4217-9f78-11304a11236a
-caps.latest.revision: 43
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # InfoPath Solutions
   Visual Studio provides project templates you can use to create VSTO Add-ins for Microsoft Office InfoPath 2013 and InfoPath 2010. InfoPath is not available in Office 2016.  
   
 > [!NOTE]  
->  You can still create an VSTO Add-in for InfoPath even if you’ve installed Office 2016. Just install InfoPath 2013 or Office 2013 side-by-side with Office 2016.  
+>  You can still create an VSTO Add-in for InfoPath even if you've installed Office 2016. Just install InfoPath 2013 or Office 2013 side-by-side with Office 2016.  
   
  [!INCLUDE[appliesto_infoallapp](../vsto/includes/appliesto-infoallapp-md.md)]  
   

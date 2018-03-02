@@ -2,7 +2,6 @@
 title: "How to: Hide Controls on Worksheets when Printing | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,11 +16,11 @@ helpviewer_keywords:
   - "controls [Office development in Visual Studio], hiding while printing"
   - "printing [Office development in Visual Studio], hiding controls"
   - "worksheets, hiding controls when printing"
-ms.assetid: a637fe9a-9de1-4162-8ff6-fe28ccd62389
-caps.latest.revision: 28
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Hide Controls on Worksheets when Printing
   When you print a Microsoft Office Excel document that contains Windows Forms controls, the controls are visible on the printed worksheet. You can hide the controls when printing a worksheet.  
@@ -32,7 +31,7 @@ manager: "ghogen"
 >  If you hide controls that display data, such as a <xref:Microsoft.Office.Tools.Excel.Controls.TextBox>, the data in the control will not be visible on the printed worksheet.  
   
 > [!NOTE]  
->  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).  
   
 ### To hide controls when a worksheet is printed  
   

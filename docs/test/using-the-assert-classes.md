@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
@@ -13,25 +12,11 @@ helpviewer_keywords:
   - "Assert statements"
   - "unit tests, Assert statements"
   - "unit tests, Assert classes"
-ms.assetid: da1b7a0d-4f1d-4d50-a07e-7b3ff60053f9
-caps.latest.revision: 27
-ms.author: "douge"
-manager: "douge"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+author: gewarren
 ---
 # Using the Assert Classes
 Use the Assert classes of the UnitTestingFramework namespace to verify specific functionality. A unit test method exercises the code of a method in your development code, but it reports the correctness of the code's behavior only if you include Assert statements.  
@@ -70,6 +55,7 @@ Use the Assert classes of the UnitTestingFramework namespace to verify specific 
   
  Decorate a test method with the ExpectedExceptionAttribute attribute when you want the test method to verify that an exception you expect to be thrown by a method in your development code is indeed being thrown in that method.  
   
-## See Also  
- <xref:Microsoft.VisualStudio.TestTools.UnitTesting>   
- [Creating and Running Unit Tests for Existing Code](http://msdn.microsoft.com/en-us/e8370b93-085b-41c9-8dec-655bd886f173)
+## See also
+
+<xref:Microsoft.VisualStudio.TestTools.UnitTesting>  
+[Unit test your code](../test/unit-test-your-code.md)

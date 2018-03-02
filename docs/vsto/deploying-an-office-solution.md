@@ -2,7 +2,6 @@
 title: "Deploying an Office Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -25,11 +24,11 @@ helpviewer_keywords:
   - "Office solutions [Office development in Visual Studio], deploying"
   - "deploying applications [Office development in Visual Studio], troubleshooting"
   - "solutions [Office development in Visual Studio], deploying Office solutions (2007 system)"
-ms.assetid: 4cdf4bc6-72c5-4166-8019-d5fd61281079
-caps.latest.revision: 78
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Deploying an Office Solution
   You can deploy Office solutions by using ClickOnce or Windows Installer. By using ClickOnce, you reduce the number of steps that deploying and updating your solution requires. If you use Windows Installer, you gain control of how a solution is installed and what pages the setup program displays when users install your solution.  

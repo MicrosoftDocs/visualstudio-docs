@@ -50,9 +50,9 @@ function Rectangle() {
 var rec = new Rectangle();  
   
 if (console && console.log) {  
-    console.log(Object.getPrototypeOf(rec) === Rectangle.prototype);  // Returns true  
+    console.log(Object.setPrototypeOf(rec) === Rectangle.prototype);  // Returns true  
     Object.getPrototypeOf(rec, Object.prototype);  
-    console.log(Object.getPrototypeOf(rec) === Rectangle.prototype);  // Returns false  
+    console.log(Object.setPrototypeOf(rec) === Rectangle.prototype);  // Returns false  
 }  
 ```  
   
@@ -63,7 +63,7 @@ if (console && console.log) {
 var proto = { y: 2 };  
   
 var obj = { x: 10 };  
-Object.getPrototypeOf(obj, proto);  
+Object.setPrototypeOf(obj, proto);  
   
 proto.y = 20;  
 proto.z = 40;  
@@ -81,7 +81,7 @@ if (console && console.log) {
 ```JavaScript  
 var stringProp = { desc: "description" };  
   
-Object.getPrototypeOf(String, stringProp);  
+Object.setPrototypeOf(String, stringProp);  
 var s1 = "333";  
 var s2 = new String("333");  
   
@@ -91,8 +91,8 @@ if (console && console.log) {
     console.log(s1.desc === "description");     // Returns false  
     console.log(s2.desc === "description");     // Returns false  
   
-    Object.getPrototypeOf(s1, String); // Can't be set.  
-    Object.getPrototypeOf(s2, String);  
+    Object.setPrototypeOf(s1, String); // Can't be set.  
+    Object.setPrototypeOf(s2, String);  
   
     console.log(s1.desc === "description"); // Returns false  
     console.log(s2.desc === "description"); // Returns true  

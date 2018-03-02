@@ -2,7 +2,6 @@
 title: "URL Picker Dialog Box (SharePoint development in Visual Studio) | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,11 +16,11 @@ dev_langs:
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, URL picker"
   - "SharePoint development in Visual Studio, designer"
-ms.assetid: 33f8f521-e1f8-4242-a580-8a4bd9cb5ddc
-caps.latest.revision: 15
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # URL Picker Dialog Box (SharePoint development in Visual Studio)
   In the URL picker dialog box, you can choose files such as master page files or image files that are located in your project or on the local server that's running SharePoint.  
@@ -60,6 +59,5 @@ manager: "ghogen"
  [Creating Application Pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md)   
  [Creating Web Parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md)   
  [Creating Reusable Controls for Web Parts or Application Pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md)   
- [Visual Studio Web Development Content Map](http://msdn.microsoft.com/en-us/9c31f93b-c8fb-4599-9b14-6194ec8c7539)  
   
   

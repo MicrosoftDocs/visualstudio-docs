@@ -2,7 +2,6 @@
 title: "Files Element | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,11 +13,11 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "Files element"
-ms.assetid: 3c611d5b-28f1-48a7-a068-63e01fa2f3aa
-caps.latest.revision: 12
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Files Element
   Specifies the files to deploy with the SharePoint project item, such as Feature element files and the output of dependent non-SharePoint projects.  

@@ -13,29 +13,18 @@ helpviewer_keywords:
   - "GetMetricString"
 ms.assetid: ecc875a2-8ac6-444c-a839-5191a780fd6b
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugSettingsCallback2::GetMetricString
 Retrieves the value string of the metric given its name.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetMetricString(  
     LPCWSTR pszType,  
     REFGUID guidSection,  
@@ -44,7 +33,7 @@ HRESULT GetMetricString(
 );  
 ```  
   
-```c#  
+```csharp  
 private int GetMetricString(  
     string     pszType,  
     ref Guid   guidSection,  

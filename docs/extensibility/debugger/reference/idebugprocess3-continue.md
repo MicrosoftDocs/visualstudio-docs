@@ -14,22 +14,11 @@ helpviewer_keywords:
   - "IDebugProcess3::Continue"
 ms.assetid: 57506242-5763-4c08-adb9-8a78ce02cebb
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProcess3::Continue
 Continues running this process from a stopped state. Any previous execution state (such as a step) is preserved, and the process starts executing again.  
@@ -45,7 +34,7 @@ HRESULT Continue(
 );  
 ```  
   
-```c#  
+```csharp  
 int Continue(  
    IDebugThread2 pThread  
 );  

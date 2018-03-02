@@ -2,7 +2,6 @@
 title: "How to: Add Controls to the Backstage View | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -22,11 +21,11 @@ helpviewer_keywords:
   - "Office button"
   - "Ribbon, menus"
   - "Microsoft Office Menu"
-ms.assetid: 4fda1278-9aea-4d54-928a-269a81584494
-caps.latest.revision: 30
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Add Controls to the Backstage View
   You can use the Ribbon Designer to add controls to the menu that opens when you click the **File** tab. when you run the application, controls that you add to the **File** tab appear a group named **Add-ins**.  

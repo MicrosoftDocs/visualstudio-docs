@@ -2,7 +2,6 @@
 title: "Associating a Form Region with an Outlook Message Class | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,11 +16,11 @@ dev_langs:
 helpviewer_keywords: 
   - "FormRegionMessageClassAttribute"
   - "form regions [Office development in Visual Studio], message classes"
-ms.assetid: e2db8d61-fd5f-4059-beec-33b66970f520
-caps.latest.revision: 43
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Associating a Form Region with an Outlook Message Class
   You can specify which Microsoft Office Outlook items display a form region by associating the form region with the message class of each item. For example, if you want to append a form region to the bottom of a mail item, you can associate the form region with the IPM.Note message class.  
@@ -87,7 +86,7 @@ manager: "ghogen"
  The following example shows two <xref:Microsoft.Office.Tools.Outlook.FormRegionMessageClassAttribute> attributes that have been applied to a form region factory class named `myFormRegion`. The first attribute associates the form region with a standard message class for a mail message form. The second attribute associates the form region with a custom message class named `IPM.Task.Contoso`.  
   
  [!code-vb[Trin_Outlook_FR_Attributes#1](../vsto/codesnippet/VisualBasic/Trin_Outlook_FR_Attributes/FormRegion1.vb#1)]
- [!code-cs[Trin_Outlook_FR_Attributes#1](../vsto/codesnippet/CSharp/Trin_Outlook_FR_Attributes/FormRegion1.cs#1)]  
+ [!code-csharp[Trin_Outlook_FR_Attributes#1](../vsto/codesnippet/CSharp/Trin_Outlook_FR_Attributes/FormRegion1.cs#1)]  
   
  Attributes must comply with the following guidelines:  
   
@@ -109,7 +108,7 @@ manager: "ghogen"
  [Creating Outlook Form Regions](../vsto/creating-outlook-form-regions.md)   
  [Walkthrough: Designing an Outlook Form Region](../vsto/walkthrough-designing-an-outlook-form-region.md)   
  [Guidelines for Creating Outlook Form Regions](../vsto/guidelines-for-creating-outlook-form-regions.md)   
- [About the form name and message class](HV01044315)   
- [How Outlook forms and items work together](HV01044298)  
+ [Form Name and Message Class Overview](http://msdn.microsoft.com/library/office/ff867629.aspx)   
+ [How Outlook forms and items work together](http://msdn.microsoft.com/library/office/ff869706.aspx)  
   
   

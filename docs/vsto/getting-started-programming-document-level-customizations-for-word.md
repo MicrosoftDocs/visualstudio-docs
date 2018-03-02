@@ -2,7 +2,6 @@
 title: "Getting Started Programming Document-Level Customizations for Word | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,11 +14,11 @@ dev_langs:
 helpviewer_keywords: 
   - "Word solutions in Visual Studio"
   - "Word projects [Office development in Visual Studio], getting started"
-ms.assetid: 30593c47-1658-4fca-b9a9-36fbdf73c901
-caps.latest.revision: 44
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Getting Started Programming Document-Level Customizations for Word
   If you are just getting started creating document-level customizations for Microsoft Office Word by using Visual Studio, here is what you need to know.  

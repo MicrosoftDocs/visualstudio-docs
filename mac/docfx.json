@@ -3,7 +3,8 @@
     "content": [
       {
         "files": [
-          "**/*.md"
+          "**/*.md",
+          "**/*.yml"
         ],
         "exclude": [
           "**/obj/**",
@@ -29,7 +30,19 @@
     ],
     "overwrite": [],
     "externalReference": [],
-    "globalMetadata": {},
+    "globalMetadata": {
+      "feedback_system": "GitHub",
+      "feedback_github_repo": "MicrosoftDocs/visualstudio-docs",
+      "feedback_product_url": "https://developercommunity.visualstudio.com/",
+      "contributors_to_exclude": ["conceptdev","meganbradley"],
+      "breadcrumb_path": "~/_breadcrumb/toc.yml",
+      "manager": "crdun",
+      "ms.topic": "article",
+      "audience": "developer",
+      "ms.prod": "visual-studio-mac",
+      "ms.technology": "vs-ide-general",
+      "searchScope": ["Mac"]
+    },
     "fileMetadata": {},
     "template": [],
     "dest": "mac"

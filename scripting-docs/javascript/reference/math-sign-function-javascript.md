@@ -35,11 +35,11 @@ Math.sign(number)
   
 -   `NaN`, if `number` is `NaN`.  
   
--   -0, if `number` is −0.  
+-   -0, if `number` is -0.  
   
 -   +0, if `number` is +0.  
   
--   -1, if `number` is negative and not −0.  
+-   -1, if `number` is negative and not -0.  
   
 -   +1, if `number` is positive and not +0.  
   

@@ -2,7 +2,6 @@
 title: "SharePoint Project Item Schema Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -25,11 +24,11 @@ helpviewer_keywords:
   - "ProjectItemFile element"
   - "ExtensionDataItem element"
   - "ProjectItem element"
-ms.assetid: 12b63cbc-bf94-4175-bfa8-2117943d00d1
-caps.latest.revision: 16
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # SharePoint Project Item Schema Reference
   Visual Studio uses the SharePoint project item schema to validate the contents of .spdata files. An .spdata file specifies the contents and behavior of a SharePoint project item. For more information about the contents of SharePoint project items, see [Creating Item Templates and Project Templates for SharePoint Project Items](../sharepoint/creating-item-templates-and-project-templates-for-sharepoint-project-items.md).  

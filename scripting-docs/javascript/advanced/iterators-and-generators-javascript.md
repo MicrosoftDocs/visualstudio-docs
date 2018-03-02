@@ -141,14 +141,15 @@ function* strIter() {
         if(modify == 100) {  
             idx = 0;  
         }  
-    }  
+    }
+}
   
 var si3 = strIter();  
   
-console.log(si2.next().value);  
-console.log(si2.next().value);  
-console.log(si2.next().value);  
-console.log(si2.next(100).value);  
+console.log(si3.next().value);  
+console.log(si3.next().value);  
+console.log(si3.next().value);  
+console.log(si3.next(100).value);  
   
 // Output:  
 // j  

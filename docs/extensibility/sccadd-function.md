@@ -14,29 +14,18 @@ helpviewer_keywords:
   - "SccAdd function"
 ms.assetid: 545268f3-8e83-446a-a398-1a9db9e866e8
 caps.latest.revision: 17
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # SccAdd Function
 This function adds new files to the source control system.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 SCCRTN SccAdd(  
    LPVOID    pvContext,  
    HWND      hWnd,  

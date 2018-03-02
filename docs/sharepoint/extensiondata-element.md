@@ -2,7 +2,6 @@
 title: "ExtensionData Element | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,11 +13,11 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "ExtensionData element"
-ms.assetid: caf6843b-dcf5-4688-a9eb-a424aae1beab
-caps.latest.revision: 11
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # ExtensionData Element
   Represents a collection of custom data items that are associated with the SharePoint project item.  

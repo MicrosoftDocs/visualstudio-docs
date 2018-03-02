@@ -2,7 +2,6 @@
 title: "API Reference (SharePoint Tools Extensibility) | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,11 +13,11 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, reference for project and tools extensibility"
-ms.assetid: 3a42dacd-0213-4c25-aeba-9b6935ab70db
-caps.latest.revision: 13
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # API Reference (SharePoint Tools Extensibility)
   This section contains API reference documentation for extending the SharePoint tools in Visual Studio.  

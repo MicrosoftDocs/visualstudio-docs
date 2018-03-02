@@ -14,29 +14,18 @@ helpviewer_keywords:
   - "BP_PASSCOUNT_STYLE structure"
 ms.assetid: 0a647047-e2d5-4724-a0b8-68108425ecad
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # BP_PASSCOUNT_STYLE
 Specifies the condition associated with the breakpoint pass count that causes the breakpoint to fire.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_BP_PASSCOUNT_STYLE {   
    BP_PASSCOUNT_NONE             = 0x0000,  
    BP_PASSCOUNT_EQUAL            = 0x0001,  
@@ -46,7 +35,7 @@ enum enum_BP_PASSCOUNT_STYLE { 
 typedef DWORD BP_PASSCOUNT_STYLE;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_BP_PASSCOUNT_STYLE {   
    BP_PASSCOUNT_NONE             = 0x0000,  
    BP_PASSCOUNT_EQUAL            = 0x0001,  

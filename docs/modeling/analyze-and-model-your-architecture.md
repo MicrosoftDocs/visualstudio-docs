@@ -4,9 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-techdebt"
-ms.tgt_pltfrm: ""
+ms.technology: vs-ide-modeling
 ms.topic: "get-started-article"
 helpviewer_keywords: 
   - "Visual Studio Ultimate, exploring code"
@@ -31,26 +29,11 @@ helpviewer_keywords:
   - "application, architecture"
   - "Visual Studio ALM, visualizing code"
   - "applications, designing"
-ms.assetid: c9f04cfa-72bd-419d-a952-616eed01472e
-caps.latest.revision: 127
-author: "alexhomer1"
-ms.author: "ahomer"
-manager: "douge"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Analyze and model your architecture
 Make sure your app meets architectural requirements by using
@@ -76,7 +59,7 @@ See [Scenario: Change your design using visualization and modeling](../modeling/
 |**Visualize code**:<br /><br /> -   See the code's organization and relationships by creating code maps. Visualize dependencies between assemblies, namespaces, classes, methods, and so on.<br />-   See the class structure and members for a specific project by creating class diagrams from code.<br />-   Find conflicts between your code and its design by creating dependency diagrams to validate code.|-   [Visualize code](../modeling/visualize-code.md)<br />-   [Working with Classes and Other Types (Class Designer)](../ide/working-with-classes-and-other-types-class-designer.md)<br />-   [Video: Understand design from code with Visual Studio 2015 code maps](https://channel9.msdn.com/Events/Visual-Studio/Connect-event-2015/502)<br />-   [Video: Validate your architecture dependencies in real time](https://sec.ch9.ms/sessions/69613110-c334-4f25-bb36-08e5a93456b5/170ValidateArchitectureDependenciesWithVisualStudio.mp4)|  
 |**Define the architecture**:<br /><br /> -   Define and enforce constraints on dependencies between the components of your code by creating dependency diagrams.|-   [Video: Validate architecture dependencies with Visual Studio (Channel 9)](https://channel9.msdn.com/Events/Connect/2016/170)|  
 |**Validate your system with the requirements and intended design:**<br /><br /> -   Validate code dependencies with dependency diagrams that describe the intended architecture and prevent changes that might conflict with the design.|-   [Video: Validate architecture dependencies with Visual Studio (Channel 9)](https://channel9.msdn.com/Events/Connect/2016/170)|  
-|**Share models, diagrams, and code maps using Team Foundation version control**:<br /><br /> -   Put code maps, projects, and deoendency diagrams under Team Foundation version control so you can share them.|When you have multiple users who work with these items under Team Foundation version control, use these guidelines to help you avoid version control issues:<br /><br /> -   [Manage models and diagrams under version control](../modeling/manage-models-and-diagrams-under-version-control.md)|  
+|**Share models, diagrams, and code maps using Team Foundation version control**:<br /><br /> -   Put code maps, projects, and deoendency diagrams under Team Foundation version control so you can share them.| |  
 |**Customize models and diagrams**:<br /><br /> -   Create your own domain-specific languages.|-   [Modeling SDK for Visual Studio - Domain-Specific Languages](../modeling/modeling-sdk-for-visual-studio-domain-specific-languages.md)|  
 |**Generate text using T4 templates**:<br /><br /> -   Use text blocks and control logic inside templates to generate text-based files.<br /> - T4 template build with MSBuild included in Visual Studio|-   [Code Generation and T4 Text Templates](../modeling/code-generation-and-t4-text-templates.md)|
 

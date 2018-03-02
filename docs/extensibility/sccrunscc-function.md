@@ -14,29 +14,18 @@ helpviewer_keywords:
   - "SccRunScc function"
 ms.assetid: bbe7c931-b17a-4779-9cf6-59e5f9f0c172
 caps.latest.revision: 14
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # SccRunScc Function
 This function invokes the source control administration tool.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 SCCRTN SccRunScc(  
    LPVOID  pvContext,  
    HWND    hWnd,  

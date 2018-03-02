@@ -2,7 +2,6 @@
 title: "How to: Add a Dialog Box Launcher to a Ribbon Group | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,11 +14,11 @@ dev_langs:
 helpviewer_keywords: 
   - "dialog box launcher [Office development in Visual Studio]"
   - "Ribbon [Office development in Visual Studio], dialog box launcher"
-ms.assetid: 5972664f-4e37-4dc6-90d0-69cedd057e60
-caps.latest.revision: 19
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Add a Dialog Box Launcher to a Ribbon Group
   You can add a dialog box launcher to any group on a Ribbon. A dialog box launcher is a small icon that appears in a group. Users click this icon to open related dialog boxes or task panes that provide more options that relate to the group.  

@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.firewallconfiguration"
 dev_langs: 
@@ -24,22 +24,9 @@ ms.assetid: 5dff3393-fdeb-4129-a2f6-31f653107a82
 caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Configure Firewall for Remote Debugging Dialog Box
 This dialog box appears when the Windows Firewall blocks the debugger from receiving information over the network. To continue remote debugging, you must open a hole in the firewall so the debugger can receive information.  
@@ -59,5 +46,5 @@ This dialog box appears when the Windows Firewall blocks the debugger from recei
   
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   
- [Remote Debugging](../debugger/remote-debugging.md)
+ [Remote Debugging](../debugger/remote-debugging.md)  
  [Debugging User Interface Reference](../debugger/debugging-user-interface-reference.md)

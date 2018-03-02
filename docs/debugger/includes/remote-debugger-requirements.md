@@ -17,15 +17,18 @@ translation.priority.ht:
 ### Supported Operating Systems  
 The remote computer must be running one of the following operating systems:  
   
--   Windows 10  
+-   Windows 10 (not phone) 
   
--   Windows 8 or 8.1  
+-   Windows 8 or 8.1 (not phone)
   
 -   Windows 7 Service Pack 1  
   
 -   Windows Server 2012 or Windows Server 2012 R2  
   
--   Windows Server 2008 Service Pack 2, Windows Server 2008 R2 Service Pack 1  
+-   Windows Server 2008 Service Pack 2, Windows Server 2008 R2 Service Pack 1
+
+> [!NOTE]
+> Windows Phone requires a USB connection to debug (it does not require the remote tools).
   
 ### Supported Hardware Configurations  
   
@@ -35,9 +38,9 @@ The remote computer must be running one of the following operating systems:
   
 -   1 GB of available hard disk space  
   
--   5400 RPM hard drive  
+-   5400-RPM hard drive  
   
 -   DirectX 9-capable video card running at 1024 x 768 or higher display resolution  
   
 ### Network configuration  
- The remote computer and the Visual Studio computer must be connected over a network, workgroup, or homegroup, or else connected directly through an Ethernet cable. Debugging over the Internet is not supported.
+ The remote computer and the Visual Studio computer must be connected over a network, workgroup, or homegroup, or else connected directly through an Ethernet cable. Debugging between two computers connected through a proxy is not supported. Debugging over a high latency or low bandwidth connection, such as dialup Internet, or over the Internet across countries is not recommended and may fail or be unacceptably slow.

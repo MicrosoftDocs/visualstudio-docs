@@ -20,22 +20,9 @@ ms.assetid: db648e5f-6375-4e2d-aa98-eb7261958927
 caps.latest.revision: 32
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Debug 64-Bit Applications
 You can debug a 64-bit application that is running on the local computer or on a remote computer.  
@@ -58,7 +45,7 @@ You can debug a 64-bit application that is running on the local computer or on a
 4.  Start debugging. You should have the same experience as with a 32-bit configuration. If you get errors, see the Troubleshooting section below.  
   
 ## Troubleshooting 64-bit debugging  
- You may see an error: “A 64-bit debugging operation is taking longer than expected.” In this case, Visual Studio has sent a request to the 64-bit version of msvsmon.exe, and it has taken a long time for the result of that request to come back.  
+ You may see an error: "A 64-bit debugging operation is taking longer than expected." In this case, Visual Studio has sent a request to the 64-bit version of msvsmon.exe, and it has taken a long time for the result of that request to come back.  
   
  There are two main causes for this error:  
   

@@ -2,7 +2,6 @@
 title: "SharePoint Development Walkthroughs | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,11 +15,11 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, walkthroughs"
-ms.assetid: f79cefcc-da33-49df-9e03-b9d79533a9a7
-caps.latest.revision: 17
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # SharePoint Development Walkthroughs
   The following walkthroughs demonstrate how to develop and deploy SharePoint solutions by using [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].  

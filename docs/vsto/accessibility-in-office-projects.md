@@ -2,7 +2,6 @@
 title: "Accessibility in Office Projects | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,11 +16,11 @@ helpviewer_keywords:
   - "shortcut keys [Office development in Visual Studio]"
   - "Ribbon [Office development in Visual Studio], shortcut keys"
   - "accessibility [Office development in Visual Studio]"
-ms.assetid: 48efcf1f-ca49-47ce-99f0-cc99f051aeae
-caps.latest.revision: 24
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Accessibility in Office Projects
   Microsoft Visual Studio and Microsoft Office include many accessibility features that enable you to build custom solutions that meet standard accessibility requirements. Microsoft publishes guidelines for accessibility on the Web. For details, see the [Accessibility Web site](http://go.microsoft.com/fwlink/?LinkID=37113).  
@@ -59,7 +58,7 @@ manager: "ghogen"
 ## Accessibility at Run Time  
   
 ### Windows Forms Controls on Office Documents  
- Windows Forms controls expose accessibility properties to provide information about the control to accessibility aids, such as screen readers. You can take advantage of these accessibility properties when the controls are on an Office document in a document-level customization. For more information, see [Providing Accessibility Information for Controls on a Windows Form](../Topic/Providing%20Accessibility%20Information%20for%20Controls%20on%20a%20Windows%20Form.md).  
+ Windows Forms controls expose accessibility properties to provide information about the control to accessibility aids, such as screen readers. You can take advantage of these accessibility properties when the controls are on an Office document in a document-level customization. For more information, see [Providing Accessibility Information for Controls on a Windows Form](/dotnet/framework/winforms/controls/providing-accessibility-information-for-controls-on-a-windows-form).  
   
  However, there are some accessibility limitations at run time when Windows Forms controls are hosted on an Excel workbook or Word document:  
   
@@ -86,7 +85,7 @@ manager: "ghogen"
 ## See Also  
  [Developing Office Solutions](../vsto/developing-office-solutions.md)   
  [Controls on Office Documents](../vsto/controls-on-office-documents.md)   
- [Accessibility for People with Disabilities](/visual-studio/ide/reference/accessibility-for-people-with-disabilities)   
- [Accessibility Features of Visual Studio](/visual-studio/ide/reference/accessibility-features-of-visual-studio)  
+ [Accessibility for People with Disabilities](/visualstudio/ide/reference/accessibility-for-people-with-disabilities)   
+ [Accessibility Features of Visual Studio](/visualstudio/ide/reference/accessibility-features-of-visual-studio)  
   
   

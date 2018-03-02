@@ -14,35 +14,24 @@ helpviewer_keywords:
   - "IDebugBreakpointUnboundEvent2::GetBreakpoint"
 ms.assetid: ad73a207-b778-4dc5-b645-5ec668a63333
 caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugBreakpointUnboundEvent2::GetBreakpoint
 Gets the breakpoint that became unbound.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetBreakpoint(   
    IDebugBoundBreakpoint2** ppBP  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetBreakpoint(   
    out IDebugBoundBreakpoint2 ppBP  
 );  
@@ -58,7 +47,7 @@ int GetBreakpoint( 
 ## Example  
  The following example shows how to implement this method for a **CBreakpointUnboundDebugEventBase** object that exposes the [IDebugBreakpointUnboundEvent2](../../../extensibility/debugger/reference/idebugbreakpointunboundevent2.md) interface.  
   
-```cpp#  
+```cpp  
 STDMETHODIMP CBreakpointUnboundDebugEventBase::GetBreakpoint(  
     IDebugBoundBreakpoint2 **ppbp)  
 {  

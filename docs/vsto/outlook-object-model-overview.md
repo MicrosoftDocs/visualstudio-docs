@@ -2,7 +2,6 @@
 title: "Outlook Object Model Overview | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,11 +19,11 @@ helpviewer_keywords:
   - "objects [Office development in Visual Studio], Office object models"
   - "object models [Office development in Visual Studio], Outlook"
   - "Office object models"
-ms.assetid: 59704974-b7d9-46d6-949c-e97349c75279
-caps.latest.revision: 59
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Outlook Object Model Overview
   To develop VSTO Add-ins for Microsoft Office Outlook, you can interact with the objects that are provided by the Outlook object model. The Outlook object model provides classes and interfaces that represent items in the user interface. For example, the <xref:Microsoft.Office.Interop.Outlook.Application> object represents the entire application, the <xref:Microsoft.Office.Interop.Outlook.MAPIFolder> object represents a folder that contains e-mail messages or other items, and the <xref:Microsoft.Office.Interop.Outlook.MailItem> object represents an e-mail message.  
@@ -141,5 +140,4 @@ manager: "ghogen"
 |[Working with Folders](../vsto/working-with-folders.md)|Provides topics that show how to perform tasks with folders.|  
 |[Working with Calendar Items](../vsto/working-with-calendar-items.md)|Provides topics that show how to perform tasks with calendar items.|  
 |[How to: Programmatically Determine the Current Outlook Item](../vsto/how-to-programmatically-determine-the-current-outlook-item.md)|Shows how to display the name of the current folder and some information about the selected item.|  
-  
   

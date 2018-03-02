@@ -14,29 +14,18 @@ helpviewer_keywords:
   - "DISASSEMBLY_FLAGS enumeration"
 ms.assetid: c1ec5a4d-5d42-4660-932c-7348550140cb
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # DISASSEMBLY_FLAGS
 Specifies the flags for disassembly.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_DISASSEMBLY_FLAGS {   
    DF_DOCUMENTCHANGE     = 0x00000001,  
    DF_DISABLED           = 0x00000002,  
@@ -48,7 +37,7 @@ enum enum_DISASSEMBLY_FLAGS { 
 typedef DWORD DISASSEMBLY_FLAGS;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_DISASSEMBLY_FLAGS {   
    DF_DOCUMENTCHANGE     = 0x00000001,  
    DF_DISABLED           = 0x00000002,  

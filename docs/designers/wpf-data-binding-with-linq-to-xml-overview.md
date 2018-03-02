@@ -5,28 +5,16 @@ ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "vs-ide-designers"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3bf80845-891b-41de-a71b-4080b5bd3ea6
 caps.latest.revision: 3
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # WPF Data Binding with LINQ to XML Overview
 This topic introduces the dynamic data binding features in the <xref:System.Xml.Linq> namespace. These features can be used as a data source for user interface (UI) elements in the Windows Presentation Foundation (WPF).  
@@ -52,7 +40,7 @@ This topic introduces the dynamic data binding features in the <xref:System.Xml.
 |Binding source|The source object for one or more values that are supplied to the UI element for presentation. WPF automatically supports the following types as binding sources: CLR objects, ADO.NET data objects, XML data (from XPath or LINQ to XML queries), or another <xref:System.Windows.DependencyObject>.|  
 |Source path|The property of the binding source that resolves to the value or set of values that is to be bound.|  
   
- A dependency property is a concept specific to WPF that represent a dynamically computed property of a UI element. For example, dependency properties often have default values or values that are provided by a parent element. These special properties are backed by instances of the <xref:System.Windows.DependencyProperty> class (and not fields as with standard properties). For more information, see [Dependency Properties Overview](http://msdn.microsoft.com/Library/d119d00c-3afb-48d6-87a0-c4da4f83dee5).  
+ A dependency property is a concept specific to WPF that represent a dynamically computed property of a UI element. For example, dependency properties often have default values or values that are provided by a parent element. These special properties are backed by instances of the <xref:System.Windows.DependencyProperty> class (and not fields as with standard properties). For more information, see [Dependency Properties Overview](/dotnet/framework/wpf/advanced/dependency-properties-overview).  
   
 ### Dynamic Data Binding in WPF  
  By default, data binding occurs only when the target UI element is initialized. This is called *one-time* binding. For most purposes, this is insufficient; typically, a data-binding solution requires that the changes be dynamically propagated at run time using one of the following:  
@@ -63,7 +51,7 @@ This topic introduces the dynamic data binding features in the <xref:System.Xml.
   
  For one-way or two-way binding to occur, the source must implement a change notification mechanism, for example by implementing the <xref:System.ComponentModel.INotifyPropertyChanged> interface or by using a *PropertyNameChanged* pattern for each property supported.  
   
- For more information about data binding in WPF, see [Data Binding (WPF)](http://msdn.microsoft.com/Library/90f79b97-17e7-40d1-abf0-3ba600ad1d7e).  
+ For more information about data binding in WPF, see [Data Binding (WPF)](/dotnet/framework/wpf/data/data-binding-wpf).  
   
 ## Dynamic Properties in LINQ to XML Classes  
  Most LINQ to XML classes do not qualify as proper WPF dynamic data sources: Some of the most useful information is available only through methods (and not properties), and properties in these classes do not implement change notifications. To support WPF data binding, LINQ to XML exposes a set of *dynamic properties*.  
@@ -101,6 +89,6 @@ This topic introduces the dynamic data binding features in the <xref:System.Xml.
 ## See Also  
  [WPF Data Binding with LINQ to XML](../designers/wpf-data-binding-with-linq-to-xml.md)   
  [LINQ to XML Dynamic Properties](../designers/linq-to-xml-dynamic-properties.md)   
- [XAML in WPF](http://msdn.microsoft.com/Library/5d858575-a83b-42df-ad3f-047ed2d6e3c8)   
- [Data Binding (WPF)](http://msdn.microsoft.com/Library/90f79b97-17e7-40d1-abf0-3ba600ad1d7e)   
+ [XAML in WPF](/dotnet/framework/wpf/advanced/xaml-in-wpf)   
+ [Data Binding (WPF)](/dotnet/framework/wpf/data/data-binding-wpf)   
  [Using Workflow Markup](http://go.microsoft.com/fwlink/?LinkId=98685)

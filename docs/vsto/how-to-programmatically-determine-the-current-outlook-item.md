@@ -2,7 +2,6 @@
 title: "How to: Programmatically Determine the Current Outlook Item | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,11 +16,11 @@ helpviewer_keywords:
   - "e-mail [Office development in Visual Studio], current item"
   - "SelectionChange event"
   - "Outlook [Office development in Visual Studio], current item"
-ms.assetid: b4fb5ccd-b297-463e-9208-1fec42482531
-caps.latest.revision: 28
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Determine the Current Outlook Item
   This example uses the Explorer.SelectionChange event to display the name of the current folder and some information about the selected item. The code then displays the selected item.  
@@ -30,7 +29,7 @@ manager: "ghogen"
   
 ## Example  
  [!code-vb[Trin_OL_CurrentItem#1](../vsto/codesnippet/VisualBasic/Trin_OL_CurrentItem/thisaddin.vb#1)]
- [!code-cs[Trin_OL_CurrentItem#1](../vsto/codesnippet/CSharp/Trin_OL_CurrentItem/thisaddin.cs#1)]  
+ [!code-csharp[Trin_OL_CurrentItem#1](../vsto/codesnippet/CSharp/Trin_OL_CurrentItem/thisaddin.cs#1)]  
   
 ## Compiling the Code  
  This example requires:  

@@ -2,7 +2,6 @@
 title: "Debugging SharePoint Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,11 +16,11 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, debugging"
-ms.assetid: 5120f21e-4c27-4906-b982-85e9cd5170e6
-caps.latest.revision: 29
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Debugging SharePoint Solutions
   You can debug SharePoint solutions by using the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugger. When you start debugging, [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] deploys the project files to the SharePoint server and then opens an instance of the SharePoint site in the Web browser. The following sections explain how to debug SharePoint applications in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].  
@@ -143,7 +142,7 @@ manager: "ghogen"
   
  [HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\11.0\SharePointTools]  
   
- If the "EnableDiagnostics" **REG_DWORD** value does not already exist, create it manually. Set the “EnableDiagnostics” value to "1."  
+ If the "EnableDiagnostics" **REG_DWORD** value does not already exist, create it manually. Set the "EnableDiagnostics" value to "1."  
   
  Setting this key value to 1 causes stack trace information to appear in the **Output** window whenever project system errors occur while you are running in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. To disable enhanced debugging information, set EnableDiagnostics back to 0, or delete the value.  
   

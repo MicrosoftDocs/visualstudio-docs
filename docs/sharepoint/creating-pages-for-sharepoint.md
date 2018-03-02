@@ -2,7 +2,6 @@
 title: "Creating Pages for SharePoint | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,11 +18,11 @@ helpviewer_keywords:
   - "master pages[SharePoint development in Visual Studio], designing"
   - "content pages[SharePoint development in Visual Studio], designing"
   - "page layouts[SharePoint development in Visual Studio], designing"
-ms.assetid: 57678ed1-841f-45de-a1d3-5f9e233bf3ce
-caps.latest.revision: 15
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Creating Pages for SharePoint
   You can create application pages, site pages, master pages and page layouts for a SharePoint site.  
@@ -68,6 +67,5 @@ manager: "ghogen"
 |[Creating Application Pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md)|Describes how to add applications pages: .aspx content that is merged with a SharePoint master page.|  
 |[How to: Create an Application Page](../sharepoint/how-to-create-an-application-page.md)|Shows you how to create ASP.NET pages that run on a SharePoint site.|  
 |[Walkthrough: Creating a SharePoint Application Page](../sharepoint/walkthrough-creating-a-sharepoint-application-page.md)|Shows you how to design and debug an ASP.NET Web page for a SharePoint site.|  
-|[Working with Visual Web Developer](http://msdn.microsoft.com/en-us/9c31f93b-c8fb-4599-9b14-6194ec8c7539)|Describes how to use the designer that appears when you open a Web page in your project.|  
   
   

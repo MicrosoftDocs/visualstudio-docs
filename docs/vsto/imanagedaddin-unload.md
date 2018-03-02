@@ -2,7 +2,6 @@
 title: "IManagedAddin::Unload | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,12 +13,11 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "Unload method"
-  - "IManagedAddin::Unload"
-ms.assetid: 40a73f07-2605-4745-8ac5-0a0189167fd7
-caps.latest.revision: 8
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # IManagedAddin::Unload
   Called just before a managed VSTO Add-in is unloaded.  

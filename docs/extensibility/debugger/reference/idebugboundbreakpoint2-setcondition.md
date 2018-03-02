@@ -15,35 +15,24 @@ helpviewer_keywords:
   - "IDebugBoundBreakpoint2::SetCondition method"
 ms.assetid: 5d366876-efed-43d0-8ea1-dfdb009cbfac
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugBoundBreakpoint2::SetCondition
 Sets or changes the condition associated with this bound breakpoint.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT SetCondition(   
    BP_CONDITION bpCondition  
 );  
 ```  
   
-```c#  
+```csharp  
 int SetCondition(   
    enum_BP_CONDITION bpCondition  
 );  

@@ -14,4 +14,4 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-.NET for Windows 8.x Store apps
+.NET for Windows 8.x apps

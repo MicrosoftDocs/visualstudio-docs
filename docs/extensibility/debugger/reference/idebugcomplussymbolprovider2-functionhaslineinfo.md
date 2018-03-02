@@ -13,35 +13,24 @@ helpviewer_keywords:
   - "IDebugComPlusSymbolProvider2::FunctionHasLineInfo"
 ms.assetid: e1b508f1-6521-492f-b110-ab957744a037
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugComPlusSymbolProvider2::FunctionHasLineInfo
 Determines if the specified method has line information.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT FunctionHasLineInfo(  
    IDebugAddress* pAddress  
 );  
 ```  
   
-```c#  
+```csharp  
 int FunctionHasLineInfo(  
    IDebugAddress pAddress  
 );  
@@ -57,7 +46,7 @@ int FunctionHasLineInfo(
 ## Example  
  The following example shows how to implement this method for a **CDebugSymbolProvider** object that exposes the [IDebugComPlusSymbolProvider2](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugSymbolProvider::FunctionHasLineInfo(  
     IDebugAddress* pAddress  
 )  

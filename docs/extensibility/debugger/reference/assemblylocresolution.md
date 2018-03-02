@@ -14,29 +14,18 @@ helpviewer_keywords:
   - "ASSEMBLYLOCRESOLUTION enumeration"
 ms.assetid: 0bcfe85c-5f37-4a9d-bf2b-141acd96ad67
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # ASSEMBLYLOCRESOLUTION
 Specifies where an assembly is located.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_ASSEMBLYLOCRESOLUTION {  
    ALR_NAME      = 0x0,  
    ALR_USERDIR   = 0x1,  
@@ -46,7 +35,7 @@ enum enum_ASSEMBLYLOCRESOLUTION {
 typedef DWORD ASSEMBLYLOCRESOLUTION;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_ASSEMBLYLOCRESOLUTION {  
    ALR_NAME      = 0x0,  
    ALR_USERDIR   = 0x1,  

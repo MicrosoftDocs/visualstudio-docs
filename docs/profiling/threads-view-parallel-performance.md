@@ -16,25 +16,12 @@ ms.assetid: 2e441103-a266-407b-88c3-fb58716257a3
 caps.latest.revision: 21
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Threads View (Parallel Performance)
-Threads View is the most detailed and feature-rich view in the Concurrency Visualizer. By using this view, you can identify whether the threads are executing or blocking because of synchronization, I/O, or some other reason.  
+The **Threads View** is the most detailed and feature-rich view in the Concurrency Visualizer (choose **Analyze** > **Concurrency Visualizer** to start the concurrency visualizer). By using this view, you can identify whether the threads are executing or blocking because of synchronization, I/O, or some other reason.  
   
  During profile analysis, the Concurrency Visualizer examines all operating system context-switch events for each application thread. Context switches can occur for many reasons, such as these:  
   

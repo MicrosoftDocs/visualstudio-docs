@@ -2,7 +2,6 @@
 title: "MSBuild Properties Supported by SharePoint | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,11 +15,11 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, MSBuild properties"
-ms.assetid: 7b2b58c6-55cd-4682-a5d7-43874e70920d
-caps.latest.revision: 10
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # MSBuild Properties Supported by SharePoint
   Any [!INCLUDE[vstecmsbuild](../sharepoint/includes/vstecmsbuild-md.md)] property defined in the Microsoft.VisualStudio.SharePoint.targets file, project file, or project user file can be used in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint projects. In addition to the common [!INCLUDE[vstecmsbuild](../sharepoint/includes/vstecmsbuild-md.md)] properties supplied by the project, SharePoint defines additional properties that are specific to SharePoint projects.  
@@ -55,6 +54,6 @@ manager: "ghogen"
 >  You can use either the [!INCLUDE[vstecmsbuild](../sharepoint/includes/vstecmsbuild-md.md)] variable syntax `$(`*propertyName*`)` or the environment variable syntax `%`*propertyName*`%` to specify a property.  
   
 ## See Also  
- [MSBuild Reference](/visual-studio/msbuild/msbuild-reference)  
+ [MSBuild Reference](/visualstudio/msbuild/msbuild-reference)  
   
   

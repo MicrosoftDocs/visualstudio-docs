@@ -1,7 +1,7 @@
 ---
-title: "Accessibility Tips and Tricks | Microsoft Docs"
+title: "Accessibility tips and tricks for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "09/15/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -11,55 +11,89 @@ ms.topic: "article"
 helpviewer_keywords: 
   - "accessibility [Visual Studio]"
 ms.assetid: 6b491d88-f79e-4686-8841-857624bdcfda
-caps.latest.revision: 22
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "TerryGLee"
+ms.author: "tglee"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
-# Accessibility Tips and Tricks
-[!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] includes built-in accessibility features so you can easily work from the keyboard and use screen readers or other assistive technology devices. The topic includes some suggestions for optimizing [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] for accessibility as well as some useful shortcut key combinations.  
-  
-> [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
-  
-## Save Your IDE Settings  
- You can customize your IDE experience by saving your window layout, keyboard mapping scheme, and other preferences. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
-  
-## Common Windows Shortcut Key Combinations  
- You can use many of the standard Windows shortcut key combinations to perform tasks within [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. Some of these shortcut key combinations include:  
-  
-|Description|Key Combination|  
-|-----------------|---------------------|  
-|Switch High Contrast on and off|Left **ALT + Left SHIFT + PRINT SCREEN**|  
-|Select or clear the check box option in a dialog box|**SPACEBAR**|  
-|Display the properties of the selected item. For example, puts focus in the Properties Window if a form is selected or Opens the Property Page dialog box if a project is selected.|**ALT+ENTER**|  
-|Display the items in the active list, such as a drop-down list, in a dialog box|**ALT** + DOWN ARROW|  
-|Display items in an active drop-down list in a grid|**SHIFT** + **ALT** + **DOWN ARROW**|  
-  
-## Hidden Visual Studio Shortcut Key Combinations  
- Some features have shortcut keys available that do not appear in the Options dialog box on the Environment\Keyboard pane. These shortcut key combinations include the following:  
-  
+# Accessibility tips and tricks for Visual Studio
+> [!TIP]
+> To learn more about recent accessibility updates, see the [Accessibility improvements in Visual Studio 2017 version 15.3](https://blogs.msdn.microsoft.com/visualstudio/2017/08/14/accessibility-improvements-in-visual-studio-2017-version-15-3/) blog post.
+
+Visual Studio has built-in accessibility features that are compatible with screen readers and other assistive technologies. This topic lists common shortcut key combinations that you can use to perform tasks with the keyboard only, and includes information about using high-contrast themes to improve visibility. As well, it shows you how to use annotations to reveal useful information about your code, and how to set sound cues for build and breakpoint events.
+
+## Save your IDE settings  
+ You can customize your IDE experience by saving your window layout, keyboard mapping scheme, and other preferences. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).  
+
+## Modify your IDE for high-contrast viewing
+For some folks, some colors are more difficult to see. If you want more contrast as you code but do not want to use the typical "High Contrast" themes, we now offer a “Blue (Extra Contrast)” theme.
+
+  ![Compare the Blue theme and Blue Extra Contrast theme](media/blue-extra-contrast-theme.png "See the difference between the Blue theme and the Blue Extra Contrast theme")
+
+## Use Annotations to reveal useful information about your code
+
+The Visual Studio editor includes many text "adornments" that let you know about characteristics and features at particular points on a line of code, such as lightbulbs, error and warning “squiggles”, bookmarks, and so on. You can use the “Show Line Annotations” command set to help you discover and then navigate between these adornments.
+
+  ![Use the Show Line Annotations command set](media/show-line-annotations-command-set.png "Shows how to set the Show Line Annotations command set")
+
+## Access toolbars by using shortcut key combinations
+The Visual Studio IDE has toolbars as do many tool windows. The following shortcut key combinations help you access them.
+
 |Feature|Description|Key Combination|  
 |-------------|-----------------|---------------------|  
-|Toolbox window|Move among Toolbox tabs|**CTRL** + **UPARROW**<br /><br /> and<br /><br /> **CTRL** + **DOWNARROW**|  
-|Toolbox window|Add a control from the Toolbox to a form or designer|**ENTER**|  
-|Keyboard, Environment, Options dialog box|Delete a key combination entered in the **Press shortcut keys** option|**BACKSPACE**|  
-|All tool windows|Select the first button on the toolbar of the window|**SHIFT** + **ALT**|  
-|IDE toolbars|Select the first button on the Standard toolbar|**ALT**, **CTRL** + **TAB** **Note:**  Press **CTRL** + **TAB** again to select the first button on the next IDE toolbar.|  
-  
-## See Also  
- [Accessibility Features of Visual Studio](../../ide/reference/accessibility-features-of-visual-studio.md)
+|IDE toolbars|Select the first button on the Standard toolbar.|**ALT**, **CTRL** + **TAB**|  
+|Tool window toolbars|Move focus to the toolbars in a tool window. <br> <br> **NOTE:** This works for most tool windows, but only when the focus is in a tool window. Also, you must choose the SHIFT key before the ALT key. In some tool windows, such as Team Explorer, you must hold the SHIFT key for a moment before choosing the ALT key.|**SHIFT** + **ALT**|
+|Toolbars|Go to the first item in the next toolbar (when a toolbar has focus).|**CTRL** + **TAB**|
+
+### Other useful shortcut key combinations  
+Some other useful shortcut key combinations include the following.
+
+|Feature|Description|Key Combination|  
+|-------------|-----------------|---------------------|  
+|IDE|Switch High Contrast on and off. <br> <br> **NOTE:** Standard Windows shortcut|**Left ALT + Left SHIFT + PRINT SCREEN**|  
+|Dialog box|Select or clear the check box option in a dialog box. <br> <br> **NOTE:** Standard Windows shortcut|**SPACEBAR**|  
+|Context menus|Open a context (right-click) menu. <br> <br> **NOTE:** Standard Windows shortcut|**SHIFT** + **F10**|
+|Menus|Quickly access a menu item by using its accelerator keys. Choose the **ALT** key followed by the underlined letters in a menu to activate the command. For example, to view the Open Project dialog box in Visual Studio, you would choose **ALT** + **F** + **O** + **P**.  <br><br> **NOTE:** Standard Windows shortcut|**ALT** + **[letter]**|
+|Toolbox window|Move among Toolbox tabs.|**CTRL** + **UPARROW**<br /><br /> and<br /><br /> **CTRL** + **DOWNARROW**|  
+|Toolbox window|Add a control from the Toolbox to a form or designer.|**ENTER**|  
+|Keyboard, Environment, Options dialog box|Delete a key combination entered in the **Press shortcut keys** option.|**BACKSPACE**|  
+
+> [!NOTE]
+>  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition.  
+
+
+## Use the Sound applet to set build and breakpoint cues
+You can use the Sound applet in Windows to assign a sound to Visual Studio program events. Specifically, you can assign sounds to the following program events:
+
+ * Breakpoint hit
+ * Build canceled
+ * Build failed
+ * Build succeeded
+
+Here's how.
+
+1. In the **Search** box on a computer running Windows 10, type **Change system sounds**.
+
+  ![Search box in Windows 10](media/type-here-to-search.png "Type Sounds in the Search box on a computer running Windows 10")
+
+  (Alternatively, if you have Cortana enabled, say "Hey Cortana", and then say "Change system sounds".)
+
+2. Double-click **Change system sounds**.
+
+  ![Search results in Windows 10](media/change-system-sounds.png "Double-click Change System Sounds in the Search results")
+
+3. In the **Sound** dialog box, click the **Sounds** tab. <br><br>
+ Then, in **Program Events**, scroll to **Microsoft Visual Studio**, and select the sounds that you want to apply to the events that you choose.
+
+  ![Sounds tab of the Sound applet in Windows 10](media/sound-applet.png "Double-click Change System Sounds in the Search results")
+
+4. Click **OK**.
+
+
+
+## See also  
+* [Accessibility Features of Visual Studio](../../ide/reference/accessibility-features-of-visual-studio.md)
+  * [How to: Customize Menus and Toolbars in Visual Studio](../../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md)
+* [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md)
+* [Microsoft Accessibility](https://www.microsoft.com/Accessibility)

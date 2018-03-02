@@ -2,7 +2,6 @@
 title: "Registry Entries for VSTO Add-ins | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,11 +17,11 @@ helpviewer_keywords:
   - "registry keys [Office development in Visual Studio]"
   - "application-level add-ins [Office development in Visual Studio], registry entries"
   - "registry entries [Office development in Visual Studio]"
-ms.assetid: 319e5bbc-0234-4af0-91ce-54bcfafc173f
-caps.latest.revision: 79
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Registry Entries for VSTO Add-ins
   You must create a specific set of registry entries when you deploy VSTO Add-ins that are created by using Visual Studio. These registry entries provide information that enables the Microsoft Office application to discover and load the VSTO Add-in.  
@@ -86,7 +85,7 @@ manager: "ghogen"
   
  Like the other registry entries shared by all VSTO Add-ins, Visual Studio creates the form region registry entries on the development computer when you build your project. If you use ClickOnce to deploy your VSTO Add-in, the registry entries are automatically created on the end user computer. If you use Windows Installer to deploy your VSTO Add-in, you must configure the InstallShield Limited Edition project to create the registry entries on the end user computer.  
   
- For more information about the form region registry entries, see [Specifying Form Regions in the Windows Registry](HV10038637). For more information about Outlook form regions, see [Creating Outlook Form Regions](../vsto/creating-outlook-form-regions.md).  
+ For more information about the form region registry entries, see [Specify the Location of a Form Region in a Custom Form](http://msdn.microsoft.com/library/office/ff868998.aspx). For more information about Outlook form regions, see [Creating Outlook Form Regions](../vsto/creating-outlook-form-regions.md).  
   
 ##  <a name="LoadBehavior"></a> LoadBehavior Values  
  The **LoadBehavior** entry under the *Root*\Software\Microsoft\Office\\*application name*\Addins\\*add-in ID* key contains a bitwise combination of values that specify the run time behavior of the VSTO Add-in. The lowest order bit (values 0 and 1) indicates whether the VSTO Add-in is currently unloaded or loaded. Other bits indicate when the application attempts to load the VSTO Add-in.  

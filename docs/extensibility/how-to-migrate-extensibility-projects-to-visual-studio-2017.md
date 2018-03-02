@@ -12,21 +12,9 @@ ms.assetid: 8ca07b00-a3ff-40ab-b647-c0a93b55e86a
 caps.latest.revision: 1
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # How to: Migrate Extensibility Projects to Visual Studio 2017
 
@@ -56,7 +44,7 @@ In order to build your extension in the new VSIX v3 (version 3) format, your sol
 
 To update the NuGet references to Microsoft.VSSDK.BuildTools:
 
-* Right-click on the Solution and choose **Manage NuGet Packages for Solution…**
+* Right-click on the Solution and choose **Manage NuGet Packages for Solution...**
 * Navigate to the **Updates** tab.
 * Select Microsoft.VSSDK.BuildTools (latest version).
 * Press **Update**.
@@ -113,11 +101,6 @@ Instead of directly editing the manifest XML, you can use the new **Prerequisite
 
 * Press **OK**.
 
-## If migrating from Preview 4 or Preview 5
-
-* Replace `SetupDependencies` with `Prerequisites` and move the elements out of the `Installer` element. `Prerequisites` now sits directly inside the `PackageManifest` element.
-* [Optional] Remove the `GenerateVsixV3` element. (This was required in Preview 5 only.) The `GenerateVsixV3` element will be ignored in versions beyond Preview 5.
-
 ## Update Debug settings for project
 
 If you wish to debug your extension in an experimental instance of Visual Studio, make sure that the project settings for **Debug** > **Start action** has the **Start external program:** value set to the devenv.exe file of your Visual Studio 2017 installation.
@@ -130,7 +113,7 @@ C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\deven
 
 ![start external program](media/start-external-program.png)
 
->**Note:** The Debug Start Action is typically stored in the .csproj.user file. This file is usually included in the .gitignore file and, hence, is not normally saved with other project files when committed to source control. As such, if you have pulled your solution fresh from source control it is likely the project will have no values set for Start Action. New VSIX projects created with Visual Studio 2017 will have a .csproj.user file created with defaults pointing to the current Visual Studio install directory. However if you are migrating a VSIX v2 extension, it is likely that the .csproj.user file will contain references to the previous Visual Studio version’s install directory. Setting the value for **Debug** > **Start action** will allow the correct Visual Studio experimental instance to launch when you try to debug your extension.
+>**Note:** The Debug Start Action is typically stored in the .csproj.user file. This file is usually included in the .gitignore file and, hence, is not normally saved with other project files when committed to source control. As such, if you have pulled your solution fresh from source control it is likely the project will have no values set for Start Action. New VSIX projects created with Visual Studio 2017 will have a .csproj.user file created with defaults pointing to the current Visual Studio install directory. However if you are migrating a VSIX v2 extension, it is likely that the .csproj.user file will contain references to the previous Visual Studio version's install directory. Setting the value for **Debug** > **Start action** will allow the correct Visual Studio experimental instance to launch when you try to debug your extension.
 
 ## Check that the extension builds correctly (as a VSIX v3)
 
@@ -168,7 +151,7 @@ If Visual Studio was recently opened, you might see a dialog box like this:
 
 Wait for the processes to shut down, or manually end the tasks. You can find the processes by the listed name, or with the PID listed in parenthesis.
 
->**Note:** These processes will not automatically shut down while an instance of Visual Studio is running. Ensure that you’ve shut down all instances of Visual Studio on the machine – including those from other users, then continue to retry.
+>**Note:** These processes will not automatically shut down while an instance of Visual Studio is running. Ensure that you've shut down all instances of Visual Studio on the machine - including those from other users, then continue to retry.
 
 ## Check when missing the required prerequisites
 
@@ -180,7 +163,7 @@ Wait for the processes to shut down, or manually end the tasks. You can find the
 
 ## Deciding on Components
 
-When looking up your dependencies, you will find that one dependency could map to multiple components. To determine which dependencies you should specify as your prerequisite, we suggest that you choose a component that has a functionality similar to your extension and to also consider your users and what type of components would they most likely have installed or wouldn’t mind installing. We also suggest building your extensions in a way where the required prerequisites satisfy only the minimum that will allow your extension to run and for additional features have them be dormant if certain components are not detected.
+When looking up your dependencies, you will find that one dependency could map to multiple components. To determine which dependencies you should specify as your prerequisite, we suggest that you choose a component that has a functionality similar to your extension and to also consider your users and what type of components would they most likely have installed or wouldn't mind installing. We also suggest building your extensions in a way where the required prerequisites satisfy only the minimum that will allow your extension to run and for additional features have them be dormant if certain components are not detected.
 
 To provide further guidance, we have identified a few common extension types and their suggested prerequisites:
 
@@ -207,3 +190,15 @@ Examples:
 
 * If you have a debugger extension and know that your project has a reference to VSDebugEng.dll and VSDebug.dll, click on the filter button in the **Binaries / Files Names** header.  Search for "VSDebugEng.dll" and select OK.  Next click on the filter button in the **Binaries / Files Names** header again and search for "VSDebug.dll".  Select the checkbox "Add current selection to filter" and select OK.  Now look through the **Component Name** to find a component that is most related to your extension type. In this example, you would chose the Just-In-Time debugger and add it to your vsixmanifest.
 * If you know that your project deals with debugger elements, you can search on "debugger" in the filter search box to see what components contain debugger in its name.
+
+## Specifying a Visual Studio 2017 release
+
+If your extension requires a specific version of Visual Studio 2017, for example, it depends on a feature released in 15.3, you must specify the build number in your VSIX **InstallationTarget**. For example, release 15.3 has a build number of '15.0.26730.3'. You can see the mapping of releases to build numbers [here](../install/visual-studio-build-numbers-and-release-dates.md). Using the release number '15.3' will not work correctly.
+
+If your extension requires 15.3 or higher, you would declare the **InstallationTarget Version** as [15.0.26730.3, 16.0):
+
+```xml
+<Installation>
+  <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0.26730.3, 16.0)" />
+</Installation>
+```

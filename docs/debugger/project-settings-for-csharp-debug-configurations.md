@@ -15,38 +15,24 @@ dev_langs:
   - "C++"
 helpviewer_keywords: 
   - "debug configurations, C#"
-  - "debugging [J#], debugger settings"
   - "project settings [Visual Studio], debug configurations"
   - "debug builds, project settings"
   - "projects [Visual Studio], debug configurations"
   - "project configurations, debug"
   - "debugging [C#], debugger settings"
-  - "debug configurations, J#"
 ms.assetid: e30ca810-66e9-4d6e-9cf6-9f285cd0b100
 caps.latest.revision: 22
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "dotnet"
 ---
 # Project Settings for  C# Debug Configurations
 You can change the project settings for a C# debug configuration in the **Property Pages** window, as discussed in [Debug and Release Configurations](../debugger/how-to-set-debug-and-release-configurations.md). The following tables show where to find debugger-related settings in the **Property Pages** window.  
   
 > [!WARNING]
->  This topic does not apply to Windows Store apps. See [Start a debug session (VB, C#, C++ and XAML)](../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md)  
+>  This topic does not apply to UWP apps. See [Start a debug session (VB, C#, C++ and XAML)](../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md)  
   
 ##  <a name="BKMK_Debug_tab"></a> Debug tab  
   
@@ -64,9 +50,12 @@ You can change the project settings for a C# debug configuration in the **Proper
   
 |Setting|Description|  
 |-------------|-----------------|  
-|**Conditional compilation symbols:**|The DEBUG and TRACE constants are defined here.<br /><br /> These constants enable conditional compilation of the [Debug class](https://msdn.microsoft.com/en-us/library/system.diagnostics.debug.aspx) and [Trace class](https://msdn.microsoft.com/en-us/library/system.diagnostics.trace.aspx). With these constants defined, Debug and Trace class methods generate output to the [Output window](../ide/reference/output-window.md). Without these constants, Debug and Trace class methods are not compiled and no output is generated.<br /><br /> -   Debug is normally defined in the Debug version of a program and undefined in the Release version.<br />-   Trace is normally defined in both Debug and Release versions.|  
+|**Conditional compilation symbols:**|The DEBUG and TRACE constants are defined here.<br /><br /> These constants enable conditional compilation of the [Debug class](/dotnet/api/system.diagnostics.debug) and [Trace class](/dotnet/api/system.diagnostics.trace). With these constants defined, Debug and Trace class methods generate output to the [Output window](../ide/reference/output-window.md). Without these constants, Debug and Trace class methods are not compiled and no output is generated.<br /><br /> -   Debug is normally defined in the Debug version of a program and undefined in the Release version.<br />-   Trace is normally defined in both Debug and Release versions.|  
 |**Optimize code**|Unless you find a bug that appears only in optimized code, you should leave this setting turned off in the Debug version. Optimized code is harder to debug because instructions do not correspond directly to statements in your source windows.|  
-|**Output path:**|Typically set to bin\Debug for debugging.|  
+|**Output path:**|Typically set to bin\Debug for debugging.|
+
+> [!NOTE]
+> For more information on debug options you find in the **Advanced** button, see [Advanced Build Settings dialog box (C#)](../ide/reference/advanced-build-settings-dialog-box-csharp.md). The portable format for symbol (.pdb) files is the most recent cross-platform format for .NET Core. 
   
 ## See Also  
  [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)

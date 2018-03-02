@@ -13,22 +13,11 @@ helpviewer_keywords:
   - "deploy start page"
 ms.assetid: 4a7eb360-de83-41d5-be53-3cfb160d19f9
 caps.latest.revision: 21
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Deploying Custom Start Pages
 You can deploy custom Start Pages by using VSIX deployment or by copying the files to the correct locations on the target computer.  
@@ -51,7 +40,11 @@ You can deploy custom Start Pages by using VSIX deployment or by copying the fil
   
 -   By adding your custom Start Page files to an empty VSIX Project. For more information, see [VSIX Project Template](../extensibility/vsix-project-template.md).  
   
--   By manually creating a .vsix file. For more information, see [How to: Manually Package an Extension (VSIX Deployment)](../misc/how-to-manually-package-an-extension-vsix-deployment.md).  
+-   By manually creating a .vsix file. To create a .vsix file manually:  
+    
+    1.  Create the extension.vsixmanifest file and the [Content_Types].xml file in a new folder. For more information, see [Anatomy of a VSIX Package](/visualstudio/extensibility/anatomy-of-a-vsix-package).  
+  
+    2.  In Windows Explorer, right-click the folder that contains the two XML files, click Send To, and then click Compressed (zipped) Folder. Rename the resulting .zip file to Filename.vsix, where Filename is the name of the redistributable file that installs your package.  
   
  For Visual Studio to recognize a Start Page, the `Content Element` of the VSIX Manifest must contain a `CustomExtension Element` that has the `Type` attribute set to `"StartPage"`. A Start Page extension that has been installed by using VSIX deployment appears in the **Customize Start Page** list on the **Startup** options page as **[Installed Extension]** *Extension Name*.  
   

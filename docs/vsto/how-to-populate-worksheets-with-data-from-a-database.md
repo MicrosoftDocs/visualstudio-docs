@@ -2,7 +2,6 @@
 title: "How to: Populate Worksheets with Data from a Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,11 +15,11 @@ helpviewer_keywords:
   - "worksheets [Office development in Visual Studio], populating"
   - "databases [Office development in Visual Studio], populating worksheets"
   - "data [Office development in Visual Studio], adding to worksheets"
-ms.assetid: e9e37cf1-53ca-45d0-8409-5428be7f96c5
-caps.latest.revision: 39
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Populate Worksheets with Data from a Database
   You can access data in document-level Office projects in the same way that you access data in Windows Forms projects. You use the same tools and code to bring the data into your solution, and you can even use Windows Forms controls to display the data. In addition, you can take advantage of controls called host controls, which are native objects in Microsoft Office Excel that have been enhanced with events and data-binding capability. For more information, see [Host Items and Host Controls Overview](../vsto/host-items-and-host-controls-overview.md).  
@@ -37,7 +36,7 @@ manager: "ghogen"
   
 1.  Open an Excel document-level project in Visual Studio, with the worksheet open in the designer.  
   
-2.  Open the **Data Sources** window and create a data source for your project. For more information, see [How to: Connect to Data in a Database](../Topic/How%20to:%20Connect%20to%20Data%20in%20a%20Database.md).  
+2.  Open the **Data Sources** window and create a data source for your project. For more information, see [Add new connections](../data-tools/add-new-connections.md).  
   
 3.  Drag the field or table you want from the **Data Sources** window to your worksheet.  
   
@@ -52,13 +51,13 @@ manager: "ghogen"
 ## Objects in the Project  
  In addition to the control, the following data-related objects are automatically added to your project:  
   
--   A typed dataset that encapsulates the data tables that you connected to in the database. For more information, see [Dataset tools in Visual Studio](/visual-studio/data-tools/dataset-tools-in-visual-studio).  
+-   A typed dataset that encapsulates the data tables that you connected to in the database. For more information, see [Dataset tools in Visual Studio](/visualstudio/data-tools/dataset-tools-in-visual-studio).  
   
--   A <xref:System.Windows.Forms.BindingSource> that connects the control to the typed dataset. For more information, see [BindingSource Component Overview](../Topic/BindingSource%20Component%20Overview.md).  
+-   A <xref:System.Windows.Forms.BindingSource> that connects the control to the typed dataset. For more information, see [BindingSource Component Overview](/dotnet/framework/winforms/controls/bindingsource-component-overview).  
   
--   A TableAdapter that connects the typed dataset to the database. For more information, see [TableAdapter Overview](/visual-studio/data-tools/tableadapter-overview).  
+-   A TableAdapter that connects the typed dataset to the database. For more information, see [TableAdapter Overview](../data-tools/fill-datasets-by-using-tableadapters.md#tableadapter-overview).  
   
--   A TableAdapterManager, which is used to coordinate table adapters in the dataset to enable hierarchical updates. For more information, see [Hierarchical Update](../Topic/Hierarchical%20Update.md) and [TableAdapterManager Overview](../Topic/TableAdapterManager%20Overview.md).  
+-   A TableAdapterManager, which is used to coordinate table adapters in the dataset to enable hierarchical updates. For more information, see [Hierarchical Update](../data-tools/hierarchical-update.md) and [TableAdapterManager Reference](../data-tools/fill-datasets-by-using-tableadapters.md#tableadaptermanager-reference).  
   
  When you run the project, the control displays the first record in the data source. You can use the <xref:System.Windows.Forms.BindingSource> to enable users to scroll through the records.  
   
@@ -70,8 +69,8 @@ manager: "ghogen"
   
 ## See Also  
  [Binding Data to Controls in Office Solutions](../vsto/binding-data-to-controls-in-office-solutions.md)   
- [Add new data sources](/visual-studio/data-tools/add-new-data-sources)   
- [Binding Windows Forms controls to data in Visual Studio](../Topic/Binding%20Windows%20Forms%20controls%20to%20data%20in%20Visual%20Studio.md)   
+ [Add new data sources](/visualstudio/data-tools/add-new-data-sources)   
+ [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)   
  [How to: Populate Documents with Data from Objects](../vsto/how-to-populate-documents-with-data-from-objects.md)   
  [How to: Populate Documents with Data from a Database](../vsto/how-to-populate-documents-with-data-from-a-database.md)   
  [How to: Populate Documents with Data from Services](../vsto/how-to-populate-documents-with-data-from-services.md)   

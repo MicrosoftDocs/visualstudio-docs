@@ -14,29 +14,18 @@ helpviewer_keywords:
   - "BP_RESOLUTION_DATA structure"
 ms.assetid: 9e0b9000-6a84-47b9-b07a-367a75764389
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # BP_RESOLUTION_DATA
 Describes the result of binding a data breakpoint.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct _BP_RESOLUTION_DATA {   
    BSTR              bstrDataExpr;  
    BSTR              bstrFunc;  
@@ -45,7 +34,7 @@ typedef struct _BP_RESOLUTION_DATA { 
 } BP_RESOLUTION_DATA;  
 ```  
   
-```c#  
+```csharp  
 public struct BP_RESOLUTION_DATA {   
    public string bstrDataExpr;  
    public string bstrFunc;  

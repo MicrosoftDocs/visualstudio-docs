@@ -4,37 +4,25 @@ ms.custom: ""
 ms.date: "03/02/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords:
-  - "VS.ToolsOptionsPages.XAMLDesigner"  
-ms.assetid: ad3820b2-0d95-4807-a75c-c3467ed973a3
+ms.topic: reference
+f1_keywords: 
+  - "VS.ToolsOptionsPages.XAMLDesigner"
 caps.latest.revision: 1
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht:
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.workload: 
+  - "uwp"
 ---
 # XAML Designer options page
+
 Use the **XAML Designer** options page to specify how elements and attributes are formatted in your XAML documents. To open this page, choose the **Tools** menu and then choose **Options**. To access the **XAML Designer** property page, choose the **XAML Designer** node. Settings for the XAML Designer are applied when you open the document. So, if you make changes to the settings, you need to close and then reopen Visual Studio to see the changes.
 
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).  
 
 ## Enable XAML Designer
 When selected, this setting enables the XAML Designer. The XAML Designer provides a visual work area for you to edit XAML documents. Certain functionality in Visual Studio, such as IntelliSense for resources and databinding, require the XAML Designer to be enabled.
@@ -57,7 +45,7 @@ Use this setting to control when and how the XAML Designer appears when editing 
 |-|-|  
 |**Vertical**|XAML source appears on the left side of the XAML view, and the XAML Designer appears on the other side.|  
 |**Horizontal**|The XAML Designer appears on the top of the XAML view, and the XAML source appears below it.|  
-|**Default**|The XAML document uses the split orientation recommended for the platform targeted by the document’s project. For most platforms this is equivalent to **Horizontal**.|  
+|**Default**|The XAML document uses the split orientation recommended for the platform targeted by the document's project. For most platforms this is equivalent to **Horizontal**.|  
 
 ## Zoom by using
 Use this setting to determine how zoom works when editing a XAML document.
@@ -110,7 +98,7 @@ Use these settings to determine whether effects are rendered when editing XAML f
 |**Render effects**|Specifies whether effects render when editing XAML files in the XAML Designer using Blend.|  
 |**Zoom threshold**|Specifies the percentage of zoom in which effects render when the **Render effects** checkbox is selected. If you zoom beyond this setting, effects no longer render in the XAML Designer.|  
 
-## See Also  
- [XAML in WPF](http://msdn.microsoft.com/Library/5d858575-a83b-42df-ad3f-047ed2d6e3c8)   
- [How to: Change XAML View Settings](http://msdn.microsoft.com/en-us/aee87c79-ca01-4f84-8fb7-a9e47048ee47)   
- [XAML and Code Walkthroughs](http://msdn.microsoft.com/en-us/b3ff41a0-a2a3-4f61-b698-ac88ec8f799c)
+## See also
+
+[XAML in WPF](/dotnet/framework/wpf/advanced/xaml-in-wpf)  
+[Walkthrough: My first WPF desktop application](../../designers/walkthrough-my-first-wpf-desktop-application2.md)

@@ -13,35 +13,24 @@ helpviewer_keywords:
   - "IDebugAlias2::GetAppDomainId"
 ms.assetid: 23581aaa-5a53-4859-b264-eca49fc44bcd
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugAlias2::GetAppDomainId
 Retrieves the identifier for the application domain.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetAppDomainId (  
    ULONG32* pappDomainId  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetAppDomainId (  
    out uint pappDomainId  
 );  

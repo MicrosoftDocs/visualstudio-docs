@@ -2,7 +2,6 @@
 title: "How to: Populate Documents with Data from Services | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,11 +15,11 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], populating with data"
   - "Web services [Office development in Visual Studio], populating documents"
   - "data [Office development in Visual Studio], adding to documents"
-ms.assetid: 4c42653c-627f-445e-9024-8482eaf5562e
-caps.latest.revision: 40
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Populate Documents with Data from Services
   Data access works the same way in document-level projects for Microsoft Office as it does in Windows Forms projects. You use the same tools and code to bring the data into your solution, and you can even use Windows Forms controls to display the data. In addition, you can take advantage of controls called host controls, which are native objects in Microsoft Office Excel and Microsoft Office Word that have been enhanced with events and data binding capability. For more information, see [Host Items and Host Controls Overview](../vsto/host-items-and-host-controls-overview.md).  
@@ -33,7 +32,7 @@ manager: "ghogen"
   
 ### To populate a document-level project with data from a Web service  
   
-1.  Open the **Data Sources** window and create a service data source for your project. For more information, see [How to: Connect to Data in a Service](../Topic/How%20to:%20Connect%20to%20Data%20in%20a%20Service.md).  
+1.  Open the **Data Sources** window and create a service data source for your project. For more information, see [Add new data sources](/visualstudio/data-tools/add-new-data-sources).  
   
 2.  Drag the table or field you want from the **Data Sources** window to your document.  
   
@@ -53,8 +52,8 @@ manager: "ghogen"
   
 ## See Also  
  [Binding Data to Controls in Office Solutions](../vsto/binding-data-to-controls-in-office-solutions.md)   
- [Add new data sources](/visual-studio/data-tools/add-new-data-sources)   
- [Binding Windows Forms controls to data in Visual Studio](../Topic/Binding%20Windows%20Forms%20controls%20to%20data%20in%20Visual%20Studio.md)   
+ [Add new data sources](/visualstudio/data-tools/add-new-data-sources)   
+ [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)   
  [How to: Populate Worksheets with Data from a Database](../vsto/how-to-populate-worksheets-with-data-from-a-database.md)   
  [How to: Populate Documents with Data from Objects](../vsto/how-to-populate-documents-with-data-from-objects.md)   
  [How to: Populate Documents with Data from a Database](../vsto/how-to-populate-documents-with-data-from-a-database.md)   

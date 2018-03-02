@@ -14,35 +14,24 @@ helpviewer_keywords:
   - "IDebugThread2::GetProgram"
 ms.assetid: 8c9c5ea1-2031-472e-bc8f-30e22e754566
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugThread2::GetProgram
 Gets the program in which a thread is running.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetProgram (   
    IDebugProgram2** ppProgram  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetProgram (   
    out IDebugProgram2 ppProgram  
 );  

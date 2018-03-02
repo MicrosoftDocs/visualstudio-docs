@@ -5,7 +5,7 @@ ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-devops-test"
+  - "vs-ide-code-analysis"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,23 +16,11 @@ helpviewer_keywords:
   - "CA2210"
 ms.assetid: 8ed33d1c-8ec6-4b47-a692-e22dc8693088
 caps.latest.revision: 23
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA2210: Assemblies should have valid strong names
 |||  
@@ -99,7 +87,7 @@ translation.priority.ht:
   
  **To sign your assembly with a strong name outside Visual Studio**  
   
--   Use the strong name tool (Sn.exe) that is provided by the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] SDK. For more information, see [Sn.exe (Strong Name Tool)](http://msdn.microsoft.com/Library/c1d2b532-1b8e-4c7a-8ac5-53b801135ec6).  
+-   Use the strong name tool (Sn.exe) that is provided by the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] SDK. For more information, see [Sn.exe (Strong Name Tool)](/dotnet/framework/tools/sn-exe-strong-name-tool).  
   
 ## When to Suppress Warnings  
  Only suppress a warning from this rule if the assembly is used in an environment where tampering with the contents is not a concern.  
@@ -107,5 +95,5 @@ translation.priority.ht:
 ## See Also  
  <xref:System.Reflection.AssemblyKeyFileAttribute?displayProperty=fullName>   
  <xref:System.Reflection.AssemblyKeyNameAttribute?displayProperty=fullName>   
- [How to: Sign an Assembly with a Strong Name](http://msdn.microsoft.com/Library/2c30799a-a826-46b4-a25d-c584027a6c67)   
- [Sn.exe (Strong Name Tool)](http://msdn.microsoft.com/Library/c1d2b532-1b8e-4c7a-8ac5-53b801135ec6)
+ [How to: Sign an Assembly with a Strong Name](/dotnet/framework/app-domains/how-to-sign-an-assembly-with-a-strong-name)   
+ [Sn.exe (Strong Name Tool)](/dotnet/framework/tools/sn-exe-strong-name-tool)

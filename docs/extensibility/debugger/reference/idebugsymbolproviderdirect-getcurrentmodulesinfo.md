@@ -13,29 +13,18 @@ helpviewer_keywords:
   - "GetCurrentModulesInfo"
 ms.assetid: b3b45ed2-ea4e-4389-b78a-11fc9796a6c1
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugSymbolProviderDirect::GetCurrentModulesInfo
 Retrieves information about the modules in the symbol group.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetCurrentModulesInfo(  
    unsigned long * pCount,  
    GUID *          ppGuids,  
@@ -45,7 +34,7 @@ HRESULT GetCurrentModulesInfo(
 );  
 ```  
   
-```c#  
+```csharp  
 int GetCurrentModulesInfo(  
    uint       pCount,  
    Guid       ppGuids,  

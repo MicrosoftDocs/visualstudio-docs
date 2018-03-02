@@ -2,7 +2,6 @@
 title: "Replaceable Parameters | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,14 +18,14 @@ helpviewer_keywords:
   - "tokens [SharePoint development in Visual Studio]"
   - "replaceable parameters [SharePoint development in Visual Studio]"
   - "SharePoint development in Visual Studio, replaceable parameters"
-ms.assetid: 3c46bbb1-0a98-495c-9fd1-dc57a6aedc11
-caps.latest.revision: 16
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Replaceable Parameters
-  Replaceable parameters, or *tokens*, can be used inside project files to provide values for SharePoint solution items whose actual values are not known at design time. They are similar in function to the standard [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] template tokens. For more information, see [Template Parameters](/visual-studio/ide/template-parameters).  
+  Replaceable parameters, or *tokens*, can be used inside project files to provide values for SharePoint solution items whose actual values are not known at design time. They are similar in function to the standard [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] template tokens. For more information, see [Template Parameters](/visualstudio/ide/template-parameters).  
   
 ## Token Format  
  Tokens begin and end with a dollar sign ($) character. Any tokens used are replaced with actual values when a project is packaged into a SharePoint solution package (.wsp) file at deployment time. For example, the token **$SharePoint.Package.Name$** might resolve to the string "Test SharePoint Package."  
@@ -56,10 +55,10 @@ manager: "ghogen"
 |----------|-----------------|  
 |$SharePoint.Project.FileName$|The name of the containing project file, such as, "NewProj.csproj".|  
 |$SharePoint.Project.FileNameWithoutExtension$|The name of the containing project file without the file name extension. For example, "NewProj".|  
-|$SharePoint.Project.AssemblyFullName$|The display name (strong name) of the containing project’s output assembly.|  
-|$SharePoint.Project.AssemblyFileName$|The name of the containing project’s output assembly.|  
-|$SharePoint.Project.AssemblyFileNameWithoutExtension$|The name of the containing project’s output assembly, without the file name extension.|  
-|$SharePoint.Project.AssemblyPublicKeyToken$|The public key token of the containing project’s output assembly, converted to a string. (16-characters in "x2" hexadecimal format.)|  
+|$SharePoint.Project.AssemblyFullName$|The display name (strong name) of the containing project's output assembly.|  
+|$SharePoint.Project.AssemblyFileName$|The name of the containing project's output assembly.|  
+|$SharePoint.Project.AssemblyFileNameWithoutExtension$|The name of the containing project's output assembly, without the file name extension.|  
+|$SharePoint.Project.AssemblyPublicKeyToken$|The public key token of the containing project's output assembly, converted to a string. (16-characters in "x2" hexadecimal format.)|  
 |$SharePoint.Package.Name$|The name of the containing package.|  
 |$SharePoint.Package.FileName$|The name of the containing package's definition file.|  
 |$SharePoint.Package.FileNameWithoutExtension$|The name (without extension) of the containing package's definition file.|  
@@ -85,7 +84,7 @@ manager: "ghogen"
   
 -   DWP  
   
- These extensions are defined by the `<TokenReplacementFileExtensions>` element in the Microsoft.VisualStudio.SharePoint.targets file, located in the …\\<program files\>\MSBuild\Microsoft\VisualStudio\v11.0\SharePointTools folder.  
+ These extensions are defined by the `<TokenReplacementFileExtensions>` element in the Microsoft.VisualStudio.SharePoint.targets file, located in the ...\\<program files\>\MSBuild\Microsoft\VisualStudio\v11.0\SharePointTools folder.  
   
  You can, however, add additional file extensions to the list. To do this, add a `<TokenReplacementFileExtensions>` element to any PropertyGroup in the SharePoint project file that is defined before the \<Import> of the SharePoint targets file.  
   

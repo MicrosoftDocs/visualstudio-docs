@@ -2,7 +2,6 @@
 title: "Working with Contact Items | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,11 +16,11 @@ helpviewer_keywords:
   - "contacts [Office development in Visual Studio], about contacts"
   - "e-mail [Office development in Visual Studio], contacts"
   - "contacts [Office development in Visual Studio]"
-ms.assetid: e1bd9493-ee33-40e0-8b62-f310e9e35b33
-caps.latest.revision: 9
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Working with Contact Items
   The <xref:Microsoft.Office.Interop.Outlook.ContactItem> class contains the methods and properties you use to perform tasks with contacts.  

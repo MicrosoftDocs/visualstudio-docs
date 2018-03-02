@@ -2,7 +2,6 @@
 title: "Walkthrough: Import a SharePoint Designer Reusable Workflow into Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,11 +18,11 @@ dev_langs:
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, importing reusable workflows"
   - "reusable workflows [SharePoint development in Visual Studio]"
-ms.assetid: a6550615-4433-4aba-8bdf-0fcbf8dbcf97
-caps.latest.revision: 35
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Walkthrough: Import a SharePoint Designer Reusable Workflow into Visual Studio
   This walkthrough demonstrates how to import a reusable workflow created in SharePoint Designer 2010 into a [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint workflow project.  
@@ -99,7 +98,7 @@ manager: "ghogen"
   
 6.  In the list of conditions, choose **If current item field equals value**.  
   
-     This step adds a condition that’s named **If field equals value**.  
+     This step adds a condition that's named **If field equals value**.  
   
 7.  In the **If field equals value** condition, choose the **field** link.  
   
@@ -189,7 +188,7 @@ manager: "ghogen"
   
      This displays the list immediately when you debug the project.  
   
-11. Because the **Import Reusable SharePoint 2010 Workflow** template doesn’t import the association property values for the imported workflow, you must enter them. To do this:  
+11. Because the **Import Reusable SharePoint 2010 Workflow** template doesn't import the association property values for the imported workflow, you must enter them. To do this:  
   
     1.  In **Solution Explorer**, choose the **SPD_Workflow_TestFT** node.  
   
@@ -215,12 +214,12 @@ manager: "ghogen"
   
 15. Add the following under the existing **using** or **Imports** statements:  
   
-     [!code-cs[SP_SPDWFImport#1](../sharepoint/codesnippet/CSharp/workflowimportproject1/workflows/spd_task_workflowft/spd task workflow.xoml.cs#1)]
+     [!code-csharp[SP_SPDWFImport#1](../sharepoint/codesnippet/CSharp/workflowimportproject1/workflows/spd_task_workflowft/spd task workflow.xoml.cs#1)]
      [!code-vb[SP_SPDWFImport#1](../sharepoint/codesnippet/VisualBasic/workflowimportproject1/workflows/spd_task_workflowft/spd task workflow.xoml.vb#1)]  
   
 16. Replace `codeActivity1_ExecuteCode` with the following:  
   
-     [!code-cs[SP_SPDWFImport#2](../sharepoint/codesnippet/CSharp/workflowimportproject1/workflows/spd_task_workflowft/spd task workflow.xoml.cs#2)]
+     [!code-csharp[SP_SPDWFImport#2](../sharepoint/codesnippet/CSharp/workflowimportproject1/workflows/spd_task_workflowft/spd task workflow.xoml.cs#2)]
      [!code-vb[SP_SPDWFImport#2](../sharepoint/codesnippet/VisualBasic/workflowimportproject1/workflows/spd_task_workflowft/spd task workflow.xoml.vb#2)]  
   
 ## Deploy the Project and Associate the Workflow  

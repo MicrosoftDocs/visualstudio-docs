@@ -14,29 +14,18 @@ helpviewer_keywords:
   - "CONTEXT_COMPARE enumeration"
 ms.assetid: 701ed61c-a320-4c20-a335-0b840024abc0
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # CONTEXT_COMPARE
 Specifies the criteria for comparing two memory contexts.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_CONTEXT_COMPARE {   
    CONTEXT_EQUAL                 = 0x0001,  
    CONTEXT_LESS_THAN             = 0x0002,  
@@ -51,7 +40,7 @@ enum enum_CONTEXT_COMPARE { 
 typedef DWORD CONTEXT_COMPARE;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_CONTEXT_COMPARE {   
    CONTEXT_EQUAL                 = 0x0001,  
    CONTEXT_LESS_THAN             = 0x0002,  

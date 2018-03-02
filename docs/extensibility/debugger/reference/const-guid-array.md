@@ -14,36 +14,25 @@ helpviewer_keywords:
   - "CONST_GUID_ARRAY structure"
 ms.assetid: bd55e7d8-372c-4c3e-9eed-28f6b415a5db
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # CONST_GUID_ARRAY
 A structure that holds a list of `GUID`s.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct tagCONST_GUID_ARRAY {  
    DWORD       dwCount;  
    CONST GUID* Members;  
 } CONST_GUID_ARRAY;  
 ```  
   
-```c#  
+```csharp  
 public struct CONST_GUID_ARRAY {  
    public uint   dwCount;  
    public Guid[] Members;  

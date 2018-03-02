@@ -2,7 +2,6 @@
 title: "Properties in Office Projects | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,11 +19,11 @@ helpviewer_keywords:
   - "Office projects [Office development in Visual Studio], properties"
   - "projects [Office development in Visual Studio], properties"
   - "Value2 property"
-ms.assetid: 1284d6c3-8200-4151-88ce-0b5c7765af25
-caps.latest.revision: 34
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Properties in Office Projects
   There are several important properties that are available to Office projects in Visual Studio. These properties can be accessed in the **Properties** window.  

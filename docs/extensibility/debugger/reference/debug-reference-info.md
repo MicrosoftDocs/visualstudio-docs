@@ -14,29 +14,18 @@ helpviewer_keywords:
   - "DEBUG_REFERENCE_INFO structure"
 ms.assetid: 24b83d00-d756-42a1-8083-730f998761dc
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # DEBUG_REFERENCE_INFO
 Describes a reference.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct tagDEBUG_REFERENCE_INFO {   
    DEBUGREF_INFO_FLAGS dwFields;  
    BSTR                bstrName;  
@@ -48,7 +37,7 @@ typedef struct tagDEBUG_REFERENCE_INFO { 
 } DEBUG_REFERENCE_INFO;  
 ```  
   
-```c#  
+```csharp  
 public struct DEBUG_REFERENCE_INFO {   
    public uint             dwFields;  
    public string           bstrName;  

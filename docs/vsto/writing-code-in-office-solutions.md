@@ -2,7 +2,6 @@
 title: "Writing Code in Office Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -35,11 +34,11 @@ helpviewer_keywords:
   - "projects [Office development in Visual Studio], writing code"
   - "Office applications [Office development in Visual Studio], programming model"
   - "managed code extensions [Office development in Visual Studio], writing code"
-ms.assetid: 2d4d8fd0-e881-4829-976f-0d1a9221dec0
-caps.latest.revision: 37
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Writing Code in Office Solutions
   There are some aspects of writing code in Office projects that are different from other types of projects in Visual Studio. Many of these differences are related to the way the Office object models are exposed to managed code. Other differences are related to the design of Office projects.  
@@ -84,7 +83,7 @@ manager: "ghogen"
  For more information, see [Global Access to Objects in Office Projects](../vsto/global-access-to-objects-in-office-projects.md).  
   
 ### Namespace Considerations in Office Solutions  
- You cannot change the *default namespace* (or *root namespace* in Visual Basic) of an Office project after you create the project. The default namespace will always match the project name you specified when you created the project. If you rename your project, the default namespace does not change. For more information about the default namespace in projects, see [Application Page, Project Designer &#40;C&#35;&#41;](/visual-studio/ide/reference/application-page-project-designer-csharp) and [Application Page, Project Designer &#40;Visual Basic&#41;](/visual-studio/ide/reference/application-page-project-designer-visual-basic).  
+ You cannot change the *default namespace* (or *root namespace* in Visual Basic) of an Office project after you create the project. The default namespace will always match the project name you specified when you created the project. If you rename your project, the default namespace does not change. For more information about the default namespace in projects, see [Application Page, Project Designer &#40;C&#35;&#41;](/visualstudio/ide/reference/application-page-project-designer-csharp) and [Application Page, Project Designer &#40;Visual Basic&#41;](/visualstudio/ide/reference/application-page-project-designer-visual-basic).  
   
 ### Changing the Namespace of Host Item Classes in C# Projects  
  Host item classes (for example, the `ThisAddIn`, `ThisWorkbook`, or `ThisDocument` classes) have their own namespaces in Visual C# Office projects. By default, the namespace for host items in your project matches the project name you specified when you created the project.  

@@ -13,36 +13,25 @@ helpviewer_keywords:
   - "IDebugTypeFieldBuilder::CreatePointerToType"
 ms.assetid: 73966e8a-b643-43e0-9b4e-0aa4b402ebbe
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugTypeFieldBuilder::CreatePointerToType
 Creates a pointer to the specified type.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT CreatePointerToType(  
    IDebugField*  pTypeField,  
    IDebugField** pPtrToTypeField  
 );  
 ```  
   
-```c#  
+```csharp  
 int CreatePointerToType(  
    IDebugField     pTypeField,  
    out IDebugField pPtrToTypeField  

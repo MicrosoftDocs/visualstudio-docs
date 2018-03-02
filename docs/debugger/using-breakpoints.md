@@ -38,28 +38,15 @@ ms.assetid: 020b2e97-3b3e-4b2c-872d-b5c6025e120e
 caps.latest.revision: 57
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Use Breakpoints in the Visual Studio Debugger
 You can set breakpoints when you want to stop debugger execution, perhaps to see the state of code variables or to look at the call stack. They are one of the most important debugging techniques in a developer's toolbox.  
   
-##  <a name="BKMK_Overview"></a> Setting a function breakpoint in source code  
- You set a function breakpoint in source code by clicking in the left margin of a source code file, or by putting your cursor on a line of code and pressing F9. The breakpoint appears as a red dot in the left margin, and the line of code is colored as well:  
+##  <a name="BKMK_Overview"></a> Setting a line breakpoint in source code  
+ You set a line breakpoint in source code by clicking in the left margin of a source code file, or by putting your cursor on a line of code and pressing F9. The breakpoint appears as a red dot in the left margin, and the line of code is colored as well:  
   
  ![Set a breakpoint](../debugger/media/basicbreakpoint.png "BasicBreakpoint")  
   
@@ -79,9 +66,9 @@ You can set breakpoints when you want to stop debugger execution, perhaps to see
 ## <a name="BKMK_Set_a_breakpoint_in_the_call_stack_window"></a> Setting a Breakpoint in the Call Stack Window  
  You can break execution at the instruction or line that a calling function returns to by setting a breakpoint in the **Call Stack** window. For more information about the call stack, see [How to: Use the Call Stack Window](../debugger/how-to-use-the-call-stack-window.md). The debugger must have stopped executing.  
   
-1.  Start debugging the application, and wait execution is stopped (for example, at a breakpoint). Open the **Call Stack** window (**Debug / Windows / Call Stack**, or **CTRL + ALT + C**).  
+1.  Start debugging the application, and wait execution is stopped (for example, at a breakpoint). Open the **Call Stack** window (**Debug > Windows > Call Stack**, or **CTRL + ALT + C**).  
   
-2.  Right-click the calling function and then select **Breakpoint / Insert Breakpoint**, or just use the shortcut key **F9**.  
+2.  Right-click the calling function and then select **Breakpoint > Insert Breakpoint**, or just use the shortcut key **F9**.  
   
 3.  A breakpoint symbol appears in the left margin of the call stack, next to the function call name.  
   
@@ -92,14 +79,14 @@ You can set breakpoints when you want to stop debugger execution, perhaps to see
 ## Setting a Breakpoint in the Disassembly Window  
  To set a breakpoint at an assembly instruction, the debugger must be in break mode.  
   
-1.  Start debugging the application, and wait execution is stopped (for example, at a breakpoint). Open the **Disassembly** window (**Debug / Windows / Disassembly**, or **Ctrl + Alt + D**).  
+1.  Start debugging the application, and wait execution is stopped (for example, at a breakpoint). Open the **Disassembly** window (**Debug > Windows > Disassembly**, or **Ctrl + Alt + D**).  
   
 2.  Click in the left margin at the instruction that you want to break at, or set your cursor at the instruction and press **F9**.  
   
 ## <a name="BKMK_set_a_data_breakpoint_native_cplusplus_only"></a>Setting a Data Breakpoint (native C++ only)  
  Data breakpoints break execution when a value that is stored at a specified memory address changes. If the value is read but not changed, execution doesn't break. To set data breakpoints, the debugger must be in break mode.  
   
-1.  Start debugging the application, and wait until a breakpoint is reached. On the **Debug** menu, choose **New Breakpoint / Data Breakpoint** (or open the **Breakpoints** window and choose **New / Data Breakpoint**.  
+1.  Start debugging the application, and wait until a breakpoint is reached. On the **Debug** menu, choose **New Breakpoint > Data Breakpoint** (or open the **Breakpoints** window and choose **New > Data Breakpoint**.  
   
 2.  In the **Address** box, type a memory address or an expression that evaluates to a memory address. For example, type `&avar` to break when the contents of the variable `avar` changes.  
   
@@ -128,7 +115,7 @@ You can set breakpoints when you want to stop debugger execution, perhaps to see
   
 2.  Find the address of the instance (we'll say it's `0xcccccccc`).  
   
-3.  Click **Debug / New Breakpoint / Function Breakpoint** (or **ALT + F9, B**).  
+3.  Click **Debug > New Breakpoint > Function Breakpoint** (or **ALT + F9, B**).  
   
 4.  Add the following text to the **Function Name** box:  
   
@@ -137,7 +124,7 @@ You can set breakpoints when you want to stop debugger execution, perhaps to see
     ```  
   
 ##  <a name="BKMK_Specify_advanced_properties_of_a_breakpoint_"></a> Managing Breakpoints  
- You can use the **Breakpoints** window (**Debug / Windows / Breakpoints**, or **CTRL + ALT + B**) to see all the breakpoints you have set in your solution:  
+ You can use the **Breakpoints** window (**Debug > Windows > Breakpoints**, or **CTRL + ALT + B**) to see all the breakpoints you have set in your solution:  
   
  ![Breakpoints window](../debugger/media/breakpointswindow.png "BreakpointsWindow")  
   
@@ -166,11 +153,14 @@ You can set breakpoints when you want to stop debugger execution, perhaps to see
   
  ![Breakpoint when changed](../debugger/media/breakpointwhenchanged.png "BreakpointWhenChanged")  
   
- The behavior of the When changed field is different for different programming languages. If you choose **When changed** for native code, the debugger doesn't consider the first evaluation of the condition to be a change, so the breakpoint won't be hit on the first evaluation. If you choose **When changed** for managed code, he breakpoint is hit on the first evaluation after **When changed** is selected.  
+ The behavior of the When changed field is different for different programming languages. If you choose **When changed** for native code, the debugger doesn't consider the first evaluation of the condition to be a change, so the breakpoint won't be hit on the first evaluation. If you choose **When changed** for managed code, the breakpoint is hit on the first evaluation after **When changed** is selected.  
   
  If you set a breakpoint condition with invalid syntax, a warning message appears. If you specify a breakpoint condition with valid syntax but invalid semantics, a warning message appears the first time the breakpoint is hit. In either case, the debugger breaks execution when the invalid breakpoint is hit. The breakpoint is skipped only if the condition is valid and evaluates to `false`.  
   
  The condition can be any valid expression that is recognized by the debugger. For more information about valid expressions, see [Expressions in the Debugger](../debugger/expressions-in-the-debugger.md).  
+
+> [!NOTE]
+> You can use **CTRL+Enter** to close the **Breakpoint Settings** window.
   
 ## Using Object IDs in Breakpoint Conditions (C# and F#)  
  There are times when you want to observe the behavior of a specific object; for example, you might want to find out why an object was inserted more than once into a collection. In C# and F#, you can create object IDs for specific instances of [reference types](/dotnet/csharp/language-reference/keywords/reference-types) and use them in breakpoint conditions. The object ID is generated by the common language runtime (CLR) debugging services and associated with the object.  To create an object ID, do the following:  
@@ -192,7 +182,7 @@ You can set breakpoints when you want to stop debugger execution, perhaps to see
  Note that Object IDs create weak references, and do not prevent the object from being garbage collected. They are valid only for the current debugging session.  
   
 ## Hit Count  
- If you suspect that a loop in your code starts misbehaving after a certain number of iterations, you can set a breakpoint to stop execution after a specified number of hits to the to the associated line of code, rather than being forced to repeatedly press **F5** to reach the iteration level.  
+ If you suspect that a loop in your code starts misbehaving after a certain number of iterations, you can set a breakpoint to stop execution after a specified number of hits to the associated line of code, rather than being forced to repeatedly press **F5** to reach the iteration level.  
   
  In the **Breakpoint Settings** window, set the condition to **Hit Count**. You can then specify the number of iterations. In the following example, we set the breakpoint to hit on every other iteration:  
   
@@ -243,20 +233,6 @@ You can set breakpoints when you want to stop debugger execution, perhaps to see
 ## Export and Import Breakpoints  
  You can export a breakpoint to an XML file by right-clicking on the breakpoint and selecting **Export**. The file is saved by default in the solution directory. To import breakpoints, open the **Breakpoints** window (**CTRL + ALT + B**) and on the toolbar click the right-pointing arrow (the tooltip is **Import breakpoints from a file**).  
   
-## Troubleshoot breakpoints  
-  
-### I deleted a breakpoint, but I continue to hit it when I start debugging again  
- If you deleted a breakpoint while debugging, in some cases you may hit the breakpoint again the next time you start debugging. To stop hitting this breakpoint, make sure all the instances of the breakpoint are removed from the **Breakpoints** window.  
-  
-### The debugger can't locate the correct version of the source file for a breakpoint  
- If a source file has changed and the source no longer matches the code you are debugging, the debugger might locate the source file that corresponds to a breakpoint, even though the source file exists.  
-  
-1.  If you want Visual Studio to display source code that doesn't match the version you are debugging, choose **Debug / Options and Settings**. On the **Debugging/General** page, clear the **Require source files that exactly match the original version** option.  
-  
-2.  You can also bind the breakpoint to the source file. Select the breakpoint and choose **Conditions** on the context menu. Check **Allow the source code to be different from the original** in the **Breakpoint Settings** window.  
-  
-### Breakpoints don't work in a DLL  
- You cannot set a breakpoint in a source file when the debugger hasn't loaded the debug information for the module where the code is located. Symptoms may include messages such as **the breakpoint will not be set**. The Warning breakpoint glyph appears at the breakpoint location. However, these Warning breakpoints become actual breakpoints when the code is loaded. For more information about loading symbols, see [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).  
-  
 ## See Also  
- [Navigating through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md)
+[Troubleshoot Breakpoints in the Visual Studio Debugger](../debugger/troubleshooting-breakpoints.md)  
+[Navigating through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md)

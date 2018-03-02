@@ -13,35 +13,24 @@ helpviewer_keywords:
   - "IDebugPointerObject3::GetPointerAddress"
 ms.assetid: 4cc5af04-9e70-420d-8230-ef3108df6d51
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugPointerObject3::GetPointerAddress
 Retrieves the address of the pointer.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetPointerAddress (  
    UINT64* puAddress  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetPointerAddress (  
    out ulong puAddress  
 );  

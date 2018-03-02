@@ -4,13 +4,13 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 452318ff-8ecf-46d0-8ca0-4013d0cdafaf
-caps.latest.revision: 17
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Creating a Windows Forms-Based Domain-Specific Language
 You can use Windows Forms to display the state of a domain-specific language (DSL) model, instead of using a DSL diagram. This topic walks you through binding a Windows Form to a DSL, using the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Visualization and Modeling SDK.  
@@ -83,9 +83,9 @@ A DSL instance, showing a Windows Form UI and the model explorer.
   
 4.  Use the **Named Domain Class** tool to create the following domain classes:  
   
-    -   `Field` – Give this an additional domain property named `Size`.  
+    -   `Field` - Give this an additional domain property named `Size`.  
   
-    -   `Animal` – In the Properties window, set **Inheritance Modifier** to **Abstract**.  
+    -   `Animal` - In the Properties window, set **Inheritance Modifier** to **Abstract**.  
   
 5.  Use the **Domain Class** tool to create the following classes:  
   
@@ -177,7 +177,7 @@ Schema of links between data sources and views.
   
 1.  Add the following code in a separate code file in the **UI** project:  
   
-    ```c#  
+    ```csharp  
     using System.ComponentModel;  
     using Microsoft.VisualStudio.Modeling;  
     using Microsoft.VisualStudio.Modeling.Design;  
@@ -203,7 +203,7 @@ Schema of links between data sources and views.
   
 2.  In the **DslPackage** project, edit **DslPackage\DocView.tt** to update the following variable definition:  
   
-    ```c#  
+    ```csharp  
     string viewControlTypeName = "FarmControl";  
     ```  
   
@@ -253,7 +253,7 @@ Schema of links between data sources and views.
   
      Edit it as follows:  
   
-    ```c#  
+    ```csharp  
     private void NewSheepButton_Click(object sender, EventArgs e)  
     {  
       using (Transaction t = farm.Store.TransactionManager.BeginTransaction("Add sheep"))  
@@ -286,7 +286,7 @@ Schema of links between data sources and views.
   
      You will also need to insert the following directive:  
   
-    ```c#  
+    ```csharp  
   
     using Microsoft.VisualStudio.Modeling;  
   
@@ -305,7 +305,7 @@ Schema of links between data sources and views.
 ### About the code to add an element  
  For the new element buttons, the following alternative code is slightly simpler.  
   
-```c#  
+```csharp  
 private void NewSheepButton_Click(object sender, EventArgs e)  
 {  
   using (Transaction t = farm.Store.TransactionManager.BeginTransaction("Add sheep"))  

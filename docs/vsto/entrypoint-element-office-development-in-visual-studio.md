@@ -2,7 +2,6 @@
 title: "&lt;entryPoint&gt; Element (Office Development in Visual Studio) | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,11 +15,11 @@ helpviewer_keywords:
   - "application manifests [Office development in Visual Studio], <entryPoint> element"
   - "<entryPoint> element"
   - "entryPoint element"
-ms.assetid: 0c9d22d0-0852-4260-89c6-b83f24e48793
-caps.latest.revision: 23
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # &lt;entryPoint&gt; Element (Office Development in Visual Studio)
   Each `entryPoint` element of the `vstav3` namespace identifies a customization assembly that should be run when this [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] application is installed.  
@@ -49,7 +48,7 @@ manager: "ghogen"
 ### assemblyIdentity  
  Required. The `assemblyIdentity` element in the `vstav3` namespace refers to an existing `assemblyIdentity` element in the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] application manifest.  
   
- The role of `assemblyIdentity` and its attributes is defined in [&#60;assemblyIdentity&#62; Element &#40;ClickOnce Application&#41;](../Topic/%3CassemblyIdentity%3E%20Element%20(ClickOnce%20Application).md).  
+ The role of `assemblyIdentity` and its attributes is defined in [&#60;assemblyIdentity&#62; Element &#40;ClickOnce Application&#41;](/visualstudio/deployment/assemblyidentity-element-clickonce-application).  
   
 ## Document-Level Customization Example  
   
@@ -114,6 +113,6 @@ manager: "ghogen"
 ## See Also  
  [Application Manifests for Office Solutions](../vsto/application-manifests-for-office-solutions.md)   
  [Deployment Manifests for Office Solutions](../vsto/deployment-manifests-for-office-solutions.md)   
- [ClickOnce Application Manifest](/visual-studio/deployment/clickonce-application-manifest)  
+ [ClickOnce Application Manifest](/visualstudio/deployment/clickonce-application-manifest)  
   
   

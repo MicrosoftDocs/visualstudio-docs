@@ -14,29 +14,18 @@ helpviewer_keywords:
   - "TYPE_INFO structure"
 ms.assetid: d725cb68-a565-49d1-a16f-ff0445c587a0
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # TYPE_INFO
 This structure specifies various kinds of information about a field's type.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 struct _tagTYPE_INFO_UNION {  
    dwTYPE_KIND dwKind;  
    union {  
@@ -48,7 +37,7 @@ struct _tagTYPE_INFO_UNION {
 } TYPE_INFO;  
 ```  
   
-```c#  
+```csharp  
 public struct TYPE_INFO {  
    public uint   dwKind;  
    public IntPtr unionmember;  
@@ -94,7 +83,7 @@ public struct TYPE_INFO {
 ## Example  
  This example shows how to interpret the `unionmember` member of the `TYPE_INFO` structure in C#. This example shows interpreting only one type (`TYPE_KIND_METADATA`) but the others are interpreted in exactly the same way.  
   
-```c#  
+```csharp  
 using System;  
 using System.Runtime.Interop.Services;  
 using Microsoft.VisualStudio.Debugger.Interop;  

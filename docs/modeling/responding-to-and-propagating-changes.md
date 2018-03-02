@@ -4,15 +4,15 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Domain-Specific Language, events"
-ms.assetid: fc2e9ac5-7a84-44ed-9945-94e45f89c227
-caps.latest.revision: 24
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Responding to and Propagating Changes
 When an element is created, deleted or updated, you can write code that propagates the change to other parts of the model, or to external resources such as files, databases, or other components.  
@@ -30,7 +30,7 @@ When an element is created, deleted or updated, you can write code that propagat
 |.NET Events|Shapes have event handlers that respond to mouse clicks and other gestures. You have to register for these events for each object. Registration is typically done in an override of InitializeInstanceResources, and must be done for each element.<br /><br /> These events usually occur outside a transaction.|[How to: Intercept a Click on a Shape or Decorator](../modeling/how-to-intercept-a-click-on-a-shape-or-decorator.md)|  
 |Bounds Rules|A bounds rule is used specifically to constrain the bounds of a shape.|[BoundsRules Constrain Shape Location and Size](../modeling/boundsrules-constrain-shape-location-and-size.md)|  
 |Selection rules|Selection rules specifically constrain what the user can select.|[How to: Access and Constrain the Current Selection](../modeling/how-to-access-and-constrain-the-current-selection.md)|  
-|OnAssocatedPropertyChanged|Indicate the model elements’ states using features of shapes and connectors such as shadow, arrowheads, color, and line widths and style.|[Updating Shapes and Connectors to Reflect the Model](../modeling/updating-shapes-and-connectors-to-reflect-the-model.md)|  
+|OnAssocatedPropertyChanged|Indicate the model elements' states using features of shapes and connectors such as shadow, arrowheads, color, and line widths and style.|[Updating Shapes and Connectors to Reflect the Model](../modeling/updating-shapes-and-connectors-to-reflect-the-model.md)|  
   
 ## **Comparing Rules and Store Events**  
  Change notifiers, rules, and events are run when changes occur in a model.  

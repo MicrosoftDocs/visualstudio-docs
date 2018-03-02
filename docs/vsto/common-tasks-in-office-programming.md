@@ -2,7 +2,6 @@
 title: "Common Tasks in Office Programming | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,11 +15,11 @@ helpviewer_keywords:
   - "Office development in Visual Studio, getting started"
   - "FAQs (frequently asked questions) [Office development in Visual Studio]"
   - "Office development in Visual Studio, frequently asked questions"
-ms.assetid: 7afc9bad-1d31-486e-beea-91e6d308cd67
-caps.latest.revision: 45
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Common Tasks in Office Programming
   This topic is designed to help you find the answers to the following categories of common questions about programming Office solutions by using Visual Studio.  
@@ -137,7 +136,7 @@ manager: "ghogen"
   
 -   [How to: Programmatically Print Worksheets](../vsto/how-to-programmatically-print-worksheets.md).  
   
--   [How to: Programmatically Run Excel Calculations Programmatically](../vsto/how-to-programmatically-run-excel-calculations-programmatically.md).  
+-   [How to: Programmatically Run Excel Calculations](../vsto/how-to-programmatically-run-excel-calculations-programmatically.md).  
   
 -   [How to: Programmatically Sort Data in Worksheets](../vsto/how-to-programmatically-sort-data-in-worksheets.md).  
   

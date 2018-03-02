@@ -14,35 +14,24 @@ helpviewer_keywords:
   - "IDebugArrayField::GetElementType method"
 ms.assetid: c46bf625-0a48-4cbb-8f1f-286356f2c065
 caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugArrayField::GetElementType
 Gets the type of element in the array.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetElementType(   
    IDebugField** ppType  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetElementType(  
    out IDebugField ppType  
 );  

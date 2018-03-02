@@ -2,7 +2,6 @@
 title: "Working with Documents | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,11 +15,11 @@ helpviewer_keywords:
   - "Office documents [Office development in Visual Studio, common tasks"
   - "documents [Office development in Visual Studio], common tasks"
   - "Word [Office development in Visual Studio], document common tasks"
-ms.assetid: d21a1be6-fabc-4573-b861-b76cec5814bd
-caps.latest.revision: 18
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Working with Documents
   The topics in this section provide step-by-step procedures and code examples for using the object model of Microsoft Office Word to work with documents in Office projects.  

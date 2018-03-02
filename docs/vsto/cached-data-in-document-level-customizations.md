@@ -2,7 +2,6 @@
 title: "Cached Data in Document-Level Customizations | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,11 +19,11 @@ helpviewer_keywords:
   - "data [Office development in Visual Studio], cache"
   - "data [Office development in Visual Studio], document-level solutions"
   - "document-level customizations [Office development in Visual Studio], data model"
-ms.assetid: 84808462-2c5d-4dc8-ab69-491d492b4a51
-caps.latest.revision: 27
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Cached Data in Document-Level Customizations
   A primary goal of document-level customizations is to separate data from view in Office documents. Data refers to the information that is stored in the document, including numbers and text. View refers to the user interface and the object model of Microsoft Office Word and Microsoft Office Excel.  

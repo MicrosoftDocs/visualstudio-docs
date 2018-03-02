@@ -25,21 +25,9 @@ ms.assetid: eaf84dd0-c82d-481b-af51-690b74e7794c
 caps.latest.revision: 29
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # View Disassembly Code in the Visual Studio Debugger
 This feature is available only if address-level debugging is enabled the **Options** dialog box, **Debugging** node. It is not available for Script or SQL debugging.  
@@ -67,13 +55,11 @@ This feature is available only if address-level debugging is enabled the **Optio
  You probably will never have the desire or need to view machine-code instructions in their raw, numeric form, rather than assembly language. However, if you want to do so, you can use the Memory window for that purpose or choose Code Bytes from the shortcut menu in the Disassembly window.  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).  
   
 ### To display the Disassembly window  
   
--   On the **Debug** menu, choose **Windows**, and click **Disassembly**.  
-  
-     The debugger must be running or in break mode.  
+-   While you are debugging, select **Debug > Windows** and then click **Disassembly**.
   
 ### To turn optional information on or off  
   

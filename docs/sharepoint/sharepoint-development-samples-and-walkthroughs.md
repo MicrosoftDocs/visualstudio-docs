@@ -2,7 +2,6 @@
 title: "SharePoint Development Samples and Walkthroughs | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,11 +16,11 @@ dev_langs:
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, samples"
   - "SharePoint development in Visual Studio, walkthroughs"
-ms.assetid: 3cf81bd7-f120-4d2f-951f-ea628c90d172
-caps.latest.revision: 8
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # SharePoint Development Samples and Walkthroughs
   This section contains sample applications, example code, and step-by-step walkthroughs that illustrate the syntax, structure, and techniques used to build SharePoint solutions.  

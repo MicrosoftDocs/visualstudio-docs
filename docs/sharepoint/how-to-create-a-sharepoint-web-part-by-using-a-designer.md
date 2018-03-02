@@ -2,7 +2,6 @@
 title: "How to: Create a SharePoint Web Part by Using a Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,11 +17,11 @@ helpviewer_keywords:
   - "Web Parts [SharePoint development in Visual Studio], designer"
   - "Web Parts [SharePoint development in Visual Studio], adding"
   - "Web Parts [SharePoint development in Visual Studio], creating"
-ms.assetid: 6b88f3ef-02ff-4135-80ff-b4acacf8c695
-caps.latest.revision: 26
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Create a SharePoint Web Part by Using a Designer
   You can create a web part by adding a **Visual Web Part** item to any SharePoint project. This opens the Visual Web Developer designer in Visual Studio where you can add controls and code to the web part. Visual web parts function the same way as web parts do. The only difference is that you design visual web parts in the Visual Web Developer designer.  
@@ -39,9 +38,9 @@ manager: "ghogen"
   
      The **SharePoint Customization Wizard** appears.  
   
-4.  On the **Specify the site and security level for debugging** page, specify the URL of a SharePoint site that’s on the local computer, and then choose the **Finish** button.  
+4.  On the **Specify the site and security level for debugging** page, specify the URL of a SharePoint site that's on the local computer, and then choose the **Finish** button.  
   
-     In **Solution Explorer**, a web part appears. After designing the web part in the Visual Web Developer designer, you’ll test it on the site that you specify.  
+     In **Solution Explorer**, a web part appears. After designing the web part in the Visual Web Developer designer, you'll test it on the site that you specify.  
   
 ### To add a visual web part to an existing SharePoint project  
   
@@ -51,7 +50,7 @@ manager: "ghogen"
   
 3.  In the list of project templates, choose **Visual Web Part**, name it, and then choose the **Add** button.  
   
-     In **Solution Explorer**, your web part appears. After designing the web part in the Visual Web Developer designer, you’ll test it on the site that you specify.  
+     In **Solution Explorer**, your web part appears. After designing the web part in the Visual Web Developer designer, you'll test it on the site that you specify.  
   
 ## See Also  
  [Creating Web Parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md)   

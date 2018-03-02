@@ -2,7 +2,6 @@
 title: "&lt;postActionData&gt; Element (Office Development in Visual Studio) | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,11 +15,11 @@ helpviewer_keywords:
   - "<postActionData> element"
   - "application manifests [Office development in Visual Studio], <postActionData> element"
   - "postActionData element"
-ms.assetid: e36cbd64-fd27-4413-b293-cf5546fbdfaf
-caps.latest.revision: 16
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # &lt;postActionData&gt; Element (Office Development in Visual Studio)
   The `postActionData` element of the `vstav3` namespace specifies the data associated with any post-deployment action that runs after Office solutions are installed.  
@@ -55,6 +54,6 @@ manager: "ghogen"
 ## See Also  
  [Application Manifests for Office Solutions](../vsto/application-manifests-for-office-solutions.md)   
  [Deployment Manifests for Office Solutions](../vsto/deployment-manifests-for-office-solutions.md)   
- [ClickOnce Application Manifest](/visual-studio/deployment/clickonce-application-manifest)  
+ [ClickOnce Application Manifest](/visualstudio/deployment/clickonce-application-manifest)  
   
   

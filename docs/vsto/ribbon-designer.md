@@ -2,7 +2,6 @@
 title: "Ribbon Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -28,11 +27,11 @@ helpviewer_keywords:
   - "Ribbon Designer [Office development in Visual Studio]"
   - "read-only properties"
   - "Ribbon [Office development in Visual Studio], shortcut keys"
-ms.assetid: 26617206-f4da-416f-a18a-d817b2d4872d
-caps.latest.revision: 79
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Ribbon Designer
   The Ribbon Designer is a visual design canvas. Use the Ribbon Designer to add custom tabs, groups, and controls to the Ribbon of a Microsoft Office application.  
@@ -97,7 +96,7 @@ manager: "ghogen"
   
  Arrange controls by dragging them to the correct positions. You can set the properties of a control by using the **Properties** window.  
   
- You cannot drag controls from one tab to another on the Ribbon. If you want to move a control to another tab, you must use the **Cut** command to remove the control from one tab, and then paste the control on another tab. If you do cut the control and paste it, the event handler stops working. You can reconnect the event handler in the **Properties** window. For more information, see [Properties Window](/visual-studio/ide/reference/properties-window).  
+ You cannot drag controls from one tab to another on the Ribbon. If you want to move a control to another tab, you must use the **Cut** command to remove the control from one tab, and then paste the control on another tab. If you do cut the control and paste it, the event handler stops working. You can reconnect the event handler in the **Properties** window. For more information, see [Properties Window](/visualstudio/ide/reference/properties-window).  
   
 ###  <a name="AddTabToRibbon"></a> Adding Custom Tabs to the Ribbon  
  There are three ways to add a custom tab to the Ribbon:  

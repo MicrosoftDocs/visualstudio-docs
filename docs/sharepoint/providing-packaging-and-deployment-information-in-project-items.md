@@ -2,7 +2,6 @@
 title: "Providing Packaging and Deployment Information in Project Items | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -28,11 +27,11 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, feature receiver"
   - "feature receiver [SharePoint development in Visual Studio]"
   - "safe controls [SharePoint development in Visual Studio]"
-ms.assetid: 209ff3b9-d701-4d27-9d24-005fcc811cbe
-caps.latest.revision: 10
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Providing Packaging and Deployment Information in Project Items
   All SharePoint project items in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] have properties that you can use to provide additional data when the project is deployed to SharePoint. These properties are as follows:  
@@ -94,7 +93,7 @@ manager: "ghogen"
 ### XML Entries for Safe Controls  
  When you add a safe control entry to a project item or to the project's assembly, a reference is written to the package manifest in the following format:  
   
-```  
+```xml  
 <Assemblies>  
     <Assembly Location="<assembly name>.dll"     
       DeploymentTarget="<'GlobalAssemblyCache' or 'WebApplication'">>  
@@ -112,5 +111,4 @@ manager: "ghogen"
  [Packaging and Deploying SharePoint Solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)   
  [Using Modules to Include Files in the Solution](../sharepoint/using-modules-to-include-files-in-the-solution.md)   
  [Extending SharePoint Packaging and Deployment](../sharepoint/extending-sharepoint-packaging-and-deployment.md)  
-  
   

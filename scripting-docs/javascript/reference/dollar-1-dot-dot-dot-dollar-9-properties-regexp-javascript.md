@@ -44,7 +44,7 @@ RegExp.$n
  The values of the **$1...$9** properties are modified whenever a successful parenthesized match is made. Any number of parenthesized substrings may be specified in a regular expression pattern, but only the nine most recent can be stored.  
   
 ## Example  
- The following example performs a regular expression search. It displays matches and submatches from the global `RegExp` object. The submatches are successful parenthesized matches that are contained in the `$1…$9` properties. The example also displays matches and submatches from the array that is returned by the `exec` method.  
+ The following example performs a regular expression search. It displays matches and submatches from the global `RegExp` object. The submatches are successful parenthesized matches that are contained in the `$1...$9` properties. The example also displays matches and submatches from the array that is returned by the `exec` method.  
   
 ```JavaScript  
 var newLine = "<br />";  

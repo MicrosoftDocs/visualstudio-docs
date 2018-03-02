@@ -14,22 +14,11 @@ helpviewer_keywords:
   - "commands [Visual Studio], adding icons"
 ms.assetid: 362a0c7e-5729-4297-a83f-1aba1a37fd44
 caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Adding Icons to Menu Commands
 Commands can appear on both menus and toolbars. On toolbars, it is common for a command to be displayed with just an icon (to save space) while on menus a command typically appears with both an icon and text.  
@@ -79,7 +68,7 @@ Commands can appear on both menus and toolbars. On toolbars, it is common for a 
         <Bitmap guid="testIcon" href="Resources\<icon file name>" usedList="testIcon1"/>  
         ```  
   
-7.  In the existing `<Button>` element, set the `Icon` element to the GUIDSymbol and IDSymbol values you created earlier. Here’s an example of a Button element with those values:  
+7.  In the existing `<Button>` element, set the `Icon` element to the GUIDSymbol and IDSymbol values you created earlier. Here's an example of a Button element with those values:  
   
     ```xml  
     <Button guid="guidAddIconCmdSet" id="cmdidMyCommand" priority="0x0100" type="Button">  

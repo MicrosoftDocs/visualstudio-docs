@@ -21,7 +21,7 @@ manager: "ghogen"
 You can use nearly every element of the Windows Runtime API in JavaScript. However, there are some aspects of the JavaScript representation of Windows Runtime elements that you should keep in mind.  
   
 > [!IMPORTANT]
->  For information about creating Windows Runtime components in C++, C#, or Visual Basic and consuming them in JavaScript, see [Creating Windows Runtime Components](../Topic/Creating%20Windows%20Runtime%20Components.md).  
+>  For information about creating Windows Runtime components in C++, C#, or Visual Basic and consuming them in JavaScript, see [Creating Windows Runtime Components in C++](/windows/uwp/winrt-components/creating-windows-runtime-components-in-cpp) and [Creating Windows Runtime Components in C# and Visual Basic](/windows/uwp/winrt-components/creating-windows-runtime-components-in-csharp-and-visual-basic).  
   
 ## Special Cases in the JavaScript Representation of Windows Runtime Types  
   

@@ -2,7 +2,6 @@
 title: "&lt;friendlyName&gt; Element (Office Development in Visual Studio) | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,11 +13,11 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "application manifests [Office development in Visual Studio], <friendlyName> element"
-ms.assetid: 80250fbf-fccf-4baa-948e-ace7f4449e9c
-caps.latest.revision: 19
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # &lt;friendlyName&gt; Element (Office Development in Visual Studio)
   The `friendlyName` element of the `vstov4` namespace stores the name that appears in the list of installed programs.  
@@ -51,6 +50,6 @@ manager: "ghogen"
 ## See Also  
  [Application Manifests for Office Solutions](../vsto/application-manifests-for-office-solutions.md)   
  [Deployment Manifests for Office Solutions](../vsto/deployment-manifests-for-office-solutions.md)   
- [ClickOnce Application Manifest](/visual-studio/deployment/clickonce-application-manifest)  
+ [ClickOnce Application Manifest](/visualstudio/deployment/clickonce-application-manifest)  
   
   

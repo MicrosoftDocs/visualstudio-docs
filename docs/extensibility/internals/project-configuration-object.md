@@ -13,22 +13,11 @@ helpviewer_keywords:
   - "objects, project configuration"
 ms.assetid: 877756c9-4261-43d9-9f32-51bf06b4219f
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Project Configuration Object
 The project configuration object manages the display of configuration information to the UI.  
@@ -39,7 +28,7 @@ Project configuration property pages
  The Project Configuration Provider manages the project configurations. The environment and other packages, to gain access to and retrieve information about a project's configurations, call the interfaces attached to Project Configuration Provider object.  
   
 > [!NOTE]
->  You can’t create or edit solution configuration files programmatically. You must use `DTE.SolutionBuilder`. See [Solution Configuration](../../extensibility/internals/solution-configuration.md) for more information.  
+>  You can't create or edit solution configuration files programmatically. You must use `DTE.SolutionBuilder`. See [Solution Configuration](../../extensibility/internals/solution-configuration.md) for more information.  
   
  To publish a display name to be used in the configuration UI, your project should implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsCfg.get_DisplayName%2A>. The environment calls <xref:Microsoft.VisualStudio.Shell.Interop.IVsCfgProvider2.GetCfgs%2A>, which returns a list of `IVsCfg` pointers that you can use to get the display names for the Configuration and Platform information to be listed in the environment's UI. The active configuration and platform are determined by the project's configuration stored in the active solution configuration. The <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionBuildManager.FindActiveProjectCfg%2A> method can be used to retrieve the active project configuration.  
   

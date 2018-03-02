@@ -10,23 +10,11 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0271fa26-2205-49bd-96e0-ae1441571808
 caps.latest.revision: 2
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # XML Schemas Dialog Box
 The **XML Schemas** dialog box is used to select which XML schema definition language (XSD) schema(s) to associate with an XML document. You can select a schema from the schema cache, or specify a schema that is not located in the cache. Selected schema(s) are considered part of a schema set. The schema set is used for IntelliSense and also XML document validation.  
@@ -43,17 +31,17 @@ The **XML Schemas** dialog box is used to select which XML schema definition lan
   
 -   **Do not use selected schemas**. This schema is not used by the current document, even if the schema has a matching `targetNamespace`. This setting can be useful for resolving conflicts when there is more than one version of the same schema in the schema cache or solution.  
   
- **Target Namespace**  
- Displays the target namespace associated with the XML Schema.  
+**Target Namespace**  
+Displays the target namespace associated with the XML Schema.  
   
- **File Name**  
- Displays the XML Schema file name.  
+**File Name**  
+Displays the XML Schema file name.  
   
- **Add**  
- Opens the **Open XSD Schema** dialog, which enables you to select additional schemas to add to the schema set. When you add a schema to the schema set, the **Use** column value is set to **Use this schema**.  
+**Add**  
+Opens the **Open XSD Schema** dialog, which enables you to select additional schemas to add to the schema set. When you add a schema to the schema set, the **Use** column value is set to **Use this schema**.  
   
- **Remove**  
- Removes the currently selected schema from the schema set. This removes the schema from the in-memory schema cache, but not from the file system.  
+**Remove**  
+Removes the currently selected schema from the schema set. This removes the schema from the in-memory schema cache, but not from the file system.  
   
 ## See Also  
  [XML Editor Components](../xml-tools/xml-editor-components.md)   

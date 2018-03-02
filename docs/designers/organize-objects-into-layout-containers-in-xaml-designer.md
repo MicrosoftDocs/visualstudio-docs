@@ -5,35 +5,23 @@ ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-ide-general"
+  - "vs-ide-designers"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 29c80c38-0fa3-48d6-b3a8-3b864f482e44
 caps.latest.revision: 15
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.workload: 
+  - "uwp"
 ---
 # Organize objects into layout containers in XAML Designer
-Imagine where you’d like objects to appear on a page; objects such as images, buttons, and videos. Maybe you want them to appear in rows and columns, in a single line vertically or horizontally, or in fixed positions.  
+Imagine where you'd like objects to appear on a page; objects such as images, buttons, and videos. Maybe you want them to appear in rows and columns, in a single line vertically or horizontally, or in fixed positions.  
   
- After you’ve had a chance to think about how the page might appear, choose a layout panel. All pages start with one because you need something to add your objects to. By default, it’s a **Grid** but you can change that.  
+ After you've had a chance to think about how the page might appear, choose a layout panel. All pages start with one because you need something to add your objects to. By default, it's a **Grid** but you can change that.  
   
- Layout panels help you arrange objects on a page, but they do more than that. They help you design for different screen sizes and resolutions. When users run your app, everything in a layout panel resizes to match the screen real estate of their device. Of course, if you don’t want your layout to do that, you can override that behavior for a part of the layout, or the entire layout. You can use height and width properties to control that.  
+ Layout panels help you arrange objects on a page, but they do more than that. They help you design for different screen sizes and resolutions. When users run your app, everything in a layout panel resizes to match the screen real estate of their device. Of course, if you don't want your layout to do that, you can override that behavior for a part of the layout, or the entire layout. You can use height and width properties to control that.  
   
  This page describes layout panels and controls, and then directs you to short videos that help you get started with them.  
   
@@ -106,7 +94,7 @@ Imagine where you’d like objects to appear on a page; objects such as images, 
  **Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [WPF - DockPanel](https://www.youtube.com/watch?v=EBH_OIM-zPo)  
   
 ## Layout controls  
- You can add your objects to layout controls as well. They aren’t as feature-rich as a layout panel, but you might find them helpful for certain scenarios.  
+ You can add your objects to layout controls as well. They aren't as feature-rich as a layout panel, but you might find them helpful for certain scenarios.  
   
  The following layout controls are the most popularly used but there are others. You can find them all in the **Assets** panel.  
   

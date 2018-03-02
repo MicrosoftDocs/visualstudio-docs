@@ -16,22 +16,11 @@ helpviewer_keywords:
   - "project types [Visual Studio SDK]"
 ms.assetid: 237742e4-a638-4d5b-a9b3-6a69d627763c
 caps.latest.revision: 43
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Projects
 In Visual Studio, projects are the containers that developers use to organize source code files and other resources that appear in **Solution Explorer**. Typically, projects are files (for example, a .csproj file for a C# project) that store references to source code files and resources like bitmap files. Projects let you organize, build, debug, and deploy source code, references to Web services and databases, and other resources. VSPackages can extend the Visual Studio project system in three main ways: *project types*, *project subtypes*, and *custom tools*.  
@@ -49,8 +38,8 @@ In Visual Studio, projects are the containers that developers use to organize so
  [New Project Generation: Under the Hood, Part One](../../extensibility/internals/new-project-generation-under-the-hood-part-one.md) and [New Project Generation: Under the Hood, Part Two](../../extensibility/internals/new-project-generation-under-the-hood-part-two.md)  
  Explains what actually occurs when you create a new project.  
   
- [VSSDK Samples](../../misc/vssdk-samples.md)  
- Describes the samples in the VSSDK that deal with projects and solutions.  
+ [VSSDK Samples](http://aka.ms/vs2015sdksamples)  
+ Contains the samples in the VSSDK that deal with projects and solutions.  
   
 ## Related Sections  
  [Inside the Visual Studio SDK](../../extensibility/internals/inside-the-visual-studio-sdk.md)  

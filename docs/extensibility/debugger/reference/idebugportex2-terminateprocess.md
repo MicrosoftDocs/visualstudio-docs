@@ -14,35 +14,24 @@ helpviewer_keywords:
   - "IDebugPortEx2::TerminateProcess"
 ms.assetid: bf8fa94c-6d9d-4e4f-ac08-3b44ba5ace68
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugPortEx2::TerminateProcess
 Terminates a process.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT TerminateProcess(   
    IDebugProcess2* pPortProcess  
 );  
 ```  
   
-```c#  
+```csharp  
 int TerminateProcess(   
    IDebugProcess2 pPortProcess  
 );  

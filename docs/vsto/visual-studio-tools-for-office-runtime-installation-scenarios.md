@@ -2,7 +2,6 @@
 title: "Visual Studio Tools for Office Runtime Installation Scenarios | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,11 +13,11 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "Visual Studio Tools for Office runtime, installation scenarios"
-ms.assetid: 71f34daf-8163-4a53-a401-9cab6581f30d
-caps.latest.revision: 42
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Visual Studio Tools for Office Runtime Installation Scenarios
   You can install the Visual Studio 2010 Tools for Office Runtime in three ways:  

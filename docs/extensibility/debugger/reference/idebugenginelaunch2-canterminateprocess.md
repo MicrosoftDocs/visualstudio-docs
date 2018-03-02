@@ -14,35 +14,24 @@ helpviewer_keywords:
   - "IDebugEngineLaunch2::CanTerminateProcess"
 ms.assetid: 7973454d-c957-4123-a0ee-80ebcdbbd2d1
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugEngineLaunch2::CanTerminateProcess
 Determines if a process can be terminated.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT CanTerminateProcess (   
    IDebugProcess2* pProcess  
 );  
 ```  
   
-```c#  
+```csharp  
 int CanTerminateProcess (   
    IDebugProcess2 pProcess  
 );  

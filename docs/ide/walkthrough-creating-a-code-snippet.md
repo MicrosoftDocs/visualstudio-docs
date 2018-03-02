@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Creating a Code Snippet | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "10/27/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,34 +17,21 @@ helpviewer_keywords:
   - "code snippets, imports"
 ms.assetid: 0dcaae11-39cf-4463-9c90-2494321251c2
 caps.latest.revision: 21
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+dev_langs: 
+  - "VB"
+ms.workload: 
+  - "multiple"
 ---
 # Walkthrough: Creating a Code Snippet
-You can create a code snippet with only a few steps. All you need to do is create an XML file, fill in the appropriate elements, and add your code to it. You can also add references and replacement parameters to your code. You can add the snippet to your Visual Studio installation by using the Import button on the Code Snippets Manager (**Tools/Code Snippets Manager**).  
-  
-> [!TIP]
->  For information about how to write code snippets more easily, search the CodePlex website for community tools such as [Snippet Editor](http://go.microsoft.com/fwlink/?LinkId=251033).  
+You can create a code snippet with only a few steps. All you need to do is create an XML file, fill in the appropriate elements, and add your code to it. You can also add references and replacement parameters to your code. You can add the snippet to your Visual Studio installation by using the Import button on the Code Snippets Manager (**Tools**, **Code Snippets Manager...**).  
   
 ## Snippet Template  
  The following is the basic snippet template:  
   
-```  
+```xml  
 <?xml version="1.0" encoding="utf-8"?>  
 <CodeSnippets  
     xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">  
@@ -58,8 +45,7 @@ You can create a code snippet with only a few steps. All you need to do is creat
             </Code>  
         </Snippet>  
     </CodeSnippet>  
-</CodeSnippets>  
-  
+</CodeSnippets>
 ```  
   
 ### To Create a Code Snippet  
@@ -72,18 +58,17 @@ You can create a code snippet with only a few steps. All you need to do is creat
   
 4.  Add some code in the CDATA section inside the Code element, for example:  
   
-    ```  
+    ```xml  
     <Code Language="VB">  
         <![CDATA[Console.WriteLine("Hello, World!")]]>  
-    </Code>  
-  
+    </Code>
     ```  
   
 5.  Save the snippet as VBCodeSnippet.snippet.  
   
 ### To Add a Code Snippet to Visual Studio  
   
-1.  You can add your own snippets to your Visual Studio installation by using the Code Snippets Manager. Open the Code Snippets Manager (**Tools/Code Snippets Manager**).  
+1.  You can add your own snippets to your Visual Studio installation by using the Code Snippets Manager. Open the Code Snippets Manager (**Tools**, **Code Snippets Manager...**).  
   
 2.  Click the **Import** button.  
   
@@ -93,78 +78,76 @@ You can create a code snippet with only a few steps. All you need to do is creat
   
 5.  The snippet is copied to the following location:  
   
-     `%USERPROFILE%\Documents\Visual Studio 2013\Code Snippets\Visual Basic\My Code Snippets`  
+     %USERPROFILE%\Documents\Visual Studio 2017\Code Snippets\Visual Basic\My Code Snippets  
   
-6.  Test your snippet by opening a Visual Basic project and opening a code file. In the file click **Insert Snippet** on the context menu, then **My Code Snippets**. You should see a snippet named **My Visual Basic Code Snippet**. Double-click it.  
+6.  Test your snippet by opening a Visual Basic project and opening a code file. In the file choose **Snippets**, **Insert Snippet** from the context menu, then **My Code Snippets**. You should see a snippet named **My Visual Basic Code Snippet**. Double-click it.  
   
-7.  You should see `Console.WriteLine("Hello, World!")` inserted in the code.  
+    `Console.WriteLine("Hello, World!")` is inserted in the code file.  
   
 ### Adding Description and Shortcut Fields  
   
-1.  Description fields give more information about your code snippet when viewed in the Code Snippets Manager. The shortcut is a tag that users can type in order to insert your snippet. Edit the snippet you have added by opening the file `%USERPROFILE%\Documents\Visual Studio 2013\Code Snippets\Visual Basic\My Code Snippet\VBCodeSnippet.snippet`.  
+1.  Description fields give more information about your code snippet when viewed in the Code Snippets Manager. The shortcut is a tag that users can type in order to insert your snippet. Edit the snippet you have added by opening the file %USERPROFILE%\Documents\Visual Studio 2017\Code Snippets\Visual Basic\My Code Snippet\VBCodeSnippet.snippet.  
   
 2.  Add Author and Description elements to the Header element, and fill them in.  
   
 3.  The Header element should look something like this:  
   
-    ```  
+    ```xml  
     <Header>  
         <Title>Hello World VB</Title>  
         <Author>Myself</Author>  
         <Description>Says Hello to the world.</Description>  
-    </Header>  
-  
+    </Header>
     ```  
   
 4.  Open the Code Snippets Manager and select your code snippet. In the right pane you should see that the Description and Author fields are now populated.  
   
 5.  To add a shortcut, add a Shortcut element alongside the Author and Description element:  
   
-    ```  
+    ```xml  
     <Header>  
         <Title>Hello World VB</Title>  
         <Author>Myself</Author>  
         <Description>Says Hello to the world.</Description>  
         <Shortcut>hello</Shortcut>  
-    </Header>  
-  
+    </Header>
     ```  
   
 6.  Save the snippet file again.  
   
-7.  To test the shortcut, open a Visual Basic project and open a code file. Type `hello` in the file and press TAB. The snippet code should be inserted.  
+7.  To test the shortcut, open a Visual Basic project and open a code file. Type `hello` in the file and press **Tab** twice.
+
+    The snippet code is inserted.
   
 ### To Add References and Imports  
   
-1.  With Visual Basic snippets you can add a reference to a project by using the References element, and add an Imports declaration by using the Imports element. (Snippets in other languages do not have this feature.) For example, if you change `Console.WriteLine` in the code example to `MessageBox.Show`, you may need to add the System.Windows.Forms.dll assembly to the project.  
+1.  You can add a reference to a project by using the References element, and add an Imports declaration by using the Imports element. (This works for C# as well.) For example, if you change `Console.WriteLine` in the code example to `MessageBox.Show`, you may need to add the System.Windows.Forms.dll assembly to the project.  
   
 2.  Open your snippet.  
   
 3.  Add the References element under the Snippet element:  
   
-    ```  
+    ```xml  
     <References>  
         <Reference>  
             <Assembly>System.Windows.Forms.dll</Assembly>  
         </Reference>  
-    </References>  
-  
+    </References>
     ```  
   
 4.  Add the Imports element under the Snippet element:  
   
-    ```  
+    ```xml  
     <Imports>  
         <Import>  
            <Namespace>System.Windows.Forms</Namespace>  
         </Import>  
-    </Imports>  
-  
+    </Imports>
     ```  
   
 5.  Change the CDATA section to the following:  
   
-    ```  
+    ```xml  
     <![CDATA[MessageBox.Show("Hello, World!")]]>  
     ```  
   
@@ -174,9 +157,8 @@ You can create a code snippet with only a few steps. All you need to do is creat
   
 8.  You will see an Imports statement at the top of the code file:  
   
-    ```  
-    Imports System.Windows.Forms  
-  
+    ```vb  
+    Imports System.Windows.Forms
     ```  
   
 9. Look at the project's properties. The References tab includes a reference to System.Windows.Forms.dll.  
@@ -189,7 +171,7 @@ You can create a code snippet with only a few steps. All you need to do is creat
   
 3.  This example uses a SQL connection string, so you need to change the Imports and References elements to add the appropriate references:  
   
-    ```  
+    ```xml  
     <References>  
         <Reference>  
             <Assembly>System.Data.dll</Assembly>  
@@ -205,26 +187,24 @@ You can create a code snippet with only a few steps. All you need to do is creat
         <Import>  
             <Namespace>System.Data.SqlClient</Namespace>  
         </Import>  
-    </Imports>  
-  
+    </Imports>
     ```  
   
 4.  To declare a literal replacement for the SQL connection string, add a Declarations element under the Snippet element, and in it add a Literal element with subelements for the ID, the tooltip, and the default value for the replacement:  
   
-    ```  
+    ```xml  
     <Declarations>  
         <Literal>  
             <ID>SqlConnString</ID>  
             <ToolTip>Replace with a SQL connection string.</ToolTip>  
             <Default>"SQL connection string"</Default>  
         </Literal>  
-    </Declarations>  
-  
+    </Declarations>
     ```  
   
 5.  To declare an object replacement for the SQL connection, add an Object element inside the Declarations element, and add sub-elements for the ID, the type of the object, the tooltip, and the default value. The resulting Declarations element should look like this:  
   
-    ```  
+    ```xml  
     <Declarations>  
         <Literal>  
             <ID>SqlConnString</ID>  
@@ -242,7 +222,7 @@ You can create a code snippet with only a few steps. All you need to do is creat
   
 6.  In the code section, you reference the replacements with surrounding $ signs, for example `$replacement$`:  
   
-    ```  
+    ```xml  
     <Code Language="VB" Kind="method body">  
         <![CDATA[Dim daCustomers As SqlDataAdapter  
             Dim selectCommand As SqlCommand  
@@ -258,18 +238,17 @@ You can create a code snippet with only a few steps. All you need to do is creat
   
 8.  Open a Visual Basic project and add the snippet.  
   
-9. The code should look like the following, where the replacements `SQL connection string` and `dcConnection` are highlighted in light orange. Press TAB to navigate from one to the other.  
+9. The code should look like the following, where the replacements `SQL connection string` and `dcConnection` are highlighted in light orange. Choose **Tab** to navigate from one to the other.  
   
-    ```  
+    ```vb  
     Dim daCustomers As SqlDataAdapter  
     Dim selectCommand As SqlCommand  
   
     daCustomers = New SqlClient.SqlDataAdapter()  
     selectCommand = New SqlClient.SqlCommand("SQL connection string")  
     daCustomers.SelectCommand = selectCommand  
-    daCustomers.SelectCommand.Connection = dcConnection  
-  
+    daCustomers.SelectCommand.Connection = dcConnection
     ```  
   
 ## See Also  
- [Code Snippets Schema Reference](../ide/code-snippets-schema-reference.md)
+[Code Snippets Schema Reference](../ide/code-snippets-schema-reference.md)

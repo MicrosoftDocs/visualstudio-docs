@@ -14,29 +14,18 @@ helpviewer_keywords:
   - "DISASSEMBLY_STREAM_SCOPE enumeration"
 ms.assetid: 43e2b364-cbbe-4755-a7e6-a03f3054c965
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # DISASSEMBLY_STREAM_SCOPE
 Specifies the scope of the disassembly stream.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_DISASSEMBLY_STREAM_SCOPE {   
    DSS_HUGE     = 0x10000000,  
    DSS_FUNCTION = 0x0001,  
@@ -46,7 +35,7 @@ enum enum_DISASSEMBLY_STREAM_SCOPE { 
 typedef DWORD DISASSEMBLY_STREAM_SCOPE;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_DISASSEMBLY_STREAM_SCOPE {   
    DSS_HUGE     = 0x10000000,  
    DSS_FUNCTION = 0x0001,  

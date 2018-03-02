@@ -2,7 +2,6 @@
 title: "Walkthrough: Add an Application Page to a Workflow | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,11 +16,11 @@ dev_langs:
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, adding applications page to workflow"
   - "application page [SharePoint development in Visual Studio]"
-ms.assetid: e4845d07-917b-45cb-a569-4ecdd602fbd9
-caps.latest.revision: 28
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Walkthrough: Add an Application Page to a Workflow
   This walkthrough demonstrates how to add an application page that displays data derived from a workflow to a workflow project. It builds on the project described in the topic [Walkthrough: Creating a Workflow with Association and Initiation Forms](../sharepoint/walkthrough-creating-a-workflow-with-association-and-initiation-forms.md).  
@@ -56,12 +55,12 @@ manager: "ghogen"
   
 3.  To the bottom of the `createTask1_MethodInvoking` method, add the following code:  
   
-    ```vb#  
+    ```vb  
     createTask1_TaskProperties1.ExtendedProperties("Outcome") =   
       workflowProperties.InitiationData  
     ```  
   
-    ```c#  
+    ```csharp  
     createTask1_TaskProperties1.ExtendedProperties["Outcome"] =   
       workflowProperties.InitiationData;  
     ```  
@@ -106,7 +105,7 @@ manager: "ghogen"
   
 2.  Replace the **using** or **Import** statements (depending on your programming language) at the top of the class with the following:  
   
-    ```vb#  
+    ```vb  
     Imports System  
     Imports Microsoft.SharePoint  
     Imports Microsoft.SharePoint.WebControls  
@@ -119,7 +118,7 @@ manager: "ghogen"
     Imports Microsoft.SharePoint.Navigation  
     ```  
   
-    ```c#  
+    ```csharp  
     using System;  
     using Microsoft.SharePoint;  
     using Microsoft.SharePoint.WebControls;  
@@ -134,7 +133,7 @@ manager: "ghogen"
   
 3.  Add the following code to the `Page_Load` method:  
   
-    ```vb#  
+    ```vb  
     Try  
         ' Reference the Tasks list on the SharePoint site.  
         ' Replace "TestServer" with a valid SharePoint server name.  
@@ -204,7 +203,7 @@ manager: "ghogen"
     End Try  
     ```  
   
-    ```c#  
+    ```csharp  
     try  
     {  
         // Reference the Tasks list on the SharePoint site.  

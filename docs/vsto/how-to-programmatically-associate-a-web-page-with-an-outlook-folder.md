@@ -2,7 +2,6 @@
 title: "How to: Programmatically Associate a Web Page with an Outlook Folder | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,11 +15,11 @@ helpviewer_keywords:
   - "folders [Office development in Visual Studio], Web pages and"
   - "Outlook [Office development in Visual Studio], Web pages attached to folders"
   - "Web pages [Office development in Visual Studio], Outlook folders"
-ms.assetid: b211b1b2-11e4-4316-87b7-98a3d10f95d1
-caps.latest.revision: 16
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Associate a Web Page with an Outlook Folder
   This example checks for a folder named `HtmlView` in Microsoft Office Outlook. If the folder does not exist, the code creates the folder and assigns a Web page to it. If the folder exists, the code displays the folder contents.  
@@ -28,7 +27,7 @@ manager: "ghogen"
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]  
   
 ## Example  
- [!code-cs[Trin_OL_HTMLFolder#1](../vsto/codesnippet/CSharp/Trin_OL_HTMLFolder/thisaddin.cs#1)]  
+ [!code-csharp[Trin_OL_HTMLFolder#1](../vsto/codesnippet/CSharp/Trin_OL_HTMLFolder/thisaddin.cs#1)]  
   
 ## See Also  
  [Working with Folders](../vsto/working-with-folders.md)   

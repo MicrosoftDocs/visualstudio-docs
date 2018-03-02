@@ -10,22 +10,11 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 94e0e9a3-440c-4943-ad7b-772ed742e034
 caps.latest.revision: 3
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Evaluation Tools for Visual Studio
 ## Craftsmanship checklist for Visual Studio  
@@ -43,7 +32,7 @@ translation.priority.mt:
   
 ### Performance  
   
--   Verify that some kind of “busy” indicator is shown if a command takes more than one second to complete.  
+-   Verify that some kind of "busy" indicator is shown if a command takes more than one second to complete.  
   
 -   Verify that if a command takes more than 10 seconds to complete, an explicit progress bar, either determinate (preferred) or indeterminate, is displayed.  
   
@@ -159,7 +148,7 @@ translation.priority.mt:
   
     -   that the background is set to `Environment.ControlEditRequiredBackground` and the foreground is set to `Environment.ControlEditRequiredHintText`  
   
-    -   that there is hint text within the control that appears as **“\<Required>”**  
+    -   that there is hint text within the control that appears as **"\<Required>"**  
   
 #### Button controls  
   
@@ -169,7 +158,7 @@ translation.priority.mt:
   
 -   It is acceptable to use a small square button with only an ellipsis **[...]** on it instead of a **[Browse...]** button (or similar functionality). If used, verify that the button is 23x23 in size.  
   
--   If there is more than one **[Browse...]** button in a dialog, then verify that the shortened version (ellipsis-only **[…]**) is used for all.  
+-   If there is more than one **[Browse...]** button in a dialog, then verify that the shortened version (ellipsis-only **[...]**) is used for all.  
   
 -   Verify that ellipsis **[...]** buttons do not have a mnemonic. When focus is on the input control beside it, one tab should move focus to the ellipsis button.  
   
@@ -227,7 +216,7 @@ translation.priority.mt:
   
 ### Touch-enabled UI  
   
--   Verify that interactive controls are large enough to be easily touchable – minimum **23x23 pixels** in size  
+-   Verify that interactive controls are large enough to be easily touchable - minimum **23x23 pixels** in size  
   
 -   Verify that the most frequently used controls are at least **40x40 pixels** in size.  
   

@@ -2,7 +2,6 @@
 title: "Office Projects in the Visual Studio Environment | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -43,11 +42,11 @@ helpviewer_keywords:
   - "Visual Studio, Office documents in"
   - "worksheets [Office development in Visual Studio]"
   - "VST.Designer.ExcelVST.Designer.Word"
-ms.assetid: 4bff36c9-4edd-4b28-89e6-0ea9f6caca02
-caps.latest.revision: 58
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Office Projects in the Visual Studio Environment
   Microsoft Office projects have a development experience that is similar to other types of projects in Visual Studio, such as Windows Forms projects. When you create or open an Office project, the project items appear in **Solution Explorer**. For document-level projects, the document (that is, the Word document or Excel workbook) opens in Visual Studio, and the document behaves as a visual designer.  
@@ -111,13 +110,13 @@ manager: "ghogen"
 ## Code Editor  
  The Code Editor enables you to view and modify the visible code files in your solution. These files contain the code that defines the behavior of your solution.  
   
- For more information about the Code Editor, see [Writing Code in the Code and Text Editor](/visual-studio/ide/writing-code-in-the-code-and-text-editor). For more information about how to write code in Office projects, see [Writing Code in Office Solutions](../vsto/writing-code-in-office-solutions.md).  
+ For more information about the Code Editor, see [Writing Code in the Code and Text Editor](/visualstudio/ide/writing-code-in-the-code-and-text-editor). For more information about how to write code in Office projects, see [Writing Code in Office Solutions](../vsto/writing-code-in-office-solutions.md).  
   
 ## Properties Window  
  The **Properties** window displays properties for project items that are selected in **Solution Explorer**, and for UI elements that are selected in the designer, such as controls or the document in a document-level project. Some properties are specific to the application and document, and some properties are the same across all projects.  
   
 ## Data Sources Window  
- You can use the **Data Sources** window in document-level Office projects to drag a data source onto your document and create a control that is bound to the data source. For more information, see [Binding controls to data in Visual Studio](../Topic/Binding%20controls%20to%20data%20in%20Visual%20Studio.md).  
+ You can use the **Data Sources** window in document-level Office projects to drag a data source onto your document and create a control that is bound to the data source. For more information, see [Bind controls to data in Visual Studio](/visualstudio/data-tools/bind-controls-to-data-in-visual-studio).  
   
 ## See Also  
  [Designing and Creating Office Solutions](../vsto/designing-and-creating-office-solutions.md)   

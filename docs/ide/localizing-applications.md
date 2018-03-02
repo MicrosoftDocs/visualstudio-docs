@@ -11,28 +11,16 @@ ms.topic: "article"
 helpviewer_keywords: 
   - "Visual Basic code, international applications"
   - "globalization [Visual Studio], localizing applications"
-  - "Visual C#, international applications"
+  - "C#, international applications"
   - "applications [Visual Studio], localizing"
   - "localization [.NET Framework], applications"
 ms.assetid: 879c20e0-8301-4f44-b520-97283848c965
 caps.latest.revision: 10
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Localizing Applications
 *Localization* is the process of customizing your application for a given culture or locale. Localization consists primarily of translating the user interface.  
@@ -52,9 +40,9 @@ translation.priority.ht:
   
 ## Related Sections  
  [Introduction to International Applications Based on the .NET Framework](../ide/introduction-to-international-applications-based-on-the-dotnet-framework.md)  
- Discusses the concepts related to developing software for an international market using Visual Basic or Visual C#.  
+ Discusses the concepts related to developing software for an international market using Visual Basic or C#.  
   
- [Globalizing Windows Forms](http://msdn.microsoft.com/Library/72f6cd92-83be-45ec-aa37-9cb8e3ebc3c5)  
+ [Globalizing Windows Forms](/dotnet/framework/winforms/advanced/globalizing-windows-forms)  
  Provides links to pages about creating Windows applications that support multiple cultures.  
   
  [Globalization and Localization](http://msdn.microsoft.com/Library/8ef3838e-9d05-4236-9dd0-ceecff9df80d)  

@@ -38,7 +38,7 @@ numObj.toPrecision([precision])
  Required. A `Number` object.  
   
  `precision`  
- Optional. The number of significant digits. Must be in the range 1 – 21, inclusive.  
+ Optional. The number of significant digits. Must be in the range 1 - 21, inclusive.  
   
 ## Return Value  
  For numbers in exponential notation, `precision` - 1 digits are returned after the decimal point. For numbers in fixed notation, `precision` significant digits are returned.  

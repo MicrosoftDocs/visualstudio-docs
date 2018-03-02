@@ -4,34 +4,21 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "configuration files [Visual Studio ALM], defining data sources"
   - "unit tests, walkthrough"
   - "data sources, defining with configuration files"
-ms.assetid: 95fa5214-b12e-4e1f-84e5-cc4c2d86b0d7
-caps.latest.revision: 32
-ms.author: "douge"
-manager: "douge"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Walkthrough: Using a Configuration File to Define a Data Source
+
 This walkthrough illustrates how to use a data source defined in an app.config file for unit testing. You will learn how to create an app.config file that defines a data source that can be used by the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute> class. Tasks presented in this walkthrough include the following:  
   
 -   Creating an app.config file.  
@@ -45,7 +32,7 @@ This walkthrough illustrates how to use a data source defined in an app.config f
 -   Accessing the data sources using the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute> class.  
   
 ## Prerequisites  
- To complete this walkthrough, you will need:  
+ To complete this walkthrough, you need:  
   
 -   Visual Studio Enterprise  
   
@@ -86,7 +73,7 @@ This walkthrough illustrates how to use a data source defined in an app.config f
 >  The assembly name must match the Microsoft Visual Studio .NET Framework build that you are using. Set the Version to 9.0.0.0 if you are using the Visual Studio .NET Framework 3.5. If you are using the Visual Studio .NET Framework 2.0, set the Version to 8.0.0.0.  
   
 ## Define Connection Strings  
- The connection strings define provider specific information for accessing data sources. Connection strings defined in configuration files provide reusable data provider information across an application. In this section, you create two connection strings that will be used by data sources that are defined in the Custom Configuration Section.  
+ The connection strings define provider-specific information for accessing data sources. Connection strings defined in configuration files provide reusable data provider information across an application. In this section, you create two connection strings that will be used by data sources that are defined in the Custom Configuration Section.  
   
 #### To define connection strings  
   
@@ -158,20 +145,20 @@ This walkthrough illustrates how to use a data source defined in an app.config f
 |`dataTableName`|`"Sheet1$"`|  
 |`dataAccessMethod`|`"Sequential"`|  
   
- The `microsoft.visualstudio.testtools` element should look similar to this:  
-  
-```  
+The `microsoft.visualstudio.testtools` element should look similar to this:
+
+```xml
 <microsoft.visualstudio.testtools>  
     <dataSources>  
         <add name="MyJetDataSource" connectionString="MyJetConn" dataTableName="MyDataTable" dataAccessMethod="Sequential"/>  
         <add name="MyExcelDataSource" connectionString="MyExcelConn" dataTableName="Sheet1$" dataAccessMethod="Sequential"/>  
     </dataSources>  
 </microsoft.visualstudio.testtools>  
-```  
-  
- The final app.config file should look similar to this:  
-  
-```  
+```
+
+The final app.config file should look similar to this:
+
+```xml
 <?xml version="1.0" encoding="utf-8" ?>  
 <configuration>  
     <configSections>  
@@ -227,13 +214,11 @@ This walkthrough illustrates how to use a data source defined in an app.config f
   
 #### To create a unit test using the app.config data sources  
   
-1.  Add a unit test to the test project.  
-  
-     For more information, see [Creating and Running Unit Tests for Existing Code](http://msdn.microsoft.com/en-us/e8370b93-085b-41c9-8dec-655bd886f173).  
+1.  Add a unit test to the test project.
   
 2.  Replace the auto-generated contents of the unit test with the following code:  
   
-    ```  
+    ```csharp
     using System;  
     using Microsoft.VisualStudio.TestTools.UnitTesting;  
   
@@ -274,12 +259,11 @@ This walkthrough illustrates how to use a data source defined in an app.config f
 3.  Examine the DataSource attributes. Notice the setting names from the app.config file.  
   
 4.  Build your solution and run MyTestMethod and MyTestMethod2 tests.  
-  
+
 > [!IMPORTANT]
->  Deploy items like data sources so that they are accessible to the test in the deployment directory.  
-  
-## See Also  
- [Unit Test Your Code](../test/unit-test-your-code.md)   
- [Creating and Running Unit Tests for Existing Code](http://msdn.microsoft.com/en-us/e8370b93-085b-41c9-8dec-655bd886f173)   
- [Testing the application](/devops-test-docs/test/test-apps-early-and-often)   
- [How To: Create a Data-Driven Unit Test](../test/how-to-create-a-data-driven-unit-test.md)
+> Deploy items like data sources so that they are accessible to the test in the deployment directory.
+
+## See Also
+
+[Unit Test Your Code](../test/unit-test-your-code.md)  
+[How To: Create a Data-Driven Unit Test](../test/how-to-create-a-data-driven-unit-test.md)

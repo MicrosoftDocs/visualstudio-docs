@@ -2,7 +2,6 @@
 title: "Walkthrough: Creating and Debugging a SharePoint Workflow Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,11 +19,11 @@ dev_langs:
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, workflows"
   - "workflows [SharePoint development in Visual Studio]"
-ms.assetid: 81756490-ab5a-4fa4-96c6-eed2cfbf8374
-caps.latest.revision: 28
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Walkthrough: Creating and Debugging a SharePoint Workflow Solution
   This walkthrough demonstrates how to create a basic sequential workflow template. The workflow checks a property of a shared document library to determine whether a document has been reviewed. If the document has been reviewed, the workflow finishes.  
@@ -40,7 +39,7 @@ manager: "ghogen"
 > [!NOTE]  
 >  Although this walkthrough uses a sequential workflow project, the process is identical for a state machine workflow project.  
 >   
->  Also, your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  Also, your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).  
   
 ## Prerequisites  
  You need the following components to complete this walkthrough:  
@@ -177,17 +176,17 @@ manager: "ghogen"
   
 1.  In Workflow1.cs or Workflow1.vb, add the following field to the top of the `Workflow1` class. This field is used in an activity to determine whether the workflow is finished.  
   
-    ```vb#  
+    ```vb  
     Dim workflowPending As Boolean = True  
     ```  
   
-    ```c#  
+    ```csharp  
     Boolean workflowPending = true;  
     ```  
   
 2.  Add the following method to the `Workflow1` class. This method checks the value of the `Document Status` property of the Documents list to determine whether the document has been reviewed. If the `Document Status` property is set to `Review Complete`, then the `checkStatus` method sets the `workflowPending` field to **false** to indicate that the workflow is ready to finish.  
   
-    ```vb#  
+    ```vb  
     Private Sub checkStatus()  
         If CStr(workflowProperties.Item("Document Status")) = "Review Complete" Then  
             workflowPending = False  
@@ -195,7 +194,7 @@ manager: "ghogen"
     End Sub   
     ```  
   
-    ```c#  
+    ```csharp  
     private void checkStatus()  
     {  
         if ((string)workflowProperties.Item["Document Status"] == "Review Complete")  
@@ -205,7 +204,7 @@ manager: "ghogen"
   
 3.  Add the following code to the `onWorkflowActivated` and `onWorkflowItemChanged` methods to call the `checkStatus` method. When the workflow starts, the `onWorkflowActivated` method calls the `checkStatus` method to determine whether the document has already been reviewed. If it has not been reviewed, the workflow continues. When the document is saved, the `onWorkflowItemChanged` method calls the `checkStatus` method again to determine whether the document has been reviewed. While the `workflowPending` field is set to **true**, the workflow continues to run.  
   
-    ```vb#  
+    ```vb  
     Private Sub onWorkflowActivated(ByVal sender As System.Object, ByVal e As System.Workflow.Activities.ExternalDataEventArgs)  
         checkStatus()  
     End Sub  
@@ -215,7 +214,7 @@ manager: "ghogen"
     End Sub  
     ```  
   
-    ```c#  
+    ```csharp  
     private void onWorkflowActivated(object sender, ExternalDataEventArgs e)  
     {  
         // Check the status.  
@@ -231,13 +230,13 @@ manager: "ghogen"
   
 4.  Add the following code to the `isWorkflowPending` method to check the status of the `workflowPending` property. Each time the document is saved, the **whileActivity1** activity calls the `isWorkflowPending` method. This method examines the <xref:System.Workflow.Activities.ConditionalEventArgs.Result%2A> property of the <xref:System.Workflow.Activities.ConditionalEventArgs> object to determine whether the **WhileActivity1** activity should continue or finish. If the property is set to **true**, the activity continues. Otherwise, the activity finishes and the workflow finishes.  
   
-    ```vb#  
+    ```vb  
     Private Sub isWorkflowPending(ByVal sender As System.Object, ByVal e As System.Workflow.Activities.ConditionalEventArgs)  
         e.Result = workflowPending  
     End Sub  
     ```  
   
-    ```c#  
+    ```csharp  
     private void isWorkflowPending(object sender, ConditionalEventArgs e)  
     {  
         e.Result = workflowPending;  
@@ -273,7 +272,7 @@ manager: "ghogen"
   
      This returns you to the **Shared Documents** page of the default SharePoint Web site.  
   
-9. In the **Shared Documents** page, verify that the value underneath the **MySharePointWorkflow – Workflow1** column is set to **In Progress**. This indicates that the workflow is in progress and that the document is awaiting review.  
+9. In the **Shared Documents** page, verify that the value underneath the **MySharePointWorkflow - Workflow1** column is set to **In Progress**. This indicates that the workflow is in progress and that the document is awaiting review.  
   
 10. In the **Shared Documents** page, choose the document, choose the arrow that appears, and then choose the **Edit Properties** menu item.  
   
@@ -281,7 +280,7 @@ manager: "ghogen"
   
      This returns you to the **Shared Documents** page of the default SharePoint Web site.  
   
-12. In the **Shared Documents** page, verify that the value underneath the **Document Status** column is set to **Review Complete**. Refresh the **Shared Documents** page and verify that the value underneath the **MySharePointWorkflow – Workflow1** column is set to **Completed**. This indicates that workflow is finished and that the document has been reviewed.  
+12. In the **Shared Documents** page, verify that the value underneath the **Document Status** column is set to **Review Complete**. Refresh the **Shared Documents** page and verify that the value underneath the **MySharePointWorkflow - Workflow1** column is set to **Completed**. This indicates that workflow is finished and that the document has been reviewed.  
   
 ## Next Steps  
  You can learn more about how to create workflow templates from these topics:  

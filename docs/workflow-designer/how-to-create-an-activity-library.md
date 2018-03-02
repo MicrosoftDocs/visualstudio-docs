@@ -11,20 +11,8 @@ caps.latest.revision: 12
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+ms.workload: 
+  - "multiple"
 ---
 # How to: Create an Activity Library
 Custom activities are used to model your particular business processes in a workflow. The Activity Library template in [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)] has been provided to enable you to create such custom activities visually using the [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)].  
@@ -33,7 +21,7 @@ Custom activities are used to model your particular business processes in a work
   
 1.  Start [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)].  
   
-2.  On the **File** menu, point to **New**, and then select **Project…**.  
+2.  On the **File** menu, point to **New**, and then select **Project...**.  
   
      The **New Project** dialog box opens.  
   
@@ -48,7 +36,7 @@ Custom activities are used to model your particular business processes in a work
 7.  In the **Solution** box, type in a descriptive name for your solution, then click **OK**.  
   
     > [!NOTE]
-    >  If you want to add a workflow console application to an existing solution, open that solution in [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)], right click the solution in **Solution Explorer**, and select **Add**, then **New Project…** to open the **New Project** dialog box. Proceed as described above in this procedure.  
+    >  If you want to add a workflow console application to an existing solution, open that solution in [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)], right click the solution in **Solution Explorer**, and select **Add**, then **New Project...** to open the **New Project** dialog box. Proceed as described above in this procedure.  
   
 8.  The project template creates an activity definition in XAML. [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] opens and displays the canvas for your custom activity.  
   
@@ -58,5 +46,5 @@ Custom activities are used to model your particular business processes in a work
     >  You are allowed only one child activity in the body of your custom activity; however, that child activity could be a composite activity, such as a <xref:System.Activities.Statements.Sequence> activity or <xref:System.Activities.Statements.Flowchart> activity.  
   
 ## See Also  
- [How to: Create an Activity](http://msdn.microsoft.com/Library/c09b1e99-21b5-4d96-9c04-ec31db3f4436)   
+ [How to: Create an Activity](/dotnet/framework/windows-workflow-foundation/how-to-create-an-activity)   
  [Creating a Workflow Project](../workflow-designer/creating-a-workflow-project.md)

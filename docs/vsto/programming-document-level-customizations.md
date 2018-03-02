@@ -2,7 +2,6 @@
 title: "Programming Document-Level Customizations | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -29,11 +28,11 @@ helpviewer_keywords:
   - "Sheet2 class"
   - "document-level customizations [Office development in Visual Studio], programming"
   - "application development [Office development in Visual Studio], document-level customizations"
-ms.assetid: 6c421055-7bea-4db4-a4c9-539b8c78d4ee
-caps.latest.revision: 34
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Programming Document-Level Customizations
   When you extend Microsoft Office Word or Microsoft Office Excel by using a document-level customization, you can perform the following tasks:  
@@ -89,21 +88,21 @@ manager: "ghogen"
   
  The following code example shows how to use the Word object model to save the document that is part of a document-level customization for Word. This example is intended to be run from the `ThisDocument` class.  
   
-```vb#  
+```vb  
 Me.Save()  
 ```  
   
-```c#  
+```csharp  
 this.Save();  
 ```  
   
  To do the same thing from outside the `ThisDocument` class, use the `Globals` object to access the `ThisDocument` class. For example, you can add this code to an actions pane code file if you want to include a **Save** button in the actions pane UI.  
   
-```vb#  
+```vb  
 Globals.ThisDocument.Save()  
 ```  
   
-```c#  
+```csharp  
 Globals.ThisDocument.Save();  
 ```  
   

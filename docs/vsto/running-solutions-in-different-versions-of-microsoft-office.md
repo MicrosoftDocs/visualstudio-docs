@@ -2,7 +2,6 @@
 title: "Running Solutions in Different Versions of Microsoft Office | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,11 +17,11 @@ helpviewer_keywords:
   - "Office development in Visual Studio, multiple Office versions"
   - "Office solutions [Office development in Visual Studio]"
   - "multiple Office versions"
-ms.assetid: 414e7741-c07d-4900-9d10-68b821413b3f
-caps.latest.revision: 61
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Running Solutions in Different Versions of Microsoft Office
     

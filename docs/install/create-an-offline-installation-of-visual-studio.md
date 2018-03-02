@@ -1,112 +1,50 @@
 ---
-title: "Create an offline installer for Visual Studio 2017 | Microsoft Docs"
-description: "Learn how to create an offline installer for of Visual Studio."
+title: "Create an Offline Installation of Visual Studio | Microsoft Docs"
+description: "Find out how to install Visual Studio offline."
 ms.custom: ""
-ms.date: "04/05/2017"
+ms.date: "01/17/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
-  - "vs-ide-install"
+  - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords:
   - "offline installation [Visual Studio]"
   - "offline install [Visual Studio]"
-  - "offline installer [Visual Studio]"
-  - "ISO [Visual Studio]"
-ms.assetid: 7bd7e724-7bfd-43f1-9935-981919be5a00
+  - "layout [Visual Studio]"
+ms.assetid: f8625d5e-f6ea-4db0-83c0-619b77fab3cf
 author: "TerryGLee"
 ms.author: "tglee"
-manager: "ghogen"
-translation.priority.ht:
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt:
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: ghogen
+ms.workload:
+  - "multiple"
 ---
-# Create an offline installer for Visual Studio 2017
-We understand that a lot of customers want an offline installer for [Visual Studio 2017](https://go.microsoft.com/fwlink/?linkid=844067). Even though we don't offer an ISO image, it's easy to create a folder that you can use to install when offline.
+# Create an offline installation of Visual Studio 2017
 
-Here's how.
+We designed the Visual Studio 2017 installer to work well in a wide variety of network and machine conditions.
 
-## Download the setup file you want
-**[Download](https://www.visualstudio.com/downloads?utm_source=mscom&utm_campaign=msdocs)** the edition of Visual Studio that you want. Make sure to click **Save**, and then click **Open folder**.
+- The new workload-based model means you'll need to download far less than with previous versions of Visual Studio: as little as 300 MB for the smallest installation;
+- Compared to a generic "ISO" or zip file, we download only the packages you need for your machine. For example, we don't download 64-bit files if you don't need them;
+- During the installation process, we try three different download technologies (WebClient, BITS and WinInet) to minimize interference with anti-virus and proxy software;
+- The files you'll need to install Visual Studio are distributed on a global delivery network, so we can get them to you from a local server.
 
-Your setup file&mdash;or to be more specific, a bootstrapper file&mdash;will match one of the following.
+We recommend that you try the [Visual Studio web installer](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocsOL)&mdash;we think you'll find it a good experience.
 
-|Edition | File|  
-|-------------|-----------------------|  
-|Visual Studio Enterprise |**vs_enterprise.exe**|  
-|Visual Studio Professional |**vs_professional.exe**|  
-|Visual Studio Community |**vs_community.exe**|
+ > [!div class="button"]
+ > [Download Visual Studio 2017](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocsOL)
+<br/>
 
-Other supported bootstrappers include vs_buildtools.exe, vs_feedbackclient.exe, vs_teamexplorer.exe, vs_testagent.exe, vs_testcontroller.exe, and vs_testprofessional.exe.
+If you want to install offline because your internet connection is unavailable or unreliable, see [Install Visual Studio 2017 on low bandwidth or unreliable network environments](../install/install-vs-inconsistent-quality-network.md). You can use the command line to create a local cache of the files you need to complete an offline install. This process replaces the ISO files available for previous versions.
 
-## Create an offline installation folder
-To create an offline installation with all languages and all features, use one of the commands from the following examples.
+> [!NOTE]
+> If you are an enterprise administrator who wants to perform a deployment of Visual Studio 2017 to a network of client workstations that are firewalled from the internet, see our [Create a network installation of Visual Studio 2017](../install/create-a-network-installation-of-visual-studio.md) and [Install certificates required for Visual Studio offline installation](../install/install-certificates-for-visual-studio-offline.md) pages.
 
-(Make sure that you run the command from your Download directory. Typically, that's `C:\Users\<username>\Downloads` on a computer that is running Windows 10).
+## Get support
+Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://www.visualstudio.com/vs/support/#talktous).
 
-- For Visual Studio Enterprise, run: <br>  ```vs_enterprise.exe --layout c:\vs2017offline```
-- For Visual Studio Professional, run: <br> ```vs_professional.exe --layout c:\vs2017offline```
-- For Visual Studio Community, run: <br> ```vs_community.exe --layout c:\vs2017offline```
-
-For more examples, see the [How to customize your offline installer](#how-to-customize-your-offline-installer) section on this page.
-
-## Install from the offline installation folder
-Run your offline installation now or later; the choice is yours to make. But when you do, follow these steps.
-
-  1. Install the certificates (They are in the Certificates folder, which is in your Layout folder. Simply right-click each one to install it.)
-
-  2. Run the installation file. For example, run: <br> ```c:\vs2017offline\vs_enterprise.exe```
-
-## Additional tips for offline installers
-It's easy to customize or update your offline installer; we'll show you how. And if something goes wrong with your offline installer, we've got troubleshooting and support information for you, too.
-
-### How to customize your offline installer
-There are many options you can use to customize your offline installer. Here are a few examples of how to customize it by [language locale](use-command-line-parameters-to-install-visual-studio.md#list-of-language-locales).
-
- - To download all workloads and components for only one language, run: <br>```vs_enterprise.exe --layout C:\vs2017offline --lang en-US```
- - To download all workloads and components for multiple languages, run: <br>```vs_enterprise.exe --layout C:\vs2017offline --lang en-US de-DE ja-JP```
- - To download one workload for all languages, run <br> ```vs_enterprise.exe --layout C:\vs2017offline --add Microsoft.VisualStudio.Workload.Azure ```
- - To download two workloads and one optional component for three languages, run: <br>```vs_enterprise.exe --layout C:\vs2017offline --add Microsoft.VisualStudio.Workload.Azure Microsoft.VisualStudio.Workload.ManagedDesktop Component.GitHub.VisualStudio --lang en-US de-DE ja-JP ```
-To learn more about the options you can use to customize your installation, see our [Use command-line parameters to install Visual Studio 2017 ](use-command-line-parameters-to-install-visual-studio.md) page.
-
-
-### How to update an offline installer
-You might want to update your offline installer at a later date. Here's how.
-* To update a Visual Studio instance that you installed from an offline installation folder, run the Visual Studio Installer, and then click **Update**.
-* To refresh your offline installation folder so that it includes the latest updates, run the ```--layout``` command again. Make sure to point to the same folder that you used before; this way, only those components that have been updated since you last ran ```--layout``` will be downloaded.
-
-
-### How to troubleshoot an offline installer
-Sometimes, things go wrong. Here is a table of known issues and some workarounds that might help.
-
-| Issue       | Item                   | Solution |
-| ----------- | ---------------------- | -------- |
-| You receive an error message from the Visual Studio Installer that says, "Setup completed with warning", and then the Windows Emulator fails to install. | Windows 10 Emulator | Open your offline installation folder for Visual Studio, navigate to the subfolder "Win10_Emulator_10.0.15063,version=10.0.15063.12,chip=x64", and then run EmulatorSetup.exe to install the Windows Emulator. |
-| You receive a warning message about not being able to install some components and packages.  | Android SDK Setup (API Level) | If you want to include Android SDK (API Level) packages, you must have an internet connection when you create your offline installer. If you are on a restricted network, you must allow access to the following URLs: <br><br> - http://dl.google.com:443 <br> - http://dl-ssl.google.com:443 <br>  - https://dl-ssl.google.com/android/repository/*<br><br>For more information about how to resolve possible issues with proxy settings, see the [Visual Studio install failures (Android SDK Setup) behind a Proxy](https://blogs.msdn.microsoft.com/peterhauge/2016/09/22/visual-studio-2015-install-failures-android-sdk-setup-behind-a-proxy/) blog post.  |  
-| Users do not have access to files. | permissions (ACLs) | Make sure that you adjust the permissions (ACLs) so that they grant Read access to other users  *before* you share the offline install. |
-| New workloads, components, or languages fail to install.  | `--layout`  | Make sure you have internet access if you install from a partial layout and select workloads, components, or languages that are not available in the earlier layout. |
-
-### How to get support for your offline installer
-If you experience a problem with your offline installation, we want to know about it. The best way to tell us is by using the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool. When you use this tool, you can send us the telemetry and logs we need to help us diagnose and fix the problem.
-
-We have other support options available, too. For a list of those, see our [Talk to us](../ide/how-to-report-a-problem-with-visual-studio-2017.md) page.
-
-
-## See also
-* [Install Visual Studio](install-visual-studio.md)
-* [Visual Studio administrator guide](visual-studio-administrator-guide.md)
-* [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
-* [Visual Studio workload and component IDs](workload-and-component-ids.md)
+Here are a few more support options:
+* You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
+* You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
+* You can track product issues in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/), and ask questions and find answers.
+* You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).  (This option requires a [GitHub](https://github.com/) account.)

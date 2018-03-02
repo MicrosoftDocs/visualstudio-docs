@@ -14,35 +14,24 @@ helpviewer_keywords:
   - "IDebugExpressionEvaluationCompleteEvent2::GetExpression"
 ms.assetid: faf6b2dd-2afd-4852-b21c-7e8d3130e141
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugExpressionEvaluationCompleteEvent2::GetExpression
 Gets the original expression.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetExpression(   
    IDebugExpression2** ppExpr  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetExpression(   
    out IDebugExpression2 ppExpr  
 );  

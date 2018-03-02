@@ -1,8 +1,7 @@
 ---
-title: "How to: Programmatically Send E-Mail Programmatically | Microsoft Docs"
+title: "How to: Programmatically Send E-Mail | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,19 +16,19 @@ helpviewer_keywords:
   - "Outlook [Office development in Visual Studio], creating e-mail"
   - "Outlook [Office development in Visual Studio], sending e-mail"
   - "e-mail [Office development in Visual Studio], sending"
-ms.assetid: 4fa0e1b5-2caf-4a11-8626-df643b23f5f0
-caps.latest.revision: 18
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
-# How to: Programmatically Send E-Mail Programmatically
+# How to: Programmatically Send E-Mail  
   This example sends an e-mail message to contacts that have the domain name **example.com** in their e-mail addresses.  
   
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]  
   
 ## Example  
- [!code-cs[Trin_OL_ProgramEmail#1](../vsto/codesnippet/CSharp/Trin_OL_ProgramEMail/thisaddin.cs#1)]  
+ [!code-csharp[Trin_OL_ProgramEmail#1](../vsto/codesnippet/CSharp/Trin_OL_ProgramEMail/thisaddin.cs#1)]  
   
 ## Compiling the Code  
  This example requires:  

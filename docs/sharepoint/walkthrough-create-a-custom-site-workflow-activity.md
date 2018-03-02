@@ -2,7 +2,6 @@
 title: "Walkthrough: Create a Custom Site Workflow Activity | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,11 +19,11 @@ helpviewer_keywords:
   - "site workflows [SharePoint development in Visual Studio]"
   - "workflow activities [SharePoint development in Visual Studio]"
   - "SharePoint development in Visual Studio, site workflows"
-ms.assetid: 8219a779-c27b-4186-92c9-5bda03328aa9
-caps.latest.revision: 20
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Walkthrough: Create a Custom Site Workflow Activity
   This walkthrough demonstrates how to create a custom activity for a site-level workflow using [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. (Site-level workflows apply to the whole site, not just a list on the site.) The custom activity creates a backup Announcements list and then copies the contents of the Announcements list into it.  
@@ -92,7 +91,7 @@ manager: "ghogen"
   
 3.  Replace all of the code in Class1 with the following:  
   
-     [!code-cs[SP_AnnBackup#1](../sharepoint/codesnippet/CSharp/announcementbackup/class1.cs#1)]
+     [!code-csharp[SP_AnnBackup#1](../sharepoint/codesnippet/CSharp/announcementbackup/class1.cs#1)]
      [!code-vb[SP_AnnBackup#1](../sharepoint/codesnippet/VisualBasic/announcementbackupvb/class1.vb#1)]  
   
 4.  Save the project, and then, on the menu bar, choose **Build**, **Build Solution**.  
@@ -121,7 +120,7 @@ manager: "ghogen"
   
 3.  At the top of the SharePoint webpage, choose the **Site Workflows** link.  
   
-4.  Under the Start a New Workflow section, choose the **AnnouncementBackup – Workflow1** link. This starts the site workflow and runs the code in the custom action.  
+4.  Under the Start a New Workflow section, choose the **AnnouncementBackup - Workflow1** link. This starts the site workflow and runs the code in the custom action.  
   
 5.  On the QuickLaunch bar, choose the **Announcements Backup** link. Notice that all of the announcements that are contained in the **Announcements** list have been copied to this new list.  
   

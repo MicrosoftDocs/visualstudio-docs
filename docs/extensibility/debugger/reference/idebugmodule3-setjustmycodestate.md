@@ -14,35 +14,24 @@ helpviewer_keywords:
   - "IDebugModule3::SetJustMyCodeState"
 ms.assetid: 68f8166d-ef64-49ae-ad5e-79604f43bbd4
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugModule3::SetJustMyCodeState
 Marks the module as being user code or not.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT SetJustMyCodeState(  
    BOOL fIsUserCode  
 );  
 ```  
   
-```c#  
+```csharp  
 int SetJustMyCodeState(  
    int fIsUserCode  
 );  

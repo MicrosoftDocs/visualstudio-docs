@@ -2,7 +2,6 @@
 title: "Managing Documents on a Server by Using the ServerDocument Class | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,11 +15,11 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], managing on server"
   - "Office documents [Office development in Visual Studio, managing on server"
   - "ServerDocument class, managing documents on server"
-ms.assetid: 1ac90e89-d07d-4874-9d24-6741d6679a21
-caps.latest.revision: 40
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Managing Documents on a Server by Using the ServerDocument Class
   You can use the ServerDocument class in the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] to manage several aspects of document-level customizations, even if Microsoft Office Word and Microsoft Office Excel are not installed. You can perform the following tasks:  
@@ -68,5 +67,4 @@ manager: "ghogen"
  [How to: Remove Managed Code Extensions from Documents](../vsto/how-to-remove-managed-code-extensions-from-documents.md)   
  [Visual Studio Tools for Office Runtime Overview](../vsto/visual-studio-tools-for-office-runtime-overview.md)   
  [Caching Data](../vsto/caching-data.md)  
-  
   

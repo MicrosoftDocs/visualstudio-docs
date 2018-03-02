@@ -2,7 +2,6 @@
 title: "How to: Import a Master Page or Theme | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,14 +14,14 @@ dev_langs:
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, importing items"
   - "importing items [SharePoint development in Visual Studio]"
-ms.assetid: 8b446cca-2adb-457b-bbfd-891209290e80
-caps.latest.revision: 18
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Import a Master Page or Theme
-  You can give pages on your SharePoint site a consistent appearance by creating and using master pages and themes. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] doesn’t provide templates for these elements, but you can create them in SharePoint Designer and then import them into [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. For more information, see [Building Block: Pages and User Interface](http://go.microsoft.com/fwlink/?LinkID=182095) on the Microsoft website.  
+  You can give pages on your SharePoint site a consistent appearance by creating and using master pages and themes. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] doesn't provide templates for these elements, but you can create them in SharePoint Designer and then import them into [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. For more information, see [Building Block: Pages and User Interface](http://go.microsoft.com/fwlink/?LinkID=182095) on the Microsoft website.  
   
 ### To import a master page or theme  
   
@@ -46,10 +45,10 @@ manager: "ghogen"
   
      Master page files have a .master extension, and theme files have a .thmx extension.  
   
-8.  If you added a master page, change its **Deployment Conflict Resolution** setting to **Automatic** in the module’s properties.  
+8.  If you added a master page, change its **Deployment Conflict Resolution** setting to **Automatic** in the module's properties.  
   
     > [!NOTE]  
-    >  Errors can occur if the name of the master page is the same as the name of an existing master page that’s marked as either Default Master Page or Custom Master Page. For information about how to resolve this problem, see [Walkthrough: Import a Custom Master Page and Site Page with an Image](../sharepoint/walkthrough-import-a-custom-master-page-and-site-page-with-an-image.md).  
+    >  Errors can occur if the name of the master page is the same as the name of an existing master page that's marked as either Default Master Page or Custom Master Page. For information about how to resolve this problem, see [Walkthrough: Import a Custom Master Page and Site Page with an Image](../sharepoint/walkthrough-import-a-custom-master-page-and-site-page-with-an-image.md).  
   
 9. In the module, open Elements.xml.  
   
@@ -79,10 +78,10 @@ manager: "ghogen"
   
 11. To change the deployment scope for a master page, in **Solution Explorer**, open the feature file in the Feature Designer, and then choose a new deployment scope from the **Scope** list.  
   
-     A value of **Web** means that the master page applies only to the website that’s currently specified in the project. A value of **Site** means that the master page applies to the current site collection, which includes all subsites and the root web. The other values don’t apply.  
+     A value of **Web** means that the master page applies only to the website that's currently specified in the project. A value of **Site** means that the master page applies to the current site collection, which includes all subsites and the root web. The other values don't apply.  
   
     > [!NOTE]  
-    >  Because themes apply only to the site collection level, we recommend that you don’t set the scope of a theme to anything other than **Site**. Errors can occur if a theme is used in a sub-site.  
+    >  Because themes apply only to the site collection level, we recommend that you don't set the scope of a theme to anything other than **Site**. Errors can occur if a theme is used in a sub-site.  
   
 12. On the menu bar, choose **Build**, **Deploy Solution**.  
   

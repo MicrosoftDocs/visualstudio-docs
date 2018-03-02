@@ -2,7 +2,6 @@
 title: "Working with Ranges | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,11 +16,11 @@ helpviewer_keywords:
   - "worksheets, ranges"
   - "ranges, common tasks"
   - "workbooks, ranges"
-ms.assetid: 26835a5d-402c-4c13-8f33-e4d8ffed3dfe
-caps.latest.revision: 12
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Working with Ranges
   The <xref:Microsoft.Office.Tools.Excel.NamedRange> and <xref:Microsoft.Office.Interop.Excel.Range> classes contain the methods and properties you use to perform tasks with ranges.  
@@ -34,7 +33,7 @@ manager: "ghogen"
 |Apply styles to cells in a region.|[How to: Programmatically Apply Styles to Ranges in Workbooks](../vsto/how-to-programmatically-apply-styles-to-ranges-in-workbooks.md)|  
 |Search for text in worksheet ranges.|[How to: Programmatically Search for Text in Worksheet Ranges](../vsto/how-to-programmatically-search-for-text-in-worksheet-ranges.md)|  
 |Apply color to text in a range of cells.|[How to: Programmatically Apply Color to Excel Ranges](../vsto/how-to-programmatically-apply-color-to-excel-ranges.md)|  
-|Run Excel calculations programmatically.|[How to: Programmatically Run Excel Calculations Programmatically](../vsto/how-to-programmatically-run-excel-calculations-programmatically.md)|  
+|Run Excel calculations programmatically.|[How to: Programmatically Run Excel Calculations](../vsto/how-to-programmatically-run-excel-calculations-programmatically.md)|  
 |Display a string in a cell.|[How to: Programmatically Display a String in a Worksheet Cell](../vsto/how-to-programmatically-display-a-string-in-a-worksheet-cell.md)|  
   
  For more information about Excel tasks and the Excel object model, see [Excel Object Model Overview](../vsto/excel-object-model-overview.md).  

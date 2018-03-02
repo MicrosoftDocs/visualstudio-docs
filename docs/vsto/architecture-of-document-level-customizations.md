@@ -2,7 +2,6 @@
 title: "Architecture of Document-Level Customizations | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -21,11 +20,11 @@ helpviewer_keywords:
   - "document-level customizations [Office development in Visual Studio]"
   - "AddInLoader.dll"
   - "architecture [Office development in Visual Studio], document-level customizations"
-ms.assetid: bafed4d0-5ff6-457b-9974-7c90f6ecb547
-caps.latest.revision: 86
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Architecture of Document-Level Customizations
   [!INCLUDE[vs_dev12](../vsto/includes/vs-dev12-md.md)] includes projects for creating document-level customizations for Microsoft Office Word and Microsoft Office Excel. This topic describes the following aspects of document-level customizations:  
@@ -47,7 +46,7 @@ manager: "ghogen"
   
  The assembly communicates with the application's COM components through the primary interop assembly of the application. For more information, see [Office Primary Interop Assemblies](../vsto/office-primary-interop-assemblies.md) and [Office Solutions Development Overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md).  
   
- If a user opens multiple document-level customizations at the same time, each assembly is loaded in a different application domain. This means that one solution that behaves incorrectly cannot cause other solutions to fail. Document-level customizations are designed to work with a single document in a single application domain. They are not designed for cross-document communication. For more information about application domains, see [Application Domains](../Topic/Application%20Domains.md).  
+ If a user opens multiple document-level customizations at the same time, each assembly is loaded in a different application domain. This means that one solution that behaves incorrectly cannot cause other solutions to fail. Document-level customizations are designed to work with a single document in a single application domain. They are not designed for cross-document communication. For more information about application domains, see [Application Domains](/dotnet/framework/app-domains/application-domains).  
   
 > [!NOTE]  
 >  Document-level customizations that you create by using the Office developer tools in Visual Studio are designed to be used only when the application is started by an end user. If the application is started programmatically, for example, by using Automation, the customization might not work as expected.  

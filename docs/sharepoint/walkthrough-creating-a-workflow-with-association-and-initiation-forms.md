@@ -2,7 +2,6 @@
 title: "Walkthrough: Creating a Workflow with Association and Initiation Forms | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -21,11 +20,11 @@ helpviewer_keywords:
   - "association forms [SharePoint development in Visual Studio]"
   - "initiation forms [SharePoint development in Visual Studio]"
   - "SharePoint development in Visual Studio, workflow initiation forms"
-ms.assetid: c8666d8c-b173-4245-8014-9c1cd6acb071
-caps.latest.revision: 38
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Walkthrough: Creating a Workflow with Association and Initiation Forms
   This walkthrough demonstrates how to create a basic sequential workflow that incorporates the use of association and initiation forms. These are ASPX forms that enable parameters to be added to a workflow when it is first associated by the SharePoint administrator (the association form), and when the workflow is started by the user (the initiation form).  
@@ -55,7 +54,7 @@ manager: "ghogen"
 > [!NOTE]  
 >  Although this walkthrough uses a sequential workflow project, the process is the same for state machine workflows.  
 >   
->  Also, your computer might show different names or locations for some of the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] user interface elements in the following instructions. The [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] edition that you have and the settings that you use determine these elements. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  Also, your computer might show different names or locations for some of the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] user interface elements in the following instructions. The [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).  
   
 ## Prerequisites  
  You need the following components to complete this walkthrough:  
@@ -143,7 +142,7 @@ manager: "ghogen"
   
 5.  Replace the `GetAssociationData` method with:  
   
-    ```vb#  
+    ```vb  
     Private Function GetAssociationData() As String  
         ' TODO: Return a string that contains the association data that   
         ' will be passed to the workflow. Typically, this is in XML   
@@ -152,7 +151,7 @@ manager: "ghogen"
     End Function  
     ```  
   
-    ```c#  
+    ```csharp  
     private string GetAssociationData()  
     {  
         // TODO: Return a string that contains the association data that   
@@ -205,7 +204,7 @@ manager: "ghogen"
   
 5.  Replace the `Page_Load` method with the following example:  
   
-    ```vb#  
+    ```vb  
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As   
       EventArgs) Handles Me.Load  
         InitializeParams()  
@@ -215,7 +214,7 @@ manager: "ghogen"
     End Sub  
     ```  
   
-    ```c#  
+    ```csharp  
     protected void Page_Load(object sender, EventArgs e)  
     {  
         InitializeParams();  
@@ -227,7 +226,7 @@ manager: "ghogen"
   
 6.  Replace the `GetInitiationData` method with the following example:  
   
-    ```vb#  
+    ```vb  
     ' This method is called when the user clicks the button to start the workflow.  
     Private Function GetInitiationData() As String  
         Return Me.ExpenseTotal.Text  
@@ -238,7 +237,7 @@ manager: "ghogen"
     End Function  
     ```  
   
-    ```c#  
+    ```csharp  
     // This method is called when the user clicks the button to start the workflow.          
     private string GetInitiationData()  
     {  
@@ -303,7 +302,7 @@ manager: "ghogen"
   
 2.  Add the following method:  
   
-    ```vb#  
+    ```vb  
     Private Sub createTask1_MethodInvoking(ByVal sender As   
       System.Object, ByVal e As System.EventArgs)  
         createTask1_TaskId1 = Guid.NewGuid  
@@ -315,7 +314,7 @@ manager: "ghogen"
     End Sub   
     ```  
   
-    ```c#  
+    ```csharp  
     private void createTask1_MethodInvoking(object sender, EventArgs e)  
     {  
         createTask1_TaskId1 = Guid.NewGuid();  
@@ -332,7 +331,7 @@ manager: "ghogen"
   
 3.  Below the `MethodInvoking` method, add the following example:  
   
-    ```vb#  
+    ```vb  
     Private Sub checkApprovalNeeded(ByVal sender As Object, ByVal e As   
       ConditionalEventArgs)  
         Dim approval As Boolean = False  
@@ -344,7 +343,7 @@ manager: "ghogen"
     End Sub   
     ```  
   
-    ```c#  
+    ```csharp  
     private void checkApprovalNeeded(object sender, ConditionalEventArgs   
       e)  
     {  
@@ -368,7 +367,7 @@ manager: "ghogen"
   
 8.  Replace the `MethodInvoking` code with the following:  
   
-    ```vb#  
+    ```vb  
     Private Sub logToHistoryListActivity1_MethodInvoking(ByVal sender As   
       System.Object, ByVal e As System.EventArgs)  
         Me.logToHistoryListActivity1.HistoryOutcome = ("Expense was auto   
@@ -376,7 +375,7 @@ manager: "ghogen"
     End Sub   
     ```  
   
-    ```c#  
+    ```csharp  
     private void logToHistoryListActivity1_MethodInvoking(object sender,   
       EventArgs e)  
     {  
@@ -441,7 +440,7 @@ manager: "ghogen"
   
 11. Enter an amount on the initiation page that is less than or equal to the amount entered on the association page (**1200**).  
   
-     When this occurs, an entry in the history list is created instead of a task. The entry displays in the **Workflow History** section of the workflow status page. Note the message in the **Outcome** column of the history event. It contains the text entered in the `logToHistoryListActivity1.MethodInvoking` event that includes the amount which was auto–approved.  
+     When this occurs, an entry in the history list is created instead of a task. The entry displays in the **Workflow History** section of the workflow status page. Note the message in the **Outcome** column of the history event. It contains the text entered in the `logToHistoryListActivity1.MethodInvoking` event that includes the amount which was auto-approved.  
   
 ## Next Steps  
  You can learn more about how to create workflow templates from these topics:  

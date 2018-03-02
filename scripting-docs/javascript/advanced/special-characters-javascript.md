@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "white space character"
   - "Unicode character"
   - "escape sequence"
-  - "backslash (\)"
+  - "backslash (\\)"
 ms.assetid: 3b38b1bd-1f0f-4748-b13e-55cab36fd126
 caps.latest.revision: 31
 author: "mikejo5000"
@@ -105,7 +105,7 @@ document.write('The caption reads, "After the snow of \'97. Grandma\'s house is 
   
 ```  
   
- You can also iterate code points using the `for…of` statement.  
+ You can also iterate code points using the `for...of` statement.  
   
 ```JavaScript  
 for(var c of "𠮷") {  

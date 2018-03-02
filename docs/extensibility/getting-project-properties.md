@@ -13,22 +13,11 @@ helpviewer_keywords:
   - "tool windows, displaying project propeties"
 ms.assetid: 96ba07ca-0811-4013-8602-12550ac4ba79
 caps.latest.revision: 29
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Getting Project Properties
 This walkthrough shows how to displays project properties in a tool window.  
@@ -48,7 +37,7 @@ This walkthrough shows how to displays project properties in a tool window.
   
 1.  In the ProjectPropertiesToolWindowCommand.cs file add the following using statements.  
   
-    ```c#  
+    ```csharp  
     using EnvDTE;  
     using System.Windows.Controls;  
   
@@ -58,7 +47,7 @@ This walkthrough shows how to displays project properties in a tool window.
   
 3.  In ProjectPropertiesToolWindowCommand.cs, use the ShowToolWindow() method to open the project and read its properties, then add the properties to the TreeView. The code for ShowToolWindow should look like the following:  
   
-    ```c#  
+    ```csharp  
     private void ShowToolWindow(object sender, EventArgs e)  
     {  
         ToolWindowPane window = this.package.FindToolWindow(typeof(ProjectPropertiesToolWindow), 0, true);  

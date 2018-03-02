@@ -36,7 +36,7 @@ RegExp.lastIndex
 ## Remarks  
  The object associated with this property is always the global `RegExp` object.  
   
- The `lastIndex` property is zero-based, that is, the index of the first character is zero. Its initial value is –1. Its value is modified whenever a successful match is made.  
+ The `lastIndex` property is zero-based, that is, the index of the first character is zero. Its initial value is -1. Its value is modified whenever a successful match is made.  
   
  The `lastIndex` property is modified by the `exec` and **test** methods of the `RegExp` object, and the `match`, **replace**, and **split** methods of the `String` object.  
   

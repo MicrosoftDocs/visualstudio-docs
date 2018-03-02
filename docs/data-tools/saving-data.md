@@ -9,11 +9,6 @@ ms.topic: "article"
 f1_keywords: 
   - "DataRow.RowState"
   - "DataSet.GetChanges"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "aspx"
 helpviewer_keywords: 
   - "DBDirect methods"
   - "updating data"
@@ -26,24 +21,13 @@ helpviewer_keywords:
   - "updating databases"
 ms.assetid: 21d2b115-62e4-4ac9-a873-dcbb535b8af8
 caps.latest.revision: 13
-author: "mikeblome"
-ms.author: "mblome"
-manager: "ghogen"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
 robots: noindex,nofollow
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+ms.technology: "vs-data-tools"
+ms.workload: 
+  - "data-storage"
 ---
 # Saving Data
 Saving data is the process of persisting changed data in an application's data model back to the original data store, typically a relational database such as SQL Server.  
@@ -53,8 +37,11 @@ Saving data is the process of persisting changed data in an application's data m
  The following topics describe the concepts and tasks associated with saving data.  
   
 ## Related Topics  
- [Save data back to the database](../data-tools/save-data-back-to-the-database.md)  
+[Save data back to the database](../data-tools/save-data-back-to-the-database.md)  
  Provides an overview of how changes are made in a dataset and how the dataset tracks information about changes in order to save those changes to a database.  
   
- [Saving Entity Data](../data-tools/saving-entity-data.md)  
- Describes how to save changes in [ADO.NET Entity Framework](http://msdn.microsoft.com/Library/a437041f-6899-4ae7-96ce-aabf528d7205) and [WCF Data Services 4.5](http://msdn.microsoft.com/Library/73d2bec3-7c92-4110-b905-11bb0462357a) applications.
+[How to: Add, Modify, and Delete Entities (WCF Data Services)](/dotnet/framework/data/wcf/how-to-add-modify-and-delete-entities-wcf-data-services)  
+Shows how to create, update, and delete entity data in a data service.  
+  
+[How to: Execute Data Service Queries (WCF Data Services)](/dotnet/framework/data/wcf/how-to-execute-data-service-queries-wcf-data-services)  
+Shows how to query a data service from a data service application.  

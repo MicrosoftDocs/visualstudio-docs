@@ -2,7 +2,6 @@
 title: "How to: Install Office Primary Interop Assemblies | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,11 +14,11 @@ dev_langs:
 helpviewer_keywords: 
   - "primary interop assemblies [Office development in Visual Studio], installing"
   - "Office primary interop assemblies, installing"
-ms.assetid: 92948fcc-76c6-4b08-ba63-cab59dd60eb1
-caps.latest.revision: 61
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Install Office Primary Interop Assemblies
   Install the Microsoft Office primary interop assemblies (PIAs) when you install Office.  
@@ -31,7 +30,7 @@ manager: "ghogen"
 2.  Install Microsoft Office and make sure that the **.NET Programmability Support** feature is selected for the applications you want to extend (this feature is included in the default installation).  
   
     > [!WARNING]  
-    >  By default, PIA’s are embedded in your solution when you build it so you don’t have to distribute PIAs to users as a prerequisite to using your VSTO Add-in or customization.  
+    >  By default, PIA's are embedded in your solution when you build it so you don't have to distribute PIAs to users as a prerequisite to using your VSTO Add-in or customization.  
   
 ## See Also  
  [Office Primary Interop Assemblies](../vsto/office-primary-interop-assemblies.md)   

@@ -2,7 +2,6 @@
 title: "Windows Forms Controls on Office Documents Overview | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -29,11 +28,11 @@ helpviewer_keywords:
   - "document-level customizations [Office development in Visual Studio], Windows Forms controls"
   - "Windows Forms controls [Office development in Visual Studio], about Windows Forms controls"
   - "Office applications [Office development in Visual Studio], Windows Forms"
-ms.assetid: a959506b-5038-49c2-831a-d63c6d6b797d
-caps.latest.revision: 76
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Windows Forms Controls on Office Documents Overview
   Windows Forms controls are objects that users can interact with to enter or manipulate data. In document-level projects for Microsoft Office Excel and Microsoft Office Word, you can add Windows Forms controls to the document or workbook in your project at design time, or you can programmatically add these controls at run time. You can programmatically add these controls to any open document or worksheet at run time in an VSTO Add-in for Excel or Word.  
@@ -151,7 +150,7 @@ manager: "ghogen"
  [Adding Controls to Office Documents at Run Time](../vsto/adding-controls-to-office-documents-at-run-time.md)   
  [Host Items and Host Controls Overview](../vsto/host-items-and-host-controls-overview.md)   
  [Actions Pane Overview](../vsto/actions-pane-overview.md)   
- [Windows Forms Controls](../Topic/Windows%20Forms%20Controls.md)   
+ [Windows Forms Controls](/dotnet/framework/winforms/controls/index)   
  [Limitations of Windows Forms Controls on Office Documents](../vsto/limitations-of-windows-forms-controls-on-office-documents.md)   
  [How to: Add Windows Forms Controls to Office Documents](../vsto/how-to-add-windows-forms-controls-to-office-documents.md)   
  [How to: Resize Controls Within Worksheet Cells](../vsto/how-to-resize-controls-within-worksheet-cells.md)   

@@ -13,20 +13,8 @@ caps.latest.revision: 6
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+ms.workload: 
+  - "multiple"
 ---
 # CompensableActivity Activity Designer
 The **CompensableActivity** activity designer is used to create and configure a <xref:System.Activities.Statements.CompensableActivity> activity.  
@@ -46,10 +34,10 @@ The **CompensableActivity** activity designer is used to create and configure a 
 |-------------------|--------------|-----------|  
 |<xref:System.Activities.Activity.DisplayName%2A>|False|The optional friendly name of the <xref:System.Activities.Statements.CompensableActivity> activity. The default is CompensableActivity.|  
 |<xref:System.Activities.Activity%601.Result%2A>|False|Specifies the return value of the <xref:System.Activities.Statements.CompensableActivity>. This property must be edited in the property grid.|  
-|<xref:System.Activities.Statements.CompensableActivity.Body%2A>|True|Specifies the activity for which the compensation, cancellation, and confirmation logic is provided. To add the <xref:System.Activities.Statements.CompensableActivity.Body%2A> activity, drop an activity from the **Toolbox** into the **Body** box on the **CompensableActivity** activity designer with hint text “Drop activity here”.|  
-|<xref:System.Activities.Statements.CompensableActivity.CancellationHandler%2A>|False|Specifies the activity that is executed in the event of cancellation. To add the activity, drop its designer from the **Toolbox** into the **CancellationHandler** box on the **CompensableActivity** activity designer with hint text “Drop Activity Here”.|  
-|<xref:System.Activities.Statements.CompensableActivity.CompensationHandler%2A>|False|Specifies the activity to be executed when compensating for the <xref:System.Activities.Statements.CompensableActivity.Body%2A> activity. This handler can be explicitly invoked using the <xref:System.Activities.Statements.Compensate> activity.<br /><br /> To add the activity, drop its activity designer from the **Toolbox** into the **CompensationHandler** box on the **CompensableActivity** activity designer with hint text “Drop Activity Here”.|  
-|<xref:System.Activities.Statements.CompensableActivity.ConfirmationHandler%2A>|False|Specifies the activity to be executed when confirming the <xref:System.Activities.Statements.CompensableActivity.Body%2A> activity. This handler can be explicitly invoked using the <xref:System.Activities.Statements.Confirm> activity.<br /><br /> To add the activity, drop its activity designer from the **Toolbox** into the **ConfirmationHandler** box on the **CompensableActivity** activity designer with hint text “Drop Activity Here”.|  
+|<xref:System.Activities.Statements.CompensableActivity.Body%2A>|True|Specifies the activity for which the compensation, cancellation, and confirmation logic is provided. To add the <xref:System.Activities.Statements.CompensableActivity.Body%2A> activity, drop an activity from the **Toolbox** into the **Body** box on the **CompensableActivity** activity designer with hint text "Drop activity here".|  
+|<xref:System.Activities.Statements.CompensableActivity.CancellationHandler%2A>|False|Specifies the activity that is executed in the event of cancellation. To add the activity, drop its designer from the **Toolbox** into the **CancellationHandler** box on the **CompensableActivity** activity designer with hint text "Drop Activity Here".|  
+|<xref:System.Activities.Statements.CompensableActivity.CompensationHandler%2A>|False|Specifies the activity to be executed when compensating for the <xref:System.Activities.Statements.CompensableActivity.Body%2A> activity. This handler can be explicitly invoked using the <xref:System.Activities.Statements.Compensate> activity.<br /><br /> To add the activity, drop its activity designer from the **Toolbox** into the **CompensationHandler** box on the **CompensableActivity** activity designer with hint text "Drop Activity Here".|  
+|<xref:System.Activities.Statements.CompensableActivity.ConfirmationHandler%2A>|False|Specifies the activity to be executed when confirming the <xref:System.Activities.Statements.CompensableActivity.Body%2A> activity. This handler can be explicitly invoked using the <xref:System.Activities.Statements.Confirm> activity.<br /><br /> To add the activity, drop its activity designer from the **Toolbox** into the **ConfirmationHandler** box on the **CompensableActivity** activity designer with hint text "Drop Activity Here".|  
   
 ## See Also  
  [Transaction](../workflow-designer/transaction-activity-designers.md)   

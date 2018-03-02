@@ -14,22 +14,11 @@ helpviewer_keywords:
   - "custom tools"
 ms.assetid: d669f154-9b23-48b6-b9f6-7419c8dd61a6
 caps.latest.revision: 21
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Custom Tools
 *Custom tools* let you associate a tool with an item in a project and run that tool whenever the file is saved. Certain custom tools, sometimes referred to as *single-file generators*, are frequently used to implement translators that generate code from data and vice versa. For example, single-file generators create [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] and [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] source code out of the .settings and .resx files. The generated source code provides strongly-typed access to the data in the .settings and .resx files. The [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] and [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] project types support custom tools; [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] project types do not. Your own project types can also support custom tools.  
@@ -41,9 +30,6 @@ translation.priority.mt:
 ## In This Section  
  [Implementing Single-File Generators](../../extensibility/internals/implementing-single-file-generators.md)  
  Describes how to use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSingleFileGenerator> interface to implement a custom tool.  
-  
- [Determining the Default Namespace of a Project](../../misc/determining-the-default-namespace-of-a-project.md)  
- Describes how to determine the correct namespace based on the language being used.  
   
  [Registering Single File Generators](../../extensibility/internals/registering-single-file-generators.md)  
  Provides descriptions for all the registry entries for a custom tool.  

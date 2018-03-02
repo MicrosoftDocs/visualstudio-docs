@@ -2,7 +2,6 @@
 title: "Custom Actions in Outlook Form Regions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,11 +14,11 @@ dev_langs:
 helpviewer_keywords: 
   - "form regions [Office development in Visual Studio], custom actions"
   - "custom actions [Office development in Visual Studio]"
-ms.assetid: 583fd5f0-aafa-4858-9c54-38a9fdf3bede
-caps.latest.revision: 23
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Custom Actions in Outlook Form Regions
   Actions display buttons that enable users to respond to a Microsoft Office Outlook item. For example, to respond to a mail item, users click the **Reply**, **Reply to All**, or **Forward** action buttons. Each of these actions creates a new mail item and populates the item's fields by using information from the original item.  
@@ -50,7 +49,7 @@ manager: "ghogen"
 |**Title**|Specifies the label of the custom action button.|  
   
 ## Customizing a Custom Action at Run Time  
- You can also add behavior to the custom action using code. For example, you can add code that takes the names of e-mail recipients and adds those names as attendees in a new appointment item. To do this, handle the [CustomAction](HV05247448) event of the [Action](HV05247650) object.  
+ You can also add behavior to the custom action using code. For example, you can add code that takes the names of e-mail recipients and adds those names as attendees in a new appointment item. To do this, handle the [CustomAction](http://msdn.microsoft.com/library/office/ff862186.aspx) event of the [MailItem object](http://msdn.microsoft.com/library/office/ff861332.aspx).  
   
 ## See Also  
  [Creating Outlook Form Regions](../vsto/creating-outlook-form-regions.md)   

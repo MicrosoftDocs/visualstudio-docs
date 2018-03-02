@@ -2,7 +2,6 @@
 title: "How to: Programmatically Print Visio Documents | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,16 +14,16 @@ dev_langs:
 helpviewer_keywords: 
   - "Visio [Office development in Visual Studio], printing Visio documents"
   - "documents [Office development in Visual Studio], printing Visio documents"
-ms.assetid: 606a2678-5eb8-40b2-a50a-305cecb1b3d4
-caps.latest.revision: 17
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Print Visio Documents
   You can print a complete Microsoft Office Visio document or only a specific page.  
   
- For details about the print methods, see the VBA reference documentation for the [Microsoft.Office.Interop.Visio.Document.Print](HV10070345) method and [Microsoft.Office.Interop.Visio.Page.Print](HV10070404) method.  
+ For details about the print methods, see the VBA reference documentation for the [Microsoft.Office.Interop.Visio.Document.Print](https://msdn.microsoft.com/library/office/ff767996.aspx) method and [Microsoft.Office.Interop.Visio.Page.Print](https://msdn.microsoft.com/library/office/ff765064.aspx) method.  
   
 ## Printing a Visio Document  
   
@@ -34,7 +33,7 @@ manager: "ghogen"
   
      The following code example prints the active document. To use this example, run the code from the `ThisAddIn` class in your project.  
   
-     [!code-cs[Trin_VstcoreVisioAutomationAddIn#8](../vsto/codesnippet/CSharp/trin_vstcorevisioautomationaddin/ThisAddIn.cs#8)]
+     [!code-csharp[Trin_VstcoreVisioAutomationAddIn#8](../vsto/codesnippet/CSharp/trin_vstcorevisioautomationaddin/ThisAddIn.cs#8)]
      [!code-vb[Trin_VstcoreVisioAutomationAddIn#8](../vsto/codesnippet/VisualBasic/trin_vstcorevisioautomationaddin/ThisAddIn.vb#8)]  
   
 ## Printing a Page of a Visio Document  
@@ -45,7 +44,7 @@ manager: "ghogen"
   
      The following code example prints the first page of the active document. To use this example, run the code from the `ThisAddIn` class in your project.  
   
-     [!code-cs[Trin_VstcoreVisioAutomationAddIn#9](../vsto/codesnippet/CSharp/trin_vstcorevisioautomationaddin/ThisAddIn.cs#9)]
+     [!code-csharp[Trin_VstcoreVisioAutomationAddIn#9](../vsto/codesnippet/CSharp/trin_vstcorevisioautomationaddin/ThisAddIn.cs#9)]
      [!code-vb[Trin_VstcoreVisioAutomationAddIn#9](../vsto/codesnippet/VisualBasic/trin_vstcorevisioautomationaddin/ThisAddIn.vb#9)]  
   
 ## See Also  

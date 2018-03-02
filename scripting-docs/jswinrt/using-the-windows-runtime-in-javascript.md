@@ -29,7 +29,7 @@ When you write a Universal Windows Platform (UWP) app, you can use Windows Runti
  For reference documentation, see [Windows Runtime Reference](https://msdn.microsoft.com/en-us/library/windows/apps/br211377.aspx). Code examples are available in JavaScript and also in C++, C#, and Visual Basic.  
   
 ## Writing Windows Runtime Components in C++, C#, or Visual Basic  
- For instructions and guidelines for writing Windows Runtime components that can be consumed in JavaScript, see [Creating Windows Runtime Components](../Topic/Creating%20Windows%20Runtime%20Components.md).  
+ For instructions and guidelines for writing Windows Runtime components that can be consumed in JavaScript, see [Creating Windows Runtime Components in C++](/windows/uwp/winrt-components/creating-windows-runtime-components-in-cpp) and [Creating Windows Runtime Components in C# and Visual Basic](/windows/uwp/winrt-components/creating-windows-runtime-components-in-csharp-and-visual-basic).  
   
 ## Casing Conventions with Windows Runtime Features  
  Casing conventions for Windows Runtime features in JavaScript differ slightly from those for other languages:  

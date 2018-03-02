@@ -33,7 +33,7 @@ setObj = new WeakSet()
   
  Unlike a `Set`, only objects may be added to the collection. Arbitrary values cannot be added to the collection.  
   
- In a `WeakSet` object, references to objects in the set are held ‘weakly’. This means that `WeakSet` will not prevent a garbage collection from happening on the objects. When there are no references (other than `WeakSet`) to the objects, the garbage collector may collect the objects.  
+ In a `WeakSet` object, references to objects in the set are held 'weakly'. This means that `WeakSet` will not prevent a garbage collection from happening on the objects. When there are no references (other than `WeakSet`) to the objects, the garbage collector may collect the objects.  
   
  `WeakSet` (or `WeakMap`) may be helpful in some scenarios involving caching of objects or object metadata. For example, metadata for non-extensible objects may be stored in a `WeakSet`, or you may create a cache of user images using `WeakSet`.  
   

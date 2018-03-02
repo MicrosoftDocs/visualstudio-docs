@@ -73,7 +73,7 @@ Conditionally executes a group of statements, depending on the value of an expre
  When you write a script for a Web page, always add conditional compilation code in comments. This enables hosts that do not support conditional compilation to ignore it.  
   
 ## Example  
- The following example illustrates the use of the **@if...@elif…@else...@end** statement.  
+ The following example illustrates the use of the **@if...@elif...@else...@end** statement.  
   
 ```JavaScript  
 /*@cc_on @*/  

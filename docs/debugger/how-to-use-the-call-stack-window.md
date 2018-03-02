@@ -1,5 +1,5 @@
 ---
-title: "View the call stack in the debugger in Visual Studio | Microsoft Docs"
+title: "View the call stack in the Visual Studio debugger | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
 ms.date: "04/06/2017"
 ms.reviewer: ""
@@ -32,23 +32,11 @@ ms.assetid: 5154a2a1-4729-4dbb-b675-db611a72a731
 caps.latest.revision: 40
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
-# Use the call stack in the Visual Studio debugger
+# View the call stack and use the Call Stack Window in the Visual Studio debugger
 
 By using the **Call Stack** window, you can view the function or procedure calls that are currently on the stack. The **Call Stack** window shows the order in which methods and functions are getting called. The call stack is a good way to examine and understand the execution flow of an app.
   
@@ -64,7 +52,7 @@ When [debugging symbols](#bkmk_symbols) are not available for part of a call sta
   
 ## View the call stack while in the debugger 
   
--   While debugging, in the **Debug** menu, select **Windows / Call Stack**.
+-   While debugging, in the **Debug** menu, select **Windows > Call Stack**.
 
  ![Call Stack Window](../debugger/media/dbg_basics_callstack_window.png "CallStackWindow")
 
@@ -150,7 +138,7 @@ See [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-
 5.  Click **OK** to close the **Options** dialog box.  
   
 ## See Also  
- [Mixed Code and Missing Information in the Call Stack Window](../debugger/mixed-code-and-missing-information-in-the-call-stack-window.md)
+ [Mixed Code and Missing Information in the Call Stack Window](../debugger/mixed-code-and-missing-information-in-the-call-stack-window.md)  
  [Viewing Data in the Debugger](../debugger/viewing-data-in-the-debugger.md)   
  [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)   
  [Using Breakpoints](../debugger/using-breakpoints.md)

@@ -12,35 +12,24 @@ helpviewer_keywords:
   - "IDebugIDECallback::DisplayMessage"
 ms.assetid: c19b48ee-b370-4fce-91fe-f82bf1e63179
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugIDECallback::DisplayMessage
 Sends the specified message string to the debugger's output window.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT DisplayMessage (  
    LPCOLESTR szMessage  
 );  
 ```  
   
-```c#  
+```csharp  
 int DisplayMessage (  
    string szMessage  
 );  

@@ -2,7 +2,6 @@
 title: "&lt;entryPointsCollection&gt; Element (Office Development in Visual Studio) | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,11 +15,11 @@ helpviewer_keywords:
   - "<entryPointsCollection> element"
   - "application manifests [Office development in Visual Studio], <entryPointsCollection> element"
   - "entryPointsCollection element"
-ms.assetid: da386d67-e45f-467c-a9ba-9b8451b520eb
-caps.latest.revision: 18
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # &lt;entryPointsCollection&gt; Element (Office Development in Visual Studio)
   The `entryPointsCollection` element of the `vstav3` namespace contains all the `entryPoints` elements associated with Office solutions.  
@@ -179,6 +178,6 @@ manager: "ghogen"
 ## See Also  
  [Application Manifests for Office Solutions](../vsto/application-manifests-for-office-solutions.md)   
  [Deployment Manifests for Office Solutions](../vsto/deployment-manifests-for-office-solutions.md)   
- [ClickOnce Application Manifest](/visual-studio/deployment/clickonce-application-manifest)  
+ [ClickOnce Application Manifest](/visualstudio/deployment/clickonce-application-manifest)  
   
   

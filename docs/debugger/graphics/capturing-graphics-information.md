@@ -14,23 +14,11 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Graphics_Diagnostics.Capture"
 ms.assetid: 187ce86e-e340-4f6c-8937-8e8f1027a17f
 caps.latest.revision: 41
-author: "BrianPeek"
-ms.author: "brpeek"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Capturing Graphics Information
 Capture graphics information from your Direct3D app so that you can use Visual Studio Graphics Analyzer to diagnose rendering problems and performance problems.  
@@ -59,11 +47,11 @@ Capture graphics information from your Direct3D app so that you can use Visual S
   
      ![Capture frames using the GPU Usage tool.](media/pix_gpu_usage_tool_capture_frame.png)  
   
-     When you're ready to examine the frames you've captured, start the **Visual Studio Graphics Analyzer** by following the **Frame …** link above the image thumbnails, or by double-clicking the thumbnail.  
+     When you're ready to examine the frames you've captured, start the **Visual Studio Graphics Analyzer** by following the **Frame ...** link above the image thumbnails, or by double-clicking the thumbnail.  
   
- Only whole frames can be captured, so when you initiate a capture, it’s really the graphics information from the next frame that's recorded. Recording begins immediately after the frame in which you initiated capture is presented and ends when the captured frame is presented. You can capture as many frames as you want while the app is running under Graphics Diagnostics. If you don't capture any frames, the graphics log is discarded.  
+ Only whole frames can be captured, so when you initiate a capture, it's really the graphics information from the next frame that's recorded. Recording begins immediately after the frame in which you initiated capture is presented and ends when the captured frame is presented. You can capture as many frames as you want while the app is running under Graphics Diagnostics. If you don't capture any frames, the graphics log is discarded.  
   
- While capturing frames, Visual Studio displays the diagnostics session (.diagsession) window. If you close this window, stop debugging, or close the app, you can’t capture any more frames to that log. To capture more graphics information, you have to run the app under Graphics Diagnostics again to start a new diagnostics session.  
+ While capturing frames, Visual Studio displays the diagnostics session (.diagsession) window. If you close this window, stop debugging, or close the app, you can't capture any more frames to that log. To capture more graphics information, you have to run the app under Graphics Diagnostics again to start a new diagnostics session.  
   
 ### Graphics Diagnostics Capture Options  
  You can configure capture to collect call stacks for all graphics events or a limited subset, disable the capture HUD, and enable or disable capture compatibility mode.  
@@ -89,7 +77,7 @@ Capture graphics information from your Direct3D app so that you can use Visual S
 ## Capturing graphics information remotely  
  Graphics information can be captured from an app that's running on the local machine, or on a remote machine or device. Remote capture is supported for [!INCLUDE[winblue_client_2](../includes/winblue_client_2_md.md)] machines and [!INCLUDE[winblue_winrt_2](../includes/winblue_winrt_2_md.md)] devices. To capture graphics information from an app that's running remotely, configure your project for remote debugging and then run your app under Graphics Diagnostics as described earlier. The app runs on the remote machine, and the captured graphics information is recorded on your development machine.  
   
- How you configure your project for remote debugging depends on the kind of app you're developing and the programming language you're using. For information about how to configure remote debugging for a Windows Store app, see [Run Windows Store apps on a remote machine](../run-windows-store-apps-on-a-remote-machine.md). For information about how to configure remote debugging for a Windows desktop app, see [Remote Debugging](../remote-debugging.md).  
+ How you configure your project for remote debugging depends on the kind of app you're developing and the programming language you're using. For information about how to configure remote debugging for a UWP app, see [Run UWP apps on a remote machine](../run-windows-store-apps-on-a-remote-machine.md). For information about how to configure remote debugging for a Windows desktop app, see [Remote Debugging](../remote-debugging.md).  
   
  Later, you can use a remote machine or device to play back graphics information, regardless of where the information was captured from. For more information, see [How to: Change the Graphics Diagnostics Playback Machine](how-to-change-the-graphics-diagnostics-playback-machine.md).  
   

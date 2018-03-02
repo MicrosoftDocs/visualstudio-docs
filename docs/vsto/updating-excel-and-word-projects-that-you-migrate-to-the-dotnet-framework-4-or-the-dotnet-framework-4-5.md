@@ -2,7 +2,6 @@
 title: "Updating Excel and Word Projects that You Migrate to the .NET Framework 4 or the .NET Framework 4.5 | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,11 +13,11 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "Office projects [Office development in Visual Studio], migrating to .NET Framework 4"
-ms.assetid: 282c8876-fd49-462e-875b-4a0a79ad951c
-caps.latest.revision: 25
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Updating Excel and Word Projects that You Migrate to the .NET Framework 4 or the .NET Framework 4.5
   If you have an Excel or Word project that uses any of the following features, you must modify your code if the target framework is changed to the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later:  
@@ -37,7 +36,7 @@ manager: "ghogen"
   
 -   [Collections that derive from CollectionBase](#collections)  
   
- You must also remove the Microsoft.Office.Tools.Excel.ExcelLocale1033Attribute and references to the Microsoft.Office.Tools.Excel.ExcelLocale1033Proxy class from Excel projects that are retargeted to the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later. Visual Studio doesn’t remove this attribute or the class reference for you.  
+ You must also remove the Microsoft.Office.Tools.Excel.ExcelLocale1033Attribute and references to the Microsoft.Office.Tools.Excel.ExcelLocale1033Proxy class from Excel projects that are retargeted to the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later. Visual Studio doesn't remove this attribute or the class reference for you.  
   
 ## Removing the ExcelLocale1033 Attribute From Excel Projects  
  The Microsoft.Office.Tools.Excel.ExcelLocale1033Attribute has been removed from the portion of the Visual Studio 2010 Tools for Office Runtime that is used for solutions that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later. The common language runtime (CLR) in the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] and later always passes locale ID 1033 to the Excel object model, and you can no longer use this attribute to disable this behavior. For more information, see [Globalization and Localization of Excel Solutions](../vsto/globalization-and-localization-of-excel-solutions.md).  
@@ -53,16 +52,16 @@ manager: "ghogen"
   
 3.  Locate the Microsoft.Office.Tools.Excel.ExcelLocale1033Attribute and either remove it from the file or comment it out.  
   
-    ```vb#  
+    ```vb  
     <Assembly: ExcelLocale1033Proxy(True)>  
     ```  
   
-    ```c#  
+    ```csharp  
     [assembly: ExcelLocale1033Proxy(true)]  
     ```  
   
 ## Removing a Reference to the ExcelLocal1033Proxy class  
- Projects that were created by using Microsoft Visual Studio 2005 Tools for the Microsoft Office System instantiate the Excel <xref:Microsoft.Office.Interop.Excel.Application> object by using the Microsoft.Office.Tools.Excel.ExcelLocale1033Proxy class. This class has been removed from the portion of the Visual Studio 2010 Tools for Office Runtime that’s used for solutions that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later. Therefore, you must remove or comment out the line of code that references this class.  
+ Projects that were created by using Microsoft Visual Studio 2005 Tools for the Microsoft Office System instantiate the Excel <xref:Microsoft.Office.Interop.Excel.Application> object by using the Microsoft.Office.Tools.Excel.ExcelLocale1033Proxy class. This class has been removed from the portion of the Visual Studio 2010 Tools for Office Runtime that's used for solutions that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later. Therefore, you must remove or comment out the line of code that references this class.  
   
 #### To remove the reference to the ExcelLocal1033Proxy class  
   
@@ -72,12 +71,12 @@ manager: "ghogen"
   
 3.  In the Code Editor, in the `VSTO generated code` region, remove or comment out the following line of code.  
   
-    ```vb#  
+    ```vb  
     Me.Application = CType(Microsoft.Office.Tools.Excel.ExcelLocale1033Proxy.Wrap(GetType(Excel.Application), Me.Application), Excel.Application)  
   
     ```  
   
-    ```c#  
+    ```csharp  
     this.Application = (Excel.Application)Microsoft.Office.Tools.Excel.ExcelLocale1033Proxy.Wrap(typeof(Excel.Application), this.Application);  
   
     ```  
@@ -85,12 +84,12 @@ manager: "ghogen"
 ##  <a name="GetVstoObject"></a> Updating Code that Uses the GetVstoObject and HasVstoObject Methods  
  In projects that target the .NET Framework 3.5, the GetVstoObject or HasVstoObject methods are available as extension methods on one of the following native objects in your project: <xref:Microsoft.Office.Interop.Word.Document>, <xref:Microsoft.Office.Interop.Excel.Workbook>, <xref:Microsoft.Office.Interop.Excel.Worksheet>, or <xref:Microsoft.Office.Interop.Excel.ListObject>. When you call these methods, you do not need to pass a parameter. The following code example demonstrates how to use the GetVstoObject method in a Word VSTO Add-in that targets the .NET Framework 3.5.  
   
-```vb#  
+```vb  
 Dim vstoDocument as Microsoft.Office.Tools.Word.Document = _  
     Globals.ThisAddIn.Application.ActiveDocument.GetVstoObject()  
 ```  
   
-```c#  
+```csharp  
 Microsoft.Office.Tools.Word.Document vstoDocument =   
     Globals.ThisAddIn.Application.ActiveDocument.GetVstoObject();  
 ```  
@@ -99,24 +98,24 @@ Microsoft.Office.Tools.Word.Document vstoDocument =
   
 -   You can still access these methods as extension methods on <xref:Microsoft.Office.Interop.Word.Document>, <xref:Microsoft.Office.Interop.Excel.Workbook>, <xref:Microsoft.Office.Interop.Excel.Worksheet>, or <xref:Microsoft.Office.Interop.Excel.ListObject> objects. However, you must now pass the object returned by the Globals.Factory property to these methods.  
   
-    ```vb#  
+    ```vb  
     Dim vstoDocument as Microsoft.Office.Tools.Word.Document = _  
         Globals.ThisAddIn.Application.ActiveDocument.GetVstoObject(Globals.Factory)  
     ```  
   
-    ```c#  
+    ```csharp  
     Microsoft.Office.Tools.Word.Document vstoDocument =   
         Globals.ThisAddIn.Application.ActiveDocument.GetVstoObject(Globals.Factory);  
     ```  
   
 -   You can alternatively access these methods on the object that is returned by the Globals.Factory property. When you access these methods in this way, you must pass the native object that you want to extend to the method.  
   
-    ```vb#  
+    ```vb  
     Dim vstoDocument as Microsoft.Office.Tools.Word.Document = _  
         Globals.Factory.GetVstoObject(Globals.ThisAddIn.Application.ActiveDocument)  
     ```  
   
-    ```c#  
+    ```csharp  
     Microsoft.Office.Tools.Word.Document vstoDocument =   
         Globals.Factory.GetVstoObject(Globals.ThisAddIn.Application.ActiveDocument);  
     ```  
@@ -148,13 +147,13 @@ Microsoft.Office.Tools.Word.Document vstoDocument =
   
  For example, in an Excel Workbook project that targets the .NET Framework 3.5, you might have a helper method that performs some work on instances of the generated `Sheet`*n* classes in your project.  
   
-```vb#  
+```vb  
 Private Sub DoSomethingToSheet(ByVal worksheet As Microsoft.Office.Tools.Excel.Worksheet)  
     ' Do something to the worksheet object.  
 End Sub  
 ```  
   
-```c#  
+```csharp  
 private void DoSomethingToSheet(Microsoft.Office.Tools.Excel.Worksheet worksheet)  
 {  
     // Do something to the worksheet object.  
@@ -165,23 +164,23 @@ private void DoSomethingToSheet(Microsoft.Office.Tools.Excel.Worksheet worksheet
   
 -   Modify any code that calls the `DoSomethingToSheet` method to pass the <xref:Microsoft.Office.Tools.Excel.WorksheetBase.Base%2A> property of a <xref:Microsoft.Office.Tools.Excel.WorksheetBase> object in your project. This property returns a <xref:Microsoft.Office.Tools.Excel.Worksheet> object.  
   
-    ```vb#  
+    ```vb  
     DoSomethingToSheet(Globals.Sheet1.Base)  
     ```  
   
-    ```c#  
+    ```csharp  
     DoSomethingToSheet(Globals.Sheet1.Base);  
     ```  
   
 -   Modify the `DoSomethingToSheet` method parameter to expect a <xref:Microsoft.Office.Tools.Excel.WorksheetBase> object instead.  
   
-    ```vb#  
+    ```vb  
     Private Sub DoSomethingToSheet(ByVal worksheet As Microsoft.Office.Tools.Excel.WorksheetBase)  
         ' Do something to the worksheet object.  
     End Sub  
     ```  
   
-    ```c#  
+    ```csharp  
     private void DoSomethingToSheet (Microsoft.Office.Tools.Excel.WorksheetBase worksheet)  
     {  
         // Do something to the worksheet object.  

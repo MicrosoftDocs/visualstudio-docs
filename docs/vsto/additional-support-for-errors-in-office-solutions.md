@@ -2,7 +2,6 @@
 title: "Additional Support for Errors in Office Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -58,11 +57,11 @@ helpviewer_keywords:
   - "Office development in Visual Studio, troubleshooting"
   - "troubleshooting [Office development in Visual Studio]"
   - "Office development in Visual Studio, errors"
-ms.assetid: dcede68c-f269-46fe-a692-97517b671435
-caps.latest.revision: 12
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Additional Support for Errors in Office Solutions
   You can use the following resources to help you find answers to problems you encounter as you create Office solutions in Visual Studio.  

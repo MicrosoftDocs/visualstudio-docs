@@ -2,7 +2,6 @@
 title: "Visio Object Model Overview | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,11 +18,11 @@ helpviewer_keywords:
   - "objects [Office development in Visual Studio], Office object models"
   - "Office object models"
   - "Visio object model"
-ms.assetid: 11f0ae0c-feff-46c7-9885-b968391718f7
-caps.latest.revision: 21
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Visio Object Model Overview
   To develop Office solutions for Microsoft Office Visio, you can interact with the Visio object model. This object model consists of classes and interfaces that are provided in the primary interop assembly for Visio, and are defined in the Microsoft.Office.Interop.Visio namespace.  
@@ -35,9 +34,9 @@ manager: "ghogen"
 -   [Working with Visio Shapes](../vsto/working-with-visio-shapes.md)  
   
 ## Understanding the Visio Object Model  
- Visio provides many objects with which you can interact. These objects are organized in a hierarchy that closely follows the user interface. At the top of the hierarchy is the [Microsoft.Office.Interop.Visio.Application](HV10077088) object. This object represents the current instance of Visio. The Microsoft.Office.Interop.Visio.Application object contains the Microsoft.Office.Interop.Visio.Document and Microsoft.Office.Interop.Visio.Page objects as well as the Microsoft.Office.Interop.Visio.Documents and Microsoft.Office.Interop.Visio.Pages collections. Each of these objects and collections has many methods and properties that you can access to manipulate and interact with it.  
+ Visio provides many objects with which you can interact. These objects are organized in a hierarchy that closely follows the user interface. At the top of the hierarchy is the [Microsoft.Office.Interop.Visio.Application](https://msdn.microsoft.com/library/office/ff766485.aspx) object. This object represents the current instance of Visio. The Microsoft.Office.Interop.Visio.Application object contains the Microsoft.Office.Interop.Visio.Document and Microsoft.Office.Interop.Visio.Page objects as well as the Microsoft.Office.Interop.Visio.Documents and Microsoft.Office.Interop.Visio.Pages collections. Each of these objects and collections has many methods and properties that you can access to manipulate and interact with it.  
   
- For more information, see the VBA reference documentation for [Microsoft.Office.Interop.Visio.Application](HV10077088), [Microsoft.Office.Interop.Visio.Document](HV10077095), and [Microsoft.Office.Interop.Visio.Page](HV10077063) objects, and also the [Microsoft.Office.Interop.Visio.Documents](HV10077062) and [Microsoft.Office.Interop.Visio.Pages](HV10077074) collections.  
+ For more information, see the VBA reference documentation for [Microsoft.Office.Interop.Visio.Application](https://msdn.microsoft.com/library/office/ff766485.aspx), [Microsoft.Office.Interop.Visio.Document](https://msdn.microsoft.com/library/office/ff765575.aspx), and [Microsoft.Office.Interop.Visio.Page](https://msdn.microsoft.com/library/office/ff767035.aspx) objects, and also the [Microsoft.Office.Interop.Visio.Documents](https://msdn.microsoft.com/library/office/ff768812.aspx) and [Microsoft.Office.Interop.Visio.Pages](https://msdn.microsoft.com/library/office/ff766165.aspx) collections.  
   
  The following sections briefly describe the top-level objects and how they interact with each other. These objects include the following objects:  
   

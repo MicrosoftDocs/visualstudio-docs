@@ -14,36 +14,25 @@ helpviewer_keywords:
   - "BP_RES_DATA_FLAGS enumeration"
 ms.assetid: d97611e2-def6-45a9-ad7d-eedf2ad4c82b
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # BP_RES_DATA_FLAGS
 Specifies whether the data breakpoint is being emulated or implemented in hardware.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_BP_RES_DATA_FLAGS {   
    BP_RES_DATA_EMULATED = 0x0001  
 };  
 typedef DWORD BP_RES_DATA_FLAGS;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_BP_RES_DATA_FLAGS {   
    BP_RES_DATA_EMULATED = 0x0001  
 };  

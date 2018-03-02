@@ -4,7 +4,6 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 helpviewer_keywords: 
   - "Visual Studio Ultimate, visualizing code"
@@ -15,28 +14,15 @@ helpviewer_keywords:
   - "mapping code relationships"
   - "code maps"
   - "mapping relationships in code"
-ms.assetid: 9fd0c9a2-d351-40c8-be88-0749788264bf
-caps.latest.revision: 49
-author: "alexhomer1"
-ms.author: "ahomer"
-manager: "douge"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Use code maps to debug your applications
-Code maps can help you avoid getting lost in large code bases, unfamiliar code, or legacy code. For example, when you’re debugging, you might have to look at code across many files and projects. Use code maps to navigate around pieces of code and understand the relationships between them. That way, you don't have to keep track of this code in your head, or draw a separate diagram. So, when your work is interrupted, code maps help refresh your memory about the code you're working on.  
+Code maps can help you avoid getting lost in large code bases, unfamiliar code, or legacy code. For example, when you're debugging, you might have to look at code across many files and projects. Use code maps to navigate around pieces of code and understand the relationships between them. That way, you don't have to keep track of this code in your head, or draw a separate diagram. So, when your work is interrupted, code maps help refresh your memory about the code you're working on.  
   
  ![Code map &#45; Map relationships in code](../modeling/media/codemapstoryboardpaint.png "CodeMapStoryboardPaint")  
   
@@ -61,7 +47,7 @@ Code maps can help you avoid getting lost in large code bases, unfamiliar code, 
  ![Code map &#45; Show method and related fields](../modeling/media/codemapstoryboardpaint3.png "CodeMapStoryboardPaint3")  
   
 > [!TIP]
->  The green highlighting shows the last items that were added to the map. The green arrow shows your cursor’s position in the code. Arrows between items represent different relationships. You can get more info about items on the map by moving the mouse over them and examining their tooltips.  
+>  The green highlighting shows the last items that were added to the map. The green arrow shows your cursor's position in the code. Arrows between items represent different relationships. You can get more info about items on the map by moving the mouse over them and examining their tooltips.  
   
  ![Code map &#45; Show tooltips](../modeling/media/codemapstoryboardpaint4.png "CodeMapStoryboardPaint4")  
   
@@ -146,7 +132,7 @@ Code maps can help you avoid getting lost in large code bases, unfamiliar code, 
 > [!NOTE]
 >  When you update the map, you might see a message that says the code index used to create your map was updated. This means someone changed the code, which causes your map to not match the current code. This doesn't stop you from updating the map, but you might have to recreate the map to confirm that it matches the code.  
   
- Now you’re done with your investigation. You successfully found and fixed the problem by mapping the code. You also have a map that helps you navigate around the code, remember what you learned, and shows the steps you took to fix the problem.  
+ Now you're done with your investigation. You successfully found and fixed the problem by mapping the code. You also have a map that helps you navigate around the code, remember what you learned, and shows the steps you took to fix the problem.  
   
 ## See Also  
  [Map methods on the call stack while debugging](../debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio.md)   

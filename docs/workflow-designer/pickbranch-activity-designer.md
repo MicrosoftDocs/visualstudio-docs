@@ -13,20 +13,8 @@ caps.latest.revision: 10
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+ms.workload: 
+  - "multiple"
 ---
 # PickBranch Activity Designer
 The <xref:System.Activities.Statements.PickBranch> provides an event-based path of execution within a <xref:System.Activities.Statements.Pick> activity that can be triggered by an incoming event.  
@@ -68,5 +56,5 @@ The <xref:System.Activities.Statements.PickBranch> provides an event-based path 
   
 ## See Also  
  [Control Flow](../workflow-designer/control-flow-activity-designers.md)   
- [Pick Activity](http://msdn.microsoft.com/Library/b3e49b7f-0285-4720-8c09-11ae18f0d53e)   
- [Using the Pick Activity](http://msdn.microsoft.com/Library/b89be812-a247-4025-b0e3-ffb20db027a6)
+ [Pick Activity](/dotnet/framework/windows-workflow-foundation/pick-activity)   
+ [Using the Pick Activity](/dotnet/framework/windows-workflow-foundation/samples/using-the-pick-activity)

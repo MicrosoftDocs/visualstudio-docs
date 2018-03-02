@@ -2,7 +2,6 @@
 title: "Troubleshooting Office Solution Deployment | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,11 +15,11 @@ helpviewer_keywords:
   - "ClickOnce deployment [Office development in Visual Studio], troubleshooting"
   - "Office development in Visual Studio, troubleshooting"
   - "deploying applications [Office development in Visual Studio], troubleshooting"
-ms.assetid: 2206aeb6-44b3-4786-ba99-9c7dad5cce7c
-caps.latest.revision: 74
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Troubleshooting Office Solution Deployment
   This topic contains information about how to solve common problems that you might encounter when you deploy Office solutions.  
@@ -31,13 +30,13 @@ manager: "ghogen"
  You can use the event viewer in Windows to see error messages that are captured by the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] when you install or uninstall Office solutions. You can use these messages from the event logger to resolve installation and deployment problems. For more information, see [Event Logging for Office Solutions](../vsto/event-logging-for-office-solutions.md).  
   
 ## Changing the Assembly Name Causes Conflicts  
- If you change the **Assembly Name** value in the **Application** page of the **Project Designer** after you’ve already deployed a solution, the publishing tools will modify the Setup package to have one Setup.exe file and two deployment manifests. If you deploy two manifest files, the following conditions might occur:  
+ If you change the **Assembly Name** value in the **Application** page of the **Project Designer** after you've already deployed a solution, the publishing tools will modify the Setup package to have one Setup.exe file and two deployment manifests. If you deploy two manifest files, the following conditions might occur:  
   
 -   If the end user installs both versions, the application will load both VSTO Add-ins.  
   
 -   If the VSTO Add-in was installed before the assembly name was changed, the end user will never receive updates.  
   
- To avoid these conditions, don’t change the solution's **Assembly Name** value after you deploy the solution.  
+ To avoid these conditions, don't change the solution's **Assembly Name** value after you deploy the solution.  
   
 ## Checking for Updates Takes a Long Time  
  Visual Studio 2010 Tools for Office Runtime provides a registry entry that administrators can use to set the time-out value for downloading the manifests and the solution.  
@@ -126,7 +125,7 @@ manager: "ghogen"
  Set the extension to **.vsto** and the MIME type to **application/x-ms-vsto**.  
   
 ## See Also  
- [Troubleshooting ClickOnce Deployments](/visual-studio/deployment/troubleshooting-clickonce-deployments)   
+ [Troubleshooting ClickOnce Deployments](/visualstudio/deployment/troubleshooting-clickonce-deployments)   
  [Deploying an Office Solution](../vsto/deploying-an-office-solution.md)  
   
   

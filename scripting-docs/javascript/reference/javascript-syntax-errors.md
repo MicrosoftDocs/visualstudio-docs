@@ -35,8 +35,8 @@ manager: "ghogen"
 |1020|[Can't have 'continue' outside of loop](../../javascript/misc/can-t-have-continue-outside-of-loop.md)|  
 |1030|[Conditional compilation is turned off](../../javascript/misc/conditional-compilation-is-turned-off.md)|  
 |1027|['default' can only appear once in a 'switch' statement](../../javascript/misc/default-can-only-appear-once-in-a-switch-statement.md)|  
-|1005|[Expected '('](../../javascript/misc/expected-left-parenthesis-javascript.md  
-|1006|[Expected ')'](../Topic/Expected%20'\)'%20\(JavaScript\).md)|  
+|1005|[Expected '('](../../javascript/misc/expected-left-parenthesis-javascript.md)|  
+|1006|[Expected ')'](../../javascript/misc/expected-right-parenthesis-javascript.md)|  
 |1012|[Expected '/'](../../javascript/misc/expected-minus.md)|  
 |1003|[Expected ':'](../../javascript/misc/expected-colon.md)|  
 |1004|[Expected ';'](../../javascript/misc/expected-semicolon.md)|  

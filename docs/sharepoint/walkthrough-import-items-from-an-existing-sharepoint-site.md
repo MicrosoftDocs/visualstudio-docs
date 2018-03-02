@@ -2,7 +2,6 @@
 title: "Walkthrough: Import Items from an Existing SharePoint Site | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,11 +16,11 @@ dev_langs:
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, importing items"
   - "importing items [SharePoint development in Visual Studio]"
-ms.assetid: faac3309-88d7-4fb2-8392-feda07fc00e5
-caps.latest.revision: 21
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Walkthrough: Import Items from an Existing SharePoint Site
   This walkthrough demonstrates how to import items from an existing SharePoint site into a [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint project.  
@@ -52,7 +51,7 @@ manager: "ghogen"
   
 2.  Create a subsite off of the main SharePoint site by opening the **Site Actions** menu and then choosing **New Site**.  
   
-3.  In the site’s **Create** dialog box, choose the **Blank Site** type.  
+3.  In the site's **Create** dialog box, choose the **Blank Site** type.  
   
 4.  In the **Title** box, enter **Site Column Test 1**; in the **URL name** box, enter **columntest1**; leave the other settings at their default values; and then choose the **Create** button.  
   

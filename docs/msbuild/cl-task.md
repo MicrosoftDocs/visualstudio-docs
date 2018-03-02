@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: msbuild
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -23,23 +22,11 @@ helpviewer_keywords:
   - "CL task (MSBuild (Visual C++))"
 ms.assetid: 651ba971-b755-4f03-a549-4816beb3cc0d
 caps.latest.revision: 18
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: Mikejo5000
+ms.author: mikejo
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CL Task
 Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.exe) files, dynamic-link library (.dll) files, or code module (.netmodule) files. For more information, see [Compiler Options](/cpp/build/reference/compiler-options).  
@@ -361,7 +348,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      If `true`, implements standard C++ behavior in [for](/cpp/cpp/for-statement-cpp) loops that use Microsoft extensions ([/Ze](/cpp/build/reference/za-ze-disable-language-extensions)).  
   
-     For more information, see [/Zc:forScope (Force Conformance in for Loop Scope)](http://msdn.microsoft.com/Library/3031f02d-3b14-4ad0-869e-22b0110c3aed).  
+     For more information, see [/Zc:forScope (Force Conformance in for Loop Scope)](/cpp/build/reference/zc-forscope-force-conformance-in-for-loop-scope).  
   
 -   **ForcedIncludeFiles**  
   
@@ -709,7 +696,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
      If `true`, treat the `wchar_t` type as a native type.  
   
-     For more information, see [/Zc:wchar_t (wchar_t Is Native Type)](http://msdn.microsoft.com/Library/b0de5a84-da72-4e5a-9a4e-541099f939e0).  
+     For more information, see [/Zc:wchar_t (wchar_t Is Native Type)](/cpp/build/reference/zc-wchar-t-wchar-t-is-native-type).  
   
 -   **UndefineAllPreprocessorDefinitions**  
   

@@ -20,7 +20,7 @@ ms.author: "mikejo"
 manager: "ghogen"
 ---
 # compare Property (Intl.Collator)
-Returns a function that compares two strings by using the collator’s sort order.  
+Returns a function that compares two strings by using the collator's sort order.  
   
 ## Syntax  
   

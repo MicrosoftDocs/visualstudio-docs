@@ -14,22 +14,11 @@ helpviewer_keywords:
   - "IDebugObject2::GetAlias method"
 ms.assetid: aa6824d5-c932-42ba-8713-950e7d1fb42f
 caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugObject2::GetAlias
 Gets the alias associated with this object, if any.  
@@ -42,7 +31,7 @@ HRESULT GetAlias(
 );  
 ```  
   
-```c#  
+```csharp  
 int GetAlias(  
    out IDebugAlias ppAlias  
 );  

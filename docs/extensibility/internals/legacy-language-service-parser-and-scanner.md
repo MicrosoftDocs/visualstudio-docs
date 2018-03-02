@@ -13,22 +13,11 @@ helpviewer_keywords:
   - "language services [managed package framework], Parsers"
 ms.assetid: 1ac3de27-a23b-438d-9593-389e45839cfa
 caps.latest.revision: 20
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Legacy Language Service Parser and Scanner
 The parser is the heart of the language service. The Managed Package Framework (MPF) language classes require a language parser to select information about the code being displayed. A parser separates the text into lexical tokens and then identifies those tokens by type and functionality.  
@@ -36,7 +25,7 @@ The parser is the heart of the language service. The Managed Package Framework (
 ## Discussion  
  The following is a C# method.  
   
-```c#  
+```csharp  
 namespace MyNamespace  
 {  
     class MyClass  
@@ -125,7 +114,7 @@ namespace MyNamespace
 12. Done.  
   
 ### Summary  
- The matching braces operation is typically limited to simple pairs of language elements. More complex elements, such as matching triples ("`if(…)`", "`{`" and "`}`", or "`else`", "`{`" and "`}`"), can be highlighted as part of a word-completion operation. For example, when the "else" word is finished, the matching "`if`" statement can be highlighted. If there were a series of `if`/`else if` statements, all of them could be highlighted by using the same mechanism as matching braces. The <xref:Microsoft.VisualStudio.Package.Source> base class already supports this, as follows: The scanner must return the token trigger value <xref:Microsoft.VisualStudio.Package.TokenTriggers> combined with the trigger value <xref:Microsoft.VisualStudio.Package.TokenTriggers> for the token that is before the cursor position.  
+ The matching braces operation is typically limited to simple pairs of language elements. More complex elements, such as matching triples ("`if(...)`", "`{`" and "`}`", or "`else`", "`{`" and "`}`"), can be highlighted as part of a word-completion operation. For example, when the "else" word is finished, the matching "`if`" statement can be highlighted. If there were a series of `if`/`else if` statements, all of them could be highlighted by using the same mechanism as matching braces. The <xref:Microsoft.VisualStudio.Package.Source> base class already supports this, as follows: The scanner must return the token trigger value <xref:Microsoft.VisualStudio.Package.TokenTriggers> combined with the trigger value <xref:Microsoft.VisualStudio.Package.TokenTriggers> for the token that is before the cursor position.  
   
  For more information, see [Brace Matching in a Legacy Language Service](../../extensibility/internals/brace-matching-in-a-legacy-language-service.md).  
   

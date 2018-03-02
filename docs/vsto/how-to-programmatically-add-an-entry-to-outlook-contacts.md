@@ -2,7 +2,6 @@
 title: "How to: Programmatically Add an Entry to Outlook Contacts | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,11 +13,11 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "contacts [Office development in Visual Studio], creating"
-ms.assetid: 722ed0fa-116e-4eb5-9d86-586ed4ca7d6b
-caps.latest.revision: 21
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Add an Entry to Outlook Contacts
   This example creates a new contact and enters data into the new contact.  
@@ -27,7 +26,7 @@ manager: "ghogen"
   
 ## Example  
  [!code-vb[Trin_OL_AddContact#1](../vsto/codesnippet/VisualBasic/Trin_OL_AddContact/thisaddin.vb#1)]
- [!code-cs[Trin_OL_AddContact#1](../vsto/codesnippet/CSharp/Trin_OL_AddContact/thisaddin.cs#1)]  
+ [!code-csharp[Trin_OL_AddContact#1](../vsto/codesnippet/CSharp/Trin_OL_AddContact/thisaddin.cs#1)]  
   
 ## See Also  
  [Working with Contact Items](../vsto/working-with-contact-items.md)   

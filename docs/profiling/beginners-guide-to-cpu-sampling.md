@@ -1,7 +1,7 @@
 ---
 title: "Beginners Guide to CPU Sampling in Visual Studio | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
-ms.date: "03/06/2017"
+ms.date: "02/27/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,21 +18,9 @@ ms.assetid: 85161cc4-18ee-49b3-9487-33680e687597
 caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Beginners Guide to CPU Sampling
 You can use Visual Studio profiling tools to analyze performance issues in your application. This procedure shows how to use **Sampling** data.
@@ -133,9 +121,11 @@ You can use Visual Studio profiling tools to analyze performance issues in your 
   
 4.  After you rerun the session, another data file is added to the **Reports** folder for the session in **Performance Explorer**. Select both the original and new profiling data, right-click the selection, and then click **Compare Performance Reports**.  
   
-     A new report window opens, displaying the results of the comparison. For more information about how to use the comparison view, see [How to: Compare Performance Data Files](../profiling/how-to-compare-performance-data-files.md).  
+     A new report window opens, displaying the results of the comparison. For more information about how to use the comparison view, see [How to: Compare Performance Data Files](../profiling/how-to-compare-performance-data-files.md).
   
 ## See Also  
  [Performance Explorer](../profiling/performance-explorer.md)   
  [Getting Started](../profiling/getting-started-with-performance-tools.md)   
- [Overviews](../profiling/overviews-performance-tools.md)
+ [Overviews](../profiling/overviews-performance-tools.md)  
+ [Profiling in Visual Studio](../profiling/index.md)  
+ [Profiling Feature Tour](../profiling/profiling-feature-tour.md)

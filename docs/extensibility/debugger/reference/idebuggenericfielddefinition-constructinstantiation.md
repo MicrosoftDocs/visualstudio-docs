@@ -13,29 +13,18 @@ helpviewer_keywords:
   - "IDebugGenericFieldDefinition::ConstructInstantiation"
 ms.assetid: ef8ae261-a98b-4dc2-93b3-7c5191818ba2
 caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugGenericFieldDefinition::ConstructInstantiation
 Constructs a field instance given an array of type arguments.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT ConstructInstantiation(  
    ULONG32       cArgs,  
    IDebugField** ppArgs,  
@@ -43,7 +32,7 @@ HRESULT ConstructInstantiation(
 );  
 ```  
   
-```c#  
+```csharp  
 int ConstructInstantiation(  
    uint            cArgs,  
    IDebugField[]   ppArgs,  

@@ -8,50 +8,30 @@ ms.technology:
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5839d6ca-e5ac-4468-9025-3d5ea177f19c
-caps.latest.revision: 5
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "gewarren"
+ms.author: "gewarren"
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Default Keyboard Shortcuts for Frequently Used Commands in Visual Studio
-You can access frequently used commands in Visual Studio by choosing these default keyboard shortcuts. For a complete list of commands that have default shortcuts, see [Default Keyboard Shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md).  
-  
+
+You can access frequently used commands in Visual Studio by choosing these default keyboard shortcuts. For a complete list of commands that have default shortcuts, see [Default Keyboard Shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md).
+
 > [!NOTE]
->  You can look up the shortcut for any command by opening the **Options** dialog box, expanding the **Environment** node, and then choosing **Keyboard**.  
-  
- **In this topic**  
-  
-||||||  
-|-|-|-|-|-|  
-|[Build](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md#bkmk_build)|[Edit](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md#bkmk_edit)|[Project](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md#bkmk_project)|[Tools](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md#bkmk_tools)|[Window](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md#bkmk_window)|  
-|[Debug](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md#bkmk_debug)|[File](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md#bkmk_file)|[Refactor](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md#bkmk_refactor)|[View](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md#bkmk_view)||  
-  
-##  <a name="bkmk_build"></a> Build  
-  
+> You can look up the shortcut for any command by opening the **Options** dialog box, expanding the **Environment** node, and then choosing **Keyboard**.
+
+## Build
+
 |Commands|Keyboard Shortcuts [Contexts]|  
 |--------------|-------------------------------------|  
 |Build.BuildSolution|Ctrl+Shift+B [Global]|  
 |Build.Cancel|Ctrl+Break [Global]|  
 |Build.Compile|Ctrl+F7 [Global]|  
 |Build.RunCodeAnalysisonSolution|Alt+F11 [Global]|  
-  
-##  <a name="bkmk_debug"></a> Debug  
-  
+
+## Debug
+
 |Commands|Keyboard Shortcuts [Contexts]|  
 |--------------|-------------------------------------|  
 |Debug.BreakatFunction|Ctrl+B [Global]|  
@@ -69,9 +49,9 @@ You can access frequently used commands in Visual Studio by choosing these defau
 |Debug.StepOver|F10 [Global]|  
 |Debug.StopDebugging|Shift+F5 [Global]|  
 |Debug.ToggleBreakpoint|F9 [Global]|  
-  
-##  <a name="bkmk_edit"></a> Edit  
-  
+
+## Edit
+
 |Commands|Keyboard Shortcuts [Contexts]|  
 |--------------|-------------------------------------|  
 |Edit.BreakLine|Enter [Text Editor, Report Designer, Windows Forms Designer]<br /><br /> or Shift+Enter [Text Editor]|  
@@ -83,7 +63,7 @@ You can access frequently used commands in Visual Studio by choosing these defau
 |Edit.Delete|Delete [Global, Team Explorer]<br /><br /> or Shift+Delete [Sequence Diagram, UML Activity Diagram, Layer Diagram]<br /><br /> or Ctrl+Delete [Class Diagram]|  
 |Edit.Find|Ctrl+F [Global]|  
 |Edit.FindAllReferences|Shift+F12 [Global]|  
-dit.FindinFiles|Ctrl+Shift+F [Global]|  
+|Edit.FindinFiles|Ctrl+Shift+F [Global]|  
 |Edit.FindNext|F3 [Global]|  
 |Edit.FindNextSelected|Ctrl+F3 [Global]|  
 |Edit.FormatDocument|Ctrl+K, Ctrl+D [Text Editor]|  
@@ -99,7 +79,7 @@ dit.FindinFiles|Ctrl+Shift+F [Global]|
 |Edit.LineDownExtendColumn|Shift+Alt+Down Arrow [Text Editor]|  
 |Edit.LineOpenAbove|Ctrl+Enter [Text Editor]|  
 |Edit.ListMembers|Ctrl+J [Text Editor, Workflow Designer]<br /><br /> or Ctrl+K, Ctrl+L [Workflow Designer]<br /><br /> or Ctrl+K, L [Workflow Designer]|  
-dit.NavigateTo|Ctrl+, [Global]|  
+|Edit.NavigateTo|Ctrl+, [Global]|  
 |Edit.OpenFile|Ctrl+Shift+G [Global]|  
 |Edit.OvertypeMode|Insert [Text Editor]|  
 |Edit.ParameterInfo|Ctrl+Shift+Spacebar [Text Editor, Workflow Designer]<br /><br /> or Ctrl+K, Ctrl+P [Workflow Designer]<br /><br /> or Ctrl+K, P [Workflow Designer]|  
@@ -110,7 +90,7 @@ dit.NavigateTo|Ctrl+, [Global]|
 |Edit.SelectAll|Ctrl+A [Global]|  
 |Edit.SelectCurrentWord|Ctrl+W [Text Editor]|  
 |Edit.SelectionCancel|Esc [Text Editor, Report Designer, Settings Designer, Windows Forms Designer, Managed Resources Editor]|  
-dit.SurroundWith|Ctrl+K, Ctrl+S [Global]|  
+|Edit.SurroundWith|Ctrl+K, Ctrl+S [Global]|  
 |Edit.TabLeft|Shift+Tab [Text Editor, Report Designer, Windows Forms Editor]|  
 |Edit.ToggleAllOutlining|Ctrl+M, Ctrl+L [Text Editor]|  
 |Edit.ToggleBookmark|Ctrl+K, Ctrl+K [Text Editor]|  
@@ -120,9 +100,9 @@ dit.SurroundWith|Ctrl+K, Ctrl+S [Global]|
 |Edit.Undo|Ctrl+Z [Global]<br /><br /> or Alt+Backspace [Global]|  
 |Edit.WordDeleteToEnd|Ctrl+Delete [Text Editor]|  
 |Edit.WordDeleteToStart|Ctrl+Backspace [Text Editor]|  
-  
-##  <a name="bkmk_file"></a> File  
-  
+
+## File
+
 |Commands|Keyboard Shortcuts [Contexts]|  
 |--------------|-------------------------------------|  
 |File.Exit|Alt+F4 [Global]|  
@@ -136,28 +116,28 @@ dit.SurroundWith|Ctrl+K, Ctrl+S [Global]|
 |File.SaveAll|Ctrl+Shift+S [Global]|  
 |File.SaveSelectedItems|Ctrl+S [Global]|  
 |File.ViewinBrowser|Ctrl+Shift+W [Global]|  
-  
-##  <a name="bkmk_project"></a> Project  
-  
+
+## Project
+
 |Commands|Keyboard Shortcuts [Contexts]|  
 |--------------|-------------------------------------|  
 |Project.AddExistingItem|Shift+Alt+A [Global]|  
 |Project.AddNewItem|Ctrl+Shift+A [Global]|  
-  
-##  <a name="bkmk_refactor"></a> Refactor  
-  
+
+## Refactor
+
 |Command|Keyboard Shortcut [Context]|  
 |-------------|-----------------------------------|  
 |Refactor.ExtractMethod|Ctrl+R, Ctrl+M [Global]|  
-  
-##  <a name="bkmk_tools"></a> Tools  
-  
+
+## Tools
+
 |Command|Keyboard Shortcut [Context]|  
 |-------------|-----------------------------------|  
 |Tools.AttachtoProcess|Ctrl+Alt+P [Global]|  
-  
-##  <a name="bkmk_view"></a> View  
-  
+
+## View
+
 |Commands|Keyboard Shortcuts [Contexts]|  
 |--------------|-------------------------------------|  
 |View.ClassView|Ctrl+Shift+C [Global]|  
@@ -172,13 +152,13 @@ dit.SurroundWith|Ctrl+K, Ctrl+S [Global]|
 |View.ServerExplorer|Ctrl+Alt+S [Global]|  
 |View.ShowSmartTag|Ctrl+. [Global]<br /><br /> or Shift+Alt+F10 [Global, HTML Editor Design View]|  
 |View.SolutionExplorer|Ctrl+Alt+L [Global]|  
-iew.TfsTeamExplorer|Ctrl+\\, Ctrl+M [Global]|  
+|View.TfsTeamExplorer|Ctrl+\\, Ctrl+M [Global]|  
 |View.Toolbox|Ctrl+Alt+X [Global]|  
 |View.ViewCode|Enter [Class Diagram]<br /><br /> or F7 [Settings Designer]|  
 |View.ViewDesigner|Shift+F7 [HTML Editor Source View]|  
-  
-##  <a name="bkmk_window"></a> Window  
-  
+
+## Window
+
 |Commands|Keyboard Shortcuts [Contexts]|  
 |--------------|-------------------------------------|  
 |Window.ActivateDocumentWindow|Esc [Global]|  
@@ -186,3 +166,7 @@ iew.TfsTeamExplorer|Ctrl+\\, Ctrl+M [Global]|
 |Window.NextDocumentWindow|Ctrl+F6 [Global]|  
 |Window.NextDocumentWindowNav|Ctrl+Tab [Global]|  
 |Window.NextSplitPane|F6 [Global]|
+
+## See also
+
+[Identifying and customizing keyboard shortcuts in Visual Studio](../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md)

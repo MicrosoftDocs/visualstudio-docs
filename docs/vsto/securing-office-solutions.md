@@ -2,7 +2,6 @@
 title: "Securing Office Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,11 +15,11 @@ helpviewer_keywords:
   - "Office development in Visual Studio, security"
   - "Office applications [Office development in Visual Studio], security"
   - "security [Office development in Visual Studio]"
-ms.assetid: af840916-dda4-4e52-b536-802ebcab30ca
-caps.latest.revision: 78
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Securing Office Solutions
   The security model for Office solutions involves several technologies: the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)], [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)], the Trust Center in Microsoft Office, and the Internet Explorer restricted sites zone. The following sections describe how the different security features work:  
@@ -110,7 +109,7 @@ manager: "ghogen"
  [Troubleshooting Office Solution Security](../vsto/troubleshooting-office-solution-security.md)   
  [Application Manifests for Office Solutions](../vsto/application-manifests-for-office-solutions.md)   
  [Deployment Manifests for Office Solutions](../vsto/deployment-manifests-for-office-solutions.md)   
- [ClickOnce Reference](/visual-studio/deployment/clickonce-reference)   
+ [ClickOnce Reference](/visualstudio/deployment/clickonce-reference)   
  [Deploying an Office Solution](../vsto/deploying-an-office-solution.md)  
   
   

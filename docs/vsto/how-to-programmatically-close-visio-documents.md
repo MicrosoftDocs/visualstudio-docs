@@ -2,7 +2,6 @@
 title: "How to: Programmatically Close Visio Documents | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,16 +14,16 @@ dev_langs:
 helpviewer_keywords: 
   - "documents [Office development in Visual Studio], closing Visio documents"
   - "Visio [Office development in Visual Studio], closing Visio documents"
-ms.assetid: 59c0e215-a4c1-4b39-a491-37534f172705
-caps.latest.revision: 13
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Close Visio Documents
   You can close the active Microsoft Office Visio document by using the Microsoft.Office.Interop.Visio.Document.Close method.  
   
- For details about this method, see the VBA reference documentation for the [Microsoft.Office.Interop.Visio.Document.Close](HV10070225) method.  
+ For details about this method, see the VBA reference documentation for the [Microsoft.Office.Interop.Visio.Document.Close](http://msdn.microsoft.com/library/office/ff767415.aspx) method.  
   
 ## Closing the Active Document  
   
@@ -34,7 +33,7 @@ manager: "ghogen"
   
      To use the following code example, run it in the `ThisAddIn` class in an VSTO Add-in project for Visio.  
   
-     [!code-cs[Trin_VstcoreVisioAutomationAddIn#7](../vsto/codesnippet/CSharp/trin_vstcorevisioautomationaddin/ThisAddIn.cs#7)]
+     [!code-csharp[Trin_VstcoreVisioAutomationAddIn#7](../vsto/codesnippet/CSharp/trin_vstcorevisioautomationaddin/ThisAddIn.cs#7)]
      [!code-vb[Trin_VstcoreVisioAutomationAddIn#7](../vsto/codesnippet/VisualBasic/trin_vstcorevisioautomationaddin/ThisAddIn.vb#7)]  
   
 ## See Also  

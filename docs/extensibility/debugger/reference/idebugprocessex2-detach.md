@@ -14,35 +14,24 @@ helpviewer_keywords:
   - "IDebugProcessEx2::Detach method"
 ms.assetid: 66d54c2c-9302-47c8-9975-f30ed988ab29
 caps.latest.revision: 15
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProcessEx2::Detach
 This method informs the process that a session is no longer debugging the process.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Detach(   
    IDebugSession2* pSession  
 );  
 ```  
   
-```c#  
+```csharp  
 int Detach(  
    IDebugSession2 pSession  
 );  

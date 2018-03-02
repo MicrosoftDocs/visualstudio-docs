@@ -14,35 +14,24 @@ helpviewer_keywords:
   - "IPropertyProxyEESide::GetInitialData"
 ms.assetid: 36cceb19-2604-4ef9-b42b-5dd30cbe24b1
 caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IPropertyProxyEESide::GetInitialData
 Returns the initial data for this object.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetInitialData(  
    IEEDataStorage** dataOut  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetInitialData(  
    out IEEDataStorage dataOut  
 );  

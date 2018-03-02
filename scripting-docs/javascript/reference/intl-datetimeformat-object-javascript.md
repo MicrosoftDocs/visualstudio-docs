@@ -47,7 +47,7 @@ dateTimeFormatObj = new Intl.DateTimeFormat([locales][, options])
   
      where *numberingsystem* may be one of the following: arab, arabext, bali, beng, deva, fullwide, gujr, guru, hanidec, khmr, knda, laoo, latn, limb, mylm, mong, mymr, orya, tamldec, telu, thai, tibt.  
   
--   –ca to specify a calendar: *language*-*region*-u-ca-*calendar*  
+-   -ca to specify a calendar: *language*-*region*-u-ca-*calendar*  
   
      where *calendar* may be one of the following: buddhist, chinese, gregory, islamic, islamicc, japanese.  
   

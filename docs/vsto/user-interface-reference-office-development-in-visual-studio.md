@@ -2,7 +2,6 @@
 title: "User Interface Reference (Office Development in Visual Studio) | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,11 +13,11 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "reference [Office development in Visual Studio], user interface"
-ms.assetid: e6c2657f-45e5-42d6-90c7-a45ec1dcbf50
-caps.latest.revision: 16
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # User Interface Reference (Office Development in Visual Studio)
   The following user interface elements are part of Office projects in Visual Studio.  

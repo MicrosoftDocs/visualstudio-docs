@@ -12,22 +12,11 @@ helpviewer_keywords:
   - "TASK_STATE_WAITING_ON_CHILDREN field, Task class [.NET Framework debug engines]"
 ms.assetid: 6f26b098-84ad-4f6e-ba27-6136581ba630
 caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # TASK_STATE_WAITING_ON_CHILDREN Field
 The task has finished executing its delegate and is implicitly waiting for attached child tasks to complete.  

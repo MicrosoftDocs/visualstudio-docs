@@ -13,20 +13,8 @@ caps.latest.revision: 6
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+ms.workload: 
+  - "multiple"
 ---
 # InitializeCorrelation Activity Designer
 The **InitializeCorrelation** activity designer is used to create and configure an <xref:System.ServiceModel.Activities.InitializeCorrelation> activity that is used to establish a correlation between messages prior to sending or receiving them.  
@@ -41,7 +29,7 @@ The **InitializeCorrelation** activity designer is used to create and configure 
   
  The <xref:System.ServiceModel.Activities.CorrelationHandle> can be specifies in the **Correlation** field in **Properties** window on the **InitializeCorrelation** activity designer surface.  
   
- Clicking the ellipse button besides the **CorrelationData** field in **Properties** window or the “View …” hint text on **InitializeCorrelation** activity designer surface displays the **Initialize Correlation** dialog box in which you can specify the correlation handle and the key-value pairs used to initialize it. [!INCLUDE[crabout](../test/includes/crabout_md.md)] using this dialog box, see the [Type Collection Editor Dialog Box](../workflow-designer/type-collection-editor-dialog-box.md) topic.  
+ Clicking the ellipse button besides the **CorrelationData** field in **Properties** window or the "View ..." hint text on **InitializeCorrelation** activity designer surface displays the **Initialize Correlation** dialog box in which you can specify the correlation handle and the key-value pairs used to initialize it. [!INCLUDE[crabout](../test/includes/crabout_md.md)] using this dialog box, see the [Type Collection Editor Dialog Box](../workflow-designer/type-collection-editor-dialog-box.md) topic.  
   
 ### The InitializeCorrelation Properties  
  The following table shows the <xref:System.ServiceModel.Activities.InitializeCorrelation> properties and describes how they are used in the designer. These properties can be edited in **Properties** window or on [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] surface.  

@@ -2,7 +2,6 @@
 title: "Security and Deployment Walkthroughs | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,11 +16,11 @@ helpviewer_keywords:
   - "walkthroughs [Office development in Visual Studio], security"
   - "deployment manifests [Office development in Visual Studio], walkthroughs"
   - "walkthroughs [Office development in Visual Studio], deployment"
-ms.assetid: 0a74f24e-abb0-49ba-ad12-0e6a5b78b85d
-caps.latest.revision: 29
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Security and Deployment Walkthroughs
   The following topics demonstrate how you can set security policy to allow your solution to run, and how you can deploy your Office solution.  
