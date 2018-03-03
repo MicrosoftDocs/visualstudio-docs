@@ -38,6 +38,7 @@
       "build_source_folder": "docs",
       "build_output_subfolder": "vsdocsdocs",
       "locale": "en-us",
+      "xref_query_tags": ["/dotnet/api"],
       "monikers": [],
       "open_to_public_contributors": true,
       "type_mapping": {
