@@ -5,7 +5,7 @@ ms.custom:
 ms.date: 03/05/2018
 ms.reviewer:
 ms.suite:
-ms.technology: 
+ms.technology:
   - "devlang-python"
 dev_langs:
   - "python"
@@ -14,7 +14,7 @@ ms.topic: "article"
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
-ms.workload: 
+ms.workload:
   - "python"
   - "data-science"
 ---
@@ -47,7 +47,7 @@ Also see the following scenario-specific debugging articles:
 
 The basic debugging workflow involves settings breakpoints, stepping through code, inspecting values, and handling exceptions as described in the following sections. For complete details on the Visual Studio debugger, see [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md).
 
-A debugging session starts with the **Debug > Start Debugging** command, the **Start** button on the toolbar, or the F5 key. These actions launch your project's startup file (shown in bold in Solution Explorer) with the project's active environment and any command-line arguments or search paths that have been specified in Project Properties (see [Project debugging options](#project-debugging-options). Visual Studio 2017 version 15.6 and higher alerts you if you don't have a startup file set; earlier versions may open an output window with the Python interpreter running, or the output window briefly appears and disappears. In any case, right-click the appropriate file and select **Set as Startup File**.
+A debugging session starts with the **Debug > Start Debugging** command, the **Start** button on the toolbar, or the F5 key. These actions launch your project's startup file (shown in bold in Solution Explorer) with the project's active environment and any command-line arguments or search paths that have been specified in Project Properties (see [Project debugging options](#project-debugging-options). **Visual Studio 2017 version 15.6** and later alerts you if you don't have a startup file set; earlier versions may open an output window with the Python interpreter running, or the output window briefly appears and disappears. In any case, right-click the appropriate file and select **Set as Startup File**.
 
 > [!Note]
 > The debugger always starts with the active Python environment for the project. To change the environment, make a different one active as described on [Selecting a Python environment for a project](selecting-a-python-environment-for-a-project.md).
