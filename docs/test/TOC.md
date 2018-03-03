@@ -73,6 +73,7 @@
 ## [Test labs](lab-management/using-a-lab-environment-for-your-application-lifecycle.md)
 ### [Use Build or Release management for automated tests](lab-management/use-build-or-rm-instead-of-lab-management.md)
 ### [Install and configure test agents](lab-management/install-configure-test-agents.md)
+### [Upgrade SCVMM 2008 R2 to SCVMM 2012](upgrade-scvmm-2008-r2-scvmm-2012.md)
 # Reference
 ## [Test Explorer FAQ](test-explorer-faq.md)
 ## [Live Unit Testing FAQ](live-unit-testing-faq.md)
