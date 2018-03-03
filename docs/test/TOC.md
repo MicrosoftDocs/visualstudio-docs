@@ -10,7 +10,7 @@
 ## [Use Live Unit Testing](live-unit-testing-start.md)
 ## [Create and edit a Coded UI test](walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md)
 # How-to guides
-## [Unit tests](unit-test-your-code.md)
+## [Unit testing](unit-test-your-code.md)
 ### [Get started with unit testing](getting-started-with-unit-testing.md)
 ### [Unit test basics](unit-test-basics.md)
 ### [Create a unit test project](create-a-unit-test-project.md)
