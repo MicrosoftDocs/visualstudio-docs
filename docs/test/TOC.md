@@ -76,7 +76,7 @@
 # Reference
 ## [Test Explorer FAQ](test-explorer-faq.md)
 ## [Live Unit Testing FAQ](live-unit-testing-faq.md)
-## [Use the unit test framework API](using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md)
+## [Use the MSTest framework](using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md)
 ### [Assert classes](using-the-assert-classes.md)
 ## [Microsoft unit test framework for C++](microsoft-visualstudio-testtools-cppunittestframework-api-reference.md)
 ## [Sample project for creating unit tests](sample-project-for-creating-unit-tests.md)
