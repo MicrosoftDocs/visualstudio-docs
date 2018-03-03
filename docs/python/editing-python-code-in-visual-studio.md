@@ -39,7 +39,7 @@ IntelliSense provides [completions](#completions), [signature help](#signature-h
 
 To improve performance, IntelliSense in **Visual Studio 2017 version 15.5** and earlier depends on a completion database that's generated for each Python environment in your project. Databases may need refreshing if you add, remove, or update packages. Database status is shown in the **Python Environments** window (a sibling of Solution Explorer) on the **IntelliSense** tab (see [Environments window reference](python-environments-window-tab-reference.md#intellisense-tab)).
 
-**Visual Studio 2017 version 15.6** and later use a different means to provide IntelliSense completions that are not dependent on the database.
+**Visual Studio 2017 version 15.6** and later uses a different means to provide IntelliSense completions that are not dependent on the database.
 
 ### Completions
 

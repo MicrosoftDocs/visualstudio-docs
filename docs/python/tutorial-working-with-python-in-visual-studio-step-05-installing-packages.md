@@ -47,7 +47,7 @@ The Python developer community has produced thousands of useful packages that yo
 
   The small progress bar underneath the environment indicates that Visual Studio is building its IntelliSense database for the newly-installed package. The **IntelliSense** tab also shows more detailed information. Note that until that database is complete, IntelliSense features like auto-completion and syntax checking won't be active in the editor for that package.
 
-  Note that **Visual Studio 2017 version 15.6** and later use a different and faster method for working with IntelliSense, and display a message to that effect on the **IntelliSense** tab.
+  Note that **Visual Studio 2017 version 15.6** and later uses a different and faster method for working with IntelliSense, and display a message to that effect on the **IntelliSense** tab.
 
 1. Create a new project with **File > New > Project**, selecting the "Python Application" template. In the code file that appears, paste the following code, which creates a cosine wave like the previous tutorial steps, only this time plotted graphically:
 
