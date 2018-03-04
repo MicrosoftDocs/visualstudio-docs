@@ -6,7 +6,7 @@ ms.date: "02/19/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-acquisition"
+  - "vs-nodejs"
 ms.tgt_pltfrm: ""
 ms.topic: "tutorial"
 ms.devlang: javascript
@@ -260,7 +260,7 @@ Each time you make changes to *app.js*, you must re-run the webpack command.
 
 If you would like more information on using a template based on Express, see [Create an Express 4 web application](../nodejs/tutorial-nodejs.md)
 
-## (Optional) Set and hit a breakpoint in the client-side React code
+## Set and hit a breakpoint in the client-side React code
 
 In the preceding section, we attached the debugger to server-side Node.js code. To attach the debugger and hit breakpoints in client-side React code, the Visual Studio debugger needs help to identify the correct process. Here is one way to enable this.
 
@@ -299,7 +299,7 @@ In the preceding section, we attached the debugger to server-side Node.js code. 
 
 Next time you want to attach the debugger, you can save time by using **Debug** > **Reattach to Process**.
 
-## (Optional) Set and hit a breakpoint using sourcemaps
+## Set and hit a breakpoint using sourcemaps
 
 We previously generated a sourcemap file by including `devtool: 'source-map'` in the `webpack-config.js file`. To use the sourcemap file for debugging:
 
@@ -313,5 +313,7 @@ We previously generated a sourcemap file by including `devtool: 'source-map'` in
 
 ## Next steps 
 
+In this tutorial, you learned how to create a Node.js app using React. To learn more about Node.js Tools for Visual Studio, see the documentation.
+
 > [!div class="nextstepaction"]
-> [Node.js Tools for Visual Studio](https://github.com/Microsoft/nodejstools/wiki)
+> [Node.js Tools for Visual Studio](https://github.com/Microsoft/nodejstools)
