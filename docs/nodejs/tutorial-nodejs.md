@@ -5,7 +5,7 @@ ms.date: "11/30/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-acquisition"
+  - "vs-nodejs"
 ms.tgt_pltfrm: ""
 ms.topic: "tutorial"
 ms.devlang: javascript

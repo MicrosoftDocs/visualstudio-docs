@@ -19,7 +19,7 @@ ms.workload:
   - "nodejs"
 ---
 # Tutorial: Create a Node.js and React app in Visual Studio
-In this tutorial for Node.js development using Visual Studio, you'll create a Node.js web application project from a Visual Studio template and then create a simple app using React. If you haven't already installed Visual Studio, install it for free [here](http://www.visualstudio.com).  
+In this tutorial for Node.js development using Visual Studio, you create a Node.js web application project from a Visual Studio template. Then you create a simple app using React. If you haven't already installed Visual Studio, install it for free [here](http://www.visualstudio.com).  
 
 In this tutorial, you learn how to:
 > [!div class="checklist"]
@@ -30,11 +30,11 @@ In this tutorial, you learn how to:
 > * Attach the debugger
 
 ## Create a project
-First, create an Node.js web application project.
+First, create a Node.js web application project.
 
 1. If you don't have the Node.js runtime already installed, install the LTS version from the [Node.js](https://nodejs.org/en/download/) website.
 
-    In general, Visual Studio automatically detects the installed Node.js runtime. If it does not detect an installed runtime you can configure your project to reference the installed runtime.
+    In general, Visual Studio automatically detects the installed Node.js runtime. If it does not detect an installed runtime, you can configure your project to reference the installed runtime.
 
     This topic was tested with version 8.9.4.
 
@@ -99,7 +99,7 @@ In these steps, you add four new files to your project.
 * *webpack-config.js*
 * *index.html*
 
-For this simple app, we will just add the new project files in the project root. (In most apps, you typically add the files to subfolders and adjust relative path references accordingly.)
+For this simple app, you add the new project files in the project root. (In most apps, you typically add the files to subfolders and adjust relative path references accordingly.)
 
 1. In Solution Explorer, right-click the project **NodejsWebAppBlank** (or whatever you named the project) and choose **Add** > **New Item**.
 
@@ -167,7 +167,7 @@ For this simple app, we will just add the new project files in the project root.
 
 ## Configure webpack and babel
 
-In the previous steps, we added *webpack-config.js* to the project. Next, we add webpack configuration code. We will add a very simple webpack configuration that specifies an input file (*app.js*) and an output file (*browser-bundle.js*) for bundling and transpiling JSX to plain JavaScript. We also configure some babel options to support React. This is a very basic configuration that is intended as an introduction to webpack and babel.
+In the previous steps, you added *webpack-config.js* to the project. Next, you add webpack configuration code. You will add a simple webpack configuration that specifies an input file (*app.js*) and an output file (*browser-bundle.js*) for bundling and transpiling JSX to plain JavaScript. You also configure some babel options to support React. This code is a basic configuration that is intended as an introduction to webpack and babel.
 
 1. In Solution Explorer, open *webpack-config.js* and add the following code.
 
@@ -209,7 +209,7 @@ In the previous steps, we added *webpack-config.js* to the project. Next, we add
 
     ![Run webpack](../nodejs/media/tutorial-nodejs-react-run-webpack.png) 
 
-    If you see any errors instead of the preceding output, you must resolve them before your app will work. If your npm package versions are different than the versions shown in this tutorial, that can be a source of errors. One way to fix this is to use the exact versions shown in the earlier illustration.
+    If you see any errors instead of the preceding output, you must resolve them before your app will work. If your npm package versions are different than the versions shown in this tutorial, that can be a source of errors. One way to fix errors is to use the exact versions shown in the earlier illustration.
 
 1. In Solution Explorer, open *browser-bundle.js* to see the transpiled JavaScript code.
 
@@ -220,7 +220,7 @@ In the previous steps, we added *webpack-config.js* to the project. Next, we add
 
     ![Load modified files](../nodejs/media/tutorial-nodejs-react-reload-files.png) 
 
-Each time you make changes to *app.js*, you must re-run the webpack command.
+Each time you make changes to *app.js*, you must rerun the webpack command.
 
 ## Run the app
 
@@ -228,7 +228,7 @@ Each time you make changes to *app.js*, you must re-run the webpack command.
 
     ![Select Chrome as debug target](../nodejs/media/tutorial-nodejs-react-debug-target.png)  
 
-1. Press **F5** (**Debug** > **Start Debugging**), or the green arrow button, to run the app.
+1. To run the app, press **F5** (**Debug** > **Start Debugging**) or the green arrow button.
 
     A Node.js console window opens that shows the port on which the debugger is listening.
 
@@ -248,7 +248,7 @@ Each time you make changes to *app.js*, you must re-run the webpack command.
 
     Breakpoints are the most basic and essential feature of reliable debugging. A breakpoint indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run. 
 
-1. Press **F5** (**Debug** > **Start Debugging**) to run the application.
+1. To run the app, press **F5** (**Debug** > **Start Debugging**).
 
     The debugger pauses at the breakpoint you set (the current statement is marked in yellow). Now, you can inspect your app state by hovering over variables that are currently in scope, using debugger windows like the **Locals** and **Watch** window, etc.
 
@@ -265,7 +265,7 @@ If you would like more information on using a template based on Express, see [Cr
 In the preceding section, we attached the debugger to server-side Node.js code. To attach the debugger and hit breakpoints in client-side React code, the Visual Studio debugger needs help to identify the correct process. Here is one way to enable this.
 
 > [!TIP]
-> Once you attach to the process the first time by following these steps, you can quickly re-attach to the same process in Visual Studio 2017 by choosing **Debug** > **Reattach to Process**.
+> Once you attach to the process the first time by following these steps, you can quickly reattach to the same process in Visual Studio 2017 by choosing **Debug** > **Reattach to Process**.
 
 1. Close all Chrome windows.
 
@@ -275,7 +275,7 @@ In the preceding section, we attached the debugger to server-side Node.js code. 
 
     This starts Chrome with debugging enabled.
 
-1. Switch to Visual Studio and set a breakpoint in *browser-bundle.js* code as shown in the following illustration.
+1. Switch to Visual Studio and set a breakpoint in *browser-bundle.js* code as shown in the following illustration:
 
     ![Set a breakpoint](../nodejs/media/tutorial-nodejs-react-set-breakpoint-client-code.png) 
 
@@ -291,7 +291,7 @@ In the preceding section, we attached the debugger to server-side Node.js code. 
 
     ![Attach to process](../nodejs/media/tutorial-nodejs-react-attach-to-process.png) 
 
-    When the debugger attaches, you see the DOM Explorer and the JavaScript Console open in Visual Studio. These debugging tools are very similar to Chrome Developer Tools and F12 Tools for Edge.
+    When the debugger attaches, you see the DOM Explorer and the JavaScript Console open in Visual Studio. These debugging tools are similar to Chrome Developer Tools and F12 Tools for Edge.
 
 1. Because the code with the breakpoint already executed, refresh your browser page to hit the breakpoint.
 
@@ -309,7 +309,7 @@ We previously generated a sourcemap file by including `devtool: 'source-map'` in
 
 1. In *app.js*, set a breakpoint on the `render()` line of code.
 
-1. Either choose **Debug** > **Reattach to Process** (if you attached the debugger to client-side React code previously) or follow all the steps in the section **Set and hit a breakpoint in the client-side React code**. (Skip the step on setting a breakpoint in *browser-bundle.js*.)
+1. Choose either **Debug** > **Reattach to Process** (if you attached the debugger to client-side React code previously) or follow all the steps in the section **Set and hit a breakpoint in the client-side React code**. (Skip the step on setting a breakpoint in *browser-bundle.js*.)
 
 ## Next steps 
 
