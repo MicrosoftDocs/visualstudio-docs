@@ -53,7 +53,7 @@ When there is an update, there's a corresponding notification flag in Visual Stu
 
 ### Use the IDE
 
-You can check for an update and then install an update from the menu bar in Visual Studio.
+You can check for an update and then install the update from the menu bar in Visual Studio.
 
 1. Save your work.
 
