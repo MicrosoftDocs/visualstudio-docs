@@ -98,8 +98,6 @@ The following attributes and the values assigned to them appear in the Visual St
 
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute>
 
-- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.HostTypeAttribute>
-
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.IgnoreAttribute>
 
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.PriorityAttribute>
