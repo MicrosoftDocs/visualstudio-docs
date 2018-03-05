@@ -17,7 +17,7 @@ ms.workload:
 # Change Log (Visual Studio Tools for Unity)
 Visual Studio Tools for Unity change log.
 
-# 3.6.0.4
+## 3.6.0.4
  Released 2018-03-05
 
 ### Bug fixes
@@ -30,7 +30,7 @@ Visual Studio Tools for Unity change log.
 
     -   Fixed timing issues with 2018.1 and plugin activation.
 
-# 3.6.0.3
+## 3.6.0.3
  Released 2018-02-23
 
 ### New Features
@@ -49,7 +49,7 @@ Visual Studio Tools for Unity change log.
 
     -   Fixed breaking on exceptions that are thrown outside of usercode.
 
-# 3.6.0.2
+## 3.6.0.2
  Released 2018-02-07
 
 ### New Features
