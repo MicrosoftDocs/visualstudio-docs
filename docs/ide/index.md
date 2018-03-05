@@ -5,9 +5,9 @@ layout: LandingPage
 author: "gewarren"
 ms.author: "gewarren"
 ms.topic: landing-page
-ms.technology: 
+ms.technology:
   - "vs-ide-general"
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Visual Studio Documentation
@@ -122,7 +122,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Write code in the editor</h3>
+                        <h3>Use the code editor</h3>
                     </div>
                 </div>
             </div>
