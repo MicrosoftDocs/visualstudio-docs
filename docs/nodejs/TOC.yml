@@ -1,0 +1,14 @@
+- name: Overview
+  items:
+  - name: Overview
+  - href: overview-of-nodejs-tools-for-visual-studio.md
+- name: Quickstarts
+  items:
+  - name: Node.js: Create a Web app
+- name: Tutorials
+  items:
+  - name: Create a Node.js app with React
+  - href: tutorial-nodejs-with-react-and-jsx.md
+  - name: Create a Node.js app with Express
+- name: How-to guides
+- name: Resources
