@@ -67,7 +67,7 @@ You can check for an update and then install the update from the menu bar in Vis
 
 ### Use the Visual Studio Installer
 
-As in previous versions of Visual Studio 2017, you can use the Visual Studio Installer to install an update.
+As in earlier versions of Visual Studio 2017, you can use the Visual Studio Installer to install an update.
 
 1. Save your work.
 
