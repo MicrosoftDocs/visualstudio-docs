@@ -11,7 +11,7 @@ author: gewarren
 ---
 # Using the MSTest framework in unit tests
 
-The <xref:Microsoft.VisualStudio.TestTools.UnitTesting> framework supports unit testing in Visual Studio. Use the classes and members in the <xref:Microsoft.VisualStudio.TestTools.UnitTesting> namespace when you are coding unit tests. You can also use them when you are refining a unit test that was generated from code.
+The [MSTest](<xref:Microsoft.VisualStudio.TestTools.UnitTesting>) framework supports unit testing in Visual Studio. Use the classes and members in the <xref:Microsoft.VisualStudio.TestTools.UnitTesting> namespace when you are coding unit tests. You can also use them when you are refining a unit test that was generated from code.
 
 ## Framework members
 
@@ -36,7 +36,7 @@ Use the following elements to set up data-driven unit tests. For more informatio
 
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElementCollection>
 
-## Attributes used to establish a calling crder
+## Attributes used to establish a calling order
 
 A code element decorated with one of the following attributes is called at the moment you specify. For more information, see [Anatomy of a Unit Test](http://msdn.microsoft.com/a03d1ee7-9999-4e7c-85df-7d9073976144).
 
@@ -56,7 +56,7 @@ ClassInitialize and ClassCleanup are called right after your class is loaded and
 
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.ClassCleanupAttribute>
 
-### Attribtes for test methods
+### Attributes for test methods
 
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestInitializeAttribute>
 
