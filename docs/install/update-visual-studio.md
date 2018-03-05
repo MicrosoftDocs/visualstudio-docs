@@ -1,7 +1,7 @@
 ---
 title: "Update Visual Studio 2017 | Microsoft Docs"
 description: "Learn how to update Visual Studio, step-by-step."
-ms.date: "03/02/2018"
+ms.date: "03/05/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -20,7 +20,7 @@ ms.workload:
 ---
 # Update Visual Studio 2017 to the most recent release
 
-We encourage you to update most [recent version](/visualstudio/releasenotes/vs2017-relnotes) of Visual Studio 2017 so that you always get the latest features, fixes, and improvemens.
+We encourage you to update most [recent version](/visualstudio/releasenotes/vs2017-relnotes) of Visual Studio 2017 so that you always get the latest features, fixes, and improvements.
 
 And if you'd like to try anything out before we release it, consider downloading the [preview release](/visualstudio/releasenotes/vs2017-preview-relnotes) of the next version, too.
 
