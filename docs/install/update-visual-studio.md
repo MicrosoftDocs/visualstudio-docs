@@ -55,7 +55,7 @@ New with version 15.6: We've streamlined the installation and update experience 
 
 2. When the **Update** dialog box opens, choose **Update Now**. The update proceeds as described in the previous section, and then Visual Studio restarts after the update completes successfully.
 
-## Use the Visual Studio Installer
+### Use the Visual Studio Installer
 
 1. Open the installer. You might need to update the installer before continuing. If this is the case, you are prompted to do so.
 
