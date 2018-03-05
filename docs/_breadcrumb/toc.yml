@@ -57,7 +57,7 @@
     - name: MSBuild
       tocHref: /visualstudio/msbuild/
       topicHref: /visualstudio/msbuild/msbuild
-    - name: Node.js
+    - name: Nodejs
       tocHref: /visualstudio/nodejs/
       topicHref: /visualstudio/nodejs/overview-of-nodejs-tools-for-visual-studio
     - name: Profiling
