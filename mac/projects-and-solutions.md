@@ -1,6 +1,6 @@
 ---
 title: "Projects and Solutions"
-description: This document provides an overview of Projects and Solutions in Xamarin Studio.
+description: This document provides an overview of Projects and Solutions in Visual Studio for Mac.
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017

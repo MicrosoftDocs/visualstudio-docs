@@ -10,11 +10,11 @@ ms.assetid: 6958B102-8527-4B40-BC65-3505DB63F9D3
 
 # Customizing the build system
 
-MSbuild is a build engine, developed by Microsoft, that allows for the building of primarily .NET applications. The Mono framework also has it's own implementation of Microsoft's Build Engine, called **xbuild**. However, xbuild has been phased out, in favor of using MSBuild on all operating systems.
+MSbuild is a build engine, developed by Microsoft, that allows for the building of primarily .NET applications. The Mono framework also has its own implementation of Microsoft's Build Engine, called **xbuild**. However, xbuild has been phased out, in favor of using MSBuild on all operating systems.
 
 **MSbuild** is primarily used for as the build system for projects in Visual Studio for Mac. 
 
-MSBuild works by taking a set of inputs, such as source files, and transforms them to outputs, such as executables, and achieves this output by invoking tools such as the compiler. 
+MSBuild works by taking a set of inputs, such as source files, and transforms them to outputs, such as executables. It achieves this output by invoking tools such as the compiler. 
 
 
 ## MSBuild file
@@ -22,17 +22,18 @@ MSBuild works by taking a set of inputs, such as source files, and transforms th
 MSBuild uses an XML file, called a project file, that defines the *Items* that are part of your project (such as image resources), and the *Properties* required to build your project. This project file will always have a file extension ending in `proj`, such as `.csproj` for C# projects. 
 
 ### Viewing the MSBuild file
-You can locate this file, by right-clicking on your project name, and selecting **Reveal in Finder**. This will display all the files and folders related to your project, including the `.csproj` file, as illustrated below:
+
+Locate the MSBuild file by right-clicking on your project name and selecting **Reveal in Finder**. The finder window displays all the files and folders related to your project, including the `.csproj` file, as illustrated in the following image:
 
 ![](media/customizing-build-system-image1.png)
 
-You can also display the `.csproj` in a new tab in Visual Studio for Mac, by right-clicking on your project name and browsing to **Tools > Edit File**:
+To display the `.csproj` in a new tab in Visual Studio for Mac, right-click on your project name and browse to **Tools > Edit File**:
 
 ![](media/customizing-build-system-image2.png)
 
 ### Composition of the MSBuild file
 
-All MSBuild files contain a mandatory root `Project` element, as displayed below:
+All MSBuild files contain a mandatory root `Project` element, like so:
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -40,7 +41,7 @@ All MSBuild files contain a mandatory root `Project` element, as displayed below
 </Project>
 ```
 
-Typically, the project will also import a `.targets` file, which contains many of the rules that describe how to process and build the various files. This will usually appear towards the bottom of your `proj` file, and for C# projects will look something like the following:
+Typically, the project will also import a `.targets` file. This file contains many of the rules that describe how to process and build the various files. The import usually appear towards the bottom of your `proj` file, and for C# projects look something like this:
 
 ```
 <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
@@ -50,15 +51,15 @@ The targets file is another MSBuild file. This file contains MSBuild code that i
 
 ### Items and properties
 
-There are two fundamental data types in MSBuild: *items* and *properties*, which are explained in more detail below.
+There are two fundamental data types in MSBuild: *items* and *properties*, which are explained in more detail in the following sections.
 
 #### Properties
 
 Properties are key/value pairs, which are used to store settings that affect compilation, such as compiler options.
 
-They are set using a PropertyGroup, and can contain any number of PropertiesGroups, which can contain any number of properties. 
+They are set using a PropertyGroup and can contain any number of PropertiesGroups, which can contain any number of properties. 
 
-For example, the PropertyGroup for a simple console application might look like the following:
+For example, the PropertyGroup for a simple console application might look like the following XML:
 
 ```
 <PropertyGroup>
@@ -80,7 +81,7 @@ Items provide a way of dealing with inputs into the build system as lists or set
 
 Items are created by declaring an `ItemGroup`. There can be any number of ItemGroups, which can contain any number of items. 
 
-For example the code snippet below creates the iOS Launch Screens. These are of type `BundleResource`, with the spec as the path to the image:
+For example, the following code snippet creates the iOS Launch Screens. The Launch Screens have the build type `BundleResource`, with the spec as the path to the image:
 
 ```
  <ItemGroup>

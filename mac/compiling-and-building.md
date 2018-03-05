@@ -16,7 +16,7 @@ Visual Studio for Mac can be used to build applications and create assemblies du
 
 ### Using the IDE
 
-Using Visual Studio for Mac lets you to create and run builds instantly, while still giving you control over build functionality. Visual Studio for Mac uses MSBuild as the underlying build system.
+Using Visual Studio for Mac lets you create and run builds instantly, while still giving you control over build functionality. Visual Studio for Mac uses MSBuild as the underlying build system.
 
 All Projects and Solutions created in the IDE will have a default build configuration, which define the context for builds. These configurations can be edited or you can create your own. Creating or modifying these configurations will automatically update the project file, which is then used by MSBuild to build your project.  
 
