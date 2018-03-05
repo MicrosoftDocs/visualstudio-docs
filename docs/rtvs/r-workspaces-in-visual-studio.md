@@ -28,17 +28,6 @@ To open the **Workspaces** window, use the **R Tools > Windows > Workspaces** co
 
 In this window, the green checkmark indicates the active workspace to which RTVS is bound. Selecting a blue arrow sets the active workspace. The settings (gear) icon to the right of each workspace allows you to change its name, location, and command-line arguments. The red X removes a manually added workspace.
 
-In this topic:
-
-- [Saving and resetting a workspace](#saving-and-resetting-a-workspace)
-- [Local workspaces](#local-workspaces)
-- [Remote workspaces](#remote-workspaces)
-- [Remote workspace logon](#remote-workspace-logon)
-- [Switching between workspaces](#switching-between-workspaces)
-- [Directories on local and remote computers](#directories-on-local-and-remote-computers)
-- [Copying project files to remote workspaces](#copying-project-files-to-remote-workspaces)
-- [Copying files from a remote workspace](#copying-files-from-a-remote-workspace)
-
 ## Saving and resetting a workspace
 
 By default, RTVS doesn't save workspace state when you close and reopen a project. You can change this behavior, however, through the [Workspace options](options-for-r-tools-in-visual-studio.md#workspace).

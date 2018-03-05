@@ -1,7 +1,7 @@
 ---
 title: "Targeting the .NET Framework in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "01/18/2018"
+ms.date: 02/06/2018
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -45,7 +45,7 @@ Framework targeting includes the following features:
 
 When you work on a project that targets an earlier version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], Visual Studio dynamically changes the development environment, as follows:
 
-- It filters items in the **New Project** dialog box, the **Add New Item** dialog box, the **Add New Reference** dialog box, and the **Add Service Reference** dialog box to omit choices that are not available in the targeted version.
+- It filters items in the **Add New Item** dialog box, the **Add New Reference** dialog box, and the **Add Service Reference** dialog box to omit choices that are not available in the targeted version.
 
 - It filters custom controls in the **Toolbox** to remove those that are not available in the targeted version and to show the only the most up-to-date controls when multiple controls are available.
 
@@ -62,7 +62,11 @@ When you work on a project that targets an earlier version of the [!INCLUDE[dnpr
 
 ## Selecting a target framework version
 
-When you create a project, select the target [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] version in the **New Project** dialog box. The list of available project templates is filtered based on the selection. In an existing project, you can change the target [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] version in the project properties dialog box. For more information, see [How to: Target a Version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md).
+When you create a project, select the target .NET Framework version in the **New Project** dialog box. The list of available frameworks includes the installed framework versions that are applicable to the selected template type. For template types that don't require .NET Framework, for example .NET Core templates, the **Framework** drop-down list is hidden.
+
+![Framework drop-down in New Project dialog](media/vside-newproject-framework.png)
+
+In an existing project, you can change the target [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] version in the project properties dialog box. For more information, see [How to: Target a Version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md).
 
 ## Resolving system and user assembly references
 
