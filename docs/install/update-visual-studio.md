@@ -1,7 +1,7 @@
 ---
 title: "Update Visual Studio 2017 | Microsoft Docs"
 description: "Learn how to update Visual Studio, step-by-step."
-ms.date: "03/02/2018"
+ms.date: "03/05/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -20,9 +20,9 @@ ms.workload:
 ---
 # Update Visual Studio 2017 to the most recent release
 
-We encourage you to update most [recent version](/visualstudio/releasenotes/vs2017-relnotes) of Visual Studio 2017 so that you always get the latest features, fixes, and improvemens.
+We encourage you to update most [recent version](/visualstudio/releasenotes/vs2017-relnotes) of Visual Studio 2017 so that you always get the latest features, fixes, and improvements.
 
-And if you'd like to try anything out before we release it, consider downloading the [preview release](/visualstudio/releasenotes/vs2017-preview-relnotes) of the next version, too.
+And if you'd like to try out anything before we release it, consider downloading the [preview release](/visualstudio/releasenotes/vs2017-preview-relnotes) of the next version, too.
 
 >[!IMPORTANT]
 >To install, update, or modify Visual Studio, you must log on with an account that has administrative permissions. For more information, see [User Permissions and Visual Studio](../ide/user-permissions-and-visual-studio.md).
@@ -47,9 +47,6 @@ New with version 15.6: We've streamlined the installation and update experience 
 
      Your update continues. Then, when it's complete, Visual Studio restarts.
 
-   >[!NOTE]
-   >Want to change a workload while you are updating? Click the **Modify** button. Next, select the workloads you want from the Visual Studio Installer dialog and then click the **Modify** button again. The update continues while the workload installs.
-
 ### Use the IDE
 
 1. From the menu bar in Visual Studio, choose **Help** > **Check for Updates**.
@@ -58,7 +55,7 @@ New with version 15.6: We've streamlined the installation and update experience 
 
 2. When the **Update** dialog box opens, choose **Update Now**. The update proceeds as described in the previous section, and then Visual Studio restarts after the update completes successfully.
 
-## Use the Visual Studio Installer
+### Use the Visual Studio Installer
 
 1. Open the installer. You might need to update the installer before continuing. If this is the case, you are prompted to do so.
 
