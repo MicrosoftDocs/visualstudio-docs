@@ -47,9 +47,6 @@ New with version 15.6: We've streamlined the installation and update experience 
 
      Your update continues. Then, when it's complete, Visual Studio restarts.
 
-   >[!NOTE]
-   >Want to change a workload while you are updating? Click the **Modify** button. Next, select the workloads you want from the Visual Studio Installer dialog and then click the **Modify** button again. The update continues while the workload installs.
-
 ### Use the IDE
 
 1. From the menu bar in Visual Studio, choose **Help** > **Check for Updates**.
