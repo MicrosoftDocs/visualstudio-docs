@@ -4,7 +4,7 @@
   - href: overview-of-nodejs-tools-for-visual-studio.md
 - name: Quickstarts
   items:
-  - name: Node.js: Create a Web app
+  - name: Create a Web app in Node.js
 - name: Tutorials
   items:
   - name: Create a Node.js app with React
