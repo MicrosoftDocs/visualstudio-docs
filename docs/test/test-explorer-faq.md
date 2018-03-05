@@ -63,6 +63,12 @@ manager: ghogen
 
   ![SortingExamples](media/testex-sortingex.png)
 
+### 9. In the hierarchy view there are passing, failing, and not run icons next to the Project, Namespace, and Class groupings. What do these mean?
+
+  The icons next to the Project, Namespace, and Class groupings reflect the state of the tests within that grouping. See the table below.
+
+  ![Test Explorer Hierarchy Icons](media/testex-hierarchyicons.png)
+
 ## Features
 
 ### How can I turn on feature flags to try out new testing features?
