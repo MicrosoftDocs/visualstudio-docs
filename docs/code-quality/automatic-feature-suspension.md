@@ -16,17 +16,17 @@ ms.workload:
 ---
 # Automatic feature suspension
 
-If your available system memory falls to 200MB or less, Visual Studio displays the following message in the code editor.
+If your available system memory falls to 200 MB or less, Visual Studio displays the following message in the code editor:
 
-![Alert text suspending full solution analysis](../code-quality/media/fsa_alert.png "FSA_Alert")
+![Alert text suspending full solution analysis](../code-quality/media/fsa_alert.png)
 
-When Visual Studio detects a low memory condition, it automatically suspends certain advanced features to help it remain stable. When this advanced feature suspension warning appears, Visual Studio will continue to work as before, but its performance will be slightly degraded.
+When Visual Studio detects a low memory condition, it automatically suspends certain advanced features to help it remain stable. Visual Studio continues to work as before, but its performance is degraded.
 
-In a low memory condition, the following occurs:
+In a low memory condition, the following actions take place:
 
 - Full solution analysis for Visual C# and Visual Basic is disabled.
 
-- [Garbage Collection](/dotnet/standard/garbage-collection/index) (GC) low-latency mode for Visual C# and Visual Basic are disabled.
+- [Garbage Collection](/dotnet/standard/garbage-collection/index) (GC) low-latency mode for Visual C# and Visual Basic is disabled.
 
 - Visual Studio caches are flushed.
 
@@ -40,11 +40,11 @@ By default, full solution analysis is enabled for Visual Basic and disabled for 
 
 ## GC low-latency disabled
 
-To re-enable GC low-latency mode, restart Visual Studio.  By default, Visual Studio enables GC  low-latency mode whenever you are typing to ensure that your typing doesn't block any GC operations. However, if a low memory condition causes Visual Studio to display the automatic suspension warning, GC low-latency mode is disabled for that session. Restarting Visual Studio will re-enable the default GC behavior. For more information, see <xref:system.runtime.gclatencymode>.
+To re-enable GC low-latency mode, restart Visual Studio. By default, Visual Studio enables GC  low-latency mode whenever you are typing to ensure that your typing doesn't block any GC operations. However, if a low memory condition causes Visual Studio to display the automatic suspension warning, GC low-latency mode is disabled for that session. Restarting Visual Studio re-enables the default GC behavior. For more information, see <xref:System.Runtime.GCLatencyMode>.
 
 ## Visual Studio caches flushed
 
-All Visual Studio caches are immediately emptied, but will begin to repopulate if you continue your current development session or restart Visual Studio. The caches flushed include caches for the following features.
+If you continue your current development session or restart Visual Studio, all Visual Studio caches are immediately emptied, but begin to repopulate. The caches flushed include caches for the following features:
 
 - Find all references
 

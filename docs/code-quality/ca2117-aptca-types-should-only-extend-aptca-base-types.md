@@ -31,7 +31,7 @@ A public or protected type in an assembly with the <xref:System.Security.AllowPa
 
 ## Rule Description
 
-By default, public or protected types in assemblies with strong names are implicitly protected by an <xref:System.Security.Permissions.SecurityAction.InheritanceDemand%23System_Security_Permissions_SecurityAction_InheritanceDemand> for full trust. Strong-named assemblies marked with the <xref:System.Security.AllowPartiallyTrustedCallersAttribute> (APTCA) attribute do not have this protection. The attribute disables the inheritance demand. This makes exposed types declared in the assembly inheritable by types that do not have full trust.
+By default, public or protected types in assemblies with strong names are implicitly protected by an [InheritanceDemand](/dotnet/api/system.security.permissions.securityaction?view=netframework-4.7.1#System_Security_Permissions_SecurityAction_InheritanceDemand) for full trust. Strong-named assemblies marked with the <xref:System.Security.AllowPartiallyTrustedCallersAttribute> (APTCA) attribute do not have this protection. The attribute disables the inheritance demand. Exposed types declared in an assembly without an inheritance demand are inheritable by types that do not have full trust.
 
 When the APTCA attribute is present on a fully trusted assembly, and a type in the assembly inherits from a type that does not allow partially trusted callers, a security exploit is possible. If two types `T1` and `T2` meet the following conditions, malicious callers can use the type `T1` to bypass the implicit full trust inheritance demand that protects `T2`:
 
@@ -43,13 +43,13 @@ When the APTCA attribute is present on a fully trusted assembly, and a type in t
 
 A partially trusted type `X` can inherit from `T1`, which gives it access to inherited members declared in `T2`. Because `T2` does not have the APTCA attribute, its immediate derived type (`T1`) must satisfy an inheritance demand for full trust; `T1` has full trust and therefore satisfies this check. The security risk is because `X` does not participate in satisfying the inheritance demand that protects `T2` from untrusted subclassing. For this reason, types with the APTCA attribute must not extend types that do not have the attribute.
 
-Another security issue, and perhaps a more common one, is that the derived type (`T1`) can, through programmer error, expose protected members from the type that requires full trust (`T2`). When this occurs, untrusted callers gain access to information that should be available only to fully trusted types.
+Another security issue, and perhaps a more common one, is that the derived type (`T1`) can, through programmer error, expose protected members from the type that requires full trust (`T2`). When this exposure occurs, untrusted callers gain access to information that should be available only to fully trusted types.
 
 ## How to Fix Violations
 
 If the type reported by the violation is in an assembly that does not require the APTCA attribute, remove it.
 
-If the APTCA attribute is required, add an inheritance demand for full trust to the type. This protects against inheritance by untrusted types.
+If the APTCA attribute is required, add an inheritance demand for full trust to the type. The inheritance demand protects against inheritance by untrusted types.
 
 It is possible to fix a violation by adding the APTCA attribute to the assemblies of the base types reported by the violation. Do not do this without first conducting an intensive security review of all code in the assemblies and all code that depends on the assemblies.
 
@@ -71,7 +71,7 @@ The test type, represented by `X` in the previous discussion, is in a partially 
 
 [!code-csharp[FxCop.Security.TestAptcaInherit#1](../code-quality/codesnippet/CSharp/ca2117-aptca-types-should-only-extend-aptca-base-types_3.cs)]
 
-This example produces the following output.
+This example produces the following output:
 
 **Meet at the shady glen 2/22/2003 12:00:00 AM!**
 **From Test: sunny meadow**
