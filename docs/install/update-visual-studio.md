@@ -20,12 +20,12 @@ ms.workload:
 ---
 # Update Visual Studio 2017 to the most recent release
 
-We encourage you to update most [recent version](/visualstudio/releasenotes/vs2017-relnotes) of Visual Studio 2017 so that you always get the latest features, fixes, and improvements.
+We encourage you to update to the most [recent version](/visualstudio/releasenotes/vs2017-relnotes) of Visual Studio 2017 so that you always get the latest features, fixes, and improvements.
 
 And if you'd like to try out anything before we release it, consider downloading the [preview release](/visualstudio/releasenotes/vs2017-preview-relnotes) of the next version, too.
 
->[!IMPORTANT]
->To install, update, or modify Visual Studio, you must log on with an account that has administrative permissions. For more information, see [User Permissions and Visual Studio](../ide/user-permissions-and-visual-studio.md).
+> [!IMPORTANT]
+> You must log on with an account that has administrative permissions to install, update, or modify Visual Studio. For more information, see [User Permissions and Visual Studio](../ide/user-permissions-and-visual-studio.md).
 
 ## Update Visual Studio 2017 version 15.6 or later
 
@@ -33,11 +33,15 @@ New with version 15.6: We've streamlined the installation and update experience 
 
 ### Use the Notifications hub
 
-1. When there are updates, there's a corresponding notification flag in Visual Studio. Choose the notification flag to open the **Notifications** hub, and then choose the update that you want to install.
+When there is an update, there's a corresponding notification flag in Visual Studio.
+
+1. Save your work.
+
+2. Choose the notification flag to open the **Notifications** hub, and then choose the update that you want to install.
 
   ![Update Visual Studio 2017 by using the Notification hub](media/vs-install-notifications-hub-15dot6.png "The Notifications hub in Visual Studio 2017")
 
-2. When the **Update** dialog box opens, choose **Update Now**.
+3. When the **Update** dialog box opens, choose **Update Now**.
 
     ![Update Visual Studio 2017 by using the Update dialog box from the Notifications hub](media/vs-update-now-from-notifications-hub.png "The Update dialog box from the Notifications hub in Visual Studio")
 
@@ -49,15 +53,25 @@ New with version 15.6: We've streamlined the installation and update experience 
 
 ### Use the IDE
 
-1. From the menu bar in Visual Studio, choose **Help** > **Check for Updates**.
+You can check for an update and then install the update from the menu bar in Visual Studio.
+
+1. Save your work.
+
+2. Choose **Help** > **Check for Updates**.
 
      ![The new Help menu in Visual Studio version 15.6](media/vs-help-menu-check-for-updates.png "The new Help menu in Visual Studio version 15.6")
 
-2. When the **Update** dialog box opens, choose **Update Now**. The update proceeds as described in the previous section, and then Visual Studio restarts after the update completes successfully.
+3. When the **Update** dialog box opens, choose **Update Now**.
+
+   The update proceeds as described in the previous section, and then Visual Studio restarts after the update completes successfully.
 
 ### Use the Visual Studio Installer
 
-1. Open the installer. You might need to update the installer before continuing. If this is the case, you are prompted to do so.
+As in earlier versions of Visual Studio 2017, you can use the Visual Studio Installer to install an update.
+
+1. Save your work.
+
+2. Open the installer. The Visual Studio Installer might require updating before you continue.
 
   > [!NOTE]
   > On a computer running Windows 10, you can find the installer under the letter **V** as the **Visual Studio Installer**, or under the letter **M** as the **Microsoft Visual Studio Installer**.
