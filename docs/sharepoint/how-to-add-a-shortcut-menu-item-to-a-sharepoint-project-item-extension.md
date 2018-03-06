@@ -15,11 +15,11 @@ helpviewer_keywords:
   - "project items [SharePoint development in Visual Studio], extending"
   - "SharePoint project items, extending"
   - "SharePoint development in Visual Studio, extending project items"
-ms.assetid: d00513a6-d66d-4fbe-9efa-ef3b08c9a73a
-caps.latest.revision: 17
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Add a Shortcut Menu Item to a SharePoint Project Item Extension
   You can add a shortcut menu item to an existing SharePoint project item by using a project item extension. The menu item appears when a user right-clicks the project item in **Solution Explorer**.  

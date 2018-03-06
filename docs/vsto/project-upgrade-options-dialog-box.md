@@ -17,11 +17,11 @@ dev_langs:
 helpviewer_keywords: 
   - "project upgrade [Office development in Visual Studio]"
   - "Options dialog box, Project Upgrade page"
-ms.assetid: 35568fe8-cbec-43cc-8cb1-75fe195e1793
-caps.latest.revision: 24
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Project Upgrade, Options Dialog Box
   Use the **Project Upgrade** page to specify whether Visual Studio automatically changes VSTO Add-in projects to target the version of Office that is installed on the development computer.  

@@ -14,11 +14,11 @@ dev_langs:
 helpviewer_keywords: 
   - "documents, populating with data"
   - "data, adding to documents"
-ms.assetid: 1eb5b13d-7359-407e-8be8-e42c1829f10c
-caps.latest.revision: 48
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Populate Documents with Data from a Database
   You can access data in document-level projects for Microsoft Office in the same way that you access data in Windows Forms projects. You use the same tools and code to bring the data from a database into your solution, and you can use Windows Forms controls to display the data.  

@@ -22,6 +22,8 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.technology: "vs-data-tools"
+ms.workload: 
+  - "data-storage"
 ---
 # Handle a concurrency exception
 Concurrency exceptions (<xref:System.Data.DBConcurrencyException>) are raised when two users attempt to change the same data in a database at the same time. In this walkthrough, you create a Windows application that illustrates how to catch a <xref:System.Data.DBConcurrencyException>, locate the row that caused the error, and learn a strategy for how to handle it.  
@@ -45,7 +47,7 @@ Concurrency exceptions (<xref:System.Data.DBConcurrencyException>) are raised wh
 ## Prerequisites  
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.  
   
-1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Editions download page](https://www.microsoft.com/en-us/server-cloud/Products/sql-server-editions/sql-server-express.aspx), or through the **Visual Studio Installer**. In the Visual Studio Installer, SQL Server Express LocalDB can be installed as part of the **Data storage and processing** workload, or as an individual component.  
+1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the Visual Studio Installer, SQL Server Express LocalDB can be installed as part of the **Data storage and processing** workload, or as an individual component.  
   
 2.  Install the Northwind sample database by following these steps:  
 

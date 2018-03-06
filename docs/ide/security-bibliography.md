@@ -4,19 +4,20 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
+ms.technology: vs-ide-general
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "security [Visual Studio], additional information"
 ms.assetid: 3e839007-c388-4fc4-a6d1-8127cd207750
-caps.latest.revision: 14
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Security Bibliography
+
 Following are selected resources available online and in print on the subject of developing secure applications and configuring secure environments:  
   
 ## Microsoft Web sites  

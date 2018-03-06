@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.error.service_access_denied_oncallback"
 dev_langs: 
@@ -15,11 +15,12 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-ms.assetid: 89ecf99d-66bf-4da0-a840-aa95b0be1702
 caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Error: The Visual Studio Remote Debugger service on the target computer cannot connect back to this computer
 This error means that the Visual Studio Remote Debugger service is running under a user account that cannot authenticate when it tries to connect to the computer that you are debugging from.  

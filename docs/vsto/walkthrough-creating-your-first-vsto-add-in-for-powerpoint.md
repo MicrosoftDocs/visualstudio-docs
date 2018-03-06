@@ -16,11 +16,11 @@ helpviewer_keywords:
   - "Office development in Visual Studio, creating your first project"
   - "PowerPoint [Office development in Visual Studio], creating your first project"
   - "add-ins [Office development in Visual Studio], creating your first project"
-ms.assetid: 52d1543a-c9cb-4ee1-aa5b-90759fce9d3a
-caps.latest.revision: 34
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Walkthrough: Creating Your First VSTO Add-in for PowerPoint
   This walkthrough shows you how to create an VSTO Add-in for Microsoft Office PowerPoint. The features that you create in this kind of solution are available to the application itself, regardless of which presentations are open. For more information, see [Office Solutions Development Overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md).  

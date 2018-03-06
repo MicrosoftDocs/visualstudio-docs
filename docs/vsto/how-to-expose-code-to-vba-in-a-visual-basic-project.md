@@ -17,11 +17,11 @@ helpviewer_keywords:
   - "Visual Basic [Office development in Visual Studio], exposing code to VBA"
   - "exposing code to VBA"
   - "host items [Office development in Visual Studio], exposing code to VBA"
-ms.assetid: dc74f3ea-3f78-47f8-8a82-a67896144dd9
-caps.latest.revision: 47
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Expose Code to VBA in a Visual Basic Project
   You can expose code in a [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)] project to Visual Basic for Applications (VBA) code if you want the two types of code to interact with each other.  

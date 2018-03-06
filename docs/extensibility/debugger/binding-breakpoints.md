@@ -15,6 +15,8 @@ caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Binding Breakpoints
 If the user sets a breakpoint, perhaps by pressing F9, the IDE formulates the request and prompts the debug session to create the breakpoint.  

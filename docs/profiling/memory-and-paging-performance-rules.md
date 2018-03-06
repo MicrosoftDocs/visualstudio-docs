@@ -13,6 +13,8 @@ caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Memory and Paging Performance Rules
 Performance rules in the memory and paging category identify paging activity in a profiling run that can impact application performance and responsiveness.  

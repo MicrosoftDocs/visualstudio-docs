@@ -16,6 +16,8 @@ caps.latest.revision: 16
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # NameProfile
 The `NameProfile` function assigns a string to the specified process or thread.  

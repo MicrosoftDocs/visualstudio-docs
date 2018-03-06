@@ -17,6 +17,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugErrorBreakpoint2::GetPendingBreakpoint
 Gets the pending breakpoint that caused the error.  

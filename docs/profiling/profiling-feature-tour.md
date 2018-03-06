@@ -15,6 +15,8 @@ caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Profiling Feature Tour
 
@@ -28,7 +30,7 @@ While you are debugging, you can use the **Diagnostic Tools** window to analyze 
 
 ![Diagnostic Tools Summary view](../profiling/media/prof-tour-cpu-and-memory-graph.gif "Diagnostic Tools Summary")
 
-The **Diagnostic Tools** window is often the preferred way to profile apps, but you can also do a post-mortem analysis of your app instead. If you want more information on different approaches, see [Running Profiling Tools With or Without the Debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
+The **Diagnostic Tools** window is often the preferred way to profile apps, but for Release builds you can also do a post-mortem analysis of your app instead. If you want more information on different approaches, see [Running Profiling Tools With or Without the Debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md). To see profiling tool support for different app types, see [Which tool should I use?](#tool_support_info).
 
 ## Analyze CPU Usage
 
@@ -115,13 +117,13 @@ You can also use the graphs to determine whether there are CPU bound or GPU boun
 
 ## Analyze Performance (JavaScript)
 
-For Windows Universal HTML apps, you can use the JavaScript Memory tool and the HTML UI Responsiveness tool.
+For UWP apps, you can use the JavaScript Memory tool and the HTML UI Responsiveness tool.
 
 The JavaScript Memory tool is similar to the Memory Usage tool available for other app types. You can use this tool to understand memory usage and find memory leaks in your app. For more details about the tool, see [JavaScript Memory](../profiling/javascript-memory.md).
 
 ![JavaScript Memory profiling tool](../profiling/media/diagjsmemory.png "DiagJSMemory")
 
-To diagnose UI responsiveness, slow loading time, and slow visual updates in Windows Universal HTML apps, use the HTML UI Responsiveness tool. Usage is similar to the Application Timeline tool for other app types. For more information, see [HTML UI responsiveness](../profiling/html-ui-responsiveness.md).
+To diagnose UI responsiveness, slow loading time, and slow visual updates in UWP apps, use the HTML UI Responsiveness tool. Usage is similar to the Application Timeline tool for other app types. For more information, see [HTML UI responsiveness](../profiling/html-ui-responsiveness.md).
 
 ![HTML UI Responsiveness profiling tool](../profiling/media/diaghtmlresp.png "DiagHTMLResp")
 
@@ -143,18 +145,19 @@ If you need features such as instrumentation that are not currently present in C
 
 ![Performance Explorer tool](../profiling/media/prof-tour-performance-explorer.png "Performance Explorer")
 
-## Which Tool Should I Use?  
+## <a name="tool_support_info"></a>Which Tool Should I Use?  
+
 Here is a table that lists the different tools Visual Studio offers and the different project types you can use them with:
   
-|Performance Tool|Windows desktop|Windows Universal/Store|ASP.NET/ASP.NET Core|  
+|Performance Tool|Windows desktop|UWP|ASP.NET/ASP.NET Core|  
 |----------------------|---------------------|------------------------------|-------------|  
 |[Memory Usage](../profiling/memory-usage.md)|yes|yes|yes|  
-|[CPU Usage](../profiling/cpu-usage.md)|yes|yes|yes|  
+|[CPU Usage](../profiling/cpu-usage.md)|yes|yes|yes (no for .NET Core/ASP.NET Core)|  
 |[GPU Usage](../debugger/gpu-usage.md)|yes|yes|no|  
 |[Application Timeline](../profiling/application-timeline.md)|yes|yes|no|  
 |[PerfTips](../profiling/perftips.md)|yes|yes for XAML, no for HTML|yes|  
 |[Performance Explorer](../profiling/performance-explorer.md)|yes|no|yes (no for ASP.NET Core)|  
-|[IntelliTrace](../debugger/intellitrace.md)|.NET Enterprise only|.NET Enterprise only|.NET Enterprise only|
+|[IntelliTrace](../debugger/intellitrace.md)|.NET and Visual Studio Enterprise only|.NET and Visual Studio Enterprise only|.NET and Visual Studio Enterprise only|
 |[Network Usage](../profiling/network-usage.md)|no|yes|no| 
 |[HTML UI responsiveness](../profiling/html-ui-responsiveness.md)|no|yes for HTML, no for XAML|no|  
 |[JavaScript Memory](../profiling/javascript-memory.md)|no|yes for HTML, no for XAML|no|  

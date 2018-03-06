@@ -19,6 +19,8 @@ caps.latest.revision: 13
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+ms.workload: 
+  - "multiple"
 ---
 # &lt;Signature&gt; Element (ClickOnce Deployment)
 Contains the necessary information to digitally sign this deployment manifest.  

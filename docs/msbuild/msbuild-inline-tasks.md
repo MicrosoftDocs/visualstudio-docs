@@ -4,17 +4,18 @@ ms.custom: ""
 ms.date: "09/21/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: msbuild
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "MSBuild, tasks"
 ms.assetid: e72e6506-4a11-4edf-ae8d-cfb5a3b9d8a0
 caps.latest.revision: 20
-author: "kempb"
-ms.author: "kempb"
+author: Mikejo5000
+ms.author: mikejo
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # MSBuild Inline Tasks
 MSBuild tasks are typically created by compiling a class that implements the <xref:Microsoft.Build.Framework.ITask> interface. For more information, see [Tasks](../msbuild/msbuild-tasks.md).  
@@ -97,7 +98,7 @@ MSBuild tasks are typically created by compiling a class that implements the <xr
     AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.Core.dll" >  
     <ParameterGroup />  
     <Task>  
-      <Reference Include="System.Xml.dll"/>  
+      <Reference Include="System.Xml"/>
       <Using Namespace="System"/>  
       <Using Namespace="System.IO"/>  
       <Code Type="Fragment" Language="cs">  

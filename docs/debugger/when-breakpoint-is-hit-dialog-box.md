@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.whenbreakpointishit"
 dev_langs: 
@@ -22,6 +22,8 @@ caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # When Breakpoint Is Hit Dialog Box
 With this dialog box, you can customize the action that occurs when a breakpoint is hit.  

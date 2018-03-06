@@ -17,6 +17,8 @@ caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaTable::get_Count
 Retrieves the number of items in the table.  

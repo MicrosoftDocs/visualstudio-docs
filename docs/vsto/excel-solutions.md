@@ -27,11 +27,11 @@ helpviewer_keywords:
   - "Office development in Visual Studio, Excel solutions"
   - "document-level customizations [Office development in Visual Studio], Excel"
   - "Office projects [Office development in Visual Studio], Excel"
-ms.assetid: 34444d54-d7b6-479a-b5b7-a946267081e9
-caps.latest.revision: 34
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Excel Solutions
   Visual Studio provides project templates you can use to create document-level customizations and VSTO Add-ins for Microsoft Office Excel. You can use these solutions to automate Excel, extend Excel features, and customize the Excel user interface (UI). For more information about the differences between document-level customizations and VSTO Add-ins, see [Office Solutions Development Overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md).  

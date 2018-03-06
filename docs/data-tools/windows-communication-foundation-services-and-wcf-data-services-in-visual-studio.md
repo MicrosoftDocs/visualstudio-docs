@@ -39,6 +39,8 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.technology: "vs-data-tools"
+ms.workload: 
+  - "data-storage"
 ---
 # Windows Communication Foundation Services and WCF Data Services in Visual Studio
 Visual Studio provides tools for working with Windows Communication Foundation (WCF) and [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)], Microsoft technologies for creating distributed applications. This topic provides an introduction to services from a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] perspective. For the full documentation, see [WCF Data Services 4.5](/dotnet/framework/data/wcf/index).  
@@ -238,7 +240,6 @@ To avoid this problem, types in referenced assemblies are shared by default. If 
 ||[How to: Add, Update, or Remove a WCF Data Service Reference](../data-tools/how-to-add-update-or-remove-a-wcf-data-service-reference.md)|Discusses how to reference and use [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)] in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].|  
 |[Troubleshooting Service References](../data-tools/troubleshooting-service-references.md)|Presents some common errors that can occur with service references and how to prevent them.|  
 |[Debugging WCF Services](../debugger/debugging-wcf-services.md)|Describes common debugging problems and techniques you might encounter when debugging WCF services.|  
-|[Windows Communication Foundation Authentication Service Overview](http://msdn.microsoft.com/Library/6e121a28-89e8-4974-88a8-70aaa6a7d52b)|Describes how to use WCF to provide a role service for a Web site.|  
 |[Walkthrough: Creating an N-Tier Data Application](../data-tools/walkthrough-creating-an-n-tier-data-application.md)|Provides step-by-step instructions for creating a typed dataset and separating the TableAdapter and dataset code into multiple projects.|  
 |[Configure Service Reference Dialog Box](../data-tools/configure-service-reference-dialog-box.md)|Describes the user interface elements of the **Configure Service Reference** dialog box.|  
   

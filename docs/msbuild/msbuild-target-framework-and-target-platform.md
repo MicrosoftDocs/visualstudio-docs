@@ -4,15 +4,16 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: msbuild
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: df6517c5-edd6-4cc4-97ad-b3cdfc78e799
 caps.latest.revision: 10
-author: "kempb"
-ms.author: "kempb"
+author: Mikejo5000
+ms.author: mikejo
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # MSBuild Target Framework and Target Platform
 A project can be built to run on a *target framework*, which is a particular version of the .NET Framework, and a *target platform*, which is a particular software architecture.  For example, you can target an application to run on the .NET Framework 2.0 on a 32-bit platform that is compatible with the 802x86 processor family ("x86"). The combination of target framework and target platform is known as the *target context*.  
@@ -28,19 +29,21 @@ A project can be built to run on a *target framework*, which is a particular ver
   
 -   The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 3.5 (included in [!INCLUDE[vs_orcas_long](../debugger/includes/vs_orcas_long_md.md)])  
   
--   The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 4 (included in Visual Studio 2010)  
-  
--   The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 4.5 (included in [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)])  
-  
--   The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 4.5.1 (included in [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md)])  
-  
 -   The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 4.5.2  
   
 -   The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 4.6 (included in [!INCLUDE[vs_dev14](../misc/includes/vs_dev14_md.md)])  
+
+-   The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 4.6.1  
+
+-   The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 4.6.2  
+
+-   The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 4.7  
+
+-   The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 4.7.1  
   
  The versions of the .NET Framework differ from one another in the list of assemblies that each makes available to reference. For example, you cannot build Windows Presentation Foundation (WPF) applications unless your project targets the .NET Framework version 3.0 or above.  
   
- The target framework is specified in the `TargetFrameworkVersion` property in the project file. You can change the target framework for a project by using the project property pages in the Visual Studio integrated development environment (IDE). For more information, see [How to: Target a Version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md). The available values for `TargetFrameworkVersion` are `v2.0`, `v3.0`, `v3.5`, `v4.0`, `v4.5`, `v4.5.1`, `v4.5.2`, and `v4.6`.  
+ The target framework is specified in the `TargetFrameworkVersion` property in the project file. You can change the target framework for a project by using the project property pages in the Visual Studio integrated development environment (IDE). For more information, see [How to: Target a Version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md). The available values for `TargetFrameworkVersion` are `v2.0`, `v3.0`, `v3.5`, `v4.5.2`, `v4.6`, `v.4.6.1`, `v4.6.2`, `4.7`, and `4.7.1`.  
   
 ```xml  
 <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>  

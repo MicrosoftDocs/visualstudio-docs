@@ -13,6 +13,8 @@ caps.latest.revision: 2
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Archive
 This section contains discussions of Visual Studio extensibility technologies that are still supported but that have replacement technologies that are newer.  

@@ -17,6 +17,8 @@ caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaLoadCallback::RestrictSymbolServerAccess
 Determines if access is allowed to a symbol server to resolve symbols.  

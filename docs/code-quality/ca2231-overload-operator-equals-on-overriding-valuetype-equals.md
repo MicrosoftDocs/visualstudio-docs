@@ -20,6 +20,8 @@ caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA2231: Overload operator equals on overriding ValueType.Equals
 |||  

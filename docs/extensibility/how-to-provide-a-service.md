@@ -15,6 +15,8 @@ caps.latest.revision: 22
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # How to: Provide a Service
 A VSPackage can provide services that other VSPackages can use. To provide a service, a VSPackage must register the service with Visual Studio and add the service.  
@@ -28,9 +30,9 @@ A VSPackage can provide services that other VSPackages can use. To provide a ser
   
 #### Implementing a service  
   
-1.  Create a VSIX project (**File / New / Project / Visual C# / Extensiblity / VSIX Project**).  
+1.  Create a VSIX project (**File > New > Project > Visual C# > Extensiblity > VSIX Project**).  
   
-2.  Add a VSPackage to the project. Select the project node in the **Solution Explorer** and click **Add / New item / Visual C# Items / Extensibility / Visual Studio Package**.  
+2.  Add a VSPackage to the project. Select the project node in the **Solution Explorer** and click **Add > New item > Visual C# Items > Extensibility > Visual Studio Package**.  
   
 3.  To implement a service, you need to create three types:  
   
@@ -106,7 +108,7 @@ A VSPackage can provide services that other VSPackages can use. To provide a ser
   
 2.  Implement the callback method, which should create and return the service, or null if it cannot be created.  
   
-    ```  
+    ```csharp  
     private object CreateService(IServiceContainer container, Type serviceType)  
     {  
         if (typeof(SMyService) == serviceType)  

@@ -15,6 +15,8 @@ caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Syntax Coloring in Custom Editors
 Visual Studio Environment SDK editors, including the core editor, use language services to identify specific syntactical items and display them with specified colors for a given document view.  

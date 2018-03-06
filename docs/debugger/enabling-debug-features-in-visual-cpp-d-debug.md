@@ -29,6 +29,8 @@ caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "cplusplus"
 ---
 # Enabling Debug Features in Visual C++ (/D_DEBUG)
 In [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)], debugging features such as assertions are enabled when you compile your program with the symbol **_DEBUG** defined. You can define **_DEBUG** in one of two ways:  

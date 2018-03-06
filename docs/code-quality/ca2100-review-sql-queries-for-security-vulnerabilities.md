@@ -20,6 +20,8 @@ caps.latest.revision: 24
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA2100: Review SQL queries for security vulnerabilities
 |||  
@@ -48,8 +50,6 @@ manager: ghogen
 -   <xref:System.Data.OleDb.OleDbCommand?displayProperty=fullName> and <xref:System.Data.OleDb.OleDbDataAdapter?displayProperty=fullName>  
   
 -   <xref:System.Data.OracleClient.OracleCommand?displayProperty=fullName> and <xref:System.Data.OracleClient.OracleDataAdapter?displayProperty=fullName>  
-  
--   [System.Data.SqlServerCe.SqlCeCommand](https://msdn.microsoft.com/library/system.data.sqlserverce.sqlcecommand.aspx) and  [System.Data.SqlServerCe.SqlCeDataAdapter](https://msdn.microsoft.com/library/system.data.sqlserverce.sqlcedataadapter.aspx)  
   
 -   <xref:System.Data.SqlClient.SqlCommand?displayProperty=fullName> and <xref:System.Data.SqlClient.SqlDataAdapter?displayProperty=fullName>  
   

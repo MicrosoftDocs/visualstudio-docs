@@ -17,6 +17,8 @@ caps.latest.revision: 6
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugStackFrame3::GetUnwindCodeContext
 Returns the code context representing a location if a stack unwind operation occurred.  

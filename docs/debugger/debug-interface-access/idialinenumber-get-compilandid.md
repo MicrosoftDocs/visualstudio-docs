@@ -17,6 +17,8 @@ caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaLineNumber::get_compilandId
 Retrieves a unique identifier for the compiland that contributed this line.  

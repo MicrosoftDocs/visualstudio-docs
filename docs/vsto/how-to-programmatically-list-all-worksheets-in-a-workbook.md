@@ -14,11 +14,11 @@ dev_langs:
 helpviewer_keywords: 
   - "workbooks, listing worksheets"
   - "worksheets, listing"
-ms.assetid: 38b63d1d-6047-44e8-b089-c576c6179e4a
-caps.latest.revision: 46
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically List All Worksheets in a Workbook
   The <xref:Microsoft.Office.Interop.Excel.Workbook> class provides a <xref:Microsoft.Office.Interop.Excel.Worksheets> object. This object contains a collection of all the <xref:Microsoft.Office.Interop.Excel.Worksheet> objects in the workbook.  

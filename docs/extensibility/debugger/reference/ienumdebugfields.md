@@ -17,6 +17,8 @@ caps.latest.revision: 6
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IEnumDebugFields
 This interface represents a collection of objects implementing the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) interface.  

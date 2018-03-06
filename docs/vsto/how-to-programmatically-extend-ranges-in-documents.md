@@ -14,11 +14,11 @@ dev_langs:
 helpviewer_keywords: 
   - "ranges, extending"
   - "documents [Office development in Visual Studio], extending ranges"
-ms.assetid: 055af7a4-13d5-4236-b5fb-a112721482c5
-caps.latest.revision: 41
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Extend Ranges in Documents
   After you define a <xref:Microsoft.Office.Interop.Word.Range> object in a Microsoft Office Word document, you change its start and end points by using the <xref:Microsoft.Office.Interop.Word.Range.MoveStart%2A> and <xref:Microsoft.Office.Interop.Word.Range.MoveEnd%2A> methods. The <xref:Microsoft.Office.Interop.Word.Range.MoveStart%2A> and <xref:Microsoft.Office.Interop.Word.Range.MoveEnd%2A> methods take the same two arguments, *Unit* and *Count*. The *Count* argument is the number of units to move, and the *Unit* argument can be one of the following <xref:Microsoft.Office.Interop.Word.WdUnits> values:  

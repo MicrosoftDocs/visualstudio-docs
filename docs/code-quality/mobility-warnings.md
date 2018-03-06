@@ -19,6 +19,8 @@ caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Mobility Warnings
 Mobility warnings support efficient power usage.  

@@ -15,11 +15,11 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "Office projects [Office development in Visual Studio], migrating to .NET Framework 4"
-ms.assetid: 31f6c48b-c086-4362-8629-f644d6083a44
-caps.latest.revision: 55
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Migrating Office Solutions to the .NET Framework 4 or later
   If the target framework of an Office project is changed to the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later from an earlier version of the .NET Framework, some additional steps might be required to continue to run the solution on development and end user computers. For more information, see [Required Changes to Run Office Projects that You Migrate to the .NET Framework 4 or the .NET Framework 4.5](../vsto/required-changes-to-run-office-projects-that-you-migrate-to-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md).  

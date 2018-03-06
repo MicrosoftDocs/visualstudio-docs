@@ -13,6 +13,8 @@ caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Walkthrough: Missing Objects Due to Misconfigured Pipeline
 This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Graphics Diagnostics tools to investigate an object that's missing due to an unset pixel shader.  

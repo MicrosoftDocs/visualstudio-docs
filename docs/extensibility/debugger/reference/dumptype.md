@@ -17,6 +17,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # DUMPTYPE
 Specifies how much of a program's state (such as running threads, stack frames, and current instruction address) to dump.  

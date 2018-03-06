@@ -16,11 +16,11 @@ helpviewer_keywords:
   - "SharePoint project items, defining your own types"
   - "project items [SharePoint development in Visual Studio], defining your own types"
   - "SharePoint development in Visual Studio, defining new project item types"
-ms.assetid: 41ed9c1c-4239-4d80-934b-975fde744288
-caps.latest.revision: 152
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Walkthrough: Creating a Custom Action Project Item with an Item Template, Part 1
   You can extend the SharePoint project system in Visual Studio by creating your own project item types. In this walkthrough, you will create a project item that can be added to a SharePoint project to create a custom action on a SharePoint site. The custom action adds a menu item to the **Site Actions** menu of the SharePoint site.  

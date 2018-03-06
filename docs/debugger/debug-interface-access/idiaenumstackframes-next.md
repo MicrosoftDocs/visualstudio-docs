@@ -17,6 +17,8 @@ caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaEnumStackFrames::Next
 Retrieves a specified number of stack frame elements from the enumeration sequence.  

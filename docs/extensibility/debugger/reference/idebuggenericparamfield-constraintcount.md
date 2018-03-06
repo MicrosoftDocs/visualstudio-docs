@@ -16,6 +16,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugGenericParamField::ConstraintCount
 Returns the number of constraints that are associated with this generic parameter.  

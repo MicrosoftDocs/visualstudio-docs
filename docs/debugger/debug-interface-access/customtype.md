@@ -17,6 +17,8 @@ caps.latest.revision: 15
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CustomType
 Vendor-defined types (compiler-specific types) are identified by a `SymTagCustomType` symbol.  

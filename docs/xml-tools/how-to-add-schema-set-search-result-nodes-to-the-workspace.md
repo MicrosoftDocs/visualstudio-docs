@@ -13,6 +13,8 @@ caps.latest.revision: 3
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Add Schema Set Search Result Nodes to the Workspace
 This topic explains how to add nodes that are highlighted in the XML Schema Explorer as the result of a keyword search in the workspace.  

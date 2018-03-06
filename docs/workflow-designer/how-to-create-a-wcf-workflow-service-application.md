@@ -11,6 +11,8 @@ caps.latest.revision: 14
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+ms.workload: 
+  - "multiple"
 ---
 # How to: Create a WCF Workflow Service Application
 [!INCLUDE[indigo1](../workflow-designer/includes/indigo1_md.md)] workflow service applications are distributed communications services that pass messages between clients and themselves across process boundaries. The implementation of the service contract on the service side is done declaratively through workflow activities in [!INCLUDE[netfx40_short](../workflow-designer/includes/netfx40_short_md.md)] in a manner analogous to legacy workflow services in .NET Framework 3.5.  

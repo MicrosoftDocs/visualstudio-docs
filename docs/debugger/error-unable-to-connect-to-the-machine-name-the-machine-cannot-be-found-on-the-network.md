@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.remote.dcom_disabled"
 dev_langs: 
@@ -17,11 +17,12 @@ dev_langs:
   - "C++"
 helpviewer_keywords: 
   - "DCOM, unable to connect error"
-ms.assetid: b584b5db-ef52-45ed-8561-1314da3cc5b8
 caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Error: Unable to connect to the machine &lt;name&gt;. The machine cannot be found on the network.
 This behavior occurs if one of the following conditions is true:  

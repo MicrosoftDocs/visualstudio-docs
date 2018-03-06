@@ -18,6 +18,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugPendingBreakpoint2::GetBreakpointRequest
 Gets the breakpoint request that was used to create this pending breakpoint.  

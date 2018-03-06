@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: msbuild
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
@@ -19,9 +18,11 @@ helpviewer_keywords:
   - "ResourcesGenerator task [WPF MSBuild], parameters"
 ms.assetid: e782bbac-9ee6-472b-8171-3ee008c77b4e
 caps.latest.revision: 6
-author: "kempb"
-ms.author: "kempb"
+author: Mikejo5000
+ms.author: mikejo
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # ResourcesGenerator Task
 The <xref:Microsoft.Build.Tasks.Windows.ResourcesGenerator> task embeds one or more resources (.jpg, .ico, .bmp, [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] in binary format, and other extension types) into a .resources file.  

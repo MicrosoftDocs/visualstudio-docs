@@ -4,14 +4,14 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7e795873-1d4b-4a13-a52a-a411d87fb759
-caps.latest.revision: 13
-ms.author: "douge"
-manager: "douge"
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+author: gewarren
 ---
 # Analyzing Coded UI Tests Using Coded UI Test Logs
 Coded UI test logs filter and record important information about your coded UI test runs.  

@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.error.sqlde_sql_executed_but_not_debugged"
 dev_langs: 
@@ -16,11 +16,12 @@ dev_langs:
   - "FSharp"
   - "C++"
   - "SQL"
-ms.assetid: 7a4d4999-3973-4339-ba6a-f0d19bcb1d4a
 caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Error: Transact-SQL execution ended without debugging
 This error occurs when you are trying to debug a Transact-SQL or SQLCLR procedure and the debugger does not receive debugging messages from the SQL Server.  

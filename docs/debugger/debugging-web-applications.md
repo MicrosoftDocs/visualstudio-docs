@@ -23,6 +23,8 @@ caps.latest.revision: 24
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Debugging Web Applications
 This section explains how to debug several types of Web applications.  

@@ -20,6 +20,8 @@ caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA2215: Dispose methods should call base class dispose
 |||  

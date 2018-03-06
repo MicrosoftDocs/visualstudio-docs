@@ -4,15 +4,15 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "text templates, escape sequences"
-ms.assetid: 36fff542-2f42-460f-a2d5-03fc76817f3b
-caps.latest.revision: 29
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Using Escape Sequences in Text Templates
 You can use escape sequences in text templates to generate text template tags and (in C# code only) to escape control characters and quotation marks.  

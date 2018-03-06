@@ -31,11 +31,11 @@ helpviewer_keywords:
   - "ThisAddin_Startup"
   - "events [Office development in Visual Studio]"
   - "ThisAddIn_Shutdown"
-ms.assetid: f6a7f0ef-75d0-4a9b-9aec-be95ffa26adf
-caps.latest.revision: 55
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Global Access to Objects in Office Projects
   When you create an Office project, Visual Studio automatically generates a class named `Globals` in the project. You can use the `Globals` class to access several different project items at run time from any code in the project.  

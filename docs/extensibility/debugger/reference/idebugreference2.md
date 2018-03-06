@@ -17,6 +17,8 @@ caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugReference2
 This interface represents a reference to a stack frame property or some other property.  

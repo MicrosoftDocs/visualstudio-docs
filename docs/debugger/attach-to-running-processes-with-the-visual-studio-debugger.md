@@ -32,6 +32,8 @@ caps.latest.revision: 53
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Attach to Running Processes with the Visual Studio Debugger
 You can attach the Visual Studio debugger to a running process on a local or remote computer. After the process is running, click **Debug > Attach to Process** (or press **CTRL+ALT+P**) to open the **Attach to Process** dialog box.
@@ -118,7 +120,7 @@ The debugger will reattach by first attempting to match the previous process ID 
 
 ## Additional info
 
-You can be attached to multiple programs when you are debugging, but only one program is active in the debugger at any time. You can set the active program in the **Debug Location** toolbar or the **Processes** window. For more information, see [How to: Set the Current Program](http://msdn.microsoft.com/en-us/7e1d7fa5-0e40-44cf-8c41-d3dba31c969e).  
+You can be attached to multiple programs when you are debugging, but only one program is active in the debugger at any time. You can set the active program in the **Debug Location** toolbar or the **Processes** window.  
   
 If you try to attach to a process owned by an untrusted user account, a security warning dialog box confirmation will appear. For more information see [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](../debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user-can-be-dangerous-if-the-following-information-looks-suspicious-or-you-are-unsure-do-not-attach-to-this-process.md).  
   
@@ -140,12 +142,9 @@ For some app types (like UWP apps), you don't attach directly to a process name,
 |Remote debug ASP.NET 4 or 4.5 on an IIS server|Use remote tools and attach to process|w3wp.exe|See [Remote Debugging ASP.NET on a remote IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md)|
 |Remote debug ASP.NET Core on an IIS server|Use remote tools and attach to process|dotnet.exe|For app deployment, see [Publish to IIS](https://docs.asp.net/en/latest/publishing/iis.html). For debugging, see [Remote Debugging ASP.NET Core on a remote IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md)|
 |Debug other supported app types on a server process|Use remote tools (if server is remote) and attach to process|iexplore.exe or other processes|If necessary, use Task Manager to help identify the process. See [Remote Debugging](../debugger/remote-debugging.md) and later sections in this topic|
-|Remote debug a Windows desktop app|Remote Tools and F5|N/A| See [Remote Debugging](../debugger/remote-debugging.md)|
+|Remote debug a Windows desktop app|Remote tools and F5|N/A| See [Remote Debugging](../debugger/remote-debugging.md)|
 |Remote debug a Universal (UWP), OneCore, HoloLens, or IoT app|Debug installed app package|N/A|See [Debug an Installed App Package](debug-installed-app-package.md) instead of using **Attach to process**|
-|Debug a Universal Windows App (UWP), OneCore, HoloLens, or IoT app that you didn't start from Visual Studio|Debug installed app package|N/A|See [Debug an Installed App Package](debug-installed-app-package.md) instead of using **Attach to process**|
-  
-> [!WARNING]
->  To attach to a UWP that is written in JavaScript, you must first enable debugging for the app. See [Attach the debugger](../debugger/start-a-debugging-session-for-store-apps-in-visual-studio-javascript.md#BKMK_Attach_the_debugger) in the Windows Dev Center.  
+|Debug a Universal Windows App (UWP), OneCore, HoloLens, or IoT app that you didn't start from Visual Studio|Debug installed app package|N/A|See [Debug an Installed App Package](debug-installed-app-package.md) instead of using **Attach to process**|  
   
 > [!NOTE]
 >  For the debugger to attach to code written in C++, the code needs to emit `DebuggableAttribute`. You can add this to your code automatically by linking with the [/ASSEMBLYDEBUG](/cpp/build/reference/assemblydebug-add-debuggableattribute) linker option.

@@ -14,11 +14,11 @@ dev_langs:
 helpviewer_keywords: 
   - "permissions [Office development in Visual Studio"
   - "inclusion lists [Office development in Visual Studio]"
-ms.assetid: 0609d8f0-4630-4e17-aeb3-14f3134165cf
-caps.latest.revision: 26
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Configure Inclusion List Security
   If you have Administrator permissions, you can configure the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] trust prompt to control whether end users are given the option of installing Office solutions by saving a trust decision to the inclusion list. For information about inclusion lists, see [Trusting Office Solutions by Using Inclusion Lists](../vsto/trusting-office-solutions-by-using-inclusion-lists.md).  

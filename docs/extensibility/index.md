@@ -6,6 +6,8 @@ ms.technology: vs-ide-sdk
 ms.topic: landing-page
 title: Visual Studio Extensibility Documentation | Microsoft Docs
 description: Learn about Visual Studio extensibility.
+ms.workload: 
+  - apexprodleads
 ---
 # Visual Studio Extensibility Documentation
 

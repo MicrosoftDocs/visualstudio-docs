@@ -21,6 +21,8 @@ caps.latest.revision: 12
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+ms.workload: 
+  - "multiple"
 ---
 # ClickOnce Cache Overview
 All [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications, whether they are installed locally or hosted online, are stored on the client computer in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)]application *cache*. A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] cache is a family of hidden directories under the Local Settings directory of the current user's Documents and Settings folder. This cache holds all the application's files, including the assemblies, configuration files, application and user settings, and data directory. The cache is also responsible for migrating the application's data directory to the latest version. For more information about data migration, see [Accessing Local and Remote Data in ClickOnce Applications](../deployment/accessing-local-and-remote-data-in-clickonce-applications.md).  

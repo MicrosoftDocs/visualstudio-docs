@@ -17,6 +17,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # BP_LOCATION_CODE_FUNC_OFFSET
 Describes the offset location of a breakpoint in a function in code.  

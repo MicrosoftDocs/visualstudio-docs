@@ -17,6 +17,8 @@ caps.latest.revision: 7
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProgramPublisher2::SetDebuggerPresent
 Tells the program publisher that a debugger is present and running.  

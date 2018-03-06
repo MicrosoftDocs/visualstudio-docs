@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 helpviewer_keywords: 
   - "Window Properties dialog box"
 ms.assetid: c70e9429-fb0c-452a-9626-79f168393e44
@@ -15,6 +15,8 @@ caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Window Properties Dialog Box
 Use this dialog box to find out more about a specific window. To display this dialog box, move the focus to the [Windows View](../debugger/windows-view.md) window. Select any window node in the tree, then choose **Properties** from the **View** menu.  

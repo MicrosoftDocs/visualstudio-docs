@@ -4,15 +4,14 @@ ms.custom: ""
 ms.date: "10/23/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
+ms.technology: vs-ide-mobile
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 65f4868b-b864-4989-a275-1e51869ef599
 author: "corob"
 ms.author: "mblome"
 manager: ghogen
-f1_keywords:
+f1_keywords: 
   - VC.Project.VCConfiguration.OutputDirectory
   - VC.Project.VCConfiguration.IntermediateDirectory
   - VC.Project.VCConfiguration.TargetName
@@ -24,6 +23,8 @@ f1_keywords:
   - VC.Project.VCConfiguration.DeleteExtensionsOnClean
   - VC.Project.VCConfiguration.UseOfSTL
   - VC.Project.VCConfiguration.ThumbMode
+ms.workload: 
+  - "xplat-cplusplus"
 ---
 
 # General Project Properties (Android C++)

@@ -15,6 +15,8 @@ caps.latest.revision: 20
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Model of a Legacy Language Service
 A language service defines the elements and features for a specific language, and is used to provide the editor with information specific to that language. For example, the editor needs to know the elements and keywords of the language in order to support syntax coloring.  

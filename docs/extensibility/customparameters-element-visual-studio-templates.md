@@ -17,6 +17,8 @@ caps.latest.revision: 6
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # CustomParameters Element (Visual Studio Templates)
 Groups the custom parameters that are to be passed to the template wizard when the wizard makes parameter replacements.  

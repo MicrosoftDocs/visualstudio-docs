@@ -19,6 +19,8 @@ caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA1408: Do not use AutoDual ClassInterfaceType
 |||  
@@ -54,6 +56,5 @@ manager: ghogen
  [CA1412: Mark ComSource Interfaces as IDispatch](../code-quality/ca1412-mark-comsource-interfaces-as-idispatch.md)  
   
 ## See Also  
- [Introducing the Class Interface](http://msdn.microsoft.com/en-us/733c0dd2-12e5-46e6-8de1-39d5b25df024)   
  [Qualifying .NET Types for Interoperation](/dotnet/framework/interop/qualifying-net-types-for-interoperation)   
  [Interoperating with Unmanaged Code](/dotnet/framework/interop/index)

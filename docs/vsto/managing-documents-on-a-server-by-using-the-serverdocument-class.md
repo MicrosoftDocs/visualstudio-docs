@@ -15,11 +15,11 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], managing on server"
   - "Office documents [Office development in Visual Studio, managing on server"
   - "ServerDocument class, managing documents on server"
-ms.assetid: 1ac90e89-d07d-4874-9d24-6741d6679a21
-caps.latest.revision: 40
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Managing Documents on a Server by Using the ServerDocument Class
   You can use the ServerDocument class in the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] to manage several aspects of document-level customizations, even if Microsoft Office Word and Microsoft Office Excel are not installed. You can perform the following tasks:  

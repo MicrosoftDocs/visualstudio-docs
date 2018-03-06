@@ -4,14 +4,14 @@ ms.custom: ""
 ms.date: "11/15/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7d08de69-c32e-4f0b-89aa-75347b15fb82
-caps.latest.revision: 11
 ms.author: mblome
 manager: ghogen
+ms.workload: 
+  - "cplusplus"
+author: mikeblome
 ---
 # Use the Microsoft Unit Testing Framework for C++ in Visual Studio 
 

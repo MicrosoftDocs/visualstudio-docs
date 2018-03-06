@@ -19,6 +19,8 @@ caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA1721: Property names should not match get methods
 |||  

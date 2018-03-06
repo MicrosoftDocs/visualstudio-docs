@@ -17,6 +17,8 @@ caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # EncUnavailableReason
 `This is for internal use only!` Represents the reasons that **Edit and Continue** is not available.  

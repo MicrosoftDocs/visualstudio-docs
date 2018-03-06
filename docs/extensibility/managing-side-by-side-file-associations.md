@@ -15,6 +15,8 @@ caps.latest.revision: 17
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Managing Side-by-Side File Associations
 If your VSPackage provides file associations, you must decide how to handle side-by-side installations in which a particular version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] should be invoked to open a file. Incompatible file formats compound the issue.  

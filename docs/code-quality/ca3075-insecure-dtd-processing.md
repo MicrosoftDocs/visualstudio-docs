@@ -13,6 +13,8 @@ caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA3075: Insecure DTD Processing
 |||  
@@ -26,7 +28,7 @@ manager: ghogen
  If you use insecure <xref:System.Xml.XmlReaderSettings.DtdProcessing%2A> instances or reference external entity sources, the parser may accept untrusted input and disclose sensitive information to attackers.  
   
 ## Rule Description  
- A [Document Type Definition (DTD)](https://msdn.microsoft.com/en-us/library/aa468547.aspx) is one of two ways an XML parser can determine the validity of a document, as defined by the  [World Wide Web Consortium (W3C) Extensible Markup Language (XML) 1.0](http://www.w3.org/TR/2008/REC-xml-20081126/). This rule seeks properties and instances where untrusted data is accepted to warn developers about potential [Information Disclosure](/dotnet/framework/wcf/feature-details/information-disclosure) threats, which may lead to [Denial of Service (DoS)](/dotnet/framework/wcf/feature-details/denial-of-service) attacks. This rule triggers when:  
+ A *Document Type Definition (DTD)* is one of two ways an XML parser can determine the validity of a document, as defined by the  [World Wide Web Consortium (W3C) Extensible Markup Language (XML) 1.0](http://www.w3.org/TR/2008/REC-xml-20081126/). This rule seeks properties and instances where untrusted data is accepted to warn developers about potential [Information Disclosure](/dotnet/framework/wcf/feature-details/information-disclosure) threats, which may lead to [Denial of Service (DoS)](/dotnet/framework/wcf/feature-details/denial-of-service) attacks. This rule triggers when:  
   
 -   DtdProcessing is enabled on the <xref:System.Xml.XmlReader> instance, which resolves external XML entities using <xref:System.Xml.XmlUrlResolver>.  
   
@@ -56,11 +58,11 @@ manager: ghogen
   
 -   Disable DTD processing if you are dealing with untrusted sources by setting the <xref:System.Xml.XmlReaderSettings.ProhibitDtd%2A> property to **true** .  
   
--   XmlTextReader class has a full trust inheritance demand. See [Inheritance Demands](http://msdn.microsoft.com/en-us/28b9adbb-8f08-4f10-b856-dbf59eb932d9) for more information    .  
+-   XmlTextReader class has a full trust inheritance demand.  
   
  .NET 4 and later  
   
--   Avoid enabling DtdProcessing if you're dealing with untrusted sources by setting the DtdProcessing  property to [Prohibit or Ignore](https://msdn.microsoft.com/en-us/library/system.xml.dtdprocessing.aspx)  
+-   Avoid enabling DtdProcessing if you're dealing with untrusted sources by setting the <xref:System.Xml.XmlReaderSettings.DtdProcessing%2A?displayProperty=nameWithType>  property to **Prohibit** or **Ignore**.  
   
 -   Ensure that the Load() method takes an XmlReader instance in all InnerXml cases.  
   

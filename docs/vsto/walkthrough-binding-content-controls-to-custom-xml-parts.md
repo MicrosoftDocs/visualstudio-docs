@@ -18,11 +18,11 @@ helpviewer_keywords:
   - "data binding [Office development in Visual Studio], content controls"
   - "DropDownListContentControl, binding items to a custom XML part"
   - "DatePickerContentControl, binding to a custom XML part"
-ms.assetid: 10d67769-6157-4703-a10c-d33e988f9095
-caps.latest.revision: 51
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Walkthrough: Binding Content Controls to Custom XML Parts
   This walkthrough demonstrates how to bind content controls in a document-level customization for Word to XML data that is stored in the document.  

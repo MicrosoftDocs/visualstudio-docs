@@ -4,7 +4,6 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.dsltools.dsldesigner.domainrelationship"
@@ -15,27 +14,24 @@ helpviewer_keywords:
   - "Domain-Specific Language, external types"
   - "Domain-Specific Language, relationships"
   - "Domain-Specific Language, domain properties"
-ms.assetid: d1772463-0eb1-40a5-b7c0-9a008bc76760
-caps.latest.revision: 43
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # How to Define a Domain-Specific Language
-To define a domain-specific language (DSL), you create a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution from a template. The key part of the solution is the DSL Definition diagram, which is stored in DslDefinition.dsl. The DSL Definition defines the classes and shapes of the DSL. After you modify and adding to these elements, you can add program code to customize the DSL in more detail.  
-  
- If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**, which you can find in this site: [Visualizaton and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=186128)  
+To define a domain-specific language (DSL), you create a Visual Studio solution from a template. The key part of the solution is the DSL Definition diagram, which is stored in DslDefinition.dsl. The DSL Definition defines the classes and shapes of the DSL. After you modify and adding to these elements, you can add program code to customize the DSL in more detail.
 
+If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**, which you can find in this site: [Visualizaton and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=186128)
 
-[!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
-
-  
 ##  <a name="templates"></a> Selecting a Template Solution  
  To define a DSL, you must have installed the following components:  
   
 |||  
 |-|-|  
-|[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]|[http://go.microsoft.com/fwlink/?LinkId=185579](http://go.microsoft.com/fwlink/?LinkId=185579)|  
+|Visual Studio|[http://go.microsoft.com/fwlink/?LinkId=185579](http://go.microsoft.com/fwlink/?LinkId=185579)|  
 |[!INCLUDE[vssdk_current_short](../modeling/includes/vssdk_current_short_md.md)]|[http://go.microsoft.com/fwlink/?LinkId=185580](http://go.microsoft.com/fwlink/?LinkId=185580)|  
 |Visual Studio Visualization and Modeling SDK||  
 
@@ -43,7 +39,7 @@ To define a domain-specific language (DSL), you create a [!INCLUDE[vsprvs](../co
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 
   
- To create a new domain-specific language, you create a new [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution using the Domain-Specific Language project template.  
+ To create a new domain-specific language, you create a new Visual Studio solution using the Domain-Specific Language project template.  
   
 #### To create a DSL solution  
   
@@ -94,17 +90,17 @@ To define a domain-specific language (DSL), you create a [!INCLUDE[vsprvs](../co
 ### Test the Solution  
  The template solution provides a working DSL, which you can modify or use as it is.  
   
- To test the solution, press F5 or CTRL+F5. A new instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] opens in experimental mode.  
+ To test the solution, press F5 or CTRL+F5. A new instance of Visual Studio opens in experimental mode.  
   
- In the new instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], in Solution Explorer, open the Sample file. It opens as a diagram, with a toolbox.  
+ In the new instance of Visual Studio, in Solution Explorer, open the Sample file. It opens as a diagram, with a toolbox.  
   
- If you run a solution that you have created from the **Minimal Language** template, your experimental [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] will resemble the following example:  
+ If you run a solution that you have created from the **Minimal Language** template, your experimental Visual Studio will resemble the following example:  
   
  ![](../modeling/media/dsl_min.png "DSL_min")  
   
  Experiment with the tools. Create elements and connect them.  
   
- Close the experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
+ Close the experimental instance of Visual Studio.  
   
 > [!NOTE]
 >  When you have modified the DSL, you will no longer be able to see the shapes on the Sample test file. However, you will be able to create new elements.  
@@ -213,11 +209,11 @@ To define a domain-specific language (DSL), you create a [!INCLUDE[vsprvs](../co
   
 ##### To test the new Domain Classes  
   
-1.  **Click Transform All Templates** in the toolbar of Solution Explorer, to generate the DSL designer code. You can automate this step. For more information, see [How to Automate Transform All Templates](http://msdn.microsoft.com/en-us/b63cfe20-fe5e-47cc-9506-59b29bca768a).  
+1.  **Click Transform All Templates** in the toolbar of Solution Explorer, to generate the DSL designer code. You can automate this step. For more information, see [How to Automate Transform All Templates](http://msdn.microsoft.com/b63cfe20-fe5e-47cc-9506-59b29bca768a).
   
-2.  **Build and run the DSL.** Press F5 or CTRL+F5 to run a new instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] in experimental mode. In the experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], open or create a file that has the file name extension of your DSL.  
+2.  **Build and run the DSL.** Press F5 or CTRL+F5 to run a new instance of Visual Studio in experimental mode. In the experimental instance of Visual Studio, open or create a file that has the file name extension of your DSL.  
   
-3.  **Open the Explorer.** At the side of the diagram is the language explorer window, which is usually named *YourLanguage* Explorer. If you do not see this window, it might be on a tab underneath Solution Explorer. If you cannot find it, on the **View** menu, point to **Other Windows**, and then click *YourLanguage***Explorer**.  
+3.  **Open the Explorer.** At the side of the diagram is the language explorer window, which is usually named *YourLanguage* Explorer. If you do not see this window, it might be on a tab underneath Solution Explorer. If you cannot find it, on the **View** menu, point to **Other Windows**, and then click *YourLanguage* **Explorer**.  
   
      Your explorer presents a tree view of the model.  
   
@@ -313,7 +309,7 @@ To define a domain-specific language (DSL), you create a [!INCLUDE[vsprvs](../co
   
 1.  **Click Transform All Templates** in the toolbar of Solution Explorer, to generate the DSL designer code.  
   
-2.  **Build and run the DSL.** Press F5 or CTRL+F5 to run a new instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] in experimental mode. In the experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], open or create a file that has the file name extension of your DSL.  
+2.  **Build and run the DSL.** Press F5 or CTRL+F5 to run a new instance of Visual Studio in experimental mode. In the experimental instance of Visual Studio, open or create a file that has the file name extension of your DSL.  
   
 3.  **Verify that the element tools appear on the toolbox.**  
   
@@ -389,7 +385,7 @@ To define a domain-specific language (DSL), you create a [!INCLUDE[vsprvs](../co
   
 1.  **Click Transform All Templates** in the toolbar of Solution Explorer, to generate the DSL designer code.  
   
-2.  **Build and run the DSL.** Press F5 or CTRL+F5 to run a new instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] in experimental mode. In the experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], open or create a file that has the file name extension of your DSL.  
+2.  **Build and run the DSL.** Press F5 or CTRL+F5 to run a new instance of Visual Studio in experimental mode. In the experimental instance of Visual Studio, open or create a file that has the file name extension of your DSL.  
   
 3.  **Verify that the connection tool appears on the toolbox.**  
   
@@ -490,7 +486,7 @@ To define a domain-specific language (DSL), you create a [!INCLUDE[vsprvs](../co
   
 1.  **Click Transform All Templates** in the toolbar of Solution Explorer, to generate the DSL designer code.  
   
-2.  **Build and run the DSL.** Press F5 or CTRL+F5 to run a new instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] in experimental mode. In the experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], open or create a file that has the file name extension of your DSL.  
+2.  **Build and run the DSL.** Press F5 or CTRL+F5 to run a new instance of Visual Studio in experimental mode. In the experimental instance of Visual Studio, open or create a file that has the file name extension of your DSL.  
   
 3.  **Verify that the tool appears on the toolbox.**  
   
@@ -619,12 +615,10 @@ To define a domain-specific language (DSL), you create a [!INCLUDE[vsprvs](../co
 |In the explorer for my DSL, elements are shown only with their type names.|In the DSL Definition, select a domain property of the class and in the Properties window, set **Is Element Name** to true.|  
 |My DSL always opens in the XML editor.|This can happen because of an error while the file was being read. However, even after you fix that error, you must explicitly reset the editor to be your DSL designer.<br /><br /> Right-click the project item, click **Open With** and select *YourLanguage***Designer (Default)**.|  
 |The toolbox of my DSL does not appear after I changed the assembly names.|Inspect and update **DslPackage\GeneratedCode\Package.tt** For more information, see [How to: Change the Namespace of a Domain-Specific Language](../modeling/how-to-change-the-namespace-of-a-domain-specific-language.md).|  
-|The toolbox of my DSL does not appear, but I have not changed the assembly name.<br /><br /> Or, a message box appears reporting the failure to load an extension.|Reset the experimental instance, and rebuild your solution.<br /><br /> 1.  At the Windows Start menu, under **All Programs**, expand [!INCLUDE[vssdk_current_long](../misc/includes/vssdk_current_long_md.md)], then **Tools**, and then click **Reset the Microsoft Visual Studio Experimental Instance**.<br />2.  On the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]**Build** menu, click **Rebuild Solution**.|  
+|The toolbox of my DSL does not appear, but I have not changed the assembly name.<br /><br /> Or, a message box appears reporting the failure to load an extension.|Reset the experimental instance, and rebuild your solution.<br /><br /> 1.  At the Windows Start menu, under **All Programs**, expand [!INCLUDE[vssdk_current_long](../misc/includes/vssdk_current_long_md.md)], then **Tools**, and then click **Reset the Microsoft Visual Studio Experimental Instance**.<br />2.  On the Visual Studio**Build** menu, click **Rebuild Solution**.|  
   
 ## See Also  
  [Getting Started with Domain-Specific Languages](../modeling/getting-started-with-domain-specific-languages.md)   
  [Creating a Windows Forms-Based Domain-Specific Language](../modeling/creating-a-windows-forms-based-domain-specific-language.md)   
  [Creating a WPF-Based Domain-Specific Language](../modeling/creating-a-wpf-based-domain-specific-language.md)
-
-[!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 

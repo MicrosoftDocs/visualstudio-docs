@@ -17,6 +17,8 @@ caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugEngineProgram2::WatchForThreadStep
 Watches for execution (or stops watching for execution) to occur on the given thread.  

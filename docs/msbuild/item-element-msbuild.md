@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "03/13/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: msbuild
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
@@ -18,9 +17,11 @@ helpviewer_keywords:
   - "<Item> Element [MSBuild]"
 ms.assetid: dcef5f91-0613-4bfc-8ee9-d7004bb6d3a9
 caps.latest.revision: 31
-author: "kempb"
-ms.author: "kempb"
+author: Mikejo5000
+ms.author: mikejo
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Item Element (MSBuild)
 Contains a user-defined item and its metadata. Every item that is used in a [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project must be specified as a child of an `ItemGroup` element.  

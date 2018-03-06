@@ -17,6 +17,8 @@ caps.latest.revision: 19
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSession
 Provides a query context for debug symbols.  

@@ -17,6 +17,8 @@ caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaEnumTables::Clone
 Creates an enumerator that contains the same enumeration state as the current enumerator.  

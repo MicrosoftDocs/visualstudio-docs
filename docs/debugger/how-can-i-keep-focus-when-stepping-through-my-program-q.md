@@ -25,6 +25,8 @@ caps.latest.revision: 18
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How Can I Keep Focus When Stepping Through My Program?
 ## Description  

@@ -13,6 +13,8 @@ caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Examine the Content Model of Nodes Using the Content Model View
 This topic describes how to explore your nodes using the [Content Model View](../xml-tools/content-model-view.md).  

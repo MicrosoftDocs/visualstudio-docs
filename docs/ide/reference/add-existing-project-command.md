@@ -18,6 +18,8 @@ caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Add Existing Project Command
 Adds an existing project to the current solution.  

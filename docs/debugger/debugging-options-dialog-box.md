@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 dev_langs: 
   - "CSharp"
   - "VB"
@@ -26,6 +26,8 @@ caps.latest.revision: 14
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Debugging, Options Dialog Box
 The **Debugging** folder, in the **Options** dialog box on the **Tools** menu, provides the following pages, which enable you to specify debugger tool options.  

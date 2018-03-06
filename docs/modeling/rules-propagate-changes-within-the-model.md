@@ -4,16 +4,16 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Domain-Specific Language, programming domain models"
   - "Domain-Specific Language, rules"
-ms.assetid: 1690a38a-c8f5-4bc6-aab9-015771ec6647
-caps.latest.revision: 30
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Rules Propagate Changes Within the Model
 You can create a store rule to propagate a change from one element to another in Visualization and Modeling SDK (VMSDK). When a change occurs to any element in the Store, rules are scheduled to be executed, usually when the outermost transaction is committed. There are different types of rules for different kinds of events, such as adding an element, or deleting it. You can attach rules to specific types of elements, shapes, or diagrams. Many built-in features are defined by rules: for example, rules ensure that a diagram is updated when the model changes. You can customize your domain-specific language by adding your own rules.  

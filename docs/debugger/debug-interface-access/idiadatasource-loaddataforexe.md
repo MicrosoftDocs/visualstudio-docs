@@ -17,6 +17,8 @@ caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaDataSource::loadDataForExe
 Opens and prepares the debug data associated with the .exe/.dll file.  

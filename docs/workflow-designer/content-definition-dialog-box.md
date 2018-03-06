@@ -13,6 +13,8 @@ caps.latest.revision: 3
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+ms.workload: 
+  - "multiple"
 ---
 # Content Definition Dialog Box
 The **Content Definition** dialog box is used in [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] to configure the **Content** properties of the <xref:System.ServiceModel.Activities.Send>, <xref:System.ServiceModel.Activities.Receive>, <xref:System.ServiceModel.Activities.SendReply>, and <xref:System.ServiceModel.Activities.ReceiveReply> activities. [!INCLUDE[crabout](../test/includes/crabout_md.md)] the activity designers that use this box, see the [Send](../workflow-designer/send-activity-designer.md), [Receive](../workflow-designer/receive-activity-designer.md), [ReceiveAndSendReply](../workflow-designer/receiveandsendreply-template-designer.md), and [SendAndReceiveReply](../workflow-designer/sendandreceivereply-template-designer.md) topics.  

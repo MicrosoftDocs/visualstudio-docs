@@ -19,6 +19,8 @@ caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA1823: Avoid unused private fields
 |||  

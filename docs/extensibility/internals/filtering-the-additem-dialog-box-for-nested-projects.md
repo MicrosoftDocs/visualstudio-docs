@@ -16,6 +16,8 @@ caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Filtering the AddItem Dialog Box for Nested Projects
 When you display an **AddItem** dialog box for a nested project, the parent project can control what items are displayed in the dialog box.  

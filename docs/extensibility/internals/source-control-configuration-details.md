@@ -15,6 +15,8 @@ caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Source Control Configuration Details
 In order to implement source control, you need to properly configure your project system or editor to do the following:  

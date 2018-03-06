@@ -10,9 +10,6 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
 helpviewer_keywords: 
   - "visualizers, writing"
   - "walkthroughs [Visual Studio], visualizers"
@@ -21,6 +18,8 @@ caps.latest.revision: 33
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "dotnet"
 ---
 # Walkthrough: Writing a Visualizer in C# #
 This walkthrough shows how to write a simple visualizer by using C#. The visualizer you will create in this walkthrough displays the contents of a string using a Windows forms message box. This simple string visualizer is not especially useful in itself, but it shows the basic steps that you must follow to create more useful visualizers for other data types.  
@@ -65,7 +64,7 @@ Follow the tasks below to create a visualizer.
   
 6.  In DebuggerSide.cs, add the following statement to the `using` statements:  
   
-    ```  
+    ```csharp  
     using Microsoft.VisualStudio.DebuggerVisualizers;  
     ```  
   
@@ -75,13 +74,13 @@ Follow the tasks below to create a visualizer.
   
 1.  In DebuggerSide.cs, go to the following line of code:  
   
-    ```  
+    ```csharp  
     public class DebuggerSide  
     ```  
   
 2.  Change the code to:  
   
-    ```  
+    ```csharp  
     public class DebuggerSide : DialogDebuggerVisualizer  
     ```  
   
@@ -91,8 +90,8 @@ Follow the tasks below to create a visualizer.
   
 -   In `public class DebuggerSide`, add the following **method:**  
   
-    ```  
-    override protected void Show(IDialogVisualizerService windowService, IVisualizerObjectProvider objectProvider)  
+    ```csharp  
+    protected override void Show(IDialogVisualizerService windowService, IVisualizerObjectProvider objectProvider)  
     {  
     }  
     ```  
@@ -109,7 +108,7 @@ Follow the tasks below to create a visualizer.
   
 4.  In DebuggerSide.cs, add the following statement to the `using` statements:  
   
-    ```  
+    ```csharp  
     using System.Windows.Forms;  
     ```  
   
@@ -119,7 +118,7 @@ Follow the tasks below to create a visualizer.
   
 1.  In the `Show` method, add the following line of code:  
   
-    ```  
+    ```csharp  
     MessageBox.Show(objectProvider.GetObject().ToString());  
     ```  
   
@@ -133,12 +132,12 @@ Follow the tasks below to create a visualizer.
   
 1.  Add the following attribute code to DebuggerSide.cs, after the `using` statements but before `namespace MyFirstVisualizer`:  
   
-    ```  
+    ```csharp  
     [assembly:System.Diagnostics.DebuggerVisualizer(  
     typeof(MyFirstVisualizer.DebuggerSide),  
     typeof(VisualizerObjectSource),  
-    Target  = typeof(System.String),  
-    Description  = "My First Visualizer")]  
+    Target = typeof(System.String),  
+    Description = "My First Visualizer")]  
     ```  
   
 2.  On the **Build** menu, choose **Build MyFirstVisualizer**. The project should build successfully. Correct any build errors before continuing.  
@@ -149,7 +148,7 @@ Follow the tasks below to create a visualizer.
   
 1.  Add the following method to class `public DebuggerSide`:  
   
-    ```  
+    ```csharp  
     public static void TestShowVisualizer(object objectToVisualize)  
     {  
        VisualizerDevelopmentHost visualizerHost = new VisualizerDevelopmentHost(objectToVisualize, typeof(DebuggerSide));  
@@ -199,13 +198,13 @@ Follow the tasks below to create a visualizer.
   
 3.  In TestConsole.cs, add the following code to the `using` statements:  
   
-    ```  
+    ```csharp  
     using MyFirstVisualizer;  
     ```  
   
 4.  In method `Main`, add the following code:  
   
-    ```  
+    ```csharp  
     String myString = "Hello, World";  
     DebuggerSide.TestShowVisualizer(myString);  
     ```  

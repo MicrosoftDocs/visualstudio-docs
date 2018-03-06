@@ -19,6 +19,8 @@ caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA2104: Do not declare read only mutable reference types
 |||  

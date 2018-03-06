@@ -1,26 +1,27 @@
 ---
 title: "What's New in Visual Studio 2017 | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/15/2017"
+ms.date: "12/04/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology:
-  - "vs-ide-general"
+ms.technology: 
   - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords:
+f1_keywords: 
   - "VS.StartPage.WhatsNew"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
 ms.assetid: 7307e180-ba28-4774-8a43-cbb980085a71
 author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # What&#39;s New in Visual Studio 2017
-#### Updated for the [15.5 Preview 4 release](https://www.visualstudio.com/en-us/news/releasenotes/vs2017-preview-relnotes)
+#### Updated for the [15.5 release](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes)
 Looking to upgrade from a previous version of Visual Studio? Here's what Visual Studio 2017 can offer you: Unparalleled productivity for any dev, any app, and any platform. Use Visual Studio 2017 to develop apps for Android, iOS, Windows, Linux, web, and cloud. Code fast, debug and diagnose with ease, test often, and release with confidence. You can also extend and customize Visual Studio by building your own extensions. Use version control, be agile, and collaborate efficiently with this release!
 
 Here's a high-level recap of the changes we've made since our previous version, Visual Studio 2015:
@@ -28,20 +29,21 @@ Here's a high-level recap of the changes we've made since our previous version, 
 * **Redefined fundamentals**. A new setup experience means that you can install more quickly and install what you want when you need it. Whether you want to load large solutions and projects, or work on folders of code, or even a single file of code, Visual Studio starts faster. And, Visual Studio helps you stay focused on the big picture, especially for teams embracing DevOps.
 * **Performance and productivity**. We have focused on new and modern mobile, cloud, and desktop development capabilities. And, we've also improved the overall acquisition, performance, and general developer productivity experiences. Visual Studio starts faster, is more responsive, and uses less memory than before.
 * **Cloud app development with Azure**. A built-in suite of Azure tools enable you to easily create cloud-first apps powered by Microsoft Azure. Visual Studio makes it easy to configure, build, debug, package, and deploy apps and services on Azure.
+* **Windows app development**. Use the UWP templates in Visual Studio 2017 to create a single project for all Windows 10 devices &ndash; PC, tablet, phone, Xbox, HoloLens, Surface Hub, and more. Then, produce an app package and submit it to Microsoft Store from within Visual Studio to get your app out to customers.
 * **Mobile app development**. In Visual Studio 2017, you can innovate and get results fast with Xamarin, which unifies your multi-platform mobile requirements by using one core codebase and set of skills. Go mobile with your existing teams, technology investments, and C# code to deliver consumer-grade experiences ahead of schedule and under budget. Accelerate every step of the mobile lifecycle to deliver world-class consumer experiences or a portfolio of productivity apps to empower your workforce.
 * **Cross-platform development**. Seamlessly deliver software to any targeted platform. Extend DevOps processes to SQL Server through Redgate Data Tools and safely automate database deployments from Visual Studio. Or, use .NET Core to write apps and libraries that run unmodified across Windows, Linux, and macOS operating systems. (And **new in 15.3**: Get side-by-side support for .NET Core 2.0 SDKs.)
 * **Games development**. With Visual Studio Tools for Unity (VSTU), you can use Visual Studio to write game and editor scripts in C# and then use its powerful debugger to find and fix errors. The latest release of VSTU includes syntax coloring for Unity's ShaderLab shader language, better debugger visualizations, and improved code generation for the MonoBehavior wizard. VSTU also brings your Unity project files, console messages, and the ability to start your game into Visual Studio so you can spend less time switching to and from the Unity Editor while writing code.
 * **AI development**. With Visual Studio Tools for AI (**new in 15.5**), you can use the productivity features of Visual Studio to accelerate AI innovation. Build, test, and deploy Deep Learning / AI solutions that seamlessly integrate with Azure Machine Learning for robust experimentation capabilities, such as submitting data preparation and model training jobs transparently to different compute targets. And, Visual Studio Tools for AI provides support for custom metrics and run history tracking, which enable data science reproducibility and auditing.
 
 > [!NOTE]
-> For a complete list of new features and functionality in Visual Studio 2017, see the [current Release Notes](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes). And for a peek at future feature offerings, see the [Preview Release Notes](https://www.visualstudio.com/en-us/news/releasenotes/vs2017-preview-relnotes).
+> For a complete list of new features and functionality in Visual Studio 2017, see the [current Release Notes](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes). And for a peek at future feature offerings, see the [Preview Release Notes](https://www.visualstudio.com/news/releasenotes/vs2017-preview-relnotes).
 
 Here's more detailed information about some of the most notable improvements and new features in Visual Studio 2017.
 
 ## Redefined fundamentals
 ### A new setup experience
 
-[Download Visual Studio 2017](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) or [Check Visual Studio system requirements](https://www.visualstudio.com/en-us/productinfo/vs2017-system-requirements-vs)
+[Download Visual Studio 2017](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) or [Check Visual Studio system requirements](https://www.visualstudio.com/productinfo/vs2017-system-requirements-vs)
 
  Visual Studio makes it easier and faster to install just the features you need, when you need them. And, it uninstalls cleanly, too.
 
@@ -112,7 +114,8 @@ And, for more information about what's new in the [Continuous Delivery Tools for
 
 ### Visual Studio IDE enhancements
 #### Use new refactorings
-**In 15.3**, we added a handful of new refactorings, to include:
+Refactoring is the process of improving your code after it has been written. Refactoring changes the internal structure of the code without changing its behavior. We add new refactorings often; here are just a few:
+
 *	Add parameter (from CallSite)
 *	Generate overrides
 *	Add named argument
@@ -122,7 +125,7 @@ And, for more information about what's new in the [Continuous Delivery Tools for
 *	Convert if-to-switch
 *	Remove unused variable
 
-For more information, see the [Refactoring, Code Generation, and Quick Actions in Visual Studio](refactoring-code-generation-quick-actions.md) page.  
+For more information, see [Quick Actions](../ide/common-quick-actions.md).
 
 #### Interact with Git
 When you are working with a project in Visual Studio, you can set up and quickly commit and publish your code to a Git service. You can also manage your Git repositories by using menu clicks from buttons in the bottom right-hand corner of the IDE.
@@ -171,7 +174,7 @@ The new Exception Helper helps you view your exception information at-a-glance. 
 For more information, see the [Using the New Exception Helper in Visual Studio](https://blogs.msdn.microsoft.com/visualstudioalm/2016/03/31/using-the-new-exception-helper-in-visual-studio-15-preview/) blog post.
 
 #### Snapshots and IntelliTrace step-back:
-**New in 15.5** IntelliTrace step-back automatically takes a snapshot of your application at every breakpoint and debugger step event. The recorded snapshots enable you to go back to previous breakpoints or steps and view the state of the application as it was in the past. IntelliTrace step-back can save you time when you want to see the previous application state but don't want to restart debugging or recreate the desired app state.
+**New in 15.5**: IntelliTrace step-back automatically takes a snapshot of your application at every breakpoint and debugger step event. The recorded snapshots enable you to go back to previous breakpoints or steps and view the state of the application as it was in the past. IntelliTrace step-back can save you time when you want to see the previous application state but don't want to restart debugging or recreate the desired app state.
 
 You can navigate and view snapshots by using the **Step Backward** and **Step Forward** buttons in the Debug toolbar. These buttons navigate the events that appear in the **Events** tab in the **Diagnostic Tools** window. Stepping backward or forward to an event automatically activates historical debugging on the selected event.
 
@@ -180,6 +183,8 @@ You can navigate and view snapshots by using the **Step Backward** and **Step Fo
 For more information, see the [View snapshots using IntelliTrace step-back](../debugger/how-to-use-intellitrace-step-back.md) page.
 
 ### Containerization
+Containers provide you with increased app density and lower deployment cost along with improved productivity and DevOps agility.
+
 #### Docker Container Tooling
 **New in 15.5**
 * Visual Studio includes tools for Docker containers that now support multi-stage Dockerfiles, which streamline creating optimized container images.
@@ -192,7 +197,7 @@ As part of the "Azure development" workload, we've included tools to help you de
 For more information, see the [Azure Functions Tools for Visual Studio](https://docs.microsoft.com/azure/azure-functions/functions-develop-vs) page.
 
 ### Debug live ASP.NET apps using snappoints and logpoints in live Azure applications
-**New in 15.5** The Snapshot Debugger takes a snapshot of your in-production apps when code that you are interested in executes. To instruct the debugger to take a snapshot, you set snappoints and logpoints in your code. The debugger lets you see exactly what went wrong, without impacting traffic of your production application. The Snapshot Debugger can help you dramatically reduce the time it takes to resolve issues that occur in production environments.
+**New in 15.5**: The Snapshot Debugger takes a snapshot of your in-production apps when code that you are interested in executes. To instruct the debugger to take a snapshot, you set snappoints and logpoints in your code. The debugger lets you see exactly what went wrong, without impacting traffic of your production application. The Snapshot Debugger can help you dramatically reduce the time it takes to resolve issues that occur in production environments.
 
 Snapshot collection is available for the following web apps running in Azure App Service:
 
@@ -200,6 +205,24 @@ Snapshot collection is available for the following web apps running in Azure App
 * ASP.NET Core applications running on .NET Core 2.0 or later on Windows.
 
 For more information, see [Debug live ASP.NET apps using snappoints and logpoints](../debugger/debug-live-azure-applications.md).
+
+## Windows app development
+### Universal Windows Platform
+The Universal Windows Platform (UWP) is the app platform for Windows 10. You can develop apps for UWP with just one API set, one app package, and one store to reach all Windows 10 devices &ndash; PC, tablet, phone, Xbox, HoloLens, Surface Hub, and more. UWP supports different screen sizes and a variety of interaction models, whether it be touch, mouse and keyboard, a game controller, or a pen. At the core of UWP apps is the idea that users want their experiences to be mobile across ALL their devices, and they want to use whatever device is most convenient or productive for the task at hand.
+
+ ![Universal Windows Platform](../cross-platform/media/uwp_coreextensions.png "UWP_CoreExtensions")
+
+Choose your preferred development language&mdash;from C#, Visual Basic, C++, or JavaScript&mdash;to create a Universal Windows Platform app for Windows 10 devices. Visual Studio 2017 provides a UWP app template for each language that lets you create a single project for all devices. When your work is finished, you can produce an app package and submit it to Microsoft Store from within Visual Studio to get your app out to customers on any Windows 10 device.
+
+**New in 15.5**<br/>
+Visual Studio 2017 version 15.5 provides the best support for the Windows 10 Fall Creators Update SDK (10.0.16299.0). The Windows 10 Fall Creators Update also brings many improvements for UWP developers. Here are some of the biggest changes: 
+
+* **Support for .NET Standard 2.0**<br/>
+In addition to streamlined app deployment, the Windows 10 Fall Creators Update is the first release of Windows 10 to provide .NET Standard 2.0 support. Effectively, [.NET Standard](https://blogs.msdn.microsoft.com/dotnet/2016/09/26/introducing-net-standard/) is a reference implementation of the base class library that any .NET platform can implement. The goal of .NET Standard is to make it as easy as possible for .NET developers to share code across any .NET platform they choose to work on.
+* **The best of both UWP and Win32** <br/>
+We have improved the Windows 10 Platform with the [Desktop Bridge](https://docs.microsoft.com/windows/uwp/porting/desktop-to-uwp-root) to make Windows 10 better for all .NET developers, whether their current focus is on UWP, WPF, Windows Forms, or Xamarin. With the new App Packaging project type in Visual Studio 2017 version 15.5, you can create Windows App Packages for your WPF or Windows Forms projects, just like you can for UWP projects. After you package your app, you get all the Windows 10 app deployment benefits and have the option to distribute via Microsoft Store (for consumer apps) or Microsoft Store for Business and Education. Because packaged apps have access to both the full UWP API surface and the Win32 APIs on desktop, you can now modernize your WPF and Windows Forms applications gradually with UWP APIs and Windows 10 features. Moreover, you can include your Win32 components in your UWP applications that light up on desktop with all Win32 capabilities. 
+
+For more information about UWP, see the [Develop apps for the Universal Windows Platform (UWP)](../cross-platform/develop-apps-for-the-universal-windows-platform-uwp.md) page.
 
 ## Mobile app development
 ### Xamarin
@@ -219,6 +242,8 @@ For more information, see the [Visual Studio and Xamarin](../cross-platform/visu
 
 ### Visual Studio App Center
 **New in 15.5**: Visual Studio App Center&mdash;which is now generally available for Android, iOS, macOS, and Windows apps&mdash;has everything you need to manage the lifecycle of your apps, including automated builds, testing on real devices in the cloud, distribution to beta testers and app stores, and monitoring of real-world usage through crash and analytics data. Apps written in Objective-C, Swift, Java, C#, Xamarin, and React Native are supported across all features.
+
+  ![Visual Studio App Center test environment](../ide/media/app-center-test-env.png)
 
 For more information, see the [Introducing App Center: Build, Test, Distribute and Monitor Apps in the Cloud](https://blogs.msdn.microsoft.com/vsappcenter/introducing-visual-studio-app-center/) blog post.
 
@@ -244,7 +269,7 @@ And, it now includes Docker support.
 
 **New in 15.3**: Visual Studio 2017 version 15.3 supports .NET Core 2.0 development. Using .NET Core 2.0 requires downloading and installing the .NET Core 2.0 SDK separately.  
 
-For more information, see the [.NET Core Guide](https://docs.microsoft.com/dotnet/core/index) page.
+For more information, see the [.NET Core Guide](/dotnet/core/index) page.
 
 ## Games development
 ### Visual Studio Tools for Unity
@@ -273,8 +298,8 @@ If you want to make a suggestion about how we can improve Visual Studio, or repo
  If want to track the status of your Visual Studio feedback, go to [Connect](http://connect.microsoft.com/) and report the bug there. After you report it, you can return to Connect to track its status.  
 
 ## See Also
-* [Visual Studio 2017 Release Notes](https://www.visualstudio.com/news/vs2015-vs)
+* [Visual Studio 2017 Release Notes](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes)
 * [What's New in Visual C++](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio)
-* [What's New in C#](https://docs.microsoft.com/dotnet/csharp/csharp-7)  
+* [What's New in C#](/dotnet/csharp/whats-new)  
 * [What's New for Team Foundation Server](https://www.visualstudio.com/docs/whats-new)
 * [What's New in Visual Studio for Mac](https://www.visualstudio.com/vs/visual-studio-mac/)

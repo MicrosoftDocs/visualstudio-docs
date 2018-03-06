@@ -4,17 +4,17 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.dsltools.dsldesigner.port"
 helpviewer_keywords: 
   - "Domain-Specific Language, port shape"
-ms.assetid: 9d69c4c1-4f72-4876-96b6-9b846e0495a4
-caps.latest.revision: 21
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Properties of Port Shapes
 You can use port shapes to represent domain classes in the generated designer.  
@@ -52,4 +52,4 @@ You can use port shapes to represent domain classes in the generated designer.
 |Help Keyword|The keyword that is used to index F1 help for this shape.|\<none>|  
   
 ## See Also  
- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/en-us/ca5e84cb-a315-465c-be24-76aa3df276aa)
+ [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

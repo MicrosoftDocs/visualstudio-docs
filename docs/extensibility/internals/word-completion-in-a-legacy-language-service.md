@@ -17,6 +17,8 @@ caps.latest.revision: 15
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Word Completion in a Legacy Language Service
 Word completion fills in the missing characters on a partially typed word. If there is only one possible completion, the word is completed when the completion character is entered. If the partial word matches more than one possibility, a list of possible completions is displayed. A completion character can be any character that is not used for identifiers.  

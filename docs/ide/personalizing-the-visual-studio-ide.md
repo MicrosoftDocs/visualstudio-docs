@@ -8,14 +8,15 @@ ms.technology:
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-caps.latest.revision: 3
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Personalize the Visual Studio IDE
 
-You can personalize Visual Studio in various ways to best support your own development style and requirements. Many of your settings roam with you across Visual Studio instances &mdash; see [Synchronized settings](../ide/synchronized-settings-in-visual-studio.md). This topic briefly describes different personalizations and where you can find more information.
+You can personalize Visual Studio in various ways to best support your own development style and requirements. Many of your settings roam with you across Visual Studio instances&mdash;see [Synchronized settings](../ide/synchronized-settings-in-visual-studio.md). This topic briefly describes different personalizations and where you can find more information.
 
 ## General environment options
 
@@ -57,4 +58,4 @@ You can customize the **Tools** menu to launch external tools For more informati
 ## See also
 
 [Visual Studio IDE overview](../ide/visual-studio-ide.md)  
-[Quickstart: first look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)
+[Quickstart: First look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)

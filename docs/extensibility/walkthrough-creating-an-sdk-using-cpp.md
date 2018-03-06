@@ -13,6 +13,8 @@ caps.latest.revision: 32
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Walkthrough: Creating an SDK using C++
 This walkthrough shows how to create a native C++ math library SDK, package the SDK as a Visual Studio Extension (VSIX), and then use it to create an app. The walkthrough is divided into these steps:  
@@ -30,7 +32,7 @@ This walkthrough shows how to create a native C++ math library SDK, package the 
   
 1.  On the menu bar, choose **File**, **New**, **Project**.  
   
-2.  In the list of templates, expand **Visual C++**, **Windows Store**, and then select the **DLL (Windows Store apps)** template. In the **Name** box, specify `NativeMath`, and then choose the **OK** button.  
+2.  In the list of templates, expand **Visual C++**, **Windows Universal**, and then select the **DLL (Windows Universal apps)** template. In the **Name** box, specify `NativeMath`, and then choose the **OK** button.  
   
 3.  Update NativeMath.h to match the following code.  
   
@@ -58,25 +60,23 @@ This walkthrough shows how to create a native C++ math library SDK, package the 
   
 1.  In **Solution Explorer**, open the shortcut menu for **Solution 'NativeMath'**, and then choose **Add**, **New Project**.  
   
-2.  In the list of templates, expand **Visual C#**, **Extensibility**, and then select **VSIX Package**. In the **Name** box, specify **NativeMathVSIX**, and then choose the **OK** button.  
+2.  In the list of templates, expand **Visual C#**, **Extensibility**, and then select **VSIX Project**. In the **Name** box, specify **NativeMathVSIX**, and then choose the **OK** button.
   
-3.  When the VSIX manifest designer appears, close it.  
+3.  In **Solution Explorer**, open the shortcut menu for **source.extension.vsixmanifest**, and then choose **View Code**.  
   
-4.  In **Solution Explorer**, open the shortcut menu for **source.extension.vsixmanifest**, and then choose **View Code**.  
-  
-5.  Use the following XML to replace the existing XML.  
+4.  Use the following XML to replace the existing XML.  
   
     [!code-xml[CreatingAnSDKUsingCpp#6](../extensibility/codesnippet/XML/walkthrough-creating-an-sdk-using-cpp_6.xml)]
 
-6.  In **Solution Explorer**, open the shortcut menu for the **NativeMathVSIX** project, and then choose **Add**, **New Item**.  
+5.  In **Solution Explorer**, open the shortcut menu for the **NativeMathVSIX** project, and then choose **Add**, **New Item**.  
   
-7.  In the list of **Visual C# Items**, expand **Data**, and then select **XML File**. In the **Name** box, specify `SDKManifest.xml`, and then choose the **OK** button.  
+6.  In the list of **Visual C# Items**, expand **Data**, and then select **XML File**. In the **Name** box, specify `SDKManifest.xml`, and then choose the **OK** button.  
   
-8.  Use this XML to replace the contents of the file:  
+7.  Use this XML to replace the contents of the file:  
   
      [!code-xml[CreatingAnSDKUsingCpp#5](../extensibility/codesnippet/XML/walkthrough-creating-an-sdk-using-cpp_5.xml)]  
   
-9. In **Solution Explorer**, in the **NativeMathVSIX** project, create this folder structure:  
+8. In **Solution Explorer**, in the **NativeMathVSIX** project, create this folder structure:  
   
     ```  
   
@@ -94,35 +94,37 @@ This walkthrough shows how to create a native C++ math library SDK, package the 
                 \Neutral  
     ```  
   
-10. In **Solution Explorer**, open the shortcut menu for **Solution 'NativeMath'**, and then choose **Open Folder in File Explorer**.  
+9. In **Solution Explorer**, open the shortcut menu for **Solution 'NativeMath'**, and then choose **Open Folder in File Explorer**.  
   
-11. In **File Explorer**, copy \NativeMath\NativeMath.h, and then in **Solution Explorer**, in the **NativeMathVSIX** project, paste it in the \DesignTime\CommonConfiguration\Neutral\Include\ folder.  
+10. In **File Explorer**, copy $SolutionRoot$\NativeMath\NativeMath.h, and then in **Solution Explorer**, in the **NativeMathVSIX** project, paste it in the $SolutionRoot$\NativeMathVSIX\DesignTime\CommonConfiguration\Neutral\Include\ folder.  
   
-     Copy \Debug\NativeMath\NativeMath.lib, and then paste it in the \DesignTime\Debug\x86\ folder.  
+     Copy $SolutionRoot$\Debug\NativeMath\NativeMath.lib, and then paste it in the $SolutionRoot$\NativeMathVSIX\DesignTime\Debug\x86\ folder.  
   
-     Copy \Debug\NativeMath\NativeMath.dll and paste it in the \Redist\Debug\x86\ folder.  
+     Copy $SolutionRoot$\Debug\NativeMath\NativeMath.dll and paste it in the $SolutionRoot$\NativeMathVSIX\Redist\Debug\x86\ folder.  
   
-     Copy DebugNativeMathWRTNativeMathWRT.dll and paste it in the RedistDebugx86 folder.  
+     Copy $SolutionRoot$\Debug\NativeMathWRT\NativeMathWRT.dll and paste it in the $SolutionRoot$\NativeMathVSIX\Redist\Debug\x86 folder.  
   
-     Copy DebugNativeMathWRTNativeMathWRT.winmd and paste it in the ReferencesCommonConfigurationNeutral folder.  
+     Copy $SolutionRoot$\Debug\NativeMathWRT\NativeMathWRT.winmd and paste it in the $SolutionRoot$\NativeMathVSIX\References\CommonConfiguration\Neutral folder.  
   
-     Copy DebugNativeMathWRTNativeMathWRT.pri and paste it in the ReferencesCommonConfigurationNeutral folder.  
+     Copy $SolutionRoot$\Debug\NativeMathWRT\NativeMathWRT.pri and paste it in the $SolutionRoot$\NativeMathVSIX\References\CommonConfiguration\Neutral folder.  
   
-12. In the \DesignTime\Debug\x86\ folder, create a text file that's named NativeMathSDK.props, and then paste the following contents in it:  
+11. In the $SolutionRoot$\NativeMathVSIX\DesignTime\Debug\x86\ folder, create a text file that's named NativeMathSDK.props, and then paste the following contents in it:  
   
     [!code-xml[CreatingAnSDKUsingCpp#7](../extensibility/codesnippet/XML/walkthrough-creating-an-sdk-using-cpp_7.xml)]  
   
-13. On the menu bar, choose **View**, **Other Windows**, **Properties Window** (Keyboard: Choose the F4 key).  
+12. On the menu bar, choose **View**, **Other Windows**, **Properties Window** (Keyboard: Choose the F4 key).  
   
-14. In **Solution Explorer**, select the **NativeMathWRT.winmd** file. In the **Properties** window, change the **Build Action** property to **Content**, and then change the **Include in VSIX** property to **True**.  
+13. In **Solution Explorer**, select the **NativeMathWRT.winmd** file. In the **Properties** window, change the **Build Action** property to **Content**, and then change the **Include in VSIX** property to **True**.  
   
-     Repeat this process for the **SimpleMath.pri** file.  
+     Repeat this process for the **NativeMath.h** file.  
+  
+     Repeat this process for the **NativeMathWRT.pri** file.  
   
      Repeat this process for the **NativeMath.Lib** file.  
   
      Repeat this process for the **NativeMathSDK.props** file.  
   
-15. In **Solution Explorer**, select the **NativeMath.h** file. In the **Properties** window, change the **Include in VSIX** property to **True**.  
+14. In **Solution Explorer**, select the **NativeMath.h** file. In the **Properties** window, change the **Include in VSIX** property to **True**.  
   
      Repeat this process for the **NativeMath.dll** file.  
   
@@ -130,45 +132,43 @@ This walkthrough shows how to create a native C++ math library SDK, package the 
   
      Repeat this process for the **SDKManifest.xml** file.  
   
-16. On the menu bar, choose **Build**, **Build Solution**.  
+15. On the menu bar, choose **Build**, **Build Solution**.  
   
-17. In **Solution Explorer**, open the shortcut menu for the **NativeMathVSIX** project, and then choose **Open Folder in File Explorer**.  
+16. In **Solution Explorer**, open the shortcut menu for the **NativeMathVSIX** project, and then choose **Open Folder in File Explorer**.  
   
-18. In **File Explorer**, navigate to the \bin\Debug\ folder, and then run NativeMathVSIX.vsix to begin the installation.  
+17. In **File Explorer**, navigate to the $SolutionRoot$\NativeMathVSIX\bin\Debug\ folder, and then run NativeMathVSIX.vsix to begin the installation.  
   
-19. Choose the **Install** button, wait for the installation to finish, and then restart Visual Studio.  
+18. Choose the **Install** button, wait for the installation to finish, and then start Visual Studio.  
   
 ##  <a name="createSample"></a> To create a sample app that uses the class library  
   
 1.  On the menu bar, choose **File**, **New**, **Project**.  
   
-2.  In the list of templates, expand **Visual C++**, **Windows  Store**, and then select **Blank App**. In the **Name** box, specify **NativeMathSDKSample**, and then choose the **OK** button.  
+2.  In the list of templates, expand **Visual C++**, **Windows Universal**, and then select **Blank App**. In the **Name** box, specify **NativeMathSDKSample**, and then choose the **OK** button.  
   
 3.  In **Solution Explorer**, open the shortcut menu for the **NativeMathSDKSample** project, and then choose **Add**, **Reference**.  
   
-4.  On the **Common Properties**, **Framework and References** property page, in the list of reference types, expand **Windows**, and then select **Extensions**. In the details pane, select the **Native Math SDK** extension, and then choose the **Add New Reference** button.  
+4.  In the **Add Reference** dialog box, in the list of reference types, expand **Universal Windows**, and then select **Extensions**. Finally, Select the **Native Math SDK** check box, and then choose the **OK** button.
   
-5.  In the **Add Reference** dialog box, select the **Native Math SDK** check box, and then choose the **OK** button.  
-  
-6.  Display the project properties for NativeMathSDKSample.  
+5.  Display the project properties for NativeMathSDKSample.  
   
      The properties that you defined in NativeMathSDK.props were applied when you added the reference. You can verify this by examining the **VC++ Directories** property of the project's **Configuration Properties**.  
   
-7.  In **Solution Explorer**, open MainPage.xaml, and then use the following XAML to replace its content:  
+6.  In **Solution Explorer**, open MainPage.xaml, and then use the following XAML to replace its content:  
   
      [!code-xml[CreatingAnSDKUsingCppDemoApp#1](../extensibility/codesnippet/Xaml/walkthrough-creating-an-sdk-using-cpp_8.xaml)]  
   
-8.  Update Mainpage.xaml.h to match this code:  
+7.  Update Mainpage.xaml.h to match this code:  
   
      [!code-cpp[CreatingAnSDKUsingCppDemoApp#2](../extensibility/codesnippet/CPP/walkthrough-creating-an-sdk-using-cpp_9.h)]  
   
-9. Update MainPage.xaml.cpp to match this code:  
+8. Update MainPage.xaml.cpp to match this code:  
   
      [!code-cpp[CreatingAnSDKUsingCppDemoApp#3](../extensibility/codesnippet/CPP/walkthrough-creating-an-sdk-using-cpp_10.cpp)]  
   
-10. Choose the F5 key to run the app.  
+9. Choose the F5 key to run the app.  
   
-11. In the app, enter any two numbers, select an operation, and then choose the **=** button.  
+10. In the app, enter any two numbers, select an operation, and then choose the **=** button.  
   
      The correct result appears.  
   

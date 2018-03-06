@@ -16,11 +16,11 @@ helpviewer_keywords:
   - "calculations, running in Excel"
   - "Excel [Office development in Visual Studio], running calculations programmatically"
   - "workbooks, running calculations"
-ms.assetid: 0bf30d93-8620-43ad-bfb8-f45bf3b5461f
-caps.latest.revision: 38
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Run Excel Calculations  
   You use a similar process to run calculations in a <xref:Microsoft.Office.Tools.Excel.NamedRange> control or a native Excel range object.  

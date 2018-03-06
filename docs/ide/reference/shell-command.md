@@ -23,6 +23,8 @@ caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Shell Command
 Launches executable programs from within [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].  

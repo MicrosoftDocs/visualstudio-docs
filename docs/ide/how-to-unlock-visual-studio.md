@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: 07/20/2017
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -13,6 +13,8 @@ caps.latest.revision: 8
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload:
+  - "multiple"
 ---
 # How to: unlock Visual Studio
 
@@ -64,9 +66,9 @@ If you do not reenter your credentials, the token starts to go stale and the Acc
 
 ### Update expired licenses
 
- If your subscription has expired completely and you no longer have access rights to Visual Studio, you must renew your subscription or add another account that has a subsription. To see more information about the license you are using, go to **File**, **Account Settings** and look at the license information on the right side of the dialog. If you have another subscription associated with a different account, add that account to the **All Accounts** list on the left side of the dialog box by selecting the **Add an account...** link.
+ If your subscription has expired completely and you no longer have access rights to Visual Studio, you must renew your subscription or add another account that has a subscription. To see more information about the license you are using, go to **File**, **Account Settings** and look at the license information on the right side of the dialog. If you have another subscription associated with a different account, add that account to the **All Accounts** list on the left side of the dialog box by selecting the **Add an account...** link.
 
 ## See also
 
-[Signing in to Visual Studio](../ide/signing-in-to-visual-studio.md)  
-[Internet resources used by Visual Studio](../ide/connected-environment.md)
+* [Signing in to Visual Studio](../ide/signing-in-to-visual-studio.md)
+ 

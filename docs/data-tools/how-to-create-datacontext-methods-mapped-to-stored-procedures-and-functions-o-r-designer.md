@@ -12,6 +12,8 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.technology: "vs-data-tools"
+ms.workload: 
+  - "data-storage"
 ---
 # How to: Create DataContext methods mapped to stored procedures and functions (O/R Designer)
 Stored procedures and functions can be added to the [!INCLUDE[vs_ordesigner_short](../data-tools/includes/vs_ordesigner_short_md.md)] as <xref:System.Data.Linq.DataContext> methods. Calling the method and passing in the required parameters runs the stored procedure or function on the database and returns the data in the return type of the <xref:System.Data.Linq.DataContext> method. For detailed information about <xref:System.Data.Linq.DataContext> methods, see [DataContext Methods (O/R Designer)](../data-tools/datacontext-methods-o-r-designer.md).  
@@ -52,4 +54,4 @@ Stored procedures and functions can be added to the [!INCLUDE[vs_ordesigner_shor
  [Walkthrough: Creating LINQ to SQL Classes](how-to-create-linq-to-sql-classes-mapped-to-tables-and-views-o-r-designer.md)   
  [LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/index)   
  [Introduction to LINQ in Visual Basic](/dotnet/visual-basic/programming-guide/language-features/linq/introduction-to-linq)   
- [How to: Write LINQ Queries in C#](http://msdn.microsoft.com/Library/45e47fcc-cfa1-4b72-b161-d038ae87bd23)
+ [LINQ in C#](/dotnet/csharp/linq/linq-in-csharp)

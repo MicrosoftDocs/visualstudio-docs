@@ -42,7 +42,7 @@ var p1 = new Promise(function(resolve, reject) {
     setTimeout(resolve, 0, 'success');  
 });  
 var p2 = new Promise(function(resolve, reject) { });  
-var p2 = new Promise(function(resolve, reject) { });  
+var p3 = new Promise(function(resolve, reject) { });  
   
 var race = Promise.race( [p1, p2, p3] );  
 race.then(function(result) {  

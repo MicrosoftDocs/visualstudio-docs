@@ -4,15 +4,15 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Domain-Specific Language, generated code"
-ms.assetid: 8e5c10e4-6323-433e-b88a-5d3d92639030
-caps.latest.revision: 19
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Understanding the DSL Code
 A Domain-Specific Language (DSL) solution generates an API that you can use to read and update instances of the DSL in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. This API is defined in the code that is generated from the DSL definition. This topic describes the generated API.  

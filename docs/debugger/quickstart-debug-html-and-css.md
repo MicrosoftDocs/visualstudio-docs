@@ -1,5 +1,5 @@
 ---
-title: "Debug HTML and CSS (UWP and Windows 8.1 Apps) | Microsoft Docs"
+title: "Debug HTML and CSS in UWP apps | Microsoft Docs"
 ms.custom: ""
 ms.date: "07/17/2017"
 ms.reviewer: ""
@@ -11,25 +11,22 @@ ms.topic: "article"
 f1_keywords: 
   - "VS.WebClient.DomExplorer"
 dev_langs: 
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
+  - "JavaScript"
 helpviewer_keywords: 
   - "debugging, CSS"
   - "debugging, HTML"
   - "debugging, JavaScript [UWP apps]"
   - "DOM Explorer [UWP apps]"
-ms.assetid: 6d156cff-36c6-425a-acf8-e1f02d4f7869
 caps.latest.revision: 101
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "uwp"
 ---
-# Debug HTML and CSS in UWP and Windows 8.1 Apps
-![Applies to Windows and Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  
+# Debug HTML and CSS in UWP apps in Visual Studio
   
- For JavaScript apps, Visual Studio provides a comprehensive debugging experience that includes features that are familiar to Internet Explorer and Visual Studio developers. These features are supported for [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)], Windows Phone apps, and for apps created using Visual Studio Tools for Apache Cordova.  
+ For JavaScript apps, Visual Studio provides a comprehensive debugging experience that includes features that are familiar to Internet Explorer and Visual Studio developers. These features are supported for UWP apps and for apps created using Visual Studio Tools for Apache Cordova.  
   
  Using the interactive debugging model provided by the DOM inspection tools, you can view and modify the rendered HTML and CSS code. You can do all this without stopping and restarting the debugger.
   
@@ -63,11 +60,11 @@ manager: ghogen
   
 1.  Create a new solution in Visual Studio by choosing **File** > **New Project**.  
   
-2.  Choose **JavaScript** > **Store**, choose either **Windows Apps** or **Windows Phone Apps**, and then choose **Blank App**.  
+2.  Choose **JavaScript** > **Windows Universal**, and then choose **WinJS App**.  
   
 3.  Type a name for the project, such as `FlipViewApp`, and choose **OK** to create the app.  
   
-4.  In the BODY element of default.html, add this code:  
+4.  In the BODY element of index.html, add this code:  
   
     ```html  
     <div id="flipTemplate" data-win-control="WinJS.Binding.Template"  
@@ -125,9 +122,9 @@ manager: ghogen
   
         function updateImages() {  
   
-            pages.setAt(0, { flipImg: "http://go.microsoft.com/fwlink/?LinkID=223195" });  
-            pages.setAt(1, { flipImg: "http://go.microsoft.com/fwlink/?LinkID=223196" });  
-            pages.setAt(2, { flipImg: "http://go.microsoft.com/fwlink/?LinkID=223197" });  
+            pages.setAt(0, { flipImg: "http://public-domain-photos.com/free-stock-photos-1/flowers/cactus-76.jpg" });  
+            pages.setAt(1, { flipImg: "http://public-domain-photos.com/free-stock-photos-1/flowers/cactus-77.jpg" });  
+            pages.setAt(2, { flipImg: "http://public-domain-photos.com/free-stock-photos-1/flowers/cactus-78.jpg" });  
         };  
   
         app.oncheckpoint = function (args) {  
@@ -144,19 +141,17 @@ manager: ghogen
     })();  
     ```  
   
-     The following illustration shows what we want to see if we run this app in the Phone Emulator (it looks similar in the Simulator). However, to get the app into this state we will have to fix a number of bugs first.  
+     The following illustration shows what we want to see if we run this app. However, to get the app into this state we will have to fix a number of bugs first.  
   
      ![FlipView app showing expected results](../debugger/media/js_dom_appfixed.png "JS_DOM_AppFixed")  
   
-7.  Choose either **Simulator** or **Emulator 8.1 WVGA 4 inch 512MB** from the drop-down list next to the **Start Debugging** button on the **Debug** toolbar:  
+7.  Choose **Local Machine** from the drop-down list next to the **Start Debugging** button on the **Debug** toolbar:  
   
      ![Select debug target list](../debugger/media/js_select_target.png "JS_Select_Target")  
   
 8.  Choose **Debug** > **Start Debugging**, or press F5, to run your app in debug mode.  
   
-     This runs the app in the Simulator or the Phone Emulator, but you'll see a mostly blank screen because the styling has a few bugs in it. The first `FlipView` image appears in a small square near the middle of the screen.  
-  
-9. If you're running the app in the Simulator, choose the **Change resolution** toolbar command on the right of the Simulator to configure a screen resolution of 1280 x 800. This will ensure that values shown in the following steps match what you see in the Simulator.  
+     This runs the app, but you'll see a mostly blank screen because the styling has a few bugs in it. The first `FlipView` image appears in a small square near the middle of the screen.  
   
 10. Switch to Visual Studio and choose the **DOM Explorer** tab.  
   
@@ -184,16 +179,16 @@ manager: ghogen
   
 14. In the main DOM Explorer window, double-click the inline style for the height and width of the `fView` DIV element. You can now edit the values here. In this scenario, we want to remove them completely.  
   
-15. Select `width: 100px;height: 100px;`, press the Delete key, and then press Enter. After you press Enter, the new values are immediately reflected in the Simulator or the Phone Emulator, although you haven't stopped your debugging session.  
+15. In the main window, double-click `width: 100px;height: 100px;`, press the **Delete** key, and then press **Enter**. After you press Enter, the new values are immediately reflected in the app, although you haven't stopped your debugging session.  
   
     > [!IMPORTANT]
     >  As you can update attributes in the DOM Explorer window, you can also update values that appear on the **Styles**, **Computed**, and **Layout** tabs. For more info, see [Debug CSS styles using DOM Explorer](../debugger/debug-css-styles-using-dom-explorer.md) and [Debug layout using DOM Explorer](../debugger/debug-layout-using-dom-explorer.md).  
   
-16. Switch to the app by selecting the Simulator or the Phone Emulator, or by using Alt+Tab.  
+16. Switch to the app by selecting it or by using Alt+Tab.  
   
      Now the `FlipView` control appears larger than the Simulator's or the Phone Emulator's screen size. This is not the intended result. To investigate, switch back to Visual Studio.  
   
-17. In the DOM Explorer, select the **Computed** tab again and open the height rule. The fView element still shows a value of 100%, as expected from the CSS, but the computed value is equal to the Simulator's screen height (for example, 800px or 667.67px), which is not what we want for this app. To investigate, you can remove the height and width for the `fView` DIV element.  
+17. In the DOM Explorer, select the **Computed** tab again and open the height rule. The fView element still shows a value of 100%, as expected from the CSS, but the computed value is equal to the app's screen height (for example, 800px, 667.67px, or some other value), which is not what we want for this app. To investigate, in the next steps we remove the height and width for the `fView` DIV element.  
   
 18. In the **Styles** tab, uncheck the height and width properties for the `#fView` CSS selector.  
   
@@ -205,13 +200,11 @@ manager: ghogen
   
 20. To investigate, switch to Visual Studio and choose the **Layout** tab to look at the element's box model.  
   
-     In the **Layout** tab, you'll see the following values:  
+     In the **Layout** tab, you'll see the following:  
   
-    -   For the Simulator: 320px (Offset) and 320px (Margin).  
+    -   255px (Offset) and 255px (Margin) or similar values, depending on your device resolution. 
   
-    -   For the Phone Emulator: 100px (Offset) and 100px (Margin).  
-  
-     The following illustration shows how the **Layout** tab looks if you're using the Phone Emulator (100px offset and margin).  
+     The following illustration shows how the **Layout** tab looks if you're using an emulator with 100px offset and margin).  
   
      ![DOM Explorer Layout tab](../debugger/media/js_dom_explorer_layout.png "JS_DOM_Explorer_Layout")  
   
@@ -261,24 +254,8 @@ manager: ghogen
 > [!NOTE]
 >  Highlighting elements by hovering over them is only partially supported in the Windows Phone Emulator.  
   
- For an example that demonstrates how to select elements by using the **Select element** button, see [Debug CSS styles using DOM Explorer](../debugger/debug-css-styles-using-dom-explorer.md).  
-  
-##  <a name="BrowserSupport"></a> Browser and Platform Support  
- The Visual Studio tools for JavaScript, the DOM Explorer, and the JavaScript Console window are supported on the following platforms:  
-  
--   [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] and Windows Phone apps using JavaScript and HTML  
-  
--   Internet Explorer 11 running on [!INCLUDE[win81](../debugger/includes/win81_md.md)]  
-  
--   Internet Explorer 10 running on [!INCLUDE[win8](../debugger/includes/win8_md.md)]  
-  
- Go [here](http://go.microsoft.com/fwlink/?LinkID=232448) to download [!INCLUDE[win8](../debugger/includes/win8_md.md)] and Visual Studio.  
-  
 ## See Also  
  [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md)   
- [Debug CSS styles using DOM Explorer](../debugger/debug-css-styles-using-dom-explorer.md)   
- [Debug layout using DOM Explorer](../debugger/debug-layout-using-dom-explorer.md)   
- [View DOM event listeners](../debugger/view-dom-event-listeners.md)   
  [Refresh an app (JavaScript)](../debugger/refresh-an-app-javascript.md)   
  [Debug a WebView control](../debugger/debug-a-webview-control.md)   
  [Keyboard shortcuts](../debugger/keyboard-shortcuts-html-and-javascript.md)   

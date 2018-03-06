@@ -16,6 +16,8 @@ caps.latest.revision: 15
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Providing Automation for VSPackages
 There are two main ways to provide automation for your VSPackages: by implementing VSPackage-specific objects and by implementing standard automation objects. Generally, these are used together to extend the automation model of the environment.  

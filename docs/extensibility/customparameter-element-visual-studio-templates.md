@@ -17,6 +17,8 @@ caps.latest.revision: 6
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # CustomParameter Element (Visual Studio Templates)
 Contains a custom parameter name and value to use when a project or item is created from the template.  

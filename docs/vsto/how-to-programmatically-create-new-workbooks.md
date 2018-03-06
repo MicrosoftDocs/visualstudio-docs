@@ -14,11 +14,11 @@ dev_langs:
 helpviewer_keywords: 
   - "Excel [Office development in Visual Studio], creating workbooks"
   - "workbooks, creating"
-ms.assetid: be0196fe-7dc5-4811-b0cd-3c219731a3ff
-caps.latest.revision: 48
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Create New Workbooks
   When you create a workbook programmatically, it is a native <xref:Microsoft.Office.Interop.Excel.Workbook> object, not a <xref:Microsoft.Office.Tools.Excel.Workbook> host item.  

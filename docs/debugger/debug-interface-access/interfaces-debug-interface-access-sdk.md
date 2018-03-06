@@ -18,6 +18,8 @@ caps.latest.revision: 16
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Interfaces (Debug Interface Access SDK)
 Methods are listed alphabetically under each interface in the table of contents and on the interface page in Vtable order.  

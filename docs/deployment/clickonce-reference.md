@@ -20,6 +20,8 @@ caps.latest.revision: 8
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+ms.workload: 
+  - "multiple"
 ---
 # ClickOnce Reference
 The following pages describe the structure of the XML files used to represent ClickOnce applications.  

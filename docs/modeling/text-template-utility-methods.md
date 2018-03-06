@@ -4,26 +4,28 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "text templates, utility methods"
-ms.assetid: 8c11f9f7-678b-4f0c-b634-dc78fda699d1
-caps.latest.revision: 50
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Text Template Utility Methods
-There are several methods that are always available to you when you write code in a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] text template. These methods are defined in <xref:Microsoft.VisualStudio.TextTemplating.TextTransformation>.  
-  
+
+There are several methods that are always available to you when you write code in a Visual Studio text template. These methods are defined in <xref:Microsoft.VisualStudio.TextTemplating.TextTransformation>.
+
 > [!TIP]
->  You can also use other methods and services provided by the host environment in a regular (not preprocessed) text template. For example, you can resolve file paths, log errors, and get services provided by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and any loaded packages.  For more information, see [Accessing Visual Studio from a Text Template](http://msdn.microsoft.com/en-us/0556f20c-fef4-41a9-9597-53afab4ab9e4).  
+> You can also use other methods and services provided by the host environment in a regular (not preprocessed) text template. For example, you can resolve file paths, log errors, and get services provided by Visual Studio and any loaded packages. For more information, see [Accessing Visual Studio from a Text Template](http://msdn.microsoft.com/0556f20c-fef4-41a9-9597-53afab4ab9e4).
   
-## Write methods  
- You can use the `Write()` and `WriteLine()` methods to append text inside a standard code block, instead of using an expression code block. The following two code blocks are functionally equivalent.  
+## Write methods
+
+You can use the `Write()` and `WriteLine()` methods to append text inside a standard code block, instead of using an expression code block. The following two code blocks are functionally equivalent.  
   
-##### Code block with an expression block  
+### Code block with an expression block  
   
 ```  
 <#  
@@ -35,7 +37,7 @@ while (i-- > 0)
 #>  
 ```  
   
-##### Code block using WriteLine()  
+### Code block using WriteLine()  
   
 ```  
 <#   
@@ -63,7 +65,8 @@ while (i-- > 0)
 #>   
 ```  
   
-## Indentation methods  
+## Indentation methods
+
  You can use indentation methods to format the output of your text template. The <xref:Microsoft.VisualStudio.TextTemplating.TextTransformation> class has a `CurrentIndent` string property that shows the current indentation in the text template and an `indentLengths` field that is a list of the indentations that have been added. You can add an indentation with the `PushIndent()` method and subtract an indentation with the `PopIndent()` method. If you want to remove all indentations, use the `ClearIndent()` method. The following code block shows the use of these methods:  
   
 ```  
@@ -91,7 +94,7 @@ Hello
 ```  
   
 ## Error and warning methods  
- You can use error and warning utility methods to add messages to the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Error List. For example, the following code will add an error message to the Error List.  
+ You can use error and warning utility methods to add messages to the Visual Studio Error List. For example, the following code will add an error message to the Error List.  
   
 ```  
 <#  
@@ -112,7 +115,7 @@ Hello
   
  `<#@template ... hostspecific="true" #>`  
   
- The type of `this.Host` depends on the type of host in which the template is executing. In a template that is running in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], you can cast `this.Host` to `IServiceProvider` to gain access to services such as the IDE. For example:  
+ The type of `this.Host` depends on the type of host in which the template is executing. In a template that is running in Visual Studio, you can cast `this.Host` to `IServiceProvider` to gain access to services such as the IDE. For example:  
   
 ```  
 EnvDTE.DTE dte = (EnvDTE.DTE) ((IServiceProvider) this.Host)  

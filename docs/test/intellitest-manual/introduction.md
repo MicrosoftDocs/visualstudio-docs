@@ -4,16 +4,16 @@ ms.custom: ""
 ms.date: "05/02/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "IntelliTest, Visual Studio IntelliTest developer testing tool"
-ms.assetid: A7B98509-7ACA-4E25-BD1B-BBC98742F028
-caps.latest.revision: 56
-ms.author: "douge"
-manager: "douge"
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+author: gewarren
 ---
 # Overview of Microsoft IntelliTest
 
@@ -92,7 +92,7 @@ The example below creates two constraints on the
 parameter named **value** so that IntelliTest will 
 generate the required string.
 
-```
+```csharp
 using System;
 using Microsoft.Pex.Framework; 
 using Microsoft.VisualStudio.TestTools.UnitTesting; 
@@ -121,12 +121,9 @@ set of tests such as the following:
 7. "Hello\0World!"
 8. "Hello World!"
 
-Go [here](https://docs.microsoft.com/en-gb/visualstudio/test/generate-unit-tests-for-your-code-with-intellitest#Anchor_0)
-to understand where the generated tests are saved.
-The generated test code should include a test such as
-the following:
+Read [Generate unit tests with Intellitest](../../test/generate-unit-tests-for-your-code-with-intellitest.md) to understand where the generated tests are saved. The generated test code should include a test such as the following:
 
-```
+```csharp
 [TestMethod]
 [PexGeneratedBy(typeof(global::HelloWorldTest))]
 [PexRaisedException(typeof(Exception))]
@@ -138,8 +135,7 @@ public void HelloWorldThrowsException167()
 
 It's that easy!
 
-<a name="limitations"></a>
-## Limitations
+## <a name="limitations"></a> Limitations
 
 This section describes the limitations of IntelliTest:
 
@@ -248,7 +244,7 @@ by design of the "rethrow" instruction.
 ## Further reading
 
 * [Introductory blog post](https://blogs.msdn.microsoft.com/visualstudioalm/2014/11/19/introducing-smart-unit-tests/) on MSDN.
-* [Generate unit tests for your code with IntelliTest](https://docs.microsoft.com/en-gb/visualstudio/test/generate-unit-tests-for-your-code-with-intellitest)
+* [Generate unit tests for your code with IntelliTest](../../test/generate-unit-tests-for-your-code-with-intellitest.md)
 
 ## Got feedback?
 

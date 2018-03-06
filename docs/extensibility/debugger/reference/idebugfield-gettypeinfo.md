@@ -17,6 +17,8 @@ caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugField::GetTypeInfo
 This method gets type-independent information about the symbol or type.  

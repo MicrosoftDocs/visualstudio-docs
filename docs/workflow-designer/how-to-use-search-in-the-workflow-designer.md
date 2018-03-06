@@ -10,6 +10,8 @@ ms.assetid: f42d3115-2ed2-4941-8f1e-92dac41c30fa
 caps.latest.revision: 3
 ms.author: "sdanie"
 manager: "erikre"
+ms.workload: 
+  - "multiple"
 ---
 # How to: Use Search in the Workflow Designer
 To facilitate creating larger, more complex workflows, Search can be used in the Workflow Designer to find items by keyword. Note that the designer does not support Replace. Search will find the following in the designer:  

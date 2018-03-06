@@ -15,14 +15,17 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.technology: "vs-data-tools"
+ms.workload: 
+  - "data-storage"
 ---
 # Walkthrough: Customizing the insert, update, and delete behavior of entity classes
-The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md) provides a visual design surface for creating and editing [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] classes (entity classes) that are based on objects in a database. By using [LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/index), you can use LINQ technology to access SQL databases. For more information, see [LINQ (Language-Integrated Query)](http://msdn.microsoft.com/Library/a73c4aec-5d15-4e98-b962-1274021ea93d).  
+
+The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md) provides a visual design surface for creating and editing [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] classes (entity classes) that are based on objects in a database. By using [LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/index), you can use LINQ technology to access SQL databases. For more information, see [LINQ (Language-Integrated Query)](/dotnet/csharp/linq/).  
   
 By default, the logic to perform updates is provided by the [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] runtime. The runtime creates default Insert, Update, and Delete statements based on the schema of the table (the column definitions and primary key information). When you do not want to use the default behavior, you can configure the update behavior and designate specific stored procedures for performing the necessary Inserts, Updates, and Deletes required to work with the data in the database. You can also do this when the default behavior is not generated, for example, when your entity classes map to views. Additionally, you can override the default update behavior when the database requires table access through stored procedures. For more information, see [Customizing Operations By Using Stored Procedures](/dotnet/framework/data/adonet/sql/linq/customizing-operations-by-using-stored-procedures).  
   
 > [!NOTE]
->  This walkthrough requires the availability of the **InsertCustomer**, **UpdateCustomer**, and **DeleteCustomer** stored procedures for the Northwind database.  
+> This walkthrough requires the availability of the **InsertCustomer**, **UpdateCustomer**, and **DeleteCustomer** stored procedures for the Northwind database.  
   
 This walkthrough provides the steps that you must follow to override the default LINQ to SQL runtime behavior for saving data back to a database by using stored procedures.  
   
@@ -42,10 +45,11 @@ During this walkthrough, you will learn how to perform the following tasks:
   
 -   Configure the Customer class to use stored procedures to perform Inserts, Updates, and Deletes.  
   
-## Prerequisites  
+## Prerequisites
+
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.  
   
-1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Editions download page](https://www.microsoft.com/en-us/server-cloud/Products/sql-server-editions/sql-server-express.aspx), or through the **Visual Studio Installer**. In the Visual Studio Installer, SQL Server Express LocalDB can be installed as part of the **Data storage and processing** workload, or as an individual component.  
+1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the Visual Studio Installer, SQL Server Express LocalDB can be installed as part of the **Data storage and processing** workload, or as an individual component.  
   
 2.  Install the Northwind sample database by following these steps:  
 
@@ -59,12 +63,13 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
        After a short time, the query finishes executing and the Northwind database is created.  
   
-## Creating an Application and Adding LINQ to SQL Classes  
+## Creating an Application and Adding LINQ to SQL Classes
+
 Because you will be working with [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] classes and displaying the data on a Windows Form, create a new Windows Forms application and add a LINQ to SQL Classes file.  
   
 [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
   
-#### To create a new Windows Forms Application project that contains LINQ to SQL classes  
+### To create a new Windows Forms Application project that contains LINQ to SQL classes
   
 1. In Visual Studio, on the **File** menu, select **New**, **Project...**.  
   
@@ -84,10 +89,11 @@ Because you will be working with [!INCLUDE[vbtecdlinq](../data-tools/includes/vb
   
      An empty LINQ to SQL Classes file (Northwind.dbml) is added to the project, and the [!INCLUDE[vs_ordesigner_short](../data-tools/includes/vs_ordesigner_short_md.md)] opens.  
   
-## Creating the Customer Entity Class and Object Data Source  
- Create [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] classes that are mapped to database tables by dragging tables from **Server Explorer**/**Database Explorer** onto the [!INCLUDE[vs_ordesigner_short](../data-tools/includes/vs_ordesigner_short_md.md)]. The result is LINQ to SQL entity classes that map to the tables in the database. After you create entity classes, they can be used as object data sources just like other classes that have public properties.  
+## Creating the Customer Entity Class and Object Data Source
+
+Create [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] classes that are mapped to database tables by dragging tables from **Server Explorer**/**Database Explorer** onto the [!INCLUDE[vs_ordesigner_short](../data-tools/includes/vs_ordesigner_short_md.md)]. The result is LINQ to SQL entity classes that map to the tables in the database. After you create entity classes, they can be used as object data sources just like other classes that have public properties.  
   
-#### To create a Customer entity class and configure a data source with it  
+### To create a Customer entity class and configure a data source with it
   
 1.  In **Server Explorer**/**Database Explorer**, locate the Customer table in the SQL Server version of the Northwind sample database. 
   
@@ -112,17 +118,18 @@ Because you will be working with [!INCLUDE[vbtecdlinq](../data-tools/includes/vb
     >  If the **Customer** class is not available, cancel out of the wizard, build the project, and run the wizard again.  
 8.  Click **Finish** to create the data source and add the **Customer** entity class to the **Data Sources** window.  
   
-## Creating a DataGridView to Display the Customer Data on a Windows Form  
- Create controls that are bound to entity classes by dragging [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] data source items from the **Data Sources** window onto a Windows Form.  
+## Creating a DataGridView to Display the Customer Data on a Windows Form
+
+Create controls that are bound to entity classes by dragging [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] data source items from the **Data Sources** window onto a Windows Form.  
   
-#### To add controls that are bound to the entity classes  
+### To add controls that are bound to the entity classes
   
 1.  Open Form1 in Design view.  
   
 2.  From the **Data Sources** window, drag the **Customer** node onto Form1.  
   
     > [!NOTE]
-    >  To display the **Data Sources** window, click **Show Data Sources** on the **Data** menu.  
+    > To display the **Data Sources** window, click **Show Data Sources** on the **Data** menu.  
   
 3.  Open Form1 in the Code Editor.  
   
@@ -148,10 +155,11 @@ Because you will be working with [!INCLUDE[vbtecdlinq](../data-tools/includes/vb
         = northwindDataContext1.Customers;    
     ```  
   
-## Implementing Save Functionality  
- By default, the save button is not enabled and save functionality is not implemented. Also, code is not automatically added to save changed data to the database when data-bound controls are created for object data sources. This section explains how to enable the save button and implement save functionality for [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] objects.  
+## Implementing Save Functionality
+
+By default, the save button is not enabled and save functionality is not implemented. Also, code is not automatically added to save changed data to the database when data-bound controls are created for object data sources. This section explains how to enable the save button and implement save functionality for [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] objects.  
   
-#### To implement save functionality  
+### To implement save functionality
   
 1.  Open Form1 in Design view.  
   
@@ -171,9 +179,9 @@ Because you will be working with [!INCLUDE[vbtecdlinq](../data-tools/includes/vb
     northwindDataContext1.SubmitChanges();  
     ```  
   
-## Overriding the Default Behavior for Performing Updates (Inserts, Updates, and Deletes)  
+## Overriding the Default Behavior for Performing Updates (Inserts, Updates, and Deletes)
   
-#### To override the default update behavior  
+### To override the default update behavior
   
 1.  Open the LINQ to SQL file in the [!INCLUDE[vs_ordesigner_short](../data-tools/includes/vs_ordesigner_short_md.md)]. (Double-click the **Northwind.dbml** file in **Solution Explorer**.)  
   
@@ -224,13 +232,14 @@ Because you will be working with [!INCLUDE[vbtecdlinq](../data-tools/includes/vb
 19. Click **OK**.  
   
 > [!NOTE]
->  Although it is not an issue for this particular walkthrough, it is worth noting that [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] handles database-generated values automatically for identity (auto-increment), rowguidcol (database-generated GUID), and timestamp columns during Inserts and Updates. Database-generated values in other column types will unexpectedly result in a null value. To return the database-generated values, you should manually set <xref:System.Data.Linq.Mapping.ColumnAttribute.IsDbGenerated%2A> to `true` and <xref:System.Data.Linq.Mapping.ColumnAttribute.AutoSync%2A> to one of the following: <xref:System.Data.Linq.Mapping.AutoSync>, <xref:System.Data.Linq.Mapping.AutoSync>, or <xref:System.Data.Linq.Mapping.AutoSync>.  
+> Although it is not an issue for this particular walkthrough, it is worth noting that [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] handles database-generated values automatically for identity (auto-increment), rowguidcol (database-generated GUID), and timestamp columns during Inserts and Updates. Database-generated values in other column types will unexpectedly result in a null value. To return the database-generated values, you should manually set <xref:System.Data.Linq.Mapping.ColumnAttribute.IsDbGenerated%2A> to `true` and <xref:System.Data.Linq.Mapping.ColumnAttribute.AutoSync%2A> to one of the following: <xref:System.Data.Linq.Mapping.AutoSync>, <xref:System.Data.Linq.Mapping.AutoSync>, or <xref:System.Data.Linq.Mapping.AutoSync>.  
   
-## Testing the Application  
- Run the application again to verify that the **UpdateCustomers** stored procedure correctly updates the customer record in the database.  
-  
-#### To test the application  
-  
+## Testing the application
+
+Run the application again to verify that the **UpdateCustomers** stored procedure correctly updates the customer record in the database.
+
+### To test the application
+
 1.  Press F5.  
   
 2.  Modify a record in the grid to test the Update behavior.  
@@ -252,19 +261,20 @@ Because you will be working with [!INCLUDE[vbtecdlinq](../data-tools/includes/vb
 10. Press F5 and verify that the deleted record was removed from the database.  
   
     > [!NOTE]
-    >  If your application uses SQL Server Express Edition, depending on the value of the **Copy to Output Directory** property of the database file, the changes may not appear when you press F5 in step 10. 
-  
-## Next Steps  
-Depending on your application requirements, there are several steps that you may want to perform after you create [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] entity classes. Some enhancements you could make to this application include the following:  
-  
--   Implement concurrency checking during updates. For information, see [Optimistic Concurrency: Overview](/dotnet/framework/data/adonet/sql/linq/optimistic-concurrency-overview).  
-  
--   Add LINQ queries to filter data. For information, see [Introduction to LINQ Queries (C#)](/dotnet/csharp/programming-guide/concepts/linq/introduction-to-linq-queries.md).  
-  
+    > If your application uses SQL Server Express Edition, depending on the value of the **Copy to Output Directory** property of the database file, the changes may not appear when you press F5 in step 10.
+
+## Next steps
+
+Depending on your application requirements, there are several steps that you may want to perform after you create [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] entity classes. Some enhancements you could make to this application include the following:
+
+- Implement concurrency checking during updates. For information, see [Optimistic Concurrency: Overview](/dotnet/framework/data/adonet/sql/linq/optimistic-concurrency-overview).
+
+- Add LINQ queries to filter data. For information, see [Introduction to LINQ Queries (C#)](/dotnet/csharp/programming-guide/concepts/linq/introduction-to-linq-queries).
+
 ## See also
-[LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)     
-[DataContext methods](../data-tools/datacontext-methods-o-r-designer.md)   
+
+[LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)  
+[DataContext methods](../data-tools/datacontext-methods-o-r-designer.md)  
 [How to: Assign stored procedures to perform updates, inserts, and deletes](../data-tools/how-to-assign-stored-procedures-to-perform-updates-inserts-and-deletes-o-r-designer.md)  
 [LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/index)  
-[LINQ to SQL queries](/dotnet/framework/data/adonet/sql/linq/linq-to-sql-queries)  
- 
+[LINQ to SQL queries](/dotnet/framework/data/adonet/sql/linq/linq-to-sql-queries)

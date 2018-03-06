@@ -16,6 +16,8 @@ caps.latest.revision: 25
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Creating Project Types
 You can extend [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] by creating a new project type. To create a new project type, you must understand several concepts and complete a number of steps. The following topics provide an overview of how to create project types.  

@@ -55,8 +55,7 @@ function dataReadyHandler() {
 setTimeout(function () {  
     data = [0, 1, 2, 3];  
     document.dispatchEvent(dataReadyEvent);  
-    }, 5000);  
-}  
+    }, 5000);
   
 var dataObj = new DataObject();  
   
@@ -66,7 +65,7 @@ var dataObj = new DataObject();
   
 ```  
   
- If you comment out the line of code that uses `bind`, uncomment the line of code that calls `addEventListener` without `bind`, and then rerun the code, the `dataReadyHandler` function will fail. For example, in `dataReadyHander`, `this.name` will be undefined, and `this.data()` will result in an error because the `this` object no longer refers to the data object.  
+ If you comment out the line of code that uses `bind`, uncomment the line of code that calls `addEventListener` without `bind`, and then rerun the code, the `dataReadyHandler` function will fail. For example, in `dataReadyHandler`, `this.name` will be undefined, and `this.data()` will result in an error because the `this` object no longer refers to the data object.  
   
 ## See Also  
  [bind Method (Function)](../../javascript/reference/bind-method-function-javascript.md)

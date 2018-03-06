@@ -16,6 +16,8 @@ caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Change Fonts and Colors in Visual Studio
 

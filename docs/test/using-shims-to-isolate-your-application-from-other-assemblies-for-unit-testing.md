@@ -4,14 +4,14 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d2a34de2-6527-4c21-8b93-2f268ee894b7
-caps.latest.revision: 12
-ms.author: "douge"
-manager: "douge"
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+author: gewarren
 ---
 # Using shims to isolate your application from other assemblies for unit testing
 **Shim types** are one of two technologies that the Microsoft Fakes Framework uses to let you easily isolate components under test from the environment. Shims divert calls to specific methods to code that you write as part of your test. Many methods return different results dependent on external conditions, but a shim is under the control of your test and can return consistent results at every call. This makes your tests much easier to write.  
@@ -410,7 +410,7 @@ public class ShimMyBase : ShimBase<MyBase> {
 ```  
   
 ###  <a name="BKMK_Static_constructors"></a> Static constructors  
- Shim types expose a static method `StaticConstructor` to shim the static constructor of a type. Since static constructors are executed once only, you need to ensure that the shim is configured before any member of the type is accessed.  
+ Shim types expose a static method `StaticConstructor` to shim the static constructor of a type. Since static constructors are executed once only, you need to make sure that the shim is configured before any member of the type is accessed.  
   
 ###  <a name="BKMK_Finalizers"></a> Finalizers  
  Finalizers are not supported in Fakes.  

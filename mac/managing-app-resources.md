@@ -10,11 +10,11 @@ ms.assetid: 61EAAB8F-3C32-4574-924F-CFC616604089
 
 # Managing app resources
 
-App resource files, such as images, text files, and audio files are integral elements of your application that are not compiled with the application. Each platform that is supported by Visual Studio for Mac handles these types of files in different ways. Refer to the guides below for more information on dealing with app resources in Visual Studio for Mac.
+App resource files, such as images, text files, and audio files are necessary to your application, but aren't compiled with the application. Each platform supported by Visual Studio for Mac handles these resources in different ways, as explained in the following guides:
 
 ## Xamarin.Forms
 
-Xamarin.Forms code runs on multiple platforms - each of which has its own filesystem. This means that reading and writing files is can be done either by using the native file APIs on each platform, or by adding files as embedding resources.
+Xamarin.Forms code runs on multiple platforms - each of which has its own filesystem and each file system dictates how to  read and write to files. In Xamarin.Forms you can manage app resources by using the native file APIs on each platform, or by adding files as embedded resources.
 
 * [Working with Images](https://developer.xamarin.com/guides/xamarin-forms/user-interface/images/)
 * [Working with Files]( https://developer.xamarin.com/guides/xamarin-forms/application-fundamentals/files/)

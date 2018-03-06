@@ -15,6 +15,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Document Position
 In [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debugging, a **document position**:  

@@ -28,11 +28,11 @@ helpviewer_keywords:
   - "Sheet2 class"
   - "document-level customizations [Office development in Visual Studio], programming"
   - "application development [Office development in Visual Studio], document-level customizations"
-ms.assetid: 6c421055-7bea-4db4-a4c9-539b8c78d4ee
-caps.latest.revision: 34
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Programming Document-Level Customizations
   When you extend Microsoft Office Word or Microsoft Office Excel by using a document-level customization, you can perform the following tasks:  

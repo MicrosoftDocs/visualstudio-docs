@@ -15,6 +15,8 @@ caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # How to: Update the Status Bar
 The **Status Bar** is a control bar located at the bottom of many application windows that contains one or more status text lines or indicators.  

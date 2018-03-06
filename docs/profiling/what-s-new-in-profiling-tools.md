@@ -16,6 +16,8 @@ caps.latest.revision: 42
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # What's New in Profiling Tools in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]
 The Diagnostics Tools include new visualizations to help you identify issues in your app that need fixing. The Diagnostics Tools now include support for ASP.NET apps.

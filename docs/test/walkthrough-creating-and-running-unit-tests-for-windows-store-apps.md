@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
@@ -13,10 +12,11 @@ helpviewer_keywords:
   - "unit tests"
   - "unit tests, UWP apps"
   - "unit tests, running"
-ms.assetid: dd3e8a6a-b366-433e-a409-b9a9b89da89a
-caps.latest.revision: 21
-ms.author: "douge"
-manager: "douge"
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "uwp"
+author: gewarren
 ---
 # Walkthrough: Creating and Running Unit Tests for UWP apps
 Visual Studio includes support for unit testing managed [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps and includes unit test library templates for Visual C#, Visual Basic and Visual C++.  

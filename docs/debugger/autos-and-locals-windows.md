@@ -19,6 +19,8 @@ caps.latest.revision: 24
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Inspect Variables in the Autos and Locals Windows in Visual Studio
 The **Autos** window (while debugging, **CTRL+ALT+V, A**, or **Debug > Windows > Autos**) and the **Locals** window (while debugging, **CTRL+ALT+V, L**, or **Debug > Windows > Locals**) are quite useful when you want to see variable values while you are debugging. The **Locals** window displays variables that are defined in the local  scope, which is generally the function or method that is currently being executed. The **Autos** window displays variables used around the current line (the place where the debugger is stopped). Exactly which variables display in this window is different in different languages. See [What variables appear in the Autos Window?](#bkmk_whatvariables) below.  
@@ -35,7 +37,7 @@ Arrays and objects are displayed in the Autos and Locals windows as tree control
   
  In C# and Visual Basic, the **Autos** window displays any  variable used on the current or preceding line. For example, if you declare four variables and set them as follows:
 
-```CSharp
+```csharp
     public static void Main()
     {
        int a, b, c, d;
@@ -79,7 +81,7 @@ Arrays and objects are displayed in the Autos and Locals windows as tree control
   
  The following C# code adds the return values of two functions:  
 
-```CSharp
+```csharp
 static void Main(string[] args)  
 {  
     int a, b, c, d;  

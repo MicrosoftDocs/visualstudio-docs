@@ -17,6 +17,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugModule2::ReloadSymbols_Deprecated
 OBSOLETE. DO NOT USE. Reloads the symbols for this module.  

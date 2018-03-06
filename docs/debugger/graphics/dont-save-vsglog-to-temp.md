@@ -13,6 +13,8 @@ caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # DONT_SAVE_VSGLOG_TO_TEMP
 Defines by its presence whether the graphics log file is saved to the user's temporary files directory.  

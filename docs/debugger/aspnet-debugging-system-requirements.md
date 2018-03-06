@@ -21,6 +21,8 @@ caps.latest.revision: 38
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "aspnet"
 ---
 # ASP.NET Debugging: System Requirements
 This topic describes the software and security requirements for [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] debugging scenarios:  
@@ -39,7 +41,7 @@ This topic describes the software and security requirements for [!INCLUDE[vsteca
  To debug the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] worker process (hosted by an Application Pool), you must have permission to debug that process. By default, [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] applications prior to IIS 6.0 run as the **ASPNET** user. In IIS 6.0 and IIS 7.0, the **NETWORK SERVICE** account is the default. If the worker process is running as **ASPNET**, or as **NETWORK SERVICE**, you must have Administrator privileges to debug it.
 
  > [!IMPORTANT]
- > Starting with Windows Server 2008 R2, we recommend the use of the [ApplicationPoolIdentity](https://docs.microsoft.com/en-us/iis/manage/configuring-security/application-pool-identities) as the identity for each application pool.
+ > Starting with Windows Server 2008 R2, we recommend the use of the [ApplicationPoolIdentity](/iis/manage/configuring-security/application-pool-identities) as the identity for each application pool.
   
  The name of the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] worker process varies by debugging scenario and by version of IIS. For more information, see [How to: Find the Name of the ASP.NET Process](../debugger/how-to-find-the-name-of-the-aspnet-process.md).  
   

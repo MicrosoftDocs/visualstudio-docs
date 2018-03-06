@@ -13,6 +13,8 @@ caps.latest.revision: 33
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Graphics Diagnostics Examples
 These examples show how to debug rendering problems in DirectX-based apps by using [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Graphics Diagnostics.  

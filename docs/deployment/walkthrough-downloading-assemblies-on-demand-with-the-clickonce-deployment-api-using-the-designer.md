@@ -22,6 +22,8 @@ caps.latest.revision: 18
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+ms.workload: 
+  - "multiple"
 ---
 # Walkthrough: Downloading Assemblies on Demand with the ClickOnce Deployment API Using the Designer
 By default, all the assemblies included in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application are downloaded when the application is first run. However, there might be parts of your application that are used by a small set of the users. In this case, you want to download an assembly only when you create one of its types. The following walkthrough demonstrates how to mark certain assemblies in your application as "optional", and how to download them by using classes in the <xref:System.Deployment.Application> namespace when the common language runtime demands them.  

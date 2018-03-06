@@ -17,6 +17,8 @@ caps.latest.revision: 14
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugDocumentTextEvents2
 This interface is used to notify Visual Studio about changes to the source document that are supplied by the debug engine.  

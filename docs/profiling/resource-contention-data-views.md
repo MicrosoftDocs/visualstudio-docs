@@ -16,6 +16,8 @@ caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Resource Contention Data Views
 This section contains reference information for the views and reports of profiler data files that contain thread contention profiling data.  

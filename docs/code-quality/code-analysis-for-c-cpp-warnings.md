@@ -23,11 +23,12 @@ caps.latest.revision: 41
 author: mikeblome
 ms.author: mblome
 manager: ghogen
+ms.workload: 
+  - "cplusplus"
 ---
 # Code Analysis for C/C++ Warnings
 This section lists C/C++ Code Analysis warnings except those that are raised by the [C++ Core Guidelines Checkers](code-analysis-for-cpp-corecheck.md). For information about Code Analysis, see [/analyze (Code Analysis)](/cpp/build/reference/analyze-code-analysis) and [Quick Start: Code Analysis for C/C++](../code-quality/quick-start-code-analysis-for-c-cpp.md).  
   
 ## See Also  
- [Guidelines for Writing Secure Code](http://msdn.microsoft.com/en-us/9892fd19-45cd-44b6-9fa8-10f1b5cb6ea4)   
  [Analyzing C/C++ Code Quality by Using Code Analysis](../code-quality/analyzing-c-cpp-code-quality-by-using-code-analysis.md)   
  [Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)

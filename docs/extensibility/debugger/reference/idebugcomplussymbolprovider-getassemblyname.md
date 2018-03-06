@@ -16,6 +16,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugComPlusSymbolProvider::GetAssemblyName
 Retrieves the name of the assembly given its module and application domain.  

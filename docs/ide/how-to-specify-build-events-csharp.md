@@ -19,6 +19,8 @@ caps.latest.revision: 19
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "dotnet"
 ---
 # How to: Specify Build Events (C#)
 Use build events to specify commands that run before the build starts or after the build finishes. Build events are executed only if the build successfully reaches those points in the build process.  

@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: msbuild
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -20,9 +19,11 @@ helpviewer_keywords:
   - "MSBuild, CreateItem task"
 ms.assetid: c4311f38-979e-4324-b524-9e8c1cbdc41a
 caps.latest.revision: 15
-author: "kempb"
-ms.author: "kempb"
+author: Mikejo5000
+ms.author: mikejo
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CreateItem Task
 Populates item collections with the input items. This allows items to be copied from one list to another.  

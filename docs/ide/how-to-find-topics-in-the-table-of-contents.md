@@ -20,6 +20,8 @@ caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: find topics in the table of contents
 In the **Contents** tab, you can use the table of contents (TOC) to find information. The table of contents is an expandable list that contains all of the topics in the installed books. For accessibility information about how to navigate through the TOC, see [Shortcut Keys (Help Viewer)](../ide/shortcut-keys-help-viewer.md).  

@@ -17,6 +17,8 @@ caps.latest.revision: 19
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Best Practices for Security in VSPackages
 To install the [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)] on your computer, you must be running in a context with administrative credentials. The basic unit of security and deployment of a [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] application is the [VSPackages](../../extensibility/internals/vspackages.md). A VSPackage must be registered by using [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], which also requires administrative credentials.  

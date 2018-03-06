@@ -13,11 +13,11 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, packaging"
-ms.assetid: fc1cbd2a-0166-4f2f-a81b-4dac2fa7b0f3
-caps.latest.revision: 10
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Merging XML in Feature and Package Manifests
   Features and packages are defined by [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] manifest files. These packaged manifests are a combination of data generated from designers and custom [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] entered in the manifest template by users. At packaging time, [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] merges the custom [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] statements with the designer-provided [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] to form the packaged [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] manifest file. Similar elements, with the exceptions noted later in Merge Exceptions, are merged to avoid [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] validation errors after you deploy the files to SharePoint, and to make the manifest files smaller and more efficient.  

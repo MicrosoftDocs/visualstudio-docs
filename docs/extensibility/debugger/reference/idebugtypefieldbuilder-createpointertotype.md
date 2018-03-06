@@ -16,6 +16,8 @@ caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugTypeFieldBuilder::CreatePointerToType
 Creates a pointer to the specified type.  

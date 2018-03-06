@@ -15,6 +15,8 @@ caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # m_action Field
 The delegate that represents the code to execute in the <xref:System.Threading.Tasks.Task> object.  

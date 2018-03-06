@@ -16,6 +16,8 @@ caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugComPlusSymbolProvider::AreSymbolsLoaded
 Determines if the debug symbols are loaded for the specified module given the application domain identifier.  

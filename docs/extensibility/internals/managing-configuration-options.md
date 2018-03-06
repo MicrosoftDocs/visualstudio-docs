@@ -15,6 +15,8 @@ caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Managing Configuration Options
 When you create a new project type, you must manage project and solution configuration settings that determine how your project will be built, packaged, deployed, and run. The following topics discuss project and solution configuration.  

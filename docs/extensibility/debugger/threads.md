@@ -16,6 +16,8 @@ caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Threads
 In terms of the debugger architecture, a **thread**:  

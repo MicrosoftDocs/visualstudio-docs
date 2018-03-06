@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.ENC.welcome"
 dev_langs: 
@@ -22,6 +22,8 @@ caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Edit and Continue Dialog Box
 (Native Only) This dialog box appears when you have edited code while debugging and **Edit and Continue** recognizes that it can apply code changes. For more information, see [Edit and Continue](../debugger/edit-and-continue.md).  

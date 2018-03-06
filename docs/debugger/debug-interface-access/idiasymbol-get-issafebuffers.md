@@ -17,6 +17,8 @@ caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_isSafeBuffers
 Retrieves a flag that specifies whether the preprocesser directive for a safe buffer is used. Use when the [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md) is set to `SymTagFunction`.  

@@ -10,18 +10,14 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "Microsoft.VisualStudio.Publish.ClickOnceProvider.Dialog.PropertyPage"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
 helpviewer_keywords: 
   - "Project Designer, Publish page"
   - "Publish page in Project Designer"
-ms.assetid: 153527c6-8b95-4003-8e8e-03a489d0a629
-caps.latest.revision: 33
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Publish Page, Project Designer
 The **Publish** page of the **Project Designer** is used to configure properties for ClickOnce deployment.  
@@ -33,10 +29,8 @@ The **Publish** page of the **Project Designer** is used to configure properties
   
 ## UIElement List  
  **Publishing Folder Location**  
- Specifies the location where the application is published. Can be a drive path (`C:\deploy\myapplication`), a file share (`\\server\myapplication`), an FTP server (`ftp://ftp.microsoft.com/myapplication`), or a Web site (`http://www.microsoft.com/myapplication`). Note that text must be present in the **Publishing Location** box in order for the browse (**...**) button to work.  
-  
- By default, the publishing location is `http://localhost/<projectname>/` if you have IIS installed, or the `publish\` directory if you do not have IIS installed. If your computer is running Windows Vista, the default is always the `publish\` directory, regardless of whether you have IIS installed.  
-  
+ Specifies the location where the application is published. Can be a drive path (`C:\deploy\myapplication`), a file share (`\\server\myapplication`), or an FTP server (`ftp://ftp.microsoft.com/myapplication`). Note that text must be present in the **Publishing Location** box in order for the browse (**...**) button to work.  
+   
  **Installation Folder URL**  
  Optional. Specifies a Web site to which users go to install the application. This is necessary only when it differs from the **Publishing Location**, for example, when the application is published to a staging server.  
   
@@ -46,16 +40,16 @@ The **Publish** page of the **Project Designer** is used to configure properties
  For WPF Web Browser Applications, the **The application is available offline as well** option is disabled, because such applications are available only online.  
   
  **Application Files**  
- Opens the [Application Files Dialog Box](http://msdn.microsoft.com/en-us/b06dff3a-b87a-4caf-996b-7a4acf8137a8), which is used to specify how and where individual files are installed.  
+ Opens the Application Files dialog box, which is used to specify how and where individual files are installed.  
   
  **Prerequisites**  
- Opens the [Prerequisites Dialog Box](../../ide/reference/prerequisites-dialog-box.md), which is used to specify prerequisite components, such as the .NET Framework, to be installed together with the application.  
+ Opens the Prerequisites dialog box, which is used to specify prerequisite components, such as the .NET Framework, to be installed together with the application.  
   
  **Updates**  
- Opens the [Application Updates Dialog Box](http://msdn.microsoft.com/en-us/8eca8743-8e68-4d04-bfd5-4dc0a9b2934f), which is used to specify update behavior for the application. Not available when **The application is available online only** is selected.  
+ Opens the Application Updates dialog box, which is used to specify update behavior for the application. Not available when **The application is available online only** is selected.  
   
  **Options**  
- Opens the [Publish Options Dialog Box](http://msdn.microsoft.com/en-us/fd9baa1b-7311-4f9e-8ffb-ae50cf110592), which is used to specify additional advanced publishing options.  
+ Opens the Publish Options dialog box, which is used to specify additional advanced publishing options.  
   
  **Publish Version**  
  Sets the publish version number for the application; when the version number is changed, the application is published as an update. Each part of the publish version (**Major**, **Minor**, **Build**, **Revision**) can have a maximum value of 65355 (<xref:System.UInt16.MaxValue>), the maximum allowed by <xref:System.Version>.  
@@ -66,7 +60,7 @@ The **Publish** page of the **Project Designer** is used to configure properties
  Optional. When this option is selected (the default), the **Revision** part of the publish version number is incremented by one every time that the application is published. This causes the application to be published as an update.  
   
  **Publish Wizard**  
- Opens the [Publish Wizard](http://msdn.microsoft.com/en-us/fc6abebd-13d6-48e4-a567-fbc52dad0872). Completing the Publish Wizard has the same effect as running the **Publish** command on the **Build** menu.  
+ Opens the Publish Wizard. Completing the Publish Wizard has the same effect as running the **Publish** command on the **Build** menu.  
   
  **Publish Now**  
  Publishes the application using the current settings. Equivalent to the **Finish** button in the **PublishWizard**.  

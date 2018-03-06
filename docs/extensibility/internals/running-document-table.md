@@ -19,6 +19,8 @@ caps.latest.revision: 18
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Running Document Table
 The IDE maintains the list of all currently open documents in an internal structure called the running document table (RDT). This list includes all open documents in memory, regardless of whether these documents are currently being edited. A document is any item that is persisted, including files in a project or the main project file (for example, a .vcxproj file).  

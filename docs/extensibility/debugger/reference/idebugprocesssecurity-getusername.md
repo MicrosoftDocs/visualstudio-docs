@@ -15,6 +15,8 @@ caps.latest.revision: 4
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProcessSecurity::GetUserName
 Gets the user name from the port supplier.  

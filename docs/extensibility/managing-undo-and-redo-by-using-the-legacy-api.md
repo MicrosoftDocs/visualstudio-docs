@@ -15,6 +15,8 @@ caps.latest.revision: 14
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Managing Undo and Redo by Using the Legacy API
 Editors must support undo operations that let users reverse their recent changes when they modify code. Most editors implemented under [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] can have undo support automatically provided by the integrated development environment (IDE).  

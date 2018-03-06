@@ -16,6 +16,8 @@ caps.latest.revision: 18
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Determining Command Status By Using Interop Assemblies
 A VSPackage must keep track of the state of the commands it can handle. The environment cannot determine when a command handled within your VSPackage becomes enabled or disabled. It is the responsibility of your VSPackage to inform the environment about command states, for example, the state of general commands such as **Cut**, **Copy**, and **Paste**.  

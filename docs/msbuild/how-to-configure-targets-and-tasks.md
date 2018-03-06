@@ -4,15 +4,16 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: msbuild
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 92814100-392a-471d-96fd-e26f637d6cc2
 caps.latest.revision: 5
-author: "kempb"
-ms.author: "kempb"
+author: Mikejo5000
+ms.author: mikejo
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Configure Targets and Tasks
 Selected MSBuild tasks can be set to run in the environment they target, regardless of the environment of the development computer. For example, when you use a 64-bit computer to build an application that targets a 32-bit architecture, selected tasks are run in a 32-bit process.  

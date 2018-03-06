@@ -16,6 +16,8 @@ caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # ContingentProperties Class - Internal Members
 Contains additional properties for a <xref:System.Threading.Tasks.Task> object.  

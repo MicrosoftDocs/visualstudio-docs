@@ -17,6 +17,8 @@ caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProgramPublisher2::PublishProgramNode
 Makes a program node available for use by debug engines (DEs) and the session debug manager (SDM).  

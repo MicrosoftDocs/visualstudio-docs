@@ -20,6 +20,8 @@ caps.latest.revision: 22
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA1303: Do not pass literals as localized parameters
 |||  

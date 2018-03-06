@@ -15,6 +15,8 @@ caps.latest.revision: 33
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Language Service and Editor Extension Points
 The editor provides extension points that you can extend as Managed Extensibility Framework (MEF) component parts, including most language service features. These are the main extension point categories:  

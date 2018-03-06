@@ -18,6 +18,8 @@ caps.latest.revision: 15
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Extern Element
 The Extern element references any external header (.h) files to merge with the .vsct file at compile time. The files to be merged must be on the Include path given to the VSCT compiler or referenced by an [Include Element](../extensibility/include-element.md). The files may be other .vsct files or C++ header files.  

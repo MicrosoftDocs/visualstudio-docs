@@ -15,6 +15,8 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.technology: "vs-data-tools"
+ms.workload: 
+  - "data-storage"
 ---
 # Separate datasets and TableAdapters into different projects
 Typed datasets have been enhanced so that the [TableAdapters](create-and-configure-tableadapters.md) and dataset classes can be generated into separate projects. This enables you to quickly separate application layers and generate n-tier data applications.  
