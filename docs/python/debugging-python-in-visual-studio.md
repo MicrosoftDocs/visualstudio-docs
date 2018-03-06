@@ -2,10 +2,10 @@
 title: Debugging Python Code in Visual Studio | Microsoft Docs
 description: A walkthrough of the debugging features in Visual Studio specifically for Python code, including setting breakpoints, stepping, inspecting values, looking at exceptions, and debugging in the interactive window.
 ms.custom:
-ms.date: 02/15/2018
+ms.date: 03/05/2018
 ms.reviewer:
 ms.suite:
-ms.technology: 
+ms.technology:
   - "devlang-python"
 dev_langs:
   - "python"
@@ -14,7 +14,7 @@ ms.topic: "article"
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
-ms.workload: 
+ms.workload:
   - "python"
   - "data-science"
 ---
@@ -23,7 +23,7 @@ ms.workload:
 
 Visual Studio provides a comprehensive debugging experience for Python, including attaching to running processes, evaluating expressions in the Watch and Immediate windows, inspecting local variables, breakpoints, step in/out/over statements, Set Next Statement, and more.
 
-Also see the following scenario-specific debugging topics:
+Also see the following scenario-specific debugging articles:
 
 - [Linux remote debugging](debugging-python-code-on-remote-linux-machines.md)
 - [Azure remote debugging](debugging-remote-python-code-on-azure.md)
@@ -47,7 +47,7 @@ Also see the following scenario-specific debugging topics:
 
 The basic debugging workflow involves settings breakpoints, stepping through code, inspecting values, and handling exceptions as described in the following sections. For complete details on the Visual Studio debugger, see [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md).
 
-A debugging session starts with the **Debug > Start Debugging** command, the **Start** button on the toolbar, or the F5 key. These actions launch your project's startup file (shown in bold in Solution Explorer) with the project's active environment and any command-line arguments or search paths that have been specified in Project Properties (see [Project debugging options](#project-debugging-options). If for some reason you don't have a startup file set, however, a Python output window briefly appears and disappears. In this case, right-click the appropriate file and select **Set as Startup File**.
+A debugging session starts with the **Debug > Start Debugging** command, the **Start** button on the toolbar, or the F5 key. These actions launch your project's startup file (shown in bold in Solution Explorer) with the project's active environment and any command-line arguments or search paths that have been specified in Project Properties (see [Project debugging options](#project-debugging-options). **Visual Studio 2017 version 15.6** and later alerts you if you don't have a startup file set; earlier versions may open an output window with the Python interpreter running, or the output window briefly appears and disappears. In any case, right-click the appropriate file and select **Set as Startup File**.
 
 > [!Note]
 > The debugger always starts with the active Python environment for the project. To change the environment, make a different one active as described on [Selecting a Python environment for a project](selecting-a-python-environment-for-a-project.md).
@@ -162,7 +162,7 @@ By default, the debugger starts your program with the standard Python launcher, 
 
 There are two interactive windows you can use during a debugging session: the standard Visual Studio Immediate window, and the Python Debug Interactive window.
 
-The Immediate window (**Debug > Windows > Immediate**) is used for quick evaluation of Python expressions and inspection or assignment of variables within the running program. See the general [Immediate Window](../ide/reference/immediate-window.md) topic for details.
+The Immediate window (**Debug > Windows > Immediate**) is used for quick evaluation of Python expressions and inspection or assignment of variables within the running program. See the general [Immediate Window](../ide/reference/immediate-window.md) article for details.
 
 The Python Debug Interactive window (**Debug > Windows > Python Debug Interactive**) is richer as it makes the full [Interactive REPL](python-interactive-repl-in-visual-studio.md) experience available while debugging, including writing and running code. It automatically connects to any process started in the debugger using the Standard Python launcher (including processes attached through **Debug > Attach to Process**). It's not, however, available when using mixed-mode C/C++ debugging.
 

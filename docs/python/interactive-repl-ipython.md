@@ -21,7 +21,7 @@ ms.workload:
 
 # Using IPython in the Interactive Window
 
-The Visual Studio interactive window in IPython mode is an advanced yet user-friendly interactive development environment that has Interactive Parallel Computing features. This topic walks through using IPython in the Visual Studio interactive window, in which all of the regular [interactive window](python-interactive-repl-in-visual-studio.md) features are also available.
+The Visual Studio interactive window in IPython mode is an advanced yet user-friendly interactive development environment that has Interactive Parallel Computing features. This article walks through using IPython in the Visual Studio interactive window, in which all of the regular [interactive window](python-interactive-repl-in-visual-studio.md) features are also available.
 
 For this walkthrough you should have the [Anaconda](https://www.continuum.io) environment installed, which includes IPython and the necessary libraries.
 
@@ -79,7 +79,7 @@ For this walkthrough you should have the [Anaconda](https://www.continuum.io) en
 
 IPython has many other useful features such as escaping to the system shell, variable substitution, capturing output, etc. Refer to the [IPython documentation](http://ipython.org/documentation.html) for more.
 
-## Related topics
+## Related articles
 
 - To use Jupyter easily and without installation, try the free [Azure Notebooks hosted service](https://notebooks.azure.com/) that lets you keep and share your notebooks with others.
 

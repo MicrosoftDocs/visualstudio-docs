@@ -70,7 +70,7 @@ Create a temporary App Service without needing an Azure subscription as follows:
 
 ## Configure Python on Azure App Service
 
-Once you have an App Service with an empty Web App running (either in your subscription or on a free site), install a chosen version of Python as described [Managing Python on Azure App Service](managing-python-on-azure-app-service.md). For publishing from Visual Studio 2017, record the exact path to the Python interpreter installed with the site extension as described in that topic.
+Once you have an App Service with an empty Web App running (either in your subscription or on a free site), install a chosen version of Python as described [Managing Python on Azure App Service](managing-python-on-azure-app-service.md). For publishing from Visual Studio 2017, record the exact path to the Python interpreter installed with the site extension as described in that article.
 
 If desired, you can also install the `bottle` package using the process in those instructions, as that package is installed as part of other steps in this walkthrough.
 
