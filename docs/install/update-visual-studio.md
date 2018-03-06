@@ -1,7 +1,7 @@
 ---
 title: "Update Visual Studio 2017 | Microsoft Docs"
 description: "Learn how to update Visual Studio, step-by-step."
-ms.date: "03/05/2018"
+ms.date: "03/06/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -29,7 +29,7 @@ And if you'd like to try out anything before we release it, consider downloading
 
 ## Update Visual Studio 2017 version 15.6 or later
 
-We've streamlined the installation and update experience to make it easier to use directly from within the IDE. Here's how to update from version 15.5 and earlier to version 15.6 and later.
+We've streamlined the installation and update experience to make it easier to use directly from within the IDE. Here's how to update from version 15.6 and later to newer versions of Visual Studio.
 
 ### Use the Notifications hub
 
@@ -86,7 +86,7 @@ As in earlier versions of Visual Studio 2017, you can use the Visual Studio Inst
 
 ## Update Visual Studio 2017 version 15.5 or earlier
 
-If you are using an earlier version of Visual Studio 2017, here's how to update it from version 15.0 through version 15.5.
+If you are using an earlier version, here's how to apply an update from Visual Studio 2017 version 15.0 through version 15.5.
 
 ### Update by using the Notifications hub
 
