@@ -241,7 +241,7 @@ $[MSBuild]::GetDirectoryNameOfFileAbove(string ThePath, string TheFile)
  This property function has the following syntax:  
 
 ```  
-$([MSBuild]::GetPathOfFileAbove(dir.props)  
+$([MSBuild]::GetPathOfFileAbove(dir.props))  
 ```  
 
 ##  MSBuild GetRegistryValue  
