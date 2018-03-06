@@ -1,5 +1,5 @@
 ---
-title: "Enable Subscription | Microsoft Docs"
+title: "Enable Subscription | Visual Studio"
 description: This article describes how to use your Microsoft account to enable your subscription and unlock features in Visual Studio for Mac
 author: asb3993
 ms.author: amburns
