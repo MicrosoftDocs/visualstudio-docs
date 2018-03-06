@@ -4,7 +4,7 @@
 - name: Quickstarts
   items:
   - name: 'Node.js: Create a Web app'
-    href: http://docs.microsoft.com/nodejs/quickstart-nodejs?toc=/visualstudio/nodejs/toc.yml&bc=/visualstudio/_breadcrumb/toc.yml
+    href: ../ide/quickstart-nodejs?toc=../nodejs/toc.yml&bc=/visualstudio/_breadcrumb/toc.yml
 - name: Tutorials
   items:
   - name: Create a Node.js app with Express
