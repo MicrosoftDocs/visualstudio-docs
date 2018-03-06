@@ -12,9 +12,7 @@ ms.assetid: FB253757-DB00-4889-A6BF-E44722E25BD1
 
 Visual Studio for Mac can be used to build applications and create assemblies during the development of your project. It's important to compile and build your code early and often so that you can identify type mismatches and other compile-time errors.
 
-## Choosing a build method:
-
-### Using the IDE
+## Building from the IDE
 
 Using Visual Studio for Mac lets you create and run builds instantly, while still giving you control over build functionality. Visual Studio for Mac uses MSBuild as the underlying build system.
 
@@ -36,13 +34,13 @@ Visual Studio for Mac can also be used to do the following:
 
     ![add custom commands](media/compiling-and-building-image6.png)
 
-### Building from command line
+## Building from command line
 
 You can use MSBuild Build Engine to build applications via the command line.
 
 See the [MSBuild](https://docs.microsoft.com/visualstudio/msbuild/msbuild) content for more information on using MSBuild.
 
-### Using Visual Studio Team Services
+## Building from Visual Studio Team Services
 
 * [Build your Xamarin App](https://www.visualstudio.com/docs/build/apps/mobile/xamarin)
 * [Continuous Integration with Xamarin](https://developer.xamarin.com/guides/cross-platform/ci/)

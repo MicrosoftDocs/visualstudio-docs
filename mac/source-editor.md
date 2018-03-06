@@ -23,7 +23,7 @@ Viewing and moving efficiently throughout code is an integral part of the develo
 Visual Studio for Mac offers many powerful features to make cross-platform development as accessible and as useful as possible. The following sections describe some of the highlights.
 
 
-### Code folding
+## Code folding
 
 Code folding makes it easier to manage large source code files by allowing developers to show or hide complete sections of code, such as using directives, boilerplate code and comments, and #region statements. Code folding is turned off by default in Visual Studio for Mac
 
@@ -43,7 +43,7 @@ You can also switch between showing and hiding the folds by using the **View > F
 
 This menu item can also be used to enable or disable code folding.
 
-### White space
+## White space
 
 It may be necessary for you to view invisible characters in source code. It's a visible way to make sure that you're adhering to coding standards and not needlessly wasting space. It's also useful when writing F#, which depends on precisely indented lines for evaluating code.
 
@@ -60,7 +60,7 @@ The option to show tabs, spaces, and line endings is also available:
  ![whitespace displayed](media/source-editor-image22.png)
 
 
-### Ruler
+## Ruler
 
 The column ruler is useful for determining line lengths, particularly when working on a team that has line length guidelines. The column ruler can be turned on or off by navigating to **Visual Studio > Preferences... > Text Editor > Markers and Rulers** and selecting (or deselecting) **Show Column ruler**, as illustrated in the following image:
 
@@ -69,7 +69,7 @@ The column ruler is useful for determining line lengths, particularly when worki
  This displays as a vertical light gray line in the source editor.
 
 
-### Highlight identifier references
+## Highlight identifier references
 
 With the "Highlight identifier references" option is enabled, you can select any symbol in the source code and the source editor will provide a visual guide to all other references in that file. To turn on this option, go to **Visual Studio > Preferences... > Text Editor > Markers and Rulers** and select _Highlight identifier references_, as illustrated in the following image:
 

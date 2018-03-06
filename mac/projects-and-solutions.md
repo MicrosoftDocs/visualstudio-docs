@@ -1,5 +1,5 @@
 ---
-title: "Projects and Solutions"
+title: "Projects and Solutions | Microsoft Docs"
 description: This document provides an overview of Projects and Solutions in Visual Studio for Mac.
 author: asb3993
 ms.author: amburns
