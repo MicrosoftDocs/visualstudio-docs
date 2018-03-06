@@ -20,7 +20,7 @@ ms.workload:
 ---
 # Update Visual Studio 2017 to the most recent release
 
-We encourage you to update most [recent version](/visualstudio/releasenotes/vs2017-relnotes) of Visual Studio 2017 so that you always get the latest features, fixes, and improvements.
+We encourage you to update to the most [recent version](/visualstudio/releasenotes/vs2017-relnotes) of Visual Studio 2017 so that you always get the latest features, fixes, and improvements.
 
 And if you'd like to try out anything before we release it, consider downloading the [preview release](/visualstudio/releasenotes/vs2017-preview-relnotes) of the next version, too.
 
