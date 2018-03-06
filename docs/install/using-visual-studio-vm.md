@@ -34,7 +34,7 @@ Images for the most recent major versions, Visual Studio 2017 and Visual Studio 
 > [!NOTE]
 > In accordance with Microsoft servicing policy, the originally released (RTW) version of Visual Studio 2015 has expired for servicing. Visual Studio 2015 Update 3 is the only remaining version offered for the Visual Studio 2015 product line.
 
-For more information, see the [Visual Studio Servicing Policy](https://www.visualstudio.com/productinfo/vs-servicing-vs).
+For more information, see the [Visual Studio Servicing Policy](/visualstudio/productinfo/vs-servicing-vs).
 
 ## What features are installed?
 Each image contains the recommended feature set for that Visual Studio edition. Generally, the installation includes:
@@ -45,9 +45,9 @@ Each image contains the recommended feature set for that Visual Studio edition. 
 * GitHub Extension for Visual Studio
 * LINQ to SQL Tools
 
-We usee the following command line to install Visual Studio when building the images:
+We use the following command line to install Visual Studio when building the images:
 
-```
+```shell
     vs_enterprise.exe --allWorkloads --includeRecommended --passive ^
        add Microsoft.Net.Component.4.7.SDK ^
        add Microsoft.Net.Component.4.7.TargetingPack ^ 
@@ -81,7 +81,7 @@ Visual Studio follows the “bring your own license” model in Azure. As with a
 - Sign in with a Microsoft account that’s associated with a Visual Studio subscription 
 - Unlock Visual Studio with the product key that came with your initial purchase
 
-For more information, see [Sign in to Visual Studio](../ide/signing-in-to-visual-studio) and [How to unlock Visual Studio](../ide/how-to-unlock-visual-studio).
+For more information, see [Sign in to Visual Studio](../ide/signing-in-to-visual-studio.md) and [How to unlock Visual Studio](../ide/how-to-unlock-visual-studio.md).
 
 ## How do I save the development VM for future or team use?
 
