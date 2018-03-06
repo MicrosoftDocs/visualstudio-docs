@@ -4,11 +4,11 @@
 - name: Quickstarts
   items:
   - name: 'Node.js: Create a Web app'
-    href: ../ide/quickstart-nodejs?toc=../nodejs/toc.yml&bc=/visualstudio/_breadcrumb/toc.yml
+    href: /visualstudio/ide/quickstart-nodejs?toc=/visualstudio/nodejs/default&bc=/visualstudio/_breadcrumb/toc.yml
 - name: Tutorials
   items:
   - name: Create a Node.js app with Express
-    href: /visualstudio/nodejs/tutorial-nodejs?toc=/visualstudio/nodejs/toc&bc=/visualstudio/_breadcrumb/toc.yml
+    href: /visualstudio/nodejs/tutorial-nodejs?toc=/visualstudio/nodejs/default.yml&bc=/visualstudio/_breadcrumb/toc.yml
   - name: Create a Node.js app with React
     href: tutorial-nodejs-with-react-and-jsx.md
 - name: How-to guides
