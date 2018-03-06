@@ -1853,6 +1853,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/test/writing-unit-tests-for-the-dotnet-framework-with-the-microsoft-unit-test-framework-for-managed-code.md",
+            "redirect_url": "/visualstudio/test/unit-test-your-code",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/vb-ide/code-generation-vb.md",
             "redirect_url": "/visualstudio/ide/code-generation-in-visual-studio",
             "redirect_document_id": false

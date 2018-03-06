@@ -32,79 +32,79 @@ This topic also creates a single Visual Studio solution and separate projects fo
 
 6. Open *UnitTest1.cs* in the Visual Studio editor.
 
-    ```csharp
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using Microsoft.VisualStudio.TestTools.UnitTesting;
-    using Maths;
+   ```csharp
+   using System;
+   using System.Collections.Generic;
+   using System.Linq;
+   using System.Text;
+   using Microsoft.VisualStudio.TestTools.UnitTesting;
+   using Maths;
 
-    namespace RooterTests
-    {
-        [TestClass]
-        public class UnitTest1
+   namespace RooterTests
+   {
+       [TestClass]
+       public class UnitTest1
 
-            [TestMethod]
-            public void TestMethod1()
-            {
+           [TestMethod]
+           public void TestMethod1()
+           {
 
-            }
-    ```
+           }
+   ```
 
-    Note that:
+   Note that:
 
-    - Each test is defined by using the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute> attribute. A test method must return void and can't have any parameters.
+   - Each test is defined by using the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute> attribute. A test method must return void and can't have any parameters.
 
-    - Test methods must be in a class decorated with the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute> attribute.
+   - Test methods must be in a class decorated with the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute> attribute.
 
         When the tests are run, an instance of each test class is created. The test methods are called in an unspecified order.
 
-    - You can define special methods that are invoked before and after each module, class, or method. For more information, see [Using the MSTest framework in unit tests](../test/using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md).
+   - You can define special methods that are invoked before and after each module, class, or method. For more information, see [Using the MSTest framework in unit tests](../test/using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md).
 
 ## Verify that the tests run in Test Explorer
 
 1. Insert some test code in TestMethod1 in the **UnitTest1.cs** file:
 
-    ```csharp
-    [TestMethod]
-    public void TestMethod1()
-    {
-        Assert.AreEqual(0, 0);
-    }
-    ```
+   ```csharp
+   [TestMethod]
+   public void TestMethod1()
+   {
+       Assert.AreEqual(0, 0);
+   }
+   ```
 
-    Notice that the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert> class provides several static methods that you can use to verify results in test methods.
+   Notice that the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert> class provides several static methods that you can use to verify results in test methods.
 
 2. On the **Test** menu, choose **Run** and then choose **Run All**.
 
-    The test project builds and runs. The Test Explorer window appears, and the test is listed under **Passed Tests**. The Summary pane at the bottom of the window provides additional details about the selected test.
+   The test project builds and runs. The Test Explorer window appears, and the test is listed under **Passed Tests**. The Summary pane at the bottom of the window provides additional details about the selected test.
 
-    ![Test Explorer](../test/media/ute_cpp_testexplorer_testmethod1.png)
+   ![Test Explorer](../test/media/ute_cpp_testexplorer_testmethod1.png)
 
 ## Add the Rooter class to the Maths project
 
 1. In Solution Explorer, choose the **Maths** project name. From the shortcut menu, choose **Add**, and then **Class**.
 
-2. Name the class file `Rooter.cs`
+2. Name the class file *Rooter.cs*.
 
-3. Add the following code to the Rooter class **Rooter.cs** file:
+3. Add the following code to the Rooter class *Rooter.cs* file:
 
-    ```csharp
-    public Rooter()
-    {
-    }
+   ```csharp
+   public Rooter()
+   {
+   }
 
-    // estimate the square root of a number
-    public double SquareRoot(double x)
-    {
-        return 0.0;
-    }
-    ```
+   // estimate the square root of a number
+   public double SquareRoot(double x)
+   {
+       return 0.0;
+   }
+   ```
 
-    The `Rooter` class declares a constructor and the `SqareRoot` estimator method.
+   The `Rooter` class declares a constructor and the `SquareRoot` estimator method.
 
-4. The `SqareRoot` method is only a minimal implementation, just enough to test the basic structure of the testing setup.
+4. The `SquareRoot` method is only a minimal implementation, just enough to test the basic structure of the testing setup.
 
 ## Couple the test project to the app project
 
@@ -122,31 +122,31 @@ This topic also creates a single Visual Studio solution and separate projects fo
 
     2. Add this code below the `using Microsoft.VisualStudio.TestTools.UnitTesting;` line:
 
-        ```csharp
-        using Maths;
-        ```
+       ```csharp
+       using Maths;
+       ```
 
 3. Add a test that uses the Rooter function. Add the following code to *UnitTest1.cs*:
 
-    ```csharp
-    [TestMethod]
-    public void BasicTest()
-    {
-        Maths.Rooter rooter = new Rooter();
-        double expected = 0.0;
-        double actual = rooter.SquareRoot(expected * expected);
-        double tolerance = .001;
-        Assert.AreEqual(expected, actual, tolerance);
-    }
-    ```
+   ```csharp
+   [TestMethod]
+   public void BasicTest()
+   {
+       Maths.Rooter rooter = new Rooter();
+       double expected = 0.0;
+       double actual = rooter.SquareRoot(expected * expected);
+       double tolerance = .001;
+       Assert.AreEqual(expected, actual, tolerance);
+   }
+   ```
 
 4. Build the solution.
 
-    The new test appears in Test Explorer in the **Not Run Tests** node.
+   The new test appears in Test Explorer in the **Not Run Tests** node.
 
 5. In Test Explorer, choose **Run All**.
 
-    ![Basic Test passed](../test/media/ute_cpp_testexplorer_basictest.png)
+   ![Basic Test passed](../test/media/ute_cpp_testexplorer_basictest.png)
 
 You have set up the test and the code projects, and verified that you can run tests that run functions in the code project. Now you can begin to write real tests and code.
 
@@ -154,55 +154,55 @@ You have set up the test and the code projects, and verified that you can run te
 
 1. Add a new test:
 
-    ```csharp
-    [TestMethod]
-    public void RangeTest()
-    {
-        Rooter rooter = new Rooter();
-        for (double v = 1e-6; v < 1e6; v = v * 3.2)
-        {
-            double expected = v;
-            double actual = rooter.SquareRoot(v*v);
-            double tolerance = ToleranceHelper(expected);
-            Assert.AreEqual(expected, actual, tolerance);
-        }
-    }
-    ```
+   ```csharp
+   [TestMethod]
+   public void RangeTest()
+   {
+       Rooter rooter = new Rooter();
+       for (double v = 1e-6; v < 1e6; v = v * 3.2)
+       {
+           double expected = v;
+           double actual = rooter.SquareRoot(v*v);
+           double tolerance = ToleranceHelper(expected);
+           Assert.AreEqual(expected, actual, tolerance);
+       }
+   }
+   ```
 
-    > [!TIP]
-    > We recommend that you do not change tests that have passed. Instead, add a new test, update the code so that the test passes, and then add another test, and so on.
-    >
-    >  When your users change their requirements, disable the tests that are no longer correct. Write new tests and make them work one at a time, in the same incremental manner.
+   > [!TIP]
+   > We recommend that you do not change tests that have passed. Instead, add a new test, update the code so that the test passes, and then add another test, and so on.
+   >
+   > When your users change their requirements, disable the tests that are no longer correct. Write new tests and make them work one at a time, in the same incremental manner.
 
 2. In Test Explorer, choose **Run All**.
 
 3. The test fails.
 
-    ![The RangeTest fails](../test/media/ute_cpp_testexplorer_rangetest_fail.png)
+   ![The RangeTest fails](../test/media/ute_cpp_testexplorer_rangetest_fail.png)
 
-    > [!TIP]
-    > Immediately after you have written it, verify that each test fails. This helps you avoid the easy mistake of writing a test that never fails.
+   > [!TIP]
+   > Immediately after you have written it, verify that each test fails. This helps you avoid the easy mistake of writing a test that never fails.
 
-4. Enhance the code under test so that the new test passes. Change the `SqareRoot` function in **Rooter.cs** to this:
+4. Enhance the code under test so that the new test passes. Change the `SquareRoot` function in *Rooter.cs* to this:
 
-    ```csharp
-    public double SquareRoot(double x)
-    {
-        double estimate = x;
-        double diff = x;
-        while (diff > estimate / 1000)
-        {
-            double previousEstimate = estimate;
-            estimate = estimate - (estimate * estimate - x) / (2 * estimate);
-            diff = Math.Abs(previousEstimate - estimate);
-        }
-        return estimate;
-    }
-    ```
+   ```csharp
+   public double SquareRoot(double x)
+   {
+       double estimate = x;
+       double diff = x;
+       while (diff > estimate / 1000)
+       {
+           double previousEstimate = estimate;
+           estimate = estimate - (estimate * estimate - x) / (2 * estimate);
+           diff = Math.Abs(previousEstimate - estimate);
+       }
+       return estimate;
+   }
+   ```
 
 5. Build the solution and then in **Test Explorer**, choose **Run All**.
 
-    All three tests now pass.
+   All three tests now pass.
 
 > [!TIP]
 > Develop code by adding tests one at a time. Make sure that all the tests pass after each iteration.
@@ -241,11 +241,11 @@ You have set up the test and the code projects, and verified that you can run te
     }
     ```
 
-2. In *Test Explorer*, choose **Run All**.
+2. In **Test Explorer**, choose **Run All**.
 
-    The test fails. Choose the test name in **Test Explorer**. The failed assertion is highlighted. The failure message is visible in the detail pane of **Test Explorer**.
+   The test fails. Choose the test name in **Test Explorer**. The failed assertion is highlighted. The failure message is visible in the detail pane of **Test Explorer**.
 
-    ![NegativeRangeTests failed](../test/media/ute_cpp_testexplorer_negativerangetest_fail.png)
+   ![NegativeRangeTests failed](../test/media/ute_cpp_testexplorer_negativerangetest_fail.png)
 
 3. To see why the test fails, step through the function:
 
@@ -266,7 +266,7 @@ You have set up the test and the code projects, and verified that you can run te
         }
         ```
 
-1. In Test Explorer, choose **Run All** to test the corrected method and make sure that you haven't introduced a regression.
+4. In Test Explorer, choose **Run All** to test the corrected method and make sure that you haven't introduced a regression.
 
 All tests now pass.
 
