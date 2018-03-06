@@ -59,11 +59,11 @@ manager: ghogen
 
 ### 8. How does sorting test results work in the hierarchy view?
 
-  The hierarchy view sorts tests alphabetically as opposed to by outcome. The other group by settings normally sort test results by outcome and then alphabetically. See the different group by options a in the following image for comparison. You can provide feedback about the design [in this GitHub issue](https://github.com/Microsoft/vstest/issues/1425).
+  The hierarchy view sorts tests alphabetically as opposed to by outcome. The other group by settings normally sort test results by outcome and then alphabetically. See the different group by options in the following image for comparison. You can provide feedback about the design [in this GitHub issue](https://github.com/Microsoft/vstest/issues/1425).
 
   ![SortingExamples](media/testex-sortingex.png)
 
-### 9. In the hierarchy view, there are passing, failing, skipped, and not run icons next to the Project, Namespace, and Class groupings. What do these icons mean?
+### 9. In the hierarchy view, there are passed, failed, skipped, and not run icons next to the Project, Namespace, and Class groupings. What do these icons mean?
 
   The icons next to the Project, Namespace, and Class groupings reflect the state of the tests within that grouping. See the following table.
 
