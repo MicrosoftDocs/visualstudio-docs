@@ -122,7 +122,6 @@ For more information about lab management, see:
 * [Plan your lab](https://msdn.microsoft.com/library/ff756575%28v=vs.140%29.aspx)
 * [Administer your lab](https://msdn.microsoft.com/library/dd936084%28v=vs.140%29.aspx)
 * [Set up for SCVMM environments](https://msdn.microsoft.com/library/dd380687%28v=vs.140%29.aspx)
-* [Upgrade SCVMM 2008 R2 to SCVMM 2012](upgrade-scvmm-2008-r2-scvmm-2012.md)
 * [Manage permissions](https://msdn.microsoft.com/library/dd380760%28v=vs.140%29.aspx)
 * [Change setup](https://msdn.microsoft.com/library/ee704508%28v=vs.140%29.aspx)
 * [Troubleshooting](https://msdn.microsoft.com/library/ee853230%28v=vs.140%29.aspx)
