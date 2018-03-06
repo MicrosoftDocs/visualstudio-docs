@@ -34,7 +34,7 @@
 ### Manage installations
 #### [Tools for detecting and managing Visual Studio instances](install/tools-for-managing-visual-studio-instances.md)
 ### Manage subscriptions
-#### [Visual Studio subscriptions: Administrator overview](/visualstudio/subscriptions/admin-responsibilities) 
+#### [Visual Studio subscriptions: Administrator overview](/visualstudio/subscriptions/admin-responsibilities)
 ### [Help Viewer Administrator Guide](ide/help-viewer-administrator-guide.md)
 #### [Command-Line Arguments for the Help Content Manager](ide/command-line-arguments-for-the-help-content-manager.md)
 #### [Help Content Manager Overrides](ide/help-content-manager-overrides.md)
@@ -83,8 +83,7 @@
 #### [Manage Assembly and Manifest Signing](ide/managing-assembly-and-manifest-signing.md)
 ##### [Sign Application and Deployment Manifests](ide/how-to-sign-application-and-deployment-manifests.md)
 #### [Specify an Application Icon (Visual Basic, C#)](ide/how-to-specify-an-application-icon-visual-basic-csharp.md)
-#### [Target a Specific .NET Framework Version](ide/targeting-a-specific-dotnet-framework-version.md)
-##### [Multi-Targeting Overview](ide/visual-studio-multi-targeting-overview.md)
+#### [Multi-Targeting Overview](ide/visual-studio-multi-targeting-overview.md)
 ##### [Target a Version of the .NET Framework](ide/how-to-target-a-version-of-the-dotnet-framework.md)
 #### [Create Project and Item Templates](ide/creating-project-and-item-templates.md)
 ##### [Create Project Templates](ide/how-to-create-project-templates.md)
