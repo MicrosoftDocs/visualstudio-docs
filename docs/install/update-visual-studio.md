@@ -86,7 +86,7 @@ As in earlier versions of Visual Studio 2017, you can use the Visual Studio Inst
 
 ## Update Visual Studio 2017 version 15.5 or earlier
 
-If you are using an earlier version of Visual Studio 2017, here's how to update to the newest version.
+If you are using an earlier version of Visual Studio 2017, here's how to update it from version 15.0 to version 15.5.
 
 ### Update by using the Notifications hub
 
