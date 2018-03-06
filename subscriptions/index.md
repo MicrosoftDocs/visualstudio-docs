@@ -140,7 +140,7 @@ Subscribers sign in to [https://my.visualstudio.com](https://my.visualstudio.com
                 <div class="card">
                     <div class="cardText">
                         <h3>Developer Tools</h3>
-                        <p>You get access to the latest versions of Visual Studio, the full featured IDE for Android, iOS, Windows, macOS,web and cloud app development, and other cross-platform tooling on PC or Mac.</p>
+                        <p>You get access to the latest versions of Visual Studio, the full featured IDE for Android, iOS, Windows, macOS, web and cloud app development, and other cross-platform tooling on PC or Mac.</p>
                         <ul>
                             <li><a href="/visualstudio/subscriptions/vs-ide-benefit">Visual Studio</a></li>
                             <li>Visual Studio for Mac</li>
