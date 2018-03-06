@@ -29,7 +29,7 @@ And if you'd like to try out anything before we release it, consider downloading
 
 ## Update Visual Studio 2017 version 15.6 or later
 
-New with version 15.6: We've streamlined the installation and update experience to make it easier to use directly from within the IDE. Here's how.
+We've streamlined the installation and update experience to make it easier to use directly from within the IDE. Here's how to update from version 15.5 and earlier to version 15.6 and later.
 
 ### Use the Notifications hub
 
