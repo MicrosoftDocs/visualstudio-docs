@@ -1,23 +1,23 @@
 ---
-title: "Quickstart: Create a Windows Forms app in Visual Studio with Visual Basic | Microsoft Docs"
+title: "Create a Windows Forms app in Visual Studio with Visual Basic | Microsoft Docs"
 ms.custom: ""
 ms.date: "12/04/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-acquisition"
 ms.tgt_pltfrm: ""
-ms.topic: "quickstart"
+ms.topic: "article"
 ms.devlang: "vb"
 author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen
-dev_langs: 
+dev_langs:
   - vb
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
-# Quickstart: Create a Windows Forms app in Visual Studio with Visual Basic
+# Create a Windows Forms app in Visual Studio with Visual Basic
 In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you'll create a simple Visual Basic application that has a Windows-based user interface (UI).
 
 If you haven't already installed Visual Studio, go to the [Visual Studio Downloads](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) page to install it for free.
