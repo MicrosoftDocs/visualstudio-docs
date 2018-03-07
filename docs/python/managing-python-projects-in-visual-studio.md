@@ -56,7 +56,7 @@ A new project is always associated with the default global Python environment. T
 
 ![Activating an environment for a Python project](media/projects-activate-environment.png)
 
-<a name="project-types"</a>
+<a name="project-types"></a>
 
 ## Project templates
 
