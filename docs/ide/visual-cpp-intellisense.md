@@ -1,20 +1,20 @@
 ---
-title: "Visual C++ Intellisense | Microsoft Docs"
+title: "Visual C++ IntelliSense | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
-ms.workload: 
+ms.workload:
   - "cplusplus"
 ---
-# Visual C++ Intellisense
+# Visual C++ IntelliSense
 
 IntelliSense for C++ is available for stand-alone files as well as for files that are part of a C++ project. In cross-platform projects, some IntelliSense features are available in .cpp and .c files in the shared code project, even when you are in an Android or iOS context.
 

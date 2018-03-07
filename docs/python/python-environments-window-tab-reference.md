@@ -5,7 +5,7 @@ ms.custom: ""
 ms.date: 03/05/2018
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "devlang-python"
 ms.devlang: python
 ms.tgt_pltfrm: ""
@@ -13,7 +13,7 @@ ms.topic: "article"
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
-ms.workload: 
+ms.workload:
   - "python"
   - "data-science"
 ---
@@ -106,7 +106,7 @@ Shows the current status of the IntelliSense completion database:
 
 ![Python Environments IntelliSense tab](media/environments-intellisense-tab.png)
 
-In Visual Studio 2017 version 15.5 and earlier, IntelliSense completions depend on a database that's been compiled for that library. Building the database is done in the background when a library is installed, but can take some time and may not be complete when you start writing code. Visual Studio 2017 version 15.6 and higher use a faster method to provide completions that do not depend on the database unless you specifically choose to enable it.
+In **Visual Studio 2017 version 15.5** and earlier, IntelliSense completions depend on a database that's been compiled for that library. Building the database is done in the background when a library is installed, but can take some time and may not be complete when you start writing code. **Visual Studio 2017 version 15.6** and later uses a faster method to provide completions that do not depend on the database unless you specifically choose to enable it.
 
 When Visual Studio detects a new environment (or you add one), it automatically begins to compile the database by analyzing the library source files. This process can take anywhere from a minute to an hour or more depending on what's installed. (Anaconda, for example, comes with many libraries and takes some time to compile the database.) Once complete, you get detailed IntelliSense and don't need to refresh the database again (with the **Refresh DB** button) until you install more libraries.
 

@@ -11,7 +11,7 @@ ms.assetid: d901c572-16c4-402a-b230-7ae59ce9fad4
 author: "corob"
 ms.author: "mblome"
 manager: ghogen
-f1_keywords: 
+f1_keywords:
   - VC.Project.VCNMakeTool.BuildCommandLine
   - VC.Project.VCNMakeTool.ReBuildCommandLine
   - VC.Project.VCNMakeTool.CleanCommandLine
@@ -19,11 +19,10 @@ f1_keywords:
   - VC.Project.VCNMakeTool.PreprocessorDefinitions
   - VC.Project.VCNMakeTool.IncludeSearchPath
   - VC.Project.VCNMakeTool.ForcedIncludes
-ms.workload: 
+ms.workload:
   - "xplat-cplusplus"
 ---
-
-# NMake Properties (Android C++) 
+# NMake Properties (Android C++)
 
 Property | Description
 --- | ---
@@ -34,4 +33,4 @@ Output | Specifies the output file to generate.
 Preprocessor Definitions | Specifies the preprocessor defines used by the source files.
 Include Search Path | Specifies the include search path for resolving included files.
 Forced Includes | Specifies the files that are forced included.
-Additional Options | Specifies additional compiler switches to be used by Intellisense when parsing C++ files
+Additional Options | Specifies additional compiler switches to be used by IntelliSense when parsing C++ files

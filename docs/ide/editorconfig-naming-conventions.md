@@ -5,14 +5,14 @@ ms.date: "11/20/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "naming conventions [EditorConfig]"
   - "EditorConfig naming conventions"
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.technology: vs-ide-general
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # .NET naming conventions for EditorConfig
@@ -182,5 +182,6 @@ If you close and reopen your code file, instead of seeing the suggestion under t
 
 ## See also
 
-[.NET language and formatting conventions](../ide/editorconfig-code-style-settings-reference.md)  
-[Create portable custom editor options](../ide/create-portable-custom-editor-options.md)
+- [.NET language and formatting conventions](../ide/editorconfig-code-style-settings-reference.md)
+- [Create portable custom editor options](../ide/create-portable-custom-editor-options.md)
+- [.NET Compiler Platform's .editorconfig file](https://github.com/dotnet/roslyn/blob/master/.editorconfig)
