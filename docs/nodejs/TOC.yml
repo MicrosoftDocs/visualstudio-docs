@@ -4,7 +4,7 @@
 - name: Quickstarts
   items:
   - name: 'Node.js: Create a Web app'
-    href: ../ide/quickstart-nodejs.md?context=visualstudio/nodejs/default.yml
+    href: ../ide/quickstart-nodejs.md?contextTest=../nodejs/default.yml
 - name: Tutorials
   items:
   - name: Create a Node.js app with Express

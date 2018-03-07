@@ -46,6 +46,7 @@
         "RestApi": "Content",
         "LandingData": "Content",
         "ContextObject": "Toc",
+        "ContextTestObject": "Toc",
         "APIConnector": "Content"
       },
       "template_folder": "_themes"
