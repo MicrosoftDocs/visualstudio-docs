@@ -1843,6 +1843,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/test/lab-management/upgrade-scvmm-2008-r2-scvmm-2012.md",
+            "redirect_url": "/visualstudio/test/lab-management/using-a-lab-environment-for-your-application-lifecycle",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/test/using-microsoft-visualstudio-testtools-cppunittestframework.md",
             "redirect_url": "/visualstudio/test/microsoft.visualstudio.testtools.cppunittestframework-api-reference",
             "redirect_document_id": false
@@ -1850,6 +1855,11 @@
         {
             "source_path": "docs/test/writing-unit-tests-for-c-cpp-with-the-microsoft-unit-testing-framework-for-cpp.md",
             "redirect_url": "/visualstudio/test/writing-unit-tests-for-c-cpp",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/test/writing-unit-tests-for-the-dotnet-framework-with-the-microsoft-unit-test-framework-for-managed-code.md",
+            "redirect_url": "/visualstudio/test/unit-test-your-code",
             "redirect_document_id": false
         },
         {
