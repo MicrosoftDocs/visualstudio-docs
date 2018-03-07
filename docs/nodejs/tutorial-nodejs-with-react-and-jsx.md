@@ -58,6 +58,8 @@ First, create a Node.js web application project.
 
     - Project files such as server.js show up under the project node. *server.js* is the project startup file (to configure properties such as the startup file, right-click the project node and choose **Properties**).
 
+    To learn more about Visual Studio, see [Visual Studio IDE](../ide/visual-studio-ide.md)  
+
 ## Add npm packages
 
 This app requires a number of npm modules to run correctly.
