@@ -17,7 +17,6 @@ These are:
 
 * References
 * NuGets (Added via the Packages folder)
-* Components
 
 In addition, Web References and native references can also be added to any project.
 
