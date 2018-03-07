@@ -1843,8 +1843,8 @@
             "redirect_document_id": false
         },
         {
-            "source_path": "docs/test/upgrade-scvmm-2008-r2-scvmm-2012.md",
-            "redirect_url": "/visualstudio/test/using-a-lab-environment-for-your-application-lifecycle",
+            "source_path": "docs/test/lab-management/upgrade-scvmm-2008-r2-scvmm-2012.md",
+            "redirect_url": "/visualstudio/test/lab-management/using-a-lab-environment-for-your-application-lifecycle",
             "redirect_document_id": false
         },
         {
