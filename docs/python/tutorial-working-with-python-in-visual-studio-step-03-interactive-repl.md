@@ -96,7 +96,7 @@ The Visual Studio *interactive window* for Python provides a rich read-evaluate-
 > [!div class="nextstepaction"]
 > [Running code in the debugger](tutorial-working-with-python-in-visual-studio-step-04-debugging.md)
 
-### Going deeper
+## Going deeper
 
 - [Using the Interactive Window](python-interactive-repl-in-visual-studio.md)
 - [Using IPython REPL](interactive-repl-ipython.md)
