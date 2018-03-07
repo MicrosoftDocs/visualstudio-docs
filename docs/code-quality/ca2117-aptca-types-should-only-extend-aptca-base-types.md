@@ -74,7 +74,9 @@ The test type, represented by `X` in the previous discussion, is in a partially 
 This example produces the following output:
 
 **Meet at the shady glen 2/22/2003 12:00:00 AM!**
+
 **From Test: sunny meadow**
+
 **Meet at the sunny meadow 2/22/2003 12:00:00 AM!**
 
 ## Related Rules

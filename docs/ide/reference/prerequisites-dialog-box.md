@@ -53,7 +53,7 @@ The prerequisite components that appear in the **Prerequisites** dialog box migh
 
 ## See also
 
-[Publish Page, Project Designer](../../ide/reference/publish-page-project-designer.md)
-[Application Deployment Prerequisites](../../deployment/application-deployment-prerequisites.md)
-[Deploying Prerequisites for 64-bit Applications](../../deployment/deploying-prerequisites-for-64-bit-applications.md)
-[Visual Studio Multi-Targeting Overview](../../ide/visual-studio-multi-targeting-overview.md)
+- [Publish Page, Project Designer](../../ide/reference/publish-page-project-designer.md)
+- [Application Deployment Prerequisites](../../deployment/application-deployment-prerequisites.md)
+- [Deploying Prerequisites for 64-bit Applications](../../deployment/deploying-prerequisites-for-64-bit-applications.md)
+- [Visual Studio Multi-Targeting Overview](../../ide/visual-studio-multi-targeting-overview.md)
