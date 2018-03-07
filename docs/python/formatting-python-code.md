@@ -26,7 +26,11 @@ Visual Studio lets you quick reformat code to match pre-configured formatting op
 - To format a selection: select **Edit > Advanced > Format Selection** or press Ctrl+E,F.
 - To format the whole file: select **Edit > Advanced > Format Document** or press Ctrl+E,D.
 
-Options are set through **Tools > Options > Text Editor > Python > Formatting** and its nested tabs, and by default are set to match a superset of the [PEP 8 style guide](http://www.python.org/dev/peps/pep-0008/). The **General** tab determines when formatting is applied; settings the other three tabs are described in this article.
+Options are set through **Tools > Options > Text Editor > Python > Formatting** and its nested tabs. You need to select **Show all settings** for these options to appear:
+
+![Python formatting options in Visual Studio](media/options-editor-formatting.png)
+
+Formatting options by default are set to match a superset of the [PEP 8 style guide](http://www.python.org/dev/peps/pep-0008/). The **General** tab determines when formatting is applied; settings the other three tabs are described in this article.
 
 [Python support in Visual Studio](installing-python-support-in-visual-studio.md) also adds the useful [Fill Comment Paragraph](#fill-comment-paragraph-command) command to the **Edit > Advanced** menu as described that follow.
 
