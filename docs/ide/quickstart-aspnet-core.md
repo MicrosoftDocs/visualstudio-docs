@@ -10,15 +10,17 @@ ms.topic: "quickstart"
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
-dev_langs: 
+dev_langs:
   - CSharp
-ms.workload: 
+ms.workload:
   - "aspnet"
   - "dotnetcore"
 ---
 # Quickstart: Use Visual Studio to create your first ASP.NET Core web app
 
 In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you'll create a simple C# ASP.NET Core web application. If you haven't already installed Visual Studio, install it for free [here](http://www.visualstudio.com).
+
+If you haven't already installed Visual Studio, go to the [Visual Studio Downloads](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) page to install it for free.
 
 ## Create a project
 
