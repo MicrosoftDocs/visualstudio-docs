@@ -31,7 +31,7 @@ A public or protected type in an assembly with the <xref:System.Security.AllowPa
 
 ## Rule Description
 
-By default, public or protected types in assemblies with strong names are implicitly protected by an <xref:System.Security.Permissions.SecurityAction#System_Security_Permissions_SecurityAction_InheritanceDemand> for full trust. Strong-named assemblies marked with the <xref:System.Security.AllowPartiallyTrustedCallersAttribute> (APTCA) attribute do not have this protection. The attribute disables the inheritance demand. Exposed types declared in an assembly without an inheritance demand are inheritable by types that do not have full trust.
+By default, public or protected types in assemblies with strong names are implicitly protected by an [InheritanceDemand](xref:System.Security.Permissions.SecurityAction#System_Security_Permissions_SecurityAction_InheritanceDemand) for full trust. Strong-named assemblies marked with the <xref:System.Security.AllowPartiallyTrustedCallersAttribute> (APTCA) attribute do not have this protection. The attribute disables the inheritance demand. Exposed types declared in an assembly without an inheritance demand are inheritable by types that do not have full trust.
 
 When the APTCA attribute is present on a fully trusted assembly, and a type in the assembly inherits from a type that does not allow partially trusted callers, a security exploit is possible. If two types `T1` and `T2` meet the following conditions, malicious callers can use the type `T1` to bypass the implicit full trust inheritance demand that protects `T2`:
 
