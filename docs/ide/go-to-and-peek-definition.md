@@ -16,7 +16,7 @@ helpviewer_keywords:
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # View type and member definitions
@@ -66,7 +66,7 @@ For example, if you run the **Go To Definition** command for <xref:System.Consol
 
 ### View decompiled source definitions instead of metadata (C#)
 
-New in **Visual Studio 2017 version 15.6 preview 2**, you can set an option to see decompiled source code when you view the definition of a C# type or member who's source code is unavailable. To turn on this feature, choose **Tools** > **Options** from the menu bar. Then, expand **Text Editor** > **C#** > **Advanced**, and select **Enable navigation to decompiled sources**.
+New in **Visual Studio 2017 version 15.6**, you can set an option to see decompiled source code when you view the definition of a C# type or member who's source code is unavailable. To turn on this feature, choose **Tools** > **Options** from the menu bar. Then, expand **Text Editor** > **C#** > **Advanced**, and select **Enable navigation to decompiled sources**.
 
 ![Viewing a decompiled definition](media/go-to-definition-decompiled-sources.png)
 
@@ -75,5 +75,5 @@ New in **Visual Studio 2017 version 15.6 preview 2**, you can set an option to s
 
 ## See also
 
-[Navigating Code](../ide/navigating-code.md)  
+[Navigating Code](../ide/navigating-code.md)
 [How to: View and Edit Code by Using Peek Definition (Alt+F12)](how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md)
