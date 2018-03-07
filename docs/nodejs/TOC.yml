@@ -4,7 +4,7 @@
 - name: Quickstarts
   items:
   - name: 'Node.js: Create a Web app...'
-    href: ../ide/quickstart-nodejs?toc=/visualstudio/nodejs/toc.yml
+    href: /visualstudio/ide/quickstart-nodejs?toc=/visualstudio/nodejs/toc.json
 - name: Tutorials
   items:
   - name: Create a Node.js app with Express
