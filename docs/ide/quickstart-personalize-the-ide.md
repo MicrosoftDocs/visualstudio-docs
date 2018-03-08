@@ -4,19 +4,21 @@ ms.custom: ""
 ms.date: "11/20/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "quickstart"
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Quickstart: Personalize the Visual Studio IDE and Editor
 
 In this 5-10 minute quickstart, we'll customize the Visual Studio color theme and two text colors in the Text Editor.
+
+If you haven't already installed Visual Studio, go to the [Visual Studio Downloads](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) page to install it for free.
 
 ## Set the color theme
 
