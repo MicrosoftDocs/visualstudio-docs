@@ -28,7 +28,6 @@ In addition to managing projects, providing a rich editing experience, and the i
 1. Replace the code in the `PythonApplication1.py` file with the following. This variation of the code expands `make_dot_string` so that you can examine its discrete steps in the debugger. It also places the `for` loop into a `main` function and runs it explicitly by calling that function:
 
     ```python
-    import sys
     from math import cos, radians
 
     # Create a string with spaces proportional to a cosine of x in degrees
