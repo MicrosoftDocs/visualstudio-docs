@@ -1,7 +1,6 @@
 ---
 title: "How to: Invoke a Windows Communication Foundation Contract Operation (Legacy) | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.reviewer: ""
 ms.topic: "reference"
 ms.assetid: a9058345-708f-4fcf-8739-2a43e5285b7a
 author: gewarren

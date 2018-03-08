@@ -1,7 +1,6 @@
 ---
 title: "Legacy Designer for Windows Workflow Foundation UI Help | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.reviewer: ""
 ms.topic: "reference"
 helpviewer_keywords: 
   - "UI reference"

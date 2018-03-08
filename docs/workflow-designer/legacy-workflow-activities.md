@@ -1,7 +1,6 @@
 ---
 title: "Legacy Workflow Activities | Microsoft Docs"
 ms.date: "01/18/2017"
-ms.reviewer: ""
 ms.topic: "reference"
 helpviewer_keywords: 
   - "workflows, activities"

@@ -1,7 +1,6 @@
 ---
 title: "How to: Create an Activity Library | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.reviewer: ""
 ms.topic: "reference"
 ms.assetid: 1eeebe74-7303-4345-8a83-fe37a26bc84b
 author: gewarren

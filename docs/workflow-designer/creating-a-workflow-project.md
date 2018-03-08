@@ -1,7 +1,6 @@
 ---
 title: "Creating a Workflow Project | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.reviewer: ""
 ms.topic: "reference"
 helpviewer_keywords: 
   - "Workflow Designer, creating a workflow project"

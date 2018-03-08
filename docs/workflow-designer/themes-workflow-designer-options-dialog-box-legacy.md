@@ -1,7 +1,6 @@
 ---
 title: "Themes, Workflow Designer, Options Dialog Box (Legacy) | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.reviewer: ""
 ms.topic: "reference"
 f1_keywords: 
   - "VS.ToolsOptionsPages.WorkflowDesigner.Themes"

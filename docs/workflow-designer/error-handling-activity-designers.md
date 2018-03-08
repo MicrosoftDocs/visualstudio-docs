@@ -1,7 +1,6 @@
 ---
 title: "Error Handling Activity Designers | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.reviewer: ""
 ms.topic: "reference"
 ms.assetid: 9679ca32-ad7f-4089-824e-fdb931e47a30
 author: gewarren

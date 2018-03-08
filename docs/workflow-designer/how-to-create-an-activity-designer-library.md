@@ -1,7 +1,6 @@
 ---
 title: "How to: Create an Activity Designer Library | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.reviewer: ""
 ms.topic: "reference"
 ms.assetid: 5b62e092-63b3-462d-9d77-fb112482f45d
 author: gewarren

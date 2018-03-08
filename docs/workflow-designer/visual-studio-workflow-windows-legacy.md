@@ -1,7 +1,6 @@
 ---
 title: "Visual Studio Workflow Windows (Legacy) | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.reviewer: ""
 ms.topic: "reference"
 helpviewer_keywords: 
   - "workflows, designer windows"

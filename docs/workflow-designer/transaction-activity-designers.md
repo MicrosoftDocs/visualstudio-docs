@@ -1,7 +1,6 @@
 ---
 title: "Transaction Activity Designers | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.reviewer: ""
 ms.topic: "reference"
 ms.assetid: 8dd0f60f-88ec-4258-bc8d-233689be9997
 author: gewarren

@@ -1,7 +1,6 @@
 ---
 title: "How to: Create a WCF Workflow Service Application | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.reviewer: ""
 ms.topic: "reference"
 ms.assetid: 12d675ac-27d8-4d86-ba16-6f7688f8c841
 author: gewarren

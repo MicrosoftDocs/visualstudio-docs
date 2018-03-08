@@ -1,7 +1,6 @@
 ---
 title: "RemoveFromCollection&lt;T&gt; Activity Designer | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.reviewer: ""
 ms.topic: "reference"
 f1_keywords: 
   - "System.Activities.Statements.RemoveFromCollection`1.UI"

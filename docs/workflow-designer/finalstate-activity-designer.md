@@ -1,7 +1,6 @@
 ---
 title: "FinalState Activity Designer | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.reviewer: ""
 ms.topic: "reference"
 ms.assetid: aa186893-8775-40dd-981f-8593ead831d0
 ms.author: gewarren

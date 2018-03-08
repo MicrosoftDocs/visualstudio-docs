@@ -1,7 +1,6 @@
 ---
 title: "How to: Configure Workflow Project Properties (Legacy) | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.reviewer: ""
 ms.topic: "reference"
 f1_keywords: 
   - "workflow"

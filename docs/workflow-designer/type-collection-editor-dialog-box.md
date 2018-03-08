@@ -1,7 +1,6 @@
 ---
 title: "Type Collection Editor Dialog Box | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.reviewer: ""
 ms.topic: "reference"
 f1_keywords: 
   - "TypeCollectionEditor.UI"

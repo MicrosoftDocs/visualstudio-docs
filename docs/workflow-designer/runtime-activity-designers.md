@@ -1,7 +1,6 @@
 ---
 title: "Runtime Activity Designers | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.reviewer: ""
 ms.topic: "reference"
 ms.assetid: be18aa36-7909-4dd6-a786-b46959675a58
 author: gewarren

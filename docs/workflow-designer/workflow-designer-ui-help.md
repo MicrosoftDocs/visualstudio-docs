@@ -1,7 +1,6 @@
 ---
 title: "Workflow Designer UI Help | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.reviewer: ""
 ms.topic: "reference"
 helpviewer_keywords: 
   - "Visual Studio 2010 Workflow Designer [WFD], user interface help"

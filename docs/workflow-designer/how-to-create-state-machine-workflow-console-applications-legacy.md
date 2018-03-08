@@ -1,7 +1,6 @@
 ---
 title: "How to: Create State Machine Workflow Console Applications (Legacy) | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.reviewer: ""
 ms.topic: "reference"
 helpviewer_keywords: 
   - "console applications, state machine workflows"

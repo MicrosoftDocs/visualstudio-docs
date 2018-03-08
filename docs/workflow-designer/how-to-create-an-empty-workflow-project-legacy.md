@@ -1,7 +1,6 @@
 ---
 title: "How to: Create an Empty Workflow Project (Legacy) | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.reviewer: ""
 ms.topic: "reference"
 helpviewer_keywords: 
   - "projects, empty workflow"

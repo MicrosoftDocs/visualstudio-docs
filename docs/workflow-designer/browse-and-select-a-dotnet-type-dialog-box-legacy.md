@@ -1,7 +1,6 @@
 ---
 title: "Browse and Select a .NET Type Dialog Box (Legacy) | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.reviewer: ""
 ms.topic: "reference"
 f1_keywords: 
   - "System.Workflow.ComponentModel.Design.TypeBrowserDialog.UI"

@@ -1,7 +1,6 @@
 ---
 title: "How to: Add Activities to the Toolbox (Legacy) | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.reviewer: ""
 ms.topic: "reference"
 helpviewer_keywords: 
   - "Toolbox, adding activities"

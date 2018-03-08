@@ -1,7 +1,6 @@
 ---
 title: "How to: Create a Declarative Rule Condition (Legacy) | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.reviewer: ""
 ms.topic: "reference"
 helpviewer_keywords: 
   - "declarative rule conditions"

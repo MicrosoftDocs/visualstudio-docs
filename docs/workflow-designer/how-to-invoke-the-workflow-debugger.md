@@ -1,7 +1,6 @@
 ---
 title: "How to: Invoke the Workflow Debugger | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.reviewer: ""
 ms.topic: "reference"
 ms.assetid: 34c592af-f4f6-4d02-99f6-63a94698e48b
 author: gewarren

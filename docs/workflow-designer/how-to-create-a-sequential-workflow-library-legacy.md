@@ -1,7 +1,6 @@
 ---
 title: "How to: Create a Sequential Workflow Library (Legacy) | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.reviewer: ""
 ms.topic: "reference"
 helpviewer_keywords: 
   - "sequential workflows, creating library"

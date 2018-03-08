@@ -1,7 +1,6 @@
 ---
 title: "How to: Use Breadcrumb Navigation | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.reviewer: ""
 ms.topic: "reference"
 ms.assetid: 4a688056-37dc-406a-9071-be2141e192fe
 author: gewarren
