@@ -83,6 +83,5 @@ Congratulations on completing this quickstart! We hope you learned a little bit 
 
 ## See also
 
-[Getting started with C# and ASP.NET in Visual Studio](tutorial-csharp-aspnet-core.md)  
-[Getting Started with C# and Visual Basic using Visual Studio](getting-started-with-visual-csharp-and-visual-basic.md)  
-[Getting started with Razor Pages in ASP.NET Core](/aspnet/core/tutorials/razor-pages/razor-pages-start)
+* [Getting started with C# and ASP.NET in Visual Studio](tutorial-csharp-aspnet-core.md)
+* [Getting started with Razor Pages in ASP.NET Core](/aspnet/core/tutorials/razor-pages/razor-pages-start)
