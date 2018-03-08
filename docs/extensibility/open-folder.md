@@ -10,7 +10,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 154825cf-901a-4957-ad8b-bad5403c30c2
 caps.latest.revision: 1
-author: "svukel"
+author: "vukelich"
 ms.author: "svukel"
 manager: "viveis"
 ms.workload: 
@@ -483,7 +483,7 @@ Open Folder and the `Microsoft.VisualStudio.Workspace.*` APIs are under active d
 [Doc:IWorkspaceServiceFactory<T>]:/dotnet/api/microsoft.visualstudio.workspace.iworkspaceservicefactory-1
 [Doc:IWorkspaceSettings]:/dotnet/api/microsoft.visualstudio.workspace.settings.iworkspacesettings
 [Doc:IWorkspaceSettings.GetProperty]:/dotnet/api/microsoft.visualstudio.workspace.settings.iworkspacesettings.getproperty
-[Doc:IWorkspaceSettingsManager]:dotnet/api/microsoft.visualstudio.workspace.settings.iworkspacesettingsmanager
+[Doc:IWorkspaceSettingsManager]:/dotnet/api/microsoft.visualstudio.workspace.settings.iworkspacesettingsmanager
 [Doc:IWorkspaceSettingsManager.GetAggregatedSettings]:/dotnet/api/microsoft.visualstudio.workspace.settings.iworkspacesettingsmanager.getaggregatedsettings
 [Doc:IWorkspaceSettingsProvider]:/dotnet/api/microsoft.visualstudio.workspace.settings.iworkspacesettingsprovider
 [Doc:IWorkspaceSettingsProviderFactory]:/dotnet/api/microsoft.visualstudio.workspace.settings.iworkspacesettingsproviderfactory
