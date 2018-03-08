@@ -7,18 +7,20 @@ ms.suite: ""
 ms.technology: vs-acquisition
 ms.tgt_pltfrm: ""
 ms.topic: "quickstart"
-author: "gewarren"
-ms.author: "gewarren"
+author: "TerryGLee"
+ms.author: "tglee"
 manager: ghogen
-dev_langs: 
+dev_langs:
   - CSharp
-ms.workload: 
+ms.workload:
   - "aspnet"
   - "dotnetcore"
 ---
 # Quickstart: Use Visual Studio to create your first ASP.NET Core web app
 
-In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you'll create a simple C# ASP.NET Core web application. If you haven't already installed Visual Studio, install it for free [here](http://www.visualstudio.com).
+In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you'll create a simple C# ASP.NET Core web application.
+
+If you haven't already installed Visual Studio, go to the [Visual Studio Downloads](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) page to install it for free.
 
 ## Create a project
 
@@ -81,6 +83,5 @@ Congratulations on completing this quickstart! We hope you learned a little bit 
 
 ## See also
 
-[Getting started with C# and ASP.NET in Visual Studio](tutorial-csharp-aspnet-core.md)  
-[Getting Started with C# and Visual Basic using Visual Studio](getting-started-with-visual-csharp-and-visual-basic.md)  
-[Getting started with Razor Pages in ASP.NET Core](/aspnet/core/tutorials/razor-pages/razor-pages-start)
+* [Getting started with C# and ASP.NET in Visual Studio](tutorial-csharp-aspnet-core.md)
+* [Getting started with Razor Pages in ASP.NET Core](/aspnet/core/tutorials/razor-pages/razor-pages-start)
