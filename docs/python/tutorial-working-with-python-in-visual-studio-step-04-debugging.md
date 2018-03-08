@@ -2,7 +2,7 @@
 title: Working with Python in Visual Studio, Step 4, Debugging | Microsoft Docs
 description: Step 4 of a core tutorial for working with Python within Visual Studio, covering how to run Python code in the debugger.
 ms.custom:
-ms.date: 01/16/2018
+ms.date: 03/08/2018
 ms.reviewer:
 ms.suite:
 ms.technology: 
@@ -29,7 +29,7 @@ In addition to managing projects, providing a rich editing experience, and the i
 
     ```python
     import sys
-    from math import sin, cos, radians
+    from math import cos, radians
 
     # Create a string with spaces proportional to a cosine of x in degrees
     def make_dot_string(x):
