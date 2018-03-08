@@ -6,7 +6,7 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "UI reference"
   - "Visual Studio 2005 Extensions for Windows Workflow Foundation, UI reference"
   - "user interface reference"
@@ -15,27 +15,10 @@ caps.latest.revision: 6
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Legacy Designer for Windows Workflow Foundation UI Help
-This section contains the context-sensitive Help topics for the legacy [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] in [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)]. Use the legacy designer when you need to target the [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] or the [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)].  
-  
- You can access these topics from the [!INCLUDE[vs_current_long](../misc/includes/vs_current_long_md.md)] user interface by pressing **F1** when a legacy [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] dialog box is open.  
-  
-## In This Section  
- [Bind to an Activity's Property Dialog Box (Legacy)](../workflow-designer/bind-to-an-activity-s-property-dialog-box-legacy.md)  
-  
- [Select Rule Set Dialog Box (Legacy)](../workflow-designer/select-rule-set-dialog-box-legacy.md)  
-  
- [Rule Set Editor Dialog Box (Legacy)](../workflow-designer/rule-set-editor-dialog-box-legacy.md)  
-  
- [Select Condition Dialog Box (Legacy)](../workflow-designer/select-condition-dialog-box-legacy.md)  
-  
- [Rule Condition Editor Dialog Box (Legacy)](../workflow-designer/rule-condition-editor-dialog-box-legacy.md)  
-  
- [Browse and Select a .NET Type Dialog Box (Legacy)](../workflow-designer/browse-and-select-a-dotnet-type-dialog-box-legacy.md)  
-  
- [Theme Configuration Dialog Box (Legacy)](../workflow-designer/theme-configuration-dialog-box-legacy.md)  
-  
- [Themes, Workflow Designer, Options Dialog Box (Legacy)](../workflow-designer/themes-workflow-designer-options-dialog-box-legacy.md)
+This section contains the context-sensitive Help topics for the legacy Windows Workflow Designer in [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)]. Use the legacy designer when you need to target the [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] or the [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)].
+
+ You can access these topics from the [!INCLUDE[vs_current_long](../misc/includes/vs_current_long_md.md)] user interface by pressing **F1** when a legacy [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] dialog box is open.
