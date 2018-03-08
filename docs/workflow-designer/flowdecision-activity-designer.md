@@ -1,19 +1,15 @@
 ---
 title: "FlowDecision Activity Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-f1_keywords:
+f1_keywords: 
   - "System.Activities.Statements.FlowDecision.UI"
 ms.assetid: 4a49edc3-3662-4b7b-812e-0a5ba00d6c94
-caps.latest.revision: 4
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # FlowDecision Activity Designer

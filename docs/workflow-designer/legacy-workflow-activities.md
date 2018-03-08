@@ -1,21 +1,17 @@
 ---
 title: "Legacy Workflow Activities | Microsoft Docs"
-ms.custom: ""
 ms.date: "01/18/2017"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "workflows, activities"
   - "activities"
   - "workflow activities"
 ms.assetid: 4af7a06b-1e82-43c8-aec8-0dc5fb63d08a
-caps.latest.revision: 8
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # Legacy Workflow Activities

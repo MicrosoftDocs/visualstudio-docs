@@ -1,17 +1,13 @@
 ---
 title: "How to: Implement a Windows Communication Foundation Contract Operation (Legacy) | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
 ms.assetid: d6aeb20e-fac8-4a9d-bd26-ae78bef96b41
-caps.latest.revision: 7
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # How to: Implement a Windows Communication Foundation Contract Operation (Legacy)

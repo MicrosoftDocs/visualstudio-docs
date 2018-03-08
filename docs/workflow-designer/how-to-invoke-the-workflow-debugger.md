@@ -1,17 +1,13 @@
 ---
 title: "How to: Invoke the Workflow Debugger | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
 ms.assetid: 34c592af-f4f6-4d02-99f6-63a94698e48b
-caps.latest.revision: 9
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # How to: Invoke the Workflow Debugger

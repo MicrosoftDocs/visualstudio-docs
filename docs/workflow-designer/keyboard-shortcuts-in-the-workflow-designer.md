@@ -1,19 +1,15 @@
 ---
 title: "Keyboard Shortcuts in the Workflow Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-f1_keywords:
+f1_keywords: 
   - "WFDKeyboardShortcuts.UI"
 ms.assetid: 9be75438-a4a3-4781-94e5-45b7ec082358
-caps.latest.revision: 4
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # Keyboard Shortcuts in the Workflow Designer

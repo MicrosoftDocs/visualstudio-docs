@@ -1,22 +1,18 @@
 ---
 title: "FlowSwitch&lt;T&gt; Activity Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-f1_keywords:
+f1_keywords: 
   - "System.Activities.Core.Presentation.FlowSwitchLink.UI"
   - "System.Activities.Statements.FlowSwitch`1.UI"
   - "System.Activities.Core.Presentation.FlowSwitchLink`1.UI"
   - "System.Activities.Core.Presentation.FlowSwitchLinkIdentifier.UI"
 ms.assetid: 5b9c5afe-7499-4ee8-8c33-28aff14bde07
-caps.latest.revision: 4
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # FlowSwitch&lt;T&gt; Activity Designer

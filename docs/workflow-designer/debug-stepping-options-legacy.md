@@ -1,23 +1,19 @@
 ---
 title: "Debug Stepping Options (Legacy) | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "branch stepping"
   - "stepping, options in workflow debugging"
   - "debugging, stepping options"
   - "debugging workflows, stepping options"
   - "instance stepping"
 ms.assetid: 3e9e3041-68c7-4f16-9bd6-da5e5144744b
-caps.latest.revision: 5
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # Debug Stepping Options (Legacy)

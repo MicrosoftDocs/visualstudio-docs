@@ -1,21 +1,17 @@
 ---
 title: "Debugging Legacy Workflows | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "workflows, debugging"
   - "debugging, workflows"
   - "debugging workflows"
 ms.assetid: e6097b47-760a-4b30-a92c-ae70cdbda49f
-caps.latest.revision: 8
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # Debugging Legacy Workflows

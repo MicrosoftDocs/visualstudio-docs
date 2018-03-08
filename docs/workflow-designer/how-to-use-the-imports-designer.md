@@ -1,18 +1,14 @@
 ---
 title: "How to: Use the Imports Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
 f1_keywords: 
   - "System.Activities.Presentation.View.ImportDesigner.UI"
 ms.assetid: 61328ab6-9b66-4e12-8630-22e30ee8c9d1
-caps.latest.revision: 10
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
 ---

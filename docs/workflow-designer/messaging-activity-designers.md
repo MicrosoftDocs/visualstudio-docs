@@ -1,17 +1,13 @@
 ---
 title: "Messaging Activity Designers | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
 ms.assetid: 897e63cf-a42f-4edd-876f-c4ccfffaf6d6
-caps.latest.revision: 7
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # Messaging Activity Designers

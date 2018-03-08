@@ -1,19 +1,15 @@
 ---
 title: "Initialize Correlation Dialog Box | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-f1_keywords:
+f1_keywords: 
   - "InitializeCorrelation.UI"
 ms.assetid: 2a0a1cd3-7b9e-493e-9264-fcf85289ffcf
-caps.latest.revision: 6
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # Initialize Correlation Dialog Box

@@ -1,17 +1,13 @@
 ---
 title: "How to: Add a New Item to a Workflow Project | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
 ms.assetid: 5c6180ca-af10-4513-b0cb-7d478fd84eab
-caps.latest.revision: 14
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # How to: Add a New Item to a Workflow Project

@@ -1,22 +1,18 @@
 ---
 title: "Theme Configuration Dialog Box (Legacy) | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-f1_keywords:
+f1_keywords: 
   - "System.Workflow.ComponentModel.Design.ThemeConfigurationDialog.UI"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "themes, configuring"
   - "Theme Configuration dialog box"
 ms.assetid: 9e6d182a-c4d9-4e71-b2b9-02f675fc2b29
-caps.latest.revision: 6
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # Theme Configuration Dialog Box (Legacy)

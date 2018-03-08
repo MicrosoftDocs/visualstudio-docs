@@ -1,19 +1,15 @@
 ---
 title: "If Activity Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-f1_keywords:
+f1_keywords: 
   - "System.Activities.Statements.If.UI"
 ms.assetid: 930a8fa2-db98-43e9-ad6d-a85cc7a6519a
-caps.latest.revision: 4
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # If Activity Designer

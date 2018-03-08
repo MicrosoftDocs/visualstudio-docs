@@ -1,19 +1,15 @@
 ---
 title: "ExistsInCollection&lt;T&gt; Activity Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-f1_keywords:
+f1_keywords: 
   - "System.Activities.Statements.ExistsInCollection`1.UI"
 ms.assetid: 0acf9a13-caf5-4bb4-ba22-ec37d2b7267a
-caps.latest.revision: 6
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # ExistsInCollection&lt;T&gt; Activity Designer

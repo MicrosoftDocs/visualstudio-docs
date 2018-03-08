@@ -1,19 +1,15 @@
 ---
 title: "Choose Operation Dialog Box (Legacy) | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-f1_keywords:
+f1_keywords: 
   - "System.Workflow.Activities.Design.OperationPickerDialog.UI"
 ms.assetid: bc3ec902-7797-494e-af48-e70c97eb6779
-caps.latest.revision: 10
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # Choose Operation Dialog Box (Legacy)

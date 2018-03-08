@@ -1,19 +1,15 @@
 ---
 title: "ForEach&lt;T&gt; Activity Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-f1_keywords:
+f1_keywords: 
   - "System.Activities.Statements.ForEach`1.UI"
 ms.assetid: 67097b3a-fcf5-4a72-beb1-2c7784151a86
-caps.latest.revision: 5
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # ForEach&lt;T&gt; Activity Designer

@@ -1,23 +1,19 @@
 ---
 title: "How to: Configure Workflow Project Properties (Legacy) | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-f1_keywords:
+f1_keywords: 
   - "workflow"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "workflow projects, configuring properties"
   - "properties, configuring workflow project"
   - "projects, configuring properties"
 ms.assetid: 850f5c96-8e5b-4126-bc16-fd2c26e6e656
-caps.latest.revision: 5
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # How to: Configure Workflow Project Properties (Legacy)

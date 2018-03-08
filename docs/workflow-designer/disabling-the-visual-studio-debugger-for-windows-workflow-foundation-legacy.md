@@ -1,21 +1,17 @@
 ---
 title: "Disabling the Visual Studio Debugger for Windows Workflow Foundation (Legacy) | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "workflows, disabling debugger"
   - "debugging workflows, disabling debugger"
   - "workflow debugger, disabling"
 ms.assetid: 9da96d0e-f941-4fa9-a1a5-6bab50adfec9
-caps.latest.revision: 6
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # Disabling the Visual Studio Debugger for Windows Workflow Foundation (Legacy)

@@ -1,17 +1,14 @@
 ---
 title: "FinalState Activity Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
 ms.assetid: aa186893-8775-40dd-981f-8593ead831d0
-caps.latest.revision: 5
-ms.author: "sdanie"
-manager: "erikre"
-ms.workload:
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
+author: gewarren
 ---
 # FinalState Activity Designer
 The <xref:System.Activities.Core.Presentation.FinalState> designer is used to create a <xref:System.Activities.Statements.State> that terminates a state machine instance.

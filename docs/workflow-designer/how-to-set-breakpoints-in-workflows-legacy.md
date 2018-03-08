@@ -1,22 +1,18 @@
 ---
 title: "How to: Set Breakpoints in Workflows (Legacy) | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "breakpoints, setting in workflows"
   - "debugging, setting breakpoints in workflows"
   - "debugging workflows, setting breakpoints"
   - "workflows, setting breakpoints"
 ms.assetid: 78e0be39-3e99-487c-bfef-19db0daf6f42
-caps.latest.revision: 6
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # How to: Set Breakpoints in Workflows (Legacy)

@@ -1,22 +1,18 @@
 ---
 title: "Debugging Workflows from a Remote Computer (Legacy) | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "workflows, debugging remotely"
   - "debugging workflows, remotely"
   - "remote debugging, workflows"
   - "debugging, remote"
 ms.assetid: 44eaec8f-9959-4ae7-a374-670946f933c1
-caps.latest.revision: 6
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # Debugging Workflows from a Remote Computer (Legacy)

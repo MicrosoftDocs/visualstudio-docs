@@ -1,19 +1,15 @@
 ---
 title: "CorrelationScope Activity Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-f1_keywords:
+f1_keywords: 
   - "System.ServiceModel.Activities.CorrelationScope.UI"
 ms.assetid: 75f20664-9042-464d-8e2b-148d365a2286
-caps.latest.revision: 6
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # CorrelationScope Activity Designer

@@ -1,19 +1,15 @@
 ---
 title: "Type Collection Editor Dialog Box | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-f1_keywords:
+f1_keywords: 
   - "TypeCollectionEditor.UI"
 ms.assetid: 63cdea6b-bca2-4c06-b8b4-c8faabd40726
-caps.latest.revision: 4
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # Type Collection Editor Dialog Box

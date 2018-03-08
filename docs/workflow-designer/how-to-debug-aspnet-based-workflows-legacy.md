@@ -1,22 +1,18 @@
 ---
 title: "How to: Debug ASP.NET-Based Workflows (Legacy) | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "ASP.NET, debugging workflows"
   - "debugging workflows, ASP.NET workflows"
   - "ASP.NET workflows, debugging"
   - "debugging, ASP.NET workflows"
 ms.assetid: 79b21edc-9e7d-410d-af68-09c1598b9c30
-caps.latest.revision: 5
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "aspnet"
 ---
 # How to: Debug ASP.NET-Based Workflows (Legacy)

@@ -1,21 +1,17 @@
 ---
 title: "Bind to an Activity&#39;s Property Dialog Box (Legacy) | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-f1_keywords:
+f1_keywords: 
   - "System.Workflow.ComponentModel.Design.ActivityBindForm.UI"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "Bind to an Activity's Property dialog box"
 ms.assetid: 19ebb207-e0a9-4642-8f5f-a5e31395c683
-caps.latest.revision: 5
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # Bind to an Activity&#39;s Property Dialog Box (Legacy)

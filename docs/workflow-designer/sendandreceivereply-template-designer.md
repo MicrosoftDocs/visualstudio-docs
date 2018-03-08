@@ -1,20 +1,16 @@
 ---
 title: "SendAndReceiveReply Template Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-f1_keywords:
+f1_keywords: 
   - "System.ServiceModel.Activities.SendAndReceiveReply.UI"
   - "System.ServiceModel.Activities.ReceiveReply.UI"
 ms.assetid: 818a8c84-6593-416d-b016-1d91b85ffb68
-caps.latest.revision: 6
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # SendAndReceiveReply Template Designer

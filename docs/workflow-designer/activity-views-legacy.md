@@ -1,21 +1,17 @@
 ---
 title: "Activity Views (Legacy) | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "activities, activity views"
   - "views, activity"
   - "activity views"
 ms.assetid: 83dc68cd-2cb2-45c2-9a6e-10d82053171a
-caps.latest.revision: 5
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # Activity Views (Legacy)

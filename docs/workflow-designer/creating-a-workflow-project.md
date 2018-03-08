@@ -1,21 +1,17 @@
 ---
 title: "Creating a Workflow Project | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "Workflow Designer, creating a workflow project"
   - "Visual Studio 2010 Workflow Designer, creating a workflow project"
   - "creating a workflow project"
 ms.assetid: 235a125e-ebe7-4a98-bf77-86c8558728fb
-caps.latest.revision: 15
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # Creating a Workflow Project

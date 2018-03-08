@@ -1,21 +1,17 @@
 ---
 title: "How to: Create a Workflow Activity Library (Legacy) | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "workflows, activity library projects"
   - "workflow activity libraries"
   - "projects, workflow activity libraries"
 ms.assetid: fb5aa940-2ae8-4b52-b52c-51c20861a7b4
-caps.latest.revision: 8
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # How to: Create a Workflow Activity Library (Legacy)

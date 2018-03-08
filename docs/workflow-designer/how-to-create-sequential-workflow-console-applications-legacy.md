@@ -1,21 +1,17 @@
 ---
 title: "How to: Create Sequential Workflow Console Applications (Legacy) | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "workflows, console applications"
   - "sequential workflows, console applications"
   - "console applications, sequential workflow"
 ms.assetid: 9f7be7fa-551f-42c6-a9bb-f5ae8ab83625
-caps.latest.revision: 5
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # How to: Create Sequential Workflow Console Applications (Legacy)

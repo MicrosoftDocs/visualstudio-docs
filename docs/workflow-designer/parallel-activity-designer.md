@@ -1,19 +1,15 @@
 ---
 title: "Parallel Activity Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-f1_keywords:
+f1_keywords: 
   - "System.Activities.Statements.Parallel.UI"
 ms.assetid: 0306dc3b-075a-4091-ac3a-96486fbabed5
-caps.latest.revision: 10
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # Parallel Activity Designer

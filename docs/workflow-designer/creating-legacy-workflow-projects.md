@@ -1,21 +1,17 @@
 ---
 title: "Creating Legacy Workflow Projects | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "workflow projects, creating"
   - "projects, workflow"
   - "workflows, creating projects"
 ms.assetid: 572d5c32-59ef-49d8-a24c-e180fe9f7a11
-caps.latest.revision: 5
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # Creating Legacy Workflow Projects

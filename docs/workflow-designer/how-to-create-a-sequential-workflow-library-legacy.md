@@ -1,22 +1,18 @@
 ---
 title: "How to: Create a Sequential Workflow Library (Legacy) | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "sequential workflows, creating library"
   - "workflows, sequential workflow library"
   - "projects, sequential workflow library"
   - "sequential workflow libraries"
 ms.assetid: 9433ccf3-1eab-4d53-90ff-2e7b2341676c
-caps.latest.revision: 5
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # How to: Create a Sequential Workflow Library (Legacy)

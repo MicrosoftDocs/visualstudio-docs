@@ -1,22 +1,18 @@
 ---
 title: "How to: Add a New Item to a Workflow Project (Legacy) | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "sequential workflows, adding to workflow projects"
   - "workflows, adding new items"
   - "state machine workflows, adding to workflow projects"
   - "activities, adding to workflow projects"
 ms.assetid: 130cd83d-942d-437b-bbb5-8088ec0a6d79
-caps.latest.revision: 5
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # How to: Add a New Item to a Workflow Project (Legacy)

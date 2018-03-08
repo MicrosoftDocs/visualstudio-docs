@@ -1,19 +1,15 @@
 ---
 title: "ParallelForEach&lt;T&gt; Activity Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-f1_keywords:
+f1_keywords: 
   - "System.Activities.Statements.ParallelForEach`1.UI"
 ms.assetid: e93a4843-aef2-4d3e-9a0a-a2d3d1411aa7
-caps.latest.revision: 9
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # ParallelForEach&lt;T&gt; Activity Designer

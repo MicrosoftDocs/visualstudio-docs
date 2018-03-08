@@ -1,22 +1,18 @@
 ---
 title: "Themes, Workflow Designer, Options Dialog Box (Legacy) | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-f1_keywords:
+f1_keywords: 
   - "VS.ToolsOptionsPages.WorkflowDesigner.Themes"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "Options dialog box, workflow themes"
   - "themes, options"
 ms.assetid: 71150631-4674-4568-bce8-570bef3780ad
-caps.latest.revision: 6
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # Themes, Workflow Designer, Options Dialog Box (Legacy)

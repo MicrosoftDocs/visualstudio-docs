@@ -1,20 +1,17 @@
 ---
 title: "StateMachine Activity Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-f1_keywords:
+f1_keywords: 
   - "StateMachine Designer"
   - "System.Activities.Statements.StateMachine.UI"
 ms.assetid: 474d5fb3-1049-4b3f-bc6b-7524dbbe1672
-caps.latest.revision: 5
-ms.author: "sdanie"
-manager: "erikre"
-ms.workload:
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
+author: gewarren
 ---
 # StateMachine Activity Designer
 The <xref:System.Activities.Statements.StateMachine> activity contains a collection of states and models workflows using the familiar state machine paradigm.

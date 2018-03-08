@@ -1,20 +1,16 @@
 ---
 title: "Switch&lt;T&gt; Activity Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-f1_keywords:
+f1_keywords: 
   - "System.Activities.Presentation.ModelItemKeyValuePair.UI"
   - "System.Activities.Statements.Switch`1.UI"
 ms.assetid: 18a6c96e-49a9-4356-ab61-fbd7e3ab44bb
-caps.latest.revision: 3
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # Switch&lt;T&gt; Activity Designer

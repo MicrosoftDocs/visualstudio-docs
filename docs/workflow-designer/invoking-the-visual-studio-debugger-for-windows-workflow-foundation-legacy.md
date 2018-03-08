@@ -1,12 +1,9 @@
 ---
 title: "Invoking the Visual Studio Debugger for Windows Workflow Foundation (Legacy) | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "stepping"
   - "Step Over command"
   - "stepping, commands"
@@ -18,11 +15,10 @@ helpviewer_keywords:
   - "Step Out command"
   - "debugging workflows, starting the debugger"
 ms.assetid: d6f58e35-5cce-4ff2-9afc-b2d9d0f819cf
-caps.latest.revision: 6
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # Invoking the Visual Studio Debugger for Windows Workflow Foundation (Legacy)

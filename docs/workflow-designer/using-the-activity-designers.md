@@ -1,20 +1,16 @@
 ---
 title: "Using the Activity Designers | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "Workflow Designer [WFD], activity designer"
   - "Visual Studio 2010 Workflow Designer [WFD], activity designer"
 ms.assetid: 3c2725c3-091b-49ab-81e7-d4c7028d47a2
-caps.latest.revision: 9
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # Using the Activity Designers

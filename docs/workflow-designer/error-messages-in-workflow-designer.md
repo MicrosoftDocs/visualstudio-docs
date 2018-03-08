@@ -1,21 +1,17 @@
 ---
 title: "Error Messages in Workflow Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-f1_keywords:
+f1_keywords: 
   - "WFDErrorMessages.UI"
   - "System.Activities.Presentation.ErrorActivity.UI"
   - "System.Activities.Presentation.View.ErrorView.UI"
 ms.assetid: 4d8bbc2e-34fc-477f-9140-4adfd70c34a0
-caps.latest.revision: 5
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # Error Messages in Workflow Designer

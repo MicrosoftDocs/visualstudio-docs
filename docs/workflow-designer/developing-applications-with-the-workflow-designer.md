@@ -1,25 +1,21 @@
 ---
 title: "Developing Applications with the Workflow Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-f1_keywords:
+f1_keywords: 
   - "DefaultWorkflowDesigner"
   - "DefaultWorkflowDesigner.UI"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "Visual Studio 2010 Workflow Designer [WFD], overview"
   - "Workflow Designer [WFD]"
   - "Visual Studio 2010 Workflow Designer [WFD]"
   - "Workflow Designer [WFD], overview"
 ms.assetid: 4cd062b1-b496-4668-bbc1-ee85545e066d
-caps.latest.revision: 17
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # Developing Applications with the Workflow Designer

@@ -1,23 +1,19 @@
 ---
 title: "How to: Create a PolicyActivity Rule Set (Legacy) | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "PolicyActivity activity, creating rule sets"
   - "Rule Set Editor dialog box"
   - "PolicyActivity activity, selecting rule sets"
   - "Select Rule Set dialog box"
   - "rule sets, creating for PolicyActivity"
 ms.assetid: f272489d-3342-4511-8b59-6a0fd7a42d70
-caps.latest.revision: 4
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # How to: Create a PolicyActivity Rule Set (Legacy)

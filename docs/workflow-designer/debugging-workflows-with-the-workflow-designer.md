@@ -1,20 +1,16 @@
 ---
 title: "Debugging Workflows with the Workflow Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "Visual Studio 2010 Workflow Designer [WFD], debugging workflows"
   - "Workflow Designer [WFD], debugging workflows"
 ms.assetid: d71308cf-d464-4536-8711-0d0a8eadb255
-caps.latest.revision: 10
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # Debugging Workflows with the Workflow Designer

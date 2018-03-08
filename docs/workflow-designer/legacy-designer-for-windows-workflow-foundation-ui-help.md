@@ -1,21 +1,17 @@
 ---
 title: "Legacy Designer for Windows Workflow Foundation UI Help | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "UI reference"
   - "Visual Studio 2005 Extensions for Windows Workflow Foundation, UI reference"
   - "user interface reference"
 ms.assetid: b3a0104f-4485-45ac-9794-82d54e45fb09
-caps.latest.revision: 6
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # Legacy Designer for Windows Workflow Foundation UI Help

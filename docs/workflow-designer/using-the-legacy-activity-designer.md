@@ -1,12 +1,9 @@
 ---
 title: "Using the Legacy Activity Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "activities, configuring"
   - "custom activities"
   - "Activity Designer"
@@ -14,11 +11,10 @@ helpviewer_keywords:
   - "activities, adding child"
   - "activities, creating custom"
 ms.assetid: 2fea8a05-6e58-423d-94bf-a822b15ffb80
-caps.latest.revision: 5
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # Using the Legacy Activity Designer

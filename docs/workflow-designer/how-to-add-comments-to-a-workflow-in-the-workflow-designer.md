@@ -1,20 +1,17 @@
 ---
 title: "How to: Add comments to a workflow in the Workflow Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-f1_keywords:
+f1_keywords: 
   - "System.Activities.Presentation.Annotations.Annotation.UI"
   - "Annotation"
 ms.assetid: 9aa0e8d6-8129-4438-8389-d460611581a7
-caps.latest.revision: 7
-ms.author: "sdanie"
-manager: "erikre"
-ms.workload:
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
+author: gewarren
 ---
 # How to: Add comments to a workflow in the Workflow Designer
 

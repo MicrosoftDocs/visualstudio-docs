@@ -1,21 +1,17 @@
 ---
 title: "Select Condition Dialog Box (Legacy) | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-f1_keywords:
+f1_keywords: 
   - "System.Workflow.Activities.Rules.Design.ConditionBrowserDialog.UI"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "Select Condition dialog box"
 ms.assetid: fe3b415c-cb55-4295-b853-3f40765b28d0
-caps.latest.revision: 5
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # Select Condition Dialog Box (Legacy)

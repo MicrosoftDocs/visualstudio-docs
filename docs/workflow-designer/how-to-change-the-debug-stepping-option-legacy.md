@@ -1,23 +1,19 @@
 ---
 title: "How to: Change the Debug Stepping Option (Legacy) | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "branch stepping"
   - "debugging, stepping options"
   - "debugging workflows, stepping options"
   - "stepping, changing options"
   - "instance stepping"
 ms.assetid: aedc06af-d58a-44d6-aee4-f397f1f923a0
-caps.latest.revision: 5
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # How to: Change the Debug Stepping Option (Legacy)

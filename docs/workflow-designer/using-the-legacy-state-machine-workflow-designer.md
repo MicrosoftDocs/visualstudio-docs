@@ -1,12 +1,9 @@
 ---
 title: "Using the Legacy State Machine Workflow Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "StateFinalizationActivity activity"
   - "StateActivity activity"
   - "SetStateActivity activity"
@@ -16,11 +13,10 @@ helpviewer_keywords:
   - "state machine workflows, activities"
   - "StateInitializationActivity activity"
 ms.assetid: 2cd21123-35c2-4eaf-82f6-86fce7a8f04d
-caps.latest.revision: 5
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # Using the Legacy State Machine Workflow Designer

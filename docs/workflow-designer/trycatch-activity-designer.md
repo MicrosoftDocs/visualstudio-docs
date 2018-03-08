@@ -1,20 +1,16 @@
 ---
 title: "TryCatch Activity Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-f1_keywords:
+f1_keywords: 
   - "System.Activities.Statements.TryCatch.UI"
   - "System.Activities.Statements.Catch`1.UI"
 ms.assetid: 02a326c2-4009-442f-b7cb-e42121fd2992
-caps.latest.revision: 8
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # TryCatch Activity Designer

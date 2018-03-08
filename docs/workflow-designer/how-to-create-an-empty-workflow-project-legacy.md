@@ -1,21 +1,17 @@
 ---
 title: "How to: Create an Empty Workflow Project (Legacy) | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "projects, empty workflow"
   - "empty workflow projects"
   - "workflows, empty workflow projects"
 ms.assetid: f81b9cf2-9adb-47a2-936b-cb1851614e19
-caps.latest.revision: 5
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # How to: Create an Empty Workflow Project (Legacy)

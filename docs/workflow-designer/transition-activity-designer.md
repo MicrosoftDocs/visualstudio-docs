@@ -1,19 +1,16 @@
 ---
 title: "Transition Activity Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-f1_keywords:
+f1_keywords: 
   - "System.Activities.Statements.Transition.UI"
 ms.assetid: f6e8b5cc-7fb8-4699-9703-f3c9fc7cc316
-caps.latest.revision: 7
-ms.author: "sdanie"
-manager: "erikre"
-ms.workload:
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
+author: gewarren
 ---
 # Transition Activity Designer
 A <xref:System.Activities.Statements.Transition> represents the transition between two states.

@@ -1,21 +1,17 @@
 ---
 title: "Rule Condition Editor Dialog Box (Legacy) | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-f1_keywords:
+f1_keywords: 
   - "System.Workflow.Activities.Rules.Design.RuleConditionDialog.UI"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "Rule Condition dialog box"
 ms.assetid: c7ca8be9-de31-4a64-939c-4d53a50d5e29
-caps.latest.revision: 6
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # Rule Condition Editor Dialog Box (Legacy)

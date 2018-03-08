@@ -1,17 +1,13 @@
 ---
 title: "How to: Add Activities to the Toolbox | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
 ms.assetid: b3a8a785-5928-457a-8a50-30267e29503d
-caps.latest.revision: 16
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # How to: Add Activities to the Toolbox

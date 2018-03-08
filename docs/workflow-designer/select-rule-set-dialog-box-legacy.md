@@ -1,21 +1,17 @@
 ---
 title: "Select Rule Set Dialog Box (Legacy) | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-f1_keywords:
+f1_keywords: 
   - "System.Workflow.Activities.Rules.Design.RuleSetBrowserDialog.UI"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "Select Rule Set dialog box"
 ms.assetid: cb2bc3f9-7730-4fb2-9f7b-303a9d9f0c8e
-caps.latest.revision: 6
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # Select Rule Set Dialog Box (Legacy)

@@ -1,19 +1,15 @@
 ---
 title: "TransactedReceiveScope Activity Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-f1_keywords:
+f1_keywords: 
   - "System.ServiceModel.Activities.TransactedReceiveScope.UI"
 ms.assetid: 7ca93aad-4e83-4d81-90f4-998ee114d9b6
-caps.latest.revision: 4
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # TransactedReceiveScope Activity Designer

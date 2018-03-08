@@ -1,19 +1,15 @@
 ---
 title: "Using the Legacy Workflow Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "Visual Studio 2005 Extensions for Windows Workflow Foundation, about"
 ms.assetid: 7af53077-afd7-465f-9c1d-b387e9d4f216
-caps.latest.revision: 10
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # Using the Legacy Workflow Designer

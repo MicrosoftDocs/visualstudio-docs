@@ -1,17 +1,13 @@
 ---
 title: "How to: Create a Workflow Console Application | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
 ms.assetid: 51a2eea7-921c-49f1-b358-68afc27f1ee9
-caps.latest.revision: 16
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # How to: Create a Workflow Console Application

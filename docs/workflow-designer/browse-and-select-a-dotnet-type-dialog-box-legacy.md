@@ -1,21 +1,17 @@
 ---
 title: "Browse and Select a .NET Type Dialog Box (Legacy) | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-f1_keywords:
+f1_keywords: 
   - "System.Workflow.ComponentModel.Design.TypeBrowserDialog.UI"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "Browse and Select a .NET Type dialog box"
 ms.assetid: 1e66c9bc-94b2-46e2-bedf-871752e5f917
-caps.latest.revision: 5
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "dotnet"
 ---
 # Browse and Select a .NET Type Dialog Box (Legacy)

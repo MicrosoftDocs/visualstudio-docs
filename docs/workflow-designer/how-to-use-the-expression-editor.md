@@ -1,19 +1,15 @@
 ---
 title: "How to: Use the Expression Editor | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-f1_keywords:
+f1_keywords: 
   - "System.Activities.Presentation.View.ExpressionTextBox.UI"
 ms.assetid: b5f961dd-6dda-41a9-9cae-0383d479ef3d
-caps.latest.revision: 13
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "multiple"
 ---
 # How to: Use the Expression Editor

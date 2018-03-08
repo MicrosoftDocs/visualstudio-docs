@@ -1,19 +1,15 @@
 ---
 title: "Developing Workflow Applications Targeting the .NET 3.0 or .NET 3.5 Framework | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "Visual Studio 2005 Extensions for Windows Workflow Foundation"
 ms.assetid: b60aadee-3bf9-48c3-b2eb-4d5524e927ad
-caps.latest.revision: 8
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
-ms.workload:
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
   - "dotnet"
 ---
 # Developing Workflow Applications Targeting the .NET 3.0 or .NET 3.5 Framework
