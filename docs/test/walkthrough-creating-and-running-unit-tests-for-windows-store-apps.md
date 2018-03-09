@@ -140,9 +140,7 @@ Visual Studio includes support for unit testing managed [!INCLUDE[win8_appname_l
 ### Forums
  [Visual Studio Unit Testing](http://go.microsoft.com/fwlink/?LinkId=224477)
 
-### MSDN Library
- [MSDN Library - Creating and Running Unit Tests for Existing Code (Visual Studio 2010)](http://go.microsoft.com/fwlink/?LinkID=223683)
-
 ## See also
- [Testing UWP apps with Visual Studio](../test/testing-store-apps-with-visual-studio.md)
- [Build and test a UWP app using Team Foundation Build](http://msdn.microsoft.com/Library/d0ca17bb-deae-4f3d-a18d-1a99bebceaa9)
+
+- [Testing UWP apps with Visual Studio](../test/testing-store-apps-with-visual-studio.md)
+- [Build and test a UWP app using Team Foundation Build](http://msdn.microsoft.com/Library/d0ca17bb-deae-4f3d-a18d-1a99bebceaa9)

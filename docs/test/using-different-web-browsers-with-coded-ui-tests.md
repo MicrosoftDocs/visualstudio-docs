@@ -14,6 +14,7 @@ ms.workload:
 author: gewarren
 ---
 # Using Different Web Browsers with Coded UI Tests
+
 Coded UI tests can automate testing for web applications by recording your tests using Internet Explorer. You can then customize your test and play it back using either Internet Explorer or other browser types for these web applications.
 
  **Requirements**
@@ -134,20 +135,11 @@ Coded UI tests can automate testing for web applications by recording your tests
 
  [Troubleshoot cross browser test failures](https://skydrive.live.com/redir?resid=AE5CD7309CCCC43C!182&authkey=!AEpS48i295B49FI)
 
-### Guidance
- [Testing for Continuous Delivery with Visual Studio 2012 - Chapter 2: Unit Testing: Testing the Inside](http://go.microsoft.com/fwlink/?LinkID=255188)
-
- [Testing for Continuous Delivery with Visual Studio 2012 - Chapter 5: Automating System Tests](http://go.microsoft.com/fwlink/?LinkID=255196)
-
-### FAQ
- [Coded UI Tests FAQ - 1](http://go.microsoft.com/fwlink/?LinkID=230576)
-
- [Coded UI Tests FAQ -2](http://go.microsoft.com/fwlink/?LinkID=230578)
-
 ### Forum
  [Visual Studio UI Automation Testing (includes Coded UI)](http://go.microsoft.com/fwlink/?LinkID=224497)
 
 ## See also
- [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)
- [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)
- [Analyzing Coded UI Tests Using Coded UI Test Logs](../test/analyzing-coded-ui-tests-using-coded-ui-test-logs.md)
+
+- [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)
+- [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)
+- [Analyzing Coded UI Tests Using Coded UI Test Logs](../test/analyzing-coded-ui-tests-using-coded-ui-test-logs.md)

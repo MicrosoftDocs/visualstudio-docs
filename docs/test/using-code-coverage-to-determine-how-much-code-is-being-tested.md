@@ -279,12 +279,7 @@ To run tests from the command line, use vstest.console.exe. Code coverage is an 
 ## Troubleshooting
  If you do not see code coverage results, see  [Troubleshooting Code Coverage](../test/troubleshooting-code-coverage.md).
 
-## External resources
-
-### Guidance
- [Testing for Continuous Delivery with Visual Studio 2012 - Chapter 2: Unit Testing: Testing the Inside](http://go.microsoft.com/fwlink/?LinkID=255188)
-
 ## See also
- [Customizing Code Coverage Analysis](../test/customizing-code-coverage-analysis.md)
- [Troubleshooting Code Coverage](../test/troubleshooting-code-coverage.md)
- [Unit Test Your Code](../test/unit-test-your-code.md)
+- [Customizing Code Coverage Analysis](../test/customizing-code-coverage-analysis.md)
+- [Troubleshooting Code Coverage](../test/troubleshooting-code-coverage.md)
+- [Unit Test Your Code](../test/unit-test-your-code.md)

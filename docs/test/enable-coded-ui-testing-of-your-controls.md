@@ -14,6 +14,7 @@ ms.workload:
 author: gewarren
 ---
 # Enable Coded UI Testing of Your Controls
+
 Your control can be more easily tested if you implement support for the coded UI testing framework. You can add increasing levels of support incrementally. You can start by supporting record and playback and property validation. You can build on that to allow the coded UI test builder to recognize your control's custom properties, and provide custom classes to access those properties from generated code. You can also help the coded UI test builder capture actions in a way that is closer to the intent of the action being recorded.
 
 ![CUIT&#95;Full](../test/media/cuit_full.png "CUIT_Full")
@@ -173,7 +174,7 @@ If you've implemented a property provider to provide access to your control's cu
 
 Your property provider and action filter are implemented in an extension package that is loaded and run by the coded UI test builder in a process separate from your application.
 
-#### To debug your property provider or action filter
+### To debug your property provider or action filter
 
 1.  Build the debug version of your extension package copy the .dll and .pdb files to %ProgramFiles%\Common Files\Microsoft Shared\VSTT\10.0\UITestExtensionPackages.
 
@@ -189,11 +190,7 @@ Your property provider and action filter are implemented in an extension package
 
 6.  In the coded UI test builder, create asserts to exercise your property provider, and record actions to exercise your action filters.
 
-## External resources
-
-### Guidance
- [Testing for Continuous Delivery with Visual Studio 2012 - Chapter 2: Unit Testing: Testing the Inside](http://go.microsoft.com/fwlink/?LinkID=255188)
-
 ## See also
- <xref:System.Windows.Forms.AccessibleObject>
- [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)
+
+- <xref:System.Windows.Forms.AccessibleObject>
+- [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)

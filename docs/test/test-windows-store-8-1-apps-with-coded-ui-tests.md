@@ -319,5 +319,6 @@ After you create the project, authoring a test stays the same as before.
 **A**: Any code changes you make in the UIMapDesigner.cs file will be overwritten every time you generate code using the UIMap - Coded UI Test Builder. If you have to modify a recorded method, you must copy it to UIMap.cs file and rename it. The UIMap.cs file can be used to override methods and properties in the UIMapDesigner.cs file. You must remove the reference to the original method in the Coded UITest.cs file and replace it with the renamed method name.
 
 ## See also
- [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)
- [Set a Unique Automation Property for UWP Controls for Testing](../test/set-a-unique-automation-property-for-windows-store-controls-for-testing.md)
+
+- [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)
+- [Set a Unique Automation Property for UWP Controls for Testing](../test/set-a-unique-automation-property-for-windows-store-controls-for-testing.md)

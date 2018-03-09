@@ -26,6 +26,7 @@ This internal class extends the <xref:Microsoft.VisualStudio.TestTools.UITest.Co
  The `IsLeftClick` method determines whether the provided action represents a left-click of the mouse. The `AreActionsOnSameExcelCell` method determines whether two provided actions are executed on the same cell in Excel.
 
 ## See also
- <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter>
- <xref:Microsoft.VisualStudio.TestTools.UITest.Common.IUITestActionStack>
- [Extending Coded UI Tests and Action Recordings to Support Microsoft Excel](../test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel.md)
+
+- <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter>
+- <xref:Microsoft.VisualStudio.TestTools.UITest.Common.IUITestActionStack>
+- [Extending Coded UI Tests and Action Recordings to Support Microsoft Excel](../test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel.md)

@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio testing tools   Microsoft Docs"
+title: "Visual Studio testing tools | Microsoft Docs"
 ms.date: 01/31/2018
 ms.technology: vs-devops-test
 ms.topic: "article"
@@ -27,8 +27,6 @@ The **Test Explorer** window makes it easy to integrate [unit tests](../test/uni
 [Live Unit Testing](../test/live-unit-testing.md) automatically runs unit tests in the background, and graphically displays code coverage and test results in the Visual Studio code editor.
 
 Use Coded UI tests to [test your application through its user interface](../test/use-ui-automation-to-test-your-code.md).
-
-Use [Web performance and load testing](../test/stub.md) to...
 
 A [lab environment](../test/lab-management/using-a-lab-environment-for-your-application-lifecycle.md) is a collection of virtual and physical machines that you can use to develop and test applications.
 

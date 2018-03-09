@@ -260,5 +260,6 @@ FullName:"MyClass" - FullName:"PerfTest"
  [Testing for Continuous Delivery with Visual Studio 2012 - Chapter 2: Unit Testing: Testing the Inside](http://go.microsoft.com/fwlink/?LinkID=255188)
 
 ## See also
- [Unit Test Your Code](../test/unit-test-your-code.md)
- [Run a unit test as a 64-bit process](../test/run-a-unit-test-as-a-64-bit-process.md)
+
+- [Unit Test Your Code](../test/unit-test-your-code.md)
+- [Run a unit test as a 64-bit process](../test/run-a-unit-test-as-a-64-bit-process.md)

@@ -14,6 +14,7 @@ ms.workload:
 author: gewarren
 ---
 # Sample Excel Extension: TechnologyManager Class
+
 This class extends the <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyManager> class and is responsible for providing core services for the [!INCLUDE[ofprexcel](../test/includes/ofprexcel_md.md)] extension. Although the base class has many methods, only a subset of them is used in this sample.
 
  Some methods just return a property value. Many of the methods are intended to allow the developer to override default algorithms build into the coded UI test engine. These methods throw a <xref:System.NotSupportedException> or return `null`, which tells the framework to use the default algorithm.
@@ -57,9 +58,10 @@ This class extends the <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.U
  This internal method takes a window handle and information about an Excel element, and returns the requested Excel element.
 
 ## See also
- <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyManager>
- <xref:System.NotSupportedException>
- <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyElement>
- <xref:System.Runtime.InteropServices.ComVisibleAttribute>
- <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyElement.QueryId%2A>
- [Extending Coded UI Tests and Action Recordings to Support Microsoft Excel](../test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel.md)
+
+- <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyManager>
+- <xref:System.NotSupportedException>
+- <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyElement>
+- <xref:System.Runtime.InteropServices.ComVisibleAttribute>
+- <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyElement.QueryId%2A>
+- [Extending Coded UI Tests and Action Recordings to Support Microsoft Excel](../test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel.md)

@@ -40,12 +40,13 @@ Excel Extension Architecture
  Inherited from the <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider> class, this class provides a base class for supporting the properties of UI elements for test recording and playback. For more information, see [PropertyProvider Class](../test/sample-excel-extension-propertyprovider-class.md).
 
 ## See also
- <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider>
- <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyElement>
- <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter>
- <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITestExtensionPackage>
- [ExtensionPackage Class](../test/sample-excel-extension-extensionpackage-class.md)
- [TechnologyManager Class](../test/sample-excel-extension-technologymanager-class.md)
- [ActionFilter Class](../test/sample-excel-extension-actionfilter-class.md)
- [Element Classes](../test/sample-excel-extension-element-classes.md)
- [PropertyProvider Class](../test/sample-excel-extension-propertyprovider-class.md)
+
+- <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider>
+- <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyElement>
+- <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter>
+- <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITestExtensionPackage>
+- [ExtensionPackage Class](../test/sample-excel-extension-extensionpackage-class.md)
+- [TechnologyManager Class](../test/sample-excel-extension-technologymanager-class.md)
+- [ActionFilter Class](../test/sample-excel-extension-actionfilter-class.md)
+- [Element Classes](../test/sample-excel-extension-element-classes.md)
+- [PropertyProvider Class](../test/sample-excel-extension-propertyprovider-class.md)

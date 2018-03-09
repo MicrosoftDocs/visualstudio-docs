@@ -13,8 +13,8 @@ ms.workload:
   - "cplusplus"
 author: mikeblome
 ---
-
 # How to: Write Unit tests for C++ DLLs
+
 This walkthrough describes how to develop a native C++ DLL using test-first methodology. The basic steps are as follows:
 
 1.  [Create a Native Test Project](#create_test_project). The test project is located in the same solution as the DLL project.
@@ -324,8 +324,9 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
      You can also mandate a minimum level of code coverage.
 
 ## See also
- [Adding unit tests to existing C++ applications](../test/unit-testing-existing-cpp-applications-with-test-explorer.md)
- [Using Microsoft.VisualStudio.TestTools.CppUnitTestFramework](../test/using-microsoft-visualstudio-testtools-cppunittestframework.md)
- [Debugging Native Code](../debugger/debugging-native-code.md)
- [Walkthrough: Creating and Using a Dynamic Link Library (C++)](/cpp/build/walkthrough-creating-and-using-a-dynamic-link-library-cpp)
- [Importing and Exporting](/cpp/build/importing-and-exporting)
+
+- [Adding unit tests to existing C++ applications](../test/unit-testing-existing-cpp-applications-with-test-explorer.md)
+- [Using Microsoft.VisualStudio.TestTools.CppUnitTestFramework](../test/using-microsoft-visualstudio-testtools-cppunittestframework.md)
+- [Debugging Native Code](../debugger/debugging-native-code.md)
+- [Walkthrough: Creating and Using a Dynamic Link Library (C++)](/cpp/build/walkthrough-creating-and-using-a-dynamic-link-library-cpp)
+- [Importing and Exporting](/cpp/build/importing-and-exporting)

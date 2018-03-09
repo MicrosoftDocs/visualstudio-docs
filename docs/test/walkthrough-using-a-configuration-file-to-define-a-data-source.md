@@ -265,5 +265,5 @@ The final app.config file should look similar to this:
 
 ## See also
 
-[Unit Test Your Code](../test/unit-test-your-code.md)
-[How To: Create a Data-Driven Unit Test](../test/how-to-create-a-data-driven-unit-test.md)
+- [Unit Test Your Code](../test/unit-test-your-code.md)
+- [How To: Create a Data-Driven Unit Test](../test/how-to-create-a-data-driven-unit-test.md)

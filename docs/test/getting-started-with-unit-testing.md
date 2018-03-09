@@ -85,38 +85,19 @@ For more details, see [Live unit testing](../test/live-unit-testing-intro.md).
 
 ## Generate unit tests with IntelliTest
 
-When you run IntelliTest, you can easily see which
-tests are failing and add any necessary code to fix
-them. You can select which of the generated tests
-to save into a test project to provide a regression
-suite. As you change your code, rerun IntelliTest
-to keep the generated tests in sync with your code
-changes. To learn how, see
-[Generating unit tests for your code with IntelliTest](../test/generate-unit-tests-for-your-code-with-intellitest.md).
+When you run IntelliTest, you can easily see which tests are failing and add any necessary code to fix them. You can select which of the generated tests to save into a test project to provide a regression suite. As you change your code, rerun IntelliTest to keep the generated tests in sync with your code changes. To learn how, see [Generating unit tests for your code with IntelliTest](../test/generate-unit-tests-for-your-code-with-intellitest.md).
 
 ![Generating unit tests with IntelliTest](media/intellitest.png)
 
 ## Run unit tests with Test Explorer
 
-Use Test Explorer to run unit tests from Visual
-Studio or third-party unit test projects, group
-tests into categories, filter the test list, and
-create, save, and run playlists of tests. You can
-also debug tests and analyze test performance and
-code coverage. To learn how, see
-[Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md).
+Use Test Explorer to run unit tests from Visual Studio or third-party unit test projects, group tests into categories, filter the test list, and create, save, and run playlists of tests. You can also debug tests and analyze test performance and code coverage. To learn how, see [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md).
 
 ![Running unit tests with Test Explorer](media/testexplorer.png)
 
 ## Use code coverage to determine how much code is being tested
 
-To determine what proportion of your project's code
-is actually being tested by coded tests such as unit
-tests, you can use the code coverage feature of
-Visual Studio. To guard effectively against bugs,
-your tests should exercise or 'cover' a large
-proportion of your code. To learn how, see
-[Use Code Coverage to Determine How Much Code is being Tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md).
+To determine what proportion of your project's code is actually being tested by coded tests such as unit tests, you can use the code coverage feature of Visual Studio. To guard effectively against bugs, your tests should exercise or 'cover' a large proportion of your code. To learn how, see [Use Code Coverage to Determine How Much Code is being Tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md).
 
 ![Using code coverage to determine how much code is being tested](media/codecoverage.png)
 
@@ -130,7 +111,9 @@ Following are the steps to enable third-part test frameworks:
 
 1. In the **Extensions and Updates** dialog box, expand the **Online** category and then **Visual Studio Marketplace**. Then, choose **Tools** > **Testing**.
 
-   ![Download your plug-in](media/updatethisscreenshot.png)
+   ![Visual Studio Marketplace](media/extensions-and-updates-testing.png)
+
+1. Select the framework or adapter you want to install, and then choose **Download**.
 
 1. Create a class library project, and add it to your solution.
 

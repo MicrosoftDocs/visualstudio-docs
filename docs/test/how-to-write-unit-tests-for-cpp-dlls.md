@@ -13,7 +13,6 @@ ms.workload:
   - "cplusplus"
 author: mikeblome
 ---
-
 # Write Unit tests for C++ DLLs in Visual Studio
 
  There are several ways to test DLL code, depending on whether it exports the functions that you want to test. Choose one of the following ways:
@@ -150,17 +149,16 @@ author: mikeblome
 ## Run the tests
 
 1.  On the **Test** menu, choose **Windows | Test Explorer**.
-2. If all your tests are not visible in the window, build the test project by right-clicking its node in **Solution Explorer** and choosing **Build** or **Rebuild**.
 
-2.  In Test Explorer, choose **Run All**, or select the specific tests you want to run. Right-click on a test for other options, including running it in debug mode with breakpoints enabled.
+1. If all your tests are not visible in the window, build the test project by right-clicking its node in **Solution Explorer** and choosing **Build** or **Rebuild**.
 
-## See also
-[Quick Start: Test Driven Development with Test Explorer](../test/quick-start-test-driven-development-with-test-explorer.md)
-
+1.  In Test Explorer, choose **Run All**, or select the specific tests you want to run. Right-click on a test for other options, including running it in debug mode with breakpoints enabled.
 
 ## See also
- [Writing unit tests for C/C++](writing-unit-tests-for-c-cpp.md)
- [Microsoft.VisualStudio.TestTools.CppUnitTestFramework API Reference](../test/microsoft-visualstudio-testtools-cppunittestframework-api-reference.md)
- [Debugging Native Code](../debugger/debugging-native-code.md)
- [Walkthrough: Creating and Using a Dynamic Link Library (C++)](/cpp/build/walkthrough-creating-and-using-a-dynamic-link-library-cpp)
- [Importing and Exporting](/cpp/build/importing-and-exporting)
+
+- [Writing unit tests for C/C++](writing-unit-tests-for-c-cpp.md)
+- [Microsoft.VisualStudio.TestTools.CppUnitTestFramework API Reference](../test/microsoft-visualstudio-testtools-cppunittestframework-api-reference.md)
+- [Debugging Native Code](../debugger/debugging-native-code.md)
+- [Walkthrough: Creating and Using a Dynamic Link Library (C++)](/cpp/build/walkthrough-creating-and-using-a-dynamic-link-library-cpp)
+- [Importing and Exporting](/cpp/build/importing-and-exporting)
+- [Quick Start: Test Driven Development with Test Explorer](../test/quick-start-test-driven-development-with-test-explorer.md)
