@@ -180,10 +180,10 @@ Congratulations on completing this quickstart! Next, you might want to explore s
 
 ## See also
 
-[Quickstart: First look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)  
-[Quickstart: Personalize the Visual Studio IDE and editor](../ide/quickstart-personalize-the-ide.md)  
-[Quickstart: Coding in the editor](../ide/quickstart-editor.md)  
-[Managing project and solution properties](../ide/managing-project-and-solution-properties.md)  
-[Managing references in a project](../ide/managing-references-in-a-project.md)  
-[Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md)  
-[Visual Studio IDE overview](../ide/visual-studio-ide.md)
+- [Quickstart: First look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)
+- [Quickstart: Personalize the Visual Studio IDE and editor](../ide/quickstart-personalize-the-ide.md)
+- [Quickstart: Coding in the editor](../ide/quickstart-editor.md)
+- [Managing project and solution properties](../ide/managing-project-and-solution-properties.md)
+- [Managing references in a project](../ide/managing-references-in-a-project.md)
+- [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md)
+- [Visual Studio IDE overview](../ide/visual-studio-ide.md)
