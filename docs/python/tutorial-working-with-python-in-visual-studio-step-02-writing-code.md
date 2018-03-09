@@ -72,7 +72,7 @@ Although Solution Explorer is where you manage project files, the *editor* windo
 
     ```python
     import sys
-    from math import sin, cos, radians
+    from math import cos, radians
     ```
 
     > [!Tip]
