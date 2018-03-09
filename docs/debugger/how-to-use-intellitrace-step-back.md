@@ -16,48 +16,57 @@ manager: "ghogen"
 ms.workload: 
   - "multiple"
 ---
-# View snapshots using IntelliTrace step-back
+# View snapshots using IntelliTrace step-back in Visual Studio
+
 IntelliTrace step-back automatically takes a snapshot of your application at every breakpoint and debugger step event. The recorded snapshots enable you to go back to previous breakpoints or steps and view the state of the application as it was in the past. IntelliTrace step-back can save you time when you want to see the previous application state but don't want to restart debugging or recreate the desired app state.
 
 IntelliTrace step-back is available starting in Visual Studio Enterprise 2017 version 15.5 and higher, and it requires Windows 10 Anniversary Update or above. The feature is currently supported for debugging ASP.NET, WinForms, WPF, managed console apps, and managed class libraries. Debugging ASP.NET Core, .NET Core, or UWP applications is not currently supported. 
   
 ## Enable IntelliTrace events and snapshots mode 
-To enable the feature, go to **Tools > Options > IntelliTrace** settings, and select the option **IntelliTrace events and snapshots**. 
 
-![Enable IntelliTrace Events and Snapshots mode](../debugger/media/intellitrace-enable-snapshots.png "Enable IntelliTrace Events and Snapshots mode")
+1. In Visual Studio Enterprise, go to **Tools > Options > IntelliTrace** settings, and select the option **IntelliTrace events and snapshots**. 
 
-IntelliTrace takes a snapshot of the application's process on each debugger step and breakpoint event. These events are recorded in the **Events** tab in the **Diagnostic Tools** window, along with other IntelliTrace events. To open this window, choose **Debug / Windows / Show Diagnostic Tools**.
+    ![Enable IntelliTrace Events and Snapshots mode](../debugger/media/intellitrace-enable-snapshots.png "Enable IntelliTrace Events and Snapshots mode")
 
-A camera icon appears next to the events for which snapshots are available. 
+2. Open your project in Visual Studio.
 
-![Events tab with snapshots](../debugger/media/intellitrace-events-tab-with-snapshots.png "Events tab with snapshots on breakpoints and steps")
+3. Set one or more breakpoints in your project and start debugging (press **F5**), or start debugging by stepping through your code (**F10** or **F11**).
 
-For performance reasons, snapshots are not taken when you step very quickly. If no camera icon appears next to the step, try stepping more slowly.
+    IntelliTrace takes a snapshot of the application's process on each debugger step and breakpoint event. These events are recorded in the **Events** tab in the **Diagnostic Tools** window, along with other IntelliTrace events. To open this window, choose **Debug** > **Windows** > **Show Diagnostic Tools**.
+
+    A camera icon appears next to the events for which snapshots are available. 
+
+    ![Events tab with snapshots](../debugger/media/intellitrace-events-tab-with-snapshots.png "Events tab with snapshots on breakpoints and steps")
+
+    For performance reasons, snapshots are not taken when you step very quickly. If no camera icon appears next to the step, try stepping more slowly.
 
 ## Navigate and view snapshots
 
-You can navigate between events using the **Step Backward (Alt + [)** and **Step Forward (Alt + ])** buttons in the Debug toolbar. These buttons navigate the events that appear in the **Events** tab in the **Diagnostic Tools window**. 
-Stepping backward or forward to an event automatically activates historical debugging on the selected event.
+1. Navigate between events by using the **Step Backward (Alt + [)** and **Step Forward (Alt + ])** buttons in the Debug toolbar.
 
-![Step Backward and Forward buttons](../debugger/media/intellitrace-step-back-icons-description.png "Step Backward and Step Forward buttons")
+    These buttons navigate the events that appear in the **Events** tab in the **Diagnostic Tools window**. Stepping backward or forward to an event automatically activates historical debugging on the selected event.
 
-When you step back or step forward, Visual Studio enters historical debugging mode. In this mode, the debugger's context switches to the time when the selected event was recorded. Visual Studio also moves the pointer to the corresponding line of code in the source window. 
+    ![Step Backward and Forward buttons](../debugger/media/intellitrace-step-back-icons-description.png "Step Backward and Step Forward buttons")
 
-From this view, you can inspect the values in the **Call Stack**, **Locals**, **Autos**, and **Watch** windows. You can also hover over variables to view DataTips and perform expression evaluation in the **Immediate** window. The data you see is from the snapshot of the application's process taken at that point in time.
+    When you step back or step forward, Visual Studio enters historical debugging mode. In this mode, the debugger's context switches to the time when the selected event was recorded. Visual Studio also moves the pointer to the corresponding line of code in the source window. 
 
-So, for example, if you've hit a breakpoint and taken a Step (**F10**), the **Step Backward** button puts Visual Studio in historical mode at the line of code corresponding to the breakpoint. 
+    From this view, you can inspect the values in the **Call Stack**, **Locals**, **Autos**, and **Watch** windows. You can also hover over variables to view DataTips and perform expression evaluation in the **Immediate** window. The data you see is from the snapshot of the application's process taken at that point in time.
 
-![Activating historical mode on an event with a snapshot](../debugger/media/intellitrace-historical-mode-with-snapshot.png "Activating historical mode on an event with a snapshot")
+    So, for example, if you've hit a breakpoint and taken a Step (**F10**), the **Step Backward** button puts Visual Studio in historical mode at the line of code corresponding to the breakpoint. 
 
-To return to live execution, choose **Continue (F5)** or click the **Return to Live Debugging** link in the infobar. 
+    ![Activating historical mode on an event with a snapshot](../debugger/media/intellitrace-historical-mode-with-snapshot.png "Activating historical mode on an event with a snapshot")
 
-You can also view a snapshot from the **Events** tab. Select an event with a snapshot and click **Activate Historical Debugging**. You can also click on the camera icon to activate historical debugging.
+2. To return to live execution, choose **Continue (F5)** or click the **Return to Live Debugging** link in the infobar. 
 
-![Activate Historical Debugging on an event](../debugger/media/intellitrace-activate-historical-debugging.png "Activate Historical Debugging on an event")
+3. You can also view a snapshot from the **Events** tab. To do this, select an event with a snapshot and click **Activate Historical Debugging**.
 
-Unlike the **Set Next Statement** command, viewing a snapshot doesn’t rerun your code; it gives you a static view of the state of the application at a point in time that has occurred in the past.
+    You can also click on the camera icon to activate historical debugging.
 
-![Overview of IntelliTrace step-back](../debugger/media/intellitrace-step-back-overview.png "Overview of IntelliTrace Step-back")
+    ![Activate Historical Debugging on an event](../debugger/media/intellitrace-activate-historical-debugging.png "Activate Historical Debugging on an event")
+
+    Unlike the **Set Next Statement** command, viewing a snapshot doesn’t rerun your code; it gives you a static view of the state of the application at a point in time that has occurred in the past.
+
+    ![Overview of IntelliTrace step-back](../debugger/media/intellitrace-step-back-overview.png "Overview of IntelliTrace Step-back")
 
 ## Next steps  
  To learn how to inspect variables in Visual Studio, see [Debugger feature tour](../debugger/debugger-feature-tour.md)  
@@ -93,5 +102,7 @@ The impact on overall stepping performance depends on your application. The over
 
     Workaround:
     * Clear all snapshots by ending the debugging session. 
+
+* When debugging an application whose process has a high number of unique memory regions, such as an application that loads a large number of DLLs, stepping performance with snapshots enabled may be impacted. This issue will be addressed in a future version of Windows. If you are experiencing this issue, reach out to us at stepback@microsoft.com. 
 
 * When saving a file with **Debug > IntelliTrace > Save IntelliTrace session** under events and snapshots mode, the additional data captured from snapshots is not available in the .itrace file. On breakpoint and step events, you see the same information as if you had saved the file in IntelliTrace events only mode. 

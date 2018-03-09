@@ -33,7 +33,7 @@ manager: "ghogen"
 |[Decrement](../javascript/reference/increment-and-decrement-operators-javascript.md)|--|  
 |[Multiplication](../javascript/reference/multiplication-operator-decrement-javascript.md)|*|  
 |[Division](../javascript/reference/division-operator-decrement-javascript.md)|/|  
-|[Modulus arithmetic](../javascript/reference/modulus-operator-decrementjavascript.md)|%|  
+|[Remainder arithmetic](../javascript/reference/modulus-operator-decrementjavascript.md)|%|  
 |[Addition](../javascript/reference/addition-operator-decrement-javascript.md)|+|  
 |[Subtraction](../javascript/reference/subtraction-operator-decrement-javascript.md)|-|  
   

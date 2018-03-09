@@ -7,7 +7,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: aa4b8161-d98f-4a1a-9db3-520133bfc82f
-caps.latest.revision: 7
+ms.technology: vs-ide-mobile
 author: "corob-msft"
 ms.author: "corob"
 manager: ghogen

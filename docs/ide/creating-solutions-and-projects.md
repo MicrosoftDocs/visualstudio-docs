@@ -1,7 +1,7 @@
 ---
 title: "Create solutions and projects in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "06/16/2017"
+ms.date: 02/06/2018
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: "vs-ide-general"
@@ -13,7 +13,6 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Projects.General"
   - "SolutionItemsProject"
 helpviewer_keywords: 
-  - "solutions [Visual Studio], deleting"
   - "solutions [Visual Studio], creating"
   - "projects [Visual Studio], creating"
 author: "gewarren"
@@ -41,7 +40,7 @@ That being said, solutions and projects are not required to develop apps in Visu
 
 ## To create a project from a project template
 
-1. There are multiple ways to create a new project in Visual Studio. On the Start Page, enter the name of a project template in the **Search project templates** box, or choose the **Create new project** link to open the **New Project** dialog box. You can also choose **File**, **New**, **Project...** on the menu bar, or choose the **New Project** button on the toolbar.
+1. There are multiple ways to create a new project in Visual Studio. On the Start Page, enter the name of a project template in the **Search project templates** box, or choose the **Create new project** link to open the **New Project** dialog box. You can also choose **File** > **New** > **Project...** on the menu bar, or choose the **New Project** button on the toolbar.
 
   ![Start page](./media/vside-newproject1.png)
 
@@ -54,9 +53,9 @@ That being said, solutions and projects are not required to develop apps in Visu
 
 1. Show the list of templates for the programming language you want to use by choosing the triangle next to the language name, and then choose a project type.
 
-  The following example shows the project templates available for Visual C# web projects.
+  The following example shows the project templates available for Visual C# .NET Core projects.
 
-  ![Project templates](./media/vside-newproject-projects-list.png)
+  ![Project templates](./media/new-project-dialog-net-core.png)
 
 1. Enter a name for the new project in the **Name** box. You can choose to save the project in the default location on your system, or choose the **Browse** button to find another location.
 
@@ -64,13 +63,13 @@ That being said, solutions and projects are not required to develop apps in Visu
 
 1. Choose the **OK** button to create the solution and project.
 
-1. If you want to add an additional project to the solution, choose the solution node in Solution Explorer, and then on the menu bar, choose **Project**, **Add New Item**.
+1. If you want to add an additional project to the solution, choose the solution node in Solution Explorer, and then on the menu bar, choose **Project** > **Add New Item**.
 
 ## Create a project from existing code files
 
 If you have a collection of code source files, you can easily add them to a project.
 
-1. On the menu, choose **File**, **New**, **Project From Existing Code**.
+1. On the menu, choose **File** > **New** > **Project From Existing Code**.
 
 1. In the **Create Project from Existing Code Files** wizard, choose the project type you want in the **What type of project would you like to create?** drop-down list box, and then choose the **Next** button.
 
@@ -81,21 +80,16 @@ If you have a collection of code source files, you can easily add them to a proj
 
 ## Add files to a solution
 
-If you have a file that applies to multiple projects, such as a readme file for the solution, or other files that logically belong at the solution level rather than under a specific project, then you can add them to the solution itself. To add an item to a solution, on the context (right-click) menu of the solution node in **Solution Explorer**, choose **Add**, **New Item**, or **Add**, **Existing Item**.
+If you have a file that applies to multiple projects, such as a readme file for the solution, or other files that logically belong at the solution level rather than under a specific project, then you can add them to the solution itself. To add an item to a solution, on the context (right-click) menu of the solution node in **Solution Explorer**, choose **Add** > **New Item**, or **Add** > **Existing Item**.
 
 ## Create a .NET project that targets a specific version of the .NET Framework
 
-When you create a project, you can specify a specific version of the .NET Framework that you want the project to use. To specify a .NET framework version, choose the **.NET Framework** version drop-down menu in the **New Project** dialog box.
+When you create a project, you can specify a specific version of the .NET Framework that you want the project to use. To specify a .NET framework version, choose the **Framework** drop-down menu in the **New Project** dialog box.
 
-![.NET Framework version selector](./media/vside-newproject-framework.png)
+![Framework drop-down in New Project dialog](./media/vside-newproject-framework.png)
 
 > [!NOTE]
-> If you are creating a project from a .NET Core template, the .NET Framework version you select in the drop-down is ignored.
-
-> [!TIP]
-> If you set the .NET Framework version before selecting a project template, then Visual Studio will only show templates that are compatible with that .NET Framework version.
-
-You must have .NET Framework 3.5 installed on your system to access .NET Framework versions earlier than .NET Framework 4.
+> You must have .NET Framework 3.5 installed on your system to access .NET Framework versions earlier than .NET Framework 4.
 
 ## Create empty solutions
 
@@ -103,9 +97,9 @@ You can also create empty solutions that have no projects. This might be prefera
 
 ### To create an empty solution
 
-1. On the menu, choose **File**, **New**, **Project...**.
+1. On the menu, choose **File** > **New** > **Project...**.
 
-1. In the left (**Templates**) pane, choose **Other Project Types**, **Visual Studio Solutions** in the expanded list.
+1. In the left (**Templates**) pane, choose **Other Project Types** > **Visual Studio Solutions** in the expanded list.
 
 1. In the middle pane, choose **Blank Solution**.
 
@@ -119,7 +113,7 @@ As mentioned earlier, you can also open code files without needing a project or 
 
 If you create a .NET-based project without specifying a disk location, it is a temporary project. Temporary projects enable you to experiment with .NET projects. At any time while you are working with a temporary project, you can choose to save it or discard it.
 
-To create a temporary project, first go to **Tools**, **Options**, **Projects and Solutions**, **General**, and uncheck the **Save new projects when created** checkbox. Then open the **New Project** dialog box as usual.
+To create a temporary project, first go to **Tools** > **Options** > **Projects and Solutions** > **General**, and uncheck the **Save new projects when created** checkbox. Then open the **New Project** dialog box as usual.
 
 ## Delete a solution, project, or item
 
@@ -138,7 +132,7 @@ You can delete solutions and their contents permanently, but not by using the Vi
 
 ## See also
 
-[Solutions and Projects](../ide/solutions-and-projects-in-visual-studio.md)  
+[Solutions and projects](../ide/solutions-and-projects-in-visual-studio.md)  
 [Microsoft's open source repositories on GitHub](https://github.com/Microsoft)  
 [Visual Studio Samples](../ide/visual-studio-samples.md)  
-[Developer code samples](https://code.msdn.microsoft.com/)  
+[Developer code samples](https://code.msdn.microsoft.com/)

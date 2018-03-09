@@ -7,19 +7,19 @@ ms.suite: ""
 ms.technology: vs-ide-general
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords: 
+f1_keywords:
   - "vsregularexpressionhelp"
   - "vs.regularexpressionhelp"
   - "vs.wildcardsbuilder"
   - "vs.netregularexpressionhelp"
   - "vs.wildcards"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "regular expressions [Visual Studio]"
   - "regular expressions"
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Using regular expressions in Visual Studio
@@ -51,11 +51,11 @@ Here are some examples:
 |Invalidate a match|(?!abc)|`real (?!ity)` matches "real" in "realty" and "really" but not in "reality." It also finds the second "real" (but not the first "real") in "realityreal".|
 |Match any character that is not in a given set of characters|[^abc]|`be[^n-t]` matches "bef" in "before", "beh" in "behind", and "bel" in "below", but not "beneath".|
 |Match either the expression before or the one after the symbol.|&#124;|`(sponge&#124;mud) bath` matches "sponge bath" and "mud bath."|
-|Escape the character following the backslash|\\|`\^` matches the character ^.|
+|Escape the character following the backslash| \\ |`\^` matches the character ^.|
 |Specify the number of occurrences of the preceding character or group|{x}, where x is the number of occurrences|`x(ab){2}x` matches "xababx", and `x(ab){2,3}x` matches "xababx" and "xabababx" but not "xababababx".|
 |Match text in a Unicode character class, where "X" is the Unicode number. For more information about Unicode character classes, see<br /><br /> [Unicode Standard 5.2 Character Properties](http://www.unicode.org/versions/Unicode5.2.0/ch04.pdf).|\p{X}|`\p{Lu}` matches "T" and "D" in "Thomas Doe".|
 |Match a word boundary|`\b` (Outside a character class \b specifies a word boundary, and inside a character class specifies a backspace).|`\bin` matches "in" in "inside" but not "pinto".|
-|Match a line break (ie a carriage return followed by a new line).|\r?\n|`End\r?\nBegin` matches "End" and "Begin" only when "End" is the last string in a line and "Begin" is the first string in the next line.|
+|Match a line break (that is, a carriage return followed by a new line).|\r?\n|`End\r?\nBegin` matches "End" and "Begin" only when "End" is the last string in a line and "Begin" is the first string in the next line.|
 |Match any alphanumeric character|\w|`a\wd` matches "add" and "a1d" but not "a d".|
 |Match any whitespace character.|(?([^\r\n])\s)|`Public\sInterface` matches the phrase "Public Interface".|
 |Match any numeric character|\d|`\d` matches and "3" in "3456", "2" in 23", and "1" in "1".|
@@ -66,7 +66,7 @@ Here are some examples:
 |Match integers and decimals|\b[0-9]*\\.\*[0-9]+\b|Matches "1.333".|
 
 > [!TIP]
-> In Windows operating systems, most lines end in "\r\n" (a carriage return followed by a new line). These characters are not visible, but are present in the editor and are passed to the .NET regular expression service.
+> In Windows operating systems, most lines end in "\r\n" (a carriage return followed by a new line). These characters aren't visible, but are present in the editor and are passed to the .NET regular expression service.
 
 ## See also
 
