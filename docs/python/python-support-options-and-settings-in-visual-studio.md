@@ -2,7 +2,7 @@
 title: Options and settings for Python in Visual Studio | Microsoft Docs
 description: A reference for the various settings in Visual Studio that relate to Python code and projects.
 ms.custom:
-ms.date: 02/21/2018
+ms.date: 03/05/2018
 ms.reviewer:
 ms.suite:
 ms.technology: 
@@ -16,6 +16,7 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Python_Tools.General"
   - "VS.ToolsOptionsPages.Python_Tools.Debugging"
   - "VS.ToolsOptionsPages.Python_Tools.Diagnostics"
+  - "VS.ToolsOptionsPages.Python_Tools.Experimental"
   - "VS.ToolsOptionsPages.Python_Tools.Interactive_Windows"
   - "VS.ToolsOptionsPages.Text_Editor.Python.Advanced"
 author: "kraigb"
@@ -32,19 +33,21 @@ To view Python options, use the **Tools > Options** menu command, make sure **Sh
 
 ![Python options dialog, General tab](media/options-general.png)
 
-There are also additional Python-specific options on the **Text Editor > Python > Advanced** tab.
+There are also additional Python-specific options on the **Text Editor > Python > Advanced** tab, and on the **Environment > Fonts and Colors** tab within the "Text Editor" group.
 
 > [!Note]
 > The **Experimental** group contains options for features that are still under development and are not documented here. They are often discussed in posts on the [Python engineering at Microsoft blog](https://blogs.msdn.microsoft.com/pythonengineering/).
 
 ## General options
 
+(**Tools > Options > Python** tab.)
+
 | Option | Default | Description |
 | --- | --- | --- |
 | Show the Output Window when creating virtual environments| On | Clear to prevent the output window from appearing. |
 | Show the Output Window when installing or removing packages | On | Clear to prevent the output window from appearing. |
 | Always run pip as administrator | Off | Always elevates `pip install` operations for all environments. When installing packages, Visual Studio prompts for administrator privileges if the environment is located in a protected area of the file system such as `c:\Program Files`. In that prompt you can choose to always elevate `pip install` for just that one environment. See [packages tab](python-environments-window-tab-reference.md#packages-tab). |
-| Automatically generate completion DB on first use | On | For [IntelliSense completions](editing-python-code-in-visual-studio.md#intellisense) to work for a library, Visual Studio must generate a completion database for that library. Building the database is done in the background when a library is installed, but may not be complete when you start writing code. With this option selected, Visual Studio prioritizes completion of the database for a library when you write code that uses it. |
+| Automatically generate completion DB on first use | On | *Applies to Visual Studio 2017 version 15.5 and earlier and to later versions when using an IntelliSense database.* Prioritizes completion of the database for a library when you write code that uses it. For more information, see [Environments window reference - Intellisense tab](python-environments-window-tab-reference.md). |
 | Ignore system-wide PYTHONPATH variables | On | PYTHONPATH is ignored by default because Visual Studio provides a more direct means to specify search paths in environments and projects. See [Search paths](search-paths.md) for details. |
 | Update search paths when adding linked files | On | When set, adding a [linked file](managing-python-projects-in-visual-studio.md#linked-files) to a project updates [Search paths](search-paths.md) so that IntelliSense can include the contents of the linked file's folder in its completion database. Clear this option to exclude such content from the completion database. |
 | Warn when imported module cannot be found | On | Clear this option to suppress warnings when you know an imported module isn't presently available but doesn't otherwise affect code operation. |
@@ -55,6 +58,8 @@ There are also additional Python-specific options on the **Text Editor > Python 
 ![Python options dialog, General tab](media/options-general.png)
 
 ## Debugging options
+
+(**Tools > Options > Python > Debugging** tab.)
 
 | Option | Default | Description |
 | --- | --- | --- |
@@ -68,6 +73,8 @@ There are also additional Python-specific options on the **Text Editor > Python 
 
 ## Diagnostics options
 
+(**Tools > Options > Python > Diagnostics** tab.)
+
 | Option | Default | Description |
 | --- | --- | --- |
 | Include analysis logs | On | Includes detailed logs relating to analysis of installed Python environments when saving diagnostics to a file or copying them to the clipboard using the buttons. This option may significantly increase the size of the generated file, but is often required to diagnose IntelliSense issues. |
@@ -77,6 +84,8 @@ There are also additional Python-specific options on the **Text Editor > Python 
 ![Python options dialog, Diagnostics tab](media/options-diagnostics.png)
 
 ## Interactive Windows options
+
+(**Tools > Options > Python > Interactive Windows** tab.)
 
 | Option | Default | Description |
 | --- | --- | --- |
@@ -88,6 +97,8 @@ There are also additional Python-specific options on the **Text Editor > Python 
 ![Python options dialog, Interactive Windows tab](media/options-interactive-windows.png)
 
 ## Advanced Python editor options
+
+(**Tools > Options > Text Editor > Python > Advanced** tab.)
 
 ### Completion Results
 
@@ -101,7 +112,7 @@ There are also additional Python-specific options on the **Text Editor > Python 
 
 | Option | Default | Description |
 | --- | --- | --- |
-| Committed by typing the following characters | {}[]().,:;+-*/%&&#124;^~=<>#@\ | These characters typically follow an identifier that one might select from a completion list, so it's convenient to commit the completion simply by typing a character. You can remove or add specific characters to the list as desired.  |
+| Committed by typing the following characters | `{}[]().,:;+-*/%&&#124;^~=<>#@\` | These characters typically follow an identifier that one might select from a completion list, so it's convenient to commit the completion simply by typing a character. You can remove or add specific characters to the list as desired.  |
 | Enter commits current completion | On | When set, the Enter key chooses and applies the currently selected completion as with the characters above (but of course, there isn't a character for Enter so it couldn't go into that list directly!). |
 | Add new line on enter at end of fully typed word | Off | By default, if you type the entire word that appears in the completion popup and press Enter, you commit that completion. By setting this option, you effectively commit completions when you finish typing the identifier, such that Enter inserts a new line. |
 
@@ -114,3 +125,11 @@ There are also additional Python-specific options on the **Text Editor > Python 
 | Color names based on types | On | Enables syntax coloring in Python code. |
 
 ![Python editor options dialog, advanced tab](media/options-editor-advanced.png)
+
+## Fonts and Colors options
+
+(**Environment > Fonts and Colors** tab within the "Text Editor" group.)
+
+The names of the Python options are all prefixed with "Python" and are self-explanatory. The default font for all Visual Studio color themes is 10pt Consolas regular (not bold). The default colors vary by theme. Typically, you change a font or color if you find it difficult to read text with the default settings.
+
+![Python font and color options](media/options-fonts-and-colors.png)

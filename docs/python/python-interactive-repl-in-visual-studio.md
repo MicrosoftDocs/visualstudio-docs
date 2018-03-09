@@ -34,7 +34,7 @@ Visual Studio has a number of Python REPL modes to choose from:
 | IPython | REPL talks to IPython backend | IPython commands, Pylab conveniences | No | Yes, inline in REPL |
 | IPython w/o Pylab | REPL talks to IPython backend | Standard IPython | No | Yes, separate window | 
 
-This topic describes the **Standard** and **Debug** REPL modes. For details on IPython modes, see [Using the IPython REPL](interactive-repl-ipython.md).
+This article describes the **Standard** and **Debug** REPL modes. For details on IPython modes, see [Using the IPython REPL](interactive-repl-ipython.md).
 
 For a detailed walkthrough with examples, including the interactions with the editor such as Ctrl+Enter, see [Tutorial Step 3: Using the interactive REPL window](tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md). 
 

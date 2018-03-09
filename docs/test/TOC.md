@@ -32,7 +32,7 @@
 ### [Use Test Explorer](run-unit-tests-with-test-explorer.md)
 ### [Run a unit test as a 64-bit process](run-a-unit-test-as-a-64-bit-process.md)
 ### [Create and run unit tests for UWP apps](walkthrough-creating-and-running-unit-tests-for-windows-store-apps.md)
-### [Write unit tests for managed code](writing-unit-tests-for-the-dotnet-framework-with-the-microsoft-unit-test-framework-for-managed-code.md)
+### Write unit tests for managed code
 #### [Isolate code with Microsoft Fakes](isolating-code-under-test-with-microsoft-fakes.md)
 ##### [Use stubs to isolate parts of your application](using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing.md)
 ##### [Use shims to isolate your application from other assemblies](using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md)
@@ -73,7 +73,6 @@
 ## [Test labs](lab-management/using-a-lab-environment-for-your-application-lifecycle.md)
 ### [Use Build or Release management for automated tests](lab-management/use-build-or-rm-instead-of-lab-management.md)
 ### [Install and configure test agents](lab-management/install-configure-test-agents.md)
-### [Upgrade SCVMM 2008 R2 to SCVMM 2012](upgrade-scvmm-2008-r2-scvmm-2012.md)
 # Reference
 ## [Test Explorer FAQ](test-explorer-faq.md)
 ## [Live Unit Testing FAQ](live-unit-testing-faq.md)

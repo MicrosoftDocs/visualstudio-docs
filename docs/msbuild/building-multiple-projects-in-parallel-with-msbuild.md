@@ -39,7 +39,7 @@ You can use MSBuild to build multiple projects faster by running them in paralle
  The following example instructs MSBuild to use three worker processes. If you use this configuration, MSBuild can build three projects at the same time.  
   
 ```  
-msbuild.exe myproj.proj childid=0 childid=1 childid=2   
+msbuild.exe myproj.proj /maxcpucount:3   
 ```  
   
 ## BuildInParallel Task Parameter  
