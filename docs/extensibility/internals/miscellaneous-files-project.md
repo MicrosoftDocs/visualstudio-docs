@@ -18,6 +18,8 @@ caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Miscellaneous Files Project
 When a user opens project items, the IDE assigns to the Miscellaneous Files project any items that are not members of any projects in a solution.  

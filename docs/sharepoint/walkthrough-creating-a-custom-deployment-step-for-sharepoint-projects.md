@@ -14,11 +14,11 @@ dev_langs:
 helpviewer_keywords: 
   - "SharePoint commands"
   - "SharePoint development in Visual Studio, extending deployment"
-ms.assetid: 4ba2d120-06b8-4ef3-84eb-c6c50ced9d82
-caps.latest.revision: 63
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Walkthrough: Creating a Custom Deployment Step for SharePoint Projects
   When you deploy a SharePoint project, Visual Studio executes a series of deployment steps in a specific order. Visual Studio includes many built-in deployment steps, but you can also create your own.  

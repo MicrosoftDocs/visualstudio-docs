@@ -18,6 +18,8 @@ caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Customize the help viewer
 You can customize the layout of the Help Viewer windows, as well as other options such as font size, maximum number of results, and whether to include English content.

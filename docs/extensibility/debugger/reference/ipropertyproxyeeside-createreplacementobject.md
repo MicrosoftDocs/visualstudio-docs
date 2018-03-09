@@ -17,6 +17,8 @@ caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IPropertyProxyEESide::CreateReplacementObject
 Creates a copy of a data object specific to the expression evaluator (EE).  

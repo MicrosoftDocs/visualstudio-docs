@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: msbuild
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
@@ -14,9 +13,11 @@ helpviewer_keywords:
   - "msbuild, building projects in parallel"
 ms.assetid: c8c9aadc-33ad-4aa1-b07d-b879e9eabda0
 caps.latest.revision: 20
-author: "kempb"
-ms.author: "kempb"
+author: Mikejo5000
+ms.author: mikejo
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Building Multiple Projects in Parallel with MSBuild
 You can use MSBuild to build multiple projects faster by running them in parallel. To run builds in parallel, you use the following settings on a multi-core or multiple processor computer:  
@@ -38,7 +39,7 @@ You can use MSBuild to build multiple projects faster by running them in paralle
  The following example instructs MSBuild to use three worker processes. If you use this configuration, MSBuild can build three projects at the same time.  
   
 ```  
-msbuild.exe myproj.proj /maxcpucount:3  
+msbuild.exe myproj.proj /maxcpucount:3   
 ```  
   
 ## BuildInParallel Task Parameter  

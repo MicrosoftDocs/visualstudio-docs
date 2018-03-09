@@ -16,6 +16,8 @@ caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugArrayObject2::GetBaseIndices
 Retrieves the base indices (lower bounds) for each index given the number of dimensions in the array.  

@@ -17,6 +17,8 @@ caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugOutputStringEvent2
 This interface is sent by the debug engine (DE) to the session debug manager (SDM) to output a string.  

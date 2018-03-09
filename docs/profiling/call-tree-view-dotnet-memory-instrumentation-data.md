@@ -15,6 +15,8 @@ caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "dotnet"
 ---
 # Call Tree View - .NET Memory Instrumentation Data
 The Call Tree view of .NET memory allocation profiling data that was collected by using the instrumentation method displays the function execution paths that were traversed in the profiled application. The root of the tree is the entry point into the application or component. Each function node lists all the functions it called, and the .NET memory and timing data for the function.  

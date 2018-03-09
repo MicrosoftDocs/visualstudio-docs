@@ -18,6 +18,8 @@ caps.latest.revision: 19
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Display Line Numbers in the Editor
 You can display or hide line numbering in your code.  

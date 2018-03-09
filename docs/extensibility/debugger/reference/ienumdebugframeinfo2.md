@@ -17,6 +17,8 @@ caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IEnumDebugFrameInfo2
 This interface enumerates [FRAMEINFO](../../../extensibility/debugger/reference/frameinfo.md) structures.  

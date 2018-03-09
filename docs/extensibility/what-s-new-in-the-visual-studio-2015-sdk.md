@@ -13,6 +13,8 @@ caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # What&#39;s New in the Visual Studio 2015 SDK
 The Visual Studio SDK has the following new and updated features for Visual Studio 2015, Visual Studio 2015 updated, and Visual Studio 2017.  
@@ -49,7 +51,7 @@ The Visual Studio SDK has the following new and updated features for Visual Stud
  For C++, the VSPackage Wizard support menu commands, tool windows, and custom editors. Look for it in the **New Project** dialog in **Visual C++ / Extensibility**.  
   
 ## VS SDK Reference Assemblies via NuGet  
- For increased portability and sharing of extensibility projects, you can use the NuGet versions of the VS SDK reference assemblies.  These are available on [nuget.org](http://www.nuget.org) published by [VisualStudioExtensibility](http://www.nuget.org/profiles/VisualStudioExtensibility) and can be easily added to your project or solution through the Visual Studio **References / Manage NuGet Packages** dialog. You can add individual references to specific extensibility assemblies or add all the VS SDK references assemblies at once using the VS SDK [Meta package](http://www.nuget.org/packages/VSSDK_Reference_Assemblies). To learn more about NuGet, see the [NuGet documentation](http://docs.microsoft.com/NuGet) and [Package Manager UI](http://docs.microsoft.com/NuGet/Tools/Package-Manager-UI) topics.  
+ For increased portability and sharing of extensibility projects, you can use the NuGet versions of the VS SDK reference assemblies.  These are available on [nuget.org](http://www.nuget.org) published by [VisualStudioExtensibility](http://www.nuget.org/profiles/VisualStudioExtensibility) and can be easily added to your project or solution through the Visual Studio **References / Manage NuGet Packages** dialog. You can add individual references to specific extensibility assemblies or add all the VS SDK references assemblies at once using the VS SDK [Meta package](http://www.nuget.org/packages/VSSDK_Reference_Assemblies). To learn more about NuGet, see the [NuGet documentation](/NuGet) and [Package Manager UI](/NuGet/Tools/Package-Manager-UI) topics.  
   
  When you use the NuGet versions of the VS SDK reference assemblies, another user doesn't need to install the VS SDK to open and build your project.  The NuGet reference assemblies and VS SDK build tools will automatically be installed on their computer for that project.  
   

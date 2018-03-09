@@ -17,6 +17,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IEEVisualizerDataProvider::CanSetObjectForVisualizer
 This method determines whether the visualizer can have the data object it represents updated.  

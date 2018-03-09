@@ -16,11 +16,11 @@ dev_langs:
 helpviewer_keywords: 
   - "BDC [SharePoint development in Visual Studio], creating a model"
   - "Business Data Connectivity service [SharePoint development in Visual Studio], creating a model"
-ms.assetid: e8b888d4-a531-4d13-9ebf-efbbd33eebc6
-caps.latest.revision: 15
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Create a BDC Model
   You can create a Business Data Connectivity (BDC) model by using the template for that kind of item and then adding the model to any SharePoint project. For more information, see [Creating a Business Data Connectivity Model](../sharepoint/creating-a-business-data-connectivity-model.md). For more information about how to design the model, see [Designing a Business Data Connectivity Model](../sharepoint/designing-a-business-data-connectivity-model.md).  

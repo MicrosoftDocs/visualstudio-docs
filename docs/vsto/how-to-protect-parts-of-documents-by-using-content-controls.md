@@ -19,11 +19,11 @@ helpviewer_keywords:
   - "document protection [Office development in Visual Studio]"
   - "Word [Office development in Visual Studio], restricted permissions"
   - "GroupContentControl"
-ms.assetid: 50d7286a-7746-446f-8eef-06ceeadc94d0
-caps.latest.revision: 28
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Protect Parts of Documents by Using Content Controls
   When you protect part of a document, you prevent users from changing or deleting the content in that part of the document. There are several ways you can protect parts of a Microsoft Office Word document by using content controls:  

@@ -21,6 +21,8 @@ caps.latest.revision: 9
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+ms.workload: 
+  - "multiple"
 ---
 # How to: Set a Custom Log File Location for ClickOnce Deployment Errors
 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] maintains activation log files for all deployments. These logs document any errors pertaining to installing and initializing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment. By default, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] creates one log file for each deployment activation. It stores these log files in the Temporary Internet Files folder. The log file for a deployment is displayed to the user when an activation failure occurs, and the user clicks **Details** in the resulting error dialog box.  

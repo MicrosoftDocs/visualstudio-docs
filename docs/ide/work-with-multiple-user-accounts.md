@@ -4,15 +4,14 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
+ms.technology: vs-ide-general
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b73c865c-74e0-420e-89cc-43524f4aafd0
-caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Work with multiple user accounts
 
@@ -47,7 +46,7 @@ The next time you open Server Explorer, the resources for that subscription(s) a
 1. Choose the project node in Solution Explorer and then choose **Add, Connected Service**. The **Add Connected Service** wizard appears and shows you the list of services in the Azure account that is associated with your Visual Studio login ID. Note that you do not have to sign in separately to Azure. However, you do need to sign in to the other accounts the first time you attempt to access their resources from a given computer.
 
     > [!WARNING]
-    > If this is the first time you are creating a UWP app in Visual Studio on a specific computer, you will be prompted to enable your device for development mode by going to **Settings &#124;  Updates and Security &#124; For Developers** on your computer. For more information, see [Enable Your Device for Development](https://msdn.microsoft.com/en-us/library/windows/apps/dn706236.aspx).
+    > If this is the first time you are creating a UWP app in Visual Studio on a specific computer, you will be prompted to enable your device for development mode by going to **Settings &#124;  Updates and Security &#124; For Developers** on your computer. For more information, see [Enable Your Device for Development](/windows/uwp/get-started/enable-your-device-for-development).
 
 ### <a name="access_azure"></a> Access Azure Active Directory in a Web project
 
@@ -77,4 +76,4 @@ Now go to **Server Explorer** again, right-click on the Azure node and choose **
 
 ## See also
 
-[Internet resources used by Visual Studio](../ide/connected-environment.md)
+[Sign in to Visual Studio](signing-in-to-visual-studio.md)

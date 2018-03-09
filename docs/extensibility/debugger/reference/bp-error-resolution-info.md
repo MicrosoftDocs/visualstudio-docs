@@ -17,6 +17,8 @@ caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # BP_ERROR_RESOLUTION_INFO
 Describes the resolution of an error breakpoint, including location, program, and thread.  

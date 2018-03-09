@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 helpviewer_keywords: 
   - "message options, Search"
 ms.assetid: 44fb43b7-b006-46cc-a70c-036aac3cceec
@@ -15,6 +15,8 @@ caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Message Search Dialog Box
 Use this dialog box to find and select the node for a specific message in [Messages View](../debugger/messages-view.md). To display this dialog box, move the focus to a Messages view window. Then choose **Find Message** from the **Search** menu.  

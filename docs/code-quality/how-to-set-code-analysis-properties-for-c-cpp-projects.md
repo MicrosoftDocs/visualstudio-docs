@@ -23,6 +23,8 @@ caps.latest.revision: 17
 author: mikeblome
 ms.author: mblome
 manager: ghogen
+ms.workload: 
+  - "cplusplus"
 ---
 # How to: Set Code Analysis Properties for C/C++ Projects
 You can configure which rules the code analysis tool uses to analyze the code in each configuration of your project. In addition, you can direct code analysis to suppress warnings from code that was generated and added to your project by a third-party tool.  

@@ -13,6 +13,8 @@ caps.latest.revision: 18
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Creating a Custom Start Page
 You can create a custom Start Page by following the steps in this document.  

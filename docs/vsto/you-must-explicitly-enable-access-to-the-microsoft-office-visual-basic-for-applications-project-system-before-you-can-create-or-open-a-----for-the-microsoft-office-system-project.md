@@ -17,11 +17,11 @@ f1_keywords:
 dev_langs: 
   - "VB"
   - "CSharp"
-ms.assetid: 538021e6-1776-453d-9899-d7fca2f1f58f
-caps.latest.revision: 19
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # You must explicitly enable access to the Microsoft Office Visual Basic for Applications project system before you can create or open a Visual Studio Tools for the Microsoft Office System project
   Office development projects require access to the Visual Basic for Applications project system in Microsoft Office Word and Microsoft Office Excel, even though the projects do not use Visual Basic for Applications. Design-time support of controls in both Visual Basic and C# projects depends on the Visual Basic for Applications project system.  

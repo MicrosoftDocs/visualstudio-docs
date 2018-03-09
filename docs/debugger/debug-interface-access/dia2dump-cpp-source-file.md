@@ -17,6 +17,8 @@ caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Dia2dump.cpp Source File
 The following Dia2dump.cpp source code displays the contents of a .pdb file. This source code is used by [Dia2dump Sample](../../debugger/debug-interface-access/dia2dump-sample.md).  

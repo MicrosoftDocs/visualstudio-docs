@@ -17,6 +17,8 @@ caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugParsedExpression::EvaluateSync
 This method evaluates the parsed expression and optionally casts the result to another data type.  

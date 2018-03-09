@@ -13,6 +13,8 @@ caps.latest.revision: 7
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Common Control Patterns for Visual Studio
 ##  <a name="BKMK_CommonControls"></a> Common controls  

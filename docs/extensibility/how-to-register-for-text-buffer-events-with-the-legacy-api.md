@@ -15,6 +15,8 @@ caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # How to: Register for Text Buffer Events with the Legacy API
 If you are accessing the text buffer by using the legacy API, you should register for text buffer events as shown in the following procedure.  

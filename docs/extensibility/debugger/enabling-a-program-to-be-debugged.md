@@ -15,6 +15,8 @@ caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Enabling a Program to Be Debugged
 Before your debug engine (DE) can debug a program, you must first launch the DE or attach it to an existing program.  

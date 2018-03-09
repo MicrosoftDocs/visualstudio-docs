@@ -13,6 +13,8 @@ caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Troubleshooting Performance Tools Issues
 You might experience one of the following issues when you use the Profiling Tools:  

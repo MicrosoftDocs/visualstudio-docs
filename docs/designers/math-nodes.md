@@ -13,6 +13,8 @@ caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Math Nodes
 In the Shader Designer, math nodes perform algebraic, logic, trigonometric, and other mathematical operations.  

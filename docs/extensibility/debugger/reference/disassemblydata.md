@@ -17,6 +17,8 @@ caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # DisassemblyData
 Describes one disassembly instruction for the integrated development environment (IDE) to display.  

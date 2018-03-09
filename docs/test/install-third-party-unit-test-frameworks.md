@@ -4,14 +4,14 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 47893b70-46f8-49dc-84bd-ec820178f683
-caps.latest.revision: 10
-ms.author: "douge"
-manager: "douge"
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+author: gewarren
 ---
 # Install third-party unit test frameworks
 Visual Studio Test Explorer can run any unit test framework that has developed an adapter interface for the Explorer. The install program of the framework installs the binaries and adds Visual Studio project templates for the languages it supports. When you create a project with the template, the framework is registered with Test Explorer. A Visual Studio solution can contain unit test projects that use different frameworks and that are targeted at different languages. Test Explorer runs them all.  
@@ -52,7 +52,24 @@ Visual Studio Test Explorer can run any unit test framework that has developed a
   
 3.  In the **Category** list (labeled as **Showing**), expand the **Tools** node and then choose **Testing**.  
   
-4.  Choose a framework in the results list to navigate to a Visual Studio Marketplace page for the tool.  
-  
-## See Also  
- [Unit Test Your Code](../test/unit-test-your-code.md)
+4.  Choose a framework in the results list to navigate to a Visual Studio Marketplace page for the tool. 
+
+## Update to the latest test adapters
+
+Update to the latest stable test adapter to experience better test discovery and execution. For more information about updates to MSTest, NUnit, and xUnit test adapters, see the [Visual Studio blog](https://blogs.msdn.microsoft.com/visualstudio/2017/11/16/test-experience-improvements/).
+
+### To update to the latest stable test adapter version
+
+1. Open the Nuget Package Manager for your solution by navigating to **Tools > NuGet Package Manager > Manage NuGet Packages for Solution...**
+
+2. Click on the **Updates** tab and search for NUnit or xUnit test adapters that are installed.
+
+3. Select each test adapter, and then select the latest stable version in the drop down menu.
+
+4. Choose the **Install** button.
+
+![Upgrade Test Adapter](media/installadapter-upgrade.png)
+
+## See also
+
+- [Unit Test Your Code](../test/unit-test-your-code.md)

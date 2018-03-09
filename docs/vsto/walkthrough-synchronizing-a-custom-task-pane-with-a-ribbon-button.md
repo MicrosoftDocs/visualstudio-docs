@@ -24,11 +24,11 @@ helpviewer_keywords:
   - "hiding custom task panes"
   - "task panes [Office development in Visual Studio], creating"
   - "task panes [Office development in Visual Studio], synchronizing with Ribbon button"
-ms.assetid: 00ce8b1e-1370-42f2-9dc9-609cada392f1
-caps.latest.revision: 38
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Walkthrough: Synchronizing a Custom Task Pane with a Ribbon Button
   This walkthrough demonstrates how to create a custom task pane that users can hide or display by clicking a toggle button on the Ribbon. You should always create a user interface (UI) element, such as a button, that users can click to display or hide your custom task pane, because Microsoft Office applications do not provide a default way for users to show or hide custom task panes.  

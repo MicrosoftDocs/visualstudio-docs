@@ -17,6 +17,8 @@ caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Hierarchies and Selection
 When you customize [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], you should understand how [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] handles hierarchies such as projects and how it uses selection context to determine what is displayed to the user. This section discusses the concepts of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] hierarchies and selection.  

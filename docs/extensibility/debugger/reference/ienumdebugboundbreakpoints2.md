@@ -17,6 +17,8 @@ caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IEnumDebugBoundBreakpoints2
 This interface enumerates the bound breakpoints associated with a pending breakpoint or breakpoint bound event.  

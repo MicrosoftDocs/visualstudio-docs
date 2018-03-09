@@ -17,6 +17,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugFunctionObject::CreateArrayObject
 Creates an array object. This array can contain either primitive or object instance values.  

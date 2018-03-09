@@ -17,6 +17,8 @@ caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProcess3::GetENCAvailableState
 This method gets the current Edit and Continue state of the process. A custom port supplier should always return `E_NOTIMPL`.  

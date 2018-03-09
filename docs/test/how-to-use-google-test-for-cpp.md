@@ -4,14 +4,14 @@ ms.custom: ""
 ms.date: "11/04/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a4868fae-fd6d-4b98-a85f-f23b0dd2fca5
-caps.latest.revision: 14
 ms.author: mblome
 manager: ghogen
+ms.workload: 
+  - "cplusplus"
+author: mikeblome
 ---
 
 # How to use Google Test for C++ in Visual Studio

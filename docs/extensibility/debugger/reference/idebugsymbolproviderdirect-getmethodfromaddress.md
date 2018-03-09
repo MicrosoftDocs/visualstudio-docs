@@ -16,6 +16,8 @@ caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugSymbolProviderDirect::GetMethodFromAddress
 Retrieves information about the method at the specified debug address.  

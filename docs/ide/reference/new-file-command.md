@@ -18,6 +18,8 @@ caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # New File Command
 Creates a new file and opens it. The file appears under the Miscellaneous Files folder.  

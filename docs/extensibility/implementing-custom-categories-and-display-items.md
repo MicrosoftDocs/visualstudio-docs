@@ -16,6 +16,8 @@ caps.latest.revision: 25
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Implementing Custom Categories and Display Items
 A VSPackage can provide control of the fonts and colors of its text to the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) through custom categories and display items.  

@@ -10,7 +10,7 @@ ms.assetid: 562DCB46-D8FA-4DC4-AAEA-F274448C4CD2
 
 # Task Comments
 
-When writing code, it is standard practice to explicitly comment unfinished or questionable code or quick workarounds with warnings. The default signal tokens provided by Visual Studio for Mac are TODO, HACK, FIXME, and UNDONE, although personalized tokens can be defined under **Visual Studio > Preferences... > Environment > Tasks**, which is illustrated below:
+When writing code, it is standard practice to explicitly comment unfinished or questionable code or quick workarounds with warnings. The default signal tokens provided by Visual Studio for Mac are TODO, HACK, FIXME, and UNDONE. Personalized tokens can be defined under **Visual Studio > Preferences... > Environment > Tasks**, as illustrated in the following image:
 
  ![Task list preferences](media/source-editor-image10.png)
 

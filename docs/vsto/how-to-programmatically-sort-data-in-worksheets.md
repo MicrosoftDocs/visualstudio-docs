@@ -16,11 +16,11 @@ helpviewer_keywords:
   - "data [Office development in Visual Studio], sorting in worksheets"
   - "worksheets, sorting data"
   - "sorting data, in worksheets"
-ms.assetid: 2fbc6e63-02ea-4624-8d6f-bed60e06c61e
-caps.latest.revision: 56
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Sort Data in Worksheets
   You can sort data that is contained in worksheet ranges and lists at run time. The following code sorts a multi-column range named `Fruits` by the data in the first column, and then by the data in the second column.  

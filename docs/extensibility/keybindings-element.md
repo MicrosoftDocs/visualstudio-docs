@@ -18,6 +18,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # KeyBindings Element
 The KeyBindings element groups KeyBinding elements and other KeyBindings groupings.  

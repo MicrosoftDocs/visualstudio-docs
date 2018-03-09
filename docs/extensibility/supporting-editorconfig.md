@@ -14,6 +14,8 @@ helpviewer_keywords:
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Supporting EditorConfig for your language service
 

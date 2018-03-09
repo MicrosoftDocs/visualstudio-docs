@@ -13,6 +13,8 @@ caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # XML Schema Designer Tasks
 This section describes how to complete common tasks with the XML Schema Designer tools.  

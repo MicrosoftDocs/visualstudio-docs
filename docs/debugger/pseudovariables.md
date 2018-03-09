@@ -22,6 +22,8 @@ caps.latest.revision: 35
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Pseudovariables in the Visual Studio debugger
 Pseudovariables are terms used to display certain information in a variable window or the **QuickWatch** dialog box. You can enter a pseudovariable the same way you would enter a normal variable. Pseudovariables are not variables, however, and do not correspond to variable names in your program.  
@@ -47,7 +49,7 @@ $handles
 |`$` *registername*<br /><br /> or<br /><br /> `@` *registername*|Displays the contents of the register *registername*.<br /><br /> Normally, you can display register contents just by entering the register name. The only time you need to use this syntax is when the register name overloads a variable name. If the register name is the same as a variable name in the current scope, the debugger interprets the name as a variable name. That's when `$`*registername* or `@`*registername* comes in handy.|  
 |`$clk`|Displays the time in clock cycles.|  
 |`$user`|Displays a structure with account information for the account running the application. For security reasons, the password information is not displayed.|  
-|`$exceptionstack`|Displays the stack trace of the current Windows Runtime exception. `$ exceptionstack` works only in UWP and Windows 8.1 apps or later. `$ exceptionstack` is not supported for C++ and SHE exceptions|  
+|`$exceptionstack`|Displays the stack trace of the current Windows Runtime exception. `$ exceptionstack` works only in UWP apps. `$ exceptionstack` is not supported for C++ and SHE exceptions|  
 |`$ReturnValue`|Displays the return value of a .NET Framework method.|  
   
  In C# and Visual Basic, you can use the pseudovariables shown in this table:  

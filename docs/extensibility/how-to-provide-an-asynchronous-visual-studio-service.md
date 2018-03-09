@@ -11,6 +11,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # How to: Provide an Asynchronous Visual Studio Service
 If you want to obtain a service without blocking the UI thread, you should create an asynchronous service and load the package on a background thread. For this purpose you can use an <xref:Microsoft.VisualStudio.Shell.AsyncPackage> rather than a <xref:Microsoft.VisualStudio.Shell.Package>, and add the service with the asynchronous package's special asynchronous methods  
@@ -19,9 +21,9 @@ If you want to obtain a service without blocking the UI thread, you should creat
   
 ## Implementing an Asynchronous Service  
   
-1.  Create a VSIX project (**File / New / Project / Visual C# / Extensiblity / VSIX Project**). Name the project **TestAsync**.  
+1.  Create a VSIX project (**File > New > Project > Visual C# > Extensiblity > VSIX Project**). Name the project **TestAsync**.  
   
-2.  Add a VSPackage to the project. Select the project node in the **Solution Explorer** and click **Add / New item / Visual C# Items / Extensibility / Visual Studio Package**. Name this file **TestAsyncPackage.cs**.  
+2.  Add a VSPackage to the project. Select the project node in the **Solution Explorer** and click **Add > New item > Visual C# Items > Extensibility > Visual Studio Package**. Name this file **TestAsyncPackage.cs**.  
   
 3.  In TestAsyncPackage.cs, change the package to inherit from AsyncPackage rather than Package:  
   

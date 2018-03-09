@@ -24,6 +24,8 @@ caps.latest.revision: 13
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+ms.workload: 
+  - "multiple"
 ---
 # How to: Manage Updates for a ClickOnce Application
 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications can check for updates automatically or programmatically. As a developer, you have lots of flexibility in specifying when and how update checks are performed, whether updates are mandatory, and where the application should check for updates.  

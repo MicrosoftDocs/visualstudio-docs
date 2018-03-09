@@ -15,11 +15,11 @@ helpviewer_keywords:
   - "application manifests [Office development in Visual Studio], <postAction> element"
   - "<postAction> element"
   - "postAction element"
-ms.assetid: a047e2e2-9732-4140-b8bd-bc5bd1b84291
-caps.latest.revision: 14
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # &lt;postAction&gt; Element (Office Development in Visual Studio)
   The `postAction` element of the `vstav3` namespace contains the `entrypoint` elements and all `postActionData` elements that are associated with post-deployment actions, which run after Office solutions are installed.  

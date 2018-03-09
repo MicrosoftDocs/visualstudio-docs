@@ -23,6 +23,8 @@ caps.latest.revision: 6
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+ms.workload: 
+  - "cplusplus"
 ---
 # ClickOnce Unmanaged API Reference
 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] unmanaged public APIs from dfshim.dll.  

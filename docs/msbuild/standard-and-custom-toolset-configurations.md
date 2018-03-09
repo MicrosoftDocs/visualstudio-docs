@@ -1,50 +1,47 @@
 ---
 title: "Standard and Custom Toolset Configurations | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "01/31/2018"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: msbuild
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "MSBuild, custom toolset configurations"
   - "MSBuild, msbuild.exe.config"
 ms.assetid: 15a048c8-5ad3-448e-b6e9-e3c5d7147ed2
-caps.latest.revision: 31
-author: "kempb"
-ms.author: "kempb"
+author: Mikejo5000
+ms.author: mikejo
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Standard and Custom Toolset Configurations
 An MSBuild Toolset contains references to tasks, targets, and tools that you can use to build an application project. MSBuild includes a standard Toolset, but you can also create custom Toolsets. For information about how to specify a Toolset, see [Toolset (ToolsVersion)](../msbuild/msbuild-toolset-toolsversion.md)  
   
 ## Standard Toolset Configurations  
- MSBuild 12.0 includes the following standard Toolsets:  
+ MSBuild 15.0 includes the following standard Toolsets:  
   
 |ToolsVersion|Toolset Path (as specified in the MSBuildToolsPath or MSBuildBinPath build property)|  
 |------------------|--------------------------------------------------------------------------------------------|  
 |2.0|*Windows installation path*\Microsoft.Net\Framework\v2.0.50727\|  
 |3.5|*Windows installation path*\Microsoft.NET\Framework\v3.5\|  
 |4.0|*Windows installation path*\Microsoft.NET\Framework\v4.0.30319\|  
-|12.0|*%ProgramFiles%*\MSBuild\12.0\bin|  
+|15.0|*Visual Studio installation path*\MSBuild\15.0\bin|  
   
- The `ToolsVersion` value determines which Toolset is used by a project that Visual Studio generates. In [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md)] the default value is "12.0" (no matter what the version specified in the project file), but you can override that attribute by using the **/toolsversion** switch at a command prompt. For information about this attribute and other ways to specify the `ToolsVersion`, see [Overriding ToolsVersion Settings](../msbuild/overriding-toolsversion-settings.md).  
+ The `ToolsVersion` value determines which Toolset is used by a project that Visual Studio generates. In Visual Studio 2017, the default value is "15.0" (no matter what the version specified in the project file), but you can override that attribute by using the **/toolsversion** switch at a command prompt. For information about this attribute and other ways to specify the `ToolsVersion`, see [Overriding ToolsVersion Settings](../msbuild/overriding-toolsversion-settings.md).  
   
- If the `ToolsVersion` isn't specified, the registry key **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSBuild\\<Version Number\>\DefaultToolsVersion** defines the `ToolsVersion`, which is always 2.0.  
-  
- The following registry keys specify the installation path of MSBuild.exe.  
+ Visual Studio 2017 does not use a registry key for the path to MSBuild. For versions of MSBuild prior to 15.0 that are installed with Visual Studio 2017, the following registry keys specify the installation path of MSBuild.exe.  
   
 |Registry Key|Key Name|String Key Value|  
 |------------------|--------------|----------------------|  
 |\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSBuild\ToolsVersions\2.0\|MSBuildToolsPath|.NET Framework 2.0 Install Path|  
 |\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ MSBuild\ToolsVersions\3.5\|MSBuildToolsPath|.NET Framework 3.5 Install Path|  
 |\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ MSBuild\ToolsVersions\4.0\|MSBuildToolsPath|.NET Framework 4 Install Path|  
-|\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ MSBuild\ToolsVersions\12.0\|MSBuildToolsPath|MSBuild Install Path|  
   
 ### Sub-toolsets  
- If the registry key in the previous table has a subkey, MSBuild uses it to determine the path of a sub-toolset may override the path in the parent toolset. The following subkey is an example:  
+ If the registry key in the previous table has a subkey, MSBuild uses it to determine the path of a sub-toolset that overrides the path in the parent toolset. The following subkey is an example:  
   
  \HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSBuild\ToolsVersions\12.0\12.0  
   
@@ -58,11 +55,11 @@ An MSBuild Toolset contains references to tasks, targets, and tools that you can
 ## Custom Toolset Definitions  
  When a standard Toolset does not fulfill your build requirements, you can create a custom Toolset. For example, you may have a build lab scenario in which you must have a separate system for building [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] projects. By using a custom Toolset, you can assign custom values to the `ToolsVersion` attribute when you create projects or run MSBuild.exe. By doing this, you can also use the `$(MSBuildToolsPath)` property to import .targets files from that directory, as well as defining your own custom toolset properties that can be used for any project that uses that toolset.  
   
- Specify a custom Toolset in the configuration file for MSBuild.exe (or for the custom tool that hosts the MSBuild engine if that is what you are using). For example, the configuration file for MSBuild.exe could include the following Toolset definition if you wished to override the default behavior of ToolsVersion 12.0.  
+ Specify a custom Toolset in the configuration file for MSBuild.exe (or for the custom tool that hosts the MSBuild engine if that is what you are using). For example, the configuration file for MSBuild.exe could include the following Toolset definition if you wished to override the default behavior of ToolsVersion 15.0.  
   
 ```xml  
-<msbuildToolsets default="12.0">  
-   <toolset toolsVersion="12.0">  
+<msbuildToolsets default="15.0">  
+   <toolset toolsVersion="15.0">  
       <property name="MSBuildToolsPath"   
         value="C:\SpecialPath" />  
    </toolset>  
@@ -75,7 +72,7 @@ An MSBuild Toolset contains references to tasks, targets, and tools that you can
 <configSections>  
    <section name="msbuildToolsets"         
        Type="Microsoft.Build.BuildEngine.ToolsetConfigurationSection,   
-       Microsoft.Build.Engine, Version=12.0.0.0, Culture=neutral,   
+       Microsoft.Build.Engine, Version=15.1.0.0, Culture=neutral,   
        PublicKeyToken=b03f5f7f11d50a3a"  
    </section>  
 </configSections>  

@@ -1,5 +1,5 @@
 ---
-title: "Run UWP and Windows 8.1 apps in the simulator | Microsoft Docs"
+title: "Run UWP apps in the simulator | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -18,21 +18,21 @@ caps.latest.revision: 42
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "uwp"
 ---
-# Run UWP and Windows 8.1 apps in the simulator
-The Visual Studio simulator for UWP and Windows 8.1 apps is a desktop application that simulates a UWP or Windows 8.1 app. You can run applications choose the physical screen size and resolution that you want to emulate. You can also simulate common touch and rotation events and simulate network connection properties.
+# Run UWP apps in the simulator
+The Visual Studio simulator for UWP apps is a desktop application that simulates a UWP app. Typically, you will want to debug on the local machine, a connected device, or a remote machine. However, in some scenarios, you may want to use the Visual Studio simulator to emulate a different physical screen size and resolution. You can also simulate common touch and rotation events and simulate network connection properties.
   
- The simulator provides an environment in which you can design, develop, debug, and test UWP apps. However, before you publish your app to the Microsoft Store, you should test your app on an actual device.  
+ The simulator provides an environment in which you can design, develop, debug, and test UWP apps. However, before you publish your app to Microsoft Store, you should test your app on an actual device.  
   
  The Visual Studio simulator for UWP apps does not run in an isolated environment on your local machine. Therefore, errors that occur in the simulator, such as a non-recoverable system-wide error, can also affect the entire machine.  
   
- See [Run Windows Phone apps in the emulator](../debugger/run-windows-phone-apps-in-the-emulator.md) for Windows Phone information.  
-  
 > [!IMPORTANT]
->  The Visual Studio 2015 simulator does not include the geolocation button. This is because the Windows 10 simulator does not include geolocation simulation. If you need to do this kind of simulation, you can use the Visual Studio 2013 simulator on Windows 8.1 or earlier operating systems.  
+>  The Visual Studio 2015 simulator does not include the geolocation button. This is because the Windows 10 simulator does not include geolocation simulation.
   
 ##  <a name="BKMK_Set_the_simulator_as_the_target"></a> Set the simulator as the target  
- To run your UWP app in the simulator, select **Simulator** from the drop-down list next to the **Start Debugging** button on the debugger **Standard** toolbar.  
+ To run your UWP app in the simulator, select **Simulator** from the drop-down list next to the **Start Debugging** button on the debugger **Standard** toolbar. This option is only available if your app's **Target Platform Min. Version** is less than or equal to the operating system on your development machine. 
   
  ![Running in the Simulator](../debugger/media/vsrun_f5_simulator.png "VSRUN_F5_Simulator")  
   

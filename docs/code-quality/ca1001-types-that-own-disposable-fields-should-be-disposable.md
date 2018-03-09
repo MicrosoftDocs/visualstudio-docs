@@ -19,6 +19,8 @@ caps.latest.revision: 22
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA1001: Types that own disposable fields should be disposable
 |||  

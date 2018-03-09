@@ -4,9 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-techdebt"
-ms.tgt_pltfrm: ""
+ms.technology: vs-ide-modeling
 ms.topic: "article"
 f1_keywords: 
   - "vs.teamarch.common.commentlink.properties"
@@ -22,19 +20,20 @@ helpviewer_keywords:
   - "diagrams - modeling, layer"
   - "software, designing"
   - "software, modeling"
-ms.assetid: b69d9d91-c7e7-4dee-8eb6-706076eecb85
-caps.latest.revision: 58
-author: "alexhomer1"
-ms.author: "ahomer"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Create models for your app
+
 Modeling diagrams help you understand, clarify, and communicate ideas about your code and the user requirements that your software system must support.
-  
- To see which versions of Visual Studio support each type of diagram, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
-  
- To visualize the architecture of a system or existing code, create the following diagrams:  
-  
+
+To see which versions of Visual Studio support each type of diagram, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
+
+To visualize the architecture of a system or existing code, create the following diagrams:  
+
 |**Diagram**|**Shows**|  
 |-----------------|---------------|  
 |[Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)<br /><br /> [Dependency Diagrams: Reference](../modeling/layer-diagrams-reference.md)|High-level architecture of the system|  
@@ -49,11 +48,10 @@ Modeling diagrams help you understand, clarify, and communicate ideas about your
 |[Model user requirements](../modeling/model-user-requirements.md)|Use models to clarify and communicate the users' needs.|  
 |[Model your app's architecture](../modeling/model-your-app-s-architecture.md)|Use models to describe the overall structure and behavior of your system and to make sure that it meets the users' needs.|  
 |[Validate your system during development](../modeling/validate-your-system-during-development.md)|Make sure that your software stays consistent with your users' needs and the overall architecture of your system.|  
-|[Use models in your development process](../modeling/use-models-in-your-development-process.md)<br /><br /> [Use models in Agile development](http://msdn.microsoft.com/en-us/592ac27c-3d3e-454a-9c38-b76658ed137f)|Use models to help you understand and change your system during its development.|  
+|[Use models in your development process](../modeling/use-models-in-your-development-process.md)<br /><br /> [Use models in Agile development](http://msdn.microsoft.com/592ac27c-3d3e-454a-9c38-b76658ed137f)|Use models to help you understand and change your system during its development.|  
 |[Structure your modeling solution](../modeling/structure-your-modeling-solution.md)|Organize models in a large or medium project.|  
   
-## External Resources  
-  
-|**Category**|**Links**|  
-|------------------|---------------|  
-|**Forums**|-   [Visual Studio Visualization & Modeling Tools](http://go.microsoft.com/fwlink/?LinkId=184720)<br />-   [Visual Studio Visualization & Modeling SDK (DSL Tools)](http://go.microsoft.com/fwlink/?LinkId=184721)|
+## Resources
+
+[Visual Studio Visualization & Modeling Tools Forum](http://go.microsoft.com/fwlink/?LinkId=184720)  
+[Visual Studio Extensibility Forum](https://social.msdn.microsoft.com/Forums/vstudio/en-US/home?forum=vsx)

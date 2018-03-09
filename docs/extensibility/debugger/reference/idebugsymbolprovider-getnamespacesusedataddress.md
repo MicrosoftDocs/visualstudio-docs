@@ -17,6 +17,8 @@ caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugSymbolProvider::GetNamespacesUsedAtAddress
 This method creates an enumerator for namespaces associated with the debug address.  

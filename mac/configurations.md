@@ -12,18 +12,18 @@ ms.assetid: 78107CFA-9308-4293-A92A-9B552A259E15
 
 ## Project build configurations 
 
-Projects can have multiple configurations and switching between them allows for different outputs at build time. For example, when using a Debug configuration, the output will include debugging symbols, which allows the debugger to resolve function names, parameters, or variables from a crashed application's stack trace. Using a Debug configuration, however, leads to an inflated file size and so would not be ideal for an application intended for distribution.
+Projects tend to have multiple configurations and switching between them allows for different outputs at build time. For example, a Debug configuration will output debugging symbols, allowing the debugger to resolve function names, parameters, or variables from a crashed application's stack trace. While this additional information is useful during development, it leads to an inflated file size and isn't ideal for distribution.
 
-Each platform will have specific configurations for its build. Xamarin.Android development will always have only a Release or Debug configuration. Xamarin.iOS has more configurations. Newer iOS projects will have only debug or release configurations, but these can be set for either a device or any installed simulator.
+Each platform has specific configurations for its build. 
 
 ## Solution configurations
 
-Akin to project configurations, solution configurations are used to create custom configurations for an entire project. By using the **Configuration Mappings** tab under the **Build > Configurations** item, you can assign a target configuration for each solution item, as illustrated below:
+Akin to project configurations, solution configurations are used to create custom configurations for an entire project. By using the **Configuration Mappings** tab under the **Build > Configurations** item, you can assign a target configuration for each solution item, as illustrated in the following image:
 
 
  ![Configuration Mapping Options](media/projects-and-solutions-image3.png)
 
-For more information, refer to the [Configuration Manager](https://www.youtube.com/watch?v=tjSdkqYh5Vg) video by James Montemagno.
+For more information about configurations, see the [Configuration Manager](https://www.youtube.com/watch?v=tjSdkqYh5Vg) video by James Montemagno.
 
 ## Run configuration
 
@@ -45,7 +45,7 @@ Activities other than the `MainLauncher` will need to have `Exported=true` added
 
 ## Examples of data that might be included in run configurations
 
-The list below provides some examples of data that could be included in run configurations:
+The following list provides some examples of data that could be included in run configurations:
 
 * Regular .NET project
     * Alternative startup app

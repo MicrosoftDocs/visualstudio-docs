@@ -18,6 +18,8 @@ caps.latest.revision: 56
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Creating an Extension with a Menu Command
 This walkthrough shows how to create an extension with a menu command that launches Notepad.  

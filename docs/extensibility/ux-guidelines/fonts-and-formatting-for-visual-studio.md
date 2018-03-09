@@ -13,6 +13,8 @@ caps.latest.revision: 5
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Fonts and Formatting for Visual Studio
 ##  <a name="BKMK_TheEnvironmentFont"></a> The environment font  

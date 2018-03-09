@@ -14,11 +14,11 @@ dev_langs:
 helpviewer_keywords: 
   - "walkthroughs [Office development in Visual Studio], Excel"
   - "Excel [Office development in Visual Studio], walkthroughs"
-ms.assetid: 0a113292-02e2-4156-b5a2-9bb252f788cd
-caps.latest.revision: 29
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Walkthroughs Using Excel
   The following walkthroughs demonstrate ways you can use document-level customizations and VSTO Add-ins to automate Microsoft Office Excel and customize the user interface (UI).  

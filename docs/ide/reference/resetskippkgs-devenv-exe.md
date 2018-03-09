@@ -17,6 +17,8 @@ caps.latest.revision: 3
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # /ResetSkipPkgs (devenv.exe)
 Clears all options to skip loading added to VSPackages by users wishing to avoid loading problem VSPackages, then starts [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].  

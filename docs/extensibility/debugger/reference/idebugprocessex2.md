@@ -17,6 +17,8 @@ caps.latest.revision: 21
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProcessEx2
 This interface lets the session debug manager (SDM) notify a process that it is attaching to or detaching from the process.  

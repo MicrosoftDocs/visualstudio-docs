@@ -15,6 +15,8 @@ caps.latest.revision: 24
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Core Interfaces
 The following interfaces are the core interfaces for extending debugger by using the [!INCLUDE[vsipsdk](../../../extensibility/includes/vsipsdk_md.md)].  

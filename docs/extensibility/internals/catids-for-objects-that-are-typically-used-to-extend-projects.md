@@ -17,6 +17,8 @@ caps.latest.revision: 16
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # CATIDs for Objects That Are Typically Used to Extend Projects
 The following table lists CATIDs that are used to extend `Project` and `ProjectItem` automation objects for [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)], [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)], and [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] projects. These CATIDs are defined in VSLangProj.olb.  

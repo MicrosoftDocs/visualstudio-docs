@@ -30,6 +30,8 @@ caps.latest.revision: 27
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+ms.workload: 
+  - "multiple"
 ---
 # &lt;dependency&gt; Element (ClickOnce Deployment)
 Identifies the version of the application to install, and the location of the application manifest.  

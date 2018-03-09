@@ -13,6 +13,8 @@ caps.latest.revision: 2
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # UI Text and Help for Visual Studio
 ##  <a name="BKMK_UITextAndTerminology"></a> UI text and terminology  

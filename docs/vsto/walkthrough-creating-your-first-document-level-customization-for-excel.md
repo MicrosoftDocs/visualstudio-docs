@@ -15,11 +15,11 @@ helpviewer_keywords:
   - "Office development in Visual Studio, creating your first project"
   - "Excel [Office development in Visual Studio], creating your first project"
   - "document-level customizations [Office development in Visual Studio], creating your first project"
-ms.assetid: 785d3b86-5ed5-4e0d-b5ee-896b6b1330ac
-caps.latest.revision: 28
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Walkthrough: Creating Your First Document-Level Customization for Excel
   This introductory walkthrough shows you how to create a document-level customization for Microsoft Office Excel. The features that you create in this kind of solution are available only when a specific workbook is open. You cannot use a document-level customization to make application-wide changes, for example, displaying a new Ribbon tab when any workbook is open.  

@@ -17,6 +17,8 @@ caps.latest.revision: 17
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugCoreServer2::GetMachineUtilities_V7
 This method gets the machine utilities for a server.  

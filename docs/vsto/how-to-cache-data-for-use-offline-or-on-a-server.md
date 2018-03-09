@@ -18,11 +18,11 @@ helpviewer_keywords:
   - "offline data [Office development in Visual Studio]"
   - "data [Office development in Visual Studio], caching"
   - "data caching [Office development in Visual Studio], offline use"
-ms.assetid: 6246b187-9413-4336-821d-2259b1adec5a
-caps.latest.revision: 49
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Cache Data for Use Offline or on a Server
   You can mark a data item to be cached in the document, so that it is available offline. This also makes it possible for the data in the document to be manipulated by other code when the document is stored on a server.  

@@ -19,11 +19,11 @@ helpviewer_keywords:
   - "deploying applications [Office development in Visual Studio], Publish Wizard"
   - "Office applications [Office development in Visual Studio], Publish Wizard"
   - "Publish Wizard, Office solutions"
-ms.assetid: 793314b6-b6a6-4509-8f1c-dd9466cf5190
-caps.latest.revision: 17
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Publish Wizard (Office Development in Visual Studio)
   Use the **Publish Wizard** to copy solution files to a specified location, create the manifest files, and create a Setup program.  

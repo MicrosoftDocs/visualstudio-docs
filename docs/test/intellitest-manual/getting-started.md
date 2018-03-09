@@ -4,35 +4,34 @@ ms.custom: ""
 ms.date: "05/02/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-devops-test
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "IntelliTest, Get started"
-ms.assetid: 21FE4D68-9E7F-4BB1-BD69-B0D09A941F09
-caps.latest.revision: 56
-ms.author: "douge"
-manager: "douge"
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+author: gewarren
 ---
 # Get started with Microsoft IntelliTest
 
 * If this is your first time with IntelliTest:
   * watch the [Channel 9 video](https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Intellitest)
   * read this [overview on MSDN Magazine](https://msdn.microsoft.com/magazine/dn904672.aspx)
-  * read our [documentation](https://docs.microsoft.com/en-gb/visualstudio/test/generate-unit-tests-for-your-code-with-intellitest)
-* Ask your questions on [stackoverflow](http://stackoverflow.com/questions/tagged/intellitest)
+  * read our [documentation](../../test/generate-unit-tests-for-your-code-with-intellitest.md)
+* Ask your questions on [Stack Overflow](http://stackoverflow.com/questions/tagged/intellitest)
 * Read the rest of this reference manual
 * Print this page for quick reference
 
-<a name="important-attributes"></a>
 ## Important attributes
 
 * [PexClass](attribute-glossary.md#pexclass) marks a type containing **PUT**
 * [PexMethod](attribute-glossary.md#pexmethod) marks a **PUT**
-* [PexAssumeNotNull](attribute-glossary.md#pexassumenotnull) marks a non-null parameter 
+* [PexAssumeNotNull](attribute-glossary.md#pexassumenotnull) marks a non-null parameter
 
-```
+```csharp
 using Microsoft.Pex.Framework;
 
 [..., PexClass(typeof(Foo))]
@@ -47,20 +46,19 @@ public partial class FooTest {
 * [PexAssemblyUnderTest](attribute-glossary.md#pexassemblyundertest) binds a test project to a project
 * [PexInstrumentAssembly](attribute-glossary.md#pexinstrumentassemblyattribute) specifies an assembly to instrument
 
-```
+```csharp
 [assembly: PexAssemblyUnderTest("MyAssembly")] // also instruments "MyAssembly"
 [assembly: PexInstrumentAssembly("Lib")]
 ```
 
-<a name="helper-classes"></a>
-## Important static helper classes
+## <a name="helper-classes"></a> Important static helper classes
 
 * [PexAssume](static-helper-classes.md#pexassume) evaluates assumptions (input filtering)
 * [PexAssert](static-helper-classes.md#pexassert) evaluates assertions
 * [PexChoose](static-helper-classes.md#pexchoose) generates new choices (additional inputs)
 * [PexObserve](static-helper-classes.md#pexobserve) logs live values to the generated tests
 
-```
+```csharp
 [PexMethod]
 void StaticHelpers(Foo target) {
     PexAssume.IsNotNull(target);
@@ -75,5 +73,4 @@ void StaticHelpers(Foo target) {
 
 ## Got feedback?
 
-Post your ideas and feature requests on 
-**[UserVoice](https://visualstudio.uservoice.com/forums/121579-visual-studio-2015/category/157869-test-tools?query=IntelliTest)**.
+Post your ideas and feature requests on [UserVoice](https://visualstudio.uservoice.com/forums/121579-visual-studio-2015/category/157869-test-tools?query=IntelliTest).

@@ -17,6 +17,8 @@ caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # /Upgrade (devenv.exe)
 Updates the solution file and all of its project files, or the project file specified, to the current [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] formats for these files.  

@@ -1,19 +1,16 @@
 ---
 title: "Using the Workflow Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
 helpviewer_keywords: 
   - "Workflow Designer [WFD], using"
   - "Visual Studio 2010 Workflow Designer [WFD], using"
 ms.assetid: 991a942f-29bc-4868-9299-ed80c5665ab5
-caps.latest.revision: 13
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Using the Workflow Designer
 This section details how to create new activities and workflow projects using the built-in designers and the expression editor that is hosted by several of the activity designers.  

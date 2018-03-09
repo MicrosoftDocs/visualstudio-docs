@@ -17,6 +17,8 @@ caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaAddressMap::get_relativeVirtualAddressEnabled
 Indicates whether the calculation and use of relative virtual addresses (RVA) is enabled.  

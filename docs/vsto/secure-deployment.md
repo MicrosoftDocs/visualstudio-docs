@@ -16,11 +16,11 @@ helpviewer_keywords:
   - "Office development in Visual Studio, security"
   - "Office applications [Office development in Visual Studio], security"
   - "ClickOnce deployment [Office development in Visual Studio], security"
-ms.assetid: c5ba86b1-e87f-4508-8c5a-1295681a9590
-caps.latest.revision: 21
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Secure Deployment
   When you create an Office solution, your development computer is updated automatically to allow the code in your project to run. However, when you deploy your solution, you must provide evidence on which to base a trust decision by signing the solution with a certificate, or using the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] trust prompt key. For more information, see [Granting Trust to Office Solutions](../vsto/granting-trust-to-office-solutions.md).  

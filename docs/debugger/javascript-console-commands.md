@@ -8,23 +8,19 @@ ms.technology:
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
 helpviewer_keywords: 
   - "JavaScript Console commands [UWP apps]"
   - "JavaScript debugging, console [UWP apps]"
   - "debugging JavaScript, console [UWP apps]"
-ms.assetid: 359e2b24-6bb7-48e7-8b55-b570df0cb774
 caps.latest.revision: 47
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "uwp"
+  - "cordova"
 ---
 # JavaScript Console commands in Visual Studio
-![Applies to Windows and Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  
   
  You can use commands to send messages and perform other tasks in the JavaScript Console window of Visual Studio. For examples that show how to use that window, see [QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md). The information in this topic applies to UWP apps and apps created using Visual Studio Tools for Apache Cordova. For info on supported console commands in Cordova apps, see [Debug Your App](https://taco.visualstudio.com/en-us/docs/debug-using-visual-studio/). For info on using the console in Internet Explorer F12 tools, see [this topic](http://msdn.microsoft.com/library/ie/dn255006.aspx).  
   

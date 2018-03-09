@@ -2,6 +2,7 @@
 layout: LandingPage
 title: Profiling your Apps with Visual Studio | Microsoft Docs
 description: Learn how use Visual Studio 2017 to profile the performance of your applications, services, and tools in the language of your choice.
+ms.topic: landing-page
 ms.technology: vs-ide-debug
 ---
 # Profiling in Visual Studio
@@ -10,13 +11,13 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="https://docs.microsoft.com/en-us/visualstudio/profiling/profiling-feature-tour">
+        <a href="https://docs.microsoft.com/visualstudio/profiling/profiling-feature-tour">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/en-us/media/common/i_road-map.svg" alt="">
+                            <img src="/media/common/i_road-map.svg" alt="">
                         </div>
                     </div>
                     <div class="cardText">
@@ -28,13 +29,13 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/visualstudio/profiling/beginners-guide-to-performance-profiling">
+        <a href="https://docs.microsoft.com/visualstudio/profiling/beginners-guide-to-performance-profiling">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/en-us/media/common/i_code-performance.svg" alt="">
+                            <img src="/media/common/i_code-performance.svg" alt="">
                         </div>
                     </div>
                     <div class="cardText">
@@ -46,13 +47,13 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
         </a>
     </li>
     <li>
-        <a href="../profiling/beginners-guide-to-performance-profiling.md#video">
+        <a href="https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Profiling-with-Diagnostics-Tools-in-Visual-Studio-2017-daHnzMD6D_9211787171">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/en-us/media/common/i_video.svg" alt="">
+                            <img src="/media/common/i_video.svg" alt="">
                         </div>
                     </div>
                     <div class="cardText">
@@ -64,13 +65,13 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/visualstudio/profiling/memory-usage">
+        <a href="https://docs.microsoft.com/visualstudio/profiling/memory-usage">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/en-us/media/common/i_code-performance.svg" alt="">
+                            <img src="/media/common/i_code-performance.svg" alt="">
                         </div>
                     </div>
                     <div class="cardText">
@@ -82,13 +83,13 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
         </a>
     </li>
         <li>
-        <a href="https://docs.microsoft.com/en-us/visualstudio/profiling/application-timeline">
+        <a href="https://docs.microsoft.com/visualstudio/profiling/application-timeline">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/en-us/media/common/i_get-started.svg" alt="">
+                            <img src="/media/common/i_get-started.svg" alt="">
                         </div>
                     </div>
                     <div class="cardText">
@@ -100,13 +101,13 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/visualstudio/profiling/network-usage">
+        <a href="https://docs.microsoft.com/visualstudio/profiling/network-usage">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/en-us/media/common/i_get-started.svg" alt="">
+                            <img src="/media/common/i_get-started.svg" alt="">
                         </div>
                     </div>
                     <div class="cardText">
@@ -118,13 +119,13 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/visualstudio/debugger/gpu-usage">
+        <a href="https://docs.microsoft.com/visualstudio/debugger/gpu-usage">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/en-us/media/common/i_get-started.svg" alt="">
+                            <img src="/media/common/i_get-started.svg" alt="">
                         </div>
                     </div>
                     <div class="cardText">
@@ -135,19 +136,18 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
         </div>
         </a>
     </li>
-    
-        <li>
-        <a href="https://docs.microsoft.com/en-us/visualstudio/profiling/analyze-energy-use-in-store-apps">
+    <li>
+        <a href="https://docs.microsoft.com/visualstudio/profiling/analyze-energy-use-in-store-apps">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/en-us/media/common/i_get-started.svg" alt="">
+                            <img src="/media/common/i_get-started.svg" alt="">
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Analyze Energy Use (Store Apps)</h3>
+                        <h3>Analyze Energy Use (UWP Apps)</h3>
                     </div>
                 </div>
             </div>
@@ -155,13 +155,13 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/visualstudio/profiling/what-s-new-in-profiling-tools">
+        <a href="https://docs.microsoft.com/visualstudio/profiling/what-s-new-in-profiling-tools">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/en-us/media/common/i_whats-new.svg" alt="">
+                            <img src="/media/common/i_whats-new.svg" alt="">
                         </div>
                     </div>
                     <div class="cardText">

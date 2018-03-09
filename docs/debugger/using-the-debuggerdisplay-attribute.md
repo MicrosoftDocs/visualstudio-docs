@@ -17,6 +17,8 @@ caps.latest.revision: 47
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Using the DebuggerDisplay Attribute
 The [DebuggerDisplayAttribute Class](/dotnet/api/system.diagnostics.debuggerdisplayattribute) controls how an object, property, or field is displayed in the debugger variable windows. This attribute can be applied to types, delegates, properties, fields, and assemblies.  
@@ -70,7 +72,7 @@ csc /t:library autoexp.cs
   
  One way to reduce the possible problems of expression evaluation is by creating a private property that performs the operation and returns a string. The DebuggerDisplay attribute can then display the value of that private property. The following example implements this pattern:  
   
-```CSharp  
+```csharp  
 [DebuggerDisplay("{DebuggerDisplay,nq}")]  
 public sealed class MyClass   
 {      
@@ -94,7 +96,7 @@ public sealed class MyClass
 |Key|"three"|object {string}|  
 |Value|3|object {int}|  
   
-```CSharp  
+```csharp  
 [DebuggerDisplay("{value}", Name = "{key}")]  
 internal class KeyValuePairs  
 {  

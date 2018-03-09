@@ -13,6 +13,8 @@ caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Configure the Windows Firewall for Remote Debugging
 This topic describes how to configure the firewall to enable remote debugging on computers that run the following operating systems:  

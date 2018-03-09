@@ -14,11 +14,11 @@ dev_langs:
 helpviewer_keywords: 
   - "Word [Office development in Visual Studio], printing documents"
   - "documents [Office development in Visual Studio], printing"
-ms.assetid: 99285d98-1bb7-4ccb-83d9-e917b0a9ea42
-caps.latest.revision: 53
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Print Documents
   You can print an entire Microsoft Office Word document, or part of a document, to your default printer.  

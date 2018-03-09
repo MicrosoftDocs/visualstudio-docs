@@ -13,6 +13,8 @@ caps.latest.revision: 30
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Sign in to Visual Studio
 
@@ -63,4 +65,4 @@ If you encounter any problems while signing in, please see the [Accounts support
 ## See also
 
 [How to Unlock Visual Studio](../ide/how-to-unlock-visual-studio.md)  
-[Internet resources used by Visual Studio](../ide/connected-environment.md)
+[Visual Studio IDE Overview](../ide/visual-studio-ide.md)
