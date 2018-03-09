@@ -71,7 +71,7 @@ This app requires a number of npm modules to run correctly.
 * path
 * react
 * react-dom
-* webpack
+* webpack@3.11.0
 
 1. In Solution Explorer (right pane), right-click the **npm** node in the project and choose **Install New npm Packages**.
 
@@ -89,6 +89,8 @@ This app requires a number of npm modules to run correctly.
     ![npm packages](../nodejs/media/tutorial-nodejs-react-npm-modules.png) 
 
     In the **Install New npm Packages** dialog box, you can choose to install the most current package version or specify a version. We recommend you install the current version, but if you run into unexpected errors later, you may need to install the versions shown in the illustration.
+
+    For the webpack npm package, install webpack@3.11.0. 
 
 > [!NOTE]
 > If you prefer to install npm packages using the command line, right-click the project node and choose **Open Command Prompt Here**. Use standard Node.js commands to install packages.
@@ -161,7 +163,7 @@ For this simple app, you add the new project files in the project root. (In most
     <body>
         <div id="root"></div>
         <!-- scripts -->
-        <script src="browser-bundle.js"></script>
+        <script src="dist/browser-bundle.js"></script>
     </body>
     ```
 
@@ -244,7 +246,7 @@ Each time you make changes to *app.js*, you must rerun the webpack command.
 
 ## Set a breakpoint and run the app
 
-1. In *server.js*, click in the left gutter before the following line of code to set a breakpoint:
+1. In *server.js*, click in the gutter to the left of the `staticPath` declaration to set a breakpoint:
 
     ![Set a breakpoint](../nodejs/media/tutorial-nodejs-react-set-breakpoint.png) 
 
@@ -277,7 +279,7 @@ In the preceding section, we attached the debugger to server-side Node.js code. 
 
     This starts Chrome with debugging enabled.
 
-1. Switch to Visual Studio and set a breakpoint in *browser-bundle.js* code as shown in the following illustration:
+1. Switch to Visual Studio and set a breakpoint in *browser-bundle.js* code in the `render()` function as shown in the following illustration:
 
     ![Set a breakpoint](../nodejs/media/tutorial-nodejs-react-set-breakpoint-client-code.png) 
 
@@ -301,7 +303,10 @@ In the preceding section, we attached the debugger to server-side Node.js code. 
 
 Next time you want to attach the debugger, you can save time by using **Debug** > **Reattach to Process**.
 
-## Set and hit a breakpoint using sourcemaps
+## (Optional) Debug using sourcemaps
+
+> [!NOTE]
+> https://github.com/babel/babel/issues/4177
 
 We previously generated a sourcemap file by including `devtool: 'source-map'` in the `webpack-config.js file`. To use the sourcemap file for debugging:
 
