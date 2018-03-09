@@ -41,7 +41,7 @@ This option enables Visual Studio to cache project data so that when you open th
 
 ## Additional Features in the Visual Studio Marketplace
 
-You can browse additional text editor features in the [Visual Studio Marketplace](https://marketplace.visualstudio.com/search?target=VS&category=Tools&vsVersion=&subCategory=All&sortBy=Downloads). An example is [C++ Quick Fixes](https://marketplace.visualstudio.com/items?itemName=VisualCPPTeam.CQuickFixes2017), which supports the following:
+You can browse additional text editor features in the [Visual Studio Marketplace](https://marketplace.visualstudio.com/search?target=VS&category=Tools&vsVersion=&subCategory=All&sortBy=Downloads). An example is [C++ Quick Fixes](https://marketplace.visualstudio.com/items?itemName=VisualCppDevLabs.CQuickFixes2017), which supports the following:
 
 - **Add missing #include** - Suggests relevant #include's for unknown symbols in your code
 

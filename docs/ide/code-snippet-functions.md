@@ -109,7 +109,7 @@ The following example shows how to use the `ClassName` function. When this snipp
                     <Default>ClassNamePlaceholder</Default>   
                 </Literal>  
             </Declarations>  
-            <Code Language="vjsharp" Format="CData">  
+            <Code Language="csharp" Format="CData">  
                 <![CDATA[   
                     public $classname$ ($type$ $name$)  
                     {  
