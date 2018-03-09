@@ -42,7 +42,7 @@ Features that use the following types will need to adopt new APIs to support Ope
 
 ## Workspaces
 
-A workspace is how Visual Studio represents any collection of files in Open Folder, and it's represented [IWorkspace][Doc:IWorkspace] type. By itself, the workspace doesn't understand the contents or features related to files within the folder. Rather, it provides a general set of APIs for features and extensions to produce and consume data that others can act upon. The producers are composed through MEF using various export attributes.
+A workspace is how Visual Studio represents any collection of files in Open Folder, and it's represented <xref:Microsoft.VisualStudio.Workspace.IWorkspace> type. By itself, the workspace doesn't understand the contents or features related to files within the folder. Rather, it provides a general set of APIs for features and extensions to produce and consume data that others can act upon. The producers are composed through MEF using various export attributes.
 
 ### Workspace providers and services
 
@@ -54,28 +54,28 @@ One difference between providers and services is their relation to the workspace
 
 Another key difference is consumption of data from providers and services. The workspace is the entry point to get data from providers for a couple reasons. First, providers typically have some narrow set of data they create. The data might be symbols for a C# source file or build file contexts for a _CMakeLists.txt_ file. The workspace will match a consumers request to the providers whose metadata align with the request. Second, some scenarios allow for many providers to contribute to a request while others scenarios use the provider with highest priority.
 
-In contrast, extensions can get instances of and interact directly with workspaces services. Extension methods on `IWorkspace` are available for the services provided by Visual Studio, such as [IWorkspace.GetFileWatcherService][Doc:WorkspaceServiceHelper.GetFileWatcherService]. Your extension may offer a workspace service for components within your extension or for other extensions to consume. Consumers should use [IWorkspace.GetServiceAsync][Doc:WorkspaceServiceHelper.GetServiceAsync] or an extension method you provide on the `IWorkspace` type.
+In contrast, extensions can get instances of and interact directly with workspaces services. Extension methods on `IWorkspace` are available for the services provided by Visual Studio, such as <xref:Microsoft.VisualStudio.Workspace.WorkspaceServiceHelper.GetFileWatcherService>. Your extension may offer a workspace service for components within your extension or for other extensions to consume. Consumers should use <xref:Microsoft.VisualStudio.Workspace.WorkspaceServiceHelper.GetServiceAsync> or an extension method you provide on the `IWorkspace` type.
 
 >![Warning]
 > Do not author services that conflict with Visual Studio. It will lead to unexpected issues.
 
 ### Disposal on workspace closure
 
-On closure of a workspace, extenders might need to dispose but call asynchronous code. The [IAsyncDisposable][Doc:IAsyncDisposable] interface is available to make writing this code easy.
+On closure of a workspace, extenders might need to dispose but call asynchronous code. The <xref:Microsoft.VisualStudio.Threading.IAsyncDisposable> interface is available to make writing this code easy.
 
 ### Related types
 
-- [IWorkspace][Doc:IWorkspace] is the central entity for an opened workspace like an opened folder.
+- <xref:Microsoft.VisualStudio.Workspace.IWorkspace> is the central entity for an opened workspace like an opened folder.
 - [IWorkspaceProviderFactory\<T\>][Doc:IWorkspaceProviderFactory<T>] creates a provider per workspace instantiated.
 - [IWorkspaceServiceFactory\<T\>][Doc:IWorkspaceServiceFactory<T>] creates a service per workspace instantiated.
-- [IAsyncDisposable][Doc:IAsyncDisposable] should be implemented on providers and services that need to run asynchronous code during disposal.
-- [WorkspaceServiceHelper][Doc:WorkspaceServiceHelper] provides helper methods for accessing well-known services or arbitrary services.
+- <xref:Microsoft.VisualStudio.Threading.IAsyncDisposable> should be implemented on providers and services that need to run asynchronous code during disposal.
+- <xref:Microsoft.VisualStudio.Workspace.WorkspaceServiceHelper> provides helper methods for accessing well-known services or arbitrary services.
 
 ## File contexts
 
-All insights in workspaces are produced by "file context providers" that implement the [IFileContextProvider][Doc:IFileContextProvider] interface. These extensions might look for patterns in folders or files, read MSBuild files, makefiles, package dependencies, etc. in order to accumulate the insights they need to define a file context. A file context by itself does not perform any action, but rather provides data that another extension can then act on.
+All insights in workspaces are produced by "file context providers" that implement the <xref:Microsoft.VisualStudio.Workspace.IFileContextProvider> interface. These extensions might look for patterns in folders or files, read MSBuild files, makefiles, package dependencies, etc. in order to accumulate the insights they need to define a file context. A file context by itself does not perform any action, but rather provides data that another extension can then act on.
 
-Each [FileContext][Doc:FileContext] has a `Guid` associated with it that identifies the type of data it carries. A workspace uses this `Guid` later to match it up with extensions that consume the data through the [FileContext.Context][Doc:FileContext.Context] property. A file context provider is exported with metadata that identifies which file context `Guid`s it may produce data for.
+Each <xref:Microsoft.VisualStudio.Workspace.FileContext> has a `Guid` associated with it that identifies the type of data it carries. A workspace uses this `Guid` later to match it up with extensions that consume the data through the <xref:Microsoft.VisualStudio.Workspace.FileContext.Context> property. A file context provider is exported with metadata that identifies which file context `Guid`s it may produce data for.
 
 Once contrived, a file context can be associated with any number of files or folders in the workspace. A given file or folder may be associated with any number of file contexts. It's a many-to-many relationship.
 
@@ -83,7 +83,7 @@ The most common scenarios for file contexts are related to build, debug, and lan
 
 ### `FileContext` lifecycle
 
-Lifecycles for a `FileContext` are non-deterministic. At any time, a component can asynchronously request for some set of context types. Providers with that support some subset of the request context types will be queried. The providers The `IWorkspace` instance acts as the middle-man between the consumer and providers through the [IWorkspace.GetFileContextsAsync][Doc:IWorkspace.GetFileContextsAsync] method. Consumers might request a context and perform some action based on the context. Others might request a context and maintain a long lived reference. However, changes might happen to files that cause a file context to become outdated. The provider can fire an event handler on the `FileContext` to notify consumers of updates. For example, if a build context is provided for some file but an on-disk change invalidates that context, then the original producer can invoke [FileContext.OnFileContextChanged][Doc:FileContext.OnFileContextChanged]. Any consumers still referencing that `FileContext` can then requery for a new `FileContext`.
+Lifecycles for a `FileContext` are non-deterministic. At any time, a component can asynchronously request for some set of context types. Providers with that support some subset of the request context types will be queried. The providers The `IWorkspace` instance acts as the middle-man between the consumer and providers through the <xref:Microsoft.VisualStudio.Workspace.IWorkspace.GetFileContextsAsync> method. Consumers might request a context and perform some action based on the context. Others might request a context and maintain a long lived reference. However, changes might happen to files that cause a file context to become outdated. The provider can fire an event handler on the `FileContext` to notify consumers of updates. For example, if a build context is provided for some file but an on-disk change invalidates that context, then the original producer can invoke <xref:Microsoft.VisualStudio.Workspace.FileContext.OnFileContextChanged>. Any consumers still referencing that `FileContext` can then requery for a new `FileContext`.
 
 >[!NOTE]
 >There is no push model to consumers. Consumers won't be notified of a provider's new `FileContext` after their request.
@@ -97,31 +97,31 @@ Reading contents from the disk can be expensive, especially when a provider need
 
 ### File context related APIs
 
-- [FileContext][Doc:FileContext] holds data and metadata.
-- [IFileContextProvider][Doc:IFileContextProvider] and [IFileContextProvider\<T\>][Doc:IFileContextProvider<T>] create the file context.
-- [ExportFileContextProviderAttribute][Doc:ExportFileContextProviderAttribute] exports a file context provider.
-- [IWorkspace.GetFileContextsAsync][Doc:IWorkspace.GetFileContextsAsync] is used for consumers to get file contexts.
-- [BuildContextTypes][Doc:BuildContextTypes] defines build context types that Open Folder will consume.
+- <xref:Microsoft.VisualStudio.Workspace.FileContext> holds data and metadata.
+- <xref:Microsoft.VisualStudio.Workspace.IFileContextProvider> and [IFileContextProvider\<T\>][Doc:IFileContextProvider<T>] create the file context.
+- <xref:Microsoft.VisualStudio.Workspace.ExportFileContextProviderAttribute> exports a file context provider.
+- <xref:Microsoft.VisualStudio.Workspace.IWorkspace.GetFileContextsAsync> is used for consumers to get file contexts.
+- <xref:Microsoft.VisualStudio.Workspace.Build.BuildContextTypes> defines build context types that Open Folder will consume.
 
 ## File context actions
 
-While a `FileContext` itself is just data about some file(s), an [IFileContextAction][Doc:IFileContextAction] is a way to express and act on that data. `IFileContextAction` is flexible in its usage. Two of its most common cases are building and debugging.
+While a `FileContext` itself is just data about some file(s), an <xref:Microsoft.VisualStudio.Workspace.IFileContextAction> is a way to express and act on that data. `IFileContextAction` is flexible in its usage. Two of its most common cases are building and debugging.
 
 ### Reporting progress
 
-The [IFileContextAction.ExecuteAsync][Doc:IFileContextActionBase.ExecuteAsync] method is passed `IProgress<IFileContextActionProgressUpdate>`, but the argument shouldn't be used as that type. `IFileContextActionProgressUpdate` is an empty interface, and invoking `IProgress<IFileContextActionProgressUpdate>.Report(IFileContextActionProgressUpdate)` might throw `NotImplementedException`. Instead, the `IFileContextAction` must cast the argument to another type as necessary for the scenario.
+The [IFileContextActionBase.ExecuteAsync][Doc:IFileContextActionBase.ExecuteAsync] method is passed `IProgress<IFileContextActionProgressUpdate>`, but the argument shouldn't be used as that type. `IFileContextActionProgressUpdate` is an empty interface, and invoking `IProgress<IFileContextActionProgressUpdate>.Report(IFileContextActionProgressUpdate)` might throw `NotImplementedException`. Instead, the `IFileContextAction` must cast the argument to another type as necessary for the scenario.
 
 For information on the types supplied by Visual Studio, see the respective scenario's documentation.
 
 ### File context action related APIs
 
-- [IFileContextAction][Doc:IFileContextAction] executes some behavior based on a `FileContext`.
-- [IFileContextActionProvider][Doc:IFileContextActionProvider] creates instances of `IFileContextAction`.
-- [ExportFileContextActionProviderAttribute][Doc:ExportFileContextActionProviderAttribute] exports the type `IWorkspaceProviderFactory<IFileContextActionProvider>`.
+- <xref:Microsoft.VisualStudio.Workspace.IFileContextAction> executes some behavior based on a `FileContext`.
+- <xref:Microsoft.VisualStudio.Workspace.IFileContextActionProvider> creates instances of `IFileContextAction`.
+- <xref:Microsoft.VisualStudio.Workspace.ExportFileContextActionProviderAttribute> exports the type `IWorkspaceProviderFactory<IFileContextActionProvider>`.
 
 ## Workspace indexing
 
-In a Solution, project systems are responsible for providing functionality for build, debug, **GoTo** symbol searching, and more. Project systems can do this work because they understand the relation and capabilities of files within a project. A workspace needs the same insight to provide rich IDE features, too. The collection and persistent storage of this data is a process called workspace indexing. This indexed data can be queried through a set of asynchronous APIs. Extenders can participate in the indexing process by providing `IFileScanner`s that know how to handle certain types of files.
+In a Solution, project systems are responsible for providing functionality for build, debug, **GoTo** symbol searching, and more. Project systems can do this work because they understand the relation and capabilities of files within a project. A workspace needs the same insight to provide rich IDE features, too. The collection and persistent storage of this data is a process called workspace indexing. This indexed data can be queried through a set of asynchronous APIs. Extenders can participate in the indexing process by providing <xref:Microsoft.VisualStudio.Workspace.IFileScanner>s that know how to handle certain types of files.
 
 ### Types of indexed data
 
@@ -129,13 +129,13 @@ There are three kinds of data that are indexed. Note the type expected from file
 
 |Data|File scanner type|Index query result type|Related types|
 |--|--|--|--|
-|References|[FileReferenceInfo][Doc:FileReferenceInfo]|[FileReferenceResult][Doc:FileReferenceResult]|[FileReferenceInfoType][Doc:FileReferenceInfoType]|
-|Symbols|[SymbolDefinition][Doc:SymbolDefinition]|[SymbolDefinitionSearchResult][Doc:SymbolDefinitionSearchResult]|[ISymbolService][Doc:ISymbolService] should be used instead of `IIndexWorkspaceService` for queries|
-|Data values|[FileDataValue][Doc:FileDataValue]|[FileDataResult<T>][Doc:FileDataResult<T>]||
+|References|<xref:Microsoft.VisualStudio.Workspace.Indexing.FileReferenceInfo>|<xref:Microsoft.VisualStudio.Workspace.Indexing.FileReferenceResult>|<xref:Microsoft.VisualStudio.Workspace.Indexing.FileReferenceInfoType>|
+|Symbols|<xref:Microsoft.VisualStudio.Workspace.Indexing.SymbolDefinition>|<xref:Microsoft.VisualStudio.Workspace.Indexing.SymbolDefinitionSearchResult>|<xref:Microsoft.VisualStudio.Workspace.Indexing.ISymbolService> should be used instead of `IIndexWorkspaceService` for queries|
+|Data values|<xref:Microsoft.VisualStudio.Workspace.Indexing.FileDataValue>|[FileDataResult<T>][Doc:FileDataResult<T>]||
 
 ### Querying for indexed data
 
-There are two asynchronous types available to access persisted data. The first is through [IIndexWorkspaceData][Doc:IIndexWorkspaceData]. It provides basic access to a single file's `FileReferenceResult` and `FileDataResult` data, and it caches results. The second is the [IIndexWorkspaceService][Doc:IIndexWorkspaceService] which doesn't use caching, but allows for more querying capabilities.
+There are two asynchronous types available to access persisted data. The first is through <xref:Microsoft.VisualStudio.Workspace.Indexing.IIndexWorkspaceData>. It provides basic access to a single file's `FileReferenceResult` and `FileDataResult` data, and it caches results. The second is the <xref:Microsoft.VisualStudio.Workspace.Indexing.IIndexWorkspaceService> which doesn't use caching, but allows for more querying capabilities.
 
 ```csharp
 using Microsoft.VisualStudio.Workspace;
@@ -163,7 +163,7 @@ Workspace indexing roughly follows the following sequence:
 1) Per file, the matching provider with the highest priority is asked to scan for `SymbolDefinition`s.
 1) Per file, all providers are asked for `FileDataValue`s.
 
-Extensions can export a scanner by implementing `IWorkspaceProviderFactory<IFileScanner>` and exporting the type with [ExportFileScannerAttribute][Doc:ExportFileScannerAttribute]. The `SupportedTypes` attribute argument should be one or more values from [FileScannerTypeConstants][Doc:FileScannerTypeConstants]. For an example scanner, see the VS SDK sample [here][Ex:FileScanner].
+Extensions can export a scanner by implementing `IWorkspaceProviderFactory<IFileScanner>` and exporting the type with <xref:Microsoft.VisualStudio.Workspace.Indexing.ExportFileScannerAttribute>. The `SupportedTypes` attribute argument should be one or more values from <xref:Microsoft.VisualStudio.Workspace.Indexing.FileScannerTypeConstants>. For an example scanner, see the VS SDK sample [here][Ex:FileScanner].
 
 >![Warning]
 >Do not export a file scanner that supports the `FileScannerTypeConstants.FileScannerContentType` type. It is used for Microsoft internal purposes, only.
@@ -172,11 +172,11 @@ In advanced situations, an extension might dynamically support an arbitrary set 
 
 ## Workspace settings
 
-Workspaces have an [IWorkspaceSettingsManager][Doc:IWorkspaceSettingsManager] service with simple but powerful control over a workspace. For a basic overview of settings, see [Customize build and debug tasks][Ref:TasksLaunchSettings].
+Workspaces have an <xref:Microsoft.VisualStudio.Workspace.Settings.IWorkspaceSettingsManager> service with simple but powerful control over a workspace. For a basic overview of settings, see [Customize build and debug tasks][Ref:TasksLaunchSettings].
 
 Settings for most `SettingsType` types are _.json_ files, such as _VSWorkspaceSettings.json_ and _tasks.vs.json_.
 
-The power of workspace settings centers around "scopes," which are simply paths within the workspace. When a consumer calls [IWorkspaceSettingsManager.GetAggregatedSettings][Doc:IWorkspaceSettingsManager.GetAggregatedSettings], all the scopes that include the requested path and type of setting are aggregated. Scope aggregation priority is as follows:
+The power of workspace settings centers around "scopes," which are simply paths within the workspace. When a consumer calls <xref:Microsoft.VisualStudio.Workspace.Settings.IWorkspaceSettingsManager.GetAggregatedSettings>, all the scopes that include the requested path and type of setting are aggregated. Scope aggregation priority is as follows:
 
 1. "Local settings", which is typically the workspace root's `.vs` directory.
 1. The requested path itself.
@@ -184,7 +184,7 @@ The power of workspace settings centers around "scopes," which are simply paths 
 1. All further parent directories up to and including the workspace root.
 1. "Global settings", which is in a user directory.
 
-The result is an instance of [IWorkspaceSettings][Doc:IWorkspaceSettings]. This object holds the settings for a particular type, and can be queried for setting key names stored as `string`. The [IWorkspaceSettings.GetProperty][Doc:IWorkspaceSettings.GetProperty] methods and [IWorkspaceSettings][Doc:WorkspaceSettingsExtensions] extension methods expect the caller to know the type of the setting value being requested. As most settings files are persisted as _.json_ files, many invocations will use `string`, `bool`, `int`, and arrays of those types. Object types are also supported. In those cases, you can use `IWorkspaceSettings` itself as the type argument. For example:
+The result is an instance of <xref:Microsoft.VisualStudio.Workspace.Settings.IWorkspaceSettings>. This object holds the settings for a particular type, and can be queried for setting key names stored as `string`. The <xref:Microsoft.VisualStudio.Workspace.Settings.IWorkspaceSettings.GetProperty> methods and <xref:Microsoft.VisualStudio.Workspace.Settings.WorkspaceSettingsExtensions> extension methods expect the caller to know the type of the setting value being requested. As most settings files are persisted as _.json_ files, many invocations will use `string`, `bool`, `int`, and arrays of those types. Object types are also supported. In those cases, you can use `IWorkspaceSettings` itself as the type argument. For example:
 
 ```json
 {
@@ -240,9 +240,9 @@ private static void ReadSettings(IWorkspace workspace)
 
 ### Providing dynamic settings
 
-Extensions can provide [IWorkspaceSettingsProvider][Doc:IWorkspaceSettingsProvider]s. These in-memory providers allow extensions to add settings or override others.
+Extensions can provide <xref:Microsoft.VisualStudio.Workspace.Settings.IWorkspaceSettingsProvider>s. These in-memory providers allow extensions to add settings or override others.
 
-Exporting an `IWorkspaceSettingsProvider` is different than other workspace providers. The factory is not `IWorkspaceProviderFactory` and there is no special attribute type. Instead, implement [IWorkspaceSettingsProviderFactory][Doc:IWorkspaceSettingsProviderFactory] and use `[Export(typeof(IWorkspaceSettingsProviderFactory))]`.
+Exporting an `IWorkspaceSettingsProvider` is different than other workspace providers. The factory is not `IWorkspaceProviderFactory` and there is no special attribute type. Instead, implement <xref:Microsoft.VisualStudio.Workspace.Settings.IWorkspaceSettingsProviderFactory> and use `[Export(typeof(IWorkspaceSettingsProviderFactory))]`.
 
 ```csharp
 // Common workspace provider factory pattern
@@ -268,16 +268,16 @@ internal class MySettingsProviderFactory : IWorkspaceSettingsProviderFactory
 
 ### Settings related APIs
 
-- [IWorkspaceSettingsManager][Doc:IWorkspaceSettingsManager] reads and aggregates settings for workspace.
+- <xref:Microsoft.VisualStudio.Workspace.Settings.IWorkspaceSettingsManager> reads and aggregates settings for workspace.
 - [IWorkspace.GetSettingsManager][Doc:WorkspaceServiceHelper.GetSettingsManager] gets the `IWorkspaceSettingsManager` for a workspace.
-- [IWorkspaceSettingsManager.GetAggregatedSettings][Doc:IWorkspaceSettingsManager.GetAggregatedSettings] gets settings for a given scope aggregated across all overlapping scopes.
-- [IWorkspaceSettings][Doc:IWorkspaceSettings] contains settings for a particular scope.
+- <xref:Microsoft.VisualStudio.Workspace.Settings.IWorkspaceSettingsManager.GetAggregatedSettings> gets settings for a given scope aggregated across all overlapping scopes.
+- <xref:Microsoft.VisualStudio.Workspace.Settings.IWorkspaceSettings> contains settings for a particular scope.
 
 ## Detailed scenarios
 
 ### File watching
 
-A workspace listens to file change notifications and provides the [IFileWatcherService][Doc:IFileWatcherService] via [IWorkspace.GetFileWatcherService][Doc:WorkspaceServiceHelper.GetFileWatcherService]. Files matching the "ExcludedItems" setting will not produce file notification events. A threshold between events is used for notification simplification and duplicate reduction. When you need to react to a file change, you should subscribe to this service.
+A workspace listens to file change notifications and provides the <xref:Microsoft.VisualStudio.Workspace.IFileWatcherService> via <xref:Microsoft.VisualStudio.Workspace.WorkspaceServiceHelper.GetFileWatcherService>. Files matching the "ExcludedItems" setting will not produce file notification events. A threshold between events is used for notification simplification and duplicate reduction. When you need to react to a file change, you should subscribe to this service.
 
 >![TIP]
 >A workspace's indexing service is subscribed to file events. File additions and modifications will cause relevant `IFileScanner`s to be invoked for new data for that file. File deletions will remove indexed data. You don't need to subscribe your `IFileScanner` to the file watcher service.
@@ -292,8 +292,8 @@ Build support requires an extender to supply indexed and file context data, as w
     - Implements `IWorkspaceProviderFactory<IFileContextProvider>`
     - File context provider
       - Return a `FileContext` for each build operation and configuration supported
-        - `contextType` from [BuildContextTypes][Doc:BuildContextTypes]
-        - `context` implements [IBuildConfigurationContext][Doc:IBuildConfigurationContext] with the `Configuration` property as the build configuration (e.g. `"Debug|x86"`, `"ret"`, or `null` if not applicable). Alternatively, use an instance of [BuildConfigurationContext][Doc:BuildConfigurationContext]. The configuration value **must** match the configuration from the indexed file data value.
+        - `contextType` from <xref:Microsoft.VisualStudio.Workspace.Build.BuildContextTypes>
+        - `context` implements <xref:Microsoft.VisualStudio.Workspace.Build.IBuildConfigurationContext> with the `Configuration` property as the build configuration (e.g. `"Debug|x86"`, `"ret"`, or `null` if not applicable). Alternatively, use an instance of <xref:Microsoft.VisualStudio.Workspace.Build.BuildConfigurationContext>. The configuration value **must** match the configuration from the indexed file data value.
 - Indexed build file data value
   - Provider Factory
     - `ExportFileScannerAttribute` attribute with `IReadOnlyCollection<FileDataValue>` as a supported type
@@ -310,7 +310,7 @@ Build support requires an extender to supply indexed and file context data, as w
   - Action provider on `IFileContextActionProvider.GetActionsAsync`
     - Return an `IFileContextAction` that matches the given `FileContext.ContextType` value
   - File context action
-    - Implements `IFileContextAction` and [IVsCommandItem][Doc:IVsCommandItem]
+    - Implements `IFileContextAction` and <xref:Microsoft.VisualStudio.Workspace.Extensions.VS.IVsCommandItem>
     - `CommandGroup` property returns `16537f6e-cb14-44da-b087-d1387ce3bf57`
     - `CommandId` is `0x1000` for build, `0x1010` for rebuild, or `0x1020` for clean
 
@@ -319,7 +319,7 @@ Build support requires an extender to supply indexed and file context data, as w
 
 #### Reporting messages from a build
 
-The build can surface information, warning, and error messages to users one of two ways. The simple way is to use the [IBuildMessageService][Doc:IBuildMessageService] and provide a [BuildMessage][Doc:BuildMessage], like so:
+The build can surface information, warning, and error messages to users one of two ways. The simple way is to use the <xref:Microsoft.VisualStudio.Workspace.Build.IBuildMessageService> and provide a <xref:Microsoft.VisualStudio.Workspace.Build.BuildMessage>, like so:
 
 ```csharp
 using Microsoft.VisualStudio.Workspace;
@@ -351,15 +351,15 @@ private static void OutputBuildMessage(IWorkspace workspace)
 
 `BuildMessage.Type` and `BuildMessage.LogMessage` control the behavior of where information is presented to the user. Any `BuildMessage.TaskType` value other than `None` will produce an **Error List** entry with the given details. `LogMessage` will always be output in the **Build** pane of the **Output** tool window.
 
-Alternatively, extensions can directly interact with the **Error List** or **Build** pane. A bug exists in versions prior to Visual Studio 2017 Version 15.7 where the `pszProjectUniqueName` argument of [IVsOutputWindowPane2.OutputTaskItemStringEx2][Doc:IVsOutputWindowPane2.OutputTaskItemStringEx2] is ignored.
+Alternatively, extensions can directly interact with the **Error List** or **Build** pane. A bug exists in versions prior to Visual Studio 2017 Version 15.7 where the `pszProjectUniqueName` argument of <xref:Microsoft.VisualStudio.Shell.Interop.IVsOutputWindowPane2.OutputTaskItemStringEx2> is ignored.
 
 >![WARNING]
 >Callers of `IFileContextAction.ExecuteAsync` can provide arbitrary underlying implementations for the `IProgress<IFileContextActionProgressUpdate>` argument. Never invoke `IProgress<IFileContextActionProgressUpdate>.Report(IFileContextActionProgressUpdate)` directly. There are currently no general guidelines for using this argument, but these guidelines are subject to change.
 
 #### Build related APIs
 
-- [IBuildConfigurationContext][Doc:IBuildConfigurationContext] provides build configuration details.
-- [IBuildMessageService][Doc:IBuildMessageService] shows [BuildMessage][Doc:BuildMessage]s to users.
+- <xref:Microsoft.VisualStudio.Workspace.Build.IBuildConfigurationContext> provides build configuration details.
+- <xref:Microsoft.VisualStudio.Workspace.Build.IBuildMessageService> shows <xref:Microsoft.VisualStudio.Workspace.Build.BuildMessage>s to users.
 
 ### Debug support
 
@@ -374,7 +374,7 @@ Debugging support requires patterns similar to build. Extensions will need to cr
 
 A language service might self-activate based on the file extension or content of an opened document, this "loose file" language service is limited to syntax highlighting. Additional info is required to provide a richer experience when editing/reviewing code. Each language service has its own API for initialization with this extra contextual data for a document. This is typically managed by a project system, which is tightly coupled both to the language service and to the build system.
 
-In a workspace, language services are initialized by an [ILanguageServiceProvider][Doc:ILanguageServiceProvider] extension point that specializes only in that language service and knows nothing of the build authoring. In this way, a language service owner can maintain a single Open Folder extension regardless of how many patterns exist within folders and files for running their compiler during a build (e.g. MSBuild, makefiles, etc.). When files from which a file context was created are changed on disk and the file context is refreshed, the language service provider is notified of the updated set of file contexts. The language service provider can then update its model.
+In a workspace, language services are initialized by an <xref:Microsoft.VisualStudio.Workspace.Intellisense.ILanguageServiceProvider> extension point that specializes only in that language service and knows nothing of the build authoring. In this way, a language service owner can maintain a single Open Folder extension regardless of how many patterns exist within folders and files for running their compiler during a build (e.g. MSBuild, makefiles, etc.). When files from which a file context was created are changed on disk and the file context is refreshed, the language service provider is notified of the updated set of file contexts. The language service provider can then update its model.
 
 When a document is opened in the editor, Visual Studio only considers language service providers that require file context types for which a matching file context provider can be found. It then passes the file context(s) from the matching provider(s) to the selected language service provider via `ILangaugeServiceProvider.InitializeAsync`. What the language service provider does with that file context data is an implementation detail of the language service provider, but the expected user experience is a richer language service for that opened document.
 
@@ -408,7 +408,7 @@ The `Microsoft.VisualStudio.Workspace.*` APIs aren't the only way to enable your
 
 #### Related interfaces
 
-- [ILanguageServiceProvider][Doc:ILanguageServiceProvider] is invoked when a file of matching file types is opened or closed for editing.
+- <xref:Microsoft.VisualStudio.Workspace.Intellisense.ILanguageServiceProvider> is invoked when a file of matching file types is opened or closed for editing.
 
 ## Suggested practices
 
@@ -443,65 +443,13 @@ Workspace extensibility is heavily MEF-based, and composition errors will cause 
 
 Open Folder and the `Microsoft.VisualStudio.Workspace.*` APIs are under active development. If you see unexpected behavior, then see the known issues for the release of interest. The Developer Community is the recommended place to vote and create any issues. For each feedback, we highly recommend a detailed description of your issue. Include the Visual Studio version you're developing for, the APIs you're using (both what you've implemented and what you're interacting with), the expected outcome, and the actual outcome. If possible, include a dump of the devenv.exe process. Use GitHub's issue tracking for giving feedback on this and related documentation.
 
-[Doc:BuildConfigurationContext]:/dotnet/api/microsoft.visualstudio.workspace.build.buildconfigurationcontext
-[Doc:BuildContextTypes]:/dotnet/api/microsoft.visualstudio.workspace.build.buildcontexttypes
-[Doc:BuildMessage]:/dotnet/api/microsoft.visualstudio.workspace.build.buildmessage
-
-[Doc:ExportFileContextProviderAttribute]:/dotnet/api/microsoft.visualstudio.workspace.ExportFileContextProviderAttribute
-[Doc:ExportFileContextActionProviderAttribute]:/dotnet/api/microsoft.visualstudio.workspace.exportfilecontextactionproviderattribute
-[Doc:ExportFileScannerAttribute]:/dotnet/api/microsoft.visualstudio.workspace.indexing.exportfilescannerattribute
-
-[Doc:FileContext]:/dotnet/api/microsoft.visualstudio.workspace.filecontext
-[Doc:FileContext.Context]:/dotnet/api/microsoft.visualstudio.workspace.filecontext.context
-[Doc:FileContext.OnFileContextChanged]:/dotnet/api/microsoft.visualstudio.workspace.filecontext.onfilecontextchanged
 [Doc:FileDataResult<T>]:/dotnet/api/microsoft.visualstudio.workspace.indexing.filedataresult-1
-[Doc:FileDataValue]:/dotnet/api/microsoft.visualstudio.workspace.indexing.filedatavalue
-[Doc:FileReferenceInfo]:/dotnet/api/microsoft.visualstudio.workspace.indexing.filereferenceinfo
-[Doc:FileReferenceResult]:/dotnet/api/microsoft.visualstudio.workspace.indexing.filereferenceresult
-[Doc:FileReferenceInfoType]:/dotnet/api/microsoft.visualstudio.workspace.indexing.filereferenceinfotype
-[Doc:FileScannerTypeConstants]:/dotnet/api/microsoft.visualstudio.workspace.indexing.filescannertypeconstants
-
-[Doc:IAsyncDisposable]:/dotnet/api/microsoft.visualstudio.threading.iasyncdisposable
-[Doc:IBuildConfigurationContext]:/dotnet/api/microsoft.visualstudio.workspace.build.ibuildconfigurationcontext
-[Doc:IBuildIncrementalProgressUpdate]:/dotnet/api/microsoft.visualstudio.workspace.build.ibuildincrementalprogressupdate
-[Doc:IBuildMessageService]:/dotnet/api/microsoft.visualstudio.workspace.build.ibuildmessageservice
-[Doc:IFileContextAction]:/dotnet/api/microsoft.visualstudio.workspace.ifilecontextaction
 [Doc:IFileContextActionBase.ExecuteAsync]:/dotnet/api/microsoft.visualstudio.workspace.ifilecontextactionbase.executeasync
-[Doc:IFileContextActionProvider]:/dotnet/api/microsoft.visualstudio.workspace.ifilecontextactionprovider
-[Doc:IFileContextProvider]:/dotnet/api/microsoft.visualstudio.workspace.ifilecontextprovider
 [Doc:IFileContextProvider<T>]:/dotnet/api/microsoft.visualstudio.workspace.ifilecontextprovider-1
-[Doc:IFileScanner]:/dotnet/api/microsoft.visualstudio.workspace.indexing.ifilescanner
-[Doc:IFileWatcherService]:/dotnet/api/microsoft.visualstudio.workspace.ifilewatcherservice
-[Doc:IIndexWorkspaceData]:/dotnet/api/microsoft.visualstudio.workspace.indexing.iindexworkspacedata
-[Doc:IIndexWorkspaceDataService.CreateIndexWorkspaceData]:/dotnet/api/microsoft.visualstudio.workspace.indexing.iindexworkspacedataservice.createindexworkspacedata
-[Doc:IIndexWorkspaceService]:/dotnet/api/microsoft.visualstudio.workspace.indexing.iindexworkspaceservice
-[Doc:ILanguageServiceProvider]:/dotnet/api/microsoft.visualstudio.workspace.intellisense.ilanguageserviceprovider
-[Doc:ISymbolService]:/dotnet/api/microsoft.visualstudio.workspace.indexing.isymbolservice
-[Doc:IWorkspace]:/dotnet/api/microsoft.visualstudio.workspace.iworkspace
-[Doc:IWorkspace.GetFileContextsAsync]:/dotnet/api/microsoft.visualstudio.workspace.iworkspace.getfilecontextsasync
 [Doc:IWorkspaceProviderFactory<T>]:/dotnet/api/microsoft.visualstudio.workspace.iworkspaceproviderfactory-1
 [Doc:IWorkspaceServiceFactory<T>]:/dotnet/api/microsoft.visualstudio.workspace.iworkspaceservicefactory-1
-[Doc:IWorkspaceSettings]:/dotnet/api/microsoft.visualstudio.workspace.settings.iworkspacesettings
-[Doc:IWorkspaceSettings.GetProperty]:/dotnet/api/microsoft.visualstudio.workspace.settings.iworkspacesettings.getproperty
-[Doc:IWorkspaceSettingsManager]:/dotnet/api/microsoft.visualstudio.workspace.settings.iworkspacesettingsmanager
-[Doc:IWorkspaceSettingsManager.GetAggregatedSettings]:/dotnet/api/microsoft.visualstudio.workspace.settings.iworkspacesettingsmanager.getaggregatedsettings
-[Doc:IWorkspaceSettingsProvider]:/dotnet/api/microsoft.visualstudio.workspace.settings.iworkspacesettingsprovider
-[Doc:IWorkspaceSettingsProviderFactory]:/dotnet/api/microsoft.visualstudio.workspace.settings.iworkspacesettingsproviderfactory
-[Doc:IVsCommandItem]:/dotnet/api/microsoft.visualstudio.workspace.extensions.vs.ivscommanditem
-[Doc:IVsOutputWindowPane2.OutputTaskItemStringEx2]:/dotnet/api/microsoft.visualstudio.shell.interop.ivsoutputwindowpane2.outputtaskitemstringex2
-
-[Doc:SymbolDefinition]:/dotnet/api/microsoft.visualstudio.workspace.indexing.symboldefinition
-[Doc:SymbolDefinitionSearchResult]:/dotnet/api/microsoft.visualstudio.workspace.indexing.symboldefinitionsearchresult
-
-[Doc:WorkspaceHelper.GetWorkspaceWorkingFolder]:/dotnet/api/microsoft.visualstudio.workspace.workspacehelper.getworkspaceworkingfolder
-[Doc:WorkspaceHelper.MakeRootedUnderWorkingFolder]:/dotnet/api/microsoft.visualstudio.workspace.workspaceservicehelper.makerootedunderworkingfolder
-[Doc:WorkspaceServiceHelper]:/dotnet/api/microsoft.visualstudio.workspace.workspaceservicehelper
-[Doc:WorkspaceServiceHelper.GetFileWatcherService]:/dotnet/api/microsoft.visualstudio.workspace.workspaceservicehelper.getfilewatcherservice
-[Doc:WorkspaceServiceHelper.GetServiceAsync]:/dotnet/api/microsoft.visualstudio.workspace.workspaceservicehelper.getserviceasync
-[Doc:WorkspaceServiceHelper.GetSettingsManager]:/dotnet/api/microsoft.visualstudio.workspace.workspaceservicehelper.getsettingsmanager
-[Doc:WorkspaceSettingsExtensions]:/dotnet/api/microsoft.visualstudio.workspace.settings.workspacesettingsextensions
 
 [Ex:FileScanner]:https://github.com/Microsoft/VSSDK-Extensibility-Samples/blob/master/Open_Folder_Extensibility/C%23/SymbolScannerSample/TxtFileSymbolScanner.cs
 
-[Ref:LanguageServerProtocol]:/docs/extensibility/language-server-protocol
-[Ref:TasksLaunchSettings]:/ide/customize-build-and-debug-tasks-in-visual-studio
+[Ref:LanguageServerProtocol]:language-server-protocol.md
+[Ref:TasksLaunchSettings]:../ide/customize-build-and-debug-tasks-in-visual-studio.md
