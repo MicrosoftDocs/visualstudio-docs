@@ -83,33 +83,7 @@ If you are recording actions on a non-empty cell, then recording gets a little m
 
     ```csharp
     uIGridKeyboardInputEdit.Text = value; }
-    ```
-
-## Enable coded UI testing of Silverlight web parts in a SharePoint app
-
-Silverlight testing isn't supported in Visual Studio 2012 and later. But, if you want to test the Silverlight web parts in your SharePoint app, you can install a separate Silverlight plug-in from Visual Studio Marketplace.
-
-### Set up your machine
-
-1. Make sure that you have Visual Studio installed.
-
-2. Install the [Microsoft Visual Studio UI Test Plugin for Silverlight](http://visualstudiogallery.msdn.microsoft.com/28312a61-9451-451a-990c-c9929b751eb4).
-
-3. Install [Fiddler](http://www.fiddler2.com/fiddler2/). This is simply a tool that captures and logs the HTTP traffic.
-
-4. Download the [fiddlerXap project](http://blogs.msdn.com/cfs-file.ashx/__key/communityserver-components-postattachments/00-10-36-48-70/FiddlerXapProxy.zip). Unzip it, build it, and run the "CopySLHelper.bat" script to install the helper DLL that is required to test Silverlight web parts when you use the Fiddler tool.
-
-### Test Silverlight web parts
-
-1. Start Fiddler.
-
-2. Clear the browser cache. This is necessary because the XAP file, which contains the Silverlight UI Automation Helper DLL, is typically cached. We have to make sure that the modified XAP file is picked up, so we clear the browser cache.
-
-3. Open the web page.
-
-4. Start the recorder and generate code like you would for a regular web application testing.
-
-5. Confirm that the generated code references the Microsoft.VisualStudio.TestTools.UITest.Extension.Silverlight.dll.
+    ``
 
 ## See also
 
