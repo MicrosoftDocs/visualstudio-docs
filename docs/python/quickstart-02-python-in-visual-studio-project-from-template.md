@@ -2,7 +2,7 @@
 title: Quickstart - Create a Python project in Visual Studio using a template | Microsoft Docs
 description: Get started quickly using Python by creating a Visual Studio project using one of the built-in templates.
 ms.custom:
-ms.date: 09/25/2017
+ms.date: 03/08/2018
 ms.reviewer:
 ms.suite:
 ms.technology: 
@@ -62,14 +62,14 @@ Once you've [installed Python support in Visual Studio 2017](installing-python-s
             output += "%04d" % (carry + (total / scale))
             carry = total % scale
 
-        return output;
+        return output
 
     def test_py():
-        digits = 1000;
+        digits = 1000
 
         start = perf_counter()
-        output = pi_digits_Python(digits);
-        elapsed = perf_counter() - start;
+        output = pi_digits_Python(digits)
+        elapsed = perf_counter() - start
 
         print("PI to " + str(digits) + " digits in " + str(int(elapsed * 10000)/10000) + " seconds:")
 
@@ -77,7 +77,7 @@ Once you've [installed Python support in Visual Studio 2017](installing-python-s
         print(output.replace("3", "3.", 1))
 
     if __name__ == "__main__":
-        test_py();
+        test_py()
     ```
 
 1. Run the program by pressing Ctrl+F5 or selecting **Debug > Start Without Debugging** on the menu. The results are displayed in a console window.
@@ -89,6 +89,6 @@ Once you've [installed Python support in Visual Studio 2017](installing-python-s
 
 ## See also
 
-- [Creating an environment for an existing Python interpreter](managing-python-environments-in-visual-studio.md#creating-an-environment-for-an-existing-interpreter).
+- [Manually identifying an existing Python interpreter](managing-python-environments-in-visual-studio.md#manually-identifying-an-existing-environment).
 - [Install Python support in Visual Studio 2015 and earlier](installing-python-support-in-visual-studio.md).
 - [Install locations](installing-python-support-in-visual-studio.md#install-locations).

@@ -2,10 +2,10 @@
 title: Editing Python Code in Visual Studio | Microsoft Docs
 description: Editing Python in Visual Studio provides IntelliSense, code snippets, and navigation features, alongside formatting, linting, and refactoring.
 ms.custom:
-ms.date: 07/10/2017
+ms.date: 03/05/2018
 ms.reviewer:
 ms.suite:
-ms.technology: 
+ms.technology:
   - "devlang-python"
 dev_langs:
   - "python"
@@ -14,20 +14,20 @@ ms.topic: "article"
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
-ms.workload: 
+ms.workload:
   - "python"
   - "data-science"
 ---
 
 # Editing Python code
 
-Developers spend much of their time in the code editor, so [Python support in Visual Studio](installing-python-support-in-visual-studio.md) provides functionality to help you be more productive. Features include IntelliSense syntax highlighting, auto-completion, signature help, method overrides, search, and navigation. 
+Developers spend much of their time in the code editor, so [Python support in Visual Studio](installing-python-support-in-visual-studio.md) provides functionality to help you be more productive. Features include IntelliSense syntax highlighting, auto-completion, signature help, method overrides, search, and navigation.
 
 The editor is also integrated with the interactive window in Visual Studio, making it easy to exchange code between the two. See [Tutorial Step 3: Using the interactive REPL window](tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md) and [Using the interactive window - Send code to interactive command](python-interactive-repl-in-visual-studio.md#send-code-to-interactive-command) for details.
 
-For an introduction to editing Python code, see [Editing Python code](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121?l=r2iQH5LWE_4605918567) (Microsoft Virtual Academy, 2m30s):
-
-> [!VIDEO https://mva.microsoft.com/en-US/training-courses-embed/python-tools-for-visual-studio-2017-18121/Video-Editing-Python-Code-r2iQH5LWE_4605918567]
+|   |   |
+|---|---|
+| ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | [Watch a video (Microsoft Virtual Academy)](https://mva.microsoft.com/en-US/training-courses-embed/python-tools-for-visual-studio-2017-18121/Video-Editing-Python-Code-r2iQH5LWE_4605918567) for a demonstration of editing Python code (2m 30s).|
 
 For general documentation on editing code in Visual Studio, see [Writing Code in the Code and Text Editor](../ide/writing-code-in-the-code-and-text-editor.md). Also see [Outlining in Visual Studio](../ide/outlining.md), which helps you stay focused on particular sections of your code.
 
@@ -35,7 +35,11 @@ You can also use the Visual Studio Object Browser (**View > Other Windows > Obje
 
 ## IntelliSense
 
-IntelliSense provides [completions](#completions), [signature help](#signature-help), [quick info](#quick-info), and [code coloring](#code-coloring). To improve performance, IntelliSense depends on the completion database that's generated for each Python environment in your project. Databases may need refreshing if you add, remove, or update packages. Database status is shown in the **Python Environments** window (a sibling of Solution Explorer) on the **IntelliSense** tab (see [Python environments](managing-python-environments-in-visual-studio.md)). 
+IntelliSense provides [completions](#completions), [signature help](#signature-help), [quick info](#quick-info), and [code coloring](#code-coloring).
+
+To improve performance, IntelliSense in **Visual Studio 2017 version 15.5** and earlier depends on a completion database that's generated for each Python environment in your project. Databases may need refreshing if you add, remove, or update packages. Database status is shown in the **Python Environments** window (a sibling of Solution Explorer) on the **IntelliSense** tab (see [Environments window reference](python-environments-window-tab-reference.md#intellisense-tab)).
+
+**Visual Studio 2017 version 15.6** and later uses a different means to provide IntelliSense completions that are not dependent on the database.
 
 ### Completions
 
@@ -106,15 +110,41 @@ To customize the colors, go to **Tools > Options > Environment > Fonts and Color
 
 ## Code snippets
 
-Code snippets are fragments of code that can be inserted into your files by typing a shortcut and pressing Tab, or using the **Edit > IntelliSense > Insert Code Snippet** **Surround With** commands. For example, typing `class` followed by the Tab key generates the rest of the class. You can type over the name and bases list, moving between the highlighted fields with Tab, then press Enter to begin typing the body.
+Code snippets are fragments of code that can be inserted into your files by typing a shortcut and pressing Tab, or using the **Edit > IntelliSense > Insert Code Snippet** and **Surround With** commands, selecting **Python**, then selecting the desired snippet.
 
-![Code Snippets](media/code-editing-code-snippets.png)
+For example, `class` is a shortcut for a code snippet that inserts a class definition. You see the snippet appear in the auto-completion list when you type `class`:
 
-You can see the available code snippets in the Code Snippets Manager (**Tools > Code Snippets Manager**), selecting **Python** as the language:
+![Code snippet for the class shortcut](media/code-editing-code-snippet-class.png)
+
+Pressing Tab generates the rest of the class. You can then type over the name and bases list, moving between the highlighted fields with Tab, then press Enter to begin typing the body.
+
+![Highlights on areas of a code snippet for you to complete](media/code-editing-code-snippets.png)
+
+### Menu commands
+
+When you use the **Edit > IntelliSense > Insert Code Snippet** menu command, you first select "Python", then select a snippet:
+
+![Selecting a code snippet through the Insert Code Snippet command](media/code-editing-code-snippet-insert.png)
+
+The **Edit > IntelliSense > Surround With** command, similarly, places the current selection in the text editor inside a chosen structural element. For example, suppose you had a bit of code like the following:
+
+```python
+sum = 0
+for x in range(1, 100):
+    sum = sum + x
+```
+
+Selecting this code and choosing the **Surround With** command displays a list of available snippets. Choosing `def` from the list places the selected code within a function definition, and you can use the Tab key to navigate between the highlighted function name and arguments:
+
+![Using the Surround With command for code snippets](media/code-editing-code-snippet-surround-with.png)
+
+### Examine available snippets
+
+You can see the available code snippets in the Code Snippets Manager, opened by using **Tools > Code Snippets Manager** menu command and selecting **Python** as the language:
 
 ![Code Snippets Manager](media/code-editing-code-snippets-manager.png)
 
-To create your own snippets, see [Walkthrough: Creating a Code Snippet](../ide/walkthrough-creating-a-code-snippet.md). 
+To create your own snippets, see [Walkthrough: Creating a Code Snippet](../ide/walkthrough-creating-a-code-snippet.md).
 
 If you write a great code snippet that you'd like to share, feel free to post it in a gist and [let us know](https://github.com/Microsoft/PTVS/issues). We may be able to include it in a future release of Visual Studio.
 

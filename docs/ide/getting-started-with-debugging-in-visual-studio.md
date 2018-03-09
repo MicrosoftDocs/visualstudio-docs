@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "12/14/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -13,11 +13,13 @@ caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Get started with debugging in Visual Studio
 Visual Studio provides a powerful integrated set of project build and debugging tools. In this topic, find out how to start using the most basic set of debugging UI features.  
+
+If you haven't already installed Visual Studio, go to the [Visual Studio Downloads](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) page to install it for free.
 
 ## My code doesn't work. Help me, Visual Studio!  
  So you've figured out the editor and you've created some code. Now, you want to start debugging that code. In Visual Studio, as with most IDEs, there are two phases to debugging: building the code to catch and resolve project and compiler errors; and running that code in the environment to catch and resolve run-time and dynamic errors.  
@@ -115,7 +117,7 @@ The easiest way to build your project is to press **F7**, but you can also start
 ### Inspect your code at run-time  
  When your running code hits a breakpoint and pauses, the line of code marked in yellow (the current statement) has not executed yet. At this point, you may want to execute the current statement and then inspect the changed values. You can use several *step* commands to execute code in the debugger. If the marked code is a method call, you can step into it by pressing **F11**. You can also *step over* the line of code by pressing **F10**. For additional commands and details on how to step through code, read [Navigate code with the debugger](../debugger/navigating-through-code-with-the-debugger.md).
 
- ![Visual Studio run&#45;time value inspection](../ide/media/vs_ide_gs_debug_hit_breakpoint.PNG "vs_ide_gs_debug_inspect_value") 
+ ![Visual Studio run&#45;time value inspection](../ide/media/vs_ide_gs_debug_hit_breakpoint.PNG "vs_ide_gs_debug_inspect_value")
 
  In the preceding illustration, you can advance the debugger one statement by pressing either **F10** or **F11** (since there is no method call here, both commands have the same result).
 
@@ -123,7 +125,7 @@ The easiest way to build your project is to press **F7**, but you can also start
 
  ![Visual Studio run&#45;time value inspection](../ide/media/vs_ide_gs_debug_inspect_value.PNG "vs_ide_gs_debug_inspect_value")  
 
- Hover over a variable to see the value(s) and reference(s) it currently contains. If you see a value you didn't expect, you probably have a bug in the preceding or calling lines of code.  For more in-depth information, [learn more](../debugger/getting-started-with-the-debugger.md) about using the debugger. 
+ Hover over a variable to see the value(s) and reference(s) it currently contains. If you see a value you didn't expect, you probably have a bug in the preceding or calling lines of code.  For more in-depth information, [learn more](../debugger/getting-started-with-the-debugger.md) about using the debugger.
 
  Additionally, Visual Studio displays the Diagnostic Tools window, where you can observe your app's CPU and memory usage over time. Later in your app development, you can use these tools to look for unanticipated heavy CPU usage or memory allocation. Use it in conjunction with the **Watch** window and breakpoints to determine what's causing unexpected heavy usage or unreleased resources.  For more information, see [Profiling feature tour](../profiling/profiling-feature-tour.md).
 

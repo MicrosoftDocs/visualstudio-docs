@@ -11,6 +11,7 @@ f1_keywords:
   - "http://schemas.microsoft.com/developer/msbuild/2003#ResolveAssemblyReference"
   - "MSBuild.ResolveAssemblyReference.TurnOnAutoGenerateBindingRedirects"
   - "MSBuild.ResolveAssemblyReference.FoundConflict"
+  - "MSBuild.ResolveAssemblyRedirects.SuggestedRedirects"
 dev_langs: 
   - "VB"
   - "CSharp"

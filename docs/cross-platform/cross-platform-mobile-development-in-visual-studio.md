@@ -15,31 +15,19 @@ manager: ghogen
 ms.workload: 
   - "multiple"
 ---
-# Cross-Platform Mobile Development in Visual Studio
+# Cross-Platform mobile development in Visual Studio
+
 You can build apps for Android, iOS, and Windows devices by using Visual Studio.  As you design your app, use tools in Visual Studio to easily add connected services such as Office 365, Azure App Service, and Application Insights.
 
- Build your apps by using C# and the .NET Framework, HTML and JavaScript, or C++. Share code, strings, images, and in some cases even the user interface.
+Build your apps by using C# and the .NET Framework, HTML and JavaScript, or C++. Share code, strings, images, and in some cases even the user interface.
 
- If you want to build a game or immersive graphical app, install Visual Studio tools for Unity and enjoy all of the powerful productivity features of Visual Studio with Unity, the popular cross-platform game/graphics engine and development environment for apps that run on iOS, Android, Windows, and other platforms.
+If you want to build a game or immersive graphical app, install Visual Studio tools for Unity and enjoy all of the powerful productivity features of Visual Studio with Unity, the popular cross-platform game/graphics engine and development environment for apps that run on iOS, Android, Windows, and other platforms.
 
- **In this article:**
+## Build an app for Android, iOS, and Windows (.NET Framework)
 
--   [Build an app for Android, iOS, and Windows (.NET Framework)](#NET)
+![Devices](../cross-platform/media/homedevices.png "HomeDevices")
 
-    -   [Target Android, iOS, and Windows from a single code base](../cross-platform/cross-platform-mobile-development-in-visual-studio.md#AndroidHTML)
-
-    -   [Target Windows 10 devices](../cross-platform/cross-platform-mobile-development-in-visual-studio.md#WindowsHTML)
-
--   [Build an app for Android, iOS, and Windows (HTML/JavaScript)](#HTML)
-
--   [Build an app for Android and Windows (C++)](#CPP)
-
--   [Build a cross-platform game for Android, iOS, and Windows by using Visual Studio tools for Unity](#Unity)
-
-##  <a name="NET"></a> Build an app for Android, iOS, and Windows (.NET Framework)
- ![Devices](../cross-platform/media/homedevices.png "HomeDevices")
-
- With Xamarin, you can target Android, iOS, and Windows in the same solution, sharing code and even UI.
+With Xamarin, you can target Android, iOS, and Windows in the same solution, sharing code and even UI.
 
 |**Learn more**|
 |--------------------|
@@ -47,7 +35,7 @@ You can build apps for Android, iOS, and Windows devices by using Visual Studio.
 |[Learn about Xamarin in Visual Studio](http://www.visualstudio.com/explore/xamarin-vs) (VisualStudio.com)|
 |[Visual Studio and Xamarin](../cross-platform/visual-studio-and-xamarin.md) (MSDN Library)|
 |[Application Lifecycle Management (ALM) with Xamarin apps](../cross-platform/application-lifecycle-management-alm-with-xamarin-apps.md) (MSDN Library)|
-|[Learn about universal Windows apps in Visual Studio](https://www.visualstudio.com/vs/universal-windows-platform/) (VisualStudio.com)|
+|[Learn about Universal Windows apps in Visual Studio](https://www.visualstudio.com/vs/universal-windows-platform/) (VisualStudio.com)|
 |[Learn about the similarities between Swift and C#](http://aka.ms/scposter) (download.microsoft.com)|
 |[Learn about the Visual Studio Emulator for Android](http://www.visualstudio.com/explore/msft-android-emulator-vs) (VisualStudio.com)|
 
@@ -87,8 +75,8 @@ You can build apps for Android, iOS, and Windows devices by using Visual Studio.
 
 |**Learn more**|
 |--------------------|
-|[Learn about universal Windows apps](https://msdn.microsoft.com/library/windows/apps/dn894631.aspx) (Windows Dev Center)|
-|[Build your first one](http://msdn.microsoft.com/library/windows/apps/dn609832.aspx) (Windows Dev Center)|
+|[Intro to the Universal Windows Platform](/windows/uwp/get-started/universal-application-platform-guide)|
+|[Create your first app](/windows/uwp/get-started/your-first-app)|
 |[Develop apps for the Universal Windows Platform (UWP)](../cross-platform/develop-apps-for-the-universal-windows-platform-uwp.md)|
 |[Migrate apps to the Universal Windows Platform (UWP)](https://msdn.microsoft.com/en-us/library/mt148501.aspx)|
 

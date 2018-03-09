@@ -35,10 +35,10 @@ Whether you’re a student, an individual developer, a small team or an enterpri
 
 **Programs** – In addition to standard and cloud subscriptions, Microsoft offers subscriptions through a variety of special programs.
 
-- [Imagine](https://imagine.microsoft.com/en-us/about) -- Professional level developer tools and software for students at no cost - everything needed to create games, apps and websites.
+- [Imagine](https://imagine.microsoft.com/about) -- Professional level developer tools and software for students at no cost - everything needed to create games, apps and websites.
 - [BizSpark](https://bizspark.microsoft.com/About/Offers) - Free products and services for startups.  BizSpark members have free access to all Microsoft development and test software, including Azure, Windows, Visual Studio, Office and SQL Server. 
-- [Microsoft Partner Network (MPN)](https://partner.microsoft.com/en-us)  – Depending your level in MPN, you may receive up to 10 Enterprise subscriptions 
-- [Microsoft Certified Trainer](https://www.microsoft.com/en-us/learning/mct-certification.aspx) -- Uniquely tailored to provide exclusive access to resources that help you further develop your technical expertise and training skills.
+- [Microsoft Partner Network (MPN)](https://partner.microsoft.com/)  – Depending your level in MPN, you may receive up to 10 Enterprise subscriptions 
+- [Microsoft Certified Trainer](https://www.microsoft.com/learning/mct-certification.aspx) -- Uniquely tailored to provide exclusive access to resources that help you further develop your technical expertise and training skills. For MCT Software & Services and MCT Developer Software & Services subscriptions, please refer to the [Microsoft Certified Trainer website](https://www.microsoft.com/learning/mct-certification.aspx#item-ID0EFAAAAACA) for details on the training use rights that come with your subscription. 
 
 ## Visual Studio Licensing
 Visual Studio subscriptions are licensed on a per-user basis. One person can use the software to design, develop, test, or demonstrate his or her programs on any number of devices. A Visual Studio subscription also allows the licensed user to evaluate the software and to simulate customer environments to diagnose issues related to their programs.
@@ -58,4 +58,4 @@ A Visual Studio subscription license also allows your end users to access the so
 
 [Compare Visual Studio IDE features](https://www.visualstudio.com/vs/compare/).
 
-For MCT Software & Services and MCT Developer Software & Services subscriptions, please refer to the [Microsoft Certified Trainer website](https://www.microsoft.com/learning/en-us/mct-certification.aspx#item-ID0EFAAAAACA) for details on the training use rights that come with your subscription.  
+ 

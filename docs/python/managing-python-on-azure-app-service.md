@@ -24,10 +24,10 @@ ms.workload:
 
 [Azure App Service](https://azure.microsoft.com/services/app-service/) is a platform-as-a-service offering for web apps, whether they are sites accessed through a browser, REST APIs used by your own clients, or event-triggered processing. App Service fully supports using Python to implement apps.
 
-Customizable Python support on Azure App Service is provided as a set of App Service *site extensions* that each contain a specific version of the Python runtime. You can then install any desired packages directly into that environment, as described in this topic. By customizing the environment in the App Service itself, you don't need to maintain packages in your web app projects or upload them with the app code.
+Customizable Python support on Azure App Service is provided as a set of App Service *site extensions* that each contain a specific version of the Python runtime. You can then install any desired packages directly into that environment, as described in this article. By customizing the environment in the App Service itself, you don't need to maintain packages in your web app projects or upload them with the app code.
 
 > [!Tip]
-> Although App Service by default has Python 2.7 and Python 3.4 installed in root folders on the server, you cannot customize or install packages in these environments, nor should you depend on their presence. You should instead rely on a site extension that you control, as described in this topic.
+> Although App Service by default has Python 2.7 and Python 3.4 installed in root folders on the server, you cannot customize or install packages in these environments, nor should you depend on their presence. You should instead rely on a site extension that you control, as described in this article.
 
 > [!Important]
 > The processes described here are subject to change, and especially to improvement. Changes are announced on the [Python Engineering at Microsoft blog](https://blogs.msdn.microsoft.com/pythonengineering/).
@@ -198,7 +198,7 @@ The [Kudu console](https://github.com/projectkudu/kudu/wiki/Kudu-console) gives 
     Using `requirements.txt` is recommended because it's easy to reproduce your exact package set both locally and on the server. Just remember to visit the console after deploying any changes to `requirements.txt` and run the command again.
 
 > [!Note]
-> There's no C compiler on App Service, so you need to install the wheel for any packages with native extension modules. Many popular packages provide their own wheels. For packages that don't, use `pip wheel <package_name>` on your local development computer and then upload the wheel to your site. For an example, see [Managing required packages](managing-python-environments-in-visual-studio.md#managing-required-packages-requirementstxt).
+> There's no C compiler on App Service, so you need to install the wheel for any packages with native extension modules. Many popular packages provide their own wheels. For packages that don't, use `pip wheel <package_name>` on your local development computer and then upload the wheel to your site. For an example, see [Managing required packages with requirements.txt](managing-required-packages-with-requirements-txt.md).
 
 ### Kudu REST API
 

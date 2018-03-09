@@ -1,15 +1,11 @@
 ---
-title: ".NET Coding Convention Settings For EditorConfig | Microsoft Docs"
-ms.custom: ""
-ms.date: "01/10/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+title: ".NET coding convention settings For EditorConfig in Visual Studio | Microsoft Docs"
+ms.date: 02/28/2018
 ms.topic: "article"
-dev_langs: 
+dev_langs:
   - "CSharp"
   - "VB"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "coding conventions [EditorConfig]"
   - "EditorConfig coding conventions"
   - "language conventions [EditorConfig]"
@@ -18,7 +14,7 @@ author: "kuhlenh"
 ms.author: "kaseyu"
 manager: ghogen
 ms.technology: vs-ide-general
-ms.workload: 
+ms.workload:
   - "dotnet"
   - "dotnetcore"
 ---
@@ -390,8 +386,8 @@ The following table shows the rule names, rule IDs, applicable programming langu
 | dotnet_style_explicit_tuple_names | IDE0033 | C# 7.0+ and Visual Basic 15+ | true:suggestion | First release |
 | dotnet_style_coalesce_expression | IDE0029 | C# and Visual Basic | true:suggestion | First release |
 | dotnet_style_null_propagation | IDE0031 | C# 6.0+ and Visual Basic 14+ | true:suggestion | First release |
-| dotnet_prefer_inferred_tuple_names | IDE0037 | C# 7.1+ and Visual Basic 15+ | true:suggestion | 15.6 preview 2 |
-| dotnet_prefer_inferred_anonymous_type_member_names | IDE0037 | C# and Visual Basic | true:suggestion | 15.6 preview 2 |
+| dotnet_prefer_inferred_tuple_names | IDE0037 | C# 7.1+ and Visual Basic 15+ | true:suggestion | 15.6 |
+| dotnet_prefer_inferred_anonymous_type_member_names | IDE0037 | C# and Visual Basic | true:suggestion | 15.6 |
 
 **dotnet\_style\_object_initializer**
 
@@ -1617,7 +1613,7 @@ public int Foo { get; set; }
 
 //csharp_preserve_single_line_blocks = false
 public int MyProperty
-{ 
+{
     get; set;
 }
 ```
@@ -1633,7 +1629,7 @@ csharp_preserve_single_line_blocks = true
 
 ## See also
 
-[Quick Actions](../ide/quick-actions.md)  
-[.NET naming conventions for EditorConfig](../ide/editorconfig-naming-conventions.md)  
-[Create portable custom editor options](../ide/create-portable-custom-editor-options.md)  
-[.NET Compiler Platform's .editorconfig file](https://github.com/dotnet/roslyn/blob/master/.editorconfig)  
+- [Quick Actions](../ide/quick-actions.md)
+- [.NET naming conventions for EditorConfig](../ide/editorconfig-naming-conventions.md)
+- [Create portable custom editor options](../ide/create-portable-custom-editor-options.md)
+- [.NET Compiler Platform's .editorconfig file](https://github.com/dotnet/roslyn/blob/master/.editorconfig)

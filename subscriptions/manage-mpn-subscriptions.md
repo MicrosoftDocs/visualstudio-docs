@@ -24,7 +24,8 @@ The number and level of Visual Studio subscriptions vary by your Microsoft Partn
 - Microsoft Partner Network [Program Administrator Guide to Software and Online Services Benefits]((https://assets.microsoft.com/Program-Administrator-Guide-to-Software-and-Online-Services-Benefits_1.pdf) )
     - Pg 6 - Assigning Contact Roles and Visual Studio subscriptions for Action Pack
 
-      **Note:**  The Technical Contact Role is required for Visual Studio subscriptions
+> [!NOTE]
+> The Technical Contact Role is required for Visual Studio subscriptions
     - Pg 8 – Assigning Visual Studio subscriptions for Competency Partners
 
 

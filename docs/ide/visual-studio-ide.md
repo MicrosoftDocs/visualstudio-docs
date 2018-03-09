@@ -1,9 +1,10 @@
 ---
-title: "Overview of Visual Studio | Microsoft Docs"
+title: "Overview of Visual Studio 2017 | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/09/2017"
+ms.date: 02/05/2018
 ms.reviewer: ""
 ms.suite: ""
+ms.technology: vs-ide-general
 ms.topic: "article"
 author: "gewarren"
 f1_keywords:
@@ -11,7 +12,7 @@ f1_keywords:
   - VS.StartPage.HowDoI
 ms.author: gewarren
 manager: ghogen
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Visual Studio IDE overview
@@ -44,7 +45,7 @@ You can leverage Azure services for your apps using Connected Services such as:
 
 [HockeyApp](https://www.visualstudio.com/hockey-app/) helps you distribute beta versions, collect live crash reports, and get feedback from real users. In addition, you can integrate Office 365 REST APIs into your own app to connect to data stored in the cloud. For more information, see [these GitHub samples](https://github.com/OfficeDev/?utf8=%E2%9C%93&query=o365).
 
-[Application Insights](https://marketplace.visualstudio.com/items?itemName=VisualStudioOnlineApplicationInsights.application-insights) helps you detect and diagnose quality issues in your apps and web services. Application Insights will also help you understand what your users actually do with your app so you can optimize the user experience.
+[Application Insights](https://marketplace.visualstudio.com/items?itemName=VisualStudioOnlineApplicationInsights.application-insights) helps you detect and diagnose quality issues in your apps and web services. Application Insights also helps you understand what your users actually do with your app, so you can optimize the user experience.
 
 ### Create apps for the web
 
@@ -54,118 +55,109 @@ For more information, see [Modern Web Tooling](https://www.visualstudio.com/vs/m
 
 ### Build cross-platform apps and games
 
-You can use Visual Studio to build apps and games for Android, iOS, Linux, Windows, and other devices. Learn more about it at [Cross-Platform Mobile Development](../cross-platform/cross-platform-mobile-development-in-visual-studio.md). Universal Windows Apps help you leverage your code across multiple platforms. See [Universal Windows Apps](https://dev.windows.com/windows-apps) for more information.
+You can use Visual Studio to build apps and games for macOS, Linux, and Windows, as well as for Android, iOS, and other mobile devices.
 
-Choose the tools you need based on your app requirements and the language you want to use:
+- Build [.NET Core](/dotnet/core/) apps that run on Windows, macOS and Linux.
 
-- [Xamarin for Visual Studio](../cross-platform/build-apps-with-native-ui-using-xamarin-in-visual-studio.md): A common code base in C# for all devices.
+- Build mobile apps for iOS, Android, and Windows in C# and F# by using [Xamarin](https://developer.xamarin.com/guides/cross-platform/windows/visual-studio/).
 
-- [Visual Studio Tools for Apache Cordova](../cross-platform/visual-studio-tools-for-apache-cordova.md): A common code base for HTML, CSS, and JavaScript or Typescript.
+- Use standard web technologies&mdash;HTML, CSS, and JavaScript&mdash;to build mobile apps for iOS, Android, and Windows by using [Apache Cordova](/visualstudio/cross-platform/tools-for-cordova/).
 
-- [Visual Studio Tools for Unity](../cross-platform/visual-studio-tools-for-unity.md): 2D/3D game development in C#.
+- Build 2D and 3D games in C# by using [Visual Studio Tools for Unity](../cross-platform/visual-studio-tools-for-unity.md).
 
-- [C++ for Cross-Platform Development](../cross-platform/visual-cpp-for-cross-platform-mobile-development.md): Shared code libraries and apps in C++.
+- Build native C++ apps for iOS, Android and Windows devices, and share common code in libraries built for iOS, Android, and Windows, by using [C++ for cross-platform development](../cross-platform/visual-cpp-for-cross-platform-mobile-development.md).
 
-- [Visual Studio Emulator for Android](../cross-platform/visual-studio-emulator-for-android.md): Visual Studio Emulator for Android: Debug and test your Android apps no matter the IDE.
+- Deploy, test, and debug Android apps with the [Android emulator](../cross-platform/visual-studio-emulator-for-android.md).
 
-[Create games using Visual Studio](https://www.visualstudio.com/vs/game-development/) with game development tools such as DirectX, Unity, Unreal, Cocos, and more.
-
-Visual Studio can do help you do many more things. For a more complete list, see [Visual Studio IDE](https://www.visualstudio.com/vs/).
+Visual Studio can do help you do many more things. For a more complete list, see [www.visualstudio.com](https://www.visualstudio.com/vs/).
 
 ## Install the Visual Studio IDE
 
 To get started, download Visual Studio and install it on your system. You can download it at [Visual Studio 2017](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs).
 
-Visual Studio is now more lightweight than ever! The modular installer enables you to choose and install *workloads*, which are groups of features needed for the programming language or platform you prefer. This strategy helps keep the footprint of the Visual Studio installation smaller than ever before, which means it installs and updates faster too.
+Visual Studio is now more lightweight than ever. The modular installer enables you to choose and install *workloads*, which are groups of features needed for the programming language or platform you prefer. This strategy helps keep the footprint of the Visual Studio installation smaller than ever before, which means it installs and updates faster too. In addition to improved installation performance, Visual Studio 2017 also has shorter IDE start-up and solution load times.
 
-To follow the steps for creating a program below, be sure to select and install the **Universal Windows Platform Development** workload.
+To learn more about setting up Visual Studio on your system, see [Install Visual Studio 2017](../install/install-visual-studio.md). To follow the steps for [creating a program](#create-a-program), be sure to select the **.NET Core cross-platform development** workload during the installation.
 
-![Visual Studio installer](../ide/media/vside_tour_install_dialog.png)
-
-In addition to improved installation performance, Visual Studio 2017 also has shorter IDE start-up and solution load times.
-
-To learn more about setting up Visual Studio on your system, see [Install Visual Studio 2017](../install/install-visual-studio.md).
+![Visual Studio Installer](../ide/media/overview-net-core-workload.png)
 
 ## Sign in
 
-When you start Visual Studio for the first time, you can optionally sign in using your Microsoft account, or your work or school account. Being signed in lets you synchronize Visual Studio settings, such as window layouts, across multiple devices. It also connects you automatically to the services you might need, such as Azure subscriptions and Visual Studio Team Services.
+When you start Visual Studio for the first time, you can optionally sign in using your Microsoft account, or your work or school account. Being signed in lets you synchronize Visual Studio settings, such as window layouts, across multiple devices. It also connects you automatically to the services you might need, such as Azure subscriptions and [Visual Studio Team Services](/vsts/).
 
 ## Create a program
 
 One good way to learn about something is to use it! Let's dive in and create a new, simple program.
 
-1. Open Visual Studio. On the menu, choose **File** > **New** > **Project**.
+1. Open Visual Studio. On the menu, choose **File** > **New** > **Project...**.
 
-  ![screenshot](../ide/media/VSIDE_Tour_NewProject1.png)
+  ![File > New Project on menu bar](../ide/media/VSIDE_Tour_NewProject1.png)
 
-  As an alternative, you can create a new project by using the Start Page. For more information, see [Harness the Power of the Redesigned Start Page (blog)](https://blogs.msdn.microsoft.com/visualstudio/2016/11/29/harness-the-power-of-the-redesigned-start-page/).
+1. The **New Project** dialog box shows several project templates. Choose the **.NET Core** category under **Visual C#**, and then choose the **Console App (.NET Core)** template. In the **Name** text box, type "HelloWorld". Select the **OK** button.
 
-1. The **New Project** dialog box shows several project templates. Choose the **Windows Universal** category under **Visual C#**, choose the **Blank App (Universal Windows)** template, and then choose the **OK** button.
+  ![.NET Core app template](../ide/media/overview-new-project-dialog.png)
 
   > [!NOTE]
-  > If you don't see the **Windows Universal** category, you need to install the **Universal Windows Platform Development** workload. To do this, choose the **Open Visual Studio Installer** link on the bottom left of the **New Project** dialog. After **Visual Studio Installer** opens, select the **Universal Windows Platform Development** workload and then choose **Modify**.
+  > If you don't see the **.NET Core** category, you need to install the **.NET Core cross-platform development** workload. To do this, choose the **Open Visual Studio Installer** link on the bottom left of the **New Project** dialog. After **Visual Studio Installer** opens, scroll down and select the **.NET Core cross-platform development** workload, and then choose **Modify**.
 
-  ![UWP blank app template](../ide/media/new-uwp-blank-app-template.png)
+   Visual Studio uses the template to create your project. It is a simple "Hello World" application that calls the <xref:System.Console.WriteLine> method to display the literal string "Hello World!" in the console window.
 
-  This creates a new blank Universal Windows app project using C# and XAML as the programming languages. Wait for a bit while Visual Studio sets up the project for you. If you are prompted for any information, just accept the default values for now.
+1. Shortly, you should see something like the following screenshot:
 
-1. In the **New Universal Windows Platform Project** dialog box, accept the defaults by choosing **OK**.
+  ![Visual Studio IDE](../ide/media/overview-ide-console-app.png)
 
-1. Shortly, you should see something like the following screenshot. Your project files are listed on the right side in a window called Solution Explorer.
+   The C# code for your application is shown in the editor window, which takes up most of the space. Notice that the code syntax is automatically colorized to indicate different types of code, such as keywords and types. In addition, small, vertical dashed lines in the code indicate which braces match one another, and line numbers help you locate code later. You can choose the small, boxed minus signs to collapse or expand code. This code outlining feature lets you hide code you don't need, helping to minimize onscreen clutter.
 
-  ![screenshot](../ide/media/VSIDE_Tour_NewProject3.png)
+   The project files are listed on the right side in a window called **Solution Explorer**.
 
-1. In Solution Explorer, choose the little black triangle next to the MainPage.xaml file to expand it, and you should see a MainPage.xaml.cs file underneath. Choose this file (which contains C# code) to open it.
-
-  The C# code in MainPage.xaml.cs appears in the code editor on the left side of the screen. Notice that the code syntax is automatically colorized to indicate different types of code, such as statements or comments. In addition, small, vertical dashed lines in the code indicate which braces match one another, and line numbers help you locate code later. You can choose the small, boxed minus signs to collapse or expand code. This code outlining feature lets you hide code you don't need, helping to minimize onscreen clutter.
-
-  ![](../ide/media/VSIDE_Tour_NewProject3a.png)
+  ![Visual Studio IDE with red boxes](../ide/media/overview-ide-console-app-red-boxes.png)
 
   There are other menus and tool windows available, but let's move on for now.
 
-1. Add a button to the XAML form to give users a way to interact with your app. To do this, open the MainPage.xaml file. This shows a split view: a designer above, for visually placing controls, and a code view below, which shows the XAML code behind the designer. When you run the program later, what you see in the designer becomes a window that users will see, a "form", and the underlying XAML determines what appears on the form.
+1. Now, start the app. You can do this by choosing **Start Without Debugging** from the **Debug** menu on the menu bar. You can also press **Ctrl**+**F5**.
 
-1. On the left side of the screen, choose the **Toolbox** tab to open the Toolbox. The Toolbox contains a number of visual controls that you can add to forms. For now, we'll just add a button control.
+  ![Debug > Start without debugging menu](../ide/media/overview-start-without-debugging.png)
 
-1. Expand the **Common XAML Controls** section and then drag the Button control out to about the middle of the form. (The exact location doesn't matter.)
+  Visual Studio builds the app, and a console window opens with the message "Hello World!". You now have a running app!
 
-  ![screenshot](../ide/media/VSIDE_Tour_Toolbox.png)
+  ![Console window](../ide/media/overview-console-window.png)
 
-  When you're done, you should see something similar to the following.
+1. To close the console window, press any key on your keyboard.
 
-  ![screenshot](../ide/media/VSIDE_Tour_XAMLButton.png)
+1. Let's add some additional code to the app. Add the following C# code before the line that says `Console.WriteLine("Hello World!");`:
 
-  The button is on the designer, and its underlying code (highlighted) is automatically added to the designer's XAML code.
+   ```csharp
+   Console.WriteLine("\nWhat is your name?");
+   var name = Console.ReadLine();
+   ```
 
-1. Let's change some of the XAML code. Rename the text in the button code from `Button` to `Hello!`.
+   This code displays "What is your name?" in the console window, and waits until the user enters some text followed by the **Enter** key.
 
-  ![screenshot](../ide/media/VSIDE_Tour_XAMLButton2.png)
+1. Now change the line that says `Console.WriteLine("Hello World!");` to the following code:
 
-1. Now, start the app. You can do this by choosing the **Start** (![Start button](../ide/media/VSIDE_StartButton.png)) button on the toolbar, or by choosing the **F5** key, or on the menu, choosing **Debug** > **Start Debugging**.
+   ```csharp
+   Console.WriteLine($"\nHello {name}!");
+   ```
 
-  ![screenshot](../ide/media/VSIDE_Tour_RunButton.png)
+1. Run the app again by selecting **Debug** > **Start Without Debugging** or by pressing **Ctrl**+**F5**.
 
-  The app begins its build process and status messages appear in the Output window. Soon, you should see the form appear with your button in it. You now have a running app!
+   Visual Studio rebuilds the app, and a console window opens and prompts you for your name.
 
-  ![screenshot](../ide/media/VSIDE_Tour_RunProject.png)
+1. Enter your name in the console window and press **Enter**.
 
-  Of course, it doesn't do much right now, but you can add more functionality to it later if you want.
+   ![Console window input](media/overview-console-input.png)
 
-1. When you're done running the program, choose the Stop (![Stop button](../ide/media/VSIDE_StopButton.png)) button on the toolbar to stop it.
-
-Let's recap what you did so far: you created a new C# Windows Universal project in Visual Studio, viewed its code, added a control to the designer, changed some XAML code, and then ran the project. Although the process was simplified for this example, this shows you some common parts of the Visual Studio IDE that you will use when you develop your own apps. If you want further details about this example, see [Create a "Hello, world" app (XAML)](/windows/uwp/get-started/create-a-hello-world-app-xaml-universal).
+1. Press any key to close the console window.
 
 ## Debug, test, and improve your code
 
-Nothing runs perfectly all the time. When you write code, you need to run it and test it for bugs and performance. Visual Studio's cutting edge debugging system enables you to debug code running in your local project, on a remote device, or on an emulator such as the ones for Android or Windows Phone devices. You can step through code one statement at a time and inspect variables as you go, you can step through multi-threaded applications, and you can set breakpoints that are only hit when a specified condition is true. You can monitor the values of variables as the code runs, and more. All of this can be managed in the code editor itself, so that you don't have to leave your code.
+Nothing runs perfectly all the time. When you write code, you need to run it and test it for bugs and performance. Visual Studio's cutting edge debugging system enables you to debug code running in your local project, on a remote device, or on an emulator such as [the one for Android devices](../cross-platform/visual-studio-emulator-for-android.md). You can step through code one statement at a time and inspect variables as you go. You can set breakpoints that are only hit when a specified condition is true. You can monitor the values of variables as the code runs, and more. All of this can be managed in the code editor itself, so that you don't have to leave your code. To get more details about debugging in Visual Studio, see [Debugger feature tour](../debugger/debugger-feature-tour.md).
 
-![Debugging](../ide/media/VSIDE_Tour_Debugging.png)
-
-For testing, Visual Studio offers unit testing, IntelliTest, load and performance testing, and more. To get more details about the Visual Studio debugging process, see [Debugger Feature Tour](../debugger/debugger-feature-tour.md). To learn more about testing, see [Testing Tools and Scenarios](../test/developer-testing-scenarios.md). To learn more about improving the performance of your apps, see [Profiling Feature Tour](../profiling/profiling-feature-tour.md).
+For testing, Visual Studio offers unit testing, IntelliTest, load and performance testing, and more. To learn more about testing, see [Testing tools and scenarios](../test/developer-testing-scenarios.md). To learn more about improving the performance of your apps, see [Profiling feature tour](../profiling/profiling-feature-tour.md).
 
 ## Deploy your finished application
 
-When your application is ready to deploy to users or customers, Visual Studio provides the tools to do that, whether you're deploying to Microsoft Store, to a SharePoint site, or with InstallShield or Windows Installer technologies. It's all accessible through the IDE. For more information, see [Deploying Applications, Services, and Components](../deployment/deploying-applications-services-and-components.md).
+When your application is ready to deploy to users or customers, Visual Studio provides the tools to do that, whether you're deploying to Microsoft Store, to a SharePoint site, or with InstallShield or Windows Installer technologies. It's all accessible through the IDE. For more information, see [Deploying applications, services, and components](../deployment/deploying-applications-services-and-components.md).
 
 ## Quick tour of the IDE
 
@@ -193,7 +185,7 @@ Following are some other common productivity features in Visual Studio:
 
  ![Refactoring](../ide/media/VSIDE_refactor.png)
 
-- **IntelliSense** is an umbrella term for a set of popular features that display type information about your code directly in the editor and, in some cases, write small bits of code for you. It's like having basic documentation inline in the editor, which saves you from having to look up type information in a separate help window. IntelliSense features vary by language. For more information, see [C# IntelliSense](../ide/visual-csharp-intellisense.md), [Visual C++ Intellisense](../ide/visual-cpp-intellisense.md), [JavaScript IntelliSense](../ide/javascript-intellisense.md), and [Visual Basic-Specific IntelliSense](../ide/visual-basic-specific-intellisense.md). The following illustration shows some IntelliSense features at work:
+- **IntelliSense** is an umbrella term for a set of popular features that display type information about your code directly in the editor and, in some cases, write small bits of code for you. It's like having basic documentation inline in the editor, which saves you from having to look up type information in a separate help window. IntelliSense features vary by language. For more information, see [C# IntelliSense](../ide/visual-csharp-intellisense.md), [Visual C++ IntelliSense](../ide/visual-cpp-intellisense.md), [JavaScript IntelliSense](../ide/javascript-intellisense.md), and [Visual Basic IntelliSense](../ide/visual-basic-specific-intellisense.md). The following illustration shows some IntelliSense features at work:
 
   ![Visual Studio Member List](../ide/media/vs2017_Intellisense.png)
 
@@ -217,10 +209,6 @@ Following are some other common productivity features in Visual Studio:
 
  ![Go to Definition](../ide/media/VSIDE_go_to_definition.png)
 
-- A related tool, the [Object Browser](http://msdn.microsoft.com/f89acfc5-1152-413d-9f56-3dc16e3f0470), enables you to inspect .NET or Windows Runtime assemblies on your system to see what types they contain and what members (properties, methods, events, etc.) those types contain.
-
-  ![Object Browser showing System.Timer](../ide/media/objectbrowser.png)
-
 ## Manage your source code and collaborate with others
 
 You can manage your source code in Git repos hosted by any provider, including GitHub. Or use [Visual Studio Team Services (VSTS)](/vsts/index) to manage code alongside bugs and work items for your whole project. See [Get Started with Git and Team Services (VSTS)](/vsts/git/gitquickstart?tabs=visual-studio) to learn more about managing Git repos in Visual Studio using Team Explorer. Visual Studio also has other built-in source control features. To learn more about them, see [New Git Features in Visual Studio 2017 (blog)](https://blogs.msdn.microsoft.com/visualstudioalm/2017/03/06/new-git-features-in-visual-studio-2017/).
@@ -235,7 +223,7 @@ The following image shows the Team Explorer window for a solution that is hosted
 
 ![Visual Studio Team Explorer](../ide/media/vs2017_teamexplorer.png)
 
-You can also automate your build process to build the code that the devs on your team have checked into version control. For example, you can build one or more projects nightly or every time that code is checked in. See [Build and Release (VSTS and TFS)](/vsts/build-release/index) for more information.
+You can also automate your build process to build the code that the devs on your team have checked into version control. For example, you can build one or more projects nightly or every time that code is checked in. For more information, see [Build and release (VSTS and TFS)](/vsts/build-release/index).
 
 ## Connect to services, databases, and cloud-based resources
 
@@ -276,8 +264,7 @@ Congratulations on completing the tour of the Visual Studio IDE! We hope you lea
 ## See also
 
 * [Visual Studio IDE](https://www.visualstudio.com/vs/)
-* [Visual Studio Downloads](https://www.visualstudio.com/downloads/)
-* [The Visual Studio Blog](https://blogs.msdn.microsoft.com/visualstudio/)
-* [Visual Studio Forums](https://social.msdn.microsoft.com/Forums/vstudio/home?category=visualstudio%2Cvsarch%2Cvsdbg%2Cvstest%2Cvstfs%2Cvsdata%2Cvsappdev%2Cvisualbasic%2Cvisualcsharp%2Cvisualc)
+* [Visual Studio downloads](https://www.visualstudio.com/downloads/)
+* [The Visual Studio blog](https://blogs.msdn.microsoft.com/visualstudio/)
+* [Visual Studio forums](https://social.msdn.microsoft.com/Forums/vstudio/home?category=visualstudio%2Cvsarch%2Cvsdbg%2Cvstest%2Cvstfs%2Cvsdata%2Cvsappdev%2Cvisualbasic%2Cvisualcsharp%2Cvisualc)
 * [Microsoft Virtual Academy](https://mva.microsoft.com/)
-* [Channel 9](https://channel9.msdn.com/)

@@ -25,7 +25,7 @@ Overview:  Retail subscriptions are often purchased from the Microsoft Store, an
 
 
 ## Activate Your Subscription: 
-You can activate your subscriptoin from your payment "Confirmation Page" or "Confirmation Email".  (If you don't see your confirmation email, be sure to check your junk mail folders.)   
+You can activate your subscription from your payment "Confirmation Page" or "Confirmation Email".  (If you don't see your confirmation email, be sure to check your junk mail folders.)   
 1. Click on **Click here to sign in**.  You will be taken to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions/activate?wt.mc_id=o~msft~docs).
 2. Sign in to your subscription.  (Get help [signing in](/visualstudio/subscriptions/signing-in).)
 3. Enter the "Product Key" information available from the payment "Confirmation Page" or "Confirmation Email" and click **Activate**.

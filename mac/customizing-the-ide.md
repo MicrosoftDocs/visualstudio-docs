@@ -9,19 +9,19 @@ ms.assetid: F7C2A28C-0759-4E0D-A28E-B72D5AB73DB6
 ---
 # Customizing the IDE
 
-Visual Studio for Mac can be customized in a variety of ways, allowing users to develop apps in an environment that meets their needs for both efficiency and aesthetics. This topic explores the variety of ways that Visual Studio for Mac can be adapted to suit your needs.
+Visual Studio for Mac can be customized in a variety of ways, allowing users to develop apps in an environment that meets their needs for both efficiency and aesthetics. This article explores the variety of ways that Visual Studio for Mac can be adapted to suit your needs.
 
 ## Dark theme
 
 ![Dark Theme View](media/customizing-the-ide-image7a.png)
 
-You can switch themes in Visual Studio for Mac by browsing to **Visual Studio > Preferences... > Environment > Visual Style** and selecting your desired theme from the **User Interface Theme** drop-down, as illustrated in the screenshot below:
+You can switch themes in Visual Studio for Mac by browsing to **Visual Studio > Preferences... > Environment > Visual Style** and selecting your desired theme from the **User Interface Theme** drop-down, as illustrated in the following image:
 
  ![Dark Theme Selection](media/customizing-the-ide-image7b.png)
 
 ## Localization
 
-Visual Studio for Mac is localized in 13 languages, enabling it to be accessible to more developers. The languages currently available are listed below:
+Visual Studio for Mac is localized in the following 13 languages, enabling it to be accessible to more developers:
 
 * Chinese - China
 * Chinese - Taiwan
@@ -37,29 +37,29 @@ Visual Studio for Mac is localized in 13 languages, enabling it to be accessible
 * Spanish
 * Turkish
 
-To change the language displayed by Visual Studio for Mac, browse to  **Visual Studio > Preferences... > Environment > Visual Style** and select your desired language from the **User Interface Language** drop-down, as illustrated in the screenshot below:
+To change the language displayed by Visual Studio for Mac, browse to  **Visual Studio > Preferences... > Environment > Visual Style** and select your desired language from the **User Interface Language** drop-down, as illustrated in the following image:
 
 
 ![Language Selection](media/customizing-the-ide-image11a.png)
 
 ## Author information
 
-The author information panel allows you to add relevant information about yourself such as your name, email address, the copyright owner for your work, your company, and trademark, as illustrated below:
+The author information panel allows you to add relevant information about yourself such as your name, email address, the copyright owner for your work, your company, and trademark:
 
  ![Edit Author Information section](media/customizing-the-ide-image9a.png)
 
-This information is used to populate standard file headers, such as a license, that you might add to new files created in Visual Studio for Mac:
+This information is used to populate standard file headers, such as a license, that you might add to new files:
 
  ![Standard Header options](media/customizing-the-ide-image8a.png)
 
 
-Populated **Name** and **Email** fields will be used to add information to any commit that is made through Version Control in Visual Studio for Mac. If you have not populated these fields, Visual Studio for Mac will prompt you to do so when you try to use Version Control.
+Populated **Name** and **Email** fields will be used in any commit that is made through Version Control in Visual Studio for Mac. If you have not populated these fields, Visual Studio for Mac will prompt you to do so when you try to use Version Control.
 
 ## Key bindings
 
 Key bindings allow you to adapt your development environment so that you can move more efficiently throughout Visual Studio for Mac. It provides familiar key bindings for many popular IDEs, such as Visual Studio (Windows), ReSharper, Visual Studio Code, and Xcode.
 
-Key bindings can be set by browsing to **Visual Studio > Preferences... > Environment > Key Bindings**, as illustrated below:
+Key bindings can be set by browsing to **Visual Studio > Preferences... > Environment > Key Bindings**, as illustrated by the following image:
 
  ![Set Key bindings](media/customizing-the-ide-image10a.png)
 
@@ -67,13 +67,13 @@ From here you can search for key binding combinations, view conflicting bindings
 
 ## Workspace layout
 
-Visual Studio for Mac's workspace consists of a main document area (normally the editor, designer surface, or options file), surrounded by complimentary *pads* which contain useful information for accessing and managing application files, testing, and debugging.
+Visual Studio for Mac's workspace consists of a main document area (normally the editor, designer surface, or options file), surrounded by complimentary *pads* that contain useful information for accessing and managing application files, testing, and debugging.
 
  ![Workspace layout](media/customizing-the-ide-image1a.png)
 
 ### Viewing and arranging pads
 
-When you open any new solution or file in Visual Studio for Mac, you should notice some *pads* in the workspace, including the Solution Pad, Document Outline, and Errors, as illustrated below:
+When you open any new solution or file in Visual Studio for Mac, you should notice some *pads* in the workspace, including the Solution Pad, Document Outline, and Errors:
 
 ![Solution Pads](media/customizing-the-ide-image2a.png)
 
@@ -96,9 +96,9 @@ Auto-hidden pads are docked to the sides of the workspace making them easily acc
 
 ### Organizing layouts
 
-The pads which are displayed at any time are dependent on the current context. For example, when using the visual designer, the toolbox and property grid pads are most important; when debugging, it is useful to have the debugger pads for viewing the stack and locals.
+The pads that are displayed at any time are dependent on the current context. For example, when using the visual designer, the toolbox and property grid pads are most important; when debugging, it is useful to have the debugger pads for viewing the stack and locals.
 
-The state of the open pads is represented by a *layout*. The layouts can be  switched manually through the View menu, as illustrated below, or it will be switched automatically when you carry out an action, such as debugging, or opening a Storyboard:
+The state of the open pads is represented by a *layout*. The layouts can be  switched manually through the View menu, as illustrated in the following image, or it is switched automatically when you carry out an action, such as debugging, or opening a Storyboard:
 
 ![Selecting new Layouts](media/customizing-the-ide-image6b.png)
 
@@ -113,7 +113,7 @@ However, it is possible to create a new layout by using the **View > Save Curren
 
 Visual Studio for Mac allows you to open text editors side-by-side, or to have an editor as a detached floating window.
 
-2-column mode can be enabled through the View menu item by selecting **View > Editor Columns > 2 columns**, or by dragging an editor tab to one of the edges of the editor area, as shown below:
+2-column mode can be enabled through the View menu item by selecting **View > Editor Columns > 2 columns**, or by dragging an editor tab to one of the edges of the editor area:
 
  ![Two column side-by-side mode](media/customizing-the-ide-sbs.png)
 

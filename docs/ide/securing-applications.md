@@ -1,25 +1,24 @@
 ---
-title: "Securing Applications | Microsoft Docs"
+title: "Securing applications in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
+ms.technology: vs-ide-general
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "security [Visual Studio], applications"
   - "application design, securability"
 ms.assetid: 7d32c4cf-8bec-4307-a2a8-42f0ceddf3eb
-caps.latest.revision: 20
-author: "kempb"
-ms.author: "kempb"
+author: "gewarren"
+ms.author: "gewarren"
 manager: ghogen
 ms.workload: 
   - "multiple"
 ---
-# Securing Applications
+# Securing applications
+
 While most applications possess common security challenges, each application domain possesses security challenges of its own.  
   
 ## General Security Considerations  
@@ -61,5 +60,6 @@ While most applications possess common security challenges, each application dom
  [Windows Forms Security](/dotnet/framework/winforms/windows-forms-security)  
  Provides an overview of the Windows Forms security implementation.  
   
-## See Also  
- [Security](../ide/security-in-visual-studio.md)
+## See also
+
+- [Security](../ide/security-in-visual-studio.md)

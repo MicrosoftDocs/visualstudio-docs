@@ -1,5 +1,5 @@
 ---
-title: "Modulus Operator  (JavaScript) | Microsoft Docs"
+title: "Remainder Operator  (JavaScript) | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
 ms.prod: "windows-client-threshold"
@@ -17,14 +17,14 @@ dev_langs:
   - "DHTML"
 helpviewer_keywords: 
   - "% operator [JavaScript]"
-  - "modulus operator [JavaScript]"
+  - "remainder operator [JavaScript]"
 ms.assetid: f98bf7ee-8366-4f1d-8769-dbdff82056a8
 caps.latest.revision: 0
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 ---
-# Modulus Operator  (JavaScript)
+# Remainder Operator  (JavaScript)
 Divides the value of a numeric expression by the value of another numeric expression, and produces the remainder.  
   
 ## Syntax  
@@ -47,6 +47,6 @@ result = expression1 % expression2
  [!INCLUDE[jsv1](../../javascript/misc/includes/jsv1-md.md)]  
   
 ## See Also  
- [Modulus Assignment Operator](../../javascript/reference/modulus-assignment-operator-decrement-javascript.md)   
+ [Remainder Assignment Operator](../../javascript/reference/modulus-assignment-operator-decrement-javascript.md)   
  [Operator Precedence](../../javascript/operator-subtractprecedence-javascript.md)   
  [Operator Summary (JavaScript)](../../javascript/misc/operator-subtractsummary-javascript.md)

@@ -86,7 +86,8 @@ As you can see, there are several versions of Visio 2010 listed.  One key each h
 ### Exporting your claimed keys
 You can export a list of all the keys you have claimed, along with a large selection of static and other keys that are automatically marked as “claimed” for you.  
 
-**IMPORTANT: If your subscription expires, you will no longer be able to claim new keys or export your claimed keys.** 
+> [!IMPORTANT] 
+> If your subscription expires, you will no longer be able to claim new keys or export your claimed keys.** 
 
 To export your keys, simply click on the **Export all keys** link at the far right of the Product Keys page.  An .xml file entitled KeysExport.xml will be created, and you’ll have the option to open or save the file.  You will need to open the file with an application capable of handling .xml files.  For example, you can open the file as a read-only workbook in Excel.  
 

@@ -1,21 +1,21 @@
 ---
 title: "Visual Studio keyboard shortcuts | Microsoft Docs"
-ms.custom: ""
 ms.date: "06/21/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Keyboard tips for Visual Studio
 
-You can navigate in Visual Studio more easily by using the keyboard shortcuts in this topic. This topic is only a subset of the available keyboard shortcuts. For a more complete list, see [Default Keyboard Shortcuts in Visual Studio](../ide/default-keyboard-shortcuts-in-visual-studio.md). For information about how to optimize Visual Studio for accessibility, see [Accessibility Tips and Tricks](../ide/reference/accessibility-tips-and-tricks.md).
+You can navigate in Visual Studio more easily by using the keyboard shortcuts in this article.
+
+The shortcuts listed here are only a subset of the available keyboard shortcuts. For a more complete list, see [Default Keyboard Shortcuts in Visual Studio](../ide/default-keyboard-shortcuts-in-visual-studio.md).
+
+For information about how to optimize Visual Studio for accessibility, see [Accessibility Tips and Tricks](../ide/reference/accessibility-tips-and-tricks.md).
 
 ## Window management
 
@@ -78,9 +78,9 @@ You can navigate in Visual Studio more easily by using the keyboard shortcuts in
 |Editor Zoom|Ctrl+Shift+> (In), Ctrl+Shift+< (Out)||
 |Block Selection|Hold Alt and drag mouse, Shift+Alt+Arrow Keys||
 |Move Line Up/Down|Alt+Up / Alt+Down||
-|Duplicate line|Ctrl+E,V|Visual Studio 2017 version 15.6 preview 2|
-|Expand selection|Ctrl+W|Visual Studio 2017 version 15.5|
-|Contract selection|Ctrl+Shift+W|Visual Studio 2017 version 15.5|
+|Duplicate line|Ctrl+E,V|Visual Studio 2017 version 15.6|
+|Expand selection|**Shift**+**Alt**+**=**|Visual Studio 2017 version 15.5|
+|Contract selection|**Shift**+**Alt**+**-**|Visual Studio 2017 version 15.5|
 |Go To Definition|F12||
 |Peek Definition|Alt+F12||
 |Go To Definition Stack|Ctrl+Shift+8 (Back), Ctrl+Shift+7 (Forward)||
@@ -120,9 +120,9 @@ You can navigate in Visual Studio more easily by using the keyboard shortcuts in
 
 ## See also
 
-[Keyboard shortcuts (VSTS and TFS)](/vsts/collaborate/keyboard-shortcuts)  
-[Visual Studio Blog](http://blogs.msdn.com/b/visualstudio)  
-[Visual Studio Tips and Tricks Blog](http://blogs.msdn.com/b/zainnab)  
-[Visual Studio Toolbox on Channel 9](http://channel9.msdn.com/Shows/Visual-Studio-Toolbox)  
-[Visual Studio UserVoice](http://visualstudio.uservoice.com/forums/121579-visual-studio)  
-[Visual Studio Connect Bugs](http://connect.microsoft.com/VisualStudio)
+- [Keyboard shortcuts (VSTS and TFS)](/vsts/collaborate/keyboard-shortcuts)
+- [Visual Studio Blog](http://blogs.msdn.com/b/visualstudio)
+- [Visual Studio Tips and Tricks Blog](http://blogs.msdn.com/b/zainnab)
+- [Visual Studio Toolbox on Channel 9](http://channel9.msdn.com/Shows/Visual-Studio-Toolbox)
+- [Visual Studio UserVoice](http://visualstudio.uservoice.com/forums/121579-visual-studio)
+- [Visual Studio Connect Bugs](http://connect.microsoft.com/VisualStudio)

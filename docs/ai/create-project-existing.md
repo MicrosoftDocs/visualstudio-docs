@@ -1,4 +1,5 @@
 ---
+ms.technology: vs-ai-tools
 ---
 # Create an AI project from existing code
 
@@ -29,4 +30,4 @@ Once you've [installed Visual Studio Tools for AI](installation.md), it's easy t
 
 ## See Also
 
-- [Creating an environment for an existing Python interpreter](../python/managing-python-environments-in-visual-studio.md#creating-an-environment-for-an-existing-interpreter)
+- [Manually identifying an existing Python environment](../python/managing-python-environments-in-visual-studio.md#manually-identifying-an-existing-environment)

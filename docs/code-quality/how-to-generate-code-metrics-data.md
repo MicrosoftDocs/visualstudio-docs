@@ -1,5 +1,5 @@
 ---
-title: "How to generate Code Metrics data in Visual Studio | Microsoft Docs"
+title: "How to generate code metrics data in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "12/12/2017"
 ms.reviewer: ""
@@ -7,14 +7,14 @@ ms.suite: ""
 ms.technology: vs-ide-code-analysis
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "code metrics data"
   - "code metrics results"
   - "code metrics [Visual Studio]"
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # How to: Generate code metrics data
@@ -33,7 +33,7 @@ You can generate code metrics results for an entire solution or the selected pro
 
 - In the **Code Metrics Results** window, choose the **Calculate Code Metrics for Solution** button.
 
-   The results are generated and the **Code Metrics Results** window is displayed.
+The results are generated and the **Code Metrics Results** window is displayed.
 
 ## To generate code metrics results for one or more selected projects
 
@@ -45,8 +45,9 @@ You can generate code metrics results for an entire solution or the selected pro
 
 ## To view the results details
 
-- In the **Code Metrics Results** window, expand the tree in the **Hierarchy** column.
+In the **Code Metrics Results** window, expand the tree in the **Hierarchy** column.
 
 ## See also
 
-[Code Metrics values](../code-quality/code-metrics-values.md)
+- [Use the Code Metrics Results window](../code-quality/working-with-code-metrics-data.md)
+- [Code metrics values](../code-quality/code-metrics-values.md)

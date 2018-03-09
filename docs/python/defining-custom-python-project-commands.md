@@ -150,7 +150,7 @@ All attribute values are case-insensitive.
 | Arguments | Optional | Specifies a string of arguments (if any) to give to the target. Note that when TargetType is `script`, the arguments are given to the Python program, not `python.exe`. Ignored for the `code` TargetType. |
 | ExecuteIn | Yes | Specifies the environment in which to run the command:<ul><li>**console**: (Default) Runs Target and the arguments as if they are entered directly on the command line. A command window appears while the Target is running, then is closed automatically.</li><li>**consolepause**: Same a console, but waits for a keypress before closing the window.</li><li>**output**: Runs Target and displays its results in the Output window in Visual Studio. If TargetType is "pip", Visual Studio uses Target as the package name and appends Arguments.</li><li>**repl**: Runs Target in the [Python Interactive Window](interactive-repl.md); the optional display name is used for the title of the window.</li><li>**none**: behaves the same as console.</li></ul>|
 | WorkingDirectory | Optional | The folder in which to run the command. |
-| ErrorRegex<br>WarningRegEx | Optional | Used only when ExecuteIn is `output`. Both values specify a regular expression with which Visual Studio parses command output to show errors and warnings in its Error List window. If not specified, the command does not affect the Error List window. For more information on what Visual Studio expects, see [Named capture groups](#named-capture-groups-for-regular-expression). |
+| ErrorRegex<br>WarningRegEx | Optional | Used only when ExecuteIn is `output`. Both values specify a regular expression with which Visual Studio parses command output to show errors and warnings in its Error List window. If not specified, the command does not affect the Error List window. For more information on what Visual Studio expects, see [Named capture groups](#named-capture-groups-for-regular-expressions). |
 | RequiredPackages | Optional | A list of package requirements for the command using the same format as [requirements.txt](https://pip.readthedocs.io/en/1.1/requirements.html) (pip.readthedocs.io). The **Run PyLint** command, for example specifies `pylint>=1.0.0`. Before running the command, Visual Studio checks that all packages in the list are installed. Visual Studio uses pip to install any missing packages. |
 | Environment | Optional | A string of environment variables to define before running the command. Each variable uses of the form NAME=VALUE with multiple variables separated by semicolons. A variable with multiple values must be contained in single or double quotes, as in 'NAME=VALUE1;VALUE2'. |
 
@@ -278,7 +278,7 @@ The following command simply runs `where` to show Python files starting in the p
 
 ```xml
 <PropertyGroup>
-  <PythonCommands>$(PythonCommands);InstallMyPackage;ShowOutdatedPackages;ShowAllPythonFilesInProject</PythonCommands>
+  <PythonCommands>$(PythonCommands);ShowAllPythonFilesInProject</PythonCommands>
 </PropertyGroup>
 
 <Target Name="ShowAllPythonFilesInProject" Label="Show Python files in project" Returns="@(Commands)">
@@ -292,6 +292,62 @@ The following command simply runs `where` to show Python files starting in the p
 ### Run server and run debug server commands
 
 To explore how the **Start server** and **Start debug server** commands for web projects are defined, examine the [Microsoft.PythonTools.Web.targets](https://github.com/Microsoft/PTVS/blob/master/Python/Product/BuildTasks/Microsoft.PythonTools.Web.targets) (GitHub).
+
+### Install package for development
+
+```xml
+<PropertyGroup>
+  <PythonCommands>PipInstallDevCommand;$(PythonCommands);</PythonCommands>
+</PropertyGroup>
+
+<Target Name="PipInstallDevCommand" Label="Install package for development" Returns="@(Commands)">
+    <CreatePythonCommandItem Target="pip" TargetType="module" Arguments="install --editable $(ProjectDir)"
+        WorkingDirectory="$(WorkingDirectory)" ExecuteIn="Repl:Install package for development">
+      <Output TaskParameter="Command" ItemName="Commands" />
+    </CreatePythonCommandItem>
+  </Target>
+```
+
+*From [fxthomas/Example.pyproj.xml](https://gist.github.com/fxthomas/5c601e3e0c1a091bcf56aed0f2960cfa) (GitHub), used with permission.*
+
+### Generate Windows installer
+
+```xml
+<PropertyGroup>
+  <PythonCommands>$(PythonCommands);BdistWinInstCommand;</PythonCommands>
+</PropertyGroup>
+
+<Target Name="BdistWinInstCommand" Label="Generate Windows Installer" Returns="@(Commands)">
+    <CreatePythonCommandItem Target="$(ProjectDir)setup.py" TargetType="script"
+        Arguments="bdist_wininst --user-access-control=force --title &quot;$(InstallerTitle)&quot; --dist-dir=&quot;$(DistributionOutputDir)&quot;"
+        WorkingDirectory="$(WorkingDirectory)" RequiredPackages="setuptools"
+        ExecuteIn="Repl:Generate Windows Installer">
+      <Output TaskParameter="Command" ItemName="Commands" />
+    </CreatePythonCommandItem>
+  </Target>
+```
+
+*From [fxthomas/Example.pyproj.xml](https://gist.github.com/fxthomas/5c601e3e0c1a091bcf56aed0f2960cfa) (GitHub), used with permission.*
+
+### Generate wheel package
+
+```xml
+<PropertyGroup>
+  <PythonCommands>$(PythonCommands);BdistWheelCommand;</PythonCommands>
+</PropertyGroup>
+
+<Target Name="BdistWheelCommand" Label="Generate Wheel Package" Returns="@(Commands)">
+
+  <CreatePythonCommandItem Target="$(ProjectDir)setup.py" TargetType="script"
+      Arguments="bdist_wheel --dist-dir=&quot;$(DistributionOutputDir)&quot;"
+      WorkingDirectory="$(WorkingDirectory)" RequiredPackages="wheel;setuptools"
+      ExecuteIn="Repl:Generate Wheel Package">
+    <Output TaskParameter="Command" ItemName="Commands" />
+  </CreatePythonCommandItem>
+</Target>
+```
+
+*From [fxthomas/Example.pyproj.xml](https://gist.github.com/fxthomas/5c601e3e0c1a091bcf56aed0f2960cfa) (GitHub), used with permission.*
 
 ## Troubleshooting
 
