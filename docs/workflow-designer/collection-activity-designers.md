@@ -1,16 +1,11 @@
 ---
 title: "Collection Activity Designers | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
 ms.assetid: 6a07ed95-8319-44a2-8a1d-b4a89f16d0d9
-caps.latest.revision: 4
-author: "ErikRe"
-ms.author: "erikre"
-manager: "erikre"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
 ms.workload: 
   - "multiple"
 ---
