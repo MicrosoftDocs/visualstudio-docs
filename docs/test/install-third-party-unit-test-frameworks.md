@@ -54,17 +54,17 @@ Visual Studio Test Explorer can run any unit test framework that has developed a
   
 4.  Choose a framework in the results list to navigate to a Visual Studio Marketplace page for the tool. 
 
-## Update to the latest Test Adapters
+## Update to the latest test adapters
 
 There have been [major performance improvements](https://blogs.msdn.microsoft.com/visualstudio/2017/11/16/test-experience-improvements/) in the latest test adapter updates for MSTest, NUnit, and xUnit. Update to the latest stable test adapter to start experiencing better test discovery and execution!
 
 1. Open the Nuget Package Manager for your solution by navigating to **Tools > NuGet Package Manager > Manage NuGet Packages for Solution...**
-2. Click on the Updates tab and search for NUnit or xUnit test adapters that are installed.
-3. Select each test adapter and select the latest stable version in the drop down menu.
-4. Then select Install.
+2. Click on the **Updates** tab and search for NUnit or xUnit test adapters that are installed.
+3. Select each test adapter, and then select the latest stable version in the drop down menu.
+4. Choose the **Install** button.
 
 ![Upgrade Test Adapter](media/installadapter-upgrade.png)
 
+## See also
 
-## See Also  
- [Unit Test Your Code](../test/unit-test-your-code.md)
+- [Unit Test Your Code](../test/unit-test-your-code.md)
