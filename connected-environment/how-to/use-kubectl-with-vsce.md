@@ -2,7 +2,7 @@
 
 You can access the Kubernetes cluster within a Connected Environment, and use existing Kubernetes tools like `kubectl`.
 
-Running `vsce env create` or `vsce env select` will automatically add a `kubectl` configuration context for you, so kubectl should already be connected to your VSCE k8s cluster. Examples:
+Running `vsce env create` or `vsce env select` will automatically add a `kubectl` configuration context for you, so kubectl should already be connected to your VSCE Kubernetes cluster. Examples:
 - Confirm the current context: `kubectl config current-context`
 - List all available contexts: `kubectl config get-contexts`. A kubernetes cluster created by VSCE will be named something like "vsce-<guid>".
 - Change context: `kubectl config use-context <context-name>`
