@@ -14,7 +14,7 @@ manager: "ghogen"
 Previous step: [Create a Kubernetes development environment in Azure](get-started-nodejs-02.md)
 
 ## Create a Node.js Web App
-Download code from GitHub by navigating to https://github.com/johnsta/vsce-samples and select **Clone or Download** to download the GitHub repository to your local environment. The code for this guide is in `vsce-samples/nodejs/getting-started/webfrontend`.
+Download code from GitHub by navigating to https://github.com/Azure/vsce and select **Clone or Download** to download the GitHub repository to your local environment. The code for this guide is in `vsce/samples/nodejs/getting-started/webfrontend`.
 
 [!INCLUDE[](common/vsce-init.md)]
 
