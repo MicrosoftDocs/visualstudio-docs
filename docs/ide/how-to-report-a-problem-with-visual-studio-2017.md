@@ -72,7 +72,7 @@ If you can't complete the Visual Studio installation or you can't access the fee
 
  ![You can tab to the Provide Feedback button in the Visual Studio Installer to open the feedback tool](../install/media/report-a-problem.png)
 
-### Search for a problem and its solution by using the Visual Studio developer community
+### Search for problems and solutions by using the Visual Studio developer community
 
 If you don't want to or can't use Visual Studio to report a problem, there's a chance that the problem has already been reported and a solution posted in the Visual Studio developer community. For more information, see the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/) page.
 
