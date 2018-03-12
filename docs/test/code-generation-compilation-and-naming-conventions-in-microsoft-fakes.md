@@ -14,6 +14,7 @@ ms.workload:
 author: gewarren
 ---
 # Code generation, compilation, and naming conventions in Microsoft Fakes
+
 This topic discusses options and issues in Fakes code generation and compilation, and describes the naming conventions for Fakes generated types, members, and parameters.
 
  **Requirements**
@@ -31,7 +32,6 @@ This topic discusses options and issues in Fakes code generation and compilation
 <Fakes xmlns="http://schemas.microsoft.com/fakes/2011/">
     <Assembly Name="FileSystem"/>
 </Fakes>
-
 ```
 
 ###  <a name="BKMK_Type_filtering"></a> Type filtering
@@ -59,13 +59,13 @@ This topic discusses options and issues in Fakes code generation and compilation
 
      `el` matches "hello"
 
--   Adding `!` to the end of the filter will make it a precise case-sensitive match:
+-   Adding `!` to the end of the filter makes it a precise case-sensitive match:
 
      `el!` does not match "hello"
 
      `hello!` matches "hello"
 
--   Adding `*` to the end of the filter will make it match the prefix of the string:
+-   Adding `*` to the end of the filter makes it match the prefix of the string:
 
      `el*` does not match "hello"
 
@@ -93,7 +93,7 @@ This topic discusses options and issues in Fakes code generation and compilation
 ```
 
 ###  <a name="BKMK_Internal_types"></a> Internal types
- The Fakes code generator will generate shim types and stub types for types that are visible to the generated Fakes assembly. To make internal types of a shimmed assembly visible to Fakes and your test assembly, add  <xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute> attributes to the shimmed assembly code that gives visibility to the generated Fakes assembly and to the test assembly. Here's an example:
+ The Fakes code generator generates shim types and stub types for types that are visible to the generated Fakes assembly. To make internal types of a shimmed assembly visible to Fakes and your test assembly, add  <xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute> attributes to the shimmed assembly code that gives visibility to the generated Fakes assembly and to the test assembly. Here's an example:
 
 ```csharp
 // FileSystem\AssemblyInfo.cs
@@ -103,11 +103,11 @@ This topic discusses options and issues in Fakes code generation and compilation
 
  **Internal types in strongly named assemblies**
 
- If the shimmed assembly is strongly named and you want access internal types of the assembly:
+ If the shimmed assembly is strongly named, and you want to access internal types of the assembly:
 
 -   Both your test assembly and the Fakes assembly must be strongly named.
 
--   You must add the public keys of the test and Fakes assembly to the **InternalsVisibleToAttribute** attributes in the shimmed assemblies. Here's how our example attributes in the shimmed assembly code would look when the shimmed assembly is strongly named:
+-   Add the public keys of the test and Fakes assembly to the **InternalsVisibleToAttribute** attributes in the shimmed assemblies. Here's how the example attributes in the shimmed assembly code would look when the shimmed assembly is strongly named:
 
     ```csharp
     // FileSystem\AssemblyInfo.cs
@@ -117,25 +117,24 @@ This topic discusses options and issues in Fakes code generation and compilation
         PublicKey=<Test_assembly_public_key>)]
     ```
 
- If the shimmed assembly is strongly named, the Fakes framework will automatically strongly sign the generated Fakes assembly. You have to strong sign the test assembly. See [Creating and Using Strong-Named Assemblies](http://msdn.microsoft.com/Library/ffbf6d9e-4a88-4a8a-9645-4ce0ee1ee5f9).
+If the shimmed assembly is strongly named, the Fakes framework will automatically strongly sign the generated Fakes assembly. You have to strong sign the test assembly. See [Creating and Using Strong-Named Assemblies](http://msdn.microsoft.com/Library/ffbf6d9e-4a88-4a8a-9645-4ce0ee1ee5f9).
 
- The Fakes framework uses the same key to sign all generated assemblies, so you can use this snippet as a starting point to add the **InternalsVisibleTo** attribute for the fakes assembly to your shimmed assembly code.
+The Fakes framework uses the same key to sign all generated assemblies, so you can use this snippet as a starting point to add the **InternalsVisibleTo** attribute for the fakes assembly to your shimmed assembly code.
 
 ```csharp
 [assembly: InternalsVisibleTo("FileSystem.Fakes, PublicKey=0024000004800000940000000602000000240000525341310004000001000100e92decb949446f688ab9f6973436c535bf50acd1fd580495aae3f875aa4e4f663ca77908c63b7f0996977cb98fcfdb35e05aa2c842002703cad835473caac5ef14107e3a7fae01120a96558785f48319f66daabc862872b2c53f5ac11fa335c0165e202b4c011334c7bc8f4c4e570cf255190f4e3e2cbc9137ca57cb687947bc")]
 ```
 
- You can specify a different public key for the Fakes assembly, such as a key you have created for the shimmed assembly, by specifying the full path to the **.snk** file that contains the alternate key as the `KeyFile` attribute value in the `Fakes`\\`Compilation` element of the **.fakes** file. For example:
+You can specify a different public key for the Fakes assembly, such as a key you have created for the shimmed assembly, by specifying the full path to the **.snk** file that contains the alternate key as the `KeyFile` attribute value in the `Fakes`\\`Compilation` element of the **.fakes** file. For example:
 
 ```xml
 <-- FileSystem.Fakes.fakes -->
 <Fakes ...>
   <Compilation KeyFile="full_path_to_the_alternate_snk_file" />
 </Fakes>
-
 ```
 
- You then have to use the public key of the alternate **.snk** file as the second parameter of the InternalVisibleTo attribute for the Fakes assembly in the shimmed assembly code:
+You then have to use the public key of the alternate **.snk** file as the second parameter of the InternalVisibleTo attribute for the Fakes assembly in the shimmed assembly code:
 
 ```csharp
 // FileSystem\AssemblyInfo.cs
@@ -145,12 +144,12 @@ This topic discusses options and issues in Fakes code generation and compilation
     PublicKey=<Test_assembly_public_key>)]
 ```
 
- In the example above, the values `Alternate_public_key` and the `Test_assembly_public_key` can be the same.
+In the example above, the values `Alternate_public_key` and the `Test_assembly_public_key` can be the same.
 
 ###  <a name="BKMK_Optimizing_build_times"></a> Optimizing build times
  The compilation of Fakes assemblies can significantly increase your build time. You can minimize the build time by generating the Fakes assemblies for .NET System assemblies and third-party assemblies in a separate centralized project. Because such assemblies rarely change on your machine, you can reuse the generated Fakes assemblies in other projects.
 
- From your unit test projects, you can simply take a reference to the compiled Fakes assemblies that are placed under the FakesAssemblies in the project folder.
+ From your unit test projects, add a reference to the compiled Fakes assemblies that are placed under the FakesAssemblies in the project folder.
 
 1.  Create a new Class Library with the .NET runtime version matching your test projects. Let's call it Fakes.Prebuild. Remove the class1.cs file from the project, not needed.
 
@@ -167,7 +166,7 @@ This topic discusses options and issues in Fakes code generation and compilation
     -   For each assembly that you have created Fakes for, add a reference to the corresponding DLL file in the Fakes.Prebuild\FakesAssemblies folder of your project.
 
 ###  <a name="BKMK_Avoiding_assembly_name_clashing"></a> Avoiding assembly name clashing
- In a Team Build environment, all build outputs are merged into a single directory. In the case of multiple projects using Fakes, it might happen that Fakes assemblies from different version override each other. For example, TestProject1 fakes mscorlib.dll from the .NET Framework 2.0 and TestProject2 fakes mscorlib.dll for the .NET Framework 4 would both yield to a mscorlib.Fakes.dll Fakes assembly.
+ In a Team Build environment, all build outputs are merged into a single directory. If multiple projects use Fakes, it might happen that Fakes assemblies from different version override each other. For example, TestProject1 fakes mscorlib.dll from the .NET Framework 2.0 and TestProject2 fakes mscorlib.dll for the .NET Framework 4 would both yield to a mscorlib.Fakes.dll Fakes assembly.
 
  To avoid this issue, Fakes should automatically create version qualified Fakes assembly names for non-project references when adding the .fakes files. A version-qualified Fakes assembly name embeds a version number when you create the Fakes assembly name:
 
@@ -220,7 +219,7 @@ attribute of the Assembly element in the .fakes:
 
 -   If the method is generic, `Of`*n* is appended where *n* is the number of generic method arguments.
 
- **Special method names** such as property getter or setters are treated as described in the following table.
+ **Special method names** such as property getter or setters are treated as described in the following table:
 
 |If method is...|Example|Method name appended|
 |-------------------|-------------|--------------------------|

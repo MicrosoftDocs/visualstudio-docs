@@ -61,7 +61,7 @@ Depending on your scenario, use one of the following methods to enable the log.
 
 ### Step 2: Run your coded UI test and view the log
 
- When you run a coded UI test with the modifications to the **QTAgent32.exe.config** file in place, you will see there is an output link in the Test Explorer results. Log files are produced not only when your test fails, but also for successful tests when the trace level is set to "verbose."
+ When you run a coded UI test with the modifications to the **QTAgent32.exe.config** file in place, you see an output link in the Test Explorer results. Log files are produced not only when your test fails, but also for successful tests when the trace level is set to "verbose."
 
 1.  On the **TEST** menu, choose **Windows** and then select **Test Explorer**.
 
@@ -69,7 +69,7 @@ Depending on your scenario, use one of the following methods to enable the log.
 
 3.  In Test Explorer, select the coded UI test you want to run, open its shortcut menu, and then choose **Run Select Tests**.
 
-     The automated tests will run and indicate if they passed or failed.
+     The automated tests run and indicate if they passed or failed.
 
     > [!TIP]
     >  To view Test Explorer from the **Test menu**, point to **Windows** and then choose **Test Explorer**.
@@ -78,11 +78,11 @@ Depending on your scenario, use one of the following methods to enable the log.
 
      ![Output link in the Test Explorer](../test/media/cuit_htmlactionlog1.png "CUIT_HTMLActionLog1")
 
-     This displays the output for the test which will include a link to the action log.
+     This displays the output for the test, which includes a link to the action log.
 
      ![Results and output links from coded UI test](../test/media/cuit_htmlactionlog2.png "CUIT_HTMLActionLog2")
 
-5.  Choose the UITestActionLog.html link.
+5.  Choose the *UITestActionLog.html* link.
 
      The log is displayed in your web browser.
 
@@ -100,7 +100,7 @@ In previous versions of Visual Studio, there were two more configuration setting
 <add key="EnableSnapshotInfo" value="true"/>
 ```
 
-Both of these settings have been deprecated since Visual Studio 2012. EqtTraceLevel is the only setting which is required to be modified to enable HtmlLogger.
+Both of these settings have been deprecated since Visual Studio 2012. EqtTraceLevel is the only setting that is required to be modified to enable HtmlLogger.
 
 ## See also
 

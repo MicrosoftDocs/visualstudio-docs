@@ -31,11 +31,11 @@ In addition to the installed frameworks, you can write your own test adapter for
 
 **Visual Studio 2017 version 15.5**
 
-1) **Google Test Adapter** is included as a default component of the **Desktop development with C++** workload. It has a project template that you can add to a solution via the  **Add New Project** context menu on the solution node in **Solution Explorer**, and options you can configure via **Tools | Options**. For more information, see [How to: use Google Test in Visual Studio](how-to-use-google-test-for-cpp.md).
+- **Google Test Adapter** is included as a default component of the **Desktop development with C++** workload. It has a project template that you can add to a solution via the  **Add New Project** context menu on the solution node in **Solution Explorer**, and options you can configure via **Tools | Options**. For more information, see [How to: use Google Test in Visual Studio](how-to-use-google-test-for-cpp.md).
 
-2) **Boost.Test** is included as a default component of the **Desktop development with C++** workload. It is integrated with **Test Explorer** but currently does not have project template, therefore it must be manually configured. For more information, see [How to: use Boost.Test in Visual Studio](how-to-use-boost-test-for-cpp.md).
+- **Boost.Test** is included as a default component of the **Desktop development with C++** workload. It is integrated with **Test Explorer** but currently does not have project template, therefore it must be manually configured. For more information, see [How to: use Boost.Test in Visual Studio](how-to-use-boost-test-for-cpp.md).
 
-3) **CTest** support is included with the [CMake Tools for Visual Studio](/cpp/ide/cmake-tools-for-cpp) component which is part of the **Desktop development with C++** workload. However, CTest is not yet fully integrated with **Test Explorer**. For more information, see [How to: use CTest in Visual Studio](how-to-use-ctest-for-cpp.md).
+- **CTest** support is included with the [CMake Tools for Visual Studio](/cpp/ide/cmake-tools-for-cpp) component which is part of the **Desktop development with C++** workload. However, CTest is not yet fully integrated with **Test Explorer**. For more information, see [How to: use CTest in Visual Studio](how-to-use-ctest-for-cpp.md).
 
 **Visual Studio 2015 and earlier**
 
@@ -92,10 +92,10 @@ You can add *traits* to test methods to specify test owners, priority and other 
 
 1. On the **Test** menu, choose **Windows** > **Test Explorer**. The following illustration shows a test project whose tests have not yet run.
 
-![Test Explorer before tests are run](media/cpp-test-explorer.png "C++ Test Explorer")
+   ![Test Explorer before tests are run](media/cpp-test-explorer.png "C++ Test Explorer")
 
-> [!NOTE]
-> CTest integration with **Test Explorer** is not yet available. Run CTest tests from the CMake main menu.
+   > [!NOTE]
+   > CTest integration with **Test Explorer** is not yet available. Run CTest tests from the CMake main menu.
 
 1. If all your tests are not visible in the window, build the test project by right-clicking its node in **Solution Explorer** and choosing **Build** or **Rebuild**.
 

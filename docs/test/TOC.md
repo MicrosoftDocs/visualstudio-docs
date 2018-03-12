@@ -50,7 +50,6 @@
 ### [Run unit tests for UWP apps](run-unit-tests-for-store-apps-in-visual-studio.md)
 ## [Use Code Coverage to Determine How Much Code is being Tested](using-code-coverage-to-determine-how-much-code-is-being-tested.md)
 ### [Customize Code Coverage Analysis](customizing-code-coverage-analysis.md)
-### [Analyze Code Coverage in Build Verification Tests](analyzing-code-coverage-in-build-verification-tests.md)
 ### [Troubleshoot Code Coverage](troubleshooting-code-coverage.md)
 ## [Use emulators to isolate unit tests for Sharepoint 2010 applications](using-emulators-to-isolate-unit-tests-for-sharepoint-2010-applications.md)
 # [Live Unit Testing](live-unit-testing-intro.md)
