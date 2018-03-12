@@ -1159,7 +1159,7 @@
         },
         {
             "source_path": "docs/install/install-visual-studio-in-offline-environment.md",
-            "redirect_url": "/visualstudio/install/install-certificates-for-visual-studio-offline",
+            "redirect_url": "/visualstudio/install/create-an-offline-installation-of-visual-studio",
             "redirect_document_id": false
         },
         {

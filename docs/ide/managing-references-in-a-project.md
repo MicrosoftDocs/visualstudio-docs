@@ -4,14 +4,14 @@ ms.custom: ""
 ms.date: "10/26/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords: 
+f1_keywords:
   - "vs.ProjectPropertiesReferencePaths"
   - "cs.ProjectPropertiesReferencePaths"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "C# projects, references"
   - "referencing objects, project references"
   - "external component references"
@@ -25,7 +25,7 @@ helpviewer_keywords:
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Managing references in a project
@@ -103,7 +103,7 @@ By default, the <xref:Microsoft.VisualStudio.VCProjectEngine.VCProjectReference.
 
 You can create applications that reference projects or assemblies that target a different version of the .NET Framework. For example, you could create an application that targets the [!INCLUDE[net_client_v40_long](../deployment/includes/net_client_v40_long_md.md)], that references an assembly that targets [!INCLUDE[dnprdnext](../ide/includes/dnprdnext_md.md)]. If you create a project that targets an earlier version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], you cannot set a reference in that project to a project or assembly that targets a newer version.
 
-For more information, see [Targeting a Specific .NET Framework Version](../ide/targeting-a-specific-dotnet-framework-version.md).
+For more information, see [Multi-targeting overview](../ide/visual-studio-multi-targeting-overview.md).
 
 ## Project-to project references
 
@@ -120,5 +120,5 @@ File references are direct references to assemblies outside the context of a Vis
 
 ## See also
 
-[Troubleshooting Broken References](../ide/troubleshooting-broken-references.md)  
+[Troubleshooting Broken References](../ide/troubleshooting-broken-references.md)
 [How to: Add or Remove References By Using the Reference Manager](../ide/how-to-add-or-remove-references-by-using-the-reference-manager.md)

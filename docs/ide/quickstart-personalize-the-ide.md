@@ -24,22 +24,22 @@ If you haven't already installed Visual Studio, go to the [Visual Studio Downloa
 
 The default color theme for Visual Studio 2017 is called **Blue**. Let's change it to **Dark**.
 
-1. On the menu bar, choose **Tools**, **Options**.
+1. On the menu bar, choose **Tools** > **Options**.
 
-1. On the **Environment**, **General** options page, change the **Color theme** selection to **Dark**, and then choose **OK**.
+1. On the **Environment** > **General** options page, change the **Color theme** selection to **Dark**, and then choose **OK**.
 
    The color theme for the entire IDE is changed to **Dark**.
 
    ![VS in a dark theme](media/quickstart-personalize-dark-theme.png)
 
 > [!TIP]
-> You can install additional predefined themes by installing the **Visual Studio Color Theme Editor** from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.VisualStudio2017ColorThemeEditor). After you install this tool, additional color themes appear in the Color theme drop-down list.
+> You can install additional predefined themes by installing the **Visual Studio Color Theme Editor** from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.VisualStudio2017ColorThemeEditor). After you install this tool, additional color themes appear in the Color theme drop-down list.
 
 ## Change text color
 
 Now we'll customize some text colors for the Editor. First, let's open an XML file to see the default colors.
 
-1. From the menu bar, choose **File**, **New**, **File...**.
+1. From the menu bar, choose **File** > **New** > **File...**.
 
 1. In the **New File** dialog box, under the **General** category, choose **XML File**, and then choose **Open**.
 
@@ -75,7 +75,7 @@ Now we'll customize some text colors for the Editor. First, let's open an XML fi
 
    ![XML file font colors](media/quickstart-personalize-xml-file.png)
 
-1. To open the **Options** dialog box, from the menu bar, choose **Tools**, **Options**.
+1. To open the **Options** dialog box, choose **Tools** > **Options** from the menu bar.
 
 1. Under **Environment**, choose the **Fonts and Colors** category.
 
@@ -97,9 +97,9 @@ We explored just a couple ways of customizing the colors in Visual Studio. We ho
 
 ## See also
 
-[Quickstart: First look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)  
-[Quickstart: Coding in the editor](../ide/quickstart-editor.md)  
-[Quickstart: Projects and solutions](../ide/quickstart-projects-solutions.md)  
-[Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md)  
-[Customizing the Editor](../ide/customizing-the-editor.md)  
-[Visual Studio IDE Overview](../ide/visual-studio-ide.md)
+- [Quickstart: First look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)
+- [Quickstart: Coding in the editor](../ide/quickstart-editor.md)
+- [Quickstart: Projects and solutions](../ide/quickstart-projects-solutions.md)
+- [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md)
+- [Customizing the Editor](../ide/customizing-the-editor.md)
+- [Visual Studio IDE Overview](../ide/visual-studio-ide.md)
