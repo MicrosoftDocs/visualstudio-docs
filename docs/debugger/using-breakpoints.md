@@ -67,21 +67,20 @@ You can set breakpoints when you want to stop debugger execution, perhaps to see
 
 2. Enter a function name in the **Function Name** box. 
 
->  [!NOTE]
->  To narrow the function specification:
->  
->  Use the fully qualified function name. 
->  Example:  Namespace1.ClassX.MethodA()
->  
->  Add the parameter types of an overloaded function. 
->  Example:  MethodA(int, string)
->  
->  Use the '!' symbol to specify the module.
->  Example: App1.dll!MethodA
->  
->  Use the context operator in native C++.
->  {function, , [module]} [+&lt;line offset from start of method&gt;]
->  Example: {MethodA, , App1.dll}+2
+   To narrow the function specification:
+   
+   Use the fully qualified function name. 
+   Example:  Namespace1.ClassX.MethodA()
+   
+   Add the parameter types of an overloaded function. 
+   Example:  MethodA(int, string)
+   
+   Use the '!' symbol to specify the module.
+   Example: App1.dll!MethodA
+   
+   Use the context operator in native C++.
+   {function, , [module]} [+&lt;line offset from start of method&gt;]
+   Example: {MethodA, , App1.dll}+2
 
 3. In the **Language** dropdown, choose the specific language of the function you want to break on.
   
