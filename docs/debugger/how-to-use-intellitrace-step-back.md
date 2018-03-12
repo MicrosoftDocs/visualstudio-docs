@@ -77,13 +77,6 @@ In this tutorial, you will:
 
     To learn more about how to inspect variables in Visual Studio, see [Debugger feature tour](../debugger/debugger-feature-tour.md)  
 
-## Next Steps
-
-In this tutorial, you've learned how to use IntelliTrace step-back. You may want to learn more about other IntelliTrace features.
-
-> [!div class="nextstepaction"]
-> [IntelliTrace features](../debugger/intellitrace-features.md)
-
 ## Frequently Asked Questions
 
 #### How is IntelliTrace step-back different from IntelliTrace events only mode?
@@ -118,3 +111,10 @@ The impact on overall stepping performance depends on your application. The over
 * When debugging an application whose process has a high number of unique memory regions, such as an application that loads a large number of DLLs, stepping performance with snapshots enabled may be impacted. This issue will be addressed in a future version of Windows. If you are experiencing this issue, reach out to us at stepback@microsoft.com. 
 
 * When saving a file with **Debug > IntelliTrace > Save IntelliTrace session** under events and snapshots mode, the additional data captured from snapshots is not available in the .itrace file. On breakpoint and step events, you see the same information as if you had saved the file in IntelliTrace events only mode. 
+
+## Next steps
+
+In this tutorial, you've learned how to use IntelliTrace step-back. You may want to learn more about other IntelliTrace features.
+
+> [!div class="nextstepaction"]
+> [IntelliTrace features](../debugger/intellitrace-features.md)
