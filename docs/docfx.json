@@ -48,7 +48,8 @@
       "ms.technology": "vs-ide-general",
       "ms.tgt_pltfrm": "dotnet",
       "searchScope": ["VS IDE"],
-      "uhfHeaderId": "MSDocsHeader-VisualStudio"
+      "uhfHeaderId": "MSDocsHeader-VisualStudio",
+      "titleSuffix": "Visual Studio"
     },
     "template": [],
     "xref": ["missingapi.yml", "../dotnet-xref/_zip/dotnet.zip"],
