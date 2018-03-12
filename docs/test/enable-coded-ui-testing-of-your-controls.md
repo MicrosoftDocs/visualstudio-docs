@@ -21,11 +21,11 @@ Implement support for the coded UI testing framework to make your control more t
 
 ## Support record and playback and property validation by implementing accessibility
 
-The coded UI test builder captures information about the controls that it encounters during a recording and then generates code to replay that session. If your control doesn't support accessibility, then the coded UI test builder captures actions (like mouse clicks) using screen coordinates. When the test is played back, the generated code issues those mouse clicks in the same screen coordinates. If your control appears in a different place on the screen when the test is played back, the generated code will fail to perform the action. By not implementing accessibility for your control, you might see test failures if the test is played back on different screen configurations, in different environments, or when the UI layout changes.
+The coded UI test builder captures information about the controls that it encounters during a recording and then generates code to replay that session. If your control doesn't support accessibility, then the coded UI test builder captures actions (like mouse clicks) using screen coordinates. When the test is played back, the generated code issues the actions in the same screen coordinates. If your control appears in a different place on the screen when the test is played back, the generated code will fail to perform the action. By not implementing accessibility for your control, you might see test failures if the test is played back on different screen configurations, in different environments, or when the UI layout changes.
 
  ![CUIT&#95;RecordNoSupport](../test/media/cuit_recordnosupport.png "CUIT_RecordNoSupport")
 
- If you implement accessibility, the coded UI test builder uses that to capture information about your control when it records a test and generates code. Then, when you run the test, the generated code will replay those events against your control, even if it's somewhere else in the user interface. Test authors can also create asserts using the basic properties of your control.
+ If you implement accessibility, the coded UI test builder uses that to capture information about your control when it records a test. Then, when you run the test, the generated code will replay those events against your control, even if it's somewhere else in the user interface. Test authors can also create asserts using the basic properties of your control.
 
  ![CUIT&#95;Record](../test/media/cuit_record.png "CUIT_Record")
 
@@ -134,7 +134,7 @@ After you implement basic support for record and playback and property validatio
 1. Build your binaries and copy them to **%ProgramFiles%\Common\Microsoft Shared\VSTT\10.0\UITestExtensionPackages**.
 
 > [!NOTE]
-> This extension package is applied to any control that is of type "Text". If you're testing multiple controls of the same type, you need to test them separately and manage which extension packages are deployed when you record the tests.
+> This extension package is applied to any control that is of type "Text". If you're testing multiple controls of the same type, test them separately so you can manage which extension packages are deployed when you record the tests.
 
 ## Support code generation by implementing a class to access custom properties
 
@@ -175,7 +175,7 @@ If you've implemented a property provider to provide access to your control's cu
 
 ## Debug your property provider or action filter
 
-Your property provider and action filter are implemented in an extension package that is loaded and run by the coded UI test builder in a process separate from your application.
+Your property provider and action filter are implemented in an extension package. The test builder runs the extension package in a separate process from your application.
 
 ### To debug your property provider or action filter
 
