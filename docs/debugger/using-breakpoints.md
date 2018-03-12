@@ -60,7 +60,31 @@ You can set breakpoints when you want to stop debugger execution, perhaps to see
   
  You can set a breakpoint on any line of executable code. For example, in the C# code above you can set a breakpoint on the variable declaration, the `for` loop, or any code inside the `for` loop, but you cannot set a breakpoint on the namespace or class declarations or the method signature.  
   
-##  <a name="BKMK_Set_a_breakpoint_in_a_source_file"></a> Setting Other Kinds of Breakpoints  
+##  <a name="BKMK_Set_a_breakpoint_in_a_source_file"></a> Setting a function breakpoint  
+  You can break execution when a function is called.
+  
+1. Open the **Breakpoints** window and choose **New > Function Breakpoint**.
+
+2. Enter a function name in the **Function Name** box. 
+
+   To narrow the function specification:
+   
+   Use the fully qualified function name. 
+   Example:  Namespace1.ClassX.MethodA()
+   
+   Add the parameter types of an overloaded function. 
+   Example:  MethodA(int, string)
+   
+   Use the '!' symbol to specify the module.
+   Example: App1.dll!MethodA
+   
+   Use the context operator in native C++.
+   {function, , [module]} [+&lt;line offset from start of method&gt;]
+   Example: {MethodA, , App1.dll}+2
+
+3. In the **Language** dropdown, choose the specific language of the function you want to break on.
+  
+##  <a name="BKMK_Set_a_breakpoint_in_a_function"></a> Setting Other Kinds of Breakpoints  
  You can also set breakpoints in the call stack, in the Disassembly window, and, in native C++ code, at a data condition or a memory address.  
   
 ## <a name="BKMK_Set_a_breakpoint_in_the_call_stack_window"></a> Setting a Breakpoint in the Call Stack Window  
