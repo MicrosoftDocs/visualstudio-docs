@@ -48,9 +48,8 @@ namespace SimpleDataApp
 
         //<Snippet2>
         /// <summary>
-        /// Executes a t-SQL SELECT statement to obtain
-        /// order data for a specified order ID, then
-        /// displays it in the DataGridView on the form.
+        /// Executes a t-SQL SELECT statement to obtain order data for a specified
+        /// order ID, then displays it in the DataGridView on the form.
         /// </summary>
         private void btnFindByOrderID_Click(object sender, EventArgs e)
         {
