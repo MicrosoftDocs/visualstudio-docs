@@ -108,7 +108,7 @@ This app requires a number of npm modules to run correctly.
 
 1. Right-click **npm** node in your project and choose **Install Missing npm Packages**.
 
-    The **Output** windows show the progress on installing the packages.
+    The **Output** window shows the progress on installing the packages.
 
     Here are the npm modules as they appear in Solution Explorer after they are installed.
 
@@ -119,7 +119,7 @@ This app requires a number of npm modules to run correctly.
 
 ## Add project files
 
-In these steps, you add three new files to your project.
+In these steps, you add four new files to your project.
 
 * *app.tsx*
 * *webpack-config.js*
@@ -356,7 +356,7 @@ In the preceding section, you attached the debugger to server-side Node.js code.
 
 ## Next steps 
 
-In this tutorial, you learned how to create a Node.js and React app, transpile JSX, and debug. To learn more about Node.js Tools for Visual Studio, see the documentation.
+In this tutorial, you learned how to create a Node.js and React app, transpile JSX, and debug. To learn more about Node.js Tools for Visual Studio, see the Wiki page.
 
 > [!div class="nextstepaction"]
 > [Node.js Tools for Visual Studio](https://github.com/Microsoft/nodejstools)
