@@ -172,7 +172,7 @@ For this simple app, you add the new project files in the project root. (In most
     </body>
     ```
 
-    This HTML page loads *browser-bundle.js*, which contains the JSX and React code transpiled to plain JavaScript. Currently, *browser-bundle.js* is an empty file. In the next section, we configure options to transpile the code.
+    This HTML page loads *browser-bundle.js*, which contains the JSX and React code transpiled to plain JavaScript. Currently, *browser-bundle.js* is an empty file. In the next section, you configure options to transpile the code.
 
 ## Configure webpack and babel
 
@@ -271,7 +271,7 @@ Each time you make changes to *app.js*, you must rerun the webpack command.
 
 ## Set and hit a breakpoint in the client-side React code
 
-In the preceding section, we attached the debugger to server-side Node.js code. To attach the debugger from Visual Studio and hit breakpoints in client-side React code, the debugger needs help to identify the correct process. Here is one way to enable this.
+In the preceding section, you attached the debugger to server-side Node.js code. To attach the debugger from Visual Studio and hit breakpoints in client-side React code, the debugger needs help to identify the correct process. Here is one way to enable this.
 
 1. Close all Chrome windows.
 
@@ -308,7 +308,7 @@ In the preceding section, we attached the debugger to server-side Node.js code. 
 
 ## (Optional) Debug using sourcemaps
 
-We previously generated a sourcemap file by including `devtool: 'source-map'` in the `webpack-config.js file`. Sourcemaps allow you to debug code in the original JavaScript file rather than the transpiled JSX.
+You previously generated a sourcemap file by including `devtool: 'source-map'` in the `webpack-config.js file`. Sourcemaps allow you to debug code in the original JavaScript file rather than the transpiled JSX.
 
 > [!CAUTION]
 > Hitting breakpoints using sourcemaps with chrome and webpack may not work consistently as described in [Issue 4177](https://github.com/babel/babel/issues/4177). This procedure implements a partial workaround using the `debugger` statement instead of a breakpoint.
@@ -329,7 +329,7 @@ To use the sourcemap file for debugging:
 
 ## <a name="packagejson"></a> (Optional) Install specific versions of npm packages
 
-Because we are using the latest versions for a variety of npm packages, it's possible that a newer package version may require changes to your app that are not described in this article. This can result in unexpected errors. To resolve this, you can use the same versions of the npm packages that we tested for this topic.
+Because you are using the latest versions for a variety of npm packages, it's possible that a newer package version may require changes to your app that are not described in this article. This can result in unexpected errors. To resolve this, you can use the same versions of the npm packages that we tested for this topic.
 
 1. In Solution Explorer, open *package.json* and replace the `dependencies` section with the following code:
 
