@@ -61,6 +61,10 @@ First, you'll create an Node.js web application project.
 
     - Project files such as *app.js* show up under the project node. *app.js* is the project startup file.
 
+1. Open the **npm** node and make sure that all the required npm packages are present.
+
+    If any are missing (exclamation point icon), you can right-click the **npm** node and choose **Install Missing npm Packages**.
+
 ## Add some code
 
 1. In Solution Explorer (right pane), open the views folder, then open *index.pug*.
