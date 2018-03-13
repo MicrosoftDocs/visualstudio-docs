@@ -14,7 +14,7 @@ manager: "ghogen"
 Previous step: [Create a Kubernetes development environment in Azure](get-started-nodejs-02.md)
 
 ## Create a Node.js Web App
-Download code from GitHub by navigating to https://github.com/johnsta/vsce-samples and select **Clone or Download** to download the GitHub repository to your local environment. The code for this guide is in `vsce-samples/nodejs/getting-started/webfrontend`.
+Download code from GitHub by navigating to https://github.com/Azure/vsce and select **Clone or Download** to download the GitHub repository to your local environment. The code for this guide is in `vsce/samples/nodejs/getting-started/webfrontend`.
 
 [!INCLUDE[](common/vsce-init.md)]
 
@@ -41,13 +41,13 @@ If you open the web app on a mobile device, you will notice that the UI does not
 
 To fix this, we'll add a `viewport` meta tag:
 1. Open the file `./public/index.html`
-1. Add a `viewport` meta tag in the existing `header` tag:
+1. Add a `viewport` meta tag in the existing `head` element:
 
 ```html
-<header>
+<head>
     <!-- Add this line -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-</header>
+</head>
 ```
 
 1. Save the file.
