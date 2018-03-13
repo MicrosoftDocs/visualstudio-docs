@@ -1,3 +1,14 @@
+---
+title: "How to use kubectl with a Connected Environment | Microsoft Docs"
+author: "johnsta"
+ms.author: "johnsta"
+ms.date: "03/12/2018"
+ms.topic: "article"
+ms.technology: "vsce-kubernetes"
+description: "Rapid Kubernetes development with containers and microservices on Azure"
+keywords: "Docker, Kubernetes, Azure, AKS, Azure Container Service, containers"
+manager: "ghogen"
+---
 # Use `kubectl` with a Connected Environment
 
 You can access the Kubernetes cluster within a Connected Environment, and use existing Kubernetes tools like `kubectl`.

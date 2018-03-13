@@ -11,11 +11,11 @@ manager: "ghogen"
 ---
 # Get Started on Connected Environment with .NET Core
 
-[!INCLUDE[](common/learning-objectives.md)]
+[!INCLUDE[](includes/learning-objectives.md)]
 
-[!INCLUDE[](common/see-troubleshooting.md)]
+[!INCLUDE[](includes/see-troubleshooting.md)]
 
-[!INCLUDE[](common/install-cli-and-vscode.md)]
+[!INCLUDE[](includes/install-cli-and-vscode.md)]
 
 We're now ready to create a Kubernetes-based development environment in Azure.
 

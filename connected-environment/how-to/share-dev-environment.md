@@ -1,3 +1,14 @@
+---
+title: "How to share a development environment | Microsoft Docs"
+author: "johnsta"
+ms.author: "johnsta"
+ms.date: "3/12/2018"
+ms.topic: "article"
+ms.technology: "vsce-kubernetes"
+description: "Rapid Kubernetes development with containers and microservices on Azure"
+keywords: "Docker, Kubernetes, Azure, AKS, Azure Container Service, containers"
+manager: "ghogen"
+---
 # Share a Development Environment
 
 With Connected Environment, you can share your development environment with others on your team. Each developer can work in their own space without fear of breaking others. Also, working together in one environment can enable you to test code end-to-end without having to create mocks or simulate dependencies. See the [Learn about team development](../get-started-nodejs-06.md) guide for more information.

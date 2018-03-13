@@ -21,11 +21,11 @@ dotnet new mvc --name webfrontend
 
 Alternatively, **download sample code from GitHub** by navigating to https://github.com/Azure/vsce and select **Clone or Download** to download the GitHub repository to your local environment. The code for this guide is in `vsce/samples/dotnetcore/getting-started/webfrontend`.
 
-[!INCLUDE[](common/vsce-init.md)]
+[!INCLUDE[](includes/vsce-init.md)]
 
-[!INCLUDE[](common/ensure-env-created.md)]
+[!INCLUDE[](includes/ensure-env-created.md)]
 
-[!INCLUDE[](common/build-and-run-in-k8s-cli.md)]
+[!INCLUDE[](includes/build-and-run-in-k8s-cli.md)]
 
 ## Update a content file
 Connected Environment isn't just about getting code running in Kubernetes - it's about enabling you to quickly and iteratively see your code changes take effect in a Kubernetes environment in the cloud.
