@@ -38,7 +38,7 @@ First, you'll create an Node.js web application project.
 
      ![Node.js workload in VS Installer](../ide/media/quickstart-nodejs-workload.png)  
 
-    Visual Studio creates and the new solution and opens the project. **server.js** open in the editor.
+    Visual Studio creates and the new solution and opens the project. *server.js* opens in the editor in the left pane.
 
 ## Explore the IDE  
 
@@ -56,11 +56,11 @@ First, you'll create an Node.js web application project.
 
    ![Node.js command prompt](../ide/media/quickstart-nodejs-command-prompt.png) 
 
-1. In the **server.js** file in the editor (left pane), choose `http.createServer` and then press **F12** or choose **Go To Definition** from the context (right-click) menu. This command takes you to the definition of the `createServer` function in index.d.ts.  
+1. In the *server.js* file in the editor (left pane), choose `http.createServer` and then press **F12** or choose **Go To Definition** from the context (right-click) menu. This command takes you to the definition of the `createServer` function in index.d.ts.  
 
    ![Go To Definition context menu](../ide/media/quickstart-nodejs-gotodefinition.png)  
 
-1. Put your cursor at the end of the string in this line of code, `res.end('Hello World\n');`, and modify it so that it looks like this:
+1. Got back to *server.js*, then put your cursor at the end of the string in this line of code, `res.end('Hello World\n');`, and modify it so that it looks like this:
 
     `res.end('Hello World\n' + res.connection.`
 
@@ -85,5 +85,3 @@ Congratulations on completing this quickstart! We hope you learned a little bit 
 
 - Go through the [Tutorial for Node.js and Express](../nodejs/tutorial-nodejs.md)  
 - Go through the [Tutorial for Node.js and React](../nodejs/tutorial-nodejs-with-react-and-jsx.md)  
-- Learn more about the [Visual Studio IDE](../ide/visual-studio-ide.md)  
-- Learn more about [Node.js Tools for Visual Studio](https://github.com/Microsoft/nodejstools/wiki)
