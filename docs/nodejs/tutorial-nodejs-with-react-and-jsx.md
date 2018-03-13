@@ -19,7 +19,7 @@ ms.workload:
   - "nodejs"
 ---
 # Tutorial: Create a Node.js and React app in Visual Studio
-In this tutorial for Node.js development using Visual Studio, you create a Node.js web application project from a Visual Studio template. Then you create a simple app using React. If you haven't already installed Visual Studio, install it for free [here](http://www.visualstudio.com).  
+Visual Studio allows you to easily create a Node.js project and leverage IntelliSense and other built-in features that support Node.js. In this tutorial for Visual Studio, you create a Node.js web application project from a Visual Studio template. Then, you create a simple app using React. 
 
 In this tutorial, you learn how to:
 > [!div class="checklist"]
@@ -29,14 +29,22 @@ In this tutorial, you learn how to:
 > * Transpile JSX
 > * Attach the debugger
 
+## Prerequisites
+
+* You must have Visual Studio installed and the Node.js development workload.
+
+    If you haven't already installed Visual Studio, install it for free [here](http://www.visualstudio.com).
+
+    If you need to install the workload but already have Visual Studio, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **Node.js development** workload, then choose **Modify**.
+
+* You must have the Node.js runtime installed.
+
+    If you don't have it installed, install the LTS version from the [Node.js](https://nodejs.org/en/download/) website. In general, Visual Studio automatically detects the installed Node.js runtime. If it does not detect an installed runtime, you can configure your project to reference the installed runtime in the properties page (after you create a project, right-click the project node and choose **Properties**).
+
+    This tutorial was tested with version 8.9.4.
+
 ## Create a project
 First, create a Node.js web application project.
-
-1. If you don't have the Node.js runtime already installed, install the LTS version from the [Node.js](https://nodejs.org/en/download/) website.
-
-    In general, Visual Studio automatically detects the installed Node.js runtime. If it does not detect an installed runtime, you can configure your project to reference the installed runtime.
-
-    This topic was tested with version 8.9.4.
 
 1. Open Visual Studio 2017.  
 
@@ -44,74 +52,71 @@ First, create a Node.js web application project.
 
 1. In the **New Project** dialog box, in the left pane, expand **JavaScript**, then choose **Node.js**. In the middle pane, choose **Blank Node.js Web Application**, type the name **NodejsWebAppBlank**, then choose **OK**.   
 
-     If you don't see the **Blank Node.js Web Application** project template, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **Node.js development** workload, then choose **Modify**. 
+     If you don't see the **Blank Node.js Web Application** project template, you must first install the Node.js development workload. 
 
-    Visual Studio creates the new solution and opens your project. The *server.js* project file opens in the editor (left pane).
+    Visual Studio creates the new solution and opens your project.
 
     ![Node.js project in Solution Explorer](../nodejs/media/tutorial-nodejs-react-project-structure.png)  
 
-    - Highlighted in bold is your project, using the name you gave in the **New Project** dialog box. On disk, this project is represented by a *.njsproj* file in your project folder.
+    - Highlighted in bold is your project, using the name you gave in the **New Project** dialog box. In the file system, this project is represented by a *.njsproj* file in your project folder.
 
     - At the top level is a solution, which by default has the same name as your project. A solution, represented by a *.sln* file on disk, is a container for one or more related projects.
 
     - The npm node shows any installed npm packages. You can right-click the npm node to search for and install npm packages using a dialog box.
 
-    - Project files such as server.js show up under the project node. *server.js* is the project startup file (to configure properties such as the startup file, right-click the project node and choose **Properties**).
-
-    To learn more about Visual Studio, see [Visual Studio IDE](../ide/visual-studio-ide.md)  
+    - Project files such as *server.js* show up under the project node. *server.js* is the project startup file (if you want to change the startup file later, right-click the project node and choose **Properties**).
 
 ## Add npm packages
 
 This app requires a number of npm modules to run correctly.
 
+* react
+* react-dom
 * babel-cli
 * babel-loader
 * babel-preset-react
 * express
 * path
-* react
-* react-dom
-* webpack@3.11.0
+* webpack
+* webpack-cli
 
 1. In Solution Explorer (right pane), right-click the **npm** node in the project and choose **Install New npm Packages**.
+
+    In the **Install New npm Packages** dialog box, you can choose to install the most current package version or specify a version. We recommend you install the current version initially, but if you run into unexpected errors later, you may need to install the exact package versions described later, as described [here](#packagejson).
 
 1. In the **Install New npm Packages** dialog box, search for the react package, and click **Install Package** to install it.
 
     ![Install npm packages](../nodejs/media/tutorial-nodejs-react-install-packages.png)
 
-    The **Output** window shows progress on installing each package. When installed, package appears under the **npm** node.
+    The **Output** window shows progress on installing the package. When installed, the package appears under the **npm** node.
 
     The project's *package.json* file is updated with the new package information including the package version.
 
 1. Repeat the previous steps for each of the other npm modules.
+
     Here are the npm modules as they appear in Solution Explorer after they are installed.
 
     ![npm packages](../nodejs/media/tutorial-nodejs-react-npm-modules.png) 
-
-    In the **Install New npm Packages** dialog box, you can choose to install the most current package version or specify a version. We recommend you install the current version, but if you run into unexpected errors later, you may need to install the versions shown in the illustration.
-
-    For the webpack npm package, install webpack@3.11.0. 
 
 > [!NOTE]
 > If you prefer to install npm packages using the command line, right-click the project node and choose **Open Command Prompt Here**. Use standard Node.js commands to install packages.
 
 ## Add project files
 
-In these steps, you add four new files to your project.
+In these steps, you add three new files to your project.
 * *app.js*
-* *browser-bundle.js*
 * *webpack-config.js*
 * *index.html*
 
 For this simple app, you add the new project files in the project root. (In most apps, you typically add the files to subfolders and adjust relative path references accordingly.)
 
-1. In Solution Explorer, right-click the project **NodejsWebAppBlank** (or whatever you named the project) and choose **Add** > **New Item**.
+1. In Solution Explorer, right-click the project **NodejsWebAppBlank** and choose **Add** > **New Item**.
 
-1. In the **Add New Item** dialog box, choose **JavaScript file**, type a name like *app.js*, and click **OK**.
+1. In the **Add New Item** dialog box, choose **JavaScript file**, type the name *app.js*, and click **OK**.
 
-1. Repeat these steps to add *browser-bundle.js* and *webpack-config.js*.
+1. Repeat these steps to add *webpack-config.js*.
 
-1. Repeat the same steps to add index.html to the project. Instead of a JavaScript file, choose **HTML file**.
+1. Repeat the same steps to add *index.html* to the project. Instead of a JavaScript file, choose **HTML file**.
 
 ## Add app code
 
@@ -136,7 +141,7 @@ For this simple app, you add the new project files in the project root. (In most
     });
     ```
 
-   The preceding code uses Express to start Node.js as your web application server. This code sets the port to the port number configured in the project properties (1337 by default). To open the project properties, right-click the project in Solution Explorer and choose **Properties**.
+   The preceding code uses Express to start Node.js as your web application server. This code sets the port to the port number configured in the project properties (by default, the port is configured to 1337 in the properties). To open the project properties, right-click the project in Solution Explorer and choose **Properties**.
 
 1. Open *app.js* and add the following code:
 
@@ -171,7 +176,7 @@ For this simple app, you add the new project files in the project root. (In most
 
 ## Configure webpack and babel
 
-In the previous steps, you added *webpack-config.js* to the project. Next, you add webpack configuration code. You will add a simple webpack configuration that specifies an input file (*app.js*) and an output file (*browser-bundle.js*) for bundling and transpiling JSX to plain JavaScript. You also configure some babel options to support React. This code is a basic configuration that is intended as an introduction to webpack and babel.
+In the previous steps, you added *webpack-config.js* to the project. Next, you add webpack configuration code. You will add a simple webpack configuration that specifies an input file (*app.js*) and an output file (*browser-bundle.js*) for bundling and transpiling JSX to plain JavaScript. For transpiling, you also configure some babel options to support React. This code is a basic configuration that is intended as an introduction to webpack and babel.
 
 1. In Solution Explorer, open *webpack-config.js* and add the following code.
 
@@ -179,6 +184,7 @@ In the previous steps, you added *webpack-config.js* to the project. Next, you a
     module.exports = {
         devtool: 'source-map',
         entry: "./app.js",
+        mode: "development",
         output: {
             filename: "./browser-bundle.js"
         },
@@ -213,12 +219,13 @@ In the previous steps, you added *webpack-config.js* to the project. Next, you a
 
     ![Run webpack](../nodejs/media/tutorial-nodejs-react-run-webpack.png) 
 
-    If you see any errors instead of the preceding output, you must resolve them before your app will work. If your npm package versions are different than the versions shown in this tutorial, that can be a source of errors. One way to fix errors is to use the exact versions shown in the earlier illustration.
+    If you see any errors instead of the preceding output, you must resolve them before your app will work. If your npm package versions are different than the versions shown in this tutorial, that can be a source of errors. One way to fix errors is to use the exact versions shown in the earlier illustration. For a quick way to do this, see [Use specific versions of npm packages](#packagejson) at the end of this topic.
 
-1. In Solution Explorer, open *browser-bundle.js* to see the transpiled JavaScript code.
+1. In Solution Explorer, right-click the project node and choose **Add** > **Existing Folder**, then choose the *dist* folder and click **Select Folder**.
 
-> [!NOTE]
-> You can run webpack commands in different ways, such as by using Gulp or the Task Runner Explorer, or both (you might try the [Task Runner Extension](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.CommandTaskRunner)).
+    Visual Studio adds the *dist* folder to the project, which contains *browser-bundle.js* and *browser-bundle.js.map*.
+
+1. Open *browser-bundle.js* to see the transpiled JavaScript code.
 
 1. If prompted to reload externally modified files, click **Yes to All**.
 
@@ -228,7 +235,7 @@ Each time you make changes to *app.js*, you must rerun the webpack command.
 
 ## Run the app
 
-1. Make sure that Google chrome is selected as the current debug target.
+1. Make sure that Chrome is selected as the current debug target.
 
     ![Select Chrome as debug target](../nodejs/media/tutorial-nodejs-react-debug-target.png)  
 
@@ -254,7 +261,7 @@ Each time you make changes to *app.js*, you must rerun the webpack command.
 
 1. To run the app, press **F5** (**Debug** > **Start Debugging**).
 
-    The debugger pauses at the breakpoint you set (the current statement is marked in yellow). Now, you can inspect your app state by hovering over variables that are currently in scope, using debugger windows like the **Locals** and **Watch** window, etc.
+    The debugger pauses at the breakpoint you set (the current statement is marked in yellow). Now, you can inspect your app state by hovering over variables that are currently in scope, using debugger windows like the **Locals** and **Watch** windows.
 
 1. Press **F5** to continue the app.
 
@@ -262,14 +269,9 @@ Each time you make changes to *app.js*, you must rerun the webpack command.
 
 1. Close the web browser and the console.
 
-If you would like more information on using a template based on Express, see [Create an Express 4 web application](../nodejs/tutorial-nodejs.md)
-
 ## Set and hit a breakpoint in the client-side React code
 
-In the preceding section, we attached the debugger to server-side Node.js code. To attach the debugger and hit breakpoints in client-side React code, the Visual Studio debugger needs help to identify the correct process. Here is one way to enable this.
-
-> [!TIP]
-> Once you attach to the process the first time by following these steps, you can quickly reattach to the same process in Visual Studio 2017 by choosing **Debug** > **Reattach to Process**.
+In the preceding section, we attached the debugger to server-side Node.js code. To attach the debugger from Visual Studio and hit breakpoints in client-side React code, the debugger needs help to identify the correct process. Here is one way to enable this.
 
 1. Close all Chrome windows.
 
@@ -295,32 +297,64 @@ In the preceding section, we attached the debugger to server-side Node.js code. 
 
     ![Attach to process](../nodejs/media/tutorial-nodejs-react-attach-to-process.png) 
 
-    When the debugger attaches, you see the DOM Explorer and the JavaScript Console open in Visual Studio. These debugging tools are similar to Chrome Developer Tools and F12 Tools for Edge.
+    You know the debugger has attached correctly when the DOM Explorer and the JavaScript Console open in Visual Studio. These debugging tools are similar to Chrome Developer Tools and F12 Tools for Edge.
 
 1. Because the code with the breakpoint already executed, refresh your browser page to hit the breakpoint.
 
-    While paused in the debugger, you can examine your app state by hovering over variables and using debugger windows.
+    While paused in the debugger, you can examine your app state by hovering over variables and using debugger windows. You can advance the debugger by stepping through code (**F5**, **F10**, and **F11**).
 
-Next time you want to attach the debugger, you can save time by using **Debug** > **Reattach to Process**.
+    > [!TIP]
+    > Once you attach to the process the first time by following these steps, you can quickly reattach to the same process in Visual Studio 2017 by choosing **Debug** > **Reattach to Process**.
 
 ## (Optional) Debug using sourcemaps
 
-> [!NOTE]
-> https://github.com/babel/babel/issues/4177
+We previously generated a sourcemap file by including `devtool: 'source-map'` in the `webpack-config.js file`. Sourcemaps allow you to debug code in the original JavaScript file rather than the transpiled JSX.
 
-We previously generated a sourcemap file by including `devtool: 'source-map'` in the `webpack-config.js file`. To use the sourcemap file for debugging:
+> [!CAUTION]
+> Hitting breakpoints using sourcemaps with chrome and webpack may not work consistently as described in [Issue 4177](https://github.com/babel/babel/issues/4177). This procedure implements a partial workaround using the `debugger` statement instead of a breakpoint.
 
-1. In Solution Explorer, right-click the project and choose **Add** > **Existing Item**, then add the *browser-bundle.js.map* file the project root.
+To use the sourcemap file for debugging:
 
 1. In *browser-bundle.js*, remove the breakpoint you set previously.
 
-1. In *app.js*, set a breakpoint on the `render()` line of code.
+1. In *app.js*, add a `debugger;` statement in the `render()` function just before the `return()` statement.
 
 1. Choose either **Debug** > **Reattach to Process** (if you attached the debugger to client-side React code previously) or follow all the steps in the section **Set and hit a breakpoint in the client-side React code**. (Skip the step on setting a breakpoint in *browser-bundle.js*.)
 
+1. Refresh the app in the browser.
+
+    The debugger pauses on the `debugger` statement in the dynamically generated *app.js* file.
+
+    In debug mode, you can hover over variables, use the **Locals** window, etc.
+
+## <a name="packagejson"></a> (Optional) Install specific versions of npm packages
+
+Because we are using the latest versions for a variety of npm packages, it's possible that a newer package version may require changes to your app that are not described in this article. This can result in unexpected errors. To resolve this, you can use the same versions of the npm packages that we tested for this topic.
+
+1. In Solution Explorer, open *package.json* and replace the `dependencies` section with the following code:
+
+    ```js
+    "dependencies": {
+      "babel-cli": "6.26.0",
+      "babel-loader": "7.1.4",
+      "babel-preset-react": "6.24.1",
+      "express": "4.16.2",
+      "path": "0.12.7",
+      "react": "16.2.0",
+      "react-dom": "16.2.0",
+      "webpack": "4.1.1",
+      "webpack-cli": "2.0.11"
+    }
+    ```
+1. Save *package.json*, then right-click the **npm** node in your project and choose **Update npm Packages**.
+
+    The **Output** window shows progress in updating the packages to the specified versions.
+
+1. Repeat steps to transpile the JSX code.
+
 ## Next steps 
 
-In this tutorial, you learned how to create a Node.js app using React. To learn more about Node.js Tools for Visual Studio, see the documentation.
+In this tutorial, you learned how to create a Node.js and React app, transpile JSX, and debug. To learn more about Node.js Tools for Visual Studio, see the documentation.
 
 > [!div class="nextstepaction"]
 > [Node.js Tools for Visual Studio](https://github.com/Microsoft/nodejstools)
