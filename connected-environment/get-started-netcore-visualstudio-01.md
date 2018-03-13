@@ -18,7 +18,7 @@ In this guide, you will learn how to:
 1. Independently develop two separate services, and used Kubernetes' DNS service discovery to make a call to another service.
 1. Productively develop and test your code in a team environment.
 
-[!INCLUDE[](common/see-troubleshooting.md)]
+[!INCLUDE[](includes/see-troubleshooting.md)]
 
 ## Install the Connected Environment CLI
 Connected Environment requires minimal local machine setup. Most of your development environment's configuration gets stored in the cloud, and is shareable with other users.

@@ -13,9 +13,9 @@ manager: "ghogen"
 
 Previous step: [Learn about team development](get-started-netcore-06.md)
 
-[!INCLUDE[](common/well-done.md)]
+[!INCLUDE[](includes/well-done.md)]
 
-[!INCLUDE[](common/take-survey.md)]
+[!INCLUDE[](includes/take-survey.md)]
 
-[!INCLUDE[](common/clean-up.md)]
+[!INCLUDE[](includes/clean-up.md)]
  
