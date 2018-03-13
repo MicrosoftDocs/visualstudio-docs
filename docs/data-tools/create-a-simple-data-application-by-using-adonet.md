@@ -170,10 +170,10 @@ Create an empty Click event handler for each button on the NewCustomer form by d
 
 To complete the NewCustomer form logic, follow these steps.
 
-1. Bring the ```System.Data.SqlClient``` namespace into scope so that you don't have to fully qualify the names of its members.
+1. Bring the `System.Data.SqlClient` namespace into scope so that you don't have to fully qualify the names of its members.
 
      ```csharp
-     using System.Data.SqlClient
+     using System.Data.SqlClient;
      ```
      ```vb
      Imports System.Data.SqlClient
