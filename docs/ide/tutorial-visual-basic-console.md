@@ -122,7 +122,7 @@ Let's create an app that prompts you for your name and then displays it along wi
     ![Console window showing the CaluculateThis app, which includes prompts on which actions to take.](../ide/media/vb-console-calculate-this.png)
 
 ## Next steps
-Congratulations on completing this tutorial! To learn even more about Visual Basic, see the following pages.
+Congratulations on completing this tutorial! To learn even more about Visual Basic and the Visual Studio IDE, see the following pages.
 
 * [Visual Basic Guide](/dotnet/visual-basic/index)
 * [What's new in Visual Basic](/dotnet/visual-basic/getting-started/whats-new)
