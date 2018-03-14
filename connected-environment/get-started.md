@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio Connected Environment | Microsoft Docs"
+title: "Create a development environment with containers using Kubernetes in the cloud | Microsoft Docs"
 author: "johnsta"
 ms.author: "johnsta"
 ms.date: "02/20/2018"
