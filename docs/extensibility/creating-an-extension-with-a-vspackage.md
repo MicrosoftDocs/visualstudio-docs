@@ -43,7 +43,7 @@ This walkthrough shows you how to create a VSIX project and add a VSPackage proj
     [PackageRegistration(UseManagedResourcesOnly = true)]  
     [InstalledProductRegistration("#110", "#112", "1.0", IconResourceID = 400)] // Info on this package for Help/About  
     [ProvideAutoLoad(UIContextGuids80.SolutionExists)]  
-    [Guid(FirstPackageGuids.PackageGuidString)]  
+    [Guid(FirstPackage.PackageGuidString)]  
     public sealed class FirstPackage : Package  
     ```  
   
