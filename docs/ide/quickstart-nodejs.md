@@ -1,5 +1,6 @@
 ---
 title: "Quickstart: use Visual Studio to create your first Node.js app | Microsoft Docs"
+description: In this quickstart, you create a Node.js app in Visual Studio
 ms.custom: ""
 ms.date: "11/15/2017"
 ms.reviewer: ""
@@ -24,21 +25,21 @@ In this 5-10 minute introduction to the Visual Studio integrated development env
 ## Create a project
 First, you'll create an Node.js web application project.
 
+1. If you don't have the Node.js runtime already installed, install the LTS version from the [Node.js](https://nodejs.org/en/download/) website.
+
+    In general, Visual Studio automatically detects the installed Node.js runtime. If it does not detect an installed runtime you can configure your project to reference the installed runtime.
+
 1. Open Visual Studio 2017.  
 
-2. From the top menu bar, choose **File** > **New** > **Project...**.  
+1. From the top menu bar, choose **File** > **New** > **Project...**.  
 
-3. In the **New Project** dialog box, in the left pane, expand **JavaScript**, then choose **Node.js**. In the middle pane, choose **Blank Node.js Web application**, then choose **OK**.   
+1. In the **New Project** dialog box, in the left pane, expand **JavaScript**, then choose **Node.js**. In the middle pane, choose **Blank Node.js Web application**, then choose **OK**.   
 
      If you don't see the **Blank Node.js Web application** project template, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **Node.js development** workload, then choose **Modify**.  
 
      ![Node.js workload in VS Installer](../ide/media/quickstart-nodejs-workload.png)  
 
-    Visual Studio creates and the new solution and opens the project. **server.js** open in the editor.
-
-4. If you don't have the Node.js runtime already installed, install it from the [Node.js](https://nodejs.org/en/download/) website.
-
-    In general, Visual Studio automatically detects the installed Node.js runtime. If it does not detect an installed runtime you can configure your project to reference the installed runtime.
+    Visual Studio creates and the new solution and opens the project. *server.js* opens in the editor in the left pane.
 
 ## Explore the IDE  
 
@@ -56,11 +57,11 @@ First, you'll create an Node.js web application project.
 
    ![Node.js command prompt](../ide/media/quickstart-nodejs-command-prompt.png) 
 
-1. In the **server.js** file in the editor (left pane), choose `http.createServer` and then press **F12** or choose **Go To Definition** from the context (right-click) menu. This command takes you to the definition of the `createServer` function in index.d.ts.  
+1. In the *server.js* file in the editor (left pane), choose `http.createServer` and then press **F12** or choose **Go To Definition** from the context (right-click) menu. This command takes you to the definition of the `createServer` function in index.d.ts.  
 
    ![Go To Definition context menu](../ide/media/quickstart-nodejs-gotodefinition.png)  
 
-1. Put your cursor at the end of the string in this line of code, `res.end('Hello World\n');`, and modify it so that it looks like this:
+1. Got back to *server.js*, then put your cursor at the end of the string in this line of code, `res.end('Hello World\n');`, and modify it so that it looks like this:
 
     `res.end('Hello World\n' + res.connection.`
 
@@ -83,6 +84,5 @@ Congratulations on completing this quickstart! We hope you learned a little bit 
 
 ## Next steps 
 
-- Go through the [Tutorial for Node.js](../nodejs/tutorial-nodejs.md)  
-- Learn more about the [Visual Studio IDE](../ide/visual-studio-ide.md)  
-- Learn more about [Node.js Tools for Visual Studio](https://github.com/Microsoft/nodejstools/wiki)
+- Go through the [Tutorial for Node.js and Express](../nodejs/tutorial-nodejs.md)  
+- Go through the [Tutorial for Node.js and React](../nodejs/tutorial-nodejs-with-react-and-jsx.md)  
