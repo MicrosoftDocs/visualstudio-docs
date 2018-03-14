@@ -25,13 +25,13 @@ You can quickly generate test projects and test methods from your code, or manua
 
 Test Explorer can also run third-party and open source unit test frameworks that have implemented Test Explorer add-on interfaces. You can add many of these frameworks through the Visual Studio Extension Manager and the Visual Studio gallery. See [Install third-party unit test frameworks](../test/install-third-party-unit-test-frameworks.md)
 
-## Quick starts
+## Getting started
 
 For an introduction to unit testing that takes you directly into coding, see one of these topics:
 
 - [Walkthrough: Creating and Running Unit Tests for Managed Code](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md)
 
-- [Quick Start: Test Driven Development with Test Explorer](../test/quick-start-test-driven-development-with-test-explorer.md)
+- [Quickstart: Test Driven Development with Test Explorer](../test/quick-start-test-driven-development-with-test-explorer.md)
 
 - [Write unit tests for C/C++ in Visual Studio](../test/writing-unit-tests-for-c-cpp.md)
 
