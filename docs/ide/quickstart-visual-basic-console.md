@@ -77,7 +77,7 @@ Let's add some code to pause the application and then ask for user input.
    ![Console window showing Hello World and Press any key to continue](../ide/media/vb-console-hello-world-press-any-key.png)
 
 ## Next Steps
-Congratulations on completing this quickstart! We hope you learned a little bit about Visual Basic and the Visual Studio IDE. To learn more, continue with the following tutorial.
+Congratulations on completing this Quickstart! We hope you learned a little bit about Visual Basic and the Visual Studio IDE. To learn more, continue with the following tutorial.
 
 > [!div class="nextstepaction"]
 > [Getting started with Visual Basic in Visual Studio](tutorial-visual-basic-console.md)

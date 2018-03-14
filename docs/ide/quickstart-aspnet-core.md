@@ -82,7 +82,7 @@ First, you'll create an ASP.NET Core web application project. The project type c
 Congratulations on completing this quickstart! We hope you learned a little bit about the Visual Studio IDE. If you'd like to delve deeper into its capabilities, please continue with a tutorial in the **Tutorials** section of the table of contents.
 
 ## Next Steps
-Congratulations on completing this tutorial! We hope you learned a little bit about C#, ASP.NET Core, and the Visual Studio IDE. To learn more, continue with the following tutorial.
+Congratulations on completing this Quickstart! We hope you learned a little bit about C#, ASP.NET Core, and the Visual Studio IDE. To learn more, continue with the following tutorial.
 
 > [!div class="nextstepaction"]
 > [Getting started with C# and ASP.NET in Visual Studio](tutorial-csharp-aspnet-core.md)
