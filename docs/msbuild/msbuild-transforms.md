@@ -22,22 +22,18 @@ ms.workload:
 A transform is a one-to-one conversion of one item list to another. In addition to enabling a project to convert item lists, a transform enables a target to identify a direct mapping between its inputs and outputs. This topic explains transforms and how [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] uses them to build projects more efficiently.  
   
 ## Transform Modifiers  
- Transforms are not arbitrary, but are limited by special syntax in which all transform modifiers must be in the format %(*ItemMetaDataName*). Any item metadata can be used as a transform modifier. This includes the well-known item metadata that is assigned to every item when it is created. For a list of well-known item metadata, see [Well-known Item Metadata](../msbuild/msbuild-well-known-item-metadata.md).  
+Transforms are not arbitrary, but are limited by special syntax in which all transform modifiers must be in the format %(*ItemMetaDataName*). Any item metadata can be used as a transform modifier. This includes the well-known item metadata that is assigned to every item when it is created. For a list of well-known item metadata, see [Well-known Item Metadata](../msbuild/msbuild-well-known-item-metadata.md).  
   
- In the following example, a list of .resx files is transformed into a list of .resources files. The %(filename) transform modifier specifies that each .resources file has the same file name as the corresponding .resx file.  
+In the following example, a list of .resx files is transformed into a list of .resources files. The %(filename) transform modifier specifies that each .resources file has the same file name as the corresponding .resx file.  
   
 ```  
 @(RESXFile->'%(filename).resources')  
 ```  
-  
+For example, if the items in the @(RESXFile) item list are `Form1.resx`, `Form2.resx`, and `Form3.resx`, the outputs in the transformed list will be `Form1.resources`, `Form2.resources`, and `Form3.resources`.  
+
 > [!NOTE]
 >  You can specify a custom separator for a transformed item list in the same way you specify a separator for a standard item list. For example, to separate a transformed item list by using a comma (,) instead of the default semicolon (;), use the following XML.  
-  
-```  
-@(RESXFile->'Toolset\%(filename)%(extension)', ',')  
-```  
-  
- For example, if the items in the @(RESXFile) item list are `Form1.resx`, `Form2.resx`, and `Form3.resx`, the outputs in the transformed list will be `Form1.resources`, `Form2.resources`, and `Form3.resources`.  
+> `@(RESXFile->'Toolset\%(filename)%(extension)', ',')`
   
 ## Using Multiple Modifiers  
  A transform expression can contain multiple modifiers, which can be combined in any order and can be repeated. In the following example, the name of the directory that contains the files is changed but the files retain the original name and file name extension.  
