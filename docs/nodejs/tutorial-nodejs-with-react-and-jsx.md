@@ -1,6 +1,6 @@
 ---
 title: "Create a Node.js and React app - Visual Studio | Microsoft Docs"
-description: tutorial - create a Node.js and React app in Visual Studio
+description: In this tutorial, you create a Node.js and React app in Visual Studio
 ms.custom: "mvc"
 ms.date: "02/19/2018"
 ms.reviewer: ""
@@ -50,7 +50,7 @@ First, create a Node.js web application project.
 
 1. From the top menu bar, choose **File** > **New** > **Project...**.  
 
-1. In the **New Project** dialog box, in the left pane, expand **JavaScript**, then choose **Node.js**. In the middle pane, choose **Blank Node.js Web Application**, type the name **NodejsWebAppBlank**, then choose **OK**.   
+1. In the **New Project** dialog box, in the left pane, expand **JavaScript**, and then choose **Node.js**. In the middle pane, choose **Blank Node.js Web Application**, type the name **NodejsWebAppBlank**, and then choose **OK**.   
 
      If you don't see the **Blank Node.js Web Application** project template, you must first install the Node.js development workload. 
 

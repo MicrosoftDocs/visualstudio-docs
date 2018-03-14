@@ -1,5 +1,6 @@
 ---
 title: "Quickstart: use Visual Studio to create your first Node.js app | Microsoft Docs"
+description: In this quickstart, you create a Node.js app in Visual Studio
 ms.custom: ""
 ms.date: "11/15/2017"
 ms.reviewer: ""

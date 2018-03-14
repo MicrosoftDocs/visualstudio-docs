@@ -1,5 +1,6 @@
 ---
 title: "Create a Node.js and Express app - Visual Studio | Microsoft Docs"
+description: In this tutorial, you create a Node.js and Express app in Visual Studio
 ms.custom: ""
 ms.date: "03/13/2018"
 ms.reviewer: ""
@@ -47,13 +48,13 @@ First, you'll create an Node.js web application project.
 
 1. From the top menu bar, choose **File** > **New** > **Project...**.  
 
-1. In the **New Project** dialog box, in the left pane, expand **JavaScript**, then choose **Node.js**. In the middle pane, choose **Basic Azure Node.js Express 4 Application**, then choose **OK**.   
+1. In the **New Project** dialog box, in the left pane, expand **JavaScript**, and then choose **Node.js**. In the middle pane, select **Basic Azure Node.js Express 4 Application**, and then choose **OK**.   
 
      If you don't see the **Basic Azure Node.js Express 4 Application** project template, you must install the **Node.js development** workload first. 
 
     Visual Studio creates the new solution and opens your project. The *app.js* project file opens in the editor (left pane).
 
-    - Highlighted in bold is your project, using the name you gave in the **New Project** dialog box. In the file system, this project is represented by a *.njsproj* file in your project folder. You can set properties and environment variables associated with the project by right-clicking the project and choosing **Properties**. You can do round-tripping with other development tools, since the project file does not make custom changes to the Node.js project source.
+    - Highlighted in bold is your project, using the name you gave in the **New Project** dialog box. In the file system, this project is represented by a *.njsproj* file in your project folder. You can set properties and environment variables associated with the project by right-clicking the project and choosing **Properties**. You can do round-tripping with other development tools, because the project file does not make custom changes to the Node.js project source.
 
     - At the top level is a solution, which by default has the same name as your project. A solution, represented by a *.sln* file on disk, is a container for one or more related projects.
 
