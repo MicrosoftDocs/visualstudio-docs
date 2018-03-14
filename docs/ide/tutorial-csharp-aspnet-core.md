@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "12/11/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "tutorial"
@@ -12,9 +12,9 @@ ms.devlang: "CSharp"
 author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen
-dev_langs: 
+dev_langs:
   - CSharp
-ms.workload: 
+ms.workload:
   - "aspnet"
   - "dotnetcore"
 ---
@@ -163,12 +163,9 @@ The MVC pattern helps you create apps that are easier to test and update than tr
 
  ![Click the Stop Debugging button on the toolbar](../ide/media/csharp-aspnet-stop-debugging.png)
 
+## Next steps
 
-Congratulations on completing this tutorial!
+Congratulations on completing this tutorial! We hope you learned a little bit about C#, ASP.NET Core, and the Visual Studio IDE. To learn even more, continue with the following tutorial.
 
-## See also
-* [Getting started with ASP.NET Core MVC and Visual Studio](/aspnet/core/tutorials/first-mvc-app/start-mvc?tabs=aspnetcore2x)
-* [Getting started with Razor Pages in ASP.NET Core](/aspnet/core/tutorials/razor-pages/razor-pages-start)
-* [What's New in C#](/dotnet/csharp/whats-new)
-* [C# Language Reference](/dotnet/csharp/language-reference/index)
-* [C# Fundamentals for Absolute Beginners](https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169) video course
+ > [!div class="nextstepaction"]
+ > [Getting started with ASP.NET Core MVC and Visual Studio](/aspnet/core/tutorials/first-mvc-app/start-mvc?tabs=aspnetcore2x)
