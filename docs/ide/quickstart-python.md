@@ -2,7 +2,7 @@
 title: "Quickstart: use Visual Studio to create your first Python web app | Microsoft Docs"
 description: A short introduction to using Python in Visual Studio that builds a simple web app using the Falcon framework.
 ms.custom: ""
-ms.date: 01/08/2018
+ms.date: 03/14/2018
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -21,7 +21,7 @@ ms.workload:
 
 # Quickstart: Use Visual Studio to create your first Python web app
 
-In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you create a simple Python web application. If you haven't already installed Visual Studio, install it for free [here](http://www.visualstudio.com).
+In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you create a simple Python web application. If you haven't already installed Visual Studio, go to the [Visual Studio Downloads](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) page to install it for free. In the installer, make sure to select the **Python development** workload.
 
 ## Create the project
 
