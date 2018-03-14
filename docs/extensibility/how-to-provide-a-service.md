@@ -112,7 +112,7 @@ A VSPackage can provide services that other VSPackages can use. To provide a ser
     private object CreateService(IServiceContainer container, Type serviceType)  
     {  
         if (typeof(SMyService) == serviceType)  
-            return new SMyService(this);  
+            return new MyService(this);  
         return null;  
     }  
     ```  
@@ -131,7 +131,7 @@ A VSPackage can provide services that other VSPackages can use. To provide a ser
   
         MyService myService = (MyService) this.GetService(typeof(SMyService));  
         myService.Hello();  
-        string helloString = myService.myString;  
+        string helloString = myService.Goodbye();  
   
         base.Initialize();  
     }  
