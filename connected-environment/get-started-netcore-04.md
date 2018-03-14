@@ -13,9 +13,9 @@ manager: "ghogen"
  
 Previous step: [Create an ASP.NET Core Web App](get-started-netcore-03.md)
 
-[!INCLUDE[](common/debug-intro.md)]
+[!INCLUDE[](includes/debug-intro.md)]
 
-[!INCLUDE[](common/init-debug-assets-vscode.md)]
+[!INCLUDE[](includes/init-debug-assets-vscode.md)]
 
 
 ## Select the VSCE debug configuration
@@ -33,7 +33,7 @@ Hit **F5** to debug your code in Kubernetes.
 
 As with the `up` command, code is synced to the development environment, and a container is built and deployed to Kubernetes. This time, of course, the debugger is attached to the remote container.
 
-[!INCLUDE[](common/tip-vscode-status-bar-url.md)]
+[!INCLUDE[](includes/tip-vscode-status-bar-url.md)]
 
 Set a breakpoint in a server-side code file, for example within the `Index()` function in the `Controllers/HomeController.cs` source file. Refreshing the browser page causes the breakpoint to hit.
 
