@@ -39,7 +39,7 @@ In the following sections, we will go through these steps in more detail.
 
 ## Identifying the trigger scenario
 
-To do diagnose a UI delay, you first need to idetify what (sequence of actions) causes Visual Studio to show the notification. This is in order for you to able to trigger the notification later with logging turned on.
+To do diagnose a UI delay, you first need to identify what (sequence of actions) causes Visual Studio to show the notification. This is in order for you to able to trigger the notification later with logging turned on.
 
 ## Restarting VS with activity logging on
 
@@ -153,3 +153,7 @@ PerfView has detailed guidance under the Help menu that you can use to identify 
 * [https://aka.ms/vsthreading](https://aka.ms/vsthreading)
 * [https://aka.ms/vsthreadingcookbook](https://aka.ms/vsthreadingcookbook)
 
+You can also use the new Visual Studio static analyzers for extensions (NuGet package [here](https://www.nuget.org/packages/microsoft.visualstudio.sdk.analyzers)), that provide guidance on best practices for writing efficient extensions. See a list of [VS SDK analyzers](https://github.com/Microsoft/VSSDK-Analyzers/blob/master/doc/index.md) and [threading analyzers](https://github.com/Microsoft/vs-threading/blob/master/doc/analyzers/index.md).
+
+> [!NOTE]
+> If you are unable to address the unresponsiveness due to dependencies you do not have control over (e.g. if your extension has to call synchronous VS services on the UI thread), we would like to know about it. If you are a member of our Visual Studio Partner program, you can contact us by submitting a developer support request. Otherwise, use the 'Report a Problem' tool to submit your feedback and include `"Extension UI Delay Notifications"` in the title. Please also include a detailed description of your analysis.

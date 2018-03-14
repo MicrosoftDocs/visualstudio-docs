@@ -228,7 +228,7 @@ There are two ways to make the DLL available to Python.
 
 The first method works if the Python project and the C++ project are in the same solution. Go to Solution Explorer, right-click the **References** node in your Python project, and then select **Add Reference**. In the dialog that appears, select the **Projects** tab, select the **superfastcode** project (or whatever name you're using), and then **OK**.
 
-The alternate method, described in the following steps, installs the module in the global Python environment, making it available to other Python projects as well. (Doing so typically requires that you refresh the IntelliSense completion database for that environment. Refreshing is also necessary when removing the module from the environment.)
+The alternate method, described in the following steps, installs the module in the global Python environment, making it available to other Python projects as well. (Doing so typically requires that you refresh the IntelliSense completion database for that environment in Visual Studio 2017 version 15.5 and earlier. Refreshing is also necessary when removing the module from the environment.)
 
 1. If you're using Visual Studio 2017, run the Visual Studio installer, select **Modify**, select **Individual Components > Compilers, build tools, and runtimes > Visual C++ 2015.3 v140 toolset**. This step is necessary because Python (for Windows) is itself built with Visual Studio 2015 (version 14.0) and expects that those tools are available when building an extension through the method described here. (Note that you may need to install a 32-bit version of Python and target the DLL to Win32 and not x64.)
 

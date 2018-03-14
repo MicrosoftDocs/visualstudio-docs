@@ -16,33 +16,33 @@ manager: ghogen
 ms.workload:
   - "multiple"
 ---
-# How to: Enforce Maintainable Code with a Code Analysis Check-in Policy
+# How to: Enforce maintainable code with a code analysis check-in policy
 
-Developers can use the Code Metrics tool to measure the complexity and maintainability of their code, but you cannot invoke code metrics as part of a check-in policy. However, you can enable Code Analysis rules that verify the compliance of your code with Code Metrics standards, and enforce the rules through check-in policies. For more information about code metrics, see the [Code Metrics values](../code-quality/code-metrics-values.md).
+Developers can use the Code Metrics tool to measure the complexity and maintainability of their code, but you cannot invoke Code Metrics as part of a check-in policy. However, you can enable Code Analysis rules that verify the compliance of your code with code metrics standards, and enforce the rules through check-in policies. For more information about code metrics, see [Code metrics values](../code-quality/code-metrics-values.md).
 
 You can enable the Depth of Inheritance, Class Coupling, Maintainability Index, and Complexity rules to enforce maintainable code through a Code Analysis check-in policy. All four of these rules are found under the "Maintainability Rules" category in the Code Analysis policy editor.
 
 Administrators of version control for Team Foundation can add the Code Analysis Maintainability Rules to the check-in policy requirements. These check-in policies require developers to run Code Analysis based on these rule changes before initiating a check-in.
 
-## To open the Code Analysis Policy Editor
+## To open the Code Analysis Policy editor
 
-1.In **Team Explorer**, right-click the team project, click **Team Project Settings**, and then click **Source Control**.
+1. In **Team Explorer**, right-click the team project, click **Team Project Settings**, and then click **Source Control**.
 
      The **Source Control** dialog box appears.
 
-2.On the **Check-in Policy** tab, and click **Add**.
+2. On the **Check-in Policy** tab, and click **Add**.
 
      The **Add Check-in Policy** dialog box appears.
 
-3.In the **Check-in Policy** list, select the **Code Analysis** check box, and then click **OK**.
+3. In the **Check-in Policy** list, select the **Code Analysis** check box, and then click **OK**.
 
      The **Code Analysis Policy Editor** dialog box appears.
 
-## To enable Code Analysis Maintainability Rules
+## To enable code analysis maintainability rules
 
-1.In the **Code Analysis Policy Editor** dialog box, under **Rule Settings**, expand the **Maintainability Rules** node.
+1. In the **Code Analysis Policy Editor** dialog box, under **Rule Settings**, expand the **Maintainability Rules** node.
 
-2.Select the check boxes for the following rules:
+2. Select the check boxes for the following rules:
 
     -   Depth of Inheritance: **CA1501 AvoidExcessiveInheritance** - Threshold: Warning at more than 5 levels deep
 
@@ -54,9 +54,9 @@ Administrators of version control for Team Foundation can add the Code Analysis 
 
     In addition, if you want a rule violation to prevent a successful build, select the **Treat Warning As An Error** check box next to the rule description.
 
-3.Click **OK**. The new check-in policy now applies to future check-ins.
+3. Click **OK**. The new check-in policy now applies to future check-ins.
 
 ## See also
 
-[Code Metrics Values](../code-quality/code-metrics-values.md)
-[Creating and Using Code Analysis Check-In Policies](../code-quality/creating-and-using-code-analysis-check-in-policies.md)
+- [Code metrics values](../code-quality/code-metrics-values.md)
+- [Creating and using code analysis check-in policies](../code-quality/creating-and-using-code-analysis-check-in-policies.md)

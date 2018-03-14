@@ -62,8 +62,8 @@ The following table lists [!INCLUDE[javascript](../../javascript/includes/javasc
 |Performs a logical conjunction on two expressions.|[Logical AND Operator (&&)](../../javascript/reference/logical-and-operator-decrement-javascript.md)|  
 |Performs logical negation on an expression.|[Logical NOT Operator (!)](../../javascript/reference/logical-not-operator-decrement-exclpt-javascript.md)|  
 |Performs a logical disjunction on two expressions.|[Logical OR Operator (&#124;&#124;)](../../javascript/reference/logical-or-operator-decrement-javascript.md)|  
-|Divides the value of a variable by the value of an expression, and assigns the remainder to the variable.|[Modulus Assignment Operator (%=)](../../javascript/reference/modulus-assignment-operator-decrement-javascript.md)|  
-|Divides two numbers and returns the remainder.|[Modulus Operator (%)](../../javascript/reference/modulus-operator-decrementjavascript.md)|  
+|Divides the value of a variable by the value of an expression, and assigns the remainder to the variable.|[Remainder Assignment Operator (%=)](../../javascript/reference/modulus-assignment-operator-decrement-javascript.md)|  
+|Divides two numbers and returns the remainder.|[Remainder Operator (%)](../../javascript/reference/modulus-operator-decrementjavascript.md)|  
 |Multiplies the value of a variable by the value of an expression and assigns the result to the variable.|[Multiplication Assignment Operator (*=)](../../javascript/reference/multiplication-assignment-operator-decrement-equal-javascript.md)|  
 |Multiplies two numbers.|[Multiplication Operator (*)](../../javascript/reference/multiplication-operator-decrement-javascript.md)|  
 |Creates a new object.|[new Operator](../../javascript/reference/new-operator-decrementjavascript.md)|  

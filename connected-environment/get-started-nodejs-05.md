@@ -18,7 +18,7 @@ In this section we're going to create a second service, `mywebapi`, and have `we
 ![](media/multi-container.png)
 
 ## Open sample code for *mywebapi*
-You should already have the sample code for `mywebapi` for this guide under a folder named `vsce-samples` (if not, go to https://github.com/johnsta/vsce-samples and select **Clone or Download** to download the GitHub repository.) The code for this section is in `vsce-samples/nodejs/getting-started/mywebapi`.
+You should already have the sample code for `mywebapi` for this guide under a folder named `vsce/samples` (if not, go to https://github.com/Azure/vsce and select **Clone or Download** to download the GitHub repository.) The code for this section is in `vsce/samples/nodejs/getting-started/mywebapi`.
 
 ## Run *mywebapi*
 1. Open the folder `mywebapi` in a *separate VS Code window*.

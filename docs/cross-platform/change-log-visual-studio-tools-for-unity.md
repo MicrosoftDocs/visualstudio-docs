@@ -17,12 +17,105 @@ ms.workload:
 # Change Log (Visual Studio Tools for Unity)
 Visual Studio Tools for Unity change log.
 
+## 3.6.0.4
+ Released 2018-03-05
+
+### Bug fixes
+
+-   **Project Generation:**
+
+    -   Fixed Mono version detection.
+
+-   **Integration:**
+
+    -   Fixed timing issues with 2018.1 and plugin activation.
+
+## 3.6.0.3
+ Released 2018-02-23
+
+### New Features
+
+-   **Project Generation:**
+
+    -   Added support for .Net Standard.
+
+### Bug fixes
+
+-   **Project Generation:**
+
+    -   Fixed Unity target framework detection.
+
+-   **Debugger:**
+
+    -   Fixed breaking on exceptions that are thrown outside of usercode.
+
+## 3.6.0.2
+ Released 2018-02-07
+
+### New Features
+
+-   **Integration:**
+
+    -   Update UnityMessage API surface for 2017.3.
+
+### Bug fixes
+
+-   **Integration:**
+
+    -   Only reload projects on external change (with throttling).
+ 
+## 3.6.0.1
+ Released 2018-01-24
+
+### Bug fixes
+
+-   **Integration:**
+
+    -   Fixed automatic pdb to mdb debug symbol conversion.
+    
+    -   Fixed indirect call to EditorPrefs.GetBool impacting the inspector while trying to change array size.
+ 
+## 3.6.0.0
+ Released 2018-01-10
+
+### New Features
+
+-   **Project Generation:**
+
+    -   Added support for 2018.1 MonoIsland reference model.
+
+-   **Evaluation:**
+
+    -   Added support for $exception identifier.
+
+-   **Debugger:**
+
+    -   Added support for DebuggerHidden/DebuggerStepThrough attributes with the new Unity runtime.
+    
+-   **Wizards:**
+
+    -   Introduce 'Latest' version for wizards.
+
+### Bug fixes
+
+-   **Project Generation:**
+
+    -   Fixed project guid computation for player projects.
+
+-   **Debugger:**
+
+    -   Fixed a race in handling breaking events.
+    
+-   **Wizards:**
+
+    -   Refresh roslyn context before inserting method.
+
 ## 3.5.0.3
  Released 2018-01-09
 
-### Bug fixes  
+### Bug fixes
 
--   **Integration:**  
+-   **Integration:**
 
     -   Fixed automatic pdb to mdb debug symbol conversion.
 
@@ -739,7 +832,7 @@ Visual Studio Tools for Unity change log.
 
 -   Update MonBehavior wizards with new APIs.
 
--   Intellisense documentation in C# for Unity types.
+-   IntelliSense documentation in C# for Unity types.
 
 -   Arithmetic and logical expressions evaluation.
 
