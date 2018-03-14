@@ -23,7 +23,7 @@ ms.workload:
 VSPackages can write messages to the activity log. This feature is especially useful for debugging VSPackages in retail environments.  
   
 > [!TIP]
->  The activity log is always turned on. Visual Studio keeps a rolling buffer of the last one hundred entries as well as the first ten entries, which have general configuration information.  
+>  The activity log is always turned on. Visual Studio keeps a rolling buffer of the last 100 entries as well as the first 10 entries, which have general configuration information.  
   
 ### To write an entry to the activity log  
   
@@ -47,7 +47,7 @@ VSPackages can write messages to the activity log. This feature is especially us
   
 1.  Run Visual Studio with the [/Log](../ide/reference/log-devenv-exe.md) command line switch to write ActivityLog.xml to disk during your session.
 
-2.  After closing Visual Studio, find the activity log in the subfolder for  Visual Studio data: *%AppData%*\Microsoft\VisualStudio\15.0\ActivityLog.xml..  
+2.  After closing Visual Studio, find the activity log in the subfolder for  Visual Studio data: *%AppData%*\Microsoft\VisualStudio\15.0\ActivityLog.xml.  
   
 3.  Open the activity log with any text editor. Here is a typical entry:  
   
