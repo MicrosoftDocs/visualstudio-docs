@@ -185,9 +185,9 @@ You can create menu commands by deriving either from <xref:System.ComponentModel
   
     |MenuCommand Property|OLECMDF flag|  
     |--------------------------|------------------|  
-    |<xref:System.ComponentModel.Design.MenuCommand.Checked%2A> = `true`|<xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF_LATCHED>|  
-    |<xref:System.ComponentModel.Design.MenuCommand.Visible%2A> = `false`|<xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF_INVISIBLE>|  
-    |<xref:System.ComponentModel.Design.MenuCommand.Enabled%2A> = `true`|<xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF_ENABLED>|  
+    |<xref:System.ComponentModel.Design.MenuCommand.Checked%2A> = `true`|OLECMDF_LATCHED|  
+    |<xref:System.ComponentModel.Design.MenuCommand.Visible%2A> = `false`|OLECMDF_INVISIBLE|  
+    |<xref:System.ComponentModel.Design.MenuCommand.Enabled%2A> = `true`|OLECMDF_ENABLED|  
   
      To change the text of a menu command, use the <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.Text%2A> property on the <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> object, as shown in the following example.  
   

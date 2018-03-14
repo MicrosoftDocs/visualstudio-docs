@@ -64,21 +64,21 @@ if ( null != mcs )
   
 -   If the GUID is not recognized, your implementation of either method must return <xref:Microsoft.VisualStudio.OLE.Interop.Constants.OLECMDERR_E_UNKNOWNGROUP>.  
   
--   If your implementation of either method recognizes the GUID but has not actually implemented the command, then the method should return <xref:Microsoft.VisualStudio.OLE.Interop.Constants.OLECMDERR_E_NOTSUPPORTED>.  
+-   If your implementation of either method recognizes the GUID but has not implemented the command, then the method should return <xref:Microsoft.VisualStudio.OLE.Interop.Constants.OLECMDERR_E_NOTSUPPORTED>.  
   
--   If your implementation of either method recognizes both the GUID and the command, then the method should set the command-flags field of every command (in the `prgCmds` parameter) by using the following flags:  
+-   If your implementation of either method recognizes both the GUID and the command, then the method should set the command-flags field of every command (in the `prgCmds` parameter) by using the following <xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF> flags:  
   
-    -   <xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF_SUPPORTED> if the command is supported.  
+    -   OLECMDF_SUPPORTED - if the command is supported.  
   
-    -   <xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF_INVISIBLE> if the command should not be visible.  
+    -   OLECMDF_INVISIBLE - if the command should not be visible.  
   
-    -   <xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF_LATCHED> if the command is toggled on and appears to have been checked.  
+    -   OLECMDF_LATCHED - if the command is toggled on and appears to have been checked.  
   
-    -   <xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF_ENABLED> if the command is enabled.  
+    -   OLECMDF_ENABLED - if the command is enabled.  
   
-    -   <xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF_DEFHIDEONCTXTMENU> if the command should be hidden if it appears on a shortcut menu.  
+    -   OLECMDF_DEFHIDEONCTXTMENU - if the command should be hidden if it appears on a shortcut menu.  
   
-    -   <xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF_NINCHED> if the command is a menu controller and is not enabled, but its drop-down menu list is not empty and is still available. (This flag is rarely used.)  
+    -   OLECMDF_NINCHED - if the command is a menu controller and is not enabled, but its drop-down menu list is not empty and is still available. (This flag is rarely used.)  
   
 -   If the command was defined in the .vsct file with the `TextChanges` flag, set the following parameters:  
   
