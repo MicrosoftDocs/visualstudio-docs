@@ -1159,7 +1159,7 @@
         },
         {
             "source_path": "docs/install/install-visual-studio-in-offline-environment.md",
-            "redirect_url": "/visualstudio/install/install-certificates-for-visual-studio-offline",
+            "redirect_url": "/visualstudio/install/create-an-offline-installation-of-visual-studio",
             "redirect_document_id": false
         },
         {
@@ -1803,6 +1803,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/test/analyzing-code-coverage-in-build-verification-tests.md",
+            "redirect_url": "/vsts/build-release/test/getting-started-with-continuous-testing",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/test/index.md",
             "redirect_url": "/visualstudio/test/improve-code-quality",
             "redirect_document_id": false
@@ -2126,6 +2131,11 @@
         {
           "source_path": "docs/install/install-visual-studio-behind-a-firewall-or-proxy-server.md",
           "redirect_url": "/visualstudio/install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server",
+          "redirect_document_id": false
+        },
+        {
+          "source_path": "docs/ide/quickstart-visual-basic-winforms.md",
+          "redirect_url": "/visualstudio/ide/create-a-visual-basic-winform-in-visual-studio",
           "redirect_document_id": false
         }
     ]

@@ -10,12 +10,14 @@ ms.topic: "quickstart"
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Quickstart: Projects and solutions
 
 In this 10-minute quickstart, we'll explore what it means to create a solution and a project in Visual Studio. We'll look at the properties of a project and some of the files it can contain. We'll also create a reference to a second project.
+
+If you haven't already installed Visual Studio, go to the [Visual Studio Downloads](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) page to install it for free.
 
 > [!TIP]
 > We'll be constructing a solution and project from scratch in this quickstart, as an educational exercise to understand the concept of a project. In your general use of Visual Studio, you will most likely use the many project templates that Visual Studio offers when you are creating a new project.
@@ -178,10 +180,10 @@ Congratulations on completing this quickstart! Next, you might want to explore s
 
 ## See also
 
-[Quickstart: First look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)  
-[Quickstart: Personalize the Visual Studio IDE and editor](../ide/quickstart-personalize-the-ide.md)  
-[Quickstart: Coding in the editor](../ide/quickstart-editor.md)  
-[Managing project and solution properties](../ide/managing-project-and-solution-properties.md)  
-[Managing references in a project](../ide/managing-references-in-a-project.md)  
-[Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md)  
-[Visual Studio IDE overview](../ide/visual-studio-ide.md)
+- [Quickstart: First look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)
+- [Quickstart: Personalize the Visual Studio IDE and editor](../ide/quickstart-personalize-the-ide.md)
+- [Quickstart: Coding in the editor](../ide/quickstart-editor.md)
+- [Managing project and solution properties](../ide/managing-project-and-solution-properties.md)
+- [Managing references in a project](../ide/managing-references-in-a-project.md)
+- [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md)
+- [Visual Studio IDE overview](../ide/visual-studio-ide.md)

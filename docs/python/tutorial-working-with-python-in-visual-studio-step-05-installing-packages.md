@@ -52,9 +52,9 @@ The Python developer community has produced thousands of useful packages that yo
 1. Create a new project with **File > New > Project**, selecting the "Python Application" template. In the code file that appears, paste the following code, which creates a cosine wave like the previous tutorial steps, only this time plotted graphically:
 
     ```python
+    from math import radians
     import numpy as np     # installed with matplotlib
     import matplotlib.pyplot as plt
-    from math import radians
 
     def main():
         x = np.arange(0, radians(1800), radians(12))
