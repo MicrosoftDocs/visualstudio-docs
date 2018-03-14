@@ -38,7 +38,7 @@ ms.workload:
 # Format specifiers in C++ in the Visual Studio debugger
 You can change the format in which a value is displayed in the **Watch** window using format specifiers.  
   
- You can also use format specifiers in the **Immediate** window, the **Command** window, in [tracepoints](../debugger/using-breakpoints.md#BKMK_Print_to_the_Output_window_with_tracepoints), and even in source windows. If you pause on an expression in those windows, the result will appear in a DataTip. The DataTip display reflects the format specifier.  
+ You can also use format specifiers in the **Immediate** window, the **Command** window, in [tracepoints](../debugger/using-breakpoints.md#BKMK_Print_to_the_Output_window_with_tracepoints), and even in source windows. If you pause on an expression in those windows, the result appears in a DataTip. The DataTip display reflects the format specifier.  
   
 > [!NOTE]
 >  When the Visual Studio native debugger changed to a new debugging engine, some new format specifiers were added and some old ones were removed. The  older debugger is still used when you do interop (mixed native and managed) debugging with C++/CLI. The following sections in this topic show the format specifiers for each debug engine.
@@ -57,7 +57,7 @@ int main() {
 }  
 ```  
   
- Add the `my_var1` variable to the **Watch** window (while debugging, **Debug > Windows > Watch > Watch 1**) and set the display to hexadecimal (in the **Watch** window, right-click the variable and select **Hexadecimal Display**). Now the Watch window shows that it contains the value 0x0065. To see this value expressed as a character instead of an integer, in the Name column, after the variable name, add the character format specifier **, c**. The **Value** column now appears with **101 'e'**.  
+ Add the `my_var1` variable to the **Watch** window (while debugging, **Debug > Windows > Watch > Watch 1**), and then set the display to hexadecimal (in the **Watch** window, right-click the variable and select **Hexadecimal Display**). Now the Watch window shows that it contains the value 0x0065. To see this value expressed as a character instead of an integer, in the Name column, after the variable name, add the character format specifier **, c**. The **Value** column now appears with **101 'e'**.  
   
  ![WatchFormatCPlus1](../debugger/media/watchformatcplus1.png "WatchFormatCPlus1")  
   
