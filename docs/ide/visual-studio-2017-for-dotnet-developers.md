@@ -33,7 +33,8 @@ If you are coming from another IDE or coding environment, you may find installin
 
 The following are popular Visual Studio shortcuts. 
 
-[!NOTE] Some extensions unbind default Visual Studio keybindings so you must restore them to use the following commands. Restore your keybindings to Visual Studio's defaults by going to: **Tools > Import and Export Settings... > Reset all settings** or **Tools > Options > Keyboard > Reset**.
+> [!NOTE]
+> Some extensions unbind default Visual Studio keybindings so you must restore them to use the following commands. Restore your keybindings to Visual Studio's defaults by going to: **Tools > Import and Export Settings... > Reset all settings** or **Tools > Options > Keyboard > Reset**.
 
 | Shortcut (All Profiles) | Command | Description |
 |-|-|-|
