@@ -182,7 +182,7 @@ Consider the following examples:
 
 IntelliTest does not handle multithreaded programs.
 
-### Native code, .NET code that is not instrumented
+### Native code
 
 IntelliTest does not understand native code, such as
 x86 instructions called through **P/Invoke**. It does
@@ -218,7 +218,7 @@ to determine which values are relevant for the test
 and the program under test. However, the abilities of
 the constraint solver are, and always will be, limited.
 
-### (Slightly) incorrect stack traces
+### Incorrect stack traces
 
 Because IntelliTest catches and "rethrows" exceptions
 in each instrumented method, the line numbers in
