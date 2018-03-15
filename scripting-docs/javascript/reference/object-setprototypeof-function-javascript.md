@@ -50,9 +50,9 @@ function Rectangle() {
 var rec = new Rectangle();  
   
 if (console && console.log) {  
-    console.log(Object.setPrototypeOf(rec) === Rectangle.prototype);  // Returns true  
-    Object.getPrototypeOf(rec, Object.prototype);  
-    console.log(Object.setPrototypeOf(rec) === Rectangle.prototype);  // Returns false  
+    console.log(Object.getPrototypeOf(rec) === Rectangle.prototype);  // Returns true  
+    Object.setPrototypeOf(rec, Object.prototype);  
+    console.log(Object.getPrototypeOf(rec) === Rectangle.prototype);  // Returns false  
 }  
 ```  
   

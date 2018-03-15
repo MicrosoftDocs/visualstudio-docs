@@ -11,7 +11,7 @@ vsce init --public
 
 The Connected Environment CLI's ```init``` command generates Docker and Kubernetes assets with default settings:
 * `./Dockerfile` describes the app's container image, and how the source code is built and runs within the container.
-* A **Helm chart** under `./charts/webfrontend` describes how to deploy the container to Kubernetes.
+* A [Helm chart](https://docs.helm.sh) under `./charts/webfrontend` describes how to deploy the container to Kubernetes.
 
 For now it isn't necessary to understand the full content of these files. It's worth pointing out, however, that **the same Kubernetes and Docker configuration-as-code assets can be used from development through to production, thus providing better consistency across different environments.**
  

@@ -70,7 +70,7 @@ Now, however, you can pass the `Version` metadata as an attribute, such as in th
 
 |Attribute|Description|  
 |---------------|-----------------|  
-|`Include`|Required attribute.<br /><br /> The file or wildcard to include in the list of items.|  
+|`Include`|Optional attribute.<br /><br /> The file or wildcard to include in the list of items.|  
 |`Exclude`|Optional attribute.<br /><br /> The file or wildcard to exclude from the list of items.|  
 |`Condition`|Optional attribute.<br /><br /> The condition to be evaluated. For more information, see [Conditions](../msbuild/msbuild-conditions.md).|  
 |`Remove`|Optional attribute.<br /><br /> The file or wildcard to remove from the list of items.<br /><br />|  

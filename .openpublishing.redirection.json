@@ -1803,6 +1803,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/test/analyzing-code-coverage-in-build-verification-tests.md",
+            "redirect_url": "/vsts/build-release/test/getting-started-with-continuous-testing",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/test/index.md",
             "redirect_url": "/visualstudio/test/improve-code-quality",
             "redirect_document_id": false
