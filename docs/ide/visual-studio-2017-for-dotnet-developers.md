@@ -13,16 +13,17 @@ ms.workload:
   - "dotnet"
 ---
 
-- [Productivity Guide](#guide)
-- [Visual Studio 2017 Overview](#overview)
+# Visual Studio 2017 Productivity Guide for .NET Developers
 
-# <a id="guide"/> Visual Studio 2017 Productivity Guide for .NET Developers
+- [Productivity guide](#guide)
+- [Visual Studio 2017 overview](#overview)
 
+## <a id="guide"/> Productivity guide
 [Visual Studio 2017](https://www.visualstudio.com/downloads/) makes developers more productive than ever! We improved performance and reliability for solution startup and load, test discovery, and typing latency. We’ve also added and enhanced features to help you write better code faster. Some of these features include: navigation to decompiled assemblies, variable name suggestions as you type, a hierarchy-view in the Test Explorer, Go To All (**Ctrl+T**) to navigate to file/type/member/symbol declarations, an intelligent Exception Helper, code style configuration and enforcement, and many refactorings and code fixes. 
 
 Follow this guide to take your work to optimize your productivity.
 
-##  I'm used to my keyboard shortcuts from a different extension/editor/IDE.
+###  I'm used to my keyboard shortcuts from a different extension/editor/IDE.
 
 If you are coming from another IDE or coding environment, you may find installing one of these extensions helpful:
 
@@ -49,18 +50,22 @@ The following are popular Visual Studio shortcuts.
 | **Ctrl+K,D** (Default Profile) or **Ctrl+E,D** (C# Profile) | Format Document | Cleans up formatting violations in your file based on your newline, spacing, and indentation settings |
 | **Ctrl+\\,E** (Default Profile) or **Ctrl+W,E** (C# Profile) | View Error List | See all errors in your document, project, or solution |
 
-## I need a way to quickly navigate to files or types.
+### I need a way to quickly navigate to files or types.
 Visual Studio 2017 has a feature called _Go To All_ (**Ctrl+T**). Go To All enables you to quickly jump to any file, type, member, or symbol declaration.
 - Change the location of this search bar or turn off the 'live navigation preview' with the **gear** icon
 - Filter results using our query syntax (for example, "t mytype"). You can also scope your search to just the current document.
 - camelCase matching is supported!
 
-## My team enforces code style rules on our codebase.
+![Go To All in Visual Studio](../ide/media/VS2017Guide-go-to-all.png "VS2017Guide-go-to-all")
+
+### My team enforces code style rules on our codebase.
 You can use an .editorconfig file to codify coding conventions. We recommend installing the [EditorConfig Language Services extension](https://aka.ms/editorconfig) for adding and editing an .editorconfig file. We recommend you check out the [documentation](https://aka.ms/editorconfigDocs) for all .NET coding convention options.
 
 Chck out [this gist](https://gist.github.com/kuhlenh/5471666a7a2c57fea427e81cf0a41da8) for an example .editorconfig.
 
-## I need more refactorings and code fixes.
+![Code style enforcement in Visual Studio](../ide/media/VS2017Guide-code-style.png "VS2017Guide-code-style")
+
+### I need more refactorings and code fixes.
 Visual Studio 2017 comes with a lot of refactorings, code generation actions, and code fixes, which you can see in our [documentation](https://aka.ms/refactorings). Red squiggles represent errors, green squiggles represent warnings, and three gray dots represent code suggestions.
 
 You can access code fixes by clicking the lightbulb/screwdriver icon or by pressing **Ctrl+.** or **Alt+Enter**. Each fix comes with a preview window that shows a live code diff of how the fix works.
@@ -69,15 +74,21 @@ Here are some popular quick fixes and refactorings: Rename, Extract Method, Chan
 
 Refactorings and code fixes can be easily written with [Roslyn analyzers](https://github.com/dotnet/roslyn/wiki/Getting-Started-Writing-a-Custom-Analyzer-&-Code-Fix). Several community members have written *free* extensions that add additional code inspections: Roslynator and SonarLint for Visual Studio. 
 
-## I need Find Usages, Go To Implementation, Navigate To Decompiled Assemblies
+![Refactorings in Visual Studio](../ide/media/VS2017Guide-refactoring.png "VS2017Guide-refactoring")
+
+### I need Find Usages, Go To Implementation, Navigate To Decompiled Assemblies
 Visual Studio 2017 has many features to help you search and navigate your codebase--including Find All References (**Shift+F12**), Go To Implementation (**Ctrl+F12**), Go To Definition (**F12** or **Ctrl+Click**). Navigate To Decompiled Assemblies was added in version 15.6. To turn on this feature, go to **Tools > Options > Text Editor > C# > Advanced > Enable navigation to decompiled sources**.
 
-## I want to run and see my unit tests.
+![Navigate to decompiled sources in Visual Studio](../ide/media/VS2017Guide-navigate-to-source.png "VS2017Guide-navigate-to-source")
+
+### I want to run and see my unit tests.
 We have two offerings for unit testing in Visual Studio 2017: Test Explorer and _Live Unit Testing_. We greatly improved the speed of test discovery in the Test Explorer in version 15.6. We also redesigned the UI to allow for hierarchical sorting.
 
 Visual Studio also has a unit testing feature called [Live Unit Testing](/test/live-unit-testing). Live Unit Testing continuously runs in the background, runs tests impacted by your code change, and updates inline editor icons to let you know the status of your tests.
 
-## What other features do I need to know about?
+![Hierarchy view for Text Explorer in Visual Studio](../ide/media/VS2017Guide-hiearchy-test-explorer.png "VS2017Guide-hiearchy-test-explorer")
+
+### What other features do I need to know about?
 Here is a list of editor and productivity features to make writing code more efficient. Some features may need to be enabled because they are off-by-default (they may index things on your machine, are controversial, or are currently experimental).
 - *Locate File in Solution Explorer* highlights the active file in the Solution Explorer.
   - **Tools>Options>Projects and Solutions>Track Active Item in Solution Explorer**
@@ -91,15 +102,17 @@ Here is a list of editor and productivity features to make writing code more eff
   - **Menu > Edit > IntelliSense -> Toggle Completion Mode**
 - We have *code snippets* to help stub out common boilerplate (press 'Tab' twice). See the [full list](/ide/visual-csharp-code-snippets).
 
-## Missing a feature that makes you productive or experiencing poor performance?
+![Code Snippets in Visual Studio](../ide/media/VS2017Guide-code-snippet.png "VS2017Guide-code-snippet")
+
+### Missing a feature that makes you productive or experiencing poor performance?
 There are several ways to leave us feedback:
 - .NET feature requests can be filed on our [GitHub repo](https://github.com/dotnet/roslyn/issues).
 - Visual Studio feature requests, bugs, and performance issues can be filed by using the **Send Feedback** icon at the top of your Visual Studio window.
 
 
-# <a id="overview"/> Overview of Visual Studio 2017 for .NET Developers
+## <a id="overview"/> Overview of Visual Studio 2017 for .NET Developers
 
-## Smart code editor
+### Smart code editor
 
 - [Documentation: Using IntelliSense](using-intellisense.md)
 - [Documentation: Smart editor features](writing-code-in-the-code-and-text-editor.md)
@@ -108,7 +121,7 @@ Visual Studio has a deep understanding of your code via the .NET ("Roslyn") comp
 
 ![Visual Studio smart code editor](../ide/media/VSIDE_Productivity_SmartCodeEditor.png "VSIDE_Productivity_SmartCodeEditor")
 
-## Navigate and search your codebase
+### Navigate and search your codebase
 
 [Documentation: Navigating code](navigating-code.md)
 
@@ -116,7 +129,7 @@ Quickly navigate your .NET code by jumping to any file, type, member, or symbol 
 
 ![Go To All and Find All References](../ide/media/VSIDE_Productivity_Navigation.png "VSIDE_Productivity_Navigation")
 
-## Live code analysis for code quality
+### Live code analysis for code quality
 
 [Documentation: Refactorings and quick actions](refactoring-code-generation-quick-actions.md)
 
@@ -126,7 +139,7 @@ Additionally, use code suggestions to learn best practices, stub or generate cod
 
 ![Apply quick fixes and refactorings using the lightbulb menu](../ide/media/VSIDE_Productivity_CodeAnalysis.png "VSIDE_Productivity_CodeAnalysis")
 
-## Unit testing
+### Unit testing
 
 [Documentation: Unit testing in Visual Studio](../test/improve-code-quality.md)
 
@@ -134,7 +147,7 @@ Run and debug your unit tests based on the MSTest, NUnit, or XUnit testing frame
 
 ![Live Unit Testing in Visual Studio](../ide/media/VSIDE_Productivity_LiveUnitTesting.png "VSIDE_Productivity_LiveUnitTesting")
 
-## Code consistency and style
+### Code consistency and style
 
 - [Documentation: Portable custom editor options](create-portable-custom-editor-options.md)
 - [Documentation: EditorConfig code style settings for .NET](editorconfig-code-style-settings-reference.md)
@@ -143,7 +156,7 @@ Visual Studio enables coding convention configuration, detects coding style viol
 
 ![Configure and enforce coding conventions with EditorConfig](../ide/media/VSIDE_Productivity_CodeStyle.png "VSIDE_Productivity_CodeStyle")
 
-## Debugging
+### Debugging
 
 [Documentation: Debugging in Visual Studio](../debugger/index.md)
 
@@ -153,7 +166,7 @@ If your service runs in Azure, use *Snapshot debugging* to diagnose issues on yo
 
 ![Debugging in Visual Studio](../ide/media/VSIDE_Productivity_Debugging.png "VSIDE_Productivity_Debugging")
 
-## Version control
+### Version control
 
 [Documentation: Version control in Visual Studio](/vsts/index)
 
@@ -161,7 +174,7 @@ Use git or TFVC to store and update your code in Visual Studio. Inside the edito
 
 ![Source control in Visual Studio](../ide/media/VSIDE_Productivity_SourceControl.png "VSIDE_Productivity_SourceControl")
 
-## Extensibility
+### Extensibility
 
 [Documentation: Extending Visual Studio](../extensibility/index.md)
 
