@@ -79,7 +79,7 @@ var bicycle = Object.create(Object.getPrototypeOf(Vehicle), {
 In Internet Explorer 11, you can replace the internal prototype of an object or function with a new prototype by using the [__proto__](../../javascript/reference/proto-property-object-javascript.md) property. When you use this property, you inherit the properties and methods of the new prototype along with other properties and methods in its prototype chain.  
 
 > [!WARNING]
-> The `__proto__` property is a legacy feature. Use [Object.getPrototypeOf](../reference/object-getprototypof-function-javascript.md) instead.
+> The `__proto__` property is a legacy feature. Use [Object.getPrototypeOf](../reference/object-getprototypeof-function-javascript.md) instead.
   
 The following example shows how you can change the prototype of an object. This example shows how the object's inherited properties change when you change its prototype.  
   
