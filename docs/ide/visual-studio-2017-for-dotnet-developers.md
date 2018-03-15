@@ -21,7 +21,7 @@ ms.workload:
 ## <a id="guide"/> Productivity guide
 [Visual Studio 2017](https://www.visualstudio.com/downloads/) makes developers more productive than ever! We improved performance and reliability for solution startup and load, test discovery, and typing latency. We’ve also added and enhanced features to help you write better code faster. Some of these features include: navigation to decompiled assemblies, variable name suggestions as you type, a hierarchy-view in the Test Explorer, Go To All (**Ctrl+T**) to navigate to file/type/member/symbol declarations, an intelligent Exception Helper, code style configuration and enforcement, and many refactorings and code fixes. 
 
-Follow this guide to take your work to optimize your productivity.
+Follow this guide to optimize your productivity.
 
 ###  I'm used to my keyboard shortcuts from a different extension/editor/IDE.
 
