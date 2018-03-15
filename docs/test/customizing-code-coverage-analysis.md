@@ -5,13 +5,13 @@ ms.technology: vs-ide-test
 ms.topic: "article"
 ms.author: gewarren
 manager: ghogen
-ms.workload: 
+ms.workload:
   - "multiple"
 author: gewarren
 ---
-# Customizing Code Coverage Analysis
+# Customize code coverage analysis
 
-By default, the Visual Studio Code Coverage tool analyzes all solution assemblies (.exe/.dll) that are loaded during unit tests. We recommend that you retain this default, because it works well most of the time. For more information, see [Using Code Coverage to Determine How Much Code is being Tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md).
+By default, the Visual Studio Code Coverage tool analyzes all solution assemblies that are loaded during unit tests. We recommend that you retain this default, because it works well most of the time. For more information, see [Using Code Coverage to Determine How Much Code is being Tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md).
 
 Before customizing the code coverage behavior, consider some alternatives:
 
@@ -23,15 +23,15 @@ Before customizing the code coverage behavior, consider some alternatives:
 
      Obtain the .pdb files for these assemblies and copy them into the same folder as the assembly .dll files.
 
-To customize the code coverage behavior, copy the [sample at the end of this topic](#sample) and add it to your solution using the file extension .runsettings. Edit it to your own needs, and then on the **Test** menu, choose **Test Settings**, **Select Test Settings** file. The remainder of this topic describes this procedure in more detail.
+To customize the code coverage behavior, copy the [sample at the end of this topic](#sample) and add it to your solution, using the file extension *.runsettings*. Edit it to your own needs, and then on the **Test** menu, choose **Test Settings**, **Select Test Settings** file. The remainder of this article describes this procedure in more detail.
 
 ## The .runsettings file
 
-Advanced code coverage settings are specified in a .runsettings file. This is the configuration file used by unit testing tools. We recommend you copy the [sample at the end of this topic](#sample) and edit it to suit your own needs.
+Advanced code coverage settings are specified in a *.runsettings* file. The *.runsettings* file is the configuration file used by unit testing tools. We recommend you copy the [sample at the end of this topic](#sample) and edit it to suit your own needs.
 
 -   *What happened to the .testsettings file I used in Visual Studio 2010?*
 
-     In Visual Studio 2010, the .testsettings file applies only to unit tests based on the MSTest framework. In Visual Studio 2012, the testing tools apply not only to MSTest, but also other frameworks such as NUnit and xUnit.net. The .testsettings file will not work with these. The .runsettings file is designed to customize the test tools in a way that works with all testing frameworks.
+     In Visual Studio 2010, the .testsettings file applies only to unit tests based on the MSTest framework. In Visual Studio 2012, the testing tools apply not only to MSTest, but also other frameworks such as NUnit and xUnit.net. The .testsettings file does not work with other frameworks. The .runsettings file is designed to customize the test tools in a way that works with all testing frameworks.
 
  To customize code coverage, you will need to add a .runsettings file to your solution:
 
@@ -39,7 +39,7 @@ Advanced code coverage settings are specified in a .runsettings file. This is th
 
      In Solution Explorer, on the shortcut menu of your solution, choose **Add**, **New Item**, and select **XML File**. Save the file with a name ending such as `CodeCoverage.runsettings`
 
-2.  Add the content given in the sample at the end of this topic, and then customize it to your needs as described in the following sections.
+2.  Add the content given in the sample at the end of this article, and then customize it to your needs as described in the following sections.
 
 3.  On the **Test** menu, choose **Test Settings**, **Select Test Settings File** and select the file.
 
@@ -53,24 +53,23 @@ Advanced code coverage settings are specified in a .runsettings file. This is th
 
 ### Specifying symbol search paths
 
-Code coverage requires symbols (.pdb files) for assemblies to be present. For assemblies built by your solution, symbol files are generally present alongside the binary files, and code coverage works automatically. But in some cases, you might want to include referenced assemblies in your code coverage analysis. In such cases, the .pdb files might not be adjacent to the binaries, but you can specify the symbol search path in the .runsettings file.
+Code coverage requires symbols (.pdb files) for assemblies to be present. For assemblies built by your solution, symbol files are usually present alongside the binary files, and code coverage works automatically. But in some cases, you might want to include referenced assemblies in your code coverage analysis. In such cases, the .pdb files might not be adjacent to the binaries, but you can specify the symbol search path in the .runsettings file.
 
 ```xml
 <SymbolSearchPaths>
       <Path>\\mybuildshare\builds\ProjectX</Path>
       <!--More paths if required-->
 </SymbolSearchPaths>
-
 ```
 
 > [!WARNING]
->  Symbol resolution can take time, especially when using a remote file location with a lot of assemblies. Therefore, consider copying remote .pdb files to the same local location as the binary (.dll and .exe) files.
+> Symbol resolution can take time, especially when using a remote file location with many assemblies. Therefore, consider copying remote .pdb files to the same local location as the binary (.dll and .exe) files.
 
 ### Excluding and including
 
 You can exclude specified assemblies from code coverage analysis. For example:
 
-```minterastlib
+```xml
 <ModulePaths>
   <Exclude>
    <ModulePath>Fabrikam.Math.UnitTest.dll</ModulePath>
@@ -79,9 +78,9 @@ You can exclude specified assemblies from code coverage analysis. For example:
 </ModulePaths>
 ```
 
- As an alternative, you can specify which assemblies should be included. This approach has the drawback that when you add more assemblies to the solution, you have to remember to add them to the list:
+As an alternative, you can specify which assemblies should be included. This approach has the drawback that when you add more assemblies to the solution, you have to remember to add them to the list:
 
-```minterastlib
+```xml
 <ModulePaths>
   <Include>
    <ModulePath>Fabrikam.Math.dll</ModulePath>
@@ -90,9 +89,9 @@ You can exclude specified assemblies from code coverage analysis. For example:
 </ModulePaths>
 ```
 
- If `<Include>` is empty, then code coverage processing includes all assemblies (.dll and .exe files) that are loaded and for which **.pdb** files can be found, except for items that match a clause in an `<Exclude>` list.
+If `<Include>` is empty, then code coverage processing includes all assemblies (.dll and .exe files) that are loaded and for which **.pdb** files can be found, except for items that match a clause in an `<Exclude>` list.
 
- `Include` is processed before `Exclude`.
+`Include` is processed before `Exclude`.
 
 ### Regular expressions
 
@@ -150,7 +149,7 @@ Include and exclude nodes use regular expressions. For more information, see [Us
 
  **Matching a function name**
 
- Your regular expression must match the fully qualified name of the function, including namespace, class name, method name and parameter list. For example,
+ Your regular expression must match the fully qualified name of the function, including namespace, class name, method name, and parameter list. For example,
 
 -   C# or Visual Basic: `Fabrikam.Math.LocalMath.SquareRoot(double)`
 
@@ -178,7 +177,7 @@ Include and exclude nodes use regular expressions. For more information, see [Us
 
 Choose **Test** > **Test Settings** > **Select Test Settings File** and select the .runsettings file. The file appears on the Test Settings menu, and you can select or cancel it. While selected, your .runsettings file applies whenever you use **Analyze Code Coverage**.
 
-### To customize run settings in a command line test
+### To customize run settings in a command-line test
 
 To run tests from the command line, use vstest.console.exe. The settings file is a parameter of this utility.
 
@@ -210,7 +209,7 @@ The results are visible in the summary section of the build report.
 
 ##  <a name="sample"></a> Sample .runsettings file
 
-Copy this code and edit it to suit your own needs. This is the default .runsettings file.
+Copy this code and edit it to suit your own needs.
 
 (For other uses of the .runsettings file, see [Configure unit tests by using a .runsettings file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md).)
 

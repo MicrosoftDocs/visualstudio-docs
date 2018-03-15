@@ -3,16 +3,16 @@ title: "How To: Create a Data-Driven Unit Test in Visual Studio | Microsoft Docs
 ms.date: "11/04/2016"
 ms.technology: vs-ide-test
 ms.topic: "article"
-f1_keywords: 
+f1_keywords:
   - "vs.test.testresults.unittest.datadriven"
   - "vs.test.testresults.unittest.datadriven.failure"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "unit tests, running"
   - "unit tests, data-driven"
   - "data-driven unit tests"
 ms.author: gewarren
 manager: ghogen
-ms.workload: 
+ms.workload:
   - "multiple"
 author: gewarren
 ---
@@ -31,7 +31,8 @@ Creating a data-driven unit test involves the following steps:
 4.  Use the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.DataRow%2A> indexer property to retrieve the values that you use in a test.
 
 ##  <a name="BKMK_The_method_under_test"></a> The method under test
- As an example, let's assume that we have created:
+
+As an example, let's assume that you have:
 
 1.  A solution called `MyBank` that accepts and processes transactions for different types of accounts.
 
@@ -43,7 +44,7 @@ Creating a data-driven unit test involves the following steps:
 
 5.  A unit test class called `MathsTests` to verify the behavior of the `Maths` class.
 
- We will test a method in `Maths` that adds two integers using a loop:
+We will test a method in `Maths` that adds two integers using a loop:
 
 ```csharp
 public int AddIntegers(int first, int second)
@@ -58,7 +59,7 @@ public int AddIntegers(int first, int second)
 ```
 
 ##  <a name="BKMK_Creating_a_data_source"></a> Creating a data source
- To test the `AddIntegers` method, we create a data source that specifies a range of values for the parameters and the sum that you expect to be returned. In our example, we create a Sql Compact database named `MathsData` and a table named `AddIntegersData` that contains the following column names and values
+ To test the `AddIntegers` method, create a data source that specifies a range of values for the parameters and the sum that you expect to be returned. In this example, we'll create a Sql Compact database named `MathsData` and a table named `AddIntegersData` that contains the following column names and values
 
 |FirstNumber|SecondNumber|Sum|
 |-----------------|------------------|---------|
@@ -67,7 +68,7 @@ public int AddIntegers(int first, int second)
 |2|-3|-1|
 
 ##  <a name="BKMK_Adding_a_TestContext_to_the_test_class"></a> Adding a TestContext to the test class
- The unit test framework creates a `TestContext` object to store the data source information for a data-driven test. The framework then sets this object as the value of the `TestContext` property that we create.
+ The unit test framework creates a `TestContext` object to store the data source information for a data-driven test. The framework then sets this object as the value of the `TestContext` property that you create.
 
 ```csharp
 private TestContext testContextInstance;
@@ -81,7 +82,7 @@ public TestContext TestContext
  In your test method, you access the data through the `DataRow` indexer property of the `TestContext`.
 
 ##  <a name="BKMK_Writing_the_test_method"></a> Writing the test method
- The test method for `AddIntegers` is fairly simple. For each row in the data source, we call `AddIntegers` with the **FirstNumber** and **SecondNumber** column values as parameters, and we verify the return value against **Sum** column value:
+ The test method for `AddIntegers` is fairly simple. For each row in the data source, call `AddIntegers` with the **FirstNumber** and **SecondNumber** column values as parameters, and verify the return value against **Sum** column value:
 
 ```csharp
 [DataSource(@"Provider=Microsoft.SqlServerCe.Client.4.0; Data Source=C:\Data\MathsData.sdf;", "Numbers")]
@@ -101,7 +102,7 @@ public void AddIntegers_FromDataSourceTest()
 }
 ```
 
- Note that the `Assert` method includes a message that displays the `x` and `y` values of a failed iteration. By default, the asserted values, `expected` and `actual`, are already included in the details of a failed test.
+The `Assert` method includes a message that displays the `x` and `y` values of a failed iteration. By default, the asserted values, `expected` and `actual`, are already included in the details of a failed test.
 
 ###  <a name="BKMK_Specifying_the_DataSourceAttribute"></a> Specifying the DataSourceAttribute
  The `DataSource` attribute specifies the connection string for the data source and the name of the table that you use in the test method. The exact information in the connection string differs, depending on what kind of data source you are using. In this example, we used a SqlServerCe database.
@@ -138,7 +139,7 @@ The DataSource attribute has three constructors.
 ```
 
 ###  <a name="BKMK_Using_TestContext_DataRow_to_access_the_data"></a> Using TestContext.DataRow to access the data
- To access the data in the `AddIntegersData` table, use the `TestContext.DataRow` indexer. `DataRow` is a <xref:System.Data.DataRow> object, so we retrieve column values by index or column names. Because the values are returned as objects, we need to convert them to the appropriate type:
+ To access the data in the `AddIntegersData` table, use the `TestContext.DataRow` indexer. `DataRow` is a <xref:System.Data.DataRow> object, so retrieve column values by index or column names. Because the values are returned as objects, convert them to the appropriate type:
 
 ```csharp
 int x = Convert.ToInt32(TestContext.DataRow["FirstNumber"]);

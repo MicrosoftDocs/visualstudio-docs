@@ -5,13 +5,13 @@ ms.technology: vs-ide-test
 ms.topic: "article"
 ms.author: gewarren
 manager: ghogen
-ms.workload: 
+ms.workload:
   - "multiple"
 author: gewarren
 ---
 # Code generation, compilation, and naming conventions in Microsoft Fakes
 
-This topic discusses options and issues in Fakes code generation and compilation, and describes the naming conventions for Fakes generated types, members, and parameters.
+This article discusses options and issues in Fakes code generation and compilation, and describes the naming conventions for Fakes generated types, members, and parameters.
 
 **Requirements**
 
@@ -35,7 +35,7 @@ The following example illustrates stub types defined in FileSystem.dll:
 
 Filters can be set in the .fakes file to restrict which types should be stubbed. You can add an unbounded number of Clear, Add, Remove elements under the StubGeneration element to build the list of selected types.
 
-For example, this .fakes file generates stubs for types under the System and System.IO namespaces, but excludes any type containing "Handle" in System:
+For example, the following .fakes file generates stubs for types under the System and System.IO namespaces, but excludes any type containing "Handle" in System:
 
 ```xml
 <Fakes xmlns="http://schemas.microsoft.com/fakes/2011/">
@@ -117,7 +117,7 @@ The Fakes code generator generates shim types and stub types for types that are 
         PublicKey=<Test_assembly_public_key>)]
     ```
 
-If the shimmed assembly is strongly named, the Fakes framework will automatically strongly sign the generated Fakes assembly. You have to strong sign the test assembly. See [Creating and Using Strong-Named Assemblies](http://msdn.microsoft.com/Library/ffbf6d9e-4a88-4a8a-9645-4ce0ee1ee5f9).
+If the shimmed assembly is strongly named, the Fakes framework will automatically strongly sign the generated Fakes assembly. You have to strong sign the test assembly. See [Strong-Named Assemblies](/dotnet/framework/app-domains/strong-named-assemblies).
 
 The Fakes framework uses the same key to sign all generated assemblies, so you can use this snippet as a starting point to add the **InternalsVisibleTo** attribute for the fakes assembly to your shimmed assembly code.
 
@@ -237,13 +237,10 @@ attribute of the Assembly element in the .fakes:
 |For example: + operator|`op_Add`|`AddOp`|
 |For a **conversion operator**, the return type is appended.|`T op_Implicit`|`ImplicitOpT`|
 
- **Notes**
-
--   **Getters and setters of indexers** are treated similarly to the property. The default name for an indexer is `Item`.
-
--   **Parameter type** names are transformed and concatenated.
-
--   **Return type** is ignored unless there's an overload ambiguity. If this is the case, the return type is appended at the end of the name
+> [!NOTE]
+> - **Getters and setters of indexers** are treated similarly to the property. The default name for an indexer is `Item`.
+> - **Parameter type** names are transformed and concatenated.
+> - **Return type** is ignored unless there's an overload ambiguity. If there's an overload amiguity, the return type is appended at the end of the name.
 
 ### Parameter type naming conventions
 

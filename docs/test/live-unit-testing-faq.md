@@ -3,12 +3,12 @@ title: "Live Unit Testing FAQ | Microsoft Docs"
 ms.date: "2017-10-03"
 ms.technology: vs-ide-test
 ms.topic: "article"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Visual Studio ALM"
   - "Live Unit Testing FAQ"
 author: rpetrusha
 ms.author: "ronpet"
-ms.workload: 
+ms.workload:
   - "dotnet"
 ---
 # Live Unit Testing Frequently Asked Questions
@@ -19,12 +19,11 @@ ms.workload:
 
 To learn about the new features and enhancements that have been made to Live Unit Testing starting with Visual Studio 2017 version 15.3, see [What's New in Live Unit Testing](live-unit-testing-whats-new.md).
 
-
 ## What test frameworks does Live Unit Testing support and what are the minimum supported versions?
 
 **Answer:**
 
-Live Unit Testing works with the three popular unit testing frameworks listed in the following table. The minimum supported version of their adapters and frameworks is also listed in the table. The unit testing frameworks are all available from NuGet.org.
+Live Unit Testing works with the three popular unit testing frameworks listed in the table that follows. The minimum supported version of their adapters and frameworks is also listed in the table. The unit testing frameworks are all available from NuGet.org.
 
 <table>
 <tr>
@@ -51,14 +50,13 @@ Live Unit Testing works with the three popular unit testing frameworks listed in
 
 If you have older MSTest based test projects that reference `Microsoft.VisualStudio.QualityTools.UnitTestFramework` and you don’t wish to move to the newer MSTest NuGet packages, upgrade to Visual Studio 2017 version 15.4.
 
-In some cases, you may need to explicitly restore the NuGet packages referenced by the projects in the solution in order for Live Unit Testing to work. You can do this either by doing an explicit build of the solution (select **Build**, **Rebuild Solution** from the top-level Visual Studio menu) or by restoring packages in the solution (right-click on the solution and select **Restore NuGet Packages**) before enabling Living Unit Testing.
-
+In some cases, you may need to explicitly restore the NuGet packages referenced by the projects in the solution in order for Live Unit Testing to work. You can restore the packages either by doing an explicit build of the solution (select **Build**, **Rebuild Solution** from the top-level Visual Studio menu), or by right-clicking on the solution and selecting **Restore NuGet Packages** before enabling Living Unit Testing.
 
 ## Does Live Unit Testing work with .NET Core?
 
 **Answer:**
 
-Yes. Live Unit Testing works with .NET Core and the .NET Framework. Support for .NET Core was added recently in Visual Studio 2017 version 15.3. Please upgrade to this version of Visual Studio if you want Live Unit Testing support for .NET Core.
+Yes. Live Unit Testing works with .NET Core and the .NET Framework. Support for .NET Core was added recently in Visual Studio 2017 version 15.3. Upgrade to this version of Visual Studio if you want Live Unit Testing support for .NET Core.
 
 ## Why doesn't Live Unit Testing work when I turn it on?
 
@@ -66,11 +64,11 @@ Yes. Live Unit Testing works with .NET Core and the .NET Framework. Support for 
 
 The **Output Window** (when the Live Unit Testing drop-down is selected) should tell you why Live Unit Testing is not working. Live Unit testing may not work for one of the following reasons:
 
-- If NuGet packages referenced by the projects in the solution have not been restored, Live Unit Testing will not work. Doing an explicit build of the solution or restoring NuGet packages in the solution before turning Live Unit Testing on should resolve this issue.
+- If NuGet packages referenced by the projects in the solution have not been restored, Live Unit Testing will not work. Doing an explicit build of the solution or restoring NuGet packages in the solution before turning on Live Unit Testing should resolve this issue.
 
-- If you are using MSTest-based tests in your projects, make sure that you remove the reference to `Microsoft.VisualStudio.QualityTools.UnitTestFramework`, and add references to the latest MSTest NuGet packages, `MSTest.TestAdapter` (a minimum version of 1.1.11 is required) and `MSTest.TestFramework` (a minimum version of 1.1.11 is required). For more information, see the "Supported test frameworks" section of the [Use Live Unit Testing in Visual Studio 2017 Enterprise Edition](live-unit-testing.md#supported-test-frameworks) topic.
+- If you are using MSTest-based tests in your projects, make sure that you remove the reference to `Microsoft.VisualStudio.QualityTools.UnitTestFramework`, and add references to the latest MSTest NuGet packages, `MSTest.TestAdapter` (a minimum version of 1.1.11 is required) and `MSTest.TestFramework` (a minimum version of 1.1.11 is required). For more information, see the "Supported test frameworks" section of the [Use Live Unit Testing in Visual Studio 2017 Enterprise Edition](live-unit-testing.md#supported-test-frameworks) article.
 
-- At least one project in your solution should have either a NuGet reference or direct reference to the xUnit, NUnit or MSTest test framework. This project should also reference a corresponding Visual Studio test adapters NuGet package. The Visual Studio test adapter can also be referenced through a `.runsettings` file. The `.runsettings` file must have an entry like the one below:
+- At least one project in your solution should have either a NuGet reference or direct reference to the xUnit, NUnit, or MSTest test framework. This project should also reference a corresponding Visual Studio test adapters NuGet package. The Visual Studio test adapter can also be referenced through a `.runsettings` file. The `.runsettings` file must have an entry like the following example:
 
    ```xml
     <RunSettings>
@@ -78,7 +76,7 @@ The **Output Window** (when the Live Unit Testing drop-down is selected) should 
           <TestAdaptersPaths>path-to-your-test-adapter</TestAdaptersPaths>
        </RunConfiguration>
     </RunSettings>
-   ``` 
+   ```
 
 ## Why does Live Unit Testing show incorrect coverage after you upgrade the test adapter referenced in your Visual Studio Projects to the supported version?
 
@@ -167,7 +165,7 @@ There are several differences:
 
 **Answer:**
 
-See the "Including and excluding test projects and test methods" section of the [Use Live Unit Testing in Visual Studio 2017 Enterprise Edition](live-unit-testing.md#including-and-excluding-test-projects-and-test-methods) topic for the user-specific setting. This is extremely useful when you want to run a specific set of tests for a particular edit session or to persist your own personal preferences.
+See the "Including and excluding test projects and test methods" section of the [Use Live Unit Testing in Visual Studio 2017 Enterprise Edition](live-unit-testing.md#including-and-excluding-test-projects-and-test-methods) article for the user-specific setting. This is useful when you want to run a specific set of tests for a particular edit session or to persist your own personal preferences.
  
 For solution-specific settings, you can apply the <xref:System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute?displayProperty=fullName> attribute programmatically to exclude methods, properties, classes, or structures from being instrumented by Live Unit Testing. Additionally, you can also set the `<ExcludeFromCodeCoverage>` property to `true` in your project file to exclude the whole project from being instrumented. Live Unit Testing will still run the tests that have not been instrumented, but their coverage will not be visualized.
 
@@ -196,7 +194,7 @@ public class Class1
 
 **Answer:**
 
-This issue is fixed and does not exist in in Visual Studio 2017 version 15.3. Please upgrade to this version of Visual Studio.
+This issue is fixed and does not exist in Visual Studio 2017 version 15.3. Upgrade to this version of Visual Studio.
 
 For older versions of Visual Studio 2017, there is a known bug that may result in Live Unit Testing builds failing to embed the following Win32 PE Header data:
 
@@ -220,7 +218,7 @@ Live Unit Testing starts a build whenever it detects that source files have chan
 
 **Answer:**
 
-Live Unit Testing currently doesn't work well with the lightweight solution load feature. It works only after at least one of the test projects is loaded. Until then it won't work because Live Unit Testing is dependent on at least one of the test projects referencing a test adapter (MSTest, xUnit or NUnit) being loaded.
+Live Unit Testing currently doesn't work well with the lightweight solution load feature. It works only after at least one of the test projects is loaded. Until then, it won't work because Live Unit Testing is dependent on at least one of the test projects referencing a test adapter (MSTest, xUnit or NUnit) being loaded.
 
 > [!NOTE]
 > Lightweight solution load is no longer available in Visual Studio 2017 version 15.5 and later. In Visual Studio 2017 version 15.5 and later, large solutions that contain managed code load much faster than previously, even without lightweight solution load.
