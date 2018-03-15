@@ -97,5 +97,5 @@ In this context, the question naturally arises whether you should try to manuall
 
 Refer to the following articles for further discussion:
 
-- [ToolsVersion guidance](../msbuild/msbuild-toolset-toolsversion)
-- [Framework targeting guidance](../ide/visual-studio-multi-targeting-overview)
+- [ToolsVersion guidance](../msbuild/msbuild-toolset-toolsversion.md)
+- [Framework targeting guidance](../ide/visual-studio-multi-targeting-overview.md)
