@@ -35,7 +35,7 @@ Support for some project types also changes over time. A newer version of Visual
 > This present article provides details only for project types in Visual Studio 2017 that involve migration. It does not include supported project types that have no migration issues; that list is found on [Platform Targeting and Compatibility](https://www.visualstudio.com/productinfo/vs2017-compatibility-vs). Note also that some project types are no longer supported in Visual Studio 2017 at all and therefore cannot be migrated.
 
 > [!Important]
-> Certain project type require installing the appropriate workloads through the Visual Studio installer. If you don't have the workload installed, Visual Studio reports an unknown or incompatible project type. In that case, check your installation options and try again. Again, see the [Platform Targeting and Compatibility](https://www.visualstudio.com/productinfo/vs2017-compatibility-vs) article for details on project support in Visual Studio 2017.
+> Certain project types require installing the appropriate workloads through the Visual Studio installer. If you don't have the workload installed, Visual Studio reports an unknown or incompatible project type. In that case, check your installation options and try again. Again, see the [Platform Targeting and Compatibility](https://www.visualstudio.com/productinfo/vs2017-compatibility-vs) article for details on project support in Visual Studio 2017.
 
 ## Project types
 
@@ -81,7 +81,7 @@ In other cases, the newer version of Visual Studio can open a project, but must 
 
 - Compatibility with the target versions of platforms, back to Visual Studio 2013 RTM.​
 
-- Compatibility of design-time assets with previous versions of Visual Studio. (Namely different channels of Visual Studio 2017; Visual Studio 2015 RTM & Update 3; Visual Studio 2013 RTM & Update 5; Visual Studio 2012 Update 4; Visual Studio 2010 SP 1.) Visual Studio 2017 aims to fail gracefully with deprecated design-time assets without corrupting them, such that previous versions can still open the project).
+- Compatibility of design-time assets with previous versions of Visual Studio. (Namely different channels of Visual Studio 2017; Visual Studio 2015 RTM & Update 3; Visual Studio 2013 RTM & Update 5; Visual Studio 2012 Update 4; Visual Studio 2010 SP 1.) Visual Studio 2017 aims to fail gracefully with deprecated design-time assets without corrupting them, such that previous versions can still open the project.
 
 - Whether new design time assets would break compatibility with previous versions down to Visual Studio 2013 RTM & Update 5.
 
@@ -91,11 +91,11 @@ If such compatibility is not possible, however, as with some of the project type
 
 Such one-way changes may involve changing the `ToolsVersion` property in the project file, which denotes exactly which version of MSBuild can turn the project's source code into runnable and deployable artifacts that you ultimately want. That is, what renders a project incompatible with previous versions of Visual Studio is not the *Visual Studio* version, but the *MSBuild* version, as determined by `ToolsVersion`. So long as your version of Visual Studio contains the MSBuild toolchain that matches the `ToolsVersion` in a project, then Visual Studio can invoke that toolchain to build the project.
 
-To maintain maximum compatibility with projects created in older versions, Visual Studio 2017 therefore includes the necessary MSBuild toolchains to support `ToolsVersion` 15, 14, 12, and 4. Projects that use any of these `ToolsVersion` values should result in a successful build. (Subject, again, to whether Visual Studio 2017 supports the project type at all, as described on [Platform Targeting and Compatibility](https://www.visualstudio.com/productinfo/vs2017-compatibility-vs).)
+To maintain maximum compatibility with projects created in older versions, Visual Studio 2017 includes the necessary MSBuild toolchains to support `ToolsVersion` 15, 14, 12, and 4. Projects that use any of these `ToolsVersion` values should result in a successful build. (Subject, again, to whether Visual Studio 2017 supports the project type at all, as described on [Platform Targeting and Compatibility](https://www.visualstudio.com/productinfo/vs2017-compatibility-vs).)
 
 In this context, the question naturally arises whether you should try to manually update or migrate a project to a newer `ToolsVersion` value. Making such a change is unnecessary, and would likely generate many errors and warnings that you'd need to fix to get the project to build again. Furthermore, if Visual Studio drops support for a specific `ToolsVersion` in the future, then opening the project will trigger the project migration process specifically because the `ToolsVersion` value must be changed. In such a case, the subsystem for that specific project type knows exactly what needs to be changed, and can make those changes automatically as described earlier in this article.
 
 Refer to the following articles for further discussion:
 
-- [ToolsVersion guidance](https://docs.microsoft.com/visualstudio/msbuild/msbuild-toolset-toolsversion)
-- [Framework targeting guidance](https://docs.microsoft.com/visualstudio/ide/visual-studio-multi-targeting-overview)
+- [ToolsVersion guidance](../msbuild/msbuild-toolset-toolsversion)
+- [Framework targeting guidance](../ide/visual-studio-multi-targeting-overview)
