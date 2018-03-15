@@ -1,17 +1,13 @@
 ---
 title: "Sample Coded UI Test Extension for Excel | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: vs-devops-test
-ms.tgt_pltfrm: ""
+ms.technology: vs-ide-test
 ms.topic: "article"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "coded UI tests, extensions for Excel"
 ms.author: gewarren
 manager: ghogen
-ms.workload:
+ms.workload: 
   - "multiple"
 author: gewarren
 ---

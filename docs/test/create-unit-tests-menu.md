@@ -1,17 +1,13 @@
 ---
-title: "Creating unit test method stubs with the Create Unit Tests command | Microsoft Docs"
-ms.custom: ""
+title: "Create unit test method stubs in Visual Studio | Microsoft Docs"
 ms.date: "05/02/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: vs-devops-test
-ms.tgt_pltfrm: ""
+ms.technology: vs-ide-test
 ms.topic: "article"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "unit testing, create unit tests"
 ms.author: gewarren
 manager: ghogen
-ms.workload:
+ms.workload: 
   - "multiple"
 author: gewarren
 ---
@@ -52,7 +48,7 @@ to the unit test directly, as shown below.
 
 ## Using third-party unit test frameworks
 
-With Visual Studio, you can easily have unit tests created for you using any test framework. To install add other test frameworks:
+With Visual Studio, you can easily have unit tests created for you using any test framework. To install other test frameworks:
 
 1. Choose **Tools** > **Extensions and Updates**.
 2. Expand **Online** > **Visual Studio Marketplace** > **Tools**, and then choose **Testing**.

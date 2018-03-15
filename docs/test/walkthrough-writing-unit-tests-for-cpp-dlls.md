@@ -1,15 +1,11 @@
 ---
 title: "How to: Write unit tests for C++ DLLs | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: vs-devops-test
-ms.tgt_pltfrm: ""
+ms.technology: vs-ide-test
 ms.topic: "article"
 ms.author: mblome
 manager: ghogen
-ms.workload:
+ms.workload: 
   - "cplusplus"
 author: mikeblome
 ---
@@ -179,9 +175,9 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
     ```
 
     > [!TIP]
-    >  We recommend that you do not change tests that have passed. Instead, add a new test, update the code so that the test passes, and then add another test, and so on.
+    > We recommend that you do not change tests that have passed. Instead, add a new test, update the code so that the test passes, and then add another test, and so on.
     >
-    >  When your users change their requirements, disable the tests that are no longer correct. Write new tests and make them work one at a time, in the same incremental manner.
+    > When your users change their requirements, disable the tests that are no longer correct. Write new tests and make them work one at a time, in the same incremental manner.
 
 2.  Build the solution, and then in Test Explorer, choose **Run All**.
 
@@ -190,7 +186,7 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
      ![The RangeTest fails](../test/media/ute_cpp_testexplorer_rangetest_fail.png "UTE_Cpp_TestExplorer_RangeTest_Fail")
 
     > [!TIP]
-    >  Verify that each test fails immediately after you have written it. This helps you avoid the easy mistake of writing a test that never fails.
+    > Verify that each test fails immediately after you have written it. This helps you avoid the easy mistake of writing a test that never fails.
 
 3.  Enhance your DLL code so that the new test passes:
 
@@ -218,7 +214,7 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
      ![Unit Test Explorer &#45; Range Test passed](../test/media/utecpp12.png "UteCpp12")
 
     > [!TIP]
-    >  Develop code by adding tests one at a time. Make sure that all the tests pass after each iteration.
+    > Develop code by adding tests one at a time. Make sure that all the tests pass after each iteration.
 
 ##  <a name="debug"></a> Debug a failing test
 
@@ -309,9 +305,9 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 2.  Build the solution and choose **Run All**, to make sure that you have not introduced an error.
 
     > [!TIP]
-    >  A good set of unit tests gives confidence that you have not introduced bugs when you change the code.
+    > A good set of unit tests gives confidence that you have not introduced bugs when you change the code.
     >
-    >  Keep refactoring separate from other changes.
+    > Keep refactoring separate from other changes.
 
 ## Next steps
 

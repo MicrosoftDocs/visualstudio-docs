@@ -1,15 +1,11 @@
 ---
-title: "Test Windows UWP Apps with Coded UI Tests | Microsoft Docs"
-ms.custom: ""
+title: "Test Windows UWP Apps with Coded UI Tests in Visual Studio | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: vs-devops-test
-ms.tgt_pltfrm: ""
+ms.technology: vs-ide-test
 ms.topic: "article"
 ms.author: gewarren
 manager: ghogen
-ms.workload:
+ms.workload: 
   - "uwp"
 author: gewarren
 ---
@@ -106,7 +102,7 @@ Use this walkthrough for creating UI tests for UWP apps and XAML-based 8.1 apps.
      In Solution Explorer, open the CodedUITest1.vb file and then in the CodedUITestMethod1() test method code, right-click the call to the assertion method that was automatically added `Me.UIMap.AssertMethod1()` and choose **Go To Definition**. This will open the UIMap.Designer.vb file in the code editor so you can view the view the added code for the assert method and the controls.
 
     > [!WARNING]
-    >  Do not modify the UIMap.designer.cs or UIMap.Designer.vb file directly. If you do this, the changes to the file will be overwritten each time the test is generated.
+    > Do not modify the UIMap.designer.cs or UIMap.Designer.vb file directly. If you do this, the changes to the file will be overwritten each time the test is generated.
 
      **Assert method**
 

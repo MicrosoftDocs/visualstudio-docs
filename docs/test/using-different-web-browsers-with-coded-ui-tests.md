@@ -1,11 +1,7 @@
 ---
-title: "Using Different Web Browsers with Coded UI Tests | Microsoft Docs"
-ms.custom: ""
+title: "Using Different Web Browsers with Coded UI Tests in Visual Studio | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: vs-devops-test
-ms.tgt_pltfrm: ""
+ms.technology: vs-ide-test
 ms.topic: "article"
 ms.author: gewarren
 manager: ghogen
@@ -73,7 +69,7 @@ Coded UI tests can automate testing for web applications by recording your tests
 3.  Highlight the extension and choose **Download**.
 
     > [!TIP]
-    >  You can also download the Selenium components for Coded UI Cross Browser Testing from [here](http://visualstudiogallery.msdn.microsoft.com/11cfc881-f8c9-4f96-b303-a2780156628d/).
+    > You can also download the Selenium components for Coded UI Cross Browser Testing from [here](https://marketplace.visualstudio.com/items?itemName=AtinBansal.SeleniumcomponentsforCodedUICrossBrowserTesting).
 
  For more information about creating and using coded UI tests, see [Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md).
 
@@ -93,7 +89,8 @@ Coded UI tests can automate testing for web applications by recording your tests
     2.  For **Common Language Runtime Exceptions**, uncheck **User-unhandled**.
 
 ##  <a name="generate"></a> *I don't see the option to change BrowserWindow.CurrentBrowser in the coded UI test.*
- You might be using a version of [!INCLUDE[vs2011_first](../test/includes/vs2011_first_md.md)] that does not support coded UI tests using various web browsers. To use such coded UI tests, you must use Visual Studio Enterprise.
+
+You might be using a version of Visual Studio that does not support coded UI tests using various web browsers. To use such coded UI tests, you must use Visual Studio Enterprise.
 
  *What else should I know?*
  **Notes**
