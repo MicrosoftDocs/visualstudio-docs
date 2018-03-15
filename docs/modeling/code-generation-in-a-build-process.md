@@ -126,7 +126,7 @@ ms.technology: vs-ide-modeling
   
  To specify that read-only files should be overwritten, insert this property:  
   
- `<OverwriteReadOnlyOuputFiles>true</OverwriteReadOnlyOuputFiles>`  
+ `<OverwriteReadOnlyOutputFiles>true</OverwriteReadOnlyOuputFiles>`  
   
  Unless you customize the postprocessing step, a warning will be logged in the error list when a file is overwritten.  
   

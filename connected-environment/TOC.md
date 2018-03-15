@@ -30,6 +30,7 @@
 
 # How to
 ##[Share a development environment](how-to/share-dev-environment.md)
+##[Use kubectl with Visual Studio Connected Environment](how-to/use-kubectl-with-vsce.md)
 
 # [Troubleshoot](troubleshooting.md)
 

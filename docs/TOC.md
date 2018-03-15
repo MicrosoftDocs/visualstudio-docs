@@ -434,14 +434,6 @@
 ### [Symbol Path Command](ide/reference/symbol-path-command.md)
 ### [Toggle Breakpoint Command](ide/reference/toggle-breakpoint-command.md)
 ### [Watch Command](ide/reference/watch-command.md)
-## [Dotfuscator Community Edition (CE)](ide/dotfuscator/index.md)
-### [Capabilities of Dotfuscator](ide/dotfuscator/capabilities.md)
-### [Install Dotfuscator CE](ide/dotfuscator/install.md)
-### [Upgrade Dotfuscator CE](ide/dotfuscator/upgrades.md)
-# Resources
-## [How to Report a Problem with Visual Studio](ide/how-to-report-a-problem-with-visual-studio-2017.md)
-## [Resources for Troubleshooting IDE Errors](ide/reference/resources-for-troubleshooting-integrated-development-environment-errors.md)
-## [Talk to Us](ide/talk-to-us.md)
 ## [Microsoft Help Viewer](ide/microsoft-help-viewer.md)
 ### [Install and Manage Local Content](ide/install-and-manage-local-content.md)
 ### Finding topics in Help Viewer
@@ -452,3 +444,11 @@
 ### [Customize the Help Viewer](ide/customize-the-help-viewer.md)
 ### [Accessibility Features of the Help Viewer](ide/accessibility-features-of-the-help-viewer.md)
 #### [Shortcut Keys (Help Viewer)](ide/shortcut-keys-help-viewer.md)
+## [Dotfuscator Community Edition (CE)](ide/dotfuscator/index.md)
+### [Capabilities of Dotfuscator](ide/dotfuscator/capabilities.md)
+### [Install Dotfuscator CE](ide/dotfuscator/install.md)
+### [Upgrade Dotfuscator CE](ide/dotfuscator/upgrades.md)
+# Resources
+## [How to Report a Problem with Visual Studio](ide/how-to-report-a-problem-with-visual-studio-2017.md)
+## [Resources for Troubleshooting IDE Errors](ide/reference/resources-for-troubleshooting-integrated-development-environment-errors.md)
+## [Talk to Us](ide/talk-to-us.md)
