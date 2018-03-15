@@ -29,17 +29,17 @@ First, you'll create a Universal Windows Application project. The project type c
 
 2. From the top menu bar, choose **File** > **New** > **Project...**.
 
-3. In the **New Project** dialog box in the left pane, expand **Universal Windows Application**, and then choose **<name>**. In the middle pane, choose **<name>**. Then name the project *HelloWorld*.
+3. In the left pane of the **New Project** dialog box, expand **Visual C#**, and then choose **Windows Universal**. In the middle pane, choose **Blank App (Universal Windows)**. Then, name the project *HelloWorld*.
 
-   ![Console App (.NET Core) project template in the New Project dialog box in the Visual Studio IDE](../ide/media/new-project-vb-dotnetcore-helloworld-console-app.png)
+   ![Windows Universal project template in the New Project dialog box in the Visual Studio IDE](../ide/media/new-project-csharp-uwp-helloworld.png)
 
      If you don't see the **<name>** project template, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box.
 
    ![Click the Open Visual Studio Installer link from the New Project dialog box](../ide/media/vb-open-visual-studio-installer-hello-world.png)
 
-     The Visual Studio Installer launches. Choose the **Universal Windows Application** workload, and then choose **Modify**.
+     The Visual Studio Installer launches. Choose the **Universal Windows Platform development** workload, and then choose **Modify**.
 
-     ![.NET Core cross-platform development workload in the Visual Studio Installer](../ide/media/dot-net-core-xplat-dev-workload.png)
+     ![Universal Windows Platform development workload in the Visual Studio Installer](../ide/media/uwp-dev-workload.png)
 
 ## Create the application
 After you select your Universal Windows Application project template and name your project, Visual Studio creates a simple "Hello World" application for you. It calls the <xref:System.Console.WriteLine%2A> method to display the literal string "Hello World!" in the console window.
