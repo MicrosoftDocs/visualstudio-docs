@@ -57,7 +57,7 @@ For more information about creating and using coded UI tests, see [Creating Code
 
 ### Enable debugging
 
- To enable debugging your web application, you must complete the following configuration options:
+To enable debugging your web application, you must complete the following configuration options:
 
 1.  Enable Just My Code:
 
@@ -71,7 +71,7 @@ For more information about creating and using coded UI tests, see [Creating Code
 
     2.  For **Common Language Runtime Exceptions**, uncheck **User-unhandled**.
 
-If don't see the option to change BrowserWindow.CurrentBrowser in the coded UI test, you might be using a version of Visual Studio that does not support coded UI tests using various web browsers. To use such coded UI tests, you must use Visual Studio Enterprise edition.
+If don't see the option to change `BrowserWindow.CurrentBrowser` in the coded UI test, you might be using a version of Visual Studio that does not support coded UI tests using various web browsers. To use such coded UI tests, you must use Visual Studio Enterprise edition.
 
 Here are some other things you should know:
 
@@ -79,7 +79,7 @@ Here are some other things you should know:
 
 - The action of starting the web browser must be part of the coded UI test.
 
-  If you have a web browser already open and you want to run steps on it, the playback will fail unless you are using Internet Explorer. Therefore, it is a best practice to include the startup of your web browser as part of your coded UI tests.
+   If you have a web browser already open and you want to run steps on it, the playback will fail unless you are using Internet Explorer. Therefore, it is a best practice to include the startup of your web browser as part of your coded UI tests.
 
 - Automating browser specific based UI actions such as maximize, minimize and restore is not supported.
 

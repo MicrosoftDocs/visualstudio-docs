@@ -41,7 +41,7 @@ The following limitations apply when you re-target your test projects to use ear
 
 - You cannot target unit tests to earlier client versions of the framework.
 
-### Re-targeting to a specific version of the .NET Framework for Visual Basic Unit Test Projects
+## Re-targeting to a specific version of the .NET Framework for Visual Basic Unit Test Projects
 
 1.  Create a new Visual Basic unit test project. On the **File** menu, choose **New** and then choose **Project**.
 
@@ -63,7 +63,7 @@ The following limitations apply when you re-target your test projects to use ear
 
      ![Target framework drop&#45;down list](../test/media/howtoconfigureunitest35frameworkstepb.png "HowToConfigureUniTest35FrameworkStepB")
 
-### Re-targeting to a specific version of the .NET Framework for Visual C# Unit Test Projects
+## Re-targeting to a specific version of the .NET Framework for Visual C# Unit Test Projects
 
 1.  Create a new Visual C# unit-test project. On the **File** menu, choose **New** and then choose **Project**.
 
@@ -81,7 +81,7 @@ The following limitations apply when you re-target your test projects to use ear
 
      ![Target framework drop&#45;down list](../test/media/howtoconfigureunittest35frameworkcsharp.png "HowToConfigureUnitTest35FrameworkCSharp")
 
-### Re-targeting to a specific version of the .NET Framework for C++/CLI Unit Test Projects
+## Re-targeting to a specific version of the .NET Framework for C++/CLI Unit Test Projects
 
 1.  Create a new C++ unit-test project. On the **File** menu, select **New** and then click **Project**.
 
