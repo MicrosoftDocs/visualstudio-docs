@@ -1,7 +1,7 @@
 ---
 title: "Quickstart: Create your first Universal Windows Application in Visual Studio with XAML and C# | Microsoft Docs"
 ms.custom: ""
-ms.date: "03/19/2017"
+ms.date: "03/19/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -19,13 +19,13 @@ ms.workload:
 ---
 # Quickstart: Create your first Universal Windows Application in Visual Studio with XAML and C&#35;
 
-In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you'll create a simple "Hello World" app that runs on any Windows 10 device. You'll use a UWP project template and both Extensible Application Markup Language (XAML) and the C# programming language to do so.
+In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you'll create a "Hello World" app that runs on any Windows 10 device. To do so, you use a UWP project template, Extensible Application Markup Language (XAML), and the C# programming language.
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) page to install it for free.
 
 ## Create a project
 
-First, create a Universal Windows Application project. The project type comes with all the template files you'll need, before you've even added anything!
+First, create a Universal Windows Application project. The project type comes with all the template files you need, before you've even added anything!
 
 1. Open Visual Studio 2017.
 
@@ -48,7 +48,7 @@ First, create a Universal Windows Application project. The project type comes wi
 
 ## Create the application
 
-It's time to start developing. We'll add a button control, add an action to the button, and then start our "Hello World" app to see what it looks like.
+It's time to start developing. You'll add a button control, an action to the button, and then start the "Hello World" app to see what it looks like.
 
 ### Add a button to the Design canvas
 
@@ -139,9 +139,9 @@ It's time to build, deploy, and launch the "Hello World" UWP app to see what it 
 
 4. To close the app, click the **Stop Debugging** button in the toolbar. (Alternatively, click **Debug** > **Stop debugging**, or press **Shift**+**F5**.)
 
-## Next Steps
+## Next steps
 
-Congratulations on completing this Quickstart! We hope you learned a little bit about UWP and the Visual Studio IDE. To learn more, continue with the following tutorial.
+Congratulations on completing this Quickstart! We hope you learned some basics about UWP and the Visual Studio IDE. To learn more, continue with the following tutorial:
 
 > [!div class="nextstepaction"]
 > [Plan and build a complex UWP app](/windows/uwp/get-started/plan-your-app)
