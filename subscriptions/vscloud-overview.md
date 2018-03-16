@@ -26,14 +26,14 @@ You can [sign up](https://portal.azure.com) before your first purchase or during
 ## How to buy cloud subscriptions
 
 0.	Sign in to the [Visual Studio Marketplace > Subscriptions](https://marketplace.visualstudio.com/subscriptions).
-
+	
 0.	Choose the subscription that you want to buy, for example:
 
 	<img alt="Buy a Visual Studio subscription" src="_img/buy-vs-subscriptions/buy-vs-sub-start.png" style="border: 1px solid #CCCCCC" />
 
 0.	Select the Azure subscription to use for billing. You can create a new Azure subscription if you don't have one.
 
-	<img alt="Select Azure subscription for biling" src="_img/buy-vs-subscriptions/buy-vs-sub-azure-sub.png" style="border: 1px solid #CCCCCC" />
+	<img alt="Select Azure subscription for biling" src="_img/buy-vs-subscriptions/buy-vs-sub-Azure-sub.png" style="border: 1px solid #CCCCCC" />
 
 0.	Select the number of subscriptions to buy.
 
