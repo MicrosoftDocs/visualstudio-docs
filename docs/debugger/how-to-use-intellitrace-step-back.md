@@ -1,5 +1,6 @@
 ---
 title: "View a snapshot using IntelliTrace step-back - Visual Studio  | Microsoft Docs"
+ms.description: "Learn how to take snapshots, and view snapshots with IntelliTrace step-back"
 ms.custom: "mvc"
 ms.date: "12/06/2017"
 ms.reviewer: ""

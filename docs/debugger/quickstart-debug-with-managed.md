@@ -179,9 +179,7 @@ For more information on using edit-and-continue and on feature limitations, see 
 
 ## Next steps
 
-- To learn more about the debugger, see [Start the debugger and navigate code](../debugger/getting-started-with-the-debugger.md).
-- To find out more about breakpoints, see [Using breakpoints](../debugger/using-breakpoints.md).
+In this tutorial, you've learned how to start the debugger, step through code, and inspect variables. You may want to get a high-level look at debugger features along with links to more information.
 
-## See Also  
- [Debugging in Visual Studio](../debugger/index.md)  
- [Debugger Feature Tour](../debugger/debugger-feature-tour.md)
+> [!div class="nextstepaction"]
+> [Debugger feature tour](../debugger/debugger-feature-tour.md)

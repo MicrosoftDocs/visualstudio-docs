@@ -1,5 +1,7 @@
 ---
 title: "Debug live ASP.NET Azure apps - Visual Studio | Microsoft Docs"
+ms.description: "Learn how to set snappoints and view snapshots with the Snapshot Debugger"
+ms.custom: "mvc"
 ms.date: "12/06/2017"
 ms.reviewer: ""
 ms.suite: ""
@@ -30,6 +32,13 @@ Snapshot collection is available for the following web apps running in Azure App
 - ASP.NET Core applications running on .NET Core 2.0 or later on Windows.
 
 Additionally, the Snapshot Debugger is only available for Visual Studio 2017 Enterprise version 15.5 or higher and Basic or higher App Service plans. 
+
+In this tutorial, you will:
+
+> [!div class="checklist"]
+> * Start the Snapshot Debugger
+> * Set a snappoint and view a snapshot
+> * Set a logpoint
 
 ## Start the Snapshot Debugger
 
@@ -130,7 +139,7 @@ In addition to taking a snapshot when a snappoint is hit, you can also configure
 
 ## Next steps
 
-- To learn how to inspect variables while viewing a snapshot, see [Debugger Feature Tour](../debugger/debugger-feature-tour.md).
-- View the [FAQ for snapshot debugging](../debugger/debug-live-azure-apps-faq.md).
-- View [troubleshooting tips and known issues for snapshot debugging](../debugger/debug-live-azure-apps-troubleshooting.md).
-- If you want to view snapshots in Application Insights when your app hits an exception, you can do that. For more information, see [Debug snapshots on exceptions in .NET apps](/azure/application-insights/app-insights-snapshot-debugger). Application Insights supports Service Fabric apps in addition to Azure App Service.
+In this tutorial, you've learned how to use the Snapshot Debugger. You may want to read more details about this feature.
+
+> [!div class="nextstepaction"]
+> [FAQ for snapshot debugging](../debugger/debug-live-azure-apps-faq.md)

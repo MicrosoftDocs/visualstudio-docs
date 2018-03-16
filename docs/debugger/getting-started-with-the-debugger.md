@@ -1,6 +1,7 @@
 ---
-title: "Learn to debug using Visual Studio | Microsoft Docs"
-ms.custom: "H1HackMay2017"
+title: "Learn to debug - Visual Studio | Microsoft Docs"
+ms.description: "Learn how to start the Visual Studio debugger, step through code, and inspect data"
+ms.custom: "mvc"
 ms.date: "10/11/2017"
 ms.reviewer: ""
 ms.suite: ""
@@ -29,6 +30,15 @@ You can either read along to see the features of the debugger or you can downloa
 |  ![movie camera icon for video](../install/media/video-icon.png "Watch a video")  |    [Watch a video](https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Debugger-Feature-tour-of-Visual-studio-2017-sqwiwLD6D_1111787171) on debugging that shows similar steps. |
 
 Although the demo app is C#, the features are applicable to C++, Visual Basic, JavaScript, and other languages supported by Visual Studio (except where noted).
+
+In this tutorial, you will:
+
+> [!div class="checklist"]
+> * Start the debugger and hit breakpoints.
+> * Learn commands to step through code in the debugger
+> * Inspect variables in data tips and debugger windows
+> * Examine the call stack
+> * Use the Exception Helper
 
 ## Start the debugger!
 
@@ -278,7 +288,9 @@ Let's say that you are done examining the `Update` method in Data.cs, and you wa
 
 To learn more about the features of the debugger, see [Debugger Tips and Tricks](../debugger/debugger-tips-and-tricks.md).
 
-## See also
+## Next steps
 
-[Debugging in Visual Studio](../debugger/index.md)  
-[Debugger Feature Tour](../debugger/debugger-feature-tour.md)
+In this tutorial, you've learned how to start the debugger, step through code, and inspect variables. You may want to get a high-level look at debugger features along with links to more information.
+
+> [!div class="nextstepaction"]
+> [Debugger feature tour](../debugger/debugger-feature-tour.md)
