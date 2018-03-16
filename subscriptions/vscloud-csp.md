@@ -9,6 +9,7 @@ Description:  Information for Cloud Solution Providers on how to buy and manage 
 Ms.prod: vs-subscription
 Ms.technology: vs-subscriptions
 Searchscope: VS Subscription
+---
 
 # Buy and manage Visual Studio cloud subscriptions for your customers
 
@@ -48,7 +49,7 @@ also access the Subscription Administration portal from the Partner Center by ch
 
 <iframe src="//channel9.msdn.com/Shows/Visual-Studio-for-CSP-Partners/CSP-How-to-manage-Visual-Studio-Subscriptions/player" width="600" height="315" allowFullScreen="true" frameBorder="0"></iframe>
 
-0. Log into the [Microsoft Partner Center](https://partnercenter.microsoft.com).
+0. Log in to the [Microsoft Partner Center](https://partnercenter.microsoft.com).
 0. Choose **Customers** and the customer's name.
 0. Choose **Service Management**.
 0. choose **Manage Visual Studio Subscriptions**.
@@ -76,9 +77,15 @@ filter the **Meter Category** column to **Visual Studio**.
 Here's how to interpret what you see on this spreadsheet:
 | Meter category    |	Name                 |	Units	                             |           What this is                          |
 |-------------------|------------------------|---------------------------------------|-------------------------------------------------|
-| Visual Studio	    | Enterprise             |	Subscription	                     | Visual Studio Enterprise monthly subscription   || Visual Studio	    | Enterprise (Annual)    |	Annual Subscriptions                 | Visual Studio Enterprise annual subscription    |
-| Visual Studio	    | Professional           |	Subscription	                     | Visual Studio Professional monthly subscription || Visual Studio	    | Professional (Annual)  |	Annual Subscriptions                 | Visual Studio Professional annual subscription  |
-We offer a 5% discount on the 6th unit you buy (for a given customer) each month of each Visual Studio subscription. That’s why you see two rows for each subscription option. One row shows a "Minimum Value" of 0, which you should interpret as the base price for units 1 through 5. The other row shows a "Minimum Value" of 5, so this is the 5% discount price that applies to units 6 and above.
+| Visual Studio	    | Enterprise             |	Subscription	                     | Visual Studio Enterprise monthly subscription   |
+| Visual Studio	    | Enterprise (Annual)    |	Annual Subscriptions                 | Visual Studio Enterprise annual subscription    |
+| Visual Studio	    | Professional           |	Subscription	                     | Visual Studio Professional monthly subscription |
+| Visual Studio	    | Professional (Annual)  |	Annual Subscriptions                 | Visual Studio Professional annual subscription  |
+
+We offer a 5% discount on the 6th unit you buy (for a given customer) each month of each Visual Studio subscription. That’s why you see two rows for each 
+subscription option. One row shows a "Minimum Value" of 0, which you should interpret as the base price for units 1 through 5. The other row shows a "Minimum Value" of 5, 
+so this is the 5% discount price that applies to units 6 and above.
+
 
 ## FAQ
 ### Q: How are **monthly** cloud subscription charges processed?
