@@ -385,12 +385,12 @@ To get and set UI control specific property values, you can directly get or set 
 
 #### To get or set properties from UI test controls directly
 
--   With controls that derive from T:Microsoft.VisualStudio.TestTools.UITesting.UITestControl, such as T:Microsoft.VisualStudio.TestTools.UITesting.HtmlControls.HtmlList or T:Microsoft.VisualStudio.TestTools.UITesting.WinControls.WinComboBox, you can get or set their property values directly, as follows:
+With controls that derive from T:Microsoft.VisualStudio.TestTools.UITesting.UITestControl, such as T:Microsoft.VisualStudio.TestTools.UITesting.HtmlControls.HtmlList or T:Microsoft.VisualStudio.TestTools.UITesting.WinControls.WinComboBox, you can get or set their property values directly, as follows:
 
-    ```csharp
-    int i = myHtmlList.ItemCount;
-    myWinCheckBox.Checked = true;
-    ```
+ ```csharp
+ int i = myHtmlList.ItemCount;
+ myWinCheckBox.Checked = true;
+ ```
 
 #### To get properties from UI test controls
 
@@ -414,7 +414,7 @@ To get and set UI control specific property values, you can directly get or set 
 
      `SetProperty(myWinCheckBox.PropertyNames.Checked, true);`
 
-### Debugg
+### Debug
 
 You can analyze Coded UI tests using coded UI test logs. Coded UI test logs filter and record important information about your coded UI test runs. The format of the logs lets you debug issues quickly. For more information, see [Analyzing Coded UI Tests Using Coded UI Test Logs](../test/analyzing-coded-ui-tests-using-coded-ui-test-logs.md).
 

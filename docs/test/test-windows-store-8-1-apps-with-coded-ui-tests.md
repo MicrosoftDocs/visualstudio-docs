@@ -238,7 +238,7 @@ Use this walkthrough for creating UI tests for UWP apps and XAML-based 8.1 apps.
         Me.UIMap.AssertMethod1()
         ```
 
-     After adding the code, the CodedUITestMethod1 test method should appear as follows:
+    After adding the code, the CodedUITestMethod1 test method should appear as follows:
 
     ```csharp
     [TestMethod]
@@ -303,7 +303,7 @@ Use this walkthrough for creating UI tests for UWP apps and XAML-based 8.1 apps.
 **A**: No, the Coded UI Test Project templates are only available on Windows 8.1 and Windows 10. To create automation for Universal Windows Platform (UWP) apps, you'll need Windows 10.
 
 <a name="uwpapps"></a>
-#### Q: How do I create coded UI tests for Universal Windows Platform (UWP) apps?**
+### Q: How do I create coded UI tests for Universal Windows Platform (UWP) apps?**
 
 **A**: Depending on the platform where you're testing your UWP app, create coded UI test project in one of these ways:
 

@@ -29,10 +29,6 @@ To customize the code coverage behavior, copy the [sample at the end of this top
 
 Advanced code coverage settings are specified in a *.runsettings* file. The run settings file is the configuration file used by unit testing tools. We recommend you copy the [sample at the end of this topic](#sample) and edit it to suit your own needs.
 
-- *What happened to the .testsettings file I used in Visual Studio 2010?*
-
-     In Visual Studio 2010, the *.testsettings* file applies only to unit tests based on the MSTest framework. In Visual Studio 2012, the testing tools apply not only to MSTest, but also other frameworks such as NUnit and xUnit.net. The *.testsettings* file does not work with other frameworks. The *.runsettings* file is designed to customize the test tools in a way that works with all testing frameworks.
-
 To customize code coverage, add a run settings file to your solution:
 
 1. Add an .xml file as a solution item with the extension *.runsettings*:

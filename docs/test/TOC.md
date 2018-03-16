@@ -18,9 +18,8 @@
 ### [Warnings and errors](intellitest-manual/warnings-and-errors.md)
 ## [Install third-party unit test frameworks](install-third-party-unit-test-frameworks.md)
 ## [Run unit tests with Test Explorer](run-unit-tests-with-test-explorer.md)
-### [Run a unit test as a 64-bit process](run-a-unit-test-as-a-64-bit-process.md)
-### [Walkthrough: Creating and Running Unit Tests for UWP apps](walkthrough-creating-and-running-unit-tests-for-windows-store-apps.md)
 ### [Test Explorer FAQ](test-explorer-faq.md)
+## [Run a unit test as a 64-bit process](run-a-unit-test-as-a-64-bit-process.md)
 ## [Configure unit tests by using a .runsettings file](configure-unit-tests-by-using-a-dot-runsettings-file.md)
 ## Write Unit Tests for Managed Code
 ### [Walkthrough: Creating and Running Unit Tests for Managed Code](walkthrough-creating-and-running-unit-tests-for-managed-code.md)
@@ -47,6 +46,7 @@
 ## Create and run unit tests for UWP apps
 ### [Unit testing a C++ UWP DLL](unit-testing-a-visual-cpp-dll-for-store-apps.md)
 ### [Unit testing Visual C# code in UWP apps](unit-testing-visual-csharp-code-in-a-store-app.md)
+### [Walkthrough: Creating and Running Unit Tests for UWP apps](walkthrough-creating-and-running-unit-tests-for-windows-store-apps.md)
 ## [Use Code Coverage to Determine How Much Code is being Tested](using-code-coverage-to-determine-how-much-code-is-being-tested.md)
 ### [Customize Code Coverage Analysis](customizing-code-coverage-analysis.md)
 ### [Troubleshoot Code Coverage](troubleshooting-code-coverage.md)
