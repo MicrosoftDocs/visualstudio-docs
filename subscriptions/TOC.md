@@ -67,6 +67,9 @@
 #### [Overview](vscloud-overview.md)
 #### [Billing FAQ](vscloud-billing-faq.md)
 #### [Buying for CSPs](vscloud-csp.md)
+### Subscriptions offered through programs
+#### [Microsoft Partner Network](program-mpn.md)
+#### [Microsoft for Startups](program-startups.md)
 ## Resources
 ### [Visual Studio License Terms](vs-license-terms.md)
 ### [Visual Studio Licensing Whitepaper](http://aka.ms/vslicensing)
