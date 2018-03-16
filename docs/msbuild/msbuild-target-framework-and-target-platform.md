@@ -62,6 +62,8 @@ A project can be built to run on a *target framework*, which is a particular ver
  A *platform* is combination of hardware and software that defines a particular runtime environment. For example,  
   
 -   `x86` designates a 32-bit Windows operating system that is running on an Intel 80x86 processor or its equivalent.  
+
+-   `x64` designates a 64-bit Windows operating system that is running on an Intel x64 processor or it equivalent.
   
 -   `Xbox` designates the Microsoft Xbox 360 platform.  
   
