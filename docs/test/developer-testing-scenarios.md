@@ -1,17 +1,13 @@
 ---
-title: "Developer testing tools, scenarios, and capabilities | Microsoft Docs"
-ms.custom: ""
+title: "Developer testing tools in Visual Studio | Microsoft Docs"
 ms.date: "05/02/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: vs-devops-test
-ms.tgt_pltfrm: ""
+ms.technology: vs-ide-test
 ms.topic: "article"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "unit testing, create unit tests"
 ms.author: gewarren
 manager: ghogen
-ms.workload:
+ms.workload: 
   - "multiple"
 author: gewarren
 ---

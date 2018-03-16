@@ -1,19 +1,15 @@
 ---
-title: "Using shims to isolate your application from other assemblies for unit testing | Microsoft Docs"
-ms.custom: ""
+title: "Using shims to isolate your application for unit testing in Visual Studio | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: vs-devops-test
-ms.tgt_pltfrm: ""
+ms.technology: vs-ide-test
 ms.topic: "article"
 ms.author: gewarren
 manager: ghogen
-ms.workload:
+ms.workload: 
   - "multiple"
 author: gewarren
 ---
-# Using shims to isolate your application from other assemblies for unit testing
+# Use shims to isolate your application from other assemblies for unit testing
 
 **Shim types** are one of two technologies that the Microsoft Fakes Framework uses to let you easily isolate components under test from the environment. Shims divert calls to specific methods to code that you write as part of your test. Many methods return different results dependent on external conditions, but a shim is under the control of your test and can return consistent results at every call. This makes your tests much easier to write.
 

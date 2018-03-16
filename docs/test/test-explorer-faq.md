@@ -1,12 +1,9 @@
 ---
-title: "Test Explorer FAQ | Microsoft Docs"
+title: "Visual Studio Test Explorer FAQ | Microsoft Docs"
 ms.date: "1/15/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: vs-devops-test
-ms.tgt_pltfrm: ""
+ms.technology: vs-ide-test
 ms.topic: "article"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Test Explorer"
   - "Test window"
   - "Visual Studio Test Explorer"
@@ -14,9 +11,9 @@ helpviewer_keywords:
   - "unit tests"
   - "Test Explorer FAQ"
 ms.author: "kehavens"
-ms.workload: 
+ms.workload:
   - "multiple"
-author: "kendrahavens"
+author: kendrahavens
 manager: ghogen
 ---
 # Visual Studio Test Explorer FAQ
@@ -85,10 +82,10 @@ vsregedit set “C:\Program Files (x86)\Microsoft Visual Studio\Preview\Enterpri
 
 > [!NOTE]
 > You can turn off the flag with the same command, by using a value of 0 instead of 1 after dword.
-  
+
 ## See also
 
-<xref:Microsoft.VisualStudio.TestTools.UnitTesting?displayProperty=fullName>  
-[Creating and Running Unit Tests for Existing Code](http://msdn.microsoft.com/e8370b93-085b-41c9-8dec-655bd886f173)
-[Unit Test Your Code](unit-test-your-code.md)
-[Live Unit Testing FAQ](live-unit-testing-faq.md)
+- <xref:Microsoft.VisualStudio.TestTools.UnitTesting?displayProperty=fullName>
+- [Creating and Running Unit Tests for Existing Code](http://msdn.microsoft.com/e8370b93-085b-41c9-8dec-655bd886f173)
+- [Unit Test Your Code](unit-test-your-code.md)
+- [Live Unit Testing FAQ](live-unit-testing-faq.md)

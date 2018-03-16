@@ -1,17 +1,15 @@
 ---
 title: "Learn how to test your code with Live Unit Test in Visual Studio 2017 | Microsoft Docs | Microsoft Docs"
 ms.date: "08/31/2017"
-ms.suite: ""
-ms.technology: vs-devops-test
-ms.tgt_pltfrm: ""
+ms.technology: vs-ide-test
 ms.topic: "article"
 ms.topic: "get-started-article"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "Visual Studio ALM"
   - "Live Unit Testing"
-author: "rpetrusha"
+author: rpetrusha
 ms.author: "ronpet"
-ms.workload:
+ms.workload: 
   - "dotnet"
 ---
 # Get started with Live Unit Testing in Visual Studio

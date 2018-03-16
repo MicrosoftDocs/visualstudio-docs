@@ -1,15 +1,15 @@
 ---
 title: "Unit Testing in Visual Studio | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.technology: vs-devops-test
+ms.technology: vs-ide-test
 ms.topic: "article"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "Visual Studio, unit tests"
   - "unit tests, verifying code with"
   - "testing code, automated tests"
 ms.author: gewarren
 manager: ghogen
-ms.workload:
+ms.workload: 
   - "multiple"
 author: gewarren
 ---
@@ -55,4 +55,3 @@ Use the following topics to help with understanding and creating unit tests:
 ## See also
 
 - [Improve Code Quality](/visualstudio/test/improve-code-quality)
-- [Visual Studio unit testing forum](https://social.msdn.microsoft.com/Forums/vstudio/en-US/home?forum=vsunittest)
