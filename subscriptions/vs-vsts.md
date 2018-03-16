@@ -1,36 +1,47 @@
 ---
-title: Visual Studio Team Services Benefit
+title: VSTS benefits for Visual Studio subscribers | Microsoft Docs
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp
-Ms.date: 10/3/2017
+Ms.date: 3/15/2018
 Ms.topic: Get-Started-Article
-Description:  Learn how to activate the Visual Studio Team Services (VSTS) benefit included in your Visual Studio subscription. 
+Description:  Understand how you can use Visual Studio Team Services (VSTS) as a Visual Studio subscriber. 
 Ms.prod: vs-subscription
 Ms.technology: vs-subscriptions
 Searchscope: VS Subscription
 ---
 
-# Activating the Visual Studio Team Services (VSTS) Benefit in Visual Studio Subscriptions
+# Visual Studio Team Services (VSTS) benefits for Visual Studio subscribers
 
-Most Visual Studio subscriptions include access to Visual Studio Team Services (VSTS).  It’s the ultimate compliment to your IDE, providing free Git repros, Agile planning tools and hosted builds for any language.  
+As an active Visual Studio subscriber, you can use a range of features in VSTS that are included with your subscription as a benefit. You'll be able to use these same features in each VSTS 
+account in which you are a member--whether you created the account or were added by someone else. 
 
-To use VSTS, you’ll need an account. You can sign in with an existing account, or create a new one.  To create a new account:
-1.	Click on the “Get Started” link at the bottom of the benefit tile.   
+When you sign in to VSTS using either the identity that you used for activating your Visual Studio subscription or your [alternate identity](vs-alternate-identity.md), 
+we recognize this automatically. 
 
-    ![VSTS Benefit Tile](_img\vs-vsts\vs-vsts-tile.png)
+[Sign up for a free VSTS account](https://www.visualstudio.com/team-services/)
 
-2.	Enter a name for your VSTS project site.  
-3.  Choose whether you want to use **Git** or **Team Foundation Version Control (TFVC)** to manage your project.  This is a permanent choice for each team project you create, but you can use both TFVC and Git team projects in the same team project collection.  Not sure which to use? 
-- Git:  Git is a decentralized version control system. Each developer has a copy of the entire source repository on their dev machine. Developers can commit each set of changes on their dev machine and perform version control operations such as history and compare without a network connection.  [Learn more about Git](https://www.visualstudio.com/en-us/docs/git/gitquickstart)
-- TFVC: Team Foundation Version Control (TFVC) is a centralized version control system. Typically, Team members have only one version of each file on their dev machines. Historical data is maintained only on the server. Branches are path-based and created on the server. [Learn more](https://www.visualstudio.com/en-us/docs/tfvc/overview) about Team Foundation Version Control.
- 
-4.  Click **Change details** to customize options for Project name, how you organize your work (Agile, Scrum, CMMI), where to host your projects, and how to share your work with others.  Click “Continue”.
+## Eligibility
+| Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
+|--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
+| Visual Studio Enterprise (Standard, annual cloud, monthly cloud)   | VL, Azure, Retail, MPN, BizSpark, NFR<sup>1</sup>, FTE  | Basic, Test Manager, Package Management, Self-hosted CI/CD       |  Yes          |
+| Visual Studio Professional (Standard, annual cloud, monthly cloud) | VL, Azure, Retail                                       | Basic                                                            |  Yes          |
+| Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Basic, Test Manager                                              |  Yes          |
+| MSDN Platforms (Standard)                                          | VL, Retail                                              | Basic, Test Manager                                              |  Yes          |
 
-    ![VSTS Benefit Project Details](_img\vs-vsts\vs-vsts-project-details.png)
+<sup>1</sup>  *Includes:  Not for Resale (NFR), Microsoft Valued Partner (MVP), Region Director (RD), Visual Studio Industry Partner (VSIP)*  
 
-5.	It will take a moment to create your account, and then you’ll see the VSTS page for your first project, using the name you specified.  You’re now ready to begin using Visual Studio Team Services!
+Learn more about VSTS features: 
+- [Basic](https://www.visualstudio.com/team-services/compare-features/)
+- [Test Manager](https://marketplace.visualstudio.com/items?itemName=ms.vss-testmanager-web)
+- [Package Management](https://marketplace.visualstudio.com/items?itemName=ms.feed)
 
-You will also receive an email confirming you have successfully created your account.  It also lists your account URL and sign-in and preferred email addresses.  
+Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to you. 
+If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions. 
 
-![VSTS Benefit Welcome Email](_img\vs-vsts\vs-vsts-welcome.png)
+## Support Resources
+-  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://www.visualstudio.com/subscriptions/support/).
+-  Have a question about Visual Studio IDE, Visual Studio Team Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://www.visualstudio.com/support/). 
+-  For complete Visual Studio Team Services documentation, please visit /vsts/ .
+
+
