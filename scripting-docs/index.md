@@ -8,7 +8,7 @@ This page provides links to JavaScript, TypeScript, ECMAScript-based reference d
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="https://docs.microsoft.com/en-us/visualstudio/ide/quickstart-nodejs">
+        <a href="https://docs.microsoft.com/visualstudio/nodejs/tutorial-nodejs">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -26,7 +26,7 @@ This page provides links to JavaScript, TypeScript, ECMAScript-based reference d
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/windows/uwp/get-started/create-a-hello-world-app-js-uwp">
+        <a href="https://docs.microsoft.com/windows/uwp/get-started/create-a-hello-world-app-js-uwp">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -207,7 +207,7 @@ This page provides links to JavaScript, TypeScript, ECMAScript-based reference d
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/scripting/chakra-hosting/javascript-runtime-hosting">
+        <a href="https://docs.microsoft.com/scripting/chakra-hosting/javascript-runtime-hosting">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
