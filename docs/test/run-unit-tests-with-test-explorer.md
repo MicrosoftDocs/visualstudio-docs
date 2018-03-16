@@ -255,15 +255,16 @@ FullName:"MyClass" - FullName:"PerfTest"
  For more information, see [Using Code Coverage to Determine How Much Code is being Tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md).
 
 
-##  <a name="#BKMK_Testing_shortcuts"></a> Testing Shortcuts
-Tests can be run from the Test Explorer, by right-clicking in the code editor on a test and selecting **Run test**, or by using the default [Test Explorer shortcuts](https://docs.microsoft.com/en-us/visualstudio/ide/default-keyboard-shortcuts-in-visual-studio#bkmk_testexplorerGLOBAL) in Visual Studio. Some of these shortcuts are context-based. This means that they run or debug tests based on where your cursor is in the code editor. If your cursor is inside a test method then that test method will run. If your cursor is at the class level then all the tests in that class will run. This is the same for the namespace level as well.
+###  <a name="BKMK_Testing_shortcuts"></a> Testing Shortcuts
+ Tests can be run from the Test Explorer, by right-clicking in the code editor on a test and selecting **Run test**, or by using the default [Test Explorer shortcuts](https://docs.microsoft.com/en-us/visualstudio/ide/default-keyboard-shortcuts-in-visual-studio#bkmk_testexplorerGLOBAL) in Visual Studio. Some of these shortcuts are context-based. This means that they run or debug tests based on where your cursor is in the code editor. If your cursor is inside a test method then that test method will run. If your cursor is at the class level then all the tests in that class will run. This is the same for the namespace level as well.
 
 |Frequent Commands| Keyboard Shortcuts|  
 |--------------|------------------------| 
 |TestExplorer.DebugAllTestsInContext|Ctrl+R, Ctrl+T| 
 |TestExplorer.RunAllTestsInContext|Ctrl+R, T|
 
-> [!NOTE] You can not run a test in an abstract class because tests are not instantiated in abstract classes, they are only defined. Create a class that derives from the abstract class in order to run them.
+> [!NOTE]
+> You can not run a test in an abstract class because tests are not instantiated in abstract classes, they are only defined. Create a class that derives from the abstract class in order to run them.
 
 ![Back to top](../debugger/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)
 
