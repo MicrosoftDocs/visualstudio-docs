@@ -35,17 +35,17 @@ Advanced code coverage settings are specified in a *.runsettings* file. The run 
 
 To customize code coverage, add a run settings file to your solution:
 
-1.  Add an .xml file as a solution item with the extension *.runsettings*:
+1. Add an .xml file as a solution item with the extension *.runsettings*:
 
      In Solution Explorer, on the shortcut menu of your solution, choose **Add** > **New Item**, and select **XML File**. Save the file with a name ending such as *CodeCoverage.runsettings*.
 
-2.  Add the content from the example at the end of this article, and then customize it to your needs as described in the sections that follow.
+2. Add the content from the example at the end of this article, and then customize it to your needs as described in the sections that follow.
 
-3.  On the **Test** menu, choose **Test Settings** > **Select Test Settings File** and select the file.
+3. On the **Test** menu, choose **Test Settings** > **Select Test Settings File** and select the file.
 
-4.  Now when you run **Analyze Code Coverage**, the run settings file will control its behavior. Don't forget that you must run code coverage again. The previous coverage results and code coloring aren't automatically hidden when you run tests or update your code.
+4. Now when you run **Analyze Code Coverage**, the run settings file will control its behavior. Don't forget that you must run code coverage again. The previous coverage results and code coloring aren't automatically hidden when you run tests or update your code.
 
-5.  To turn the custom settings off and on, deselect or select the file in the **Test** > **Test Settings** menu.
+5. To turn the custom settings off and on, deselect or select the file in the **Test** > **Test Settings** menu.
 
  ![Test settings menu with custom settings file](../test/media/codecoverage-settingsfile.png)
 
@@ -180,11 +180,11 @@ Choose **Test** > **Test Settings** > **Select Test Settings File** and select t
 
 To run tests from the command line, use *vstest.console.exe*. The settings file is a parameter of this utility.
 
-1.  Launch the Visual Studio Developer Command Prompt:
+1. Launch the Visual Studio Developer Command Prompt:
 
     On the Windows **Start** menu, choose **Visual Studio 2017** > **Developer Command Prompt for VS 2017**.
 
-2.  Run the following command:
+2. Run the following command:
 
     `vstest.console.exe MyTestAssembly.dll /EnableCodeCoverage /Settings:CodeCoverage.runsettings`
 
@@ -194,15 +194,14 @@ You can get code coverage data from a team build.
 
 ![Specifying runsettings in a build definition](../test/media/codecoverage-buildrunsettings.png)
 
-1.  Make sure your run settings file is checked in.
+1. Make sure your run settings file is checked in.
 
-2.  In Team Explorer, open **Builds**, and then add or edit a build definition.
+2. In Team Explorer, open **Builds**, and then add or edit a build definition.
 
-3.  On the **Process** page, expand **Automated Tests** > **Test Source** > **Run Settings**. Select the *.runsettings* file.
+3. On the **Process** page, expand **Automated Tests** > **Test Source** > **Run Settings**. Select the *.runsettings* file.
 
-    - *But **Test Assembly** appears instead of **Test Source**. When I try to set the **Run Settings** field, I can only select .testsettings files.*
-
-         Under **Automated Tests**, select **Test Assembly**, and choose **[...]** at the end of the line. In the **Add/Edit Test Run** dialog box, set **Test Runner** to **Visual Studio Test Runner**.
+   > [!TIP]
+   > If **Test Assembly** appears instead of **Test Source**, and you can only select *.testsettings* files, set the **Test Runner** property as follows. Under **Automated Tests**, select **Test Assembly**, and then choose **[...]** at the end of the line. In the **Add/Edit Test Run** dialog box, set **Test Runner** to **Visual Studio Test Runner**.
 
 The results are visible in the summary section of the build report.
 

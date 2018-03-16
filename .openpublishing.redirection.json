@@ -1808,7 +1808,7 @@
             "redirect_document_id": false
         },
         {
-            "source_path": "docs/test/create-and-run-unit-tests-for-a-store-app-in-visual-studio.md.md",
+            "source_path": "docs/test/create-and-run-unit-tests-for-a-store-app-in-visual-studio.md",
             "redirect_url": "/visualstudio/test/unit-test-your-code",
             "redirect_document_id": false
         },

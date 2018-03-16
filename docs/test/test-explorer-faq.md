@@ -3,7 +3,7 @@ title: "Visual Studio Test Explorer FAQ | Microsoft Docs"
 ms.date: "1/15/2018"
 ms.technology: vs-ide-test
 ms.topic: "article"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Test Explorer"
   - "Test window"
   - "Visual Studio Test Explorer"
@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "unit tests"
   - "Test Explorer FAQ"
 ms.author: "kehavens"
-ms.workload: 
+ms.workload:
   - "multiple"
 author: kendrahavens
 manager: ghogen
@@ -85,7 +85,7 @@ vsregedit set “C:\Program Files (x86)\Microsoft Visual Studio\Preview\Enterpri
 
 ## See also
 
-<xref:Microsoft.VisualStudio.TestTools.UnitTesting?displayProperty=fullName>
-[Creating and Running Unit Tests for Existing Code](http://msdn.microsoft.com/e8370b93-085b-41c9-8dec-655bd886f173)
-[Unit Test Your Code](unit-test-your-code.md)
-[Live Unit Testing FAQ](live-unit-testing-faq.md)
+- <xref:Microsoft.VisualStudio.TestTools.UnitTesting?displayProperty=fullName>
+- [Creating and Running Unit Tests for Existing Code](http://msdn.microsoft.com/e8370b93-085b-41c9-8dec-655bd886f173)
+- [Unit Test Your Code](unit-test-your-code.md)
+- [Live Unit Testing FAQ](live-unit-testing-faq.md)

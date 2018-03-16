@@ -3,19 +3,19 @@ title: "Code Coverage in Visual Studio | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.technology: vs-ide-test
 ms.topic: "article"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "code coverage"
-dev_langs: 
+dev_langs:
   - "CSharp"
   - "VB"
   - "CPP"
 ms.author: gewarren
 manager: ghogen
-ms.workload: 
+ms.workload:
   - "multiple"
 author: gewarren
 ---
-# Usie Code Coverage to Determine How Much Code is being Tested
+# Use Code Coverage to determine how much code is being tested
 
 To determine what proportion of your project's code is actually being tested by coded tests such as unit tests, you can use the code coverage feature of Visual Studio. To guard effectively against bugs, your tests should exercise or 'cover' a large proportion of your code.
 
@@ -23,7 +23,7 @@ To determine what proportion of your project's code is actually being tested by 
 
  Code coverage is an option when you run test methods using Test Explorer. The results table shows the percentage of the code that was run in each assembly, class, and method. In addition, the source editor shows you which code has been tested.
 
- ![Code coverage results with coloring](../test/media/codecoverage1.png "CodeCoverage1")
+ ![Code coverage results with coloring](../test/media/codecoverage1.png)
 
  **Requirements**
 
@@ -33,14 +33,14 @@ To determine what proportion of your project's code is actually being tested by 
 
 1.  On the **Test** menu, choose **Analyze Code Coverage**.
 
-2.  To see which lines have been run, choose ![Show Code Coverage Coloring Icon](../test/media/codecoverage-showcoloringicon.png "CodeCoverage-ShowColoringIcon")**Show Code Coverage Coloring**.
+2.  To see which lines have been run, choose ![Show Code Coverage Coloring Icon](../test/media/codecoverage-showcoloringicon.png)**Show Code Coverage Coloring**.
 
-     To alter the colors, or to use bold face, choose **Tools**, **Options**, **Environment**, **Fonts and Colors**, **Show settings for: Text Editor**. Under **Display Items**, adjust the Coverage items.
+     To alter the colors, or to use bold face, choose **Tools** > **Options** > **Environment** > **Fonts and Colors** > **Show settings for: Text Editor**. Under **Display Items**, adjust the Coverage items.
 
 3.  If the results show low coverage, investigate which parts of the code are not being exercised, and write more tests to cover them. Development teams typically aim for about 80% code coverage. In some situations, lower coverage is acceptable. For example, lower coverage is acceptable where some code is generated from a standard template.
 
 > [!TIP]
->  To get accurate results:
+> To get accurate results:
 >
 >  -   Make sure that compiler optimization is turned off.
 >
@@ -273,8 +273,9 @@ To run tests from the command line, use vstest.console.exe. Code coverage is an 
 
     `vstest.console.exe MyTestAssembly.dll /EnableCodeCoverage`
 
-## Troubleshooting
- If you do not see code coverage results, see  [Troubleshooting Code Coverage](../test/troubleshooting-code-coverage.md).
+## Troubleshoot
+
+If you do not see code coverage results, the [Troubleshooting Code Coverage](../test/troubleshooting-code-coverage.md) topic might help you.
 
 ## See also
 

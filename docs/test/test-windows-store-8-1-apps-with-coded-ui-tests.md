@@ -5,7 +5,10 @@ ms.technology: vs-ide-test
 ms.topic: "article"
 ms.author: gewarren
 manager: ghogen
-ms.workload: 
+dev_langs:
+ - CSharp
+ - VB
+ms.workload:
   - "uwp"
 author: gewarren
 ---
@@ -51,7 +54,7 @@ Use this walkthrough for creating UI tests for UWP apps and XAML-based 8.1 apps.
     End Class
     ```
 
-5.  Press F5 to run your UWP app.
+5.  Choose **F5** to run your UWP app.
 
 ## Create and run a coded UI test for the UWP app
 
@@ -95,16 +98,16 @@ Use this walkthrough for creating UI tests for UWP apps and XAML-based 8.1 apps.
 
 10. **Visual C#**
 
-     In Solution Explorer, open the UIMap.Designer.cs file to view the added code for the assert method and the controls.
+     In Solution Explorer, open the *UIMap.Designer.cs* file to view the added code for the assert method and the controls.
 
      **Visual Basic**
 
-     In Solution Explorer, open the CodedUITest1.vb file and then in the CodedUITestMethod1() test method code, right-click the call to the assertion method that was automatically added `Me.UIMap.AssertMethod1()` and choose **Go To Definition**. This will open the UIMap.Designer.vb file in the code editor so you can view the view the added code for the assert method and the controls.
+     In Solution Explorer, open the *CodedUITest1.vb* file and then in the CodedUITestMethod1() test method code, right-click the call to the assertion method that was automatically added `Me.UIMap.AssertMethod1()` and choose **Go To Definition**. This will open the *UIMap.Designer.vb* file in the code editor so you can view the view the added code for the assert method and the controls.
 
     > [!WARNING]
-    > Do not modify the UIMap.designer.cs or UIMap.Designer.vb file directly. If you do this, the changes to the file will be overwritten each time the test is generated.
+    > Do not modify the *UIMap.designer.cs* or *UIMap.Designer.vb* file directly. If you do this, the changes to the file will be overwritten each time the test is generated.
 
-     **Assert method**
+    **Assert method**
 
     ```csharp
     public void AssertMethod1()
@@ -127,7 +130,7 @@ Use this walkthrough for creating UI tests for UWP apps and XAML-based 8.1 apps.
     End Sub
     ```
 
-     **Controls**
+    **Controls**
 
     ```csharp
     #region Properties
@@ -287,15 +290,15 @@ Use this walkthrough for creating UI tests for UWP apps and XAML-based 8.1 apps.
 
 ## Q & A
 
-#### Q: Why don't I see the option to record my coded UI test in the Generate Code for a Coded UI Test dialog?**
+### Q: Why don't I see the option to record my coded UI test in the Generate Code for a Coded UI Test dialog?
 
 **A**: The option to record is not supported for UWP apps.
 
-#### Q: Can I create a coded UI test for my UWP apps based on WinJS?**
+### Q: Can I create a coded UI test for my UWP apps based on WinJS?
 
 **A**: No, only XAML based apps are supported.
 
-#### Q: Can I create coded UI tests for my UWP apps on a system that is not running Windows 8.1 or Windows 10?**
+### Q: Can I create coded UI tests for my UWP apps on a system that is not running Windows 8.1 or Windows 10?
 
 **A**: No, the Coded UI Test Project templates are only available on Windows 8.1 and Windows 10. To create automation for Universal Windows Platform (UWP) apps, you'll need Windows 10.
 
@@ -310,7 +313,7 @@ Use this walkthrough for creating UI tests for UWP apps and XAML-based 8.1 apps.
 
 After you create the project, authoring a test stays the same as before.
 
-#### Q: Why can't I modify the code in the UIMap.Designer file?**
+### Q: Why can't I modify the code in the UIMap.Designer file?
 
 **A**: Any code changes you make in the UIMapDesigner.cs file will be overwritten every time you generate code using the UIMap - Coded UI Test Builder. If you have to modify a recorded method, you must copy it to UIMap.cs file and rename it. The UIMap.cs file can be used to override methods and properties in the UIMapDesigner.cs file. You must remove the reference to the original method in the Coded UITest.cs file and replace it with the renamed method name.
 

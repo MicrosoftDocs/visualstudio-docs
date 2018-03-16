@@ -5,7 +5,7 @@ ms.technology: vs-ide-test
 ms.topic: "article"
 ms.author: gewarren
 manager: ghogen
-ms.workload: 
+ms.workload:
   - "multiple"
 author: gewarren
 ---
@@ -13,17 +13,13 @@ author: gewarren
 
 The testing framework for coded UI tests and action recordings does not support every possible user interface. It might not support the specific UI that you want to test. For example, you cannot immediately create a coded UI test or an action recording for a [!INCLUDE[ofprexcel](../test/includes/ofprexcel_md.md)] spreadsheet. However, you can create your own extension to the coded UI test framework that will support your specific UI by taking advantage of the extensibility of the coded UI test framework. The following topic gives an example of how to extend the framework to support the creation of coded UI tests and action recordings for [!INCLUDE[ofprexcel](../test/includes/ofprexcel_md.md)]. For more information about the platforms that are supported, see [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md).
 
- **Requirements**
+This section presents a coded UI test extension that can record and play back tests of Excel Worksheets. Each part of the extension is explained in this section and in the code comments for developers who want to create just such an extension.
 
--   Visual Studio Enterprise
-
- This section presents a coded UI test extension that can record and play back tests of Excel Worksheets. Each part of the extension is explained in this section and in the code comments for developers who want to create just such an extension.
-
- ![UI Test Architecture](../test/media/ui_testarch.png "UI_TestArch")
-Architecture Overview
+![UI Test Architecture](../test/media/ui_testarch.png)
 
 ## Download the sample
- The sample consists of four projects in the `CodedUIExtensibilitySample.sln` solution:
+
+The sample consists of four projects in the `CodedUIExtensibilitySample.sln` solution:
 
 -   CodedUIextensibilitySample
 
@@ -33,13 +29,14 @@ Architecture Overview
 
 -   SampleTestProject
 
- Get the sample from this [blog post](http://go.microsoft.com/fwlink/?LinkID=185592).
+Get the sample from this [blog post](https://blogs.msdn.microsoft.com/gautamg/2010/01/05/3-introducing-sample-excel-extension/).
 
 > [!NOTE]
->  The sample is intended for use with Microsoft Excel 2010. The sample may work with other versions of Microsoft Excel, but it is not currently supported.
+> The sample is intended for use with Microsoft Excel 2010. The sample may work with other versions of Microsoft Excel, but it is not currently supported.
 
 ## Details about the sample
- The following sections provide information about the sample and its structure.
+
+The following sections provide information about the sample and its structure.
 
 ### Microsoft Excel Add-in: ExcelCodedUIAddinHelper
  This project includes an add-in that runs in the Excel process. See [Sample Excel Add-In for Coded UI Testing](../test/sample-excel-add-in-for-coded-ui-testing.md) for a brief overview of the add-in project.
