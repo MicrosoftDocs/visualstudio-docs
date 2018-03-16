@@ -73,4 +73,5 @@ stops working. While working online, Visual Studio silently refreshes the user's
 
 - [MPN Program Administrator Guide](https://assets.microsoft.com/en-us/Program-Administrator-Guide-to-Software-and-Online-Services-Benefits_1.pdf) - includes instructions on how to assign 
 Visual Studio subscriptions to MPN employees.
+- [Assign Visual Studio subscriptions to MPN employees](manage-mpn-subscriptions.md)
 - [Use terms](http://www.microsoft.com/useterms/) - Visual Studio subscriptions offered via MPN are subject to the Visual Studio subscriptions not for resale (NFR) EULA.
