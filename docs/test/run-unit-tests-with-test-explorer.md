@@ -31,6 +31,8 @@ Use Test Explorer to run unit tests from Visual Studio or third-party unit test 
 
  [Debug and analyze unit tests](#BKMK_Debug_and_analyze_unit_tests)
 
+ [Testing shortcuts](#BKMK_Testing_shortcuts)
+
  [External resources](#BKMK_External_resources)
 
 ##  <a name="BKMK_Unit_test_frameworks_and_test_projects"></a> Unit test frameworks and test projects
@@ -216,7 +218,6 @@ FullName:"MyClass" - FullName:"PerfTest"
 
 ###  <a name="BKMK_Debug_unit_tests"></a> Debug unit tests
  You can use Test Explorer to start a debugging session for your tests. Stepping through your code with the Visual Studio debugger seamlessly takes you back and forth between the unit tests and the project under test. To start debugging:
-
 1.  In the Visual Studio editor, set a breakpoint in one or more test methods that you want to debug.
 
     > [!NOTE]
@@ -252,7 +253,20 @@ FullName:"MyClass" - FullName:"PerfTest"
 
  For more information, see [Using Code Coverage to Determine How Much Code is being Tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md).
 
- ![Back to top](../debugger/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)
+
+###  <a name="BKMK_Testing_shortcuts"></a> Testing Shortcuts
+
+Tests can be run from the **Test Explorer**, by right-clicking in the code editor on a test and selecting **Run test**, or by using the default [Test Explorer shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_testexplorerGLOBAL) in Visual Studio. Some of the shortcuts are context-based. This means that they run or debug tests based on where your cursor is in the code editor. If your cursor is inside a test method, then that test method runs. If your cursor is at the class level, then all the tests in that class run. This is the same for the namespace level as well.
+
+|Frequent Commands| Keyboard Shortcuts|  
+|--------------|------------------------| 
+|TestExplorer.DebugAllTestsInContext|Ctrl+R, Ctrl+T| 
+|TestExplorer.RunAllTestsInContext|Ctrl+R, T|
+
+> [!NOTE]
+> You can't run a test in an abstract class, because tests are only defined in abstract classes and not instantiated. To run tests in abstract classes, create a class that derives from the abstract class.
+
+![Back to top](../debugger/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)
 
 ##  <a name="BKMK_External_resources"></a> External resources
 
