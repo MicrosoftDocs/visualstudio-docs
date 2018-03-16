@@ -9,6 +9,7 @@ Description:  How to add an alternate identity for your Visual Studio subscripti
 Ms.prod: vs-subscription
 Ms.technology: vs-subscriptions
 Searchscope: VS Subscription
+---
 
 # Identities for Visual Studio subscribers
 
