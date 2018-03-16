@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio testing tools | Microsoft Docs"
 ms.date: 01/31/2018
-ms.technology: vs-devops-test
+ms.technology: vs-ide-test
 ms.topic: "article"
 helpviewer_keywords:
   - "testing tools [Visual Studio]"
