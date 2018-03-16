@@ -3,6 +3,7 @@
 ### [Using the Subscriber Portal](using-the-subscriber-portal.md)
 #### [Activating Retail Subscriptions](activate-store-subscriptions.md)
 #### [Signing In](signing-in.md)
+#### [Alternate identities](vs-alternate-identity.md)
 ##### [Signing In with Aliases](aliasing.md)
 #### [Managing Your Subscriptions](manage-vs-subscriptions.md)
 ### [Downloading Software](subscriber-downloads.md)
@@ -61,15 +62,13 @@
 #### [Expired Subscriptions](handle-expired-license.md)
 #### [Subscribers with Personal Email Sign-ins](personal-email-sign-ins.md)
 ## Acquiring Visual Studio Subscriptions
-### [Comparing Subscriptions](compare-subscriptions.md)
+### [Compare Subscription Options](https://www.visualstudio.com/vs/pricing)
 ### Buying Cloud Subscriptions
 #### [Overview](vscloud-overview.md)
-#### [First Purchase](vscloud-first-purchase.md)
-#### [Renewals](vscloud-renewals.md)
-#### [Buy More](vscloud-buy-more.md)
-#### [Cancel](vscloud-cancel.md)
+#### [Billing FAQ](vscloud-billing-faq.md)
+#### [Buying for CSPs](vscloud-csp.md)
 ## Resources
 ### [Visual Studio License Terms](vs-license-terms.md)
-### [Visual Studio Licenseing Whitepaper](https://www.microsoft.com/downloads/details.aspx?displaylang=en&FamilyID=2b1504e6-0bf1-46da-be0e-85cc792c6b9d)
+### [Visual Studio Licensing Whitepaper](http://aka.ms/vslicensing)
 ### [Compare subscription options and pricing](https://www.visualstudio.com/vs/pricing)
 ### [Compare Visual Studio IDE features](https://www.visualstudio.com/vs/compare)
