@@ -206,7 +206,7 @@ In the .NET Framework versions 4 and 4.5, property functions can be used to eval
  This property function has the following syntax:  
 
 ```  
-$[MSBuild]::DoesTaskHostExist(string theRuntime, string theArchitecture)  
+$([MSBuild]::DoesTaskHostExist(string theRuntime, string theArchitecture))
 ```  
 
 ##  MSBuild EnsureTrailingSlash  
@@ -224,7 +224,7 @@ $([MSBuild]::EnsureTrailingSlash('$(PathProperty)'))
  This property function has the following syntax:  
 
 ```  
-$[MSBuild]::GetDirectoryNameOfFileAbove(string ThePath, string TheFile)  
+$([MSBuild]::GetDirectoryNameOfFileAbove(string ThePath, string TheFile))
 ```  
 
  The following code is an example of this syntax.  
@@ -241,7 +241,7 @@ $[MSBuild]::GetDirectoryNameOfFileAbove(string ThePath, string TheFile)
  This property function has the following syntax:  
 
 ```  
-$([MSBuild]::GetPathOfFileAbove(dir.props)  
+$([MSBuild]::GetPathOfFileAbove(dir.props))  
 ```  
 
 ##  MSBuild GetRegistryValue  
@@ -287,7 +287,7 @@ $([MSBuild]::GetRegistryValue(`HKEY_LOCAL_MACHINE\SOFTWARE\(SampleName)`, `(Samp
  This property function has the following syntax:  
 
 ```  
-$[MSBuild]::MakeRelative($(FileOrFolderPath1), $(FileOrFolderPath2))  
+$([MSBuild]::MakeRelative($(FileOrFolderPath1), $(FileOrFolderPath2)))
 ```  
 
  The following code is an example of this syntax.  
