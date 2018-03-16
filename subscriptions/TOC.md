@@ -3,10 +3,7 @@
 ### [Using the Subscriber Portal](using-the-subscriber-portal.md)
 #### [Activating Retail Subscriptions](activate-store-subscriptions.md)
 #### [Signing In](signing-in.md)
-<<<<<<< HEAD
 #### [Alternate identities](vs-alternate-identity.md)
-=======
->>>>>>> f62ded9c62689ac7ffc21cfe8fff72c6eea3327e
 ##### [Signing In with Aliases](aliasing.md)
 #### [Managing Your Subscriptions](manage-vs-subscriptions.md)
 ### [Downloading Software](subscriber-downloads.md)
