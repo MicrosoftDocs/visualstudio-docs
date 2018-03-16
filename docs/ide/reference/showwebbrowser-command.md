@@ -18,6 +18,8 @@ caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # ShowWebBrowser Command
 Displays the URL you specify in a Web browser window either within the integrated development environment (IDE) or external to the IDE.  

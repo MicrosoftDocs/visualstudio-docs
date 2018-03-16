@@ -15,11 +15,11 @@ helpviewer_keywords:
   - "document protection"
   - "documents [Office development in Visual Studio], document protection"
   - "Word documents, protection"
-ms.assetid: af8390fc-c4c7-48c7-94b8-4fedbaac0757
-caps.latest.revision: 25
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Protect Documents and Parts of Documents
   You can add protection to Microsoft Office Word documents to prevent users from making any edits to the document.  

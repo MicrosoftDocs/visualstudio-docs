@@ -16,6 +16,8 @@ caps.latest.revision: 38
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Adding a Toolbar
 This walkthrough shows how to add a toolbar to the Visual Studio IDE.  

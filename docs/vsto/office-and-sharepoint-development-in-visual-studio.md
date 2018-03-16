@@ -22,11 +22,11 @@ helpviewer_keywords:
   - "programming [Office development in Visual Studio]"
   - "VSTO, see Office development in Visual Studio"
   - "Office, development with Visual Studio"
-ms.assetid: 2ddec047-263a-4901-a54c-a15fc8472329
-caps.latest.revision: 88
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Office and SharePoint Development in Visual Studio
   You can extend Microsoft Office and SharePoint by creating a lightweight app or add-in that users download from the [Office Store](https://store.office.com/) or an organizational catalog, or by creating a .NET Framework-based solution that users install on a computer.  

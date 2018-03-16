@@ -1,9 +1,12 @@
-# [Visual Studio subscriptions](index.md) 
+# [Visual Studio subscriptions](index.md)
 ## Subscriber Experiences
 ### [Using the Subscriber Portal](using-the-subscriber-portal.md)
 #### [Activating Retail Subscriptions](activate-store-subscriptions.md)
 #### [Signing In](signing-in.md)
+<<<<<<< HEAD
 #### [Alternate identities](vs-alternate-identity.md)
+=======
+>>>>>>> f62ded9c62689ac7ffc21cfe8fff72c6eea3327e
 ##### [Signing In with Aliases](aliasing.md)
 #### [Managing Your Subscriptions](manage-vs-subscriptions.md)
 ### [Downloading Software](subscriber-downloads.md)
@@ -15,9 +18,9 @@
 ### [Subscriber Benefits](subscriber-benefits.md)
 ## Using Subscriber Benefits
 ### Tools
-#### [Visual Studio IDE ](vs-ide-benefit.md) 
+#### [Visual Studio IDE ](vs-ide-benefit.md)
 #### [Visual Studio Team Services](vs-vsts.md)
-#### [Azure Credit](vs-azure.md) 
+#### [Azure Credit](vs-azure.md)
 #### [Visual Studio App Center](vs-visual-studio-app-center.md)
 #### [Parasoft ](vs-parasoft.md)
 #### [WhiteSource Bolt](vs-whitesource.md)

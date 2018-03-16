@@ -23,6 +23,8 @@ caps.latest.revision: 18
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "cplusplus"
 ---
 # How Can I Debug a C++ Access Violation?
 ## Problem Description  

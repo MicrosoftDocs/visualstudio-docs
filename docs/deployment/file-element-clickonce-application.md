@@ -27,6 +27,8 @@ caps.latest.revision: 24
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+ms.workload: 
+  - "multiple"
 ---
 # &lt;file&gt; Element (ClickOnce Application)
 Identifies all nonassembly files downloaded and used by the application.  

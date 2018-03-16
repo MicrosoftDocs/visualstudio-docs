@@ -18,11 +18,11 @@ dev_langs:
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, mapped folders"
   - "mapped folders [SharePoint development in Visual Studio]"
-ms.assetid: 115c8b00-7d4c-4fbe-b42c-e82dca944504
-caps.latest.revision: 23
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Add and Remove Mapped Folders
   Some commonly used folders in SharePoint, such as Images and Layouts, are deeply embedded in the file hierarchy. You can map these folders into a SharePoint project to access them more easily. Mapped folders are folders in the SharePoint project that correspond to the physical location of the files in the installation of SharePoint Server.  

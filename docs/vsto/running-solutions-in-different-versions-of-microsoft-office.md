@@ -17,11 +17,11 @@ helpviewer_keywords:
   - "Office development in Visual Studio, multiple Office versions"
   - "Office solutions [Office development in Visual Studio]"
   - "multiple Office versions"
-ms.assetid: 414e7741-c07d-4900-9d10-68b821413b3f
-caps.latest.revision: 61
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Running Solutions in Different Versions of Microsoft Office
     

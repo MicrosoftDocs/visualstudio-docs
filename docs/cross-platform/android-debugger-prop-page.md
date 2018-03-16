@@ -4,19 +4,20 @@ ms.custom: ""
 ms.date: "10/23/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
+ms.technology: vs-ide-mobile
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 789f7a1c-38b4-41d0-809b-14f4d96c8116
 author: "corob"
 ms.author: "mblome"
 manager: ghogen
-f1_keywords:
+f1_keywords: 
   - VC.Project.AndroidDebugger.DebuggerType
   - VC.Project.AndroidDebugger.AndroidDeviceID
   - VC.Project.AndroidDebugger.PackagePath
   - VC.Project.AndroidDebugger.LaunchActivity
+ms.workload: 
+  - "xplat-cplusplus"
 ---
 
 # Android Debugger Properties

@@ -15,11 +15,11 @@ helpviewer_keywords:
   - "workbooks, opening text files as"
   - "text [Office development in Visual Studio], text files"
   - "text files, opening as workbooks"
-ms.assetid: 056ae3d0-7fe7-4c28-a2a5-5a948baee0e6
-caps.latest.revision: 47
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Open Text Files as Workbooks
   You can open a text file as a workbook. You must pass in the name of the text file you want to open. You can specify several optional parameters, such as which row number to start parsing on and the column format of the data in the file.  

@@ -15,9 +15,11 @@ caps.latest.revision: 21
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Opening a Dynamic Tool Window
-Tool windows are typically opened from a command on a menu, or an equivalent keyboard shortcut. At times, however, you might need a tool window that opens whenever a specific UI context applies, and closes when the UI context no longer applies. Tool windows like these are called *dynamic* or *auto-visible*.  
+Tool windows are typically opened from a command on a menu, or an equivalent keyboard shortcut. At times, however, you might need a tool window that opens whenever a specific UI context applies, and closes when the UI context no longer applies. These types of tool windows are called *dynamic* or *auto-visible*.  
   
 > [!NOTE]
 >  For a list of predefined UI contexts, see <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT>. For the  
@@ -33,21 +35,21 @@ Tool windows are typically opened from a command on a menu, or an equivalent key
   
 1.  Create a VSIX project named **DynamicToolWindow** and add a tool window item template named **DynamicWindowPane.cs**. For more information, see [Creating an Extension with a Tool Window](../extensibility/creating-an-extension-with-a-tool-window.md).  
   
-2.  In the DynamicWindowPanePackage.cs file, find the DynamicWindowPanePackage declaration. Add the <xref:Microsoft.VisualStudio.Shell.ProvideToolWindowAttribute> and T:Microsoft.VisualStudio.Shell.ProvideToolWindowVisibilityAttribute attributes to register the tool window.  
+2.  In the DynamicWindowPanePackage.cs file, find the DynamicWindowPanePackage declaration. Add the <xref:Microsoft.VisualStudio.Shell.ProvideToolWindowAttribute> and <xref:Microsoft.VisualStudio.Shell.ProvideToolWindowVisibilityAttribute> attributes to register the tool window.  
   
     ```vb  
-    [[ProvideToolWindow(typeof(DynamicWindowPane)]  
+    [ProvideToolWindow(typeof(DynamicWindowPane)]  
     [ProvideToolWindowVisibility(typeof(DynamicWindowPane), VSConstants.UICONTEXT.SolutionExists_string)]  
     [PackageRegistration(UseManagedResourcesOnly = true)]  
     [InstalledProductRegistration("#110", "#112", "1.0", IconResourceID = 400)] // Info on this package for Help/About  
     [ProvideMenuResource("Menus.ctmenu", 1)]  
     [ProvideToolWindow(typeof(DynamicToolWindow.DynamicWindowPane))]  
-    [Guid(DynamicWindowPanePackageGuids.PackageGuidString)]  
+    [Guid(DynamicWindowPanePackage.PackageGuidString)]  
     public sealed class DynamicWindowPanePackage : Package  
     {. . .}  
     ```  
   
-     This registers the tool window named DynamicWindowPane as a transient window that is not persisted when Visual Studio is closed and reopened. DynamicWindowPane is opened whenever <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.SolutionExists_string> applies, and closed otherwise.  
+     The attributes above register the tool window named DynamicWindowPane as a transient window that is not persisted when Visual Studio is closed and reopened. DynamicWindowPane is opened whenever <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.SolutionExists_string> applies, and closed otherwise.  
   
 3.  Build the project and start debugging. The experimental instance should appear. You should not see the tool window.  
   

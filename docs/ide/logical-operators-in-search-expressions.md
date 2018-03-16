@@ -16,6 +16,8 @@ caps.latest.revision: 9
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Logical and advanced operators in search expressions
 You can use logical operators and advanced search operators to refine your search of the Help content in Help Viewer.

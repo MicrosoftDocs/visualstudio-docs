@@ -17,6 +17,8 @@ caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProgram2::Execute
 Continues running this program from a stopped state. Any previous execution state (such as a step) is cleared, and the program starts executing again.  

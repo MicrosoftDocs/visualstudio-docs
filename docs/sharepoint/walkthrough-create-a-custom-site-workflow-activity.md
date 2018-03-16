@@ -19,11 +19,11 @@ helpviewer_keywords:
   - "site workflows [SharePoint development in Visual Studio]"
   - "workflow activities [SharePoint development in Visual Studio]"
   - "SharePoint development in Visual Studio, site workflows"
-ms.assetid: 8219a779-c27b-4186-92c9-5bda03328aa9
-caps.latest.revision: 20
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Walkthrough: Create a Custom Site Workflow Activity
   This walkthrough demonstrates how to create a custom activity for a site-level workflow using [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. (Site-level workflows apply to the whole site, not just a list on the site.) The custom activity creates a backup Announcements list and then copies the contents of the Announcements list into it.  

@@ -17,6 +17,8 @@ caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Hidden Element (Visual Studio Templates)
 Specifies whether the template appears in either the **New Project** or **Add New Item** dialog box.  

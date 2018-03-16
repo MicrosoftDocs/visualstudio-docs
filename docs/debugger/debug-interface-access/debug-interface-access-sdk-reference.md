@@ -19,6 +19,8 @@ caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Debug Interface Access SDK Reference
 A complete reference to all of the interfaces and supporting enumerations and structures in the DIA SDK.  

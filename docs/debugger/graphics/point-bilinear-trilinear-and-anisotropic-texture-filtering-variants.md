@@ -13,6 +13,8 @@ caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Point, Bilinear, Trilinear, and Anisotropic Texture Filtering Variants
 Overrides the filtering mode on appropriate texture samplers.  

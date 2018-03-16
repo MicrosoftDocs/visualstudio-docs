@@ -13,6 +13,8 @@ caps.latest.revision: 1
 author: "BertanAygun"
 ms.author: "bertaygu"
 manager: ghogen
+ms.workload: 
+  - "bertaygu"
 ---
 # Measuring extension impact in startup
 
@@ -25,6 +27,9 @@ To help users understand this impact, we added a new feature in Visual Studio to
 ![manage Visual Studio performace](media/manage-performance.png)
 
 This document aims to help extension developers by describing how extension impact is calculated and how it can be analyzed locally to test if an extension may be shown as a performance impacting extension.
+
+> [!NOTE]
+> This document focuses on the impact of extensions on startup and solution load. Extensions also impact Visual Studio performance when they cause the UI to become unresponsive. For more on this topic, see [How to: Diagnose UI delays caused by extensions](how-to-diagnose-ui-delays-caused-by-extensions.md).
 
 ## How extensions can impact startup
 

@@ -13,6 +13,8 @@ helpviewer_keywords:
 ms.assetid: 680c3b25-7901-4768-8363-6d1fcd1ea636
 ms.author: "heaths"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Locating Visual Studio
 

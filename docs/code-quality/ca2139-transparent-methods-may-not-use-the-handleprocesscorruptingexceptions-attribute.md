@@ -15,6 +15,8 @@ caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA2139: Transparent methods may not use the HandleProcessCorruptingExceptions attribute
 |||  

@@ -15,11 +15,11 @@ helpviewer_keywords:
   - "e-mail [Office development in Visual Studio], creating"
   - "Outlook [Office development in Visual Studio], creating e-mail"
   - "mail items [Office development in Visual Studio], creating"
-ms.assetid: f8fe3f2b-36ba-4f71-abdb-d30ce7fecb30
-caps.latest.revision: 27
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Create an E-Mail Item
   This example creates an e-mail message in Microsoft Office Outlook.  

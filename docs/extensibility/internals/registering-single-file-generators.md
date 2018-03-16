@@ -16,6 +16,8 @@ caps.latest.revision: 16
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Registering Single File Generators
 To make a custom tool available in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], you must register it so [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] can instantiate it and associates it with a particular project type.  
@@ -62,11 +64,6 @@ To make a custom tool available in [!INCLUDE[vsprvs](../../code-quality/includes
   
     [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\14.0\Generators\{fae04ec1-301f-11d3-bf4b-00c04f79efbc}\MSDataSetGenerator]  
     @="Microsoft C# Code Generator for XSD"  
-    "CLSID"="{E76D53CC-3D4F-40a2-BD4D-4F3419755476}"  
-    "GeneratesDesignTimeSource"=dword:00000001  
-  
-    [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\14.0\Generators\{e6fdf8b0-f3d1-11d4-8576-0002a516ece8}\MSDataSetGenerator]  
-    @="Microsoft J# Code Generator for XSD"  
     "CLSID"="{E76D53CC-3D4F-40a2-BD4D-4F3419755476}"  
     "GeneratesDesignTimeSource"=dword:00000001  
     ```  

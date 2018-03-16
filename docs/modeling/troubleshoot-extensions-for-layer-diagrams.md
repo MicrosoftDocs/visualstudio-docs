@@ -4,16 +4,16 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "dependency diagrams, extension errors"
   - "dependency diagrams, troubleshooting extensions"
-ms.assetid: 1fda4f8a-38b8-482b-87b8-eade1a4e5662
-caps.latest.revision: 25
-author: "alexhomer1"
-ms.author: "ahomer"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Troubleshoot extensions for dependency diagrams
 This topic addresses some problems that you might encounter when you create layer model extensions.  

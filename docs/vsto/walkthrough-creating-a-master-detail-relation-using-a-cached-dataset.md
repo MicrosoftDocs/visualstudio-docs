@@ -14,11 +14,11 @@ dev_langs:
 helpviewer_keywords: 
   - "master-detail tables [Office development in Visual Studio], walkthroughs"
   - "data caching [Office development in Visual Studio], Master/Detail Relation"
-ms.assetid: 419f4e07-c67f-4fc9-973a-bc794f349ac3
-caps.latest.revision: 41
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Walkthrough: Creating a Master Detail Relation Using a Cached Dataset
   This walkthrough demonstrates creating a master/detail relation on a worksheet, and caching the data so that the solution can be used offline.  

@@ -17,6 +17,8 @@ caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # BPERESI_FIELDS
 Specifies the information to be retrieved about a failed resolution of a breakpoint.  

@@ -16,6 +16,8 @@ caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Automation for Configuration and SelectedItem Objects
 You can automate the build and selected item processes in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].  

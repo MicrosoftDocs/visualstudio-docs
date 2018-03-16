@@ -10,23 +10,22 @@ Ms.prod: vs-subscription
 Ms.technology: vs-subscriptions
 Searchscope: VS Subscription
 ---
+# Buy Visual Studio Professional and Visual Studio Enterprise cloud subscriptions
 
-#	Buy Visual Studio Professional and Visual Studio Enterprise cloud subscriptions
-
-You can buy [Visual Studio Professional and Visual Studio Enterprise subscriptions](https://www.visualstudio.com/subscriptions/) 
-from the [Visual Studio Marketplace](https://marketplace.visualstudio.com). These are what we call cloud subscriptions. 
+You can buy [Visual Studio Professional and Visual Studio Enterprise subscriptions](https://www.visualstudio.com/subscriptions/)
+from the [Visual Studio Marketplace](https://marketplace.visualstudio.com). These are what we call cloud subscriptions.
 
 [Compare cloud subscription benefits and pricing](https://www.visualstudio.com/vs/pricing/)
 
 ## Before you start
 
-*	To bill your purchases, you'll need an [Azure subscription](https://azure.microsoft.com/en-us/pricing/purchase-options/). 
-You can [sign up](https://portal.azure.com) before your first purchase or during your first purchase in the Visual Studio Marketplace. 
+*	To bill your purchases, you'll need an [Azure subscription](https://azure.microsoft.com/en-us/pricing/purchase-options/).
+You can [sign up](https://portal.azure.com) before your first purchase or during your first purchase in the Visual Studio Marketplace.
 
 ## How to buy cloud subscriptions
 
 0.	Sign in to the [Visual Studio Marketplace > Subscriptions](https://marketplace.visualstudio.com/subscriptions).
-	
+
 0.	Choose the subscription that you want to buy, for example:
 
 	<img alt="Buy a Visual Studio subscription" src="_img/buy-vs-subscriptions/buy-vs-sub-start.png" style="border: 1px solid #CCCCCC" />
@@ -41,14 +40,14 @@ You can [sign up](https://portal.azure.com) before your first purchase or during
 
 	If you don't want subscriptions assigned to yourself, clear **Assign this subscription to me**.
 
-0.	Confirm and finish your purchase. If you assigned a subscription to yourself, you can visit the [Visual Studio subscriber portal](https://my.visualstudio.com) 
+0.	Confirm and finish your purchase. If you assigned a subscription to yourself, you can visit the [Visual Studio subscriber portal](https://my.visualstudio.com)
 to start downloading software and using other subscriber benefits.
 
 	<img alt="Finish purchase successfully" src="_img/buy-vs-subscriptions/buy-vs-sub-success.png" style="border: 1px solid #CCCCCC" />
 
 	<img alt="Go to Visual Studio subscriber portal" src="_img/buy-vs-subscriptions/view-subscription-benefits-subscriptions-portal.png" style="border: 1px solid #CCCCCC" />
 
-	If you purchased more than one subscription, proceed to the 
+	If you purchased more than one subscription, proceed to the
 	[Visual Studio Subscriptions Administration portal](https://manage.visualstudio.com/) to assign subscriptions to others.
 
 	<img alt="Assign subscriptions to others" src="_img/buy-vs-subscriptions/buy-vs-sub-success-many.png" style="border: 1px solid #CCCCCC" />
@@ -63,7 +62,7 @@ to start downloading software and using other subscriber benefits.
 
     <img alt="Change subscriptions" src="_img/buy-vs-subscriptions/manage-subscriptions.png" style="border: 1px solid #CCCCCC" />
 
-*   To cancel these subscriptions, reduce the number of subscriptions to zero (0). 
+*   To cancel these subscriptions, reduce the number of subscriptions to zero (0).
 They won't renew at the start of the next billing period (the first of the next month for monthly cloud subscriptions; 12 months later for annual cloud subscriptions).
 
 ## Buy cloud subscriptions now

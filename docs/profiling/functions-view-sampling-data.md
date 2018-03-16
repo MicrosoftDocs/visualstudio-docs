@@ -16,6 +16,8 @@ caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Functions View - Sampling Data
 The Functions report view for the sampling profile method lists the functions that were sampled during the profiling run.  

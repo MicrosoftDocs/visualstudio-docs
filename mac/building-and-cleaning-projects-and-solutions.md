@@ -10,7 +10,7 @@ ms.assetid: E4B6CB42-9FE2-43B9-93B7-BD4BD50518B1
 
 # Building and cleaning projects and solutions
 
-Follow the steps in this topic to learn how to build, rebuilt, and clean your solution and project.
+Follow the steps in this article to learn how to build, rebuild, and clean your solution and project.
 
 ## To build, rebuild, or clean an entire solution
 

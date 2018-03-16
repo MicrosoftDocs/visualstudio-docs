@@ -13,6 +13,8 @@ caps.latest.revision: 33
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Microsoft Help Viewer SDK
 This article contains the following tasks for Visual Studio Help Viewer integrators:  

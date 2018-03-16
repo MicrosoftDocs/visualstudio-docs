@@ -17,6 +17,8 @@ caps.latest.revision: 26
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Support for User Settings
 A VSPackage may define one or more settings categories, which are groups of state variables that persist when a user chooses the **Import/Export Settings** command on the **Tools** menu. To enable this persistence, you use the settings APIs in the [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)].  

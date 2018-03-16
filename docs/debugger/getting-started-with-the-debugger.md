@@ -1,7 +1,7 @@
 ---
-title: "Get started with the debugger | Microsoft Docs"
+title: "Learn to debug using Visual Studio | Microsoft Docs"
 ms.custom: "H1HackMay2017"
-ms.date: "05/18/2017"
+ms.date: "10/11/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,8 +15,10 @@ caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
-# Get started with the Visual Studio debugger
+# Learn to debug using Visual Studio
 
 This topic introduces the features of the Visual Studio debugger in a step-by-step walkthrough. If you want a higher-level view of the debugger features, see [Debugger Feature Tour](../debugger/debugger-feature-tour.md).
 
@@ -24,7 +26,7 @@ You can either read along to see the features of the debugger or you can downloa
 
 |         |         |
 |---------|---------|
-| ![Watch a video](../install/media/video-icon.png "WatchVideo") | [Watch a video](#video) on debugging that shows similar steps. |
+|  ![movie camera icon for video](../install/media/video-icon.png "Watch a video")  |    [Watch a video](https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Debugger-Feature-tour-of-Visual-studio-2017-sqwiwLD6D_1111787171) on debugging that shows similar steps. |
 
 Although the demo app is C#, the features are applicable to C++, Visual Basic, JavaScript, and other languages supported by Visual Studio (except where noted).
 
@@ -135,19 +137,81 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
      ![Result of stepping into the Update method](../debugger/media/dbg-tour-update-method.png "Step Into Update Method")
 
-    Here, we find some more code that looks interesting; the app is getting all *.jpg files residing in a particular directory, and then creating a Photo object for each file. This code gives us a good opportunity to start inspecting your app state (variables) with the debugger.
+    Here, we find some more code that looks interesting; the app is getting all *.jpg files residing in a particular directory, and then creating a Photo object for each file. This code gives us a good opportunity to start inspecting your app state (variables) with the debugger. We will do that in the next sections of this tutorial.
 
     Features that allow you to inspect variables are one of the most useful features of the debugger, and there are different ways to do it. Often, when you try to debug an issue, you are attempting to find out whether variables are storing the values that you expect them to have at a particular time.
 
+## Examine the call stack
+
+- While paused in the `Update` method, click the **Call Stack** window, which is by default open in the lower right pane.
+
+     ![Examine the call stack](../debugger/media/dbg-tour-call-stack.png "ExamineCallStack")
+
+    The **Call Stack** window shows the order in which methods and functions are getting called. The top line shows the current function (the `Update` method in the tour app). The second line shows that `Update` was called from the `Path.set` property, and so on.
+
+    >  [!NOTE]
+    > The **Call Stack** window is similar to the Debug perspective in some IDEs like Eclipse.
+
+    The call stack is a good way to examine and understand the execution flow of an app.
+
+    You can double-click a line of code to go look at that source code and that also changes the current scope being inspected by the debugger. This action does not advance the debugger.
+
+    You can also use right-click menus from the **Call Stack** window to do other things. For example, you can insert breakpoints into specified functions, advance the debugger using **Run to Cursor**, and go examine source code. For more information, see [How to: Examine the Call Stack](../debugger/how-to-use-the-call-stack-window.md).
+
+## Step out
+
+Let's say that you are done examining the `Update` method in Data.cs, and you want to get out of the function but stay in the debugger. You can do this using the **Step Out** command.
+
+1. Press Shift + F11 (or **Debug > Step Out**).
+
+     This command resumes app execution (and advances the debugger) until the current function returns.
+
+     You should be back in the `Update` method call in Data.cs.
+
+2. Press Shift + F11 again, and the debugger goes up the call stack back to the `OnApplicationStartup` event handler.
+
+## Run to cursor
+
+1. Choose the **Stop Debugging** red button ![Stop Debugging](../debugger/media/dbg-tour-stop-debugging.png "Stop Debugging") or Shift + F5.
+
+2. In the `Update` method in Data.cs, right-click the `Add` method call and choose **Run to Cursor**. This command starts debugging and sets a temporary breakpoint on the current line of code.
+
+     ![Use the Run to Cursor feature](../debugger/media/dbg-tour-run-to-cursor.png "Run to Cursor")
+
+    You should be paused on the breakpoint in `MainWindow` (since that is the first breakpoint you set).
+
+3. Press F5 to advance to the `Add` method where you selected **Run to Cursor**.
+
+    This command is useful when you are editing code and want to quickly set a temporary breakpoint and start the debugger.
+
+## Change the execution flow
+
+1. With the debugger paused on the `Add` method call, use the mouse to grab the yellow arrow (the execution pointer) on the left and move the yellow arrow up one line to the `foreach` loop.
+
+     ![Move the execution pointer](../debugger/media/dbg-tour-move-the-execution-pointer.gif "Move the Execution Pointer")
+
+    By changing the execution flow, you can do things like test different code execution paths or rerun code without restarting the debugger.
+
+2. Now, press F5.
+
+    You can see the images added to the app window. Because you are rerunning code in the `foreach` loop, some of the images have been added twice!
+    
+    > [!WARNING]
+    > Often you need to be careful with this feature, and you see a warning in the tooltip. You may see other warnings, too. Moving the pointer cannot revert your application to an earlier app state.
+
 ## Inspect variables with data tips
 
-1. To pause the debugger on the `Add` method call, hover over the `Add` method call and click the **Run to Click** button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick").
+1. Open Data.cs in the Photo Viewer Demo app, right-click the `private void Update` function declaration and choose **Run to Cursor** (stop the app first if it is already running).
 
-2. Now, hover over the File object (`f`) and you see its default property value, the file name `market 031.jpg`.
+    This will pause the app with the debugger attached. This allows us to examine its state.
+
+2. Hover over the `Add` method call and click the **Run to Click** button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick").
+
+3. Now, hover over the File object (`f`) and you see its default property value, the file name `market 031.jpg`.
 
      ![View a data tip](../debugger/media/dbg-tour-data-tips.gif "View a Data Tip")
 
-3. Expand the object to see all its properties, such as the `FullPath` property.
+4. Expand the object to see all its properties, such as the `FullPath` property.
 
     Often, when debugging, you want a quick way to check property values on objects, and the data tips are a good way to do it.
 
@@ -189,66 +253,6 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
     For more info, see [Set a Watch using the Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md)
 
-## Examine the call stack
-
-1. Click the **Call Stack** window, which is by default open in the lower right pane.
-
-     ![Examine the call stack](../debugger/media/dbg-tour-call-stack.png "ExamineCallStack")
-
-    The **Call Stack** window shows the order in which methods and functions are getting called. The top line shows the current function (the `Update` method in the tour app). The second line shows that `Update` was called from the `Path.set` property, and so on.
-
-    >  [!NOTE]
-    > The **Call Stack** window is similar to the Debug perspective in some IDEs like Eclipse.
-
-    The call stack is a good way to examine and understand the execution flow of an app.
-
-    You can double-click a line of code to go look at that source code and that also changes the current scope being inspected by the debugger. This action does not advance the debugger.
-
-    You can also use right-click menus from the **Call Stack** window to do other things. For example, you can insert breakpoints into specified functions, advance the debugger using **Run to Cursor**, and go examine source code. For more information, see [How to: Examine the Call Stack](../debugger/how-to-use-the-call-stack-window.md).
-
-## Change the execution flow
-
-1. With the debugger paused on the `Add` method call, use the mouse to grab the yellow arrow (the execution pointer) on the left and move the yellow arrow up one line to the `foreach` loop.
-
-     ![Move the execution pointer](../debugger/media/dbg-tour-move-the-execution-pointer.gif "Move the Execution Pointer")
-
-    By changing the execution flow, you can do things like test different code execution paths or rerun code without restarting the debugger.
-
-2. Now, press F5.
-
-    You can see the images added to the app window. Because you are rerunning code in the `foreach` loop, some of the images have been added twice!
-    
-    > [!WARNING]
-    > Often you need to be careful with this feature, and you see a warning in the tooltip. You may see other warnings, too. Moving the pointer cannot revert your application to an earlier app state.
-
-## Run to cursor
-
-1. Choose the **Stop Debugging** red button ![Stop Debugging](../debugger/media/dbg-tour-stop-debugging.png "Stop Debugging") or Shift + F5.
-
-2. In the `Update` method, right-click the `Add` method call and choose **Run to Cursor**. This command starts debugging and sets a temporary breakpoint on the current line of code.
-
-     ![Use the Run to Cursor feature](../debugger/media/dbg-tour-run-to-cursor.png "Run to Cursor")
-
-    You should be paused on the breakpoint in `MainWindow` (since that is the first breakpoint.
-
-3. Press F5 to advance to the `Add` method where you selected **Run to Cursor**.
-
-    This command is useful when you are editing code and want to quickly set a temporary breakpoint and start the debugger.
-
-## Step out
-
-Let's say that you are done examining the `Update` method in Data.cs, and you want to get out of the function but stay in the debugger. You can do this using the **Step Out** command.
-
-1. Press Shift + F11 (or **Debug > Step Out**).
-
-     This command resumes app execution (and advances the debugger) until the current function returns.
-
-     You should be back in the `Update` method call in Data.cs.
-
-2. Press Shift + F11 again, and the debugger goes up the call stack back to the `OnApplicationStartup` event handler.
-
-3. Press F5 to continue.
-
 ## Examine an exception
 
 1. In the running app window, delete the text in the **Path** input box and select the **Change** button.
@@ -274,12 +278,7 @@ Let's say that you are done examining the `Update` method in Data.cs, and you wa
 
 To learn more about the features of the debugger, see [Debugger Tips and Tricks](../debugger/debugger-tips-and-tricks.md).
 
-## <a name="video"></a> Watch a video on debugging
+## See also
 
-<div style="padding-top: 56.25%; position: relative; width: 100%;">
-<iframe style="position: absolute;top: 0;left: 0;right: 0;bottom: 0;" width="100%" height="100%" src="https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Debugger-Feature-tour-of-Visual-studio-2017-sqwiwLD6D_1111787171" frameborder="0" allowfullscreen></iframe>
-</div>
-
-## See Also  
- [Debugging in Visual Studio](../debugger/index.md)  
- [Debugger Feature Tour](../debugger/debugger-feature-tour.md)
+[Debugging in Visual Studio](../debugger/index.md)  
+[Debugger Feature Tour](../debugger/debugger-feature-tour.md)

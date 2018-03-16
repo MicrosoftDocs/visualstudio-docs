@@ -5,16 +5,20 @@ ms.date: "11/15/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
- - "vs-ide-general"
+  - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "quickstart"
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload:
+  - "multiple"
 ---
-# Quickstart: first look at the Visual Studio IDE
+# Quickstart: First look at the Visual Studio IDE
 
-In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), we'll take a tour of the some of the windows, menus, and other UI features.
+In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), we'll take a tour of some of the windows, menus, and other UI features.
+
+If you haven't already installed Visual Studio, go to the [Visual Studio Downloads](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) page to install it for free.
 
 ## Start Page
 
@@ -90,8 +94,10 @@ We've looked at just a few of the features of the Visual Studio IDE to get acqua
 
 - Browse the General User Interface Elements section of the VS documentation, which goes into more depth about windows such as the [Error List](../ide/reference/error-list-window.md), [Output window](../ide/reference/output-window.md), [Properties window](../ide/reference/properties-window.md), and [Options dialog box](../ide/reference/options-dialog-box-visual-studio.md)
 
-- Take a more in depth tour of the IDE, and even dabble in debugging, in [Overview of the Visual Studio IDE](../ide/visual-studio-ide.md)
+- Take a more in-depth tour of the IDE, and even dabble in debugging, in [Overview of the Visual Studio IDE](../ide/visual-studio-ide.md)
 
 ## See also
 
-[Quickstart: personalizing the IDE](../ide/personalizing-the-visual-studio-ide.md)
+- [Quickstart: Personalizing the IDE](../ide/personalizing-the-visual-studio-ide.md)
+- [Quickstart: Coding in the editor](../ide/quickstart-editor.md)
+- [Quickstart: Projects and solutions](../ide/quickstart-projects-solutions.md)

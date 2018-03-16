@@ -17,6 +17,8 @@ caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_liveRangeStartAddressOffset
 Returns the offset part of the starting address of the range in which the local symbol is valid.  

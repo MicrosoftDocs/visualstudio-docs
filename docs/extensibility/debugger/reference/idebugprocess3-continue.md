@@ -17,6 +17,8 @@ caps.latest.revision: 7
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProcess3::Continue
 Continues running this process from a stopped state. Any previous execution state (such as a step) is preserved, and the process starts executing again.  

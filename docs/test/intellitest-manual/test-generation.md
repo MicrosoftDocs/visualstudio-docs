@@ -1,19 +1,15 @@
 ---
 title: "Test generation | Microsoft IntelliTest Developer Test Tool | Microsoft Docs"
-ms.custom: ""
 ms.date: "05/02/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
+ms.technology: vs-ide-test
 ms.topic: "article"
 helpviewer_keywords: 
   - "IntelliTest, Test generation"
-ms.assetid: B6CADFD1-42C7-4FC0-B41F-0E9F8291A702
-caps.latest.revision: 56
-ms.author: "douge"
-manager: "douge"
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+author: gewarren
 ---
 # Test generation
 

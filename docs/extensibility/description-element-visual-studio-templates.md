@@ -15,6 +15,8 @@ caps.latest.revision: 16
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Description Element (Visual Studio Templates)
 Specifies the description of the template as it appears in either the **New Project** or **Add New Item** dialog box.  

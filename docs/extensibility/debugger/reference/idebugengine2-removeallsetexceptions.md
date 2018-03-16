@@ -17,6 +17,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugEngine2::RemoveAllSetExceptions
 Removes the list of exceptions the IDE has set for a particular run-time architecture or language.  

@@ -16,6 +16,8 @@ caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Launching the Debugger
 Launching the debugger requires sending the correct sequence of methods and events with their proper attributes.  

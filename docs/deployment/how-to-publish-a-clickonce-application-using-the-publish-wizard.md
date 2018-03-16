@@ -22,6 +22,8 @@ caps.latest.revision: 25
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+ms.workload: 
+  - "multiple"
 ---
 # How to: Publish a ClickOnce Application using the Publish Wizard
 To make a ClickOnce application available to users, you must publish it to a file share or path, FTP server, or removable media. You can publish the application by using the Publish Wizard; additional properties related to publishing are available on the **Publish** page of the **Project Designer**. For more information, see [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md).  

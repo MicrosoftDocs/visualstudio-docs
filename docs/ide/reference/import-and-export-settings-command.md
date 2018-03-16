@@ -18,6 +18,8 @@ caps.latest.revision: 5
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Import and Export Settings Command
 Imports, exports, or resets [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] settings.  
@@ -38,16 +40,19 @@ Tools.ImportandExportSettings [/export:filename | /import:filename | /reset]
  /reset  
  Optional. Resets the current settings.  
   
-## Remarks  
- Running this command with no switches opens the **Import and Export Settings** wizard. For more information, see [How to: Share Settings Between Computers or Visual Studio Versions](http://msdn.microsoft.com/en-us/1131fb10-35c1-42da-9cd8-91aa3235b882).  
-  
-## Example  
- The following command exports the curent settings to the file `MyFile.vssettings`.  
-  
-```  
-Tools.ImportandExportSettings /export:"c:\Files\MyFile.vssettings"  
-```  
-  
-## See Also  
- [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md)   
- [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)
+## Remarks
+
+Running this command with no switches opens the **Import and Export Settings** wizard. For more information, see [Synchronize your settings](../../ide/synchronized-settings-in-visual-studio.md).
+
+## Example
+
+The following command exports the curent settings to the file `MyFile.vssettings`.
+
+```shell
+Tools.ImportandExportSettings /export:"c:\Files\MyFile.vssettings"
+```
+
+## See also
+
+[Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md)  
+[Visual Studio Commands](../../ide/reference/visual-studio-commands.md)

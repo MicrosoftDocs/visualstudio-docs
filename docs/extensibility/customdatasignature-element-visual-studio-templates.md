@@ -16,6 +16,8 @@ caps.latest.revision: 6
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # CustomDataSignature Element (Visual Studio Templates)
 Specifies the text signature to locate the custom data.  

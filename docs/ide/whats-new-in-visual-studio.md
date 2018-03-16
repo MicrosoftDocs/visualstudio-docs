@@ -17,9 +17,11 @@ ms.assetid: 7307e180-ba28-4774-8a43-cbb980085a71
 author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen
+ms.workload:
+  - "multiple"
 ---
 # What&#39;s New in Visual Studio 2017
-#### Updated for the [15.5 release](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes)
+#### Updated for the [15.6 release](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes)
 Looking to upgrade from a previous version of Visual Studio? Here's what Visual Studio 2017 can offer you: Unparalleled productivity for any dev, any app, and any platform. Use Visual Studio 2017 to develop apps for Android, iOS, Windows, Linux, web, and cloud. Code fast, debug and diagnose with ease, test often, and release with confidence. You can also extend and customize Visual Studio by building your own extensions. Use version control, be agile, and collaborate efficiently with this release!
 
 Here's a high-level recap of the changes we've made since our previous version, Visual Studio 2015:
@@ -123,7 +125,7 @@ Refactoring is the process of improving your code after it has been written. Ref
 *	Convert if-to-switch
 *	Remove unused variable
 
-For more information, see [Quick Actions](../ide/quick-actions.md#common-quick-actions).
+For more information, see [Quick Actions](../ide/common-quick-actions.md).
 
 #### Interact with Git
 When you are working with a project in Visual Studio, you can set up and quickly commit and publish your code to a Git service. You can also manage your Git repositories by using menu clicks from buttons in the bottom right-hand corner of the IDE.
@@ -220,7 +222,7 @@ In addition to streamlined app deployment, the Windows 10 Fall Creators Update i
 * **The best of both UWP and Win32** <br/>
 We have improved the Windows 10 Platform with the [Desktop Bridge](https://docs.microsoft.com/windows/uwp/porting/desktop-to-uwp-root) to make Windows 10 better for all .NET developers, whether their current focus is on UWP, WPF, Windows Forms, or Xamarin. With the new App Packaging project type in Visual Studio 2017 version 15.5, you can create Windows App Packages for your WPF or Windows Forms projects, just like you can for UWP projects. After you package your app, you get all the Windows 10 app deployment benefits and have the option to distribute via Microsoft Store (for consumer apps) or Microsoft Store for Business and Education. Because packaged apps have access to both the full UWP API surface and the Win32 APIs on desktop, you can now modernize your WPF and Windows Forms applications gradually with UWP APIs and Windows 10 features. Moreover, you can include your Win32 components in your UWP applications that light up on desktop with all Win32 capabilities. 
 
-For more information about UWP, see the [Develop apps for the Universal Windows Platform (UWP)](https://docs.microsoft.com/visualstudio/cross-platform/develop-apps-for-the-universal-windows-platform-uwp) page.
+For more information about UWP, see the [Develop apps for the Universal Windows Platform (UWP)](../cross-platform/develop-apps-for-the-universal-windows-platform-uwp.md) page.
 
 ## Mobile app development
 ### Xamarin
@@ -267,7 +269,7 @@ And, it now includes Docker support.
 
 **New in 15.3**: Visual Studio 2017 version 15.3 supports .NET Core 2.0 development. Using .NET Core 2.0 requires downloading and installing the .NET Core 2.0 SDK separately.  
 
-For more information, see the [.NET Core Guide](https://docs.microsoft.com/dotnet/core/index) page.
+For more information, see the [.NET Core Guide](/dotnet/core/index) page.
 
 ## Games development
 ### Visual Studio Tools for Unity
@@ -298,6 +300,6 @@ If you want to make a suggestion about how we can improve Visual Studio, or repo
 ## See Also
 * [Visual Studio 2017 Release Notes](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes)
 * [What's New in Visual C++](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio)
-* [What's New in C#](https://docs.microsoft.com/dotnet/csharp/csharp-7)  
+* [What's New in C#](/dotnet/csharp/whats-new)  
 * [What's New for Team Foundation Server](https://www.visualstudio.com/docs/whats-new)
 * [What's New in Visual Studio for Mac](https://www.visualstudio.com/vs/visual-studio-mac/)

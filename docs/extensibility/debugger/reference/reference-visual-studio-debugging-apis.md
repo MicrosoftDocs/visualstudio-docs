@@ -17,6 +17,8 @@ caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Reference (Visual Studio Debugging APIs)
 The Visual Studio Debugging SDK references outline the basic model for the run-time architecture and functionality of the debugger and its components. The documentation makes as few assumptions as possible about the components and interfaces it describes, apart from the behavior it defines through the interfaces.  

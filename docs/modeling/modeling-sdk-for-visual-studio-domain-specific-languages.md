@@ -4,18 +4,16 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-devops-techdebt"
-ms.tgt_pltfrm: ""
+ms.technology: vs-ide-modeling
 ms.topic: "article"
 helpviewer_keywords: 
   - "Domain-Specific Language Tools"
   - "Domain-Specific Language"
-ms.assetid: 17a531e2-1964-4a9d-84fd-6fb1b4aee662
-caps.latest.revision: 77
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Modeling SDK for Visual Studio - Domain-Specific Languages
 By using the Modeling SDK for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], you can create powerful model-based development tools that you can integrate into [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. In the same manner, you can create one or more model definitions and integrate them into a set of tools.  

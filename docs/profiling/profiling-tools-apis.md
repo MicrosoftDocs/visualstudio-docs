@@ -13,6 +13,8 @@ caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Profiling Tools APIs
 You can insert managed or native methods of the APIs of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools to control data collection in a profiling run. This section describes the methods of the APIs and describes how to use them.  

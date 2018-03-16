@@ -16,6 +16,8 @@ caps.latest.revision: 22
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Syntax Coloring in a Legacy Language Service
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] uses a coloring service to identify elements of the language and display them with the specified colors in an editor.  

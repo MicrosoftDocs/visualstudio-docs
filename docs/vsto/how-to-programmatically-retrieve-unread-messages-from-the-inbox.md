@@ -16,11 +16,11 @@ helpviewer_keywords:
   - "Outlook [Office development in Visual Studio], unread mail"
   - "unread e-mail"
   - "mail items [Office development in Visual Studio], unread mail"
-ms.assetid: 4ccfb146-4579-47b4-ab55-b49b02cdc726
-caps.latest.revision: 17
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Retrieve Unread Messages from the Inbox
   This example retrieves unread e-mail messages from the Outlook **Inbox** and displays the number of items.  

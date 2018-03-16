@@ -15,11 +15,11 @@ helpviewer_keywords:
   - "building blocks [Office development in Visual Studio]"
   - "Word [Office development in Visual Studio], creating documents"
   - "content controls [Office development in Visual Studio], adding to documents"
-ms.assetid: 88fb9a60-dcc3-4a5f-a8c9-7aff01ca4b4b
-caps.latest.revision: 46
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Walkthrough: Creating a Template By Using Content Controls
   This walkthrough demonstrates how to create a document-level customization that uses content controls to create structured and reusable content in a Microsoft Office Word template.  

@@ -15,6 +15,8 @@ caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # StopProfile
 The `StopProfile` function sets the counter to 0 (off) for the specified profiling level.  

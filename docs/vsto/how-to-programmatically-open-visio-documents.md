@@ -14,11 +14,11 @@ dev_langs:
 helpviewer_keywords: 
   - "documents [Office development in Visual Studio], opening Visio documents"
   - "Visio [Office development in Visual Studio], opening Visio documents"
-ms.assetid: bddb820c-bde7-4d21-a0b3-6d1968baccab
-caps.latest.revision: 20
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Open Visio Documents
   There are two methods for opening existing Microsoft Office Visio documents: Open and OpenEx. The OpenEx method is identical to the Open method, except that it provides arguments in which the caller can specify how the document opens.  

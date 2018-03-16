@@ -16,6 +16,8 @@ caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Value (XAttribute Dynamic Property)
 Gets or sets the value of the XML attribute.  

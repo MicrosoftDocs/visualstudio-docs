@@ -4,15 +4,15 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords: 
+f1_keywords:
   - "VS.Message.0x800a002e"
   - "VS.ToolsOptionsPages.Environment.General"
   - "VS.Environment.General"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "MRU lists"
   - "windows, customizing"
   - "MDI, environment options"
@@ -30,6 +30,8 @@ caps.latest.revision: 34
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload:
+  - "multiple"
 ---
 # General, Environment, Options Dialog Box
 
@@ -44,7 +46,7 @@ Use this page to change color themes, status bar settings, and file extension as
 
 Choose the **Blue**, **Light** or **Dark** color theme for the IDE.
 
-You can install additional predefined themes, and create custom themes, by downloading and installing the **Visual Studio Color Theme Editor** from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.VisualStudio2017ColorThemeEditor). After you install this tool, additional color themes appear in the Color theme list box.
+You can install additional predefined themes, and create custom themes, by downloading and installing the **Visual Studio Color Theme Editor** from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.VisualStudio2017ColorThemeEditor). After you install this tool, additional color themes appear in the Color theme list box.
 
 **Apply title casing in menu bar**
 
@@ -64,22 +66,22 @@ Uses hardware graphics acceleration if it is available, rather than software acc
 
 ## Other
 
-**Items shown in Window menu**  
+**Items shown in Window menu**
 Customizes the number of windows that appear in the Windows list of the **Window** menu. Type a number between 1 and 24. By default, the number is 10.
 
-**Items shown in recently used lists**  
+**Items shown in recently used lists**
 Customizes the number of most recently used projects and files that appear on the **File** menu. Type a number between 1 and 24. By default, the number is 10. This is an easy way to retrieve recently used projects and files.
 
-**Show status bar**  
+**Show status bar**
 Displays the status bar. The status bar is located at the bottom of the IDE window and displays information about the progress of ongoing operations.
 
-**Close button affects active tool window only**  
+**Close button affects active tool window only**
 Specifies that when the **Close** button is clicked, only the tool window that has focus is closed and not all of the tool windows in the docked set. By default, this option is selected.
 
-**Auto Hide button affects active tool window only**  
+**Auto Hide button affects active tool window only**
 Specifies that when the **Auto Hide** button is clicked, only the tool window that has focus is hidden automatically and not all of the tool windows in the docked set. By default, this option is not selected.
 
 ## See also
 
-[Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)  
+[Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)
 [Customizing window layouts](../../ide/customizing-window-layouts-in-visual-studio.md)

@@ -16,6 +16,8 @@ caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Bitmaps Element
 Groups [Bitmap Element](../extensibility/bitmap-element.md) elements.  

@@ -17,6 +17,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Expression Evaluation in Break Mode
 The following describes the process that occurs when the debugger is in break mode and must conduct expression evaluation.  

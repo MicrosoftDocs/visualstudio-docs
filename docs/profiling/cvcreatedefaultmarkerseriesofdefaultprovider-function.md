@@ -17,6 +17,8 @@ caps.latest.revision: 2
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CvCreateDefaultMarkerSeriesOfDefaultProvider Function
 Creates default marker series of a default provider.  

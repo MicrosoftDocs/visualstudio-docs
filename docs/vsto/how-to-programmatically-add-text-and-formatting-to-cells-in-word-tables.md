@@ -16,11 +16,11 @@ helpviewer_keywords:
   - "text [Office development in Visual Studio], adding to Word tables"
   - "formatting [Office development in Visual Studio]"
   - "tables [Office development in Visual Studio], adding text and formatting"
-ms.assetid: 3df6492a-dc9c-43ac-8fc3-0f944edd88b2
-caps.latest.revision: 40
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Add Text and Formatting to Cells in Word Tables
   Each table consists of a collection of cells. Each individual <xref:Microsoft.Office.Interop.Word.Cell> object represents one cell in the table. You refer to each cell by its location in the table. This example refers to the cell located in the first row and the first column of the table; adds text to the cell; and applies formatting.  

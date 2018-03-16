@@ -31,6 +31,8 @@ caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CvWriteMessage Function
 Writes a message to the Concurrency Visualizer trace file.  

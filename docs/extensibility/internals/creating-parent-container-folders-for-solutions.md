@@ -16,6 +16,8 @@ caps.latest.revision: 15
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Creating Parent Container Folders for Solutions
 In the Source Control Plug-in API version 1.2, a user can specify a single root source control destination for all Web projects within the solution. This single root is called a Super Unified Root (SUR).  

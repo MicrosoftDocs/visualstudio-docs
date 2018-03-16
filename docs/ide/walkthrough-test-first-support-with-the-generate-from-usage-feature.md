@@ -1,11 +1,10 @@
 ---
-title: "Walkthrough: test-first development with the Generate From Usage feature | Microsoft Docs"
+title: "Walkthrough: Test-first development with the Generate From Usage feature | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/9/2017"
+ms.date: "10/09/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
+ms.technology: vs-ide-general
 ms.tgt_pltfrm: ""
 dev_langs: 
   - "VB"
@@ -14,13 +13,14 @@ ms.topic: "article"
 helpviewer_keywords: 
   - "Generate From Usage"
   - "Test-First Development"
-ms.assetid: 764c17a4-cd95-4c23-bf63-d92d9c5adfb2
-caps.latest.revision: 63
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
-# Walkthrough: test-first development with the Generate From Usage feature
+# Walkthrough: Test-first development with the Generate From Usage feature
+
 This topic demonstrates how to use the [Generate From Usage](../ide/visual-csharp-intellisense.md#generate-from-usage) feature, which supports test-first development.  
   
  *Test-first development* is an approach to software design in which you first write unit tests based on product specifications, and then write the source code that is required to make the tests succeed. Visual Studio supports test-first development by generating new types and members in the source code when you first reference them in your test cases, before they are defined.  

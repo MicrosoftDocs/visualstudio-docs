@@ -18,6 +18,8 @@ caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugMemoryContext2::Add
 Adds the specified value to the current context and returns a new context.  

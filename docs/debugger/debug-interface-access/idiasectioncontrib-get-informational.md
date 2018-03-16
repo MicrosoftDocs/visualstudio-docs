@@ -17,6 +17,8 @@ caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSectionContrib::get_informational
 Retrieves a flag indicating whether a section contains comments or similar information.  

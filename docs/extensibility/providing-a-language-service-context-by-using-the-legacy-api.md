@@ -15,6 +15,8 @@ caps.latest.revision: 14
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Providing a Language Service Context by Using the Legacy API
 There are two options for a language service to provide user context using the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] core editor: provide text marker context, or provide all user context. The differences between each are outlined here.  

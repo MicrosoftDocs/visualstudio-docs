@@ -17,6 +17,8 @@ caps.latest.revision: 20
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # VSTemplate Element (Visual Studio Templates)
 Contains all the metadata about the project template, item template, or starter kit.  

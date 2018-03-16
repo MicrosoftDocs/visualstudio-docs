@@ -10,15 +10,15 @@ ms.assetid: E992FA1D-B2AD-4A28-ADC6-47E4FC471060
 
 # Setting up a Git repository
 
-Git is a distributed version control system that allows teams to work on the same documents simultaneously. This means that there is a single server that contains all the files, but whenever a repository is checked out from this central source, the entire repository is cloned locally to your machine.
+Git is a distributed version control system that allows teams to work on the same documents simultaneously. This means there is a single server that contains all the files, but whenever a repository is checked out from this central source, the entire repository is cloned locally to your machine.
 
-There are many remote hosts that allow you to work with Git for version control, however the most common of these is GitHub. The example below uses a GitHub host, but you can use any Git host for version control in Visual Studio for Mac.
+There are many remote hosts that allow you to work with Git for version control, however the most common host is GitHub. The following example uses a GitHub host, but you can use any Git host for version control in Visual Studio for Mac.
 
-If you wish to use GitHub, ensure that you have an account created and configured before following the steps below. 
+If you wish to use GitHub, make sure that you have an account created and configured before following the steps in this article. 
 
 ## Creating a remote repo on GitHub
 
-The example below uses a GitHub host, but you can use any Git host for version control in Visual Studio for Mac.
+The following example uses a GitHub host, but you can use any Git host for version control in Visual Studio for Mac.
 
 To set up a Git repository, execute the following steps:
 
@@ -30,21 +30,26 @@ To set up a Git repository, execute the following steps:
 
     ![Set details of git repo](media/version-control-git2.png)
 
-3. The next place will give you an option to display and copy either the HTTPS or SSH address to the repo you have just created:
+3. The next page gives you an option to display and copy either the HTTPS or SSH address to the repo you have created:
 
     ![view and copy address](media/version-control-git3.png)
-  You will need the HTTPS address to point Visual Studio for Mac to this repo.
+
+  You'll need the HTTPS address to point Visual Studio for Mac to this repo.
 
 
 ## Publishing an existing project
 
-4. Return to your open Project in Visual Studio for Mac. 
+If you have an existing project that _is not_ already in version control, use the following steps to set it up in Git:
 
-5. In the Menu bar, select **Version Control > Publish in Version Control…**:
+4.  Select the Solution name from the Solution Pad in Visual Studio for Mac. 
+
+5. In the Menu bar, select **Version Control > Publish in Version Control…** to display the **Select Repository** dialog:
 
     ![Start checkout in Visual Studio for Mac](media/version-control-git4-sml.png)
 
-6. This will display the **Select Repository** dialog. Choose the **Registered Repositories** tab and press the **Add** button:
+    If this menu item appears greyed out in the menu, make sure you have selected the Solution name.  
+
+6. Choose the **Registered Repositories** tab and press the **Add** button:
 
     ![](media/version-control-git5.png)
 
@@ -54,23 +59,23 @@ To set up a Git repository, execute the following steps:
 
     Note that it is also possible to use SSH to connect to Git.
 
-8. To attempt to publish the app to Git, select the repository just created,  and ensure that both **Module Name** and **Message** text fields are completed:
+8. To attempt to publish the app to Git, select the repository,  and ensure that both **Module Name** and **Message** text fields are completed:
 
     ![Attempt to publish project to git](media/version-control-git7.png)
 
 9. Click **Okay**, and then **Publish** from the alert dialog.
 
-10. If you have not already entered your Git credentials in Visual Studio for Mac preferences, enter them now. First, you need to create an Access Token, which is used in place of a password. Follow the steps in the Git [Access Token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) documentation to do this.
+10. If you have not already entered your Git credentials in Visual Studio for Mac preferences, enter them now. First, you need to create an Access Token, which is used in place of a password. If you have not created an access token, follow the steps in the Git [Access Token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) documentation.
 
 11. Enter the username and Personal Access Token, and press **Okay**:
 
     ![Enter username and password for git](media/version-control-git9-sml.png)
 
-12. After a few seconds, the Solution should be published with its inital commit. Confirm this by browsing the Version Control menu item, which should now be populated with many options: 
+12. After a few seconds, the Solution should be published with its initial commit. Confirm it has been published by browsing the Version Control menu item, which should now be populated with many options: 
 
     ![Version Control Menu](media/version-control-git10.png)
 
-13. Once you start to make additional changes select **Push Changes...** to push the changes to the **remote** repository. This will allow all appropriate users to view it on github.com: 
+13. Once you start to make additional changes, select **Push Changes...** to push the changes to the **remote** repository. This will allow all appropriate users to view it on github.com: 
 
     ![Push Changes to remote repository](media/version-control-git11.png)
 

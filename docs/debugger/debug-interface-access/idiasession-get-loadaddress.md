@@ -17,6 +17,8 @@ caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSession::get_loadAddress
 Retrieves the load address for the executable file that corresponds to the symbols in this symbol store.  

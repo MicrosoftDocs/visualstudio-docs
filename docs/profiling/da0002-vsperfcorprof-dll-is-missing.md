@@ -18,6 +18,8 @@ caps.latest.revision: 14
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # DA0002: VSPerfCorProf.dll is missing
 |||  

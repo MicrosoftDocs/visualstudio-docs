@@ -13,11 +13,11 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "ProjectItem element"
-ms.assetid: df588235-12a1-4798-bc56-ef81843de17f
-caps.latest.revision: 15
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # ProjectItem Element
   Represents a SharePoint project item. This is the required root element of the .spdata file.  

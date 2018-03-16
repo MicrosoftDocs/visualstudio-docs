@@ -7,10 +7,12 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: fd39882e-06d1-4b39-80d2-4d07b6e4f8f5
-caps.latest.revision: 13
+ms.technology: vs-ide-mobile
 author: "ghogen"
 ms.author: "ghogen"
 manager: ghogen
+ms.workload: 
+  - "xamarin"
 ---
 # Verify your Xamarin environment
 Once the installers have completed (see [Setup and install](../cross-platform/setup-and-install.md)), spend a few minutes to verify that everything is ready to experience Xamarin development.  
@@ -71,7 +73,7 @@ Once the installers have completed (see [Setup and install](../cross-platform/se
   
          ![Selecting a Windows Phone emulator as a debug target](../cross-platform/media/crossplat-xamarin-verify-4.png "CrossPlat Xamarin Verify 4")  
   
-    -   If you encounter problems getting the emulator to work, read [Troubleshooting the Windows Phone 8 Emulator](https://msdn.microsoft.com/library/windows/apps/jj681694.aspx).  
+    -   If you encounter problems getting the emulator to work, read [Troubleshooting the Windows Phone 8 Emulator](/previous-versions/windows/apps/jj681694\(v%3dvs.105\)).  
   
 ## iOS  
   

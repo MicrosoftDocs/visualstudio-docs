@@ -19,6 +19,8 @@ caps.latest.revision: 18
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Manually Create Performance Sessions
 You can manually create a performance session. You are not required to open a project in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to do this. For more information, see [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md).  

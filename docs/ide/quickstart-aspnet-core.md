@@ -7,15 +7,20 @@ ms.suite: ""
 ms.technology: vs-acquisition
 ms.tgt_pltfrm: ""
 ms.topic: "quickstart"
-author: "gewarren"
-ms.author: "gewarren"
+author: "TerryGLee"
+ms.author: "tglee"
 manager: ghogen
-dev_langs: 
+dev_langs:
   - CSharp
+ms.workload:
+  - "aspnet"
+  - "dotnetcore"
 ---
-# Quickstart: use Visual Studio to create your first ASP.NET Core web app
+# Quickstart: Use Visual Studio to create your first ASP.NET Core web app
 
-In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you'll create a simple C# ASP.NET Core web application. If you haven't already installed Visual Studio, install it for free [here](http://www.visualstudio.com).
+In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you'll create a simple C# ASP.NET Core web application.
+
+If you haven't already installed Visual Studio, go to the [Visual Studio Downloads](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) page to install it for free.
 
 ## Create a project
 
@@ -23,11 +28,11 @@ First, you'll create an ASP.NET Core web application project. The project type c
 
 1. Open Visual Studio 2017.
 
-1. From the top menu bar, choose **File**, **New**, **Project...**.
+1. From the top menu bar, choose **File** > **New** > **Project...**.
 
 1. In the **New Project** dialog box, in the left pane, expand **Visual C#**, then choose **.NET Core**. In the middle pane, choose **ASP.NET Core Web Application**, then choose **OK**.
 
-     If you don't see the **.NET Core** project template, cancel out of the **New Project** dialog box and from the top menu bar, choose **Tools**, **Get Tools and Features...**. The Visual Studio Installer launches. Choose the **ASP.NET and web development** workload, then choose **Modify**.
+     If you don't see the **.NET Core** project template category, choose the **Open Visual Studio Installer** link in the left pane. The Visual Studio Installer launches. Choose the **ASP.NET and web development** workload, then choose **Modify**.
 
      ![ASP.NET workload in VS Installer](../ide/media/quickstart-aspnet-workload.png)
 
@@ -57,7 +62,7 @@ First, you'll create an ASP.NET Core web application project. The project type c
  }
  ```
 
-1. You'll see two wavy underlines appear under **Environment** and **String**, because these types are not in scope. Open the **Error List** toolbar to see the same errors listed there. (If you don't see the **Error List** toolbar, choose **View**, **Error List** from the top menu bar.)
+1. You'll see two wavy underlines appear under **Environment** and **String**, because these types are not in scope. Open the **Error List** toolbar to see the same errors listed there. (If you don't see the **Error List** toolbar, choose **View** > **Error List** from the top menu bar.)
 
    ![Error List](../ide/media/quickstart-aspnet-errorlist.png)
 
@@ -65,7 +70,7 @@ First, you'll create an ASP.NET Core web application project. The project type c
 
 ## Run the application
 
-1. Press **Ctrl+F5** to run the application and open it in a web browser.
+1. Press **Ctrl**+**F5** to run the application and open it in a web browser.
 
 1. At the top of the web site, choose **About** to see the directory message you added in the `OnGet()` method for the **About** page.
 
@@ -76,7 +81,8 @@ First, you'll create an ASP.NET Core web application project. The project type c
 
 Congratulations on completing this quickstart! We hope you learned a little bit about the Visual Studio IDE. If you'd like to delve deeper into its capabilities, please continue with a tutorial in the **Tutorials** section of the table of contents.
 
-## See also
+## Next Steps
+Congratulations on completing this Quickstart! We hope you learned a little bit about C#, ASP.NET Core, and the Visual Studio IDE. To learn more, continue with the following tutorial.
 
-[Getting Started with C# and Visual Basic using Visual Studio](getting-started-with-visual-csharp-and-visual-basic.md)  
-[Getting started with Razor Pages in ASP.NET Core](/aspnet/core/tutorials/razor-pages/razor-pages-start)
+> [!div class="nextstepaction"]
+> [Getting started with C# and ASP.NET in Visual Studio](tutorial-csharp-aspnet-core.md)

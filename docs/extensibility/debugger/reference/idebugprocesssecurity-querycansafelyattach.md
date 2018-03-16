@@ -15,6 +15,8 @@ caps.latest.revision: 4
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProcessSecurity::QueryCanSafelyAttach
 This method allows the port supplier to display a warning before the user attaches to an unsafe process.  
