@@ -2,7 +2,7 @@
 title: "Learn to debug - Visual Studio | Microsoft Docs"
 ms.description: "Learn how to start the Visual Studio debugger, step through code, and inspect data"
 ms.custom: "mvc"
-ms.date: "10/11/2017"
+ms.date: "03/16/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -87,11 +87,11 @@ To debug, you need to start your app with the debugger attached to the app proce
 
 ## Restart your app quickly
 
-1. Click the **Restart** ![Restart App](../debugger/media/dbg-tour-restart.png "RestartApp") button in the Debug Toolbar (Ctrl + Shift +F5).
+Click the **Restart** ![Restart App](../debugger/media/dbg-tour-restart.png "RestartApp") button in the Debug Toolbar (Ctrl + Shift +F5).
 
-    When you press **Restart**, it saves time versus stopping the app and restarting the debugger. The debugger pauses at the first breakpoint that is hit by executing code.
+When you press **Restart**, it saves time versus stopping the app and restarting the debugger. The debugger pauses at the first breakpoint that is hit by executing code.
 
-    The debugger stops again at the breakpoint you set, in the `MainWindow` constructor.
+The debugger stops again at the breakpoint you set, in the `MainWindow` constructor.
 
 ## Navigate code in the debugger using step commands
 
@@ -153,20 +153,20 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
 ## Examine the call stack
 
-- While paused in the `Update` method, click the **Call Stack** window, which is by default open in the lower right pane.
+While paused in the `Update` method, click the **Call Stack** window, which is by default open in the lower right pane.
 
-     ![Examine the call stack](../debugger/media/dbg-tour-call-stack.png "ExamineCallStack")
+![Examine the call stack](../debugger/media/dbg-tour-call-stack.png "ExamineCallStack")
 
-    The **Call Stack** window shows the order in which methods and functions are getting called. The top line shows the current function (the `Update` method in the tour app). The second line shows that `Update` was called from the `Path.set` property, and so on.
+The **Call Stack** window shows the order in which methods and functions are getting called. The top line shows the current function (the `Update` method in the tour app). The second line shows that `Update` was called from the `Path.set` property, and so on.
 
-    >  [!NOTE]
-    > The **Call Stack** window is similar to the Debug perspective in some IDEs like Eclipse.
+>  [!NOTE]
+> The **Call Stack** window is similar to the Debug perspective in some IDEs like Eclipse.
 
-    The call stack is a good way to examine and understand the execution flow of an app.
+The call stack is a good way to examine and understand the execution flow of an app.
 
-    You can double-click a line of code to go look at that source code and that also changes the current scope being inspected by the debugger. This action does not advance the debugger.
+You can double-click a line of code to go look at that source code and that also changes the current scope being inspected by the debugger. This action does not advance the debugger.
 
-    You can also use right-click menus from the **Call Stack** window to do other things. For example, you can insert breakpoints into specified functions, advance the debugger using **Run to Cursor**, and go examine source code. For more information, see [How to: Examine the Call Stack](../debugger/how-to-use-the-call-stack-window.md).
+You can also use right-click menus from the **Call Stack** window to do other things. For example, you can insert breakpoints into specified functions, advance the debugger using **Run to Cursor**, and go examine source code. For more information, see [How to: Examine the Call Stack](../debugger/how-to-use-the-call-stack-window.md).
 
 ## Step out
 

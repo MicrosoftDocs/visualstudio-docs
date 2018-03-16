@@ -1,7 +1,7 @@
 ---
 title: "Debug with C++ using the Visual Studio debugger | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/06/2017"
+ms.date: "03/18/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -87,21 +87,21 @@ A *breakpoint* is a marker that indicates where Visual Studio should suspend you
     The debugger pauses where you set the breakpoint. The statement where the debugger and app execution is paused is indicated by the yellow arrow. The line with the `doWork` function call has not yet executed.
 
     > [!TIP]
-    > If you have a breakpoint in a loop or recursion, or if you have a lot of breakpoints which you frequently step through, use a [conditional breakpoint](../debugger/using-breakpoints.md#BKMK_Specify_a_breakpoint_condition_using_a_code_expression) to make sure that your code is suspended ONLY when specific conditions are met. This saves time and can also make it easier to debug issues that are hard to reproduce.
+    > If you have a breakpoint in a loop or recursion, or if you have many breakpoints that you frequently step through, use a [conditional breakpoint](../debugger/using-breakpoints.md#BKMK_Specify_a_breakpoint_condition_using_a_code_expression) to make sure that your code is suspended ONLY when specific conditions are met. A conditional breakpoint saves time and can also make it easier to debug issues that are hard to reproduce.
 
     When trying to debug memory-related failures in C++, you can also use breakpoints to inspect address values (look for NULL) and reference counts. 
 
 ## Navigate code
 
-There are different commands to instruct the debugger to continue. We will show a useful code navigation command that is new in Visual Studio 2017.
+There are different commands to instruct the debugger to continue. We show a useful code navigation command that is new in Visual Studio 2017.
 
-- While paused at the breakpoint, hover over the statement `c1.push_back(20)` until the green **Run to click** button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick") appears, and then press the **Run to click** button.
+While paused at the breakpoint, hover over the statement `c1.push_back(20)` until the green **Run to click** button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick") appears, and then press the **Run to click** button.
 
-    ![Run to click](../debugger/media/dbg-qs-run-to-click.png "Run to click")
+![Run to click](../debugger/media/dbg-qs-run-to-click.png "Run to click")
 
-    The app continues execution, calling `doWork`, and pauses on the line of code where you clicked the button.
+The app continues execution, calling `doWork`, and pauses on the line of code where you clicked the button.
 
-    Common keyboard commands used to step through code include **F10** and **F11**. For more in-depth instructions, see the [Beginner's Guide](../debugger/getting-started-with-the-debugger.md).
+Common keyboard commands used to step through code include **F10** and **F11**. For more in-depth instructions, see the [Beginner's Guide](../debugger/getting-started-with-the-debugger.md).
 
 ## Inspect variables in a datatip
 
