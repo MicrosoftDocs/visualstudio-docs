@@ -36,7 +36,7 @@ This page provides links to JavaScript, TypeScript, ECMAScript-based reference d
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Get started with Universal Windows Apps (UWP)</h3>
+                        <h3>Get Started with Universal Windows Apps (UWP)</h3>
                     </div>
                 </div>
             </div>
