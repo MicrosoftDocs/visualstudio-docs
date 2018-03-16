@@ -32,19 +32,12 @@ we recognize this automatically.
 <sup>1</sup>  *Includes:  Not for Resale (NFR), Microsoft Valued Partner (MVP), Region Director (RD), Visual Studio Industry Partner (VSIP)*  
 
 Learn more about VSTS features: 
-- V[Basic](https://www.visualstudio.com/team-services/compare-features/)
+- [Basic](https://www.visualstudio.com/team-services/compare-features/)
 - [Test Manager](https://marketplace.visualstudio.com/items?itemName=ms.vss-testmanager-web)
 - [Package Management](https://marketplace.visualstudio.com/items?itemName=ms.feed)
 
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to you. 
 If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions. 
-
-## FAQ
-### Q:  What is the difference between Free, Basic Access, and Advanced Access?
-A:  The features available varies by access level.  Find in-depth information about [access levels](/vsts/security/access-levels). 
-
-### Q:  How do I add users to my VSTS account or team project?
-A:  Learn how to [manage users and access](/vsts/accounts/add-account-users-from-user-hub) in VSTS.
 
 ## Support Resources
 -  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://www.visualstudio.com/subscriptions/support/).
