@@ -216,9 +216,11 @@ public sealed class TestAsyncPackage : AsyncPackage
     ```csharp  
     private async System.Threading.Tasks.Task UseTextWriterAsync()  
     {  
+        // Query text writer service asynchronously to avoid a blocking call.
         ITextWriterService textService =   
-           this.ServiceProvider.GetService(typeof(STextWriterService))  
+           await AsyncServiceProvider.GlobalProvider.GetServiceAsync(typeof(STextWriterService))  
               as ITextWriterService;  
+
         // don't forget to change <userpath> to a local path  
         await textService.WriteLineAsync((<userpath>),"this is a test");  
        }  
