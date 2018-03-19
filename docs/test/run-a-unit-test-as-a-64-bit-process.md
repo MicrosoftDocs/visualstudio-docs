@@ -1,14 +1,14 @@
 ---
-title: "Run a unit test as a 64-bit process | Microsoft Docs"
+title: "Run a unit test as a 64-bit process in Visual Studio | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.technology: vs-devops-test
+ms.technology: vs-ide-test
 ms.topic: "article"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "unit tests, creating"
   - "unit tests, running"
 ms.author: gewarren
 manager: ghogen
-ms.workload:
+ms.workload: 
   - "multiple"
 author: gewarren
 ---

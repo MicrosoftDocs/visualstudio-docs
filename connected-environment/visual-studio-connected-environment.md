@@ -9,7 +9,7 @@ description: "Rapid Kubernetes development with containers and microservices on 
 keywords: "Docker, Kubernetes, Azure, AKS, Azure Container Service, containers"
 manager: "ghogen"
 ---
-# VS Connected Environment for AKS (Preview)
+# VS Connected Environment for Azure Container Service (AKS) (Preview)
 VS Connected Environment helps you develop with speed on Kubernetes. You create a Kubernetes-based environment that is fully managed in Azure and optimized for development, and then iteratively develop containers in the cloud using familiar tools like VS Code, Visual Studio, or the command line.
 
 This approach carries several benefits:
