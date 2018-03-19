@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio Connected Environment | Microsoft Docs"
+title: "Create a .NET Core development environment with containers using Kubernetes in the cloud - Step 5 - Call another container | Microsoft Docs"
 author: "johnsta"
 ms.author: "johnsta"
 ms.date: "02/20/2018"
@@ -18,7 +18,7 @@ In this section we're going to create a second service, `mywebapi`, and have `we
 ![](media/multi-container.png)
 
 ## Download sample code for *mywebapi*
-For the sake of time, let's download sample code from a GitHub repository. Go to https://github.com/johnsta/vsce-samples and select **Clone or Download** to download the GitHub repository. The code for this section is in `vsce-samples/dotnetcore/getting-started/mywebapi`.
+For the sake of time, let's download sample code from a GitHub repository. Go to https://github.com/Azure/vsce and select **Clone or Download** to download the GitHub repository. The code for this section is in `vsce/samples/dotnetcore/getting-started/mywebapi`.
 
 
 ## Run *mywebapi*

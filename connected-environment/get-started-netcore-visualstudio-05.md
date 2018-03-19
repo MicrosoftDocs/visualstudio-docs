@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio Connected Environment | Microsoft Docs"
+title: "Create a .NET Core development environment with containers using Kubernetes in the cloud with Visual Studio - Step 5 - Call another container | Microsoft Docs"
 author: "johnsta"
 ms.author: "johnsta"
 ms.date: "02/20/2018"
@@ -19,7 +19,7 @@ In this section we're going to create a second service, `mywebapi`, and have `we
 ![](media/multi-container.png)
 
 ## Download sample code for *mywebapi*
-For the sake of time, let's download sample code from a GitHub repository. Go to https://github.com/johnsta/vsce-samples and select **Clone or Download** to download the GitHub repository. The code for this section is in `vsce-samples/dotnetcore/getting-started/mywebapi`.
+For the sake of time, let's download sample code from a GitHub repository. Go to https://github.com/Azure/vsce and select **Clone or Download** to download the GitHub repository. The code for this section is in `vsce/samples/dotnetcore/getting-started/mywebapi`.
 
 ## Run *mywebapi*
 1. Open the project `mywebapi` in a *separate Visual Studio window*.
@@ -55,7 +55,7 @@ Let's now write code in `webfrontend` that makes a request to `mywebapi`. Switch
 
 Note how Kubernetes' DNS service discovery is employed to refer to the service as `http://mywebapi`. **Code in our development environment is running the same way it will run in production**.
 
-The code example above also makes use of a `HeaderPropagatingHttpClient` class. This helper class is the file `HeaderPropagation.cs` that was added to your project when you configured it to use Connected Environment. `HeaderPropagatingHttpClient` is dervied from the well-known `HttpClient` class, and it adds functionality to propagate specific headers from an existing ASP .NET HttpRequest object into an outgoing HttpRequestMessage object. We'll see later how this facilitates a more productive development experience in team scenarios.
+The code example above also makes use of a `HeaderPropagatingHttpClient` class. This helper class is the file `HeaderPropagation.cs` that was added to your project when you configured it to use Connected Environment. `HeaderPropagatingHttpClient` is derived from the well-known `HttpClient` class, and it adds functionality to propagate specific headers from an existing ASP .NET HttpRequest object into an outgoing HttpRequestMessage object. We'll see later how this facilitates a more productive development experience in team scenarios.
 
 ## Debug across multiple services
 1. At this point, `mywebapi` should still be running with the debugger attached. If it is not, hit F5 in the `mywebapi` project.

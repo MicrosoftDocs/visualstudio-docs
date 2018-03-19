@@ -1,11 +1,7 @@
 ---
 title: "Attribute glossary | Microsoft IntelliTest Developer Test Tool | Microsoft Docs"
-ms.custom: ""
 ms.date: "05/02/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: vs-devops-test
-ms.tgt_pltfrm: ""
+ms.technology: vs-ide-test
 ms.topic: "article"
 helpviewer_keywords: 
   - "IntelliTest, Attribute glossary"
