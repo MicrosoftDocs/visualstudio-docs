@@ -51,7 +51,7 @@ In this tutorial, you will:
 
 3. In the Cloud Explorer (**View > Cloud Explorer**), right-click the Azure App Service your project is deployed to and select **Attach Snapshot Debugger**.
 
-   ![Launch the snapshot debugger](../debugger/media/snapshot-launch.png "Launch the snapshot debugger")
+   ![Launch the snapshot debugger](../debugger/media/snapshot-launch.png)
 
     The first time you select **Attach Snapshot Debugger**, you're prompted to install the Snapshot Debugger site extension on your Azure App Service. This installation requires a restart of your Azure App Service. 
 
@@ -60,21 +60,21 @@ In this tutorial, you will:
     > [!NOTE]
     > The Application Insights site extension also supports Snapshot Debugging. If you encounter a "site extension out of date" error message, see [troubleshooting tips and known issues for snapshot debugging](../debugger/debug-live-azure-apps-troubleshooting.md) for upgrading details.
 
-   ![Snapshot debugging mode](../debugger/media/snapshot-message.png "Snapshot debugging mode")
+   ![Snapshot debugging mode](../debugger/media/snapshot-message.png)
 
    The **Modules** window shows you when all the modules have loaded for the Azure App Service (choose **Debug / Windows / Modules** to open this window).
 
-   ![Check the Modules window](../debugger/media/snapshot-modules.png "Check the Modules window")
+   ![Check the Modules window](../debugger/media/snapshot-modules.png)
 
 ## Set a snappoint
 
 1. In the code editor, click the left gutter next to a line of code you are interested in to set a snappoint. Make sure it is code that you know will execute.
 
-   ![Set a snappoint](../debugger/media/snapshot-set-snappoint.png "Set a snappoint")
+   ![Set a snappoint](../debugger/media/snapshot-set-snappoint.png)
 
 2. Click **Start Collection** to turn on the snappoint.  
 
-   ![Turn on the snappoint](../debugger/media/snapshot-start-collection.png "Turn on the snappoint")
+   ![Turn on the snappoint](../debugger/media/snapshot-start-collection.png)
 
     > [!TIP]
     > You can't step when viewing a snapshot, but you can place multiple snappoints in your code to follow execution at different lines of code. If you have multiple snappoints in your code, the Snapshot Debugger makes sure that the corresponding snapshots are from the same end-user session. The Snapshot Debugger does this even if there are many users hitting your app.
@@ -87,11 +87,11 @@ When a snappoint is turned on, it will capture a snapshot whenever the line of c
 
 1. When the snappoint is hit, a snapshot appears in the Diagnostic Tools window. To open this window, choose **Debug / Windows / Show Diagnostic Tools**.
 
-   ![Open a snappoint](../debugger/media/snapshot-diagsession-window.png "Open a snappoint")
+   ![Open a snappoint](../debugger/media/snapshot-diagsession-window.png)
 
 1. Double-click the snappoint to open the snapshot in the code editor.
 
-   ![Inspect snapshot data](../debugger/media/snapshot-inspect-data.png "Inspect snapshot data")
+   ![Inspect snapshot data](../debugger/media/snapshot-inspect-data.png)
 
    From this view, you can hover over variables to view DataTips, use the **Locals**, **Watches**, and **Call Stack** windows, and also evaluate expressions.
 
@@ -109,11 +109,11 @@ If it is difficult to recreate a particular state in your app, consider whether 
 
 1. Right-click a snappoint icon (the hollow ball) and choose **Settings**.
 
-   ![Choose Settings](../debugger/media/snapshot-snappoint-settings.png "Choose Settings")
+   ![Choose Settings](../debugger/media/snapshot-snappoint-settings.png)
 
 1. In the snappoint settings window, type an expression.
 
-   ![Type an expression](../debugger/media/snapshot-snappoint-conditions.png "Type an expression")
+   ![Type an expression](../debugger/media/snapshot-snappoint-conditions.png)
 
    In the preceding illustration, the snapshot is only taken for the snappoint when `visitor.FirstName == "Dan"`.
 
@@ -127,13 +127,13 @@ In addition to taking a snapshot when a snappoint is hit, you can also configure
 
 1. In the snappoint settings window, select **Actions**.
 
-    ![Create a logpoint](../debugger/media/snapshot-logpoint.png "Create a logpoint")
+    ![Create a logpoint](../debugger/media/snapshot-logpoint.png)
 
 1. In the Message field, you can enter the new log message you want to log. You can also evaluate variables in your log message by placing them inside curly braces.
 
     If you choose **Send to Output Window**, when the logpoint is hit, the message appears in the Diagnostic Tools window.
 
-    ![Logpoint data in the .diagsession window](../debugger/media/snapshot-logpoint-output.png "Logpoint data in the .diagsession window")
+    ![Logpoint data in the diagsession window](../debugger/media/snapshot-logpoint-output.png)
 
     If you choose **Send to application log**, when the logpoint is hit, the message appears anywhere that you can see messages from `System.Diagnostics.Trace` (or `ILogger` in .NET Core), such as [App Insights](/azure/application-insights/app-insights-asp-net-trace-logs).
 
