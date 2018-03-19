@@ -134,10 +134,10 @@ A *breakpoint* is a marker that indicates where Visual Studio should suspend you
 
     ![Hit a breakpoint](../debugger/media/dbg-qs-hit-breakpoint-csharp.png "Hit a breakpoint")
 
-    The debugger pauses where you set the breakpoint. The statement where the debugger and app execution is paused is indicated by the yellow arrow. The line with the `doWork` function call has not yet executed.
+    The debugger pauses where you set the breakpoint. The statement where the debugger and app execution is paused is indicated by the yellow arrow. The line with the `doWork` function call hasn't yet executed.
 
     > [!TIP]
-    > If you have a breakpoint in a loop or recursion, or if you have many breakpoints that you frequently step through, use a [conditional breakpoint](../debugger/using-breakpoints.md#BKMK_Specify_a_breakpoint_condition_using_a_code_expression) to make sure that your code is suspended ONLY when specific conditions are met. This saves time and can also make it easier to debug issues that are hard to reproduce.
+    > If you have a breakpoint in a loop or recursion, or if you have many breakpoints that you frequently step through, use a [conditional breakpoint](../debugger/using-breakpoints.md#BKMK_Specify_a_breakpoint_condition_using_a_code_expression) to make sure that your code is suspended ONLY when specific conditions are met. A conditional breakpoint can save time and it can also make it easier to debug issues that are hard to reproduce.
 
 ## Navigate code
 
