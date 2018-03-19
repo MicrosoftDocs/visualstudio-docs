@@ -16,7 +16,7 @@ Make sure to [compare cloud subscription benefits and pricing](https://www.visua
 with comparisons between cloud and standard Visual Studio subscriptions, details on subscriber benefits, and more.
 
 ### Q: Can I buy Visual Studio cloud subscriptions using a Purchase Order?
-A: No. All Visual Studio cloud subscriptions must be purchased using an Azure subscription (think of it as your Azure billing account). 
+A: No. All Visual Studio cloud subscriptions must be purchased using an Azure subscription. (Think of it as your Azure billing account.)
 
 ### Q: What types of Azure subscriptions can be used to buy Visual Studio cloud subscriptions?
 A: Almost all Azure subscriptions can be used--we support Azure subscriptions connected to your 
@@ -34,7 +34,7 @@ A: Not at all. If you only want to buy Visual Studio cloud subscriptions via Azu
 
 ### Q: Can I use an Enterprise Agreement to buy Visual Studio cloud subscriptions?
 
-A: Yes you can. You'll need to be an owner or contributor for an Azure subscription that was created for your EA. Please make sure that you make your 
+A: Yes, you can. You'll need to be an owner or contributor for an Azure subscription that was created for your EA. Please make sure that you make your 
 purchases for Visual Studio cloud subscriptions directly in the Visual Studio Marketplace. You cannot purchase Visual Studio cloud subscriptions using a 
 Purchase Order. 
 
@@ -55,7 +55,7 @@ what amount of additional purchases (purchases which are not eligible for Azure 
 
 ### Q: How are **monthly** cloud subscription charges processed?
 A: At the first purchase, we bill a prorated quantity to cover the remaining days in the current month. For instance, if a purchase of 10 Visual Studio Professional monthly 
-cloud subscriptions was made on April 15, then we would charge 5 units because there are 15 days left in the 30-day month, or 50% and we prorate the units charged by 50%. 
+cloud subscriptions was made on April 15, then we would charge 5 units because 50% of the month remains (15 days of a 30-day month). 
 On the first of May, and each month thereafter until you cancel, the full 10 units will be billed.
 
 When you increase the paid quantity later, we also prorate the increased units to cover the remaining days in the current month. So if you bought 1 more Visual Studio 

@@ -52,7 +52,7 @@ also access the Subscription Administration portal from the Partner Center by ch
 0. Log in to the [Microsoft Partner Center](https://partnercenter.microsoft.com).
 0. Choose **Customers** and the customer's name.
 0. Choose **Service Management**.
-0. choose **Manage Visual Studio Subscriptions**.
+0. Choose **Manage Visual Studio Subscriptions**.
 
 If you have more than one Azure subscription for this customer, use the drop-down menu to choose the Azure subscription through which 
 you made the purchases.  The **License Summary** shows you the number of subscriptions that have been assigned and how many 
@@ -60,7 +60,8 @@ are available for each Visual Studio cloud subscription option.  The summary als
 or reduce the number of subscriptions.
 
 Choose **add** to assign a subscription to a new user.  The displayed count updates, and the end user receives an email notification. 
-The end user can then sign in using the email address you provided to activate their Visual Studio subscription in the .
+The end user can then sign in using the email address you provided to activate their Visual Studio subscription in the 
+[Visual Studio subscriber portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs).
 
 To reassign a Visual Studio subscription to a different user, you can delete the current subscriber and add a new subscriber. 
 
@@ -122,13 +123,13 @@ A:  You get a 5% discount on the 6th and all subsequent subscriptions *within ea
 * Visual Studio Enterprise monthly
 * Visual Studio Enterprise annual
 
-So for example, if you buy 6 Visual Studio Professional monthly subscriptions and 5 Visual Studio Enterprise monthly subscriptions, you'll pay the regular price on
+So, for example, if you buy 6 Visual Studio Professional monthly subscriptions and 5 Visual Studio Enterprise monthly subscriptions, you'll pay the regular price on
 5 Professional, get a 5% discount on the 6th Professional, and pay regular price on all 5 Enterprise subscriptions.
 
 Also, the discount only applies to charges in a given monthly billing period. So if you buy 5 Visual Studio Professional annual subscriptions in one month, 
 and then you buy 5 more the next month, you'll pay the regular price on all 10 subscriptions.
 
-These discounts are reflected in the pricing data within the Partner Center. 
+These discounts are reflected in the pricing data within the [Partner Center](https://partnercenter.microsoft.com). 
 
 ### Q: Are there renewal discounts?
 
