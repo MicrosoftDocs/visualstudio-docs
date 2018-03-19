@@ -13,11 +13,11 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "ExtensionData element"
-ms.assetid: caf6843b-dcf5-4688-a9eb-a424aae1beab
-caps.latest.revision: 11
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # ExtensionData Element
   Represents a collection of custom data items that are associated with the SharePoint project item.  

@@ -14,11 +14,11 @@ dev_langs:
 helpviewer_keywords: 
   - "appointments [Office development in Visual Studio]"
   - "Outlook calendars [Office development in Visual Studio], creating appointments"
-ms.assetid: 3ee1c03c-0bc3-49d7-8edf-b14fab9aceb8
-caps.latest.revision: 17
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Create Appointments
   This example creates an appointment and adds recipients to the appointment meeting request.  

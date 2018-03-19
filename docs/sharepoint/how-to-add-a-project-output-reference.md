@@ -17,11 +17,11 @@ helpviewer_keywords:
   - "project output references [SharePoint development in Visual Studio]"
   - "SharePoint development in Visual Studio, project output references"
   - "SharePoint development in Visual Studio, advanced packaging tools"
-ms.assetid: 9d6bc25e-bf0d-4483-a691-2ad7a796fa80
-caps.latest.revision: 15
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Add a Project Output Reference
   To deploy non-SharePoint project assemblies (or .xap files in Silverlight projects) to SharePoint, add them as a project output reference.  

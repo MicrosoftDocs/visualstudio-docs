@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "03/13/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: msbuild
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -20,9 +19,11 @@ helpviewer_keywords:
   - "When Element [MSBuild]"
 ms.assetid: eb27de6f-4e71-4e87-87e2-d93f7bf5899c
 caps.latest.revision: 9
-author: "kempb"
-ms.author: "kempb"
+author: Mikejo5000
+ms.author: mikejo
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # When Element (MSBuild)
 Specifies a possible block of code for the `Choose` element to select.  

@@ -21,6 +21,8 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.technology: "vs-data-tools"
+ms.workload: 
+  - "data-storage"
 ---
 # Walkthrough: Save data in a transaction
 This walkthrough demonstrates how to save data in a transaction by using the <xref:System.Transactions> namespace. In this walkthrough you'll create a Windows Forms application. You'll use the Data Source Configuration Wizard to create a dataset for two tables in the Northwind sample database. You'll add data bound controls to a Windows form, and you'll modify the code for the BindingNavigator's save button to update the database inside a TransactionScope.  
@@ -28,7 +30,7 @@ This walkthrough demonstrates how to save data in a transaction by using the <xr
 ## Prerequisites  
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.  
   
-1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Editions download page](https://www.microsoft.com/en-us/server-cloud/Products/sql-server-editions/sql-server-express.aspx), or through the **Visual Studio Installer**. In the Visual Studio Installer, SQL Server Express LocalDB can be installed as part of the **.NET desktop development** workload, or as an individual component.  
+1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the Visual Studio Installer, SQL Server Express LocalDB can be installed as part of the **.NET desktop development** workload, or as an individual component.  
   
 2.  Install the Northwind sample database by following these steps:  
 

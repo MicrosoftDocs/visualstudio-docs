@@ -14,11 +14,11 @@ dev_langs:
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, client object model"
   - "SharePoint commands [SharePoint development in Visual Studio]"
-ms.assetid: 897d3798-42c1-4fff-b280-8b84b53d80c6
-caps.latest.revision: 100
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Walkthrough: Calling into the SharePoint Client Object Model in a Server Explorer Extension
   This walkthrough demonstrates how to call the SharePoint client object model from an extension for the **SharePoint Connections** node in **Server Explorer**. For more information about how to use the SharePoint client object model, see [Calling into the SharePoint Object Models](../sharepoint/calling-into-the-sharepoint-object-models.md).  

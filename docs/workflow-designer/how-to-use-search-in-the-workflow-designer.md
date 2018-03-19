@@ -1,15 +1,13 @@
 ---
 title: "How to: Use Search in the Workflow Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
 ms.assetid: f42d3115-2ed2-4941-8f1e-92dac41c30fa
-caps.latest.revision: 3
-ms.author: "sdanie"
-manager: "erikre"
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+author: gewarren
 ---
 # How to: Use Search in the Workflow Designer
 To facilitate creating larger, more complex workflows, Search can be used in the Workflow Designer to find items by keyword. Note that the designer does not support Replace. Search will find the following in the designer:  

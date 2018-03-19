@@ -1,45 +1,48 @@
 ---
 title: Variable Explorer in R Tools for Visual Studio | Microsoft Docs
-ms.custom: ""
-ms.date: 06/30/2017
-ms.reviewer: ""
-ms.suite: ""
+description: The Variable Explorer in Visual Studio shows all variables at a given scope in the current R session.
+ms.custom:
+ms.date: 01/24/2018
+ms.reviewer:
+ms.suite:
 ms.technology: 
   - "devlang-r"
-ms.devlang: r
-ms.tgt_pltfrm: ""
+dev_langs:
+  - "R"
+ms.tgt_pltfrm:
 ms.topic: "article"
-caps.latest.revision: 1
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
+ms.workload: 
+  - "data-science"
 ---
 
 # Variable Explorer
 
-The **Variable Explorer** window, opened using **R Tools > Windows > Variable Explorer** (or Ctrl+8 if you've used **R Tools > Data Science Settings**), shows all variables at a given scope in the current R session. For example, if you're opened the Variable Explorer and enter the following lines in the [interactive window](interactive-repl.md):
+The **Variable Explorer** window, opened using **R Tools > Windows > Variable Explorer** (or Ctrl+8 if you've used **R Tools > Data Science Settings**), shows all variables at a given scope in the current R session. For example, if you're opened the Variable Explorer and enter the following lines in the [interactive window](interactive-repl-for-r-in-visual-studio.md):
 
 ```R
 x <- 42
 y <- 43
 n <- c(1,2,3,5,8,13)
 ```
- 
+
 The Variable Explorer window then appears as follows:
 
 ![Variable explorer window in Visual Studio](media/variable-explorer-window.png)
 
 If you have a more complex R data frame defined in the session, you can navigate into the data. For example, after running `cars <- mtcars` you can navigate through the dataset by expanding the different nodes in the Variable Explorer:
- 
+
 ![Expanded view of the Variable Explorer](media/variable-explorer-expanded-results.png)
- 
+
 To delete variables, right-click and select **Delete**, or select the variable and press the Delete key.
 
 You can also search for an observation in a data frame using incremental search. First, expand the nodes in the data frame that you want to search, then enter search terms in the search box.
 
 ## Details (table) view
 
-Because data is often tabular, you can view any complex data type as a separate table by selecting the magnifying glass icon or right-clicking and selecting **Show Details**. 
+Because data is often tabular, you can view any complex data type as a separate table by selecting the magnifying glass icon or right-clicking and selecting **Show Details**.
 
 ![Variable Explorer table view](media/variable-explorer-table-view.png)
 
@@ -66,7 +69,6 @@ You can also switch to a function scope when stopped at a breakpoint in the debu
 ![Variable Explorer showing a data frame during debugging](media/variable-explorer-as-locals-window.png)
 
 Variable Explorer automatically changes function scope as you step through code in the debugger, such as showing local variables in a function.
-
 
 ## Importing data into Variable Explorer
 

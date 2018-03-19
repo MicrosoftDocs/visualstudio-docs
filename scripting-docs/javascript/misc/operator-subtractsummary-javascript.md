@@ -30,7 +30,7 @@ The following tables list [!INCLUDE[javascript](../../javascript/includes/javasc
 |[Decrement](../../javascript/reference/increment-and-decrement-operators-javascript.md)|--|  
 |[Division](../../javascript/reference/division-operator-decrement-javascript.md)|/|  
 |[Increment](../../javascript/reference/increment-and-decrement-operators-javascript.md)|++|  
-|[Modulus](../../javascript/reference/modulus-operator-decrementjavascript.md)|%|  
+|[Remainder](../../javascript/reference/modulus-operator-decrementjavascript.md)|%|  
 |[Multiplication](../../javascript/reference/multiplication-operator-decrement-javascript.md)|*|  
 |[Subtraction](../../javascript/reference/subtraction-operator-decrement-javascript.md)|-|  
 |[Unary negation](../../javascript/reference/subtraction-operator-decrement-javascript.md)|-|  

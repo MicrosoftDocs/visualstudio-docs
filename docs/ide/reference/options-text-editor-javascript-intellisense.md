@@ -16,6 +16,8 @@ caps.latest.revision: 20
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Options, Text Editor, JavaScript, IntelliSense
 Use the **IntelliSense** page of the **Options** dialog box to modify settings that affect the behavior of IntelliSense for JavaScript. You can access the **IntelliSense** page by choosing **Tools**, **Options** on the  menu bar, and then expanding **Text Editor**, **JavaScript**, **IntelliSense.**  

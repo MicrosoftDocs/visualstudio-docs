@@ -19,11 +19,11 @@ helpviewer_keywords:
   - "mail items [Office development in Visual Studio], calendars"
   - "calendars [Office development in Visual Studio], about calendars in Outlook"
   - "e-mail [Office development in Visual Studio], calendars"
-ms.assetid: 8adf9a13-5bd9-4053-91fe-b8d5f8534e21
-caps.latest.revision: 8
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Working with Calendar Items
   The <xref:Microsoft.Office.Interop.Outlook.AppointmentItem> class contains the methods and properties you use to perform tasks with calendar items.  

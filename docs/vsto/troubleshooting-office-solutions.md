@@ -15,11 +15,11 @@ helpviewer_keywords:
   - "Office applications [Office development in Visual Studio], troubleshooting"
   - "Office development in Visual Studio, troubleshooting"
   - "troubleshooting [Office development in Visual Studio]"
-ms.assetid: 0518ffa9-97e5-4596-8ff2-8a24aef42b9e
-caps.latest.revision: 27
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Troubleshooting Office Solutions
   This section contains tips for solving common problems that you might encounter when creating solutions by using the Office development tools in Visual Studio.  

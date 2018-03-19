@@ -13,6 +13,8 @@ caps.latest.revision: 5
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # SDKReference Element (Visual Studio Templates)
 Specifies that the item template uses an SDK reference.  

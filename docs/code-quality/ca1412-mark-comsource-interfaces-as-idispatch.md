@@ -19,6 +19,8 @@ caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA1412: Mark ComSource Interfaces as IDispatch
 |||  

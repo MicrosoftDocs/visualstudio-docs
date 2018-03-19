@@ -17,6 +17,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # BP_LOCATION_DATA_STRING
 Used for setting data breakpoints that are based on a string that the user can enter from the integrated development environment (IDE).  

@@ -13,6 +13,8 @@ caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Output
 The **Output** option specifies the name of the profiling data file for the performance session. **Output** must be used with the **Start** option.  

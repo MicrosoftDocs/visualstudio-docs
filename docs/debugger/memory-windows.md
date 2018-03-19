@@ -28,6 +28,8 @@ caps.latest.revision: 32
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Use the Memory Windows in the Visual Studio Debugger
 The **Memory** window provides a view into the memory space that is used by your application. The **Watch** window, **QuickWatch** dialog box, **Autos** window, and **Locals** window show you the content of variables, which are stored at specific locations in memory. But the **Memory** window shows you the large-scale picture. This view can be convenient for examining large pieces of data (buffers or large strings, for example) that do not display well in the other windows. However, the **Memory** window is not limited to displaying data. It displays everything in the memory space, whether the content is data, code, or random bits of garbage in unassigned memory.  

@@ -14,11 +14,11 @@ dev_langs:
 helpviewer_keywords: 
   - "hidden worksheets"
   - "worksheets, hiding"
-ms.assetid: 3208f633-137f-47f9-9c9c-2cf8e3c72096
-caps.latest.revision: 44
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Hide Worksheets
   You can show or hide any worksheet in a workbook. To hide a worksheet, use the worksheet host item or access the worksheet by using the sheets collection of the workbook.  

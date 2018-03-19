@@ -17,8 +17,6 @@ dev_langs:
   - "DHTML"
 helpviewer_keywords: 
   - "Sort method"
-ms.assetid: 9bd8b54a-c838-4806-85c8-62eebe6bc48c
-caps.latest.revision: 15
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
@@ -46,13 +44,13 @@ arrayobj.sort(sortFunction)
 ## Remarks  
  The `sort` method sorts the `Array` object in place; no new `Array` object is created during execution.  
   
- If you supply a function in the `sortFunction` argument, it must return one of the following values:  
+ `sortFunction` takes two arguments and must return one of the following values:  
   
--   A negative value if the first argument passed is less than the second argument.  
+-   A negative value (less than 0) if the first argument passed is less than the second argument.  The first argument is sorted to a lower index.
   
--   Zero if the two arguments are equivalent.  
+-   Zero (0) if the two arguments are equivalent.  The two arguments are sorted with respect to other elements in the array, but are not sorted with respect to each other.
   
--   A positive value if the first argument is greater than the second argument.  
+-   A positive value (greater than 0) if the first argument is greater than the second argument.  The second argument is sorted to a lower index.
   
 ## Example  
  The following example shows how to use the `sort` method.  

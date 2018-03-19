@@ -17,6 +17,8 @@ caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaLoadCallback::RestrictRegistryAccess
 Determines if registry queries can be used to locate symbol search paths.  

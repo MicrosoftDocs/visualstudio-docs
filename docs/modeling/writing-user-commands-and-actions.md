@@ -4,13 +4,13 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ba5ff03f-d2e3-4188-a706-3eb68ffb5f9e
-caps.latest.revision: 7
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Writing User Commands and Actions
 You can customize a domain-specific language by adding commands to the diagram, and by responding to gestures such as drag-and-drop, click, and double-click events.  

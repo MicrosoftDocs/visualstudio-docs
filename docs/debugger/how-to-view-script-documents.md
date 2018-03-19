@@ -20,6 +20,8 @@ caps.latest.revision: 22
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: View Script Documents
 In earlier versions of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], client-side script files generated from server-side script appeared in the Script Explorer window. The Script Explorer window was often hidden, so that the availability of client-side script was not always obvious.  

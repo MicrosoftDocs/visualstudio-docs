@@ -16,11 +16,11 @@ helpviewer_keywords:
   - "shortcut keys [Office development in Visual Studio]"
   - "Ribbon [Office development in Visual Studio], shortcut keys"
   - "accessibility [Office development in Visual Studio]"
-ms.assetid: 48efcf1f-ca49-47ce-99f0-cc99f051aeae
-caps.latest.revision: 24
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Accessibility in Office Projects
   Microsoft Visual Studio and Microsoft Office include many accessibility features that enable you to build custom solutions that meet standard accessibility requirements. Microsoft publishes guidelines for accessibility on the Web. For details, see the [Accessibility Web site](http://go.microsoft.com/fwlink/?LinkID=37113).  

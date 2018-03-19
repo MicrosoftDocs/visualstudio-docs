@@ -17,6 +17,8 @@ caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSession::getSymbolsByAddr
 Retrieves an enumerator that finds symbols in the order of their addresses.  

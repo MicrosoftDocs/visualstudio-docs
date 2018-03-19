@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.error.http"
   - "vwd.nonadmin.error."
@@ -27,11 +27,12 @@ helpviewer_keywords:
   - "errors [debugger], unable to start debugging"
   - "debugging ASP.NET Web applications, unable to start debugging error"
   - "remote debugging, errors"
-ms.assetid: f62e378a-3a99-4f78-9d97-8bb63a4da181
 caps.latest.revision: 29
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Error: Unable to Start Debugging on the Web Server
 
@@ -80,8 +81,10 @@ The `Unable to start debugging on the Web server` message is generic. Usually, a
 
 ## <a name="server_error"></a> The remote server returned an error
 
-Check the error code that is returned in the message to help identify the cause of the problem. Here are a few common error codes.
-- (403) Forbidden. Verify that you are connecting to the correct server type and URL (in **Properties > Web > Servers** or **Properties > Debug**, depending on your project type). Also, verify that the server's web.config includes `debug=true` in the compilation element. If these settings are already correct, verify that your Web Application folder has the correct folder permissions. For more information, see [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck).
+Check your [IIS log file](https://support.microsoft.com/help/943891/the-http-status-code-in-iis-7-0--iis-7-5--and-iis-8-0) for error subcodes and additional information, and this IIS 7 [blog post](https://blogs.iis.net/tomkmvp/troubleshoot-a-403).
+
+In addition, here are some of the common error codes and a few suggestions.
+- (403) Forbidden. There are many possible causes for this error, so check your log file and the IIS security settings for the web site. Make sure the server's web.config includes `debug=true` in the compilation element. Make sure that your Web Application folder has the right permissions and that your Application Pool configuration is correct (a password may have changed). See [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck). If these settings are already correct and you are debugging locally, also verify that you are connecting to the correct server type and URL (in **Properties > Web > Servers** or **Properties > Debug**, depending on your project type).
 - (503) Server Unavailable. The Application Pool may have stopped due to an error or configuration change. Restart the Application Pool.
 - (404) Not Found. Make sure that the Application Pool is configured for the correct version of ASP.NET.
 
@@ -115,17 +118,17 @@ After taking steps detailed here to resolve the issue, and before trying again t
 
 * Check your Application Pool configuration, correct it if needed, and then retry.
 
-    The Application Pool may be configured for a version of ASP.NET that does not match your Visual Studio project. Update the ASP.NET version in the Application Pool and restart it. For detailed information, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45).
+    The Application Pool may be configured for a version of ASP.NET that does not match your Visual Studio project. Update the ASP.NET version in the Application Pool and restart it. For detailed information, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45).
 
     Also, if password credentials have changed, you may need to update them in your Application Pool or Web site.  In the Application Pool, update credentials in **Advanced Settings > Process Model > Identity**. For the Web site, update credentials in **Basic Settings > Connect as...**. Restart your Application Pool.
     
 * Check that your Web Application folder has the right permissions.
 
-    Make sure that you give IIS_IUSRS, IUSR, or the specific user associated with the Application Pool read and execute rights for the Web Application folder. Fix the issue and restart your Application Pool.
+    Make sure that you give IIS_IUSRS, IUSR, or the specific user associated with the [Application Pool](/iis/manage/configuring-security/application-pool-identities) read and execute rights for the Web Application folder. Fix the issue and restart your Application Pool.
 
 * Make sure that the correct version of ASP.NET is installed on IIS.
 
-    Mismatched versions of ASP.NET on IIS and in your Visual Studio project may cause this issue. You may need to set the framework version in web.config. To install ASP.NET on IIS, use the [Web Platform Installer (WebPI)](https://www.microsoft.com/web/downloads/platform.aspx). Also, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45) or, for ASP.NET Core, [Host on Windows with IIS](https://docs.asp.net/en/latest/publishing/iis.html).
+    Mismatched versions of ASP.NET on IIS and in your Visual Studio project may cause this issue. You may need to set the framework version in web.config. To install ASP.NET on IIS, use the [Web Platform Installer (WebPI)](https://www.microsoft.com/web/downloads/platform.aspx). Also, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45) or, for ASP.NET Core, [Host on Windows with IIS](https://docs.asp.net/en/latest/publishing/iis.html).
   
 * Resolve authentication errors if you are using only the IP address
 
@@ -151,7 +154,7 @@ If the IIS configuration is not causing the issue, try these steps:
 
      If IIS is not installed correctly, you should get errors when you type `http://localhost` in a browser.
      
-     For more information on deploying to IIS, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45) and, for ASP.NET Core, [Host on Windows with IIS](https://docs.asp.net/en/latest/publishing/iis.html).
+     For more information on deploying to IIS, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45) and, for ASP.NET Core, [Host on Windows with IIS](https://docs.asp.net/en/latest/publishing/iis.html).
 
 * Create a basic ASP.NET application on the server (or use a basic web.config file).
 

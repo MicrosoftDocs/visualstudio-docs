@@ -28,6 +28,8 @@ caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Web Browser, Environment, Options Dialog Box
 Sets options for both the internal Web browser and Internet Explorer. To access this dialog box, click **Options** on the **Tools** menu, expand the **Environment** folder, and select **Web Browser**.  

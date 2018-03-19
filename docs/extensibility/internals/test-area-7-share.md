@@ -16,6 +16,8 @@ caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Test Area 7: Share
 This test area covers sharing items between locations via the **Share** command.  

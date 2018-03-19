@@ -15,6 +15,8 @@ caps.latest.revision: 22
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Collect Line-Level Sampling Data
 Line-level sampling is the ability of the profiler to determine where in the code of a processor-intensive function, such as a function that has high exclusive samples, the processor has to spend most of its time.  

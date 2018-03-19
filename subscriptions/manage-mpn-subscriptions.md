@@ -1,5 +1,5 @@
 ---
-title: Manage Visual Studio subscriptions offered through the Microsoft Partner Network (MPN) | Microsoft Docs 
+title: Manage Visual Studio subscriptions offered through the Microsoft Partner Network (MPN) | Microsoft Docs
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp
@@ -14,8 +14,7 @@ Searchscope: VS Subscription
 # Managing Visual Studio sSubscriptions offered through the Microsoft Partner Network (MPN)
 
 ## Overview
-Partners who earn a competency or who purchase the Action Pack in MPN are eligible to use Visual Studio subscriptions. These subscriptions are licensed per user, and are only valid when 
-assigned to a specific named user who works for the partner company. 
+Partners who earn a competency or who purchase the Action Pack in MPN are eligible to use Visual Studio subscriptions. These subscriptions are licensed per user, and are only valid when assigned to a specific named user who works for the partner company.
 
 See [Visual Studio subscriptions offered to partners in the Microsoft Partner Network (MPN)](program-mpn.md) for details.
 
@@ -50,7 +49,7 @@ Microsoft Action Pack subscriber and Visual Studio subscriptions
 5. Click **Submit**
 6. The individual will receive an email
 7. The assigned individual will access [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs) to sign in
-8. A Visual Studio profile page may be displayed 
+8. A Visual Studio profile page may be displayed
     - First Name
     - Last Name
     - Contact Email
@@ -60,7 +59,7 @@ Microsoft Action Pack subscriber and Visual Studio subscriptions
 
 - Details regarding the Microsoft Partner Network [Visual Studio subscriptions](https://partner.microsoft.com/membership/msdn-subscriptions)
 
-- Microsoft Partner Network [Program Administrator Guide to Software and Online Services Benefits]((https://assets.microsoft.com/Program-Administrator-Guide-to-Software-and-Online-Services-Benefits_1.pdf) )
+- Microsoft Partner Network [Program Administrator Guide to Software and Online Services Benefits](https://assets.microsoft.com/Program-Administrator-Guide-to-Software-and-Online-Services-Benefits_1.pdf)
     - Pg 6 - Assigning Contact Roles and Visual Studio subscriptions for Action Pack
 
 > [!NOTE]

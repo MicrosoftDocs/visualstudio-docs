@@ -25,6 +25,8 @@ caps.latest.revision: 18
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "cplusplus"
 ---
 # Debugging Native Code FAQs
 The following topics contain answers to some frequently asked questions:  

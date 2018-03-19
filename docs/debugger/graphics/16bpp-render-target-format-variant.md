@@ -13,6 +13,8 @@ caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # 16bpp Render Target Format Variant
 Sets the pixel format to DXGI_FORMAT_B5G6R5_UNORM for all render targets and back buffers.  

@@ -15,6 +15,8 @@ caps.latest.revision: 7
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # How to: Clear the Undo Stack
 The following procedure below explains how to clear the undo stack.  

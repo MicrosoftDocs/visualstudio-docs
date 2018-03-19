@@ -13,6 +13,8 @@ caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Change the Graphics Diagnostics Playback Machine
 You can play back graphics information by using your local machine, or by using a remote machine or device.  

@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.error.sqlde_debugging_not_enabled"
 dev_langs: 
@@ -16,11 +16,12 @@ dev_langs:
   - "FSharp"
   - "C++"
   - "SQL"
-ms.assetid: 527cf400-d12d-45ef-a7e7-baa65ca96ec5
 caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Error: Unable to access the SQL Server debugging interface
 This message occurs when you attempt SQL debugging on a machine where SQL debugging is not enabled.  

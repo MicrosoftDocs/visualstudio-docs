@@ -16,11 +16,11 @@ helpviewer_keywords:
   - "e-mail [Office development in Visual Studio], attachments"
   - "mail items [Office development in Visual Studio], attachments"
   - "attachments [Office development in Visual Studio]"
-ms.assetid: 9bccf6f9-3c63-4d23-8f44-f7a608a43613
-caps.latest.revision: 14
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Attach Files to Outlook E-Mail Items
   This example attaches a file to a new mail item and sends it to Armando Pinto. The example assumes a person named Armando Pinto exists as the recipient.  

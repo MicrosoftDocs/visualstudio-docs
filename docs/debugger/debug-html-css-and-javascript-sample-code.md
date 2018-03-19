@@ -1,5 +1,5 @@
 ---
-title: "Debug HTML, CSS, and JavaScript sample code | Microsoft Docs"
+title: "Debug HTML and CSS sample code | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -18,9 +18,10 @@ caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
-# Debug HTML, CSS, and JavaScript sample code
-![Applies to Windows and Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  
+# Debug HTML and CSS sample code
   
  The code in this topic is the sample file for [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md). The errors present by design in the QuickStart are fixed in this version of the code.  
   
@@ -59,7 +60,7 @@ manager: ghogen
     var activation = Windows.ApplicationModel.Activation;  
   
     var myData = [];  
-    for (var x = 0; x < 4; x++) {  
+    for (var x = 0; x < 3; x++) {  
         myData[x] = { flipImg: "/images/logo.png" }  
     };  
   
@@ -81,9 +82,9 @@ manager: ghogen
   
     function updateImages() {  
   
-        pages.setAt(0, { flipImg: "http://go.microsoft.com/fwlink/?LinkID=223195" });  
-        pages.setAt(1, { flipImg: "http://go.microsoft.com/fwlink/?LinkID=223196" });  
-        pages.setAt(2, { flipImg: "http://go.microsoft.com/fwlink/?LinkID=223197" });  
+        pages.setAt(0, { flipImg: "http://public-domain-photos.com/free-stock-photos-1/flowers/cactus-76.jpg" });  
+        pages.setAt(1, { flipImg: "http://public-domain-photos.com/free-stock-photos-1/flowers/cactus-77.jpg" });  
+        pages.setAt(2, { flipImg: "http://public-domain-photos.com/free-stock-photos-1/flowers/cactus-78.jpg" });  
     };  
   
     app.oncheckpoint = function (args) {  

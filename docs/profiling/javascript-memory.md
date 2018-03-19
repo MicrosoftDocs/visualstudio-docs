@@ -9,10 +9,7 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
+  - "JavaScript"
 helpviewer_keywords: 
   - "dominators, memory analyzer (JavaScript)"
   - "memory leaks (JavaScript)"
@@ -22,11 +19,12 @@ helpviewer_keywords:
   - "JavaScript Memory Analyzer"
   - "analyzing memory, JavaScript"
   - "memory analyzer, JavaScript"
-ms.assetid: 78f8532b-7b4e-4b50-b8b7-68ca0926dd4e
 caps.latest.revision: 49
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Analyze JavaScript Memory Usage in UWP Apps
 The JavaScript memory analyzer is available in Visual Studio to help you understand memory usage and find memory leaks in your UWP apps built for Windows using JavaScript. Supported apps include apps for Universal Windows Apps.
@@ -43,36 +41,14 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
   
      Objects that aren't created directly in your app code are automatically filtered out. You can also filter data by object name.  
   
- For a tutorial that leads you through the process of identifying a memory leak in a working app, see [Walkthrough: Find a memory leak (JavaScript)](../profiling/walkthrough-find-a-memory-leak-javascript.md).  
-  
- In this topic:  
-  
- [Run the JavaScript memory analyzer](#Run)   
- [Check memory usage](#Check)   
- [Isolate a memory leak](#Isolate)   
- [View live memory usage summary](#LiveMemory)   
- [View a snapshot summary](#SnapshotSummary)   
- [View snapshot details](#SnapshotDetails)   
- [View a snapshot diff](#SnapshotDiff)   
- [View objects by dominator](#FoldObjects)   
- [Filter data by identifier](#Filter)   
- [Find an object in the object tree](#ShowInRootsView)   
- [View shared object references](#References)   
- [Show built-in objects](#BuiltInValues)   
- [Save diagnostic session files](#Save)   
- [Associate source code with memory usage data](#JSConsoleCommands)   
- [Tips for identifying memory issues](#Tips)  
-  
 ##  <a name="Run"></a> Run the JavaScript memory analyzer  
- You can use the memory analyzer when you have a working UWP app open in Visual Studio or installed on a computer that is running [!INCLUDE[win8](../debugger/includes/win8_md.md)] or later.  
+ You can use the memory analyzer when you have a working UWP app open in Visual Studio.
   
 #### To run the memory analyzer  
   
 1.  Open Visual Studio.  
   
-2.  If you're running the app from Visual Studio, in the **Start Debugging** list on the **Standard** toolbar, choose the debug target for your project: either a Windows Phone Emulator or, for a UWP app, **Local Machine**, **Simulator**, or **Remote Machine**.  
-  
-     For more info about these options, see [Run apps from Visual Studio](../debugger/run-store-apps-from-visual-studio.md).  
+2.  If you're running the app from Visual Studio, in the **Start Debugging** list on the **Standard** toolbar, choose the debug target for your project: either **Local Machine** or **Device**.  
   
 3.  On the menu bar, choose **Debug**, **Performance Profiler...**.  
   
@@ -395,6 +371,3 @@ if (performance && performance.mark) {
          You can use these commands to help isolate issues that you can't isolate by manually taking a heap snapshot.  
   
     -   Create a test object and trace it in the JavaScript memory analyzer views, such as the Types view. For example, you can attach a very large object to another object to see whether a particular object or element has been garbage-collected.  
-  
-## See Also  
- [Walkthrough: Find a memory leak (JavaScript)](../profiling/walkthrough-find-a-memory-leak-javascript.md)

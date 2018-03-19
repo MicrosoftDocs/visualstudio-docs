@@ -24,6 +24,8 @@ caps.latest.revision: 26
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Display and Hide Register Groups
 The **Registers** window is available only if address-level debugging is enabled in the **Options** dialog box, **Debugging** node, **General** category.  

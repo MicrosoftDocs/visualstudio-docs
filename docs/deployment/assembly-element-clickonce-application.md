@@ -21,6 +21,8 @@ caps.latest.revision: 15
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+ms.workload: 
+  - "multiple"
 ---
 # &lt;assembly&gt; Element (ClickOnce Application)
 The top-level element for the application manifest.  

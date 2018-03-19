@@ -16,11 +16,11 @@ helpviewer_keywords:
   - "project items [SharePoint development in Visual Studio], defining your own types"
   - "SharePoint projects, creating custom templates"
   - "SharePoint development in Visual Studio, defining new project item types"
-ms.assetid: b53d48d7-cbf2-45c2-9537-06a6819be397
-caps.latest.revision: 60
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Walkthrough: Creating a Site Column Project Item with a Project Template, Part 1
   SharePoint projects are containers for one or more SharePoint project items. You can extend the SharePoint project system in Visual Studio by creating your own SharePoint project item types and then associating them with a project template. In this walkthrough, you will define a project item type for creating a site column, and then you will create a project template that can be used to create a new project that contains a site column project item.  

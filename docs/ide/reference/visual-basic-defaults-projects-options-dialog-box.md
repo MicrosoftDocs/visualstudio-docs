@@ -19,6 +19,8 @@ caps.latest.revision: 19
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Visual Basic Defaults, Projects, Options Dialog Box
 Specifies the default settings for Visual Basic project options. When a new project is created, the specified option statements will be added to the project header in the Code Editor. The options apply to all Visual Basic projects.  

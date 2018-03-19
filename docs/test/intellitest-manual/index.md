@@ -1,26 +1,22 @@
 ---
 title: "IntelliTest Reference Manual | Microsoft Developer Test Tools | Microsoft Docs"
-ms.custom: ""
 ms.date: "05/02/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
+ms.technology: vs-ide-test
 ms.topic: "article"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "IntelliTest Reference Manual, IntelliTest"
-ms.assetid: C5FA1C59-BB82-43B6-BF96-D0D85E033DAE
-caps.latest.revision: 56
-ms.author: "douge"
-manager: "douge"
+ms.author: gewarren
+manager: ghogen
+ms.workload:
+  - "multiple"
+author: gewarren
 ---
 # IntelliTest Reference Manual
 
 ## Contents
 
 * **[Overview of IntelliTest](introduction.md)**
-  - [The Hello World of IntelliTest](introduction.md#hello-world)
+  - [The Hello World of IntelliTest](introduction.md#the-hello-world-of-intellitest)
   - [Limitations](introduction.md#limitations)
     * [Nondeterminism](introduction.md#nondeterminism)
     * [Concurrency](introduction.md#concurrency)
@@ -28,13 +24,13 @@ manager: "douge"
     * [Platform](introduction.md#platform)
     * [Language](introduction.md#language)
     * [Symbolic reasoning](introduction.md#symbolic-reasoning)
-    * [Incorrect stack traces](introduction.md#incorrect-stack)
+    * [Incorrect stack traces](introduction.md#incorrect-stack-traces)
   - [Further reading](introduction.md#further-reading)<p>&nbsp;</p>
 
 * **[Get started with IntelliTest](getting-started.md)**
   - [Important attributes](getting-started.md#important-attributes)
   - [Important static helper classes](getting-started.md#helper-classes)<p>&nbsp;</p>
- 
+
 * **[Test Generation](test-generation.md)**
   - [Test generators](test-generation.md#test-generators)
   - [Parameterized unit testing](test-generation.md#parameterized-unit-testing)
@@ -124,5 +120,5 @@ manager: "douge"
 
 ## Got feedback?
 
-Post your ideas and feature requests on 
+Post your ideas and feature requests on
 **[UserVoice](https://visualstudio.uservoice.com/forums/121579-visual-studio-2015/category/157869-test-tools?query=IntelliTest)**.

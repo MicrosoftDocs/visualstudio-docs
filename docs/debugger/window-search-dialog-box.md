@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 helpviewer_keywords: 
   - "Window Search"
 ms.assetid: 9c30390d-dc3c-4c27-ae1a-9d92dc076d2b
@@ -15,6 +15,8 @@ caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Window Search Dialog Box
 Use this dialog box to find and select the node for a specific window in [Windows View](../debugger/windows-view.md). To display this dialog box, move the focus to the Windows view window. Then choose **Find Window** from the **Search** menu.  

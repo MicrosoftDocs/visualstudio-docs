@@ -17,6 +17,8 @@ caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaReadExeAtRVACallback::ReadExecutableAtRVA
 Reads the specified number of bytes starting at the specified relative virtual address (RVA) from the executable file.  

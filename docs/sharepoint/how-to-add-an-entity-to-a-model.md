@@ -20,11 +20,11 @@ helpviewer_keywords:
   - "Business Data Connectivity service [SharePoint development in Visual Studio], adding an entity"
   - "Business Data Connectivity service [SharePoint development in Visual Studio], entity"
   - "BDC [SharePoint development in Visual Studio], adding an entity"
-ms.assetid: 139a6639-dabe-4e14-bb64-e5f4efb6f2fb
-caps.latest.revision: 23
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Add an Entity to a Model
   To create an entity, add an entity control from the Visual Studio **Toolbox** onto the Business Data Connectivity (BDC) designer.  

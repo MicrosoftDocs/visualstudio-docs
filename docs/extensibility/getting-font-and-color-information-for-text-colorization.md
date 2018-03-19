@@ -16,6 +16,8 @@ caps.latest.revision: 22
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Getting Font and Color Information for Text Colorization
 The process that renders or displays colorized text in user interface (UI) elements depends on the type of project, its technology, and developer preferences. The **Fonts and Colors** property page stores the settings.  

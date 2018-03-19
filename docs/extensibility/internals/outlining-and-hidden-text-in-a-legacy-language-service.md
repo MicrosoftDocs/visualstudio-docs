@@ -15,6 +15,8 @@ caps.latest.revision: 5
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Outlining and Hidden Text in a Legacy Language Service
 Outlining makes it possible to collapse a sequence of text lines into a single line. For example, in C++ all methods can be collapsed to a single line, showing only the method signature. Hidden text is the sequence of text lines that can be shown or hidden.  

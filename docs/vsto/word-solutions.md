@@ -27,11 +27,11 @@ helpviewer_keywords:
   - "user interfaces [Office development in Visual Studio], Word"
   - "Office documents [Office development in Visual Studio, Word"
   - "document-level customizations [Office development in Visual Studio], Word"
-ms.assetid: ef339ad8-1897-4a44-b588-e6004d0b6d8b
-caps.latest.revision: 36
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Word Solutions
   Visual Studio provides project templates you can use to create document-level customizations and VSTO Add-ins for Microsoft Office Word. You can use these solutions to automate Word, extend Word features, and customize the Word user interface (UI). For more information about the differences between document-level customizations and VSTO Add-ins, see [Office Solutions Development Overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md).  

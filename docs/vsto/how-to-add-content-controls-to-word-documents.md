@@ -27,11 +27,11 @@ helpviewer_keywords:
   - "ComboBoxContentControl, adding to documents"
   - "DatePickerContentControl, adding to documents"
   - "Word [Office development in Visual Studio], restricted permissions"
-ms.assetid: 68ddb24e-71c6-46f7-8e11-c9899d7814df
-caps.latest.revision: 51
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Add Content Controls to Word Documents
   In document-level Word projects, you can add content controls to the document in your project at design time or at run time. In Word VSTO Add-in projects, you can add content controls to any open document at run time.  

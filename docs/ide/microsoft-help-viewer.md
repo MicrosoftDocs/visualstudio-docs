@@ -24,6 +24,8 @@ caps.latest.revision: 25
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Microsoft Help Viewer
 You can install and view content for various products and technologies on your local computer by using Microsoft Help Viewer, including Visual Studio, the .NET Framework, language reference, SQL Server, and Windows Development. Help Viewer enables you to:  

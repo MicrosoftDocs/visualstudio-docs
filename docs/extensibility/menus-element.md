@@ -16,6 +16,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Menus Element
 Defines all the menus and toolbars that a VSPackage implements.  

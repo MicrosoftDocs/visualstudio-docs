@@ -17,6 +17,8 @@ caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugCanStopEvent2
 This interface is used to ask the session debug manager (SDM) whether to stop at the current code location.  

@@ -18,6 +18,8 @@ caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugMemoryBytes2::ReadAt
 Reads a sequence of bytes, starting at a given location.  

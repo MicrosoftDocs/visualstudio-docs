@@ -17,6 +17,8 @@ caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaStackFrame::get_allocatesBasePointer
 Retrieves a flag that indicates whether the base pointer is allocated for code in this address range.  

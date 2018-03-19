@@ -11,6 +11,8 @@ caps.latest.revision: 4
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Manifest from Resources
 The Manifest from Resources tool is a console application that takes a list of image resources (.png or .xaml files) and generates an .imagemanifest file that allows those images to be used with the Visual Studio Image Service. Additionally, this tool can be used to add images to an existing .imagemanifest. This tool is useful for adding high-DPI and theming support for images to a Visual Studio extension. The generated .imagemanifest file should be included in and deployed as a part of a Visual Studio extension (.vsix).  

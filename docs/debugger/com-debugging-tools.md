@@ -26,6 +26,8 @@ caps.latest.revision: 18
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # COM Debugging Tools
 This topic lists tools that can help you test and inspect COM programs.  

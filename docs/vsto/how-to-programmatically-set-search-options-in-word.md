@@ -16,11 +16,11 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], search options"
   - "Word, searching options"
   - "searching, Word options"
-ms.assetid: 4412b4e8-2868-4afb-a593-983603ef9b02
-caps.latest.revision: 46
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Set Search Options in Word
   There are two ways to set search options for selections in Microsoft Office Word documents:  

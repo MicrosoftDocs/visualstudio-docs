@@ -17,6 +17,8 @@ caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSectionContrib::get_remove
 Retrieves a flag that indicates whether the section is removed before it is made part of the in-memory image.  

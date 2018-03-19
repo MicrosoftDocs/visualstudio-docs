@@ -11,6 +11,8 @@ ms.topic: "article"
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Default Keyboard Shortcuts for Frequently Used Commands in Visual Studio
 
@@ -61,7 +63,7 @@ You can access frequently used commands in Visual Studio by choosing these defau
 |Edit.Delete|Delete [Global, Team Explorer]<br /><br /> or Shift+Delete [Sequence Diagram, UML Activity Diagram, Layer Diagram]<br /><br /> or Ctrl+Delete [Class Diagram]|  
 |Edit.Find|Ctrl+F [Global]|  
 |Edit.FindAllReferences|Shift+F12 [Global]|  
-dit.FindinFiles|Ctrl+Shift+F [Global]|  
+|Edit.FindinFiles|Ctrl+Shift+F [Global]|  
 |Edit.FindNext|F3 [Global]|  
 |Edit.FindNextSelected|Ctrl+F3 [Global]|  
 |Edit.FormatDocument|Ctrl+K, Ctrl+D [Text Editor]|  
@@ -77,7 +79,7 @@ dit.FindinFiles|Ctrl+Shift+F [Global]|
 |Edit.LineDownExtendColumn|Shift+Alt+Down Arrow [Text Editor]|  
 |Edit.LineOpenAbove|Ctrl+Enter [Text Editor]|  
 |Edit.ListMembers|Ctrl+J [Text Editor, Workflow Designer]<br /><br /> or Ctrl+K, Ctrl+L [Workflow Designer]<br /><br /> or Ctrl+K, L [Workflow Designer]|  
-dit.NavigateTo|Ctrl+, [Global]|  
+|Edit.NavigateTo|Ctrl+, [Global]|  
 |Edit.OpenFile|Ctrl+Shift+G [Global]|  
 |Edit.OvertypeMode|Insert [Text Editor]|  
 |Edit.ParameterInfo|Ctrl+Shift+Spacebar [Text Editor, Workflow Designer]<br /><br /> or Ctrl+K, Ctrl+P [Workflow Designer]<br /><br /> or Ctrl+K, P [Workflow Designer]|  
@@ -88,7 +90,7 @@ dit.NavigateTo|Ctrl+, [Global]|
 |Edit.SelectAll|Ctrl+A [Global]|  
 |Edit.SelectCurrentWord|Ctrl+W [Text Editor]|  
 |Edit.SelectionCancel|Esc [Text Editor, Report Designer, Settings Designer, Windows Forms Designer, Managed Resources Editor]|  
-dit.SurroundWith|Ctrl+K, Ctrl+S [Global]|  
+|Edit.SurroundWith|Ctrl+K, Ctrl+S [Global]|  
 |Edit.TabLeft|Shift+Tab [Text Editor, Report Designer, Windows Forms Editor]|  
 |Edit.ToggleAllOutlining|Ctrl+M, Ctrl+L [Text Editor]|  
 |Edit.ToggleBookmark|Ctrl+K, Ctrl+K [Text Editor]|  
@@ -150,7 +152,7 @@ dit.SurroundWith|Ctrl+K, Ctrl+S [Global]|
 |View.ServerExplorer|Ctrl+Alt+S [Global]|  
 |View.ShowSmartTag|Ctrl+. [Global]<br /><br /> or Shift+Alt+F10 [Global, HTML Editor Design View]|  
 |View.SolutionExplorer|Ctrl+Alt+L [Global]|  
-iew.TfsTeamExplorer|Ctrl+\\, Ctrl+M [Global]|  
+|View.TfsTeamExplorer|Ctrl+\\, Ctrl+M [Global]|  
 |View.Toolbox|Ctrl+Alt+X [Global]|  
 |View.ViewCode|Enter [Class Diagram]<br /><br /> or F7 [Settings Designer]|  
 |View.ViewDesigner|Shift+F7 [HTML Editor Source View]|  

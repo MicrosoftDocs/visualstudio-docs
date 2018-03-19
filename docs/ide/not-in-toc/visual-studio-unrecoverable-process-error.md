@@ -6,20 +6,14 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "aspx"
 helpviewer_keywords: 
   - "editor"
-ms.assetid: 2263956f-3ae0-4bdc-9d3a-4991dfaf4ddb
-caps.latest.revision: 29
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
-ms.technology: 
-  - "vs-ide-general"
+ms.technology: vs-ide-general
+ms.workload: 
+  - "multiple"
 ---
 # Visual Studio unrecoverable process error
 
@@ -44,6 +38,7 @@ Following is a list of out-of-proc processes used by Visual Studio that must be 
 - ServiceHub.SettingsHost.exe
 - ServiceHub.Host.CLR.x86.exe
 - ServiceHub.RoslynCodeAnalysisService32.exe
+- ServiceHub.RoslynCodeAnalysisService.exe
 - WindowsAzureGuestAgent.exe
 - WindowsAzureTelemetryService.exe
 - WaAppAgent.exe

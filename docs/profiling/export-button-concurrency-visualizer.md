@@ -17,6 +17,8 @@ caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Export Button (Concurrency Visualizer)
 The **Export** button enables you to export the call stack as a .csv file for your own records or for use with another tool such as Microsoft Excel.  

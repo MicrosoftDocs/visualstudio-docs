@@ -7,9 +7,11 @@ ms.author: liwong
 manager: routlaw
 ms.date: 11/13/2017
 ms.topic: article
-ms.technology: visual studio
 ms.devlang: multiple
 ms.service: multiple
+ms.technology: vs-ai-tools
+ms.workload:
+  - "multiple"
 ---
 # Installation
 
@@ -17,11 +19,11 @@ Visual Studio Tools for AI can be installed on Windows 64-bit operating systems.
 
 ## Installing Visual Studio Tools for AI
 
-This extension works with [Visual Studio](https://docs.microsoft.com/visualstudio/) 2015, 2017, Community edition or higher. 
+This extension works with [Visual Studio](https://docs.microsoft.com/visualstudio/) 2015, 2017, Community edition or higher.
 
-To install, download from the [Visual Studio MarketPlace](http://aka.ms/vstoolsforai) or from within Visual Studio 
+To install, download from the [Visual Studio MarketPlace](http://aka.ms/vstoolsforai) or from within Visual Studio
 
-1. **Tools**> **Extensions and Updates** 
+1. **Tools**> **Extensions and Updates**
 
 ![install CUDA on Windows](media\installation\extensions.png)
 
@@ -111,7 +113,7 @@ Then, we need to verify whether Python 3.5 is installed correctly, and upgrade p
 ### Python on Visual Studio
 
 Python is fully supported in Visual Studio through extensions.
-Learn more about install [Python for Visual Studio Tools](https://docs.microsoft.com/visualstudio/python/installation) for more details.
+Learn more about install [Python for Visual Studio Tools](../python/installing-python-support-in-visual-studio.md) for more details.
 
 ### NumPy and SciPy
 

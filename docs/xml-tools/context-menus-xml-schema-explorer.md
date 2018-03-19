@@ -13,6 +13,8 @@ caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Context Menus (XML Schema Explorer)
 The following context menu items are used to perform schema-specific searches and other operations.  

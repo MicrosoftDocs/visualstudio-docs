@@ -16,11 +16,11 @@ helpviewer_keywords:
   - "inclusion lists [Office development in Visual Studio], about inclusion lists"
   - "trust [Office development in Visual Studio], 2007 Office system"
   - "granting trust [Office development in Visual Studio]"
-ms.assetid: 6c33e614-d367-4556-9e76-0f302ad0f929
-caps.latest.revision: 37
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Granting Trust to Office Solutions
   Granting trust to Office solutions means modifying the security policy of each target computer to trust the solution assembly, application manifest, deployment manifest, and document. Trust can be granted to the Office solution by either you or the end user.  

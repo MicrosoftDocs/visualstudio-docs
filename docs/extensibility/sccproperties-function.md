@@ -17,6 +17,8 @@ caps.latest.revision: 14
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # SccProperties Function
 This function displays source control properties for a file or project.  

@@ -17,6 +17,8 @@ caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # MACHINE_INFO_FIELDS
 Specifies what kind of information to retrieve for a particular machine.  

@@ -17,6 +17,8 @@ caps.latest.revision: 16
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # SccGetExtendedCapabilities Function
 This function returns additional capabilities supported by the source control plug-in.  

@@ -15,6 +15,8 @@ caps.latest.revision: 14
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # When to Create Project Types
 Creating a new project type provides a basis for customizing [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] for your users. However, creating a new project type is not required for all [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] customizations. The following guidelines should help you determine whether a new project type is required for your scenario.  

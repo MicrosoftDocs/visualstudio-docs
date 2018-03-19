@@ -13,6 +13,8 @@ caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # What&#39;s New in the XSLT Debugger
 The following features are new in Visual Studio 2010.  

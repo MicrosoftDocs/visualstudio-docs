@@ -1,4 +1,4 @@
-# [Visual Studio subscriptions](index.md) 
+# [Visual Studio subscriptions](index.md)
 ## Subscriber Experiences
 ### [Using the Subscriber Portal](using-the-subscriber-portal.md)
 #### [Activating Retail Subscriptions](activate-store-subscriptions.md)
@@ -15,9 +15,9 @@
 ### [Subscriber Benefits](subscriber-benefits.md)
 ## Using Subscriber Benefits
 ### Tools
-#### [Visual Studio IDE ](vs-ide-benefit.md) 
+#### [Visual Studio IDE ](vs-ide-benefit.md)
 #### [Visual Studio Team Services](vs-vsts.md)
-#### [Azure Credit](vs-azure.md) 
+#### [Azure Credit](vs-azure.md)
 #### [Visual Studio App Center](vs-visual-studio-app-center.md)
 #### [Parasoft ](vs-parasoft.md)
 #### [WhiteSource Bolt](vs-whitesource.md)

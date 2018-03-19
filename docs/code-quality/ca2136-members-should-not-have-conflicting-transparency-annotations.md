@@ -20,6 +20,8 @@ caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA2136: Members should not have conflicting transparency annotations
 |||  

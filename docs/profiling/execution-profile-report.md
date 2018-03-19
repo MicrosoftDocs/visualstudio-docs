@@ -17,6 +17,8 @@ caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Execution Profile Report
 The Execution Profile Report is a traditional sampling profile. Samples are taken approximately every millisecond during periods when a thread is running on a logical core, and the Concurrency Visualizer builds a typical call tree by collating the accumulated set of sample stacks. Data in this table can be affected by the current time range and hidden threads, and by these filters that may be applied:  

@@ -15,6 +15,8 @@ caps.latest.revision: 14
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Attaching After a Launch
 After a program has been launched, the debug session is ready to attach the debug engine (DE) to said program.  

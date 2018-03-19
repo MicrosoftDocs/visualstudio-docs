@@ -17,6 +17,8 @@ caps.latest.revision: 6
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # METADATA_ADDRESS_LOCAL
 This structure represents the address of a local variable within a scope (usually a function or method).  

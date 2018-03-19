@@ -17,6 +17,8 @@ caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_isDataAligned
 Retrieves a flag that specifies whether the user-defined type (UDT) has been aligned to some specific memory boundary.  

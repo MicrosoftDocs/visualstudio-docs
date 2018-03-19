@@ -7,10 +7,12 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 22725520-59ba-4f6f-80e4-097b1287a34b
-caps.latest.revision: 10
+ms.technology: vs-ide-mobile
 author: "ghogen"
 ms.author: "ghogen"
 manager: ghogen
+ms.workload: 
+  - "xamarin"
 ---
 # Setup, install, and verifications for Mac users
 This topic is meant for developers working primarily on a Mac who will optionally use Visual Studio inside a Windows virtual machine on the Mac. If you are a developer working primarily on a Windows computer and need to set up a secondary Mac for targeting iOS, see the main [Setup and install](../cross-platform/setup-and-install.md) topic.

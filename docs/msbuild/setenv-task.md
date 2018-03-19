@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: msbuild
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -21,9 +20,11 @@ helpviewer_keywords:
   - "SetEnv task (MSBuild (Visual C++))"
 ms.assetid: fd9e4225-68cb-4608-8b27-468b0218c936
 caps.latest.revision: 6
-author: "kempb"
-ms.author: "kempb"
+author: Mikejo5000
+ms.author: mikejo
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # SetEnv Task
 Sets or deletes the value of a specified environment variable.  

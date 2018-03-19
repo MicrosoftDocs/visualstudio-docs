@@ -16,6 +16,8 @@ caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Project Properties Reference
 Learn more about how to configure and customize project properties.  

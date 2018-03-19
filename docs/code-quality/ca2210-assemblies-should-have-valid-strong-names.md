@@ -19,6 +19,8 @@ caps.latest.revision: 23
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA2210: Assemblies should have valid strong names
 |||  

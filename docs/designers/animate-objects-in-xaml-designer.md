@@ -13,6 +13,8 @@ caps.latest.revision: 9
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "uwp"
 ---
 # Animate objects in XAML Designer
 You can create short animations that move objects, or fade them in and out.  

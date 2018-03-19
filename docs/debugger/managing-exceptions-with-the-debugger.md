@@ -37,6 +37,8 @@ caps.latest.revision: 35
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Manage exceptions with the debugger in Visual Studio
 
@@ -72,7 +74,7 @@ If you select an exception in the **Exception Settings** window, debugger execut
   
 *  In the following C# console application, the Main method throws an **AccessViolationException** inside a `try/catch` block:  
   
-    ```CSharp  
+    ```csharp  
     static void Main(string[] args)  
     {  
         try  
@@ -123,7 +125,7 @@ If you select an exception in the **Exception Settings** window, debugger execut
   
      Here's the Main() method of the console application:  
   
-    ```CSharp  
+    ```csharp  
     static void Main(string[] args)  
     {  
         Class1 class1 = new Class1();  
@@ -165,7 +167,7 @@ If you select an exception in the **Exception Settings** window, debugger execut
   
  The **Exception Settings** window supports generic exception types in C# but not in Visual Basic. To break on exceptions like `MyNamespace.GenericException<T>`, you must add the exception as **MyNamespace.GenericException`1**. That is, if you have created an exception like this:  
   
-```CSharp  
+```csharp  
 public class GenericException<T> : Exception  
 {  
     public GenericException() : base("This is a generic exception.")  

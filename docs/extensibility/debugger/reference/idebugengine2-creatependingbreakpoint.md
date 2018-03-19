@@ -17,6 +17,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugEngine2::CreatePendingBreakpoint
 Creates a pending breakpoint in the debug engine (DE).  

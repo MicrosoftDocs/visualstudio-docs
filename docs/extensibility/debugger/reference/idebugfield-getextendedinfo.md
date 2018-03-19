@@ -17,6 +17,8 @@ caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugField::GetExtendedInfo
 This method gets extended information about a field.  

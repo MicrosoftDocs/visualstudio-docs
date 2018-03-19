@@ -16,6 +16,8 @@ caps.latest.revision: 14
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # VSCT XML Schema Reference
 Provides a table of Command Table Compiler schema elements, with allowed child elements and attributes for each.  

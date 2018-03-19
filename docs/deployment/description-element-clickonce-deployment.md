@@ -21,6 +21,8 @@ caps.latest.revision: 19
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+ms.workload: 
+  - "multiple"
 ---
 # &lt;description&gt; Element (ClickOnce Deployment)
 Identifies application information used to create a shell presence and an **Add or Remove Programs** item in Control Panel.  

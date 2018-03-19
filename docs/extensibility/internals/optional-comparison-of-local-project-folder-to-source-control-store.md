@@ -16,6 +16,8 @@ caps.latest.revision: 14
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Optional Comparison of Local Project Folder to Source Control Store
 In Source control Plug-in API 1.2 the comparison between the local project folder and source control is accomplished by using the functions [SccDirQueryInfo](../../extensibility/sccdirqueryinfo-function.md) and [SccDirDiff](../../extensibility/sccdirdiff-function.md).  

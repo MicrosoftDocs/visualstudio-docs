@@ -20,6 +20,8 @@ caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Warning: Script Debugging Disabled
 Script Debugging is currently disabled in Internet Explorer  

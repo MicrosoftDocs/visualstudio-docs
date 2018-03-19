@@ -15,6 +15,8 @@ caps.latest.revision: 30
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Walkthrough: Outlining
 You can implement language-based features such as outlining by defining the kinds of text regions you want to expand or collapse. You can define regions in the context of a language service, or you can define your own file name extension and content type and apply the region definition to only that type, or you can apply the region definitions to an existing content type (such as "text"). This walkthrough shows how to define and display outlining regions.  

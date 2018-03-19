@@ -19,6 +19,8 @@ caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA1064: Exceptions should be public
 |||  
@@ -34,7 +36,7 @@ manager: ghogen
 ## Rule Description  
  An internal exception is only visible inside its own internal scope. After the exception falls outside the internal scope, only the base exception can be used to catch the exception. If the internal exception is inherited from <xref:System.Exception>, <xref:System.SystemException>, or <xref:System.ApplicationException>, the external code will not have sufficient information to know what to do with the exception.  
   
- But, if the code has a public exception that later is used as the base for a internal exception, it is reasonable to assume the code further out will be able to do something intelligent with the base exception. The public exception will have more information than what is provided by T:System.Exception, T:System.SystemException, or T:System.ApplicationException.  
+ But, if the code has a public exception that later is used as the base for a internal exception, it is reasonable to assume the code further out will be able to do something intelligent with the base exception. The public exception will have more information than what is provided by <xref:System.Exception>, <xref:System.SystemException>, or <xref:System.ApplicationException>.  
   
 ## How to Fix Violations  
  Make the exception public, or derive the internal exception from a public exception that is not <xref:System.Exception>, <xref:System.SystemException>, or <xref:System.ApplicationException>.  

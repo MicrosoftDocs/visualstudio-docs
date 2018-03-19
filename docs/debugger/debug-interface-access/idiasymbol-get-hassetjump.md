@@ -17,6 +17,8 @@ caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_hasSetJump
 Retrieves a flag that specifies whether the function contains a use of the [setjmp](/cpp/c-runtime-library/reference/setjmp) command (paired with the [longjmp](/cpp/c-runtime-library/reference/longjmp) command, these form the C-style method of exception handling).  

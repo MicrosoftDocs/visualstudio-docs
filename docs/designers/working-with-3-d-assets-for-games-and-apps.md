@@ -15,6 +15,8 @@ caps.latest.revision: 24
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Working with 3-D Assets for Games and Apps
 This document describes the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] tools that you can use to create or modify 3-D models, textures, and shaders for DirectX-based games and apps.  

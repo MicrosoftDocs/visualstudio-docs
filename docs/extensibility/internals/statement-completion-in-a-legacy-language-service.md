@@ -16,6 +16,8 @@ caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Statement Completion in a Legacy Language Service
 Statement completion is the process by which the language service helps users finish a language keyword or element that they have started typing in the core editor. This topic discusses how statement completion works and how to implement it in your language service.  

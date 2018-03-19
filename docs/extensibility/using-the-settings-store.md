@@ -15,6 +15,8 @@ caps.latest.revision: 28
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Using the Settings Store
 There are two kinds of settings stores:  

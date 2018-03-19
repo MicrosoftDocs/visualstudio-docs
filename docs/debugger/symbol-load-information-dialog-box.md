@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.symbols.loadinfo"
 dev_langs: 
@@ -20,6 +20,8 @@ caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Symbol Load Information Dialog Box
 The **Symbol Load Information** dialog box opens when you right-click on the **Modules** window and choose **Symbol Load Information**.  

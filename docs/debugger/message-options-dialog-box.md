@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 helpviewer_keywords: 
   - "message options, Spy++"
   - "Spy++, message options"
@@ -16,6 +16,8 @@ caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Message Options Dialog Box
 Use this dialog box to select which messages are listed in [Messages View](../debugger/messages-view.md). To display this dialog box, choose **Log Messages** from the **Spy** menu.  

@@ -17,6 +17,8 @@ caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugBreakEvent2
 This interface tells the session debug manager (SDM) that an asynchronous break has been successfully completed.  

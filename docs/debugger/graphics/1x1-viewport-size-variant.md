@@ -13,6 +13,8 @@ caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # 1x1 Viewport Size Variant
 Reduces the viewport dimensions on all render targets to 1x1 pixels.  

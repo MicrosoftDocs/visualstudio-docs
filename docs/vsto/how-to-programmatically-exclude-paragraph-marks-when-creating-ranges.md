@@ -16,11 +16,11 @@ helpviewer_keywords:
   - "ranges, excluding paragraph marks in Word"
   - "documents [Office development in Visual Studio], paragraph marks"
   - "paragraphs, controlling structure"
-ms.assetid: 6d563834-34bd-4462-a556-4339d9277eee
-caps.latest.revision: 50
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Exclude Paragraph Marks When Creating Ranges
   Whenever you create a <xref:Microsoft.Office.Interop.Word.Range> object based on a paragraph, all non-printing characters, such as paragraph marks, are included in the range. You may want to insert the text from a source paragraph into a destination paragraph. If you do not want to split the destination paragraph into separate paragraphs, then you must first remove the paragraph mark from the source paragraph. Additionally, since paragraph formatting information is stored within the paragraph mark, you might not want to include this when you insert the range into an existing paragraph.  

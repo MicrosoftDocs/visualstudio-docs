@@ -42,11 +42,11 @@ helpviewer_keywords:
   - "Visual Studio, Office documents in"
   - "worksheets [Office development in Visual Studio]"
   - "VST.Designer.ExcelVST.Designer.Word"
-ms.assetid: 4bff36c9-4edd-4b28-89e6-0ea9f6caca02
-caps.latest.revision: 58
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Office Projects in the Visual Studio Environment
   Microsoft Office projects have a development experience that is similar to other types of projects in Visual Studio, such as Windows Forms projects. When you create or open an Office project, the project items appear in **Solution Explorer**. For document-level projects, the document (that is, the Word document or Excel workbook) opens in Visual Studio, and the document behaves as a visual designer.  

@@ -19,6 +19,8 @@ caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA2236: Call base class methods on ISerializable types
 |||  

@@ -18,6 +18,8 @@ caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugPendingBreakpoint2::EnumErrorBreakpoints
 Gets a list of all error breakpoints that resulted from this pending breakpoint.  

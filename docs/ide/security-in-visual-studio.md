@@ -4,20 +4,21 @@ ms.custom: ""
 ms.date: "02/17/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
+ms.technology:  vs-ide-general
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "code access security, coding errors"
   - "security [.NET Framework], about security"
 ms.assetid: 318c34ce-f643-468c-83a1-843196f5d845
-caps.latest.revision: 20
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Security in Visual Studio
+
 You should consider security in all aspects of your application development, from design to deployment. Start by running Visual Studio as securely as possible. See [User Permissions](../ide/user-permissions-and-visual-studio.md).  
   
  To help you effectively develop secure applications, you should have a fundamental understanding of security concepts and the security features of the platforms for which you develop. You should also understand secure coding techniques.  

@@ -25,6 +25,8 @@ caps.latest.revision: 11
 author: mikeblome
 ms.author: mblome
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Annotating Function Behavior
 In addition to annotating [function parameters and return values](../code-quality/annotating-function-parameters-and-return-values.md), you can annotate properties of the whole function.  

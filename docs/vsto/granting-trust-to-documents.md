@@ -16,11 +16,11 @@ helpviewer_keywords:
   - "inclusion lists [Office development in Visual Studio], about inclusion lists"
   - "trust [Office development in Visual Studio], 2007 Office system"
   - "granting trust [Office development in Visual Studio]"
-ms.assetid: 16893647-501e-4836-98af-a79a1e9de3ee
-caps.latest.revision: 23
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Granting Trust to Documents
   A document-level project has the same security requirements as application-level projects: signing the manifests with a certificate or clicking the trust prompt. In addition, the document or workbook must be located in a directory that is designated as a trusted location.  

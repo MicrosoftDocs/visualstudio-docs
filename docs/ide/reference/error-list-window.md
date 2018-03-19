@@ -20,6 +20,8 @@ caps.latest.revision: 32
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Error List Window
 > [!NOTE]

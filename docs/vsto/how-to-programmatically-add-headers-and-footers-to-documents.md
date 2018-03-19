@@ -16,11 +16,11 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], adding headers"
   - "documents [Office development in Visual Studio], adding footers"
   - "footers, adding to documents"
-ms.assetid: c7a5cc8a-d8c0-48e9-81d3-108aa6bfbb74
-caps.latest.revision: 24
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Add Headers and Footers to Documents
   You can add text to headers and footers in your document by using the <xref:Microsoft.Office.Interop.Word.Section.Headers%2A> property and <xref:Microsoft.Office.Interop.Word.Section.Footers%2A> property of the <xref:Microsoft.Office.Interop.Word.Section>. Each section of a document contains three headers and footers:  

@@ -17,6 +17,8 @@ caps.latest.revision: 16
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # How to: Provide Expanded Outlining Support in a Legacy Language Service
 There are two options for extending outlining support for your language beyond supporting the **Collapse to Definitions** command. You can add editor-controlled outline regions and add client-controlled outline regions.  

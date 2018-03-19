@@ -27,6 +27,8 @@ caps.latest.revision: 28
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Walkthrough: Debugging a Windows Form
 A Windows Form is one of the most common managed applications. A Windows Form creates a standard Windows application. You can complete this walkthrough using Visual Basic, C#, or C++.  
@@ -122,7 +124,7 @@ A Windows Form is one of the most common managed applications. A Windows Form cr
   
 4.  On the **Debug** menu, choose **Windows**, then **Watch**, and click **Watch1**.  
   
-5.  In the **Watch1** window, click on a blank row. In the **Name** column, type `textBox1.Text` (if you are using Visual Basic, Visual C#, or J#) or `textBox1->Text` (if you are using C++), then press ENTER.  
+5.  In the **Watch1** window, click on a blank row. In the **Name** column, type `textBox1.Text` (if you are using Visual Basic or Visual C#) or `textBox1->Text` (if you are using C++), then press ENTER.  
   
      The **Watch1** window shows the value of this variable in quotation marks as:  
   

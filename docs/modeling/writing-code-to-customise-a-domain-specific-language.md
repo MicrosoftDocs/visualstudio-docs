@@ -4,15 +4,15 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Domain-Specific Language, programming"
-ms.assetid: a4a17f5b-9c97-4575-b2d1-3182c1896b72
-caps.latest.revision: 29
-author: "alancameronwills"
-ms.author: "awills"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Writing Code to Customise a Domain-Specific Language
 This section shows you how to use custom code to access, modify, or create a model in a domain-specific language.  

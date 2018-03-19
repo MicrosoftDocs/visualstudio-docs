@@ -12,6 +12,8 @@ author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
 ms.technology: "vs-data-tools"
+ms.workload: 
+  - "data-storage"
 ---
 # One or more selected database objects return a schema that does not match the schema of the target class
 One or more selected database objects return a schema that does not match the schema of the target class. Nothing has been added to the designer.  

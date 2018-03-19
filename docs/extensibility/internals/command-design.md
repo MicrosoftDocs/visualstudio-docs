@@ -16,6 +16,8 @@ caps.latest.revision: 34
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Command Design
 When you add a command to a VSPackage, you must specify where it is to appear, when it is available, and how it is to be handled.  

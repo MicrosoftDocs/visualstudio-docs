@@ -15,6 +15,8 @@ caps.latest.revision: 20
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Command Handling
 Your editor can define new commands. Commands are typically displayed in a menu, on a tool bar, or in a context menu.  

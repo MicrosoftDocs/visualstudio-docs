@@ -17,6 +17,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # CANSTOP_REASON
 Used to determine if a program can stop execution after reaching a particular point in the execution.  

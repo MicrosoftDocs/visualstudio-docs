@@ -13,6 +13,8 @@ caps.latest.revision: 9
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Walkthrough: Creating a Realistic 3-D Billiard Ball
 This walkthrough demonstrates how to create a realistic 3-D billiard ball by using the Shader Designer and Image Editor in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. The 3-D appearance of the billiard ball is achieved by combining several shader techniques with appropriate texture resources.  
