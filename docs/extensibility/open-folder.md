@@ -20,18 +20,21 @@ ms.workload:
 
 ## Introduction of Open Folder
 
-Open Folder is a new experience introduced in Visual Studio 2017. It allows users to open any codebase. Without any workloads installed, Open Folder provides Solution Explorer tree population and search, editor colorization, GoTo and Find in Files search, and more. Other workloads, like the workloads for .NET and C++ development, power richer Intellisense and specific language-specific functionality.
+[Open Folder](../ide/develop-code-in-visual-studio-without-projects-or-solutions) is an experience introduced in Visual Studio 2017. It allows users to open any codebase. Without any workloads installed, Open Folder provides Solution Explorer tree population and search, editor colorization, GoTo and Find in Files search, and more. Other workloads, like the workloads for .NET and C++ development, power richer Intellisense and specific language-specific functionality.
 
-### A divergence from project systems
+With Open Folder, extenders can create rich features for any language. New APIs allow for building, debugging, and symbol searching for any file in a user's codebase. Current extenders can update their existing Visual Studio features to understand code without the backing of projects or a Solution.
 
-Historically, Visual Studio only understood files in a Solution and its projects using project systems. A project system is responsible for the functionality and user interactions of a loaded project. It understands what files its project contains, the visual representation of the project contents, dependencies on other projects, and modification of the underlying project file. It's through these hierarchies and capabilities that other components can do some work on behalf of the user. Not all user codebases are represented in this structure. Scripting language projects where there is nothing 'buildable' are an example. With Open Folder, Visual Studio gives end users a new way of interacting with any of their code.
+### A new API without project systems
 
-New APIs under the `Microsoft.VisualStudio.Workspace.*` are available for extenders to produce and consume data or actions around files within Open Folder. New concepts or different extension point areas include:
+Historically, Visual Studio only understood files in a Solution and its projects using project systems. A project system is responsible for the functionality and user interactions of a loaded project. It understands what files its project contains, the visual representation of the project contents, dependencies on other projects, and modification of the underlying project file. It's through these hierarchies and capabilities that other components can do some work on behalf of the user. Not all codebases are well represented in this project and Solution structure. Scripting langauges and open source code written in C++ for Linux are good examples. With Open Folder, Visual Studio gives end users a new way of interacting with any of their code.
+
+New APIs under the `Microsoft.VisualStudio.Workspace.*` are available for extenders to produce and consume data or actions around files within Open Folder. Extensions can use these APIs to provide functionality for many areas, including:
 
 - File contexts and actions
 - Workspace indexing
 - Build and debug
 - Tasks.vs.json and launch.vs.json
+- Language services
 - Workspace settings
 
 Features that use the following types will need to adopt new APIs to support Open Folder:
@@ -81,9 +84,9 @@ Once contrived, a file context can be associated with any number of files or fol
 
 The most common scenarios for file contexts are related to build, debug, and language services. For more information, see other sections related to these scenarios.
 
-### `FileContext` lifecycle
+### File context lifecycle
 
-Lifecycles for a `FileContext` are non-deterministic. At any time, a component can asynchronously request for some set of context types. Providers with that support some subset of the request context types will be queried. The providers The `IWorkspace` instance acts as the middle-man between the consumer and providers through the <xref:Microsoft.VisualStudio.Workspace.IWorkspace.GetFileContextsAsync> method. Consumers might request a context and perform some action based on the context. Others might request a context and maintain a long lived reference. However, changes might happen to files that cause a file context to become outdated. The provider can fire an event handler on the `FileContext` to notify consumers of updates. For example, if a build context is provided for some file but an on-disk change invalidates that context, then the original producer can invoke <xref:Microsoft.VisualStudio.Workspace.FileContext.OnFileContextChanged>. Any consumers still referencing that `FileContext` can then requery for a new `FileContext`.
+Lifecycles for a `FileContext` are non-deterministic. At any time, a component can asynchronously request for some set of context types. Providers with that support some subset of the request context types will be queried. The providers The `IWorkspace` instance acts as the middle-man between the consumer and providers through the <xref:Microsoft.VisualStudio.Workspace.IWorkspace.GetFileContextsAsync> method. Consumers might request a context and perform some action based on the context. Others might request a context and maintain a long lived reference. However, changes might happen to files that cause a file context to become outdated. The provider can fire an event handler on the `FileContext` to notify consumers of updates. For example, if a build context is provided for some file but an on-disk change invalidates that context, then the original producer can invoke. Any consumers still referencing that `FileContext` can then requery for a new `FileContext`.
 
 >[!NOTE]
 >There is no push model to consumers. Consumers won't be notified of a provider's new `FileContext` after their request.
@@ -121,7 +124,7 @@ For information on the types supplied by Visual Studio, see the respective scena
 
 ## Workspace indexing
 
-In a Solution, project systems are responsible for providing functionality for build, debug, **GoTo** symbol searching, and more. Project systems can do this work because they understand the relation and capabilities of files within a project. A workspace needs the same insight to provide rich IDE features, too. The collection and persistent storage of this data is a process called workspace indexing. This indexed data can be queried through a set of asynchronous APIs. Extenders can participate in the indexing process by providing <xref:Microsoft.VisualStudio.Workspace.IFileScanner>s that know how to handle certain types of files.
+In a Solution, project systems are responsible for providing functionality for build, debug, **GoTo** symbol searching, and more. Project systems can do this work because they understand the relation and capabilities of files within a project. A workspace needs the same insight to provide rich IDE features, too. The collection and persistent storage of this data is a process called workspace indexing. This indexed data can be queried through a set of asynchronous APIs. Extenders can participate in the indexing process by providing <xref:Microsoft.VisualStudio.Workspace.Indexing.IFileScanner>s that know how to handle certain types of files.
 
 ### Types of indexed data
 
