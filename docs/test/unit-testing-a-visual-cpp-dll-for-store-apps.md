@@ -1,15 +1,11 @@
 ---
-title: "How to test a Visual C++ DLL for UWP apps | Microsoft Docs"
-ms.custom: ""
+title: "How to test a Visual C++ DLL for UWP apps in Visual Studio | Microsoft Docs"
 ms.date: "02/15/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: vs-devops-test
-ms.tgt_pltfrm: ""
+ms.technology: vs-ide-test
 ms.topic: "article"
 ms.author: mblome
 manager: ghogen
-ms.workload:
+ms.workload: 
   - "uwp"
 author: mikeblome
 ---
@@ -181,7 +177,7 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
 1.  Add a new test:
 
-    ```
+    ```cpp
     TEST_METHOD(RangeTest)
     {
         CRooterLib rooter;
@@ -193,13 +189,12 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
             Assert::AreEqual(expected, actual, tolerance);
         }
     };
-
     ```
 
     > [!TIP]
-    >  We recommend that you do not change tests that have passed. Instead, add a new test, update the code so that the test passes, and then add another test, and so on.
+    > We recommend that you do not change tests that have passed. Instead, add a new test, update the code so that the test passes, and then add another test, and so on.
     >
-    >  When your users change their requirements, disable the tests that are no longer correct. Write new tests and make them work one at a time, in the same incremental manner.
+    > When your users change their requirements, disable the tests that are no longer correct. Write new tests and make them work one at a time, in the same incremental manner.
 
 2.  In Test Explorer, choose **Run All**.
 
@@ -208,7 +203,7 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
      ![The RangeTest fails](../test/media/ute_cpp_testexplorer_rangetest_fail.png "UTE_Cpp_TestExplorer_RangeTest_Fail")
 
     > [!TIP]
-    >  Verify that each test fails immediately after you have written it. This helps you avoid the easy mistake of writing a test that never fails.
+    > Verify that each test fails immediately after you have written it. This helps you avoid the easy mistake of writing a test that never fails.
 
 4.  Enhance the code under test so that the new test passes. Add the following to **RooterLib.cpp**:
 
@@ -312,17 +307,16 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
 1.  Simplify the central calculation in the `SquareRoot` function:
 
-    ```
+    ```csharp
     // old code
     //result = result - (result*result - v)/(2*result);
     // new code
     result = (result + v/result) / 2.0;
-
     ```
 
 2.  Choose **Run All** to test the refactored method and make sure that you haven't introduced a regression.
 
     > [!TIP]
-    >  A stable set of good unit tests gives confidence that you have not introduced bugs when you change the code.
+    > A stable set of good unit tests gives confidence that you have not introduced bugs when you change the code.
     >
-    >  Keep refactoring separate from other changes.
+    > Keep refactoring separate from other changes.

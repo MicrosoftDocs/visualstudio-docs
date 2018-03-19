@@ -1,15 +1,11 @@
 ---
 title: "Write Unit tests for C++ DLLs in Visual Studio | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: vs-devops-test
-ms.tgt_pltfrm: ""
+ms.technology: vs-ide-test
 ms.topic: "article"
 ms.author: mblome
 manager: ghogen
-ms.workload:
+ms.workload: 
   - "cplusplus"
 author: mikeblome
 ---

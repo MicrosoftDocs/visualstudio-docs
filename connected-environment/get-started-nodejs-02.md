@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio Connected Environment | Microsoft Docs"
+title: "Create a Node.js development environment with containers using Kubernetes in the cloud - Step 2 - Create a Kubernetes development environment | Microsoft Docs"
 author: "johnsta"
 ms.author: "johnsta"
 ms.date: "02/20/2018"
