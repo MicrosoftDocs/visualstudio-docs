@@ -1473,6 +1473,21 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/profiling/peopletrax-sample-profiling-tools.md",
+            "redirect_url": "/visualstudio/profiling/performance-explorer",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/walkthrough-command-line-profiling-using-instrumentation.md",
+            "redirect_url": "/visualstudio/profiling/command-line-profiling-of-stand-alone-applications",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/walkthrough-identifying-performance-problems.md",
+            "redirect_url": "/visualstudio/profiling/beginners-guide-to-cpu-sampling",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/python/code-editing.md",
             "redirect_url": "/visualstudio/python/editing-python-code-in-visual-studio",
             "redirect_document_id": false
