@@ -66,7 +66,7 @@ The end user can then sign in using the email address you provided to activate t
 To reassign a Visual Studio subscription to a different user, you can delete the current subscriber and add a new subscriber. 
 
 If a subscriber hasn't activated their Visual Studio subscription, it may be because they missed the invitation email.  You can request that we resend the 
-activation invitation to the user.
+activation invitation to the user from within the Visual Studio admin portal too.
 
 ## View Visual Studio pricing for CSP partners
 
@@ -83,7 +83,7 @@ Here's how to interpret what you see on this spreadsheet:
 | Visual Studio	    | Professional           |	Subscription	                     | Visual Studio Professional monthly subscription |
 | Visual Studio	    | Professional (Annual)  |	Annual Subscriptions                 | Visual Studio Professional annual subscription  |
 
-We offer a 5% discount on the 6th unit you buy (for a given customer) each month of each Visual Studio subscription. That’s why you see two rows for each 
+We offer a 5% discount on the 6th unit you buy (for a given customer) each month of each Visual Studio subscription. That's why you see two rows for each 
 subscription option. One row shows a "Minimum Value" of 0, which you should interpret as the base price for units 1 through 5. The other row shows a "Minimum Value" of 5, 
 so this is the 5% discount price that applies to units 6 and above.
 
