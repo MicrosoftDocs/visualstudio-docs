@@ -117,7 +117,7 @@ An "event handler" sounds complicated, but it's just another name for code that 
 
 #### What did we just do?
 
-The code uses some Windows APIs to create a speech synthesis object and then gives it some text to say. (For more information on using SpeechSynthesis, see  <xref:System.Speech.Synthesis>.
+The code uses some Windows APIs to create a speech synthesis object and then gives it some text to say. (For more information on using SpeechSynthesis, see  <xref:System.Speech.Synthesis>.)
 
 ## Run the application
 
