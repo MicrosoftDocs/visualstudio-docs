@@ -38,7 +38,7 @@ The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated develop
 
     -   The settings that can be accessed through the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> interface.
 
-    -   Either all settings or only those that users modify and that are retrievable through the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> interface.
+    -   Either all settings or only those settings that users modify and that are retrievable through the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> interface.
 
     -   The manner of propagating the changes to user settings.
 
@@ -57,7 +57,7 @@ The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated develop
 
  If multiple VSPackages share a particular category, a VSPackage should require that events are generated when methods of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> interface are used to modify stored registry settings.
 
- By default, event generation is not enabled. To enable event generation, a category must be opened by using <xref:Microsoft.VisualStudio.Shell.Interop.__FCSTORAGEFLAGS>. This causes the IDE to call the appropriate <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorEvents> method that a VSPackage implements.
+ By default, event generation is not enabled. To enable event generation, a category must be opened by using <xref:Microsoft.VisualStudio.Shell.Interop.__FCSTORAGEFLAGS>. Opening a category causes the IDE to call the appropriate <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorEvents> method that a VSPackage implements.
 
 > [!NOTE]
 >  Modifications through the **Font and Color** property page generate events independent of <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage>. You can use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorCacheManager> interface to determine whether an update of cached font and color settings is needed before calling the methods of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> class.
@@ -68,12 +68,12 @@ The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated develop
  Information about font attributes for a particular category is obtained by using the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.GetFont%2A> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.SetFont%2A> methods.
 
 > [!NOTE]
->  The `fFlags` argument that is passed to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.OpenCategory%2A> method when that category was opened defines the behavior of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.GetItem%2A> and the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.GetFont%2A> methods. By default, these methods only return information aboutdisplay itemsthat have changed. However, if a category is opened by using the <xref:Microsoft.VisualStudio.Shell.Interop.__FCSTORAGEFLAGS> flag, both updated and unchanged display items can be accessed by <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.GetItem%2A> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.GetFont%2A>.
+>  The `fFlags` argument that is passed to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.OpenCategory%2A> method when that category was opened defines the behavior of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.GetItem%2A> and the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.GetFont%2A> methods. By default, these methods only return information about display items that have changed. However, if a category is opened by using the <xref:Microsoft.VisualStudio.Shell.Interop.__FCSTORAGEFLAGS> flag, both updated and unchanged display items can be accessed by <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.GetItem%2A> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.GetFont%2A>.
 
  By default, only changed **Display Items** information is kept in the registry. The <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> interface cannot be used to retrieve all settings for fonts and colors.
 
 > [!NOTE]
->  The <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.GetItem%2A> and the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.GetFont%2A> methods return REGDB_E_KEYMISSING, (0x80040152L) when you use them to retrieve information about unchanged **Display Items**.
+>  The <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.GetItem%2A> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.GetFont%2A> methods return REGDB_E_KEYMISSING, (0x80040152L) when you use them to retrieve information about unchanged **Display Items**.
 
  The settings of all **Display Items** in a particular **Category** can be obtained by using the methods of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaults> interface.
 

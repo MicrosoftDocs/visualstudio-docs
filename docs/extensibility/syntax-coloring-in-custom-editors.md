@@ -40,11 +40,11 @@ Visual Studio Environment SDK editors, including the core editor, use language s
 -   Ensures that the display supplied by the document view provided by the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> implementation is updated and repainted using the information returned by the colorizer.
 
 ## Non-core Editor Usage of a Language Service's Colorizer
- Non-core editor instances can also use a language service's syntax colorization service, but they must explicitly retrieve and apply the service's colorizer and repaint their document views themselves.
+ Non-core editor instances can also use a language service's syntax colorization service, but they must explicitly retrieve and apply the service's colorizer, and repaint their document views themselves.
 
- To do this requires a non-core editor to:
+ To do this, a non-core editor must:
 
-1.  Obtain a language service's colorizer object (which implements <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer> and <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer2>). Your VSPackage does this by calling the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo.GetColorizer%2A> method on the language service's interface.
+1.  Obtain a language service's colorizer object (which implements <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer> and <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer2>). The VSPackage does this by calling the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo.GetColorizer%2A> method on the language service's interface.
 
 2.  Call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer.ColorizeLine%2A> method to request that a particular span of text be colorized.
 
@@ -53,7 +53,7 @@ Visual Studio Environment SDK editors, including the core editor, use language s
 3.  Use the colorization information returned by <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer.ColorizeLine%2A> to repaint and display its text.
 
 > [!NOTE]
->  In addition to using a language service's colorizer, a VSPackage can choose to use the general-purpose Visual Studio Environment SDK text-coloring mechanism. For more information on this mechanism, see [Using Fonts and Colors](../extensibility/using-fonts-and-colors.md).
+> In addition to using a language service's colorizer, a VSPackage can choose to use the general-purpose Visual Studio Environment SDK text-coloring mechanism. For more information on this mechanism, see [Using Fonts and Colors](../extensibility/using-fonts-and-colors.md).
 
 ## See Also
 

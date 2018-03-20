@@ -57,9 +57,9 @@ The following sections discuss these method types.
 
 ### Property Get Methods
 
-Properties are basically smart fields. Therefore, they should behave like a field as much as possible. Fields do not throw exceptions and neither should properties. If you have a property that throws an exception, consider making it a method.
+Properties are basically smart fields. Therefore, they should behave like a field as much as possible. Fields don't throw exceptions and neither should properties. If you have a property that throws an exception, consider making it a method.
 
-The following exceptions are allowed to be thrown from a property get method:
+The following exceptions can be thrown from a property get method:
 
 - <xref:System.InvalidOperationException?displayProperty=fullName> and all derivatives (including <xref:System.ObjectDisposedException?displayProperty=fullName>)
 
@@ -71,9 +71,9 @@ The following exceptions are allowed to be thrown from a property get method:
 
 ### Event Accessor Methods
 
-Event accessors should be simple operations that do not throw exceptions. An event should not throw an exception when you try to add or remove an event handler.
+Event accessors should be simple operations that don't throw exceptions. An event should not throw an exception when you try to add or remove an event handler.
 
-The following exceptions are allowed to be thrown from an event accesor:
+The following exceptions can be thrown from an event accessor:
 
 - <xref:System.InvalidOperationException?displayProperty=fullName> and all derivatives (including <xref:System.ObjectDisposedException?displayProperty=fullName>)
 
@@ -87,7 +87,7 @@ The following **Equals** methods should not throw exceptions:
 
 - <xref:System.Object.Equals%2A?displayProperty=fullName>
 
-- <xref:System.IEquatable-1.Equals>
+- <xref:System.IEquatable%601.Equals>
 
 An **Equals** method should return `true` or `false` instead of throwing an exception. For example, if Equals is passed two mismatched types it should just return `false` instead of throwing an <xref:System.ArgumentException>.
 
@@ -97,7 +97,7 @@ The following **GetHashCode** methods should usually not throw exceptions:
 
 - <xref:System.Object.GetHashCode%2A>
 
-- <xref:System.Collections.IEqualityComparer.GetHashCode>
+- <xref:System.Collections.IEqualityComparer.GetHashCode%2A>
 
 **GetHashCode** should always return a value. Otherwise, you can lose items in the hash table.
 
@@ -105,11 +105,11 @@ The versions of **GetHashCode** that take an argument can throw an <xref:System.
 
 ### ToString Methods
 
-The debugger uses <xref:System.Object.ToString%2A?displayProperty=fullName> to help display information about objects in string format. Therefore, **ToString** should not change the state of an object and it should not throw exceptions.
+The debugger uses <xref:System.Object.ToString%2A?displayProperty=fullName> to help display information about objects in string format. Therefore, **ToString** should not change the state of an object, and it shouldn't throw exceptions.
 
 ### Static Constructors
 
-Throwing exceptions from a static constructor causes the type to be unusable in the current application domain. You should have a very good reason (such as a security issue) for throwing an exception from a static constructor.
+Throwing exceptions from a static constructor causes the type to be unusable in the current application domain. You should have a good reason (such as a security issue) for throwing an exception from a static constructor.
 
 ### Finalizers
 
@@ -117,17 +117,17 @@ Throwing an exception from a finalizer causes the CLR to fail fast, which tears 
 
 ### Dispose Methods
 
-A <xref:System.IDisposable.Dispose%2A?displayProperty=fullName> method should not throw an exception. Dispose is often called as part of the clean up logic in a `finally` clause. Therefore, explicitly throwing an exception from Dispose forces the user to add exception handling inside the `finally` clause.
+A <xref:System.IDisposable.Dispose%2A?displayProperty=fullName> method should not throw an exception. Dispose is often called as part of the cleanup logic in a `finally` clause. Therefore, explicitly throwing an exception from Dispose forces the user to add exception handling inside the `finally` clause.
 
-The **Dispose(false)** code path should never throw exceptions, because this is almost always called from a finalizer.
+The **Dispose(false)** code path should never throw exceptions, because Dispose is almost always called from a finalizer.
 
 ### Equality Operators (==, !=)
 
-Like Equals methods, equality operators should return either `true` or `false` and should not throw exceptions.
+Like Equals methods, equality operators should return either `true` or `false`, and should not throw exceptions.
 
 ### Implicit Cast Operators
 
-Because the user is often unaware that an implicit cast operator has been called, an exception thrown by the implicit cast operator is completely unexpected. Therefore, no exceptions should be thrown from implicit cast operators.
+Because the user is often unaware that an implicit cast operator has been called, an exception thrown by the implicit cast operator is unexpected. Therefore, no exceptions should be thrown from implicit cast operators.
 
 ## How to Fix Violations
 
@@ -137,7 +137,7 @@ For all other method types listed previously, change the logic so that it no lon
 
 ## When to Suppress Warnings
 
-It is safe to suppress a warning from this rule if the violation was caused by an exception declaration instead of a thrown exception.
+If the violation was caused by an exception declaration instead of a thrown exception, it is safe to suppress a warning from this rule.
 
 ## Related Rules
 
