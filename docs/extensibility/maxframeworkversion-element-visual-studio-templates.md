@@ -25,7 +25,8 @@ Specifies the maximum version of the .NET Framework that is required by the temp
 > [!IMPORTANT]
 > As of Visual Studio 2017 version 15.6, the **Target Framework Version** dropdown is no longer a filter for displayed templates in the **Templates** section of the **New Project Dialog**. Instead, the dropdown functions as a framework picker for the selected template.
 
- \<VSTemplate>  
+ \<VSTemplate>
+ \<TemplateData>
  \<MaxFrameworkVersion>  
   
 ## Syntax  
@@ -67,8 +68,9 @@ Specifies the maximum version of the .NET Framework that is required by the temp
         <Name>MyClass</Name>  
         <Description>My custom C# class template.</Description>  
         <Icon>Icon.ico</Icon>  
-        <ProjectType>CSharp</ProjectType>  
-        <MaxFrameworkVersion>3.5</MaxFrameworkVersion>  
+        <ProjectType>CSharp</ProjectType>
+        <RequiredFrameworkVersion>3.0</RequiredFrameworkVersion>
+        <MaxFrameworkVersion>4.7.1</MaxFrameworkVersion>  
         <DefaultName>MyClass</DefaultName>  
     </TemplateData>  
     <TemplateContent>  
@@ -77,7 +79,7 @@ Specifies the maximum version of the .NET Framework that is required by the temp
 </VSTemplate>  
 ```  
   
- In this example, the maximum version of the .NET Framework that is required by the template, represented by `MaxFrameworkVersion`, is 3.5. A project created with this template will target .NET Framework version 3.5.  
+ In this example, the maximum version of the .NET Framework that is required by the template, represented by `MaxFrameworkVersion`, is 4.7.1. A project created with this template can target .NET Framework versions upto 4.7.1.  
   
 ## See Also  
  [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)   
