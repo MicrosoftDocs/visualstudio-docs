@@ -1,7 +1,7 @@
 ---
-title: "Quickstart: Create your first Universal Windows Application in Visual Studio with XAML and C# | Microsoft Docs"
+title: "Quickstart: Create your first Universal Windows Platform application in Visual Studio with XAML and C# | Microsoft Docs"
 ms.custom: ""
-ms.date: "03/19/2018"
+ms.date: "03/20/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -17,15 +17,15 @@ dev_langs:
 ms.workload:
   - "multiple"
 ---
-# Quickstart: Create your first Universal Windows Application in Visual Studio with XAML and C&#35;
+# Quickstart: Create your first Universal Windows Platform application in Visual Studio with XAML and C&#35;
 
-In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you'll create a "Hello World" app that runs on any Windows 10 device. To do so, you use a Universal Windows Platform (UWP) project template, Extensible Application Markup Language (XAML), and the C# programming language.
+In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you'll create a "Hello World" app that runs on any Windows 10 device. To do so, you'll use a Universal Windows Platform (UWP) project template, Extensible Application Markup Language (XAML), and the C# programming language.
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) page to install it for free.
 
 ## Create a project
 
-First, create a Universal Windows Application project. The project type comes with all the template files you need, before you've even added anything!
+First, create a Universal Windows Platform project. The project type comes with all the template files you need, before you've even added anything!
 
 1. Open Visual Studio 2017.
 
