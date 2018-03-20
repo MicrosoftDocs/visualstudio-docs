@@ -11,7 +11,7 @@ ms.topic: "article"
 helpviewer_keywords:
   - "installing Visual Studio"
   - "no internet connection"
-author: "tglee"
+author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen
 ms.workload:
