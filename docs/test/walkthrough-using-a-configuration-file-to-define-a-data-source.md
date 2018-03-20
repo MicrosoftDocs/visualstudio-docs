@@ -1,25 +1,21 @@
 ---
-title: "Walkthrough: Using a Configuration File to Define a Data Source | Microsoft Docs"
-ms.custom: ""
+title: "Walkthrough: Using a Configuration File to Define a Data Source in Visual Studio | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: vs-devops-test
-ms.tgt_pltfrm: ""
+ms.technology: vs-ide-test
 ms.topic: "article"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "configuration files [Visual Studio ALM], defining data sources"
   - "unit tests, walkthrough"
   - "data sources, defining with configuration files"
 author: gewarren
 ms.author: gewarren
 manager: ghogen
-ms.workload:
+ms.workload: 
   - "multiple"
 ---
 # Walkthrough: Using a Configuration File to Define a Data Source
 
-This walkthrough illustrates how to use a data source defined in an app.config file for unit testing. You will learn how to create an app.config file that defines a data source that can be used by the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute> class. Tasks presented in this walkthrough include the following:
+This walkthrough illustrates how to use a data source defined in an *app.config* file for unit testing. You will learn how to create an app.config file that defines a data source that can be used by the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute> class. Tasks presented in this walkthrough include the following:
 
 -   Creating an app.config file.
 
@@ -42,7 +38,7 @@ This walkthrough illustrates how to use a data source defined in an app.config f
 
 ## Create the App.config File
 
-#### To add an app.config file to the project
+### To add an app.config file to the project
 
 1.  If your test project already has an app.config file, go to [Define a Custom Configuration Section](#DefineCustomConfigurationSection).
 
@@ -55,7 +51,7 @@ This walkthrough illustrates how to use a data source defined in an app.config f
 ##  <a name="DefineCustomConfigurationSection"></a> Define a Custom Configuration Section
  Examine the app.config file. It contains at least the XML declaration and a root element.
 
-#### To add the custom configuration section to the app.config file
+### To add the custom configuration section to the app.config file
 
 1.  The root element of app.config should be the `configuration` element. Create a `configSections` element within the `configuration` element. The `configSections` should be the first element in the app.config file.
 
@@ -75,7 +71,7 @@ This walkthrough illustrates how to use a data source defined in an app.config f
 ## Define Connection Strings
  The connection strings define provider-specific information for accessing data sources. Connection strings defined in configuration files provide reusable data provider information across an application. In this section, you create two connection strings that will be used by data sources that are defined in the Custom Configuration Section.
 
-#### To define connection strings
+### To define connection strings
 
 1.  After the `configSections` element, create a `connectionStrings` element.
 
@@ -119,7 +115,7 @@ This walkthrough illustrates how to use a data source defined in an app.config f
 
  In this section, you will define two data sources to use in a unit test.
 
-#### To define data sources
+### To define data sources
 
 1.  After the `connectionStrings` element, create a `microsoft.visualstudio.testtools` element. This section was created in Define a Custom Configuration Section.
 
@@ -184,7 +180,7 @@ The final app.config file should look similar to this:
 
 -   Use the data sources in two test methods that compare the values in each data source.
 
-#### To create a Microsoft Access data source
+### To create a Microsoft Access data source
 
 1.  Create a Microsoft Access database named `testdatasource.accdb`.
 
@@ -198,7 +194,7 @@ The final app.config file should look similar to this:
 
 6.  Change the connection string to point to the location of the database. Change the value of `Data Source` to reflect the location of the database.
 
-#### To create a Microsoft Excel data source
+### To create a Microsoft Excel data source
 
 1.  Create a Microsoft Excel spreadsheet named `data.xlsx`.
 
@@ -212,7 +208,7 @@ The final app.config file should look similar to this:
 
 6.  Change the connection string to point to the location of the spreadsheet. Change the value of `dbq` to reflect the location of the spreadsheet.
 
-#### To create a unit test using the app.config data sources
+### To create a unit test using the app.config data sources
 
 1.  Add a unit test to the test project.
 

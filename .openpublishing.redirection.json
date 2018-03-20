@@ -1473,6 +1473,21 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/profiling/peopletrax-sample-profiling-tools.md",
+            "redirect_url": "/visualstudio/profiling/performance-explorer",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/walkthrough-command-line-profiling-using-instrumentation.md",
+            "redirect_url": "/visualstudio/profiling/command-line-profiling-of-stand-alone-applications",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/walkthrough-identifying-performance-problems.md",
+            "redirect_url": "/visualstudio/profiling/beginners-guide-to-cpu-sampling",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/python/code-editing.md",
             "redirect_url": "/visualstudio/python/editing-python-code-in-visual-studio",
             "redirect_document_id": false
@@ -1808,6 +1823,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/test/create-and-run-unit-tests-for-a-store-app-in-visual-studio.md",
+            "redirect_url": "/visualstudio/test/unit-test-your-code",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/test/index.md",
             "redirect_url": "/visualstudio/test/improve-code-quality",
             "redirect_document_id": false
@@ -1815,6 +1835,16 @@
         {
             "source_path": "docs/test/install-configure-test-agents.md",
             "redirect_url": "/visualstudio/test/lab-management/install-configure-test-agents",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/test/lab-management/upgrade-scvmm-2008-r2-scvmm-2012.md",
+            "redirect_url": "/visualstudio/test/lab-management/using-a-lab-environment-for-your-application-lifecycle",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/test/run-unit-tests-for-store-apps-in-visual-studio.md",
+            "redirect_url": "/visualstudio/test/run-unit-tests-with-test-explorer",
             "redirect_document_id": false
         },
         {
@@ -1848,8 +1878,8 @@
             "redirect_document_id": false
         },
         {
-            "source_path": "docs/test/lab-management/upgrade-scvmm-2008-r2-scvmm-2012.md",
-            "redirect_url": "/visualstudio/test/lab-management/using-a-lab-environment-for-your-application-lifecycle",
+            "source_path": "docs/test/upgrading-coded-ui-tests-from-visual-studio-2010.md",
+            "redirect_url": "/visualstudio/test/use-ui-automation-to-test-your-code",
             "redirect_document_id": false
         },
         {

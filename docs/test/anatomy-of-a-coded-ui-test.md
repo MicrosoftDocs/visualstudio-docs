@@ -1,14 +1,14 @@
 ---
-title: "Anatomy of a Coded UI Test | Microsoft Docs"
+title: "Anatomy of a Coded UI Test in Visual Studio | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.technology: vs-devops-test
+ms.technology: vs-ide-test
 ms.topic: "article"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "coded UI tests"
 author: gewarren
 ms.author: gewarren
 manager: ghogen
-ms.workload:
+ms.workload: 
   - "multiple"
 ---
 # Anatomy of a Coded UI test
@@ -261,18 +261,18 @@ public void MyTestCleanup()
 
 ## See also
 
-<xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap>
-<xref:Microsoft.VisualStudio.TestTools.UITesting.WinControls>
-<xref:Microsoft.VisualStudio.TestTools.UITesting.HtmlControls>
-<xref:Microsoft.VisualStudio.TestTools.UITesting.WpfControls>
-<xref:System.CodeDom.Compiler.GeneratedCodeAttribute>
-<xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual%2A?displayProperty=fullName>
-<xref:Microsoft.VisualStudio.TestTools.UITesting.Keyboard.SendKeys%2A?displayProperty=fullName>
-<xref:Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute>
-<xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestInitializeAttribute>
-<xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestCleanupAttribute>
-[Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)
-[Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md)
-[Best Practices for Coded UI Tests](../test/best-practices-for-coded-ui-tests.md)
-[Testing a Large Application with Multiple UI Maps](../test/testing-a-large-application-with-multiple-ui-maps.md)
-[Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)
+- <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap>
+- <xref:Microsoft.VisualStudio.TestTools.UITesting.WinControls>
+- <xref:Microsoft.VisualStudio.TestTools.UITesting.HtmlControls>
+- <xref:Microsoft.VisualStudio.TestTools.UITesting.WpfControls>
+- <xref:System.CodeDom.Compiler.GeneratedCodeAttribute>
+- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual%2A?displayProperty=fullName>
+- <xref:Microsoft.VisualStudio.TestTools.UITesting.Keyboard.SendKeys%2A?displayProperty=fullName>
+- <xref:Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute>
+- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestInitializeAttribute>
+- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestCleanupAttribute>
+- [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)
+- [Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md)
+- [Best Practices for Coded UI Tests](../test/best-practices-for-coded-ui-tests.md)
+- [Testing a Large Application with Multiple UI Maps](../test/testing-a-large-application-with-multiple-ui-maps.md)
+- [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)

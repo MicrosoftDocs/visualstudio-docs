@@ -1,20 +1,16 @@
 ---
 title: "Creating and Running Unit Tests for UWP apps in Visual Studio | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: vs-devops-test
-ms.tgt_pltfrm: ""
+ms.technology: vs-ide-test
 ms.topic: "article"
-helpviewer_keywords:
+helpviewer_keywords: 
   - "unit tests, creating"
   - "unit tests"
   - "unit tests, UWP apps"
   - "unit tests, running"
 ms.author: gewarren
 manager: ghogen
-ms.workload:
+ms.workload: 
   - "uwp"
 author: gewarren
 ---
@@ -33,7 +29,7 @@ The following procedures describe the steps to create, run and debug unit tests 
 
      The New Project dialog displays.
 
-2.  Under Templates, choose the programming language you want to create unit test in and then choose the associated Windows Universal unit test library. For example, choose **Visual C#** , then choose **Windows Universal**, and then choose **Unit Test Library (Universal Windows)**.
+2.  Under Templates, choose the programming language you want to create unit tests in, and then choose the associated Windows Universal unit test library. For example, choose **Visual C#** , then choose **Windows Universal**, and then choose **Unit Test Library (Universal Windows)**.
 
 3.  (Optional) In the **Name** textbox, enter the name you want to use for the project.
 
@@ -95,9 +91,9 @@ In the Code Editor, edit the unit test and add the asserts and logic required fo
     > [!TIP]
     > You can select one or more unit tests listed in Explorer and then right-click and choose **Run Selected Tests**.
     >
-    >  Additionally, you can choose to **Debug Selected Tests**, **Open Test**, and use the **Properties** option.
+    > Additionally, you can choose to **Debug Selected Tests**, **Open Test**, and use the **Properties** option.
     >
-    >  ![Unit Test Explorer &#45; uni test context menu](../test/media/unit_test_win8_unittestexplorer_contextmenu.png "Unit_Test_Win8_UnitTestExplorer_ContextMenu")
+    > ![Unit Test Explorer &#45; uni test context menu](../test/media/unit_test_win8_unittestexplorer_contextmenu.png "Unit_Test_Win8_UnitTestExplorer_ContextMenu")
 
     The unit test runs. Upon completion, Test Explorer displays the test status, elapsed time and provides a link to the source.
 

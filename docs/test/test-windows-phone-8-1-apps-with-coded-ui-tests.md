@@ -1,15 +1,11 @@
 ---
-title: "Test Windows UWP and 8.1 Phone Apps with Coded UI Tests | Microsoft Docs"
-ms.custom: ""
+title: "Test Windows UWP and 8.1 Phone Apps with Coded UI Tests in Visual Studio | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: vs-devops-test
-ms.tgt_pltfrm: ""
+ms.technology: vs-ide-test
 ms.topic: "article"
 ms.author: gewarren
 manager: ghogen
-ms.workload:
+ms.workload: 
   - "uwp"
 author: gewarren
 ---
@@ -122,7 +118,7 @@ Use this walkthrough for creating UI tests for UWP apps that run on mobile devic
      In Solution Explorer, open the CodedUITest1.vb file. In the CodedUITestMethod1() test method code, right-click the call to the assertion method that was automatically added `Me.UIMap.AssertMethod1()` and choose **Go To Definition**. This will open the UIMap.Designer.vb file in the code editor so you can view the code you added for the assert method and the controls.
 
     > [!WARNING]
-    >  Do not modify the UIMap.designer.cs or UIMap.Designer.vb file directly. If you do this, the changes to the file will be overwritten each time the test is generated.
+    > Do not modify the UIMap.designer.cs or UIMap.Designer.vb file directly. If you do this, the changes to the file will be overwritten each time the test is generated.
 
      **Assert method**
 
@@ -384,4 +380,5 @@ public void DataDrivingDemo_MyTestMethod(int x, int y)
  Microsoft Visual Studio Application Lifecycle Management blog: [Using Coded UI to test XAML-based Windows Phone apps](http://blogs.msdn.com/b/visualstudioalm/archive/2014/04/05/using-coded-ui-to-test-xaml-based-windows-phone-apps.aspx?PageIndex=2#comments)
 
 ## See also
- [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)
+
+- [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)
