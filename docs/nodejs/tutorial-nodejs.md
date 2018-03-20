@@ -115,6 +115,8 @@ First, you'll create an Node.js web application project.
     });
     ```
 
+    There is an error in the line of code containing `res.render`. We need to fix it before the app can run. We fix the error in the next section.
+
 ## Use IntelliSense
 
 1. In *index.js*, go to the line of code containing `res.render`.
