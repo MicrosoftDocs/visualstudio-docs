@@ -87,7 +87,7 @@ The following **Equals** methods should not throw exceptions:
 
 - <xref:System.Object.Equals%2A?displayProperty=fullName>
 
-- <xref:System.IEquatable%601.Equals>
+- <xref:System.IEquatable%601.Equals%2A>
 
 An **Equals** method should return `true` or `false` instead of throwing an exception. For example, if Equals is passed two mismatched types it should just return `false` instead of throwing an <xref:System.ArgumentException>.
 
