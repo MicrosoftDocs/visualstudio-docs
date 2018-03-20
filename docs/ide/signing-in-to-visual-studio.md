@@ -5,7 +5,7 @@ ms.date: 11/16/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
-  - "vs-ide-general"
+  - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b9531c25-e4cf-43ae-b331-a9f31a8cd171
