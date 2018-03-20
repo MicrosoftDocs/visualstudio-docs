@@ -20,7 +20,7 @@ ms.workload:
 
 # Django web project template
 
-[Django](https://www.djangoproject.com/) is a high-level Python framework designed for rapid, secure, and scalable web development. Python support in Visual Studio provides a project template to set up the structure of a Django-based web application. To use the template in Visual Studio, select **File > New > Project**, search for "Django", and select the **Django Web Project** template. The resulting project includes boilerplate code as well as a default SQLite database. The **Blank Django Web Project** template is similar but does not include the database.
+[Django](https://www.djangoproject.com/) is a high-level Python framework designed for rapid, secure, and scalable web development. Python support in Visual Studio provides a project template to set up the structure of a Django-based web application. To use the template in Visual Studio, select **File > New > Project**, search for "Django", and select the **Django Web Project** template. The resulting project includes boilerplate code as well as a default SQLite database.
 
 Visual Studio provides full IntelliSense for Django projects:
 
