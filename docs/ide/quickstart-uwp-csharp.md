@@ -19,7 +19,7 @@ ms.workload:
 ---
 # Quickstart: Create your first Universal Windows Application in Visual Studio with XAML and C&#35;
 
-In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you'll create a "Hello World" app that runs on any Windows 10 device. To do so, you use a UWP project template, Extensible Application Markup Language (XAML), and the C# programming language.
+In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you'll create a "Hello World" app that runs on any Windows 10 device. To do so, you use a Universal Windows Platform (UWP) project template, Extensible Application Markup Language (XAML), and the C# programming language.
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) page to install it for free.
 
@@ -48,7 +48,7 @@ First, create a Universal Windows Application project. The project type comes wi
 
 ## Create the application
 
-It's time to start developing. You'll add a button control, an action to the button, and then start the "Hello World" app to see what it looks like.
+It's time to start developing. You'll add a button control, add an action to the button, and then start the "Hello World" app to see what it looks like.
 
 ### Add a button to the Design canvas
 
@@ -117,17 +117,17 @@ An "event handler" sounds complicated, but it's just another name for code that 
 
 #### What did we just do?
 
-The code uses some Windows APIs to create a speech synthesis object and then gives it some text to say. (For more information on using SpeechSynthesis, see the [SpeechSynthesis namespace](https://msdn.microsoft.com/library/windows/apps/windows.media.speechsynthesis.aspx) docs.)
+The code uses some Windows APIs to create a speech synthesis object and then gives it some text to say. (For more information on using SpeechSynthesis, see  <xref:System.Speech.Synthesis>.
 
 ## Run the application
 
 It's time to build, deploy, and launch the "Hello World" UWP app to see what it looks and sounds like. Here's how.
 
-1. Click **Local Machine** to start the application.
+1. Choose **Local Machine** to start the application.
 
    ![Click Local Machine to start and debug your UWP app](../ide/media/uwp-start-or-debug.png "Click Local Machine to start and debug your UWP app")
 
-   (Alternatively, you can click **Debug** > **Start Debugging** from the menu bar or press **F5** to start your app.)
+   (Alternatively, you can choose **Debug** > **Start Debugging** from the menu bar or press **F5** to start your app.)
 
 2. View your app, which appears soon after a splash screen disappears. The app should look similar to this:
 
@@ -137,7 +137,7 @@ It's time to build, deploy, and launch the "Hello World" UWP app to see what it 
 
  Your Windows 10 device will literally say, "Hello, World!"
 
-4. To close the app, click the **Stop Debugging** button in the toolbar. (Alternatively, click **Debug** > **Stop debugging**, or press **Shift**+**F5**.)
+4. To close the app, click the **Stop Debugging** button in the toolbar. (Alternatively, choose **Debug** > **Stop debugging** from the menu bar, or press **Shift**+**F5**.)
 
 ## Next steps
 
