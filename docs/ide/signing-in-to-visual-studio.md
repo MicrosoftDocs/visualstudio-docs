@@ -4,16 +4,15 @@ ms.custom: ""
 ms.date: 11/16/2017
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b9531c25-e4cf-43ae-b331-a9f31a8cd171
-caps.latest.revision: 30
-author: "gewarren"
-ms.author: "gewarren"
+author: "TerryGLee"
+ms.author: "tglee"
 manager: ghogen
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Sign in to Visual Studio
@@ -22,7 +21,7 @@ You can personalize and optimize your development experience in Visual Studio if
 
 ## Why should I sign in to Visual Studio?
 
-When you sign in, you enrich your Visual Studio experience. For example, after you sign in, you can synchronize your settings across devices, extend a trial, and automatically connect to an Azure service, to name a few. 
+When you sign in, you enrich your Visual Studio experience. For example, after you sign in, you can synchronize your settings across devices, extend a trial, and automatically connect to an Azure service, to name a few.
 
 Here's a full list of what you can expect and what you can do after you sign in:  
 

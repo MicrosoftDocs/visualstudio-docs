@@ -7,10 +7,10 @@ ms.suite: ""
 ms.technology: vs-ide-general
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-author: "gewarren"
-ms.author: "gewarren"
+author: "TerryGLee"
+ms.author: "tglee"
 manager: ghogen
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Work with multiple user accounts
