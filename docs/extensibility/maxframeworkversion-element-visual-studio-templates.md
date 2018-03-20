@@ -20,8 +20,11 @@ ms.workload:
   - "vssdk"
 ---
 # MaxFrameworkVersion Element (Visual Studio Templates)
-Specifies the maximum version of the .NET Framework that is required by the template. It determines whether the template is displayed in the **Templates** section of the **Add New Project** dialog box, based on the value that is selected in the **Target Framework Version** box of the **Add New Project** dialog box.  
-  
+Specifies the maximum version of the .NET Framework that is required by the template. It determines the highest value available in the **Target Framework Version** dropdown of the **New Project Dialog**. In order for users to select from the available frameworks in a template's supported range, [RequiredFrameworkVersion](../extensibility/requiredframeworkversion-element-visual-studio-templates.md) also needs to be specified as the minimum .NET Framework version.
+
+> [!IMPORTANT]
+> As of Visual Studio 2017 version 15.6, the **Target Framework Version** dropdown is no longer a filter for displayed templates in the **Templates** section of the **New Project Dialog**. Instead, the dropdown functions as a framework picker for the selected template.
+
  \<VSTemplate>  
  \<MaxFrameworkVersion>  
   
@@ -52,7 +55,7 @@ Specifies the maximum version of the .NET Framework that is required by the temp
  The text must be the highest version number of the .NET Framework that is allowed by the template.  
   
 ## Remarks  
- `MaxFrameworkVersion` is an optional element. The element in the `TemplateData` section of the .vstemplate file acts as a filter for the **Templates** section of the **Add New Project** dialog box. Only templates whose .NET Framework requirements are less than `MaxFrameworkVersion` element values will be displayed, based on the value that is selected in the **Target Framework Version** box of the **Add New Project** dialog box. The `MaxFrameworkVersion` element should be omitted unless it is required, so as not to inadvertently cause templates from being displayed when they are used with newer versions of the .NET Framework.  
+ `MaxFrameworkVersion` is an optional element. The `MaxFrameworkVersion` element should be omitted unless it is required, so as not to inadvertently limit the supported range of .NET Framework versions for the template. It should also be omitted if .NET Framework is not applicable to the template.
   
 ## Example  
  The following example illustrates the metadata for a standard [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] class template.  
@@ -74,7 +77,7 @@ Specifies the maximum version of the .NET Framework that is required by the temp
 </VSTemplate>  
 ```  
   
- In this example, the maximum version of the .NET Framework that is required by the template, represented by `MaxFrameworkVersion`, is 3.5. The above template will be displayed only when you select either 3.0 or 3.5 in the **Target Framework Version** box in the **Add New Project** dialog box.  
+ In this example, the maximum version of the .NET Framework that is required by the template, represented by `MaxFrameworkVersion`, is 3.5. A project created with this template will target .NET Framework version 3.5.  
   
 ## See Also  
  [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)   
