@@ -13,6 +13,8 @@ caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Create a Basic Texture
 This document demonstrates how to use the Image Editor to create a basic texture.  

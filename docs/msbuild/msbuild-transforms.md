@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: msbuild
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
@@ -13,30 +12,29 @@ helpviewer_keywords:
   - "transforms [MSBuild]"
 ms.assetid: d0bcfc3c-14fa-455e-805c-63ccffa4a3bf
 caps.latest.revision: 13
-author: "kempb"
-ms.author: "kempb"
+author: Mikejo5000
+ms.author: mikejo
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # MSBuild Transforms
 A transform is a one-to-one conversion of one item list to another. In addition to enabling a project to convert item lists, a transform enables a target to identify a direct mapping between its inputs and outputs. This topic explains transforms and how [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] uses them to build projects more efficiently.  
   
 ## Transform Modifiers  
- Transforms are not arbitrary, but are limited by special syntax in which all transform modifiers must be in the format %(*ItemMetaDataName*). Any item metadata can be used as a transform modifier. This includes the well-known item metadata that is assigned to every item when it is created. For a list of well-known item metadata, see [Well-known Item Metadata](../msbuild/msbuild-well-known-item-metadata.md).  
+Transforms are not arbitrary, but are limited by special syntax in which all transform modifiers must be in the format %(*ItemMetaDataName*). Any item metadata can be used as a transform modifier. This includes the well-known item metadata that is assigned to every item when it is created. For a list of well-known item metadata, see [Well-known Item Metadata](../msbuild/msbuild-well-known-item-metadata.md).  
   
- In the following example, a list of .resx files is transformed into a list of .resources files. The %(filename) transform modifier specifies that each .resources file has the same file name as the corresponding .resx file.  
+In the following example, a list of *.resx* files is transformed into a list of *.resources* files. The %(filename) transform modifier specifies that each *.resources* file has the same file name as the corresponding *.resx* file.  
   
 ```  
 @(RESXFile->'%(filename).resources')  
-```  
-  
+```
+
+For example, if the items in the @(RESXFile) item list are *Form1.resx*, *Form2.resx*, and *Form3.resx*, the outputs in the transformed list will be *Form1.resources*, *Form2.resources*, and *Form3.resources*.  
+
 > [!NOTE]
->  You can specify a custom separator for a transformed item list in the same way you specify a separator for a standard item list. For example, to separate a transformed item list by using a comma (,) instead of the default semicolon (;), use the following XML.  
-  
-```  
-@(RESXFile->'Toolset\%(filename)%(extension)', ',')  
-```  
-  
- For example, if the items in the @(RESXFile) item list are `Form1.resx`, `Form2.resx`, and `Form3.resx`, the outputs in the transformed list will be `Form1.resources`, `Form2.resources`, and `Form3.resources`.  
+>  You can specify a custom separator for a transformed item list in the same way you specify a separator for a standard item list. For example, to separate a transformed item list by using a comma (,) instead of the default semicolon (;), use the following XML:  
+> `@(RESXFile->'Toolset\%(filename)%(extension)', ',')`
   
 ## Using Multiple Modifiers  
  A transform expression can contain multiple modifiers, which can be combined in any order and can be repeated. In the following example, the name of the directory that contains the files is changed but the files retain the original name and file name extension.  
@@ -45,12 +43,12 @@ A transform is a one-to-one conversion of one item list to another. In addition 
 @(RESXFile->'Toolset\%(filename)%(extension)')  
 ```  
   
- For example, if the items that are contained in the `RESXFile` item list are `Project1\Form1.resx`, `Project1\Form2.resx`, and `Project1\Form3.text`, the outputs in the transformed list will be `Toolset\Form1.resx`, `Toolset\Form2.resx`, and `Toolset\Form3.text`.  
+ For example, if the items that are contained in the `RESXFile` item list are *Project1\Form1.resx*, *Project1\Form2.resx*, and *Project1\Form3.text*, the outputs in the transformed list will be *Toolset\Form1.resx*, *Toolset\Form2.resx*, and *Toolset\Form3.text*.  
   
 ## Dependency Analysis  
  Transforms guarantee a one-to-one mapping between the transformed item list and the original item list. Therefore, if a target creates outputs that are transforms of the inputs, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] can analyze the timestamps of the inputs and outputs, and decide whether to skip, build, or partially rebuild a target.  
   
- In the [Copy Task](../msbuild/copy-task.md) in the following example, every file in the `BuiltAssemblies` item list maps to a file in the destination folder of the task, specified by using a transform in the `Outputs` attribute. If a file in the `BuiltAssemblies` item list changes, the `Copy` task will be run only for the changed file and all other files will be skipped. For more information about dependency analysis and how to use transforms, see [How to: Build Incrementally](../msbuild/how-to-build-incrementally.md).  
+ In the [Copy Task](../msbuild/copy-task.md) in the following example, every file in the `BuiltAssemblies` item list maps to a file in the destination folder of the task, specified by using a transform in the `Outputs` attribute. If a file in the `BuiltAssemblies` item list changes, the `Copy` task runs only for the changed file, and all other files are skipped. For more information about dependency analysis and how to use transforms, see [How to: Build Incrementally](../msbuild/how-to-build-incrementally.md).  
   
 ```xml  
 <Target Name="CopyOutputs"  
@@ -91,7 +89,7 @@ A transform is a one-to-one conversion of one item list to another. In addition 
 ```  
   
 ### Comments  
- This example produces the following output.  
+ This example produces the following output:  
   
 ```  
 rootdir: C:\  

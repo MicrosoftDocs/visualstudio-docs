@@ -23,6 +23,8 @@ caps.latest.revision: 38
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Debugging DLL projects from Visual Studio
 The following Visual Studio templates create DLLs:  

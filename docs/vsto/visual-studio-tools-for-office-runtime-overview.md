@@ -27,11 +27,11 @@ helpviewer_keywords:
   - "runtime [Office development in Visual Studio], about VSTO runtime"
   - "solution loader [Office development in Visual Studio]"
   - "runtime [Office development in Visual Studio]"
-ms.assetid: 5526a4d2-a61c-43ee-8349-dd1968e0cdb4
-caps.latest.revision: 92
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Visual Studio Tools for Office Runtime Overview
   To run solutions that are created by using the Microsoft Office developer tools in Visual Studio, the Visual Studio 2010 Tools for Office Runtime must be installed on end user computers. For more information, see [How to: Install the Visual Studio Tools for Office Runtime Redistributable](../vsto/how-to-install-the-visual-studio-tools-for-office-runtime-redistributable.md). The Visual Studio 2010 Tools for Office Runtime consists of two main components:  

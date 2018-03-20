@@ -4,8 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
+ms.technology: msbuild
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
@@ -13,9 +12,11 @@ helpviewer_keywords:
   - "logging [MSBuild]"
 ms.assetid: 6ba9a754-9cc0-4fed-9fc8-4dcd3926a031
 caps.latest.revision: 27
-author: "kempb"
-ms.author: "kempb"
+author: Mikejo5000
+ms.author: mikejo
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Obtaining Build Logs with MSBuild
 By using switches with MSBuild, you can specify how much build data you want to review and whether you want to save build data to one or more files. You can also specify a custom logger to collect build data. For information about MSBuild command-line switches that this topic doesn't cover, see [Command-Line Reference](../msbuild/msbuild-command-line-reference.md).  
@@ -39,7 +40,7 @@ By using switches with MSBuild, you can specify how much build data you want to 
 ```  
 msbuild MyProject.proj /t:go /v:diag  
 ```  
-  
+
 ## Saving the build log to a file  
  You can use the **/fileLogger** (**fl**) switch to save build data to a file. The following example saves build data to a file that's named `msbuild.log`.  
   
@@ -66,7 +67,19 @@ msbuild MyProject.proj /t:go /fl1 /fl2 /fl3 /flp2:logfile=JustErrors.log;errorso
 ```  
   
  For more information, see [Command-Line Reference](../msbuild/msbuild-command-line-reference.md).  
-  
+
+## Saving a binary log
+
+You can save the log in compressed, binary format using the **/binaryLogger** (**bl**) switch. This log includes a detailed description of the build process and can be read by certain log analysis tools.
+
+In the following example, a binary log file is created with the name `binarylogfilename`.
+
+```  
+/bl:binarylogfilename.binlog
+``` 
+ 
+For more information, see [Command-Line Reference](../msbuild/msbuild-command-line-reference.md).  
+
 ## Using a custom logger  
  You can write your own logger by authoring a managed type that implements the <xref:Microsoft.Build.Framework.ILogger> interface. You might use a custom logger, for instance, to send build errors in email, log them to a database, or log them to an XML file. For more information, see [Build Loggers](../msbuild/build-loggers.md).  
   

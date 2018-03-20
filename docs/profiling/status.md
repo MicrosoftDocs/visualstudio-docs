@@ -13,6 +13,8 @@ caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Status
 The VSPerfCmd.exe **Status** option displays information about the state of the profiler and any processes that are currently being profiled.  

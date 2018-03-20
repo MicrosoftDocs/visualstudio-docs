@@ -13,6 +13,8 @@ caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Inspect your app with IntelliTrace historical debugging in Visual Studio
 You can use [historical debugging](../debugger/historical-debugging.md) to move backward and forward through the execution of your application and inspect its state.  
@@ -22,7 +24,7 @@ You can use IntelliTrace in Visual Studio Enterprise edition but not the Profess
 ## Navigate your code with historical debugging  
  Let's start with a simple program that has a bug. In a C# console application, add the following code:  
   
-```CSharp  
+```csharp  
 static void Main(string[] args)  
 {  
     int testInt = 0;  

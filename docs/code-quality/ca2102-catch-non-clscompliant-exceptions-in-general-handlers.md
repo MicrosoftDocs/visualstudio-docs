@@ -18,6 +18,8 @@ caps.latest.revision: 19
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA2102: Catch non-CLSCompliant exceptions in general handlers
 |||  

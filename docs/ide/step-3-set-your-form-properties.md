@@ -13,6 +13,8 @@ caps.latest.revision: 18
 author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Step 3: Set Your Form Properties
 Next, you use the **Properties** window to change the way your form looks.  

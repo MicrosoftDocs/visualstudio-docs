@@ -15,6 +15,8 @@ caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Display Thread Properties
 To find out more about a thread listed in [Threads View](../debugger/threads-view.md), use the [Thread Properties Dialog Box](../debugger/thread-properties-dialog-box.md).  

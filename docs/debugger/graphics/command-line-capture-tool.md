@@ -13,6 +13,8 @@ caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Command-Line Capture Tool
 DXCap.exe is a command-line tool for graphics diagnostics capture and playback. It supports Direct3D 10 through Direct3D 12 across all feature levels.  
@@ -37,12 +39,12 @@ DXCap.exe -info
   
  `-frame` `frames`  
  Under capture mode, `frames` specifies the frames that you want to capture. The first frame is 1. You can specify multiple frames by using commas and ranges. For example, if `frames` is `2, 5, 7-9, 15`, then frames `2`, `5`, `7`, `8`, `9`, and `15` are captured.  
+
+> [!TIP]
+> Use `-frame` `manual` to specify that frames will be captured manually by pressing the Print Screen key. Frames can be captured when the app starts; to stop capturing frames, return to the command line interface and press enter.  
   
  `-period` `periods`  
  Under capture mode, `periods` specifies the ranges of time, in seconds, during which you want to capture frames. You can specify multiple periods by using commas and ranges. For example if `periods` is `2.1-5, 7.0-9.3`, then frames that are rendered between `2.1` and `5` seconds, and between`7` and `9.3` seconds are captured.  
-  
- `-manual`  
- Under capture mode, `-manual` specifies that frames will be captured manually by pressing the Print Screen key. Frames can be captured when the app starts; to stop capturing frames, return to the command line interface and press enter.  
   
  `-c` `app` [`args...`]  
  Capture mode. Under capture mode, `app` specifies the name of the app that you want to capture graphics information from; `args...` specifies additional command-line parameters to that app.  

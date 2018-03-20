@@ -25,6 +25,8 @@ caps.latest.revision: 19
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How Can I Find Out If My Pointers Corrupt a Memory Address?
 ## Problem Description  

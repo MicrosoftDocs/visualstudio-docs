@@ -1,15 +1,16 @@
 ---
 title: "What's New in Live Unit Testing | Microsoft Docs"
 ms.date: "10-11-2017"
-ms.technology: 
-  - "vs-devops-test"
+ms.technology: vs-ide-test
 ms.topic: "article"
 helpviewer_keywords: 
   - "Visual Studio ALM"
   - "Live Unit Testing"
   - "Live Unit Testing What's New"
-author: "rpetrusha"
+author: rpetrusha
 ms.author: "ronpet"
+ms.workload: 
+  - "dotnet"
 ---
 # What's New in Live Unit Testing
 

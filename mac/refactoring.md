@@ -9,11 +9,11 @@ ms.assetid: C7782BF3-016F-4B41-8A81-85FC540A1A8F
 ---
 # Refactoring
 
-Refactoring code is a way to rearrange, restructure, and clarify existing code while still ensuring that the overall behavior of the code does not change.
+Refactoring code is a way to rearrange, restructure, and clarify existing code while ensuring that the overall behavior of the code doesn't change.
 
-It produces a healthier code base, making it much more useable, readable, and maintainable for you or any other developer or user that might refer to the code.
+Refactoring produces a healthier code base, making it more useable, readable, and maintainable for you or any other developer or user that might refer to the code.
 
-Visual Studio for Mac's integration with Roslyn, Microsoft's open source .NET compiler platform, allows for more refactoring operations, as well as fully supporting the latest C# version.
+Visual Studio for Mac's integration with Roslyn, Microsoft's open-source .NET compiler platform, allows for more refactoring operations.
 
 ## Renaming 
 

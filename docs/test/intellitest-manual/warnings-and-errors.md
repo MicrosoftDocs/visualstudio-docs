@@ -1,19 +1,15 @@
 ---
 title: "Warnings and errors | Microsoft IntelliTest Developer Test Tool | Microsoft Docs"
-ms.custom: ""
 ms.date: "05/02/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
+ms.technology: vs-ide-test
 ms.topic: "article"
 helpviewer_keywords: 
   - "IntelliTest, Warnings and errors"
-ms.assetid: F725B4A3-F79E-4F05-945F-847756CD69B9
-caps.latest.revision: 56
-ms.author: "douge"
-manager: "douge"
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+author: gewarren
 ---
 # Warnings and errors
 

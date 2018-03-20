@@ -13,6 +13,8 @@ caps.latest.revision: 14
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Collecting Application Statistics for Services by Using the Profiler Sampling Method
 This section describes the procedures and options for collecting performance statistics for Windows services using the sampling method from the command line.  

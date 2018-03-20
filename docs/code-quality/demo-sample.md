@@ -16,6 +16,8 @@ caps.latest.revision: 21
 author: mikeblome
 ms.author: mblome
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Demo Sample
 This following procedures show you how to create the sample for [Walkthrough: Analyzing C/C++ Code for Defects](../code-quality/walkthrough-analyzing-c-cpp-code-for-defects.md). The procedures create:  
@@ -64,7 +66,7 @@ This following procedures show you how to create the sample for [Walkthrough: An
   
 4.  Copy the following code and paste it into the **Bug.cpp** file in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] editor.  
   
-    ```  
+    ```cpp
     #include <windows.h>  
   
     //    
@@ -92,7 +94,7 @@ This following procedures show you how to create the sample for [Walkthrough: An
   
 8.  Copy the following code and paste it into the Bug.h file in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] editor.  
   
-    ```  
+    ```cpp
     #include <stdlib.h>  
     #include "Bug.h"  
   
@@ -178,7 +180,7 @@ This following procedures show you how to create the sample for [Walkthrough: An
   
 4.  Copy the following code and paste it into the **annotations.h** file in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] editor.  
   
-    ```  
+    ```cpp
     #include <CodeAnalysis/SourceAnnotations.h>  
   
     struct LinkedList  
@@ -201,7 +203,7 @@ This following procedures show you how to create the sample for [Walkthrough: An
   
 8.  Copy the following code and paste it into the **annotations.cpp** file in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] editor.  
   
-    ```  
+    ```cpp
     #include <CodeAnalysis/SourceAnnotations.h>  
     #include <windows.h>  
     #include <stdlib.h>    

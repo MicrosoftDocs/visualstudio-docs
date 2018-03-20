@@ -17,6 +17,8 @@ caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugCustomAttributeQuery2::GetCustomAttributeByName
 Obtains the custom attributes bytes given the name of the custom attribute.  

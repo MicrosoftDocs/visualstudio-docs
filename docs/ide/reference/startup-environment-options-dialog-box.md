@@ -15,6 +15,8 @@ caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Startup, Environment, Options Dialog Box
 Use this page to customize the Visual Studio start page or set a different default action when Visual Studio starts up. For more information, see [Customizing the Start Page](../../ide/customizing-the-start-page-for-visual-studio.md).  

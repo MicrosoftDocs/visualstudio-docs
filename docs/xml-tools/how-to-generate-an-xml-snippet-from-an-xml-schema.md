@@ -13,6 +13,8 @@ caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # How to: Generate an XML Snippet From an XML Schema
 The XML Editor has the ability to generate XML snippets from an XML Schema definition language (XSD) schema. For example, as you are authoring an XML file, while positioned next to the element name, you can press TAB to populate the element with XML data generated from the schema information for that element.  
@@ -133,7 +135,7 @@ Default values are generated and noted as editable values. If the schema specifi
     </xs:complexType>  
   </xs:element>  
 </xs:schema>  
-```  
+```
   
 ### Output  
  Following is the XML data that is generated based on the schema information associated with the `Contact` element. Items marked as `bold` designate editable fields in the XML snippet.  
@@ -147,7 +149,7 @@ Default values are generated and noted as editable values. If the schema specifi
     <Type>Voice</Type>  
   </Phone>  
 </Contact>  
-```  
+```
   
 ## See Also  
  [XML Snippets](../xml-tools/xml-snippets.md)   

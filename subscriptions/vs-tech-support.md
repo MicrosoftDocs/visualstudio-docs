@@ -13,9 +13,10 @@ Searchscope: VS Subscription
 
 # Activating the Technical Support Benefit in Visual Studio Subscriptions
 
-Resolve break-fix issues in non-production environments.  (Note:  Benefit must by activated before you can submit a support request.)  Visual Studio Enterprise standard and annual cloud subscriptions receive four incidents, while Visual Studio Professional standard and annual cloud subscriptions receive two incidents.  
+Resolve break-fix issues in non-production environments.  (Benefit must be activated before you can submit a support request.)  Visual Studio Enterprise standard and annual cloud subscriptions receive four incidents, while Visual Studio Professional standard and annual cloud subscriptions receive two incidents.  
 
-**NOTE:**  Not all subscriptions at a given level are eligible to receive support incidents.  Subscriptions acquired through FTE, NFR, MPN, MCT and other programs do not receive support incidents.  If your subscription is not eligible to receive technical support incidents, the Technical Support tile will not appear in your available benefits. 
+> [!NOTE]
+> Not all subscriptions at a given level are eligible to receive support incidents.  Subscriptions acquired through FTE, NFR, MPN, MCT and other programs do not receive support incidents.  If your subscription is not eligible to receive technical support incidents, the Technical Support tile will not appear in your available benefits. 
 
    ![Technical Support Benefit Tile](_img\vs-tech-support\vs-tech-support-tile.png)
 
@@ -29,7 +30,8 @@ Resolve break-fix issues in non-production environments.  (Note:  Benefit must b
 
     ![Technical Support Benefit Find Subscription ID](_img\vs-tech-support\vs-tech-support-subID-cropped.png)
 
-**NOTE:** To activate your support account in a language other than English, choose your country from [this list](http://support.microsoft.com/activatesupport).   
+> [!NOTE]
+> To activate your support account in a language other than English, choose your country from [this list](http://support.microsoft.com/activatesupport).   
 
 # How to submit an incident
 Once you have your Contract ID and Access ID set up, when you need support you can call the  technical support number for your country, submit a support incident [online](http://support.microsoft.com/oas/), or submit an incident via the Azure portal.  If would prefer to receive support over the phone, you can still submit your incident online, and a Microsoft Support Professional will call you back.
@@ -81,7 +83,7 @@ To use your Visual Studio subscription technical support benefit for issues rela
 1.	Visit https://portal.azure.com and sign in
 2.	From the left-hand navigation click “Help + Support”
 3.	Under “Support” click “Link support contract”
-4.	Enter the provide “Access ID” and “Contact ID” provided in #1 above.
+4.	Enter the provide “Access ID” and “Contract ID” provided in #1 above.
 Once you have completed these steps, you'll be able to select the support plan associated with your Visual Studio subscription benefit.  (The name of the plan may contain "MSDN".)
 
  

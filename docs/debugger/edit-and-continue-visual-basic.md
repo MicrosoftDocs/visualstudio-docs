@@ -24,6 +24,8 @@ caps.latest.revision: 40
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Edit and Continue (Visual Basic)
 Edit and Continue is a feature for [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] debugging that enables you to change your code while it is executing in Break mode. After code edits have been applied, you can resume code execution with the new edits in place and see the effect.  
@@ -37,7 +39,7 @@ Edit and Continue is a feature for [!INCLUDE[vbprvb](../code-quality/includes/vb
  Edit and Continue is supported in UWP apps for Windows 10, and x86 and x64 apps that target the .NET Framework 4.6 desktop or later versions (the .NET Framework is a desktop version only).
 
  > [!NOTE]
- > Unsupported apps and platforms include ASP.NET 5, Silverlight 5, Windows Phone and Windows Phone emulator, and Windows 8.1.
+ > Unsupported apps and platforms include ASP.NET 5, Silverlight 5, and Windows 8.1.
   
  Edit and Continue is not supported when you start debugging using **Attach to Process**. Edit and Continue is not supported for optimized code or mixed managed and native code. For more information, see [Supported Code Changes (C# and Visual Basic](../debugger/supported-code-changes-csharp.md).
   

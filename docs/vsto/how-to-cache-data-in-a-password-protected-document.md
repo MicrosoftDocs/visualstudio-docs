@@ -15,11 +15,11 @@ helpviewer_keywords:
   - "data caching [Office development in Visual Studio], protected documents"
   - "datasets [Office development in Visual Studio], caching"
   - "data [Office development in Visual Studio], caching"
-ms.assetid: 91b865fc-bd01-438f-ac63-2fe3175bc2e8
-caps.latest.revision: 23
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Cache Data in a Password-Protected Document
   If you add data to the data cache in a document or workbook that is protected with a password, changes to the cached data are not saved automatically. You can save changes to the cached data by overriding two methods in your project.  

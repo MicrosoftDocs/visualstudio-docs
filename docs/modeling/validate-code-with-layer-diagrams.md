@@ -4,7 +4,6 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "dependency diagrams, validating"
@@ -18,11 +17,12 @@ helpviewer_keywords:
   - "MSBuild, tasks"
   - "MSBuild, dependency diagrams"
   - "MSBuild, validating code"
-ms.assetid: 70cbe55d-4b33-4355-b0a7-88c770a6f75c
-caps.latest.revision: 82
-author: "alexhomer1"
-ms.author: "ahomer"
-manager: "douge"
+author: gewarren
+ms.author: gewarren
+manager: ghogen
+ms.workload: 
+  - "multiple"
+ms.technology: vs-ide-modeling
 ---
 # Validate code with dependency diagrams
 
@@ -50,7 +50,7 @@ To make sure that code doesn't conflict with its design, validate your code with
   
 -   Visual Studio on your Team Foundation Build server to validate code automatically with Team Foundation Build  
   
--   A solution that has a modeling project with a dependency diagram. This dependency diagram  must be linked to artifacts in Visual C# .NET or Visual Basic .NET projects that you want to validate. See [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md).  
+-   A solution that has a modeling project with a dependency diagram. This dependency diagram  must be linked to artifacts in C# or Visual Basic projects that you want to validate. See [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md).  
   
  To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
   
@@ -215,7 +215,7 @@ are shown immediately in the Visual Studio Error List window.
   
  For more information about validation errors, see [Understand and resolve layer validation errors](#UnderstandingValidationErrors). For more information about [!INCLUDE[esprbuild](../misc/includes/esprbuild_md.md)], see:  
   
--   [Build the application](http://msdn.microsoft.com/Library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)  
+-   [Build and release](/vsts/build-release/index)  
   
 -   [Use the Default Template for your build process](http://msdn.microsoft.com/Library/43930b12-c21b-4599-a980-2995e3d16e31)  
   

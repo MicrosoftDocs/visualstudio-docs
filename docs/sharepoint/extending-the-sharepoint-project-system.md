@@ -14,11 +14,11 @@ dev_langs:
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, extending projects"
   - "SharePoint development in Visual Studio, extending project items"
-ms.assetid: 654b2973-a5c9-44be-a3d2-8bc3d15f9624
-caps.latest.revision: 38
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Extending the SharePoint Project System
   You can create SharePoint solutions by using a set of project templates and item templates in Visual Studio. These templates meet the requirements of many development scenarios, but you might discover some cases where they don't provide functionality that you require. In these cases, you can extend the SharePoint project system.  

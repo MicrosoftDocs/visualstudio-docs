@@ -13,6 +13,8 @@ caps.latest.revision: 5
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Creating an Extension with a VSPackage
 This walkthrough shows you how to create a VSIX project and add a VSPackage project item. We will use the VSPackage to get the UI Shell service in order to show a message box.  
@@ -41,7 +43,7 @@ This walkthrough shows you how to create a VSIX project and add a VSPackage proj
     [PackageRegistration(UseManagedResourcesOnly = true)]  
     [InstalledProductRegistration("#110", "#112", "1.0", IconResourceID = 400)] // Info on this package for Help/About  
     [ProvideAutoLoad(UIContextGuids80.SolutionExists)]  
-    [Guid(FirstPackageGuids.PackageGuidString)]  
+    [Guid(FirstPackage.PackageGuidString)]  
     public sealed class FirstPackage : Package  
     ```  
   

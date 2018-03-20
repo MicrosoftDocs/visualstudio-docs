@@ -13,10 +13,11 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords: 
   - "autosave"
-ms.assetid: b60bb228-0e72-4f24-88bb-397dfc5d50a7
-author: "ghogen"
-ms.author: "ghogen"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How AutoSave Impacts Office Solutions
 

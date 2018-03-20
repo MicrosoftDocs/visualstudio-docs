@@ -13,6 +13,8 @@ caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # 0x/2x/4x MSAA Variants
 Overrides multi-sample anti-aliasing (MSAA) settings on all render targets and swap chains.  

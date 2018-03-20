@@ -17,6 +17,8 @@ caps.latest.revision: 24
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # TemplateData Element (Visual Studio Templates)
 Categorizes the template and defines how it displays in either the **New Project** or the **Add New Item** dialog box.  

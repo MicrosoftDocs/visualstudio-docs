@@ -13,6 +13,8 @@ caps.latest.revision: 5
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Troubleshooting Code Analysis Issues
 This topic contains troubleshooting information for the following Visual Studio code analysis issues.  

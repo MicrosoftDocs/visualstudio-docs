@@ -17,6 +17,8 @@ caps.latest.revision: 7
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugEngine3::LoadSymbols
 Loads (as necessary) symbols for all modules being debugged by this debugging engine.  

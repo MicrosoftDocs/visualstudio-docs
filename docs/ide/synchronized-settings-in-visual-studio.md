@@ -15,6 +15,8 @@ caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Synchronize your settings in Visual Studio
 
@@ -48,7 +50,7 @@ By default, the following settings are synchronized.
 
 ## Turn off synchronized settings on a particular computer
 
-Synchronized settings for Visual Studio are turned on by default. You can turn off synchronized settings on a computer by going to the **Tools &#124; Options &#124; Environment &#124; Synchronized Settings** page and unchecking the checkbox.  For example, if you decide not to synchronize Visual Studio's settings on Computer A, any setting changes made on Computer A do not appear on Computer B or Computer C. Computer B and C will continue to synchronize with each other, but not with Computer A.
+Synchronized settings for Visual Studio are turned on by default. You can turn off synchronized settings on a computer by going to the **Tools &#124; Options &#124; Environment &#124; Accounts** page and unchecking the checkbox.  For example, if you decide not to synchronize Visual Studio's settings on Computer A, any setting changes made on Computer A do not appear on Computer B or Computer C. Computer B and C will continue to synchronize with each other, but not with Computer A.
 
 ## Synchronize settings across Visual Studio family products and editions
 

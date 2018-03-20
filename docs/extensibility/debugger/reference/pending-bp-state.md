@@ -17,6 +17,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # PENDING_BP_STATE
 Specifies the state of a pending breakpoint (a breakpoint that has not yet been bound).  

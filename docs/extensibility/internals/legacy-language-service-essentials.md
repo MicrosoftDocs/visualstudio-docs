@@ -18,6 +18,8 @@ caps.latest.revision: 21
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Legacy Language Service Essentials
 You must provide a language service to integrate a programming language into Visual Studio. This topic explains the features available in legacy language services.  

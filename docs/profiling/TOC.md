@@ -1,12 +1,22 @@
-# [Profiling feature tour](profiling-feature-tour.md)
-## [Beginner's guide to performance profiling](beginners-guide-to-performance-profiling.md)
-## [What's new in profiling tools](what-s-new-in-profiling-tools.md)
+
+# [Profiling documentation](index.md)
+# Overview
+## [Profiling feature tour](profiling-feature-tour.md)
+# Quickstarts
+## [Analyze CPU usage (managed)](quickstart-cpu-usage-managed.md)
+## [Analyze CPU usage (native)](quickstart-cpu-usage-native.md)
+## [Analyze CPU usage (ASP.NET)](quickstart-cpu-usage-aspnet.md)
+# Tutorials
+## [Profile application performance in Visual Studio](beginners-guide-to-performance-profiling.md)
+## [Profile memory usage in Visual Studio](memory-usage.md)
+# Concepts
 ## [Run profiling tools with or without the debugger](running-profiling-tools-with-or-without-the-debugger.md)
-## [Analyze memory usage](memory-usage.md)
-### [Custom native ETW heap events](custom-native-etw-heap-events.md)
-### [Memory usage without the debugger](memory-usage-without-debugging2.md)
+# How-to guides
 ## [Analyze CPU usage](cpu-usage.md)
 ### [Analyze CPU usage in a Universal Windows App (UWP)](analyze-cpu-usage-in-a-windows-universal-app.md)
+## [Analyze memory usage](analyze-memory-usage.md)
+### [Custom native ETW heap events](custom-native-etw-heap-events.md)
+### [Memory usage without the debugger](memory-usage-without-debugging2.md)
 ## [Analyze GPU usage](gpu-usage.md)
 ## [Analyze Resource Consumption](application-timeline.md)
 ## [Use PerfTips](perftips.md)
@@ -32,8 +42,6 @@
 #### [Beginner's guide to CPU sampling](beginners-guide-to-cpu-sampling.md)
 #### [How to: Collect performance data for a Web site](how-to-collect-performance-data-for-a-web-site.md)
 #### [How to: Manually create performance sessions](how-to-manually-create-performance-sessions.md)
-#### [Walkthrough: Identify performance problems](walkthrough-identifying-performance-problems.md)
-#### [PeopleTrax sample (profiling tools)](peopletrax-sample-profiling-tools.md)
 ### [Configure performance sessions](configuring-performance-sessions.md)
 #### [How to: Reference Windows symbol information](how-to-reference-windows-symbol-information.md)
 #### [How to: Choose collection methods](how-to-choose-collection-methods.md)
@@ -196,7 +204,6 @@
 ###### [How to: Attach the profiler to a .NET Framework stand-alone Application to collect memory data by using the command line](how-to-attach-the-profiler-to-a-dotnet-framework-stand-alone-application-to-collect-memory-data-by-using-the-command-line.md)
 ###### [How to: Instrument a stand-alone .NET Framework component and collect memory data with the profiler by using the command line](how-to-instrument-a-stand-alone-dotnet-framework-component-and-collect-memory-data-with-the-profiler-by-using-the-command-line.md)
 ##### [Walkthrough: Command line profiling using sampling](walkthrough-command-line-profiling-using-sampling.md)
-##### [Walkthrough: Command-line profiling using instrumentation](walkthrough-command-line-profiling-using-instrumentation.md)
 #### [Command-line profiling of ASP.NET Web applications](command-line-profiling-of-aspnet-web-applications.md)
 ##### [Rapid Web site profiling with VSPerfASPNETCmd](rapid-web-site-profiling-with-vsperfaspnetcmd.md)
 ##### [Collecting application statistics for ASP.NET Web applications using the profiler sampling method from the command line](collecting-application-statistics-for-aspnet-web-applications-using-the-profiler-sampling-method-from-the-command-line.md)
@@ -366,4 +373,6 @@
 ##### [CvWriteFlag Function](cvwriteflag-function.md)
 ##### [CvWriteMessage Function](cvwritemessage-function.md)
 ### [Concurrency Visualizer Command-Line Utility (CVCollectionCmd)](concurrency-visualizer-command-line-utility-cvcollectioncmd.md)
-## [Analyze energy use in UWP apps](analyze-energy-use-in-store-apps.md)
+## [Analyze energy use in Store apps](analyze-energy-use-in-store-apps.md)
+# Resources
+## [What's new in profiling tools](what-s-new-in-profiling-tools.md)

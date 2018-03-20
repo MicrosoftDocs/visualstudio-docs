@@ -14,11 +14,11 @@ dev_langs:
 helpviewer_keywords: 
   - "data [Office development in Visual Studio], walkthroughs"
   - "walkthroughs [Office development in Visual Studio], data"
-ms.assetid: 3b2dd058-66dd-4a21-ac15-0f09a84c939f
-caps.latest.revision: 15
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Data in Office Solutions Walkthroughs
   The following walkthroughs demonstrate how to work with data in document-level customizations and VSTO Add-ins for Microsoft Office Word and Microsoft Office Excel.  

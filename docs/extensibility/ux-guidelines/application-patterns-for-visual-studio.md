@@ -13,6 +13,8 @@ caps.latest.revision: 7
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Application Patterns for Visual Studio
 ##  <a name="BKMK_WindowInteractions"></a> Window interactions  

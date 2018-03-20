@@ -17,6 +17,8 @@ caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProgramEngines2::EnumPossibleEngines
 Returns the GUIDs for all the possible debug engines (DE) that can debug this program.  

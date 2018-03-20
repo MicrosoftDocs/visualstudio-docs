@@ -19,6 +19,8 @@ caps.latest.revision: 25
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Design Warnings
 Design warnings support adherence to the .NET Framework Design Guidelines.  

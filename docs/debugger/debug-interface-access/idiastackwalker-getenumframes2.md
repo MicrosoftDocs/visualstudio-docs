@@ -17,6 +17,8 @@ caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # IDiaStackWalker::getEnumFrames2
 Retrieves a stack frame enumerator for a specific platform type.  

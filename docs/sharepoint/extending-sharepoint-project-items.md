@@ -15,11 +15,11 @@ helpviewer_keywords:
   - "project items [SharePoint development in Visual Studio], extending"
   - "SharePoint project items, extending"
   - "SharePoint development in Visual Studio, extending project items"
-ms.assetid: f09f6664-196d-46d6-819f-3c6500f23536
-caps.latest.revision: 22
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Extending SharePoint Project Items
   Create a project item extension when you want to add functionality to a type of SharePoint project item that is already installed in Visual Studio. For example, you can create an extension for the built-in **Event Receiver** or **List Definition** project items in Visual Studio, or you can create an extension for a custom project item type. You can also create an extension for all types of SharePoint project items.  

@@ -12,35 +12,35 @@ helpviewer_keywords:
   - "data [Visual Studio], Dataset Designer"
   - "Dataset Designer, walkthroughs"
   - "datasets [Visual Basic], creating"
-ms.assetid: 12360f54-db6c-45d2-a91f-fee43214b555
-caps.latest.revision: 19
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
-robots: noindex,nofollow
 ms.technology: "vs-data-tools"
+ms.workload: 
+  - "data-storage"
 ---
 # Walkthrough: Creating a Dataset with the Dataset Designer
+
 In this walkthrough you will create a dataset using the **Dataset Designer**. It will take you through the process of creating a new project and adding a new **DataSet** item to it. You will learn how to create tables based on tables in a database without using a wizard.  
-  
- Tasks illustrated in this walkthrough include:  
-  
+
+Tasks illustrated in this walkthrough include:  
+
 -   Creating a new **Windows Forms Application** project.  
-  
+
 -   Adding an empty **DataSet** item to the project.  
-  
+
 -   Creating and configuring a data source in your application by building a dataset with the **Dataset Designer**.  
-  
+ 
 -   Creating a connection to the Northwind database in **Server Explorer**.  
-  
+
 -   Creating tables with TableAdapters in the dataset based on tables in the database.  
-  
+
 [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
   
 ## Prerequisites  
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.  
   
-1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Editions download page](https://www.microsoft.com/en-us/server-cloud/Products/sql-server-editions/sql-server-express.aspx), or through the **Visual Studio Installer**. In the Visual Studio Installer, SQL Server Express LocalDB can be installed as part of the **Data storage and processing** workload, or as an individual component.  
+1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the Visual Studio Installer, SQL Server Express LocalDB can be installed as part of the **Data storage and processing** workload, or as an individual component.  
   
 2.  Install the Northwind sample database by following these steps:  
 

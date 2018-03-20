@@ -16,6 +16,8 @@ caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugWindowsComputerPort2::GetComputerInfo
 Retrieves information about the computer on which the debugger in running.  

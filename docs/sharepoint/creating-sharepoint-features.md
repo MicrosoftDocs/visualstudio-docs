@@ -14,11 +14,11 @@ dev_langs:
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, features"
   - "features [SharePoint development in Visual Studio]"
-ms.assetid: 2e211fb3-94f4-4921-ba77-2ba6717a3e41
-caps.latest.revision: 20
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # Creating SharePoint Features
   You can use a SharePoint Feature to group related SharePoint project items for easier deployment. You can create Features, set scopes, and mark other Features as dependencies by using the SharePoint Feature Designer. The designer also generates a manifest, which is an XML file that describes each Feature.  

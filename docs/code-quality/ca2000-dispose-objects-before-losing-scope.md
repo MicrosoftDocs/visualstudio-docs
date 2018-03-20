@@ -20,6 +20,8 @@ caps.latest.revision: 32
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # CA2000: Dispose objects before losing scope
 |||  

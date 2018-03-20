@@ -14,11 +14,11 @@ dev_langs:
 helpviewer_keywords: 
   - "Visio [Office development in Visual Studio], adding Visio shapes"
   - "shapes [Office development in Visual Studio], adding Visio shapes"
-ms.assetid: 29613237-88f5-41a7-9e13-cfa177f41221
-caps.latest.revision: 17
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # How to: Programmatically Add Shapes to a Visio Document
   You can add shapes to a Microsoft Office Visio document by retrieving the masters from a stencil and dropping the shapes on the active page.  

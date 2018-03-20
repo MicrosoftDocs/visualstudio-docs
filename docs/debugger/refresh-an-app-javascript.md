@@ -1,5 +1,5 @@
 ---
-title: "Refresh an UWP or Windows 8.1 App | Microsoft Docs"
+title: "Refresh a UWP app | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -23,11 +23,12 @@ caps.latest.revision: 20
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "uwp"
 ---
-# Refresh a UWP or Windows 8.1 App
-![Applies to Windows and Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  
+# Refresh a UWP app in Visual Studio
   
- You can make changes to your code while you're debugging, and then refresh a UWP app using JavaScript by choosing the **Refresh Windows app** button on the **Debug** toolbar. Choosing this button reloads the app without stopping and restarting the debugger. The Refresh feature enables you to modify HTML, CSS, and JavaScript code and quickly see the result. This feature is supported for UWP and Windows 8.1 apps.  
+ You can make changes to your code while you're debugging, and then refresh a UWP app using JavaScript by choosing the **Refresh Windows app** button on the **Debug** toolbar. Choosing this button reloads the app without stopping and restarting the debugger. The Refresh feature enables you to modify HTML, CSS, and JavaScript code and quickly see the result. This feature is supported for UWP apps.  
   
  Refresh doesn't maintain your app state or reflect the following changes to your app:  
   
@@ -46,37 +47,19 @@ manager: ghogen
   
 ### To refresh an app  
   
-1.  In Visual Studio, create a new project by using the Navigation App project template.  
-  
-     This can be UWP app or a Windows 8.1 app.  
-  
-2.  With the template open in Visual Studio, select a debug target.  
-  
-     If a Windows Phone project is your current startup project, select a Windows Phone emulator for the debug target. Otherwise, select **Simulator** or **Local Machine**.  
+1.  With your UWP project open in Visual Studio, select **Local Machine** as the debug target.
   
      ![Select debug target list](../debugger/media/js_select_target.png "JS_Select_Target")  
   
 3.  Press F5 to run the app in debug mode.  
   
-4.  Switch to Visual Studio. (Press F12.)  
+4.  Switch to Visual Studio. 
   
-5.  In **Solution Explorer**, in the **pages** > **home** folder, open home.html.  
-  
-6.  Change the page title text from  
-  
-    ```html  
-    Welcome to yourAppName!  
-    ```  
-  
-     to something else, like this:  
-  
-    ```html  
-    Hello!  
-    ```  
+5.  In the home page of your UWP app, edit some of the HTML.
   
 7.  Click the **Refresh Windows app** button, which looks like this: ![Refresh Windows app button](../debugger/media/js_refresh.png "JS_Refresh"). (Or press F4.)  
   
-8.  Switch to the app. The app is reloaded without the debugger restarting, and the new page title appears.  
+8.  Switch to the app. The app is reloaded and the updated HTML is used to render the app.
   
 ## See Also  
  [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md)

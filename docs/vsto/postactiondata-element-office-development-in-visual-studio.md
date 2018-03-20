@@ -15,11 +15,11 @@ helpviewer_keywords:
   - "<postActionData> element"
   - "application manifests [Office development in Visual Studio], <postActionData> element"
   - "postActionData element"
-ms.assetid: e36cbd64-fd27-4413-b293-cf5546fbdfaf
-caps.latest.revision: 16
-author: "gewarren"
-ms.author: "gewarren"
+author: TerryGLee
+ms.author: tglee
 manager: ghogen
+ms.workload: 
+  - "office"
 ---
 # &lt;postActionData&gt; Element (Office Development in Visual Studio)
   The `postActionData` element of the `vstav3` namespace specifies the data associated with any post-deployment action that runs after Office solutions are installed.  

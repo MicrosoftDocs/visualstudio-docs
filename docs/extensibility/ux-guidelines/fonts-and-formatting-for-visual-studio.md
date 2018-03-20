@@ -13,9 +13,11 @@ caps.latest.revision: 5
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Fonts and Formatting for Visual Studio
-##  <a name="BKMK_TheEnvironmentFont"></a> The environment font  
+##  <a name="BKMK_TheEnvironmentFont"></a> The environment font
  All fonts within Visual Studio must be exposed to the user for customization. This is primarily done through the **Fonts and Colors** page in the **Tools > Options** dialog. The three main categories of font settings are:  
   
 -   **Environment font** - the primary font for the IDE (integrated development environment), used for all interface elements, including dialogs, menus, tool windows, and document windows. By default, the environment font is tied to a system font that appears as 9 pt Segoe UI in current versions of Windows. Using one font for all interface elements helps ensure a consistent font appearance throughout the IDE.  
@@ -44,9 +46,9 @@ manager: ghogen
   
  For Windows Presentation Foundation (WPF), derive your dialog window class from the shell's `DialogWindow` class instead of WPF's `Window` class.  
   
- In XAML, the code looks like this:  
+ In XAML, the code looks like this:
   
-```  
+```xaml
 <ui:DialogWindow  
     x:Class"MyNameSpace.MyWindow"  
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
@@ -56,13 +58,15 @@ manager: ghogen
     WindowStartupLocation="CenterOwner"  
     Title="My Dialog">  
 </ui:DialogWindow>  
-  
-code behind:  
-  
+```
+
+code behind:
+
+```csharp
 internal partial class WebConfigModificationWindow : DialogWindow  
 {  
 }  
-```  
+```
   
  (Replace `Microsoft.VisualStudio.Shell.11.0` with the current version of the MPF dll.)  
   
@@ -70,19 +74,19 @@ internal partial class WebConfigModificationWindow : DialogWindow
   
  The code is as follows:  
   
-```  
+```csharp
 MyWindow window = new MyWindow();  
 window.ShowModal()  
-```  
+```
   
  `ShowModal` returns a bool? (nullable Boolean) with the `DialogResult`, which can be used if needed. The return value is true if the dialog was closed with **OK**.  
   
  If you need to display some WPF UI that is not a dialog and is hosted in its own `HwndSource`, such as a popup window or a WPF child window of a Win32/WinForms parent window window, you will need to set the `FontFamily` and `FontSize` on the root element of the WPF element. (The shell sets the properties on the main window, but they will not be inherited past a `HWND`). The shell provides resources to which the properties can be bound, like this:  
   
-```  
-<Setter property="FontFamily" Value="{DynamicResource VsFont.EnvironmentFontFamily}" />  
-<Setter property="FontSize" Value="{DynamicResource VsFont.EnvironmentFontSize}" />  
-```  
+```xaml
+<Setter Property="FontFamily" Value="{DynamicResource VsFont.EnvironmentFontFamily}" />  
+<Setter Property="FontSize" Value="{DynamicResource VsFont.EnvironmentFontSize}" />  
+```
   
 ###  <a name="BKMK_Formatting"></a> Formatting (scaling/bolding) reference  
  Some dialogs require particular text to be bold or a size other than the environment font. Previously, fonts larger than the environment font were coded as "`environment font +2`" or similar. Using the provided code snippets will support high-DPI monitors and ensure that display text always appears at the correct size and weight (like Light or Semilight).  
@@ -92,10 +96,10 @@ window.ShowModal()
  To scale the environment font, set the style of the TextBlock or Label as indicated. Each of these code snippets, properly used, will generate the correct font, including the appropriate size and weight variations.  
   
  Where "`vsui`" is a reference to the namespace `Microsoft.VisualStudio.Shell`:  
-  
-```  
+
+```xaml
 xmlns:vsui="clr-namespace:Microsoft.VisualStudio.Shell;assembly=Microsoft.VisualStudio.Shell.14.0" 
-```  
+```
   
 #### 375% Environment font + Light  
  **Appears as:** 34 pt Segoe UI Light  
@@ -103,19 +107,19 @@ xmlns:vsui="clr-namespace:Microsoft.VisualStudio.Shell;assembly=Microsoft.Visual
 
  **Procedural code:** Where `textBlock` is a previously defined TextBlock and `label` is a previously defined Label:  
   
-```  
+```csharp
 textBlock.SetResourceReference(TextBlock.StyleProperty,    
         VsResourceKeys.TextBlockEnvironment375PercentFontSizeStyleKey);   
 label.SetResourceReference(Label.StyleProperty,    
         VsResourceKeys.LabelEnvironment375PercentFontSizeStyleKey);  
-```  
+```
   
  **XAML:** Set the style of the TextBlock or Label as shown.  
   
-```  
+```xaml
 <TextBlock Style="{DynamicResource {x:Static vsui:VsResourceKeys.TextBlockEnvironment375PercentFontSizeStyleKey}}">TextBlock: 375 Percent Scaling</TextBlock>   
 <Label Style="{DynamicResource {x:Static vsui:VsResourceKeys.LabelEnvironment375PercentFontSizeStyleKey}}">Label: 375 Percent Scaling</Label>  
-```  
+```
   
 #### 310% Environment font + Light  
  **Appears as:** 28 pt Segoe UI Light   
@@ -123,19 +127,19 @@ label.SetResourceReference(Label.StyleProperty,  
   
  **Procedural code:** Where `textBlock` is a previously defined TextBlock and `label` is a previously defined Label:  
   
-```  
+```csharp
 textBlock.SetResourceReference(TextBlock.StyleProperty,    
         VsResourceKeys.TextBlockEnvironment310PercentFontSizeStyleKey);   
 label.SetResourceReference(Label.StyleProperty,    
         VsResourceKeys.LabelEnvironment310PercentFontSizeStyleKey);    
-```  
+```
   
  **XAML:** Set the style of the TextBlock or Label as shown.  
   
-```  
+```xaml
 <TextBlock Style="{DynamicResource {x:Static vsui:VsResourceKeys.TextBlockEnvironment310PercentFontSizeStyleKey}}">TextBlock: 310 Percent Scaling</TextBlock>   
 <Label Style="{DynamicResource {x:Static vsui:VsResourceKeys.LabelEnvironment310PercentFontSizeStyleKey}}">Label: 310 Percent Scaling</Label>     
-```  
+```
   
 #### 200% Environment font + Semilight  
  **Appears as:** 18 pt Segoe UI Semilight    
@@ -143,19 +147,19 @@ label.SetResourceReference(Label.StyleProperty,  
   
  **Procedural code:** Where `textBlock` is a previously defined TextBlock and `label` is a previously defined Label: 
   
-```  
+```csharp
 textBlock.SetResourceReference(TextBlock.StyleProperty,    
         VsResourceKeys.TextBlockEnvironment200PercentFontSizeStyleKey);   
 label.SetResourceReference(Label.StyleProperty,    
         VsResourceKeys.LabelEnvironment200PercentFontSizeStyleKey);    
-```  
+```
   
  **XAML:** Set the style of the TextBlock or Label as shown:  
   
-```  
+```xaml
 <TextBlock Style="{DynamicResource {x:Static vsui:VsResourceKeys.TextBlockEnvironment200PercentFontSizeStyleKey}}">TextBlock: 200 Percent Scaling</TextBlock>   
 <Label Style="{DynamicResource {x:Static vsui:VsResourceKeys.LabelEnvironment200PercentFontSizeStyleKey}}">Label: 200 Percent Scaling</Label>    
-```  
+```
   
 #### 155% Environment font  
  **Appears as:** 14 pt Segoe UI    
@@ -163,19 +167,19 @@ label.SetResourceReference(Label.StyleProperty,  
   
  **Procedural code:** Where `textBlock` is a previously defined TextBlock and `label` is a previously defined Label:  
   
-```  
+```csharp
 textBlock.SetResourceReference(TextBlock.StyleProperty,    
         VsResourceKeys.TextBlockEnvironment155PercentFontSizeStyleKey);   
 label.SetResourceReference(Label.StyleProperty,    
         VsResourceKeys.LabelEnvironment155PercentFontSizeStyleKey);    
-```  
+```
   
  **XAML:** Set the style of the TextBlock or Label as shown:  
   
-```  
+```xaml
 <TextBlock Style="{DynamicResource {x:Static vsui:VsResourceKeys.TextBlockEnvironment155PercentFontSizeStyleKey}}">TextBlock: 155 Percent Scaling</TextBlock>   
 <Label Style="{DynamicResource {x:Static vsui:VsResourceKeys.LabelEnvironment155PercentFontSizeStyleKey}}">Label: 155 Percent Scaling</Label>  
-```  
+```
   
 #### 133% Environment font  
  **Appears as:** 12 pt Segoe UI    
@@ -183,19 +187,19 @@ label.SetResourceReference(Label.StyleProperty,  
   
  **Procedural code:** Where `textBlock` is a previously defined TextBlock and `label` is a previously defined Label:  
   
-```  
+```csharp
 textBlock.SetResourceReference(TextBlock.StyleProperty,    
         VsResourceKeys.TextBlockEnvironment133PercentFontSizeStyleKey);   
 label.SetResourceReference(Label.StyleProperty,    
         VsResourceKeys.LabelEnvironment133PercentFontSizeStyleKey);    
-```  
+```
   
  **XAML:** Set the style of the TextBlock or Label as shown:  
   
-```  
+```xaml
 <TextBlock Style="{DynamicResource {x:Static vsui:VsResourceKeys.TextBlockEnvironment133PercentFontSizeStyleKey}}">TextBlock: 133 Percent Scaling</TextBlock>   
 <Label Style="{DynamicResource {x:Static vsui:VsResourceKeys.LabelEnvironment133PercentFontSizeStyleKey}}">Label: 133 Percent Scaling</Label>    
-```  
+```
   
 #### 122% Environment font  
  **Appears as:** 11 pt Segoe UI    
@@ -203,19 +207,19 @@ label.SetResourceReference(Label.StyleProperty,  
   
  **Procedural code:** Where `textBlock` is a previously defined TextBlock and `label` is a previously defined Label:  
   
-```  
+```csharp
 textBlock.SetResourceReference(TextBlock.StyleProperty,    
         VsResourceKeys.TextBlockEnvironment122PercentFontSizeStyleKey);   
 label.SetResourceReference(Label.StyleProperty,    
         VsResourceKeys.LabelEnvironment122PercentFontSizeStyleKey);    
-```  
+```
   
  **XAML:** Set the style of the TextBlock or Label as shown:  
   
-```  
+```xaml
 <TextBlock Style="{DynamicResource {x:Static vsui:VsResourceKeys.TextBlockEnvironment122PercentFontSizeStyleKey}}">TextBlock: 122 Percent Scaling</TextBlock>   
 <Label Style="{DynamicResource {x:Static vsui:VsResourceKeys.LabelEnvironment122PercentFontSizeStyleKey}}">Label: 122 Percent Scaling</Label>    
-```  
+```
   
 #### Environment font + bold  
  **Appears as:** bolded 9 pt Segoe UI    
@@ -223,26 +227,26 @@ label.SetResourceReference(Label.StyleProperty,  
   
  **Procedural code:** Where `textBlock` is a previously defined TextBlock and `label` is a previously defined Label:  
   
-```  
+```csharp
 textBlock.SetResourceReference(TextBlock.StyleProperty,    
         VsResourceKeys.TextBlockEnvironmentBoldStyleKey);   
 label.SetResourceReference(Label.StyleProperty,    
         VsResourceKeys.LabelEnvironmentBoldStyleKey);    
-```  
+```
   
  **XAML:** Set the style of the TextBlock or Label as shown:  
   
-```  
+```xaml
 <TextBlock Style="{DynamicResource {x:Static vsui:VsResourceKeys.TextBlockEnvironmentBoldStyleKey}}"> Bold TextBlock</TextBlock>   
 <Label Style="{DynamicResource {x:Static vsui:VsResourceKeys.LabelEnvironmentBoldStyleKey}}"> Bold Label</Label>    
-```  
+```
   
 ### Localizable styles  
  In some instances, localizers will need to modify font styles for different locales, such as removing bolding from text for East Asian languages. To make the localization of font styles possible, those styles must be within the .resx file. The best way to accomplish this and still edit font styles in the Visual Studio form designer is to explicitly set the font styles at design time. Although this creates a full font object and might seem to break the inheritance of parent fonts, only the FontStyle property is used to set the font.  
   
  The solution is to hook the dialog form's `FontChanged` event. In the `FontChanged` event, walk all controls and check if their font is set. If it is set, change it to a new font based on the form's font and the control's previous font style. An example of this in code is:  
   
-```  
+```csharp
 private void Form1_FontChanged(object sender, System.EventArgs e)  
 {  
           SetFontStyles();  
@@ -274,7 +278,7 @@ protected static void SetFontStyles(Control topControl, Control parent, Font ref
           }  
      }  
 }  
-```  
+```
   
  Using this code guarantees that when the form's font is updated, the fonts of controls will update as well. This method should also be called from the form's constructor, because the dialog might fail to get an instance of `IUIService` and the `FontChanged` event will never fire. Hooking `FontChanged` will allow dialogs to dynamically pick up the new font even if the dialog is already open.  
   

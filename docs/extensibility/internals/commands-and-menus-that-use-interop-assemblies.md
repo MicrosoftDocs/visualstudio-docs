@@ -18,6 +18,8 @@ caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Commands and Menus That Use Interop Assemblies
 A VSPackage that implements menu and toolbar commands by using interop assemblies must:  

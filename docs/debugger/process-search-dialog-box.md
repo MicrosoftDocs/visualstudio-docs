@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 helpviewer_keywords: 
   - "Process Search"
 ms.assetid: 518e8153-eec2-4db9-a6f7-416ec11d8e09
@@ -15,6 +15,8 @@ caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen
+ms.workload: 
+  - "multiple"
 ---
 # Process Search Dialog Box
 Use this dialog box to find and select the node for a specific process in [Processes View](../debugger/processes-view.md). To display this dialog box, move the focus to a **Processes** view window. Then choose **Find Process** from the **Search** menu.  

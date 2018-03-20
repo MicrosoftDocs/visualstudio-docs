@@ -18,6 +18,8 @@ caps.latest.revision: 43
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen
+ms.workload: 
+  - "vssdk"
 ---
 # Adding a Submenu to a Menu
 This walkthrough builds on the demonstration in [Adding a Menu to the Visual Studio Menu Bar](../extensibility/adding-a-menu-to-the-visual-studio-menu-bar.md) by showing how to add a submenu to the **TestMenu** menu.  
@@ -91,7 +93,7 @@ This walkthrough builds on the demonstration in [Adding a Menu to the Visual Stu
 2.  Add the sub-command. Find the command constructor. Add the following lines just after the call to the `AddCommand` method.  
   
     ```csharp  
-    CommandID subCommandID = new CommandID(CommandSet, (int)TestCommandPackageGuids.cmdidTestSubCmd);  
+    CommandID subCommandID = new CommandID(CommandSet, cmdidTestSubCmd);  
     MenuCommand subItem = new MenuCommand(  
         new EventHandler(SubItemCallback), subCommandID);  
     commandService.AddCommand(subItem);  
