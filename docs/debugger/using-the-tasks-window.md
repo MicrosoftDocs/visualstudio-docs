@@ -89,7 +89,7 @@ The **Tasks** window resembles the **Threads** window, except that it shows info
 
 ## Switching the Active Task or Frame
 
-The **Switch to Task** and **Switch to Frame** commands makes the current task or the selected stack frame the active task or stack frame. The debugger context switches to the current task or the selected stack frame.
+The **Switch to Task** command makes the current task the active task. The **Switch to Frame** command makes the selected stack frame the active stack frame. The debugger context switches to the current task or the selected stack frame.
 
 ## See Also  
  [Debugger Basics](../debugger/debugger-basics.md)   
