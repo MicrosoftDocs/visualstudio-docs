@@ -1540,7 +1540,7 @@ MyMethod(argument);
 
 **csharp_space_between_parentheses**
 
-This rule does not accept a **true** or **false** value; instead it accepts a value from the following table:
+This rule accepts one or more values from the following table:
 
 | Value | Description |
 | ----- |:------------|
@@ -1548,14 +1548,16 @@ This rule does not accept a **true** or **false** value; instead it accepts a va
 | expressions | Place space between parentheses of expressions |
 | type_casts | Place space between parentheses in type casts |
 
+If you omit this rule, or use a value other than `control_flow_statements`, `expressions`, or `type_casts`, the setting is not applied.
+
 Code examples:
 
 ```csharp
 // csharp_space_between_parentheses = control_flow_statements
-for( int i;i<x;i++ ) { ... }
+for ( int i = 0; i < 10; i++ ) { }
 
 // csharp_space_between_parentheses = expressions
-var z = ( x * y ) - ( ( y - x ) * 3);
+var z = ( x * y ) - ( ( y - x ) * 3 );
 
 // csharp_space_between_parentheses = type_casts
 int y = ( int )x;
