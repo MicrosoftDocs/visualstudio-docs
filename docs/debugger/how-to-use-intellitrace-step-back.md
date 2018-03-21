@@ -68,8 +68,6 @@ In this tutorial, you will:
 
 3. You can also view a snapshot from the **Events** tab. To do this, select an event with a snapshot and click **Activate Historical Debugging**.
 
-    You can also click on the camera icon to activate historical debugging.
-
     ![Activate Historical Debugging on an event](../debugger/media/intellitrace-activate-historical-debugging.png "Activate Historical Debugging on an event")
 
     Unlike the **Set Next Statement** command, viewing a snapshot doesn’t rerun your code; it gives you a static view of the state of the application at a point in time that has occurred in the past.
