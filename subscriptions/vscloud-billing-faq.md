@@ -25,7 +25,7 @@ Cloud Solution Providers (CSPs), Azure subscriptions set up through Microsoft Op
 you can even buy using Azure subscriptions that Visual Studio subscribers set up as a subscriber benefit (but no, you can't use your monthly credit to 
 pay for more Visual Studio subscriptions).
 
-The only notable exclusion is that you cannot use the [Azure Free Trial](https://azure.microsoft.com/en-us/pricing/free-trial/).
+The only notable exclusion is that you cannot use the [Azure Free Trial](https://azure.microsoft.com/pricing/free-trial/).
 
 ### Q: Am I required to buy other Azure services?
 A: Not at all. If you only want to buy Visual Studio cloud subscriptions via Azure, you can do that. 

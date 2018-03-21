@@ -19,7 +19,7 @@ from the [Visual Studio Marketplace](https://marketplace.visualstudio.com). Thes
 
 ## Before you start
 
-*	To bill your purchases, you'll need an [Azure subscription](https://azure.microsoft.com/en-us/pricing/purchase-options/).
+*	To bill your purchases, you'll need an [Azure subscription](https://azure.microsoft.com/pricing/purchase-options/).
 You can [sign up](https://portal.azure.com) before your first purchase or during your first purchase in the Visual Studio Marketplace.
 
 ## How to buy cloud subscriptions

@@ -11,14 +11,14 @@ Ms.technology: vs-subscriptions
 Searchscope: VS Subscription
 ---
 
-# Managing Visual Studio sSubscriptions offered through the Microsoft Partner Network (MPN)
+# Managing Visual Studio Subscriptions offered through the Microsoft Partner Network (MPN)
 
 ## Overview
 Partners who earn a competency or who purchase the Action Pack in MPN are eligible to use Visual Studio subscriptions. These subscriptions are licensed per user, and are only valid when assigned to a specific named user who works for the partner company.
 
 See [Visual Studio subscriptions offered to partners in the Microsoft Partner Network (MPN)](program-mpn.md) for details.
 
-## High-level assignment & access flow
+## High-level assignment and access flow
 
 ### Microsoft Action Pack subscribers
 Microsoft Action Pack subscriber and Visual Studio subscriptions
@@ -55,7 +55,7 @@ Microsoft Action Pack subscriber and Visual Studio subscriptions
     - Contact Email
 9. Sign-in is now complete, and the subscriber should have access to benefits
 
-## Resources & References
+## Resources and References
 
 - Details regarding the Microsoft Partner Network [Visual Studio subscriptions](https://partner.microsoft.com/membership/msdn-subscriptions)
 

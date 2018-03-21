@@ -69,6 +69,7 @@
 #### [Buying for CSPs](vscloud-csp.md)
 ### Subscriptions offered through programs
 #### [Microsoft Partner Network](program-mpn.md)
+#### [Managing subscriptions for MPN](manage-mpn-subscriptions.md)
 #### [Microsoft for Startups](program-startups.md)
 ## Resources
 ### [Visual Studio License Terms](vs-license-terms.md)
