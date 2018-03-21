@@ -9,7 +9,7 @@
   - name: Install new releases of TypeScript in Visual Studio
 - name: Quickstarts
   items:
-  - name: Create a Node.js project'
+  - name: Create a Node.js project
     href: /visualstudio/ide/quickstart-nodejs?toc=/visualstudio/nodejs/toc.json
   - name: Create a Node.js project from existing code
   - name: Add TypeScript to an ASP.NET Core project
@@ -53,5 +53,5 @@
   - name: Code formatting options
 - name: Resources
   items:
-  - name: 'TBD'
+  - name: TBD
     href: https://github.com/Microsoft/nodejstools
