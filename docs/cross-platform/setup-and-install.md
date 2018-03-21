@@ -8,15 +8,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2cfcad00-352c-4161-814c-f5ae32d8ada8
 ms.technology: vs-ide-mobile
-<<<<<<< HEAD
-author: "ghogen"
-ms.author: "ghogen"
-manager: ghogen
-=======
 author: asb3993
 ms.author: amburns
 manager: crdun
->>>>>>> 7145256ee48b0e1092edaa2e7564249b6d62155d
 ms.workload:
   - "xamarin"
 ---

@@ -9,15 +9,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ff978cc2-5a25-46d6-921b-e51adaa65992
 caps.latest.revision: 14
-<<<<<<< HEAD
-author: "ghogen"
-ms.author: "ghogen"
-manager: ghogen
-=======
 author: conceptdev
 ms.author: crdun
 manager: crdun
->>>>>>> 7145256ee48b0e1092edaa2e7564249b6d62155d
 ms.workload: 
   - "xamarin"
 ---

@@ -8,13 +8,8 @@ ms.technology: vs-unity-tools
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ea490b7e-fc0d-44b1-858a-a725ce20e396
-<<<<<<< HEAD
-author: "conceptdev"
-ms.author: "crdun"
-=======
 author: "dantogno"
 ms.author: "v-davian"
->>>>>>> 7145256ee48b0e1092edaa2e7564249b6d62155d
 manager: crdun
 ms.workload:
   - "unity"
