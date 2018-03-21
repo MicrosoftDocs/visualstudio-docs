@@ -22,7 +22,7 @@
   - name: Create a Node.js app with Express
     href: /visualstudio/nodejs/tutorial-nodejs?toc=/visualstudio/javascript/toc.json
   - name: Develop with Azure Functions
-- Concepts:
+- name: Concepts
   items:
   - name: Architecture overview
   - name: "Visual Studio projects, MSBuild, and tsconfig"
