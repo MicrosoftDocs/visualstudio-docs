@@ -78,21 +78,21 @@ Refactorings and code fixes can be easily written with [Roslyn analyzers](https:
 ## I need Find Usages, Go To Implementation, Navigate To Decompiled Assemblies
 Visual Studio 2017 has many features to help you search and navigate your codebase--including Find All References (**Shift+F12**), Go To Implementation (**Ctrl+F12**), Go To Definition (**F12** or **Ctrl+Click**). We've made many improvements to these features in VS2017, for example, Find All References now is colorized and allows for custom grouping. *Navigate To Decompiled Assemblies* on Go To Definition was added in version 15.6. To turn on this feature, go to **Tools > Options > Text Editor > C# > Advanced > Enable navigation to decompiled sources**.
 
-Other common navigation tools include: Peek Definition (**Alt+F12**), the Structure visualizer (hoverable dotted-lines between braces), and [more](../ide/navigating-code).
+Other common navigation tools include: Peek Definition (**Alt+F12**), the Structure visualizer (hoverable dotted-lines between braces), and [more](../ide/navigating-code.md).
 
 ![Go To All and Find All References](../ide/media/VSIDE_Productivity_Navigation.png "VSIDE_Productivity_Navigation")
 
 ## I want to run and see my unit tests.
 We have two offerings for unit testing in Visual Studio 2017: Test Explorer and _Live Unit Testing_ (both support MSTest v1, MSTest v2, NUnit, and XUnit). We greatly improved the speed of test discovery in the Test Explorer in version 15.6 (for best results, upgrade to the latest version of your test adapter). We also redesigned the UI to allow for hierarchical sorting.
 
-Visual Studio 2017 Enterprise also has a unit testing feature called [Live Unit Testing](../test/live-unit-testing). Live Unit Testing continuously runs in the background, runs tests impacted by your code change, and updates inline editor icons to let you know the status of your tests.
+Visual Studio 2017 Enterprise also has a unit testing feature called [Live Unit Testing](../test/live-unit-testing.md). Live Unit Testing continuously runs in the background, runs tests impacted by your code change, and updates inline editor icons to let you know the status of your tests.
 
 ![Hierarchy view for Text Explorer in Visual Studio](../ide/media/VSGuide_Testing.png "VSGuide_Testing")
 
 ## I want to debug my code.
-We've added a ton of new debugging capabilities in Visual Studio 2017. *Run to click* allows you to hover next to a line of code, hit the green 'play' icon that appears, and run your program until it reaches that line. The new *Exception Helper* puts the most important information, like which variable is 'null' in a NullReferenceException, at the top-level in the dialog. And [Step Back](../debugger/how-to-use-intellitrace-step-back) debugging enables you to go back to previous breakpoints or steps and view the state of the application as it was in the past.
+We've added a ton of new debugging capabilities in Visual Studio 2017. *Run to click* allows you to hover next to a line of code, hit the green 'play' icon that appears, and run your program until it reaches that line. The new *Exception Helper* puts the most important information, like which variable is 'null' in a NullReferenceException, at the top-level in the dialog. And [Step Back](../debugger/how-to-use-intellitrace-step-back.md) debugging enables you to go back to previous breakpoints or steps and view the state of the application as it was in the past.
 
-If you have resources in Azure, use [Snapshot Debugging](https://docs.microsoft.com/en-us/azure/application-insights/app-insights-snapshot-debugger) to investigate the state of a live web application at the moment an exception was thrown.
+If you have resources in Azure, use [Snapshot Debugging](/azure/application-insights/app-insights-snapshot-debugger) to investigate the state of a live web application at the moment an exception was thrown.
 
 ![New Exception Helper in VS2017](../ide/media/VSGuide_Debugging.png "VSGuide_Debugging")
 
@@ -115,7 +115,7 @@ Here is a list of editor and productivity features to make writing code more eff
   - **Menu > Edit > IntelliSense > Toggle Completion Mode**
 - *[CodeLens](../find-code-changes-and-other-history-with-codelens.md)* displays code reference information and change history in the editor.
   - **Tools > Options > Text Editor > All Languages>CodeLens**
-- We have *code snippets* to help stub out common boilerplate (press 'Tab' twice). See the [full list](../ide/visual-csharp-code-snippets).
+- We have *code snippets* to help stub out common boilerplate (press 'Tab' twice). See the [full list](../ide/visual-csharp-code-snippets.md).
 
 ![Code Snippets in Visual Studio](../ide/media/VSGuide_SmartEditor.png "VSGuide_SmartEditor")
 
