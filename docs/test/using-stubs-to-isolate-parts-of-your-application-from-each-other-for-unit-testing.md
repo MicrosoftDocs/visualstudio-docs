@@ -8,6 +8,9 @@ manager: ghogen
 ms.workload:
   - "multiple"
 author: gewarren
+dev_langs:
+ - CSharp
+ - VB
 ---
 # Use stubs to isolate parts of your application from each other for unit testing
 
