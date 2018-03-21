@@ -10,7 +10,7 @@
 - name: Quickstarts
   items:
   - name: Create a Node.js project
-    href: /visualstudio/ide/quickstart-nodejs?toc=/visualstudio/nodejs/toc.json
+    href: /visualstudio/ide/quickstart-nodejs?toc=/visualstudio/javascript/toc.json
   - name: Create a Node.js project from existing code
   - name: Add TypeScript to an ASP.NET Core project
 - name: Tutorials
