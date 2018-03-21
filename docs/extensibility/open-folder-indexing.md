@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "02/21/2018"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-ide-sdk"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -13,7 +13,7 @@ caps.latest.revision: 1
 author: "vukelich"
 ms.author: "svukel"
 manager: "viveis"
-ms.workload: 
+ms.workload:
   - "vssdk"
 ---
 # Open Folder Indexing
@@ -68,5 +68,5 @@ Extensions can export a scanner by implementing `IWorkspaceProviderFactory<IFile
 >[!WARNING]
 >Do not export a file scanner that supports the `FileScannerTypeConstants.FileScannerContentType` type. It is used for Microsoft internal purposes, only.
 
-In advanced situations, an extension might dynamically support an arbitrary set of file types. Rather than MEF exporting `IWorkspaceProviderFactory<IFileScanner>`, an extension can export `IWorkspaceProviderFactory<IFileScannerProvider>`. When indexing begins, this factory type will be imported, instantiated, and have its <xref:Microsoft.VisualStudio.Workspace.Indexing.IFileScannerProvider.GetSymbolScannersAsync> method invoked. (`IFileScanner` instances supporting any value from `FileScannerTpeConstants` will be honored, not just symbols.)
+In advanced situations, an extension might dynamically support an arbitrary set of file types. Rather than MEF exporting `IWorkspaceProviderFactory<IFileScanner>`, an extension can export `IWorkspaceProviderFactory<IFileScannerProvider>`. When indexing begins, this factory type will be imported, instantiated, and have its <xref:Microsoft.VisualStudio.Workspace.Indexing.IFileScannerProvider.GetSymbolScannersAsync%2A> method invoked. (`IFileScanner` instances supporting any value from `FileScannerTpeConstants` will be honored, not just symbols.)
 
