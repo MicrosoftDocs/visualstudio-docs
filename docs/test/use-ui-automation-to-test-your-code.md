@@ -48,7 +48,7 @@ For more information about which platforms and configurations are supported by c
 
 1. Create a Coded UI Test project.
 
-   Coded UI tests must be contained in a coded UI test project. If you don't already have a coded UI test project, create one. In **Solution Explorer**, on the shortcut menu of the solution, choose **Add** > **New Project** and then select either **Visual Basic** or **Visual C#**. Next, choose **Test** > **Coded UI Test**.
+   Coded UI tests must be contained in a coded UI test project. If you don't already have a coded UI test project, create one. Choose **File** > **New** > **Project** to open the **New Project** dialog box. In the categories pane on the left, expand **Installed** > **Visual Basic** *or* **Visual C#** > **Test**. Select the **Coded UI Test Project** template, and then choose **OK**.
 
    ![Coded UI test project template in New Project dialog](media/coded-ui-test-project-template.png)
 
