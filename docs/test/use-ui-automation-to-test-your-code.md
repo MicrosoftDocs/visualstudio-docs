@@ -388,7 +388,7 @@ To get and set UI control specific property values, you can directly get or set 
 
 #### To get or set properties from UI test controls directly
 
-With controls that derive from <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl>, such as <xref:Microsoft.VisualStudio.TestTools.UITesting.HtmlControls.HtmlList> or <xref:Microsoft.VisualStudio.TestTools.UITesting.WinControls.WinComboBox>, you can get or set their property values directly, as follows:
+With controls that derive from <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl>, such as [HtmlList](https://msdn.microsoft.com/library/microsoft.visualstudio.testtools.uitesting.htmlcontrols.htmllist.aspx) or [WinComboBox](https://msdn.microsoft.com/library/microsoft.visualstudio.testtools.uitesting.wincontrols.wincombobox.aspx), you can get or set their property values directly. The following code shows some examples:
 
  ```csharp
  int i = myHtmlList.ItemCount;
