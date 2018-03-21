@@ -18,7 +18,7 @@ ms.workload:
 ---
 # Open Folder Extensibility
 
-[Open Folder](../ide/develop-code-in-visual-studio-without-projects-or-solutions) allows users to open any codebase in Visual Studio without the need for project or solution files. Open Folder provides the features users expect from Visual Studio such as:
+[Open Folder](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md) allows users to open any codebase in Visual Studio without the need for project or solution files. Open Folder provides the features users expect from Visual Studio such as:
 
 * Solution Explorer integration and search
 * Editor colorization
@@ -41,7 +41,7 @@ The Open Folder APIs are under the `Microsoft.VisualStudio.Workspace.*` namespac
 - [Workspaces](open-folder-workspaces.md)
 - [File contexts and actions](open-folder-file-contexts.md)
 - [Workspace indexing](open-folder-indexing.md)
-- [Language services](open-folder-langauge-services.md)
+- [Language services](open-folder-language-services.md)
 - [Build](open-folder-build.md) 
 
 Features that use the following types will need to adopt new APIs to support Open Folder:

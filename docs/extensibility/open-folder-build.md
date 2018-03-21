@@ -85,7 +85,7 @@ private static void OutputBuildMessage(IWorkspace workspace)
 
 `BuildMessage.Type` and `BuildMessage.LogMessage` control the behavior of where information is presented to the user. Any `BuildMessage.TaskType` value other than `None` will produce an **Error List** entry with the given details. `LogMessage` will always be output in the **Build** pane of the **Output** tool window.
 
-Alternatively, extensions can directly interact with the **Error List** or **Build** pane. A bug exists in versions prior to Visual Studio 2017 Version 15.7 where the `pszProjectUniqueName` argument of <xref:Microsoft.VisualStudio.Shell.Interop.IVsOutputWindowPane2.OutputTaskItemStringEx2> is ignored.
+Alternatively, extensions can directly interact with the **Error List** or **Build** pane. A bug exists in versions prior to Visual Studio 2017 Version 15.7 where the `pszProjectUniqueName` argument of <xref:Microsoft.VisualStudio.Shell.Interop.IVsOutputWindowPane2.OutputTaskItemStringEx2*> is ignored.
 
 >[!WARNING]
 >Callers of `IFileContextAction.ExecuteAsync` can provide arbitrary underlying implementations for the `IProgress<IFileContextActionProgressUpdate>` argument. Never invoke `IProgress<IFileContextActionProgressUpdate>.Report(IFileContextActionProgressUpdate)` directly. There are currently no general guidelines for using this argument, but these guidelines are subject to change.
