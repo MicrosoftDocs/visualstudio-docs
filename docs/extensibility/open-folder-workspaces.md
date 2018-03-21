@@ -147,13 +147,13 @@ internal class MySettingsProviderFactory : IWorkspaceSettingsProviderFactory
 
 - <xref:Microsoft.VisualStudio.Workspace.Settings.IWorkspaceSettingsManager> reads and aggregates settings for workspace.
 - <xref:Microsoft.VisualStudio.Workspace.WorkspaceServiceHelper.GetSettingsManager%2A> gets the `IWorkspaceSettingsManager` for a workspace.
-- <xref:Microsoft.VisualStudio.Workspace.Settings.IWorkspaceSettingsManager.GetAggregatedSettings> gets settings for a given scope aggregated across all overlapping scopes.
+- <xref:Microsoft.VisualStudio.Workspace.Settings.IWorkspaceSettingsManager.GetAggregatedSettings%2A> gets settings for a given scope aggregated across all overlapping scopes.
 - <xref:Microsoft.VisualStudio.Workspace.Settings.IWorkspaceSettings> contains settings for a particular scope.
 
 ## Suggested practices
 
 - Return objects from `IWorkspaceProviderFactory.CreateProvider` or similar APIs that remember their `Workspace` context when created. Providers interfaces are written expecting this object is kept on creation.
-- Save workspace-specific caches or settings within the "Local settings" path of the workspace. Create a path for your file using <xref:Microsoft.VisualStudio.Workspace.WorkspaceServiceHelper.MakeRootedUnderWorkingFolder%2A> in 15.6 or later. For prior to 15.6, use the following snippet:
+- Save workspace-specific caches or settings within the "Local settings" path of the workspace. Create a path for your file using **Microsoft.VisualStudio.Workspace.WorkspaceServiceHelper.MakeRootedUnderWorkingFolder()** in Visual Studio 2017 version 15.6 or later. For versions prior to version 15.6, use the following snippet:
 
 ```csharp
 using System.IO;

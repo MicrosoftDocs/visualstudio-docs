@@ -45,7 +45,7 @@ Reading contents from the disk can be expensive, especially when a provider need
 - <xref:Microsoft.VisualStudio.Workspace.FileContext> holds data and metadata.
 - <xref:Microsoft.VisualStudio.Workspace.IFileContextProvider> and <xref:Microsoft.VisualStudio.Workspace.IFileContextProvider`1> create the file context.
 - <xref:Microsoft.VisualStudio.Workspace.ExportFileContextProviderAttribute> exports a file context provider.
-- <xref:Microsoft.VisualStudio.Workspace.IWorkspace.GetFileContextsAsync> is used for consumers to get file contexts.
+- <xref:Microsoft.VisualStudio.Workspace.IWorkspace.GetFileContextsAsync%2A> is used for consumers to get file contexts.
 - <xref:Microsoft.VisualStudio.Workspace.Build.BuildContextTypes> defines build context types that Open Folder will consume.
 
 ## File context actions
