@@ -25,9 +25,9 @@
 - Concepts:
   items:
   - name: Architecture overview
-  - name: Visual Studio projects, MSBuild, and tsconfig
+  - name: 'Visual Studio projects, MSBuild, and tsconfig'
   - name: ASP.NET Core and NuGet support
-  - name: Type definition files and @types packages
+  - name: 'Type definition files and @types packages'
   - name: Automatic Type Acquisition
   - name: Source maps
   - name: JavaScript and TypeScript modules
@@ -38,7 +38,7 @@
   - name: JavaScript unit testing
   - name: NPM package management
   - name: Debug JavaScript and TypeScript
-  - name: Run NPM, WebPack, or Gulp tasks
+  - name: 'Run NPM, WebPack, or Gulp tasks'
   - name: Type checking JavaScript
   - name: Configure Linting
   - name: Troubleshooting
