@@ -72,10 +72,11 @@ The following list shows the allowable language convention rules:
         - dotnet\_style\_object_initializer
         - dotnet\_style\_collection_initializer
         - dotnet\_style\_explicit\_tuple_names
-        - dotnet\_style\_coalesce_expression
-        - dotnet\_style\_null_propagation
         - dotnet\_prefer\_inferred\_tuple_names
         - dotnet\_prefer\_inferred\_anonymous\_type\_member_names
+    - ["Null" checking preferences](#null_checking)
+        - dotnet\_style\_coalesce_expression
+        - dotnet\_style\_null_propagation
 - C# Code Style Settings
     - [Implicit and explicit types](#var)
         - csharp\_style\_var\_for\_built\_in_types
@@ -97,7 +98,7 @@ The following list shows the allowable language convention rules:
         - csharp\_prefer\_simple\_default_expression
         - csharp\_style\_deconstructed\_variable_declaration
         - csharp\_style\_pattern\_local\_over\_anonymous_function
-    - ["Null" checking preferences](#null_checking)
+    - ["Null" checking preferences](#null_checking_csharp)
         - csharp\_style\_throw_expression
         - csharp\_style\_conditional\_delegate_call
     - [Code block preferences](#code_block)
@@ -375,7 +376,7 @@ visual_basic_preferred_modifier_order = Partial,Default,Private,Protected,Public
 
 #### <a name="expression_level">Expression-level preferences</a>
 
-The style rules in this section concern expression-level preferences, including the use of object initializers, collection initializers, explicit tuple names, null coalescing expressions versus ternary operators, and the null-conditional operator.
+The style rules in this section concern expression-level preferences, including the use of object initializers, collection initializers, explicit or inferred tuple names, and inferred anonymous types.
 
 The following table shows the rule names, rule IDs, applicable programming languages, default values, and first supported version of Visual Studio:
 
@@ -384,8 +385,6 @@ The following table shows the rule names, rule IDs, applicable programming langu
 | dotnet_style_object_initializer | IDE0017 | C# and Visual Basic | true:suggestion | First release |
 | dotnet_style_collection_initializer | IDE0028 | C# and Visual Basic | true:suggestion | First release |
 | dotnet_style_explicit_tuple_names | IDE0033 | C# 7.0+ and Visual Basic 15+ | true:suggestion | First release |
-| dotnet_style_coalesce_expression | IDE0029 | C# and Visual Basic | true:suggestion | First release |
-| dotnet_style_null_propagation | IDE0031 | C# 6.0+ and Visual Basic 14+ | true:suggestion | First release |
 | dotnet_style_prefer_inferred_tuple_names | IDE0037 | C# 7.1+ and Visual Basic 15+ | true:suggestion | 15.6 |
 | dotnet_style_prefer_inferred_anonymous_type_member_names | IDE0037 | C# and Visual Basic | true:suggestion | 15.6 |
 
@@ -470,6 +469,60 @@ Dim customer As (name As String, age As Integer) = GetCustomer()
 Dim name = customer.Item1
 ```
 
+**dotnet\_style\_prefer\_inferred\_tuple_names**
+
+- When this rule is set to **true**, prefer inferred tuple element names.
+- When this rule is set to **false**, prefer explicit tuple element names.
+
+Code examples:
+
+```csharp
+// dotnet_style_prefer_inferred_tuple_names = true
+var tuple = (age, name);
+
+// dotnet_style_prefer_inferred_tuple_names = false
+var tuple = (age: age, name: name);
+```
+
+**dotnet\_style\_prefer\_inferred\_anonymous\_type\_member_names**
+
+- When this rule is set to **true**, prefer inferred anonymous type member names.
+- When this rule is set to **false**, prefer explicit anonymous type member names.
+
+Code examples:
+
+```csharp
+// dotnet_style_prefer_inferred_anonymous_type_member_names = true
+var anon = new { age, name };
+
+// dotnet_style_prefer_inferred_anonymous_type_member_names = false
+var anon = new { age = age, name = name };
+
+```
+
+These rules could appear in an .editorconfig file as follows:
+
+```EditorConfig
+# CSharp and Visual Basic code style settings:
+[*.{cs,vb}]
+dotnet_style_object_initializer = true:suggestion
+dotnet_style_collection_initializer = true:suggestion
+dotnet_style_explicit_tuple_names = true:suggestion
+dotnet_style_prefer_inferred_tuple_names = true:suggestion
+dotnet_style_prefer_inferred_anonymous_type_member_names = true:suggestion
+```
+
+#### <a name="null_checking">Null-checking preferences</a>
+
+The style rules in this section concern null-checking preferences.
+
+The following table shows the rule names, rule IDs, applicable programming languages, default values, and first supported version of Visual Studio:
+
+| Rule Name | Rule ID | Applicable Languages | Visual Studio Default | Visual Studio 2017 Version |
+| --------- | ------- | -------------------- | ----------------------| ---- |
+| dotnet_style_coalesce_expression | IDE0029 | C# and Visual Basic | true:suggestion | First release |
+| dotnet_style_null_propagation | IDE0031 | C# 6.0+ and Visual Basic 14+ | true:suggestion | First release |
+
 **dotnet\_style\_coalesce_expression**
 
 - When this rule is set to **true**, prefer null coalescing expressions to ternary operator checking.
@@ -520,49 +573,13 @@ Dim v = If(o Is Nothing, Nothing, o.ToString()) ' or
 Dim v = If(o IsNot Nothing, o.ToString(), Nothing)
 ```
 
-**dotnet\_style\_prefer\_inferred\_tuple_names**
-
-- When this rule is set to **true**, prefer inferred tuple element names.
-- When this rule is set to **false**, prefer explicit tuple element names.
-
-Code examples:
-
-```csharp
-// dotnet_style_prefer_inferred_tuple_names = true
-var tuple = (age, name);
-
-// dotnet_style_prefer_inferred_tuple_names = false
-var tuple = (age: age, name: name);
-```
-
-**dotnet\_style\_prefer\_inferred\_anonymous\_type\_member_names**
-
-- When this rule is set to **true**, prefer inferred anonymous type member names.
-- When this rule is set to **false**, prefer explicit anonymous type member names.
-
-Code examples:
-
-```csharp
-// dotnet_style_prefer_inferred_anonymous_type_member_names = true
-var anon = new { age, name };
-
-// dotnet_style_prefer_inferred_anonymous_type_member_names = false
-var anon = new { age = age, name = name };
-
-```
-
 These rules could appear in an .editorconfig file as follows:
 
 ```EditorConfig
 # CSharp and Visual Basic code style settings:
 [*.{cs,vb}]
-dotnet_style_object_initializer = true:suggestion
-dotnet_style_collection_initializer = true:suggestion
-dotnet_style_explicit_tuple_names = true:suggestion
 dotnet_style_coalesce_expression = true:suggestion
 dotnet_style_null_propagation = true:suggestion
-dotnet_style_prefer_inferred_tuple_names = true:suggestion
-dotnet_style_prefer_inferred_anonymous_type_member_names = true:suggestion
 ```
 
 ### C# code style settings
@@ -955,7 +972,7 @@ csharp_style_deconstructed_variable_declaration = true:suggestion
 csharp_style_pattern_local_over_anonymous_function = true:suggestion
 ```
 
-#### <a name="null_checking">"Null" checking preferences</a>
+#### <a name="null_checking_csharp">"Null" checking preferences</a>
 
 These style rules concern the syntax around `null` checking, including using `throw` expressions or `throw` statements, and whether to perform a null check or use the conditional coalescing operator (`?.`) when invoking a [lambda expression](/dotnet/csharp/lambda-expressions).
 
