@@ -131,7 +131,7 @@ In this section, you'll add two pages and an image to the application.
     </Page>
     ```
 
-    In Visual Basic, the first line will by slightly different:
+    In Visual Basic, the first line will be slightly different:
 
     ```xaml
     <Page x:Class="ExpenseItHome"
@@ -155,7 +155,7 @@ In this section, you'll add two pages and an image to the application.
     </NavigationWindow>
     ```
 
-    In Visual Basic, the first line will by slightly different:
+    In Visual Basic, the first line will be slightly different:
 
     ```xaml
     <NavigationWindow x:Class="MainWindow"
