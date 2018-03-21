@@ -27,7 +27,7 @@ If you are coming from another IDE or coding environment, you may find installin
 - [HotKeys for Visual Studio (ReSharper/IntelliJ)](https://marketplace.visualstudio.com/items?itemName=JustinClareburtMSFT.HotKeys)
 - [VSVim](https://marketplace.visualstudio.com/items?itemName=JaredParMSFT.VsVim)
 
-![The Visual Studio Extension Gallery](../ide/media/VSIDE_Productivity_Extensibility.png "VSIDE_Productivity_Extensibility")
+![The Visual Studio Extension Gallery](../ide/media/VSIDE_Productivity_Extensibility.png)
 
 The following are popular Visual Studio shortcuts. 
 
@@ -55,14 +55,14 @@ Visual Studio 2017 has a feature called _Go To All_ (**Ctrl+T**). Go To All enab
 - Filter results using our query syntax (for example, "t mytype"). You can also scope your search to just the current document.
 - camelCase matching is supported!
 
-![Go To All in Visual Studio](../ide/media/VS2017Guide-go-to-all.png "VS2017Guide-go-to-all")
+![Go To All in Visual Studio](../ide/media/VS2017Guide-go-to-all.png)
 
 ## My team enforces code style rules on our codebase.
 You can use an .editorconfig file to codify coding conventions. We recommend installing the [EditorConfig Language Services extension](https://aka.ms/editorconfig) for adding and editing an .editorconfig file. We recommend you check out the [documentation](https://aka.ms/editorconfigDocs) for all .NET coding convention options.
 
 Check out [this gist](https://gist.github.com/kuhlenh/5471666a7a2c57fea427e81cf0a41da8) for an example .editorconfig.
 
-![Code style enforcement in Visual Studio](../ide/media/VSGuide_CodeStyle.png "VSGuide_CodeStyle")
+![Code style enforcement in Visual Studio](../ide/media/VSGuide_CodeStyle.png)
 
 ## I need more refactorings and code fixes.
 Visual Studio 2017 comes with a lot of refactorings, code generation actions, and code fixes, which you can see in our [documentation](https://aka.ms/refactorings). Red squiggles represent errors, green squiggles represent warnings, and three gray dots represent code suggestions.
@@ -80,14 +80,14 @@ Visual Studio 2017 has many features to help you search and navigate your codeba
 
 Other common navigation tools include: Peek Definition (**Alt+F12**), the Structure visualizer (hoverable dotted-lines between braces), and [more](../ide/navigating-code.md).
 
-![Go To All and Find All References](../ide/media/VSIDE_Productivity_Navigation.png "VSIDE_Productivity_Navigation")
+![Go To All and Find All References](../ide/media/VSIDE_Productivity_Navigation.png)
 
 ## I want to run and see my unit tests.
 We have two offerings for unit testing in Visual Studio 2017: Test Explorer and _Live Unit Testing_ (both support MSTest v1, MSTest v2, NUnit, and XUnit). We greatly improved the speed of test discovery in the Test Explorer in version 15.6 (for best results, upgrade to the latest version of your test adapter). We also redesigned the UI to allow for hierarchical sorting.
 
 Visual Studio 2017 Enterprise also has a unit testing feature called [Live Unit Testing](../test/live-unit-testing.md). Live Unit Testing continuously runs in the background, runs tests impacted by your code change, and updates inline editor icons to let you know the status of your tests.
 
-![Hierarchy view for Text Explorer in Visual Studio](../ide/media/VSGuide_Testing.png "VSGuide_Testing")
+![Hierarchy view for Text Explorer in Visual Studio](../ide/media/VSGuide_Testing.png)
 
 ## I want to debug my code.
 We've added a ton of new debugging capabilities in Visual Studio 2017. *Run to click* allows you to hover next to a line of code, hit the green 'play' icon that appears, and run your program until it reaches that line. The new *Exception Helper* puts the most important information, like which variable is 'null' in a NullReferenceException, at the top-level in the dialog. And [Step Back](../debugger/how-to-use-intellitrace-step-back.md) debugging enables you to go back to previous breakpoints or steps and view the state of the application as it was in the past.
@@ -99,7 +99,7 @@ If you have resources in Azure, use [Snapshot Debugging](/azure/application-insi
 ## I want to use version control with my projects.
 You can use git or TFVC to store and update your code in Visual Studio. Inside the editor, organize your local changes with Team Explorer and use the status bar to track pending commits and changes. Set up continuous integration and delivery for your projects inside of Visual Studio with our [Continuous Delivery Tools for Visual Studio](https://marketplace.visualstudio.com/items?itemName=VSIDEDevOpsMSFT.ContinuousDeliveryToolsforVisualStudio) extension and adopt the agile developer workflow.
 
-![Source control in Visual Studio](../ide/media/VSIDE_Productivity_SourceControl.png "VSIDE_Productivity_SourceControl")
+![Source control in Visual Studio](../ide/media/VSIDE_Productivity_SourceControl.png)
 
 ## What other features do I need to know about?
 Here is a list of editor and productivity features to make writing code more efficient. Some features may need to be enabled because they are off-by-default (they may index things on your machine, are controversial, or are currently experimental).
@@ -113,11 +113,11 @@ Here is a list of editor and productivity features to make writing code more eff
   - **Tools > Options > Text Editor > C# > Advanced > Enable navigation to decompiled sources**
 - *Completion/Suggestion Mode* in IntelliSense changes completion behavior. Developers with IntelliJ backgrounds tend to change the setting here from the default.
   - **Menu > Edit > IntelliSense > Toggle Completion Mode**
-- *[CodeLens](../find-code-changes-and-other-history-with-codelens.md)* displays code reference information and change history in the editor.
+- *[CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md)* displays code reference information and change history in the editor.
   - **Tools > Options > Text Editor > All Languages>CodeLens**
 - We have *code snippets* to help stub out common boilerplate (press 'Tab' twice). See the [full list](../ide/visual-csharp-code-snippets.md).
 
-![Code Snippets in Visual Studio](../ide/media/VSGuide_SmartEditor.png "VSGuide_SmartEditor")
+![Code Snippets in Visual Studio](../ide/media/VSGuide_SmartEditor.png)
 
 ## Missing a feature that makes you productive or experiencing poor performance?
 There are several ways to leave us feedback:
