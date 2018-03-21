@@ -157,6 +157,14 @@ You must save the following example Dockerfile to a new file on your disk. If th
    CMD ["powershell.exe", "-NoLogo", "-ExecutionPolicy", "Bypass"]
    ```
 
+> [!NOTE]
+> If you want to build solutions / projects referencing older versions of the .NET Framework (e.g. v4.0) you should use the following Docker image instead: microsoft/dotnet-framework
+
+```dockerfile
+  # Use the following image to build older projects
+  FROM microsoft/dotnet-framework
+```
+
 4. Run the following command within that directory.
 
    ```shell
