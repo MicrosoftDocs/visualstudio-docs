@@ -20,7 +20,10 @@ ms.workload:
   - "vssdk"
 ---
 # RequiredFrameworkVersion Element (Visual Studio Templates)
-Specifies the minimum .NET Framework version that is required by the template.Schema Hierarchy.  
+Specifies the minimum version of the .NET Framework that is required by the template. It causes the **Target Framework Version** dropdown to be displayed in the **New Project Dialog** and also determines the lowest value available in the dropdown. 
+
+> [!IMPORTANT]
+> As of Visual Studio 2017 version 15.6, the **Target Framework Version** dropdown is no longer a filter for displayed templates in the **Templates** section of the **New Project Dialog**. Instead, the dropdown functions as a framework picker for the selected template.
   
  \<VSTemplate>  
  \<TemplateData>  
@@ -53,7 +56,30 @@ Specifies the minimum .NET Framework version that is required by the template.Sc
  The text must be the minimum version number of the .NET Framework that is required for the template.  
   
 ## Remarks  
- `RequiredFrameworkVersion` is an optional element. Use this element if the template only supports a specific minimum version, and later versions if any, of the .NET Framework.  
+ `RequiredFrameworkVersion` is an optional element. Use this element only if the template supports a specific minimum version, and later versions if any, of the .NET Framework, so as not to inadvertently display the **Target Framework Version** dropdown when it is not applicable.
+ 
+## Example  
+ The following example illustrates the metadata for a standard [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] class template.  
+  
+```  
+<VSTemplate Type="Item" Version="3.0.0"  
+    xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">  
+    <TemplateData>  
+        <Name>MyClass</Name>  
+        <Description>My custom C# class template.</Description>  
+        <Icon>Icon.ico</Icon>  
+        <ProjectType>CSharp</ProjectType>
+        <RequiredFrameworkVersion>3.0</RequiredFrameworkVersion>
+        <MaxFrameworkVersion>4.7.1</MaxFrameworkVersion>  
+        <DefaultName>MyClass</DefaultName>  
+    </TemplateData>  
+    <TemplateContent>  
+        <ProjectItem>MyClass.cs</ProjectItem>  
+    </TemplateContent>  
+</VSTemplate>  
+```  
+  
+ In this example, the minimum version of the .NET Framework that is required by the template, represented by `RequiredFrameworkVersion`, is 3.0. A project created with this template can target .NET Framework versions starting from 3.0.  
   
 ## See Also  
  [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)   
