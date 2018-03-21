@@ -9,11 +9,11 @@ ms.reviewer: ""
 ms.date: 09/28/2017
 ms.topic: "article"
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-acquisition"
 ms.tgt_pltfrm: ""
-ms.workload: 
-  - "pchapman"
+ms.workload:
+  - "multiple"
 ---
 
 # Repair Visual Studio 2017

@@ -41,6 +41,8 @@ In this tutorial, you learn how to:
 
     If you don't have it installed, install the LTS version from the [Node.js](https://nodejs.org/en/download/) website. In general, Visual Studio automatically detects the installed Node.js runtime. If it does not detect an installed runtime, you can configure your project to reference the installed runtime in the properties page (after you create a project, right-click the project node and choose **Properties**).
 
+    This tutorial was tested with Node.js 8.10.0.
+
 ## Create a project
 First, you'll create an Node.js web application project.
 
@@ -114,6 +116,8 @@ First, you'll create an Node.js web application project.
         res.render('index', { title: 'Express', "data" });
     });
     ```
+
+    There is an error in the line of code containing `res.render`. We need to fix it before the app can run. We fix the error in the next section.
 
 ## Use IntelliSense
 
