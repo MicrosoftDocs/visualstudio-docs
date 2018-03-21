@@ -43,10 +43,10 @@ The <xref:Microsoft.VisualStudio.VSConstants> class provides constants that are 
 
 |Value|Description|
 |-----------|-----------------|
-|<xref:Microsoft.VisualStudio.VSConstants.CEF#Microsoft_VisualStudio_VSConstants_CEF_CloneFile>|An obsolete flag combined bitwise as the first parameter of the <xref:Microsoft.VisualStudio.Package.EditorFactory.CreateEditorInstance%2A> method.|
-|<xref:Microsoft.VisualStudio.VSConstants.CEF#Microsoft_VisualStudio_VSConstants_CEF_OpenAsNew>|Combined bitwise as the first parameter of the <xref:Microsoft.VisualStudio.Package.EditorFactory.CreateEditorInstance%2A>, method, this indicates the editor factory should perform necessary fixes.|
-|<xref:Microsoft.VisualStudio.VSConstants.CEF#Microsoft_VisualStudio_VSConstants_CEF_OpenFile>|Combined bitwise as the first parameter of the <xref:Microsoft.VisualStudio.Package.EditorFactory.CreateEditorInstance%2A> method, this flag is mutually exclusive of <xref:Microsoft.VisualStudio.VSConstants.CEF#Microsoft_VisualStudio_VSConstants_CEF_CloneFile>.|
-|<xref:Microsoft.VisualStudio.VSConstants.CEF#Microsoft_VisualStudio_VSConstants_CEF_Silent>|Combined bitwise as the first parameter of the <xref:Microsoft.VisualStudio.Package.EditorFactory.CreateEditorInstance%2A> method, this indicates the editor factory should create the editor without displaying a user interface (UI).|
+|[CEF.CloneFile](<xref:Microsoft.VisualStudio.VSConstants.CEF#Microsoft_VisualStudio_VSConstants_CEF_CloneFile>)|An obsolete flag combined bitwise as the first parameter of the <xref:Microsoft.VisualStudio.Package.EditorFactory.CreateEditorInstance%2A> method.|
+|[CEF.OpenAsNew](<xref:Microsoft.VisualStudio.VSConstants.CEF#Microsoft_VisualStudio_VSConstants_CEF_OpenAsNew>)|Combined bitwise as the first parameter of the <xref:Microsoft.VisualStudio.Package.EditorFactory.CreateEditorInstance%2A>, method, this indicates the editor factory should perform necessary fixes.|
+|[CEF.OpenFile](<xref:Microsoft.VisualStudio.VSConstants.CEF#Microsoft_VisualStudio_VSConstants_CEF_OpenFile>)|Combined bitwise as the first parameter of the <xref:Microsoft.VisualStudio.Package.EditorFactory.CreateEditorInstance%2A> method, this flag is mutually exclusive of [CEF.CloneFile](<xref:Microsoft.VisualStudio.VSConstants.CEF#Microsoft_VisualStudio_VSConstants_CEF_CloneFile>).|
+|[CEF.Silent](<xref:Microsoft.VisualStudio.VSConstants.CEF#Microsoft_VisualStudio_VSConstants_CEF_Silent>)|Combined bitwise as the first parameter of the <xref:Microsoft.VisualStudio.Package.EditorFactory.CreateEditorInstance%2A> method, this indicates the editor factory should create the editor without displaying a user interface (UI).|
 
 ## Visual Studio Errors
 
@@ -74,21 +74,21 @@ The <xref:Microsoft.VisualStudio.VSConstants> class provides constants that are 
 |<xref:Microsoft.VisualStudio.VSConstants.VSM_EXITMODAL>|A constant that is specific to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] for broadcasting a notification message via the <xref:Microsoft.VisualStudio.Shell.Interop.IVsBroadcastMessageEvents.OnBroadcastMessage%2A> method that indicates the end of modality.|
 |<xref:Microsoft.VisualStudio.VSConstants.VSM_TOOLBARMETRICSCHANGE>|A constant that is specific to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] for broadcasting a notification message via the <xref:Microsoft.VisualStudio.Shell.Interop.IVsBroadcastMessageEvents.OnBroadcastMessage%2A> method indicating that the command bar metrics have changed.|
 |<xref:Microsoft.VisualStudio.VSConstants.VSCOOKIE_NIL>|A constant that is specific to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] that indicates that a cookie has not been set.|
-|<xref:Microsoft.VisualStudio.VSConstants.VSITEMID#Microsoft_VisualStudio_VSConstants_VSITEMID_Nil>|A [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] item identifier that represents the absence of a project item. This value is used when there is no current selection.|
-|<xref:Microsoft.VisualStudio.VSConstants.VSITEMID#Microsoft_VisualStudio_VSConstants_VSITEMID_Root>|A [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] item identifier that represents the root of a project hierarchy and is used to identify the entire hierarchy, as opposed to a single item.|
-|<xref:Microsoft.VisualStudio.VSConstants.VSITEMID#Microsoft_VisualStudio_VSConstants_VSITEMID_Selection>|A [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] item identifier that represents the currently selected item or items, which can include the root of the hierarchy.|
+|[VSITEMID.Nil](<xref:Microsoft.VisualStudio.VSConstants.VSITEMID#Microsoft_VisualStudio_VSConstants_VSITEMID_Nil>)|A [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] item identifier that represents the absence of a project item. This value is used when there is no current selection.|
+|[VSITEMID.Root](<xref:Microsoft.VisualStudio.VSConstants.VSITEMID#Microsoft_VisualStudio_VSConstants_VSITEMID_Root>)|A [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] item identifier that represents the root of a project hierarchy and is used to identify the entire hierarchy, as opposed to a single item.|
+|[VSITEMID.Selection](<xref:Microsoft.VisualStudio.VSConstants.VSITEMID#Microsoft_VisualStudio_VSConstants_VSITEMID_Selection>)|A [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] item identifier that represents the currently selected item or items, which can include the root of the hierarchy.|
 
 ## IVsSelectionEvents
  Describes what component of the IDE has just been selected, in an <xref:Microsoft.VisualStudio.Shell.Interop.IVsSelectionEvents.OnElementValueChanged%2A> call, for example.
 
 |Constant|Value|
 |--------------|-----------|
-|<xref:Microsoft.VisualStudio.VSConstants.SelectionElement#Microsoft_VisualStudio_VSConstants_SelectionElement_DocumentFrame>|0x2|
-|<xref:Microsoft.VisualStudio.VSConstants.SelectionElement#Microsoft_VisualStudio_VSConstants_SelectionElement_PropertyBrowserSID>|0x4|
-|<xref:Microsoft.VisualStudio.VSConstants.SelectionElement#Microsoft_VisualStudio_VSConstants_SelectionElement_StartupProject>|0x3|
-|<xref:Microsoft.VisualStudio.VSConstants.SelectionElement#Microsoft_VisualStudio_VSConstants_SelectionElement_UndoManager>|0x0|
-|<xref:Microsoft.VisualStudio.VSConstants.SelectionElement#Microsoft_VisualStudio_VSConstants_SelectionElement_UserContext>|0x5|
-|<xref:Microsoft.VisualStudio.VSConstants.SelectionElement#Microsoft_VisualStudio_VSConstants_SelectionElement_WindowFrame>|0x1|
+|[SelectionElement.DocumentFrame](<xref:Microsoft.VisualStudio.VSConstants.SelectionElement#Microsoft_VisualStudio_VSConstants_SelectionElement_DocumentFrame>)|0x2|
+|[SelectionElement.PropertyBrowserSID](<xref:Microsoft.VisualStudio.VSConstants.SelectionElement#Microsoft_VisualStudio_VSConstants_SelectionElement_PropertyBrowserSID>)|0x4|
+|[SelectionElement.StartupProject](<xref:Microsoft.VisualStudio.VSConstants.SelectionElement#Microsoft_VisualStudio_VSConstants_SelectionElement_StartupProject>)|0x3|
+|[SelectionElement.UndoManager](<xref:Microsoft.VisualStudio.VSConstants.SelectionElement#Microsoft_VisualStudio_VSConstants_SelectionElement_UndoManager>)|0x0|
+|[SelectionElement.UserContext](<xref:Microsoft.VisualStudio.VSConstants.SelectionElement#Microsoft_VisualStudio_VSConstants_SelectionElement_UserContext>)|0x5|
+|[SelectionElement.WindowFrame](<xref:Microsoft.VisualStudio.VSConstants.SelectionElement#Microsoft_VisualStudio_VSConstants_SelectionElement_WindowFrame>)|0x1|
 
 ## VSSELELEMID
  Constants used to indicate a new selection state.

@@ -20,10 +20,12 @@ ms.workload:
   - "vssdk"
 ---
 # Command Availability
+
 The Visual Studio context determines which commands are available. The context can change depending on the current project, the current editor, the VSPackages that are loaded, and other aspects of the integrated development environment (IDE).
 
 ## Command Contexts
- The following command contexts are the most common.
+
+The following command contexts are the most common.
 
 -   **IDE** Commands provided by the IDE are always available.
 
@@ -40,7 +42,8 @@ The Visual Studio context determines which commands are available. The context c
 -   **UI Context** UI contexts are identified by the values of the <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT> class, for example, <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.SolutionBuilding_guid> when the solution is being built, or <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.Debugging_guid> when the debugger is active. Multiple UI contexts can be active at the same time.
 
 ## Defining Custom Context GUIDs
- If an appropriate command context GUID is not already defined, you can define one in your VSPackage and then program it to be active or inactive as required to control the visibility of your commands.
+
+If an appropriate command context GUID is not already defined, you can define one in your VSPackage and then program it to be active or inactive as required to control the visibility of your commands.
 
 1.  Register context GUIDs by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.GetCmdUIContextCookie%2A> method.
 
@@ -51,7 +54,7 @@ The Visual Studio context determines which commands are available. The context c
     > [!CAUTION]
     > Make sure that your VSPackage does not affect any existing context GUIDs because other VSPackages may depend on them.
 
-## See als
+## See also
 
 - [Selection Context Objects](../../extensibility/internals/selection-context-objects.md)
 - [How VSPackages Add User Interface Elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)
