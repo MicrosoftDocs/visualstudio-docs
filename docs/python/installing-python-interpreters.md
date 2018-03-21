@@ -24,7 +24,7 @@ By default, installing the Python development workload in Visual Studio 2017 als
 
 You can also manually install any of the interpreters listed in the table below outside of the Visual Studio installer. For example, if you installed Anaconda 3 before installing Visual Studio, you don't need to install it again through the Visual Studio installer.
 
-For Visual Studio 2015 and earlier, you must manually install one of the interpreters.
+For **Visual Studio 2015 and earlier**, you must manually install one of the interpreters.
 
 Visual Studio (all versions) automatically detects each installed Python interpreter and its environment by checking the registry (following [PEP 514 - Python registration in the Windows registry](https://www.python.org/dev/peps/pep-0514/)).
 

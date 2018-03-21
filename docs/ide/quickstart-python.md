@@ -2,7 +2,7 @@
 title: "Quickstart: use Visual Studio to create your first Python web app | Microsoft Docs"
 description: A short introduction to using Python in Visual Studio that builds a simple web app using the Flask framework.
 ms.custom: ""
-ms.date: 03/20/2018
+ms.date: 03/21/2018
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -21,13 +21,13 @@ ms.workload:
 
 # Quickstart: Use Visual Studio to create your first Python web app
 
-In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you create a simple Python web application based on the Flask framework. You create the project through discrete steps to help you learn about Visual Studio's basic features and to understand how Visual Studio automates those steps through project templates.
+In this 5-10 minute introduction to Visual Studio as Python IDE, you create a simple Python web application based on the Flask framework. You create the project through discrete steps to help you learn about Visual Studio's basic features. You then learn how Visual Studio automates those steps through project templates.
 
 If you haven't already installed Visual Studio, go to the [Visual Studio Downloads](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) page to install it for free. In the installer, make sure to select the **Python development** workload.
 
 ## Create the project
 
-The following steps create an empty project that serves as the container for the application:
+The following steps create an empty *project* that serves as a container for the application:
 
 1. Open Visual Studio 2017.
 
@@ -47,11 +47,15 @@ The following steps create an empty project that serves as the container for the
 
 **Question: What's the advantage of creating a project in Visual Studio for a Python application?**
 
-Answer: Python applications are typically defined using only folders and files, but this simple structure can become burdensome as applications become larger and perhaps involve auto-generated files, JavaScript for web applications, and so on. A Visual Studio project helps manage this complexity. The project (a `.pyproj` file) identifies all the source and content files associated with your project, contains build information for each file, maintains the information to integrate with source-control systems, and helps you organize your application into logical components.
+**Answer**: Python applications are typically defined using only folders and files, but this simple structure can become burdensome as applications become larger and perhaps involve auto-generated files, JavaScript for web applications, and so on. A Visual Studio project helps manage this complexity. The project (a `.pyproj` file) identifies all the source and content files associated with your project, contains build information for each file, maintains the information to integrate with source-control systems, and helps you organize your application into logical components.
+
+**Question: What is the "solution" shown in Solution Explorer?**
+
+**Answer**: A Visual Studio *solution* is a container that helps you manage for one or more related projects as a group, and stores configuration settings that aren't specific to a project. Projects in a solution can also reference one another, such that running one project (a Python app) automatically builds a second project (such as a C++ extension used in the Python app).
 
 ## Install the Flask library
 
-Web apps in Python almost always use one of the many available Python libraries to handle low-level details like routing web requests and shaping responses. For this purpose, Visual Studio provides a variety of templates for web apps, which are discussed later in this article. 
+Web apps in Python almost always use one of the many available Python libraries to handle low-level details like routing web requests and shaping responses. For this purpose, Visual Studio provides a variety of *templates* for web apps, one of which you use later in this Quickstart.
 
 Here, you use the following steps to install the Flask library into the default "global environment" that Visual Studio uses for this project.
 
@@ -69,7 +73,11 @@ Here, you use the following steps to install the Flask library into the default 
 
     ![Flask library installed](media/quickstart-python-04-package-installed.png)
 
-Note that instead of installing libraries in the global environment, developers typically create a "virtual environment" in which to install libraries for a specific project. This approach, which you can use as an option with other Visual Studio templates, has a number of advantages discussed at the end of this article.
+Note that instead of installing libraries in the global environment, developers typically create a "virtual environment" in which to install libraries for a specific project. Visual Studio templates typically offer this option, as discussed later in this article.
+
+**Question: Where do I learn more about other available Python packages?**
+
+**Answer**: Visit the [Python Package Index](https://pypi.python.org/pypi) (pypi.python.org).
 
 ## Add a code file
 
@@ -107,9 +115,11 @@ You're now ready to add a bit of Python code to implement a minimal web app.
         app.run('localhost', 4449)
     ```
 
-1. After pasting this code, Visual Studio may show a squiggle underneath `flask` in the first line. Such indicators appear when Visual Studio is still building the IntelliSense database for the environment after modules are installed.
+1. After pasting this code into the Visual Studio editor, you may see a squiggle underneath `flask` in the first line. Such indicators appear when Visual Studio is still building the IntelliSense database for the environment after modules are installed.
 
-For more information about Flask, see the [Flask Quickstart](https://flask.pocoo.org/docs/0.12/quickstart/) (flask.pocoo.org).
+**Question: Where can I learn more about Flask?**
+
+**Answer**: Refer to the Flask documentation, starting with the [Flask Quickstart](https://flask.pocoo.org/docs/0.12/quickstart/) (flask.pocoo.org).
 
 ## Run the application
 
@@ -131,11 +141,15 @@ For more information about Flask, see the [Flask Quickstart](https://flask.pocoo
 
 1. Close the command window to stop the app, then close the browser window.
 
+**Question: What's the difference between the Start Without Debugging command and Start Debugging?**
+
+**Answer**: You use **Start Debugging** to run the app in the context of the [Visual Studio debugger](../python/debugging-python-in-visual-studio.md), allowing you to set breakpoints, examine variables, and step through your code line by line. Apps may run slower in the debugger because of the various hooks that make debugging possible. **Start Without Debugging**, in contrast, runs the app directly as if you ran it from the command line, with no debugging context, and also automatically launches a browser and navigates to the URL speified in the project properties' **Debug** tab.
+
 ## Using Visual Studio templates
 
 Congratulations on running your first Python app from Visual Studio, in which you've learned a little about using the Visual Studio IDE with Python!
 
-Because the steps you followed in this Quickstart are fairly generic, you've probably guessed that they could be automated. Such automation is the role of Visual Studio project *templates*. For example, the web app you just created is very similar to the one produced by the "Blank Flask Web Project" template as demonstrated in the following steps.
+Because the steps you followed in this Quickstart are fairly generic, you've probably guessed that they can and should be automated. Such automation is the role of Visual Studio project *templates*. For example, using the "Blank Flask Web Project" template creates a web app very similar to the one you created already in this article, but with far fewer steps:
 
 1. From the top menu bar, choose **File > New > Project...**, then in the **New Project** dialog search for "blank flask", select the "Blank Flask Web Project" template in the middle list, give the project a name, and select **OK**:
 
@@ -146,6 +160,9 @@ Because the steps you followed in this Quickstart are fairly generic, you've pro
     ![Installing Flask into a virtual environment](media/quickstart-python-07-install-into-virtual-environment.png)
 
 1. Visual Studio displays a **Add Virtual Environment** dialog. Accept the default and select **Create**, then consent to any elevation requests.
+
+    > [!Tip]
+    > When you begin a project, it's highly recommended to create a virtual environment right away, as most Visual Studio templates invite you to do. Virtual environments maintain your project's exact requirements over time as you add and remove libraries. You can then easily generate a `requirements.txt` file, which you use to reinstall those dependencies on other development computers (as when using source control) and when deploying the project to a production server. For more information on virtual environments and their benefits, see [Using virtual environments](../python/selecting-a-python-environment-for-a-project.md#using-virtual-environments) and [Managing required packages with requirements.txt](../python/managing-required-packages-with-requirements-txt.md).
 
 1. After Visual Studio creates that environment, look in **Solution Explorer** to see that you have an `app.py` file along with `requirements.txt`. Open `app.py` to see that the template has provided code very similar to what you used earlier. A very helpful part of that code is that it allows you to set the host and port using environment variables rather than hard-coding them. Such code works in both development and production environments simply by changing those variables:
 
@@ -162,23 +179,17 @@ Because the steps you followed in this Quickstart are fairly generic, you've pro
 
 1. Select **Debug > Start Without Debugging** to run the app and open a browser to `localhost:5555`.
 
-With the Python workload installed, Visual Studio provides a variety of templates including ones for the [Flask, Bottle, and Django web frameworks](../python/python-web-application-project-templates.md), Azure cloud services, different machine learning scenarios, and even a template to create a project from an existing folder structure containing a Python app. Using these templates can save you significant time when starting a project and are also a great way to learn about different app types.
+**Question: What other Python templates does Visual Studio offer?**
 
-### The benefits of virtual environments
+**Answer**: With the Python workload installed, Visual Studio provides a variety of project templates including ones for the [Flask, Bottle, and Django web frameworks](../python/python-web-application-project-templates.md), Azure cloud services, different machine learning scenarios, and even a template to create a project from an existing folder structure containing a Python app. You access these through the **File > New > Project...** dialog box by selecting the **Python** language node and its sub-nodes.
 
-When you begin a project, it's highly recommended to create a *virtual environment* right away, as most Visual Studio templates invite you to do. A virtual environment is a folder within a Python project that contains exactly those libraries on which a project depends. As you develop your app over time, the virtual environment always reflects those dependencies. (A shared global environment, on the other hand, contain any number of libraries whether you use them in your project or not.)
+Visual Studio also provides a variety of file or *item* templates to quick create a Python class, a Python package, a Python unit test, web.config files, and more. When you have a Python project open, you access item templates through the **Project > Add New Item...** menu command.
 
-When using a virtual environment in Visual Studio, you can easily generate a `requirements.txt` file that describes the exact list of your app's dependencies:
+Using templates can save you significant time when starting a project or creating a file, and are also a great way to learn about different app types and code structures.
 
-1. In **Solution Explorer**, expand the **Python Environments** node.
-1. Right-click the virtual environment and select **Generate requirements.txt**.
-1. If you already have a `requirements.txt` file in the project, Visual Studio asks whether to replace the entire file, refresh existing entries, or update and add entries. Choose whichever option is suitable.
+**Question: Can I also use Cookiecutter templates?**
 
-The `requirements.txt` file eliminates the need to add any libraries to source control or to copy libraries when deploying to a web server. Instead, other developers who clone your project from source control can simply restore libraries from the list in `requirements.txt`. Visual Studio, for example, automatically detects a `requirements.txt` file when you open a project, and prompts you about how to install those dependencies. You can also use `requirements.txt` to install dependencies on a web server, such as Azure App Service (see [Managing Python on Azure App Service](../python/managing-python-on-azure-app-service.md).
-
-Visual Studio can also build its IntelliSense database for a virtual environment much more quickly than it can for a global environment, because the latter typically contains many more packages.
-
-For more information, see [Using virtual environments](../python/selecting-a-python-environment-for-a-project.md#using-virtual-environments)
+**Answer**: Yes! In fact, Visual Studio provides direct integration with Cookiecutter, which you can learn about through [Quickstart: create a project from a Cookiecutter template](../python/quickstart-04-python-in-visual-studio-project-from-cookiecutter.md).
 
 ## Next steps
 
