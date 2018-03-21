@@ -71,14 +71,14 @@ You can access code fixes by clicking the lightbulb/screwdriver icon or by press
 
 Here are some popular quick fixes and refactorings: *Rename*, *Extract Method*, *Change Method Signature*, *Generate Constructor*, *Generate Method*, *Move Type to File*, *Add Null-Check*, *Add Parameter*, *Remove Unnecessary Usings*.
 
-Refactorings and code fixes can be easily written with [Roslyn analyzers](https://github.com/dotnet/roslyn/wiki/Getting-Started-Writing-a-Custom-Analyzer-&-Code-Fix). Several community members have written *free* extensions which add additional code inspections: [Roslynator](https://marketplace.visualstudio.com/items?itemName=josefpihrt.Roslynator2017), [SonarLint for Visual Studio](https://marketplace.visualstudio.com/items?itemName=SonarSource.SonarLintforVisualStudio), and [StyleCopAnalyzers](https://www.nuget.org/packages/stylecop.analyzers/). 
+Refactorings and code fixes can be easily written with [Roslyn analyzers](https://github.com/dotnet/roslyn/wiki/Getting-Started-Writing-a-Custom-Analyzer-&-Code-Fix). Several community members have written *free* extensions which add additional code inspections: [Roslynator](https://marketplace.visualstudio.com/items?itemName=josefpihrt.Roslynator2017), [SonarLint for Visual Studio](https://marketplace.visualstudio.com/items?itemName=SonarSource.SonarLintforVisualStudio2017), and [StyleCopAnalyzers](https://www.nuget.org/packages/stylecop.analyzers/). 
 
 ![Refactorings in Visual Studio](../ide/media/VSGuide_CodeAnalysis.png "VSGuide_CodeAnalysis")
 
 ## I need Find Usages, Go To Implementation, Navigate To Decompiled Assemblies
 Visual Studio 2017 has many features to help you search and navigate your codebase--including Find All References (**Shift+F12**), Go To Implementation (**Ctrl+F12**), Go To Definition (**F12** or **Ctrl+Click**). We've made many improvements to these features in VS2017, for example, Find All References now is colorized and allows for custom grouping. *Navigate To Decompiled Assemblies* on Go To Definition was added in version 15.6. To turn on this feature, go to **Tools > Options > Text Editor > C# > Advanced > Enable navigation to decompiled sources**.
 
-Other common navigation tools include: Peek Definition (**Alt+F12**) and the Structure visualizer (hoverable dotted-lines between braces).
+Other common navigation tools include: Peek Definition (**Alt+F12**), the Structure visualizer (hoverable dotted-lines between braces), and [more](../ide/navigating-code).
 
 ![Go To All and Find All References](../ide/media/VSIDE_Productivity_Navigation.png "VSIDE_Productivity_Navigation")
 
@@ -92,7 +92,7 @@ Visual Studio 2017 Enterprise also has a unit testing feature called [Live Unit 
 ## I want to debug my code.
 We've added a ton of new debugging capabilities in Visual Studio 2017. *Run to click* allows you to hover next to a line of code, hit the green 'play' icon that appears, and run your program until it reaches that line. The new *Exception Helper* puts the most important information, like which variable is 'null' in a NullReferenceException, at the top-level in the dialog. And [Step Back](../debugger/how-to-use-intellitrace-step-back) debugging enables you to go back to previous breakpoints or steps and view the state of the application as it was in the past.
 
-If you have resources in Azure, use [Snapshot Debugging](../azure/application-insights/app-insights-snapshot-debugger) to investigate the state of a live web application at the moment an exception was thrown.
+If you have resources in Azure, use [Snapshot Debugging](https://docs.microsoft.com/en-us/azure/application-insights/app-insights-snapshot-debugger) to investigate the state of a live web application at the moment an exception was thrown.
 
 ![New Exception Helper in VS2017](../ide/media/VSGuide_Debugging.png "VSGuide_Debugging")
 
