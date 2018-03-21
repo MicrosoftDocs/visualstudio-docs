@@ -2154,32 +2154,32 @@
           "redirect_document_id": false
         },
         {
-          "source_path": "docs/visualstudio/subscriptions/buy-vs-subscriptions.md",
+          "source_path": "subscriptions/buy-vs-subscriptions.md",
           "redirect_url": "http://www.visualstudio.com/vs/pricing/",
           "redirect_document_id": false
         },
         {
-          "source_path": "docs/visualstudio/subscriptions/compare-subscriptions.md",
+          "source_path": "subscriptions/compare-subscriptions.md",
           "redirect_url": "http://www.visualstudio.com/vs/pricing/",
           "redirect_document_id": false
         },
         {
-          "source_path": "docs/visualstudio/subscriptions/vscloud-first-purchase.md",
+          "source_path": "subscriptions/vscloud-first-purchase.md",
           "redirect_url": "/visualstudio/subscriptions/vscloud-overview",
           "redirect_document_id": false
         },
         {
-          "source_path": "docs/visualstudio/subscriptions/vscloud-renewals.md",
+          "source_path": "subscriptions/vscloud-renewals.md",
           "redirect_url": "/visualstudio/subscriptions/vscloud-overview",
           "redirect_document_id": false
         },
         {
-          "source_path": "docs/visualstudio/subscriptions/vscloud-buy-more.md",
+          "source_path": "subscriptions/vscloud-buy-more.md",
           "redirect_url": "/visualstudio/subscriptions/vscloud-overview",
           "redirect_document_id": false
         },
         {
-          "source_path": "docs/visualstudio/subscriptions/vscloud-cancel.md",
+          "source_path": "subscriptions/vscloud-cancel.md",
           "redirect_url": "/visualstudio/subscriptions/vscloud-overview",
           "redirect_document_id": false
         }
