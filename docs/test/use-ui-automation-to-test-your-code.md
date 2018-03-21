@@ -40,27 +40,29 @@ For more information about which platforms and configurations are supported by c
 
 ## Create Coded UI Tests
 
+1. Install the **Coded UI test** component.
+
+   If you haven't already, install the **Coded UI test** component of Visual Studio. Launch **Visual Studio Installer** by choosing **Tools** > **Get Tools and Features**. In **Visual Studio Installer**, choose the **Individual components** tab, and then scroll down to the **Debugging and testing** section. Select the **Coded UI test** component, and then choose **Modify**.
+
+   ![Coded UI test component](media/coded-ui-test-component.png)
+
 1. Create a Coded UI Test project.
 
    Coded UI tests must be contained in a coded UI test project. If you don't already have a coded UI test project, create one. In **Solution Explorer**, on the shortcut menu of the solution, choose **Add** > **New Project** and then select either **Visual Basic** or **Visual C#**. Next, choose **Test** > **Coded UI Test**.
 
-   If you don't see the **Coded UI Test** project templates, and you are using the Enterprise edition of Visual Studio, you must install the **Coded UI test** component. Launch **Visual Studio Installer** by clicking the link in the left pane of the **New Project** dialog box, or by choosing **Tools** > **Get Tools and Features**. In **Visual Studio Installer**, choose the **Individual components** tab, and then scroll down to the **Debugging and testing** section. Select the **Coded UI test** component, and then choose **Modify**.
-
-   ![Coded UI test component](media/coded-ui-test-component.png)
+   ![Coded UI test project template in New Project dialog](media/coded-ui-test-project-template.png)
 
 2. Add a coded UI test file.
 
-     If you just created a Coded UI project, the first CUIT file is added automatically. To add another test file, open the shortcut menu on the coded UI test project, point to **Add**, and then choose **Coded UI Test**.
-
-     ![Create a coded UI test](../test/media/codedui_create.png "CodedUI_Create")
+     If you just created a Coded UI project, the first CUIT file is added automatically. To add another test file, open the shortcut menu on the coded UI test project in **Solution Explorer**, and then choose **Add** > **Coded UI Test**.
 
      In the **Generate Code for Coded UI Test** dialog box, choose **Record actions, edit UI map or add assertions**.
 
-     ![Select record actions](../test/media/codedui_codegendialogb.png "CodedUI_CodeGenDialogB")
+     ![Generate code for coded UI test dialog box](media/generate-code-for-coded-ui-test.png)
 
-     The Coded UI Test Builder appears and Visual Studio is minimized.
+     The Coded UI Test Builder appears.
 
-     ![Coded UI Test Builder](../test/media/codedui_testbuilder.png "CodedUI_TestBuilder")
+     ![Coded UI Test Builder](../test/media/codedui_testbuilder.png)
 
 3. Record a sequence of actions.
 
