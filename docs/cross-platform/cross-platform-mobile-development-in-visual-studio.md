@@ -9,9 +9,15 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8202717a-e990-45cf-b092-438651ccb38a
 caps.latest.revision: 64
+<<<<<<< HEAD
 author: "ghogen"
 ms.author: "ghogen"
 manager: ghogen
+=======
+author: asb3993
+ms.author: amburns
+manager: crdun
+>>>>>>> 7145256ee48b0e1092edaa2e7564249b6d62155d
 ms.workload: 
   - "multiple"
 ---
