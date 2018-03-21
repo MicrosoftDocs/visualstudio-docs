@@ -13,7 +13,7 @@ ms.tgt_pltfrm:
 ms.topic: "article"
 author: "kraigb"
 ms.author: "kraigb"
-manager: ghogenopt
+manager: ghogen
 ms.workload: 
   - "python"
   - "data-science"
@@ -39,7 +39,7 @@ To quickly test Python support after following the installation steps, Open the 
 
 ## Visual Studio 2017
 
-1. Download and run the latest Visual Studio 2017 installer. If you have Visual Studio installed already, run the Visual Studio installer, select the **Modify** option (see [Modify Visual Studio](../install/modify-visual-studio.md)) and go to step 2.
+1. Download and run the latest Visual Studio 2017 installer. If you have Visual Studio installed already, run the Visual Studio Installer, select the **Modify** option (see [Modify Visual Studio](../install/modify-visual-studio.md)) and go to step 2.
 
     > [!div class="nextstepaction"]
     > <a target="frameTarget" href="https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Community&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_install">Install Visual Studio 2017 Community</a>
