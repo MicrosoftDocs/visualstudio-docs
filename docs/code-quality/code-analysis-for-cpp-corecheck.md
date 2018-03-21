@@ -21,7 +21,8 @@ ms.workload:
 
 This section lists C++ Core Guidelines Checker warnings. For information about Code Analysis, see [/analyze (Code Analysis)](/cpp/build/reference/analyze-code-analysis) and [Quick Start: Code Analysis for C/C++](../code-quality/quick-start-code-analysis-for-c-cpp.md).
 
-**Note**: Some warnings belong to more than one group, and not all warnings have a complete reference topic.
+> [!NOTE]
+> Some warnings belong to more than one group, and not all warnings have a complete reference topic.
 
 ## OWNER_POINTER Group
 
@@ -124,7 +125,7 @@ Return a scoped object instead of a heap-allocated if it has a move constructor.
   Global initializer accesses extern object '%symbol%'. See [C++ Core Guidelines I.22](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#i22-avoid-complex-initialization-of-global-objects).
 
 [C26444 NO_UNNAMED_RAII_OBJECTS](c26444.md) 
-Avoid unnamed objects with custom construction and destruction. [ES.84: Don't (try to) declare a local variable with no name](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md).
+Avoid unnamed objects with custom construction and destruction. See [ES.84: Don't (try to) declare a local variable with no name](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md).
 
 ## CLASS Group
 
