@@ -57,14 +57,15 @@ private static IIndexWorkspaceService GetDirectIndexedData(IWorkspace workspace)
 ## Participating in indexing
 
 Workspace indexing roughly follows the following sequence:
-1) Discovery and persistence of file system entities in the workspace (only on initial opening scan)
-1) Per file, the matching provider with the highest priority is asked to scan for `FileReferneceInfo`s.
-1) Per file, the matching provider with the highest priority is asked to scan for `SymbolDefinition`s.
-1) Per file, all providers are asked for `FileDataValue`s.
+
+1. Discovery and persistence of file system entities in the workspace (only on initial opening scan)
+1. Per file, the matching provider with the highest priority is asked to scan for `FileReferneceInfo`s.
+1. Per file, the matching provider with the highest priority is asked to scan for `SymbolDefinition`s.
+1. Per file, all providers are asked for `FileDataValue`s.
 
 Extensions can export a scanner by implementing `IWorkspaceProviderFactory<IFileScanner>` and exporting the type with <xref:Microsoft.VisualStudio.Workspace.Indexing.ExportFileScannerAttribute>. The `SupportedTypes` attribute argument should be one or more values from <xref:Microsoft.VisualStudio.Workspace.Indexing.FileScannerTypeConstants>. For an example scanner, see the VS SDK [sample](https://github.com/Microsoft/VSSDK-Extensibility-Samples/blob/master/Open_Folder_Extensibility/C%23/SymbolScannerSample/TxtFileSymbolScanner.cs).
 
->![Warning]
+>[!WARNING]
 >Do not export a file scanner that supports the `FileScannerTypeConstants.FileScannerContentType` type. It is used for Microsoft internal purposes, only.
 
 In advanced situations, an extension might dynamically support an arbitrary set of file types. Rather than MEF exporting `IWorkspaceProviderFactory<IFileScanner>`, an extension can export `IWorkspaceProviderFactory<IFileScannerProvider>`. When indexing begins, this factory type will be imported, instantiated, and have its <xref:Microsoft.VisualStudio.Workspace.Indexing.IFileScannerProvider.GetSymbolScannersAsync> method invoked. (`IFileScanner` instances supporting any value from `FileScannerTpeConstants` will be honored, not just symbols.)

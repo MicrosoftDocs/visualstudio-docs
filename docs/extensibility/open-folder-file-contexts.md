@@ -37,7 +37,7 @@ Lifecycles for a `FileContext` are non-deterministic. At any time, a component c
 
 Reading contents from the disk can be expensive, especially when a provider needs to find the relation between files. For example, a provider is queried for some source file's file context, but the file context is dependent on metadata from a project file. Parsing the project file or evaluating it with MSBuild is expensive. Instead, the extension can export an `IFileScanner` to create `FileDataValue` data during workspace indexing. Then when asked for file contexts, the `IFileContextProvider` can quickly query for that indexed data. the For more information on indexing, see the [Workspace indexing](#Workspace-indexing) section.
 
->![Warning]
+>[!WARNING]
 >Be cautious of other ways your `FileContext` might be expensive to compute. Some UI interactions are synchronous and rely on a high volume of `FileContext` requests. Examples include opening an editor tab and opening a **Solution Explorer** context menu. These actions make many build context type requests.
 
 ## File context related APIs
@@ -68,5 +68,5 @@ For information on the types supplied by Visual Studio, see the respective scena
 
 A workspace listens to file change notifications and provides the <xref:Microsoft.VisualStudio.Workspace.IFileWatcherService> via <xref:Microsoft.VisualStudio.Workspace.WorkspaceServiceHelper.GetFileWatcherService>. Files matching the "ExcludedItems" setting will not produce file notification events. A threshold between events is used for notification simplification and duplicate reduction. When you need to react to a file change, you should subscribe to this service.
 
->![TIP]
+>[!TIP]
 >A workspace's indexing service is subscribed to file events. File additions and modifications will cause relevant `IFileScanner`s to be invoked for new data for that file. File deletions will remove indexed data. You don't need to subscribe your `IFileScanner` to the file watcher service.

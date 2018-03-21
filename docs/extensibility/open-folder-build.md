@@ -48,7 +48,7 @@ Build support requires an extender to supply indexed and file context data, as w
     - `CommandGroup` property returns `16537f6e-cb14-44da-b087-d1387ce3bf57`
     - `CommandId` is `0x1000` for build, `0x1010` for rebuild, or `0x1020` for clean
 
->![NOTE]
+>[!NOTE]
 >Since the `FileDataValue` needs to be indexed, there will be some amount of time between opening the workspace and the point at which the file is scanned for build functionality to light up. The delay will be seen on the first opening of a folder because there is no previously cached index.
 
 ## Reporting messages from a build
@@ -87,7 +87,7 @@ private static void OutputBuildMessage(IWorkspace workspace)
 
 Alternatively, extensions can directly interact with the **Error List** or **Build** pane. A bug exists in versions prior to Visual Studio 2017 Version 15.7 where the `pszProjectUniqueName` argument of <xref:Microsoft.VisualStudio.Shell.Interop.IVsOutputWindowPane2.OutputTaskItemStringEx2> is ignored.
 
->![WARNING]
+>[!WARNING]
 >Callers of `IFileContextAction.ExecuteAsync` can provide arbitrary underlying implementations for the `IProgress<IFileContextActionProgressUpdate>` argument. Never invoke `IProgress<IFileContextActionProgressUpdate>.Report(IFileContextActionProgressUpdate)` directly. There are currently no general guidelines for using this argument, but these guidelines are subject to change.
 
 ## Build related APIs

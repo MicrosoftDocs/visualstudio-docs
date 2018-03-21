@@ -32,7 +32,7 @@ Another key difference is consumption of data from providers and services. The w
 
 In contrast, extensions can get instances of and interact directly with workspaces services. Extension methods on `IWorkspace` are available for the services provided by Visual Studio, such as <xref:Microsoft.VisualStudio.Workspace.WorkspaceServiceHelper.GetFileWatcherService>. Your extension may offer a workspace service for components within your extension or for other extensions to consume. Consumers should use <xref:Microsoft.VisualStudio.Workspace.WorkspaceServiceHelper.GetServiceAsync> or an extension method you provide on the `IWorkspace` type.
 
->![Warning]
+>[!WARNING]
 > Do not author services that conflict with Visual Studio. It will lead to unexpected issues.
 
 ## Disposal on workspace closure
@@ -43,7 +43,7 @@ On closure of a workspace, extenders might need to dispose but call asynchronous
 
 - <xref:Microsoft.VisualStudio.Workspace.IWorkspace> is the central entity for an opened workspace like an opened folder.
 - <xref:Microsoft.VisualStudio.Workspace.IWorkspaceProviderFactory`1> creates a provider per workspace instantiated.
-- <xref:Microsoft.VisualStudio.Workspace.IWorkspaceServiceFactory`1> creates a service per workspace instantiated.
+- <xref:Microsoft.VisualStudio.Workspace.IWorkspaceServiceFactory> creates a service per workspace instantiated.
 - <xref:Microsoft.VisualStudio.Threading.IAsyncDisposable> should be implemented on providers and services that need to run asynchronous code during disposal.
 - <xref:Microsoft.VisualStudio.Workspace.WorkspaceServiceHelper> provides helper methods for accessing well-known services or arbitrary services.
 
@@ -112,7 +112,7 @@ private static void ReadSettings(IWorkspace workspace)
 }
 ```
 
->![NOTE]
+>[!NOTE]
 >These settings APIs are unrelated to the APIs available in the `Microsoft.VisualStudio.Settings` namespace. Workspace settings are agnostic of the host and use workspace-specific settings files or dynamic settings providers.
 
 ### Providing dynamic settings
@@ -140,7 +140,7 @@ internal class MySettingsProviderFactory : IWorkspaceSettingsProviderFactory
 }
 ```
 
->![TIP]
+>[!TIP]
 >When implementing methods that return `IWorkspaceSettingsSource` (like `IWorkspaceSettingsProvider.GetSingleSettings`), return an instance of `IWorkspaceSettings` rather than `IWorkspaceSettingsSource`. `IWorkspaceSettings` provides more information that can be useful during some settings aggregations.
 
 ### Settings related APIs

@@ -47,7 +47,7 @@ The language service will be notified when a file context is created with a `Con
     - Use `ILanguageServiceProvider.InitializeAsync` to enable language services for the provided arguments when a file is opened
     - Use `ILanguageServiceProvider.UninitializeAsync` to disable language services for the provided arguments when a file is closed
 
->![WARNING]
+>[!WARNING]
 >The `ILanguageServiceProvider` methods might be invoked by the workspace on the main thread. Consider scheduling work on a different thread to avoid introducing UI delays.
 
 ## Language server protocol
