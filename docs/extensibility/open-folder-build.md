@@ -1,22 +1,20 @@
 ---
-title: "Open Folder Build | Microsoft Docs"
+title: "Open Folder Build in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/21/2018"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-ide-sdk"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0e7459da-6720-4fb6-808d-5030074ce9ec
-caps.latest.revision: 1
 author: "vukelich"
 ms.author: "svukel"
 manager: "viveis"
-ms.workload: 
+ms.workload:
   - "vssdk"
 ---
-# Open Folder Build
+# Open Folder build
 
 Build support requires an extender to supply indexed and file context data, as well as the build action to run. Things you'll need:
 

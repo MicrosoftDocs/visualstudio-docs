@@ -1,5 +1,5 @@
 ---
-title: "Open Folder Workspaces | Microsoft Docs"
+title: "Open Folder Workspaces in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/21/2018"
 ms.reviewer: ""
@@ -8,15 +8,13 @@ ms.technology:
   - "vs-ide-sdk"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c6970a17-629b-4f68-a7e0-0df4273a3d82
-caps.latest.revision: 1
 author: "vukelich"
 ms.author: "svukel"
 manager: "viveis"
 ms.workload:
   - "vssdk"
 ---
-# Open Folder Workspaces
+# Open Folder workspaces
 
 A workspace is how Visual Studio represents any collection of files in Open Folder, and it's represented <xref:Microsoft.VisualStudio.Workspace.IWorkspace> type. By itself, the workspace doesn't understand the contents or features related to files within the folder. Rather, it provides a general set of APIs for features and extensions to produce and consume data that others can act upon. The producers are composed through MEF using various export attributes.
 
@@ -153,7 +151,7 @@ internal class MySettingsProviderFactory : IWorkspaceSettingsProviderFactory
 ## Suggested practices
 
 - Return objects from `IWorkspaceProviderFactory.CreateProvider` or similar APIs that remember their `Workspace` context when created. Providers interfaces are written expecting this object is kept on creation.
-- Save workspace-specific caches or settings within the "Local settings" path of the workspace. Create a path for your file using **Microsoft.VisualStudio.Workspace.WorkspaceServiceHelper.MakeRootedUnderWorkingFolder()** in Visual Studio 2017 version 15.6 or later. For versions prior to version 15.6, use the following snippet:
+- Save workspace-specific caches or settings within the "Local settings" path of the workspace. Create a path for your file using <xref:Microsoft.VisualStudio.Workspace.WorkspaceServiceHelper.MakeRootedUnderWorkingFolder%2A> in Visual Studio 2017 version 15.6 or later. For versions prior to version 15.6, use the following snippet:
 
 ```csharp
 using System.IO;

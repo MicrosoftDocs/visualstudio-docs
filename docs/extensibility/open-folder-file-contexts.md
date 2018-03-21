@@ -1,5 +1,5 @@
 ---
-title: "Open Folder File Contexts | Microsoft Docs"
+title: "Open Folder File Contexts in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/21/2018"
 ms.reviewer: ""
@@ -8,15 +8,13 @@ ms.technology:
   - "vs-ide-sdk"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9e84e4cf-b72a-407f-8059-3cec02aa494b
-caps.latest.revision: 1
 author: "vukelich"
 ms.author: "svukel"
 manager: "viveis"
 ms.workload:
   - "vssdk"
 ---
-# Open Folder File Contexts
+# Open Folder file contexts
 
 All insights in workspaces are produced by "file context providers" that implement the <xref:Microsoft.VisualStudio.Workspace.IFileContextProvider> interface. These extensions might look for patterns in folders or files, read MSBuild files, makefiles, package dependencies, etc. in order to accumulate the insights they need to define a file context. A file context by itself does not perform any action, but rather provides data that another extension can then act on.
 

@@ -1,22 +1,20 @@
 ---
-title: "Open Folder Language Services | Microsoft Docs"
+title: "Open Folder Language Services in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/21/2018"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-ide-sdk"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 11a1d775-d073-49da-a438-251db1f7c08a
-caps.latest.revision: 1
 author: "vukelich"
 ms.author: "svukel"
 manager: "viveis"
-ms.workload: 
+ms.workload:
   - "vssdk"
 ---
-# Open Folder and Language Services
+# Open Folder and language services
 
 A language service might self-activate based on the file extension or content of an opened document, this "loose file" language service is limited to syntax highlighting. Additional info is required to provide a richer experience when editing/reviewing code. Each language service has its own API for initialization with this extra contextual data for a document. This is typically managed by a project system, which is tightly coupled both to the language service and to the build system.
 

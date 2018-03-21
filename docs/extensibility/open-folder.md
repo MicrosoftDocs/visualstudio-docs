@@ -1,24 +1,22 @@
 ---
-title: "Open Folder Extensibility Overview | Microsoft Docs"
+title: "Visual Studio Open Folder Extensibility Overview | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/21/2018"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-ide-sdk"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 154825cf-901a-4957-ad8b-bad5403c30c2
-caps.latest.revision: 1
 author: "vukelich"
 ms.author: "svukel"
 manager: "viveis"
-ms.workload: 
+ms.workload:
   - "vssdk"
 ---
-# Open Folder Extensibility
+# Open Folder extensibility
 
-[Open Folder](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md) allows users to open any codebase in Visual Studio without the need for project or solution files. Open Folder provides the features users expect from Visual Studio such as:
+The [Open Folder](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md) feature allows users to open any codebase in Visual Studio without the need for project or solution files. Open Folder provides the features users expect from Visual Studio such as:
 
 * Solution Explorer integration and search
 * Editor colorization
@@ -42,7 +40,7 @@ The Open Folder APIs are under the `Microsoft.VisualStudio.Workspace.*` namespac
 - [File contexts and actions](open-folder-file-contexts.md)
 - [Workspace indexing](open-folder-indexing.md)
 - [Language services](open-folder-language-services.md)
-- [Build](open-folder-build.md) 
+- [Build](open-folder-build.md)
 
 Features that use the following types will need to adopt new APIs to support Open Folder:
 
@@ -53,4 +51,3 @@ Features that use the following types will need to adopt new APIs to support Ope
 ## Feedback, comments, issues
 
 Open Folder and the `Microsoft.VisualStudio.Workspace.*` APIs are under active development. If you see unexpected behavior, then see the known issues for the release of interest. The Developer Community is the recommended place to vote and create any issues. For each feedback, we highly recommend a detailed description of your issue. Include the Visual Studio version you're developing for, the APIs you're using (both what you've implemented and what you're interacting with), the expected outcome, and the actual outcome. If possible, include a dump of the devenv.exe process. Use GitHub's issue tracking for giving feedback on this and related documentation.
-
