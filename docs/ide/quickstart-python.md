@@ -109,7 +109,7 @@ You're now ready to add a bit of Python code to implement a minimal web app.
 
 1. After pasting this code, Visual Studio may show a squiggle underneath `flask` in the first line. Such indicators appear when Visual Studio is still building the IntelliSense database for the environment after modules are installed.
 
-For more information about Flask, see the [Flask Quickstart](flask.pocoo.org/docs/0.12/quickstart/) (flask.pocoo.org).
+For more information about Flask, see the [Flask Quickstart](https://flask.pocoo.org/docs/0.12/quickstart/) (flask.pocoo.org).
 
 ## Run the application
 
