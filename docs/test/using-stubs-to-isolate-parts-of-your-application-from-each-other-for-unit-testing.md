@@ -173,10 +173,10 @@ class TestStockAnalyzer
         // In the completed application, stockFeed would be a real one:
         var componentUnderTest = new StockAnalyzer(stockFeed);
 
-      // Act:
+        // Act:
         int actualValue = componentUnderTest.GetContosoPrice();
 
-      // Assert:
+        // Assert:
         Assert.AreEqual(1234, actualValue);
     }
     ...
@@ -307,8 +307,8 @@ We attach a stub to `MyMethod` that always returns 1:
 
 ```csharp
 // unit test code
-  var stub = new StubIMyInterface ();
-  stub.MyMethodString = (value) => 1;
+var stub = new StubIMyInterface ();
+stub.MyMethodString = (value) => 1;
 ```
 
 If you do not provide a stub for a function, Fakes will generate a function that returns the default value of the return type. For numbers, the default value is 0, and for class types it is `null` (C#) or `Nothing` (Visual Basic).
@@ -422,7 +422,7 @@ stub.CallBase = false;
 Assert.AreEqual(0, stub.DoVirtual(1));
 
 stub.CallBase = true;
-//No delegate set - calls the base:
+// No delegate set - calls the base:
 Assert.AreEqual(43,stub.DoVirtual(1));
 ```
 
@@ -452,11 +452,9 @@ stub.InstanceBehavior = StubsBehaviors.DefaultValue;
 The behavior can also be changed globally for all stub objects for which the behavior has not been set by setting the `StubsBehaviors.Current` property:
 
 ```csharp
-// unit test code
-//change default behavior for all stub instances
-//where the behavior has not been set
-StubBehaviors.Current =
-    BehavedBehaviors.DefaultValue;
+// Change default behavior for all stub instances
+// where the behavior has not been set.
+StubBehaviors.Current = BehavedBehaviors.DefaultValue;
 ```
 
 ## See also

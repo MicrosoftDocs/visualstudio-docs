@@ -1,9 +1,6 @@
 ---
 title: "Walkthrough: Creating a Custom Directive Processor | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.topic: "article"
 helpviewer_keywords:
   - "text templates, custom directive processors"
@@ -78,7 +75,7 @@ End Property
 1. In Visual Studio, create a C# or a Visual Basic class library project named CustomDP.
 
     > [!NOTE]
-    > If you want to install the directive processor on more than one computer, it is better to use a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Extension (VSIX) project and include a .pkgdef file in the extension. For more information, see [Deploying a Custom Directive Processor](../modeling/deploying-a-custom-directive-processor.md).
+    > If you want to install the directive processor on more than one computer, it is better to use a Visual Studio Extension (VSIX) project and include a .pkgdef file in the extension. For more information, see [Deploying a Custom Directive Processor](../modeling/deploying-a-custom-directive-processor.md).
 
 2. Add references to these assemblies:
 
@@ -104,50 +101,50 @@ End Property
     {
         public class CustomDirectiveProcessor : DirectiveProcessor
         {
-            //this buffer stores the code that is added to the
-            //generated transformation class after all the processing is done
-            //---------------------------------------------------------------------
+            // This buffer stores the code that is added to the
+            // generated transformation class after all the processing is done.
+            // ---------------------------------------------------------------------
             private StringBuilder codeBuffer;
 
-            //Using a Code Dom Provider creates code for the
-            //generated transformation class in either Visual Basic or C#.
-            //If you want your directive processor to support only one language, you
-            //can hard code the code you add to the generated transformation class.
-            //In that case, you do not need this field.
-            //--------------------------------------------------------------------------
+            // Using a Code Dom Provider creates code for the
+            // generated transformation class in either Visual Basic or C#.
+            // If you want your directive processor to support only one language, you
+            // can hard code the code you add to the generated transformation class.
+            // In that case, you do not need this field.
+            // --------------------------------------------------------------------------
             private CodeDomProvider codeDomProvider;
 
-            //this stores the full contents of the text template that is being processed
-            //--------------------------------------------------------------------------
+            // This stores the full contents of the text template that is being processed.
+            // --------------------------------------------------------------------------
             private String templateContents;
 
-            //These are the errors that occur during processing. The engine passes
-            //the errors to the host, and the host can decide how to display them,
-            //for example the the host can display the errors in the UI
-            //or write them to a file.
-            //---------------------------------------------------------------------
+            // These are the errors that occur during processing. The engine passes
+            // the errors to the host, and the host can decide how to display them,
+            // for example the the host can display the errors in the UI
+            // or write them to a file.
+            // ---------------------------------------------------------------------
             private CompilerErrorCollection errorsValue;
             public new CompilerErrorCollection Errors
             {
                 get { return errorsValue; }
             }
 
-            //Each time this directive processor is called, it creates a new property.
-            //We count how many times we are called, and append "n" to each new
-            //property name. The property names are therefore unique.
-            //-----------------------------------------------------------------------------
+            // Each time this directive processor is called, it creates a new property.
+            // We count how many times we are called, and append "n" to each new
+            // property name. The property names are therefore unique.
+            // -----------------------------------------------------------------------------
             private int directiveCount = 0;
 
             public override void Initialize(ITextTemplatingEngineHost host)
             {
-                //we do not need to do any initialization work
+                // We do not need to do any initialization work.
             }
 
             public override void StartProcessingRun(CodeDomProvider languageProvider, String templateContents, CompilerErrorCollection errors)
             {
-                //the engine has passed us the language of the text template
-                //we will use that language to generate code later
-                //----------------------------------------------------------
+                // The engine has passed us the language of the text template
+                // we will use that language to generate code later.
+                // ----------------------------------------------------------
                 this.codeDomProvider = languageProvider;
                 this.templateContents = templateContents;
                 this.errorsValue = errors;
@@ -155,10 +152,10 @@ End Property
                 this.codeBuffer = new StringBuilder();
             }
 
-            //Before calling the ProcessDirective method for a directive, the
-            //engine calls this function to see whether the directive is supported.
-            //Notice that one directive processor might support many directives.
-            //---------------------------------------------------------------------
+            // Before calling the ProcessDirective method for a directive, the
+            // engine calls this function to see whether the directive is supported.
+            // Notice that one directive processor might support many directives.
+            // ---------------------------------------------------------------------
             public override bool IsDirectiveSupported(string directiveName)
             {
                 if (string.Compare(directiveName, "CoolDirective", StringComparison.OrdinalIgnoreCase) == 0)
@@ -188,11 +185,11 @@ End Property
                         throw new DirectiveProcessorException("Argument 'FileName' is null or empty.");
                     }
 
-                    //Now we add code to the generated transformation class.
-                    //This directive supports either Visual Basic or C#, so we must use the
-                    //System.CodeDom to create the code.
-                    //If a directive supports only one language, you can hard code the code.
-                    //--------------------------------------------------------------------------
+                    // Now we add code to the generated transformation class.
+                    // This directive supports either Visual Basic or C#, so we must use the
+                    // System.CodeDom to create the code.
+                    // If a directive supports only one language, you can hard code the code.
+                    // --------------------------------------------------------------------------
 
                     CodeMemberField documentField = new CodeMemberField();
 
@@ -230,73 +227,72 @@ End Property
                         codeDomProvider.GenerateCodeFromMember(documentField, writer, options);
                         codeDomProvider.GenerateCodeFromMember(documentProperty, writer, options);
                     }
+                }
 
-                }//end CoolDirective
-
-                //One directive processor can contain many directives.
-                //If you want to support more directives, the code goes here...
-                //-----------------------------------------------------------------
+                // One directive processor can contain many directives.
+                // If you want to support more directives, the code goes here...
+                // -----------------------------------------------------------------
                 if (string.Compare(directiveName, "supercooldirective", StringComparison.OrdinalIgnoreCase) == 0)
                 {
-                    //code for SuperCoolDirective goes here...
-                }//end SuperCoolDirective
+                    // Code for SuperCoolDirective goes here...
+                }
 
-                //Track how many times the processor has been called.
-                //-----------------------------------------------------------------
+                // Track how many times the processor has been called.
+                // -----------------------------------------------------------------
                 directiveCount++;
 
-            }//end ProcessDirective
+            }
 
             public override void FinishProcessingRun()
             {
                 this.codeDomProvider = null;
 
-                //important: do not do this:
-                //the get methods below are called after this method
-                //and the get methods can access this field
-                //-----------------------------------------------------------------
-                //this.codeBuffer = null;
+                // Important: do not do this:
+                // The get methods below are called after this method
+                // and the get methods can access this field.
+                // -----------------------------------------------------------------
+                // this.codeBuffer = null;
             }
 
             public override string GetPreInitializationCodeForProcessingRun()
             {
-                //Use this method to add code to the start of the
-                //Initialize() method of the generated transformation class.
-                //We do not need any pre-initialization, so we will just return "".
-                //-----------------------------------------------------------------
-                //GetPreInitializationCodeForProcessingRun runs before the
-                //Initialize() method of the base class.
-                //-----------------------------------------------------------------
+                // Use this method to add code to the start of the
+                // Initialize() method of the generated transformation class.
+                // We do not need any pre-initialization, so we will just return "".
+                // -----------------------------------------------------------------
+                // GetPreInitializationCodeForProcessingRun runs before the
+                // Initialize() method of the base class.
+                // -----------------------------------------------------------------
                 return String.Empty;
             }
 
             public override string GetPostInitializationCodeForProcessingRun()
             {
-                //Use this method to add code to the end of the
-                //Initialize() method of the generated transformation class.
-                //We do not need any post-initialization, so we will just return "".
-                //------------------------------------------------------------------
-                //GetPostInitializationCodeForProcessingRun runs after the
-                //Initialize() method of the base class.
-                //-----------------------------------------------------------------
+                // Use this method to add code to the end of the
+                // Initialize() method of the generated transformation class.
+                // We do not need any post-initialization, so we will just return "".
+                // ------------------------------------------------------------------
+                // GetPostInitializationCodeForProcessingRun runs after the
+                // Initialize() method of the base class.
+                // -----------------------------------------------------------------
                 return String.Empty;
             }
 
             public override string GetClassCodeForProcessingRun()
             {
                 //Return the code to add to the generated transformation class.
-                //-----------------------------------------------------------------
+                // -----------------------------------------------------------------
                 return codeBuffer.ToString();
             }
 
             public override string[] GetReferencesForProcessingRun()
             {
-                //This returns the references that we want to use when
-                //compiling the generated transformation class.
-                //-----------------------------------------------------------------
-                //We need a reference to this assembly to be able to call
-                //XmlReaderHelper.ReadXml from the generated transformation class.
-                //-----------------------------------------------------------------
+                // This returns the references that we want to use when
+                // compiling the generated transformation class.
+                // -----------------------------------------------------------------
+                // We need a reference to this assembly to be able to call
+                // XmlReaderHelper.ReadXml from the generated transformation class.
+                // -----------------------------------------------------------------
                 return new string[]
                 {
                     "System.Xml",
@@ -308,22 +304,22 @@ End Property
             {
                 //This returns the imports or using statements that we want to
                 //add to the generated transformation class.
-                //-----------------------------------------------------------------
+                // -----------------------------------------------------------------
                 //We need CustomDP to be able to call XmlReaderHelper.ReadXml
                 //from the generated transformation class.
-                //-----------------------------------------------------------------
+                // -----------------------------------------------------------------
                 return new string[]
                 {
                     "System.Xml",
                     "CustomDP"
                 };
             }
-        }//end class CustomDirectiveProcessor
+        }
 
-        //-------------------------------------------------------------------------
-        // the code that we are adding to the generated transformation class
-        // will call this method
-        //-------------------------------------------------------------------------
+        // -------------------------------------------------------------------------
+        // The code that we are adding to the generated transformation class
+        // will call this method.
+        // -------------------------------------------------------------------------
         public static class XmlReaderHelper
         {
             public static XmlDocument ReadXml(string fileName)
@@ -343,8 +339,8 @@ End Property
                 }
                 return d;
             }
-        }//end class XmlReaderHelper
-    }//end namespace CustomDP
+        }
+    }
     ```
 
     ```vb
@@ -364,28 +360,28 @@ End Property
         Public Class CustomDirectiveProcessor
         Inherits DirectiveProcessor
 
-            'this buffer stores the code that is added to the
-            'generated transformation class after all the processing is done
-            '---------------------------------------------------------------
+            ' This buffer stores the code that is added to the
+            ' generated transformation class after all the processing is done.
+            ' ---------------------------------------------------------------
             Private codeBuffer As StringBuilder
 
-            'Using a Code Dom Provider creates code for the
-            'generated transformation class in either Visual Basic or C#.
-            'If you want your directive processor to support only one language, you
-            'can hard code the code you add to the generated transformation class.
-            'In that case, you do not need this field.
-            '--------------------------------------------------------------------------
+            ' Using a Code Dom Provider creates code for the
+            ' generated transformation class in either Visual Basic or C#.
+            ' If you want your directive processor to support only one language, you
+            ' can hard code the code you add to the generated transformation class.
+            ' In that case, you do not need this field.
+            ' --------------------------------------------------------------------------
             Private codeDomProvider As CodeDomProvider
 
-            'this stores the full contents of the text template that is being processed
-            '--------------------------------------------------------------------------
+            ' This stores the full contents of the text template that is being processed.
+            ' --------------------------------------------------------------------------
             Private templateContents As String
 
-            'These are the errors that occur during processing. The engine passes
-            'the errors to the host, and the host can decide how to display them,
-            'for example the the host can display the errors in the UI
-            'or write them to a file.
-            '---------------------------------------------------------------------
+            ' These are the errors that occur during processing. The engine passes
+            ' the errors to the host, and the host can decide how to display them,
+            ' for example the the host can display the errors in the UI
+            ' or write them to a file.
+            ' ---------------------------------------------------------------------
             Private errorsValue As CompilerErrorCollection
             Public Shadows ReadOnly Property Errors() As CompilerErrorCollection
                 Get
@@ -393,22 +389,22 @@ End Property
                 End Get
             End Property
 
-            'Each time this directive processor is called, it creates a new property.
-            'We count how many times we are called, and append "n" to each new
-            'property name. The property names are therefore unique.
-            '--------------------------------------------------------------------------
+            ' Each time this directive processor is called, it creates a new property.
+            ' We count how many times we are called, and append "n" to each new
+            ' property name. The property names are therefore unique.
+            ' --------------------------------------------------------------------------
             Private directiveCount As Integer = 0
 
             Public Overrides Sub Initialize(ByVal host As ITextTemplatingEngineHost)
 
-                'we do not need to do any initialization work
+                ' We do not need to do any initialization work.
             End Sub
 
             Public Overrides Sub StartProcessingRun(ByVal languageProvider As CodeDomProvider, ByVal templateContents As String, ByVal errors As CompilerErrorCollection)
 
-                'the engine has passed us the language of the text template
-                'we will use that language to generate code later
-                '----------------------------------------------------------
+                ' The engine has passed us the language of the text template
+                ' we will use that language to generate code later.
+                ' ----------------------------------------------------------
                 Me.codeDomProvider = languageProvider
                 Me.templateContents = templateContents
                 Me.errorsValue = errors
@@ -416,10 +412,10 @@ End Property
                 Me.codeBuffer = New StringBuilder()
             End Sub
 
-            'Before calling the ProcessDirective method for a directive, the
-            'engine calls this function to see whether the directive is supported.
-            'Notice that one directive processor might support many directives.
-            '---------------------------------------------------------------------
+            ' Before calling the ProcessDirective method for a directive, the
+            ' engine calls this function to see whether the directive is supported.
+            ' Notice that one directive processor might support many directives.
+            ' ---------------------------------------------------------------------
             Public Overrides Function IsDirectiveSupported(ByVal directiveName As String) As Boolean
 
                 If String.Compare(directiveName, "CoolDirective", StringComparison.OrdinalIgnoreCase) = 0 Then
@@ -447,11 +443,11 @@ End Property
                         Throw New DirectiveProcessorException("Argument 'FileName' is null or empty.")
                     End If
 
-                    'Now we add code to the generated transformation class.
-                    'This directive supports either Visual Basic or C#, so we must use the
-                    'System.CodeDom to create the code.
-                    'If a directive supports only one language, you can hard code the code.
-                    '--------------------------------------------------------------------------
+                    ' Now we add code to the generated transformation class.
+                    ' This directive supports either Visual Basic or C#, so we must use the
+                    ' System.CodeDom to create the code.
+                    ' If a directive supports only one language, you can hard code the code.
+                    ' --------------------------------------------------------------------------
 
                     Dim documentField As CodeMemberField = New CodeMemberField()
 
@@ -490,90 +486,90 @@ End Property
                         codeDomProvider.GenerateCodeFromMember(documentProperty, writer, options)
                     End Using
 
-                End If  'CoolDirective
+                End If
 
-                'One directive processor can contain many directives.
-                'If you want to support more directives, the code goes here...
-                '-----------------------------------------------------------------
+                ' One directive processor can contain many directives.
+                ' If you want to support more directives, the code goes here...
+                ' -----------------------------------------------------------------
                 If String.Compare(directiveName, "supercooldirective", StringComparison.OrdinalIgnoreCase) = 0 Then
 
-                    'code for SuperCoolDirective goes here
-                End If 'SuperCoolDirective
+                    ' Code for SuperCoolDirective goes here.
+                End If
 
-                'Track how many times the processor has been called.
-                '-----------------------------------------------------------------
+                ' Track how many times the processor has been called.
+                ' -----------------------------------------------------------------
                 directiveCount += 1
-            End Sub 'ProcessDirective
+            End Sub
 
             Public Overrides Sub FinishProcessingRun()
 
                 Me.codeDomProvider = Nothing
 
-                'important: do not do this:
-                'the get methods below are called after this method
-                'and the get methods can access this field
-                '-----------------------------------------------------------------
-                'Me.codeBuffer = Nothing
+                ' Important: do not do this:
+                ' The get methods below are called after this method
+                ' and the get methods can access this field.
+                ' -----------------------------------------------------------------
+                ' Me.codeBuffer = Nothing
             End Sub
 
             Public Overrides Function GetPreInitializationCodeForProcessingRun() As String
 
-                'Use this method to add code to the start of the
-                'Initialize() method of the generated transformation class.
-                'We do not need any pre-initialization, so we will just return "".
-                '-----------------------------------------------------------------
-                'GetPreInitializationCodeForProcessingRun runs before the
-                'Initialize() method of the base class.
-                '-----------------------------------------------------------------
+                ' Use this method to add code to the start of the
+                ' Initialize() method of the generated transformation class.
+                ' We do not need any pre-initialization, so we will just return "".
+                ' -----------------------------------------------------------------
+                ' GetPreInitializationCodeForProcessingRun runs before the
+                ' Initialize() method of the base class.
+                ' -----------------------------------------------------------------
                 Return String.Empty
             End Function
 
             Public Overrides Function GetPostInitializationCodeForProcessingRun() As String
 
-                'Use this method to add code to the end of the
-                'Initialize() method of the generated transformation class.
-                'We do not need any post-initialization, so we will just return "".
-                '------------------------------------------------------------------
-                'GetPostInitializationCodeForProcessingRun runs after the
-                'Initialize() method of the base class.
-                '-----------------------------------------------------------------
+                ' Use this method to add code to the end of the
+                ' Initialize() method of the generated transformation class.
+                ' We do not need any post-initialization, so we will just return "".
+                ' ------------------------------------------------------------------
+                ' GetPostInitializationCodeForProcessingRun runs after the
+                ' Initialize() method of the base class.
+                ' -----------------------------------------------------------------
                 Return String.Empty
             End Function
 
             Public Overrides Function GetClassCodeForProcessingRun() As String
 
-                'Return the code to add to the generated transformation class.
-                '-----------------------------------------------------------------
+                ' Return the code to add to the generated transformation class.
+                ' -----------------------------------------------------------------
                 Return codeBuffer.ToString()
             End Function
 
             Public Overrides Function GetReferencesForProcessingRun() As String()
 
-                'This returns the references that we want to use when
-                'compiling the generated transformation class.
-                '-----------------------------------------------------------------
-                'We need a reference to this assembly to be able to call
-                'XmlReaderHelper.ReadXml from the generated transformation class.
-                '-----------------------------------------------------------------
+                ' This returns the references that we want to use when
+                ' compiling the generated transformation class.
+                ' -----------------------------------------------------------------
+                ' We need a reference to this assembly to be able to call
+                ' XmlReaderHelper.ReadXml from the generated transformation class.
+                ' -----------------------------------------------------------------
                 Return New String() {"System.Xml", Me.GetType().Assembly.Location}
             End Function
 
             Public Overrides Function GetImportsForProcessingRun() As String()
 
-                'This returns the imports or using statements that we want to
-                'add to the generated transformation class.
-                '-----------------------------------------------------------------
-                'We need CustomDP to be able to call XmlReaderHelper.ReadXml
-                'from the generated transformation class.
-                '-----------------------------------------------------------------
+                ' This returns the imports or using statements that we want to
+                ' add to the generated transformation class.
+                ' -----------------------------------------------------------------
+                ' We need CustomDP to be able to call XmlReaderHelper.ReadXml
+                ' from the generated transformation class.
+                ' -----------------------------------------------------------------
                 Return New String() {"System.Xml", "CustomDP"}
             End Function
-        End Class 'CustomDirectiveProcessor
+        End Class
 
-        '--------------------------------------------------------------------------
-        ' the code that we are adding to the generated transformation class
-        ' will call this method
-        '--------------------------------------------------------------------------
+        ' --------------------------------------------------------------------------
+        ' The code that we are adding to the generated transformation class
+        ' will call this method.
+        ' --------------------------------------------------------------------------
         Public Class XmlReaderHelper
 
             Public Shared Function ReadXml(ByVal fileName As String) As XmlDocument
@@ -593,7 +589,7 @@ End Property
 
                 Return d
             End Function
-        End Class 'XmlReaderHelper
+        End Class
 
     End Namespace
     ```
@@ -610,12 +606,12 @@ Build the project. On the **Build** menu, click **Build Solution**.
 
 ## Register the Directive Processor
 
-Before you can call a directive from a text template in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], you must add a registry key for the directive processor.
+Before you can call a directive from a text template in Visual Studio, you must add a registry key for the directive processor.
 
 > [!NOTE]
-> If you want to install the directive processor on more than one computer, it is better to define a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Extension (VSIX) that includes a .pkgdef file along with your assembly. For more information, see [Deploying a Custom Directive Processor](../modeling/deploying-a-custom-directive-processor.md).
+> If you want to install the directive processor on more than one computer, it is better to define a Visual Studio Extension (VSIX) that includes a *.pkgdef* file along with your assembly. For more information, see [Deploying a Custom Directive Processor](../modeling/deploying-a-custom-directive-processor.md).
 
- Keys for directive processors exist in the registry in the following location:
+Keys for directive processors exist in the registry in the following location:
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\*.0\TextTemplating\DirectiveProcessors
@@ -745,14 +741,14 @@ In this example, the text template calls the directive and passes in the name of
     <#@ template debug="true" #>
     <#@ output extension=".txt" #>
 
-    <#  //This will call the custom directive processor. #>
+    <#  // This will call the custom directive processor. #>
     <#@ CoolDirective Processor="CustomDirectiveProcessor" FileName="<YOUR PATH>\DocFile.xml" #>
 
-    <#  //Uncomment this line if you want to see the generated transformation class. #>
-    <#  //System.Diagnostics.Debugger.Break(); #>
+    <#  // Uncomment this line if you want to see the generated transformation class. #>
+    <#  // System.Diagnostics.Debugger.Break(); #>
 
-    <#  //This will use the results of the directive processor. #>
-    <#  //The directive processor has read the XML and stored it in Document0. #>
+    <#  // This will use the results of the directive processor. #>
+    <#  // The directive processor has read the XML and stored it in Document0. #>
     <#
         XmlNode node = Document0.DocumentElement.SelectSingleNode("members");
 
@@ -769,14 +765,14 @@ In this example, the text template calls the directive and passes in the name of
         }
     #>
 
-    <#  //You can call the directive processor again and pass it a different file. #>
-    <# //@ CoolDirective Processor="CustomDirectiveProcessor" FileName="<YOUR PATH>\<Your Second File>" #>
+    <# // You can call the directive processor again and pass it a different file. #>
+    <# // @ CoolDirective Processor="CustomDirectiveProcessor" FileName="<YOUR PATH>\<Your Second File>" #>
 
-    <#  //To use the results of the second directive call, use Document1. #>
+    <#  // To use the results of the second directive call, use Document1. #>
     <#
-        //XmlNode node2 = Document1.DocumentElement.SelectSingleNode("members");
+        // XmlNode node2 = Document1.DocumentElement.SelectSingleNode("members");
 
-        //...
+        // ...
     #>
     ```
 
@@ -785,14 +781,14 @@ In this example, the text template calls the directive and passes in the name of
     <#@ template debug="true" language="vb" #>
     <#@ output extension=".txt" #>
 
-    <#  'This will call the custom directive processor. #>
+    <#  ' This will call the custom directive processor. #>
     <#@ CoolDirective Processor="CustomDirectiveProcessor" FileName="<YOUR PATH>\DocFile.xml" #>
 
-    <#  'Uncomment this line if you want to see the generated transformation class. #>
-    <#  'System.Diagnostics.Debugger.Break() #>
+    <#  ' Uncomment this line if you want to see the generated transformation class. #>
+    <#  ' System.Diagnostics.Debugger.Break() #>
 
-    <#  'This will use the results of the directive processor. #>
-    <#  'The directive processor has read the XML and stored it in Document0. #>
+    <#  ' This will use the results of the directive processor. #>
+    <#  ' The directive processor has read the XML and stored it in Document0. #>
     <#
         Dim node as XmlNode = Document0.DocumentElement.SelectSingleNode("members")
 
@@ -811,14 +807,14 @@ In this example, the text template calls the directive and passes in the name of
         Next
     #>
 
-    <#  'You can call the directive processor again and pass it a different file. #>
-    <# '@ CoolDirective Processor="CustomDirectiveProcessor" FileName="<YOUR PATH>\DocFileTwo.xml" #>
+    <# ' You can call the directive processor again and pass it a different file. #>
+    <# ' @ CoolDirective Processor="CustomDirectiveProcessor" FileName="<YOUR PATH>\DocFileTwo.xml" #>
 
-    <#  'To use the results of the second directive call, use Document1. #>
+    <#  ' To use the results of the second directive call, use Document1. #>
     <#
-        'node = Document1.DocumentElement.SelectSingleNode("members")
+        ' node = Document1.DocumentElement.SelectSingleNode("members")
 
-        '...
+        ' ...
     #>
     ```
 
@@ -837,7 +833,7 @@ In this example, the text template calls the directive and passes in the name of
 
     The generated text output appears. The output should look like the following:
 
-    ```
+    ```text
        Name:  T:SomeClass
     summary:  Class level summary documentation goes here.
     remarks:  Longer comments can be associated with a type or member through the remarks tag
@@ -883,16 +879,16 @@ After you test your custom directive processor, you might want to add some HTML 
     <#@ template debug="true" #>
     <#@ output extension=".htm" #>
 
-    <#  //this will call the custom directive processor #>
+    <#  // This will call the custom directive processor #>
     <#@ CoolDirective Processor="CustomDirectiveProcessor" FileName="<YOUR PATH>\DocFile.xml" #>
 
-    <#  //uncomment this line if you want to see the generated transformation class #>
-    <#  //System.Diagnostics.Debugger.Break(); #>
+    <#  // Uncomment this line if you want to see the generated transformation class #>
+    <#  // System.Diagnostics.Debugger.Break(); #>
 
     <html><body>
 
-    <#  //this will use the results of the directive processor #>
-    <#  //the directive processor has read the XML and stored it in Document0#>
+    <#  // This will use the results of the directive processor #>.
+    <#  // The directive processor has read the XML and stored it in Document0#>.
     <#
         XmlNode node = Document0.DocumentElement.SelectSingleNode("members");
 
@@ -923,16 +919,16 @@ After you test your custom directive processor, you might want to add some HTML 
     <#@ template debug="true" language="vb" #>
     <#@ output extension=".htm" #>
 
-    <#  'this will call the custom directive processor #>
+    <#  ' This will call the custom directive processor #>
     <#@ CoolDirective Processor="CustomDirectiveProcessor" FileName="<YOUR PATH>\DocFile.xml" #>
 
-    <#  'uncomment this line if you want to see the generated transformation class #>
-    <#  'System.Diagnostics.Debugger.Break() #>
+    <#  ' Uncomment this line if you want to see the generated transformation class #>
+    <#  ' System.Diagnostics.Debugger.Break() #>
 
     <html><body>
 
-    <#  'this will use the results of the directive processor #>
-    <#  'the directive processor has read the XML and stored it in Document0#>
+    <#  ' This will use the results of the directive processor #>.
+    <#  ' The directive processor has read the XML and stored it in Document0#>.
     <#
         Dim node as XmlNode = Document0.DocumentElement.SelectSingleNode("members")
 
