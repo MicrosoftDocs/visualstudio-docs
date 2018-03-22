@@ -158,7 +158,7 @@ You must save the following example Dockerfile to a new file on your disk. If th
    ```
 
 > [!NOTE]
-> If you are using Visual Studio 2017 version 15.6 or later, you should use the following as Docker image as the base image instead: microsoft/dotnet-framework
+> If you are using Visual Studio 2017 version 15.6 or later, you should use the following Docker image as the base image instead: microsoft/dotnet-framework
 
 ```dockerfile
   # Use the following image to build older projects
