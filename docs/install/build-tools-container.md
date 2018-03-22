@@ -157,6 +157,14 @@ You must save the following example Dockerfile to a new file on your disk. If th
    CMD ["powershell.exe", "-NoLogo", "-ExecutionPolicy", "Bypass"]
    ```
 
+> [!NOTE]
+> If you are using Visual Studio 2017 version 15.6 or later, you should use the following Docker image as the base image instead: microsoft/dotnet-framework
+
+```dockerfile
+  # Use the following image to build older projects
+  FROM microsoft/dotnet-framework
+```
+
 4. Run the following command within that directory.
 
    ```shell
