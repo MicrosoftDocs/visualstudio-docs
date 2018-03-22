@@ -56,9 +56,9 @@ It's time to start developing. You'll add a button control, add an action to the
 
   ![Open MainPage.xaml from the Solution Explorer ](../ide/media/uwp-solution-explorer-MainPage-xaml.png)
 
-  Notice that there are two panes within the XAML editor: A graphical design pane and a code-based design pane.
+  There are two panes in the XAML editor: The **XAML Designer**, which includes a design canvas, and the **XAML Editor**, where you can add or change code.    
 
-  ![The graphical design pane and the code-based design pane in the XAML editor](../ide/media/uwp-xaml-editor.png)
+  ![The XAML Designer pane in the XAML editor](../ide/media/uwp-xaml-editor.png)
 
 2. Choose **Toolbox** to open the Toolbox fly-out window.
 
@@ -74,17 +74,17 @@ It's time to start developing. You'll add a button control, add an action to the
 
    ![Click the Button control and drag it onto the Design canvas](../ide/media/uwp-toolbox-add-button-control.png)
 
-  If you look at the XAML code window, you'll see that the Button has been added there, too:
+  If you look at the code in the XAML Editor, you'll see that the Button has been added there, too:
 
   ![Click the Button control and drag it onto the Design canvas](../ide/media/uwp-xaml-control-code-window.png)
 
 ### Add a label to the button
 
-1. In the XAML code window, change Button Content value from "Button" to "Hello World!"
+1. In the XAML Editor, change Button Content value from "Button" to "Hello World!"
 
    ![Change the Button content value to Hello World](../ide/media/uwp-change-button-text-in-xaml-code-window.png)
 
-2. Notice that the button on the design canvas changes, too.
+2. Notice that the button in the XAML Designer changes, too.
 
    ![The button changes to Hello World on the design canvas](../ide/media/uwp-button-text-change-in-design-canvas.png)
 
@@ -94,7 +94,9 @@ An "event handler" sounds complicated, but it's just another name for code that 
 
 1. Double-click the button control on the design canvas.
 
-2.  Edit the event handler code in *MainPage.xaml.cs*, the code-behind page. This is where things get interesting. The default event handler looks like this:
+2.  Edit the event handler code in *MainPage.xaml.cs*, the code-behind page.
+
+ This is where things get interesting. The default event handler looks like this:
 
    ![The default Button_Click event handler ](../ide/media/uwp-button-click-code.png)
 
