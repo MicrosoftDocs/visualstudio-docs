@@ -19,14 +19,16 @@ ms.workload:
   - "vssdk"
 ---
 # Contained Languages
+
 *Contained languages* are languages that are contained by other languages. For example, HTML in [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] pages may contain [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] or [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] scripts. A dual-language architecture is required for the .aspx file editor to provide IntelliSense, colorization, and other editing features for both the HTML and the scripting language.
 
 ## Implementation
- The most important interface you need to implement for contained languages is the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsContainedLanguage> interface. This interface is implemented by any language that can be hosted inside a primary language. It gives access to the language service's colorizer, text view filter, and primary language service ID. The <xref:Microsoft.VisualStudio.TextManager.Interop.IVsContainedLanguageFactory> enables you to create an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsContainedLanguage> interface. The following steps show you how to implement a contained language:
+
+The most important interface you need to implement for contained languages is the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsContainedLanguage> interface. This interface is implemented by any language that can be hosted inside a primary language. It gives access to the language service's colorizer, text view filter, and primary language service ID. The <xref:Microsoft.VisualStudio.TextManager.Interop.IVsContainedLanguageFactory> enables you to create an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsContainedLanguage> interface. The following steps show you how to implement a contained language:
 
 1.  Use `QueryService()` to get the language service ID and the interface ID of the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsContainedLanguageFactory>.
 
-2.  To create an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsContainedLanguage> interface, call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsContainedLanguageFactory.GetLanguage%2A> method. Pass an <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> interface, an item ID (one or more fields from ), and an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBufferCoordinator> interface.
+2.  To create an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsContainedLanguage> interface, call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsContainedLanguageFactory.GetLanguage%2A> method. Pass an <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> interface, one or more [item IDs](<xref:Microsoft.VisualStudio.VSConstants.VSITEMID>), and an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBufferCoordinator> interface.
 
 3.  The <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBufferCoordinator> interface, which is the text buffer coordinator object, provides the basic services that are required to map locations in a primary file into the secondary language's buffer.
 
