@@ -40,7 +40,7 @@ Once you've [installed Python support in Visual Studio 2017](installing-python-s
 
 1. After Visual Studio creates that environment, look in **Solution Explorer** to see that you have an `app.py` file along with `requirements.txt`. Open `app.py` to see that the template has provided code like that in [Quickstart - Create a web app with Flask](../ide/quickstart-python.md), with two added sections.
 
-    First is the line, `wsgi_app = app.wsgi_app` that you typically need when deploying an app to a host like Azure App Service.
+    First is the line, `wsgi_app = app.wsgi_app` that can be helpful when deploying an app to a web host.
 
     Second is startup code that allows you to set the host and port through environment variables rather than hard-coding them. Such code allows you to easily control the configuration on both development and production machines without changing the code:
 
