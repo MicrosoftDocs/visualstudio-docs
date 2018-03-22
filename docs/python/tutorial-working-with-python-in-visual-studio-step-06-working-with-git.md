@@ -57,7 +57,7 @@ This article provides a basic overview of creating a local Git repository for an
 
 For a short walkthrough of creating a project from a remote Git repository, see [Quickstart: clone a repository of Python code in Visual Studio](quickstart-03-python-in-visual-studio-project-from-repository.md).
 
-For a much more comprehensive tutorial, including handling merge conflicts, reviewing code with pull requests, rebasing, and cherry-picking changes between branches, see [Getting Started with Git and VSTS](/vsts/git/gitquickstart?toc=%2Fvisualstudio%2Fversion-control%2Ftoc.json&bc=%2Fvsts%2Fgit%2Fbreadcrumb%2Fvc%2Ftoc.json&view=vsts&tabs=visual-studio).
+For a much more comprehensive tutorial, including handling merge conflicts, reviewing code with pull requests, rebasing, and cherry-picking changes between branches, see [Getting Started with Git and VSTS](/vsts/git/gitquickstart?toc=/visualstudio/version-control/toc.json&bc=/vsts/git/breadcrumb/vc/toc.json&view=vsts&tabs=visual-studio).
 
 ## Tutorial review
 
