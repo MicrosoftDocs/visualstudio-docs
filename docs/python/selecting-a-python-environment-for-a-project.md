@@ -26,11 +26,11 @@ All new Python projects in Visual Studio are initially configured to use the def
 
 ![Global default Python environment shown in Solution Explorer](media/environments-project.png)
 
-To change the environment for a project, right-click the **Python Environments** node and select **Add/Remove Python Environments...**. From the displayed list, which includes global, virtual, and conda environments, select all those you want to appear under the **Python Environments** node:
+To change the environment for a project, right-click the **Python Environments** node and select **Add/Remove Python Environments...**. From the displayed list, which includes global, virtual, and conda environments, select all the ones you want to appear under the **Python Environments** node:
 
 ![Add/Remove Python Environments dialog](media/environments-add-remove.png)
 
-Once you select **OK**, all the selected environments appear **Python Environments** node. The currently-activated environment appears in bold:
+Once you select **OK**, all the selected environments appear **Python Environments** node. The currently activated environment appears in bold:
 
 ![Multiple Python environments shown in Solution Explorer](media/environments-project-multiple.png)
 
@@ -70,7 +70,7 @@ You can create a new virtual environment directly from Visual Studio as follows:
 
 1. In the **Location of the virtual environment** field, specify a path for the virtual environment. If you specify a name only, the virtual environment is created within the current project in a subfolder with that name.
 
-1. Select an environment as the base interpreter and select **Create**. Visual Studio displays a progress bar while it configures the environment and downloads any necessary packages. At this point the virtual environment appears in the **Python Environments** window for the containing project.
+1. Select an environment as the base interpreter and select **Create**. Visual Studio displays a progress bar while it configures the environment and downloads any necessary packages. At this point, the virtual environment appears in the **Python Environments** window for the containing project.
 
 1. The virtual environment is not activated by default. To activate it for the project, right-click it and select **Activate Environment**.
 

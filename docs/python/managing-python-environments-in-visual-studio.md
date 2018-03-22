@@ -104,7 +104,7 @@ Use the following steps to identify an environment that's installed in a non-sta
 
 1. Enter or browse (using **...***) to the path of the interpreter in the **Prefix path** field.
 
-1. If Visual Studio detects an Python interpreter at that location (such as the path shown below for a conda environment), it enables the **Auto Detect** command. Selecting **Auto Detect* completes the remaining fields. You can also complete those fields manually.
+1. If Visual Studio detects a Python interpreter at that location (such as the path shown below for a conda environment), it enables the **Auto Detect** command. Selecting **Auto Detect* completes the remaining fields. You can also complete those fields manually.
 
     ![Enabling the Auto Detect command](media/environments-custom-2.png)
 

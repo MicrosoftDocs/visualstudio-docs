@@ -21,9 +21,9 @@ ms.workload:
 
 # Quickstart: Use Visual Studio to create your first Python web app
 
-In this 5-10 minute introduction to Visual Studio as Python IDE, you create a simple Python web application based on the Flask framework. You create the project through discrete steps to help you learn about Visual Studio's basic features. You then learn how Visual Studio automates those steps through project templates.
+In this 5-10 minute introduction to Visual Studio as a Python IDE, you create a simple Python web application based on the Flask framework. You create the project through discrete steps that help you learn about Visual Studio's basic features.
 
-If you haven't already installed Visual Studio, go to the [Visual Studio Downloads](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) page to install it for free. In the installer, make sure to select the **Python development** workload.
+If you haven't already installed Visual Studio, go to [Visual Studio Downloads](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) to install it for free. In the installer, make sure to select the **Python development** workload.
 
 ## Create the project
 
@@ -73,7 +73,8 @@ Here, you use the following steps to install the Flask library into the default 
 
     ![Flask library installed](media/quickstart-python-04-package-installed.png)
 
-Note that instead of installing libraries in the global environment, developers typically create a "virtual environment" in which to install libraries for a specific project. Visual Studio templates typically offer this option, as discussed later in this article.
+> [!Note]
+> Instead of installing libraries in the global environment, developers typically create a "virtual environment" in which to install libraries for a specific project. Visual Studio templates typically offer this option, as discussed in [Quickstart - Create a Python project using a template](../python/quickstart-02-python-in-visual-studio-project-from-template.md).
 
 **Question: Where do I learn more about other available Python packages?**
 
@@ -85,7 +86,7 @@ You're now ready to add a bit of Python code to implement a minimal web app.
 
 1. Right-click the project in **Solution Explorer** and select **Add > New Item...**.
 
-1. In the dialog that appears, select **Empty Python File**, name it `app.py`, and select **Add**. Visual Studio automatically opens the file in an editor window. (In general, the **Add > New Item...** command is a great way to add different kinds of files to a project, as the item templates often provide useful boilerplate code.)
+1. In the dialog that appears, select **Empty Python File**, name it `app.py`, and select **Add**. Visual Studio automatically opens the file in an editor window.
 
 1. Copy the following code and paste it into `app.py`:
 
@@ -96,9 +97,6 @@ You're now ready to add a bit of Python code to implement a minimal web app.
     # The first argument is the name of the application module or package,
     # typically __name__ when using a single module.
     app = Flask(__name__)
-
-    # Make the WSGI interface available at the top level so wfastcgi can get it.
-    wsgi_app = app.wsgi_app
 
     # Flask route decorators map / and /hello to the hello function.
     # To add other resources, create functions that generate the page contents
@@ -115,7 +113,7 @@ You're now ready to add a bit of Python code to implement a minimal web app.
         app.run('localhost', 4449)
     ```
 
-1. After pasting this code into the Visual Studio editor, you may see a squiggle underneath `flask` in the first line. Such indicators appear when Visual Studio is still building the IntelliSense database for the environment after modules are installed.
+1. You may have noticed that the **Add > New Item...** dialog box displays many other types of files you can add to a Python project, including a Python class, a Python package, a Python unit test, web.config files, and more. In general, these *item templates*, as they're called, are a great way to quickly create files with useful boilerplate code.
 
 **Question: Where can I learn more about Flask?**
 
@@ -143,60 +141,21 @@ You're now ready to add a bit of Python code to implement a minimal web app.
 
 **Question: What's the difference between the Start Without Debugging command and Start Debugging?**
 
-**Answer**: You use **Start Debugging** to run the app in the context of the [Visual Studio debugger](../python/debugging-python-in-visual-studio.md), allowing you to set breakpoints, examine variables, and step through your code line by line. Apps may run slower in the debugger because of the various hooks that make debugging possible. **Start Without Debugging**, in contrast, runs the app directly as if you ran it from the command line, with no debugging context, and also automatically launches a browser and navigates to the URL speified in the project properties' **Debug** tab.
-
-## Using Visual Studio templates
-
-Congratulations on running your first Python app from Visual Studio, in which you've learned a little about using the Visual Studio IDE with Python!
-
-Because the steps you followed in this Quickstart are fairly generic, you've probably guessed that they can and should be automated. Such automation is the role of Visual Studio project *templates*. For example, using the "Blank Flask Web Project" template creates a web app very similar to the one you created already in this article, but with far fewer steps:
-
-1. From the top menu bar, choose **File > New > Project...**, then in the **New Project** dialog search for "blank flask", select the "Blank Flask Web Project" template in the middle list, give the project a name, and select **OK**:
-
-    ![Creating a new project with the Blank Flask Web Project template](media/quickstart-python-06-blank-flask-template.png)
-
-1. Visual Studio prompts you with a dialog that says "This project requires external packages." This dialog appears because the template includes a `requirements.txt` file specifying a dependency on Flask. Visual Studio can then install the dependencies automatically. Visual Studio also gives you the option to install the package into a *virtual environment*, which is recommended over installing into a global environment as explained in the next section. Select **Install into a virtual environment** to continue.
-
-    ![Installing Flask into a virtual environment](media/quickstart-python-07-install-into-virtual-environment.png)
-
-1. Visual Studio displays a **Add Virtual Environment** dialog. Accept the default and select **Create**, then consent to any elevation requests.
-
-    > [!Tip]
-    > When you begin a project, it's highly recommended to create a virtual environment right away, as most Visual Studio templates invite you to do. Virtual environments maintain your project's exact requirements over time as you add and remove libraries. You can then easily generate a `requirements.txt` file, which you use to reinstall those dependencies on other development computers (as when using source control) and when deploying the project to a production server. For more information on virtual environments and their benefits, see [Using virtual environments](../python/selecting-a-python-environment-for-a-project.md#using-virtual-environments) and [Managing required packages with requirements.txt](../python/managing-required-packages-with-requirements-txt.md).
-
-1. After Visual Studio creates that environment, look in **Solution Explorer** to see that you have an `app.py` file along with `requirements.txt`. Open `app.py` to see that the template has provided code very similar to what you used earlier. A very helpful part of that code is that it allows you to set the host and port using environment variables rather than hard-coding them. Such code works in both development and production environments simply by changing those variables:
-
-    ```python
-    if __name__ == '__main__':
-        import os
-        HOST = os.environ.get('SERVER_HOST', 'localhost')
-        try:
-            PORT = int(os.environ.get('SERVER_PORT', '5555'))
-        except ValueError:
-            PORT = 5555
-        app.run(HOST, PORT)
-    ```
-
-1. Select **Debug > Start Without Debugging** to run the app and open a browser to `localhost:5555`.
-
-**Question: What other Python templates does Visual Studio offer?**
-
-**Answer**: With the Python workload installed, Visual Studio provides a variety of project templates including ones for the [Flask, Bottle, and Django web frameworks](../python/python-web-application-project-templates.md), Azure cloud services, different machine learning scenarios, and even a template to create a project from an existing folder structure containing a Python app. You access these through the **File > New > Project...** dialog box by selecting the **Python** language node and its sub-nodes.
-
-Visual Studio also provides a variety of file or *item* templates to quick create a Python class, a Python package, a Python unit test, web.config files, and more. When you have a Python project open, you access item templates through the **Project > Add New Item...** menu command.
-
-Using templates can save you significant time when starting a project or creating a file, and are also a great way to learn about different app types and code structures.
-
-**Question: Can I also use Cookiecutter templates?**
-
-**Answer**: Yes! In fact, Visual Studio provides direct integration with Cookiecutter, which you can learn about through [Quickstart: create a project from a Cookiecutter template](../python/quickstart-04-python-in-visual-studio-project-from-cookiecutter.md).
+**Answer**: You use **Start Debugging** to run the app in the context of the [Visual Studio debugger](../python/debugging-python-in-visual-studio.md), allowing you to set breakpoints, examine variables, and step through your code line by line. Apps may run slower in the debugger because of the various hooks that make debugging possible. **Start Without Debugging**, in contrast, runs the app directly as if you ran it from the command line, with no debugging context, and also automatically launches a browser and navigates to the URL specified in the project properties' **Debug** tab.
 
 ## Next steps
+
+Congratulations on running your first Python app from Visual Studio, in which you've learned a little about using Visual Studio as a Python IDE!
+
+Because the steps you followed in this Quickstart are fairly generic, you've probably guessed that they can and should be automated. Such automation is the role of Visual Studio *project templates*. Select the button below for a demonstration that creates a web app similar to the one you created in this article, but with fewer steps.
+
+> [!div class="nextstepaction"]
+> [Quickstart - Create a Python project using a template](../python/quickstart-02-python-in-visual-studio-project-from-template.md)
 
 To continue with a fuller tutorial on Python in Visual Studio, including using the interactive window, debugging, data visualization, and working with Git, select the button below.
 
 > [!div class="nextstepaction"]
-> [Tutorial: Getting Started with Python in Visual Studio](../python/tutorial-working-with-python-in-visual-studio-step-01-create-project.md).
+> [Tutorial: Getting Started with Python in Visual Studio](../python/tutorial-working-with-python-in-visual-studio-step-01-create-project.md)
 
 To explore more that Visual Studio has to offer, select the links below.
 

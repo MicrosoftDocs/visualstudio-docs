@@ -2,9 +2,9 @@
 # [Installation](installing-python-support-in-visual-studio.md)
 ## [Install Python interpreters](installing-python-interpreters.md)
 # Quickstarts
-## [Create a web app with Flask](../ide/quickstart-python.md?toc=/visualstudio/python/toc.json&bc=/visualstudio/python/toc.json)
-## [Create a project from existing code](quickstart-01-project-from-existing.md)
+## [Create a web app with Flask](../ide/quickstart-python.md?toc=/visualstudio/python/toc.json&bc=/visualstudio/_breadcrumb/toc.json)
 ## [Create a project from a template](quickstart-02-python-in-visual-studio-project-from-template.md)
+## [Create a project from existing code](quickstart-01-project-from-existing.md)
 ## [Create a project from a repository](quickstart-03-python-in-visual-studio-project-from-repository.md)
 ## [Create a project from a Cookiecutter template](quickstart-04-python-in-visual-studio-project-from-cookiecutter.md)
 # Tutorials

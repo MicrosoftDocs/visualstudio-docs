@@ -36,7 +36,7 @@ Once you've [installed Python support in Visual Studio 2017](installing-python-s
     > [!Tip]
     > The folder you specify in Team Explorer is the exact folder to receive the cloned files. Unlike the `git clone` command, creating a clone in Team Explorer does not automatically create a subfolder with the name of the repository.
 
-5. When cloning is complete, the repository name appears in the **Local Git Repositories** list. Double-click that nameto navigate to the repository dashboard in **Team Explorer**.
+5. When cloning is complete, the repository name appears in the **Local Git Repositories** list. Double-click that name to navigate to the repository dashboard in **Team Explorer**.
 
 6. Under **Solutions**, select **New...**.
 
@@ -52,7 +52,7 @@ Once you've [installed Python support in Visual Studio 2017](installing-python-s
 
     ![Setting the working directory for a Python project](media/projects-set-working-directory.png)
 
-11. Press Ctrl+F5 or select **Debug > Start Without Debugging** to run the program. If you see a `FileNotFoundError` for `koans.txt`, re-check the working directory setting in the previous step.
+11. Press Ctrl+F5 or select **Debug > Start Without Debugging** to run the program. If you see a `FileNotFoundError` for `koans.txt`, check the working directory setting as described in the previous step.
 
 12. When the program runs successfully, it displays an assertion error on line 17 of `python3/koans/about_asserts.py`. This is intentional: the program is designed to teach Python by having you correct all the intentional errors. (More details are found on [Ruby Koans](http://rubykoans.com/), which inspired Python Koans.)
 
@@ -68,10 +68,10 @@ Once you've [installed Python support in Visual Studio 2017](installing-python-s
     self.assertTrue(True) # This should be True
     ```
 
-15. Run the program again. If Visual Studio warns you about errors, respond with **Yes** to continue running the code. You then see that the first check passes and the program stops on the next koan. Continue correcting the errors and re-running the program as you want.
+15. Run the program again. If Visual Studio warns you about errors, respond with **Yes** to continue running the code. You then see that the first check passes and the program stops on the next koan. Continue correcting the errors and the program again as you want.
 
 > [!Important]
-> In this quickstart, you created a direct clone of the *python_koans* repository on GitHub. Such a repository is protected by its author from direct changes, so attempting to commit changes to the repository fails. In practice, developers instead fork such a repository to their own GitHub account, make changes there, and then create pull requests to submit those changes to the original repository. When you have your own fork, use its URL instead of the original repository URL used earlier.
+> In this Quickstart, you created a direct clone of the *python_koans* repository on GitHub. Such a repository is protected by its author from direct changes, so attempting to commit changes to the repository fails. In practice, developers instead fork such a repository to their own GitHub account, make changes there, and then create pull requests to submit those changes to the original repository. When you have your own fork, use its URL instead of the original repository URL used earlier.
 
 ## Next steps
 
