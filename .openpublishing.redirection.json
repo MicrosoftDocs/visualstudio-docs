@@ -2167,6 +2167,36 @@
           "source_path": "docs/ide/quickstart-visual-basic-winforms.md",
           "redirect_url": "/visualstudio/ide/create-a-visual-basic-winform-in-visual-studio",
           "redirect_document_id": false
+        },
+        {
+          "source_path": "subscriptions/buy-vs-subscriptions.md",
+          "redirect_url": "http://www.visualstudio.com/vs/pricing/",
+          "redirect_document_id": false
+        },
+        {
+          "source_path": "subscriptions/compare-subscriptions.md",
+          "redirect_url": "http://www.visualstudio.com/vs/pricing/",
+          "redirect_document_id": false
+        },
+        {
+          "source_path": "subscriptions/vscloud-first-purchase.md",
+          "redirect_url": "/visualstudio/subscriptions/vscloud-overview",
+          "redirect_document_id": false
+        },
+        {
+          "source_path": "subscriptions/vscloud-renewals.md",
+          "redirect_url": "/visualstudio/subscriptions/vscloud-overview",
+          "redirect_document_id": false
+        },
+        {
+          "source_path": "subscriptions/vscloud-buy-more.md",
+          "redirect_url": "/visualstudio/subscriptions/vscloud-overview",
+          "redirect_document_id": false
+        },
+        {
+          "source_path": "subscriptions/vscloud-cancel.md",
+          "redirect_url": "/visualstudio/subscriptions/vscloud-overview",
+          "redirect_document_id": false
         }
     ]
 }

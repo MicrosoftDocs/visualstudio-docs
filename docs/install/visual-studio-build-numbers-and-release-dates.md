@@ -5,7 +5,7 @@ keywords:
 author: TerryGLee
 ms.author: tglee
 manager: ghogen
-ms.date: 03/19/2018
+ms.date: 03/21/2018
 ms.topic: article
 helpviewer_keywords:
 ms.technology:
@@ -21,6 +21,7 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 15.7.0 Preview 2.0 | Preview | March 21, 2018 | 15.7.27520.0 |
 | 15.6.3 | Release | March 19, 2018 | 15.6.27428.2011 |
 | 15.7.0 Preview 1.0 | Preview | March 13, 2018 | 15.7.27512.0 |
 | 15.6.2 | Release | March 13, 2018 | 15.6.27428.2005 |
@@ -120,7 +121,7 @@ Here are a few more support options:
 * You can track product issues in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/), and ask questions and find answers.
 * You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio). (This option requires a [GitHub](https://github.com/) account.)
 
-## See Also
+## See also
 
 * [Visual Studio 2017 administrator guide](visual-studio-administrator-guide.md)
 * [Use command-line parameters to install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md)
