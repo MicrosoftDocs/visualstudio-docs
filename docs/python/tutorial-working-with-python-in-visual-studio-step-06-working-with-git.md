@@ -25,7 +25,7 @@ ms.workload:
 
 Visual Studio provides direct integration with local Git repositories and those that reside on services like GitHub and Visual Studio Team Services. The integration includes cloning a repository, committing changes, and managing branches.
 
-This article provides a basic overview of creating a local Git repository for an existing project. For a walkthrough of creating a project from a remote Git repository, see [Quickstart: clone a repository of Python code in Visual Studio](quickstart-03-python-in-visual-studio-project-from-repository.md). For an in-depth tutorial at these features, see [Getting Started with Git and VSTS](/vsts/git/gitquickstart?toc=%2Fvisualstudio%2Fversion-control%2Ftoc.json&bc=%2Fvsts%2Fgit%2Fbreadcrumb%2Fvc%2Ftoc.json&view=vsts&tabs=visual-studio).
+This article provides a basic overview of creating a local Git repository for an existing project, and familiarizing yourself with some of Visual Studio's Git-related features.
 
 1. With a project open in Visual Studio, such as the project from the [previous step](tutorial-working-with-python-in-visual-studio-step-05-installing-packages.md), right-click the solution and select **Add Solution to Source Control**. Visual Studio creates a local Git repository that contains your project code.
 
@@ -55,7 +55,9 @@ This article provides a basic overview of creating a local Git repository for an
 
 ## Going deeper
 
-This step of the tutorial has only scratched the surface of the full Git support in Visual Studio. For a much more comprehensive tutorial, including handling merge conflicts, reviewing code with pull requests, rebasing, and cherry-picking changes between branches, see [Getting Started with Git and VSTS](/vsts/git/gitquickstart?toc=%2Fvisualstudio%2Fversion-control%2Ftoc.json&bc=%2Fvsts%2Fgit%2Fbreadcrumb%2Fvc%2Ftoc.json&view=vsts&tabs=visual-studio).
+For a short walkthrough of creating a project from a remote Git repository, see [Quickstart: clone a repository of Python code in Visual Studio](quickstart-03-python-in-visual-studio-project-from-repository.md).
+
+For a much more comprehensive tutorial, including handling merge conflicts, reviewing code with pull requests, rebasing, and cherry-picking changes between branches, see [Getting Started with Git and VSTS](/vsts/git/gitquickstart?toc=%2Fvisualstudio%2Fversion-control%2Ftoc.json&bc=%2Fvsts%2Fgit%2Fbreadcrumb%2Fvc%2Ftoc.json&view=vsts&tabs=visual-studio).
 
 ## Tutorial review
 
