@@ -142,7 +142,7 @@ The code coverage data collector creates a log of which parts of the application
 
 The video data collector captures a screen recording when tests are run. This recording is useful for troubleshooting UI tests. Video data collector is available in **Visual Studio 2017 version 15.5** and later.
 
-To customize any other type of diagnostic data adapter, you must use a test settings file.
+To customize any other type of diagnostic data adapter, you must use a [test settings file](../test/collect-diagnostic-information-using-test-settings.md).
 
 ### TestRunParameters
 

@@ -37,7 +37,7 @@ You can embed a DSL diagram in a Windows Control, which appears in the [!INCLUDE
       panel1.Controls.Add(content);  
       this.docView = docView;  
     }  
-    private MyDSLDSLDocView docView;  
+    private MyDSLDocView docView;  
   
     ```  
   

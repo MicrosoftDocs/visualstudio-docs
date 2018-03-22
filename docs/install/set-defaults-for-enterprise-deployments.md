@@ -4,21 +4,21 @@ description: "Domain policies and other configuration operations for enterprise 
 ms.date: "05/05/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords: 
+f1_keywords:
   - "gpo"
   - "policy"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "{{PLACEHOLDER}}"
   - "{{PLACEHOLDER}}"
 ms.assetid: 9B7B4608-7A3F-4FF4-BDCE-42D9F7CE6DBA
 author: "heaths"
-ms.author: "heaths"
+ms.author: "tglee"
 manager: ghogen
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Set defaults for enterprise deployments of Visual Studio
