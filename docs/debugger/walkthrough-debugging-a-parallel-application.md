@@ -229,7 +229,7 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
   
      Task 4, in turn, is waiting on a monitor owned by the thread assigned to task 2. (Right-click the header row and choose **Columns** > **Thread Assignment** to view the thread assignment value for task 2).
   
-     ![Waiting task and tooltip in Tasks window](../debugger/media/pdb_walkthrough_7a.png "PDB_Walkthrough_7A")  
+     ![Waiting task and tooltip in Tasks window](../debugger/media/pdb_walkthrough_7a.png "PDB_Walkthrough_7A")
   
      You can flag a task by clicking the flag in the first column of the **Tasks** window.  
   
