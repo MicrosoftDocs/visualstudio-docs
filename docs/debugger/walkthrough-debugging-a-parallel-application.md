@@ -180,11 +180,11 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
   
      Notice how the view autoscrolled into place. Switch threads in the **Threads** window or switch stack frames in the **Call Stack** window and notice how the view always autoscrolls to the correct frame. Turn off **Auto Scroll to Current Tool Frame** option and view the difference.  
   
-     The **Bird's Eye View** also helps with large diagrams in the **Parallel Stacks** window. You can see the **Bird's Eye View** by clicking the button between the scroll bars on the lower-right corner of the window, as shown in the following illustration.  
+     The **Bird's Eye View** also helps with large diagrams in the **Parallel Stacks** window. You can toggle the **Bird's Eye View** by clicking the button between the scroll bars on the lower-right corner of the window, as shown in the following illustration (it is on by default).  
   
      ![Bird's&#45;eye view in Parallel Stacks window](../debugger/media/pdb_walkthrough_5.png "PDB_Walkthrough_5")  
   
-     You can move the rectangle to quickly pan around the diagram.  
+     In bird's eye view, you can move the rectangle to quickly pan around the diagram.  
   
      Another way to move the diagram in any direction is to click a blank area of the diagram and drag it where you want it.  
   
