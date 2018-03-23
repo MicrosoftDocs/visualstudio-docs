@@ -1,9 +1,6 @@
 ---
 title: "How to: Register Editor File Types | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
+ms.date: 03/22/2018
 ms.technology:
   - "vs-ide-sdk"
 ms.tgt_pltfrm: ""
