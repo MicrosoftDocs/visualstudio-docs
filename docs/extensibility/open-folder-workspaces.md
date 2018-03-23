@@ -14,7 +14,7 @@ manager: "viveis"
 ms.workload:
   - "vssdk"
 ---
-# Open Folder workspaces
+# Workspaces
 
 A workspace is how Visual Studio represents any collection of files in Open Folder, and it's represented <xref:Microsoft.VisualStudio.Workspace.IWorkspace> type. By itself, the workspace doesn't understand the contents or features related to files within the folder. Rather, it provides a general set of APIs for features and extensions to produce and consume data that others can act upon. The producers are composed through MEF using various export attributes.
 
