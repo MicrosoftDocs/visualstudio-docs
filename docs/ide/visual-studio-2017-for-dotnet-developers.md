@@ -88,13 +88,13 @@ Visual Studio 2017 comes with a lot of refactorings, code generation actions, an
 ![Refactorings in Visual Studio](../ide/media/VSGuide_CodeAnalysis.png "VSGuide_CodeAnalysis")
 
 ## I need Find Usages, Go To Implementation, Navigate To Decompiled Assemblies
-Visual Studio 2017 has many features to help you search and navigate your codebase. Read more about code navigation features in our [documentation](../ide/navigating-code.md)
+Visual Studio 2017 has many features to help you search and navigate your codebase. Read more about [code navigation features](../ide/navigating-code.md)
 
 | Feature | Shortcut | Details/Improvements |
 |- | - | -| 
-| Find All References | **Shift+F12**| Results are now colorized and can be grouped by project, definition, etc. You can also 'lock' results. |
-| Go To Implementation | **Ctrl+F12** | You can now use Go To Definition on the `override` keyword to navigate to the overridden member |
-| Go To Definition | **F12** or **Ctrl+Click**| You can now hold **Ctrl** while clicking to navgiate to definition | 
+| Find All References | **Shift+F12**| Results are colorized and can be grouped by project, definition, etc. You can also 'lock' results. |
+| Go To Implementation | **Ctrl+F12** | You can use Go To Definition on the `override` keyword to navigate to the overridden member |
+| Go To Definition | **F12** or **Ctrl+Click**| You can hold **Ctrl** while clicking to navgiate to definition | 
 | Peek Definition | **Alt+F12** | Inline view of a definition |
 | Structure Visualizer | Gray, dotted-lines between braces | Hover to see your code structure |
 | Navigation to decompiled assemblies | **F12** or **Ctrl+Click** | Navigate to external source (decompiled with ILSpy) by enabling the feature: **Tools > Options > Text Editor > C# > Advanced > Enable navigation to decompiled sources**. |
@@ -102,7 +102,7 @@ Visual Studio 2017 has many features to help you search and navigate your codeba
 ![Go To All and Find All References](../ide/media/VSIDE_Productivity_Navigation.png)
 
 ## I want to run and see my unit tests.
-We made a lot of improvements to the testing experience in Visual Studio 2017. Use either of our unit testing experiences with the MSTest v1, MSTest v2 NUnit, or XUnit test frameworks.
+We made a lot of improvements to the testing experience in Visual Studio 2017. Use either of our unit testing experiences with the MSTest v1, MSTest v2, NUnit, or XUnit test frameworks.
 - *Test Explorer* test discovery is fast in version 15.6 (for best results, upgrade to the latest version of your test adapter).
 - Organize your tests in Test Explorer with our new *hierarchical sorting* in version 15.6.
 - [Live Unit Testing](../test/live-unit-testing.md) continuously runs tests impacted by your code changes and updates inline editor icons to let you know the status of your tests. Include or exclude specific tests or test projects from your *Live Test Set*.
@@ -136,7 +136,7 @@ Here is a list of editor and productivity features to make writing code more eff
 | Enable navigation to decompiled sources | Allow Go To Definition on types/members from external sources and use the ILSpy decompiler to show method bodies | **Tools > Options > Text Editor > C# > Advanced > Enable navigation to decompiled sources** |
 | Completion/Suggestion Mode | Changes the completion behavior in IntelliSense--developers with IntelliJ backgrounds tend to change the setting here from the default | **Menu > Edit > IntelliSense > Toggle Completion Mode** |
 | [CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md) | Displays code reference information and change history in the editor | **Tools > Options > Text Editor > All Languages>CodeLens** |
-| Code snippets | Help stub out common boilerplate |  Type a snippet name and press 'Tab' twice. See the [full list](../ide/visual-csharp-code-snippets) |
+| [Code snippets](../ide/visual-csharp-code-snippets) | Help stub out common boilerplate |  Type a snippet name and press 'Tab' twice. |
 
 ![Code Snippets in Visual Studio](../ide/media/VSGuide_SmartEditor.png)
 
