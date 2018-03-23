@@ -127,6 +127,7 @@ You can use git or TFVC to store and update your code in Visual Studio.
 
 ## What other features do I need to know about?
 Here is a list of editor and productivity features to make writing code more efficient. Some features may need to be enabled because they are off-by-default (they may index things on your machine, are controversial, or are currently experimental).
+
 | Feature | Details | How to enable |
 |-|-|-|
 | Locate File in Solution Explorer | Highlights the active file in the Solution Explorer | **Tools > Options > Projects and Solutions > Track Active Item in Solution Explorer** |
