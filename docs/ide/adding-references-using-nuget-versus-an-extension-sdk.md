@@ -15,7 +15,7 @@ manager: ghogen
 ms.workload: 
   - "multiple"
 ---
-# Adding References Using NuGet Versus an Extension SDK
+# Adding references using NuGet versus an extension SDK
 
 You can provide a package for consumption within Visual Studio projects by using either the NuGet extension to Visual Studio or a software development kit (SDK). By describing the similarities and differences between the two mechanisms, this topic can help you choose the best one for your task.
 
@@ -23,7 +23,7 @@ You can provide a package for consumption within Visual Studio projects by using
 
 - An SDK is a collection of files that Visual Studio treats as a single reference item. The **Reference Manager** dialog box lists all SDKs that are relevant to the project that's open when you display that dialog box. When you add an SDK to a project, you can access all of the contents of that SDK through IntelliSense, the **Toolbox**, designers, the **Object Browser**, MSBuild, deployment, debugging, and packaging. For more information about SDKs, see [Creating a Software Development Kit](../extensibility/creating-a-software-development-kit.md).
 
-## Which Mechanism Should I Use?
+## Which mechanism should I use?
 
 The following table helps you compare the referencing features of an SDK with the referencing features of NuGet.
 
@@ -31,7 +31,7 @@ The following table helps you compare the referencing features of an SDK with th
 |-------------|-----------------|---------------|-------------------|-----------------|
 |The mechanism references one entity and then all the files and functionality are available.|Y|You add an SDK by using the **Reference Manager** dialog box, and all the files and functionality are available during the development workflow.|Y||
 |MSBuild automatically consumes assemblies and Windows metadata (.winmd) files.|Y|References in the SDK are automatically passed to the compiler.|Y||
-|MSBuild automatically consumes the  .h or .lib files.|Y|The *SDKName*.props file tells Visual Studio how to set up the Visual C++ directory, and so forth, for automatic .h or .lib file consumption.|N||
+|MSBuild automatically consumes the  .h or .lib files.|Y|The *SDKName.props* file tells Visual Studio how to set up the Visual C++ directory, and so forth, for automatic .h or .lib file consumption.|N||
 |MSBuild automatically consumes the  .js or .css files.|Y|In **Solution Explorer**, you can expand the JavaScript SDK reference node to show individual .js or .css files and then generate `<source include/>` tags by dragging those files to their source files. The SDK supports F5 and automatic package setup.|Y||
 |MSBuild automatically adds the control in the **Toolbox**.|Y|The **Toolbox** can consume SDKs and show controls in the tabs that you specify.|N||
 |The mechanism supports Visual Studio Installer for extensions (VSIX).|Y|VSIX has a special manifest and logic to create SDK packages|Y|The VSIX can be embedded in another setup program.|
@@ -43,7 +43,7 @@ The following table helps you compare the referencing features of an SDK with th
 |Content appears in localized files.|Y|Localized XML documents in SDKs are automatically included  for a better design-time experience.|N||
 |MSBuild supports consuming  multiple versions of an SDK simultaneously.|Y|The SDK supports consuming multiple versions simultaneously.|N|This isn't referencing. You can't have more than one version of NuGet files in your project at a time.|
 |The mechanism supports specifying applicable target frameworks, Visual Studio versions, and project types.|Y|The **Reference Manager** dialog box and the **Toolbox** show only the SDKs that apply to a project, so that users can more easily choose the appropriate SDKs.|Y (partial)|Pivot is the Target Framework. There is no filtering on user interface. At installation time, it might return an error.|
-|The mechanism supports specifying registration info for native WinMDs.|Y|You can specify the correlation between the .winmd file and the .dll file in SDKManifest.xml.|N||
+|The mechanism supports specifying registration info for native WinMDs.|Y|You can specify the correlation between the .winmd file and the .dll file in *SDKManifest.xml*.|N||
 |The mechanism supports specifying dependencies on other SDKs.|Y|The SDK only notifies the user; the user must still install them and reference them manually.|Y|NuGet pulls them automatically; the user isn't notified.|
 |The mechanism integrates with  [!INCLUDE[win8_appstore_long](../debugger/includes/win8_appstore_long_md.md)] concepts such as app manifest and Framework ID.|Y|The SDK must pass concepts that are specific to the [!INCLUDE[win8_appstore_short](../ide/includes/win8_appstore_short_md.md)] so that packaging and F5 work correctly with SDKs that are available in the[!INCLUDE[win8_appstore_short](../ide/includes/win8_appstore_short_md.md)].|N||
 |The mechanism  integrates with the app debugging pipeline for [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps.|Y|The SDK must pass [!INCLUDE[win8_appstore_short](../ide/includes/win8_appstore_short_md.md)]-specific concepts so that packaging and F5 work correctly with SDKs available in the [!INCLUDE[win8_appstore_short](../ide/includes/win8_appstore_short_md.md)].|Y|NuGet content becomes part of the project. No special F5 consideration is needed.|
@@ -57,12 +57,12 @@ The following table helps you compare the referencing features of an SDK with th
 |The mechanism integrates with continuous-integration build servers for both package creation and consumption.|Y|The SDK must pass the checked-in location (SDKReferenceDirectoryRoot property) on command line to MSBuild.|Y||
 |The mechanism supports both stable and pre-release package versions.|Y|The SDK supports adding references to multiple versions.|Y||
 |The mechanism supports auto-update for installed packages.|Y|If shipped as VSIX or part of Visual Studio automatic updates, SDK provides automatic notifications.|Y||
-|The mechanism contains a stand-alone .exe file for creating and consuming packages.|Y|The SDK contains MSBuild.exe.|Y||
-|Packages can be checked into version control.|Y|You can't check in anything outside the Documents node, which means that the Extension SDKs might not be checked in.The size of Extension SDK might be large.|Y||
+|The mechanism contains a stand-alone .exe file for creating and consuming packages.|Y|The SDK contains *MSBuild.exe*.|Y||
+|Packages can be checked into version control.|Y|You can't check in anything outside the Documents node, which means that the Extension SDKs might not be checked in. The size of Extension SDK might be large.|Y||
 |You can use a PowerShell interface to create and consume packages.|Y (consumption), N (creation)|No tooling for creating an SDK. Consumption is executing MSBuild on the command line.|Y||
 |You can use a Symbol package for debugging support.|Y|If you drop .pdb files in the SDK, the files get picked up automatically.|Y||
 |The mechanism supports package manager auto-updates.|N/A|The SDK gets revised with MSBuild.|Y||
-|The mechanism supports a lightweight manifest format.|Y|SDKManifest.xml supports many attributes, but a small subset is usually necessary.|Y||
+|The mechanism supports a lightweight manifest format.|Y|*SDKManifest.xml* supports many attributes, but a small subset is usually necessary.|Y||
 |The mechanism is available for  all Visual Studio editions.|Y|The SDK supports all Visual Studio editions.|Y|NuGet supports all Visual Studio editions.|
 |The mechanism is available for  all project types.|N|The SDK supports [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps starting in [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)].|N|You can review a list of allowed projects.|
 

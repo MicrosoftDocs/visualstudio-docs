@@ -63,25 +63,25 @@ By using the procedures in this topic, you can build, rebuild, or clean all or s
   
 ### To build only the startup project and its dependencies  
   
-1.  On the menu bar, choose **Tools**, **Options**.  
+1.  On the menu bar, choose **Tools** > **Options**.  
   
 2.  In the **Options** dialog box, expand the **Projects and Solutions** node, and then choose the **Build and Run** page.  
   
-     The **Build and Run, Projects and Solutions, Options** dialog box opens.  
+     The **Build and Run > Projects and Solutions > Options** dialog box opens.  
   
 3.  Select the  **Only build startup projects and dependencies on Run** check box.  
   
      When this check box is selected, only the current startup project and its dependencies are built when you perform either of the following steps:  
   
-    -   On the menu bar, choose **Debug**, **Start** (F5).  
+    -   On the menu bar, choose **Debug** > **Start** (F5).  
   
-    -   On the menu bar, choose **Build**, **Build Solution** (CTRL+SHIFT+B).  
+    -   On the menu bar, choose **Build** > **Build Solution** (CTRL+SHIFT+B).  
   
     When this check box is cleared, all projects, their dependencies, and the solution files are built when you run either of the preceding commands. By default, this check box is cleared.  
   
 ### To build only the selected Visual C++ project  
   
-1.  Choose a [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] project, and then, on the menu bar, choose **Build**, **Project Only**, and one of the following commands:  
+1.  Choose a [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] project, and then, on the menu bar, choose **Build** > **Project Only**, and one of the following commands:  
   
     -   **Build Only** *ProjectName*  
   
@@ -101,19 +101,19 @@ By using the procedures in this topic, you can build, rebuild, or clean all or s
   
 ### To stop a build  
   
-1.  Perform either of the following steps:  
-  
-    -   On the menu bar, choose **Build**, **Cancel**.  
-  
-    -   Choose the Ctrl + Break keys.  
-  
-## See also
+Perform either of the following steps:  
 
-[How to: View, Save, and Configure Build Log Files](../ide/how-to-view-save-and-configure-build-log-files.md)  
-[Obtaining Build Logs](../msbuild/obtaining-build-logs-with-msbuild.md)  
-[Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)  
-[Understanding Build Configurations](../ide/understanding-build-configurations.md)  
+-   On the menu bar, choose **Build**, **Cancel**.  
+
+-   Choose the Ctrl + Break keys.  
+  
+### See also
+
+[How to: View, save, and configure build log files](../ide/how-to-view-save-and-configure-build-log-files.md)  
+[Obtaining build logs](../msbuild/obtaining-build-logs-with-msbuild.md)  
+[Compiling and building](../ide/compiling-and-building-in-visual-studio.md)  
+[Understanding build configurations](../ide/understanding-build-configurations.md)  
 [How to: Set debug and release configurations](../debugger/how-to-set-debug-and-release-configurations.md)  
-[C/C++ Building Reference](/cpp/build/reference/c-cpp-building-reference)  
-[Devenv Command Line Switches](../ide/reference/devenv-command-line-switches.md)  
-[Solutions and Projects](../ide/solutions-and-projects-in-visual-studio.md)
+[C/C++ building reference](/cpp/build/reference/c-cpp-building-reference)  
+[Devenv command line switches](../ide/reference/devenv-command-line-switches.md)  
+[Solutions and projects](../ide/solutions-and-projects-in-visual-studio.md)
