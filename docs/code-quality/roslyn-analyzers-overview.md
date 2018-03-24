@@ -59,7 +59,11 @@ Visual Studio 2017 includes a core set of Roslyn analyzers. These analyzers are 
 
 1. Expand **Online** in the left pane, and then select **Visual Studio Marketplace**.
 
-1. In the search box, type "code analysis", and then select the **Microsoft Code Analysis 2017** extension. Select **Download**.
+1. In the search box, type "code analysis", and look for the **Microsoft Code Analysis 2017** extension.
+
+   ![Microsoft Code Analysis extension](media/extensions-and-updates-code-analysis.png)
+
+1. Select **Download**.
 
    The extension is downloaded.
 
