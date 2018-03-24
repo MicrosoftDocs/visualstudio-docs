@@ -470,7 +470,7 @@ private static int thisFieldIsPublic;
 
 ## Code transformations
 
-### Convert if construct to switch
+### Convert 'if' construct to 'switch'
 
 This Quick Action enables you to convert an **if-then-else** construct to a **switch** construct.
 
