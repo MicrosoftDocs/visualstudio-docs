@@ -30,11 +30,11 @@ manager: ghogen
 ms.workload: 
   - "multiple"
 ---
-# Building and Cleaning Projects and Solutions in Visual Studio
-By using the procedures in this topic, you can build, rebuild, or clean all or some of the projects or project items in a solution. For a step-by-step tutorial, see [Walkthrough: Building an Application](../ide/walkthrough-building-an-application.md).  
+# Building and cleaning projects and solutions in Visual Studio
+By using the procedures in this topic, you can build, rebuild, or clean all or some of the projects or project items in a solution. For a step-by-step tutorial, see [Walkthrough: Building an application](../ide/walkthrough-building-an-application.md).  
   
 > [!NOTE]
-> The UI in your edition of Visual Studio might differ from what this topic describes, depending on your active settings. To change your settings, for example to **General** or **Visual C++** settings, choose **Tools**, **Import and Export Settings**, and then choose **Reset all settings**.
+> The UI in your edition of Visual Studio might differ from what this topic describes, depending on your active settings. To change your settings, for example to **General** or **Visual C++** settings, choose **Tools** > **Import and Export Settings**, and then choose **Reset all settings**.
   
 ### To build, rebuild, or clean an entire solution  
   
@@ -81,31 +81,31 @@ By using the procedures in this topic, you can build, rebuild, or clean all or s
   
 ### To build only the selected Visual C++ project  
   
-1.  Choose a [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] project, and then, on the menu bar, choose **Build** > **Project Only**, and one of the following commands:  
+-  Choose a [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] project, and then, on the menu bar, choose **Build** > **Project Only**, and one of the following commands:  
   
     -   **Build Only** *ProjectName*  
-  
+    
     -   **Rebuild Only** *ProjectName*  
-  
+    
     -   **Clean Only** *ProjectName*  
-  
+    
     -   **Link Only** *ProjectName*  
   
     These commands apply only to the [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] project that you chose, without building, rebuilding, cleaning, or linking any project dependencies or solution files. Depending on your version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], the **Project Only** submenu might contain more commands.  
   
 ### To compile multiple C++ project items  
   
-1.  In **Solution Explorer**, choose multiple files that have can be compiled actions, open the shortcut menu for one of those files, and then choose **Compile**.  
+-  In **Solution Explorer**, choose multiple files that have can be compiled actions, open the shortcut menu for one of those files, and then choose **Compile**.  
   
     If the files have dependencies, the files will be compiled in dependency order. The compile operation will fail if the files require a precompiled header that isn't available when you compile. The compile operation uses the current active solution configuration.  
   
 ### To stop a build  
   
-Perform either of the following steps:  
+- Perform either of the following steps:  
 
--   On the menu bar, choose **Build**, **Cancel**.  
-
--   Choose the Ctrl + Break keys.  
+    -   On the menu bar, choose **Build**, **Cancel**.  
+    
+    -   Choose the Ctrl + Break keys.  
   
 ### See also
 

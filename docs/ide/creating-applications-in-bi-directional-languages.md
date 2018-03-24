@@ -72,7 +72,7 @@ You can use Visual Studio to create applications that correctly display text in 
   
 -   Attributes and metadata.  
   
--   Property values. You can use Arabic or Hebrew text in the Properties window. The window allows you to switch between right-to-left and left-to-right reading order using standard Windows keystrokes (CTRL+RightShift for right-to-left, and CTRL+LeftShift for left-to-right).  
+-   Property values. You can use Arabic or Hebrew text in the **Properties** window. The window allows you to switch between right-to-left and left-to-right reading order using standard Windows keystrokes (CTRL+RightShift for right-to-left, and CTRL+LeftShift for left-to-right).  
   
 -   Code and literal text. In the code editor (which is also the text editor), you can use Arabic or Hebrew to name classes, functions, variables, properties, string literals, attributes, and so on. However, the editor does not support right-to-left reading order; text always starts at the left margin.  
   
