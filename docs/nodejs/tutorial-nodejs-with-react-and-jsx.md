@@ -144,7 +144,6 @@ For this simple app, you add the new project files in the project root. (In most
 
     ```javascript
     'use strict';
-    var http = require('http');
     var path = require('path');
     var express = require('express');
 
