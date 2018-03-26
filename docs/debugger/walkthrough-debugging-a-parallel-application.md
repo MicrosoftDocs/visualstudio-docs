@@ -164,7 +164,7 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
   
     -   **Symbol Settings** open the respective dialog boxes.  
   
-    -   **Show Threads in Source** toggles display of thread markers in your source code, which show the location of threads.
+    -   **Show Threads in Source** toggles the display of thread markers in your source code, which shows the location of threads in your source code.
   
     -   **Show External Code** displays all the frames even if they are not in user code. Try it to see the diagram expand to accommodate the additional frames (which may be dimmed because you do not have symbols for them).  
 
@@ -180,7 +180,7 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
   
      Notice how the view autoscrolled into place. Switch threads in the **Threads** window or switch stack frames in the **Call Stack** window and notice how the view always autoscrolls to the correct frame. Turn off **Auto Scroll to Current Tool Frame** option and view the difference.  
   
-     The **Bird's Eye View** also helps with large diagrams in the **Parallel Stacks** window. You can toggle the **Bird's Eye View** by clicking the button between the scroll bars on the lower-right corner of the window, as shown in the following illustration (it is on by default).  
+     The **Bird's Eye View** also helps with large diagrams in the **Parallel Stacks** window. By default, the **Bird's Eye View** is on. But you can toggle it by clicking the button between the scroll bars on the lower-right corner of the window, as shown in the following illustration.  
   
      ![Bird's&#45;eye view in Parallel Stacks window](../debugger/media/pdb_walkthrough_5.png "PDB_Walkthrough_5")  
   
@@ -207,7 +207,7 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
   
 4.  Double-click a thread in the **Threads** window to makes it current. Current threads have the yellow arrow. When you change the current thread, the other windows are updated. Next, we will examine tasks.  
   
-5.  On the **Debug** menu, point to **Windows** and then click **Tasks**. The following illustration shows the **Tasks** window.  
+5.  On the **Debug** menu, point to **Windows**, and then click **Tasks**. The following illustration shows the **Tasks** window.  
   
      ![Four running tasks in Tasks window](../debugger/media/pdb_walkthrough_6.png "PDW_Walkthrough_6")  
   
