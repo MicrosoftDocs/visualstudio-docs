@@ -58,64 +58,85 @@ Visual Studio 2017 has a feature called _Go To All_ (**Ctrl+T**). Go To All enab
 ![Go To All in Visual Studio](../ide/media/VS2017Guide-go-to-all.png)
 
 ## My team enforces code style rules on our codebase.
-You can use an .editorconfig file to codify coding conventions. We recommend installing the [EditorConfig Language Services extension](https://aka.ms/editorconfig) for adding and editing an .editorconfig file. We recommend you check out the [documentation](https://aka.ms/editorconfigDocs) for all .NET coding convention options.
-
-Check out [this gist](https://gist.github.com/kuhlenh/5471666a7a2c57fea427e81cf0a41da8) for an example .editorconfig.
+You can use an .editorconfig file to codify coding conventions and have them travel with your source.
+- We recommend installing the [EditorConfig Language Services extension](https://aka.ms/editorconfig) for adding and editing an .editorconfig file in Visual Studio. 
+- Check out the [documentation](https://aka.ms/editorconfigDocs) for all .NET coding convention options.
+- See [this gist](https://gist.github.com/kuhlenh/5471666a7a2c57fea427e81cf0a41da8) for an example .editorconfig.
 
 ![Code style enforcement in Visual Studio](../ide/media/VSGuide_CodeStyle.png)
 
 ## I need more refactorings and code fixes.
-Visual Studio 2017 comes with a lot of refactorings, code generation actions, and code fixes, which you can see in our [documentation](https://aka.ms/refactorings). Red squiggles represent errors, green squiggles represent warnings, and three gray dots represent code suggestions.
+Visual Studio 2017 comes with a lot of refactorings, code generation actions, and code fixes. Red squiggles represent errors, green squiggles represent warnings, and three gray dots represent code suggestions. You can access code fixes by clicking the lightbulb/screwdriver icon or by pressing **Ctrl+.** or **Alt+Enter**. Each fix comes with a preview window that shows a live code diff of how the fix works.
 
-You can access code fixes by clicking the lightbulb/screwdriver icon or by pressing **Ctrl+.** or **Alt+Enter**. Each fix comes with a preview window that shows a live code diff of how the fix works.
-
-Here are some popular quick fixes and refactorings: *Rename*, *Extract Method*, *Change Method Signature*, *Generate Constructor*, *Generate Method*, *Move Type to File*, *Add Null-Check*, *Add Parameter*, *Remove Unnecessary Usings*.
-
-Refactorings and code fixes can be easily written with [Roslyn analyzers](https://github.com/dotnet/roslyn/wiki/Getting-Started-Writing-a-Custom-Analyzer-&-Code-Fix). Several community members have written *free* extensions which add additional code inspections: [Roslynator](https://marketplace.visualstudio.com/items?itemName=josefpihrt.Roslynator2017), [SonarLint for Visual Studio](https://marketplace.visualstudio.com/items?itemName=SonarSource.SonarLintforVisualStudio2017), and [StyleCopAnalyzers](https://www.nuget.org/packages/stylecop.analyzers/). 
+- Popular quick fixes and refactorings include: 
+  - *Rename*
+  - *Extract Method*
+  - *Change Method Signature* 
+  - *Generate Constructor*
+  - *Generate Method*
+  - *Move Type to File*
+  - *Add Null-Check*
+  - *Add Parameter*
+  - *Remove Unnecessary Usings*
+  - See more in our [documentation](https://aka.ms/refactorings)
+- Write your own refactoring or code fix with [Roslyn analyzers](https://github.com/dotnet/roslyn/wiki/Getting-Started-Writing-a-Custom-Analyzer-&-Code-Fix). 
+- Several community members have written *free* extensions which add additional code inspections: 
+  - [Roslynator](https://marketplace.visualstudio.com/items?itemName=josefpihrt.Roslynator2017)
+  - [SonarLint for Visual Studio](https://marketplace.visualstudio.com/items?itemName=SonarSource.SonarLintforVisualStudio2017)
+  - [StyleCopAnalyzers](https://www.nuget.org/packages/stylecop.analyzers/)
 
 ![Refactorings in Visual Studio](../ide/media/VSGuide_CodeAnalysis.png "VSGuide_CodeAnalysis")
 
 ## I need Find Usages, Go To Implementation, Navigate To Decompiled Assemblies
-Visual Studio 2017 has many features to help you search and navigate your codebase--including Find All References (**Shift+F12**), Go To Implementation (**Ctrl+F12**), Go To Definition (**F12** or **Ctrl+Click**). We've made many improvements to these features in VS2017, for example, Find All References now is colorized and allows for custom grouping. *Navigate To Decompiled Assemblies* on Go To Definition was added in version 15.6. To turn on this feature, go to **Tools > Options > Text Editor > C# > Advanced > Enable navigation to decompiled sources**.
+Visual Studio 2017 has many features to help you search and navigate your codebase. Read more about [code navigation features](../ide/navigating-code.md)
 
-Other common navigation tools include: Peek Definition (**Alt+F12**), the Structure visualizer (hoverable dotted-lines between braces), and [more](../ide/navigating-code.md).
+| Feature | Shortcut | Details/Improvements |
+|- | - | -| 
+| Find All References | **Shift+F12**| Results are colorized and can be grouped by project, definition, etc. You can also 'lock' results. |
+| Go To Implementation | **Ctrl+F12** | You can use Go To Definition on the `override` keyword to navigate to the overridden member |
+| Go To Definition | **F12** or **Ctrl+Click**| You can hold **Ctrl** while clicking to navgiate to definition | 
+| Peek Definition | **Alt+F12** | Inline view of a definition |
+| Structure Visualizer | Gray, dotted-lines between braces | Hover to see your code structure |
+| Navigation to decompiled assemblies | **F12** or **Ctrl+Click** | Navigate to external source (decompiled with ILSpy) by enabling the feature: **Tools > Options > Text Editor > C# > Advanced > Enable navigation to decompiled sources**. |
 
 ![Go To All and Find All References](../ide/media/VSIDE_Productivity_Navigation.png)
 
 ## I want to run and see my unit tests.
-We have two offerings for unit testing in Visual Studio 2017: Test Explorer and _Live Unit Testing_ (both support MSTest v1, MSTest v2, NUnit, and XUnit). We greatly improved the speed of test discovery in the Test Explorer in version 15.6 (for best results, upgrade to the latest version of your test adapter). We also redesigned the UI to allow for hierarchical sorting.
-
-Visual Studio 2017 Enterprise also has a unit testing feature called [Live Unit Testing](../test/live-unit-testing.md). Live Unit Testing continuously runs in the background, runs tests impacted by your code change, and updates inline editor icons to let you know the status of your tests.
+We made a lot of improvements to the testing experience in Visual Studio 2017. Use either of our unit testing experiences with the MSTest v1, MSTest v2, NUnit, or XUnit test frameworks.
+- *Test Explorer* test discovery is fast in version 15.6 (for best results, upgrade to the latest version of your test adapter).
+- Organize your tests in Test Explorer with our new *hierarchical sorting* in version 15.6.
+- [Live Unit Testing](../test/live-unit-testing.md) continuously runs tests impacted by your code changes and updates inline editor icons to let you know the status of your tests. Include or exclude specific tests or test projects from your *Live Test Set*.
 
 ![Hierarchy view for Text Explorer in Visual Studio](../ide/media/VSGuide_Testing.png)
 
 ## I want to debug my code.
-We've added a ton of new debugging capabilities in Visual Studio 2017. *Run to click* allows you to hover next to a line of code, hit the green 'play' icon that appears, and run your program until it reaches that line. The new *Exception Helper* puts the most important information, like which variable is 'null' in a NullReferenceException, at the top-level in the dialog. And [Step Back](../debugger/how-to-use-intellitrace-step-back.md) debugging enables you to go back to previous breakpoints or steps and view the state of the application as it was in the past.
-
-If you have resources in Azure, use [Snapshot Debugging](/azure/application-insights/app-insights-snapshot-debugger) to investigate the state of a live web application at the moment an exception was thrown.
+We've added a ton of new debugging capabilities in Visual Studio 2017. 
+- *Run to click* allows you to hover next to a line of code, hit the green 'play' icon that appears, and run your program until it reaches that line. 
+- The new *Exception Helper* puts the most important information, like which variable is 'null' in a NullReferenceException, at the top-level in the dialog.
+- [Step Back](../debugger/how-to-use-intellitrace-step-back.md) debugging enables you to go back to previous breakpoints or steps and view the state of the application as it was in the past.
+- [Snapshot Debugging](/azure/application-insights/app-insights-snapshot-debugger) lets you investigate the state of a live web application at the moment an exception was thrown (must be on Azure).
 
 ![New Exception Helper in VS2017](../ide/media/VSGuide_Debugging.png "VSGuide_Debugging")
 
 ## I want to use version control with my projects.
-You can use git or TFVC to store and update your code in Visual Studio. Inside the editor, organize your local changes with Team Explorer and use the status bar to track pending commits and changes. Set up continuous integration and delivery for your projects inside of Visual Studio with our [Continuous Delivery Tools for Visual Studio](https://marketplace.visualstudio.com/items?itemName=VSIDEDevOpsMSFT.ContinuousDeliveryToolsforVisualStudio) extension and adopt the agile developer workflow.
+You can use git or TFVC to store and update your code in Visual Studio. 
+- Organize your local changes with *Team Explorer* and use the status bar to track pending commits and changes. 
+- Set up continuous integration and delivery for your projects inside of Visual Studio with our [Continuous Delivery Tools for Visual Studio](https://marketplace.visualstudio.com/items?itemName=VSIDEDevOpsMSFT.ContinuousDeliveryToolsforVisualStudio) extension and adopt the agile developer workflow.
 
 ![Source control in Visual Studio](../ide/media/VSIDE_Productivity_SourceControl.png)
 
 ## What other features do I need to know about?
 Here is a list of editor and productivity features to make writing code more efficient. Some features may need to be enabled because they are off-by-default (they may index things on your machine, are controversial, or are currently experimental).
-- *Locate File in Solution Explorer* highlights the active file in the Solution Explorer.
-  - **Tools > Options > Projects and Solutions > Track Active Item in Solution Explorer**
-- *Add usings for types in reference assemblies and NuGet packages* shows a lightbulb with a code fix to install a NuGet package for an unreferenced type.
-  - **Tools > Options > Text Editor > C# > Advanced > Suggest usings for types in reference assemblies** and **Suggest usings for types in NuGet packages**
-- *Enable full solution analysis* to see all errors in your solution in the Error List.
-  - **Tools > Options > Text Editor > C# > Advanced > Enable full solution analysis**
-- *Enable navigation to decompiled sources* to enable Go To Definition on types/members from external sources and use the ILSpy decompiler to show method bodies.
-  - **Tools > Options > Text Editor > C# > Advanced > Enable navigation to decompiled sources**
-- *Completion/Suggestion Mode* in IntelliSense changes completion behavior. Developers with IntelliJ backgrounds tend to change the setting here from the default.
-  - **Menu > Edit > IntelliSense > Toggle Completion Mode**
-- *[CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md)* displays code reference information and change history in the editor.
-  - **Tools > Options > Text Editor > All Languages>CodeLens**
-- We have *code snippets* to help stub out common boilerplate (press 'Tab' twice). See the [full list](../ide/visual-csharp-code-snippets.md).
+
+| Feature | Details | How to enable |
+|-|-|-|
+| Locate File in Solution Explorer | Highlights the active file in the Solution Explorer | **Tools > Options > Projects and Solutions > Track Active Item in Solution Explorer** |
+| Add usings for types in reference assemblies and NuGet packages | Shows a lightbulb with a code fix to install a NuGet package for an unreferenced type | **Tools > Options > Text Editor > C# > Advanced > Suggest usings for types in reference assemblies** and **Suggest usings for types in NuGet packages** |
+| Enable full solution analysis | See all errors in your solution in the Error List | **Tools > Options > Text Editor > C# > Advanced > Enable full solution analysis** |
+| Enable navigation to decompiled sources | Allow Go To Definition on types/members from external sources and use the ILSpy decompiler to show method bodies | **Tools > Options > Text Editor > C# > Advanced > Enable navigation to decompiled sources** |
+| Completion/Suggestion Mode | Changes the completion behavior in IntelliSense--developers with IntelliJ backgrounds tend to change the setting here from the default | **Menu > Edit > IntelliSense > Toggle Completion Mode** |
+| [CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md) | Displays code reference information and change history in the editor | **Tools > Options > Text Editor > All Languages>CodeLens** |
+| [Code snippets](../ide/visual-csharp-code-snippets.md) | Help stub out common boilerplate |  Type a snippet name and press 'Tab' twice. |
 
 ![Code Snippets in Visual Studio](../ide/media/VSGuide_SmartEditor.png)
 
