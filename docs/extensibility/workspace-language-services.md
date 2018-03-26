@@ -1,5 +1,5 @@
 ---
-title: "Workspaces Language Services in Visual Studio | Microsoft Docs"
+title: "Workspaces and language services in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/21/2018"
 ms.reviewer: ""
@@ -25,7 +25,7 @@ In a [workspace](workspaces.md), language services are initialized by an <xref:M
 
 When a document is opened in the editor, Visual Studio only considers language service providers that require file context types for which a matching file context provider can be found. It then passes the file context(s) from the matching provider(s) to the selected language service provider via `ILangaugeServiceProvider.InitializeAsync`. What the language service provider does with that file context data is an implementation detail of the language service provider, but the expected user experience is a richer language service for that opened document.
 
-## Using `ILanguageServiceProvider`
+## Using ILanguageServiceProvider
 
 The language service will be notified when a file context is created with a `ContextType` that matches one of the `SupportedContextTypes` values of the language server export attribute.
 
@@ -59,6 +59,6 @@ The `Microsoft.VisualStudio.Workspace.*` APIs aren't the only way to enable your
 
 - <xref:Microsoft.VisualStudio.Workspace.Intellisense.ILanguageServiceProvider> is invoked when a file of matching file types is opened or closed for editing.
 
-## Next Steps
+## Next steps
 
 * [Workspace build](workspace-build.md) - Open Folder supports build systems such as MSBuild and makefiles. 
