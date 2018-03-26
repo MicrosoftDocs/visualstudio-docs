@@ -52,11 +52,11 @@ It's time to start developing. You'll add a button control, add an action to the
 
 ### Add a button to the Design canvas
 
-1. In the **Solution Explorer**, double-click **MainPage.xaml** to open the XAML editor.
+1. In the **Solution Explorer**, double-click **MainPage.xaml** to open a split view.
 
   ![Open MainPage.xaml from the Solution Explorer ](../ide/media/uwp-solution-explorer-MainPage-xaml.png)
 
-  There are two panes in the XAML editor: The **XAML Designer**, which includes a design canvas, and the **XAML Editor**, where you can add or change code.    
+  There are two panes: The **XAML Designer**, which includes a design canvas, and the **XAML Editor**, where you can add or change code.    
 
   ![The XAML Designer pane in the XAML editor](../ide/media/uwp-xaml-editor.png)
 
