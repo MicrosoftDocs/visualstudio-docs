@@ -10,15 +10,15 @@ ms.topic: reference
 author: "kuhlenh"
 ms.author: "kaseyu"
 manager: ghogen
-dev_langs: 
+dev_langs:
   - CSharp
   - VB
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Common Quick Actions
 
-The sections in this topic list some of the common Quick Actions that are applicable to both C# and Visual Basic code.
+The sections in this topic list some of the common Quick Actions that are applicable to both C# and Visual Basic code. These actions are *code fixes* for the built-in [analyzer rules](../code-quality/analyze-code-with-roslyn-analyzers.md) in Visual Studio.
 
 ## Actions that fix errors
 
@@ -954,4 +954,4 @@ Console.WriteLine($"{x} {y}");
 
 ## See also
 
-[Quick Actions](../ide/quick-actions.md)  
+[Quick Actions](../ide/quick-actions.md)

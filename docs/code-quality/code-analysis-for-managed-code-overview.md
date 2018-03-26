@@ -1,6 +1,6 @@
 ---
 title: "Code analysis for managed code in Visual Studio | Microsoft Docs"
-ms.custom: 03/26/2018
+ms.date: 03/26/2018
 ms.technology: vs-ide-code-analysis
 ms.topic: conceptual
 f1_keywords:
