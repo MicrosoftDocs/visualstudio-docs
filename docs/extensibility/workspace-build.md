@@ -15,7 +15,7 @@ manager: "viveis"
 ms.workload:
   - "vssdk"
 ---
-# Workspace build
+# Workspace Build
 
 Build support in [Open Folder](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md) scenarios requires an extender to supply [indexed](workspace-indexing.md) and [file context](workspace-file-contexts.md) data for the [workspace](workspaces.md), as well as the build action to run.
 
@@ -29,7 +29,7 @@ Below is an outline of what your extension will need:
   - File context provider
     - Return a `FileContext` for each build operation and configuration supported
       - `contextType` from <xref:Microsoft.VisualStudio.Workspace.Build.BuildContextTypes>
-      - `context` implements <xref:Microsoft.VisualStudio.Workspace.Build.IBuildConfigurationContext> with the `Configuration` property as the build configuration (e.g. `"Debug|x86"`, `"ret"`, or `null` if not applicable). Alternatively, use an instance of <xref:Microsoft.VisualStudio.Workspace.Build.BuildConfigurationContext>. The configuration value **must** match the configuration from the indexed file data value.
+      - `context` implements <xref:Microsoft.VisualStudio.Workspace.Build.IBuildConfigurationContext> with the `Configuration` property as the build configuration (for example `"Debug|x86"`, `"ret"`, or `null` if not applicable). Alternatively, use an instance of <xref:Microsoft.VisualStudio.Workspace.Build.BuildConfigurationContext>. The configuration value **must** match the configuration from the indexed file data value.
 
 ## Indexed build file data value
 
@@ -40,7 +40,7 @@ Below is an outline of what your extension will need:
   - Returns data when `FileScannerTypeConstants.FileDataValuesType` is the type argument
   - Returns a file data value for each configuration constructed with:
     - `type` as `BuildConfigurationContext.ContextTypeGuid`
-    - `context` as your build configuration (e.g. `"Debug|x86"`, `"ret"`, or `null` if not applicable). This value **must** match the configuration from the file context.
+    - `context` as your build configuration (for example `"Debug|x86"`, `"ret"`, or `null` if not applicable). This value **must** match the configuration from the file context.
 
 ## Build file context action
 

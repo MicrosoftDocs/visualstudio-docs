@@ -15,7 +15,7 @@ manager: "viveis"
 ms.workload:
   - "vssdk"
 ---
-# Workspace file contexts
+# Workspace File Contexts
 
 All insights into [Open Folder](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md) workspaces are produced by "file context providers" that implement the <xref:Microsoft.VisualStudio.Workspace.IFileContextProvider> interface. These extensions might look for patterns in folders or files, read MSBuild files and makefiles, detect package dependencies, etc. in order to accumulate the insights they need to define a file context. A file context by itself does not perform any action, but rather provides data that another extension can then act on.
 
@@ -27,7 +27,7 @@ The most common scenarios for file contexts are related to build, debug, and lan
 
 ## File context lifecycle
 
-Lifecycles for a `FileContext` are non-deterministic. At any time, a component can asynchronously request for some set of context types. Providers that support some subset of the request context types will be queried. The `IWorkspace` instance acts as the middle-man between the consumer and providers through the <xref:Microsoft.VisualStudio.Workspace.IWorkspace.GetFileContextsAsync%2A> method. Consumers might request a context and perform some short term action based on the context while others might request a context and maintain a long lived reference. 
+Lifecycles for a `FileContext` are non-deterministic. At any time, a component can asynchronously request for some set of context types. Providers that support some subset of the request context types will be queried. The `IWorkspace` instance acts as the middle-man between the consumer and providers through the <xref:Microsoft.VisualStudio.Workspace.IWorkspace.GetFileContextsAsync%2A> method. Consumers might request a context and perform some short-term action based on the context, while others might request a context and maintain a long lived reference. 
 
 Changes might happen to files that cause a file context to become outdated. The provider can fire an event on the `FileContext` to notify consumers of updates. For example, if a build context is provided for some file but an on-disk change invalidates that context, then the original producer can invoke the event. Any consumers still referencing that `FileContext` can then requery for a new `FileContext`.
 
