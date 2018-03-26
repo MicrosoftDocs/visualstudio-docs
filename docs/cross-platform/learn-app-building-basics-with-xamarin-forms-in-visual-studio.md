@@ -1,7 +1,7 @@
 ---
 title: "Learn app-building basics with Xamarin.Forms in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "01/19/2018"
+ms.date: "03/26/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -18,7 +18,7 @@ ms.workload:
 
 Once you've done the steps in [Setup and install](../cross-platform/setup-and-install.md) and [Verify your Xamarin environment](../cross-platform/verify-your-xamarin-environment.md), this walkthrough shows you how to build a basic app (shown below) with Xamarin.Forms. With Xamarin.Forms you'll write all of your UI code once in a .NET Standard class library. Xamarin will then automatically render the native UI controls for the iOS, Android, and Universal Windows platforms. We recommend this approach (rather than a Shared project) because the .NET Standard library includes only those .NET APIs that are supported across all target platforms, and because Xamarin.Forms lets you share UI code across platforms.  
   
-![The Weather App sample on Android, iOS, and Windows](../cross-platform/media/crossplat-xamarin-formsguide-1.png "CrossPlat Xamarin FormsGuide 1")  
+[![The Weather App sample on iOS, Android, and UWP](../cross-platform/media/crossplat-xamarin-formsguide-1.png "CrossPlat Xamarin FormsGuide 1")](../cross-platform/media/crossplat-xamarin-formsguide-1-Large.png#lightbox)
   
 You'll do these things to build it:  
   
@@ -379,7 +379,7 @@ Xamarin.Forms renders native UI controls for each platform so that your app auto
     </ContentPage>  
      ```  
   
-     Although not shown here, you can use the **OnPlatform** tag to select a property value that's specific to the current platform on which the app is running (see [Essential XAML Syntax](http://developer.xamarin.com/guides/xamarin-forms/user-interface/xaml-basics/essential_xaml_syntax/) (xamarin.com). In the code-behind file, you can use the [Device.OnPlatform API](http://developer.xamarin.com/guides/xamarin-forms/platform-features/device/) for the same purpose.  
+     Although not shown here, you can use the **OnPlatform** tag to select a property value that's specific to the current platform on which the app is running (see [Essential XAML Syntax](/xamarin/xamarin-forms/xaml/xaml-basics/essential-xaml-syntax.md). Alternatively, in the code-behind file, you can determine what platform the application is running on by comparing the [`Device.RuntimePlatform`](https://developer.xamarin.com/api/property/Xamarin.Forms.Device.RuntimePlatform/) property with constants defined in the [`Device`](https://developer.xamarin.com/api/type/Xamarin.Forms.Device/) class named [`Device.iOS`](https://developer.xamarin.com/api/field/Xamarin.Forms.Device.iOS/), [`Device.Android`](https://developer.xamarin.com/api/field/Xamarin.Forms.Device.Android/), and [`Device.UWP`](https://developer.xamarin.com/api/field/Xamarin.Forms.Device.UWP/).  
   
 2.  In **WeatherPage.xaml.cs**, replace the **GetWeatherBtn_Clicked** event handler with the code below. This code verifies that there's a zip code in the entry field, retrieves data for that zip code, sets the whole page's binding context to the resulting **Weather** instance, then sets the button text to "Search Again." Note that each label in the UI binds to a property of the **Weather** class, so when you set the screen's binding context to a **Weather** instance, those labels update automatically.  
   
@@ -397,6 +397,6 @@ Xamarin.Forms renders native UI controls for each platform so that your app auto
   
 3.  Run the app on all three platforms—Android, iOS, and Windows—by right-clicking the appropriate project, selecting **Set as startup project**, and starting the app either on a device or in the emulator or simulator. Enter a valid United States five-digit zip code and press the **Get Weather** button to display weather data for that region as shown below. You'll need to have Visual Studio connected to a Mac OS X computer on your network for the iOS project.  
   
-     ![The Weather App sample on Android, iOS, and Windows Phone](../cross-platform/media/crossplat-xamarin-formsguide-1.png "CrossPlat Xamarin FormsGuide 1")  
+     [![The Weather App sample on iOS, Android, and UWP](../cross-platform/media/crossplat-xamarin-formsguide-1.png "CrossPlat Xamarin FormsGuide 1")](../cross-platform/media/crossplat-xamarin-formsguide-1-Large.png#lightbox)
   
 The complete source code for this project is in the [xamarin-forms-samples repository on GitHub](https://github.com/xamarin/xamarin-forms-samples/tree/master/Weather).

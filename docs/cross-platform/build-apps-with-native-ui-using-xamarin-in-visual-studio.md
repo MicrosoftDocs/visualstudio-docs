@@ -1,7 +1,7 @@
 ---
 title: "Build apps with native UI using Xamarin in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "3/26/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: vs-ide-mobile
@@ -15,10 +15,14 @@ manager: crdun
 ms.workload: 
   - "xamarin"
 ---
+
 # Build apps with native UI using Xamarin in Visual Studio
+
+USE XAMARIN.FORMS !!!!!
+
 Once you've done the steps in [Setup and install](../cross-platform/setup-and-install.md) and [Verify your Xamarin environment](../cross-platform/verify-your-xamarin-environment.md), this walkthrough shows you how to build a basic Xamarin app (shown below) with native UI layers. With native UI, shared code resides in a portable class library (PCL) and the individual platform projects contain the UI definitions.  
   
- ![Xamarin app on Android and Windows Phone](../cross-platform/media/cross-plat-xamarin-build-1.png "Cross-Plat Xamarin Build 1")  
+ [![Xamarin app on iOS, Android, and Windows](../cross-platform/media/cross-plat-xamarin-build-1.png "Cross-Plat Xamarin Build 1")](../cross-platform/media/cross-plat-xamarin-build-1-Large.png#lightbox)
   
  You'll do these things to build it:  
   
@@ -42,15 +46,15 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 >   
 >  -   Xamarin apps with native UI:  
 >   
->      -   [Hello, Android](https://developer.xamarin.com/guides/android/getting_started/hello,android/) (simple app with one screen)  
->     -   [Hello, Android multiscreen](https://developer.xamarin.com/guides/android/getting_started/hello,android_multiscreen/) (app with navigation between screens)  
->     -   [Android Fragments Walkthrough](http://developer.xamarin.com/guides/android/platform_features/fragments/fragments_walkthrough/) (used for master/detail screens, among other things)  
->     -   [Hello, iOS](https://developer.xamarin.com/guides/ios/getting_started/hello,_iOS/)  
->     -   [Hello, iOS Multiscreen](https://developer.xamarin.com/guides/ios/getting_started/hello,_iOS_multiscreen/)  
+>     -   [Hello, Android](/xamarin/android/getting_started/hello,android/) (simple app with one screen)  
+>     -   [Hello, Android multiscreen](/xamarin/android/getting_started/hello,android_multiscreen/) (app with navigation between screens)  
+>     -   [Android Fragments Walkthrough](/xamarin/android/platform_features/fragments/fragments_walkthrough/) (used for master/detail screens, among other things)  
+>     -   [Hello, iOS](/xamarin/ios/getting_started/hello,_iOS/)  
+>     -   [Hello, iOS Multiscreen](/xamarin/ios/getting_started/hello,_iOS_multiscreen/)  
 > -   Xamarin apps with Xamarin.Forms (shared UI)  
 >   
->      -   [Hello, Xamarin.Forms](https://developer.xamarin.com/guides/cross-platform/xamarin-forms/getting-started/hello-xamarin-forms/quickstart/)  
->     -   [Hello, Xamarin.Forms Multiscreen](https://developer.xamarin.com/guides/cross-platform/xamarin-forms/getting-started/hello-xamarin-forms-multiscreen/)  
+>      -   [Hello, Xamarin.Forms](/xamarin/cross-platform/xamarin-forms/getting-started/hello-xamarin-forms/quickstart/)  
+>     -   [Hello, Xamarin.Forms Multiscreen](/xamarin/cross-platform/xamarin-forms/getting-started/hello-xamarin-forms-multiscreen/)  
   
 ##  <a name="solution"></a> Set up your solution  
  These steps create a Xamarin solution with native UI that contains a PCL for shared code and two added NuGet packages.  
@@ -214,7 +218,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
     }  
     ```  
   
-8.  Replace *YOUR KEY HERE* in the code with the API key you obtained in step 1 (it still needs quotes around it).  
+8.  Replace the first occurrence of *YOUR API KEY HERE* in the code with the API key you obtained in step 1 (it still needs quotes around it).  
   
 9. Delete MyClass.cs in the PCL because we won't be using it.  
   
@@ -228,7 +232,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 1.  In **Solution Explorer**, expand the **WeatherApp.Droid**>**Resources**>**layout** folder and open **Main.axml**. This opens the file in the visual designer. (If a Java-related error appears, see this [blog post](http://forums.xamarin.com/discussion/32365/connection-to-the-layout-renderer-failed-in-xs-5-7-and-xamarinvs-3-9).)  
   
     > [!TIP]
-    >  There are many other files in the project. Exploring them is beyond the scope of this topic, but if you want to dive into the structure of an Android project a bit more, see [Part 2 Deep Dive](http://developer.xamarin.com/guides/android/getting_started/hello,android/hello,android_deepdive/) of the Hello Android topic on xamarin.com.  
+    >  There are many other files in the project. Exploring them is beyond the scope of this topic, but if you want to dive into the structure of an Android project a bit more, see [Part 2 Deep Dive](/xamarin/guides/android/getting_started/hello,android/hello,android_deepdive/) of the Hello Android topic on xamarin.com.  
   
 2.  Select and delete the default button that appears in the designer.  
   
