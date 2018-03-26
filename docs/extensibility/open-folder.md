@@ -8,6 +8,7 @@ ms.technology:
   - "vs-ide-sdk"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 94c3f8bf-1de3-40ea-aded-7f40c4b314c7
 author: "vukelich"
 ms.author: "svukel"
 manager: "viveis"
@@ -36,11 +37,11 @@ Historically, Visual Studio only understood files in a solution and its projects
 
 The Open Folder APIs are under the `Microsoft.VisualStudio.Workspace.*` namespace and are available for extenders to produce and consume data or actions around files within Open Folder. Extensions can use these APIs to provide functionality for many areas, including:
 
-- [Workspaces](open-folder-workspaces.md)
-- [File contexts and actions](open-folder-file-contexts.md)
-- [Workspace indexing](open-folder-indexing.md)
-- [Language services](open-folder-language-services.md)
-- [Build](open-folder-build.md)
+- [Workspaces](workspaces.md) - The starting point of Open Folder extensibility is the workspace and it's APIs.
+- [File contexts and actions](workspace-file-contexts.md) - File specific code intelligence provided through file contexts.
+- [Workspace indexing](workspace-indexing.md) - Collect and persist data about Open Folder workspaces.
+- [Language services](workspace-language-services.md) - Integrate language services into Open Folder workspaces.
+- [Build](workspace-build.md) - Build support for Open Folder workspaces.
 
 Features that use the following types will need to adopt new APIs to support Open Folder:
 
