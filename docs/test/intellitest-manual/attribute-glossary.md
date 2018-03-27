@@ -230,7 +230,7 @@ public void MyTest(object testParameter)
 If this attribute is attached to a 
 [PexMethod](#pexmethod) (or to a 
 [PexClass](#pexclass), it changes the default IntelliTest
-logic taht indicates when tests fails. The test will 
+logic that indicates when tests fails. The test will 
 not be considered as failed, even if it throws the 
 specified exception.
 
