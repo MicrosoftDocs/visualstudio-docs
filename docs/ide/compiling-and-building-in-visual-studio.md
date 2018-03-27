@@ -40,7 +40,7 @@ The documentation in this section goes into further details of the IDE-based bui
 
 ## Overview of building from the IDE  
 
-When you create a project, Visual Studio created default build configurations for the project and the solution that contains the project.  These configurations define how the solutions and projects are built and deployed. Project configurations in particular are unique for a target platform (such as Windows pr Linux) and build type (such as debug or release). You can edit these configurations however you like, and can also create your own configurations as needed.
+When you create a project, Visual Studio created default build configurations for the project and the solution that contains the project.  These configurations define how the solutions and projects are built and deployed. Project configurations in particular are unique for a target platform (such as Windows or Linux) and build type (such as debug or release). You can edit these configurations however you like, and can also create your own configurations as needed.
 
 For a first introduction to building within the IDE, see [Walkthrough: Building an application](walkthrough-building-an-application.md).  
 

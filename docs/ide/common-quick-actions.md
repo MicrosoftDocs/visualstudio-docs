@@ -171,9 +171,9 @@ End Function
 
 ## Actions that remove unnecessary code
 
-### Remove unnecesary usings/imports
+### Remove unnecessary usings/Imports
 
-The **Remove Unnecessary Usings/Imports** Quick Action will remove any unused `using` and `import` statements for the current file.  When you select this item, unused namespace imports will be immediately removed.
+The **Remove Unnecessary Usings/Imports** Quick Action will remove any unused `using` and `Import` statements for the current file.  When you select this item, unused namespace imports will be immediately removed.
 
 |  Applicable Languages |  Supported Version |
 |  -------------------- | ----------------  |

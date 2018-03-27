@@ -45,9 +45,9 @@ After you select your Visual Basic project template and name your file, Visual S
 
      ![Click the Toolbox to open the Toolbox window](../ide/media/vb-toolbox-toolwindow.png)  
 
-     (If you don't see the Toolbox fly-out option, you can open it from the menu bar. To do so, click **View** > **Toolbox**. Or, press **Ctrl**+**Alt**+**X**.)
+     (If you don't see the **Toolbox** fly-out option, you can open it from the menu bar. To do so, click **View** > **Toolbox**. Or, press **Ctrl**+**Alt**+**X**.)
 
-2. Click the **Pin** icon to dock the Toolbox window.
+2. Click the **Pin** icon to dock the **Toolbox** window.
 
      ![Click the Pin icon to pin the Toolbox window to the IDE](../ide/media/vb-pin-the-toolbox-window.png)  
 3. Click the **Button** control and then drag it onto the form.
@@ -58,7 +58,7 @@ After you select your Visual Basic project template and name your file, Visual S
 
      ![Add text to the button on the form](../ide/media/vb-button-control-text.png)  
 
-     (If you don't see the Properties window, you can open it from the menu bar. To do so, click **View** > **Properties Window**. Or, press **F4**.)
+     (If you don't see the **Properties** window, you can open it from the menu bar. To do so, click **View** > **Properties Window**. Or, press **F4**.)
 
 5. In the **Design** section of the **Properties** window, change the name from **Button1** to `btnClickThis`, and then press **Enter**.
 
