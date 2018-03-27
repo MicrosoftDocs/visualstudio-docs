@@ -113,7 +113,7 @@ Sends all debugger messages that would ordinarily appear in the **Output** windo
 Turns off all object structure view customizations. For more information about view customizations, see [Create custom views of .managed objects](../debugger/create-custom-views-of-dot-managed-objects.md).  
   
 **Suppress JIT optimization on module load (Managed only)**  
-Disables the JIT optimization of managed code when a module is loaded and JIT is compiled while the debugger is attached. Disabling optimization may make it easier to debug some problems, although at the expense of performance. If you are using Just My Code, suppressing JIT optimization can cause non-user code to appear as user code ("My Code").
+Disables the JIT optimization of managed code when a module is loaded and JIT is compiled while the debugger is attached. Disabling optimization may make it easier to debug some problems, although at the expense of performance. If you are using Just My Code, suppressing JIT optimization can cause non-user code to appear as user code ("My Code"). For more information, see [JIT Optimization and Debugging](../debugger/jit-optimization-and-debugging.md).
 
 **Enable JavaScript debugging for ASP.NET (Chrome and IE)**
 Enables the script debugger for ASP.NET apps. On first use in Chrome, you may need to sign into the browser on first use to enable Chrome extensions that you have installed. Disable this option to revert to legacy behavior.    

@@ -2,7 +2,7 @@
 title: How to manage Python environments and interpreters in Visual Studio | Microsoft Docs
 description: How to use the Python Environments window in Visual Studio to manage global and virtual environments, set up custom environments, installing Python interpreters, installing packages, setting search paths, and managing environments for Visual Studio projects.
 ms.custom: ""
-ms.date: 02/20/2018
+ms.date: 03/05/2018
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -66,9 +66,9 @@ In either case, the **Python Environments** window appears as a sibling tab to S
 
 The image above shows that Visual Studio detected two installations of Python 3.6 (32-bit) along with Anaconda 5.0.0.
 
-The default environment in boldface is Python 3.6 (in this case part of an Anaconda installation), which Visual Studio uses for any new projects. The commands in the lower part of the window apply to the selected Python 3.6 interpreter, which as you can see is the specific installation in `C:\Python36-32`. If you don't see an environment you expect, see [Manually identifying an existing interpreter](#manually-identifying-an-existing-interpreter).
+The default environment in boldface is Python 3.6 (in this case part of an Anaconda installation), which Visual Studio uses for any new projects. The commands in the lower part of the window apply to the selected Python 3.6 interpreter, which as you can see is the specific installation in `C:\Python36-32`. If you don't see an environment you expect, see [Manually identifying an existing environment](#manually-identifying-an-existing-environment).
 
-To the right of each listed environment is a control that opens an interactive window for that environment. Another control may appear that refreshes the IntelliSense database for that environment.
+To the right of each listed environment is a control that opens an interactive window for that environment. Another control may appear that refreshes the IntelliSense database for that environment (see [Environments window reference](python-environments-window-tab-reference.md#intellisense-tab) for details about the database).
 
 Below the list of environments is a drop-down selector for the **Overview**, **Packages**, and **IntelliSense** options described in [Python Environments window tab reference](python-environments-window-tab-reference.md). Also, if you expand the **Python Environments** window wide enough, these options are shown as tabs, which you may find more convenient to work with:
 

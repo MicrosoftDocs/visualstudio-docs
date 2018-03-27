@@ -2,6 +2,7 @@
 layout: LandingPage
 title: Debugging your Apps in Visual Studio | Microsoft Docs
 description: Learn how use Visual Studio 2017 to debug applications, services, and tools in the language of your choice, for your platforms and devices.
+ms.topic: landing-page
 ms.technology: vs-ide-debug
 ---
 # Debugging in Visual Studio
@@ -46,24 +47,6 @@ The Visual Studio debugger helps you observe the run-time behavior of your progr
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/visualstudio/debugger/navigating-through-code-with-the-debugger">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="/media/common/i_debug.svg" alt="">
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Navigate Code with the Debugger</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-        <li>
         <a href="https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Debugger-Feature-tour-of-Visual-studio-2017-sqwiwLD6D_1111787171">
         <div class="cardSize">
             <div class="cardPadding">
@@ -100,7 +83,7 @@ The Visual Studio debugger helps you observe the run-time behavior of your progr
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/visualstudio/debugger/get-started-debugging-multithreaded-apps">
+        <a href="https://docs.microsoft.com/visualstudio/debugger/how-to-use-intellitrace-step-back">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -110,25 +93,25 @@ The Visual Studio debugger helps you observe the run-time behavior of your progr
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Debug Multi-Threaded Apps</h3>
+                        <h3>View IntelliTrace snapshots (Visual Studio Enterprise)</h3>
                     </div>
                 </div>
             </div>
         </div>
         </a>
     </li>
-        <li>
-        <a href="https://docs.microsoft.com/visualstudio/debugger/intellitrace">
+    <li>
+        <a href="https://docs.microsoft.com/visualstudio/debugger/debug-live-azure-applications">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_learn-about.svg" alt="">
+                            <img src="/media/common/i_get-started.svg" alt="">
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Learn about IntelliTrace (Visual Studio Enterprise)</h3>
+                        <h3>Debug live Azure App Service applications</h3>
                     </div>
                 </div>
             </div>
@@ -147,6 +130,24 @@ The Visual Studio debugger helps you observe the run-time behavior of your progr
                     </div>
                     <div class="cardText">
                         <h3>Debugger Tips and Tricks</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://docs.microsoft.com/visualstudio/debugger/get-started-debugging-multithreaded-apps">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="/media/common/i_get-started.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Debug Multi-Threaded Apps</h3>
                     </div>
                 </div>
             </div>

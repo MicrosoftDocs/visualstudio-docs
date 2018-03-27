@@ -5,7 +5,7 @@ keywords:
 author: TerryGLee
 ms.author: tglee
 manager: ghogen
-ms.date: 12/1/2017
+ms.date: 03/05/2018
 ms.topic: article
 helpviewer_keywords: 
   - "workload ID, Visual Studio"
@@ -41,7 +41,7 @@ For more information about how to use these IDs, see [Use Command-Line Parameter
 
 Component ID | Name | Version | Dependency type
 --- | --- | --- | ---
-Microsoft.VisualStudio.ComponentGroup.TestTools.TestController | Test Controller core features | 15.0.27128.1 | Required
+Microsoft.VisualStudio.ComponentGroup.TestTools.TestController | Test Controller core features | 15.6.27309.0 | Required
 
 ## Unaffiliated components
 

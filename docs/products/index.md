@@ -3,6 +3,7 @@ layout: HubPage
 hide_bc: true
 title: Visual Studio Documentation | Microsoft Docs
 description: Learn how to use Visual Studio 2017 to develop applications, services, and tools in the language of your choice, for your platforms and devices.
+ms.topic: landing-page
 searchScope: []
 ---
 <div id="main" class="v2">
@@ -22,7 +23,7 @@ searchScope: []
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img data-scaleimage="./images/vs-ide.svg" src="./images/vs-ide.svg" alt="Visual Studio" />
+                                                        <img data-scaleimage="./images/vs-ide.svg" src="./images/vs-ide.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -41,7 +42,7 @@ searchScope: []
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img data-scaleimage="./images/vs-team-services.svg" src="./images/vs-team-services.svg" alt="Visual Studio Team Services" />
+                                                        <img data-scaleimage="./images/vs-team-services.svg" src="./images/vs-team-services.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -60,7 +61,7 @@ searchScope: []
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img data-scaleimage="./images/vs-code.svg" src="./images/vs-code.svg" alt="Visual Studio Code" />
+                                                        <img data-scaleimage="./images/vs-code.svg" src="./images/vs-code.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -79,7 +80,7 @@ searchScope: []
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img data-scaleimage="./images/vs-mac.svg" src="./images/vs-mac.svg" alt="Visual Studio for Mac" />
+                                                        <img data-scaleimage="./images/vs-mac.svg" src="./images/vs-mac.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -98,7 +99,7 @@ searchScope: []
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img data-scaleimage="./images/vs-mobile-center.svg" src="./images/vs-mobile-center.svg" alt="Visual Studio App Center" />
+                                                        <img data-scaleimage="./images/vs-mobile-center.svg" src="./images/vs-mobile-center.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -117,7 +118,7 @@ searchScope: []
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img data-scaleimage="./images/vs-subscription-temp.svg" src="./images/vs-subscription-temp.svg" alt="Visual Studio Subscriptions" />
+                                                        <img data-scaleimage="./images/vs-subscription-temp.svg" src="./images/vs-subscription-temp.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">

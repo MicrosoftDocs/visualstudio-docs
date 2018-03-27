@@ -8,7 +8,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.error.unsafe_func_eval_abort"
-caps.latest.revision: 6
+ms.technology: vs-ide-debug
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

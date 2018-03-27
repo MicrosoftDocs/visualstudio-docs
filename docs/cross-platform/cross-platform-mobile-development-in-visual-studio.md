@@ -9,9 +9,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8202717a-e990-45cf-b092-438651ccb38a
 caps.latest.revision: 64
-author: "ghogen"
-ms.author: "ghogen"
-manager: ghogen
+author: asb3993
+ms.author: amburns
+manager: crdun
 ms.workload: 
   - "multiple"
 ---
@@ -75,8 +75,8 @@ With Xamarin, you can target Android, iOS, and Windows in the same solution, sha
 
 |**Learn more**|
 |--------------------|
-|[Learn about universal Windows apps](https://msdn.microsoft.com/library/windows/apps/dn894631.aspx) (Windows Dev Center)|
-|[Build your first one](http://msdn.microsoft.com/library/windows/apps/dn609832.aspx) (Windows Dev Center)|
+|[Intro to the Universal Windows Platform](/windows/uwp/get-started/universal-application-platform-guide)|
+|[Create your first app](/windows/uwp/get-started/your-first-app)|
 |[Develop apps for the Universal Windows Platform (UWP)](../cross-platform/develop-apps-for-the-universal-windows-platform-uwp.md)|
 |[Migrate apps to the Universal Windows Platform (UWP)](https://msdn.microsoft.com/en-us/library/mt148501.aspx)|
 

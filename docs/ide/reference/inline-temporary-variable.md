@@ -9,10 +9,10 @@ ms.topic: reference
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
-dev_langs: 
+dev_langs:
   - CSharp
   - VB
-ms.workload: 
+ms.workload:
   - "dotnet"
 ---
 # Inline a temporary variable refactoring
@@ -44,7 +44,7 @@ This refactoring applies to:
 1. Next, do one of the following:
 
    - **Keyboard**
-     - Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu.
+     - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
    - **Mouse**
      - Right-click the code and select the **Quick Actions and Refactorings** menu.
 

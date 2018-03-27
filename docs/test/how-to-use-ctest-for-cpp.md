@@ -1,11 +1,7 @@
 ---
 title: "How to use CTest for C++ in Visual Studio | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/07/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: vs-devops-test
-ms.tgt_pltfrm: ""
+ms.technology: vs-ide-test
 ms.topic: "article"
 ms.author: mblome
 manager: ghogen
@@ -20,7 +16,7 @@ CMake (which includes CTest) is integrated into the Visual Studio IDE by default
 
 ## To write tests
 
-CMake support in Visual Studio doesn't involve the Visual Studio project system. Therefore, you write and configure CTest tests just as you would in any CMake environment. For more information about using CMake in Visual Studio, see [CMake Tools for Visual C++](/cpp/ide/cmake-tools-for-visual-cpp). 
+CMake support in Visual Studio doesn't involve the Visual Studio project system. Therefore, you write and configure CTest tests just as you would in any CMake environment. For more information about using CMake in Visual Studio, see [CMake Tools for Visual C++](/cpp/ide/cmake-tools-for-visual-cpp).
 
 ## To run tests (Visual Studio 2017 version 15.6)
 
@@ -38,6 +34,6 @@ In **Visual Studio 2017 version 15.5**, CTest is not integrated with **Test Expl
 
 ![Run CTest tests in VS2017 15.5](media/cpp-cmake-run-tests.png "Run CTest tests in 15.5")
 
-## See Also
+## See also
 
 [Writing Unit Tests for C/C++](writing-unit-tests-for-c-cpp.md)

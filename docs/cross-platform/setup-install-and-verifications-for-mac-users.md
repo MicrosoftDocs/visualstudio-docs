@@ -7,10 +7,10 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 22725520-59ba-4f6f-80e4-097b1287a34b
-caps.latest.revision: 10
-author: "ghogen"
-ms.author: "ghogen"
-manager: ghogen
+ms.technology: vs-ide-mobile
+author: asb3993
+ms.author: amburns
+manager: crdun
 ms.workload: 
   - "xamarin"
 ---

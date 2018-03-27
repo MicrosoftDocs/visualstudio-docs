@@ -1,3 +1,14 @@
+---
+title: "Create a Node.js development environment with containers using Kubernetes in the cloud - Step 5 - Call another container | Microsoft Docs"
+author: "johnsta"
+ms.author: "johnsta"
+ms.date: "02/20/2018"
+ms.topic: "get-started-article"
+ms.technology: "vsce-kubernetes"
+description: "Rapid Kubernetes development with containers and microservices on Azure"
+keywords: "Docker, Kubernetes, Azure, AKS, Azure Container Service, containers"
+manager: "ghogen"
+---
 # Get Started on Connected Environment with Node.js
 
 Previous step: [Debug a container in Kubernetes](get-started-nodejs-04.md)
@@ -7,7 +18,7 @@ In this section we're going to create a second service, `mywebapi`, and have `we
 ![](media/multi-container.png)
 
 ## Open sample code for *mywebapi*
-You should already have the sample code for `mywebapi` for this guide under a folder named `vsce-samples` (if not, go to https://github.com/johnsta/vsce-samples and select **Clone or Download** to download the GitHub repository.) The code for this section is in `vsce-samples/nodejs/getting-started/mywebapi`.
+You should already have the sample code for `mywebapi` for this guide under a folder named `vsce/samples` (if not, go to https://github.com/Azure/vsce and select **Clone or Download** to download the GitHub repository.) The code for this section is in `vsce/samples/nodejs/getting-started/mywebapi`.
 
 ## Run *mywebapi*
 1. Open the folder `mywebapi` in a *separate VS Code window*.

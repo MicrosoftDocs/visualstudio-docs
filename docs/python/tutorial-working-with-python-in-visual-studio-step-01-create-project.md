@@ -26,7 +26,7 @@ Python is a popular programming language that is reliable, flexible, easy to lea
 Visual Studio provides first-class language support for Python. This tutorial guides you through the following steps:
 
 - [Step 0: Installation](tutorial-working-with-python-in-visual-studio-step-00-installation.md)
-- [Step 1: Creating a Python project (this topic)](#step-1-create-a-new-python-project)
+- [Step 1: Creating a Python project (this article)](#step-1-create-a-new-python-project)
 - [Step 2: Writing and running code to see Visual Studio IntelliSense at work](tutorial-working-with-python-in-visual-studio-step-02-writing-code.md)
 - [Step 3: Create more code in the interactive REPL window](tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md)
 - [Step 4: Run the completed program in the Visual Studio debugger](tutorial-working-with-python-in-visual-studio-step-04-debugging.md)
@@ -67,7 +67,7 @@ In this tutorial you begin with a simple project containing a single, empty code
 
     (3) Under your project you see source files, in this case only a single `.py` file. Selecting a file displays its properties in the Properties window. Double-clicking a file opens it in whatever way is appropriate for that file.
 
-    (4) Also under the project is the **Python Environments** node. When expanded, you see the available Python interpreters that are available to you. Expand an interpreter node to see the libraries that are installed into that environment (5).
+    (4) Also under the project is the **Python Environments** node. When expanded, you see the Python interpreters that are available to you. Expand an interpreter node to see the libraries that are installed into that environment (5).
 
     Right-click any node or item in Solution Explorer to access a menu of applicable commands. For example, the **Rename** command allows you to change the name of any node or item, including the project and the solution.
 

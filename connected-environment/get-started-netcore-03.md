@@ -1,3 +1,14 @@
+---
+title: "Create a .NET Core development environment with containers using Kubernetes in the cloud - Step 3 - Create an ASP.NET Core web app | Microsoft Docs"
+author: "johnsta"
+ms.author: "johnsta"
+ms.date: "02/20/2018"
+ms.topic: "get-started-article"
+ms.technology: "vsce-kubernetes"
+description: "Rapid Kubernetes development with containers and microservices on Azure"
+keywords: "Docker, Kubernetes, Azure, AKS, Azure Container Service, containers"
+manager: "ghogen"
+---
 # Get Started on Connected Environment with .NET Core
 
 Previous step: [Create a Kubernetes development environment in Azure](get-started-netcore-02.md)
@@ -8,13 +19,13 @@ If you have [.NET Core](https://www.microsoft.com/net) installed, you can quickl
 dotnet new mvc --name webfrontend
 ```
 
-Alternatively, **download sample code from GitHub** by navigating to https://github.com/johnsta/vsce-samples and select **Clone or Download** to download the GitHub repository to your local environment. The code for this guide is in `vsce-samples/dotnetcore/getting-started/webfrontend`.
+Alternatively, **download sample code from GitHub** by navigating to https://github.com/Azure/vsce and select **Clone or Download** to download the GitHub repository to your local environment. The code for this guide is in `vsce/samples/dotnetcore/getting-started/webfrontend`.
 
-[!INCLUDE[](common/vsce-init.md)]
+[!INCLUDE[](includes/vsce-init.md)]
 
-[!INCLUDE[](common/ensure-env-created.md)]
+[!INCLUDE[](includes/ensure-env-created.md)]
 
-[!INCLUDE[](common/build-and-run-in-k8s-cli.md)]
+[!INCLUDE[](includes/build-and-run-in-k8s-cli.md)]
 
 ## Update a content file
 Connected Environment isn't just about getting code running in Kubernetes - it's about enabling you to quickly and iteratively see your code changes take effect in a Kubernetes environment in the cloud.

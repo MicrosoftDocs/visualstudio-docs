@@ -9,10 +9,10 @@ ms.topic: reference
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
-dev_langs: 
+dev_langs:
   - CSharp
   - VB
-ms.workload: 
+ms.workload:
   - "dotnet"
 ---
 # Move a type to a matching file refactoring
@@ -44,7 +44,7 @@ This refactoring applies to:
 1. Next, do one of the following:
 
    - **Keyboard**
-     - Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu and select **Move type to *TypeName*.cs** from the Preview window popup, where *TypeName* is the name of the type you have selected.
+     - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu and select **Move type to *TypeName*.cs** from the Preview window popup, where *TypeName* is the name of the type you have selected.
    - **Mouse**
      - Right-click the code, select the **Quick Actions and Refactorings** menu and select **Move type to *TypeName*.cs** from the Preview window popup, where *TypeName* is the name of the type you have selected.
 
