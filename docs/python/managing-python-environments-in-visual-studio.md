@@ -31,6 +31,8 @@ In Visual Studio on Windows, the [Python Environments](#managing-python-environm
 
 Also note that you cannot manage environments for Python code that is opened only as a folder using the **File > Open > Folder** command. Instead, [Create a Python project from existing code](quickstart-01-python-in-visual-studio-project-from-existing-code.md) to enjoy the environment features of Visual Studio.
 
+If you want to install packages in an environment, refer to the [Packages tab](python-environments-window-tab-reference.md#packages-tab).
+
 ## Types of environments
 
 ### Global environments
