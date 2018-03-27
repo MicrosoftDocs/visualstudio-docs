@@ -90,7 +90,7 @@ These steps create a Xamarin.Forms solution that contains a .NET Standard class 
   
     ![Locating and installing the Newtonsoft.Json NuGet package](../cross-platform/media/crossplat-xamarin-formsguide-5.png "CrossPlat Xamarin FormsGuide 5")  
   
-6.  Repeat step 5 to find and install the **Microsoft.Net.Http** package.  
+6.  Repeat step 5 to find and install the **Microsoft.CSharp** package in the .NET Standard project. This is necessary to use the C# `dynamic` data type in a .NET Standard library.
   
 7.  Build your solution and verify that there are no build errors.  
   

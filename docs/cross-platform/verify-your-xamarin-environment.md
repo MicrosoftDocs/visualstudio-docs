@@ -19,11 +19,12 @@ Once the installers have completed (see [Setup and install](../cross-platform/se
   
  Once you have completed these verifications, you can do either or both of the following walkthroughs:  
   
--   [Learn app-building basics with Xamarin.Forms in Visual Studio](../cross-platform/learn-app-building-basics-with-xamarin-forms-in-visual-studio.md)  
+-   [Learn app-building basics with Xamarin.Forms in Visual Studio](../cross-platform/learn-app-building-basics-with-xamarin-forms-in-visual-studio.md) to build a Xamarin.Forms application.
   
--   [Build apps with native UI using Xamarin in Visual Studio](../cross-platform/build-apps-with-native-ui-using-xamarin-in-visual-studio.md)  
+-   [Build apps with native UI using Xamarin in Visual Studio](../cross-platform/build-apps-with-native-ui-using-xamarin-in-visual-studio.md) to use the native user interfaces on each platform but share some code in a .NET Standard library.
   
-## All platforms  
+## All platforms 
+ 
  First, select **Tools > Options**, expand **Xamarin > Other**,  and click the **Check now** link for updates. You need to be using Xamarin 4.0.3.214 or later to avoid previous licensing issues.  
   
  Then create a new Xamarin solution in Visual Studio using **File > New Project**, then in the dialog expand **Templates > Other Languages > Visual C# > Cross-Platform**, select **Blank App (Native Portable)**, and click OK. This creates a solution with a shared portable class library project and individual projects for Android, iOS, and Windows:  

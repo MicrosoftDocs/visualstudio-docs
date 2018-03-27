@@ -48,15 +48,15 @@ You'll do these things to build it:
 >   
 >  -   Xamarin apps with native UI:  
 >   
->     -   [Hello, Android](/xamarin/android/getting_started/hello,android/) (simple app with one screen)  
->     -   [Hello, Android multiscreen](/xamarin/android/getting_started/hello,android_multiscreen/) (app with navigation between screens)  
->     -   [Android Fragments Walkthrough](/xamarin/android/platform_features/fragments/fragments_walkthrough/) (used for master/detail screens, among other things)  
->     -   [Hello, iOS](/xamarin/ios/getting_started/hello,_iOS/)  
->     -   [Hello, iOS Multiscreen](/xamarin/ios/getting_started/hello,_iOS_multiscreen/)  
+>     -   [Hello, Android](/xamarin/android/get-started/hello-android/) (simple app with one screen)  
+>     -   [Hello, Android multiscreen](/xamarin/android/get-started/hello-android-multiscreen/) (app with navigation between screens)  
+>     -   [Android Fragments Walkthrough](/xamarin/android/platform/fragments/fragments/implementing-with-fragments/walkthrough/) (used for master/detail screens, among other things)  
+>     -   [Hello, iOS](/xamarin/ios/get-started/hello-iOS/)  
+>     -   [Hello, iOS Multiscreen](/xamarin/ios/get-started/hello-iOS-multiscreen/)  
 > -   Xamarin apps with Xamarin.Forms (shared UI)  
 >   
->     -   [Hello, Xamarin.Forms](/xamarin/cross-platform/xamarin-forms/getting-started/hello-xamarin-forms/quickstart/)  
->     -   [Hello, Xamarin.Forms Multiscreen](/xamarin/cross-platform/xamarin-forms/getting-started/hello-xamarin-forms-multiscreen/)  
+>     -   [Hello, Xamarin.Forms](/xamarin/cross-platform/xamarin-forms/get-started/hello-xamarin-forms/quickstart/)  
+>     -   [Hello, Xamarin.Forms Multiscreen](/xamarin/cross-platform/xamarin-forms/get-started/hello-xamarin-forms-multiscreen/)  
   
 <a name="solution"></a>
 
@@ -66,7 +66,7 @@ There is no Visual Studio solution template for creating native UI applications 
   
 1.  In Visual Studio, create a new **Class Library (.NET Standard)** solution and name it **WeatherApp**. You can find this template most easily by selecting **Visual C#** at the left and then **.NET Standard**: 
 
-    ![Creating the .NET Standard solution](../cross-platform/media/crossplat-xamarin-build-2.png "Cross-platform Xamarin Build 2")
+    ![Creating the .NET Standard solution](../cross-platform/media/cross-plat-xamarin-build-2.png "Cross-platform Xamarin Build 2")
 
     After clicking OK to create the solution, the **WeatherApp** solution contains a single project named **WeatherApp**. 
 
@@ -78,7 +78,7 @@ There is no Visual Studio solution template for creating native UI applications 
   
 5. For each of the application projects (iOS, Android, and UWP), right click the **References** section in the **Solution Explorer** and select **Add Reference**. In the **Reference Manager** dialog, at the left select **Project** and **Solution**. You'll see a list of all the projects in the solution expect the project whose references you're managing:
 
-   ![Setting a reference to the .NET Standard project](../cross-platform/media/crossplat-xamarin-build-3.png "Cross-platform Xamarin Build 3")
+   ![Setting a reference to the .NET Standard project](../cross-platform/media/cross-plat-xamarin-build-3.png "Cross-platform Xamarin Build 3")
 
    Check the checkbox next to **WeatherApp**. 
 

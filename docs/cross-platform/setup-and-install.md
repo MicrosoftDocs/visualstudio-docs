@@ -1,7 +1,7 @@
 ---
 title: "Install Xamarin for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "04/13/2017"
+ms.date: "03/27/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,11 +14,12 @@ manager: crdun
 ms.workload:
   - "xamarin"
 ---
+
 # Setup and install
 
 To build native iOS, Android, and Windows apps from a common C#/.NET code base using Xamarin, you need the following:
 
--   For working with Windows and Android apps: a Windows development computer with Visual Studio 2017 or 2015 with Xamarin installed. You can also use Visual Studio 2013 by following the instructions for [direct Xamarin install](https://developer.xamarin.com/guides/cross-platform/getting_started/requirements/#install) (xamarin.com).
+-   For working with Windows and Android apps: a Windows development computer with Visual Studio 2017 with Xamarin installed. 
 
 -   For working with iOS apps: a Mac with macOS Sierra 10.12 or above, with Xcode and Xamarin installed.
 
@@ -29,7 +30,9 @@ If you have issues using Xamarin after doing this setup and install, post your q
 > [!NOTE]
 > As of March 31, 2016, all of Xamarin is included with all editions of Visual Studio at no extra cost and does not need a separate license. Xamarin Studio Community for Mac is also free for students, OSS developers, and small teams. Note that for existing installations of Visual Studio that are configured with earlier Xamarin licenses, you must update Xamarin to version 4.0.3.214 or higher. To do this, go to **Tools > Options > Xamarin > Other**, click the **Check Now** link, and download the 4.0.3.214 update. When you restart Visual Studio, go to **Tools > Xamarin Account...** and you should see updated status.
 
-##  <a name="prereq"></a> Pre-requisites
+<a name="prereq" /> 
+
+## Pre-requisites
 
 ###  For targeting Windows and Android
 
@@ -45,7 +48,9 @@ If you have issues using Xamarin after doing this setup and install, post your q
 
 2.  When using Visual Studio on a Windows (7+) computer as your primary development environment, a networked Mac is necessary only to compile and debug iOS apps, attach to the iOS simulator or tethered devices, and to use the storyboard designer in Visual Studio for designing the user interface. Older Mac models are entirely sufficient for this secondary role.
 
-##  <a name="windows"></a> Windows setup (Visual Studio and Xamarin)
+<a name="windows" /> 
+
+##  Windows setup (Visual Studio and Xamarin)
 
 > [!TIP]
 > These instructions apply to Visual Studio 2017. For Visual Studio 2015 see [MSDN](setup-and-install.md). To use Xamarin with Visual Studio 2013 (Update 2 is required), follow the instructions for [direct Xamarin install](https://developer.xamarin.com/guides/cross-platform/getting_started/requirements/#install) (xamarin.com).
@@ -73,9 +78,11 @@ If you have issues using Xamarin after doing this setup and install, post your q
 6.  For testing Android apps, use the [Android SDK Emulator](https://developer.xamarin.com/guides/android/deployment,_testing,_and_metrics/debug-on-emulator/android-sdk-emulator/) if you don't have physical devices. See note below.
 
 > [!NOTE]
-> **Emulators on Windows computers**: Because CPUs support only one virtualization technology at a time, it's best to have only one in use on a development computer. There are three main virtualizations technologies are Hyper-V (used by the Visual Studio Emulator for Android and the Windows Phone emulator), Virtual Box (used by Genymotion), and Intel HAXM (used by the Android SDK emulator). Because of various issues between Hyper-V and Virtual Box, it's best to use emulators of only one type on any given computer, hence the recommendations above to use Hyper-V on Windows 8 and above computers, and Intel HAXM emulators on Windows 7 and earlier as well as when running Windows on a Mac.
+> **Emulators on Windows computers**: Because CPUs support only one virtualization technology at a time, it's best to have only one in use on a development computer. There are three main virtualizations technologies are Hyper-V (used by the Visual Studio Emulator for Android), Virtual Box (used by Genymotion), and Intel HAXM (used by the Android SDK emulator). Because of various issues between Hyper-V and Virtual Box, it's best to use emulators of only one type on any given computer, hence the recommendations above to use Hyper-V on Windows 8 and above computers, and Intel HAXM emulators on Windows 7 and earlier as well as when running Windows on a Mac.
 
-##  <a name="mac"></a> Mac setup (Apple ID, Xcode, and Xamarin)
+<a name="mac" />
+
+##  Mac setup (Apple ID, Xcode, and Xamarin)
 
 1.  Create a free Apple ID at [https://appleid.apple.com](https://appleid.apple.com/) if you don't have one already. This is necessary for installing and signing into Xcode.
 

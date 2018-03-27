@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio and Xamarin | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "03/27/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: vs-ide-mobile
@@ -30,10 +30,10 @@ Xamarin is a mobile app development platform for building native iOS, Android, a
   
 -   Finish by going through the tutorial [Learn app-building basics with Xamarin.Forms in Visual Studio](../cross-platform/learn-app-building-basics-with-xamarin-forms-in-visual-studio.md).  
   
- You can work with all Xamarin features through [any edition of Visual Studio 2017](https://www.visualstudio.com/vs) (Community, Professional, and Enterprise). Note also that as of March 31 2016, Xamarin is included with all editions of Visual Studio 2015 and no longer requires a separate license. For Visual Studio 2013, you can install Xamarin separately, as the [Setup and install](../cross-platform/setup-and-install.md) topic describes.  
+ You can work with all Xamarin features using [any edition of Visual Studio 2017](https://www.visualstudio.com/vs) (Community, Professional, and Enterprise). No separate license is required.  
   
 > [!NOTE]
->  These instructions describe the easiest and most straightforward computer configuration for those that have a Windows and Visual Studio background. With this configuration, the overall development experience is simplified because you only need to interact with the Mac to use the iOS simulator and tethered device. If you instead come from a Mac background, we recommend either running Visual Studio inside Parallels/VMWare or using Xamarin Studio Community. Refer to [Setup, install, and verifications for Mac users](../cross-platform/setup-install-and-verifications-for-mac-users.md) for instructions.  
+>  These instructions describe the easiest and most straightforward computer configuration for developers who have a Windows and Visual Studio background. With this configuration, the overall development experience is simplified because you only need to interact with the Mac to use the iOS simulator and tethered device. If you instead come from a Mac background, we recommend either running Visual Studio inside Parallels/VMWare or using Xamarin Studio Community. Refer to [Setup, install, and verifications for Mac users](../cross-platform/setup-install-and-verifications-for-mac-users.md) for instructions.  
   
 > [!NOTE]
 >  If you're looking for a cross-platform development solution based on HTML and CSS, check out the Visual Studio Tools for Apache Cordova as described in [Cross-Platform Development in Visual Studio](../cross-platform/cross-platform-mobile-development-in-visual-studio.md#HTML).
