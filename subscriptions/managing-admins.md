@@ -20,7 +20,7 @@ In the Visual Studio Subscriptions Administrator Portal (https://manage.visualst
 
 **Administrators:** An administrator can manage subscribers in the agreements that the super admin assigns to them.  They can assign subscriptions to individuals, edit subscriptions, and reassign or remove them.   (Administrators are appointed by Super Admins.)  
 
-## Adding an administrator **with** Super Admin rights:
+## Adding Administrators and Super Admins:
 
 1. Sign in to the Visual Studio Subscriptions [Administrator Portal](https://manage.visualstudio.com) using an account that already has super admin rights.
 
@@ -29,29 +29,23 @@ In the Visual Studio Subscriptions Administrator Portal (https://manage.visualst
 3. Click **Add** to create a new administrator. 
 
 4. Fill in all requested details in the Add Administrator pop-up window.
-  - If your organization has already enrolled in the Azure Active Directory (AAD), start typing the name in the **Name** field, and select the correct item on the dropdown list. With new users, type the full name and ignore the *No identities found* notification.
-  - Once the correct user has been identified, the Sign-in Email Address field will be automatically populated. Type the new admin's email address, if not already provided.
+      - If your organization has already enrolled in the Azure Active Directory (AAD), start typing the name in the **Name** field, and select the correct item on the dropdown list. With new users, type the full name and ignore the *No identities found* notification.
+      - Once the correct user has been identified, the Sign-in Email Address field will be automatically populated. Type the new admin's email address, if not already provided.
 
-5. Select the **PCN** you'd like the new admin to manage, by clicking on the dropdown list under **Agreements**. If the PCN you are onboarding has more than one agreement under it, you can provide your administrator with access to any or all of the agreements. 
+5. Click the drop-down list under **Agreements**, and select the **PCN** you'd like the new admin to manage. If the PCN you are onboarding has more than one agreement under it, you can provide your administrator with access to any or all of the agreements. 
 
 **More on agreements:** The dropdown functionality under Agreements is disabled when there is only one agreement available.  All Agreements are automatically checked when the user you’re configuring is granted Super Admin rights.
 
-6. Click the **Super Admin** box to enable super admin rights for this administrator.  
+6. If you want this admin to have super admin rights, click the **Super Admin** box.  Otherwise, leave the check box blank to create an administrator without super admin rights. 
 
 7. To finish adding this administrator, click **Add**.
 
 **Potential error received while adding Admins:** Some users may receive an error message when trying to add the administrator. This is likely to occur if the super admin’s email address that is being added is not listed in the company's AAD. To finish adding the new administrator, simply ignore the error, and click **Add** again. 
 
-8. Once a super admin has been created, you'll see them in the list of administrators, and their account will be marked with a green check mark to indicate their super admin status. 
+8. Once an admin has been created, you'll see them in the list of administrators.  Super Admins' accounts will be marked with a green check mark to indicate their super admin status. 
 
 ### Optional:  Add a different notification email.
 If your organization has a different address/ account for receiving emails, you now have an option to enter a "Communication" address. Select **Add a different notification email for receiving communication**. 
 
 *Example:*
- Rene uses rene@contoso.com when he signs in using his company credentials.  However, Rene's company only uses that address to manage directory access.  When sending and receiving emails, Rene uses rene.collado@contoso.com, so his Super Admin has entered a second address to ensure he receives the welcome mails.  If your company is not configured in this way, then simply entering the Sign-in Email Address should be sufficient.
-
-## Adding an administrator **without** Super Admin rights:
-
-The same process as described above should be followed in order to add administrators without Super Admin rights, but taking into account the following aspects:
--  When adding Administrators without Super Admin rights, there is no need for an additional email address to be added, and the Super Admin checkbox remains blank.
--  Users without Super Admin rights do not receive the Green Check icon in her profile configuration entry under "Manage Administrators".
+ Rene uses 'rene@contoso.com' when he signs in using his company credentials.  However, Rene's company only uses that address to manage directory access.  When sending and receiving emails, Rene uses 'rene.collado@contoso.com', so his Super Admin has entered a second address to ensure he receives the welcome mails.  If your company is not configured in this way, then simply entering the Sign-in Email Address should be sufficient.
