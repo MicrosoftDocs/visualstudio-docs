@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "12/10/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "quickstart"
@@ -12,9 +12,9 @@ ms.devlang: "vb"
 author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen
-dev_langs: 
+dev_langs:
   - vb
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Quickstart: Create your first console app in Visual Studio with Visual Basic
@@ -76,9 +76,8 @@ Let's add some code to pause the application and then ask for user input.
 
    ![Console window showing Hello World and Press any key to continue](../ide/media/vb-console-hello-world-press-any-key.png)
 
-Congratulations on completing this quickstart! We hope you learned a little bit about Visual Basic and the Visual Studio IDE. If you'd like to delve deeper, please continue with a tutorial in the **Tutorials** section of the table of contents.
+## Next Steps
+Congratulations on completing this Quickstart! We hope you learned a little bit about Visual Basic and the Visual Studio IDE. To learn more, continue with the following tutorial.
 
-## See also
-* [Quickstart: Create a "Hello World" Windows Forms app in Visual Basic with Visual Studio](quickstart-visual-basic-winforms.md)
-* [Tutorial: Getting started with Visual Basic in Visual Studio](tutorial-visual-basic-console.md)
-* [IntelliSense for Visual Basic code files](visual-basic-specific-intellisense.md)
+> [!div class="nextstepaction"]
+> [Getting started with Visual Basic in Visual Studio](tutorial-visual-basic-console.md)

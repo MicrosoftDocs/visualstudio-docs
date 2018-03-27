@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: vs-ide-general
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords: 
+f1_keywords:
   - "File Properties.CopyToOutputDirectory"
   - "File Properties.CustomToolNamespace"
   - "File Properties.FileName"
@@ -15,7 +15,7 @@ f1_keywords:
   - "File Properties.BuildAction"
   - "File Properties.CustomTool"
   - "FileProperties"
-helpviewer_keywords: 
+helpviewer_keywords:
   - ".sln files"
   - ".suo files"
   - "file types [Visual Studio]"
@@ -26,7 +26,7 @@ helpviewer_keywords:
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Project and solution file types
@@ -46,7 +46,7 @@ Visual Studio uses two file types (.sln and .suo) to store settings for solution
 
 Projects can contain many different file types. For example, C# code files have a **.cs** extension, and C++ files have a **.cpp** extension. Resources are stored in **.resx** files, and XAML in **.xaml** files. [App.config](../../ide/managing-application-settings-dotnet.md) files contain application information that should not be included in the application code&mdash;for example connection strings.
 
-For more information about file types in C++ projects, see [File Types Created for Visual C++ Projects](/cpp/ide/file-types-created-for-visual-cpp-projects) and [Unicode in Microsoft Foundation Class Library](/cpp/mfc/unicode-in-mfc)
+For more information about file types in C++ projects, see [File Types Created for Visual C++ Projects](/cpp/ide/file-types-created-for-visual-cpp-projects).
 
 ## See also
 

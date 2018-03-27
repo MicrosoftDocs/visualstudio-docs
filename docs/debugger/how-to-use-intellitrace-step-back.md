@@ -1,5 +1,6 @@
 ---
 title: "View a snapshot using IntelliTrace step-back - Visual Studio  | Microsoft Docs"
+ms.description: "Learn how to take snapshots, and view snapshots with IntelliTrace step-back"
 ms.custom: "mvc"
 ms.date: "12/06/2017"
 ms.reviewer: ""
@@ -74,8 +75,6 @@ In this tutorial, you will:
 2. To return to live execution, choose **Continue (F5)** or click the **Return to Live Debugging** link in the infobar. 
 
 3. You can also view a snapshot from the **Events** tab. To do this, select an event with a snapshot and click **Activate Historical Debugging**.
-
-    You can also click on the camera icon to activate historical debugging.
 
     ![Activate Historical Debugging on an event](../debugger/media/intellitrace-activate-historical-debugging.png "Activate Historical Debugging on an event")
 
