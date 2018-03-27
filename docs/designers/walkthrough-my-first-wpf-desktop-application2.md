@@ -131,7 +131,7 @@ In this section, you'll add two pages and an image to the application.
     </Page>
     ```
 
-    In Visual Basic, the first line will by slightly different:
+    In Visual Basic, the first line will be slightly different:
 
     ```xaml
     <Page x:Class="ExpenseItHome"
@@ -155,7 +155,7 @@ In this section, you'll add two pages and an image to the application.
     </NavigationWindow>
     ```
 
-    In Visual Basic, the first line will by slightly different:
+    In Visual Basic, the first line will be slightly different:
 
     ```xaml
     <NavigationWindow x:Class="MainWindow"
@@ -315,7 +315,7 @@ Layout provides an ordered way to place elements, and also manages the size and 
 
     1. Find the line `<Button Grid.Column="0" Grid.Row="2" Margin="0,10,0,0" Width="125"`. Change `Grid.Column="0"` to `Grid.Column="1"` and change `Grid.Row="2"` to `Grid.Row="3"`.
 
-1. Just before the `<Border` element add the following XAML code to display the title:
+1. Just before the `<Border` element, add the following XAML code to display the title:
 
     ```xaml
     <Label Grid.Column="1" VerticalAlignment="Center" FontFamily="Trebuchet MS"
@@ -568,7 +568,7 @@ Layout provides an ordered way to place elements, and also manages the size and 
 
     -   `listHeaderTextStyle`: To format the list header **Label**.
 
-    -   `buttonStyle`: To format the `Button` on the **ExpenseItHome.xaml** pppage.
+    -   `buttonStyle`: To format the `Button` on the **ExpenseItHome.xaml** page.
 
 1. Open **ExpenseItHome.xaml** and replace everything between the `<Grid>` and `</Grid>` elements with the following XAML:
 
@@ -669,7 +669,7 @@ Layout provides an ordered way to place elements, and also manages the size and 
 
 ### To bind data to a control
 
-1. Open **ExpenseItHome.xaml** and choose the `<Grid>` element..
+1. Open **ExpenseItHome.xaml** and choose the `<Grid>` element.
 
 1. Add the following XAML code:
 

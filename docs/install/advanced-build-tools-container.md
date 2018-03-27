@@ -4,15 +4,15 @@ ms.custom: ""
 ms.date: "10/18/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: "e03835db-a616-41e6-b339-92b41d0cfc70"
 author: "heaths"
-ms.author: "heaths"
+ms.author: "tglee"
 manager: ghogen
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 

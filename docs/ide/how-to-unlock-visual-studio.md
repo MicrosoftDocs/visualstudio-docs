@@ -5,13 +5,12 @@ ms.date: 07/20/2017
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
-  - "vs-ide-general"
+  - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ffb580a1-8b5d-48f5-b811-87f8036f50ea
-caps.latest.revision: 8
-author: "gewarren"
-ms.author: "gewarren"
+author: "TerryGLee"
+ms.author: "tglee"
 manager: ghogen
 ms.workload:
   - "multiple"
@@ -71,4 +70,3 @@ If you do not reenter your credentials, the token starts to go stale and the Acc
 ## See also
 
 * [Signing in to Visual Studio](../ide/signing-in-to-visual-studio.md)
- 

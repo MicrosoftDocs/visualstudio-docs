@@ -1129,6 +1129,7 @@ Each section in the following table includes commands for which the keyboard sho
 |Design.ShowHandles|F9|  
 |Design.ZoomIn|Ctrl+Alt+=|  
 |Design.ZoomOut|Ctrl+Alt+-|  
+|Designer options|Ctrl+Shift+;|  
 |Format.EditText|F2|  
 |Format.ResetLayout.All|Ctrl+Shift+R|  
 |Run project code|Ctrl+F9|  
