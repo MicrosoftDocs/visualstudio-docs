@@ -1,5 +1,5 @@
 ---
-title: "Deploying Applications, Services, and Components | Microsoft Docs"
+title: "Deployment overview - Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: 07/14/2017
 ms.reviewer: ""
@@ -23,28 +23,24 @@ helpviewer_keywords:
   - "components [.NET Framework], deploying"
 ms.assetid: 63fcdd5b-2e54-4210-9038-65bc23167725
 caps.latest.revision: 33
-author: "stevehoag"
-ms.author: "shoag"
+author: "mikejo5000"
+ms.author: "mikejo"
 manager: "wpickett"
 ms.workload: 
   - "multiple"
 ---
 
-# Deploying Applications, Services, and Components
+# Overview of deployment in Visual Studio
 
-By deploying an application, service, or component, you distribute it for installation on other computers, devices, servers, or in the cloud. You choose the appropriate method in Visual Studio for the type of deployment that you need.  
+By deploying an application, service, or component, you distribute it for installation on other computers, devices, servers, or in the cloud. You choose the appropriate method in Visual Studio for the type of deployment that you need.  For a quick look at the deployment options in the Visual Studio IDE, see [First look at deployment](../deployment/deploying-applications-services-and-components.md).
   
 The following table describes different deployment scenarios and provides links to more information for each scenario.  
-
-For a discussion of options to create a setup experience for a Windows app, see [Desktop to Universal Windows Platform (UWP) Bridge](/windows/uwp/porting/desktop-to-uwp-root#convert).
-
- 
-## In This Section  
   
 | Deployment Scenario | Supporting Content |
 | --- | --- |  
 | **Publish to the cloud:** You can make applications, services, and data available from anywhere by using Visual Studio to deploy them to Microsoft Azure.|[Publishing Applications to Microsoft Azure](/azure/#pivot=products) |
 | **Publish a UWP app:** You can easily build, submit, and sell your apps from Microsoft Store to customers around the world. |[Publish Windows apps](https://developer.microsoft.com/store/publish-apps) |
+| **Publish a Windows app to Microsoft Store:** You can easily build, submit, and sell your apps from Microsoft Store to customers around the world. |[Desktop to Universal Windows Platform (UWP) Bridge](/windows/uwp/porting/desktop-to-uwp-root#convert) |
 | **Deploy an ASP.NET application or service:** You can deploy ASP.NET applications and services in a number of different ways.|[Deploying ASP.NET web applications and services](http://www.asp.net/aspnet/overview/deployment) |
 | **Publish an add-in for Office:** You can publish an add-in for Office from Visual Studio. | [Deploy and publish your Office add-in](https://dev.office.com/docs/add-ins/publish/publish) |
 | **Deploy a WCF or OData service:** Other applications can use WCF RIA services that you deploy to a web server. | [Developing and deploying WCF Data Services](/dotnet/framework/data/wcf/developing-and-deploying-wcf-data-services) |

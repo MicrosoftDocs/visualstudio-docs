@@ -1,6 +1,6 @@
 ---
 title: "Debug with managed code using the Visual Studio debugger | Microsoft Docs"
-ms.custom: ""
+ms.custom: "mvc"
 ms.date: "03/18/2018"
 ms.reviewer: ""
 ms.suite: ""

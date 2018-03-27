@@ -8,7 +8,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.topic: "tutorial"
 helpviewer_keywords: 
   - "debugger"
 ms.assetid: 62734c0d-a75a-4576-8f73-0e97c19280e1

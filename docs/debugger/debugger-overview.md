@@ -1,13 +1,13 @@
 ---
-title: "Debugger Basics | Microsoft Docs"
-ms.custom: ""
+title: "Debugger overview - Visual Studio | Microsoft Docs"
+ms.custom: "mvc"
 ms.date: "07/11/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "overview"
 dev_langs: 
   - "C++"
   - "FSharp"
@@ -17,7 +17,6 @@ helpviewer_keywords:
   - "debugging [Visual Studio]"
   - "debugger, about debugger"
   - "debugger, roadmap"
-ms.assetid: 4da42a10-384d-44d7-b4dc-032202ff784b
 caps.latest.revision: 27
 author: "mikejo5000"
 ms.author: "mikejo"
@@ -25,12 +24,15 @@ manager: ghogen
 ms.workload: 
   - "multiple"
 ---
-# Debugger Basics
+# Overview of the Visual Studio debugger
 The Visual Studio debugger allows you to observe the run-time behavior of your program and locate logic errors. The debugger works with all Visual Studio programming languages and their associated libraries. With the debugger, you can break execution to step through your code and evaluate variables in your application.  
   
- [Get Started with the Debugger](../debugger/getting-started-with-the-debugger.md)  
+ [First look at the Debugger](../debugger/debugger-feature-tour.md)  
+ Take a tour of the Visual Studio debugger.  
+ 
+ [Learn to debug using Visual Studio](../debugger/getting-started-with-the-debugger.md)
  Explains how to use debugger features to debug your applications.  
-  
+
  [Navigate through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md)  
  Describes how to step through code with the debugger.  
   
@@ -63,6 +65,3 @@ The Visual Studio debugger allows you to observe the run-time behavior of your p
   
  [Debugger Security](../debugger/debugger-security.md)  
  Describes security practices for the debugger.  
-  
-## See Also  
- [Debugger Feature Tour](../debugger/debugger-feature-tour.md)
