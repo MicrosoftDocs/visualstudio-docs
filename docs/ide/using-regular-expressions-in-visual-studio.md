@@ -1,6 +1,6 @@
 ---
-title: "Regular Expressions in Visual Studio | Microsoft Docs"
-ms.date: 03/26/2018
+title: "Using Regular Expressions in Visual Studio | Microsoft Docs"
+ms.custom: 03/26/2018
 ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
@@ -18,7 +18,7 @@ manager: ghogen
 ms.workload:
   - "multiple"
 ---
-# Use regular expressions in Visual Studio
+# Using regular expressions in Visual Studio
 
 Visual Studio uses [.NET Framework regular expressions](/dotnet/standard/base-types/regular-expressions) to find and replace text.
 
