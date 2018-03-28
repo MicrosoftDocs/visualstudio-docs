@@ -31,6 +31,12 @@ Find memory leaks and inefficient memory while you're debugging with the debugge
 >   
 >  `__declspec(allocator) void* myMalloc(size_t size)` 
 
+In this tutorial, you will:
+
+> [!div class="checklist"]
+> * Take snapshots of memory
+> * Analyze memory usage data
+
 ## Collect memory usage data
 
 1.  Open the project you want to debug in Visual Studio and set a breakpoint in your app at the point where you want to begin examining memory usage.
@@ -162,6 +168,9 @@ To analyze memory usage, click one of the links that opens up a detailed report 
   
  [Visual C++ Blog: Memory Profiling in Visual C++ 2015](https://blogs.msdn.microsoft.com/vcblog/2015/10/21/memory-profiling-in-visual-c-2015/)  
 
-## See Also
- [Profiling in Visual Studio](../profiling/index.md)  
- [Profiling Feature Tour](../profiling/profiling-feature-tour.md)
+## Next steps
+
+In this tutorial, you've learned how to collect and analyze memory usage data. If you already completed the [tour of the profiler](../profiling/profiling-feature-tour.md), you may want to get a quick look at how to analyze CPU usage in your apps.
+
+> [!div class="nextstepaction"]
+> [Analyze CPU usage](../profiling/beginners-guide-to-performance-profiling.md) 
