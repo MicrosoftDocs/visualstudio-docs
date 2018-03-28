@@ -20,14 +20,14 @@ manager: ghogen
 ms.workload: 
   - "multiple"
 ---
-# Configuring Warnings in Visual Basic
+# Configuring warnings in Visual Basic
 The [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler includes a set of warnings about code that may cause run-time errors. You can use that information to write cleaner, faster, better code with fewer bugs. For example, the compiler will produce a warning when the user attempts to invoke a member of an unassigned object variable, return from a function without setting the return value, or execute a `Try` block with errors in the logic to catch exceptions.  
   
- Sometimes the compiler provides extra logic on the user's behalf so that the user can focus on the task at hand, rather than on anticipating possible errors. In previous versions of [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)], `Option Strict` was used to limit the additional logic that the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler provides. Configuring warnings allows you to limit this logic in a more granular way, at the level of the individual warnings.  
+ Sometimes the compiler provides extra logic on the user's behalf so that the user can focus on the task at hand, rather than on anticipating possible errors. In previous versions of [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)], **Option Strict** was used to limit the additional logic that the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler provides. Configuring warnings allows you to limit this logic in a more granular way, at the level of the individual warnings.  
   
  You may want to customize your project and turn off some warnings not pertinent to your application while turning other warnings into errors. This page explains how to turn individual warnings on and off.  
   
-## Turning Warnings Off and On  
+## Turning warnings off and on  
  There are two different ways to configure warnings: you can configure them using the **Project Designer**, or you can use the **/warnaserror** and **/nowarn** compiler options.  
   
  The **Compile** tab of the **Project Designer** page allows you to turn warnings on and off. Select the **Disable All Warnings** check box to disable all warnings; select the **Treat All Warnings as Errors** to treat all warnings as errors. Some individual warnings can be toggled as error or warning as desired in the displayed table.  
@@ -59,68 +59,68 @@ The [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler includes 
 |`vbc /nowarn:42024`|Specifies that warning 42024 should not be reported.|  
 |`vbc /nowarn:42024,42025`|Specifies that warnings 42024 and 42025 should not be reported.|  
   
-## Types of Warnings  
+## Types of warnings  
  Following is a list of warnings that you might want to treat as errors.  
   
-### Implicit Conversion Warning  
+### Implicit conversion warning  
  Generated for instances of implicit conversion. They do not include implicit conversions from an intrinsic numeric type to a string when using the `&` operator. Default for new projects is off.  
   
  ID: 42016  
   
-### Late bound Method Invocation and Overload Resolution Warning  
+### Late bound method invocation and overload resolution warning  
  Generated for instances of late binding. Default for new projects is off.  
   
  ID: 42017  
   
-### Operands of Type Object Warnings  
- Generated when operands of type `Object` occur that would create an error with `Option Strict On`. Default for new projects is on.  
+### Operands of type 'Object' warnings  
+ Generated when operands of type `Object` occur that would create an error with **Option Strict On**. Default for new projects is on.  
   
  ID: 42018 and 42019  
   
-### Declarations Require 'As' Clause Warnings  
- Generated when a variable, function, or property declaration lacking an `As` clause would have created an error with `Option Strict On`. Variables that do not have a type assigned to them are assumed to be type `Object`. Default for new projects is on.  
+### Declarations require 'As' clause warnings  
+ Generated when a variable, function, or property declaration lacking an `As` clause would have created an error with **Option Strict On**. Variables that do not have a type assigned to them are assumed to be type `Object`. Default for new projects is on.  
   
  ID: 42020 (variable declaration), 42021 (function declaration), and 42022 (property declaration).  
   
-### Possible Null Reference Exception Warnings  
+### Possible null reference exception warnings  
  Generated when a variable is used before it has been assigned a value. Default for new projects is on.  
   
  ID: 42104, 42030  
   
-### Unused Local Variable Warning  
+### Unused local variable warning  
  Generated when a local variable is declared but never referred to. Default is on.  
   
  ID: 42024  
   
-### Access of Shared member through Instance Variable Warning  
+### Access of shared member through instance variable warning  
  Generated when accessing a shared member through an instance may have side effects, or when accessing a shared member through an instance variable is not the right-hand side of an expression or is being passed in as a parameter. Default for new projects is on.  
   
  ID: 42025  
   
-### Recursive Operator or Property Access Warnings  
+### Recursive operator or property access warnings  
  Generated when the body of a routine uses the same operator or property it is defined in. Default for new projects is on.  
   
  ID: 42004 (operator), 42026 (property)  
   
-### Function or Operator without Return Value Warning  
+### Function or operator without return value warning  
  Generated when the function or operator does not have a return value specified. This includes omitting a `Set` to the implicit local variable with the same name as the function. Default for new projects is on.  
   
  ID: 42105 (function), 42016 (operator)  
   
-### Overloads Modifier Used in a Module Warning  
+### Overloads modifier used in a module warning  
  Generated when `Overloads` is used in a `Module`. Default for new projects is on.  
   
  ID: 42028  
   
-### Duplicate or Overlapping Catch Blocks Warnings  
+### Duplicate or overlapping catch blocks warnings  
  Generated when a `Catch` block is never reached due to its relation to other `Catch` blocks that have been defined. Default for new projects is on.  
   
  ID: 42029, 42031  
   
-## See Also  
- [Error Types](/dotnet/visual-basic/programming-guide/language-features/error-types)   
- [Try...Catch...Finally Statement](/dotnet/visual-basic/language-reference/statements/try-catch-finally-statement)   
+## See also  
+ [Error types](/dotnet/visual-basic/programming-guide/language-features/error-types)   
+ [Try...Catch...Finally statement](/dotnet/visual-basic/language-reference/statements/try-catch-finally-statement)   
  [/nowarn](/dotnet/visual-basic/reference/command-line-compiler/nowarn)   
  [/warnaserror (Visual Basic)](/dotnet/visual-basic/reference/command-line-compiler/warnaserror)   
- [Compile Page, Project Designer (Visual Basic)](../ide/reference/compile-page-project-designer-visual-basic.md)   
- [Compiler Warnings That Are Off by Default](/cpp/preprocessor/compiler-warnings-that-are-off-by-default)
+ [Compile page, Project Designer (Visual Basic)](../ide/reference/compile-page-project-designer-visual-basic.md)   
+ [Compiler warnings that are off by default](/cpp/preprocessor/compiler-warnings-that-are-off-by-default)

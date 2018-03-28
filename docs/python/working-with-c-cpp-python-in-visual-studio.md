@@ -1,5 +1,5 @@
 ---
-title: Working with C++ and Python in Visual Studio | Microsoft Docs
+title: Working with C++ and Python | Microsoft Docs
 description: A walkthrough of creating a C++ extension for Python using Visual Studio, including a walkthrough of mixed-mode debugging.
 ms.custom:
 ms.date: 01/16/2018
@@ -11,7 +11,7 @@ dev_langs:
   - "python"
   - "C++"
 ms.tgt_pltfrm:
-ms.topic: "tutorial"
+ms.topic: "conceptual"
 description: The process amd steps to write a C++ extension or module for Python in Visual Studio
 author: "kraigb"
 ms.author: "kraigb"
@@ -47,6 +47,8 @@ For more information, see [Installing Python Support for Visual Studio](installi
 ## Create the Python application
 
 1. Create a new Python project in Visual Studio by selecting **File > New > Project**. Search for "Python", select the **Python Application** template, give it a suitable name and location, and select **OK**.
+
+1. Working with C++ requires that you use a 32-bit Python interpreter (Python 3.6 recommended). In the **Solution Explorer** window of Visual Studio, expand the project node, then expand the **Python Environments** node. If you don't see a 32-bit environment as the default (either in bold, or labeled with "global default"), then follow the instructions on [Selecting a Python environment for a project](selecting-a-python-environment-for-a-project.md). If you don't have a 32-bit interpreter installed, see [Installing Python interpreters](installing-python-interpreters.md).
 
 1. In the project's `.py` file, paste the following code that benchmarks the computation of a hyperbolic tangent (implemented without using the math library for easier comparison). Feel free to enter the code manually to experience some of the [Python editing features](editing-python-code-in-visual-studio.md).
 
