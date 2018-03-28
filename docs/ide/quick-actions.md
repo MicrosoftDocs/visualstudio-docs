@@ -1,6 +1,6 @@
 ---
 title: "Quick Actions | Microsoft Docs"
-ms.date: 03/26/2018
+ms.date: 03/28/2018
 ms.technology: vs-ide-general
 ms.topic: conceptual
 author: "gewarren"
@@ -18,7 +18,7 @@ Quick Actions let you easily refactor, generate, or otherwise modify code with a
 
 Quick Actions can be used to:
 
-- apply a code fix for a [code analyzer](../code-quality/analyze-code-with-roslyn-analyzers.md) rule violation
+- apply a code fix for a [code analyzer](../code-quality/roslyn-analyzers-overview.md) rule violation
 - [suppress](../code-quality/use-roslyn-analyzers.md) a code analyzer rule violation
 - apply a refactoring (for example, [inline a temporary variable](../ide/reference/inline-temporary-variable.md))
 - generate code (for example, [introduce a local variable](../ide/reference/introduce-local-variable.md))

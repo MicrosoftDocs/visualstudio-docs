@@ -27,7 +27,9 @@ Many analyzer rules, or *diagnostics*, have an associated *code fix* that you ca
 
 .NET Compiler Platform ("Roslyn") analyzers will eventually replace [static code analysis](../code-quality/code-analysis-for-managed-code-overview.md) for managed code. Many of the static code analysis rules have already been rewritten as Roslyn analyzer diagnostics.
 
-Like static code analysis rule violations, Roslyn analyzer violations appear in the **Error List**. In addition, Roslyn analyzer violations also show up in the code editor as *squigglies* under the offending code.
+Like static code analysis rule violations, Roslyn analyzer violations appear in the **Error List**. In addition, Roslyn analyzer violations also show up in the code editor as *squigglies* under the offending code. The color of the squiggly depends on the [severity setting](../code-quality/use-roslyn-analyzers.md#rule-severity) of the rule.
+
+![Squigglies in the code editor](media/diagnostics-severity-colors.png)
 
 Roslyn analyzers analyze code at build time, like static code analysis if it's enabled, but also live as you type! Roslyn analyzers can provide design-time analysis of code files that aren't open in the editor if you enable [full solution analysis](../code-quality/how-to-enable-and-disable-full-solution-analysis-for-managed-code.md#to-toggle-full-solution-analysis).
 
