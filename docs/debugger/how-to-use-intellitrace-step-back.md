@@ -34,19 +34,11 @@ In this tutorial, you will:
 
 1. Open your project in Visual Studio Enterprise.
 
-<<<<<<< HEAD
 1. Open **Tools** > **Options** > **IntelliTrace** settings, and select the option **IntelliTrace events and snapshots**. 
 
     ![Enable IntelliTrace Events and Snapshots mode](../debugger/media/intellitrace-enable-snapshots.png "Enable IntelliTrace Events and Snapshots mode")
 
 1. In your project, set one or more breakpoints and start debugging (press **F5**), or start debugging by stepping through your code (**F10** or **F11**).
-=======
-1. Go to **Tools > Options > IntelliTrace** settings, and select the option **IntelliTrace events and snapshots**. 
-
-    ![Enable IntelliTrace Events and Snapshots mode](../debugger/media/intellitrace-enable-snapshots.png "Enable IntelliTrace Events and Snapshots mode")
-
-1. Set one or more breakpoints in your project and start debugging (press **F5**), or start debugging by stepping through your code (**F10** or **F11**).
->>>>>>> 1fc131741d2d1f7fbee4fd0130fb40e960c702f0
 
     IntelliTrace takes a snapshot of the application's process on each debugger step and breakpoint event. These events are recorded in the **Events** tab in the **Diagnostic Tools** window, along with other IntelliTrace events. To open this window, choose **Debug** > **Windows** > **Show Diagnostic Tools**.
 
