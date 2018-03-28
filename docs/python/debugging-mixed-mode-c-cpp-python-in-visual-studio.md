@@ -1,5 +1,5 @@
 ---
-title: Mixed-mode debugging for Python in Visual Studio | Microsoft Docs
+title: Mixed-mode debugging for Python | Microsoft Docs
 description: How to simultaneously debug C++ and Python in Visual Studio including stepping between environments, viewing values, and evaluting expressions.
 ms.custom:
 ms.date: 01/16/2018
@@ -11,7 +11,7 @@ dev_langs:
   - "python"
   - "C++"
 ms.tgt_pltfrm:
-ms.topic: "article"
+ms.topic: "conceptual"
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
