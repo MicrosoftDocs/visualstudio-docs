@@ -1,7 +1,7 @@
 ---
-title: Working with Python in Visual Studio, Step 6, Working with Git | Microsoft Docs
+title: Working with Python, Step 6, Working with Git | Microsoft Docs
 description: Step 6 of a core tutorial for working with Python within Visual Studio, covering Visual Studio's Git-related features.
-ms.custom:
+ms.custom: "mvc"
 ms.date: 01/16/2018
 ms.reviewer:
 ms.suite:
