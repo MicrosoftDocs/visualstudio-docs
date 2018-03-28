@@ -1,5 +1,5 @@
 ---
-title: Django web project template for Python in Visual Studio | Microsoft Docs
+title: Django web project template for Python | Microsoft Docs
 description: An overview of the Visual Studio templates for web applications written in Python using the Django framework.
 ms.custom:
 ms.date: 07/13/2017
@@ -10,7 +10,7 @@ ms.technology:
 dev_langs:
   - "python"
 ms.tgt_pltfrm:
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.author: "kraigb"
 manager: ghogen
 ms.workload: 
