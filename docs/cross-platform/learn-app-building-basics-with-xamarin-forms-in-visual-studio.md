@@ -1,7 +1,7 @@
 ---
 title: "Learn app-building basics with Xamarin.Forms in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "03/26/2018"
+ms.date: "03/28/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
