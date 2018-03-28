@@ -1,6 +1,16 @@
-#  Use a custom NuGet feed
+---
+title: "How to use a custom NuGet feed in a connected environment| Microsoft Docs"
+author: "johnsta"
+ms.author: "johnsta"
+ms.date: "3/27/2018"
+ms.topic: "article"
+description: "Use a custom NuGet feed to access and use NuGet packages in a connected environment."
+keywords: "Docker, Kubernetes, Azure, AKS, Azure Container Service, containers"
+manager: "ghogen"
+---
+#  Use a custom NuGet feed in a connected environment
 
-A NuGet feed provides a convenient way to include package sources in a project. Connected Environment will need to be able to access this feed in order dependencies to be properly installed in the Docker container.
+A NuGet feed provides a convenient way to include package sources in a project. Connected Environment will need to be able to access this feed in order for dependencies to be properly installed in the Docker container.
 
 To set up a NuGet feed:
 1. Add a [package reference](https://docs.microsoft.com/en-us/nuget/consume-packages/package-references-in-project-files) in the `*.csproj` file under the `PackageReference` node.
