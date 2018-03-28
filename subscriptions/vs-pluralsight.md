@@ -99,8 +99,8 @@ A: Not all Visual Studio Enterprise subscriptions include the Pluralsight benefi
 
 ### Q: What happens when my Pluralsight subscription runs out?  
 A:  At the end of your free Pluralsight subscription, you have two options:
-1. A limited selection of courses may be available to you for an additional 12 months depending on your Visual Studio subscription.  Check the [eligility table](#eligibility) table to see whether your subscription is eligible.
-2. You may choose to purchase a subscription directly from Pluralsight.  Please contact [Pluralsight](http://www.pluralsight.com) for full details.  
+1. You get free 12-month access (Check the [eligility table](#eligibility) table to see whether your subscription is eligible) to a limited set of 50 courses in one of three key areas including: app development on the cloud; AI, machine learning and data; and DevOps in the cloud. Watch for an email from Pluralsight to claim your free access after expiration. You can see a [list of courses](https://help.pluralsight.com/help/which-courses-are-included-with-the-visual-studio-benefit) available under each partial library.
+2. You may choose to purchase a subscription directly from Pluralsight at a 10% discount which gives you access to their full course catalog.  Please contact [Pluralsight](http://www.pluralsight.com) for full details.  
 
 ## Support Resources
 -  [Pluralsight Help Center](https://help.pluralsight.com/help) provides assistance with taking Pluralsight courses or using the Pluralsight website. 

@@ -42,7 +42,7 @@ Once you have met the criteria in the 5 steps above you may proceed to associate
 4.	Select your **tenant** (i.e. contoso.onmicrosoft.com).
 5.	Click **Associate Domain**.
 
-Upon association, all users meeting  the needed criteria will typically provision as Visual Studio subscriptions administrators within minutes. However, at times it may take up to 24 hours. Once you provision you will be able to access the Visual Studio sSubscriptions Administration Portal. If this takes longer than 24 hours, please contact MPSA Support.
+Upon association, all users meeting  the needed criteria will typically provision as Visual Studio subscriptions administrators within minutes. However, at times it may take up to 24 hours. Once you provision you will be able to access the Visual Studio Subscriptions Administration Portal. If this takes longer than 24 hours, please contact MPSA Support.
 
 > [!NOTE]
 > If there are new users that have met  the criteria in steps 2 and 5 (after association) you must contact MPSA Support. MPSA Support will provide assistance to provision the new Visual Studio Subscriptions administrators.

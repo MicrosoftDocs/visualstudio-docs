@@ -3,7 +3,7 @@ title: Accessing Administrator Portal | Visual Studio Marketplace
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp
-Ms.date: 10/3/2017
+Ms.date: 10/03/2017
 Ms.topic: Get-Started-Article
 Description: Learn how to access the Administrator Portal 
 Ms.prod: vs-subscription
@@ -11,6 +11,9 @@ Ms.technology: vs-subscriptions
 Searchscope: VS Subscription
 ---
 # Accessing the Visual Studio Subscriptions Administrator Portal
+
+As an administrator for Visual Studio subscriptions, you have the ability to assign and manage subscriptions for your organization.  The processes you'll use to do that depend on the type of subscriptions you have.  This article outlines the requirements to access the administrator portal based on how your organization acquires subscriptions.  
+
 ## For MPSA
 To access the Visual Studio Subscriptions Administrator Portal, you will need to be set up as an administrator in the Microsoft Business Center Portal or the BCP. 
 

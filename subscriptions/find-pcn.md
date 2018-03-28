@@ -11,9 +11,10 @@ Ms.technology: vs-subscriptions
 Searchscope: VS Subscription
 ---
 
-# How Do I Locate My “Public Customer Number” (PCN) or Authorization Number?
+# How do I locate my “Public Customer Number” (PCN) or Authorization Number?
 
-## To locate your PCN or authorization number:
+
+## To Locate your PCN or authorization number:
 
 1.  Log in to the Volume Licensing Service Center at: https://www.Microsoft.com/licensing/servicecenter.
 
@@ -29,6 +30,6 @@ Searchscope: VS Subscription
 
 If you are not seeing the above page and are being redirected to the Visual Studio sign-in page, please copy and paste the following link into your browser: https://www.microsoft.com/Licensing/servicecenter/Subscription/AgreementSearch.
 
-## What If I Have More Than One PCN? Which One Do I use?
+## What if I have more than one PCN?  Which one should I use?
 
 If you have more than one Public Customer Number (PCN), you will receive one email with a unique onboarding URL for each PCN. Each unique URL only works with the corresponding PCN, the last three digits of which are also provided in the same email. You’ll need to complete the onboarding process through the unique link in each email, for each PCN. 
