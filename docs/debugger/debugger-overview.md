@@ -13,11 +13,6 @@ dev_langs:
   - "FSharp"
   - "CSharp"
   - "VB"
-helpviewer_keywords: 
-  - "debugging [Visual Studio]"
-  - "debugger, about debugger"
-  - "debugger, roadmap"
-caps.latest.revision: 27
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

@@ -28,7 +28,7 @@ From within Visual Studio, Web applications can be published directly to the fol
 - [File system](#file-system)
 - [Custom targets (IIS, FTP, etc.)](#custom-targets), which includes all arbitrary web servers.
 
-On the **Publish** tab, you can select an existing publish profile, import an existing one, or create a new one using the options described here.
+On the **Publish** tab, you can select an existing publish profile, import an existing one, or create a new one using the options described here. For a tour of the publishing options in the IDE for different app types, see [First look at deployment](../deployment/deploying-applications-services-and-components.md).
 
 ## Azure App Service Web Apps
 
