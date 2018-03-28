@@ -1,5 +1,5 @@
 ---
-title: Debugging Python Code in Visual Studio | Microsoft Docs
+title: Debugging Python Code | Microsoft Docs
 description: A walkthrough of the debugging features in Visual Studio specifically for Python code, including setting breakpoints, stepping, inspecting values, looking at exceptions, and debugging in the interactive window.
 ms.custom:
 ms.date: 03/05/2018
@@ -10,7 +10,7 @@ ms.technology:
 dev_langs:
   - "python"
 ms.tgt_pltfrm:
-ms.topic: "article"
+ms.topic: "conceptual"
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
