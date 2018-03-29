@@ -167,7 +167,7 @@ End Function
 
 ## Actions that remove unnecessary code
 
-### Remove unnecesary usings/Imports
+### Remove unnecessary usings/Imports
 
 The **Remove Unnecessary Usings/Imports** Quick Action will remove any unused `using` and `Import` statements for the current file.  When you select this item, unused namespace imports will be immediately removed.
 
@@ -230,7 +230,7 @@ public MyMethod()
 | ------- | -------------------- | ----------------  |
 | CS0219, BC42024 | C# and Visual Basic | Visual Studio 2017 version 15.3 |
 
-### Remove type from **default** value expression
+### Remove type from default value expression
 
 This Quick Action removes the value type from a default value expression and uses the [default literal](/dotnet/csharp/programming-guide/statements-expressions-operators/default-value-expressions#default-literal-and-type-inference) when the compiler can infer the type of the expression.
 
@@ -251,7 +251,7 @@ void DoWork(CancellationToken cancellationToken = default) { ... }
 
 ## Actions that add missing code
 
-### Add usings/Imports for types in reference assemblies, NuGet packages, or other types in your solution
+### Add usings/imports for types in reference assemblies, NuGet packages, or other types in your solution
 
 Using types located in other projects in your solution will display the Quick Action automatically, however the others need to be enabled from the **Tools > Options > C#** or **Basic > Advanced** tab:
 
@@ -466,7 +466,7 @@ private static int thisFieldIsPublic;
 
 ## Code transformations
 
-### Convert **if** construct to **switch**
+### Convert 'if' construct to 'switch'
 
 This Quick Action enables you to convert an **if-then-else** construct to a **switch** construct.
 
@@ -732,7 +732,7 @@ int fibonacci(int n)
 }
 ```
 
-### Convert `ReferenceEquals` to `is null`
+### Convert 'ReferenceEquals' to 'is null'
 
 |  Diagnostic ID | Applicable Languages |  Supported Version |
 | ------- | -------------------- | ----------------  |

@@ -1,5 +1,5 @@
 ---
-title: Refactoring Python code in Visual Studio | Microsoft Docs
+title: Refactoring Python code | Microsoft Docs
 description: How to easily refactor Python code in Visual Studio by renaming identifiers, extracting methods, adding imports, and removing unused imports.
 ms.custom:
 ms.date: 07/12/2017
@@ -10,7 +10,7 @@ ms.technology:
 dev_langs:
   - "python"
 ms.tgt_pltfrm:
-ms.topic: "article"
+ms.topic: "conceptual"
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen

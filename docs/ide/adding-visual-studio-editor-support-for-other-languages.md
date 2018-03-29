@@ -61,28 +61,28 @@ Learn about how the Visual Studio editor supports reading and navigating through
   
 -   C#  
   
- All of these file types have  the features described earlier even if support for a given language hasn't yet  been installed. Installing specialized support for some languages may provide additional language support, such as IntelliSense or other advanced language features such as Light Bulbs.  
+All of these file types have  the features described earlier even if support for a given language hasn't yet  been installed. Installing specialized support for some languages may provide additional language support, such as IntelliSense or other advanced language features such as Light Bulbs.  
   
 ## Adding support for non-supported languages  
  Visual Studio 2015 Update 1 and later versions provide language support in the editor by using [TextMate Grammars](https://manual.macromates.com/en/language_grammars). If your favorite programming language currently isn't supported in the Visual Studio editor, first, search the web - a TextMate bundle for the language may already exist. If you can't find one, though, you can add support for it yourself in Visual Studio 2015 Update 1 or later by creating a TextMate bundle  model for language grammars and snippets.  
   
  Add any new TextMate Grammars for Visual Studio in the following folder:  
   
- %userprofile%\\.vs\Extensions  
+ *%userprofile%\\.vs\Extensions*  
   
  Under this base path, add the following folder(s) if they apply to your situation:  
   
 |Folder Name|Description|  
 |-----------------|-----------------|  
-|\\*\<language name>*|The language folder. Replace *\<language name>* with the name of the language. For example, **\Matlab**.|  
-|\Syntaxes|The grammar folder. Contains the grammar .json files for the language, such as **Matlab.json**.|  
-|\Snippets|The snippets folder. Contains snippets for the language.|  
+|\\*\<language name>*|The language folder. Replace *\<language name>* with the name of the language. For example, *\Matlab*.|  
+|*\Syntaxes*|The grammar folder. Contains the grammar *.json* files for the language, such as *Matlab.json*.|  
+|*\Snippets*|The snippets folder. Contains snippets for the language.|  
   
- In Windows, %userprofile% resolves to the path: c:\Users\\*\<user name>*. If the extensions folder does not exist on your system, you will need to create it. If the folder already exists, it will be hidden.  
+ In Windows, *%userprofile%* resolves to the path: *c:\Users\\*\<user name>*.* If the extensions folder does not exist on your system, you will need to create it. If the folder already exists, it will be hidden.  
   
  For details about how to create TextMate Grammars, see [TextMate - Introduction to Language Grammars: How to add source code syntax highlighting embedded in HTML](https://developmentality.wordpress.com/2011/02/08/textmate-introduction-to-language-grammars/) and [Notes on how to create a Language Grammar and Custom Theme for a Textmate Bundle](https://benparizek.com/notebook/notes-on-how-to-create-a-language-grammar-and-custom-theme-for-a-textmate-bundle).  
   
-## See Also  
- [Visual Studio 2013 Navigate To Improvements](https://blogs.msdn.microsoft.com/mvpawardprogram/2013/10/22/visual-studio-2013-navigate-to-improvements/)   
- [Walkthrough: Creating a Code Snippet](../ide/walkthrough-creating-a-code-snippet.md)   
- [Walkthrough: Displaying Statement Completion](../extensibility/walkthrough-displaying-statement-completion.md)
+## See also  
+ [Visual Studio 2013 Navigate To improvements](https://blogs.msdn.microsoft.com/mvpawardprogram/2013/10/22/visual-studio-2013-navigate-to-improvements/)   
+ [Walkthrough: Creating a code snippet](../ide/walkthrough-creating-a-code-snippet.md)   
+ [Walkthrough: Displaying statement completion](../extensibility/walkthrough-displaying-statement-completion.md)

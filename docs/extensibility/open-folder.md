@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio Open Folder Extensibility Overview | Microsoft Docs"
+title: "Visual Studio Open Folder extensibility overview | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/21/2018"
 ms.reviewer: ""
@@ -15,7 +15,7 @@ manager: "viveis"
 ms.workload:
   - "vssdk"
 ---
-# Open Folder Extensibility
+# Open Folder extensibility
 
 The [Open Folder](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md) feature allows users to open any codebase in Visual Studio without the need for project or solution files. Open Folder provides the features users expect from Visual Studio such as:
 
@@ -53,6 +53,6 @@ Features that use the following types will need to adopt new APIs to support Ope
 
 Open Folder and the `Microsoft.VisualStudio.Workspace.*` APIs are under active development. If you see unexpected behavior, then see the known issues for the release of interest. The Developer Community is the recommended place to vote and create any issues. For each feedback, we highly recommend a detailed description of your issue. Include the Visual Studio version you're developing for, the APIs you're using (both what you've implemented and what you're interacting with), the expected outcome, and the actual outcome. If possible, include a dump of the devenv.exe process. Use GitHub's issue tracking for giving feedback on this and related documentation.
 
-## Next Steps
+## Next steps
 
 * [Workspaces](workspaces.md) - Learn about the Open Folder workspace API.

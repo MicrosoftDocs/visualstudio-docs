@@ -30,13 +30,13 @@ manager: ghogen
 ms.workload: 
   - "multiple"
 ---
-# Building and Cleaning Projects and Solutions in Visual Studio
-By using the procedures in this topic, you can build, rebuild, or clean all or some of the projects or project items in a solution. For a step-by-step tutorial, see [Walkthrough: Building an Application](../ide/walkthrough-building-an-application.md).  
+# Building and cleaning projects and solutions in Visual Studio
+By using the procedures in this topic, you can build, rebuild, or clean all or some of the projects or project items in a solution. For a step-by-step tutorial, see [Walkthrough: Building an application](../ide/walkthrough-building-an-application.md).  
   
 > [!NOTE]
-> The UI in your edition of Visual Studio might differ from what this topic describes, depending on your active settings. To change your settings, for example to **General** or **Visual C++** settings, choose **Tools**, **Import and Export Settings**, and then choose **Reset all settings**.
+> The UI in your edition of Visual Studio might differ from what this topic describes, depending on your active settings. To change your settings, for example to **General** or **Visual C++** settings, choose **Tools** > **Import and Export Settings**, and then choose **Reset all settings**.
   
-### To build, rebuild, or clean an entire solution  
+## To build, rebuild, or clean an entire solution  
   
 1.  In **Solution Explorer**, choose or open the solution.  
   
@@ -51,69 +51,69 @@ By using the procedures in this topic, you can build, rebuild, or clean all or s
   
     -   Choose **Clean Solution** to delete any intermediate and output files. With only the project and component files left, new instances of the intermediate and output files can then be built.  
   
-### To build or rebuild a single project  
+## To build or rebuild a single project  
   
 1.  In **Solution Explorer**, choose or open the project.  
   
-2.  On the menu bar, choose **Build**, and then choose either **Build***ProjectName* or **Rebuild***ProjectName*.  
+2.  On the menu bar, choose **Build**, and then choose either **Build** *ProjectName* or **Rebuild** *ProjectName*.  
   
-    -   Choose **Build***ProjectName* to build only those project components that have changed since the most recent build.  
+    -   Choose **Build** *ProjectName* to build only those project components that have changed since the most recent build.  
   
-    -   Choose **Rebuild***ProjectName* to "clean" the project and then build the project files and all project components.  
+    -   Choose **Rebuild** *ProjectName* to "clean" the project and then build the project files and all project components.  
   
-### To build only the startup project and its dependencies  
+## To build only the startup project and its dependencies  
   
-1.  On the menu bar, choose **Tools**, **Options**.  
+1.  On the menu bar, choose **Tools** > **Options**.  
   
 2.  In the **Options** dialog box, expand the **Projects and Solutions** node, and then choose the **Build and Run** page.  
   
-     The **Build and Run, Projects and Solutions, Options** dialog box opens.  
+     The **Build and Run** > **Projects and Solutions** > **Options** dialog box opens.  
   
 3.  Select the  **Only build startup projects and dependencies on Run** check box.  
   
      When this check box is selected, only the current startup project and its dependencies are built when you perform either of the following steps:  
   
-    -   On the menu bar, choose **Debug**, **Start** (F5).  
+    -   On the menu bar, choose **Debug** > **Start** (**F5**).  
   
-    -   On the menu bar, choose **Build**, **Build Solution** (CTRL+SHIFT+B).  
+    -   On the menu bar, choose **Build** > **Build Solution** (**Ctrl**+**Shift**+**B**).  
   
     When this check box is cleared, all projects, their dependencies, and the solution files are built when you run either of the preceding commands. By default, this check box is cleared.  
   
-### To build only the selected Visual C++ project  
+## To build only the selected Visual C++ project  
   
-1.  Choose a [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] project, and then, on the menu bar, choose **Build**, **Project Only**, and one of the following commands:  
+Choose a [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] project, and then, on the menu bar, choose **Build** > **Project Only**, and one of the following commands:  
+
+- **Build Only** *ProjectName*  
   
-    -   **Build Only** *ProjectName*  
+- **Rebuild Only** *ProjectName*  
   
-    -   **Rebuild Only** *ProjectName*  
+- **Clean Only** *ProjectName*  
   
-    -   **Clean Only** *ProjectName*  
+- **Link Only** *ProjectName*  
+
+These commands apply only to the [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] project that you chose, without building, rebuilding, cleaning, or linking any project dependencies or solution files. Depending on your version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], the **Project Only** submenu might contain more commands.  
   
-    -   **Link Only** *ProjectName*  
+## To compile multiple C++ project items  
   
-    These commands apply only to the [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] project that you chose, without building, rebuilding, cleaning, or linking any project dependencies or solution files. Depending on your version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], the **Project Only** submenu might contain more commands.  
+In **Solution Explorer**, choose multiple files that have can be compiled actions, open the shortcut menu for one of those files, and then choose **Compile**.  
+
+If the files have dependencies, the files will be compiled in dependency order. The compile operation will fail if the files require a precompiled header that isn't available when you compile. The compile operation uses the current active solution configuration.  
   
-### To compile multiple C++ project items  
+## To stop a build  
   
-1.  In **Solution Explorer**, choose multiple files that have can be compiled actions, open the shortcut menu for one of those files, and then choose **Compile**.  
+Perform either of the following steps:  
+
+- On the menu bar, select **Build** > **Cancel**.  
   
-    If the files have dependencies, the files will be compiled in dependency order. The compile operation will fail if the files require a precompiled header that isn't available when you compile. The compile operation uses the current active solution configuration.  
-  
-### To stop a build  
-  
-1.  Perform either of the following steps:  
-  
-    -   On the menu bar, choose **Build**, **Cancel**.  
-  
-    -   Choose the Ctrl + Break keys.  
+- Press **Ctrl**+**Break**.  
   
 ## See also
 
-[How to: View, Save, and Configure Build Log Files](../ide/how-to-view-save-and-configure-build-log-files.md)  
-[Obtaining Build Logs](../msbuild/obtaining-build-logs-with-msbuild.md)  
-[Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)  
-[Understanding Build Configurations](../ide/understanding-build-configurations.md)  
+[How to: View, save, and configure build log files](../ide/how-to-view-save-and-configure-build-log-files.md)  
+[Obtaining build logs](../msbuild/obtaining-build-logs-with-msbuild.md)  
+[Compiling and building](../ide/compiling-and-building-in-visual-studio.md)  
+[Understanding build configurations](../ide/understanding-build-configurations.md)  
 [How to: Set debug and release configurations](../debugger/how-to-set-debug-and-release-configurations.md)  
-[C/C++ Building Reference](/cpp/build/reference/c-cpp-building-reference)  
-[Devenv Command Line Switches](../ide/reference/devenv-command-line-switches.md)  
-[Solutions and Projects](../ide/solutions-and-projects-in-visual-studio.md)
+[C/C++ building reference](/cpp/build/reference/c-cpp-building-reference)  
+[Devenv command line switches](../ide/reference/devenv-command-line-switches.md)  
+[Solutions and projects](../ide/solutions-and-projects-in-visual-studio.md)

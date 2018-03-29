@@ -7,9 +7,9 @@ ms.suite: ""
 ms.technology:
   - "vs-acquisition"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 837F31AA-F121-46e9-9996-F8BCE768E579
-author: "timsneath"
+author: "tglee"
 ms.author: "tglee"
 manager: ghogen
 ms.workload:

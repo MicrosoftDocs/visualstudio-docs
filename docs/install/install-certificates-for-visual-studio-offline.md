@@ -4,18 +4,18 @@ description: "Describes the steps needed to install certificates for a Visual St
 ms.date: "08/30/2017"
 ms.reviewer: "tims"
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-acquisition"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
+ms.topic: "conceptual"
+helpviewer_keywords:
   - "{{PLACEHOLDER}}"
   - "{{PLACEHOLDER}}"
 ms.assetid: 9750A3F3-89C7-4A8F-BA75-B0B06BD772C2
-author: "timsneath"
+author: "tglee"
 ms.author: "tglee"
 manager: ghogen
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Install certificates required for Visual Studio offline installation

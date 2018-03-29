@@ -1,5 +1,5 @@
 ---
-title: IPython REPL in Visual Studio | Microsoft Docs
+title: IPython REPL (interactive window) | Microsoft Docs
 description: Using the Visual Studio interactive window in IPython mode for a user-friendly interactive development environment with Interactive Parallel Computing features.
 ms.custom:
 ms.date: 07/13/2017
@@ -10,7 +10,7 @@ ms.technology:
 dev_langs:
   - "python"
 ms.tgt_pltfrm:
-ms.topic: "article"
+ms.topic: "conceptual"
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
