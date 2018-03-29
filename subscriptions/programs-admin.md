@@ -3,7 +3,7 @@ title: Administrators for Visual Studio Subscriptions Acquired Through Programs|
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp
-Ms.date: 3/14/2018
+Ms.date: 03/28/2018
 Ms.topic: Get-Started-Article
 Description:  Information about Administrators for BizSpark, Imagine and Partner Programs
 Ms.prod: vs-subscription
@@ -11,7 +11,9 @@ Ms.technology: vs-subscriptions
 Searchscope: VS Subscription
 ---
 
-# Setting Up Administrators for Subscriptions Acquired Through Programs
+# Administrators for Visual Studio subscriptions acquired through programs
+
+Visual Studio subscriptions acquired through programs such as Microsoft BizSpark, Microsoft Imagine, or the Microsoft Partner Network (MPN) are managed by administrators.  The process for assigning administrative rights to individuals varies by program.  
 
 ## Microsoft BizSpark 
 If you are a Microsoft BizSpark administrator, you can manage your organization's Visual Studio subscriptions in **My BizSpark** by signing in at: [https://bizspark.microsoft.com/my/index](https://bizspark.microsoft.com/my/index).
