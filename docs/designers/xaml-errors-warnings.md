@@ -32,6 +32,6 @@ Behind the scenes, multiple tools analyze the XAML in parallel. XAML errors are 
 
 Open **Tools > Options** and navigate to **Text Editor > XAML > Miscellaneous**. Uncheck the **Show errors detected by the XAML desginer** check box.
 
-
+![Suppress XAML Designer errors](../designers/media/suppress_xaml_designer_errors.PNG "SuppressXAMLDesignerErrors")
 
 
