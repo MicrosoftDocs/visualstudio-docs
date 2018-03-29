@@ -1,7 +1,7 @@
 ---
 title: "Learn about mobile development with Xamarin | Microsoft Docs"
 ms.custom: ""
-ms.date: "03/28/2018"
+ms.date: "03/29/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,12 +14,13 @@ manager: ghogen
 ms.workload: 
   - "xamarin"
 ---
+
 # Learn about mobile development with Xamarin
 
-This topic directs you to overview material that helps you understand developing cross-platform mobile apps with Xamarin. If you have not yet installed Visual Studio and Xamarin, start the [Setup and install](../cross-platform/setup-and-install.md) process first, then return here to work through these resources while the installers are running.  
+This article directs you to overviews that can help you understand developing cross-platform mobile apps with Xamarin. If you have not yet installed Visual Studio and Xamarin, start the [Setup and install](../cross-platform/setup-and-install.md) process first, then return here to work through these resources while the installers are running.  
   
 > [!NOTE]
-> Unless otherwise noted, we suggest initially reading only those pages linked to directly here, and not subsidiary pages. If the installation process is still running after completing this list, feel free to go back and explore additional topics.  
+> Unless otherwise noted, initially you might want to read only those pages linked to directly here, and not subsidiary pages. If the installation process is still running after completing this list, feel free to go back and explore additional topics.  
 >   
 > Also feel free to review the topics marked "Essentials" and come back to the "Deeper Dive" topics later.  
   
@@ -27,7 +28,7 @@ This topic directs you to overview material that helps you understand developing
 
 *10-20 minutes*  
   
-1.  [Mobile Apps in Visual Studio with Xamarin](https://www.visualstudio.com/explore/xamarin-vs) (visualstudio.com) provides a very short rundown of the primary characteristics of Xamarin.  
+1.  [Mobile Apps in Visual Studio with Xamarin](https://www.visualstudio.com/explore/xamarin-vs) (visualstudio.com) provides a short rundown of the primary characteristics of Xamarin.  
   
 2.  [Building Cross-Platform Mobile Apps using C# and Visual Studio](https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2015-Final-Release-Event/Building-cross-platform-mobile-apps-using-C-and-Visual-Studio-2015) (Channel9, 15m16s) with Xamarin evangelist, James Montemagno. The first three minutes are a Xamarin overview, followed by code demonstrations.  
   
@@ -35,9 +36,9 @@ This topic directs you to overview material that helps you understand developing
 
 *5-15 minutes*  
   
--   The Windows computer with Visual Studio and Xamarin is where you'll do most of your work. On this computer you directly build Windows and Android apps and run and debug them on the Windows desktop or an emulator. You also remotely build, run, and debug iOS apps via the Mac. Visual Studio on the Windows computer can also connect to the iOS storyboard designer and the iOS simulator.  
+-   The Windows computer with Visual Studio and Xamarin is where you'll do most of your work. On this computer, you directly build Windows and Android apps and run and debug them on the Windows desktop or an emulator. You also remotely build, run, and debug iOS apps via the Mac. Visual Studio on the Windows computer can also connect to the iOS storyboard designer and the iOS simulator.  
   
--   The Mac with Xcode and Visual Studio for Mac serves as the build/signing host and runtime environment for iOS apps. Builds for iOS from Visual Studio on the Windows computer are delegated to this Mac; when debugging an iOS app from Visual Studio, it runs in the iOS simulator on the Mac or directly on a tethered device connected to the Mac. In this case you'll interact with the app on or near the Mac, and have your debugging experience in Visual Studio.  
+-   The Mac with Xcode and Visual Studio for Mac serves as the build/signing host and runtime environment for iOS apps. On the Windows computer, iOS builds are delegated to this Mac. The application runs on an iOS simulator on the Mac, or directly on a tethered device connected to the Mac. You can interact with the app on the Mac, but conduct the debugging experience in Visual Studio.  
   
 These relationships are illustrated below, and you can read more about working with iOS apps on [Introduction to Xamarin.iOS for Visual Studio](http://developer.xamarin.com/guides/ios/getting_started/installation/windows/introduction_to_xamarin_ios_for_visual_studio/) (xamarin.com).  
   
@@ -50,7 +51,7 @@ These relationships are illustrated below, and you can read more about working w
 
 *10-30 minutes*  
   
-1.  [Sharing Code Options](/xamarin/cross-platform/app-fundamentals/code-sharing.md). For new applications, the .NET Standard option is recommended, as it best supports using only those .NET APIs that are supported across all target platforms. Most business logic code will reside in the .NET Standard library, including access to databases, calls to REST APIs, and calls to portable Xamarin components (see [Deeper Dive: Xamarin Components](#components) at the end of this topic). Common UI code written with Xamarin.Forms can also reside in a .NET Standard library.  
+1.  [Sharing Code Options](/xamarin/cross-platform/app-fundamentals/code-sharing.md). For new applications, you should use a .NET Standard library to share code. Most business logic code will reside in the .NET Standard library, including access to databases, calls to REST APIs, and calls to portable Xamarin components (see [Deeper Dive: Xamarin Components](#components) at the end of this article). Common UI code written with Xamarin.Forms can also reside in a .NET Standard library.  
   
 2.  (Optional) [Case Study: Tasky](/xamarin//cross-platform/app-fundamentals/building-cross-platform-applications/case-study-tasky.md)  describes some best practices for design and structure of a full-featured app such as structuring the project with shared code that separates data, data access, and business layers.  
   
@@ -60,17 +61,17 @@ These relationships are illustrated below, and you can read more about working w
   
 Xamarin provides two ways to build great native apps: Xamarin Native and Xamarin.Forms.  
   
-With Xamarin Native you write separate UI code for each target platform: iOS, Android, and Windows.  With this approach you have direct access to platform-specific APIs allowing a customized UI experience per platform.  You also have full access to the native designer and controls for each platform to help with building the respective UI.  
+With Xamarin Native, you write separate UI code for each target platform: iOS, Android, and Windows.  With this approach, you have direct access to platform-specific APIs allowing a customized UI experience per platform.  You also have full access to the native designer and controls for each platform to help with building the respective UI.  
   
 Xamarin.Forms provides a generalized set of APIs that lets you write a shared UI layer for all platforms in a .NET Standard library.  Xamarin.Forms renders to native controls on each target platform to give a native look and feel.  Rather than using a designer, with Xamarin.Forms, you build your UI using C# and XAML.  
   
 You don't need to decide which approach to take up front; apps can be implemented using a combination of both Xamarin Native and Xamarin.Forms:  
   
--   Use Xamarin.Forms to build general-purpose screens that provide similar UI and capabilities across platforms, such as logins, contact forms, and search results.  
+-   Use Xamarin.Forms to build general-purpose screens. These provide similar UI and capabilities across platforms, such as logins, contact forms, and search results.  
   
--   Use a variety of customization capabilities in Xamarin.Forms to adjust UI on a per-platform basis. These include the `OnPlatform` API that can be used from both code and XAML, creating a custom view, extending an existing renderer, and creating a custom renderer.  
+-   Use a variety of customization capabilities in Xamarin.Forms to adjust UI on a per-platform basis. These customization options include the `OnPlatform` API, creating a custom view, extending an existing renderer, and creating a custom renderer.  
   
--   If necessary, use Xamarin Native to build screens that  use unique UI features of each platform, for example, a screen that uses native camera capture and image manipulation.  
+-   If necessary, use Xamarin Native to build screens that use unique UI features of each platform. One example is a screen that uses native camera capture and image manipulation.  
   
 We recommend always starting with a Xamarin.Forms solution to set up UI code sharing across platforms, and using the customization capabilities to make platform-specific adjustments. If and when you need wholly platform-specific screens, you can add those individually using Xamarin Native.  
   
@@ -90,7 +91,7 @@ To learn more:
 
 *10-15 minutes*  
   
-To debug your cross-platform apps without having to use a physical device, you will need to use the following:  
+To debug your cross-platform apps without having to use a physical device, you will need to use emulators discussed here:  
   
 ### Microsoft's Android emulator 
 
