@@ -40,7 +40,7 @@ The <xref:System.Resources.NeutralResourcesLanguageAttribute> attribute informs 
 
 To fix a violation of this rule, add the attribute to the assembly, and specify the language of the resources of the neutral culture.
 
-### To specify the language of the resource of the neutral culture
+### To specify the neutral language for resources
 
 1. In **Solution Explorer**, right-click your project, and then select **Properties**.
 
