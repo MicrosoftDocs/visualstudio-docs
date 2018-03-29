@@ -44,6 +44,9 @@ By default, the English (en) version of the spelling checker is used. If you wan
 - Use <xref:System.Reflection.AssemblyCultureAttribute> to specify the culture if your resources are in a satellite assembly.
 - Use <xref:System.Resources.NeutralResourcesLanguageAttribute> to specify the *neutral culture* of your assembly if your resources are in the same assembly as your code.
 
+> [!IMPORTANT]
+> If you set the culture to anything other than an English-based culture, this code analysis rule is silently disabled.
+
 ## When to suppress warnings
 
 Do not suppress a warning from this rule. Correctly spelled words reduce the time that is required to learn new software libraries.

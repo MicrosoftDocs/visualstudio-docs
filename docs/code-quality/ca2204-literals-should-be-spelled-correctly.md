@@ -37,7 +37,7 @@ This rule checks a literal string that is passed as a value to a parameter or pr
 
 - The parameter or property name contains "Text", "Message", or "Caption".
 
-- The name of the string variable that is passed to a <xref:System.Console.Write> or <xref:System.Console.WriteLine> method is either "value" or "format".
+- The name of the string variable that is passed to a <xref:System.Console.Write%2A> or <xref:System.Console.WriteLine> method is either "value" or "format".
 
 This rule parses the literal string into words, tokenizing compound words, and checks the spelling of each word or token. For information about the parsing algorithm, see [CA1704: Identifiers should be spelled correctly](../code-quality/ca1704-identifiers-should-be-spelled-correctly.md).
 

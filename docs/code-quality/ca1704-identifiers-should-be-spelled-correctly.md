@@ -64,7 +64,7 @@ To fix a violation of this rule, correct the spelling of the word or add the wor
 
 ### To add words to a custom dictionary
 
-Name the custom dictionary XML file *CustomDictionary.xml*. Place the dictionary in the installation directory of the tool, the project directory, or in the directory that is associated with the tool under the profile of the user (*%USERPROFILE%\Application Data\\...*). To learn how to add the custom dictionary to a project in Visual Studio, see [How to: Customize the Code Analysis Dictionary](../code-quality/how-to-customize-the-code-analysis-dictionary.md)
+Name the custom dictionary XML file *CustomDictionary.xml*. Place the dictionary in the installation directory of the tool, the project directory, or in the directory that is associated with the tool under the profile of the user (*%USERPROFILE%\Application Data\\...*). To learn how to add the custom dictionary to a project in Visual Studio, see [How to: Customize the Code Analysis Dictionary](../code-quality/how-to-customize-the-code-analysis-dictionary.md).
 
 - Add words that should not cause a violation under the Dictionary/Words/Recognized path.
 
