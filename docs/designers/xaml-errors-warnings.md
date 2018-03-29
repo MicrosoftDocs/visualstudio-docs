@@ -5,8 +5,8 @@ ms.technology: vs-ide-designers
 ms.topic: "article"
 ms.assetid: 34eac8a0-7ec5-4c40-b97a-0126ed367931
 author: "karann-msft"
-ms.author: "karann-msft"
-manager: unniravindranathan
+ms.author: "karann"
+manager: douge
 ms.workload:
   - "multiple"
 ---
@@ -16,7 +16,7 @@ When authoring XAML, Visual Studio analyzes the code as you type. A squiggle app
 
 ## Error types
 
-Behind the scene, multiple tools analyze the XAML in parallel. XAML errors are categorized into the three types based on the tool that detected the error.
+Behind the scene, multiple tools analyze the XAML in parallel. XAML errors are categorized into one of the following three types, based on the tool that detected the error:
 
 |**Error detected by**|**Error code format**|  
 |--------------------------------|-----------------|  
@@ -30,7 +30,7 @@ Behind the scene, multiple tools analyze the XAML in parallel. XAML errors are c
 
 ## Suppress XAML Designer errors
 
-Open **Tools > Options** menu, then select **Text Editor > XAML > Miscellaneous**.
+Open the **Options** dialog by selecting **Tools > Options**, and then select **Text Editor > XAML > Miscellaneous**.
 
 Uncheck the **Show errors detected by the XAML designer** check box.
 
