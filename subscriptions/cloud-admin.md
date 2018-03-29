@@ -28,7 +28,7 @@ As the owner of the Azure subscription used to purchase the cloud subscriptions,
 ## Adding administrators
 
 To add Administrators:
-1. Connect to the Azure Portal at [portal.azure.com](portal.azure.com).
+1. Connect to the Azure Portal at [portal.azure.com](https://portal.azure.com).
 2. Sign in with the account you used to purchase the Visual Studio Cloud subscriptions.
 3. In the left navigation pane, scroll down to **Cost Management + Billing**.
 4. In the **My subscriptions** list, choose the Azure subscription that you used to make the purchase.
