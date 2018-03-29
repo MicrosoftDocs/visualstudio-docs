@@ -41,7 +41,25 @@ This rule checks a literal string that is passed as a value to a parameter or pr
 
 This rule parses the literal string into words, tokenizing compound words, and checks the spelling of each word or token. For information about the parsing algorithm, see [CA1704: Identifiers should be spelled correctly](../code-quality/ca1704-identifiers-should-be-spelled-correctly.md).
 
-By default, the English (en) version of the spelling checker is used.
+## Language
+
+The spell checker currently checks only against English-based culture dictionaries. You can change the culture of your project in the project file, by adding the **CodeAnalysisCulture** element.
+
+For example:
+
+```xml
+<Project ...>
+  <PropertyGroup>
+    <CodeAnalysisCulture>en-AU</CodeAnalysisCulture>
+```
+
+If your string literals are managed in [resource files](/dotnet/framework/resources/creating-resource-files-for-desktop-apps), then instead of adding the **CodeAnalysisCulture** element to the project file, add one of the following attributes to the assembly:
+
+- Use <xref:System.Resources.NeutralResourcesLanguageAttribute> to specify the *neutral culture* of your assembly if your resources are in the same assembly as your code.
+- Use <xref:System.Reflection.AssemblyCultureAttribute> to specify the assembly culture if your resources are in a satellite assembly.
+
+> [!IMPORTANT]
+> If you set the culture to anything other than an English-based culture, this code analysis rule is silently disabled.
 
 ## How to fix violations
 
