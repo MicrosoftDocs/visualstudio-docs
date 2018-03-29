@@ -27,12 +27,7 @@ If you are coming from another IDE or coding environment, you may find installin
 - [HotKeys for Visual Studio (ReSharper/IntelliJ)](https://marketplace.visualstudio.com/items?itemName=JustinClareburtMSFT.HotKeys)
 - [VSVim](https://marketplace.visualstudio.com/items?itemName=JaredParMSFT.VsVim)
 
-![The Visual Studio Extension Gallery](../ide/media/VSIDE_Productivity_Extensibility.png)
-
-The following are popular Visual Studio shortcuts. 
-
-> [!NOTE]
-> Some extensions unbind default Visual Studio keybindings so you must restore them to use the following commands. Restore your keybindings to Visual Studio's defaults by going to: **Tools > Import and Export Settings... > Reset all settings** or **Tools > Options > Keyboard > Reset**.
+The following are popular Visual Studio shortcuts: 
 
 | Shortcut (All Profiles) | Command | Description |
 |-|-|-|
@@ -48,6 +43,9 @@ The following are popular Visual Studio shortcuts.
 | **Ctrl+F5** | Run without Debug | Run your application locally without debugging |
 | **Ctrl+K,D** (Default Profile) or **Ctrl+E,D** (C# Profile) | Format Document | Cleans up formatting violations in your file based on your newline, spacing, and indentation settings |
 | **Ctrl+\\,E** (Default Profile) or **Ctrl+W,E** (C# Profile) | View Error List | See all errors in your document, project, or solution |
+
+> [!NOTE]
+> Some extensions unbind default Visual Studio keybindings so you must restore them to use the following commands. Restore your keybindings to Visual Studio's defaults by going to: **Tools > Import and Export Settings... > Reset all settings** or **Tools > Options > Keyboard > Reset**.
 
 ## I need a way to quickly navigate to files or types.
 Visual Studio 2017 has a feature called _Go To All_ (**Ctrl+T**). Go To All enables you to quickly jump to any file, type, member, or symbol declaration.
