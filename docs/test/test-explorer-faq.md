@@ -65,6 +65,10 @@ manager: ghogen
   The icons next to the Project, Namespace, and Class groupings reflect the state of the tests within that grouping. See the following table.
 
   ![Test Explorer Hierarchy Icons](media/testex-hierarchyicons.png)
+  
+### 10. There is no longer a `File Path` filter in the Test Explorer search box.
+
+Starting in Visual Studio 2017 Update 15.7 Preview 3 there will no longer be a `File Path` filter in the search box of the Test Explorer. This feature had low usage and the Test Explorer can retrieve test methods faster by excluding this feature. If this change interrupts your development flow please let us know by submitting feedback on [developer community](https://developercommunity.visualstudio.com/).
 
 ## Features
 
