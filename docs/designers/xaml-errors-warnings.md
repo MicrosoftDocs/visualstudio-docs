@@ -30,7 +30,7 @@ Behind the scene, multiple tools analyze the XAML in parallel. XAML errors are c
 
 ## Suppress XAML Designer errors
 
-Open **Tools > Options** and navigate to **Text Editor > XAML > Miscellaneous**.
+Open **Tools > Options** menu, then select **Text Editor > XAML > Miscellaneous**.
 
 Uncheck the **Show errors detected by the XAML designer** check box.
 
