@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
   - "VB"

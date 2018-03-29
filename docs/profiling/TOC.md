@@ -1,8 +1,8 @@
 
 # [Profiling documentation](index.md)
 # Overview
-## [Profiling feature tour](profiling-feature-tour.md)
 # Quickstarts
+## [First look at profiling](profiling-feature-tour.md)
 ## [Analyze CPU usage (managed)](quickstart-cpu-usage-managed.md)
 ## [Analyze CPU usage (native)](quickstart-cpu-usage-native.md)
 ## [Analyze CPU usage (ASP.NET)](quickstart-cpu-usage-aspnet.md)

@@ -1,7 +1,7 @@
 ---
-title: Quickstart - Cloning a repository of Python code in Visual Studio | Microsoft Docs
-description: Get started quickly using Python by cloning the Python koans repository using Visual Studio Team Explorer.
-ms.custom:
+title: Quickstart - Cloning a repository of Python code | Microsoft Docs
+description: In this quickstart, you create a Python project in Visual Studio by cloning the Python koans repository using Visual Studio Team Explorer.
+ms.custom: "mvc"
 ms.date: 03/21/2018
 ms.reviewer:
 ms.suite:
@@ -13,7 +13,7 @@ ms.tgt_pltfrm:
 ms.topic: "quickstart"
 author: "kraigb"
 ms.author: "kraigb"
-manager: ghogen
+manager: "douge"
 ms.workload: 
   - "python"
   - "data-science"
