@@ -12,18 +12,26 @@ ms.workload:
 ---
 # XAML Errors and Warnings
 
-When authoring XAML, Visual Studio analyzes the code as you type. A squiggle appears on a line of code when an error is detected. Hovering over the squiggle gives you more information on the error. For some errors you will also see a Quickaction to fix the error.
+When authoring XAML, Visual Studio analyzes the code as you type. A squiggle appears on a line of code when an error is detected. Hovering over the squiggle gives you more information about the error or warning. For some errors/warnings, a Quick Action lightbulb is displayed, and using the `ctrl+.` keyboard shorcut displays the options to fix the issue.
 
-## Categories of XAML errors
+## Categories of XAML errors and warnings
 
-Behind the scenes, multiple tools analyze the XAML in parallel. XAML errors are categorized into the three types based on which tool detected the error.
+Behind the scenes, multiple tools analyze the XAML in parallel. XAML errors are categorized into the three types based on the tool that detected the error.
 
-|**To perform this action**|**Do this**|  
+|**Error detected by**|**Error code format**|  
 |--------------------------------|-----------------|  
-|Create an element|Press Ctrl+N|  
-|Duplicate an element|Hold down Alt and press an arrow key.|  
-|Edit the text in a control|Press F2 (press Esc to exit)|  
+|XAML Language Service (XAML editor)|XLSxxxx|  
+|XAML Designer|XDGxxxx|  
+|XAML Edit and Continue|XECxxxx|  
+
+> [!Note]
+> Not all errors/warnings have a corresponding code. Such errors are usually XAML Designer errors.
 
 
 ## Suppress XAML desginer errors
+
+Open **Tools > Options** and navigate to **Text Editor > XAML > Miscellaneous**. Uncheck the **Show errors detected by the XAML desginer** check box.
+
+
+
 
