@@ -44,7 +44,7 @@ You'll do these things to build it:
 > If you have difficulties or run into errors, please post questions on [forums.xamarin.com](http://forums.xamarin.com). Many errors can be resolved by updating to the latest SDKs required by Xamarin, which are described in the [Xamarin Release Notes](https://developer.xamarin.com/releases/) for each platform.    
   
 > [!NOTE]
-> Xamarin's developer documentation also offers several walkthroughs with both Quickstart and Deep Dive sections as listed below. On all these pages, be sure that "Visual Studio" is selected in the upper right of the page to see Visual Studio-specific walkthroughs.  
+> Xamarin's developer documentation also offers several walkthroughs with both Quickstart and Deep Dive sections as listed below. On all these pages, be sure that "Visual Studio" is selected to see walkthroughs specific to Visual Studio.  
 >   
 >  -   Xamarin apps with native UI:  
 >   
@@ -52,17 +52,18 @@ You'll do these things to build it:
 >     -   [Hello, Android multiscreen](/xamarin/android/get-started/hello-android-multiscreen/) (app with navigation between screens)  
 >     -   [Android Fragments Walkthrough](/xamarin/android/platform/fragments/fragments/implementing-with-fragments/walkthrough/) (used for master/detail screens, among other things)  
 >     -   [Hello, iOS](/xamarin/ios/get-started/hello-iOS/)  
->     -   [Hello, iOS Multiscreen](/xamarin/ios/get-started/hello-iOS-multiscreen/)  
-> -   Xamarin apps with Xamarin.Forms (shared UI)  
+>     -   [Hello, iOS Multiscreen](/xamarin/ios/get-started/hello-iOS-multiscreen/) 
+
+>  -   Xamarin apps with Xamarin.Forms (shared UI)  
 >   
->     -   [Hello, Xamarin.Forms](/xamarin/cross-platform/xamarin-forms/get-started/hello-xamarin-forms/quickstart/)  
->     -   [Hello, Xamarin.Forms Multiscreen](/xamarin/cross-platform/xamarin-forms/get-started/hello-xamarin-forms-multiscreen/)  
+>     -   [Hello, Xamarin.Forms](/xamarin/xamarin-forms/get-started/hello-xamarin-forms/quickstart/)  
+>     -   [Hello, Xamarin.Forms Multiscreen](/xamarin/xamarin-forms/get-started/hello-xamarin-forms-multiscreen/)  
   
-<a name="solution"></a>
+<a name="solution" />
 
 ##  Set up your solution  
 
-Visual Studio does not have a solution template for creating native UI applications sharing a .NET Standard library. However, it's not hard to build such a project from the individual components. These steps create a Xamarin solution with projects for each applicaton platform, and a .NET Standard library for shared code.  
+Visual Studio does not have a solution template for creating native UI applications sharing a .NET Standard library. However, it's not hard to build such a solution from the individual projects. These steps create a Xamarin solution with projects for each type of application platform, and a .NET Standard library for shared code.  
   
 1.  In Visual Studio, create a new **Class Library (.NET Standard)** solution and name it **WeatherApp**. You can find this template most easily by selecting **Visual C#** at the left and then **.NET Standard**: 
 
@@ -76,7 +77,7 @@ Visual Studio does not have a solution template for creating native UI applicati
 
 4. If you want to target the Universal Windows Platform, in the **New Project** dialog, at the left select **Visual C#** and **Windows Universal**. In the template list, select **Blank App (Universal Windows)** and name it **WeatherApp.UWP**.
   
-5. For each of the application projects (iOS, Android, and UWP), right-click the **References** section in the **Solution Explorer** and select **Add Reference**. In the **Reference Manager** dialog, at the left select **Project** and **Solution**. You'll see a list of all the projects in the solution expect the project whose references you're managing:
+5. For each of the application projects (iOS, Android, and UWP), right-click the **References** section in the **Solution Explorer** and select **Add Reference**. In the **Reference Manager** dialog, at the left select **Project** and **Solution**. You'll see a list of all the projects in the solution except the project whose references you're managing:
 
    ![Setting a reference to the .NET Standard project](../cross-platform/media/cross-plat-xamarin-build-3.png "Cross-platform Xamarin Build 3")
 
@@ -100,15 +101,15 @@ Visual Studio does not have a solution template for creating native UI applicati
   
 8.  Build your solution and verify that there are no build errors.  
   
-<a name="dataservice"></a>
+<a name="dataservice" />
 
 ## Write shared data service code  
 
- The **WeatherApp** project is the .NET Standard library. This is where you'll write code that is shared across all platforms. Because each application project has a reference to the .NET Standard library, it is included in the iOS, Android, and UWP app packages.  
+ The **WeatherApp** project is the .NET Standard library. This project is where you'll write code that is shared across all platforms. Because each application project has a reference to the .NET Standard library, it is included in the iOS, Android, and UWP app packages.  
   
- The following steps then add code to the .NET Standard library to access and store data from that weather service:  
+ The following steps add code to the .NET Standard library to access and store data from that weather service:  
   
-1.  To run this sample, you must first sign up for a free API key at [http://openweathermap.org/appid](http://openweathermap.org/appid).  
+1.  First sign up for a free weather API key at [http://openweathermap.org/appid](http://openweathermap.org/appid).  
   
 2.  Right-click the **WeatherApp** project and select **Add > Class...**. In the **Add New Item** dialog, name the file **Weather.cs**. You'll use this class to store data from the weather data service.  
   
@@ -132,7 +133,7 @@ Visual Studio does not have a solution template for creating native UI applicati
     }
     ```  
   
-4.  Add another class to the .NET Standard project named **DataService.cs** in which you'll use to process JSON data from the weather data service.  
+4.  Add another class to the .NET Standard project named **DataService.cs**. You'll use this class to process JSON data from the weather data service.  
   
 5.  Replace the entire contents of **DataService.cs** with the following code:  
   
@@ -163,7 +164,7 @@ Visual Studio does not have a solution template for creating native UI applicati
     }  
     ```  
   
-6.  Add a third class to the .NET Standard library named **Core**. This is the class that contains the logic to form a query string with a zip code, calls the weather data service, and populates an instance of the **Weather** class.  
+6.  Add a third class to the .NET Standard library named **Core.cs**. You'll use this class to form a query string with a zip code, call the weather data service, and populate an instance of the **Weather** class.  
   
 7.  Replace the contents of **Core.cs** with the following code:  
   
@@ -221,7 +222,7 @@ Visual Studio does not have a solution template for creating native UI applicati
   
 10. Build the **WeatherApp** project to make sure the code is correct.  
   
-<a name="Android"></a>
+<a name="Android" />
 
 ## Design UI for Android  
 
@@ -229,10 +230,10 @@ Visual Studio does not have a solution template for creating native UI applicati
   
 ### Design the look and feel of your app  
   
-1.  In **Solution Explorer**, expand the **WeatherApp.Droid > Resources > layout** folder and open **Main.axml**. This command opens the file in the visual designer. (If a Java-related error appears, see this [blog post](http://forums.xamarin.com/discussion/32365/connection-to-the-layout-renderer-failed-in-xs-5-7-and-xamarinvs-3-9).)  
+1.  In the **Solution Explorer**, expand the **WeatherApp.Droid > Resources > layout** folder and open **Main.axml**. This command opens the file in the visual designer. (If a Java-related error appears, see this [blog post](http://forums.xamarin.com/discussion/32365/connection-to-the-layout-renderer-failed-in-xs-5-7-and-xamarinvs-3-9).)  
   
     > [!TIP]
-    >  There are many other files in the project. Exploring them is beyond the scope of this article, but if you want to dive into the structure of an Android project a bit more, see [Part 2 Deep Dive](/xamarin/guides/android/getting_started/hello,android/hello,android_deepdive/) of the Hello Android article.  
+    >  There are many other files in the project. Exploring them is beyond the scope of this article, but if you want to dive into the structure of an Android project a bit more, see [Part 2 Deep Dive](/xamarin/android/get-started/hello-android/hello-android-deepdive/) of the Hello Android article.  
   
 2.  Select and delete the default button that appears in the designer.  
   
@@ -247,7 +248,7 @@ Visual Studio does not have a solution template for creating native UI applicati
   
 6.  From the **Toolbox**, drag a **TextView** control onto the **RelativeLayout** control.  
   
-7.  In the **Properties** window, set these properties (note: it can help to sort the list alphabetically using the sort button in the Properties window toolbar):  
+7.  In the **Properties** window, set these properties. (It can help to sort the list alphabetically using the sort button in the Properties window toolbar.):  
   
     |Property|Value|  
     |--------------|-----------|  
@@ -350,7 +351,7 @@ Visual Studio does not have a solution template for creating native UI applicati
         android:width="165dp" />  
     ```  
   
-12. You now know enough to build a basic UI by using the Android designer. You can also build a UI by adding markup directly to the Main.axml file of the page. To build the rest of the UI that way, switch to Source view in the designer, then past the following markup *beneath* the `</RelativeLayout>` tag. (They must be beneath the tag because these elements are not contained in the `RelativeLayout)`.  
+12. You now know enough to build a basic UI by using the Android designer. You can also build a UI by adding markup directly to the Main.axml file of the page. To build the rest of the UI that way, switch to Source view in the designer, then paste the following markup *beneath* the `</RelativeLayout>` tag. (They must be beneath the tag because these elements are not contained in the `RelativeLayout)`.  
   
     ```xml  
     <TextView  
@@ -530,12 +531,12 @@ Visual Studio does not have a solution template for creating native UI applicati
   
 3.  On the device or in the emulator, type a valid United States five-digit zip code into the edit box, and press **Get Weather**. Weather data for that region then appears in the controls.  
   
-     ![Weather app for Android](../cross-platform/media/cross-plat-xamarin-build-1.a.png "Cross-platform Xamarin build 1 Android")  
+    [![Xamarin app on Android](../cross-platform/media/cross-plat-xamarin-build-1-android.png "Cross-Plat Xamarin Build 1 Android")](../cross-platform/media/cross-plat-xamarin-build-1-android-Large.png#lightbox)  
   
 > [!TIP]
 >  The complete source code for this project is in the [mobile-samples repository on GitHub](https://github.com/xamarin/mobile-samples/tree/master/Weather).  
   
-<a name="Windows"></a> 
+<a name="Windows" /> 
 
 ## Design UI for Windows
 
@@ -659,34 +660,35 @@ This code calls the `GetWeather` method that you defined in your shared code. `G
   
 ### Run the app and see how it looks  
   
-1.  In **Solution Explorer**, set the **WeatherApp.UWP** project as the startup project.  
+1.  In the **Solution Explorer**, set the **WeatherApp.UWP** project as the startup project.  
 
 2.  In the **Solution Platforms** dropdown box, select **x86** and select **Local Machine** to deploy the application to the Windows 10 desktop.
   
 3.  Start the app by pressing the F5 key.  
   
-4.  In the window, type a valid five-digit United States zip code into the edit box, and press **Get Weather**. Weather data for that region then appears in the controls.  
-  
-     ![Windows version of the running app](../cross-platform/media/cross-plat-xamarin-build-1.w.png "Cross-Platform Xamarin Build 1 Windows")  
-  
+4.  Type a valid five-digit United States zip code into the edit box, and press **Get Weather**. Weather data for that region then appears on the page.  
+
+    [![Xamarin app on UWP](../cross-platform/media/cross-plat-xamarin-build-1-uwp.png "Cross-Plat Xamarin Build 1 UWP")](../cross-platform/media/cross-plat-xamarin-build-1-uwp-Large.png#lightbox)  
+
 > [!TIP]
 >  The complete source code for this project is in the [mobile-samples repository on GitHub](https://github.com/xamarin/mobile-samples/tree/master/Weather).  
 
-<a name="next"></a> 
+<a name="next" /> 
 
 ## Next steps  
 
  **Add UI for iOS to the solution**  
   
- Extend this sample by adding native UI for iOS. To test the code on iOS, you'll need to connect to a Mac on your local network that has Xcode and Xamarin installed. Once you do, you can use the iOS designer directly in Visual Studio. See the [mobile-samples repository on GitHub](https://github.com/xamarin/mobile-samples/tree/master/Weather) for a completed app.  
+ Extend this sample by adding native UI for iOS. To test the code on iOS, you'll need to connect to a Mac on your local network that has Xcode and Xamarin installed. Once you do that , you can use the iOS designer directly in Visual Studio. See the [mobile-samples repository on GitHub](https://github.com/xamarin/mobile-samples/tree/master/Weather) for a completed app.  
   
- Also refer to the [Hello, iOS](/xamarin/ios/get-started/hello-ios/hello-ios-quickstart.md?tabs=vswin) walkthrough.   
+ Also refer to the [Hello, iOS](/xamarin/ios/get-started/hello-ios/hello-ios-quickstart?tabs=vswin) walkthrough.   
   
  **Add platform-specific code in a shared project**  
   
- Shared code in a .NET Standard library is platform-neutral. The library is compiled once and included in each platform-specific app package. If you want to write shared code that uses conditional compilation to isolate platform-specific code, you can use a *shared* project. For more information, see [Code Sharing Options](/xamarin/cross-platform/application_fundamentals/building_cross_platform_applications/sharing_code_options/) (xamarin.com).  
+ Shared code in a .NET Standard library is platform-neutral. The library is compiled once and included in each platform-specific app package. If you want to write shared code that uses conditional compilation to isolate platform-specific code, you can use a *shared* project. For more information, see [Code Sharing Options](/xamarin/cross-platform/app-fundamentals/building-cross-platform-applications/practical-code-sharing-strategies).  
   
 ## See Also  
+
  [Xamarin Documentation](http://docs.microsoft.com/xamarin)   
  [Windows Dev Center](https://dev.windows.com/en-us)   
  [Swift and C# Quick Reference Poster](http://aka.ms/scposter)
