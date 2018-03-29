@@ -1,6 +1,6 @@
 ---
 title: "Debug ASP.NET - Visual Studio | Microsoft Docs"
-ms.custom: ""
+ms.custom: "mvc"
 ms.date: "03/16/2018"
 ms.reviewer: ""
 ms.suite: ""

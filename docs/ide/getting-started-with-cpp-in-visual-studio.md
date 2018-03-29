@@ -4,13 +4,13 @@ ms.custom: "mvc"
 ms.date: "12/04/2017"
 ms.technology: "vs-acquisition"
 ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.topic: "tutorial"
 author: "corob-msft"
 ms.author: "tglee"
 manager: ghogen
-dev_langs: 
+dev_langs:
   - "CPP"
-ms.workload: 
+ms.workload:
   - "cplusplus"
 ---
 # Get Started with C++ in Visual Studio

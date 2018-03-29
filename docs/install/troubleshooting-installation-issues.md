@@ -4,18 +4,18 @@ description: "Sometimes, things can go wrong. If your Visual Studio installation
 ms.date: "11/21/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-acquisition"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
+ms.topic: "conceptual"
+helpviewer_keywords:
   - "{{PLACEHOLDER}}"
   - "{{PLACEHOLDER}}"
 ms.assetid: 556EDD3F-E365-43EE-B3DD-03AA4353F75B
-author: "timsneath"
+author: "tglee"
 ms.author: "tglee"
 manager: ghogen
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Troubleshooting Visual Studio 2017 installation and upgrade issues
