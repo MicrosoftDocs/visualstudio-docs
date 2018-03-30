@@ -15,7 +15,7 @@ ms.workload:
 ---
 # Configure and use Roslyn analyzer rules
 
-.NET Compiler Platform ("Roslyn") analyzer diagnostics have a default behavior that can be overwritten for your project. The behavior includes a severity and suppression state. You can do much of the customization of analyzer diagnostics from **Solution Explorer**.
+.NET Compiler Platform ("Roslyn") analyzer rules, or *diagnostics*, have a default behavior that can be overwritten for your project. The behavior includes a severity and suppression state. You can do much of the customization of analyzer diagnostics from **Solution Explorer**.
 
 ## Analyzers in Solution Explorer
 
@@ -41,7 +41,7 @@ The icons next to each diagnostic in **Solution Explorer** correspond to the ico
 
 ## Rule sets
 
-A rule set is an XML file that stores the severity and suppression state for individual diagnostics. Rule sets apply to a single project, and a project can have multiple rule sets. To view the active rule set in the editor, right-click on the **Analyzers** node in **Solution Explorer** and select **Open Active Rule Set**. If this is the first time you are accessing the rule set, a file named *\<projectname>.ruleset* is added to the project and appears in **Solution Explorer**.
+A [rule set](../code-quality/using-rule-sets-to-group-code-analysis-rules.md) is an XML file that stores the severity and suppression state for individual diagnostics. Rule sets apply to a single project, and a project can have multiple rule sets. To view the active rule set in the editor, right-click on the **Analyzers** node in **Solution Explorer** and select **Open Active Rule Set**. If this is the first time you are accessing the rule set, a file named *\<projectname>.ruleset* is added to the project and appears in **Solution Explorer**.
 
 > [!NOTE]
 > Rule sets include both static (binary) code analysis and Roslyn analyzer rules.
@@ -56,7 +56,7 @@ You can configure the severity of analyzer rules, or *diagnostics*, if you [inst
 |-|-|-|
 |Error|Violations appear as *Errors* in the **Error List** and in command-line build output, and cause builds to fail.|Offending code is underlined with a red squiggly, and marked by a small red box in the scroll bar.|
 |Warning|Violations appear as *Warnings* in the **Error List** and in command-line build output, but do not cause builds to fail.|Offending code is underlined with a green squiggly, and marked by a small green box in the scroll bar.|
-|Info|Violations appear as *Messages* in the **Error List**, and not at all in command-line builds.|Offending code is underlined with a gray squiggly, and marked by a small gray box in the scroll bar.|
+|Info|Violations appear as *Messages* in the **Error List**, and not at all in command-line build output.|Offending code is underlined with a gray squiggly, and marked by a small gray box in the scroll bar.|
 |Hidden|Non-visible.|Non-visible.|
 |None|Suppressed completely.|Suppressed completely.|
 
@@ -86,7 +86,7 @@ You can change the severity of a rule from **Solution Explorer**, or within the 
 
 ### To set rule severity in the rule set file
 
-1. Open the rule set file by double-clicking it in **Solution Explorer**, selecting **Open Active Rule Set** on the right-click menu of the **Analyzers** node, or by choosing it and then selecting **Open** on the **Code Analysis** property page for the project.
+1. Open the rule set file by double-clicking it in **Solution Explorer**, selecting **Open Active Rule Set** on the right-click menu of the **Analyzers** node, or by selecting **Open** on the **Code Analysis** property page for the project.
 
 1. Browse to the rule by expanding its containing assembly.
 
@@ -119,4 +119,5 @@ There are multiple ways to suppress rule violations:
 ## See also
 
 - [Overview of Roslyn analyzers in Visual Studio](../code-quality/roslyn-analyzers-overview.md)
+- [Use rule sets](../code-quality/using-rule-sets-to-group-code-analysis-rules.md)
 - [Suppress code analysis warnings](../code-quality/in-source-suppression-overview.md)

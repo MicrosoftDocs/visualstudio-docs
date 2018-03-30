@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Overview of code analysis for managed code
 
-Visual Studio 2017 analyzes managed code in two ways: with legacy *FxCop* static analysis of managed assemblies, and with .NET Compiler Platform *analyzers*. This topic covers FxCop static code analysis. To learn more about analyzing code by using .NET Compiler Platform analyzers, see [Getting started with analyzers](../code-quality/roslyn-analyzers-overview.md).
+Visual Studio 2017 analyzes managed code in two ways: with legacy *FxCop* static analysis of managed assemblies, and with .NET Compiler Platform *analyzers*. This topic covers FxCop static code analysis. To learn more about analyzing code by using .NET Compiler Platform analyzers, see [Overview of Roslyn analyzers](../code-quality/roslyn-analyzers-overview.md).
 
 Code analysis for managed code analyzes managed assemblies and reports information about the assemblies, such as violations of the programming and design rules set forth in the Microsoft .NET Framework Design Guidelines.
 
@@ -69,6 +69,6 @@ You can use the integrated features of the build system to run the analysis tool
 
 ## See also
 
-- [Getting started with analyzers](../code-quality/roslyn-analyzers-overview.md)
+- [Overview of Roslyn analyzers](../code-quality/roslyn-analyzers-overview.md)
 - [Using Rule Sets to Group Code Analysis Rules](../code-quality/using-rule-sets-to-group-code-analysis-rules.md)
 - [How to: Enable and Disable Automatic Code Analysis](../code-quality/how-to-enable-and-disable-automatic-code-analysis-for-managed-code.md)

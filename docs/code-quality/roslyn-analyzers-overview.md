@@ -27,11 +27,11 @@ Many analyzer rules, or *diagnostics*, have an associated *code fix* that you ca
 
 .NET Compiler Platform ("Roslyn") analyzers will eventually replace [static code analysis](../code-quality/code-analysis-for-managed-code-overview.md) for managed code. Many of the static code analysis rules have already been rewritten as Roslyn analyzer diagnostics.
 
-Like static code analysis rule violations, Roslyn analyzer violations appear in the **Error List**. In addition, Roslyn analyzer violations also show up in the code editor as *squigglies* under the offending code. The color of the squiggly depends on the [severity setting](../code-quality/use-roslyn-analyzers.md#rule-severity) of the rule.
+Like static code analysis rule violations, Roslyn analyzer violations appear in the **Error List**. In addition, Roslyn analyzer violations also show up in the code editor as *squigglies* under the offending code. The color of the squiggly depends on the [severity setting](../code-quality/use-roslyn-analyzers.md#rule-severity) of the rule. The following screenshot shows three violations&mdash;one red, one green, and one gray:
 
 ![Squigglies in the code editor](media/diagnostics-severity-colors.png)
 
-Roslyn analyzers analyze code at build time, like static code analysis if it's enabled, but also live as you type! Roslyn analyzers can provide design-time analysis of code files that aren't open in the editor if you enable [full solution analysis](../code-quality/how-to-enable-and-disable-full-solution-analysis-for-managed-code.md#to-toggle-full-solution-analysis).
+Roslyn analyzers analyze code at build time, like static code analysis if it's enabled, but also live as you type! Roslyn analyzers can also provide design-time analysis of code files that aren't open in the editor if you enable [full solution analysis](../code-quality/how-to-enable-and-disable-full-solution-analysis-for-managed-code.md#to-toggle-full-solution-analysis).
 
 > [!NOTE]
 > Build-time errors and warnings from Roslyn analyzers are shown only if the analyzers are installed as a NuGet package.
@@ -41,7 +41,7 @@ Not only do Roslyn analyzers report the same types of problems that static code 
 > [!NOTE]
 > The menu option **Analyze** > **Run Code Analysis** applies only to static code analysis. Additionally, on a project's **Code Analysis** property page, the **Enable Code Analysis on Build** and **Suppress results from generated code** checkboxes apply only to static code analysis. They have no effect on Roslyn analyzers.
 
-To differentiate between violations from Roslyn analyzers and static code analysis in the **Error List**, look at the **Tool** column. If the Tool is **Microsoft Binary Analysis**, the violation originates from static code analysis. Otherwise, the Tool value is the analyzer assembly that contains the diagnostic that's reporting the violation, for example **Microsoft.CodeQuality.Analyzers**.
+To differentiate between violations from Roslyn analyzers and static code analysis in the **Error List**, look at the **Tool** column. If the Tool value matches one of the analyzer assemblies in **Solution Explorer**, for example **Microsoft.CodeQuality.Analyzers**, the violation comes from a Roslyn analyzer. Otherwise, the violation originates from static code analysis.
 
 ![Tool column in Error List](media/code-analysis-tool-in-error-list.png)
 
@@ -55,7 +55,7 @@ If you install analyzers as a Visual Studio extension, they apply at the solutio
 
 ### Build errors
 
-To have rules enforced at build time, including through the command line or as part of a continuous integration (CI) build, install the analyzers as a NuGet package. Extensions cannot affect build, so analyzer warnings and errors don't show up in the build report if you installed the analyzers as an extension.
+To have rules enforced at build time, including through the command line or as part of a continuous integration (CI) build, install the analyzers as a NuGet package. Analyzer warnings and errors don't show up in the build report if you install the analyzers as an extension.
 
 The following screenshot shows the command-line build output from building a project that contains an analyzer rule violation:
 
