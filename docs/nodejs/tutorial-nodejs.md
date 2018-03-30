@@ -6,7 +6,7 @@ ms.date: "03/13/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-nodejs"
+  - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "tutorial"
 ms.devlang: javascript
