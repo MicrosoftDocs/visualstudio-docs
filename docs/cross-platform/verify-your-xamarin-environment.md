@@ -1,7 +1,7 @@
 ---
 title: "Verify your Xamarin environment | Microsoft Docs"
 ms.custom: ""
-ms.date: "03/29/2018"
+ms.date: "03/30/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -69,11 +69,13 @@ These actions create a solution with four projects: a shared .NET Standard 2.0 l
   
 2.  Right-click the iOS project in Solution Explorer and select **Set as Startup Project**.  
   
-3.  Select the **iPhoneSimulator** target from Visual Studio's build drop-down as shown below, or the **iPhone** target if you have a device tethered to the Mac. If no simulators are listed, launch Xcode on your Mac, select **Xcode > Preferences**, and click **Download**. Under the **Components** heading you should see the simulator versions that are available to download. Additional instructions for debugging can be found on the [iOS Debugging](/xamarin/ios/deploy-test/debugging-in-xamarin-ios/?tabs=vsmac#Debugging_on_the_Simulator) page.  
+3.  Select the **iPhoneSimulator** target from Visual Studio's build drop-down as shown below, or the **iPhone** target if you have a device tethered to the Mac.   
   
  ![Selecting the iPhoneSimulator build target](../cross-platform/media/crossplat-xamarin-verify-5.png "CrossPlat Xamarin Verify 5") 
+
+ If no simulators are listed, launch Xcode on your Mac, select **Xcode > Preferences**, and click **Download**. Under the **Components** heading you should see the simulator versions that are available to download. Additional instructions for debugging can be found on the [iOS Debugging](/xamarin/ios/deploy-test/debugging-in-xamarin-ios/?tabs=vsmac#Debugging_on_the_Simulator) page.
   
-4.  Select an emulator device target from Visual Studio's debug drop-down:
+4.  Select an emulator device target from the Visual Studio drop-down:
 
  ![Selecting an iPhone debug target](../cross-platform/media/crossplat-xamarin-verify-6.png "CrossPlat Xamarin Verify 6")
 

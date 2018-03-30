@@ -1,7 +1,7 @@
 ---
 title: "Learn app-building basics with Xamarin.Forms in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "03/29/2018"
+ms.date: "03/30/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -21,7 +21,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 
 It's usually better to use a .NET Standard library rather than a Shared project for this common code. The .NET Standard library includes those .NET APIs that can run on all target platforms.  
 
-Here's the application that you'll build running on iOS and Android phones, and the Universal Windows Platform (UWP):
+Here's the application that you'll build. It's running (from left to write) on iOS and Android phones, and the Universal Windows Platform (UWP) of Windows 10:
   
 [![The Weather App sample on iOS, Android, and UWP](../cross-platform/media/crossplat-xamarin-formsguide-1.png "CrossPlat Xamarin FormsGuide 1")](../cross-platform/media/crossplat-xamarin-formsguide-1-Large.png#lightbox)
   
@@ -47,15 +47,14 @@ You'll do these steps to build this application:
 These steps create a Xamarin.Forms solution that contains a .NET Standard class library for shared code and two added NuGet packages. 
   
 1. In Visual Studio, create a new **Cross-Platform App (Xamarin.Forms)** solution and name it **WeatherApp**. Look for the template by selecting **Visual C#** and **Cross-Platform** from the list at the left.  
-  
-  
+    
     ![Creating a new Cross-Platform Xamarin.Forms App project](../cross-platform/media/crossplat-xamarin-formsguide-2.png "CrossPlat Xamarin FormsGuide 2")
 
     If the template is not there, you might have to install Xamarin or enable the Visual Studio 2017 feature, see [Setup and install](../cross-platform/setup-and-install.md).  
 
 2.  After clicking OK, you'll have the opportunity to select some options. Pick **Blank App** and **.NET Standard**:
 
-     ![Creating a new Cross Platform App project](../cross-platform/media/crossplat-xamarin-formsguide-3.png "CrossPlat Xamarin FormsGuide 3")
+    ![Creating a new Cross Platform App project](../cross-platform/media/crossplat-xamarin-formsguide-3.png "CrossPlat Xamarin FormsGuide 3")
   
 3.  After clicking OK to create the solution, you'll have a solution with four projects:  
   

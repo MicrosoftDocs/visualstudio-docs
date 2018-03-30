@@ -1,7 +1,7 @@
 ---
 title: "Install Xamarin for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "03/29/2018"
+ms.date: "03/30/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -73,7 +73,7 @@ While the installation is running, you can continue with the Mac setup instructi
 
 5.  Once installation is complete, launch Visual Studio and sign in with your Microsoft account if prompted. This account is the same account you use with Windows.
 
-6.  For testing Android apps, use the [Android SDK Emulator](/xamarin/android/get-started/installation/android-emulator/) if you don't have physical devices. 
+6.  For testing Android apps, use the [Android SDK Emulator](/xamarin/android/get-started/installation/android-emulator/) if you don't have a physical Android device. 
 
 <a name="mac" />
 
