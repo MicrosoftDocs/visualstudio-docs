@@ -51,7 +51,7 @@ To differentiate between violations from Roslyn analyzers and static code analys
 
 ### Scope
 
-If you install analyzers as a Visual Studio extension, they apply at the solution level, to all instances of Visual Studio. If you install the analyzers as a NuGet package, which is the preferred method, they apply only to the project where the NuGet package was installed.
+If you install analyzers as a Visual Studio extension, they apply at the solution level, to all instances of Visual Studio. If you install the analyzers as a NuGet package, which is the preferred method, they apply only to the project where the NuGet package was installed. In team environments, analyzers installed as NuGet packages are in scope for *all developers* that work on that project.
 
 ### Build errors
 
