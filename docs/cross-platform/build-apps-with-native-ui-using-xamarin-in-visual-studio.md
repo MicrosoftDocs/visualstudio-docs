@@ -1,7 +1,7 @@
 ---
 title: "Build apps with native UI using Xamarin in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "03/29/2018"
+ms.date: "03/30/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: vs-ide-mobile
@@ -103,7 +103,7 @@ Visual Studio does not have a solution template for creating native UI applicati
 
 ## Write shared data service code  
 
- The **WeatherApp** project is the .NET Standard library. This project is where you'll write code that is shared across all platforms. Because each application project has a reference to the .NET Standard library, it is included in the iOS, Android, and UWP app packages.  
+ The **WeatherApp** project is the .NET Standard library. This project is where you'll write code that is shared across all platforms. Because each application project has a reference to the .NET Standard library, the library is included with the iOS, Android, and UWP app packages.  
   
  The following steps add code to the .NET Standard library to access and store data from that weather service:  
   
@@ -349,108 +349,108 @@ Visual Studio does not have a solution template for creating native UI applicati
         android:width="165dp" />  
     ```  
   
-12. You now know enough to build a basic UI by using the Android designer. You can also build a UI by adding markup directly to the Main.axml file of the page. To build the rest of the UI that way, switch to Source view in the designer, then paste the following markup *beneath* the `</RelativeLayout>` tag. (They must be beneath the tag because these elements are not contained in the `RelativeLayout)`.  
+12. You now know enough to build a basic UI by using the Android designer. You can also build a UI by adding markup directly to the Main.axml file of the page. To build the rest of the UI that way, switch to Source view in the designer, then paste the following markup *beneath* the `</RelativeLayout>` end tag. (They must be beneath the tag because these elements are *not* contained in the `RelativeLayout`.)  
   
     ```xml  
     <TextView  
-            android:text="Location"  
-            android:textAppearance="?android:attr/textAppearanceSmall"  
-            android:layout_width="match_parent"  
-            android:layout_height="wrap_content"  
-            android:id="@+id/locationLabel"  
-            android:layout_marginLeft="10dp"  
-            android:layout_marginTop="10dp" />  
-        <TextView  
-            android:textAppearance="?android:attr/textAppearanceMedium"  
-            android:layout_width="match_parent"  
-            android:layout_height="wrap_content"  
-            android:id="@+id/locationText"  
-            android:layout_marginLeft="20dp"  
-            android:layout_marginBottom="10dp" />  
-        <TextView  
-            android:text="Temperature"  
-            android:textAppearance="?android:attr/textAppearanceSmall"  
-            android:layout_width="match_parent"  
-            android:layout_height="wrap_content"  
-            android:id="@+id/tempLabel"  
-            android:layout_marginLeft="10dp" />  
-        <TextView  
-            android:textAppearance="?android:attr/textAppearanceMedium"  
-            android:layout_width="match_parent"  
-            android:layout_height="wrap_content"  
-            android:id="@+id/tempText"  
-            android:layout_marginBottom="10dp"  
-            android:layout_marginLeft="20dp" />  
-        <TextView  
-            android:text="Wind Speed"  
-            android:textAppearance="?android:attr/textAppearanceSmall"  
-            android:layout_width="match_parent"  
-            android:layout_height="wrap_content"  
-            android:id="@+id/windLabel"  
-            android:layout_marginLeft="10dp" />  
-        <TextView  
-            android:textAppearance="?android:attr/textAppearanceMedium"  
-            android:layout_width="match_parent"  
-            android:layout_height="wrap_content"  
-            android:id="@+id/windText"  
-            android:layout_marginBottom="10dp"  
-            android:layout_marginLeft="20dp" />  
-        <TextView  
-            android:text="Humidity"  
-            android:textAppearance="?android:attr/textAppearanceSmall"  
-            android:layout_width="match_parent"  
-            android:layout_height="wrap_content"  
-            android:id="@+id/humidtyLabel"  
-            android:layout_marginLeft="10dp" />  
-        <TextView  
-            android:textAppearance="?android:attr/textAppearanceMedium"  
-            android:layout_width="match_parent"  
-            android:layout_height="wrap_content"  
-            android:id="@+id/humidityText"  
-            android:layout_marginBottom="10dp"  
-            android:layout_marginLeft="20dp" />  
-        <TextView  
-            android:text="Visibility"  
-            android:textAppearance="?android:attr/textAppearanceSmall"  
-            android:layout_width="match_parent"  
-            android:layout_height="wrap_content"  
-            android:id="@+id/visibilityLabel"  
-            android:layout_marginLeft="10dp" />  
-        <TextView  
-            android:textAppearance="?android:attr/textAppearanceMedium"  
-            android:layout_width="match_parent"  
-            android:layout_height="wrap_content"  
-            android:id="@+id/visibilityText"  
-            android:layout_marginBottom="10dp"  
-            android:layout_marginLeft="20dp" />  
-        <TextView  
-            android:text="Time of Sunrise"  
-            android:textAppearance="?android:attr/textAppearanceSmall"  
-            android:layout_width="match_parent"  
-            android:layout_height="wrap_content"  
-            android:id="@+id/sunriseLabel"  
-            android:layout_marginLeft="10dp" />  
-        <TextView  
-            android:textAppearance="?android:attr/textAppearanceMedium"  
-            android:layout_width="match_parent"  
-            android:layout_height="wrap_content"  
-            android:id="@+id/sunriseText"  
-            android:layout_marginBottom="10dp"  
-            android:layout_marginLeft="20dp" />  
-        <TextView  
-            android:text="Time of Sunset"  
-            android:textAppearance="?android:attr/textAppearanceSmall"  
-            android:layout_width="match_parent"  
-            android:layout_height="wrap_content"  
-            android:id="@+id/sunsetLabel"  
-            android:layout_marginLeft="10dp" />  
-        <TextView  
-            android:textAppearance="?android:attr/textAppearanceMedium"  
-            android:layout_width="match_parent"  
-            android:layout_height="wrap_content"  
-            android:id="@+id/sunsetText"  
-            android:layout_marginBottom="10dp"  
-            android:layout_marginLeft="20dp" />  
+        android:text="Location"  
+        android:textAppearance="?android:attr/textAppearanceSmall"  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"  
+        android:id="@+id/locationLabel"  
+        android:layout_marginLeft="10dp"  
+        android:layout_marginTop="10dp" />  
+    <TextView  
+        android:textAppearance="?android:attr/textAppearanceMedium"  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"  
+        android:id="@+id/locationText"  
+        android:layout_marginLeft="20dp"  
+        android:layout_marginBottom="10dp" />  
+    <TextView  
+        android:text="Temperature"  
+        android:textAppearance="?android:attr/textAppearanceSmall"  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"  
+        android:id="@+id/tempLabel"  
+        android:layout_marginLeft="10dp" />  
+    <TextView  
+        android:textAppearance="?android:attr/textAppearanceMedium"  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"  
+        android:id="@+id/tempText"  
+        android:layout_marginBottom="10dp"  
+        android:layout_marginLeft="20dp" />  
+    <TextView  
+        android:text="Wind Speed"  
+        android:textAppearance="?android:attr/textAppearanceSmall"  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"  
+        android:id="@+id/windLabel"  
+        android:layout_marginLeft="10dp" />  
+    <TextView  
+        android:textAppearance="?android:attr/textAppearanceMedium"  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"  
+        android:id="@+id/windText"  
+        android:layout_marginBottom="10dp"  
+        android:layout_marginLeft="20dp" />  
+    <TextView  
+        android:text="Humidity"  
+        android:textAppearance="?android:attr/textAppearanceSmall"  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"  
+        android:id="@+id/humidtyLabel"  
+        android:layout_marginLeft="10dp" />  
+    <TextView  
+        android:textAppearance="?android:attr/textAppearanceMedium"  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"  
+        android:id="@+id/humidityText"  
+        android:layout_marginBottom="10dp"  
+        android:layout_marginLeft="20dp" />  
+    <TextView  
+        android:text="Visibility"  
+        android:textAppearance="?android:attr/textAppearanceSmall"  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"  
+        android:id="@+id/visibilityLabel"  
+        android:layout_marginLeft="10dp" />  
+    <TextView  
+        android:textAppearance="?android:attr/textAppearanceMedium"  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"  
+        android:id="@+id/visibilityText"  
+        android:layout_marginBottom="10dp"  
+        android:layout_marginLeft="20dp" />  
+    <TextView  
+        android:text="Time of Sunrise"  
+        android:textAppearance="?android:attr/textAppearanceSmall"  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"  
+        android:id="@+id/sunriseLabel"  
+        android:layout_marginLeft="10dp" />  
+    <TextView  
+        android:textAppearance="?android:attr/textAppearanceMedium"  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"  
+        android:id="@+id/sunriseText"  
+        android:layout_marginBottom="10dp"  
+        android:layout_marginLeft="20dp" />  
+    <TextView  
+        android:text="Time of Sunset"  
+        android:textAppearance="?android:attr/textAppearanceSmall"  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"  
+        android:id="@+id/sunsetLabel"  
+        android:layout_marginLeft="10dp" />  
+    <TextView  
+        android:textAppearance="?android:attr/textAppearanceMedium"  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"  
+        android:id="@+id/sunsetText"  
+        android:layout_marginBottom="10dp"  
+        android:layout_marginLeft="20dp" />  
     ```  
   
 13. Save the file and switch to **Design** view. Your UI should appear as follows:  
@@ -544,7 +544,7 @@ The next step is to design the user interface for Windows, connect it to your sh
 
  The process of designing a native UWP user interface in a Xamarin app is no different from any other native UWP app. For this reason, the use of the designer won't be discussed here. For a detailed discussion, refer to [Creating a UI by using XAML Designer](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md).  
   
- Instead, open MainPage.xaml and replace the entire XAML contents with the following markup:   
+ Instead, open **MainPage.xaml** and replace the entire XAML contents with the following markup:   
   
 ```xaml  
 <Page

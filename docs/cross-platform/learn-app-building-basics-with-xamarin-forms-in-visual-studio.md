@@ -50,7 +50,7 @@ These steps create a Xamarin.Forms solution that contains a .NET Standard class 
     
     ![Creating a new Cross-Platform Xamarin.Forms App project](../cross-platform/media/crossplat-xamarin-formsguide-2.png "CrossPlat Xamarin FormsGuide 2")
 
-    If the template is not there, you might have to install Xamarin or enable the Visual Studio 2017 feature, see [Setup and install](../cross-platform/setup-and-install.md).  
+    If the template is not there, you might have to install Xamarin or enable the Visual Studio 2017 feature. See [Setup and install](../cross-platform/setup-and-install.md).  
 
 2.  After clicking OK, you'll have the opportunity to select some options. Pick **Blank App** and **.NET Standard**:
 
@@ -271,7 +271,7 @@ Xamarin.Forms lets you implement shared UI code in the .NET Standard library. In
     }  
     ```  
   
-4.  To open **WeatherPage** as the first screen when the app launches, replace the default constructor in **App.cs** with the following code:  
+4.  To open **WeatherPage** as the first screen when the app launches, replace the default constructor in **App.xaml.cs** with the following code:  
   
     ```csharp  
     public App()  
