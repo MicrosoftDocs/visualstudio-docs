@@ -50,15 +50,13 @@ Retrieves the assembly identities from the specified files and outputs the ident
     <ItemGroup>  
         <MyAssemblies Include="File1.dll;File2.dll" />  
     </ItemGroup>  
-  
-    <Target Name="RetrieveIdentities>  
+    <Target Name="RetrieveIdentities">  
         <GetAssemblyIdentity  
             AssemblyFiles="@(MyAssemblies)"  
             <Output  
                 TaskParameter="Assemblies"  
                 ItemName="MyAssemblyIdentities"  
     </Target>  
-  
 </Project>  
 ```  
   
