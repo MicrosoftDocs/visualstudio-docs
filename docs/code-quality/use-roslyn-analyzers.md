@@ -15,6 +15,8 @@ ms.workload:
 ---
 # Configure and use Roslyn analyzer rules
 
+.NET Compiler Platform ("Roslyn") analyzer diagnostics have a default behavior that can be overwritten for your project. The behavior includes a severity and suppression state. You can do much of the customization of analyzer diagnostics from **Solution Explorer**.
+
 ## Analyzers in Solution Explorer
 
 If you [install analyzers](../code-quality/install-roslyn-analyzers.md) as a NuGet package, an **Analyzers** node appears under the **References** node in **Solution Explorer**. If you expand **Analyzers**, and then expand one of the analyzer assemblies, you see all the diagnostics in the assembly.
@@ -25,7 +27,26 @@ You can view the properties of a diagnostic, including its description and defau
 
 ![Diagnostic properties in Properties window](media/analyzer-diagnostic-properties.png)
 
+To see online documentation for a diagnostic, right-click on the diagnostic and select **View Help**.
+
+The icons next to each diagnostic in **Solution Explorer** correspond to the icons you see in the rule set when you open it in the editor:
+
+- the "i" in a circle indicates a [severity](#rule-severity) of **Info**
+- the "!" in a triangle indicates a [severity](#rule-severity) of **Warning**
+- the "x" in a circle indicates a [severity](#rule-severity) of **Error**
+- the "i" in a circle on a light-colored background indicates a [severity](#rule-severity) of **Hidden**
+- the downward-pointing arrow in a circle indicates that the diagnostic is suppressed
+
+![Diagnostics icons in Solution Explorer](media/diagnostics-icons-solution-explorer.png)
+
 ## Rule sets
+
+A rule set is an XML file that stores the severity and suppression state for individual diagnostics. Rule sets apply to a single project, and a project can have multiple rule sets. To view the active rule set in the editor, right-click on the **Analyzers** node in **Solution Explorer** and select **Open Active Rule Set**. If this is the first time you are accessing the rule set, a file named *\<projectname>.ruleset* is added to the project and appears in **Solution Explorer**.
+
+> [!NOTE]
+> Rule sets include both static (binary) code analysis and Roslyn analyzer rules.
+
+You can change the active rule set for a project on the **Code Analysis** tab of a project's properties. Select the rule set in the **Run this rule set** drop-down list. You can also open the rule set from the **Code Analysis** property page by selecting **Open**.
 
 ## Rule severity
 
@@ -39,7 +60,7 @@ You can configure the severity of analyzer rules, or *diagnostics*, if you [inst
 |Hidden|Non-visible.|Non-visible.|
 |None|Suppressed completely.|Suppressed completely.|
 
-In addition, you can "re-set" a rule's severity by setting it to **Default**.
+In addition, you can "reset" a rule's severity by setting it to **Default**. Each diagnostic has a default severity that can be seen in the **Properties** window.
 
 The following screenshot shows three different diagnostic violations in the code editor, with three different severities. Notice the color of the squiggly, as well as the small box in the scroll bar on the right.
 
@@ -55,12 +76,47 @@ You can change the severity of a rule from **Solution Explorer**, or within the 
 
 ### To set rule severity from Solution Explorer
 
+1. In **Solution Explorer**, expand **References** > **Analyzers**.
+
+1. Expand the assembly that contains the rule you want to set severity for.
+
+1. Right-click on the rule and select **Set Rule Set Severity**. In the fly-out menu, select one of the severity options.
+
+   The severity for the rule is saved in the active rule set file.
+
 ### To set rule severity in the rule set file
 
-![Ruleset file open in editor](media/ruleset-file-in-editor.png)
+1. Open the rule set file by double-clicking it in **Solution Explorer**, selecting **Open Active Rule Set** on the right-click menu of the **Analyzers** node, or by choosing it and then selecting **Open** on the **Code Analysis** property page for the project.
 
-## Supress violations
+1. Browse to the rule by expanding its containing assembly.
+
+1. In the **Action** column, select the value to open a drop-down list, and select the desired severity from the list.
+
+   ![Ruleset file open in editor](media/ruleset-file-in-editor.png)
+
+## Suppress violations
+
+There are multiple ways to suppress rule violations:
+
+- To suppress all current violations, select **Analyze** > **Run Code Analysis and Suppress Active Issues** on the menu bar. This is sometimes referred to as "baselining".
+
+- To suppress a diagnostic from **Solution Explorer**, set its severity to **None**.
+
+- To suppress a diagnostic from the rule set editor, uncheck the box next to its name, or set **Action** to **None**.
+
+- To suppress a diagnostic from the code editor, place the cursor in the line of code with the violation and press **Ctrl**+**.** to open the **Quick Actions** menu. Select **Suppress \<CAxxxx>** > **In Source** or **Suppress \<CAxxxx>** > **In Suppression File**.
+
+   ![Suppress diagnostic from quick actions menu](media/suppress-diagnostic-from-editor.png)
+
+- To suppress a diagnostic from the **Error List**, right-click on the error, warning, or message, and select **Suppress** > **In Source** or **Suppress** > **In Suppression File**.
+
+   - If you select **In Source**, the **Preview Changes** dialog opens and shows a preview of the [#pragma warning](/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-pragma-warning) that's added to the source code.
+
+      ![#pragma warning in Preview dialog](media/pragma-warning-preview.png)
+
+   - If you select **In Suppression File**, the **Preview Changes** dialog opens and shows a preview of the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute that's added to the global suppressions file.
 
 ## See also
 
 - [Overview of Roslyn analyzers in Visual Studio](../code-quality/roslyn-analyzers-overview.md)
+- [Suppress code analysis warnings](../code-quality/in-source-suppression-overview.md)

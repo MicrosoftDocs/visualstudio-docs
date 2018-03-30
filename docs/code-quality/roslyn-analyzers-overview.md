@@ -57,9 +57,9 @@ If you install analyzers as a Visual Studio extension, they apply at the solutio
 
 To have rules enforced at build time, including through the command line or as part of a continuous integration (CI) build, install the analyzers as a NuGet package. Extensions cannot affect build, so analyzer warnings and errors don't show up in the build report if you installed the analyzers as an extension.
 
-The following screenshot shows the command-line build output from builiding a project that contains an analyzer rule violation:
+The following screenshot shows the command-line build output from building a project that contains an analyzer rule violation:
 
-![MSBuild output with rule violation](media/add-me.png)
+![MSBuild output with rule violation](media/command-line-build-analyzers.png)
 
 ### Rule severity
 
