@@ -47,7 +47,6 @@ You'll do these things to build it:
 > Xamarin's developer documentation also offers several walkthroughs with both Quickstart and Deep Dive sections as listed below. On all these pages, be sure that "Visual Studio" is selected to see walkthroughs specific to Visual Studio.  
 >   
 >  -   Xamarin apps with native UI:  
->   
 >     -   [Hello, Android](/xamarin/android/get-started/hello-android/) (simple app with one screen)  
 >     -   [Hello, Android multiscreen](/xamarin/android/get-started/hello-android-multiscreen/) (app with navigation between screens)  
 >     -   [Android Fragments Walkthrough](/xamarin/android/platform/fragments/fragments/implementing-with-fragments/walkthrough/) (used for master/detail screens, among other things)  
@@ -55,7 +54,6 @@ You'll do these things to build it:
 >     -   [Hello, iOS Multiscreen](/xamarin/ios/get-started/hello-iOS-multiscreen/) 
 
 >  -   Xamarin apps with Xamarin.Forms (shared UI)  
->   
 >     -   [Hello, Xamarin.Forms](/xamarin/xamarin-forms/get-started/hello-xamarin-forms/quickstart/)  
 >     -   [Hello, Xamarin.Forms Multiscreen](/xamarin/xamarin-forms/get-started/hello-xamarin-forms-multiscreen/)  
   
