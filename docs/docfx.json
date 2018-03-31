@@ -12,6 +12,13 @@
           "**/includes/**",
           "missingapi.yml"
         ]
+      },
+      {
+        "files": [
+          "toc.yml"
+        ],
+        "src": "_breadcrumb",
+        "dest": "vs_docs_bread_toc"
       }
     ],
     "resource": [
