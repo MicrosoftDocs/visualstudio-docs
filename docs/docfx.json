@@ -10,28 +10,8 @@
           "**/obj/**",
           "vsdocsdocs/**",
           "**/includes/**",
-          "missingapi.yml",
-          "toc.yml",
-          "toc.md"
+          "missingapi.yml"
         ]
-      },
-      {
-        "files": [
-          "toc.yml",
-          "toc.md",
-          "TOC.md"
-        ],
-        "exclude": [
-          "_breadcrumb/**"  
-        ],
-        "dest": "vs_docs_toc"
-      },
-      {
-        "files": [
-          "toc.yml"
-        ],
-        "src": "_breadcrumb",
-        "dest": "vs_docs_bread_toc"
       }
     ],
     "resource": [
