@@ -18,7 +18,8 @@
       {
         "files": [
           "toc.yml",
-          "toc.md"
+          "toc.md",
+          "TOC.md"
         ],
         "exclude": [
           "_breadcrumb/**"  
