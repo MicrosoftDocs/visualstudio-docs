@@ -19,7 +19,7 @@ ms.workload:
 
 ## Analyzers in Solution Explorer
 
-You can do much of the customization of analyzer diagnostics from **Solution Explorer**. If you [install analyzers](../code-quality/install-roslyn-analyzers.md) as a NuGet package, an **Analyzers** node appears under the **References** node in **Solution Explorer**. If you expand **Analyzers**, and then expand one of the analyzer assemblies, you see all the diagnostics in the assembly.
+You can do much of the customization of analyzer diagnostics from **Solution Explorer**. If you [install analyzers](../code-quality/install-roslyn-analyzers.md) as a NuGet package, an **Analyzers** node appears under the **References** or **Dependencies** node in **Solution Explorer**. If you expand **Analyzers**, and then expand one of the analyzer assemblies, you see all the diagnostics in the assembly.
 
 ![Analyzers node in Solution Explorer](media/analyzers-expanded-in-solution-explorer.png)
 
@@ -57,7 +57,7 @@ You can configure the severity of analyzer rules, or *diagnostics*, if you [inst
 |Error|Violations appear as *Errors* in the **Error List** and in command-line build output, and cause builds to fail.|Offending code is underlined with a red squiggly, and marked by a small red box in the scroll bar.|
 |Warning|Violations appear as *Warnings* in the **Error List** and in command-line build output, but do not cause builds to fail.|Offending code is underlined with a green squiggly, and marked by a small green box in the scroll bar.|
 |Info|Violations appear as *Messages* in the **Error List**, and not at all in command-line build output.|Offending code is underlined with a gray squiggly, and marked by a small gray box in the scroll bar.|
-|Hidden|Non-visible.|Non-visible.|
+|Hidden|Non-visible to user.|Non-visible to user. The diagnostic is reported to the IDE diagnostic engine, however.|
 |None|Suppressed completely.|Suppressed completely.|
 
 In addition, you can "reset" a rule's severity by setting it to **Default**. Each diagnostic has a default severity that can be seen in the **Properties** window.
@@ -120,8 +120,16 @@ There are multiple ways to suppress rule violations:
 
    In the **Preview Changes** dialog, select **Apply**.
 
+> [!NOTE]
+> In a .NET Core project, if you add a reference to a project that has NuGet analyzers, those analyzers are automatically added to the dependent project too. To disable this behavior, for example if the dependent project is a unit test project, mark the NuGet package as private in the *.csproj* or *.vbproj* file of the referenced project:
+>
+> ```xml
+> <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.6.0" PrivateAssets="all" />
+> ```
+
 ## See also
 
 - [Overview of Roslyn analyzers in Visual Studio](../code-quality/roslyn-analyzers-overview.md)
+- [Submit a Roslyn analyzer bug](https://github.com/dotnet/roslyn-analyzers/issues)
 - [Use rule sets](../code-quality/using-rule-sets-to-group-code-analysis-rules.md)
 - [Suppress code analysis warnings](../code-quality/in-source-suppression-overview.md)
