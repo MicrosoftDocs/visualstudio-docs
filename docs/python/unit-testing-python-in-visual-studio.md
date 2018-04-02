@@ -33,7 +33,7 @@ This article provides a brief outline of unit testing capabilities in Visual Stu
 
 ## Discovering and viewing tests
 
-By convention, Visual Studio identifies tests are as methods whose names start with `test`. To see this behavior, do the following:
+By convention, Visual Studio identifies tests as methods whose names start with `test`. To see this behavior, do the following:
 
 1. Open a [Python project](managing-python-projects-in-visual-studio.md) loaded in Visual Studio, right-click your project, select **Add > New Item...**, then select **Python Unit Test** followed by **Add**.
 

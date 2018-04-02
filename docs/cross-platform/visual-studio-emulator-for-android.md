@@ -17,15 +17,15 @@ ms.workload:
 ---
 # Visual Studio Emulator for Android
 The Visual Studio Emulator for Android is a desktop application that emulates an Android device. It provides a virtualized environment in which you can debug and test Android apps without a physical device. It also provides an isolated environment for your application prototypes.  
+
+> [!IMPORTANT]
+> In most scenarios, the Google Android emulator is recommended for use instead of the Visual Studio Emulator for Android:
+> - When you are in need of emulator images containing Android 7.0 or later, because there are no plans to publish Android images past version 6.0 for use in the Visual Studio Emulator for Android.
+> - When using Visual Studio Tools for Apache Cordova. For more information, see [Run your Apache Cordova app on Android](/visualstudio/cross-platform/tools-for-cordova/run-your-app/run-app-android#a-idgoogle-android-emulatora-run-on-the-google-android-emulator).
   
  The Visual Studio Emulator for Android is designed to provide comparable performance to an actual device. Before you publish your app, however, we recommend that you test your app on a physical device.  
   
  You can test your app on a unique device profile for each of the Android platforms, screen resolutions, and other hardware properties supported by Visual Studio Emulator for Android.
-
-> [!NOTE]
-> The Google Android emulator is recommended for use in the following cases:
-> - When using Visual Studio Tools for Apache Cordova. For more information, see [Run your Apache Cordova app on Android](/visualstudio/cross-platform/tools-for-cordova/run-your-app/run-app-android#a-idgoogle-android-emulatora-run-on-the-google-android-emulator).
-> - When in need of emulator images containing Android 7.0 or later as there are no plans to publish Android images past version 6.0 for use in Visual Studio Emulator for Android.
   
 ##  <a name="Installing"></a> Installing and uninstalling  
  Installing  
