@@ -15,11 +15,11 @@ ms.workload:
 ---
 # Configure and use Roslyn analyzer rules
 
-.NET Compiler Platform ("Roslyn") analyzer rules, or *diagnostics*, have a default behavior that can be overwritten for your project. The behavior includes a severity and suppression state. You can do much of the customization of analyzer diagnostics from **Solution Explorer**.
+.NET Compiler Platform ("Roslyn") analyzer rules, or *diagnostics*, analyze your C# or Visual Basic code as you type. Each diagnostic has a default severity and suppression state that can be overwritten for your project. This article covers setting rule severity, using rule sets, and suppressing violations.
 
 ## Analyzers in Solution Explorer
 
-If you [install analyzers](../code-quality/install-roslyn-analyzers.md) as a NuGet package, an **Analyzers** node appears under the **References** node in **Solution Explorer**. If you expand **Analyzers**, and then expand one of the analyzer assemblies, you see all the diagnostics in the assembly.
+You can do much of the customization of analyzer diagnostics from **Solution Explorer**. If you [install analyzers](../code-quality/install-roslyn-analyzers.md) as a NuGet package, an **Analyzers** node appears under the **References** node in **Solution Explorer**. If you expand **Analyzers**, and then expand one of the analyzer assemblies, you see all the diagnostics in the assembly.
 
 ![Analyzers node in Solution Explorer](media/analyzers-expanded-in-solution-explorer.png)
 
@@ -104,17 +104,21 @@ There are multiple ways to suppress rule violations:
 
 - To suppress a diagnostic from the rule set editor, uncheck the box next to its name, or set **Action** to **None**.
 
-- To suppress a diagnostic from the code editor, place the cursor in the line of code with the violation and press **Ctrl**+**.** to open the **Quick Actions** menu. Select **Suppress \<CAxxxx>** > **In Source** or **Suppress \<CAxxxx>** > **In Suppression File**.
+- To suppress a diagnostic from the code editor, place the cursor in the line of code with the violation and press **Ctrl**+**.** to open the **Quick Actions** menu. Select **Suppress CAxxxx** > **In Source** or **Suppress CAxxxx** > **In Suppression File**.
 
    ![Suppress diagnostic from quick actions menu](media/suppress-diagnostic-from-editor.png)
 
 - To suppress a diagnostic from the **Error List**, right-click on the error, warning, or message, and select **Suppress** > **In Source** or **Suppress** > **In Suppression File**.
 
-   - If you select **In Source**, the **Preview Changes** dialog opens and shows a preview of the [#pragma warning](/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-pragma-warning) that's added to the source code.
+   - If you select **In Source**, the **Preview Changes** dialog opens and shows a preview of the C# [#pragma warning](/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-pragma-warning) or Visual Basic [#Disable warning](/dotnet/visual-basic/language-reference/directives/directives) directive that's added to the source code.
 
-      ![#pragma warning in Preview dialog](media/pragma-warning-preview.png)
+      ![Preview of adding #pragma warning in code file](media/pragma-warning-preview.png)
 
    - If you select **In Suppression File**, the **Preview Changes** dialog opens and shows a preview of the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute that's added to the global suppressions file.
+
+      ![Preview of adding SuppressMessage attribute to suppression file](media/preview-changes-in-suppression-file.png)
+
+   In the **Preview Changes** dialog, select **Apply**.
 
 ## See also
 
