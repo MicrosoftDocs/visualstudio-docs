@@ -3,7 +3,7 @@ title: "Using Visual Studio on an Azure Virtual Machine | Microsoft Docs"
 description: "Learn how to use Visual Studio on an Azure Virtual Machine"
 ms.date: "03/03/2018"
 ms.technology: "vs-acquisition"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "azure services"
   - "virtual machine; VM"
@@ -11,7 +11,7 @@ helpviewer_keywords: 
   - "visual studio"
 author: "PhilLee-MSFT"
 ms.author: "phillee"
-manager: sacalla
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -51,7 +51,7 @@ We use the following command line to install Visual Studio when building the ima
 ```shell
     vs_enterprise.exe --allWorkloads --includeRecommended --passive ^
        add Microsoft.Net.Component.4.7.SDK ^
-       add Microsoft.Net.Component.4.7.TargetingPack ^ 
+       add Microsoft.Net.Component.4.7.TargetingPack ^
        add Microsoft.Net.Component.4.6.2.SDK ^
        add Microsoft.Net.Component.4.6.2.TargetingPack ^
        add Microsoft.Net.ComponentGroup.4.7.DeveloperTools ^
@@ -72,14 +72,14 @@ Azure offers a full range of virtual machine sizes. Because Visual Studio is a p
    * Standard_D2_v2
    * Standard_D2S_v2
    * Standard_D3_v2
-    
+
 For more information on the latest machine sizes, see [Sizes for Windows virtual machines in Azure](/azure/virtual-machines/windows/sizes).
 
 With Azure, you can rebalance your initial choice by resizing the VM. You can either provision a new VM with a more appropriate size, or resize your existing VM to different underlying hardware. For more information, see [Resize a Windows VM](/azure/virtual-machines/windows/resize-vm).
 
 ## After the VM is running, what's next?
 Visual Studio follows the “bring your own license” model in Azure. As with an installation on proprietary hardware, one of the first steps is licensing your Visual Studio installation. To unlock Visual Studio, either:
-- Sign in with a Microsoft account that’s associated with a Visual Studio subscription 
+- Sign in with a Microsoft account that’s associated with a Visual Studio subscription
 - Unlock Visual Studio with the product key that came with your initial purchase
 
 For more information, see [Sign in to Visual Studio](../ide/signing-in-to-visual-studio.md) and [How to unlock Visual Studio](../ide/how-to-unlock-visual-studio.md).
