@@ -36,7 +36,7 @@
 ## [Use Rule Sets to Group Code Analysis Rules](using-rule-sets-to-group-code-analysis-rules.md)
 ### [Use Rule Sets for Managed Code](how-to-configure-code-analysis-for-a-managed-code-project.md)
 #### [Configure Code Analysis for an ASP.NET Web Application](how-to-configure-code-analysis-for-an-aspnet-web-application.md)
-#### [Specify Rule Sets for Multiple Projects](how-to-specify-managed-code-rule-sets-for-multiple-projects-in-a-solution.md)]
+#### [Specify Rule Sets for Multiple Projects](how-to-specify-managed-code-rule-sets-for-multiple-projects-in-a-solution.md)
 ### [Use Rule Sets for C++ Code](using-rule-sets-to-specify-the-cpp-rules-to-run.md)
 ### [Synchronize Project Rule Sets with Team Project Check-in Policy](how-to-synchronize-code-project-rule-sets-with-team-project-check-in-policy.md)
 ### [Create Custom Rule Sets](creating-custom-code-analysis-rule-sets.md)
@@ -50,7 +50,7 @@
 ### [Generate Code Metrics Data](how-to-generate-code-metrics-data.md)
 ### [Work with Code Metrics Data](working-with-code-metrics-data.md)
 # Reference
-## [Rule sets]
+## Rule sets
 ### [All Rules rule set](all-rules-rule-set.md)
 ### [Basic Correctness Rules rule set for managed code](basic-correctness-rules-rule-set-for-managed-code.md)
 ### [Basic Design Guideline Rules rule set for managed code](basic-design-guideline-rules-rule-set-for-managed-code.md)
