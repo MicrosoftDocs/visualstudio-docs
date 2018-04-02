@@ -98,6 +98,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/code-quality/code-analysis-rule-set-reference.md",
+            "redirect_url": "/visualstudio/code-quality/managed-minimun-rules-rule-set-for-managed-code",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/code-quality/creating-and-using-code-analysis-check-in-policies.md",
             "redirect_url": "/visualstudio/code-quality/how-to-create-or-update-standard-code-analysis-check-in-policies",
             "redirect_document_id": false

@@ -19,7 +19,7 @@ helpviewer_keywords:
   - "Visual Studio installer"
 author: "TerryGLee"
 ms.author: "tglee"
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ---

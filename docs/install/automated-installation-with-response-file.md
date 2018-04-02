@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "command-line"
 author: "tglee"
 ms.author: "tglee"
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ---
