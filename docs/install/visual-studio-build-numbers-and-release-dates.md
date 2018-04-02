@@ -4,9 +4,9 @@ description: "A list of released versions and build numbers for Visual Studio 20
 keywords:
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.date: 03/22/2018
-ms.topic: article
+ms.topic: reference
 helpviewer_keywords:
 ms.technology:
   - "vs-acquisition"
