@@ -76,7 +76,7 @@ You can change the severity of a rule from **Solution Explorer**, or within the 
 
 ### To set rule severity from Solution Explorer
 
-1. In **Solution Explorer**, expand **References** > **Analyzers**.
+1. In **Solution Explorer**, expand **References** > **Analyzers** (**Dependencies** > **Analyzers** for .NET Core projects).
 
 1. Expand the assembly that contains the rule you want to set severity for.
 
