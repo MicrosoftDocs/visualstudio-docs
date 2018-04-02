@@ -151,7 +151,7 @@ Select the form that you want to use as a splash screen. You must have previousl
 
 Click this button to display an events code file in which you can write events for the application framework events `Startup`, `Shutdown`, `UnhandledException`, `StartupNextInstance` and `NetworkAvailabilityChanged`. You can also override certain application framework methods. For example, you can change the display behavior of the splash screen by overriding `OnInitialize`.
 
-### Windows Application Framework Properties for Windows Presentation Foundation (WPF) Applications
+## Windows Application Framework Properties for Windows Presentation Foundation (WPF) Applications
 
 The following settings are available in the **Windows application framework properties** section when the project is a Windows Presentation Foundation application. These options are available only if the **Enable application framework** check box is selected. The options listed in this table are available only for WPF applications or WPF browser applications. They are not available for WPF User Control or Custom Control libraries.
 
