@@ -79,18 +79,18 @@ A:  You’re receiving this email because you use the Azure benefit associated w
 
 To continue using your Visual Studio Azure credit and discounts, take one of the following steps: 
 
-•	If someone in your team or organization purchases subscriptions on your behalf, contact your organization’s Visual Studio administrator and request a Visual Studio subscription that entitles you to the Azure monthly credit amount you need.   Please request the administrator to assign the new subscription to the same user ID that your previous subscription was assigned to, so that you don’t have to worry about transferring your Azure subscription.
+If someone in your team or organization purchases subscriptions on your behalf, contact your organization’s Visual Studio administrator and request a Visual Studio subscription that entitles you to the Azure monthly credit amount you need.   Please request the administrator to assign the new subscription to the same user ID that your previous subscription was assigned to, so that you don’t have to worry about transferring your Azure subscription.
 
 
-•	If you can purchase a subscription directly, please do one of the following: 
+If you can purchase a subscription directly, please do one of the following: 
 1.	Purchase an annual Visual Studio [Enterprise](https://marketplace.visualstudio.com/items?itemName=ms.vs-enterprise-annual) or [Professional](https://marketplace.visualstudio.com/items?itemName=ms.vs-professional-annual) cloud subscription through the Visual Studio Marketplace. 
 2.	Take advantage of a 50% or higher discount by renewing your current subscription through the [Microsoft Store](https://www.microsoft.com/en-us/search/result.aspx?q=visual+studio+subscription).
 
 Compare all the [subscriptions and their benefits](https://www.visualstudio.com/vs/pricing/).
 
-•	If you have another active Visual Studio subscription at the SAME subscription level under a Microsoft account, you can link it to this Azure benefit by adding an [alternate account](/manage-vs-subscriptions#linking-my-subscription-to-existing-vsts-or-azure-subscriptions/) in the Visual Studio subscription portal. If this doesn’t work, you can also try [transferring your Azure benefit](/azure/billing/billing-subscription-transfer/) to the active Visual Studio subscription.
+If you have another active Visual Studio subscription at the SAME subscription level under a Microsoft account, you can link it to this Azure benefit by adding an [alternate account](/manage-vs-subscriptions#linking-my-subscription-to-existing-vsts-or-azure-subscriptions/) in the Visual Studio subscription portal. If this doesn’t work, you can also try [transferring your Azure benefit](/azure/billing/billing-subscription-transfer/) to the active Visual Studio subscription.
 
-•	If you have another active Visual Studio subscription at a DIFFERENT subscription level and under a Microsoft account, contact [Azure support](https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade) for assistance.
+If you have another active Visual Studio subscription at a DIFFERENT subscription level and under a Microsoft account, contact [Azure support](https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade) for assistance.
 
 If your subscription has a spending limit and you take no action before it expires, the Azure subscription(s) your Azure subscription will be disabled. To convert it to a pay-as-you-go offer and continue to use it, add a payment instrument and [remove your spending limit](/azure/billing/billing-spending-limit/).
 

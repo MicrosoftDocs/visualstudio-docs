@@ -3,7 +3,7 @@ title: Using the Subscriber Portal - http://my.visualstudio.com | Microsoft Docs
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp
-Ms.date: 1/4/2018
+Ms.date: 01/04/2018
 Ms.topic: Get-Started-Article
 Description: Learn about the full range of benefits available to you on the Visual Studio subscriptions portal 
 Ms.prod: vs-subscription

@@ -3,7 +3,7 @@ title: Visual Studio Subscriptions in a Microsoft Products and Services Agreemen
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp
-Ms.date: 3/14/2018
+Ms.date: 03/14/2018
 Ms.topic: Get-Started-Article
 Description:  Visual Studio Subscriptions in a Microsoft Products and Services Agreement (MPSA).
 Ms.prod: vs-subscription
@@ -25,7 +25,7 @@ An unmanaged tenant is a tenant without any administrators within and is not usa
 
 Prior to completing the tenant association here are a few requirements/steps needed to become a Visual Studio Subscriptions administrator.
 
-## Pre Tenant Association (Managed Tenant)
+## Pre-tenant association (managed tenant)
 1.	You must be a registered user to the Business Center.
 2.	You must be a User Admin (at minimum) or Global Admin within the tenant that you are part of. (This applies if your company already uses Cloud Services). Either role is needed to be a Visual Studio subscriptions administrator.
 3.	You must be a Global Admin in the tenant that you are part of to be able to associate your Purchasing Account to your tenant.
@@ -47,7 +47,7 @@ Upon association, all users meeting  the needed criteria will typically provisio
 > [!NOTE]
 > If there are new users that have met  the criteria in steps 2 and 5 (after association) you must contact MPSA Support. MPSA Support will provide assistance to provision the new Visual Studio Subscriptions administrators.
 
-## Tenant Association (Unmanaged)
+## Tenant association (unmanaged)
 
 If you registered to the Business Center with an email that was not a Work Account (not registered in the Azure Active Directory “Azure AD”), as explained in paragraph five above, the tenant association will be slightly different. You will need to perform what’s called a "domain take-over". During this process you will make yourself the Global Admin which will change your tenant from unmanaged to managed.
 

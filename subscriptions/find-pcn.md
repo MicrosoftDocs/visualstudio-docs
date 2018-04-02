@@ -13,10 +13,11 @@ Searchscope: VS Subscription
 
 # How do I locate my “Public Customer Number” (PCN) or Authorization Number?
 
+In order to complete the onboarding of your organization to the subscription administration portal, you will need your Public Customer Number (PCN) or Authorization Number. This article provides the steps to locate those numbers for your organization.  
 
-## To Locate your PCN or authorization number:
+## To Locate your PCN or Authorization Number:
 
-1.  Log in to the Volume Licensing Service Center at: https://www.Microsoft.com/licensing/servicecenter.
+1.  Log in to the Volume Licensing Service Center at: [https://www.Microsoft.com/licensing/servicecenter](https://www.Microsoft.com/licensing/servicecenter).
 
     ![Sign in to VLSC](_img/vlsc/vlsc-login.png)
 

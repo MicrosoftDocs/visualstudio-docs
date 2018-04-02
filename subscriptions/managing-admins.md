@@ -3,7 +3,7 @@ title: Managing Administrator Rights in the Visual Studio Subscriptions Administ
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp
-Ms.date: 1/19/2018
+Ms.date: 01/19/2018
 Ms.topic: Get-Started-Article
 Description:  Learn how manage admins & super admins in the Visual Studio Subscriptions Administrator Portal.
 Ms.prod: vs-subscription
@@ -11,7 +11,8 @@ Ms.technology: vs-subscriptions
 Searchscope: VS Subscription
 ---
 
-# Managing Administrator Rights in the Visual Studio Subscriptions Administrator Portal
+# Managing administrator rights in the Visual Studio subscriptions administrator portal
+The Visual Studio subscriptions administrator portal allows you to manage the subscriptions belonging to your organization.  Management tasks are performed by "administrators" with rights to perform specific tasks within the portal.  This article will outline the administrator roles, and provide details on the assignment and management of those roles for your organization.  
 
 ## Overview 
 In the Visual Studio Subscriptions Administrator Portal (https://manage.visualstudio.com), there are two management roles:
@@ -40,7 +41,8 @@ In the Visual Studio Subscriptions Administrator Portal (https://manage.visualst
 
 7. To finish adding this administrator, click **Add**.
 
-**Potential error received while adding Admins:** Some users may receive an error message when trying to add the administrator. This is likely to occur if the super admin’s email address that is being added is not listed in the company's AAD. To finish adding the new administrator, simply ignore the error, and click **Add** again. 
+> [!NOTE]
+> **Potential error received while adding Admins:** Some users may receive an error message when trying to add the administrator. This is likely to occur if the super admin’s email address that is being added is not listed in the company's AAD. To finish adding the new administrator, simply ignore the error, and click **Add** again. 
 
 8. Once an admin has been created, you'll see them in the list of administrators.  Super Admins' accounts will be marked with a green check mark to indicate their super admin status. 
 

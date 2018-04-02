@@ -3,7 +3,7 @@ title: Personal Emails Displayed In VLSC
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp
-Ms.date: 1/23/2018
+Ms.date: 01/23/2018
 Ms.topic: Get-Started-Article
 Description:  Visual Studio Subscriptions – Why Am I Seeing Hotmail or Gmail Addresses for My Subscribers?   
 Ms.prod: vs-subscription
@@ -11,7 +11,7 @@ Ms.technology: vs-subscriptions
 Searchscope: VS Subscription
 ---
 
-# Visual Studio Subscriptions – Why Am I Seeing Hotmail or Gmail Addresses for My Subscribers? 
+# Visual Studio Subscriptions – Why am I seeing Hotmail or Gmail addresses for my subscribers? 
 
 As companies migrate from the Volume Licensing Service Center (VLSC) to the new Visual Studio [Subscriptions Administration Portal](https://manage.visualstudio.com), administrators may be surprised to find that the “Sign-in Email Address” for some subscribers shows a 3rd party email address like Hotmail, Gmail, or Yahoo.
 

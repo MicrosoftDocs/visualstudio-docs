@@ -3,7 +3,7 @@ title: Accessing the Portal and Managing Administrators - Volume Licensing | Mic
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp
-Ms.date: 3/14/2018
+Ms.date: 03/14/2018
 Ms.topic: Get-Started-Article
 Description:  Learn how subscription administrators can access the administration portal and manage subscriptions acquired through Volume Licensing (VL)
 Ms.prod: vs-subscription
@@ -44,5 +44,6 @@ When your organization is ready to be onboarded to the Visual Studio Subscriptio
 
 3.	Accessing the new subscription management portal. Once your organization is migrated, emails will be sent to the newly added super admins and administrators inviting them to access the new portal and begin managing subscriptions.  
 
-If you need to be added to the new Visual Studio Subscriptions Administration Portal and you aren’t sure who your Primary/Notices Contact is, you can find this information after signing in to the [VLSC](https://www.microsoft.com/Licensing/servicecenter/default.aspx). Take a look at [this article](/find-primary-contact/) for steps on locating your Primary/Notices Contact in the VLSC.
+If you need to be added to the new Visual Studio Subscriptions Administration Portal and you aren’t sure who your Primary/Notices Contact is, you can find this information after signing in to the [VLSC](https://www.microsoft.com/Licensing/servicecenter/default.aspx). Take a look the [Find Your Primary Contact](/find-primary-contact/) topic for steps to locate your Primary/Notices Contact in the VLSC.
+
 If you have already been set up as an administrator, then you can go directly to the Visual Studio subscriptions Administration Portal at: [https://manage.visualstudio.com](https://manage.visualstudio.com). 

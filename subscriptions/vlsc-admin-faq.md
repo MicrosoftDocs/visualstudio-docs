@@ -3,16 +3,17 @@ title: VLSC Admin Migration FAQs  | Microsoft Docs
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp
-Ms.date: 3/13/2018
+Ms.date: 03/13/2018
 Ms.topic: Get-Started-Article
 Description: Volume License Service Center Admin Migration FAQs  
 Ms.prod: vs-subscription
 Ms.technology: vs-subscriptions
 Searchscope: VS Subscription
 ---
-# Visual Studio Subscriptions Administration Migration
-## What is changing?
-Over the next few months, changes are coming to the management of Visual Studio subscriptions (formerly MSDN Subscriptions). Today, you can purchase Visual Studio subscriptions through Volume Licensing and the subscriptions are managed within the Volume License Service Center portal (VLSC). A new management portal is being created and Visual Studio subscriptions will be managed in this new portal in the future. In addition to the existing operations provided by the VLSC, the new portal will allow bulk assignment with no limits, tracking and filtering of subscriptions, and the ability to utilize Azure Active Directory (Azure AD) to manage access. The new Visual Studio Administration Portal will be located at: https://manage.visualstudio.com. 
+# Visual Studio subscriptions administration migration
+
+Over the next few months, changes are coming to the management of Visual Studio subscriptions (formerly MSDN Subscriptions). Today, you can purchase Visual Studio subscriptions through Volume Licensing and the subscriptions are managed within the Volume License Service Center portal (VLSC). A new management portal is being created and Visual Studio subscriptions will be managed in this new portal in the future. In addition to the existing operations provided by the VLSC, the new portal will allow bulk assignment with no limits, tracking and filtering of subscriptions, and the ability to utilize Azure Active Directory (Azure AD) to manage access. The new Visual Studio Administration Portal will be located at: [https://manage.visualstudio.com](https://manage.visualstudio.com). 
+
 > [!Note] 
 > This migration will not impact MPSA customers. 
 

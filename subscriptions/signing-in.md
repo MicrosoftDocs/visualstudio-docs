@@ -11,7 +11,7 @@ Ms.technology: vs-subscriptions
 Searchscope: VS Subscription
 ---
 
-# Signing in to Your Visual Studio Subscription
+# Signing in to your Visual Studio Subscription
 
 The steps to sign in to your Visual Studio subscription depend on the kind of account you're using.  For example, you may be using a Microsoft Account (MSA) or an email address supplied by your employer or school.  
 

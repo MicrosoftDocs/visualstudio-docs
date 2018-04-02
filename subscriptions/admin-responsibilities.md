@@ -1,9 +1,9 @@
 ---
-title: Admininstrator responsibilities | Visual Studio Marketplace
+title: Admininstrator Responsibilities | Visual Studio Marketplace
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp
-Ms.date: 3/13/2018
+Ms.date: 03/13/2018
 Ms.topic: Get-Started-Article
 Description:  Learn about responsibilities of subscriptions administrators.
 Ms.prod: vs-subscription
@@ -11,7 +11,9 @@ Ms.technology: vs-subscriptions
 Searchscope: VS Subscription
 
 ---
-# Administrator Overview
+# Overview of administrator responsibilities
+As an administrator, you have the ability to manage subscriptions for your organization.  The administrator role also carries responsibilities to ensure that the subscriptions are managed in accordance with the license terms. This article outlines the responsibilities, benefits, and limitations of the administrator role.
+
 ## Roles & responsibilities
 A Visual Studio administrator has four key responsibilities:
 1.	**Understand the benefits and restrictions of Visual Studio subscriptions.** Correctly understanding your benefits can enable you to reduce hardware costs by using cloud services, and reduce software costs with per-user licenses for pre-production environments. 
@@ -43,6 +45,7 @@ Here are some ways to simplify taking inventory of your pre-production environme
 
 ## Large teams and external contractors
 Visual Studio subscriptions administrators are responsible for ensuring that each user who interacts with Visual Studio-licensed software is appropriately licensed with their own Visual Studio subscription.
+
 ### Internal teams
 Typically, modern software organizations include stakeholders from several groups. Identify contacts from each group who can help you keep track of user inventory and changes. 
 Every organization is different, but a typical list of teams involved in development might include:
@@ -70,5 +73,6 @@ the high point either in daily user assignments or in users interacting with Vis
 
 ### Cloud Subscriptions, Open License or Open Value
 You may be assigning subscriptions through a program like Microsoft Cloud subscriptions, Open License or Open Value. If so, then you must process your order for additional users during the month in which users (employees or external contractors) begin interacting with Visual Studio-licensed software.
+
 ### Enterprise, MPSA and Select Agreements
 Microsoft Enterprise Agreements (EA), MPSA and Select Plus Agreements give you flexibility in how you use and license Visual Studio software over time. Visual Studio administrators must make an annual True-Up order to bring their software licenses up to the high watermark of usage established during the agreement period.

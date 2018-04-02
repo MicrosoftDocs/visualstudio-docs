@@ -3,7 +3,7 @@ title:  Manage Visual Studio Subscriptions
 Author: evanwindom
 Ms.author: jaunger
 Manager: evelynp
-Ms.date: 10/3/2017
+Ms.date: 10/03/2017
 Ms.topic: Get-Started-Article
 Description:  Learn how to get the most out of your Visual Studio subscriptions. 
 Ms.prod: vs-subscription
@@ -11,11 +11,16 @@ Ms.technology: vs-subscriptions
 Searchscope: VS Subscription
 ---
 
-# Managing Subscriptions
+# Managing subscriptions
+
+The Visual Studio [Subscriber Portal](https://my.visualstudio.com) gives you the ability to manage all your subscriptions and program memberships in a single place.  You can make changes to your profile, use all of the benefits included with your subscriptions, and switch between subscriptions quickly and easily.  
+
 ## Signing in to the portal
 Welcome to your Visual Studio subscription!  Your subscription provides you with all the software and benefits you need to stay up on all things code, including software, monthly Azure credits, collaboration tools, training perks, support, and more—all the latest and greatest from Microsoft.  In order to use the portal, you’ll need to sign in.
+
 ### First time access
 The steps to use your subscription for the first time depend on how you obtained your subscription.  
+
 #### Microsoft Store
 If you've purchased a Visual Studio subscription through the Microsoft Store, the activation steps can be initiated from the payment **Confirmation Page** or **Confirmation Email.**  
 1.	On the “Confirmation Page” or in the “Confirmation Email”, click on **Click here to sign in**.  You will be redirected to https://my.visualstudio.com/subscriptions/activate.
@@ -46,16 +51,17 @@ If your organization has an Azure Active Directory, but you don't have an Azure 
 
 ### Managing multiple subscriptions
 The Visual Studio subscriptions portal brings together all your Visual Studio subscriptions and programs in a single improved portal experience.  For example, you might have a standard subscription such as Visual Studio Enterprise through work, and a monthly Visual Studio Professional subscription or Visual Studio Dev Essentials membership you use at home. 
+
 #### Which subscription am I using?
 On the Benefits page, the subscription in use will be prominently displayed in the blue banner.  It's also displayed in the upper-right of the page.
 
-![The active subscription](_img\manage-vs-subscriptions\current-subscription-cropped.png)
+   ![The active subscription](_img\manage-vs-subscriptions\current-subscription-cropped.png)
 
 #### To switch between subscriptions, you can:
 - Click on the drop-down in the top right and choose the subscription from the list
 - Click on the Subscriptions tab and then click on the desired subscription
 
-![Switching subscriptions](_img\manage-vs-subscriptions\change-subscription-resized.png)
+   ![Switching subscriptions](_img\manage-vs-subscriptions\change-subscription-resized.png)
 
 #### If your subscription is not visible...
 - It may be expired.  Only active subscriptions are displayed in the Subscriber Portal.
@@ -67,15 +73,15 @@ On the Benefits page, the subscription in use will be prominently displayed in t
 - Microsoft Store: If you purchased your subscription from the [Microsoft Store](http://www.microsoft.com/store), you can renew it there as well. 
 - Volume License:  If your company buys subscriptions through a Volume License, your admin should contact a reseller to renew your subscriptions.
 
-**Cloud subscriptions -** Cloud subscriptions don't need to be renewed.  As long as your subscription is paid, it will remain active. 
+**Cloud subscriptions:**  Cloud subscriptions don't need to be renewed.  As long as your subscription is paid, it will remain active. 
 
-**Subscriptions acquired through programs -** If you get your subscription through a program, your subscription is tied to your participation in the program.  Please reach out to your program contacts for additional information. 
+**Subscriptions acquired through programs:**  If you get your subscription through a program, your subscription is tied to your participation in the program.  Please reach out to your program contacts for additional information. 
 - [Imagine](https://imagine.microsoft.com/about)
 - [BizSpark](https://bizspark.microsoft.com/About/Offers)
 - [Microsoft Partner Network](https://partner.microsoft.com/en-us)
 - [Microsoft Certified Trainer](https://www.microsoft.com/en-us/learning/mct-certification.aspx)
 
-**Visual Studio Dev Essentials -** Dev Essentials is a free program, and memberships do not expire.  
+**Visual Studio Dev Essentials:**  Dev Essentials is a free program, and memberships do not expire.  
 
 ### Transferring subscriptions
 If your subscription was purchased through Microsoft Volume Licensing and you need to re-assign it to someone else within the organization, your administrator will need to do this for you. 
@@ -83,6 +89,7 @@ Retail subscriptions can be transferred to another user by contacting Customer S
 
 
 ### Managing my profile
+The subscriptions portal allows you to create and manage a profile to make management of your subscriptions easy.  You can make changes to your identity informaiton and associate other sign-in identities from existing Azure and VSTS accounts to your subscriptions using alternate identities. 
 
 #### Changing profile information
 You can easily change the contact information and preferences in your profile.  

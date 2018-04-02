@@ -11,8 +11,10 @@ Ms.technology: vs-subscriptions
 Searchscope: VS Subscription
 ---
 
-# How Do I Leave the Visual Studio Dev Essentials Program? 
+# How do I leave the Visual Studio Dev Essentials program? 
+
 If you wish to leave the Visual Studio Dev Essentials program, please follow these steps:
+
 1. Go to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs)
 2. Sign in to your subscription.  (Get help [signing in](/visualstudio/subscriptions/signing-in).)
 3. Upon successful sign in, a list of current subscriptions will be displayed.
