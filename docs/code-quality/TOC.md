@@ -1,5 +1,6 @@
 # Overview
 ## [Code Analysis for Managed Code](code-analysis-for-managed-code-overview.md)
+## [Roslyn Analyzers](roslyn-analyzers-overview.md)
 ## [Code Analysis for C/C++](code-analysis-for-c-cpp-overview.md)
 ## [Measure Code Maintainability with Code Metrics](code-metrics-values.md)
 # Quickstarts
@@ -11,10 +12,12 @@
 ## [Configure and Use a Custom Rule Set](walkthrough-configuring-and-using-a-custom-rule-set.md)
 # How-to guides
 ## Code Analysis for Managed Code
-### [Enable and Disable Automatic Code Analysis for Managed Code](how-to-enable-and-disable-automatic-code-analysis-for-managed-code.md)
-### [Enable and Disable Full Solution Analysis for Managed Code](how-to-enable-and-disable-full-solution-analysis-for-managed-code.md)
+### [Install Roslyn Analyzers](install-roslyn-analyzers.md)
+### [Configure and Use Roslyn Analyzers](use-roslyn-analyzers.md)
+### [Enable Automatic Code Analysis](how-to-enable-and-disable-automatic-code-analysis-for-managed-code.md)
+### [Enable Full Solution Analysis](how-to-enable-and-disable-full-solution-analysis-for-managed-code.md)
 ### [Automatic feature suspension](automatic-feature-suspension.md)
-### [Run Code Analysis Manually for Managed Code](how-to-run-code-analysis-manually-for-managed-code.md)
+### [Run Code Analysis Manually](how-to-run-code-analysis-manually-for-managed-code.md)
 ### [Suppress Warnings](in-source-suppression-overview.md)
 #### [Suppress Code Analysis Warnings for Generated Code](how-to-suppress-code-analysis-warnings-for-generated-code.md)
 ### [Customize the Code Analysis Dictionary](how-to-customize-the-code-analysis-dictionary.md)
