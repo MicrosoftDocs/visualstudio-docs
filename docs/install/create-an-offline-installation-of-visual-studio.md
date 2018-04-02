@@ -8,7 +8,7 @@ ms.suite: ""
 ms.technology:
   - "vs-acquisition"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords:
   - "offline installation [Visual Studio]"
   - "offline install [Visual Studio]"
@@ -16,7 +16,7 @@ f1_keywords:
 ms.assetid: f8625d5e-f6ea-4db0-83c0-619b77fab3cf
 author: "TerryGLee"
 ms.author: "tglee"
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ---

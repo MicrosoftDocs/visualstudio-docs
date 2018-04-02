@@ -5,11 +5,11 @@ ms.custom: "H1Hack27Feb2017"
 ms.date: "11/08/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-acquisition"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
+ms.topic: "conceptual"
+helpviewer_keywords:
   - "modify Visual Studio"
   - "change visual studio"
   - "changing Visual Studio"
@@ -17,8 +17,8 @@ helpviewer_keywords:
 ms.assetid: 3399ea7b-a291-4a9e-80a1-b861a21afa1d
 author: "TerryGLee"
 ms.author: "tglee"
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # Modify Visual Studio 2017 by adding or removing workloads and components
