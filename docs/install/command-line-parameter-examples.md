@@ -11,7 +11,7 @@ ms.topic: "conceptual"
 ms.assetid: 837F31AA-F121-46e9-9996-F8BCE768E579
 author: "tglee"
 ms.author: "tglee"
-manager: ghogen
+manager: tglee
 ms.workload:
   - "multiple"
 ---
