@@ -1,24 +1,22 @@
 ---
-title: "Code Analysis for Managed Code Overview | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
+title: "Code analysis for managed code in Visual Studio | Microsoft Docs"
+ms.date: 03/26/2018
 ms.technology: vs-ide-code-analysis
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
+ms.topic: conceptual
+f1_keywords:
   - "vs.projectpropertypages.codeanalysis"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "code analysis, managed code"
   - "managed code, code analysis"
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
-ms.workload: 
+ms.workload:
   - "dotnet"
 ---
-# Code analysis for managed code overview
+# Overview of code analysis for managed code
+
+Visual Studio 2017 analyzes managed code in two ways: with legacy *FxCop* static analysis of managed assemblies, and with .NET Compiler Platform *analyzers*. This topic covers FxCop static code analysis. To learn more about analyzing code by using .NET Compiler Platform analyzers, see [Overview of Roslyn analyzers](../code-quality/roslyn-analyzers-overview.md).
 
 Code analysis for managed code analyzes managed assemblies and reports information about the assemblies, such as violations of the programming and design rules set forth in the Microsoft .NET Framework Design Guidelines.
 
@@ -71,5 +69,6 @@ You can use the integrated features of the build system to run the analysis tool
 
 ## See also
 
-[Using Rule Sets to Group Code Analysis Rules](../code-quality/using-rule-sets-to-group-code-analysis-rules.md)   
-[How to: Enable and Disable Automatic Code Analysis](../code-quality/how-to-enable-and-disable-automatic-code-analysis-for-managed-code.md)
+- [Overview of Roslyn analyzers](../code-quality/roslyn-analyzers-overview.md)
+- [Using Rule Sets to Group Code Analysis Rules](../code-quality/using-rule-sets-to-group-code-analysis-rules.md)
+- [How to: Enable and Disable Automatic Code Analysis](../code-quality/how-to-enable-and-disable-automatic-code-analysis-for-managed-code.md)
