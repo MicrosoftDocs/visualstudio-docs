@@ -108,7 +108,7 @@ Targets must be ordered if the input to one target depends on the output of anot
   
 2.  Targets specified on the command line by the **/target** switch are run. If you specify no targets on the command line, then the `DefaultTargets` targets are run. If neither is present, then the first target encountered is run.  
   
-3.  The `Condition` attribute of the target is evaluated. If the `Condition` attribute is present and evaluates to `false`, the target isn't executed and has no further effect on the build.  
+3.  The `Condition` attribute of the target is evaluated. If the `Condition` attribute is present and evaluates to `false`, the target isn't executed and has no further effect on the build.
   
 4.  Before a target is executed, its `DependsOnTargets` targets are run.  
   
