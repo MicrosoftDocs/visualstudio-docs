@@ -45,7 +45,7 @@ The following are popular Visual Studio shortcuts:
 | **Ctrl+\\,E** (Default Profile) or **Ctrl+W,E** (C# Profile) | View Error List | See all errors in your document, project, or solution |
 
 > [!NOTE]
-> Some extensions unbind default Visual Studio keybindings so you must restore them to use the following commands. Restore your keybindings to Visual Studio's defaults by going to: **Tools > Import and Export Settings... > Reset all settings** or **Tools > Options > Keyboard > Reset**.
+> Some extensions unbind the default Visual Studio keybindings. To use the following commands, restore your keybindings to Visual Studio's defaults by going to **Tools > Import and Export Settings... > Reset all settings** or **Tools > Options > Keyboard > Reset**.
 
 ## I need a way to quickly navigate to files or types.
 Visual Studio 2017 has a feature called _Go To All_ (**Ctrl+T**). Go To All enables you to quickly jump to any file, type, member, or symbol declaration.
