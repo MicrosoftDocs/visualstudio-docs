@@ -8,7 +8,7 @@ ms.suite: ""
 ms.technology:
   - "vs-acquisition"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords:
   - "uninstall"
   - "uninstall Visual Studio"
@@ -21,7 +21,7 @@ f1_keywords:
 ms.assetid: 9c81a777-9c95-4934-b517-c60c6dc78799
 author: "heaths"
 ms.author: "tglee"
-manager: "ghogen"
+manager: douge
 ms.workload:
   - "multiple"
 ---

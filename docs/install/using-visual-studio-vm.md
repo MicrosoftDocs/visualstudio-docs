@@ -10,7 +10,7 @@ helpviewer_keywords: 
   - "installation"
   - "visual studio"
 author: "PhilLee-MSFT"
-ms.author: "phillee"
+ms.author: "tglee"
 manager: douge
 ms.workload: 
   - "multiple"
