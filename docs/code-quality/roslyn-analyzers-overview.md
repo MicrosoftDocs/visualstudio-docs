@@ -19,7 +19,7 @@ Visual Studio 2017 includes a built-in set of .NET Compiler Platform analyzers t
 
 If rule violations are found by an analyzer, they are reported both in the code editor as a *squiggly* under the offending code, and in the **Error List**.
 
-Many analyzer rules, or *diagnostics*, have an associated *code fix* that you can apply to correct the problem. The analyzer diagnostics that are built into Visual Studio each have an associated code fix. The code fix surfaces under the light bulb icon, and is referred to as a *Quick Action*. For information about these code fixes, see [Common Quick Actions](../ide/common-quick-actions.md).
+Many analyzer rules, or *diagnostics*, have one or more associated *code fixes* that you can apply to correct the problem. The analyzer diagnostics that are built into Visual Studio each have an associated code fix. Code fixes are shown in the light bulb icon menu, along with other types of *Quick Actions*. For information about these code fixes, see [Common Quick Actions](../ide/common-quick-actions.md).
 
 ![Analyzer violation and Quick Action code fix](../code-quality/media/built-in-analyzer-code-fix.png)
 
