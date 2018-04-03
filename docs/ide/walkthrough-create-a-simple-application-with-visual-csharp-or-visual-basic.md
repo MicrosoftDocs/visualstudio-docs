@@ -14,7 +14,7 @@ ms.assetid: f84339c7-d617-4f56-bfcd-af2215c347ba
 caps.latest.revision: 19
 author: "TerryGLee"
 ms.author: "tglee"
-manager: ghogen
+manager: douge
 ms.workload:
   - "dotnet"
 ---

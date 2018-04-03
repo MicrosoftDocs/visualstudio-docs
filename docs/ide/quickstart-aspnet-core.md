@@ -9,7 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "quickstart"
 author: "TerryGLee"
 ms.author: "tglee"
-manager: ghogen
+manager: douge
 dev_langs:
   - CSharp
 ms.workload:

@@ -6,10 +6,10 @@ ms.reviewer: ""
 ms.suite: ""
 ms.technology: "vs-acquisition"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 author: "TerryGLee"
 ms.author: "tglee"
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ---
