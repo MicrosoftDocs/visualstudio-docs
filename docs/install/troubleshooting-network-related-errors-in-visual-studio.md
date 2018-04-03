@@ -8,7 +8,7 @@ ms.suite: ""
 ms.technology:
   - "vs-acquisition"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "network installation, Visual Studio"
   - "administrator guide, Visual Studio"
@@ -18,7 +18,7 @@ helpviewer_keywords:
 ms.assetid:
 author: "TerryGLee"
 ms.author: "tglee"
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ---

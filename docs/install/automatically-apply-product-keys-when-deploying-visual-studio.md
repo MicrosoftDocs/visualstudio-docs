@@ -4,15 +4,15 @@ ms.custom: ""
 ms.date: "08/14/2017"
 ms.reviewer: "tims"
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-acquisition"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: d79260be-6234-4fd3-89b5-a9756b4a93c1
 author: "TerryGLee"
 ms.author: "tglee"
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # Automatically apply product keys when deploying Visual Studio

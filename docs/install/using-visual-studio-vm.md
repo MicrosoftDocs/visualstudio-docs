@@ -3,15 +3,15 @@ title: "Using Visual Studio on an Azure Virtual Machine | Microsoft Docs"
 description: "Learn how to use Visual Studio on an Azure Virtual Machine"
 ms.date: "03/03/2018"
 ms.technology: "vs-acquisition"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "azure services"
   - "virtual machine; VM"
   - "installation"
   - "visual studio"
 author: "PhilLee-MSFT"
-ms.author: "phillee"
-manager: sacalla
+ms.author: "tglee"
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -24,12 +24,13 @@ New to Azure? [Create a free Azure account](https://azure.microsoft.com/free).
 ## What configurations and versions are available?
 Images for the most recent major versions, Visual Studio 2017 and Visual Studio 2015, can be found in the Azure Marketplace. For each major version, you see the originally released (RTW) version and the latest updated versions. Each of these versions offers the Visual Studio Enterprise and the Visual Studio Community editions. These images are updated at least every month to include the latest Visual Studio and Windows updates. While the names of the images remain the same, each image's description includes the installed product version and the image's "as of" date.
 
-| Release version              | Editions            | Product version     |
-|:-----------------------------------------:|:----------------------------:|:-----------------------:|
-| Visual Studio 2017: Latest (Version 15.6) |    Enterprise, Community     |      Version 15.6.0     |
-|         Visual Studio 2017: RTW           |    Enterprise, Community     |      Version 15.0.10    |
-|   Visual Studio 2015: Latest (Update 3)   |    Enterprise, Community     |  Version 14.0.25431.01  |
-|         Visual Studio 2015: RTW           |             None             | (Expired for servicing) |
+| Release version                                              | Editions                     |     Product version     |
+|:------------------------------------------------------------:|:----------------------------:|:-----------------------:|
+| Visual Studio 2017: Latest (Version 15.6)                    |    Enterprise, Community     |      Version 15.6.4     |
+| Visual Studio 2017: Latest Preview (Version 15.7, Preview 3) |    Enterprise, Community     |      Version 15.7.0     |
+|         Visual Studio 2017: RTW                              |    Enterprise, Community     |      Version 15.0.10    |
+|   Visual Studio 2015: Latest (Update 3)                      |    Enterprise, Community     |  Version 14.0.25431.01  |
+|         Visual Studio 2015: RTW                              |             None             | (Expired for servicing) |
 
 > [!NOTE]
 > In accordance with Microsoft servicing policy, the originally released (RTW) version of Visual Studio 2015 has expired for servicing. Visual Studio 2015 Update 3 is the only remaining version offered for the Visual Studio 2015 product line.
@@ -50,7 +51,7 @@ We use the following command line to install Visual Studio when building the ima
 ```shell
     vs_enterprise.exe --allWorkloads --includeRecommended --passive ^
        add Microsoft.Net.Component.4.7.SDK ^
-       add Microsoft.Net.Component.4.7.TargetingPack ^ 
+       add Microsoft.Net.Component.4.7.TargetingPack ^
        add Microsoft.Net.Component.4.6.2.SDK ^
        add Microsoft.Net.Component.4.6.2.TargetingPack ^
        add Microsoft.Net.ComponentGroup.4.7.DeveloperTools ^
@@ -71,14 +72,14 @@ Azure offers a full range of virtual machine sizes. Because Visual Studio is a p
    * Standard_D2_v2
    * Standard_D2S_v2
    * Standard_D3_v2
-    
+
 For more information on the latest machine sizes, see [Sizes for Windows virtual machines in Azure](/azure/virtual-machines/windows/sizes).
 
 With Azure, you can rebalance your initial choice by resizing the VM. You can either provision a new VM with a more appropriate size, or resize your existing VM to different underlying hardware. For more information, see [Resize a Windows VM](/azure/virtual-machines/windows/resize-vm).
 
 ## After the VM is running, what's next?
 Visual Studio follows the “bring your own license” model in Azure. As with an installation on proprietary hardware, one of the first steps is licensing your Visual Studio installation. To unlock Visual Studio, either:
-- Sign in with a Microsoft account that’s associated with a Visual Studio subscription 
+- Sign in with a Microsoft account that’s associated with a Visual Studio subscription
 - Unlock Visual Studio with the product key that came with your initial purchase
 
 For more information, see [Sign in to Visual Studio](../ide/signing-in-to-visual-studio.md) and [How to unlock Visual Studio](../ide/how-to-unlock-visual-studio.md).
