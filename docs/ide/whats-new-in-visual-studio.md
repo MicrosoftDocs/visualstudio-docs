@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology:
   - "vs-acquisition"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords:
   - "VS.StartPage.WhatsNew"
 helpviewer_keywords:
