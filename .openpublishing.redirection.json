@@ -108,6 +108,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/code-quality/creating-custom-code-analysis-rule-sets.md",
+            "redirect_url": "/visualstudio/code-quality/how-to-create-a-custom-rule-set",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/code-quality/enhancing-code-quality-with-team-project-check-in-policies.md",
             "redirect_url": "/visualstudio/code-quality/how-to-create-or-update-standard-code-analysis-check-in-policies",
             "redirect_document_id": false
