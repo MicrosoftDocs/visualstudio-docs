@@ -13,7 +13,7 @@ ms.tgt_pltfrm:
 ms.topic: "conceptual"
 author: "kraigb"
 ms.author: "kraigb"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "python"
   - "data-science"
@@ -76,6 +76,16 @@ To quickly test Python support after following the installation steps, Open the 
 |   |   |
 |---|---|
 | ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | [Watch a video (Microsoft Virtual Academy)](https://mva.microsoft.com/en-US/training-courses-embed/python-tools-for-visual-studio-2017-18121/Video-Installing-Visual-Studio-Python-Support-go1id3LWE_1705918567) on installing Python support in Visual Studio.|
+
+### Troubleshooting
+
+If you encounter problems installing or running Python in Visual Studio, try the following:
+
+- Determine whether the same error occurs using the Python CLI, that is, running `python.exe` from a command prompt.
+- Use the [Repair option in the Visual Studio installer](../install/repair-visual-studio.md).
+- Repair or reinstall Python through **Settings > Apps & features** in Windows.
+
+**Example error**: Failed to start interactive process: System.ComponentModel.Win32Exception (0x80004005): Unknown error (0xc0000135) at Microsoft.PythonTools.Repl.PythonInteractiveEvaluator.d__43.MoveNext().
 
 ## Visual Studio 2015
 
