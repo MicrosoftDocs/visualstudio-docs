@@ -294,7 +294,10 @@ Now you're ready to run the app! Let's run just the Android version for now to v
   
 2.  In the Visual Studio toolbar, you'll see **WeatherApp.Android** listed as the target project. Select one of the Android emulators for debugging and hit **F5**. We recommend using one of the **VisualStudio** emulator options that will run the app in the Visual Studio Emulator for Android.  
   
-     ![Selecting an Android Emulator debug target](../cross-platform/media/crossplat-xamarin-formsguide-7.png "CrossPlat Xamarin FormsGuide 7")  
+    ![Selecting an Android Emulator debug target](../cross-platform/media/crossplat-xamarin-formsguide-7.png "CrossPlat Xamarin FormsGuide 7")
+
+    > [!NOTE]
+    > If Visual Studio indicates that the Android project cannot find the Newtonsoft.Json file, add that NuGet package to the Android project.   
   
 3.  When the app launches in the emulator, click the **Get Weather** button. You should see the button's text updated to **Chicago**, which is the `Title` property of the data retrieved from the weather service.  
   

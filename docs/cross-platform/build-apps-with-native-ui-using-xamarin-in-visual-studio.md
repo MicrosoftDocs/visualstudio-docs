@@ -107,7 +107,7 @@ Visual Studio does not have a solution template for creating native UI applicati
   
  The following steps add code to the .NET Standard library to access and store data from that weather service:  
   
-1.  First sign up for a free weather API key at [http://openweathermap.org/appid](http://openweathermap.org/appid).  
+1.  First sign up for a free weather API key at [http://openweathermap.org/appid](http://openweathermap.org/appid). This API key will allow the application to obtain the weather for any United States zip code. (It does not work for postal codes outside of the United States.)
   
 2.  Right-click the **WeatherApp** project and select **Add > Class...**. In the **Add New Item** dialog, name the file **Weather.cs**. You'll use this class to store data from the weather data service.  
   
@@ -233,26 +233,24 @@ Visual Studio does not have a solution template for creating native UI applicati
     > [!TIP]
     >  There are many other files in the project. Exploring them is beyond the scope of this article, but if you want to dive into the structure of an Android project a bit more, see [Part 2 Deep Dive](/xamarin/android/get-started/hello-android/hello-android-deepdive/) of the Hello Android article.  
   
-2.  Select and delete the default button that appears in the designer.  
+2.  Open the Toolbox with **View > Other Windows > Toolbox**.  
   
-3.  Open the Toolbox with **View > Other Windows > Toolbox**.  
-  
-4.  From the **Toolbox**, drag a **RelativeLayout** control onto the designer. You'll use this control as a parent container for other controls.  
+3.  From the **Toolbox**, drag a **RelativeLayout** control onto the designer. You'll use this control as a parent container for other controls.  
   
     > [!TIP]
     >  If at any time the layout doesn't seem to display correctly, save the file and switching between the **Design** and **Source** tabs to refresh.  
   
-5.  In the **Properties** window, set the **background** property (in the Style group) to `#545454`.  
+4.  In the **Properties** window, set the **background** property (in the Style group) to `#545454`.  Make sure by the heading in the **Properties** window that you're setting the background for the **RelativeLayout**.
   
-6.  From the **Toolbox**, drag a **TextView** control onto the **RelativeLayout** control.  
+5.  From the **Toolbox**, drag a **TextView** control onto the **RelativeLayout** control.  
   
-7.  In the **Properties** window, set these properties. (It can help to sort the list alphabetically using the sort button in the Properties window toolbar.):  
+6.  In the **Properties** window, set these properties. (It can help to sort the list alphabetically using the sort button in the Properties window toolbar.):  
   
     |Property|Value|  
     |--------------|-----------|  
     |**text**|**Search by Zip Code**|  
     |**id**|`@+id/ZipCodeSearchLabel`|  
-    |**layout_marginLeft**|`10dp`|  
+    |**layout_marginStart**|`10dp`|  
     |**textColor**|`@android:color/white`|  
     |**textStyle**|`bold`|  
   
@@ -269,23 +267,22 @@ Visual Studio does not have a solution template for creating native UI applicati
         android:layout_width="wrap_content"  
         android:layout_height="wrap_content"  
         android:id="@+id/ZipCodeSearchLabel"  
-        android:layout_centerVertical="true"  
-        android:layout_marginLeft="10dp"  
+        android:layout_marginStart="10dp"  
         android:textColor="@android:color/white"  
         android:textStyle="bold" />  
   
     ```  
   
-8.  From the **Toolbox**, drag a **TextView** control onto the **RelativeLayout** control and position it below the ZipCodeSearchLabel control. Drop the new control on the appropriate edge of the existing control. It helps to zoom in the designer somewhat to position the control.  
+7.  From the **Toolbox**, drag a **TextView** control onto the **RelativeLayout** control and position it below the ZipCodeSearchLabel control. Drop the new control on the appropriate edge of the existing control. It helps to zoom in the designer somewhat to position the control.  
   
-9. In the **Properties** window, set these properties:  
+8. In the **Properties** window, set these properties:  
   
     |Property|Value|  
     |--------------|-----------|  
     |**text**|**Zip Code**|  
     |**id**|`@+id/ZipCodeLabel`|  
-    |**layout_marginLeft**|`10dp`|  
-    |**layout_marginTop**|`5dp`|  
+    |**layout_marginStart**|`10dp`|  
+    |**layout_marginTop**|`6dp`|  
     |**textColor**|`@android:color/white`|  
   
     Here's how the code in the **Source** view should look:  
@@ -297,22 +294,22 @@ Visual Studio does not have a solution template for creating native UI applicati
         android:layout_height="wrap_content"  
         android:layout_below="@id/ZipCodeSearchLabel"  
         android:id="@+id/ZipCodeLabel"  
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="5dp"  
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="6dp"  
         android:textColor="@android:color/white" />  
     ```  
   
-10. From the **Toolbox**, drag a **Number** control onto the **RelativeLayout**, position it below the **Zip Code** label. Then set the following properties:  
+9. From the **Toolbox**, drag a **Number** control onto the **RelativeLayout**, position it below the **Zip Code** label. Then set the following properties:  
   
     |Property|Value|  
     |--------------|-----------|  
     |**id**|`@+id/zipCodeEntry`|  
-    |**layout_marginLeft**|`10dp`|  
+    |**layout_marginStart**|`10dp`|  
     |**layout_marginBottom**|`10dp`|  
     |**width**|`165dp`|  
     |**textColor**|`@android:color/white`|  
   
-     Again, the code:  
+    The **Number** control is where the user will type in a five-digit United States zip code. Here's the markup that corresponds to that control:  
   
     ```xml  
     <EditText  
@@ -321,19 +318,19 @@ Visual Studio does not have a solution template for creating native UI applicati
         android:layout_height="wrap_content"  
         android:layout_below="@id/ZipCodeLabel"  
         android:id="@+id/zipCodeEntry"  
-        android:layout_marginLeft="10dp"  
+        android:layout_marginStart="10dp"  
         android:layout_marginBottom="10dp"  
         android:width="165dp"  
         android:textColor="@android:color/white" />  
     ```  
   
-11. From the **Toolbox**, drag a **Button** onto the **RelativeLayout** control and position it to the right of the zipCodeEntry control. Then set these properties:  
+10. From the **Toolbox**, drag a **Button** onto the **RelativeLayout** control and position it to the right of the zipCodeEntry control. Then set these properties:  
   
     |Property|Value|  
     |--------------|-----------|  
     |**id**|`@+id/weatherBtn`|  
     |**text**|**Get Weather**|  
-    |**layout_marginLeft**|`20dp`|  
+    |**layout_marginStart**|`20dp`|  
     |**layout_alignBottom**|`@id/zipCodeEntry`|  
     |**width**|`165dp`|  
   
@@ -344,12 +341,12 @@ Visual Studio does not have a solution template for creating native UI applicati
         android:layout_height="wrap_content"  
         android:layout_toRightOf="@id/zipCodeEntry"  
         android:id="@+id/weatherBtn"  
-        android:layout_marginLeft="20dp"  
+        android:layout_marginStart="20dp"  
         android:layout_alignBottom="@id/zipCodeEntry"  
         android:width="165dp" />  
     ```  
   
-12. You now know enough to build a basic UI by using the Android designer. You can also build a UI by adding markup directly to the Main.axml file of the page. To build the rest of the UI that way, switch to Source view in the designer, then paste the following markup *beneath* the `</RelativeLayout>` end tag. (They must be beneath the tag because these elements are *not* contained in the `RelativeLayout`.)  
+11. You now know enough to build a basic UI by using the Android designer. You can also build a UI by adding markup directly to the Main.axml file of the page. To build the rest of the UI that way, switch to Source view in the designer, then paste the following markup *beneath* the `</RelativeLayout>` end tag. (They must be beneath the tag because these elements are *not* contained in the `RelativeLayout`.)  
   
     ```xml  
     <TextView  
@@ -358,14 +355,14 @@ Visual Studio does not have a solution template for creating native UI applicati
         android:layout_width="match_parent"  
         android:layout_height="wrap_content"  
         android:id="@+id/locationLabel"  
-        android:layout_marginLeft="10dp"  
+        android:layout_marginStart="10dp"  
         android:layout_marginTop="10dp" />  
     <TextView  
         android:textAppearance="?android:attr/textAppearanceMedium"  
         android:layout_width="match_parent"  
         android:layout_height="wrap_content"  
         android:id="@+id/locationText"  
-        android:layout_marginLeft="20dp"  
+        android:layout_marginStart="20dp"  
         android:layout_marginBottom="10dp" />  
     <TextView  
         android:text="Temperature"  
@@ -373,91 +370,91 @@ Visual Studio does not have a solution template for creating native UI applicati
         android:layout_width="match_parent"  
         android:layout_height="wrap_content"  
         android:id="@+id/tempLabel"  
-        android:layout_marginLeft="10dp" />  
+        android:layout_marginStart="10dp" />  
     <TextView  
         android:textAppearance="?android:attr/textAppearanceMedium"  
         android:layout_width="match_parent"  
         android:layout_height="wrap_content"  
         android:id="@+id/tempText"  
         android:layout_marginBottom="10dp"  
-        android:layout_marginLeft="20dp" />  
+        android:layout_marginStart="20dp" />  
     <TextView  
         android:text="Wind Speed"  
         android:textAppearance="?android:attr/textAppearanceSmall"  
         android:layout_width="match_parent"  
         android:layout_height="wrap_content"  
         android:id="@+id/windLabel"  
-        android:layout_marginLeft="10dp" />  
+        android:layout_marginStart="10dp" />  
     <TextView  
         android:textAppearance="?android:attr/textAppearanceMedium"  
         android:layout_width="match_parent"  
         android:layout_height="wrap_content"  
         android:id="@+id/windText"  
         android:layout_marginBottom="10dp"  
-        android:layout_marginLeft="20dp" />  
+        android:layout_marginStart="20dp" />  
     <TextView  
         android:text="Humidity"  
         android:textAppearance="?android:attr/textAppearanceSmall"  
         android:layout_width="match_parent"  
         android:layout_height="wrap_content"  
         android:id="@+id/humidtyLabel"  
-        android:layout_marginLeft="10dp" />  
+        android:layout_marginStart="10dp" />  
     <TextView  
         android:textAppearance="?android:attr/textAppearanceMedium"  
         android:layout_width="match_parent"  
         android:layout_height="wrap_content"  
         android:id="@+id/humidityText"  
         android:layout_marginBottom="10dp"  
-        android:layout_marginLeft="20dp" />  
+        android:layout_marginStart="20dp" />  
     <TextView  
         android:text="Visibility"  
         android:textAppearance="?android:attr/textAppearanceSmall"  
         android:layout_width="match_parent"  
         android:layout_height="wrap_content"  
         android:id="@+id/visibilityLabel"  
-        android:layout_marginLeft="10dp" />  
+        android:layout_marginStart="10dp" />  
     <TextView  
         android:textAppearance="?android:attr/textAppearanceMedium"  
         android:layout_width="match_parent"  
         android:layout_height="wrap_content"  
         android:id="@+id/visibilityText"  
         android:layout_marginBottom="10dp"  
-        android:layout_marginLeft="20dp" />  
+        android:layout_marginStart="20dp" />  
     <TextView  
         android:text="Time of Sunrise"  
         android:textAppearance="?android:attr/textAppearanceSmall"  
         android:layout_width="match_parent"  
         android:layout_height="wrap_content"  
         android:id="@+id/sunriseLabel"  
-        android:layout_marginLeft="10dp" />  
+        android:layout_marginStart="10dp" />  
     <TextView  
         android:textAppearance="?android:attr/textAppearanceMedium"  
         android:layout_width="match_parent"  
         android:layout_height="wrap_content"  
         android:id="@+id/sunriseText"  
         android:layout_marginBottom="10dp"  
-        android:layout_marginLeft="20dp" />  
+        android:layout_marginStart="20dp" />  
     <TextView  
         android:text="Time of Sunset"  
         android:textAppearance="?android:attr/textAppearanceSmall"  
         android:layout_width="match_parent"  
         android:layout_height="wrap_content"  
         android:id="@+id/sunsetLabel"  
-        android:layout_marginLeft="10dp" />  
+        android:layout_marginStart="10dp" />  
     <TextView  
         android:textAppearance="?android:attr/textAppearanceMedium"  
         android:layout_width="match_parent"  
         android:layout_height="wrap_content"  
         android:id="@+id/sunsetText"  
         android:layout_marginBottom="10dp"  
-        android:layout_marginLeft="20dp" />  
+        android:layout_marginStart="20dp" />  
     ```  
   
-13. Save the file and switch to **Design** view. Your UI should appear as follows:  
+12. Save the file and switch to **Design** view. Your UI should appear as follows:  
   
      ![UI for Android app](../cross-platform/media/xamarin_androidui.png "Xamarin_AndroidUI")  
   
-14. Open **MainActivity.cs** and delete the lines in the *OnCreate* method that refer to the default button that was removed earlier. When you're done, here's how the code should look:  
+13. Open **MainActivity.cs**. Here's how the code should look:  
   
     ```  
     protected override void OnCreate (Bundle bundle)  
@@ -469,7 +466,7 @@ Visual Studio does not have a solution template for creating native UI applicati
     }  
     ```  
   
-15. Build the Android project to check your work. The build process adds control IDs to the **Resource.Designer.cs** file so that you can refer to controls by name in code.  
+14. Build the Android project to check your work. The build process adds control IDs to the **Resource.Designer.cs** file so that you can refer to controls by name in code.  
   
 ### Consume your shared code  
   
@@ -526,6 +523,9 @@ Visual Studio does not have a solution template for creating native UI applicati
 1.  In **Solution Explorer**, make sure the **WeatherApp.Droid** project is set as the startup project.  
   
 2.  Select an appropriate device or emulator target, then start the app by pressing the F5 key.  
+
+    > [!NOTE]
+    > If Visual Studio indicates that the Android project cannot find the Newtonsoft.Json file, add that NuGet package to the Android project. 
   
 3.  On the device or in the emulator, type a valid United States five-digit zip code into the edit box, and press **Get Weather**. Weather data for that region then appears in the controls.  
   
