@@ -28,7 +28,7 @@ This article lists several overviews that can help you understand developing cro
 
 *10-20 minutes*  
   
-1.  [Mobile Apps in Visual Studio with Xamarin](https://www.visualstudio.com/explore/xamarin-vs) (visualstudio.com) provides a short rundown of the primary characteristics of Xamarin.  
+1.  [Mobile Apps in Visual Studio with Xamarin](https://www.visualstudio.com/xamarin/) (visualstudio.com) provides a short rundown of the primary characteristics of Xamarin.  
   
 2.  [Building Cross-Platform Mobile Apps using C# and Visual Studio](https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2015-Final-Release-Event/Building-cross-platform-mobile-apps-using-C-and-Visual-Studio-2015) (Channel9, 15m16s) with Xamarin evangelist, James Montemagno. The first three minutes are a Xamarin overview, followed by code demonstrations.  
   
