@@ -21,12 +21,12 @@ You can customize a rule set by adding or deleting rules, or by changing rule se
 
 ## Rule set format
 
-A rule set is specified in XML format in a *.ruleset* file. Rules, which consist of an ID an an *action*, are grouped by analyzer ID and namespace in the file.
+A rule set is specified in XML format in a *.ruleset* file. Rules, which consist of an ID and an *action*, are grouped by analyzer ID and namespace in the file.
 
-> ![TIP
+> ![TIP]
 > It is easier to [edit a rule set](../code-quality/working-in-the-code-analysis-rule-set-editor.md) in the graphical **Rule Set Editor**.
 
-The XML contents of a *.ruleset* file look similar to this:
+The XML contents of a *.ruleset* file looks similar to this:
 
 ```xml
 <RuleSet Name="Rules for Hello World project" Description="These rules focus on critical issues for the Hello World app." ToolsVersion="10.0">

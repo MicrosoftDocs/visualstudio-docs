@@ -2,7 +2,7 @@
 title: "How to: Synchronize Code Project Rule Sets with Team Project Check-in Policy | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.technology: vs-ide-code-analysis
-ms.topic: "article"
+ms.topic: conceptual
 f1_keywords:
   - "vs.codeanalysis.selecttfsruleset"
 ms.assetid: 9b02f934-2db6-41ec-aaff-9c31ceec2f04
