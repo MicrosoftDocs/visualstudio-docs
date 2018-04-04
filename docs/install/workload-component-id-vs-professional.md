@@ -1,21 +1,21 @@
 ---
 title: Visual Studio Professional 2017 workload and component IDs | Microsoft Docs
 description: "Use workload and component IDs to install Visual Studio by using the command line or to specify as a dependency in a VSIX manifest"
-keywords: 
+keywords:
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.date: 03/05/2018
-ms.topic: article
-helpviewer_keywords: 
+ms.topic: reference
+helpviewer_keywords:
   - "workload ID, Visual Studio"
   - "component ID, Visual Studio"
   - "install Visual Studio, administrator guide"
-ms.service: 
-ms.technology: 
+ms.service:
+ms.technology:
   - "vs-acquisition"
 ms.assetid: 5719032b-2c2e-416e-a281-a4573ec74e38
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 
@@ -679,7 +679,7 @@ Microsoft.VisualStudio.Web.Mvc4.ComponentGroup | ASP.NET MVC 4 | 15.6.27406.0 | 
 
 **ID:** Microsoft.VisualStudio.Workload.Node
 
-**Description:** Build scalable network applications using Node.js, an asynchronous event-driven JavaScript runtime. 
+**Description:** Build scalable network applications using Node.js, an asynchronous event-driven JavaScript runtime.
 
 ### Components included by this workload
 

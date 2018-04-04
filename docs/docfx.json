@@ -35,7 +35,7 @@
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/visualstudio-docs",
       "feedback_product_url": "https://developercommunity.visualstudio.com/",
-      "breadcrumb_path": "~/_breadcrumb/toc.yml",
+      "breadcrumb_path": "/visualstudio/_breadcrumb/toc.json",
       "ROBOTS": "INDEX,FOLLOW",
       "author": "",
       "ms.author": "",
@@ -52,7 +52,7 @@
       "titleSuffix": "Visual Studio"
     },
     "template": [],
-    "xref": ["missingapi.yml", "../dotnet-xref/_zip/dotnet.zip"],
+    "xref": ["missingapi.yml", "../dotnet-xref/_zip/dotnet.zip", "vs.140.zip"],
     "dest": "vsdocsdocs"
   }
 }

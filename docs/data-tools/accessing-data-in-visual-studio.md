@@ -28,7 +28,7 @@ The following lists show just a few of the many database and storage systems tha
 
 ||||
 |-|-|-|
-|SQL Database|DocumentDB|Storage (blobs, tables, queues, files)|
+|SQL Database|Azure Cosmos DB|Storage (blobs, tables, queues, files)|
 |SQL Data Warehouse|SQL Server Stretch Database|StorSimple|
 
 And more...

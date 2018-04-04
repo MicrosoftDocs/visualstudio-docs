@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology:
   - "vs-acquisition"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords:
   - "command-line parameters"
   - "switches"
@@ -15,7 +15,7 @@ f1_keywords:
 ms.assetid: 480f3cb4-d873-434e-a8bf-82cff7401cf2
 author: "TerryGLee"
 ms.author: "tglee"
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ---

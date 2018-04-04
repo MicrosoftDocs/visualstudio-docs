@@ -1,21 +1,40 @@
 ---
 title: "Change Log (Visual Studio Tools for Unity) | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "03/23/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: vs-unity-tools
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ea490b7e-fc0d-44b1-858a-a725ce20e396
-author: "conceptdev"
-ms.author: "crdun"
+author: "dantogno"
+ms.author: "v-davian"
 manager: crdun
 ms.workload:
   - "unity"
 ---
 # Change Log (Visual Studio Tools for Unity)
 Visual Studio Tools for Unity change log.
+
+## 3.6.0.5
+ Released 2018-03-13
+
+### New Features
+
+-   **Project Generation:**
+
+    -   Added support for the new project generator in Unity 2018.1
+
+### Bug fixes
+
+-   **Integration:**
+
+    -   Fixed handling corrupted states with custom projects.
+
+-   **Debugger:**
+
+    -   Fixed setting the next statement.
 
 ## 3.6.0.4
  Released 2018-03-05

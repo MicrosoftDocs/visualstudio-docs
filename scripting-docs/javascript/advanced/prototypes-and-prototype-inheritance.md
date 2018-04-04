@@ -76,9 +76,12 @@ var bicycle = Object.create(Object.getPrototypeOf(Vehicle), {
  The `bicycle` object has the properties `wheels`, `engine`, `color`, and `pedals`, and its prototype is `Vehicle.prototype`. The JavaScript engine finds the `pedals` property on `bicycle`, and it looks up the prototype chain to find the `wheels`, `engine`, and `color` properties on `Vehicle`.  
   
 ### Changing an Object's Prototype  
- In Internet Explorer 11, you can replace the internal prototype of an object or function with a new prototype by using the [__proto\_\_](../../javascript/reference/proto-property-object-javascript.md) property. When you use this property, you inherit the properties and methods of the new prototype along with other properties and methods in its prototype chain.  
+In Internet Explorer 11, you can replace the internal prototype of an object or function with a new prototype by using the [__proto__](../../javascript/reference/proto-property-object-javascript.md) property. When you use this property, you inherit the properties and methods of the new prototype along with other properties and methods in its prototype chain.  
+
+> [!WARNING]
+> The `__proto__` property is a legacy feature. Use [Object.getPrototypeOf](../reference/object-getprototypeof-function-javascript.md) instead.
   
- The following example shows how you can change the prototype of an object. This example shows how the object's inherited properties change when you change its prototype.  
+The following example shows how you can change the prototype of an object. This example shows how the object's inherited properties change when you change its prototype.  
   
 ```JavaScript  
 function Friend() {  

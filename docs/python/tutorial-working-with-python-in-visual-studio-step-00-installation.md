@@ -1,7 +1,7 @@
 ---
-title: Working with Python in Visual Studio, Step 0, Installation | Microsoft Docs
+title: Working with Python, Step 0, Installation | Microsoft Docs
 description: Step 0 (prerequisites) of a core tutorial for working with Python within Visual Studio, covering how to install Python support in Visual Studio.
-ms.custom:
+ms.custom: "mvc"
 ms.date: 01/16/2018
 ms.reviewer:
 ms.suite:

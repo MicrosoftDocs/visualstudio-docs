@@ -1,7 +1,7 @@
 ---
-title: "Install and configure test agents in Visual Studio | Microsoft Docs"
+title: "Install test agents and test controllers for Visual Studio | Microsoft Docs"
 ms.date: 03/02/2018
-ms.technology: vs-devops-test
+ms.technology: vs-ide-test
 ms.topic: "article"
 helpviewer_keywords:
   - "configure test agents, test lab"
@@ -11,7 +11,7 @@ manager: ghogen
 ms.workload:
   - "multiple"
 ---
-# Install and configure test agents
+# Install test agents and test controllers
 
 For test scenarios that use Visual Studio and Visual Studio Team Services (VSTS) or Team Foundation Server (TFS), you do not need a test controller. Agents for Visual Studio handle orchestration by communicating with VSTS or TFS. A scenario could be that you run continuous tests for build and release workflows in VSTS or TFS.
 
@@ -27,7 +27,9 @@ You might also consider if it's better to use [build or release management](use-
 
 ## Install the test controller and test agents
 
-You can download agents for Visual Studio 2017 from [visualstudio.com](https://www.visualstudio.com/downloads/?q=agents). Look for *Agents for Visual Studio 2017* and select either *Agent* or *Controller*. You can download agents for Visual Studio 2015 and Visual Studio 2013 from the [older downloads](https://www.visualstudio.com/vs/older-downloads/) page.
+You can download agents for Visual Studio 2017 from [visualstudio.com](https://www.visualstudio.com/downloads/?q=agents). Scroll to the bottom of the page, and look for *Agents for Visual Studio 2017*. Select either *Agent* or *Controller*, and then choose *Download*. Run the downloaded executable to install the test agent or controller.
+
+You can download agents for Visual Studio 2015 and Visual Studio 2013 from the [older downloads](https://www.visualstudio.com/vs/older-downloads/) page.
 
 These installers are available as ISO files for easy installation on virtual machines.
 
@@ -54,10 +56,6 @@ The following table shows the scenarios supported by Agents for Visual Studio 20
 | Scenarios supported by Agents for Visual Studio 2013 | Alternative in TFS and VSTS |
 | --- | --- |
 | Build-Deploy-Test workflow in Visual Studio | Users can use a [build definition](/vsts/build-release/) (not a XAML build) for build, deploy, and test scenarios in TFS. |
-| Load testing (performance testing) using on-premises remote machines | Use Test Controller and Test Agents 2013 Update 5 to run load tests on-premises. For more information, see [Using a test controller and test agents in a load test](https://msdn.microsoft.com/library/ff400223.aspx). |
+| Load testing (performance testing) using on-premises remote machines | Use Test Controller and Test Agents 2013 Update 5 to run load tests on-premises. |
 | Remote execution of automated tests from Microsoft Test Manager using a lab environment | Currently there is no alternative for this scenario. We recommend you use the Run Functional Tests task in build and release definitions (not in a XAML build) to execute tests remotely. |
 | Developers executing remote tests in Visual Studio | No longer supported. |
-
-## See also
-
-* [Set up machines and collect diagnostic information](https://msdn.microsoft.com/library/dd286743%28v=vs.140%29.aspx)

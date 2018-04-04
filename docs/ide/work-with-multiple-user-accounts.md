@@ -4,13 +4,13 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: vs-ide-general
+ms.technology: "vs-acquisition"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+ms.topic: "conceptual"
+author: "TerryGLee"
+ms.author: "tglee"
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # Work with multiple user accounts

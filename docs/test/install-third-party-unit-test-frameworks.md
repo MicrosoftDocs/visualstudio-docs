@@ -1,15 +1,11 @@
 ---
-title: "Install third-party unit test frameworks | Microsoft Docs"
-ms.custom: ""
+title: "Install third-party unit test frameworks in Visual Studio | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: vs-devops-test
-ms.tgt_pltfrm: ""
+ms.technology: vs-ide-test
 ms.topic: "article"
 ms.author: gewarren
 manager: ghogen
-ms.workload:
+ms.workload: 
   - "multiple"
 author: gewarren
 ---

@@ -10,7 +10,7 @@ ms.technology:
 dev_langs:
   - "python"
 ms.tgt_pltfrm:
-ms.topic: "article"
+ms.topic: "conceptual"
 author: kraigb
 ms.author: kraigb
 manager: ghogen
@@ -46,7 +46,7 @@ The [Azure SDK for Python Developer Center](http://azure.microsoft.com/develop/p
 - [Blob storage](/azure/storage/storage-python-how-to-use-blob-storage)
 - [Table storage](/azure/storage/storage-python-how-to-use-table-storage)
 - [Queue storage](/azure/storage/storage-python-how-to-use-queue-storage)
-- [DocumentDB](/azure/documentdb/documentdb-python-application)
+- [Azure Cosmos DB](/azure/cosmos-db/sql-api-python-application)
 - [Service Bus Queues](/azure/service-bus-messaging/service-bus-python-how-to-use-queues)
 - [Service Bus Topics/Subscriptions](/azure/service-bus-messaging/service-bus-python-how-to-use-topics-subscriptions)
 - [Service Management](/azure/cloud-services/cloud-services-python-how-to-use-service-management)

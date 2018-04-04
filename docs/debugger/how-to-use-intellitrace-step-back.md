@@ -1,5 +1,6 @@
 ---
 title: "View a snapshot using IntelliTrace step-back - Visual Studio  | Microsoft Docs"
+ms.description: "Learn how to take snapshots, and view snapshots with IntelliTrace step-back"
 ms.custom: "mvc"
 ms.date: "12/06/2017"
 ms.reviewer: ""
@@ -33,11 +34,11 @@ In this tutorial, you will:
 
 1. Open your project in Visual Studio Enterprise.
 
-1. Go to **Tools > Options > IntelliTrace** settings, and select the option **IntelliTrace events and snapshots**. 
+1. Open **Tools** > **Options** > **IntelliTrace** settings, and select the option **IntelliTrace events and snapshots**. 
 
     ![Enable IntelliTrace Events and Snapshots mode](../debugger/media/intellitrace-enable-snapshots.png "Enable IntelliTrace Events and Snapshots mode")
 
-1. Set one or more breakpoints in your project and start debugging (press **F5**), or start debugging by stepping through your code (**F10** or **F11**).
+1. In your project, set one or more breakpoints and start debugging (press **F5**), or start debugging by stepping through your code (**F10** or **F11**).
 
     IntelliTrace takes a snapshot of the application's process on each debugger step and breakpoint event. These events are recorded in the **Events** tab in the **Diagnostic Tools** window, along with other IntelliTrace events. To open this window, choose **Debug** > **Windows** > **Show Diagnostic Tools**.
 
@@ -66,8 +67,6 @@ In this tutorial, you will:
 2. To return to live execution, choose **Continue (F5)** or click the **Return to Live Debugging** link in the infobar. 
 
 3. You can also view a snapshot from the **Events** tab. To do this, select an event with a snapshot and click **Activate Historical Debugging**.
-
-    You can also click on the camera icon to activate historical debugging.
 
     ![Activate Historical Debugging on an event](../debugger/media/intellitrace-activate-historical-debugging.png "Activate Historical Debugging on an event")
 

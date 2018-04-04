@@ -6,7 +6,7 @@ ms.date: "02/19/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "vs-nodejs"
+  - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "tutorial"
 ms.devlang: javascript
@@ -144,7 +144,6 @@ For this simple app, you add the new project files in the project root. (In most
 
     ```javascript
     'use strict';
-    var http = require('http');
     var path = require('path');
     var express = require('express');
 
@@ -345,11 +344,20 @@ In the preceding section, you attached the debugger to server-side Node.js code.
 
     You know the debugger has attached correctly when the DOM Explorer and the JavaScript Console open in Visual Studio. These debugging tools are similar to Chrome Developer Tools and F12 Tools for Edge.
 
+    > [!NOTE]
+    > If the debugger does not attach and you see the message "Unable to attach to the process. An operation is not legal in the current state." then use the Task Manager to close all instances of Chrome before starting Chrome in debugging mode. Chrome Extensions may be running and preventing full debug mode.
+
 1. Because the code with the breakpoint already executed, refresh your browser page to hit the breakpoint.
 
     While paused in the debugger, you can examine your app state by hovering over variables and using debugger windows. You can advance the debugger by stepping through code (**F5**, **F10**, and **F11**).
 
-    You may hit the breakpoint in either app-bundle.js or its mapped location in app.tsx, depending on your environment and browser state. Either way, you can step through code and examine variables. (If you need to break into code in a *.tsx* file and are unable to do it, try using the `debugger;` statement, or set breakpoints in the Chrome Developer Tools.)
+    You may hit the breakpoint in either *app-bundle.js* or its mapped location in *app.tsx*, depending on your environment and browser state. Either way, you can step through code and examine variables.
+
+    * If you need to break into code in *app.tsx* and are unable to do it, use **Attach to Process** as described in the previous steps to attach the debugger. Then open the dynamically generated *app.tsx* file from Solution Explorer by opening **Script Documents** > **app.tsx**, set a breakpoint, and refresh the page in your browser.
+
+        Alternatively, if you need to break into code in *app.tsx* and are unable to do it, try using the `debugger;` statement in *app.tsx*, or set breakpoints in the Chrome Developer Tools instead.
+
+    * If you need to break into code in *app-bundle.js* and are unable to do it, remove the sourcemap file, *app-bundle.js.map*.
 
     > [!TIP]
     > Once you attach to the process the first time by following these steps, you can quickly reattach to the same process in Visual Studio 2017 by choosing **Debug** > **Reattach to Process**.

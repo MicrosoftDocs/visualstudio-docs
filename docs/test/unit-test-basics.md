@@ -1,18 +1,14 @@
 ---
-title: "Unit Test Basics | Microsoft Docs"
-ms.custom: ""
+title: "Unit Test Basics in Visual Studio | Microsoft Docs"
 ms.date: "2016-01-07"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: vs-devops-test
-ms.tgt_pltfrm: ""
+ms.technology: vs-ide-test
 ms.topic: "article"
-f1_keywords:
+f1_keywords: 
   - "vs.UnitTest.CreateUnitTest"
 author: gewarren
 ms.author: gewarren
 manager: ghogen
-ms.workload:
+ms.workload: 
   - "multiple"
 ---
 # Unit test basics
@@ -108,7 +104,7 @@ It is often quicker to generate the unit test project and unit test stubs from y
 3.  To use one of the Microsoft unit test frameworks, choose **Unit Test Project** from the list of project templates. Otherwise, choose the project template of the unit test framework that you want to use. To test the `Accounts` project of our example, you would name the project `AccountsTests`.
 
     > [!WARNING]
-    >  Not all third-party and open source unit test frameworks provide a Visual Studio project template. Consult the framework document for information about creating a project.
+    > Not all third-party and open source unit test frameworks provide a Visual Studio project template. Consult the framework document for information about creating a project.
 
 4.  In your unit test project, add a reference to the code project under test, in our example to the Accounts project.
 

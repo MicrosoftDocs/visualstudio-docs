@@ -20,46 +20,46 @@ manager: ghogen
 ms.workload: 
   - "multiple"
 ---
-# Creating Applications in Bi-directional Languages
+# Creating applications in bi-directional languages
 You can use Visual Studio to create applications that correctly display text in languages written right-to-left, including Arabic and Hebrew. For some features, you can simply set properties. In other cases, you must implement features in code.  
   
 > [!NOTE]
 >  In order to enter and display bi-directional languages, you must be working with a version of Windows that is configured with the appropriate language. This can either be an English version of Windows with the appropriate language pack installed, or the appropriately localized version of Windows.  
   
-## Types of Application that Support Bi-Directional Languages  
+## Types of application that support bi-directional languages  
   
-1.  Windows applications. You can create fully bi-directional applications that include support for bi-directional text, right-to-left reading order, and mirroring (reversing the layout of windows, menus, dialog boxes, and so on). Except for mirroring, these features are available by default or as property settings. Mirroring is supported inherently for some features, such as message boxes. However, in other cases you must implement mirroring in code. For more information, see [Bi-Directional Support for Windows Forms Applications](http://msdn.microsoft.com/Library/7b622fa4-f390-4e4d-b624-83a1917cccf2).  
+-  Windows applications. You can create fully bi-directional applications that include support for bi-directional text, right-to-left reading order, and mirroring (reversing the layout of windows, menus, dialog boxes, and so on). Except for mirroring, these features are available by default or as property settings. Mirroring is supported inherently for some features, such as message boxes. However, in other cases you must implement mirroring in code. For more information, see [Bi-directional support for Windows Forms applications](http://msdn.microsoft.com/Library/7b622fa4-f390-4e4d-b624-83a1917cccf2).  
   
-2.  Web applications. Web services support and receiving sending UTF-8 and Unicode text, making them suitable for applications involving bi-directional languages. Web client applications rely on browsers for their user interface, so the degree of bi-directional support in a Web application is dependent on how well the user's browser supports those bi-directional features. In Visual Studio, you can create applications with support for Arabic or Hebrew text, right-to-left reading order, file encoding, and local culture settings. For more information, see [Bidirectional Support for ASP.NET Web Applications](http://msdn.microsoft.com/Library/5576f9b1-9b86-41ef-8354-092d366bcd03).  
+-  Web applications. Web services support and receiving sending UTF-8 and Unicode text, making them suitable for applications involving bi-directional languages. Web client applications rely on browsers for their user interface, so the degree of bi-directional support in a Web application is dependent on how well the user's browser supports those bi-directional features. In Visual Studio, you can create applications with support for Arabic or Hebrew text, right-to-left reading order, file encoding, and local culture settings. For more information, see [Bidirectional support for ASP.NET web applications](http://msdn.microsoft.com/Library/5576f9b1-9b86-41ef-8354-092d366bcd03).  
   
-3.  Console applications. Console applications do not include text support for bi-directional languages. This is a consequence of how Windows works with console applications.  
+-  Console applications. Console applications do not include text support for bi-directional languages. This is a consequence of how Windows works with console applications.  
   
-## Visual Studio Features That Are Fully Supported  
+## Visual Studio features that are fully supported  
  At design time in Visual Studio, you can use bi-directional languages in these ways:  
   
 -   **Text entry** Visual Studio supports Unicode, so if your system is set to the appropriate locale and input language, you can enter text in Arabic or Hebrew. (Arabic support includes Kashida and Diacritics.)  
   
 -   **Object names** You can use bi-directional languages to assign names to solutions, projects, files, folders, and so on. In code, you can use bi-directional languages for the names of variables, classes, object, attributes, metadata, and other elements.  
   
--   **File encoding** You can save and open files with a language-specific or Unicode encoding. For more information, see [How to: Save and Open Files with Encoding](../ide/how-to-save-and-open-files-with-encoding.md).  
+-   **File encoding** You can save and open files with a language-specific or Unicode encoding. For more information, see [How to: Save and open files with encoding](../ide/how-to-save-and-open-files-with-encoding.md).  
   
-## Features with Limited or No Support  
+## Features with limited or no support  
  Other features common to bi-directional language applications are not fully supported in Visual Studio, or in some cases, not at all. These include:  
   
--   **Right-to-left reading order** By default, text-entry controls you use in Visual Studio use left-to-right reading order. In most cases, you can use standard Windows gestures to switch reading order. For example, you can press Ctrl+Right Shift to switch the Properties window to support right-to-left reading order for property values.  
+**Right-to-left reading order** By default, text-entry controls you use in Visual Studio use left-to-right reading order. In most cases, you can use standard Windows gestures to switch reading order. For example, you can press **Ctrl+RightShift** to switch the **Properties** window to support right-to-left reading order for property values.  
   
-     However, right-to-left reading order is not supported everywhere in Visual Studio. Exceptions include:  
+However, right-to-left reading order is not supported everywhere in Visual Studio. Exceptions include:  
   
-    -   Check boxes, drop-down lists, and other controls in Visual Studio dialog boxes always use left-to-right reading order.  
+-   Check boxes, drop-down lists, and other controls in Visual Studio dialog boxes always use left-to-right reading order.  
   
-    -   The code editor (and text editor) does not support right-to-left reading order. You can enter text in a bi-directional language, but the reading order is always left-to-right.  
+-   The code editor (and text editor) does not support right-to-left reading order. You can enter text in a bi-directional language, but the reading order is always left-to-right.  
   
-## Naming Things Using Arabic or Hebrew Text  
+## Naming things using Arabic or Hebrew text  
  You can use Arabic or Hebrew text to assign names to folders, variables, or other objects. When working with Arabic, you can use any Arabic characters including Kashida and Diacritics.  
   
  The following elements can be named using Arabic or Hebrew and will be handled correctly in Visual Studio:  
   
--   Solution, project, and file names, including any folders you include in the project path. Solution Explorer will display solution and element names correctly.  
+-   Solution, project, and file names, including any folders you include in the project path. **Solution Explorer** will display solution and element names correctly.  
   
 -   File contents. You can open or save files with Unicode encoding or with a selected code page.  
   
@@ -72,7 +72,7 @@ You can use Visual Studio to create applications that correctly display text in 
   
 -   Attributes and metadata.  
   
--   Property values. You can use Arabic or Hebrew text in the Properties window. The window allows you to switch between right-to-left and left-to-right reading order using standard Windows keystrokes (CTRL+RightShift for right-to-left, and CTRL+LeftShift for left-to-right).  
+-   Property values. You can use Arabic or Hebrew text in the **Properties** window. The window allows you to switch between right-to-left and left-to-right reading order using standard Windows keystrokes (**Ctrl+RightShift** for right-to-left, and **Ctrl+LeftShift** for left-to-right).  
   
 -   Code and literal text. In the code editor (which is also the text editor), you can use Arabic or Hebrew to name classes, functions, variables, properties, string literals, attributes, and so on. However, the editor does not support right-to-left reading order; text always starts at the left margin.  
   
@@ -86,7 +86,7 @@ You can use Visual Studio to create applications that correctly display text in 
   
 ## See also
 
-[Bi-Directional Support for Windows Forms Applications](/dotnet/framework/winforms/advanced/bi-directional-support-for-windows-forms-applications)  
-[Bidirectional Support for ASP.NET Web Applications](http://msdn.microsoft.com/Library/5576f9b1-9b86-41ef-8354-092d366bcd03)  
-[Globalizing Applications](../ide/globalizing-applications.md)  
-[Localizing Applications](../ide/localizing-applications.md)
+[Bi-directional support for Windows Forms applications](/dotnet/framework/winforms/advanced/bi-directional-support-for-windows-forms-applications)  
+[Bidirectional support for ASP.NET web applications](http://msdn.microsoft.com/Library/5576f9b1-9b86-41ef-8354-092d366bcd03)  
+[Globalizing applications](../ide/globalizing-applications.md)  
+[Localizing applications](../ide/localizing-applications.md)

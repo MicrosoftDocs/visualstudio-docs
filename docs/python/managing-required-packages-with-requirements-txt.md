@@ -9,7 +9,7 @@ ms.technology:
   - "devlang-python"
 ms.devlang: python
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 author: "kraigb"
 ms.author: "kraigb"
 manager: ghogen
