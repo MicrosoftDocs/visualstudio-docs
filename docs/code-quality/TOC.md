@@ -53,7 +53,7 @@
 ### [Generate Code Metrics Data](how-to-generate-code-metrics-data.md)
 ### [Work with Code Metrics Data](working-with-code-metrics-data.md)
 # Reference
-## Rule sets
+## [Rule sets](rule-set-reference.md)
 ### [All Rules rule set](all-rules-rule-set.md)
 ### [Basic Correctness Rules rule set for managed code](basic-correctness-rules-rule-set-for-managed-code.md)
 ### [Basic Design Guideline Rules rule set for managed code](basic-design-guideline-rules-rule-set-for-managed-code.md)
