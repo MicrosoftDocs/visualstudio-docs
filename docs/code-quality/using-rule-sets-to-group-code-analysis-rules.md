@@ -22,4 +22,4 @@ You can customize a rule set by adding or deleting rules, or by changing rule se
 ## See also
 
 - [Walkthrough: Configure a custom rule set](../code-quality/walkthrough-configuring-and-using-a-custom-rule-set.md)
-- [Code analysis rule set reference](../code-quality/managed-minimun-rules-rule-set-for-managed-code.md)
+- [Code analysis rule set reference](../code-quality/rule-set-reference.md)
