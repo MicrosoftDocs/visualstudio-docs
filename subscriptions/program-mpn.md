@@ -1,14 +1,14 @@
 ---
 title: Visual Studio subscriptions offered to partners in the Microsoft Partner Network (MPN)
-Author: evanwindom
-Ms.author: jaunger
-Manager: evelynp
-Ms.date: 03/16/2018
-Ms.topic: Get-Started-Article
-Description:  Details on what subscriptions are offered, what rules apply, and how many subscriptions are offered in MPN.
-Ms.prod: vs-subscription
-Ms.technology: vs-subscriptions
-Searchscope: VS Subscription
+author: evanwindom
+ms.author: jaunger
+manager: evelynp
+ms.date: 03/16/2018
+ms.topic: Get-Started-Article
+description:  Details on what subscriptions are offered, what rules apply, and how many subscriptions are offered in MPN.
+ms.prod: vs-subscription
+ms.technology: vs-subscriptions
+searchscope: VS Subscription
 ---
 
 # Visual Studio subscriptions offered to partners in the Microsoft Partner Network (MPN)

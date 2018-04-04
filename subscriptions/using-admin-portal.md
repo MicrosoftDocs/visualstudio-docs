@@ -1,14 +1,14 @@
 ---
 title: Using the Administrator Portal | Visual Studio Marketplace
-Author: evanwindom
-Ms.author: jaunger
-Manager: evelynp
-Ms.date: 10/03/2017
-Ms.topic: Get-Started-Article
-Description: Learn how to manage your organization's Visual Studio subscriptions with the Administrator Portal.
-Ms.prod: vs-subscription
-Ms.technology: vs-subscriptions
-Searchscope: VS Subscription
+author: evanwindom
+ms.author: jaunger
+manager: evelynp
+ms.date: 10/03/2017
+ms.topic: Get-Started-Article
+mescription: Learn how to manage your organization's Visual Studio subscriptions with the Administrator Portal.
+ms.prod: vs-subscription
+ms.technology: vs-subscriptions
+searchscope: VS Subscription
 ---
 
 #  Using the Visual Studio subscriptions administrator portal
@@ -21,6 +21,7 @@ Keep this in mind when you use the Visual Studio Subscriptions Administration Po
 - **Do not share subscriptions between subscribers.** You must assign a subscription to anyone who uses all or part of the subscription benefits (software for development and testing, Microsoft Azure, e-learning, etc.). 
 
 ## Adminstrator roles
+
 There are two different roles that exist in the new Visual Studio Subscriptions Administration Portal for Volume Licensing customers. These roles are like the Primary/Notices Contact role and the Subscriptions Manager role in the VLSC today. 
 
 **Super admins:** Upon first setting up an organization, the Primary or Notices Contact becomes a super admin by default. The Primary or Notices contact can choose to assign additional super admins or administrators. A super admin can add and remove other administrators as well as subscribers. If there are more than two super admins in the system, a super-admin can delete all but the last two for security. 
@@ -32,6 +33,7 @@ There are two different roles that exist in the new Visual Studio Subscriptions 
 In order to use the administrator portal to manage your organization's subscriptions, you must first onboard your organization to the portal.  Once you've completed onboarding, you'll want to become familiar with the Subscribers and Details pages, as those are where you'll find the tools and information you need to perform your subscription management tasks.  
 
 ### Onboarding
+
 When your organization is ready to be onboarded to the Visual Studio Subscriptions Administration Portal an email will be sent to the Primary and Notices Contacts inviting them to complete the onboarding process. The below details are the steps that will need to be taken to onboard to the new portal. If you’d like a walkthrough of the process, check out this [administrator onboarding video](https://channel9.msdn.com/Series/Visual-Studio-Subscriptions-Administration/Onboarding-your-organization-to-the-new-Visual-Studio-Subscription-Administration-Portal-and-setting) or this [support article](https://support.microsoft.com/help/4013931/visual-studio-subscriptions-administrator-migration-process "Visual Studio Subscriptions Administrator Migration Process").   
 1.	**Locating your PCN and signing in:**
     - In the email, the Primary and Notices Contacts are provided with a unique link and the last three digits of their Public Customer Number (PCN). * 

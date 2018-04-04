@@ -1,14 +1,14 @@
 ---
 title: How Do I Leave the Visual Studio Dev Essentials Program? | Microsoft Docs
-Author: evanwindom
-Ms.author: jaunger
-Manager: evelynp
-Ms.date: 12/28/2017
-Ms.topic: Get-Started-Article
-Description:  Learn how to leave the Visual Studio Dev Essentials program
-Ms.prod: vs-subscription
-Ms.technology: vs-subscriptions
-Searchscope: VS Subscription
+author: evanwindom
+ms.author: jaunger
+manager: evelynp
+ms.date: 12/28/2017
+ms.topic: Get-Started-Article
+description:  Learn how to leave the Visual Studio Dev Essentials program
+ms.prod: vs-subscription
+ms.technology: vs-subscriptions
+searchscope: VS Subscription
 ---
 
 # How do I leave the Visual Studio Dev Essentials program? 

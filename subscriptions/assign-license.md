@@ -1,14 +1,14 @@
 ---
-Title: Assign licenses to Visual Studio Subscriptions | Microsoft Docs
-Author: evanwindom
-Ms.author: jaunger
-Manager: evelynp
-Ms.date: 10/03/2017
-Ms.topic: Get-Started-Article
-Description:  Learn how administrators can assign licenses to subscribers
-Ms.prod: vs-subscription
-Ms.technology: vs-subscriptions
-Searchscope: VS Subscription
+title: Assign licenses to Visual Studio Subscriptions | Microsoft Docs
+author: evanwindom
+ms.author: jaunger
+manager: evelynp
+ms.date: 10/03/2017
+ms.topic: Get-Started-Article
+description:  Learn how administrators can assign licenses to subscribers
+ms.prod: vs-subscription
+ms.technology: vs-subscriptions
+searchscope: VS Subscription
 ---
 
 # Assigning licenses in the Visual Studio subscriptions administrator portal
@@ -61,8 +61,8 @@ If you have available licenses for Visual Studio subscriptions, you can assign t
 
 If the template contains errors, the upload will fail, and you will be shown the errors so you can correct the template and attempt the bulk upload again.
 
-    ![Upload Fail](_img\assign-license-add\bulk-assign-upload-fail.png)
+   ![Upload Fail](_img\assign-license-add\bulk-assign-upload-fail.png)
 
 When the upload is successful, you'll see the list of subscribers and a confirmation message.
 
-    ![Upload Complete](_img\assign-license-add\bulk-assign-upload-complete.png)
+   ![Upload Complete](_img\assign-license-add\bulk-assign-upload-complete.png)

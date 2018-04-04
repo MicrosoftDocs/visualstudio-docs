@@ -1,17 +1,17 @@
 ---
 title: Using the Subscriber Portal - http://my.visualstudio.com | Microsoft Docs
-Author: evanwindom
-Ms.author: jaunger
-Manager: evelynp
-Ms.date: 01/04/2018
-Ms.topic: Get-Started-Article
-Description: Learn about the full range of benefits available to you on the Visual Studio subscriptions portal 
-Ms.prod: vs-subscription
-Ms.technology: vs-subscriptions
-Searchscope: VS Subscription
+author: evanwindom
+ms.author: jaunger
+manager: evelynp
+ms.date: 01/04/2018
+ms.topic: Get-Started-Article
+description: Learn about the full range of benefits available to you on the Visual Studio subscriptions portal 
+ms.prod: vs-subscription
+ms.technology: vs-subscriptions
+searchscope: VS Subscription
 ---
 
-# Using the Subscriber Portal - my.<span></span>visualstudio<span></span>.com
+# Using the subscriber portal - my.<span></span>visualstudio<span></span>.com
 
 The Visual Studio Subscriptions Portal, [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs), is your all-in-one resource to take advantage of the full range of benefits provided through your Visual Studio subscription. 
 

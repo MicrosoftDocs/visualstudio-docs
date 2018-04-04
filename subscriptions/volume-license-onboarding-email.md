@@ -1,17 +1,17 @@
 ---
 title: Volume License Subscription Onboarding Email Communications | Microsoft Docs
-Author: evanwindom
-Ms.author: jaunger
-Manager: evelynp
-Ms.date: 3/14/2018
-Ms.topic: Get-Started-Article
-Description:  Example of onboarding communications provided to VLSC administrators
-Ms.prod: vs-subscription
-Ms.technology: vs-subscriptions
-Searchscope: VS Subscription
+author: evanwindom
+ms.author: jaunger
+manager: evelynp
+ms.date: 3/14/2018
+ms.topic: Get-Started-Article
+description:  Example of onboarding communications provided to VLSC administrators
+ms.prod: vs-subscription
+ms.technology: vs-subscriptions
+searchscope: VS Subscription
 ---
 
-# Onboarding Email Communications for Administrators
+# Onboarding email communications for administrators
 
 The individual listed on your organization’s Volume Licensing (VL) agreement receives this email when your organization is ready to be migrated. This outlines the process they need to follow for anyone in the company to manage Visual Studio Subscriptions. 
 

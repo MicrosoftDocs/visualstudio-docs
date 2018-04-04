@@ -1,14 +1,14 @@
 ---
 title: Handle over-claimed licenses | Microsoft Docs
-Author: evanwindom
-Ms.author: jaunger
-Manager: evelynp
-Ms.date: 02/13/2018
-Ms.topic: Get-Started-Article
-Description:  Learn how administrators can resolve over-claimed subscriptions
-Ms.prod: vs-subscription
-Ms.technology: vs-subscriptions
-Searchscope: VS Subscription
+author: evanwindom
+ms.author: jaunger
+manager: evelynp
+ms.date: 02/13/2018
+ms.topic: Get-Started-Article
+description:  Learn how administrators can resolve over-claimed subscriptions
+ms.prod: vs-subscription
+ms.technology: vs-subscriptions
+searchscope: VS Subscription
 ---
 
 # Handling ‘over-claimed’ subscriptions

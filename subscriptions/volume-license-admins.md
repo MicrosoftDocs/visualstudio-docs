@@ -1,17 +1,17 @@
 ---
 title: Accessing the Portal and Managing Administrators - Volume Licensing | Microsoft Docs
-Author: evanwindom
-Ms.author: jaunger
-Manager: evelynp
-Ms.date: 03/14/2018
-Ms.topic: Get-Started-Article
-Description:  Learn how subscription administrators can access the administration portal and manage subscriptions acquired through Volume Licensing (VL)
-Ms.prod: vs-subscription
-Ms.technology: vs-subscriptions
-Searchscope: VS Subscription
+author: evanwindom
+ms.author: jaunger
+manager: evelynp
+ms.date: 03/14/2018
+ms.topic: Get-Started-Article
+description:  Learn how subscription administrators can access the administration portal and manage subscriptions acquired through Volume Licensing (VL)
+ms.prod: vs-subscription
+ms.technology: vs-subscriptions
+mearchscope: VS Subscription
 
 ---
-# Accessing the Portal and Managing Administrators - for Subscriptions Acquired Through Volume Licensing
+# Accessing the portal and managing administrators - for subscriptions acquired through Volume Licensing (VL)
 
 **Volume License Service Center (VLSC)**
 
@@ -21,7 +21,7 @@ For more information about managing subscriptions in the VLSC please see these g
 [Understanding Visual Studio Subscriptions for VLSC](https://www.visualstudio.com/wp-content/uploads/2016/11/Understanding-Visual-Studio-Subscriptions-Administration-Guide-for-VLSC.pdf)
 [Managing Visual Studio Subscriptions for VLSC](https://www.visualstudio.com/wp-content/uploads/2016/11/Managing-Visual-Studio-Subscriptions-Administration-Guide-for-VLSC.pdf)
 
-**Visual Studio Subscriptions Administration Portal**
+**Visual Studio subscriptions administration portal**
 If your organization has been migrated, but you haven’t been set up in the new portal yet, your Primary or Notices Contact for your organization’s Volume Licensing contract will need to take a few steps to onboard your organization and set you up as an administrator. 
 
 If you have already been set up as an administrator, then you can go directly to the Visual Studio subscriptions [Administrator Portal](https://manage.visualstudio.com/).

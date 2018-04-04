@@ -1,14 +1,14 @@
 ---
 title: Using Product Keys | Microsoft Docs
-Author: evanwindom
-Ms.author: jaunger
-Manager: evelynp
-Ms.date: 10/03/2017
-Ms.topic: Get-Started-Article
-Description:  Learn how to obtain and manage your product keys in Visual Studio subscriptions.
-Ms.prod: vs-subscription
-Ms.technology: vs-subscriptions
-Searchscope: VS Subscription
+author: evanwindom
+ms.author: jaunger
+manager: evelynp
+ms.date: 10/03/2017
+ms.topic: Get-Started-Article
+description:  Learn how to obtain and manage your product keys in Visual Studio subscriptions.
+ms.prod: vs-subscription
+ms.technology: vs-subscriptions
+searchscope: VS Subscription
 ---
 
 # Using product keys in Visual Studio subscriptions
@@ -90,7 +90,7 @@ You can export a list of all the keys you have claimed, along with a large selec
 
 To export your keys, simply click on the **Export all keys** link at the far right of the Product Keys page.  An .xml file entitled KeysExport.xml will be created, and you’ll have the option to open or save the file.  You will need to open the file with an application capable of handling .xml files.  For example, you can open the file as a read-only workbook in Excel.  
 
-## Internet Demonstrations via Terminal Services
+## Internet demonstrations via Terminal Services
 With a Visual Studio subscription, you are allowed to provide end users access to Internet demonstrations of your programs via Terminal Services (Windows Server 2003 or Windows Server 2008) or Remote Desktop Services (Windows Server 2008 R2 and later). Up to 200 anonymous users can simultaneously access your demonstration this way. Your demonstration must not use production data. Visual Studio subscribers are licensed to demonstrate their applications to end users. This Internet demonstration using Terminal Services (TS) or Remote Desktop Services (RDS) is the only scenario where end users without a Visual Studio subscription can interact with the demonstration application when the software is licensed through Visual Studio subscriptions.
 
 This is in addition to dev/test rights, where Visual Studio subscribers can use as many RDS or TS connections as needed.

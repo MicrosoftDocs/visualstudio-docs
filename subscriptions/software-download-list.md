@@ -1,14 +1,14 @@
 ---
 title: How Do I Know What Software is Available for Download? | Microsoft Docs
-Author: evanwindom
-Ms.author: jaunger
-Manager: evelynp
-Ms.date: 12/28/2017
-Ms.topic: Get-Started-Article
-Description:  Find a list of the software downloads included with your Visual Studio subscription. 
-Ms.prod: vs-subscription
-Ms.technology: vs-subscriptions
-Searchscope: VS Subscription
+author: evanwindom
+ms.author: jaunger
+manager: evelynp
+ms.date: 12/28/2017
+ms.topic: Get-Started-Article
+description:  Find a list of the software downloads included with your Visual Studio subscription. 
+ms.prod: vs-subscription
+ms.technology: vs-subscriptions
+searchscope: VS Subscription
 ---
 
 # How do I know what software is available for download?

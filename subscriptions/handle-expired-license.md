@@ -1,14 +1,14 @@
 ---
 title: Handle expired licenses | Microsoft Docs
-Author: evanwindom
-Ms.author: jaunger
-Manager: evelynp
-Ms.date: 10/03/2017
-Ms.topic: Get-Started-Article
-Description: Learn how administrators can handle expired Visual Studio subscriptions
-Ms.prod: vs-subscription
-Ms.technology: vs-subscriptions
-Searchscope: VS Subscription
+author: evanwindom
+ms.author: jaunger
+manager: evelynp
+ms.date: 10/03/2017
+ms.topic: Get-Started-Article
+description: Learn how administrators can handle expired Visual Studio subscriptions
+ms.prod: vs-subscription
+ms.technology: vs-subscriptions
+searchscope: VS Subscription
 ---
 
 # Handling expired subscriptions
@@ -16,7 +16,8 @@ Searchscope: VS Subscription
 When a user’s subscription has expired, this is indicated in the portal by a red bar next to their name in the list of subscribers. For those subscribers to continue using their Visual Studio Subscription benefits, you will need to renew their licenses. 
 
 ![List of Expired Subscriptions](_img\expired-subscriptions\expired-list.png) 
-## To renew the subscriptions
+
+**To renew subscriptions**
 1.  Contact your Volume Licensing reseller or your Microsoft seller. 
 2.  Provide them with your Agreement Number and Purchase Account Number. 
 

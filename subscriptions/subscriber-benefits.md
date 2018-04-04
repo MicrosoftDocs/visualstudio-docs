@@ -1,14 +1,14 @@
 ---
 title: Visual Studio Subscriptions - Subscriber Benefits
-Author: evanwindom
-Ms.author: jaunger
-Manager: evelynp
-Ms.date: 02/12/2018
-Ms.topic: Get-Started-Article
-Description:  Learn about the benefits included in your Visual Studio subscription
-Ms.prod: vs-subscription
-Ms.technology: vs-subscriptions
-Searchscope: VS Subscription
+author: evanwindom
+ms.author: jaunger
+manager: evelynp
+ms.date: 02/12/2018
+ms.topic: Get-Started-Article
+description:  Learn about the benefits included in your Visual Studio subscription
+ms.prod: vs-subscription
+ms.technology: vs-subscriptions
+searchscope: VS Subscription
 ---
 
 # Benefits included in your Visual Studio subscription

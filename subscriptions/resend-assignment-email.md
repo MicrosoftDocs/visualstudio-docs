@@ -1,17 +1,17 @@
 ---
 title: How to Resend Subscription Assignment Emails from Within Manage.visualstudio.com or VLSC | Microsoft Docs
-Author: evanwindom
-Ms.author: jaunger
-Manager: evelynp
-Ms.date: 02/13/2018
-Ms.topic: Get-Started-Article
-Description:  Learn how to resend the subscription assignment to subscribers from manage.visualstudio.com or VLSC
-Ms.prod: vs-subscription
-Ms.technology: vs-subscriptions
-Searchscope: VS Subscription
+author: evanwindom
+ms.author: jaunger
+manager: evelynp
+ms.date: 02/13/2018
+ms.topic: Get-Started-Article
+description:  Learn how to resend the subscription assignment to subscribers from manage.visualstudio.com or VLSC
+ms.prod: vs-subscription
+ms.technology: vs-subscriptions
+searchscope: VS Subscription
 ---
 
-# How to resend subscription assignment emails in the Visual Studio subscription management portal:
+# How to resend subscription assignment emails in the Visual Studio subscription management portal
 
 The steps needed to resend an assignment email depend on which portal you're using to manage your subscriptions. 
 

@@ -1,14 +1,14 @@
 ---
 title: Learn About Subscription Management | Microsoft Docs
-Author: evanwindom
-Ms.author: jaunger
-Manager: evelynp
-Ms.date: 03/13/2018
-Ms.topic: Get-Started-Article
-Description:  Find More Information About Subscription Management
-Ms.prod: vs-subscription
-Ms.technology: vs-subscriptions
-Searchscope: VS Subscription
+author: evanwindom
+ms.author: jaunger
+manager: evelynp
+ms.date: 03/13/2018
+ms.topic: Get-Started-Article
+description:  Find More Information About Subscription Management
+ms.prod: vs-subscription
+ms.technology: vs-subscriptions
+searchscope: VS Subscription
 ---
 
 # Learn about subscription management

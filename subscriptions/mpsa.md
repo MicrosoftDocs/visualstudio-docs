@@ -1,17 +1,17 @@
 ---
-title: Visual Studio Subscriptions in a Microsoft Products and Services Agreement (MPSA).| Microsoft Docs
-Author: evanwindom
-Ms.author: jaunger
-Manager: evelynp
-Ms.date: 03/14/2018
-Ms.topic: Get-Started-Article
-Description:  Visual Studio Subscriptions in a Microsoft Products and Services Agreement (MPSA).
-Ms.prod: vs-subscription
-Ms.technology: vs-subscriptions
-Searchscope: VS Subscription
+title: Visual Studio Subscriptions in a Microsoft Products and Services Agreement (MPSA)| Microsoft Docs
+author: evanwindom
+ms.author: jaunger
+manager: evelynp
+ms.date: 03/14/2018
+ms.topic: Get-Started-Article
+description:  Visual Studio Subscriptions in a Microsoft Products and Services Agreement (MPSA)
+ms.prod: vs-subscription
+ms.technology: vs-subscriptions
+searchscope: VS Subscription
 ---
 
-# Visual Studio Subscriptions in a Microsoft Products and Services Agreement (MPSA).
+# Visual Studio subscriptions in a Microsoft Products and Services Agreement (MPSA)
 
 If you have purchased Visual Studio Subscriptions through the MPSA program, there are a few things to be aware of before you can become a Visual Studio subscriptions administrator and assign subscriptions to your users. If you have already been set up as an administrator, then you can go directly to the Visual Studio subscriptions [Administration Portal](https://manage.visualstudio.com/). 
 
@@ -26,11 +26,11 @@ An unmanaged tenant is a tenant without any administrators within and is not usa
 Prior to completing the tenant association here are a few requirements/steps needed to become a Visual Studio Subscriptions administrator.
 
 ## Pre-tenant association (managed tenant)
-1.	You must be a registered user to the Business Center.
-2.	You must be a User Admin (at minimum) or Global Admin within the tenant that you are part of. (This applies if your company already uses Cloud Services). Either role is needed to be a Visual Studio subscriptions administrator.
-3.	You must be a Global Admin in the tenant that you are part of to be able to associate your Purchasing Account to your tenant.
-4.	You must be an Account Admin or Account Manager in Business Center.
-5.	The “Country or Region” field within your user profile (and any other user) in [Azure](https://portal.azure.com/) needs to be populated appropriately depending on your region (i.e. US, CA, etc.). 
+-	You must be a registered user to the Business Center.
+-	You must be a User Admin (at minimum) or Global Admin within the tenant that you are part of. (This applies if your company already uses Cloud Services). Either role is needed to be a Visual Studio subscriptions administrator.
+-	You must be a Global Admin in the tenant that you are part of to be able to associate your Purchasing Account to your tenant.
+-	You must be an Account Admin or Account Manager in Business Center.
+-	The “Country or Region” field within your user profile (and any other user) in [Azure](https://portal.azure.com/) needs to be populated appropriately depending on your region (i.e. US, CA, etc.). 
 
 > [!NOTE]
 > Any users that you want to make Visual Studio subscriptions administrators are not required to be users in the Business Center, as they only need to meet the criteria in steps 2 and 5.

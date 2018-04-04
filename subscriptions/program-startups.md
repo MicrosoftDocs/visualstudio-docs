@@ -1,14 +1,14 @@
 ---
 title: Visual Studio subscriptions offered to startups through the Microsoft for Startups program
-Author: evanwindom
-Ms.author: jaunger
-Manager: evelynp
-Ms.date: 03/20/2018
-Ms.topic: Get-Started-Article
-Description:  Details on what subscriptions are offered through the Microsoft for Startups program.
-Ms.prod: vs-subscription
-Ms.technology: vs-subscriptions
-Searchscope: VS Subscription
+author: evanwindom
+ms.author: jaunger
+manager: evelynp
+ms.date: 03/20/2018
+ms.topic: Get-Started-Article
+description:  Details on what subscriptions are offered through the Microsoft for Startups program.
+ms.prod: vs-subscription
+ms.technology: vs-subscriptions
+searchscope: VS Subscription
 ---
 
 # Visual Studio subscriptions offered to startups
@@ -16,7 +16,7 @@ Qualified startups who join the Microsoft for Startups program can earn 5 [Visua
 
 [Learn more about Microsoft for Startups](https://startups.microsoft.com/program-details/)
 
-### Sign-in required with Visual Studio
+**Sign-in required with Visual Studio**
 With all Visual Studio cloud subscriptions, the licensed user must sign in to Visual Studio using the same identity/login that was used to activate the Visual Studio subscription. 
 
 Product keys are not offered to unlock the product; sign-in is the only option for running Visual Studio. The Visual Studio subscriber can operate offline for up to 30 days before Visual Studio stops working. While working online, Visual Studio silently refreshes the user's license status periodically to ensure the subscription is still valid.

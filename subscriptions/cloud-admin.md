@@ -1,14 +1,14 @@
 ---
 title: Setting Up Administrators for Cloud Subscriptions | Microsoft Docs
-Author: evanwindom
-Ms.author: jaunger
-Manager: evelynp
-Ms.date: 03/28/2018
-Ms.topic: Get-Started-Article
-Description:  Setting Up Administrators for Cloud Subscriptions
-Ms.prod: vs-subscription
-Ms.technology: vs-subscriptions
-Searchscope: VS Subscription
+author: evanwindom
+ms.author: jaunger
+manager: evelynp
+ms.date: 03/28/2018
+ms.topic: Get-Started-Article
+description:  Setting Up Administrators for Cloud Subscriptions
+ms.prod: vs-subscription
+ms.technology: vs-subscriptions
+searchscope: VS Subscription
 ---
 
 # Setting up administrators for Visual Studio Cloud subscriptions

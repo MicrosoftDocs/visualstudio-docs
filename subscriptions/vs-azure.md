@@ -1,14 +1,14 @@
 ---
 title: Microsoft Azure Benefit | Microsoft Docs
-Author: evanwindom
-Ms.author: jaunger
-Manager: evelynp
-Ms.date: 10/3/2017
-Ms.topic: Get-Started-Article
-Description:  Learn how to activate the Azure benefit included in your Visual Studio subscription.
-Ms.prod: vs-subscription
-Ms.technology: vs-subscriptions
-Searchscope: VS Subscription
+author: evanwindom
+ms.author: jaunger
+manager: evelynp
+ms.date: 10/3/2017
+ms.topic: Get-Started-Article
+description:  Learn how to activate the Azure benefit included in your Visual Studio subscription.
+ms.prod: vs-subscription
+ms.technology: vs-subscriptions
+searchscope: VS Subscription
 ---
 
 # Using Microsoft Azure in Visual Studio subscriptions
@@ -88,9 +88,9 @@ If you can purchase a subscription directly, please do one of the following:
 
 Compare all the [subscriptions and their benefits](https://www.visualstudio.com/vs/pricing/).
 
-If you have another active Visual Studio subscription at the SAME subscription level under a Microsoft account, you can link it to this Azure benefit by adding an [alternate account](/manage-vs-subscriptions#linking-my-subscription-to-existing-vsts-or-azure-subscriptions/) in the Visual Studio subscription portal. If this doesn’t work, you can also try [transferring your Azure benefit](/azure/billing/billing-subscription-transfer/) to the active Visual Studio subscription.
+If you have another active Visual Studio subscription at the **same** subscription level under a Microsoft account, you can link it to this Azure benefit by adding an [alternate account](/manage-vs-subscriptions#linking-my-subscription-to-existing-vsts-or-azure-subscriptions/) in the Visual Studio subscription portal. If this doesn’t work, you can also try [transferring your Azure benefit](/azure/billing/billing-subscription-transfer/) to the active Visual Studio subscription.
 
-If you have another active Visual Studio subscription at a DIFFERENT subscription level and under a Microsoft account, contact [Azure support](https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade) for assistance.
+If you have another active Visual Studio subscription at a **different** subscription level and under a Microsoft account, contact [Azure support](https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade) for assistance.
 
 If your subscription has a spending limit and you take no action before it expires, the Azure subscription(s) your Azure subscription will be disabled. To convert it to a pay-as-you-go offer and continue to use it, add a payment instrument and [remove your spending limit](/azure/billing/billing-spending-limit/).
 

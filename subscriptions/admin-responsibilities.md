@@ -1,14 +1,14 @@
 ---
-title: Admininstrator Responsibilities | Visual Studio Marketplace
-Author: evanwindom
-Ms.author: jaunger
-Manager: evelynp
-Ms.date: 03/13/2018
-Ms.topic: Get-Started-Article
-Description:  Learn about responsibilities of subscriptions administrators.
-Ms.prod: vs-subscription
-Ms.technology: vs-subscriptions
-Searchscope: VS Subscription
+title: Administrator Responsibilities | Visual Studio Marketplace
+author: evanwindom
+ms.author: jaunger
+manager: evelynp
+ms.date: 03/13/2018
+ms.topic: Get-Started-Article
+description:  Learn about responsibilities of subscriptions administrators.
+ms.prod: vs-subscription
+ms.technology: vs-subscriptions
+searchscope: VS Subscription
 
 ---
 # Overview of administrator responsibilities

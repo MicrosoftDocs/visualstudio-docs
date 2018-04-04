@@ -5,7 +5,7 @@ Ms.author: jaunger
 Manager: evelynp
 Ms.date: 10/03/2017
 Ms.topic: Get-Started-Article
-Description:  Learn how to get the most out of your Visual Studio subscriptions. 
+Description:  Learn how to get the most out of your Visual Studio subscriptions 
 Ms.prod: vs-subscription
 Ms.technology: vs-subscriptions
 Searchscope: VS Subscription
@@ -49,26 +49,26 @@ If your organization has an Azure Active Directory, but you don't have an Azure 
 5.	Enter your password
 6.	Click **Sign in** 
 
-### Managing multiple subscriptions
+## Managing multiple subscriptions
 The Visual Studio subscriptions portal brings together all your Visual Studio subscriptions and programs in a single improved portal experience.  For example, you might have a standard subscription such as Visual Studio Enterprise through work, and a monthly Visual Studio Professional subscription or Visual Studio Dev Essentials membership you use at home. 
 
-#### Which subscription am I using?
+### Which subscription am I using?
 On the Benefits page, the subscription in use will be prominently displayed in the blue banner.  It's also displayed in the upper-right of the page.
 
    ![The active subscription](_img\manage-vs-subscriptions\current-subscription-cropped.png)
 
-#### To switch between subscriptions, you can:
+### To switch between subscriptions, you can:
 - Click on the drop-down in the top right and choose the subscription from the list
 - Click on the Subscriptions tab and then click on the desired subscription
 
    ![Switching subscriptions](_img\manage-vs-subscriptions\change-subscription-resized.png)
 
-#### If your subscription is not visible...
+### If your subscription is not visible...
 - It may be expired.  Only active subscriptions are displayed in the Subscriber Portal.
 - It may be associated with a different email address. For example, if you sign in to a Visual Studio Professional subscription with your work/school email and have a Visual Studio Dev Essentials membership associated with your Microsoft Account, you will only see the subscription corresponding to the email address you used to sign in to the Subscriber Portal.  To see the other subscription, you will need to sign out, and then sign in with the other email address.
 - If your company buys subscriptions through a Volume License, your admin may not have assigned a subscription to you or may have reassigned your subscription to another user.  
 
-### Renewing my subscriptions
+## Renewing my subscriptions
 **Standard subscriptions**
 - Microsoft Store: If you purchased your subscription from the [Microsoft Store](http://www.microsoft.com/store), you can renew it there as well. 
 - Volume License:  If your company buys subscriptions through a Volume License, your admin should contact a reseller to renew your subscriptions.
@@ -83,15 +83,15 @@ On the Benefits page, the subscription in use will be prominently displayed in t
 
 **Visual Studio Dev Essentials:**  Dev Essentials is a free program, and memberships do not expire.  
 
-### Transferring subscriptions
+## Transferring subscriptions
 If your subscription was purchased through Microsoft Volume Licensing and you need to re-assign it to someone else within the organization, your administrator will need to do this for you. 
 Retail subscriptions can be transferred to another user by contacting Customer Service.  Complimentary or “Not For Resale” subscriptions cannot be transferred. 
 
 
-### Managing my profile
+## Managing my profile
 The subscriptions portal allows you to create and manage a profile to make management of your subscriptions easy.  You can make changes to your identity informaiton and associate other sign-in identities from existing Azure and VSTS accounts to your subscriptions using alternate identities. 
 
-#### Changing profile information
+### Changing profile information
 You can easily change the contact information and preferences in your profile.  
 1.	Click on your name in the upper right corner of the Subscriber Portal.
 2.	Click the **Edit profile** button.
@@ -101,7 +101,7 @@ You can easily change the contact information and preferences in your profile.
 
 ![Editing Profile Information](_img\manage-vs-subscriptions\edit-profile-resized.png)
 
-#### Linking my subscription to existing VSTS or Azure subscriptions
+### Linking my subscription to existing VSTS or Azure subscriptions
 If you sign in to your subscription using a personal Microsoft account (MSA) and have a subscription that includes Visual Studio Team Services or Microsoft Azure using a work or school account managed by Azure, you can link the two subscriptions. This is called an "alternate account" and allows you to keep using your MSA to sign in to your subscription while having access to existing Azure, VSTS or IDE resources that are associated with your school or work accounts. 
 
 Even if both accounts use the same email address, you need to add your work/school account as an alternate to use your benefits across both accounts. 
