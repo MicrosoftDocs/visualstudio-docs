@@ -1,10 +1,11 @@
 ---
-title: "How to: Configure Code Analysis for a Managed Code Project in Visual Studio | Microsoft Docs"
-ms.date: "11/04/2016"
+title: "Configure Code Analysis in Visual Studio | Microsoft Docs"
+ms.date: 04/04/2018
 ms.technology: vs-ide-code-analysis
 ms.topic: conceptual
 f1_keywords:
   - "vs.codeanalysis.propertypages.csvb"
+  - "vs.codeanalysis.propertypages.solution"
 helpviewer_keywords:
   - "code analysis, selecting rule sets"
   - "code analysis, rule sets"
