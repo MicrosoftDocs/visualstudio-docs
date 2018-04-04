@@ -41,7 +41,7 @@ Install Visual 2017 on a physical Windows computer (not a virtual machine) runni
 
 ### For targeting iOS
 
-To target iOS emulators and devices from your Windows computer, you'll also need a networked Mac or Mac mini running macOS 10.12 or later, and Xcode 8.3. See [Setup and Install Visual Studio for Mac](~/mac/installation.md) for more detailed requirements.
+To target iOS emulators and devices from your Windows computer, you'll also need a networked Mac or Mac mini running macOS 10.12 or later, and Xcode 8.3. See [Setup and Install Visual Studio for Mac](/visualstudio/mac/installation.md) for more detailed requirements.
 
 <a name="windows" /> 
 
@@ -83,7 +83,7 @@ While the installation is running, you can continue with the Mac setup instructi
 
 2.  Download and install Xcode from [https://developer.apple.com/xcode/](https://developer.apple.com/xcode/), and add your Apple ID as described on [Adding Your Account to Xcode](https://developer.apple.com/library/content/documentation/IDEs/Conceptual/AppStoreDistributionTutorial/AddingYourAccounttoXcode/AddingYourAccounttoXcode.html#//apple_ref/doc/uid/TP40013839-CH40-SW1) (apple.com).
 
-3.  Download and install Visual Studio for Mac by following the instructions on [Setup and Install Visual Studio for Mac](~/mac/installation.md).
+3.  Download and install Visual Studio for Mac by following the instructions on [Setup and Install Visual Studio for Mac](/visualstudio/mac/installation.md).
 
 4.  Once you've completed installing Xamarin on both the Windows and Mac computers, follow the instructions on [Connecting to the Mac](/xamarin/ios/get-started/installation/windows/connecting-to-mac/) so that you can work with iOS and the Mac from Visual Studio on the Windows computer.
 
