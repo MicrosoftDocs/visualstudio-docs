@@ -77,4 +77,4 @@ Now that you have a rule set, the next step is to customize the rules by adding 
 ## See also
 
 - [How to: Configure Code Analysis for a Managed Code Project](../code-quality/how-to-configure-code-analysis-for-a-managed-code-project.md)
-- [Code analysis rule set reference](../code-quality/managed-minimun-rules-rule-set-for-managed-code.md)
+- [Code analysis rule set reference](../code-quality/rule-set-reference.md)

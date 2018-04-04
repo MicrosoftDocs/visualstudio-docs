@@ -97,7 +97,7 @@
         },
         {
             "source_path": "docs/code-quality/code-analysis-rule-set-reference.md",
-            "redirect_url": "/visualstudio/code-quality/managed-minimun-rules-rule-set-for-managed-code",
+            "redirect_url": "/visualstudio/code-quality/rule-set-reference",
             "redirect_document_id": false
         },
         {

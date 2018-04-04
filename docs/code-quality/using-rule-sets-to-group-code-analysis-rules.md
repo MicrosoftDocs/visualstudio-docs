@@ -57,4 +57,4 @@ The rule set for a project is specified by the `CodeAnalysisRuleSet` property in
 
 ## See also
 
-- [Code analysis rule set reference](../code-quality/managed-minimun-rules-rule-set-for-managed-code.md)
+- [Code analysis rule set reference](../code-quality/rule-set-reference.md)
