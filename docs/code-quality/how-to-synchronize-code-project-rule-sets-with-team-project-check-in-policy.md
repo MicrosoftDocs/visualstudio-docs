@@ -50,7 +50,7 @@ You synchronize the code analysis settings for code projects to the check-in pol
 
 2.  Click **Open**.
 
-3.  Add or remove rules by using the [rule set editor](../code-quality/how-to-create-a-custom-rule-set.md).
+3.  Add or remove rules by using the [rule set editor](../code-quality/working-in-the-code-analysis-rule-set-editor.md).
 
 4.  Save the modified rule set to a .ruleset file on the local computer or to a UNC path.
 
