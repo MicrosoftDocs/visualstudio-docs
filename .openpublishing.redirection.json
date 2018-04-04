@@ -143,6 +143,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/code-quality/walkthrough-configuring-and-using-a-custom-rule-set.md",
+            "redirect_url": "/visualstudio/code-quality/how-to-create-a-custom-rule-set",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/cross-platform/visual-studio-tools-for-apache-cordova.md",
             "redirect_url": "/visualstudio/cross-platform/tools-for-cordova/",
             "redirect_document_id": false

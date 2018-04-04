@@ -9,7 +9,6 @@
 ## [Analyze Managed Code for Code Defects](walkthrough-analyzing-managed-code-for-code-defects.md)
 ## [Analyze C/C++ Code for Defects](walkthrough-analyzing-c-cpp-code-for-defects.md)
 ### [Demo Sample](demo-sample.md)
-## [Configure and Use a Custom Rule Set](walkthrough-configuring-and-using-a-custom-rule-set.md)
 # How-to guides
 ## Code Analysis for Managed Code
 ### [Install Roslyn Analyzers](install-roslyn-analyzers.md)

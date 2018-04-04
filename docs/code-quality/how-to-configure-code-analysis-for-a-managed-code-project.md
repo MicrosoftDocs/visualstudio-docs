@@ -1,8 +1,8 @@
 ---
-title: "How to: Configure Code Analysis for a Managed Code Project | Microsoft Docs"
+title: "How to: Configure Code Analysis for a Managed Code Project in Visual Studio | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.technology: vs-ide-code-analysis
-ms.topic: "article"
+ms.topic: conceptual
 f1_keywords:
   - "vs.codeanalysis.propertypages.csvb"
 helpviewer_keywords:
@@ -44,9 +44,8 @@ In Visual Studio, you can choose from a list of code analysis *rule sets* to app
 
     - Select **\<Browse...>** to find an existing custom rule set that is not in the list.
 
-    - Define a custom rule set. For more information, see [Creating Custom Rule Sets](../code-quality/creating-custom-code-analysis-rule-sets.md).
+    - Define a [custom rule set](../code-quality/how-to-create-a-custom-rule-set.md).
 
 ## See also
 
-- [Walkthrough: Configuring and Using a Custom Rule Set](../code-quality/walkthrough-configuring-and-using-a-custom-rule-set.md)
 - [How to: Configure Code Analysis for an ASP.NET Web Application](../code-quality/how-to-configure-code-analysis-for-an-aspnet-web-application.md)
