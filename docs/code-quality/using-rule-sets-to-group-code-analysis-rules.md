@@ -17,14 +17,11 @@ ms.workload:
 
 When you configure code analysis in Visual Studio, you can choose from a list of built-in *rule sets*. A rule set applies to a project, and is a grouping of code analysis rules that identify targeted issues and specific conditions for that project. For example, you can apply a rule set that is designed to scan code for publicly available APIs, or just the minimum recommended rules. You can also apply a rule set that includes all the rules.
 
-You can customize a rule set by adding or deleting rules, or by changing rule severities to appear as either warnings or errors in the **Error List**. Customized rule sets can fulfill a need for your particular development environment. When you customize a rule set, the rule set page provides search and filtering tools to help you in the process.
+You can customize a rule set by adding or deleting rules, or by changing rule severities to appear as either warnings or errors in the **Error List**. Customized rule sets can fulfill a need for your particular development environment. When you customize a rule set, the rule set editor provides search and filtering tools to help you in the process.
 
 ## Rule set format
 
 A rule set is specified in XML format in a *.ruleset* file. Rules, which consist of an ID and an *action*, are grouped by analyzer ID and namespace in the file.
-
-> ![TIP]
-> It is easier to [edit a rule set](../code-quality/working-in-the-code-analysis-rule-set-editor.md) in the graphical **Rule Set Editor**.
 
 The XML contents of a *.ruleset* file looks similar to this:
 
@@ -48,6 +45,9 @@ The XML contents of a *.ruleset* file looks similar to this:
   </Rules>
 </RuleSet>
 ```
+
+> [!TIP]
+> It is easier to [edit a rule set](../code-quality/working-in-the-code-analysis-rule-set-editor.md) in the graphical **Rule Set Editor** than by hand.
 
 The rule set for a project is specified by the `CodeAnalysisRuleSet` property in the Visual Studio project file. For example:
 
