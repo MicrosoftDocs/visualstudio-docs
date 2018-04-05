@@ -2,7 +2,7 @@
 title: "Modify Visual Studio 2017 | Microsoft Docs"
 description: "Learn how to modify Visual Studio, step-by-step."
 ms.custom: "H1Hack27Feb2017"
-ms.date: "11/08/2017"
+ms.date: "04/06/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -22,7 +22,7 @@ ms.workload:
   - "multiple"
 ---
 # Modify Visual Studio 2017 by adding or removing workloads and components
-Not only have we made is easier for you to personalize Visual Studio to match the tasks you want to accomplish, we've also made it easier to customize Visual Studio, too. No more looking in Control Panel to do so; instead, start the new Visual Studio Installer and make the changes you want.
+Not only have we made is easier for you to personalize Visual Studio to match the tasks you want to accomplish, we've also made it easier to customize Visual Studio, too. To do so, start the new Visual Studio Installer and make the changes you want.
 
 Here's how.  
 
@@ -34,7 +34,7 @@ Here's how.
 
 1.  Find the Visual Studio Installer on your computer.  
 
-     For example, on a computer running Windows 10 Anniversary Update, select **Start**, and then scroll to the letter **V**, where it's listed as **Visual Studio Installer**.  
+     For example, on a computer running Windows 10, select **Start**, and then scroll to the letter **V**, where it's listed as **Visual Studio Installer**.  
 
      ![Visual Studio Installer](media/vs2017-locate-the-visual-studio-installer.PNG "Locate the Microsoft Visual Studio Installer")
 
@@ -43,7 +43,11 @@ Here's how.
 
 2.  Click or tap to start the installer, and then select **Modify**.  
 
-     ![Launch or modify Visual Studio](media/vs2017-modify.PNG "Modify Visual Studio 2017")  
+     ![Launch or modify Visual Studio](media/modify-visual-studio.png "Modify Visual Studio 2017")
+
+     If you have an update pending, click **More**, and then choose **Modify**.   
+
+     ![Update or modify Visual Studio](media/modify-or-update-visual-studio.png "Update or modify Visual Studio 2017")
 
 3.  From the **Workloads** screen, select or deselect the workloads that you want to install or uninstall.  
 
