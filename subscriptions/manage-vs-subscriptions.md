@@ -1,6 +1,6 @@
 ---
 title:  Manage Visual Studio Subscriptions
-asuthor: evanwindom
+author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 10/03/2017
