@@ -48,7 +48,7 @@ For more information:
 
 ## Rich editing, IntelliSense, and code comprehension
 
-Visual Studio provides a first-class Python editor, including syntax coloring, auto-complete across all your code and libraries, code formatting, signature help, refactoring, and linting (linting is shown below). Visual Studio also provides unique features like class view, Go to Definition, Find All References, and code snippets. Direct integration with the [Interactive Window](#interactive-window) helps you quickly develop Python code that's already saved in a file.
+Visual Studio provides a first-class Python editor, including syntax coloring, auto-complete across all your code and libraries, code formatting, signature help, refactoring, type hints, and linting (linting is shown below). Visual Studio also provides unique features like class view, Go to Definition, Find All References, and code snippets. Direct integration with the [Interactive Window](#interactive-window) helps you quickly develop Python code that's already saved in a file.
 
 ![Code completions for Python code in Visual Studio](media/code-editing-completions-simple.png)
 
@@ -71,12 +71,15 @@ For every Python environment known to Visual Studio, you can easily open the sam
 
 ![Python interactive window in Visual Studio](media/interactive-window.png)
 
-Visual Studio also provides tight integration between the Python code editor and the interactive window. The Ctrl+Enter keyboard shortcut conveniently sends the current line of code (or code block) in the editor to the interactive window, then moves to the next line (or block). This behavior lets you easily step through code without having to run the debugger. You can also send selected code to the interactive window, and easily paste code from the interactive window into the editor. Together, these capabilities allow you to work out details for a segment of code in the interactive window and easily save the results in a file in the editor.
+Visual Studio also provides tight integration between the Python code editor and the interactive window. The **Ctrl+Enter** keyboard shortcut conveniently sends the current line of code (or code block) in the editor to the interactive window, then moves to the next line (or block). **Ctrl+Enter** lets you easily step through code without having to run the debugger. You can also send selected code to the interactive window with the same keystroke, and easily paste code from the interactive window into the editor. Together, these capabilities allow you to work out details for a segment of code in the interactive window and easily save the results in a file in the editor.
+
+Visual Studio also supports IPython/Jupytr in the REPL, including inline plots, .NET, and Windows Presentation Foundation (WPF).
 
 For more information:
 
 - Video (2m 22s: [Python Interactive Window](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121?l=gJYKY5LWE_4605918567)
 - Docs: [Interactive Window](python-interactive-repl-in-visual-studio.md)
+- Docs: [IPython in Visual Studio](interactive-repl-ipython.md)
 
 ## Project system, and project and item templates
 
@@ -92,6 +95,7 @@ For more information:
 
 - Docs: [Managing Python projects](managing-python-projects-in-visual-studio.md)
 - Docs: [Python project templates](managing-python-projects-in-visual-studio.md#project-templates)
+- Docs: [Working with C++ and Python](working-with-c-cpp-python-in-visual-studio.md)
 - General Visual Studio feature docs: [Project and item templates](../ide/creating-project-and-item-templates.md#visual-studio-templates)
 - General Visual Studio feature docs: [Solutions and Projects in Visual Studio](../ide/solutions-and-projects-in-visual-studio.md)
 
@@ -134,13 +138,16 @@ For more information:
 - Docs: [Unit testing tools for Python](unit-testing-python-in-visual-studio.md)
 - General Visual Studio feature docs: [Unit test your code](../test/unit-test-your-code.md).
 
-## IPython support
+## Publishing to Azure and Azure SDK for Python
 
-[IPython in Visual Studio](interactive-repl-ipython.md) includes support for IPython/Jupyter in the REPL for inline plots, .NET, and Windows Presentation Foundation (WPF).
+Visual Studio provides integrated support for publishing web apps and cloud services to Azure. Visual Studio includes essential `web.config` item templates for both dynamic and static content. The Python workload also includes the Azure SDK for Python, which simplifies consuming Azure services from Windows, Mac OS X, and Linux apps.
 
-## Azure SDK for Python
+![Publish Python application to to Azure in Visual Studio](media/azure-publish-dialog.png)
 
-The Python workload includes the [Azure SDK for Python](azure-sdk-for-python.md), which simplifies consuming Azure services from Windows, Mac OS X, and Linux apps.
+For more information:
+
+- Docs: [Publishing to Azure](publishing-python-web-applications-to-azure-from-visual-studio.md)
+- Docs: [Azure SDK for Python](azure-sdk-for-python.md)
 
 ## Python training on Microsoft Virtual Academy
 
