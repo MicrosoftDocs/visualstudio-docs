@@ -45,7 +45,7 @@ Here's how.
 
      ![Launch or modify Visual Studio](media/modify-visual-studio.png "Modify Visual Studio 2017")
 
-     If you have an update pending, click **More**, and then choose **Modify**.   
+     If you have an update pending, then the Modify button is in a different place. Click **More**, and then choose **Modify**.   
 
      ![Update or modify Visual Studio](media/modify-or-update-visual-studio.png "Update or modify Visual Studio 2017")
 
@@ -62,12 +62,12 @@ Here's how.
 If you don't want to use the handy Workloads feature to customize your Visual Studio installation, choose the **Individual Components** option from the Visual Studio Installer, select what you want, and then follow the prompts.  
 
 ## Get support
-Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://www.visualstudio.com/vs/support/#talktous).
+Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page for help. You can also contact us for installation help by [live chat](https://www.visualstudio.com/vs/support/#talktous) (English only); for more information, see the [Visual Studio "Contact Us"  page](https://www.visualstudio.com/vs/support/#talktous).
 
 Here are a few more support options:
 * You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
 * You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
-* You can track product issues in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/), and ask questions and find answers.
+* You can track product issues and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/).
 * You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).  (This option requires a [GitHub](https://github.com/) account.)
 
 ## See also
