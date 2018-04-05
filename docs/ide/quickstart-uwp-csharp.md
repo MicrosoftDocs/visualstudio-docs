@@ -1,7 +1,7 @@
 ---
 title: "Quickstart: Create your first Universal Windows Platform application in Visual Studio with XAML and C# | Microsoft Docs"
 ms.custom: ""
-ms.date: "03/20/2018"
+ms.date: "04/04/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology:
@@ -11,7 +11,7 @@ ms.topic: "quickstart"
 ms.devlang: "CSharp"
 author: "TerryGLee"
 ms.author: "tglee"
-manager: ghogen
+manager: douge
 dev_langs:
   - CSharp
 ms.workload:
@@ -146,4 +146,4 @@ It's time to build, deploy, and launch the "Hello World" UWP app to see what it 
 Congratulations on completing this Quickstart! We hope you learned some basics about UWP and the Visual Studio IDE. To learn more, continue with the following tutorial:
 
 > [!div class="nextstepaction"]
-> [Plan and build a complex UWP app](/windows/uwp/get-started/plan-your-app)
+> [Create a user interface](/windows/uwp/design/basics/xaml-basics-ui)
