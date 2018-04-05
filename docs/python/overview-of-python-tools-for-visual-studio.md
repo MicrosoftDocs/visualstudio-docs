@@ -55,11 +55,10 @@ Visual Studio provides a first-class Python editor, including syntax coloring, a
 For more information:
 
 - Video (2m 30s): [Editing Python code](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121?l=r2iQH5LWE_4605918567)
-- Docs:
-  - [Editing Python code](editing-python-code-in-visual-studio.md)
-  - [Code formatting](formatting-python-code.md)
-  - [Refactoring](refactoring-python-code.md)
-  - [Linting](linting-python-code.md)
+- Docs: [Editing Python code](editing-python-code-in-visual-studio.md)
+- Docs: [Code formatting](formatting-python-code.md)
+- Docs: [Refactoring](refactoring-python-code.md)
+- Docs: [Linting](linting-python-code.md)
 - General Visual Studio feature docs: [Writing Code in the Code and Text Editor](../ide/writing-code-in-the-code-and-text-editor.md)
 
 ## Interactive Window
