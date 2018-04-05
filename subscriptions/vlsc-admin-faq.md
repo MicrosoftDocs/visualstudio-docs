@@ -18,6 +18,8 @@ Over the next few months, changes are coming to the management of Visual Studio 
 > [!Note] 
 > This migration will not impact MPSA customers. 
 
+## Frequently asked questions
+
 ### Why is it changing?
 The new portal will optimize the experience of Visual Studio subscriptions management and create a single experience managing Visual Studio subscriptions, regardless of how they were purchased. The new portal has a new platform that enables Azure AD and positions us for the future. Additionally, it will have an updated user interface that will be easier to navigate and use, increasing administrator efficiency.
 
