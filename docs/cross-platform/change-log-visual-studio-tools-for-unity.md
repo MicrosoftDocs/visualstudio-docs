@@ -14,7 +14,7 @@ manager: crdun
 ms.workload:
   - "unity"
 ---
-# Change Log (Visual Studio Tools for Unity)
+# Change Log (Visual Studio Tools for Unity, Windows)
 Visual Studio Tools for Unity change log.
 
 ## 3.6.0.5
