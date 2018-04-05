@@ -2225,6 +2225,32 @@
           "source_path": "subscriptions/vscloud-cancel.md",
           "redirect_url": "/visualstudio/subscriptions/vscloud-overview",
           "redirect_document_id": false
+        },
+        {
+            "source_path": "subscriptions/renew-msstore-subscriptions.md",
+            "redirect_url": "http://www.visualstudio.com/vs/pricing/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "subscriptions/find-subscription-id.md",
+            "redirect_url": "/visualstudio/subscriptions/find-pcn",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "subscriptions/multiple-pcns.md",
+            "redirect_url": "/visualstudio/subscriptions/find-pcn",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "subscriptions/managing-admins.md",
+            "redirect_url": "/visualstudio/subscriptions/subscription-management-info",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "subscriptions/access-admin-portal.md",
+            "redirect_url": "/visualstudio/subscriptions/subscription-management-info",
+            "redirect_document_id": false
         }
+        
     ]
 }
