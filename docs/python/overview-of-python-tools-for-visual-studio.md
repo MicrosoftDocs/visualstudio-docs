@@ -1,6 +1,6 @@
 ---
 title: Overview of Python support in Visual Studio on Windows | Microsoft Docs
-description: Summary of features available for Python in Visual Studio (also know as Python Tools for Visual Studio, PTVS), including questions and answers (FAQ) and feature support matrix across Visual Studio versions.
+description: Summary of features in Visual Studio, making it the best Python IDE on Windows (also know as Python Tools for Visual Studio, PTVS)
 ms.custom:
 ms.date: 04/05/2018
 ms.reviewer:
@@ -23,7 +23,9 @@ ms.workload:
 
 Python is a popular programming language that is reliable, flexible, easy to learn, free to use on all operating systems, and supported by both a strong developer community and many free libraries. Python supports all manners of development, including web applications, web services, desktop apps, scripting, and scientific computing, and is used by many universities, scientists, casual developers, and professional developers alike. You can learn more about the language on [python.org](https://www.python.org) and [Python for Beginners](https://www.python.org/about/gettingstarted/).
 
-Visual Studio on Windows is a powerful Python IDE. Visual Studio provides [open-source](https://github.com/Microsoft/ptvs) support for the Python language through the Python Development and Data Science workloads (Visual Studio 2017) and the free Python Tools for Visual Studio extension (Visual Studio 2015 and earlier). Python is not presently supported in Visual Studio for Mac, but is available on Mac and Linux through Visual Studio Code (see [questions and answers](#questions-and-answers)).
+Visual Studio is a powerful Python IDE on Windows. Visual Studio provides [open-source](https://github.com/Microsoft/ptvs) support for the Python language through the Python Development and Data Science workloads (Visual Studio 2017) and the free Python Tools for Visual Studio extension (Visual Studio 2015 and earlier).
+
+Python is not presently supported in Visual Studio for Mac, but is available on Mac and Linux through Visual Studio Code (see [questions and answers](#questions-and-answers)).
 
 To get started:
 
@@ -46,7 +48,7 @@ For more information:
 
 ## Rich editing, IntelliSense, and code comprehension
 
-Visual Studio provides a first-class editing environment for Python, including syntax coloring, auto-complete across all your code and libraries, code formatting, signature help, refactoring, and linting (linting is shown below). Visual Studio also provides unique features like class view, Go to Definition, Find All References, and code snippets. Direct integration with the [Interactive Window](#interactive-window) helps you quickly develop Python code that's already saved in a file.
+Visual Studio provides a first-class Python editor, including syntax coloring, auto-complete across all your code and libraries, code formatting, signature help, refactoring, and linting (linting is shown below). Visual Studio also provides unique features like class view, Go to Definition, Find All References, and code snippets. Direct integration with the [Interactive Window](#interactive-window) helps you quickly develop Python code that's already saved in a file.
 
 ![Code completions for Python code in Visual Studio](media/code-editing-completions-simple.png)
 
