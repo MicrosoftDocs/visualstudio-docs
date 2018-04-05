@@ -107,7 +107,7 @@ To learn more about connecting to databases from C++ apps, see [Visual Studio da
 
 ## Python
 
-Install [Python support in Visual Studio](../python/python-in-visual-studio.md) to create Python applications. The Azure documentation has several tutorials on connecting to data, including the following:
+Install [Python support in Visual Studio](../python/overview-of-python-tools-for-visual-studio.md) to create Python applications. The Azure documentation has several tutorials on connecting to data, including the following:
 
 - [Django and SQL Database on Azure](/azure/app-service/app-service-web-get-started-python)
 - [Django and MySQL on Azure](/azure/app-service-web/web-sites-python-ptvs-django-mysql)

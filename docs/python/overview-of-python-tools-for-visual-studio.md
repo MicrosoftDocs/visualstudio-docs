@@ -38,7 +38,7 @@ To get started:
 
 Visual Studio's **Python Environments** window (shown below in a wide, expanded view) gives you a single place to manage all of your global Python environments, conda environments, and virtual environments. Visual Studio automatically detects installations of Python in standard locations, and allows you to configure custom installations. With each environment, you can easily manage packages, open an interactive window for that environment, and access environment folders.
 
-![Expanded view of the Python Environments window](media/environments-expanded-view-blue.png)
+![Expanded view of the Python Environments window](media/environments-expanded-view.png)
 
 For more information:
 
@@ -69,7 +69,7 @@ For more information:
 
 For every Python environment known to Visual Studio, you can easily open the same interactive (REPL) environment for a Python interpreter directly within Visual Studio, rather than using a separate command prompt. You can easily switch between environments as well.
 
-![Python interactive window in Visual Studio](media/interactive-window-blue.png)
+![Python interactive window in Visual Studio](media/interactive-window.png)
 
 Visual Studio also provides tight integration between the Python code editor and the interactive window. The Ctrl+Enter keyboard shortcut conveniently sends the current line of code (or code block) in the editor to the interactive window, then moves to the next line (or block). This behavior lets you easily step through code without having to run the debugger. You can also send selected code to the interactive window, and easily paste code from the interactive window into the editor. Together, these capabilities allow you to work out details for a segment of code in the interactive window and easily save the results in a file in the editor.
 
@@ -82,11 +82,11 @@ For more information:
 
 Visual Studio helps you manage the complexity of a project as it grows over time. A project is much more than a folder structure: it includes an understanding of how different files are used and how they relate to each other. Visual Studio helps you distinguish app code, test code, web pages, JavaScript, build scripts, and so on, which then enable file-appropriate features. A Visual Studio solution, moreover, helps you manage multiple related projects, such as a Python project and a C++ extension project.
 
-![A Visual Studio solution containing both Python and C++ projects](media/projects-solution-explorer-blue.png)
+![A Visual Studio solution containing both Python and C++ projects](media/projects-solution-explorer-two-projects.png)
 
 Project and item templates automate the process of setting up different types of projects and files, saving you valuable time and relieving you from managing intricate and error-prone details. Visual Studio provides templates for web, Azure, data science, console, and other types of projects, along with templates for files like Python classes, unit tests, Azure web configuration, HTML, and even Django apps.
 
-![Python project and item templates in Visual Studio](media/project-and-item-templates.png)
+[![Python project and item templates in Visual Studio](media/project-and-item-templates.png)](media/project-and-item-templates.png)
 
 For more information:
 
@@ -99,7 +99,7 @@ For more information:
 
 One of Visual Studio's strengths is its powerful debugger. For Python in particular, Visual Studio includes Python/C++ mixed-mode debugging, remote debugging on Linux, remote debugging on Azure, debugging within the Interactive Window, and debugging Python unit tests.
 
-![Visual Studio debugger for Python showing an exception popup](media/debugging-exception-settings.png)
+![Visual Studio debugger for Python showing an exception popup](media/debugging-exception-popup.png)
 
 For more information:
 
@@ -114,7 +114,7 @@ For more information:
 
 Profiling explores how time is being spent within your application. Visual Studio supports profiling with CPython-based interpreters and includes the ability to compare performance between different profiling runs.
 
-![Visual Studio profiler results for a Python project](media/profiling-results.png)
+[![Visual Studio profiler results for a Python project](media/profiling-results.png)](media/profiling-results.png)
 
 For more information:
 
@@ -167,7 +167,7 @@ A. Python is generally an interpreted language, with which code is run on demand
 Python features can be installed in the following editions of Visual Studio as described in the [installation guide](installing-python-support-in-visual-studio.md):
 
 - [Visual Studio 2017 (all editions)](https://www.visualstudio.com/vs/)
-- [Visual Studio 2015 (all editions)] (https://www.visualstudio.com/en-us/downloads/visual-studio-2015-downloads-vs)
+- [Visual Studio 2015 (all editions)](https://www.visualstudio.com/downloads/visual-studio-2015-downloads-vs)
 - Visual Studio 2013 Community Edition
 - Visual Studio 2013 Express for Web, Update 2 or higher
 - Visual Studio 2013 Express for Desktop, Update 2 or higher
