@@ -11,7 +11,6 @@
             "redirect_document_id": false
         },
         {
-
             "source_path": "docs/extensibility/shell/walkthrough-creating-a-basic-isolated-shell-application.md",
             "redirect_url": "https://vspartner.com/pages/vsshells",
             "redirect_document_id": false
@@ -22,7 +21,6 @@
             "redirect_document_id": false
         },
         {
-
             "source_path": "docs/extensibility/shell/extending-the-isolated-shell.md",
             "redirect_url": "https://vspartner.com/pages/vsshells",
             "redirect_document_id": false
@@ -108,8 +106,18 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/code-quality/creating-custom-code-analysis-rule-sets.md",
+            "redirect_url": "/visualstudio/code-quality/how-to-create-a-custom-rule-set",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/code-quality/enhancing-code-quality-with-team-project-check-in-policies.md",
             "redirect_url": "/visualstudio/code-quality/how-to-create-or-update-standard-code-analysis-check-in-policies",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/code-quality/how-to-specify-managed-code-rule-sets-for-multiple-projects-in-a-solution.md",
+            "redirect_url": "/visualstudio/code-quality/how-to-configure-code-analysis-for-a-managed-code-project",
             "redirect_document_id": false
         },
         {
@@ -135,6 +143,11 @@
         {
             "source_path": "docs/code-quality/suppress-warnings-by-using-the-suppressmessage-attribute.md",
             "redirect_url": "/visualstudio/code-quality/in-source-suppression-overview",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/code-quality/walkthrough-configuring-and-using-a-custom-rule-set.md",
+            "redirect_url": "/visualstudio/code-quality/how-to-create-a-custom-rule-set",
             "redirect_document_id": false
         },
         {

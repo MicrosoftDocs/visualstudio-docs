@@ -28,11 +28,11 @@ You can run code analysis on your project manually or automatically.
 
 To run code analysis each time that you build a project, select **Enable Code Analysis on Build** on the project's Property Page. For more information, see [How to: Enable and Disable Automatic Code Analysis](../code-quality/how-to-enable-and-disable-automatic-code-analysis-for-managed-code.md).
 
-To run code analysis manually on a project, from the menu bar choose **Analyze** > **Run Code Analysis** > **Run Code Analysis on <project>**. For more information, see [How to: Enable and Disable Automatic Code Analysis](../code-quality/how-to-enable-and-disable-automatic-code-analysis-for-managed-code.md).
+To run code analysis manually on a project, from the menu bar choose **Analyze** > **Run Code Analysis** > **Run Code Analysis on \<project>**.
 
 ## Rule sets
 
-Code analysis rules for managed code are grouped into *rule sets*. You can use one of the Microsoft standard rule sets, or you can create a custom rule set to fulfill a specific need. For more information, see [Using Rule Sets to Group Code Analysis Rules](../code-quality/using-rule-sets-to-group-code-analysis-rules.md).
+Code analysis rules for managed code are grouped into [rule sets](../code-quality/using-rule-sets-to-group-code-analysis-rules.md). You can use one of the Microsoft standard rule sets, or you can [create a custom rule set](../code-quality/how-to-create-a-custom-rule-set.md) to fulfill a specific need.
 
 ## Suppress warnings
 
