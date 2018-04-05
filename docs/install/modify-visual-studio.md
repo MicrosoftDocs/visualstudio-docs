@@ -41,7 +41,7 @@ Here's how.
      >[!NOTE]
      On some computers, the Visual Studio Installer might be listed under the letter **"M"** as the **Microsoft Visual Studio Installer**.<br/><br/> Alternatively, you can find the Visual Studio Installer in the following location: `C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe`
 
-2.  Click or tap to start the installer, and then select **Modify**.  
+2.  Click or tap to start the installer, and then choose **Modify**.  
 
      ![Launch or modify Visual Studio](media/modify-visual-studio.png "Modify Visual Studio 2017")
 
@@ -53,13 +53,13 @@ Here's how.
 
     ![Visual Studio 2017 Setup Dialog](media/vs2017-modify-workloads.PNG "Choose a workload in Visual Studio 2017")
 
-4. Click or tap **Modify** again.  
+4. Choose **Modify** again.  
 
-5. After the new workloads and components are installed, click **Launch**.
+5. After the new workloads and components are installed, choose **Launch**.
 
 ## Modify individual components
 
-If you don't want to use the handy Workloads feature to customize your Visual Studio installation, choose the **Individual Components** option from the Visual Studio Installer, select what you want, and then follow the prompts.  
+If you don't want to use the handy Workloads feature to customize your Visual Studio installation, choose the **Individual Components** option from the Visual Studio Installer, select what you want and then follow the prompts.  
 
 ## Get support
 Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page for help. You can also contact us for installation help by [live chat](https://www.visualstudio.com/vs/support/#talktous) (English only); for more information, see the [Visual Studio "Contact Us"  page](https://www.visualstudio.com/vs/support/#talktous).
