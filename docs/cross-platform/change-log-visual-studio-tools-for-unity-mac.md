@@ -79,7 +79,7 @@ Visual Studio Tools for Unity change log.
 
 -   **Project Generation:**
 
-    -   Added support for .Net Standard.
+    -   Added support for .NET Standard.
 
 ### Bug fixes
 
