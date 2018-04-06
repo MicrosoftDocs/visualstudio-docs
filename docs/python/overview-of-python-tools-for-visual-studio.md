@@ -2,7 +2,7 @@
 title: Overview of Python support in Visual Studio on Windows | Microsoft Docs
 description: Summary of features in Visual Studio, making it the best Python IDE on Windows (also know as Python Tools for Visual Studio, PTVS)
 ms.custom:
-ms.date: 04/05/2018
+ms.date: 04/06/2018
 ms.reviewer:
 ms.suite:
 ms.technology: 
@@ -31,7 +31,7 @@ To get started:
 
 - Follow the [installation instructions](installing-python-support-in-visual-studio.md) to set up the Python workload.
 - Familiarize yourself with the Python capabilities of Visual Studio through the sections in this article. You can also [Watch a video series (Microsoft Virtual Academy)](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121) for an introduction to Python in Visual Studio (22 minutes total).
-- Go through one or more of the Quickstarts to create a project. If you're unsure, start with [Create a project from a template](quickstart-02-python-in-visual-studio-project-from-template.md).
+- Go through one or more of the Quickstarts to create a project. If you're unsure, start with [Create a web app with Flask](../ide/quickstart-python.md?context=visualstudio/python/default).
 - Follow the [Working with Python in Visual Studio](tutorial-working-with-python-in-visual-studio-step-01-create-project.md) tutorial for a full end-to-end experience.
 
 ## Support for multiple interpreters
