@@ -197,4 +197,4 @@ The Debug Interactive window has its own set of options, which you can access th
 
 ## See also
 
-For complete details on the Visual Studio debugger, see [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md).
+For complete details on the Visual Studio debugger, see [Debugging in Visual Studio](../debugger/debugger-feature-tour.md).

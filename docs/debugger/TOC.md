@@ -7,7 +7,7 @@
 ## [Debug an ASP.NET app](quickstart-debug-aspnet.md)
 # Tutorials
 ## [Learn to debug using Visual Studio](getting-started-with-the-debugger.md)
-## [Running Python code in the debugger...](../python/vs-tutorial-01-04.md)
+## [Running Python code in the debugger...](../python/tutorial-working-with-python-in-visual-studio-step-04-debugging.md)
 ## [Debug a live Azure app](debug-live-azure-applications.md)
 ## [View snapshots using IntelliTrace step-back](how-to-use-intellitrace-step-back.md)
 # How-to guides
