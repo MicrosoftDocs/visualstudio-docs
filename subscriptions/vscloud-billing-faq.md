@@ -1,19 +1,21 @@
 ---
 title: Billing FAQ for Visual Studio Enterprise and Visual Studio Professional cloud subscriptions
-Author: evanwindom
-Ms.author: jaunger
-Manager: evelynp
-Ms.date: 3/2/2018
-Ms.topic: Get-Started-Article
-Description:  Billing questions for cloud subscriptions.
-Ms.prod: vs-subscription
-Ms.technology: vs-subscriptions
-Searchscope: VS Subscription
+author: v-evwind
+ms.author: jaunger
+manager: evelynp
+ms.date: 03/02/2018
+ms.topic: Get-Started-Article
+description:  Billing questions for cloud subscriptions.
+ms.prod: vs-subscription
+ms.technology: vs-subscriptions
+searchscope: VS Subscription
 ---
 
 # Visual Studio cloud subscriptions billing FAQ
 Make sure to [compare cloud subscription benefits and pricing](https://www.visualstudio.com/vs/pricing/) to understand the benefits of each Visual Studio subscription, 
 with comparisons between cloud and standard Visual Studio subscriptions, details on subscriber benefits, and more.
+
+## General purchasing questions
 
 ### Q: Can I buy Visual Studio cloud subscriptions using a Purchase Order?
 A: No. All Visual Studio cloud subscriptions must be purchased using an Azure subscription. (Think of it as your Azure billing account.)
@@ -94,18 +96,15 @@ A:  You get a 5% discount on the 6th and all subsequent subscriptions *within ea
 * Visual Studio Enterprise monthly
 * Visual Studio Enterprise annual
 
-So for example, if you buy 6 Visual Studio Professional monthly subscriptions and 5 Visual Studio Enterprise monthly subscriptions, you'll pay the regular price on
-5 Professional, get a 5% discount on the 6th Professional, and pay regular price on all 5 Enterprise subscriptions.
+So for example, if you buy 6 Visual Studio Professional monthly subscriptions and 5 Visual Studio Enterprise monthly subscriptions, you'll pay the regular price on 5 Professional, get a 5% discount on the 6th Professional, and pay regular price on all 5 Enterprise subscriptions.
 
-Also, the discount only applies to charges in a given monthly billing period. So if you buy 5 Visual Studio Professional annual subscriptions in one month, 
-and then you buy 5 more the next month, you'll pay the regular price on all 10 subscriptions.
+Also, the discount only applies to charges in a given monthly billing period. So if you buy 5 Visual Studio Professional annual subscriptions in one month, and then you buy 5 more the next month, you'll pay the regular price on all 10 subscriptions.
 
 ## Other questions
 
 ### Q: Can I use the monthly Azure credits as a Visual Studio subscriber to buy more Visual Studio cloud subscriptions?
 
-A: No, you can't use your [monthly Azure credits as a Visual Studio subscriber](https://azure.microsoft.com/pricing/member-offers/credit-for-visual-studio-subscribers/)
-to pay for Visual Studio Marketplace purchases. Any Visual Studio cloud subscription purchases will be billed to your credit card.
+A: No, you can't use your [monthly Azure credits](https://azure.microsoft.com/pricing/member-offers/credit-for-visual-studio-subscribers/) as a Visual Studio subscriber to pay for Visual Studio Marketplace purchases. Any Visual Studio cloud subscription purchases will be billed to your credit card.
 Before you make purchases, you will need to [remove your spending limit](https://azure.microsoft.com/pricing/spending-limits/).
 
 ### Q: What's the difference between annual and monthly cloud subscriptions?

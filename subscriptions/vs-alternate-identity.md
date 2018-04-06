@@ -1,20 +1,20 @@
 ---
 title: Identities for Visual Studio subscribers
-Author: evanwindom
-Ms.author: jaunger
-Manager: evelynp
-Ms.date: 3/15/2018
-Ms.topic: Get-Started-Article
-Description:  How to add an alternate identity for your Visual Studio subscription, to use for VSTS and Azure. 
-Ms.prod: vs-subscription
-Ms.technology: vs-subscriptions
-Searchscope: VS Subscription
+author: v-evwind
+ms.author: jaunger
+manager: evelynp
+ms.date: 03/15/2018
+ms.topic: Get-Started-Article
+description:  How to add an alternate identity for your Visual Studio subscription, to use for VSTS and Azure 
+ms.prod: vs-subscription
+ms.technology: vs-subscriptions
+searchscope: VS Subscription
 ---
 
 # Identities for Visual Studio subscribers
 
 When you activate your Visual Studio subscription, we link the identity (or login) that you used during activation with the Visual Studio subscription. This way,
-we can recognize you on the [Visual Studio subscriber portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs), in VSTS, and in Azure.
+we can recognize you on the [Visual Studio subscriber portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs), in Visual Studio Team Services (VSTS), and in Azure.
 
 In VSTS, we check your Visual Studio subscription status each time you log in, and grant you features automatically within each account in which you are a member. 
 Because these features are included as a subscriber benefit, it's free to add you as a member in any VSTS account when using an identity that is linked to your Visual Studio subscription.
@@ -22,10 +22,7 @@ Because these features are included as a subscriber benefit, it's free to add yo
 In Azure, we check your Visual Studio subscription status when you activate your [monthly Azure credit](https://azure.microsoft.com/pricing/member-offers/credit-for-visual-studio-subscribers/) 
 that is a subscriber benefit.
 
-Within the [Visual Studio subscriber portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs), you may be able to add an **alternate identity**--in addition to the identity you used during
-activation. Today we allow you to add an alternate identity if you used a Microsoft account to activate your subscription. This way you can also add a
-work or school account (which you use when logging into Visual Studio, Office 365, or your corporate or school network), allowing you to access VSTS using both
-your personal account and your work or school account.
+Within the [Visual Studio subscriber portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs), you may be able to add an **alternate identity** -- in addition to the identity you used during activation. Today, we allow you to add an alternate identity if you used a Microsoft account to activate your subscription. This way you can also add a work or school account (which you use when logging into Visual Studio, Office 365, or your corporate or school network), allowing you to access VSTS using both your personal account and your work or school account.
 
 ## How to add an alternate identity to your Visual Studio subscription
 
