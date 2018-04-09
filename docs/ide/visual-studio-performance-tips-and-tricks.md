@@ -1,20 +1,13 @@
 ---
 title: "Visual Studio Performance Tips and Tricks | Microsoft Docs"
 ms.date: "08/31/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "debugger"
+ms.technology: vs-ide-general
+ms.topic: conceptual
 ms.assetid: 2fbcb59e-e981-4b40-8b7a-c1140d31ec4b
-caps.latest.revision: 1
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Visual Studio Performance Tips and Tricks
@@ -123,8 +116,9 @@ To force a garbage collection, use the hotkey: **Ctrl+Alt+Shift+F12**, **Ctrl+Al
 
 If forcing garbage collection reliably makes your scenario work, file a report through the Visual Studio feedback tool as this behavior is likely to be a bug.
 
-For a detailed description of the CLR garbage collector, see [Fundamental of Garbage Collection](/dotnet/standard/garbage-collection/fundamentals).
+For a detailed description of the CLR garbage collector, see [Fundamentals of garbage collection](/dotnet/standard/garbage-collection/fundamentals).
 
 ## See also
 
-[Visual Studio IDE](../ide/visual-studio-ide.md)
+- [Visual Studio IDE](../ide/visual-studio-ide.md)
+- [Visual Studio blog - Load solutions faster with Visual Studio 2017 version 15.6](https://blogs.msdn.microsoft.com/visualstudio/2018/04/04/load-solutions-faster-with-visual-studio-2017-version-15-6/)
