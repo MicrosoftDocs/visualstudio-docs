@@ -59,9 +59,6 @@ Availability of the Azure Community benefit depends on your subscription level a
 
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions. 
 
-## FAQ
-*Check here for updates*
-
 ## Support Resources
 -  For other Azure Community resources, please visit the Azure Community [Support page](https://azure.microsoft.com/support/forums/).
 -  [Azure documentation](/azure/).
