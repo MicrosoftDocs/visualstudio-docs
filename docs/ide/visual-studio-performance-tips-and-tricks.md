@@ -10,7 +10,7 @@ manager: ghogen
 ms.workload:
   - "multiple"
 ---
-# Visual Studio Performance Tips and Tricks
+# Visual Studio performance tips and tricks
 
 Visual Studio performance recommendations are intended for low memory situations, which may occur in rare cases. In these situations, you can optimize certain Visual Studio features that you may not be using. The following tips are not intended as general recommendations.
 
@@ -120,5 +120,5 @@ For a detailed description of the CLR garbage collector, see [Fundamentals of ga
 
 ## See also
 
-- [Visual Studio IDE](../ide/visual-studio-ide.md)
+- [Optimize Visual Studio performance](../ide/optimize-visual-studio-performance.md)
 - [Visual Studio blog - Load solutions faster with Visual Studio 2017 version 15.6](https://blogs.msdn.microsoft.com/visualstudio/2018/04/04/load-solutions-faster-with-visual-studio-2017-version-15-6/)

@@ -21,7 +21,7 @@ If you find that Visual Studio 2017 is slow, try one or more of the following su
 
 - If you upgrade your hardware, choose a solid state drive (SSD) over RAM and CPU.
 
-- Use the **Report a Problem** feature to “record” a trace and send to us. We respond to all submissions! Select the feedback icon next to **QuickLaunch**, or select **Help** > **Send Feedback** > **Report a Problem** from the menu bar. For more information, see [How to report a problem with Visual Studio 2017](how-to-report-a-problem-with-visual-studio-2017.md).
+- Use the **Report a Problem** feature to “record” a trace and send to us. We respond to all submissions! Select the feedback icon next to **QuickLaunch**, or select **Help** > **Send Feedback** > **Report a Problem** from the menu bar. For more information, see [How to report a problem with Visual Studio 2017](../ide/how-to-report-a-problem-with-visual-studio-2017.md).
 
 - Read [Visual Studio performance tips and tricks](../ide/visual-studio-performance-tips-and-tricks.md) for more ideas.
 
