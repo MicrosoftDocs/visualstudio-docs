@@ -1,6 +1,6 @@
 ---
 title: VSTS benefits for Visual Studio subscribers | Microsoft Docs
-author: v-evwind
+author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 03/15/2018
