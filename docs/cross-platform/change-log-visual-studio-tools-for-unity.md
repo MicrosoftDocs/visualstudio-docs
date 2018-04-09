@@ -1,5 +1,5 @@
 ---
-title: "Change Log (Visual Studio Tools for Unity) | Microsoft Docs"
+title: "Change Log (Visual Studio Tools for Unity, Windows) | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/23/2018"
 ms.reviewer: ""
@@ -14,7 +14,7 @@ manager: crdun
 ms.workload:
   - "unity"
 ---
-# Change Log (Visual Studio Tools for Unity)
+# Change Log (Visual Studio Tools for Unity, Windows)
 Visual Studio Tools for Unity change log.
 
 ## 3.6.0.5
@@ -56,7 +56,7 @@ Visual Studio Tools for Unity change log.
 
 -   **Project Generation:**
 
-    -   Added support for .Net Standard.
+    -   Added support for .NET Standard.
 
 ### Bug fixes
 
