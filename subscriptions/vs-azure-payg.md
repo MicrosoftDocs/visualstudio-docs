@@ -1,6 +1,6 @@
 ---
 title: Azure PAYG Benefit 
-author: v-evwind
+author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 10/03/2017

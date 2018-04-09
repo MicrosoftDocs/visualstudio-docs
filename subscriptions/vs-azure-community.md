@@ -1,6 +1,6 @@
 ---
 title: Azure Community Benefit in Visual Studio Subscription | Microsoft Docs 
-author: v-evwind
+author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 01/08/2018

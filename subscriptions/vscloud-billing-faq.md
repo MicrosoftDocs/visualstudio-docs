@@ -1,6 +1,6 @@
 ---
 title: Billing FAQ for Visual Studio Enterprise and Visual Studio Professional cloud subscriptions
-author: v-evwind
+author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 03/02/2018

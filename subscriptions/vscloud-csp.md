@@ -1,6 +1,6 @@
 ---
 title: Visual Studio cloud subscription purchasing for CSPs
-author: v-evwind
+author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 03/15/2018

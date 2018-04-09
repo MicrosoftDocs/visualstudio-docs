@@ -1,6 +1,6 @@
 ---
 title: Identities for Visual Studio subscribers
-author: v-evwind
+author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 03/15/2018

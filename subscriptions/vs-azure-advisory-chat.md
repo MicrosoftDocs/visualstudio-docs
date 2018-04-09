@@ -1,6 +1,6 @@
 ---
 title: Azure Advisory Chat Benefit in Visual Studio Subscriptions | Microsoft Docs 
-author: v-evwind
+author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 01/02/2018
