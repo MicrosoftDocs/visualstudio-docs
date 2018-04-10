@@ -88,7 +88,7 @@ subscription option. One row shows a "Minimum Value" of 0, which you should inte
 so this is the 5% discount price that applies to units 6 and above.
 
 
-## FAQ
+## Frequently asked questions
 ### Q: How are **monthly** cloud subscription charges processed?
 A: At the first purchase, we bill a prorated quantity to cover the remaining days in the current month. For instance, if a purchase of 10 Visual Studio Professional monthly 
 cloud subscriptions was made on April 15, then we would charge 5 units because there are 15 days left in the 30-day month, or 50% and we prorate the units charged by 50%. 
