@@ -93,15 +93,15 @@ You can expand or collapse the **Result options** section. The following options
 
 When selected, the results of the current search will replace the content of the **Find Results 1** window. This window opens automatically to display your search results. To open this window manually, select **Other Windows** from the **View** menu and choose **Find Results 1**.
 
-**Find results 2 window  **
+**Find results 2 window**
 
 When selected, the results of the current search will replace the content of the **Find Results 2** window. This window opens automatically to display your search results. To open this window manually, select **Other Windows** from the **View** menu and choose **Find Results 2**.
 
-**Display file names only  **
+**Display file names only**
 
 Displays a list of files containing search matches rather than displaying the search matches themselves.
 
-**Append results  **
+**Append results**
 
 Appends the results from the search to the previous search results.
 

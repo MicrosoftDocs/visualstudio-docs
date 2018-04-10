@@ -38,7 +38,7 @@ You can access frequently used commands in Visual Studio by choosing these defau
 |Debug.BreakAll|**Ctrl+Alt+Break** [Global]|  
 |Debug.DeleteAllBreakpoints|**Ctrl+Shift+F9** [Global]|  
 |Debug.Exceptions|**Ctrl+Alt+E** [Global]|  
-|Debug.QuickWatch|**Ctrl+Alt+Q** [Global]<br /><br /> or Shift+F9** [Global]|  
+|Debug.QuickWatch|**Ctrl+Alt+Q** [Global]<br /><br /> or **Shift+F9** [Global]|  
 |Debug.Restart|**Ctrl+Shift+F5** [Global]|  
 |Debug.RunToCursor|**Ctrl+F10** [Global]|  
 |Debug.SetNextStatement|**Ctrl+Shift+F10** [Global]|  
@@ -59,15 +59,15 @@ You can access frequently used commands in Visual Studio by choosing these defau
 |Edit.CommentSelection|**Ctrl+K**, **Ctrl+C** [Text Editor]|  
 |Edit.CompleteWord|**Alt+Right Arrow** [Text Editor, Workflow Designer]<br /><br /> or **Ctrl+Spacebar** [Text Editor, Workflow Designer]<br /><br /> or **Ctrl+K**, **W** [Workflow Designer]<br /><br /> or **Ctrl+K, Ctrl+W** [Workflow Designer]|  
 |Edit.Copy|**Ctrl+C** [Global]<br /><br /> or **Ctrl+Insert** [Global]|  
-|Edit.Cut|**Ctrl+X** [Global]<br /><br /> or Shift+Delete** [Global]|  
+|Edit.Cut|**Ctrl+X** [Global]<br /><br /> or **Shift+Delete** [Global]|  
 |Edit.Delete|**Delete** [Global, Team Explorer]<br /><br /> or **Shift+Delete** [Sequence Diagram, UML Activity Diagram, Layer Diagram]<br /><br /> or **Ctrl+Delete** [Class Diagram]|  
 |Edit.Find|**Ctrl+F** [Global]|  
-|Edit.FindAllReferences|Shift+F12** [Global]|  
+|Edit.FindAllReferences|**Shift+F12** [Global]|  
 |Edit.FindinFiles|**Ctrl+Shift+F** [Global]|  
 |Edit.FindNext|**F3** [Global]|  
 |Edit.FindNextSelected|**Ctrl+F3** [Global]|  
-|Edit.FormatDocument|**Ctrl+K, **Ctrl+D** [Text Editor]|  
-|Edit.FormatSelection|**Ctrl+K, **Ctrl+F** [Text Editor]|  
+|Edit.FormatDocument|**Ctrl+K, Ctrl+D** [Text Editor]|  
+|Edit.FormatSelection|**Ctrl+K, Ctrl+F** [Text Editor]|  
 |Edit.GoTo|**Ctrl+G** [Global]|  
 |Edit.GoToDeclaration|**Ctrl+F12** [Global]|  
 |Edit.GoToDefinition|**F12**|  

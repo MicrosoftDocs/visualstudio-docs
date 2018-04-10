@@ -72,7 +72,7 @@ In Visual Studio you can customize the position, size and behavior of windows to
 
 -   Reset window placement to the default layout or to a saved custom layout.  
 
- Tool and document windows can be arranged by dragging, by using commands on the **Window** menu, and by right-clicking the title bar of the window to be arranged.  
+Tool and document windows can be arranged by dragging, by using commands on the **Window** menu, and by right-clicking the title bar of the window to be arranged.  
 
 > [!NOTE]
 >  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).  
@@ -153,26 +153,26 @@ In Visual Studio you can customize the position, size and behavior of windows to
 
 ##### Switch between the layouts  
 
-1.  To switch between layouts, use the keyboard shortcuts, or from the main menu choose **Window > Apply Window Layout**.  
+To switch between layouts, use the keyboard shortcuts, or from the main menu choose **Window > Apply Window Layout**.  
 
-     ![Apply window layout menu](../ide/media/vs2015_applywindowlayout.png "VS2017_ApplyWindowLayout")  
+![Apply window layout menu](../ide/media/vs2015_applywindowlayout.png "VS2017_ApplyWindowLayout")  
 
-     After applying the UI layout, note how the layout is preserved both in editing mode and in debug mode.  
+After applying the UI layout, note how the layout is preserved both in editing mode and in debug mode.  
 
-     If you have a multi monitor setup at work and a single monitor laptop at home, you can create layouts that are optimized for each machine.  
+If you have a multi monitor setup at work and a single monitor laptop at home, you can create layouts that are optimized for each machine.  
 
-     >[!NOTE]
-     >If you apply a multi-monitor layout on a single-monitor system, the floating windows that you placed on the second monitor will now be hidden behind the Visual Studio window. You can bring these windows to the front by pressing Alt + Tab. If you later open Visual Studio with multiple monitors, you can restore the windows to their specified positions by re-applying the layout.  
+>[!NOTE]
+>If you apply a multi-monitor layout on a single-monitor system, the floating windows that you placed on the second monitor will now be hidden behind the Visual Studio window. You can bring these windows to the front by pressing Alt + Tab. If you later open Visual Studio with multiple monitors, you can restore the windows to their specified positions by re-applying the layout.  
 
 ##### Manage and roam your layouts  
 
-1.  You can remove, rename or reorder your custom layout by choosing **Window > Manage Window Layouts**. If you move a layout, the key binding is automatically adjusted to reflect the new position in the list. The bindings cannot be otherwise modified, and so you can store a maximum of 10 layouts at a time.  
+You can remove, rename or reorder your custom layout by choosing **Window > Manage Window Layouts**. If you move a layout, the key binding is automatically adjusted to reflect the new position in the list. The bindings cannot be otherwise modified, and so you can store a maximum of 10 layouts at a time.  
 
-     ![Manage window layouts](../ide/media/managewindowlayouts.png "ManageWindowLayouts")  
+![Manage window layouts](../ide/media/managewindowlayouts.png "ManageWindowLayouts")  
 
-     To remind yourself which keyboard shortcut is assigned to which layout, choose **Window > Apply Window Layout**.  
+To remind yourself which keyboard shortcut is assigned to which layout, choose **Window > Apply Window Layout**.  
 
-     These layouts automatically roam between Visual Studio editions, and also between Blend instances on separate machines, and from any Express edition to any other Express organization. However, layouts do not roam across Visual Studio, Blend and Express.  
+These layouts automatically roam between Visual Studio editions, and also between Blend instances on separate machines, and from any Express edition to any other Express organization. However, layouts do not roam across Visual Studio, Blend and Express.  
 
 ## See also  
 

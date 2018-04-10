@@ -108,14 +108,14 @@ The sections in the following table include commands that are global in that you
 |Debug.ParallelWatch3|**Ctrl+Shift+D, 3**|  
 |Debug.ParallelWatch4|**Ctrl+Shift+D, 4**|  
 |Debug.Processes|**Ctrl+Alt+Z**|  
-|Debug.QuickWatch|**Shift+F9**<br /><br /> or<br /><br /> Ctrl+Alt+Q**|  
+|Debug.QuickWatch|**Shift+F9**<br /><br /> or<br /><br /> **Ctrl+Alt+Q**|  
 |Debug.RefreshWindowsapp|**Ctrl+Shift+R**|  
 |Debug.Registers|**Ctrl+Alt+G**|  
 |Debug.Restart|**Ctrl+Shift+F5**|  
 |Debug.RunToCursor|**Ctrl+F10**|  
 |Debug.SetNextStatement|**Ctrl+Shift+F10**|  
 |Debug.ShowCallStackonCodeMap|**Ctrl+Shift+`**|  
-|Debug.ShowNextStatement|**Alt+Num \***|  
+|Debug.ShowNextStatement|**Alt+Num ***|  
 |Debug.Start|**F5**|  
 |Debug.StartWindowsPhoneApplicationAnalysis|**Alt+F1**|  
 |Debug.StartWithoutDebugging|**Ctrl+F5**|  
@@ -175,18 +175,18 @@ The sections in the following table include commands that are global in that you
 |Edit.GoToPrevLocation|**Shift+F8**|  
 |Edit.InsertSnippet|**Ctrl+K, Ctrl+X**|  
 |Edit.MoveControlDown|**Ctrl+Down Arrow**|  
-|Edit.MoveControlDownGrid|Down Arrow**|  
+|Edit.MoveControlDownGrid|**Down Arrow**|  
 |Edit.MoveControlLeft|**Ctrl+Left Arrow**|  
-|Edit.MoveControlLeftGrid|Left Arrow**|  
+|Edit.MoveControlLeftGrid|**Left Arrow**|  
 |Edit.MoveControlRight|**Ctrl+Right Arrow**|  
-|Edit.MoveControlRightGrid|Right Arrow**|  
+|Edit.MoveControlRightGrid|**Right Arrow**|  
 |Edit.MoveControlUp|**Ctrl+Up Arrow**|  
-|Edit.MoveControlUpGrid|Up Arrow**|  
+|Edit.MoveControlUpGrid|**Up Arrow**|  
 |Edit.NavigateTo|**Ctrl+,**|  
 |Edit.NextBookmark|**Ctrl+K, Ctrl+N**|  
 |Edit.NextBookmarkInFolder|**Ctrl+Shift+K, Ctrl+Shift+N**|  
 |Edit.OpenFile|**Ctrl+Shift+G**|  
-|Edit.Paste|**Ctrl+V**<br /><br /> or<br /><br /> Shift+Ins**|  
+|Edit.Paste|**Ctrl+V**<br /><br /> or<br /><br /> **Shift+Ins**|  
 |Edit.PreviousBookmark|**Ctrl+K, Ctrl+P**|  
 |Edit.PreviousBookmarkInFolder|**Ctrl+Shift+K, Ctrl+Shift+P**|  
 |Edit.QuickFindSymbol|**Shift+Alt+F12**|  
@@ -248,13 +248,13 @@ The sections in the following table include commands that are global in that you
 
 ###  <a name="bkmk_loadtest"></a> Load test
 
-|Command|Keyboard Shortcut|  
+|Command|Keyboard shortcut|  
 |-------------|-----------------------|  
 |LoadTest.JumpToCounterPane|**Ctrl+R, Q**|  
 
 ###  <a name="bkmk_otherContext"></a> Other context menus
 
-|Command|Keyboard Shortcut|  
+|Command|Keyboard shortcut|  
 |-------------|-----------------------|  
 |OtherContextMenus.MicrosoftDataEntityDesignContext.AddNewDiagram|**Insert**|  
 
@@ -537,7 +537,7 @@ The sections in the following table include commands that are global in that you
 
 ##  HTML Editor  
 
-|Command|Keyboard Shortcut|  
+|Command|Keyboard shortcut|  
 |-------------|-----------------------|  
 |OtherContextMenus.HTMLContext.GoToController|**Ctrl+M, Ctrl+G**|  
 
@@ -547,11 +547,11 @@ The sections in the following table include commands that are global in that you
 |--------------|------------------------|  
 |Edit.MoveControlDown|**Ctrl+Down Arrow**|  
 |Edit.MoveControlUp|**Ctrl+Up Arrow**|  
-|**Format.Bold|**Ctrl+B**|  
-|**Format.ConverttoHyperlink|**Ctrl+L**|  
-|**Format.InsertBookmark|**Ctrl+Shift+L**|  
-|**Format.Italic|**Ctrl+I**|  
-|**Format.Underline|**Ctrl+U**|  
+|Format.Bold|**Ctrl+B**|  
+|Format.ConverttoHyperlink|**Ctrl+L**|  
+|Format.InsertBookmark|**Ctrl+Shift+L**|  
+|Format.Italic|**Ctrl+I**|  
+|Format.Underline|**Ctrl+U**|  
 |Project.AddContentPage|**Ctrl+M, Ctrl+C**|  
 |Table.ColumntotheLeft|**Ctrl+Alt+Left Arrow**|  
 |Table.ColumntotheRight|**Ctrl+Alt+Right Arrow**|  
@@ -769,7 +769,7 @@ The sections in the following table include commands that are global in that you
 
 ##  Test Explorer  
 
-|Command|Keyboard Shortcut|  
+|Command|Keyboard shortcut|  
 |-------------|-----------------------|  
 |TestExplorer.OpenTest|**F12**|  
 
@@ -930,23 +930,23 @@ The sections in the following table include commands that are global in that you
 |Edit.SizeControlLeft|**Shift+Left Arrow**|  
 |Edit.SizeControlRight|**Shift+Right Arrow**|  
 |Edit.SizeControlUp|**Shift+Up Arrow**|  
-|**Format.AlignBottoms|**Ctrl+Shift+Down Arrow**|  
-|**Format.AlignCenters|**Shift+F9**|  
-|**Format.AlignLefts|**Ctrl+Shift+Left Arrow**|  
-|**Format.AlignMiddles|**F9**|  
-|**Format.AlignRights|**Ctrl+Shift+Right Arrow**|  
-|**Format.AlignTops|**Ctrl+Shift+Up Arrow**|  
-|**Format.ButtonBottom|**Ctrl+B**|  
-|**Format.ButtonRight|**Ctrl+R**|  
-|**Format.CenterHorizontal|**Ctrl+Shift+F9**|  
-|**Format.CenterVertical|**Ctrl+F9**|  
-|**Format.CheckMnemonics|**Ctrl+M**|  
-|**Format.SizetoContent|**Shift+F7**|  
-|**Format.SpaceAcross|**Alt+Right Arrow**<br /><br /> or<br /><br /> **Alt+Left Arrow**|  
-|**Format.SpaceDown|**Alt+Up Arrow**<br /><br /> or<br /><br /> **Alt+Down Arrow**|  
-|**Format.TabOrder|**Ctrl+D**|  
-|**Format.TestDialog|**Ctrl+T**|  
-|**Format.ToggleGuides|**Ctrl+G**|  
+|Format.AlignBottoms|**Ctrl+Shift+Down Arrow**|  
+|Format.AlignCenters|**Shift+F9**|  
+|Format.AlignLefts|**Ctrl+Shift+Left Arrow**|  
+|Format.AlignMiddles|**F9**|  
+|Format.AlignRights|**Ctrl+Shift+Right Arrow**|  
+|Format.AlignTops|**Ctrl+Shift+Up Arrow**|  
+|Format.ButtonBottom|**Ctrl+B**|  
+|Format.ButtonRight|**Ctrl+R**|  
+|Format.CenterHorizontal|**Ctrl+Shift+F9**|  
+|Format.CenterVertical|**Ctrl+F9**|  
+|Format.CheckMnemonics|**Ctrl+M**|  
+|Format.SizetoContent|**Shift+F7**|  
+|Format.SpaceAcross|**Alt+Right Arrow**<br /><br /> or<br /><br /> **Alt+Left Arrow**|  
+|Format.SpaceDown|**Alt+Up Arrow**<br /><br /> or<br /><br /> **Alt+Down Arrow**|  
+|Format.TabOrder|**Ctrl+D**|  
+|Format.TestDialog|**Ctrl+T**|  
+|Format.ToggleGuides|**Ctrl+G**|  
 
 ##  VC Image Editor  
 
@@ -1084,7 +1084,7 @@ The sections in the following table include commands that are global in that you
 |Edit.DecreaseFilterLevel|**Alt+,**|  
 |Edit.IncreaseFilterLevel|**Alt+.**|  
 |Edit.ListMembers|**Ctrl+K, L**<br /><br /> or<br /><br /> **Ctrl+K, Ctrl+L**<br /><br /> or<br /><br /> **Ctrl+J**|  
-|Edit.ParameterInfo|**Ctrl+K, P**<br /><br /> or<br /><br /> **Ctrl+K, Ctrl+P<br /><br /> or<br /><br /> **Ctrl+Shift+Spacebar**|  
+|Edit.ParameterInfo|**Ctrl+K, P**<br /><br /> or<br /><br /> **Ctrl+K, Ctrl+P**<br /><br /> or<br /><br /> **Ctrl+Shift+Spacebar**|  
 |Edit.QuickInfo|**Ctrl+K, I**<br /><br /> or<br /><br /> **Ctrl+K, Ctrl+I**|  
 |WorkflowDesigner.Collapse|**Ctrl+E, Ctrl+C**<br /><br /> or<br /><br /> **Ctrl+E, C**|  
 |WorkflowDesigner.CollapseAll|or|  
