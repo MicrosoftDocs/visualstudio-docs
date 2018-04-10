@@ -1,5 +1,5 @@
 ---
-title: "Code Snippets | Microsoft Docs"
+title: "Code snippets | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -94,7 +94,7 @@ If you change `newPropertyValue` to `m_property`, then every instance of `newPro
 
 [Walkthrough: Creating a code snippet](../ide/walkthrough-creating-a-code-snippet.md)  
 [How to: Distribute code snippets](../ide/how-to-distribute-code-snippets.md)  
-[Best practices for Using code snippets](../ide/best-practices-for-using-code-snippets.md)  
+[Best practices for using code snippets](../ide/best-practices-for-using-code-snippets.md)  
 [Troubleshooting snippets](../ide/troubleshooting-snippets.md)  
 [C# code snippets](../ide/visual-csharp-code-snippets.md)  
 [Visual C++ code snippets](../ide/visual-cpp-code-snippets.md)  

@@ -34,9 +34,9 @@ All project and item templates, whether installed with Visual Studio or created 
 
 - The files to be created when the template is used. This includes source code files, embedded resources, project files, and so on.
 
-- One .vstemplate file. This file contains metadata that provides the information needed to display the template in the **New Project** and **Add New Item** dialog boxes, and to create a project or item from the template. For more information about .vstemplate files, see [Template parameters](../ide/template-parameters.md).
+- One *.vstemplate* file. This file contains metadata that provides the information needed to display the template in the **New Project** and **Add New Item** dialog boxes, and to create a project or item from the template. For more information about *.vstemplate* files, see [Template parameters](../ide/template-parameters.md).
 
-When these files are compressed into a .zip file and put in the correct folder, Visual Studio automatically displays them in the following places:
+When these files are compressed into a *.zip* file and put in the correct folder, Visual Studio automatically displays them in the following places:
 
 - Project templates appear in the **New Project** dialog box.
 
@@ -54,4 +54,4 @@ Starter Kits are enhanced templates that can be shared with other members of the
 [How to: Create item templates](../ide/how-to-create-item-templates.md)  
 [Template parameters](../ide/template-parameters.md)  
 [Customizing templates](../ide/customizing-project-and-item-templates.md)  
-[NuGet Packages in Visual Studio templates](/nuget/visual-studio-extensibility/visual-studio-templates)
+[NuGet packages in Visual Studio templates](/nuget/visual-studio-extensibility/visual-studio-templates)

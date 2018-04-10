@@ -1,5 +1,5 @@
 ---
-title: "Hierarchical Organization of Resources for Localization | Microsoft Docs"
+title: "Hierarchical organization of resources for localization | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -26,10 +26,10 @@ manager: ghogen
 ms.workload: 
   - "multiple"
 ---
-# Hierarchical Organization of Resources for Localization
+# Hierarchical organization of resources for localization
 In Visual Studio, localized resources (data such as strings and images appropriate to each culture) are stored in separate files and loaded according to the UI culture setting. To understand how localized resources are loaded, it is useful to think of them as organized in a hierarchical manner.  
   
-## Kinds of Resources in the Hierarchy  
+## Kinds of resources in the hierarchy  
   
 -   At the top of the hierarchy sit the fallback resources for your default culture, for example English ("en"). These are the only resources that do not have their own file; they are stored in the main assembly.  
   
@@ -49,7 +49,7 @@ In Visual Studio, localized resources (data such as strings and images appropria
   
 ## See also
 
-[Neutral Resources Languages for Localization](../ide/neutral-resources-languages-for-localization.md)  
-[Security and Localized Satellite Assemblies](../ide/security-and-localized-satellite-assemblies.md)  
-[Localizing Applications](../ide/localizing-applications.md)  
-[Globalizing and Localizing Applications](../ide/globalizing-and-localizing-applications.md)
+[Neutral resources languages for localization](../ide/neutral-resources-languages-for-localization.md)  
+[Security and localized satellite assemblies](../ide/security-and-localized-satellite-assemblies.md)  
+[Localizing applications](../ide/localizing-applications.md)  
+[Globalizing and localizing applications](../ide/globalizing-and-localizing-applications.md)
