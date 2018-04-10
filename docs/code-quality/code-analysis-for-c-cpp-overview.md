@@ -1,7 +1,7 @@
 ---
 title: "Code Analysis for C/C++ Overview | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "04/20/2018"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -31,29 +31,47 @@ ms.workload:
 ---
 # Code analysis for C/C++ overview
 
-The C/C++ Code Analysis tool provides information to developers about possible defects in their C/C++ source code. Common coding errors reported by the tool include buffer overruns, un-initialized memory, null pointer dereferences, and memory and resource leaks.  
-  
-## IDE (integrated development environment) Integration  
- To make it natural for developers to use the analysis tool, it is fully integrated within the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE. During the build process, any warnings generated for the source code appear in the Error List. You can navigate to source code that caused the warning, and you can view additional information about the cause and possible solutions of the issue.  
-  
-## #pragma Support  
- Developers can use the `#pragma` directive to treat warnings as errors; enable or disable warnings, and suppress warnings for individual lines of code. For more information, see [How to: Set Code Analysis Properties for C/C++ Projects    ](how-to-set-code-analysis-properties-for-c-cpp-projects.md).  
-  
-## Annotation Support  
- Annotations improve the accuracy of the code analysis. Annotations provide additional information about pre- and post- conditions on function parameters and return types. For more information, see [How to: Specify Additional Code Information by Using __analysis_assume](../code-quality/how-to-specify-additional-code-information-by-using-analysis-assume.md)  
-  
-## Run analysis tool as part of check-in policy  
- You might want to require that all source code check-ins satisfy certain policies. In particular, you want to make sure that analysis was run as a step of the most recent local build. For more information about enabling a code analysis check-in policy, see [Creating and Using Code Analysis Check-In Policies](../code-quality/creating-and-using-code-analysis-check-in-policies.md)  
-  
-## Team Build Integration  
- You can use the integrated features of the build system to run code analysis tool as a step of the [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] build process. For more information, see [Build and release](/vsts/build-release/index).  
-  
-## Command-line support  
- In addition to the full integration within the development environment, developers can also use the analysis tool from the command line, as shown in the following example:  
-  
- `C:\>cl /analyze Sample.cpp`
+The C/C++ Code Analysis tool provides information about possible defects in your C/C++ source code. Common coding errors reported by the tool include buffer overruns, un-initialized memory, null pointer dereferences, and memory and resource leaks. The tool can also run checks against the [C++ Core Guidelines](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md).
+
+## IDE (integrated development environment) Integration
+
+The code analysis tool is fully integrated within the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE. 
+
+During the build process, any warnings generated for the source code appear in the Error List. You can navigate to source code that caused the warning, and you can view additional information about the cause and possible solutions of the issue.
+
+## Command line support
+
+You can also use the analysis tool from the command line, as shown in the following example:
+
+```cmd
+C:\>cl /analyze Sample.cpp
+```
+
+**Visual Studio 2017 version 15.7 and later** You can run the tool from the command line with any build system including CMake by using the [/analyze:ruleset](/cpp/build/reference/analyze-code-analysis) compiler option and a .ruleset file.
+
+## #pragma Support
+
+You can use the `#pragma` directive to treat warnings as errors; enable or disable warnings, and suppress warnings for individual lines of code. For more information, see [How to: Set Code Analysis Properties for C/C++ Projects](how-to-set-code-analysis-properties-for-c-cpp-projects.md).
+
+## Annotation Support
+
+Annotations improve the accuracy of the code analysis. Annotations provide additional information about pre- and post- conditions on function parameters and return types. For more information, see [How to: Specify Additional Code Information by Using __analysis_assume](../code-quality/how-to-specify-additional-code-information-by-using-analysis-assume.md)
+
+## Run analysis tool as part of check-in policy
+
+You might want to require that all source code check-ins satisfy certain policies. In particular, you want to make sure that analysis was run as a step of the most recent local build. For more information about enabling a code analysis check-in policy, see [Creating and Using Code Analysis Check-In Policies](../code-quality/creating-and-using-code-analysis-check-in-policies.md)
+
+## Team Build Integration
+
+You can use the integrated features of the build system to run code analysis tool as a step of the [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] build process. For more information, see [Build and release](/vsts/build-release/index).
 
 ## See also
 
-[Analyzing Driver Quality by Using Code Analysis Tools](/windows-hardware/drivers/develop/analyzing-driver-quality-by-using-code-analysis-tools)  
-[Code Analysis for Drivers Warnings](/windows-hardware/drivers/devtest/prefast-for-drivers-warnings)
+- [Quickstart: Code analysis for C/C++](quick-start-code-analysis-for-c-cpp.md)
+- [Walkthrough: Analyzing C/C++ Code for Defects](walkthrough-analyzing-c-cpp-code-for-defects.md)
+- [Code Analysis for C/C++ Warnings](code-analysis-for-c-cpp-warnings.md)
+- [Using the C++ Core Guidelines checkers](using-the-cpp-core-guidelines-checkers.md)
+- [C++ Core Guidelines Checker Reference](code-analysis-for-cpp-corecheck.md)
+- [Use Rule Sets to Specify the C++ Rules to Run](using-rule-sets-to-specify-the-cpp-rules-to-run.md)
+- [Analyzing Driver Quality by Using Code Analysis Tools](/windows-hardware/drivers/develop/analyzing-driver-quality-by-using-code-analysis-tools)
+- [Code Analysis for Drivers Warnings](/windows-hardware/drivers/devtest/prefast-for-drivers-warnings)
