@@ -142,7 +142,7 @@ TEST_CLASS_INITIALIZE(methodName)
 }
 ```
 
- Defines *methodName* as a method that runs after each test class is created. `TEST_CLASS_INITIALIZE` can only be defined once in a test class and must be defined in the scope of the test class.
+ Defines *methodName* as a method that runs before each test class is created. `TEST_CLASS_INITIALIZE` can only be defined once in a test class and must be defined in the scope of the test class.
 
 ```cpp
 TEST_CLASS_CLEANUP(methodName)
