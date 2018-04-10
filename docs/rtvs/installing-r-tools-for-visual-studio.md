@@ -10,10 +10,10 @@ ms.technology:
 ms.tgt_pltfrm:
 dev_langs:
   - "R"
-ms.topic: "article"
+ms.topic: "conceptual"
 author: "kraigb"
 ms.author: "kraigb"
-manager: ghogen
+manager: douge
 ms.workload:
   - "data-science"
 ---
