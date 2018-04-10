@@ -115,7 +115,7 @@ The sections in the following table include commands that are global in that you
 |Debug.RunToCursor|**Ctrl+F10**|  
 |Debug.SetNextStatement|**Ctrl+Shift+F10**|  
 |Debug.ShowCallStackonCodeMap|**Ctrl+Shift+`**|  
-|Debug.ShowNextStatement|**Alt+Num ***|  
+|Debug.ShowNextStatement|**Alt+Num \* **|  
 |Debug.Start|**F5**|  
 |Debug.StartWindowsPhoneApplicationAnalysis|**Alt+F1**|  
 |Debug.StartWithoutDebugging|**Ctrl+F5**|  
@@ -147,13 +147,13 @@ The sections in the following table include commands that are global in that you
 
 ###  <a name="bkmk_diagnostics"></a> Diagnostics Hub
 
-|Command|Keyboard Shortcut|  
+|Command|Keyboard shortcut|  
 |-------------|-----------------------|  
 |DiagnosticsHub.StopCollection|**Ctrl+Alt+F2**|  
 
 ###  <a name="bkmk_edit"></a> Edit
 
-|Commands||  
+|Commands|Keyboard shortcuts|  
 |--------------|-|  
 |Edit.Copy|**Ctrl+C**<br /><br /> or<br /><br /> **Ctrl+Ins**|  
 |Edit.Cut|**Ctrl+X**<br /><br /> or<br /><br /> **Shift+Delete**|  
@@ -480,9 +480,8 @@ The sections in the following table include commands that are global in that you
 
 ##  Difference Viewer  
 
-|||  
-|-|-|  
 |Commands|Keyboard shortcuts|  
+|--------------|------------------------|  
 |Diff.IgnoreTrimWhitespace|**Ctrl+\\, Ctrl+Spacebar**|  
 |Diff.InlineView|**Ctrl+\\, Ctrl+1**|  
 |Diff.LeftOnlyView|**Ctrl+\\, Ctrl+3**|  

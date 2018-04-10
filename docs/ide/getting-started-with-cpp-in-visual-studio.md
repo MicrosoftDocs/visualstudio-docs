@@ -100,11 +100,11 @@ You can debug HelloApp to see whether the word "Hello" appears in the console wi
 
 ### To debug the app
 
-1. To start the debugger, choose **Debug > Start Debugging** on the menu bar.
+To start the debugger, choose **Debug > Start Debugging** on the menu bar.
 
-   ![Start Debugging command on the Debug menu](../ide/media/get-started-cpp-start-debugging-menu.png "Start Debugging command on the Debug menu")
+![Start Debugging command on the Debug menu](../ide/media/get-started-cpp-start-debugging-menu.png "Start Debugging command on the Debug menu")
 
-   The debugger starts and runs the code. The console window (a separate window that looks like a command prompt) appears for a few seconds but closes quickly when the debugger stops running. To see the text, you need to set a breakpoint to stop program execution.
+The debugger starts and runs the code. The console window (a separate window that looks like a command prompt) appears for a few seconds but closes quickly when the debugger stops running. To see the text, you need to set a breakpoint to stop program execution.
 
 ### To add a breakpoint
 

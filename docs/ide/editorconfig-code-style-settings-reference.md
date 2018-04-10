@@ -230,7 +230,7 @@ This style rule can be applied to local variables, method parameters, and class 
 
 The following table shows the rule names, rules IDs, applicable programming languages, and default values:
 
-| Rule Name | Rule ID | Applicable Languages | Visual Studio Default |
+| Rule name | Rule ID | Applicable languages | Visual Studio default |
 | --------- | ------- | -------------------- | ----------------------|
 | dotnet_style_predefined_type_for_locals_parameters_members | IDE0012 and IDE0014 | C# and Visual Basic | true:none |
 | dotnet_style_predefined_type_for_member_access | IDE0013 and IDE0015 | C# and Visual Basic | true:none |
@@ -296,7 +296,7 @@ The style rules in this section concern modifier preferences, including requirin
 
 The following table shows the rule names, rule IDs, applicable programming languages, default values, and first supported version of Visual Studio:
 
-| Rule Name | Rule ID | Applicable languages | Visual Studio default | Visual Studio 2017 version |
+| Rule name | Rule ID | Applicable languages | Visual Studio default | Visual Studio 2017 version |
 | --------- | ------- | -------------------- | ----------------------| ----------------  |
 | dotnet_style_require_accessibility_modifiers | IDE0040 | C# and Visual Basic | for_non_interface_members:none | 15.5 |
 | csharp_preferred_modifier_order | IDE0036 | C# | public, private, protected, internal, static, extern, new, virtual, abstract, sealed, override, readonly, unsafe, volatile, async:none | 15.5 |
@@ -380,7 +380,7 @@ The style rules in this section concern expression-level preferences, including 
 
 The following table shows the rule names, rule IDs, applicable programming languages, default values, and first supported version of Visual Studio:
 
-| Rule Name | Rule ID | Applicable Languages | Visual Studio Default | Visual Studio 2017 Version |
+| Rule name | Rule ID | Applicable languages | Visual Studio default | Visual Studio 2017 version |
 | --------- | ------- | -------------------- | ----------------------| ---- |
 | dotnet_style_object_initializer | IDE0017 | C# and Visual Basic | true:suggestion | First release |
 | dotnet_style_collection_initializer | IDE0028 | C# and Visual Basic | true:suggestion | First release |
@@ -518,7 +518,7 @@ The style rules in this section concern null-checking preferences.
 
 The following table shows the rule names, rule IDs, applicable programming languages, default values, and first supported version of Visual Studio:
 
-| Rule Name | Rule ID | Applicable Languages | Visual Studio Default | Visual Studio 2017 Version |
+| Rule name | Rule ID | Applicable languages | Visual Studio default | Visual Studio 2017 version |
 | --------- | ------- | -------------------- | ----------------------| ---- |
 | dotnet_style_coalesce_expression | IDE0029 | C# and Visual Basic | true:suggestion | First release |
 | dotnet_style_null_propagation | IDE0031 | C# 6.0+ and Visual Basic 14+ | true:suggestion | First release |
@@ -592,7 +592,7 @@ The style rules in this section (rule IDs IDE0007 and IDE0008) concern the use o
 
 The following table shows the rule names, applicable programming languages, and default values:
 
-| Rule Name | Applicable Languages | Visual Studio Default |
+| Rule name | Applicable languages | Visual Studio default |
 | ----------- | -------------------- | ----------------------|
 | csharp_style_var_for_built_in_types | C# | true:none |
 | csharp_style_var_when_type_is_apparent | C# | true:none |
@@ -1342,7 +1342,7 @@ These formatting rules concern the use of indentation to format code.
 
 The following table shows the rule names, applicable languages, default values, and first supported version of Visual Studio:
 
-| Rule Name | Applicable languages | Visual Studio default | Visual Studio 2017 version |
+| Rule name | Applicable languages | Visual Studio default | Visual Studio 2017 version |
 | ----------- | -------------------- | ----------------------| ----------------  |
 | csharp_indent_case_contents |  C# | true | 15.3  |
 | csharp_indent_switch_labels |  C# | true | 15.3  |
@@ -1598,7 +1598,7 @@ These formatting rules concern the use of single lines versus separate lines for
 
 The following table shows the rule names, applicable languages, default values, and first supported version of Visual Studio:
 
-| Rule Name | Applicable languages | Visual Studio default | Visual Studio 2017 version |
+| Rule name | Applicable languages | Visual Studio default | Visual Studio 2017 version |
 | ----------- | -------------------- | ----------------------| ----------------  |
 | csharp_preserve_single_line_statements |  C# | true | 15.3  |
 | csharp_preserve_single_line_blocks |  C# | true | 15.3  |
