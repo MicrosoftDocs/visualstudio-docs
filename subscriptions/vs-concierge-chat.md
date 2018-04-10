@@ -8,7 +8,8 @@ ms.topic: Get-Started-Article
 description:  Learn about the Concierge Chat benefit included in Visual Studio subscriptions.
 ms.prod: vs-subscription
 ms.technology: vs-subscriptions
-dearchscope: VS Subscription
+searchscope: VS Subscription
+
 ---
 
 # Concierge Chat
