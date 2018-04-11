@@ -1,14 +1,14 @@
 ---
 title: Microsoft Azure Benefit | Microsoft Docs
-Author: evanwindom
-Ms.author: jaunger
-Manager: evelynp
-Ms.date: 10/3/2017
-Ms.topic: Get-Started-Article
-Description:  Learn how to activate the Azure benefit included in your Visual Studio subscription.
-Ms.prod: vs-subscription
-Ms.technology: vs-subscriptions
-Searchscope: VS Subscription
+author: evanwindom
+ms.author: jaunger
+manager: evelynp
+ms.date: 10/3/2017
+ms.topic: Get-Started-Article
+description:  Learn how to activate the Azure benefit included in your Visual Studio subscription.
+ms.prod: vs-subscription
+ms.technology: vs-subscriptions
+searchscope: VS Subscription
 ---
 
 # Using Microsoft Azure in Visual Studio subscriptions
@@ -48,15 +48,15 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 
 2.  Locate the Azure tile in the Tools section on the Benefits page and click **Activate** link at the bottom of the benefit tile.   
 
-![Azure Tile](_img\vs-azure\vs-azure-tile.png)
+    ![Azure Tile](_img\vs-azure\vs-azure-tile.png)
 
 3.	Fill in the required information to create your Azure subscription, click the checkbox to accept the terms & conditions, and click **Sign up**: 
 
-![Azure Sign-up](_img\vs-azure\vs-azure-sign-up-cropped.png)
+    ![Azure Sign-up](_img\vs-azure\vs-azure-sign-up-cropped.png)
 
 4.	When your account is ready, you’ll have the option to choose an Azure support plan (sold separately), or get started with your Azure subscription.  
 
-![Azure Getting Ready](_img\vs-azure\vs-azure-getting-ready-cropped.png)
+    ![Azure Getting Ready](_img\vs-azure\vs-azure-getting-ready-cropped.png)
     
 5.	The Azure Dashboard will load, and on your first use, you’ll have the option to take a tour.  The tour consists of a series of screen tips that will point out how you can accomplish a variety of tasks and find relevant information.  Completing or closing the tour will display the Azure Dashboard. 
 
@@ -71,9 +71,36 @@ A:  Submitting a support incident from the Azure portal is a three-step process.
 3. Submit a support incident.
 Please visit the [Technical Support](/visualstudio/subscriptions/vs-tech-support) documentation for complete details. 
 
+### Q: I’ve received a message stating that my access to Azure will end soon.  What can I do to continue using Azure?
+
+A:  You’re receiving this email because you use the Azure benefit associated with your Visual Studio subscription, and that subscription has expired or been removed.  To continue to use Azure, you have several options:
+
+**Recommended action:**
+
+To continue using your Visual Studio Azure credit and discounts, take one of the following steps: 
+
+If someone in your team or organization purchases subscriptions on your behalf, contact your organization’s Visual Studio administrator and request a Visual Studio subscription that entitles you to the Azure monthly credit amount you need.   Please request the administrator to assign the new subscription to the same user ID that your previous subscription was assigned to, so that you don’t have to worry about transferring your Azure subscription.
+
+
+If you can purchase a subscription directly, please do one of the following: 
+1.	Purchase an annual Visual Studio [Enterprise](https://marketplace.visualstudio.com/items?itemName=ms.vs-enterprise-annual) or [Professional](https://marketplace.visualstudio.com/items?itemName=ms.vs-professional-annual) cloud subscription through the Visual Studio Marketplace. 
+2.	Take advantage of a 50% or higher discount by renewing your current subscription through the [Microsoft Store](https://www.microsoft.com/en-us/search/result.aspx?q=visual+studio+subscription).
+
+Compare all the [subscriptions and their benefits](https://www.visualstudio.com/vs/pricing/).
+
+If you have another active Visual Studio subscription at the **same** subscription level under a Microsoft account, you can link it to this Azure benefit by adding an [alternate account](/manage-vs-subscriptions#linking-my-subscription-to-existing-vsts-or-azure-subscriptions/) in the Visual Studio subscription portal. If this doesn’t work, you can also try [transferring your Azure benefit](/azure/billing/billing-subscription-transfer/) to the active Visual Studio subscription.
+
+If you have another active Visual Studio subscription at a **different** subscription level and under a Microsoft account, contact [Azure support](https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade) for assistance.
+
+If your subscription has a spending limit and you take no action before it expires, the Azure subscription(s) your Azure subscription will be disabled. To convert it to a pay-as-you-go offer and continue to use it, add a payment instrument and [remove your spending limit](/azure/billing/billing-spending-limit/).
+
+If you prefer not to continue this Visual Studio Azure subscription, you may transfer your resources such as virtual machines and databases to another Azure subscription and [cancel](http://azure.microsoft.com/support/cancel-account/) this subscription any time. 
+
+If you believe you’ve received this email in error, please contact [Azure customer support](https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade). 
+
 ## Support Resources
 -  Need help with Azure?  Check out these resources:
     - Technical Support: [https://azure.microsoft.com/support/options/](https://azure.microsoft.com/support/options/)
-    - [Azure documentation](/visualstudio/azure/)
+    - [Azure documentation](/azure/)
 -  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://www.visualstudio.com/subscriptions/support/).
 -  Have a question about Visual Studio IDE, Visual Studio Team Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://www.visualstudio.com/support/). 

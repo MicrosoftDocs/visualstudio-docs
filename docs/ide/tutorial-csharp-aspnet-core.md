@@ -11,7 +11,7 @@ ms.topic: "tutorial"
 ms.devlang: "CSharp"
 author: "TerryGLee"
 ms.author: "tglee"
-manager: ghogen
+manager: douge
 dev_langs:
   - CSharp
 ms.workload:

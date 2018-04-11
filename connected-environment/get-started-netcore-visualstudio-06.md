@@ -2,7 +2,7 @@
 title: "Create a .NET Core development environment with containers using Kubernetes in the cloud with Visual Studio - Step 6 - Learn about team development | Microsoft Docs"
 author: "johnsta"
 ms.author: "johnsta"
-ms.date: "02/20/2018"
+ms.date: "04/05/2018"
 ms.topic: "get-started-article"
 ms.technology: "vsce-kubernetes"
 description: "Rapid Kubernetes development with containers and microservices on Azure"

@@ -1,51 +1,24 @@
 ---
 title: LinkedIn Learning Benefit in Visual Studio Subscriptions | Microsoft Docs
-Author: evanwindom
-Ms.author: jaunger
-Manager: evelynp
-Ms.date: 1/12/2018
-Ms.topic: Get-Started-Article
-Description:  Learn about the LinkedIn Learning benefit included as part of a LinkedIn Premium subscription included in selected Visual Studio subscriptions. 
-Ms.prod: vs-subscription
-Ms.technology: vs-subscriptions
-Searchscope: VS Subscription
+author: evanwindom
+ms.author: jaunger
+manager: evelynp
+ms.date: 01/12/2018
+ms.topic: Get-Started-Article
+description:  Learn about the LinkedIn Learning benefit included as part of a LinkedIn Premium subscription included in selected Visual Studio subscriptions. 
+ms.prod: vs-subscription
+ms.technology: vs-subscriptions
+searchscope: VS Subscription
 ---
 
-# The LinkedIn Learning Benefit in Visual Studio Subscriptions
+# The LinkedIn Learning benefit in Visual Studio subscriptions
 
-## Overview
 Unlock the power of LinkedIn with access to the people, insights, and skills you need to advance your career.  Learn the most in-demand business, tech and creative skills from industry experts.
 
 Selected Visual Studio subscriptions include a subscription to LinkedIn Premium, which includes LinkedIn Learning.  The length of your Premium subscription depends on the type of Visual Studio subscription you have.
 You will need to have a LinkedIn account to take advantage of your LinkedIn Learning benefit.  If you don't have one already, you'll have a chance to create one before you activate your Premium subscription.  
 
-## Eligibility
-| Subscription Level / Program                                                  | Benefit               | Renewable?                                                         |
-|-------------------------------------------------------------------------------|-----------------------|--------------------------------------------------------------------|
-| Visual Studio Enterprise Standard                                             | 6 months              |  No                                                                |
-| Visual Studio Enterprise annual                                               | 6 months              |  No                                                                |
-| Visual Studio Enterprise monthly                                              | Not available         |                                                                    |
-| Visual Studio Professional Standard                                           | 3 months              |  No                                                                |
-| Visual Studio Professional annual                                             | 3 months              |  No                                                                | 
-| Visual Studio Professional monthly                                            | Not available         |                                                                    |
-| Visual Studio Test Pro                                                        | 3 months              |  No                                                                |
-| MSDN Platforms                                                                | 3 months              |  No                                                                |
-| Visual Studio Dev Essentials                                                  | 3 months              |  No                                                                |
-| Visual Studio Enterprise - NFR<sup>1</sup>                                               | 6 months              |  No                                                                |
-| Visual Studio Enterprise - FTE                                                | Not available         |                                                                    |
-| Visual Studio Enterprise - Microsoft Partner Network                          | Not available         |                                                                    |
-| Visual Studio Professional - Microsoft Partner Network                        | Not available         |                                                                    |
-| Visual Studio Enterprise – Imagine (Standard)                                 | Not available         |                                                                    |
-| Visual Studio Enterprise – Imagine (Premium)                                  | Not available         |                                                                    |
-| Visual Studio Enterprise – BizSpark                                           | Not available         |                                                                    |
-| Microsoft Certified Trainer - Software & Services                             | Not available         |                                                                    |
-| Microsoft Certified Trainer - Software & Services Developer                   | Not available         |                                                                    |
-
-<sup>1</sup>  *Includes Not for Resale (NFR), Microsoft Valued Partner (MVP), Region Director (RD), Visual Studio Industry Partner (VSIP)*  
-
-Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions. 
-
-## Activation Steps
+## Activation steps
 To activate your LinkedIn Premium subscription and LinkedIn Learning benefit:
 1. Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
 
@@ -113,10 +86,27 @@ To activate your LinkedIn Premium subscription and LinkedIn Learning benefit:
 
     ![LinkedIn Learning Learning Home](_img\vs-linkedin\vs-linkedin-learning-home.png)
 
-## FAQ
-*Check here for updates*
+## Eligibility
+| Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
+|--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
+| Visual Studio Enterprise (Standard, annual cloud)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | 6 months       |  No.  Available to new subscribers only          |
+| Visual Studio Professional (Standard, annual cloud) | VL, Azure, Retail                                       | 3 months                                                            |No.  Available to new subscribers only         |
+| Visual Studio Test Professional (Standard)                         | VL, Retail                                              | 3 months                                             |  No.  Available to new subscribers only         |
+| MSDN Platforms (Standard)                                          | VL, Retail                                              | 3 months                                              | No.  Available to new subscribers only         |
+| Visual Studio Dev Essentials | NA  | 3 months |No.  Available to new subscribers only |
+| Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure                                       | Not available                                                           |NA|
 
-## Support Resources
+<sup>1</sup>  *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP).  Excludes:  Microsoft Partner Network (MPN), FTE, MCT Software & Services Developer, BizSpark, Imagine, Microsoft Valued Partner (MVP), Region Director (RD).  MCT Software & Services.*
+
+
+
+Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions. 
+
+## Frequently asked questions
+### Q: If I renew my subscription, does my LinkedIn Learning benefit also renew?
+A:  No, the LinkedIn Learning offer is available to new subscribers only. 
+
+## Support resources
 -  Need help with LinkedIn Learning?  Check out these resources:
     - Help with [using LinkedIn Learning](https://www.linkedin.com/help/learning).
     - Help with general questions about [LinkedIn](https://www.linkedin.com/help/linkedin) such as creating accounts and profiles, and maintaining your network.

@@ -10,14 +10,11 @@ ms.technology:
 dev_langs:
   - "R"
 ms.tgt_pltfrm:
-ms.topic: "article"
-author: 
-  - "kraigb"
-  - "karthiknadig"
-ms.author: 
-  - "kraigb"
-  - "karthiknadig"
-manager: ghogen
+ms.topic: "conceptual"
+author: "kraigb"  
+ms.author: "kraigb"
+ms.reviewer: "karthiknadig"
+manager: douge
 ms.workload: 
   - "data-science"
 ---
