@@ -12,10 +12,10 @@ dev_langs:
 ms.tgt_pltfrm:
 f1_keywords: 
   - "vs.toolsoptionspages.text_editor.r.lint"
-ms.topic: "article"
+ms.topic: "conceptual"
 author: "kraigb"
 ms.author: "kraigb"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "data-science"
 ---

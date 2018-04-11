@@ -13,7 +13,7 @@ ms.tgt_pltfrm:
 ms.topic: "tutorial"
 author: "kraigb"
 ms.author: "kraigb"
-manager: ghogen
+manager: douge
 ms.workload:
   - "python"
   - "data-science"

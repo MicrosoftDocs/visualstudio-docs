@@ -12,7 +12,7 @@ dev_langs:
 ms.tgt_pltfrm:
 ms.topic: "conceptual"
 ms.author: "kraigb"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "python"
   - "data-science"

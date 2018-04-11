@@ -15,10 +15,10 @@ f1_keywords:
   - "vs.toolsoptionspages.r_tools"
   - "vs.toolsoptionspages.r_tools.advanced"
   - "vs.toolsoptionspages.r_tools.#150"
-ms.topic: "article"
+ms.topic: "reference"
 author: "kraigb"
 ms.author: "kraigb"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "data-science"
 ---
