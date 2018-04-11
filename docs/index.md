@@ -278,7 +278,7 @@ ms.topic: hub-page
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Collaborate</h3>
-                                                    <p>Collaboratively share, edit, and debug code in real-time. </p>
+                                                    <p>Share, edit, and debug code in a collaborative, real-time environment. </p>
                                                 </div>
                                             </div>
                                         </div>
