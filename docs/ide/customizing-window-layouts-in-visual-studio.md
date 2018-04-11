@@ -32,7 +32,7 @@ ms.workload:
   - "multiple"
 ---
 # Customize window layouts in Visual Studio
-In Visual Studio you can customize the position, size and behavior of windows to create window layouts that work best for various development workflows. When you customize the layout, the IDE remembers it. For example, if you change the docking location of **Solution Explorer** and then close Visual Studio, the next time that you start, even if you are working on another computer, **Solution Explorer** will be docked in that same location. You can also give a custom layout a name and save it, and then switch between layouts with a single command. For example you could create a layout for editing, and another for debugging, and switch between them by using the **Window > Apply Window Layout** menu command.  
+In Visual Studio you can customize the position, size and behavior of windows to create window layouts that work best for various development workflows. When you customize the layout, the IDE remembers it. For example, if you change the docking location of **Solution Explorer** and then close Visual Studio, the next time that you start, even if you are working on another computer, **Solution Explorer** will be docked in that same location. You can also give a custom layout a name and save it, and then switch between layouts with a single command. For example you could create a layout for editing, and another for debugging, and switch between them by using the **Window** > **Apply Window Layout** menu command.  
 
 ## Kinds of windows  
 
@@ -104,7 +104,7 @@ Tool and document windows can be arranged by dragging, by using commands on the 
  ![Auto hide](../ide/media/vs2015_auto_hide.png "vs2017_auto_hide")  
 
 > [!NOTE]
->  To set whether auto hide operates on tool windows individually or as docked groups, select or clear **Auto Hide button affects active tool windows only** in the **Options** dialog box. For more information, see [General > Environment> Options dialog box](../ide/reference/general-environment-options-dialog-box.md).  
+>  To set whether auto hide operates on tool windows individually or as docked groups, select or clear **Auto Hide button affects active tool windows only** in the **Options** dialog box. For more information, see [General, Environment, Options dialog box](../ide/reference/general-environment-options-dialog-box.md).  
 
 > [!NOTE]
 >  Tool windows that have auto hide enabled may temporarily slide into view when the window has focus. To hide the window again, select an item outside of the current window. When the window loses focus, it slides back out of view.  
@@ -139,9 +139,9 @@ Tool and document windows can be arranged by dragging, by using commands on the 
 
 4.  Press **F5** to put Visual Studio into debugging mode. Adjust the position of the **Autos**, **Call Stack** and **Output** debugging windows the way you want them. The layout you are about to create will apply to both editing mode and debugging mode.  
 
-5.  When your layouts in both debugging mode and editing mode are how you want them, from the main menu choose **Window > Save Window Layout**. Call this layout "Designer."  
+5.  When your layouts in both debugging mode and editing mode are how you want them, from the main menu choose **Window** > **Save Window Layout**. Call this layout "Designer."  
 
-     Note that your new layout is assigned the next keyboard shortcut from the reserved list of **Ctrl + Alt + 1...0**.  
+     Note that your new layout is assigned the next keyboard shortcut from the reserved list of **Ctrl** + **Alt** + **1...0**.  
 
 ##### Create a database project and layout  
 
@@ -149,11 +149,11 @@ Tool and document windows can be arranged by dragging, by using commands on the 
 
 2.  Right-click on the new project in **Solution Explorer** and choose **View in Object Explorer**. This displays the **SQL Server Object Explorer** window, which enables you to access tables, views and other objects in your database. You can either float this window or leave it docked. Adjust the other tool windows the way you want them. For added realism, you can add an actual database, but it's not necessary for this walkthrough.  
 
-3.  When your layout is how you want it, from the main menu choose **Window > Save Window Layout**. Call this layout "DB Project." (We won't bother with a debug mode layout for this project.)  
+3.  When your layout is how you want it, from the main menu choose **Window** > **Save Window Layout**. Call this layout "DB Project." (We won't bother with a debug mode layout for this project.)  
 
 ##### Switch between the layouts  
 
-To switch between layouts, use the keyboard shortcuts, or from the main menu choose **Window > Apply Window Layout**.  
+To switch between layouts, use the keyboard shortcuts, or from the main menu choose **Window** > **Apply Window Layout**.  
 
 ![Apply window layout menu](../ide/media/vs2015_applywindowlayout.png "VS2017_ApplyWindowLayout")  
 
@@ -162,15 +162,15 @@ After applying the UI layout, note how the layout is preserved both in editing m
 If you have a multi monitor setup at work and a single monitor laptop at home, you can create layouts that are optimized for each machine.  
 
 >[!NOTE]
->If you apply a multi-monitor layout on a single-monitor system, the floating windows that you placed on the second monitor will now be hidden behind the Visual Studio window. You can bring these windows to the front by pressing Alt + Tab. If you later open Visual Studio with multiple monitors, you can restore the windows to their specified positions by re-applying the layout.  
+>If you apply a multi-monitor layout on a single-monitor system, the floating windows that you placed on the second monitor will now be hidden behind the Visual Studio window. You can bring these windows to the front by pressing **Alt + Tab**. If you later open Visual Studio with multiple monitors, you can restore the windows to their specified positions by re-applying the layout.  
 
 ##### Manage and roam your layouts  
 
-You can remove, rename or reorder your custom layout by choosing **Window > Manage Window Layouts**. If you move a layout, the key binding is automatically adjusted to reflect the new position in the list. The bindings cannot be otherwise modified, and so you can store a maximum of 10 layouts at a time.  
+You can remove, rename or reorder your custom layout by choosing **Window** > **Manage Window Layouts**. If you move a layout, the key binding is automatically adjusted to reflect the new position in the list. The bindings cannot be otherwise modified, and so you can store a maximum of 10 layouts at a time.  
 
 ![Manage window layouts](../ide/media/managewindowlayouts.png "ManageWindowLayouts")  
 
-To remind yourself which keyboard shortcut is assigned to which layout, choose **Window > Apply Window Layout**.  
+To remind yourself which keyboard shortcut is assigned to which layout, choose **Window** > **Apply Window Layout**.  
 
 These layouts automatically roam between Visual Studio editions, and also between Blend instances on separate machines, and from any Express edition to any other Express organization. However, layouts do not roam across Visual Studio, Blend and Express.  
 

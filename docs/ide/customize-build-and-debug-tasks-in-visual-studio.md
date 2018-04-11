@@ -112,12 +112,12 @@ For such a *makefile* that contains build, clean, and rebuild targets, you can d
 }
 ```
 
-After you define build tasks in *tasks.vs.json*, additional context menu items are added to the corresponding files in **Solution Explorer**. For this example, **Build**, **Rebuild**, and **Clean** options are added to the context menu of any *makefile* files.
+After you define build tasks in *tasks.vs.json*, additional context menu items are added to the corresponding files in **Solution Explorer**. For this example, "build", "rebuild", and "clean" options are added to the context menu of any *makefile* files.
 
 ![makefile context menu with build, rebuild, and clean](media/customize-build-rebuild-clean.png)
 
 > [!NOTE]
-> The commands appear in the context menu under the **Configure Tasks** command due to their `contextType` settings. **Build**, **Rebuild**, and **Clean** are build commands, so they appear in the build section in the middle of the context menu.
+> The commands appear in the context menu under the **Configure Tasks** command due to their `contextType` settings. "build", "rebuild", and "clean" are build commands, so they appear in the build section in the middle of the context menu.
 
 When you select one of these options, the task executes. Output appears in the **Output** window, and build errors appear in the **Error List**.
 

@@ -25,7 +25,7 @@ You can customize the startup experience for Visual Studio in several different 
 
 ## To change the startup item
 
-1. On the menu bar, choose **Tools > Options**.
+1. On the menu bar, choose **Tools** > **Options**.
 
 1. Expand **Environment**, and then choose **Startup**.
 
@@ -39,7 +39,7 @@ To install a custom start page, open the *.vsix* file, or copy and paste the sta
 
 ### To select which custom start page to display
 
-1. On the menu bar, choose **Tools > Options**.
+1. On the menu bar, choose **Tools** > **Options**.
 
 1. Expand **Environment**, and then choose **Startup**.
 
