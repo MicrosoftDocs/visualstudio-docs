@@ -1,5 +1,5 @@
 ---
-title: Overview of Python support in Visual Studio on Windows | Microsoft Docs
+title: Overview of Python support in Visual Studio on Windows
 description: Summary of features in Visual Studio, making it the best Python IDE on Windows (also know as Python Tools for Visual Studio, PTVS)
 ms.custom:
 ms.date: 04/06/2018

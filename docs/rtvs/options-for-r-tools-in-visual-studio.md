@@ -1,5 +1,5 @@
 ---
-title: R Tools options in Visual Studio | Microsoft Docs
+title: R tools options
 description: Reference for the options in Visual Studio for the R language and associated features.
 ms.custom:
 ms.date: 12/04/2017
