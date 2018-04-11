@@ -53,7 +53,7 @@ If you experience extra reloads or if Visual Studio is losing all open Windows o
 
 
 ### On Windows, Visual Studio asks to download the Unity target framework
-Visual Studio Tools for Unity requires the .net framework 3.5, which isn't installed by default on Windows 8 or 10. To fix this issue, follow the instructions to download and install the .net framework 3.5.
+Visual Studio Tools for Unity requires the .NET framework 3.5, which isn't installed by default on Windows 8 or 10. To fix this issue, follow the instructions to download and install the .NET framework 3.5.
 
 When using the new Unity runtime, .NET targeting packs version 4.6 and 4.7.1 are also required. It is possible to use the VS2017 installer to quickly install them (modify your VS2017 installation, individual components, .NET category, select all 4.x targeting packs).
 
