@@ -1,5 +1,5 @@
 ---
-title: Formatting Python code | Microsoft Docs
+title: Formatting Python code
 description: How to automatically reformat Python code in Visual Studio including spacing, statements, wrapping, and comments.
 ms.custom:
 ms.date: 07/12/2017
