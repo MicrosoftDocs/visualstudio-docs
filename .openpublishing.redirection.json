@@ -1,6 +1,11 @@
 {
     "redirections": [
         {
+            "source_path": "docs/overview/",
+            "redirect_url": "/visualstudio/ide",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/extensibility/shell/shell-isolated-or-integrated.md",
             "redirect_url": "https://vspartner.com/pages/vsshells",
             "redirect_document_id": false
