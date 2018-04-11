@@ -21,7 +21,7 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.Python.Advanced"
 author: "kraigb"
 ms.author: "kraigb"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "python"
   - "data-science"

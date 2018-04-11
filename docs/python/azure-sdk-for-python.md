@@ -13,7 +13,7 @@ ms.tgt_pltfrm:
 ms.topic: "conceptual"
 author: kraigb
 ms.author: kraigb
-manager: ghogen
+manager: douge
 ms.workload: 
   - "python"
   - "data-science"
@@ -38,7 +38,7 @@ You can also follow [Install Python and the SDK](https://docs.microsoft.com/azur
 
 ## Documentation
 
-Documentation can be found on [azure-sdk-for-python.readthedocs.org](http://azure-sdk-for-python.readthedocs.org/en/latest/index.html).
+Documentation can be found on [azure-sdk-for-python.readthedocs.org](https://docs.microsoft.com/en-us/python/azure/?view=azure-python).
 
 The [Azure SDK for Python Developer Center](http://azure.microsoft.com/develop/python/) also has a number of helpful resources, including a number of tutorials:
 
