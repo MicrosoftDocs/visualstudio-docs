@@ -47,7 +47,7 @@ For FMOD, there is a workaround, you can pass FMOD_STUDIO_INIT_SYNCHRONOUS_UPDAT
 First, check that Visual Studio is set as your external script editor in Unity (Edit/Preferences/External Tools). Then check that the Visual Studio   plugin is installed in Unity (Help/About must display a message like Microsoft Visual Studio Tools for Unity is enabled at the bottom). Then check that the extension is properly installed in Visual Studio (Help/About).
 
 ### Extra reloads, or Visual Studio losing all open windows
-Be sure to never touch project files directly from an asset processor or any other tool. If you really need to participate to the project file content, we expose an API for that. Please check the [Assembly references issues section](#Assembly-reference-issues).
+Be sure to never touch project files directly from an asset processor or any other tool. If you really need to manipulate the project file, we expose an API for that. Please check the [Assembly references issues section](#Assembly-reference-issues).
 
 If you experience extra reloads or if Visual Studio is losing all open Windows on reload, please make sure that you have proper .NET targeting packs installed. Please check the following section about frameworks for more information.
 
