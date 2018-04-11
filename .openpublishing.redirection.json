@@ -1,7 +1,7 @@
 {
     "redirections": [
         {
-            "source_path": "docs/overview/",
+            "source_path": "docs/overview.md",
             "redirect_url": "/visualstudio/ide",
             "redirect_document_id": false
         },
