@@ -15,11 +15,11 @@ ms.workload:
 Visual Studio performance recommendations are intended for low memory situations, which may occur in rare cases. In these situations, you can optimize certain Visual Studio features that you may not be using. The following tips are not intended as general recommendations.
 
 > [!NOTE]
-> If you’re having difficulty using the product because of memory issues, let us know through the feedback tool.
+> If you’re having difficulty using the product because of memory issues, let us know through the [feedback tool](../ide/how-to-report-a-problem-with-visual-studio-2017.md).
 
 ## Optimize your environment
 
-- **Use a 64bit OS**
+- **Use a 64-bit OS**
 
     If you upgrade your system from a 32-bit version of Windows to a 64-bit version, you expand the amount of virtual memory available to Visual Studio from 2 GB to 4 GB. This enables Visual Studio to handle significantly larger workloads even though it is 32-bit process.
 
@@ -74,7 +74,7 @@ Some tools or extensions may to turned off to improve performance.
 
 ### Managed Language Services (Roslyn)
 
-For information about .NET Compiler Platform ("Roslyn") performance considerations, see [Performance considerations for large solutions] (https://github.com/dotnet/roslyn/wiki/Performance-considerations-for-large-solutions).
+For information about .NET Compiler Platform ("Roslyn") performance considerations, see [Performance considerations for large solutions](https://github.com/dotnet/roslyn/wiki/Performance-considerations-for-large-solutions).
 
 - **Disable Full Solution Analysis**
 
@@ -96,7 +96,7 @@ For information about .NET Compiler Platform ("Roslyn") performance consideratio
 
     Extensions are additional software components added to Visual Studio that provide new functionality or extend existing functionality. Extensions can often be a source of memory resource issues. If you’re experiencing memory resource problems, try disabling extensions one at a time to see how it impacts the scenario or workflow.
 
-    To disable extensions, go to **Tools | Extensions and Updates**, and disable a particular extension.
+    To disable extensions, go to **Tools** > **Extensions and Updates**, and disable a particular extension.
 
 - **Disable XAML Designer**
 
