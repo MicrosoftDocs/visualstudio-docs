@@ -27,7 +27,7 @@ ms.workload:
 
 Before you write code against an external component or connected service, your project must first contain a reference to it. A reference is essentially an entry in a project file that contains the information that Visual Studio needs to locate the component or the service.
 
-To add a reference, right click on the References node in Solution Explorer and choose **Add Reference**. For more information, see [How to: Add or Remove References](../ide/how-to-add-or-remove-references-by-using-the-reference-manager.md).
+To add a reference, right click on the **References** or **Dependencies** node in **Solution Explorer** and choose **Add Reference**. You can also right-click on the project node and select **Add** > **Reference**. For more information, see [How to: Add or Remove References](../ide/how-to-add-or-remove-references-by-using-the-reference-manager.md).
 
 ![Add a reference in Visual C&#43;&#43;](../ide/media/vs2015_cpp_add_reference.png)
 
@@ -71,7 +71,7 @@ If you determine that the Extension SDK being referenced by your app is not supp
 
 1. Restart Visual Studio and open your app.
 
-1. Right-click on the **References** node in the project that caused the error and choose **Add Reference**.
+1. Right-click on the **References** or **Dependencies** node in the project that caused the error and choose **Add Reference**.
 
 1. Click the **Windows** tab and then the **Extensions** sub-tab, then uncheck the checkboxes for the old Extension SDKs, and check the checkboxes for the new Extension SDKs. Click **OK**.
 
@@ -98,7 +98,7 @@ By default, the <xref:Microsoft.VisualStudio.VCProjectEngine.VCProjectReference.
 
 ## Reference a project or assembly that targets a different version of the .NET Framework
 
-You can create applications that reference projects or assemblies that target a different version of the .NET Framework. For example, you could create an application that targets the [!INCLUDE[net_client_v40_long](../deployment/includes/net_client_v40_long_md.md)], that references an assembly that targets [!INCLUDE[dnprdnext](../ide/includes/dnprdnext_md.md)]. If you create a project that targets an earlier version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], you cannot set a reference in that project to a project or assembly that targets a newer version.
+You can create applications that reference projects or assemblies that target a different version of the .NET Framework. For example, you could create an application that targets .NET Framework 4.6, that references an assembly that targets .NET Framework 4.5. If you create a project that targets an earlier version of the .NET Framework, you cannot set a reference in that project to a project or assembly that targets a newer version.
 
 For more information, see [Multi-targeting overview](../ide/visual-studio-multi-targeting-overview.md).
 

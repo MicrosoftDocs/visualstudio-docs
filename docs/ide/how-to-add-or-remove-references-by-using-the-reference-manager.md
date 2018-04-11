@@ -45,7 +45,7 @@ The **Reference Manager** dialog box shows different categories on the left side
 
 ### To add a reference
 
-1. In **Solution Explorer**, right-click on the **References** or **Dependencies** node and choose **Add Reference**.
+1. In **Solution Explorer**, right-click on the **References** or **Dependencies** node and choose **Add Reference**. You can also right-click on the project node and select **Add** > **Reference**.
 
    **Reference Manager** opens and lists the available references by group.
 
