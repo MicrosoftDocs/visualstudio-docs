@@ -19,7 +19,7 @@ helpviewer_keywords:
   - "referencing components, assemblies not listed"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ---
