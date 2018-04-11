@@ -1,10 +1,11 @@
 ---
-title: "How to: Configure Code Analysis for a Managed Code Project | Microsoft Docs"
-ms.date: "11/04/2016"
+title: "Configure Code Analysis in Visual Studio | Microsoft Docs"
+ms.date: 04/04/2018
 ms.technology: vs-ide-code-analysis
-ms.topic: "article"
+ms.topic: conceptual
 f1_keywords:
   - "vs.codeanalysis.propertypages.csvb"
+  - "vs.codeanalysis.propertypages.solution"
 helpviewer_keywords:
   - "code analysis, selecting rule sets"
   - "code analysis, rule sets"
@@ -44,9 +45,28 @@ In Visual Studio, you can choose from a list of code analysis *rule sets* to app
 
     - Select **\<Browse...>** to find an existing custom rule set that is not in the list.
 
-    - Define a custom rule set. For more information, see [Creating Custom Rule Sets](../code-quality/creating-custom-code-analysis-rule-sets.md).
+    - Define a [custom rule set](../code-quality/how-to-create-a-custom-rule-set.md).
+
+## Specify rule sets for multiple projects in a solution
+
+By default, all the managed projects of a solution are assigned the *Microsoft Minimum Recommended Rules* code analysis rule set. You can change the rule sets that are assigned to the projects of a solution in the **Properties** dialog box for the solution.
+
+1. Open the solution in Visual Studio.
+
+2. On the **Analyze** menu, select **Configure Code Analysis for Solution**.
+
+3. If necessary, expand **Common Properties**, and then select **Code Analysis Settings**.
+
+4. You can specify a rule set for one or more projects:
+
+    - To specify a rule set for an individual project, select the project name.
+
+    - To specify a rule set for multiple projects, hold down **Ctrl** and select the project names.
+
+    - To specify all the projects in the solution, hold down **Shift** and click in the project list.
+
+5. Select the **Rule Set** field of a project, and then select the name of the rule set that you want to apply.
 
 ## See also
 
-- [Walkthrough: Configuring and Using a Custom Rule Set](../code-quality/walkthrough-configuring-and-using-a-custom-rule-set.md)
 - [How to: Configure Code Analysis for an ASP.NET Web Application](../code-quality/how-to-configure-code-analysis-for-an-aspnet-web-application.md)

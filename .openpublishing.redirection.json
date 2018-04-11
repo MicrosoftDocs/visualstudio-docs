@@ -16,7 +16,6 @@
             "redirect_document_id": false
         },
         {
-
             "source_path": "docs/extensibility/shell/walkthrough-creating-a-basic-isolated-shell-application.md",
             "redirect_url": "https://vspartner.com/pages/vsshells",
             "redirect_document_id": false
@@ -27,7 +26,6 @@
             "redirect_document_id": false
         },
         {
-
             "source_path": "docs/extensibility/shell/extending-the-isolated-shell.md",
             "redirect_url": "https://vspartner.com/pages/vsshells",
             "redirect_document_id": false
@@ -104,7 +102,7 @@
         },
         {
             "source_path": "docs/code-quality/code-analysis-rule-set-reference.md",
-            "redirect_url": "/visualstudio/code-quality/managed-minimun-rules-rule-set-for-managed-code",
+            "redirect_url": "/visualstudio/code-quality/rule-set-reference",
             "redirect_document_id": false
         },
         {
@@ -113,8 +111,18 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/code-quality/creating-custom-code-analysis-rule-sets.md",
+            "redirect_url": "/visualstudio/code-quality/how-to-create-a-custom-rule-set",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/code-quality/enhancing-code-quality-with-team-project-check-in-policies.md",
             "redirect_url": "/visualstudio/code-quality/how-to-create-or-update-standard-code-analysis-check-in-policies",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/code-quality/how-to-specify-managed-code-rule-sets-for-multiple-projects-in-a-solution.md",
+            "redirect_url": "/visualstudio/code-quality/how-to-configure-code-analysis-for-a-managed-code-project",
             "redirect_document_id": false
         },
         {
@@ -140,6 +148,11 @@
         {
             "source_path": "docs/code-quality/suppress-warnings-by-using-the-suppressmessage-attribute.md",
             "redirect_url": "/visualstudio/code-quality/in-source-suppression-overview",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/code-quality/walkthrough-configuring-and-using-a-custom-rule-set.md",
+            "redirect_url": "/visualstudio/code-quality/how-to-create-a-custom-rule-set",
             "redirect_document_id": false
         },
         {
@@ -2217,6 +2230,32 @@
           "source_path": "subscriptions/vscloud-cancel.md",
           "redirect_url": "/visualstudio/subscriptions/vscloud-overview",
           "redirect_document_id": false
+        },
+        {
+            "source_path": "subscriptions/renew-msstore-subscriptions.md",
+            "redirect_url": "http://www.visualstudio.com/vs/pricing/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "subscriptions/find-subscription-id.md",
+            "redirect_url": "/visualstudio/subscriptions/find-pcn",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "subscriptions/multiple-pcns.md",
+            "redirect_url": "/visualstudio/subscriptions/find-pcn",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "subscriptions/managing-admins.md",
+            "redirect_url": "/visualstudio/subscriptions/subscription-management-info",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "subscriptions/access-admin-portal.md",
+            "redirect_url": "/visualstudio/subscriptions/subscription-management-info",
+            "redirect_document_id": false
         }
+        
     ]
 }

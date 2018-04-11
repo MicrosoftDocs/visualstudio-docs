@@ -11,7 +11,7 @@ ms.topic: "tutorial"
 ms.devlang: "vb"
 author: "TerryGLee"
 ms.author: "tglee"
-manager: ghogen
+manager: douge
 dev_langs:
   - vb
 ms.workload:

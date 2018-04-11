@@ -1,19 +1,14 @@
 ---
-title: "How to: Configure Code Analysis for an ASP.NET Web Application | Microsoft Docs"
-ms.custom: ""
+title: "How to: Configure Code Analysis for an ASP.NET Web Application in Visual Studio | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
+ms.technology: vs-ide-code-analysis
 ms.topic: "article"
-f1_keywords: 
+f1_keywords:
   - "vs.codeanalysis.propertypages.asp"
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
-ms.workload: 
+ms.workload:
   - "aspnet"
 ---
 # How to: Configure Code Analysis for an ASP.NET Web Application
@@ -40,4 +35,4 @@ In Visual Studio, you can select from a list of Code Analysis *rule sets* to app
 
     - Select **\<Browse>** to specify an existing custom rule set that is not in the list.
 
-    - Define a custom rule set. For more information, see [Creating Custom Rule Sets](../code-quality/creating-custom-code-analysis-rule-sets.md).
+    - Define a [custom rule set](../code-quality/how-to-create-a-custom-rule-set.md).

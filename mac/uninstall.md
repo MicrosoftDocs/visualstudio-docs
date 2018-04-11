@@ -161,7 +161,7 @@ For older versions, you need to manually remove the following artifacts:
 * Delete the add-ins: `"~/Library/Application Support/XamarinStudio-6.0/LocalInstall/Addins/Xamarin.Interactive"` and `"~/Library/Application Support/XamarinStudio-6.0/LocalInstall/Addins/Xamarin.Inspector"`
 * Delete Inspector and supporting files here: `/Library/Frameworks/Xamarin.Interactive.framework` and `/Library/Frameworks/Xamarin.Inspector.framework`
 
-# Uninstall the Xamarin Profiler
+## Uninstall the Xamarin Profiler
 
 ```bash
 sudo rm -rf "/Applications/Xamarin Profiler.app"

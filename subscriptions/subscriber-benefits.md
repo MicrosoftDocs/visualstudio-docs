@@ -1,24 +1,24 @@
 ---
 title: Visual Studio Subscriptions - Subscriber Benefits
-Author: evanwindom
-Ms.author: jaunger
-Manager: evelynp
-Ms.date: 2/12/2018
-Ms.topic: Get-Started-Article
-Description:  Learn about the benefits included in your Visual Studio subscription
-Ms.prod: vs-subscription
-Ms.technology: vs-subscriptions
-Searchscope: VS Subscription
+author: evanwindom
+ms.author: jaunger
+manager: evelynp
+ms.date: 02/12/2018
+ms.topic: Get-Started-Article
+description:  Learn about the benefits included in your Visual Studio subscription
+ms.prod: vs-subscription
+ms.technology: vs-subscriptions
+searchscope: VS Subscription
 ---
 
-# Benefits Included in Your Visual Studio Subscription
+# Benefits included in your Visual Studio subscription
 
 Visual Studio subscriptions offer the most comprehensive set of resources for you to create, deploy, and manage great applications on your preferred platforms and devices, including Windows, iOS, Android, and Linux.  The specific benefits will vary based on the type of subscription you have.  To provide the maximum value for subscribers, the benefits provided change periodically as we make adjustments to focus on the newest and most useful technologies, training materials, and partner benefits available. 
 
 Benefits are grouped into three categories:
 
 ## Tools
-The Tools category provides access to a wide variety of benefits, including flagship benefits such as the [Visual Studio IDE](/vs-ide-benefit), [Visual Studio Team Services](/vs-vsts), and [Azure](/vs-azure).  Depending on your subscription level, you'll also see Windows and Office 365 Developer accounts, Visual Studio App Center, and benefits from partners such as WhiteSource Bolt and ModernRequirements.
+The Tools category provides access to a wide variety of benefits, including flagship benefits such as the [Visual Studio IDE](/vs-ide-benefit/), [Visual Studio Team Services](/vs-vsts/), and [Azure](/vs-azure/).  Depending on your subscription level, you'll also see Windows and Office 365 Developer accounts, Visual Studio App Center, and benefits from partners such as WhiteSource Bolt and ModernRequirements.
 
 ## Professional Development
 To help you continously enhance your skillset and keep up with the latest technologies, we provide access to some of the best online training available from industry leaders. Examples of the great content available include:
