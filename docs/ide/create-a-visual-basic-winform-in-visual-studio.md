@@ -8,7 +8,7 @@ ms.suite: ""
 ms.technology:
   - "vs-acquisition"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.devlang: "vb"
 author: "TerryGLee"
 ms.author: "tglee"
