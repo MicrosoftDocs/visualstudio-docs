@@ -7,6 +7,8 @@ f1_keywords:
  - "vs.texteditor"
  - "vs.ambient"
 manager: ghogen
+author: gewarren
+ms.author: gewarren
 ms.technology: vs-ide-general
 ---
 # F1 help

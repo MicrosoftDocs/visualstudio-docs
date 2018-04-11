@@ -2,8 +2,8 @@
 title:  Visual Studio subscriptions license terms
 author: evanwindom
 ms.author: jaunger
-Manager: evelynp
-ms.date: 10/3/2017
+manager: evelynp
+ms.date: 10/03/2017
 ms.topic: Get-Started-Article
 description:  Visual Studio subscriptions license terms.
 ms.prod: vs-subscription
