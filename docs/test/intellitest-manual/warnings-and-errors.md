@@ -6,7 +6,7 @@ ms.topic: "article"
 helpviewer_keywords: 
   - "IntelliTest, Warnings and errors"
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 author: gewarren

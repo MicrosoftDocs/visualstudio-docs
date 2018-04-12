@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "Word documents, protection"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

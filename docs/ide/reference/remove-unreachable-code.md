@@ -6,7 +6,7 @@ ms.technology: vs-ide-general
 ms.topic: reference
 author: "kuhlenh"
 ms.author: "kaseyu"
-manager: ghogen
+manager: douge
 dev_langs:
   - csharp
 ms.workload:

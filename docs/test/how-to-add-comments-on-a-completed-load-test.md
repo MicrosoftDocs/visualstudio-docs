@@ -7,7 +7,7 @@ helpviewer_keywords:
 ms.assetid: e6b68940-4fb6-4bd6-bcde-f6477adc7af9
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.technology: vs-ide-test
 ---
 # How to: Add Comments while Analyzing a Completed Load Test

@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "parameters [Office development in Visual Studio], optional"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

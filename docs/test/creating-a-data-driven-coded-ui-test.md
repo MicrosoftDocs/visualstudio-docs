@@ -7,7 +7,7 @@ helpviewer_keywords:
   - "coded UI tests, data-driven"
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

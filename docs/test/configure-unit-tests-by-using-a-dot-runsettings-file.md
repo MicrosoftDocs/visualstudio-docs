@@ -4,7 +4,7 @@ ms.date: 02/28/2018
 ms.technology: vs-ide-test
 ms.topic: article
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 author: gewarren

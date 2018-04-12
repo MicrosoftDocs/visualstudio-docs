@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "controls, data binding"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

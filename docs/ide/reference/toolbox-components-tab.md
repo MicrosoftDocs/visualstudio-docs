@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "Toolbox, Components tab"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

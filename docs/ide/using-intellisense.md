@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "IntelliSense [Visual Studio]"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

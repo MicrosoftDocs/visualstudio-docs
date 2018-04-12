@@ -11,7 +11,7 @@ apitype: "Assembly"
 ms.assetid: c6c25b8d-a1da-41ff-aeff-867ff1dcf749
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

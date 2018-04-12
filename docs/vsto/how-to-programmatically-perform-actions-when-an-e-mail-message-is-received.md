@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "e-mail [Office development in Visual Studio], custom actions"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

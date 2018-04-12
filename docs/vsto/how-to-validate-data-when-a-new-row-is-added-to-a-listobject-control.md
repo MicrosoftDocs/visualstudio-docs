@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "ListObject control, validating data"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

@@ -7,7 +7,7 @@ helpviewer_keywords:
 ms.assetid: 39fff4fc-9233-4f67-96ac-e81bbaf7ca82
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.technology: vs-ide-test
 ---
 # How to: Prevent Time-Outs for Diagnostic Data Adapters

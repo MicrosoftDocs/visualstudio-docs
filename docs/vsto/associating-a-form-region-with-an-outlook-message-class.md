@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "form regions [Office development in Visual Studio], message classes"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

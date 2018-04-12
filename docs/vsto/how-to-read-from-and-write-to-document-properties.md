@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "Excel [Office development in Visual Studio], document properties"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

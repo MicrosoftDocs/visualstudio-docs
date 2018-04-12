@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], common tasks in Visio"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

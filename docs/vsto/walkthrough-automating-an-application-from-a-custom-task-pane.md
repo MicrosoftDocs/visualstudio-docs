@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "task panes [Office development in Visual Studio], automating applications"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "IDebugProgramNode2::Attach"
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload:
   - "vssdk"
 ---

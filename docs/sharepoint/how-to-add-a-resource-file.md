@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, resource files"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "worksheets, populating with data"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

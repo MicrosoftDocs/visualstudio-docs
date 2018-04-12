@@ -8,7 +8,7 @@ ms.technology:
 ms.topic: "article"
 ms.assetid: d20a30c0-0dcc-4e2c-a809-31c8ea28c7df
 ms.author: "v-brickg"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "v-brickg"
 ---

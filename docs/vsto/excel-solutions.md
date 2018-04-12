@@ -26,7 +26,7 @@ helpviewer_keywords:
   - "Office projects [Office development in Visual Studio], Excel"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

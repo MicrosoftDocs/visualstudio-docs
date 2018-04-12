@@ -10,7 +10,7 @@ apiname:
 ms.assetid: 69ab2a33-4fe7-4cfa-97f8-eaf063decb18
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

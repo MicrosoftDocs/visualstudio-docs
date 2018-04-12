@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "templates [Visual Studio], organizing"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ---
 # How to: Locate and organize project and item templates
 

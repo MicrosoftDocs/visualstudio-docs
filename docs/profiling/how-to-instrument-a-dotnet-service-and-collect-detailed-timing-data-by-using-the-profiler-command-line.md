@@ -7,7 +7,7 @@ ms.technology:
 ms.topic: "article"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "dotnet"
 ---

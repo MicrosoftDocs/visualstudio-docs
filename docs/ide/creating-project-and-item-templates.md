@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "project templates [Visual Studio]"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ---
 # Project and item templates
 

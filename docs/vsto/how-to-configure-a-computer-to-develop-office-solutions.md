@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "Office development in Visual Studio, installing tools"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

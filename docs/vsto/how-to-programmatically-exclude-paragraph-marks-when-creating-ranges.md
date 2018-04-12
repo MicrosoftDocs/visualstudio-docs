@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "paragraphs, controlling structure"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

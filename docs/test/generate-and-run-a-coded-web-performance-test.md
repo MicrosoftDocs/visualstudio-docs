@@ -13,7 +13,7 @@ dev_langs:
   - VB
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.technology: vs-ide-test
 ---
 # Generate and run a coded web performance test

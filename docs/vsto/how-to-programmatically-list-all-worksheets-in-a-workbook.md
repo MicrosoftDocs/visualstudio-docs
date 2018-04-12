@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "worksheets, listing"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

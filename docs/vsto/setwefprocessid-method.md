@@ -10,7 +10,7 @@ dev_langs:
   - "CSharp"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

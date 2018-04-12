@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "Office primary interop assemblies, installing"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

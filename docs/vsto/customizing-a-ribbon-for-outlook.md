@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "Ribbon [Office development in Visual Studio], Outlook"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

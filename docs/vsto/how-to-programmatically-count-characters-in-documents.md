@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], counting characters"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

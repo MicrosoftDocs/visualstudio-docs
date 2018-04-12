@@ -7,7 +7,7 @@ helpviewer_keywords:
   - "generics, and unit tests"
   - "unit tests, and generics"
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 author: gewarren

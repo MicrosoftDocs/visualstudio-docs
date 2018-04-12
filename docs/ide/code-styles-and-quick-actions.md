@@ -6,7 +6,7 @@ ms.technology: vs-ide-general
 ms.topic: "article"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 f1_keywords: 
   - "VS.ToolsOptionsPages.Text_Editor.CSharp.Code_Style.General"
   - "VS.ToolsOptionsPages.Text_Editor.Basic.Code_Style.General"

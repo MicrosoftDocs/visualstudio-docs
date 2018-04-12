@@ -13,7 +13,7 @@ f1_keywords:
 ms.assetid: c54969a7-d75a-4a35-9b37-af7a596a7c24
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "uwp"
 ---

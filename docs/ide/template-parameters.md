@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "item templates, parameters"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ---
 # Template parameters
 

@@ -26,7 +26,7 @@ helpviewer_keywords:
   - "Ribbon [Office development in Visual Studio], shortcut keys"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

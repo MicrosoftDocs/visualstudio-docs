@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "Find in Files tab, Find and Replace window"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

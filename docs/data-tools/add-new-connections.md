@@ -5,7 +5,7 @@ ms.date: "11/04/2016"
 ms.topic: "article"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.technology: "vs-data-tools"
 ms.workload: 
   - "data-storage"

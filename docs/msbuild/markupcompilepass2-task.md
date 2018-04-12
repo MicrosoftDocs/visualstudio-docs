@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "MarkupCompilePass2 task [WPF MSBuild], parameters"
 author: Mikejo5000
 ms.author: mikejo
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

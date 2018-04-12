@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "Word [Office development in Visual Studio], mapping XML schemas"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

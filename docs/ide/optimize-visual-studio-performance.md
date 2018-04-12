@@ -6,7 +6,7 @@ helpviewer_keywords:
   - "performance [Visual Studio]"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 f1_keywords:
   - "vs.performancecenter"
 ms.technology: vs-ide-general

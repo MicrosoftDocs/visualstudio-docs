@@ -7,7 +7,7 @@ helpviewer_keywords:
 ms.assetid: 907e65d8-0408-44b3-9e5e-e631892c1726
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.technology: vs-ide-test
 ---
 # How to: Install a Custom Diagnostic Data Adapter

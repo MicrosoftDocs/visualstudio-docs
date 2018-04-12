@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "walkthroughs [Office development in Visual Studio], action panes"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

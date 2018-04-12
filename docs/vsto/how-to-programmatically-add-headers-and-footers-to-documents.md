@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "footers, adding to documents"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

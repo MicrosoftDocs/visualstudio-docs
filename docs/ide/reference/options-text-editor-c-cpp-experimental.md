@@ -9,7 +9,7 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.C\\C++.Experimental"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.technology:
   - "vs-ide-general"
 ms.workload:

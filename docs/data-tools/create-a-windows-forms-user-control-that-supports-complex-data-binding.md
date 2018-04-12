@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "user controls [Visual Studio], complex data binding"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.technology: "vs-data-tools"
 ms.workload: 
   - "data-storage"

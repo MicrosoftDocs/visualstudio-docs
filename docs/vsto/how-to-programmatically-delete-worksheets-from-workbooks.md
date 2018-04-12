@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "worksheets, deleting"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

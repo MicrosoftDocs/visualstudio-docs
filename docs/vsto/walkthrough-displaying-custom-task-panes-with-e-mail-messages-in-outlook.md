@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "custom task panes [Office development in Visual Studio], displaying with e-mail messages"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "Property Pages dialog box, Publish [Office development in Visual Studio]"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

@@ -7,7 +7,7 @@ ms.topic: "article"
 ms.assetid: 663140ea-a568-472b-a79a-dfea8818e06a
 author: "corob"
 ms.author: "mblome"
-manager: ghogen
+manager: douge
 f1_keywords: 
   - VC.Project.VCClangCompilerTool.AdditionalIncludeDirectories
   - VC.Project.VCClangCompilerTool.DebugInformationFormat

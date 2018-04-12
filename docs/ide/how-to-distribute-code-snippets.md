@@ -10,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 5f717abd-e167-47ae-818c-6b0bae100ceb
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 dev_langs: 
   - "VB"
 ms.workload: 

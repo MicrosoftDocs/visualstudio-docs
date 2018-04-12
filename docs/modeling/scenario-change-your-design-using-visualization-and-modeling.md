@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "walkthroughs [Visual Studio ALM], modeling software"
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ---

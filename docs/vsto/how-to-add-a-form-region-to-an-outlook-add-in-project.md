@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "form regions [Office development in Visual Studio], adding"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

@@ -8,7 +8,7 @@ ms.topic: "article"
 ms.assetid: eac59cb6-f12e-4a77-9953-6d62b164a643
 author: "stevehoag"
 ms.author: "shoag"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "uwp"
 ---

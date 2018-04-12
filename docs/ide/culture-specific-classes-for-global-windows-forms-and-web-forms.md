@@ -25,7 +25,7 @@ helpviewer_keywords:
 ms.assetid: 0d06a0a4-f887-4f7c-bde7-1d543c06f803
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 dev_langs:
  - CSharp
  - VB

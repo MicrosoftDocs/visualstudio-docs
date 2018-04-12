@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "item templates, creating multi-file item templates"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ---
 # How to: Create multi-file item templates
 

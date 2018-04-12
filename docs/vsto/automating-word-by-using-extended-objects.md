@@ -20,7 +20,7 @@ helpviewer_keywords:
   - "Word [Office development in Visual Studio], host controls"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

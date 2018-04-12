@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "DOM Explorer [UWP apps]"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "uwp"
 ---

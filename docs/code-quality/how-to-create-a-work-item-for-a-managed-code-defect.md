@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "code analysis, creating work items"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "dotnet"
 ---

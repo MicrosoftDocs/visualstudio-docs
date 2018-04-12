@@ -7,7 +7,7 @@ ms.technology:
 ms.topic: "article"
 author: "PooyaZv"
 ms.author: "pozandev"
-manager: ghogen
+manager: douge
 ms.workload: "multiple"
 ---
 # Understanding and Diagnosing UI Unresponsiveness Caused by Extensions

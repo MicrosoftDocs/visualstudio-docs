@@ -8,7 +8,7 @@ ms.topic: "article"
 ms.assetid: 631f0daf-1d42-4c90-a7dc-1a6a9de64c93
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "dotnet"
 ---

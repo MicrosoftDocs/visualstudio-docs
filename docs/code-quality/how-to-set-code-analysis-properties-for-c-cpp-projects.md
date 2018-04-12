@@ -18,7 +18,7 @@ helpviewer_keywords:
 ms.assetid: 7af52097-6d44-4785-9b9f-43b7a7d447d7
 author: mikeblome
 ms.author: mblome
-manager: ghogen
+manager: douge
 ms.workload: 
   - "cplusplus"
 ---

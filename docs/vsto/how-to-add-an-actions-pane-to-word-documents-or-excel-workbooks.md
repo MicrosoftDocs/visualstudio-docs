@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "actions panes [Office development in Visual Studio], adding controls"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

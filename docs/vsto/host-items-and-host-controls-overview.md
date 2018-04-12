@@ -36,7 +36,7 @@ helpviewer_keywords:
   - "host controls [Office development in Visual Studio], deleting"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

@@ -6,7 +6,7 @@ ms.topic: "article"
 ms.assetid: 99395da7-ec34-491d-9baa-0590d23283ce
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "casting, object to specific type"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

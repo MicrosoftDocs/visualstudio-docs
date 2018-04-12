@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "host controls [Office development in Visual Studio], persisting in the document"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

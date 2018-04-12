@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "Visio [Office development in Visual Studio], opening Visio documents"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

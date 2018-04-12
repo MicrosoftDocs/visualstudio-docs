@@ -41,7 +41,7 @@ helpviewer_keywords:
   - "VST.Designer.ExcelVST.Designer.Word"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

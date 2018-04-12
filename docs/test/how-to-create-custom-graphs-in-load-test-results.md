@@ -8,7 +8,7 @@ helpviewer_keywords:
 ms.assetid: 17fcafce-76f9-4411-9389-6e5376eab236
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.technology: vs-ide-test
 ---
 # How to: Create Custom Graphs in Load Test Results

@@ -8,7 +8,7 @@ helpviewer_keywords:
 ms.assetid: d1c10fb9-cfeb-4e7f-9991-2d1e1103699e
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.technology: vs-ide-test
 ---
 # Walkthrough: Using the Virtual User Activity Chart to Isolate Issues

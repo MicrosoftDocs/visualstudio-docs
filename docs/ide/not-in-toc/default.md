@@ -6,7 +6,7 @@ robots: noindex,nofollow
 f1_keywords:
  - "vs.texteditor"
  - "vs.ambient"
-manager: ghogen
+manager: douge
 author: gewarren
 ms.author: gewarren
 ms.technology: vs-ide-general

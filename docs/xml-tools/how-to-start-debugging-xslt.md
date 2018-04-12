@@ -6,7 +6,7 @@ ms.technology: vs-ide-general
 ms.topic: "article"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 dev_langs: 
   - "CSharp"
 ms.workload: 

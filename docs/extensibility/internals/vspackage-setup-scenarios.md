@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "VSPackages, deployment considerations"
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

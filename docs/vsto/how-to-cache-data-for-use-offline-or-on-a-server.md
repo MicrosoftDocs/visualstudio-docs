@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "data caching [Office development in Visual Studio], offline use"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

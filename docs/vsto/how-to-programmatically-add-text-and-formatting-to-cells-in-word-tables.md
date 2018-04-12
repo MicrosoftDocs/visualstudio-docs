@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "tables [Office development in Visual Studio], adding text and formatting"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

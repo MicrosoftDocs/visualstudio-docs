@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "content controls [Office development in Visual Studio], adding to documents"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

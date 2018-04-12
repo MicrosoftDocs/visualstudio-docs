@@ -30,7 +30,7 @@ helpviewer_keywords:
   - "Outlook [Office development in Visual Studio], project templates"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

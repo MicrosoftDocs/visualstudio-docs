@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "Ribbon [Office development in Visual Studio], updating"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

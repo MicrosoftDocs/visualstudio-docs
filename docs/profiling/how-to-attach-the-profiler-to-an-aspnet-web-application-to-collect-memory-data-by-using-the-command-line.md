@@ -8,7 +8,7 @@ ms.topic: "article"
 ms.assetid: d608f85a-41ae-4ca7-85e6-b96624dbc83c
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "aspnet"
 ---

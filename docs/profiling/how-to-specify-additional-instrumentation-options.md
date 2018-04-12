@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "performance sessions, options"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

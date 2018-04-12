@@ -8,7 +8,7 @@ ms.topic: "article"
 ms.assetid: 9a8fe90e-c97b-4e98-b6c8-0c6b3962c49d
 author: "TerryGLee"
 ms.author: "tglee"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

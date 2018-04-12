@@ -7,7 +7,7 @@ helpviewer_keywords:
   - "unit tests, creating"
   - "unit tests, running"
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 author: gewarren

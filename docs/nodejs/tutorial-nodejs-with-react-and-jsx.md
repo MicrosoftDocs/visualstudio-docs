@@ -8,7 +8,7 @@ ms.topic: "tutorial"
 ms.devlang: javascript
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 dev_langs:
   - JavaScript
 ms.workload:

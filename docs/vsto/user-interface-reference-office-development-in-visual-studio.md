@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "reference [Office development in Visual Studio], user interface"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

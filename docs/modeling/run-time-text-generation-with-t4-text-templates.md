@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "text templates, generating files at run time"
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ms.technology: vs-ide-modeling

@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "snippets [C#], surround with"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

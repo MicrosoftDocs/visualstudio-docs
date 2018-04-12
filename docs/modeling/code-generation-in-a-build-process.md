@@ -7,7 +7,7 @@ helpviewer_keywords:
   - "text templates, transforming by using msbuild"
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ms.technology: vs-ide-modeling

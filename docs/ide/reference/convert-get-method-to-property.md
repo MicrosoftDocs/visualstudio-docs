@@ -7,7 +7,7 @@ ms.topic: reference
 ms.devlang: csharp
 author: "kuhlenh"
 ms.author: "kaseyu"
-manager: ghogen
+manager: douge
 f1_keywords:
   - "vs.csharp.refactoring.convertmethodtoproperty"
 dev_langs:

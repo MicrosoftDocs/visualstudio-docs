@@ -4,7 +4,7 @@ ms.date: "02/15/2018"
 ms.technology: vs-ide-test
 ms.topic: "article"
 ms.author: mblome
-manager: ghogen
+manager: douge
 ms.workload: 
   - "uwp"
 author: mikeblome

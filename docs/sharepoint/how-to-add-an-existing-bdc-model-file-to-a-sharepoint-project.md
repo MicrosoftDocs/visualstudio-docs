@@ -19,7 +19,7 @@ helpviewer_keywords:
   - "BDC [SharePoint development in Visual Studio], remove a model"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

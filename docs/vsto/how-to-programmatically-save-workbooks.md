@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "workbooks, saving backup copies"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

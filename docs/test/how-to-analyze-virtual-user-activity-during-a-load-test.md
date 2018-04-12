@@ -7,7 +7,7 @@ helpviewer_keywords:
 ms.assetid: 8bda19b3-91c1-4daf-b6c7-09108bddadff
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.technology: vs-ide-test
 ---
 # How to: Analyze What Virtual Users Are Doing During a Load Test Using the Virtual User Activity Chart

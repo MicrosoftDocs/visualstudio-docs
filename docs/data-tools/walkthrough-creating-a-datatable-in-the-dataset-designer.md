@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "data [Visual Studio], Dataset Designer"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.technology: "vs-data-tools"
 ms.workload: 
   - "data-storage"

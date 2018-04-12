@@ -5,7 +5,7 @@ ms.date: "11/04/2016"
 ms.topic: "article"
 author: mikeblome
 ms.author: mblome
-manager: ghogen
+manager: douge
 dev_langs:
  - CPP
 ms.technology: vs-ide-code-analysis

@@ -23,7 +23,7 @@ helpviewer_keywords:
   - "solutions [Office development in Visual Studio], deploying Office solutions (2007 system)"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

@@ -11,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: adb22512-4d4d-40e5-9564-1af421b7087e
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "aspnet"
   - "azure"

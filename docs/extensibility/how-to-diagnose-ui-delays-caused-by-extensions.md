@@ -7,7 +7,7 @@ ms.technology:
 ms.topic: "article"
 author: "PooyaZv"
 ms.author: "pozandev"
-manager: ghogen
+manager: douge
 ms.workload: "multiple"
 ---
 # How to: Diagnose UI delays caused by extensions

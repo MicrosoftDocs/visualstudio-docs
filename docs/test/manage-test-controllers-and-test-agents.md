@@ -5,7 +5,7 @@ ms.technology: vs-ide-test
 ms.topic: "article"
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ---

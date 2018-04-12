@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "worksheets, hiding controls when printing"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

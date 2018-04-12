@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "DatePickerContentControl, binding to a custom XML part"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

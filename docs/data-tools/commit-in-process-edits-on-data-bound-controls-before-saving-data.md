@@ -16,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: 61af4798-eef7-468c-b229-5e1497febb2f
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.technology: "vs-data-tools"
 ms.workload: 
   - "data-storage"

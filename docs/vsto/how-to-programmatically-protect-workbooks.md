@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "workbooks, protecting"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

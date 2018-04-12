@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "dependency diagrams"
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

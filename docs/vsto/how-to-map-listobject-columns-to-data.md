@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "ListObject control, mapping data"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

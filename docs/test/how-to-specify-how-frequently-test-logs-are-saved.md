@@ -8,7 +8,7 @@ helpviewer_keywords:
 ms.assetid: 9ac88d8a-4777-462c-aa0e-244dadb2cfd1
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.technology: vs-ide-test
 ---
 # How to: Specify How Frequently Test Logs are Saved Using the Load Test Editor

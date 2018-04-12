@@ -3,7 +3,7 @@ title: "Visual Studio 2017 for .NET Developers | Microsoft Docs"
 description: "Overview of Visual Studio 2017 features to help you write better .NET code faster."
 author: "kuhlenh"
 ms.author: "kaseyu"
-manager: ghogen
+manager: douge
 ms.technology: vs-ide-general
 ms.date: "01/16/2018"
 ms.topic: "article"

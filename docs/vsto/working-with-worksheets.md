@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "worksheets [Office development in Visual Studio], common tasks"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

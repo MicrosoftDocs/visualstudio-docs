@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "Word [Office development in Visual Studio], document common tasks"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

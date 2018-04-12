@@ -6,7 +6,7 @@ helpviewer_keywords:
   - "load tests, test agents and controllers"
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.technology: vs-ide-test
 ---
 # Configure test agents and test controllers for running load tests

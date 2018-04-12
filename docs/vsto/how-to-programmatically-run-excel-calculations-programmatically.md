@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "workbooks, running calculations"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

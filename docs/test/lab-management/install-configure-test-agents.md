@@ -7,7 +7,7 @@ helpviewer_keywords:
   - "configure test agents, test lab"
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ---

@@ -7,7 +7,7 @@ helpviewer_keywords:
   - "editor"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.technology: vs-ide-general
 ms.workload: 
   - "multiple"

@@ -5,7 +5,7 @@ ms.technology: vs-ide-test
 ms.topic: "article"
 author: mikeblome
 ms.author: mblome
-manager: ghogen
+manager: douge
 ms.workload: 
   - "cplusplus"
 ---

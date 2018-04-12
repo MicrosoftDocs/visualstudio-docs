@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "coded UI tests, for large applications"
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

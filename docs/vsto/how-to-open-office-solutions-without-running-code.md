@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], opening without running code"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

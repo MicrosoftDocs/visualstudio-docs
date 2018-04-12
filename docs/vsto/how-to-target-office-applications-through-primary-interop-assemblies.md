@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "application development [Office development in Visual Studio], automating"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

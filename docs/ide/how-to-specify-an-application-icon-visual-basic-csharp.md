@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "application icons [Visual Studio]"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "dotnet"
 ---

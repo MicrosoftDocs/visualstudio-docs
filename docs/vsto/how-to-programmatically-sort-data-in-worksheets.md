@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "sorting data, in worksheets"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

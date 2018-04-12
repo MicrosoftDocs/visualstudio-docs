@@ -24,7 +24,7 @@ helpviewer_keywords:
   - "XML documentation comments [JavaScript]"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

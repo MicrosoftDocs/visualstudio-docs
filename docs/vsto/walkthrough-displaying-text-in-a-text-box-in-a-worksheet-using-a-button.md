@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "text [Office development in Visual Studio], text boxes"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

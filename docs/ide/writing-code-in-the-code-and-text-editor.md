@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "code editor [Visual Studio]"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ---

@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "managed code extensions [Office development in Visual Studio], VBA compared to"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

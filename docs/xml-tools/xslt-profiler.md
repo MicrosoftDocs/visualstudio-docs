@@ -7,7 +7,7 @@ ms.topic: "article"
 ms.assetid: 8e852628-99fc-4e6e-8602-e1c13dde3b95
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ---

@@ -7,7 +7,7 @@ helpviewer_keywords:
 ms.assetid: e1a388d7-5d33-4631-931a-5653ac4aefdc
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.technology: vs-ide-test
 ---
 # Use the Counters Panel in Graphs View and Tables View

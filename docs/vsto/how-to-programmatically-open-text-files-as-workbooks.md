@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "text files, opening as workbooks"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

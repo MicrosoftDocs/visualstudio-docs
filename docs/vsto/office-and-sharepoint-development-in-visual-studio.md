@@ -21,7 +21,7 @@ helpviewer_keywords:
   - "Office, development with Visual Studio"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

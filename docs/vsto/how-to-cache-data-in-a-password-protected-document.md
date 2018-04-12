@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "data [Office development in Visual Studio], caching"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

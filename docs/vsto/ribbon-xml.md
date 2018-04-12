@@ -23,7 +23,7 @@ helpviewer_keywords:
   - "customizing the Ribbon, displaying"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

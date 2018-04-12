@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "object models [Office development in Visual Studio], threading support"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

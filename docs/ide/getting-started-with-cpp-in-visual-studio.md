@@ -6,7 +6,7 @@ ms.technology: "vs-acquisition"
 ms.topic: "tutorial"
 author: "corob-msft"
 ms.author: "tglee"
-manager: ghogen
+manager: douge
 dev_langs:
   - "CPP"
 ms.workload:

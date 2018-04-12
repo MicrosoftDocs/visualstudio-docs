@@ -27,7 +27,7 @@ helpviewer_keywords:
   - "application development [Office development in Visual Studio], document-level customizations"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

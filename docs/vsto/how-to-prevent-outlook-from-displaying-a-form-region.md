@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "canceling form region display"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

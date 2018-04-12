@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "controls [Office development in Visual Studio], Window Forms controls"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

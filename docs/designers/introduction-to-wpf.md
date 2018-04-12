@@ -8,7 +8,7 @@ ms.topic: "article"
 ms.assetid: b8d7cf43-d1f2-4f3d-adb0-4f3a6428edc0
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 dev_langs: 
   - csharp
   - vb

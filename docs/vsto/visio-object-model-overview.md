@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "Visio object model"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

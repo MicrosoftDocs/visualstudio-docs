@@ -19,7 +19,7 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, localizing"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

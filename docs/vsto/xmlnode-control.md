@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "XMLNode control"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

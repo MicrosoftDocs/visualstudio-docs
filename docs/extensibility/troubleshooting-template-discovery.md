@@ -6,7 +6,7 @@ ms.technology: vs-ide-sdk
 ms.topic: "article"
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

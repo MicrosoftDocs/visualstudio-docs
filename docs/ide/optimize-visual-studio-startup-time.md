@@ -9,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: d1508121-8499-4084-8eb5-fa89fa7b17d3
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 f1_keywords:
   - "vs.performancecenter"
 ms.technology: vs-ide-general

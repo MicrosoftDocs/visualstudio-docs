@@ -19,7 +19,7 @@ helpviewer_keywords:
   - "application-level add-ins [Office development in Visual Studio], custom XML parts"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

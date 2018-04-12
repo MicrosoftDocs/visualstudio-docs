@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "performance tools, runtime profiling control window"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -7,7 +7,7 @@ ms.assetid: e970d936-1df4-4c0c-96e3-ef6191295882
 ms.technology: vs-ide-mobile
 author: "ghogen"
 ms.author: "ghogen"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "xamarin"
 ---

@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], server-side data access"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

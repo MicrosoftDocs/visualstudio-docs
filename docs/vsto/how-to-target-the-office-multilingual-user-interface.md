@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "Office applications [Office development in Visual Studio], globalization"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

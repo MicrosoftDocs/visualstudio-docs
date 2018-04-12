@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "worksheets, automating"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

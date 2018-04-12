@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: e40f82f5-88fe-4a9b-b594-3605f42773ec
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "dotnet"
 ---

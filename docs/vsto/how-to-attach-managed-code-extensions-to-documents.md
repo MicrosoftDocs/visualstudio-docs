@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], managed code extensions"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

@@ -21,7 +21,7 @@ helpviewer_keywords:
 description: "Learn how to install the free Dotfuscator Community Edition included in Visual Studio 2017."
 ms.assetid: f2146651-e24a-4e24-ade8-8ddee8ff4e43
 author: "Joe-Sewell-PreEmptive"
-manager: ghogen
+manager: douge
 ---
 
 # Install Dotfuscator Community Edition (CE)

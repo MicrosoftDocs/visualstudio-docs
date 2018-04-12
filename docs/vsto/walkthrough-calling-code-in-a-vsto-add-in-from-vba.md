@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "calling code from VBA"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

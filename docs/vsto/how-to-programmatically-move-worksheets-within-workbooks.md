@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "workbooks, moving worksheets in"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

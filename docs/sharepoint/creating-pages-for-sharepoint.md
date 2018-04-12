@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "page layouts[SharePoint development in Visual Studio], designing"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

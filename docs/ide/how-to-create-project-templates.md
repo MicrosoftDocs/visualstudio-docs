@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "project templates [Visual Studio], creating"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ---
 # How to: Create project templates
 

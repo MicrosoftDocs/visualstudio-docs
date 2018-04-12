@@ -6,7 +6,7 @@ ms.topic: "article"
 ms.assetid: 42178ae8-be6c-4df6-9b7a-cdac24d71dd2
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.technology: "vs-data-tools"
 ms.workload: 
   - "data-storage"

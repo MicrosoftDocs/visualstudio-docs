@@ -6,7 +6,7 @@ ms.technology: vs-ide-general
 ms.topic: "article"
 author: "kuhlenh"
 ms.author: "kaseyu"
-manager: ghogen
+manager: douge
 ms.workload:
   - "dotnet"
 ---

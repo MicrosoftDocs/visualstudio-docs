@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "mail items [Office development in Visual Studio], about mail items"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

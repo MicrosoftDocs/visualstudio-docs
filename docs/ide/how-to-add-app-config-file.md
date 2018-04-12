@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "app.config files, adding to C# projects"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "dotnet"
 ---

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "spelling, checking in worksheets"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

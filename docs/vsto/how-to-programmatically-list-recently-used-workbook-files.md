@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "recent file list, Excel"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

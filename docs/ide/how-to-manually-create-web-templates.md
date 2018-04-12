@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "project templates [Visual Studio], Web"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ---
 # How to: Manually create Web templates
 

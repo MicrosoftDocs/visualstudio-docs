@@ -8,7 +8,7 @@ ms.topic: "article"
 ms.assetid: b07d3074-0fc9-45e1-baf5-da6bd4f3f1c0
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

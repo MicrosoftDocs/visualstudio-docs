@@ -7,7 +7,7 @@ ms.technology:
 ms.topic: "article"
 author: "carpediemma"
 ms.author: "emrou"
-manager: "ghogen"
+manager: douge
 ms.workload: 
   - "multiple"
 ---

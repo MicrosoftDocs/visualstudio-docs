@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "e-mail [Office development in Visual Studio], Outlook solutions"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

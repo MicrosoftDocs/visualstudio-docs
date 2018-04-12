@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "SharePoint projects, extending"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

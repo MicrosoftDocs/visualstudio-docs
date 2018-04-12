@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "worksheets, adding controls at run time"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

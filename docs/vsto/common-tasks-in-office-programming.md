@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "Office development in Visual Studio, frequently asked questions"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

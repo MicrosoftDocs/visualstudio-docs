@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, adding custom commands"
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ms.technology: vs-ide-modeling

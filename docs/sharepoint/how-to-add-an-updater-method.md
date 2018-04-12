@@ -19,7 +19,7 @@ helpviewer_keywords:
   - "BDC [SharePoint development in Visual Studio], updating entity instances"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

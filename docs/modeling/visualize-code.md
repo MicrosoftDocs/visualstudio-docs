@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "code, exploring"
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

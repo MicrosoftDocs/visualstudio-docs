@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "host items [Office development in Visual Studio], exposing code to VBA"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

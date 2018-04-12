@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "code snippets, Code Snippet Picker"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

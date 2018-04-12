@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "Devenv, /setup switch"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ---
 # /Setup (devenv.exe)
 

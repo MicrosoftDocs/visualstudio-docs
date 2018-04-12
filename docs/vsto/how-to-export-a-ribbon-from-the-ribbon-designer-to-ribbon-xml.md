@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "exporting Ribbon"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

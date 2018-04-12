@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "<document> element"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "Office primary interop assemblies"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

@@ -20,7 +20,7 @@ helpviewer_keywords:
   - "columns [Office development in Visual Studio], ungrouping"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

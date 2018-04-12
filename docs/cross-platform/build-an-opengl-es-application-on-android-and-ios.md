@@ -9,7 +9,7 @@ dev_langs:
 ms.assetid: 76a67886-df57-4a81-accb-2e3c2eaf607b
 author: "corob-msft"
 ms.author: "corob"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "xplat-cplusplus"
 ---

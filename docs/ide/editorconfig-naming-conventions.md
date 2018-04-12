@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "EditorConfig naming conventions"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.technology: vs-ide-general
 ms.workload:
   - "multiple"

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "mail items [Office development in Visual Studio], unread mail"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

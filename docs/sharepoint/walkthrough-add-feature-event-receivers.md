@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, feature event receivers"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

@@ -7,7 +7,7 @@ helpviewer_keywords:
 ms.assetid: 9649226a-857d-41ef-8ec7-047b6e498033
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.technology: vs-ide-test
 ---
 # Modify Load Test Logging Settings

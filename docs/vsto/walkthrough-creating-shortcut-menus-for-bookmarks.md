@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "menus, creating in Office applications"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "data sources, defining with configuration files"
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "globalization [Office development in Visual Studio], configuring"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "referencing components, troubleshooting"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

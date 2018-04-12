@@ -23,7 +23,7 @@ helpviewer_keywords:
   - "ProjectItem element"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

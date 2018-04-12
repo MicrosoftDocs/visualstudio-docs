@@ -7,7 +7,7 @@ ms.topic: "article"
 ms.assetid: 65f4868b-b864-4989-a275-1e51869ef599
 author: "corob"
 ms.author: "mblome"
-manager: ghogen
+manager: douge
 f1_keywords: 
   - VC.Project.VCConfiguration.OutputDirectory
   - VC.Project.VCConfiguration.IntermediateDirectory

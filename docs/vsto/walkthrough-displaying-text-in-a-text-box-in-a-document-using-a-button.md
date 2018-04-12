@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "text boxes, displaying text in documents"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

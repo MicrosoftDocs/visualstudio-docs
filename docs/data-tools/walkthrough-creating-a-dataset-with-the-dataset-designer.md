@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "datasets [Visual Basic], creating"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.technology: "vs-data-tools"
 ms.workload: 
   - "data-storage"

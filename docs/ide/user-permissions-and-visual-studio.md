@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "permissions"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

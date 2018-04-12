@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "shapes [Office development in Visual Studio], adding Visio shapes"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

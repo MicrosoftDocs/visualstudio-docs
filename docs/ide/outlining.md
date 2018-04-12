@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "outlining code"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

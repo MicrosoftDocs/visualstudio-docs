@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "updating templates [Visual Studio]"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ---
 # How to: Update existing templates
 

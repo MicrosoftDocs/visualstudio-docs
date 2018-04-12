@@ -30,7 +30,7 @@ helpviewer_keywords:
   - "ThisAddIn_Shutdown"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

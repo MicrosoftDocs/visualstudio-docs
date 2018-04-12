@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "exposing code to VBA"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

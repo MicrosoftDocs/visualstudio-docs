@@ -6,7 +6,7 @@ ms.topic: "article"
 ms.assetid: ac600581-8fc8-49e3-abdf-1569a3483d74
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "uwp"
 ---

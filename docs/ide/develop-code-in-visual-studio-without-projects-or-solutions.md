@@ -9,7 +9,7 @@ helpviewer_keywords:
   - projects and solutions, develop code without
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ---

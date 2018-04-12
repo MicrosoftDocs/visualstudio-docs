@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "data caching [Office development in Visual Studio], Master/Detail Relation"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

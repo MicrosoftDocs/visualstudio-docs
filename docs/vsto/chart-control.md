@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "Chart control [Office development in Visual Studio], data binding"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

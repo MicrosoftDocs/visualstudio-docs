@@ -7,7 +7,7 @@ helpviewer_keywords:
 ms.assetid: 6fe13be1-aeb5-4927-9bff-35950e194da9
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.technology: vs-ide-test
 ---
 # How to: Create a Recorder Plug-In

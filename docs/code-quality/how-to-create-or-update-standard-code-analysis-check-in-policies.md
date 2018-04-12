@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "code analysis, migrating check-in policy"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "C#, code snippets"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "dotnet"
 ---

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "copying data, Office development in Visual Studio"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

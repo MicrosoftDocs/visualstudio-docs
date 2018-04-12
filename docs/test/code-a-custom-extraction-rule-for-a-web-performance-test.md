@@ -12,7 +12,7 @@ dev_langs:
   - VB
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.technology: vs-ide-test
 ---
 # Coding a custom extraction rule for a web performance test

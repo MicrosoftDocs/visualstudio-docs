@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "Outlook calendars [Office development in Visual Studio], creating appointments"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "smart documents [Office development in Visual Studio], control layout"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

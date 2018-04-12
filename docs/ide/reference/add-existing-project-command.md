@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 71cf3e31-c76b-405b-ad6a-1b1bc654bd40
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

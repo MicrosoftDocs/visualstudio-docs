@@ -20,7 +20,7 @@ helpviewer_keywords:
   - "Microsoft Office Menu"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

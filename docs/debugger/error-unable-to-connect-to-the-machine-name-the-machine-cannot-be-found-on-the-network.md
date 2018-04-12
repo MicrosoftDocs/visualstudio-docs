@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "DCOM, unable to connect error"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

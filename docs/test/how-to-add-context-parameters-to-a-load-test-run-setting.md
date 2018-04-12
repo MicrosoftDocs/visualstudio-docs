@@ -8,7 +8,7 @@ helpviewer_keywords:
 ms.assetid: a8a0b97e-8040-4711-85ab-36548b130ed2
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.technology: vs-ide-test
 ---
 # How to: Add Context Parameters to a Load Test Run Setting

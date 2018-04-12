@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "unit tests, data-driven"
   - "data-driven unit tests"
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 author: gewarren

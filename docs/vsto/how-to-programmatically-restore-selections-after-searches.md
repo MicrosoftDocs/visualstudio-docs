@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "selections, restoring after a search"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

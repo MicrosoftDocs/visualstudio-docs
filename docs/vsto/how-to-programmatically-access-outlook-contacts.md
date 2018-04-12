@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "contacts [Office development in Visual Studio], searching"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

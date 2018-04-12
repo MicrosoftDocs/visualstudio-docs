@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "Excel [Office development in Visual Studio], walkthroughs"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

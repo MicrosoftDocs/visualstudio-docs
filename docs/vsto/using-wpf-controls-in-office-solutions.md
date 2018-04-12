@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "WPF [Office development in Visual Studio]"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

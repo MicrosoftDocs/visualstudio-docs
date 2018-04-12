@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "Office development in Visual Studio, samples"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

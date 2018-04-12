@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "multi-project templates"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ---
 # How to: Create multi-project templates
 

@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "calendars [Office development in Visual Studio], meeting requests"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

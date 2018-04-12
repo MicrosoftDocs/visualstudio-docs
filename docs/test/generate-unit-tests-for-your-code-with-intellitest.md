@@ -6,7 +6,7 @@ ms.topic: "article"
 f1_keywords: 
   - "vs.UnitTest.CreateIntelliTest"
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 author: gewarren

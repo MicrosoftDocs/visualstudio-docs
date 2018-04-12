@@ -6,7 +6,7 @@ ms.topic: "article"
 helpviewer_keywords: 
   - "unit testing, create unit test plans"
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 author: gewarren

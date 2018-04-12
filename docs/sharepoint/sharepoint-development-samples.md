@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, samples"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

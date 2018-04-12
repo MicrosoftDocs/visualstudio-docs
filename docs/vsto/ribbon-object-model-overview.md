@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "Ribbon [Office development in Visual Studio], object model"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

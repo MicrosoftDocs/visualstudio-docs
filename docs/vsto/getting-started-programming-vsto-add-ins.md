@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "add-ins [Office development in Visual Studio], getting started"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

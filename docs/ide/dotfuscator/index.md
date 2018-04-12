@@ -16,7 +16,7 @@ helpviewer_keywords:
 description: "Learn how you can protect your .NET applications with the free Dotfuscator Community Edition included in Visual Studio 2017."
 ms.assetid: d9550502-0a82-49a6-b005-2caa791fbe02
 author: "Joe-Sewell-PreEmptive"
-manager: ghogen
+manager: douge
 ---
 
 # Dotfuscator Community Edition (CE)

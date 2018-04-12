@@ -16,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: 5a7bb668-1d0c-4ffe-9508-24592813162e
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "dotnet"
 ---

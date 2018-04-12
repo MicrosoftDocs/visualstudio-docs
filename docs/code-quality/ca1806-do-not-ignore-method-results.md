@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: fd805687-0817-481e-804e-b62cfb3b1076
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ---
 # CA1806: Do not ignore method results
 |||  

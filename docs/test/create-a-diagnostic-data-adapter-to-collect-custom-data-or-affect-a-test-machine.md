@@ -8,7 +8,7 @@ helpviewer_keywords:
 ms.assetid: b0b53fae-7007-4ad9-a604-21685937622f
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.technology: vs-ide-test
 ---
 # Create a Diagnostic Data Adapter to Collect Custom Data or Affect a Test Machine

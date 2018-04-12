@@ -11,7 +11,7 @@ ms.custom: ""
 ms.reviewer: "Jamie.Young"
 ms.technology: 
   - "vs-ide-sdk"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "v-brickg"
 ---

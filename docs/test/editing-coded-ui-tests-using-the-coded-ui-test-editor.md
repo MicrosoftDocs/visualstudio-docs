@@ -8,7 +8,7 @@ f1_keywords:
 helpviewer_keywords:
   - "coded UI test, Coded UI Test Editor"
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 author: gewarren

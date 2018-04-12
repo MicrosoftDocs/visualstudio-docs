@@ -7,7 +7,7 @@ helpviewer_keywords:
 ms.assetid: 24970227-d1ea-4f6d-9839-e911478848ba
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.technology: vs-ide-test
 ---
 # How to: Create a Custom Editor for Data for Your Diagnostic Data Adapter

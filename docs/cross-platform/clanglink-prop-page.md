@@ -7,7 +7,7 @@ ms.topic: "article"
 ms.assetid: 66e88848-116c-4eb0-bc57-183394d35b57
 author: "corob"
 ms.author: "mblome"
-manager: ghogen
+manager: douge
 f1_keywords: 
   - VC.Project.VCLinkerTool.OutputFile
   - VC.Project.VCLinkerTool.ShowProgress

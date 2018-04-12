@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "spelling checker, documents"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "Diagnostics Tools, CPU Usage"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: douge
 ms.workload: 
   - "dotnet"
 ---

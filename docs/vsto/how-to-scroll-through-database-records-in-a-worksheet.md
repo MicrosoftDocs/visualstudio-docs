@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "worksheets [Office development in Visual Studio], scrolling records"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

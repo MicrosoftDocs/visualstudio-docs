@@ -11,7 +11,7 @@ dev_langs:
 helpviewer_keywords: 
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

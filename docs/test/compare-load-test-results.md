@@ -8,7 +8,7 @@ helpviewer_keywords:
 ms.assetid: 31874114-459a-45d5-9f8b-2ea503627db8
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.technology: vs-ide-test
 ---
 # Reporting Load Tests Results for Test Comparisons or Trend Analysis

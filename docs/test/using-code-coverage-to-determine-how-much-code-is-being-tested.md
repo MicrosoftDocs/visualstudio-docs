@@ -10,7 +10,7 @@ dev_langs:
   - "VB"
   - "CPP"
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 author: gewarren
