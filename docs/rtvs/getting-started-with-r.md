@@ -3,7 +3,6 @@ title: Getting started with R
 description: A walkthrough of using R in Visual Studio including project creation, the interactive window, code editing, and debugging.
 ms.custom:
 ms.date: 06/29/2017
-ms.reviewer:
 ms.technology: 
   - "devlang-r"
 dev_langs:

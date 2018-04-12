@@ -3,7 +3,6 @@ title: Sample R projects
 description: An index of a collection of samples to get started with R and Visual Studio.
 ms.custom:
 ms.date: 01/24/2018
-ms.reviewer:
 ms.technology: 
   - "devlang-r"
 dev_langs:

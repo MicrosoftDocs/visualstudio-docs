@@ -3,7 +3,6 @@ title: Package manager for R
 description: How to use the R package manager in Visual Studio to install and manager R packages.
 ms.custom:
 ms.date: 01/24/2018
-ms.reviewer:
 ms.technology: 
   - "devlang-r"
 dev_langs:

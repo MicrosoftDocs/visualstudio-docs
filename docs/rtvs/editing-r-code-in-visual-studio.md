@@ -3,7 +3,6 @@ title: Editing R code
 description: Visual Studio provides a tailored editing experience for R while retaining all the features and the ability to use extensions.
 ms.custom:
 ms.date: 01/24/2018
-ms.reviewer:
 ms.technology: 
   - "devlang-r"
 dev_langs:

@@ -3,7 +3,6 @@ title: Working with C++ and Python
 description: A walkthrough of creating a C++ extension for Python using Visual Studio, including a walkthrough of mixed-mode debugging.
 ms.custom:
 ms.date: 04/03/2018
-ms.reviewer:
 ms.technology: 
   - "devlang-python"
 dev_langs:

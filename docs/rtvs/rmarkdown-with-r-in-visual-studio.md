@@ -3,7 +3,6 @@ title: R Markdown
 description: How to create R Markdown documents in Visual Studio to produce high-quality reports, presentations, and dashboards.
 ms.custom:
 ms.date: 11/16/2017
-ms.reviewer:
 ms.technology: 
   - "devlang-r"
 dev_langs:

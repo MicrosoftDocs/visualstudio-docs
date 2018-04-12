@@ -3,7 +3,6 @@ title: Visualizing data with R
 description: How to plot data from R programs in Visual Studio, using plot windows.
 ms.custom:
 ms.date: 06/29/2017
-ms.reviewer:
 ms.technology: 
   - "devlang-r"
 dev_langs:

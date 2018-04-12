@@ -3,7 +3,6 @@ title: Help Window for R
 description: Help for R is integrated directly into the interactive window in Visual Studio through the ? command.
 ms.custom:
 ms.date: 001/24/2018
-ms.reviewer:
 ms.technology: 
   - "devlang-r"
 dev_langs:

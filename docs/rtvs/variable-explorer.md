@@ -3,7 +3,6 @@ title: Variable Explorer for R
 description: The Variable Explorer in Visual Studio shows all variables at a given scope in the current R session.
 ms.custom:
 ms.date: 01/24/2018
-ms.reviewer:
 ms.technology: 
   - "devlang-r"
 dev_langs:

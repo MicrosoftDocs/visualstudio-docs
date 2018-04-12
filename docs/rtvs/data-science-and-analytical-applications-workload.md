@@ -3,7 +3,6 @@ title: Data Science and Analytical Applications workload
 description: The Data Science and Analytical Applications workload in Visual Studio brings together Python, R, F#, and their respective runtime distributions including Anaconda.
 ms.custom:
 ms.date: 01/24/2018
-ms.reviewer:
 ms.technology: 
   - "devlang-r"
   - "devlang-python"

@@ -3,7 +3,6 @@ title: Options and settings for Python
 description: A reference for the various settings in Visual Studio that relate to Python code and projects.
 ms.custom:
 ms.date: 03/05/2018
-ms.reviewer:
 ms.technology: 
   - "devlang-python"
 dev_langs:

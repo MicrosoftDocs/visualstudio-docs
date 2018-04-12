@@ -3,7 +3,6 @@ title: Quickstart - Create a Python project using Cookiecutter
 description: In this quickstart, you create a Visual Studio project for Python using a Cookiecutter template.
 ms.custom: "mvc"
 ms.date: 09/22/2017
-ms.reviewer:
 ms.technology: 
   - "devlang-python"
 dev_langs:
