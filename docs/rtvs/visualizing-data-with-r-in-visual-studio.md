@@ -1,5 +1,5 @@
 ---
-title: Visualizing data with the R Tools for Visual Studio | Microsoft Docs
+title: Visualizing data with R
 description: How to plot data from R programs in Visual Studio, using plot windows.
 ms.custom:
 ms.date: 06/29/2017

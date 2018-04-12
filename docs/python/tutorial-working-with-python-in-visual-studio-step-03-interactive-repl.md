@@ -1,5 +1,5 @@
 ---
-title: Working with Python, Step 3, the Interactive REPL Window | Microsoft Docs
+title: Working with Python, step 3, the interactive REPL window
 description: Step 3 of a core tutorial for working with Python within Visual Studio, covering the Python Interactive REPL window.
 ms.custom: "mvc"
 ms.date: 01/16/2018

@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "{{PLACEHOLDER}}"
   - "{{PLACEHOLDER}}"
 ms.assetid: 35C7AB05-07D5-4B38-BCAC-AB88444E7368
-author: "tglee"
+author: "TerryGLee"
 ms.author: "tglee"
 manager: douge
 ms.workload:
