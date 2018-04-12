@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio Connected Environment | Microsoft Docs"
+title: "Create a .NET Core development environment with containers using Kubernetes in the cloud - Step 7 - Summary | Microsoft Docs"
 author: "johnsta"
 ms.author: "johnsta"
 ms.date: "02/20/2018"
@@ -13,9 +13,9 @@ manager: "ghogen"
 
 Previous step: [Learn about team development](get-started-netcore-06.md)
 
-[!INCLUDE[](common/well-done.md)]
+[!INCLUDE[](includes/well-done.md)]
 
-[!INCLUDE[](common/take-survey.md)]
+[!INCLUDE[](includes/take-survey.md)]
 
-[!INCLUDE[](common/clean-up.md)]
+[!INCLUDE[](includes/clean-up.md)]
  

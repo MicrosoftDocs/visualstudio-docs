@@ -1,7 +1,7 @@
 ---
-title: Working with Python in Visual Studio, Step 1, Creating a Project | Microsoft Docs
+title: Working with Python, step 1, creating a project
 description: Step 1 of a core tutorial for working with Python within Visual Studio, outlining the whole tutorial, describing prerequisites, and walking through the process of creating a new Python project.
-ms.custom:
+ms.custom: "mvc"
 ms.date: 01/16/2018
 ms.reviewer:
 ms.suite:
@@ -13,7 +13,7 @@ ms.tgt_pltfrm:
 ms.topic: "tutorial"
 author: "kraigb"
 ms.author: "kraigb"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "python"
   - "data-science"
@@ -67,7 +67,7 @@ In this tutorial you begin with a simple project containing a single, empty code
 
     (3) Under your project you see source files, in this case only a single `.py` file. Selecting a file displays its properties in the Properties window. Double-clicking a file opens it in whatever way is appropriate for that file.
 
-    (4) Also under the project is the **Python Environments** node. When expanded, you see the available Python interpreters that are available to you. Expand an interpreter node to see the libraries that are installed into that environment (5).
+    (4) Also under the project is the **Python Environments** node. When expanded, you see the Python interpreters that are available to you. Expand an interpreter node to see the libraries that are installed into that environment (5).
 
     Right-click any node or item in Solution Explorer to access a menu of applicable commands. For example, the **Rename** command allows you to change the name of any node or item, including the project and the solution.
 

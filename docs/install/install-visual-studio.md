@@ -5,13 +5,13 @@ ms.custom: ""
 ms.date: "12/04/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-acquisition"
 ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
-f1_keywords: 
+ms.topic: "conceptual"
+f1_keywords:
   - "vs.about"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "install Visual Studio"
   - "dev15"
   - "set up Visual Studio"
@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "Visual Studio installer"
 author: "TerryGLee"
 ms.author: "tglee"
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # Install Visual Studio 2017

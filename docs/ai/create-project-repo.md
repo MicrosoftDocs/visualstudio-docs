@@ -1,13 +1,14 @@
 ---
+ms.technology: vs-ai-tools
 ---
 # Clone a repository of Python code in Visual Studio
 
 Once you've [installed Visual Studio Tools for AI](installation.md), you can easily clone a repository of Python code and create a project from it.
 
 1. To connect to GitHub repositories, run the Visual Studio installer, select **Modify**, and select the **Individual components** tab. Scroll down to the **Code tools** section, select **GitHub extension for Visual Studio**, and select **Modify**.
-    
+
     ![Selecting the GitHub extension in the Visual Studio installer](media\create-project-repo\installation-github-extension.png)
-    
+
 2. Launch Visual Studio.
 
 3. Select **View > Team Explorer...** to open the **Team Explorer** window in which you can connect to GitHub or Visual Studio Team Services, or clone a repository.

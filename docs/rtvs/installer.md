@@ -1,5 +1,5 @@
 ---
-title: Welcome to R Tools for Visual Studio | Microsoft Docs
+title: Welcome to R Tools for Visual Studio
 description: Summary information for developers who have installed R Tools for Visual Studio.
 ms.custom:
 ms.date: 01/24/2018
@@ -10,10 +10,10 @@ ms.technology:
 dev_langs:
   - "R"
 ms.tgt_pltfrm:
-ms.topic: "article"
+ms.topic: "conceptual"
 author: "kraigb"
 ms.author: "kraigb"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "data-science"
 ---

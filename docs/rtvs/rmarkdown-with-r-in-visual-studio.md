@@ -1,5 +1,5 @@
 ---
-title: R Markdown with R Tools for Visual Studio | Microsoft Docs
+title: R Markdown
 description: How to create R Markdown documents in Visual Studio to produce high-quality reports, presentations, and dashboards.
 ms.custom:
 ms.date: 11/16/2017
@@ -10,10 +10,10 @@ ms.technology:
 dev_langs:
   - "R"
 ms.tgt_pltfrm:
-ms.topic: "article"
+ms.topic: "conceptual"
 author: "kraigb"
 ms.author: "kraigb"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "data-science"
 ---

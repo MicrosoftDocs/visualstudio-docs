@@ -1,21 +1,21 @@
 ---
 title: Visual Studio Test Controller 2017 workload and component IDs | Microsoft Docs
 description: "Use Visual Studio workload and component IDs to distribute automated tests to multiple machines"
-keywords: 
+keywords:
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
-ms.date: 12/1/2017
-ms.topic: article
-helpviewer_keywords: 
+manager: douge
+ms.date: 03/05/2018
+ms.topic: reference
+helpviewer_keywords:
   - "workload ID, Visual Studio"
   - "component ID, Visual Studio"
   - "install Visual Studio, administrator guide"
-ms.service: 
-ms.technology: 
+ms.service:
+ms.technology:
   - "vs-acquisition"
 ms.assetid: fbbda9c8-d2c6-474d-b52d-a95227d52fe7
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 
@@ -41,7 +41,7 @@ For more information about how to use these IDs, see [Use Command-Line Parameter
 
 Component ID | Name | Version | Dependency type
 --- | --- | --- | ---
-Microsoft.VisualStudio.ComponentGroup.TestTools.TestController | Test Controller core features | 15.0.27128.1 | Required
+Microsoft.VisualStudio.ComponentGroup.TestTools.TestController | Test Controller core features | 15.6.27309.0 | Required
 
 ## Unaffiliated components
 

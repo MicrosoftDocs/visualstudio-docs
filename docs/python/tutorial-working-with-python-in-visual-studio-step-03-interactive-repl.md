@@ -1,7 +1,7 @@
 ---
-title: Working with Python in Visual Studio, Step 3, the Interactive REPL Window | Microsoft Docs
+title: Working with Python, step 3, the interactive REPL window
 description: Step 3 of a core tutorial for working with Python within Visual Studio, covering the Python Interactive REPL window.
-ms.custom:
+ms.custom: "mvc"
 ms.date: 01/16/2018
 ms.reviewer:
 ms.suite:
@@ -13,7 +13,7 @@ ms.tgt_pltfrm:
 ms.topic: "tutorial"
 author: "kraigb"
 ms.author: "kraigb"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "python"
   - "data-science"
@@ -27,7 +27,7 @@ The Visual Studio *interactive window* for Python provides a rich read-evaluate-
 
 1. Open the interactive window by right-clicking the project's Python environment in Solution Explorer (such as "Python 3.6 (32-bit)" shown in an earlier graphic) and selecting **Open Interactive Window**. You can alternately select **View > Other Windows > Python Interactive Windows** from the main Visual Studio menu.
 
-1. The interactive window opens below the editor with the usual `>>>` Python REPL prompt. Oftentimes you want to make the interactive window larger, which you can do by dragging the separator between the two windows:
+1. The interactive window opens below the editor with the standard `>>>` Python REPL prompt. The **Environment** drop-down list allows you to select a specific interpreter to work with. Oftentimes you also want to make the interactive window larger, which you can do by dragging the separator between the two windows:
 
     ![Python interactive window and dragging to resize](media/vs-getting-started-python-11-interactive1b.png)
 
@@ -96,7 +96,7 @@ The Visual Studio *interactive window* for Python provides a rich read-evaluate-
 > [!div class="nextstepaction"]
 > [Running code in the debugger](tutorial-working-with-python-in-visual-studio-step-04-debugging.md)
 
-### Going deeper
+## Going deeper
 
 - [Using the Interactive Window](python-interactive-repl-in-visual-studio.md)
 - [Using IPython REPL](interactive-repl-ipython.md)

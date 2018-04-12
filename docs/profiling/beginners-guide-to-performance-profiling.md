@@ -7,7 +7,7 @@ ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
 ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.topic: "tutorial"
 f1_keywords: 
   - "vs.performance.wizard.intropage"
 helpviewer_keywords: 
@@ -35,6 +35,15 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
 |  ![movie camera icon for video](../install/media/video-icon.png "Watch a video")  |    [Watch a video](https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Profiling-with-Diagnostics-Tools-in-Visual-Studio-2017-daHnzMD6D_9211787171) on using the diagnostics tools that shows how to analyze CPU usage and how to analyze memory usage. |
 
 In this topic, we'll discuss analyzing CPU usage in your normal debugging workflow. You can also analyze CPU usage without a debugger attached or by targeting a running app - for more information see [Collect profiling data without debugging](../profiling/running-profiling-tools-with-or-without-the-debugger.md#collect-profiling-data-without-debugging) in [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
+
+> [!NOTE]
+> For .NET Core and ASP.NET Core, the CPU Usage tool currently does not provide accurate results with portable PBDs. Use full PDBs instead.
+
+In this tutorial, you will:
+
+> [!div class="checklist"]
+> * Collect CPU usage data
+> * Analyze CPU usage data
   
 ##  <a name="BKMK_Quick_start__Collect_diagnostic_data"></a> Step 1: Collect profiling data 
   
@@ -147,9 +156,10 @@ Use the search box to find a node that you are looking for, then use the horizon
 
 > [!TIP]
 > If you profile external code that calls Windows functions, you should make sure that you have the most current .pdb files. Without these files, your report views will list Windows function names that are cryptic and difficult to understand. For more information about how to make sure that you have the files you need, see [Specify Symbol (.pdb) and Source Files in the Debugger](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).
-  
-## See Also  
- [Memory Usage](../profiling/memory-usage.md)  
- [CPU Usage](../profiling/cpu-usage.md)  
- [Profiling in Visual Studio](../profiling/index.md)  
- [Profiling Feature Tour](../profiling/profiling-feature-tour.md)
+
+## Next steps
+
+In this tutorial, you've learned how to collect and analyze CPU usage data. If you already completed the [tour of the profiler](../profiling/profiling-feature-tour.md), you may want to get a quick look at how to analyze memory usage in your apps.
+
+> [!div class="nextstepaction"]
+> [Analyze memory Usage](../profiling/memory-usage.md) 

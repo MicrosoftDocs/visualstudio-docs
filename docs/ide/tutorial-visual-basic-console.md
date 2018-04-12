@@ -4,20 +4,19 @@ ms.custom: ""
 ms.date: "12/08/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-acquisition"
 ms.tgt_pltfrm: ""
 ms.topic: "tutorial"
 ms.devlang: "vb"
 author: "TerryGLee"
 ms.author: "tglee"
-manager: ghogen
-dev_langs: 
+manager: douge
+dev_langs:
   - vb
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
-
 
 # Getting started with Visual Basic in Visual Studio
 In this tutorial for Visual Basic (VB), you'll use Visual Studio to create and run a few different console apps, and explore some features of the Visual Studio [integrated development environment (IDE)](visual-studio-ide.md) while you do so.
@@ -122,9 +121,9 @@ Let's create an app that prompts you for your name and then displays it along wi
 
     ![Console window showing the CaluculateThis app, which includes prompts on which actions to take.](../ide/media/vb-console-calculate-this.png)
 
-Congratulations on completing this tutorial!
+## Next steps
+Congratulations on completing this tutorial! To learn even more about Visual Basic and the Visual Studio IDE, see the following pages.
 
-## See also
 * [Visual Basic Guide](/dotnet/visual-basic/index)
 * [What's new in Visual Basic](/dotnet/visual-basic/getting-started/whats-new)
 * [IntelliSense for Visual Basic code files](visual-basic-specific-intellisense.md)

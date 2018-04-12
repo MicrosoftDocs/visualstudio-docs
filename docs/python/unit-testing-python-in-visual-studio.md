@@ -1,5 +1,5 @@
 ---
-title: Unit testing for Python in Visual Studio | Microsoft Docs
+title: Unit testing for Python
 description: Setting up unit testing for Python code in Visual Studio to take full advantage of Test Explorer features to discover, run, and debug tests.
 ms.custom:
 ms.date: 07/13/2017
@@ -10,10 +10,10 @@ ms.technology:
 dev_langs:
   - "python"
 ms.tgt_pltfrm:
-ms.topic: "article"
+ms.topic: "conceptual"
 author: "kraigb"
 ms.author: "kraigb"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "python"
   - "data-science"
@@ -33,22 +33,22 @@ This article provides a brief outline of unit testing capabilities in Visual Stu
 
 ## Discovering and viewing tests
 
-By convention, Visual Studio identifies tests are as methods whose names start with `test`. To see this behavior, do the following:
+By convention, Visual Studio identifies tests as methods whose names start with `test`. To see this behavior, do the following:
 
 1. Open a [Python project](managing-python-projects-in-visual-studio.md) loaded in Visual Studio, right-click your project, select **Add > New Item...**, then select **Python Unit Test** followed by **Add**.
 
 1. This action creates a `test1.py` file with code that imports the standard `unittest` module, derives a test class from `unittest.TestCase`, and invokes `unittest.main()` if you run the script directly:
 
-  ```python
-  import unittest
+    ```python
+    import unittest
 
-  class Test_test1(unittest.TestCase):
-      def test_A(self):
-          self.fail("Not implemented")
+    class Test_test1(unittest.TestCase):
+        def test_A(self):
+            self.fail("Not implemented")
 
-  if __name__ == '__main__':
-      unittest.main()
-  ```
+    if __name__ == '__main__':
+        unittest.main()
+    ```
 
 1. Save the file if necessary, then open Test Explorer with the **Test > Windows > Test Explorer** menu command.
 

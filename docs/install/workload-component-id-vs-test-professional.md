@@ -1,21 +1,21 @@
 ---
 title: Visual Studio Test Professional 2017 workload and component IDs | Microsoft Docs
 description: "Use Visual Studio workload and component IDs to provide integrated testing tools for generalist testers"
-keywords: 
+keywords:
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
-ms.date: 12/01/2017
-ms.topic: article
-helpviewer_keywords: 
+manager: douge
+ms.date: 03/05/2018
+ms.topic: reference
+helpviewer_keywords:
   - "workload ID, Visual Studio"
   - "component ID, Visual Studio"
   - "install Visual Studio, administrator guide"
-ms.service: 
-ms.technology: 
+ms.service:
+ms.technology:
   - "vs-acquisition"
 ms.assetid: 70c03438-8434-4921-ada0-c172519af431
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 
@@ -41,8 +41,8 @@ For more information about how to use these IDs, see [Use Command-Line Parameter
 
 Component ID | Name | Version | Dependency type
 --- | --- | --- | ---
-Microsoft.VisualStudio.Component.TestTools.FeedbackClient | Microsoft Feedback Client | 15.0.27005.2 | Required
-Microsoft.VisualStudio.Component.TestTools.MicrosoftTestManager | Microsoft Test Manager | 15.0.27005.2 | Required
+Microsoft.VisualStudio.Component.TestTools.FeedbackClient | Microsoft Feedback Client | 15.6.27406.0 | Required
+Microsoft.VisualStudio.Component.TestTools.MicrosoftTestManager | Microsoft Test Manager | 15.6.27406.0 | Required
 
 ## Unaffiliated components
 

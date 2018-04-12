@@ -1,18 +1,19 @@
 ---
-title: How Python search paths are applied in Visual Studio | Microsoft Docs
+title: How Python search paths are applied
+description: An overview of how Visual Studio uses Python search paths in both environments and projects.
 ms.custom: ""
 ms.date: 03/05/2018
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "devlang-python"
 ms.devlang: python
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 author: "kraigb"
 ms.author: "kraigb"
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "python"
   - "data-science"
 ---
@@ -25,9 +26,9 @@ With typical Python usage, the `PYTHONPATH` environment variable (or `IRONPYTHON
 1. The folder containing the Python code you're running.
 1. The "module search path" as defined by the applicable environment variable. (See [The Module Search Path](https://docs.python.org/2/tutorial/modules.html#the-module-search-path) and [Environment variables](https://docs.python.org/2/using/cmdline.html#envvar-PYTHONPATH) in the core Python documentation.)
 
-Visual Studio ignores the search path environment variable, however, even when the variable is set for the entire system. It's ignored, in fact, precisely *because* it's set for the entire system and thus raises certain questions that cannot be answered automatically: Are the referenced modules meant for Python 2.7 or Python 3.3? Are they going to override standard library modules? Is the developer aware of this behavior or is it a malicious hijacking attempt?
+Visual Studio ignores the search path environment variable, however, even when the variable is set for the entire system. It's ignored, in fact, precisely *because* it's set for the entire system and thus raises certain questions that cannot be answered automatically: Are the referenced modules meant for Python 2.7 or Python 3.6? Are they going to override standard library modules? Is the developer aware of this behavior or is it a malicious hijacking attempt?
 
-Visual Studio thus provides a means to specify search paths directly in both environments and projects. Code that you run or debug in Visual Studio receives search paths in the value of `PYTHONPATH` (and other equivalent variables). By adding search paths, Visual Studio inspects the libraries in those locations and builds IntelliSense databases for them when needed (VIsual Studio 2017 version 15.5 and earlier; constructing the database may take some time depending on the number of libraries).
+Visual Studio thus provides a means to specify search paths directly in both environments and projects. Code that you run or debug in Visual Studio receives search paths in the value of `PYTHONPATH` (and other equivalent variables). By adding search paths, Visual Studio inspects the libraries in those locations and builds IntelliSense databases for them when needed (Visual Studio 2017 version 15.5 and earlier; constructing the database may take some time depending on the number of libraries).
 
 To add a search path, right-click on the **Search Paths** item in Solution Explorer, select **Add Folder to Search Path...**, and select the folder to include. This path is used for any environment associated with the project. (You may see errors if the environment is based on Python 3 and you attempt to add a search path to Python 2.7 modules.)
 

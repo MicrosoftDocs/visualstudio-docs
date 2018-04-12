@@ -1,17 +1,12 @@
 ---
-title: "Managing references in a project | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/26/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
+title: Managing references in a project
+ms.date: 04/11/2018
+ms.technology: vs-ide-general
+ms.topic: conceptual
+f1_keywords:
   - "vs.ProjectPropertiesReferencePaths"
   - "cs.ProjectPropertiesReferencePaths"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "C# projects, references"
   - "referencing objects, project references"
   - "external component references"
@@ -24,19 +19,19 @@ helpviewer_keywords:
   - "objects [Visual Studio], referencing"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
-# Managing references in a project
+# Manage references in a project
 
 Before you write code against an external component or connected service, your project must first contain a reference to it. A reference is essentially an entry in a project file that contains the information that Visual Studio needs to locate the component or the service.
 
-To add a reference, right click on the References node in Solution Explorer and choose **Add Reference**. For more information, see [How to: Add or Remove References By Using the Reference Manager](../ide/how-to-add-or-remove-references-by-using-the-reference-manager.md).
+To add a reference, right click on the **References** or **Dependencies** node in **Solution Explorer** and choose **Add Reference**. You can also right-click on the project node and select **Add** > **Reference**. For more information, see [How to: Add or Remove References](../ide/how-to-add-or-remove-references-by-using-the-reference-manager.md).
 
-![Add a reference in Visual C&#43;&#43;](../ide/media/vs2015_cpp_add_reference.png "vs2015_cpp_add_reference")
+![Add a reference in Visual C&#43;&#43;](../ide/media/vs2015_cpp_add_reference.png)
 
-You can make a reference to the following types of components and services:
+You can add a reference to the following types of components and services:
 
 - .NET Framework class libraries or assemblies
 
@@ -76,11 +71,11 @@ If you determine that the Extension SDK being referenced by your app is not supp
 
 1. Restart Visual Studio and open your app.
 
-1. Right-click on the **References** node in the project that caused the error and choose **Add Reference**.
+1. Right-click on the **References** or **Dependencies** node in the project that caused the error and choose **Add Reference**.
 
 1. Click the **Windows** tab and then the **Extensions** sub-tab, then uncheck the checkboxes for the old Extension SDKs, and check the checkboxes for the new Extension SDKs. Click **OK**.
 
-## Adding a reference at design time
+## Add a reference at design time
 
 When you make a reference to an assembly in your project, Visual Studio searches for the assembly in the following locations:
 
@@ -89,7 +84,9 @@ When you make a reference to an assembly in your project, Visual Studio searches
 - Other project directories in the same solution. (You can find these assemblies on the **Projects** tab.)
 
 > [!NOTE]
-> All projects contain an implied reference to mscorlib. Visual Basic projects contain an implied reference to `Microsoft.VisualBasic`. All projects contain an implied reference to `System.Core`, even if `System.Core` is removed from the list of references.
+> - All projects contain an implied reference to mscorlib.
+> - All projects contain an implied reference to `System.Core`, even if `System.Core` is removed from the list of references.
+> - Visual Basic projects contain an implied reference to `Microsoft.VisualBasic`.
 
 ## References to shared components at run time
 
@@ -99,11 +96,11 @@ If you deploy an application that contains a reference to a custom component tha
 
 By default, the <xref:Microsoft.VisualStudio.VCProjectEngine.VCProjectReference.CopyLocal%2A> property is set to **False** if the assembly or component is in the global assembly cache or is a framework component. Otherwise, the value is set to **True**. Project-to-project references are always set to **True**.
 
-## Referencing a project or assembly that targets a different version of the .NET Framework
+## Reference a project or assembly that targets a different version of the .NET Framework
 
-You can create applications that reference projects or assemblies that target a different version of the .NET Framework. For example, you could create an application that targets the [!INCLUDE[net_client_v40_long](../deployment/includes/net_client_v40_long_md.md)], that references an assembly that targets [!INCLUDE[dnprdnext](../ide/includes/dnprdnext_md.md)]. If you create a project that targets an earlier version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], you cannot set a reference in that project to a project or assembly that targets a newer version.
+You can create applications that reference projects or assemblies that target a different version of the .NET Framework. For example, you could create an application that targets .NET Framework 4.6, that references an assembly that targets .NET Framework 4.5. If you create a project that targets an earlier version of the .NET Framework, you cannot set a reference in that project to a project or assembly that targets a newer version.
 
-For more information, see [Targeting a Specific .NET Framework Version](../ide/targeting-a-specific-dotnet-framework-version.md).
+For more information, see [Multi-targeting overview](../ide/visual-studio-multi-targeting-overview.md).
 
 ## Project-to project references
 
@@ -120,5 +117,5 @@ File references are direct references to assemblies outside the context of a Vis
 
 ## See also
 
-[Troubleshooting Broken References](../ide/troubleshooting-broken-references.md)  
-[How to: Add or Remove References By Using the Reference Manager](../ide/how-to-add-or-remove-references-by-using-the-reference-manager.md)
+- [Troubleshooting broken references](../ide/troubleshooting-broken-references.md)
+- [How to: Add or remove references](../ide/how-to-add-or-remove-references-by-using-the-reference-manager.md)

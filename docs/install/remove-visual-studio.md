@@ -5,11 +5,11 @@ ms.custom: ""
 ms.date: "09/12/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-acquisition"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
+ms.topic: "conceptual"
+f1_keywords:
   - "uninstall"
   - "uninstall Visual Studio"
   - "remove"
@@ -20,9 +20,9 @@ f1_keywords:
   - "clean up Visual Studio"
 ms.assetid: 9c81a777-9c95-4934-b517-c60c6dc78799
 author: "heaths"
-ms.author: "heaths"
-manager: "erickn"
-ms.workload: 
+ms.author: "tglee"
+manager: douge
+ms.workload:
   - "multiple"
 ---
 

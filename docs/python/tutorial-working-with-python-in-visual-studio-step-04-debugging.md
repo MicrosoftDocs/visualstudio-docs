@@ -1,8 +1,8 @@
 ---
-title: Working with Python in Visual Studio, Step 4, Debugging | Microsoft Docs
+title: Working with Python, step 4, debugging
 description: Step 4 of a core tutorial for working with Python within Visual Studio, covering how to run Python code in the debugger.
-ms.custom:
-ms.date: 01/16/2018
+ms.custom: "mvc"
+ms.date: 03/08/2018
 ms.reviewer:
 ms.suite:
 ms.technology: 
@@ -13,7 +13,7 @@ ms.tgt_pltfrm:
 ms.topic: "tutorial"
 author: "kraigb"
 ms.author: "kraigb"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "python"
   - "data-science"
@@ -28,15 +28,14 @@ In addition to managing projects, providing a rich editing experience, and the i
 1. Replace the code in the `PythonApplication1.py` file with the following. This variation of the code expands `make_dot_string` so that you can examine its discrete steps in the debugger. It also places the `for` loop into a `main` function and runs it explicitly by calling that function:
 
     ```python
-    import sys
-    from math import sin, cos, radians
+    from math import cos, radians
 
     # Create a string with spaces proportional to a cosine of x in degrees
     def make_dot_string(x):
         rad = radians(x)                             # cos works with radians
         numspaces = int(20 * cos(radians(x)) + 20)   # scale to 0-40 spaces
-        str = ' ' * numspaces + 'o'                  # place 'o' after the spaces
-        return str
+        st = ' ' * numspaces + 'o'                   # place 'o' after the spaces
+        return st
 
     def main():
         for i in range(0, 1800, 12):

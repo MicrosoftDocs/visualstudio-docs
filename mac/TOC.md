@@ -8,7 +8,7 @@
 
 # [User Accounts](user-accounts.md)
 ## [Signing In](signing-in.md)
-## [Activation](activation.md)
+## [Enable Subscription](activation.md)
 
 # [Customizing the IDE](customizing-the-ide.md)
 ## [Extending Visual Studio for Mac](extending-visual-studio-mac.md)
@@ -50,6 +50,8 @@
 
 # [Workloads](workloads.md)
 ## [ASP.NET Core](asp-net-core.md)
+## [Azure](azure-workload.md)
+### [Connected Services](connected-services.md)
 ## [Unity Game Development](unity-tools.md)
 ### [Setup](setup-vsmac-tools-unity.md)
 ### [Using Unity Tools](using-vsmac-tools-unity.md)

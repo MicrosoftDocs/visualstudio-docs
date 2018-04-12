@@ -46,19 +46,16 @@ Retrieves the assembly identities from the specified files and outputs the ident
   
 ```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
-  
     <ItemGroup>  
         <MyAssemblies Include="File1.dll;File2.dll" />  
     </ItemGroup>  
-  
-    <Target Name="RetrieveIdentities>  
+    <Target Name="RetrieveIdentities">  
         <GetAssemblyIdentity  
             AssemblyFiles="@(MyAssemblies)"  
             <Output  
                 TaskParameter="Assemblies"  
                 ItemName="MyAssemblyIdentities"  
     </Target>  
-  
 </Project>  
 ```  
   

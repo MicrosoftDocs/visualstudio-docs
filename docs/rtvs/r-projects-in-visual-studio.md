@@ -1,5 +1,5 @@
 ---
-title: Projects in R Tools for Visual Studio | Microsoft Docs
+title: R projects
 description: How to create an manager R projects in Visual Studio including properties, project commands, and templates.
 ms.custom:
 ms.date: 06/29/2017
@@ -10,10 +10,10 @@ ms.technology:
 dev_langs:
   - "R"
 ms.tgt_pltfrm:
-ms.topic: "article"
+ms.topic: "conceptual"
 author: "kraigb"
 ms.author: "kraigb"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "data-science"
 ---

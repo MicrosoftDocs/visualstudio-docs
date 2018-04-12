@@ -4,19 +4,19 @@ description: "Learn how to create a JSON response file that helps you automate y
 ms.date: "08/14/2017"
 ms.reviewer: "tims"
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-acquisition"
 ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
+ms.topic: "conceptual"
+helpviewer_keywords:
   - "response file"
   - "automate"
   - "installation"
   - "command-line"
-author: "timsneath"
+author: "TerryGLee"
 ms.author: "tglee"
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
 

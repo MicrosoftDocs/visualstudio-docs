@@ -1,5 +1,5 @@
 ---
-title: Debugging Python code remote Linux computers using Visual Studio | Microsoft Docs
+title: Debugging Python code on remote Linux computers
 description: How to use Visual Studio to debug Python code running on remote Linux computers, including necessary configuration steps, security, and troubleshooting.
 ms.custom:
 ms.date: 07/12/2017
@@ -10,10 +10,10 @@ ms.technology:
 dev_langs:
   - "python"
 ms.tgt_pltfrm:
-ms.topic: "article"
+ms.topic: "conceptual"
 author: "kraigb"
 ms.author: "kraigb"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "python"
   - "data-science"
@@ -44,29 +44,29 @@ For details on creating a firewall rule for an Azure VM, see [Opening ports to a
 
 1. On the remote computer, create a Python file called `guessing-game.py` with the following code:
 
-  ```python
-  import random
+    ```python
+    import random
 
-  guesses_made = 0
-  name = input('Hello! What is your name?\n')
-  number = random.randint(1, 20)
-  print('Well, {0}, I am thinking of a number between 1 and 20.'.format(name))
+    guesses_made = 0
+    name = input('Hello! What is your name?\n')
+    number = random.randint(1, 20)
+    print('Well, {0}, I am thinking of a number between 1 and 20.'.format(name))
 
-  while guesses_made < 6:
-      guess = int(input('Take a guess: '))
-      guesses_made += 1
-      if guess < number:
-          print('Your guess is too low.')
-      if guess > number:
-          print('Your guess is too high.')
-      if guess == number:
-          break
-  if guess == number:
-      print('Good job, {0}! You guessed my number in {1} guesses!'.format(name, guesses_made))
-  else:
-      print('Nope. The number I was thinking of was {0}'.format(number))
-  ```
- 
+    while guesses_made < 6:
+        guess = int(input('Take a guess: '))
+        guesses_made += 1
+        if guess < number:
+            print('Your guess is too low.')
+        if guess > number:
+            print('Your guess is too high.')
+        if guess == number:
+            break
+    if guess == number:
+        print('Good job, {0}! You guessed my number in {1} guesses!'.format(name, guesses_made))
+    else:
+        print('Nope. The number I was thinking of was {0}'.format(number))
+    ```
+
 1. Install the `ptvsd` package into your environment using `pip3 install ptvsd`. (Note: it's a good idea to record the version of ptvsd that's installed in case you need it for troubleshooting; the [ptvsd listing](https://pypi.python.org/pypi/ptvsd) also shows available versions.)
 
 1. Enable remote debugging by adding the code below at the earliest possible point in `guessing-game.py`, before other code. (Though not a strict requirement, it's impossible to debug any background threads spawned before the `enable_attach` function is called.)

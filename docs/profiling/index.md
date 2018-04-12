@@ -2,6 +2,7 @@
 layout: LandingPage
 title: Profiling your Apps with Visual Studio | Microsoft Docs
 description: Learn how use Visual Studio 2017 to profile the performance of your applications, services, and tools in the language of your choice.
+ms.topic: landing-page
 ms.technology: vs-ide-debug
 ---
 # Profiling in Visual Studio

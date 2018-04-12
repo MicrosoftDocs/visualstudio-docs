@@ -4,11 +4,11 @@ ms.custom: ""
 ms.date: 02/06/2018
 ms.reviewer: ""
 ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "targeting .NET Framework [Visual Studio]"
   - "multi-targeting [Visual Studio]"
   - "multitargeting [Visual Studio]"
@@ -17,7 +17,7 @@ helpviewer_keywords:
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
-ms.workload: 
+ms.workload:
   - "dotnet"
 ---
 # Visual Studio multi-targeting overview
@@ -82,6 +82,5 @@ When you target the .NET Framework 3.5 or later, a reference to System.Core and 
 
 ## See also
 
-[Multitargeting (MSBuild)](../msbuild/msbuild-multitargeting-overview.md)  
-[How to: Modify the Target Framework and Platform Toolset (C++)](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset)  
-[Platform compatibility and system requirements](http://www.microsoft.com/visualstudio/eng/products/compatibility)
+- [Multitargeting (MSBuild)](../msbuild/msbuild-multitargeting-overview.md)
+- [How to: Modify the Target Framework and Platform Toolset (C++)](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset)

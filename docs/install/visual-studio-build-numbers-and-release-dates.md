@@ -4,9 +4,9 @@ description: "A list of released versions and build numbers for Visual Studio 20
 keywords:
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
-ms.date: 02/23/2018
-ms.topic: article
+manager: douge
+ms.date: 04/10/2018
+ms.topic: reference
 helpviewer_keywords:
 ms.technology:
   - "vs-acquisition"
@@ -21,6 +21,19 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 15.6.6 | Release | April 10, 2018 | 15.6.27428.2037 | 
+| 15.7.0 Preview 3.0 | Preview | April 9, 2018 | 15.7.27604.0 |
+| 15.6.5 | Release | April 4, 2018 | 15.6.27428.2027 |
+| 15.6.4 | Release | March 22, 2018 | 15.6.27428.2015 |
+| 15.7.0 Preview 2.0 | Preview | March 21, 2018 | 15.7.27520.0 |
+| 15.6.3 | Release | March 19, 2018 | 15.6.27428.2011 |
+| 15.7.0 Preview 1.0 | Preview | March 13, 2018 | 15.7.27512.0 |
+| 15.6.2 | Release | March 13, 2018 | 15.6.27428.2005 |
+| 15.0.11 | Release | March 13, 2018 | 15.0.26228.29 |
+| 15.6.1 | Release | March 8, 2018 | 15.6.27428.2002 |
+| 15.6.1 Preview 1.0 | Preview | March 8, 2018 | 15.6.27428.2002 |
+| 15.6.0 | Release | March 5, 2018 | 15.6.27428.1 |
+| 15.6.0 Preview 7.0 | Preview | March 2, 2018 | 15.6.27428.1 |
 | 15.6.0 Preview 6.0 | Preview | February 23, 2018 | 15.6.27421.1 |
 | 15.0.10 | Release | February 21, 2018 | 15.0.26228.28 |
 | 15.5.7 | Release | February 20, 2018 | 15.5.27130.2036 |
@@ -112,7 +125,7 @@ Here are a few more support options:
 * You can track product issues in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/), and ask questions and find answers.
 * You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio). (This option requires a [GitHub](https://github.com/) account.)
 
-## See Also
+## See also
 
 * [Visual Studio 2017 administrator guide](visual-studio-administrator-guide.md)
 * [Use command-line parameters to install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md)

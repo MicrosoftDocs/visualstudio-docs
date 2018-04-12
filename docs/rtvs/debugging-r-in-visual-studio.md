@@ -1,5 +1,5 @@
 ---
-title: Debugging with the R Tools for Visual Studio | Microsoft Docs
+title: Debugging R code
 description: Visual Studio provides a full debugging experience for R including breakpoints, attach, call stack, and inspecting variables.
 ms.custom:
 ms.date: 01/24/2018
@@ -10,10 +10,10 @@ ms.technology:
 dev_langs:
   - "R"
 ms.tgt_pltfrm:
-ms.topic: "article"
+ms.topic: "conceptual"
 author: "kraigb"
 ms.author: "kraigb"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "data-science"
 ---

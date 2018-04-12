@@ -1,5 +1,5 @@
 ---
-title: Data Science and Analytical Applications workload in Visual Studio | Microsoft Docs
+title: Data Science and Analytical Applications workload
 description: The Data Science and Analytical Applications workload in Visual Studio brings together Python, R, F#, and their respective runtime distributions including Anaconda.
 ms.custom:
 ms.date: 01/24/2018
@@ -9,10 +9,10 @@ ms.technology:
   - "devlang-r"
   - "devlang-python"
 ms.tgt_pltfrm: ""
-ms.topic: "landing-page"
+ms.topic: "overview"
 author: "kraigb"
 ms.author: "kraigb"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "data-science"
 ---
@@ -41,7 +41,7 @@ By default, the workload installs the following options, which you can modify in
   - Python language support
   - [Anaconda3 64-bit](https://www.continuum.io) (A Python distro that includes extensive data science libraries and a Python interpreter)
   - Python web support
-  - - Cookiecutter template support
+  - Cookiecutter template support
 - R:
   - R language support
   - Runtime support for R development tools
