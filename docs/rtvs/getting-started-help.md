@@ -1,5 +1,5 @@
 ---
-title: Help Window in the R Tools for Visual Studio | Microsoft Docs
+title: Help Window for R
 description: Help for R is integrated directly into the interactive window in Visual Studio through the ? command.
 ms.custom:
 ms.date: 001/24/2018

@@ -1,5 +1,5 @@
 ---
-title: How Python search paths are applied | Microsoft Docs
+title: How Python search paths are applied
 description: An overview of how Visual Studio uses Python search paths in both environments and projects.
 ms.custom: ""
 ms.date: 03/05/2018

@@ -1,5 +1,5 @@
 ---
-title: Installing Python support | Microsoft Docs
+title: Installing Python support
 description: Detailed instructions on how to install the Python Tools for Visual Studio (PTVS) in Visual Studio 2017, 2015, 2013, 2012, and 2010, including options and installation locations.
 ms.custom:
 ms.date: 02/15/2018
