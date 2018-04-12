@@ -1,5 +1,5 @@
 ---
-title: "Quickstart: use Visual Studio to create your first Python web app | Microsoft Docs"
+title: "Quickstart: use Visual Studio to create your first Python web app"
 description: In this quickstart, you use Visual Studio to build a simple web app in Python using the Flask framework.
 ms.custom: "mvc"
 ms.date: 03/21/2018

@@ -1,5 +1,5 @@
 ---
-title: Python environments window reference | Microsoft Docs
+title: Python environments window reference
 description: Details on each of the tabs that appear in the Python Environments window in Visual Studio.
 ms.custom: ""
 ms.date: 03/05/2018

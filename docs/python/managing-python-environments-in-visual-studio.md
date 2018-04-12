@@ -1,5 +1,5 @@
 ---
-title: How to manage Python environments and interpreters | Microsoft Docs
+title: How to manage Python environments and interpreters
 description: How to use the Python Environments window in Visual Studio to manage global and virtual environments, set up custom environments, installing Python interpreters, installing packages, setting search paths, and managing environments for Visual Studio projects.
 ms.custom: ""
 ms.date: 03/21/2018

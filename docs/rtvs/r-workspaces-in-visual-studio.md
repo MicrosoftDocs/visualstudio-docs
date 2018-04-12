@@ -1,5 +1,5 @@
 ---
-title: Workspaces in R Tools for Visual Studio | Microsoft Docs
+title: R workspaces
 description: How to control where R code runs by using workspaces in Visual Studio.
 ms.custom:
 ms.date: 01/24/2018
