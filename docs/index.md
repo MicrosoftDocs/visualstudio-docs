@@ -267,7 +267,7 @@ ms.topic: hub-page
                                 </a>
                             </li>
                             <li>
-                                <a href="https://docs.microsoft.com/visualstudio/liveshare/">
+                                <a href="https://go.microsoft.com/fwlink/?linkid=872032">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
