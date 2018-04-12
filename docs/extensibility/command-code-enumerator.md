@@ -2,17 +2,13 @@
 title: "Command Code Enumerator | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "command code enumerator"
   - "source control plug-ins, command code enumeration"
 ms.assetid: 5d2c360c-59e4-4da8-bcb4-dd07c7441e40
-caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

@@ -2,11 +2,8 @@
 title: "CA1504: Review misleading field names | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "ReviewMisleadingFieldNames"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "CA1504"
   - "ReviewMisleadingFieldNames"
 ms.assetid: 94136ff1-4aaf-4dc2-9170-48c171ab7499
-caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

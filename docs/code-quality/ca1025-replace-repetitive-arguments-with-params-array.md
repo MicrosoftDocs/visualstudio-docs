@@ -2,11 +2,8 @@
 title: "CA1025: Replace repetitive arguments with params array | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CA1025"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "ReplaceRepetitiveArgumentsWithParamsArray"
   - "CA1025"
 ms.assetid: f009b340-dea3-4459-8fe1-2143aa8b5d0b
-caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

@@ -2,11 +2,8 @@
 title: "Finding Memory Leaks Using the CRT Library | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "CSharp"
@@ -30,7 +27,6 @@ helpviewer_keywords:
   - "_CRTDBG_MAP_ALLOC"
   - "_CrtSetDbgFlag"
 ms.assetid: cf6dc7a6-cd12-4283-b1b6-ea53915f7ed1
-caps.latest.revision: 28
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

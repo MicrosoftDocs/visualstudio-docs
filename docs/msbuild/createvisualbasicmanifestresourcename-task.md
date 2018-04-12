@@ -2,10 +2,7 @@
 title: "CreateVisualBasicManifestResourceName Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -16,7 +13,6 @@ helpviewer_keywords:
   - "MSBuild, CreateVisualBasicManifestResourceName task"
   - "CreateVisualBasicManifestResourceName task [MSBuild]"
 ms.assetid: 251c47b9-de32-414b-a138-bf45290af12e
-caps.latest.revision: 8
 author: Mikejo5000
 ms.author: mikejo
 manager: ghogen

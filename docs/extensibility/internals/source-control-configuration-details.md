@@ -2,16 +2,12 @@
 title: "Source Control Configuration Details | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology:
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords:
   - "source control [Visual Studio SDK], configuration details"
 ms.assetid: adbee9fc-7a2e-4abe-a3b8-e6615bcd797f
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

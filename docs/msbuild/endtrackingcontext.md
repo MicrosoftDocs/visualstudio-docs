@@ -2,10 +2,7 @@
 title: "EndTrackingContext | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 apiname: 
   - "EndTrackingContext"
@@ -15,7 +12,6 @@ apitype: "COM"
 helpviewer_keywords: 
   - "EndTrackingContext"
 ms.assetid: c2c5d794-8dc8-4594-8717-70dc79a0e75d
-caps.latest.revision: 3
 author: Mikejo5000
 ms.author: mikejo
 manager: ghogen

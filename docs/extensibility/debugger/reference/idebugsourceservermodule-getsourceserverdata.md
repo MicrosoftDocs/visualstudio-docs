@@ -2,16 +2,12 @@
 title: "IDebugSourceServerModule::GetSourceServerData | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "IDebugSourceServerModule::GetSourceServerData"
 ms.assetid: f15d86aa-1bd9-4b16-a64a-21b01c27db2e
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

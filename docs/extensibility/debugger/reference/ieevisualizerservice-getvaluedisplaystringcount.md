@@ -2,17 +2,13 @@
 title: "IEEVisualizerService::GetValueDisplayStringCount | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "IEEVisualizerService::GetValueDisplayStringCount"
   - "GetValueDisplayStringCount"
 ms.assetid: d683a833-fbfb-4042-84df-6905124a268a
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

@@ -2,11 +2,8 @@
 title: "GUIDs and IDs of Visual Studio Toolbars | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "visual studio groups"
@@ -17,7 +14,6 @@ helpviewer_keywords:
   - "tool window toolbar"
   - "guid"
 ms.assetid: c9cacd57-9225-450f-a9ac-cbf3168ea844
-caps.latest.revision: 7
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

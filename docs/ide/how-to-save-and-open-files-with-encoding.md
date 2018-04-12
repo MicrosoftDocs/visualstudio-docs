@@ -2,11 +2,8 @@
 title: "How to: Save and Open Files with Encoding | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Unicode, bi-directional language support"
@@ -14,7 +11,6 @@ helpviewer_keywords:
   - "bi-directional language support, encoded files"
   - "file encoding, bi-directional languages"
 ms.assetid: cb52b732-b395-4ba1-a3ef-104b3942a12a
-caps.latest.revision: 8
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

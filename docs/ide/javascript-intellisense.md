@@ -2,11 +2,8 @@
 title: "JavaScript IntelliSense | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/28/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "IntelliSense [JavaScript]"

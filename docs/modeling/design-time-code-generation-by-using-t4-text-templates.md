@@ -2,8 +2,6 @@
 title: "Design-Time Code Generation by using T4 Text Templates | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "text templates, guidelines for code generation"

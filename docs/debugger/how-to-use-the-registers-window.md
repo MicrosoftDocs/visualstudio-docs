@@ -2,11 +2,8 @@
 title: "View Register Values in the Visual Studio Debugger | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.debug.registers"
@@ -24,7 +21,6 @@ helpviewer_keywords:
   - "debugging [Visual Studio], Registers window"
   - "Registers window"
 ms.assetid: 2918ffa2-562f-40d6-9053-ef321bbeb767
-caps.latest.revision: 37
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

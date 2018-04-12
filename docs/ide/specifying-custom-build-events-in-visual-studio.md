@@ -2,16 +2,12 @@
 title: "Specifying Custom Build Events in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "build events, customizing"
 ms.assetid: 69e935a5-e208-4bcd-865c-3e5f9b047ca8
-caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

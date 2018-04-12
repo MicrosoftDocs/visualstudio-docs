@@ -2,11 +2,8 @@
 title: "Add New Item Command | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "project.addnewitem"
@@ -14,7 +11,6 @@ helpviewer_keywords:
   - "Add New Item command"
   - "File.AddNewItem command"
 ms.assetid: 63b7df32-db83-463b-bbe7-7ff011fe5298
-caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

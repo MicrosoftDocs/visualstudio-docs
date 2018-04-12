@@ -2,11 +2,8 @@
 title: "Performance Tools on Windows 8 and Windows Server 2012 applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/19/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 author: "mikejo5000"
 ms.author: "mikejo"

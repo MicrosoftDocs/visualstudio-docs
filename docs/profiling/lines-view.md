@@ -2,11 +2,8 @@
 title: "Lines View | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.performance.view.lines"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "profiling tools, Line view"
   - "Lines view"
 ms.assetid: 71ec0781-6031-4e17-af09-f50226018437
-caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

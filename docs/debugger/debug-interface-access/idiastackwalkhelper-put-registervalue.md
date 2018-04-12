@@ -2,18 +2,14 @@
 title: "IDiaStackWalkHelper::put_registerValue | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaStackWalkHelper2::put_registerValue method"
 ms.assetid: 8f02ce54-ef59-455f-8aa6-dc26761c7aff
-caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

@@ -2,11 +2,8 @@
 title: "CA1300: Specify MessageBoxOptions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "SpecifyMessageBoxOptions"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "SpecifyMessageBoxOptions"
   - "CA1300"
 ms.assetid: 9357a724-026e-4a3d-a03a-f14635064ec6
-caps.latest.revision: 19
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

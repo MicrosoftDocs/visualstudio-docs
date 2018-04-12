@@ -2,11 +2,8 @@
 title: "CA1018: Mark attributes with AttributeUsageAttribute | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CA1018"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "CA1018"
   - "MarkAttributesWithAttributeUsage"
 ms.assetid: 6ab70ec0-220f-4880-af31-45067703133c
-caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

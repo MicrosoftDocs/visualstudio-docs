@@ -2,11 +2,8 @@
 title: "Debug a WebView control (UWP) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "CSharp"
@@ -14,7 +11,6 @@ dev_langs:
   - "FSharp"
   - "C++"
 ms.assetid: 7d105907-8b39-4d07-8762-5c5ed74c7f21
-caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

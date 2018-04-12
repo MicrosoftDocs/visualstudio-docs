@@ -2,11 +2,8 @@
 title: "How to: Set IDE Accessibility Options | Microsoft Docs"
 ms.custom: ""
 ms.date: "08/22/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "accessibility [Visual Studio]"

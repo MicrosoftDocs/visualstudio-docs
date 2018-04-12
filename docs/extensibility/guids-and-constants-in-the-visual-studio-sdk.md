@@ -2,17 +2,13 @@
 title: "GUIDs and Constants in the Visual Studio SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "constants, Visual Studio SDK"
   - "GUIDs, Visual Studio SDK"
 ms.assetid: 438c1079-0747-4995-ae7a-32aa399c96f5
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

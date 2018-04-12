@@ -2,15 +2,11 @@
 title: "Install Visual C++ for Cross-Platform Mobile Development | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-mobile
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
 ms.assetid: aaea6b8d-55eb-4427-8185-c050f855c257
-caps.latest.revision: 15
 author: "corob-msft"
 ms.author: "corob"
 manager: ghogen

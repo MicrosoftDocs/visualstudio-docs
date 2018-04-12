@@ -2,16 +2,12 @@
 title: "How to: Display Message Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "message properties in SpyHelp"
 ms.assetid: 8b72b071-691b-48b7-8852-f748c20fc787
-caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

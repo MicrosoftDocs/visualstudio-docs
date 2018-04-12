@@ -2,17 +2,13 @@
 title: "Accessibility of Visual Studio Help Viewer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-help-viewer"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "accessibility features [Help Viewer]"
   - "Help Viewer, accessibility features"
 ms.assetid: 94a3225c-d2cb-4565-8453-855d1cdc1acf
-caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

@@ -2,18 +2,14 @@
 title: "IEnumDebugCustomAttributes | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "IEnumCustomAttributes"
 helpviewer_keywords: 
   - "IEnumDebugCustomAttributes interface"
 ms.assetid: 11aa768d-1852-44d6-9de3-17f9bafaded2
-caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

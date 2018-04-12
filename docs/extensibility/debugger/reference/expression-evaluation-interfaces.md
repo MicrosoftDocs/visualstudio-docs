@@ -2,16 +2,12 @@
 title: "Expression Evaluation Interfaces | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "expression evaluation, interfaces"
 ms.assetid: 2d259f60-2cd7-460e-b02d-24a8fb202850
-caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

@@ -2,17 +2,13 @@
 title: "Message Enumerator | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "message enumerator"
   - "source control plug-ins, message enumeration"
 ms.assetid: 4a4faa0d-d352-40ea-a21d-c09ea286a8e1
-caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

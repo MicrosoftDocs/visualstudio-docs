@@ -2,14 +2,10 @@
 title: "Debugger Windows in Visual Studio | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
 ms.date: "04/25/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4c6fe8f1-b015-4989-bb31-72ebac390026
-caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

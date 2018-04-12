@@ -2,10 +2,7 @@
 title: "LIB Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "VC.Project.VCLibrarianTool.Name"
@@ -25,7 +22,6 @@ helpviewer_keywords:
   - "MSBuild (Visual C++), LIB task"
   - "LIB task (MSBuild (Visual C++))"
 ms.assetid: e062c7f9-cc69-4a83-9361-1bb5355e5fe8
-caps.latest.revision: 7
 author: Mikejo5000
 ms.author: mikejo
 manager: ghogen

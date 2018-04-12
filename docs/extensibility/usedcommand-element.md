@@ -2,17 +2,13 @@
 title: "UsedCommand Element | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "UsedCommands element (VSCT XML schema)"
   - "VSCT XML schema elements, UsedCommands"
 ms.assetid: 99cd05d3-644a-42ff-b289-8458cd1b20c0
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

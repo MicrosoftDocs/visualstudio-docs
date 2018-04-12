@@ -2,11 +2,8 @@
 title: "Debug Interface Access SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "debugger [DIA SDK]"
   - "DIA SDK"
 ms.assetid: 4c0abe53-11d3-4b7a-bdc7-b054f85aaf40
-caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

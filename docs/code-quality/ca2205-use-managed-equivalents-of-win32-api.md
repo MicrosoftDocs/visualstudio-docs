@@ -2,11 +2,8 @@
 title: "CA2205: Use managed equivalents of Win32 API | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "UseManagedEquivalentsOfWin32Api"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "UseManagedEquivalentsOfWin32Api"
   - "CA2205"
 ms.assetid: 1c65ab59-3e50-4488-a727-3969c7f6cbe4
-caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

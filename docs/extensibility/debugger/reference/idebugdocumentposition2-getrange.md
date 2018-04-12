@@ -2,18 +2,14 @@
 title: "IDebugDocumentPosition2::GetRange | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "IDebugDocumentPosition2::GetRange"
 helpviewer_keywords: 
   - "IDebugDocumentPosition2::GetRange"
 ms.assetid: 91a06ee7-253a-4215-be22-04bf57305aa8
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

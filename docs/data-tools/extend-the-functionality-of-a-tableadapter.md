@@ -2,9 +2,6 @@
 title: "Extend the functionality of a TableAdapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -14,7 +11,6 @@ helpviewer_keywords:
   - "data [Visual Studio], extending TableAdapters"
   - "TableAdapters, adding functionality"
 ms.assetid: 418249c8-c7f3-47ef-a94c-744cb6fe6aaf
-caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

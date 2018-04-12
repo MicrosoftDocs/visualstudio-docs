@@ -2,18 +2,14 @@
 title: "IDiaSession::findLinesByAddr | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaSession::findLinesByAddr method"
 ms.assetid: 640403c0-14cf-403c-ad19-38b3bdc28ca8
-caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

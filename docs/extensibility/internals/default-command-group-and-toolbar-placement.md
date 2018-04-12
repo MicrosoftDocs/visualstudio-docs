@@ -2,11 +2,8 @@
 title: "Default Command, Group, and Toolbar Placement | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "commands [Visual Studio], default groups"
@@ -16,7 +13,6 @@ helpviewer_keywords:
   - "commands [Visual Studio], default IDE"
   - "commands [Visual Studio], default product"
 ms.assetid: 35342110-d639-4577-8367-00b21dcc6f07
-caps.latest.revision: 30
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

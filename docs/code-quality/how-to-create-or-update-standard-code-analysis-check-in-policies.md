@@ -2,10 +2,7 @@
 title: "How to: Create or Update Standard Code Analysis Check-in Policies | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-code-analysis
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.codeanalysis.policyeditor"

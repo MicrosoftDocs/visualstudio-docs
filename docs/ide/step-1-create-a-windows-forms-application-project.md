@@ -2,14 +2,10 @@
 title: "Step 1: Create a Windows Forms Application Project | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-acquisition"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 16ac2422-e720-4e3a-b511-bc2a54201a86
-caps.latest.revision: 22
 author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen

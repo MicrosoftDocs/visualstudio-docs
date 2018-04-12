@@ -2,8 +2,6 @@
 title: "Overview of the Domain-Specific Language Tools User Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.dsltools.dsldesigner.editor"

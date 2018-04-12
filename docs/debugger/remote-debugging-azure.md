@@ -2,14 +2,10 @@
 title: "Remote Debug ASP.NET Core on IIS and Azure | Microsoft Docs"
 ms.custom: "remotedebugging"
 ms.date: "08/14/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a6c04b53-d1b9-4552-a8fd-3ed6f4902ce6
-caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

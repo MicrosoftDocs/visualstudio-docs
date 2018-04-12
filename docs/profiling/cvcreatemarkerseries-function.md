@@ -2,11 +2,8 @@
 title: "CvCreateMarkerSeries Function | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "cvmarkers/CvCreateMarkerSeriesA"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "CvCreateMarkerSeriesA method"
   - "CvCreateMarkerSeriesW method"
 ms.assetid: e280530b-137a-43a7-8643-aa514ab86ed7
-caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

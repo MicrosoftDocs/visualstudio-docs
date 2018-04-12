@@ -2,11 +2,8 @@
 title: "Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.debug.attachsecuritywarning"
@@ -16,7 +13,6 @@ dev_langs:
   - "FSharp"
   - "C++"
 ms.assetid: 52246c1e-a371-40a0-b756-a435cc51876f
-caps.latest.revision: 14
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

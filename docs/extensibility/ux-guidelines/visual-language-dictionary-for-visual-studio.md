@@ -3,13 +3,10 @@ title: "Visual Language Dictionary for Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "08/04/2017"
 ms.reviewer: "Jamie.Young"
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d20a30c0-0dcc-4e2c-a809-31c8ea28c7df
-caps.latest.revision: 10
 ms.author: "v-brickg"
 manager: ghogen
 ms.workload: 

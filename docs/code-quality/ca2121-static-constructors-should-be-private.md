@@ -2,11 +2,8 @@
 title: "CA2121: Static constructors should be private | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CA2121"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "CA2121"
   - "StaticConstructorsShouldBePrivate"
 ms.assetid: ee93c620-8fc1-4e47-866c-d389c3ca9f2e
-caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

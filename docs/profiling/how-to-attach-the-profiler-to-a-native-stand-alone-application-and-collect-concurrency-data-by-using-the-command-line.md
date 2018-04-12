@@ -2,14 +2,10 @@
 title: "How to: Attach the Profiler to a Native Stand-Alone Application and Collect Concurrency Data by Using the Command Line | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 12d3e0f3-4b74-4e66-8fbf-8ac99bd4f91c
-caps.latest.revision: 22
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

@@ -2,16 +2,12 @@
 title: "IntelliSense Hosting | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], legacy - IntelliSense hosting"
 ms.assetid: 20c61f8a-d32d-47e2-9c67-bf721e2cbead
-caps.latest.revision: 17
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

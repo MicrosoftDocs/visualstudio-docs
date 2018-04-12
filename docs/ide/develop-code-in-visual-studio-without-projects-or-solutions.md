@@ -1,8 +1,6 @@
 ---
 title: "Develop code in Visual Studio without projects or solutions | Microsoft Docs"
 ms.date: 02/21/2018
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: "vs-ide-general"
 ms.topic: "article"
 helpviewer_keywords:

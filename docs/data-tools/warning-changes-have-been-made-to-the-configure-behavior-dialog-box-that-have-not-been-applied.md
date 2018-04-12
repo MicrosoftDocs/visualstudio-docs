@@ -2,12 +2,8 @@
 title: "Warning. Changes have been made to the Configure Behavior dialog box that have not been applied | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ce5822dd-4f10-4c86-b707-7766837be216
-caps.latest.revision: 3
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

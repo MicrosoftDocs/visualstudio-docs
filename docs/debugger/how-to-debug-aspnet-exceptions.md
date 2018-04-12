@@ -2,11 +2,8 @@
 title: "How to: Debug ASP.NET Exceptions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "CSharp"
@@ -18,7 +15,6 @@ helpviewer_keywords:
   - "ASP.NET, exceptions"
   - "exceptions, ASP.NET"
 ms.assetid: 1810096e-de8c-435e-be3d-f365d0cd0a6a
-caps.latest.revision: 23
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

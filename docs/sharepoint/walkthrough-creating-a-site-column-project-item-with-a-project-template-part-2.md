@@ -2,11 +2,8 @@
 title: "Walkthrough: Creating a Site Column Project Item with a Project Template, Part 2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "project items [SharePoint development in Visual Studio], creating template wizards"

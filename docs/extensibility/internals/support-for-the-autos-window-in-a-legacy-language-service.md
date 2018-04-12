@@ -2,17 +2,13 @@
 title: "Support for the Autos Window in a Legacy Language Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "language services [managed package framework], Autos window"
   - "Autos window, supporting in language services [managed package framework]"
 ms.assetid: 47d40aae-7a3c-41e1-a949-34989924aefb
-caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

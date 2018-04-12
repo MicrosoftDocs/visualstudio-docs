@@ -2,18 +2,14 @@
 title: "IEnumDebugModules2::Next | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "IEnumDebugModules2::Next"
 helpviewer_keywords: 
   - "IEnumDebugModules2::Next"
 ms.assetid: 46b7ccad-b07b-4ec0-b3ce-13981ffab7e8
-caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

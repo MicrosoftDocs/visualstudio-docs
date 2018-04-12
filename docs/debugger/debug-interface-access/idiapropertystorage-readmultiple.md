@@ -2,18 +2,14 @@
 title: "IDiaPropertyStorage::ReadMultiple | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaPropertyStorage::ReadMultiple"
 ms.assetid: 6ccc9397-ce41-4f72-b261-72ac252cd4a5
-caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

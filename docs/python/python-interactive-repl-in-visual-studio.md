@@ -4,7 +4,6 @@ description: How to use the interactive window (REPL) for Python code in Visual 
 ms.custom:
 ms.date: 07/13/2017
 ms.reviewer:
-ms.suite:
 ms.technology: 
   - "devlang-python"
 dev_langs:

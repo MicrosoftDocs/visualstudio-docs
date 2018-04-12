@@ -2,16 +2,12 @@
 title: "IDebugSettingsCallback2::GetMetricDword | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "IDebugSettingsCallback2::GetMetricDword"
 ms.assetid: 831a5a1a-c4af-4520-9fdf-3a731aeff85c
-caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

@@ -2,11 +2,8 @@
 title: "Walkthrough: Downloading Satellite Assemblies on Demand with the ClickOnce Deployment API | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -22,7 +19,6 @@ helpviewer_keywords:
   - "localization, ClickOnce deployment"
   - "ClickOnce deployment, localization"
 ms.assetid: fdaa553f-a27e-44eb-a4e2-08c122105a87
-caps.latest.revision: 11
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"

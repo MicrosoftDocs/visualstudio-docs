@@ -2,17 +2,13 @@
 title: "AsyncVoidMethodBuilder Structure - Internal Members | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "debug engines, AsyncVoidMethodBuilder structure [.NET Framework]"
   - "AsyncVoidMethodBuilder structure [.NET Framework debug engines]"
 ms.assetid: fe2970ab-d4c5-4355-a8e4-772ee0a57178
-caps.latest.revision: 4
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

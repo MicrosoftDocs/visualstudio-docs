@@ -2,11 +2,8 @@
 title: "Legacy Language Service Essentials | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "languages, integrating into Visual Studio"
@@ -14,7 +11,6 @@ helpviewer_keywords:
   - "Visual Studio, integrating programming languages"
   - "programming languages, integrating into Visual Studio"
 ms.assetid: c15e0ccb-e7c5-4dbb-affb-fe3d3244debe
-caps.latest.revision: 21
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

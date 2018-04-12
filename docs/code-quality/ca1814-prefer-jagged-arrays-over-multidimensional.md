@@ -2,11 +2,8 @@
 title: "CA1814: Prefer jagged arrays over multidimensional | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "PreferJaggedArraysOverMultidimensional"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "PreferJaggedArraysOverMultidimensional"
   - "CA1814"
 ms.assetid: b1ccf563-2ec8-42e5-b89c-731a9de1ea1d
-caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

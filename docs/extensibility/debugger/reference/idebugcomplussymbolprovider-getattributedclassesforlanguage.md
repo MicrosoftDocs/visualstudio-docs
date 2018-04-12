@@ -2,17 +2,13 @@
 title: "IDebugComPlusSymbolProvider::GetAttributedClassesForLanguage | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "GetAttributedClassesForLanguage"
   - "IDebugComPlusSymbolProvider::GetAttributedClassesForLanguage"
 ms.assetid: e5b1b8b6-52a6-4ade-9a36-644abfa9f4b2
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

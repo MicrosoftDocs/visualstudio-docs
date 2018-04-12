@@ -2,18 +2,14 @@
 title: "The Experimental Instance | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "experimental builds"
   - "VSPackages, experimental builds"
   - "VSIP, experimental builds"
 ms.assetid: ead0df4e-6f88-4b42-9297-581b7902f050
-caps.latest.revision: 36
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

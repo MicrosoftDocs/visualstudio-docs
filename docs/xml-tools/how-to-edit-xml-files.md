@@ -2,14 +2,10 @@
 title: "How to: Edit XML Files | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 07fa3ecf-6345-4d30-9d85-d5ef5b083319
-caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

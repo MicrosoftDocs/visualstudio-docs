@@ -2,11 +2,8 @@
 title: "Use Dump Files | Microsoft Docs"
 ms.custom: "H1HackMay2017"
 ms.date: "03/08/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.debug.crashdump"
@@ -22,7 +19,6 @@ helpviewer_keywords:
   - "dump files"
   - "dumps"
 ms.assetid: b71be6dc-57e0-4730-99d2-b540a0863e49
-caps.latest.revision: 53
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

@@ -2,11 +2,8 @@
 title: "VSCodeWindowManager Object | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "VSCodeWindowManager"
@@ -14,7 +11,6 @@ helpviewer_keywords:
   - "VsCodeWindowManager object"
   - "views [Visual Studio SDK], VSCodeWindowManager object"
 ms.assetid: e313add5-afdb-4d8d-abd1-764e1fc10c44
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

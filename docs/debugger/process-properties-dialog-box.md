@@ -2,17 +2,13 @@
 title: "Process Properties Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
 helpviewer_keywords: 
   - "Spy++. process properties"
   - "process properties, Spy++"
 ms.assetid: fe6c9d32-4b81-4dc4-a307-848d23af66ce
-caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

@@ -2,16 +2,12 @@
 title: "Properties Window Fields and Interfaces | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Properties window, fields and interfaces"
 ms.assetid: 0328f0e5-2380-4a7a-a872-b547cb775050
-caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

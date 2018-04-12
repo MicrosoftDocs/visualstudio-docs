@@ -2,11 +2,8 @@
 title: "CA1403: Auto layout types should not be COM visible | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "AutoLayoutTypesShouldNotBeComVisible"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "CA1403"
   - "AutoLayoutTypesShouldNotBeComVisible"
 ms.assetid: a7007714-f9b4-4730-94e0-67d3dc68991f
-caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

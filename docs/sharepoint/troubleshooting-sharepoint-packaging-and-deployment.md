@@ -2,11 +2,8 @@
 title: "Troubleshooting SharePoint Packaging and Deployment | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/22/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology:
   - "office-development"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords:
   - "VSTO.WorkflowDeployment.Troubleshooting"

@@ -2,11 +2,8 @@
 title: "Supported Code Changes (C++) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "CSharp"
@@ -24,7 +21,6 @@ helpviewer_keywords:
   - "what's new [C#], supported code changes"
   - "code changes"
 ms.assetid: f5754363-8a56-417b-b904-b05d9dd26d03
-caps.latest.revision: 26
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

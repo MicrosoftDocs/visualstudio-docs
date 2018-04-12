@@ -2,16 +2,12 @@
 title: "Obtaining Build Logs with MSBuild | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "MSBuild, logging"
   - "logging [MSBuild]"
 ms.assetid: 6ba9a754-9cc0-4fed-9fc8-4dcd3926a031
-caps.latest.revision: 27
 author: Mikejo5000
 ms.author: mikejo
 manager: ghogen

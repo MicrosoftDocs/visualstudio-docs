@@ -2,18 +2,14 @@
 title: "IDebugProgramProvider2::WatchForProviderEvents | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "IDebugProgramProvider2::WatchForProviderEvents"
 helpviewer_keywords: 
   - "IDebugProgramProvider2::WatchForProviderEvents"
 ms.assetid: 2eb93653-b5fb-45b6-b136-56008c5d25ef
-caps.latest.revision: 14
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

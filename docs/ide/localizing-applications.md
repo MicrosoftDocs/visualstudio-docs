@@ -2,11 +2,8 @@
 title: "Localizing Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Visual Basic code, international applications"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "applications [Visual Studio], localizing"
   - "localization [.NET Framework], applications"
 ms.assetid: 879c20e0-8301-4f44-b520-97283848c965
-caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

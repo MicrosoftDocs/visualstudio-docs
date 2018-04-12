@@ -2,11 +2,8 @@
 title: "How to: Customize Report View Columns | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.test.columnchooser.dialogbox"
@@ -14,7 +11,6 @@ helpviewer_keywords:
   - "profiling tools, customizing reports"
   - "performance reports, customizing"
 ms.assetid: cb6f6d30-52a5-4d92-ab07-1d5ddb67884c
-caps.latest.revision: 18
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

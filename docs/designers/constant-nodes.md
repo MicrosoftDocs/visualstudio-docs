@@ -2,14 +2,10 @@
 title: "Constant Nodes | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-designers"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2c798a50-a2d7-459b-9879-ad4ad8290c9b
-caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

@@ -2,8 +2,6 @@
 title: "How to: Change the Namespace of a Domain-Specific Language | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Domain-Specific Language, namespace"

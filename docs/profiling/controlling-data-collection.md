@@ -2,17 +2,13 @@
 title: "Controlling Data Collection | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "advanced tasks for profiling tools"
   - "profiling tools, advanced tasks"
 ms.assetid: e713ad63-b948-46f3-8db9-59b30922ebe5
-caps.latest.revision: 27
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

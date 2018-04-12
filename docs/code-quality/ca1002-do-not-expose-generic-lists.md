@@ -2,11 +2,8 @@
 title: "CA1002: Do not expose generic lists | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "DoNotExposeGenericLists"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "CA1002"
   - "DoNotExposeGenericLists"
 ms.assetid: 5caac810-1a79-47df-a27b-c46c5040bf34
-caps.latest.revision: 20
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

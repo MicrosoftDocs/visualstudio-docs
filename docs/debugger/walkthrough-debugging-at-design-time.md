@@ -2,11 +2,8 @@
 title: "Debug at Design Time - Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/21/2018"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -16,7 +13,6 @@ helpviewer_keywords:
   - "Immediate window, design-time debugging"
   - "design-time debugging"
 ms.assetid: 35bfdd2c-6f60-4be1-ba9d-55fce70ee4d8
-caps.latest.revision: 20
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

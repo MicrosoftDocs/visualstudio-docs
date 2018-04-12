@@ -2,18 +2,14 @@
 title: "How to: Specify Additional Code Information by Using __analysis_assume | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "__analysis_assume"
 helpviewer_keywords: 
   - "__analysis_assume"
 ms.assetid: 51205d97-4084-4cf4-a5ed-3eeaf67deb1b
-caps.latest.revision: 10
 author: mikeblome
 ms.author: mblome
 manager: ghogen

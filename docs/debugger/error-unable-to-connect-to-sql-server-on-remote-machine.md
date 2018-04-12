@@ -2,11 +2,8 @@
 title: "Error: Unable to connect to SQL Server on remote machine | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.error.sqlle_dcom_accessdenied"
@@ -16,7 +13,6 @@ dev_langs:
   - "FSharp"
   - "C++"
   - "SQL"
-caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

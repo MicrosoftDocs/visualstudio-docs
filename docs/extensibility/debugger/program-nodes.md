@@ -2,11 +2,8 @@
 title: "Program Nodes | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "program nodes, debugging context"
@@ -14,7 +11,6 @@ helpviewer_keywords:
   - "program nodes, adding"
   - "program nodes, superceding"
 ms.assetid: 1c5a5c13-c14d-42c3-af11-4c63f1032c8d
-caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

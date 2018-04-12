@@ -2,16 +2,12 @@
 title: "Getting Started with the VSIX Project Template | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Visual Studio SDK, VSIX project template"
 ms.assetid: 89fac33e-9380-4723-9b45-048a6e16f0ed
-caps.latest.revision: 25
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

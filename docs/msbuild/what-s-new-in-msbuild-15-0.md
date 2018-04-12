@@ -2,10 +2,7 @@
 title: "What&#39;s New in MSBuild 15 | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/01/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9976b6fd-d052-4017-b848-35b5bf4b2f66
 author: Mikejo5000

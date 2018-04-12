@@ -2,11 +2,8 @@
 title: "CA1014: Mark assemblies with CLSCompliantAttribute | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CA1014"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "CA1014"
   - "MarkAssembliesWithClsCompliant"
 ms.assetid: 4fe57449-cf45-4745-bcd2-6345f1ed266d
-caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

@@ -2,10 +2,7 @@
 title: "TaskExtension Base Class | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -16,7 +13,6 @@ helpviewer_keywords:
   - "MSBuild, tool task base class"
   - "tool task base class [MSBuild]"
 ms.assetid: 08bb8059-b7e2-4565-89ba-d9034d4f0e16
-caps.latest.revision: 6
 author: Mikejo5000
 ms.author: mikejo
 manager: ghogen

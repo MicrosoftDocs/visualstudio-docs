@@ -2,11 +2,8 @@
 title: "How AutoSave Impacts Office Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "07/20/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"

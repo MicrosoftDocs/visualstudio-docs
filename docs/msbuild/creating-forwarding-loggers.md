@@ -2,16 +2,12 @@
 title: "Creating Forwarding Loggers | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "MSBuild, forwarding loggers"
   - "MSBuild, logging"
 ms.assetid: 3aebf9c8-b62c-4cb2-b2d6-8cdfcd369a24
-caps.latest.revision: 9
 author: Mikejo5000
 ms.author: mikejo
 manager: ghogen

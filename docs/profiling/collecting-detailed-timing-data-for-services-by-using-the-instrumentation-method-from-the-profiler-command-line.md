@@ -2,14 +2,10 @@
 title: "Collecting Detailed Timing Data for Services by Using the Instrumentation Method from the Profiler Command Line | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6116e1df-ed3e-4b0d-ac7f-22f7d7ac00ea
-caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

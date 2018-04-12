@@ -2,10 +2,7 @@
 title: "How to: Enforce Maintainable Code with a Code Analysis Check-in Policy | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-code-analysis
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords:
   - "code analysis, check-in policies"

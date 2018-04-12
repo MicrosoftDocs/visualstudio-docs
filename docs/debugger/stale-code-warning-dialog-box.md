@@ -2,11 +2,8 @@
 title: "Stale Code Warning Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.debug.ENC.stalecode"
@@ -21,7 +18,6 @@ helpviewer_keywords:
   - "warnings, Stale Code Warning dialog box"
   - "Edit and Continue, stale code"
 ms.assetid: 594b894c-e652-4e13-a980-9909473d5712
-caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

@@ -2,16 +2,12 @@
 title: "IDiaSymbol::findInlineFramesByVA | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
 ms.assetid: 54295d3e-bbb6-4c10-ab9d-adcfc22b1f71
-caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

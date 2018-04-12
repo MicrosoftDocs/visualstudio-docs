@@ -2,11 +2,8 @@
 title: "IDebugActivateDocumentEvent2::GetDocumentContext | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "IDebugActivateDocumentEvent2::GetDocumentContext"
@@ -14,7 +11,6 @@ helpviewer_keywords:
   - "GetDocumentContext method"
   - "IDebugActivateDocumentEvent2::GetDocumentContext method"
 ms.assetid: e7472069-7337-4ef4-8f8a-8c027a2e22f4
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

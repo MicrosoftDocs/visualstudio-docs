@@ -8,7 +8,6 @@ helpviewer_keywords:
   - "GUIDs, integrated development environment"
   - "IDE, GUIDs"
 ms.assetid: d31a0f97-b7be-4fb5-a942-8ba4527bc068
-caps.latest.revision: 19
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

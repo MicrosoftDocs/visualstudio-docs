@@ -2,14 +2,10 @@
 title: "Attribute (XElement Dynamic Property) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-designers"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8440fc7d-b3b4-4726-8ec8-492e6af79642
-caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

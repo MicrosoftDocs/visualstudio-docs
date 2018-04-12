@@ -2,16 +2,12 @@
 title: "New or Changed Behavior with Editor Adapters | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], legacy - adapter behavior"
 ms.assetid: 5555b116-cfdb-4773-ba62-af80fda64abd
-caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

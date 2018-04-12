@@ -2,11 +2,8 @@
 title: "How to: Add a Form Region to an Outlook Add-in Project | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "VSTO.NewFormRegionWizard.Page1"

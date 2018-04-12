@@ -2,10 +2,7 @@
 title: "Special Characters to Escape | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -16,7 +13,6 @@ helpviewer_keywords:
   - "special characters to escape"
   - "msbuild, special characters to escape"
 ms.assetid: 5b5172c3-41e4-4f38-a16f-2aeac831a5fc
-caps.latest.revision: 8
 author: Mikejo5000
 ms.author: mikejo
 manager: ghogen

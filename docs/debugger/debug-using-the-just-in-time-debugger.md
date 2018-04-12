@@ -2,17 +2,13 @@
 title: "Debug using the Just-In-Time Debugger | Microsoft Docs"
 ms.custom: ""
 ms.date: "07/06/17"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "debugging [Visual Studio], Just-In-Time"
   - "Just-In-Time debugging"
 ms.assetid: ee4d79a5-a1d2-4418-a93f-dd57a53e1836
-caps.latest.revision: 48
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

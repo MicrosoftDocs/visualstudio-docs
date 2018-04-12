@@ -2,14 +2,10 @@
 title: "How to: Export a Texture for Use with Direct2D or Javascipt Apps | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-designers"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 241c25fe-764e-4e1b-ad32-b1377dcbb605
-caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

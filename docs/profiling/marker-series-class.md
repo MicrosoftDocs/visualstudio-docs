@@ -2,18 +2,14 @@
 title: "marker_series Class | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "cvmarkersobj/Concurrency::diagnostic::marker_series"
 helpviewer_keywords: 
   - "Concurrency::diagnostic::marker_series class"
 ms.assetid: b8445ed0-c512-4f92-b6b4-3d05c044f939
-caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

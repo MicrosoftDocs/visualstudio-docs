@@ -2,11 +2,8 @@
 title: "Determining Which Editor Opens a File in a Project | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], determining which editor opens a file"
@@ -14,7 +11,6 @@ helpviewer_keywords:
   - "project types, determining which editor opens a file"
   - "persistence, determining which editor opens a file"
 ms.assetid: acbcf4d8-a53a-4727-9043-696a47369479
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

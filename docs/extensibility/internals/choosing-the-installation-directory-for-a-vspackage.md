@@ -2,16 +2,12 @@
 title: "Choosing the Installation Directory for a VSPackage | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "VSPackages, installation directory"
 ms.assetid: 01fbbb5b-f747-446c-afe0-2a081626a945
-caps.latest.revision: 17
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

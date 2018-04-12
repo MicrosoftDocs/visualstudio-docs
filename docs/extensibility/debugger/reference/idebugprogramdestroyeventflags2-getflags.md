@@ -2,17 +2,13 @@
 title: "IDebugProgramDestroyEventFlags2::GetFlags | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "GetFlags"
   - "IDebugProgramDestroyEventFlags2::GetFlags"
 ms.assetid: dd53bd0c-459a-4077-ba81-780defb71e87
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

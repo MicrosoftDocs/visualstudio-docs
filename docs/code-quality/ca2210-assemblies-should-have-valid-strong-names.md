@@ -2,11 +2,8 @@
 title: "CA2210: Assemblies should have valid strong names | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "AssembliesShouldHaveValidStrongNames"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "AssembliesShouldHaveValidStrongNames"
   - "CA2210"
 ms.assetid: 8ed33d1c-8ec6-4b47-a692-e22dc8693088
-caps.latest.revision: 23
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

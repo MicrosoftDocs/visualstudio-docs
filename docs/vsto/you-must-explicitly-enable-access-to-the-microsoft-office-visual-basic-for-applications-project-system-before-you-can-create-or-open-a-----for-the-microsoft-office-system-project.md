@@ -2,11 +2,8 @@
 title: "You must explicitly enable access to the Microsoft Office Visual Basic for Applications project system before you can create or open a Visual Studio Tools for the Microsoft Office System project | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vst.project.vbawrongversion"

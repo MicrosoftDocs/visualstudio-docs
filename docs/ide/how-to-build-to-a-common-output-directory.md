@@ -2,18 +2,14 @@
 title: "How to: Build to a common output directory | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "output directory"
   - "builds [Visual Studio], common directory"
   - "common directory"
 ms.assetid: 1fcc2c48-07cb-4c4f-9556-36945e7dfc4e
-caps.latest.revision: 7
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

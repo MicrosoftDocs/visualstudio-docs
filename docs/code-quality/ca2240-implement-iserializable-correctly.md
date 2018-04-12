@@ -2,11 +2,8 @@
 title: "CA2240: Implement ISerializable correctly | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CA2240"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "CA2240"
   - "ImplementISerializableCorrectly"
 ms.assetid: cf05936d-0d6c-49ed-a1b4-220032e50b97
-caps.latest.revision: 21
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

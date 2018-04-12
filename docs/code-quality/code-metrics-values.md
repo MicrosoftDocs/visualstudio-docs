@@ -2,10 +2,7 @@
 title: "Calculate code metrics in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "12/12/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-code-analysis
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords:
   - "code metrics [Visual Studio]"

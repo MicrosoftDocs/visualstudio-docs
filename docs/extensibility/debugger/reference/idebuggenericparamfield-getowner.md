@@ -2,16 +2,12 @@
 title: "IDebugGenericParamField::GetOwner | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "IDebugGenericParamField::GetOwner"
 ms.assetid: c7f6d166-a69e-40c4-bd0b-1a1fdf9aaacf
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

@@ -2,18 +2,14 @@
 title: "IDiaSymbol::get_token | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaSymbol::get_token method"
 ms.assetid: 7ee7a9be-a0d8-48e4-9fef-d37b3d6ae4ef
-caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

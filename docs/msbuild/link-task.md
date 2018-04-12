@@ -2,10 +2,7 @@
 title: "Link Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "VC.Project.VCLinkerTool.ForceFileOutput"
@@ -30,7 +27,6 @@ helpviewer_keywords:
   - "MSBuild (Visual C++), Link task"
   - "Link task (MSBuild (Visual C++))"
 ms.assetid: 0a61f168-3113-4fa7-83a3-d9142e2a33f8
-caps.latest.revision: 12
 author: Mikejo5000
 ms.author: mikejo
 manager: ghogen

@@ -2,17 +2,13 @@
 title: "Filtering the AddItem Dialog Box for Nested Projects | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "filtering, nested projects"
   - "nested projects, AddItem dialog box filtering"
 ms.assetid: 5b3e352e-7f18-4f66-be16-b0ad55637ce5
-caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

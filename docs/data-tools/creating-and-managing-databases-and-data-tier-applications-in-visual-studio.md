@@ -2,9 +2,6 @@
 title: "Database projects, server projects, and DAC projects in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "managing change, databases"
@@ -12,7 +9,6 @@ helpviewer_keywords:
   - "databases, managing change"
   - "managing change, database servers"
 ms.assetid: 40b51f5a-d52c-44ac-8f84-037a0917af33
-caps.latest.revision: 37
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

@@ -2,11 +2,8 @@
 title: "Macros for Reporting | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.debug.macros"
@@ -23,7 +20,6 @@ helpviewer_keywords:
   - "debugging [CRT], reporting macros"
   - "_RPTn macro"
 ms.assetid: f2085314-a3a8-4caf-a5a4-2af9ad5aad05
-caps.latest.revision: 15
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

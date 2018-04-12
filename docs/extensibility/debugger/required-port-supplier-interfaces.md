@@ -2,17 +2,13 @@
 title: "Required Port Supplier Interfaces | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "port suppliers, required interfaces"
   - "debugging [Debugging SDK], port suppliers"
 ms.assetid: 0c2cdd40-9f6f-425e-b305-858f7734161e
-caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

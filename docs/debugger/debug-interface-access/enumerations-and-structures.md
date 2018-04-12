@@ -2,11 +2,8 @@
 title: "Enumerations and Structures | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
@@ -16,7 +13,6 @@ helpviewer_keywords:
   - "structures [DIA SDK]"
   - "DIA SDK, structures"
 ms.assetid: d17eed2d-d8fd-4a47-82d3-8125c0624010
-caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

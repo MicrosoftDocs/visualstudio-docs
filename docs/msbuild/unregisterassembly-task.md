@@ -2,10 +2,7 @@
 title: "UnregisterAssembly Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#UnregisterAssembly"
@@ -18,7 +15,6 @@ helpviewer_keywords:
   - "MSBuild, UnregisterAssembly task"
   - "UnregisterAssembly task [MSBuild]"
 ms.assetid: 04f549dd-3591-4dda-9c3a-cf6ede9df2c3
-caps.latest.revision: 21
 author: Mikejo5000
 ms.author: mikejo
 manager: ghogen

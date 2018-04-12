@@ -2,14 +2,10 @@
 title: "Step 1: Create a Project and Add Labels to Your Form | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-acquisition"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f44e50be-a5f5-4d77-9cff-dd52374c3f74
-caps.latest.revision: 16
 author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen

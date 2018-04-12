@@ -2,16 +2,12 @@
 title: "NotifyDebuggerOfWaitCompletion Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "NotifyDebuggerOfWaitCompletion method, Task class [.NET Framework debug engines]"
 ms.assetid: 841c5908-4f3f-400b-a7b0-96a95f362817
-caps.latest.revision: 5
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

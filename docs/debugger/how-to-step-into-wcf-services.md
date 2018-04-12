@@ -2,11 +2,8 @@
 title: "How to: Step into WCF Services | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "CSharp"
@@ -17,7 +14,6 @@ helpviewer_keywords:
   - "debugging, WCF"
   - "WCF, debugging"
 ms.assetid: 9893ad01-54af-499f-85a6-9d1cfe6eb640
-caps.latest.revision: 24
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

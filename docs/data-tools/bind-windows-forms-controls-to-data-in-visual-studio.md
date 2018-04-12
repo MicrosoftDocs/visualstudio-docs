@@ -2,9 +2,6 @@
 title: "Bind Windows Forms controls to data in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/03/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "data [Windows Forms], data sources"
@@ -16,7 +13,6 @@ helpviewer_keywords:
   - "displaying data, Windows Forms"
   - "data [Windows Forms], displaying"
 ms.assetid: 243338ef-41af-4cc5-aff7-1e830236f0ec
-caps.latest.revision: 37
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

@@ -2,16 +2,12 @@
 title: "Spy++ Help | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Spy++ Help contents"
 ms.assetid: 82155004-8d9e-4875-b7db-237a3cffb530
-caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

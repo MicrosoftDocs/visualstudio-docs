@@ -2,14 +2,10 @@
 title: "Step 7: Add Dialog Components to Your Form | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-acquisition"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ea98c55e-6213-4893-ba7b-f19d7f119527
-caps.latest.revision: 15
 author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen

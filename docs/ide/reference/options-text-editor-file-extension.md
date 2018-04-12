@@ -2,11 +2,8 @@
 title: "Options, Text Editor, File Extension | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.toolsoptionspages.text_editor.file_extension"
@@ -16,7 +13,6 @@ helpviewer_keywords:
   - "Options dialog box"
   - "Editing Experience, selecting"
 ms.assetid: 05298fc5-fc4e-4bb2-b942-1f7d2dcdff0f
-caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

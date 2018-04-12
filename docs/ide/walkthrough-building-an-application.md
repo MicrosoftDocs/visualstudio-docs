@@ -2,8 +2,6 @@
 title: "Walkthrough: Building an Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "09/25/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-general
 ms.topic: "article"
 author: "gewarren"

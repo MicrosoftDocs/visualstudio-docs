@@ -2,10 +2,7 @@
 title: "MIDL Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "VC.Project.VCMidlTool.ServerStubFile"
@@ -26,7 +23,6 @@ helpviewer_keywords:
   - "MSBuild (Visual C++), MIDL task"
   - "MIDL task (MSBuild (Visual C++))"
 ms.assetid: 727efa8c-3336-40b8-8bef-ae6cbd77a422
-caps.latest.revision: 8
 author: Mikejo5000
 ms.author: mikejo
 manager: ghogen

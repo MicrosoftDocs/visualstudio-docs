@@ -4,7 +4,6 @@ description: How to install a Python interpreter and libraries on Azure App Serv
 ms.custom:
 ms.date: 09/13/2017
 ms.reviewer:
-ms.suite:
 ms.technology: 
   - "devlang-python"
 dev_langs:

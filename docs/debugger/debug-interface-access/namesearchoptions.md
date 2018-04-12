@@ -2,18 +2,14 @@
 title: "NameSearchOptions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "NameSearchOptions enumeration"
 ms.assetid: 67dfbede-2678-47df-b664-5c49841d0b9b
-caps.latest.revision: 15
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

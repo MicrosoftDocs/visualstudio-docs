@@ -2,18 +2,14 @@
 title: "IEnumDebugPropertyInfo2::Next | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "IEnumDebugPropertyInfo2::Next"
 helpviewer_keywords: 
   - "IEnumDebugPropertyInfo2::Next"
 ms.assetid: 4eb8c7c3-aadf-4187-abee-c0620308a3eb
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

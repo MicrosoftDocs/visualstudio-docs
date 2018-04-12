@@ -2,18 +2,14 @@
 title: "IDiaSymbol::get_guid | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaSymbol::get_guid method"
 ms.assetid: c02a6c92-f406-4646-82e7-3cd005af900e
-caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

@@ -2,14 +2,10 @@
 title: "Walkthrough: Capturing Graphics Information | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 48f12f6e-57b4-48ec-a145-89fa71a42424
-caps.latest.revision: 19
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

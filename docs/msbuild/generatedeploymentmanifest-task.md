@@ -2,10 +2,7 @@
 title: "GenerateDeploymentManifest Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#GenerateDeploymentManifest"

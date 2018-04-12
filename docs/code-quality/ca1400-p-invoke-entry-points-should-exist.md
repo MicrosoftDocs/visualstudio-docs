@@ -2,11 +2,8 @@
 title: "CA1400: P-Invoke entry points should exist | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CA1400"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "PInvokeEntryPointsShouldExist"
   - "CA1400"
 ms.assetid: 1d64e470-7b2f-4cca-8fb0-ac92829e6332
-caps.latest.revision: 19
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

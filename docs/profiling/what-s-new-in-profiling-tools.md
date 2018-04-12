@@ -2,17 +2,13 @@
 title: "What's New in Profiling | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "profiling"
   - "what's new"
 ms.assetid: d4736cc8-8961-4089-be9e-d5190ce8353c
-caps.latest.revision: 42
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

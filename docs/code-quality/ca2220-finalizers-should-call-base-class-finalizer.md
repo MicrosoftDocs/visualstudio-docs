@@ -2,11 +2,8 @@
 title: "CA2220: Finalizers should call base class finalizer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CA2220"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "CA2220"
   - "FinalizersShouldCallBaseClassFinalizer"
 ms.assetid: 48329f42-170d-45ee-a381-e33f55a240c5
-caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

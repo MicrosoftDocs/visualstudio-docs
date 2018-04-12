@@ -2,18 +2,14 @@
 title: "Code Snippet Functions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "code snippets [Visual Studio], functions"
   - "snippets [Visual Studio], functions"
   - "IntelliSense code snippets, functions"
 ms.assetid: c0a2bf21-8fa5-4457-9281-f599beb53e7d
-caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

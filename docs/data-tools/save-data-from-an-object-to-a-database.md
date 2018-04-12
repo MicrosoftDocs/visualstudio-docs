@@ -2,9 +2,6 @@
 title: "Save data from an object to a database | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -14,7 +11,6 @@ helpviewer_keywords:
   - "data access [Visual Studio], objects"
   - "saving data"
 ms.assetid: efd6135a-40cf-4b0d-8f8b-41a5aaea7057
-caps.latest.revision: 9
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

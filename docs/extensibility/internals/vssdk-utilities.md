@@ -2,16 +2,12 @@
 title: "VSSDK Utilities | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Architecture, Visual Studio Integration"
 ms.assetid: a469208a-cb70-4d87-a79b-d2086fc4fae4
-caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

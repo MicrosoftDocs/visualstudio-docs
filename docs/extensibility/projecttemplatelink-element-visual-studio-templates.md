@@ -2,11 +2,8 @@
 title: "ProjectTemplateLink Element (Visual Studio Templates) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/vstemplate/2005#ProjectTemplateLink"
@@ -14,7 +11,6 @@ helpviewer_keywords:
   - "<ProjectTemplateLink> element [Visual Studio Templates]"
   - "ProjectTemplateLink element [Visual Studio Templates]"
 ms.assetid: b0449111-8b48-45a1-a031-ea24b765e969
-caps.latest.revision: 15
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

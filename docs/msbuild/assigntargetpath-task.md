@@ -2,10 +2,7 @@
 title: "AssignTargetPath Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -13,7 +10,6 @@ dev_langs:
   - "C++"
   - "jsharp"
 ms.assetid: 0e830e31-3bcf-4259-b2a8-a5df49b92d51
-caps.latest.revision: 4
 author: Mikejo5000
 ms.author: mikejo
 manager: ghogen

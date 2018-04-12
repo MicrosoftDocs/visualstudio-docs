@@ -2,10 +2,7 @@
 title: "Troubleshooting .NET Framework Targeting Errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.FrameworkTargetingErrors"
@@ -17,7 +14,6 @@ helpviewer_keywords:
   - "multitargeting"
   - ".NET Framework Client Profile"
 ms.assetid: 830e3e45-9a93-4279-a249-75b84599aefb
-caps.latest.revision: 29
 author: Mikejo5000
 ms.author: mikejo
 manager: ghogen

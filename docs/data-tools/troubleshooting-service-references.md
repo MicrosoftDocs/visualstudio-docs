@@ -2,9 +2,6 @@
 title: "Troubleshooting Service References | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "msvse_wcf.Err.ReferenceGroup_NamespaceConflictsOther"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "service references [Visual Studio], troubleshooting"
   - "WCF services, troubleshooting"
 ms.assetid: 3b531120-1325-4734-90c6-6e6113bd12ac
-caps.latest.revision: 22
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

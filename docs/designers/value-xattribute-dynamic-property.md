@@ -2,17 +2,13 @@
 title: "Value (XAttribute Dynamic Property) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-designers"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 apiname: 
   - "XAttribute.Value"
 apitype: "Assembly"
 ms.assetid: 019733d2-e050-4120-b537-831cd3fc008e
-caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

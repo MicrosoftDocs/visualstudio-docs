@@ -1,11 +1,8 @@
 ---
 title: "devenv.exe setup switch | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology:
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords:
   - "setup Devenv switch"

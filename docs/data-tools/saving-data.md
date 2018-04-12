@@ -2,9 +2,6 @@
 title: "Saving Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "DataRow.RowState"
@@ -20,7 +17,6 @@ helpviewer_keywords:
   - "saving data"
   - "updating databases"
 ms.assetid: 21d2b115-62e4-4ac9-a873-dcbb535b8af8
-caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

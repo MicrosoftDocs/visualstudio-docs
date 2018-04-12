@@ -2,18 +2,14 @@
 title: "span::span Constructor | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "cvmarkersobj/Concurrency::diagnostic::span::span"
 helpviewer_keywords: 
   - "Concurrency::diagnostic::span constructor"
 ms.assetid: 8b5578aa-5e5c-4ac7-87c7-ce87c4246e2c
-caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

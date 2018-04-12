@@ -2,11 +2,8 @@
 title: "Find and Replace, Environment, Options Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "VS.ToolsOptionsPages.Environment.FindReplace"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "Find and Replace, Options dialog box"
   - "Find and Replace, customizing"
 ms.assetid: f804d6d5-6309-46e4-8294-b83e880b5ec9
-caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

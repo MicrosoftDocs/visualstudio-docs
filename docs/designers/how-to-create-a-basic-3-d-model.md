@@ -2,14 +2,10 @@
 title: "How to: Create a Basic 3-D Model | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-designers"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a0d97966-2df8-449b-a8cf-5a19684dc773
-caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

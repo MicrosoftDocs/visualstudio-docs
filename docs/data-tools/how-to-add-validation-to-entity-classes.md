@@ -2,15 +2,11 @@
 title: "How to: Add validation to entity classes | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
   - "CSharp"
 ms.assetid: 61107da9-7fa3-4dba-b101-ae46536f52c4
-caps.latest.revision: 3
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

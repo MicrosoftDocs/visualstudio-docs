@@ -2,11 +2,8 @@
 title: "Run UWP apps in the simulator | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "CSharp"
@@ -14,7 +11,6 @@ dev_langs:
   - "FSharp"
   - "C++"
 ms.assetid: 81b69bf8-ec87-4bb6-9ad4-1fa7b7802d16
-caps.latest.revision: 42
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

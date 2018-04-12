@@ -2,17 +2,13 @@
 title: "Element (XElement Dynamic Property) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-designers"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 apiname: 
   - "XElement.Element"
 apitype: "Assembly"
 ms.assetid: c6c25b8d-a1da-41ff-aeff-867ff1dcf749
-caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

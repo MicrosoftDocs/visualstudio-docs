@@ -2,11 +2,8 @@
 title: "File Status Code Enumerator | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "named constants, SccStatus enumerator"
@@ -14,7 +11,6 @@ helpviewer_keywords:
   - "SccStatus enumerator"
   - "file status code enumerator"
 ms.assetid: 5c37876b-c83c-4ca1-837b-57cd465a879a
-caps.latest.revision: 15
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

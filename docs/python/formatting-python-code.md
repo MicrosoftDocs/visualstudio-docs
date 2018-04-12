@@ -4,7 +4,6 @@ description: How to automatically reformat Python code in Visual Studio includin
 ms.custom:
 ms.date: 07/12/2017
 ms.reviewer:
-ms.suite:
 ms.technology: 
   - "devlang-python"
 dev_langs:

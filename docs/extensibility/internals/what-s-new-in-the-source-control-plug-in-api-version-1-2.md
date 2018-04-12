@@ -2,17 +2,13 @@
 title: "What&#39;s New in the Source Control Plug-in API Version 1.2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "source control plug-ins, what's new in API v1.2"
   - "what's new [Visual Studio SDK], source control plug-ins"
 ms.assetid: 7c5fa471-456e-4f95-8309-5750ec4e5e85
-caps.latest.revision: 14
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

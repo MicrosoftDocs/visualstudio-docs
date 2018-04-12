@@ -2,14 +2,10 @@
 title: "Tutorial 1: Create a Picture Viewer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-acquisition"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3071d6df-2b2f-4e95-ab68-bef727323136
-caps.latest.revision: 19
 author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen

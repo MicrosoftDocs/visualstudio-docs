@@ -2,11 +2,8 @@
 title: "BaseClass | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "BaseClass symbol"
   - "base classes, user-defined types"
 ms.assetid: 9375ca35-cb91-45f5-8903-7344ee4528e8
-caps.latest.revision: 16
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

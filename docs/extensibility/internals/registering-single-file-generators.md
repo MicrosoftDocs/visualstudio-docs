@@ -2,17 +2,13 @@
 title: "Registering Single File Generators | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "registration, custom tools"
   - "custom tools, defining registry settings"
 ms.assetid: db7592c0-1273-4843-9617-6e2ddabb6ca8
-caps.latest.revision: 16
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

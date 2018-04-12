@@ -2,16 +2,12 @@
 title: "Creating a Settings Category | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "profile settings, creating categories"
 ms.assetid: 97c88693-05ff-499e-8c43-352ee073dcb7
-caps.latest.revision: 39
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

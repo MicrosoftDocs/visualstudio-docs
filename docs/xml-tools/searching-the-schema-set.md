@@ -2,14 +2,10 @@
 title: "Searching the Schema Set | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ec1395e0-d03c-4130-810d-f2db656937bd
-caps.latest.revision: 3
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

@@ -2,17 +2,13 @@
 title: "VSIX Extension Schema 2.0 Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "vsix"
   - "extension schema"
 ms.assetid: 0da81b98-f5e3-40d3-ba9a-94551378d0b4
-caps.latest.revision: 25
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

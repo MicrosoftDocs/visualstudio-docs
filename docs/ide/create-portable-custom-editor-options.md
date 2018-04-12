@@ -2,9 +2,6 @@
 title: "Using EditorConfig settings in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "12/13/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "editorconfig [Visual Studio]"

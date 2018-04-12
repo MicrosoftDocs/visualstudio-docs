@@ -2,11 +2,8 @@
 title: "CA2228: Do not ship unreleased resource formats | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "DoNotShipUnreleasedResourceFormats"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "CA2228"
   - "DoNotShipUnreleasedResourceFormats"
 ms.assetid: 2c614edc-4e94-4b4f-8067-eea677a75cd9
-caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

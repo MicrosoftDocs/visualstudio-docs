@@ -2,16 +2,12 @@
 title: "Providing Automation for Code | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "CodeModel object"
 ms.assetid: 21cb3e63-f25c-404b-bc1d-a32ad0fdd4d5
-caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

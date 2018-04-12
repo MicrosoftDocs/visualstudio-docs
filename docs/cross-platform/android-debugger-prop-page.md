@@ -2,10 +2,7 @@
 title: "Android Debugger Properties (C++) | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/23/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-mobile
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 789f7a1c-38b4-41d0-809b-14f4d96c8116
 author: "corob"

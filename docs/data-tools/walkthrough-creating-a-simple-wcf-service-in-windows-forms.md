@@ -2,9 +2,6 @@
 title: "Walkthrough: Creating a simple WCF Service in Windows Forms | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "WCF services"
   - "WCF services, walkthrough"
 ms.assetid: 5fef1a64-27a4-4f10-aa57-29023e28a2d6
-caps.latest.revision: 25
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

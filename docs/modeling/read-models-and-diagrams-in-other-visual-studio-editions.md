@@ -2,8 +2,6 @@
 title: "Read models and diagrams in other Visual Studio editions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "models, versions of Visual Studio"

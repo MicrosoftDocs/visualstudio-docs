@@ -2,18 +2,14 @@
 title: "IDebugProcess3::DisableENC | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "IDebugProcess3::DisableENC"
 helpviewer_keywords: 
   - "IDebugProcess3::DisableENC"
 ms.assetid: cffdbdac-4d76-4aeb-aa55-5d0410db99f1
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

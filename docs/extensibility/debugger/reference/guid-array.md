@@ -2,16 +2,12 @@
 title: "GUID_ARRAY | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "GUID_ARRAY structure"
 ms.assetid: 9e12500c-2c1c-49b1-a0ba-e08366c97eb8
-caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

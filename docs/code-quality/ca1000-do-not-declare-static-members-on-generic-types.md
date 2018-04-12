@@ -2,11 +2,8 @@
 title: "CA1000: Do not declare static members on generic types | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CA1000"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "DoNotDeclareStaticMembersOnGenericTypes"
   - "CA1000"
 ms.assetid: 5c0da594-f8d0-4f40-953d-56bf7fbd2087
-caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

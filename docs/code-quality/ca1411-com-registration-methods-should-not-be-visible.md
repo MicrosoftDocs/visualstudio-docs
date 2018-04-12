@@ -2,11 +2,8 @@
 title: "CA1411: COM registration methods should not be visible | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CA1411"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "ComRegistrationMethodsShouldNotBeVisible"
   - "CA1411"
 ms.assetid: a59f96f1-1f38-4596-b656-947df5c55311
-caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

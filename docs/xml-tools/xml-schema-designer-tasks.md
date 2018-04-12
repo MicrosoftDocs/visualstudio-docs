@@ -2,14 +2,10 @@
 title: "XML Schema Designer Tasks | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f413f208-696f-446a-bb78-7fc55cf96d6c
-caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

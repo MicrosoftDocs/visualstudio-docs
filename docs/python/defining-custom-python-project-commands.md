@@ -4,7 +4,6 @@ description: Demonstrates how to edit project and targets files to add custom co
 ms.custom:
 ms.date: 02/02/2018
 ms.reviewer:
-ms.suite:
 ms.technology: 
   - "devlang-python"
 dev_langs:

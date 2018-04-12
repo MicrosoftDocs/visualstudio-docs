@@ -2,16 +2,12 @@
 title: "Managed Extensibility Framework in the Editor | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], new - using MEF for extensions"
 ms.assetid: 3f59a285-6c33-4ae3-a4fb-ec1f5aa21bd1
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

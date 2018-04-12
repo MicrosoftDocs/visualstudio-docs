@@ -2,11 +2,8 @@
 title: "Edit and Continue (Visual Basic) | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/11/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "CSharp"
@@ -20,7 +17,6 @@ helpviewer_keywords:
   - "Visual Basic, Edit and Continue"
   - "64-bit Edit and Continue"
 ms.assetid: 7e90f34f-e699-45ab-a4c9-a4b527c498c8
-caps.latest.revision: 40
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

@@ -2,11 +2,8 @@
 title: "Start Command | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "debug.start"
@@ -14,7 +11,6 @@ helpviewer_keywords:
   - "Start command"
   - "Debug.Start command"
 ms.assetid: dc4e4aa2-b0ab-4e00-92db-6dc3058ddc21
-caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

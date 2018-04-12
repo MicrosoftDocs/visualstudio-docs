@@ -2,10 +2,7 @@
 title: "MSBuild Tasks Specific to Visual C++ | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -15,7 +12,6 @@ dev_langs:
 helpviewer_keywords: 
   - "MSBuild, tasks specific to Visual C++"
 ms.assetid: 05410f0c-7356-4692-bc00-20664421c9ff
-caps.latest.revision: 7
 author: Mikejo5000
 ms.author: mikejo
 manager: ghogen

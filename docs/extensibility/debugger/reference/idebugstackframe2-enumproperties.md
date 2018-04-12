@@ -2,18 +2,14 @@
 title: "IDebugStackFrame2::EnumProperties | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "IDebugStackFrame2::EnumProperties"
 helpviewer_keywords: 
   - "IDebugStackFrame2::EnumProperties"
 ms.assetid: 334bb95e-c7e0-4008-9f06-8c3999e47ee8
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

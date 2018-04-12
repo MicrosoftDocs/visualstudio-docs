@@ -2,11 +2,8 @@
 title: "Default keyboard shortcuts in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/26/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "shortcut keys [Visual Studio], keyboard binding schemes"

@@ -2,12 +2,8 @@
 title: "How to: Turn pluralization on and off (O-R Designer) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9b693bc3-303a-40a9-97ee-9cef5ca3ae81
-caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

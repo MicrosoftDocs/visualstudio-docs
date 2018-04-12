@@ -2,17 +2,13 @@
 title: "Directory Status Code Enumerator | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "directory status code enumerator"
   - "source control plug-ins, directory status enumeration"
 ms.assetid: 616026b5-f529-40ef-90c1-1836e116d797
-caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

@@ -2,11 +2,8 @@
 title: "How to: Manage Editor Windows | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "editor windows"
@@ -14,7 +11,6 @@ helpviewer_keywords:
   - "editors, windows management"
   - "Code Editor, windows management"
 ms.assetid: 340143d4-8a71-490d-823e-162b276f4c6d
-caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

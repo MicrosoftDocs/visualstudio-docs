@@ -2,10 +2,7 @@
 title: "ResolveNonMSBuildProjectOutput Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -16,7 +13,6 @@ helpviewer_keywords:
   - "MSBuild, ResolveNonMSBuildProjectOutput task"
   - "ResolveNonMSBuildProjectOutput task [MSBuild]"
 ms.assetid: a0b8fcec-8c8d-4867-85ac-5304c5108e5e
-caps.latest.revision: 4
 author: Mikejo5000
 ms.author: mikejo
 manager: ghogen

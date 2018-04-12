@@ -2,11 +2,8 @@
 title: "Mobility Warnings | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.codeanalysis.MobilityRules"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "mobility warnings"
   - "warnings, mobility"
 ms.assetid: 9808054c-593b-4fc3-92cc-1fc45f41569c
-caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

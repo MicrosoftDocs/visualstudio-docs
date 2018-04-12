@@ -2,11 +2,8 @@
 title: "CA1802: Use Literals Where Appropriate | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "UseLiteralsWhereAppropriate"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "UseLiteralsWhereAppropriate"
   - "CA1802"
 ms.assetid: 2515e4cd-9e61-486d-b067-58ba1a743ce4
-caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

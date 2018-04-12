@@ -2,10 +2,7 @@
 title: "MSBuild Reserved and Well-Known Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -15,7 +12,6 @@ dev_langs:
 helpviewer_keywords: 
   - "MSBuild, reserved properties"
 ms.assetid: 99333e61-83c9-4804-84e3-eda297c2478d
-caps.latest.revision: 29
 author: Mikejo5000
 ms.author: mikejo
 manager: ghogen

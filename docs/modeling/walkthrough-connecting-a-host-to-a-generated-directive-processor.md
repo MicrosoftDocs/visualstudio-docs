@@ -2,8 +2,6 @@
 title: "Walkthrough: Connecting a Host to a Generated Directive Processor | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "walkthroughs [text templates], connecting host to processor"

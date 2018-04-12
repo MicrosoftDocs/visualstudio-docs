@@ -2,9 +2,6 @@
 title: "Error: Evaluating the function &#39;function&#39; timed out and needed to be aborted in an unsafe way | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.error.unsafe_func_eval_abort"

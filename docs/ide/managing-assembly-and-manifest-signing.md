@@ -2,11 +2,8 @@
 title: "Managing Assembly and Manifest Signing | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/17/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "manifests [Visual Studio]"
@@ -14,7 +11,6 @@ helpviewer_keywords:
   - "application manifests [Visual Studio]"
   - "assemblies [Visual Studio], signing"
 ms.assetid: 6c1ef36b-25f7-4ad0-b29a-51801b7a5420
-caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

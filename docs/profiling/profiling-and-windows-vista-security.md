@@ -2,17 +2,13 @@
 title: "Profiling and Windows Vista Security | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Profiling Tools,security"
   - "performance tools, security"
 ms.assetid: 842112fc-b886-4801-8cd7-a25b314b0393
-caps.latest.revision: 19
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

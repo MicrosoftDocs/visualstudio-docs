@@ -2,17 +2,13 @@
 title: "Creating Project Instances By Using Project Factories | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "project factories"
   - "projects [Visual Studio SDK], project factories"
 ms.assetid: 94c90012-8669-459c-af8e-307ac242c8c4
-caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

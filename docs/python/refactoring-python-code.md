@@ -4,7 +4,6 @@ description: How to easily refactor Python code in Visual Studio by renaming ide
 ms.custom:
 ms.date: 07/12/2017
 ms.reviewer:
-ms.suite:
 ms.technology: 
   - "devlang-python"
 dev_langs:

@@ -2,10 +2,7 @@
 title: "NMake Properties (Android C++) | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/23/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-mobile
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d901c572-16c4-402a-b230-7ae59ce9fad4
 author: "corob"

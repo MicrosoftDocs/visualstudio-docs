@@ -2,11 +2,8 @@
 title: "Go To Line | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.gotoline"
@@ -14,7 +11,6 @@ helpviewer_keywords:
   - "code, locating lines"
   - "Go To Line dialog box"
 ms.assetid: 529fa251-b7b3-49cf-863c-10e0b82ac7cc
-caps.latest.revision: 8
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

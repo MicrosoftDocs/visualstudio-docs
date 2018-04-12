@@ -2,11 +2,8 @@
 title: "Tools to debug threads and processes | Microsoft Docs"
 ms.custom: ""
 ms.date: "04/21/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "CSharp"
@@ -20,7 +17,6 @@ helpviewer_keywords:
   - "debugging threads"
   - "debugging [Visual Studio], threads"
 ms.assetid: 9f0c8505-b6b2-452b-adfd-076db14d8115
-caps.latest.revision: 14
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

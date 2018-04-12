@@ -2,11 +2,8 @@
 title: "Code Analysis for C/C++ Overview | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "annotations, code analysis"
@@ -22,7 +19,6 @@ helpviewer_keywords:
   - "#pragma directives, code analysis"
   - "C, code analysis"
 ms.assetid: 81f0c9e8-f471-4de5-aac4-99db336a8809
-caps.latest.revision: 25
 author: mikeblome
 ms.author: mblome
 manager: ghogen

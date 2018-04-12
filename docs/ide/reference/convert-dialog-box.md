@@ -2,11 +2,8 @@
 title: "Convert Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "jlca_Conversion_F1_3"
@@ -15,7 +12,6 @@ f1_keywords:
 helpviewer_keywords: 
   - "Convert dialog box"
 ms.assetid: 56f23ef7-17c4-4d76-9ead-982bbcd42061
-caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

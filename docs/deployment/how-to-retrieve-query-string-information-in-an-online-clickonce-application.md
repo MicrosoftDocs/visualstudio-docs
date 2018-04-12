@@ -2,11 +2,8 @@
 title: "How to: Retrieve Query String Information in an Online ClickOnce Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -16,7 +13,6 @@ helpviewer_keywords:
   - "ClickOnce deployment, query strings"
   - "query strings, retrieving information"
 ms.assetid: 48ce098a-a075-481b-a5f5-c8ba11f63120
-caps.latest.revision: 19
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"

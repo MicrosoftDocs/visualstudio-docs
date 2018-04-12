@@ -2,11 +2,8 @@
 title: "&lt;Package&gt; Element (Bootstrapper) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "FSharp"
@@ -16,7 +13,6 @@ dev_langs:
 helpviewer_keywords: 
   - "<package> element [bootstrapper]"
 ms.assetid: ecd06658-ad02-4440-bccd-88437b7fb816
-caps.latest.revision: 9
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"

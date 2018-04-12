@@ -2,9 +2,6 @@
 title: "Configure Service Reference Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "msvse_wcf.dlg.ConfigureServiceReference"
@@ -13,7 +10,6 @@ helpviewer_keywords:
   - "service references [Visual Studio], configuring behavior"
   - "Configure Service Reference dialog box"
 ms.assetid: 25e4c36b-2db6-4e71-9010-b7068255d09d
-caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

@@ -2,11 +2,8 @@
 title: "Find code using Go To commands | Microsoft Docs"
 ms.custom: ""
 ms.date: "09/26/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 509b2107-23d1-4fb3-987f-ab99ef45b72e
 helpviewer_keywords: 

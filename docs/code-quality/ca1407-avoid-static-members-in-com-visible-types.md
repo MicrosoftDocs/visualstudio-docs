@@ -2,11 +2,8 @@
 title: "CA1407: Avoid static members in COM visible types | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CA1407"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "CA1407"
   - "AvoidStaticMembersInComVisibleTypes"
 ms.assetid: bebd0776-ad04-453c-bca8-8c124c2d7840
-caps.latest.revision: 23
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

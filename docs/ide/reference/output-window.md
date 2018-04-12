@@ -2,11 +2,8 @@
 title: "Output Window | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.build.output"
@@ -17,7 +14,6 @@ helpviewer_keywords:
   - "Output window"
   - "Toolbox, removing controls"
 ms.assetid: d8931d88-250e-4db4-963f-2c5b3e99b45f
-caps.latest.revision: 30
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

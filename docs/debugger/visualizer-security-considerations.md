@@ -2,11 +2,8 @@
 title: "Visualizer Security Considerations | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "CSharp"
@@ -17,7 +14,6 @@ helpviewer_keywords:
   - "visualizers, security"
   - "security [Visual Studio], visualizers"
 ms.assetid: cdd86bd5-b729-409b-a7c6-374efa091eb1
-caps.latest.revision: 22
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

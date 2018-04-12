@@ -2,9 +2,6 @@
 title: "Walkthrough: Creating a Dataset with the Dataset Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "09/11/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "datasets [Visual Basic], walkthroughs"

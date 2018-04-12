@@ -2,11 +2,8 @@
 title: "Send Diagnostic Messages to the Output Window | Microsoft Docs"
 ms.custom: ""
 ms.date: "04/25/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "CSharp"
@@ -27,7 +24,6 @@ helpviewer_keywords:
   - "debugging [Visual Studio], diagnostic messages in Output window"
   - "Debug class"
 ms.assetid: 386e9524-be17-4573-83fb-4f7c5cae0be0
-caps.latest.revision: 16
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

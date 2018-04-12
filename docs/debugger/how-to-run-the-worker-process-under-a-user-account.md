@@ -2,11 +2,8 @@
 title: "How to: Run the Worker Process Under a User Account | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "CSharp"
@@ -20,7 +17,6 @@ helpviewer_keywords:
   - "ASP.NET, tools"
   - "aspnet_wp.exe"
 ms.assetid: b58e97b1-e62a-4318-aea4-52276ea20735
-caps.latest.revision: 32
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

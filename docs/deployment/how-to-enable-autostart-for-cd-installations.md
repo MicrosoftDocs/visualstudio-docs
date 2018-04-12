@@ -2,11 +2,8 @@
 title: "How to: Enable AutoStart for CD Installations | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -17,7 +14,6 @@ helpviewer_keywords:
   - "ClickOnce deployment, installation on CD or DVD"
   - "deploying applications [ClickOnce], installation on CD or DVD"
 ms.assetid: caaec619-900c-4790-90e3-8c91f5347635
-caps.latest.revision: 17
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"

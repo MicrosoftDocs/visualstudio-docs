@@ -2,11 +2,8 @@
 title: "How to: Use Wizards with Project Templates | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "project templates [Visual Studio], wizards"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "templates [Visual Studio], wizards"
   - "IWizard interface"
 ms.assetid: 47ee26cf-67b7-4ff1-8a9d-ab11a725405c
-caps.latest.revision: 23
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

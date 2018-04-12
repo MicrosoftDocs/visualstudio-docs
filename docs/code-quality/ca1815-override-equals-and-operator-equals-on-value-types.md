@@ -2,11 +2,8 @@
 title: "CA1815: Override equals and operator equals on value types | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CA1815"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "OverrideEqualsAndOperatorEqualsOnValueTypes"
   - "CA1815"
 ms.assetid: 0a8ab3a3-ee8e-46f7-985d-dcf00c89363b
-caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

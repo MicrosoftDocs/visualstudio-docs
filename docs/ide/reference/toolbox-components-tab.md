@@ -2,11 +2,8 @@
 title: "Toolbox, Components Tab | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: reference
 helpviewer_keywords: 
   - "Toolbox, Components tab"

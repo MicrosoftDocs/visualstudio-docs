@@ -2,10 +2,7 @@
 title: "ResolveAssemblyReference Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#ResolveAssemblyReference"
@@ -21,7 +18,6 @@ helpviewer_keywords:
   - "ResolveAssemblyReference task [MSBuild]"
   - "MSBuild, ResolveAssemblyReference task"
 ms.assetid: 4d56d848-b29b-4dff-86a2-0a96c9e4a170
-caps.latest.revision: 29
 author: Mikejo5000
 ms.author: mikejo
 manager: ghogen

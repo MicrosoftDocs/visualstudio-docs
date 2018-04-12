@@ -2,11 +2,8 @@
 title: "CA1500: Variable names should not match field names | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "VariableNamesShouldNotMatchFieldNames"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "VariableNamesShouldNotMatchFieldNames"
   - "CA1500"
 ms.assetid: fa0e5029-79e9-4a33-8576-787ac3c26c39
-caps.latest.revision: 24
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

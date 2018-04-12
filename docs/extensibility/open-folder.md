@@ -2,11 +2,8 @@
 title: "Visual Studio Open Folder extensibility overview | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/21/2018"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology:
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 94c3f8bf-1de3-40ea-aded-7f40c4b314c7
 author: "vukelich"

@@ -2,11 +2,8 @@
 title: "Profile application performance in Visual Studio | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
 ms.date: "02/27/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "tutorial"
 f1_keywords: 
   - "vs.performance.wizard.intropage"
@@ -16,7 +13,6 @@ helpviewer_keywords:
   - "CPU Usage"
   - "Diagnostics Tools"
 ms.assetid: da2fbf8a-2d41-4654-a509-dd238532d25a
-caps.latest.revision: 45
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

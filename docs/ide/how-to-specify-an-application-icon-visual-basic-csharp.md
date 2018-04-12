@@ -2,11 +2,8 @@
 title: "How to: Specify an Application Icon (Visual Basic, C#) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "icons [Visual Studio], application"

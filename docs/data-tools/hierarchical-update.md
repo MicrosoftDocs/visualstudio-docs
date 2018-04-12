@@ -2,9 +2,6 @@
 title: "Hierarchical update | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -20,7 +17,6 @@ helpviewer_keywords:
   - "updated data saving"
   - "related tables, saving"
 ms.assetid: 68bae3f6-ec9b-45ee-a33a-69395029f54c
-caps.latest.revision: 26
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

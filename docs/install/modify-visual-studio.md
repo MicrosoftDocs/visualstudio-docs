@@ -3,11 +3,8 @@ title: "Modify Visual Studio 2017 | Microsoft Docs"
 description: "Learn how to modify Visual Studio, step-by-step."
 ms.custom: "H1Hack27Feb2017"
 ms.date: "04/06/2018"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology:
   - "vs-acquisition"
-ms.tgt_pltfrm: ""
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "modify Visual Studio"

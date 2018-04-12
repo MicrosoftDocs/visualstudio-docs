@@ -2,9 +2,6 @@
 title: "Save a dataset as XML | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "datasets [Visual Basic], saving as XML"
   - "saving data"
 ms.assetid: 68b8327c-ae05-49ff-b9ba-99183e70b52c
-caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

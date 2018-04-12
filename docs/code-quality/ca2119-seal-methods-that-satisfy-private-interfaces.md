@@ -2,11 +2,8 @@
 title: "CA2119: Seal methods that satisfy private interfaces | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "SealMethodsThatSatisfyPrivateInterfaces"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "CA2119"
   - "SealMethodsThatSatisfyPrivateInterfaces"
 ms.assetid: 483d02e1-cfaf-4754-a98f-4116df0f3509
-caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

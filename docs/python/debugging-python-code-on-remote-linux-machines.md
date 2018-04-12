@@ -4,7 +4,6 @@ description: How to use Visual Studio to debug Python code running on remote Lin
 ms.custom:
 ms.date: 07/12/2017
 ms.reviewer:
-ms.suite:
 ms.technology: 
   - "devlang-python"
 dev_langs:

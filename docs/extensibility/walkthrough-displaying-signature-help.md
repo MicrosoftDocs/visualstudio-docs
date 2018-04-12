@@ -2,16 +2,12 @@
 title: "Walkthrough: Displaying Signature Help | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], new - signature help/parameter info"
 ms.assetid: 4a6a884b-5730-4b54-9264-99684f5b523c
-caps.latest.revision: 28
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

@@ -2,17 +2,13 @@
 title: "-Command (devenv.exe) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Devenv, /command switch"
   - "/command Devenv switch"
 ms.assetid: 13c20cd6-f09d-400a-8b7b-ecc266a32cef
-caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

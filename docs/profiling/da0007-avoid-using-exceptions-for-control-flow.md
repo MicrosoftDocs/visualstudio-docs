@@ -2,11 +2,8 @@
 title: "DA0007: Avoid using exceptions for control flow | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.performance.rules.DAExceptionsThrown"
@@ -14,7 +11,6 @@ f1_keywords:
   - "vs.performance.rules.DA0007"
   - "vs.performance.DA0007"
 ms.assetid: ee8ba8b5-2313-46c9-b129-3f3a2a232898
-caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

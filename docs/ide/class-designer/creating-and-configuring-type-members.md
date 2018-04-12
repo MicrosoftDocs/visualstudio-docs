@@ -2,11 +2,8 @@
 title: "Creating and Configuring Type Members (Class Designer) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology:
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords:
   - "vs.classdetails.method"
@@ -30,7 +27,6 @@ helpviewer_keywords:
   - "Class Details window"
   - "Class Details window, member creation"
 ms.assetid: 42af8738-3738-4ca7-82ff-edf573a68f96
-caps.latest.revision: 24
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

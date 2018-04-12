@@ -2,11 +2,8 @@
 title: "Code Analysis, Project Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs29106"
@@ -14,7 +11,6 @@ helpviewer_keywords:
   - "Code Analysis page in Project Designer"
   - "Project Designer, Code Analysis page"
 ms.assetid: 71743d26-4da5-4f7d-a403-7ab96cf2ef2e
-caps.latest.revision: 9
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

@@ -2,11 +2,8 @@
 title: "Options, Text Editor, All Languages, Tabs | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "VS.ToolsOptionsPages.Text_Editor.ResJSON.Tabs"
@@ -21,7 +18,6 @@ helpviewer_keywords:
   - "Code Editor, indenting"
   - "Code Editor, tabs"
 ms.assetid: 7e208e1d-5e3a-4bf7-a27b-4417e3e049c7
-caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

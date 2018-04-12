@@ -2,18 +2,14 @@
 title: "Getting Started with Debugger Extensibility | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "getting started, Debugging SDK"
   - "debugging [Debugging SDK], getting started"
   - "Debugging SDK, getting started"
 ms.assetid: d6ce6f43-1409-4bf7-93cd-f3464ca23504
-caps.latest.revision: 17
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

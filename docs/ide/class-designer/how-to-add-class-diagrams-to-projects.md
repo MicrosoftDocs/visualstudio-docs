@@ -2,17 +2,13 @@
 title: "How to: Add Class Diagrams to Projects (Class Designer) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "class diagrams, creating"
   - "Class Designer [Visual Studio], opening"
 ms.assetid: 0eac1b54-2711-4e4b-9654-a0c429c08c8f
-caps.latest.revision: 39
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

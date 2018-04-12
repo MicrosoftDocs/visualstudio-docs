@@ -2,16 +2,12 @@
 title: "Legacy Language Service Overview | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "language services [managed package framework], about language services"
 ms.assetid: bb44e27b-d228-463c-b2cf-cd5c24c7c1b5
-caps.latest.revision: 17
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

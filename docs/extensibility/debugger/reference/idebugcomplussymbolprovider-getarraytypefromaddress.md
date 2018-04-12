@@ -2,17 +2,13 @@
 title: "IDebugComPlusSymbolProvider::GetArrayTypeFromAddress | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "GetArrayTypeFromAddress"
   - "IDebugComPlusSymbolProvider::GetArrayTypeFromAddress"
 ms.assetid: cc0c53f1-8c0f-49fa-8dbe-bc155e9ce0ef
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

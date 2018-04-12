@@ -2,14 +2,10 @@
 title: "Sample XSD File: Simple Schema | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f7e1dde1-b4f6-4371-add4-935b68ec77d7
-caps.latest.revision: 4
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

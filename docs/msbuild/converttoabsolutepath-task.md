@@ -2,10 +2,7 @@
 title: "ConvertToAbsolutePath Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#ConvertToAbsolutePath"
@@ -18,7 +15,6 @@ helpviewer_keywords:
   - "ConvertToAbsolutePath task [MSBuild]"
   - "MSBuild, ConvertToAbsolutePath task"
 ms.assetid: f1af2cb8-b4ef-4a72-be80-22fa526c4491
-caps.latest.revision: 6
 author: Mikejo5000
 ms.author: mikejo
 manager: ghogen

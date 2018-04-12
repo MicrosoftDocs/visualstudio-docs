@@ -2,11 +2,8 @@
 title: "&lt;Strings&gt; Element (Bootstrapper) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "MSBuild.GenerateBootstrapper.NoStringsForCulture"
@@ -19,7 +16,6 @@ dev_langs:
 helpviewer_keywords: 
   - "<Strings> element [bootstrapper]"
 ms.assetid: d5ea3613-5fc9-4a11-bef3-46a01178bf60
-caps.latest.revision: 4
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"

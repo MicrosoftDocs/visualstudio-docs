@@ -2,11 +2,8 @@
 title: "NumberOfParentCategoriesToRollUp (Visual Studio Templates) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/vstemplate/2005#NumberOfParentCategoriesToRollUp"
@@ -14,7 +11,6 @@ helpviewer_keywords:
   - "NumberOfParentCategoriesToRollUp element [Visual Studio Templates]"
   - "<NumberOfParentCategoriesToRollUp> element [Visual Studio Templates]"
 ms.assetid: 6f9d36f5-ae23-4a92-8132-b11799e2c21a
-caps.latest.revision: 7
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

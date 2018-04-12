@@ -2,17 +2,13 @@
 title: "RegPkg Utility | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "regpkg, registration utility"
   - "registration, regpkg utility"
 ms.assetid: 1683ee18-59d1-4bab-a674-dd00dd960de3
-caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

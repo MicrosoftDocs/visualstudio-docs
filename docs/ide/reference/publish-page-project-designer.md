@@ -2,11 +2,8 @@
 title: "Publish Page, Project Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "Microsoft.VisualStudio.Publish.ClickOnceProvider.Dialog.PropertyPage"

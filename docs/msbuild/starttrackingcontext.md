@@ -2,10 +2,7 @@
 title: "StartTrackingContext | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 apiname: 
   - "StartTrackingContext"
@@ -15,7 +12,6 @@ apitype: "COM"
 helpviewer_keywords: 
   - "StartTrackingContext"
 ms.assetid: 720cd295-38e7-4974-86db-b8106b1207ba
-caps.latest.revision: 5
 author: Mikejo5000
 ms.author: mikejo
 manager: ghogen

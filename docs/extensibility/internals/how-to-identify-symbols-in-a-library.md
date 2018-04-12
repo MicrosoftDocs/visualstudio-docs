@@ -2,17 +2,13 @@
 title: "How to: Identify Symbols in a Library | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Call Browser tool, identifying symbols in the library"
   - "Call Browser tool"
 ms.assetid: 8fb0de61-71e7-42d1-8b41-2ad915474384
-caps.latest.revision: 21
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

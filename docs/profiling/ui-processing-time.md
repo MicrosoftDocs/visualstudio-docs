@@ -2,18 +2,14 @@
 title: "UI Processing Time | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.cv.threads.timeline.uiprocessing"
 helpviewer_keywords: 
   - "Concurrency Visualizer, UI Processing Time"
 ms.assetid: 0ddb05a3-8c6b-448b-8488-2751c1e5abcc
-caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

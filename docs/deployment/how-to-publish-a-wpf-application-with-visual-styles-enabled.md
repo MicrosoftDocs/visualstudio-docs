@@ -2,14 +2,10 @@
 title: "How to: Publish a WPF Application with Visual Styles Enabled | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 73b22b02-fc75-42aa-82d3-51fdcaf8e5c8
-caps.latest.revision: 3
 author: "mairaw"
 ms.author: "mairaw"
 manager: "wpickett"

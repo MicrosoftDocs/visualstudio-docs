@@ -4,7 +4,6 @@ description: Help for R is integrated directly into the interactive window in Vi
 ms.custom:
 ms.date: 001/24/2018
 ms.reviewer:
-ms.suite:
 ms.technology: 
   - "devlang-r"
 dev_langs:

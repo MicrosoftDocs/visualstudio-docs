@@ -2,17 +2,13 @@
 title: "IDebugComPlusSymbolProvider2::GetTypeFromToken | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "IDebugComPlusSymbolProvider2::GetTypeFromToken"
   - "GetTypeFromToken"
 ms.assetid: 4452bc5d-0225-40e0-a467-c472a5c7c4ee
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

@@ -4,7 +4,6 @@ description: How to install the R Tools for Visual Studio in Visual Studio 2017 
 ms.custom:
 ms.date: 01/24/2018
 ms.reviewer:
-ms.suite:
 ms.technology:
   - "devlang-r"
 ms.tgt_pltfrm:

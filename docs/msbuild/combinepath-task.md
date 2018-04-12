@@ -2,10 +2,7 @@
 title: "CombinePath Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -16,7 +13,6 @@ helpviewer_keywords:
   - "MSBuild, CombinePath task"
   - "CombinePath task [MSBuild]"
 ms.assetid: c20edbf4-3d4f-4f66-b1d5-753a0d858ed8
-caps.latest.revision: 7
 author: Mikejo5000
 ms.author: mikejo
 manager: ghogen

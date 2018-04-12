@@ -2,11 +2,8 @@
 title: "Debug HTML and CSS sample code | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "CSharp"
@@ -14,7 +11,6 @@ dev_langs:
   - "FSharp"
   - "C++"
 ms.assetid: 51893967-98c8-4141-ba40-03646f221760
-caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

@@ -2,11 +2,8 @@
 title: "CA1001: Types that own disposable fields should be disposable | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CA1001"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "CA1001"
   - "TypesThatOwnDisposableFieldsShouldBeDisposable"
 ms.assetid: c85c126c-2b16-4505-940a-b5ddf873fb22
-caps.latest.revision: 22
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

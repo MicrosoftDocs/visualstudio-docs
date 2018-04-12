@@ -2,11 +2,8 @@
 title: "CA1006: Do not nest generic types in member signatures | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "DoNotNestGenericTypesInMemberSignatures"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "CA1006"
   - "DoNotNestGenericTypesInMemberSignatures"
 ms.assetid: dfc867bc-f4af-45d7-b071-db04a248f9fc
-caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

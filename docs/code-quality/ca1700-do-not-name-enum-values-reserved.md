@@ -2,11 +2,8 @@
 title: "CA1700: Do not name enum values &#39;Reserved&#39; | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CA1700"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "DoNotNameEnumValuesReserved"
   - "CA1700"
 ms.assetid: 7a7e01c3-ae7d-4c82-a646-91b58864a749
-caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

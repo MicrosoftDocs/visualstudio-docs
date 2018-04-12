@@ -2,18 +2,14 @@
 title: "IEnumDebugThreads2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "IEnumDebugThreads2"
 helpviewer_keywords: 
   - "IEnumDebugThreads2"
 ms.assetid: 1854f078-3b49-42c2-b65b-33e3b506fd63
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

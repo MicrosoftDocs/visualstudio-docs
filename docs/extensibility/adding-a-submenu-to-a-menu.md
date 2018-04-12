@@ -2,11 +2,8 @@
 title: "Adding a Submenu to a Menu | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "context menus"
@@ -14,7 +11,6 @@ helpviewer_keywords:
   - "cascading submenus"
   - "menus, creating cascading submenus"
 ms.assetid: 692600cb-d052-40e2-bdae-4354ae7c6c84
-caps.latest.revision: 43
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

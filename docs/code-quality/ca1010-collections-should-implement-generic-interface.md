@@ -2,11 +2,8 @@
 title: "CA1010: Collections should implement generic interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CA1010"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "CA1010"
   - "CollectionsShouldImplementGenericInterface"
 ms.assetid: c7d7126f-fa70-40be-8f93-3243e1760dc5
-caps.latest.revision: 24
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

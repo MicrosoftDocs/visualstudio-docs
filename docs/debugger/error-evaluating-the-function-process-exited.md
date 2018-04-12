@@ -2,9 +2,6 @@
 title: "Error: The target process exited while evaluating the function &#39;function&#39; | Microsoft Docs"
 ms.custom: ""
 ms.date: "4/06/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.error.process_exit_func_eval_abort"

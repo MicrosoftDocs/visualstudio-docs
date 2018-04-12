@@ -4,7 +4,6 @@ description: Step 3 of a core tutorial for working with Python within Visual Stu
 ms.custom: "mvc"
 ms.date: 01/16/2018
 ms.reviewer:
-ms.suite:
 ms.technology: 
   - "devlang-python"
 dev_langs:

@@ -2,11 +2,8 @@
 title: "IntelliTrace | Microsoft Docs"
 ms.custom: ""
 ms.date: "07/18/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.historicaldebug.overview"

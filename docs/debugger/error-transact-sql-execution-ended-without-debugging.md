@@ -2,11 +2,8 @@
 title: "Error: Transact-SQL execution ended without debugging | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.error.sqlde_sql_executed_but_not_debugged"
@@ -16,7 +13,6 @@ dev_langs:
   - "FSharp"
   - "C++"
   - "SQL"
-caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

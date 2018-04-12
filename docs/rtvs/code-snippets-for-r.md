@@ -4,7 +4,6 @@ description: Code snippets for R in Visual Studio provide shortcuts to quickly i
 ms.custom:
 ms.date: 01/24/2018
 ms.reviewer:
-ms.suite:
 ms.technology: 
   - "devlang-r"
 dev_langs:

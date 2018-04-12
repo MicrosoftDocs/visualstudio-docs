@@ -2,11 +2,8 @@
 title: "CA1712: Do not prefix enum values with type name | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CA1712"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "CA1712"
   - "DoNotPrefixEnumValuesWithTypeName"
 ms.assetid: df0e3a12-67bf-48f1-a10b-2ef60484a5c7
-caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

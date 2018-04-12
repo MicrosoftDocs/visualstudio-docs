@@ -2,11 +2,8 @@
 title: "Edit and Continue Not Supported for F# | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "CSharp"
@@ -17,7 +14,6 @@ helpviewer_keywords:
   - "Edit and Continue [F#]"
   - "Debugging [F#], Edit and Continue"
 ms.assetid: 40ec77bb-07e3-4b58-9254-ae015009441c
-caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

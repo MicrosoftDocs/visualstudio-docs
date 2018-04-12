@@ -2,10 +2,7 @@
 title: "Troubleshoot template discovery in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/02/2018"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-sdk
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 author: "gregvanl"
 ms.author: "gregvanl"

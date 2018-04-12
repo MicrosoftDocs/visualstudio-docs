@@ -2,11 +2,8 @@
 title: "CA1408: Do not use AutoDual ClassInterfaceType | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "DoNotUseAutoDualClassInterfaceType"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "CA1408"
   - "DoNotUseAutoDualClassInterfaceType"
 ms.assetid: 60ca5e02-3c51-42dd-942b-4f950eecfa0f
-caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

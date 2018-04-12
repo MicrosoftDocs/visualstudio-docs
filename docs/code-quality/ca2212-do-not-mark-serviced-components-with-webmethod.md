@@ -2,11 +2,8 @@
 title: "CA2212: Do not mark serviced components with WebMethod | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CA2212"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "CA2212"
   - "DoNotMarkServicedComponentsWithWebMethod"
 ms.assetid: 774bc55d-e588-48ee-8f38-c228580feca2
-caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

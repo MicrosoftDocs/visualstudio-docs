@@ -2,11 +2,8 @@
 title: "CA1721: Property names should not match get methods | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CA1721"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "CA1721"
   - "PropertyNamesShouldNotMatchGetMethods"
 ms.assetid: 45a0e853-1f06-4688-af1b-cc634409e295
-caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

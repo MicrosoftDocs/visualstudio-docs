@@ -2,17 +2,13 @@
 title: "MaxFrameworkVersion Element (Visual Studio Templates) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology:
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords:
   - "<MaxFrameworkVersion> Element (Visual Studio Templates)"
   - "MaxFrameworkVersion Element (Visual Studio Templates)"
 ms.assetid: f732a9d3-fc29-405b-9298-01ea83fc58b8
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

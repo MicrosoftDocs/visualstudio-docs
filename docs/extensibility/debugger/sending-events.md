@@ -2,16 +2,12 @@
 title: "Sending Events | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "debugging [Debugging SDK], sending events"
 ms.assetid: 064231e7-59b5-4437-8240-a23c0a7ec2a9
-caps.latest.revision: 7
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

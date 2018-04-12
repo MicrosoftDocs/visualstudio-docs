@@ -2,17 +2,13 @@
 title: "Deploying Custom Start Pages | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "package start page"
   - "deploy start page"
 ms.assetid: 4a7eb360-de83-41d5-be53-3cfb160d19f9
-caps.latest.revision: 21
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

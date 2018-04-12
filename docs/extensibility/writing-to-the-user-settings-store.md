@@ -2,14 +2,10 @@
 title: "Writing to the User Settings Store | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: efd27f00-7fe5-45f8-9b97-371af732be97
-caps.latest.revision: 3
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

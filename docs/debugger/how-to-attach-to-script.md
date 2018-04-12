@@ -2,11 +2,8 @@
 title: "How to: Attach to Script | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "CSharp"
@@ -19,7 +16,6 @@ helpviewer_keywords:
   - "processes, attaching to script"
   - "remote debugging, attaching to script"
 ms.assetid: 82013e9a-ef53-4fd2-b451-a6891cdc6307
-caps.latest.revision: 23
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

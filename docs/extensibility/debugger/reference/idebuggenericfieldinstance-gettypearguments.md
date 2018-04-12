@@ -2,17 +2,13 @@
 title: "IDebugGenericFieldInstance::GetTypeArguments | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "GetTypeArguments"
   - "IDebugGenericFieldInstance::GetTypeArguments"
 ms.assetid: 6e7e0f95-181a-4805-adb3-c2407de0ab93
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

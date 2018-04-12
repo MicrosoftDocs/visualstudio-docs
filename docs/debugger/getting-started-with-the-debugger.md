@@ -3,16 +3,12 @@ title: "Learn to debug - Visual Studio | Microsoft Docs"
 ms.description: "Learn how to start the Visual Studio debugger, step through code, and inspect data"
 ms.custom: "mvc"
 ms.date: "03/16/2018"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "tutorial"
 helpviewer_keywords: 
   - "debugger"
 ms.assetid: 62734c0d-a75a-4576-8f73-0e97c19280e1
-caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

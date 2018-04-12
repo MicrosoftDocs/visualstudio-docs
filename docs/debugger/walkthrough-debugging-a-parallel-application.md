@@ -2,11 +2,8 @@
 title: "Walkthrough: Debugging a Parallel Application | Microsoft Docs"
 ms.custom: "H1HackMay2017"
 ms.date: "03/22/2018"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "CSharp"
@@ -22,7 +19,6 @@ helpviewer_keywords:
   - "parallel applications, debugging [Visual Basic]"
   - "parallel applications, debugging [C#]"
 ms.assetid: 2820ac4c-c893-4d87-8c62-83981d561493
-caps.latest.revision: 28
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

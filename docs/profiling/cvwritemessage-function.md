@@ -2,11 +2,8 @@
 title: "CvWriteMessage Function | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "cvmarkers/CvWriteMessageW"
@@ -27,7 +24,6 @@ helpviewer_keywords:
   - "CvWriteMessageVA method"
   - "CvWriteMessageExA method"
 ms.assetid: e20ae7be-bfa7-437a-b8c1-fa0f1baa7f83
-caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

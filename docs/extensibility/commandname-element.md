@@ -2,17 +2,13 @@
 title: "CommandName Element | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "CommandName element (VSCT XML schema)"
   - "VSCT XML schema elements, CommandName"
 ms.assetid: a338b767-aa7e-4536-9908-e19a50ab60ac
-caps.latest.revision: 5
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

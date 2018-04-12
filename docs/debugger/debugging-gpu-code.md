@@ -2,11 +2,8 @@
 title: "Debugging GPU Code | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "CSharp"
@@ -14,7 +11,6 @@ dev_langs:
   - "FSharp"
   - "C++"
 ms.assetid: c7e77a5a-cb57-4b11-9187-ecc89acc8775
-caps.latest.revision: 20
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

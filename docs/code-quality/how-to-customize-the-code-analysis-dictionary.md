@@ -2,18 +2,14 @@
 title: "How to: Customize the Code Analysis Dictionary | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "code analysis dictionary"
   - "custom dictionary, code analysis"
   - "dictionary, code analysis"
 ms.assetid: 667e3b4e-beff-48be-b3d1-376e1716a895
-caps.latest.revision: 21
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

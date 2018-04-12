@@ -2,11 +2,8 @@
 title: "Allocation Hook Functions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.debug.hooks"
@@ -23,7 +20,6 @@ helpviewer_keywords:
   - "allocation hooks"
   - "hooks, allocation"
 ms.assetid: 6bfbdb65-8cb1-4c21-8c45-7194a2b77c1e
-caps.latest.revision: 14
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

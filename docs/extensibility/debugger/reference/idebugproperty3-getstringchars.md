@@ -2,18 +2,14 @@
 title: "IDebugProperty3::GetStringChars | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "IDebugProperty3::GetStringChars"
 helpviewer_keywords: 
   - "IDebugProperty3::GetStringChars"
 ms.assetid: 832c37f3-85cb-4227-8ab2-f27a80eafe90
-caps.latest.revision: 7
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

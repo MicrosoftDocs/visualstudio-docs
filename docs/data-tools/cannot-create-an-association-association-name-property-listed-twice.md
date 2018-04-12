@@ -2,12 +2,8 @@
 title: "Cannot create an association &lt;association name&gt; - property listed twice | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3ced8bda-210e-4caf-9d8f-96cdbba19251
-caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

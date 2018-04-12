@@ -4,7 +4,6 @@ description: How to simultaneously debug C++ and Python in Visual Studio includi
 ms.custom:
 ms.date: 01/16/2018
 ms.reviewer:
-ms.suite:
 ms.technology: 
   - "devlang-python"
 dev_langs:

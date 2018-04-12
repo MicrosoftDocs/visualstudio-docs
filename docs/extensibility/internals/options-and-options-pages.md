@@ -2,11 +2,8 @@
 title: "Options and Options Pages | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Tools Options pages [Visual Studio SDK], managed package framework support"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "Tools Options pages [Visual Studio SDK], layouts"
   - "Tools Options pages [Visual Studio SDK], attributes"
 ms.assetid: e6c0e636-5ec3-450e-b395-fc4bb9d75918
-caps.latest.revision: 34
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

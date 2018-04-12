@@ -2,18 +2,14 @@
 title: "How to: Export Class Diagrams As Images (Class Designer) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.classdesigner.exportdialog"
 helpviewer_keywords: 
   - "class diagrams, exporting as images"
 ms.assetid: c57055c5-1340-449f-b9d3-ca6f87e2f69a
-caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

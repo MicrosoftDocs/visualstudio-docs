@@ -2,11 +2,8 @@
 title: "CA1305: Specify IFormatProvider | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "SpecifyIFormatProvider"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "CA1305"
   - "SpecifyIFormatProvider"
 ms.assetid: fb34ed9a-4eab-47cc-8eef-3068a4a1397e
-caps.latest.revision: 22
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

@@ -2,11 +2,8 @@
 title: "Print Command | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "debug.print"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "Print method"
   - "Print command"
 ms.assetid: 0412d381-590a-483f-bab4-6e1cca095645
-caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

@@ -2,11 +2,8 @@
 title: "Dia2dump Sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
@@ -14,7 +11,6 @@ helpviewer_keywords:
   - "sample applications [DIA SDK]"
   - "Dia2dump sample [DIA SDK]"
 ms.assetid: 492c0893-7043-452f-a020-890a47230d20
-caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

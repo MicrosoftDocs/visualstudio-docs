@@ -2,10 +2,7 @@
 title: "ResourcesGenerator Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -17,7 +14,6 @@ helpviewer_keywords:
   - "ResourcesGenerator task [WPF MSBuild]"
   - "ResourcesGenerator task [WPF MSBuild], parameters"
 ms.assetid: e782bbac-9ee6-472b-8171-3ee008c77b4e
-caps.latest.revision: 6
 author: Mikejo5000
 ms.author: mikejo
 manager: ghogen

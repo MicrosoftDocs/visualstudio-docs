@@ -2,16 +2,12 @@
 title: "m_contingentProperties Field | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "m_contingentProperties field, Task class [.NET Framework debug engines]"
 ms.assetid: 49e8cb36-db39-440b-acda-a325651f1165
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

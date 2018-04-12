@@ -2,11 +2,8 @@
 title: "Fonts and Colors, Environment, Options Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "VS.ToolsOptionsPag.Environment.Fonts_And_Colors"
@@ -27,7 +24,6 @@ helpviewer_keywords:
   - "defaults, colors"
   - "printers, customizing"
 ms.assetid: c767d302-51ed-47a8-a527-c07bce2aa485
-caps.latest.revision: 27
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

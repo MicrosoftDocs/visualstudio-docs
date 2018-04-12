@@ -2,11 +2,8 @@
 title: "CA2200: Rethrow to preserve stack details | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "RethrowToPreserveStackDetails"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "CA2200"
   - "RethrowToPreserveStackDetails"
 ms.assetid: 046e1b98-c4dc-4515-874f-9c0de2285621
-caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

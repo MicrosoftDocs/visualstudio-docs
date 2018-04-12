@@ -4,7 +4,6 @@ description: How to troubleshoot problems when attempting to debug a Python appl
 ms.custom:
 ms.date: 07/12/2017
 ms.reviewer:
-ms.suite:
 ms.technology: 
   - "devlang-python"
 dev_langs:

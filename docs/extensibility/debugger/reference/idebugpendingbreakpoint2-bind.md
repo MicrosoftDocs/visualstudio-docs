@@ -2,11 +2,8 @@
 title: "IDebugPendingBreakpoint2::Bind | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "IDebugPendingBreakpoint2::Bind"
@@ -14,7 +11,6 @@ helpviewer_keywords:
   - "Bind method"
   - "IDebugPendingBreakpoint2::Bind method"
 ms.assetid: 46e3f307-219d-40cd-a929-d41399c60ecf
-caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

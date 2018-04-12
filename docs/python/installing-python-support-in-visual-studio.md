@@ -4,7 +4,6 @@ description: Detailed instructions on how to install the Python Tools for Visual
 ms.custom:
 ms.date: 02/15/2018
 ms.reviewer:
-ms.suite:
 ms.technology: 
   - "devlang-python"
 dev_langs:

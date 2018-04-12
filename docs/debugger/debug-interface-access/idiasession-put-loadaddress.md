@@ -2,18 +2,14 @@
 title: "IDiaSession::put_loadAddress | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaSession::put_loadAddress method"
 ms.assetid: b157b245-1ea0-4b80-8962-d8b278dbc742
-caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

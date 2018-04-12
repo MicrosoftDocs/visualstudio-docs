@@ -2,9 +2,6 @@
 title: "Additional resources for troubleshooting data access errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "DSD_ImportXmlSchemaSameFileWrnHelpId"
@@ -223,7 +220,6 @@ helpviewer_keywords:
   - "troubleshooting data access"
   - "datasets [Visual Basic], troubleshooting"
 ms.assetid: 357c9f0a-9d59-4db4-9b7c-b96cad839961
-caps.latest.revision: 29
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

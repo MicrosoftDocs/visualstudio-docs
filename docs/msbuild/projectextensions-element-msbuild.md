@@ -2,10 +2,7 @@
 title: "ProjectExtensions Element (MSBuild) | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/13/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#ProjectExtensions"
@@ -18,7 +15,6 @@ helpviewer_keywords:
   - "<ProjectExtensions> element [MSBuild]"
   - "ProjectExtensions element [MSBuild]"
 ms.assetid: f95f312f-ff92-41eb-9469-ad99e236a307
-caps.latest.revision: 18
 author: Mikejo5000
 ms.author: mikejo
 manager: ghogen

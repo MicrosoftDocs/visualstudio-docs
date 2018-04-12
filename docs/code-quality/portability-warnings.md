@@ -2,11 +2,8 @@
 title: "Portability Warnings | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.codeanalysis.PortabilityRules"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "managed code analysis warnings, portability warnings"
   - "warnings, portability"
 ms.assetid: 902e859a-2153-4970-baaa-8a5b4a11806f
-caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

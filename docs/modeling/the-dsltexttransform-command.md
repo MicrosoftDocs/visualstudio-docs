@@ -2,8 +2,6 @@
 title: "The DslTextTransform Command | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Domain-Specific Language, commands"

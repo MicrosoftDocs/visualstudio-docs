@@ -2,17 +2,13 @@
 title: "Exposing Project Objects | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "project objects, exposing"
   - "extensibility, project objects"
 ms.assetid: 5bb24967-434a-4ef4-87a0-2f3250c9e22d
-caps.latest.revision: 17
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

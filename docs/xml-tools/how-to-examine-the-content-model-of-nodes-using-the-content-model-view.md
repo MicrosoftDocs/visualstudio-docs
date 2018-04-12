@@ -2,14 +2,10 @@
 title: "How to: Examine the Content Model of Nodes Using the Content Model View | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c42ddac8-b0e3-48d6-9832-112a19d6c104
-caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

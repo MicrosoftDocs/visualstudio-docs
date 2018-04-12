@@ -2,14 +2,10 @@
 title: "Designing User Interfaces | Microsoft Docs"
 ms.custom: ""
 ms.date: "07/17/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-designers"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 880da508-7573-4434-b3a0-d48cf003c0a9
-caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

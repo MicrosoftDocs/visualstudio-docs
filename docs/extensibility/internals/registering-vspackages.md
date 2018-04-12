@@ -2,17 +2,13 @@
 title: "Registering VSPackages | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "managed VSPackages, registering"
   - "registration, managed VSPackages"
 ms.assetid: 79b9424e-7e9b-4fc8-9b9f-00212674573c
-caps.latest.revision: 20
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

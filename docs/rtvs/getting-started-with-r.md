@@ -4,7 +4,6 @@ description: A walkthrough of using R in Visual Studio including project creatio
 ms.custom:
 ms.date: 06/29/2017
 ms.reviewer:
-ms.suite:
 ms.technology: 
   - "devlang-r"
 dev_langs:

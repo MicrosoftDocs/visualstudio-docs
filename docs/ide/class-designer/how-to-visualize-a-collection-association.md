@@ -2,11 +2,8 @@
 title: "How to: Visualize a Collection Association (Class Designer) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.classdesigner.collectionassociationline"
@@ -16,7 +13,6 @@ helpviewer_keywords:
   - "collections, collection associations"
   - "Class Designer [Visual Studio], collection associations"
 ms.assetid: 54e39838-2fc9-4dc2-85b6-7e88a743108e
-caps.latest.revision: 6
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

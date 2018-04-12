@@ -2,11 +2,8 @@
 title: "Visual Studio Command Aliases | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "aliases, Visual Studio commands"
@@ -17,7 +14,6 @@ helpviewer_keywords:
   - "pre-defined command aliases"
   - "command aliases"
 ms.assetid: de8bb378-8c1c-4087-a9a5-537fa8314c19
-caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

@@ -2,14 +2,10 @@
 title: "Getting Started with WPF | Microsoft Docs"
 ms.custom: ""
 ms.date: "07/17/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-designers"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f3be98cb-870f-472c-9da5-cb815e4f6598
-caps.latest.revision: 5
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

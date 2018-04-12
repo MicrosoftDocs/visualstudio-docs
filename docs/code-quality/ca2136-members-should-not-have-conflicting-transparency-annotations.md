@@ -2,11 +2,8 @@
 title: "CA2136: Members should not have conflicting transparency annotations | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CA2127"
@@ -16,7 +13,6 @@ helpviewer_keywords:
   - "SecurityTransparentAssembliesShouldNotContainSecurityCriticalCode"
   - "CA2127"
 ms.assetid: ff5a1d18-7c52-4da5-8990-60be83a8ea81
-caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

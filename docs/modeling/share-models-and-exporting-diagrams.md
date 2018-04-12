@@ -2,8 +2,6 @@
 title: "Share models and exporting diagrams | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "UML model, sharing"

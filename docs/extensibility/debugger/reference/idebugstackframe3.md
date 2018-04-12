@@ -2,18 +2,14 @@
 title: "IDebugStackFrame3 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "IDebugStackFrame3"
 helpviewer_keywords: 
   - "IDebugStackFrame3 interface"
 ms.assetid: 39af2f57-0a01-42b8-b093-b7fbc61e2909
-caps.latest.revision: 15
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

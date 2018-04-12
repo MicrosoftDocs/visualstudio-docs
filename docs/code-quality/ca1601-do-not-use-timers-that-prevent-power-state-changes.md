@@ -2,11 +2,8 @@
 title: "CA1601: Do not use timers that prevent power state changes | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CA1601"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "CA1601"
   - "DoNotUseTimersThatPreventPowerStateChanges"
 ms.assetid: b8028c92-0696-4c54-9773-0028f29bda9a
-caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

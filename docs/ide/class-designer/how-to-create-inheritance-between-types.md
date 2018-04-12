@@ -2,11 +2,8 @@
 title: "How to: Create Inheritance Between Types (Class Designer) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.classdesigner.inheritanceline"
@@ -14,7 +11,6 @@ helpviewer_keywords:
   - "inheritance, relationship defining"
   - "relationships, defining inheritance"
 ms.assetid: 3786a21c-8022-4bf5-9d13-740fd354e93c
-caps.latest.revision: 30
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

@@ -2,11 +2,8 @@
 title: "CA2006: Use SafeHandle to encapsulate native resources | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CA2006"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "UseSafeHandleToEncapsulateNativeResources"
   - "CA2006"
 ms.assetid: a71950bd-bcc1-463d-b1f2-5233bc451456
-caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

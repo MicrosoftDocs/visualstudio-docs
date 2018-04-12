@@ -2,11 +2,8 @@
 title: "CA1019: Define accessors for attribute arguments | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CA1019"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "CA1019"
   - "DefineAccessorsForAttributeArguments"
 ms.assetid: 197f2378-3c43-427e-80de-9ec25006c05c
-caps.latest.revision: 19
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

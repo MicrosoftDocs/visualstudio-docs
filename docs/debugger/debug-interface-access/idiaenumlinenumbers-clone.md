@@ -2,18 +2,14 @@
 title: "IDiaEnumLineNumbers::Clone | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaEnumLineNumbers::Clone method"
 ms.assetid: fcd2479a-8ff7-4aba-a737-06123c280d54
-caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

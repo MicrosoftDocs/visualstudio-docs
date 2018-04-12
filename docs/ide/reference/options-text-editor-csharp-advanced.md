@@ -1,10 +1,7 @@
 ---
 title: "Options, Text Editor, C#, Advanced | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
 ms.topic: reference
 f1_keywords: 
   - "VS.ToolsOptionsPages.Text_Editor.CSharp.Outlining"

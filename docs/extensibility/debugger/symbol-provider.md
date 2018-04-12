@@ -2,17 +2,13 @@
 title: "Symbol Provider | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "symbol handler"
   - "debugging [Debugging SDK], symbol handler"
 ms.assetid: 5fce651b-fead-4418-81b0-a011df7644ab
-caps.latest.revision: 17
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

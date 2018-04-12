@@ -2,11 +2,8 @@
 title: "Security Warning: Debugger Must Execute Untrusted Command | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.debug.sourceserver.securityalert"
@@ -16,7 +13,6 @@ dev_langs:
   - "FSharp"
   - "C++"
 ms.assetid: e5c004b3-b364-4098-ac98-770076ca9981
-caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

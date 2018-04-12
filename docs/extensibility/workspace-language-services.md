@@ -2,11 +2,8 @@
 title: "Workspaces and language services in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/21/2018"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology:
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8631ffea-83c8-4fd4-a01e-c59772e89c84
 author: "vukelich"

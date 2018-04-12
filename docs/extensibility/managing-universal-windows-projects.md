@@ -2,14 +2,10 @@
 title: "Managing Universal Windows Projects | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 47926aa1-3b41-410d-bca8-f77fc950cbe7
-caps.latest.revision: 14
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

@@ -2,11 +2,8 @@
 title: "Beginners Guide to CPU Sampling in Visual Studio | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
 ms.date: "02/27/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.wizard.intropage"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "performance tools, wizard"
   - "Performance Wizard"
 ms.assetid: 85161cc4-18ee-49b3-9487-33680e687597
-caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

@@ -2,17 +2,13 @@
 title: "About File Name Extensions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "file extensions"
   - "file name extensions"
 ms.assetid: 99f4f9ff-fb84-4258-9787-6890f308a57f
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

@@ -2,18 +2,14 @@
 title: "CodeIndex command | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "command-line tools [Team Foundation Server]"
   - "TFSConfig"
   - "CodeIndex command [Team Foundation Server]"
 ms.assetid: b79568d4-6a64-4ca9-a1ee-3e57f92a9c5c
-caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

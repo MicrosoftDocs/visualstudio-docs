@@ -2,18 +2,14 @@
 title: "Creating a Basic Project System, Part 2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "writing a project system"
   - "project system"
   - "tutorial"
 ms.assetid: aee48fc6-a15f-4fd5-8420-7f18824de220
-caps.latest.revision: 23
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

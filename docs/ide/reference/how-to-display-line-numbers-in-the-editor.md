@@ -2,11 +2,8 @@
 title: "How to: Display Line Numbers in the Editor | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "line numbers, displaying"
@@ -14,7 +11,6 @@ helpviewer_keywords:
   - "editors, line numbers"
   - "code, line number displaying"
 ms.assetid: 40b38559-b8de-4041-91f2-68986767c976
-caps.latest.revision: 19
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

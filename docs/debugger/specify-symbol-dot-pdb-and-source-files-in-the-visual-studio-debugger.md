@@ -2,11 +2,8 @@
 title: "Specify symbol (.pdb) and source files in the debugger | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
 ms.date: "04/05/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "VS.ToolsOptionsPages.Debugger.Native"
@@ -28,7 +25,6 @@ helpviewer_keywords:
   - "pdb files"
   - "debugger"
 ms.assetid: 1105e169-5272-4e7c-b3e7-cda1b7798a6b
-caps.latest.revision: 31
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

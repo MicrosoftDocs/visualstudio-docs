@@ -2,11 +2,8 @@
 title: "How to: Stop Code Changes | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "CSharp"
@@ -18,7 +15,6 @@ helpviewer_keywords:
   - "code changes, stopping application of"
   - "Edit and Continue, stopping code changes"
 ms.assetid: 9e72a50c-bb0a-4eaa-9ac1-d00930b68d38
-caps.latest.revision: 18
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

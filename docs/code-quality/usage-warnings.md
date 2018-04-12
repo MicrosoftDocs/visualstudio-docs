@@ -2,11 +2,8 @@
 title: "Usage Warnings | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.codeanalysis.usagerules"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "managed code analysis warnings, usage warnings"
   - "usage warnings"
 ms.assetid: fe7dc2a3-289d-4bf7-a1e4-0947a81287c4
-caps.latest.revision: 24
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

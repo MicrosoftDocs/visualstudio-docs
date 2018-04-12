@@ -2,11 +2,8 @@
 title: "How to: Set Code Analysis Properties for C/C++ Projects | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.codeanalysis.propertypages.native"
@@ -19,7 +16,6 @@ helpviewer_keywords:
   - "code analysis properties"
   - "C/C++ code analysis properties"
 ms.assetid: 7af52097-6d44-4785-9b9f-43b7a7d447d7
-caps.latest.revision: 17
 author: mikeblome
 ms.author: mblome
 manager: ghogen

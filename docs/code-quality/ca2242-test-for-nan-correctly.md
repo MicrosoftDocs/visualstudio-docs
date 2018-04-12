@@ -2,11 +2,8 @@
 title: "CA2242: Test for NaN correctly | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "TestForNaNCorrectly"
@@ -14,7 +11,6 @@ f1_keywords:
 helpviewer_keywords: 
   - "CA2242"
 ms.assetid: e12dcffc-e255-4e1e-8fdf-3c6054d44abe
-caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

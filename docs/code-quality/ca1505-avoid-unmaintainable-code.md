@@ -2,11 +2,8 @@
 title: "CA1505: Avoid unmaintainable code | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "AvoidUnmaintainableCode"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "AvoidUnmaintainableCode"
   - "CA1505"
 ms.assetid: 8292b268-5929-4221-b699-f9c414bcec5d
-caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

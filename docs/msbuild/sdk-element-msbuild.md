@@ -2,10 +2,7 @@
 title: "Sdk Element (MSBuild) | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/25/2018"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#Project"

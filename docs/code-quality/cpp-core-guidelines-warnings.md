@@ -2,9 +2,6 @@
 title: "C++ Core Guidelines warnings | Microsoft Docs"
 ms.custom: ""
 ms.date: "08/10/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7c83814a-f21d-4323-ad5f-13bac40d3e38
 author: "mblome"

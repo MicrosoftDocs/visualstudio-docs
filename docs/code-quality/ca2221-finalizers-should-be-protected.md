@@ -2,11 +2,8 @@
 title: "CA2221: Finalizers should be protected | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CA2221"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "FinalizersShouldBeProtected"
   - "CA2221"
 ms.assetid: bda03aee-4cce-45d3-907d-17f4ee030acc
-caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

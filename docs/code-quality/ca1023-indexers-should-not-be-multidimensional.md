@@ -2,11 +2,8 @@
 title: "CA1023: Indexers should not be multidimensional | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "IndexersShouldNotBeMultidimensional"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "CA1023"
   - "IndexersShouldNotBeMultidimensional"
 ms.assetid: ae499879-97f6-434e-a61d-1fedd231d2fb
-caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

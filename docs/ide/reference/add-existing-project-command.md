@@ -2,11 +2,8 @@
 title: "Add Existing Project Command | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "file.addexistingproject"
@@ -14,7 +11,6 @@ helpviewer_keywords:
   - "Add Existing Project command"
   - "File.AddExistingProject"
 ms.assetid: 71cf3e31-c76b-405b-ad6a-1b1bc654bd40
-caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

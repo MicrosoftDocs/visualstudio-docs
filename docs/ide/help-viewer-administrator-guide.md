@@ -2,14 +2,10 @@
 title: "Help Viewer administrator guide | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/01/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-help-viewer"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4340c69f-b96b-4932-bb82-38b16a5ab149
-caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

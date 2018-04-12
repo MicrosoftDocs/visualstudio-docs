@@ -2,15 +2,11 @@
 title: "Starting a Build from within the IDE | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "build"
 ms.assetid: 936317aa-63b7-4eb0-b9db-b260a0306196
-caps.latest.revision: 5
 author: Mikejo5000
 ms.author: mikejo
 manager: ghogen

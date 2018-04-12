@@ -2,10 +2,7 @@
 title: "FormatUrl Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -16,7 +13,6 @@ helpviewer_keywords:
   - "MSBuild, FormatUrl task"
   - "FormatUrl task [MSBuild]"
 ms.assetid: 81114b67-520f-43b5-8891-224f68a78516
-caps.latest.revision: 5
 author: Mikejo5000
 ms.author: mikejo
 manager: ghogen

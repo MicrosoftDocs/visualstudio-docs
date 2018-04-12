@@ -2,16 +2,12 @@
 title: "COMPUTER_INFO | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "COMPUTER_INFO structure"
 ms.assetid: 943085b2-f165-462d-9a4e-2086f0cdfff4
-caps.latest.revision: 6
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

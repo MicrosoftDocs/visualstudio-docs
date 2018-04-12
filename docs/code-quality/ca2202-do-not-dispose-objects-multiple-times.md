@@ -2,11 +2,8 @@
 title: "CA2202: Do not dispose objects multiple times | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CA2202"
@@ -15,7 +12,6 @@ f1_keywords:
 helpviewer_keywords: 
   - "CA2202"
 ms.assetid: fa85349a-cf1e-42c8-a86b-eacae1f8bd96
-caps.latest.revision: 20
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

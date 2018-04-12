@@ -2,11 +2,8 @@
 title: "Options, Text Editor, C/C++, Formatting | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "VS.ToolsOptionsPages.Text_Editor.C/C++.Formatting.General"
@@ -16,7 +13,6 @@ dev_langs:
 helpviewer_keywords: 
   - "Text Editor Options dialog box, formatting"
 ms.assetid: cb6f1cbb-5305-48da-a8e8-33fd70775d46
-caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

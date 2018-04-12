@@ -2,11 +2,8 @@
 title: "View Threads using the Parallel Stacks Window | Microsoft Docs"
 ms.custom: ""
 ms.date: "04/25/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.debug.parallelstacks"
@@ -18,7 +15,6 @@ dev_langs:
 helpviewer_keywords: 
   - "debugger, parallel tasks window"
 ms.assetid: f50efb78-5206-4803-bb42-426ef8133f2f
-caps.latest.revision: 18
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

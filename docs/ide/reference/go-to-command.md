@@ -2,11 +2,8 @@
 title: "Go To Command | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "edit.goto"
@@ -14,7 +11,6 @@ helpviewer_keywords:
   - "Debug.Goto command"
   - "Go To command"
 ms.assetid: 201e1dd2-6701-467d-8cc1-faec2ef20511
-caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

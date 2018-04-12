@@ -2,11 +2,8 @@
 title: "&lt;InstallChecks&gt; Element (Bootstrapper) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "FSharp"
@@ -16,7 +13,6 @@ dev_langs:
 helpviewer_keywords: 
   - "<InstallChecks> element [bootstrapper]"
 ms.assetid: ad329c87-b0ad-4304-84de-ae9496514c42
-caps.latest.revision: 23
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"

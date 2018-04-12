@@ -2,11 +2,8 @@
 title: "Project settings for a C++ debug configuration | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "VC.Project.VCDebugSettings.WebBrowser.DebuggerType"
@@ -112,7 +109,6 @@ helpviewer_keywords:
   - "pdb files, debug build project settings"
   - "/MAP linker option"
 ms.assetid: 860c7f13-a108-4fe5-8fca-d235cd3ca1cb
-caps.latest.revision: 49
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

@@ -2,16 +2,12 @@
 title: "CA2141:Transparent methods must not satisfy LinkDemands | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CA2141"
 ms.assetid: 2957f5f7-c511-4180-ba80-752034f10a77
-caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

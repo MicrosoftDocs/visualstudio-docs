@@ -2,11 +2,8 @@
 title: "Managing VSPackages | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "VSPackages, autoloading"
@@ -14,7 +11,6 @@ helpviewer_keywords:
   - "delay loading"
   - "VSPackages, loading"
 ms.assetid: 386e0ce5-4107-4164-b0cd-1cf43eb5e7cf
-caps.latest.revision: 35
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

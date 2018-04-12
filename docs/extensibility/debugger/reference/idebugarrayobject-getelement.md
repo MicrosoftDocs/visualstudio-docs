@@ -2,18 +2,14 @@
 title: "IDebugArrayObject::GetElement | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "IDebugArrayObject::GetElement"
 helpviewer_keywords: 
   - "IDebugArrayObject::GetElement method"
 ms.assetid: 08b44341-7bf1-4a8c-8b79-98ae5785b195
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

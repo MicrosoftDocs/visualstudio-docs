@@ -2,16 +2,12 @@
 title: "Project Context | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "projects [Visual Studio SDK], opening items"
 ms.assetid: d1803f4a-24eb-44b0-b5d2-cb40c15534be
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

@@ -2,18 +2,14 @@
 title: "Visual C++ Classes in Class Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.classdesigner.inheritancelinelabel"
 helpviewer_keywords: 
   - "Class Designer [Visual Studio], classes"
 ms.assetid: 75e56f8c-11ef-42a3-b7ec-3d2cf25c581b
-caps.latest.revision: 19
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

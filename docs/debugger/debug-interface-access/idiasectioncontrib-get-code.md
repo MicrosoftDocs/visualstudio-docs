@@ -2,18 +2,14 @@
 title: "IDiaSectionContrib::get_code | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaSectionContrib::get_code method"
 ms.assetid: f9ccf7a6-46e7-4a1d-9d5c-97272e17bbbb
-caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

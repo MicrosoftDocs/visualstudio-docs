@@ -4,7 +4,6 @@ description: Mobilize.Net's tool for migrating from Visual Basic 6 to Visual Bas
 ms.date: "09/05/2017"
 ms.technology: 
   - "devlang-vb"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "visual-basic"

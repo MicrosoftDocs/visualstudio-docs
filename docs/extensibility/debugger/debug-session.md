@@ -2,16 +2,12 @@
 title: "Debug Session | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "debugging [Debugging SDK], sessions"
 ms.assetid: 18d82199-b2d4-47a9-924f-ab64faf60ca1
-caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

@@ -2,14 +2,10 @@
 title: "Help Content Manager overrides | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/01/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-help-viewer"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 95fe6396-276b-4ee5-b03d-faacec42765f
-caps.latest.revision: 9
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

@@ -2,10 +2,7 @@
 title: "WPF .Targets Files | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -17,7 +14,6 @@ helpviewer_keywords:
   - "WPF .targets files [WPF MSBuild], introduction"
   - "WPF .targets files [WPF MSBuild]"
 ms.assetid: e85a3ff4-dedd-4ff4-9b22-3a1e94755362
-caps.latest.revision: 5
 author: Mikejo5000
 ms.author: mikejo
 manager: ghogen

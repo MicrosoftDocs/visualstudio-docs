@@ -2,14 +2,10 @@
 title: "CA2151: Fields with critical types should be security critical | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 09db9d25-7d58-4725-a252-4a07baadf046
-caps.latest.revision: 4
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

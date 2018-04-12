@@ -2,18 +2,14 @@
 title: "IDiaSymbol::get_indirectVirtualBaseClass | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaSymbol::get_indirectVirtualBaseClass method"
 ms.assetid: 853b5c6f-e1cb-4675-ad36-9ee16e3341c3
-caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

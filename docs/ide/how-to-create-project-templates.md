@@ -2,10 +2,7 @@
 title: "Create project templates for Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/02/2018"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "VS.ExportTemplateWizard"

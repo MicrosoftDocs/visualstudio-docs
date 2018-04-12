@@ -2,14 +2,10 @@
 title: "Step 1: Create a Project and Add a Table to Your Form | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-acquisition"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1cac4ba4-f3cd-43bd-ad5d-50fc599234e8
-caps.latest.revision: 19
 author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen

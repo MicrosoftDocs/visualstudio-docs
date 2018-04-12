@@ -2,11 +2,8 @@
 title: "MFC Debugging Techniques | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "AfxEnableMemoryTracking"
@@ -26,7 +23,6 @@ dev_langs:
 helpviewer_keywords: 
   - "debugging [MFC]"
 ms.assetid: b154fc31-5e90-4734-8cbd-58dd9fe1f750
-caps.latest.revision: 20
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

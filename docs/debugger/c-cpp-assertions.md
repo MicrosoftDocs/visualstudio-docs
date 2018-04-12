@@ -2,11 +2,8 @@
 title: "C/C++ Assertions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "CSharp"
@@ -29,7 +26,6 @@ helpviewer_keywords:
   - "Assertion Failed dialog box"
   - "failures, finding locations"
 ms.assetid: 2d7b0121-71aa-414b-bbb6-ede1093d0bfc
-caps.latest.revision: 22
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

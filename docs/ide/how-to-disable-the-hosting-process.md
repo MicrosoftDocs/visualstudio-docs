@@ -2,17 +2,13 @@
 title: "How to: Disable the Hosting Process | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "hosting process, disabling"
   - "vshost.exe, disabling the hosting process"
 ms.assetid: 9157488d-737f-454b-8d8d-36f99de38bb0
-caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

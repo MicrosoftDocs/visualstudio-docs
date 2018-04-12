@@ -2,11 +2,8 @@
 title: "How to: View Existing Types (Class Designer) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.classdesigner.CannotShowBaseType"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "types [Visual Studio], class diagrams"
   - "class diagrams, types"
 ms.assetid: de110a4e-5b51-4a40-9dee-615df4d8f999
-caps.latest.revision: 27
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

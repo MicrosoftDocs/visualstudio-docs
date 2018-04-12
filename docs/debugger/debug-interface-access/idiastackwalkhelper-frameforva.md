@@ -2,18 +2,14 @@
 title: "IDiaStackWalkHelper::frameForVA | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaStackWalkHelper2::frameForVA method"
 ms.assetid: f35fc61b-f8dd-473a-b583-82c304059422
-caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

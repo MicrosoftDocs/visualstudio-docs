@@ -2,12 +2,8 @@
 title: "One or more selected database objects return a schema that does not match the schema of the target class | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3794e88b-4d3d-4e7a-ade6-8208eabe3eae
-caps.latest.revision: 3
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

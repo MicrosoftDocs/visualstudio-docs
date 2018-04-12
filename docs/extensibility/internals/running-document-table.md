@@ -2,11 +2,8 @@
 title: "Running Document Table | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "read locks"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "running document table (RDT), edit locks"
   - "document data objects, running document table"
 ms.assetid: bbec74f3-dd8e-48ad-99c1-2df503c15f5a
-caps.latest.revision: 18
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

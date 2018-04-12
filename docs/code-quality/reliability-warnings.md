@@ -2,11 +2,8 @@
 title: "Reliability Warnings | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.codeanalysis.reliabilityrules"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "reliability warnings"
   - "managed code analysis warnings, reliability warnings"
 ms.assetid: 77886846-10a2-4585-968a-7eb60ebe07e8
-caps.latest.revision: 21
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

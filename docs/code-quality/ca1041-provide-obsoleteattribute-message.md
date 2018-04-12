@@ -2,11 +2,8 @@
 title: "CA1041: Provide ObsoleteAttribute message | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CA1041"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "ProvideObsoleteAttributeMessage"
   - "CA1041"
 ms.assetid: be5bee69-d2d2-44e1-be2e-3ea451969003
-caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

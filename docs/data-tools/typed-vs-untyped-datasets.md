@@ -2,15 +2,11 @@
 title: "Typed vs. untyped datasets | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
   - "CSharp"
 ms.assetid: c83ba0bb-5425-4d47-8891-6b4dbf937701
-caps.latest.revision: 5
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

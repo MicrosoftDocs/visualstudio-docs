@@ -2,18 +2,14 @@
 title: "IDebugMethodField::GetThis | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "IDebugMethodField::GetThis"
 helpviewer_keywords: 
   - "IDebugMethodField::GetThis method"
 ms.assetid: cc235bea-e909-4d8c-ab54-936736c803fc
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

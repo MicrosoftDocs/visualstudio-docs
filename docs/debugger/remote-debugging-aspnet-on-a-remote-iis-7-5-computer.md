@@ -2,14 +2,10 @@
 title: "Remote Debug ASP.NET on a Remote IIS Computer | Microsoft Docs"
 ms.custom: "remotedebugging"
 ms.date: "07/26/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9cb339b5-3caf-4755-aad1-4a5da54b2a23
-caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

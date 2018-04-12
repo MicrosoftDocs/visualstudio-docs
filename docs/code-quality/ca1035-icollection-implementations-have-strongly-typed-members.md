@@ -2,11 +2,8 @@
 title: "CA1035: ICollection implementations have strongly typed members | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "ICollectionImplementationsHaveStronglyTypedMembers"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "CA1035"
   - "ICollectionImplementationsHaveStronglyTypedMembers"
 ms.assetid: ad404eb5-cf6a-44b7-b78a-8ebfb654bc7f
-caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

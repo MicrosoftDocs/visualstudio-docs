@@ -2,11 +2,8 @@
 title: "Pseudovariables | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "CSharp"
@@ -18,7 +15,6 @@ helpviewer_keywords:
   - "debugging [Visual Studio], pseudovariables"
   - "pseudovariables"
 ms.assetid: fae84f68-2138-4144-9bd4-c9e271b6182a
-caps.latest.revision: 35
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

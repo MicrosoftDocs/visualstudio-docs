@@ -2,11 +2,8 @@
 title: "CA2105: Array fields should not be read only | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CA2105"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "ArrayFieldsShouldNotBeReadOnly"
   - "CA2105"
 ms.assetid: 0bdc3421-3ceb-4182-b30c-a992fbfcc35d
-caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

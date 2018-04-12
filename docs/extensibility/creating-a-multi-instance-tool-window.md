@@ -2,17 +2,13 @@
 title: "Creating a Multi-Instance Tool Window | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "multi"
   - "tool windows"
 ms.assetid: 4a7872f1-acc9-4f43-8932-5a526b36adea
-caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

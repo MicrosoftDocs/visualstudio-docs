@@ -2,16 +2,12 @@
 title: "CA2143: Transparent methods should not use security demands | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CA2143"
 ms.assetid: 5d3923d7-cf40-4512-bc5c-0db0e0d6e25a
-caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

@@ -2,15 +2,11 @@
 title: "Install And Configure Tools to Build using iOS | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-mobile
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
 ms.assetid: d0c311c9-9eb9-42c5-ba07-25604362cd28
-caps.latest.revision: 11
 author: "corob-msft"
 ms.author: "corob"
 manager: ghogen

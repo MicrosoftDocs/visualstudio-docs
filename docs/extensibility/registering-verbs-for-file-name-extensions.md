@@ -2,16 +2,12 @@
 title: "Registering Verbs for File Name Extensions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "verbs, registering"
 ms.assetid: 81a58e40-7cd0-4ef4-a475-c4e1e84d6e06
-caps.latest.revision: 16
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

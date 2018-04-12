@@ -2,11 +2,8 @@
 title: "Additional Information About Class Designer Errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.classdesigner.CPlusPlusViewInDiagramNoTypeFound"
@@ -29,7 +26,6 @@ helpviewer_keywords:
   - "error messages, class diagrams"
   - "class diagrams, errors"
 ms.assetid: 79d70e70-704c-4255-ab68-c10d6949470e
-caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

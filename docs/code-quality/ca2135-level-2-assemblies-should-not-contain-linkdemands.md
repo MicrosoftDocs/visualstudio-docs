@@ -2,16 +2,12 @@
 title: "CA2135: Level 2 assemblies should not contain LinkDemands | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CA2135"
 ms.assetid: 7a775285-42d2-4f13-8434-3fdb0deeebe6
-caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

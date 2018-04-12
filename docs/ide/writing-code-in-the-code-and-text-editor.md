@@ -2,8 +2,6 @@
 title: "Code editor features in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: 02/23/2018
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-general
 ms.topic: "article"
 helpviewer_keywords:

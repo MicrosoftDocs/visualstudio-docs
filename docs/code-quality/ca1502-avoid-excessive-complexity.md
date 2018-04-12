@@ -2,11 +2,8 @@
 title: "CA1502: Avoid excessive complexity | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "AvoidExcessiveComplexity"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "CA1502"
   - "AvoidExcessiveComplexity"
 ms.assetid: d735454b-2f8f-47ce-907d-f7a5a5391221
-caps.latest.revision: 30
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

@@ -2,18 +2,14 @@
 title: "SccUncheckout Function | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "SccUncheckout"
 helpviewer_keywords: 
   - "SccUncheckout function"
 ms.assetid: 6d498b70-29c7-44b7-ae1c-7e99e488bb09
-caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

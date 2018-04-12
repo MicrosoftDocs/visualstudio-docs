@@ -4,7 +4,6 @@ description: Partner offers for migrating from Visual Basic 6.0 to .NET.
 ms.date: "09/01/2017"
 ms.technology: 
   - "devlang-vb"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "visual-basic"

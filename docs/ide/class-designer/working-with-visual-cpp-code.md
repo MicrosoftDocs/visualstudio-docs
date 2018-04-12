@@ -2,11 +2,8 @@
 title: "Working with Visual C++ Code (Class Designer) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/21/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.classdesigner.cpplimitation"
@@ -19,7 +16,6 @@ helpviewer_keywords:
   - "C++, class diagrams"
   - "C++, Class Designer"
 ms.assetid: f5b40921-2ef7-4de0-b595-45b44c79ffa6
-caps.latest.revision: 23
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

@@ -2,11 +2,8 @@
 title: "CA1800: Do not cast unnecessarily | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/26/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CA1800"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "DoNotCastUnnecessarily"
   - "CA1800"
 ms.assetid: b79a010a-6627-421e-8955-6007e32fa808
-caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

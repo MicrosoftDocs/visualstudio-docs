@@ -4,7 +4,6 @@ description: How to use the R package manager in Visual Studio to install and ma
 ms.custom:
 ms.date: 01/24/2018
 ms.reviewer:
-ms.suite:
 ms.technology: 
   - "devlang-r"
 dev_langs:

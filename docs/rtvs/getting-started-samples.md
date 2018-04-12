@@ -4,7 +4,6 @@ description: An index of a collection of samples to get started with R and Visua
 ms.custom:
 ms.date: 01/24/2018
 ms.reviewer:
-ms.suite:
 ms.technology: 
   - "devlang-r"
 dev_langs:

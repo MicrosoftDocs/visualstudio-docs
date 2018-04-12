@@ -2,18 +2,14 @@
 title: "TemplateContent Element (Visual Studio Templates) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/vstemplate/2005#TemplateContent"
 helpviewer_keywords: 
   - "TemplateContent element [Visual Studio project templates]"
 ms.assetid: 90ae401c-b294-49ac-98da-e0d274f5bebb
-caps.latest.revision: 14
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

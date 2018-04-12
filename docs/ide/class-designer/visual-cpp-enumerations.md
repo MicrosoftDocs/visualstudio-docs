@@ -2,16 +2,12 @@
 title: "Visual C++ Enumerations in Class Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Class Designer [Visual Studio], enumerations"
 ms.assetid: 11e90ba1-18cd-44f8-9e26-e3746a7a19d1
-caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

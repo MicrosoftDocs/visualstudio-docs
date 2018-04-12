@@ -2,8 +2,6 @@
 title: "Visual Studio IntelliSense | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-general
 ms.topic: "article"
 f1_keywords: 

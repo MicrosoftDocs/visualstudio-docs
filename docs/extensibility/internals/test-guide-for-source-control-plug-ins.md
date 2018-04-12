@@ -2,11 +2,8 @@
 title: "Test Guide for Source Control Plug-ins | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "plug-ins, source control"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "testing, source control plug-ins"
   - "source control plug-ins, test guide"
 ms.assetid: 13b74765-0b7c-418e-8cd9-5f2e8db51ae5
-caps.latest.revision: 26
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

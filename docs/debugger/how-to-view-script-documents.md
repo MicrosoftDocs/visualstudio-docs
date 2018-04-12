@@ -2,11 +2,8 @@
 title: "How to: View Script Documents | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "CSharp"
@@ -16,7 +13,6 @@ dev_langs:
 helpviewer_keywords: 
   - "Script Explorer"
 ms.assetid: 8b621e53-4508-4b4a-9995-70995b0b9ac8
-caps.latest.revision: 22
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

@@ -2,18 +2,14 @@
 title: "IDebugProgramEx2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "IDebugProgramEx2"
 helpviewer_keywords: 
   - "IDebugProgramEx2 interface"
 ms.assetid: 663359ed-635a-4539-addb-0cc52f19d1bd
-caps.latest.revision: 18
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

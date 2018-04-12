@@ -2,11 +2,8 @@
 title: "CA1810: Initialize reference type static fields inline | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "InitializeReferenceTypeStaticFieldsInline"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "InitializeReferenceTypeStaticFieldsInline"
   - "CA1810"
 ms.assetid: e9693118-a914-4efb-9550-ec659d8d97d2
-caps.latest.revision: 21
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

@@ -2,11 +2,8 @@
 title: "-ProjectConfig (devenv.exe) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "/projectconfig Devenv switch"
@@ -21,7 +18,6 @@ helpviewer_keywords:
   - "projects [Visual Studio], build configuration"
   - "projects [Visual Studio], cleaning"
 ms.assetid: 6b54ef59-ffed-4f62-a645-1279ede97ebf
-caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

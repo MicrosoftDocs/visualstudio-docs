@@ -2,10 +2,7 @@
 title: "Creating a UI by using Blend for Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "07/17/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-designers
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "Blend.Start.Dev12"

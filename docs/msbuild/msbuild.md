@@ -2,16 +2,12 @@
 title: "MSBuild | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "MSBuild, about MSBuild"
   - "MSBuild, overview"
 ms.assetid: e39f13f7-1e1d-4435-95ca-0c222bca071c
-caps.latest.revision: 59
 author: Mikejo5000
 ms.author: mikejo
 manager: ghogen

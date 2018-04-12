@@ -4,7 +4,6 @@ description: A walkthrough of the debugging features in Visual Studio specifical
 ms.custom:
 ms.date: 03/05/2018
 ms.reviewer:
-ms.suite:
 ms.technology:
   - "devlang-python"
 dev_langs:

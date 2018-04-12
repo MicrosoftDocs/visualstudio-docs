@@ -2,18 +2,14 @@
 title: "IDiaEnumSectionContribs::Next | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaEnumSectionContribs::Next method"
 ms.assetid: a6bb2adb-ee6d-4f3c-ab5b-e89361c8880e
-caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

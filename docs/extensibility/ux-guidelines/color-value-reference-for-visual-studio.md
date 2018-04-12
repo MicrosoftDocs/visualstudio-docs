@@ -9,10 +9,8 @@ ms.topic: "article"
 ms.assetid: 694ffb31-132c-4d63-b930-8254e7c50c25
 ms.custom: ""
 ms.reviewer: "Jamie.Young"
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 manager: ghogen
 ms.workload: 
   - "v-brickg"

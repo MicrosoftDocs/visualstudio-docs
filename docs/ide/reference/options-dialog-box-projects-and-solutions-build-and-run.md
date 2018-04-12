@@ -2,11 +2,8 @@
 title: "Options Dialog Box,  Projects and Solutions, Build and Run | Microsoft Docs"
 ms.custom: ""
 ms.date: 07/14/2017
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "VS.ToolsOptionsPages.Projects.Build_and_Run"
@@ -16,7 +13,6 @@ helpviewer_keywords:
   - "run actions"
   - "debugger, run options"
 ms.assetid: c884976e-c0df-4c6d-8e3a-856ea2bd547c
-caps.latest.revision: 20
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

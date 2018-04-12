@@ -2,8 +2,6 @@
 title: "Creating a Windows Forms-Based Domain-Specific Language | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.topic: "article"
 author: gewarren
 ms.author: gewarren

@@ -4,11 +4,9 @@ description: The Data Science and Analytical Applications workload in Visual Stu
 ms.custom:
 ms.date: 01/24/2018
 ms.reviewer:
-ms.suite:
 ms.technology: 
   - "devlang-r"
   - "devlang-python"
-ms.tgt_pltfrm: ""
 ms.topic: "overview"
 author: "kraigb"
 ms.author: "kraigb"

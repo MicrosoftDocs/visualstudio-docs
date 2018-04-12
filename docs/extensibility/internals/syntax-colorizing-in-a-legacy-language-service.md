@@ -2,11 +2,8 @@
 title: "Syntax Colorizing in a Legacy Language Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "language services [managed package framework], syntax highlighting"
@@ -14,7 +11,6 @@ helpviewer_keywords:
   - "syntax highlighting, supporting in language services [managed package framework]"
   - "language services [managed package framework], colorization"
 ms.assetid: 1ca1736a-f554-42e4-a9c7-fe8c3c1717df
-caps.latest.revision: 28
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

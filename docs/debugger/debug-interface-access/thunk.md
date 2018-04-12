@@ -2,11 +2,8 @@
 title: "Thunk | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
@@ -14,7 +11,6 @@ helpviewer_keywords:
   - "thunk properties [DIA SDK]"
   - "thunk symbol"
 ms.assetid: 01abb95f-d89a-465c-a4eb-8e8509598c95
-caps.latest.revision: 17
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

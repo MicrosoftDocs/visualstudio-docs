@@ -2,11 +2,8 @@
 title: "SDK Helpers for Debugging | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "dbgmetric.lib"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "dbgmetric.h"
   - "metrics [Debugging SDK]"
 ms.assetid: 80a52e93-4a04-4ab2-8adc-a7847c2dc20b
-caps.latest.revision: 28
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

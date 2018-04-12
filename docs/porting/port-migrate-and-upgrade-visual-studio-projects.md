@@ -3,7 +3,6 @@ title: "Port, Migrate, and Upgrade Visual Studio Projects | Microsoft Docs"
 ms.custom:
 ms.date: 03/14/2018
 ms.reviewer:
-ms.suite:
 ms.technology:
   - "vs-ide-general"
 ms.tgt_pltfrm:

@@ -2,16 +2,12 @@
 title: "COM Constants in Managed Code | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "managed VSPackages, COM constants and macros"
 ms.assetid: b6663608-b049-44b0-a75b-080fdc5faafc
-caps.latest.revision: 16
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

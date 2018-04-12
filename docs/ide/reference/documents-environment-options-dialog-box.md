@@ -2,11 +2,8 @@
 title: "Documents, Environment, Options Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "VS.Environment.Documents"
@@ -33,7 +30,6 @@ helpviewer_keywords:
   - "warnings, files changed"
   - "Solution Explorer, displaying files in"
 ms.assetid: 4e3ccf1b-cd68-4db6-9470-710c911b47fc
-caps.latest.revision: 21
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

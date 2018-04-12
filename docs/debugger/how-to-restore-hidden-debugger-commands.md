@@ -2,11 +2,8 @@
 title: "How to: Restore Hidden Debugger Commands | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "CSharp"
@@ -19,7 +16,6 @@ helpviewer_keywords:
   - "debugging [Visual Studio], restoring commands"
   - "commands, debugger"
 ms.assetid: 76ac9b77-f536-43b5-a9fc-984854b1c566
-caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

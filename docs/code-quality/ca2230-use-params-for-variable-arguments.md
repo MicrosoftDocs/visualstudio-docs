@@ -2,11 +2,8 @@
 title: "CA2230: Use params for variable arguments | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "UseParamsForVariableArguments"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "CA2230"
   - "UseParamsForVariableArguments"
 ms.assetid: bf98b733-4855-4110-9f16-eba5a9e79421
-caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

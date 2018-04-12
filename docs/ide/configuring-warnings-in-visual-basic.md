@@ -2,18 +2,14 @@
 title: "Configuring Warnings in Visual Basic | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "errors [Visual Basic], warnings"
   - "run-time errors, warnings"
   - "warnings, configuring"
 ms.assetid: 99cf4781-bd4d-47b4-91b9-217933509f82
-caps.latest.revision: 35
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

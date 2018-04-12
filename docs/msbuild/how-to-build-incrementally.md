@@ -2,17 +2,13 @@
 title: "How to: Build Incrementally | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "MSBuild, incremental builds"
   - "incremental builds"
   - "MSBuild, building incrementally"
 ms.assetid: 8d82d7d8-a2f1-4df6-9d2f-80b9e0cb3ac3
-caps.latest.revision: 21
 author: Mikejo5000
 ms.author: mikejo
 manager: ghogen

@@ -2,11 +2,8 @@
 title: "Open File Command | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "file.openfile"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "File.OpenFile command"
   - "of command"
 ms.assetid: a51a83fc-e3c6-4fa2-8882-8b7b6c0a6406
-caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

@@ -2,10 +2,7 @@
 title: "Target Element (MSBuild) | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/13/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#Target"
@@ -18,7 +15,6 @@ helpviewer_keywords:
   - "Target element [MSBuild]"
   - "<Target> element [MSBuild]"
 ms.assetid: 350f6fc2-86b3-45f2-a31e-ece0e6bd4dca
-caps.latest.revision: 34
 author: Mikejo5000
 ms.author: mikejo
 manager: ghogen

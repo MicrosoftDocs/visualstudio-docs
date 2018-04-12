@@ -4,7 +4,6 @@ description: The Variable Explorer in Visual Studio shows all variables at a giv
 ms.custom:
 ms.date: 01/24/2018
 ms.reviewer:
-ms.suite:
 ms.technology: 
   - "devlang-r"
 dev_langs:

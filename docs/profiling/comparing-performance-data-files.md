@@ -2,17 +2,13 @@
 title: "Comparing Performance Data Files | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "profiling tools, comparing profiling tools report files"
   - "profiling tools reports, comparing"
 ms.assetid: e6fda144-f21d-4912-9d16-1b8d3555a210
-caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

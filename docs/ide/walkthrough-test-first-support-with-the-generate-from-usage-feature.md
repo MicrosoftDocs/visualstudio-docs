@@ -2,10 +2,7 @@
 title: "Walkthrough: Test-first development with the Generate From Usage feature | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/09/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
 dev_langs: 
   - "VB"
   - "CSharp"

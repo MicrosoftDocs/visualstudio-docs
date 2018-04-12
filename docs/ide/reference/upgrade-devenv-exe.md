@@ -2,18 +2,14 @@
 title: "-Upgrade (devenv.exe) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "/upgrade Devenv switch"
   - "Devenv, /upgrade switch"
   - "upgrade Devenv switch"
 ms.assetid: 3468045c-5cc9-4157-9a9d-622452145d27
-caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

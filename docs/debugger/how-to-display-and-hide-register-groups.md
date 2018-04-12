@@ -2,11 +2,8 @@
 title: "How to: Display and Hide Register Groups | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.debug.registergroups"
@@ -20,7 +17,6 @@ helpviewer_keywords:
   - "Registers window, displaying and hiding register groups"
   - "register groups, displaying and hiding"
 ms.assetid: 6be5dfb4-4cfe-4daf-b538-60405640857d
-caps.latest.revision: 26
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

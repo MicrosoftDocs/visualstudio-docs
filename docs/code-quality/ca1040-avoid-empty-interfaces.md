@@ -2,11 +2,8 @@
 title: "CA1040: Avoid empty interfaces | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CA1040"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "AvoidEmptyInterfaces"
   - "CA1040"
 ms.assetid: 120a741b-5fd1-4836-8453-7857e0cd0380
-caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

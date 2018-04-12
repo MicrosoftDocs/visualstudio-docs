@@ -2,11 +2,8 @@
 title: "VSTextView Object | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "VSTextView"
@@ -14,7 +11,6 @@ helpviewer_keywords:
   - "VSTextView object, reference"
   - "views [Visual Studio SDK], reference"
 ms.assetid: 78272ddc-9718-4c65-a94e-a44a2e8d54f4
-caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

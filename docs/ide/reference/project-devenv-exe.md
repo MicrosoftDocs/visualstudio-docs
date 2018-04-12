@@ -2,11 +2,8 @@
 title: "-Project (devenv.exe) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "/project Devenv switch"
@@ -17,7 +14,6 @@ helpviewer_keywords:
   - "Devenv, /project switch"
   - "projects [Visual Studio], cleaning"
 ms.assetid: 8b07859c-3439-436d-9b9a-a8ee744eee30
-caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

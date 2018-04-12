@@ -2,17 +2,13 @@
 title: "Getting started with performance tools | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "getting started, performance"
   - "getting started, profiling tools"
 ms.assetid: 02085214-a8e4-40fd-9b26-32391a7a7082
-caps.latest.revision: 28
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

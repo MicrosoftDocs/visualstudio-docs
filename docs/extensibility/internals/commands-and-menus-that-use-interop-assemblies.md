@@ -2,11 +2,8 @@
 title: "Commands and Menus That Use Interop Assemblies | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "menus, using interop assemblies"
@@ -14,7 +11,6 @@ helpviewer_keywords:
   - "commands, handling using interop assemblies"
   - "command handling with interop assemblies"
 ms.assetid: 8f4af525-39e5-4e69-92c8-d3efabe80bb2
-caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

@@ -2,17 +2,13 @@
 title: "IDebugPortPicker::DisplayPortPicker | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "DisplayPortPicker"
   - "IDebugPortPicker::DisplayPortPicker"
 ms.assetid: 08511ef5-be64-4069-b169-a569cc94bc64
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

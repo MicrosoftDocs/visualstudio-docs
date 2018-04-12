@@ -2,17 +2,13 @@
 title: "Windows Installer Basics | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Windows Installer, VSPackages"
   - "VSPackages, Windows Installer basics"
 ms.assetid: 497e479b-add8-4644-870a-917f15306b97
-caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

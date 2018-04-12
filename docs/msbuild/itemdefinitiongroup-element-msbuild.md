@@ -2,10 +2,7 @@
 title: "ItemDefinitionGroup Element (MSBuild) | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/13/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#ItemDefinitionGroup"
@@ -18,7 +15,6 @@ helpviewer_keywords:
   - "ItemDefinitionGroup Element [MSBuild]"
   - "<ItemDefinitionGroup> Element [MSBuild]"
 ms.assetid: 4e9fb04b-5148-4ae5-a394-42861dd62371
-caps.latest.revision: 5
 author: Mikejo5000
 ms.author: mikejo
 manager: ghogen

@@ -2,9 +2,6 @@
 title: "Create a Windows Form to search data | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Windows Forms, searching data"
@@ -13,7 +10,6 @@ helpviewer_keywords:
   - "data [Visual Studio], parameterizing queries"
   - "data [Visual Studio], searching"
 ms.assetid: 65ca79a9-7458-466c-af55-978cd24c549e
-caps.latest.revision: 28
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

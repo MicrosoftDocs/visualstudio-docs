@@ -2,16 +2,12 @@
 title: "When to Create Project Types | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "project types, conditions for creating"
 ms.assetid: 26adc860-ee4a-4f5c-95e1-e41b207dd7e6
-caps.latest.revision: 14
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

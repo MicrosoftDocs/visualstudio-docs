@@ -2,18 +2,14 @@
 title: "IDebugStackFrame2::GetThread | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "IDebugStackFrame2::GetThread"
 helpviewer_keywords: 
   - "IDebugStackFrame2::GetThread"
 ms.assetid: cbeef85b-3dd7-4f97-adc2-c4d197d979fc
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

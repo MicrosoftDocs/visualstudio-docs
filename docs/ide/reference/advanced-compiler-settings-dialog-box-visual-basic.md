@@ -2,18 +2,14 @@
 title: "Advanced Compiler Settings Dialog Box (Visual Basic) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vb.ProjectPropertiesAdvancedCompile"
 helpviewer_keywords: 
   - "Advanced Compiler Settings dialog box"
 ms.assetid: 1f81133a-293f-4dba-bc1c-8baafb01d857
-caps.latest.revision: 46
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

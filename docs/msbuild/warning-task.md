@@ -2,10 +2,7 @@
 title: "Warning Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#Warning"
@@ -18,7 +15,6 @@ helpviewer_keywords:
   - "Warning task [MSBuild]"
   - "MSBuild, Warning task"
 ms.assetid: 96ba5507-8b43-4f54-a1d7-9b15644dd56c
-caps.latest.revision: 18
 author: Mikejo5000
 ms.author: mikejo
 manager: ghogen

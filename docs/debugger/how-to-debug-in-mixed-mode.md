@@ -2,11 +2,8 @@
 title: "How to: Debug in Mixed Mode | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/19/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "CSharp"
@@ -18,7 +15,6 @@ helpviewer_keywords:
   - "debugging [Visual Studio], mixed-mode"
   - "mixed-mode debugging"
 ms.assetid: 2859067d-7fcc-46b0-a4df-8c2101500977
-caps.latest.revision: 29
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

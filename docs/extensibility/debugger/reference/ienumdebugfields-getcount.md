@@ -2,18 +2,14 @@
 title: "IEnumDebugFields::GetCount | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "IEnumDebugFields::GetCount"
 helpviewer_keywords: 
   - "IEnumDebugFields::GetCount method"
 ms.assetid: 3f471b40-4db3-49f7-b504-58b2476eef74
-caps.latest.revision: 7
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

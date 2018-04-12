@@ -2,16 +2,12 @@
 title: "Inside the Core Editor | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], legacy - core editor"
 ms.assetid: 8265f31c-c45b-4858-882c-6d9f1e3b9083
-caps.latest.revision: 21
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

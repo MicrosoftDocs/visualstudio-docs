@@ -4,7 +4,6 @@ description: How to control where R code runs by using workspaces in Visual Stud
 ms.custom:
 ms.date: 01/24/2018
 ms.reviewer:
-ms.suite:
 ms.technology: 
   - "devlang-r"
 dev_langs:

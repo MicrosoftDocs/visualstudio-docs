@@ -2,10 +2,7 @@
 title: "XDCMake Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vc.task.xdcmake"
@@ -19,7 +16,6 @@ helpviewer_keywords:
   - "XDCMake task (MSBuild (Visual C++))"
   - "MSBuild (Visual C++), XDCMake task"
 ms.assetid: a7de9c64-903a-4a02-85f3-f37672270f25
-caps.latest.revision: 7
 author: Mikejo5000
 ms.author: mikejo
 manager: ghogen

@@ -2,17 +2,13 @@
 title: "Deploying Project Types | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "projects [Visual Studio SDK], managed-code"
   - "projects [Visual Studio SDK], aggregator"
 ms.assetid: 7f132f67-8589-464c-90dc-0d57ae02aa8f
-caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

@@ -2,14 +2,10 @@
 title: "Command-line arguments for the Help Content Manager | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/01/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-help-viewer"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3aa9890a-1147-42ba-adea-17935d184038
-caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

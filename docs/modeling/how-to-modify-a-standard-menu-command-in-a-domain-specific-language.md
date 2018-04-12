@@ -2,8 +2,6 @@
 title: "How to: Modify a Standard Menu Command in a Domain-Specific Language | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - ".vsct files, adding commands to a domain-specific language"

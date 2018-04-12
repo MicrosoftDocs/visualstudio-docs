@@ -2,11 +2,8 @@
 title: "Properties Window | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "properties [Visual Studio], Properties Window"
@@ -21,7 +18,6 @@ helpviewer_keywords:
   - "virtual functions, Properties window"
   - "Properties window"
 ms.assetid: e6e0fa4f-75c4-4a52-af15-281cd61876ca
-caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

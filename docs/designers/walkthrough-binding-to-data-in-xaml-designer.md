@@ -2,10 +2,7 @@
 title: "Walkthrough: Binding to data in XAML Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-designers
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "VS.XamlDesigner.DataBinding"

@@ -2,18 +2,14 @@
 title: "-DebugExe (devenv.exe) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Devenv, /DebugExe switch"
   - "DebugExe switch"
   - "/DebugExe [devenv.exe]"
 ms.assetid: cd700006-1648-418f-924b-4b1e5c1412ab
-caps.latest.revision: 4
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

@@ -2,16 +2,12 @@
 title: "Walkthrough: Creating a Margin Glyph | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], new - margin glyph"
 ms.assetid: 814185db-24f9-417f-b3b1-7c5aabb42b45
-caps.latest.revision: 29
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

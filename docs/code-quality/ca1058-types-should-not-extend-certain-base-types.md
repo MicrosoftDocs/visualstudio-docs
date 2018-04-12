@@ -2,11 +2,8 @@
 title: "CA1058: Types should not extend certain base types | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "TypesShouldNotExtendCertainBaseTypes"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "CA1058"
   - "TypesShouldNotExtendCertainBaseTypes"
 ms.assetid: 8446ee40-beb1-49fa-8733-4d8e813471c0
-caps.latest.revision: 24
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

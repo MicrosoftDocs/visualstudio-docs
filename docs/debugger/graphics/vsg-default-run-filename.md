@@ -2,14 +2,10 @@
 title: "VSG_DEFAULT_RUN_FILENAME | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ea549d2f-c857-458c-93c7-bc5a2d11d15d
-caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

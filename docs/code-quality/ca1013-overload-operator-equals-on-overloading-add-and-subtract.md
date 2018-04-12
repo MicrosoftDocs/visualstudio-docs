@@ -2,11 +2,8 @@
 title: "CA1013: Overload operator equals on overloading add and subtract | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "OverrideOperatorEqualsOnOverridingAddAndSubtract"
@@ -19,7 +16,6 @@ helpviewer_keywords:
   - "CA1013"
   - "OverloadOperatorEqualsOnOverloadingAddAndSubtract"
 ms.assetid: 5bd28d68-c179-49ff-af47-5250b8b18a10
-caps.latest.revision: 22
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

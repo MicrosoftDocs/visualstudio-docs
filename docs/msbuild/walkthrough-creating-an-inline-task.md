@@ -2,16 +2,12 @@
 title: "Walkthrough: Creating an Inline Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "MSBuild, tutorial"
   - "MSBuild, tasks"
 ms.assetid: 438194cb-668c-41a9-a7e2-c118d14c1ea7
-caps.latest.revision: 14
 author: Mikejo5000
 ms.author: mikejo
 manager: ghogen

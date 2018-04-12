@@ -2,10 +2,7 @@
 title: "Clang Project Properties (Android C++) | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/23/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-mobile
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 663140ea-a568-472b-a79a-dfea8818e06a
 author: "corob"

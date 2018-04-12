@@ -2,11 +2,8 @@
 title: "Add Existing Item Command | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "project.addexistingitem"
@@ -14,7 +11,6 @@ helpviewer_keywords:
   - "File.AddExistingItem command"
   - "Add Existing Item command"
 ms.assetid: 41f56131-d4c7-4f81-83b7-bdac713ea870
-caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

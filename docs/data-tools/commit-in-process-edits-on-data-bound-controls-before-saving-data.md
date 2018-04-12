@@ -2,9 +2,6 @@
 title: "Commit in-process edits on data-bound controls before saving data | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -17,7 +14,6 @@ helpviewer_keywords:
   - "BindingSource class, commiting edited records"
   - "EndEdit method"
 ms.assetid: 61af4798-eef7-468c-b229-5e1497febb2f
-caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

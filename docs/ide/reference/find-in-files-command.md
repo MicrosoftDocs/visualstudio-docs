@@ -2,11 +2,8 @@
 title: "Find in Files Command | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "edit.findinfiles"
@@ -14,7 +11,6 @@ helpviewer_keywords:
   - "Edit.FindInFiles command"
   - "find in files command"
 ms.assetid: 2fc78bfe-b339-4599-97f9-4cafd8a194d9
-caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

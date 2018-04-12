@@ -2,11 +2,8 @@
 title: "ClickOnce Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -16,7 +13,6 @@ helpviewer_keywords:
   - "ClickOnce, reference"
   - "manifests [ClickOnce]"
 ms.assetid: 2a7d5704-5e8c-452c-9ef3-5e8ec5e952fe
-caps.latest.revision: 8
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"

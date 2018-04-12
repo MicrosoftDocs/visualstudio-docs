@@ -2,10 +2,7 @@
 title: "Vbc Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#Vbc"
@@ -18,7 +15,6 @@ helpviewer_keywords:
   - "Vbc task [MSBuild]"
   - "MSBuild, Vbc task"
 ms.assetid: 595278b1-2782-4577-b1ba-b4b5ab5625a3
-caps.latest.revision: 19
 author: Mikejo5000
 ms.author: mikejo
 manager: ghogen

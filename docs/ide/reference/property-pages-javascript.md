@@ -2,11 +2,8 @@
 title: "Property Pages, JavaScript | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/21/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "javascript.project.property.debugging.debuggertype"
@@ -17,7 +14,6 @@ f1_keywords:
   - "javascript.project.property.debugging.machinename"
   - "javascript.project.property.debugging.allowlocalnetworkloopback"
 ms.assetid: a05ab01f-3d5d-4675-a845-eab51807d3a3
-caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

@@ -2,11 +2,8 @@
 title: "How to: Debug COM Servers | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.debug.com"
@@ -23,7 +20,6 @@ helpviewer_keywords:
   - "debugging [C++], ADI applications"
   - "container information"
 ms.assetid: 9f013c2b-0306-4b34-ba7f-d4445a874da1
-caps.latest.revision: 16
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

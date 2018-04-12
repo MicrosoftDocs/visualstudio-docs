@@ -1,8 +1,6 @@
 ---
 title: "Options, Text Editor, C#, IntelliSense | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-general
 ms.topic: "article"
 f1_keywords: 

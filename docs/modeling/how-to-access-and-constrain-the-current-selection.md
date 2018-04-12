@@ -2,8 +2,6 @@
 title: "How to: Access and Constrain the Current Selection | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Domain-Specific Language, accessing the current selection"

@@ -2,11 +2,8 @@
 title: "IDebugMemoryContext2::GetInfo | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "IDebugMemoryContext2::GetInfo"
@@ -14,7 +11,6 @@ helpviewer_keywords:
   - "GetInfo method"
   - "IDebugMemoryContext2::GetInfo method"
 ms.assetid: 08c7f091-1816-4d64-8834-f9ecaac5c58d
-caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

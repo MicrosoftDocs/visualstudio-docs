@@ -2,18 +2,14 @@
 title: "IDebugDisassemblyStream2::GetCodeLocationId | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "IDebugDisassemblyStream2::GetCodeLocationId"
 helpviewer_keywords: 
   - "IDebugDisassemblyStream2::GetCodeLocationId"
 ms.assetid: 567adfb8-2f54-499a-a027-e4ecb82277ef
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

@@ -2,11 +2,8 @@
 title: "-Rebuild (devenv.exe) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Devenv, /rebuild switch"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "/rebuild Devenv switch"
   - "applications [Visual Studio], rebuilding"
 ms.assetid: c5a8a4bf-0e2b-46eb-a44a-8aeb29b92c32
-caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

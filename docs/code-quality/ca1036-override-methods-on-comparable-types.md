@@ -2,11 +2,8 @@
 title: "CA1036: Override methods on comparable types | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CA1036"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "OverrideMethodsOnComparableTypes"
   - "CA1036"
 ms.assetid: 2329f844-4cb8-426d-bee2-cd065d1346d0
-caps.latest.revision: 21
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

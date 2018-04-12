@@ -2,11 +2,8 @@
 title: "Configuring Performance Sessions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "common tasks, performance"
@@ -14,7 +11,6 @@ helpviewer_keywords:
   - "profiling tools, common tasks"
   - "performance, gathering data"
 ms.assetid: e1c3ba41-ffca-4edf-9a7f-8a5a9244ef9b
-caps.latest.revision: 36
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

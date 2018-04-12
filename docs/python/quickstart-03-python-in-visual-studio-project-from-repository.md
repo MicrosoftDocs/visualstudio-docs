@@ -4,7 +4,6 @@ description: In this quickstart, you create a Python project in Visual Studio by
 ms.custom: "mvc"
 ms.date: 03/21/2018
 ms.reviewer:
-ms.suite:
 ms.technology: 
   - "devlang-python"
 dev_langs:

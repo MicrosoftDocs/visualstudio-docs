@@ -2,11 +2,8 @@
 title: "CA1903: Use only API from targeted framework | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "UseOnlyAPIFromTargetedFramework"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "UseOnlyApiFromTargetedFramework"
   - "CA1903"
 ms.assetid: efdb5cc7-bbd8-4fa7-9fff-02b91e59350e
-caps.latest.revision: 8
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

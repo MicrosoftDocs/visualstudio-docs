@@ -4,7 +4,6 @@ description: How to work with Visual Studio's build-in linting support for R, in
 ms.custom:
 ms.date: 01/15/2018
 ms.reviewer:
-ms.suite:
 ms.technology: 
   - "devlang-r"
 dev_langs:

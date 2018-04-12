@@ -2,11 +2,8 @@
 title: "Visual Studio encoding and line break characters | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.Encoding"
@@ -18,7 +15,6 @@ helpviewer_keywords:
   - "line break characters"
   - "Visual Studio, line break characters"
 ms.assetid: 8f9b3ffc-7b8d-44f4-87cb-dc29105be12d
-caps.latest.revision: 8
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

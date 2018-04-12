@@ -2,11 +2,8 @@
 title: "CA2223: Members should differ by more than return type | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "MembersShouldDifferByMoreThanReturnType"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "CA2223"
   - "MembersShouldDifferByMoreThanReturnType"
 ms.assetid: eb326d9f-50d9-48cb-84be-d41c84a8fe09
-caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

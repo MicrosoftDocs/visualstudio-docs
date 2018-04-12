@@ -2,18 +2,14 @@
 title: "IDebugBinder3::GetTypeArguments | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "IDebugBinder3::GetTypeArguments"
 helpviewer_keywords: 
   - "IDebugBinder3::GetTypeArguments method"
 ms.assetid: fa0c37a7-327f-463e-9a9d-bb3f534584cb
-caps.latest.revision: 7
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

@@ -2,8 +2,6 @@
 title: "Use code maps to debug your applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "Visual Studio Ultimate, visualizing code"

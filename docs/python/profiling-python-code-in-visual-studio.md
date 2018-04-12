@@ -4,7 +4,6 @@ description: How to use the Visual Studio profiler to check the performance of P
 ms.custom:
 ms.date: 01/09/2018
 ms.reviewer:
-ms.suite:
 ms.technology: 
   - "devlang-python"
 dev_langs:

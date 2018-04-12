@@ -2,17 +2,13 @@
 title: "Modules View - Sampling Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Modules view"
   - "sampling profiling method,Modules view"
 ms.assetid: 816f5633-65d7-41e5-aee1-033628d4e2df
-caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

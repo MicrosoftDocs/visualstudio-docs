@@ -2,16 +2,12 @@
 title: "IDebugBreakpointChecksumRequest2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "IDebugBreakpointChecksumRequest2 interface"
 ms.assetid: 9cfdbca5-052c-48e9-8411-e2e9e4065d00
-caps.latest.revision: 7
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

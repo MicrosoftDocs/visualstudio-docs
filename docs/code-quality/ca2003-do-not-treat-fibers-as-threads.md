@@ -2,11 +2,8 @@
 title: "CA2003: Do not treat fibers as threads | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CA2003"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "CA2003"
   - "DoNotTreatFibersAsThreads"
 ms.assetid: 15398fb1-f384-4bcc-ad93-00e1c0fa9ddf
-caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

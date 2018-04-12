@@ -2,10 +2,7 @@
 title: "UidManager Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -19,7 +16,6 @@ helpviewer_keywords:
   - "localizing XAML elements [WPF MSBuild], managing UIDs"
   - "checking UIDs when localizing XAML elements [WPF MSBuild]"
 ms.assetid: 4fc7b5a5-11b0-46ca-9656-8c2a0b08d1fe
-caps.latest.revision: 5
 author: Mikejo5000
 ms.author: mikejo
 manager: ghogen

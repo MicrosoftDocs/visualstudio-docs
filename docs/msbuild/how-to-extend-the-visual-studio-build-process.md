@@ -2,10 +2,7 @@
 title: "How to: Extend the Visual Studio Build Process | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "MSBuild, overriding predefined targets"
@@ -13,7 +10,6 @@ helpviewer_keywords:
   - "MSBuild, extending Visual Studio builds"
   - "MSBuild, DependsOn properties"
 ms.assetid: cb077613-4a59-41b7-96ec-d8516689163c
-caps.latest.revision: 8
 author: Mikejo5000
 ms.author: mikejo
 manager: ghogen

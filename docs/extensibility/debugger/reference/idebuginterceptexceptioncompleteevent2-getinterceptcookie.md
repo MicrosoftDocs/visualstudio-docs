@@ -2,18 +2,14 @@
 title: "IDebugInterceptExceptionCompleteEvent2::GetInterceptCookie | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "IDebugInterceptExceptionCompleteEvent2::GetInterceptCookie"
 helpviewer_keywords: 
   - "IDebugInterceptExceptionCompleteEvent2::GetInterceptCookie"
 ms.assetid: 07b20866-e598-4783-9ecc-6aa8625c8804
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

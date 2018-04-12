@@ -2,16 +2,12 @@
 title: "IDebugSettingsCallback2::GetEEMetricFile | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "IDebugSettingsCallback2::GetEEMetricFile"
 ms.assetid: 3a0bf9e5-bbd2-4d15-840d-8244732787fc
-caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

@@ -2,11 +2,8 @@
 title: "How to: Install a Visualizer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "CSharp"
@@ -18,7 +15,6 @@ helpviewer_keywords:
   - "debugger, visualizers"
   - "visualizers, installing"
 ms.assetid: 3310ef43-515c-4d97-b0f9-51047247d3da
-caps.latest.revision: 26
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

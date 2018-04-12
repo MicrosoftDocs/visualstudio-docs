@@ -2,10 +2,7 @@
 title: "SetThreadCount | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 apiname: 
   - "SetThreadCount"
@@ -15,7 +12,6 @@ apitype: "COM"
 helpviewer_keywords: 
   - "SetThreadCount"
 ms.assetid: 335335a5-8ca0-4e18-95f5-62aa6a691386
-caps.latest.revision: 4
 author: Mikejo5000
 ms.author: mikejo
 manager: ghogen

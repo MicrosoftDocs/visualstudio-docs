@@ -2,11 +2,8 @@
 title: "Signing Page, Project Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.AddNewStrongNameKey"
@@ -20,7 +17,6 @@ helpviewer_keywords:
   - "Project Designer, Signing page"
   - "Signing page in Project Designer"
 ms.assetid: dab3ba13-2f92-4827-92bd-1be3c35bc48b
-caps.latest.revision: 34
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

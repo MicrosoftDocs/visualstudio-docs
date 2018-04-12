@@ -2,15 +2,11 @@
 title: "Separate datasets and TableAdapters into different projects | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "TableAdapters, n-tier applications"
   - "n-tier applications, separating Datasets and TableAdapters"
 ms.assetid: f66a3940-6227-46af-a930-9177f425f4fd
-caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

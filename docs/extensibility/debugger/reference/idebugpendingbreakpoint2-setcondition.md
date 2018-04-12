@@ -2,11 +2,8 @@
 title: "IDebugPendingBreakpoint2::SetCondition | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "IDebugPendingBreakpoint2::SetCondition"
@@ -14,7 +11,6 @@ helpviewer_keywords:
   - "SetCondition method"
   - "IDebugPendingBreakpoint2::SetCondition method"
 ms.assetid: 0534224f-654f-4862-bc4d-a9a81a5f8899
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

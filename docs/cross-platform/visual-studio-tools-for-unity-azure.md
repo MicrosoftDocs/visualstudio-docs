@@ -3,9 +3,7 @@ title: "Programming with Visual Studio Tools for Unity and Azure | Microsoft Doc
 ms.custom: ""
 ms.date: "12/18/2017"
 ms.reviewer: "crdun"
-ms.suite: ""
 ms.technology: vs-unity-tools
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7921D4C7-5526-42F5-8E03-82D3E33A893F
 author: "dantogno"

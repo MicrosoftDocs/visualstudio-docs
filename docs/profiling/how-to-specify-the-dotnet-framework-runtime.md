@@ -2,17 +2,13 @@
 title: "How to: Specify the .NET Framework Runtime | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Profiling Tools, .NET Framework versions"
   - ".NET Framework versions,profililng"
 ms.assetid: d39f3579-719a-4f47-a97d-5b4232fe4c64
-caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

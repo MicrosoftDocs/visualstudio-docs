@@ -2,10 +2,7 @@
 title: "Set code bookmarks in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: 02/23/2018
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords:
   - "VS.BookmarkWindow"

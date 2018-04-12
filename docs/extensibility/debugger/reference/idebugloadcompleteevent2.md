@@ -2,18 +2,14 @@
 title: "IDebugLoadCompleteEvent2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "IDebugLoadCompleteEvent2"
 helpviewer_keywords: 
   - "IDebugLoadCompleteEvent2"
 ms.assetid: 37eb7360-28e9-4273-862a-4c17f22af690
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

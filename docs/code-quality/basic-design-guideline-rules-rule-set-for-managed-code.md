@@ -2,14 +2,10 @@
 title: "Basic Design Guideline Rules rule set for managed code | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7eb384f5-f961-400b-b151-115d92addc6a
-caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

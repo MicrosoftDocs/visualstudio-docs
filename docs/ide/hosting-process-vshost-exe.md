@@ -2,17 +2,13 @@
 title: "Hosting process (vshost.exe) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "vshost.exe"
   - "hosting process"
 ms.assetid: c6b9e2be-f18d-4d75-ac52-56d55784734b
-caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

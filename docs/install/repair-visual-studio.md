@@ -5,13 +5,10 @@ keywords: Don’t add or edit keywords without consulting your SEO champ.
 author: "PoulChapman"
 ms.author: "tglee"
 manager: douge
-ms.reviewer: ""
 ms.date: 09/28/2017
 ms.topic: "conceptual"
-ms.suite: ""
 ms.technology:
   - "vs-acquisition"
-ms.tgt_pltfrm: ""
 ms.workload:
   - "multiple"
 ---

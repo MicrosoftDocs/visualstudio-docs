@@ -2,16 +2,12 @@
 title: "IDebugSettingsCallback2::EnumEEs | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "IDebugSettingsCallback2::EnumEEs"
 ms.assetid: 9f884c49-426f-461b-b547-9d909486e73f
-caps.latest.revision: 7
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

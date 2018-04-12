@@ -2,17 +2,13 @@
 title: "IDebugComPlusSymbolProvider2::LoadSymbolsWithCorModule | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "IDebugComPlusSymbolProvider2::LoadSymbolsWithCorModule"
   - "LoadSymbolsWithCorModule"
 ms.assetid: b6abf3a4-ce60-4e66-9637-82ce911148de
-caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

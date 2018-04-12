@@ -2,13 +2,9 @@
 title: "Build apps with native UI using Xamarin in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/30/2018"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-mobile
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 30f137e6-595d-4ce7-b8f5-415b07c1caa2
-caps.latest.revision: 31
 author: charlespetzold
 ms.author: chape
 manager: crdun

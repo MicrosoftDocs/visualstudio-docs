@@ -2,11 +2,8 @@
 title: "Overview (Debug Interface Access SDK) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
@@ -22,7 +19,6 @@ helpviewer_keywords:
   - "compilands"
   - "executable images"
 ms.assetid: 720b4479-a8bc-4fec-860e-80c1a0780405
-caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

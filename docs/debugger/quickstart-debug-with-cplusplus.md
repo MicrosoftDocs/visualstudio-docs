@@ -2,16 +2,12 @@
 title: "Debug with C++ using the Visual Studio debugger | Microsoft Docs"
 ms.custom: "mvc"
 ms.date: "03/18/2018"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "quickstart"
 helpviewer_keywords: 
   - "debugger"
 ms.assetid: 639e430b-6d2d-46bd-b738-8c60dfb384f1
-caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

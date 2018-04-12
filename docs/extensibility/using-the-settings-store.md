@@ -2,16 +2,12 @@
 title: "Using the Settings Store | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Settings Store, using"
 ms.assetid: 447ec08a-eca5-40b8-89b0-f98fdf3d39a4
-caps.latest.revision: 28
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

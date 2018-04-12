@@ -2,11 +2,8 @@
 title: "Locating Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "08/21/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "deployment, VSIX"

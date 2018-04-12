@@ -2,16 +2,12 @@
 title: "Specifying File Handlers for File Name Extensions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "file extensions, specifying file handlers"
 ms.assetid: e3de4730-a95c-465a-b3b2-92ca85364ad7
-caps.latest.revision: 18
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

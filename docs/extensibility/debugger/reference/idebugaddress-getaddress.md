@@ -2,18 +2,14 @@
 title: "IDebugAddress::GetAddress | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "IDebugAddress::GetAddress"
 helpviewer_keywords: 
   - "IDebugAddress:GetAddress method"
 ms.assetid: 2590387b-5d36-4116-9a75-737957b8898e
-caps.latest.revision: 6
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

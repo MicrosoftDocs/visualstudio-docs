@@ -2,16 +2,12 @@
 title: "How to: Display an Item List Separated with Commas | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "MSBuild, separating items with semicolons"
   - "MSBuild, formatting item collections"
 ms.assetid: 3cae844c-7c6d-4144-82dc-efad10ba458f
-caps.latest.revision: 12
 author: Mikejo5000
 ms.author: mikejo
 manager: ghogen

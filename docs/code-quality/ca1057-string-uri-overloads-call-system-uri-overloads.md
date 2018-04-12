@@ -2,11 +2,8 @@
 title: "CA1057: String URI overloads call System.Uri overloads | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CA1057"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "StringUriOverloadsCallSystemUriOverloads"
   - "CA1057"
 ms.assetid: ef1e983e-9ca7-404b-82d7-65740ba0ce20
-caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

@@ -2,11 +2,8 @@
 title: "Visual studio full screen and virtual space mode | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "word wrap"
@@ -25,7 +22,6 @@ helpviewer_keywords:
   - "views, changing mode"
   - "views, outlining"
 ms.assetid: 1fb48027-d870-439f-8b72-4a0321390748
-caps.latest.revision: 20
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

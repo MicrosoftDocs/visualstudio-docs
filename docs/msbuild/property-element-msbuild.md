@@ -2,10 +2,7 @@
 title: "Property Element (MSBuild) | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/13/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -16,7 +13,6 @@ helpviewer_keywords:
   - "<Property> Element [MSBuild]"
   - "Property Element [MSBuild]"
 ms.assetid: 69ab08ab-3e76-41dd-a01b-49aa1d2e0cac
-caps.latest.revision: 17
 author: Mikejo5000
 ms.author: mikejo
 manager: ghogen

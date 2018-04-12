@@ -2,16 +2,12 @@
 title: "Source Control Runtime Details | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "source control [Visual Studio SDK], runtime details"
 ms.assetid: 1acd30e0-f98c-4bde-b9cd-4076845887df
-caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

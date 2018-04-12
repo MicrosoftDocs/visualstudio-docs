@@ -2,10 +2,7 @@
 title: "C# Code Snippets | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/05/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "snippets [C#]"

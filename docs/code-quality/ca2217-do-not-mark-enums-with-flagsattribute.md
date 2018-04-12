@@ -2,11 +2,8 @@
 title: "CA2217: Do not mark enums with FlagsAttribute | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "DoNotMarkEnumsWithFlags"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "DoNotMarkEnumsWithFlags"
   - "CA2217"
 ms.assetid: 1b6f626c-66bf-45b0-a3e2-7c41ee9ceda7
-caps.latest.revision: 20
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

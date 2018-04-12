@@ -2,11 +2,8 @@
 title: "Pre-build Event-Post-build Event Command Line Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "cs.ProjectPropertiesBuildEventsBuilder"
@@ -34,7 +31,6 @@ helpviewer_keywords:
   - "$(ProjectName)"
   - "build events, macros"
 ms.assetid: d49b2c57-24bf-4fb2-8351-5c4b6cca938f
-caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

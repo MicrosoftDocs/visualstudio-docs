@@ -2,11 +2,8 @@
 title: "DA0006: Override Equals() for value types | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.performance.rules.DAOverrideEquals"
@@ -14,7 +11,6 @@ f1_keywords:
   - "vs.performance.DA0006"
   - "vs.performance.rules.DA0006"
 ms.assetid: 4d85bdd6-b571-47e0-afd6-ba3764e4eed5
-caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

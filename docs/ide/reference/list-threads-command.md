@@ -2,11 +2,8 @@
 title: "List Threads Command | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "debug.listthreads"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "list threads command"
   - "Debug.ListThreads command"
 ms.assetid: 34b665c0-d46f-4c1a-a066-b678eba5ac54
-caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

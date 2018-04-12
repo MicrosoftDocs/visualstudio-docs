@@ -2,18 +2,14 @@
 title: "Timeline Caret | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.cv.threads.timeline.caret"
 helpviewer_keywords: 
   - "Concurrency Visualizer, Timeline Caret"
 ms.assetid: cc7d567f-b655-4539-810c-6506e7852121
-caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

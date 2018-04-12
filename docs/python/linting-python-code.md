@@ -4,7 +4,6 @@ description: How to use PyLint in Visual Studio to check issues in Python code.
 ms.custom:
 ms.date: 07/12/2017
 ms.reviewer:
-ms.suite:
 ms.technology: 
   - "devlang-python"
 dev_langs:

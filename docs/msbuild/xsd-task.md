@@ -2,10 +2,7 @@
 title: "XSD Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vc.task.xsd"
@@ -20,7 +17,6 @@ helpviewer_keywords:
   - "XSD task (MSBuild (Visual C++))"
   - "MSBuild (Visual C++), XSD task"
 ms.assetid: 15c99f5c-7124-4bbc-bc03-70c7bcce8893
-caps.latest.revision: 13
 author: Mikejo5000
 ms.author: mikejo
 manager: ghogen

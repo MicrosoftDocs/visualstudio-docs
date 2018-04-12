@@ -2,11 +2,8 @@
 title: "-LCID (devenv.exe) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "language default"
@@ -17,7 +14,6 @@ helpviewer_keywords:
   - "LCID devenv switch"
   - "/lcid Devenv switch"
 ms.assetid: 3a3f4e70-ea66-4351-9d62-acb1dec30e8e
-caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

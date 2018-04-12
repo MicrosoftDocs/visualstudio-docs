@@ -2,16 +2,12 @@
 title: "How to: Get a Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "services, consuming"
 ms.assetid: 1f000020-8fb7-4e39-8e1e-2e38c7fec3d4
-caps.latest.revision: 20
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

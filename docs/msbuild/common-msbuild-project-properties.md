@@ -2,10 +2,7 @@
 title: "Common MSBuild Project Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2018"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -18,7 +15,6 @@ helpviewer_keywords:
   - "ExcludeDeploymentUrl property"
   - "project file properties (MSBuild)"
 ms.assetid: 9857505d-ae15-42f1-936d-6cd7fb9dd276
-caps.latest.revision: 36
 author: Mikejo5000
 ms.author: mikejo
 manager: ghogen

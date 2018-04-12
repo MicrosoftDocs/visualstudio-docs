@@ -2,11 +2,8 @@
 title: "How to: Install Prerequisites with a ClickOnce Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -17,7 +14,6 @@ helpviewer_keywords:
   - "prerequisites, ClickOnce"
   - "components, bootstrapping"
 ms.assetid: e964fca5-fdfd-47cf-a1c9-7fb96b1c88b5
-caps.latest.revision: 13
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"

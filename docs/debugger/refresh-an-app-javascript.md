@@ -2,11 +2,8 @@
 title: "Refresh a UWP app | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "CSharp"
@@ -19,7 +16,6 @@ helpviewer_keywords:
   - "DOM Explorer, Refresh [UWP apps]"
   - "Refresh [UWP apps]"
 ms.assetid: fd99ee60-fa94-46df-8b17-369f60bfd908
-caps.latest.revision: 20
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

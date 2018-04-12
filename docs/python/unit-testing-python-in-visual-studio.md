@@ -4,7 +4,6 @@ description: Setting up unit testing for Python code in Visual Studio to take fu
 ms.custom:
 ms.date: 07/13/2017
 ms.reviewer:
-ms.suite:
 ms.technology: 
   - "devlang-python"
 dev_langs:

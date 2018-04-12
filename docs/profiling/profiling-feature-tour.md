@@ -2,16 +2,12 @@
 title: "Profiling Feature Tour | Microsoft Docs"
 ms.custom: "H1HackMay2017"
 ms.date: "05/18/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "debugger"
 ms.assetid: d2ee0301-ea78-43d8-851a-71b7b2043d73
-caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

@@ -2,11 +2,8 @@
 title: "Run UWP apps on a remote machine | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/05/2018"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "CSharp"
@@ -14,7 +11,6 @@ dev_langs:
   - "FSharp"
   - "C++"
 ms.assetid: 0f6814d6-cd0d-49f3-b501-dea8c094b8ef
-caps.latest.revision: 43
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

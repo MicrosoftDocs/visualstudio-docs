@@ -2,16 +2,12 @@
 title: "How to: Migrate Extensibility Projects to Visual Studio 2015 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Visual Studio SDK, upgrading"
 ms.assetid: 22491cdc-8f04-4e1c-8eb4-ff33798ec792
-caps.latest.revision: 25
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

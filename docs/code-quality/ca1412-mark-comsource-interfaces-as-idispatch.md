@@ -2,11 +2,8 @@
 title: "CA1412: Mark ComSource Interfaces as IDispatch | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "MarkComSourceInterfacesAsIDispatch"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "CA1412"
   - "MarkComSourceInterfacesAsIDispatch"
 ms.assetid: 131a7563-0410-443c-a8f5-52104250cfb4
-caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

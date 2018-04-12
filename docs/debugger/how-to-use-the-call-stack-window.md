@@ -2,11 +2,8 @@
 title: "View the call stack in the Visual Studio debugger | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
 ms.date: "04/06/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.debug.callstack"
@@ -29,7 +26,6 @@ helpviewer_keywords:
   - "stack, switching stack frames"
   - "Call Stack window, viewing disassembly code for functions on the call stack"
 ms.assetid: 5154a2a1-4729-4dbb-b675-db611a72a731
-caps.latest.revision: 40
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

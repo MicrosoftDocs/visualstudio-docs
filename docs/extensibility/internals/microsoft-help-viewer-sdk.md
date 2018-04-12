@@ -2,14 +2,10 @@
 title: "Microsoft Help Viewer SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 620d7dcd-d462-475e-a449-fbfa06ff12c5
-caps.latest.revision: 33
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

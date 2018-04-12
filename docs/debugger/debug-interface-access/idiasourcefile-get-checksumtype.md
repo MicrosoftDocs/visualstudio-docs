@@ -2,18 +2,14 @@
 title: "IDiaSourceFile::get_checksumType | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaSourceFile::get_checksumType method"
 ms.assetid: 4c363e61-a6a9-409a-9cc0-d06eb2bee645
-caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

@@ -2,17 +2,13 @@
 title: "Expression Evaluator Implementation Strategy | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "expression evaluation, implementation strategy"
   - "debug engines, implementation strategies"
 ms.assetid: 1bccaeb3-8109-4128-ae79-16fd8fbbaaa2
-caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

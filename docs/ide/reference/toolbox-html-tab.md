@@ -2,10 +2,7 @@
 title: "Toolbox, HTML Tab | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/21/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.toolbox.html"

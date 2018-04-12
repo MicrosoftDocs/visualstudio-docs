@@ -2,11 +2,8 @@
 title: "CA2118: Review SuppressUnmanagedCodeSecurityAttribute usage | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CA2118"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "ReviewSuppressUnmanagedCodeSecurityUsage"
   - "CA2118"
 ms.assetid: 4cb8d2fc-4e44-4dc3-9b74-7f5838827d41
-caps.latest.revision: 20
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

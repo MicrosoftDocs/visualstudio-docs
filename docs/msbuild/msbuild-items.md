@@ -2,15 +2,11 @@
 title: "MSBuild Items | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "MSBuild, Items"
 ms.assetid: d762eff4-c92a-4b5f-a944-1ca30aa22319
-caps.latest.revision: 35
 author: Mikejo5000
 ms.author: mikejo
 manager: ghogen

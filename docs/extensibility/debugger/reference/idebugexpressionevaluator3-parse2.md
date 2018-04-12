@@ -2,16 +2,12 @@
 title: "IDebugExpressionEvaluator3::Parse2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "IDebugExpressionEvaluator3::Parse2"
 ms.assetid: 78099628-d600-4f76-b7c8-ee07c864af1e
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

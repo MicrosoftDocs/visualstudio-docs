@@ -2,14 +2,10 @@
 title: "Step 8: Customize the Quiz | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-acquisition"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: dc8edb13-1b23-47d7-b859-8c6f7888c1a9
-caps.latest.revision: 12
 author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen

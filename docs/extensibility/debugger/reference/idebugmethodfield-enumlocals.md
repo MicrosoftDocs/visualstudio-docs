@@ -2,18 +2,14 @@
 title: "IDebugMethodField::EnumLocals | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "IDebugMethodField::EnumLocals"
 helpviewer_keywords: 
   - "IDebugMethodField::EnumLocals method"
 ms.assetid: b0456a6d-2b96-49e2-a871-516571b4f6a5
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

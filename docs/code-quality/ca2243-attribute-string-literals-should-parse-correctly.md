@@ -2,11 +2,8 @@
 title: "CA2243: Attribute string literals should parse correctly | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CA2243"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "AttributeStringLiteralsShouldParseCorrectly"
   - "CA2243"
 ms.assetid: bfadb366-379d-4ee4-b17b-c4a09bf1106b
-caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

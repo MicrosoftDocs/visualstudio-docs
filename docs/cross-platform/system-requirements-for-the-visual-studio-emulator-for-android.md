@@ -2,13 +2,9 @@
 title: "System Requirements for the Visual Studio Emulator for Android | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-mobile
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 35e766ad-269f-41e4-ba23-74a556c315f3
-caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

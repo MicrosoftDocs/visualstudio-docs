@@ -2,8 +2,6 @@
 title: "Map dependencies across your solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.progression.codemap"

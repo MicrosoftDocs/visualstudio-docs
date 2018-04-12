@@ -2,11 +2,8 @@
 title: "Replace In Files Command | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "edit.replaceinfiles"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "Replace In Files command"
   - "ReplaceInFiles command"
 ms.assetid: f116066a-4f65-4f2c-94ef-12cbd8cfb598
-caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

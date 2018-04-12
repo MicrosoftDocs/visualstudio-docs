@@ -2,11 +2,8 @@
 title: "The Code Metrics Results window in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "12/12/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology:
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords:
   - "vs.codemetrics.output"

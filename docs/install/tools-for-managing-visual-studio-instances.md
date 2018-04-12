@@ -2,11 +2,8 @@
 title: "Tools for detecting and managing Visual Studio instances | Microsoft Docs"
 description: "{{PLACEHOLDER}}"
 ms.date: "08/14/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology:
   - "vs-acquisition"
-ms.tgt_pltfrm: ""
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "{{PLACEHOLDER}}"

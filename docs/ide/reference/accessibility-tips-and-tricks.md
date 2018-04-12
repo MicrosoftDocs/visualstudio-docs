@@ -2,11 +2,8 @@
 title: "Accessibility tips and tricks for Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "09/15/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "accessibility [Visual Studio]"

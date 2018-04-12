@@ -2,17 +2,13 @@
 title: "New Project Generation: Under the Hood, Part One | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "projects [Visual Studio], new project dialog"
   - "projects [Visual Studio], new project generation"
 ms.assetid: 66778698-0258-467d-8b8b-c351744510eb
-caps.latest.revision: 29
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

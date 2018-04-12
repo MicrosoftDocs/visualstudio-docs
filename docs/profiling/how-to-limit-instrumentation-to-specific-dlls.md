@@ -2,11 +2,8 @@
 title: "How to: Limit Instrumentation to Specific DLLs | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "performance tools, runtime profiling control window"

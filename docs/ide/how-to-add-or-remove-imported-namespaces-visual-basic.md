@@ -2,11 +2,8 @@
 title: "How to: Add or remove imported namespaces (Visual Basic) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/21/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "adding imported namespaces"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "imported namespaces [Visual Studio]"
   - "references [Visual Studio], imported namespaces"
 ms.assetid: 44cebec3-0ea0-47c2-8406-4edeab6a997e
-caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

@@ -2,16 +2,12 @@
 title: "Managing Project Loading in a Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "solutions, managing project loading"
 ms.assetid: 097c89d0-f76a-4aaf-ada9-9a778bd179a0
-caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

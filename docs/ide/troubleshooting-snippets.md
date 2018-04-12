@@ -2,18 +2,14 @@
 title: "Troubleshooting Snippets | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "IntelliSense Code Snippets, troubleshooting"
   - "troubleshooting IntelliSense Code Snippets"
   - "troubleshooting Visual Basic, IntelliSense Code Snippets"
 ms.assetid: 7b6dd40e-2f78-4b50-8e68-41fac1bcb81e
-caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

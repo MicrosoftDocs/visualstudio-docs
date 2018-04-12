@@ -2,16 +2,12 @@
 title: "Call Tree View - Contention Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Call Tree view"
 ms.assetid: 9bd4bde2-2ca3-446c-9ccc-7421522e03ae
-caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

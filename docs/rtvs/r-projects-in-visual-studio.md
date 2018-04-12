@@ -4,7 +4,6 @@ description: How to create an manager R projects in Visual Studio including prop
 ms.custom:
 ms.date: 06/29/2017
 ms.reviewer:
-ms.suite:
 ms.technology: 
   - "devlang-r"
 dev_langs:

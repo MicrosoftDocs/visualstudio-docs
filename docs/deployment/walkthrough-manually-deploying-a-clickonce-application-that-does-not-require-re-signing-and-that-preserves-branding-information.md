@@ -2,11 +2,8 @@
 title: "Walkthrough: Manually Deploying a ClickOnce Application that Does Not Require Re-Signing and that Preserves Branding Information | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -23,7 +20,6 @@ helpviewer_keywords:
   - "manifests [ClickOnce]"
   - "ClickOnce applications, deployed by others"
 ms.assetid: c21822fb-d4ee-42e4-b72d-41ee9786efe5
-caps.latest.revision: 12
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"

@@ -2,11 +2,8 @@
 title: "Debugging WCF Services | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "CSharp"
@@ -17,7 +14,6 @@ helpviewer_keywords:
   - "debugging, WCF"
   - "WCF, debugging"
 ms.assetid: 6c8974d0-2c15-4d9f-a7f3-cabd4b204cda
-caps.latest.revision: 15
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

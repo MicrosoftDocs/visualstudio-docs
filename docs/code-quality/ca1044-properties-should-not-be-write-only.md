@@ -2,11 +2,8 @@
 title: "CA1044: Properties should not be write only | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "PropertiesShouldNotBeWriteOnly"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "CA1044"
   - "PropertiesShouldNotBeWriteOnly"
 ms.assetid: 8386bf3a-b161-4841-bf8b-92591595aea9
-caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

@@ -4,7 +4,6 @@ description: Step 0 (prerequisites) of a core tutorial for working with Python w
 ms.custom: "mvc"
 ms.date: 01/16/2018
 ms.reviewer:
-ms.suite:
 ms.technology: 
   - "devlang-python"
 dev_langs:

@@ -2,16 +2,12 @@
 title: "Model for Source Control Packages | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "source control [Visual Studio SDK], model"
 ms.assetid: 6164b2d3-a622-4de8-bef3-a6de985e9ebd
-caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

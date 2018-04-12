@@ -4,7 +4,6 @@ description: How to publish a Python web application directly to Azure App Servi
 ms.custom:
 ms.date: 09/27/2017
 ms.reviewer:
-ms.suite:
 ms.technology: 
   - "devlang-python"
 dev_langs:

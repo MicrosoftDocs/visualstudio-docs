@@ -2,11 +2,8 @@
 title: "VisibilityConstraints Element | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "VisibilityConstraints"
@@ -14,7 +11,6 @@ helpviewer_keywords:
   - "VSCT XML schema elements, VisibilityConstraints"
   - "VisibilityConstraints element (VSCT XML schema)"
 ms.assetid: d6dcd314-6fe4-4693-a189-91fa026c7b34
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

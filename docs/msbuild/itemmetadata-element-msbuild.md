@@ -2,10 +2,7 @@
 title: "ItemMetadata Element (MSBuild) | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/13/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -16,7 +13,6 @@ helpviewer_keywords:
   - "ItemMetadata Element [MSBuild]"
   - "<ItemMetadata> Element [MSBuild]"
 ms.assetid: e3db5122-202d-43a9-b2f4-3e0ec4ed3d08
-caps.latest.revision: 17
 author: Mikejo5000
 ms.author: mikejo
 manager: ghogen

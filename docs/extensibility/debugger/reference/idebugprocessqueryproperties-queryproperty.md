@@ -2,16 +2,12 @@
 title: "IDebugProcessQueryProperties::QueryProperty | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "IDebugProcessQueryProperties::QueryProperty"
 ms.assetid: 9a91707d-a590-44ef-b122-69d9816a7a79
-caps.latest.revision: 6
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

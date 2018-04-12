@@ -2,11 +2,8 @@
 title: "Limitations on Script Debugging | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "CSharp"
@@ -18,7 +15,6 @@ helpviewer_keywords:
   - "script debugging, limitations"
   - "breakpoint mapping, limitations"
 ms.assetid: 280eead5-693c-47af-967f-dfe9d23f84db
-caps.latest.revision: 22
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

@@ -2,10 +2,7 @@
 title: "Standard and Custom Toolset Configurations | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/31/2018"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "MSBuild, custom toolset configurations"

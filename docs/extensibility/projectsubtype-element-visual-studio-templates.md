@@ -2,11 +2,8 @@
 title: "ProjectSubType Element (Visual Studio Templates) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/vstemplate/2005#ProjectSubType"
@@ -14,7 +11,6 @@ helpviewer_keywords:
   - "ProjectSubType element [Visual Studio Templates]"
   - "<ProjectSubType> element [Visual Studio Templates]"
 ms.assetid: f6895cd4-3e95-4f0e-aa9e-8c7750f46ed4
-caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

@@ -3,11 +3,8 @@ title: "Visual Studio administrator guide | Microsoft Docs"
 description: "Learn more about how to deploy Visual Studio in an enterprise environment."
 ms.custom: ""
 ms.date: "05/15/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology:
   - "vs-acquisition"
-ms.tgt_pltfrm: ""
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "network installation, Visual Studio"

@@ -2,14 +2,10 @@
 title: "Step 4: Add a Click Event Handler to Each Label | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-acquisition"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 16bdbc7c-4129-411d-bace-f4a3e5375975
-caps.latest.revision: 20
 author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen

@@ -2,16 +2,12 @@
 title: "How to: Troubleshoot Services | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "services, troubleshooting"
 ms.assetid: 001551da-4847-4f59-a0b2-fcd327d7f5ca
-caps.latest.revision: 14
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

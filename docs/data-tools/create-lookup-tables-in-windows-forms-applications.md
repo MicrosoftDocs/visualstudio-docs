@@ -2,15 +2,11 @@
 title: "Create lookup tables in Windows Forms applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "lookup tables"
   - "lookup tables, creating"
 ms.assetid: 0edd5385-c381-4b17-9096-74e2778db9d5
-caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

@@ -2,17 +2,13 @@
 title: "Turn Off Compatibility Warnings for Source Control Plug-ins | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "source control plug-ins, turning off compatibility warnings"
   - "compatibility warnings, turning off"
 ms.assetid: ba318e12-921b-4b7a-a8c2-12c712be1dbf
-caps.latest.revision: 21
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

@@ -1,8 +1,6 @@
 ---
 title: "Options, Text Editor, C#, Formatting | Microsoft Docs"
 ms.date: 02/09/2018
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-general
 ms.topic: "article"
 f1_keywords: 

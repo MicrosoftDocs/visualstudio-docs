@@ -2,11 +2,8 @@
 title: "How to: Debug the OnStart Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "CSharp"
@@ -20,7 +17,6 @@ helpviewer_keywords:
   - "debugging Windows Services applications, OnStart method"
   - "Windows Service applications, debugging"
 ms.assetid: b06b5d65-424b-490f-bf58-97583cd7006a
-caps.latest.revision: 16
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

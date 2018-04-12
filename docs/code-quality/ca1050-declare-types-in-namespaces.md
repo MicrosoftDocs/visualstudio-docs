@@ -2,11 +2,8 @@
 title: "CA1050: Declare types in namespaces | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CA1050"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "DeclareTypesInNamespaces"
   - "CA1050"
 ms.assetid: 1002748d-ac8d-404f-85dd-7a12d1ad3e05
-caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

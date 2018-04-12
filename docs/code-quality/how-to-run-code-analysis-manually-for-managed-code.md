@@ -2,16 +2,12 @@
 title: "How to: Run Code Analysis Manually for Managed Code | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "code analysis, running"
 ms.assetid: 5086d228-f92e-4515-9708-c5b89b9e9a03
-caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

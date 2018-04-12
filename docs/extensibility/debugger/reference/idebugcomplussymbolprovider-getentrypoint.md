@@ -2,17 +2,13 @@
 title: "IDebugComPlusSymbolProvider::GetEntryPoint | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "IDebugComPlusSymbolProvider::GetEntryPoint"
   - "GetEntryPoint"
 ms.assetid: 9640e121-1da1-41f9-8e66-76efca36baf2
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

@@ -2,14 +2,10 @@
 title: "Designing XAML in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "07/17/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-designers"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 288e2415-9fcf-408e-bc35-9848315e14fd
-caps.latest.revision: 4
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

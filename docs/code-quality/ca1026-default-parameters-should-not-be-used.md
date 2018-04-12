@@ -2,11 +2,8 @@
 title: "CA1026: Default parameters should not be used | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CA1026"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "CA1026"
   - "DefaultParametersShouldNotBeUsed"
 ms.assetid: 09643415-36ef-4d0f-9411-5721e14e2512
-caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

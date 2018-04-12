@@ -2,10 +2,7 @@
 title: "MSBuild Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#MSBuild"
@@ -18,7 +15,6 @@ helpviewer_keywords:
   - "MSBuild task [MSBuild]"
   - "MSBuild, MSBuild task"
 ms.assetid: 76577f6c-7669-44ad-a840-363e37a04d34
-caps.latest.revision: 32
 author: Mikejo5000
 ms.author: mikejo
 manager: ghogen

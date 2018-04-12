@@ -2,11 +2,8 @@
 title: "Understanding Build Configurations | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "SolutionProperties.ActiveConfig"
@@ -26,7 +23,6 @@ helpviewer_keywords:
   - "projects [Visual Studio], build configuration"
   - "solutions [Visual Studio], build configuration"
 ms.assetid: 934c727d-3a22-429c-bd13-3552cecf2e24
-caps.latest.revision: 21
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

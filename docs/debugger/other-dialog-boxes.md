@@ -2,17 +2,13 @@
 title: "Other Dialog Boxes | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "dialog boxes, Spy++"
   - "Spy++ dialog boxes"
 ms.assetid: 81710456-2600-4468-a448-3fb21c7bda82
-caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

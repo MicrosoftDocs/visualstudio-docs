@@ -2,18 +2,14 @@
 title: "Options, Text Editor, JavaScript, Formatting | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Formatting.Spacing"
   - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Formatting.General"
   - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Formatting.New_Lines"
 ms.assetid: 28a0aef1-9353-4d94-95a5-54b42e15c0dc
-caps.latest.revision: 6
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

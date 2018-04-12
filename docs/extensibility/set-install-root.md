@@ -2,14 +2,10 @@
 title: "Installing outside the extensions folder with VSIX v3 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/09/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 913c3745-8aa9-4260-886e-a05aecfb2225
-caps.latest.revision: 1
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

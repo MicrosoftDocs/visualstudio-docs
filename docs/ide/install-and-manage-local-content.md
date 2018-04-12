@@ -2,11 +2,8 @@
 title: "Install local Visual Studio documentation | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-help-viewer"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "hv_manage"
@@ -24,7 +21,6 @@ helpviewer_keywords:
   - "Help Viewer, installing local content"
   - "Help Viewer, downloading content"
 ms.assetid: efd9df4c-2e69-4c50-992c-9678a8d8cf19
-caps.latest.revision: 25
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

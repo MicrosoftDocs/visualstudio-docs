@@ -2,11 +2,8 @@
 title: "CA1011: Consider passing base types as parameters | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "ConsiderPassingBaseTypesAsParameters"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "CA1011"
   - "ConsiderPassingBaseTypesAsParameters"
 ms.assetid: ce1e1241-dcf4-419b-9363-1d5bc4989279
-caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

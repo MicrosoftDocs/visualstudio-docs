@@ -2,9 +2,6 @@
 title: "Turn off constraints while filling a dataset | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "DataRow.BeginEdit"
@@ -19,7 +16,6 @@ helpviewer_keywords:
   - "datasets [Visual Basic], constraints"
   - "constraints [Visual Basic], suspending during dataset update"
 ms.assetid: 553f7d0c-2faa-4c17-b226-dd02855bf1dc
-caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

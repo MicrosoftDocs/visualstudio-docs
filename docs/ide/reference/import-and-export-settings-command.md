@@ -2,11 +2,8 @@
 title: "Import and Export Settings Command | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "Tools.ImportandExportSettings"
@@ -14,7 +11,6 @@ helpviewer_keywords:
   - "Tools.ImportandExportSettings"
   - "Import and Export Settings command"
 ms.assetid: 94a06468-a44d-403d-a931-77bbc9d06e56
-caps.latest.revision: 5
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

@@ -2,11 +2,8 @@
 title: "CA1047: Do not declare protected members in sealed types | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "DoNotDeclareProtectedMembersInSealedTypes"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "CA1047"
   - "DoNotDeclareProtectedMembersInSealedTypes"
 ms.assetid: 829033b5-a9d8-4f26-a719-45494c9dd035
-caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

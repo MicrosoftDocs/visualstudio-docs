@@ -2,11 +2,8 @@
 title: "How to: Use the Keyboard Exclusively | Microsoft Docs"
 ms.custom: ""
 ms.date: "08/22/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Toolbox, shortcut keys"

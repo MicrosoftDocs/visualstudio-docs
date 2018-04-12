@@ -2,8 +2,6 @@
 title: "Run-Time Text Generation with T4 Text Templates | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.topic: "article"
 dev_langs:
  - CSharp

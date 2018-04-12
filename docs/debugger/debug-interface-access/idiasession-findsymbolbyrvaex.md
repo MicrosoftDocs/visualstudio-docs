@@ -2,18 +2,14 @@
 title: "IDiaSession::findSymbolByRVAEx | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaSession::findSymbolByRVAEx method"
 ms.assetid: 61344966-fed4-4c02-9e27-20356ec2ef7c
-caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

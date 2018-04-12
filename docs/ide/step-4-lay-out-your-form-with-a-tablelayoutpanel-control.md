@@ -2,14 +2,10 @@
 title: "Step 4: Lay Out Your Form with a TableLayoutPanel Control | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-acquisition"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 61acde79-e115-4bad-bb06-1fbe37717a3e
-caps.latest.revision: 17
 author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen

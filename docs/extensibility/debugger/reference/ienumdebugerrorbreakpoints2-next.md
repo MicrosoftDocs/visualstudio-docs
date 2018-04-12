@@ -2,18 +2,14 @@
 title: "IEnumDebugErrorBreakpoints2::Next | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "IEnumDebugErrorBreakpoints2::Next"
 helpviewer_keywords: 
   - "IEnumDebugErrorBreakpoints2::Next"
 ms.assetid: 6a3dee11-5267-4d77-9e28-6a38413ba70b
-caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

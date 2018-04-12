@@ -2,11 +2,8 @@
 title: "CA1051: Do not declare visible instance fields | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CA1051"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "CA1051"
   - "DoNotDeclareVisibleInstanceFields"
 ms.assetid: 2805376c-824c-462c-81d1-c51aaf7cabe7
-caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

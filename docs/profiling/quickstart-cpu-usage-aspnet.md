@@ -2,16 +2,12 @@
 title: "Analyze CPU usage data (ASP.NET) | Microsoft Docs"
 ms.custom: ""
 ms.date: "12/05/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "quickstart"
 helpviewer_keywords: 
   - "Profiling Tools, quick start"
   - "Diagnostics Tools, CPU Usage"
-caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"

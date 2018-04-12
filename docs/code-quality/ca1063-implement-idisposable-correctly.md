@@ -2,8 +2,6 @@
 title: "CA1063: Implement IDisposable correctly | Microsoft Docs"
 ms.custom: ""
 ms.date: 02/12/2018
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-code-analysis
 ms.topic: "article"
 f1_keywords:

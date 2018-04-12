@@ -2,11 +2,8 @@
 title: "CRT Debug Heap Details | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "CSharp"
@@ -74,7 +71,6 @@ helpviewer_keywords:
   - "_CRTDBG_CHECK_CRT_DF macro"
   - "debug heap, reporting functions"
 ms.assetid: bf78ace6-28e4-4a04-97c6-39e0cdd00ba4
-caps.latest.revision: 19
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

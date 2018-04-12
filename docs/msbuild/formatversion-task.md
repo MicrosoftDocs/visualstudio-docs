@@ -2,10 +2,7 @@
 title: "FormatVersion Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -13,7 +10,6 @@ dev_langs:
   - "C++"
   - "jsharp"
 ms.assetid: 96e692f6-b581-46ca-8cc9-441a1861e371
-caps.latest.revision: 5
 author: Mikejo5000
 ms.author: mikejo
 manager: ghogen

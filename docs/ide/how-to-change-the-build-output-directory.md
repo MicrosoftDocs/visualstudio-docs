@@ -2,16 +2,12 @@
 title: "How to: Change the Build Output Directory | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "output directory, changing"
 ms.assetid: a8333c89-afb2-4b1d-b2e2-9146da852402
-caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

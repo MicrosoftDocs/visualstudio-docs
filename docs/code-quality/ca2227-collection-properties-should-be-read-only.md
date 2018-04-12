@@ -2,11 +2,8 @@
 title: "CA2227: Collection properties should be read only | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CA2227"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "CA2227"
   - "CollectionPropertiesShouldBeReadOnly"
 ms.assetid: 26967aaf-6fbe-438a-b4d3-ac579b5dc0f9
-caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

@@ -2,11 +2,8 @@
 title: "References Page, Project Designer (Visual Basic) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/21/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vb.ProjectPropertiesReference"
@@ -17,7 +14,6 @@ helpviewer_keywords:
   - "Project Designer, References page"
   - "Unused References dialog box"
 ms.assetid: 5a47c595-e084-401c-86e1-74e0bf74fd86
-caps.latest.revision: 34
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

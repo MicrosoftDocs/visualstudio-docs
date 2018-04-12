@@ -2,16 +2,12 @@
 title: "Core Interfaces | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "debugging [Debugging SDK], core interfaces"
 ms.assetid: 666b9116-8550-4bdd-bc15-55fc57de87df
-caps.latest.revision: 24
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

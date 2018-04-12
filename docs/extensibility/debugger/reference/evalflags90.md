@@ -2,16 +2,12 @@
 title: "EVALFLAGS90 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "EVALFLAGS90 enumeration"
 ms.assetid: 64fb0139-8b04-4726-b52c-db2e04d65498
-caps.latest.revision: 7
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

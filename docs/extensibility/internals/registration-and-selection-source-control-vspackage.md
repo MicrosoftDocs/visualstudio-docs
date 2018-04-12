@@ -2,17 +2,13 @@
 title: "Registration and Selection (Source Control VSPackage) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "registration, source control packages"
   - "source control packages, registration"
 ms.assetid: 7d21fe48-489a-4f55-acb5-73da64c4e155
-caps.latest.revision: 34
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

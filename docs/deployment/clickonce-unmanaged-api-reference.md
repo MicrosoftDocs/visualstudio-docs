@@ -2,11 +2,8 @@
 title: "ClickOnce Unmanaged API Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -19,7 +16,6 @@ helpviewer_keywords:
   - "CleanOnlineAppCacheW interface [ClickOnce unmanaged]"
   - "GetDeploymentDataFromManifest [ClickOnce unmanaged]"
 ms.assetid: ec002138-4054-456d-bcc1-79ac2f4a4fd7
-caps.latest.revision: 6
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"

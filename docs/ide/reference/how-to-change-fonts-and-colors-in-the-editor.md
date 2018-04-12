@@ -2,11 +2,8 @@
 title: "How to: Change Fonts and Colors in the Editor | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "editors, fonts"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "text, fonts"
   - "editors, text color"
 ms.assetid: 3f7629d1-1cdf-4046-9a31-0632517f234d
-caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

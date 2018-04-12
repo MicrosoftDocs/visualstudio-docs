@@ -2,8 +2,6 @@
 title: "Code Generation and T4 Text Templates | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-modeling
 ms.topic: "article"
 f1_keywords: 

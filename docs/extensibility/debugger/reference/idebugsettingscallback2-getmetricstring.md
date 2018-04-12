@@ -2,17 +2,13 @@
 title: "IDebugSettingsCallback2::GetMetricString | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "IDebugSettingsCallback2::GetMetricString"
   - "GetMetricString"
 ms.assetid: ecc875a2-8ac6-444c-a839-5191a780fd6b
-caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

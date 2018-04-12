@@ -2,11 +2,8 @@
 title: "AutoRecover, Environment, Options Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "VS.ToolsOptionsPag.Environment.AutoRecover"
@@ -19,7 +16,6 @@ helpviewer_keywords:
   - "saving files, automatically"
   - "files, saving automatically"
 ms.assetid: 397e5e44-4bbe-4289-94d1-642b466c9111
-caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

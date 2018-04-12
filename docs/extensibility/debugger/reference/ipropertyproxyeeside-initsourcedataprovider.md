@@ -2,18 +2,14 @@
 title: "IPropertyProxyEESide::InitSourceDataProvider | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "IPropertyProxyEESide::InitSourceDataProvider"
 helpviewer_keywords: 
   - "IPropertyProxyEESide::InitSourceDataProvider"
 ms.assetid: 5156f593-5052-4e3a-9d02-081916fb342d
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

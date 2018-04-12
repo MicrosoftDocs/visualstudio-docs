@@ -2,10 +2,7 @@
 title: "Solutions and Projects in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/5/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.addnewsolutionitem"

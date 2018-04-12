@@ -2,9 +2,6 @@
 title: "Sync Changes Between XCode and Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c71a4d7c-120e-4559-a114-3a99c4b860a9
 ms.technology: vs-ide-mobile

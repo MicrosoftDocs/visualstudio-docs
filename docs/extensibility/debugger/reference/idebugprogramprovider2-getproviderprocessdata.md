@@ -2,18 +2,14 @@
 title: "IDebugProgramProvider2::GetProviderProcessData | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "IDebugProgramProvider2::GetProviderProcessData"
 helpviewer_keywords: 
   - "IDebugProgramProvider2::GetProviderProcessData"
 ms.assetid: 90cf7b7f-53d2-487e-b793-94501a6e24dd
-caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

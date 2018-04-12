@@ -2,17 +2,13 @@
 title: "Image Editor | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-designers"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.graphics.designer.imageeditor"
   - "vs.graphics.imageeditor"
 ms.assetid: fc71d502-c548-4863-8afc-12a1d3ec90d4
-caps.latest.revision: 45
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

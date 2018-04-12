@@ -2,16 +2,12 @@
 title: "Project Subtypes Design | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "project subtypes, design"
 ms.assetid: 405488bb-1362-40ed-b0f1-04a57fc98c56
-caps.latest.revision: 32
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

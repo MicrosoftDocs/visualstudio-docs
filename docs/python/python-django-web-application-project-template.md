@@ -4,7 +4,6 @@ description: An overview of the Visual Studio templates for web applications wri
 ms.custom:
 ms.date: 07/13/2017
 ms.reviewer:
-ms.suite:
 ms.technology: 
   - "devlang-python"
 dev_langs:

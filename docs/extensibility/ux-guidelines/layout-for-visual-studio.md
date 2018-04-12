@@ -2,14 +2,10 @@
 title: "Layout for Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c19e3022-047c-43b6-a046-a82717efed4f
-caps.latest.revision: 2
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

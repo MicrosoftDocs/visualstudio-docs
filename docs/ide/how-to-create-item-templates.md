@@ -2,10 +2,7 @@
 title: "Create item templates for Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/02/2018"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "item templates [Visual Studio], creating"

@@ -2,11 +2,8 @@
 title: "Error: Workgroup Remote Logon Failure | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.error.workgroup_remote_logon_failure"
@@ -19,7 +16,6 @@ dev_langs:
 helpviewer_keywords: 
   - "logon failure, remote debugging"
   - "remote debugging, logon failure"
-caps.latest.revision: 19
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

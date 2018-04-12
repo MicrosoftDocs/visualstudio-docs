@@ -2,11 +2,8 @@
 title: "Use Visual Studio help viewer index | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-help-viewer"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Index tab [Help Viewer]"
@@ -16,7 +13,6 @@ helpviewer_keywords:
   - "index filtering [Help Viewer]"
   - "Help Viewer, index filtering"
 ms.assetid: cb071e93-f297-459c-a6fa-8ae0dabc42a4
-caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

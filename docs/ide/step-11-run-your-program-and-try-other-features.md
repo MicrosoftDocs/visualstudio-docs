@@ -2,14 +2,10 @@
 title: "Step 11: Run Your Program and Try Other Features | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-acquisition"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 656614d0-4fe7-4a67-8edc-c10919377d09
-caps.latest.revision: 12
 author: "TerryGLee"
 ms.author: "tglee"
 manager: ghogen

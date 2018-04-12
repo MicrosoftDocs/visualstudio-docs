@@ -2,11 +2,8 @@
 title: "ShowByDefault (Visual Studio Templates) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/vstemplate/2005#ShowByDefault"
@@ -14,7 +11,6 @@ helpviewer_keywords:
   - "<ShowByDefault> element [Visual Studio Templates]"
   - "ShowByDefault element [Visual Studio Templates]"
 ms.assetid: 7be783f6-0ef6-42bc-924a-df9a2eba7781
-caps.latest.revision: 7
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

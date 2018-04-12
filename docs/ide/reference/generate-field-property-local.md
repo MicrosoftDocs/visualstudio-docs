@@ -2,10 +2,7 @@
 title: "Generate a field, property, or local variable in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: 01/26/2018
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 author: "gewarren"
 ms.author: "gewarren"

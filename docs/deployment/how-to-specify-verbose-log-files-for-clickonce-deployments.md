@@ -2,11 +2,8 @@
 title: "How to: Specify Verbose Log Files for ClickOnce Deployments | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -16,7 +13,6 @@ helpviewer_keywords:
   - "logs, ClickOnce deployment"
   - "ClickOnce deployment, logging"
 ms.assetid: 0807a28d-2e40-4a51-ab10-308d808ded6b
-caps.latest.revision: 9
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"

@@ -4,7 +4,6 @@ description: A walkthrough of creating a C++ extension for Python using Visual S
 ms.custom:
 ms.date: 04/03/2018
 ms.reviewer:
-ms.suite:
 ms.technology: 
   - "devlang-python"
 dev_langs:

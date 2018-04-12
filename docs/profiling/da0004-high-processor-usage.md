@@ -2,11 +2,8 @@
 title: "DA0004: High processor usage | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.performance.rules.DAHighProcessorUsage"
@@ -14,7 +11,6 @@ f1_keywords:
   - "vs.performance.DA0004"
   - "vs.performance.4"
 ms.assetid: 2c4fb569-929e-4f1d-8c50-b590ee371351
-caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

@@ -4,7 +4,6 @@ description: Summary information for developers who have installed R Tools for V
 ms.custom:
 ms.date: 01/24/2018
 ms.reviewer:
-ms.suite:
 ms.technology: 
   - "devlang-r"
 dev_langs:

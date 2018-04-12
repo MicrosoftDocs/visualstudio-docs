@@ -2,11 +2,8 @@
 title: "No Source Available | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.debug.nosource"
@@ -18,7 +15,6 @@ dev_langs:
 helpviewer_keywords: 
   - "No Source Code Available for the Current Location dialog box"
 ms.assetid: ed0732bc-4b8c-490f-adb1-af06869a2a6b
-caps.latest.revision: 16
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

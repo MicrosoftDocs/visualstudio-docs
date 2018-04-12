@@ -2,11 +2,8 @@
 title: "Walkthrough: Synchronizing a Custom Task Pane with a Ribbon Button | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"

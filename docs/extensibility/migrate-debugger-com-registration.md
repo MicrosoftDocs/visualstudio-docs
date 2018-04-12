@@ -2,14 +2,10 @@
 title: "Migrate 64-bit debugger COM class registration| Microsoft Docs"
 ms.custom: ""
 ms.date: "11/10/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 45cfcee6-7a68-4d4f-b3f6-e2d8a0fa066a
-caps.latest.revision: 1
 author: "gregg-miskelly"
 ms.author: "greggm"
 manager: ghogen

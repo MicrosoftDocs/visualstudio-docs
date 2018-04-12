@@ -2,14 +2,10 @@
 title: "How to: Create a Basic Texture Shader | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-designers"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5af113fb-6415-4be0-8b23-10fddb10e80a
-caps.latest.revision: 23
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

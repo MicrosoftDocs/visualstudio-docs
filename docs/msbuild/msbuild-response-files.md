@@ -2,10 +2,7 @@
 title: "MSBuild Response Files | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -18,7 +15,6 @@ helpviewer_keywords:
   - "MSBuild, .rsp files"
   - ".rsp files"
 ms.assetid: 9f53987b-20ee-470a-ab62-fce997bb5e15
-caps.latest.revision: 3
 author: Mikejo5000
 ms.author: mikejo
 manager: ghogen

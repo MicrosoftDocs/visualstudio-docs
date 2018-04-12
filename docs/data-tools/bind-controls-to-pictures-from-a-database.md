@@ -2,9 +2,6 @@
 title: "Bind controls to pictures from a database | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "images [Visual Basic], displaying on Windows Forms"
@@ -16,7 +13,6 @@ helpviewer_keywords:
   - "PictureBox control [Windows Forms], data binding"
   - "images [Visual Basic], dragging from Data Sources window"
 ms.assetid: 9748815e-3556-49e8-86b1-c6aa593c6163
-caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

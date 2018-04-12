@@ -2,18 +2,14 @@
 title: "IDiaLoadCallback::NotifyOpenPDB | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaLoadCallback::NotifyOpenPDB method"
 ms.assetid: c0547f99-8468-4e57-82ca-9ef7d6707c8a
-caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

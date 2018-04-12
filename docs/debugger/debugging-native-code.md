@@ -2,11 +2,8 @@
 title: "Debugging Native Code | Microsoft Docs"
 ms.custom: ""
 ms.date: "04/11/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.debug"
@@ -21,7 +18,6 @@ helpviewer_keywords:
   - "debugging [Visual Studio], native code"
   - "native code, debugging"
 ms.assetid: d94eee90-7e0d-4cac-88c1-9831030daa5e
-caps.latest.revision: 21
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

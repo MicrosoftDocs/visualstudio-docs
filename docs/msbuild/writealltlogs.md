@@ -2,10 +2,7 @@
 title: "WriteAllTLogs | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 apiname: 
   - "WriteAllTLogs"
@@ -15,7 +12,6 @@ apitype: "COM"
 helpviewer_keywords: 
   - "WriteAllTLogs"
 ms.assetid: 1fa3e10b-263c-4960-a9ad-485c02a7a872
-caps.latest.revision: 5
 author: Mikejo5000
 ms.author: mikejo
 manager: ghogen

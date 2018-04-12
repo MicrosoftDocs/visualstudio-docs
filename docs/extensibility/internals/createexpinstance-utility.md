@@ -2,11 +2,8 @@
 title: "CreateExpInstance Utility | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "experimental builds"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "createexpinstance"
   - "createexpinst"
 ms.assetid: 03779774-9401-49ae-997c-0c3ab25ed0d5
-caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

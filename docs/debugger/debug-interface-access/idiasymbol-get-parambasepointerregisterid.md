@@ -2,18 +2,14 @@
 title: "IDiaSymbol::get_paramBasePointerRegisterId | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaSymbol::get_paramBasePointerRegisterId method"
 ms.assetid: 9f5caeb4-5c88-4054-bf8b-50d34bbbf8c5
-caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

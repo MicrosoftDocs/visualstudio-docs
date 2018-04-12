@@ -2,11 +2,8 @@
 title: "Options, Text Editor, All Languages | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "VS.ToolsOptionsPages.Text_Editor.JavaScript.General"
@@ -20,7 +17,6 @@ helpviewer_keywords:
   - "line numbers"
   - "virtual space"
 ms.assetid: 49ee7306-9d46-4170-850f-a1716171752d
-caps.latest.revision: 20
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

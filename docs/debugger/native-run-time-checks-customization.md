@@ -2,11 +2,8 @@
 title: "Native Run-Time Checks Customization | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.debug.crt"
@@ -23,7 +20,6 @@ helpviewer_keywords:
   - "customizing CRT error checking"
   - "native run-time checks, customizing"
 ms.assetid: 76a365fe-6439-49db-8603-34058b78e5a8
-caps.latest.revision: 18
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

@@ -2,11 +2,8 @@
 title: "The Structure of the [Content_types].xml File | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "content_types"
@@ -14,7 +11,6 @@ helpviewer_keywords:
   - "opc"
   - "vsix"
 ms.assetid: 9c399598-b9fa-4da7-84b5-defbf82e9335
-caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

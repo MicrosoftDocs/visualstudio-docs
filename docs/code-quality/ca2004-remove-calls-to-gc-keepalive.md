@@ -2,11 +2,8 @@
 title: "CA2004: Remove calls to GC.KeepAlive | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "RemoveCallsToGCKeepAlive"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "RemoveCallsToGCKeepAlive"
   - "CA2004"
 ms.assetid: bc543b5b-23eb-4b45-abc2-9325cd254ac2
-caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

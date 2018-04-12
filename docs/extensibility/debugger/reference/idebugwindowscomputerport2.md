@@ -2,16 +2,12 @@
 title: "IDebugWindowsComputerPort2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "IDebugWindowsComputerPort2 interface"
 ms.assetid: 25f327b8-0303-4268-88d1-74df630436aa
-caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

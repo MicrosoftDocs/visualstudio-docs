@@ -2,17 +2,13 @@
 title: "How to: Ignore Errors in Tasks | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "MSBuild, ignoring errors"
   - "ContinueOnError attribute [MSBuild]"
 ms.assetid: e2f1ca4f-787b-44bd-bc64-81a036025e96
-caps.latest.revision: 18
 author: "kempb"
 ms.author: "kempb"
 manager: ghogen

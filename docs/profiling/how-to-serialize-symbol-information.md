@@ -2,11 +2,8 @@
 title: "How to: Serialize Symbol Information | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "VS.ToolsOptionsPages.Performance.General"
@@ -14,7 +11,6 @@ helpviewer_keywords:
   - "profiling tools, serializing symbol information"
   - "performance tools, serializing symbol information"
 ms.assetid: 9e0da706-6325-4073-83d1-aeab3b7c137a
-caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

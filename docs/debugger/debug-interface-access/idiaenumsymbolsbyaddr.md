@@ -2,18 +2,14 @@
 title: "IDiaEnumSymbolsByAddr | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaEnumSymbolsbyAddr interface"
 ms.assetid: 37d3dcdf-e4fa-4354-b5e1-8843566b52ac
-caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

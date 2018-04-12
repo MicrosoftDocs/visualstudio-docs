@@ -2,11 +2,8 @@
 title: "DA0005: Frequent GC2 collections | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.performance.DA0005"
@@ -14,7 +11,6 @@ f1_keywords:
   - "vs.performance.5"
   - "vs.performance.rules.DA0005"
 ms.assetid: 8d3f267c-8a74-4cf4-91a5-0b06a76dc2bd
-caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

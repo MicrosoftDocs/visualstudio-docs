@@ -2,16 +2,12 @@
 title: "Removal of Source Control Information from .Proj and .Sln Files | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "source control plug-ins, .sln and .proj files"
 ms.assetid: 7b06883f-35de-41e2-9a9e-d3edba236f17
-caps.latest.revision: 14
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

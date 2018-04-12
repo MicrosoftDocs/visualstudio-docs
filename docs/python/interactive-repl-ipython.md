@@ -4,7 +4,6 @@ description: Using the Visual Studio interactive window in IPython mode for a us
 ms.custom:
 ms.date: 07/13/2017
 ms.reviewer:
-ms.suite:
 ms.technology: 
   - "devlang-python"
 dev_langs:

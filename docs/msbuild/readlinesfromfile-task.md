@@ -2,10 +2,7 @@
 title: "ReadLinesFromFile Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#ReadLinesFromFile"
@@ -18,7 +15,6 @@ helpviewer_keywords:
   - "MSBuild, ReadLinesFromFile task"
   - "ReadLinesFromFile task [MSBuild]"
 ms.assetid: a18af929-b53a-4d9e-b7bf-e3d3737ee85f
-caps.latest.revision: 10
 author: Mikejo5000
 ms.author: mikejo
 manager: ghogen

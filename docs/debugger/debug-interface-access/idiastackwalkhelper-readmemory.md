@@ -2,18 +2,14 @@
 title: "IDiaStackWalkHelper::readMemory | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaStackWalkHelper2::readMemory method"
 ms.assetid: e1eb90aa-49b7-476c-9e70-7e8f08994cbe
-caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

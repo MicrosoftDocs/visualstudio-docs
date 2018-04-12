@@ -2,11 +2,8 @@
 title: "CA1054: URI parameters should not be strings | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CA1054"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "CA1054"
   - "UriParametersShouldNotBeStrings"
 ms.assetid: 8e99d72b-a658-47a7-8dd5-9784ce2c30b8
-caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

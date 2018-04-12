@@ -4,7 +4,6 @@ description: How to set up Docker containers for R and connect to them with Visu
 ms.custom:
 ms.date: 12/04/2017
 ms.reviewer:
-ms.suite:
 ms.technology: 
   - "devlang-r"
 dev_langs:

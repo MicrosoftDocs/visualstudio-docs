@@ -2,16 +2,12 @@
 title: "Caller - Callee View -  Contention Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Caller/Callee view"
 ms.assetid: a18a1b1b-9b39-43c7-b1f3-708fd20376f6
-caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

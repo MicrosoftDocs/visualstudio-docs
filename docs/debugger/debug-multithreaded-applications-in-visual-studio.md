@@ -2,11 +2,8 @@
 title: "Debug Multithreaded Applications in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "09/05/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.debug.gputthreads"
@@ -22,7 +19,6 @@ helpviewer_keywords:
   - "multithreaded debugging"
   - "high-performance debugging"
 ms.assetid: 9d175bc2-1d95-4c47-9bc3-9755af968a9c
-caps.latest.revision: 25
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

@@ -2,11 +2,8 @@
 title: "Debugging Web Applications: Troubleshooting | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "CSharp"
@@ -18,7 +15,6 @@ helpviewer_keywords:
   - "Web applications, debugging"
   - "troubleshooting Web applications"
 ms.assetid: 1624e4af-018e-4b7c-9a00-063bfe97fb7d
-caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

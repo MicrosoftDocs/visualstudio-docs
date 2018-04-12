@@ -2,11 +2,8 @@
 title: "CA2237: Mark ISerializable types with SerializableAttribute | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CA2237"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "MarkISerializableTypesWithSerializable"
   - "CA2237"
 ms.assetid: 9bd6bb24-a527-43dd-9952-043c0c694f46
-caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

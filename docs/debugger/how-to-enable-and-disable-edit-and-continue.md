@@ -2,11 +2,8 @@
 title: "How to: Enable and Disable Edit and Continue (C#, VB, C++) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "CSharp"
@@ -25,7 +22,6 @@ helpviewer_keywords:
   - "Step command"
   - "Go command"
 ms.assetid: fd961a1c-76fa-420d-ad8f-c1a6c003b0db
-caps.latest.revision: 26
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: ghogen

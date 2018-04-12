@@ -2,11 +2,8 @@
 title: "CA2111: Pointers should not be visible | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "PointersShouldNotBeVisible"
@@ -15,7 +12,6 @@ helpviewer_keywords:
   - "CA2111"
   - "PointersShouldNotBeVisible"
 ms.assetid: b3a8d466-895b-43bc-a2df-5d7058fe915f
-caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen

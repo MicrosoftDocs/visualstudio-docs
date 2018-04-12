@@ -2,16 +2,12 @@
 title: "Registering File Name Extensions for Side-By-Side Deployments | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "file extensions, registering for side-by-side"
 ms.assetid: 9ab046a2-147d-4167-aa14-7d661b1eaaa5
-caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

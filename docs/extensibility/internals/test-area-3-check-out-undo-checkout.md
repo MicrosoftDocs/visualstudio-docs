@@ -2,11 +2,8 @@
 title: "Test Area 3: Check Out-Undo Checkout | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "source control plug-ins, checkout"
@@ -14,7 +11,6 @@ helpviewer_keywords:
   - "source control [Visual Studio SDK], checking out"
   - "source control [Visual Studio SDK], undo checkout"
 ms.assetid: ce00c5a5-d472-4f45-8776-d77a1fbe9d37
-caps.latest.revision: 16
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: ghogen

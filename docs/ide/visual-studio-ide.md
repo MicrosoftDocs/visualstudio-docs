@@ -2,8 +2,6 @@
 title: "Overview of Visual Studio 2017 | Microsoft Docs"
 ms.custom: ""
 ms.date: 02/05/2018
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-general
 ms.topic: "article"
 author: "gewarren"

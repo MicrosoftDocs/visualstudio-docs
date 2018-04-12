@@ -4,7 +4,6 @@ description: How to create R Markdown documents in Visual Studio to produce high
 ms.custom:
 ms.date: 11/16/2017
 ms.reviewer:
-ms.suite:
 ms.technology: 
   - "devlang-r"
 dev_langs:

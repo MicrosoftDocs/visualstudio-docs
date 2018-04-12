@@ -2,11 +2,8 @@
 title: "Creating a UI by using XAML Designer in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "07/17/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-designers"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "VS.XamlDesigner"
@@ -14,7 +11,6 @@ f1_keywords:
   - "VS.XamlEditor"
   - "VS.DocumentOutline"
 ms.assetid: c54969a7-d75a-4a35-9b37-af7a596a7c24
-caps.latest.revision: 29
 author: "gewarren"
 ms.author: "gewarren"
 manager: ghogen
