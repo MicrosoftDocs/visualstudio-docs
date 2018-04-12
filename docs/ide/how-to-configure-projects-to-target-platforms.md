@@ -1,5 +1,5 @@
 ---
-title: "How to: Configure Projects to Target Platforms | Microsoft Docs"
+title: "How to: Configure projects to target platforms | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -25,15 +25,15 @@ manager: ghogen
 ms.workload: 
   - "multiple"
 ---
-# How to: Configure Projects to Target Platforms
-[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] enables you to set up your applications to target different platforms, including 64-bit platforms. For more information on 64-bit platform support in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], see [64-bit Applications](http://msdn.microsoft.com/Library/fd4026bc-2c3d-4b27-86dc-ec5e96018181).  
+# How to: Configure projects to target platforms
+[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] enables you to set up your applications to target different platforms, including 64-bit platforms. For more information on 64-bit platform support in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], see [64-bit applications](http://msdn.microsoft.com/Library/fd4026bc-2c3d-4b27-86dc-ec5e96018181).  
   
-## Targeting Platforms with the Configuration Manager  
+## Target platforms with the Configuration Manager  
  The **Configuration Manager** provides a way for you to quickly add a new platform to target with your project. If you select one of the platforms included with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], the properties for your project are modified to build your project for the selected platform.  
   
 #### To configure a project to target a 64-bit platform  
   
-1.  On the menu bar, choose **Build**, **Configuration Manager**.  
+1.  On the menu bar, choose **Build** > **Configuration Manager**.  
   
 2.  In the **Active solution platform** list, choose a 64-bit platform for the solution to target, and then choose the **Close** button.  
   
@@ -50,19 +50,19 @@ ms.workload:
   
  The properties for all projects that target the 64-bit platform are updated, and the next build of the project will be optimized for 64-bit platforms.  
   
-## Targeting Platforms in the Project Designer  
- The Project Designer also provides a way to target different platforms with your project. If selecting one of the platforms included in the list in the **New Solution Platform** dialog box does not work for your solution, you can create a custom configuration name and modify the settings in the **Project Designer** to target the correct platform.  
+## Target platforms in the Project Designer  
+ The **Project Designer** also provides a way to target different platforms with your project. If selecting one of the platforms included in the list in the **New Solution Platform** dialog box does not work for your solution, you can create a custom configuration name and modify the settings in the **Project Designer** to target the correct platform.  
   
  Performing this task varies based on the programming language you are using. See the following links for more information:  
   
 -   For [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] projects, see [/platform (Visual Basic)](/dotnet/visual-basic/reference/command-line-compiler/platform).  
   
--   For [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] projects, see [Build Page, Project Designer (C#)](../ide/reference/build-page-project-designer-csharp.md).  
+-   For [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] projects, see [Build page, Project Designer (C#)](../ide/reference/build-page-project-designer-csharp.md).  
   
--   For [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] projects, see [/clr (Common Language Runtime Compilation)](/cpp/build/reference/clr-common-language-runtime-compilation).  
+-   For [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] projects, see [/clr (Common Language Runtime compilation)](/cpp/build/reference/clr-common-language-runtime-compilation).  
   
-## See Also  
- [Understanding Build Platforms](../ide/understanding-build-platforms.md)   
- [/platform (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/platform-compiler-option)   
- [64-bit Applications](http://msdn.microsoft.com/Library/fd4026bc-2c3d-4b27-86dc-ec5e96018181)   
- [Visual Studio IDE 64-Bit Support](../ide/visual-studio-ide-64-bit-support.md)
+## See also  
+ [Understand build platforms](../ide/understanding-build-platforms.md)   
+ [/platform (C# compiler options)](/dotnet/csharp/language-reference/compiler-options/platform-compiler-option)   
+ [64-bit applications](http://msdn.microsoft.com/Library/fd4026bc-2c3d-4b27-86dc-ec5e96018181)   
+ [Visual Studio IDE 64-Bit support](../ide/visual-studio-ide-64-bit-support.md)

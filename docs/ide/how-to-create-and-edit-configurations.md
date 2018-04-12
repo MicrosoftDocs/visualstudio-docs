@@ -1,5 +1,5 @@
 ---
-title: "How to: Create and Edit Configurations | Microsoft Docs"
+title: "How to: Create and edit configurations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/21/2017"
 ms.reviewer: ""
@@ -26,12 +26,12 @@ manager: ghogen
 ms.workload: 
   - "multiple"
 ---
-# How to: Create and Edit Configurations
+# How to: Create and edit configurations
 You can create several build configurations for a solution. For example, you can configure a debug build that your testers can use to find and fix problems, and you can configure different kinds of builds that you can distribute to different customers.  
 
  [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
 
-## Creating Build Configurations  
+## Create build configurations  
  You can use the **Configuration Manager** dialog box to select or modify existing build configurations, or you can create new ones.  
 
 #### To open the Configuration Manager dialog box  
@@ -39,7 +39,7 @@ You can create several build configurations for a solution. For example, you can
 -   In **Solution Explorer**, open the shortcut menu for the solution and then choose **Configuration Manager**.  
 
     > [!NOTE]
-    >  If the **Configuration Manager** command doesn't appear on the shortcut menu, look under the **Build** menu on the menu bar. If it doesn't appear there either, on the menu bar, choose **Tools**, **Options**, and then in the left pane of the **Options** dialog box, expand **Projects and Solutions**, **General**, and in the right pane, select the **Show advanced build configurations** check box.  
+    >  If the **Configuration Manager** command doesn't appear on the shortcut menu, look under the **Build** menu on the menu bar. If it doesn't appear there either, on the menu bar, choose **Tools** > **Options**, and then in the left pane of the **Options** dialog box, expand **Projects and Solutions** > **General**, and in the right pane, select the **Show advanced build configurations** check box.  
 
      In the **Configuration Manager** dialog box, you can use the **Active solution configuration** drop-down list to select a solution-wide build configuration, modify an existing one, or create a new configuration. You can use the **Active solution platform** drop-down list to select the platform that the configuration targets, modify an existing one, or add a new platform. The **Project contexts** pane lists the projects in the solution. For each project, you can select a project-specific configuration and platform, modify existing ones, or create a new configuration or add a new platform. You can also select check boxes that indicate whether each project is included when you use the solution-wide configuration to build or deploy the solution.  
 
@@ -51,9 +51,9 @@ You can create several build configurations for a solution. For example, you can
 
      The  **Property Pages** window opens.  
 
-     You can set properties for your configurations. For example, for a Release configuration, you can specify that code is optimized when the solution is built, and for a Debug configuration, you can specify that the `DEBUG` conditional compilation symbol is included. For more information about property page settings, see [Managing Project and Solution Properties](../ide/managing-project-and-solution-properties.md).  
+     You can set properties for your configurations. For example, for a Release configuration, you can specify that code is optimized when the solution is built, and for a Debug configuration, you can specify that the `DEBUG` conditional compilation symbol is included. For more information about property page settings, see [Manage project and solution properties](../ide/managing-project-and-solution-properties.md).  
 
-## Creating and Modifying Project Configurations  
+## Create and modify project configurations  
 
 #### To create a project configuration  
 
@@ -85,7 +85,7 @@ You can create several build configurations for a solution. For example, you can
 
 5.  Select **Rename**, and then enter a new name.  
 
-## Creating and Modifying Solution-wide Build Configurations  
+## Create and modify solution-wide build configurations  
 
 #### To create a solution-wide build configuration  
 
@@ -119,10 +119,10 @@ You can create several build configurations for a solution. For example, you can
 
 2.  In the **Active solution configuration** drop-down list, select the configuration you want.  
 
-3.  In the **Project contexts** pane, for every project, select the **Configuration** and **Platform** you want, and select whether to **Build** it and whether to **Deploy** it..  
+3.  In the **Project contexts** pane, for every project, select the **Configuration** and **Platform** you want, and select whether to **Build** it and whether to **Deploy** it.
 
-## See Also  
- [Understanding Build Configurations](../ide/understanding-build-configurations.md)   
- [Building and Cleaning Projects and Solutions in Visual Studio](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)   
- [Managing Project and Solution Properties](managing-project-and-solution-properties.md)
+## See also  
+ [Understand build configurations](../ide/understanding-build-configurations.md)   
+ [Build and clean projects and solutions in Visual Studio](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)   
+ [Manage project and solution properties](managing-project-and-solution-properties.md)
 

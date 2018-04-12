@@ -15,7 +15,7 @@ manager: ghogen
 ---
 # How to: Create item templates
 
-This topic shows you how to create an item template by using the **Export Template Wizard**. If your template will consist of multiple files, see [How to: Create Multi-file Item Templates](../ide/how-to-create-multi-file-item-templates.md).
+This topic shows you how to create an item template by using the **Export Template Wizard**. If your template will consist of multiple files, see [How to: Create multi-file item templates](../ide/how-to-create-multi-file-item-templates.md).
 
 ## To add a user item template to the Add New Item dialog box
 
@@ -25,7 +25,7 @@ This topic shows you how to create an item template by using the **Export Templa
 
 1. Modify the code file to indicate where parameter replacement should take place. For more information, see [How to: Substitute parameters in a template](../ide/how-to-substitute-parameters-in-a-template.md).
 
-1. On the **Project** menu, choose **Export Template..**.
+1. On the **Project** menu, choose **Export Template**.
 
 1. On the **Choose Template Type** page, choose **Item Template**, select the project that contains the item, and then choose **Next**.
 
@@ -35,13 +35,13 @@ This topic shows you how to create an item template by using the **Export Templa
 
 1. On the **Select Template Options** page, enter the template name and optional description, icon image and preview image, and then choose **Finish**.
 
-    The files for the template are added to a .zip file and copied to the directory you specified in the wizard. The default location is %USERPROFILE%\Documents\Visual Studio \<version\>\My Exported Templates.
+    The files for the template are added to a .zip file and copied to the directory you specified in the wizard. The default location is *%USERPROFILE%\Documents\Visual Studio \<version\>\My Exported Templates*.
 
 1. If you did not select the option **Automatically import the template into Visual Studio** in the **Export Template Wizard**, locate the exported template and copy it to the user item template directory. The default location is %USERPROFILE%\Documents\Visual Studio \<version\>\Templates\ItemTemplates.
 
 1. Close Visual Studio and then reopen it.
 
-1. Create a new project, or open an existing project, and then choose **Project** > **Add New Item...** or press **Ctrl** + **Shift** + **A**.
+1. Create a new project, or open an existing project, and then choose **Project** > **Add New Item** or press **Ctrl** + **Shift** + **A**.
 
    The item template appears in the **Add New Item** dialog box. If you added a description in the **Export Template Wizard**, the description appears on the right side of the dialog box.
 
@@ -71,9 +71,9 @@ You can now add an item based on this template to a Universal Windows project fr
 
 You can specify that your template should only appear for only certain project subtypes, such as Windows, Office, Database, or Web.
 
-1. Locate the ProjectType element in the .vstemplate file for the item template.
+1. Locate the `ProjectType` element in the .vstemplate file for the item template.
 
-1. Add a [ProjectSubType](../extensibility/projectsubtype-element-visual-studio-templates.md) element immediately after the ProjectType element.
+1. Add a [ProjectSubType](../extensibility/projectsubtype-element-visual-studio-templates.md) element immediately after the `ProjectType` element.
 
 1. Set the text value of the element to one of the following values:
 
@@ -102,7 +102,7 @@ The following example shows an item template for **Office** projects.
 </VSTemplate>
 ```
 
-## To manually create an item template without using the Export Template Wizard
+## To manually create an item template without using the Export Template wizard
 
 In some cases you may want to create an item template manually, from scratch.
 
@@ -110,7 +110,7 @@ In some cases you may want to create an item template manually, from scratch.
 
 1. Modify the project item until it is ready to be saved as a template.
 
-1. Modify the code file to indicate where parameter replacement should occur, if anywhere. For more information about parameter replacement, see [How to: Substitute Parameters in a Template.](../ide/how-to-substitute-parameters-in-a-template.md)
+1. Modify the code file to indicate where parameter replacement should occur, if anywhere. For more information about parameter replacement, see [How to: Substitute parameters in a template.](../ide/how-to-substitute-parameters-in-a-template.md)
 
 1. Create an XML file and save it with a .vstemplate file extension in the same directory as your project item file.
 
@@ -118,12 +118,12 @@ In some cases you may want to create an item template manually, from scratch.
 
 1. Save the .vstemplate file and close it.
 
-1. In Windows Explorer, select the files you want to include in your template, right-click the selection, and choose **Send to** > **Compressed (zipped) folder**. The files that you selected are compressed into a .zip file.
+1. In **Windows Explorer**, select the files you want to include in your template, right-click the selection, and choose **Send to** > **Compressed (zipped) folder**. The files that you selected are compressed into a .zip file.
 
-1. Copy the .zip file and paste it in the user item template location. In Visual Studio 2017, the default directory is %USERPROFILE%\Documents\Visual Studio 2017\Templates\ItemTemplates. For more information, see [How to: Locate and Organize Project and Item Templates](../ide/how-to-locate-and-organize-project-and-item-templates.md).
+1. Copy the .zip file and paste it in the user item template location. In Visual Studio 2017, the default directory is %USERPROFILE%\Documents\Visual Studio 2017\Templates\ItemTemplates. For more information, see [How to: Locate and organize project and item templates](../ide/how-to-locate-and-organize-project-and-item-templates.md).
 
 ## See also
 
-[Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)  
-[How to: Create Multi-file Item Templates](../ide/how-to-create-multi-file-item-templates.md)  
-[Visual Studio Template Schema Reference (Extensibility)](../extensibility/visual-studio-template-schema-reference.md)
+[Create project and item templates](../ide/creating-project-and-item-templates.md)  
+[How to: Create multi-file item templates](../ide/how-to-create-multi-file-item-templates.md)  
+[Visual Studio template schema reference (Extensibility)](../extensibility/visual-studio-template-schema-reference.md)
