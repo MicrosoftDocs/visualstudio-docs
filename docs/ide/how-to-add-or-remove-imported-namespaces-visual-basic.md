@@ -1,5 +1,5 @@
 ---
-title: "How to: Add or Remove Imported Namespaces (Visual Basic) | Microsoft Docs"
+title: "How to: Add or remove imported namespaces (Visual Basic) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/21/2017"
 ms.reviewer: ""
@@ -22,10 +22,10 @@ manager: ghogen
 ms.workload: 
   - "multiple"
 ---
-# How to: Add or Remove Imported Namespaces (Visual Basic)
+# How to: Add or remove imported namespaces (Visual Basic)
 Importing a namespace allows you to use elements from that namespace in your code without fully qualifying the element. For example, if you want to access the `Create` method in the `System.Messaging.MessageQueue` class, you can import the `System.Messaging` namespace and just refer to the element you need in code as `MessageQueue.Create`.  
 
- Imported namespaces are managed on the **References** page of the **Project Designer**. The imports you specify in this dialog box are passed directly to the compiler (`/imports`) and apply to all files in your project. Use the `Imports` statement to use a namespace in a single source code file.  
+ Imported namespaces are managed on the **References** page of the **Project Designer**. The imports you specify in this dialog box are passed directly to the compiler (_/imports_) and apply to all files in your project. Use the `Imports` statement to use a namespace in a single source code file.  
 
 ### To add an imported namespace  
 
@@ -46,12 +46,12 @@ Importing a namespace allows you to use elements from that namespace in your cod
 
 3.  In the **Imported Namespaces** list, clear the check box for the namespace that you wish to remove.  
 
-## User Imports  
+## User imports  
  User imports allow you to import a specific class within a namespace rather than the entire namespace. For example, your application might have an import for the `Systems.Diagnostics` namespace, but the only class within that namespace that you are interested in is the `Debug` class. You can define `System.Diagnostics.Debug` as a user import, and then remove the import for `System.Diagnostics`.  
 
  If you later change you mind and decide that was really the `EventLog` class that you needed, you could enter `System.Diagnostics.EventLog` as a user import and overwrite `System.Diagnostics.Debug` using the update functionality.  
 
-#### To add a user import  
+### To add a user import  
 
 1.  In **Solution Explorer**, double-click the **My Project** node for the project.  
 
@@ -64,7 +64,7 @@ Importing a namespace allows you to use elements from that namespace in your cod
     > [!NOTE]
     >  The **Add user import** button will be disabled if the namespace matches one already in the list; you cannot add an import twice.  
 
-#### To update a user import  
+### To update a user import  
 
 1.  In **Solution Explorer**, double-click the **My Project** node for the project.  
 
@@ -76,5 +76,5 @@ Importing a namespace allows you to use elements from that namespace in your cod
 
 5.  Click the **Update user import** button to update the namespace in the **Imported Namespaces** list.  
 
-## See Also  
- [Managing references in a project](../ide/managing-references-in-a-project.md)
+## See also  
+ [Manage references in a project](../ide/managing-references-in-a-project.md)
