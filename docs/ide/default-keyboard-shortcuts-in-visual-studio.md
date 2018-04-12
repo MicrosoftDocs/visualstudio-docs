@@ -115,7 +115,7 @@ The sections in the following table include commands that are global in that you
 |Debug.RunToCursor|**Ctrl+F10**|  
 |Debug.SetNextStatement|**Ctrl+Shift+F10**|  
 |Debug.ShowCallStackonCodeMap|**Ctrl+Shift+`**|  
-|Debug.ShowNextStatement|**Alt+Num \* **|  
+|Debug.ShowNextStatement|**Alt+Num * **|  
 |Debug.Start|**F5**|  
 |Debug.StartWindowsPhoneApplicationAnalysis|**Alt+F1**|  
 |Debug.StartWithoutDebugging|**Ctrl+F5**|  
@@ -225,17 +225,17 @@ The sections in the following table include commands that are global in that you
 
 |Commands|Keyboard shortcuts|  
 |--------------|------------------------|  
-|**File.Exit|**Alt+F4**|  
-|**File.NewFile|**Ctrl+N**|  
-|**File.NewProject|**Ctrl+Shift+N**|  
-|**File.NewWebSite|**Shift+Alt+N**|  
-|**File.OpenFile|**Ctrl+O**|  
-|**File.OpenProject|**Ctrl+Shift+O**|  
-|**File.OpenWebSite|**Shift+Alt+O**|  
-|**File.Print|**Ctrl+P**|  
-|**File.SaveAll|**Ctrl+Shift+S**|  
-|**File.SaveSelectedItems|**Ctrl+S**|  
-|**File.ViewinBrowser|**Ctrl+Shift+W**|  
+|File.Exit|**Alt+F4**|  
+|File.NewFile|**Ctrl+N**|  
+|File.NewProject|**Ctrl+Shift+N**|  
+|File.NewWebSite|**Shift+Alt+N**|  
+|File.OpenFile|**Ctrl+O**|  
+|File.OpenProject|**Ctrl+Shift+O**|  
+|File.OpenWebSite|**Shift+Alt+O**|  
+|File.Print|**Ctrl+P**|  
+|File.SaveAll|**Ctrl+Shift+S**|  
+|File.SaveSelectedItems|**Ctrl+S**|  
+|File.ViewinBrowser|**Ctrl+Shift+W**|  
 
 ###  <a name="bkmk_help"></a> Help
 
@@ -373,7 +373,7 @@ The sections in the following table include commands that are global in that you
 |View.NavigateBackward|**Ctrl+-**|  
 |View.NavigateForward|**Ctrl+Shift+-**|  
 |View.NextError|**Ctrl+Shift+F12**|  
-|View.Notifications|**Ctrl+W, N*<br /><br /> or<br /><br /> *Ctrl+W, Ctrl+N**|  
+|View.Notifications|**Ctrl+W, N*<br /><br /> or<br /><br /> **Ctrl+W, Ctrl+N**|  
 |View.ObjectBrowser|**Ctrl+Alt+J**|  
 |View.ObjectBrowserGoToSearchCombo|**Ctrl+K, Ctrl+R**|  
 |View.Output|**Ctrl+Alt+O**|  
@@ -740,7 +740,7 @@ The sections in the following table include commands that are global in that you
 |Command|Keyboard Shortcut|  
 |-------------|-----------------------|  
 |Edit.Delete|**Delete**|  
-|**File.Rename|**F2**|  
+|File.Rename|**F2**|  
 |TeamFoundationContextMenus.Commands.GoToTeamExplorerNavigation|**Alt+Home**|  
 |TeamFoundationContextMenus.Commands.GoToTeamExplorerNextSectionContent|**Alt+Down Arrow**|  
 |TeamFoundationContextMenus.Commands.GoToTeamExplorerPageContent|**Alt+0**|  
@@ -1112,8 +1112,8 @@ The sections in the following table include commands that are global in that you
 |Design.ZoomIn|**Ctrl+Alt+=**|  
 |Design.ZoomOut|**Ctrl+Alt+-**|  
 |Designer options|**Ctrl+Shift+;**|  
-|**Format.EditText|**F2**|  
-|**Format.ResetLayout.All|**Ctrl+Shift+R**|  
+|Format.EditText|**F2**|  
+|Format.ResetLayout.All|**Ctrl+Shift+R**|  
 |Run project code|**Ctrl+F9**|  
 |Timeline.Hide (Blend only)|**Ctrl+H**|  
 |Timeline.Lock (Blend only)|**Ctrl+L**|  

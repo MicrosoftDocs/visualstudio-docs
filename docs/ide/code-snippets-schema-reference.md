@@ -156,7 +156,7 @@ There are three attributes available for the Code element:
 |[CodeSnippets element](../ide/code-snippets-schema-reference.md#codesnippets)|Root element of the code snippet XML schema.|  
   
 ##  <a name="codesnippets"></a> CodeSnippets element  
- Groups [CodeSnippet element](../ide/code-snippets-schema-reference.md#codesnippet)elements. The `CodeSnippets` element is the root element of the code snippet XML schema.  
+ Groups [CodeSnippet](../ide/code-snippets-schema-reference.md#codesnippet) elements. The `CodeSnippets` element is the root element of the code snippet XML schema.  
   
 ```xml  
 <CodeSnippets>  
@@ -285,7 +285,7 @@ There are three attributes available for the Code element:
  A text value is optional. This text specifies the URL to visit for more information about a code snippet.  
   
 ##  <a name="id"></a> ID element  
- Specifies a unique identifier for a `Literal` or `Object` element. No two literals or objects in the same code snippet can have the same text value in their `ID` elements.Literals and objects cannot contain an `ID` element with a value of end. The value `$end$` is reserved, and is used to mark the location to place the cursor after the code snippet is inserted.  
+ Specifies a unique identifier for a `Literal` or `Object` element. No two literals or objects in the same code snippet can have the same text value in their `ID` elements. Literals and objects cannot contain an `ID` element with a value of end. The value `$end$` is reserved, and is used to mark the location to place the cursor after the code snippet is inserted.  
   
 ```xml  
 <ID>  
