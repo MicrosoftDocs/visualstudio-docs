@@ -8,7 +8,7 @@ ms.suite: ""
 ms.technology:
   - "vs-acquisition"
 ms.tgt_pltfrm: ""
-ms.topic: "conceptual"
+ms.topic: "troubleshooting"
 helpviewer_keywords:
   - "network installation, Visual Studio"
   - "administrator guide, Visual Studio"
