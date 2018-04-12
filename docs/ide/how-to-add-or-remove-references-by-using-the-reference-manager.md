@@ -25,7 +25,7 @@ ms.workload:
 ---
 # How to: Add or remove references by using the Reference Manager
 
-You can use the **Reference Manager** dialog box to add and manage references to components that you, Microsoft, or another company developed. If you're developing a Universal Windows app, your project automatically references all of the correct Windows SDK DLLs. If you are developing a .NET application, your project automatically references _mscorlib.dll_. Some .NET APIs are exposed in components that you have to add manually. References to COM components or custom components have to be added manually.
+You can use the **Reference Manager** dialog box to add and manage references to components that you, Microsoft, or another company developed. If you're developing a Universal Windows app, your project automatically references all of the correct Windows SDK DLLs. If you are developing a .NET application, your project automatically references *mscorlib.dll*. Some .NET APIs are exposed in components that you have to add manually. References to COM components or custom components have to be added manually.
 
 ## Reference Manager dialog box
 
@@ -55,9 +55,9 @@ The **Reference Manager** dialog box shows different categories on the left side
 
 The **Assemblies** tab lists all .NET Framework assemblies that are available for referencing. The **Assemblies** tab doesn't list any assemblies from the global assembly cache (GAC) because assemblies in the GAC are part of the run-time environment. If you deploy or copy an application that contains a reference to an assembly that's registered in the GAC, the assembly won't be deployed or copied with the application, regardless of the **Copy Local** setting. For more information, see [Manage references in a project](../ide/managing-references-in-a-project.md).
 
-When you manually add a reference to any of the `EnvDTE` namespaces (`EnvDTE`, `EnvDTE80`, `EnvDTE90`, `EnvDTE90a`, or `EnvDTE100`), set the **Embed Interop Types** property of the reference to **False** in the **Properties** window. Setting this property to **True** can cause build issues because of certain EnvDTE properties that can't be embedded.
+When you manually add a reference to any of the EnvDTE namespaces (<xref:EnvDTE>, <xref:EnvDTE80>, <xref:EnvDTE90>, <xref:EnvDTE90a>, or <xref:EnvDTE100>), set the **Embed Interop Types** property of the reference to **False** in the **Properties** window. Setting this property to **True** can cause build issues because of certain EnvDTE properties that can't be embedded.
 
-All desktop projects contain an implicit reference to `mscorlib`. [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] projects contain an implicit reference to `Microsoft.VisualBasic`. All projects contain an implicit reference to `System.Core`, even if it's removed from the list of references.
+All desktop projects contain an implicit reference to **mscorlib**. [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] projects contain an implicit reference to <xref:Microsoft.VisualBasic>. All projects contain an implicit reference to <xref:System.Core>, even if it's removed from the list of references.
 
 If a project type doesn't support Assemblies, the tab won't appear in the **Reference Manager** dialog box.
 
@@ -123,7 +123,7 @@ Some components in the list may not be shown, depending on the .NET Framework ve
 
    *VersionMinimum* is the lowest .NET Framework version that applies. If *VersionMinimum* is v3.0, folders specified in AssemblyFoldersEx apply to projects that target .NET Framework 3.0 and later.
 
-   *AssemblyLocation* is the directory of the assemblies that you want to appear in the **Add Reference** dialog box, for example, _C:\MyAssemblies\\_.
+   *AssemblyLocation* is the directory of the assemblies that you want to appear in the **Add Reference** dialog box, for example, *C:\MyAssemblies\\*.
 
    Creating the registry key under the HKEY_LOCAL_MACHINE node allows all users to see the assemblies in the specified location in the **Add Reference** dialog box. Creating the registry key under the HKEY_CURRENT_USER node affects only the setting for the current user.
 
@@ -133,7 +133,7 @@ Some components in the list may not be shown, depending on the .NET Framework ve
 
 The **Projects** tab lists all compatible projects within the current solution, in the **Solution** sub-tab.
 
-A project can reference another project that targets a different version of the .NET Framework. For example, you could create a project that targets the [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] but that references an assembly that's been built for the .NET Framework 2. However, the .NET Framework 2 project can't reference a [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] project. For more information, see [Multi-target overview](../ide/visual-studio-multi-targeting-overview.md).
+A project can reference another project that targets a different version of the .NET Framework. For example, you could create a project that targets the [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] but that references an assembly that's been built for the .NET Framework 2. However, the .NET Framework 2 project can't reference a [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] project. For more information, see [Multi-targeting overview](../ide/visual-studio-multi-targeting-overview.md).
 
 A project that targets the [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] is incompatible with a project that targets the [!INCLUDE[net_client_v40_long](../deployment/includes/net_client_v40_long_md.md)].
 
@@ -147,7 +147,7 @@ The **Windows** tab lists all SDKs that are specific to platforms on which Windo
 
 You can generate a WinMD file in Visual Studio in two ways:
 
-- **Windows 8.x Store app managed projects**: Windows 8.x Store app projects can output WinMD binaries by setting **Project Properties** > **Output Type = WinMD File**. The WinMD filename must be the superset namespace of all the namespaces that exist within it. For example, if a project consists of namespaces `A.B` and `A.B.C`, the possible names for its outputted WinMD are _A.winmd_ and _A.B.winmd_. If a user enters a **Project Properties** > **Assembly Name** or **Project Properties** > **Namespace** value that's disjoint from the set of namespaces in the project or there is no superset namespace within a project, a build warning is generated: 'A.winmd' isn't a valid .winmd file name for this assembly. All types within a Windows Metadata file must exist in a sub namespace of the file name. Types that don't exist in a sub namespace of the file name won't be able to be located at runtime. In this assembly, the smallest common namespace is `CSWSClassLibrary1`. A desktop Visual Basic or C# project can only consume WinMDs that are generated by using the Windows 8 SDKs, which are known as first-party WinMDs, and can't generate WinMDs.
+- **Windows 8.x Store app managed projects**: Windows 8.x Store app projects can output WinMD binaries by setting **Project Properties** > **Output Type = WinMD File**. The WinMD filename must be the superset namespace of all the namespaces that exist within it. For example, if a project consists of namespaces `A.B` and `A.B.C`, the possible names for its outputted WinMD are *A.winmd* and *A.B.winmd*. If a user enters a **Project Properties** > **Assembly Name** or **Project Properties** > **Namespace** value that's disjoint from the set of namespaces in the project or there is no superset namespace within a project, a build warning is generated: 'A.winmd' isn't a valid .winmd file name for this assembly. All types within a Windows Metadata file must exist in a sub namespace of the file name. Types that don't exist in a sub namespace of the file name won't be able to be located at runtime. In this assembly, the smallest common namespace is `CSWSClassLibrary1`. A desktop Visual Basic or C# project can only consume WinMDs that are generated by using the Windows 8 SDKs, which are known as first-party WinMDs, and can't generate WinMDs.
 
 - **Windows 8.x Store app native projects**: A native WinMD file consists of only metadata. Its implementation exists in a separate DLL file. One can produce native binaries by choosing the Windows Runtime Component project template in the **New Project** dialog box or by starting from a blank project and modifying the project properties to generate a WinMD file. If the project consists of disjoint namespaces, a build error will tell the user to combine their namespaces or run the MSMerge tool.
 
@@ -167,7 +167,7 @@ In the desktop projects, the **Core** subgroup doesn't appear by default. You ca
 </PropertyGroup>
 ```
 
-Make sure to select the **Windows** check box on this subgroup. You should then be able to use Windows Runtime elements. However, you'll also want to add `System.Runtime`, in which the Windows Runtime defines some standard classes and interfaces, such as `IEnumerable`, that are used throughout the Windows Runtime libraries. For information about how to add `System.Runtime`, see [Managed desktop apps and Windows Runtime](http://msdn.microsoft.com/library/windows/apps/jj856306.aspx#consuming_standard_windows_runtime_types).
+Make sure to select the **Windows** check box on this subgroup. You should then be able to use Windows Runtime elements. However, you'll also want to add <xref:System.Runtime>, in which the Windows Runtime defines some standard classes and interfaces, such as <xref:IEnumerable>, that are used throughout the Windows Runtime libraries. For information about how to add <xref:System.Runtime>, see [Managed desktop apps and Windows Runtime](http://msdn.microsoft.com/library/windows/apps/jj856306.aspx#consuming_standard_windows_runtime_types).
 
 ### Extensions subgroup
 
@@ -190,7 +190,7 @@ If a project type doesn't support **COM**, the tab doesn't appear in the **Refer
 
 You can use the **Browse** button to browse for a component in the file system.
 
-A project can reference a component that targets a different version of the .NET Framework. For example, you could create an application that targets the .NET Framework 4.7, which references a component that targets the .NET Framework 4. For more information, see [Multi-target overview](../ide/visual-studio-multi-targeting-overview.md).
+A project can reference a component that targets a different version of the .NET Framework. For example, you could create an application that targets the .NET Framework 4.7, which references a component that targets the .NET Framework 4. For more information, see [Multi-targeting overview](../ide/visual-studio-multi-targeting-overview.md).
 
 You should avoid adding file references to outputs of another project in the same solution, because this tactic may cause compilation errors. Instead, use the **Solution** tab of the **Reference Manager** dialog box to create project-to-project references. This makes team development easier by enabling better management of the class libraries that you create in your projects. For more information, see [Troubleshoot broken references](../ide/troubleshooting-broken-references.md).
 

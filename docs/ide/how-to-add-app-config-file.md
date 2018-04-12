@@ -19,12 +19,12 @@ ms.workload:
 ---
 # How to: Add an application configuration file to a C# project
 
-By adding an application configuration file (_app.config_ file) to a C# project, you can customize how the common language runtime locates and loads assembly files. For more information about application configuration files, see [How the runtime locates assemblies (.NET Framework)](/dotnet/framework/deployment/how-the-runtime-locates-assemblies).
+By adding an application configuration file (*app.config* file) to a C# project, you can customize how the common language runtime locates and loads assembly files. For more information about application configuration files, see [How the runtime locates assemblies (.NET Framework)](/dotnet/framework/deployment/how-the-runtime-locates-assemblies).
 
 > [!NOTE]
-> UWP apps don't contain an _app.config_ file.
+> UWP apps don't contain an *app.config* file.
 
-When you build your project, the development environment automatically copies your _app.config_ file, changes the file name of the copy to match your executable, and then moves the copy to the **bin** directory.
+When you build your project, the development environment automatically copies your *app.config* file, changes the file name of the copy to match your executable, and then moves the copy to the **bin** directory.
 
 ## To add an application configuration file to a C# project
 
@@ -36,7 +36,7 @@ When you build your project, the development environment automatically copies yo
 
 1. In the **Name** text box, enter a name, and then choose the **Add** button.
 
-     A file named _app.config_ is added to your project.
+     A file named *app.config* is added to your project.
 
 ## See also
 

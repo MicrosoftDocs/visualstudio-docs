@@ -25,7 +25,7 @@ ms.workload:
 # How to: Add or remove imported namespaces (Visual Basic)
 Importing a namespace allows you to use elements from that namespace in your code without fully qualifying the element. For example, if you want to access the `Create` method in the `System.Messaging.MessageQueue` class, you can import the `System.Messaging` namespace and just refer to the element you need in code as `MessageQueue.Create`.  
 
- Imported namespaces are managed on the **References** page of the **Project Designer**. The imports you specify in this dialog box are passed directly to the compiler (_/imports_) and apply to all files in your project. Use the `Imports` statement to use a namespace in a single source code file.  
+ Imported namespaces are managed on the **References** page of the **Project Designer**. The imports you specify in this dialog box are passed directly to the compiler (*/imports*) and apply to all files in your project. Use the `Imports` statement to use a namespace in a single source code file.  
 
 ### To add an imported namespace  
 
