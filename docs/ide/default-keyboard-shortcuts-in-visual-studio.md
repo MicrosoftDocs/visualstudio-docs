@@ -115,7 +115,7 @@ The sections in the following table include commands that are global in that you
 |Debug.RunToCursor|**Ctrl+F10**|  
 |Debug.SetNextStatement|**Ctrl+Shift+F10**|  
 |Debug.ShowCallStackonCodeMap|**Ctrl+Shift+`**|  
-|Debug.ShowNextStatement|**Alt+Num\***|  
+|Debug.ShowNextStatement|**Alt+Num** *|  
 |Debug.Start|**F5**|  
 |Debug.StartWindowsPhoneApplicationAnalysis|**Alt+F1**|  
 |Debug.StartWithoutDebugging|**Ctrl+F5**|  
