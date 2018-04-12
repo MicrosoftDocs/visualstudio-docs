@@ -36,13 +36,21 @@ dev_langs:
 ms.workload: 
   - "multiple"
 ---
-# Culture-Specific Classes for Global Windows Forms and Web Forms
+# Culture-specific classes for global Windows forms and web forms
 
-Each culture has different conventions for displaying dates, time, numbers, currency, and other information. The <xref:System.Globalization> namespace contains classes that can be used to modify how culture-specific values are displayed, such as <xref:System.Globalization.DateTimeFormatInfo>, **Calendar**, and <xref:System.Globalization.NumberFormatInfo>.
+Each culture has different conventions for displaying dates, time, numbers, currency, and other information. The <xref:System.Globalization> namespace contains classes that can be used to modify how culture-specific values are displayed, such as:
+- <xref:System.Globalization.DateTimeFormatInfo>
+- **Calendar**
+- <xref:System.Globalization.NumberFormatInfo>
 
-## Using the Culture Setting
+## Using the culture setting
 
-Use the culture setting, stored either in the application or in the **Regional Options** control panel, to automatically determine the culture conventions at run time and format the information accordingly. For more information on setting the culture, see [How to: Set the Culture and UI Culture for ASP.NET Web Page Globalization](http://msdn.microsoft.com/Library/76091f86-f967-4687-a40f-de87bd8cc9a0). Classes that automatically format information according to the culture setting are called culture-specific. Some culture-specific methods are <xref:System.IFormattable.ToString%2A?displayProperty=fullName>, <xref:System.Console.WriteLine%2A?displayProperty=fullName>, and <xref:System.String.Format%2A?displayProperty=fullName>. Some culture-specific functions (in the Visual Basic language) are `MonthName` and `WeekDayName`.
+Use the culture setting, stored either in the app or in the **Regional Options** control panel, to determine the culture conventions at run time and format information accordingly. For more information on setting the culture, see [How to: Set the culture and UI culture for ASP.NET web page globalization](http://msdn.microsoft.com/Library/76091f86-f967-4687-a40f-de87bd8cc9a0). Classes that automatically format information according to the culture setting are called *culture-specific*. Some culture-specific methods are 
+- <xref:System.IFormattable.ToString%2A?displayProperty=fullName>
+- <xref:System.Console.WriteLine%2A?displayProperty=fullName>
+- <xref:System.String.Format%2A?displayProperty=fullName>
+
+Some culture-specific functions (in the Visual Basic language) are `MonthName` and `WeekDayName`.
 
 For example, the following code shows how you can use the <xref:System.IFormattable.ToString%2A> method to format currency for the current culture:
 
@@ -64,11 +72,11 @@ int myInt = 100;
 Console.WriteLine(myInt.ToString("C", Thread.CurrentThread.CurrentCulture));  
 ```
 
-If the culture is set to "fr-FR", you will see this in the output window:  
+If the culture is set to "fr-FR", you will see the following in the output window:  
 
 `100,00`
 
-If the culture is set to "en-US", you will see this in the output window:  
+If the culture is set to "en-US", you will see the following in the output window:  
 
 `$100.00`
 
@@ -80,4 +88,4 @@ If the culture is set to "en-US", you will see this in the output window:
 <xref:System.Globalization.Calendar>   
 <xref:System.Console.WriteLine%2A?displayProperty=fullName>   
 <xref:System.String.Format%2A?displayProperty=fullName>   
-[Globalizing and Localizing Applications](../ide/globalizing-and-localizing-applications.md)
+[Globalizing and localizing applications](../ide/globalizing-and-localizing-applications.md)

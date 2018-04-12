@@ -20,7 +20,7 @@ ms.workload:
 # Finding references in your code  
 You can use the **Find All References** command to find where particular code elements are referenced throughout your codebase. The **Find All References** command is available on the context (right-click) menu of the element you want to find references to. Or, if you are a keyboard user, press **Shift + F12**.  
 
-The results appear in a tool window named **'*element*' references**, where *element* is the name of the item you are searching for. A toolbar in the **references** window enables you to:  
+The results appear in a tool window named **<element> references**, where *element* is the name of the item you are searching for. A toolbar in the **references** window enables you to:  
 - Change the scope of the search in a drop-down list box. You can choose to look only in changed documents all the way up to the entire solution.  
 - Copy the selected referenced item by choosing the **Copy** button.  
 - Choose buttons to go to the next or previous location in the list, or press the **F8** and **Shift + F8** keys to do so.  
@@ -33,18 +33,18 @@ You can also hover the mouse over any search result to see a preview of the refe
 
 ![Find All References tool window](../ide/media/vside_findallreferences.png)  
 
-### Navigate to references
+## Navigate to references
 You can use the following methods to navigate to references in the **references** window:  
 
 - Press **F8** to go to the next reference, or **Shift + F8** to go to the previous reference.  
 - Press the **Enter** key on a reference, or double-click it, to go to it in code.  
 - On the context menu of a reference, choose the **Go To Previous Location** or **Go To Next Location** commands.  
-- Choose the **UP arrow** and **DOWN arrow** keys (if they are enabled in the Options dialog box). To enable this functionality, on the menu bar, choose **Tools**, **Options**, **Environment**, **Tabs and Windows**, **Preview Tab**, and then select the **Allow new files to be opened in the preview tab** and **Preview selected files in Find Results** boxes.  
+- Choose the **Up Arrow** and **Down Arrow** keys (if they are enabled in the **Options** dialog box). To enable this functionality, on the menu bar, choose **Tools** > **Options** > **Environment** > **Tabs and Windows** > **Preview Tab**, and then select the **Allow new files to be opened in the preview tab** and **Preview selected files in Find Results** boxes.  
 
-### Change reference groupings  
+## Change reference groupings  
 By default, references are grouped by project, then by definition. However, you can change this grouping order by changing the setting in the **Group by:** drop-down list box on the toolbar. For example, you can change it from the default setting of **Project then definition** to **Definition then project**, as well to other settings.  
 
 **Definition** and **Project** are the two default groupings used, but you can add others by choosing the **Grouping** command on the selected item's context menu. Adding more groupings can be helpful if your solution has a lot of files and paths.  
 
 ## See also  
-[Navigating Code](../ide/navigating-code.md)  
+[Navigating code](../ide/navigating-code.md)  

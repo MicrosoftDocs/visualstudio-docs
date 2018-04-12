@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "automate"
   - "installation"
   - "command-line"
-author: "tglee"
+author: "TerryGLee"
 ms.author: "tglee"
 manager: douge
 ms.workload:
