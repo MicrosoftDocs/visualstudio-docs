@@ -3,7 +3,7 @@ title: "How to: Exclude Files from the Build | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "MSBuild, wildcards"
   - "MSBuild, excluding files"

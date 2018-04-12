@@ -1,7 +1,7 @@
 ---
 title: "Analyzing Threshold Rule Violations in Load Tests in Visual Studio | Microsoft Docs"
 ms.date: "10/19/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords:
   - "vs.test.load.monitor.threshholdresult"
 helpviewer_keywords:

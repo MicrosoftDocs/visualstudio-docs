@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-sdk"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "TaskScheduler class [.NET Framework debug engines]"
   - "debug engines, TaskScheduler class [.NET Framework]"

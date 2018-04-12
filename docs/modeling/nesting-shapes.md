@@ -2,7 +2,7 @@
 title: "Nesting Shapes | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 author: gewarren
 ms.author: gewarren
 manager: douge

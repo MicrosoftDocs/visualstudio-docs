@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-sdk"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "source control [Visual Studio SDK], supporting"
 ms.assetid: 567acde3-354e-4f39-8d99-0ef86c103396

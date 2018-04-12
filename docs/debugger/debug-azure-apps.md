@@ -3,7 +3,7 @@ title: "Debug Azure services | Microsoft Docs"
 ms.date: "09/14/2017"
 ms.technology: 
   - "vs-ide-debug"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "debugger"
 ms.assetid: 3d434de3-ee5f-419d-9a94-ac4ac02d635b

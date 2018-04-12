@@ -2,7 +2,7 @@
 title: "Warnings and errors | Microsoft IntelliTest Developer Test Tool | Microsoft Docs"
 ms.date: "05/02/2017"
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IntelliTest, Warnings and errors"
 ms.author: gewarren

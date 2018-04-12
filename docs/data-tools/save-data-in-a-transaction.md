@@ -2,7 +2,7 @@
 title: "Walkthrough: Save data in a transaction | Microsoft Docs"
 ms.custom: ""
 ms.date: "09/08/2017"
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"

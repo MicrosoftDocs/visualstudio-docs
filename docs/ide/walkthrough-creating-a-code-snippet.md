@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "10/27/2017"
 ms.technology: 
   - "vs-ide-general"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "code snippets, creating"
   - "code snippets, shortcut"

@@ -2,7 +2,7 @@
 title: "Use DataRelation to create relationships between datasets | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vbData.Microsoft.VSDesigner.DataSource.DesignRelation"
   - "vbdata.Microsoft.VSDesigner.DataSource.DesignRelation"

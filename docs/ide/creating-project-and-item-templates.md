@@ -3,7 +3,7 @@ title: "Visual Studio templates for projects and files | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/02/2018"
 ms.technology: vs-ide-general
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "templates [Visual Studio], project"
   - "templates [Visual Studio], item"

@@ -2,7 +2,7 @@
 title: "How to: Save and Edit Connection Strings | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: f8ef3a2c-029c-423b-9d9e-a4f1add4f640
 author: "gewarren"
 ms.author: "gewarren"

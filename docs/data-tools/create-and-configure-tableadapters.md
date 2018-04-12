@@ -2,7 +2,7 @@
 title: "Create and configure TableAdapters | Microsoft Docs"
 ms.custom: ""
 ms.date: "09/01/2017"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "table adapters, creating"
   - "creating TableAdapters"

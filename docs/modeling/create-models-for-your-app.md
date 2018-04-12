@@ -3,7 +3,7 @@ title: "Create models for your app | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: vs-ide-modeling
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.teamarch.common.commentlink.properties"
   - "vs.teamarch.UMLModelExplorer.dependency"

@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-debug"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Tree menu commands"
 ms.assetid: ffc1b893-17b1-477f-92a1-e4a59261ca1a

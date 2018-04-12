@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "07/17/2017"
 ms.technology: 
   - "vs-ide-debug"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "JavaScript Console commands [UWP apps]"
   - "JavaScript debugging, console [UWP apps]"

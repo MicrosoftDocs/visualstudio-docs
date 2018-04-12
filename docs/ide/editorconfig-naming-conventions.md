@@ -2,7 +2,7 @@
 title: ".NET Naming Conventions For EditorConfig files | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/20/2017"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "naming conventions [EditorConfig]"
   - "EditorConfig naming conventions"

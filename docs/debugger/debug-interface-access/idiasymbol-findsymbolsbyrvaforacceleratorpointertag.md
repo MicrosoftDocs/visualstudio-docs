@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-debug"
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "C++"
 ms.assetid: 024ccd78-5867-4ca7-bc26-548758e9ac53

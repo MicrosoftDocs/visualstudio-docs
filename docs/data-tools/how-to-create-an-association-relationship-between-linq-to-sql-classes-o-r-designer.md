@@ -2,7 +2,7 @@
 title: "How to create an relationship between LINQ to SQL classes using O/R Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 56133e65-81f3-44c3-bc28-ffdd0671a0d2
 author: "gewarren"
 ms.author: "gewarren"

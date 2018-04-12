@@ -2,7 +2,7 @@
 title: "Options, Text Editor, C#, IntelliSense | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.technology: vs-ide-general
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VS.ToolsOptionsPages.Text_Editor.CSharp.Intellisense"
 helpviewer_keywords: 

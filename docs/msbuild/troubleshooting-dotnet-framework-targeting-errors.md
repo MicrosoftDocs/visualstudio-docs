@@ -3,7 +3,7 @@ title: "Troubleshooting .NET Framework Targeting Errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.FrameworkTargetingErrors"
   - "MSBuild.ResolveAssemblyReference.FailedToResolveReferenceBecausePrimaryAssemblyInExclusionList"

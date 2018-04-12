@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
   - "office-development"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "project items [SharePoint development in Visual Studio], creating template wizards"
   - "SharePoint project items, creating template wizards"

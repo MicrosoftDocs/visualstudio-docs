@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-sdk"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "GetScheduledTasksForDebugger method, TaskScheduler class [.NET Framework debug engines]"
 ms.assetid: 7c9b4cde-6e4a-4cef-929f-7d02b1da5762

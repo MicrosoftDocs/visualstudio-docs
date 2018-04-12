@@ -3,7 +3,7 @@ title: "Overriding ToolsVersion Settings | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "MSBuild, overriding ToolsVersion setting"
   - "MSBuild, building solutions with"

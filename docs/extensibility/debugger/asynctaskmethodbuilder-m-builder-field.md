@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-sdk"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "m_builder field, AsyncTaskMethodBuilder structure [.NET Framework debug engines]"
 ms.assetid: bfaf25a2-0f08-413f-b474-9ce0d97c0eeb

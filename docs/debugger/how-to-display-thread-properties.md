@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-debug"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "thread properties"
 ms.assetid: f0e64c0e-cdb3-4ad4-9723-09934166f3a2

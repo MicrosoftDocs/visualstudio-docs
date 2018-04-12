@@ -2,7 +2,7 @@
 title: "How to test a Visual C++ DLL for UWP apps in Visual Studio | Microsoft Docs"
 ms.date: "02/15/2018"
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.author: mblome
 manager: douge
 ms.workload: 

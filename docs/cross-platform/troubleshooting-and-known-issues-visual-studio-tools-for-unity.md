@@ -3,7 +3,7 @@ title: "Troubleshooting and Known Issues (Visual Studio Tools for Unity) | Micro
 ms.custom: ""
 ms.date: "04/10/2018"
 ms.technology: vs-unity-tools
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 8f5db192-8d78-4627-bd07-dbbc803ac554
 author: "conceptdev"
 ms.author: "crdun"

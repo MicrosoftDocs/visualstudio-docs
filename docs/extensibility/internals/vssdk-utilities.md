@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-sdk"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Architecture, Visual Studio Integration"
 ms.assetid: a469208a-cb70-4d87-a79b-d2086fc4fae4

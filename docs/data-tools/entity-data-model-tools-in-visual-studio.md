@@ -2,7 +2,7 @@
 title: "Entity Framework Tools in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 1b06b573-84aa-4458-b3f5-e238df47bf45
 author: "gewarren"
 ms.author: "gewarren"

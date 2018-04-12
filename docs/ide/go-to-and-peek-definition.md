@@ -3,7 +3,7 @@ title: "Viewing type definitions in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/10/2018"
 ms.technology: vs-ide-general
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "code editor, view definition"
   - "go to definition"

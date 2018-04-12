@@ -1,7 +1,7 @@
 ---
 title: "Specify the Percentage of Virtual Users that Use Web Cache Data for load tests in Visual Studio | Microsoft Docs"
 ms.date: "10/19/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "load tests, virtual users"
 ms.assetid: f66d5d43-4121-4487-b27f-d0a0baaf7601

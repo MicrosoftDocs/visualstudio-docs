@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-sdk"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "services, consuming"
 ms.assetid: 1f000020-8fb7-4e39-8e1e-2e38c7fec3d4

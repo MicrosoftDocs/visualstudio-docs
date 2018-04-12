@@ -3,7 +3,7 @@ title: "Toolbox, HTML Tab | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/21/2017"
 ms.technology: vs-ide-general
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.toolbox.html"
 helpviewer_keywords: 

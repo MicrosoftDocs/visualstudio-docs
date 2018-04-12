@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "CA2139"
 ms.assetid: 45a0328a-add7-40f9-8934-dff59beb02b3

@@ -2,7 +2,7 @@
 title: "How to Define a Domain-Specific Language | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.dsltools.dsldesigner.domainrelationship"
   - "vs.dsltools.dsldesigner.domainclass"

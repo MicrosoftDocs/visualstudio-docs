@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-general"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "EnableEditOfLocationField (Visual Studio project templates)"
 ms.assetid: 51a91963-8a3f-4741-928e-bc90c11473bb

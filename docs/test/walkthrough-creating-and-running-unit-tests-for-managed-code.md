@@ -2,7 +2,7 @@
 title: "Walkthrough: Creating and Running Unit Tests for Managed Code in Visual Studio | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "unit tests, walkthrough"
   - "unit tests, creating"

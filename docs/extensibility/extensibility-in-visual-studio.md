@@ -2,7 +2,7 @@
 title: "Extensibility in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 81b0dbe6-ddf3-4899-b09c-a3837037231d
 author: "gregvanl"
 ms.author: "gregvanl"

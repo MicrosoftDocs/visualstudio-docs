@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-sdk"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugBreakpointChecksumRequest2::IsChecksumEnabled"
 ms.assetid: 8b1853b5-745c-4cd6-88a9-ce0673971bb0

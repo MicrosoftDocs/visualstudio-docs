@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "01/23/2018"
 ms.technology: 
   - "vs-ide-debug"
-ms.topic: "article"
+ms.topic: "conceptual"
 author: "carpediemma"
 ms.author: "emrou"
 manager: douge

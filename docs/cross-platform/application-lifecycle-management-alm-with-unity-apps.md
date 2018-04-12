@@ -3,7 +3,7 @@ title: "Application Lifecycle Management (ALM) with Unity Apps | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: vs-unity-tools
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 2dc61e63-9ba2-4c16-b1ad-f46249e576b6
 author: "dantogno"
 ms.author: "v-davian"

@@ -2,7 +2,7 @@
 title: "Walkthrough: Creating a Custom Text Template Host | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "walkthroughs [text templates], custom host"
   - "text templates, custom host walkthrough"

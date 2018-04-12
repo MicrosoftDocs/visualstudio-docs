@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "07/17/2017"
 ms.technology: 
   - "vs-ide-designers"
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VS.XamlDesigner"
   - "VS.DevicePanel"

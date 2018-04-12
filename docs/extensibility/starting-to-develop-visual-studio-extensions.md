@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "09/18/2017"
 ms.technology: 
   - "vs-ide-sdk"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "getting started, Visual Studio integration"
   - "Visual Studio, integration"

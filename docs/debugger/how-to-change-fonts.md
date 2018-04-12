@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-debug"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "fonts, SpyHelp"
 ms.assetid: 3ee22eb9-978f-4efd-a5e0-f071745496ce

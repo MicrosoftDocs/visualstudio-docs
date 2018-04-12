@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "01/02/2018"
 ms.technology: 
   - "vs-ide-general"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Visual Studio templates, creating multi-file item templates"
   - "multi-file item templates"

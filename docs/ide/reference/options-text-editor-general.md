@@ -2,7 +2,7 @@
 title: "Options, Text Editor, General | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.technology: vs-ide-general
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords:
   - "VS.TOOLSOPTIONSPAGES.TEXT_EDITOR.SQL_SERVER_TOOLS.GENERAL"
   - "VS.ToolsOptionsPages.Text_Editor.All_Languages.General"

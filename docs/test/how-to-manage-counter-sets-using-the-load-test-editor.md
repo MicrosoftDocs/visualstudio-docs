@@ -1,7 +1,7 @@
 ---
 title: "Load test counter sets in Visual Studio | Microsoft Docs"
 ms.date: "10/19/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords:
   - "vs.test.load.dialog.countersetmapping"
 helpviewer_keywords:

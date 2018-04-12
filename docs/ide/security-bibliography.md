@@ -3,7 +3,7 @@ title: "Security Bibliography | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: vs-ide-general
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "security [Visual Studio], additional information"
 ms.assetid: 3e839007-c388-4fc4-a6d1-8127cd207750

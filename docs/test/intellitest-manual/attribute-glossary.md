@@ -2,7 +2,7 @@
 title: "Attribute glossary | Microsoft IntelliTest Developer Test Tool | Microsoft Docs"
 ms.date: "05/02/2017"
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IntelliTest, Attribute glossary"
 ms.author: gewarren

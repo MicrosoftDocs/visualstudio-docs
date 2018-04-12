@@ -2,7 +2,7 @@
 title: "Browse and rearrange code maps | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.progression.dgmlgraph.layouthelp"
   - "vs.progression.graphdocument"

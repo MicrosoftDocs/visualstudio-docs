@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "10/26/2017"
 ms.technology: 
   - "vs-ide-sdk"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "localize package"
   - "localize extension"

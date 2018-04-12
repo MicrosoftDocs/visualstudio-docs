@@ -3,7 +3,7 @@ title: "MSBuild Inline Tasks | Microsoft Docs"
 ms.custom: ""
 ms.date: "09/21/2017"
 ms.technology: msbuild
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "MSBuild, tasks"
 ms.assetid: e72e6506-4a11-4edf-ae8d-cfb5a3b9d8a0

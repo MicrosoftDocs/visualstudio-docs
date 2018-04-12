@@ -4,7 +4,7 @@ ms.custom: "H1Hack27Feb2017"
 ms.date: "05/18/2017"
 ms.technology: 
   - "vs-ide-debug"
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 238bb4ec-bb00-4c2b-986e-18ac278f3959
 author: "mikejo5000"
 ms.author: "mikejo"

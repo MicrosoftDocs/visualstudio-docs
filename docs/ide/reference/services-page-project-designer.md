@@ -3,7 +3,7 @@ title: "Services Page, Project Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2018"
 ms.technology: vs-ide-general
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vb.ProjectPropertiesServices"
 helpviewer_keywords: 

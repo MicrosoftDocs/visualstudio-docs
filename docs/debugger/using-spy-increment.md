@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-debug"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Using Spy++"
 ms.assetid: 02769bfa-5679-4ee2-8c6b-27876edb4e8c

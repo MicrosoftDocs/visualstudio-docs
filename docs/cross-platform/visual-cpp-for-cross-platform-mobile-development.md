@@ -3,7 +3,7 @@ title: "Visual C++ for Cross-Platform Mobile Development | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: vs-ide-mobile
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "C++"
 ms.assetid: 0bb872d6-981b-4c96-9143-fcec5336bf0d

@@ -2,7 +2,7 @@
 title: "Configure Service Reference Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "msvse_wcf.dlg.ConfigureServiceReference"
 helpviewer_keywords: 

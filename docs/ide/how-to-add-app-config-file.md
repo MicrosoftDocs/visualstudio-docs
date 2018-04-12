@@ -3,7 +3,7 @@ title: "How to add an app.config file to a project in Visual Studio | Microsoft 
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: vs-ide-general
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
 helpviewer_keywords: 

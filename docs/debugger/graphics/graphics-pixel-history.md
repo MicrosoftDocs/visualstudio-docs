@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-debug"
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.graphics.pixelhistory"
 ms.assetid: 0a2cbde5-1ad9-487e-857c-a3664158c268

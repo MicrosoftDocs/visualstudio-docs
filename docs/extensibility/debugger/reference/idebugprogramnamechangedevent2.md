@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-sdk"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugProgramNameChangedEvent2 interface"
 ms.assetid: be1f1cd5-0b2f-435c-a052-dca28a7c978d

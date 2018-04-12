@@ -3,7 +3,7 @@ title: "Security in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/17/2017"
 ms.technology:  vs-ide-general
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "code access security, coding errors"
   - "security [.NET Framework], about security"

@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-sdk"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "file extensions, specifying file handlers"
 ms.assetid: e3de4730-a95c-465a-b3b2-92ca85364ad7

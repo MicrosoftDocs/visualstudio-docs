@@ -3,7 +3,7 @@ title: "How to: Build the Same Source Files with Different Options | Microsoft D
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "source files, building with different options"
   - "MSBuild, properties"

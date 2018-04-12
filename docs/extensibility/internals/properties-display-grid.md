@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-sdk"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "properties [Visual Studio SDK], grid"
 ms.assetid: 318e41b0-acf5-4842-b85e-421c9d5927c5

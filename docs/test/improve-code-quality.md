@@ -2,7 +2,7 @@
 title: "Visual Studio testing tools | Microsoft Docs"
 ms.date: 03/16/2018
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "testing tools [Visual Studio]"
   - "unit tests [Visual Studio]"

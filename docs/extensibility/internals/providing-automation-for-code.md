@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-sdk"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "CodeModel object"
 ms.assetid: 21cb3e63-f25c-404b-bc1d-a32ad0fdd4d5

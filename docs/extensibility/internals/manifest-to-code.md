@@ -2,7 +2,7 @@
 title: "Manifest to Code | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 17ecacea-397d-4a97-b003-01bd5d56e936
 author: "gregvanl"
 ms.author: "gregvanl"

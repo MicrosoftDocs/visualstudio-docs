@@ -1,7 +1,7 @@
 ---
 title: "Intellitrace data in Visual Studio | Microsoft Docs"
 ms.date: "10/13/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "IntelliTrace, configuring test settings"
   - "Diagnostic Data Adapter, InteliTrace"

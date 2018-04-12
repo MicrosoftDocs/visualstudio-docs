@@ -2,7 +2,7 @@
 title: "Visual Studio unrecoverable process error | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/23/2017"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "editor"
 author: "gewarren"

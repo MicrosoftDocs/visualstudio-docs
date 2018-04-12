@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "12/12/2017"
 ms.technology:
   - "vs-ide-code-analysis"
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords:
   - "vs.codemetrics.output"
 helpviewer_keywords:

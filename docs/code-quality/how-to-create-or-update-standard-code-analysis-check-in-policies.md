@@ -3,7 +3,7 @@ title: "How to: Create or Update Standard Code Analysis Check-in Policies | Micr
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: vs-ide-code-analysis
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.codeanalysis.policyeditor"
 helpviewer_keywords: 

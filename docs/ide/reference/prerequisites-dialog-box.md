@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "01/18/2018"
 ms.technology:
   - "vs-ide-general"
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords:
   - "Microsoft.VisualStudio.Publish.BaseProvider.Dialog.Bootstrapper"
 helpviewer_keywords:

@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-debug"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "SuspendProfile"
 ms.assetid: 7c8de6e6-bb88-4353-92c3-ce7290310d61

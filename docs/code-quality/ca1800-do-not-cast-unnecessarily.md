@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "10/26/2017"
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "CA1800"
   - "DoNotCastUnnecessarily"

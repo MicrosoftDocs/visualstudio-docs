@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-general"
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: e8db7c7d-31cf-479e-9dcc-299759891795
 author: "gewarren"
 ms.author: "gewarren"

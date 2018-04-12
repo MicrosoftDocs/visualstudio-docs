@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-sdk"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "project types [Visual Studio SDK]"
 ms.assetid: 09991589-2300-430e-b6a4-7f2b95fe676f

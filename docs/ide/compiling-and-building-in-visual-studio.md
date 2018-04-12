@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: 07/14/2017
 ms.technology: 
   - "vs-ide-general"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "builds [Visual Studio], about building in Visual Studio"
   - "custom build steps, types of builds"

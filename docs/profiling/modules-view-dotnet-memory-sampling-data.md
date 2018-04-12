@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-debug"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Modules view"
 ms.assetid: 9c05b51a-8382-44cf-a8f7-3fabdd2e8f1b

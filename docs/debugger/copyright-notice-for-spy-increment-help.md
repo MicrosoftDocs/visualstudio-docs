@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-debug"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "coyright, Spy++"
 ms.assetid: 84efcb95-5e57-4e1b-9670-13c9163f6fc6

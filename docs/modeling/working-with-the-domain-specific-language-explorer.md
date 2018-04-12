@@ -2,7 +2,7 @@
 title: "Working with the Domain-Specific Language Explorer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Domain-Specific Language Tools, DSL Explorer"
 author: gewarren

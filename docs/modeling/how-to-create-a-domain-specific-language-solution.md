@@ -2,7 +2,7 @@
 title: "How to: Create a Domain-Specific Language Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.dsltools.designerwizard"
 helpviewer_keywords: 

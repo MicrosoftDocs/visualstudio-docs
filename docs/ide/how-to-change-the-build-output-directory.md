@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-general"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "output directory, changing"
 ms.assetid: a8333c89-afb2-4b1d-b2e2-9146da852402

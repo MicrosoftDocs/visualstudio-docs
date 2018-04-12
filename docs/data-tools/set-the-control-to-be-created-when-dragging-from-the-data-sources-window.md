@@ -2,7 +2,7 @@
 title: "Set the control to be created when dragging from the Data Sources window | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Data Sources Window, select controls"
   - "Windows Forms, displaying data"

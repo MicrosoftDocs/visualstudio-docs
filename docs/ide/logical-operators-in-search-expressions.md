@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/02/2017"
 ms.technology: 
   - "vs-help-viewer"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Help Viewer, logical operators in search"
   - "logical operators in search [Help Viewer]"

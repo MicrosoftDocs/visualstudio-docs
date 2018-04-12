@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-sdk"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "m_contingentProperties field, Task class [.NET Framework debug engines]"
 ms.assetid: 49e8cb36-db39-440b-acda-a325651f1165

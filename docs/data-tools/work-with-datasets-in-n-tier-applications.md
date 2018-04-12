@@ -2,7 +2,7 @@
 title: "Work with datasets in n-tier applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "datasets [Visual Basic], n-tier applications"
   - "multi-tier database applications"

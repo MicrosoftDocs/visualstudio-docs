@@ -2,7 +2,7 @@
 title: "Cannot create an association &lt;association name&gt; - property types do not match | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 97ec5a04-6e23-45a2-9226-d77ead854392
 author: "gewarren"
 ms.author: "gewarren"

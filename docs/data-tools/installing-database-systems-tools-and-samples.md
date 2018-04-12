@@ -2,7 +2,7 @@
 title: "Visual Studio database compatibility | Microsoft Docs"
 ms.custom: ""
 ms.date: "09/06/2017"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "database systems"
   - "database compatibility"

@@ -2,7 +2,7 @@
 title: "Editing Coded UI Tests in Visual Studio | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords:
   - "vs.codedUItest.testeditor"
 helpviewer_keywords:

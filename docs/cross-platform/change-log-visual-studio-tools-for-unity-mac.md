@@ -3,7 +3,7 @@ title: "Change Log (Visual Studio Tools for Unity, Mac) | Microsoft Docs"
 ms.custom: ""
 ms.date: "04/05/2018"
 ms.technology: vs-unity-tools
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 33a6ac54-d997-4308-b5a0-af7387460849
 author: "dantogno"
 ms.author: "v-davian"

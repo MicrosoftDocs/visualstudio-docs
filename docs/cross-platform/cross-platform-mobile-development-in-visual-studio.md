@@ -3,7 +3,7 @@ title: "Cross-Platform Mobile Development in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "12/06/2016"
 ms.technology: vs-ide-mobile
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 8202717a-e990-45cf-b092-438651ccb38a
 author: asb3993
 ms.author: amburns

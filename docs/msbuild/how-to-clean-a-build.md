@@ -3,7 +3,7 @@ title: "How to: Clean a Build | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Exec task [MSBuild]"
   - "MSBuild, cleaning a build"

@@ -6,7 +6,7 @@ ms.technology: vs-ide-general
 dev_langs: 
   - "VB"
   - "CSharp"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Generate From Usage"
   - "Test-First Development"

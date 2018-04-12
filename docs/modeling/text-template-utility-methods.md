@@ -2,7 +2,7 @@
 title: "Text Template Utility Methods | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "text templates, utility methods"
 author: gewarren

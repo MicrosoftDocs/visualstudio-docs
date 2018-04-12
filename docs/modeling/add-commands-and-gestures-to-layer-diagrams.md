@@ -2,7 +2,7 @@
 title: "Add commands and gestures to dependency diagrams | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "dependency diagrams, adding custom commands"
   - "dependency diagrams, adding custom gestures"

@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-sdk"
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 4a2df0a3-42da-4f7b-996f-ee16a35ac922
 author: "gregvanl"
 ms.author: "gregvanl"

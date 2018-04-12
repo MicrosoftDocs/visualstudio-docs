@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-debug"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "message properties in SpyHelp"
 ms.assetid: 8b72b071-691b-48b7-8852-f748c20fc787

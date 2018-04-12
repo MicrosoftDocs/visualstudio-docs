@@ -2,7 +2,7 @@
 title: "How to: Create DataContext methods mapped to stored procedures and functions (O-R Designer) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: e7ca32f1-50b3-48af-ad92-ceafd749296a
 author: "gewarren"
 ms.author: "gewarren"

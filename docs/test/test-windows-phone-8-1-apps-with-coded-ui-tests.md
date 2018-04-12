@@ -2,7 +2,7 @@
 title: "Test Windows UWP and 8.1 Phone Apps with Coded UI Tests in Visual Studio | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.author: gewarren
 manager: douge
 ms.workload: 

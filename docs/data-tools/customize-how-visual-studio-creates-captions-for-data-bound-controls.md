@@ -2,7 +2,7 @@
 title: "Customize how Visual Studio creates captions for data-bound controls | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/03/2017"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Label captions, Data Sources window"
   - "smart captions"

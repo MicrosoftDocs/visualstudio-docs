@@ -3,7 +3,7 @@ title: "Create solutions and projects in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: 02/06/2018
 ms.technology: "vs-ide-general"
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.openprojectfromweb"
   - "vs.newproject"

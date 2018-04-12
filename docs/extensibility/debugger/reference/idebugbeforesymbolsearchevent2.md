@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-sdk"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugBeforeSymbolSearchEvent2 interface"
 ms.assetid: 679fd7b1-765a-41a8-a046-63240c09a499

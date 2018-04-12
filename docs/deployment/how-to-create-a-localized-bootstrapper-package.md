@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-deployment"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "localized bootstrapper packages"
   - "dependencies, creating localized bootstrapper packages"

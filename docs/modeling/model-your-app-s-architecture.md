@@ -2,7 +2,7 @@
 title: "Model your app&#39;s architecture | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "UML, modeling architecture"
 author: gewarren

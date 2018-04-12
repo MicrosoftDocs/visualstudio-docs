@@ -2,7 +2,7 @@
 title: "Writing Code to Customise a Domain-Specific Language | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Domain-Specific Language, programming"
 author: gewarren

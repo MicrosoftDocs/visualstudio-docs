@@ -3,7 +3,7 @@ title: "Organize templates in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/02/2018"
 ms.technology: vs-ide-general
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "project templates [Visual Studio], locations"
   - "item templates [Visual Studio], locations"

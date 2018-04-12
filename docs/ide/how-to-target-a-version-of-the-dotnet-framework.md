@@ -3,7 +3,7 @@ title: "Target a .NET Framework version in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: 02/06/2018
 ms.technology: vs-ide-general
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "targeting .NET Framework [Visual Studio]"
   - ".NET Framework version [Visual Studio]"

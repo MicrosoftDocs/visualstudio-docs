@@ -2,7 +2,7 @@
 title: "Create lookup tables in Windows Forms applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "lookup tables"
   - "lookup tables, creating"

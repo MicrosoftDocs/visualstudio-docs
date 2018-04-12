@@ -2,7 +2,7 @@
 title: "Options, Text Editor, C#, Formatting | Microsoft Docs"
 ms.date: 02/09/2018
 ms.technology: vs-ide-general
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VS.ToolsOptionsPages.Text_Editor.CSharp.Formatting.Spacing"
   - "VS.ToolsOptionsPages.Text_Editor.CSharp.Formatting.NewLines"

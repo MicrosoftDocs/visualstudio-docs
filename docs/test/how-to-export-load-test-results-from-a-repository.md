@@ -1,7 +1,7 @@
 ---
 title: "Export Load Test Results in Visual Studio | Microsoft Docs"
 ms.date: "10/19/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "results, load test"
   - "load tests, exporting results"

@@ -3,7 +3,7 @@ title: "Solutions and Projects in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/5/2017"
 ms.technology: vs-ide-general
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.addnewsolutionitem"
   - "vs.environment.projects"

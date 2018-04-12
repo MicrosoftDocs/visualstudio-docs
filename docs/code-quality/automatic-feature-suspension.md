@@ -1,7 +1,7 @@
 ---
 title: "Automatic feature suspension in Visual Studio | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "full solution analysis"
   - "performance"

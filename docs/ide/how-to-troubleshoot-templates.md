@@ -3,7 +3,7 @@ title: "Troubleshoot Visual Studio project template and item template loading | 
 ms.custom: ""
 ms.date: "01/02/2018"
 ms.technology: vs-ide-general
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "templates [Visual Studio], troubleshooting"
 author: "gewarren"

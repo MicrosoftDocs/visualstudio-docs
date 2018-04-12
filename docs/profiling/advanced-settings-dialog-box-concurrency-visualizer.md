@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-debug"
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.cv.settings"
 ms.assetid: bb3d90aa-5f08-4953-9be0-be6cea11633d

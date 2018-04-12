@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-debug"
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VC.Project.VCDebugSettings.WebBrowser.DebuggerType"
   - "VC.Project.IVCGPUDebugPageObject.EnvironmentMerge"

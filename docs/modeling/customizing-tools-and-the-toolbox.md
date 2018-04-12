@@ -2,7 +2,7 @@
 title: "Customizing Tools and the Toolbox | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.dsltools.dsldesigner.selectiondialog"
   - "vs.dsltools.dsldesigner.selecticondialog"

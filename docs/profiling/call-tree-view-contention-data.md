@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-debug"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Call Tree view"
 ms.assetid: 9bd4bde2-2ca3-446c-9ccc-7421522e03ae

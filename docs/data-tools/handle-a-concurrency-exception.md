@@ -2,7 +2,7 @@
 title: "Handle a concurrency exception | Microsoft Docs"
 ms.custom: ""
 ms.date: "09/11/2017"
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"

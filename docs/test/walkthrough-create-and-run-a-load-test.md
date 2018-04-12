@@ -1,7 +1,7 @@
 ---
 title: "Create and run a load test in Visual Studio | Microsoft Docs"
 ms.date: "10/01/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "unit tests, in load tests"
   - "unit tests, load test walkthrough"

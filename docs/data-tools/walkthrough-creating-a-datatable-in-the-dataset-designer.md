@@ -2,7 +2,7 @@
 title: "Walkthrough: Creating a DataTable in the Dataset Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "DataTable objects, creating"
   - "Dataset Designer, creating data tables"

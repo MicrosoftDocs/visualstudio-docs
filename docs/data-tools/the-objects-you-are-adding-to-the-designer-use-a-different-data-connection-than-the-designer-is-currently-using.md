@@ -2,7 +2,7 @@
 title: "The objects you are adding to the designer use a different data connection than the designer is currently using | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 332ed2f3-3377-4d51-8e3b-fdb98231978e
 author: "gewarren"
 ms.author: "gewarren"

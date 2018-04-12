@@ -3,7 +3,7 @@ title: "Overview of Visual Studio Tools for Unity | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: vs-unity-tools
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: b4231bb9-45c4-4c77-ac3c-d05033b26393
 author: "conceptdev"
 ms.author: "crdun"

@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "02/22/2017"
 ms.technology: 
   - "office-development"
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "Microsoft.VisualStudio.Tools.SharePoint.Errors.Debugging"
 dev_langs: 

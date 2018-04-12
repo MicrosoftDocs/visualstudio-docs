@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-sdk"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "SetNotificationForWaitCompletion method, Task class [.NET Framework debug engines]"
 ms.assetid: da149c9a-20f4-4543-a29e-429c8c1d2e19

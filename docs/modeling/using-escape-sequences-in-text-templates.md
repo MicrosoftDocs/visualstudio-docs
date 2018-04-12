@@ -2,7 +2,7 @@
 title: "Using Escape Sequences in Text Templates | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "text templates, escape sequences"
 author: gewarren

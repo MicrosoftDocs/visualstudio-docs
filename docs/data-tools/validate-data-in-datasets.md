@@ -2,7 +2,7 @@
 title: "Validate data in datasets | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "DataTable.ColumnChanging"
   - "System.Data.DataTable.ColumnChanging"

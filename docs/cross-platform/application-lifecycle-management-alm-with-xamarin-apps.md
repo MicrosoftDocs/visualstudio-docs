@@ -3,7 +3,7 @@ title: "Application Lifecycle Management (ALM) with Xamarin apps | Microsoft Doc
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: vs-ide-mobile
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: ff978cc2-5a25-46d6-921b-e51adaa65992
 author: conceptdev
 ms.author: crdun

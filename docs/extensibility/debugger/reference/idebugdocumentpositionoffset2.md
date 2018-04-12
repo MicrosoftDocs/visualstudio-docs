@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-sdk"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugDocumentPositionOffset2 interface"
 ms.assetid: f1b05db3-50d8-453f-a72f-e68b239236a4

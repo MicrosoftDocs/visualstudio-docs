@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-general"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Description element [Visual Studio project templates]"
 ms.assetid: 6e12be73-081f-4c7d-898f-027c307a9fe1

@@ -2,7 +2,7 @@
 title: "Learn app-building basics with Xamarin.Forms in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/30/2018"
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: d22b5186-9e03-4e85-afc9-7cbe28522a6d
 ms.technology: vs-ide-mobile
 author: charlespetzold

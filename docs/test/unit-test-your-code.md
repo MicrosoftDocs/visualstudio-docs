@@ -2,7 +2,7 @@
 title: "Unit Testing in Visual Studio | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Visual Studio, unit tests"
   - "unit tests, verifying code with"

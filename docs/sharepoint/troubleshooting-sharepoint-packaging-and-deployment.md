@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "02/22/2017"
 ms.technology:
   - "office-development"
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords:
   - "VSTO.WorkflowDeployment.Troubleshooting"
   - "VS.SharePointTools.Project.PackageRetraction"

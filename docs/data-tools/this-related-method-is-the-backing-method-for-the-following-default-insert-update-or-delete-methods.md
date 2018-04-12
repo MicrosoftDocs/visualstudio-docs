@@ -2,7 +2,7 @@
 title: "This related method is the backing method for the following default insert, update, or delete methods | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 62afa6da-97cf-48b9-8de3-33e4d72a0377
 author: "gewarren"
 ms.author: "gewarren"

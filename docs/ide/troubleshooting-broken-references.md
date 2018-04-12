@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "03/21/2017"
 ms.technology: 
   - "vs-ide-general"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "C# projects, references"
   - "Visual Basic projects, references"

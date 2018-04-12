@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/01/2017"
 ms.technology: 
   - "vs-help-viewer"
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 4340c69f-b96b-4932-bb82-38b16a5ab149
 author: "gewarren"
 ms.author: "gewarren"

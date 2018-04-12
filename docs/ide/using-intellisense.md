@@ -3,7 +3,7 @@ title: "Visual Studio IntelliSense | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: vs-ide-general
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vc.tools.intellisense"
 helpviewer_keywords: 

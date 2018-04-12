@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-sdk"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugPortSupplierLocale2 interface"
 ms.assetid: 910e7220-da2a-4339-9fff-9fb1bad3c28c

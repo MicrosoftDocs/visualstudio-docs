@@ -3,7 +3,7 @@ title: "Toolbox window in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2018"
 ms.technology: vs-ide-general
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.toolbox.general"
   - "vs.toolbox"

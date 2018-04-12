@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "06/21/2017"
 ms.technology: 
   - "vs-ide-general"
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "javascript.project.property.expandedsdknode.fileversion"
   - "javascript.project.property.expandedsdknode.uri"

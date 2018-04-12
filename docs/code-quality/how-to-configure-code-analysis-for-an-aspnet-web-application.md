@@ -2,7 +2,7 @@
 title: "How to: Configure Code Analysis for an ASP.NET Web Application in Visual Studio | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.technology: vs-ide-code-analysis
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords:
   - "vs.codeanalysis.propertypages.asp"
 author: "gewarren"

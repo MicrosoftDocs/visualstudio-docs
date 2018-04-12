@@ -2,7 +2,7 @@
 title: "Use a lab environment for devops in Visual Studio | Microsoft Docs"
 ms.date: "05/02/2017"
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "lab environment, test lab"
 ms.author: gewarren

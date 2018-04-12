@@ -4,7 +4,7 @@ ms.date: "2017-10-10"
 ms.devlang: "dotnet"
 ms.technology: 
   - "vs-ide-general"
-ms.topic: "article"
+ms.topic: "conceptual"
 keywords: Dotfuscator, Dotfuscator CE, PreEmptive, PreEmptive Solutions, PreEmptive Protection, protection, community edition, obfuscation, .NET, free, Visual Studio 2017
 helpviewer_keywords: 
   - "PreEmptive Protection Dotfuscator"

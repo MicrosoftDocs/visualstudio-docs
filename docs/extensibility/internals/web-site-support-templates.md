@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology:
   - "vs-ide-sdk"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "we site projects, templates"
 ms.assetid: 37173c97-486b-4b3c-8ed3-cf5890c4de23

@@ -2,7 +2,7 @@
 title: "Use stored procedures to perform update, insert, and delete in Linq to SQL O/R Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: e88224ab-ff61-4a3a-b6b8-6f3694546cac
 author: "gewarren"
 ms.author: "gewarren"

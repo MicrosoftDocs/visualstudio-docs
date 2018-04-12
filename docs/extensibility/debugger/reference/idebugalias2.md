@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-sdk"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugAlias2 interface"
 ms.assetid: 5252dcbb-8bfe-4d8a-a8e5-b022b194df19

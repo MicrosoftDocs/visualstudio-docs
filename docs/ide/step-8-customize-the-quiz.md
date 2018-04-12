@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-acquisition"
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: dc8edb13-1b23-47d7-b859-8c6f7888c1a9
 author: "TerryGLee"
 ms.author: "tglee"

@@ -2,7 +2,7 @@
 title: "How to: Configure inheritance by using the O-R Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: e594af12-e777-434a-bc08-7dd2dac84cdc
 author: "gewarren"
 ms.author: "gewarren"

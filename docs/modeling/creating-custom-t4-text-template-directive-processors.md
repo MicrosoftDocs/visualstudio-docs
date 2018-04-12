@@ -2,7 +2,7 @@
 title: "Creating Custom T4 Text Template Directive Processors | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "text templates, custom directive processors"
 author: gewarren

@@ -2,7 +2,7 @@
 title: "Configurations and Platforms for Coded UI Tests in Visual Studio | Microsoft Docs"
 ms.date: "2015-10-04"
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "coded UI tests"
 ms.author: gewarren

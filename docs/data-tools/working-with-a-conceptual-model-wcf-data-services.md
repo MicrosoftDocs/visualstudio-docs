@@ -2,7 +2,7 @@
 title: "Working with a Conceptual Model (WCF Data Services) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "data [Visual Studio], querying a service"
   - "data [Visual Studio], LINQ to Entities"

@@ -2,7 +2,7 @@
 title: "Run a unit test as a 64-bit process in Visual Studio | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "unit tests, creating"
   - "unit tests, running"

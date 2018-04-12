@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
   - "office-development"
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.ListDesigner.GeneralMessageHelp"
   - "Microsoft.VisualStudio.SharePoint.Designers.ListDesigner.ViewModels.ListViewModel.SortingAndGrouping"

@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-debug"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Expanding and Collapsing Spy++ Trees"
 ms.assetid: 22993182-7026-4155-8046-b84fd99f803c

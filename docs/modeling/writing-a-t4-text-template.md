@@ -2,7 +2,7 @@
 title: "Writing a T4 Text Template | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "text templates, syntax"
   - "text templates, guide"

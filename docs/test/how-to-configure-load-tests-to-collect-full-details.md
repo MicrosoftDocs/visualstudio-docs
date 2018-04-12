@@ -1,7 +1,7 @@
 ---
 title: "Collect Full Details for virtual users for load testing in Visual Studio | Microsoft Docs"
 ms.date: "10/19/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "load tests, virtual user activity chart, configuring"
   - "virtual user activity chart, configuring"

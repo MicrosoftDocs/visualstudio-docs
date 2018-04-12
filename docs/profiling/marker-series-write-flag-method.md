@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-debug"
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "cvmarkersojb/Concurrency::diagnostic::marker_series::write_flag"
 helpviewer_keywords: 

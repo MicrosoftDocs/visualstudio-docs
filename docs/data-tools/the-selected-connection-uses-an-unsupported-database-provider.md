@@ -2,7 +2,7 @@
 title: "The selected connection uses an unsupported database provider | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 4d25dfa1-8fa4-4529-9b90-973bc2ec2993
 author: "gewarren"
 ms.author: "gewarren"

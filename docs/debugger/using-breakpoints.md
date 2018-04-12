@@ -4,7 +4,7 @@ ms.custom: "H1Hack27Feb2017"
 ms.date: "02/07/2017"
 ms.technology: 
   - "vs-ide-debug"
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.breakpointswin"
   - "vs.debug.disassembly.insert"

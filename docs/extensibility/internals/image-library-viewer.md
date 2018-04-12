@@ -2,7 +2,7 @@
 title: "Image Library Viewer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 9d9c7fbb-ebae-4b20-9dd8-3c9070c0d0d1
 author: "gregvanl"
 ms.author: "gregvanl"

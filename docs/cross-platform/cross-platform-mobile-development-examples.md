@@ -3,7 +3,7 @@ title: "Cross-Platform Mobile Development Examples | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: vs-ide-mobile
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "C++"
 ms.assetid: bc384c12-fccc-45d7-9fb9-b90d536aa663

@@ -2,7 +2,7 @@
 title: "Bind controls to data in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "data, displaying"
   - "data sources, displaying data"

@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-sdk"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "outlining, supporting in native code"
 ms.assetid: 252c5221-2e64-461c-8dcf-b622e400e0be

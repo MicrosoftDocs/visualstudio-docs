@@ -1,7 +1,7 @@
 ---
 title: "Web Performance Test API in Visual Studio | Microsoft Docs"
 ms.date: "10/19/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "Web performance tests, using the API"
   - "APIs, Web performance tests"

@@ -1,7 +1,7 @@
 ---
 title: "Page Response Time in a Load Test in Visual Studio | Microsoft Docs"
 ms.date: "10/19/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "load tests, response times"
   - "response times in load tests"

@@ -3,7 +3,7 @@ title: "How to: Build Specific Targets in Solutions By Using MSBuild.exe | Micro
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "MSBuild, building specific targets in a solution"
   - "msbuild.exe, building specific targets in a solution"

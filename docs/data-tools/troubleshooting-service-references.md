@@ -2,7 +2,7 @@
 title: "Troubleshooting Service References | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "msvse_wcf.Err.ReferenceGroup_NamespaceConflictsOther"
   - "msvse_wcf.Err.AddSvcRefDlg_NothingSelectedOnGo"

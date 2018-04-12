@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-sdk"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "m_action field, Task class [.NET Framework debug engines]"
 ms.assetid: 201838c2-260d-4071-b6c3-f526874e19c9

@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-sdk"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "ObjectIdForDbugger property, AsyncVoidMethodBuilder structure [.NET Framework debug engines]"
 ms.assetid: 97c48c49-3fb2-4778-accd-8585fa4feabf

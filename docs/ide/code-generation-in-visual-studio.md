@@ -3,7 +3,7 @@ title: Code generation features in Visual Studio | Microsoft Docs
 ms.custom: ""
 ms.date: "01/11/2018"
 ms.technology: vs-ide-general
-ms.topic: article
+ms.topic: "conceptual"
 author: "gewarren"
 ms.author: "gewarren"
 manager: douge

@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: 02/06/2018
 ms.technology:
   - "vs-ide-general"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "targeting .NET Framework [Visual Studio]"
   - "multi-targeting [Visual Studio]"

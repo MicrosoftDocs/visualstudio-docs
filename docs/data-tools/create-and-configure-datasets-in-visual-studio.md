@@ -2,7 +2,7 @@
 title: "Create and configure datasets in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "typed datasets, creating"
   - "datasets, creating"

@@ -3,7 +3,7 @@ title: "Install Visual Studio offline help | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/01/2017"
 ms.technology: vs-help-viewer
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "installing Help Viewer"
   - "Help Viewer, installing"

@@ -2,7 +2,7 @@
 title: "Create UML modeling projects and diagrams | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/23/2018"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "modeling diagrams (UML)"
   - "UML designers"

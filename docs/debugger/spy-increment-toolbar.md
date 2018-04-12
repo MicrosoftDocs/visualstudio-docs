@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-debug"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Spy++ toolbar"
 ms.assetid: 949c18fb-bb25-42ed-9130-c4a47869f24d

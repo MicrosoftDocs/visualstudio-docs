@@ -1,7 +1,7 @@
 ---
 title: "Assigning Roles to a Test Controller and Test Agent for Automated Testing in Visual Studio | Microsoft Docs"
 ms.date: "10/20/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "testing, walkthroughs, test controller and test agents"
   - "test agent, walkthrough"

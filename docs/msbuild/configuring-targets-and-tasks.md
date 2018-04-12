@@ -3,7 +3,7 @@ title: "Configuring Targets and Tasks | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 9aabe67a-1720-4bbf-80d3-822b3ccf75c0
 author: Mikejo5000
 ms.author: mikejo

@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "09/26/2017"
 ms.technology: 
   - "vs-ide-general"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "code editor, find all references"
   - "find all references"

@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-general"
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VS.ToolsOptionsPages.Text_Editor.C/C++.Formatting.General"
   - "VS.ToolsOptionsPages.Text_Editor.C%2fC%2b%2b.Formatting.General"

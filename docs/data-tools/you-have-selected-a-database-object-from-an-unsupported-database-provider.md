@@ -2,7 +2,7 @@
 title: "You have selected a database object from an unsupported database provider | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: c0f1298e-31aa-471e-ae19-1bafffd2ae40
 author: "gewarren"
 ms.author: "gewarren"

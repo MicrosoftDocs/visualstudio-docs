@@ -2,7 +2,7 @@
 title: "The designer cannot be modified while debugging | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 487dafe4-d57c-4be1-9e3a-bb0a8699b2fa
 author: "gewarren"
 ms.author: "gewarren"

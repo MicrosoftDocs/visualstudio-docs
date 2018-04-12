@@ -1,7 +1,7 @@
 ---
 title: "Create custom code and plug-ins for load tests in Visual Studio | Microsoft Docs"
 ms.date: "10/19/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords:
   - "vs.test.dialog.recorderplugin"
 helpviewer_keywords:

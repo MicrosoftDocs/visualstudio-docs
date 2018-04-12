@@ -3,7 +3,7 @@ title: "Building Multiple Projects in Parallel with MSBuild | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "parallel project builds"
   - "building multiple projects in parallel"

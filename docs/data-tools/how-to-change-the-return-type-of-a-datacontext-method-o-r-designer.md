@@ -2,7 +2,7 @@
 title: "How to: Change the return type of a DataContext method (O-R Designer) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: c5b66bff-6dbb-43c0-bffa-317133ca5b9e
 author: "gewarren"
 ms.author: "gewarren"

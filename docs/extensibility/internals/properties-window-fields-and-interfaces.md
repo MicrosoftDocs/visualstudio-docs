@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-sdk"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Properties window, fields and interfaces"
 ms.assetid: 0328f0e5-2380-4a7a-a872-b547cb775050

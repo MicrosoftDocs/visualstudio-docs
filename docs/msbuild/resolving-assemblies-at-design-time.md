@@ -3,7 +3,7 @@ title: "Resolving Assemblies at Design Time | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "msbuild"
 ms.assetid: 20dae076-733e-49c1-a2e9-b336757ae21d

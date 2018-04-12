@@ -3,7 +3,7 @@ title: "Viewing call hierarchy in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/10/2018"
 ms.technology: vs-ide-general
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VS.CallHierarchy"
 helpviewer_keywords: 

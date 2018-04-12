@@ -1,7 +1,7 @@
 ---
 title: "Editing Load Test Scenarios in Visual Studio | Microsoft Docs"
 ms.date: "10/03/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "load tests, scenarios"
   - "load tests, user activities"

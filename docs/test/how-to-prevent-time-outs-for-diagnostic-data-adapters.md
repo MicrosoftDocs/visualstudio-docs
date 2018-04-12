@@ -1,7 +1,7 @@
 ---
 title: "Time-Outs for Diagnostic Data Adapters in Visual Studio | Microsoft Docs"
 ms.date: "10/19/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "Diagnostic Data Adapter, increasing time-outs"
 ms.assetid: 39fff4fc-9233-4f67-96ac-e81bbaf7ca82

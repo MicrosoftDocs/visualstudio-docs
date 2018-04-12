@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "06/26/2017"
 ms.technology: 
   - "vs-ide-general"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "shortcut keys [Visual Studio], keyboard binding schemes"
   - "keyboard binding schemes [Visual Studio]"

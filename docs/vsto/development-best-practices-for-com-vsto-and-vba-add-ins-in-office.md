@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "07/25/2017"
 ms.technology: 
   - "office-development"
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - ""
 helpviewer_keywords: 

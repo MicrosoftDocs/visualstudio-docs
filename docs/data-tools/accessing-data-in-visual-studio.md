@@ -1,7 +1,7 @@
 ---
 title: Accessing data in Visual Studio | Microsoft Docs
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords:
   - "80025080"
 helpviewer_keywords:

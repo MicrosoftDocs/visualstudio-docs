@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology:
   - "vs-ide-sdk"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "editors [Visual Studio SDK], custom - syntax coloring"
 ms.assetid: 74900b9a-baef-432a-8231-4568fb5e19ad

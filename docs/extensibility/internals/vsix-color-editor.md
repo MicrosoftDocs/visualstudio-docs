@@ -2,7 +2,7 @@
 title: "VSIX Color Editor | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 70879c5d-e0f0-4845-993c-2f4229869706
 author: "gregvanl"
 ms.author: "gregvanl"

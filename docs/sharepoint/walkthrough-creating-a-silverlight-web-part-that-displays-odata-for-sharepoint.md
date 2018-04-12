@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "02/22/2017"
 ms.technology: 
   - "office-development"
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.SPE.SilverlightWebPart"
 dev_langs: 

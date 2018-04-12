@@ -2,7 +2,7 @@
 title: "The property &lt;property name&gt; cannot be deleted | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 55873f74-7834-4ec1-8815-eeeb65618d87
 author: "gewarren"
 ms.author: "gewarren"

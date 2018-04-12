@@ -3,7 +3,7 @@ title: "Generate a field, property, or local variable in Visual Studio | Microso
 ms.custom: ""
 ms.date: 01/26/2018
 ms.technology: vs-ide-general
-ms.topic: "article"
+ms.topic: "conceptual"
 author: "gewarren"
 ms.author: "gewarren"
 manager: douge

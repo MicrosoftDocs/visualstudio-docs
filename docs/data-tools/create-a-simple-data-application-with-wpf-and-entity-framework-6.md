@@ -2,7 +2,7 @@
 title: "Create a simple data application with WPF and Entity Framework 6 | Microsoft Docs"
 ms.custom: ""
 ms.date: "08/22/2017"
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
 author: "gewarren"

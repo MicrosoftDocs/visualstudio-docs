@@ -5,7 +5,7 @@ ms.date: "03/09/2017"
 ms.reviewer: "riande"
 ms.technology: 
   - "vs-ide-deployment"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "ASP.NET, web applications, deployment, publishing"
 ms.assetid: 3A13F685-531C-457D-A98E-631888011E4B

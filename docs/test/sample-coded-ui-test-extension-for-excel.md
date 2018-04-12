@@ -2,7 +2,7 @@
 title: "Sample Coded UI Test Extension for Excel | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "coded UI tests, extensions for Excel"
 ms.author: gewarren

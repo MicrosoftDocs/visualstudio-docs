@@ -2,7 +2,7 @@
 title: "Learn about mobile development with Xamarin | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/30/2018"
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: e970d936-1df4-4c0c-96e3-ef6191295882
 ms.technology: vs-ide-mobile
 author: "ghogen"

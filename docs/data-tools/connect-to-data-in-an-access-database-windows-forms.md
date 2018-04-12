@@ -2,7 +2,7 @@
 title: "Connect to data in an Access database (Windows Forms) | Microsoft Docs"
 ms.custom: ""
 ms.date: "09/15/2017"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "databases, connecting to"
   - "databases, Access"

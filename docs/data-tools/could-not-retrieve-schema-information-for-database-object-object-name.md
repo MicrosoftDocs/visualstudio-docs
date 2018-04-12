@@ -2,7 +2,7 @@
 title: "Could not retrieve schema information for database object &lt;object name&gt; | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: a1c8f833-c918-4a86-9679-d2a791f938a9
 author: "gewarren"
 ms.author: "gewarren"

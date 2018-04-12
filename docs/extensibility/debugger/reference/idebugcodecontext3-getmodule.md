@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-sdk"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugCodeContext3::GetModule"
 ms.assetid: 8e4317b8-8255-486c-a896-a68ed94f8aa1

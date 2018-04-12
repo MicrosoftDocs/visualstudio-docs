@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-debug"
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 19a45032-f8a7-4137-890e-2ceeec938b8d
 author: "mikejo5000"
 ms.author: "mikejo"

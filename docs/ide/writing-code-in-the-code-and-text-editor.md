@@ -3,7 +3,7 @@ title: "Code editor features in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: 02/23/2018
 ms.technology: vs-ide-general
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "code, editing [Visual Studio]"
   - "code editor [Visual Studio]"

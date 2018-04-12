@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-sdk"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugProgramDestroyEventFlags2 interface"
 ms.assetid: d384ff71-dc71-40b9-a871-801f8b6a3418

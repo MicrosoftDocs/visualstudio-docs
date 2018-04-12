@@ -3,7 +3,7 @@ title: "Item Functions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "msbuild, Item functions"
 ms.assetid: 5e6df3cc-2db8-4cbd-8fdd-3ffd03ac0876

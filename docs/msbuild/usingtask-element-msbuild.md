@@ -3,7 +3,7 @@ title: "UsingTask Element (MSBuild) | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/13/2017"
 ms.technology: msbuild
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#UsingTask"
 dev_langs: 

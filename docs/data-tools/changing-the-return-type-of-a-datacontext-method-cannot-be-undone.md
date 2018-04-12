@@ -2,7 +2,7 @@
 title: "Changing the return type of a DataContext method cannot be undone | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 76b161fc-5075-4192-8d94-f15b02e199e9
 author: "gewarren"
 ms.author: "gewarren"

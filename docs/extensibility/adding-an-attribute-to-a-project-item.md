@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-sdk"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "attributes [Visual Studio], adding to a project item"
 ms.assetid: 404a71d5-cce5-44e7-9eaf-d747c794fedb

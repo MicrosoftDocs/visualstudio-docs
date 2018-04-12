@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-sdk"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "verbs, setting default"
 ms.assetid: 9b6df3bc-d15c-4a5d-9015-948a806193b7

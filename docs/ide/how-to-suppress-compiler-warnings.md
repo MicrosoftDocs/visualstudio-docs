@@ -3,7 +3,7 @@ title: "Suppress compiler warnings in Visual Studio for projects and NuGet packa
 ms.custom: ""
 ms.date: "01/24/2018"
 ms.technology: vs-ide-general
-ms.topic: "article"
+ms.topic: "conceptual"
 author: "gewarren"
 ms.author: "gewarren"
 manager: douge

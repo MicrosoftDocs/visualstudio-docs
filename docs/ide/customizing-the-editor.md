@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/20/2017"
 ms.technology: 
   - "vs-ide-general"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "editor, customizing"
   - "Code Editor, customizing"

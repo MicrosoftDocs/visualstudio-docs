@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-sdk"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "TASK_STATE_WAITING_ON_CHILDREN field, Task class [.NET Framework debug engines]"
 ms.assetid: 6f26b098-84ad-4f6e-ba27-6136581ba630

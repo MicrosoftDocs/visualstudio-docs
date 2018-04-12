@@ -1,7 +1,7 @@
 ---
 title: "Create a simple data application by using ADO.NET in Visual Studio | Microsoft Docs"
 ms.date: "08/23/2017"
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs:
   - "VB"
   - "CSharp"

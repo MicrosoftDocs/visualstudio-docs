@@ -3,7 +3,7 @@ title: "CA2002: Do not lock on objects with weak identity | Microsoft Docs"
 ms.custom: ""
 ms.date: 01/31/2018
 ms.technology: vs-ide-code-analysis
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "DoNotLockOnObjectsWithWeakIdentity"
   - "CA2002"

@@ -2,7 +2,7 @@
 title: "Options, Text Editor, C/C++, Experimental | Microsoft Docs"
 ms.custom: ""
 ms.date: "08/02/2017"
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.C/C++.Experimental"
   - "VS.ToolsOptionsPages.Text_Editor.C%2FC%2B%2B.Experimental"

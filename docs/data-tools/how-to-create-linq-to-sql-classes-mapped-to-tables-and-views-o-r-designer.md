@@ -2,7 +2,7 @@
 title: "How to: Create LINQ to SQL classes mapped to tables and views (O-R Designer) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 0fb78bbc-7a78-4ab4-b32f-85ece912e660
 author: "gewarren"
 ms.author: "gewarren"

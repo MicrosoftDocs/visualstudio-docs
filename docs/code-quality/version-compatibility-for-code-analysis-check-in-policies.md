@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "version compatibility, code analysis check-in policy"
   - "check-in policies, version compatibility for code analysis"

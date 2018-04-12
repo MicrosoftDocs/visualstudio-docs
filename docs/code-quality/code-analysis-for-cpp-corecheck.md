@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "03/22/2018"
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "code analysis, C++ core check"
 ms.assetid: f1429463-136e-41ed-8a75-a8dbf0b4fd89

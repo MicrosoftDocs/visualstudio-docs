@@ -2,7 +2,7 @@
 title: "Run unit tests with Test Explorer | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords:
   - "vs.unittesting.testexplorer.overview"
 ms.author: gewarren

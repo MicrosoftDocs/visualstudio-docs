@@ -1,7 +1,7 @@
 ---
 title: "Create a Web Service Test in Visual Studio | Microsoft Docs"
 ms.date: "10/19/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "Web performance tests, creating Web service tests"
   - "Web services [Visual Studio ALM], creating"

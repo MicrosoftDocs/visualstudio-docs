@@ -2,7 +2,7 @@
 title: "Customize build and debug tasks in Visual Studio using tasks.vs.json and launch.vs.json | Microsoft Docs"
 ms.date: 02/21/2018
 ms.technology: vs-ide-general
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - NMAKE [Visual Studio]
   - makefiles [Visual Studio]

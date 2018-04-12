@@ -2,7 +2,7 @@
 title: "Sample Excel Add-In for Coded UI Testing | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "coded UI tests, Excel Add-in sample"
 ms.author: gewarren

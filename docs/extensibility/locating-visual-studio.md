@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "08/21/2017"
 ms.technology: 
   - "vs-ide-sdk"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "deployment, VSIX"
 ms.assetid: 680c3b25-7901-4768-8363-6d1fcd1ea636

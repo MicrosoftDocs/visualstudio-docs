@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-sdk"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugSettingsCallback2::GetEEMetricGuid"
 ms.assetid: 3d70c19a-595d-44f1-a7b3-a0cf8f15e371

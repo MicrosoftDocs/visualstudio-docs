@@ -3,7 +3,7 @@ title: "Property Functions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/21/2017"
 ms.technology: msbuild
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "MSBuild, property functions"
 ms.assetid: 2253956e-3ae0-4bdc-9d3a-4881dfae4ddb

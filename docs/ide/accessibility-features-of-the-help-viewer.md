@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/02/2017"
 ms.technology: 
   - "vs-help-viewer"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "accessibility features [Help Viewer]"
   - "Help Viewer, accessibility features"

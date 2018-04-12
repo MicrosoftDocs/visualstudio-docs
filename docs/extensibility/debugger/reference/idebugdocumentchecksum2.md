@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-sdk"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugDocumentChecksum2 interface"
 ms.assetid: 6d22fa94-21aa-46cb-b5b5-32a6399ebb20

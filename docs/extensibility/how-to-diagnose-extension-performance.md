@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/08/2016"
 ms.technology: 
   - "vs-ide-sdk"
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 46b0a1e3-7e69-47c9-9d8d-a1815d6c3896
 author: "BertanAygun"
 ms.author: "bertaygu"

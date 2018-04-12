@@ -2,7 +2,7 @@
 title: "How to: Write unit tests for C++ DLLs | Microsoft Docs"
 ms.date: "11/04/2017"
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.author: mblome
 manager: douge
 ms.workload: 

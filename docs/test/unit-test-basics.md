@@ -2,7 +2,7 @@
 title: "Unit Test Basics in Visual Studio | Microsoft Docs"
 ms.date: "2016-01-07"
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.UnitTest.CreateUnitTest"
 author: gewarren

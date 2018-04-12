@@ -1,7 +1,7 @@
 ---
 title: "Create Visual Studio Load Test Performance Reports Using Microsoft Excel | Microsoft Docs"
 ms.date: "10/19/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "load tests, creating Excel reports"
   - "load tests, reporting"

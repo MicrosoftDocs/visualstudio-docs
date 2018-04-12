@@ -6,7 +6,7 @@ ms.author: "kaseyu"
 manager: douge
 ms.technology: vs-ide-general
 ms.date: "01/16/2018"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "editor"
 ms.workload:

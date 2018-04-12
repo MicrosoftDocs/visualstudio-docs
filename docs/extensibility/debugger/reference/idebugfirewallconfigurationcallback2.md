@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-sdk"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugFirewallConfigurationCallback2 interface"
 ms.assetid: 0827361c-b97c-4851-9898-ab6d88c81811

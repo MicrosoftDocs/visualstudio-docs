@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
   - "office-development"
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VST.Toolbox.Bookmark"
 dev_langs: 

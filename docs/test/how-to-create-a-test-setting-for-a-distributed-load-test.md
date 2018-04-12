@@ -1,7 +1,7 @@
 ---
 title: "Create a Test Setting for a Distributed Load Test in Visual Studio | Microsoft Docs"
 ms.date: "10/19/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "test settings, for distributed load tests"
 ms.assetid: b63d4b71-3b74-4872-b2d1-f0bd1a9a8544

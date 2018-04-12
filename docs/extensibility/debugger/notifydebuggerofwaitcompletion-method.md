@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-sdk"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "NotifyDebuggerOfWaitCompletion method, Task class [.NET Framework debug engines]"
 ms.assetid: 841c5908-4f3f-400b-a7b0-96a95f362817

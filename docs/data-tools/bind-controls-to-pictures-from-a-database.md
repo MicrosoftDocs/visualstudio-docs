@@ -2,7 +2,7 @@
 title: "Bind controls to pictures from a database | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "images [Visual Basic], displaying on Windows Forms"
   - "data binding [Windows Forms], pictures"

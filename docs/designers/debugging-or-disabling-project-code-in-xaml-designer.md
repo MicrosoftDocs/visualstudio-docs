@@ -2,7 +2,7 @@
 title: "Debugging or Disabling Project Code in XAML Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: ac600581-8fc8-49e3-abdf-1569a3483d74
 author: "gewarren"
 ms.author: "gewarren"

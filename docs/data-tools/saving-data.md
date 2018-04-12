@@ -2,7 +2,7 @@
 title: "Saving Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "DataRow.RowState"
   - "DataSet.GetChanges"

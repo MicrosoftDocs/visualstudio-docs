@@ -2,7 +2,7 @@
 title: "One or more selected items contain a data type that is not supported by the designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 71dcd4f9-2946-42c5-9ce4-99c819ea2785
 author: "gewarren"
 ms.author: "gewarren"

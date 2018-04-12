@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-general"
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: b07d3074-0fc9-45e1-baf5-da6bd4f3f1c0
 author: "gregvanl"
 ms.author: "gregvanl"

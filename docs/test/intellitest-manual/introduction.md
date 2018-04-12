@@ -2,7 +2,7 @@
 title: "Overview | Microsoft IntelliTest Developer Test Tool | Microsoft Docs"
 ms.date: "05/02/2017"
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "IntelliTest, Visual Studio IntelliTest developer testing tool"
 ms.author: gewarren

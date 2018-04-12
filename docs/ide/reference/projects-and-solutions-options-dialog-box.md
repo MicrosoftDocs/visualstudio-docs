@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: 07/14/2017
 ms.technology: 
   - "vs-ide-general"
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VS.ToolsOptionsPages.Projects.General"
   - "VS.ToolsOptionsPages.Projects.Locations"

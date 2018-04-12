@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "09/05/2017"
 ms.technology: 
   - "vs-ide-debug"
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.gputthreads"
 dev_langs: 

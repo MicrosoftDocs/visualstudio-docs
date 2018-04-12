@@ -1,7 +1,7 @@
 ---
 title: "Create a Load Test Plug-In in Visual Studio | Microsoft Docs"
 ms.date: "10/19/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords:
   - "vs.test.load.loadtestplugin"
 helpviewer_keywords:

@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-debug"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IntelliTrace, API reference"
 ms.assetid: 46e6c648-293b-45c2-a29e-cca9c36cd865

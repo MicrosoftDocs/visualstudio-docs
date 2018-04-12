@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "02/23/2018"
 ms.technology: 
   - "vs-ide-debug"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "debugging, .NET Framework source"
 ms.assetid: fc12e472-ac6a-4e77-8e22-a769e13a03b8

@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/22/2017"
 ms.technology: 
   - "vs-ide-sdk"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "editorconfig [extensibility]"
   - "editorconfig, supporting in a language service"

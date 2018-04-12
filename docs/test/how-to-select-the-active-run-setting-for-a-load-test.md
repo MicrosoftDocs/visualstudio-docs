@@ -1,7 +1,7 @@
 ---
 title: "Select a Run Setting for a Load Test in Visual Studio | Microsoft Docs"
 ms.date: "10/19/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "load tests, run settings, active"
 ms.assetid: ed6ff546-acfa-4dd8-b3a2-6e7455930ca4

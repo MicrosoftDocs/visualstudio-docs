@@ -1,7 +1,7 @@
 ---
 title: "Create a Web Performance Test Plug-In for Visual Studio | Microsoft Docs"
 ms.date: "10/03/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords:
   - "vs.test.web.webtestplugin"
 helpviewer_keywords:

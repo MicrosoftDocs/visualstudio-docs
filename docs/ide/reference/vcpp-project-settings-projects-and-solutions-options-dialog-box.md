@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "08/02/2017"
 ms.technology: 
   - "vs-ide-general"
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VS.ToolsOptionsPages.Projects.VCBuild"
 helpviewer_keywords: 

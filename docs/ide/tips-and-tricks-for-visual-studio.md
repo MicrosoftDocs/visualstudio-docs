@@ -2,7 +2,7 @@
 title: "Visual Studio keyboard shortcuts | Microsoft Docs"
 ms.date: "06/21/2017"
 ms.technology: vs-ide-general
-ms.topic: "article"
+ms.topic: "conceptual"
 author: "gewarren"
 ms.author: "gewarren"
 manager: douge

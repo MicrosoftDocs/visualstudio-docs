@@ -3,7 +3,7 @@ title: "Create an Android Native Activity App | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: vs-ide-mobile
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "C++"
 ms.assetid: 884014b1-5208-45ec-b0da-ad0070d2c24d

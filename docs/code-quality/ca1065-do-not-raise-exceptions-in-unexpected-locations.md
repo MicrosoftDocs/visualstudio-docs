@@ -2,7 +2,7 @@
 title: "CA1065: Do not raise exceptions in unexpected locations | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.technology: vs-ide-code-analysis
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords:
   - "CA1065"
   - "DoNotRaiseExceptionsInUnexpectedLocations"

@@ -3,7 +3,7 @@ title: "Install a custom start page or change the startup item in Visual Studio 
 ms.custom: ""
 ms.date: "02/01/2017"
 ms.technology: vs-ide-general
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords:
   - "vs.ToolsOptionsPages.Startup"
 helpviewer_keywords: 

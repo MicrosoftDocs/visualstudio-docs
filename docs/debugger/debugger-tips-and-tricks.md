@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "06/15/2017"
 ms.technology: 
   - "vs-ide-debug"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "stepping"
   - "debugging [Visual Studio], execution control"

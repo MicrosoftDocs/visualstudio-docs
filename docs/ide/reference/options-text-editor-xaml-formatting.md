@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "01/17/2017"
 ms.technology: 
   - "vs-ide-general"
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VS.ToolsOptionsPages.Text_Editor.XAML.Formatting.General"
   - "VS.ToolsOptionsPages.Text_Editor.XAML.Miscellaneous"

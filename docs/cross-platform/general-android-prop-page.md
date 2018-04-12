@@ -3,7 +3,7 @@ title: "General Project Properties (Android C++)| Microsoft Docs"
 ms.custom: ""
 ms.date: "10/23/2017"
 ms.technology: vs-ide-mobile
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 65f4868b-b864-4989-a275-1e51869ef599
 author: "corob"
 ms.author: "mblome"

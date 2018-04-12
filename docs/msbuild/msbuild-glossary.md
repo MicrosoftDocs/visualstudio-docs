@@ -3,7 +3,7 @@ title: "MSBuild Glossary | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: f767d8e4-24d8-4803-80eb-e857202dbe2c
 author: Mikejo5000
 ms.author: mikejo

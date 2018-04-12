@@ -1,7 +1,7 @@
 ---
 title: "Configuring Test Iterations for load testing in Visual Studio | Microsoft Docs"
 ms.date: "10/19/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "load tests, scenarios, iterations"
   - "load test, iterations"

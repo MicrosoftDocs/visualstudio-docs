@@ -1,7 +1,7 @@
 ---
 title: "Default page for F1 in Visual Studio | Microsoft Docs"
 ms.date: 02/28/2018
-ms.topic: article
+ms.topic: "conceptual"
 robots: noindex,nofollow
 f1_keywords:
  - "vs.texteditor"

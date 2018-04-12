@@ -3,7 +3,7 @@ title: "How to: Build a Project That Has Resources | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "resource files, compiling with MSBuild"
   - "resources [Visual Studio], compiling with MSBuild"

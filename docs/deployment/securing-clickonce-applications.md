@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "02/17/2017"
 ms.technology: 
   - "vs-ide-deployment"
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"

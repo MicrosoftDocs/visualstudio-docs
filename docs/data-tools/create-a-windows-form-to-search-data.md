@@ -2,7 +2,7 @@
 title: "Create a Windows Form to search data | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Windows Forms, searching data"
   - "Windows Forms, displaying data"

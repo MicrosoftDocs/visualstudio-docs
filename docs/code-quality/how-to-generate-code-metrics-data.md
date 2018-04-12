@@ -3,7 +3,7 @@ title: "How to generate code metrics data in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "12/12/2017"
 ms.technology: vs-ide-code-analysis
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "code metrics data"
   - "code metrics results"

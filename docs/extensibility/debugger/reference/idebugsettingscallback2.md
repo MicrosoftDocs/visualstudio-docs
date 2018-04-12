@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-sdk"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugSettingsCallback2 interface"
 ms.assetid: 7e525d0b-7d7a-4d1c-8b78-e1398fa922f2

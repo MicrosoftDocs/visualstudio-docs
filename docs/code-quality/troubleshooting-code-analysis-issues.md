@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 61c7e44d-2780-4df5-9bcb-49e40c1152fc
 author: "gewarren"
 ms.author: "gewarren"

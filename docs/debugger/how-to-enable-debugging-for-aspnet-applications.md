@@ -4,7 +4,7 @@ ms.custom: "H1HackMay2017"
 ms.date: "09/21/17"
 ms.technology: 
   - "vs-ide-debug"
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
   - "VB"

@@ -3,7 +3,7 @@ title: "Visual Studio code style preferences | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/10/2017"
 ms.technology: vs-ide-general
-ms.topic: "article"
+ms.topic: "conceptual"
 author: "gewarren"
 ms.author: "gewarren"
 manager: douge

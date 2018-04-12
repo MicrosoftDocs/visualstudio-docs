@@ -2,7 +2,7 @@
 title: "Database projects, server projects, and DAC projects in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "managing change, databases"
   - "database features of Visual Studio, managing change"

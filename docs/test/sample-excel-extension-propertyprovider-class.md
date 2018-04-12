@@ -2,7 +2,7 @@
 title: "Sample Excel Extension: PropertyProvider Class | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.author: gewarren
 manager: douge
 ms.workload: 

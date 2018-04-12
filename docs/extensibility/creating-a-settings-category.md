@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
   - "vs-ide-sdk"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "profile settings, creating categories"
 ms.assetid: 97c88693-05ff-499e-8c43-352ee073dcb7

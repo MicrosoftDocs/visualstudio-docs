@@ -3,7 +3,7 @@ title: "C# Code Snippets | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/05/2017"
 ms.technology: vs-ide-general
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "snippets [C#]"
   - "code snippets [C#]"

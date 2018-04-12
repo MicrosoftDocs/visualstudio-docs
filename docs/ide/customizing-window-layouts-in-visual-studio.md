@@ -4,7 +4,7 @@ ms.custom: ""
 ms.date: "01/23/2017"
 ms.technology: 
   - "vs-ide-general"
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.windows"
   - "vs.environment"

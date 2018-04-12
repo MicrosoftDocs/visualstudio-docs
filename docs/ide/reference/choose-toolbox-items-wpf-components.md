@@ -3,7 +3,7 @@ title: "Choose Toolbox Items, WPF Components | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/21/2017"
 ms.technology: vs-ide-general
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.chooseitems.wpfcomponents"
 helpviewer_keywords: 
