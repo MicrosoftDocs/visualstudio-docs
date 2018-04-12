@@ -1,5 +1,5 @@
 ---
-title: Managing Python application projects | Microsoft Docs
+title: Managing Python application projects
 description: Explains the purpose of projects in Visual Studio, demonstrates how to create and manage projects for Python code, and outlines the different project templates available for Python.
 ms.custom:
 ms.date: 03/05/2018

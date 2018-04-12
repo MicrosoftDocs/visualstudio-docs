@@ -1,13 +1,8 @@
 ---
-title: "How to: Add or Remove References By Using the Reference Manager | Microsoft Docs"
-ms.custom: ""
-ms.date: "01/18/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Add References in the Reference Manager
+ms.date: 04/11/2018
+ms.technology: vs-ide-general
+ms.topic: conceptual
 f1_keywords:
   - "VS.ReferenceManager"
 helpviewer_keywords:
@@ -24,11 +19,11 @@ helpviewer_keywords:
   - "referencing components, assemblies not listed"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ---
-# How to: add or remove references by using the Reference Manager
+# How to: Add or remove references by using the Reference Manager
 
 You can use the **Reference Manager** dialog box to add and manage references to components that you, Microsoft, or another company developed. If you're developing a Universal Windows app, your project automatically references all of the correct Windows SDK DLLs. If you are developing a .NET application, your project automatically references mscorlib.dll. Some .NET APIs are exposed in components that you have to add manually. References to COM components or custom components have to be added manually.
 
@@ -46,15 +41,15 @@ The **Reference Manager** dialog box shows different categories on the left side
 
 - Browse, with the Recent subgroup.
 
-## Adding and removing a reference
+## Add and remove a reference
 
 ### To add a reference
 
-1. In **Solution Explorer**, right-click on the References node and choose **Add Reference**.
-
-2. Specify the references to add, and then choose the **OK** button.
+1. In **Solution Explorer**, right-click on the **References** or **Dependencies** node and choose **Add Reference**. You can also right-click on the project node and select **Add** > **Reference**.
 
    **Reference Manager** opens and lists the available references by group.
+
+2. Specify the references to add, and then select **OK**.
 
 ## Assemblies tab
 
@@ -134,15 +129,9 @@ Some components in the list may not be shown, depending on the .NET Framework ve
 
    Open the **Add Reference** dialog box again. The assemblies should appear on the **.NET** tab. If they do not, make sure that the assemblies are located in the specified *AssemblyLocation* directory, restart Visual Studio, and try again.
 
-## COM tab
+## Projects tab
 
-The COM tab lists all COM components that are available for referencing. If you want to add a reference to a registered COM DLL that contains an internal manifest, unregister the DLL first. Otherwise, Visual Studio adds the assembly reference as an ActiveX Control instead of as a native DLL.
-
-If a project type doesn't support COM, the tab won't appear in the **Reference Manager** dialog box.
-
-## Solution tab
-
-The Solution tab lists all compatible projects within the current solution, in the Projects sub-tab.
+The **Projects** tab lists all compatible projects within the current solution, in the **Solution** sub-tab.
 
 A project can reference another project that targets a different version of the .NET Framework. For example, you could create a project that targets the [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] but that references an assembly that's been built for the .NET Framework 2. However, the .NET Framework 2 project can't reference a [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] project. For more information, see [Multi-targeting overview](../ide/visual-studio-multi-targeting-overview.md).
 
@@ -191,6 +180,12 @@ An SDK is a collection of files that Visual Studio treats as a single component.
 
 If a project type doesn't support **Extensions**, the tab doesn't appear in the **Reference Manager** dialog box.
 
+## COM tab
+
+The COM tab lists all COM components that are available for referencing. If you want to add a reference to a registered COM DLL that contains an internal manifest, unregister the DLL first. Otherwise, Visual Studio adds the assembly reference as an ActiveX Control instead of as a native DLL.
+
+If a project type doesn't support COM, the tab doesn't appear in the **Reference Manager** dialog box.
+
 ## Browse button
 
 You can use the **Browse** button to browse for a component in the file system.
@@ -226,4 +221,4 @@ The search bar in the **Reference Manager** dialog box operates over the tab tha
 
 ## See also
 
-[Managing references in a project](../ide/managing-references-in-a-project.md)
+- [Manage references in a project](../ide/managing-references-in-a-project.md)
