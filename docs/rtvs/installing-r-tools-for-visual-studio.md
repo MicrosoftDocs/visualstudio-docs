@@ -5,7 +5,6 @@ ms.custom:
 ms.date: 01/24/2018
 ms.technology:
   - "devlang-r"
-ms.tgt_pltfrm:
 dev_langs:
   - "R"
 ms.topic: "conceptual"

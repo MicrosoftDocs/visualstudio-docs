@@ -7,7 +7,6 @@ ms.technology:
   - "devlang-python"
 dev_langs:
   - "python"
-ms.tgt_pltfrm:
 ms.topic: "tutorial"
 author: "kraigb"
 ms.author: "kraigb"

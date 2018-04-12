@@ -8,7 +8,6 @@ ms.technology:
 dev_langs:
   - "R"
   - "SQL"
-ms.tgt_pltfrm:
 ms.topic: "conceptual"
 author: "kraigb"
 ms.author: "kraigb"

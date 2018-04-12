@@ -7,7 +7,6 @@ ms.technology:
   - "devlang-r"
 dev_langs:
   - "R"
-ms.tgt_pltfrm:
 ms.topic: "reference"
 author: "kraigb"
 ms.author: "kraigb"

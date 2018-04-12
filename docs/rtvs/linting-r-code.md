@@ -7,7 +7,6 @@ ms.technology:
   - "devlang-r"
 dev_langs:
   - "R"
-ms.tgt_pltfrm:
 f1_keywords: 
   - "vs.toolsoptionspages.text_editor.r.lint"
 ms.topic: "conceptual"

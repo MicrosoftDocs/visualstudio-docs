@@ -8,7 +8,6 @@ ms.technology:
 dev_langs:
   - "python"
   - "C++"
-ms.tgt_pltfrm:
 ms.topic: "conceptual"
 description: The process amd steps to write a C++ extension or module for Python in Visual Studio
 author: "kraigb"
