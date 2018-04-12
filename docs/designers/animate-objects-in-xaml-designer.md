@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.assetid: fb88fa26-e835-47f5-9771-2f279441c83c
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload:
   - "uwp"
 ---
@@ -18,7 +18,7 @@ To get started, create a *storyboard*. A storyboard contains one or more *timeli
 
 The following illustration shows a storyboard named **MoveUp**. The timeline contains keyframes that mark the X and Y position of a rectangle. When this animation runs, the rectangle moves from one position to another smoothly.
 
-![MoveUp storyboard in Blend](../designers/media/982f031a-74a3-414a-abc2-a0f41a741075.png)
+![MoveUp storyboard in XAML designer](../designers/media/982f031a-74a3-414a-abc2-a0f41a741075.png)
 
 ## See also
 
