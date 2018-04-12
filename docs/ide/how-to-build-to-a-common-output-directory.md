@@ -1,5 +1,5 @@
 ---
-title: "How to: Build to a Common Output Directory | Microsoft Docs"
+title: "How to: Build to a common output directory | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -20,7 +20,7 @@ manager: ghogen
 ms.workload: 
   - "multiple"
 ---
-# How to: Build to a Common Output Directory
+# How to: Build to a common output directory
 By default, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] builds each project in a solution in its own folder inside the solution. You can change the build output paths of your projects to force all outputs to be placed in the same folder.  
   
 ### To place all solution outputs in a common directory  
@@ -33,6 +33,6 @@ By default, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] builds eac
   
 4.  Repeat steps 1-3 for all projects in the solution.  
   
-## See Also  
- [Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)   
- [How to: Change the Build Output Directory](../ide/how-to-change-the-build-output-directory.md)
+## See also  
+ [Compile and build](../ide/compiling-and-building-in-visual-studio.md)   
+ [How to: Change the build output directory](../ide/how-to-change-the-build-output-directory.md)
