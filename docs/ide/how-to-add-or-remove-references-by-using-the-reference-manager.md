@@ -57,7 +57,7 @@ The **Assemblies** tab lists all .NET Framework assemblies that are available fo
 
 When you manually add a reference to any of the EnvDTE namespaces (<xref:EnvDTE>, <xref:EnvDTE80>, <xref:EnvDTE90>, <xref:EnvDTE90a>, or <xref:EnvDTE100>), set the **Embed Interop Types** property of the reference to **False** in the **Properties** window. Setting this property to **True** can cause build issues because of certain EnvDTE properties that can't be embedded.
 
-All desktop projects contain an implicit reference to **mscorlib**. [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] projects contain an implicit reference to <xref:Microsoft.VisualBasic>. All projects contain an implicit reference to <xref:System.Core>, even if it's removed from the list of references.
+All desktop projects contain an implicit reference to **mscorlib**. [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] projects contain an implicit reference to <xref:Microsoft.VisualBasic>. All projects contain an implicit reference to **System.Core**, even if it's removed from the list of references.
 
 If a project type doesn't support Assemblies, the tab won't appear in the **Reference Manager** dialog box.
 
@@ -167,7 +167,7 @@ In the desktop projects, the **Core** subgroup doesn't appear by default. You ca
 </PropertyGroup>
 ```
 
-Make sure to select the **Windows** check box on this subgroup. You should then be able to use Windows Runtime elements. However, you'll also want to add <xref:System.Runtime>, in which the Windows Runtime defines some standard classes and interfaces, such as <xref:IEnumerable>, that are used throughout the Windows Runtime libraries. For information about how to add <xref:System.Runtime>, see [Managed desktop apps and Windows Runtime](http://msdn.microsoft.com/library/windows/apps/jj856306.aspx#consuming_standard_windows_runtime_types).
+Make sure to select the **Windows** check box on this subgroup. You should then be able to use Windows Runtime elements. However, you'll also want to add <xref:System.Runtime>, in which the Windows Runtime defines some standard classes and interfaces, such as <xref:System.Collections.IEnumerable>, that are used throughout the Windows Runtime libraries. For information about how to add <xref:System.Runtime>, see [Managed desktop apps and Windows Runtime](http://msdn.microsoft.com/library/windows/apps/jj856306.aspx#consuming_standard_windows_runtime_types).
 
 ### Extensions subgroup
 

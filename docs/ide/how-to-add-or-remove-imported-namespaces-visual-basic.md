@@ -47,9 +47,9 @@ Importing a namespace allows you to use elements from that namespace in your cod
 3.  In the **Imported Namespaces** list, clear the check box for the namespace that you wish to remove.  
 
 ## User imports  
- User imports allow you to import a specific class within a namespace rather than the entire namespace. For example, your application might have an import for the `Systems.Diagnostics` namespace, but the only class within that namespace that you are interested in is the `Debug` class. You can define `System.Diagnostics.Debug` as a user import, and then remove the import for `System.Diagnostics`.  
+ User imports allow you to import a specific class within a namespace rather than the entire namespace. For example, your application might have an import for the <xref:Systems.Diagnostics> namespace, but the only class within that namespace that you are interested in is the `Debug` class. You can define <xref:System.Diagnostics.Debug> as a user import, and then remove the import for <xref:System.Diagnostics>.  
 
- If you later change you mind and decide that was really the `EventLog` class that you needed, you could enter `System.Diagnostics.EventLog` as a user import and overwrite `System.Diagnostics.Debug` using the update functionality.  
+ If you later change you mind and decide that was really the `EventLog` class that you needed, you could enter <xref:System.Diagnostics.EventLog> as a user import and overwrite <xref:System.Diagnostics.Debug> using the update functionality.  
 
 ### To add a user import  
 
