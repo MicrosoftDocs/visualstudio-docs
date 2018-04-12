@@ -20,9 +20,9 @@ manager: ghogen
 ms.workload: 
   - "multiple"
 ---
-# Code Snippet functions
+# Code snippet functions
 
-There are three functions available to use with C# code snippets. Functions are specified in the [Function](../ide/code-snippets-schema-reference.md#function) element of the code snippet. For information on creating code snippets, see [Code Snippets](../ide/code-snippets.md).
+There are three functions available to use with C# code snippets. Functions are specified in the [Function](../ide/code-snippets-schema-reference.md#function) element of the code snippet. For information on creating code snippets, see [Code snippets](../ide/code-snippets.md).
 
 ## Functions
 
@@ -158,5 +158,5 @@ This example shows how to use the `SimpleTypeName` function. When this snippet i
 
 ## See also
 
-[Function Element](../ide/code-snippets-schema-reference.md#function)  
-[Code Snippets Schema Reference](../ide/code-snippets-schema-reference.md)
+[Function element](../ide/code-snippets-schema-reference.md#function)  
+[Code snippets schema reference](../ide/code-snippets-schema-reference.md)
