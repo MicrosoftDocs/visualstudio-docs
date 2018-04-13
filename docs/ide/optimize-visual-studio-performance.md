@@ -23,7 +23,7 @@ If you are currently using Visual Studio 2015, download [Visual Studio 2017](htt
 
 If you are currently using Visual Studio 2017, make sure you are running version 15.6 or later. Data shows that solutions load up to two or three times faster in version 15.6. Download it [here](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs).
 
-## Extensions
+## Extensions and tool windows
 
 You may have extensions installed that are slowing Visual Studio down. For help on managing extensions to improve performance, see [Change extension settings to improve performance](../ide/optimize-visual-studio-startup-time.md#extensions).
 
