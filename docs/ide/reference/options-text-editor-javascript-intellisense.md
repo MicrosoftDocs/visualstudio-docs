@@ -2,20 +2,16 @@
 title: "Options, Text Editor, JavaScript, IntelliSense | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Intellisense.References"
   - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Intellisense.General"
 ms.assetid: b4a9816d-cf87-4dc6-a8d4-1591d6a48103
-caps.latest.revision: 20
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

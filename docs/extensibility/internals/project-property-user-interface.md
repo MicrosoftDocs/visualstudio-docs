@@ -3,17 +3,15 @@ title: "Project Property User Interface | Microsoft Docs"
 ms.date: 03/22/2018
 ms.technology:
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "project properties [Visual Studio], user interface"
   - "projects [Visual Studio SDK], properties UI"
   - "project properties UI"
 ms.assetid: b6aec634-8533-476c-9ebd-36536a2288e2
-caps.latest.revision: 16
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload:
   - "vssdk"
 ---

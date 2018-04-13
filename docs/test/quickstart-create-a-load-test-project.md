@@ -6,7 +6,7 @@ helpviewer_keywords:
   - "load testing, quickstart"
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.technology: vs-ide-test
 ---
 # Quickstart: Create a load test project

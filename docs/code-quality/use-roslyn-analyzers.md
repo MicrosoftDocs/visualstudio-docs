@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "Roslyn analyzers"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload:
   - "dotnet"
 ---

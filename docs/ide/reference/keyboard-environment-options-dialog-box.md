@@ -2,19 +2,15 @@
 title: "Keyboard, Environment, Options Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VS.ToolsOptionsPages.Environment.Keyboard"
 ms.assetid: 038da8dc-6126-4f3e-a361-a58cc04cafb3
-caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

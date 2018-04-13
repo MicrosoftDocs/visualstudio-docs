@@ -6,7 +6,7 @@ author: lisawong19
 ms.author: liwong
 manager: routlaw
 ms.date: 11/13/2017
-ms.topic: how-to article
+ms.topic: "conceptual"
 ms.devlang: multiple
 ms.service: multiple
 ms.technology: vs-ai-tools

@@ -2,12 +2,9 @@
 title: "Create Web templates for Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/02/2018"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Visual Studio templates, Web"
   - "templates [Visual Studio], Web"
@@ -15,7 +12,7 @@ helpviewer_keywords:
   - "project templates [Visual Studio], Web"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ---
 # How to: Manually create Web templates
 

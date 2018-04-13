@@ -2,12 +2,9 @@
 title: "CA1715: Identifiers should have correct prefix | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "CA1715"
   - "IdentifiersShouldHaveCorrectPrefix"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "IdentifiersShouldHaveCorrectPrefix"
   - "CA1715"
 ms.assetid: cf45f8df-6855-4cb6-a4e2-7cfed714cf2f
-caps.latest.revision: 30
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -2,21 +2,17 @@
 title: "MODULE_INFO_FLAGS | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "MODULE_INFO_FLAGS"
 helpviewer_keywords: 
   - "MODULE_INFO_FLAGS enumeration"
 ms.assetid: e22d3723-b4d4-4524-8a2f-3adb55bbd273
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

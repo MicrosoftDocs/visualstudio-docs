@@ -3,11 +3,8 @@ title: "Install and use Visual Studio and Azure Services behind a firewall or pr
 description: ""
 ms.custom: ""
 ms.date: "02/12/2018"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology:
   - "vs-acquisition"
-ms.tgt_pltfrm: ""
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "network installation, Visual Studio"

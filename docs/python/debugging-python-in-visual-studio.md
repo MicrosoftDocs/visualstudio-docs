@@ -3,13 +3,10 @@ title: Debugging Python code
 description: A walkthrough of the debugging features in Visual Studio specifically for Python code, including setting breakpoints, stepping, inspecting values, looking at exceptions, and debugging in the interactive window.
 ms.custom:
 ms.date: 03/05/2018
-ms.reviewer:
-ms.suite:
 ms.technology:
   - "devlang-python"
 dev_langs:
   - "python"
-ms.tgt_pltfrm:
 ms.topic: "conceptual"
 author: "kraigb"
 ms.author: "kraigb"

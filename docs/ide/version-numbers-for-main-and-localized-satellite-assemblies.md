@@ -2,12 +2,9 @@
 title: "Version Numbers for Main and Localized Satellite Assemblies | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "satellite assemblies, version numbers"
   - "SatelliteContractVersionAttribute"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "assemblies [Visual Studio], version numbers"
   - "versioning, assemblies"
 ms.assetid: 5489aea1-57b4-4561-9bb4-24d490269602
-caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -2,13 +2,9 @@
 title: "Visual Studio and Xamarin | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/30/2018"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-mobile
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 1da4064f-af69-472c-8f31-98484be5f790
-caps.latest.revision: 10
 author: charlespetzold
 ms.author: chape
 manager: crdun

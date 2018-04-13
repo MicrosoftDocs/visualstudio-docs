@@ -2,12 +2,9 @@
 title: "Code Analysis for C/C++ Warnings | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "code analysis, warnings for C/C++ code"
   - "warnings, code analysis"
@@ -19,10 +16,9 @@ helpviewer_keywords:
   - "native code analysis"
   - "warnings, C/C++ analysis"
 ms.assetid: 28f3fda6-35e8-485b-9755-1991aaccec3f
-caps.latest.revision: 41
 author: mikeblome
 ms.author: mblome
-manager: ghogen
+manager: douge
 ms.workload: 
   - "cplusplus"
 ---

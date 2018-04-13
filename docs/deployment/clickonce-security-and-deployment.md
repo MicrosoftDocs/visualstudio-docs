@@ -2,12 +2,9 @@
 title: "ClickOnce Security and Deployment | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -18,7 +15,6 @@ helpviewer_keywords:
   - "ClickOnce deployment"
   - "publishing, ClickOnce"
 ms.assetid: abab6d34-c3c2-45c1-a8b6-43c7d3131e7a
-caps.latest.revision: 32
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"

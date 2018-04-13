@@ -8,7 +8,7 @@ f1_keywords:
 ms.assetid: 864b60b6-a070-4e5c-aa5b-a25341b57ea6
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload: 
   - "dotnet"
 ---

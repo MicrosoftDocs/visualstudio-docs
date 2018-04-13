@@ -2,12 +2,9 @@
 title: "Design Warnings | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.codeanalysis.designrules"
 helpviewer_keywords: 
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "managed code analysis warnings, design warnings"
   - "warnings, design"
 ms.assetid: 34e65a18-560c-423f-814f-519089e318cf
-caps.latest.revision: 25
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

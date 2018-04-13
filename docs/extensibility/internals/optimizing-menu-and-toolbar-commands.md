@@ -2,12 +2,9 @@
 title: "Optimizing Menu and Toolbar Commands | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "commands [Visual Studio], menus"
   - "commands [Visual Studio], toolbars"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "menu commands, implementing"
   - "toolbars [Visual Studio], commands"
 ms.assetid: 8385f1a6-1e98-4dca-83d2-fcbed7177242
-caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

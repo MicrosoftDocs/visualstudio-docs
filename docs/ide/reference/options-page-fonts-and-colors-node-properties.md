@@ -2,20 +2,16 @@
 title: "Options Page, Fonts and Colors Node Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Tools Options settings, Fonts and Colors node properties"
   - "automation [Visual Studio], controlling Tools Options"
 ms.assetid: 8e1ab784-5f85-4e2b-8ef9-e5d59ca4dbcb
-caps.latest.revision: 8
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

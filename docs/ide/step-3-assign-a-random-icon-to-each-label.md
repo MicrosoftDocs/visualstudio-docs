@@ -2,17 +2,13 @@
 title: "Step 3: Assign a Random Icon to Each Label | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-acquisition"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 0ba5ed7a-9aaa-41f4-95d2-e3c2d567bc79
-caps.latest.revision: 31
 author: "TerryGLee"
 ms.author: "tglee"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

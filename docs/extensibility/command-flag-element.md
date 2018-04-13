@@ -2,20 +2,16 @@
 title: "Command Flag Element | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "CommandFlag element (VSCT XML schema)"
   - "VSCT XML schema elements, CommandFlag"
 ms.assetid: 5ef63399-d2db-4dc1-97ce-be1bd4ef4e39
-caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

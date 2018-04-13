@@ -2,22 +2,18 @@
 title: "Reference Element (Visual Studio Templates) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/vstemplate/2005#Reference"
 helpviewer_keywords: 
   - "Reference element [Visual Studio templates]"
   - "<Reference> element [Visual Studio templates]"
 ms.assetid: 852772ea-c324-42e9-8c8a-6d565414a109
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

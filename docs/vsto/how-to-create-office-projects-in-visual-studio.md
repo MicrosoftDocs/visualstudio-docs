@@ -2,12 +2,9 @@
 title: "How to: Create Office Projects in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VST.SelectDocWizard.Page1"
   - "VST.SelectDocWizard.Http"
@@ -24,7 +21,7 @@ helpviewer_keywords:
   - "application-level add-ins [Office development in Visual Studio], creating projects"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

@@ -2,11 +2,8 @@
 title: "Deployment overview - Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: 07/14/2017
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
 ms.topic: "overview"
 dev_langs: 
   - "FSharp"

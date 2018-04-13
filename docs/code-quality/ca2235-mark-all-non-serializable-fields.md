@@ -2,12 +2,9 @@
 title: "CA2235: Mark all non-serializable fields | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "CA2235"
   - "MarkAllNonSerializableFields"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "CA2235"
   - "MarkAllNonSerializableFields"
 ms.assetid: 599ad877-3a15-426c-bf17-5de15427365f
-caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

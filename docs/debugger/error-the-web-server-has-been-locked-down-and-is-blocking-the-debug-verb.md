@@ -2,11 +2,8 @@
 title: "Error: The Web Server Has Been Locked Down and Is Blocking the DEBUG Verb | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.error.webdbg_debug_verb_blocked"
@@ -17,10 +14,9 @@ dev_langs:
   - "C++"
 helpviewer_keywords: 
   - "debugger, Web application errors"
-caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -2,21 +2,17 @@
 title: "Advanced Build Settings Dialog Box (C#) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/20/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "cs.AdvancedBuildSettings"
 helpviewer_keywords: 
   - "Build options [C#], advanced"
 ms.assetid: 141f2dee-1563-4ce6-ba37-32920b082519
-caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "dotnet"
 ---

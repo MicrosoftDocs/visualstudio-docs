@@ -2,19 +2,15 @@
 title: "CA2149: Transparent methods must not call into native code | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "CA2149"
 ms.assetid: 28951bd7-f3db-4871-99aa-bad68d1ead80
-caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "cplusplus"
 ---

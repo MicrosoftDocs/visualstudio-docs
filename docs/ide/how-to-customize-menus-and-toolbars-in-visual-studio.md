@@ -2,12 +2,9 @@
 title: "How to: Customize Menus and Toolbars in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.renametoolbar"
   - "vs.customize.toolbars"
@@ -28,10 +25,9 @@ helpviewer_keywords:
   - "toolbars [Visual Studio], customizing"
   - "toolbars [Visual Studio], customizing in the IDE"
 ms.assetid: b570ae2f-5302-45dc-9cc9-8d4d1ad50603
-caps.latest.revision: 28
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

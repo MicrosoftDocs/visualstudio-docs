@@ -2,12 +2,9 @@
 title: "Toggle Breakpoint Command | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "debug.togglebreakpoint"
 helpviewer_keywords: 
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "Debug.ToggleBreakPoint command"
   - "Toggle Breakpoint command"
 ms.assetid: d50dfadb-ce79-4d5e-9c09-1cfddd57876d
-caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

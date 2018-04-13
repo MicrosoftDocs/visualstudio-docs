@@ -2,12 +2,9 @@
 title: "Default keyboard shortcuts in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/26/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "shortcut keys [Visual Studio], keyboard binding schemes"
   - "keyboard binding schemes [Visual Studio]"
@@ -16,7 +13,7 @@ helpviewer_keywords:
   - "keyboard shortcuts"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -2,20 +2,16 @@
 title: "Environment Options Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VS.OptionsDialog.Environment"
   - "VS.ToolsOptionsPages.Environment"
 ms.assetid: 3f463cf0-734b-4fdc-b4ff-b47f9bb99069
-caps.latest.revision: 29
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -2,12 +2,9 @@
 title: "-Out (devenv.exe) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "errors [Visual Studio], builds"
   - "Devenv, /out switch"
@@ -19,10 +16,9 @@ helpviewer_keywords:
   - "builds [Visual Studio], errors"
   - "output files, build errors"
 ms.assetid: 9002d8c2-36d4-451c-b489-8f01932f31f7
-caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

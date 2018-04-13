@@ -2,21 +2,17 @@
 title: "IDebugObject::GetSize | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugObject::GetSize"
 helpviewer_keywords: 
   - "IDebugObject::GetSize method"
 ms.assetid: 89af423b-36eb-479d-b2de-2693455eca15
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

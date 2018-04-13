@@ -2,19 +2,16 @@
 title: "Common Patterns for Poorly-Behaved Multithreaded Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.cv.threads.tools.gallery"
 helpviewer_keywords: 
   - "Concurrency Visualizer, common patterns for poorly-behaved multithreaded applications"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

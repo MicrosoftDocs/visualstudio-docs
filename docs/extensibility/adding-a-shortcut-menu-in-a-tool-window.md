@@ -2,22 +2,18 @@
 title: "Adding a Shortcut Menu in a Tool Window | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "context menus, adding to tool windows"
   - "menus, context menus"
   - "shortcut menus, adding to tool windows"
   - "tool windows, adding context menus"
 ms.assetid: 50234537-9e95-4b7e-9cb7-e5cf26d6e9d2
-caps.latest.revision: 37
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

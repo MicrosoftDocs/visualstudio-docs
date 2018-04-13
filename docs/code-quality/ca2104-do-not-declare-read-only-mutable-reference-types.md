@@ -2,12 +2,9 @@
 title: "CA2104: Do not declare read only mutable reference types | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "DoNotDeclareReadOnlyMutableReferenceTypes"
   - "CA2104"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "CA2104"
   - "DoNotDeclareReadOnlyMutableReferenceTypes"
 ms.assetid: 81b83ee5-4db5-4be0-9f8d-90b53894ec3b
-caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

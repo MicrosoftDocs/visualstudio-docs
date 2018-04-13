@@ -2,20 +2,16 @@
 title: ".NET Memory Data Views | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - ".NET memory profiling method views"
   - "profiling tools,.NET memory profiling views"
 ms.assetid: 79184d8e-769b-4ace-be2b-521147772081
-caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

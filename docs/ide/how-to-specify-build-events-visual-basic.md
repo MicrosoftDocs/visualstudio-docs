@@ -2,12 +2,9 @@
 title: "How to: Specify Build Events (Visual Basic) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "pre-build events"
   - "events [Visual Studio], builds"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "build events [Visual Studio]"
   - "builds [Visual Studio], events"
 ms.assetid: 40dc83bf-a7c5-4a14-816a-fa0980b6e4c3
-caps.latest.revision: 26
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -2,12 +2,9 @@
 title: "Build Events Dialog Box (Visual Basic) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vb.ProjectPropertiesBuildEvents"
 helpviewer_keywords: 
@@ -17,10 +14,9 @@ helpviewer_keywords:
   - "Build Events dialog box"
   - "post-build events"
 ms.assetid: 3a81a7c7-39f9-47a8-ba5a-b351227f380e
-caps.latest.revision: 4
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

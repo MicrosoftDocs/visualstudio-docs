@@ -1,7 +1,7 @@
 ---
 title: "Load patterns for load testing in Visual Studio | Microsoft Docs"
 ms.date: "10/19/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "load tests, load patterns"
   - "load tests, scenarios"
@@ -9,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 0ba0363b-7f50-4bde-a919-0e3bce7bc115
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.technology: vs-ide-test
 ---
 # Edit Load Patterns to Model Virtual User Activities

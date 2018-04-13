@@ -2,17 +2,13 @@
 title: "Walkthrough: Creating an SDK using C# or Visual Basic | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: ef96a249-5eef-402a-a8d5-d74cb49239bd
-caps.latest.revision: 20
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

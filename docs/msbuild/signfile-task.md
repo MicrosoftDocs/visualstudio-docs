@@ -2,11 +2,8 @@
 title: "SignFile Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#SignFile"
 dev_langs: 
@@ -18,10 +15,9 @@ helpviewer_keywords:
   - "MSBuild, SignFile task"
   - "SignFile task [MSBuild]"
 ms.assetid: edef1819-ddeb-4e09-95de-fc7063ba9388
-caps.latest.revision: 19
 author: Mikejo5000
 ms.author: mikejo
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

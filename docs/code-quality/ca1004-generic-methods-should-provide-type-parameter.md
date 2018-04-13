@@ -2,12 +2,9 @@
 title: "CA1004: Generic methods should provide type parameter | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "CA1004"
   - "GenericMethodsShouldProvideTypeParameter"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "GenericMethodsShouldProvideTypeParameter"
   - "CA1004"
 ms.assetid: 38755f6a-fb45-4bf2-932e-0354ad826499
-caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

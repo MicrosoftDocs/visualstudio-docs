@@ -2,15 +2,12 @@
 title: "Using EditorConfig settings in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "12/13/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "editorconfig [Visual Studio]"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.technology: vs-ide-general
 ---
 # Create portable, custom editor settings with EditorConfig

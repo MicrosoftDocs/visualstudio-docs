@@ -2,22 +2,18 @@
 title: "Analyze energy use in UWP apps | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
   - "VB"
   - "FSharp"
   - "C++"
 ms.assetid: 96d06843-b97e-45a8-8126-07478a40bfc4
-caps.latest.revision: 34
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "uwp"
 ---

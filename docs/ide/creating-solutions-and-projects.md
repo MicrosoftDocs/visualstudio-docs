@@ -2,11 +2,8 @@
 title: "Create solutions and projects in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: 02/06/2018
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.openprojectfromweb"
   - "vs.newproject"
@@ -17,7 +14,7 @@ helpviewer_keywords:
   - "projects [Visual Studio], creating"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

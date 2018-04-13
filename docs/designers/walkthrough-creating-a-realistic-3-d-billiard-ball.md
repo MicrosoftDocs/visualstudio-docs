@@ -2,17 +2,13 @@
 title: "Walkthrough: Creating a Realistic 3-D Billiard Ball | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-designers"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: af8eb0f3-bf6a-4d1c-ab47-dcd88ab04efa
-caps.latest.revision: 9
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

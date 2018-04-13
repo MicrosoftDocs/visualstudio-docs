@@ -2,22 +2,18 @@
 title: "Replace Command | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "edit.replace"
 helpviewer_keywords: 
   - "Edit.Replace command"
   - "Replace command"
 ms.assetid: a15767f1-5a3d-44f5-8c77-7b0f1157f340
-caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

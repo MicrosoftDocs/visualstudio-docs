@@ -2,21 +2,17 @@
 title: "JMC_CODE_SPEC | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "JMC_CODE_SPEC"
 helpviewer_keywords: 
   - "JMC_CODE_SPEC structure"
 ms.assetid: d89498f1-4234-46d9-b4e2-abbcbca5068a
-caps.latest.revision: 6
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

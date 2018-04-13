@@ -1,13 +1,13 @@
 ---
 title: "Threshold Violations for load tests in Visual Studio | Microsoft Docs"
 ms.date: "10/19/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "load tests, threshold violations"
 ms.assetid: 0126d7b7-0538-4ea9-9046-6556654b3b9d
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.technology: vs-ide-test
 ---
 # How to: Analyze Threshold Violations Using the Counters Panel in Load Test Analyzer

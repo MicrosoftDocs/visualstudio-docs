@@ -2,15 +2,11 @@
 title: "The selected class cannot be deleted because it is used as a return type for one or more DataContext methods | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: d68254a0-f3a1-47e2-aed3-a83471e1d711
-caps.latest.revision: 3
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.technology: "vs-data-tools"
 ms.workload: 
   - "data-storage"

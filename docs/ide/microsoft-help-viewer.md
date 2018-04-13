@@ -2,12 +2,9 @@
 title: "Visual Studio offline help documentation | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-help-viewer"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "hv_general"
 helpviewer_keywords: 
@@ -20,10 +17,9 @@ helpviewer_keywords:
   - "Help Viewer, navigating"
   - "toolbar [Help Viewer]"
 ms.assetid: 74e41666-2ce8-4ac0-a0e5-3723d1e322c2
-caps.latest.revision: 25
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

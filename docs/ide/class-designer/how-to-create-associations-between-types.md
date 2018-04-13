@@ -2,12 +2,9 @@
 title: "How to: Create Associations Between Types (Class Designer) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.classdesigner.associationline"
 helpviewer_keywords: 
@@ -17,10 +14,9 @@ helpviewer_keywords:
   - "associations, types"
   - "association lines"
 ms.assetid: adccb9c8-2f8a-4086-9fa9-f70f99fb6e00
-caps.latest.revision: 20
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

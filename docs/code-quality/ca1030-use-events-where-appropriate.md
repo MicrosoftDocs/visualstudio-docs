@@ -2,12 +2,9 @@
 title: "CA1030: Use events where appropriate | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "UseEventsWhereAppropriate"
   - "CA1030"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "CA1030"
   - "UseEventsWhereAppropriate"
 ms.assetid: ea051367-deeb-40f9-9b65-eb818f1e133a
-caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -2,12 +2,9 @@
 title: "CA1900: Value type fields should be portable | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "CA1900"
   - "ValueTypeFieldsShouldBePortable"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "ValueTypeFieldsShouldBePortable"
   - "CA1900"
 ms.assetid: 1787d371-389f-4d39-b305-12b53bc0dfb9
-caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

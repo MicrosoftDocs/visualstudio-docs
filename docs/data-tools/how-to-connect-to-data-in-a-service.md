@@ -2,10 +2,7 @@
 title: "How to: Connect to Data in a Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "data [Visual Studio], connecting to Web services"
   - "data sources, creating from Web services"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "Web services, as data sources"
   - "Web services, connecting"
 ms.assetid: a6b54353-05fe-4e5c-8631-90231fc95504
-caps.latest.revision: 32
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.technology: "vs-data-tools"
 ms.workload: 
   - "data-storage"

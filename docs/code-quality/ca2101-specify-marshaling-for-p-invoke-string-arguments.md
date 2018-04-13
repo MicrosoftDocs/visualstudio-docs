@@ -2,12 +2,9 @@
 title: "CA2101: Specify marshaling for P-Invoke string arguments | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "SpecifyMarshalingForPInvokeStringArguments"
   - "CA2101"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "CA2101"
   - "SpecifyMarshalingForPInvokeStringArguments"
 ms.assetid: 9d1abfc3-d320-41e0-9f6e-60cefe6ffe1b
-caps.latest.revision: 19
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

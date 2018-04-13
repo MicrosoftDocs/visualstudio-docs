@@ -2,12 +2,9 @@
 title: "Miscellaneous Files | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VS.newfile"
   - "VS.OpenWith"
@@ -21,10 +18,9 @@ helpviewer_keywords:
   - "files [Visual Studio], outside of containers"
   - "files [Visual Studio], Miscellaneous Files folder"
 ms.assetid: 5b96640b-8efe-48a4-8d0a-1ae3f9587e44
-caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -2,12 +2,9 @@
 title: "The Code Metrics Results window in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "12/12/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology:
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords:
   - "vs.codemetrics.output"
 helpviewer_keywords:
@@ -16,7 +13,7 @@ helpviewer_keywords:
   - "results window, code metrics"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ---

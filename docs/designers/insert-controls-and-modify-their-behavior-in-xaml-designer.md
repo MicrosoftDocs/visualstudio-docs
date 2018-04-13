@@ -2,7 +2,7 @@
 title: "Insert controls and modify their behavior in XAML Designer | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.technology: vs-ide-designers
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: a80fff74-bf01-41c9-ab85-ada7a873c3a9
 author: "gewarren"
 ms.author: "gewarren"

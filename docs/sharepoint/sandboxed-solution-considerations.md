@@ -2,12 +2,9 @@
 title: "Sandboxed Solution Considerations | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.Project.SandboxedSolutions"
   - "VS.SharePointTools.Security.SandboxedSolutions"
@@ -23,7 +20,7 @@ helpviewer_keywords:
   - "farm solutions [SharePoint development in Visual Studio]"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

@@ -2,11 +2,8 @@
 title: "Code Snippet Picker | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.expansionpicker"
 helpviewer_keywords: 
@@ -15,7 +12,7 @@ helpviewer_keywords:
   - "code snippets, Code Snippet Picker"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

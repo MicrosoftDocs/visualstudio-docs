@@ -2,15 +2,12 @@
 title: "Profiling overview - Visual Studio | Microsoft Docs"
 ms.custom: "mvc"
 ms.date: "03/27/2018"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "overview"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: douge
 ms.workload: 
   - "multiple"
 ---

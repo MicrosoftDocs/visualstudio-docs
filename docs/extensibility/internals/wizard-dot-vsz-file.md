@@ -2,21 +2,17 @@
 title: "Wizard (.Vsz) File | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - ".vsz files"
   - "vsz files"
   - "wizards, files"
 ms.assetid: 72e1d0f3-eef1-455e-b803-96827f030f50
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

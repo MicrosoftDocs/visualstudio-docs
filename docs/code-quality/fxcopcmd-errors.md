@@ -2,13 +2,13 @@
 title: "FxCopCmd errors | Microsoft Docs"
 ms.date: "10/19/2016"
 ms.technology: vs-ide-code-analysis
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "FxCopCmd errors"
 ms.assetid: bb614ed0-1b7c-4b56-99ae-da50ef6cfef9
 ms.author: "gewarren"
 author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ---

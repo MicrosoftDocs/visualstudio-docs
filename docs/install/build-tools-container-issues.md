@@ -2,11 +2,8 @@
 title: "Known issues for containers | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/18/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology:
   - "vs-acquisition"
-ms.tgt_pltfrm: ""
 ms.topic: "conceptual"
 ms.assetid: "140083f1-05bc-4014-949e-fb5802397c7a"
 author: "heaths"

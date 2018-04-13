@@ -2,9 +2,9 @@
 title: "Sample Excel Extension: Element Classes | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 author: gewarren

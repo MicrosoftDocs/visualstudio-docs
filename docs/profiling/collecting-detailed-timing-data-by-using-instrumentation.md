@@ -2,20 +2,16 @@
 title: "Collecting Detailed Timing Data by Using Instrumentation | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Profiling Tools,instrumentation method"
   - "instrumentation profiling method"
 ms.assetid: e9deb370-c459-45ac-84d3-14d646590d05
-caps.latest.revision: 18
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

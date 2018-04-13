@@ -2,12 +2,9 @@
 title: "CA1008: Enums should have zero value | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "CA1008"
   - "EnumsShouldHaveZeroValue"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "CA1008"
   - "EnumsShouldHaveZeroValue"
 ms.assetid: 3503a73c-360c-416d-8ee4-c2aa44365a05
-caps.latest.revision: 21
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

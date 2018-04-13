@@ -2,10 +2,7 @@
 title: "Install Xamarin for Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/30/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 2cfcad00-352c-4161-814c-f5ae32d8ada8
 ms.technology: vs-ide-mobile
 author: charlespetzold

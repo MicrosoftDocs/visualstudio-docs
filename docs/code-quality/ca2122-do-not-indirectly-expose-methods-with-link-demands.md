@@ -2,12 +2,9 @@
 title: "CA2122: Do not indirectly expose methods with link demands | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "CA2122"
   - "DoNotIndirectlyExposeMethodsWithLinkDemands"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "DoNotIndirectlyExposeMethodsWithLinkDemands"
   - "CA2122"
 ms.assetid: 3eda58e7-c6ec-41c3-8112-ae0841109c6a
-caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

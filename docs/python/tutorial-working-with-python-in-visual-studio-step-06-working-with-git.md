@@ -3,13 +3,10 @@ title: Working with Python, step 6, working with git
 description: Step 6 of a core tutorial for working with Python within Visual Studio, covering Visual Studio's Git-related features.
 ms.custom: "mvc"
 ms.date: 01/16/2018
-ms.reviewer:
-ms.suite:
 ms.technology: 
   - "devlang-python"
 dev_langs:
   - "python"
-ms.tgt_pltfrm:
 ms.topic: "tutorial"
 author: "kraigb"
 ms.author: "kraigb"

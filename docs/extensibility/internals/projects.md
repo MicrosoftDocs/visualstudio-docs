@@ -2,12 +2,9 @@
 title: "Projects | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "solutions [Visual Studio]"
   - "custom tools [Visual Studio SDK]"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "projects [Visual Studio SDK]"
   - "project types [Visual Studio SDK]"
 ms.assetid: 237742e4-a638-4d5b-a9b3-6a69d627763c
-caps.latest.revision: 43
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

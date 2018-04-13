@@ -2,10 +2,7 @@
 title: "Pass data between forms | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -16,10 +13,9 @@ helpviewer_keywords:
   - "forms, passing data between"
   - "Windows Forms, walkthroughs"
 ms.assetid: 78bf038b-9296-4fbf-b0e8-d881d1aff0df
-caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.technology: "vs-data-tools"
 ms.workload: 
   - "data-storage"

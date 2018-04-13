@@ -2,21 +2,17 @@
 title: "span Class | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "cvmarkersobj/Concurrency::diagnostic::span"
 helpviewer_keywords: 
   - "Concurrency::diagnostic::span class"
 ms.assetid: 527826a8-2590-43ad-b907-7bc0b7288e92
-caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

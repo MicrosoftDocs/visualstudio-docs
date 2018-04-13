@@ -2,12 +2,9 @@
 title: "Choosing a ClickOnce Update Strategy | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -17,7 +14,6 @@ helpviewer_keywords:
   - "updates, ClickOnce"
   - "ClickOnce deployment, update strategies"
 ms.assetid: d8b6e7bb-4ea0-47f3-91cd-48580bdceccc
-caps.latest.revision: 23
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"

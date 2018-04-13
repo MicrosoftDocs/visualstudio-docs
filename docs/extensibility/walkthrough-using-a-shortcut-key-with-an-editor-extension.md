@@ -2,19 +2,15 @@
 title: "Walkthrough: Using a Shortcut Key with an Editor Extension | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], new - link keystrokes to commands"
 ms.assetid: cf6cc6c6-5a65-4f90-8f14-663decf74672
-caps.latest.revision: 32
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

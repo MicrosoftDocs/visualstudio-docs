@@ -2,12 +2,9 @@
 title: "How to: Create Types by using Class Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VS.Clr.ClrAttributesDialog"
 helpviewer_keywords: 
@@ -18,10 +15,9 @@ helpviewer_keywords:
   - "types [Visual Studio], class diagrams"
   - "attributes [Visual Studio], applying custom"
 ms.assetid: 94458c31-28bc-40e2-9737-85868788a0e5
-caps.latest.revision: 41
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

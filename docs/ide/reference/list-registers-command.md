@@ -2,12 +2,9 @@
 title: "List Registers Command | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "debug.listregisters"
 helpviewer_keywords: 
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "Debug.ListRegisters command"
   - "ListRegisters command"
 ms.assetid: 19a9d789-f6c9-46b3-b1f6-4934fc33e055
-caps.latest.revision: 7
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

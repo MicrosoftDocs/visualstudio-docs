@@ -2,12 +2,9 @@
 title: "CA2239: Provide deserialization methods for optional fields | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "CA2239"
   - "ProvideDeserializationMethodsForOptionalFields"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "ProvideDeserializationMethodsForOptionalFields"
   - "CA2239"
 ms.assetid: 6480ff5e-0caa-4707-814e-2f927cdafef5
-caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

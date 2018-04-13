@@ -3,13 +3,10 @@ title: Quickstart - Creating a Python project from existing code
 description: In this quickstart, you create a Visual Studio project for Python from an existing folder, using a convenient template.
 ms.custom: "mvc"
 ms.date: 01/08/2018
-ms.reviewer:
-ms.suite:
 ms.technology: 
   - "devlang-python"
 dev_langs:
   - "python"
-ms.tgt_pltfrm:
 ms.topic: "quickstart"
 author: "kraigb"
 ms.author: "kraigb"

@@ -2,12 +2,9 @@
 title: "Expressions in the debugger | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/07/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.expressions"
 helpviewer_keywords: 
@@ -20,10 +17,9 @@ helpviewer_keywords:
   - "debugging [Visual Studio], expression evaluation"
   - "debugging [Visual Studio], variable evaluation"
 ms.assetid: 70f9b531-44c7-4d77-980d-5eddbf2bff41
-caps.latest.revision: 25
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

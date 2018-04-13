@@ -2,12 +2,9 @@
 title: "CA1716: Identifiers should not match keywords | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IdentifiersShouldNotMatchKeywords"
   - "CA1716"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "IdentifiersShouldNotMatchKeywords"
   - "CA1716"
 ms.assetid: 900cc8a1-1089-4069-a4ce-10b109ac4fab
-caps.latest.revision: 21
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

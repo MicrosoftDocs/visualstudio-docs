@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "Development Edition, rule sets"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ---

@@ -2,12 +2,9 @@
 title: "CA1309: Use ordinal StringComparison | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "UseOrdinalStringComparison"
   - "CA1309"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "UseOrdinalStringComparison"
   - "CA1309"
 ms.assetid: 19be0854-cb6e-4efd-a4c8-a5c1fc6f7a71
-caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

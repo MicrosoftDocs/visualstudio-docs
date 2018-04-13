@@ -1,13 +1,13 @@
 ---
 title: "Configure Network Emulation Using Test Settings in Visual Studio | Microsoft Docs"
 ms.date: "10/03/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "test settings, network emulation"
 ms.assetid: ff275cfb-5df9-4710-9a91-9caabaaad34f
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.technology: vs-ide-test
 ---
 # How to: Configure Network Emulation Using Test Settings in Visual Studio

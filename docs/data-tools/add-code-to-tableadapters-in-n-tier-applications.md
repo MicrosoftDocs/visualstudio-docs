@@ -2,10 +2,7 @@
 title: "Add code to TableAdapters in n-tier applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -13,10 +10,9 @@ helpviewer_keywords:
   - "TableAdapters, n-tier applications"
   - "n-tier applications, extending TableAdapters"
 ms.assetid: dafac00e-df9d-4d4a-95a6-e34b4d099425
-caps.latest.revision: 19
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.technology: "vs-data-tools"
 ms.workload: 
   - "data-storage"

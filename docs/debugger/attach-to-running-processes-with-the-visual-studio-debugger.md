@@ -2,12 +2,9 @@
 title: "Attach to Running Processes with the Debugger in Visual Studio | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
 ms.date: "05/18/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.processes.attach"
   - "vs.debug.process"
@@ -28,10 +25,9 @@ helpviewer_keywords:
   - "debugging [Visual Studio], attaching to processes"
   - "debugger, processes"
 ms.assetid: 27900e58-090c-4211-a309-b3e1496d5824
-caps.latest.revision: 53
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

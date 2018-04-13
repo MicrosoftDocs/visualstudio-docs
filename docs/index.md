@@ -266,6 +266,25 @@ ms.topic: hub-page
                                     </div>
                                 </a>
                             </li>
+                            <li>
+                                <a href="https://go.microsoft.com/fwlink/?linkid=872032">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img data-scaleimage="./images/live-share.svg" src="./images/live-share.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Collaborate</h3>
+                                                    <p>Share, edit, and debug code in a collaborative, real-time environment. </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
                         </ul>
                     </li>
                 </ul>

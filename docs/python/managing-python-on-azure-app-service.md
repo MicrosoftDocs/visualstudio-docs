@@ -3,13 +3,10 @@ title: Installing Python interpreters and libraries on Azure App Service
 description: How to install a Python interpreter and libraries on Azure App Service, and configuring web applications to properly refer to that interpreter.
 ms.custom:
 ms.date: 09/13/2017
-ms.reviewer:
-ms.suite:
 ms.technology: 
   - "devlang-python"
 dev_langs:
   - "python"
-ms.tgt_pltfrm:
 ms.topic: "conceptual"
 author: "kraigb"
 ms.author: "kraigb"

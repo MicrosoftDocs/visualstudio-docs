@@ -2,7 +2,7 @@
 title: "Options, Text Editor, General | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.technology: vs-ide-general
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords:
   - "VS.TOOLSOPTIONSPAGES.TEXT_EDITOR.SQL_SERVER_TOOLS.GENERAL"
   - "VS.ToolsOptionsPages.Text_Editor.All_Languages.General"
@@ -45,7 +45,7 @@ helpviewer_keywords:
 ms.assetid: 4ac21e48-3243-4141-9058-7eaf12b3cde7
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ---

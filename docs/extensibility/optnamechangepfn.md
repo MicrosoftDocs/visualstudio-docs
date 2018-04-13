@@ -2,21 +2,17 @@
 title: "OPTNAMECHANGEPFN | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "OPTNAMECHANGEPFN"
 helpviewer_keywords: 
   - "OPTNAMECHANGEPFN callback function"
 ms.assetid: 147303f3-c7f1-438a-81b7-db891ea3d076
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

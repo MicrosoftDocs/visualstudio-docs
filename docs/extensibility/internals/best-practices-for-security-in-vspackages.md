@@ -2,21 +2,17 @@
 title: "Best Practices for Security in VSPackages | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "security [Visual Studio SDK]"
   - "security best practices, VSPackages"
   - "best practices, security"
 ms.assetid: 212a0504-cf6c-4e50-96b0-f2c1c575c0ff
-caps.latest.revision: 19
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

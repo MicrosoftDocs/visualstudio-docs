@@ -2,20 +2,16 @@
 title: "Shader Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-designers"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.graphics.designer.effectdesigner"
   - "vs.graphics.shaderdesigner"
 ms.assetid: 5db09a16-b82c-4ba3-8ec9-630cdc109397
-caps.latest.revision: 32
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -2,21 +2,17 @@
 title: "IDebugModuleLoadEvent2::GetModule | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugModuleLoadEvent2::GetModule"
 helpviewer_keywords: 
   - "IDebugModuleLoadEvent2::GetModule"
 ms.assetid: c86482bb-9ce5-4e63-bbe0-969b50169424
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

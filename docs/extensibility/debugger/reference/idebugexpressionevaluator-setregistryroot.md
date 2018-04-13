@@ -2,21 +2,17 @@
 title: "IDebugExpressionEvaluator::SetRegistryRoot | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugExpressionEvaluator::SetRegistryRoot"
 helpviewer_keywords: 
   - "IDebugExpressionEvaluator::SetRegistryRoot method"
 ms.assetid: 790886d8-1975-4d3c-9a75-cd86c1faf4ca
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---
