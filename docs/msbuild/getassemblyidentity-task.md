@@ -40,21 +40,19 @@ Retrieves the assembly identities from the specified files and outputs the ident
 ## Example  
  The following example retrieves the identity of the files specified in the `MyAssemblies` item, and outputs them into the `MyAssemblyIdentities` item.  
   
-```xml  
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
-    <ItemGroup>  
-        <MyAssemblies Include="File1.dll;File2.dll" />  
-    </ItemGroup>  
-    <Target Name="RetrieveIdentities">  
-        <GetAssemblyIdentity  
-            AssemblyFiles="@(MyAssemblies)"  
-            <Output  
-                TaskParameter="Assemblies"  
-                ItemName="MyAssemblyIdentities"  
+```xml
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <ItemGroup>
+        <MyAssemblies Include="File1.dll;File2.dll" />
+    </ItemGroup>
+    <Target Name="RetrieveIdentities">
+        <GetAssemblyIdentity AssemblyFiles="@(MyAssemblies)">
+            <Output TaskParameter="Assemblies" ItemName="MyAssemblyIdentities" />
+        </GetAssemblyIdentity>
     </Target>  
 </Project>  
-```  
-  
+```
+
 ## See Also  
  [Tasks](../msbuild/msbuild-tasks.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)
