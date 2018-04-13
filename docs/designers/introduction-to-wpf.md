@@ -67,7 +67,7 @@ XAML is an XML-based markup language that is used to implement an application's 
 
 ### Code-behind
 
-The main behavior of an application is to implement the functionality that responds to user interactions, including handling events (for example, clicking a menu, tool bar, or button) and calling business logic and data access logic in response. In WPF, this behavior is generally implemented in code that is associated with markup. This type of code is known as code-behind. The following example shows the updated markup from the previous example and the code-behind.
+The main behavior of an application is to implement the functionality that responds to user interactions, including handling events (for example, clicking a menu, tool bar, or button) and calling business logic and data access logic in response. In WPF, this behavior is implemented in code that is associated with markup. This type of code is known as code-behind. The following example shows the updated markup from the previous example and the code-behind.
 
 ```xaml
 <Window
@@ -223,11 +223,11 @@ Most applications are created to provide users with the means to view and edit d
 
 2.  Ensuring that changes made to data by using controls are copied back to the managed objects.
 
-To simplify application development, WPF provides a data binding engine to automatically perform these steps. The core unit of the data binding engine is the <xref:System.Windows.Data.Binding> class, whose job is to bind a control (the binding target) to a data object (the binding source). This relationship is illustrated by the following figure.
+To simplify application development, WPF provides a data binding engine to automatically perform these steps. The core unit of the data binding engine is the <xref:System.Windows.Data.Binding> class, whose job is to bind a control (the binding target) to a data object (the binding source). This relationship is illustrated by the following figure:
 
  ![Basic data binding diagram](../designers/media/databindingmostbasic.png "DataBindingMostBasic")
 
- The following example demonstrates how to bind a <xref:System.Windows.Controls.TextBox> to an instance of a custom `Person` object. The `Person` implementation is shown in the following code.
+The next example demonstrates how to bind a <xref:System.Windows.Controls.TextBox> to an instance of a custom `Person` object. The `Person` implementation is shown in the following code:
 
  [!code-vb[SimpleDataBindingSnippets#PersonClassCODE](../designers/codesnippet/VisualBasic/introduction-to-wpf_2.vb)]
  [!code-csharp[SimpleDataBindingSnippets#PersonClassCODE](../designers/codesnippet/CSharp/introduction-to-wpf_2.cs)]
@@ -259,7 +259,7 @@ To simplify application development, WPF provides a data binding engine to autom
 
 WPF introduces an extensive, scalable, and flexible set of graphics features that have the following benefits:
 
-- **Resolution-independent and device-independent graphics**. The basic unit of measurement in the WPF graphics system is the device independent pixel, which is 1/96th of an inch, regardless of actual screen resolution, and provides the foundation for resolution-independent and device-independent rendering. Each device-independent pixel automatically scales to match the dots-per-inch (dpi) setting of the system it renders on.
+- **Resolution-independent and device-independent graphics**. The basic unit of measurement in the WPF graphics system is the device-independent pixel, which is 1/96th of an inch, regardless of actual screen resolution, and provides the foundation for resolution-independent and device-independent rendering. Each device-independent pixel automatically scales to match the dots-per-inch (dpi) setting of the system it renders on.
 
 - **Improved precision**. The WPF coordinate system is measured with double-precision floating-point numbers rather than single-precision. Transformations and opacity values are also expressed as double-precision. WPF also supports a wide color gamut (scRGB) and provides integrated support for managing inputs from different color spaces.
 
@@ -269,7 +269,7 @@ WPF introduces an extensive, scalable, and flexible set of graphics features tha
 
 ### 2D shapes
 
-WPF provides a library of common vector-drawn 2D shapes, such as the rectangles and ellipses that are shown in the following illustration.
+WPF provides a library of common vector-drawn 2D shapes, such as the rectangles and ellipses that are shown in the following illustration:
 
  ![Ellipses and rectangles](../designers/media/wpfintrofigure4.PNG "WPFIntroFigure4")
 
@@ -370,7 +370,7 @@ For more information, see [Typography in Windows Presentation Foundation](/dotne
 
 Up to this point, you've seen the core WPF building blocks for developing applications. You use the application model to host and deliver application content, which consists mainly of controls. To simplify the arrangement of controls in a user interface, and to ensure the arrangement is maintained in the face of changes to window size and display settings, you use the WPF layout system. Because most applications allow users to interact with data, you use data binding to reduce the work of integrating your user interface with data. To enhance the visual appearance of your application, you use the comprehensive range of graphics, animation, and media support provided by WPF.
 
-Often, though, the basics are not enough for creating and managing a truly distinct and visually stunning user experience. The standard WPF controls may not integrate with the desired appearance of your application. Data may not be displayed in the most effective way. Your application's overall user experience may not be suited to the default look and feel of Windows themes. In many ways, a presentation technology needs visual extensibility as much as any other kind of extensibility.
+Often, though, the basics are not enough for creating and managing a truly distinct and visually stunning user experience. The standard WPF controls may not integrate with the desired appearance of your application. Data may not be displayed in the most effective way. Your application's overall user experience may not be suited to the default look and feel of Windows themes. In many ways, a presentation technology needs visual extensibility as much as any other type of extensibility.
 
 For this reason, WPF provides a variety of mechanisms for creating unique user experiences, including a rich content model for controls, triggers, control and data templates, styles, user interface resources, and themes and skins.
 
@@ -438,9 +438,9 @@ For example, the following example shows how to change the appearance of a <xref
 [!code-csharp[IntroToWPFSnippets#ButtonControlTemplateWindowCODEBEHIND](../designers/codesnippet/CSharp/introduction-to-wpf_17.cs)]
 [!code-vb[IntroToWPFSnippets#ButtonControlTemplateWindowCODEBEHIND](../designers/codesnippet/VisualBasic/introduction-to-wpf_17.vb)]
 
-In this example, the default button user interface has been replaced with an <xref:System.Windows.Shapes.Ellipse> that has a dark blue border and is filled using a <xref:System.Windows.Media.RadialGradientBrush>. The <xref:System.Windows.Controls.ContentPresenter> control displays the content of the <xref:System.Windows.Controls.Button>, "Click Me!" When the <xref:System.Windows.Controls.Button> is clicked, the <xref:System.Windows.Controls.Primitives.ButtonBase.Click> event is still raised as part of the <xref:System.Windows.Controls.Button> control's default behavior. The result is shown in the following figure.
+In this example, the default button user interface has been replaced with an <xref:System.Windows.Shapes.Ellipse> that has a dark blue border and is filled using a <xref:System.Windows.Media.RadialGradientBrush>. The <xref:System.Windows.Controls.ContentPresenter> control displays the content of the <xref:System.Windows.Controls.Button>, "Click Me!" When the <xref:System.Windows.Controls.Button> is clicked, the <xref:System.Windows.Controls.Primitives.ButtonBase.Click> event is still raised as part of the <xref:System.Windows.Controls.Button> control's default behavior. The result is shown in the following figure:
 
-![An elliptical button and a second window](../designers/media/wpfintrofigure2.png "WPFIntroFigure2")
+![An elliptical button and a second window](../designers/media/wpfintrofigure2.png)
 
 ### Data templates
 
@@ -501,7 +501,7 @@ The default appearance is what you would expect from a <xref:System.Windows.Cont
 
  The following figure shows the effect of this code.
 
- ![Llist box that uses a data template](../designers/media/wpfintrofigure19.png "WPFIntroFigure19")
+ ![List box that uses a data template](../designers/media/wpfintrofigure19.png "WPFIntroFigure19")
 
  Note that the <xref:System.Windows.Controls.ListBox> has retained its behavior and overall appearance; only the appearance of the content being displayed by the list box has changed.
 
@@ -536,9 +536,9 @@ Styles enable developers and designers to standardize on a particular appearance
 </Window>
 ```
 
- Because this style targets all <xref:System.Windows.Controls.Button> controls, the style is automatically applied to all the buttons in the window, as shown in the following figure.
+ Because this style targets all <xref:System.Windows.Controls.Button> controls, the style is automatically applied to all the buttons in the window, as shown in the following figure:
 
- ![Two orange buttons](../designers/media/wpfintrofigure20.png "WPFIntroFigure20")
+ ![Two orange buttons](../designers/media/wpfintrofigure20.png)
 
  For more information, see [Styling and Templating](/dotnet/framework/wpf/controls/styling-and-templating).
 
@@ -649,9 +649,9 @@ For more information on custom controls, see [Control Authoring Overview](/dotne
 
 ## WPF best practices
 
-As with any development platform, WPF can be used in a variety of ways to achieve the desired result. As a way of ensuring that your WPF applications provide the required user experience and meet the demands of the audience in general, there are recommended best practices for accessibility, globalization and localization, and performance. See the following for more information:
+As with any development platform, WPF can be used in a variety of ways to achieve the desired result. As a way of ensuring that your WPF applications provide the required user experience and meet the demands of the audience in general, there are recommended best practices for accessibility, globalization and localization, and performance. For more information, see:
 
-- [Accessibility best practices](/dotnet/framework/ui-automation/accessibility-best-practices)
+- [Accessibility](/dotnet/framework/ui-automation/accessibility-best-practices)
 - [WPF globalization and localization](/dotnet/framework/wpf/advanced/wpf-globalization-and-localization-overview)
 - [WPF app performance](/dotnet/framework/wpf/advanced/optimizing-wpf-application-performance)
 - [WPF security](/dotnet/framework/wpf/security-wpf)
@@ -666,6 +666,5 @@ We've looked at the key features of WPF. Now it's time to build your first WPF a
 ## See also
 
 - [Get started with WPF](../designers/getting-started-with-wpf.md)
-- [Create modern desktop apps with WPF](../designers/create-modern-desktop-applications-with-windows-presentation-foundation.md)
 - [Windows Presentation Foundation](/dotnet/framework/wpf/index)
 - [WPF community resources](/dotnet/framework/wpf/getting-started/community-feedback)

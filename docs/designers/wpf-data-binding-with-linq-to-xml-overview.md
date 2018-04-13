@@ -88,7 +88,7 @@ To implement WPF dynamic binding, dynamic properties will be used with facilitie
 
 ## See also
 
-- [WPF Data Binding with LINQ to XML](../designers/wpf-data-binding-with-linq-to-xml.md)
+- [WPF Data Binding with LINQ to XML](../designers/wpf-data-binding-with-linq-to-xml-overview.md)
 - [LINQ to XML Dynamic Properties](../designers/linq-to-xml-dynamic-properties.md)
 - [XAML in WPF](/dotnet/framework/wpf/advanced/xaml-in-wpf)
 - [Data Binding (WPF)](/dotnet/framework/wpf/data/data-binding-wpf)
