@@ -15,13 +15,19 @@ ms.workload:
 ---
 # Optimize Visual Studio performance
 
-This article provides some suggestions to try if you find that Visual Studio is running slowly.
+This article provides some suggestions to try if you find that Visual Studio is running slowly. You can also take a look at [Visual Studio performance tips and tricks](../ide/visual-studio-performance-tips-and-tricks.md) for more suggestions on how to improve performance.
 
 ## Upgrade to Visual Studio 2017 version 15.6 or later
 
 If you are currently using Visual Studio 2015, download [Visual Studio 2017](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) for free to check out its improved performance. Solutions load two to three times faster in Visual Studio 2017, with performance improvements in other areas too. Visual Studio 2017 is side-by-side compatible with Visual Studio 2015, so you won't lose anything by trying it out.
 
 If you are currently using Visual Studio 2017, make sure you are running version 15.6 or later. Data shows that solutions load up to two or three times faster in version 15.6. Download it [here](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs).
+
+## Extensions
+
+You may have extensions installed that are slowing Visual Studio down. For help on managing extensions to improve performance, see [Change extension settings to improve performance](../ide/optimize-visual-studio-startup-time#extensions).
+
+Similarly, you may have tool windows that are slowing Visual Studio down. For help on managing tool windows, see [Change tool window settings to improve performance](../ide/optimize-visual-studio-startup-time#tool-windows).
 
 ## Hardware
 
@@ -30,12 +36,6 @@ If you're thinking about upgrading your hardware, a solid state drive (SSD) has 
 If you do add an SSD, for optimal performance install Windows on that drive as opposed to a hard disk drive (HDD). The drive location of your Visual Studio solutions does not seem to matter as much.
 
 Additionally, do not run your solution from a USB drive. Copy it to your HDD or SSD.
-
-## Other suggestions
-
-If you have the ReSharper extension installed, it may be slowing Visual Studio down. Consider turning it off until you need it. To suspend ReSharper, go to **Tools** > **Options** > **ReSharper Ultimate**, and then select **Suspend Now**.
-
-Read [Visual Studio performance tips and tricks](../ide/visual-studio-performance-tips-and-tricks.md) for more suggestions to improve performance.
 
 ## Help us improve
 
