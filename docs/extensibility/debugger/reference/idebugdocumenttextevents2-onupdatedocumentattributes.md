@@ -2,21 +2,17 @@
 title: "IDebugDocumentTextEvents2::onUpdateDocumentAttributes | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugDocumentTextEvents2::OnUpdateDocumentAttributes"
 helpviewer_keywords: 
   - "IDebugDocumentTextEvents2::onUpdateDocumentAttributes"
 ms.assetid: 31b7d151-9ce2-438e-b405-f8cc46b9f537
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

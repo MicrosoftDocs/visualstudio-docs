@@ -2,12 +2,9 @@
 title: "Troubleshoot broken references | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/21/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "C# projects, references"
   - "Visual Basic projects, references"
@@ -16,7 +13,7 @@ helpviewer_keywords:
   - "referencing components, troubleshooting"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

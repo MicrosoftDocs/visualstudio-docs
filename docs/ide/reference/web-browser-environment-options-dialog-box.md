@@ -2,12 +2,9 @@
 title: "Web Browser, Environment, Options Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VS.Environment.Web Browser"
   - "VS.ToolsOptionsPages.Environment.WebBrowser"
@@ -24,10 +21,9 @@ helpviewer_keywords:
   - "Options dialog box, Web settings"
   - "Internet Explorer, setting options"
 ms.assetid: 586db4eb-032d-4cb5-93a6-a7c14de1ae49
-caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

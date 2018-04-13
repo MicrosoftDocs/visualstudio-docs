@@ -2,12 +2,9 @@
 title: "Annotating Structs and Classes | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "_Field_size_bytes_part_"
   - "_Field_size_bytes_full_opt_"
@@ -24,10 +21,9 @@ f1_keywords:
   - "_Field_size_full_"
   - "_Field_size_full_opt_"
 ms.assetid: b8278a4a-c86e-4845-aa2a-70da21a1dd52
-caps.latest.revision: 9
 author: mikeblome
 ms.author: mblome
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

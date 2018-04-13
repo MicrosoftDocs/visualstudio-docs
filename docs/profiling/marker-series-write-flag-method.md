@@ -2,21 +2,17 @@
 title: "marker_series::write_flag Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "cvmarkersojb/Concurrency::diagnostic::marker_series::write_flag"
 helpviewer_keywords: 
   - "Concurrency::diagnostic::marker_series::write_flag method"
 ms.assetid: ca07f388-e5d5-46fd-b991-fe6e9029a68f
-caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -2,16 +2,13 @@
 title: "Troubleshoot Visual Studio project template and item template loading | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/02/2018"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "templates [Visual Studio], troubleshooting"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ---
 # How to: Troubleshoot templates
 

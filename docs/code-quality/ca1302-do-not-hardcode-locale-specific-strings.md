@@ -2,12 +2,9 @@
 title: "CA1302: Do not hardcode locale specific strings | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "DoNotHardcodeLocaleSpecificStrings"
   - "CA1302"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "DoNotHardcodeLocaleSpecificStrings"
   - "CA1302"
 ms.assetid: 05ed134a-837d-43d7-bf97-906edeac44ce
-caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

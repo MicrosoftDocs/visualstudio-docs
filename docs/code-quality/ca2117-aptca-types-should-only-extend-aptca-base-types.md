@@ -2,7 +2,7 @@
 title: "CA2117: APTCA types should only extend APTCA base types | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.technology: vs-ide-code-analysis
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords:
   - "CA2117"
   - "AptcaTypesShouldOnlyExtendAptcaBaseTypes"
@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: c505b586-2f1e-47cb-98ee-a5afcbeda70f
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ---

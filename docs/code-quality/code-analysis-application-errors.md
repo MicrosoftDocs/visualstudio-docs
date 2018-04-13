@@ -2,22 +2,18 @@
 title: "Code Analysis Application Errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "errors [Visual Studio ALM], code analysis"
   - "code analysis, errors"
   - "managed code, code analysis errors"
   - "code analysis, policy errors"
 ms.assetid: d8fd9475-ac9b-4085-b5a3-b0c807922cac
-caps.latest.revision: 23
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

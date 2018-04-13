@@ -2,12 +2,9 @@
 title: "CA1725: Parameter names should match base declaration | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "ParameterNamesShouldMatchBaseDeclaration"
   - "CA1725"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "CA1725"
   - "ParameterNamesShouldMatchBaseDeclaration"
 ms.assetid: 9b657ab0-fe81-4f4c-9481-ba746988c922
-caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

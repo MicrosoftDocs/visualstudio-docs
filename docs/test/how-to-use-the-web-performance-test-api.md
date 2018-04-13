@@ -1,14 +1,14 @@
 ---
 title: "Web Performance Test API in Visual Studio | Microsoft Docs"
 ms.date: "10/19/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "Web performance tests, using the API"
   - "APIs, Web performance tests"
 ms.assetid: 93a6a1dd-663b-4ab5-8760-7d6b081561d3
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.technology: vs-ide-test
 ---
 # How to: Use the Web Performance Test API

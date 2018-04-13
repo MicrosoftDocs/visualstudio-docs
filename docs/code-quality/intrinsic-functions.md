@@ -2,12 +2,9 @@
 title: "Intrinsic Functions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "_String_length_"
   - "_Param_"
@@ -16,10 +13,9 @@ f1_keywords:
   - "_Nullterm_length_"
   - "_Inexpressible_"
 ms.assetid: adf29f8c-89fd-4a5e-9804-35ac83e1c457
-caps.latest.revision: 7
 author: mikeblome
 ms.author: mblome
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

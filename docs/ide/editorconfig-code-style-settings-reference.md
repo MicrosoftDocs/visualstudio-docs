@@ -1,7 +1,7 @@
 ---
 title: ".NET coding convention settings For EditorConfig in Visual Studio | Microsoft Docs"
 ms.date: 02/28/2018
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
   - "VB"
@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "formatting conventions [EditorConfig]"
 author: "kuhlenh"
 ms.author: "kaseyu"
-manager: ghogen
+manager: douge
 ms.technology: vs-ide-general
 ms.workload:
   - "dotnet"

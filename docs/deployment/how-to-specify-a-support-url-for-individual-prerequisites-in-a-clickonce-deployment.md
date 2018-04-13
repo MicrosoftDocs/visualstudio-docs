@@ -2,12 +2,9 @@
 title: "How to: Specify a Support URL for Individual Prerequisites in a ClickOnce Deployment | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -16,7 +13,6 @@ helpviewer_keywords:
   - "ClickOnce deployment, prerequisites"
   - "ClickOnce deployment, URLs"
 ms.assetid: 590742c3-a286-4160-aa75-7a441bb2207b
-caps.latest.revision: 10
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"

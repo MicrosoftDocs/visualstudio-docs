@@ -2,10 +2,7 @@
 title: "Walkthrough: Creating a Dataset with the Dataset Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "09/11/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "datasets [Visual Basic], walkthroughs"
   - "XML schemas, creating datasets"
@@ -14,7 +11,7 @@ helpviewer_keywords:
   - "datasets [Visual Basic], creating"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.technology: "vs-data-tools"
 ms.workload: 
   - "data-storage"

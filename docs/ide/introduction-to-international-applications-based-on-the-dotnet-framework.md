@@ -2,12 +2,9 @@
 title: "Introduction to International Applications Based on the .NET Framework | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "strings [Visual Studio], localizing"
   - "Web applications [.NET Framework], globalization"
@@ -26,10 +23,9 @@ helpviewer_keywords:
   - "resource files, fallback processes"
   - "user interface, culture setting"
 ms.assetid: b0788993-e62d-4f68-8235-5f87b1d48525
-caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "dotnet"
 ---

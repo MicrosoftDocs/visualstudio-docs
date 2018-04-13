@@ -2,21 +2,17 @@
 title: "IDebugMemoryBytes2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugMemoryBytes2"
 helpviewer_keywords: 
   - "IDebugMemoryBytes2 interface"
 ms.assetid: d7647575-0e06-4190-88f5-ca40b82209a4
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

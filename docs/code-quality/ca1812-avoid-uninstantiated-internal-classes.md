@@ -2,12 +2,9 @@
 title: "CA1812: Avoid uninstantiated internal classes | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "CA1812"
   - "AvoidUninstantiatedInternalClasses"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "AvoidUninstantiatedInternalClasses"
   - "CA1812"
 ms.assetid: 1bb92a42-322a-44cc-98a8-8858212c1e1f
-caps.latest.revision: 26
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -2,12 +2,9 @@
 title: "Edit and Continue (Visual C++) | Microsoft Docs"
 ms.custom: ""
 ms.date: "05/31/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
   - "VB"
@@ -18,10 +15,9 @@ helpviewer_keywords:
   - "debugging [C++], Edit and Continue"
   - "C/C++, Edit and Continue"
 ms.assetid: 1815251e-a877-433e-9e5e-69bd9ba254c7
-caps.latest.revision: 25
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "cplusplus"
 ---

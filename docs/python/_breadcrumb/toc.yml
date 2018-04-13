@@ -4,7 +4,7 @@
   items:
   - name: Visual Studio
     tocHref: /visualstudio/
-    topicHref: /visualstudio/overview
+    topicHref: /visualstudio/ide/
     items:
     - name: Python
       tocHref: /visualstudio/python/

@@ -2,12 +2,9 @@
 title: "Globalizing and localizing applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "globalization [Visual Studio]"
   - "Visual Basic code, international applications"
@@ -16,10 +13,9 @@ helpviewer_keywords:
   - "world-ready applications"
   - "international applications [Visual Studio]"
 ms.assetid: 4d9815ae-3e80-4b4d-933d-f8309aee18d5
-caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

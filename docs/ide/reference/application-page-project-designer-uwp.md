@@ -2,14 +2,14 @@
 title: "Application property page for UWP apps | Microsoft Docs"
 ms.date: "01/23/2018"
 ms.technology: vs-ide-general
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - AppPackage.Properties.Application"
 helpviewer_keywords: 
   - "Application page [UWP project]"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "uwp"
 ---

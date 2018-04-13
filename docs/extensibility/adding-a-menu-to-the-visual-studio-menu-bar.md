@@ -2,20 +2,16 @@
 title: "Adding a Menu to the Visual Studio Menu Bar | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "menus, creating top level"
   - "top-level menus"
 ms.assetid: 58fc1a31-2aeb-441c-8e48-c7d5cbcfe501
-caps.latest.revision: 51
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

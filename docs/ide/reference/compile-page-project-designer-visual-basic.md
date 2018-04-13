@@ -2,12 +2,9 @@
 title: "Compile Page, Project Designer (Visual Basic) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vb.ProjectPropertiesCompile"
 helpviewer_keywords: 
@@ -19,10 +16,9 @@ helpviewer_keywords:
   - "Project Designer, Compile page"
   - "Compile page in Project Designer"
 ms.assetid: b2a80230-906e-4e85-b3e0-fcd9c40426e1
-caps.latest.revision: 60
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

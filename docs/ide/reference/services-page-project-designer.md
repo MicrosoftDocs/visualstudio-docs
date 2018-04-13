@@ -2,11 +2,8 @@
 title: "Services Page, Project Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2018"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vb.ProjectPropertiesServices"
 helpviewer_keywords: 
@@ -14,7 +11,7 @@ helpviewer_keywords:
   - "Project Designer, Services page"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

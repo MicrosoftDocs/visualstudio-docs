@@ -2,12 +2,9 @@
 title: "CA2229: Implement serialization constructors | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "CA2229"
   - "ImplementSerializationConstructors"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "CA2229"
   - "ImplementSerializationConstructors"
 ms.assetid: 8e04d5fe-dfad-445a-972e-0648324fac45
-caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

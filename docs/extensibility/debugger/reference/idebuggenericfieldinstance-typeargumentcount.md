@@ -2,20 +2,16 @@
 title: "IDebugGenericFieldInstance::TypeArgumentCount | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "TypeArgumentCount"
   - "IDebugGenericFieldInstance::TypeArgumentCount"
 ms.assetid: e662c5ea-a5c1-478e-a268-5980dadffcd1
-caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

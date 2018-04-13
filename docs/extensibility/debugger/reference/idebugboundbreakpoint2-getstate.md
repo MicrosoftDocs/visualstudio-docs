@@ -2,22 +2,18 @@
 title: "IDebugBoundBreakpoint2::GetState | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugBoundBreakpoint2::GetState"
 helpviewer_keywords: 
   - "GetState method"
   - "IDebugBoundBreakpoint2::GetState method"
 ms.assetid: a40a8382-295e-4916-aae6-ffe3a9cd3f2d
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

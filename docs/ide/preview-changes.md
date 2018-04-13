@@ -2,15 +2,12 @@
 title: "Preview code changes in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "12/16/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 f1_keywords: 
   - "vs.codefix.previewchanges"
 ms.workload: 

@@ -2,12 +2,9 @@
 title: "International Settings, Environment, Options Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VS.ToolsOptionsPages.Environment.InternationalSettings"
   - "VS.ToolsOptionsPages.Environment.International_Settings"
@@ -19,10 +16,9 @@ helpviewer_keywords:
   - "Options dialog box, international settings"
   - "languages, specifying default"
 ms.assetid: e3a8815c-6995-4099-8e88-34f91fad55b2
-caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

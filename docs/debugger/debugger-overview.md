@@ -2,11 +2,8 @@
 title: "Debugger overview - Visual Studio | Microsoft Docs"
 ms.custom: "mvc"
 ms.date: "07/11/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "overview"
 dev_langs: 
   - "C++"
@@ -15,7 +12,7 @@ dev_langs:
   - "VB"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

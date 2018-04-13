@@ -2,21 +2,17 @@
 title: "IDebugObject | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugObject"
 helpviewer_keywords: 
   - "IDebugObject interface"
 ms.assetid: 05cd8bf4-c9ee-4b49-b782-2263c33067d6
-caps.latest.revision: 14
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

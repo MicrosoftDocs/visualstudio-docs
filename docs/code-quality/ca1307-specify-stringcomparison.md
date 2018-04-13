@@ -2,12 +2,9 @@
 title: "CA1307: Specify StringComparison | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "CA1307"
   - "SpecifyStringComparison"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "CA1307"
   - "SpecifyStringComparison"
 ms.assetid: 9b0d5e71-1683-4a0d-bc4a-68b2fbd8af71
-caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

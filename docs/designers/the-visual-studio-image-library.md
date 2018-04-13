@@ -2,12 +2,9 @@
 title: "The Visual Studio Image Library | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-designers"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "animation [Visual Studio]"
   - "graphics [Visual Studio], Image Library"
@@ -17,10 +14,9 @@ helpviewer_keywords:
   - "icons [Visual Studio], Image Library"
   - "bitmaps [Visual Studio], Image Library"
 ms.assetid: f7a2e7c8-3b9f-4f8e-a6a8-000d72e3811d
-caps.latest.revision: 29
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

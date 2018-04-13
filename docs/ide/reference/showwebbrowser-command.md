@@ -2,22 +2,18 @@
 title: "ShowWebBrowser Command | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "view.showwebbrowser"
 helpviewer_keywords: 
   - "ShowWebBrowser command"
   - "View.ShowWebBrowser command"
 ms.assetid: c6a4fbd6-8e9d-45cc-8b2f-93990d065e78
-caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

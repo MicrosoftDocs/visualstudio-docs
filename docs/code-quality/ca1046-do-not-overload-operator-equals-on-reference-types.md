@@ -2,12 +2,9 @@
 title: "CA1046: Do not overload operator equals on reference types | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "DoNotOverloadOperatorEqualsOnReferenceTypes"
   - "CA1046"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "CA1046"
   - "DoNotOverloadOperatorEqualsOnReferenceTypes"
 ms.assetid: c1dfbfe3-63f9-4005-a81a-890427b77e79
-caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

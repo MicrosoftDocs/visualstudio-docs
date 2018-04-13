@@ -3,13 +3,10 @@ title: Editing Python code
 description: Editing Python in Visual Studio provides IntelliSense, code snippets, and navigation features, alongside formatting, linting, and refactoring.
 ms.custom:
 ms.date: 03/05/2018
-ms.reviewer:
-ms.suite:
 ms.technology:
   - "devlang-python"
 dev_langs:
   - "python"
-ms.tgt_pltfrm:
 ms.topic: "conceptual"
 author: "kraigb"
 ms.author: "kraigb"

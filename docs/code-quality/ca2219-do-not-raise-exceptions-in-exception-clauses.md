@@ -2,12 +2,9 @@
 title: "CA2219: Do not raise exceptions in exception clauses | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "DoNotRaiseExceptionsInExceptionClauses"
   - "CA2219"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "DoNotRaiseExceptionsInExceptionClauses"
   - "CA2219"
 ms.assetid: 7b9b0bee-4e8e-49a4-8c40-52142b49061f
-caps.latest.revision: 5
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

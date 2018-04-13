@@ -2,20 +2,16 @@
 title: "IDebugGenericFieldDefinition::GetFormalTypeParams | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "GetFormalTypeParams"
   - "IDebugGenericFieldDefinition::GetFormalTypeParams"
 ms.assetid: cadbd6a1-bc7c-4aff-8777-5396b7a23c3e
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

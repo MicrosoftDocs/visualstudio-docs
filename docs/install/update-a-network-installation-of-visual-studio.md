@@ -3,10 +3,8 @@ title: "Update a network-based installation of Visual Studio | Microsoft Docs"
 description: "Learn how to update a network-based Visual Studio installation by using the --layout command"
 ms.date: "08/14/2017"
 ms.reviewer: "tims"
-ms.suite: ""
 ms.technology:
   - "vs-acquisition"
-ms.tgt_pltfrm: ""
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "{{PLACEHOLDER}}"

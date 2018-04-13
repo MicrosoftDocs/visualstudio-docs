@@ -2,12 +2,9 @@
 title: "CA2236: Call base class methods on ISerializable types | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "CA2236"
   - "CallBaseClassMethodsOnISerializableTypes"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "CA2236"
   - "CallBaseClassMethodsOnISerializableTypes"
 ms.assetid: 5a15b20d-769c-4640-b31a-36e07077daae
-caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

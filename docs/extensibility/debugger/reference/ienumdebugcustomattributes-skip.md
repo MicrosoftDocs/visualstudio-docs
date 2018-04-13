@@ -2,21 +2,17 @@
 title: "IEnumDebugCustomAttributes::Skip | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IEnumCustomAttributes::Skip"
 helpviewer_keywords: 
   - "IEnumDebugCustomAttributes::Skip"
 ms.assetid: 54c72e23-cd4c-4746-935c-abea8057dd1b
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

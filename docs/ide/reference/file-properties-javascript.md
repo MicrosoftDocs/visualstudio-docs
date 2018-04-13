@@ -2,12 +2,9 @@
 title: "File Properties, JavaScript | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/21/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "javascript.project.property.expandedsdknode.fileversion"
   - "javascript.project.property.expandedsdknode.uri"
@@ -26,10 +23,9 @@ f1_keywords:
   - "javascript.project.property.reference.resolvedpath"
   - "javascript.project.property.reference.version"
 ms.assetid: 085913b8-a97b-45f7-85fa-bbb0902f3ee9
-caps.latest.revision: 7
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

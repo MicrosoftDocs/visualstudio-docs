@@ -2,21 +2,17 @@
 title: "Code Analysis Policy Errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.codeanalysis.policyfailures"
 helpviewer_keywords: 
   - "policy errors, code analysis"
 ms.assetid: d1f221cd-68c0-4277-9397-b76ad0dbae77
-caps.latest.revision: 19
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

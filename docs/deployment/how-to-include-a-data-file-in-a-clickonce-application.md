@@ -2,12 +2,9 @@
 title: "How to: Include a Data File in a ClickOnce Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -17,7 +14,6 @@ helpviewer_keywords:
   - "deploying applications [ClickOnce], data files"
   - "data access, ClickOnce applications"
 ms.assetid: 89ee46ef-bc8c-4ab0-a2ac-1220f9da06fc
-caps.latest.revision: 15
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"

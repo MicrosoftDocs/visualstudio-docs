@@ -2,20 +2,16 @@
 title: "IDebugSymbolProviderDirect::GetMethodFromAddress | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugSymbolProviderDirect::GetMethodFromAddress"
   - "GetMethodFromAddress"
 ms.assetid: 33ffd197-1221-41bc-a9f6-f133ebdcb783
-caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

@@ -2,21 +2,17 @@
 title: "Visual Studio Commands | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Visual Studio, commands"
   - "commands, Visual Studio"
   - "command syntax"
 ms.assetid: 76ffa394-ee89-4629-aba9-1a62b72e6cc1
-caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

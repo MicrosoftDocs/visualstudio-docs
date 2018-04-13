@@ -2,12 +2,9 @@
 title: "Hierarchical organization of resources for localization | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "resource files, localized"
   - "localization [Visual Studio], resources"
@@ -19,10 +16,9 @@ helpviewer_keywords:
   - "resources [Visual Studio], fallback system"
   - "resource files, fallback processes"
 ms.assetid: dadf8f2c-f74c-44d7-bec0-a1e956d8d38d
-caps.latest.revision: 8
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

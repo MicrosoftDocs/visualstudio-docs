@@ -2,12 +2,9 @@
 title: "CA1007: Use generics where appropriate | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "CA1007"
   - "UseGenericsWhereAppropriate"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "CA1007"
   - "UseGenericsWhereAppropriate"
 ms.assetid: eab780ea-3b1f-4d32-b15a-5d48da2df46b
-caps.latest.revision: 19
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

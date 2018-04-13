@@ -2,12 +2,9 @@
 title: "CA1003: Use generic event handler instances | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "UseGenericEventHandlerInstances"
   - "CA1003"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "CA1003"
   - "UseGenericEventHandlerInstances"
 ms.assetid: 402101b6-555d-4cf7-b223-1d9fdfaaf1cd
-caps.latest.revision: 22
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

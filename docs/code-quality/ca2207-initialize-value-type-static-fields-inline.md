@@ -2,12 +2,9 @@
 title: "CA2207: Initialize value type static fields inline | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "InitializeValueTypeStaticFieldsInline"
   - "CA2207"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "CA2207"
   - "InitializeValueTypeStaticFieldsInline"
 ms.assetid: d1ea9d8b-ecc2-46ca-86e2-c41dd0e76658
-caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

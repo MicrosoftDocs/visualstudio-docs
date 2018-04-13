@@ -2,20 +2,16 @@
 title: "Creating Parent Container Folders for Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "solutions, creating parent containers"
   - "source control plug-ins, creating parent containers"
 ms.assetid: 961e68ed-2603-4479-a306-330eda2b2efa
-caps.latest.revision: 15
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

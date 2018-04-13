@@ -2,12 +2,9 @@
 title: "Walkthrough: Creating a Code Snippet | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/27/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "code snippets, creating"
   - "code snippets, shortcut"
@@ -16,10 +13,9 @@ helpviewer_keywords:
   - "code snippets, references"
   - "code snippets, imports"
 ms.assetid: 0dcaae11-39cf-4463-9c90-2494321251c2
-caps.latest.revision: 21
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 dev_langs: 
   - "VB"
 ms.workload: 

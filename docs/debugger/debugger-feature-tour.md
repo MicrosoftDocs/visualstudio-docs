@@ -3,19 +3,15 @@ title: "Debugger Feature Tour - Visual Studio | Microsoft Docs"
 description: Take a tour of the Visual Studio debugger
 ms.custom: "mvc"
 ms.date: "03/27/2018"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "quickstart"
 helpviewer_keywords: 
   - "debugger"
 ms.assetid: c763d706-3213-494f-b4d2-990b6e1ec456
-caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

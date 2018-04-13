@@ -2,12 +2,9 @@
 title: "CA2108: Review declarative security on value types | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "ReviewDeclarativeSecurityOnValueTypes"
   - "CA2108"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "ReviewDeclarativeSecurityOnValueTypes"
   - "CA2108"
 ms.assetid: d62bffdd-3826-4d52-a708-1c646c5d48c2
-caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

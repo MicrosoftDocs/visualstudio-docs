@@ -2,21 +2,17 @@
 title: "METADATA_ADDRESS_RETVAL | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "METADATA_ADDRESS_RETVAL"
 helpviewer_keywords: 
   - "METADATA_ADDRESS_RETVAL structure"
 ms.assetid: 5b0ec0fb-84b3-4ce7-8e24-becf3d881d7d
-caps.latest.revision: 6
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

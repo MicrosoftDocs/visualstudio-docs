@@ -3,13 +3,10 @@ title: IntelliSense for R code
 description: Visual Studio IntelliSense displays information about functions, object members, code snippets and completions as you type R code.
 ms.custom:
 ms.date: 01/24/2018
-ms.reviewer:
-ms.suite:
 ms.technology: 
   - "devlang-r"
 dev_langs:
   - "R"
-ms.tgt_pltfrm:
 ms.topic: "conceptual"
 author: "kraigb"
 ms.author: "kraigb"

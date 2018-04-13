@@ -4,8 +4,7 @@ description: Great Migrations tool for scalable, custom VB6/ASP/COMM to .NET upg
 ms.date: "09/05/2017"
 ms.technology: 
   - "devlang-vb"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "visual-basic"
 author: "rpetrusha"

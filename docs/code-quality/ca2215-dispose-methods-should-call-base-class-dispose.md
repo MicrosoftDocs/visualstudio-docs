@@ -2,12 +2,9 @@
 title: "CA2215: Dispose methods should call base class dispose | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "CA2215"
   - "DisposeMethodsShouldCallBaseClassDispose"
@@ -16,10 +13,9 @@ helpviewer_keywords:
   - "DisposeMethodsShouldCallBaseClassDispose"
   - "CA2215"
 ms.assetid: c772e7a6-a87e-425c-a70e-912664ae9042
-caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

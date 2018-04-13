@@ -2,17 +2,13 @@
 title: "How to: Add Schema Set Search Result Nodes to the Workspace | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: ff33b3cc-4db9-4b4e-9378-b45ed5999b18
-caps.latest.revision: 3
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

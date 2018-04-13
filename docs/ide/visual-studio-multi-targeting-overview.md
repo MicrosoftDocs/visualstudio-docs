@@ -2,12 +2,9 @@
 title: "Targeting the .NET Framework in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: 02/06/2018
-ms.reviewer: ""
-ms.suite: ""
 ms.technology:
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "targeting .NET Framework [Visual Studio]"
   - "multi-targeting [Visual Studio]"
@@ -16,7 +13,7 @@ helpviewer_keywords:
   - ".NET framework targeting [Visual Studio]"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload:
   - "dotnet"
 ---

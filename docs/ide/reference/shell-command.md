@@ -2,12 +2,9 @@
 title: "Shell Command | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "tools.shell"
 helpviewer_keywords: 
@@ -19,10 +16,9 @@ helpviewer_keywords:
   - "Shell, launching exe files"
   - "Visual Studio, executables from"
 ms.assetid: 737fda23-b852-45c4-a9fe-41cbce6ba70f
-caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

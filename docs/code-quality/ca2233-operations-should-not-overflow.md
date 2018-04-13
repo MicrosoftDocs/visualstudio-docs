@@ -2,12 +2,9 @@
 title: "CA2233: Operations should not overflow | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "OperationsShouldNotOverflow"
   - "CA2233"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "OperationsShouldNotOverflow"
   - "CA2233"
 ms.assetid: 3a2b06ba-6d1b-4666-9eaf-e053ef47ffaa
-caps.latest.revision: 19
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

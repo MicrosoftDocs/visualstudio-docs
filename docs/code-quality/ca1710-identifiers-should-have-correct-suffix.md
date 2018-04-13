@@ -2,12 +2,9 @@
 title: "CA1710: Identifiers should have correct suffix | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "CA1710"
   - "IdentifiersShouldHaveCorrectSuffix"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "IdentifiersShouldHaveCorrectSuffix"
   - "CA1710"
 ms.assetid: 2b8e6dce-b4e8-4a66-ba9a-6b79be5bfe8c
-caps.latest.revision: 20
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

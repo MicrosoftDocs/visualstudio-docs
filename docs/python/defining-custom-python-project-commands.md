@@ -3,13 +3,10 @@ title: How To define custom menu commands for Python projects
 description: Demonstrates how to edit project and targets files to add custom commands to the Python project context menu in Visual Studio. Commands can invoke on executable programs, scripts, modules, inline code snippets, and pip.
 ms.custom:
 ms.date: 02/02/2018
-ms.reviewer:
-ms.suite:
 ms.technology: 
   - "devlang-python"
 dev_langs:
   - "python"
-ms.tgt_pltfrm:
 ms.topic: "conceptual"
 author: kraigb
 ms.author: kraigb

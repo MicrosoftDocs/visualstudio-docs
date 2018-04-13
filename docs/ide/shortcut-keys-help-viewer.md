@@ -2,20 +2,16 @@
 title: "Shortcut Keys (Help Viewer) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-help-viewer"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "shortcut keys [Help Viewer]"
   - "Help Viewer, shortcut keys"
 ms.assetid: ec14c85d-7efb-441c-a46b-bee34a227e39
-caps.latest.revision: 22
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

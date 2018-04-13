@@ -2,8 +2,6 @@
 title: "Map methods on the call stack while debugging in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-modeling
 ms.topic: "conceptual"
 f1_keywords:
@@ -29,7 +27,7 @@ helpviewer_keywords:
   - "debugging [Visual Studio], visualizing the call stack"
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ---

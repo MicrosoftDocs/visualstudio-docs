@@ -2,16 +2,12 @@
 title: "Walkthrough: Create a Simple Application with C# or Visual Basic | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/03/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: "vs-acquisition"
-ms.tgt_pltfrm: ""
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
   - "CSharp"
 ms.assetid: f84339c7-d617-4f56-bfcd-af2215c347ba
-caps.latest.revision: 19
 author: "TerryGLee"
 ms.author: "tglee"
 manager: douge
