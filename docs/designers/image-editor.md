@@ -16,12 +16,14 @@ ms.workload:
   - "multiple"
 ---
 # Image Editor
-This document describes how to work with the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Image Editor to view and modify texture and image resources.
+
+This document describes how to work with the Visual Studio Image Editor to view and modify texture and image resources.
 
  You can use the Image Editor to work with the kinds of rich texture and image formats that are used in DirectX app development—this includes support for popular image file formats and color encodings, features such as alpha-channels and MIP-mapping, and many of the highly-compressed, hardware-accelerated texture formats that DirectX supports.
 
 ## Supported formats
- The Image Editor supports these image formats:
+
+The Image Editor supports these image formats:
 
 |Format name|File Name Extension|
 |-----------------|-------------------------|
@@ -33,10 +35,11 @@ This document describes how to work with the [!INCLUDE[vsprvs](../code-quality/i
 |Tagged Image File Format|.tif, .tiff|
 |TGA (Targa)|.tga|
 
-## Getting started
- This section describes how to add an image to your [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project and configure it for your requirements.
+## Get started
 
-#### To add an image to your project
+This section describes how to add an image to your Visual Studio project and configure it for your requirements.
+
+### To add an image to your project
 
 1.  In **Solution Explorer**, open the shortcut menu for the project that you want to add the image to, and then choose **Add**, **New Item**.
 
@@ -46,8 +49,9 @@ This document describes how to work with the [!INCLUDE[vsprvs](../code-quality/i
 
 4.  Choose the **Add** button.
 
-### Choosing the image format
- Depending on how you plan to use the image, certain file formats might be more appropriate than others. For example, some formats might not support a feature that you need—like transparency or a specific color format—or might not provide suitable compression for the kind of image content you have planned.
+### Choose the image format
+
+Depending on how you plan to use the image, certain file formats might be more appropriate than others. For example, some formats might not support a feature that you need—like transparency or a specific color format—or might not provide suitable compression for the kind of image content you have planned.
 
  The following information can help you choose an image format that meets your needs.
 
@@ -72,17 +76,20 @@ This document describes how to work with the [!INCLUDE[vsprvs](../code-quality/i
  **TGA Image (.tga)**
  The Truevision Graphics Adapter (TGA) image format (also known as Targa). An RLE-compressed, lossless image format that supports both color-mapped (color palette) or direct-color images of up to 24-bit color and alpha transparency. Unsuitable for photographs and images that have a significant amount of color detail, but provides good compression ratios for images that have long spans of identical colors.
 
-### Configuring the image
- Before you begin to work with the image that you just created, you can change its default configuration. For example, you can change its dimensions or the color format that it uses. For information about how to configure these and other properties of the image, see [Image properties](#ImageProperties).
+### Configure the image
+
+Before you begin to work with the image that you just created, you can change its default configuration. For example, you can change its dimensions or the color format that it uses. For information about how to configure these and other properties of the image, see [Image properties](#ImageProperties).
 
 > [!NOTE]
 >  Before you save your work, make sure to set the **Color Format** property if you want to use a specific color format. If the file format supports compression, you can adjust the compression settings when you save the file for the first time or when you choose **Save As**.
 
-## Working with the Image Editor
- This section describes how to use the Image Editor to modify textures and images.
+## Work with the Image Editor
+
+This section describes how to use the Image Editor to modify textures and images.
 
 ### Image Editor toolbars
- The Image Editor toolbars contain commands that help you work with images.
+
+The Image Editor toolbars contain commands that help you work with images.
 
  Commands that affect the state of the Image Editor are located on the **Image Editor Mode** toolbar together with advanced commands. The toolbar is located along the topmost edge of the Image Editor design surface. Drawing tools are located on the **Image Editor** toolbar along the leftmost edge of the Image Editor design surface.
 
@@ -129,21 +136,24 @@ This document describes how to work with the [!INCLUDE[vsprvs](../code-quality/i
 |**Rotate**|Rotates the image 90 degrees clockwise.|
 |**Trim**|Trims the image to the active selection.|
 
-### Working with MIP levels
- Some image formats—for example, DirectDraw Surface (.dds)—support MIP levels for texture-space Level-of-Detail (LOD). For information about how to generate and work with MIP levels, see [How to: Create and Modify MIP Levels](../designers/how-to-create-and-modify-mip-levels.md)
+### Work with MIP levels
 
-### Working with transparency
- Some image formats—for example, DirectDraw Surface (.dds)—support transparency. There are several ways that transparency can be used, depending on the tool that you are using. To specify the level of transparency for a color selection, in the **Properties** window, set the **A** (alpha) component of the color selection. Here's how different kinds of tools control how transparency is applied:
+Some image formats—for example, DirectDraw Surface (.dds)—support MIP levels for texture-space Level-of-Detail (LOD). For information about how to generate and work with MIP levels, see [How to: Create and Modify MIP Levels](../designers/how-to-create-and-modify-mip-levels.md)
+
+### Work with transparency
+
+Some image formats—for example, DirectDraw Surface (.dds)—support transparency. There are several ways that transparency can be used, depending on the tool that you are using. To specify the level of transparency for a color selection, in the **Properties** window, set the **A** (alpha) component of the color selection. Here's how different kinds of tools control how transparency is applied:
 
 |Tool|Description|
 |----------|-----------------|
 |**Pencil**, **Brush**, **Airbrush**, **Line**, **Rectangle**, **Rounded Rectangle**, **Ellipse**, **Text**|To blend the active color selection together with the image, in the **Properties** window, expand the **Channels** property group and set the **Draw** checkbox on the **Alpha** channel, and then draw normally.<br /><br /> To draw by using the active color selection and leave the alpha value of the image in place, clear the **Draw** checkbox of the **Alpha** channel, and then draw normally.|
 |**Fill**|To blend the active color selection together with the image, just choose the area to fill.<br /><br /> To use the active color selection—including the value of the alpha channel—to overwrite the image, press and hold Shift and then choose the area to fill.|
 
-###  <a name="ImageProperties"></a> Image properties
- You can use the **Properties** window to specify various properties of the image. For example, you can set the Width and Height properties to resize the image.
+### Image properties
 
- The following table describes image properties.
+You can use the **Properties** window to specify various properties of the image. For example, you can set the Width and Height properties to resize the image.
+
+The following table describes image properties.
 
 |Property|Description|
 |--------------|-----------------|
@@ -162,35 +172,35 @@ This document describes how to work with the [!INCLUDE[vsprvs](../code-quality/i
 > [!NOTE]
 >  Because the **Rotate by** property applies to all tools and selected regions, it always appears at the bottom of the **Properties** window together with other tool properties. **Rotate by** is always displayed because the whole image is implicitly selected when there is no other selection or active tool. For more information about the **Rotate by** property, see [Tool Properties](#ToolProperties).
 
-#### Resizing images
- Here are two ways to resize an image. In both cases, the Image Editor uses bi-linear interpolation to resample the image.
+#### Resize images
+
+Here are two ways to resize an image. In both cases, the Image Editor uses bi-linear interpolation to resample the image.
 
 -   In the **Properties** window, specify new values for the **Width** and **Height** properties.
 
 -   Select the entire image and use the border markers to resize the image.
 
-### Working with tools
+### Work with tools
 
 #### Selected regions
- Selections in the Image Editor define regions of the image that are active—that is, the region will be affected by tools and transformations. When there is an active selection, areas outside the selected region are not affected by most tools and transformations. If there is not an active selection, the entire image is active.
 
- Most tools—**Pencil**, **Brush**, **Airbrush**, **Fill**, **Eraser**, and 2D primitives—and transformations—**Rotate**, **Trim**, **Invert Colors**, **Flip Horizontal**, and **Flip Vertical**—are constrained or defined by the active selection. However, some tools—**Eyedropper** and **Text**—and transformations—**Generate Mips**—are not affected by any active selection; these tools always behave as if the entire image is the active selection.
+Selections in the Image Editor define regions of the image that are active—that is, the region will be affected by tools and transformations. When there is an active selection, areas outside the selected region are not affected by most tools and transformations. If there is not an active selection, the entire image is active.
 
- While you are selecting a region, you can press and hold Shift to make a proportional (square) selection; otherwise, the selection is not constrained.
+Most tools—**Pencil**, **Brush**, **Airbrush**, **Fill**, **Eraser**, and 2D primitives—and transformations—**Rotate**, **Trim**, **Invert Colors**, **Flip Horizontal**, and **Flip Vertical**—are constrained or defined by the active selection. However, some tools—**Eyedropper** and **Text**—and transformations—**Generate Mips**—are not affected by any active selection; these tools always behave as if the entire image is the active selection.
 
-##### Resizing selections
- After you select a region, you can resize it or its image contents by changing the size of the selection marker. While you are resizing the selected region, you can use the following modifier keys to change the behavior of the selected region as you resize it (press and hold the key as you resize).
+While you are selecting a region, you can press and hold Shift to make a proportional (square) selection; otherwise, the selection is not constrained.
 
- Ctrl
- Copies the contents of the selected region before it's resized. This leaves the original image intact while the copy is resized.
+##### Resize selections
 
- Shift
- Resizes the selected region in proportion to its original size.
+After you select a region, you can resize it or its image contents by changing the size of the selection marker. While you are resizing the selected region, you can use the following modifier keys to change the behavior of the selected region as you resize it (press and hold the key as you resize).
 
- Alt
- Changes the size of the selection region. This leaves the image unmodified.
+Ctrl&mdash;Copies the contents of the selected region before it's resized. This leaves the original image intact while the copy is resized.
 
- Here are the valid modifier key combinations:
+Shift&mdash;Resizes the selected region in proportion to its original size.
+
+Alt&mdash;Changes the size of the selection region. This leaves the image unmodified.
+
+Here are the valid modifier key combinations:
 
 |Ctrl|Shift|Alt|Description|
 |----------|-----------|---------|-----------------|
@@ -201,12 +211,13 @@ This document describes how to work with the [!INCLUDE[vsprvs](../code-quality/i
 |Ctrl|||Copies and then resizes the content of the selected region.|
 |Ctrl|Shift||Copies and then proportionally resizes the content of the selected region.|
 
-####  <a name="ToolProperties"></a> Tool Properties
- While a tool is selected, you can use the **Properties** window to specify details about how it affects the image. For example, you can set the thickness of the **Pencil** tool or the color of the **Brush** tool.
+#### Tool Properties
 
- You can set both a foreground color and a background color. Both support an alpha channel to provide user-defined opacity. The settings apply to all tools. If you use a mouse, the left mouse button corresponds to the foreground color, and the right mouse button corresponds to the background color.
+While a tool is selected, you can use the **Properties** window to specify details about how it affects the image. For example, you can set the thickness of the **Pencil** tool or the color of the **Brush** tool.
 
- The following table describes tool properties.
+You can set both a foreground color and a background color. Both support an alpha channel to provide user-defined opacity. The settings apply to all tools. If you use a mouse, the left mouse button corresponds to the foreground color, and the right mouse button corresponds to the background color.
+
+The following table describes tool properties.
 
 |Tool|Properties|
 |----------|----------------|
@@ -265,6 +276,6 @@ This document describes how to work with the [!INCLUDE[vsprvs](../code-quality/i
 
 |Title|Description|
 |-----------|-----------------|
-|[Working with 3D Assets for Games and Apps](../designers/working-with-3-d-assets-for-games-and-apps.md)|Provides an overview of the tools that you can use in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to work with graphics assets such as textures and images, 3D models, and shader effects.|
-|[Model Editor](../designers/model-editor.md)|Describes how to use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Model Editor to work with 3D models.|
-|[Shader Designer](../designers/shader-designer.md)|Describes how to use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Shader Designer to work with shaders.|
+|[Working with 3D Assets for Games and Apps](../designers/working-with-3-d-assets-for-games-and-apps.md)|Provides an overview of the tools that you can use in Visual Studio to work with graphics assets such as textures and images, 3D models, and shader effects.|
+|[Model Editor](../designers/model-editor.md)|Describes how to use the Visual Studio Model Editor to work with 3D models.|
+|[Shader Designer](../designers/shader-designer.md)|Describes how to use the Visual Studio Shader Designer to work with shaders.|

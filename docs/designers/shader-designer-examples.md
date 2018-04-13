@@ -13,6 +13,7 @@ ms.workload:
   - "multiple"
 ---
 # Shader Designer Examples
+
 The articles in this section of the documentation contain examples that demonstrate how you can use the Shader Designer to create various graphics effects.
 
 ## Related topics

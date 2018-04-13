@@ -13,9 +13,8 @@ ms.workload:
   - "multiple"
 ---
 # How to: Create a Basic 3D Model
-This document demonstrates how to use the Model Editor to create a basic 3D model.
 
- This document demonstrates these activities:
+This article demonstrates how to use the Model Editor to create a basic 3D model. The following activities are covered:
 
 -   Adding objects to a scene
 
@@ -27,7 +26,7 @@ This document demonstrates how to use the Model Editor to create a basic 3D mode
 
 -   Using the **Triangulate** command
 
-## Creating a basic 3D model
+## Create a basic 3D model
  You can use the Model Editor to create and modify 3D models and scenes for your game or app. The following steps show how to use the Model Editor to create a simplified 3D model of a house. A simplified model can be used as a stand-in for final art assets that are still being created, as a mesh for collision detection, or as a low-detail model to be used when the object that it represents is too far away to benefit from more detailed rendering.
 
  When you're finished, the model should look like this:
@@ -36,7 +35,7 @@ This document demonstrates how to use the Model Editor to create a basic 3D mode
 
  Before you begin, make sure that the **Properties** window and **Toolbox** are displayed.
 
-#### To create a simplified 3D model of a house
+### To create a simplified 3D model of a house
 
 1.  Create a 3D model to work with. For information about how to add a model to your project, see the Getting Started section in [Model Editor](../designers/model-editor.md).
 
@@ -70,7 +69,8 @@ This document demonstrates how to use the Model Editor to create a basic 3D mode
 
  As a next step, you can apply a shader to this 3D model. For information, see [How to: Apply a Shader to a 3D Model](../designers/how-to-apply-a-shader-to-a-3-d-model.md).
 
-## See Also
- [How to: Model 3D Terrain](../designers/how-to-model-3-d-terrain.md)
- [Model Editor](../designers/model-editor.md)
- [Shader Designer](../designers/shader-designer.md)
+## See also
+
+- [How to: Model 3D Terrain](../designers/how-to-model-3-d-terrain.md)
+- [Model Editor](../designers/model-editor.md)
+- [Shader Designer](../designers/shader-designer.md)

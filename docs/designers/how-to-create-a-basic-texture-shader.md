@@ -13,26 +13,14 @@ ms.workload:
   - "multiple"
 ---
 # How to: Create a Basic Texture Shader
-This document demonstrates how to use the Shader Designer and the Directed Graph Shader Language (DGSL) to create a single-texture shader. This shader sets the final color directly to the RGB and alpha values that are sampled from the texture.
 
- This document demonstrates these activities:
+This article demonstrates how to use the Shader Designer and the Directed Graph Shader Language (DGSL) to create a single-texture shader. This shader sets the final color directly to the RGB and alpha values that are sampled from the texture.
 
--   Removing nodes from a shader graph
+## Create a basic texture shader
 
--   Adding nodes to a graph
+You can implement a basic, single-texture shader by writing the color and alpha values of a texture sample directly to the final output color.
 
--   Setting shader parameters
-
--   Setting parameter visibility
-
--   Connecting nodes
-
-## Creating a basic texture shader
- You can implement a basic, single-texture shader by writing the color and alpha values of a texture sample directly to the final output color.
-
- Before you begin, make sure that the **Properties** window and the **Toolbox** are displayed.
-
-#### To create a basic texture shader
+Before you begin, make sure that the **Properties** window and the **Toolbox** are displayed.
 
 1.  Create a DGSL shader to work with. For information about how to add a DGSL shader to your project, see the Getting Started section in [Shader Designer](../designers/shader-designer.md).
 
@@ -50,17 +38,18 @@ This document demonstrates how to use the Shader Designer and the Directed Graph
 
 8.  Connect the texture sample to the final color. Move the **RGB** terminal of the **Texture Sample** node to the **RGB** terminal of the **Final Color** node, and then move the **Alpha** terminal of the **Texture Sample** node to the **Alpha** terminal of the **Final Color** node.
 
- The following illustration shows the completed shader graph and a preview of the shader applied to a cube.
+The following illustration shows the completed shader graph and a preview of the shader applied to a cube.
 
 > [!NOTE]
->  In this illustration, a plane is used as the preview shape, and a texture has been specified to better demonstrate the effect of the shader.
+> In this illustration, a plane is used as the preview shape, and a texture has been specified to better demonstrate the effect of the shader.
 
- ![Shader graph and a preview of its effect](../designers/media/digit-texture-effect.png "Digit-Texture-Effect")
+![Shader graph and a preview of its effect](../designers/media/digit-texture-effect.png "Digit-Texture-Effect")
 
- Certain shapes might provide better previews for some shaders. For more information about how to preview shaders in the Shader Designer, see [Shader Designer](../designers/shader-designer.md)
+Certain shapes might provide better previews for some shaders. For more information about how to preview shaders in the Shader Designer, see [Shader Designer](../designers/shader-designer.md)
 
-## See Also
- [How to: Apply a Shader to a 3D Model](../designers/how-to-apply-a-shader-to-a-3-d-model.md)
- [Image Editor](../designers/image-editor.md)
- [Shader Designer](../designers/shader-designer.md)
- [Shader Designer Nodes](../designers/shader-designer-nodes.md)
+## See also
+
+- [How to: Apply a Shader to a 3D Model](../designers/how-to-apply-a-shader-to-a-3-d-model.md)
+- [Image Editor](../designers/image-editor.md)
+- [Shader Designer](../designers/shader-designer.md)
+- [Shader Designer Nodes](../designers/shader-designer-nodes.md)

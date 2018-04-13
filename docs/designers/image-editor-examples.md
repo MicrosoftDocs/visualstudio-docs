@@ -13,6 +13,7 @@ ms.workload:
   - "multiple"
 ---
 # Image Editor Examples
+
 The articles in this section of the documentation contain examples that demonstrate how you can use the Image Editor.
 
 ## Related topics

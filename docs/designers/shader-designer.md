@@ -16,12 +16,14 @@ ms.workload:
   - "multiple"
 ---
 # Shader Designer
+
 This document describes how to work with the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Shader Designer to create, modify, and export custom visual effects that are known as *shaders*.
 
- You can use the Shader Designer to create custom visual effects for your game or app even if you don't know HLSL programming. To create a shader in the Shader Designer, you just lay it out as a graph; that is, you add to the design surface *nodes* that represent data and operations and then make connections between them to define how the operations process the data. At each operation node, a preview of the effect up to that point is provided so that you can visualize its result. Data flows through the nodes toward a final node that represents the output of the shader.
+You can use the Shader Designer to create custom visual effects for your game or app even if you don't know HLSL programming. To create a shader in the Shader Designer, you just lay it out as a graph; that is, you add to the design surface *nodes* that represent data and operations and then make connections between them to define how the operations process the data. At each operation node, a preview of the effect up to that point is provided so that you can visualize its result. Data flows through the nodes toward a final node that represents the output of the shader.
 
 ## Supported formats
- The Shader Designer supports these shader formats:
+
+The Shader Designer supports these shader formats:
 
 |Format Name|File Extension|Supported Operations (View, Edit, Export)|
 |-----------------|--------------------|-------------------------------------------------|
@@ -30,10 +32,11 @@ This document describes how to work with the [!INCLUDE[vsprvs](../code-quality/i
 |HLSL Shader (bytecode)|.cso|Export|
 |C++ header (HLSL bytecode array)|.h|Export|
 
-## Getting Started
- This section describes how to add a DGSL shader to your [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project and provides basic information to help you get started.
+## Get Started
 
-#### To add a DGSL shader to your project
+This section describes how to add a DGSL shader to your [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project and provides basic information to help you get started.
+
+### To add a DGSL shader to your project
 
 1.  In **Solution Explorer**, open the shortcut menu for the project that you want to add the shader to, and then choose **Add**, **New Item**.
 
@@ -44,21 +47,24 @@ This document describes how to work with the [!INCLUDE[vsprvs](../code-quality/i
 4.  Choose the **Add** button.
 
 ### The default shader
- Each time that you create a DGSL shader, it begins as a minimal shader that has just a **Point Color** node that's connected to the **Final Color** node. Although this shader is complete and functional, it doesn't do much. Therefore, the first step in creating a working shader is often to delete the **Point Color** node or disconnect it from the **Final Color** node to make room for other nodes.
 
-## Working with the Shader Designer
- The following sections describe how to use the Shader Designer to work with custom shaders.
+Each time that you create a DGSL shader, it begins as a minimal shader that has just a **Point Color** node that's connected to the **Final Color** node. Although this shader is complete and functional, it doesn't do much. Therefore, the first step in creating a working shader is often to delete the **Point Color** node or disconnect it from the **Final Color** node to make room for other nodes.
+
+## Work with the Shader Designer
+
+The following sections describe how to use the Shader Designer to work with custom shaders.
 
 ### Shader Designer toolbars
- The Shader Designer toolbars contain commands that help you work with DGSL shader graphs.
 
- Commands that affect the state of the Shader Designer are located on the **Shader Designer Mode** toolbar in the main [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] window. Design tools and commands are located on the **Shader Designer** toolbar on the Shader Designer design surface.
+The Shader Designer toolbars contain commands that help you work with DGSL shader graphs.
 
- Here's the **Shader Designer Mode** toolbar:
+Commands that affect the state of the Shader Designer are located on the **Shader Designer Mode** toolbar in the main [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] window. Design tools and commands are located on the **Shader Designer** toolbar on the Shader Designer design surface.
 
- ![The Shader Designer modal toolbar.](../designers/media/digit-dsd-modal-toolbar.png "Digit-DSD-Modal-Toolbar")
+Here's the **Shader Designer Mode** toolbar:
 
- This table describes the items on the **Shader Designer Mode** toolbar, which are listed in the order in which they appear from left to right:
+![The Shader Designer modal toolbar.](../designers/media/digit-dsd-modal-toolbar.png "Digit-DSD-Modal-Toolbar")
+
+This table describes the items on the **Shader Designer Mode** toolbar, which are listed in the order in which they appear from left to right:
 
 |Toolbar Item|Description|
 |------------------|-----------------|
@@ -78,12 +84,13 @@ This document describes how to work with the [!INCLUDE[vsprvs](../code-quality/i
 |**Advanced**|Contains advanced commands and options.<br /><br /> **Export**: Enables the export of a shader in several formats.<br /><br /> **Export As**: Exports the shader as either HLSL source code or as compiled shader bytecode. For more information about how to export shaders, see [How to: Export a Shader](../designers/how-to-export-a-shader.md).<br /><br /> **Graphics Engines**: Enables the selection of the renderer that is used to display the design surface.<br /><br /> **Render with D3D11**: Uses Direct3D 11 to render the Shader Designer design surface.<br /><br /> **Render with D3D11WARP**: Uses Direct3D 11 Windows Advanced Rasterization Platform (WARP) to render the Shader Designer design surface.<br /><br /> **View**: Enables the selection of additional information about the Shader Designer.<br /><br /> **Frame Rate**: When enabled, displays the current frame rate in the upper-right corner of the design surface. The frame rate is the number of frames that are drawn per second.  This option is useful when you enable the **Real-Time Rendering Mode** option.|
 
 > [!TIP]
->  You can choose the **Advanced** button to run the last command again.
+> You can choose the **Advanced** button to run the last command again.
 
-### Working with nodes and connections
- Use **Select** mode to add, remove, reposition, connect, and configure nodes. Here's how to perform these basic operations:
+### Work with nodes and connections
 
-##### To perform basic operations in Select mode
+Use **Select** mode to add, remove, reposition, connect, and configure nodes. Here's how to perform these basic operations:
+
+#### To perform basic operations in Select mode
 
 -   Here's how:
 
@@ -99,26 +106,26 @@ This document describes how to work with the [!INCLUDE[vsprvs](../code-quality/i
 
     -   To configure the properties of a node, select the node, and then, in the **Properties** window, specify new values for the properties.
 
-### Previewing shaders
- To help you understand how a shader will appear in your app, you can configure how your effect is previewed. To approximate your app, you can choose one of several shapes to render, configure textures and other material parameters, enable animation of time-based effects, and examine the preview from different angles.
+### Preview shaders
+
+To help you understand how a shader will appear in your app, you can configure how your effect is previewed. To approximate your app, you can choose one of several shapes to render, configure textures and other material parameters, enable animation of time-based effects, and examine the preview from different angles.
 
 #### Shapes
- The Shader Designer includes six shapes—a sphere, a cube, a cylinder, a cone, a teapot, and a plane—that you can use to preview your shader. Depending on the shader, certain shapes might give you a better preview.
 
-###### To choose a preview shape
+The Shader Designer includes six shapes—a sphere, a cube, a cylinder, a cone, a teapot, and a plane—that you can use to preview your shader. Depending on the shader, certain shapes might give you a better preview.
 
--   On the **Shader Designer Modes** toolbar, choose the shape that you want.
+To choose a preview shape, on the **Shader Designer Modes** toolbar, choose the shape that you want.
 
-####  <a name="WWS_MaterialParameters"></a> Textures and material parameters
+#### Textures and material parameters
  Many shaders rely on textures and material properties to produce a unique appearance for each kind of object in your app. To see what your shader will look like in your app, you can set the textures and material properties that are used to render the preview to match the textures and parameters that you might use in your app.
 
-###### To bind a different texture to a texture register, or to modify other material parameters
+##### To bind a different texture to a texture register, or to modify other material parameters
 
 1.  In **Select** mode, select an empty area of the design surface. This causes the **Properties** window to display the global shader properties.
 
 2.  In the **Properties** window, specify new values for the texture and parameter properties that you want to change.
 
- Here are the shader parameters that you can modify:
+Here are the shader parameters that you can modify:
 
 |Parameter|Properties|
 |---------------|----------------|
@@ -130,25 +137,24 @@ This document describes how to work with the [!INCLUDE[vsprvs](../code-quality/i
 |**Material Specular Power**|**Access**:                             **Public** to allow the property to be set from the Model Editor; otherwise, **Private**.<br /><br /> **Value**: The exponent that defines the intensity of specular highlights on the current pixel.|
 
 #### Time-based effects
- Some shaders have a time-based component that animates the effect. To show what the effect looks like in action, the preview has to be updated several times per second. By default, the preview is only updated when the shader is changed; to change this behavior so that you can view time-based effects, you have to enable real-time rendering.
 
-###### To enable real-time rendering
+Some shaders have a time-based component that animates the effect. To show what the effect looks like in action, the preview has to be updated several times per second. By default, the preview is only updated when the shader is changed; to change this behavior so that you can view time-based effects, you have to enable real-time rendering.
 
--   On the Shader Designer toolbar, choose **Real time Rendering**.
+To enable real-time rendering, on the Shader Designer toolbar, choose **Real time Rendering**.
 
-#### Examining the effect
- Many shaders are affected by variables such as viewing angle or directional lighting. To examine how the effect responds as these variables change, you can rotate the preview shape freely and observe how the shader behaves.
+#### Examine the effect
 
-###### To rotate the shape
+Many shaders are affected by variables such as viewing angle or directional lighting. To examine how the effect responds as these variables change, you can rotate the preview shape freely and observe how the shader behaves.
 
--   Press and hold Alt, and then select any point on the design surface and move it.
+To rotate the shape, press and hold **Alt**, and then select any point on the design surface and move it.
 
-### Exporting shaders
- Before you can use a shader in your app, you have to export it in a format that DirectX understands.
+### Export shaders
 
- You can export shaders as HLSL source code or as compiled shader bytecode. HLSL source code is exported to a text file that has an .hlsl file name extension. Shader bytecode can be exported either to a raw binary file that has a .cso file name extension, or to a C++ header (.h) file that encodes the shader bytecode into an array.
+Before you can use a shader in your app, you have to export it in a format that DirectX understands.
 
- For more information about how to export shaders, see [How to: Export a Shader](../designers/how-to-export-a-shader.md).
+You can export shaders as HLSL source code or as compiled shader bytecode. HLSL source code is exported to a text file that has an .hlsl file name extension. Shader bytecode can be exported either to a raw binary file that has a .cso file name extension, or to a C++ header (.h) file that encodes the shader bytecode into an array.
+
+For more information about how to export shaders, see [How to: Export a Shader](../designers/how-to-export-a-shader.md).
 
 ## Keyboard shortcuts
 

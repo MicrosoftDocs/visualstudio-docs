@@ -13,18 +13,14 @@ ms.workload:
   - "multiple"
 ---
 # How to: Modify the Pivot Point of a 3D Model
-This document demonstrates how to use the Model Editor to modify the *pivot point* of a 3D model. The pivot point is the point in space that defines the mathematical center of the object for rotation and scaling.
 
- This document demonstrates this activity:
+This article demonstrates how to use the Model Editor to modify the *pivot point* of a 3D model. The pivot point is the point in space that defines the mathematical center of the object for rotation and scaling.
 
--   Modifying the pivot point of an object
+## Modify the pivot point of a 3D model
 
-## Modifying the pivot point of a 3D model
- You can redefine the origin of a 3D model by modifying its pivot point.
+You can redefine the origin of a 3D model by modifying its pivot point.
 
- Make sure that the **Properties** window and the **Toolbox** are displayed.
-
-#### To modify the pivot point of a 3D model
+Make sure that the **Properties** window and the **Toolbox** are displayed.
 
 1.  Begin with an existing 3D model, such as the one that's described in [How to: Create a Basic 3D Model](../designers/how-to-create-a-basic-3-d-model.md).
 
@@ -37,12 +33,13 @@ This document demonstrates how to use the Model Editor to modify the *pivot poin
      You can also specify the pivot point by using the **Pivot Translation** property in the **Properties** window.
 
     > [!TIP]
-    >  You can view the effect of the new pivot point by rotating the object. To rotate it, use the **Rotate** tool or modify the **Rotation** property.
+    > You can view the effect of the new pivot point by rotating the object. To rotate it, use the **Rotate** tool or modify the **Rotation** property.
 
- Here's a model that has a modified pivot point:
+Here's a model that has a modified pivot point:
 
- ![A model of a house that has a modified pivot point](../designers/media/digit-modified-model.png "Digit-Modified-Model")
+![A model of a house that has a modified pivot point](../designers/media/digit-modified-model.png "Digit-Modified-Model")
 
-## See Also
- [How to: Create a Basic 3D Model](../designers/how-to-create-a-basic-3-d-model.md)
- [Model Editor](../designers/model-editor.md)
+## See also
+
+- [How to: Create a Basic 3D Model](../designers/how-to-create-a-basic-3-d-model.md)
+- [Model Editor](../designers/model-editor.md)

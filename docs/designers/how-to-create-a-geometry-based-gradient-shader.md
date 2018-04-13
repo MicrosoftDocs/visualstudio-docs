@@ -13,24 +13,14 @@ ms.workload:
   - "multiple"
 ---
 # How to: Create a Geometry-Based Gradient Shader
-This document demonstrates how to use the Shader Designer and the Directed Graph Shader Language to create a geometry-based gradient shader. This shader scales a constant RGB color value by the height of each point of an object in world space.
 
- This document demonstrates these activities:
+This article demonstrates how to use the Shader Designer and the Directed Graph Shader Language to create a geometry-based gradient shader. This shader scales a constant RGB color value by the height of each point of an object in world space.
 
--   Adding nodes to a shader graph
+## Create a geometry-based gradient shader
 
--   Setting node properties
+You can implement a geometry-based shader by incorporating the position of the pixel into your shader. In shading languages, a pixel contains more information than just its color and location on a 2D screen. A pixel—known as a *fragment* in some systems—is a collection of values that describe the surface that corresponds to a pixel. The shader that's described in this document utilizes the height of each pixel of a 3D object in world space to affect the final output color of the fragment.
 
--   Disconnecting nodes
-
--   Connecting nodes
-
-## Creating a geometry-based gradient shader
- You can implement a geometry-based shader by incorporating the position of the pixel into your shader. In shading languages, a pixel contains more information than just its color and location on a 2D screen. A pixel—known as a *fragment* in some systems—is a collection of values that describe the surface that corresponds to a pixel. The shader that's described in this document utilizes the height of each pixel of a 3D object in world space to affect the final output color of the fragment.
-
- Before you begin, make sure that the **Properties** window and the **Toolbox** are displayed.
-
-#### To create a geometry-based gradient shader
+Before you begin, make sure that the **Properties** window and the **Toolbox** are displayed.
 
 1.  Create a DGSL shader to work with. For information about how to add a DGSL shader to your project, see the Getting Started section in [Shader Designer](../designers/shader-designer.md).
 
@@ -50,10 +40,10 @@ This document demonstrates how to use the Shader Designer and the Directed Graph
 
 9. Connect the scaled color value to the final color. Move the **Output** terminal of the **Multiply** node to the **RGB** terminal of the **Final Color** node.
 
- The following illustration shows the completed shader graph and a preview of the shader applied to a sphere.
+The following illustration shows the completed shader graph and a preview of the shader applied to a sphere.
 
 > [!NOTE]
->  In this illustration, an orange color is specified to better demonstrate the effect of the shader, but because the preview shape has no position in world-space, the shader cannot be fully previewed in the Shader Designer. The shader must be previewed in a real scene to demonstrate the full effect.
+> In this illustration, an orange color is specified to better demonstrate the effect of the shader, but because the preview shape has no position in world-space, the shader cannot be fully previewed in the Shader Designer. The shader must be previewed in a real scene to demonstrate the full effect.
 
  ![Shader graph and a preview of its effect](../designers/media/digit-gradient-effect-graph.png "Digit-Gradient-Effect-Graph")
 
@@ -65,10 +55,11 @@ This document demonstrates how to use the Shader Designer and the Directed Graph
 
  For more information about how to apply a shader to a 3D model, see [How to: Apply a Shader to a 3D Model](../designers/how-to-apply-a-shader-to-a-3-d-model.md).
 
-## See Also
- [How to: Apply a Shader to a 3D Model](../designers/how-to-apply-a-shader-to-a-3-d-model.md)
- [How to: Export a Shader](../designers/how-to-export-a-shader.md)
- [How to: Model 3D Terrain](../designers/how-to-model-3-d-terrain.md)
- [How to: Create a Grayscale Texture Shader](../designers/how-to-create-a-grayscale-texture-shader.md)
- [Shader Designer](../designers/shader-designer.md)
- [Shader Designer Nodes](../designers/shader-designer-nodes.md)
+## See also
+
+- [How to: Apply a Shader to a 3D Model](../designers/how-to-apply-a-shader-to-a-3-d-model.md)
+- [How to: Export a Shader](../designers/how-to-export-a-shader.md)
+- [How to: Model 3D Terrain](../designers/how-to-model-3-d-terrain.md)
+- [How to: Create a Grayscale Texture Shader](../designers/how-to-create-a-grayscale-texture-shader.md)
+- [Shader Designer](../designers/shader-designer.md)
+- [Shader Designer Nodes](../designers/shader-designer-nodes.md)

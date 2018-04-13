@@ -12,44 +12,37 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Walkthrough: Creating a Realistic 3D Billiard Ball
-This walkthrough demonstrates how to create a realistic 3D billiard ball by using the Shader Designer and Image Editor in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. The 3D appearance of the billiard ball is achieved by combining several shader techniques with appropriate texture resources.
+# Walkthrough: Create a realistic 3D billiard ball
 
- This document demonstrates these activities:
-
--   Creating the basic appearance of a billiard ball by using shape and texture.
-
--   Adding depth by using the Lambert lighting model.
-
--   Enhancing the basic appearance by using specular highlights.
-
--   Creating a sense of space by reflecting the environment.
+This walkthrough demonstrates how to create a realistic 3D billiard ball by using the Shader Designer and Image Editor in Visual Studio. The 3D appearance of the billiard ball is achieved by combining several shader techniques with appropriate texture resources.
 
 ## Prerequisites
- You need the following components and skills to complete this walkthrough:
+
+You need the following components and skills to complete this walkthrough:
 
 -   A tool for assembling textures into a cube map, such as the DirectX Texture Tool that is included in the June 2010 DirectX SDK.
 
--   Familiarity with the Image Editor in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].
+-   Familiarity with the Image Editor in Visual Studio.
 
--   Familiarity with the Shader Designer in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].
+-   Familiarity with the Shader Designer in Visual Studio.
 
-## Creating the basic appearance with shape and texture
- In computer graphics, the most-basic elements of appearance are shape and color. In a computer simulation, it is common to use a 3D model to represent the shape of a real-world object. Color detail is then applied to the surface of the model by using a texture map.
+## Create the basic appearance with shape and texture
 
- Typically, you might have to ask an artist to create a 3D model that you can use, but because a billiard ball is a common shape (a sphere), the Shader Designer already has a suitable model built in.
+In computer graphics, the most-basic elements of appearance are shape and color. In a computer simulation, it is common to use a 3D model to represent the shape of a real-world object. Color detail is then applied to the surface of the model by using a texture map.
 
- The sphere is the default preview shape in the Shader Designer; if you are currently using a different shape to preview your shader, switch back to the sphere.
+Typically, you might have to ask an artist to create a 3D model that you can use, but because a billiard ball is a common shape (a sphere), the Shader Designer already has a suitable model built in.
 
-#### To preview the shader by using a sphere
+The sphere is the default preview shape in the Shader Designer; if you are currently using a different shape to preview your shader, switch back to the sphere.
+
+### To preview the shader by using a sphere
 
 -   On the Shader Designer toolbar, choose **Preview with sphere.**
 
- In the next step, you'll create a shader program that applies a texture to the model, but first you have to create a texture that you can use. This walkthrough demonstrates how to create the texture by using the Image Editor, which is a part of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], but you can use any image editor that can save the texture in a suitable format.
+ In the next step, you'll create a shader program that applies a texture to the model, but first you have to create a texture that you can use. This walkthrough demonstrates how to create the texture by using the Image Editor, which is a part of Visual Studio, but you can use any image editor that can save the texture in a suitable format.
 
  Make sure that the **Properties** window and the **Toolbox** are displayed.
 
-#### To create a billiard ball texture by using the Image Editor
+### To create a billiard ball texture by using the Image Editor
 
 1.  Create a texture to work with. For information about how to add a texture to your project, see the Getting Started section in [Image Editor](../designers/image-editor.md).
 
@@ -67,7 +60,7 @@ This walkthrough demonstrates how to create a realistic 3D billiard ball by usin
 
  Now you can create a shader that applies this texture to the model.
 
-#### To create a basic texture shader
+### To create a basic texture shader
 
 1.  Create a DGSL shader to work with. For information about how to add a DGSL shader to your project, see the Getting Started section in [Shader Designer](../designers/shader-designer.md).
 
@@ -87,14 +80,15 @@ This walkthrough demonstrates how to create a realistic 3D billiard ball by usin
 
  ![A closeup of the textured billiard ball](../designers/media/gfx_shader_demo_.png "gfx_shader_demo_")
 
-## Creating depth with the Lambert lighting model
- So far, you've created an easily recognizable billiard ball. However, it appears flat and uninteresting—more like a cartoon picture of a billiard ball than a convincing replica. The flat appearance results from the simplistic shader, which behaves as if each pixel on the surface of the billiard ball receives the same amount of light.
+## Create depth with the Lambert lighting model
+
+So far, you've created an easily recognizable billiard ball. However, it appears flat and uninteresting—more like a cartoon picture of a billiard ball than a convincing replica. The flat appearance results from the simplistic shader, which behaves as if each pixel on the surface of the billiard ball receives the same amount of light.
 
  In the real world, light appears brightest on surfaces that directly face a light source and appears less bright on surfaces that are at an oblique angle to the light source. This is because the energy in the light rays is distributed across the smallest surface area when the surface directly faces the light source. As the surface turns away from the light source, the same amount of energy is distributed across an increasingly larger surface area. A surface that faces away from a light source receives no light energy at all, resulting in a completely dark appearance. This variance in brightness across the surface of an object is an important visual cue that helps indicate the shape of an object; without it, the object appears flat.
 
  In computer graphics, *lighting models*—simplified approximations of complex, real-world lighting interactions—are used to replicate the appearance of real-world lighting. The Lambert lighting model varies the amount of diffusely reflected light across the surface of an object as described in the previous paragraph. You can add the Lambert lighting model to your shader to give the billiard ball a more convincing 3D appearance.
 
-#### To add Lambert lighting to your shader
+### To add Lambert lighting to your shader
 
 -   Modify your shader to modulate the value of the texture sample by the Lambert lighting value. Your shader graph should look like this:
 
@@ -108,14 +102,15 @@ This walkthrough demonstrates how to create a realistic 3D billiard ball by usin
 
  ![A closeup of the textured and lit billiard ball](../designers/media/gfx_shader_demo_billiard_ball_2.png "gfx_shader_demo_billiard_ball_2")
 
-## Enhancing the basic appearance with specular highlights
- The Lambert lighting model provides the sense of shape and dimension that was absent in the texture-only shader. However, the billiard ball still has a somewhat dull appearance.
+## Enhance the basic appearance with specular highlights
+
+The Lambert lighting model provides the sense of shape and dimension that was absent in the texture-only shader. However, the billiard ball still has a somewhat dull appearance.
 
  A real billiard ball usually has a glossy finish that reflects a portion of the light that falls on it. Some of this reflected light results in specular highlights, which simulate the reflecting properties of a surface. Depending on the properties of the finish, the highlights can be localized or broad, intense or subtle. These specular reflections are modeled by using the relationship between a light source, the orientation of the surface, and the camera position—that is, the highlight is most intense when the orientation of the surface reflects the light source directly into the camera, and is less intense when the reflection is less direct.
 
  The Phong lighting model builds on the Lambert lighting model to include specular highlights as described in the previous paragraph. You can add the Phong lighting model to your shader to give the billiard ball a simulated finish that results in a more interesting appearance.
 
-#### To add specular highlights to your shader
+### To add specular highlights to your shader
 
 1.  Modify your shader to include the specular contribution by using additive blending. Your shader graph should look like this:
 
@@ -129,8 +124,9 @@ This walkthrough demonstrates how to create a realistic 3D billiard ball by usin
 
  ![A closeup of the billiard ball with specular added](../designers/media/gfx_shader_demo_billiard_ball_3.png "gfx_shader_demo_billiard_ball_3")
 
-## Creating a sense of space by reflecting the environment
- With specular highlights applied, your billiard ball looks pretty convincing. It's got the right shape, the right paint job, and the right finish. However, there's still one more technique that will make your billiard ball look more like a part of its environment.
+## Create a sense of space by reflecting the environment
+
+With specular highlights applied, your billiard ball looks pretty convincing. It's got the right shape, the right paint job, and the right finish. However, there's still one more technique that will make your billiard ball look more like a part of its environment.
 
  If you examine a real billiard ball closely, you can see that its glossy surface doesn't just exhibit specular highlights but also faintly reflects an image of the world around it. You can simulate this reflection by using an image of the environment as a texture and combining it with the model's own texture to determine the final color of each pixel. Depending on the kind of finish you want, you can combine more or less of the reflection texture together with the rest of the shader. For example, a shader that simulates a highly reflective surface like a mirror might use only the reflection texture, but a shader that simulates a more subtle reflection like the one found on a billiard ball might combine just a small portion of the reflection texture's value together with the rest of the shader calculation.
 
@@ -140,7 +136,7 @@ This walkthrough demonstrates how to create a realistic 3D billiard ball by usin
 
  The first step is to create a cube map texture. In many kinds of apps, the contents of the cube map don't have to be perfect to be effective, especially when the reflection is subtle or doesn't occupy a prominent space on the screen. For example, many games use pre-computed cube maps for environment mapping and just use the one nearest to each reflective object, although this means that the reflection isn't correct. Even a rough approximation is often good enough for a convincing effect.
 
-#### To create textures for an environment map by using the Image Editor
+### To create textures for an environment map by using the Image Editor
 
 1.  Create a texture to work with. For information about how to add a texture to your project, see the Getting Started section in [Image Editor](../designers/image-editor.md).
 
@@ -160,7 +156,7 @@ This walkthrough demonstrates how to create a realistic 3D billiard ball by usin
 
  Now that you have created individual textures for the sides of the cube map, you can use a tool to assemble them into a cube map that can be stored in a single .dds texture. You can use any program you want to create the cube map as long as it can save the cube map in the .dds texture format. This walkthrough demonstrates how to create the texture by using the DirectX Texture Tool that's a part of the June 2010 DirectX SDK.
 
-#### To assemble a cube map by using the DirectX Texture Tool
+### To assemble a cube map by using the DirectX Texture Tool
 
 1.  In the DirectX Texture Tool, on the main menu, choose **File**, **New Texture**. The **New Texture** dialog box appears.
 
@@ -186,7 +182,7 @@ This walkthrough demonstrates how to create a realistic 3D billiard ball by usin
 
  Now you can modify the shader to blend the cube map sample into the rest of the shader.
 
-#### To add environment mapping to your shader
+### To add environment mapping to your shader
 
 1.  Modify your shader to include the environment mapping contribution by using additive blending. Your shader graph should look like this:
 
@@ -208,9 +204,10 @@ This walkthrough demonstrates how to create a realistic 3D billiard ball by usin
 
  In this final image, notice how the effects that you added come together to create a very convincing billiard ball. The shape, texture, and lighting create the basic appearance of a 3D object, and the specular highlights and reflections make the billiard ball more interesting and look like a part of its environment.
 
-## See Also
- [How to: Export a Shader](../designers/how-to-export-a-shader.md)
- [How to: Apply a Shader to a 3D Model](../designers/how-to-apply-a-shader-to-a-3-d-model.md)
- [Shader Designer](../designers/shader-designer.md)
- [Image Editor](../designers/image-editor.md)
- [Shader Designer Nodes](../designers/shader-designer-nodes.md)
+## See also
+
+- [How to: Export a Shader](../designers/how-to-export-a-shader.md)
+- [How to: Apply a Shader to a 3D Model](../designers/how-to-apply-a-shader-to-a-3-d-model.md)
+- [Shader Designer](../designers/shader-designer.md)
+- [Image Editor](../designers/image-editor.md)
+- [Shader Designer Nodes](../designers/shader-designer-nodes.md)
