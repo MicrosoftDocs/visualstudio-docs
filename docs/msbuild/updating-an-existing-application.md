@@ -39,7 +39,13 @@ For example,
 
 #### Using extension assemblies
 
-TODO: describe this
+If you cannot use NuGet packages, you can reference MSBuild assemblies that are distributed with Visual Studio. If you reference MSBuild directly, ensure that it will not be copied to your ouput directory by setting `Copy Local` to `False`. In the project file this will look like
+
+```xml
+    <Reference Include="Microsoft.Build, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+```
 
 #### Binding redirects
 
