@@ -2,12 +2,9 @@
 title: "Walkthrough: Creating a Custom Installer for a ClickOnce Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -19,7 +16,6 @@ helpviewer_keywords:
   - "InPlaceHostingManager [ClickOnce], custom installer"
   - "custom installer [ClickOnce]"
 ms.assetid: fb222cc5-8aeb-4b94-8c49-b93e342f5f69
-caps.latest.revision: 34
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"

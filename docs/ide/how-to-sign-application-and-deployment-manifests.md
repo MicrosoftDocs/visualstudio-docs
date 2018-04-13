@@ -2,12 +2,9 @@
 title: "How to: Sign Application and Deployment Manifests | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "manifests [Visual Studio]"
   - "code signing [Visual Studio], Authenticode"
@@ -18,10 +15,9 @@ helpviewer_keywords:
   - "key files [Visual Studio]"
   - "assemblies [Visual Studio], signing"
 ms.assetid: 64173505-8bfb-41cf-a0de-b9075173f3a2
-caps.latest.revision: 58
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

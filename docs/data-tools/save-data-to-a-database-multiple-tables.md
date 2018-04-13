@@ -2,10 +2,7 @@
 title: "Save data to a database (multiple tables) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "saving data, walkthroughs"
   - "data [Visual Studio], updating"
 ms.assetid: 7ebe03da-ce8c-4cbc-bac0-a2fde4ae4d07
-caps.latest.revision: 24
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.technology: "vs-data-tools"
 ms.workload: 
   - "data-storage"

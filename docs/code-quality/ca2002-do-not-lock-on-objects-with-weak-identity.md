@@ -2,10 +2,8 @@
 title: "CA2002: Do not lock on objects with weak identity | Microsoft Docs"
 ms.custom: ""
 ms.date: 01/31/2018
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-code-analysis
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "DoNotLockOnObjectsWithWeakIdentity"
   - "CA2002"
@@ -14,7 +12,7 @@ helpviewer_keywords:
   - "DoNotLockOnObjectsWithWeakIdentity"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 dev_langs:
  - CSharp
  - VB

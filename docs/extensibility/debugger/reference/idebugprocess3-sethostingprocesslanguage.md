@@ -2,21 +2,17 @@
 title: "IDebugProcess3::SetHostingProcessLanguage | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProcess3::SetHostingProcessLanguage"
 helpviewer_keywords: 
   - "IDebugProcess3::SetHostingProcessLanguage"
 ms.assetid: e42f33ed-f29c-4e45-92ce-ab504b72d77c
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

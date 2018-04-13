@@ -2,11 +2,8 @@
 title: "Viewing type definitions in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/10/2018"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "code editor, view definition"
   - "go to definition"
@@ -15,7 +12,7 @@ helpviewer_keywords:
   - "member definition [Visual Studio]"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ---

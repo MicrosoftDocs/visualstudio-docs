@@ -2,11 +2,8 @@
 title: "Get started debugging multithreaded applications | Microsoft Docs"
 ms.custom: "H1HackMay2017"
 ms.date: "06/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
@@ -17,10 +14,9 @@ helpviewer_keywords:
   - "multithreaded debugging, tutorial"
   - "tutorials, multithreaded debugging"
 ms.assetid: 62df746b-b0f6-4df4-83cf-b1d9d2e72833
-caps.latest.revision: 38
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

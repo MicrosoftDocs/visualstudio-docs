@@ -2,22 +2,18 @@
 title: "My Extensions Page, Project Designer (Visual Basic) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vb.ProjectPropertiesMyExtensions"
 helpviewer_keywords: 
   - "Project Designer, My Extensions page"
   - "My Extensions page in Project Designer"
 ms.assetid: 2f08494e-84c1-444b-872b-900fbbcf0364
-caps.latest.revision: 6
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

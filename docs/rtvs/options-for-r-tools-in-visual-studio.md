@@ -3,13 +3,10 @@ title: R tools options
 description: Reference for the options in Visual Studio for the R language and associated features.
 ms.custom:
 ms.date: 12/04/2017
-ms.reviewer:
-ms.suite:
 ms.technology: 
   - "devlang-r"
 dev_langs:
   - "R"
-ms.tgt_pltfrm:
 f1_keywords: 
   - "vs.toolsoptionspages.text_editor.r.advanced"
   - "vs.toolsoptionspages.r_tools"

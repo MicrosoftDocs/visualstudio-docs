@@ -2,21 +2,17 @@
 title: "Creating Reusable Groups of Buttons | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "button groups, creating in VSPackages"
   - "VSPackages, creating reusable button groups"
   - "buttons, creating reusable groups"
 ms.assetid: 0c561617-fb86-476d-8bd1-c6e5e7464c65
-caps.latest.revision: 44
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

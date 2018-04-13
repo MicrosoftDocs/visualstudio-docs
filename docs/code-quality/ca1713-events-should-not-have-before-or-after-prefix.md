@@ -2,12 +2,9 @@
 title: "CA1713: Events should not have before or after prefix | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "EventsShouldNotHaveBeforeOrAfterPrefix"
   - "CA1713"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "CA1713"
   - "EventsShouldNotHaveBeforeOrAfterPrefix"
 ms.assetid: 855772a4-aa9e-410b-88c1-c5fba1ca63da
-caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

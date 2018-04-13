@@ -2,20 +2,16 @@
 title: "Compiling and building in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: 07/14/2017
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "builds [Visual Studio], about building in Visual Studio"
   - "custom build steps, types of builds"
 ms.assetid: c7958821-285f-4e28-9e7a-b5d8b40336a1
-caps.latest.revision: 28
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

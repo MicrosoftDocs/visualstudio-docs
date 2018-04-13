@@ -2,12 +2,9 @@
 title: "CA1064: Exceptions should be public | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "CA1064"
   - "ExceptionsShouldBePublic"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "ExceptionsShouldBePublic"
   - "CA1064"
 ms.assetid: 83eb224c-2456-4368-acf4-3b3378e67759
-caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -2,20 +2,16 @@
 title: "How to: Print Class Diagrams (Class Designer) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "printing [Visual Studio], class diagrams"
   - "class diagrams, printing"
 ms.assetid: 62c87425-3446-41fb-943c-1f86397883c8
-caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

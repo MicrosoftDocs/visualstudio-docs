@@ -2,21 +2,17 @@
 title: "DEBUGPROP_INFO_FLAGS | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "DEBUGPROP_INFO_FLAGS"
 helpviewer_keywords: 
   - "DBGPROP_INFO_FLAGS enumeration"
 ms.assetid: 1c7fe777-615e-4929-9ed4-970d9fe0eb81
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

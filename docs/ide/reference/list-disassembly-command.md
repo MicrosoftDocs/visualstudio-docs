@@ -2,22 +2,18 @@
 title: "List Disassembly Command | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "debug.listdisassembly"
 helpviewer_keywords: 
   - "Debug.ListDisassembly command"
   - "list disassembly command"
 ms.assetid: eb363e35-e86a-4121-966f-991210c27e2a
-caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

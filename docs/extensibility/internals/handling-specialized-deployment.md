@@ -2,20 +2,16 @@
 title: "Handling Specialized Deployment | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "deploying applications [Visual Studio SDK]"
   - "specialized deployment"
 ms.assetid: de068b6a-e806-45f0-9dec-2458fbb486f7
-caps.latest.revision: 32
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

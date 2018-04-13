@@ -2,17 +2,13 @@
 title: "Getting started with debugging in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "12/14/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology:
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: c3a14d28-d811-4ff3-bd09-21dce14025ca
-caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ---

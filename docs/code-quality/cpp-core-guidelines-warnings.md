@@ -2,14 +2,11 @@
 title: "C++ Core Guidelines warnings | Microsoft Docs"
 ms.custom: ""
 ms.date: "08/10/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 7c83814a-f21d-4323-ad5f-13bac40d3e38
 author: "mblome"
 ms.author: "mblome"
-manager: ghogen
+manager: douge
 ms.technology: 
   - "vs-ide-code-analysis"
 ms.workload: 

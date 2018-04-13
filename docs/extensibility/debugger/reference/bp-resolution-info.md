@@ -2,21 +2,17 @@
 title: "BP_RESOLUTION_INFO | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "BP_RESOLUTION_INFO"
 helpviewer_keywords: 
   - "BP_RESOLUTION_INFO structure"
 ms.assetid: ba0c162a-61e8-4a0b-811f-4c1d8a5d82f0
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

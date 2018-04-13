@@ -2,19 +2,15 @@
 title: "Publish to Azure App Service - Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/22/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
 ms.topic: "quickstart"
 helpviewer_keywords: 
   - "deployment, website"
 ms.assetid: fc82b1f1-d342-4b82-9a44-590479f0a895
-caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: douge
 ms.workload: 
   - "azure"
 ---

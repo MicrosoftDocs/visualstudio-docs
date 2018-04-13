@@ -2,10 +2,7 @@
 title: "Handle a concurrency exception | Microsoft Docs"
 ms.custom: ""
 ms.date: "09/11/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -17,10 +14,9 @@ helpviewer_keywords:
   - "updating datasets, errors"
   - "concurrency control, walkthroughs"
 ms.assetid: 73ee9759-0a90-48a9-bf7b-9d6fc17bff93
-caps.latest.revision: 23
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.technology: "vs-data-tools"
 ms.workload: 
   - "data-storage"

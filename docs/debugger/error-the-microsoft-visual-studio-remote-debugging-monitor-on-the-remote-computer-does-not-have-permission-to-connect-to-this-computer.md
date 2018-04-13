@@ -2,11 +2,8 @@
 title: "Error: The Microsoft Visual Studio Remote Debugging Monitor on the remote computer does not have permission to connect to this computer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.error.access_denied_oncallback"
@@ -18,10 +15,9 @@ dev_langs:
   - "JScript"
 helpviewer_keywords: 
   - "remote debugging, Windows version error"
-caps.latest.revision: 21
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

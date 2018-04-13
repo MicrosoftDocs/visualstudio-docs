@@ -2,12 +2,9 @@
 title: "CA2231: Overload operator equals on overriding ValueType.Equals | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "OverloadOperatorEqualsOnOverridingValueTypeEquals"
   - "CA2231"
@@ -16,10 +13,9 @@ helpviewer_keywords:
   - "OverloadOperatorEqualsOnOverridingValueTypeEquals"
   - "CA2231"
 ms.assetid: 114c0161-261a-40ad-8b2c-0932d6909d2a
-caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

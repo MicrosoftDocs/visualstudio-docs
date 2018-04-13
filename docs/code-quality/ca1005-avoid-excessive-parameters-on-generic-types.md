@@ -2,12 +2,9 @@
 title: "CA1005: Avoid excessive parameters on generic types | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "AvoidExcessiveParametersOnGenericTypes"
   - "CA1005"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "AvoidExcessiveParametersOnGenericTypes"
   - "CA1005"
 ms.assetid: 372b2f28-5c59-4815-9753-6c65b2bb3589
-caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

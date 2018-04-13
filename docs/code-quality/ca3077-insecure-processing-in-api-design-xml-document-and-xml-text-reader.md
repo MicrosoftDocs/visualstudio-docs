@@ -2,17 +2,13 @@
 title: "CA3077: Insecure Processing in API Design, XML Document and XML Text Reader | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 7f33771b-f3c8-4c02-bef6-f581b623c303
-caps.latest.revision: 7
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

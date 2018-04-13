@@ -3,10 +3,8 @@ title: "Automatically apply product keys when deploying Visual Studio | Microsof
 ms.custom: ""
 ms.date: "08/14/2017"
 ms.reviewer: "tims"
-ms.suite: ""
 ms.technology:
   - "vs-acquisition"
-ms.tgt_pltfrm: ""
 ms.topic: "conceptual"
 ms.assetid: d79260be-6234-4fd3-89b5-a9756b4a93c1
 author: "TerryGLee"

@@ -1,19 +1,16 @@
 ---
 title: "devenv.exe setup switch | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology:
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "setup Devenv switch"
   - "/setup Devenv switch"
   - "Devenv, /setup switch"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ---
 # /Setup (devenv.exe)
 

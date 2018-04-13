@@ -2,12 +2,9 @@
 title: "CA1055: URI return values should not be strings | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "CA1055"
   - "UriReturnValuesShouldNotBeStrings"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "UriReturnValuesShouldNotBeStrings"
   - "CA1055"
 ms.assetid: 40e39873-7872-4988-8195-9eb0ade9ece0
-caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

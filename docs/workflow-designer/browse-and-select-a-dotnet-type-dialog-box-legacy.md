@@ -9,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 1e66c9bc-94b2-46e2-bedf-871752e5f917
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload: 
   - "dotnet"
 ---

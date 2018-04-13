@@ -2,21 +2,17 @@
 title: "Visible Timeline Profile | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.cv.threads.activelegend"
 helpviewer_keywords: 
   - "vs.cv.threads.activelegendConcurrency Visualizer, Threads View Active Legend"
 ms.assetid: 559841d1-967c-4b51-8574-6ace23969580
-caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

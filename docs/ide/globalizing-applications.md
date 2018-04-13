@@ -2,21 +2,17 @@
 title: "Globalizing applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Visual Basic code, international applications"
   - "globalization [Visual Studio], international applications"
   - "C#, international applications"
 ms.assetid: 8e1b9920-e1ac-4691-928e-cd95bfc6550b
-caps.latest.revision: 9
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

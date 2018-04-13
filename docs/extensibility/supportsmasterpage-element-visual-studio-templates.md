@@ -2,22 +2,18 @@
 title: "SupportsMasterPage Element (Visual Studio Templates) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/vstemplate/2005#SupportsMasterPage"
 helpviewer_keywords: 
   - "<SupportsMasterPage> element [Visual Studio Templates]"
   - "SupportsMasterPage element [Visual Studio Templates]"
 ms.assetid: ce877a6a-9bba-4fd9-92fb-0a8dfec9e75b
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

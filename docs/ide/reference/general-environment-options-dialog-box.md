@@ -2,12 +2,9 @@
 title: "General, Environment, Options Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology:
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords:
   - "VS.Message.0x800a002e"
   - "VS.ToolsOptionsPages.Environment.General"
@@ -26,10 +23,9 @@ helpviewer_keywords:
   - "editors, autocompletion"
   - "Options dialog box, General Environment"
   - "General Environment Options dialog box"
-caps.latest.revision: 34
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ---

@@ -2,11 +2,8 @@
 title: "Quickstart: Create your first Universal Windows Platform application in Visual Studio with XAML and C# | Microsoft Docs"
 ms.custom: ""
 ms.date: "04/04/2018"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology:
   - "vs-acquisition"
-ms.tgt_pltfrm: ""
 ms.topic: "quickstart"
 ms.devlang: "CSharp"
 author: "TerryGLee"

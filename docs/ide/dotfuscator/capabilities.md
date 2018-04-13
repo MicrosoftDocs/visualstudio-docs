@@ -4,7 +4,7 @@ ms.date: "2017-10-10"
 ms.devlang: "dotnet"
 ms.technology: 
   - "vs-ide-general"
-ms.topic: "article"
+ms.topic: "conceptual"
 keywords: Dotfuscator, Dotfuscator CE, PreEmptive, PreEmptive Solutions, PreEmptive Protection, protection, community edition, obfuscation, .NET, free, Visual Studio 2017
 helpviewer_keywords: 
   - "PreEmptive Protection Dotfuscator"
@@ -16,7 +16,7 @@ helpviewer_keywords:
 description: "Learn the capabilities of the free Dotfuscator Community Edition included in Visual Studio 2017."
 ms.assetid: 0ee89c58-c900-48fc-a6a2-65ace00e8bab
 author: "Joe-Sewell-PreEmptive"
-manager: ghogen
+manager: douge
 ---
 
 # Capabilities of Dotfuscator

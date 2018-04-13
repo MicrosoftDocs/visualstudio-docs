@@ -2,21 +2,17 @@
 title: "Anonymous Methods and Code Analysis | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "methods, anonymous"
   - "code analysis, anonymous methods"
   - "anonymous methods, code analysis"
 ms.assetid: bf0a1a9b-b954-4d46-9c0b-cee65330ad00
-caps.latest.revision: 19
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

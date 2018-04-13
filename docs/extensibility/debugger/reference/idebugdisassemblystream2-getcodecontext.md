@@ -2,21 +2,17 @@
 title: "IDebugDisassemblyStream2::GetCodeContext | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugDisassemblyStream2::GetCodeContext"
 helpviewer_keywords: 
   - "IDebugDisassemblyStream2::GetCodeContext"
 ms.assetid: a6d0ae82-7617-4915-9713-369abe3e2e53
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

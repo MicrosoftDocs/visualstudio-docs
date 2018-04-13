@@ -2,22 +2,18 @@
 title: "Quick Watch Command | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "debug.quickwatch"
 helpviewer_keywords: 
   - "Quick Watch command"
   - "Debug.Quickwatch command"
 ms.assetid: 9670ac3a-8f2f-4874-974d-cb87d3b0cde1
-caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

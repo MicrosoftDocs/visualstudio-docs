@@ -2,21 +2,17 @@
 title: "IDebugEngine2::DestroyProgram | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugEngine2::DestroyProgram"
 helpviewer_keywords: 
   - "IDebugEngine2::DestroyProgram"
 ms.assetid: 0c9e2698-c70f-4770-a7bb-39650e9c3a1f
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

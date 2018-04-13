@@ -2,10 +2,7 @@
 title: "Create a user control that supports simple data binding | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -13,10 +10,9 @@ helpviewer_keywords:
   - "custom controls [Visual Studio], Data Sources Window"
   - "Data Sources Window, controls"
 ms.assetid: b1488366-6dfb-454e-9751-f42fd3f3ddfb
-caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.technology: "vs-data-tools"
 ms.workload: 
   - "data-storage"

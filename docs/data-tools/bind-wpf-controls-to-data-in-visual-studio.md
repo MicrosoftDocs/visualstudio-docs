@@ -2,10 +2,7 @@
 title: "Bind WPF controls to data in Visual Studio - Part 1| Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "data [WPF], displaying"
   - "WPF, data binding in Visual Studio"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "WPF Designer, data binding"
   - "data binding, WPF"
 ms.assetid: e05a1e0c-5082-479d-bbc9-d395b0bc6580
-caps.latest.revision: 36
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.technology: "vs-data-tools"
 ms.workload: 
   - "data-storage"

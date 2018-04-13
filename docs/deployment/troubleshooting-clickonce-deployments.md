@@ -2,12 +2,9 @@
 title: "Troubleshooting ClickOnce Deployments | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -19,7 +16,6 @@ helpviewer_keywords:
   - "Windows applications, ClickOnce deployments"
   - "deploying applications [ClickOnce], troubleshooting"
 ms.assetid: 58e90012-f68b-4852-8ae9-58e361cbcc32
-caps.latest.revision: 32
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"

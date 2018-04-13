@@ -2,21 +2,17 @@
 title: "dwTYPE_KIND | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "dwTYPE_KIND"
 helpviewer_keywords: 
   - "dwTYPE_KIND enumeration"
 ms.assetid: 6ff56b0f-c502-4e6c-9829-bfa05361b783
-caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

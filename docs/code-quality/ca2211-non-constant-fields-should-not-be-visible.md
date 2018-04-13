@@ -2,12 +2,9 @@
 title: "CA2211: Non-constant fields should not be visible | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "CA2211"
   - "NonConstantFieldsShouldNotBeVisible"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "NonConstantFieldsShouldNotBeVisible"
   - "CA2211"
 ms.assetid: e1e42c40-0acd-4312-af29-70133739a304
-caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

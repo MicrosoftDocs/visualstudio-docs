@@ -2,12 +2,9 @@
 title: "How to: Add an Existing BDC Model File to a SharePoint Project | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.BDC.ImportDialog"
 dev_langs: 
@@ -22,7 +19,7 @@ helpviewer_keywords:
   - "BDC [SharePoint development in Visual Studio], remove a model"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

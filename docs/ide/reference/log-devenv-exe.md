@@ -2,21 +2,17 @@
 title: "-Log (devenv.exe) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Devenv, /Log switch"
   - "Log switch [devenv.exe]"
   - "/Log Devenv switch"
 ms.assetid: ae23c4ae-2376-4fe3-b8d2-81d34e61c8ba
-caps.latest.revision: 8
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

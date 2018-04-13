@@ -2,12 +2,9 @@
 title: "CA2213: Disposable fields should be disposed | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "DisposableFieldsShouldBeDisposed"
   - "CA2213"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "CA2213"
   - "DisposableFieldsShouldBeDisposed"
 ms.assetid: e99442c9-70e2-47f3-b61a-d8ac003bc6e5
-caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

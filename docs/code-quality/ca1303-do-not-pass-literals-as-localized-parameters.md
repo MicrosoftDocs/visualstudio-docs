@@ -2,12 +2,9 @@
 title: "CA1303: Do not pass literals as localized parameters | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "Do not pass literals as localized parameters"
   - "DoNotPassLiteralsAsLocalizedParameters"
@@ -16,10 +13,9 @@ helpviewer_keywords:
   - "DoNotPassLiteralsAsLocalizedParameters"
   - "CA1303"
 ms.assetid: 904d284e-76d0-4b8f-a4df-0094de8d7aac
-caps.latest.revision: 22
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -2,10 +2,8 @@
 title: "Create models for your app | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-modeling
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.teamarch.common.commentlink.properties"
   - "vs.teamarch.UMLModelExplorer.dependency"
@@ -22,7 +20,7 @@ helpviewer_keywords:
   - "software, modeling"
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

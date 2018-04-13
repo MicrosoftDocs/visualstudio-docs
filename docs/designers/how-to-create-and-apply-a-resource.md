@@ -2,20 +2,16 @@
 title: "How to create and apply a resource | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-designers"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VS.XamlDesigner.CreateResource"
   - "VS.XamlDesigner.EditResource"
 ms.assetid: 3ff4006d-659d-4073-9a41-06ff85e6cfdf
-caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

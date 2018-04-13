@@ -2,12 +2,9 @@
 title: "CA1043: Use integral or string argument for indexers | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "CA1043"
   - "UseIntegralOrStringArgumentForIndexers"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "CA1043"
   - "UseIntegralOrStringArgumentForIndexers"
 ms.assetid: d7f14b9e-2220-4f80-b6b8-48c655a05701
-caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

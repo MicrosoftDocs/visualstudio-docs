@@ -2,19 +2,15 @@
 title: "Working with a Conceptual Model (WCF Data Services) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "data [Visual Studio], querying a service"
   - "data [Visual Studio], LINQ to Entities"
   - "data [Visual Studio], querying an EDM"
 ms.assetid: 2cd873cf-b010-49f2-a278-bb1277aaa934
-caps.latest.revision: 9
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.technology: "vs-data-tools"
 ms.workload: 
   - "data-storage"

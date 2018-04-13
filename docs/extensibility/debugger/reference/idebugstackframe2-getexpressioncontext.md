@@ -2,21 +2,17 @@
 title: "IDebugStackFrame2::GetExpressionContext | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugStackFrame2::GetExpressionContext"
 helpviewer_keywords: 
   - "IDebugStackFrame2::GetExpressionContext"
 ms.assetid: a2604e6a-502d-473b-868f-b11ac64c7a35
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

@@ -2,17 +2,13 @@
 title: "Collecting Application Statistics for Services by Using the Profiler Sampling Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 07840ab2-3a92-4744-ac87-48b19e0ceecd
-caps.latest.revision: 14
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

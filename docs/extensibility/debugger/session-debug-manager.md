@@ -2,12 +2,9 @@
 title: "Session Debug Manager | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "session debug manager, unifying session views"
   - "session debug manager, broadcasting"
@@ -16,10 +13,9 @@ helpviewer_keywords:
   - "session debug manager, debug engine multiplexing"
   - "session debug manager, delegating"
 ms.assetid: fbb1928d-dddc-43d1-98a4-e23b0ecbae09
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

@@ -2,12 +2,9 @@
 title: "CA1809: Avoid excessive locals | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "CA1809"
   - "AvoidExcessiveLocals"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "AvoidExcessiveLocals"
   - "CA1809"
 ms.assetid: 5c81ea43-cb49-448f-980f-a1dd9764043c
-caps.latest.revision: 19
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

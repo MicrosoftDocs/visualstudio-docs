@@ -2,21 +2,17 @@
 title: "IDebugArrayObject::GetRank | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugArrayObject::GetRank"
 helpviewer_keywords: 
   - "IDebugArrayObject::GetRank method"
 ms.assetid: 9948551a-e334-4ff6-979c-08dab633b9b6
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

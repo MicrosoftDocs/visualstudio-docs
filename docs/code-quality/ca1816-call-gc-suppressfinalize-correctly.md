@@ -2,12 +2,9 @@
 title: "CA1816: Call GC.SuppressFinalize correctly | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "CA1816"
   - "DisposeMethodsShouldCallSuppressFinalize"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "DisposeMethodsShouldCallSuppressFinalize"
   - "CA1816"
 ms.assetid: 47915fbb-103f-4333-b157-1da16bf49660
-caps.latest.revision: 19
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -2,10 +2,7 @@
 title: "Upgrade .mdf files | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "SQL Server Express"
   - "SQL Server LocalDB"
@@ -15,7 +12,7 @@ helpviewer_keywords:
   - "upgrading to LocalDB"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.technology: "vs-data-tools"
 ms.workload: 
   - "data-storage"

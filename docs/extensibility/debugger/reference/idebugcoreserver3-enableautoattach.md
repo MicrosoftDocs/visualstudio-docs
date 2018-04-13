@@ -2,21 +2,17 @@
 title: "IDebugCoreServer3::EnableAutoAttach | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugCoreServer3::EnableAutoAttach"
 helpviewer_keywords: 
   - "IDebugCoreServer3::EnableAutoAttach"
 ms.assetid: 06aa633b-263b-4e08-8844-9a52d5120b94
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

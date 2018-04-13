@@ -2,12 +2,9 @@
 title: "CA2238: Implement serialization methods correctly | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "ImplementSerializationMethodsCorrectly"
   - "CA2238"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "ImplementSerializationMethodsCorrectly"
   - "CA2238"
 ms.assetid: 00882cf9-e10d-4d40-9126-3e6753e3c934
-caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

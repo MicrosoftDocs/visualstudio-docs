@@ -2,17 +2,13 @@
 title: "How to: Modify the Pivot Point of a 3-D Model | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-designers"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: c20b4ec8-29f5-4ca5-bc39-d4548ca6f573
-caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

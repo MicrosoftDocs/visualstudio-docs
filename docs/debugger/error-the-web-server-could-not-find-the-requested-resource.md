@@ -2,11 +2,8 @@
 title: "Error: The Web Server Could Not Find the Requested Resource | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
 ms.topic: "reference"
 dev_langs: 
   - "CSharp"
@@ -15,10 +12,9 @@ dev_langs:
   - "C++"
 helpviewer_keywords: 
   - "debugger, Web application errors"
-caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

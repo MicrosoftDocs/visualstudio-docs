@@ -2,13 +2,11 @@
 title: "Introduce a local variable in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: 01/26/2018
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-general
 ms.topic: reference
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload:
   - "dotnet"
 ---

@@ -3,13 +3,10 @@ title: Troubleshooting Azure remote debugging for Python
 description: How to troubleshoot problems when attempting to debug a Python application running in Azure App Service using Visual Studio.
 ms.custom:
 ms.date: 07/12/2017
-ms.reviewer:
-ms.suite:
 ms.technology: 
   - "devlang-python"
 dev_langs:
   - "python"
-ms.tgt_pltfrm:
 ms.topic: "conceptual"
 author: "kraigb"
 ms.author: "kraigb"

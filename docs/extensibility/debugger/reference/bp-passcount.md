@@ -2,21 +2,17 @@
 title: "BP_PASSCOUNT | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "BP_PASSCOUNT"
 helpviewer_keywords: 
   - "BP_PASSCOUNT structure"
 ms.assetid: 791ac175-b897-4c70-873e-240da7e0ac89
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

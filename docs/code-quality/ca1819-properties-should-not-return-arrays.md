@@ -2,12 +2,9 @@
 title: "CA1819: Properties should not return arrays | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "PropertiesShouldNotReturnArrays"
   - "CA1819"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "PropertiesShouldNotReturnArrays"
   - "CA1819"
 ms.assetid: 85fcf312-57f8-438a-8b10-34441fe0bdeb
-caps.latest.revision: 22
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -2,11 +2,8 @@
 title: "Find in Files | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.findreplace.findinfiles"
   - "vs.findinfiles"
@@ -21,7 +18,7 @@ helpviewer_keywords:
   - "Find in Files tab, Find and Replace window"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
