@@ -25,9 +25,9 @@ If you are currently using Visual Studio 2017, make sure you are running version
 
 ## Extensions
 
-You may have extensions installed that are slowing Visual Studio down. For help on managing extensions to improve performance, see [Change extension settings to improve performance](../ide/optimize-visual-studio-startup-time#extensions).
+You may have extensions installed that are slowing Visual Studio down. For help on managing extensions to improve performance, see [Change extension settings to improve performance](../ide/optimize-visual-studio-startup-time.md#extensions).
 
-Similarly, you may have tool windows that are slowing Visual Studio down. For help on managing tool windows, see [Change tool window settings to improve performance](../ide/optimize-visual-studio-startup-time#tool-windows).
+Similarly, you may have tool windows that are slowing Visual Studio down. For help on managing tool windows, see [Change tool window settings to improve performance](../ide/optimize-visual-studio-startup-time.md#tool-windows).
 
 ## Hardware
 
