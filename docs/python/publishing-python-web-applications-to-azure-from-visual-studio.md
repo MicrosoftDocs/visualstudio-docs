@@ -170,8 +170,8 @@ Publishing to Azure App Service from Visual Studio 2017 copies only the files in
 
     e. Try restarting the App Service after installing new packages. A restart is not necessary when changing `web.config`, as App Service does an automatic restart whenever `web.config` changes.
 
-    > [!Tip] 
-    > If you make any changes to your app's `requirements.txt` file, be sure to again use the Kudu console to install any packages that are now listed in that file. 
+    > [!Tip]
+    > If you make any changes to your app's `requirements.txt` file, be sure to again use the Kudu console to install any packages that are now listed in that file.
 
 1. Once you've fully configured the server environment, refresh the page in the browser and the web app should appear.
 
@@ -179,7 +179,7 @@ Publishing to Azure App Service from Visual Studio 2017 copies only the files in
 
 ## Publishing to App Service - Visual Studio 2015
 
-> [!Note] 
+> [!Note]
 > A short video of this process can be found on [Visual Studio Python Tutorial: Building a Website](https://www.youtube.com/watch?v=FJx5mutt1uk&list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff&index=6) (youtube.com, 3m10s).
 
 1. In **Solution Explorer**, right-click the project select **Publish**.
@@ -199,7 +199,7 @@ Publishing to Azure App Service from Visual Studio 2017 copies only the files in
 
 1. Select **Next >** as needed to review additional settings. If you plan to [remotely debug your Python code on Azure](debugging-remote-python-code-on-azure.md), you must set **Configuration** to **Debug**
 
-1. Select **Publish**. Once your application is deployed to Azure, your default browser opens on that site. 
+1. Select **Publish**. Once your application is deployed to Azure, your default browser opens on that site.
 
 As part of this process, Visual Studio also does the following steps:
 
