@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: c476d0b8-c473-47eb-96f5-c4e8f577b1c9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "douge"
+manager: douge
 ms.workload: 
   - "multiple"
 ---
