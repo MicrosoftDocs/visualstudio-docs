@@ -48,7 +48,7 @@ Be sure to never touch project files directly from an asset processor or any oth
 
 If you experience extra reloads or if Visual Studio is losing all open Windows on reload, please make sure that you have proper .NET targeting packs installed. Please check the following section about frameworks for more information.
 
-###  The debugger do not break on exception
+###  The debugger does not break on exceptions
 In the Exception Settings window (Debug > Windows > Exception Settings), expand the node for a category of exceptions (for example, Common Language Runtime Exceptions, meaning .NET exceptions), and select the check box for the specific exception you want to catch within that category (for example System.NullReferenceException). You can also select an entire category of exceptions.
 
 ### On Windows, Visual Studio asks to download the Unity target framework
