@@ -91,7 +91,7 @@ The Visual Studio *interactive window* for Python provides a rich read-evaluate-
 
 1. What you've just done is use the rapid REPL environment of the interactive window to work out the details for a small piece of code, then you conveniently added that code to your project's source file. When you now run the code again with Ctrl+F5 (or **Debug > Start Without Debugging**), you see the exact results you wanted.
 
-## Next steps
+## Next step
 
 > [!div class="nextstepaction"]
 > [Running code in the debugger](tutorial-working-with-python-in-visual-studio-step-04-debugging.md)

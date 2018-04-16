@@ -69,7 +69,7 @@ In this tutorial you begin with a simple project containing a single, empty code
 
     Right-click any node or item in Solution Explorer to access a menu of applicable commands. For example, the **Rename** command allows you to change the name of any node or item, including the project and the solution.
 
-## Next steps
+## Next step
 
 > [!div class="nextstepaction"]
 > [Writing and running code](tutorial-working-with-python-in-visual-studio-step-02-writing-code.md)

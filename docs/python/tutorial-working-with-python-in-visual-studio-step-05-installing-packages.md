@@ -68,7 +68,7 @@ The Python developer community has produced thousands of useful packages that yo
 
   ![Output of matplotlib example](media/environments-add-matplotlib3.png)
 
-## Next steps
+## Next step
 
 > [!div class="nextstepaction"]
 > [Working with Git](tutorial-working-with-python-in-visual-studio-step-06-working-with-git.md)

@@ -40,7 +40,7 @@ ms.workload:
 
     ![Testing Python through the interactive window](media/installation-interactive-test.png)
 
-## Next steps
+## Next step
 
 > [!div class="nextstepaction"]
 > [Step 1: Create a Python project](tutorial-working-with-python-in-visual-studio-step-01-create-project.md)
