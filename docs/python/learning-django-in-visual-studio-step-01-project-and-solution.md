@@ -50,7 +50,7 @@ When working with Django from the command line, you typically start a project by
 
     ![New project dialog in Visual Studio for the Blank Django Web Project](media/django/step01-new-blank-project.png)
 
-1. In the fields at the bottom of the dialog, enter the following information (as shown in the previous graphic), then select *OK**:
+1. In the fields at the bottom of the dialog, enter the following information (as shown in the previous graphic), then select **OK**:
 
     - **Name**: set the name of the Visual Studio project to "BasicProject". This name is also used for the Django project.
     - **Location**: specify a location in which to create the Visual Studio solution and project.
@@ -71,12 +71,6 @@ When working with Django from the command line, you typically start a project by
 
 Answer: A virtual environment is a great way to isolate your app's exact dependencies. Such isolation avoids conflicts within a global Python environment, and aids both testing and collaboration. Over time, as you develop an app, you invariably bring in any number many helpful Python packages. By keeping these in a project-specific virtual environment, you can easily update the project's `requirements.txt` file that describes that environment, which is included in source control. When the project is copied to any other computers, including build servers, deployment servers, and other development computers, it's easy to recreate the environment using only `requirements.txt`. For more information, see [Using virtual environments](selecting-a-python-environment-for-a-project.md#using-virtual-environments).
 
-**Question: What are some advantages of using source control from the beginning of a project.?**
-
-Answer: First of all, using source control from the start, especially if you also use a remote repository, provides a regular offsite backup of your project. Unlike maintaining a project just on a local file system, source control also provides a complete change history and the easy ability to revert a single file or the whole project to a previous state. That change history helps determine the cause of regressions (test failures). Furthermore, source control is essential if multiple people are working on a project, as it manages overwrites and provides conflict resolution. Finally, source control, which is fundamentally a form of automation, sets you up well for automating builds, testing, and release management. It's really the first step in using DevOps for a project, and because the barriers to entry are so low, there's really no reason to not use source control from the beginning.
-
-For further discussion on source control as automation, see [The Source of Truth: The Role of Repositories in DevOps](https://msdn.microsoft.com/magazine/mt763232), an article in MSDN Magazine written for mobile apps it applies just as well to web apps.
-
 ## Step 1-2: examine the Git controls and publish to a remote repository
 
 Because you selected the **Create new Git repository** in the **New Project** dialog, the project is already committed to source control as soon as the creation process is complete. Visual Studio indicates this fact through its Git controls on the bottom corner of its main window. From left to right, these controls show unpushed commits, uncommitted changes, the name of the repository, and the current branch:
@@ -94,6 +88,12 @@ You can choose whichever service you want for your own projects. This tutorial s
 If you don't have an existing repository, the **Publish to GitHub** and **Push to Visual Studio Team Services** options let you create one directly from within Visual Studio.
 
 As you work through this tutorial, get into the habit of periodically using the controls in Visual Studio to commit and push changes. This tutorial reminds you at appropriate points.
+
+**Question: What are some advantages of using source control from the beginning of a project?**
+
+Answer: First of all, using source control from the start, especially if you also use a remote repository, provides a regular offsite backup of your project. Unlike maintaining a project just on a local file system, source control also provides a complete change history and the easy ability to revert a single file or the whole project to a previous state. That change history helps determine the cause of regressions (test failures). Furthermore, source control is essential if multiple people are working on a project, as it manages overwrites and provides conflict resolution. Finally, source control, which is fundamentally a form of automation, sets you up well for automating builds, testing, and release management. It's really the first step in using DevOps for a project, and because the barriers to entry are so low, there's really no reason to not use source control from the beginning.
+
+For further discussion on source control as automation, see [The Source of Truth: The Role of Repositories in DevOps](https://msdn.microsoft.com/magazine/mt763232), an article in MSDN Magazine written for mobile apps it applies just as well to web apps.
 
 ## Step 1-3: examine the boilerplate code
 
@@ -116,6 +116,10 @@ Once project creation completes, examine the boilerplate Django project code (wh
 
 1. As noted earlier, the Visual Studio template also adds a `requirements.txt` file to your project specifying the Django package dependency. The presence of this file is what invites you to create a virtual environment when first creating the project.
 
+**Question: Can Visual Studio generate a requirements.txt file from a virtual environment after I install other packages?**
+
+Answer: Yes. Expand the **Python Environments** node, right-click your virtual environment, and select the **Generate requirements.txt** command. It's good to use this command periodically as you modify the environment, and commit changes to `reuirements.txt` to source control along with any other code changes that depend on that environment. If you set up continuous integration on a build server, you should generate the file and commit changes whenever you modify the environment.
+
 ## Step 1-4: run the empty Django project
 
 1. In Visual Studio, select **Debug** > **Start debugging** or use the **Web Server** button on the toolbar (the browser you see may vary):
@@ -128,10 +132,11 @@ Once project creation completes, examine the boilerplate Django project code (wh
 
     ![Django project default view](media/django/step01-first-run-success.png)
 
-    > [!Note] 
-    > In addition to the **Debug** menu commands and toolbar buttons, you can also launch the server using the **Python** > **Run server** or **Python** > **Run debug server** commands on the project's context menu. Both commands open a console window in which you see the local URL (localhost:port) for the running server. However, you must manually open a browser with that URL, and running the debug server does not automatically start the Visual Studio debugger.
-
 1. When you're done, stop the server by closing the console window, or by using the **Debug** > **Stop Debugging** command in Visual Studio.
+
+**Question: What's the difference between using the Debug menu commands and the server commands on the project's Python submenu?**
+
+Answer: In addition to the **Debug** menu commands and toolbar buttons, you can also launch the server using the **Python** > **Run server** or **Python** > **Run debug server** commands on the project's context menu. Both commands open a console window in which you see the local URL (localhost:port) for the running server. However, you must manually open a browser with that URL, and running the debug server does not automatically start the Visual Studio debugger. You can attach a debugger to the running process later, if you want, using the **Debug** > **Attach to Process** command.
 
 ## Next steps
 
