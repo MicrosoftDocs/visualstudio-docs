@@ -11,7 +11,7 @@ f1_keywords:
 ms.assetid: b01946b4-75e3-47d5-a1a1-cebfae66a3af
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "douge"
+manager: douge
 ms.workload: 
   - "multiple"
 ---

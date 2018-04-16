@@ -11,7 +11,7 @@ f1_keywords:
 ms.assetid: 98eb2d96-f92f-42f9-915c-e5ac2330ffbf
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "douge"
+manager: douge
 ms.workload: 
   - "dotnet"
 ---

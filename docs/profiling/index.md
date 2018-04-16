@@ -6,7 +6,7 @@ ms.topic: landing-page
 ms.technology: vs-ide-debug
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "douge"
+manager: douge
 ---
 # Profiling in Visual Studio
 

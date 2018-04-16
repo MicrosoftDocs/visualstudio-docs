@@ -7,7 +7,7 @@ ms.topic: "conceptual"
 ms.assetid: 1971868e-89fa-4452-8ee7-76e4daf31b66
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "douge"
+manager: douge
 ms.workload: 
   - "multiple"
 ---

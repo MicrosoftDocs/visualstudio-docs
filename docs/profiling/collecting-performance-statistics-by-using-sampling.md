@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "sampling profiling method"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "douge"
+manager: douge
 ms.workload: 
   - "multiple"
 ---

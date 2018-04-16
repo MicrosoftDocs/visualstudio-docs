@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "Profiling Tools, concurrency method"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "douge"
+manager: douge
 ms.workload: 
   - "multiple"
 ---

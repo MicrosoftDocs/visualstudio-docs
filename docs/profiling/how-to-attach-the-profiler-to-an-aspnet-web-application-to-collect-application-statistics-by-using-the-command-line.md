@@ -7,7 +7,7 @@ ms.topic: "conceptual"
 ms.assetid: 3725ddbe-ce91-4469-991e-8c5ed048c618
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "douge"
+manager: douge
 ms.workload: 
   - "aspnet"
 ---
