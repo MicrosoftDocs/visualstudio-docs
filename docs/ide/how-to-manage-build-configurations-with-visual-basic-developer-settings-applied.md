@@ -1,5 +1,5 @@
 ---
-title: "How to: Manage Build Configurations with Visual Basic Developer Settings Applied | Microsoft Docs"
+title: "How to: Manage build configurations with Visual Basic developer settings applied | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -24,10 +24,10 @@ manager: ghogen
 ms.workload: 
   - "multiple"
 ---
-# How to: Manage Build Configurations with Visual Basic Developer Settings Applied
+# How to: Manage build configurations with Visual Basic developer settings applied
 By default, all advanced build configuration options are hidden with [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] Developer settings applied. This topic explains how to manually enable these settings.  
   
-## Enabling advanced build configurations  
+## Enable advanced build configurations  
  By default, the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] Developer settings hide the option to open the **Configuration Manager** dialog box and the **Configuration** and **Platform** lists in the [Project Designer](..//ide/reference/application-page-project-designer-visual-basic.md).  
   
 #### To enable advanced build configurations  
@@ -43,8 +43,8 @@ By default, all advanced build configuration options are hidden with [!INCLUDE[v
   
 4.  Click **OK**.  
   
-     On the **Build** menu, **Configuration Manager** is now available, and the **Configuration** and **Platform** lists are visible in the Project Designer.  
+     On the **Build** menu, **Configuration Manager** is now available, and the **Configuration** and **Platform** lists are visible in the **Project Designer**.  
   
-## See Also  
- [Understanding Build Configurations](../ide/understanding-build-configurations.md)   
- [Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)
+## See also  
+ [Understand build configurations](../ide/understanding-build-configurations.md)   
+ [Compile and build](../ide/compiling-and-building-in-visual-studio.md)

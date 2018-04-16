@@ -42,7 +42,7 @@ You can customize the color of the IDE frame and tool windows in Visual Studio i
 
 ## Use Windows high contrast colors
 
-Choose the **Left Alt** + **Left Shift** + **PrtScn** keys.
+Choose the **Left Alt**+**Left Shift**+**PrtScn** keys.
 
 > [!WARNING]
 > This option sets high contrast for all applications and UI on the current computer.

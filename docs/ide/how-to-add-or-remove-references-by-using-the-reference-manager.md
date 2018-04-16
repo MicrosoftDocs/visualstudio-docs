@@ -111,19 +111,19 @@ Some components in the list may not be shown, depending on the .NET Framework ve
 
    For a 32-bit operating system, add one of the following registry keys.
 
-   - [HKEY_CURRENT_USER\SOFTWARE\Microsoft\\.NETFramework\\*VersionMinimum*\AssemblyFoldersEx\MyAssemblies]@="*AssemblyLocation*"
+   - *[HKEY_CURRENT_USER\SOFTWARE\Microsoft\\.NETFramework\\<VersionMinimum>\AssemblyFoldersEx\MyAssemblies]@="<AssemblyLocation>"*
 
-   - [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\\.NETFramework\\*VersionMinimum*\AssemblyFoldersEx\MyAssemblies]@="*AssemblyLocation*"
+   - *[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\\.NETFramework\\<VersionMinimum>\AssemblyFoldersEx\MyAssemblies]@="<AssemblyLocation>"*
 
    For a 64-bit operating system, add one of the following registry keys in a 32-bit registry hive.
 
-   - [HKEY_CURRENT_USER\SOFTWARE\Wow6432Node\Microsoft\\.NETFramework\\*VersionMinimum*\AssemblyFoldersEx\MyAssemblies]@="*AssemblyLocation*"
+   - *[HKEY_CURRENT_USER\SOFTWARE\Wow6432Node\Microsoft\\.NETFramework\\<VersionMinimum>\AssemblyFoldersEx\MyAssemblies]@="<AssemblyLocation>"*
 
-   - [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\\.NETFramework\\*VersionMinimum*\AssemblyFoldersEx\MyAssemblies]@="*AssemblyLocation*"
+   - *[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\\.NETFramework\\<VersionMinimum>\AssemblyFoldersEx\MyAssemblies]@="<AssemblyLocation>"*
 
-   *VersionMinimum* is the lowest .NET Framework version that applies. If *VersionMinimum* is v3.0, folders specified in AssemblyFoldersEx apply to projects that target .NET Framework 3.0 and later.
+   *<VersionMinimum>* is the lowest .NET Framework version that applies. If *<VersionMinimum>* is v3.0, folders specified in *AssemblyFoldersEx* apply to projects that target .NET Framework 3.0 and later.
 
-   *AssemblyLocation* is the directory of the assemblies that you want to appear in the **Add Reference** dialog box, for example, *C:\MyAssemblies\\*.
+   *<AssemblyLocation>* is the directory of the assemblies that you want to appear in the **Add Reference** dialog box, for example, *C:\MyAssemblies\\*.
 
    Creating the registry key under the HKEY_LOCAL_MACHINE node allows all users to see the assemblies in the specified location in the **Add Reference** dialog box. Creating the registry key under the HKEY_CURRENT_USER node affects only the setting for the current user.
 
@@ -196,11 +196,11 @@ You should avoid adding file references to outputs of another project in the sam
 
 You can't browse to an SDK and add it to your project. You can only browse to a file (for example, an assembly or *.winmd*) and add it to your project.
 
-When doing a file reference to a WinMD, the expected layout is that the *FileName.winmd*, *FileName.dll*, and *FileName.pri* files are all placed alongside each other. If you reference a WinMD in the following scenarios, an incomplete set of files will be copied into the project output directory and, consequently, build and runtime failures will occur.
+When doing a file reference to a WinMD, the expected layout is that the *<FileName>.winmd*, *<FileName>.dll*, and *<FileName>.pri* files are all placed alongside each other. If you reference a WinMD in the following scenarios, an incomplete set of files will be copied into the project output directory and, consequently, build and runtime failures will occur.
 
-- **Native component**: a native project will create one WinMD for each disjoint set of namespaces and one DLL that consists of the implementation. The WinMDs will have disparate names. When referencing this native component file, MSBuild won't recognize that the dissimilarly named WinMDs make one component. Consequently, only the identically named *FileName.dll* and *FileName.winmd* will be copied, and runtime errors will occur. To work around this issue, create an Extension SDK. For more information, see [Create a Software Development Kit](../extensibility/creating-a-software-development-kit.md).
+- **Native component**: a native project will create one WinMD for each disjoint set of namespaces and one DLL that consists of the implementation. The WinMDs will have disparate names. When referencing this native component file, MSBuild won't recognize that the dissimilarly named WinMDs make one component. Consequently, only the identically named *<FileName>.dll* and *<FileName>.winmd* will be copied, and runtime errors will occur. To work around this issue, create an extension SDK. For more information, see [Create a Software Development Kit](../extensibility/creating-a-software-development-kit.md).
 
-- **Consuming controls**: at a minimum, a XAML control consists of a *FileName.winmd*, *FileName.dll*, *FileName.pri*, *XamlName.xaml*, and an *ImageName.jpg*. When the project is built, the resource files that are associated with the file reference won't get copied into the project's output directory, and only *FileName.winmd*, *FileName.dll* and *FileName.pri* will be copied. A build error is logged to inform the user that the resources *XamlName.xaml* and *ImageName.jpg* are missing. To succeed, the user will have to manually copy these resource files into the project output directory for build and debugging/runtime. To work around this issue, either create an Extension SDK by following the steps in [Create a Software Development Kit](../extensibility/creating-a-software-development-kit.md) or edit the project file to add the following property:
+- **Consuming controls**: at a minimum, a XAML control consists of a *<FileName>.winmd*, *<FileName>.dll*, *<FileName>.pri*, *<XamlName>.xaml*, and an *<ImageName>.jpg*. When the project is built, the resource files that are associated with the file reference won't get copied into the project's output directory, and only *<FileName>.winmd*, *<FileName>.dll* and *<FileName>.pri* will be copied. A build error is logged to inform the user that the resources *<XamlName>.xaml* and *<ImageName>.jpg* are missing. To succeed, the user will have to manually copy these resource files into the project output directory for build and debugging/runtime. To work around this issue, either create an extension SDK by following the steps in [Create a Software Development Kit](../extensibility/creating-a-software-development-kit.md) or edit the project file to add the following property:
 
     ```xml
     <PropertyGroup>

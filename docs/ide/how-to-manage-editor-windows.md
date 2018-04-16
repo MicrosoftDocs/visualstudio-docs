@@ -1,5 +1,5 @@
 ---
-title: "How to: Manage Editor Windows | Microsoft Docs"
+title: "How to: Manage editor windows | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.reviewer: ""
@@ -21,13 +21,13 @@ manager: ghogen
 ms.workload: 
   - "multiple"
 ---
-# How to: Manage Editor Windows
-You can work on code in several locations at once. Do this by splitting an Editor window, or by opening several instances of editor windows.  
+# How to: Manage editor windows
+You can work on code in several locations at once. Do this by splitting an editor window, or by opening several instances of editor windows.  
   
 > [!NOTE]
 >  Not all editor windows support multiple instances.  
   
-## Splitting an editor window  
+## Split an editor window  
  An instance of an editor window can be split into two separate views for easier editing.  
   
 #### To split a pane  
@@ -45,7 +45,7 @@ You can work on code in several locations at once. Do this by splitting an Edito
   
 -   From the **Window** menu, select **Remove Split**.  
   
-## Creating New Windows  
+## Create new windows  
  You can also create multiple instances of an editor window. This feature allows you to open a lengthy document in more than one instance of an editor, so that you can view and edit different sections simultaneously in separate, full-sized editor windows.  
   
 #### To create a new window  
@@ -54,7 +54,7 @@ You can work on code in several locations at once. Do this by splitting an Edito
   
      A new tabbed instance of the editor is added.  
   
-## See Also  
- [Customizing the Editor](../ide/customizing-the-editor.md)   
- [Writing Code](../ide/writing-code-in-the-code-and-text-editor.md)   
- [Customizing window layouts](../ide/customizing-window-layouts-in-visual-studio.md)
+## See also  
+ [Customize the editor](../ide/customizing-the-editor.md)   
+ [Write code](../ide/writing-code-in-the-code-and-text-editor.md)   
+ [Customize window layouts](../ide/customizing-window-layouts-in-visual-studio.md)

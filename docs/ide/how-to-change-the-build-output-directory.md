@@ -37,7 +37,7 @@ You can specify the location of output on a per-configuration basis (for debug, 
      Find the output path entry (**Build output path** in Visual Basic, **Output Directory** in Visual C++, **Output Path** in JavaScript and C#). Specify a new build output directory relative to the project directory.  
   
 > [!NOTE]
->  In a Setup Project, the **Output file name** box changes only the location of the *Setup.exe* file, not the location of the project files. For more information, see **Build, Configuration Properties, Deployment Project Properties dialog box**.  
+>  In a Setup Project, the **Output file name** box changes only the location of the *Setup.exe* file, not the location of the project files. For more information, see **Build, Configuration properties, Deployment Project properties dialog box**.  
   
 ## See Also  
  [Build page, Project Designer (C#)](../ide/reference/build-page-project-designer-csharp.md)   
