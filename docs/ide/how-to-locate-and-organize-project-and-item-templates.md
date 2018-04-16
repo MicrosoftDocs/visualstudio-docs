@@ -33,7 +33,7 @@ If you add a compressed (*.zip*) file that includes a *.vstemplate* file to the 
 
 - *%USERPROFILE%\Documents\Visual Studio \<Version\>\Templates\ItemTemplates*
 
-For example, the following directory contains user project templates for C#:
+For example, the following directory has user project templates for C#:
 
    *C:\Users\UserName\Documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#\*
 
@@ -48,13 +48,13 @@ By default, templates installed with Visual Studio are located in:
 
 - *\\<VisualStudioInstallationDirectory>\Common7\IDE\ProjectTemplates\\<Programming Language>\\<Locale ID>*
 
-For example, the following directory contains the Visual Basic item templates for English (LCID 1033):
+For example, the following directory has the Visual Basic item templates for English (LCID 1033):
 
    *C:\<VisualStudioInstallationDirectory>\Common7\IDE\ItemTemplates\VisualBasic\1033\*
 
 ## Organize templates
 
-The categories in the **New Project** and **Add New Item** dialog boxes reflect the directory structures that exist in the installed template and user template locations. User templates can be organized into their own categories by adding new folders to the user template directory. The **New Project** and **Add New Item** dialog boxes reflect any changes you make to your user template categories.
+The categories in the **New Project** and **Add New Item** dialog boxes reflect the directory structures that exist in the installed template and user template locations. User templates can be organized into their own categories by adding new folders to the user template directory. The **New Project** and **Add New Item** dialog boxes show any changes you make to your user template categories.
 
 > [!NOTE]
 > You cannot create a new category at the programming language level. New categories can only be created within each language.
@@ -85,7 +85,7 @@ The categories in the **New Project** and **Add New Item** dialog boxes reflect 
 
 ### Display templates in parent categories
 
-You can enable templates in subcategories to be displayed in their parent categories by using the `NumberOfParentCategoriesToRollUp` element in the *.vstemplate* file. These steps are identical for project templates and item templates.
+You can enable templates in subcategories to be displayed in their parent categories by using the `NumberOfParentCategoriesToRollUp` element in the *.vstemplate* file. These steps are the same for project templates and item templates.
 
 #### To display templates in parent categories
 

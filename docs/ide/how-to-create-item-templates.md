@@ -15,7 +15,7 @@ manager: ghogen
 ---
 # How to: Create item templates
 
-This topic shows you how to create an item template by using the **Export Template Wizard**. If your template will consist of multiple files, see [How to: Create multi-file item templates](../ide/how-to-create-multi-file-item-templates.md).
+This article shows you how to create an item template by using the **Export Template Wizard**. If your template will consist of multiple files, see [How to: Create multi-file item templates](../ide/how-to-create-multi-file-item-templates.md).
 
 ## To add a user item template to the Add New Item dialog box
 
@@ -37,7 +37,7 @@ This topic shows you how to create an item template by using the **Export Templa
 
     The files for the template are added to a .zip file and copied to the directory you specified in the wizard. The default location is *%USERPROFILE%\Documents\Visual Studio \<version\>\My Exported Templates*.
 
-1. If you did not select the option **Automatically import the template into Visual Studio** in the **Export Template Wizard**, locate the exported template and copy it to the user item template directory. The default location is *%USERPROFILE%\Documents\Visual Studio \<version\>\Templates\ItemTemplates*.
+1. If you did not select the option **Automatically import the template into Visual Studio** in the **Export Template Wizard**, locate the exported template. Then, copy it to the user item template directory. The default location is *%USERPROFILE%\Documents\Visual Studio \<version\>\Templates\ItemTemplates*.
 
 1. Close Visual Studio and then reopen it.
 
@@ -118,7 +118,7 @@ In some cases you may want to create an item template manually, from scratch.
 
 1. Save the *.vstemplate* file and close it.
 
-1. In **Windows Explorer**, select the files you want to include in your template, right-click the selection, and choose **Send to** > **Compressed (zipped) folder**. The files that you selected are compressed into a *.zip* file.
+1. In **Windows Explorer**, select the files you want to include in your template. Right-click the selection, and choose **Send to** > **Compressed (zipped) folder**. The files that you selected are compressed into a *.zip* file.
 
 1. Copy the *.zip* file and paste it in the user item template location. In Visual Studio 2017, the default directory is *%USERPROFILE%\Documents\Visual Studio 2017\Templates\ItemTemplates*. For more information, see [How to: Locate and organize project and item templates](../ide/how-to-locate-and-organize-project-and-item-templates.md).
 

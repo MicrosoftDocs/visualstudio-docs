@@ -65,22 +65,23 @@ The **Assemblies** tab consists of two sub-tabs:
 
 1. **Framework** lists all assemblies that constitute the targeted framework.
 
-    Projects for Windows 8.x Store apps contain references to all of the assemblies in the targeted [!INCLUDE[net_win8_profile](../ide/includes/net_win8_profile_md.md)] by default on project creation. In managed projects, a read-only node under the **References** folder in **Solution Explorer** indicates the reference to the entire Framework. Accordingly, the **Framework** tab won't enumerate any of the assemblies from the Framework and instead display the following message: "All of the Framework assemblies are already referenced. Please use the Object Browser to explore the references in the Framework." For desktop projects, the **Framework** tab enumerates assemblies from the targeted Framework, and the user must add the references that the application requires.
+    Projects for Windows 8.x Store apps contain references to all of the assemblies in the targeted [!INCLUDE[net_win8_profile](../ide/includes/net_win8_profile_md.md)] by default on project creation. In managed projects, a read-only node under the **References** folder in **Solution Explorer** indicates the reference to the entire framework. Accordingly, the **Framework** tab won't enumerate any of the assemblies from the framework and instead display the following message: "All of the Framework assemblies are already referenced. Please use the Object Browser to explore the references in the Framework." For desktop projects, the **Framework** tab enumerates assemblies from the targeted framework, and the user must add the references that the application requires.
 
-2. **Extensions** lists all assemblies that external vendors of components and controls have developed to extend the targeted Framework. Depending on the purpose of the user application, it might need these assemblies.
+2. **Extensions** lists all assemblies that external vendors of components and controls have developed to extend the targeted framework. Depending on the purpose of the user application, it might need these assemblies.
 
    **Extensions** is populated by enumerating the assemblies that are registered in the following locations:
 
    32-bit machine:
-   - *HKEY_CURRENT_USER\SOFTWARE\Microsoft\[Target Framework Identifier]\v[Target Framework Version]\AssemblyFoldersEx\[UserComponentName]\@default=[Disk location of assemblies]*
-   - *HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\[Target Framework Identifier]\v[Target Framework Version]\AssemblyFoldersEx\[UserComponentName]\@default=[Disk location of assemblies]*
+   - *HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\[Target Framework Identifier]\\v[Target Framework Version]\\AssemblyFoldersEx\\[UserComponentName]\\@default=[Disk location of assemblies]*
+   - *HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\[Target Framework Identifier]\\v[Target Framework Version]\\AssemblyFoldersEx\\[UserComponentName]\\@default=[Disk location of assemblies]*
 
    64-bit machine:
-   - *HKEY_CURRENT_USER\SOFTWARE\Wow6432Node\Microsoft\[Target Framework Identifier]\v[Target Framework Version]\AssemblyFoldersEx\[UserComponentName]\@default=[Disk location of assemblies]*
-   - *HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\[Target Framework Identifier]\v[Target Framework Version]\AssemblyFoldersEx\[UserComponentName]\@default=[Disk location of assemblies]*
+   - *HKEY_CURRENT_USER\\SOFTWARE\\Wow6432Node\\Microsoft\\[Target Framework Identifier]\\v[Target Framework Version]\\AssemblyFoldersEx\\[UserComponentName]\\@default=[Disk location of assemblies]*
+   - *HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\[Target Framework Identifier]\\v[Target Framework Version]\\AssemblyFoldersEx\\[UserComponentName]\\@default=[Disk location of assemblies]*
+
    And older versions of the [Target Framework Identifier]
 
-   For example, if a project targets the .NET Framework 4 on a 32-bit machine, **Extensions** will enumerate assemblies that are registered under *\Microsoft\\.NETFramework\v4.0\AssemblyFoldersEx\\*, *\Microsoft\\.NETFramework\v3.5\AssemblyFoldersEx\\*, *\Microsoft\\.NETFramework\v3.0\AssemblyFoldersEx\\*, and *\Microsoft\\.NETFramework\v2.0\AssemblyFoldersEx\\*.
+   For example, if a project targets the .NET Framework 4 on a 32-bit machine, **Extensions** will enumerate assemblies that are registered under *\\Microsoft\\.NETFramework\\v4.0\\AssemblyFoldersEx\\*, *\\Microsoft\\.NETFramework\\v3.5\\AssemblyFoldersEx\\*, *\\Microsoft\\.NETFramework\\v3.0\AssemblyFoldersEx\\*, and *\\Microsoft\\.NETFramework\\v2.0\\AssemblyFoldersEx\\*.
 
 Some components in the list may not be shown, depending on the .NET Framework version of your project. This can occur under the following conditions:
 
@@ -111,19 +112,19 @@ Some components in the list may not be shown, depending on the .NET Framework ve
 
    For a 32-bit operating system, add one of the following registry keys.
 
-   - *[HKEY_CURRENT_USER\SOFTWARE\Microsoft\\.NETFramework\\<VersionMinimum>\AssemblyFoldersEx\MyAssemblies]@="<AssemblyLocation>"*
+   - *[HKEY_CURRENT_USER\SOFTWARE\Microsoft\\.NETFramework\\\<VersionMinimum>\AssemblyFoldersEx\MyAssemblies]@="\<AssemblyLocation>"*
 
-   - *[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\\.NETFramework\\<VersionMinimum>\AssemblyFoldersEx\MyAssemblies]@="<AssemblyLocation>"*
+   - *[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\\.NETFramework\\\<VersionMinimum>\AssemblyFoldersEx\MyAssemblies]@="\<AssemblyLocation>"*
 
    For a 64-bit operating system, add one of the following registry keys in a 32-bit registry hive.
 
-   - *[HKEY_CURRENT_USER\SOFTWARE\Wow6432Node\Microsoft\\.NETFramework\\<VersionMinimum>\AssemblyFoldersEx\MyAssemblies]@="<AssemblyLocation>"*
+   - *[HKEY_CURRENT_USER\SOFTWARE\Wow6432Node\Microsoft\\.NETFramework\\\<VersionMinimum>\AssemblyFoldersEx\MyAssemblies]@="\<AssemblyLocation>"*
 
-   - *[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\\.NETFramework\\<VersionMinimum>\AssemblyFoldersEx\MyAssemblies]@="<AssemblyLocation>"*
+   - *[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\\.NETFramework\\\<VersionMinimum>\AssemblyFoldersEx\MyAssemblies]@="\<AssemblyLocation>"*
 
-   *<VersionMinimum>* is the lowest .NET Framework version that applies. If *<VersionMinimum>* is v3.0, folders specified in *AssemblyFoldersEx* apply to projects that target .NET Framework 3.0 and later.
+   *\<VersionMinimum>* is the lowest .NET Framework version that applies. If *\<VersionMinimum>* is v3.0, folders specified in *AssemblyFoldersEx* apply to projects that target .NET Framework 3.0 and later.
 
-   *<AssemblyLocation>* is the directory of the assemblies that you want to appear in the **Add Reference** dialog box, for example, *C:\MyAssemblies\\*.
+   *\<AssemblyLocation>* is the directory of the assemblies that you want to appear in the **Add Reference** dialog box, for example, *C:\MyAssemblies\\*.
 
    Creating the registry key under the HKEY_LOCAL_MACHINE node allows all users to see the assemblies in the specified location in the **Add Reference** dialog box. Creating the registry key under the HKEY_CURRENT_USER node affects only the setting for the current user.
 

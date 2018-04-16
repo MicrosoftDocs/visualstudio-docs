@@ -47,7 +47,7 @@ You can update an existing template without using the **Export Template Wizard**
 
 ### To manually update an existing template
 
-1. Locate the *.zip* file that contains the template. User project templates are usually located at *%USERPROFILE%\Documents\Visual Studio \<version\>\Templates\ProjectTemplates*.
+1. Locate the *.zip* file that contains the template. User project templates are located at *%USERPROFILE%\Documents\Visual Studio \<version\>\Templates\ProjectTemplates*.
 
 1. Extract the *.zip* file.
 

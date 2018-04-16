@@ -75,5 +75,5 @@ If you do not find an entry for the word or phrase you entered, try the followin
   
 ## See also
 [How to: Find topics in the TOC](../ide/how-to-find-topics-in-the-table-of-contents.md)  
-[How to:Search for topics](../ide/how-to-search-for-topics.md)  
+[How to: Search for topics](../ide/how-to-search-for-topics.md)  
 [Microsoft Help Viewer](../ide/microsoft-help-viewer.md)
