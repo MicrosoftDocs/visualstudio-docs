@@ -296,6 +296,6 @@ Visual Studio 2015 and earlier are available at [visualstudio.com/vs/older-downl
 
 ## Additional resources
 
-- [WFastCGI bridge between IIS and Python](https://pypi.python.org/pypi/wfastcgi) (python.org)
+- [WFastCGI bridge between IIS and Python](https://pypi.org/p/wfastcgi) (pypi.org)
 - [Free Python courses on Microsoft Virtual Academy](https://mva.microsoft.com/search/SearchResults.aspx#!q=python)
 - [Top Python Questions at Microsoft Virtual Academy](https://aka.ms/mva-top-python-questions)
