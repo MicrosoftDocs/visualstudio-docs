@@ -1,19 +1,18 @@
 ---
 title: Working with Python, step 4, debugging
 description: Step 4 of a core tutorial for working with Python within Visual Studio, covering how to run Python code in the debugger.
-ms.custom: "mvc"
 ms.date: 03/08/2018
-ms.technology: 
-  - "devlang-python"
+ms.prod: visual-studio-dev15
+ms.technology: vs-python
 dev_langs:
-  - "python"
-ms.topic: "tutorial"
-author: "kraigb"
-ms.author: "kraigb"
+  - python
+ms.topic: tutorial
+author: kraigb
+ms.author: kraigb
 manager: douge
 ms.workload: 
-  - "python"
-  - "data-science"
+  - python
+  - data-science
 ---
 
 # Step 4: Running code in the debugger

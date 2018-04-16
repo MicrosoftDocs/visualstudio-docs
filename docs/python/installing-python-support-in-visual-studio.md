@@ -1,19 +1,18 @@
 ---
 title: Installing Python support
 description: Detailed instructions on how to install the Python Tools for Visual Studio (PTVS) in Visual Studio 2017, 2015, 2013, 2012, and 2010, including options and installation locations.
-ms.custom:
 ms.date: 02/15/2018
-ms.technology: 
-  - "devlang-python"
+ms.prod: visual-studio-dev15
+ms.technology: vs-python
 dev_langs:
-  - "python"
-ms.topic: "conceptual"
-author: "kraigb"
-ms.author: "kraigb"
+  - python
+ms.topic: conceptual
+author: kraigb
+ms.author: kraigb
 manager: douge
 ms.workload: 
-  - "python"
-  - "data-science"
+  - python
+  - data-science
 ---
 
 # Installing Python support in Visual Studio on Windows

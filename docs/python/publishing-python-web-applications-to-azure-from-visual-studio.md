@@ -1,20 +1,19 @@
 ---
 title: Publishing a Python app to Azure App Service
 description: How to publish a Python web application directly to Azure App Service from Visual Studio, including the necessary content for the web.config file.
-ms.custom:
 ms.date: 09/27/2017
-ms.technology: 
-  - "devlang-python"
+ms.prod: visual-studio-dev15
+ms.technology: vs-python
 dev_langs:
-  - "python"
-ms.topic: "conceptual"
-author: "kraigb"
-ms.author: "kraigb"
+  - python
+ms.topic: conceptual
+author: kraigb
+ms.author: kraigb
 manager: douge
 ms.workload: 
-  - "python"
-  - "data-science"
-  - "azure"
+  - python
+  - data-science
+  - azure
 ---
 
 # Publishing to Azure App Service

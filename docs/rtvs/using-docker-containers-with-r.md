@@ -1,19 +1,18 @@
 ---
 title: R and Docker containers
 description: How to set up Docker containers for R and connect to them with Visual Studio.
-ms.custom:
 ms.date: 12/04/2017
-ms.technology: 
-  - "devlang-r"
+ms.prod: visual-studio-dev15
+ms.technology: vs-rtvs
 dev_langs:
-  - "R"
-ms.topic: "conceptual"
-author: "kraigb"  
-ms.author: "kraigb"
-ms.reviewer: "karthiknadig"
+  - R
+ms.topic: conceptual
+author: kraigb  
+ms.author: kraigb
+ms.reviewer: karthiknadig
 manager: douge
 ms.workload: 
-  - "data-science"
+  - data-science
 ---
 
 # Using Docker containers with R Tools for Visual Studio

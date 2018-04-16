@@ -1,18 +1,17 @@
 ---
 title: Django web project template for Python
 description: An overview of the Visual Studio templates for web applications written in Python using the Django framework.
-ms.custom:
 ms.date: 07/13/2017
-ms.technology: 
-  - "devlang-python"
+ms.prod: visual-studio-dev15
+ms.technology: vs-python
 dev_langs:
-  - "python"
-ms.topic: "conceptual"
-ms.author: "kraigb"
+  - python
+ms.topic: conceptual
+ms.author: kraigb
 manager: douge
 ms.workload: 
-  - "python"
-  - "data-science"
+  - python
+  - data-science
 ---
 
 # Django web project template

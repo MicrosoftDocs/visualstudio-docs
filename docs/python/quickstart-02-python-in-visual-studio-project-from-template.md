@@ -1,19 +1,18 @@
 ---
 title: Quickstart - Create a Python project using a template
 description: In this quickstart, you create a Visual Studio project for Python using the built-in template for a basic Flask app.
-ms.custom: "mvc"
 ms.date: 03/22/2018
-ms.technology: 
-  - "devlang-python"
+ms.prod: visual-studio-dev15
+ms.technology: vs-python
 dev_langs:
-  - "python"
-ms.topic: "quickstart"
-author: "kraigb"
-ms.author: "kraigb"
-manager: "douge"
+  - python
+ms.topic: quickstart
+author: kraigb
+ms.author: kraigb
+manager: douge
 ms.workload: 
-  - "python"
-  - "data-science"
+  - python
+  - data-science
 ---
 
 # Quickstart: create a Python project from a template in Visual Studio

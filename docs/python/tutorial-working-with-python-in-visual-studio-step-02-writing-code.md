@@ -1,19 +1,18 @@
 ---
 title: Working with Python, step 2, writing and running code
 description: Step 2 of a core tutorial for working with Python within Visual Studio, covering how to edit and run a simple Hello World program, followed by more interesting code that demonstrates Visual Studio's editing and IntelliSense features.
-ms.custom: "mvc"
 ms.date: 01/16/2018
-ms.technology: 
-  - "devlang-python"
+ms.prod: visual-studio-dev15
+ms.technology: vs-python
 dev_langs:
-  - "python"
-ms.topic: "tutorial"
-author: "kraigb"
-ms.author: "kraigb"
+  - python
+ms.topic: tutorial
+author: kraigb
+ms.author: kraigb
 manager: douge
 ms.workload: 
-  - "python"
-  - "data-science"
+  - python
+  - data-science
 ---
 
 # Step 2: Writing and running code

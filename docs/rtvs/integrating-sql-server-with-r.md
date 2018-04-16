@@ -1,19 +1,18 @@
 ---
 title: Integrating SQL Server with R
 description: Visual Studio supports creating and running SQL queries from R and the ability for R to work with stored procedures.
-ms.custom:
 ms.date: 01/24/2018
-ms.technology: 
-  - "devlang-r"
+ms.prod: visual-studio-dev15
+ms.technology: vs-rtvs
 dev_langs:
-  - "R"
-  - "SQL"
-ms.topic: "conceptual"
-author: "kraigb"
-ms.author: "kraigb"
+  - R
+  - SQL
+ms.topic: conceptual
+author: kraigb
+ms.author: kraigb
 manager: douge
 ms.workload: 
-  - "data-science"
+  - data-science
 ---
 
 # Working with SQL Server and R
