@@ -2,8 +2,7 @@
 title: "How to: Switch to Another Thread While Debugging | Microsoft Docs"
 ms.custom: ""
 ms.date: "04/27/2017"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
