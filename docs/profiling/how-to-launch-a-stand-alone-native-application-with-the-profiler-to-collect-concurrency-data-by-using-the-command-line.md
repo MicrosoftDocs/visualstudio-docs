@@ -2,13 +2,12 @@
 title: "How to: Launch a Stand-Alone Native Application with the Profiler to Collect Concurrency Data by Using the Command Line | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: e5aed651-afed-4b70-9a7e-1a6032cc614f
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "cplusplus"
 ---

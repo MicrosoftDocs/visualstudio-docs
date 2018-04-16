@@ -2,15 +2,14 @@
 title: "How to: Collect Line-Level Sampling Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "performance tools, line-level sampling"
 ms.assetid: 44803aad-dd39-4c2e-9209-d35185d44983
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

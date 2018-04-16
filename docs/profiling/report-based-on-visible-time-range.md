@@ -2,8 +2,7 @@
 title: "Report Based on Visible Time Range | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.cv.threads.reportnav.profile"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: ef4f6259-a110-43b6-a325-364154e1ba00
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

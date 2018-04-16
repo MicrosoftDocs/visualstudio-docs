@@ -2,13 +2,12 @@
 title: "How to: Create a Profiler Comparison Report from a Command Prompt | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: 00548d16-eb5b-46f7-8a65-862f98a43831
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

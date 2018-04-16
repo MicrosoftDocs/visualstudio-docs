@@ -2,8 +2,7 @@
 title: "DA0002: VSPerfCorProf.dll is missing | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.DA0002"
@@ -13,7 +12,7 @@ f1_keywords:
 ms.assetid: 76e614b3-ad7e-4b92-b7be-88dc1329be1d
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

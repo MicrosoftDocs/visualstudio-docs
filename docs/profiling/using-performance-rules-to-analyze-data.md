@@ -2,13 +2,12 @@
 title: "Using Performance Rules to Analyze Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: 1deed23e-b31b-4714-982f-08ceebfc3096
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

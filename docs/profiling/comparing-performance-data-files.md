@@ -2,8 +2,7 @@
 title: "Comparing Performance Data Files | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "profiling tools, comparing profiling tools report files"
@@ -11,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: e6fda144-f21d-4912-9d16-1b8d3555a210
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

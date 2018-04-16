@@ -2,8 +2,7 @@
 title: "DA0039: Very High Rate of Lock contentions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.39"
@@ -12,7 +11,7 @@ f1_keywords:
 ms.assetid: 5a9fc57d-9097-413b-af0c-8726b1a57048
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

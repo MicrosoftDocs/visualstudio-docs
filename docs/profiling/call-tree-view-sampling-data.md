@@ -2,8 +2,7 @@
 title: "Call Tree View - Sampling Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "sampling profiling method,Call Tree view"
@@ -11,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 5c4e8ec3-d0d3-485a-93bd-9060df4eb739
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

@@ -2,15 +2,14 @@
 title: "Functions View - .NET Memory Instrumentation Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Functions view"
 ms.assetid: cd45b379-394b-4b71-828c-92cd89e46ae0
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "dotnet"
 ---

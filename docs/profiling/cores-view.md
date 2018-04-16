@@ -2,8 +2,7 @@
 title: "Cores View | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.view.cores"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: e47af672-9785-4899-bd45-4d9dda3c396f
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

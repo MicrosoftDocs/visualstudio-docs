@@ -2,8 +2,7 @@
 title: "Measure Mode On-Off | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.cv.threads.tools.measure"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: fbd99736-9ea8-47d2-af51-7e3a4e9c29c1
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

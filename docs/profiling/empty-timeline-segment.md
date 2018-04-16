@@ -2,8 +2,7 @@
 title: "Empty Timeline Segment | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.cv.threads.timeline.empty"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: f37b301f-3edc-4e56-8084-feec2dc5a9b1
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

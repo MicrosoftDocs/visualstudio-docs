@@ -2,8 +2,7 @@
 title: "DA0026: Excessive kernel CPU time processing | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.rules.DA0026"
@@ -12,7 +11,7 @@ f1_keywords:
 ms.assetid: 4cfc8a29-b29b-4a72-b386-03d8856fdf8a
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

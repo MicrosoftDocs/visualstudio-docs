@@ -2,8 +2,7 @@
 title: "marker_series::write_message Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "cvmarkersobj/Concurrency::diagnostic::marker_series::write_message"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 546121bc-67e0-4a5a-a456-12bd78fd6de2
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

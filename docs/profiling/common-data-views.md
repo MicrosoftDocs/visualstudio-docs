@@ -2,8 +2,7 @@
 title: "Common Data Views | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Profiling Tools,views"
@@ -11,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: ee5e964c-1222-496d-b825-166443a89d2b
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

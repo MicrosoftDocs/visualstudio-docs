@@ -2,8 +2,7 @@
 title: ".NET Memory Allocations View | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.view.allocation"
@@ -15,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 01eb876e-c413-4516-977b-4f896929e8a6
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

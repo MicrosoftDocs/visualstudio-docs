@@ -2,8 +2,7 @@
 title: "VSInstr | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "performance tools, instrumentation"
@@ -17,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: 7b1334f7-f9b0-4a82-a145-d0607bfa8467
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

@@ -2,8 +2,7 @@
 title: "Getting started with performance tools | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "getting started, performance"
@@ -11,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 02085214-a8e4-40fd-9b26-32391a7a7082
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

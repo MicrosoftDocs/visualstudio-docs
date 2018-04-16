@@ -2,13 +2,12 @@
 title: "Specifying the Path to Profiling Tools Command Line Tools | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: 7047bf18-5779-4f6e-872c-66e2fc47c969
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

@@ -2,8 +2,7 @@
 title: "DA0008: Few samples collected | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.rules.DATooFewSamples"
@@ -13,7 +12,7 @@ f1_keywords:
 ms.assetid: 8a5b78aa-7b3d-476c-a47d-abfaff3fae7c
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

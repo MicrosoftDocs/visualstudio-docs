@@ -2,8 +2,7 @@
 title: "VSInstr Warnings | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "instrumentation, VSInstr tool"
@@ -14,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 47512bc9-a8e9-4628-883a-d9888edab786
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

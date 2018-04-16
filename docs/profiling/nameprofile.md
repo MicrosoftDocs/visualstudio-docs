@@ -2,8 +2,7 @@
 title: "NameProfile | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "NameProfile"
@@ -11,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 1bb05441-c4ff-4323-9fef-f3924fba4430
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

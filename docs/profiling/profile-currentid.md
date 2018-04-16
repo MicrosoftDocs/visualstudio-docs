@@ -2,15 +2,14 @@
 title: "PROFILE_CURRENTID | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "PROFILE_CURRENTID"
 ms.assetid: 55ccf665-a05e-48c3-adf7-7714c0a9aaef
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

@@ -2,15 +2,14 @@
 title: "Modules View - .NET Memory Instrumentation Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Modules view"
 ms.assetid: 26516139-0981-41de-917d-ad5769391b8d
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "dotnet"
 ---

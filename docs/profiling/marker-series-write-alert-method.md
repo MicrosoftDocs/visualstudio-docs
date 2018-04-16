@@ -2,8 +2,7 @@
 title: "marker_series::write_alert Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "cvmarkersobj/Concurrency::diagnostic:marker_series::write_alert"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 9d5465c7-f862-47a7-b249-4116605075a6
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

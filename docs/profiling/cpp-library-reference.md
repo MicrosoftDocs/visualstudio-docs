@@ -2,15 +2,14 @@
 title: "C++ Library Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Concurrency Visualizer SDK, C++ Library Reference"
 ms.assetid: c9f8eea2-c964-485d-9ad0-55a4bf425ae7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "cplusplus"
 ---

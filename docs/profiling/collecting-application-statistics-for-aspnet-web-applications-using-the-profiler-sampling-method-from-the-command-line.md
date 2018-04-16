@@ -2,8 +2,7 @@
 title: "Collect statistics for ASP.NET web apps | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "profiling tools, sampling method"
@@ -11,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: f8383ab1-eb49-4d3f-8608-d8b4d51a81be
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "aspnet"
 ---

@@ -2,8 +2,7 @@
 title: "How to: Choose Sampling Events | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.property.sampling"
@@ -18,7 +17,7 @@ helpviewer_keywords:
 ms.assetid: ce7cb734-80ac-4930-a4ef-e24395e1cc07
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

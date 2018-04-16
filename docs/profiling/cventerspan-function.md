@@ -2,8 +2,7 @@
 title: "CvEnterSpan Function | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "cvmarkers/CvEnterSpanVA"
@@ -24,7 +23,7 @@ helpviewer_keywords:
 ms.assetid: 91689e9c-6733-44b9-b36a-8b9b2eef7d1d
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

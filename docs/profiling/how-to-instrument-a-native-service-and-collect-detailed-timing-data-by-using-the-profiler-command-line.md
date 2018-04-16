@@ -2,13 +2,12 @@
 title: "How to: Instrument a Native Service and Collect Detailed Timing Data by Using the Profiler Command Line | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: dfe58b39-63f8-4a87-ab3a-2b5b14faa8d0
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "cplusplus"
 ---

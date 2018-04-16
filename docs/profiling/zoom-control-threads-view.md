@@ -2,8 +2,7 @@
 title: "Zoom Control (Threads View) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.cv.threads.tools.zoom"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 7f9bda07-53a8-4f11-9846-a3e31064c596
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

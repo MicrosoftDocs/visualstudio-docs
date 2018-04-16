@@ -2,8 +2,7 @@
 title: "Preemption Time | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.cv.threads.timeline.preemption"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 6b78f91e-a006-440c-83fb-e7368040951d
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

@@ -2,15 +2,14 @@
 title: "Concurrency Visualizer SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.cv.sdk.about"
 ms.assetid: 4b22cdf9-59b1-4c88-a6d8-1644a4a11e08
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

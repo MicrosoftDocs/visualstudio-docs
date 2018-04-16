@@ -2,8 +2,7 @@
 title: "How to: Customize Report View Columns | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.test.columnchooser.dialogbox"
@@ -13,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: cb6f6d30-52a5-4d92-ab07-1d5ddb67884c
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

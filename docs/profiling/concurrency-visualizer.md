@@ -2,8 +2,7 @@
 title: "Concurrency Visualizer | Microsoft Docs"
 ms.custom: ""
 ms.date: "07/11/2017"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.cv.performance.viewnavigation"
@@ -15,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: ae5879a0-1e1a-455a-ba72-148e57f59289
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

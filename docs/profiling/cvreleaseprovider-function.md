@@ -2,8 +2,7 @@
 title: "CvReleaseProvider Function | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "cvmarkers/CvReleaseProvider"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 8d74379e-295d-452b-bd5f-0769df387d4f
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

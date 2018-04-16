@@ -2,8 +2,7 @@
 title: "DA0504: Maximum Working Set in Bytes for the Process being profiled | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.DA0504"
@@ -12,7 +11,7 @@ f1_keywords:
 ms.assetid: 36e71603-ece7-4000-85fc-9da4eed61bf2
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

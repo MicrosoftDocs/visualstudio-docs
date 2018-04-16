@@ -2,8 +2,7 @@
 title: "DA0014: Extremely high rates of paging active memory to disk | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.rules.DAMemoryBound"
@@ -13,7 +12,7 @@ f1_keywords:
 ms.assetid: a7fa3749-9191-437a-9331-9d917181e62f
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

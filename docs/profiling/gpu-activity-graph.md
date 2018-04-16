@@ -2,15 +2,14 @@
 title: "GPU Activity Graph | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.cv.cpu.graph.gpu"
 ms.assetid: d7c769af-95fb-49a3-b5ab-deafecee46fa
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

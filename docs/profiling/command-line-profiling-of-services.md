@@ -2,8 +2,7 @@
 title: "Command-Line Profiling of Services | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "profiling toos,services"
@@ -11,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: f0d62318-b0e8-49c6-9a30-9f7a6adef2f6
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

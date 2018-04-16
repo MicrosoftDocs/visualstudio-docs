@@ -2,8 +2,7 @@
 title: "CvWriteMessage Function | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "cvmarkers/CvWriteMessageW"
@@ -26,7 +25,7 @@ helpviewer_keywords:
 ms.assetid: e20ae7be-bfa7-437a-b8c1-fa0f1baa7f83
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

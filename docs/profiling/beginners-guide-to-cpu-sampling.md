@@ -2,8 +2,7 @@
 title: "Beginners Guide to CPU Sampling in Visual Studio | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
 ms.date: "02/27/2017"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.wizard.intropage"
@@ -14,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 85161cc4-18ee-49b3-9487-33680e687597
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

@@ -2,8 +2,7 @@
 title: "span::~span Destructor | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "cvmarkersobj/Concurrency::diagnostic::span::~span"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 9ff61542-9be7-4e81-bfe5-5d2c6eb112c1
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

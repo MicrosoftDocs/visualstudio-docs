@@ -2,8 +2,7 @@
 title: "Profiler Sampling Method Data Views | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Profiling Tools,sampling data views"
@@ -11,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 798de693-e43a-4056-aff5-48310c2172c5
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

@@ -2,8 +2,7 @@
 title: "Command-Line Profiling of Stand-Alone Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "profillng tools,stand-alone applications"
@@ -11,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: a47f2bf2-186d-4120-bb79-34e2f3a1ee42
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

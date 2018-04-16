@@ -2,8 +2,7 @@
 title: "Function Details View | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.view.functiondetails"
@@ -13,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 8806954f-cf28-48d5-81b2-d722ceaf7d27
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

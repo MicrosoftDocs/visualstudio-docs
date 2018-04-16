@@ -2,8 +2,7 @@
 title: "DA0017: High rates of paging active memory to disk | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.17"
@@ -12,7 +11,7 @@ f1_keywords:
 ms.assetid: 01011eec-5930-43b3-980d-2cb01e2ca7f6
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

@@ -2,8 +2,7 @@
 title: "Instrumentation Method Data Views | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "profiling tools,instrumentation method views"
@@ -11,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 481f7579-f784-49ef-bb6c-2944e9d6ab42
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

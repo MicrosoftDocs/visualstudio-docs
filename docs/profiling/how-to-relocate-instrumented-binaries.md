@@ -2,8 +2,7 @@
 title: "How to: Relocate Instrumented Binaries | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.property.binaries"
@@ -14,7 +13,7 @@ helpviewer_keywords:
   - "profiling tools, instrumented binaries"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

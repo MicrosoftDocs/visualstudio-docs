@@ -2,8 +2,7 @@
 title: "Multiple Categories Are Present | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.cv.threads.timeline.multicategory"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: f5c7ec07-8052-4df7-a0ca-7ec8bb3eee18
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

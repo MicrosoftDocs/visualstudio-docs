@@ -2,8 +2,7 @@
 title: "VSPerfCmd | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "performance tools, VSPerfCmd tool"
@@ -14,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 778bc105-7643-46c4-a338-f3620e31125a
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

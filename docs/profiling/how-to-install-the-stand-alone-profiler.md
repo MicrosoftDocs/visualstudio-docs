@@ -2,8 +2,7 @@
 title: "How to: Install the Stand-Alone Profiler | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "performance tools, installing stand-alone profiler"
@@ -11,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: cae81c95-83cd-4ab6-8a98-84ef977a2f6d
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

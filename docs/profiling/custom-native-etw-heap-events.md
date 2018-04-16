@@ -2,13 +2,12 @@
 title: "Custom Native ETW Heap Events | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/24/2017"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: 668a6603-5082-4c78-98e6-f3dc871aa55b
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 dev_langs: 
   - C++
 ms.workload: 

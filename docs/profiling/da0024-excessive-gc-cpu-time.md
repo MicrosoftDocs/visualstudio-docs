@@ -2,8 +2,7 @@
 title: "DA0024: Excessive GC CPU Time | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.DA0024"
@@ -12,7 +11,7 @@ f1_keywords:
 ms.assetid: 228872da-77d0-4da5-b455-ac57fb1867c9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

@@ -2,8 +2,7 @@
 title: "Unblocking Stack | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.cv.threads.reportnav.unblockedby"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 1a4dfd9a-e7e2-4aa3-93e2-4f12c7b0970f
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

@@ -2,8 +2,7 @@
 title: "Collecting Memory Data from an ASP.NET Web Application by Using the Profiler Command Line | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - ".NET memory profiling method"
@@ -11,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 57acf2b0-327a-4c0e-8078-ac2f6d99457d
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "aspnet"
 ---

@@ -2,8 +2,7 @@
 title: "How to: Manually Create Performance Sessions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.wizard.dllpage"
@@ -14,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: ee2b3e0c-0990-46d9-8de6-c29fa386b15b
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

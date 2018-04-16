@@ -2,8 +2,7 @@
 title: "marker_importance Enumeration | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "cvmarkersobj/Concurrency::diagnostic::marker_importance"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: d5524ea0-0227-4d8e-9122-332291042df5
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

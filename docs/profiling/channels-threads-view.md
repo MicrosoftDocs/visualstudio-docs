@@ -2,8 +2,7 @@
 title: "Channels (Threads View) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.cv.threads.timeline.channelnames"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 2f798c17-2363-42a4-be94-a5751d208eac
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

@@ -2,8 +2,7 @@
 title: "How to: Reference Windows Symbol Information | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "performance tools, symbol servers"
@@ -13,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: b7c67318-6be2-4b1e-a161-077b1f4a7c30
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

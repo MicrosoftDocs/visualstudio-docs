@@ -2,8 +2,7 @@
 title: "Resource Contention Data Views | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "profilng tools,concurrency profiling method view"
@@ -11,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: be79ec41-f1dd-4984-993f-5c2962355a32
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

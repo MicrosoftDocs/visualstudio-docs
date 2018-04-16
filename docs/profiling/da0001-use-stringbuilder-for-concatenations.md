@@ -2,8 +2,7 @@
 title: "DA0001: Use StringBuilder for concatenations | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.DA0001"
@@ -13,7 +12,7 @@ f1_keywords:
 ms.assetid: a7cc7613-ad5f-48c8-bd2b-56372cc12dfc
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

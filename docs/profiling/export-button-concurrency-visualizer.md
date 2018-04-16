@@ -2,8 +2,7 @@
 title: "Export Button (Concurrency Visualizer) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.cv.threads.export"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 68550095-8a69-48ee-bb7e-eb5504810578
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

@@ -2,8 +2,7 @@
 title: "Average CPU Utilization | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.cv.cpu.percentage"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 5797d004-2325-46cf-bbf3-6739a15958ec
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

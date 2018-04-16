@@ -2,8 +2,7 @@
 title: "Memory Management Time | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.cv.threads.timeline.paging"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 67af3509-3a7d-435d-bc37-5262448da915
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

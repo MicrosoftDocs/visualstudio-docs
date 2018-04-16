@@ -2,8 +2,7 @@
 title: "DA0023: High GC CPU time | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.DA0023"
@@ -12,7 +11,7 @@ f1_keywords:
 ms.assetid: aba875fe-9cbc-418d-a2c4-6eb47519a5bb
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

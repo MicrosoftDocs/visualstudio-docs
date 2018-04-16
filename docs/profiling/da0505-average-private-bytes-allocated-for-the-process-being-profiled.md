@@ -2,8 +2,7 @@
 title: "DA0505: Average Private Bytes allocated for the Process being profiled | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.DA0505"
@@ -12,7 +11,7 @@ f1_keywords:
 ms.assetid: 32c612ea-d077-44ba-8e6f-3a96333bad00
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

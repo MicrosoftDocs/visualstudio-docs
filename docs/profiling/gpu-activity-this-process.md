@@ -2,8 +2,7 @@
 title: "GPU Activity (This Process) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.cv.threads.timeline.gpuexecution"
@@ -11,7 +10,7 @@ f1_keywords:
 ms.assetid: 0956edbf-9bcd-4afe-9287-fda628648ca0
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

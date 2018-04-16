@@ -2,8 +2,7 @@
 title: "DA0501: Average CPU consumption by the Process being profiled. | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.rules.DA0501"
@@ -12,7 +11,7 @@ f1_keywords:
 ms.assetid: b01946b4-75e3-47d5-a1a1-cebfae66a3af
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

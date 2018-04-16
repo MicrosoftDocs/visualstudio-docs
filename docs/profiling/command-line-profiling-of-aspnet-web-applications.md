@@ -2,8 +2,7 @@
 title: "Command-Line Profiling of ASP.NET Web Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "profiling ASP.NET applications"
@@ -11,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 897c00d5-5767-433b-a960-4a29c6023ede
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "aspnet"
 ---

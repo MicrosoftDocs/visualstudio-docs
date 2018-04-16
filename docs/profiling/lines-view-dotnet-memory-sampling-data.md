@@ -2,15 +2,14 @@
 title: "Lines View - .NET Memory Sampling Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Lines view"
 ms.assetid: 6631ab87-0e62-4c76-a063-4ea7222b07da
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "dotnet"
 ---

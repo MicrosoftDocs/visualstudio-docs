@@ -2,15 +2,14 @@
 title: "Instruction Pointers (IPs) View - Contention Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Instruction Pointers view"
 ms.assetid: f5e49c24-d4cf-4f87-977d-37e3223d1196
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

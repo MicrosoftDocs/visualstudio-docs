@@ -2,8 +2,7 @@
 title: "No Thread Activity to Show (Threads View) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.cv.threads.nothreadreport"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: aa5ae9d0-561d-4ef8-b36b-258ce553d50a
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

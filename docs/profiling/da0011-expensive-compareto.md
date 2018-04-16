@@ -2,8 +2,7 @@
 title: "DA0011: Expensive CompareTo | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.DA0011"
@@ -13,7 +12,7 @@ f1_keywords:
 ms.assetid: 239a381d-0d97-4367-8668-746c93f5af2c
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

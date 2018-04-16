@@ -2,8 +2,7 @@
 title: "Cores View Logical Cores | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.cv.cores.timeline.logicalcores"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 8a471929-9a26-43e4-adef-d3b40f00f9e3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

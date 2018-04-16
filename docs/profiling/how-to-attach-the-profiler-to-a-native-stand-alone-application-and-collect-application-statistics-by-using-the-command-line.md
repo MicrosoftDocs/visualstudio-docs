@@ -2,13 +2,12 @@
 title: "How to: Attach the Profiler to a Native Stand-Alone Application and Collect Application Statistics by Using the Command Line | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: df44fe42-281b-4398-b3fc-277b62ae41f1
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "cplusplus"
 ---

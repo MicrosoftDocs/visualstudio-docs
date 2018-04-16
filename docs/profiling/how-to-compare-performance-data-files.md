@@ -2,8 +2,7 @@
 title: "How to: Compare Performance Data Files | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vsperf.choosediffbinaries"
@@ -13,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 1905b45d-c6b3-43c8-87b1-1aee734f37f9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

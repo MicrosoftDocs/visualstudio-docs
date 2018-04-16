@@ -2,8 +2,7 @@
 title: "GPU Activity (Paging) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.cv.threads.timeline.gpuactivity"
@@ -11,7 +10,7 @@ f1_keywords:
 ms.assetid: 95284ac5-3492-4f7b-a79f-7d2840a07679
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

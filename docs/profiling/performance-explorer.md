@@ -2,8 +2,7 @@
 title: "Performance Explorer | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/19/2017"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance"
@@ -12,7 +11,7 @@ helpviewer_keywords:
   - "performance tools [Visual Studio ALM]"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

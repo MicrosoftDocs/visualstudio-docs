@@ -2,15 +2,14 @@
 title: "Instruction Pointers (IPs) View - Sampling Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Instruction Pointers view"
 ms.assetid: c7f647bb-c5a3-4708-9f9d-33c0fd6e2e96
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

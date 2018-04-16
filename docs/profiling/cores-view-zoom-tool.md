@@ -2,8 +2,7 @@
 title: "Cores View Zoom Tool | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.cv.cores.zoom"
@@ -12,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: f7d48602-ba32-4487-b51a-89e596124108
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

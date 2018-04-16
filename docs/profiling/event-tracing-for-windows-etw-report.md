@@ -2,8 +2,7 @@
 title: "Event Tracing for Windows (ETW) Report | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Event tracing for Windows profiling report"
@@ -11,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 81e88162-b88a-40b6-8b85-a232c8096a47
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---
