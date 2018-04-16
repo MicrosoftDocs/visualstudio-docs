@@ -72,12 +72,12 @@ The **Assemblies** tab consists of two sub-tabs:
    **Extensions** is populated by enumerating the assemblies that are registered in the following locations:
 
    32-bit machine:
-   - *HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\[Target Framework Identifier]\\v[Target Framework Version]\\AssemblyFoldersEx\\[UserComponentName]\\@default=[Disk location of assemblies]*
-   - *HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\[Target Framework Identifier]\\v[Target Framework Version]\\AssemblyFoldersEx\\[UserComponentName]\\@default=[Disk location of assemblies]*
+   - `HKEY_CURRENT_USER\SOFTWARE\Microsoft\[Target Framework Identifier]\v[Target Framework Version]\AssemblyFoldersEx\[UserComponentName]\@default=[Disk location of assemblies]`
+   - *HKEY_LOCAL_MACHINE&#92;SOFTWARE&#92;Microsoft&#92;[Target Framework Identifier]&#92;v[Target Framework Version]&#92;AssemblyFoldersEx&#92;[UserComponentName]&#92;@default=[Disk location of assemblies]*
 
    64-bit machine:
-   - *HKEY_CURRENT_USER\\SOFTWARE\\Wow6432Node\\Microsoft\\[Target Framework Identifier]\\v[Target Framework Version]\\AssemblyFoldersEx\\[UserComponentName]\\@default=[Disk location of assemblies]*
-   - *HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\[Target Framework Identifier]\\v[Target Framework Version]\\AssemblyFoldersEx\\[UserComponentName]\\@default=[Disk location of assemblies]*
+   - _HKEY_CURRENT_USER\\SOFTWARE\\Wow6432Node\\Microsoft\\[Target Framework Identifier]\\v[Target Framework Version]\\AssemblyFoldersEx\\[UserComponentName]\\@default=[Disk location of assemblies]_
+   - `HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\[Target Framework Identifier]\\v[Target Framework Version]\\AssemblyFoldersEx\\[UserComponentName]\\@default=[Disk location of assemblies]`
 
    And older versions of the [Target Framework Identifier]
 
@@ -112,7 +112,7 @@ Some components in the list may not be shown, depending on the .NET Framework ve
 
    For a 32-bit operating system, add one of the following registry keys.
 
-   - *[HKEY_CURRENT_USER\SOFTWARE\Microsoft\\.NETFramework\\\<VersionMinimum>\AssemblyFoldersEx\MyAssemblies]@="\<AssemblyLocation>"*
+   *[HKEY_CURRENT_USER\SOFTWARE\Microsoft\\.NETFramework\\\<VersionMinimum>\AssemblyFoldersEx\MyAssemblies]@="\<AssemblyLocation>"*
 
    - *[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\\.NETFramework\\\<VersionMinimum>\AssemblyFoldersEx\MyAssemblies]@="\<AssemblyLocation>"*
 

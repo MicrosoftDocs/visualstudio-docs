@@ -23,7 +23,7 @@ ms.workload:
 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] provides a way for a solution to target several different CPU architectures, or platforms, at once. The properties to set these are accessed through the **Configuration Manager** dialog box.  
   
 ## Target a platform  
- The **Configuration Manager** dialog box allows you to create and set solution-level and project-level configurations and platforms. Each combination of solution-level configurations and targets can have a unique set of properties associated with it, allowing you to easily switch between, for example, a Release configuration that targets an [!INCLUDE[vcprx64](../extensibility/internals/includes/vcprx64_md.md)] platform, a Release configuration that targets an x86 platform, and a Debug configuration that targets an x86 platform.  
+ The **Configuration Manager** dialog box allows you to create and set solution-level and project-level configurations and platforms. Each combination of solution-level configurations and targets can have a unique set of properties associated with it, allowing you to easily switch between, for example, a release configuration that targets an [!INCLUDE[vcprx64](../extensibility/internals/includes/vcprx64_md.md)] platform, a release configuration that targets an x86 platform, and a debug configuration that targets an x86 platform.  
   
 #### To set your configuration to target a different platform  
   
