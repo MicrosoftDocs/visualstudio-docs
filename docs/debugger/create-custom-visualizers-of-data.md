@@ -2,8 +2,7 @@
 title: "Create Custom Visualizers of Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/19/2017"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.visualizer.troubleshoot"

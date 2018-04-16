@@ -2,8 +2,7 @@
 title: "Debugger overview - Visual Studio | Microsoft Docs"
 ms.custom: "mvc"
 ms.date: "07/11/2017"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "overview"
 dev_langs: 
   - "C++"

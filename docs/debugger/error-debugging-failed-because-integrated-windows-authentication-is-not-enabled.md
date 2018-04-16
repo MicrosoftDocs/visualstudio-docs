@@ -2,8 +2,7 @@
 title: "Error: Debugging Failed Because Integrated Windows Authentication Is Not Enabled | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.error.webdbg_ntlm_authn_not_enabled"

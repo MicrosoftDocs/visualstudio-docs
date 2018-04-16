@@ -2,8 +2,7 @@
 title: "Error: Ensure that DNS is Correctly Configured on the Target Computer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.error.callback_dns_failed"
