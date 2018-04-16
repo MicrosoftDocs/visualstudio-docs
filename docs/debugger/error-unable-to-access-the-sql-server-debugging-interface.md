@@ -3,7 +3,7 @@ title: "Error: Unable to access the SQL Server debugging interface | Microsoft D
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: "vs-ide-debug"
-ms.topic: "reference"
+ms.topic: "troubleshooting"
 f1_keywords: 
   - "vs.debug.error.sqlde_debugging_not_enabled"
 dev_langs: 

@@ -3,7 +3,7 @@ title: "Error: Windows file sharing has been configured... | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: "vs-ide-debug"
-ms.topic: "reference"
+ms.topic: "troubleshooting"
 f1_keywords: 
   - "vs.debug.error.remote_credentials_prohibited"
 dev_langs: 

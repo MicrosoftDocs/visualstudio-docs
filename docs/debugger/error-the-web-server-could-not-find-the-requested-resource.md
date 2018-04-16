@@ -3,7 +3,7 @@ title: "Error: The Web Server Could Not Find the Requested Resource | Microsoft 
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: "vs-ide-debug"
-ms.topic: "reference"
+ms.topic: "troubleshooting"
 dev_langs: 
   - "CSharp"
   - "VB"

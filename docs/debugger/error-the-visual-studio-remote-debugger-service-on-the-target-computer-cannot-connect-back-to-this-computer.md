@@ -3,7 +3,7 @@ title: "Error: The Visual Studio Remote Debugger service on the target computer 
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: "vs-ide-debug"
-ms.topic: "reference"
+ms.topic: "troubleshooting"
 f1_keywords: 
   - "vs.debug.error.service_access_denied_oncallback"
 dev_langs: 

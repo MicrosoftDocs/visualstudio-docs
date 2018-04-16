@@ -3,7 +3,7 @@ title: "Error: Unable to connect to the machine &lt;name&gt;. The machine cannot
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: "vs-ide-debug"
-ms.topic: "reference"
+ms.topic: "troubleshooting"
 f1_keywords: 
   - "vs.debug.remote.dcom_disabled"
 dev_langs: 

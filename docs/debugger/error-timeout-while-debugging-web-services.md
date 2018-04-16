@@ -3,7 +3,7 @@ title: "Error: Timeout While Debugging Web Services | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: "vs-ide-debug"
-ms.topic: "reference"
+ms.topic: "troubleshooting"
 dev_langs: 
   - "CSharp"
   - "VB"

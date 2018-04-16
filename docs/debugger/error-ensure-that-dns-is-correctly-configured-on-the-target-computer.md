@@ -3,7 +3,7 @@ title: "Error: Ensure that DNS is Correctly Configured on the Target Computer | 
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: "vs-ide-debug"
-ms.topic: "reference"
+ms.topic: "troubleshooting"
 f1_keywords: 
   - "vs.debug.error.callback_dns_failed"
 dev_langs: 
