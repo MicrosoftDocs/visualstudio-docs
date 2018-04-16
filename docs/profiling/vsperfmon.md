@@ -2,12 +2,9 @@
 title: "VSPerfMon | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "VSPerfMon tool"
   - "command line, tools"
@@ -17,10 +14,9 @@ helpviewer_keywords:
   - "performance tools, VSPerfMon tool"
   - "profilng tools,VSPerfCmd"
 ms.assetid: 37052afb-7a58-441f-bb17-f1587cc57068
-caps.latest.revision: 30
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

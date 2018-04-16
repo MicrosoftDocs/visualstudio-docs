@@ -2,18 +2,15 @@
 title: "Install on low bandwidth or unreliable network environments | Microsoft Docs"
 description: "Describes how the Visual Studio installer works in unreliable network conditions, and explains how to download install files before beginning the installation."
 ms.date: "01/17/2018"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology:
   - "vs-acquisition"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "installing Visual Studio"
   - "no internet connection"
 author: "TerryGLee"
 ms.author: "tglee"
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ---

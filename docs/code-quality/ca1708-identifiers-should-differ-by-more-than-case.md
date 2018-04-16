@@ -2,12 +2,9 @@
 title: "CA1708: Identifiers should differ by more than case | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IdentifiersShouldDifferByMoreThanCase"
   - "CA1708"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "CA1708"
   - "IdentifiersShouldDifferByMoreThanCase"
 ms.assetid: dac0f01d-dd21-484d-add1-c8cd2bf6969f
-caps.latest.revision: 21
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

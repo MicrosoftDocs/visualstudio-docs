@@ -2,21 +2,17 @@
 title: "IDebugCoreServer2::GetPort | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugCoreServer2::GetPort"
 helpviewer_keywords: 
   - "IDebugCoreServer2::GetPort"
 ms.assetid: 3f5ea4a8-6085-4600-980a-9e48f8b5be56
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

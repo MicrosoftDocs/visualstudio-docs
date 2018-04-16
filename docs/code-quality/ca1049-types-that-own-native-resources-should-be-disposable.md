@@ -2,12 +2,9 @@
 title: "CA1049: Types that own native resources should be disposable | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "CA1049"
   - "TypesThatOwnNativeResourcesShouldBeDisposable"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "TypesThatOwnNativeResourcesShouldBeDisposable"
   - "CA1049"
 ms.assetid: 084e587d-0e45-4092-b767-49eed30d6a35
-caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "cplusplus"
 ---

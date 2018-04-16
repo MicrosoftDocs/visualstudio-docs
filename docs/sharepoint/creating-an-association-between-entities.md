@@ -2,12 +2,9 @@
 title: "Creating an Association Between Entities | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.BDC.Association_Dialog"
 dev_langs: 
@@ -24,7 +21,7 @@ helpviewer_keywords:
   - "BDC [SharePoint development in Visual Studio], associate external content types"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

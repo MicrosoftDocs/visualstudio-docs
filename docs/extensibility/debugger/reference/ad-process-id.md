@@ -2,21 +2,17 @@
 title: "AD_PROCESS_ID | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "AD_PROCESS_ID"
 helpviewer_keywords: 
   - "AD_PROCESS_ID union"
 ms.assetid: 4cb40d12-2e92-4f09-83f4-689928bd65b3
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

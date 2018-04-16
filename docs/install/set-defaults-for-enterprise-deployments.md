@@ -2,12 +2,9 @@
 title: "Set defaults for enterprise deployments of Visual Studio | Microsoft Docs"
 description: "Domain policies and other configuration operations for enterprise deployment of Visual Studio."
 ms.date: "05/05/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology:
   - "vs-acquisition"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords:
   - "gpo"
   - "policy"
@@ -17,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 9B7B4608-7A3F-4FF4-BDCE-42D9F7CE6DBA
 author: "heaths"
 ms.author: "tglee"
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ---

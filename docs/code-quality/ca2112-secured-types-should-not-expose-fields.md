@@ -2,12 +2,9 @@
 title: "CA2112: Secured types should not expose fields | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "CA2112"
   - "SecuredTypesShouldNotExposeFields"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "SecuredTypesShouldNotExposeFields"
   - "CA2112"
 ms.assetid: 9eb13a78-3487-49f2-81d1-3c3866db132f
-caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

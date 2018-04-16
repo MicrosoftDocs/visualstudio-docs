@@ -2,22 +2,18 @@
 title: "-Deploy (devenv.exe) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Devenv, /deploy switch"
   - "deploy Devenv switch"
   - "deploying applications [Visual Studio], after build"
   - "/deploy Devenv switch"
 ms.assetid: e47c8723-df08-4645-aa2d-0c956e7ccca2
-caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

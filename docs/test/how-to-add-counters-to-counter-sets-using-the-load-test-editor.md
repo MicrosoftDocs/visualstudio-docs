@@ -1,7 +1,7 @@
 ---
 title: "Add Counters to Counter Sets for load testing in Visual Studio | Microsoft Docs"
 ms.date: "10/19/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "counters, counter sets"
   - "counter sets"
@@ -9,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: e17d0e71-f982-4fc1-a2df-a1065d37473d
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.technology: vs-ide-test
 ---
 # How to: Add Counters to Counter Sets Using the Load Test Editor

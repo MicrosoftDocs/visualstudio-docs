@@ -2,21 +2,17 @@
 title: "IEEVisualizerDataProvider::GetObjectForVisualizer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IEEVisualizerDataProvider::GetObjectForVisualizer"
 helpviewer_keywords: 
   - "IEEVisualizerDataProvider::GetObjectForVisualizer method"
 ms.assetid: bd5376fc-13b4-40b7-9a5d-7ba8289f1b24
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

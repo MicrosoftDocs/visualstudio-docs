@@ -1,18 +1,15 @@
 ---
-title: How to manage Python environments and interpreters in Visual Studio | Microsoft Docs
+title: How to manage Python environments and interpreters
 description: How to use the Python Environments window in Visual Studio to manage global and virtual environments, set up custom environments, installing Python interpreters, installing packages, setting search paths, and managing environments for Visual Studio projects.
 ms.custom: ""
-ms.date: 03/05/2018
-ms.reviewer: ""
-ms.suite: ""
+ms.date: 03/21/2018
 ms.technology: 
   - "devlang-python"
 ms.devlang: python
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 author: "kraigb"
 ms.author: "kraigb"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "python"
   - "data-science"
@@ -31,6 +28,8 @@ In Visual Studio on Windows, the [Python Environments](#managing-python-environm
 
 Also note that you cannot manage environments for Python code that is opened only as a folder using the **File > Open > Folder** command. Instead, [Create a Python project from existing code](quickstart-01-python-in-visual-studio-project-from-existing-code.md) to enjoy the environment features of Visual Studio.
 
+If you want to install packages in an environment, refer to the [Packages tab](python-environments-window-tab-reference.md#packages-tab).
+
 ## Types of environments
 
 ### Global environments
@@ -43,7 +42,7 @@ Global environments are available to all projects on the computer. In Visual Stu
 
 Because packages installed into a global environment are available to all projects that use that environment, conflicts may occur when two projects require incompatible packages or different versions of the same package. Virtual environments avoid such conflicts by using the interpreter and standard library from a global environment but maintaining their own package stores in isolated folders.
 
-In Visual Studio, you can create a virtual environment for a specific project, which is stored in a subfolder in the project (see [Creating virtual environments](selecting-a-python-environment-for-a-project.md#creating-a-virtual-environment). The project file also identifies the virtual environment. Visual Studio also records any packages that you install into that virtual environment in the project's `requirements.txt` file. If you then share the project and other developers open it on their computers, Visual Studio provides the option to recreate the virtual environment.
+In Visual Studio, you can create a virtual environment for a specific project, which is stored in a subfolder in the project. Visual Studio provides a command to generate a `requirements.txt` file from the virtual environment, making it easy to recreate the environment on other computers. For more information, see [Using virtual environments](selecting-a-python-environment-for-a-project.md#using-virtual-environments).
 
 ### Conda environments
 
@@ -83,7 +82,7 @@ Below the list of environments is a drop-down selector for the **Overview**, **P
 
 ### What if no environments appear?
 
-If no environments appear, it means Visual Studio failed to detect any Python installations in standard locations. For example, you may have installed Visual Studio 2017 but cleared all the interpreter options in the installer options for the Python workload. Similarly, you may have installed Visual Studio 2015 or earlier but did not install an interpreter manually (see [Selecting and installing Python interpreters](installing-python-interpreters.md)).
+If no environments appear, it means Visual Studio failed to detect any Python installations in standard locations. For example, you may have installed Visual Studio 2017 but cleared all the interpreter options in the installer options for the Python workload. Similarly, you may have installed Visual Studio 2015 or earlier but did not install an interpreter manually (see [Installing Python interpreters](installing-python-interpreters.md)).
 
 If you know you have a Python interpreter on your computer but Visual Studio (any version) did not detect it, then use the **+ Custom...** command to specify its location manually. See the next section, [Manually identifying an existing environment](#manually-identifying-an-existing-environment).
 
@@ -104,7 +103,7 @@ Use the following steps to identify an environment that's installed in a non-sta
 
 1. Enter or browse (using **...***) to the path of the interpreter in the **Prefix path** field.
 
-1. If Visual Studio detects an Python interpreter at that location (such as the path shown below for a conda environment), it enables the **Auto Detect** command. Selecting **Auto Detect* completes the remaining fields. You can also complete those fields manually.
+1. If Visual Studio detects a Python interpreter at that location (such as the path shown below for a conda environment), it enables the **Auto Detect** command. Selecting **Auto Detect* completes the remaining fields. You can also complete those fields manually.
 
     ![Enabling the Auto Detect command](media/environments-custom-2.png)
 

@@ -2,12 +2,9 @@
 title: "CA2201: Do not raise reserved exception types | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "DoNotRaiseReservedExceptionTypes"
   - "CA2201"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "CA2201"
   - "DoNotRaiseReservedExceptionTypes"
 ms.assetid: dd14ef5c-80e6-41a5-834e-eba8e2eae75e
-caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

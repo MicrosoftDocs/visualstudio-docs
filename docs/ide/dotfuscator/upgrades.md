@@ -4,7 +4,7 @@ ms.date: "2017-02-08"
 ms.devlang: "dotnet"
 ms.technology: 
   - "vs-ide-general"
-ms.topic: "article"
+ms.topic: "conceptual"
 keywords: Dotfuscator, Dotfuscator CE, PreEmptive, PreEmptive Solutions, PreEmptive Protection, protection, community edition, obfuscation, .NET, free, Visual Studio 2017, upgrade, command line
 helpviewer_keywords: 
   - "PreEmptive Protection Dotfuscator"
@@ -23,7 +23,7 @@ helpviewer_keywords:
 description: "Learn how to upgrade the free Dotfuscator Community Edition included in Visual Studio 2017."
 ms.assetid: c7c60904-27f9-4f1f-b79b-ddf65041b810
 author: "Joe-Sewell-PreEmptive"
-manager: ghogen
+manager: douge
 ---
 
 # Upgrade Dotfuscator Community Edition (CE)

@@ -6,7 +6,7 @@ helpviewer_keywords:
   - "full solution analysis"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.technology: vs-ide-code-analysis
 ms.workload:
   - "dotnet"

@@ -1,18 +1,15 @@
 ---
-title: Using a requirements.txt file to manage package requirements | Microsoft Docs
+title: Using a requirements.txt file to manage package requirements
 description: You can use a requirements.txt file to manage a project's dependencies. If you receive a project that contains a requirements.txt file, you can easily install those dependencies in one step.
 ms.custom: ""
 ms.date: 02/20/2018
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "devlang-python"
 ms.devlang: python
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 author: "kraigb"
 ms.author: "kraigb"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "python"
   - "data-science"

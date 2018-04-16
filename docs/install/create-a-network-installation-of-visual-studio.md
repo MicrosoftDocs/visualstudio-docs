@@ -2,20 +2,17 @@
 title: "Create a network-based installation of Visual Studio | Microsoft Docs"
 description: "Describes how to create a network install point for deploying Visual Studio within an enterprise"
 ms.date: "10/17/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-acquisition"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
+ms.topic: "conceptual"
+helpviewer_keywords:
   - "{{PLACEHOLDER}}"
   - "{{PLACEHOLDER}}"
 ms.assetid: 4CABFD20-962E-482C-8A76-E4012052F701
-author: "timsneath"
+author: "TerryGLee"
 ms.author: "tglee"
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
 

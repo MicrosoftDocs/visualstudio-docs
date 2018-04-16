@@ -3,12 +3,9 @@ title: "Troubleshooting network-related errors when you install or use Visual St
 description: ""
 ms.custom: ""
 ms.date: "02/12/2018"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology:
   - "vs-acquisition"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "troubleshooting"
 helpviewer_keywords:
   - "network installation, Visual Studio"
   - "administrator guide, Visual Studio"
@@ -18,7 +15,7 @@ helpviewer_keywords:
 ms.assetid:
 author: "TerryGLee"
 ms.author: "tglee"
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ---

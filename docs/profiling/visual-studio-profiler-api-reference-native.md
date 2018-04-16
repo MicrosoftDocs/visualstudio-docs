@@ -2,20 +2,16 @@
 title: "Visual Studio Profiler API Reference (Native) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "performance tools, API"
   - "Profiler, API"
 ms.assetid: a0c3be92-c263-4678-9fb9-bafead3bd5f5
-caps.latest.revision: 15
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "cplusplus"
 ---

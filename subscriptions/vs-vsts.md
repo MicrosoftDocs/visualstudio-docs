@@ -1,14 +1,14 @@
 ---
 title: VSTS benefits for Visual Studio subscribers | Microsoft Docs
-Author: evanwindom
-Ms.author: jaunger
-Manager: evelynp
-Ms.date: 3/15/2018
-Ms.topic: Get-Started-Article
-Description:  Understand how you can use Visual Studio Team Services (VSTS) as a Visual Studio subscriber.
-Ms.prod: vs-subscription
-Ms.technology: vs-subscriptions
-Searchscope: VS Subscription
+author: evanwindom
+ms.author: jaunger
+manager: evelynp
+ms.date: 03/15/2018
+ms.topic: Get-Started-Article
+description:  Understand how you can use Visual Studio Team Services (VSTS) as a Visual Studio subscriber.
+ms.prod: vs-subscription
+ms.technology: vs-subscriptions
+searchscope: VS Subscription
 ---
 # Visual Studio Team Services (VSTS) benefits for Visual Studio subscribers
 
@@ -22,12 +22,15 @@ we recognize this automatically.
 ## Eligibility
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
-| Visual Studio Enterprise (Standard, annual cloud, monthly cloud)   | VL, Azure, Retail, MPN, BizSpark, NFR<sup>1</sup>, FTE  | Basic, Test Manager, Package Management, Self-hosted CI/CD       |  Yes          |
-| Visual Studio Professional (Standard, annual cloud, monthly cloud) | VL, Azure, Retail                                       | Basic                                                            |  Yes          |
+| Visual Studio Enterprise (Standard, annual cloud, monthly cloud)   | VL, Azure, Retail,  selected NFR<sup>1</sup>, FTE  | Basic, Test Manager, Package Management, Self-hosted CI/CD       |  Yes          |
+| Visual Studio Professional (Standard, annual cloud, monthly cloud) | VL, Azure, Retail,                                        | Basic                                                            |  Yes          |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Basic, Test Manager                                              |  Yes          |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Basic, Test Manager                                              |  Yes          |
 
-<sup>1</sup>  *Includes:  Not for Resale (NFR), Microsoft Valued Partner (MVP), Region Director (RD), Visual Studio Industry Partner (VSIP)*
+<sup>1</sup>  *Includes:  Not for Resale (NFR), Microsoft Valued Partner (MVP), Region Director (RD), Visual Studio Industry Partner (VSIP),Microsoft Partner Network (Enterprise), BizSpark, MCT Software & Services Developer.  
+  Excludes: MCT Software & Services, Imagine.*
+
+
 
 Learn more about VSTS features:
 - [Basic](https://www.visualstudio.com/team-services/compare-features/)
@@ -37,7 +40,7 @@ Learn more about VSTS features:
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to you.
 If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
 
-## Support Resources
+## Support resources
 
 -  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://www.visualstudio.com/subscriptions/support/).
 -  Have a question about Visual Studio IDE, Visual Studio Team Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://www.visualstudio.com/support/).

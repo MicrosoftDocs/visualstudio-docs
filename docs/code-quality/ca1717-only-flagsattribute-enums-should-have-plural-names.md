@@ -2,12 +2,9 @@
 title: "CA1717: Only FlagsAttribute enums should have plural names | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "CA1717"
   - "OnlyFlagsEnumsShouldHavePluralNames"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "OnlyFlagsEnumsShouldHavePluralNames"
   - "CA1717"
 ms.assetid: a6855d8b-d78a-42c1-834e-61c31f5572ed
-caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

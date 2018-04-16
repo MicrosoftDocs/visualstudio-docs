@@ -2,10 +2,7 @@
 title: "Use DataRelation to create relationships between datasets | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vbData.Microsoft.VSDesigner.DataSource.DesignRelation"
   - "vbdata.Microsoft.VSDesigner.DataSource.DesignRelation"
@@ -14,10 +11,9 @@ helpviewer_keywords:
   - "datasets [Visual Basic], relationships"
   - "relationships, datasets"
 ms.assetid: cfe274f0-71fe-40f6-994e-7c7f6273c9ba
-caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.technology: "vs-data-tools"
 ms.workload: 
   - "data-storage"

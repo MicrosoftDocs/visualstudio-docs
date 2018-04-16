@@ -1,19 +1,18 @@
 ---
 title: Manage Visual Studio subscriptions offered through the Microsoft Partner Network (MPN) | Microsoft Docs
-Author: evanwindom
-Ms.author: jaunger
-Manager: evelynp
-Ms.date: 12/11/2017
-Ms.topic: Get-Started-Article
-Description: How to assign Visual Studio subscriptions to your end users, for MPN partners.
-Ms.prod: vs-subscription
-Ms.technology: vs-subscriptions
-Searchscope: VS Subscription
+author: evanwindom
+ms.author: jaunger
+manager: evelynp
+ms.date: 12/11/2017
+ms.topic: Get-Started-Article
+description: How to assign Visual Studio subscriptions to your end users, for MPN partners.
+ms.prod: vs-subscription
+ms.technology: vs-subscriptions
+searchscope: VS Subscription
 ---
 
-# Managing Visual Studio Subscriptions offered through the Microsoft Partner Network (MPN)
+# Managing Visual Studio subscriptions offered through the Microsoft Partner Network (MPN)
 
-## Overview
 Partners who earn a competency or who purchase the Action Pack in MPN are eligible to use Visual Studio subscriptions. These subscriptions are licensed per user, and are only valid when assigned to a specific named user who works for the partner company.
 
 See [Visual Studio subscriptions offered to partners in the Microsoft Partner Network (MPN)](program-mpn.md) for details.

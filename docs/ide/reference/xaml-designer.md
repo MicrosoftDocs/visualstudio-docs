@@ -2,18 +2,14 @@
 title: "XAML Designer options page | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: reference
 f1_keywords: 
   - "VS.ToolsOptionsPages.XAMLDesigner"
-caps.latest.revision: 1
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "uwp"
 ---

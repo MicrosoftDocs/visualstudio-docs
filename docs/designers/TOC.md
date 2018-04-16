@@ -20,6 +20,7 @@
 #### [Accessibility products and services (Blend)](accessibility-products-and-services-blend.md)
 ### [Keyboard shortcuts  for XAML Designer](keyboard-shortcuts-for-xaml-designer.md)
 ### [Debugging or Disabling Project Code in XAML Designer](debugging-or-disabling-project-code-in-xaml-designer.md)
+### [XAML Errors and Warnings](xaml-errors-warnings.md)
 ## [Create Modern Desktop Applications with Windows Presentation Foundation](create-modern-desktop-applications-with-windows-presentation-foundation.md)
 ### [Getting Started with WPF](getting-started-with-wpf.md)
 #### [Introduction to WPF](introduction-to-wpf.md)

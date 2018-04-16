@@ -2,12 +2,9 @@
 title: "CA2226: Operators should have symmetrical overloads | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "OperatorsShouldHaveSymmetricalOverloads"
   - "CA2226"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "OperatorsShouldHaveSymmetricalOverloads"
   - "CA2226"
 ms.assetid: d202401a-ea14-4559-b15e-0ea4f5b68789
-caps.latest.revision: 14
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

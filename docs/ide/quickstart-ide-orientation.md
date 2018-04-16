@@ -2,15 +2,12 @@
 title: "Tour of the Visual Studio IDE | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/15/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology:
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
 ms.topic: "quickstart"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ---

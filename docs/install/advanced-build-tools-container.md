@@ -2,16 +2,13 @@
 title: "Advanced Example for Containers | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/18/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology:
   - "vs-acquisition"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: "e03835db-a616-41e6-b339-92b41d0cfc70"
 author: "heaths"
 ms.author: "tglee"
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ---

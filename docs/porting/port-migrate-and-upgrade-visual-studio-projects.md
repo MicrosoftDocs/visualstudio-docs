@@ -2,12 +2,9 @@
 title: "Port, Migrate, and Upgrade Visual Studio Projects | Microsoft Docs"
 ms.custom:
 ms.date: 03/14/2018
-ms.reviewer:
-ms.suite:
 ms.technology:
   - "vs-ide-general"
-ms.tgt_pltfrm:
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "Win8ExpressDesktopBlock"
   - "w8trefactor"
@@ -20,7 +17,7 @@ helpviewer_keywords:
   - "projects, conversion"
 author: "kraigb"
 ms.author: "kraigb"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

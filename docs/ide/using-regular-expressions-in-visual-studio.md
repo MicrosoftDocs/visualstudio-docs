@@ -1,6 +1,6 @@
 ---
 title: "Using Regular Expressions in Visual Studio | Microsoft Docs"
-ms.custom: 03/26/2018
+ms.date: 03/26/2018
 ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "regular expressions"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ---

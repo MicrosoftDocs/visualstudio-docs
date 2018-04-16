@@ -2,12 +2,9 @@
 title: "VC++ Project Settings, Projects and Solutions, Options Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "08/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VS.ToolsOptionsPages.Projects.VCBuild"
 helpviewer_keywords: 
@@ -19,10 +16,9 @@ helpviewer_keywords:
   - "extensions, files built by C or C++ compiler"
   - "BuildLog.htm"
 ms.assetid: 56420efd-6a95-464e-b890-e2b38c48d66a
-caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "cplusplus"
 ---

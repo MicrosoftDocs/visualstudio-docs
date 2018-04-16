@@ -2,12 +2,9 @@
 title: "CA2107: Review deny and permit only usage | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "CA2107"
   - "ReviewDenyAndPermitOnlyUsage"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "ReviewDenyAndPermitOnlyUsage"
   - "CA2107"
 ms.assetid: 366f4a56-ae93-4882-81d0-bd0a55ebbc26
-caps.latest.revision: 19
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

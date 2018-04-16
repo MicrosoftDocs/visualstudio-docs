@@ -2,12 +2,9 @@
 title: "CA2120: Secure serialization constructors | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "CA2120"
   - "SecureSerializationConstructors"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "SecureSerializationConstructors"
   - "CA2120"
 ms.assetid: e9989da1-55a0-43f8-9aa9-da86afae3b41
-caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

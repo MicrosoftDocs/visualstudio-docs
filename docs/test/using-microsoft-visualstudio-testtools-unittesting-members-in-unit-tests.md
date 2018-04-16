@@ -2,9 +2,9 @@
 title: "Using Microsoft.VisualStudio.TestTools.UnitTesting Members in Unit Tests | Microsoft Docs"
 ms.date: 03/02/2018
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 author: gewarren

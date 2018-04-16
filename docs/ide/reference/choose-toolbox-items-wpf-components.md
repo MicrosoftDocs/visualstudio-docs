@@ -2,11 +2,8 @@
 title: "Choose Toolbox Items, WPF Components | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/21/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.chooseitems.wpfcomponents"
 helpviewer_keywords: 
@@ -14,7 +11,7 @@ helpviewer_keywords:
   - "Choose Toolbox Items dialog box, WPF Components tab"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

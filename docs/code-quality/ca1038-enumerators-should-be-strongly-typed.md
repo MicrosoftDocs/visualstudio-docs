@@ -2,12 +2,9 @@
 title: "CA1038: Enumerators should be strongly typed | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "EnumeratorsShouldBeStronglyTyped"
   - "CA1038"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "EnumeratorsShouldBeStronglyTyped"
   - "CA1038"
 ms.assetid: 8919f526-d487-42a4-87dc-2b2ee25260c4
-caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

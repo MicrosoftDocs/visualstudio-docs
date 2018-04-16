@@ -2,12 +2,9 @@
 title: "Neutral Resources Languages for Localization | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "localization [Visual Studio], resources"
   - "NeutralResourcesLanguageAttribute class"
@@ -16,10 +13,9 @@ helpviewer_keywords:
   - "culture, locating resources"
   - "neutral resources"
 ms.assetid: ef064995-3b84-4698-a708-9689b7723533
-caps.latest.revision: 8
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

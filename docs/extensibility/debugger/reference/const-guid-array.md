@@ -2,21 +2,17 @@
 title: "CONST_GUID_ARRAY | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "CONST_GUID_ARRAY"
 helpviewer_keywords: 
   - "CONST_GUID_ARRAY structure"
 ms.assetid: bd55e7d8-372c-4c3e-9eed-28f6b415a5db
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

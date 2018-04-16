@@ -2,14 +2,11 @@
 title: Use Visual Studio to create an ASP.NET Core web app in C# | Microsoft Docs
 ms.custom: ""
 ms.date: "10/10/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-acquisition
-ms.tgt_pltfrm: ""
 ms.topic: "quickstart"
 author: "TerryGLee"
 ms.author: "tglee"
-manager: ghogen
+manager: douge
 dev_langs:
   - CSharp
 ms.workload:

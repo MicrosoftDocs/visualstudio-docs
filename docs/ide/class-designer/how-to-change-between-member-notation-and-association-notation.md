@@ -2,22 +2,18 @@
 title: "How to: Change Between Member Notation and Association Notation (Class Designer) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "notation, member"
   - "association notation"
   - "member notation"
   - "notation, association"
 ms.assetid: 65881c5a-d251-4a36-ad0d-73d088436092
-caps.latest.revision: 21
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

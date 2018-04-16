@@ -2,12 +2,9 @@
 title: "How to: Configure Projects to Target Platforms | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "project settings [Visual Studio], targeting platforms"
   - "platforms, targeting specific CPUs"
@@ -18,10 +15,9 @@ helpviewer_keywords:
   - "CPUs, targeting specific"
   - "64-bit applications [Visual Studio]"
 ms.assetid: 845302fc-273d-4f81-820a-7296ce91bd76
-caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

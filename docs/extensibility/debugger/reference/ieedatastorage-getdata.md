@@ -2,21 +2,17 @@
 title: "IEEDataStorage::GetData | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IEEDataStorage::GetData"
 helpviewer_keywords: 
   - "IEEDataStorage::GetData"
 ms.assetid: 4d384039-73d4-40b4-ace6-a2474c546397
-caps.latest.revision: 7
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

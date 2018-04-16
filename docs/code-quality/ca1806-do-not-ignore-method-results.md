@@ -2,12 +2,9 @@
 title: "CA1806: Do not ignore method results | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "CA1806"
   - "DoNotIgnoreMethodResults"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "CA1806"
   - "DoNotIgnoreMethodResults"
 ms.assetid: fd805687-0817-481e-804e-b62cfb3b1076
-caps.latest.revision: 27
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ---
 # CA1806: Do not ignore method results
 |||  

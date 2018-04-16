@@ -2,12 +2,9 @@
 title: "CA2100: Review SQL queries for security vulnerabilities | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "Review SQL queries for security vulnerabilities"
   - "ReviewSqlQueriesForSecurityVulnerabilities"
@@ -16,10 +13,9 @@ helpviewer_keywords:
   - "CA2100"
   - "ReviewSqlQueriesForSecurityVulnerabilities"
 ms.assetid: 79670604-c02a-448d-9c0e-7ea0120bc5fe
-caps.latest.revision: 24
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -1,29 +1,25 @@
 ---
-title: "Help Viewer Administrator Guide | Microsoft Docs"
+title: "Help Viewer administrator guide | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/01/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-help-viewer"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 4340c69f-b96b-4932-bb82-38b16a5ab149
-caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
 # Help Viewer administrator guide
 The Help Viewer allows you to manage local Help installations for network environments with or without internet access. Local help content is configured on a per machine basis. By default, users must have administrator rights to update their local Help installation.  
   
-If your network environment allows clients to access the internet, you can use the Help Content Manager executable to deploy local Help content from the internet. For more information about HlpCtntMgr.exe command line syntax, see [Command-Line Arguments for the Help Content Manager](../ide/command-line-arguments-for-the-help-content-manager.md).
+If your network environment allows clients to access the internet, you can use the **Help Content Manager** executable to deploy local Help content from the internet. For more information about *HlpCtntMgr.exe* command line syntax, see [Command-line arguments for the Help Content Manager](../ide/command-line-arguments-for-the-help-content-manager.md).
 
 For information about creating content, creating an intranet service endpoint, and similar types of activities, see the [Help Viewer SDK](../extensibility/internals/microsoft-help-viewer-sdk.md).  
   
-If do not have internet access in your network environment, Help Viewer can deploy local Help content from the intranet or a network share. You can also disable Visual Studio IDE Help options by using [registry key overrides](../ide/help-content-manager-overrides.md) for functionality such as:
+If you do not have internet access in your network environment, Help Viewer can deploy local Help content from the intranet or a network share. You can also disable Visual Studio IDE Help options by using [registry key overrides](../ide/help-content-manager-overrides.md) for functionality such as:
 
 - online versus offline help
 
@@ -34,21 +30,22 @@ If do not have internet access in your network environment, Help Viewer can depl
 - managing content 
   
 ## Deploying local Help content from the internet  
-You can use Help Content Mananger (HlpCtntMgr.exe) to deploy local Help content from the internet to client computers. Use the following syntax:  
+You can use **Help Content Manager** (*HlpCtntMgr.exe*) to deploy local Help content from the internet to client computers. Use the following syntax:  
   
 ```
 \\%ProgramFiles(x86)%\Microsoft Help Viewer\v2.3\HlpCtntmgr.exe /operation \<*name*> /catalogname \<*catalog name*> /locale \<*locale*>
 ```
   
-For more information about HlpCtntMgr.exe command line syntax, see [Command-Line Arguments for the Help Content Manager](../ide/command-line-arguments-for-the-help-content-manager.md).  
+For more information about *HlpCtntMgr.exe* command line syntax, see [Command-line arguments for the Help Content Manager](../ide/command-line-arguments-for-the-help-content-manager.md).  
   
 Requirements:  
   
 -   Client computers must have access to the internet.  
   
 -   Users must have administrator rights to update, add, or remove the local Help content after it has been installed.  
-  
- Caveats:  
+
+
+Caveats:  
   
 -   The default source for Help will still be online.
   
@@ -61,7 +58,7 @@ The following example installs English content for Visual Studio to a client com
   
 2.  Type the following:  
   
-     C:\Program Files (x86)\Microsoft Help Viewer\v2.3\hlpctntmgr.exe /operation install /catalogname VisualStudio15 /locale en-us  
+     `C:\Program Files (x86)\Microsoft Help Viewer\v2.3\hlpctntmgr.exe /operation install /catalogname VisualStudio15 /locale en-us`  
   
 3.  Press **Enter**.  
   
@@ -75,7 +72,7 @@ Requirements:
 -   Users must have administrator rights to update, add, or remove the local Help content after it has been installed.  
   
     > [!TIP]
-    >  If users do not have administrator rights, it is recommended that you disable the Manage Content tab in the Help Viewer. For more information, see [Help Content Manager Overrides](../ide/help-content-manager-overrides.md).  
+    >  If users do not have administrator rights, it is recommended that you disable the **Manage Content** tab in the Help Viewer. For more information, see [Help Content Manager overrides](../ide/help-content-manager-overrides.md).  
   
 Caveats:
   
@@ -94,7 +91,7 @@ Before you can create the base content set, you must first uninstall all local V
   
 4.  Choose **Update** to uninstall.
   
-5.  Browse to %ProgramData%\Microsoft\HelpLibrary2\Catalogs\VisualStudio15 and verify that the folder only contains the file catalogType.xml.  
+5.  Browse to *%ProgramData%\Microsoft\HelpLibrary2\Catalogs\VisualStudio15* and verify that the folder only contains the file *catalogType.xml*.  
   
  Once you have removed all previously installed local Visual Studio Help content, you are ready to download the base content set.  
   
@@ -105,20 +102,21 @@ Before you can create the base content set, you must first uninstall all local V
 2.  Under **Recommended Documentation** or **Available Documentation**, navigate to the documentation sets you want to download and then choose **Add**.  
   
 3.  Choose **Update**.  
-  
- Next, you need to package the content so it can be deployed to client computers.  
+
+
+Next, you need to package the content so it can be deployed to client computers.  
   
 #### To package the content  
   
-1.  Create a folder to copy the content to for later deployment. For example: C:\VSHelp.  
+1.  Create a folder to copy the content to for later deployment. For example: *C:\VSHelp*.  
   
-2.  Open cmd.exe with Administrator permissions.  
+2.  Open *cmd.exe* with Administrator permissions.  
   
 3.  Navigate to the folder you created in step 1.  
   
 4.  Type the following:  
   
-     Xcopy %ProgramData%\Microsoft\HelpLibrary2 \<*foldername*>\ /y /e /k /o  
+     `Xcopy %ProgramData%\Microsoft\HelpLibrary2 \<*foldername*>\ /y /e /k /o ` 
   
      For example: `Xcopy %ProgramData%\Microsoft\HelpLibrary2 c:\VSHelp\ /y /e /k /o`  
   
@@ -128,9 +126,9 @@ Before you can create the base content set, you must first uninstall all local V
   
 1.  Create a network share and copy the help content to that location.  
   
-     For example, copy the content in C:\VSHelp to \\\myserver\VSHelp.  
+     For example, copy the content in *C:\VSHelp* to *\\\myserver\VSHelp*.  
   
-2.  Create a .bat file to contain the deployment script for the help content. Since the client could possibly have a read lock on any of the files being deleted as part of the push, you should have the client shut down prior to pushing updates. For example:  
+2.  Create a *.bat* file to contain the deployment script for the help content. Since the client could possibly have a read lock on any of the files being deleted as part of the push, you should have the client shut down prior to pushing updates. For example:  
   
     ```  
     REM - copy pre-ripped content to ProgramData  
@@ -138,10 +136,10 @@ Before you can create the base content set, you must first uninstall all local V
     if ERRORLEVEL 1 ECHO *** ERROR COPYING Help Library files to ProgramData (%ERRORLEVEL%)
     ```  
   
-3.  Run the .bat file on the local machines that you want to install the Help content on.  
+3.  Run the *.bat* file on the local machines that you want to install the Help content on.  
   
 ## See also
-[Command-Line Arguments for the Help Content Manager](../ide/command-line-arguments-for-the-help-content-manager.md)  
-[Help Content Manager Overrides](../ide/help-content-manager-overrides.md)  
+[Command-line arguments for the Help Content Manager](../ide/command-line-arguments-for-the-help-content-manager.md)  
+[Help Content Manager overrides](../ide/help-content-manager-overrides.md)  
 [Microsoft Help Viewer](../ide/microsoft-help-viewer.md)  
 [Help Viewer SDK](../extensibility/internals/microsoft-help-viewer-sdk.md)

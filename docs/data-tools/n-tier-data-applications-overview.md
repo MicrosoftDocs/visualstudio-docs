@@ -2,20 +2,16 @@
 title: "N-Tier Data Applications Overview | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "presentation tier"
   - "middle tier"
   - "data tier"
   - "n-tier applications, about n-tier applications"
 ms.assetid: 1020581d-eaaa-41a2-aca4-bf4c212895f6
-caps.latest.revision: 26
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.technology: "vs-data-tools"
 ms.workload: 
   - "data-storage"

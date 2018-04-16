@@ -1,21 +1,21 @@
 ---
 title: Visual Studio Build Tools 2017 workload and component IDs | Microsoft Docs
 description: "Use Visual Studio workload and component IDs to build classic Windows-based applications"
-keywords: 
+keywords:
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.date: 03/05/2018
-ms.topic: article
-helpviewer_keywords: 
+ms.topic: reference
+helpviewer_keywords:
   - "workload ID, Visual Studio"
   - "component ID, Visual Studio"
   - "install Visual Studio, administrator guide"
-ms.service: 
-ms.technology: 
+ms.service:
+ms.technology:
   - "vs-acquisition"
 ms.assetid: b99298df-0280-47fc-af73-44cd7a8ac553
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 
@@ -64,7 +64,7 @@ Microsoft.Net.Core.Component.SDK.1x | .NET Core 1.0 - 1.1 development tools | 15
 
 **ID:** Microsoft.VisualStudio.Workload.NodeBuildTools
 
-**Description:** Build scalable network applications using Node.js, an asynchronous event-driven JavaScript runtime. 
+**Description:** Build scalable network applications using Node.js, an asynchronous event-driven JavaScript runtime.
 
 ### Components included by this workload
 

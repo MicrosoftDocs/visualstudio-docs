@@ -2,12 +2,12 @@
 title: "Best Practices for Coded UI Tests in Visual Studio | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "coded UI tests, best practices"
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

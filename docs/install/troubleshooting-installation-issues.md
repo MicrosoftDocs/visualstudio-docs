@@ -2,20 +2,17 @@
 title: "Troubleshooting installation issues | Microsoft Docs"
 description: "Sometimes, things can go wrong. If your Visual Studio installation or upgrade fails, this page can help."
 ms.date: "11/21/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
+ms.technology:
   - "vs-acquisition"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
+ms.topic: "troubleshooting"
+helpviewer_keywords:
   - "{{PLACEHOLDER}}"
   - "{{PLACEHOLDER}}"
 ms.assetid: 556EDD3F-E365-43EE-B3DD-03AA4353F75B
-author: "timsneath"
+author: "TerryGLee"
 ms.author: "tglee"
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # Troubleshooting Visual Studio 2017 installation and upgrade issues

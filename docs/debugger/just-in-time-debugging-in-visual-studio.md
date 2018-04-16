@@ -2,20 +2,16 @@
 title: "How to: Respond to the Just-In-Time Debugger | Microsoft Docs"
 ms.custom: ""
 ms.date: "05/23/17"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "debugging [Visual Studio], Just-In-Time"
   - "Just-In-Time debugging"
 ms.assetid: 14972d5f-69bc-479b-9529-03b8787b118f
-caps.latest.revision: 48
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

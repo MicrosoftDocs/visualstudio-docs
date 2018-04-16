@@ -1,13 +1,13 @@
 # [Debugger documentation](index.md)
-# Overview
-## [Debugger feature tour](debugger-feature-tour.md)
+# [Overview](debugger-overview.md)
 # Quickstarts
+## [First look at the debugger](debugger-feature-tour.md)
 ## [Debug a managed app](quickstart-debug-with-managed.md)
 ## [Debug a native app](quickstart-debug-with-cplusplus.md)
 ## [Debug an ASP.NET app](quickstart-debug-aspnet.md)
 # Tutorials
 ## [Learn to debug using Visual Studio](getting-started-with-the-debugger.md)
-## [Running Python code in the debugger...](../python/vs-tutorial-01-04.md)
+## [Running Python code in the debugger...](../python/tutorial-working-with-python-in-visual-studio-step-04-debugging.md)
 ## [Debug a live Azure app](debug-live-azure-applications.md)
 ## [View snapshots using IntelliTrace step-back](how-to-use-intellitrace-step-back.md)
 # How-to guides
@@ -26,9 +26,6 @@
 ### [View string values in a visualizer](string-visualizer-dialog-box.md)
 ### [View disassembly code](how-to-use-the-disassembly-window.md)
 #### [How to: Page up or down in memory](how-to-page-up-or-down-in-memory.md)
-### [View the call stack](how-to-use-the-call-stack-window.md)
-#### [Mixed code and missing information in the Call Stack window](mixed-code-and-missing-information-in-the-call-stack-window.md)
-#### [How to: Step out of managed code when native frames are missing from the Call Stack window](how-to-step-out-of-managed-code-when-native-frames-are-missing-from-the-call-stack-window.md)
 ### [View register values](how-to-use-the-registers-window.md)
 #### [About the Registers window](debugging-basics-registers-window.md)
 #### [How to: Display and hide register groups](how-to-display-and-hide-register-groups.md)

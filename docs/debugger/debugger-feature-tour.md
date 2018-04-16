@@ -1,24 +1,21 @@
 ---
-title: "Debugger Feature Tour | Microsoft Docs"
-ms.custom: "H1HackMay2017"
-ms.date: "05/19/2017"
-ms.reviewer: ""
-ms.suite: ""
+title: "Debugger Feature Tour - Visual Studio | Microsoft Docs"
+description: Take a tour of the Visual Studio debugger
+ms.custom: "mvc"
+ms.date: "03/27/2018"
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "quickstart"
 helpviewer_keywords: 
   - "debugger"
 ms.assetid: c763d706-3213-494f-b4d2-990b6e1ec456
-caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Feature Tour of the Visual Studio Debugger
+# Quickstart: First look at the Visual Studio Debugger
 
 This topic introduces the features of the Visual Studio debugger. If you want to follow along by opening your own app in Visual Studio, you can do that, or you can follow along with a sample app using the [Beginner's Guide](../debugger/getting-started-with-the-debugger.md).
 

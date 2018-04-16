@@ -2,27 +2,23 @@
 title: "Code Snippet Functions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "code snippets [Visual Studio], functions"
   - "snippets [Visual Studio], functions"
   - "IntelliSense code snippets, functions"
 ms.assetid: c0a2bf21-8fa5-4457-9281-f599beb53e7d
-caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Code Snippet functions
+# Code snippet functions
 
-There are three functions available to use with C# code snippets. Functions are specified in the [Function](../ide/code-snippets-schema-reference.md#function) element of the code snippet. For information on creating code snippets, see [Code Snippets](../ide/code-snippets.md).
+There are three functions available to use with C# code snippets. Functions are specified in the [Function](../ide/code-snippets-schema-reference.md#function) element of the code snippet. For information on creating code snippets, see [Code snippets](../ide/code-snippets.md).
 
 ## Functions
 
@@ -158,5 +154,5 @@ This example shows how to use the `SimpleTypeName` function. When this snippet i
 
 ## See also
 
-[Function Element](../ide/code-snippets-schema-reference.md#function)  
-[Code Snippets Schema Reference](../ide/code-snippets-schema-reference.md)
+[Function element](../ide/code-snippets-schema-reference.md#function)  
+[Code snippets schema reference](../ide/code-snippets-schema-reference.md)

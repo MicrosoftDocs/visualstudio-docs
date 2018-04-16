@@ -2,17 +2,14 @@
 title: "Talk to Us | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/19/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "product support [Visual Studio]"
   - "Help [Visual Studio], product support"
 ms.assetid: e0846d4d-2ce1-48e3-b219-674ff070bf4e
 author: "TerryGLee"
 ms.author: "tglee"
-manager: ghogen
+manager: douge
 ms.technology:
   - "vs-acquisition"
 ms.workload:

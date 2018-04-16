@@ -3,12 +3,9 @@ title: "Remove Visual Studio 2017 | Microsoft Docs"
 description: "Learn how to remove Visual Studio, step-by-step."
 ms.custom: ""
 ms.date: "09/12/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology:
   - "vs-acquisition"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords:
   - "uninstall"
   - "uninstall Visual Studio"
@@ -21,7 +18,7 @@ f1_keywords:
 ms.assetid: 9c81a777-9c95-4934-b517-c60c6dc78799
 author: "heaths"
 ms.author: "tglee"
-manager: "ghogen"
+manager: douge
 ms.workload:
   - "multiple"
 ---

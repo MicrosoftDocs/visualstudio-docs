@@ -2,16 +2,13 @@
 title: "How to: unlock Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: 07/20/2017
-ms.reviewer: ""
-ms.suite: ""
 ms.technology:
   - "vs-acquisition"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: ffb580a1-8b5d-48f5-b811-87f8036f50ea
 author: "TerryGLee"
 ms.author: "tglee"
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ---

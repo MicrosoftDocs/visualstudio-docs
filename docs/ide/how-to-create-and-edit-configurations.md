@@ -2,12 +2,9 @@
 title: "How to: Create and Edit Configurations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/21/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "solution build configurations, editing"
   - "build configurations, creating"
@@ -19,10 +16,9 @@ helpviewer_keywords:
   - "project build configurations, creating"
   - "project build configurations, editing"
 ms.assetid: 19be121c-148e-4ece-bbfc-d20b08cfc3f7
-caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

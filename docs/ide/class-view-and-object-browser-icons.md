@@ -2,12 +2,9 @@
 title: "Class View and Object Browser Icons | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "icons, in Object Browser"
   - "signal icons"
@@ -19,11 +16,11 @@ helpviewer_keywords:
   - "Object Browser, icons in Class View"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Class View and Object Browser Icons
+# Class View and Object Browser icons
 
 **Class View** and the **Object Browser** display icons that represent code entities, for example, namespaces, classes, functions, and variables. The following table illustrates and describes the icons.
 
@@ -43,7 +40,7 @@ ms.workload:
 |![Map Symbol](../ide/media/vxmap_icon.gif "vxMap_Icon")|Map|![Error Exclamation Point Symbol](../ide/media/vxerror_icon.gif "vxError_Icon")|Unknown|  
 |![Type Forwarding Symbol](../ide/media/ob_type_forward.gif "ob_type_forward")|Type Forwarding|||  
 
-## Signal Icons
+## Signal icons
 
 The following signal icons apply to all the previous icons and indicate their accessibility.
 
@@ -61,4 +58,4 @@ The following signal icons apply to all the previous icons and indicate their ac
 
 ## See also
 
-[Viewing the Structure of Code](../ide/viewing-the-structure-of-code.md)
+[Viewing the structure of code](../ide/viewing-the-structure-of-code.md)

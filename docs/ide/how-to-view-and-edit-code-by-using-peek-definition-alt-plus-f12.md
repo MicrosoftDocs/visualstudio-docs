@@ -2,14 +2,11 @@
 title: "Using Peek Definition in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/10/2018"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

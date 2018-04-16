@@ -2,21 +2,17 @@
 title: "IDebugObject2::IsEncOutdated | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugObject2::IsEncOutdated"
 helpviewer_keywords: 
   - "IDebugObject2::IsEncOutdated method"
 ms.assetid: d3a8c02d-895b-478c-9957-d663130f308e
-caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

@@ -2,12 +2,9 @@
 title: "Disable or move the package cache | Microsoft Docs"
 description: "Disable, enable, or move the package cache for Visual Studio deployments."
 ms.date: "04/14/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology:
   - "vs-acquisition"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords:
   - "cache"
   - "nocache"
@@ -17,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 2429993A-3F0E-41C5-9562-FEA6AE994440
 author: "heaths"
 ms.author: "tglee"
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ---

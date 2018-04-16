@@ -2,16 +2,13 @@
 title: "Command-line parameter examples for Visual Studio installation | Microsoft Docs"
 ms.custom: ""
 ms.date: "05/06/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology:
   - "vs-acquisition"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 837F31AA-F121-46e9-9996-F8BCE768E579
-author: "timsneath"
+author: "tglee"
 ms.author: "tglee"
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ---

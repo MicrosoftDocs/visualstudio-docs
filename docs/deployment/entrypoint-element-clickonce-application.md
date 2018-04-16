@@ -2,12 +2,9 @@
 title: "&lt;entryPoint&gt; Element (ClickOnce Application) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "urn:schemas-microsoft-com:asm.v2#commandLine"
   - "urn:schemas-microsoft-com:asm.v2#entryPoint"
@@ -19,7 +16,6 @@ helpviewer_keywords:
   - "<entryPoint> element [ClickOnce application manifest]"
   - "manifests [ClickOnce], entryPoint element"
 ms.assetid: 10ad3083-10c1-4189-a870-9bba2eab244f
-caps.latest.revision: 33
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"

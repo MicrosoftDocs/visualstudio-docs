@@ -2,7 +2,7 @@
 title: "Support Statement for Visual Basic 6.0 | Microsoft Docs"
 ms.date: "08/28/2017"
 ms.technology: devlang-vb
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
 helpviewer_keywords: 

@@ -2,12 +2,9 @@
 title: "Refactoring Classes and Types (Class Designer) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.ClassDesigner.OverrideMembersDialog"
 helpviewer_keywords: 
@@ -20,10 +17,9 @@ helpviewer_keywords:
   - "Class Designer [Visual Studio], refactoring classes"
   - "refactoring, classes"
 ms.assetid: dcf07bb4-fa3b-4224-9dec-566fd924a8ce
-caps.latest.revision: 26
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

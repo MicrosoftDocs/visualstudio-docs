@@ -2,22 +2,18 @@
 title: "Open Solution Command | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "file.opensolution"
 helpviewer_keywords: 
   - "Open Solution command"
   - "File.OpenSolution command"
 ms.assetid: 61de76c8-69d7-4cdb-b605-e132f45d05d9
-caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

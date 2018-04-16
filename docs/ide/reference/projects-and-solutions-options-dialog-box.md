@@ -2,12 +2,9 @@
 title: "Projects and Solutions, Options Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: 07/14/2017
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VS.ToolsOptionsPages.Projects.General"
   - "VS.ToolsOptionsPages.Projects.Locations"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "Projects and Solutions Options dialog box"
   - "Options dialog box, Projects and Solutions"
 ms.assetid: 2801f24e-a138-488a-ae3c-e1f99a678ac0
-caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

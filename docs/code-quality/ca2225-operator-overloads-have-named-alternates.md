@@ -2,12 +2,9 @@
 title: "CA2225: Operator overloads have named alternates | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "OperatorOverloadsHaveNamedAlternates"
   - "CA2225"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "OperatorOverloadsHaveNamedAlternates"
   - "CA2225"
 ms.assetid: af8f7ab1-63ad-4861-afb9-b7a7a2be15e1
-caps.latest.revision: 20
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

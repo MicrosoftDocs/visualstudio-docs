@@ -3,16 +3,13 @@ title: "Create a Windows Forms app in Visual Studio with Visual Basic | Microsof
 description: "Learn how to create a Windows Forms app in Visual Studio with Visual Basic, step-by-step."
 ms.custom: ""
 ms.date: "12/04/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology:
   - "vs-acquisition"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.devlang: "vb"
 author: "TerryGLee"
 ms.author: "tglee"
-manager: ghogen
+manager: douge
 dev_langs:
   - vb
 ms.workload:
@@ -45,31 +42,31 @@ After you select your Visual Basic project template and name your file, Visual S
 
      ![Click the Toolbox to open the Toolbox window](../ide/media/vb-toolbox-toolwindow.png)  
 
-     (If you don't see the Toolbox fly-out option, you can open it from the menu bar. To do so, click **View** > **Toolbox**. Or, press **Ctrl**+**Alt**+**X**.)
+     (If you don't see the **Toolbox** fly-out option, you can open it from the menu bar. To do so, click **View** > **Toolbox**. Or, press **Ctrl**+**Alt**+**X**.)
 
-2. Click the **Pin** icon to dock the Toolbox window.
+2. Click the **Pin** icon to dock the **Toolbox** window.
 
      ![Click the Pin icon to pin the Toolbox window to the IDE](../ide/media/vb-pin-the-toolbox-window.png)  
 3. Click the **Button** control and then drag it onto the form.
 
      ![Add a button to the form](../ide/media/vb-add-a-button-to-form1.png)
 
-4. In the **Appearance** section of the **Properties** window, type "Click this", and then press **Enter**.
+4. In the **Appearance** section of the **Properties** window, type `Click this`, and then press **Enter**.
 
      ![Add text to the button on the form](../ide/media/vb-button-control-text.png)  
 
-     (If you don't see the Properties window, you can open it from the menu bar. To do so, click **View** > **Properties Window**. Or, press **F4**.)
+     (If you don't see the **Properties** window, you can open it from the menu bar. To do so, click **View** > **Properties Window**. Or, press **F4**.)
 
-5. In the **Design** section of the **Properties** window, change the name from "Button1" to "btnClickThis", and then press **Enter**.
+5. In the **Design** section of the **Properties** window, change the name from **Button1** to `btnClickThis`, and then press **Enter**.
 
      ![Add a function to the button on the form](../ide/media/vb-button-control-function.png)
 
 ### Add a label to the form
 Now that we've added a button control to create an action, let's add a label control to send text to.
 
-1. Select the **Label** control from the Toolbox window, and then drag it onto the form and drop it beneath the **Click this** button.
+1. Select the **Label** control from the **Toolbox** window, and then drag it onto the form and drop it beneath the **Click this** button.
 
-2. In the **Design** section of the **Properties** window, change the name from "Label1" to "lblHelloWorld", and then press **Enter**.
+2. In the **Design** section of the **Properties** window, change the name from **Label1** to `lblHelloWorld`, and then press **Enter**.
 
 ### Add code to the form
 
@@ -77,7 +74,7 @@ Now that we've added a button control to create an action, let's add a label con
 
       (Alternatively, you can expand **Form1.vb** in the **Solution Explorer** window, and then click **Form1**.)
 
-2. In the **Form1.vb** window, between the **Private Sub** line and the **End Sub** line, type or paste  `lblHelloWorld.Text = "Hello World!"`.
+2. In the **Form1.vb** window, between the **Private Sub** line and the **End Sub** line, type or paste `lblHelloWorld.Text = "Hello World!"`.
 
      ![Add code to the form form](../ide/media/vb-add-code-to-the-form.png)
 
@@ -86,9 +83,9 @@ Now that we've added a button control to create an action, let's add a label con
 
      ![Click Start to debug and run the app](../ide/media/vb-click-start-hello-world.png)
 
-   Several things will happen. In the Visual Studio IDE, the Diagnostics Tools window will open, and an Output window will open, too. But outside of the IDE, a Form1 dialog box appears. It will include your **Click this** button and text that says "Label1".
+   Several things will happen. In the Visual Studio IDE, the **Diagnostics Tools** window will open, and an **Output** window will open, too. But outside of the IDE, a **Form1** dialog box appears. It will include your **Click this** button and text that says **Label1**.
 
-2. Click the **Click this** button in the **Form1** dialog box. Notice that the "Label1" text changes to "Hello World!".
+2. Click the **Click this** button in the **Form1** dialog box. Notice that the **Label1** text changes to **Hello World!**.
 
     ![A Form1 dialog box that includes Label1 text ](../ide/media/vb-form1-dialog-hello-world.png)
 

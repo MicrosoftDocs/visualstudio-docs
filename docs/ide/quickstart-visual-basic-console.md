@@ -2,16 +2,13 @@
 title: "Quickstart: Create your first console app in Visual Studio with Visual Basic | Microsoft Docs"
 ms.custom: ""
 ms.date: "12/10/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology:
   - "vs-acquisition"
-ms.tgt_pltfrm: ""
 ms.topic: "quickstart"
 ms.devlang: "vb"
 author: "TerryGLee"
 ms.author: "tglee"
-manager: ghogen
+manager: douge
 dev_langs:
   - vb
 ms.workload:

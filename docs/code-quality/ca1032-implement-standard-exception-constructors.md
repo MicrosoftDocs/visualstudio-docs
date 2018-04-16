@@ -2,12 +2,9 @@
 title: "CA1032: Implement standard exception constructors | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "CA1032"
   - "ImplementStandardExceptionConstructors"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "CA1032"
   - "ImplementStandardExceptionConstructors"
 ms.assetid: a8623c56-273a-4c95-8d83-95911a042be7
-caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

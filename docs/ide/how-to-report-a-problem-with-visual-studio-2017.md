@@ -2,14 +2,11 @@
 title: "How to Report a Problem with Visual Studio 2017 | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/11/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: bee01179-cde5-4419-9095-190ee0ba5902
 author: "TerryGLee"
 ms.author: "tglee"
-manager: ghogen
+manager: douge
 ms.technology: "vs-acquisition"
 ms.workload:
   - "multiple"

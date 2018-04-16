@@ -2,12 +2,9 @@
 title: "Annotating Locking Behavior | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "_Releases_nonreentrant_lock_"
   - "_Lock_kind_mutex_"
@@ -33,10 +30,9 @@ f1_keywords:
   - "_Lock_level_order_"
   - "_Lock_kind_event_"
 ms.assetid: 07769c25-9b97-4ab7-b175-d1c450308d7a
-caps.latest.revision: 9
 author: mikeblome
 ms.author: mblome
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
