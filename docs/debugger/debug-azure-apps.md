@@ -9,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 3d434de3-ee5f-419d-9a94-ac4ac02d635b
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "azure"
 ---

@@ -13,7 +13,7 @@ dev_langs:
 ms.assetid: 51893967-98c8-4141-ba40-03646f221760
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---

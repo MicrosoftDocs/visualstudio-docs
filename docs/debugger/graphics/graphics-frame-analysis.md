@@ -9,7 +9,7 @@ f1_keywords:
   - "vs.graphics.frameanalysis"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: "douge"
 ms.workload: 
   - "multiple"
 ---
