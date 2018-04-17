@@ -1,8 +1,8 @@
 ---
 title: "How to: Create a Grayscale Texture Shader"
-ms.date: "11/04/2016"
+ms.date: 11/04/2016
 ms.technology: vs-ide-designers
-ms.topic: "conceptual"
+ms.topic: conceptual
 ms.assetid: 79181d81-44af-445e-9a18-03483dd70260
 author: gewarren
 ms.author: gewarren

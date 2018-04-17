@@ -1,6 +1,6 @@
 ---
 title: Constant Nodes
-ms.date: "11/04/2016"
+ms.date: 11/04/2016
 ms.technology: vs-ide-designers
 ms.topic: reference
 ms.assetid: 2c798a50-a2d7-459b-9879-ad4ad8290c9b

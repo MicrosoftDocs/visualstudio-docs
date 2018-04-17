@@ -1,8 +1,8 @@
 ---
 title: How to create and apply a resource
-ms.date: "11/04/2016"
+ms.date: 11/04/2016
 ms.technology: vs-ide-designers
-ms.topic: "conceptual"
+ms.topic: conceptual
 f1_keywords:
   - "VS.XamlDesigner.CreateResource"
   - "VS.XamlDesigner.EditResource"

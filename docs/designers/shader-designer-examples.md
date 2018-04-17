@@ -1,8 +1,8 @@
 ---
 title: Shader Designer Examples
-ms.date: "11/04/2016"
+ms.date: 11/04/2016
 ms.technology: vs-ide-designers
-ms.topic: "conceptual"
+ms.topic: conceptual
 ms.assetid: f12f5dee-63ab-4376-9952-7f87f269e9c4
 author: gewarren
 ms.author: gewarren

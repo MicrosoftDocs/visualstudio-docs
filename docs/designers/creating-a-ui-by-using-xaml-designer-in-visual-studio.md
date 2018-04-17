@@ -1,8 +1,8 @@
 ---
 title: Creating a UI by using XAML Designer in Visual Studio
-ms.date: "07/17/2017"
+ms.date: 07/17/2017
 ms.technology: vs-ide-designers
-ms.topic: "conceptual"
+ms.topic: conceptual
 f1_keywords:
   - "VS.XamlDesigner"
   - "VS.DevicePanel"

@@ -1,8 +1,8 @@
 ---
 title: "How to: Create and Modify MIP Levels"
-ms.date: "11/04/2016"
+ms.date: 11/04/2016
 ms.technology: vs-ide-designers
-ms.topic: "conceptual"
+ms.topic: conceptual
 ms.assetid: f64d4369-2307-4175-a39a-2e45506f7fa1
 author: gewarren
 ms.author: gewarren

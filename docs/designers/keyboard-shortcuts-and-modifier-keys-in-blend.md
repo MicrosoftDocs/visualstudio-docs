@@ -1,8 +1,8 @@
 ---
 title: Keyboard shortcuts and modifier keys in Blend
-ms.date: "11/04/2016"
+ms.date: 11/04/2016
 ms.technology: vs-ide-designers
-ms.topic: "conceptual"
+ms.topic: conceptual
 ms.assetid: f9ec9724-7571-4777-8ff8-d9be012eae8f
 author: gewarren
 ms.author: gewarren

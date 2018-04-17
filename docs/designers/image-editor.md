@@ -1,8 +1,8 @@
 ---
 title: Image Editor
-ms.date: "11/04/2016"
+ms.date: 11/04/2016
 ms.technology: vs-ide-designers
-ms.topic: "conceptual"
+ms.topic: conceptual
 f1_keywords:
   - "vs.graphics.designer.imageeditor"
   - "vs.graphics.imageeditor"
