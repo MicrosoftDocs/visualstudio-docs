@@ -2,8 +2,7 @@
 title: "Product and Package Schema Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-deployment"
+ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 f1_keywords: 
   - "MSBuild.GenerateBootstrapper.CircularIncludes"
@@ -23,9 +22,9 @@ helpviewer_keywords:
   - "package files [ClickOnce]"
   - "Windows Installer, bootstrapper elements"
 ms.assetid: 5a74878f-b896-4cca-b968-98d00fe78fb0
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

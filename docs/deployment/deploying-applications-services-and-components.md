@@ -3,8 +3,7 @@ title: "Deployment Overview - Visual Studio | Microsoft Docs"
 description: "Learn about your options for deploying apps from Visual Studio."
 ms.custom: "mvc"
 ms.date: 11/26/2017
-ms.technology: 
-  - "vs-ide-deployment"
+ms.technology: vs-ide-deployment
 ms.topic: "quickstart"
 dev_langs: 
   - "FSharp"
@@ -20,8 +19,8 @@ helpviewer_keywords:
   - "deploying applications [Visual Studio], about deploying applications"
   - "components [.NET Framework], deploying"
 ms.assetid: 63fcdd5b-2e54-4210-9038-65bc23167725
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: douge
 ms.workload: 
   - "multiple"

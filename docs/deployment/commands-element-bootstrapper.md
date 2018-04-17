@@ -2,8 +2,7 @@
 title: "&lt;Commands&gt; Element (Bootstrapper) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-deployment"
+ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs: 
   - "FSharp"
@@ -13,9 +12,9 @@ dev_langs:
 helpviewer_keywords: 
   - "<Commands> element [bootstrapper]"
 ms.assetid: e61d5787-fe1f-4ebf-b0cf-0d7909be7ffb
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -2,8 +2,7 @@
 title: "ClickOnce Application Manifest | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-deployment"
+ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -13,9 +12,9 @@ helpviewer_keywords:
   - "application manifests [ClickOnce]"
   - "ClickOnce, application manifests"
 ms.assetid: 29570cec-4e53-4660-a850-abc4fa150243
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

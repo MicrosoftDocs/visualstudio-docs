@@ -2,8 +2,7 @@
 title: "How to: Specify a Link for Technical Support | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-deployment"
+ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -18,9 +17,9 @@ helpviewer_keywords:
   - "customer support, ClickOnce applications"
   - "URLs, ClickOnce applications"
 ms.assetid: 500aebee-545e-4831-a78b-b8671a008015
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

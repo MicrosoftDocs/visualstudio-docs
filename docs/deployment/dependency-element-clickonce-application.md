@@ -2,8 +2,7 @@
 title: "&lt;dependency&gt; Element (ClickOnce Application) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-deployment"
+ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 f1_keywords: 
   - "urn:schemas-microsoft-com:asm.v2#osVersionInfo"
@@ -24,9 +23,9 @@ helpviewer_keywords:
   - "manifests [ClickOnce], dependency element"
   - "<dependency> element [ClickOnce application manifest]"
 ms.assetid: 09d6a1e0-60f8-4fbd-843b-8e49ee3115a3
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---
