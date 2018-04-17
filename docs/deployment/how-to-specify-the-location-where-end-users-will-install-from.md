@@ -2,8 +2,7 @@
 title: "How to: Specify the Location Where End Users Will Install From | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-deployment"
+ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -15,9 +14,9 @@ helpviewer_keywords:
   - "installation, specifying installation an URL"
   - "Installation URL property"
 ms.assetid: 04a804bf-ed55-4a7a-a1e6-f63ed99c0276
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

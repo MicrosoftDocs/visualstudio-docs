@@ -2,8 +2,7 @@
 title: "Analyze CPU usage data (managed code) | Microsoft Docs"
 ms.custom: ""
 ms.date: "12/05/2017"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "quickstart"
 helpviewer_keywords: 
   - "Profiling Tools, quick start"

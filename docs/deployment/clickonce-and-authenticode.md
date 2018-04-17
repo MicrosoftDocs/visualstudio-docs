@@ -2,8 +2,7 @@
 title: "ClickOnce and Authenticode | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-deployment"
+ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -16,9 +15,9 @@ helpviewer_keywords:
   - "ClickOnce deployment, certificates"
   - "ClickOnce deployment, security"
 ms.assetid: ab5b6712-f32a-4e33-842f-e88ab4818ccf
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---
