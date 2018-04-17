@@ -1,20 +1,18 @@
 ---
-title: "Designing User Interfaces | Microsoft Docs"
-ms.custom: ""
+title: Designing User Interfaces
 ms.date: "07/17/2017"
-ms.technology: 
-  - "vs-ide-designers"
+ms.technology: vs-ide-designers
 ms.topic: "conceptual"
 ms.assetid: 880da508-7573-4434-b3a0-d48cf003c0a9
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Designing User Interfaces
 You can create and design the user interface for your application by using a variety of tools in Visual Studio.
-  
+
 |To learn more about|See|
 |-------------------------|---------|
 | The features of the XAML designers in Visual Studio and Blend for Visual Studio | [Designing XAML in Visual Studio and Blend for Visual Studio](../designers/designing-xaml-in-visual-studio.md) |

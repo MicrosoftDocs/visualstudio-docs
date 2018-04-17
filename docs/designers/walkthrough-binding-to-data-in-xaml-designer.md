@@ -1,18 +1,17 @@
 ---
-title: "Walkthrough: Binding to data in XAML Designer | Microsoft Docs"
-ms.custom: ""
+title: "Walkthrough: Binding to data in XAML Designer"
 ms.date: "11/04/2016"
 ms.technology: vs-ide-designers
 ms.topic: "conceptual"
-f1_keywords: 
+f1_keywords:
   - "VS.XamlDesigner.DataBinding"
 dev_langs:
  - CSharp
  - VB
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "uwp"
 ---
 # Walkthrough: Binding to data in XAML Designer
@@ -95,5 +94,5 @@ In XAML Designer, you can set data binding properties by using the artboard and 
 
 ## See also
 
-[Creating a UI by using XAML Designer](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md)  
+[Creating a UI by using XAML Designer](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md)
 [Add Value Converter dialog box](https://msdn.microsoft.com/c5f3d110-a541-4b55-8bca-928f77778af8)

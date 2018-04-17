@@ -1,9 +1,7 @@
 ---
-title: "Using 3D Assets in Your Game or App | Microsoft Docs"
-ms.custom: ""
+title: Using 3D Assets in Your Game or App
 ms.date: "11/04/2016"
-ms.technology:
-  - "vs-ide-designers"
+ms.technology: vs-ide-designers
 ms.topic: "conceptual"
 f1_keywords:
   - "VC.Project.ImageContentTask.ContentOutput"
@@ -13,8 +11,8 @@ f1_keywords:
   - "VC.Project.ShaderGraphContentTask.ContentOutput"
   - "VC.Project.ImageContentTask.GenerateMips"
 ms.assetid: ea587909-e434-46a8-abf8-9b3e95a58b4f
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"

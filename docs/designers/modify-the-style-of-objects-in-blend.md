@@ -3,8 +3,8 @@ title: Modify the style of objects in Blend
 ms.date: "11/04/2016"
 ms.technology: vs-ide-designers
 ms.topic: conceptual
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"

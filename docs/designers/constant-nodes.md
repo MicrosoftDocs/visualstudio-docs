@@ -1,13 +1,11 @@
 ---
-title: "Constant Nodes | Microsoft Docs"
-ms.custom: ""
+title: Constant Nodes
 ms.date: "11/04/2016"
-ms.technology:
-  - "vs-ide-designers"
+ms.technology: vs-ide-designers
 ms.topic: "conceptual"
 ms.assetid: 2c798a50-a2d7-459b-9879-ad4ad8290c9b
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
