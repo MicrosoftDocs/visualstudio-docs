@@ -691,6 +691,26 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/designers/create-modern-desktop-applications-with-windows-presentation-foundation.md",
+            "redirect_url": "/visualstudio/designers/getting-started-with-wpf",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/designers/walkthrough-my-first-wpf-desktop-application2.md",
+            "redirect_url": "/dotnet/framework/wpf/getting-started/walkthrough-my-first-wpf-desktop-application",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/designers/wpf-community-resources.md",
+            "redirect_url": "/dotnet/framework/wpf/getting-started/community-feedback",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/designers/wpf-data-binding-with-linq-to-xml.md",
+            "redirect_url": "/visualstudio/designers/wpf-data-binding-with-linq-to-xml-overview",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/designers/walkthrough-create-a-wpf-desktop-application-connected-to-an-azure-mobile-service.md",
             "redirect_url": "/azure/app-service-mobile/app-service-mobile-windows-store-dotnet-get-started",
             "redirect_document_id": false
@@ -2251,6 +2271,6 @@
             "redirect_url": "/visualstudio/subscriptions/subscription-management-info",
             "redirect_document_id": false
         }
-        
+
     ]
 }
