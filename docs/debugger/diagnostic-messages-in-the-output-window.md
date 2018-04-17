@@ -2,8 +2,7 @@
 title: "Send Diagnostic Messages to the Output Window | Microsoft Docs"
 ms.custom: ""
 ms.date: "04/25/2017"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"

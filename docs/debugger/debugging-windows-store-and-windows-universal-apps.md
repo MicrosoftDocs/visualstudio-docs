@@ -2,8 +2,7 @@
 title: "Debug UWP apps - Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/17/2017"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
