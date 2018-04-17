@@ -3,7 +3,7 @@ title: "WPF MSBuild Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "build support [WPF]"
   - "MSBuild [WPF]"
 ms.assetid: 94b12890-365d-479a-b239-71109fbcb462
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

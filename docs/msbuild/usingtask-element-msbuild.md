@@ -3,7 +3,7 @@ title: "UsingTask Element (MSBuild) | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/13/2017"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "reference"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#UsingTask"
 dev_langs: 
@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "UsingTask element [MSBuild]"
   - "<UsingTask> element [MSBuild]"
 ms.assetid: 20247902-9446-4a1f-8253-5c7a17e4fe43
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

@@ -3,7 +3,7 @@ title: "GetWinFXPath Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "GetWinFXPath task [WPF MSBuild]"
   - "obtaining the path to the current .NET Framework runtime [WPF MSBuild]"
 ms.assetid: b1dfb467-f3d3-47f3-83ef-af7b0e33a772
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

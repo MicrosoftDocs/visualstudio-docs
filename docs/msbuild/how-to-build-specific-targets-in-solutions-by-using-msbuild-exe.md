@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "msbuild.exe, building specific targets in a solution"
   - "MSBuild, msbuild.exe"
 ms.assetid: f46feb9b-4c16-4fec-b6e1-36a959692ba3
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

@@ -3,7 +3,7 @@ title: "Output Element (MSBuild) | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/13/2017"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "reference"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#Output"
 dev_langs: 
@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "<Output> Element [MSBuild]"
   - "Output Element [MSBuild]"
 ms.assetid: 34bc7cd1-efd3-4b57-b691-4584eeb6a0e9
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 
