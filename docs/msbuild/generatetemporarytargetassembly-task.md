@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "GenerateTemporaryTargetAssembly task [WPF MSBuild], parameters"
   - "creating an assembly [WPF MSBuild], XAML page refers to a locally declared type"
 ms.assetid: 92b6539c-6897-45e0-8989-0c234bbfe782
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: douge
 ms.workload: 
   - "multiple"

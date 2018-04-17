@@ -12,8 +12,8 @@ dev_langs:
 helpviewer_keywords: 
   - "MSBuild, file schema"
 ms.assetid: d9a68146-1f43-4621-ac78-2c8c3f400936
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: douge
 ms.workload: 
   - "multiple"

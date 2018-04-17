@@ -12,8 +12,8 @@ dev_langs:
 helpviewer_keywords: 
   - "MSBuild, reference"
 ms.assetid: 093395e1-70da-4f74-b34d-046c5e2b32e8
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: douge
 ms.workload: 
   - "multiple"

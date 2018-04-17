@@ -14,8 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "Sdk element [MSBuild]"
   - "<Sdk> element [MSBuild]"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: douge
 ms.workload: 
   - "multiple"

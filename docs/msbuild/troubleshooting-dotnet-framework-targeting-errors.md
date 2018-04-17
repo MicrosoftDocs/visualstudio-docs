@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "multitargeting"
   - ".NET Framework Client Profile"
 ms.assetid: 830e3e45-9a93-4279-a249-75b84599aefb
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: douge
 ms.workload: 
   - "dotnet"

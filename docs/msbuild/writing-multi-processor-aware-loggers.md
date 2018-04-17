@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "multi-proc loggers"
   - "loggers, multi-proc"
 ms.assetid: ff987d1b-1798-4803-9ef6-cc8fcc263516
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: douge
 ms.workload: 
   - "multiple"

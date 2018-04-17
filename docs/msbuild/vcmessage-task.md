@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "VCMessage task (MSBuild (Visual C++))"
   - "MSBuild (Visual C++), VCMessage task"
 ms.assetid: 956675fd-05dc-40b4-856f-616145103498
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: douge
 ms.workload: 
   - "multiple"

@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "FindAppConfigFile task [MSBuild]"
   - "MSBuild, FindAppConfigFile task"
 ms.assetid: e292de3e-7482-4426-83ce-d921061808bf
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: douge
 ms.workload: 
   - "multiple"

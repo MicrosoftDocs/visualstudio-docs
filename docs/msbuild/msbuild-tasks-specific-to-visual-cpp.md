@@ -12,8 +12,8 @@ dev_langs:
 helpviewer_keywords: 
   - "MSBuild, tasks specific to Visual C++"
 ms.assetid: 05410f0c-7356-4692-bc00-20664421c9ff
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: douge
 ms.workload: 
   - "cplusplus"

@@ -5,8 +5,8 @@ ms.date: "11/04/2016"
 ms.technology: msbuild
 ms.topic: "conceptual"
 ms.assetid: f767d8e4-24d8-4803-80eb-e857202dbe2c
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: douge
 ms.workload: 
   - "multiple"

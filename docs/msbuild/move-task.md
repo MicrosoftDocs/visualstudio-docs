@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "MSBuild, Move task"
   - "Move task [MSBuild]"
 ms.assetid: d1405347-1309-4f18-b565-905408093d59
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: douge
 ms.workload: 
   - "multiple"

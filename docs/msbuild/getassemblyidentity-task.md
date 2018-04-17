@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "MSBuild, GetAssemblyIdentity task"
   - "GetAssemblyIdentity task [MSBuild]"
 ms.assetid: a977e072-37ad-4941-84a6-32a4483be55d
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: douge
 ms.workload: 
   - "multiple"

@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "UsingTask element [MSBuild]"
   - "<UsingTask> element [MSBuild]"
 ms.assetid: 20247902-9446-4a1f-8253-5c7a17e4fe43
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: douge
 ms.workload: 
   - "multiple"

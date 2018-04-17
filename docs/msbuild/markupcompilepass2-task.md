@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "performing second-pass markup [WPF MSBuild], MarkupCompilePass2 task"
   - "MarkupCompilePass2 task [WPF MSBuild]"
   - "MarkupCompilePass2 task [WPF MSBuild], parameters"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: douge
 ms.workload: 
   - "multiple"

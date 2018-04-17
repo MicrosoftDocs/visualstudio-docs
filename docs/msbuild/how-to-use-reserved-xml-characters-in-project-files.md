@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "MSBuild, using reserved XML characters"
   - "MSBuild, reserved XML characters"
 ms.assetid: 1ae37275-96bf-4e6e-897b-6b048e5bbe93
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: douge
 ms.workload: 
   - "multiple"

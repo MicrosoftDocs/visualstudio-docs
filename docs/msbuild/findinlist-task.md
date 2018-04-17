@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "FindInList task [MSBuild]"
   - "MSBuild, FindInList task"
 ms.assetid: d49b9f84-52a2-4242-9269-b741a7a7e9f7
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: douge
 ms.workload: 
   - "multiple"

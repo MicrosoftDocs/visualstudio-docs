@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "MSBuild (Visual C++), CPPClean task"
   - "CPPClean task (MSBuild (Visual C++))"
 ms.assetid: b62a482e-8fb5-4999-b50b-6605a078e291
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: douge
 ms.workload: 
   - "multiple"

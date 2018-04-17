@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "AL task [MSBuild]"
   - "MSBuild, AL task"
 ms.assetid: 2ddefbf2-5662-4d55-99a6-ac383bf44560
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: douge
 ms.workload: 
   - "multiple"

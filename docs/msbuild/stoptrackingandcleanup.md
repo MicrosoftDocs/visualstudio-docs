@@ -12,8 +12,8 @@ apitype: "COM"
 helpviewer_keywords: 
   - "StopTrackingAndCleanup"
 ms.assetid: 9f8c5994-2dfc-43c3-a5fb-89b2f8990429
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: douge
 ms.workload: 
   - "multiple"

@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "MSBuild, AspNetCompiler task"
   - "AspNetCompiler task [MSBuild]"
 ms.assetid: f811c019-a67b-4d54-82e6-e29549496f6e
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: douge
 ms.workload: 
   - "aspnet"

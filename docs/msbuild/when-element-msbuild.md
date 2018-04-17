@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "<When> Element [MSBuild]"
   - "When Element [MSBuild]"
 ms.assetid: eb27de6f-4e71-4e87-87e2-d93f7bf5899c
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: douge
 ms.workload: 
   - "multiple"

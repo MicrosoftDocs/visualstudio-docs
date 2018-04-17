@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "GetFrameworkPath task [MSBuild]"
   - "MSBuild, GetFrameworkPath task"
 ms.assetid: 5b7bcdd7-d4a0-442d-af29-8aadb3b10598
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: douge
 ms.workload: 
   - "multiple"

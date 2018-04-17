@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "MSBuild, separating items with semicolons"
   - "MSBuild, formatting item collections"
 ms.assetid: 3cae844c-7c6d-4144-82dc-efad10ba458f
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: douge
 ms.workload: 
   - "multiple"

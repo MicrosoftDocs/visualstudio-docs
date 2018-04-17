@@ -14,8 +14,8 @@ dev_langs:
 helpviewer_keywords: 
   - "MSBuild, GenerateDeploymentManifest task"
   - "GenerateDeploymentManifest task [MSBuild]"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: douge
 ms.workload: 
   - "multiple"

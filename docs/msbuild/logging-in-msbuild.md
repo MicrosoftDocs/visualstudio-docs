@@ -7,8 +7,8 @@ ms.topic: "conceptual"
 helpviewer_keywords: 
   - "msbuild, logging"
 ms.assetid: 9aea2e76-8f60-4234-913d-598e7bbad808
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: douge
 ms.workload: 
   - "multiple"

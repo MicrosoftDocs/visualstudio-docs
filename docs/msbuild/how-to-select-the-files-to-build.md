@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "MSBuild, including files"
   - "Include attribute [MSBuild]"
 ms.assetid: f5ff182f-7b3a-46fb-9335-37df54cfb8eb
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: douge
 ms.workload: 
   - "multiple"

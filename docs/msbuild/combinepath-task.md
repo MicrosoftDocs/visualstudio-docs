@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "MSBuild, CombinePath task"
   - "CombinePath task [MSBuild]"
 ms.assetid: c20edbf4-3d4f-4f66-b1d5-753a0d858ed8
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: douge
 ms.workload: 
   - "multiple"

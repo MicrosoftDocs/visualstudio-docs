@@ -7,8 +7,8 @@ ms.topic: "conceptual"
 helpviewer_keywords: 
   - "msbuild, file tracking"
 ms.assetid: e6c66ac0-3464-451f-9192-3b98dca21b4a
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: douge
 ms.workload: 
   - "multiple"

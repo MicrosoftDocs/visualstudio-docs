@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "directories [.NET Framework], for output items"
   - "output, removing items"
 ms.assetid: 999ba473-b0c4-45c7-930a-63ea7a510509
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: douge
 ms.workload: 
   - "multiple"

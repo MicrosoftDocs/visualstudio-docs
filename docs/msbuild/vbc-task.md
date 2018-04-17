@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "Vbc task [MSBuild]"
   - "MSBuild, Vbc task"
 ms.assetid: 595278b1-2782-4577-b1ba-b4b5ab5625a3
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: douge
 ms.workload: 
   - "multiple"

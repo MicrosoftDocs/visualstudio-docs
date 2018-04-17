@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "MSBuild (Visual C++), tasks"
   - "BscMake task (MSBuild (Visual C++))"
 ms.assetid: bb98fc67-cad8-43a7-9598-60df6d734db2
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: douge
 ms.workload: 
   - "multiple"

@@ -7,8 +7,8 @@ ms.topic: "conceptual"
 helpviewer_keywords: 
   - "MSBuild, targets"
 ms.assetid: 8060b4d2-e4a9-48cf-a437-852649ceb417
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: douge
 ms.workload: 
   - "multiple"

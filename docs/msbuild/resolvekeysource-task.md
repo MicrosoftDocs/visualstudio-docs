@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "ResolveKeySource task [MSBuild]"
   - "MSBuild, ResolveKeySource task"
 ms.assetid: 449f06c2-e9aa-4236-ab1e-c45c25452b2e
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: douge
 ms.workload: 
   - "multiple"
