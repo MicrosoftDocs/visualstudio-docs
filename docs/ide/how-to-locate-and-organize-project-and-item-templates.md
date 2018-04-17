@@ -63,7 +63,7 @@ The categories in the **New Project** and **Add New Item** dialog boxes reflect 
 
 1. Create a folder in the programming language folder in the user project template directory. For example, to establish a **HelloWorld** category for C# project templates, create the following directory:
 
-- *\%USERPROFILE%\Documents\Visual Studio \<Version\>\Templates\ProjectTemplates\Visual C#\HelloWorld*
+    - *\%USERPROFILE%\Documents\Visual Studio \<Version\>\Templates\ProjectTemplates\Visual C#\HelloWorld*
 
 1. Place all the templates for this category in the new folder.
 
@@ -75,7 +75,7 @@ The categories in the **New Project** and **Add New Item** dialog boxes reflect 
 
 1. Create a folder in the programming language folder in the user item template directory. For example, to establish a **HelloWorld** category for C# item templates, create the following directory:
 
-- *\%USERPROFILE%\Documents\Visual Studio \<Version\>\Templates\ItemTemplates\Visual C#\HelloWorld*
+    - *\%USERPROFILE%\Documents\Visual Studio \<Version\>\Templates\ItemTemplates\Visual C#\HelloWorld*
 
 1. Place all the templates for this category in the new folder.
 
