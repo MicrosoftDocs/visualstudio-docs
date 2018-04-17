@@ -20,7 +20,7 @@ MSBuild projects that use the standard build process (importing `Microsoft.Commo
 
 ## Adding arguments to command-line MSBuild invocations for your project
 
-A `Directory.Build.rsp` file in your source directory will be applied to command-line builds of your project. For details, see [MSBuild Response Files](../msbuild/msbuild-response-files.md#directorybuildrsp).
+A `Directory.Build.rsp` file in or above your source directory will be applied to command-line builds of your project. For details, see [MSBuild Response Files](../msbuild/msbuild-response-files.md#directorybuildrsp).
 
 ## Directory.Build.props and Directory.Build.targets
 
