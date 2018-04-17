@@ -26,11 +26,11 @@ By default, Visual Studio continues to look online for updates even if the insta
 If you want direct control over where Visual Studio looks for updates, you can modify the location where it looks. You can also control the version your users are updated to. To do so, follow these steps:
 
  1. Create an offline layout:
-    ```
+    ```cmd
     vs_enterprise.exe --layout C:\vs2017offline --lang en-US
     ```
  2. Copy it to the file share where you want to host it:
-    ```
+    ```cmd
     xcopy /e C:\vs2017offline \\server\share\VS2017
     ```
  3. Modify the response.json file in the layout and change the `channelUri` value to point to a copy of the channelManifest.json that the admin controls.
@@ -49,7 +49,7 @@ If you want direct control over where Visual Studio looks for updates, you can m
 When an enterprise administrator determines it is time for their users to update to a newer version of Visual Studio, they can [update the layout location](update-a-network-installation-of-visual-studio.md) to incorporate the updated files, as follows.
 
  1. Use a command that is similar to the following command:
-    ```
+    ```cmd
     vs_enterprise.exe --layout \\server\share\VS2017 --lang en-US
     ```
  2. Ensure that the response.json file in the updated layout still contains your customizations, specifically the channelUri modification, as follows:
@@ -73,6 +73,7 @@ Because Visual Studio 2017 [stores registry entries in a private registry](tools
 ```cmd
 vsregedit.exe set "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise" HKCU ExtensionManager AutomaticallyCheckForUpdates2Override dword 0
 ```
+
 (Make sure to replace the directory to match the installed instance that you want to edit.)
 
 > [!TIP]
@@ -87,7 +88,7 @@ Here are a few more support options:
 * You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
 * You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
 * You can track product issues and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/).
-* You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).  (This option requires a [GitHub](https://github.com/) account.)
+* You can also engage with us and other Visual Studio developers through the [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio). (This option requires a [GitHub](https://github.com/) account.)
 
 ## See also
 

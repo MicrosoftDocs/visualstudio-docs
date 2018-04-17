@@ -16,11 +16,11 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-
 # How to define settings in a response file
+
 Administrators who deploy Visual Studio can specify a response file by using the `--in` parameter, as in the following example:
 
-```
+```cmd
 vs_enterprise.exe --in customInstall.json
 ```
 
@@ -52,9 +52,11 @@ The base `response.json` file in a layout should look similar to the following e
   "productId": "Microsoft.VisualStudio.Product.Enterprise"
 }
 ```
+
 When you create or update a layout, a response.template.json file is also created.  This file contains all of the workload, component, and language IDs that can be used.  This file is provided as a template for what all could be included in a custom install.  Administrators can use this file as a starting point for a custom response file.  Just remove the IDs for the things you do not want to install and save it in your own response file.  Do not customize the response.template.json file or your changes will be lost whenever the layout is updated.
 
 ## Example layout response file content
+
 The following example installs Visual Studio Enterprise with six common workloads and components, and with both English and French UI languages. You can use this example as a template; just change the workloads and components to those that you want to install:
 
 ```json
@@ -97,7 +99,7 @@ Here are a few more support options:
 * You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
 * You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
 * You can track product issues and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/).
-* You can also engage with us and other Visual Studio developers through the [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).  (This option requires a [GitHub](https://github.com/) account.)
+* You can also engage with us and other Visual Studio developers through the [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio). (This option requires a [GitHub](https://github.com/) account.)
 
 ## See also
 

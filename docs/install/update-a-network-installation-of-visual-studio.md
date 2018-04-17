@@ -31,31 +31,31 @@ Let's walk through how to create and then update a layout:
 
 * First, here's an example of how to create a layout with one workload for English only:
 
-  ```
+  ```cmd
   vs_enterprise.exe --layout c:\VS2017Layout --add Microsoft.VisualStudio.Workload.ManagedDesktop --lang en-US
   ```
 
 * Here's how to update that same layout to a newer version. You don't have to specify any additional command-line parameters. The previous settings were saved and will be used by any subsequent layout commands in this layout folder.  
 
-  ```
+  ```cmd
   vs_enterprise.exe --layout c:\VS2017Layout  
   ```
 
 * Here's how to update your layout to a newer version in an unattended manner. The layout operation runs the setup process in a new console window. The window is left open so users can see the final result and a summary of any errors that might have occurred. If you are performing a layout operation in an unattended manner (for example, you have a script that is regularly run to update your layout to the latest version), then use the `--passive` parameter and the process will automatically close the window.
 
-  ```
+  ```cmd
   vs_enterprise.exe --layout c:\VS2017Layout --passive
   ```
 
 * Here's how to add an additional workload and localized language.  (This command adds the Azure workload.)  Now both Managed Desktop and Azure are included in this layout.  The language resources for English and German are also included for all these workloads.  And, the layout is updated to the latest available version.
 
-  ```
+  ```cmd
   vs_enterprise.exe --layout c:\VS2017Layout --add Microsoft.VisualStudio.Workload.Azure --lang de-DE
   ```
 
 * And finally, here's how to add an additional workload and localized language without updating the version. (This command adds the ASP.NET & Web workload.)  Now the Managed Desktop, Azure, and ASP.NET & Web workloads are included in this layout.  The language resources for English, German, and French are also included for all these workloads.  However, the layout was not updated to the latest available version when this command was run.  It remains at the existing version.
 
-  ```
+  ```cmd
   vs_enterprise.exe --layout c:\VS2017Layout --add Microsoft.VisualStudio.Workload.NetWeb --lang fr-FR --keepLayoutVersion
   ```
 
@@ -73,7 +73,7 @@ Depending on how your network environment is configured, an update can either be
 
 > [!NOTE]
 > Use the [vswhere.exe command](tools-for-managing-visual-studio-instances.md) to identify the install path of an existing instance of Visual Studio on a client machine.
-
+>
 > [!TIP]
 > For details on how to control when update notifications are presented to users, see [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md).
 
@@ -81,12 +81,11 @@ Depending on how your network environment is configured, an update can either be
 
 Use `--verify` to perform verification on the offline cache supplied. It checks if packages files are either missing or invalid. At the end of the verification, it prints the list of missing files and invalid files.
 
-```
+```cmd
 vs_enterprise.exe --layout <layoutDir> --verify
 ```
 
 The vs_enterprise.exe can be invoked inside the layoutDir.
-
 
 > [!NOTE]
 > Some important metadata files that are needed by the `--verify` option must be in the layout offline cache. If these metadata files are missing, "--verify" cannot run and Setup gives you an error. If you experience this error, re-create a new offline layout to a different folder (or to the same offline cache folder. To so do, run the same layout command that you used to create the initial offline layout. For example, `Vs_enterprise.exe --layout <layoutDir>`.
@@ -97,7 +96,7 @@ Microsoft ships updates to Visual Studio periodically, so the new layout that yo
 
 Use `--fix` to perform the same verification as `--verify` and also try to fix the identified issues. The `--fix` process needs an Internet connection, so make sure your machine is connected to the Internet before you invoke `--fix`.
 
-```
+```cmd
 vs_enterprise.exe --layout <layoutDir> --fix
 ```
 
@@ -113,19 +112,19 @@ A few files are saved inside each "GUID" folder. The two files of most interest 
 
 Here are a few examples of how to use the --clean option:   
 
-```
+```cmd
 vs_enterprise.exe --layout <layoutDir> --clean <file-path-of-catalog1> <file-path-of-catalog2> …
 ```
 
-```
+```cmd
 vs_enterprise.exe --layout <layoutDir> --clean <file-path-of-catalog1> --clean <file-path-of-catalog2> …
 ```
 
 You can also invoke vs_enterprise.exe inside the &lt;layoutDir&gt;. Here's an example:
 
-```	 
+```cmd	 
 c:\VS2017Layout\vs_enterprise.exe --layout c:\VS2017Layout --clean c:\VS2017Layout\Archive\1cd70189-fc55-4583-8ad8-a2711e928325\Catalog.json --clean c:\VS2017Layout\Archive\d420889f-6aad-4ba4-99e4-ed7833795a10\Catalog.json
-```	 
+```
 
 When you execute this command, Setup analyzes your offline cache folder to find the list of files that it will remove. You will then have a chance to review the files that are going to be deleted and confirm the deletions.
 
@@ -138,7 +137,7 @@ Here are a few more support options:
 * You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
 * You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
 * You can track product issues and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/).
-* You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).  (This option requires a [GitHub](https://github.com/) account.)
+* You can also engage with us and other Visual Studio developers through the [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio). (This option requires a [GitHub](https://github.com/) account.)
 
 ## See also
 
