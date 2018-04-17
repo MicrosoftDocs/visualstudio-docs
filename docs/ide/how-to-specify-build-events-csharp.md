@@ -42,22 +42,22 @@ Use build events to specify commands that run before the build starts or after t
 4.  In the **Pre-build event command line** box, specify the syntax of the build event.  
   
     > [!NOTE]
-    >  Pre-build events do not run if the project is up to date and no build is triggered.  
+    > Pre-build events do not run if the project is up to date and no build is triggered.  
   
 5.  In the **Post-build event command line** box, specify the syntax of the build event.  
   
     > [!NOTE]
-    >  Add a `call` statement before all post-build commands that run *.bat* files. For example, `call C:\MyFile.bat` or `call C:\MyFile.bat call C:\MyFile2.bat`.  
+    > Add a `call` statement before all post-build commands that run *.bat* files. For example, `call C:\MyFile.bat` or `call C:\MyFile.bat call C:\MyFile2.bat`.  
   
 6.  In the **Run the post-build event** box, specify under what conditions to run the post-build event.  
   
     > [!NOTE]
-    >  To add lengthy syntax, or to select any build macros from the [Pre-build event/post-build event command line dialog box](../ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md), click the ellipsis button (**...**) to display an edit box.  
+    > To add lengthy syntax, or to select any build macros from the [Pre-build event/post-build event command line dialog box](../ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md), click the ellipsis button (**...**) to display an edit box.  
   
      The build event syntax can include any command that is valid at a command prompt or in a *.bat* file. The name of a batch file should be preceded by `call` to ensure that all subsequent commands are executed.  
   
     > [!NOTE]
-    >If your pre-build or post-build event does not complete successfully, you can terminate the build by having your event action exit with a code other than zero (0), which indicates a successful action.  
+    > If your pre-build or post-build event does not complete successfully, you can terminate the build by having your event action exit with a code other than zero (0), which indicates a successful action.  
   
 ## Example: How to change manifest information by using a post-build event  
  The following procedure shows how to set the minimum operating system version in the application manifest by using an *.exe* command that is called from a post-build event (the *.exe.manifest* file in the project directory). The minimum operating system version is a four-part number such as 4.10.0.0. To do this, the command will change the `<dependentOS>` section of the manifest:  
