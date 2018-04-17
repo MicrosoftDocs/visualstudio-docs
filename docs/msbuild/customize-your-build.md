@@ -107,6 +107,10 @@ This extensibility mechanism can be disabled by setting the property `ImportProj
 > [!NOTE]
 > Disabling MSBuildProjectExtensionsPath imports will prevent build logic delivered in NuGet packages from applying to your project. Some NuGet packages require build logic to perform their function and will be rendered useless when this is disabled.
 
+## .user file
+
+Microsoft.Common.CurrentVersion.targets imports `$(MSBuildProjectFullPath).user` if it exists, so you can create a file next to your project with that additional extension. For long-term changes you plan to check into source control, prefer changing the project itself, so that future maintainers do not have to know about this extension mechanism.
+
 ## MSBuildExtensionsPath and MSBuildUserExtensionsPath
 
 > [!WARNING]
