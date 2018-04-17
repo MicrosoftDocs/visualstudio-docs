@@ -15,7 +15,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Create a Nullable Type (Class Designer)
+# How to: Create a nullable type (Class Designer)
 Certain value types do not always have (or need) a defined value. This is common practice in databases, where some fields might not be assigned any value. For example, you might assign a null value to a database field to signify that it has not yet been assigned a value.  
   
 A *nullable type* is a value type that you extend so that it takes the typical range of values for that type and also a null value. For example, a nullable of `Int32`, also denoted as Nullable\<Int32>, can be assigned any value from -2147483648 to 2147483647, or it can be assigned a null value. A Nullable\<bool> can be assigned the values `True`, `False`, or null (no value at all).  
@@ -36,13 +36,13 @@ For more information about nullable types in C#, see [Nullable Types](/dotnet/cs
   
 ### To add a nullable type by using the Class Designer  
   
-1.  In the Class Diagram, expand an existing class or create a new class.  
+1.  In the class diagram, expand an existing class or create a new class.  
   
-2.  To add a class to the project, on the **Class Diagram** menu, click **Add**, and then click **Add Class**.  
+2.  To add a class to the project, on the **Class Diagram** menu, click **Add** > **Add Class**.  
   
 3.  To expand the class shape, on the **Class Diagram** menu, click **Expand**.  
   
-4.  Select the class shape. On the **Class Diagram** menu, click **Add**, and then click **Field**. A new field that has the default name **Field** will appear in the class shape and also in the **Class Details** window.  
+4.  Select the class shape. On the **Class Diagram** menu, click **Add* > **Field**. A new field that has the default name **Field** will appear in the class shape and also in the **Class Details** window.  
   
 5.  In the **Name** column of the **Class Details** window (or in the class shape itself), change the name of the new field to a valid and meaningful name.  
   
@@ -62,7 +62,7 @@ For more information about nullable types in C#, see [Nullable Types](/dotnet/cs
   
 5.  Right-click the class shape and click **Class Details**. You can view or modify the new type's properties in the **Class Details** window.  
   
-## See alose
+## See also
 <xref:System.Nullable%601>   
 [Nullable Types](/dotnet/csharp/programming-guide/nullable-types/index)   
 [Using Nullable Types](/dotnet/csharp/programming-guide/nullable-types/using-nullable-types)   

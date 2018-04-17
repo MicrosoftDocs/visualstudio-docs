@@ -38,7 +38,7 @@ When you refactor code, you make it easier to understand, maintain, and more eff
 |**Working with interfaces:** In Class Designer, you can implement an interface on the class diagram by connecting it to a class that provides code for the interface methods.|-   [How to: Implement an Interface](how-to-implement-an-interface.md)|  
 |**Refactoring types, type members, and parameters:** By using Class Designer, you can rename types, override type members, or move them from one type to another. You can also create nullable types.|-   [Renaming Types and Type Members](refactoring-classes-and-types.md#RenamingTypesAndMembers)<br />-   [Moving Type Members from One Type to Another](refactoring-classes-and-types.md#MovingTypeMembers)<br />-   [How to: Create a Nullable Type](how-to-create-a-nullable-type.md)|  
   
-###  <a name="RenamingTypesAndMembers"></a> Renaming Types and Type Members  
+###  <a name="RenamingTypesAndMembers"></a> Rename types and type members  
 In Class Designer, you can rename a type or a member of a type on the class diagram or in the Properties window. In the Class Details window, you can change the name of a member but not a type. Renaming a type or type member propagates to all windows and code locations where the old name appeared.  
   
 ##### To rename a name in the Class Designer  
@@ -72,7 +72,7 @@ In Class Designer, you can rename a type or a member of a type on the class diag
   
      The new name propagates to all windows and code locations in the current project where the old name appeared.  
   
-###  <a name="MovingTypeMembers"></a> Moving Type Members from One Type to Another  
+###  <a name="MovingTypeMembers"></a> Move type members from one type to another  
 Using **Class Designer**, you can move a type member from one type to another type, if both are visible in the current class diagram.  
   
 ##### To move a type member from one type to another  

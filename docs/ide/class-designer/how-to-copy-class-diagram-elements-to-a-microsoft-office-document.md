@@ -15,7 +15,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Copy Class Diagram Elements to a Microsoft Office Document (Class Designer)
+# How to: Copy class diagram elements to a Microsoft Office document (Class Designer)
 You can copy shapes from a .NET class diagram (.cd file) to other documents. You'll either get a copy of the shape or its underlying code based on the kind of document where you paste it. To copy shapes from UML class diagrams in a modeling project, see [Export diagrams as images](../../modeling/export-diagrams-as-images.md).  
   
 ### To copy a single element  
@@ -37,5 +37,5 @@ You can copy shapes from a .NET class diagram (.cd file) to other documents. You
 You can also choose **Copy** instead of **Copy Image**. **Copy** copies the image as a regular bitmap. **Copy Image** copies the image as a vector-based image, which is better for most Office applications.  
   
 ## See also
-[How to: Print Class Diagrams](how-to-print-class-diagrams.md)   
-[How to: Export Class Diagrams As Images](how-to-export-class-diagrams-as-images.md)
+[How to: Print class diagrams](how-to-print-class-diagrams.md)   
+[How to: Export class diagrams as images](how-to-export-class-diagrams-as-images.md)

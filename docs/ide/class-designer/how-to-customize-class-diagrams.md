@@ -17,7 +17,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Customize Class Diagrams (Class Designer)
+# How to: customize class diagrams (Class Designer)
 You can change the way that class diagrams display information. You can customize the whole diagram or the individual types on the design surface.  
   
 For example, you can adjust the zoom level of an entire class diagram, change how individual type members are grouped and sorted, hide or show relationships, and move individual or sets of types anywhere on the diagram.  
@@ -25,33 +25,13 @@ For example, you can adjust the zoom level of an entire class diagram, change ho
 > [!NOTE]
 >  Customizing the way that shapes appear on the diagram doesn't change the underlying code for the types represented on the diagram.  
   
-The sections that contain type members, such as the Properties section in a class, are called compartments. You can hide or show individual compartments and type members.  
-  
-**In this topic**  
-  
--   [Zoom in and out of the class diagram](how-to-customize-class-diagrams.md#ZoomInOut)  
-  
--   [Customize grouping and sorting of type members](how-to-customize-class-diagrams.md#CustomizeGroupingSorting)  
-  
--   [Hide compartments on a type](how-to-customize-class-diagrams.md#HideCompartments)  
-  
--   [Hide individual members on a type](how-to-customize-class-diagrams.md#HideMembers)  
-  
--   [Show hidden compartments and members on a type](how-to-customize-class-diagrams.md#DisplayHiddenCompartmentsAndMemberrs)  
-  
--   [Hide relationships](how-to-customize-class-diagrams.md#HideAssociationAndInheritance)  
-  
--   [Show hidden relationships](how-to-customize-class-diagrams.md#DisplayAssociationAndInheritance)  
-  
--   [Remove a shape from a class diagram](how-to-customize-class-diagrams.md#RemoveCodeAndShape)  
-  
--   [Delete a type shape and its underlying code](how-to-customize-class-diagrams.md#DeleteTypeShapeAndCode)  
-  
+The sections that contain type members, such as the **Properties** section in a class, are called compartments. You can hide or show individual compartments and type members.  
+    
 ##  <a name="ZoomInOut"></a> Zoom in and out of the class diagram  
   
-1.  Open and select a class diagram file in Class Designer.  
+1.  Open and select a class diagram file in **Class Designer**.  
   
-2.  On the Class Designer toolbar, click the **Zoom In** or **Zoom Out** button to change the zoom level of the designer surface.  
+2.  On the **Class Designer** toolbar, click the **Zoom In** or **Zoom Out** button to change the zoom level of the designer surface.  
   
      or  
   
@@ -62,7 +42,7 @@ The sections that contain type members, such as the Properties section in a clas
   
 ##  <a name="CustomizeGroupingSorting"></a> Customize grouping and sorting of type members  
   
-1.  Open and select a class diagram file in Class Designer.  
+1.  Open and select a class diagram file in **Class Designer**.  
   
 2.  Right-click an empty area on the design surface and point to **Group Members**.  
   
@@ -76,7 +56,7 @@ The sections that contain type members, such as the Properties section in a clas
   
 ##  <a name="HideCompartments"></a> Hide compartments on a type  
   
-1.  Open and select a class diagram file in the class designer.  
+1.  Open and select a class diagram file in the **Class Designer**.  
   
 2.  Right click the member category in the type you want to customize (for example, select the **Methods** node in a class.  
   
@@ -86,7 +66,7 @@ The sections that contain type members, such as the Properties section in a clas
   
 ##  <a name="HideMembers"></a> Hide individual members on a type  
   
-1.  Open and select a class diagram file in Class Designer.  
+1.  Open and select a class diagram file in **Class Designer**.  
   
 2.  Right-click the member in the type you want to hide.  
   
@@ -96,7 +76,7 @@ The sections that contain type members, such as the Properties section in a clas
   
 ##  <a name="DisplayHiddenCompartmentsAndMemberrs"></a> Show hidden compartments and members on a type  
   
-1.  Open and select a class diagram file in Class Designer.  
+1.  Open and select a class diagram file in **Class Designer**.  
   
 2.  Right-click the name of the type with the hidden compartment.  
   
@@ -106,7 +86,7 @@ The sections that contain type members, such as the Properties section in a clas
   
 ##  <a name="HideAssociationAndInheritance"></a> Hide relationships  
   
-1.  Open and select a class diagram file in Class Designer.  
+1.  Open and select a class diagram file in **Class Designer**.  
   
 2.  Right-click the association or inheritance line that you want to hide.  
   
@@ -118,7 +98,7 @@ The sections that contain type members, such as the Properties section in a clas
   
 ##  <a name="DisplayAssociationAndInheritance"></a> Show hidden relationships  
   
-1.  Open and select a class diagram file in Class Designer.  
+1.  Open and select a class diagram file in **Class Designer**.  
   
 2.  Right-click the type with the hidden association or inheritance.  
   

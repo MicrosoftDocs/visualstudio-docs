@@ -15,7 +15,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Print Class Diagrams (Class Designer)
+# How to: Print class diagrams (Class Designer)
 You can print a class diagram using the print feature of Visual Studio.  
   
 ### To print a class diagram  
@@ -24,7 +24,7 @@ You can print a class diagram using the print feature of Visual Studio.
   
 2.  Click **Print** on the **File** menu.  
   
-     The entire class diagram will print. Note that you may need to adjust the settings in the Page Setup Dialog box in order to print at an appropriate size.  
+     The entire class diagram will print. You may need to adjust the settings in the Page Setup Dialog box in order to print at an appropriate size.  
   
 ## See also
 [How to: Copy Class Diagram Elements to a Microsoft Office Document](how-to-copy-class-diagram-elements-to-a-microsoft-office-document.md)   
