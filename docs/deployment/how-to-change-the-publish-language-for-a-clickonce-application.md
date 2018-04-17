@@ -2,8 +2,7 @@
 title: "How to: Change the Publish Language for a ClickOnce Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-deployment"
+ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -14,9 +13,9 @@ helpviewer_keywords:
   - "ClickOnce deployment, changing publish language"
   - "publishing, ClickOnce"
 ms.assetid: ef5024c4-cda1-4970-bc75-32a2a10c92c3
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -2,8 +2,7 @@
 title: "How Can I Debug a C++ Access Violation? | Microsoft Docs"
 ms.custom: ""
 ms.date: "05/23/2017"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.access"

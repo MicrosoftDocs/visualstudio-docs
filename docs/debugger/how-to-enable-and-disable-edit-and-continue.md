@@ -2,8 +2,7 @@
 title: "How to: Enable and Disable Edit and Continue (C#, VB, C++) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"

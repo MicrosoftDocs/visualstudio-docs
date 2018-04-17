@@ -2,8 +2,7 @@
 title: "How to: Debug .NET Framework Source | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/23/2018"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "debugging, .NET Framework source"

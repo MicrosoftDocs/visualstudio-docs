@@ -2,8 +2,7 @@
 title: "How to: Set debug and release configurations | Microsoft Docs"
 ms.custom: "H1HackMay2017"
 ms.date: "04/10/2017"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.builds"

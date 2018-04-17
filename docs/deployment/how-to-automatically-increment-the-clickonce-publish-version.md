@@ -2,8 +2,7 @@
 title: "How to: Automatically Increment the ClickOnce Publish Version | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-deployment"
+ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -15,9 +14,9 @@ helpviewer_keywords:
   - "ClickOnce deployment, incrementing publish version automatically"
   - "publishing, ClickOnce"
 ms.assetid: 686ab88a-6305-4914-a05b-fe269cc0ae1e
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

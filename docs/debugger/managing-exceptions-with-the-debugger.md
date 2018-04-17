@@ -2,8 +2,7 @@
 title: "Manage exceptions with the Visual Studio debugger | Microsoft Docs"
 ms.custom: ""
 ms.date: "04/05/2017"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.exceptions"

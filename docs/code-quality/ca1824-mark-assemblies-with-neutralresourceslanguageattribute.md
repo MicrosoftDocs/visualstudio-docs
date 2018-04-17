@@ -1,5 +1,5 @@
 ---
-title: "CA1824: Mark assemblies with NeutralResourcesLanguageAttribute | Microsoft Docs"
+title: "CA1824: Mark assemblies with NeutralResourcesLanguageAttribute"
 ms.date: 03/29/2018
 ms.technology: vs-ide-code-analysis
 ms.topic: reference
@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "MarkAssembliesWithNeutralResourcesLanguage"
   - "CA1824"
 ms.assetid: 10e97f8a-aa6e-47aa-b253-1e5d3a295d82
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"

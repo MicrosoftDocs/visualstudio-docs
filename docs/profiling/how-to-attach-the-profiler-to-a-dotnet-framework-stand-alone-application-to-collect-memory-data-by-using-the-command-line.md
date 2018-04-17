@@ -2,8 +2,7 @@
 title: "How to: Attach the Profiler to a .NET Framework Stand-Alone Application to Collect Memory Data by Using the Command Line | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"

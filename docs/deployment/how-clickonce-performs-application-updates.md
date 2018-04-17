@@ -2,8 +2,7 @@
 title: "How ClickOnce Performs Application Updates | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-deployment"
+ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -14,9 +13,9 @@ helpviewer_keywords:
   - "ClickOnce deployment, updates"
   - "deploying applications [ClickOnce], application updates"
 ms.assetid: d54313c2-cf0c-420d-b151-99953a95f0bb
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

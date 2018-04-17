@@ -2,8 +2,7 @@
 title: "Debug ASP.NET - Visual Studio | Microsoft Docs"
 ms.custom: "mvc"
 ms.date: "03/16/2018"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "quickstart"
 helpviewer_keywords: 
   - "debugger"

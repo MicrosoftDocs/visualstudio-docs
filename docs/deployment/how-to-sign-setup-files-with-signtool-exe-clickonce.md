@@ -2,8 +2,7 @@
 title: "How to: Sign Setup Files with SignTool.exe (ClickOnce) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-deployment"
+ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -16,9 +15,9 @@ helpviewer_keywords:
   - "ClickOnce applications, re-signing setup.exe"
   - "ClickOnce deployment, re-signing setup.exe"
 ms.assetid: 545a4005-d283-4110-9821-c78a9833c250
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -1,19 +1,16 @@
 ---
 title: Quickstart - Cloning a repository of Python code
 description: In this quickstart, you create a Python project in Visual Studio by cloning the Python koans repository using Visual Studio Team Explorer.
-ms.custom: "mvc"
 ms.date: 03/21/2018
-ms.technology: 
-  - "devlang-python"
-dev_langs:
-  - "python"
-ms.topic: "quickstart"
-author: "kraigb"
-ms.author: "kraigb"
-manager: "douge"
+ms.prod: visual-studio-dev15
+ms.technology: vs-python
+ms.topic: quickstart
+author: kraigb
+ms.author: kraigb
+manager: douge
 ms.workload: 
-  - "python"
-  - "data-science"
+  - python
+  - data-science
 ---
 
 # Quickstart: clone a repository of Python code in Visual Studio

@@ -1,9 +1,7 @@
 ---
-title: "Using Rule Sets to Specify the C++ Rules to Run | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology:
-  - "vs-ide-code-analysis"
+title: Using Rule Sets to Specify the C++ Rules to Run
+ms.date: 11/04/2016
+ms.technology: vs-ide-code-analysis
 ms.topic: "conceptual"
 author: mikeblome
 ms.author: mblome
