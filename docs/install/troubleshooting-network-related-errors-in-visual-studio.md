@@ -1,6 +1,6 @@
 ---
-title: "Troubleshooting network-related errors when you install or use Visual Studio | Microsoft Docs"
-description: ""
+title: "Troubleshooting network-related errors when you install or use Visual Studio"
+description: "Find solutions for network- or proxy-related errors that you might encounter when you install or use Visual Studio behind a firewall or a proxy server."
 ms.custom: ""
 ms.date: 02/12/2018
 ms.technology: vs-acquisition

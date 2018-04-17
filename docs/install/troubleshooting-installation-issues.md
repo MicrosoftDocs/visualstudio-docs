@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting installation issues | Microsoft Docs"
+title: "Troubleshooting installation issues"
 description: "Sometimes, things can go wrong. If your Visual Studio installation or upgrade fails, this page can help."
 ms.date: 11/21/2017
 ms.technology: vs-acquisition

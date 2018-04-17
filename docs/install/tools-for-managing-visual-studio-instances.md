@@ -1,5 +1,5 @@
 ---
-title: "Tools for detecting and managing Visual Studio instances | Microsoft Docs"
+title: "Tools for detecting and managing Visual Studio instances"
 description: "Learn about the tools that you can use to detect and manage Visual Studio installations on client machines."
 ms.date: 08/14/2017
 ms.technology: vs-acquisition
@@ -17,10 +17,12 @@ ms.workload:
 ---
 
 # Tools for detecting and managing Visual Studio instances
-There are several tools that you can use to detect Visual Studio installations on client machines, and to manage the installations, too. 
+
+There are several tools that you can use to detect Visual Studio installations on client machines, and to manage the installations, too.
 
 
 ## Detecting existing Visual Studio instances
+
 We have made several tools available that will help you detect and manage installed Visual Studio instances on client machines:
 
 * [VSWhere](https://github.com/microsoft/vswhere): an executable built into Visual Studio or available for separate distribution that helps you find the location of all Visual Studio instances on a particular machine.
@@ -55,8 +57,8 @@ As these entries are not stored in the global registry, there are special instru
    %localappdata%\Microsoft\VisualStudio\<config>\privateregistry.bin
    ```
 
-> [!NOTE]
-> `<config>` corresponds to the instance of Visual Studio that you would like to browse.
+  > [!NOTE]
+  > `<config>` corresponds to the instance of Visual Studio that you would like to browse.
 
 You will be prompted to provide a hive name, which becomes the name of your isolated hive. After you do so, you should be able to browse the registry under the isolated hive that you created.
 
@@ -70,7 +72,7 @@ Sometimes, things can go wrong. If your Visual Studio installation fails, see th
 Here are a few more support options:
 * You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
 * You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
-* You can track product issues in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/), and ask questions and find answers.
+* You can track product issues and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/).
 * You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).  (This option requires a [GitHub](https://github.com/) account.)
 
 ## See also

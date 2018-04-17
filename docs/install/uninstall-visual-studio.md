@@ -1,5 +1,5 @@
 ---
-title: "Uninstall Visual Studio 2017 | Microsoft Docs"
+title: "Uninstall Visual Studio 2017"
 description: "Learn how to uninstall Visual Studio, step-by-step."
 ms.custom: ""
 ms.date: 08/16/2017
@@ -59,6 +59,7 @@ Here are a few more support options:
 * You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).  (This option requires a [GitHub](https://github.com/) account.)
 
 ## See also
+
 * [Install Visual Studio](install-visual-studio.md)
 * [Modify Visual Studio 2017](modify-visual-studio.md)
 * [Update Visual Studio](update-visual-studio.md)

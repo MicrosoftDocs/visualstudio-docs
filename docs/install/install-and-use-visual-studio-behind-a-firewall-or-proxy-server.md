@@ -19,6 +19,7 @@ ms.workload:
   - "multiple"
 ---
 # Install and use Visual Studio and Azure Services behind a firewall or proxy server
+
 If you or your organization uses security measures such as a firewall or a proxy server, then there are domain URLs that you might want to "whitelist" and ports and protocols that you might want to open so that you have the best experience when you install and use Visual Studio and Azure Services.
 
 * **[Install Visual Studio](#install-visual-studio)**: These tables include the domain URLs to whitelist so that you have access to all the components and workloads that you want.
@@ -26,10 +27,12 @@ If you or your organization uses security measures such as a firewall or a proxy
 * **[Use Visual Studio and Azure Services](#use-visual-studio-and-azure-services)**: This table includes the domain URLs to whitelist and the ports and protocols to open so that you have access to all the features and services that you want.
 
 ## Install Visual Studio
+
 ### URLs to whitelist
 Because the Visual Studio Installer downloads files from various domains and their download servers, here are the domain URLs that you might want to whitelist as trusted in the UI or in your deployment scripts.
 
 #### Microsoft domains
+
 | Domain | Purpose |
 | ------ | ------- |
 | go.microsoft.com | Setup URL resolution |
@@ -49,6 +52,7 @@ Because the Visual Studio Installer downloads files from various domains and the
 |  |  | |
 
 #### Non-Microsoft domains
+
 | Domain | Installs these workloads |
 | ------ | ------- |
 | archive.apache.org |  Mobile development with JavaScript (Cordova) |
@@ -64,7 +68,9 @@ Because the Visual Studio Installer downloads files from various domains and the
 |  |  | |
 
 ## Use Visual Studio and Azure Services
+
 ### URLs to whitelist and ports and protocols to open
+
 To make sure that you have access to everything you need when you use Visual Studio or Azure Services behind a firewall or proxy server, here are the URLs you should whitelist and the ports and protocols that you might want to open.
 
 | Service or scenario | DNS endpoint | Protocol | Port | Description |
@@ -110,16 +116,20 @@ To make sure that you have access to everything you need when you use Visual Stu
 
 
 ## Troubleshoot network-related errors
+
 Sometimes, you might run in to network- or proxy-related errors when you install or use Visual Studio behind a firewall or a proxy server. For more information about solutions for such error messages, see the [Troubleshooting network-related errors when you install or use Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md) page.
 
 ## Get support
+
 Here are a few more support options for you:
+
 * You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
 * You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
-* You can track product issues in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/), and ask questions and find answers.
+* You can track product issues and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/).
 * You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).  (This option requires a [GitHub](https://github.com/) account.)
 
 ## See also
+
 * [Troubleshooting network-related errors in Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md)
 * [Visual Studio Administrator Guide](visual-studio-administrator-guide.md)
 * [Install Visual Studio 2017](install-visual-studio.md)

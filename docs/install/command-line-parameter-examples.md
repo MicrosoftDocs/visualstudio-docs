@@ -37,8 +37,8 @@ vs_enterprise.exe --update --quiet --wait
 vs_enterprise.exe update --wait --passive --norestart --installPath "C:\installPathVS"
 ```
 
-> [!NOTE]
-> Both commands are required. The first command updates the Visual Studio Installer. The second command updates the Visual Studio instance. To avoid a User Account Control dialog, run the command prompt as an Administrator.
+ > [!NOTE]
+ > Both commands are required. The first command updates the Visual Studio Installer. The second command updates the Visual Studio instance. To avoid a User Account Control dialog, run the command prompt as an Administrator.
 
 * Install a desktop instance of Visual Studio silently, with the French language pack, returning only when the product is installed.
 ```
@@ -48,12 +48,11 @@ vs_enterprise.exe --installPath C:\desktopVS ^
    --includeRecommended --quiet --wait
 ```
 
-> [!NOTE]
->  The `--wait` parameter is designed for use in a batch file. In a batch file, execution of the next command will not continue until the installation has completed. The `%ERRORLEVEL%` environment variable will contain the return value of the command, as documented in the [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md) page.
+ > [!NOTE]
+ >  The `--wait` parameter is designed for use in a batch file. In a batch file, execution of the next command will not continue until the installation has completed. The `%ERRORLEVEL%` environment variable will contain the return value of the command, as documented in the [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md) page.
 
 * Download the Visual Studio core editor (the most minimal Visual Studio configuration). Only include the English language pack:
-
-```cmd
+```
 vs_community.exe --layout C:\VS2017
    --lang en-US ^
    --add Microsoft.VisualStudio.Workload.CoreEditor
@@ -93,6 +92,7 @@ vs_enterprise.exe modify ^
 Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://www.visualstudio.com/vs/support/#talktous).
 
 Here are a few more support options:
+
 * You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
 * You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
 * You can track product issues and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/).

@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio administrator guide | Microsoft Docs"
+title: "Visual Studio administrator guide"
 description: "Learn more about how to deploy Visual Studio in an enterprise environment."
 ms.custom: ""
 ms.date: 05/15/2017
@@ -56,6 +56,7 @@ We have several tools available to help you [detect and manage installed Visual 
 Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://www.visualstudio.com/vs/support/#talktous).
 
 Here are a few more support options:
+
 * You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
 * You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
 * You can track product issues and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/).
