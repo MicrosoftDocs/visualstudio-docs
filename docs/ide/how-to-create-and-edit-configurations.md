@@ -51,7 +51,7 @@ You can create several build configurations for a solution. For example, you can
 
      The  **Property Pages** window opens.  
 
-     You can set properties for your configurations. For example, for a Release configuration, you can specify that code is optimized when the solution is built, and for a Debug configuration, you can specify that the `DEBUG` conditional compilation symbol is included. For more information about property page settings, see [Manage project and solution properties](../ide/managing-project-and-solution-properties.md).  
+     You can set properties for your configurations. For example, for a release configuration, you can specify that code is optimized when the solution is built, and for a debug configuration, you can specify that the `DEBUG` conditional compilation symbol is included. For more information about property page settings, see [Manage project and solution properties](../ide/managing-project-and-solution-properties.md).  
 
 ## Create and modify project configurations  
 

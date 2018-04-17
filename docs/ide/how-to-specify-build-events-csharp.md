@@ -56,7 +56,8 @@ Use build events to specify commands that run before the build starts or after t
   
      The build event syntax can include any command that is valid at a command prompt or in a *.bat* file. The name of a batch file should be preceded by `call` to ensure that all subsequent commands are executed.  
   
-     **Note** If your pre-build or post-build event does not complete successfully, you can terminate the build by having your event action exit with a code other than zero (0), which indicates a successful action.  
+    > [!NOTE]
+    >If your pre-build or post-build event does not complete successfully, you can terminate the build by having your event action exit with a code other than zero (0), which indicates a successful action.  
   
 ## Example: How to change manifest information by using a post-build event  
  The following procedure shows how to set the minimum operating system version in the application manifest by using an *.exe* command that is called from a post-build event (the *.exe.manifest* file in the project directory). The minimum operating system version is a four-part number such as 4.10.0.0. To do this, the command will change the `<dependentOS>` section of the manifest:  
@@ -149,7 +150,7 @@ Use build events to specify commands that run before the build starts or after t
   
 3.  With the project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.  
   
-4.  In the **Project Designer**, locate the **Publish** page and set **Publishing location** to *C:\TEMP\*.  
+4.  In the **Project Designer**, locate the **Publish** page and set **Publishing location** to *C:\TEMP*.  
   
 5.  Publish the project by clicking **Publish Now**.  
   
@@ -169,7 +170,7 @@ Use build events to specify commands that run before the build starts or after t
   
      When you build the project, this command will change the minimum operating system version in the application manifest to 5.1.2600.0.  
   
-     Because the `$(TargetPath)` macro expresses the full path for the executable being created,  the `$(TargetPath)`.manifest will specify the application manifest created in the *bin* directory. Publishing will copy this manifest to the publishing location that you set earlier.  
+     Because the `$(TargetPath)` macro expresses the full path for the executable being created,  the `$(TargetPath)`*.manifest* will specify the application manifest created in the *bin* directory. Publishing will copy this manifest to the publishing location that you set earlier.  
   
 8.  Publish the project again. Go to the **Publish** page and click **Publish Now**.  
   

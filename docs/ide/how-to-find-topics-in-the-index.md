@@ -50,7 +50,7 @@ Using the index is a straight-forward process; however, understanding how to bes
   
 -   Reverse the words you enter if you do not find the entries you expect.  
   
-    For example, if "debugging inline assembly code" did not display any relevant entries, try typing, "assembly code debugging inline".  
+    For example, if "debugging inline assembly code" did not display any relevant entries, try typing, "assembly code, debugging inline".  
   
 -   Use filters with the **Index** tab to decrease the number of results.  
   

@@ -23,7 +23,7 @@ Visual Studio allows you to specify how more than one project is run when you st
 
 ### To set multiple startup projects  
 
-1.  In the **Solution Explorer**, select the solution (the very top node).  
+1.  In the **Solution Explorer**, select the solution (the top node).  
 
 2.  Choose the solution node's context (right-click) menu and then choose **Properties**. The **Solution Property Pages** dialog box appears.  
 
@@ -33,7 +33,5 @@ Visual Studio allows you to specify how more than one project is run when you st
 
 ## See also  
  [Compile and build](../ide/compiling-and-building-in-visual-studio.md)
-
  [Create solutions and projects](../ide/creating-solutions-and-projects.md)
-
  [Manage project and solution properties](../ide/managing-project-and-solution-properties.md)

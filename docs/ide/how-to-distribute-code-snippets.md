@@ -58,7 +58,7 @@ In this procedure we will use the same Hello World code snippet created in [Walk
 
 #### Set up the directory structure  
 
-1.  In the **Solution Explorer**, select the project node and add a folder that has the name you want the snippet to have in the **Code Snippets Manager**. In this case it should be **HelloWorldVB**.  
+1.  In the **Solution Explorer**, select the project node and add a folder that has the name you want the snippet to have in the **Code Snippets Manager**. In this case, it should be **HelloWorldVB**.  
 
 2.  Move the *.snippet* file to the *HelloWorldVB* folder.  
 
@@ -66,9 +66,9 @@ In this procedure we will use the same Hello World code snippet created in [Walk
 
 #### Add the .pkgdef file  
 
-1.  Add a text file to the *HelloWorldVB* folder and name it *HelloWorldVB.pkgdef*. This file is used to add certain keys to the registry. In this case, it adds a new key to  
+1.  Add a text file to the *HelloWorldVB* folder and name it *HelloWorldVB.pkgdef*. This file is used to add certain keys to the registry. In this case, it adds a new key to:  
 
-     *HKCU\Software\Microsoft\VisualStudio\15.0\Languages\CodeExpansions\Basic*.  
+     `HKCU\Software\Microsoft\VisualStudio\15.0\Languages\CodeExpansions\Basic`  
 
 2.  Add the following lines to the file.  
 

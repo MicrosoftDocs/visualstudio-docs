@@ -22,7 +22,7 @@ manager: ghogen
 Creating a web template is different than creating other kinds of templates. Because web project templates appear in the **Add New Web Site** dialog box, and web project items are categorized by programming language, the *.vstemplate* file must specify the template as a web template and identify the programming language.
 
 > [!NOTE]
-> Web templates must contain an empty *.webproj* file, and it must be referenced in the *.vstemplate* file in the `File` attribute of the `Project` element. Although Web projects do not require a *.\*proj* project file, it's necessary to create this stub file for the web template to function correctly.
+> Web templates must contain an empty *.webproj* file, and it must be referenced in the *.vstemplate* file in the `File` attribute of the `Project` element. Although Web projects do not require a *.proj* project file, it's necessary to create this stub file for the web template to function correctly.
 
 ### To manually create a web template
 

@@ -129,7 +129,7 @@ Build events in Visual Basic can be used to run scripts, macros, or other action
 2.  In the **New Project** dialog box, in the **Visual Basic** node, select **Windows Classic Desktop** and then the **Windows Forms App** template. Name the project `VBWinApp`.  
 3.  With the project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.  
   
-4.  In the **Project Designer**, go to the **Publish** page and set **Publishing location** to *C:\TEMP\*.  
+4.  In the **Project Designer**, go to the **Publish** page and set **Publishing location** to *C:\TEMP*.  
   
 5.  Publish the project by clicking **Publish Now**.  
   
@@ -165,5 +165,5 @@ Build events in Visual Basic can be used to run scripts, macros, or other action
 
 [Compile page, Project Designer (Visual Basic)](../ide/reference/compile-page-project-designer-visual-basic.md)   
 [Publish page, Project Designer](../ide/reference/publish-page-project-designer.md)   
-[Pre-build event/post-build event command line dialog box](../ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md)   
+[Pre-build event/Post-build event command line dialog box](../ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md)   
 [How to: Specify build events (C#)](../ide/how-to-specify-build-events-csharp.md)

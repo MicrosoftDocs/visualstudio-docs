@@ -30,7 +30,7 @@ In the **Contents** tab, you can use the table of contents (TOC) to find informa
 >  The scope of topics available in the TOC depends on the filter you have selected.  
   
 ## Filter the TOC  
-You can filter the TOC to narrow the scope of topics that appear in the **Contents** tab. Titles appear in the list only if they contain the root of the term that you specify. For example, if you specify "troubleshooting" as a filter, only titles that contain "troubleshoot" or "troubleshooting" appear. Nodes whose titles don't contain the term are collapsed to a single node with an ellipsis (...).  
+You can filter the TOC to narrow the scope of topics that appear in the **Contents** tab. Titles appear in the list only if they contain the root of the term that you specify. For example, if you specify "troubleshooting" as a filter, only titles that contain "troubleshoot" or "troubleshooting" appear. Nodes whose titles don't contain the term are collapsed to a single node with an ellipsis (**...**).  
   
 #### To filter the TOC  
   

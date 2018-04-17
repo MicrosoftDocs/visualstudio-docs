@@ -35,7 +35,7 @@ This article shows you how to create an item template by using the **Export Temp
 
 1. On the **Select Template Options** page, enter the template name and optional description, icon image and preview image, and then choose **Finish**.
 
-    The files for the template are added to a .zip file and copied to the directory you specified in the wizard. The default location is *%USERPROFILE%\Documents\Visual Studio \<version\>\My Exported Templates*.
+    The files for the template are added to a *.zip* file and copied to the directory you specified in the wizard. The default location is *%USERPROFILE%\Documents\Visual Studio \<version\>\My Exported Templates*.
 
 1. If you did not select the option **Automatically import the template into Visual Studio** in the **Export Template Wizard**, locate the exported template. Then, copy it to the user item template directory. The default location is *%USERPROFILE%\Documents\Visual Studio \<version\>\Templates\ItemTemplates*.
 
@@ -114,7 +114,7 @@ In some cases you may want to create an item template manually, from scratch.
 
 1. Create an XML file and save it with a *.vstemplate* file extension in the same directory as your project item file.
 
-1. Edit the *.vstemplate* XML file to provide item template metadata. For more information, see [Template schema reference (Extensibility)](../extensibility/visual-studio-template-schema-reference.md) and the example in the previous section.
+1. Edit the *.vstemplate* XML file to provide item template metadata. For more information, see [Template schema reference (extensibility)](../extensibility/visual-studio-template-schema-reference.md) and the example in the previous section.
 
 1. Save the *.vstemplate* file and close it.
 
@@ -126,4 +126,4 @@ In some cases you may want to create an item template manually, from scratch.
 
 [Create project and item templates](../ide/creating-project-and-item-templates.md)  
 [How to: Create multi-file item templates](../ide/how-to-create-multi-file-item-templates.md)  
-[Visual Studio template schema reference (Extensibility)](../extensibility/visual-studio-template-schema-reference.md)
+[Visual Studio template schema reference (extensibility)](../extensibility/visual-studio-template-schema-reference.md)

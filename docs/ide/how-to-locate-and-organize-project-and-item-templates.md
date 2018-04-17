@@ -35,7 +35,7 @@ If you add a compressed (*.zip*) file that includes a *.vstemplate* file to the 
 
 For example, the following directory has user project templates for C#:
 
-   *C:\Users\UserName\Documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#\*
+- *C:\Users\UserName\Documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#\*
 
 > [!TIP]
 > You can set the location for user templates in **Tools** > **Options** > **Projects and Solutions** > **Locations**.
@@ -44,13 +44,13 @@ For example, the following directory has user project templates for C#:
 
 By default, templates installed with Visual Studio are located in:
 
-- *\\<VisualStudioInstallationDirectory>\Common7\IDE\ItemTemplates\\<Programming Language>\\<Locale ID>*
+- *\\<VisualStudioInstallationDirectory\>\Common7\IDE\ItemTemplates\\<Programming Language\>\\<Locale ID>*
 
-- *\\<VisualStudioInstallationDirectory>\Common7\IDE\ProjectTemplates\\<Programming Language>\\<Locale ID>*
+- *\\<VisualStudioInstallationDirectory\>\Common7\IDE\ProjectTemplates\\<Programming Language\>\\<Locale ID>*
 
 For example, the following directory has the Visual Basic item templates for English (LCID 1033):
 
-   *C:\<VisualStudioInstallationDirectory>\Common7\IDE\ItemTemplates\VisualBasic\1033\*
+- *C:\\<VisualStudioInstallationDirectory\>\Common7\IDE\ItemTemplates\VisualBasic\1033\*
 
 ## Organize templates
 
@@ -63,7 +63,7 @@ The categories in the **New Project** and **Add New Item** dialog boxes reflect 
 
 1. Create a folder in the programming language folder in the user project template directory. For example, to establish a **HelloWorld** category for C# project templates, create the following directory:
 
-    *\%USERPROFILE%\Documents\Visual Studio \<Version\>\Templates\ProjectTemplates\Visual C#\HelloWorld\*
+- *\%USERPROFILE%\Documents\Visual Studio \<Version\>\Templates\ProjectTemplates\Visual C#\HelloWorld\*
 
 1. Place all the templates for this category in the new folder.
 
@@ -75,7 +75,7 @@ The categories in the **New Project** and **Add New Item** dialog boxes reflect 
 
 1. Create a folder in the programming language folder in the user item template directory. For example, to establish a **HelloWorld** category for C# item templates, create the following directory:
 
-    *\%USERPROFILE%\Documents\Visual Studio \<Version\>\Templates\ItemTemplates\Visual C#\HelloWorld\*
+- *\%USERPROFILE%\Documents\Visual Studio \<Version\>\Templates\ItemTemplates\Visual C#\HelloWorld\*
 
 1. Place all the templates for this category in the new folder.
 

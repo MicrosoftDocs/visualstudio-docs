@@ -30,7 +30,7 @@ The following procedures describe how to use surround-with code snippets. Surrou
 
 1. Select the code snippet from the code snippet list using the mouse, or by typing the name of the code snippet and pressing **Tab** or **Enter**.
 
-## To use surround-with code snippets through the edit menu
+## To use surround-with code snippets through the Edit menu
 
 1. In the Visual Studio IDE, open the file that you intend to edit.
 
