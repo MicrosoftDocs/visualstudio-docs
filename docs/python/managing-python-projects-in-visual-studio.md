@@ -37,9 +37,9 @@ Visual Studio provides a variety of Python project templates to quickly set up a
 
 ## Adding files, assigning a startup file, and setting environments
 
-As you develop your application, you typically need to add new files of different types to the project. Adding such files is done by right-clicking the project and selecting **Add > Existing Item...**. with which you browse for a file to add, or **Add > New Item...**, which brings up a dialog with a variety of item templates. Templates include empty python files, a python class, a unit test, and various files related to web applications. You can explore these options with a test project to learn what's available in your version Visual Studio.
+As you develop your application, you typically need to add new files of different types to the project. Adding such files is done by right-clicking the project and selecting **Add** > **Existing Item** with which you browse for a file to add, or **Add** > **New Item**, which brings up a dialog with a variety of item templates. As described on the [item templates](python-item-templates.md) reference, options include empty python files, a python class, a unit test, and various files related to web applications. You can explore these options with a test project to learn what's available in your version Visual Studio.
 
-Each Python project has one assigned start-up file, shown in boldface in Solution Explorer. The startup file is the file that's run when you start debugging (F5 or **Debug > Start Debugging**) or when you run your project in the interactive window (Shift+Alt+F5 or **Debug > Execute Project in Python Interactive**). To change it, right-click the new file and select **Set as Startup File**.
+Each Python project has one assigned start-up file, shown in boldface in Solution Explorer. The startup file is the file that's run when you start debugging (F5 or **Debug** > **Start Debugging**) or when you run your project in the interactive window (Shift+Alt+F5 or **Debug** > **Execute Project in Python Interactive**). To change it, right-click the new file and select **Set as Startup File**.
 
 > [!Tip]
 > If you remove the selected startup file from a project and don't select a new one, Visual Studio won't know what Python file to start with when you try to run the project. In this case, Visual Studio 2017 version 15.6 and later shows an error; earlier versions either open an output window with the Python interpreter running, or you see the output window appears but then disappear almost immediately. If you encounter any of these behaviors, check that you have an assigned startup file.
@@ -54,7 +54,7 @@ A new project is always associated with the default global Python environment. T
 
 ## Project templates
 
-Visual Studio gives you a number of ways to set up a Python project, either from scratch or from existing code. To use a template, select the **File > New > Project...** menu command or right-click the solution in Solution Explorer and select **Add > New Project...**, both of which bring up the **New Project** dialog below. To see Python-specific templates, either search on "Python" or select the **Installed > Python** node:
+Visual Studio gives you a number of ways to set up a Python project, either from scratch or from existing code. To use a template, select the **File** > **New** > **Project** menu command or right-click the solution in Solution Explorer and select **Add** > **New Project**, both of which bring up the **New Project** dialog below. To see Python-specific templates, either search on "Python" or select the **Installed** > **Python** node:
 
 ![New project dialog with Python templates](media/projects-new-project-dialog.png)
 

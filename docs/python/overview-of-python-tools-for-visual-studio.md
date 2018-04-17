@@ -84,6 +84,7 @@ Project and item templates automate the process of setting up different types of
 For more information:
 
 - Docs: [Managing Python projects](managing-python-projects-in-visual-studio.md)
+- Docs: [Item templates reference](python-item-templates.md)
 - Docs: [Python project templates](managing-python-projects-in-visual-studio.md#project-templates)
 - Docs: [Working with C++ and Python](working-with-c-cpp-python-in-visual-studio.md)
 - General Visual Studio feature docs: [Project and item templates](../ide/creating-project-and-item-templates.md#visual-studio-templates)

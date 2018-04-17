@@ -1,7 +1,7 @@
 ---
 title: Web application templates for Python
 description: An overview of the Visual Studio templates for web applications written in Python using the Bottle, Flask, and Django frameworks, including debugging configurations and publishing to Azure App Service.
-ms.date: 07/13/2017
+ms.date: 04/17/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: conceptual
@@ -15,15 +15,15 @@ ms.workload:
 
 # Python web application project templates
 
-Python in Visual Studio supports developing web projects in Bottle, Flask, and Django frameworks through project templates and a debug launcher that can be configured to handle various frameworks. You can also use the generic **Web Project** template for other frameworks such as Pyramid.
+Python in Visual Studio supports developing web projects in Bottle, Flask, and Django frameworks through project templates and a debug launcher that can be configured to handle various frameworks. These templates include a `requirements.txt` file to declare the necessary dependencies. When creating a project from one of these templates, Visual Studio prompts you to install those packages (see below).
 
-Visual Studio does not include the frameworks themselves. You must install frameworks separately by right-clicking the project and selecting **Python > Install/upgrade framework...**.
+You can also use the generic "Web Project" template for other frameworks such as Pyramid. In this case, no frameworks are installed with the template. Instead, install the necessary packages into the environment you're using for the project (see [Managing Python environments](managing-python-environments-in-visual-studio.md)).
 
-When run, a project created from a template (as accessed through **File > New > Project...**) launches a web server with a randomly selected local port, opens your default browser when debugging, and allows direct publishing to Microsoft Azure.
+You create a project from a template using **File** > **New** > **Project**, selecting a template of your choice, and providing names for the project and solution.
 
-![New web project templates](media/template-web-new-project.png)
+![New project dialog](media/projects-new-project-dialog2.png)
 
-The Bottle, Flask, and Django templates each include a starter site with some pages and static files. This code is sufficient to run and debug the server locally (where some settings need to be obtained from the environment) and to deploy to Microsoft Azure (where a [WSGI app](http://www.python.org/dev/peps/pep-3333/) object needs to be provided).
+Visual Studio provides templates for the Bottle, Flask, and Django frameworks that include a starter site with multiple pages, static files, and a SQLite database. This code is sufficient to run and debug the server locally (where some settings need to be obtained from the environment) and to deploy to Microsoft Azure (where a [WSGI app](http://www.python.org/dev/peps/pep-3333/) object needs to be provided).
 
 When creating a project from a framework-specific template, a dialog appears to help you install the necessary packages using pip. We also recommend using a [virtual environment](selecting-a-python-environment-for-a-project.md#using-virtual-environments) for web projects so that the correct dependencies are included when you publish your web site:
 
@@ -31,13 +31,13 @@ When creating a project from a framework-specific template, a dialog appears to 
 
 When deploying to Microsoft Azure App Service, select a version of Python as a [site extension](https://aka.ms/PythonOnAppService) and manually install packages. Also, because Azure App Service does **not** automatically install packages from a `requirements.txt` file when deployed from Visual Studio, follow the configuration details on [aka.ms/PythonOnAppService](https://aka.ms/PythonOnAppService).
 
-Microsoft Azure Cloud Services *does* support the `requirements.txt` file. [Azure cloud service Projects](python-azure-cloud-service-project-template.md) for details.
+Microsoft Azure Cloud Services *does* support the `requirements.txt` file. See [Azure cloud service projects](python-azure-cloud-service-project-template.md) for details.
 
 ## Debugging
 
-When a web project is started for debugging, Visual Studio starts the web server locally and opens your default browser to that address and port. To specify additional options, right-click the project, select **Properties**, and select the **Web Launcher** tab:
+When a web project is started for debugging, Visual Studio starts a local web server on a random port and opens your default browser to that address and port. To specify additional options, right-click the project, select **Properties**, and select the **Web Launcher** tab:
 
-  ![Web launcher properties for the generic web template](media/template-web-launcher-properties.png)
+![Web launcher properties for the generic web template](media/template-web-launcher-properties.png)
 
 In the **Debug** group:
 
@@ -83,8 +83,8 @@ Pyramid apps are currently best created using the `pcreate` command-line tool. O
   - Arguments: `Production.ini`
 
 - **Debug Server Command** group:
-    - Command: `..\env\scripts\pserve-script.py` (script)
-    - Arguments: `Development.ini`
+  - Command: `..\env\scripts\pserve-script.py` (script)
+  - Arguments: `Development.ini`
 
 > [!Tip]
 > You likely need to configure the **Working Directory** property of your project because Pyramid apps are typically one directory level deeper than the top of the source tree.
