@@ -73,6 +73,6 @@ The LinqToXmlDataBinding program enables the user to view and manipulate a list 
 
 ## See also
 
-[WPF Data Binding Using LINQ to XML Example](../designers/wpf-data-binding-using-linq-to-xml-example.md)
-[Walkthrough: LinqToXmlDataBinding Example](../designers/walkthrough-linqtoxmldatabinding-example.md)
-[Visual Studio IDE Overview](../ide/visual-studio-ide.md)
+- [WPF Data Binding Using LINQ to XML Example](../designers/wpf-data-binding-using-linq-to-xml-example.md)
+- [Walkthrough: LinqToXmlDataBinding Example](../designers/walkthrough-linqtoxmldatabinding-example.md)
+- [Visual Studio IDE Overview](../ide/visual-studio-ide.md)

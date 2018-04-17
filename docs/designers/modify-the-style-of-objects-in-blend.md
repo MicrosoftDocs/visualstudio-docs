@@ -97,4 +97,4 @@ You can convert just about anything in your project to a resource. A resource is
 
 ## See also
 
-[Creating a UI by using Blend for Visual Studio](../designers/creating-a-ui-by-using-blend-for-visual-studio.md)
+- [Creating a UI by using Blend for Visual Studio](../designers/creating-a-ui-by-using-blend-for-visual-studio.md)
