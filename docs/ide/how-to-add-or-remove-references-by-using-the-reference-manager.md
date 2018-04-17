@@ -81,7 +81,7 @@ The **Assemblies** tab consists of two sub-tabs:
 
    And older versions of the [Target Framework Identifier]
 
-   For example, if a project targets the .NET Framework 4 on a 32-bit machine, **Extensions** will enumerate assemblies that are registered under *\Microsoft\.NETFramework\v4.0\AssemblyFoldersEx\*, *\Microsoft\.NETFramework\v3.5\AssemblyFoldersEx\*, *\Microsoft\.NETFramework\v3.0\AssemblyFoldersEx\*, and *\Microsoft\.NETFramework\v2.0\AssemblyFoldersEx\*.
+   For example, if a project targets the .NET Framework 4 on a 32-bit machine, **Extensions** will enumerate assemblies that are registered under *\Microsoft\.NETFramework\v4.0\AssemblyFoldersEx*, *\Microsoft\.NETFramework\v3.5\AssemblyFoldersEx*, *\Microsoft\.NETFramework\v3.0\AssemblyFoldersEx*, and *\Microsoft\.NETFramework\v2.0\AssemblyFoldersEx*.
 
 Some components in the list may not be shown, depending on the .NET Framework version of your project. This can occur under the following conditions:
 
@@ -126,7 +126,7 @@ Some components in the list may not be shown, depending on the .NET Framework ve
 
    *\<AssemblyLocation\>* is the directory of the assemblies that you want to appear in the **Add Reference** dialog box, for example, *C:\MyAssemblies*.
 
-   Creating the registry key under the HKEY_LOCAL_MACHINE node allows all users to see the assemblies in the specified location in the **Add Reference** dialog box. Creating the registry key under the HKEY_CURRENT_USER node affects only the setting for the current user.
+   Creating the registry key under the `HKEY_LOCAL_MACHINE` node allows all users to see the assemblies in the specified location in the **Add Reference** dialog box. Creating the registry key under the `HKEY_CURRENT_USER` node affects only the setting for the current user.
 
    Open the **Add Reference** dialog box again. The assemblies should appear on the **.NET** tab. If they do not, make sure that the assemblies are located in the specified *AssemblyLocation* directory, restart Visual Studio, and try again.
 
