@@ -104,6 +104,9 @@ By default, `Microsoft.Common.props` imports `$(MSBuildProjectExtensionsPath)$(M
 
 This extensibility mechanism can be disabled by setting the property `ImportProjectExtensionProps` to `false` in a `Directory.Build.props` or before importing `Microsoft.Common.props`.
 
+> [!NOTE]
+> Disabling MSBuildProjectExtensionsPath imports will prevent build logic delivered in NuGet packages from applying to your project. Some NuGet packages require build logic to perform their function and will be rendered useless when this is disabled.
+
 ## MSBuildExtensionsPath and MSBuildUserExtensionsPath
 
 > [!WARNING]
