@@ -123,7 +123,7 @@ $(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\{TargetFileName}\ImportAfter\*.t
 
 afterward. This allows installed SDKs to augment the build logic of common project types.
 
-The same directory structure is searched in `$(MSBuildUserExtensionsPath)`, which is the per-user folder `%LOCALAPPDATA%\Microsoft\MSBuild`. Files placed in that folder will be imported for all builds of the corresponding project type run under that user's credentials.
+The same directory structure is searched in `$(MSBuildUserExtensionsPath)`, which is the per-user folder `%LOCALAPPDATA%\Microsoft\MSBuild`. Files placed in that folder will be imported for all builds of the corresponding project type run under that user's credentials. The user extensions can be disabled by setting properties named after the importing file in the pattern `ImportUserLocationsByWildcardBefore{ImportingFileNameWithNoDots}`. For example, setting `ImportUserLocationsByWildcardBeforeMicrosoftCommonProps` to `false` would prevent importing `$(MSBuildUserExtensionsPath)\$(MSBuildToolsVersion)\Imports\Microsoft.Common.props\ImportBefore\*`.
 
 ## Customizing the solution build
 
