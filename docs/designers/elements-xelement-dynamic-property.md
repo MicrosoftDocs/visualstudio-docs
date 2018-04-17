@@ -2,7 +2,7 @@
 title: Elements (XElement Dynamic Property)
 ms.date: "11/04/2016"
 ms.technology: vs-ide-designers
-ms.topic: "conceptual"
+ms.topic: reference
 apiname:
   - "XElement.Elements"
 apitype: "Assembly"
@@ -14,6 +14,7 @@ ms.workload:
   - "multiple"
 ---
 # Elements (XElement Dynamic Property)
+
 Gets an indexer used to retrieve the child elements of the current element that match the specified expanded name.
 
 ## Syntax
@@ -23,16 +24,19 @@ elem.Elements[{namespaceName}localName]
 ```
 
 ## Property Value/Return Value
- An indexer of the type `IEnumerable<XElement> Item(String expandedName)`. This indexer takes the expanded name of the desired child elements and returns the matching child elements in an <xref:System.Collections.IEnumerable>`<`<xref:System.Xml.Linq.XElement>`>` collection.
+
+An indexer of the type `IEnumerable<XElement> Item(String expandedName)`. This indexer takes the expanded name of the desired child elements and returns the matching child elements in an <xref:System.Collections.IEnumerable>`<`<xref:System.Xml.Linq.XElement>`>` collection.
 
 ## Remarks
- This property is equivalent to the <xref:System.Xml.Linq.XContainer.Elements(System.Xml.Linq.XName)?displayProperty=fullName> method of the <xref:System.Xml.Linq.XContainer> class.
 
- The elements in the returned collection are in XML source document order.
+This property is equivalent to the <xref:System.Xml.Linq.XContainer.Elements(System.Xml.Linq.XName)?displayProperty=fullName> method of the <xref:System.Xml.Linq.XContainer> class.
 
- This property uses deferred execution.
+The elements in the returned collection are in XML source document order.
 
-## See Also
- [XElement Class Dynamic Properties](../designers/xelement-class-dynamic-properties.md)
- [Element](../designers/element-xelement-dynamic-property.md)
- [Descendants](../designers/descendants-xelement-dynamic-property.md)
+This property uses deferred execution.
+
+## See also
+
+- [XElement Class Dynamic Properties](../designers/xelement-class-dynamic-properties.md)
+- [Element](../designers/element-xelement-dynamic-property.md)
+- [Descendants](../designers/descendants-xelement-dynamic-property.md)

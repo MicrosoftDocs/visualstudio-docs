@@ -2,7 +2,7 @@
 title: Filter Nodes
 ms.date: "11/04/2016"
 ms.technology: vs-ide-designers
-ms.topic: "conceptual"
+ms.topic: reference
 ms.assetid: f7cae2dc-e9a7-49d4-8be5-58b79868624e
 author: gewarren
 ms.author: gewarren
@@ -10,7 +10,8 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Filter Nodes
+# Filter nodes
+
 In the Shader Designer, filter nodes transform an input—for example, a color or texture sample—into a figurative color value. These figurative color values are commonly used in non-photorealistic rendering or as components in other visual effects.
 
 ## Filter node reference

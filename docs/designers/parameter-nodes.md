@@ -2,7 +2,7 @@
 title: Parameter Nodes
 ms.date: "11/04/2016"
 ms.technology: vs-ide-designers
-ms.topic: "conceptual"
+ms.topic: reference
 ms.assetid: da54db0b-3a3d-48dc-858c-7ac43aa04b13
 author: gewarren
 ms.author: gewarren
@@ -11,6 +11,7 @@ ms.workload:
   - "multiple"
 ---
 # Parameter Nodes
+
 In the Shader Designer, parameter nodes represent inputs to the shader that are under the control of the app on a per-draw basis, for example, material properties, directional lights, camera position, and time. Because you can change these parameters with each draw call, you can use the same shader to give an object different appearances.
 
 ## Parameter node reference

@@ -2,7 +2,7 @@
 title: L2DBForm.xaml.cs Source Code
 ms.date: "11/04/2016"
 ms.technology: vs-ide-designers
-ms.topic: "conceptual"
+ms.topic: sample
 ms.assetid: 5a40dad3-6763-4576-b3ad-874df3f2c8d9
 author: gewarren
 ms.author: gewarren
@@ -11,10 +11,12 @@ ms.workload:
   - "multiple"
 ---
 # L2DBForm.xaml.cs Source Code
+
 This topic contains the contents and description of the C# source code in the file L2DBForm.xaml.cs. The L2XDBForm partial class contained in this file can be divided into three logical sections: data members and the `OnRemove` and `OnAddBook` button click event handlers.
 
 ## Data Members
- Two private data members are used to associate this class to the window resources used in L2DBForm.xaml.
+
+Two private data members are used to associate this class to the window resources used in L2DBForm.xaml.
 
 -   The namespace variable `myBooks` is initialized to `"http://www.mybooks.com"`.
 
@@ -25,7 +27,8 @@ This topic contains the contents and description of the C# source code in the fi
     ```
 
 ## OnAddBook Event Handler
- This method contains the following three statements:
+
+This method contains the following three statements:
 
 -   The first conditional statement is used for input validation.
 
@@ -34,9 +37,10 @@ This topic contains the contents and description of the C# source code in the fi
 -   The last statement adds this new book element to the data provider in L2DBForm.xaml. Consequently, dynamic data binding will automatically update the UI with this new item; no extra user-supplied code is required.
 
 ## OnRemove Event Handler
- The `OnRemove` handler is more complicated than the `OnAddBook` handler for two reasons. First, because the raw XML contains preserved white space, matching newlines must also be removed with the book entry. Second, as a convenience, the selection, which was on the deleted item, is reset to the previous one in the list.
 
- However the core work of removing the selected book item is accomplished by only two statements:
+The `OnRemove` handler is more complicated than the `OnAddBook` handler for two reasons. First, because the raw XML contains preserved white space, matching newlines must also be removed with the book entry. Second, as a convenience, the selection, which was on the deleted item, is reset to the previous one in the list.
+
+However the core work of removing the selected book item is accomplished by only two statements:
 
 -   First, the book element associated with the currently selected item in the list box is retrieved:
 
@@ -50,11 +54,9 @@ This topic contains the contents and description of the C# source code in the fi
     selBook.Remove();
     ```
 
- Again, dynamic data binding assures that the program's UI is automatically updated.
+Again, dynamic data binding assures that the program's UI is automatically updated.
 
 ## Example
-
-### Description
 
 ### Code
 
@@ -127,8 +129,10 @@ namespace LinqToXmlDataBinding {
 ```
 
 ### Comments
- For the associated XAML source for these handlers, see [L2DBForm.xaml Source Code](../designers/l2dbform-xaml-source-code.md).
 
-## See Also
- [Walkthrough: LinqToXmlDataBinding Example](../designers/walkthrough-linqtoxmldatabinding-example.md)
- [L2DBForm.xaml Source Code](../designers/l2dbform-xaml-source-code.md)
+For the associated XAML source for these handlers, see [L2DBForm.xaml Source Code](../designers/l2dbform-xaml-source-code.md).
+
+## See also
+
+- [Walkthrough: LinqToXmlDataBinding Example](../designers/walkthrough-linqtoxmldatabinding-example.md)
+- [L2DBForm.xaml Source Code](../designers/l2dbform-xaml-source-code.md)
