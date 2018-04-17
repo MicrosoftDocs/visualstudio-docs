@@ -123,5 +123,7 @@
     href: using-python-cookiecutter-templates.md
 - name: Reference
   items:
+  - name: Item templates
+    href: python-item-templates.md
   - name: Options
     href: python-support-options-and-settings-in-visual-studio.md
