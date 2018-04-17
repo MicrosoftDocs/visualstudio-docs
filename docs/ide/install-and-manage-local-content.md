@@ -34,9 +34,9 @@ ms.workload:
 # Install and manage local content
 By using the Microsoft Help Viewer, you can add, remove, update, and move the Help content that is installed on your computer to fit your software development needs.  
   
-To manage content on your local computer, you must log on with an account that has administrator permissions. In addition, you might not be able to manage local content if you work in an enterprise environment, because system administrators might make those decisions for your organization. For more information, see the [Help Viewer Administrator Guide](../ide/help-viewer-administrator-guide.md).  
+To manage content on your local computer, you must log on with an account that has administrator permissions. In addition, you might not be able to manage local content if you work in an enterprise environment, because system administrators might make those decisions for your organization. For more information, see the [Help Viewer administrator guide](../ide/help-viewer-administrator-guide.md).  
   
-## Changing the content installation source  
+## Change the content installation source  
 By default, the Help Viewer installs content by using a Microsoft online service as the source. You generally shouldn't change your content source unless you work in an enterprise environment for which a system administrator has already installed content in another location.  
   
 #### To change the content installation source  
@@ -44,13 +44,13 @@ By default, the Help Viewer installs content by using a Microsoft online service
 1.  On the **Manage Content** tab, choose the **Disk** option button.  
   
     > [!NOTE]
-    >  The **Disk** option isn't available if your administrator has prevented you from modifying the content installation source. For more information, see the [Help Viewer Administrator Guide](../ide/help-viewer-administrator-guide.md).  
+    >  The **Disk** option isn't available if your administrator has prevented you from modifying the content installation source. For more information, see the [Help Viewer administrator guide](../ide/help-viewer-administrator-guide.md).  
   
 2.  Perform one of the following steps:  
   
-    -   Enter the path of an .msha file or the URL of a service endpoint.  
+    -   Enter the path of an *.msha* file or the URL of a service endpoint.  
   
-    -   Choose the Browse (**...**) button to navigate to an .msha file.  
+    -   Choose the Browse (**...**) button to navigate to an *.msha* file.  
   
     -   In the list, choose the entry that was used most recently.  
   
@@ -75,7 +75,7 @@ If you download and install content on your local computer, you can view topics 
   
      The book or books that you specified are installed along with any updates for books that you already have on your computer. Installation times vary, but you can view the progress in the status bar.  
   
-## Removing local content  
+## Remove local content  
 You can save disk space by removing unwanted content from your computer.  
   
 > [!IMPORTANT]
@@ -96,11 +96,11 @@ You can save disk space by removing unwanted content from your computer.
   
      The book or books that you specified are removed from your computer.  
   
-## Updating local content  
+## Update local content  
  The status bar indicates when updates to your installed content are available.  
   
 > [!IMPORTANT]
->  If you want the Help Viewer to automatically check for online updates, you must open the **Viewer Options** dialog box and then select the **Go online to check for content updates** check box.  
+>  If you want the **Help Viewer** to automatically check for online updates, you must open the **Viewer Options** dialog box and then select the **Go online to check for content updates** check box.  
   
 #### To update local content  
   
@@ -108,7 +108,7 @@ You can save disk space by removing unwanted content from your computer.
   
  Update times can vary, but you can view the update progress in the status bar.  
   
-## Moving local content  
+## Move local content  
  You can save disk space by moving installed content from your local computer to a network share or to another partition on your local computer.  
   
 > [!IMPORTANT]

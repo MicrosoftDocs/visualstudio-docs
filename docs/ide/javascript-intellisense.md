@@ -40,7 +40,7 @@ ms.workload:
 
 For more information about the general IntelliSense functionality of Visual Studio, see [Using IntelliSense](../ide/using-intellisense.md).
 
-## What's New in the JavaScript language service in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]
+## What's new in the JavaScript language service in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]
 
 Starting in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)], JavaScript IntelliSense displays a lot more information on parameter and member lists.
 This new information is provided by the TypeScript language service, which uses static analysis behind the scenes to better understand your code.
@@ -111,11 +111,11 @@ function Foo(param1) {
 }
 ```
 
-See [this doc](https://github.com/Microsoft/TypeScript/wiki/JsDoc-support-in-JavaScript) for the JsDoc annotations currently supported.
+See [JSDoc support in JavaScript](https://github.com/Microsoft/TypeScript/wiki/JsDoc-support-in-JavaScript) for the JsDoc annotations currently supported.
 
-### <a name="TsDeclFiles"></a> IntelliSense based on TypeScript Declaration Files
+### <a name="TsDeclFiles"></a> IntelliSense based on TypeScript declaration files
 
-Because JavaScript and TypeScript are now based on the same language service, they are able to interact in a richer way. For example, JavaScript IntelliSense can be provided for values declared in a `.d.ts` file ([more info](https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html)), and types such as interfaces and classes declared in TypeScript are available for use as types in JsDoc comments. 
+Because JavaScript and TypeScript are now based on the same language service, they are able to interact in a richer way. For example, JavaScript IntelliSense can be provided for values declared in a `.d.ts` file (see [TypeScript documentation](https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html)), and types such as interfaces and classes declared in TypeScript are available for use as types in JsDoc comments. 
 
 Below, we show a simple example of a TypeScript definition file providing such type information (via an interface) to a JavaScript file in the same project (using a JsDoc tag).
 

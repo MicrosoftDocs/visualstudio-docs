@@ -26,19 +26,19 @@ You can call external tools from inside Visual Studio by using the **Tools** men
 
 The **Tools** menu contains several built-in commands, such as:
 
-* **Extensions and Updates** for [managing Visual Studio Extensions](finding-and-using-visual-studio-extensions.md)
-* **Code Snippets Manager...** for [organizing Code Snippets](code-snippets.md)
-* **PreEmptive Protection - Dotfuscator** for launching [Dotfuscator Community Edition (CE)](dotfuscator/index.md) if it is [installed](dotfuscator/install.md)
-* **Customize...** for [customizing menus and toolbars](how-to-customize-menus-and-toolbars-in-visual-studio.md)
-* **Options...** for [setting a variety of different options for the Visual Studio IDE and other tools](reference/options-dialog-box-visual-studio.md)
+* **Extensions and Updates** to [Manage Visual Studio Extensions](finding-and-using-visual-studio-extensions.md)
+* **Code Snippets Manager** to [Organize Code Snippets](code-snippets.md)
+* **PreEmptive Protection - Dotfuscator** to launch [Dotfuscator Community Edition (CE)](dotfuscator/index.md) if it is [installed](dotfuscator/install.md)
+* **Customize** to [Customize menus and toolbars](how-to-customize-menus-and-toolbars-in-visual-studio.md)
+* **Options** to [Set a variety of different options for the Visual Studio IDE and other tools](reference/options-dialog-box-visual-studio.md)
 
 ## Add new tools to the Tools menu
 
 You can add an external tool to appear on the **Tools** menu.
 
-1. Open the **External Tools** dialog box by choosing **Tools** > **External Tools...**.
+1. Open the **External Tools** dialog box by choosing **Tools** > **External Tools**.
 
-1. Click **Add**, and then fill in the information. For example, the following entry causes Windows Explorer to open at the directory of the file you currently have open in Visual Studio:
+1. Click **Add**, and then fill in the information. For example, the following entry causes **Windows Explorer** to open at the directory of the file you currently have open in Visual Studio:
 
    * Title: `Open File Location`
 
@@ -70,8 +70,8 @@ The following is a full list of arguments that can be used when defining an exte
 |Solution File Name|$(SolutionFileName)|The file name of the current solution (drive + path + file name).|
 
 > [!NOTE]
-> The IDE status bar displays the Current Line and Current Column variables to indicate where the insertion point is located in the active Code Editor. The Current Text variable returns the text or code selected at that location.
+> The IDE status bar displays the **Current Line** and **Current Column** variables to indicate where the insertion point is located in the active **Code Editor**. The **Current Text** variable returns the text or code selected at that location.
 
 ## See also
 
-[C/C++ Build Tools](/cpp/build/reference/c-cpp-build-tools)
+[C/C++ build tools](/cpp/build/reference/c-cpp-build-tools)

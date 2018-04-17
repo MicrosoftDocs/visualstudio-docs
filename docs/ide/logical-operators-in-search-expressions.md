@@ -20,7 +20,7 @@ ms.workload:
   - "multiple"
 ---
 # Logical and advanced operators in search expressions
-You can use logical operators and advanced search operators to refine your search of the Help content in Help Viewer.
+You can use logical operators and advanced search operators to refine your search of the Help content in **Help Viewer**.
 
 ## Logical operators
 Logical operators specify how multiple search terms should be combined in a search query. The following table shows the logical operators AND, OR, NOT and NEAR.
@@ -49,7 +49,7 @@ Advanced search operators refine your search for content by specifying where in 
 > You must enter advanced search operators with a final colon and no intervening space before the colon for the search engine to recognize them.    
 
 ### Programming languages for code examples
-You can use the **code:** operator to find content about any of several programming languages. To return examples for a specific programming language, use one of the following programming language values:  
+You can use the `code:` operator to find content about any of several programming languages. To return examples for a specific programming language, use one of the following programming language values:  
 
 |Programming Language|Search operator syntax|  
 |--------------------|---------|  
@@ -61,8 +61,8 @@ You can use the **code:** operator to find content about any of several programm
 |XAML|code:xaml|
 
 > [!NOTE]
-> The **code:** operator only finds content that is marked up with a programming language label, as opposed to content that is generically marked up as code. 
+> The `code:` operator only finds content that is marked up with a programming language label, as opposed to content that is generically marked up as code. 
   
-## See 
-[How to: search for topics](how-to-search-for-topics.md)  
+## See also
+[How to: Search for topics](how-to-search-for-topics.md)  
 [Microsoft Help Viewer](microsoft-help-viewer.md)
