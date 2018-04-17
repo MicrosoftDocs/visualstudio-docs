@@ -41,9 +41,9 @@ Navigate backward and navigate forward cycle through the open files in the edito
   
 #### To move through open files in order of use  
   
--   To activate open documents in the order they were most recently touched, press **Ctrl**+**(-)**.  
+-   To activate open documents in the order they were most recently touched, press **Ctrl**+**-**.  
   
--   To activate open documents in the reverse order, press **Ctrl**+**Shift**+**(-)**.  
+-   To activate open documents in the reverse order, press **Ctrl**+**Shift**+**-**.  
   
     > [!NOTE]
     > **Navigate Backward** and **Navigate Forward** also can be found on the **View** menu.  
