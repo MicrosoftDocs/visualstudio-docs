@@ -2,9 +2,8 @@
 title: "Error: You do not have permission to inspect the process&#39;s identity | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
-ms.topic: "reference"
+ms.technology: "vs-ide-debug"
+ms.topic: "troubleshooting"
 dev_langs: 
   - "CSharp"
   - "VB"

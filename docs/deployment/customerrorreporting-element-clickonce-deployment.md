@@ -2,8 +2,7 @@
 title: "&lt;customErrorReporting&gt; Element (ClickOnce Deployment) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-deployment"
+ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -12,9 +11,9 @@ dev_langs:
 helpviewer_keywords: 
   - "<customErrorReporting> element [ClickOnce deployment manifest]"
 ms.assetid: 7d31816e-c692-46b5-9cc9-753284b3bcda
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

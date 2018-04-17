@@ -3,8 +3,7 @@ title: "View a snapshot using IntelliTrace step-back - Visual Studio  | Microsof
 ms.description: "Learn how to take snapshots, and view snapshots with IntelliTrace step-back"
 ms.custom: "mvc"
 ms.date: "12/06/2017"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "tutorial"
 ms.assetid: 7c60d929-d993-49dc-9db3-43b30be9912b
 author: "mikejo5000"

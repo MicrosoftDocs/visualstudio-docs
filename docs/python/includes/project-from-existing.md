@@ -1,5 +1,5 @@
 ---
-ms.topic: "include"
+ms.topic: include
 ---
 1. Launch Visual Studio and select **File > New > Project**.
 

@@ -2,8 +2,7 @@
 title: "Run UWP apps on a remote machine | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/05/2018"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"

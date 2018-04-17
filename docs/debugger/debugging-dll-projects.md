@@ -2,8 +2,7 @@
 title: "Debugging DLL projects | Microsoft Docs"
 ms.custom: ""
 ms.date: "05/23/2017"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"

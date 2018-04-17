@@ -2,8 +2,7 @@
 title: "&lt;Product&gt; Element (Bootstrapper) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-deployment"
+ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs: 
   - "FSharp"
@@ -13,9 +12,9 @@ dev_langs:
 helpviewer_keywords: 
   - "<product> element [bootstrapper]"
 ms.assetid: 52b414af-ec80-4d2f-ad14-902543cd268e
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---
