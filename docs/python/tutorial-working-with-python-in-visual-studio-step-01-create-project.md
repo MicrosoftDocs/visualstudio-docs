@@ -4,8 +4,6 @@ description: Step 1 of a core tutorial for working with Python within Visual Stu
 ms.date: 01/16/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
-dev_langs:
-  - python
 ms.topic: tutorial
 author: kraigb
 ms.author: kraigb

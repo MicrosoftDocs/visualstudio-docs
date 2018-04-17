@@ -4,6 +4,7 @@ description: Reference for the options in Visual Studio for the R language and a
 ms.date: 12/04/2017
 ms.prod: visual-studio-dev15
 ms.technology: vs-rtvs
+ms.topic: reference
 dev_langs:
   - R
 f1_keywords: 
@@ -11,7 +12,6 @@ f1_keywords:
   - "vs.toolsoptionspages.r_tools"
   - "vs.toolsoptionspages.r_tools.advanced"
   - "vs.toolsoptionspages.r_tools.#150"
-ms.topic: reference
 author: kraigb
 ms.author: kraigb
 manager: douge

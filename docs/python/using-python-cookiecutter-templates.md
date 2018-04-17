@@ -4,8 +4,6 @@ description: Visual Studio supports the graphical Cookiecutter extension to disc
 ms.date: 07/12/2017
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
-dev_langs:
-  - python
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb

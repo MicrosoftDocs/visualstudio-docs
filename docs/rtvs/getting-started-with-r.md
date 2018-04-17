@@ -4,8 +4,6 @@ description: A walkthrough of using R in Visual Studio including project creatio
 ms.date: 06/29/2017
 ms.prod: visual-studio-dev15
 ms.technology: vs-rtvs
-dev_langs:
-  - R
 ms.topic: tutorial
 author: kraigb
 ms.author: kraigb

@@ -4,8 +4,6 @@ description: Detailed instructions on how to install the Python Tools for Visual
 ms.date: 02/15/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
-dev_langs:
-  - python
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb

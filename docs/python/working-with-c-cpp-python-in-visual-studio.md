@@ -4,11 +4,7 @@ description: A walkthrough of creating a C++ extension for Python using Visual S
 ms.date: 04/03/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
-dev_langs:
-  - vs-python
-  - vs-cpp
 ms.topic: conceptual
-description: The process amd steps to write a C++ extension or module for Python in Visual Studio
 author: kraigb
 ms.author: kraigb
 manager: douge

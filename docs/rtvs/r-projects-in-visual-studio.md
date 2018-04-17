@@ -4,8 +4,6 @@ description: How to create an manager R projects in Visual Studio including prop
 ms.date: 06/29/2017
 ms.prod: visual-studio-dev15
 ms.technology: vs-rtvs
-dev_langs:
-  - R
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb

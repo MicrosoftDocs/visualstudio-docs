@@ -4,8 +4,6 @@ description: How Visual Studio provides the ability to load symbols for complete
 ms.date: 07/12/2017
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
-dev_langs:
-  - python
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb

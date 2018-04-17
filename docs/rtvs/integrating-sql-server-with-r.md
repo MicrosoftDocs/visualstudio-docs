@@ -4,9 +4,6 @@ description: Visual Studio supports creating and running SQL queries from R and 
 ms.date: 01/24/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-rtvs
-dev_langs:
-  - R
-  - SQL
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb

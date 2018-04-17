@@ -4,8 +4,6 @@ description: Visual Studio provides a full debugging experience for R including 
 ms.date: 01/24/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-rtvs
-dev_langs:
-  - R
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb

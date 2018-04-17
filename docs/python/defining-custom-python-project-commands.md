@@ -4,8 +4,6 @@ description: Demonstrates how to edit project and targets files to add custom co
 ms.date: 02/02/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
-dev_langs:
-  - python
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb

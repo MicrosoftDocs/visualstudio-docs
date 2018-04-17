@@ -4,7 +4,6 @@ description: You can use a requirements.txt file to manage a project's dependenc
 ms.date: 02/20/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
-ms.devlang: python
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb

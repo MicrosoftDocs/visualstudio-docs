@@ -4,8 +4,6 @@ description: How to troubleshoot problems when attempting to debug a Python appl
 ms.date: 07/12/2017
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
-dev_langs:
-  - python
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb

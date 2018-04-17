@@ -4,7 +4,6 @@ description: In Visual Studio Solution Explorer, you can assign a specific Pytho
 ms.date: 03/21/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
-ms.devlang: python
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb

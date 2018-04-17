@@ -4,8 +4,6 @@ description: Code snippets for R in Visual Studio provide shortcuts to quickly i
 ms.date: 01/24/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-rtvs
-dev_langs:
-  - R
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb

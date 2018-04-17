@@ -4,8 +4,6 @@ description: Setting up unit testing for Python code in Visual Studio to take fu
 ms.date: 07/13/2017
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
-dev_langs:
-  - python
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb

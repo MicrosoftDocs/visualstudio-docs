@@ -4,8 +4,6 @@ description: The Azure SDK for Python makes it easy to consume Microsoft Azure s
 ms.date: 01/22/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
-dev_langs:
-  - python
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb

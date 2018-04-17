@@ -4,8 +4,6 @@ description: How to easily refactor Python code in Visual Studio by renaming ide
 ms.date: 07/12/2017
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
-dev_langs:
-  - python
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb

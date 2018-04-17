@@ -4,8 +4,6 @@ description: How to install a Python interpreter and libraries on Azure App Serv
 ms.date: 09/13/2017
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
-dev_langs:
-  - python
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb

@@ -4,8 +4,6 @@ description: How to set up Docker containers for R and connect to them with Visu
 ms.date: 12/04/2017
 ms.prod: visual-studio-dev15
 ms.technology: vs-rtvs
-dev_langs:
-  - R
 ms.topic: conceptual
 author: kraigb  
 ms.author: kraigb

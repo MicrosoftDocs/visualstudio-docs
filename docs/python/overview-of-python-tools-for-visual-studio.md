@@ -4,8 +4,6 @@ description: Summary of features in Visual Studio, making it the best Python IDE
 ms.date: 04/06/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
-dev_langs:
-  - python
 ms.topic: overview
 author: kraigb
 ms.author: kraigb
