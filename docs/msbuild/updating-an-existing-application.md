@@ -18,7 +18,7 @@ Updating a project to use MSBuild 15 and the locator API requires a few changes 
 
 In order to ensure that MSBuild is loaded from a central location, you must not distribute its assemblies with your application.
 
-The mechanism for changing your project to avoid that depends on how you reference MSBuild.
+The mechanism for changing your project to avoid loading MSBuild from a central locations depends on how you reference MSBuild.
 
 #### Using NuGet packages (preferred)
 
@@ -28,7 +28,7 @@ Change your project file(s) to reference MSBuild assemblies from their NuGet pac
 
 The major and minor version of the MSBuild packages must be less than or equal to the minimum version of Visual Studio you wish to support. If you wish to support any version of Visual Studio 2017, reference package version `15.1.548`.
 
-For example,
+For example, you can use this XML:
 
 ```xml
 <ItemGroup>
@@ -39,7 +39,7 @@ For example,
 
 #### Using extension assemblies
 
-If you cannot use NuGet packages, you can reference MSBuild assemblies that are distributed with Visual Studio. If you reference MSBuild directly, ensure that it will not be copied to your ouput directory by setting `Copy Local` to `False`. In the project file this will look like
+If you cannot use NuGet packages, you can reference MSBuild assemblies that are distributed with Visual Studio. If you reference MSBuild directly, ensure that it will not be copied to your ouput directory by setting `Copy Local` to `False`. In the project file, this will look like the following:
 
 ```xml
     <Reference Include="Microsoft.Build, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
