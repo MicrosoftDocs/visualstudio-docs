@@ -34,7 +34,8 @@ Some keyboard shortcuts do not have associated menu items, which means that you 
 |Switch between open documents|Press CTRL+TAB|
 |Open the **Assets** panel|Press CTRL+PERIOD|
 
-## See Also
- [Keyboard shortcuts](../designers/keyboard-shortcuts-in-blend.md)
- [Pen tool modifier keys](../designers/pen-tool-modifier-keys-in-blend.md)
- [Direct Selection tool modifier keys](../designers/direct-selection-tool-modifier-keys-in-blend.md)
+## See also
+
+- [Keyboard shortcuts](../designers/keyboard-shortcuts-in-blend.md)
+- [Pen tool modifier keys](../designers/pen-tool-modifier-keys-in-blend.md)
+- [Direct Selection tool modifier keys](../designers/direct-selection-tool-modifier-keys-in-blend.md)

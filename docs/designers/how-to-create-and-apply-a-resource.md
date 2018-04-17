@@ -67,5 +67,6 @@ Styles and templates for elements in the XAML Designer are stored in reusable en
 
 3.  Modify options for the resource.
 
-## See Also
- [Creating a UI by using XAML Designer](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md)
+## See also
+
+- [Creating a UI by using XAML Designer](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md)
