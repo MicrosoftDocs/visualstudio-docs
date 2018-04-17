@@ -1,17 +1,16 @@
 ---
-title: "How to: Create or Update Standard Code Analysis Check-in Policies | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
+title: "How to: Create or Update Standard Code Analysis Check-in Policies"
+ms.date: 11/04/2016
 ms.technology: vs-ide-code-analysis
 ms.topic: "conceptual"
-f1_keywords: 
+f1_keywords:
   - "vs.codeanalysis.policyeditor"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "code analysis, migrating check-in policy"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # How to: Create or Update Standard Code Analysis Check-in Policies
@@ -45,10 +44,10 @@ After you specify a check-in policy for managed code, team members can synchroni
 
 Select or clear the following options:
 
-    |Option|Description|  
-    |------------|-----------------|  
-    |**Enforce check-in to only contain files that are part of current solution.**|Code analysis can run only on files specified in solution and project configuration files. This policy guarantees that all code that is part of a solution is analyzed.|  
-    |**Enforce C/C++ Code Analysis (/analyze)**|Requires that all C or C++ projects be built with the /analyze compiler option to run code analysis before they can be checked in.|  
+    |Option|Description|
+    |------------|-----------------|
+    |**Enforce check-in to only contain files that are part of current solution.**|Code analysis can run only on files specified in solution and project configuration files. This policy guarantees that all code that is part of a solution is analyzed.|
+    |**Enforce C/C++ Code Analysis (/analyze)**|Requires that all C or C++ projects be built with the /analyze compiler option to run code analysis before they can be checked in.|
     |**Enforce Code Analysis for Managed Code**|Requires that all managed projects run code analysis and build before they can be checked in.|
 
 ### To specify a managed rule set
