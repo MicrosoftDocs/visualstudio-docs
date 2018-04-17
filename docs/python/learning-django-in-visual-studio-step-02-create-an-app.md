@@ -256,6 +256,8 @@ Answer: Although templates are usually maintained in separate HTML files, you ca
 
 Answer: No, using the `.html` extension for page template files is entirely optional, because you always identify the exact relative path to the file in the second argument to the `render` function. However, Visual Studio (and other editors) typically give you features like code completion and syntax coloration with `.html` files, which outweighs the fact that page templates are not strictly HTML.
 
+In fact, when you're working with a Django project, Visual Studio automatically detects when the HTML file you're editing is actually a Django template, an provides certain auto-complete features. For example, when you start typing a Django page template comment, `{#`, Visual Studio automatically gives you the closing `#}` characters. The **Comment Selection** and **Uncomment Selection** commands (on the **Edit** > **Advanced** menu and on the toolbar) also use template comments instead of HTML comments.
+
 ### Question: When I run the project, I see an error that the template cannot be found. What's wrong?
 
 Answer: If you see errors that the template cannot be found, make sure you added the app to the Django project's `settings.py` in the `INSTALLED_APPS` list. Without that entry, Django won't know to look in the app's `templates` folder.

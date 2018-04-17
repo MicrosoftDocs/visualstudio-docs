@@ -26,8 +26,6 @@ In this step, you learn how to:
 > - Add additional pages to the app (step 3-3)
 > - Use template inheritance to create a header and nav bar that's used across pages (step 3-4)
 
-TODO's: add source control steps, add Q&A
-
 ## Step 3-1: Use item templates
 
 As you develop a Django app, you typically add many more Python, HTML, CSS, and JavaScript files. For each of these (as well as other files like `web.config` that you may need for deployment), Visual Studio provides convenient [item templates](python-item-templates.md) to get you started.
@@ -35,6 +33,8 @@ As you develop a Django app, you typically add many more Python, HTML, CSS, and 
 To access a template, go to **Solution Explorer**, right-click the folder in which you want to create the item, select **Add > New Item...**, select the desired template, specify a name for the file, and select **OK**. Adding an item in this manner automatically adds the file to your Visual Studio project.
 
 ![Add new item dialog in Visual Studio](media/django/step03-add-new-item-dialog.png)
+
+Visual Studio also adds some frequently-used options to the **Add** menu directly. In a Python project, for example, you see an **HTML Page** command at the bottom of the **Add** menu, which simply prompts you for a page name and creates the file.
 
 ### Question: how does Visual Studio know which item templates to offer?
 
@@ -107,7 +107,10 @@ The following steps add an "About" page to the "HelloDjangoApp" project, and lin
 
 1. In **Solution Explorer**, right-click the `HelloDjangoApp/template` folder, select **Add** > **New item**, select the "HTML Page" item template, name the file `about.html`, and select **OK**.
 
-1. Replace the contents of `about.html` with the following markup (don't worry about the explicit link; you replace it in the next section with a simple navigation bar):
+    > [!Tip]
+    > If the **New Item** command doesn't appear on the **Add** menu, make sure that you've stopped the server so that Visual Studio exits debugging mode.
+
+1. Replace the contents of `about.html` with the following markup (you replace the explicit link to the home page with a simple navigation bar in step 3-4):
 
     ```html
     <html>
@@ -117,7 +120,7 @@ The following steps add an "About" page to the "HelloDjangoApp" project, and lin
             <link rel="stylesheet" type="text/css" href="{% static 'site.css' %}" />
         </head>
         <body>
-            <div><a href="index">Home</a></div>
+            <div><a href="home">Home</a></div>
             {{ content }}
         </body>
     </html>
@@ -137,37 +140,43 @@ The following steps add an "About" page to the "HelloDjangoApp" project, and lin
         )
     ```
 
-1. Open the Django project's `urls.py` file and add the following line to the `urlPatterns` array (you also need a comma at the end of the previous line):
+1. Open the Django project's `urls.py` file and add the following line to the `urlPatterns` array:
 
     ```python
-    url(r'^about', HelloDjangoApp.views.about, name='about')
+    url(r'^about$', HelloDjangoApp.views.about, name='about'),
     ```
 
-1. Open the app's `templates/index.html` file and add the following line below the `<body>` element to link to the About page:
+1. Open the app's `templates/index.html` file and add the following line below the `<body>` element to link to the About page (again, you replace this link with a nav bar in step 3-4):
 
     ```html
     <div><a href="about">About</a></div>
     ```
 
-1. Save all the file using the **File > Save All** menu command, or just press or Ctrl+Shift+S. (Technically, this step isn't needed as the next one automatically saves files; however, it's a good command to know about!)
+1. Save all the file using the **File** > **Save All** menu command, or just press or Ctrl+Shift+S. (Technically, this step isn't needed as running the project in Visual Studio saves files automatically. Nevertheless, it's a good command to know about!)
 
-1. Run the server to observe the results and check navigation between pages. Close the server when done.
+1. Run the project to observe the results and check navigation between pages. Close the server when done.
+
+### Question: I tried using "index" for the link to the home page, but it didn't work. Why?
+
+Answer: Even though the view function in `views.py` is named `index`, the URL routing patterns in the Django project's `urls.py` file does not contain a regular expression that matches the string "index". To match that string, you need to add another entry for the pattern `^index$`.
+
+As shown in the next section, it's actually much better to use the `{% url '<pattern_name>' %}` tag in the page template to refer to the *name* of a pattern, in which case Django creates the proper URL for you. For example, replace `<div><a href="home">Home</a></div>` in `about.html` with `<div><a href="{% url 'index' %}">Home</a></div>`. The use of 'index' works here because the first URL pattern in `urls.py` is, in fact, named 'index' (by virtue of the `name='index'` argument). You can also use 'home' to refer to the second pattern.
 
 ## Step 3-4: Use template inheritance to create a header and nav bar
 
-Having an explicit link on each page is obviously not anything close to modern web design. Most modern sites use a consistent header for branding on every page along with a navigation bar that contains the most important page links, popup menus, and so on. To keep the header and nav bar consistent, however, you don't want to repeat the same code in every page template. You rather want to define the consistent parts of all your pages in one place.
+Instead of having explicit navigation links on each page, modern web apps typically use a branding header and a navigation bar that provides the most important page links, popup menus, and so on. To make sure the header and nav bar are the same across all pages, however, you don't want to repeat the same code in every page template. You instead want to define the common parts of all your pages in one place.
 
 Django's templating system provides two means for reusing specific elements across multiple templates: includes and inheritance.
 
-Includes are other templates that you insert at a specific place in the referring template using the syntax `{% include <template_path> %}` where `<template_path>` points to the included template file relative to the `templates` folder, or you can use `../` or `./`. (You can also use a token for if you want to change the path dynamically in code.) Includes are typically used in the body of a page to pull in the shared template at a specific location on the page.
+- *Includes* are other page templates that you insert at a specific place in the referring template using the syntax `{% include <template_path> %}` where `<template_path>` points to the included template file relative to the `templates` folder (`../` or `./` are allowed too). You can even use a variable if you want to change the path dynamically in code. Includes are typically used in the body of a page to pull in the shared template at a specific location on the page.
 
-Interitance uses the `{% extends <template_path> %}` at the beginning of a template to specify a shared base template that the referring template then builds upon. Inheritance is commonly used to define a shared layout, nav bar, and other structures for an app's pages, such that referring templates need only add or modify specific areas of the base template.
+- *Inheritance* uses the `{% extends <template_path> %}` at the beginning of a page template to specify a shared base template that the referring template then builds upon. Inheritance is commonly used to define a shared layout, nav bar, and other structures for an app's pages, such that referring templates need only add or modify specific areas of the base template called *blocks*.
 
-Those areas as called "blocks" and are delineated using `{% block <block_name> %}` and `{% endblock %}` tags. If a referring template uses tags with the same block name, its block content replaces that of the base template.
+A base template delineates blocks using `{% block <block_name> %}` and `{% endblock %}` tags. If a referring template then uses tags with the same block name, its block content override that of the base template.
 
-The following steps demonstrate how inheritance works:
+The following steps demonstrate inheritance:
 
-1. In the app's `templates` folder, create a new HTML file (using the **Add > New item...** context menu) called `layout.html`, and paste in the contents below. You can see that this template contains a block named "content" that is all that the referring pages need to replace:
+1. In the app's `templates` folder, create a new HTML file (using the **Add** > **New item** context menu or **Add** > **HTML Page**) called `layout.html`, and paste in the contents below. You can see that this template contains a block named "content" that is all that the referring pages need to replace:
 
     ```html
     <!DOCTYPE html>
@@ -203,7 +212,7 @@ The following steps demonstrate how inheritance works:
     .navbar {
         background-color: lightslategray;
         font-size: 1em;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         color: white;
         padding: 8px 5px 8px 5px;
     }
@@ -249,6 +258,8 @@ The following steps demonstrate how inheritance works:
 
 1. Run the server to observe the results. Close the server when done.
 
+1. Because you'd made substantial changes to the app, it's again a good time to [commit your changes to source control](learning-django-in-visual-studio-step-02-create-an-app.md#commit-to-source-control).
+
 ## Next steps
 
 > [!div class="nextstepaction"]
@@ -256,5 +267,5 @@ The following steps demonstrate how inheritance works:
 
 ## Going deeper
 
-- Django project code: [Writing your first Django app, part 1](https://docs.djangoproject.com/en/2.0/intro/tutorial01/) (docs.djangoproject.com)
-- Administrative utility: [django-admin and manage.py](https://docs.djangoproject.com/en/2.0/ref/django-admin/) (docs.djangoproject.com)
+- For more capabilities of Django templates, such as control flow, see [The Django template language](https://docs.djangoproject.com/en/2.0/ref/templates/language/) in the Django documentation.
+- For complete details on using the `{% url %}` tag, see [url](https://docs.djangoproject.com/en/2.0/ref/templates/builtins/#url) within the [Built-in template tags and filters for Django templates reference](https://docs.djangoproject.com/en/2.0/ref/templates/builtins/).
