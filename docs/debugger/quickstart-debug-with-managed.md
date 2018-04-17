@@ -2,8 +2,7 @@
 title: "Debug with managed code using the Visual Studio debugger | Microsoft Docs"
 ms.custom: "mvc"
 ms.date: "03/18/2018"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "quickstart"
 helpviewer_keywords: 
   - "debugger"

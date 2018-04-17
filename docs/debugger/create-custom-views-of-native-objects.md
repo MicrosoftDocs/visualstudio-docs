@@ -2,8 +2,7 @@
 title: "Create custom views of native objects in the debugger | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/27/2017"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "natvis"
