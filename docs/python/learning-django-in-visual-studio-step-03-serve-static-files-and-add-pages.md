@@ -14,7 +14,7 @@ ms.workload:
 
 # Tutorial step 3: Serve static files, add pages, and use template inheritance
 
-**Previous step: [Create a Django app with views and templates](learning-django-in-visual-studio-step-02-create-an-app.md)**
+**Previous step: [Create a Django app with views and page templates](learning-django-in-visual-studio-step-02-create-an-app.md)**
 
 In the previous steps of this tutorial you've learned how to create a very basic Django app with a single page of self-contained HTML. Modern web apps, however are typically composed of many pages, and make use of shared resources like CSS and JavaScript and file to provide consistent styling and behavior.
 

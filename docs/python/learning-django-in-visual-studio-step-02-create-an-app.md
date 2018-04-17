@@ -12,7 +12,7 @@ ms.workload:
   - data-science
 ---
 
-# Tutorial step 2: Create a Django app with views and templates
+# Tutorial step 2: Create a Django app with views and page templates
 
 **Previous step: [Create a Visual Studio project and solution](learning-django-in-visual-studio-step-01-project-and-solution.md)**
 
@@ -24,8 +24,6 @@ In this step you now learn how to:
 > - Create and run a Django app with a single page (step 2-1)
 > - Render a view using HTML (step 2-2)
 > - Render a view using a Django page template (step 2-3)
-
-TODO's: add source control steps, add Q&A
 
 ## Step 2-1: create and run an app with a single page
 
