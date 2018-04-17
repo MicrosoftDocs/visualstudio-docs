@@ -1,13 +1,12 @@
 ---
 title: Options and settings for Python
 description: A reference for the various settings in Visual Studio that relate to Python code and projects.
-ms.custom:
 ms.date: 03/05/2018
-ms.technology: 
-  - "devlang-python"
+ms.prod: visual-studio-dev15
+ms.technology: vs-python
+ms.topic: reference
 dev_langs:
-  - "python"
-ms.topic: "reference"
+  - python
 f1_keywords: 
   - "VS.ToolsOptionsPages.Python_Tools"
   - "VS.ToolsOptionsPages.Python_Tools.General"
@@ -16,12 +15,12 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Python_Tools.Experimental"
   - "VS.ToolsOptionsPages.Python_Tools.Interactive_Windows"
   - "VS.ToolsOptionsPages.Text_Editor.Python.Advanced"
-author: "kraigb"
-ms.author: "kraigb"
+author: kraigb
+ms.author: kraigb
 manager: douge
 ms.workload: 
-  - "python"
-  - "data-science"
+  - python
+  - data-science
 ---
 
 # Options for Python in Visual Studio
