@@ -3,7 +3,7 @@ title: "&lt;fileAssociation&gt; Element (ClickOnce Application) | Microsoft Docs
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: vs-ide-deployment
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs: 
   - "VB"
   - "CSharp"
