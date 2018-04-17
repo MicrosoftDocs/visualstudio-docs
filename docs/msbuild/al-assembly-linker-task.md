@@ -3,7 +3,7 @@ title: "AL (Assembly Linker) Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "reference"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#AL"
 dev_langs: 
@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "AL task [MSBuild]"
   - "MSBuild, AL task"
 ms.assetid: 2ddefbf2-5662-4d55-99a6-ac383bf44560
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

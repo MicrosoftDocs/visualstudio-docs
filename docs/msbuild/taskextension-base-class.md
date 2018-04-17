@@ -3,7 +3,7 @@ title: "TaskExtension Base Class | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "MSBuild, tool task base class"
   - "tool task base class [MSBuild]"
 ms.assetid: 08bb8059-b7e2-4565-89ba-d9034d4f0e16
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

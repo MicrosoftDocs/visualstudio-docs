@@ -3,7 +3,7 @@ title: "MT Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "reference"
 f1_keywords: 
   - "VC.Project.VCManifestTool.ResourceOutputFileName"
   - "VC.Project.VCManifestTool.SuppressDependencyElement"
@@ -21,7 +21,7 @@ helpviewer_keywords:
   - "MSBUILD (Visual C++), MT task"
   - "MT task (MSBuild (Visual C++))"
 ms.assetid: bb94913c-1042-4968-9f08-b394518e899f
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

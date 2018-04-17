@@ -6,9 +6,9 @@ ms.technology: msbuild
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "MSBuild, SDKs, SDK"
-author: "jeffkl"
-ms.author: jeffkl
-manager: angerlic
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---
