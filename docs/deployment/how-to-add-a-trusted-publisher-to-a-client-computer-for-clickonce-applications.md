@@ -2,8 +2,7 @@
 title: "How to: Add a Trusted Publisher to a Client Computer for ClickOnce Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-deployment"
+ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -13,9 +12,9 @@ helpviewer_keywords:
   - "ClickOnce deployment, install without prompting"
   - "trusted application deployment, Trusted Publishers"
 ms.assetid: 35fe324c-45a1-4509-b7be-5c18b4b1b4ab
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

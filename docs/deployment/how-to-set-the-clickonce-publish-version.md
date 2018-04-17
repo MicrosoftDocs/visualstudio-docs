@@ -2,8 +2,7 @@
 title: "How to: Set the ClickOnce Publish Version | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-deployment"
+ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -14,9 +13,9 @@ helpviewer_keywords:
   - "publishing, ClickOnce"
   - "Publish Version property"
 ms.assetid: 06f15504-6385-40a6-b01d-cd90ca36dc73
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

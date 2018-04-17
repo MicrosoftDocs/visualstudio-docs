@@ -2,8 +2,7 @@
 title: "How to: Publish a Project That Has a Specific Locale | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-deployment"
+ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -18,9 +17,9 @@ helpviewer_keywords:
   - "macros, deploying with"
   - "macros, publishing with"
 ms.assetid: 7c4cd83a-f985-4c85-9022-fadb5dbd2b39
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

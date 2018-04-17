@@ -2,8 +2,7 @@
 title: "&lt;Signature&gt; Element (ClickOnce Deployment) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-deployment"
+ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -12,9 +11,9 @@ dev_langs:
 helpviewer_keywords: 
   - "<Signature> element [ClickOnce deployment manifest]"
 ms.assetid: c99b07ad-e8ba-43f2-b0d6-3745e7a7c8b3
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

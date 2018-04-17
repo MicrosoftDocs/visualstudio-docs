@@ -2,8 +2,7 @@
 title: "&lt;description&gt; Element (ClickOnce Deployment) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-deployment"
+ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 f1_keywords: 
   - "urn:schemas-microsoft-com:asm.v2#description"
@@ -14,9 +13,9 @@ dev_langs:
 helpviewer_keywords: 
   - "<description> element [ClickOnce deployment manifest]"
 ms.assetid: 18f6919e-a3ab-4942-a57d-167fabfac44e
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---
