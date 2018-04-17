@@ -1,29 +1,31 @@
 ---
 title: "Modify Visual Studio 2017 | Microsoft Docs"
 description: "Learn how to modify Visual Studio, step-by-step."
-ms.custom: "H1Hack27Feb2017"
-ms.date: "04/06/2018"
-ms.technology:
-  - "vs-acquisition"
-ms.topic: "conceptual"
+ms.custom: H1Hack27Feb2017
+ms.date: 04/06/2018
+ms.technology: vs-acquisition
+ms-prod: visual-studio-dev15
+ms.topic: conceptual
 helpviewer_keywords:
   - "modify Visual Studio"
   - "change visual studio"
   - "changing Visual Studio"
   - "customize Visual Studio"
 ms.assetid: 3399ea7b-a291-4a9e-80a1-b861a21afa1d
-author: "TerryGLee"
-ms.author: "tglee"
+author: TerryGLee
+ms.author: tglee
 manager: douge
 ms.workload:
   - "multiple"
 ---
 # Modify Visual Studio 2017 by adding or removing workloads and components
+
 Not only have we made is easier for you to personalize Visual Studio to match the tasks you want to accomplish, we've also made it easier to customize Visual Studio, too. To do so, start the new Visual Studio Installer and make the changes you want.
 
 Here's how.  
 
-## Modify workloads  
+## Modify workloads
+
  Workloads contain the features you need for the programming language or platform that you are using. Use workloads to modify Visual Studio so that it supports the work you want to do, when you want to do it.  
 
 >[!IMPORTANT]
@@ -59,6 +61,7 @@ Here's how.
 If you don't want to use the handy Workloads feature to customize your Visual Studio installation, choose the **Individual Components** option from the Visual Studio Installer, select what you want and then follow the prompts.  
 
 ## Get support
+
 Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page for help. You can also contact us for installation help by [live chat](https://www.visualstudio.com/vs/support/#talktous) (English only); for more information, see the [Visual Studio "Contact Us"  page](https://www.visualstudio.com/vs/support/#talktous).
 
 Here are a few more support options:

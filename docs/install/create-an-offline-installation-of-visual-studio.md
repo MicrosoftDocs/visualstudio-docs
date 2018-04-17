@@ -2,17 +2,17 @@
 title: "Create an Offline Installation of Visual Studio | Microsoft Docs"
 description: "Find out how to install Visual Studio offline."
 ms.custom: ""
-ms.date: "01/17/2018"
-ms.technology:
-  - "vs-acquisition"
-ms.topic: "conceptual"
+ms.date: 01/17/2018
+ms.technology: vs-acquisition
+ms-prod: visual-studio-dev15
+ms.topic: conceptual
 f1_keywords:
   - "offline installation [Visual Studio]"
   - "offline install [Visual Studio]"
   - "layout [Visual Studio]"
 ms.assetid: f8625d5e-f6ea-4db0-83c0-619b77fab3cf
-author: "TerryGLee"
-ms.author: "tglee"
+author: TerryGLee
+ms.author: tglee
 manager: douge
 ms.workload:
   - "multiple"
@@ -38,10 +38,11 @@ If you want to install offline because your internet connection is unavailable o
 > If you are an enterprise administrator who wants to perform a deployment of Visual Studio 2017 to a network of client workstations that are firewalled from the internet, see our [Create a network installation of Visual Studio 2017](../install/create-a-network-installation-of-visual-studio.md) and [Install certificates required for Visual Studio offline installation](../install/install-certificates-for-visual-studio-offline.md) pages.
 
 ## Get support
+
 Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://www.visualstudio.com/vs/support/#talktous).
 
 Here are a few more support options:
 * You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
 * You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
-* You can track product issues in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/), and ask questions and find answers.
+* You can track product issues and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/).
 * You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).  (This option requires a [GitHub](https://github.com/) account.)

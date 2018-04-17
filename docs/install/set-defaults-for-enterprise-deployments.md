@@ -1,10 +1,10 @@
 ---
 title: "Set defaults for enterprise deployments of Visual Studio | Microsoft Docs"
-description: "Domain policies and other configuration operations for enterprise deployment of Visual Studio."
-ms.date: "05/05/2017"
-ms.technology:
-  - "vs-acquisition"
-ms.topic: "conceptual"
+description: "Learn about domain policies and other configuration operations for enterprise deployments of Visual Studio."
+ms.date: 05/05/2017
+ms.technology: vs-acquisition
+ms-prod: visual-studio-dev15
+ms.topic: conceptual
 f1_keywords:
   - "gpo"
   - "policy"
@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "{{PLACEHOLDER}}"
   - "{{PLACEHOLDER}}"
 ms.assetid: 9B7B4608-7A3F-4FF4-BDCE-42D9F7CE6DBA
-author: "heaths"
-ms.author: "tglee"
+author: heaths
+ms.author: tglee
 manager: douge
 ms.workload:
   - "multiple"
@@ -54,6 +54,7 @@ You can set the following registry values:
 > Failure to move the existing cache or securing it may cause problems with future installs.
 
 ## Get support
+
 Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://www.visualstudio.com/vs/support/#talktous).
 
 Here are a few more support options:

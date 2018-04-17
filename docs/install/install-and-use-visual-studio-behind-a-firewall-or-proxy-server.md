@@ -1,19 +1,19 @@
 ---
 title: "Install and use Visual Studio and Azure Services behind a firewall or proxy server | Microsoft Docs"
-description: ""
+description: "Review the domain URLs, ports, and protocols that you might want to whitelist or open if your organization uses a firewall or a proxy server"
 ms.custom: ""
-ms.date: "02/12/2018"
-ms.technology:
-  - "vs-acquisition"
-ms.topic: "conceptual"
+ms.date: 02/12/2018
+ms.technology: vs-acquisition
+ms-prod: visual-studio-dev15
+ms.topic: conceptual
 helpviewer_keywords:
   - "network installation, Visual Studio"
   - "administrator guide, Visual Studio"
   - "installing Visual Studio, administrator guide"
   - "list of domains, locations, URLs"
 ms.assetid:
-author: "TerryGLee"
-ms.author: "tglee"
+author: TerryGLee
+ms.author: tglee
 manager: douge
 ms.workload:
   - "multiple"

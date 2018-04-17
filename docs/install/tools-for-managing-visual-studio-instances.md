@@ -1,22 +1,24 @@
 ---
 title: "Tools for detecting and managing Visual Studio instances | Microsoft Docs"
-description: "{{PLACEHOLDER}}"
-ms.date: "08/14/2017"
-ms.technology:
-  - "vs-acquisition"
-ms.topic: "conceptual"
+description: "Learn about the tools that you can use to detect and manage Visual Studio installations on client machines."
+ms.date: 08/14/2017
+ms.technology: vs-acquisition
+ms-prod: visual-studio-dev15
+ms.topic: conceptual
 helpviewer_keywords:
   - "{{PLACEHOLDER}}"
   - "{{PLACEHOLDER}}"
 ms.assetid: 85686707-14C0-4860-9B7A-66485D43D241
-author: "TerryGLee"
-ms.author: "tglee"
+author: TerryGLee
+ms.author: tglee
 manager: douge
 ms.workload:
   - "multiple"
 ---
 
 # Tools for detecting and managing Visual Studio instances
+There are several tools that you can use to detect Visual Studio installations on client machines, and to manage the installations, too. 
+
 
 ## Detecting existing Visual Studio instances
 We have made several tools available that will help you detect and manage installed Visual Studio instances on client machines:
@@ -28,7 +30,8 @@ We have made several tools available that will help you detect and manage instal
 In addition, the [Setup Configuration API](https://msdn.microsoft.com/en-us/library/microsoft.visualstudio.setup.configuration.aspx) provides interfaces for developers who want to build their own utilities for interrogating Visual Studio instances.
 
 ## Using vswhere.exe
-`vswhere.exe` is automatically included in Visual Studio 2017 version 15.2 or above, or you may download it from [the releases page](https://github.com/Microsoft/vswhere/releases). Use `vswhere -?` to get help information about the tool. As an example, this command shows all releases of Visual Studio, including old versions of the product and prereleases, and outputs the results in JSON format:
+
+`vswhere.exe` is automatically included in Visual Studio 2017 version 15.2 or higher, or you may download it from [the releases page](https://github.com/Microsoft/vswhere/releases). Use `vswhere -?` to get help information about the tool. As an example, this command shows all releases of Visual Studio, including old versions of the product and prereleases, and outputs the results in JSON format:
 
 ```cmd
 C:\Program Files (x86)\Microsoft Visual Studio\Installer> vswhere.exe -legacy -prerelease -format json
@@ -39,6 +42,7 @@ C:\Program Files (x86)\Microsoft Visual Studio\Installer> vswhere.exe -legacy -p
 
 
 ## Editing the registry for a Visual Studio instance
+
 In Visual Studio 2017, registry settings are stored in a private location, which enables multiple side-by-side instances of the same version of Visual Studio on the same machine.
 
 As these entries are not stored in the global registry, there are special instructions for using the Registry Editor to make changes to registry settings:
@@ -60,6 +64,7 @@ You will be prompted to provide a hive name, which becomes the name of your isol
 > Before you start Visual Studio again, you must unload the isolated hive that you created. To do this, select File -> Unload Hive from the Regedit main menu. (If you do not do this, then the file remains locked and Visual Studio will not be able to start.)
 
 ## Get support
+
 Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://www.visualstudio.com/vs/support/#talktous).
 
 Here are a few more support options:

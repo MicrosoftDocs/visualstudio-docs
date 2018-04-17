@@ -1,11 +1,11 @@
 ---
 title: "Remove Visual Studio 2017 | Microsoft Docs"
-description: "Learn how to remove Visual Studio, step-by-step."
+description: "Learn how to remove Visual Studio from your computer, step-by-step."
 ms.custom: ""
-ms.date: "09/12/2017"
-ms.technology:
-  - "vs-acquisition"
-ms.topic: "conceptual"
+ms.date: 09/12/2017
+ms.technology: vs-acquisition
+ms-prod: visual-studio-dev15
+ms.topic: conceptual
 f1_keywords:
   - "uninstall"
   - "uninstall Visual Studio"
@@ -16,8 +16,8 @@ f1_keywords:
   - "clean up"
   - "clean up Visual Studio"
 ms.assetid: 9c81a777-9c95-4934-b517-c60c6dc78799
-author: "heaths"
-ms.author: "tglee"
+author: heaths
+ms.author: tglee
 manager: douge
 ms.workload:
   - "multiple"

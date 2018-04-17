@@ -1,10 +1,10 @@
 ---
 title: "Disable or move the package cache | Microsoft Docs"
-description: "Disable, enable, or move the package cache for Visual Studio deployments."
-ms.date: "04/14/2017"
-ms.technology:
-  - "vs-acquisition"
-ms.topic: "conceptual"
+description: "Learn how to disable, enable, or move the package cache for Visual Studio deployments."
+ms.date: 04/14/2017
+ms.technology: vs-acquisition
+ms-prod: visual-studio-dev15
+ms.topic: conceptual
 f1_keywords:
   - "cache"
   - "nocache"
@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "{{PLACEHOLDER}}"
   - "{{PLACEHOLDER}}"
 ms.assetid: 2429993A-3F0E-41C5-9562-FEA6AE994440
-author: "heaths"
-ms.author: "tglee"
+author: heaths
+ms.author: tglee
 manager: douge
 ms.workload:
   - "multiple"
@@ -61,7 +61,7 @@ Sometimes, things can go wrong. If your Visual Studio installation fails, see th
 Here are a few more support options:
 * You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
 * You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
-* You can track product issues in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/), and ask questions and find answers.
+* You can track product issues and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/).
 * You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).  (This option requires a [GitHub](https://github.com/) account.)
 
 ## See also

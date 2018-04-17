@@ -8,9 +8,9 @@ manager: douge
 ms.date: 04/16/2018
 ms.topic: reference
 helpviewer_keywords:
+ms-prod: visual-studio-dev15
 ms.technology:
   - "vs-acquisition"
-ms.service:
 ms.workload:
   - "multiple"
 ---
@@ -22,7 +22,7 @@ The following table lists the build numbers and release dates for Visual Studio 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
 | 15.6.6 | Release | April 10, 2018 | 15.6.27428.2037 |
-| 15.0.12 | Release | April 10, 2018 | 15.0.26228.30 | 
+| 15.0.12 | Release | April 10, 2018 | 15.0.26228.30 |
 | 15.7.0 Preview 3.0 | Preview | April 9, 2018 | 15.7.27604.0 |
 | 15.6.5 | Release | April 4, 2018 | 15.6.27428.2027 |
 | 15.6.4 | Release | March 22, 2018 | 15.6.27428.2015 |

@@ -1,15 +1,15 @@
 ---
 title: "Install on low bandwidth or unreliable network environments | Microsoft Docs"
-description: "Describes how the Visual Studio installer works in unreliable network conditions, and explains how to download install files before beginning the installation."
-ms.date: "01/17/2018"
-ms.technology:
-  - "vs-acquisition"
-ms.topic: "conceptual"
+description: "Learn how to use the Visual Studio installer when your network is unreliable or you have low-bandwidth, and how to use the command line to download installation files."
+ms.date: 01/17/2018
+ms.technology: vs-acquisition
+ms-prod: visual-studio-dev15
+ms.topic: conceptual
 helpviewer_keywords:
   - "installing Visual Studio"
   - "no internet connection"
-author: "TerryGLee"
-ms.author: "tglee"
+author: TerryGLee
+ms.author: tglee
 manager: douge
 ms.workload:
   - "multiple"
@@ -101,6 +101,7 @@ Use this command to run the installation:
 | zh-TW | Chinese - Traditional |
 
 ## Get support
+
 Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://www.visualstudio.com/vs/support/#talktous).
 
 Here are a few more support options:
@@ -110,6 +111,7 @@ Here are a few more support options:
 * You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).  (This option requires a [GitHub](https://github.com/) account.)
 
 ## See also
+
 * [Install Visual Studio](install-visual-studio.md)
 * [Visual Studio administrator guide](visual-studio-administrator-guide.md)
 * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)

@@ -1,17 +1,16 @@
 ---
 title: "Install certificates required for Visual Studio offline installation | Microsoft Docs"
-description: "Describes the steps needed to install certificates for a Visual Studio offline installation"
-ms.date: "08/30/2017"
-ms.reviewer: "tims"
-ms.technology:
-  - "vs-acquisition"
-ms.topic: "conceptual"
+description: "Learn how to install certificates for a Visual Studio offline installation"
+ms.date: 08/30/2017
+ms.technology: vs-acquisition
+ms-prod: visual-studio-dev15
+ms.topic: conceptual
 helpviewer_keywords:
   - "{{PLACEHOLDER}}"
   - "{{PLACEHOLDER}}"
 ms.assetid: 9750A3F3-89C7-4A8F-BA75-B0B06BD772C2
-author: "TerryGLee"
-ms.author: "tglee"
+author: TerryGLee
+ms.author: tglee
 manager: douge
 ms.workload:
   - "multiple"

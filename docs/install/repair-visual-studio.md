@@ -1,14 +1,14 @@
 ---
 title: "Repair Visual Studio 2017 | Microsoft Docs"
 description: "Learn how to repair an installation of Visual Studio 2017."
-keywords: Don’t add or edit keywords without consulting your SEO champ.
-author: "PoulChapman"
-ms.author: "tglee"
+keywords: ""
+author: PoulChapman
+ms.author: tglee
 manager: douge
 ms.date: 09/28/2017
-ms.topic: "conceptual"
-ms.technology:
-  - "vs-acquisition"
+ms.topic: conceptual
+ms-prod: visual-studio-dev15
+ms.technology: vs-acquisition
 ms.workload:
   - "multiple"
 ---

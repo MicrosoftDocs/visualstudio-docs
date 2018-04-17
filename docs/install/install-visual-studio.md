@@ -2,10 +2,10 @@
 title: "Install Visual Studio 2017 | Microsoft Docs"
 description: "Learn how to install Visual Studio, step-by-step."
 ms.custom: ""
-ms.date: "12/04/2017"
-ms.technology:
-  - "vs-acquisition"
-ms.topic: "conceptual"
+ms.date: 12/04/2017
+ms.technology: vs-acquisition
+ms-prod: visual-studio-dev15
+ms.topic: conceptual
 f1_keywords:
   - "vs.about"
 helpviewer_keywords:
@@ -14,13 +14,14 @@ helpviewer_keywords:
   - "set up Visual Studio"
   - "Visual Studio setup"
   - "Visual Studio installer"
-author: "TerryGLee"
-ms.author: "tglee"
+author: TerryGLee
+ms.author: tglee
 manager: douge
 ms.workload:
   - "multiple"
 ---
 # Install Visual Studio 2017
+
 Welcome to a new way to install Visual Studio! In our newest version, we've made it easier for you to select and install just the features you need. We've also reduced the minimum footprint of Visual Studio so that it installs more quickly and with less system impact than ever before.
 
 Want to know more about what else is new in this version? See our [release notes](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes).
@@ -115,6 +116,7 @@ Another way that you can change the default language is by running the installer
 
 
 ## Step 7 - Start developing
+
 1. After Visual Studio installation is complete, click the **Launch** button to [get started developing with Visual Studio](../ide/get-started-developing-with-visual-studio.md).
 
 2. Click **File**, and then click **New Project**.
@@ -124,6 +126,7 @@ Another way that you can change the default language is by running the installer
    To [build a C# app](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md),  click **Installed**, expand **Visual C#**, and then select the C# project type that you want to build.
 
 ## Get support
+
 Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://www.visualstudio.com/vs/support/#talktous).
 
 Here are a few more support options:
@@ -133,6 +136,7 @@ Here are a few more support options:
 * You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).  (This option requires a [GitHub](https://github.com/) account.)
 
 ## See also
+
 * [Update Visual Studio 2017](update-visual-studio.md)
 * [Modify Visual Studio 2017](modify-visual-studio.md)
 * [Uninstall Visual Studio 2017](uninstall-visual-studio.md)
