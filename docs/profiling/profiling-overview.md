@@ -2,8 +2,7 @@
 title: "Profiling overview - Visual Studio | Microsoft Docs"
 ms.custom: "mvc"
 ms.date: "03/27/2018"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "overview"
 author: "mikejo5000"
 ms.author: "mikejo"
