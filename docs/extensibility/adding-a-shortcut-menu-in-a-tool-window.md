@@ -31,7 +31,7 @@ This walkthrough puts a shortcut menu in a tool window. A shortcut menu is a men
   
 ## Creating the Tool Window Shortcut Menu Package  
   
-1.  Create a VSIX project named `TWShortcutMenu` and add a tool window template named **ShortCutMenu** to it. For more information about creating a tool window, see [Creating an Extension with a Tool Window](../extensibility/creating-an-extension-with-a-tool-window.md).  
+1.  Create a VSIX project named `TWShortcutMenu` and add a tool window template named **ShortcutMenu** to it. For more information about creating a tool window, see [Creating an Extension with a Tool Window](../extensibility/creating-an-extension-with-a-tool-window.md).  
   
 ## Specifying the Shortcut Menu  
  A shortcut menu such as the one shown in this walkthrough lets the user select from a list of colors that are used to fill the background of the tool window.  
@@ -138,7 +138,7 @@ This walkthrough puts a shortcut menu in a tool window. A shortcut menu is a men
     ```csharp  
     protected override void Initialize()  
     {  
-        commandService = (OleMenuCommandService)GetService(typeof(IMenuCommandService));  
+        var commandService = (OleMenuCommandService)GetService(typeof(IMenuCommandService));  
         Content = new ShortcutMenuControl(commandService);  
     }  
     ```  
