@@ -1,5 +1,5 @@
 ---
-title: Visual Studio 2017 build numbers and release dates  | Microsoft Docs
+title: Visual Studio 2017 build numbers and release dates
 description: "A list of released versions and build numbers for Visual Studio 2017, sorted by date."
 keywords:
 author: TerryGLee
@@ -9,8 +9,7 @@ ms.date: 04/16/2018
 ms.topic: reference
 helpviewer_keywords:
 ms-prod: visual-studio-dev15
-ms.technology:
-  - "vs-acquisition"
+ms.technology: vs-acquisition
 ms.workload:
   - "multiple"
 ---
