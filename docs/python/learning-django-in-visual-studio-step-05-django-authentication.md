@@ -4,8 +4,6 @@ description: A walkthrough of Django basics in the context of Visual Studio proj
 ms.date: 04/16/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
-dev_langs:
-  - python
 ms.topic: tutorial
 ms.author: kraigb
 manager: douge

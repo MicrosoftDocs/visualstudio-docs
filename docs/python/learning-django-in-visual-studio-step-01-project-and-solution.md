@@ -4,8 +4,6 @@ description: A walkthrough of Django basics in the context of Visual Studio proj
 ms.date: 04/16/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
-dev_langs:
-  - python
 ms.topic: tutorial
 ms.author: kraigb
 manager: douge
@@ -67,7 +65,7 @@ When working with Django from the command line, you typically start a project by
 
 1. Consent to administrator privileges if prompted, then be patient while Python creates the virtual environment. The process takes a few minutes because Visual Studio must download packages and build their wheels. You can see progress in the Visual Studio **Output** window. While you're waiting, you can also ponder the Q&A below.
 
-**Question: Why do I want to create a virtual environment?**
+### Question: Why do I want to create a virtual environment?
 
 Answer: A virtual environment is a great way to isolate your app's exact dependencies. Such isolation avoids conflicts within a global Python environment, and aids both testing and collaboration. Over time, as you develop an app, you invariably bring in any number many helpful Python packages. By keeping these in a project-specific virtual environment, you can easily update the project's `requirements.txt` file that describes that environment, which is included in source control. When the project is copied to any other computers, including build servers, deployment servers, and other development computers, it's easy to recreate the environment using only `requirements.txt`. For more information, see [Using virtual environments](selecting-a-python-environment-for-a-project.md#using-virtual-environments).
 
@@ -89,7 +87,7 @@ If you don't have an existing repository, the **Publish to GitHub** and **Push t
 
 As you work through this tutorial, get into the habit of periodically using the controls in Visual Studio to commit and push changes. This tutorial reminds you at appropriate points.
 
-**Question: What are some advantages of using source control from the beginning of a project?**
+### Question: What are some advantages of using source control from the beginning of a project?
 
 Answer: First of all, using source control from the start, especially if you also use a remote repository, provides a regular offsite backup of your project. Unlike maintaining a project just on a local file system, source control also provides a complete change history and the easy ability to revert a single file or the whole project to a previous state. That change history helps determine the cause of regressions (test failures). Furthermore, source control is essential if multiple people are working on a project, as it manages overwrites and provides conflict resolution. Finally, source control, which is fundamentally a form of automation, sets you up well for automating builds, testing, and release management. It's really the first step in using DevOps for a project, and because the barriers to entry are so low, there's really no reason to not use source control from the beginning.
 
@@ -116,13 +114,13 @@ Once project creation completes, examine the boilerplate Django project code (wh
 
 1. As noted earlier, the Visual Studio template also adds a `requirements.txt` file to your project specifying the Django package dependency. The presence of this file is what invites you to create a virtual environment when first creating the project.
 
-**Question: Can Visual Studio generate a requirements.txt file from a virtual environment after I install other packages?**
+### Question: Can Visual Studio generate a requirements.txt file from a virtual environment after I install other packages?
 
-Answer: Yes. Expand the **Python Environments** node, right-click your virtual environment, and select the **Generate requirements.txt** command. It's good to use this command periodically as you modify the environment, and commit changes to `reuirements.txt` to source control along with any other code changes that depend on that environment. If you set up continuous integration on a build server, you should generate the file and commit changes whenever you modify the environment.
+Answer: Yes. Expand the **Python Environments** node, right-click your virtual environment, and select the **Generate requirements.txt** command. It's good to use this command periodically as you modify the environment, and commit changes to `requirements.txt` to source control along with any other code changes that depend on that environment. If you set up continuous integration on a build server, you should generate the file and commit changes whenever you modify the environment.
 
 ## Step 1-4: run the empty Django project
 
-1. In Visual Studio, select **Debug** > **Start debugging** or use the **Web Server** button on the toolbar (the browser you see may vary):
+1. In Visual Studio, select **Debug** > **Start debugging** (F5) or use the **Web Server** button on the toolbar (the browser you see may vary):
 
     ![Run web server toolbar button in Visual Studio](media/django/run-web-server-toolbar-button.png)
 
@@ -134,7 +132,7 @@ Answer: Yes. Expand the **Python Environments** node, right-click your virtual e
 
 1. When you're done, stop the server by closing the console window, or by using the **Debug** > **Stop Debugging** command in Visual Studio.
 
-**Question: What's the difference between using the Debug menu commands and the server commands on the project's Python submenu?**
+### Question: What's the difference between using the Debug menu commands and the server commands on the project's Python submenu?
 
 Answer: In addition to the **Debug** menu commands and toolbar buttons, you can also launch the server using the **Python** > **Run server** or **Python** > **Run debug server** commands on the project's context menu. Both commands open a console window in which you see the local URL (localhost:port) for the running server. However, you must manually open a browser with that URL, and running the debug server does not automatically start the Visual Studio debugger. You can attach a debugger to the running process later, if you want, using the **Debug** > **Attach to Process** command.
 
