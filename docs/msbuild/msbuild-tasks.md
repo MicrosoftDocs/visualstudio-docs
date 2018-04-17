@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "tasks"
   - "MSBuild, tasks"
 ms.assetid: 5d3cc4a7-e5db-4f73-b707-8b6882fddcf8
-author: Mikejo5000
-ms.author: mikejo
+author: "mikejo5000"
+ms.author: "mikejo"
 manager: douge
 ms.workload: 
   - "multiple"

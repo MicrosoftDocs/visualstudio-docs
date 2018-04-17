@@ -27,8 +27,8 @@ helpviewer_keywords:
   - "MSBuild (Visual C++), Link task"
   - "Link task (MSBuild (Visual C++))"
 ms.assetid: 0a61f168-3113-4fa7-83a3-d9142e2a33f8
-author: Mikejo5000
-ms.author: mikejo
+author: "mikejo5000"
+ms.author: "mikejo"
 manager: douge
 ms.workload: 
   - "multiple"

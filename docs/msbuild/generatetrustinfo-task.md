@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "MSBuild, GenerateTrustInfo task"
   - "GenerateTrustInfo task [MSBuild]"
 ms.assetid: 3ca60816-4bb0-4fef-ae43-ca0bfb63def3
-author: Mikejo5000
-ms.author: mikejo
+author: "mikejo5000"
+ms.author: "mikejo"
 manager: douge
 ms.workload: 
   - "multiple"

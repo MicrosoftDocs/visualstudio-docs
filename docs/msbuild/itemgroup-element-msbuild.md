@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "ItemGroup element [MSBuild]"
   - "<ItemGroup> element [MSBuild]"
 ms.assetid: aac894e3-a9f1-4bbc-a796-6ef07001f35b
-author: Mikejo5000
-ms.author: mikejo
+author: "mikejo5000"
+ms.author: "mikejo"
 manager: douge
 ms.workload: 
   - "multiple"

@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "MSBuild, LC task"
   - "LC task [MSBuild]"
 ms.assetid: d5a53472-6f2a-42b8-a6db-593ca99c9790
-author: Mikejo5000
-ms.author: mikejo
+author: "mikejo5000"
+ms.author: "mikejo"
 manager: douge
 ms.workload: 
   - "multiple"

@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "<Choose> Element [MSBuild]"
   - "Choose Element [MSBuild]"
 ms.assetid: 7b8b025a-d944-4f5c-9018-c89fc2ef146d
-author: Mikejo5000
-ms.author: mikejo
+author: "mikejo5000"
+ms.author: "mikejo"
 manager: douge
 ms.workload: 
   - "multiple"

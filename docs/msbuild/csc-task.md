@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "Csc task [MSBuild]"
   - "MSBuild, Csc task"
 ms.assetid: d8c19b36-f5ca-484b-afa6-8ff3b90e103a
-author: Mikejo5000
-ms.author: mikejo
+author: "mikejo5000"
+ms.author: "mikejo"
 manager: douge
 ms.workload: 
   - "multiple"

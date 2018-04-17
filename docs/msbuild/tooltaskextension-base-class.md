@@ -12,8 +12,8 @@ dev_langs:
   - "C++"
   - "jsharp"
 ms.assetid: 258ae433-f68a-49f1-b276-da20e3472e68
-author: Mikejo5000
-ms.author: mikejo
+author: "mikejo5000"
+ms.author: "mikejo"
 manager: douge
 ms.workload: 
   - "multiple"

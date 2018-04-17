@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "<Otherwise> Element [MSBuild]"
   - "Otherwise Element [MSBuild]"
 ms.assetid: de3997e9-1595-4263-a886-95530b56a319
-author: Mikejo5000
-ms.author: mikejo
+author: "mikejo5000"
+ms.author: "mikejo"
 manager: douge
 ms.workload: 
   - "multiple"

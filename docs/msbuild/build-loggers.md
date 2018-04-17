@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "MSBuild, logging"
   - "logging [MSBuild]"
 ms.assetid: fa34810d-185a-4d22-92bd-9852915e5f1d
-author: Mikejo5000
-ms.author: mikejo
+author: "mikejo5000"
+ms.author: "mikejo"
 manager: douge
 ms.workload: 
   - "multiple"

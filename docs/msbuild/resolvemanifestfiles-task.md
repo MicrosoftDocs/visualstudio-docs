@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "ResolveManifestFiles task [MSBuild]"
   - "MSBuild, ResolveManifestFiles task"
 ms.assetid: e1e14f67-9b69-433f-94d4-a783a68676b2
-author: Mikejo5000
-ms.author: mikejo
+author: "mikejo5000"
+ms.author: "mikejo"
 manager: douge
 ms.workload: 
   - "multiple"

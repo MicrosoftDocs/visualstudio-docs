@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "<Project> element [MSBuild]"
   - "Project element [MSBuild]"
 ms.assetid: d1cda56a-dbef-4109-9201-39e962e3f653
-author: Mikejo5000
-ms.author: mikejo
+author: "mikejo5000"
+ms.author: "mikejo"
 manager: douge
 ms.workload: 
   - "multiple"

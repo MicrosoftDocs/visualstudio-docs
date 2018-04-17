@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "Parameter element [MSBuild]"
   - "<Parameter> element [MSBuild]"
 ms.assetid: b273afff-b500-4e97-8cfd-31f39fa64a51
-author: Mikejo5000
-ms.author: mikejo
+author: "mikejo5000"
+ms.author: "mikejo"
 manager: douge
 ms.workload: 
   - "multiple"

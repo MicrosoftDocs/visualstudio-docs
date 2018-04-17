@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "MSBuild, Message task"
   - "Message task [MSBuild]"
 ms.assetid: 2293309d-42b6-46dc-9684-8c146f66bc28
-author: Mikejo5000
-ms.author: mikejo
+author: "mikejo5000"
+ms.author: "mikejo"
 manager: douge
 ms.workload: 
   - "multiple"

@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "MSBuild, GenerateResource task"
   - "GenerateResource task [MSBuild]"
 ms.assetid: c0aff32f-f2cc-46f6-9c3e-a5c9f8f912b1
-author: Mikejo5000
-ms.author: mikejo
+author: "mikejo5000"
+ms.author: "mikejo"
 manager: douge
 ms.workload: 
   - "multiple"

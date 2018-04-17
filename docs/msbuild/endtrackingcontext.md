@@ -12,8 +12,8 @@ apitype: "COM"
 helpviewer_keywords: 
   - "EndTrackingContext"
 ms.assetid: c2c5d794-8dc8-4594-8717-70dc79a0e75d
-author: Mikejo5000
-ms.author: mikejo
+author: "mikejo5000"
+ms.author: "mikejo"
 manager: douge
 ms.workload: 
   - "multiple"

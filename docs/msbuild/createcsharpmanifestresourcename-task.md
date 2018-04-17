@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "MSBuild, CreateCSharpManifestResourceName task"
   - "CreateCSharpManifestResourceName task [MSBuild]"
 ms.assetid: 2ace88c1-d757-40a7-8158-c1d3f5ff0511
-author: Mikejo5000
-ms.author: mikejo
+author: "mikejo5000"
+ms.author: "mikejo"
 manager: douge
 ms.workload: 
   - "multiple"

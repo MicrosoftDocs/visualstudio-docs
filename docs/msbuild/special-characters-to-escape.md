@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "special characters to escape"
   - "msbuild, special characters to escape"
 ms.assetid: 5b5172c3-41e4-4f38-a16f-2aeac831a5fc
-author: Mikejo5000
-ms.author: mikejo
+author: "mikejo5000"
+ms.author: "mikejo"
 manager: douge
 ms.workload: 
   - "multiple"

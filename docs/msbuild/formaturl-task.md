@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "MSBuild, FormatUrl task"
   - "FormatUrl task [MSBuild]"
 ms.assetid: 81114b67-520f-43b5-8891-224f68a78516
-author: Mikejo5000
-ms.author: mikejo
+author: "mikejo5000"
+ms.author: "mikejo"
 manager: douge
 ms.workload: 
   - "multiple"

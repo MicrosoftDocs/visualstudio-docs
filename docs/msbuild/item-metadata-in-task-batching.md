@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "task batching [MSBuild]"
   - "MSBuild, task batching"
 ms.assetid: 31e480f8-fe4d-4633-8c54-8ec498e2306d
-author: Mikejo5000
-ms.author: mikejo
+author: "mikejo5000"
+ms.author: "mikejo"
 manager: douge
 ms.workload: 
   - "multiple"

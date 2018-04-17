@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "<ParameterGroup> element [MSBuild]"
   - "ParameterGroup element [MSBuild]"
 ms.assetid: c3275e69-a427-4889-bc1d-51bff2c285fa
-author: Mikejo5000
-ms.author: mikejo
+author: "mikejo5000"
+ms.author: "mikejo"
 manager: douge
 ms.workload: 
   - "multiple"

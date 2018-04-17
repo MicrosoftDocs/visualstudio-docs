@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "<ProjectExtensions> element [MSBuild]"
   - "ProjectExtensions element [MSBuild]"
 ms.assetid: f95f312f-ff92-41eb-9469-ad99e236a307
-author: Mikejo5000
-ms.author: mikejo
+author: "mikejo5000"
+ms.author: "mikejo"
 manager: douge
 ms.workload: 
   - "multiple"

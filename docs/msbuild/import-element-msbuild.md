@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "Import element [MSBuild]"
   - "<Import> element [MSBuild]"
 ms.assetid: 3bfecaf1-69fd-4008-b651-c9dafd4389d9
-author: Mikejo5000
-ms.author: mikejo
+author: "mikejo5000"
+ms.author: "mikejo"
 manager: douge
 ms.workload: 
   - "multiple"

@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "Error task [MSBuild]"
   - "MSBuild, Error task"
 ms.assetid: e96a90ee-a8ae-4e5b-8ef2-b5cf5fedd8b2
-author: Mikejo5000
-ms.author: mikejo
+author: "mikejo5000"
+ms.author: "mikejo"
 manager: douge
 ms.workload: 
   - "multiple"

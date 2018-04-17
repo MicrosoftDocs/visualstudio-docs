@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "best practices, MSBuild"
   - "MSBuild, best practices"
 ms.assetid: 90ef8693-e921-410a-a377-fe4d13f58c48
-author: Mikejo5000
-ms.author: mikejo
+author: "mikejo5000"
+ms.author: "mikejo"
 manager: douge
 ms.workload: 
   - "multiple"

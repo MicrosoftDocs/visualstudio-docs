@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "CreateItem task [MSBuild]"
   - "MSBuild, CreateItem task"
 ms.assetid: c4311f38-979e-4324-b524-9e8c1cbdc41a
-author: Mikejo5000
-ms.author: mikejo
+author: "mikejo5000"
+ms.author: "mikejo"
 manager: douge
 ms.workload: 
   - "multiple"

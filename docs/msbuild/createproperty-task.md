@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "CreateProperty task [MSBuild]"
   - "MSBuild, CreateProperty task"
 ms.assetid: fbc31a88-62d4-43d2-b739-68ef3fac38f5
-author: Mikejo5000
-ms.author: mikejo
+author: "mikejo5000"
+ms.author: "mikejo"
 manager: douge
 ms.workload: 
   - "multiple"

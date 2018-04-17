@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "MSBuild, XslTransformation task"
   - "XslTransformation task [MSBuild]"
 ms.assetid: 6f3a7d81-3ae3-4703-9a06-870b32b69d80
-author: Mikejo5000
-ms.author: mikejo
+author: "mikejo5000"
+ms.author: "mikejo"
 manager: douge
 ms.workload: 
   - "multiple"

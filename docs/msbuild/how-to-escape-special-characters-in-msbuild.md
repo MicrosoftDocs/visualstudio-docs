@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "escape characters"
   - "MSBuild, escaping special characters"
 ms.assetid: 1aa3669c-1647-4960-b770-752e2532102f
-author: Mikejo5000
-ms.author: mikejo
+author: "mikejo5000"
+ms.author: "mikejo"
 manager: douge
 ms.workload: 
   - "multiple"
