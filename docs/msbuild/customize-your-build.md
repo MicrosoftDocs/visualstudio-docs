@@ -102,7 +102,7 @@ Or more simply: the first *Directory.Build.props* which doesn't import anything,
 
 By default, `Microsoft.Common.props` imports `$(MSBuildProjectExtensionsPath)$(MSBuildProjectFile).*.props` and `Microsoft.Common.targets` imports `$(MSBuildProjectExtensionsPath)$(MSBuildProjectFile).*.targets`. The default value of `MSBuildProjectExtensionsPath` is `$(BaseIntermediateOutputPath)`, `obj/`. This is the mechanism that NuGet uses to refer to build logic delivered with packages--at restore time, it creates `{project}.nuget.g.props` files that refer to the package contents.
 
-This extensibility mechanism can be disabled by setting the property `ImportProjectExtensionProps` to `false` before importing `Microsoft.Common.props`.
+This extensibility mechanism can be disabled by setting the property `ImportProjectExtensionProps` to `false` in a `Directory.Build.props` or before importing `Microsoft.Common.props`.
 
 ## MSBuildExtensionsPath and MSBuildUserExtensionsPath
 
