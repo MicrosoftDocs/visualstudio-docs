@@ -3,7 +3,7 @@ title: "MT Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "reference"
 f1_keywords: 
   - "VC.Project.VCManifestTool.ResourceOutputFileName"
   - "VC.Project.VCManifestTool.SuppressDependencyElement"

@@ -3,7 +3,7 @@ title: "XSD Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "reference"
 f1_keywords: 
   - "vc.task.xsd"
   - "VC.Project.VCXMLDataGeneratorTool.Namespace"

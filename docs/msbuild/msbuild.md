@@ -3,7 +3,7 @@ title: "MSBuild | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "reference"
 helpviewer_keywords: 
   - "MSBuild, about MSBuild"
   - "MSBuild, overview"
