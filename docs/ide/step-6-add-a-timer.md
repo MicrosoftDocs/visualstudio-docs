@@ -2,17 +2,13 @@
 title: "Step 6: Add a Timer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-acquisition"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 09e7930b-cab6-4a22-9a6f-72e23f489585
-caps.latest.revision: 21
 author: "TerryGLee"
 ms.author: "tglee"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -2,9 +2,6 @@
 title: "Talk to Us | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/19/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "product support [Visual Studio]"

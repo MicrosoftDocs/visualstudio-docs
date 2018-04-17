@@ -2,17 +2,13 @@
 title: "How to: Print Diagrams from the Graph View and the Content Model View | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 7e1785e4-4aaf-4c66-8735-51e7ca035565
-caps.latest.revision: 2
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

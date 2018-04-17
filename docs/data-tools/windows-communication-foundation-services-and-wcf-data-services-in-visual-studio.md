@@ -2,10 +2,7 @@
 title: "Windows Communication Foundation Services and WCF Data Services in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -34,10 +31,9 @@ helpviewer_keywords:
   - "WCF services, endpoints"
   - "service method, called asynchronously[Visual Studio]"
 ms.assetid: d56f12cb-e139-4fec-b3e4-488383356642
-caps.latest.revision: 26
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.technology: "vs-data-tools"
 ms.workload: 
   - "data-storage"

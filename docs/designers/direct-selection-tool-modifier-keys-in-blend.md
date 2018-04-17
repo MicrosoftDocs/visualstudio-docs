@@ -2,17 +2,13 @@
 title: "Direct Selection tool modifier keys in Blend | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-designers"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 21f9b951-dc2b-4d09-bd70-75caed8fb964
-caps.latest.revision: 5
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

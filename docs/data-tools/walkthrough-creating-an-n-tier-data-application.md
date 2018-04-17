@@ -2,10 +2,7 @@
 title: "Walkthrough: Creating an N-Tier Data Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "09/08/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -13,10 +10,9 @@ helpviewer_keywords:
   - "n-tier applications, creating"
   - "n-tier applications, walkthroughs"
 ms.assetid: d15e4d31-2839-48d9-9e0e-2e73404d82a2
-caps.latest.revision: 48
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.technology: "vs-data-tools"
 ms.workload: 
   - "data-storage"

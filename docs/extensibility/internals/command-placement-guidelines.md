@@ -2,21 +2,17 @@
 title: "Command Placement Guidelines | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "commands, small command sets"
   - "small command sets"
   - "command sets"
 ms.assetid: 63b3478e-e08a-420b-a0ec-76767e0cb289
-caps.latest.revision: 28
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

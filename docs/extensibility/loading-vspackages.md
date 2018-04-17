@@ -2,20 +2,16 @@
 title: "Loading VSPackages | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "VSPackages, autoloading"
   - "VSPackages, loading"
 ms.assetid: f4c3dcea-5051-4065-898f-601269649d92
-caps.latest.revision: 17
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

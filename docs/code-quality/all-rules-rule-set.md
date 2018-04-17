@@ -1,17 +1,12 @@
 ---
-title: "All Rules rule set | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+title: All Rules rule set
+ms.date: 11/04/2016
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # All Rules rule set

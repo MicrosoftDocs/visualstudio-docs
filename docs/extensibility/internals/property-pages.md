@@ -2,21 +2,17 @@
 title: "Property Pages | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "configuration options, changing properties"
   - "property pages"
   - "property pages, changing configuration options"
 ms.assetid: b9b3e6e8-1e30-4c89-9862-330265dcf38c
-caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

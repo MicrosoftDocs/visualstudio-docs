@@ -1,22 +1,16 @@
 ---
 title: Setting up Remote R Service on Linux
 description: How to set up Remote R Service on Ubuntu and the Windows Subsystem for Linux.
-ms.custom:
 ms.date: 12/04/2017
-ms.reviewer:
-ms.suite:
-ms.technology: 
-  - "devlang-r"
-dev_langs:
-  - "R"
-ms.tgt_pltfrm:
-ms.topic: "conceptual"
-author: "kraigb"
-ms.author: "kraigb"
-ms.reviewer: "karthiknadig"
+ms.prod: visual-studio-dev15
+ms.technology: vs-rtvs
+ms.topic: conceptual
+author: kraigb
+ms.author: kraigb
+ms.reviewer: karthiknadig
 manager: douge
 ms.workload: 
-  - "data-science"
+  - data-science
 ---
 
 # Remote R Service for Linux

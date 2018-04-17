@@ -2,12 +2,9 @@
 title: "Finding and replacing text | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.find"
   - "vs.findreplacecontrol"
@@ -37,10 +34,9 @@ helpviewer_keywords:
   - "find text"
   - "replacing text"
 ms.assetid: a62545c3-1570-4d12-99fb-a82607eb35a1
-caps.latest.revision: 31
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

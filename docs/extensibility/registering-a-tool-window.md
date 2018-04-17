@@ -2,20 +2,16 @@
 title: "Registering a Tool Window | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "tool windows, registering managed"
   - "tool windows, registering"
 ms.assetid: 8c8c4a24-3da4-497b-9db2-0ddd7cfbfdd2
-caps.latest.revision: 14
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

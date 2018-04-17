@@ -2,12 +2,8 @@
 title: "Inspect Variables in the Autos and Locals Windows | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
 ms.date: "04/17/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.autos"
   - "vs.debug.locals"
@@ -15,10 +11,9 @@ helpviewer_keywords:
   - "debugger, variable windows"
   - "debugging [Visual Studio], variable windows"
 ms.assetid: bb6291e1-596d-4af0-9f22-5fd713d6b84b
-caps.latest.revision: 24
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

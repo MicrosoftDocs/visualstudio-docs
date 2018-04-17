@@ -2,12 +2,8 @@
 title: "Debugging F# | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
   - "VB"
@@ -17,10 +13,9 @@ helpviewer_keywords:
   - "Debugging [F#]"
   - "F#, debugging"
 ms.assetid: 20bcd51c-2d06-4281-9a1e-ef2b91d1a779
-caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

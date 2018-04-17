@@ -2,21 +2,17 @@
 title: "IDebugExpression2::Abort | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugExpression2::Abort"
 helpviewer_keywords: 
   - "IDebugExpression2::Abort"
 ms.assetid: 4fcb712e-1bdb-4b75-a440-35cc79ee147e
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

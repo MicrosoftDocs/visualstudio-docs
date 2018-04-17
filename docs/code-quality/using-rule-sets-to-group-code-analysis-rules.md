@@ -1,5 +1,5 @@
 ---
-title: "Code analysis rule sets in Visual Studio | Microsoft Docs"
+title: Code analysis rule sets in Visual Studio
 ms.date: 04/02/2018
 ms.technology: vs-ide-code-analysis
 ms.topic: conceptual
@@ -7,9 +7,9 @@ f1_keywords:
   - "vs.codeanalysis.rulesets.learnmore"
 helpviewer_keywords:
   - "code analysis, rule sets"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: gewarren
+ms.author: gewarren
+manager: douge
 ms.workload:
   - "multiple"
 ---

@@ -2,22 +2,18 @@
 title: "Build Page, Project Designer (C#) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/20/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "cs.ProjectPropertiesBuild"
 helpviewer_keywords: 
   - "Build options [C#]"
   - "Project Designer, Build page"
 ms.assetid: 77ff1bfc-d633-4634-ba29-9afdb6d7e362
-caps.latest.revision: 43
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "dotnet"
 ---

@@ -2,20 +2,16 @@
 title: "How to: Create a Nullable Type (Class Designer) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "nullable types, Class Designer"
   - "Class Designer [Visual Studio], nullable types"
 ms.assetid: 84673a89-3f6d-4668-919e-1c0f56182fe5
-caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

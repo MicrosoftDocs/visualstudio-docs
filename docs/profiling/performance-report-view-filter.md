@@ -2,20 +2,15 @@
 title: "Performance Report View Filter | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "profiling tools, Profiler Report view filter"
   - "Profiler Report View filter, profiling tools"
 ms.assetid: 35f89d86-4683-4db1-aa0c-ae0ce65fa524
-caps.latest.revision: 16
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

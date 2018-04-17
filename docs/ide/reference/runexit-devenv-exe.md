@@ -2,21 +2,17 @@
 title: "-Runexit (devenv.exe) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "runexit Devenv switch"
   - "Devenv, /runexit switch"
   - "/runexit Devenv switch"
 ms.assetid: bfc94875-5fc0-4110-b961-d59c0b403790
-caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

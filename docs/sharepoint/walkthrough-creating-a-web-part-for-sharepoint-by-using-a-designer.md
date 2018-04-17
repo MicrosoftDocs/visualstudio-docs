@@ -2,12 +2,9 @@
 title: "Walkthrough: Creating a Web Part for SharePoint by Using a Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -19,7 +16,7 @@ helpviewer_keywords:
   - "Web Parts [SharePoint development in Visual Studio], designing"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

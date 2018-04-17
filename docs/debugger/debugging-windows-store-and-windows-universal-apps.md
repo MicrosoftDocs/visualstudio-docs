@@ -2,21 +2,16 @@
 title: "Debug UWP apps - Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/17/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
   - "VB"
   - "FSharp"
   - "C++"
-caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "uwp"
 ---

@@ -2,20 +2,16 @@
 title: "Convert text to uppercase or lowercase in the Visual Studio editor | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "editors, text case"
   - "text, case"
 ms.assetid: b04d1327-a45e-4c12-a0d0-67672b3fa855
-caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

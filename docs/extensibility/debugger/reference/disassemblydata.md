@@ -2,21 +2,17 @@
 title: "DisassemblyData | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "DisassemblyData"
 helpviewer_keywords: 
   - "DisassemblyData structure"
 ms.assetid: 10e70aa7-9381-40d3-bdd1-d2cad78ef16c
-caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

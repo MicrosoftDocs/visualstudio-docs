@@ -2,20 +2,16 @@
 title: "IDebugComPlusSymbolProvider2::LoadSymbolsFromCallback | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "LoadSymbolsFromCallback"
   - "IDebugComPlusSymbolProvider2::LoadSymbolsFromCallback"
 ms.assetid: 905315ba-8e9b-4889-b9da-98e1441950ad
-caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

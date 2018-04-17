@@ -2,14 +2,14 @@
 title: "Visual Studio IDE 64-Bit Support | Microsoft Docs"
 ms.date: "02/21/2018"
 ms.technology: vs-ide-general
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "64-bit applications [C++]"
   - "Visual Studio, 64-bit support"
   - "64-bit programming [C++]"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ---

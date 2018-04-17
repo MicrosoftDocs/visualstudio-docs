@@ -2,20 +2,16 @@
 title: "Options Page, Text Editor Node Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Tools Options settings, Text Editor node properties"
   - "automation [Visual Studio], controlling Tools Options"
 ms.assetid: 19438302-0677-4f4d-9720-5667e6a22ab2
-caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

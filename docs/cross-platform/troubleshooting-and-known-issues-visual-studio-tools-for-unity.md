@@ -2,11 +2,8 @@
 title: "Troubleshooting and Known Issues (Visual Studio Tools for Unity) | Microsoft Docs"
 ms.custom: ""
 ms.date: "04/10/2018"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-unity-tools
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 8f5db192-8d78-4627-bd07-dbbc803ac554
 author: "conceptdev"
 ms.author: "crdun"
@@ -51,6 +48,8 @@ Be sure to never touch project files directly from an asset processor or any oth
 
 If you experience extra reloads or if Visual Studio is losing all open Windows on reload, please make sure that you have proper .NET targeting packs installed. Please check the following section about frameworks for more information.
 
+###  The debugger does not break on exceptions
+In the Exception Settings window (Debug > Windows > Exception Settings), expand the node for a category of exceptions (for example, Common Language Runtime Exceptions, meaning .NET exceptions), and select the check box for the specific exception you want to catch within that category (for example System.NullReferenceException). You can also select an entire category of exceptions.
 
 ### On Windows, Visual Studio asks to download the Unity target framework
 Visual Studio Tools for Unity requires the .NET framework 3.5, which isn't installed by default on Windows 8 or 10. To fix this issue, follow the instructions to download and install the .NET framework 3.5.

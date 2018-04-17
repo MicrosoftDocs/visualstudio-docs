@@ -2,20 +2,16 @@
 title: "Add new data sources | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.datasource.datasourcefieldspicker"
 helpviewer_keywords: 
   - "data [Visual Studio], data sources"
   - "data sources"
 ms.assetid: ed28c625-bb89-4037-bfde-cfa435d182a2
-caps.latest.revision: 56
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.technology: "vs-data-tools"
 ms.workload: 
   - "data-storage"

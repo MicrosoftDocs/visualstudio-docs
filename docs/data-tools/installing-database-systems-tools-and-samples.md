@@ -2,19 +2,15 @@
 title: "Visual Studio database compatibility | Microsoft Docs"
 ms.custom: ""
 ms.date: "09/06/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "database systems"
   - "database compatibility"
   - "databases for Visual Studio"
 ms.assetid: 821de34b-eaa9-40af-b9aa-b8305de16899
-caps.latest.revision: 28
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.technology: "vs-data-tools"
 ms.workload: 
   - "data-storage"

@@ -2,21 +2,17 @@
 title: "IDebugObject2::GetBackingFieldForProperty | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugObject2::GetBackingFieldForProperty"
 helpviewer_keywords: 
   - "IDebugObject2::GetBackingFieldForProperty method"
 ms.assetid: e72c6338-5573-4fad-8075-f3ade3435424
-caps.latest.revision: 7
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

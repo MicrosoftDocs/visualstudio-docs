@@ -2,11 +2,8 @@
 title: "Getting started with C# and ASP.NET Core in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "12/11/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology:
   - "vs-acquisition"
-ms.tgt_pltfrm: ""
 ms.topic: "tutorial"
 ms.devlang: "CSharp"
 author: "TerryGLee"

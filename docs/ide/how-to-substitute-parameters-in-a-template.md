@@ -2,19 +2,16 @@
 title: "Add name parameters to project and item templates in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/02/2018"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "template parameters"
   - "template parameters, substituting"
   - "Visual Studio templates, using parameters"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ---
 # How to: Substitute parameters in a template
 

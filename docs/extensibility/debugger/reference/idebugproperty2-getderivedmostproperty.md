@@ -2,21 +2,17 @@
 title: "IDebugProperty2::GetDerivedMostProperty | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProperty2::GetDerivedMostProperty"
 helpviewer_keywords: 
   - "IDebugProperty2::GetDerivedMostProperty"
 ms.assetid: cc86b461-62d1-4340-8209-c65037fd8b02
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

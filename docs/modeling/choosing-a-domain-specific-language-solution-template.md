@@ -2,14 +2,12 @@
 title: "Choosing a Domain-Specific Language Solution Template | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Domain-Specific Language Tools, solution templates"
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ms.technology: vs-ide-modeling

@@ -2,19 +2,15 @@
 title: "How to: Distribute Code Snippets | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "code snippets, distributing"
 ms.assetid: 5f717abd-e167-47ae-818c-6b0bae100ceb
-caps.latest.revision: 16
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 dev_langs: 
   - "VB"
 ms.workload: 

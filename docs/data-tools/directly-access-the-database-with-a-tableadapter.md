@@ -2,10 +2,7 @@
 title: "Directly access the database with a TableAdapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -22,10 +19,9 @@ helpviewer_keywords:
   - "saving data"
   - "TableAdapters"
 ms.assetid: 012c5924-91f7-4790-b2a6-f51402b7014b
-caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.technology: "vs-data-tools"
 ms.workload: 
   - "data-storage"

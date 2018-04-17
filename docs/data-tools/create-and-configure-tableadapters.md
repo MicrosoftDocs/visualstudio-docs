@@ -2,10 +2,7 @@
 title: "Create and configure TableAdapters | Microsoft Docs"
 ms.custom: ""
 ms.date: "09/01/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "table adapters, creating"
   - "creating TableAdapters"
@@ -13,10 +10,9 @@ helpviewer_keywords:
   - "data [Visual Studio], TableAdapters"
   - "data [Visual Studio], creating table adapters"
 ms.assetid: 08630d69-0d6c-4e8f-b42d-2922f45f8415
-caps.latest.revision: 28
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.technology: "vs-data-tools"
 ms.workload: 
   - "data-storage"

@@ -2,12 +2,9 @@
 title: "Building and Cleaning Projects and Solutions in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VS.BuildProjectPicker"
   - "vs.batchbuild"
@@ -23,10 +20,9 @@ helpviewer_keywords:
   - "solution build configurations, build order"
   - "builds [Visual Studio], preparing"
 ms.assetid: 710891fd-379e-42c2-a84b-44a7af694ca0
-caps.latest.revision: 35
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

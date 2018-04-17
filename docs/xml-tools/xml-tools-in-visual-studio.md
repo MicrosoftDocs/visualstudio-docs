@@ -2,12 +2,9 @@
 title: "XML Tools in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vb.xmldesigner"
 helpviewer_keywords: 
@@ -33,10 +30,9 @@ helpviewer_keywords:
   - "XSL, style sheets"
   - "XMLDataDocument class"
 ms.assetid: 1fd5de47-2d61-4180-9539-c2c4bf9ab768
-caps.latest.revision: 21
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -2,12 +2,9 @@
 title: "Culture-Specific Classes for Global Windows Forms and Web Forms | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "globalization [Windows Forms], classes"
   - "Web applications [.NET Framework], globalization"
@@ -26,10 +23,9 @@ helpviewer_keywords:
   - "classes [Visual Studio], culture-specific"
   - "localization [Visual Studio], culture-specific classes"
 ms.assetid: 0d06a0a4-f887-4f7c-bde7-1d543c06f803
-caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 dev_langs:
  - CSharp
  - VB

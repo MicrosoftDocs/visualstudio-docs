@@ -2,20 +2,16 @@
 title: "Visual Studio Debugger Extensibility | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "debugging [Visual Studio], Debugging SDK"
   - "Debugging SDK"
 ms.assetid: c088b6a2-c3ad-446b-830d-9c6f41b2934b
-caps.latest.revision: 32
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

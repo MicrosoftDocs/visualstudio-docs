@@ -2,12 +2,8 @@
 title: "How to: Use Native Run-Time Checks | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "c.runtime.errorchecks"
 dev_langs: 
@@ -38,10 +34,9 @@ helpviewer_keywords:
   - "stack pointers"
   - "arrays [Visual Studio], debugging"
 ms.assetid: dc7b2f1e-5ff6-42e0-89b3-dc9dead83ee1
-caps.latest.revision: 19
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "cplusplus"
 ---

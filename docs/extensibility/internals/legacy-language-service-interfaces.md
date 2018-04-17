@@ -2,20 +2,16 @@
 title: "Legacy Language Service Interfaces | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IVsLanguageInfo interface"
   - "language services, objects"
 ms.assetid: 03b2d507-f463-417e-bc22-bdac68eeda52
-caps.latest.revision: 24
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

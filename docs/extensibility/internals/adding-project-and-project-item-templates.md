@@ -2,20 +2,16 @@
 title: "Adding Project and Project Item Templates | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "projects [Visual Studio SDK], adding"
   - "project items [Visual Studio], adding"
 ms.assetid: 8c59217f-56e5-4540-a73b-cd10de189373
-caps.latest.revision: 17
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

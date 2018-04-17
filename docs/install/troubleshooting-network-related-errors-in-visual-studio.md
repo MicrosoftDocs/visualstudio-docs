@@ -3,11 +3,8 @@ title: "Troubleshooting network-related errors when you install or use Visual St
 description: ""
 ms.custom: ""
 ms.date: "02/12/2018"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology:
   - "vs-acquisition"
-ms.tgt_pltfrm: ""
 ms.topic: "troubleshooting"
 helpviewer_keywords:
   - "network installation, Visual Studio"

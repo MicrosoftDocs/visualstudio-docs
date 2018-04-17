@@ -2,15 +2,13 @@
 title: ".NET Naming Conventions For EditorConfig files | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/20/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "naming conventions [EditorConfig]"
   - "EditorConfig naming conventions"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.technology: vs-ide-general
 ms.workload:
   - "multiple"

@@ -3,10 +3,8 @@ title: "Control updates to Visual Studio deployments | Microsoft Docs"
 description: "{{PLACEHOLDER}}"
 ms.date: "08/14/2017"
 ms.reviewer: "tims"
-ms.suite: ""
 ms.technology:
   - "vs-acquisition"
-ms.tgt_pltfrm: ""
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "{{PLACEHOLDER}}"

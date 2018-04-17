@@ -2,12 +2,9 @@
 title: "Use Visual Studio Help Viewer table of contents | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-help-viewer"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "hv_contents"
 helpviewer_keywords: 
@@ -16,10 +13,9 @@ helpviewer_keywords:
   - "Contents tab [Help Viewer]"
   - "table of contents filtering [Help Viewer]"
 ms.assetid: 8b98464d-2b05-4710-ad68-5647e78c6b7b
-caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

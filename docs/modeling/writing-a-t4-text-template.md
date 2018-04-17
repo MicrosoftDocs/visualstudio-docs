@@ -2,16 +2,14 @@
 title: "Writing a T4 Text Template | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "text templates, syntax"
   - "text templates, guide"
   - "text templates, functions that generate text"
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ms.technology: vs-ide-modeling

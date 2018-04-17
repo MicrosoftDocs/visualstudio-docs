@@ -2,12 +2,8 @@
 title: "Stop Statements in Visual Basic | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
   - "VB"
@@ -20,10 +16,9 @@ helpviewer_keywords:
   - "Stop statements, about Stop statements"
   - "debugging [Visual Basic], Stop statements vs. breakpoints"
 ms.assetid: 4ad3fe5c-3dfb-4913-b2eb-a0b635751c18
-caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

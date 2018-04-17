@@ -2,17 +2,15 @@
 title: "Overview of Visual Studio 2017 | Microsoft Docs"
 ms.custom: ""
 ms.date: 02/05/2018
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-general
-ms.topic: "article"
+ms.topic: "conceptual"
 author: "gewarren"
 f1_keywords:
   - vs.startpage
   - VS.StartPage.HowDoI
   - MSDNSTART
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ---

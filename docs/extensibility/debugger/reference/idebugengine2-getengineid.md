@@ -2,21 +2,17 @@
 title: "IDebugEngine2::GetEngineID | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugEngine2::GetEngineID"
 helpviewer_keywords: 
   - "IDebugEngine2::GetEngineID"
 ms.assetid: 0d5674c8-a9b9-4b72-8211-d2d68695775a
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

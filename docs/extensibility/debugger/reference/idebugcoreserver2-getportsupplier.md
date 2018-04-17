@@ -2,21 +2,17 @@
 title: "IDebugCoreServer2::GetPortSupplier | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugCoreServer2::GetPortSupplier"
 helpviewer_keywords: 
   - "IDebugCoreServer2::GetPortSupplier"
 ms.assetid: acf181d4-ef42-4aa5-86f9-95fd5467ea31
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

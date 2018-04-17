@@ -2,12 +2,9 @@
 title: "How to: Add Comments to Class Diagrams (Class Designer) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.classdesigner.comment"
 helpviewer_keywords: 
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "class diagrams, adding comment shapes"
   - "comment shapes"
 ms.assetid: d54005d5-a29d-4c4e-b153-feb6e84dd44f
-caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

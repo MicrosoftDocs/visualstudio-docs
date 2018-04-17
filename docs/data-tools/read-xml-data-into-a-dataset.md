@@ -2,10 +2,7 @@
 title: "Read XML data into a dataset | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -19,10 +16,9 @@ helpviewer_keywords:
   - "XML documents, reading"
   - "datasets [Visual Basic], reading XML data"
 ms.assetid: fae72958-0893-47d6-b3dd-9d42418418e4
-caps.latest.revision: 18
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.technology: "vs-data-tools"
 ms.workload: 
   - "data-storage"

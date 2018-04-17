@@ -4,7 +4,7 @@ ms.date: "11/04/2016"
 ms.topic: "reference"
 ms.assetid: f42d3115-2ed2-4941-8f1e-92dac41c30fa
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 author: gewarren

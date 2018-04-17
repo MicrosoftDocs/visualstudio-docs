@@ -2,12 +2,9 @@
 title: "Publish Page, Project Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "Microsoft.VisualStudio.Publish.ClickOnceProvider.Dialog.PropertyPage"
 helpviewer_keywords: 
@@ -15,7 +12,7 @@ helpviewer_keywords:
   - "Publish page in Project Designer"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -2,12 +2,8 @@
 title: "What's New for the Debugger in Visual Studio 2017 | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
   - "VB"
@@ -19,10 +15,9 @@ helpviewer_keywords:
   - "debugging [Visual Studio], what's new"
   - "what's new [Visual Studio], debugging"
 ms.assetid: 2aed9caa-2384-4e49-8595-82d8b06cf271
-caps.latest.revision: 81
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -2,17 +2,13 @@
 title: "Step 2: Add a Random Object and a List of Icons | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology:
   - "vs-acquisition"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 95faea28-eddc-4cfa-95fb-3b34b5a976d7
-caps.latest.revision: 22
 author: "TerryGLee"
 ms.author: "tglee"
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ---

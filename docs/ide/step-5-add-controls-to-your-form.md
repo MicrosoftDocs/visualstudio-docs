@@ -2,17 +2,13 @@
 title: "Step 5: Add Controls to Your Form | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-acquisition"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: dc2746f4-0b5c-4674-9ef7-f40f94150f52
-caps.latest.revision: 20
 author: "TerryGLee"
 ms.author: "tglee"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

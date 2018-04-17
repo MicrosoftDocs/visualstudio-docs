@@ -2,7 +2,7 @@
 title: "Use UI Automation To Test Your Code in Visual Studio | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords:
   - "vs.codedUITest"
   - "vs.codedUITest.recorder"
@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "coded UI test"
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ---

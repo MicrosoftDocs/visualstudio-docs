@@ -2,20 +2,16 @@
 title: "Test Area 5: Change Source Control | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "source control [Visual Studio SDK], changing"
   - "source control plug-ins, changing source control"
 ms.assetid: fdf09e00-108c-4d51-bbd5-72452d52a490
-caps.latest.revision: 15
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

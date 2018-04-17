@@ -2,12 +2,9 @@
 title: "Customize window layouts in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/23/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.windows"
   - "vs.environment"
@@ -24,10 +21,9 @@ helpviewer_keywords:
   - "debug mode"
   - "custom layouts"
 ms.assetid: 7517ff13-76de-4ecf-9c1b-eb9b7ff4d718
-caps.latest.revision: 27
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

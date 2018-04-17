@@ -2,22 +2,18 @@
 title: "ProjectItem Element (Visual Studio Item Templates) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/vstemplate/2005#ProjectItem"
 helpviewer_keywords: 
   - "<ProjectItem> element [Visual Studio item templates]"
   - "ProjectItem element [Visual Studio item templates]"
 ms.assetid: 9ed94112-0c38-49df-b728-0dd2d0d1eb47
-caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---
