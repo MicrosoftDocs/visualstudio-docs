@@ -130,7 +130,7 @@ The same directory structure is searched in `$(MSBuildUserExtensionsPath)`, whic
 > [!IMPORTANT]
 > Customizing the solution build in this way applies only to command-line builds with `MSBuild.exe`. It **does not** apply to builds inside Visual Studio.
 
-When MSBuild builds a solution file, it first translates it internally into a project file and then builds that. The generated project file imports `before.{solutionname}.sln.targets` before defining any targets and `after.{solutionname}.targets` after importing targets, including targets installed to the `$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\SolutionFile\ImportBefore` and `$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\SolutionFile\ImportAfter` directories.
+When MSBuild builds a solution file, it first translates it internally into a project file and then builds that. The generated project file imports `before.{solutionname}.sln.targets` before defining any targets and `after.{solutionname}.sln.targets` after importing targets, including targets installed to the `$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\SolutionFile\ImportBefore` and `$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\SolutionFile\ImportAfter` directories.
 
 For example, you could define a new target to write a custom log message after building `MyCustomizedSolution.sln` by creating a file in the same directory named `after.MyCustomizedSolution.sln.targets` that contains
 
