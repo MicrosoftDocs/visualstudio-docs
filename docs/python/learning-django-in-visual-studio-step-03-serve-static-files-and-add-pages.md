@@ -18,7 +18,7 @@ ms.workload:
 
 In the previous steps of this tutorial you've learned how to create a very basic Django app with a single page of self-contained HTML. Modern web apps, however are typically composed of many pages, and make use of shared resources like CSS and JavaScript and file to provide consistent styling and behavior.
 
-In this step you now learn how to:
+In this step, you learn how to:
 
 > [!div class="checklist"]
 > - Use Visual Studio item templates to quickly new files of different types with convenient boilerplate code (step 3-1)
@@ -34,11 +34,17 @@ As you develop a Django app, you typically add many more Python, HTML, CSS, and 
 
 To access a template, go to **Solution Explorer**, right-click the folder in which you want to create the item, select **Add > New Item...**, select the desired template, specify a name for the file, and select **OK**. Adding an item in this manner automatically adds the file to your Visual Studio project.
 
+![Add new item dialog in Visual Studio](media/django/step03-add-new-item-dialog.png)
+
+### Question: how does Visual Studio know which item templates to offer?
+
+Answer: The Visual Studio project file (`.pyproj`) contains a project type identifier that marks it as a Python project. Visual Studio uses this type identifier to show only those item templates that are suitable for the project type. This way, Visual Studio can supply a rich set of item templates for many project types without asking you to sort through them every time.
+
 ## Step 3-2: Serve static files from your app
 
-Your Python files, of course, run on the server. Other files, such as CSS and JavaScript (and possibly some HTML) are *static* files because the server simply delivers them as-is when requested by a client.
+In a web app built with Python (using any framework), your Python files always run on the web host's server and are never transmitted to a user's computer. Other files, however, such as CSS and JavaScript, are used exclusively by the browser, so the host server simply delivers them as-is whenever they're requested. Such files are referred to as "static" files, and Django can deliver them automatically without you needing to write any code.
 
-The Django project is configured by default to serve static files from the app's `static` folder, thanks to these lines in the Django project's `settings.py`:
+A Django project is configured by default to serve static files from the app's `static` folder, thanks to these lines in the Django project's `settings.py`:
 
 ```python
 # Static files (CSS, JavaScript, Images)
@@ -49,13 +55,13 @@ STATIC_URL = '/static/'
 STATIC_ROOT = posixpath.join(*(BASE_DIR.split(os.path.sep) + ['static']))
 ```
 
-You can organize files using any folder structure within `static` that you like, as you use relative paths within that folder whenever you refer to the files. To demonstrate this, the following steps add a CSS file to the app, then use stylesheet in the `index.html` template:
+You can organize files using any folder structure within `static` that you like, and then use relative paths within that folder to refer to the files. To demonstrate this process, the following steps add a CSS file to the app, then use that stylesheet in the `index.html` template:
 
-1. In **Solution Explorer**, right-click the "HelloDjangoApp" folder in the Visual Studio project, select **Add > New folder**, and name the folder `static`.
+1. In **Solution Explorer**, right-click the "HelloDjangoApp" folder in the Visual Studio project, select **Add** > **New folder**, and name the folder `static`.
 
-1. Right-click the `static` folder and select **Add > New item...**. In the dialog that appears, select the "Stylesheet" template, name the file `site.css`, and select **OK**. The `site.css` file appears in the project and is opened in the editor.
+1. Right-click the `static` folder and select **Add** > **New item**. In the dialog that appears, select the "Stylesheet" template, name the file `site.css`, and select **OK**. The `site.css` file appears in the project and is opened in the editor.
 
-1. Make the contents of `site.css` match the following, and save the file:
+1. Replace the contents of `site.css` with the following code and save the file:
 
     ```css
     .message {
@@ -64,7 +70,7 @@ You can organize files using any folder structure within `static` that you like,
     }
     ```
 
-1. Make the contents of the app's `templates/index.html` file match the following:
+1. Replace the contents of the app's `templates/index.html` file with the following code, which replaces the `<strong>` element used in step 2 with a `<span>` that references the `message` style class. Using a style class in this way gives you much more flexibility in styling the element.
 
     ```html
     <html>
@@ -79,19 +85,27 @@ You can organize files using any folder structure within `static` that you like,
     </html>
     ```
 
-    The `{% load staticfiles %}` line is essential before referring to static files in elements like `<head>` and `<body>`. In this case, "staticfiles" refers to a custom template tag set, specifically the one that allows you to use the `{% static %}` syntax to refer to static files.  Without `{% load staticfiles %}`, you'll see an exception when the app runs.
+1. Run the project to observe the results. Stop the server when done, and commit your changes to source control if you like (as explained in [step 2](learning-django-in-visual-studio-step-02-create-an-app.md#commit-to-source-control)).
 
-    In any case, you can see that the markup here replaces the `<strong>` element with a `<span>` that references the `message` style, which gives you much more flexibility in styling the message element.
+### Question: what is purpose of the {% load staticfiles %} tag?
 
-1. Run the server to observe the results. Stop the server when done.
+Answer: The `{% load staticfiles %}` line is required before referring to static files in elements like `<head>` and `<body>`. In the example shown in this section, "staticfiles" refers to a custom Django template tag set, which is what allows you to use the `{% static %}` syntax to refer to static files.  Without `{% load staticfiles %}`, you'll see an exception when the app runs.
 
-You can add other CSS, JavaScript, and HTML files in your `static` folder however you want. A typical way to organize static files is to create subfolders named `fonts`, `scripts`, and `content` (for stylesheets and any other files). In each case, remember to include those folders in the relative path to the file in `{% static }` references.
+### Question: are there any conventions for organizing static files?
+
+Answer: You can add other CSS, JavaScript, and HTML files in your `static` folder however you want. A typical way to organize static files is to create subfolders named `fonts`, `scripts`, and `content` (for stylesheets and any other files). In each case, remember to include those folders in the relative path to the file in `{% static %}` references.
 
 ## Step 3-3: Add a page to the app
 
-Adding another page to the app means adding a Python function that defines the view, adding a template for the page's markup, and adding the necessary routing to the Django project's `urls.py` file. The following steps add an "About" page to the "HelloDjangoApp" project, and links to that page from the home page:
+Adding another page to the app means the following:
 
-1. In **Solution Explorer**, right-click the app's `template` folder, select **Add > New item...**, select the "HTML Page" item template, name it `about.html`, and select **OK**.
+- Add a Python function that defines the view.
+- Add a template for the page's markup.
+- Add the necessary routing to the Django project's `urls.py` file.
+
+The following steps add an "About" page to the "HelloDjangoApp" project, and links to that page from the home page:
+
+1. In **Solution Explorer**, right-click the `HelloDjangoApp/template` folder, select **Add** > **New item**, select the "HTML Page" item template, name the file `about.html`, and select **OK**.
 
 1. Replace the contents of `about.html` with the following markup (don't worry about the explicit link; you replace it in the next section with a simple navigation bar):
 

@@ -19,12 +19,12 @@ ms.workload:
 In this tutorial, you learn how to:
 
 > [!div class="checklist"]
-> - Create a basic Django project in a Git repository using the "Blank Django Web Project" template (step 1).
-> - Create a Django app with one page and render that page using a template (step 2).
-> - Serve static files, add pages, and use template inheritance (step 3).
-> - Use the Django Web Project template to create an app with multiple pages and responsive design (step 4).
-> - Authenticate users (step 5).
-> - Use the Polls Django Web Project template to create an app that uses models, database migrations, and customizations to the administrative interface (step 6).
+> - Create a basic Django project in a Git repository using the "Blank Django Web Project" template (step 1)
+> - Create a Django app with one page and render that page using a template (step 2)
+> - Serve static files, add pages, and use template inheritance (step 3)
+> - Use the Django Web Project template to create an app with multiple pages and responsive design (step 4)
+> - Authenticate users (step 5)
+> - Use the Polls Django Web Project template to create an app that uses models, database migrations, and customizations to the administrative interface (step 6)
 
 ## Prerequisites
 
@@ -107,8 +107,8 @@ Once project creation completes, examine the boilerplate Django project code (wh
 
     - `__init.py`: an empty file that tells Python that this folder is a Python package.
     - `wsgi.py`: an entry point for WSGI-compatible web servers to serve your project. You typically leave this file as-is as it provides the hooks for production web servers.
-    - `settings,py`: contains settings for Django project.
-    - `urls.py`: contains a table of contents for the Django project.
+    - `settings,py`: contains settings for Django project, which you modify in the course of developing a web app.
+    - `urls.py`: contains a table of contents for the Django project, which you also modify in the course of development.
 
     ![Django project files in Solution Explorer](media/django/step01-django-project-in-solution-explorer.png)
 
@@ -131,6 +131,10 @@ Answer: Yes. Expand the **Python Environments** node, right-click your virtual e
     ![Django project default view](media/django/step01-first-run-success.png)
 
 1. When you're done, stop the server by closing the console window, or by using the **Debug** > **Stop Debugging** command in Visual Studio.
+
+### Question: Is Django a web server as well as a framework?
+
+Answer: Yes and no. Django does have a built-in web server that's used for development purposes. This web server is what gets used when you run the web app locally, such as when debugging in Visual Studio. When you deploy to a web host, however, Django uses the host's web server instead. The `wsgi.py` module in the Django project takes care of hooking into the production servers.
 
 ### Question: What's the difference between using the Debug menu commands and the server commands on the project's Python submenu?
 
