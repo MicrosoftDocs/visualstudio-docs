@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "MSBuild, extending Visual Studio builds"
   - "MSBuild, DependsOn properties"
 ms.assetid: cb077613-4a59-41b7-96ec-d8516689163c
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

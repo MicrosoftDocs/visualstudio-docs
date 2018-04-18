@@ -1,6 +1,6 @@
 ---
-title: "Implementing Custom Code Analysis Check-in Policies for Managed Code in Visual Studio | Microsoft Docs"
-ms.date: "11/04/2016"
+title: Implementing Custom Code Analysis Check-in Policies for Managed Code in Visual Studio
+ms.date: 11/04/2016
 ms.technology: vs-ide-code-analysis
 ms.topic: conceptual
 f1_keywords:
@@ -8,8 +8,8 @@ f1_keywords:
   - "vs.code.analysis.browsefortfsruleset"
   - "vs.code.analysis.policyeditor"
 ms.assetid: fd029003-5671-4b24-8b6f-032e0a98b2e8
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "dotnet"

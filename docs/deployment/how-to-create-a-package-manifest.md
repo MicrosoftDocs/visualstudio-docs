@@ -2,8 +2,7 @@
 title: "How to: Create a Package Manifest | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-deployment"
+ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs: 
   - "FSharp"
@@ -16,9 +15,9 @@ helpviewer_keywords:
   - "prerequisites, custom bootstrapper package"
   - "dependencies, custom bootstrapper packages"
 ms.assetid: 5aecc507-2764-42f2-ae6f-c227971cf0af
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -68,18 +68,18 @@ You can use these keyboard shortcuts with the **Peek Definition** window:
 
 |Functionality|Keyboard shortcut|
 |-------------------|:-----------------------:|
-|Open the definition window|Alt+F12|
-|Close the definition window|Esc|
-|Promote the definition window to a regular document tab|Shift+Alt+Home|
-|Navigate between definition windows|Ctrl+Alt+- and Ctrl+Alt+=|
-|Navigate between multiple results|F8 and Shift+F8|
-|Toggle between the code editor window and the definition window|Shift+Esc|
+|Open the definition window|**Alt**+**F12**|
+|Close the definition window|**Esc**|
+|Promote the definition window to a regular document tab|**Shift**+**Alt**+**Home**|
+|Navigate between definition windows|**Ctrl**+**Alt**+**-** and **Ctrl**+**Alt**+**=**|
+|Navigate between multiple results|**F8** and **Shift**+**F8**|
+|Toggle between the code editor window and the definition window|**Shift**+**Esc**|
 
 > [!NOTE]
 > You can also use the same keyboard shortcuts to edit code in a **Peek Definition** window as you use elsewhere in Visual Studio.
 
 ## See also
 
-[Navigating Code](../ide/navigating-code.md)  
+[Navigate code](../ide/navigating-code.md)  
 [Go To Definition and Peek Definition](../ide/go-to-and-peek-definition.md)  
-[Productivity Tips](../ide/productivity-tips-for-visual-studio.md)
+[Productivity tips](../ide/productivity-tips-for-visual-studio.md)

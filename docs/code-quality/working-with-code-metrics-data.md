@@ -1,9 +1,7 @@
 ---
-title: "The Code Metrics Results window in Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "12/12/2017"
-ms.technology:
-  - "vs-ide-code-analysis"
+title: The Code Metrics Results window in Visual Studio
+ms.date: 12/12/2017
+ms.technology: vs-ide-code-analysis
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.codemetrics.output"
@@ -11,8 +9,8 @@ helpviewer_keywords:
   - "code metrics results"
   - "code metrics results window"
   - "results window, code metrics"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"

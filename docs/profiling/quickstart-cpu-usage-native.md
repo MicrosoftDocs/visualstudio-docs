@@ -2,8 +2,7 @@
 title: "Analyze CPU usage data (C++) | Microsoft Docs"
 ms.custom: ""
 ms.date: "12/05/2017"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "quickstart"
 f1_keywords: 
   - ""

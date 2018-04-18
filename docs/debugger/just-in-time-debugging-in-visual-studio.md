@@ -2,8 +2,7 @@
 title: "How to: Respond to the Just-In-Time Debugger | Microsoft Docs"
 ms.custom: ""
 ms.date: "05/23/17"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "debugging [Visual Studio], Just-In-Time"

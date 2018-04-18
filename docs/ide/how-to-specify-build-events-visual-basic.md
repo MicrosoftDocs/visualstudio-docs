@@ -1,5 +1,5 @@
 ---
-title: "How to: Specify Build Events (Visual Basic) | Microsoft Docs"
+title: "How to: Specify build events (Visual Basic) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
@@ -18,7 +18,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Specify Build Events (Visual Basic)
+# How to: Specify build events (Visual Basic)
 Build events in Visual Basic can be used to run scripts, macros, or other actions as a part of the compilation process. Pre-build events occur before compilation; post-build events occur after compilation.  
   
  Build events are specified in the **Build Events** dialog box, available from the **Compile** page of the **Project Designer**.  
@@ -26,7 +26,7 @@ Build events in Visual Basic can be used to run scripts, macros, or other action
 > [!NOTE]
 >  Visual Basic Express does not support entry of build events. This is supported only in the full Visual Studio product.  
   
-## How to Specify Pre-Build and Post-Build Events  
+## How to specify pre-build and post-build events  
   
 #### To specify a build event  
   
@@ -39,13 +39,13 @@ Build events in Visual Basic can be used to run scripts, macros, or other action
 4.  Enter the command-line arguments for your pre-build or post-build action, and then click **OK**.  
   
     > [!NOTE]
-    >  Add a `call` statement before all post-build commands that run .bat files. For example, `call C:\MyFile.bat` or `call C:\MyFile.bat call C:\MyFile2.bat`.  
+    >  Add a `call` statement before all post-build commands that run *.bat* files. For example, `call C:\MyFile.bat` or `call C:\MyFile.bat call C:\MyFile2.bat`.  
   
     > [!NOTE]
     >  If your pre-build or post-build event does not complete successfully, you can terminate the build by having your event action exit with a code other than zero (0), which indicates a successful action.  
   
-## Example: How to Change Manifest Information Using a Post-Build Event  
- The following procedure shows how to set the minimum operating system version in the application manifest using an .exe command called from a post-build event (the .exe.manifest file in the project directory). The minimum operating system version is a four-part number such as 4.10.0.0. To do this, the command will change the `<dependentOS>` section of the manifest:  
+## Example: How to change manifest information using a post-build event  
+ The following procedure shows how to set the minimum operating system version in the application manifest using an *.exe* command called from a post-build event (the *.exe.manifest* file in the project directory). The minimum operating system version is a four-part number such as 4.10.0.0. To do this, the command will change the `<dependentOS>` section of the manifest:  
   
 ```  
 <dependentOS>  
@@ -61,7 +61,7 @@ Build events in Visual Basic can be used to run scripts, macros, or other action
   
 2.  In the **New Project** dialog box, in the **Visual Basic** node, select **Windows** and then the **Console Application** template. Name the project `ChangeOSVersionVB`.  
   
-3.  In Module1.vb, add the following line to the other `Imports` statements at the top of the file:  
+3.  In *Module1.vb*, add the following line to the other `Imports` statements at the top of the file:  
   
     ```  
     Imports System.Xml  
@@ -110,11 +110,11 @@ Build events in Visual Basic can be used to run scripts, macros, or other action
     End Sub  
     ```  
   
-     The command takes two arguments. The first argument is the path to the application manifest (that is, the folder in which the build process creates the manifest, typically Projectname.publish). The second argument is the new operating system version.  
+     The command takes two arguments. The first argument is the path to the application manifest (that is, the folder in which the build process creates the manifest, typically *<Projectname>.publish*). The second argument is the new operating system version.  
   
 5.  On the **Build** menu, click **Build Solution**.  
   
-6.  Copy the .exe file to a directory such as `C:\TEMP\ChangeOSVersionVB.exe`.  
+6.  Copy the *.exe* file to a directory such as *C:\TEMP\ChangeOSVersionVB.exe*.  
   
  Next, invoke this command in a post-build event to change the application manifest.  
   
@@ -123,14 +123,13 @@ Build events in Visual Basic can be used to run scripts, macros, or other action
 1.  Create a Windows application for the project to be published. From the **File** menu, click **New**, and then click **Project**.  
   
 2.  In the **New Project** dialog box, in the **Visual Basic** node, select **Windows Classic Desktop** and then the **Windows Forms App** template. Name the project `VBWinApp`.  
-  
 3.  With the project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.  
   
-4.  In the Project Designer, go to the **Publish** page and set **Publishing location** to `C:\TEMP\`.  
+4.  In the **Project Designer**, go to the **Publish** page and set **Publishing location** to *C:\TEMP*.  
   
 5.  Publish the project by clicking **Publish Now**.  
   
-     The manifest file will be built and put in `C:\TEMP\VBWinApp_1_0_0_0\VBWinApp.exe.manifest`. To view the manifest, right-click the file and click **Open with**, then click **Select the program from a list**, and then click **Notepad**.  
+     The manifest file will be built and put in *C:\TEMP\VBWinApp_1_0_0_0\VBWinApp.exe.manifest*. To view the manifest, right-click the file and click **Open with**, then click **Select the program from a list**, and then click **Notepad**.  
   
      Search in the file for the `<osVersionInfo>` element. For example, the version might be:  
   
@@ -138,7 +137,7 @@ Build events in Visual Basic can be used to run scripts, macros, or other action
     <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />  
     ```  
   
-6.  In the Project Designer, go to the **Compile** tab and click the **Build Events** button to open the **Build Events** dialog box.  
+6.  In the **Project Designer**, go to the **Compile** tab and click the **Build Events** button to open the **Build Events** dialog box.  
   
 7.  In the **Post-build Event Command Line** box, enter the following command:  
   
@@ -146,7 +145,7 @@ Build events in Visual Basic can be used to run scripts, macros, or other action
   
      When you build the project, this command will change the minimum operating system version in the application manifest to 5.1.2600.0.  
   
-     The `$(TargetPath)` macro expresses the full path for the executable being created. Therefore, $(TargetPath).manifest will specify the application manifest created in the bin directory. Publishing will copy this manifest to the publishing location that you set earlier.  
+     The `$(TargetPath)` macro expresses the full path for the executable being created. Therefore, *$(TargetPath).manifest* will specify the application manifest created in the *bin* directory. Publishing will copy this manifest to the publishing location that you set earlier.  
   
 8.  Publish the project again. Go to the **Publish** page and click **Publish Now**.  
   
@@ -160,7 +159,7 @@ Build events in Visual Basic can be used to run scripts, macros, or other action
   
 ## See also
 
-[Compile Page, Project Designer (Visual Basic)](../ide/reference/compile-page-project-designer-visual-basic.md)   
-[Publish Page, Project Designer](../ide/reference/publish-page-project-designer.md)   
-[Pre-build Event/Post-build Event Command Line Dialog Box](../ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md)   
-[How to: Specify Build Events (C#)](../ide/how-to-specify-build-events-csharp.md)
+[Compile page, Project Designer (Visual Basic)](../ide/reference/compile-page-project-designer-visual-basic.md)   
+[Publish page, Project Designer](../ide/reference/publish-page-project-designer.md)   
+[Pre-build event/Post-build event command line dialog box](../ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md)   
+[How to: Specify build events (C#)](../ide/how-to-specify-build-events-csharp.md)

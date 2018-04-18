@@ -2,10 +2,10 @@
 title: "Error: The target process exited while evaluating the function &#39;function&#39; | Microsoft Docs"
 ms.custom: ""
 ms.date: "4/06/2018"
-ms.topic: "reference"
+ms.topic: "troubleshooting"
 f1_keywords: 
   - "vs.debug.error.process_exit_func_eval_abort"
-ms.technology: vs-ide-debug
+ms.technology: "vs-ide-debug"
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: douge

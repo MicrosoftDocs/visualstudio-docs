@@ -2,9 +2,8 @@
 title: "Error: Unable to Automatically Step Into the Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
-ms.topic: "reference"
+ms.technology: "vs-ide-debug"
+ms.topic: "troubleshooting"
 f1_keywords: 
   - "vs.debug.error.causality_no_server_response"
 dev_langs: 

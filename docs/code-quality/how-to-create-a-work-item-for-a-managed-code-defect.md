@@ -1,17 +1,15 @@
 ---
-title: "How to: Create a Work Item for a Managed Code Defect | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-code-analysis"
+title: "How to: Create a Work Item for a Managed Code Defect"
+ms.date: 11/04/2016
+ms.technology: vs-ide-code-analysis
 ms.topic: "conceptual"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "managed code, creating work items for code defects"
   - "code analysis, creating work items"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "dotnet"
 ---
 # How to: Create a Work Item for a Managed Code Defect

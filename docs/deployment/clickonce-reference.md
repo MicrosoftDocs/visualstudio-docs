@@ -2,9 +2,8 @@
 title: "ClickOnce Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-deployment"
-ms.topic: "conceptual"
+ms.technology: vs-ide-deployment
+ms.topic: "reference"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -13,9 +12,9 @@ helpviewer_keywords:
   - "ClickOnce, reference"
   - "manifests [ClickOnce]"
 ms.assetid: 2a7d5704-5e8c-452c-9ef3-5e8ec5e952fe
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

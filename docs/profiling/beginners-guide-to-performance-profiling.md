@@ -2,8 +2,7 @@
 title: "Profile application performance in Visual Studio | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
 ms.date: "02/27/2017"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "tutorial"
 f1_keywords: 
   - "vs.performance.wizard.intropage"

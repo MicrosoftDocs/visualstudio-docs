@@ -2,8 +2,7 @@
 title: "Walkthrough: Debugging a Parallel Application | Microsoft Docs"
 ms.custom: "H1HackMay2017"
 ms.date: "03/22/2018"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"

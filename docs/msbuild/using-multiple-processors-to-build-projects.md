@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "multiple processors"
   - "MSBuild, multiple processor systems"
 ms.assetid: 49fa36c9-8e14-44f5-8a2b-34146cf6807b
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 
