@@ -6,7 +6,7 @@ ms.topic: "conceptual"
 ms.assetid: a94d6907-55f2-4874-9571-51d52d6edcfd
 author: mikeblome
 ms.author: mblome
-manager: douge
+manager: wpickett
 ms.workload:
   - "multiple"
 ---
