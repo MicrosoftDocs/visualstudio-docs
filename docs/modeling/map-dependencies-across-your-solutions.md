@@ -33,7 +33,7 @@ ms.technology: vs-ide-modeling
 
 When you want to understand dependencies across your code, visualize them by creating code maps. This helps you see how the code fits together without reading through files and lines of code.
 
-![View dependencies across your solutions](../modeling/media/codemapsmainintro.png "CodeMapsMainIntro")
+![View dependencies across your solutions](../modeling/media/codemapsmainintro.png)
 
 **Here are some videos**:
 
@@ -64,7 +64,7 @@ When you want to understand dependencies across your code, visualize them by cre
 
  **Note:** For projects other than C# or Visual Basic, there are fewer options for starting a code map or adding items to an existing code map. For example, you cannot right-click an object in the text editor of a C++ project and add it to a code map. However, you can drag and drop individual code elements or files from Solution Explorer, Class View, and Object Browser.
 
-#### To see the overall dependencies across your solution
+### To see the overall dependencies across your solution
 
 1.  Open the **Architecture** menu.
 
@@ -74,7 +74,7 @@ When you want to understand dependencies across your code, visualize them by cre
 
 4.  [See overall dependencies](#SeeOverviewSource) to understand how you can use code maps to view the overall dependencies across your solution.
 
-#### To see specific dependencies within your solution
+### To see specific dependencies within your solution
 
 1.  With your solution loaded, open **Solution Explorer**.
 
@@ -94,7 +94,7 @@ When you want to understand dependencies across your code, visualize them by cre
 
      You now have a blank map, which appears in your solution's **Solution Items** folder.
 
-#### To create a new empty code map without adding it to your solution
+### To create a new empty code map without adding it to your solution
 
 1.  Open the **Architecture** menu and choose **New Code Map**.
 
@@ -335,15 +335,16 @@ When you want to understand dependencies across your code, visualize them by cre
 ##  <a name="SavingExporting"></a> Share code maps
 
 ### Share the map with other Visual Studio users
- Use the **File** menu to save the map.
 
- -or-
+Use the **File** menu to save the map.
 
- To save the map as part of specific project, on the map toolbar, choose **Share**, **Move** \<*CodeMapName*>**.dgml into**, and then choose the project where you want to save the map.
+-or-
 
- ![Move a map into another project](../modeling/media/codemapsmovemapmenu.png "CodeMapsMoveMapMenu")
+To save the map as part of specific project, on the map toolbar, choose **Share**, **Move** \<*CodeMapName*>**.dgml into**, and then choose the project where you want to save the map.
 
- Visual Studio saves the map as a .dgml file that you can share with other users of Visual Studio Enterprise and Visual Studio Professional.
+![Move a map into another project](../modeling/media/codemapsmovemapmenu.png "CodeMapsMoveMapMenu")
+
+Visual Studio saves the map as a .dgml file that you can share with other users of Visual Studio Enterprise and Visual Studio Professional.
 
 > [!NOTE]
 >  Before you share a map with those who use Visual Studio Professional, make sure to expand any groups, show hidden nodes and cross-group links, and retrieve any deleted nodes that you want others to see on your map. Otherwise, other users won't be able to see these items.

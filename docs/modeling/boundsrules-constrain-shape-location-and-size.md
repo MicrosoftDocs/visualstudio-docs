@@ -12,14 +12,16 @@ ms.workload:
 ms.technology: vs-ide-modeling
 ---
 # BoundsRules Constrain Shape Location and Size
+
 A *Bounds Rule* is a class that defines limits on the size and location of a shape. It provides a method that is called repeatedly while a user is dragging a shape or the corners or sides of a shape.
 
- The following example constrains a rectangular shape to be a bar of fixed size, either horizontal or vertical. When the user drags the corners or sides, the outline flips between the two permitted configurations of height and width.
+The following example constrains a rectangular shape to be a bar of fixed size, either horizontal or vertical. When the user drags the corners or sides, the outline flips between the two permitted configurations of height and width.
 
- The bounds rule is a class derived from <xref:Microsoft.VisualStudio.Modeling.Diagrams.BoundsRules>. An instance of the rule is created in the shape:
+The bounds rule is a class derived from <xref:Microsoft.VisualStudio.Modeling.Diagrams.BoundsRules>. An instance of the rule is created in the shape:
 
-```
+```csharp
 using Microsoft.VisualStudio.Modeling.Diagrams; ...
+
 public partial class BarShape
 {
   /// <summary>
@@ -28,6 +30,7 @@ public partial class BarShape
   public override BoundsRules BoundsRules
   { get { return new BarBoundsRule(); } }
 }
+
 /// <summary>
 /// Rule invoked when the user is changing a shape's outline.
 /// Provides real-time mouse rubber-band feedback, so must work fast.
@@ -56,8 +59,9 @@ public class BarBoundsRule: BoundsRules
 } } }
 ```
 
- Notice that both the location and size can be constrained if you want.
+Notice that both the location and size can be constrained if you want.
 
-## See Also
- <xref:Microsoft.VisualStudio.Modeling.Diagrams.BoundsRules>
- [Responding to and Propagating Changes](../modeling/responding-to-and-propagating-changes.md)
+## See also
+
+- <xref:Microsoft.VisualStudio.Modeling.Diagrams.BoundsRules>
+- [Respond to and Propagate Changes](../modeling/responding-to-and-propagating-changes.md)

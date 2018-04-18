@@ -13,9 +13,10 @@ ms.workload:
 ms.technology: vs-ide-modeling
 ---
 # Event Handlers Propagate Changes Outside the Model
+
 In Visualization and Modeling SDK, you can define store event handlers to propagate changes to resources outside the store, such as non-store variables, files, models in other stores, or other [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] extensions. Store event handlers are executed after the end of the transaction in which the triggering event occurred. They are also executed in an Undo or Redo operation. Therefore, unlike store rules, store events are most useful for updating values that are outside the store. Unlike .NET events, store event handlers are registered to listen to a class: you do not have to register a separate handler for each instance. For more information about how to choose between different ways to handle changes, see [Responding to and Propagating Changes](../modeling/responding-to-and-propagating-changes.md).
 
- The graphical surface and other user interface controls are examples of external resources that can be handled by store events.
+The graphical surface and other user interface controls are examples of external resources that can be handled by store events.
 
 ### To define a store event
 
@@ -35,9 +36,9 @@ In Visualization and Modeling SDK, you can define store event handlers to propag
 
 4.  Override `OnDocumentLoaded()` to register the handler. If you have more than one handler, you can register them all in the same place.
 
- The location of the registration code is not critical. `DocView.LoadView()` is an alternative location.
+The location of the registration code is not critical. `DocView.LoadView()` is an alternative location.
 
-```
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -79,20 +80,18 @@ namespace Company.MusicLib
             ExternalDatabase.Delete(link.Artist.Name, link.Album.Title);
     }
   }
-
 }
-
 ```
 
-## Using Events to Make Undoable Adjustments in the Store
- Store events are not normally used for propagating changes inside the store, because the event handler executes after the transaction is committed. Instead, you would use a store rule. For more information, see [Rules Propagate Changes Within the Model](../modeling/rules-propagate-changes-within-the-model.md).
+## Use Events to Make Undoable Adjustments in the Store
 
- However, you could use an event handler to make additional updates to the store, if you want the user to be able to undo the additional updates separately from the original event. For example, suppose that lower case characters are the usual convention for album titles. You could write a store event handler that corrects the title to lower case after the user has typed it in upper case. But the user could use the Undo command to cancel your correction, restoring the upper case characters. A second Undo would remove the user's change.
+Store events are not normally used for propagating changes inside the store, because the event handler executes after the transaction is committed. Instead, you would use a store rule. For more information, see [Rules Propagate Changes Within the Model](../modeling/rules-propagate-changes-within-the-model.md).
 
- By contrast, if you wrote a store rule to do the same thing, the user's change and your correction would be in the same transaction, so that the user could not undo the adjustment without losing the original change.
+However, you could use an event handler to make additional updates to the store, if you want the user to be able to undo the additional updates separately from the original event. For example, suppose that lower case characters are the usual convention for album titles. You could write a store event handler that corrects the title to lower case after the user has typed it in upper case. But the user could use the Undo command to cancel your correction, restoring the upper case characters. A second Undo would remove the user's change.
 
-```
+By contrast, if you wrote a store rule to do the same thing, the user's change and your correction would be in the same transaction, so that the user could not undo the adjustment without losing the original change.
 
+```csharp
 partial class MusicLibDocView
 {
     // Register store events here or in DocData.OnDocumentLoaded().
@@ -152,10 +151,9 @@ private static void AlbumTitleAdjuster(object sender,
   }
   // else other properties of this class.
 }
-
 ```
 
- If you write an event that updates the store:
+If you write an event that updates the store:
 
 -   Use `store.InUndoRedoOrRollback` to avoid making changes to model elements in Undo. The transaction manager will set everything in the store back to its original state.
 
@@ -164,7 +162,8 @@ private static void AlbumTitleAdjuster(object sender,
 -   Your changes will cause further events to be triggered. Make sure that you avoid an infinite loop.
 
 ## Store Event types
- Each event type corresponds to a collection in Store.EventManagerDirectory. You can add or remove event handlers at any time, but it is usual to add them when the document is loaded.
+
+Each event type corresponds to a collection in Store.EventManagerDirectory. You can add or remove event handlers at any time, but it is usual to add them when the document is loaded.
 
 |`EventManagerDirectory` Property name|Executed when|
 |-------------------------------------------|-------------------|
