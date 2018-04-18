@@ -1,7 +1,7 @@
 ---
-title: "Dependency Diagrams: Reference"
+title: "Dependency Diagrams Reference"
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
   - "vs.teamarch.layerdiagram.layerexplorer.artifactlink"
   - "vs.teamarch.layerdiagram.layerexplorer.artifactlink.properties"
@@ -23,13 +23,14 @@ ms.workload:
 ms.technology: vs-ide-modeling
 ---
 # Dependency Diagrams: Reference
+
 In Visual Studio, you can use a *dependency diagram* to visualize the high-level, logical architecture of your system. A dependency diagram organizes the physical artifacts in your system into logical, abstract groups called *layers*. These layers describe major tasks that the artifacts perform or the major components of your system. Each layer can also contain nested layers that describe more detailed tasks.
 
- To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
+To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
 
- You can specify the intended or existing dependencies between layers. These dependencies, which are represented as arrows, indicate which layers can use or currently use the functionality represented by other layers. By organizing your system into layers that describe distinct roles and functions, a dependency diagram can help make it easier for you to understand, reuse, and maintain your code.
+You can specify the intended or existing dependencies between layers. These dependencies, which are represented as arrows, indicate which layers can use or currently use the functionality represented by other layers. By organizing your system into layers that describe distinct roles and functions, a dependency diagram can help make it easier for you to understand, reuse, and maintain your code.
 
- Use a dependency diagram to help you perform the following tasks:
+Use a dependency diagram to help you perform the following tasks:
 
 -   Communicate the existing or intended logical architecture of your system.
 
@@ -39,12 +40,13 @@ In Visual Studio, you can use a *dependency diagram* to visualize the high-level
 
 -   Reinforce the intended architecture during the development and maintenance of your code by including validation with your check-in and build operations.
 
- This topic describes the elements that you can use on a dependency diagram. For more detailed information about how to create and draw dependency diagrams, see [Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md). For more information about layering patterns, visit the [Patterns & Practices site](http://go.microsoft.com/fwlink/?LinkId=145794).
+This topic describes the elements that you can use on a dependency diagram. For more detailed information about how to create and draw dependency diagrams, see [Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md). For more information about layering patterns, visit the [Patterns & Practices site](http://go.microsoft.com/fwlink/?LinkId=145794).
 
 ## Reading dependency diagrams
- ![Elements on dependency diagrams](../modeling/media/uml_layerrefreading.png "UML_LayerRefReading")
 
- The following table describes the elements that you can use on a dependency diagram.
+![Elements on dependency diagrams](../modeling/media/uml_layerrefreading.png)
+
+The following table describes the elements that you can use on a dependency diagram.
 
 |**Shape**|**Element**|**Description**|
 |---------------|-----------------|---------------------|
@@ -55,7 +57,8 @@ In Visual Studio, you can use a *dependency diagram* to visualize the high-level
 |5|**Comment Link**|Use to link comments to elements on the diagram.|
 
 ##  <a name="Explorer"></a> Layer Explorer
- You can link each layer to artifacts in your solution, such as projects, classes, namespaces, project files, and other parts of your software. The number on a layer shows the number of artifacts that are linked to the layer. However, when reading the number of artifacts on a layer, remember the following:
+
+You can link each layer to artifacts in your solution, such as projects, classes, namespaces, project files, and other parts of your software. The number on a layer shows the number of artifacts that are linked to the layer. However, when reading the number of artifacts on a layer, remember the following:
 
 -   If a layer links to an artifact that contains other artifacts, but the layer does not link directly to the other artifacts, then the number includes only the linked artifact. However, the other artifacts are included for analysis during layer validation.
 
@@ -63,7 +66,7 @@ In Visual Studio, you can use a *dependency diagram* to visualize the high-level
 
 -   If a layer contains other layers that are linked to artifacts, then the container layer is also linked to those artifacts, even though the number on the container layer does not include those artifacts.
 
- For more information about linking layers and artifacts, see:
+For more information about linking layers and artifacts, see:
 
 -   [Dependency diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)
 
@@ -76,7 +79,7 @@ In Visual Studio, you can use a *dependency diagram* to visualize the high-level
      **Layer Explorer** opens and shows the artifacts that are linked to the selected layers. **Layer Explorer** has a column that shows each of the properties of the artifact links.
 
     > [!NOTE]
-    >  If you cannot see all of these properties, expand the **Layer Explorer** window.
+    > If you cannot see all of these properties, expand the **Layer Explorer** window.
 
     |**Column in Layer Explorer**|**Description**|
     |----------------------------------|---------------------|

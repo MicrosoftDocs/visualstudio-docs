@@ -11,7 +11,8 @@ ms.workload:
   - "multiple"
 ms.technology: vs-ide-modeling
 ---
-# Navigating and Updating a Model in Program Code
+# Navigate and Update a Model in Program Code
+
 You can write code to create and delete model elements, set their properties, and create and delete links between elements. All changes must be made within a transaction. If the elements are viewed on a diagram, the diagram will be "fixed up" automatically at the end of the transaction.
 
 ## In this Topic
@@ -507,10 +508,11 @@ partial class MyDiagram
 ## Store Partitions
  When a model is loaded, the accompanying diagram is loaded at the same time. Typically, the model is loaded into Store.DefaultPartition, and the diagram content is loaded into another Partition. Usually, the content of each partition is loaded and saved to a separate file.
 
-## See Also
- <xref:Microsoft.VisualStudio.Modeling.ModelElement>
- [Validation in a Domain-Specific Language](../modeling/validation-in-a-domain-specific-language.md)
- [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md)
- [How to: Use Transactions to Update the Model](../modeling/how-to-use-transactions-to-update-the-model.md)
- [Integrating Models by using Visual Studio Modelbus](../modeling/integrating-models-by-using-visual-studio-modelbus.md)
- [Responding to and Propagating Changes](../modeling/responding-to-and-propagating-changes.md)
+## See also
+
+- <xref:Microsoft.VisualStudio.Modeling.ModelElement>
+- [Validation in a Domain-Specific Language](../modeling/validation-in-a-domain-specific-language.md)
+- [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md)
+- [How to: Use Transactions to Update the Model](../modeling/how-to-use-transactions-to-update-the-model.md)
+- [Integrating Models by using Visual Studio Modelbus](../modeling/integrating-models-by-using-visual-studio-modelbus.md)
+- [Responding to and Propagating Changes](../modeling/responding-to-and-propagating-changes.md)
