@@ -13,7 +13,7 @@ f1_keywords:
 ms.assetid: adf29f8c-89fd-4a5e-9804-35ac83e1c457
 author: mikeblome
 ms.author: mblome
-manager: douge
+manager: wpickett
 ms.workload:
   - "multiple"
 ---
