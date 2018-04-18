@@ -1,6 +1,6 @@
 ---
-title: "Command-line parameter examples for Visual Studio installation | Microsoft Docs"
-ms.custom: "Customize this examples to create your own command-line installation of Visual Studio."
+title: "Command-line parameter examples for Visual Studio installation"
+description: "Customize these examples to create your own command-line installation of Visual Studio."
 ms.date: 05/06/2017
 ms.technology: vs-acquisition
 ms-prod: visual-studio-dev15

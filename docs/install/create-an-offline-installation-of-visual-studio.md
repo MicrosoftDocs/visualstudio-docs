@@ -1,5 +1,5 @@
 ---
-title: "Create an Offline Installation of Visual Studio | Microsoft Docs"
+title: "Create an Offline Installation of Visual Studio"
 description: "Find out how to install Visual Studio offline."
 ms.custom: ""
 ms.date: 01/17/2018

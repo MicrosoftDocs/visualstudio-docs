@@ -1,5 +1,6 @@
 ---
 title: "Use command-line parameters to install Visual Studio"
+description: "Learn how to use command-line parameters to control or customize your Visual Studio installation."
 ms.custom: ""
 ms.date: 01/17/2018
 ms.technology: vs-acquisition
