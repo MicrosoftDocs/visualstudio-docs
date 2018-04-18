@@ -18,50 +18,56 @@ ms.technology: vs-data-tools
 ms.workload:
   - "data-storage"
 ---
-# Troubleshooting Service References
-This topic lists common issues that may occur when you are working with [!INCLUDE[vsindigo](../data-tools/includes/vsindigo_md.md)] or [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)] references in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].
+# Troubleshoot service references
+
+This topic lists common issues that may occur when you are working with Windows Communication Foundation (WCF) or WCF Data Services references in Visual Studio.
 
 ## Error Returning Data from a Service
- When you return a `DataSet` or `DataTable` from a service, you may receive a "The maximum size quota for incoming messages has been exceeded" exception. By default, the `MaxReceivedMessageSize` property for some bindings is set to a relatively small value to limit exposure to denial-of-service attacks. You can increase this value to prevent the exception. For more information, see <xref:System.ServiceModel.HttpBindingBase.MaxReceivedMessageSize%2A>.
 
- To fix this error:
+When you return a `DataSet` or `DataTable` from a service, you may receive a "The maximum size quota for incoming messages has been exceeded" exception. By default, the `MaxReceivedMessageSize` property for some bindings is set to a relatively small value to limit exposure to denial-of-service attacks. You can increase this value to prevent the exception. For more information, see <xref:System.ServiceModel.HttpBindingBase.MaxReceivedMessageSize%2A>.
+
+To fix this error:
 
 1.  In **Solution Explorer**, double-click the app.config file to open it.
 
 2.  Locate the `MaxReceivedMessageSize` property and change it to a larger value.
 
 ## Cannot Find a Service in My Solution
- When you click the **Discover** button in the **Add Service References** dialog box, one or more WCF Service Library projects in the solution do not appear in the services list. This can occur if a Service Library has been added to the solution but has not yet been compiled.
 
- To fix this error:
+When you click the **Discover** button in the **Add Service References** dialog box, one or more WCF Service Library projects in the solution do not appear in the services list. This can occur if a Service Library has been added to the solution but has not yet been compiled.
+
+To fix this error:
 
 -   In **Solution Explorer**, right-click the WCF Service Library project and click **Build**.
 
 ## Error Accessing a Service over a Remote Desktop
- When a user accesses a Web-hosted WCF service over a remote desktop connection and the user does not have administrative permissions, NTLM authentication is used. If the user does not have administrative permissions, the user may receive the following error message: "The HTTP request is unauthorized with client authentication scheme 'Anonymous'. The authentication header received from the server was 'NTLM'."
 
- To fix this error:
+When a user accesses a Web-hosted WCF service over a remote desktop connection and the user does not have administrative permissions, NTLM authentication is used. If the user does not have administrative permissions, the user may receive the following error message: "The HTTP request is unauthorized with client authentication scheme 'Anonymous'. The authentication header received from the server was 'NTLM'."
+
+To fix this error:
 
 1.  In the Web site project, open the **Properties** pages.
 
 2.  On the **Start Options** tab, clear the **NTLM Authentication** check box.
 
     > [!NOTE]
-    >  You should turn off NTLM authentication only for Web sites that exclusively contain WCF services. Security for WCF services is managed through the configuration in the web.config file. This makes NTLM authentication unnecessary.
+    > You should turn off NTLM authentication only for Web sites that exclusively contain WCF services. Security for WCF services is managed through the configuration in the web.config file. This makes NTLM authentication unnecessary.
 
 ## Access Level for Generated Classes Setting Has No Effect
- Setting the **Access level for generated classes** option in the **Configure Service References** dialog box to **Internal** or **Friend** may not always work. Even though the option appears to be set in the dialog box, the resulting support classes will be generated with an access level of `Public`.
 
- This is a known limitation of certain types, such as those serialized using the <xref:System.Xml.Serialization.XmlSerializer>.
+Setting the **Access level for generated classes** option in the **Configure Service References** dialog box to **Internal** or **Friend** may not always work. Even though the option appears to be set in the dialog box, the resulting support classes are generated with an access level of `Public`.
+
+This is a known limitation of certain types, such as those serialized using the <xref:System.Xml.Serialization.XmlSerializer>.
 
 ## Error Debugging Service Code
- When you step into the code for a WCF service from client code, you may receive an error related to missing symbols. This can occur when a service that was part of your solution was moved or removed from the solution.
 
- When you first add a reference to a WCF service that is part of the current solution, an explicit build dependency is added between the service project and the service client project. This guarantees that that the client always accesses up-to-date service binaries, which is especially important for debugging scenarios such as stepping from client code into service code.
+When you step into the code for a WCF service from client code, you may receive an error related to missing symbols. This can occur when a service that was part of your solution was moved or removed from the solution.
 
- If the service project is removed from the solution, this explicit build dependency is invalidated. Visual Studio can no longer guarantee that that the service project is rebuilt as necessary.
+When you first add a reference to a WCF service that is part of the current solution, an explicit build dependency is added between the service project and the service client project. This guarantees that the client always accesses up-to-date service binaries, which is especially important for debugging scenarios such as stepping from client code into service code.
 
- To fix this error, you have to manually rebuild the service project:
+If the service project is removed from the solution, this explicit build dependency is invalidated. Visual Studio can no longer guarantee that the service project is rebuilt as necessary.
+
+To fix this error, you have to manually rebuild the service project:
 
 1.  On the **Tools** menu, click **Options**.
 
@@ -78,9 +84,10 @@ This topic lists common issues that may occur when you are working with [!INCLUD
 7.  On the **Build** menu, click **Rebuild** to rebuild the WCF service project.
 
 ## WCF Data Services Do Not Display in the Browser
- When it attempts to view an XML representation of data in a [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)], Internet Explorer may misinterpret the data as an RSS feed. You must make sure that the option to display RSS feeds is disabled.
 
- To fix this error, disable RSS feeds:
+When it attempts to view an XML representation of data in a [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)], Internet Explorer may misinterpret the data as an RSS feed. Make sure that the option to display RSS feeds is disabled.
+
+To fix this error, disable RSS feeds:
 
 1.  In Internet Explorer, on the **Tools** menu, click **Internet Options**.
 
