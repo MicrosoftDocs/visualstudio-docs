@@ -1,5 +1,5 @@
 ---
-title: "Editor Behavior | Microsoft Docs"
+title: "Editor Behavior"
 description: 
 author: asb3993
 ms.author: amburns

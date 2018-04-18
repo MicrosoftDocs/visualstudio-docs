@@ -1,5 +1,5 @@
 ---
-title: "Managing Project and Solution Properties | Microsoft Docs"
+title: "Managing Project and Solution Properties"
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017

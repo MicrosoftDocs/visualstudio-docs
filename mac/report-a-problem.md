@@ -1,5 +1,5 @@
 ---
-title: "Report a Problem with Visual Studio for Mac | Microsoft Docs"
+title: "Report a Problem with Visual Studio for Mac"
 description: "How to make suggestions or report issues experienced while using Visual Studio for Mac."
 ms.topic: troubleshooting
 author: asb3993

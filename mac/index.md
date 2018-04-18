@@ -1,5 +1,5 @@
 ---
-title: "Introducing Visual Studio for Mac | Microsoft Docs"
+title: "Introducing Visual Studio for Mac"
 description: 
 author: asb3993
 ms.author: amburns

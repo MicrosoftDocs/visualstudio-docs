@@ -1,5 +1,5 @@
 ---
-title: "Install Visual Studio for Mac | Microsoft Docs"
+title: "Install Visual Studio for Mac"
 description: "Instructions on how to install Visual Studio for Mac and additional components required for cross-platform development."
 author: asb3993
 ms.author: amburns

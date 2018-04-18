@@ -1,5 +1,5 @@
 ---
-title: "Managing References in a Project in Visual Studio for Mac | Microsoft Docs" 
+title: "Managing References in a Project in Visual Studio for Mac" 
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017

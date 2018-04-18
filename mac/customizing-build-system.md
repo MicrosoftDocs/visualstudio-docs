@@ -1,5 +1,5 @@
 ---
-title: "Customizing the Build System | Microsoft Docs"
+title: "Customizing the Build System"
 description: 
 author: asb3993
 ms.author: amburns

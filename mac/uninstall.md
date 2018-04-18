@@ -1,5 +1,5 @@
 ---
-title: "Uninstalling Visual Studio for Mac | Microsoft Docs"
+title: "Uninstalling Visual Studio for Mac"
 description: "Instructions for uninstalling Visual Studio for Mac and related tools."
 author: asb3993
 ms.author: amburns

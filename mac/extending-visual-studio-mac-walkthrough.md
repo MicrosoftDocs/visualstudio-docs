@@ -1,5 +1,5 @@
 ---
-title: "Extending Visual Studio for Mac Walkthrough | Microsoft Docs"
+title: "Extending Visual Studio for Mac Walkthrough"
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017

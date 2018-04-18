@@ -1,5 +1,5 @@
 ---
-title: "Accessibility | Microsoft Docs"
+title: "Accessibility"
 description: 
 author: asb3993
 ms.author: amburns

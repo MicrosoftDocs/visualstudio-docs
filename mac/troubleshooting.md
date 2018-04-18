@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio for Mac Troubleshooting | Microsoft Docs"
+title: "Visual Studio for Mac Troubleshooting"
 description: "Common issues and resolutions for Visual Studio for Mac users."
 ms.topic: troubleshooting
 author: asb3993

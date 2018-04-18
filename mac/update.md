@@ -1,5 +1,5 @@
 ---
-title: "Updating Visual Studio for Mac | Microsoft Docs"
+title: "Updating Visual Studio for Mac"
 description: "Instructions for updating Visual Studio for Mac and accessing preview releases."
 author: asb3993
 ms.author: amburns

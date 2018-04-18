@@ -5,7 +5,6 @@ ms.author: amburns
 ms.date: 04/14/2017
 ms.assetid: 0FE5E929-1846-4F48-B5E3-70990FAF9504
 ---
-
 # Comments
 
 When debugging or experimenting with code, It can be useful to comment blocks of code either temporarily or long term. 

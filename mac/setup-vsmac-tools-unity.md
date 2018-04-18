@@ -1,5 +1,5 @@
 ---
-title: "Setup Visual Studio for Mac Tools for Unity | Microsoft Docs"
+title: "Setup Visual Studio for Mac Tools for Unity"
 author: dantogno
 ms.author: v-davian
 ms.date: 07/17/2017

@@ -1,5 +1,5 @@
 ---
-title: "Compiling and Building in Visual Studio for Mac | Microsoft Docs"
+title: "Compiling and Building in Visual Studio for Mac"
 description: 
 author: asb3993
 ms.author: amburns
