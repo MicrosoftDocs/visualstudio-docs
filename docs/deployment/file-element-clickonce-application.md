@@ -3,7 +3,7 @@ title: "&lt;file&gt; Element (ClickOnce Application) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: vs-ide-deployment
-ms.topic: "conceptual"
+ms.topic: "reference"
 f1_keywords: 
   - "http://www.w3.org/2000/09/xmldsig#Transform"
   - "urn:schemas-microsoft-com:asm.v2#file"
