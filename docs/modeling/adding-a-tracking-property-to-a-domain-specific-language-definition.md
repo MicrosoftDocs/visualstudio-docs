@@ -13,14 +13,15 @@ ms.workload:
   - "multiple"
 ms.technology: vs-ide-modeling
 ---
-# Adding a Tracking Property to a Domain-Specific Language Definition
+# Add a Tracking Property to a Domain-Specific Language Definition
+
 This walkthrough shows how to add a tracking property to a domain model.
 
- A *tracking domain* property is a property that can be updated by the user but which has a default value that is calculated by using the values of other domain properties or elements.
+A *tracking domain* property is a property that can be updated by the user but which has a default value that is calculated by using the values of other domain properties or elements.
 
- For example, in the Domain-Specific Language Tools (DSL Tools), the Display Name property of a domain class has a default value that is calculated by using the name of the domain class, but a user can change the value at design time or reset it to the calculated value.
+For example, in the Domain-Specific Language Tools (DSL Tools), the Display Name property of a domain class has a default value that is calculated by using the name of the domain class, but a user can change the value at design time or reset it to the calculated value.
 
- In this walkthrough, you create a domain-specific language (DSL) that has a Namespace tracking property that has a default value based on the Default Namespace property of the model. For more information about tracking properties, see [Defining Tracking Properties](http://msdn.microsoft.com/0538b0e4-6221-4e7d-911a-b92cd622f0be).
+In this walkthrough, you create a domain-specific language (DSL) that has a Namespace tracking property that has a default value based on the Default Namespace property of the model. For more information about tracking properties, see [Defining Tracking Properties](http://msdn.microsoft.com/0538b0e4-6221-4e7d-911a-b92cd622f0be).
 
 -   The DSL Tools support tracking property descriptors. However, the DSL designer cannot be used to add a tracking property to a language. Therefore, you must add custom code to define and implement the tracking property.
 
@@ -37,7 +38,8 @@ This walkthrough shows how to add a tracking property to a domain model.
 -   In the **Properties** window, when the tracking property is in the updated by user state, its value is displayed in a bold font.
 
 ## Prerequisites
- Before you can start this walkthrough, you must first install these components:
+
+Before you can start this walkthrough, you must first install these components:
 
 |||
 |-|-|
@@ -45,10 +47,7 @@ This walkthrough shows how to add a tracking property to a domain model.
 |[!INCLUDE[vssdk_current_short](../modeling/includes/vssdk_current_short_md.md)]|[http://go.microsoft.com/fwlink/?LinkID=185580](http://go.microsoft.com/fwlink/?LinkID=185580)|
 |[!INCLUDE[dsl](../modeling/includes/dsl_md.md)]|[http://go.microsoft.com/fwlink/?LinkID=185581](http://go.microsoft.com/fwlink/?LinkID=185581)|
 
-## Creating the DSL Project
- Create the project for your domain-specific language.
-
-#### To create the project
+## Create the project
 
 1.  Create a Domain-Specific Language Designer project. Name it `TrackingPropertyDSL`.
 
@@ -72,7 +71,7 @@ This walkthrough shows how to add a tracking property to a domain model.
 
     9. Review the details of the solution, and then click **Finish** to create the DSL definition project.
 
-## Customizing the Default DSL Definition
+## Customize the Default DSL Definition
  In this section, you customize the DSL definition to contain the following items:
 
 -   A Namespace tracking property for every element of the model.
@@ -83,7 +82,7 @@ This walkthrough shows how to add a tracking property to a domain model.
 
 -   A CustomElements calculated property for the model. This property will indicate the proportion of elements that have a custom namespace.
 
-#### To add the domain properties
+### To add the domain properties
 
 1.  In the DSL designer, right-click the **ExampleModel** domain class, point to **Add**, and then click **DomainProperty**.
 
@@ -103,7 +102,7 @@ This walkthrough shows how to add a tracking property to a domain model.
 
      In the **Properties** window for the new property, set **Is Browsable** to **False**, set **Default Value** to `true`, and set **Type** to **Boolean**.
 
-#### To update the diagram elements and DSL details
+### To update the diagram elements and DSL details
 
 1.  In the DSL designer, right-click the **ExampleShape** geometry shape, point to **Add**, and then click **Text Decorator**.
 
@@ -127,21 +126,19 @@ This walkthrough shows how to add a tracking property to a domain model.
 
     1.  In the **Properties** window, set **Custom Post Load** to **True**.
 
-## Transforming Templates
- Now that you have defined the domain classes and properties for your DSL, you can verify that the DSL definition can be transformed correctly to regenerate the code for your project.
+## Transform Templates
 
-#### To transform the text templates
+Now that you have defined the domain classes and properties for your DSL, you can verify that the DSL definition can be transformed correctly to regenerate the code for your project.
 
 1.  On the **Solution Explorer** toolbar, click **Transform All Templates**.
 
 2.  The system regenerates the code for the solution, and saves DslDefinition.dsl. For information about the XML format of definition files, see [The DslDefinition.dsl File](../modeling/the-dsldefinition-dsl-file.md).
 
-## Creating Files for Custom Code
- When you transform all templates, the system generates the source code that defines your domain-specific language in the Dsl and DslPackage projects. So that you can avoid interfering with the generated text, write your custom code in files that are distinct from the generated code files.
+## Create Files for Custom Code
 
- You must provide code for maintaining the value and the state of your tracking property. To help you distinguish your custom code from the generated code, and to avoid file naming conflicts, put your custom code files in a separate subfolder.
+When you transform all templates, the system generates the source code that defines your domain-specific language in the Dsl and DslPackage projects. So that you can avoid interfering with the generated text, write your custom code in files that are distinct from the generated code files.
 
-#### To create the code files
+You must provide code for maintaining the value and the state of your tracking property. To help you distinguish your custom code from the generated code, and to avoid file naming conflicts, put your custom code files in a separate subfolder.
 
 1.  In **Solution Explorer**, right-click the **DSL** project, point to **Add**, and then click **New Folder**. Name the new folder `CustomCode`.
 
@@ -155,10 +152,9 @@ This walkthrough shows how to add a tracking property to a domain model.
 
 5.  In the **DslPackage** project, also create a `CustomCode` folder, and add to it a `Package.cs` code file.
 
-## Adding Helper Classes to Support Tracking Properties
- To the HelperClasses.cs file, add the `TrackingHelper` and `CriticalException` classes as follows. You will reference these classes later in this walkthrough.
+## Add Helper Classes to Support Tracking Properties
 
-#### To add the helper classes
+To the HelperClasses.cs file, add the `TrackingHelper` and `CriticalException` classes as follows. You will reference these classes later in this walkthrough.
 
 1.  Add the following code to the HelperClasses.cs file.
 
@@ -235,15 +231,16 @@ This walkthrough shows how to add a tracking property to a domain model.
     }
     ```
 
-## Adding Custom Code for the Custom Type Descriptor
- Implement the `GetCustomProperties` method for the type descriptor for the `ExampleModel` domain class.
+## Add Custom Code for the Custom Type Descriptor
+
+Implement the `GetCustomProperties` method for the type descriptor for the `ExampleModel` domain class.
 
 > [!NOTE]
->  The code that the DSL Tools generate for the custom type descriptor for `ExampleModel` calls `GetCustomProperties`; however, the DSL Tools do not generate code that implements the method.
+> The code that the DSL Tools generate for the custom type descriptor for `ExampleModel` calls `GetCustomProperties`; however, the DSL Tools do not generate code that implements the method.
 
- Defining this method creates the tracking property descriptor for the Namespace tracking property. Also, providing attributes for the tracking property enables the **Properties** window to display the property correctly.
+Defining this method creates the tracking property descriptor for the Namespace tracking property. Also, providing attributes for the tracking property enables the **Properties** window to display the property correctly.
 
-#### To modify the type descriptor for the ExampleModel domain class
+### To modify the type descriptor for the ExampleModel domain class
 
 1.  Add the following code to the TypeDescriptor.cs file.
 
@@ -304,9 +301,8 @@ This walkthrough shows how to add a tracking property to a domain model.
     ```
 
 ## Adding Custom Code for the Package
- The generated code defines a type description provider for the ExampleElement domain class; however, you must add code to instruct the DSL to use this type description provider.
 
-#### To update the DSL package to use your custom type descriptor
+The generated code defines a type description provider for the ExampleElement domain class; however, you must add code to instruct the DSL to use this type description provider.
 
 1.  Add the following code to the Package.cs file.
 
@@ -331,19 +327,20 @@ This walkthrough shows how to add a tracking property to a domain model.
     }
     ```
 
-## Adding Custom Code for the Model
- Implement the `GetCustomElementsValue` method for the `ExampleModel` domain class.
+## Add Custom Code for the Model
+
+Implement the `GetCustomElementsValue` method for the `ExampleModel` domain class.
 
 > [!NOTE]
->  The code that the DSL Tools generate for `ExampleModel` calls `GetCustomElementsValue`; however, the DSL Tools do not generate code that implements the method.
+> The code that the DSL Tools generate for `ExampleModel` calls `GetCustomElementsValue`; however, the DSL Tools do not generate code that implements the method.
 
- Defining the `GetCustomElementsValue` method provides the logic for the CustomElements calculated property of `ExampleModel`. This method counts the number of `ExampleElement` domain classes that have a Namespace tracking property that has a user-updated value, and returns a string that represents this count as a proportion of the total elements in the model.
+Defining the `GetCustomElementsValue` method provides the logic for the CustomElements calculated property of `ExampleModel`. This method counts the number of `ExampleElement` domain classes that have a Namespace tracking property that has a user-updated value, and returns a string that represents this count as a proportion of the total elements in the model.
 
- In addition, add an `OnDefaultNamespaceChanged` method to `ExampleModel`, and override the `OnValueChanged` method of the `DefaultNamespacePropertyHandler` nested class of `ExampleModel` to call `OnDefaultNamespaceChanged`.
+In addition, add an `OnDefaultNamespaceChanged` method to `ExampleModel`, and override the `OnValueChanged` method of the `DefaultNamespacePropertyHandler` nested class of `ExampleModel` to call `OnDefaultNamespaceChanged`.
 
- Because the DefaultNamespace property is used to calculate the Namespace tracking property, `ExampleModel` must notify all `ExampleElement` domain classes that the value of DefaultNamespace has changed.
+Because the DefaultNamespace property is used to calculate the Namespace tracking property, `ExampleModel` must notify all `ExampleElement` domain classes that the value of DefaultNamespace has changed.
 
-#### To modify the property handler for the tracked property
+### To modify the property handler for the tracked property
 
 1.  Add the following code to the ExampleModel.cs file.
 
@@ -408,17 +405,18 @@ This walkthrough shows how to add a tracking property to a domain model.
     }
     ```
 
-## Adding Custom Code for the Tracking Property
- Add a `CalculateNamespace` method to the `ExampleElement` domain class.
+## Add Custom Code for the Tracking Property
 
- Defining this method provides the logic for the CustomElements calculated property of `ExampleModel`. This method counts the number of `ExampleElement` domain classes that have a Namespace tracking property that is in the updated by user state, and returns a string that represents this count as a proportion of the total elements in the model.
+Add a `CalculateNamespace` method to the `ExampleElement` domain class.
 
- Also, add storage for, and methods to get and set, the Namespace custom storage property of the `ExampleElement` domain class.
+Defining this method provides the logic for the CustomElements calculated property of `ExampleModel`. This method counts the number of `ExampleElement` domain classes that have a Namespace tracking property that is in the updated by user state, and returns a string that represents this count as a proportion of the total elements in the model.
+
+Also, add storage for, and methods to get and set, the Namespace custom storage property of the `ExampleElement` domain class.
 
 > [!NOTE]
->  The code that the DSL Tools generate for `ExampleModel` calls the get and set methods; however, the DSL Tools do not generate code that implements the methods.
+> The code that the DSL Tools generate for `ExampleModel` calls the get and set methods; however, the DSL Tools do not generate code that implements the methods.
 
-#### To add the method for the custom type descriptor
+### To add the method for the custom type descriptor
 
 1.  Add the following code to the NamespaceTrackingProperty.cs file.
 
@@ -578,13 +576,14 @@ This walkthrough shows how to add a tracking property to a domain model.
     }
     ```
 
-## Adding Custom Code to Support Serialization
- Add code to support the custom post-load behavior for XML serialization.
+## Add Custom Code to Support Serialization
+
+Add code to support the custom post-load behavior for XML serialization.
 
 > [!NOTE]
->  The code that the DSL Tools generate calls the `OnPostLoadModel` and `OnPostLoadModelAndDiagram` methods; however, the DSL Tools do not generate code that implements these methods.
+> The code that the DSL Tools generate calls the `OnPostLoadModel` and `OnPostLoadModelAndDiagram` methods; however, the DSL Tools do not generate code that implements these methods.
 
-#### To add code to support the custom post-load behavior
+### To add code to support the custom post-load behavior
 
 1.  Add the following code to the Serialization.cs file.
 
@@ -708,10 +707,9 @@ This walkthrough shows how to add a tracking property to a domain model.
     }
     ```
 
-## Testing the Language
- The next step is to build and run the DSL designer in a new instance of [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] so that you can verify that the tracking property is working correctly.
+## Test the Language
 
-#### To exercise the language
+The next step is to build and run the DSL designer in a new instance of [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] so that you can verify that the tracking property is working correctly.
 
 1.  On the **Build** menu, click **Rebuild Solution**.
 
@@ -747,11 +745,13 @@ This walkthrough shows how to add a tracking property to a domain model.
 
 10. Save the solution, and then close the experimental build.
 
-## Next Steps
- If you plan to use more than one tracking property, or implement tracking properties in more than one DSL, you can create a text template to generate the common code for supporting each tracking property. For more information about text templates, see [Code Generation and T4 Text Templates](../modeling/code-generation-and-t4-text-templates.md).
+## Next steps
 
-## See Also
- <xref:Microsoft.VisualStudio.Modeling.Design.TrackingPropertyDescriptor>
- <xref:Microsoft.VisualStudio.Modeling.Design.ElementTypeDescriptor>
- [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)
- [How to: Create a Domain-Specific Language Solution](../modeling/how-to-create-a-domain-specific-language-solution.md)
+If you plan to use more than one tracking property, or implement tracking properties in more than one DSL, you can create a text template to generate the common code for supporting each tracking property. For more information about text templates, see [Code Generation and T4 Text Templates](../modeling/code-generation-and-t4-text-templates.md).
+
+## See also
+
+- <xref:Microsoft.VisualStudio.Modeling.Design.TrackingPropertyDescriptor>
+- <xref:Microsoft.VisualStudio.Modeling.Design.ElementTypeDescriptor>
+- [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)
+- [How to: Create a Domain-Specific Language Solution](../modeling/how-to-create-a-domain-specific-language-solution.md)

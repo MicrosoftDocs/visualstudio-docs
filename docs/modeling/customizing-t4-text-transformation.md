@@ -13,6 +13,7 @@ ms.workload:
 ms.technology: vs-ide-modeling
 ---
 # Customizing T4 Text Transformation
+
 Text templates are a feature of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] that allow you to generate program code or other text files through a transformation process. Using [!INCLUDE[vssdk_current_short](../modeling/includes/vssdk_current_short_md.md)], you can extend the default template transformation process by customizing the text template directive processor or the text template host.
 
 ## In This Section
@@ -31,6 +32,5 @@ Text templates are a feature of [!INCLUDE[vsprvs](../code-quality/includes/vsprv
  If you are writing a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Extension, consider using the existing text transformation service instead of writing your own host. For more information, see [Invoking Text Transformation in a VS Extension](../modeling/invoking-text-transformation-in-a-vs-extension.md).
 
 ## Reference
- [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md)
 
- Provides the syntax of text template directives and control blocks.
+- [Write a T4 text template](../modeling/writing-a-t4-text-template.md) provides the syntax of text template directives and control blocks.

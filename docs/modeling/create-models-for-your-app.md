@@ -50,5 +50,5 @@ To visualize the architecture of a system or existing code, create the following
 
 ## Resources
 
-[Visual Studio Visualization & Modeling Tools Forum](http://go.microsoft.com/fwlink/?LinkId=184720)
-[Visual Studio Extensibility Forum](https://social.msdn.microsoft.com/Forums/vstudio/en-US/home?forum=vsx)
+- [Visual Studio Visualization & Modeling Tools Forum](http://go.microsoft.com/fwlink/?LinkId=184720)
+- [Visual Studio Extensibility Forum](https://social.msdn.microsoft.com/Forums/vstudio/en-US/home?forum=vsx)
