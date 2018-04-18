@@ -2,12 +2,9 @@
 title: "Options, Text Editor, C/C++, Advanced | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VS.ToolsOptionsPages.Text_Editor.C\\C++.Advanced"
   - "VS.ToolsOptionsPages.Text_Editor.C%2FC%2B%2B.Advanced"
@@ -15,10 +12,9 @@ f1_keywords:
 helpviewer_keywords: 
   - "Text Editor Options dialog box, advanced"
 ms.assetid: 67c82ae5-fddd-49df-baec-8e7498b156f3
-caps.latest.revision: 19
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "cplusplus"
 ---

@@ -2,12 +2,8 @@
 title: "How to: Test and Debug a Visualizer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
   - "VB"
@@ -18,10 +14,9 @@ helpviewer_keywords:
   - "visualizers, debugging"
   - "debugging [Visual Studio], visualizers"
 ms.assetid: 5cc12ce8-c819-48e4-b487-98d403001b28
-caps.latest.revision: 15
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

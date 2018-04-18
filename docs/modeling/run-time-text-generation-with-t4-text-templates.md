@@ -2,9 +2,7 @@
 title: "Run-Time Text Generation with T4 Text Templates | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs:
  - CSharp
  - VB
@@ -15,7 +13,7 @@ helpviewer_keywords:
   - "text templates, generating files at run time"
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ms.technology: vs-ide-modeling

@@ -2,9 +2,7 @@
 title: "Working with the DSL Definition Diagram | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.dsltools.dsldesigner.diagram"
   - "vs.dsltools.dsldesigner.dsldiagram"
@@ -16,7 +14,7 @@ helpviewer_keywords:
   - "Domain-Specific Language Tools, Bring Tree Here"
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ms.technology: vs-ide-modeling

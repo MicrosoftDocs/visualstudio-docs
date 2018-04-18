@@ -2,18 +2,15 @@
 title: "Standard and Custom Toolset Configurations | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/31/2018"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "MSBuild, custom toolset configurations"
   - "MSBuild, msbuild.exe.config"
 ms.assetid: 15a048c8-5ad3-448e-b6e9-e3c5d7147ed2
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

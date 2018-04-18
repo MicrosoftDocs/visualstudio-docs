@@ -2,9 +2,9 @@
 title: "Microsoft.VisualStudio.TestTools.CppUnitTestFramework API Reference | Microsoft Docs"
 ms.date: "11/04/2017"
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.author: mblome
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 author: mikeblome
@@ -142,7 +142,7 @@ TEST_CLASS_INITIALIZE(methodName)
 }
 ```
 
- Defines *methodName* as a method that runs after each test class is created. `TEST_CLASS_INITIALIZE` can only be defined once in a test class and must be defined in the scope of the test class.
+ Defines *methodName* as a method that runs before each test class is created. `TEST_CLASS_INITIALIZE` can only be defined once in a test class and must be defined in the scope of the test class.
 
 ```cpp
 TEST_CLASS_CLEANUP(methodName)

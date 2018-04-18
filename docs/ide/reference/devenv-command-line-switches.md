@@ -2,7 +2,7 @@
 title: "Visual Studio devenv command line switches | Microsoft Docs"
 ms.date: 02/28/2018
 ms.technology: vs-ide-general
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "switches, Devenv"
   - "command-line switches, Devenv"
@@ -11,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: e12bc6ed-74fd-4bea-8d7c-89b99c20bad8
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ---

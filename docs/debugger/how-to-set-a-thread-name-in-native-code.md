@@ -2,12 +2,8 @@
 title: "How to: Set a Thread Name in Native Code | Microsoft Docs"
 ms.custom: ""
 ms.date: "04/27/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
   - "VB"
@@ -20,10 +16,9 @@ helpviewer_keywords:
   - "thread names"
   - "debugging [Visual Studio], threads"
 ms.assetid: c85d0968-9f22-4d69-87f4-acca2ae777b8
-caps.latest.revision: 37
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "cplusplus"
 ---

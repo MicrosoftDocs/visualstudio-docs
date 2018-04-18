@@ -1,13 +1,10 @@
 ---
-title: "How to: Customize Menus and Toolbars in Visual Studio | Microsoft Docs"
+title: "How to: Customize menus and toolbars in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.renametoolbar"
   - "vs.customize.toolbars"
@@ -28,22 +25,21 @@ helpviewer_keywords:
   - "toolbars [Visual Studio], customizing"
   - "toolbars [Visual Studio], customizing in the IDE"
 ms.assetid: b570ae2f-5302-45dc-9cc9-8d4d1ad50603
-caps.latest.revision: 28
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Customize Menus and Toolbars in Visual Studio
+# How to: Customize menus and toolbars in Visual Studio
 You can customize Visual Studio not only by adding and removing toolbars and menus on the menu bar, but also by adding and removing commands on any given toolbar or menu.  
   
 > [!WARNING]
 >  After you customize a toolbar or menu, make sure that its check box remains selected in the **Customize** dialog box. Otherwise, your changes won't persist after you close and reopen Visual Studio.
   
-## Adding, removing, or moving a menu on the menu bar  
+## Add, remove, or move a menu on the menu bar  
   
-1.  On the menu bar, choose **Tools**, **Customize**.  
+1.  On the menu bar, choose **Tools** > **Customize**.  
   
      The **Customize** dialog box opens.  
   
@@ -57,9 +53,9 @@ You can customize Visual Studio not only by adding and removing toolbars and men
   
     -   To move a menu within the menu bar, choose the menu in the **Controls** list, and then choose the **Move Up** or **Move Down** button.  
   
-## Adding, removing, or moving a toolbar  
+## Add, remove, or move a toolbar  
   
-1.  On the menu bar, choose **Tools**, **Customize**.  
+1.  On the menu bar, choose **Tools** > **Customize**.  
   
      The **Customize** dialog box opens.  
   
@@ -79,11 +75,11 @@ You can customize Visual Studio not only by adding and removing toolbars and men
         You can also drag a toolbar by its left edge to move it anywhere in the main docking area.  
   
         > [!NOTE]
-        >  For more information about how to improve the usability and accessibility of toolbars, see [How to: Set IDE Accessibility Options](../ide/reference/how-to-set-ide-accessibility-options.md).  
+        >  For more information about how to improve the usability and accessibility of toolbars, see [How to: Set IDE accessibility options](../ide/reference/how-to-set-ide-accessibility-options.md).  
   
-## <a name="customizing_menu">Customizing a menu or a toolbar</a>
+## <a name="customizing_menu">Customize a menu or a toolbar</a>
   
-1.  On the menu bar, choose **Tools**, **Customize**.  
+1.  On the menu bar, choose **Tools** > **Customize**.  
   
     The **Customize** dialog box opens.  
   
@@ -103,9 +99,9 @@ You can customize Visual Studio not only by adding and removing toolbars and men
   
     -   To group commands under a horizontal line, choose the first command in the **Controls** list, choose the **Modify Selection** button, and then choose **Begin a Group** in the menu that appears.  
   
-## Resetting a menu or a toolbar  
+## Reset a menu or a toolbar  
   
-1.  On the menu bar, choose **Tools**, **Customize**.  
+1.  On the menu bar, choose **Tools** > **Customize**.  
   
     The **Customize** dialog box opens.  
   
@@ -118,5 +114,5 @@ You can customize Visual Studio not only by adding and removing toolbars and men
     You can also reset all menus and toolbars by choosing the **Reset All** button.
 
 ## See also
-[Personalizing the IDE](../ide/personalizing-the-visual-studio-ide.md)  
-[Customizing the editor](../ide/customizing-the-editor.md)
+[Personalize the IDE](../ide/personalizing-the-visual-studio-ide.md)  
+[Customize the editor](../ide/customizing-the-editor.md)

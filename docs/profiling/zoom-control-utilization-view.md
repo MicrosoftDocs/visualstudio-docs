@@ -2,21 +2,16 @@
 title: "Zoom Control (Utilization View) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.cv.cpu.zoom"
 helpviewer_keywords: 
   - "Concurrency Visualizer, Zoom Control (CPU Utilization View)"
 ms.assetid: 8aeff804-0183-4588-8218-52e107a5382e
-caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

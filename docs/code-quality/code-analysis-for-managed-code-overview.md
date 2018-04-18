@@ -1,5 +1,5 @@
 ---
-title: "Code analysis for managed code in Visual Studio | Microsoft Docs"
+title: Code analysis for managed code in Visual Studio
 ms.date: 03/26/2018
 ms.technology: vs-ide-code-analysis
 ms.topic: conceptual
@@ -8,9 +8,9 @@ f1_keywords:
 helpviewer_keywords:
   - "code analysis, managed code"
   - "managed code, code analysis"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: gewarren
+ms.author: gewarren
+manager: douge
 ms.workload:
   - "dotnet"
 ---

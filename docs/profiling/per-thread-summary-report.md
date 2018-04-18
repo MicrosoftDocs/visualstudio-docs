@@ -2,21 +2,16 @@
 title: "Per Thread Summary Report | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.cv.threads.report.executionbreakdown"
 helpviewer_keywords: 
   - "Concurrency Visualizer, Per Thread Summary Report"
 ms.assetid: 5a0aa339-03f5-4727-90b3-8950446bbdbe
-caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

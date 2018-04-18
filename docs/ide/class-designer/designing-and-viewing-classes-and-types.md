@@ -2,12 +2,9 @@
 title: "Designing and Viewing Classes and Types | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.classdesigner.diagram"
 helpviewer_keywords: 
@@ -17,10 +14,9 @@ helpviewer_keywords:
   - "classes [Visual Studio], viewing"
   - "class designer"
 ms.assetid: 40ed2c9d-0ce0-4b95-ad78-5dec2065ccea
-caps.latest.revision: 10
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

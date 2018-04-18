@@ -2,16 +2,13 @@
 title: "Sign in to Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: 11/16/2017
-ms.reviewer: ""
-ms.suite: ""
 ms.technology:
   - "vs-acquisition"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: b9531c25-e4cf-43ae-b331-a9f31a8cd171
 author: "TerryGLee"
 ms.author: "tglee"
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ---

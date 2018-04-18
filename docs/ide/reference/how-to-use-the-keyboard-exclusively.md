@@ -2,12 +2,9 @@
 title: "How to: Use the Keyboard Exclusively | Microsoft Docs"
 ms.custom: ""
 ms.date: "08/22/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Toolbox, shortcut keys"
   - "shortcut keys [Visual Studio]"
@@ -18,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: d71a4cc1-d352-4164-8538-3f9fa070a331
 author: "TerryGLee"
 ms.author: "tglee"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

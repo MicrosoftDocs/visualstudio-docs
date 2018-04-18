@@ -2,19 +2,15 @@
 title: "Overriding ToolsVersion Settings | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "MSBuild, overriding ToolsVersion setting"
   - "MSBuild, building solutions with"
 ms.assetid: ccd42c07-0fb6-4e8b-9ebb-a6a6db18aa2e
-caps.latest.revision: 24
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

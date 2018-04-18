@@ -2,21 +2,17 @@
 title: "IDebugOutputStringEvent2::GetString | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugOutputStringEvent2::GetString"
 helpviewer_keywords: 
   - "IDebugOutputStringEvent2::GetString"
 ms.assetid: f059f8e0-ad44-49ac-ba90-73576ada5e06
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

@@ -2,14 +2,11 @@
 title: "Introduction to editing in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
 ms.topic: "quickstart"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 dev_langs:
   - "CSharp"
 ms.workload:

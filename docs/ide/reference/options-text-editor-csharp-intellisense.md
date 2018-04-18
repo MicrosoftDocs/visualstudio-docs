@@ -1,10 +1,8 @@
 ---
 title: "Options, Text Editor, C#, IntelliSense | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-general
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VS.ToolsOptionsPages.Text_Editor.CSharp.Intellisense"
 helpviewer_keywords: 
@@ -16,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 3466dedb-e5f4-424c-8dd8-e4941b2f4fc2
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "dotnet"
 ---

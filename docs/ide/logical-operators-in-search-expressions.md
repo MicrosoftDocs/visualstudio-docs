@@ -2,20 +2,16 @@
 title: "Logical operators and advanced operators in search expressions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-help-viewer"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Help Viewer, logical operators in search"
   - "logical operators in search [Help Viewer]"
 ms.assetid: 0c38ae7d-3e20-4d47-a020-9677cd285916
-caps.latest.revision: 9
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

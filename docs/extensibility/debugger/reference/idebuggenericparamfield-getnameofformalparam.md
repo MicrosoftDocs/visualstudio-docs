@@ -2,20 +2,16 @@
 title: "IDebugGenericParamField::GetNameOfFormalParam | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugGenericParamField::GetNameOfFormalParam"
   - "GetNameOfFormalParam"
 ms.assetid: 05032a83-49ce-4007-b5d6-7b56945b956c
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

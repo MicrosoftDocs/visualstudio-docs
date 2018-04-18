@@ -2,11 +2,8 @@
 title: "Solutions and projects in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/5/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.addnewsolutionitem"
   - "vs.environment.projects"
@@ -26,7 +23,7 @@ helpviewer_keywords:
   - "projects [Visual Studio]"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

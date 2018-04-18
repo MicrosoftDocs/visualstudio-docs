@@ -2,12 +2,9 @@
 title: "Writing Code in Office Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VST.Project.RefactoringCancelled"
 dev_langs: 
@@ -36,7 +33,7 @@ helpviewer_keywords:
   - "managed code extensions [Office development in Visual Studio], writing code"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

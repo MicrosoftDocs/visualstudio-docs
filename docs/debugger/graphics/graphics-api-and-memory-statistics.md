@@ -2,19 +2,15 @@
 title: "Graphics API and Memory Statistics | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/02/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.graphics.apistatistics"
   - "vs.graphics.memorystatistics"
 ms.assetid: 27d2f303-e3ed-4219-9009-345a0d849506
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

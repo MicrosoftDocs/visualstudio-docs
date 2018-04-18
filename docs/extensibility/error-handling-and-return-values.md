@@ -2,21 +2,17 @@
 title: "Error Handling and Return Values | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "errors [Visual Studio SDK], handling"
   - "error handling"
   - "return values"
 ms.assetid: b2d9079d-39a6-438a-8010-290056694b5c
-caps.latest.revision: 14
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

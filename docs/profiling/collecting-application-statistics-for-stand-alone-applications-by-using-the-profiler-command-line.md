@@ -2,20 +2,15 @@
 title: "Collecting Application Statistics for Stand-Alone Applications by Using the Profiler Command Line | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "sampling profiling method"
   - "profilng tools,sampling method"
 ms.assetid: be2dbdd0-fc88-45f9-a1d5-bcb4f64e17ad
-caps.latest.revision: 19
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

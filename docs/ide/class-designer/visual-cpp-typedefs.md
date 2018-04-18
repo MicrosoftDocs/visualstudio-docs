@@ -2,22 +2,18 @@
 title: "Visual C++ Typedefs in Class Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.classdesigner.typedef"
   - "vs.classdesigner.aliasofline"
 helpviewer_keywords: 
   - "Class Designer [Visual Studio], typedefs"
 ms.assetid: c1984108-71fc-4d3a-b4d4-3eac2c6b4ebf
-caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "cplusplus"
 ---

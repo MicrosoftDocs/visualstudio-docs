@@ -2,12 +2,9 @@
 title: "Command Window | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VS.CommandWindow"
 helpviewer_keywords: 
@@ -17,10 +14,9 @@ helpviewer_keywords:
   - "Command mode in Command window"
   - "IDE Command window"
 ms.assetid: 48711628-1909-4713-a73e-d7b714c77f8a
-caps.latest.revision: 20
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

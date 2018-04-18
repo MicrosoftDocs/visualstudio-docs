@@ -2,7 +2,7 @@
 title: "Visual Studio Test Explorer FAQ | Microsoft Docs"
 ms.date: "1/15/2018"
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "Test Explorer"
   - "Test window"
@@ -14,7 +14,7 @@ ms.author: "kehavens"
 ms.workload:
   - "multiple"
 author: kendrahavens
-manager: ghogen
+manager: douge
 ---
 # Visual Studio Test Explorer FAQ
 

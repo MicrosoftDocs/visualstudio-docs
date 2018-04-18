@@ -2,21 +2,17 @@
 title: "IEnumDebugErrorBreakpoints2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IEnumDebugErrorBreakpoints2"
 helpviewer_keywords: 
   - "IEnumDebugErrorBreakpoints2"
 ms.assetid: ffdad73d-969a-45ef-9ad1-7f5d3b814018
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

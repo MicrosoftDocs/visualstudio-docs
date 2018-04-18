@@ -2,21 +2,17 @@
 title: "Item Metadata in Task Batching | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "batching [MSBuild]"
   - "MSBuild, batching"
   - "task batching [MSBuild]"
   - "MSBuild, task batching"
 ms.assetid: 31e480f8-fe4d-4633-8c54-8ec498e2306d
-caps.latest.revision: 11
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

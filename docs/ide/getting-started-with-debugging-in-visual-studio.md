@@ -2,17 +2,13 @@
 title: "Getting started with debugging in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "12/14/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology:
   - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: c3a14d28-d811-4ff3-bd09-21dce14025ca
-caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ---
@@ -44,7 +40,7 @@ The easiest way to build your project is to press **F7**, but you can also start
 
  ![Visual Studio Output and Error List](../ide/media/vs_ide_gs_debug_bad_build_error_list.PNG "Vs_ide_gs_debug_bad_build_error_list")  
 
- Click on the error line in the **Error List** window and jump to the line the error occurs in. (Or turn on line numbers by clicking in the **Quick Launch** bar in the upper-right, typing "line numbers" into it, and pressing Enter. This is the fastest way to get to **Options** window entry where you can turn on line numbers. Learn to use the **Quick Launch** bar and save yourself a lot of UI clicks!)  
+ Click on the error line in the **Error List** window and jump to the line the error occurs in. (Or turn on line numbers by clicking in the **Quick Launch** bar in the upper-right, typing "line numbers" into it, and pressing **Enter**. This is the fastest way to get to **Options** window entry where you can turn on line numbers. Learn to use the **Quick Launch** bar and save yourself a lot of UI clicks!)  
 
  ![Visual Studio editor with line numbers](../ide/media/vs_ide_gs_debug_line_numbers.png "Vs_ide_gs_debug_line_numbers")  
 
@@ -69,24 +65,24 @@ The easiest way to build your project is to press **F7**, but you can also start
 
  Alternatively, you can click on the hyperlinked error code value in the **Code** column of the **Error List**. This will launch a Bing search for just the error code.  
 
-### Use Light Bulbs to fix or refactor code  
- Light Bulbs are a new feature for Visual Studio that let you refactor code inline. They are an easy way to fix common warnings quickly and effectively. To access them, right-click on a warning squiggle (or press **Ctrl+**. while hovering over the squiggle), and then select **Quick Actions**.  
+### Use light bulbs to fix or refactor code  
+ Light bulbs are a new feature for Visual Studio that let you refactor code inline. They are an easy way to fix common warnings quickly and effectively. To access them, right-click on a warning squiggle (or press **Ctrl+**. while hovering over the squiggle), and then select **Quick Actions**.  
 
- ![Visual Studio Light Bulb quick options](../ide/media/vs_ide_gs_debug_light_bulb1.png "Vs_ide_gs_debug_light_bulb1")  
+ ![Visual Studio light bulb quick options](../ide/media/vs_ide_gs_debug_light_bulb1.png "Vs_ide_gs_debug_light_bulb1")  
 
  You will see a list of possible fixes or refactors you can apply to that line of code.  
 
- ![Visual Studio Light Bulb preview](../ide/media/vs_ide_gs_debug_light_bulb_preview_changes.PNG "Vs_ide_gs_debug_light_bulb_preview_changes")  
+ ![Visual Studio light bulb preview](../ide/media/vs_ide_gs_debug_light_bulb_preview_changes.PNG "Vs_ide_gs_debug_light_bulb_preview_changes")  
 
- Light Bulbs can be used wherever the code analyzers determine there is an opportunity to fix, refactor, or improve your code. Click on any line of code, right-click to open the context menu, and select **Quick Actions** (or, again, if you prefer efficiency, press **Ctrl+**.). If there are refactoring or improvement options available, they will be displayed; otherwise, the message `No quick options available here` will be displayed in the lower-left corner bezel of the IDE.  
+ Light bulbs can be used wherever the code analyzers determine there is an opportunity to fix, refactor, or improve your code. Click on any line of code, right-click to open the context menu, and select **Quick Actions** (or, again, if you prefer efficiency, press **Ctrl+**.). If there are refactoring or improvement options available, they will be displayed; otherwise, the message `No quick options available here` will be displayed in the lower-left corner bezel of the IDE.  
 
- ![Visual Studio Light Bulb 'no option' text](../ide/media/vs_ide_gs_debug_light_bulb_no_options.PNG "Vs_ide_gs_debug_light_bulb_no_options")  
+ ![Visual Studio light bulb 'no option' text](../ide/media/vs_ide_gs_debug_light_bulb_no_options.PNG "Vs_ide_gs_debug_light_bulb_no_options")  
 
- With experience, you can quickly use the arrow keys and **Ctrl+**. to check for Quick Option refactoring opportunities and clean up your code!  
+ With experience, you can quickly use the arrow keys and **Ctrl+**. to check for quick options refactoring opportunities and clean up your code!  
 
- For more information on Light Bulbs, read [Perform quick actions with light bulbs](../ide/perform-quick-actions-with-light-bulbs.md).  
+ For more information on light bulbs, read [Perform quick actions with light bulbs](../ide/perform-quick-actions-with-light-bulbs.md).  
 
-### Debug Your running code  
+### Debug your running code  
  Now that you've successfully built your code and performed a little clean up, run it by pressing **F5** or selecting **Debug > Start Debugging**. This will start your app in a debug environment so you can observe its behavior in detail. The Visual Studio IDE changes while your app is running: the **Output** window is replaced by two new ones (in the default window configuration), the **Autos/Locals/Watch** tabbed window and the **Call Stack/Breakpoints/Exception Settings/Output** tabbed window. These windows have multiple tabs which allow you to inspect and evaluate your app's variables, threads, call stacks, and various other behaviors as it runs.  
 
  ![Visual Studio Autos and Call Stack Windows](../ide/media/vs_ide_gs_debug_autos_and_call_stack.PNG "Vs_ide_gs_debug_autos_and_call_stack")  
@@ -112,7 +108,7 @@ The easiest way to build your project is to press **F7**, but you can also start
 
 4.  If you are writing C or C++ code, use breakpoints to stop the code so you can inspect address values (look for NULL) and reference counts when debugging for memory-related failures.  
 
- For more information on using breakpoints, read [Using Breakpoints](../debugger/using-breakpoints.md).  
+ For more information on using breakpoints, read [Using breakpoints](../debugger/using-breakpoints.md).  
 
 ### Inspect your code at run-time  
  When your running code hits a breakpoint and pauses, the line of code marked in yellow (the current statement) has not executed yet. At this point, you may want to execute the current statement and then inspect the changed values. You can use several *step* commands to execute code in the debugger. If the marked code is a method call, you can step into it by pressing **F11**. You can also *step over* the line of code by pressing **F10**. For additional commands and details on how to step through code, read [Navigate code with the debugger](../debugger/navigating-through-code-with-the-debugger.md).
@@ -127,14 +123,14 @@ The easiest way to build your project is to press **F7**, but you can also start
 
  Hover over a variable to see the value(s) and reference(s) it currently contains. If you see a value you didn't expect, you probably have a bug in the preceding or calling lines of code.  For more in-depth information, [learn more](../debugger/getting-started-with-the-debugger.md) about using the debugger.
 
- Additionally, Visual Studio displays the Diagnostic Tools window, where you can observe your app's CPU and memory usage over time. Later in your app development, you can use these tools to look for unanticipated heavy CPU usage or memory allocation. Use it in conjunction with the **Watch** window and breakpoints to determine what's causing unexpected heavy usage or unreleased resources.  For more information, see [Profiling feature tour](../profiling/profiling-feature-tour.md).
+ Additionally, Visual Studio displays the **Diagnostic Tools** window, where you can observe your app's CPU and memory usage over time. Later in your app development, you can use these tools to look for unanticipated heavy CPU usage or memory allocation. Use it in conjunction with the **Watch** window and breakpoints to determine what's causing unexpected heavy usage or unreleased resources.  For more information, see [Profiling feature tour](../profiling/profiling-feature-tour.md).
 
 ### Run unit tests  
  Unit tests are your first line of defense against code bugs because, when done correctly, they test a single "unit" of code, typically a single function, and are usually much easier to debug than debugging your full program. Visual Studio installs the Microsoft unit testing frameworks for both managed and native code. Use a unit testing framework to create unit tests, run them, and report the results of these tests. Rerun unit tests when you make changes to test that your code is still working correctly. When you use Visual Studio Enterprise edition, you can run tests automatically after every build.  
 
  To get started, read [Generate unit tests for your code with IntelliTest](../test/generate-unit-tests-for-your-code-with-intellitest.md).  
 
- To learn more about unit tests in Visual Studio and how they can help you create better quality code, read [Unit Test Basics](../test/unit-test-basics.md).  
+ To learn more about unit tests in Visual Studio and how they can help you create better quality code, read [Unit test basics](../test/unit-test-basics.md).  
 
 ### Perform static code analysis  
  "Static code analysis" is a fancy way of saying "automatically check my code for common problems that can lead to run-time errors or problems in code management". Get in the habit of running it once you've cleaned up the obvious errors preventing build, and take some time to address the warnings it may produce. You'll save yourself some headaches down the road, as well as learn a few code style techniques.  
@@ -151,6 +147,6 @@ The easiest way to build your project is to press **F7**, but you can also start
 
  ![Visual Studio Code Analysis Warning hover](../ide/media/vs_ide_gs_debug_code_analysis_warning_hover.png "vs_ide_gs_debug_code_analysis_warning_hover")  
 
-## See Also  
- [Debugger Feature Tour](../debugger/debugger-feature-tour.md)  
+## See also  
+ [Debugger feature tour](../debugger/debugger-feature-tour.md)  
  [Learn more about using the debugger](../debugger/getting-started-with-the-debugger.md)

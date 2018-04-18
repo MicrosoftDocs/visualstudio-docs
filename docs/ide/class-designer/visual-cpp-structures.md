@@ -2,19 +2,15 @@
 title: "Visual C++ Structures in Class Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Class Designer [Visual Studio], structures"
 ms.assetid: bad18ab6-d956-47a6-a413-811cc26db5f5
-caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "cplusplus"
 ---

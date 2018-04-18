@@ -2,17 +2,13 @@
 title: "Step 8: Add a Method to Verify Whether the Player Won | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-acquisition"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 6e317f6e-ba4c-4306-8924-300b0c2f65c6
-caps.latest.revision: 17
 author: "TerryGLee"
 ms.author: "tglee"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

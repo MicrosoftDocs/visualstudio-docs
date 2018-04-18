@@ -2,12 +2,9 @@
 title: "Navigate code in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "09/26/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "code editor, navigation"
   - "code editor, go to"
@@ -21,7 +18,7 @@ helpviewer_keywords:
   - "go to"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

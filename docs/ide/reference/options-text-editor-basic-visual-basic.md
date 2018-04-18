@@ -2,12 +2,9 @@
 title: "Options, Text Editor, Basic (Visual Basic) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VS.ToolsOptionsPages.Visual_Basic.Editor"
   - "VS.ToolsOptionsPages.Text_Editor.Basic.Editor"
@@ -18,10 +15,9 @@ f1_keywords:
 helpviewer_keywords: 
   - "Basic Text Editor Options dialog box"
 ms.assetid: 5a8cafca-f7b4-4a2d-92ce-6894a7673d00
-caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

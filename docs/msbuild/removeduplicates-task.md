@@ -2,11 +2,8 @@
 title: "RemoveDuplicates Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/01/2018"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#RemoveDuplicates"
 dev_langs: 
@@ -18,10 +15,9 @@ helpviewer_keywords:
   - "MSBuild, RemoveDuplicates task"
   - "RemoveDuplicates task [MSBuild]"
 ms.assetid: 481cbab6-73ff-488c-aba5-2c09f9eb1e04
-caps.latest.revision: 9
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

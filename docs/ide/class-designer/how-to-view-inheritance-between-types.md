@@ -2,12 +2,9 @@
 title: "How to: View Inheritance Between Types (Class Designer) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.classdesigner.AssociationTypeNotFoundError"
 helpviewer_keywords: 
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "types [Visual Studio], base"
   - "types [Visual Studio], derived"
 ms.assetid: ea3f0ada-f53b-4fb1-9fb5-908286f5ec3e
-caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

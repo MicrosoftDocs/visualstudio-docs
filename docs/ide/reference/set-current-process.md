@@ -2,20 +2,16 @@
 title: "Set Current Process | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Debug.SetCurrentProcess command"
   - "Set Current Process command"
 ms.assetid: 1e016ebd-aadd-411f-a606-03bf69d3f8aa
-caps.latest.revision: 5
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

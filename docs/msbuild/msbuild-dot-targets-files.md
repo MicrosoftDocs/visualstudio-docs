@@ -2,11 +2,8 @@
 title: "MSBuild .Targets Files | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/24/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -16,10 +13,9 @@ helpviewer_keywords:
   - ".Targets files"
   - "MSBuild, .Targets files"
 ms.assetid: f6d98eb4-d2fa-49b7-8e3c-bae1ca3cf596
-caps.latest.revision: 17
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

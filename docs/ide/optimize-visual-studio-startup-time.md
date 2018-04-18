@@ -1,10 +1,7 @@
 ---
-title: "Optimize Visual Studio performance | Microsoft Docs"
+title: "Improve Visual Studio start up time | Microsoft Docs"
 ms.date: 11/15/2017
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 helpviewer_keywords:
   - "startup time [Visual Studio]"
   - "optimizing performance [Visual Studio]"
@@ -12,14 +9,14 @@ helpviewer_keywords:
 ms.assetid: d1508121-8499-4084-8eb5-fa89fa7b17d3
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 f1_keywords:
   - "vs.performancecenter"
 ms.technology: vs-ide-general
 ms.workload:
   - "multiple"
 ---
-# Optimize Visual Studio performance
+# Optimize Visual Studio startup time
 
 Visual Studio is designed to start up as quickly and efficiently as possible. However, certain Visual Studio extensions and tool windows can adversely affect startup time when they are loaded. You can control the behavior of slow extensions and tool windows in the the **Manage Visual Studio Performance** dialog box. For more general tips on improving performance, see [Visual Studio performance tips and tricks](../ide/visual-studio-performance-tips-and-tricks.md).
 
@@ -33,7 +30,7 @@ If Visual Studio detects slow startup, a pop-up message appears, alerting you to
 
 The dialog box lists the extensions and tools windows that are affecting startup performance. You can change extension and tool window settings to improve startup performance.
 
-## To change extension settings to improve startup, solution load, and typing performance
+## <a name="extensions" />To change extension settings to improve startup, solution load, and typing performance
 
 1. Open the **Manage Visual Studio Performance** dialog box by choosing **Help** > **Manage Visual Studio Performance** from the menu bar.
 
@@ -45,7 +42,7 @@ The dialog box lists the extensions and tools windows that are affecting startup
 
 You can always re-enable the extension for future sessions by using the **Extension Manager** or the **Manage Visual Studio Performance** dialog box.
 
-## To change tool window settings to improve startup time
+## <a name="tool-windows" />To change tool window settings to improve startup time
 
 1. Open the **Manage Visual Studio Performance** dialog box by choosing **Help** > **Manage Visual Studio Performance** from the menu bar.
 
@@ -68,4 +65,6 @@ You can always re-enable the extension for future sessions by using the **Extens
 
 ## See also
 
+- [Optimize Visual Studio performance](../ide/optimize-visual-studio-performance.md)
 - [Visual Studio performance tips and tricks](../ide/visual-studio-performance-tips-and-tricks.md)
+- [Visual Studio blog - Load solutions faster with Visual Studio 2017 version 15.6](https://blogs.msdn.microsoft.com/visualstudio/2018/04/04/load-solutions-faster-with-visual-studio-2017-version-15-6/)

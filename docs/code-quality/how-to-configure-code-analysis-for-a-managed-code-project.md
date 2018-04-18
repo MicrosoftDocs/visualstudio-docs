@@ -1,5 +1,5 @@
 ---
-title: "Configure Code Analysis in Visual Studio | Microsoft Docs"
+title: Configure Code Analysis in Visual Studio
 ms.date: 04/04/2018
 ms.technology: vs-ide-code-analysis
 ms.topic: conceptual
@@ -9,9 +9,9 @@ f1_keywords:
 helpviewer_keywords:
   - "code analysis, selecting rule sets"
   - "code analysis, rule sets"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: gewarren
+ms.author: gewarren
+manager: douge
 ms.workload:
   - "dotnet"
 ---

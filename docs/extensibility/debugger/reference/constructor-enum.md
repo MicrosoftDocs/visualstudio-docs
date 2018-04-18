@@ -2,21 +2,17 @@
 title: "CONSTRUCTOR_ENUM | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "CONSTRUCTOR_ENUM"
 helpviewer_keywords: 
   - "CONSTRUCTOR_ENUM enumeration"
 ms.assetid: 6d335b2c-66bc-460c-a4a6-4f3f1b697c2c
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

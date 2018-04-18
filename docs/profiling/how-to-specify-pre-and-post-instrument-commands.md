@@ -2,12 +2,8 @@
 title: "How to: Specify Pre- and Post-Instrument Commands | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.property.instrument"
 helpviewer_keywords: 
@@ -15,10 +11,9 @@ helpviewer_keywords:
   - "events [Visual Studio], pre-instrument"
   - "pre-instrument events, performance tools"
 ms.assetid: 6a8d5340-1d1b-4d81-88dd-8e1f435eb828
-caps.latest.revision: 28
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

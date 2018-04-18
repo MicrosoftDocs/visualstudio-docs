@@ -1,30 +1,26 @@
 ---
-title: "How to: Search for Topics | Microsoft Docs"
+title: "How to: Search for topics | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-help-viewer"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 683f1b0c-1551-4bba-91fe-3855f03fdd69
-caps.latest.revision: 6
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: search for topics
+# How to: Search for topics
 You can use the full-text search feature to locate all topics that contain a particular word. You can also refine and customize your search by using wildcard expressions, logical operators, and advanced search operators.  
   
-To open the Search tab, choose the **Search** tab in the Help Viewer window, or if you are a keyboard user, choose **Ctrl+E**.  
+To open the **Search** tab, choose the **Search** tab in the **Help Viewer** window, or if you are a keyboard user, choose **Ctrl**+**E**.  
   
 ## To perform a full-text search 
 1.  In the search box, type the word that you want to find.  
   
-2.  In the search query, specify which logical or advanced search operators to apply to the search, if any. To search all available Help, don't use operators.  
+2.  In the search query, specify which logical or advanced search operators to apply to the search, if any. To search all available help, don't use operators.  
   
     > [!NOTE]
     >  In the **Viewer Options** dialog box, you can specify additional preferences such as the maximum number of search results to display at a time and whether to include English content if your primary locale is not English.  
@@ -39,7 +35,7 @@ To open the Search tab, choose the **Search** tab in the Help Viewer window, or 
 You can create more targeted searches that return only those topics that interest you, if you understand how syntax affects your query. The syntax includes special characters, reserved words, and filters. This topic provides tips, procedures, and detailed syntax information to help you better craft your queries.
   
 ### General guidelines  
-The following table includes some basic rules and guidelines for developing search queries in Help.  
+The following table includes some basic rules and guidelines for developing search queries in help.  
   
 |Syntax|Description|  
 |------------|-----------------|  
@@ -52,7 +48,7 @@ If you specify a search string that includes multiple words, such as "word1 word
   
 > [!IMPORTANT]
 > - Phrase searches are not supported. If you specify more than one word in a search string, returned topics will contain all of the words that you specified but not necessarily the exact phrase that you specified.  
-> - Use logical operators to specify the relationship between words in your search phrase. You can include logical operators, such as AND, OR, NOT, and NEAR, to further refine your search. For example, if you search for "declaring NEAR union", search results will include topics that contain the words "declaring" and "union" no more than a few words apart from each other. For more information, see [Logical Operators in Search Expressions](../ide/logical-operators-in-search-expressions.md).  
+> - Use logical operators to specify the relationship between words in your search phrase. You can include logical operators, such as AND, OR, NOT, and NEAR, to further refine your search. For example, if you search for "declaring NEAR union", search results will include topics that contain the words "declaring" and "union" no more than a few words apart from each other. For more information, see [Logical operators in search expressions](../ide/logical-operators-in-search-expressions.md).  
   
 ### Filters  
 You can further restrict search results by using advanced search operators. Help includes three categories that you can use to filter results of a full-text search: Title, Code, and Keyword.
@@ -71,6 +67,6 @@ Commonly occurring words or numbers, which are sometimes called stop words, are 
   
 ## See also
 [Logical and advanced operators](../ide/logical-operators-in-search-expressions.md)  
-[How to: find topics in the index](../ide/how-to-find-topics-in-the-index.md)  
-[How to: find topics in the TOC](../ide/how-to-find-topics-in-the-table-of-contents.md)  
+[How to: Find topics in the index](../ide/how-to-find-topics-in-the-index.md)  
+[How to: Find topics in the TOC](../ide/how-to-find-topics-in-the-table-of-contents.md)  
 [Microsoft Help Viewer](../ide/microsoft-help-viewer.md)

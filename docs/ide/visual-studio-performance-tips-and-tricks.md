@@ -1,32 +1,25 @@
 ---
 title: "Visual Studio Performance Tips and Tricks | Microsoft Docs"
 ms.date: "08/31/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "debugger"
+ms.technology: vs-ide-general
+ms.topic: conceptual
 ms.assetid: 2fbcb59e-e981-4b40-8b7a-c1140d31ec4b
-caps.latest.revision: 1
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
-# Visual Studio Performance Tips and Tricks
+# Visual Studio performance tips and tricks
 
 Visual Studio performance recommendations are intended for low memory situations, which may occur in rare cases. In these situations, you can optimize certain Visual Studio features that you may not be using. The following tips are not intended as general recommendations.
 
 > [!NOTE]
-> If you’re having difficulty using the product because of memory issues, let us know through the feedback tool.
+> If you’re having difficulty using the product because of memory issues, let us know through the [feedback tool](../ide/how-to-report-a-problem-with-visual-studio-2017.md).
 
 ## Optimize your environment
 
-- **Use a 64bit OS**
+- **Use a 64-bit OS**
 
     If you upgrade your system from a 32-bit version of Windows to a 64-bit version, you expand the amount of virtual memory available to Visual Studio from 2 GB to 4 GB. This enables Visual Studio to handle significantly larger workloads even though it is 32-bit process.
 
@@ -81,7 +74,7 @@ Some tools or extensions may to turned off to improve performance.
 
 ### Managed Language Services (Roslyn)
 
-For information about .NET Compiler Platform ("Roslyn") performance considerations, see [Performance considerations for large solutions] (https://github.com/dotnet/roslyn/wiki/Performance-considerations-for-large-solutions).
+For information about .NET Compiler Platform ("Roslyn") performance considerations, see [Performance considerations for large solutions](https://github.com/dotnet/roslyn/wiki/Performance-considerations-for-large-solutions).
 
 - **Disable Full Solution Analysis**
 
@@ -103,7 +96,7 @@ For information about .NET Compiler Platform ("Roslyn") performance consideratio
 
     Extensions are additional software components added to Visual Studio that provide new functionality or extend existing functionality. Extensions can often be a source of memory resource issues. If you’re experiencing memory resource problems, try disabling extensions one at a time to see how it impacts the scenario or workflow.
 
-    To disable extensions, go to **Tools | Extensions and Updates**, and disable a particular extension.
+    To disable extensions, go to **Tools** > **Extensions and Updates**, and disable a particular extension.
 
 - **Disable XAML Designer**
 
@@ -123,8 +116,9 @@ To force a garbage collection, use the hotkey: **Ctrl+Alt+Shift+F12**, **Ctrl+Al
 
 If forcing garbage collection reliably makes your scenario work, file a report through the Visual Studio feedback tool as this behavior is likely to be a bug.
 
-For a detailed description of the CLR garbage collector, see [Fundamental of Garbage Collection](/dotnet/standard/garbage-collection/fundamentals).
+For a detailed description of the CLR garbage collector, see [Fundamentals of garbage collection](/dotnet/standard/garbage-collection/fundamentals).
 
 ## See also
 
-[Visual Studio IDE](../ide/visual-studio-ide.md)
+- [Optimize Visual Studio performance](../ide/optimize-visual-studio-performance.md)
+- [Visual Studio blog - Load solutions faster with Visual Studio 2017 version 15.6](https://blogs.msdn.microsoft.com/visualstudio/2018/04/04/load-solutions-faster-with-visual-studio-2017-version-15-6/)

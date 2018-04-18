@@ -2,17 +2,15 @@
 title: "What&#39;s new for design in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-modeling
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "what's new [VIsual Studio ALM], architecture and modeling"
   - "architecture [Visual Studio Ultimate], modeling"
   - "modeling software [Visual Studio ALM], What's New"
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

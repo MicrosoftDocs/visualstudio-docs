@@ -2,15 +2,12 @@
 title: "Find code changes and other history with CodeLens | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -29,7 +26,7 @@ Contact your team about changes to your code without leaving the editor:
 
 ![CodeLens &#45; Contact your team](../ide/media/codelensovervew2.png "CodeLensOvervew2")  
 
-To choose the indicators that you want to see, or to turn CodeLens off and on, go to **Tools**, **Options**, **Text Editor**, **All Languages**, **CodeLens**.  
+To choose the indicators that you want to see, or to turn CodeLens off and on, go to **Tools** > **Options** > **Text Editor** > **All Languages** > **CodeLens**.  
 
 ## <a name="FindReferences"></a> Find references to your code
 
@@ -39,7 +36,7 @@ You'll need:
 
 -  C# or Visual Basic code
 
-Choose the **references** indicator (**Alt + 2**). If you see **0 references**, you have no references from C# or Visual Basic code. This doesn't include references from other items such as XAML and ASPX files.
+Choose the **references** indicator (**Alt + 2**). If you see **0 references**, you have no references from C# or Visual Basic code. This doesn't include references from other items such as **.xaml** and **.aspx** files.
 
 ![CodeLens &#45; Choose references indicator](../ide/media/codelensviewreferenceslist.png "CodeLensViewReferencesList")  
 
@@ -73,9 +70,9 @@ For all other types of files that you can open in the Visual Studio editor, you 
 
 ![File&#45;level CodeLens indicators](../ide/media/almcodelensfilelevelindicators.png "ALMCodeLensFileLevelIndicators")  
 
-To use the keyboard to select indicators, press and hold the **ALT** key to display the related number keys.  
+To use the keyboard to select indicators, press and hold the **Alt** key to display the related number keys.  
 
-![Press ALT to see the keyboard access numbers](../ide/media/codelensaltkeyindicators.png "CodeLensAltKeyIndicators")  
+![Press Alt to see the keyboard access numbers](../ide/media/codelensaltkeyindicators.png "CodeLensAltKeyIndicators")  
 
 ### Find changes in your code
 
@@ -89,7 +86,7 @@ To see a detailed history of all the changes, including those from more than a y
 
 ![Show all code changes](../ide/media/codelensshowsallchanges.png "CodeLensShowsAllChanges")  
 
-This opens the History window for the changesets.  
+This opens the **History** window for the changesets.  
 
 ![History window for all code changes](../ide/media/codelenscodechangeshistory.png "CodeLensCodeChangesHistory")  
 
@@ -143,7 +140,7 @@ So you can see which changes are included in your branch:
 
 For example, your code in the Main branch now has the bug fix from the Dev branch:  
 
-![CodeLens &#45; Merged chagnes between branches](../ide/media/codelensbranchmergedscreenshot.png "CodeLensBranchMergedScreenshot")  
+![CodeLens &#45; Merged changes between branches](../ide/media/codelensbranchmergedscreenshot.png "CodeLensBranchMergedScreenshot")  
 
 #### Compare an incoming change with your local version (Shift + F10)
 
@@ -186,7 +183,7 @@ Open the shortcut menu for an item to see the contact options. If you have Lync 
 
 ##  <a name="FindRunUnitTests"></a> Find unit tests for your code
 
-Find out more about unit tests that exist for your code without opening Test Explorer. You'll need:  
+Find out more about unit tests that exist for your code without opening **Test Explorer**. You'll need:  
 
 -   Visual Studio Enterprise or Visual Studio Professional  
   
@@ -218,7 +215,7 @@ Find out more about unit tests that exist for your code without opening Test Exp
 
 ###  <a name="ChangeOrTurnOff"></a> Q: How do I turn CodeLens off or on? Or choose which indicators to see?
 
-**A:**  You can turn indicators off or on, except for the references indicator. Go to **Tools**, **Options**, **Text Editor**, **All Languages**, **CodeLens**.  
+**A:**  You can turn indicators off or on, except for the references indicator. Go to **Tools** > **Options** > **Text Editor** > **All Languages** > **CodeLens**.  
   
  When the indicators are turned on, you can also open the CodeLens options from the indicators.  
   
@@ -260,7 +257,7 @@ CodeLens doesn't support having different versions of Lync or Skype installed. T
 
 ### Q: How do I change the font and color for CodeLens?
 
-**A:** Go to **Tools**, **Options**, **Environment**, **Fonts and Colors**.  
+**A:** Go to **Tools** > **Options** > **Environment** > **Fonts and Colors**.  
 
 ![CodeLens &#45; Change font and color settings](../ide/media/codelensoptionsfontscolorssettings.png "CodeLensOptionsFontsColorsSettings")  
 
@@ -272,7 +269,7 @@ To use the keyboard:
 
 3.  Press **Down Arrow** to go to **Fonts and Colors**.  
 
-4.  Press **TAB** to go to the **Show settings for** list, and then press **Down Arrow** to select **CodeLens**.  
+4.  Press **Tab** to go to the **Show settings for** list, and then press **Down Arrow** to select **CodeLens**.  
 
 ### Q: Can I move the CodeLens heads-up display?
 
@@ -306,4 +303,4 @@ To use the keyboard:
 
 ## See also
 
-[Writing Code in the Editor](../ide/writing-code-in-the-code-and-text-editor.md)
+[Writing code in the editor](../ide/writing-code-in-the-code-and-text-editor.md)

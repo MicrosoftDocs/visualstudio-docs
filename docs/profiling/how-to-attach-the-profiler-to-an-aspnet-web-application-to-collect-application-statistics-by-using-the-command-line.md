@@ -2,17 +2,12 @@
 title: "How to: Attach the Profiler to an ASP.NET Web Application to Collect Application Statistics by Using the Command Line | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 ms.assetid: 3725ddbe-ce91-4469-991e-8c5ed048c618
-caps.latest.revision: 33
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "aspnet"
 ---

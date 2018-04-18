@@ -2,12 +2,9 @@
 title: "Quick Launch, Environment, Options Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VS.ToolsOptionsPages.Environment.QuickLaunch"
   - "vs.quicklaunch"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "searching IDE"
   - "IDE, searching"
 ms.assetid: 4200f297-d065-4723-9a30-d91ff2e26c9d
-caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

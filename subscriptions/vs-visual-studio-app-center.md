@@ -1,56 +1,25 @@
 ---
 title: Visual Studio App Center Benefit in Visual Studio Subscriptions | Microsoft Docs 
-Author: evanwindom
-Ms.author: jaunger
-Manager: evelynp
-Ms.date: 1/15/2018
-Ms.topic: Get-Started-Article
-Description:  Learn about the Visual Studio App Center benefit included in Visual Studio subscriptions.
-Ms.prod: vs-subscription
-Ms.technology: vs-subscriptions
-Searchscope: VS Subscription
+author: evanwindom
+ms.author: jaunger
+manager: evelynp
+ms.date: 01/15/2018
+ms.topic: Get-Started-Article
+description:  Learn about the Visual Studio App Center benefit included in Visual Studio subscriptions.
+ms.prod: vs-subscription
+ms.technology: vs-subscriptions
+searchscope: VS Subscription
 ---
 
-# Visual Studio App Center in Visual Studio Subscriptions
+# Visual Studio App Center in Visual Studio subscriptions
 
-## Overview
 App Center is mission control for apps.
 
 -  Automatically build your app, test it on real devices, and distribute it to beta testers
 -  Collect crash reports and user analytics, including custom events.
 -  Add push notifications to your app in minutes
 
-## Benefit Details
-
-### Eligibility
-| Subscription Level / Program                                 | Benefit               | Renewable?                                                         |
-|--------------------------------------------------------------|-----------------------|--------------------------------------------------------------------|
-| Visual Studio Enterprise Standard                            | Included              | Yes                                                                |
-| Visual Studio Enterprise annual                              | Included              | Yes                                                                |
-| Visual Studio Enterprise monthly                             | Included              | Yes                                                                |
-| Visual Studio Professional Standard                          | Included              | Yes                                                                |
-| Visual Studio Professional annual                            | Included              | Yes                                                                | 
-| Visual Studio Professional monthly                           | Included              | Yes                                                                |
-| Visual Studio Test Pro                                       | Included              | Yes                                                                |
-| MSDN Platforms                                               | Included              | Yes                                                                |
-| Visual Studio Dev Essentials                                 | Included              | Yes                                                                |
-| Visual Studio Enterprise - NFR                               | Included              | Yes                                                                |
-| Visual Studio Enterprise - FTE                               | Included              | Yes                                                                |
-| Visual Studio Enterprise - MPN                               | Included              | Yes                                                                |
-| Visual Studio Professional - MPN                             | Included              | Yes                                                                |
-| Visual Studio Enterprise - MVP/RD                            | Included              | Yes                                                                |
-| Visual Studio Enterprise – Imagine (Standard)                | Included              | Yes                                                                |
-| Visual Studio Enterprise – Imagine (Premium)                 | Included              | Yes                                                                |
-| Visual Studio Enterprise – BizSpark                          | Included              | Yes                                                                |
-| Visual Studio Enterprise – MCT Software & Services           | Included              | Yes                                                                |
-| Visual Studio Enterprise – MCT Software & Services Developer | Included              | Yes                                                                |
-
-<sup>1</sup>  *Includes Not for Resale (NFR), Microsoft Valued Partner (MVP), Region Director (RD), Visual Studio Industry Partner (VSIP)*  
-
-Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions. 
-
-## Activation Steps
-
+## Activation steps
 Getting started with Visual Studio App Center is easy. 
 1.  Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
 
@@ -66,15 +35,29 @@ Getting started with Visual Studio App Center is easy.
 
     ![VS App Center Portal](_img/vs-app-center/vs-app-center-portal.png)
 
-## FAQ
-*Check here for updates*
+## Eligibility
+| Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
+|--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
+| Visual Studio Enterprise (Standard, annual cloud, monthly cloud)   | VL, Azure, Retail,  NFR<sup>1</sup> | Included       |  Yes          |
+| Visual Studio Professional (Standard, annual cloud, monthly cloud) | VL, Azure, Retail                                       | Included                                                            |Yes |
+| Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Included                                                            |Yes |
+| MSDN Platforms (Standard)                                          | VL, Retail                                              | Included                                                            |Yes |
+| Visual Studio Dev Essentials | NA  | Included                                                            |Yes |
 
-### Q:  When I click on the "Get started" link, I get an error that my browser is unsupported.  What's wrong? 
+
+<sup>1</sup>  *Includes:  Not for Resale (NFR), FTE, Visual Studio Industry Partner (VSIP), Imagine, Microsoft Partner Network (MPN), MCT Software & Services, MCT Software & Services Developer, BizSpark, Microsoft Valued Partner (MVP), Region Director (RD).*
+
+Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions. 
+
+## Frequently asked questions
+
+### Q:  I get an error that my browser is unsupported.  What's wrong? 
 A:  App Center requires newer capabilities that may not be provided by some older browsers.  If your browser isn't supported, follow these steps:
 1.  Open a different browser, such as Microsoft Edge or the latest versions of Google Chrome or Firefox, or Safari.  
 2.  Connect to the Visual Studio [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) and sign in. 
 3.  Now click on the **Get started** link on the Visual Studio App Center tile. 
-4.  You should now be able to access the App Center portal and create your account. 
+
+You should now be able to access the App Center portal and create your account. 
 
 ## Support Resources
 -  Need help with App Center?  

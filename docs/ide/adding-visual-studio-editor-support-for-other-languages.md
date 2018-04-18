@@ -2,10 +2,7 @@
 title: "Adding Visual Studio editor support for other languages | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "syntax colorization"
   - "IntelliSense"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "TextMate language grammar"
   - "language support"
 ms.assetid: d78c43ee-4ef2-42e5-984e-d137de4e7e92
-caps.latest.revision: 13
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.technology: 
   - "vs-ide-general"
 ms.workload: 
@@ -78,7 +74,7 @@ All of these file types have  the features described earlier even if support for
 |*\Syntaxes*|The grammar folder. Contains the grammar *.json* files for the language, such as *Matlab.json*.|  
 |*\Snippets*|The snippets folder. Contains snippets for the language.|  
   
- In Windows, *%userprofile%* resolves to the path: *c:\Users\\*\<user name>*.* If the extensions folder does not exist on your system, you will need to create it. If the folder already exists, it will be hidden.  
+ In Windows, *%userprofile%* resolves to the path: *c:\Users\\\<user name>*. If the extensions folder does not exist on your system, you will need to create it. If the folder already exists, it will be hidden.  
   
  For details about how to create TextMate Grammars, see [TextMate - Introduction to Language Grammars: How to add source code syntax highlighting embedded in HTML](https://developmentality.wordpress.com/2011/02/08/textmate-introduction-to-language-grammars/) and [Notes on how to create a Language Grammar and Custom Theme for a Textmate Bundle](https://benparizek.com/notebook/notes-on-how-to-create-a-language-grammar-and-custom-theme-for-a-textmate-bundle).  
   
