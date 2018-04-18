@@ -28,7 +28,7 @@ You can do nearly everything in the Visual Studio IDE as a normal user, but, you
 |----------|----------|--------------------------|  
 |Installation|Install Visual Studio.|[Install Visual Studio](../install/install-visual-studio.md)|  
 ||Installing, updating, or removing local Help content.|[Install and Manage Local Content](../ide/install-and-manage-local-content.md)|  
-|Application types|Developing solutions for SharePoint.|[Requirements for Developing SharePoint Solutions](/office-dev/office-dev/requirements-for-developing-sharepoint-solutions)|  
+|Application types|Developing solutions for SharePoint.|[Requirements for Developing SharePoint Solutions](../sharepoint/requirements-for-developing-sharepoint-solutions)|  
 ||Acquiring a developer license for [!INCLUDE[win8_appstore_long](../debugger/includes/win8_appstore_long_md.md)].|[Get a developer license](http://go.microsoft.com/fwlink/?LinkID=241313)|  
 |Toolbox|Adding classic COM controls to **Toolbox**.|[Toolbox](../ide/reference/toolbox.md)|  
 |Add-ins|Installing and using add-ins that were written by using classic COM in the IDE.|[Creating Add-ins and Wizards](http://msdn.microsoft.com/Library/c5a47c21-6668-4de3-898d-afa969317e73)|  
