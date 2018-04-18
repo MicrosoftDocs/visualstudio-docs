@@ -3,6 +3,7 @@ title: "Get started with C++ in Visual Studio | Microsoft Docs"
 ms.custom: "mvc"
 ms.date: "12/04/2017"
 ms.technology: "vs-acquisition"
+ms-prod: visual-studio-dev15
 ms.topic: "tutorial"
 author: "corob-msft"
 ms.author: "tglee"
