@@ -4,7 +4,6 @@ description: "Visual Studio for Mac provides an integrated development environme
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017
-ms.topic: article
 ms.assetid: 7DC64A52-AA41-4F3A-A8A1-8A20BCD81CC7
 ---
 

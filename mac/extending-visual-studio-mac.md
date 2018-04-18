@@ -4,7 +4,6 @@ Description: "Visual Studio for Mac's features and functionality can be extended
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017
-ms.topic: article
 ms.technology: vs-ide-sdk
 ms.assetid: D5245AB0-8404-426B-B538-F49125E672B2
 ---

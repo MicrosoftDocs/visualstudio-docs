@@ -4,7 +4,6 @@ description: Debugging is a common, and necessary, part of programming. As a mat
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017
-ms.topic: article
 ms.technology: vs-ide-debug
 ms.assetid: BB7A084D-9AC2-48B5-8076-6C8518796BBA
 ---

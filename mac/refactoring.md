@@ -4,7 +4,6 @@ description: Re-organizing code in Visual Studio for Mac is made simple through 
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017
-ms.topic: article
 ms.assetid: C7782BF3-016F-4B41-8A81-85FC540A1A8F
 ---
 # Refactoring

@@ -4,7 +4,6 @@ description: Using the source editor in Visual Studio for Mac
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017
-ms.topic: article
 ms.assetid: A018A314-C1C4-4F36-BCB6-2D434208FCFE
 ---
 

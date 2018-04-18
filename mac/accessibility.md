@@ -4,7 +4,6 @@ description:
 author: asb3993
 ms.author: amburns
 ms.date: 08/15/2017
-ms.topic: article
 ms.assetid: 2C4AAC2E-3B4A-4496-8BE0-1F5A7F81D1CA
 ---
 

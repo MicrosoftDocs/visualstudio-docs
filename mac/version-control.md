@@ -4,7 +4,6 @@ description: Using Git and Subversion in Visual Studio for Mac.
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017
-ms.topic: article
 ms.assetid: 49917483-28AA-4598-A847-71F1F2E0DCB5
 ---
 

@@ -1,17 +1,16 @@
 ---
-title: "Troubleshooting | Microsoft Docs"
-description: 
+title: "Visual Studio for Mac Troubleshooting | Microsoft Docs"
+description: "Common issues and resolutions for Visual Studio for Mac users."
+ms.topic: troubleshooting
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017
-ms.topic: article
 ms.assetid: CE860D79-E29E-4B93-B094-BE74B35FC1C2
 ---
-
 # Troubleshooting
 
 ## Viewing logs in Visual Studio for Mac
- 
+
 Logs can be found by browsing to the **Help > Open Log Directory** menu item, as illustrated below:
 
 ![Open Log directory menu item](media/troubleshooting-image1.png)

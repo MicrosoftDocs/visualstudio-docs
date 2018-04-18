@@ -4,7 +4,6 @@ description: Using Git in Visual Studio for Mac.
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017
-ms.topic: article
 ms.assetid: 852B6A9D-AEFA-4EF4-A5DD-94A506019D20
 ---
 
