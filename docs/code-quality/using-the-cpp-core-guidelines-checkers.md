@@ -4,7 +4,7 @@ ms.date: 11/04/2016
 ms.topic: "conceptual"
 author: mikeblome
 ms.author: mblome
-manager: douge
+manager: wpickett
 dev_langs:
  - CPP
 ms.technology: vs-ide-code-analysis
