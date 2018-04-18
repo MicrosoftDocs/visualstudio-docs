@@ -2,12 +2,9 @@
 title: "Options, Text Editor, XAML, Formatting | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/17/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VS.ToolsOptionsPages.Text_Editor.XAML.Formatting.General"
   - "VS.ToolsOptionsPages.Text_Editor.XAML.Miscellaneous"
@@ -31,10 +28,9 @@ helpviewer_keywords:
   - "WPF Designer, XAML formatting"
   - "XAML view settings, attribute spacing"
 ms.assetid: ad3820b1-0d94-4807-a74c-c3467ed973a2
-caps.latest.revision: 15
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "uwp"
 ---

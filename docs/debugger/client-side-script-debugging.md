@@ -2,12 +2,8 @@
 title: "Client-Side Script Debugging | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
   - "VB"
@@ -17,10 +13,9 @@ helpviewer_keywords:
   - "debugging [Visual Studio], client-side scripts"
   - "client-side scripts, debugging"
 ms.assetid: bb668527-2288-47bd-a6c8-cecbad76dde2
-caps.latest.revision: 30
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

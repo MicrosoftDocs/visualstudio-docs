@@ -2,22 +2,18 @@
 title: "How to: Customize Class Diagrams (Class Designer) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "class diagrams, customizing"
   - "shapes, removing type from class diagrams"
   - "type shapes, removing from class diagrams"
   - "class diagrams, removing type shapes"
 ms.assetid: e9030aea-c77d-4cc1-b8f6-b6ca469b692d
-caps.latest.revision: 29
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

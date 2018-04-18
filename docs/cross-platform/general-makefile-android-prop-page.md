@@ -2,15 +2,12 @@
 title: "General Project Properties (Android C++ Makefile) | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/23/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-mobile
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: f76d717c-56ed-4373-8cf9-9bd1a053a4cd
 author: "corob"
 ms.author: "mblome"
-manager: ghogen
+manager: douge
 f1_keywords: 
   - VC.Project.VCConfiguration.OutputDirectory
   - VC.Project.VCConfiguration.IntermediateDirectory

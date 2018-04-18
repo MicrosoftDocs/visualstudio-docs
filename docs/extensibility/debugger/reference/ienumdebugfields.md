@@ -2,21 +2,17 @@
 title: "IEnumDebugFields | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IEnumDebugFields"
 helpviewer_keywords: 
   - "IEnumDebugFields interface"
 ms.assetid: 403c2a51-3ba5-431f-a1dd-2f3b2046c00c
-caps.latest.revision: 6
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

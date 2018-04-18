@@ -1,22 +1,16 @@
 ---
 title: Overview of Python support in Visual Studio on Windows
 description: Summary of features in Visual Studio, making it the best Python IDE on Windows (also know as Python Tools for Visual Studio, PTVS)
-ms.custom:
 ms.date: 04/06/2018
-ms.reviewer:
-ms.suite:
-ms.technology: 
-  - "devlang-python"
-dev_langs:
-  - "python"
-ms.tgt_pltfrm:
-ms.topic: "overview"
-author: "kraigb"
-ms.author: "kraigb"
+ms.prod: visual-studio-dev15
+ms.technology: vs-python
+ms.topic: overview
+author: kraigb
+ms.author: kraigb
 manager: douge
 ms.workload: 
-  - "python"
-  - "data-science"
+  - python
+  - data-science
 ---
 
 # Working with Python in Visual Studio (Windows)
@@ -299,6 +293,6 @@ Visual Studio 2015 and earlier are available at [visualstudio.com/vs/older-downl
 
 ## Additional resources
 
-- [WFastCGI bridge between IIS and Python](https://pypi.python.org/pypi/wfastcgi) (python.org)
+- [WFastCGI bridge between IIS and Python](https://pypi.org/p/wfastcgi) (pypi.org)
 - [Free Python courses on Microsoft Virtual Academy](https://mva.microsoft.com/search/SearchResults.aspx#!q=python)
 - [Top Python Questions at Microsoft Virtual Academy](https://aka.ms/mva-top-python-questions)

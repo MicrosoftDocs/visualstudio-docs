@@ -2,11 +2,7 @@
 title: "Assertion Failed Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
+ms.technology: "vs-ide-debug"
 ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.assertions"
@@ -21,10 +17,9 @@ helpviewer_keywords:
   - "assertions, assertion failures"
   - "Assertion Failed dialog box"
 ms.assetid: 64af5bed-e38b-420f-b9ce-d64f35100aae
-caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

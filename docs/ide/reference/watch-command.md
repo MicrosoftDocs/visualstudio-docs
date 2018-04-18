@@ -2,22 +2,18 @@
 title: "Watch Command | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "debug.watch"
 helpviewer_keywords: 
   - "Watch command"
   - "Debug.Watch command"
 ms.assetid: aa02e647-d9f5-4905-a651-52a8df595795
-caps.latest.revision: 11
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

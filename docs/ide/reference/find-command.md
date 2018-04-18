@@ -2,22 +2,18 @@
 title: "Find Command | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "edit.find"
 helpviewer_keywords: 
   - "Find command"
   - "Edit.Find command"
 ms.assetid: f0c705dc-2b97-423d-abbf-5584d4827208
-caps.latest.revision: 12
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

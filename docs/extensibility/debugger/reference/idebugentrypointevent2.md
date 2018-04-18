@@ -2,21 +2,17 @@
 title: "IDebugEntryPointEvent2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugEntryPointEvent2"
 helpviewer_keywords: 
   - "IDebugEntryPointEvent2 interface"
 ms.assetid: a15d1cc3-97b7-438c-8d24-c23149708f42
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

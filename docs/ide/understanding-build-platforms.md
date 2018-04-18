@@ -2,12 +2,9 @@
 title: "Understanding Build Platforms | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.build.newsolutionplatform"
   - "vs.build.editprojectplatforms"
@@ -17,10 +14,9 @@ f1_keywords:
 helpviewer_keywords: 
   - "build platforms [Visual Studio]"
 ms.assetid: c1e5da1b-cda1-4545-b46c-0440fba27485
-caps.latest.revision: 8
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

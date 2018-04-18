@@ -2,21 +2,17 @@
 title: "IEnumDebugPortSuppliers2::Skip | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IEnumDebugPortSuppliers2::Skip"
 helpviewer_keywords: 
   - "IEnumDebugPortSuppliers2::Skip"
 ms.assetid: bd95d7e9-274f-485d-8bf6-865306ae1b81
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

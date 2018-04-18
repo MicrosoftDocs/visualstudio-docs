@@ -2,12 +2,8 @@
 title: "Debugging DLL projects | Microsoft Docs"
 ms.custom: ""
 ms.date: "05/23/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
   - "VB"
@@ -19,10 +15,9 @@ helpviewer_keywords:
   - "DLLs, debugging"
   - "debugging [Visual Studio], DLLs"
 ms.assetid: 433cab30-d191-460b-96f7-90d2530ca243
-caps.latest.revision: 38
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

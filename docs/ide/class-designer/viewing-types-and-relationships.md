@@ -2,12 +2,9 @@
 title: "Viewing Types and Relationships (Class Designer) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.classdesigner.CannotShowBaseType"
 helpviewer_keywords: 
@@ -18,7 +15,7 @@ helpviewer_keywords:
   - "relationships, visualizing"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

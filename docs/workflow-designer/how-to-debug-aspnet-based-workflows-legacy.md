@@ -10,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 79b21edc-9e7d-410d-af68-09c1598b9c30
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload: 
   - "aspnet"
 ---

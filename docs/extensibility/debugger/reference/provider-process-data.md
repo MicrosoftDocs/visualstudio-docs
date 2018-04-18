@@ -2,21 +2,17 @@
 title: "PROVIDER_PROCESS_DATA | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "PROVIDER_PROCESS_DATA"
 helpviewer_keywords: 
   - "PROVIDER_PROCESS_DATA structure"
 ms.assetid: ec2362ed-4a0c-4a09-9d66-8ff04e4f41ee
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

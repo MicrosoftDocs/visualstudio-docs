@@ -2,11 +2,8 @@
 title: "What's New in Visual Studio 2017 | Microsoft Docs"
 ms.custom: ""
 ms.date: "12/04/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology:
   - "vs-acquisition"
-ms.tgt_pltfrm: ""
 ms.topic: "conceptual"
 f1_keywords:
   - "VS.StartPage.WhatsNew"
@@ -16,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 7307e180-ba28-4774-8a43-cbb980085a71
 author: "TerryGLee"
 ms.author: "tglee"
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ---

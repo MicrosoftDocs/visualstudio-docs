@@ -2,14 +2,11 @@
 title: "Visual Studio code style preferences | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/10/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 f1_keywords: 
   - "VS.ToolsOptionsPages.Text_Editor.CSharp.Code_Style.General"
   - "VS.ToolsOptionsPages.Text_Editor.Basic.Code_Style.General"

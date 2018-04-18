@@ -1,10 +1,7 @@
 ---
-title: "How to Report a Problem with Visual Studio 2017 | Microsoft Docs"
+title: "How to report a problem with Visual Studio 2017 | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/11/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "conceptual"
 ms.assetid: bee01179-cde5-4419-9095-190ee0ba5902
 author: "TerryGLee"
@@ -68,19 +65,19 @@ Trace and heap dump files are useful in helping us diagnose problems. We appreci
 
 ### Report a problem by using the Visual Studio Installer
 
-If you can't complete the Visual Studio installation or you can't access the feedback tool within Visual Studio, you can report a problem by using the Visual Studio Installer. To do so, choose the feedback icon in the upper-right corner of the Visual Studio Installer.
+If you can't complete the Visual Studio installation or you can't access the feedback tool within Visual Studio, you can report a problem by using the **Visual Studio Installer**. To do so, choose the feedback icon in the upper-right corner of the **Visual Studio Installer**.
 
  ![You can tab to the Provide Feedback button in the Visual Studio Installer to open the feedback tool](../install/media/report-a-problem.png)
 
 ### Search for problems and solutions by using the Visual Studio developer community
 
-If you don't want to or can't use Visual Studio to report a problem, there's a chance that the problem has already been reported and a solution posted in the Visual Studio developer community. For more information, see the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/) page.
+If you don't want to or can't use Visual Studio to report a problem, there's a chance that the problem has already been reported and a solution posted in the Visual Studio developer community. For more information, see the [Visual Studio developer community](https://developercommunity.visualstudio.com/) page.
 
 #### Provide product feedback or a suggestion
 
 If you don't have a problem to report but want to provide product feedback or a suggestion, there's a place for that, too. For more information, see the [UserVoice](https://visualstudio.uservoice.com/forums/121579-visual-studio-ide) page.
 
-## See Also
+## See also
 
 * [Talk to us](../ide/talk-to-us.md)
 * [Visual Studio developer community](https://developercommunity.visualstudio.com/)

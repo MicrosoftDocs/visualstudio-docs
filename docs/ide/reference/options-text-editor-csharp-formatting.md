@@ -1,10 +1,8 @@
 ---
 title: "Options, Text Editor, C#, Formatting | Microsoft Docs"
 ms.date: 02/09/2018
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-general
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VS.ToolsOptionsPages.Text_Editor.CSharp.Formatting.Spacing"
   - "VS.ToolsOptionsPages.Text_Editor.CSharp.Formatting.NewLines"
@@ -18,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: 5a7bb668-1d0c-4ffe-9508-24592813162e
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "dotnet"
 ---

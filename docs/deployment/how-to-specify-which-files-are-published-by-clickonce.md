@@ -2,12 +2,8 @@
 title: "How to: Specify Which Files Are Published by ClickOnce | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-deployment
+ms.topic: "conceptual"
 f1_keywords: 
   - "Microsoft.VisualStudio.Publish.BaseProvider.Dialog.File"
 dev_langs: 
@@ -18,10 +14,9 @@ helpviewer_keywords:
   - "ClickOnce deployment, file exclusion"
   - "files, publishing via ClickOnce"
 ms.assetid: 579c134a-d50f-4e0c-8e05-2a4ff654896a
-caps.latest.revision: 16
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

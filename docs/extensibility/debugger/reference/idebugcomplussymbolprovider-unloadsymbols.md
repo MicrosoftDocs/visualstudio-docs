@@ -2,20 +2,16 @@
 title: "IDebugComPlusSymbolProvider::UnloadSymbols | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "UnloadSymbols"
   - "IDebugComPlusSymbolProvider::UnloadSymbols"
 ms.assetid: 53e3ddc1-ab47-4097-8fef-b26e5504b37a
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

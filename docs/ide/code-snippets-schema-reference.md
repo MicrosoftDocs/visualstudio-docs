@@ -2,22 +2,18 @@
 title: "Code snippets schema reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "schema reference [Visual Studio]"
   - "snippets [Visual Studio], schema reference"
   - "code snippets [Visual Studio], schema reference"
   - "IntelliSense Code Snippets, XML Schema"
 ms.assetid: 58a60621-725f-4763-93b7-62ea5424ef88
-caps.latest.revision: 17
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

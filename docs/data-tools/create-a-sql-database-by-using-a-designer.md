@@ -2,19 +2,15 @@
 title: "Create a database file and use table designer in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/03/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "database tables, creating"
   - "database files, creating"
   - "table designer"
 ms.assetid: 99c2b06f-47aa-414e-8057-a3453712fd23
-caps.latest.revision: 49
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.technology: "vs-data-tools"
 ms.workload: 
   - "data-storage"

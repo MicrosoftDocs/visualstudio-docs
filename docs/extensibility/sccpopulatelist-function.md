@@ -2,21 +2,17 @@
 title: "SccPopulateList Function | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "SccPopulateList"
 helpviewer_keywords: 
   - "SccPopulateList function"
 ms.assetid: 7416e781-c571-4a7f-8af3-a089ce8be662
-caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

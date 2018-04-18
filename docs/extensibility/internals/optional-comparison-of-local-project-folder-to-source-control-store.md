@@ -2,20 +2,16 @@
 title: "Compare Project Folder to Source Control Store | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "source control plug-ins, comparing versions"
   - "source control plug-ins, local project folders"
 ms.assetid: 65217e8b-15a6-4446-92b0-4cff1c6220f5
-caps.latest.revision: 14
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

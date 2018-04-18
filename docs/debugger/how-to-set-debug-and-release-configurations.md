@@ -2,12 +2,8 @@
 title: "How to: Set debug and release configurations | Microsoft Docs"
 ms.custom: "H1HackMay2017"
 ms.date: "04/10/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.builds"
 dev_langs: 
@@ -32,10 +28,9 @@ helpviewer_keywords:
   - "release builds, switching to debug build"
   - "Visual Basic projects, debug and release builds"
 ms.assetid: 57b6bbb7-f2af-48f7-8773-127d75034ed2
-caps.latest.revision: 45
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -2,12 +2,9 @@
 title: "Troubleshooting installation issues | Microsoft Docs"
 description: "Sometimes, things can go wrong. If your Visual Studio installation or upgrade fails, this page can help."
 ms.date: "11/21/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology:
   - "vs-acquisition"
-ms.tgt_pltfrm: ""
-ms.topic: "conceptual"
+ms.topic: "troubleshooting"
 helpviewer_keywords:
   - "{{PLACEHOLDER}}"
   - "{{PLACEHOLDER}}"

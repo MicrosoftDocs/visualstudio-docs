@@ -2,22 +2,18 @@
 title: "Resources for Designing Accessible Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "accessibility, Windows applications"
   - "Windows applications, accessibility"
   - "Web applications, accessibility"
   - "accessibility, Web applications"
 ms.assetid: 426bf023-bb34-43c4-9edb-c307191c8170
-caps.latest.revision: 15
 author: "TerryGLee"
 ms.author: "tglee"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

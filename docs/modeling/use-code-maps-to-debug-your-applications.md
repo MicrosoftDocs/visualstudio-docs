@@ -2,8 +2,6 @@
 title: "Use code maps to debug your applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "Visual Studio Ultimate, visualizing code"
@@ -16,7 +14,7 @@ helpviewer_keywords:
   - "mapping relationships in code"
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ms.technology: vs-ide-modeling

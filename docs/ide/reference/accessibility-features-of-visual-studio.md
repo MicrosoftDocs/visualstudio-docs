@@ -2,19 +2,16 @@
 title: "Accessibility Features of Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "08/22/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Visual Studio, accessibility"
   - "accessibility [Visual Studio]"
 ms.assetid: aa1ada29-4d93-4bf0-af8b-03633fcb0fba
 author: "TerryGLee"
 ms.author: "tglee"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -2,12 +2,9 @@
 title: "Combining VBA and Document-Level Customizations | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VST.VBAInterop.InvalidAssemblyVersion"
   - "VST.VBAInterop.ProjectLoadFailure"
@@ -27,7 +24,7 @@ helpviewer_keywords:
   - "document-level customizations [Office development in Visual Studio], Visual Basic for Applications and"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

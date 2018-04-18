@@ -2,20 +2,16 @@
 title: "Brace Matching in a Legacy Language Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "brace matching"
   - "language services [managed package framework], brace matching"
 ms.assetid: 4e3d0a70-f22f-49dd-92d8-edf48ab62b52
-caps.latest.revision: 27
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

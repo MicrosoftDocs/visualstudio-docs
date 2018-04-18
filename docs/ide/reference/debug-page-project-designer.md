@@ -2,22 +2,18 @@
 title: "Debug Page, Project Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vb.ProjectPropertiesDebug"
 helpviewer_keywords: 
   - "Project Designer, Debug page"
   - "Debug page in Project Designer"
 ms.assetid: ef11eae9-df96-4e20-aabd-2678ba317140
-caps.latest.revision: 32
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

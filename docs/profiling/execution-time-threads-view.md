@@ -2,21 +2,16 @@
 title: "Execution Time (Threads View) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.cv.threads.timeline.execution"
 helpviewer_keywords: 
   - "Concurrency Visualizer, Execution Time (Threads View)"
 ms.assetid: 80c100f8-2502-4613-bfef-4f4f2e09cc8d
-caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

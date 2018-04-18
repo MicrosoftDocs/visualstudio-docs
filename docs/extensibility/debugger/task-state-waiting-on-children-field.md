@@ -2,19 +2,15 @@
 title: "TASK_STATE_WAITING_ON_CHILDREN Field | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "TASK_STATE_WAITING_ON_CHILDREN field, Task class [.NET Framework debug engines]"
 ms.assetid: 6f26b098-84ad-4f6e-ba27-6136581ba630
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

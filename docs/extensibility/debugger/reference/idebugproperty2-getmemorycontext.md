@@ -2,21 +2,17 @@
 title: "IDebugProperty2::GetMemoryContext | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProperty2::GetMemoryContext"
 helpviewer_keywords: 
   - "IDebugProperty2::GetMemoryContext"
 ms.assetid: 91793d25-790f-4881-a5c0-d0458e534514
-caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

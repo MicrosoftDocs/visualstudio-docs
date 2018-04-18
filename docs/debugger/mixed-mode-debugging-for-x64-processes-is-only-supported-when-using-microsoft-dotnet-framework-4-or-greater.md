@@ -2,12 +2,8 @@
 title: "Mixed mode debugging for x64 processes is only supported when using Microsoft.NET Framework 4 or greater | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.error.interop_unsupported_x64"
 dev_langs: 
@@ -16,10 +12,9 @@ dev_langs:
   - "FSharp"
   - "C++"
 ms.assetid: b7495655-54c0-4315-8422-43bf63b8c22e
-caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -2,10 +2,7 @@
 title: "Add custom controls to the Data Sources window | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.datasource.howtoaddcustomcontrol"
 helpviewer_keywords: 
@@ -16,10 +13,9 @@ helpviewer_keywords:
   - "ComplexBindingPropertiesAttribute class, using"
   - "Data Sources Window, selecting controls"
 ms.assetid: 8c43e7d2-ba94-4d9b-96de-3aa971955afd
-caps.latest.revision: 42
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.technology: "vs-data-tools"
 ms.workload: 
   - "data-storage"

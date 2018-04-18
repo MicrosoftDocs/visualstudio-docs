@@ -2,11 +2,8 @@
 title: "Customize Project Files Created by VSTU | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-unity-tools
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 60b8cc1d-cacc-404d-b768-77e81bc354f8
 author: "conceptdev"
 ms.author: "crdun"

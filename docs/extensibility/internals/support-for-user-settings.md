@@ -2,21 +2,17 @@
 title: "Support for User Settings | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Custom Settings Points"
   - "user settings [Visual Studio SDK], registering persistence support"
   - "persistence, registering settings"
 ms.assetid: ad9beac3-4f8d-4093-ad0e-6fb00444a709
-caps.latest.revision: 26
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

@@ -2,22 +2,18 @@
 title: "Keyboard and Mouse Shortcuts in the Class Diagram and Class Details Window (Class Designer) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.classdetails.window"
 helpviewer_keywords: 
   - "class diagrams, keyboard shortcuts"
   - "class diagrams, mouse shortcuts"
 ms.assetid: c12d8dac-9902-4fde-b721-2a8116da53b7
-caps.latest.revision: 8
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

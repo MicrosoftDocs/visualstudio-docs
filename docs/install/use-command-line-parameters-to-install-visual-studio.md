@@ -3,10 +3,8 @@ title: "Use command-line parameters to install Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/17/2018"
 ms.reviewer: "tims"
-ms.suite: ""
 ms.technology:
   - "vs-acquisition"
-ms.tgt_pltfrm: ""
 ms.topic: "conceptual"
 f1_keywords:
   - "command-line parameters"

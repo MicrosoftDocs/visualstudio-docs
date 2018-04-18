@@ -2,21 +2,17 @@
 title: "IDebugProperty2::GetMemoryBytes | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProperty2::GetMemoryBytes"
 helpviewer_keywords: 
   - "IDebugProperty2::GetMemoryBytes"
 ms.assetid: b32042ed-7a06-4b4a-99ef-fe03b0aa61cc
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

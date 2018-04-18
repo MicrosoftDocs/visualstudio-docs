@@ -1,22 +1,16 @@
 ---
 title: Managing Python application projects
 description: Explains the purpose of projects in Visual Studio, demonstrates how to create and manage projects for Python code, and outlines the different project templates available for Python.
-ms.custom:
 ms.date: 03/05/2018
-ms.reviewer:
-ms.suite:
-ms.technology: 
-  - "devlang-python"
-dev_langs:
-  - "python"
-ms.tgt_pltfrm:
-ms.topic: "conceptual"
-author: "kraigb"
-ms.author: "kraigb"
+ms.prod: visual-studio-dev15
+ms.technology: vs-python
+ms.topic: conceptual
+author: kraigb
+ms.author: kraigb
 manager: douge
 ms.workload: 
-  - "python"
-  - "data-science"
+  - python
+  - data-science
 ---
 
 # Python projects

@@ -2,12 +2,9 @@
 title: "Visual Basic Defaults, Projects, Options Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VS.ToolsOptionsPages.Projects.VBDefaults"
 helpviewer_keywords: 
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "Option Compare statement, setting in the IDE"
   - "Option Strict statement, setting in the IDE"
 ms.assetid: 2465cd9d-18b6-4c4a-b1ea-86dbab23fc79
-caps.latest.revision: 19
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

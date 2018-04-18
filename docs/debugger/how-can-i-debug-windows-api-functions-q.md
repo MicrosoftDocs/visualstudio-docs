@@ -2,12 +2,8 @@
 title: "How Can I Debug Windows API Functions? | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.api"
 dev_langs: 
@@ -22,10 +18,9 @@ helpviewer_keywords:
   - "Windows API, debugging API functions"
   - "APIs, debugging"
 ms.assetid: 7c126f57-62ab-4d94-9805-632d696ba1f0
-caps.latest.revision: 20
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -2,21 +2,17 @@
 title: "IEnumDebugObjects::Reset | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IEnumDebugObjects::Reset"
 helpviewer_keywords: 
   - "IEnumDebugObjects::Reset method"
 ms.assetid: 4a245e47-cc39-4177-b83d-083ea0e3190f
-caps.latest.revision: 6
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

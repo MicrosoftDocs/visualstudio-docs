@@ -2,16 +2,14 @@
 title: "How to: Set CLR Attributes on an Element | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.dsltools.EditAttributesDialog"
 helpviewer_keywords: 
   - "Domain-Specific Language, custom attrributes"
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ms.technology: vs-ide-modeling

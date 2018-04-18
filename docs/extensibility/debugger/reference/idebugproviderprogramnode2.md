@@ -2,21 +2,17 @@
 title: "IDebugProviderProgramNode2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProviderProgramNode2"
 helpviewer_keywords: 
   - "IDebugProviderProgramNode2"
 ms.assetid: f0bca1cc-afbe-44cf-b5aa-d078aa685d24
-caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

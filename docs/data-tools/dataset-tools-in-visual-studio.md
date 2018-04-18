@@ -2,10 +2,7 @@
 title: "Dataset tools in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.data.DataSet"
 helpviewer_keywords: 
@@ -46,10 +43,9 @@ helpviewer_keywords:
   - "datasets [Visual Basic], namespace"
   - "data adapters, populating datasets"
 ms.assetid: ee57f4f6-9fe1-4e0a-be9a-955c486ff427
-caps.latest.revision: 49
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ms.technology: "vs-data-tools"
 ms.workload: 
   - "data-storage"

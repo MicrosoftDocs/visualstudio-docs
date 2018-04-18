@@ -2,19 +2,16 @@
 title: "Add name parameters to project and item templates in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/02/2018"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "template parameters"
   - "template parameters, substituting"
   - "Visual Studio templates, using parameters"
 author: "gewarren"
 ms.author: "gewarren"
-manager: ghogen
+manager: douge
 ---
 # How to: Substitute parameters in a template
 
@@ -32,7 +29,7 @@ The following section shows you how to modify a template to replace the name of 
     namespace $safeprojectname$
     ```
 
-1. In the .vstemplate file for the template, locate the `ProjectItem` element that includes this file.
+1. In the *.vstemplate* file for the template, locate the `ProjectItem` element that includes this file.
 
 1. Set the `ReplaceParameters` attribute to `true` for the `ProjectItem` element:
 
@@ -42,7 +39,7 @@ The following section shows you how to modify a template to replace the name of 
 
 ## See also
 
-[Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)  
-[Template Parameters](../ide/template-parameters.md)  
-[Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)  
-[ProjectItem Element (Visual Studio Item Templates)](../extensibility/projectitem-element-visual-studio-item-templates.md)
+[Create project and item templates](../ide/creating-project-and-item-templates.md)  
+[Template parameters](../ide/template-parameters.md)  
+[Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)  
+[ProjectItem element (Visual Studio item templates)](../extensibility/projectitem-element-visual-studio-item-templates.md)

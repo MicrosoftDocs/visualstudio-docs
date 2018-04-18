@@ -2,21 +2,17 @@
 title: "IDebugExpressionContext2::GetName | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugExpressionContext2::GetName"
 helpviewer_keywords: 
   - "IDebugExpressionContext2::GetName"
 ms.assetid: c2b70d22-17af-4986-a7e3-930910367216
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

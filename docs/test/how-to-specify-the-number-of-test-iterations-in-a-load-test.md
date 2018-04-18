@@ -1,14 +1,14 @@
 ---
 title: "Specify the Number of Test Iterations in a Load Test Run Setting in Visual Studio | Microsoft Docs"
 ms.date: "10/19/2016"
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "load tests, properties"
   - "load tests, run settings"
 ms.assetid: 45a625db-b3e7-4d64-beda-b9a76248096d
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.technology: vs-ide-test
 ---
 # How to: Specify the Number of Test Iterations in a Load Test Run Setting
