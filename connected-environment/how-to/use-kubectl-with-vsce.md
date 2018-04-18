@@ -4,6 +4,7 @@ author: "ghogen"
 ms.author: "ghogen"
 ms.date: "03/12/2018"
 ms.topic: "conceptual"
+ms.prod: visual-studio-dev15
 ms.technology: "vs-azure"
 description: "Rapid Kubernetes development with containers and microservices on Azure"
 keywords: "Docker, Kubernetes, Azure, AKS, Azure Container Service, containers"

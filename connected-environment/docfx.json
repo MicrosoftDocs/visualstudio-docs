@@ -40,7 +40,6 @@
       "feedback_product_url": "https://aka.ms/vsce-product-survey",
       "breadcrumb_path": "/visualstudio/connected-environment/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "ms.service": "connected-environment",
       "ROBOTS":  "NOINDEX,NOFOLLOW",
       "titleSuffix": "Visual Studio Connected Environment"
     },
