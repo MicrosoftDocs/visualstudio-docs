@@ -1,5 +1,5 @@
 ---
-title: Visual Studio Test Controller 2017 workload and component IDs | Microsoft Docs
+title: Visual Studio Test Controller 2017 workload and component IDs
 description: "Use Visual Studio workload and component IDs to distribute automated tests to multiple machines"
 keywords:
 author: TerryGLee
@@ -12,13 +12,12 @@ helpviewer_keywords:
   - "component ID, Visual Studio"
   - "install Visual Studio, administrator guide"
 ms.service:
-ms.technology:
-  - "vs-acquisition"
+ms.technology: vs-acquisition
+ms-prod: visual-studio-dev15
 ms.assetid: fbbda9c8-d2c6-474d-b52d-a95227d52fe7
 ms.workload:
   - "multiple"
 ---
-
 # Visual Studio Test Controller 2017 component directory
 
 The tables on this page list the IDs that you can use to install Visual Studio by using the command line. Note that we will add additional components as we release updates to Visual Studio.
@@ -55,10 +54,11 @@ n/a | n/a | n/a
 Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://www.visualstudio.com/vs/support/#talktous).
 
 Here are a few more support options:
+
 * You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
 * You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
-* You can track product issues in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/), and ask questions and find answers.
-* You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).  (This option requires a [GitHub](https://github.com/) account.)
+* You can track product issues and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/).
+* You can also engage with us and other Visual Studio developers through the [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio). (This option requires a [GitHub](https://github.com/) account.)
 
 ## See also
 
