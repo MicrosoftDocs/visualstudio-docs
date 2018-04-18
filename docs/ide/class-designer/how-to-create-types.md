@@ -61,7 +61,7 @@ To design new types for C# and Visual Basic projects, create them on a class dia
     |Delegate|Parameters that define the delegate|  
     |Module|Methods, properties, fields, events, constructors (method), and constants that define the module|  
   
-     See [Creating Members](creating-and-configuring-type-members.md#CreateMembers).  
+     See [Creating Members](creating-and-configuring-type-members.md#create-members).  
   
 ##  <a name="CustAttributeType"></a> Apply a custom attribute to a type  
   
