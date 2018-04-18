@@ -22,7 +22,7 @@ manager: douge
 ms.workload: 
   - "cplusplus"
 ---
-# Working with Visual C++ code (Class Designer)
+# Work with Visual C++ code (Class Designer)
 **Class Designer** displays a visual design surface called a *class diagram* that provides a visual representation of the code elements in your project. You can use class diagrams to design and visualize classes and other types in a project.  
 
 **Class Designer** supports the following C++ code elements:  
@@ -78,7 +78,7 @@ The error you are most likely to see for a type resolution issue is **Code could
 ### Troubleshoot other error messages  
 You can find assistance with troubleshooting errors and warnings in the Microsoft Developer Network (MSDN) public forums. See the [Visual Studio Class Designer Forum](http://go.microsoft.com/fwlink/?linkid=160754).  
 
-##  <a name="limitations"></a> Limitations for C++ code elements  
+## Limitations for C++ code elements  
 
 -   When a Visual C++ project is loaded, **Class Designer** functions in a read-only manner. You can change the class diagram, but you cannot save changes from the class diagram back to the source code.  
 

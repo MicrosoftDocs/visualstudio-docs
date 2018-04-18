@@ -19,7 +19,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Working with class diagrams (Class Designer)
+# Work with class diagrams (Class Designer)
 Class diagrams help you understand the class structure of projects others have written (or that you wrote a long time ago). You can use them to customize, share and present project information with others.  
   
 The first step in presenting project information is to create a class diagram that displays what you want to show. For more information, see [Viewing Types and Relationships](viewing-types-and-relationships.md). You can create multiple class diagrams for a project that can be used to display a distinct view of the project, a chosen subset of the project's types, or a chosen subset of the members of types.  

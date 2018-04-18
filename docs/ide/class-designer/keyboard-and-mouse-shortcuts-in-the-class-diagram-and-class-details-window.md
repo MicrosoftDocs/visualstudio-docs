@@ -17,10 +17,10 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Keyboard and mouse shortcuts in the **Class Diagram** and **Class Details** window (Class Designer)
+# Keyboard and mouse shortcuts in the Class Diagram and Class Details window (Class Designer)
 You can use the keyboard in addition to the mouse to perform navigational actions in **Class Designer** and in the **Class Details** window.
 
-## Using the mouse in **Class Designer**  
+## Using the mouse in Class Designer  
 The following mouse actions are supported in class diagrams:  
   
 |Mouse Combination|Context|Description|  
@@ -33,7 +33,7 @@ The following mouse actions are supported in class diagrams:
 |CTRL + Mouse Wheel|Class diagram|Zoom.|  
 |CTRL + Shift + click|Class diagram|Zoom.|  
   
-## Using the Mouse in the Class Details Window  
+## Using the mouse in the Class Details window  
 Using a mouse, you can change the appearance of the **Class Details** window and the data it displays, in the following ways:  
   
 -   Clicking any editable cell lets you edit the contents of that cell. Your changes are reflected in all places that data is stored or displayed, including in the Properties window and in source code.  
@@ -46,7 +46,7 @@ Using a mouse, you can change the appearance of the **Class Details** window and
   
 -   The Class Details Window offers several buttons for creating new members in the current class and for navigating among the members' compartments in the Class Details Window grid. For more information, see Class Details Window Buttons.  
   
-## Using the Keyboard in Class Designer  
+## Using the keyboard in Class Designer  
 The following keyboard actions are supported in class diagrams:  
   
 |Key|Context|Description|  
@@ -73,7 +73,7 @@ The following keyboard actions are supported in class diagrams:
 |SHIFT+TAB|All contexts|Navigates to previous child within the same parent (supports wrapping).|  
 |SPACE|All contexts|Toggles selection on the current element.|  
   
-## Using the Keyboard in the Class Details Window  
+## Using the keyboard in the Class Details window  
   
 > [!NOTE]
 >  The following key bindings were chosen to specifically to mimic the experience of typing code.  

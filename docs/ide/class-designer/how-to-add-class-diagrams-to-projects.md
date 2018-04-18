@@ -15,7 +15,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: add class diagrams to projects (Class Designer)
+# How to: Add class diagrams to projects (Class Designer)
 To design, edit, and refactor classes and other types, add a class diagram to your C#, Visual Basic, or C++ project. To visualize different parts of the code in a project, add multiple class diagrams to the project.  
   
 You can't create class diagrams from projects that share code across multiple apps. To create UML class diagrams, see [Create UML modeling projects and diagrams](../../modeling/create-uml-modeling-projects-and-diagrams.md).  
