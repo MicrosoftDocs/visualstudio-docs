@@ -20,15 +20,15 @@ As is typical for a WPF project, this file contains one parent element, a <xref:
 
 The client area is contained within a <xref:System.Windows.Controls.StackPanel> that is given a light blue background. This panel contains four <xref:System.Windows.Controls.DockPanel> UI sections separated by <xref:System.Windows.Controls.Separator> bars. The purpose of these sections is described in the **Remarks** in the [previous topic](../designers/walkthrough-linqtoxmldatabinding-example.md).
 
-Each section contains a label that identifies it. In the first two sections, this label is rotated 90 degrees through the use of a <xref:System.Windows.FrameworkElement.LayoutTransform%2A>. The remainder of the section contains UI elements appropriate to the purpose of that section: text blocks, text boxes, buttons, and so on. Sometimes a child <xref:System.Windows.Controls.StackPanel> is used to align these child controls.
+Each section contains a label that identifies it. In the first two sections, this label is rotated 90 degrees through the use of a <xref:System.Windows.FrameworkElement.LayoutTransform%2A>. The rest of the section contains UI elements appropriate to the purpose of that section: text blocks, text boxes, buttons, and so on. Sometimes a child <xref:System.Windows.Controls.StackPanel> is used to align these child controls.
 
 ## Window Resource Section
 
 The opening `<Window.Resources>` tag on line 9 indicates the start of the window resource section. It ends with the closing tag on line 35.
 
-The `<ObjectDataProvider>` tag, which spans lines 11 through 25, declares a <xref:System.Windows.Data.ObjectDataProvider>, named `LoadedBooks`, that uses an <xref:System.Xml.Linq.XElement> as the source. This <xref:System.Xml.Linq.XElement> is initialized by parsing an embedded XML document (a `CDATA` element). Notice that white space is preserved when declaring the embedded XML document and also when it is parsed. This was done because the <xref:System.Windows.Controls.TextBlock> control, which is used to display the raw XML, has no special XML formatting capabilities.
+The `<ObjectDataProvider>` tag, which spans lines 11 through 25, declares a <xref:System.Windows.Data.ObjectDataProvider>, named `LoadedBooks`, that uses an <xref:System.Xml.Linq.XElement> as the source. The <xref:System.Xml.Linq.XElement> is initialized by parsing an embedded XML document (a `CDATA` element). Notice that white space is preserved when declaring the embedded XML document, and also when it's parsed. White space is preserved because the <xref:System.Windows.Controls.TextBlock> control, which is used to display the raw XML, has no special XML formatting capabilities.
 
-Lastly, a <xref:System.Windows.DataTemplate> named `BookTemplate` is defined on lines 28 through 34. This template will be used to display the entries in the **Book List** UI section. It uses data binding and LINQ to XML dynamic properties to retrieve the book ID and book name through the following assignments:
+Lastly, a <xref:System.Windows.DataTemplate> named `BookTemplate` is defined on lines 28 through 34. This template is used to display the entries in the **Book List** UI section. It uses data binding and LINQ to XML dynamic properties to retrieve the book ID and book name through the following assignments:
 
 ```
 Text="{Binding Path=Attribute[id].Value}"Text="{Binding Path=Value}"
@@ -44,7 +44,7 @@ In the opening `<StackPanel>` tag on line 38, the <xref:System.Windows.Framework
 DataContext="{Binding Source={StaticResource LoadedBooks}}
 ```
 
-This makes it possible (on line 46) for the <xref:System.Windows.Controls.TextBlock> named `tbRawXml` to display the raw XML by binding to this data provider's `Xml` property:
+Setting the data context makes it possible (on line 46) for the <xref:System.Windows.Controls.TextBlock> named `tbRawXml` to display the raw XML by binding to this data provider's `Xml` property:
 
 ```
 Text="{Binding Path=Xml}"
@@ -70,13 +70,13 @@ The third UI section, **Edit Selected Book**, first binds the <xref:System.Windo
 DataContext="{Binding ElementName=lbBooks, Path=SelectedItem}"
 ```
 
-It then uses two-way data binding, so that the current values of the book elements are displayed to and updated from the two text boxes in this panel. Data binding to dynamic properties is similar to that used in the `BookTemplate` data template:
+It then uses two-way data binding, so that the current values of the book elements are displayed to, and updated from, the two text boxes in this panel. Data binding to dynamic properties is similar to the data binding used in the `BookTemplate` data template:
 
 ```
 Text="{Binding Path=Attribute[id].Value}"...Text="{Binding Path=Value}"
 ```
 
-The last UI section, **Add New Book**, does not use data binding in its XAML code; instead, such code can be found in its event handling code in the file L2DBForm.xaml.cs.
+The last UI section, **Add New Book**, doesn't use data binding in its XAML code. Instead, data binding is in its event handling code in the file *L2DBForm.xaml.cs*.
 
 ## Example
 
