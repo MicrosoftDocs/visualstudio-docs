@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "building multiple projects in parallel"
   - "msbuild, building projects in parallel"
 ms.assetid: c8c9aadc-33ad-4aa1-b07d-b879e9eabda0
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

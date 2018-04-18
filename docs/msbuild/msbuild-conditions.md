@@ -3,7 +3,7 @@ title: "MSBuild Conditions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "MSBuild, conditions"
   - "conditions [MSBuild]"
 ms.assetid: 9d7aa308-b667-48ed-b4c9-a61e49eb0a85
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

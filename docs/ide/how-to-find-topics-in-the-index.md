@@ -1,5 +1,5 @@
 ---
-title: "Use Visual Studio help viewer index | Microsoft Docs"
+title: "Use Visual Studio Help Viewer index | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/02/2017"
 ms.technology: 
@@ -19,7 +19,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Finding topics by using the Help Viewer index
+# Find topics by using the Help Viewer index
 The index contains a list of keywords that are associated with topics in the installed content. Each topic might have more than one keyword associated with it, and each keyword might be associated with more than one topic. Use this index in the same way as you would use an index in a book.  
   
 ## To find a topic by using the index  
@@ -70,6 +70,6 @@ If you do not find an entry for the word or phrase you entered, try the followin
     For example, if you entered the term "building", try "creating" instead. 
   
 ## See also
-[How to: find topics in the TOC](../ide/how-to-find-topics-in-the-table-of-contents.md)  
-[How to: search for topics](../ide/how-to-search-for-topics.md)  
+[How to: Find topics in the TOC](../ide/how-to-find-topics-in-the-table-of-contents.md)  
+[How to: Search for topics](../ide/how-to-search-for-topics.md)  
 [Microsoft Help Viewer](../ide/microsoft-help-viewer.md)

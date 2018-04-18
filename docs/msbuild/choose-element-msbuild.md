@@ -3,7 +3,7 @@ title: "Choose Element (MSBuild) | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/13/2017"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "reference"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#Choose"
 dev_langs: 
@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "<Choose> Element [MSBuild]"
   - "Choose Element [MSBuild]"
 ms.assetid: 7b8b025a-d944-4f5c-9018-c89fc2ef146d
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

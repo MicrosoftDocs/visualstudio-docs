@@ -1,5 +1,5 @@
 ---
-title: "How to Use Surround with Code Snippets | Microsoft Docs"
+title: "How to use surround-with code snippets | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: vs-ide-general
@@ -21,7 +21,7 @@ The following procedures describe how to use surround-with code snippets. Surrou
 
 1. In the Visual Studio IDE, open the file that you intend to edit.
 
-1. In the Code Editor, select text to surround.
+1. In the **Code Editor**, select text to surround.
 
 1. Type **Ctrl**+**K**, **Ctrl**+**S**.
 
@@ -31,7 +31,7 @@ The following procedures describe how to use surround-with code snippets. Surrou
 
 1. In the Visual Studio IDE, open the file that you intend to edit.
 
-1. In the Code Editor, select text to surround.
+1. In the **Code Editor**, select text to surround.
 
 1. From the **Edit** menu, select **IntelliSense** and then select the **Surround With** command.
 
@@ -43,7 +43,7 @@ The following procedures describe how to use surround-with code snippets. Surrou
 
 1. In the Visual Studio IDE, open the file that you intend to edit.
 
-1. In the Code Editor, select text to surround.
+1. In the **Code Editor**, select text to surround.
 
 1. Right-click the selected text and then select the **Surround With** command from the context menu.
 
@@ -53,5 +53,5 @@ The following procedures describe how to use surround-with code snippets. Surrou
 
 ## See also
 
-[C# Code Snippets](../ide/visual-csharp-code-snippets.md)  
-[Code Snippet Picker](../ide/reference/code-snippet-picker.md)
+[C# code snippets](../ide/visual-csharp-code-snippets.md)  
+[Code snippet picker](../ide/reference/code-snippet-picker.md)

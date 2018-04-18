@@ -3,7 +3,7 @@ title: "XmlPeek Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "XmlPeek task [MSBuild]"
   - "MSBuild, XmlPeek task"
 ms.assetid: 19196031-a3bc-41b5-9c4a-f2572630e179
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

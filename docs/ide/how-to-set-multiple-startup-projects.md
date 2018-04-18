@@ -1,5 +1,5 @@
 ---
-title: "How to: Set Multiple Startup Projects | Microsoft Docs"
+title: "How to: Set multiple startup projects | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/21/2017"
 ms.technology: 
@@ -14,12 +14,12 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Set Multiple Startup Projects
+# How to: Set multiple startup projects
 Visual Studio allows you to specify how more than one project is run when you start the debugger.  
 
-### To set multiple startup projects  
+## To set multiple startup projects  
 
-1.  In the **Solution Explorer**, select the solution (the very top node).  
+1.  In the **Solution Explorer**, select the solution (the top node).  
 
 2.  Choose the solution node's context (right-click) menu and then choose **Properties**. The **Solution Property Pages** dialog box appears.  
 
@@ -27,9 +27,8 @@ Visual Studio allows you to specify how more than one project is run when you st
 
 4.  Choose the **Multiple Startup Projects** option and set the appropriate actions.
 
-## See Also  
- [Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)
+## See also
 
- [Creating Solutions and Projects](../ide/creating-solutions-and-projects.md)
-
- [Managing Project and Solution Properties](../ide/managing-project-and-solution-properties.md)
+- [Compile and build](../ide/compiling-and-building-in-visual-studio.md)
+- [Create solutions and projects](../ide/creating-solutions-and-projects.md)
+- [Manage project and solution properties](../ide/managing-project-and-solution-properties.md)

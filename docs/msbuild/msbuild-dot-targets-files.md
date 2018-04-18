@@ -3,7 +3,7 @@ title: "MSBuild .Targets Files | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/24/2017"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -13,7 +13,7 @@ helpviewer_keywords:
   - ".Targets files"
   - "MSBuild, .Targets files"
 ms.assetid: f6d98eb4-d2fa-49b7-8e3c-bae1ca3cf596
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 
