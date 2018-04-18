@@ -1,13 +1,13 @@
 ---
 title: "Create a .NET Core development environment with containers using Kubernetes in the cloud with Visual Studio - Step 1 - Install tools | Microsoft Docs"
-author: "johnsta"
-ms.author: "johnsta"
+author: "ghogen"
+ms.author: "ghogen"
 ms.date: "04/05/2018"
-ms.topic: "get-started-article"
-ms.technology: "vsce-kubernetes"
+ms.topic: "tutorial"
+ms.technology: "vs-azure"
 description: "Rapid Kubernetes development with containers and microservices on Azure"
 keywords: "Docker, Kubernetes, Azure, AKS, Azure Container Service, containers"
-manager: "ghogen"
+manager: "douge"
 ---
 # Get Started on Connected Environment with .NET Core and Visual Studio
 
