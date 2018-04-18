@@ -158,7 +158,7 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    ```
 
    > [!NOTE]
-   > The .NET Framework may not install properly and no install error is indicated. Managed code may not run after the install is complete. Instead, base your image on [microsoft/dotnet-framework:4.7.1](https://hub.docker.com/r/microsoft/dotnet-framework) or newer.
+   > If you base your image directly on microsoft/windowsservercore, the .NET Framework may not install properly and no install error is indicated. Managed code may not run after the install is complete. Instead, base your image on [microsoft/dotnet-framework:4.7.1](https://hub.docker.com/r/microsoft/dotnet-framework) or newer.
 
 4. Run the following command within that directory.
 
