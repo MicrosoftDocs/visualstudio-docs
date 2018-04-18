@@ -1,19 +1,16 @@
 ---
 title: Working with Python, step 3, the interactive REPL window
 description: Step 3 of a core tutorial for working with Python within Visual Studio, covering the Python Interactive REPL window.
-ms.custom: "mvc"
 ms.date: 01/16/2018
-ms.technology: 
-  - "devlang-python"
-dev_langs:
-  - "python"
-ms.topic: "tutorial"
-author: "kraigb"
-ms.author: "kraigb"
+ms.prod: visual-studio-dev15
+ms.technology: vs-python
+ms.topic: tutorial
+author: kraigb
+ms.author: kraigb
 manager: douge
 ms.workload: 
-  - "python"
-  - "data-science"
+  - python
+  - data-science
 ---
 
 # Step 3: Using the interactive REPL window

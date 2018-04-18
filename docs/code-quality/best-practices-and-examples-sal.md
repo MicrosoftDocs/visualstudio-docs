@@ -1,13 +1,11 @@
 ---
-title: "Best Practices and Examples (SAL) | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology:
-  - "vs-ide-code-analysis"
+title: Best Practices and Examples (SAL)
+ms.date: 11/04/2016
+ms.technology: vs-ide-code-analysis
 ms.topic: "conceptual"
 author: mikeblome
 ms.author: mblome
-manager: douge
+manager: wpickett
 ms.workload:
   - "multiple"
 ---

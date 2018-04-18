@@ -3,14 +3,14 @@ title: "Task Base Class | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs: 
   - "VB"
   - "CSharp"
   - "C++"
   - "jsharp"
 ms.assetid: 6c3f6238-b9f0-4325-b8b0-de61090bd0a2
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

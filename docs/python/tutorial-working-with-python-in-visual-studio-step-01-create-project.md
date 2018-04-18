@@ -1,19 +1,16 @@
 ---
 title: Working with Python, step 1, creating a project
 description: Step 1 of a core tutorial for working with Python within Visual Studio, outlining the whole tutorial, describing prerequisites, and walking through the process of creating a new Python project.
-ms.custom: "mvc"
 ms.date: 01/16/2018
-ms.technology: 
-  - "devlang-python"
-dev_langs:
-  - "python"
-ms.topic: "tutorial"
-author: "kraigb"
-ms.author: "kraigb"
+ms.prod: visual-studio-dev15
+ms.technology: vs-python
+ms.topic: tutorial
+author: kraigb
+ms.author: kraigb
 manager: douge
 ms.workload: 
-  - "python"
-  - "data-science"
+  - python
+  - data-science
 ---
 
 # Working with Python in Visual Studio

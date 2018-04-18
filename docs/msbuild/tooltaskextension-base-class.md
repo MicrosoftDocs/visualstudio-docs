@@ -3,7 +3,7 @@ title: "ToolTaskExtension Base Class | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "reference"
 f1_keywords: 
   - "MSBuild.ToolTask.ToolCommandFailed"
 dev_langs: 
@@ -12,7 +12,7 @@ dev_langs:
   - "C++"
   - "jsharp"
 ms.assetid: 258ae433-f68a-49f1-b276-da20e3472e68
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

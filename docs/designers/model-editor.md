@@ -7,17 +7,17 @@ f1_keywords:
   - "vs.graphics.designer.3dscene"
   - "vs.graphics.modelviewer"
 ms.assetid: 5edf1a30-9307-43c3-9b8b-831217be0104
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
 ---
 # Model editor
 
-This document describes how to work with the Visual Studio Model editor to view, create, and modify 3-D models.
+This document describes how to work with the Visual Studio Model editor to view, create, and modify 3D models.
 
-You can use the Model Editor to create basic 3-D models from scratch, or to view and modify more-complex 3-D models that were created by using full-featured 3-D modeling tools. The Model Editor supports several 3-D model formats that are used in DirectX app development.
+You can use the Model Editor to create basic 3D models from scratch, or to view and modify more-complex 3D models that were created by using full-featured 3D modeling tools. The Model Editor supports several 3D model formats that are used in DirectX app development.
 
 ## Supported formats
 
@@ -31,9 +31,9 @@ The Model editor supports these model formats:
 
 ## Get started
 
-This section describes how to add a 3-D model to your Visual Studio project and provides the basic information you need to get started.
+This section describes how to add a 3D model to your Visual Studio project and provides the basic information you need to get started.
 
-### To add a 3-D model to your project
+### To add a 3D model to your project
 
 1. In **Solution Explorer**, open the shortcut menu for the project that you want to add the image to, and then choose **Add** > **New Item**.
 
@@ -52,19 +52,19 @@ This section describes how to add a 3-D model to your Visual Studio project and 
 
 ### Axis orientation
 
-Visual Studio supports every orientation of the 3-D axis, and loads axis orientation information from model file formats that support it. If no axis orientation is specified, Visual Studio uses the right-handed coordinate system by default. The **axis indicator** shows the current axis orientation in the lower-right corner of the design surface. On the **axis indicator**, red represents the x-axis, green represents the y-axis, and blue represents the z-axis.
+Visual Studio supports every orientation of the 3D axis, and loads axis orientation information from model file formats that support it. If no axis orientation is specified, Visual Studio uses the right-handed coordinate system by default. The **axis indicator** shows the current axis orientation in the lower-right corner of the design surface. On the **axis indicator**, red represents the x-axis, green represents the y-axis, and blue represents the z-axis.
 
-### Begin your 3-D model
+### Begin your 3D model
 
-In the Model Editor, each new object always begins as one of the basic 3-D shapes—or *primitives*—that are built into the Model Editor. To create new and unique objects you add a primitive to the scene and then change its shape by modifying its vertices. For complex shapes, you add additional vertices by using extrusion or subdivision and then modify them. For information about how to add a primitive object to your scene, see [Creating and importing 3-D objects](#Adding3DObjects). For information about how to add more vertices to an object, see [Modifying objects](#ModifyingObjects).
+In the Model Editor, each new object always begins as one of the basic 3D shapes—or *primitives*—that are built into the Model Editor. To create new and unique objects you add a primitive to the scene and then change its shape by modifying its vertices. For complex shapes, you add additional vertices by using extrusion or subdivision and then modify them. For information about how to add a primitive object to your scene, see [Creating and importing 3D objects](#Adding3DObjects). For information about how to add more vertices to an object, see [Modifying objects](#ModifyingObjects).
 
 ## Work with the Model Editor
 
-The following sections describe how to use the Model Editor to work with 3-D models.
+The following sections describe how to use the Model Editor to work with 3D models.
 
 ### Model Editor toolbars
 
-The Model Editor toolbars contain commands that help you work with 3-D models.
+The Model Editor toolbars contain commands that help you work with 3D models.
 
 Commands that affect the state of the Model Editor are located on the **Model Editor Mode** toolbar in the main Visual Studio window. Modeling tools and scripted commands are located on the **Model Editor** toolbar on the Model Editor design surface.
 
@@ -77,7 +77,7 @@ This table describes the items on the **Model Editor Mode** toolbar, which are l
 |Toolbar Item|Description|
 |------------------|-----------------|
 |**Select**|Enables selection of points, edges, faces, or objects in the scene, depending on the active selection mode.|
-|**Pan**|Enables movement of a 3-D scene relative to the window frame. To pan, select a point in the scene and move it around.<br /><br /> In **Select** mode, you can press and hold Ctrl to activate **Pan** mode temporarily.|
+|**Pan**|Enables movement of a 3D scene relative to the window frame. To pan, select a point in the scene and move it around.<br /><br /> In **Select** mode, you can press and hold Ctrl to activate **Pan** mode temporarily.|
 |**Zoom**|Enables the display of more or less scene detail relative to the window frame. In **Zoom** mode, select a point in the scene and then move it right or down to zoom in, or left or up to zoom out.<br /><br /> In **Select** mode, you can zoom in or out by using the mouse wheel while you press and hold Ctrl.|
 |**Orbit**|Positions the view on a circular path around the selected object. If no object is selected, the path is centered on the scene origin. **Note:**  This mode has no effect when **Orthographic** projection is enabled.|
 |**World Local**|When this item is enabled, transformations on the selected object occur in world-space. Otherwise, transformations on the selected object occur in local-space.|
@@ -94,7 +94,7 @@ This table describes the items on the **Model Editor Mode** toolbar, which are l
 |**Toolbox**|Alternately shows or hides the **Toolbox**.|
 |**Document Outline**|Alternately shows or hides the **Document Outline** window.|
 |**Properties**|Alternately shows or hides the **Properties** window.|
-|**Advanced**|Contains advanced commands and options.<br /><br /> **Graphics Engines**<br /><br /> **Render with D3D11**<br /> Uses Direct3D 11 to render the Model Editor design surface.<br /><br /> **Render with D3D11WARP**<br /> Uses Direct3D 11 Windows Advanced Rasterization Platform (WARP) to render the Model Editor design surface.<br /><br /> **Scene Management**<br /><br /> **Import**<br /> Imports objects from another 3-D model file to the current scene.<br /><br /> **Attach to Parent**<br /> Establishes the first of multiple selected objects as the parent of the remaining selected objects.<br /><br /> **Detach from Parent**<br /> Detaches the selected object from its parent. The selected object becomes a *root object* in the scene. A root object doesn't have a parent object.<br /><br /> **Create Group**<br /> Groups the selected objects as sibling objects.<br /><br /> **Merge Objects**<br /> Combines the selected objects into one object.<br /><br /> **Create New Object From Polygon Selection**<br /> Removes the selected faces from the current object and adds to the scene a new object that contains those faces.<br /><br /> **Tools**<br /><br /> **Flip Polygon Winding**<br /> Flips the selected polygons so that its winding order and surface normal are inverted.<br /><br /> **Remove All Animation**<br /> Removes animation data from the objects.<br /><br /> **Triangulate**<br /> Converts the selected object to triangles.<br /><br /> **View**<br /><br /> Backface Culling<br /> Enables or disables backface culling.<br /><br /> **Frame Rate**<br /> Displays the frame rate in the upper-right corner of the design surface. The frame rate is the number of frames that are drawn per second.<br /><br /> This option is useful when you enable the **Real-Time Rendering Mode** option.<br /><br /> **Show All**<br /> Shows all objects in the scene. This resets the **Hidden** property of each object to **False**.<br /><br /> **Show Face Normals**<br /> Shows the normal of each face.<br /><br /> **Show Missing Materials**<br /> Displays a special texture on objects that don't have a material assigned to them.<br /><br /> **Show Pivot**<br /> Enables or disables the display of a 3-D axis marker at the pivot point of the active selection.<br /><br /> **Show Placeholder Nodes**<br /> Shows placeholder nodes. A placeholder node is created when you group objects.<br /><br /> **Show Vertex Normals**<br /> Shows the normal of each vertex. **Tip:**  You can choose the **Scripts** button to run the last script again.|
+|**Advanced**|Contains advanced commands and options.<br /><br /> **Graphics Engines**<br /><br /> **Render with D3D11**<br /> Uses Direct3D 11 to render the Model Editor design surface.<br /><br /> **Render with D3D11WARP**<br /> Uses Direct3D 11 Windows Advanced Rasterization Platform (WARP) to render the Model Editor design surface.<br /><br /> **Scene Management**<br /><br /> **Import**<br /> Imports objects from another 3D model file to the current scene.<br /><br /> **Attach to Parent**<br /> Establishes the first of multiple selected objects as the parent of the remaining selected objects.<br /><br /> **Detach from Parent**<br /> Detaches the selected object from its parent. The selected object becomes a *root object* in the scene. A root object doesn't have a parent object.<br /><br /> **Create Group**<br /> Groups the selected objects as sibling objects.<br /><br /> **Merge Objects**<br /> Combines the selected objects into one object.<br /><br /> **Create New Object From Polygon Selection**<br /> Removes the selected faces from the current object and adds to the scene a new object that contains those faces.<br /><br /> **Tools**<br /><br /> **Flip Polygon Winding**<br /> Flips the selected polygons so that its winding order and surface normal are inverted.<br /><br /> **Remove All Animation**<br /> Removes animation data from the objects.<br /><br /> **Triangulate**<br /> Converts the selected object to triangles.<br /><br /> **View**<br /><br /> Backface Culling<br /> Enables or disables backface culling.<br /><br /> **Frame Rate**<br /> Displays the frame rate in the upper-right corner of the design surface. The frame rate is the number of frames that are drawn per second.<br /><br /> This option is useful when you enable the **Real-Time Rendering Mode** option.<br /><br /> **Show All**<br /> Shows all objects in the scene. This resets the **Hidden** property of each object to **False**.<br /><br /> **Show Face Normals**<br /> Shows the normal of each face.<br /><br /> **Show Missing Materials**<br /> Displays a special texture on objects that don't have a material assigned to them.<br /><br /> **Show Pivot**<br /> Enables or disables the display of a 3D axis marker at the pivot point of the active selection.<br /><br /> **Show Placeholder Nodes**<br /> Shows placeholder nodes. A placeholder node is created when you group objects.<br /><br /> **Show Vertex Normals**<br /> Shows the normal of each vertex. **Tip:**  You can choose the **Scripts** button to run the last script again.|
 
 Here's the **Model Editor** toolbar:
 
@@ -116,13 +116,13 @@ The next table describes the items on the **Model Editor** toolbar, which are li
 
 ### Control the view
 
-The 3-D scene is rendered according to the view, which can be thought of as a virtual camera that has a position and an orientation. To change the position and orientation, use the view controls on the **Model Editor Mode** toolbar.
+The 3D scene is rendered according to the view, which can be thought of as a virtual camera that has a position and an orientation. To change the position and orientation, use the view controls on the **Model Editor Mode** toolbar.
 
 The following table describes the primary view controls.
 
 |View Control|Description|
 |------------------|-----------------|
-|**Pan**|Enables movement of a 3-D scene relative to the window frame. To pan, select a point in the scene and move it around.<br /><br /> In **Select** mode, you can press and hold Ctrl to activate **Pan** mode temporarily.|
+|**Pan**|Enables movement of a 3D scene relative to the window frame. To pan, select a point in the scene and move it around.<br /><br /> In **Select** mode, you can press and hold Ctrl to activate **Pan** mode temporarily.|
 |**Zoom**|Enables the display of more or less scene detail relative to the window frame. In **Zoom** mode, select a point in the scene and then move it right or down to zoom in, or left or up to zoom out.<br /><br /> In **Select** mode, you can zoom in or out by using the mouse wheel while you press and hold Ctrl.|
 |**Orbit**|Positions the view on a circular path around the selected object. If no object is selected, the path is centered on the scene origin. **Note:**  This mode has no effect when **Orthographic** projection is enabled.|
 |**Frame Object**|Frames the selected object so that it's located in the center of the view.|
@@ -134,17 +134,17 @@ The view is established by the virtual camera, but it's also defined by a projec
 |**Perspective**|In perspective projection, objects that are farther away from the viewpoint appear smaller in size and ultimately converge to a point in the distance.|
 |**Orthographic**|In Orthographic projection, objects appear to be the same size, regardless of their distance from the viewpoint. No convergence is displayed. When **Orthographic** projection enabled, you can't use **Orbit** mode to position the view arbitrarily.|
 
-You might find it useful to view a 3-D scene from a known position and angle, for example, when you want to compare two similar scenes. For this scenario, the Model Editor provides several predefined views. To use a predefined view, on the **Model Editor Mode** toolbar, choose **View**, and then choose the predefined view you want—front, back, left, right, top, or bottom. In these views, the virtual camera looks directly at the origin of the scene. For example, if you choose **View Top**, the virtual camera looks at the origin of the scene from directly above it.
+You might find it useful to view a 3D scene from a known position and angle, for example, when you want to compare two similar scenes. For this scenario, the Model Editor provides several predefined views. To use a predefined view, on the **Model Editor Mode** toolbar, choose **View**, and then choose the predefined view you want—front, back, left, right, top, or bottom. In these views, the virtual camera looks directly at the origin of the scene. For example, if you choose **View Top**, the virtual camera looks at the origin of the scene from directly above it.
 
 ### View additional geometry details
 
-To better understand a 3-D object or scene, you can view additional geometry details such as per-vertex normals, per-face normals, the pivot points of the active selection, and other details. To enable or disable them, on the **Model Editor** toolbar, choose **Scripts**, **View**, and then choose the one you want.
+To better understand a 3D object or scene, you can view additional geometry details such as per-vertex normals, per-face normals, the pivot points of the active selection, and other details. To enable or disable them, on the **Model Editor** toolbar, choose **Scripts**, **View**, and then choose the one you want.
 
-### Create and import 3-D objects
+### Create and import 3D objects
 
-To add a predefined 3-D shape to the scene, in the **Toolbox**, select the one you want and then move it to the design surface. New shapes are positioned at the origin of the scene. The Model Editor provides seven shapes: **Cone**, **Cube**, **Cylinder**, **Disc**, **Plane**, **Sphere**, and **Teapot**.
+To add a predefined 3D shape to the scene, in the **Toolbox**, select the one you want and then move it to the design surface. New shapes are positioned at the origin of the scene. The Model Editor provides seven shapes: **Cone**, **Cube**, **Cylinder**, **Disc**, **Plane**, **Sphere**, and **Teapot**.
 
-To import a 3-D object from a file, on the **Model Editor** toolbar, choose **Advanced**, **Scene Management**, **Import**, and then specify the file that you want to import.
+To import a 3D object from a file, on the **Model Editor** toolbar, choose **Advanced**, **Scene Management**, **Import**, and then specify the file that you want to import.
 
 ### Transform objects
 
@@ -179,7 +179,7 @@ You might find it useful to work with objects by using snap-to-grid. On the **Mo
 
 The pivot point of an object defines its center of rotation and scaling. You can change the pivot point of an object to change how it's affected by rotation and scaling transformations. On the **Model Editor Mode** toolbar, choose **Pivot Mode** to enable (or disabled) pivot mode. When pivot mode is enabled, a small axis indicator appears at the pivot point of the selected object. You can then use the **Translation** and **Rotation** tools to manipulate the pivot point.
 
-For a demonstration that shows how to use the pivot point, see [How to: Modify the Pivot Point of a 3-D Model](../designers/how-to-modify-the-pivot-point-of-a-3-d-model.md).
+For a demonstration that shows how to use the pivot point, see [How to: Modify the Pivot Point of a 3D Model](../designers/how-to-modify-the-pivot-point-of-a-3-d-model.md).
 
 ### World and local modes
 
@@ -187,7 +187,7 @@ Translation and rotation can occur in either the local coordinate system (or *lo
 
 ### Modify objects
 
-You can change the shape of a 3-D object by moving or deleting its vertices, edges, and faces. By default, the Model Editor is in *object mode*, so that you can select and transform entire objects. To select points, edges, or faces, choose the appropriate selection mode. On the **Model Editor Mode** toolbar, choose **Selection modes**, and then choose the mode that you want.
+You can change the shape of a 3D object by moving or deleting its vertices, edges, and faces. By default, the Model Editor is in *object mode*, so that you can select and transform entire objects. To select points, edges, or faces, choose the appropriate selection mode. On the **Model Editor Mode** toolbar, choose **Selection modes**, and then choose the mode that you want.
 
  You can create additional vertices by extrusion or by subdivision. Extrusion duplicates the vertices of a face (a co-planar set of vertices), which remain connected by the duplicated vertices. Subdivision adds vertices to create several faces where there was previously one. To create the new faces, new vertices are added—one in the center of the original face, and one in the middle of each edge—and then joined together with the original vertices. The number of added faces is equal to the number of edges in the original face. In both cases, you can translate, rotate, and scale the new vertices to change the geometry of the object.
 
@@ -251,7 +251,7 @@ Depending on what a material supports, you can change its lighting properties, t
 
 To remove all materials from an object, on the **Model Editor** toolbar, choose **Scripts**, **Materials**, **Remove Materials**.
 
-You can use the **Shader Designer** to create custom shader materials that you can apply to objects in your 3-D scene. For information about how to create custom shader materials, see [Shader Designer](../designers/shader-designer.md). For information about how to apply a custom shader material to an object, see [How to: Apply a Shader to a 3-D Model](../designers/how-to-apply-a-shader-to-a-3-d-model.md).
+You can use the **Shader Designer** to create custom shader materials that you can apply to objects in your 3D scene. For information about how to create custom shader materials, see [Shader Designer](../designers/shader-designer.md). For information about how to apply a custom shader material to an object, see [How to: Apply a Shader to a 3D Model](../designers/how-to-apply-a-shader-to-a-3-d-model.md).
 
 ### Scene management
 
@@ -324,6 +324,6 @@ To remove the parent-child association between two objects, select the child obj
 
 |Title|Description|
 |-----------|-----------------|
-|[Working with 3-D Assets for Games and Apps](../designers/working-with-3-d-assets-for-games-and-apps.md)|Provides an overview of the Visual Studio tools that you can use to work with graphics assets such as textures and images, 3-D models, and shader effects.|
+|[Working with 3D Assets for Games and Apps](../designers/working-with-3-d-assets-for-games-and-apps.md)|Provides an overview of the Visual Studio tools that you can use to work with graphics assets such as textures and images, 3D models, and shader effects.|
 |[Image Editor](../designers/image-editor.md)|Describes how to use the Visual Studio Image Editor to work with textures and images.|
 |[Shader Designer](../designers/shader-designer.md)|Describes how to use the Visual Studio Shader Designer to work with shaders.|

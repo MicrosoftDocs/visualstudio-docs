@@ -12,7 +12,7 @@ apitype: "COM"
 helpviewer_keywords: 
   - "StartTrackingContext"
 ms.assetid: 720cd295-38e7-4974-86db-b8106b1207ba
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

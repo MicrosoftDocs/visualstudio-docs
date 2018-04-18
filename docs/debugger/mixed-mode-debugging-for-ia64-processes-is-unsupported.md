@@ -2,8 +2,7 @@
 title: "Mixed mode debugging for IA64 processes is unsupported. | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.error.interop_unsupported_ia64"

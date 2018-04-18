@@ -3,7 +3,7 @@ title: "GetAssemblyIdentity Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "reference"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#GetAssemblyIdentity"
 dev_langs: 
@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "MSBuild, GetAssemblyIdentity task"
   - "GetAssemblyIdentity task [MSBuild]"
 ms.assetid: a977e072-37ad-4941-84a6-32a4483be55d
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 
@@ -40,21 +40,19 @@ Retrieves the assembly identities from the specified files and outputs the ident
 ## Example  
  The following example retrieves the identity of the files specified in the `MyAssemblies` item, and outputs them into the `MyAssemblyIdentities` item.  
   
-```xml  
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
-    <ItemGroup>  
-        <MyAssemblies Include="File1.dll;File2.dll" />  
-    </ItemGroup>  
-    <Target Name="RetrieveIdentities">  
-        <GetAssemblyIdentity  
-            AssemblyFiles="@(MyAssemblies)"  
-            <Output  
-                TaskParameter="Assemblies"  
-                ItemName="MyAssemblyIdentities"  
+```xml
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <ItemGroup>
+        <MyAssemblies Include="File1.dll;File2.dll" />
+    </ItemGroup>
+    <Target Name="RetrieveIdentities">
+        <GetAssemblyIdentity AssemblyFiles="@(MyAssemblies)">
+            <Output TaskParameter="Assemblies" ItemName="MyAssemblyIdentities" />
+        </GetAssemblyIdentity>
     </Target>  
 </Project>  
-```  
-  
+```
+
 ## See Also  
  [Tasks](../msbuild/msbuild-tasks.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)

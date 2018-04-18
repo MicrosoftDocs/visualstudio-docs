@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "escape"
   - "MSBuild Escape Characters"
 ms.assetid: 545e6a59-1093-4514-935e-78679a46fb3c
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

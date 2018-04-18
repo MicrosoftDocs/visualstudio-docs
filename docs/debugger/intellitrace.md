@@ -2,8 +2,7 @@
 title: "IntelliTrace | Microsoft Docs"
 ms.custom: ""
 ms.date: "07/18/2017"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.historicaldebug.overview"
