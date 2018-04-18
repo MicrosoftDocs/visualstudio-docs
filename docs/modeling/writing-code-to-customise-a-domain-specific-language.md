@@ -1,5 +1,5 @@
 ---
-title: Writing Code to Customise a Domain-Specific Language
+title: Customize a Domain-Specific Language
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -11,10 +11,11 @@ ms.workload:
   - "multiple"
 ms.technology: vs-ide-modeling
 ---
-# Writing Code to Customise a Domain-Specific Language
+# Write Code to Customize a Domain-Specific Language
+
 This section shows you how to use custom code to access, modify, or create a model in a domain-specific language.
 
- There are several contexts in which you can write code that works with a DSL:
+There are several contexts in which you can write code that works with a DSL:
 
 -   **Custom commands.** You can create a command that users can invoke by right-clicking on the diagram, and which can modify the model. For more information, see [How to: Add a Command to the Shortcut Menu](../modeling/how-to-add-a-command-to-the-shortcut-menu.md).
 
@@ -26,11 +27,11 @@ This section shows you how to use custom code to access, modify, or create a mod
 
 -   **Other Visual Studio extensions.** You can write separate VSIX extensions that read and modify models. For more information, see [How to: Open a Model from File in Program Code](../modeling/how-to-open-a-model-from-file-in-program-code.md)
 
- Instances of the classes that you define in DslDefinition.dsl are kept in a data structure called the *In-Memory Store* (IMS) or *Store*. The classes you define in a DSL always take a Store as an argument to the constructor. For example, if your DSL defines a class called Example:
+Instances of the classes that you define in DslDefinition.dsl are kept in a data structure called the *In-Memory Store* (IMS) or *Store*. The classes you define in a DSL always take a Store as an argument to the constructor. For example, if your DSL defines a class called Example:
 
- `Example element = new Example (theStore);`
+`Example element = new Example (theStore);`
 
- keeping objects in the Store (instead of just as ordinary objects) provides several benefits.
+keeping objects in the Store (instead of just as ordinary objects) provides several benefits.
 
 -   **Transactions**. You can group a series of related changes into a transaction:
 

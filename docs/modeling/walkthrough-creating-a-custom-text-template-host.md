@@ -11,32 +11,36 @@ manager: douge
 ms.workload:
   - "multiple"
 ms.technology: vs-ide-modeling
+dev_langs:
+ - CSharp
+ - VB
 ---
-# Walkthrough: Creating a Custom Text Template Host
+# Walkthrough: Create a Custom Text Template Host
+
 A *text template**host* provides an environment that enables the *text template transformation engine* to run. The host is responsible for managing the engine's interaction with the file system. The engine or *directive processor* that needs a file or an assembly can request a resource from the host. The host can then search directories and the global assembly cache to locate the requested resource. For more information, see [The Text Template Transformation Process](../modeling/the-text-template-transformation-process.md).
 
- You can write a custom host if you want to use the *text template transformation* functionality from outside [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] or if you want to integrate that functionality into custom tools. To create a custom host, you must create a class that inherits from <xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost>. For the documentation of the individual methods, see <xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost>.
+You can write a custom host if you want to use the *text template transformation* functionality from outside [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] or if you want to integrate that functionality into custom tools. To create a custom host, you must create a class that inherits from <xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost>. For the documentation of the individual methods, see <xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost>.
 
 > [!WARNING]
->  If you are writing a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] extension or package, consider using the text templating service instead of creating your own host. For more information, see [Invoking Text Transformation in a VS Extension](../modeling/invoking-text-transformation-in-a-vs-extension.md).
+> If you are writing a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] extension or package, consider using the text templating service instead of creating your own host. For more information, see [Invoking Text Transformation in a VS Extension](../modeling/invoking-text-transformation-in-a-vs-extension.md).
 
- Tasks illustrated in this walkthrough include the following:
+This walkthrough illustrates the following tasks:
 
 -   Creating a custom text template host.
 
 -   Testing the custom host.
 
 ## Prerequisites
- To complete this walkthrough, you must have the following:
+
+To complete this walkthrough, you must have the following:
 
 -   Visual Studio 2010 or later
 
 -   Visual Studio SDK
 
-## Creating a Custom Text Template Host
- In this walkthrough, you create a custom host in an executable application that can be called from the command line. The application accepts a text template file as an argument, reads the template, calls the engine to transform the template, and displays any errors that occur in the command prompt window.
+## Create a Custom Text Template Host
 
-#### To create a custom host
+In this walkthrough, you create a custom host in an executable application that can be called from the command line. The application accepts a text template file as an argument, reads the template, calls the engine to transform the template, and displays any errors that occur in the command prompt window.
 
 1.  In Visual Studio, create a new Visual Basic or a C# console application named CustomHost.
 
@@ -711,10 +715,11 @@ A *text template**host* provides an environment that enables the *text template 
 
 6.  On the **Build** menu, click **Build Solution**.
 
-## Testing the Custom Host
- To test the custom host, you write a text template, then you run the custom host, pass it the name of the text template, and verify that the template is transformed.
+## Test the Custom Host
 
-#### To create a text template to test the custom host
+To test the custom host, you write a text template, then you run the custom host, pass it the name of the text template, and verify that the template is transformed.
+
+### To create a text template to test the custom host
 
 1.  Create a text file, and name it `TestTemplate.tt`.
 
@@ -723,7 +728,7 @@ A *text template**host* provides an environment that enables the *text template 
 2.  Add the following to the file:
 
     > [!NOTE]
-    >  The programming language of the text template does not have to match that of the custom host.
+    > The programming language of the text template does not have to match that of the custom host.
 
     ```csharp
     Text Template Host Test
@@ -765,7 +770,7 @@ A *text template**host* provides an environment that enables the *text template 
 
 3.  Save and close the file.
 
-#### To test the custom host
+### To test the custom host
 
 1.  Open the Command Prompt window.
 
@@ -776,7 +781,7 @@ A *text template**host* provides an environment that enables the *text template 
      `<YOUR PATH>CustomHost\bin\Debug\CustomHost.exe`
 
     > [!NOTE]
-    >  Instead of typing the address, you can browse to the file CustomHost.exe in **Windows Explorer** and then drag the file into the Command Prompt window.
+    > Instead of typing the address, you can browse to the file CustomHost.exe in **Windows Explorer** and then drag the file into the Command Prompt window.
 
 3.  Type a space.
 
@@ -787,7 +792,7 @@ A *text template**host* provides an environment that enables the *text template 
      `C:\<YOUR PATH>TestTemplate.tt`
 
     > [!NOTE]
-    >  Instead of typing the address, you can browse to the file TestTemplate.tt in **Windows Explorer** and then drag the file into the Command Prompt window.
+    > Instead of typing the address, you can browse to the file TestTemplate.tt in **Windows Explorer** and then drag the file into the Command Prompt window.
 
      The custom host application runs and completes the text template transformation process.
 
@@ -807,8 +812,10 @@ A *text template**host* provides an environment that enables the *text template 
     This is a test
     ```
 
-## Next Steps
- In this walkthrough, you created a text template transformation host that supports the basic transformation functionality. You can expand your host to support text templates that call custom or generated directive processors. For more information, see [Walkthrough: Connecting a Host to a Generated Directive Processor](../modeling/walkthrough-connecting-a-host-to-a-generated-directive-processor.md).
+## Next steps
 
-## See Also
- <xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost>
+In this walkthrough, you created a text template transformation host that supports the basic transformation functionality. You can expand your host to support text templates that call custom or generated directive processors. For more information, see [Walkthrough: Connecting a Host to a Generated Directive Processor](../modeling/walkthrough-connecting-a-host-to-a-generated-directive-processor.md).
+
+## See also
+
+- <xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost>
