@@ -2,8 +2,7 @@
 title: "ClickOnce Deployment on Windows Vista | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-deployment"
+ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -15,9 +14,9 @@ helpviewer_keywords:
   - "manifest generation"
   - "Windows, ClickOnce deployment"
 ms.assetid: b21a0ebc-0ff6-4f49-8993-7d1ad3f8cac2
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

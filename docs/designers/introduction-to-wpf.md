@@ -1,11 +1,11 @@
 ---
-title: "Introduction to WPF"
-ms.date: "11/04/2016"
+title: Introduction to WPF
+ms.date: 11/04/2016
 ms.technology: vs-ide-designers
-ms.topic: "conceptual"
+ms.topic: conceptual
 ms.assetid: b8d7cf43-d1f2-4f3d-adb0-4f3a6428edc0
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 dev_langs:
   - csharp
@@ -134,11 +134,11 @@ Namespace SDKSample
 End Namespace
 ```
 
- In this example, the code-behind implements a class that derives from the <xref:System.Windows.Window> class. The `x:Class` attribute is used to associate the markup with the code-behind class. `InitializeComponent` is called from the code-behind class's constructor to merge the UI that is defined in markup with the code-behind class. (`InitializeComponent` is generated for you when your application is built, which is why you don't need to implement it manually.) The combination of `x:Class` and `InitializeComponent` ensure that your implementation is correctly initialized whenever it is created. The code-behind class also implements an event handler for the button's <xref:System.Windows.Controls.Primitives.ButtonBase.Click> event. When the button is clicked, the event handler shows a message box by calling the <xref:System.Windows.MessageBox.Show%2A?displayProperty=fullName> method.
+In this example, the code-behind implements a class that derives from the <xref:System.Windows.Window> class. The `x:Class` attribute is used to associate the markup with the code-behind class. `InitializeComponent` is called from the code-behind class's constructor to merge the UI that is defined in markup with the code-behind class. (`InitializeComponent` is generated for you when your application is built, which is why you don't need to implement it manually.) The combination of `x:Class` and `InitializeComponent` ensure that your implementation is correctly initialized whenever it is created. The code-behind class also implements an event handler for the button's <xref:System.Windows.Controls.Primitives.ButtonBase.Click> event. When the button is clicked, the event handler shows a message box by calling the <xref:System.Windows.MessageBox.Show%2A?displayProperty=fullName> method.
 
- The following figure shows the result when the button is clicked.
+The following figure shows the result when the button is clicked.
 
- ![A MessageBox](../designers/media/wpfintrofigure25.png "WPFIntroFigure25")
+![A MessageBox](../designers/media/wpfintrofigure25.png)
 
 ## Controls
 
@@ -204,16 +204,16 @@ The layout system is exposed to child controls through base WPF classes. For com
 
 The following example uses a <xref:System.Windows.Controls.DockPanel> to lay out several <xref:System.Windows.Controls.TextBox> controls.
 
- [!code-xaml[IntroToWPFSnippets#LayoutMARKUP](../designers/codesnippet/Xaml/introduction-to-wpf_1.xaml)]
+[!code-xaml[IntroToWPFSnippets#LayoutMARKUP](../designers/codesnippet/Xaml/introduction-to-wpf_1.xaml)]
 
- The <xref:System.Windows.Controls.DockPanel> allows the child <xref:System.Windows.Controls.TextBox> controls to tell it how to arrange them. To do this, the <xref:System.Windows.Controls.DockPanel> implements a `Dock` attached property that is exposed to the child controls to allow each of them to specify a dock style.
+The <xref:System.Windows.Controls.DockPanel> allows the child <xref:System.Windows.Controls.TextBox> controls to tell it how to arrange them. To do this, the <xref:System.Windows.Controls.DockPanel> implements a `Dock` attached property that is exposed to the child controls to allow each of them to specify a dock style.
 
 > [!NOTE]
-> A property that is implemented by a parent control for use by child controls is a WPF construct called an [attached property](/dotnet/framework/wpf/advanced/attached-properties-overview).
+> A property that's implemented by a parent control for use by child controls is a WPF construct called an [attached property](/dotnet/framework/wpf/advanced/attached-properties-overview).
 
- The following figure shows the result of the XAML markup in the preceding example.
+The following figure shows the result of the XAML markup in the preceding example.
 
- ![DockPanel page](../designers/media/wpfintrofigure11.png "WPFIntroFigure11")
+![DockPanel page](../designers/media/wpfintrofigure11.png)
 
 ## Data binding
 
@@ -225,14 +225,14 @@ Most applications are created to provide users with the means to view and edit d
 
 To simplify application development, WPF provides a data binding engine to automatically perform these steps. The core unit of the data binding engine is the <xref:System.Windows.Data.Binding> class, whose job is to bind a control (the binding target) to a data object (the binding source). This relationship is illustrated by the following figure:
 
- ![Basic data binding diagram](../designers/media/databindingmostbasic.png "DataBindingMostBasic")
+![Basic data binding diagram](../designers/media/databindingmostbasic.png)
 
 The next example demonstrates how to bind a <xref:System.Windows.Controls.TextBox> to an instance of a custom `Person` object. The `Person` implementation is shown in the following code:
 
- [!code-vb[SimpleDataBindingSnippets#PersonClassCODE](../designers/codesnippet/VisualBasic/introduction-to-wpf_2.vb)]
- [!code-csharp[SimpleDataBindingSnippets#PersonClassCODE](../designers/codesnippet/CSharp/introduction-to-wpf_2.cs)]
+[!code-vb[SimpleDataBindingSnippets#PersonClassCODE](../designers/codesnippet/VisualBasic/introduction-to-wpf_2.vb)]
+[!code-csharp[SimpleDataBindingSnippets#PersonClassCODE](../designers/codesnippet/CSharp/introduction-to-wpf_2.cs)]
 
- The following markup binds the <xref:System.Windows.Controls.TextBox> to an instance of a custom `Person` object.
+The following markup binds the <xref:System.Windows.Controls.TextBox> to an instance of a custom `Person` object.
 
  ```xaml
  <Window
@@ -246,14 +246,14 @@ The next example demonstrates how to bind a <xref:System.Windows.Controls.TextBo
  </Window>
  ```
 
- [!code-vb[SimpleDataBindingSnippets#DataBindingCODEBEHIND](../designers/codesnippet/VisualBasic/introduction-to-wpf_6.vb)]
- [!code-csharp[SimpleDataBindingSnippets#DataBindingCODEBEHIND](../designers/codesnippet/CSharp/introduction-to-wpf_6.cs)]
+[!code-vb[SimpleDataBindingSnippets#DataBindingCODEBEHIND](../designers/codesnippet/VisualBasic/introduction-to-wpf_6.vb)]
+[!code-csharp[SimpleDataBindingSnippets#DataBindingCODEBEHIND](../designers/codesnippet/CSharp/introduction-to-wpf_6.cs)]
 
- In this example, the `Person` class is instantiated in code-behind and is set as the data context for the `DataBindingWindow`. In markup, the <xref:System.Windows.Controls.TextBox.Text%2A> property of the <xref:System.Windows.Controls.TextBox> is bound to the `Person.Name` property (using the "`{Binding ... }`" XAML syntax). This XAML tells WPF to bind the <xref:System.Windows.Controls.TextBox> control to the `Person` object that is stored in the <xref:System.Windows.FrameworkElement.DataContext%2A> property of the window.
+In this example, the `Person` class is instantiated in code-behind and is set as the data context for the `DataBindingWindow`. In markup, the <xref:System.Windows.Controls.TextBox.Text%2A> property of the <xref:System.Windows.Controls.TextBox> is bound to the `Person.Name` property (using the "`{Binding ... }`" XAML syntax). This XAML tells WPF to bind the <xref:System.Windows.Controls.TextBox> control to the `Person` object that is stored in the <xref:System.Windows.FrameworkElement.DataContext%2A> property of the window.
 
- The WPF data binding engine provides additional support that includes validation, sorting, filtering, and grouping. Furthermore, data binding supports the use of data templates to create custom user interface for bound data when the user interface displayed by the standard WPF controls is not appropriate.
+The WPF data binding engine provides additional support that includes validation, sorting, filtering, and grouping. Furthermore, data binding supports the use of data templates to create custom user interface for bound data when the user interface displayed by the standard WPF controls is not appropriate.
 
- For more information, see [Data Binding Overview](/dotnet/framework/wpf/data/data-binding-overview).
+For more information, see [Data Binding Overview](/dotnet/framework/wpf/data/data-binding-overview).
 
 ## Graphics
 
@@ -271,20 +271,20 @@ WPF introduces an extensive, scalable, and flexible set of graphics features tha
 
 WPF provides a library of common vector-drawn 2D shapes, such as the rectangles and ellipses that are shown in the following illustration:
 
- ![Ellipses and rectangles](../designers/media/wpfintrofigure4.PNG "WPFIntroFigure4")
+![Ellipses and rectangles](../designers/media/wpfintrofigure4.PNG)
 
- An interesting capability of shapes is that they are not just for display; shapes implement many of the features that you expect from controls, including keyboard and mouse input. The following example shows the <xref:System.Windows.UIElement.MouseUp> event of an <xref:System.Windows.Shapes.Ellipse> being handled.
+An interesting capability of shapes is that they are not just for display; shapes implement many of the features that you expect from controls, including keyboard and mouse input. The following example shows the <xref:System.Windows.UIElement.MouseUp> event of an <xref:System.Windows.Shapes.Ellipse> being handled.
 
- [!code-xaml[IntroToWPFSnippets#HandleEllipseMouseUpEventMARKUP](../designers/codesnippet/Xaml/introduction-to-wpf_7.xaml)]
+[!code-xaml[IntroToWPFSnippets#HandleEllipseMouseUpEventMARKUP](../designers/codesnippet/Xaml/introduction-to-wpf_7.xaml)]
 
- [!code-vb[IntroToWPFSnippets#HandleEllipseMouseUpEventCODEBEHIND](../designers/codesnippet/VisualBasic/introduction-to-wpf_8.vb)]
- [!code-csharp[IntroToWPFSnippets#HandleEllipseMouseUpEventCODEBEHIND](../designers/codesnippet/CSharp/introduction-to-wpf_8.cs)]
+[!code-vb[IntroToWPFSnippets#HandleEllipseMouseUpEventCODEBEHIND](../designers/codesnippet/VisualBasic/introduction-to-wpf_8.vb)]
+[!code-csharp[IntroToWPFSnippets#HandleEllipseMouseUpEventCODEBEHIND](../designers/codesnippet/CSharp/introduction-to-wpf_8.cs)]
 
- The following figure shows what is produced by the preceding code.
+The following figure shows what is produced by the preceding code.
 
- ![A window with the text "you clicked the ellipse&#33;"](../designers/media/wpfintrofigure12.png "WPFIntroFigure12")
+![A window with the text "you clicked the ellipse&#33;"](../designers/media/wpfintrofigure12.png)
 
- For more information, see [Shapes and Basic Drawing in WPF Overview](/dotnet/framework/wpf/data/data-binding-overview).
+For more information, see [Shapes and Basic Drawing in WPF Overview](/dotnet/framework/wpf/data/data-binding-overview).
 
 ### 2D geometries
 
@@ -389,11 +389,11 @@ The main purpose of a majority of the WPF controls is to display content. In WPF
 </Window>
 ```
 
- The following figure shows the result.
+The following figure shows the result.
 
- ![A TextBox control that contains text](../designers/media/wpfintrofigure21.png "WPFIntroFigure21")
+![A TextBox control that contains text](../designers/media/wpfintrofigure21.png "WPFIntroFigure21")
 
- Other controls, however, can contain multiple items of different types of content; the content of a <xref:System.Windows.Controls.Button>, specified by the <xref:System.Windows.Controls.ContentControl.Content%2A> property, can contain a variety of items including layout controls, text, images, and shapes. The following example shows a <xref:System.Windows.Controls.Button> with content that includes a <xref:System.Windows.Controls.DockPanel>, a <xref:System.Windows.Controls.Label>, a <xref:System.Windows.Controls.Border>, and a <xref:System.Windows.Controls.MediaElement>.
+Other controls, however, can contain multiple items of different types of content; the content of a <xref:System.Windows.Controls.Button>, specified by the <xref:System.Windows.Controls.ContentControl.Content%2A> property, can contain a variety of items including layout controls, text, images, and shapes. The following example shows a <xref:System.Windows.Controls.Button> with content that includes a <xref:System.Windows.Controls.DockPanel>, a <xref:System.Windows.Controls.Label>, a <xref:System.Windows.Controls.Border>, and a <xref:System.Windows.Controls.MediaElement>.
 
 ```xaml
 <Window
@@ -415,11 +415,11 @@ The main purpose of a majority of the WPF controls is to display content. In WPF
 </Window>
 ```
 
- The following figure shows the content of this button.
+The following figure shows the content of this button.
 
- ![A button that contains multiple types of content](../designers/media/wpfintrofigure22.png "WPFIntroFigure22")
+![A button that contains multiple types of content](../designers/media/wpfintrofigure22.png "WPFIntroFigure22")
 
- For more information on the kinds of content that is supported by various controls, see [WPF Content Model](/dotnet/framework/wpf/controls/wpf-content-model).
+For more information on the kinds of content that is supported by various controls, see [WPF Content Model](/dotnet/framework/wpf/controls/wpf-content-model).
 
 ### Triggers
 
@@ -499,13 +499,13 @@ The default appearance is what you would expect from a <xref:System.Windows.Cont
 </Window>
 ```
 
- The following figure shows the effect of this code.
+The following figure shows the effect of this code.
 
- ![List box that uses a data template](../designers/media/wpfintrofigure19.png "WPFIntroFigure19")
+![List box that uses a data template](../designers/media/wpfintrofigure19.png)
 
- Note that the <xref:System.Windows.Controls.ListBox> has retained its behavior and overall appearance; only the appearance of the content being displayed by the list box has changed.
+Note that the <xref:System.Windows.Controls.ListBox> has retained its behavior and overall appearance; only the appearance of the content being displayed by the list box has changed.
 
- For more information, see [Data Templating Overview](/dotnet/framework/wpf/data/data-templating-overview).
+For more information, see [Data Templating Overview](/dotnet/framework/wpf/data/data-templating-overview).
 
 ### Styles
 
@@ -536,11 +536,11 @@ Styles enable developers and designers to standardize on a particular appearance
 </Window>
 ```
 
- Because this style targets all <xref:System.Windows.Controls.Button> controls, the style is automatically applied to all the buttons in the window, as shown in the following figure:
+Because this style targets all <xref:System.Windows.Controls.Button> controls, the style is automatically applied to all the buttons in the window, as shown in the following figure:
 
- ![Two orange buttons](../designers/media/wpfintrofigure20.png)
+![Two orange buttons](../designers/media/wpfintrofigure20.png)
 
- For more information, see [Styling and Templating](/dotnet/framework/wpf/controls/styling-and-templating).
+For more information, see [Styling and Templating](/dotnet/framework/wpf/controls/styling-and-templating).
 
 ### Resources
 
@@ -568,7 +568,7 @@ The following example defines a common background color that is shared by a <xre
 </Window>
 ```
 
- This example implements a background color resource by using the `Window.Resources` property element. This resource is available to all children of the <xref:System.Windows.Window>. There are a variety of resource scopes, including the following, listed in the order in which they are resolved:
+This example implements a background color resource by using the `Window.Resources` property element. This resource is available to all children of the <xref:System.Windows.Window>. There are a variety of resource scopes, including the following, listed in the order in which they are resolved:
 
 1.  An individual control (using the inherited <xref:System.Windows.FrameworkElement.Resources%2A?displayProperty=fullName> property).
 
@@ -610,9 +610,9 @@ As an alternative to directly associating your resources with a particular scope
 </Application>
 ```
 
- Resources and resource dictionaries are the foundation of WPF support for themes and skins.
+Resources and resource dictionaries are the foundation of WPF support for themes and skins.
 
- For more information, see [Resources](/dotnet/framework/wpf/advanced/xaml-resources).
+For more information, see [Resources](/dotnet/framework/wpf/advanced/xaml-resources).
 
 ### Custom controls
 

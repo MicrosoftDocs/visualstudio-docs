@@ -3,7 +3,7 @@ title: "XSD Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "reference"
 f1_keywords: 
   - "vc.task.xsd"
   - "VC.Project.VCXMLDataGeneratorTool.Namespace"
@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "XSD task (MSBuild (Visual C++))"
   - "MSBuild (Visual C++), XSD task"
 ms.assetid: 15c99f5c-7124-4bbc-bc03-70c7bcce8893
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

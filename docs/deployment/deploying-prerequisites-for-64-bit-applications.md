@@ -2,8 +2,7 @@
 title: "Deploying Prerequisites for 64-bit Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-deployment"
+ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs: 
   - "FSharp"
@@ -16,9 +15,9 @@ helpviewer_keywords:
   - "64-bit programming [Visual Studio]"
   - "64-bit applications [Visual Studio]"
 ms.assetid: 87399e20-5510-41e4-b5b7-4a87c5773f21
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

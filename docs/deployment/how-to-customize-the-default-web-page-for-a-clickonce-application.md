@@ -2,8 +2,7 @@
 title: "How to: Customize the Default Web Page for a ClickOnce Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-deployment"
+ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -15,9 +14,9 @@ helpviewer_keywords:
   - "deploying applications [ClickOnce], publishing"
   - "publishing, ClickOnce"
 ms.assetid: 418de18c-bee9-4f24-9cd9-0252d175070d
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

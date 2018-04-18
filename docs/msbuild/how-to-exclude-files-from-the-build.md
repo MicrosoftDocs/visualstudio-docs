@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "MSBuild, excluding files"
   - "wildcards, MSBuild"
 ms.assetid: 1be36e45-01da-451c-972d-f9fc0e7d663c
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

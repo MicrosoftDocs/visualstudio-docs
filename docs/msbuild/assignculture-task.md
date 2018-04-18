@@ -3,7 +3,7 @@ title: "AssignCulture Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "reference"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#AssignCulture"
 dev_langs: 
@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "MSBuild, AssignCulture task"
   - "AssignCulture task [MSBuild]"
 ms.assetid: 8f8314cc-82a6-4f16-a62d-b9f0d1d5e274
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

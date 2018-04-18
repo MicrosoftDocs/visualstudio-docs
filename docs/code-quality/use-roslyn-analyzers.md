@@ -1,5 +1,5 @@
 ---
-title: "Use and configure Roslyn analyzers in Visual Studio | Microsoft Docs"
+title: Use and configure Roslyn analyzers in Visual Studio
 ms.date: 03/26/2018
 ms.technology: vs-ide-code-analysis
 ms.topic: conceptual
@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "code analysis, managed code"
   - "analyzers"
   - "Roslyn analyzers"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "dotnet"

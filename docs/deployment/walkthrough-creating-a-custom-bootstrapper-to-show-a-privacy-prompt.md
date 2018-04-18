@@ -2,8 +2,7 @@
 title: "Walkthrough: Creating a Custom Bootstrapper to Show a Privacy Prompt | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-deployment"
+ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs: 
   - "FSharp"
@@ -17,9 +16,9 @@ helpviewer_keywords:
   - "Windows Installer deployment, prerequisites"
   - "prerequisites [.NET Framework], custom bootstrapper package"
 ms.assetid: 2f3edd6a-84d1-4864-a1ae-6a13c5732aae
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

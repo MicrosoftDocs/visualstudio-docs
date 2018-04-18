@@ -1,19 +1,16 @@
 ---
 title: Overview of Python support in Visual Studio on Windows
 description: Summary of features in Visual Studio, making it the best Python IDE on Windows (also know as Python Tools for Visual Studio, PTVS)
-ms.custom:
 ms.date: 04/06/2018
-ms.technology: 
-  - "devlang-python"
-dev_langs:
-  - "python"
-ms.topic: "overview"
-author: "kraigb"
-ms.author: "kraigb"
+ms.prod: visual-studio-dev15
+ms.technology: vs-python
+ms.topic: overview
+author: kraigb
+ms.author: kraigb
 manager: douge
 ms.workload: 
-  - "python"
-  - "data-science"
+  - python
+  - data-science
 ---
 
 # Working with Python in Visual Studio (Windows)

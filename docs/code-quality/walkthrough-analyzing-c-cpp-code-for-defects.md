@@ -1,11 +1,9 @@
 ---
-title: "Walkthrough: Analyzing C/C++ Code for Defects | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-code-analysis"
+title: "Walkthrough: Analyzing C/C++ Code for Defects"
+ms.date: 11/04/2016
+ms.technology: vs-ide-code-analysis
 ms.topic: "conceptual"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "C/C++, code analysis"
   - "code analysis, walkthroughs"
   - "code, analyzing C/C++"
@@ -13,12 +11,12 @@ helpviewer_keywords:
 author: mikeblome
 ms.author: mblome
 manager: douge
-ms.workload: 
+ms.workload:
   - "cplusplus"
 ---
 # Walkthrough: Analyzing C/C++ Code for Defects
 
-This walkthrough demonstrates how to analyze C/C++ code for potential code defects by using the code analysis tool for C/C++ code. 
+This walkthrough demonstrates how to analyze C/C++ code for potential code defects by using the code analysis tool for C/C++ code.
 
 - Run code analysis on native code.
 - Analyze code defect warnings.
@@ -161,7 +159,7 @@ This walkthrough demonstrates how to analyze C/C++ code for potential code defec
 
    ```cpp
    . . .
-   LinkedList *newNode = NULL; 
+   LinkedList *newNode = NULL;
    if (NULL == node)
    {
         return NULL;

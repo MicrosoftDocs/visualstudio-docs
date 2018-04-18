@@ -3,7 +3,7 @@ title: "WriteLinesToFile Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "reference"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#WriteLinesToFile"
 dev_langs: 
@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "WriteLinesToFile task [MSBuild]"
   - "MSBuild, WriteLinesToFile task"
 ms.assetid: 9c8862ac-8da5-4437-9430-ecc30421f1c9
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

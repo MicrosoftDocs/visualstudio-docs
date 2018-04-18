@@ -1,5 +1,5 @@
 ---
-title: "How to: Disable the Hosting Process | Microsoft Docs"
+title: "How to: Disable the hosting process | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
@@ -15,7 +15,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Disable the Hosting Process
+# How to: Disable the hosting process
 Calls to certain APIs can be affected when the hosting process is enabled. In these cases, it is necessary to disable the hosting process to return the correct results.  
   
 ### To disable the hosting process  
@@ -28,7 +28,7 @@ Calls to certain APIs can be affected when the hosting process is enabled. In th
   
 4.  Clear the **Enable the Visual Studio hosting process** check box.  
   
- When the hosting process is disabled, several debugging features are unavailable or experience decreased performance. For more information, see [Debugging and the Hosting Process](../debugger/debugging-and-the-hosting-process.md).  
+ When the hosting process is disabled, several debugging features are unavailable or experience decreased performance. For more information, see [Debug and the hosting process](../debugger/debugging-and-the-hosting-process.md).  
   
  In general, when the hosting process is disabled:  
   
@@ -40,5 +40,5 @@ Calls to certain APIs can be affected when the hosting process is enabled. In th
   
 ## See also
 
-[Debugging and the Hosting Process](../debugger/debugging-and-the-hosting-process.md)   
-[Hosting Process (vshost.exe)](../ide/hosting-process-vshost-exe.md)
+[Debug and the hosting process](../debugger/debugging-and-the-hosting-process.md)   
+[Hosting process (vshost.exe)](../ide/hosting-process-vshost-exe.md)

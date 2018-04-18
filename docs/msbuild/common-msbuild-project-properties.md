@@ -3,7 +3,7 @@ title: "Common MSBuild Project Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2018"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "ExcludeDeploymentUrl property"
   - "project file properties (MSBuild)"
 ms.assetid: 9857505d-ae15-42f1-936d-6cd7fb9dd276
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

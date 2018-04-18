@@ -3,7 +3,7 @@ title: "MSBuild Tasks Specific to Visual C++ | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -12,7 +12,7 @@ dev_langs:
 helpviewer_keywords: 
   - "MSBuild, tasks specific to Visual C++"
 ms.assetid: 05410f0c-7356-4692-bc00-20664421c9ff
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

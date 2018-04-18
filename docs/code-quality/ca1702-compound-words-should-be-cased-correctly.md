@@ -1,5 +1,5 @@
 ---
-title: "CA1702: Compound words should be cased correctly | Microsoft Docs"
+title: "CA1702: Compound words should be cased correctly"
 ms.date: 03/28/2018
 ms.technology: vs-ide-code-analysis
 ms.topic: reference
@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "CA1702"
   - "CompoundWordsShouldBeCasedCorrectly"
 ms.assetid: 05481245-7ad8-48c3-a456-3aa44b6160a6
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"

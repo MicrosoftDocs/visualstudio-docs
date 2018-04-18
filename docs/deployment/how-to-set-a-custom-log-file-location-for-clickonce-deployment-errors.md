@@ -2,8 +2,7 @@
 title: "How to: Set a Custom Log File Location for ClickOnce Deployment Errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-deployment"
+ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -14,9 +13,9 @@ helpviewer_keywords:
   - "ClickOnce deployment, troubleshooting"
   - "ClickOnce deployment, error logging"
 ms.assetid: 77424414-7f0e-4b99-94bb-ea130de92d09
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---
