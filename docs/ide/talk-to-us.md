@@ -1,21 +1,21 @@
 ---
-title: "Talk to Us | Microsoft Docs"
+title: "Talk to us"
 ms.custom: ""
-ms.date: "02/19/2018"
-ms.topic: "conceptual"
+ms.date: 02/19/2018
+ms.technology: vs-acquisition
+ms.prod: visual-studio-dev15
+ms.topic: conceptual
 helpviewer_keywords:
   - "product support [Visual Studio]"
   - "Help [Visual Studio], product support"
 ms.assetid: e0846d4d-2ce1-48e3-b219-674ff070bf4e
-author: "TerryGLee"
-ms.author: "tglee"
+author: TerryGLee
+ms.author: tglee
 manager: douge
-ms.technology:
-  - "vs-acquisition"
 ms.workload:
   - "multiple"
 ---
-# Talk to Us
+# Talk to us
 We're interested in your ideas for improving our products and documentation. We can't always respond personally, but we'll make sure that your feedback gets to the right person or team.  
 
 ## I want to report a problem with Visual Studio

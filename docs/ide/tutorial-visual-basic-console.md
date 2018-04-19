@@ -1,13 +1,13 @@
 ---
-title: "Getting started with Visual Basic in Visual Studio | Microsoft Docs"
+title: "Getting started with Visual Basic in Visual Studio"
 ms.custom: ""
-ms.date: "12/08/2017"
-ms.technology:
-  - "vs-acquisition"
-ms.topic: "tutorial"
-ms.devlang: "vb"
-author: "TerryGLee"
-ms.author: "tglee"
+ms.date: 12/08/2017
+ms.technology: vs-acquisition
+ms.prod: visual-studio-dev15
+ms.topic: tutorial
+ms.devlang: vb
+author: TerryGLee
+ms.author: tglee
 manager: douge
 dev_langs:
   - vb

@@ -1,13 +1,14 @@
 ---
-title: "Quickstart: Create your first console app in Visual Studio with Visual Basic | Microsoft Docs"
+title: "Quickstart: Create your first console app in Visual Studio with Visual Basic"
+description: "Learn how to create a simple console app in Visual Studio with Visual Basic, step-by-step."
 ms.custom: ""
-ms.date: "12/10/2017"
-ms.technology:
-  - "vs-acquisition"
-ms.topic: "quickstart"
-ms.devlang: "vb"
-author: "TerryGLee"
-ms.author: "tglee"
+ms.date: 12/10/2017
+ms.technology: vs-acquisition
+ms.prod: visual-studio-dev15
+ms.topic: quickstart
+ms.devlang: vb
+author: TerryGLee
+ms.author: tglee
 manager: douge
 dev_langs:
   - vb
