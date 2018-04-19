@@ -1,10 +1,8 @@
 ---
-title: "What's New in Visual Studio 2017 | Microsoft Docs"
-ms.custom: ""
-ms.date: "12/04/2017"
-ms.technology:
-  - "vs-acquisition"
-ms.topic: "conceptual"
+title: What's New in Visual Studio 2017
+ms.date: 12/04/2017
+ms.technology: vs-acquisition
+ms.topic: conceptual
 f1_keywords:
   - "VS.StartPage.WhatsNew"
 helpviewer_keywords:
@@ -50,7 +48,7 @@ Choose the workloads you need, and change them when you need to.
 
  ![Visual Studio 2017 setup dialog](../install/media/install-visual-studio-enterprise.png "Visual Studio 2017 setup screen")
 
-Want to pick your own components instead of using workloads? Select the **Individual components** tab from the installer. Want to install Language Packs without also having to change the Windows language option? Choose the **Language packs** tab of the installer.  
+Want to pick your own components instead of using workloads? Select the **Individual components** tab from the installer. Want to install Language Packs without also having to change the Windows language option? Choose the **Language packs** tab of the installer.
 
 To learn more about the new installation experience, including step-by-step instructions that walk you through it, see the [Install Visual Studio](../install/install-visual-studio.md) page.
 
@@ -60,7 +58,7 @@ To learn more about the new installation experience, including step-by-step inst
 For more information, see the [Accessibility improvements in Visual Studio 2017 version 15.3](https://blogs.msdn.microsoft.com/visualstudio/2017/08/14/accessibility-improvements-in-visual-studio-2017-version-15-3/) blog post.
 
 ## Performance and productivity
-### Sign in across multiple accounts  
+### Sign in across multiple accounts
 We've introduced a new identity service in Visual Studio that allows you to share user accounts across Team Explorer, Azure Tools, Microsoft Store publishing, and more.
 
 You can stay signed in longer, too. Visual Studio won't ask you to sign in again every 12 hours. To learn more, see the [Fewer Visual Studio Sign-in Prompts](https://blogs.msdn.microsoft.com/visualstudio/2016/08/15/fewer-visual-studio-sign-in-prompts/) blog post.
@@ -74,7 +72,7 @@ Visual Studio is moving its extensions (and working with third-party extensions 
   ![Options dialog box in Visual Studio 2017](../ide/media/vs2017ide-manage-vs-perf.png "Visual Studio Help dialog box - Performance Management")
 
 #### Manage your extensions with Roaming Extensions Manager
-It's easier to set up each development environment with your favorite extensions when you sign in to Visual Studio. The new Roaming Extension Manager keeps track of all your favorite extensions by creating a synchronized list in the cloud.  
+It's easier to set up each development environment with your favorite extensions when you sign in to Visual Studio. The new Roaming Extension Manager keeps track of all your favorite extensions by creating a synchronized list in the cloud.
 
 To see a list of your extensions in Visual Studio, click  Tools > Extensions & Updates, and then click the Roaming Extension Manager.
 
@@ -132,7 +130,7 @@ When you are working with a project in Visual Studio, you can set up and quickly
 #### Experience improved navigation controls
 We've refreshed the navigation experience to help you get from A to B with greater confidence and fewer distractions.
 
-* **New in 15.4**: **Go To Definition (Ctrl+click or F12)** &ndash; Mouse users have an easier way to navigate to the definition of a member by pressing **Ctrl** and then clicking the member. Pressing **Ctrl** and hovering over a code symbol will underline it and turn it into a link. See [Go To Definition and Peek Definition](../ide/go-to-and-peek-definition.md) for more information.  
+* **New in 15.4**: **Go To Definition (Ctrl+click or F12)** &ndash; Mouse users have an easier way to navigate to the definition of a member by pressing **Ctrl** and then clicking the member. Pressing **Ctrl** and hovering over a code symbol will underline it and turn it into a link. See [Go To Definition and Peek Definition](../ide/go-to-and-peek-definition.md) for more information.
 
 * **Go To Implementation (Ctrl+F12)** &ndash; Navigate from any base type or member to its various implementations.
 
@@ -144,7 +142,7 @@ We've refreshed the navigation experience to help you get from A to B with great
 
  ![New Find All References tool](../ide/media/vs2017ide-find-all-references.png "Example of the new Find All References tool")
 
-* **Structure Visualizer** &ndash; Dotted, gray vertical lines (indent guides) act as landmarks in code to provide context within your frame of view. You may recognize them from the popular Productivity Power Tools. You can use them to visualize and discover what block of code you're in at any time without having to scroll. Hovering over the lines displays a tooltip that shows you the opening of that block and its parents. It's available for all the languages supported via TextMate grammars, as well as C#, Visual Basic, and XAML.  
+* **Structure Visualizer** &ndash; Dotted, gray vertical lines (indent guides) act as landmarks in code to provide context within your frame of view. You may recognize them from the popular Productivity Power Tools. You can use them to visualize and discover what block of code you're in at any time without having to scroll. Hovering over the lines displays a tooltip that shows you the opening of that block and its parents. It's available for all the languages supported via TextMate grammars, as well as C#, Visual Basic, and XAML.
 
 ![Visual Studio 2017 structure visualizer](../ide/media/vsIDE-StructureVisualizer.png "Structure visualizer in Visual Studio")
 
@@ -155,7 +153,7 @@ You'll see several improvements in Visual Studio, such as distributing C++ Core 
 
 As well, we've fixed over 250 bugs and reported issues in the compiler and tools, many submitted by customers through [Microsoft Connect](https://connect.microsoft.com/VisualStudio "Microsoft Connect").
 
-For complete details, see the [What's New for Visual C++ in Visual 2017](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio) page.  
+For complete details, see the [What's New for Visual C++ in Visual 2017](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio) page.
 
 ### Debugging and Diagnostics
 #### Run to Click:
@@ -262,9 +260,9 @@ To learn more, see the [Redgate Data Tools in Visual Studio 2017](https://blogs.
 
 The .NET Core platform is made of several components, which include the managed compilers, the runtime, the base class libraries, and numerous application models, such as ASP.NET Core. .NET Core supports three main operating systems: Windows, Linux, and macOS. You can use .NET Core in device, cloud, and embedded/IoT scenarios.
 
-And, it now includes Docker support.  
+And, it now includes Docker support.
 
-**New in 15.3**: Visual Studio 2017 version 15.3 supports .NET Core 2.0 development. Using .NET Core 2.0 requires downloading and installing the .NET Core 2.0 SDK separately.  
+**New in 15.3**: Visual Studio 2017 version 15.3 supports .NET Core 2.0 development. Using .NET Core 2.0 requires downloading and installing the .NET Core 2.0 SDK separately.
 
 For more information, see the [.NET Core Guide](/dotnet/core/index) page.
 
@@ -283,20 +281,20 @@ For more information, see the [Visual Studio Tools for Unity](../cross-platform/
 For more information, see the [Visual Studio Tools for AI](../ai/about-ai-tools.md) page.
 
 
-## Talk to us  
- Why send feedback to the Visual Studio team? Because we take customer feedback seriously. It drives much of what we do.  
+## Talk to us
+ Why send feedback to the Visual Studio team? Because we take customer feedback seriously. It drives much of what we do.
 
-If you want to make a suggestion about how we can improve Visual Studio, or report a problem, please see the [Talk to Us](../ide/talk-to-us.md) page.  
+If you want to make a suggestion about how we can improve Visual Studio, or report a problem, please see the [Talk to Us](../ide/talk-to-us.md) page.
 
-### Report a problem  
- Sometimes, a message isn't enough to convey the full impact of a problem you've encountered. If you experience a hang, crash, or other performance issue, you can easily share repro steps and supporting files (such as screenshots, and trace and heap dump files) with us by using the **Report a Problem** tool. For more information about how to use this tool, see the [How to Report a Problem](how-to-report-a-problem-with-visual-studio-2017.md) page.  
+### Report a problem
+ Sometimes, a message isn't enough to convey the full impact of a problem you've encountered. If you experience a hang, crash, or other performance issue, you can easily share repro steps and supporting files (such as screenshots, and trace and heap dump files) with us by using the **Report a Problem** tool. For more information about how to use this tool, see the [How to Report a Problem](how-to-report-a-problem-with-visual-studio-2017.md) page.
 
-### Track your issue in Connect  
- If want to track the status of your Visual Studio feedback, go to [Connect](http://connect.microsoft.com/) and report the bug there. After you report it, you can return to Connect to track its status.  
+### Track your issue in Connect
+ If want to track the status of your Visual Studio feedback, go to [Connect](http://connect.microsoft.com/) and report the bug there. After you report it, you can return to Connect to track its status.
 
 ## See Also
 * [Visual Studio 2017 Release Notes](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes)
 * [What's New in Visual C++](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio)
-* [What's New in C#](/dotnet/csharp/whats-new)  
+* [What's New in C#](/dotnet/csharp/whats-new)
 * [What's New for Team Foundation Server](https://www.visualstudio.com/docs/whats-new)
 * [What's New in Visual Studio for Mac](https://www.visualstudio.com/vs/visual-studio-mac/)
