@@ -34,7 +34,7 @@ ms.workload:
 When you create an app, website, plug-in, etc. in Visual Studio, you start with a *project*. In a logical sense, a project contains all the source code files, icons, images, data files, etc. that are compiled into an executable, library, or website. A project also contains compiler settings and other configuration files that might be needed by various services or components that your program communicates with.
 
 > [!NOTE]
-> You don't have to use solutions or projects in Visual Studio to edit, build and debug code. You can simply open the folder that contains your source files in Visual Studio and start editing. See [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md) for more information.
+> You don't have to use solutions or projects in Visual Studio to edit, build and debug code. You can simply open the folder that contains your source files in Visual Studio and start editing. For more information, see [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md).
 
 A project is defined in an XML file with an extension such as *.vbproj*, *.csproj*, or *.vcxproj*. This file contains a virtual folder hierarchy, and paths to all the items in the project. It also contains the build settings.
 
@@ -45,9 +45,9 @@ In Visual Studio, the project file is used by **Solution Explorer** to display t
 
 ## Solutions
 
-A project is contained within a *solution*. A solution contains one or more related projects, along with build information, Visual Studio window settings, and any miscellaneous files that aren't associated with a particular project. A solution is described by a text file (extension *.sln*) with its own unique format; it is generally not intended to be edited by hand.
+A project is contained within a *solution*. A solution contains one or more related projects, along with build information, Visual Studio window settings, and any miscellaneous files that aren't associated with a particular project. A solution is described by a text file (extension *.sln*) with its own unique format; it is not intended to be edited by hand.
 
-A solution has an associated *.suo* file that stores settings, preferences and configuration information for each user that has worked on the project.
+A solution has an associated *.suo* file that stores settings, preferences, and configuration information for each user that has worked on the project.
 
 ## Create new projects
 

@@ -17,15 +17,15 @@ ms.workload:
 ---
 # Manage application settings (.NET)
 
-Application settings enable you to store application information dynamically. Settings allow you to store information on the client computer that should not be included in the application code (for example a connection string), user preferences and other information you need at runtime.
+Application settings enable you to store application information dynamically. Settings allow you to store information on the client computer that should not be included in the application code (for example a connection string), user preferences, and other information you need at runtime.
 
 Application settings replace the dynamic properties used in earlier versions of Visual Studio.
 
-Each application setting must have a unique name. The name can be any combination of letters, numbers, or an underscore that does not start with a number, and it cannot contain spaces. The name can be changed through the `Name` property.
+Each application setting must have a unique name. The name can be any combination of letters, numbers, or an underscore that does not start with a number, and it cannot have spaces. The name is changed through the `Name` property.
 
-Application settings can be stored as any data type that can be serialized to XML or has a `TypeConverter` that implements `ToString`/`FromString`. The most common types are `String`, `Integer`, and `Boolean`, but you can also store values as <xref:System.Drawing.Color>, <xref:System.Object>, or as a connection string.
+Application settings can be stored as any data type that is serialized to XML or has a `TypeConverter` that implements `ToString`/`FromString`. The most common types are `String`, `Integer`, and `Boolean`, but you can also store values as <xref:System.Drawing.Color>, <xref:System.Object>, or as a connection string.
 
-Application settings also contain a value. The value is set with the **Value** property and must match the data type of the setting.
+Application settings also hold a value. The value is set with the **Value** property and must match the data type of the setting.
 
 In addition, application settings can be bound to a property of a form or control at design time.
 
@@ -58,18 +58,18 @@ When you create a user-scoped setting (for example, default font, home page, or 
 >
 > If you take connection string information from an external source, such as a user supplying a user ID and password, you must be careful to ensure that the values that you use to construct your connection string do not contain additional connection string parameters that change the behavior of your connection.
 >
-> Consider using the Protected Configuration feature to encrypt sensitive information in the configuration file. See [Protect connection information](/dotnet/framework/data/adonet/protecting-connection-information) for more information.
+> Consider using the Protected Configuration feature to encrypt sensitive information in the configuration file. For more information, see [Protect connection information](/dotnet/framework/data/adonet/protecting-connection-information).
 
 > [!NOTE]
 > Because there is no configuration file model for class libraries, application settings do not apply for Class Library projects. The exception is a Visual Studio Tools for Office DLL project, which can have a configuration file.
 
 ## Use customized settings files
 
-You can add customized settings files to your project for convenient management of groups of settings. Settings that are contained in a single file are loaded and saved as a unit. Therefore, being able to store settings in separate files for frequently-used and infrequently-used groups can save time in loading and saving settings.
+You can add customized settings files to your project for convenient management of groups of settings. Settings that are contained in a single file are loaded and saved as a unit. Storing settings in separate files for frequently used and infrequently used groups can save time in loading and saving settings.
 
 For example, you can add a file such as *SpecialSettings.settings* to your project. While your `SpecialSettings` class is not exposed in the `My` namespace, **View Code** can read the custom settings file that contains `Partial Class SpecialSettings`.
 
-The **Settings Designer** first searches for the *Settings.settings* file that the project system creates; this is the default file that the **Project Designer** displays in the **Settings** tab. *Settings.settings* is located in the *My Project* folder for [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] projects and in the *Properties* folder for [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] projects. The **Project Designer** then searches for other settings files in the project's root folder. Therefore, you should put your custom settings file there. If you add a *.settings* file elsewhere in your project, the **Project Designer** will not be able to locate it.
+The **Settings Designer** first searches for the *Settings.settings* file that the project system creates; this file is the default file that the **Project Designer** displays in the **Settings** tab. *Settings.settings* is located in the *My Project* folder for [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] projects and in the *Properties* folder for [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] projects. The **Project Designer** then searches for other settings files in the project's root folder. Therefore, you should put your custom settings file there. If you add a *.settings* file elsewhere in your project, the **Project Designer** will not be able to locate it.
 
 ## Access or change application settings at run time in Visual Basic
 
@@ -77,9 +77,9 @@ In Visual Basic projects, you can access application settings at run time by usi
 
 The values of any user-scoped settings that the user changes at run time (for example, the position of a form) are stored in a *user.config* file. Notice that the default values are still saved in *app.config*.
 
-If you have changed any user-scoped settings during run time, for example in testing the application, and want to reset these settings to their default values, click the **Synchronize** button.
+If any user-scoped settings are changed during run time, for example in testing the application, and want to reset these settings to their default values, click the **Synchronize** button.
 
-We strongly recommend that you use the `My.Settings` object and the default *.settings* file to access settings. This is because you can use the **Settings Designer** to assign properties to settings, and, additionally, user settings are automatically saved before application shutdown. However, your Visual Basic application can access settings directly. In that case you have to access the `MySettings` class and use a custom *.settings* file in the root of the project. You must also save the user settings before ending the application, as you would do for a C# application; this is described in the following section.
+We strongly recommend that you use the `My.Settings` object and the default *.settings* file to access settings. This is because you can use the **Settings Designer** to assign properties to settings, and, additionally, user settings are automatically saved before application shutdown. However, your Visual Basic application can access settings directly. In that case you have to access the `MySettings` class and use a custom *.settings* file in the root of the project. You must save the user settings before ending the application, as you would do for a C# application; this is described in the following section.
 
 ## Access or change application settings at run time in C# #
 
@@ -89,7 +89,7 @@ In languages other than Visual Basic, such as C#, you must access the `Settings`
 Properties.Settings.Default.FirstUserSetting = "abc";
 ```
 
-You must also explicitly call the `Save` method of this wrapper class in order to persist the user settings. You usually do this in the `Closing` event handler of the main form. The following C# example shows a call to the `Save` method.
+You must explicitly call the `Save` method of this wrapper class in order to persist the user settings. You usually do this in the `Closing` event handler of the main form. The following C# example shows a call to the `Save` method.
 
 ```csharp
 Properties.Settings.Default.Save();

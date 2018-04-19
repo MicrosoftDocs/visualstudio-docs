@@ -110,7 +110,7 @@ You're now ready to add a bit of Python code to implement a minimal web app.
         app.run('localhost', 4449)
     ```
 
-1. You may have noticed that the **Add > New Item** dialog box displays many other types of files you can add to a Python project, including a Python class, a Python package, a Python unit test, *web.config* files, and more. In general, these *item templates*, as they're called, are a great way to quickly create files with useful boilerplate code.
+1. You may have noticed that the **Add > New Item** dialog box displays many other types of files you can add to a Python project, including a Python class, a Python package, a Python unit test, *web.config* files, and more. In general, these item templates, as they're called, are a great way to quickly create files with useful boilerplate code.
 
 **Question: Where can I learn more about Flask?**
 
