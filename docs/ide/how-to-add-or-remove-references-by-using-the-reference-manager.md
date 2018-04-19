@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "referencing components, removing references"
   - "references [Visual Studio], removing"
   - "referencing components, assemblies not listed"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"

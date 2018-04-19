@@ -1,17 +1,15 @@
 ---
-title: "Create web templates for Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "01/02/2018"
-ms.technology: 
-  - "vs-ide-general"
-ms.topic: "conceptual"
-helpviewer_keywords: 
+title: "Create web templates for Visual Studio"
+ms.technology:$1ms.date: 01/02/2018
+ms.technology: vs-ide-general
+ms.topic: conceptual
+helpviewer_keywords:
   - "Visual Studio templates, Web"
   - "templates [Visual Studio], Web"
   - "Web templates [Visual Studio]"
   - "project templates [Visual Studio], Web"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ---
 # How to: Manually create web templates
@@ -21,7 +19,7 @@ Creating a web template is different than creating other kinds of templates. Bec
 > [!NOTE]
 > Web templates must contain an empty *.webproj* file, and it must be referenced in the *.vstemplate* file in the `File` attribute of the `Project` element. Although Web projects do not require a *.proj* project file, it's necessary to create this stub file for the web template to function correctly.
 
-### To manually create a web template
+## To manually create a web template
 
 1. Create a web project.
 
@@ -80,5 +78,5 @@ The following example shows a basic *.vstemplate* file for a web project templat
 
 ## See also
 
-[Create project and item templates](../ide/creating-project-and-item-templates.md)  
-[Visual Studio template schema reference (extensibility)](../extensibility/visual-studio-template-schema-reference.md)
+- [Create project and item templates](../ide/creating-project-and-item-templates.md)
+- [Visual Studio template schema reference (extensibility)](../extensibility/visual-studio-template-schema-reference.md)

@@ -1,16 +1,14 @@
 ---
-title: "Create multi-project templates for Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "01/02/2018"
-ms.technology: 
-  - "vs-ide-general"
-ms.topic: "conceptual"
-helpviewer_keywords: 
+title: Create multi-project templates for Visual Studio
+ms.date: 01/02/2018
+ms.technology: vs-ide-general
+ms.topic: conceptual
+helpviewer_keywords:
   - "Visual Studio templates, creating multi-project"
   - "project templates, multi-project"
   - "multi-project templates"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ---
 # How to: Create multi-project templates
@@ -165,8 +163,8 @@ This example uses the `SolutionFolder` element to divide the projects into two g
 
 ## See also
 
-[Creating project and item templates](../ide/creating-project-and-item-templates.md)  
-[How to: Create project templates](../ide/how-to-create-project-templates.md)  
-[Visual Studio template schema reference (extensibility)](../extensibility/visual-studio-template-schema-reference.md)  
-[SolutionFolder element (Visual Studio templates)](../extensibility/solutionfolder-element-visual-studio-templates.md)  
-[ProjectTemplateLink element (Visual Studio templates)](../extensibility/projecttemplatelink-element-visual-studio-templates.md)
+- [Creating project and item templates](../ide/creating-project-and-item-templates.md)
+- [How to: Create project templates](../ide/how-to-create-project-templates.md)
+- [Visual Studio template schema reference (extensibility)](../extensibility/visual-studio-template-schema-reference.md)
+- [SolutionFolder element (Visual Studio templates)](../extensibility/solutionfolder-element-visual-studio-templates.md)
+- [ProjectTemplateLink element (Visual Studio templates)](../extensibility/projecttemplatelink-element-visual-studio-templates.md)

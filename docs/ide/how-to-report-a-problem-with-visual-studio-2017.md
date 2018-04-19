@@ -1,13 +1,12 @@
 ---
-title: "How to report a problem with Visual Studio 2017 | Microsoft Docs"
-ms.custom: ""
-ms.date: "03/11/2018"
-ms.topic: "conceptual"
+title: "How to report a problem with Visual Studio 2017"
+ms.technology:$1ms.date: 03/11/2018
+ms.topic: conceptual
 ms.assetid: bee01179-cde5-4419-9095-190ee0ba5902
 author: "TerryGLee"
 ms.author: "tglee"
 manager: douge
-ms.technology: "vs-acquisition"
+ms.technology: vs-acquisition
 ms.workload:
   - "multiple"
 ---
@@ -23,7 +22,7 @@ If you haven't already done so, sign in to Visual Studio before you report a pro
 2. If you are not signed in, select **Sign In**; it's on the right-hand side of the tool, as shown in the following screenshot.
 3. Follow the instructions on-screen to sign in.
 
- ![Sign in to report a problem](../ide/media/sign-in-new-ux.png "Sign in to report a problem")  
+ ![Sign in to report a problem](../ide/media/sign-in-new-ux.png "Sign in to report a problem")
 
 ## Search and vote for similar problems <a name="search_and_vote"></a>
 

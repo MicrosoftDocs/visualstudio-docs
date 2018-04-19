@@ -1,13 +1,12 @@
 ---
-title: "How to: Track your code by customizing the scrollbar | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
+title: "How to: Track your code by customizing the scrollbar"
+ms.technology:$1ms.date: 11/04/2016
 ms.technology: vs-ide-general
-ms.topic: "conceptual"
-author: "gewarren"
-ms.author: "gewarren"
+ms.topic: conceptual
+author: gewarren
+ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # How to: Track your code by customizing the scrollbar
@@ -52,4 +51,4 @@ When you are working with long code files, it can be hard to keep everything in 
 
 ## See also
 
-[Write code in the editor](../ide/writing-code-in-the-code-and-text-editor.md)
+- [Write code in the editor](../ide/writing-code-in-the-code-and-text-editor.md)

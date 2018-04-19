@@ -1,13 +1,12 @@
 ---
-title: "Troubleshoot Visual Studio project template and item template loading | Microsoft Docs"
-ms.custom: ""
-ms.date: "01/02/2018"
+title: Troubleshoot Visual Studio project template and item template loading
+ms.date: 01/02/2018
 ms.technology: vs-ide-general
-ms.topic: "conceptual"
-helpviewer_keywords: 
+ms.topic: troubleshooting
+helpviewer_keywords:
   - "templates [Visual Studio], troubleshooting"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ---
 # How to: Troubleshoot templates
@@ -47,7 +46,7 @@ You can enable diagnostic logging for template discovery by following the steps 
 
 ## See also
 
-[Troubleshoot template discovery (extensibility)](../extensibility/troubleshooting-template-discovery.md)  
-[Customize templates](../ide/customizing-project-and-item-templates.md)  
-[Create project and item templates](../ide/creating-project-and-item-templates.md)  
-[Template schema reference](../extensibility/visual-studio-template-schema-reference.md)
+- [Troubleshoot template discovery (extensibility)](../extensibility/troubleshooting-template-discovery.md)
+- [Customize templates](../ide/customizing-project-and-item-templates.md)
+- [Create project and item templates](../ide/creating-project-and-item-templates.md)
+- [Template schema reference](../extensibility/visual-studio-template-schema-reference.md)
