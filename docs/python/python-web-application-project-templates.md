@@ -19,32 +19,47 @@ Python in Visual Studio supports developing web projects in Bottle, Flask, and D
 
 You can also use the generic "Web Project" template for other frameworks such as Pyramid. In this case, no frameworks are installed with the template. Instead, install the necessary packages into the environment you're using for the project (see [Managing Python environments](managing-python-environments-in-visual-studio.md)).
 
+## Using a project template
+
 You create a project from a template using **File** > **New** > **Project**. To see templates for web projects, select **Python** > **Web** on the left side of the dialog box. Then select a template of your choice, providing names for the project and solution, set options for a solution directory and Git repository, and select **OK**.
 
 ![New project dialog for web apps](media/projects-new-project-dialog-web.png)
 
 The generic "Web Project" template, mentioned earlier, provides only an empty Visual Studio project with no code and no assumptions other than being a Python project. For details on the "Azure Cloud Service" template, see [Azure cloud service projects for Python](python-azure-cloud-service-project-template.md).python-azure-cloud-service-project-template.md
 
-All the other templates are based on the Bottle, Flask, or Django web frameworks, and fall into three general groups as described in the following table. The apps created by any of these templates contains sufficient code to run and debug the app locally. Each one also provides the necessary [WSGI app object](http://www.python.org/dev/peps/pep-3333/) (python.org) to [deploy to Azure App Service](publishing-python-web-applications-to-azure-from-visual-studio.md).
+All the other templates are based on the Bottle, Flask, or Django web frameworks, and fall into three general groups as described in the following sections. The apps created by any of these templates contains sufficient code to run and debug the app locally. Each one also provides the necessary [WSGI app object](http://www.python.org/dev/peps/pep-3333/) (python.org) to [deploy to Azure App Service](publishing-python-web-applications-to-azure-from-visual-studio.md).
 
-| Group | Framework | Description |
-| --- | --- | --- |
-| Blank | (all) | All "Blank" templates create a project with more or less minimal boilerplate code and the necessary dependencies declared in a `requirements.txt` file.  |
-| | Bottle | Generates a minimal app in `app.py` with a home page for `/` and a `/hello/<name>` page that echos `<name>` using a very short inline page template. |
-| | Django | Generates a Django project with the core Django site structure but no Django apps. For more information, see [Django templates](python-django-web-application-project-template.md) and [Learning Django Step 1](learning-django-in-visual-studio-step-01-project-and-solution.md). |
-| | Flask | Generates a minimal app with a single "Hello World!" page for `/`. This app is similar to the result of following the detailed steps in [Quickstart: Use Visual Studio to create your first Python web app](../ide/quickstart-python.md?context=visualstudio/python/default).
-| | | |
-| Web | (all) | All "(Framework) Web Project" templates create a starter web app with an identical design regardless of the chosen framework. The app has Home, About, and Contact pages, along with a nav bar and responsive design using Bootstrap. Each app is appropriately configured to server static files (CSS, JavaScript, and fonts), and uses a page template mechanism appropriate for the framework. |
-| | Bottle | Generates an app whose static files are contained in the `static` folder and handled through code in `app.py`. Routing for the individual pages is contained in `routes.py`, and the `views` folder contains the page templates.|
-| | Django | Generates a Django project and a Django app with three pages, authentication support, and a SQLite database (but no data models). For more information, see [Django templates](python-django-web-application-project-template.md) and [Learning Django Step 4](learning-django-in-visual-studio-step-04-full-django-project-template.md). |
-| | Flask | Generates an app whose static files are contained in the `static` folder. Code in `views.py` handles routing, with page templates using the Jinja engine contained in the `templates` folder. The `runserver.py` file provides startup code. |
-| | Flask/Jade | Generates the same app as with the "Flask Web Project" template but using the Jade templating engine. |
-| | | |
-| Polls | (all) | The "Polls" templates create a starter web app through which users can vote on different poll questions. Each app builds upon the structure of the "Web" project templates to use a database to manage the polls and user responses. The apps include appropriate data models and a special app page ("/seed") that loads polls from a `samples.json` file. |
-| | Bottle | Generates an app that can run against an in-memory database, MongoDB, or Azure Table Storage, which is configured using the `REPOSITORY_NAME` environment variable. The data models and data store code are contained in the `models` folder, and the `settings.py` file contains code to determine which data store is used. |
-| | Django | Generates a Django project and a Django app with three pages and a SQLite database. Includes customizations to the Django administrative interface to allow an authenticated administrator to create and manage polls. For more information, see [Django templates](python-django-web-application-project-template.md) and [Learning Django Step 6](learning-django-in-visual-studio-step-06-polls-django-web-project-template.md). |
-| | Flask | Generates an app that can run against an in-memory database, MongoDB, or Azure Table Storage, which is configured using the `REPOSITORY_NAME` environment variable. The data models and data store code are contained in the `models` folder, and the `settings.py` file contains code to determine which data store is used. The app uses the Jinja engine for page templates. |
-| | Flask/Jade | Generates the same app as with the "Polls Flask Web Project" template but using the Jade templating engine. |
+### Blank group
+
+All "Blank (framework) Web Project" templates create a project with more or less minimal boilerplate code and the necessary dependencies declared in a `requirements.txt` file.
+
+| Template | Description |
+| --- | --- |
+| Blank Bottle Web Project | Generates a minimal app in `app.py` with a home page for `/` and a `/hello/<name>` page that echos `<name>` using a very short inline page template. |
+| Blank Django Web Project | Generates a Django project with the core Django site structure but no Django apps. For more information, see [Django templates](python-django-web-application-project-template.md) and [Learning Django Step 1](learning-django-in-visual-studio-step-01-project-and-solution.md). |
+| Blank Flask Web Project | Generates a minimal app with a single "Hello World!" page for `/`. This app is similar to the result of following the detailed steps in [Quickstart: Use Visual Studio to create your first Python web app](../ide/quickstart-python.md?context=visualstudio/python/default).
+
+### Web group
+
+All "(Framework) Web Project" templates create a starter web app with an identical design regardless of the chosen framework. The app has Home, About, and Contact pages, along with a nav bar and responsive design using Bootstrap. Each app is appropriately configured to server static files (CSS, JavaScript, and fonts), and uses a page template mechanism appropriate for the framework.
+
+| Template | Description |
+| --- | --- |
+| Bottle Web Project | Generates an app whose static files are contained in the `static` folder and handled through code in `app.py`. Routing for the individual pages is contained in `routes.py`, and the `views` folder contains the page templates.|
+| Django Web Project | Generates a Django project and a Django app with three pages, authentication support, and a SQLite database (but no data models). For more information, see [Django templates](python-django-web-application-project-template.md) and [Learning Django Step 4](learning-django-in-visual-studio-step-04-full-django-project-template.md). |
+| Flask Web Project | Generates an app whose static files are contained in the `static` folder. Code in `views.py` handles routing, with page templates using the Jinja engine contained in the `templates` folder. The `runserver.py` file provides startup code. |
+| Flask/Jade Web Project | Generates the same app as with the "Flask Web Project" template but using the Jade templating engine. |
+
+### Polls group
+
+The "Polls (framework) Web Project" templates create a starter web app through which users can vote on different poll questions. Each app builds upon the structure of the "Web" project templates to use a database to manage the polls and user responses. The apps include appropriate data models and a special app page ("/seed") that loads polls from a `samples.json` file.
+
+| Template | Description |
+| --- | --- |
+| Polls Bottle Web Project | Generates an app that can run against an in-memory database, MongoDB, or Azure Table Storage, which is configured using the `REPOSITORY_NAME` environment variable. The data models and data store code are contained in the `models` folder, and the `settings.py` file contains code to determine which data store is used. |
+| Polls Django Web Project | Generates a Django project and a Django app with three pages and a SQLite database. Includes customizations to the Django administrative interface to allow an authenticated administrator to create and manage polls. For more information, see [Django templates](python-django-web-application-project-template.md) and [Learning Django Step 6](learning-django-in-visual-studio-step-06-polls-django-web-project-template.md). |
+| Polls Flask Web Project | Generates an app that can run against an in-memory database, MongoDB, or Azure Table Storage, which is configured using the `REPOSITORY_NAME` environment variable. The data models and data store code are contained in the `models` folder, and the `settings.py` file contains code to determine which data store is used. The app uses the Jinja engine for page templates. |
+| Polls Flask/Jade Web Project | Generates the same app as with the "Polls Flask Web Project" template but using the Jade templating engine. |
 
 ## Installing project requirements
 
