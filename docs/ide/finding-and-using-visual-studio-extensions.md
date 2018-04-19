@@ -1,10 +1,8 @@
 ---
-title: "Find and use Visual Studio extensions | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/07/2017"
-ms.technology:
-  - "vs-ide-general"
-ms.topic: "conceptual"
+title: Find and use Visual Studio extensions
+ms.date: 06/07/2017
+ms.technology: vs-ide-general
+ms.topic: conceptual
 f1_keywords:
   - "vs.ExtensionManager"
 helpviewer_keywords:
@@ -12,8 +10,8 @@ helpviewer_keywords:
   - "install packages"
   - "managing extensions visual studio"
 ms.assetid: 4ca92d93-31b9-47ef-8109-4a429d9e2ca3
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"

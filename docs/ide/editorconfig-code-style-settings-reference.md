@@ -1,7 +1,7 @@
 ---
-title: ".NET coding convention settings For EditorConfig in Visual Studio | Microsoft Docs"
+title: .NET coding convention settings For EditorConfig in Visual Studio
 ms.date: 02/28/2018
-ms.topic: "conceptual"
+ms.topic: reference
 dev_langs:
   - "CSharp"
   - "VB"

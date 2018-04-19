@@ -1,12 +1,11 @@
 ---
-title: "Dotfuscator Community Edition (CE) | Microsoft Docs"
-ms.date: "2017-10-10"
+title: Dotfuscator Community Edition (CE)
+ms.date: 10/10/2017
 ms.devlang: "dotnet"
-ms.technology: 
-  - "vs-ide-general"
-ms.topic: "conceptual"
+ms.technology: vs-ide-general
+ms.topic: conceptual
 keywords: Dotfuscator, Dotfuscator CE, PreEmptive, PreEmptive Solutions, PreEmptive Protection, protection, community edition, obfuscation, .NET, free, Visual Studio 2017
-helpviewer_keywords: 
+helpviewer_keywords:
   - "PreEmptive Protection Dotfuscator"
   - "Dotfuscator Community Edition"
   - "Dotfuscator CE"
@@ -80,29 +79,29 @@ Please see [the full Dotfuscator CE User Guide at preemptive.com][full] for deta
 
 <!-- Copyright © 2017 PreEmptive Solutions, LLC -->
 
-[assemblies]: https://docs.microsoft.com/en-us/dotnet/standard/assembly-format
-[software-protection]: https://www.preemptive.com/software-protection
-[obfuscation]: https://www.preemptive.com/obfuscation
-[app-protection]: https://www.preemptive.com/application-protection
-[sdl-protection]: https://www.preemptive.com/solutions/SDL-App-Protection
-[net-obfuscator]: https://www.preemptive.com/products/dotfuscator/overview
-[download]: https://www.preemptive.com/products/dotfuscator/downloads
+- [assemblies]: https://docs.microsoft.com/en-us/dotnet/standard/assembly-format
+- [software-protection]: https://www.preemptive.com/software-protection
+- [obfuscation]: https://www.preemptive.com/obfuscation
+- [app-protection]: https://www.preemptive.com/application-protection
+- [sdl-protection]: https://www.preemptive.com/solutions/SDL-App-Protection
+- [net-obfuscator]: https://www.preemptive.com/products/dotfuscator/overview
+- [download]: https://www.preemptive.com/products/dotfuscator/downloads
 
-[install]: install.md
-[capabilities]: capabilities.md
-[upgrades]: upgrades.md
+- [install]: install.md
+- [capabilities]: capabilities.md
+- [upgrades]: upgrades.md
 
-[get-started]: https://www.preemptive.com/dotfuscator/ce/docs/help/gui_getstarted.html
+- [get-started]: https://www.preemptive.com/dotfuscator/ce/docs/help/gui_getstarted.html
 
-[renaming]: https://www.preemptive.com/dotfuscator/ce/docs/help/obfuscation_renaming.html
+- [renaming]: https://www.preemptive.com/dotfuscator/ce/docs/help/obfuscation_renaming.html
 
-[checks]: https://www.preemptive.com/dotfuscator/ce/docs/help/checks_overview.html
-[tamper]: https://www.preemptive.com/dotfuscator/ce/docs/help/checks_tamper.html
-[debug]: https://www.preemptive.com/dotfuscator/ce/docs/help/checks_debug.html
-[shelflife]: https://www.preemptive.com/dotfuscator/ce/docs/help/checks_shelflife.html
+- [checks]: https://www.preemptive.com/dotfuscator/ce/docs/help/checks_overview.html
+- [tamper]: https://www.preemptive.com/dotfuscator/ce/docs/help/checks_tamper.html
+- [debug]: https://www.preemptive.com/dotfuscator/ce/docs/help/checks_debug.html
+- [shelflife]: https://www.preemptive.com/dotfuscator/ce/docs/help/checks_shelflife.html
 
-[exceptions]: https://www.preemptive.com/dotfuscator/ce/docs/help/instrumentation_exceptions.html
-[sessions]: https://www.preemptive.com/dotfuscator/ce/docs/help/instrumentation_sessions.html
-[features]: https://www.preemptive.com/dotfuscator/ce/docs/help/instrumentation_features.html
+- [exceptions]: https://www.preemptive.com/dotfuscator/ce/docs/help/instrumentation_exceptions.html
+- [sessions]: https://www.preemptive.com/dotfuscator/ce/docs/help/instrumentation_sessions.html
+- [features]: https://www.preemptive.com/dotfuscator/ce/docs/help/instrumentation_features.html
 
-[full]: https://www.preemptive.com/dotfuscator/ce/docs/help/index.html
+- [full]: https://www.preemptive.com/dotfuscator/ce/docs/help/index.html
