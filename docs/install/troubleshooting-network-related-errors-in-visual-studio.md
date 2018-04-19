@@ -4,7 +4,7 @@ description: "Find solutions for network- or proxy-related errors that you might
 ms.custom: ""
 ms.date: 02/12/2018
 ms.technology: vs-acquisition
-ms-prod: visual-studio-dev15
+ms.prod: visual-studio-dev15
 ms.topic: troubleshooting
 helpviewer_keywords:
   - "network installation, Visual Studio"

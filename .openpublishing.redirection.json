@@ -2270,7 +2270,11 @@
             "source_path": "subscriptions/access-admin-portal.md",
             "redirect_url": "/visualstudio/subscriptions/subscription-management-info",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "subscriptions/vs-elearn.md",
+            "redirect_url": "/visualstudio/subscriptions",
+            "redirect_document_id": false
         }
-
     ]
 }

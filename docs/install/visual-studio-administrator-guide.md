@@ -4,7 +4,7 @@ description: "Learn more about how to deploy Visual Studio in an enterprise envi
 ms.custom: ""
 ms.date: 05/15/2017
 ms.technology: vs-acquisition
-ms-prod: visual-studio-dev15
+ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "network installation, Visual Studio"

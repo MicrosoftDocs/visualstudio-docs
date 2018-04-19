@@ -4,7 +4,7 @@ description: "Review the domain URLs, ports, and protocols that you might want t
 ms.custom: ""
 ms.date: 02/12/2018
 ms.technology: vs-acquisition
-ms-prod: visual-studio-dev15
+ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "network installation, Visual Studio"

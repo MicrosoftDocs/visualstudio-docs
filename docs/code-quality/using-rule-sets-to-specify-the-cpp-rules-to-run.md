@@ -5,7 +5,7 @@ ms.technology: vs-ide-code-analysis
 ms.topic: "conceptual"
 author: mikeblome
 ms.author: mblome
-manager: douge
+manager: wpickett
 ms.workload:
   - "cplusplus"
 ---
