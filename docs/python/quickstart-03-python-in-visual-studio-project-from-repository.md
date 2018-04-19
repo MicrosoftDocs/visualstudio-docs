@@ -21,7 +21,7 @@ Once you've [installed Python support in Visual Studio 2017](installing-python-s
 
 2. Launch Visual Studio.
 
-3. Select **View > Team Explorer...** to open the **Team Explorer** window in which you can connect to GitHub or Visual Studio Team Services, or clone a repository. (If you don't see the **Connect** page shown below, select the plug icon on the top toolbar, which takes you to that page.)
+3. Select **View > Team Explorer** to open the **Team Explorer** window in which you can connect to GitHub or Visual Studio Team Services, or clone a repository. (If you don't see the **Connect** page shown below, select the plug icon on the top toolbar, which takes you to that page.)
 
     ![Team explorer window showing Visual Studio Team Services, GitHub, and cloning a repository](media/team-explorer.png)
 
@@ -32,7 +32,7 @@ Once you've [installed Python support in Visual Studio 2017](installing-python-s
 
 5. When cloning is complete, the repository name appears in the **Local Git Repositories** list. Double-click that name to navigate to the repository dashboard in **Team Explorer**.
 
-6. Under **Solutions**, select **New...**.
+6. Under **Solutions**, select **New**.
 
     ![Team explorer window, creating a new project from a clone](media/team-explorer-new-project.png)
 
@@ -42,7 +42,7 @@ Once you've [installed Python support in Visual Studio 2017](installing-python-s
 
 9. In **Solution Explorer**, expand the `python3` node, right-click `contemplate_koans.py`, and select **Set as Startup File**. This step tells Visual Studio which file it should use when running the project.
 
-10. Select **Project > Koans Properties...** from the menu, select the **General** tab, and set **Working Directory** to "python3". This step is necessary because by default Visual Studio sets the working directory to the project root rather than the location of the startup file (`python3\contemplate_koans.py`, which you can see in the project properties as well). The program code looks for a file `koans.txt` in the working folder, so without changing this value you see a runtime error.
+10. Select **Project > Koans Properties** from the menu, select the **General** tab, and set **Working Directory** to "python3". This step is necessary because by default Visual Studio sets the working directory to the project root rather than the location of the startup file (`python3\contemplate_koans.py`, which you can see in the project properties as well). The program code looks for a file `koans.txt` in the working folder, so without changing this value you see a runtime error.
 
     ![Setting the working directory for a Python project](media/projects-set-working-directory.png)
 

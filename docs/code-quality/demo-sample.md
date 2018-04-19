@@ -2,7 +2,7 @@
 title: Demo Sample
 ms.date: 11/04/2016
 ms.technology: vs-ide-code-analysis
-ms.topic: "conceptual"
+ms.topic: sample
 helpviewer_keywords:
   - "demo sample [Visual Studio ALM]"
   - "code analysis, samples"
@@ -14,6 +14,7 @@ ms.workload:
   - "multiple"
 ---
 # Demo Sample
+
 This following procedures show you how to create the sample for [Walkthrough: Analyzing C/C++ Code for Defects](../code-quality/walkthrough-analyzing-c-cpp-code-for-defects.md). The procedures create:
 
 -   A [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution named CppDemo.
@@ -24,7 +25,7 @@ This following procedures show you how to create the sample for [Walkthrough: An
 
  The procedures also provide the code for the header and .cpp files for the static libraries.
 
-### Create the CppDemo solution and the CodeDefects project
+## Create the CppDemo solution and the CodeDefects project
 
 1.  Click the **File** menu, point to **New**, and then click **New Project**.
 
@@ -40,7 +41,7 @@ This following procedures show you how to create the sample for [Walkthrough: An
 
 7.  In the **Solution Name** text box, type **CppDemo**.
 
-### Configure the CodeDefects project as a static library
+## Configure the CodeDefects project as a static library
 
 1.  In Solution Explorer, right-click **CodeDefects** and then click **Properties**.
 
@@ -50,7 +51,7 @@ This following procedures show you how to create the sample for [Walkthrough: An
 
 4.  In **Project Defaults**, click the column next to **Configuration Type**, and then click **Static Lib (.lib)**.
 
-### Add the header and source file to the CodeDefects project
+## Add the header and source file to the CodeDefects project
 
 1.  In Solution Explorer, expand **CodeDefects**, right-click **Header Files**, click **Add**, and then click **New Item**.
 
@@ -148,7 +149,7 @@ This following procedures show you how to create the sample for [Walkthrough: An
 
 9. Click the **File** menu, and then click **Save All**.
 
-### Add the Annotations project and configure it as a static library
+## Add the Annotations project and configure it as a static library
 
 1.  In Solution Explorer, click **CppDemo**, point to **Add**, and then click **New Project**.
 
@@ -164,7 +165,7 @@ This following procedures show you how to create the sample for [Walkthrough: An
 
 7.  In **Project Defaults**, click the column next to **Configuration Type**, and then click **Static Lib (.lib)**.
 
-### Add the header file and source file to the Annotations project
+## Add the header file and source file to the Annotations project
 
 1.  In Solution Explorer, expand **Annotations**, right-click **Header Files**, click **Add**, and then click **New Item**.
 

@@ -1,10 +1,9 @@
 ---
-title: "Walkthrough - Including a NuGet package in your project | Microsoft Docs"
+title: "Walkthrough - Including a NuGet package in your project"
 description: This document covers how to include a NuGet package in a Xamarin project. It walks through finding and downloading a package, as well as introducing the IDE integration features.
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017
-ms.topic: article
 ms.assetid: 5C800815-0B13-4B27-B017-95FCEF1A0EA2
 ---
 

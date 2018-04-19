@@ -2,11 +2,11 @@
 layout: LandingPage
 author: gewarren
 ms.author: gewarren
-title: Use data tools in Visual Studio to develop data solutions | Microsoft Docs
+title: Use data tools in Visual Studio to develop data solutions
 description: Learn about tools for data solutions in Visual Studio.
-ms.technology: "vs-data-tools"
+ms.technology: vs-data-tools
 ms.topic: landing-page
-ms.workload: 
+ms.workload:
   - "data-storage"
 ---
 # Use data tools in Visual Studio to develop data solutions
@@ -108,7 +108,7 @@ Learn how to use data tools in Visual Studio to develop and test data solutions 
 
 ---
 
-<hr>    
+<hr>
 <h2>Reference</h2>
 
 <ul class="panelContent cardsW">
