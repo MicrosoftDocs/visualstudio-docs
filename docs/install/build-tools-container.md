@@ -4,7 +4,7 @@ description: "Learn how to install Visual Studio Build Tools into a Windows cont
 ms.custom: ""
 ms.date: 04/18/2018
 ms.technology: vs-acquisition
-ms-prod: visual-studio-dev15
+ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.assetid: d5c038e2-e70d-411e-950c-8a54917b578a
 author: heaths

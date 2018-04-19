@@ -4,7 +4,7 @@ description: "Learn how to use command-line parameters to control or customize y
 ms.custom: ""
 ms.date: 01/17/2018
 ms.technology: vs-acquisition
-ms-prod: visual-studio-dev15
+ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
   - "command-line parameters"

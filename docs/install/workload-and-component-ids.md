@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "install Visual Studio, administrator guide"
 ms.service:
 ms.technology: vs-acquisition
-ms-prod: visual-studio-dev15
+ms.prod: visual-studio-dev15
 ms.assetid: 34e19ef1-abfb-44fd-aad2-33c5d7874482
 ms.workload:
   - "multiple"

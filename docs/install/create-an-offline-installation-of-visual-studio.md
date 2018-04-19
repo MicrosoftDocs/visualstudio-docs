@@ -4,7 +4,7 @@ description: "Find out how to install Visual Studio offline."
 ms.custom: ""
 ms.date: 01/17/2018
 ms.technology: vs-acquisition
-ms-prod: visual-studio-dev15
+ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
   - "offline installation [Visual Studio]"

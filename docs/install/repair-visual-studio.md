@@ -7,7 +7,7 @@ ms.author: tglee
 manager: douge
 ms.date: 09/28/2017
 ms.topic: conceptual
-ms-prod: visual-studio-dev15
+ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
 ms.workload:
   - "multiple"
