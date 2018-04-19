@@ -25,7 +25,7 @@ First, you'll create a Visual Basic application project. The project type comes 
 
 1. Open Visual Studio 2017.
 
-2. From the top menu bar, choose **File** > **New** > **Project...**.
+2. From the top menu bar, choose **File** > **New** > **Project**.
 
 3. In the **New Project** dialog box in the left pane, expand **Visual Basic**, and then choose **.NET Core**. In the middle pane, choose **Console App (.NET Core)**. Then name the project *HelloWorld*.
 
@@ -78,4 +78,4 @@ Let's add some code to pause the application and then ask for user input.
 Congratulations on completing this Quickstart! We hope you learned a little bit about Visual Basic and the Visual Studio IDE. To learn more, continue with the following tutorial.
 
 > [!div class="nextstepaction"]
-> [Getting started with Visual Basic in Visual Studio](tutorial-visual-basic-console.md)
+> [Get started with Visual Basic in Visual Studio](tutorial-visual-basic-console.md)

@@ -1,5 +1,5 @@
 ---
-title: "Quickstart: use Visual Studio to create your first Node.js app | Microsoft Docs"
+title: "Quickstart: Use Visual Studio to create your first Node.js app | Microsoft Docs"
 description: In this quickstart, you create a Node.js app in Visual Studio
 ms.custom: ""
 ms.date: "11/15/2017"
@@ -17,7 +17,7 @@ ms.workload:
   - "nodejs"
 ---
 # Quickstart: Use Visual Studio to create your first Node.js app
-In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you'll create a simple Node.js web application. If you haven't already installed Visual Studio, install it for free [here](http://www.visualstudio.com).  
+In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you'll create a simple Node.js web application. If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) page to install it for free.  
 
 ## Create a project
 First, you'll create an Node.js web application project.
@@ -28,7 +28,7 @@ First, you'll create an Node.js web application project.
 
 1. Open Visual Studio 2017.  
 
-1. From the top menu bar, choose **File** > **New** > **Project...**.  
+1. From the top menu bar, choose **File** > **New** > **Project**.  
 
 1. In the **New Project** dialog box, in the left pane, expand **JavaScript**, then choose **Node.js**. In the middle pane, choose **Blank Node.js Web application**, then choose **OK**.   
 
@@ -44,9 +44,9 @@ First, you'll create an Node.js web application project.
 
    ![Solution Explorer](../ide/media/quickstart-nodejs-solution-explorer.png)  
 
-  - Highlighted in bold is your project, using the name you gave in the **New Project** dialog box. On disk, this project is represented by a .njsproj file in your project folder.
+  - Highlighted in bold is your project, using the name you gave in the **New Project** dialog box. On disk, this project is represented by a *.njsproj* file in your project folder.
 
-  - At the top level is a solution, which by default has the same name as your project. A solution, represented by a .sln file on disk, is a container for one or more related projects.
+  - At the top level is a solution, which by default has the same name as your project. A solution, represented by a *.sln* file on disk, is a container for one or more related projects.
 
   - The npm node shows any installed npm packages. You can right-click the npm node to search for and install npm packages using a dialog box.
 
@@ -54,7 +54,7 @@ First, you'll create an Node.js web application project.
 
    ![Node.js command prompt](../ide/media/quickstart-nodejs-command-prompt.png) 
 
-1. In the *server.js* file in the editor (left pane), choose `http.createServer` and then press **F12** or choose **Go To Definition** from the context (right-click) menu. This command takes you to the definition of the `createServer` function in index.d.ts.  
+1. In the *server.js* file in the editor (left pane), choose `http.createServer` and then press **F12** or choose **Go To Definition** from the context (right-click) menu. This command takes you to the definition of the `createServer` function in *index.d.ts*.  
 
    ![Go To Definition context menu](../ide/media/quickstart-nodejs-gotodefinition.png)  
 
@@ -71,13 +71,13 @@ First, you'll create an Node.js web application project.
     `res.end('Hello World\n' + res.connection.localPort);`
 
 ## Run the application
-1. Press **Ctrl+F5** (or **Debug > Start Without Debugging**) to run the application. The app opens in a browser.  
+1. Press **Ctrl**+**F5** (or **Debug > Start Without Debugging**) to run the application. The app opens in a browser.  
 
 1. In the browser window, you will see "Hello World" plus the local port number.
 
 1. Close the web browser.  
 
-Congratulations on completing this quickstart! We hope you learned a little bit about the Visual Studio IDE. If you'd like to delve deeper into its capabilities, please continue with a tutorial in the **Tutorials** section of the table of contents.  
+Congratulations on completing this Quickstart! We hope you learned a little bit about the Visual Studio IDE. If you'd like to delve deeper into its capabilities, please continue with a tutorial in the **Tutorials** section of the table of contents.  
 
 ## Next steps 
 
