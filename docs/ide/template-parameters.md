@@ -14,7 +14,7 @@ manager: douge
 ---
 # Template parameters
 
-By using parameters in your templates, you can replace the values of key portions of the template, such as class names and namespaces, when the template is instantiated. These parameters are replaced by the template wizard that runs in the background when a user chooses **OK** or **Add** in the **New Project** or **Add New Item** dialog boxes.
+You can replace values in your template when the template is instantiated. To set up this functionality, use *template parameters*. Template parameters can be used to replace values such as class names and namespaces in the template. The template wizard that runs in the background when a user adds a new item or project replaces these parameters.
 
 ## Declaring and enabling template parameters
 
@@ -32,7 +32,7 @@ Template parameters are declared in the format $*parameter*$. For example:
 
 1. Set the `ReplaceParameters` attribute of the `ProjectItem` element to `true`.
 
-1. In the code file for the project item, include parameters where appropriate. For example, the following parameter specifies that the safe project name be used for the namespace in a file:
+1. In the code file for the project item, include parameters where appropriate. For example, the following parameter specifies that the safe project name is used for the namespace in a file:
 
     ```csharp
     namespace $safeprojectname$
