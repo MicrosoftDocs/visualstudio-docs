@@ -107,6 +107,12 @@ Answer: First of all, using source control from the start, especially if you als
 
 For further discussion on source control as automation, see [The Source of Truth: The Role of Repositories in DevOps](https://msdn.microsoft.com/magazine/mt763232), an article in MSDN Magazine written for mobile apps it applies just as well to web apps.
 
+### Question: How do I remove a virtual environment that got commited to source control already?
+
+Answer: First, edit your `.gitignore` file to exclude the folder: find the section with the comment `# Python Tools for Visual Studio (PTVS)` and add an new line for the virtual environment folder, such as `/BasicProject/env`. (Because Visual Studio doesn't show the file in **Solution Explorer**, open it directly using the **File** > **Open** > **File** menu command. You can also open the file from **Team Explorer**: on the **Settings** page, select **Repository Settings**, go to the **Ignore & Attributes Files** section, then select the **Edit** link next to `.gitignore`.)
+
+Second, open a command window, navigate to the folder like `BasicProject` that contains the virtual environment folder `env`, and run `git rm -r env`. Then commit those changes from the command line (`git commit -m 'Remove venv'`) or commit from the **Changes** page of **Team Explorer**.
+
 ## Step 1-3: Create the virtual environment and exclude it from source control
 
 Now that you've configured source control for your project and turned off the auto-commit option, you can create the virtual environment the necessary Django packages that the project requires.

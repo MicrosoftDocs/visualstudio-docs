@@ -74,7 +74,7 @@ Publishing to Azure App Service from Visual Studio 2017 copies only the files in
 
 1. In Visual Studio **Solution Explorer**, right-click the project and select **Add > New Item...*. In the dialog that appears, selecting the "Azure web.config (Fast CGI)" template and select OK. This creates a `web.config` file in your project root.
 
-1. Modify the `PythonHandler` entry in `web.config` so that the path matches the Python installation on the server. For example, for Python 3.6.1 x64 the entry should appear as follows:
+1. Modify the `PythonHandler` entry in `web.config` so that the path matches the Python installation on the server (see [IIS Configuration Reference](https://www.iis.net/configreference) (iis.net) for exact details). For example, for Python 3.6.1 x64 the entry should appear as follows:
 
     ```xml
     <system.webServer>
@@ -129,6 +129,8 @@ Publishing to Azure App Service from Visual Studio 2017 copies only the files in
 1. In **Solution Explorer**, expand the folder named the same as your project, right-click the `static` folder, select **Add > New Item...**, select the "Azure static files web.config" template, and select **OK**. This action creates another `web.config` in the `static` folder that disables Python processing for that folder. This configuration sends requests for static files to the default web server rather than using the Python application.
 
 1. Save your project, then in Visual Studio **Solution Explorer**, right-click the project and select **Publish**.
+
+    ![Publish command on a project's context menu](media/template-web-publish-command.png)
 
 1. In the **Publish** tab that appears, select the publishing target:
 

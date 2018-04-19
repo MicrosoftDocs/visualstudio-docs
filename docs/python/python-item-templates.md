@@ -38,9 +38,16 @@ The following table briefly explains the effect of each item template within a P
 | Worker Role Support Files | A `bin` folder in the project root (regardless of the selected folder in the project). The folder contains default deployment and launch script, along with a `web.config` file, for Azure Cloud Service worker roles. The template also includes a `readme.html` file that explains the details. |
 | Azure web.config (FastCGI) | A `web.config` file that contains entries for apps using a [WSGI](https://wsgi.readthedocs.io/en/latest/) object to handle incoming connections. This file is typically deployed to the root of a web server running IIS, such as Azure App Service. For more information, see [Publishing to Azure App Service](publishing-python-web-applications-to-azure-from-visual-studio.md). |
 | Azure web.config (HttpPlatformHandler) | A `web.config` file that contains entries for apps that listen on a socket for incoming connections. This file is typically deployed to the root of a web server running IIS, such as Azure App Service. For more information, see [Publishing to Azure App Service](publishing-python-web-applications-to-azure-from-visual-studio.md). |
-| Azure static files web.config | A `web.config` file typically added to a `static` folder (or other folder containing static items) to disable Python handling for that folder. For more information, see [Publishing to Azure App Service](publishing-python-web-applications-to-azure-from-visual-studio.md). |
-| Azure Remote debugging web.config | A `web.config.debug` file that enables remote debugging over WebSockets, alongside `Microsoft.PythonTools.WebRole.dll` and a `ptvsd` folder containing the modules to deploy to the server to enable remote debugging. You typically create this item in the same place as your `web.config` file. For more information, see [Remotely debugging Python code on Azure](debugging-remote-python-code-on-azure.md)   |
+| Azure static files web.config | A `web.config` file typically added to a `static` folder (or other folder containing static items) to disable Python handling for that folder. This config file works in conjunction with one of the FastCGI or HttpPlatformHandler config files above. For more information, see [Publishing to Azure App Service](publishing-python-web-applications-to-azure-from-visual-studio.md). |
+| Azure Remote debugging web.config | A `web.config.debug` file that enables remote debugging over WebSockets, alongside `Microsoft.PythonTools.WebRole.dll` and a `ptvsd` folder containing the modules to deploy to the server to enable remote debugging. You typically create this item in the same place as your `web.config` file. For more information, see [Remotely debugging Python code on Azure](debugging-remote-python-code-on-azure.md). Also see the note below. |
+
+> [!Note]
+> If you add the debugging `web.config` template to a project and plan to use Python remote debugging, you need to publish the site in "Debug" configuration. This setting is separate from the current active solution configuration and always defaults to "Release." To change it, open the **Settings** tab and use the **Configuration** combo box in the publish wizard (see the [Azure documentation](https://azure.microsoft.com/develop/python/) for more information on creating and deploying to Azure Web Apps):
+>
+> ![Changing the publish configuration](media/template-web-publish-config.png)
 
 ## See also
 
 - [Managing Python projects - project templates](managing-python-projects-in-visual-studio.md#project-templates)
+- [Python web project templates](python-web-application-project-templates.md)
+- [Publishing to Azure app service](publishing-python-web-applications-to-azure-from-visual-studio.md)
