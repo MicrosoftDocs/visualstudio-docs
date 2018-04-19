@@ -26,7 +26,7 @@ In this step you now learn how to:
 > - Render a view using HTML (step 2-3)
 > - Render a view using a Django page template (step 2-4)
 
-## Step 2-1: create an app with a default structure
+## Step 2-1: Create an app with a default structure
 
 A Django app is a separate Python package that contains a set of related files for a specific purpose. A Django project can contain any number of apps, which reflects the fact that a web host can serve any number of separate entry points from a single domain name. For example, a Django project for a domain like contoso.com might contain one app for www.contoso.com, a second app for support.contoso.com, and a third app for docs.contoso.com. In this case, the Django project handles site-level URL routing and settings (in its `urls.py` and `settings.py` files), while each app has its own distinct styling and behavior through its internal routing, views, models, static files, and administrative interface.
 
@@ -121,7 +121,7 @@ If you don't use a trailing $ in a regular expression, as with `^home`, then URL
 
 To experiment with different regular expressions, try online tools such as [regex101.com](https://regex101.com) at [pythex.org](http://www.pythex.org).
 
-## Step 2-3: render a view using HTML
+## Step 2-3: Render a view using HTML
 
 The `index` function that you have so far in `views.py` generates nothing more than a plain-text HTTP response for the page. Most real-world web pages, of course, respond with rich HTML pages that often incorporate live data. Indeed, the primary reason to define a view using a function is so you can generated that content dynamically.
 
@@ -142,7 +142,7 @@ def index(request):
 
 Run the project again to see a message like "**Hello Django!** on Monday, 16 April, 2018 at 16:28:10". Refresh the page to update the time and confirm that the content is being generated with each request. Stop the server when you're done.
 
-## Step 2-4: render a view using a page template
+## Step 2-4: Render a view using a page template
 
 Generating HTML in code works fine for very small pages, but as pages get more sophisticated you typically want to maintain the static HTML parts of your page (along with references to CSS and JavaScript files) as "page templates" into which you then insert dynamic, code-generated content. In the previous section, only the date and time from the `now.strftime` call is dynamic, which means all the other content can be placed in a page template.
 
