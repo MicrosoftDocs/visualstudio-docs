@@ -1,12 +1,11 @@
 ---
-title: "Nesting Shapes | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Nesting Shapes
+ms.date: 11/04/2016
+ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ms.technology: vs-ide-modeling
 ---

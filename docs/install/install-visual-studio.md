@@ -4,7 +4,7 @@ description: "Learn how to install Visual Studio, step-by-step."
 ms.custom: ""
 ms.date: 12/04/2017
 ms.technology: vs-acquisition
-ms-prod: visual-studio-dev15
+ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
   - "vs.about"

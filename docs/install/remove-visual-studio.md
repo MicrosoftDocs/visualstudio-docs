@@ -4,7 +4,7 @@ description: "Learn how to completely remove Visual Studio from your computer, s
 ms.custom: ""
 ms.date: 09/12/2017
 ms.technology: vs-acquisition
-ms-prod: visual-studio-dev15
+ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
   - "uninstall"
