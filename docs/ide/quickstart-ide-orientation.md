@@ -17,13 +17,13 @@ In this 5-10 minute introduction to the Visual Studio integrated development env
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) page to install it for free.
 
-## Start page
+## Start Page
 
-The first thing you'll see after you launch Visual Studio is most likely the **Start** page. The **Start** page is designed as a "hub" to help you find the commands and project files you need faster. The **Recent** section displays projects and folders you've worked on recently. Under **New project**, you can click a link to bring up the **New Project** dialog box, or under **Open**, you can open an existing project or code folder. On the right is a feed of the latest developer news.
+The first thing you'll see after you launch Visual Studio is most likely the **Start Page**. The **Start Page** is designed as a "hub" to help you find the commands and project files you need faster. The **Recent** section displays projects and folders you've worked on recently. Under **New project**, you can click a link to bring up the **New Project** dialog box, or under **Open**, you can open an existing project or code folder. On the right is a feed of the latest developer news.
 
 ![VS Start Page](media/quickstart-IDE-start-page.png)
 
-If you close the **Start** page and want to see it again, you can reopen it from the **File** menu.
+If you close the **Start Page** and want to see it again, you can reopen it from the **File** menu.
 
 ![File menu](media/quickstart-IDE-file-menu-large.png)
 
@@ -67,7 +67,7 @@ Let's build the project to see some output logging. From the **Build** menu, cho
 
 The **Quick Launch** box is a quick and easy way to do pretty much anything in the IDE. You can enter some text related to what you want to do, and it'll show you a list of options that pertain to the text. For example, let's say we want to increase the build output's verbosity to display additional logging information about what exactly build is doing:
 
-1. Enter `verbosity` into the **Quick Launch** box, and then choose **Projects and Solutions > Build and Run** under the **Options** category.
+1. Enter `verbosity` into the **Quick Launch** box, and then choose **Projects and Solutions --> Build and Run** under the **Options** category.
 
    ![Quick launch box](media/quickstart-IDE-quick-launch.png)
 

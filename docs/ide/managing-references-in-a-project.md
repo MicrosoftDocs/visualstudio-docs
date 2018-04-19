@@ -86,7 +86,7 @@ When you make a reference to an assembly in your project, Visual Studio searches
 > [!NOTE]
 > - All projects contain an implied reference to **mscorlib**.
 > - All projects contain an implied reference to `System.Core`, even if `System.Core` is removed from the list of references.
-> - Visual Basic projects contain an implied reference to <xref:Microsoft.VisualBasic>`.
+> - Visual Basic projects contain an implied reference to <xref:Microsoft.VisualBasic>.
 
 ## References to shared components at run time
 

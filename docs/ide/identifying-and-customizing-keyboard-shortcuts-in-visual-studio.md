@@ -67,7 +67,7 @@ If a shortcut is assigned to a command in the Global context and no other contex
 
 4. In the list, choose the command to which you want to assign a keyboard shortcut.
 
-In the **Use new shortcut in** list, choose the feature area in which you want to use the shortcut.
+    In the **Use new shortcut in** list, choose the feature area in which you want to use the shortcut.
 
     For example, you can choose **Global** if you want the shortcut to work in all contexts. You can use any shortcut that isn't mapped (as Global) in another editor. Otherwise, the editor overrides the shortcut.
 
