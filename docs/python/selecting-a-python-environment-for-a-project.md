@@ -102,7 +102,7 @@ In Solution Explorer, expand any specific environment's node to quickly view the
 
 To install new packages, right-click the environment and select **Install Python Package...** to switch to the **Packages** tab in the **Python Environments** window. Enter a search term (usually the package name) and Visual Studio displays matching packages.
 
-Within Visual Studio, packages (and dependencies) are downloaded from the [Python Package Index (PyPI)](https://pypi.python.org/pypi), where you can also search for available packages. Visual Studio's status bar and output window show information about the install. To uninstall a package, right-click it select **Remove**.
+Within Visual Studio, packages (and dependencies) are downloaded from the [Python Package Index (PyPI)](https://pypi.org), where you can also search for available packages. Visual Studio's status bar and output window show information about the install. To uninstall a package, right-click it select **Remove**.
 
 Be aware that the displayed entries may not always be accurate, and installation and uninstallation may not be reliable or available. Visual Studio uses the pip package manager if available, and downloads and installs it when required. Visual Studio can also use the easy_install package manager. Packages installed using `pip` or `easy_install` from the command line are also displayed.
 

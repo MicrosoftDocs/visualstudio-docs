@@ -8,7 +8,7 @@ manager: douge
 ms.date: 04/18/2018
 ms.topic: reference
 helpviewer_keywords:
-ms-prod: visual-studio-dev15
+ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
 ms.workload:
   - "multiple"
