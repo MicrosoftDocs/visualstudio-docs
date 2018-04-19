@@ -24,9 +24,9 @@ ms.workload:
 
 Visual Studio provides templates to help you get started creating Azure Cloud Services using Python.
 
-A [cloud service](http://go.microsoft.com/fwlink/?LinkId=306052) consists of any number of *worker roles* and *web roles*, each of which performs a conceptually separate task but can be separately replicated across virtual machines as needed for scaling. Web roles provide hosting for front-end web applications. Where Python is concerned, any web framework that supports WSGI can be used to write such an application (as supported by the [Web project template](python-web-application-project-templates.md)). Worker roles are intended for long-running processes that do not interact directly with users. They typically make use of the [data](http://go.microsoft.com/fwlink/?LinkId=401571) and [app service](http://go.microsoft.com/fwlink/?LinkId=401572) libraries, which may be installed with [`pip install azure`](http://pypi.org/project/azure).
+A [cloud service](https://docs.microsoft.com/en-us/azure/cloud-services/) consists of any number of *worker roles* and *web roles*, each of which performs a conceptually separate task but can be separately replicated across virtual machines as needed for scaling. Web roles provide hosting for front-end web applications. Where Python is concerned, any web framework that supports WSGI can be used to write such an application (as supported by the [Web project template](python-web-application-project-templates.md)). Worker roles are intended for long-running processes that do not interact directly with users. They typically make use of the packages within the "azure" package, which is installed with [`pip install azure`](http://pypi.org/project/azure).
 
-This article contains details about the project template and other support in Visual Studio 2017 (earlier versions are similar, but with some differences). For more about working with Azure from Python, visit the [Azure Python Developer Center](http://go.microsoft.com/fwlink/?linkid=254360).
+This article contains details about the project template and other support in Visual Studio 2017 (earlier versions are similar, but with some differences). For more about working with Azure from Python, visit the [Azure Python Developer Center](https://docs.microsoft.com/en-us/python/azure/?view=azure-python).
 
 ## Create a project
 

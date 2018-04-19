@@ -78,7 +78,7 @@ Here, you use the following steps to install the Flask library into the default 
 
 **Question: Where do I learn more about other available Python packages?**
 
-**Answer**: Visit the [Python Package Index](https://pypi.python.org/pypi) (pypi.python.org).
+**Answer**: Visit the [Python Package Index](https://pypi.org/) (pypi.org).
 
 ## Add a code file
 
