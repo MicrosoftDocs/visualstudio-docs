@@ -100,7 +100,7 @@ Or more simply: the first *Directory.Build.props* which doesn't import anything,
 
 ## MSBuildProjectExtensionsPath
 
-By default, `Microsoft.Common.props` imports `$(MSBuildProjectExtensionsPath)$(MSBuildProjectFile).*.props` and `Microsoft.Common.targets` imports `$(MSBuildProjectExtensionsPath)$(MSBuildProjectFile).*.targets`. The default value of `MSBuildProjectExtensionsPath` is `$(BaseIntermediateOutputPath)`, `obj/`. This is the mechanism that NuGet uses to refer to build logic delivered with packages--at restore time, it creates `{project}.nuget.g.props` files that refer to the package contents.
+By default, `Microsoft.Common.props` imports `$(MSBuildProjectExtensionsPath)$(MSBuildProjectFile).*.props` and `Microsoft.Common.targets` imports `$(MSBuildProjectExtensionsPath)$(MSBuildProjectFile).*.targets`. The default value of `MSBuildProjectExtensionsPath` is `$(BaseIntermediateOutputPath)`, `obj/`. This is the mechanism that NuGet uses to refer to build logic delivered with packages, that is, at restore time, it creates `{project}.nuget.g.props` files that refer to the package contents.
 
 This extensibility mechanism can be disabled by setting the property `ImportProjectExtensionProps` to `false` in a `Directory.Build.props` or before importing `Microsoft.Common.props`.
 
@@ -114,7 +114,7 @@ Microsoft.Common.CurrentVersion.targets imports `$(MSBuildProjectFullPath).user`
 ## MSBuildExtensionsPath and MSBuildUserExtensionsPath
 
 > [!WARNING]
-> Using these extension mechanisms makes it harder to get repeatable builds across machines. Prefer configuration that can be checked into your source control system and shared among all developers of your codebase.
+> Using these extension mechanisms makes it harder to get repeatable builds across machines. Try to use a configuration that can be checked into your source control system and shared among all developers of your codebase.
 
 By convention, many core build logic files import
 
