@@ -1,5 +1,5 @@
 ---
-title: "What's New in Visual Studio 2017"
+title: "What's new in Visual Studio 2017"
 ms.custom: ""
 ms.date: 12/04/2017
 ms.technology: vs-acquisition
@@ -17,7 +17,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# What&#39;s New in Visual Studio 2017
+# What&#39;s new in Visual Studio 2017
 #### Updated for the [15.6 release](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes)
 Looking to upgrade from a previous version of Visual Studio? Here's what Visual Studio 2017 can offer you: Unparalleled productivity for any dev, any app, and any platform. Use Visual Studio 2017 to develop apps for Android, iOS, Windows, Linux, web, and cloud. Code fast, debug and diagnose with ease, test often, and release with confidence. You can also extend and customize Visual Studio by building your own extensions. Use version control, be agile, and collaborate efficiently with this release!
 
@@ -294,7 +294,7 @@ If you want to make a suggestion about how we can improve Visual Studio, or repo
 ### Track your issue in Connect  
  If want to track the status of your Visual Studio feedback, go to [Connect](http://connect.microsoft.com/) and report the bug there. After you report it, you can return to Connect to track its status.  
 
-## See Also
+## See also
 * [Visual Studio 2017 Release Notes](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes)
 * [What's New in Visual C++](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio)
 * [What's New in C#](/dotnet/csharp/whats-new)  
