@@ -52,7 +52,7 @@ You can add these members to types on a class diagram and configure those member
 |Module (VB Only)|method, property, field, event, constructor, constant|  
   
 > [!NOTE]
->  Make property declaration more concise when a property's get and set accessors don't need additional logic by using auto-implemented properties (C# only). To show the full signature, from the **Class Diagram** menu, choose **Change Members Format**, **Display Full Signature**. For more information about auto-implemented properties, see [Auto-Implemented Properties](../Topic/Auto-Implemented%20Properties%20\(C%23%20Programming%20Guide\).md).  
+>  Make property declaration more concise when a property's get and set accessors don't need additional logic by using auto-implemented properties (C# only). To show the full signature, from the **Class Diagram** menu, choose **Change Members Format**, **Display Full Signature**. For more information about auto-implemented properties, see [Auto-Implemented Properties](http://msdn.microsoft.com/library/aa55fa97-ccec-431f-b5e9-5ac789fd32b7).  
   
 ## Common Tasks  
   

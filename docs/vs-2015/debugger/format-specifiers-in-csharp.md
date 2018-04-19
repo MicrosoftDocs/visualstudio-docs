@@ -62,7 +62,7 @@ You can change the format in which a value is displayed in the **Watch** window 
   
 |Specifier|Format|Original Watch Value|Displays|  
 |---------------|------------|--------------------------|--------------|  
-|ac|Force evaluation of an expression. This can be useful when implicit evaluation of properties and implicit function calls is turned off. See [Side Effects and Expressions](../Topic/Side%20Effects%20and%20Expressions.md).|Message “Implicit function evaluation is turned off by the user”|\<value>|  
+|ac|Force evaluation of an expression. This can be useful when implicit evaluation of properties and implicit function calls is turned off. See [Side Effects and Expressions](http://msdn.microsoft.com/library/e1f8a6ea-9e19-481d-b6bd-df120ad3bf4e).|Message “Implicit function evaluation is turned off by the user”|\<value>|  
 |d|decimal integer|0x0065|101|  
 |dynamic|Displays the specified object using a Dynamic View|Displays all the members of the object, including the Dynamic View|Displays only the Dynamic View|  
 |h|hexadecimal integer|61541|0x0000F065|  
@@ -73,7 +73,7 @@ You can change the format in which a value is displayed in the **Watch** window 
   
 ## See Also  
  [Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md)   
- [Variable Windows](../Topic/Variable%20Windows.md)
+ [Variable Windows](http://msdn.microsoft.com/library/ce0a67f6-2502-4b7a-ba45-cc32f8aeba3e)
 
 
 

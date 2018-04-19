@@ -26,7 +26,7 @@ manager: "ghogen"
 The latest version of this topic can be found at [Add code to datasets in n-tier applications](https://docs.microsoft.com/visualstudio/data-tools/add-code-to-datasets-in-n-tier-applications).  
   
   
-You can extend the functionality of a dataset by creating a partial class file for the dataset and adding code to it (instead of adding code to the *DatasetName*.Dataset.Designer file). Partial classes enable code for a specific class to be divided among multiple physical files. For more information, see [Partial](../Topic/Partial%20\(Visual%20Basic\).md) or [Partial Classes and Methods](../Topic/Partial%20Classes%20and%20Methods%20\(C%23%20Programming%20Guide\).md).  
+You can extend the functionality of a dataset by creating a partial class file for the dataset and adding code to it (instead of adding code to the *DatasetName*.Dataset.Designer file). Partial classes enable code for a specific class to be divided among multiple physical files. For more information, see [Partial](http://msdn.microsoft.com/library/7adaef80-f435-46e1-970a-269fff63b448) or [Partial Classes and Methods](http://msdn.microsoft.com/library/804cecb7-62db-4f97-a99f-60975bd59fa1).  
   
  The code that defines a dataset is generated every time changes are made to the dataset definition (in the [Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md)). This code is also generated when you make changes during the running of any wizard that modifies the configuration of a dataset. To prevent your code from being deleted during the regeneration of a dataset, add code to the dataset's partial class file.  
   
@@ -70,9 +70,9 @@ You can extend the functionality of a dataset by creating a partial class file f
 ## See Also  
  [N-Tier Data Applications Overview](../data-tools/n-tier-data-applications-overview.md)   
  [Add code to TableAdapters in n-tier applications](../data-tools/add-code-to-tableadapters-in-n-tier-applications.md)   
- [TableAdapters](../Topic/TableAdapters.md)   
- [TableAdapterManager Overview](../Topic/TableAdapterManager%20Overview.md)   
- [Hierarchical Update Overview](../Topic/Hierarchical%20Update%20Overview.md)   
+ [TableAdapters](http://msdn.microsoft.com/library/09416de9-134c-4dc7-8262-6c8d81e3f364)   
+ [TableAdapterManager Overview](http://msdn.microsoft.com/library/33076d42-6b41-491a-ac11-6c6339aea650)   
+ [Hierarchical Update Overview](http://msdn.microsoft.com/library/c4f8e8b9-e4a5-4a02-8462-d03d1e8222d6)   
  [Creating Data Applications](../data-tools/creating-data-applications.md)   
  [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md)
 

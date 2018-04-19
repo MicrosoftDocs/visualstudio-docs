@@ -23,4 +23,4 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # Overview of Derived Classes
-This content has moved to  [Inheritance](../Topic/Inheritance%20%20\(C++\).md)
+This content has moved to  [Inheritance](http://msdn.microsoft.com/library/3534ca19-d9ed-4a40-be1b-b921ad0e6956)

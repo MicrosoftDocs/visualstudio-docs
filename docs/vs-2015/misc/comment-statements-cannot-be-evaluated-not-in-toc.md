@@ -26,5 +26,5 @@ A comment statement has been entered in the Immediate Window during a debugging 
  **Error ID:** BC30974  
   
 ## See Also  
- [Debugging Your Visual Basic Application](../Topic/Debugging%20Your%20Visual%20Basic%20Application.md)   
+ [Debugging Your Visual Basic Application](http://msdn.microsoft.com/library/904760b8-9fe9-42a7-9d65-d93774253219)   
  [Immediate Window](../ide/reference/immediate-window.md)

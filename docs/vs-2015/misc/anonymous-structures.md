@@ -21,4 +21,4 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # Anonymous Structures
-This content has moved to [Anonymous Class Types](../Topic/Anonymous%20Class%20Types.md)
+This content has moved to [Anonymous Class Types](http://msdn.microsoft.com/library/9ba667b2-8c2a-4c29-82a6-fa120b9233c8)

@@ -29,7 +29,7 @@ The `IVsPackageImpl` class in the Visual Studio Library provides a minimal imple
     > [!NOTE]
     >  The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Package Template generates all the code discussed here. You can save time by using the template to generate a VSPackage for you.  
   
- Packages that are implemented by using the Visual Studio Library typically inherit a VSPackage class from ATL's [CComObjectRootEx Class](../Topic/CComObjectRootEx%20Class.md) and [CComCoClass Class](../Topic/CComCoClass%20Class.md) and Visual Studio Library's IVsPackageImpl. For example, following is the VSPackage class declaration from the Reference.Package sample:  
+ Packages that are implemented by using the Visual Studio Library typically inherit a VSPackage class from ATL's [CComObjectRootEx Class](http://msdn.microsoft.com/library/894a3d7c-2daf-4fd0-8fa4-e6a05bcfb631) and [CComCoClass Class](http://msdn.microsoft.com/library/67cfefa4-8df9-47fa-ad58-2d1a1ae25762) and Visual Studio Library's IVsPackageImpl. For example, following is the VSPackage class declaration from the Reference.Package sample:  
   
 ```  
 class ATL_NO_VTABLE BasicPackage :   
@@ -51,7 +51,7 @@ BEGIN_COM_MAP(BasicPackage)
 END_COM_MAP()  
 ```  
   
- For more information about COM maps, see [Implementing CComObjectRootEx](../Topic/Implementing%20CComObjectRootEx.md) and [COM_INTERFACE_ENTRY Macros](../Topic/COM_INTERFACE_ENTRY%20Macros.md).  
+ For more information about COM maps, see [Implementing CComObjectRootEx](http://msdn.microsoft.com/library/79630c44-f2df-4e9e-b730-400a0ebfbd2b) and [COM_INTERFACE_ENTRY Macros](http://msdn.microsoft.com/library/19dcb768-2e1f-4b8d-a618-453a01a4bd00).  
   
 ## Supporting Registration with Registry Maps  
  Visual Studio Library uses ATL-style .RGS files to support registration of COM objects. To support token replacement in the .RGS file, Visual Studio Library uses registry maps. Registry maps list symbols to be replaced and support the use of IDs for string table resources.  

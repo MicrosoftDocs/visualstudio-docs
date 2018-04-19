@@ -42,7 +42,7 @@ double p() const;
  The `p` parameter from the stored `param_type`.  
   
 ## Remarks  
- For a code example, see [binomial_distribution Class](../Topic/binomial_distribution%20Class.md).  
+ For a code example, see [binomial_distribution Class](http://msdn.microsoft.com/library/b7c8a26a-da8c-45a5-a3a8-208f7a3609ce).  
   
 ## Requirements  
  **Header:** \<random>  
@@ -50,6 +50,6 @@ double p() const;
  **Namespace:** std  
   
 ## See Also  
- [\<random>](../Topic/%3Crandom%3E.md)   
- [binomial_distribution Class](../Topic/binomial_distribution%20Class.md)   
+ [\<random>](http://msdn.microsoft.com/library/60afc25c-b162-4811-97c1-1b65398d4c57)   
+ [binomial_distribution Class](http://msdn.microsoft.com/library/b7c8a26a-da8c-45a5-a3a8-208f7a3609ce)   
  [binomial_distribution::t](../misc/binomial-distribution-t.md)

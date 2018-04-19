@@ -24,7 +24,7 @@ manager: "ghogen"
 
 The latest version of this topic can be found at [IDiaSymbol::get_isHotpatchable](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-ishotpatchable).  
   
-Retrieves a flag indicating whether the module was compiled with the [/hotpatch (Create Hotpatchable Image)](../Topic/-hotpatch%20\(Create%20Hotpatchable%20Image\).md) compiler switch.  
+Retrieves a flag indicating whether the module was compiled with the [/hotpatch (Create Hotpatchable Image)](http://msdn.microsoft.com/library/aad539b6-c053-4c78-8682-853d98327798) compiler switch.  
   
 ## Syntax  
   

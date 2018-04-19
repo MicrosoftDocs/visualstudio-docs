@@ -20,6 +20,6 @@ ms.author: "ghogen"
 manager: "douge"
 ---
 # for_each (STL Samples)
-Topic deprecated, see [Welcome Back to C++](../Topic/Welcome%20Back%20to%20C++%20\(Modern%20C++\).md) and [Range-based for Statement (C++)](../Topic/Range-based%20for%20Statement%20\(C++\).md).  
+Topic deprecated, see [Welcome Back to C++](http://msdn.microsoft.com/library/1cb1b849-ed9c-4721-a972-fd8f3dab42e2) and [Range-based for Statement (C++)](http://msdn.microsoft.com/library/5750ba1d-ba48-4236-a923-e32de8345c2d).  
   
 ## Syntax

@@ -22,4 +22,4 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # Initializing References
-This content has moved to [Initializers](../Topic/Initializers.md)
+This content has moved to [Initializers](http://msdn.microsoft.com/library/ce301ed8-aa1c-47b2-bb39-9f0541b4af85)

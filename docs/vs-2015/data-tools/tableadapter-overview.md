@@ -47,7 +47,7 @@ TableAdapters are designer-generated components that connect to a database, exec
  [!code-vb[VbRaddataTableAdapters#7](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataTableAdapters/VB/Class1.vb#7)]  
   
 ## Associated DataTable Schema  
- When creating a TableAdapter, the initial query or stored procedure is used to define the schema of the TableAdapter's associated <xref:System.Data.DataTable>. You execute this initial query or stored procedure by calling the TableAdapter's `Fill` method (which fills the TableAdapter's associated <xref:System.Data.DataTable>). Any changes made to the TableAdapter's main query are reflected in the schema of the associated data table. For example, removing a column from the main query removes the column from the associated data table. If any additional queries on the TableAdapter use SQL statements returning columns that are not in the main query, then the designer will attempt to synchronize the column changes between the main query and any additional queries. For more information, see [How to: Edit TableAdapters](../Topic/How%20to:%20Edit%20TableAdapters.md).  
+ When creating a TableAdapter, the initial query or stored procedure is used to define the schema of the TableAdapter's associated <xref:System.Data.DataTable>. You execute this initial query or stored procedure by calling the TableAdapter's `Fill` method (which fills the TableAdapter's associated <xref:System.Data.DataTable>). Any changes made to the TableAdapter's main query are reflected in the schema of the associated data table. For example, removing a column from the main query removes the column from the associated data table. If any additional queries on the TableAdapter use SQL statements returning columns that are not in the main query, then the designer will attempt to synchronize the column changes between the main query and any additional queries. For more information, see [How to: Edit TableAdapters](http://msdn.microsoft.com/library/ca178745-e35a-45f1-a395-23cddfd8f855).  
   
 ## TableAdapter Update Commands  
  The update functionality of a TableAdapter is dependent on how much information is available based on the main query provided in the TableAdapter Wizard. For example, TableAdapters that are configured to fetch values from multiple tables (JOINs), scalar values, views, or the results of aggregate functions are not initially created with the ability to send updates back to the underlying database. However, you can configure the INSERT, UPDATE and DELETE commands manually in the **Properties** window.  
@@ -75,7 +75,7 @@ TableAdapters are designer-generated components that connect to a database, exec
 |`TableAdapter.Fill`|Populates the TableAdapter's associated data table with the results of the TableAdapter's SELECT command. For more information, see [How to: Fill a dataset with data](../data-tools/how-to-fill-a-dataset-with-data.md).|  
 |`TableAdapter.Update`|Sends changes back to the database and returns an integer representing the number of rows affected by the update. For more information, see [Update data by using a TableAdapter](../data-tools/update-data-by-using-a-tableadapter.md).|  
 |`TableAdapter.GetData`|Returns a new <xref:System.Data.DataTable> filled with data.|  
-|`TableAdapter.Insert`|Creates a new row in the data table. For more information, see [How to: Add Rows to a DataTable](../Topic/How%20to:%20Add%20Rows%20to%20a%20DataTable.md).|  
+|`TableAdapter.Insert`|Creates a new row in the data table. For more information, see [How to: Add Rows to a DataTable](http://msdn.microsoft.com/library/78ebbb43-c402-49cf-81da-0715289487bf).|  
 |`TableAdapter.ClearBeforeFill`|Determines whether a data table is emptied before you call one of the `Fill` methods.|  
   
 ## TableAdapter Update Method  
@@ -92,15 +92,15 @@ TableAdapters are designer-generated components that connect to a database, exec
  If you do not want to create these direct methods, set the TableAdapter's **GenerateDbDirectMethods** property to `false` (in the **Properties** window). Additional queries added to the TableAdapter are standalone queries — they do not generate these methods.  
   
 ## TableAdapter Support for Nullable Types  
- The TableAdapters support nullable types `Nullable(Of T)` and `T?`. For more information on nullable types in Visual Basic, see [Nullable Value Types](../Topic/Nullable%20Value%20Types%20\(Visual%20Basic\).md). For more information on nullable types in C#, see [Using Nullable Types](../Topic/Using%20Nullable%20Types%20\(C%23%20Programming%20Guide\).md).  
+ The TableAdapters support nullable types `Nullable(Of T)` and `T?`. For more information on nullable types in Visual Basic, see [Nullable Value Types](http://msdn.microsoft.com/library/9ac3b602-6f96-4e6d-96f7-cd4e81c468a6). For more information on nullable types in C#, see [Using Nullable Types](http://msdn.microsoft.com/library/0bacbe72-ce15-4b14-83e1-9c14e6380c28).  
   
 ## See Also  
- [Data Walkthroughs](../Topic/Data%20Walkthroughs.md)   
+ [Data Walkthroughs](http://msdn.microsoft.com/library/15a88fb8-3bee-4962-914d-7a1f8bd40ec4)   
  [How to: Connect to Data in a Database](../data-tools/how-to-connect-to-data-in-a-database.md)   
- [Walkthrough: Connecting to Data in a Database (Windows Forms)](../Topic/Walkthrough:%20Connecting%20to%20Data%20in%20a%20Database%20\(Windows%20Forms\).md)   
- [Preparing Your Application to Receive Data](../Topic/Preparing%20Your%20Application%20to%20Receive%20Data.md)   
+ [Walkthrough: Connecting to Data in a Database (Windows Forms)](http://msdn.microsoft.com/library/02d39aa6-8993-4602-be13-a13536af3d1c)   
+ [Preparing Your Application to Receive Data](http://msdn.microsoft.com/library/c17bdb7e-c234-4f2f-9582-5e55c27356ad)   
  [Fetching Data into Your Application](../data-tools/fetching-data-into-your-application.md)   
  [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)   
  [Editing Data in Your Application](../data-tools/editing-data-in-your-application.md)   
- [Validating Data](../Topic/Validating%20Data.md)   
+ [Validating Data](http://msdn.microsoft.com/library/b3a9ee4e-5d4d-4411-9c56-c811f2b4ee7e)   
  [Saving Data](../data-tools/saving-data.md)

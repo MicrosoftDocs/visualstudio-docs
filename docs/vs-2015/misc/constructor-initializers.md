@@ -21,4 +21,4 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # Constructor Initializers
-Content has moved to  [Summary of Scope Rules](../Topic/Summary%20of%20Scope%20Rules.md).
+Content has moved to  [Summary of Scope Rules](http://msdn.microsoft.com/library/47e26482-0111-466f-b857-598c15d05105).

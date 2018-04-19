@@ -24,7 +24,7 @@ manager: "ghogen"
 
 The latest version of this topic can be found at [IDiaSymbol::get_noInline](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-noinline).  
   
-Retrieves a flag that specifies whether the function has been marked as being not inline (using the [noinline](../Topic/noinline.md) attribute).  
+Retrieves a flag that specifies whether the function has been marked as being not inline (using the [noinline](http://msdn.microsoft.com/library/f259d55b-dec7-4bde-8cf9-14521e4fdc42) attribute).  
   
 ## Syntax  
   
@@ -53,7 +53,7 @@ HRESULT get_noInline(
   
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
- [noinline](../Topic/noinline.md)
+ [noinline](http://msdn.microsoft.com/library/f259d55b-dec7-4bde-8cf9-14521e4fdc42)
 
 
 

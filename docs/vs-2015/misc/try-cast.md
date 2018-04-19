@@ -26,7 +26,7 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # __try_cast
-**Note** This topic applies only to version 1 of Managed Extensions for C++. This syntax should only be used to maintain version 1 code. See [safe_cast](../Topic/safe_cast%20\(C++%20Component%20Extensions\).md) for information on using the equivalent functionality in the new syntax.  
+**Note** This topic applies only to version 1 of Managed Extensions for C++. This syntax should only be used to maintain version 1 code. See [safe_cast](http://msdn.microsoft.com/library/4fa688bf-a8ec-49bc-a4c5-f48134efa4f7) for information on using the equivalent functionality in the new syntax.  
   
  Performs the specified cast or throws an exception if the cast fails.  
   
@@ -40,11 +40,11 @@ __try_cast <
 ```  
   
 ## Remarks  
- The `__try_cast` keyword (similar in behavior to [dynamic_cast](../Topic/dynamic_cast%20Operator.md)) provides support for automatically throwing an exception (of type **System::InvalidCastException**) whenever the specified casting operation fails.  
+ The `__try_cast` keyword (similar in behavior to [dynamic_cast](http://msdn.microsoft.com/library/f380ada8-6a18-4547-93c9-63407f19856b)) provides support for automatically throwing an exception (of type **System::InvalidCastException**) whenever the specified casting operation fails.  
   
  The `__try_cast` keyword can be used during the testing phase of your application, automatically alerting you to possible casting failures.  
   
- When porting Managed Extensions for C++, replace `__try_cast` calls with [safe_cast](../Topic/safe_cast%20\(C++%20Component%20Extensions\).md).  
+ When porting Managed Extensions for C++, replace `__try_cast` calls with [safe_cast](http://msdn.microsoft.com/library/4fa688bf-a8ec-49bc-a4c5-f48134efa4f7).  
   
  `__try_cast` does not work on casts of pointer to value types ([__value](../misc/value.md)), since it is not possible to check the types at runtime.  
   

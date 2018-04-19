@@ -30,5 +30,5 @@ The object being referenced has not been set, or has been set to the value `Noth
 -   Verify that the name of object is spelled correctly, and that the object has been set.  
   
 ## See Also  
- [Nothing](../Topic/Nothing%20\(Visual%20Basic\).md)   
+ [Nothing](http://msdn.microsoft.com/library/06176e2d-bbf7-4a37-afaa-a86ad21ee99f)   
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)

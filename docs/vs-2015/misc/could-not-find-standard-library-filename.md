@@ -42,6 +42,6 @@ manager: "wpickett"
 5.  Note the exact file name and extension and contact Microsoft Product Support Services.  
   
 ## See Also  
- [Building from the Command Line](../Topic/Building%20from%20the%20Command%20Line%20\(Visual%20Basic\).md)   
- [How to: Invoke the Command-Line Compiler](../Topic/How%20to:%20Invoke%20the%20Command-Line%20Compiler%20\(Visual%20Basic\).md)   
+ [Building from the Command Line](http://msdn.microsoft.com/library/e61947e9-a42e-4717-a699-5f70a98cdd03)   
+ [How to: Invoke the Command-Line Compiler](http://msdn.microsoft.com/library/0fd9a8f6-f34e-4c35-a49d-9b9bbd8da4a9)   
  [Talk to Us](../ide/talk-to-us.md)

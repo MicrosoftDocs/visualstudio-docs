@@ -33,6 +33,6 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # inline, __inline, __forceinline
-This content has moved to [Inline Functions](../Topic/Inline%20Functions%20\(C++\).md)  
+This content has moved to [Inline Functions](http://msdn.microsoft.com/library/355f120c-2847-4608-ac04-8dda18ffe10c)  
   
 ## Syntax

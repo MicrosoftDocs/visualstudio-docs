@@ -29,5 +29,5 @@ A file node that has been read from the .vbproj or .csproj file is missing certa
      Any file for which the `RelPath` attribute is missing will not be added to the project.  
   
 ## See Also  
- [Project Files](../Topic/Project%20Files.md)   
+ [Project Files](http://msdn.microsoft.com/library/5261cf45-3136-40a6-899e-dc1339551401)   
  [NIB: Project Properties (Visual Studio)](http://msdn.microsoft.com/en-us/eb4c97ed-f667-4850-98d0-6e2a4d21bbca)

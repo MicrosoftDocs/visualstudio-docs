@@ -38,7 +38,7 @@ NOTE]
 >  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose Import and Export Settings on the Tools menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 > [!NOTE]
->  The [/Zo (Enhance Optimized Debugging)](../Topic/-Zo%20\(Enhance%20Optimized%20Debugging\).md)compiler option (introduced in Visual Studio Update 3) generates richer debugging information for optimized code (projects that are not built with the **/Od** compiler option. See [/O Options (Optimize Code)](../Topic/-O%20Options%20\(Optimize%20Code\).md)). This includes improved support for debugging local variables and inlined functions.  
+>  The [/Zo (Enhance Optimized Debugging)](http://msdn.microsoft.com/library/eea8d89a-7fe0-4fe1-86b2-7689bbebbd7f)compiler option (introduced in Visual Studio Update 3) generates richer debugging information for optimized code (projects that are not built with the **/Od** compiler option. See [/O Options (Optimize Code)](http://msdn.microsoft.com/library/77997af9-5555-4b3d-aa57-6615b27d4d5d)). This includes improved support for debugging local variables and inlined functions.  
 >   
 >  [Edit and Continue](../debugger/edit-and-continue-visual-csharp.md) is disabled when the **/Zo** ocompiler option is used.  
   
@@ -74,11 +74,11 @@ NOTE]
   
 6.  Under the **C++** folder, select `Optimization`.  
   
-7.  In the properties list on the right, find `Optimization`. The setting next to it probably says `Disabled (`[/Od](../Topic/-Od%20\(Disable%20\(Debug\)\).md)`)`. Choose one of the other options (`Minimum Size``(`[/O1](../Topic/-O1,%20-O2%20\(Minimize%20Size,%20Maximize%20Speed\).md)`)`, `Maximum Speed``(`[/O2](../Topic/-O1,%20-O2%20\(Minimize%20Size,%20Maximize%20Speed\).md)`)`, `Full Optimization``(`[/Ox](../Topic/-Ox%20\(Full%20Optimization\).md)`)`, or `Custom`).  
+7.  In the properties list on the right, find `Optimization`. The setting next to it probably says `Disabled (`[/Od](http://msdn.microsoft.com/library/b1ac31b7-e086-4eeb-be5e-488f7513f5f5)`)`. Choose one of the other options (`Minimum Size``(`[/O1](http://msdn.microsoft.com/library/2d1423f5-53d9-44da-8908-b33a351656c2)`)`, `Maximum Speed``(`[/O2](http://msdn.microsoft.com/library/2d1423f5-53d9-44da-8908-b33a351656c2)`)`, `Full Optimization``(`[/Ox](http://msdn.microsoft.com/library/3ad7c30b-c615-428c-b1d0-2e024f81c760)`)`, or `Custom`).  
   
 8.  If you chose the `Custom` option for `Optimization`, you can now set options for any of the other properties shown in the properties list.  
   
-9. Select the Configuation Properties, C/C++, Command Line node of the project properties page, and add `(`[/Zo](../Topic/-Zo%20\(Enhance%20Optimized%20Debugging\).md)`)` to the **Additional Options** text box.  
+9. Select the Configuation Properties, C/C++, Command Line node of the project properties page, and add `(`[/Zo](http://msdn.microsoft.com/library/eea8d89a-7fe0-4fe1-86b2-7689bbebbd7f)`)` to the **Additional Options** text box.  
   
     > [!WARNING]
     >  `/Zo` requires Visual Studio 2013 Update 3 or a later version.  

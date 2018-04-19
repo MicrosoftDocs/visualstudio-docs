@@ -26,9 +26,9 @@ ms.author: "ghogen"
 manager: "douge"
 ---
 # discard_block_engine::discard
-Topic deprecated. See [\<random>](../Topic/%3Crandom%3E.md).  
+Topic deprecated. See [\<random>](http://msdn.microsoft.com/library/60afc25c-b162-4811-97c1-1b65398d4c57).  
   
 ## Syntax  
   
 ## See Also  
- [\<random>](../Topic/%3Crandom%3E.md)
+ [\<random>](http://msdn.microsoft.com/library/60afc25c-b162-4811-97c1-1b65398d4c57)

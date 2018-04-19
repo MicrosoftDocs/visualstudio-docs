@@ -28,7 +28,7 @@ robots: noindex,nofollow
 
 To execute a stored procedure that returns no value, you can run a TableAdapter query that is configured to run a stored procedure (for example, `CustomersTableAdapter.UpdateTableData(CustomersDataTable)`).  
   
- If your application does not use TableAdapters, call the `ExecuteNonQuery` method on a command object, setting its `CommandType` property to <xref:System.Data.CommandType>. ("Command object" refers to the specific command for the [.NET Framework Data Provider](../Topic/.NET%20Framework%20Data%20Providers.md) your application is using. For example, if your application is using the .NET Framework Data Provider for SQL Server, then the command object would be <xref:System.Data.SqlClient.SqlCommand>.)  
+ If your application does not use TableAdapters, call the `ExecuteNonQuery` method on a command object, setting its `CommandType` property to <xref:System.Data.CommandType>. ("Command object" refers to the specific command for the [.NET Framework Data Provider](http://msdn.microsoft.com/library/03a9fc62-2d24-491a-9fe6-d6bdb6dcb131) your application is using. For example, if your application is using the .NET Framework Data Provider for SQL Server, then the command object would be <xref:System.Data.SqlClient.SqlCommand>.)  
   
  The following examples show how to execute stored procedures that return no value from a database using either TableAdapters or command objects. For more information on querying with TableAdapters and commands, see [Fill datasets by using TableAdapters](../data-tools/fill-datasets-by-using-tableadapters.md).  
   
@@ -39,7 +39,7 @@ To execute a stored procedure that returns no value, you can run a TableAdapter 
   
 #### To create a stored procedure that returns no value using a TableAdapter  
   
-1.  Open a dataset in the **Dataset Designer**. For more information, see [How to: Open a Dataset in the Dataset Designer](../Topic/How%20to:%20Open%20a%20Dataset%20in%20the%20Dataset%20Designer.md).  
+1.  Open a dataset in the **Dataset Designer**. For more information, see [How to: Open a Dataset in the Dataset Designer](http://msdn.microsoft.com/library/36fc266f-365b-42cb-aebb-c993dc2c47c3).  
   
 2.  If you do not already have one, create a TableAdapter. For more information on creating TableAdapters, see [Create and configure TableAdapters](../data-tools/create-and-configure-tableadapters.md).  
   
@@ -88,7 +88,7 @@ To execute a stored procedure that returns no value, you can run a TableAdapter 
      [!code-vb[VbRaddataFillingAndExecuting#11](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataFillingAndExecuting/VB/Form2.vb#11)]  
   
 ## Executing Stored Procedures that Return No Value Using a Command Object  
- The following example shows how to create a command and execute a stored procedure that returns no value. For information on setting and getting parameter values for a command, see [How to: Set and Get Parameters for Command Objects](../Topic/How%20to:%20Set%20and%20Get%20Parameters%20for%20Command%20Objects.md).  
+ The following example shows how to create a command and execute a stored procedure that returns no value. For information on setting and getting parameter values for a command, see [How to: Set and Get Parameters for Command Objects](http://msdn.microsoft.com/library/10110ecc-d2ed-4796-bb8f-74f2ecd40787).  
   
  This example uses the <xref:System.Data.SqlClient.SqlCommand> object and requires:  
   
@@ -113,4 +113,4 @@ To execute a stored procedure that returns no value, you can run a TableAdapter 
  [How to: Edit TableAdapter Queries](../data-tools/how-to-edit-tableadapter-queries.md)   
  [How to: Fill a dataset with data](../data-tools/how-to-fill-a-dataset-with-data.md)   
  [Fill datasets by using TableAdapters](../data-tools/fill-datasets-by-using-tableadapters.md)   
- [How to: Set and Get Parameters for Command Objects](../Topic/How%20to:%20Set%20and%20Get%20Parameters%20for%20Command%20Objects.md)
+ [How to: Set and Get Parameters for Command Objects](http://msdn.microsoft.com/library/10110ecc-d2ed-4796-bb8f-74f2ecd40787)

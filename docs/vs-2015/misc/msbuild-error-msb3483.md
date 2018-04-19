@@ -25,5 +25,5 @@ manager: "douge"
  SignTool issued the specified warning.  
   
 ## See Also  
- [SignTool.exe (Sign Tool)](../Topic/SignTool.exe%20\(Sign%20Tool\).md)   
+ [SignTool.exe (Sign Tool)](http://msdn.microsoft.com/library/0c25ff6c-bff3-422e-b017-146a3ee86cb9)   
  [\<PackageFiles> Element](../deployment/packagefiles-element-bootstrapper.md)

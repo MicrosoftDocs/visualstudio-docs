@@ -24,7 +24,7 @@ manager: "ghogen"
 
 The latest version of this topic can be found at [IDiaSymbol::get_isLTCG](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-isltcg).  
   
-Retrieves a flag that specifies whether the [Compiland](../../debugger/debug-interface-access/compiland.md) has been linked with the linker switch [/LTCG (Link-time Code Generation)](../Topic/-LTCG%20\(Link-time%20Code%20Generation\).md), which aids in whole program optimization. This switch applies only to managed code.  
+Retrieves a flag that specifies whether the [Compiland](../../debugger/debug-interface-access/compiland.md) has been linked with the linker switch [/LTCG (Link-time Code Generation)](http://msdn.microsoft.com/library/788c6f52-fdb8-40c2-90af-4026ea2cf2e2), which aids in whole program optimization. This switch applies only to managed code.  
   
 ## Syntax  
   

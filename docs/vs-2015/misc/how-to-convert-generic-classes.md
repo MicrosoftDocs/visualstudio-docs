@@ -19,4 +19,4 @@ ms.author: "mithom"
 manager: "douge"
 ---
 # How to: Convert Generic Classes
-Content moved to [User-Defined Conversions (C++/CLI)](../Topic/User-Defined%20Conversions%20\(C++-CLI\).md)
+Content moved to [User-Defined Conversions (C++/CLI)](http://msdn.microsoft.com/library/8010fd59-2775-4e9a-a6ed-58055032d66f)

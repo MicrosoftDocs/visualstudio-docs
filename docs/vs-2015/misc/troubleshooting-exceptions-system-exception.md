@@ -32,6 +32,6 @@ Represents errors that occur during application execution. This is the base clas
 ## See Also  
  <xref:System.Exception>   
  <xref:System.Exception.InnerException%2A>   
- [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)   
+ [Use the Exception Assistant](http://msdn.microsoft.com/library/e0a78c50-7318-4d54-af51-40c00aea8711)   
  [How to: Break When an Exception is Thrown](../misc/how-to-break-when-an-exception-is-thrown.md)   
  [General, Debugging, Options Dialog Box](../debugger/general-debugging-options-dialog-box.md)

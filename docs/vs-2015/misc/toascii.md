@@ -33,4 +33,4 @@ ms.author: "corob"
 manager: "ghogen"
 ---
 # toascii
-This POSIX function is deprecated. Use the ISO C++ conformant [toascii, __toascii](../Topic/toascii,%20__toascii.md) instead.
+This POSIX function is deprecated. Use the ISO C++ conformant [toascii, __toascii](http://msdn.microsoft.com/library/a07c0608-b0e2-4da2-a20c-7b64d6a9b77c) instead.

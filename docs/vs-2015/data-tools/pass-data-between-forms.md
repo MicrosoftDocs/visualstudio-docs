@@ -39,7 +39,7 @@ This walkthrough provides step-by-step instructions for passing data from one fo
   
 -   Creating a new **Windows Application** project.  
   
--   Creating and configuring a dataset with the [Data Source Configuration Wizard](../Topic/Data%20Source%20Configuration%20Wizard.md).  
+-   Creating and configuring a dataset with the [Data Source Configuration Wizard](http://msdn.microsoft.com/library/c4df7de5-5da0-4064-940c-761dd6d9e28f).  
   
 -   Selecting the control to be created on the form when dragging items from the **Data Sources** window. For more information, see [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md).  
   
@@ -64,7 +64,7 @@ This walkthrough provides step-by-step instructions for passing data from one fo
   
 2.  Name the project `PassingDataBetweenForms`.  
   
-3.  Select **Windows Forms Application**, and click **OK**. For more information, see [Client Applications](../Topic/Developing%20Client%20Applications%20with%20the%20.NET%20Framework.md).  
+3.  Select **Windows Forms Application**, and click **OK**. For more information, see [Client Applications](http://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
   
      The **PassingDataBetweenForms** project is created, and added to **Solution Explorer**.  
   

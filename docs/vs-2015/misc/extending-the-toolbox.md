@@ -39,7 +39,7 @@ The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] **Toolbox** provides a collecti
  [How to: Manage the Toolbox Window](http://msdn.microsoft.com/en-us/a022c3fe-298c-4a59-a48f-b050da90ebc2)  
  Describes how to work with the **Toolbox** in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] integrated development environment (IDE).  
   
- [How to: Control the Toolbox](../Topic/How%20to:%20Control%20the%20Toolbox.md)  
+ [How to: Control the Toolbox](http://msdn.microsoft.com/library/c9d8a18a-d2bc-43d4-a803-601bfc6a6599)  
  Describes how to manage the **Toolbox** using the automation programming model.  
   
  [Extending Other Parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)  

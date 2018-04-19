@@ -34,4 +34,4 @@ ms.author: "corob"
 manager: "ghogen"
 ---
 # iscsym, iscsymf
-These POSIX functions are deprecated. Use the ISO C++ conformant [iscsym, iscsymf, __iscsym, \__iswcsym, \__iscsymf, \__iswcsymf, _iscsym_l, _iswcsym_l, _iscsymf_l, _iswcsymf_l](../Topic/iscsym,%20iscsymf,%20__iscsym,%20__iswcsym,%20__iscsymf,%20__iswcsymf,%20_iscsym_l,%20_iswcsym_l,%20_iscsymf_l,%20_iswcsymf_l.md) instead.
+These POSIX functions are deprecated. Use the ISO C++ conformant [iscsym, iscsymf, __iscsym, \__iswcsym, \__iscsymf, \__iswcsymf, _iscsym_l, _iswcsym_l, _iscsymf_l, _iswcsymf_l](http://msdn.microsoft.com/library/944dfb99-f2b8-498c-9f55-dbcf370d0a2c) instead.

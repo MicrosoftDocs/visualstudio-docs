@@ -24,7 +24,7 @@ manager: "ghogen"
 
 The latest version of this topic can be found at [Concurrency Namespace (Concurrency Visualizer)](https://docs.microsoft.com/visualstudio/profiling/concurrency-namespace-concurrency-visualizer).  
   
-The `Concurrency` namespace provides classes and functions that give you access to the Concurrency Runtime, a concurrent programming framework for C++. For more information, see [Concurrency Runtime](../Topic/Concurrency%20Runtime.md).  
+The `Concurrency` namespace provides classes and functions that give you access to the Concurrency Runtime, a concurrent programming framework for C++. For more information, see [Concurrency Runtime](http://msdn.microsoft.com/library/874bc58f-8dce-483e-a3a1-4dcc9e52ed2c).  
   
 ## Syntax  
   

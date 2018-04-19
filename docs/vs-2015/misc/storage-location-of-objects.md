@@ -18,4 +18,4 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # Storage Location of Objects
-This content has been removed. For information about object storage location, see [/OPT](../Topic/-OPT%20\(Optimizations\).md)
+This content has been removed. For information about object storage location, see [/OPT](http://msdn.microsoft.com/library/8f229863-5f53-48a8-9478-243a647093ac)

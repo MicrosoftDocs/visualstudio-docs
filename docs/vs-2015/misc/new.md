@@ -25,8 +25,8 @@ Briefly describes the uses of the `new` keyword and links to more information.
   
 |Title|Description|  
 |-----------|-----------------|  
-|[operator new](../Topic/operator%20new%20\(CRT\).md)|Allocates a block of memory from the heap.|  
-|[operator new](../Topic/operator%20new%20\(%3Cnew%3E\).md)|The function that's called by a new-expression to allocate storage for individual objects.|  
-|[new Operator](../Topic/new%20Operator%20\(C++\).md)|Allocates memory for an object or array of objects from the free store and returns a suitably typed, nonzero pointer to the object.|  
-|[new (new slot in vtable)](../Topic/new%20\(new%20slot%20in%20vtable\)%20%20\(C++%20Component%20Extensions\).md)|In a C++/CLI project, indicates that a virtual member gets a new slot in the vtable. In other words, the function does not override a base class method.|  
-|[ref new, gcnew](../Topic/ref%20new,%20gcnew%20%20\(C++%20Component%20Extensions\).md)|In a [!INCLUDE[cppwrt_short](../includes/cppwrt-short-md.md)] (`ref new`) or C++/CLI (`gcnew`) project, this compound keyword creates a reference-counted object.|
+|[operator new](http://msdn.microsoft.com/library/4ae51618-a4e6-4172-b324-b99d86d1bdca)|Allocates a block of memory from the heap.|  
+|[operator new](http://msdn.microsoft.com/library/2476d0f9-59df-485c-981e-ba9f7ee83507)|The function that's called by a new-expression to allocate storage for individual objects.|  
+|[new Operator](http://msdn.microsoft.com/library/69fee812-1c28-4882-8fda-d1ad17860004)|Allocates memory for an object or array of objects from the free store and returns a suitably typed, nonzero pointer to the object.|  
+|[new (new slot in vtable)](http://msdn.microsoft.com/library/1a9a5704-f02f-46ae-ad65-f0f2b6dbabc3)|In a C++/CLI project, indicates that a virtual member gets a new slot in the vtable. In other words, the function does not override a base class method.|  
+|[ref new, gcnew](http://msdn.microsoft.com/library/388a62da-c2df-4a94-a9a2-205b53e577da)|In a [!INCLUDE[cppwrt_short](../includes/cppwrt-short-md.md)] (`ref new`) or C++/CLI (`gcnew`) project, this compound keyword creates a reference-counted object.|

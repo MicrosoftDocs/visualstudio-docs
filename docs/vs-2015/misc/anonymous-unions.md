@@ -21,6 +21,6 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # Anonymous Unions
-This content has moved to [Unions](../Topic/Unions.md)  
+This content has moved to [Unions](http://msdn.microsoft.com/library/25c4e219-fcbb-4b7b-9b64-83f3252a92ca)  
   
 ## Syntax

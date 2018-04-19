@@ -21,4 +21,4 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # Result of Assignment Operators
-This content has moved [Assignment Operators](../Topic/Assignment%20Operators.md).
+This content has moved [Assignment Operators](http://msdn.microsoft.com/library/b028cf35-2ff1-4f14-9027-fd53ebec8aa0).

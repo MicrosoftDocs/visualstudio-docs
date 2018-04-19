@@ -20,6 +20,6 @@ ms.author: "mithom"
 manager: "douge"
 ---
 # How to: Make Typedefs for Managed Arrays
-Content moved to [How to: Use Arrays in C++/CLI](../Topic/How%20to:%20Use%20Arrays%20in%20C++-CLI.md).  
+Content moved to [How to: Use Arrays in C++/CLI](http://msdn.microsoft.com/library/301cfb3e-199f-42c8-8151-629dce9e87f3).  
   
 ## Example

@@ -32,11 +32,11 @@ This section contains sample applications, example code, and step-by-step walkth
   
  For information about securing applications, see the following help topics:  
   
--   [Security Overview](../Topic/Security%20Overview2.md)  
+-   [Security Overview](http://msdn.microsoft.com/library/33e09965-61d5-48cc-9e8c-3b047cc4f194)  
   
 ## In This Section  
   
 |Title|Description|  
 |-----------|-----------------|  
 |[Data Applications Samples](../data-tools/data-applications-samples.md)|Provides links to data samples.|  
-|[Data Walkthroughs](../Topic/Data%20Walkthroughs.md)|Lists step-by-step guides that provide an introduction to working with data tools.|
+|[Data Walkthroughs](http://msdn.microsoft.com/library/15a88fb8-3bee-4962-914d-7a1f8bd40ec4)|Lists step-by-step guides that provide an introduction to working with data tools.|

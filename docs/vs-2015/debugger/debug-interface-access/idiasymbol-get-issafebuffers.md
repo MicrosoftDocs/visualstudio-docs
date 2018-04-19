@@ -55,7 +55,7 @@ HRESULT get_isSafeBuffers( 
   
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
- [strict_gs_check](../Topic/strict_gs_check.md)
+ [strict_gs_check](http://msdn.microsoft.com/library/decfec81-c916-42e0-a07f-8cc26df6a7ce)
 
 
 

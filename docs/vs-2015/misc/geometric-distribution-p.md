@@ -42,7 +42,7 @@ double p() const;
  The `p` parameter from the stored `param_type`.  
   
 ## Remarks  
- For a code example, see [geometric_distribution Class](../Topic/geometric_distribution%20Class.md).  
+ For a code example, see [geometric_distribution Class](http://msdn.microsoft.com/library/38f933af-3b49-492e-9d26-b6b272a60013).  
   
 ## Requirements  
  **Header:** \<random>  
@@ -50,5 +50,5 @@ double p() const;
  **Namespace:** std  
   
 ## See Also  
- [\<random>](../Topic/%3Crandom%3E.md)   
- [geometric_distribution Class](../Topic/geometric_distribution%20Class.md)
+ [\<random>](http://msdn.microsoft.com/library/60afc25c-b162-4811-97c1-1b65398d4c57)   
+ [geometric_distribution Class](http://msdn.microsoft.com/library/38f933af-3b49-492e-9d26-b6b272a60013)

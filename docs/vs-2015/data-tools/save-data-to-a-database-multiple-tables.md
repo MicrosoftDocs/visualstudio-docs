@@ -40,9 +40,9 @@ One of the most common scenarios in application development is to display data o
   
 -   Creating a new **Windows Application** project.  
   
--   Creating and configuring a data source in your application with the [Data Source Configuration Wizard](../Topic/Data%20Source%20Configuration%20Wizard.md).  
+-   Creating and configuring a data source in your application with the [Data Source Configuration Wizard](http://msdn.microsoft.com/library/c4df7de5-5da0-4064-940c-761dd6d9e28f).  
   
--   Setting the controls of the items in the [Data Sources Window](../Topic/Data%20Sources%20Window.md). For more information, see [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md).  
+-   Setting the controls of the items in the [Data Sources Window](http://msdn.microsoft.com/library/0d20f699-cc95-45b3-8ecb-c7edf1f67992). For more information, see [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md).  
   
 -   Creating data-bound controls by dragging items from the **Data Sources** window onto your form.  
   
@@ -64,7 +64,7 @@ One of the most common scenarios in application development is to display data o
   
 2.  Name the project `UpdateMultipleTablesWalkthrough`.  
   
-3.  Select **Windows Application**, and then select**OK**. For more information, see [Client Applications](../Topic/Developing%20Client%20Applications%20with%20the%20.NET%20Framework.md).  
+3.  Select **Windows Application**, and then select**OK**. For more information, see [Client Applications](http://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
   
      The **UpdateMultipleTablesWalkthrough** project is created and added to **Solution Explorer**.  
   
@@ -126,7 +126,7 @@ One of the most common scenarios in application development is to display data o
  You can update the database by calling the `Update` methods of the **Customers** and **Orders** TableAdapters. By default, an event handler for the**Save** button of the<xref:System.Windows.Forms.BindingNavigator> is added to the form's code to send updates to the database. This procedure modifies the code to send updates in the correct order.This eliminates the possibility of raising referential integrity errors. The code also implements error handling by wrapping the update call in a try-catch block. You can modify the code to suit the needs of your application.  
   
 > [!NOTE]
->  For clarity, this walkthrough does not use a transaction.However, if you're updating two or more related tables, include all the update logic within a transaction. A transaction is a process that assures that all related changes to a database are successful before any changes are committed. For more information, see [Transactions and Concurrency](../Topic/Transactions%20and%20Concurrency.md).  
+>  For clarity, this walkthrough does not use a transaction.However, if you're updating two or more related tables, include all the update logic within a transaction. A transaction is a process that assures that all related changes to a database are successful before any changes are committed. For more information, see [Transactions and Concurrency](http://msdn.microsoft.com/library/f46570de-9e50-4fe6-8710-a8c31fa8569b).  
   
 #### To add update logic to the application  
   
@@ -152,9 +152,9 @@ One of the most common scenarios in application development is to display data o
 ## Next Steps  
  Depending on your application requirements, there are several steps you might want to perform after creating a data-bound form in your Windows application. Some enhancements you could make to this walkthrough include:  
   
--   Adding search functionality to the form. For more information, see [How to: Add a Parameterized Query to a Windows Forms Application](../Topic/How%20to:%20Add%20a%20Parameterized%20Query%20to%20a%20Windows%20Forms%20Application.md).  
+-   Adding search functionality to the form. For more information, see [How to: Add a Parameterized Query to a Windows Forms Application](http://msdn.microsoft.com/library/13db4ad3-56b9-4a0b-b3a5-6a4ff84d4416).  
   
--   Editing the data source to add or remove database objects. For more information, see [How to: Edit a Dataset](../Topic/How%20to:%20Edit%20a%20Dataset.md).  
+-   Editing the data source to add or remove database objects. For more information, see [How to: Edit a Dataset](http://msdn.microsoft.com/library/f2dade5f-9c7a-4ddb-96a8-e0a39e50bfd3).  
   
 ## See Also  
  [Save data back to the database](../data-tools/save-data-back-to-the-database.md)

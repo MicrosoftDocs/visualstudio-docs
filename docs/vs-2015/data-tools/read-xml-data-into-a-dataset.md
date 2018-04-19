@@ -59,7 +59,7 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
   
 2.  Name the project `ReadingXML`.  
   
-3.  Select **Windows Application**, and then select**OK**. For more information, see [Client Applications](../Topic/Developing%20Client%20Applications%20with%20the%20.NET%20Framework.md).  
+3.  Select **Windows Application**, and then select**OK**. For more information, see [Client Applications](http://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
   
      The **ReadingXML** project is created and added to **Solution Explorer**.  
   
@@ -246,8 +246,8 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
 -   Edit the data in the dataset and write it out to a database. For more information, see [Saving Data](../data-tools/saving-data.md).  
   
 ## See Also  
- [Data Walkthroughs](../Topic/Data%20Walkthroughs.md)   
+ [Data Walkthroughs](http://msdn.microsoft.com/library/15a88fb8-3bee-4962-914d-7a1f8bd40ec4)   
  [Accessing data in Visual Studio](../data-tools/accessing-data-in-visual-studio.md)   
- [Preparing Your Application to Receive Data](../Topic/Preparing%20Your%20Application%20to%20Receive%20Data.md)   
+ [Preparing Your Application to Receive Data](http://msdn.microsoft.com/library/c17bdb7e-c234-4f2f-9582-5e55c27356ad)   
  [XML Tools in Visual Studio](../xml-tools/xml-tools-in-visual-studio.md)
 

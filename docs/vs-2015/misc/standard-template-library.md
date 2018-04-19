@@ -21,4 +21,4 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # Standard Template Library
-This content has moved to [C++ Standard Library](../Topic/C++%20Standard%20Library%20Reference.md).
+This content has moved to [C++ Standard Library](http://msdn.microsoft.com/library/a37d3ba3-58af-47c7-9ee2-441ccd7b77ee).

@@ -18,4 +18,4 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # 10.3 (Paragraph 5) Covariant Return Types
-This content has been removed. Please see [Nonstandard Behavior](../Topic/Nonstandard%20Behavior.md).
+This content has been removed. Please see [Nonstandard Behavior](http://msdn.microsoft.com/library/a57dea27-dc79-4f64-8a83-017e84841773).

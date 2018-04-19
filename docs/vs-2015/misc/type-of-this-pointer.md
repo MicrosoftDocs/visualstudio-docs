@@ -25,4 +25,4 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # Type of this Pointer
-This content (no pun intended) moved to [this Pointer](../Topic/this%20Pointer.md).
+This content (no pun intended) moved to [this Pointer](http://msdn.microsoft.com/library/92e3256a-4ad9-4d46-8be1-d77fad90791f).

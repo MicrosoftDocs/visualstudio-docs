@@ -24,7 +24,7 @@ manager: "ghogen"
 
 The latest version of this topic can be found at [IDiaSymbol::get_isNaked](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-isnaked).  
   
-Retrieves a flag that specifies whether the function has the [naked](../Topic/naked%20\(C++\).md) attribute (that is, the function has no prolog or epilog code added by the compiler).  
+Retrieves a flag that specifies whether the function has the [naked](http://msdn.microsoft.com/library/69723241-05e1-439b-868e-20a83a16ab6d) attribute (that is, the function has no prolog or epilog code added by the compiler).  
   
 ## Syntax  
   
@@ -53,7 +53,7 @@ HRESULT get_isNaked(
   
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
- [Naked Function Calls](../Topic/Naked%20Function%20Calls.md)
+ [Naked Function Calls](http://msdn.microsoft.com/library/2a66847a-a43f-4541-a7be-c9f5f29b5fdb)
 
 
 

@@ -27,4 +27,4 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # Class Member Functions and Classes as Friends
-This content has moved to [friend](../Topic/friend%20\(C++\).md) .
+This content has moved to [friend](http://msdn.microsoft.com/library/8fe9ee55-d56f-40cd-9075-d9fb1375aff4) .

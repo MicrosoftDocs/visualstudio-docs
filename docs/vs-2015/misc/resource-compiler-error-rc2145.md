@@ -24,4 +24,4 @@ manager: "douge"
 # Resource Compiler Error RC2145
 PRIMARY LANGUAGE ID too large  
   
- The PRIMARY LANGUAGE ID must be a valid hexadecimal language ID. See [Language and Country/Region Strings](../Topic/Locale%20Names,%20Languages,%20and%20Country-Region%20Strings.md) in the *Run-Time Library Reference* for a list of valid Language IDs.
+ The PRIMARY LANGUAGE ID must be a valid hexadecimal language ID. See [Language and Country/Region Strings](http://msdn.microsoft.com/library/a0e5a0c5-5602-4da0-b65f-de3d6c8530a2) in the *Run-Time Library Reference* for a list of valid Language IDs.

@@ -66,7 +66,7 @@ The **Configure Service Reference** dialog box enables you to configure the beha
  When writing async code, this option allows you to take advantage of the Task Parallel Library (TPL) that was introduced with .Net 4. See [Task Parallel Library (TPL)](http://msdn.microsoft.com/library/dd460717.aspx).  
   
  **Always generate message contracts**  
- Determines whether message contract types will be generated for a WCF client. For more information about message contracts, see [Using Message Contracts](../Topic/Using%20Message%20Contracts.md).  
+ Determines whether message contract types will be generated for a WCF client. For more information about message contracts, see [Using Message Contracts](http://msdn.microsoft.com/library/1e19c64a-ae84-4c2f-9155-91c54a77c249).  
   
  **Collection type**  
  Specifies the list collection type for a WCF client. The default type is <xref:System.Array>.  
@@ -96,7 +96,7 @@ The **Configure Service Reference** dialog box enables you to configure the beha
 >  The **Add Web Reference** button is available only when the **Configure Service Reference** dialog box is displayed from the **Add Service Reference Dialog Box**.  
   
 ## See Also  
- [How to: Add, Update, or Remove a Service Reference](../Topic/How%20to:%20Add,%20Update,%20or%20Remove%20a%20Service%20Reference.md)   
- [How to: Add a Reference to a Web Service](../Topic/How%20to:%20Add%20a%20Reference%20to%20a%20Web%20Service.md)   
+ [How to: Add, Update, or Remove a Service Reference](http://msdn.microsoft.com/library/cacc14bd-4455-4a44-be78-d2ac16113dd9)   
+ [How to: Add a Reference to a Web Service](http://msdn.microsoft.com/library/952e49a1-567e-4a74-8cd7-f2e7b62c3168)   
  [Windows Communication Foundation Services and WCF Data Services](../data-tools/configure-service-reference-dialog-box.md)
 

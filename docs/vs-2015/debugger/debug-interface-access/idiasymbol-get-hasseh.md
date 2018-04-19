@@ -24,7 +24,7 @@ manager: "ghogen"
 
 The latest version of this topic can be found at [IDiaSymbol::get_hasSEH](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-hasseh).  
   
-Retrieves a flag that specifies whether the function contains any [Structured Exception Handling (C/C++)](../Topic/Structured%20Exception%20Handling%20\(C-C++\).md) (for example, __try/\__except blocks).  
+Retrieves a flag that specifies whether the function contains any [Structured Exception Handling (C/C++)](http://msdn.microsoft.com/library/dd3b647d-c269-43a8-aab9-ad1458712976) (for example, __try/\__except blocks).  
   
 ## Syntax  
   
@@ -53,7 +53,7 @@ HRESULT get_hasSEH(
   
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
- [Structured Exception Handling (C/C++)](../Topic/Structured%20Exception%20Handling%20\(C-C++\).md)
+ [Structured Exception Handling (C/C++)](http://msdn.microsoft.com/library/dd3b647d-c269-43a8-aab9-ad1458712976)
 
 
 

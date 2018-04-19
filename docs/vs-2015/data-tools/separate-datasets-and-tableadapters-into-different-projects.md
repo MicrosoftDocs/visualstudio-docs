@@ -27,7 +27,7 @@ manager: "ghogen"
 The latest version of this topic can be found at [Separate datasets and TableAdapters into different projects](https://docs.microsoft.com/visualstudio/data-tools/separate-datasets-and-tableadapters-into-different-projects).  
   
   
-Typed datasets have been enhanced so that the [TableAdapters](../Topic/TableAdapters.md) and dataset classes can be generated into separate projects. This enables you to quickly separate application layers and generate n-tier data applications.  
+Typed datasets have been enhanced so that the [TableAdapters](http://msdn.microsoft.com/library/09416de9-134c-4dc7-8262-6c8d81e3f364) and dataset classes can be generated into separate projects. This enables you to quickly separate application layers and generate n-tier data applications.  
   
  The following procedure describes the process of using the[Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md) to generate dataset code into a project that is separate from the project that contains the generated `TableAdapter` code.  
   
@@ -70,5 +70,5 @@ Typed datasets have been enhanced so that the [TableAdapters](../Topic/TableAdap
  [Walkthrough: Creating an N-Tier Data Application](../data-tools/walkthrough-creating-an-n-tier-data-application.md)   
  [Hierarchical update](../data-tools/hierarchical-update.md)   
  [Accessing data in Visual Studio](../data-tools/accessing-data-in-visual-studio.md)   
- [ADO.NET](../Topic/ADO.NET.md)
+ [ADO.NET](http://msdn.microsoft.com/library/5b96ed06-9759-4966-a797-a1d5f6ee50ca)
 

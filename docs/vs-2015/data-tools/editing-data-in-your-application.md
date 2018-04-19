@@ -37,5 +37,5 @@ After your data model is populated with data, you will typically add, edit, or d
  [Edit data in datasets](../data-tools/edit-data-in-datasets.md)  
  Provides information on the many tasks that manipulate data in a dataset.  
   
- [Changing Entity Data](../Topic/Changing%20Entity%20Data.md)  
+ [Changing Entity Data](http://msdn.microsoft.com/library/b8673200-1219-4fd9-b879-373c87cec7ce)  
  Provides information about creating, updating, and deleting data in the Entity Framework and WCF Data Services.

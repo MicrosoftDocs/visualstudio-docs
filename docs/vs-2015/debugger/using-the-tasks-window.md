@@ -29,11 +29,11 @@ manager: "ghogen"
 
 The latest version of this topic can be found at [Using the Tasks Window](https://docs.microsoft.com/visualstudio/debugger/using-the-tasks-window).  
   
-The **Tasks** window resembles the **Threads** window, except that it shows information about <xref:System.Threading.Tasks.Task?displayProperty=fullName>, [task_handle](../Topic/task_group%20Class.md), or [WinJS.Promise](http://msdn.microsoft.com/library/windows/apps/br211867.aspx) objects instead of each thread. Like threads, tasks represent asynchronous operations that can run concurrently; however, multiple tasks may run on the same thread. See [Asynchronous programming in JavaScript (Windows Store apps)](http://msdn.microsoft.com/library/windows/apps/hh700330.aspx) for more information.  
+The **Tasks** window resembles the **Threads** window, except that it shows information about <xref:System.Threading.Tasks.Task?displayProperty=fullName>, [task_handle](http://msdn.microsoft.com/library/b4af5b28-227d-4488-8194-0a0d039173b7), or [WinJS.Promise](http://msdn.microsoft.com/library/windows/apps/br211867.aspx) objects instead of each thread. Like threads, tasks represent asynchronous operations that can run concurrently; however, multiple tasks may run on the same thread. See [Asynchronous programming in JavaScript (Windows Store apps)](http://msdn.microsoft.com/library/windows/apps/hh700330.aspx) for more information.  
   
- In managed code, you can use the **Tasks** window when you work with <xref:System.Threading.Tasks.Task?displayProperty=fullName> objects or with the **await** and **async** keywords (**Await** and **Async** in VisualBasic). For more information about tasks in managed code, see  [Parallel Programming](../Topic/Parallel%20Programming%20in%20the%20.NET%20Framework.md).  
+ In managed code, you can use the **Tasks** window when you work with <xref:System.Threading.Tasks.Task?displayProperty=fullName> objects or with the **await** and **async** keywords (**Await** and **Async** in VisualBasic). For more information about tasks in managed code, see  [Parallel Programming](http://msdn.microsoft.com/library/4d83c690-ad2d-489e-a2e0-b85b898a672d).  
   
- In native code, you can use the **Tasks** window when you work with [task groups](../Topic/Task%20Parallelism%20\(Concurrency%20Runtime\).md), [parallel algorithms](../Topic/Parallel%20Algorithms.md), [asynchronous agents](../Topic/Asynchronous%20Agents.md), and [lightweight tasks](../Topic/Task%20Scheduler%20\(Concurrency%20Runtime\).md). For more information about tasks in native code, see [Concurrency Runtime](../Topic/Concurrency%20Runtime.md).  
+ In native code, you can use the **Tasks** window when you work with [task groups](http://msdn.microsoft.com/library/42f05ac3-2098-494a-ba84-737fcdcad077), [parallel algorithms](http://msdn.microsoft.com/library/045dca7b-4d73-4558-a44c-383b88a28473), [asynchronous agents](http://msdn.microsoft.com/library/6cf6ccc6-87f1-4e14-af15-ea8ba58fef1a), and [lightweight tasks](http://msdn.microsoft.com/library/9aba278c-e0c9-4ede-b7c6-fedf7a365d90). For more information about tasks in native code, see [Concurrency Runtime](http://msdn.microsoft.com/library/874bc58f-8dce-483e-a3a1-4dcc9e52ed2c).  
   
  In JavaScript, you can use the Tasks window when you are working with promise .then code.  
   
@@ -62,7 +62,7 @@ The **Tasks** window resembles the **Threads** window, except that it shows info
 |**Thread Assignment**|The ID and name of the thread on which the task is running.|  
 |**Return Status**|The status of the task when it completed. The return status values are **Success**, **Cancelled**, and **Error**.|  
 |**AppDomain**|For managed code, the application domain in which the task is executing.|  
-|**task_group**|For native code, the address of the [task_group](../Topic/task_group%20Class.md) object that scheduled the task. For asynchronous agents and lightweight tasks, this column is set to 0.|  
+|**task_group**|For native code, the address of the [task_group](http://msdn.microsoft.com/library/b4af5b28-227d-4488-8194-0a0d039173b7) object that scheduled the task. For asynchronous agents and lightweight tasks, this column is set to 0.|  
 |Process|The ID of the process that the task is running on.|  
 |Async State|For managed code, the task status. By default, this column is hidden. To display this column, open the context menu for one of the column headers. Choose **Columns**, **AsyncState**.|  
   
@@ -96,8 +96,8 @@ The **Tasks** window resembles the **Threads** window, except that it shows info
 ## See Also  
  [Debugger Basics](../debugger/debugger-basics.md)   
  [Debugging Managed Code](../debugger/debugging-managed-code.md)   
- [Parallel Programming](../Topic/Parallel%20Programming%20in%20the%20.NET%20Framework.md)   
- [Concurrency Runtime](../Topic/Concurrency%20Runtime.md)   
+ [Parallel Programming](http://msdn.microsoft.com/library/4d83c690-ad2d-489e-a2e0-b85b898a672d)   
+ [Concurrency Runtime](http://msdn.microsoft.com/library/874bc58f-8dce-483e-a3a1-4dcc9e52ed2c)   
  [Using the Parallel Stacks Window](../debugger/using-the-parallel-stacks-window.md)   
  [Walkthrough: Debugging a Parallel Application](../debugger/walkthrough-debugging-a-parallel-application.md)
 

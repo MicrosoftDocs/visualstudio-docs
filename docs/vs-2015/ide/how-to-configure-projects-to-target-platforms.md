@@ -29,7 +29,7 @@ manager: "ghogen"
 
 The latest version of this topic can be found at [How to: Configure Projects to Target Platforms](https://docs.microsoft.com/visualstudio/ide/how-to-configure-projects-to-target-platforms).  
   
-INCLUDE[vsprvs](../includes/vsprvs-md.md)] enables you to set up your applications to target different platforms, including 64-bit platforms. For more information on 64-bit platform support in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], see [64-bit Applications](../Topic/64-bit%20Applications.md).  
+INCLUDE[vsprvs](../includes/vsprvs-md.md)] enables you to set up your applications to target different platforms, including 64-bit platforms. For more information on 64-bit platform support in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], see [64-bit Applications](http://msdn.microsoft.com/library/fd4026bc-2c3d-4b27-86dc-ec5e96018181).  
   
 ## Targeting Platforms with the Configuration Manager  
  The **Configuration Manager** provides a way for you to quickly add a new platform to target with your project. If you select one of the platforms included with [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], the properties for your project are modified to build your project for the selected platform.  
@@ -58,16 +58,16 @@ INCLUDE[vsprvs](../includes/vsprvs-md.md)] enables you to set up your applicatio
   
  Performing this task varies based on the programming language you are using. See the following links for more information:  
   
--   For [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] projects, see [/platform (Visual Basic)](../Topic/-platform%20\(Visual%20Basic\).md).  
+-   For [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] projects, see [/platform (Visual Basic)](http://msdn.microsoft.com/library/f9bc61e6-e854-4ae1-87b9-d6244de23fd1).  
   
 -   For [!INCLUDE[csprcs](../includes/csprcs-md.md)] projects, see [Build Page, Project Designer (C#)](../ide/reference/build-page-project-designer-csharp.md).  
   
--   For [!INCLUDE[vcprvc](../includes/vcprvc-md.md)] projects, see [/clr (Common Language Runtime Compilation)](../Topic/-clr%20\(Common%20Language%20Runtime%20Compilation\).md).  
+-   For [!INCLUDE[vcprvc](../includes/vcprvc-md.md)] projects, see [/clr (Common Language Runtime Compilation)](http://msdn.microsoft.com/library/fec5a8c0-40ec-484c-a213-8dec918c1d6c).  
   
 ## See Also  
  [Understanding Build Platforms](../ide/understanding-build-platforms.md)   
- [/platform (C# Compiler Options)](../Topic/-platform%20\(C%23%20Compiler%20Options\).md)   
- [64-bit Applications](../Topic/64-bit%20Applications.md)   
+ [/platform (C# Compiler Options)](http://msdn.microsoft.com/library/c290ff5e-47f4-4a85-9bb3-9c2525b0be04)   
+ [64-bit Applications](http://msdn.microsoft.com/library/fd4026bc-2c3d-4b27-86dc-ec5e96018181)   
  [Visual Studio IDE 64-Bit Support](../ide/visual-studio-ide-64-bit-support.md)
 
 

@@ -52,16 +52,16 @@ This section includes user interface reference, language equivalents, and other 
  Contains tips about how to change accessibility options.  
   
 ## Related Sections  
- [Visual Basic Reference](../Topic/Reference%20\(Visual%20Basic\).md)  
+ [Visual Basic Reference](http://msdn.microsoft.com/library/df6e7c50-5f3e-4381-98ed-ba5c3e9fe228)  
  Contains [!INCLUDE[vbprvb](../../includes/vbprvb-md.md)] upgrading information and the [!INCLUDE[vbprvb](../../includes/vbprvb-md.md)] language and run-time reference.  
   
- [C/C++ Language and Standard Libraries](../Topic/C-C++%20Language%20and%20Standard%20Libraries.md)  
+ [C/C++ Language and Standard Libraries](http://msdn.microsoft.com/library/c26a6682-961a-43ef-ad33-2adc612f69ac)  
  Contains language reference documentation.  
   
  [JScript Reference](http://msdn.microsoft.com/en-us/2e47f004-963c-4661-b887-a14e4660aadd)  
  Contains documents about the [!INCLUDE[jsprjscript](../../includes/jsprjscript-md.md)] programming language. Includes properties, methods, objects, and functions, and other elements.  
   
- [.NET Framework Reference Information](../Topic/.NET%20Framework%20Reference%20Information%20\(Visual%20Basic\).md)  
+ [.NET Framework Reference Information](http://msdn.microsoft.com/library/8b202505-608b-4223-bbd9-2ace3d73e6cd)  
  Contains documents about the [!INCLUDE[dnprdnshort](../../includes/dnprdnshort-md.md)] class library, compiler and language reference, and also [!INCLUDE[vstecasp](../../includes/vstecasp-md.md)] syntax, XSD reference, and other topics.
 
 

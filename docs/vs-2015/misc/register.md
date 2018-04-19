@@ -24,4 +24,4 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # Register
-This content has moved to [Storage classes](../Topic/Storage%20classes%20\(C++\).md).
+This content has moved to [Storage classes](http://msdn.microsoft.com/library/f10e1c56-6249-4eb6-b08f-09ab1eef1992).

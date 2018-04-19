@@ -18,4 +18,4 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # Unicode Support
-This content has been removed. For information about Unicode support, see [Support for Unicode](../Topic/Support%20for%20Unicode.md).
+This content has been removed. For information about Unicode support, see [Support for Unicode](http://msdn.microsoft.com/library/180f1d10-8543-4f79-85ce-293d3cb443bb).

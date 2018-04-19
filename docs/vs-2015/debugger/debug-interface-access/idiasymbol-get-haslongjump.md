@@ -24,7 +24,7 @@ manager: "ghogen"
 
 The latest version of this topic can be found at [IDiaSymbol::get_hasLongJump](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-haslongjump).  
   
-Retrieves a flag that specifies whether the function contains a use of the [longjmp](../Topic/longjmp.md) command (paired with a [setjmp](../Topic/setjmp.md) command, these form the C-style method of exception handling).  
+Retrieves a flag that specifies whether the function contains a use of the [longjmp](http://msdn.microsoft.com/library/0e13670a-5130-45c1-ad69-6862505b7a2f) command (paired with a [setjmp](http://msdn.microsoft.com/library/684a8b27-e8eb-455b-b4a8-733ca1cbd7d2) command, these form the C-style method of exception handling).  
   
 ## Syntax  
   
@@ -54,8 +54,8 @@ HRESULT get_hasLongJump
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
  [IDiaSymbol::get_hasSetJump](../../debugger/debug-interface-access/idiasymbol-get-hassetjump.md)   
- [longjmp](../Topic/longjmp.md)   
- [setjmp](../Topic/setjmp.md)
+ [longjmp](http://msdn.microsoft.com/library/0e13670a-5130-45c1-ad69-6862505b7a2f)   
+ [setjmp](http://msdn.microsoft.com/library/684a8b27-e8eb-455b-b4a8-733ca1cbd7d2)
 
 
 

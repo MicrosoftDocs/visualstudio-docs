@@ -37,4 +37,4 @@ ms.author: "corob"
 manager: "ghogen"
 ---
 # labs, llabs
-This content has moved. See [abs, labs, llabs, _abs64](../Topic/abs,%20labs,%20llabs,%20_abs64.md).
+This content has moved. See [abs, labs, llabs, _abs64](http://msdn.microsoft.com/library/60f789d1-4a1e-49f5-9e4e-0bdb277ea26a).

@@ -24,7 +24,7 @@ ms.author: "ghogen"
 manager: "douge"
 ---
 # unchecked_uninitialized_copy
-Same as [uninitialized_copy](../Topic/uninitialized_copy.md) but allows the use of an unchecked iterator as output iterator when _SECURE_SCL=1 is defined. This function is defined in the [stdext Namespace](../Topic/stdext%20Namespace.md) namespace.  
+Same as [uninitialized_copy](http://msdn.microsoft.com/library/23a09cb8-4116-475e-b0bb-5d3e7daca5aa) but allows the use of an unchecked iterator as output iterator when _SECURE_SCL=1 is defined. This function is defined in the [stdext Namespace](http://msdn.microsoft.com/library/3e94fc89-0584-424f-bc09-081b73379545) namespace.  
   
 > [!NOTE]
 >  This algorithm is a Microsoft extension to the Standard C++ Library. Code implemented using this algorithm will not be portable.  
@@ -59,15 +59,15 @@ template<class InputIterator, class ForwardIterator, class Allocator>
  A forward iterator addressing the first element in the destination range to be copied.  
   
  `_Al`  
- The allocator class to use with this object. [vector::get_allocator](../Topic/vector::get_allocator.md) returns the allocator class for the object.  
+ The allocator class to use with this object. [vector::get_allocator](http://msdn.microsoft.com/library/1570bc99-914a-486b-8846-fb0a6ed289a4) returns the allocator class for the object.  
   
 ## Return Value  
  A forward iterator addressing the position one past the final element in the destination range that is receiving the copy.  
   
 ## Remarks  
- See [uninitialized_copy](../Topic/uninitialized_copy.md) for a code sample.  
+ See [uninitialized_copy](http://msdn.microsoft.com/library/23a09cb8-4116-475e-b0bb-5d3e7daca5aa) for a code sample.  
   
- For more information on checked iterators, see [Checked Iterators](../Topic/Checked%20Iterators.md).  
+ For more information on checked iterators, see [Checked Iterators](http://msdn.microsoft.com/library/cfc87df8-e3d9-403b-ab78-e9483247d940).  
   
 ## Requirements  
  **Header:** \<memory>  

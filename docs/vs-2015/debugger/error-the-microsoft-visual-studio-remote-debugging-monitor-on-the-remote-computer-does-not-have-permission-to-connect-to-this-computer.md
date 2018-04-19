@@ -50,7 +50,7 @@ This error occurs when the user who is trying to run the Visual Studio Remote De
     -   At the Command Prompt, run `runas.exe`.  
   
 ## See Also  
- [Remote Debugging Across Domains](../Topic/Remote%20Debugging%20Across%20Domains.md)   
+ [Remote Debugging Across Domains](http://msdn.microsoft.com/library/8e697ce1-55e8-4ab0-a05f-f87225e2f29b)   
  [Remote Debugging Errors and Troubleshooting](../debugger/remote-debugging-errors-and-troubleshooting.md)   
  [Remote Debugging](../debugger/remote-debugging.md)
 

@@ -30,6 +30,6 @@ manager: "wpickett"
 -   Remove the `Continue` statement from the debugging code.  
   
 ## See Also  
- [Continue Statement](../Topic/Continue%20Statement%20\(Visual%20Basic\).md)   
+ [Continue Statement](http://msdn.microsoft.com/library/3ad00103-358b-4af3-a3a8-1b9ea0e995d3)   
  [Immediate Window](../ide/reference/immediate-window.md)   
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)

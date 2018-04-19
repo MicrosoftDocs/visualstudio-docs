@@ -64,7 +64,7 @@ This walkthrough shows how a managed VSPackage can supply dynamic configuration 
   
 #### To create a managed VSPackage to provide toolbox items  
   
-1.  Create a VSPackage named `ItemConfiguration`. For more information, see [Walkthrough: Creating a Menu Command By Using the Visual Studio Package Template](../Topic/Walkthrough:%20Creating%20a%20Menu%20Command%20By%20Using%20the%20Visual%20Studio%20Package%20Template.md).  
+1.  Create a VSPackage named `ItemConfiguration`. For more information, see [Walkthrough: Creating a Menu Command By Using the Visual Studio Package Template](http://msdn.microsoft.com/library/1985fa7d-aad4-4866-b356-a125b6a246de).  
   
 2.  In the **Visual Studio Package** template, add a menu command.  
   
@@ -125,7 +125,7 @@ This walkthrough shows how a managed VSPackage can supply dynamic configuration 
 3.  Close the experimental version of [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)].  
   
 ## Creating Toolbox Controls  
- In this section, you create and register a user control, `Control1`, that declares an associated default **Toolbox** item. You also create and register a second user control, `Control2`, and an associated custom **Toolbox** item, `Control2_ToolboxItem`, that is derived from the <xref:System.Drawing.Design.ToolboxItem> class. For more information about how to author Windows Forms controls and <xref:System.Drawing.Design.ToolboxItem> classes, see [Developing Windows Forms Controls at Design Time](../Topic/Developing%20Windows%20Forms%20Controls%20at%20Design%20Time.md).  
+ In this section, you create and register a user control, `Control1`, that declares an associated default **Toolbox** item. You also create and register a second user control, `Control2`, and an associated custom **Toolbox** item, `Control2_ToolboxItem`, that is derived from the <xref:System.Drawing.Design.ToolboxItem> class. For more information about how to author Windows Forms controls and <xref:System.Drawing.Design.ToolboxItem> classes, see [Developing Windows Forms Controls at Design Time](http://msdn.microsoft.com/library/e5a8e088-7ec8-4fd9-bcb3-9078fd134829).  
   
 #### To create default and custom toolbox items  
   

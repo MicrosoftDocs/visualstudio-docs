@@ -191,7 +191,7 @@ This feature is particularly helpful if your code has long names.
 
  For information about language-specific editor options, see the following:  
 
--   [Visual Basic Settings](../Topic/Visual%20Basic%20Settings.md)  
+-   [Visual Basic Settings](http://msdn.microsoft.com/library/2712b3b1-18f2-430c-ae91-28468bbf5f32)  
 
 -   [Using the Visual Studio Development Environment for C#](../csharp-ide/using-the-visual-studio-development-environment-for-csharp.md)  
 

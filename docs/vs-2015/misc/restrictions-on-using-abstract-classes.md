@@ -22,4 +22,4 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # Restrictions on Using Abstract Classes
-Content has moved to [Abstract Classes](../Topic/Abstract%20Classes%20\(C++\).md) .
+Content has moved to [Abstract Classes](http://msdn.microsoft.com/library/f0c5975b-39de-4d68-9640-6ce57f4632e6) .

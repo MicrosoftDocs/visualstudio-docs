@@ -66,7 +66,7 @@ TypeName|AssembliesShouldHaveValidStrongNames|
   
 -   For the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] v1.0 or v1.1, use either the <xref:System.Reflection.AssemblyKeyFileAttribute?displayProperty=fullName> or <xref:System.Reflection.AssemblyKeyNameAttribute?displayProperty=fullName> attribute.  
   
--   For the [!INCLUDE[dnprdnlong](../includes/dnprdnlong-md.md)], use either the `/keyfile` or `/keycontainer` compiler option [/KEYFILE (Specify Key or Key Pair to Sign an Assembly)](../Topic/-KEYFILE%20\(Specify%20Key%20or%20Key%20Pair%20to%20Sign%20an%20Assembly\).md) or [/KEYCONTAINER (Specify a Key Container to Sign an Assembly)](../Topic/-KEYCONTAINER%20\(Specify%20a%20Key%20Container%20to%20Sign%20an%20Assembly\).md) linker option in C++).  
+-   For the [!INCLUDE[dnprdnlong](../includes/dnprdnlong-md.md)], use either the `/keyfile` or `/keycontainer` compiler option [/KEYFILE (Specify Key or Key Pair to Sign an Assembly)](http://msdn.microsoft.com/library/9b71f8c0-541c-4fe5-a0c7-9364f42ecb06) or [/KEYCONTAINER (Specify a Key Container to Sign an Assembly)](http://msdn.microsoft.com/library/94882d12-b77a-49c7-96d0-18a31aee001e) linker option in C++).  
   
  **To sign your assembly with a strong name in Visual Studio**  
   
@@ -88,7 +88,7 @@ TypeName|AssembliesShouldHaveValidStrongNames|
   
  **To sign your assembly with a strong name outside Visual Studio**  
   
--   Use the strong name tool (Sn.exe) that is provided by the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] SDK. For more information, see [Sn.exe (Strong Name Tool)](../Topic/Sn.exe%20\(Strong%20Name%20Tool\).md).  
+-   Use the strong name tool (Sn.exe) that is provided by the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] SDK. For more information, see [Sn.exe (Strong Name Tool)](http://msdn.microsoft.com/library/c1d2b532-1b8e-4c7a-8ac5-53b801135ec6).  
   
 ## When to Suppress Warnings  
  Only suppress a warning from this rule if the assembly is used in an environment where tampering with the contents is not a concern.  
@@ -96,8 +96,8 @@ TypeName|AssembliesShouldHaveValidStrongNames|
 ## See Also  
  <xref:System.Reflection.AssemblyKeyFileAttribute?displayProperty=fullName>   
  <xref:System.Reflection.AssemblyKeyNameAttribute?displayProperty=fullName>   
- [How to: Sign an Assembly with a Strong Name](../Topic/How%20to:%20Sign%20an%20Assembly%20with%20a%20Strong%20Name.md)   
- [Sn.exe (Strong Name Tool)](../Topic/Sn.exe%20\(Strong%20Name%20Tool\).md)
+ [How to: Sign an Assembly with a Strong Name](http://msdn.microsoft.com/library/2c30799a-a826-46b4-a25d-c584027a6c67)   
+ [Sn.exe (Strong Name Tool)](http://msdn.microsoft.com/library/c1d2b532-1b8e-4c7a-8ac5-53b801135ec6)
 
 
 

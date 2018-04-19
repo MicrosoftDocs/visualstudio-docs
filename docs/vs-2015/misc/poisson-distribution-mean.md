@@ -47,5 +47,5 @@ RealType mean() const;
  **Namespace:** std  
   
 ## See Also  
- [\<random>](../Topic/%3Crandom%3E.md)   
- [poisson_distribution Class](../Topic/poisson_distribution%20Class.md)
+ [\<random>](http://msdn.microsoft.com/library/60afc25c-b162-4811-97c1-1b65398d4c57)   
+ [poisson_distribution Class](http://msdn.microsoft.com/library/09614281-349a-45f7-8e95-c0196be0a937)

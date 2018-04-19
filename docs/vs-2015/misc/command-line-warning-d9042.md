@@ -36,5 +36,5 @@ cl /EHsc /LD /wd6001 /analyze filename.cpp
  To remedy this warning, either switch to the x86 version of Visual Studio Team System, or remove the **/analyze** and **/wd6001** command line options.  
   
 ## See Also  
- [Command-Line Errors D8000 Through D9999](../Topic/Command-Line%20Errors%20D8000%20Through%20D9999.md)   
- [Compiler Options](../Topic/Compiler%20Options.md)
+ [Command-Line Errors D8000 Through D9999](http://msdn.microsoft.com/library/d02ec7df-26a5-4198-ac92-87b29ec9d5c8)   
+ [Compiler Options](http://msdn.microsoft.com/library/ed3376c8-bef4-4c9a-80e9-3b5da232644c)

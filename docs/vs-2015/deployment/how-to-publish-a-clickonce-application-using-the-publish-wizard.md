@@ -104,7 +104,7 @@ To make a ClickOnce application available to users, you must publish it to a fil
 ## See Also  
  [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md)   
  [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)   
- [Deploying an Office Solution by Using ClickOnce](../Topic/Deploying%20an%20Office%20Solution%20by%20Using%20ClickOnce.md)
+ [Deploying an Office Solution by Using ClickOnce](http://msdn.microsoft.com/library/feb516b3-5e4d-449a-9fd2-347d08d90252)
 
 
 

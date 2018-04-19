@@ -46,5 +46,5 @@ std::vector<double> probabilities() const;
  **Namespace:** std  
   
 ## See Also  
- [\<random>](../Topic/%3Crandom%3E.md)   
- [discrete_distribution Class](../Topic/discrete_distribution%20Class.md)
+ [\<random>](http://msdn.microsoft.com/library/60afc25c-b162-4811-97c1-1b65398d4c57)   
+ [discrete_distribution Class](http://msdn.microsoft.com/library/8c8ba8f8-c06f-4f07-b354-f53950142fcf)

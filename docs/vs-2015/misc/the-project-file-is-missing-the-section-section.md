@@ -39,5 +39,5 @@ The .vbproj or .csproj file is corrupt. One of the following sections is missing
 -   Recreate your project.  
   
 ## See Also  
- [Project Files](../Topic/Project%20Files.md)   
+ [Project Files](http://msdn.microsoft.com/library/5261cf45-3136-40a6-899e-dc1339551401)   
  [NIB: Project Properties (Visual Studio)](http://msdn.microsoft.com/en-us/eb4c97ed-f667-4850-98d0-6e2a4d21bbca)

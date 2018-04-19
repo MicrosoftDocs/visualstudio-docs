@@ -26,12 +26,12 @@ manager: "ghogen"
 The latest version of this topic can be found at [My Extensions Page, Project Designer (Visual Basic)](https://docs.microsoft.com/visualstudio/ide/reference/my-extensions-page-project-designer-visual-basic).  
   
   
-Use the **My Extensions** page of the **Project Designer** to manage `My` namespace extensions in your project. `My` namespace extensions enable you to customize the `My` namespace to add your own custom members. For information about creating custom `My` namespace extensions, see [Extending the My Namespace in Visual Basic](../Topic/Extending%20the%20My%20Namespace%20in%20Visual%20Basic.md).  
+Use the **My Extensions** page of the **Project Designer** to manage `My` namespace extensions in your project. `My` namespace extensions enable you to customize the `My` namespace to add your own custom members. For information about creating custom `My` namespace extensions, see [Extending the My Namespace in Visual Basic](http://msdn.microsoft.com/library/808e8617-b01c-4135-8b21-babe87389e8e).  
   
  To access the **My Extensions** page, double-click **My Project** for your project node in **Solution Explorer**. When the **Project Designer** appears, click the **My Extensions** tab.  
   
 ## UIElement List  
- The following options enable you to add or remove `My` namespace extensions in your project. A `My` namespace extension must first be installed as a Visual Studio Item template to be available to be added. For information about publishing and installing `My` namespace extensions, see [Packaging and Deploying Custom My Extensions](../Topic/Packaging%20and%20Deploying%20Custom%20My%20Extensions%20\(Visual%20Basic\).md).  
+ The following options enable you to add or remove `My` namespace extensions in your project. A `My` namespace extension must first be installed as a Visual Studio Item template to be available to be added. For information about publishing and installing `My` namespace extensions, see [Packaging and Deploying Custom My Extensions](http://msdn.microsoft.com/library/fd89c54b-0290-4c50-95a3-ff17d4487a21).  
   
  **My namespace extensions**  
  This list shows all the `My` namespace extensions installed in the project.  
@@ -43,10 +43,10 @@ Use the **My Extensions** page of the **Project Designer** to manage `My` namesp
  Select one or more references in the **My namespace extensions** list, and then click this button to remove the `My` namespace extension from the project.  
   
 ## See Also  
- [Extending the My Namespace in Visual Basic](../Topic/Extending%20the%20My%20Namespace%20in%20Visual%20Basic.md)   
- [Packaging and Deploying Custom My Extensions](../Topic/Packaging%20and%20Deploying%20Custom%20My%20Extensions%20\(Visual%20Basic\).md)   
- [Extending the Visual Basic Application Model](../Topic/Extending%20the%20Visual%20Basic%20Application%20Model.md)   
- [Customizing Which Objects are Available in My](../Topic/Customizing%20Which%20Objects%20are%20Available%20in%20My%20\(Visual%20Basic\).md)
+ [Extending the My Namespace in Visual Basic](http://msdn.microsoft.com/library/808e8617-b01c-4135-8b21-babe87389e8e)   
+ [Packaging and Deploying Custom My Extensions](http://msdn.microsoft.com/library/fd89c54b-0290-4c50-95a3-ff17d4487a21)   
+ [Extending the Visual Basic Application Model](http://msdn.microsoft.com/library/e91d3bed-4c27-40e3-871d-2be17467c72c)   
+ [Customizing Which Objects are Available in My](http://msdn.microsoft.com/library/4e8279c2-ed5b-4681-8903-8a6671874000)
 
 
 

@@ -26,5 +26,5 @@ The exception that is thrown for a Win32 error code.
   
 ## See Also  
  <xref:System.ComponentModel.Win32Exception>   
- [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)   
+ [Use the Exception Assistant](http://msdn.microsoft.com/library/e0a78c50-7318-4d54-af51-40c00aea8711)   
  [Where Can I Look Up Win32 Error Codes?](../debugger/where-can-i-look-up-win32-error-codes-q.md)

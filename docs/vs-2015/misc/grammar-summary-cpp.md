@@ -23,4 +23,4 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # Grammar Summary (C++)
-This content has been removed. For information about C++ syntax, see [C++ Language Reference](../Topic/C++%20Language%20Reference.md)
+This content has been removed. For information about C++ syntax, see [C++ Language Reference](http://msdn.microsoft.com/library/4be9cacb-c862-4391-894a-3a118c9c93ce)

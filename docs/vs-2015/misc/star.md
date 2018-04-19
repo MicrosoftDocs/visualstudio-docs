@@ -24,5 +24,5 @@ See the following topics for information about the different uses of `*`.
   
 |||  
 |-|-|  
-|[Multiplicative Operators and the Modulus Operator](../Topic/Multiplicative%20Operators%20and%20the%20Modulus%20Operator.md)|The multiplication operator yields the result of multiplying the first operand by the second.|  
-|[Indirection Operator: *](../Topic/Indirection%20Operator:%20*.md)|The unary indirection operator dereferences a pointer.|
+|[Multiplicative Operators and the Modulus Operator](http://msdn.microsoft.com/library/b53ea5da-d0b4-40dc-98f3-0aa52d548293)|The multiplication operator yields the result of multiplying the first operand by the second.|  
+|[Indirection Operator: *](http://msdn.microsoft.com/library/c50309e1-6c02-4184-9fcb-2e13c1f4ac03)|The unary indirection operator dereferences a pointer.|

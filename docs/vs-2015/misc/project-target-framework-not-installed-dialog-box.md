@@ -47,4 +47,4 @@ You have opened a project which targets a framework that is not installed on you
 ## See Also  
  [How to: Target a Version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md)   
  [Troubleshooting .NET Framework Targeting Errors](../msbuild/troubleshooting-dotnet-framework-targeting-errors.md)   
- [Adding references](../Topic/Adding%20references%20in%20Visual%20C++%20projects.md)
+ [Adding references](http://msdn.microsoft.com/library/12b8f571-0f21-40b3-9404-5318a57e9cb5)

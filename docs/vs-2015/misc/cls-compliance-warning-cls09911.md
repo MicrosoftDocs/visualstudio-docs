@@ -24,7 +24,7 @@ manager: "douge"
 # CLS Compliance Warning CLS09911
 Generic types are not CLS-compliant  
   
- A CLS-compliant type cannot also be a generic type.  For more information about generics in Visual C++, see [Support for Generics in C++](../Topic/Generics%20%20\(C++%20Component%20Extensions\).md).  
+ A CLS-compliant type cannot also be a generic type.  For more information about generics in Visual C++, see [Support for Generics in C++](http://msdn.microsoft.com/library/c7ccc316-a411-4c00-b2e2-f0c0eadc6cfd).  
   
  For more information Common Language Subset (CLS) compliance checking, see [CLS Compliant Assemblies](http://msdn.microsoft.com/en-us/3320b57e-ea55-4697-a17d-f509a36a3c93).  
   

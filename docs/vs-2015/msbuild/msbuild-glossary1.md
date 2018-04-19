@@ -173,6 +173,6 @@ These terms are used to describe the Microsoft Build Engine (MSBuild) and its co
  See *metadata, well-known*.  
   
 ## See Also  
- [MSBuild1](../Topic/MSBuild1.md)
+ [MSBuild1](~/E:/Repos/visualstudio-docs-pr/docs/msbuild/msbuild.md)
 
 

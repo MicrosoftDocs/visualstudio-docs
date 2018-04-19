@@ -21,4 +21,4 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # Constant Values
-This content has moved to [const](../Topic/const%20\(C++\).md).
+This content has moved to [const](http://msdn.microsoft.com/library/b21c0271-1ad0-40a0-b21c-5e812bba0318).

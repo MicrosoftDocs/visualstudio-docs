@@ -14,7 +14,7 @@ manager: "ghogen"
 # Breaking Changes in Visual C++ 2015 Update 1
 When you upgrade to Visual C++ 2015 Update 1 you might encounter compilation and/or runtime errors in code that previously compiled and ran correctly. Changes in compiler or runtime behavior that cause such problems are known as *breaking changes*, and typically they're required by modifications in the C++ language standard, function signatures, or the layout of objects in memory.  
   
- The rest of this article describes specific breaking changes in Visual C++ 2015 Update 1, and in this article the terms "new behavior" or "now" refer to that version. The terms "old behavior" and "previous" refer to the initial release of Visual Studio 2015 and earlier releases. For information on breaking changes that occurred between Visual Studio 2013 and Visual Studio 2015, see [Visual C++ change history 2003 - 2015](../Topic/Visual%20C++%20change%20history%202003%20-%2020151.md).  
+ The rest of this article describes specific breaking changes in Visual C++ 2015 Update 1, and in this article the terms "new behavior" or "now" refer to that version. The terms "old behavior" and "previous" refer to the initial release of Visual Studio 2015 and earlier releases. For information on breaking changes that occurred between Visual Studio 2013 and Visual Studio 2015, see [Visual C++ change history 2003 - 2015](http://msdn.microsoft.com/library/b38385a9-a483-4de9-99a6-797488bc5110).  
   
 -   [Compiler Breaking Changes](#BK_compiler)  
   

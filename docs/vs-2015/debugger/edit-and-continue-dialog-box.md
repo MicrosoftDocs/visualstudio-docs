@@ -38,7 +38,7 @@ Native Only) This dialog box appears when you have edited code while debugging a
   
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   
- [Edit and Continue, Debugging, Options Dialog Box](../Topic/Edit%20and%20Continue,%20Debugging,%20Options%20Dialog%20Box.md)
+ [Edit and Continue, Debugging, Options Dialog Box](http://msdn.microsoft.com/library/009d225f-ef65-463f-a146-e4c518f86103)
 
 
 

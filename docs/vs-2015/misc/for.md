@@ -25,7 +25,7 @@ For information about the different uses of `for`, see the following articles.
   
 |||  
 |-|-|  
-|[for Statement](../Topic/for%20Statement%20\(C\).md)|The traditional C `for` loop.|  
-|[for Statement (C++)](../Topic/for%20Statement%20\(C++\).md)|The traditional C++ `for` loop.|  
-|[Range-based for Statement (C++)](../Topic/Range-based%20for%20Statement%20\(C++\).md)|The C++11 range-based `for` loop.|  
-|[for each, in](../Topic/for%20each,%20in.md)|The [!INCLUDE[cppwrt_short](../includes/cppwrt-short-md.md)]`for each, in` loop.|
+|[for Statement](http://msdn.microsoft.com/library/560a8de4-19db-4868-9f18-dbe51b17900d)|The traditional C `for` loop.|  
+|[for Statement (C++)](http://msdn.microsoft.com/library/6c7d01b3-c4c1-4c6a-aa58-e2d198f33d4a)|The traditional C++ `for` loop.|  
+|[Range-based for Statement (C++)](http://msdn.microsoft.com/library/5750ba1d-ba48-4236-a923-e32de8345c2d)|The C++11 range-based `for` loop.|  
+|[for each, in](http://msdn.microsoft.com/library/0c3a364b-2747-43f3-bb8d-b7d3b7023f79)|The [!INCLUDE[cppwrt_short](../includes/cppwrt-short-md.md)]`for each, in` loop.|

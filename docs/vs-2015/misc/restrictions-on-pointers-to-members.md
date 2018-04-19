@@ -21,4 +21,4 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # Restrictions on Pointers to Members
-This content has moved to [Pointers to Members](../Topic/Pointers%20to%20Members.md).
+This content has moved to [Pointers to Members](http://msdn.microsoft.com/library/f42ddb79-9721-4e39-95b1-c56b55591f68).

@@ -97,7 +97,7 @@ typedef enum CV_CFL_LANG { 
  Application language is Jscript.  
   
  CV_CFL_MSIL  
- Application language is an unknown Microsoft Intermediate Language (MSIL), possibly a result of using the [/LTCG (Link-time Code Generation)](../Topic/-LTCG%20\(Link-time%20Code%20Generation\).md) switch.  
+ Application language is an unknown Microsoft Intermediate Language (MSIL), possibly a result of using the [/LTCG (Link-time Code Generation)](http://msdn.microsoft.com/library/788c6f52-fdb8-40c2-90af-4026ea2cf2e2) switch.  
   
  CV_CFL_HLSL  
  Application language is High Level Shader Language.  

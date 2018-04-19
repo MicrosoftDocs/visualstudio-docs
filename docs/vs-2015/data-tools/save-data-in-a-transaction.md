@@ -44,12 +44,12 @@ This walkthrough demonstrates how to save data in a transaction by using the <xr
   
 2.  Name the project **SavingDataInATransactionWalkthrough**.  
   
-3.  Select **Windows Application**, and then select**OK**. For more information, see [Client Applications](../Topic/Developing%20Client%20Applications%20with%20the%20.NET%20Framework.md).  
+3.  Select **Windows Application**, and then select**OK**. For more information, see [Client Applications](http://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
   
      The **SavingDataInATransactionWalkthrough** project is created and added to **Solution Explorer**.  
   
 ## Create a database data source  
- This step uses the [Data Source Configuration Wizard](../Topic/Data%20Source%20Configuration%20Wizard.md) to create a data source based on the `Customers` and `Orders` tables in the Northwind sample database.  
+ This step uses the [Data Source Configuration Wizard](http://msdn.microsoft.com/library/c4df7de5-5da0-4064-940c-761dd6d9e28f) to create a data source based on the `Customers` and `Orders` tables in the Northwind sample database.  
   
 #### To create the data source  
   

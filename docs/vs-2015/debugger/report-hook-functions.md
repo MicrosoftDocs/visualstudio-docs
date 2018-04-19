@@ -36,7 +36,7 @@ manager: "ghogen"
 
 The latest version of this topic can be found at [Report Hook Functions](https://docs.microsoft.com/visualstudio/debugger/report-hook-functions).  
   
-A report hook function, installed using [_CrtSetReportHook](../Topic/_CrtSetReportHook.md), is called every time [_CrtDbgReport](../Topic/_CrtDbgReport,%20_CrtDbgReportW.md) generates a debug report. You can use it, among other things, for filtering reports to focus on specific types of allocations. A report hook function should have a prototype like the following:  
+A report hook function, installed using [_CrtSetReportHook](http://msdn.microsoft.com/library/1ae7c64f-8c84-4797-9574-b59f00f7a509), is called every time [_CrtDbgReport](http://msdn.microsoft.com/library/6e581fb6-f7fb-4716-9432-f0145d639ecc) generates a debug report. You can use it, among other things, for filtering reports to focus on specific types of allocations. A report hook function should have a prototype like the following:  
   
 ```  
 int YourReportHook(int nRptType, char *szMsg, int *retVal);  

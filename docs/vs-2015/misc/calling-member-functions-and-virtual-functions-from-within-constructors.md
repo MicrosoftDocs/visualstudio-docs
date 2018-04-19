@@ -21,4 +21,4 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # Calling Member Functions and Virtual Functions from Within Constructors
-This content has moved to [Constructors](../Topic/Constructors%20\(C++\).md).
+This content has moved to [Constructors](http://msdn.microsoft.com/library/3e9f7211-313a-4a92-9584-337452e061a9).

@@ -35,7 +35,7 @@ You can extend Visual Studio by creating VSPackages. These are the software modu
  Shows how to build a basic task manager that lets users add tasks to the Visual Studio **Task List** and **Output** window. The added tasks can be edited in the Visual Studio **Properties** window. Also shows how to add a page to the **Options** dialog box.  
   
 ## Related Sections  
- [Introducing the Visual Studio SDK](../Topic/Introducing%20the%20Visual%20Studio%20SDK.md)  
+ [Introducing the Visual Studio SDK](http://msdn.microsoft.com/library/a308a6ce-d2da-47be-81ef-5b44169f2882)  
  Provides an overview of the features and tools that are included in the Visual Studio SDK and how you can use them to extend Visual Studio.  
   
  [Inside the Visual Studio SDK](../extensibility/internals/inside-the-visual-studio-sdk.md)  

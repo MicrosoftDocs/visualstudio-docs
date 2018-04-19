@@ -591,8 +591,8 @@ namspace MySPAppTests
 ## See Also  
  [Unit Test Your Code](../test/unit-test-your-code.md)   
  [Testing SharePoint 2010 Applications with Coded UI Tests](../test/testing-sharepoint-2010-applications-with-coded-ui-tests.md)   
- [Web performance and load testing SharePoint 2010 and 2013 applications](../Topic/Web%20performance%20and%20load%20testing%20SharePoint%202010%20and%202013%20applications.md)   
- [Developing SharePoint Solutions](../Topic/Developing%20SharePoint%20Solutions.md)
+ [Web performance and load testing SharePoint 2010 and 2013 applications](http://msdn.microsoft.com/library/20c2e469-0e4e-4296-a739-c0e8fff36e54)   
+ [Developing SharePoint Solutions](http://msdn.microsoft.com/library/059bce0f-c301-4234-a0b4-9c14b7cdfa3e)
 
 
 

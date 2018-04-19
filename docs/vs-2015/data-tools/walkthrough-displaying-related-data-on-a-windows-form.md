@@ -37,7 +37,7 @@ In many application scenarios, you want to work with data that comes from more t
   
 -   Creating a **Windows Application** project.  
   
--   Creating and configuring a dataset in your application based on the `Customers` and `Orders` tables in the Northwind database using the [Data Source Configuration Wizard](../Topic/Data%20Source%20Configuration%20Wizard.md).  
+-   Creating and configuring a dataset in your application based on the `Customers` and `Orders` tables in the Northwind database using the [Data Source Configuration Wizard](http://msdn.microsoft.com/library/c4df7de5-5da0-4064-940c-761dd6d9e28f).  
   
 -   Adding controls to display data from the `Customers` table.  
   
@@ -59,7 +59,7 @@ In many application scenarios, you want to work with data that comes from more t
   
 2.  Name the project `RelatedDataWalkthrough`.  
   
-3.  Select **Windows Application** and click **OK**. For more information, see [Client Applications](../Topic/Developing%20Client%20Applications%20with%20the%20.NET%20Framework.md).  
+3.  Select **Windows Application** and click **OK**. For more information, see [Client Applications](http://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
   
      The **RelatedDataWalkthrough** project is created and added to **Solution Explorer**.  
   
@@ -127,14 +127,14 @@ In many application scenarios, you want to work with data that comes from more t
 ## Next Steps  
  Depending on your application requirements, there are several steps you may want to perform after creating a master-detail form. One enhancement you could make to this walkthrough is:  
   
--   Filtering the `Customers` records by adding parameterization to the `Customers` table. To do this, select any control that displays data from the `Customers` table, click the smart tag, and choose **Add Query**. Complete the [Search Criteria Builder Dialog Box](../Topic/Search%20Criteria%20Builder%20Dialog%20Box.md). For more information, see [How to: Add a Parameterized Query to a Windows Forms Application](../Topic/How%20to:%20Add%20a%20Parameterized%20Query%20to%20a%20Windows%20Forms%20Application.md).  
+-   Filtering the `Customers` records by adding parameterization to the `Customers` table. To do this, select any control that displays data from the `Customers` table, click the smart tag, and choose **Add Query**. Complete the [Search Criteria Builder Dialog Box](http://msdn.microsoft.com/library/0b306b92-f35e-45ef-a4be-3f653cd00c3d). For more information, see [How to: Add a Parameterized Query to a Windows Forms Application](http://msdn.microsoft.com/library/13db4ad3-56b9-4a0b-b3a5-6a4ff84d4416).  
   
 ## See Also  
- [Data Walkthroughs](../Topic/Data%20Walkthroughs.md)   
- [Data Sources Window](../Topic/Data%20Sources%20Window.md)   
+ [Data Walkthroughs](http://msdn.microsoft.com/library/15a88fb8-3bee-4962-914d-7a1f8bd40ec4)   
+ [Data Sources Window](http://msdn.microsoft.com/library/0d20f699-cc95-45b3-8ecb-c7edf1f67992)   
  [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)   
  [Add new data sources](../data-tools/add-new-data-sources.md)   
  [TableAdapter Overview](../data-tools/tableadapter-overview.md)   
  [How to: Display Related Data in a Windows Forms Application](../data-tools/how-to-display-related-data-in-a-windows-forms-application.md)   
- [BindingSource Component Overview](../Topic/BindingSource%20Component%20Overview.md)   
- [BindingNavigator Control Overview](../Topic/BindingNavigator%20Control%20Overview%20\(Windows%20Forms\).md)
+ [BindingSource Component Overview](http://msdn.microsoft.com/library/be838caf-fcb0-4b68-827f-58b2c04b747f)   
+ [BindingNavigator Control Overview](http://msdn.microsoft.com/library/4423eede-f8d1-4d02-822f-5bf8432680d0)

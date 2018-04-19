@@ -21,4 +21,4 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # Function Declaration Syntax
-This content has moved to [Functions (C++)](../Topic/Functions%20\(C++\).md)
+This content has moved to [Functions (C++)](http://msdn.microsoft.com/library/33ba01d5-75b5-48d2-8eab-5483ac7d2274)

@@ -35,4 +35,4 @@ manager: "douge"
         instance vararg void  .ctor() cil managed  
 ```  
   
- You can resolve CLS01501 by using a parameter array.  See [Variable Argument Lists (...) (C++/CLI)](../Topic/Variable%20Argument%20Lists%20\(...\)%20\(C++-CLI\).md) for more information.
+ You can resolve CLS01501 by using a parameter array.  See [Variable Argument Lists (...) (C++/CLI)](http://msdn.microsoft.com/library/db1a27f4-02a8-4318-8690-1f2893f52b38) for more information.

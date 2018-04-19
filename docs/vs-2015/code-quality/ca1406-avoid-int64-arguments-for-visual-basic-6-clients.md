@@ -59,8 +59,8 @@ TypeName|AvoidInt64ArgumentsForVB6Clients|
  [CA1017: Mark assemblies with ComVisibleAttribute](../code-quality/ca1017-mark-assemblies-with-comvisibleattribute.md)  
   
 ## See Also  
- [Interoperating with Unmanaged Code](../Topic/Interoperating%20with%20Unmanaged%20Code.md)   
- [Long Data Type](../Topic/Long%20Data%20Type%20\(Visual%20Basic\).md)
+ [Interoperating with Unmanaged Code](http://msdn.microsoft.com/library/ccb68ce7-b0e9-4ffb-839d-03b1cd2c1258)   
+ [Long Data Type](http://msdn.microsoft.com/library/b4770c34-1804-4f8c-b512-c10b0893e516)
 
 
 

@@ -60,7 +60,7 @@ void test( )
 ```  
   
 ## See Also  
- [__assume](../Topic/__assume.md)
+ [__assume](http://msdn.microsoft.com/library/d8565123-b132-44b1-8235-5a8c8bff85a7)
 
 
 

@@ -31,7 +31,7 @@ manager: "ghogen"
 The latest version of this topic can be found at [SGen Task](https://docs.microsoft.com/visualstudio/msbuild/sgen-task).  
   
   
-Creates an XML serialization assembly for types in the specified assembly. This task wraps the XML Serializer Generator Tool (Sgen.exe). For more information, see [XML Serializer Generator Tool (Sgen.exe)](../Topic/XML%20Serializer%20Generator%20Tool%20\(Sgen.exe\).md).  
+Creates an XML serialization assembly for types in the specified assembly. This task wraps the XML Serializer Generator Tool (Sgen.exe). For more information, see [XML Serializer Generator Tool (Sgen.exe)](http://msdn.microsoft.com/library/cc1d1f1c-fb26-4be9-885a-3fe84c81cec6).  
   
 ## Parameters  
  The following table describes the parameters of the `SGen` task.  

@@ -23,4 +23,4 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # Static Member Functions
-This content moved to  [Overview of Member Functions](../Topic/Overview%20of%20Member%20Functions.md)
+This content moved to  [Overview of Member Functions](http://msdn.microsoft.com/library/9f77a438-500e-40bb-a6c6-544678f3f4c8)

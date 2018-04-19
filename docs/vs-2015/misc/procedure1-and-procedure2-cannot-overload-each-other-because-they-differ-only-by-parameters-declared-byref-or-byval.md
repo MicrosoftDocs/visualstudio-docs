@@ -36,4 +36,4 @@ manager: "wpickett"
 -   If you do not intend to overload a procedure, change the procedure name in one of the declarations.  
   
 ## See Also  
- [Procedure Overloading](../Topic/Procedure%20Overloading%20\(Visual%20Basic\).md)
+ [Procedure Overloading](http://msdn.microsoft.com/library/fbc7fb18-e3b2-48b6-b554-64c00ed09d2a)

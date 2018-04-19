@@ -68,16 +68,16 @@ Lets you change the default behavior of the Code Editor when you are programming
  When you bring a file into the text editor, you can enable the outlining feature. For more information, see [Outlining](../../ide/outlining.md). When this option is selected, the outlining feature is enabled when you open a file.  
   
  **Automatic outlining of #pragma region blocks**  
- When this option is selected, automatic outlining for [pragma directives](../Topic/Pragma%20Directives%20and%20the%20__Pragma%20Keyword.md) is enabled. This lets you expand or collapse pragma region blocks in outlining mode.  
+ When this option is selected, automatic outlining for [pragma directives](http://msdn.microsoft.com/library/9867b438-ac64-4e10-973f-c3955209873f) is enabled. This lets you expand or collapse pragma region blocks in outlining mode.  
   
  **Automatic outlining of statement blocks**  
  When this option is selected, automatic outlining is enabled for the following statement constructs:  
   
--   [if-else](../Topic/if-else%20\(C%23%20Reference\).md)  
+-   [if-else](http://msdn.microsoft.com/library/d9a1d562-8cf5-4bd4-9ba7-8ad970cd25b2)  
   
--   [switch Statement (C++)](../Topic/switch%20Statement%20\(C++\).md)  
+-   [switch Statement (C++)](http://msdn.microsoft.com/library/6c3f3ed3-5593-463c-8f4b-b33742b455c6)  
   
--   [while Statement (C++)](../Topic/while%20Statement%20\(C++\).md)  
+-   [while Statement (C++)](http://msdn.microsoft.com/library/358dbe76-5e5e-4af5-b575-c2293c636899)  
   
 ## See Also  
  [General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)   

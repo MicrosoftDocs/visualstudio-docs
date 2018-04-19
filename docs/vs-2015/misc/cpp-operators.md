@@ -22,4 +22,4 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # C++ Operators
-The content on this page has been moved to the following page: [C++ Built-in Operators, Precedence and Associativity](../Topic/C++%20Built-in%20Operators,%20Precedence%20and%20Associativity.md).
+The content on this page has been moved to the following page: [C++ Built-in Operators, Precedence and Associativity](http://msdn.microsoft.com/library/95c1f0ba-dad8-4034-b039-f79a904f112f).

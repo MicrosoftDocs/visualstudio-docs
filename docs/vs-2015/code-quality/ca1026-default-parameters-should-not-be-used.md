@@ -37,7 +37,7 @@ TypeName|DefaultParametersShouldNotBeUsed|
 ## Rule Description  
  Methods that use default parameters are allowed under the Common Language Specification (CLS); however, the CLS allows compilers to ignore the values that are assigned to these parameters. Code that is written for compilers that ignore default parameter values must explicitly provide arguments for each default parameter. To maintain the behavior that you want across programming languages, methods that use default parameters should be replaced with method overloads that provide the default parameters.  
   
- The compiler ignores the values of default parameters for Managed Extension for C++ when it accesses managed code. The Visual Basic compiler supports methods that have default parameters that use the [Optional](../Topic/Optional%20\(Visual%20Basic\).md) keyword.  
+ The compiler ignores the values of default parameters for Managed Extension for C++ when it accesses managed code. The Visual Basic compiler supports methods that have default parameters that use the [Optional](http://msdn.microsoft.com/library/4571ce88-a539-4115-b230-54eb277c6aa7) keyword.  
   
 ## How to Fix Violations  
  To fix a violation of this rule, replace the method that uses default parameters with method overloads that supply the default parameters.  
@@ -54,7 +54,7 @@ TypeName|DefaultParametersShouldNotBeUsed|
  [CA1025: Replace repetitive arguments with params array](../code-quality/ca1025-replace-repetitive-arguments-with-params-array.md)  
   
 ## See Also  
- [Language Independence and Language-Independent Components](../Topic/Language%20Independence%20and%20Language-Independent%20Components.md)
+ [Language Independence and Language-Independent Components](http://msdn.microsoft.com/library/4f0b77d0-4844-464f-af73-6e06bedeafc6)
 
 
 

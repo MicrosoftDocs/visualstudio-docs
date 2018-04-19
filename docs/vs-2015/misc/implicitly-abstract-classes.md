@@ -19,4 +19,4 @@ ms.author: "mithom"
 manager: "douge"
 ---
 # Implicitly Abstract Classes
-Content moved to [How to: Define and Consume Classes and Structs (C++/CLI)](../Topic/How%20to:%20Define%20and%20Consume%20Classes%20and%20Structs%20\(C++-CLI\).md)
+Content moved to [How to: Define and Consume Classes and Structs (C++/CLI)](http://msdn.microsoft.com/library/1c03cb0d-1459-4b5e-af65-97d6b3094fd7)

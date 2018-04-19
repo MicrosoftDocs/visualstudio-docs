@@ -30,5 +30,5 @@ manager: "wpickett"
 -   Test `RaiseEvent` statements from code in the **Code Editor**.  
   
 ## See Also  
- [RaiseEvent Statement](../Topic/RaiseEvent%20Statement.md)   
+ [RaiseEvent Statement](http://msdn.microsoft.com/library/f82e380a-1e6b-4047-bea8-c853f4d2c742)   
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)

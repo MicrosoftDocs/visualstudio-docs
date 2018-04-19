@@ -144,9 +144,9 @@ DataTips provide a convenient way to view information about variables in your pr
   
 ## See Also  
  [Viewing Data in the Debugger](../debugger/viewing-data-in-the-debugger.md)   
- [How to: Use the QuickWatch Dialog Box](../Topic/How%20to:%20Use%20the%20QuickWatch%20Dialog%20Box.md)   
+ [How to: Use the QuickWatch Dialog Box](http://msdn.microsoft.com/library/ffaee1dd-e5ce-4ef2-9401-d28329398867)   
  [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md)   
- [How to: Change the Numeric Format of Debugger Windows](../Topic/How%20to:%20Change%20the%20Numeric%20Format%20of%20Debugger%20Windows.md)
+ [How to: Change the Numeric Format of Debugger Windows](http://msdn.microsoft.com/library/cd593847-a625-411d-a430-b798346ef18f)
 
 
 

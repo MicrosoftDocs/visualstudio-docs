@@ -114,8 +114,8 @@ End Sub
   
 ## See Also  
  <xref:System.OverflowException?displayProperty=fullName>   
- [C# Operators](../Topic/C%23%20Operators.md)   
- [Checked and Unchecked](../Topic/Checked%20and%20Unchecked%20\(C%23%20Reference\).md)
+ [C# Operators](http://msdn.microsoft.com/library/0301e31f-22ad-49af-ac3c-d5eae7f0ac43)   
+ [Checked and Unchecked](http://msdn.microsoft.com/library/a84bc877-2c7f-4396-8735-1ce97c42f35e)
 
 
 

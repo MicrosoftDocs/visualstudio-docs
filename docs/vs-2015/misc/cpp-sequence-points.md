@@ -21,4 +21,4 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # C++ Sequence Points
-This content has moved [Semantics of Expressions](../Topic/Semantics%20of%20Expressions.md).
+This content has moved [Semantics of Expressions](http://msdn.microsoft.com/library/4a792154-533b-48b9-8709-31bfc170f0a7).

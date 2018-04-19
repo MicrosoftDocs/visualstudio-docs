@@ -30,6 +30,6 @@ ms.author: "ghogen"
 manager: "douge"
 ---
 # subtract_with_carry::subtract_with_carry
-This class is deprecated. See [\<random>](../Topic/%3Crandom%3E.md).  
+This class is deprecated. See [\<random>](http://msdn.microsoft.com/library/60afc25c-b162-4811-97c1-1b65398d4c57).  
   
 ## Syntax

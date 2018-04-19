@@ -30,6 +30,6 @@ manager: "wpickett"
 -   Remove the `Using` statement from the **Immediate** window.  
   
 ## See Also  
- [Using Statement](../Topic/Using%20Statement%20\(Visual%20Basic\).md)   
+ [Using Statement](http://msdn.microsoft.com/library/665d1580-dd54-4e96-a9a9-6be2a68948f1)   
  [Immediate Window](../ide/reference/immediate-window.md)   
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)

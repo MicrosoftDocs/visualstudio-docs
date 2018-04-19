@@ -25,4 +25,4 @@ ms.author: "douge"
 manager: "douge"
 ---
 # Rules and Limitations for TLS
-This content has moved to [Thread Local Storage (TLS)](../Topic/Thread%20Local%20Storage%20\(TLS\).md)
+This content has moved to [Thread Local Storage (TLS)](http://msdn.microsoft.com/library/80801907-d792-45ca-b776-df0cf2e9f197)

@@ -36,21 +36,21 @@ robots: noindex,nofollow
  [How to: Connect to Data in a Service](../data-tools/how-to-connect-to-data-in-a-service.md)  
  Describes how to create a connection between your application and the data returned from a Web service using the **Data Source Configuration Wizard**.  
   
- [How to: Connect to Data in Objects](../Topic/How%20to:%20Connect%20to%20Data%20in%20Objects.md)  
+ [How to: Connect to Data in Objects](http://msdn.microsoft.com/library/862fd351-0f4d-4220-9743-6103b87dc24b)  
  Describes how to databind to property values in objects using the **Data Source Configuration Wizard**.  
   
- [How to: Save and Edit Connection Strings](../Topic/How%20to:%20Save%20and%20Edit%20Connection%20Strings.md)  
+ [How to: Save and Edit Connection Strings](~/E:/Repos/visualstudio-docs-pr/docs/data-tools/how-to-save-and-edit-connection-strings.md)  
  Describes how to save and modify connection information in your application.  
   
  [Connecting to Data in Windows Forms Applications](../data-tools/connecting-to-data-in-windows-forms-applications.md)  
  Provides information about connecting your Windows Forms applications to data with design time tools.  
   
 ## Reference  
- [ADO.NET](../Topic/ADO.NET.md)  
+ [ADO.NET](http://msdn.microsoft.com/library/5b96ed06-9759-4966-a797-a1d5f6ee50ca)  
  Describes the ADO.NET classes, which expose data-access services to the .NET programmer.  
   
 ## Related Sections  
- [Connecting to a Data Source](../Topic/Connecting%20to%20a%20Data%20Source%20in%20ADO.NET.md)  
+ [Connecting to a Data Source](http://msdn.microsoft.com/library/9abc3f92-1be3-4e1a-b360-762dc689650e)  
  Describes the [!INCLUDE[vstecado](../includes/vstecado-md.md)] connection object and how to use it to connect to a data source.  
   
  [ADO.NET Entity Data Model  Tools](http://msdn.microsoft.com/en-us/91076853-0881-421b-837a-f582f36be527)  
@@ -59,10 +59,10 @@ robots: noindex,nofollow
  [Data Binding (Silverlight)](http://go.microsoft.com/fwlink/?LinkId=166342)  
  Provides information on data binding in Silverlight applications.  
   
- [Data Binding (WPF)](../Topic/Data%20Binding%20\(WPF\).md)  
+ [Data Binding (WPF)](http://msdn.microsoft.com/library/90f79b97-17e7-40d1-abf0-3ba600ad1d7e)  
  Provides information on data binding in WPF applications.  
   
- [Data in Office Solutions](../Topic/Data%20in%20Office%20Solutions.md)  
+ [Data in Office Solutions](http://msdn.microsoft.com/library/8478c095-864b-4ed3-8a70-1fc19b411c6a)  
  Contains links to topics that explain how data works in Office solutions, including information about schema-oriented programming, data caching, and server-side data access.  
   
 ## See Also  

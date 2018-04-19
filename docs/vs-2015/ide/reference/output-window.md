@@ -63,17 +63,17 @@ The **Output** window can display status messages for various features in the in
   
  You can also program your own applications to write diagnostic messages at run time to an **Output** pane. To do this, use members of the <xref:System.Diagnostics.Debug> class or <xref:System.Diagnostics.Trace> class in the <xref:System.Diagnostics> namespace of the .NET Framework Class Library. Members of the <xref:System.Diagnostics.Debug> class display output when you build Debug configurations of your solution or project; members of the <xref:System.Diagnostics.Trace> class display output when you build either Debug or Release configurations. For more information, see [Diagnostic Messages in the Output Window](../../debugger/diagnostic-messages-in-the-output-window.md).  
   
- In [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)], you can create custom build steps and build events whose warnings and errors are displayed and counted in the **Output** pane. By pressing F1 on a line of output, you can display an appropriate help topic. For more information, see [Formatting the Output of a Custom Build Step or Build Event](../Topic/Formatting%20the%20Output%20of%20a%20Custom%20Build%20Step%20or%20Build%20Event.md).  
+ In [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)], you can create custom build steps and build events whose warnings and errors are displayed and counted in the **Output** pane. By pressing F1 on a line of output, you can display an appropriate help topic. For more information, see [Formatting the Output of a Custom Build Step or Build Event](http://msdn.microsoft.com/library/92ad3e38-24d7-4b89-90e6-5a16f5f998da).  
   
 ## Scrolling Behavior  
  If you use autoscrolling in the Output window and then navigate by using the mouse or arrow keys, autoscrolling stops. To resume autoscrolling, press CTRL+END.  
   
 ## See Also  
  [Diagnostic Messages in the Output Window](../../debugger/diagnostic-messages-in-the-output-window.md)   
- [How to: Control the Output Window](../Topic/How%20to:%20Control%20the%20Output%20Window.md)   
+ [How to: Control the Output Window](http://msdn.microsoft.com/library/91aebd15-8854-4a7a-9f7d-57376fb4e858)   
  [Compiling and Building](../../ide/compiling-and-building-in-visual-studio.md)   
  [Understanding Build Configurations](../../ide/understanding-build-configurations.md)   
- [Class Library Overview](../Topic/.NET%20Framework%20Class%20Library%20Overview.md)
+ [Class Library Overview](http://msdn.microsoft.com/library/7e4c5921-955d-4b06-8709-101873acf157)
 
 
 

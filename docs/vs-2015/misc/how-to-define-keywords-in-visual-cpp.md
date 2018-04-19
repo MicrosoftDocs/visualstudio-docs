@@ -44,8 +44,8 @@ Keywords are predefined, reserved identifiers that have special meanings. They c
   
 6.  Set the font and color properties of your user-defined keywords as described in [Fonts and Colors, Environment, Options Dialog Box](../ide/reference/fonts-and-colors-environment-options-dialog-box.md).  
   
- For more information, see [Keywords](../Topic/Keywords%20\(C++\).md).  
+ For more information, see [Keywords](http://msdn.microsoft.com/library/d7ca94a8-f785-41ce-9f73-d3c4fd508489).  
   
 ## See Also  
- [Running as a Member of the Users Group](../Topic/Running%20as%20a%20Member%20of%20the%20Users%20Group.md)   
+ [Running as a Member of the Users Group](http://msdn.microsoft.com/library/e48a03ec-d345-49f6-809a-1a291eecbc81)   
  [Default Keyboard Shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md)

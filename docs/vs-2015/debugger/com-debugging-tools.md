@@ -36,7 +36,7 @@ The latest version of this topic can be found at [COM Debugging Tools](https://d
 This topic lists tools that can help you test and inspect COM programs.  
   
  OLE/COM Object Viewer  
- OLEVIEW displays the ActiveX and OLE objects installed on your computer and the interfaces they support. It also allows you to edit the registry and look at type libraries. For more information, see [Using the OLE/COM Object Viewer](../Topic/Using%20the%20OLE-COM%20Object%20Viewer.md).  
+ OLEVIEW displays the ActiveX and OLE objects installed on your computer and the interfaces they support. It also allows you to edit the registry and look at type libraries. For more information, see [Using the OLE/COM Object Viewer](http://msdn.microsoft.com/library/a3359e31-2869-451d-9571-129b4e8b41f0).  
   
  Microsoft Foundation Class Samples  
  The MFC ActiveX samples OCLIENT and SUPERPAD are also available to test your applications against. Full source code for these samples is included.  

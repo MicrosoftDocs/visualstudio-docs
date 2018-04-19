@@ -27,7 +27,7 @@ manager: "douge"
 ---
 # __box
 > [!NOTE]
->  This topic applies only to version 1 of Managed Extensions for C++. This syntax should only be used to maintain version 1 code. See [Boxing](../Topic/Boxing%20%20\(C++%20Component%20Extensions\).md) for information on using the equivalent functionality in the new syntax.  
+>  This topic applies only to version 1 of Managed Extensions for C++. This syntax should only be used to maintain version 1 code. See [Boxing](http://msdn.microsoft.com/library/b5fd2c98-c578-4f83-8257-6dd663478665) for information on using the equivalent functionality in the new syntax.  
   
  Creates a managed copy of a __value class object.  
   

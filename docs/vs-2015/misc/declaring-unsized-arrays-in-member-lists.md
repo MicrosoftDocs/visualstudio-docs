@@ -21,4 +21,4 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # Declaring Unsized Arrays in Member Lists
-This content moved to  [Class Member Overview](../Topic/Class%20Member%20Overview.md)
+This content moved to  [Class Member Overview](http://msdn.microsoft.com/library/8802cfa9-705d-4f37-acde-245d6838010c)

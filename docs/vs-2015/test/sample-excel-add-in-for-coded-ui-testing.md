@@ -23,7 +23,7 @@ The latest version of this topic can be found at [Sample Excel Add-In for Coded 
   
 This sample Add-In for [!INCLUDE[ofprexcel](../includes/ofprexcel-md.md)] is designed specifically to support Coded UI Tests of Excel worksheets that are recorded and run in Visual Studio Enterprise. The Add-In is created by using Visual Studio Tools for Office.  
   
- For more information about how to create an Excel Add-In, see [Walkthrough: Creating Your First VSTO Add-in for Excel](../Topic/Walkthrough:%20Creating%20Your%20First%20VSTO%20Add-in%20for%20Excel.md) or search MSDN for "Excel Add-In".  
+ For more information about how to create an Excel Add-In, see [Walkthrough: Creating Your First VSTO Add-in for Excel](http://msdn.microsoft.com/library/a855e2be-3ecf-4112-a7f5-ec0f7fad3b5f) or search MSDN for "Excel Add-In".  
   
  Although the Excel Add-In is not the primary subject of this documentation of the Coded UI Test Extension for Excel, a few comments may be helpful.  
   
@@ -48,8 +48,8 @@ This sample Add-In for [!INCLUDE[ofprexcel](../includes/ofprexcel-md.md)] is des
   
 ## See Also  
  [Extending Coded UI Tests and Action Recordings to Support Microsoft Excel](../test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel.md)   
- [Walkthrough: Creating Your First VSTO Add-in for Excel](../Topic/Walkthrough:%20Creating%20Your%20First%20VSTO%20Add-in%20for%20Excel.md)   
- [Office and SharePoint Development](../Topic/Office%20and%20SharePoint%20Development%20in%20Visual%20Studio.md)
+ [Walkthrough: Creating Your First VSTO Add-in for Excel](http://msdn.microsoft.com/library/a855e2be-3ecf-4112-a7f5-ec0f7fad3b5f)   
+ [Office and SharePoint Development](http://msdn.microsoft.com/library/2ddec047-263a-4901-a54c-a15fc8472329)
 
 
 

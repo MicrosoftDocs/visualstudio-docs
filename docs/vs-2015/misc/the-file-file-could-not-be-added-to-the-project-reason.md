@@ -33,5 +33,5 @@ A file that has been read from the .vbproj or .csproj file cannot be added to th
  Any file for which this diagnostic is displayed will not be added to the project.  
   
 ## See Also  
- [Project Files](../Topic/Project%20Files.md)   
+ [Project Files](http://msdn.microsoft.com/library/5261cf45-3136-40a6-899e-dc1339551401)   
  [NIB:Item Management in Projects](http://msdn.microsoft.com/en-us/762e606b-7f44-4b66-97a1-e30a703654a0)

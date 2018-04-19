@@ -21,4 +21,4 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # Restrictions on Use of Bit Fields
-This content has moved to [C++ Bit Fields](../Topic/C++%20Bit%20Fields.md)
+This content has moved to [C++ Bit Fields](http://msdn.microsoft.com/library/6f4b62e3-cc1d-4e5d-bf34-05904104f71a)

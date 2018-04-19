@@ -30,7 +30,7 @@ robots: noindex,nofollow
 
 After the data in your dataset has been modified and validated, you probably want to send the updated data back to a database. In order to send the modified data to a database, you call the `Update` method of a [TableAdapter](../data-tools/tableadapter-overview.md) or data adapter. The adapter's `Update` method updates a single data table and executes the correct command (INSERT, UPDATE, or DELETE) based on the <xref:System.Data.DataRow.RowState%2A> of each data row in the table.  
   
- When saving data in related tables, Visual Studio provides a TableAdapterManager component that assists in performing saves in the proper order based on the foreign-key constraints defined in the database. For more information, see [Hierarchical Update Overview](../Topic/Hierarchical%20Update%20Overview.md).  
+ When saving data in related tables, Visual Studio provides a TableAdapterManager component that assists in performing saves in the proper order based on the foreign-key constraints defined in the database. For more information, see [Hierarchical Update Overview](http://msdn.microsoft.com/library/c4f8e8b9-e4a5-4a02-8462-d03d1e8222d6).  
   
 > [!NOTE]
 >  Because attempting to update a data source with the contents of a dataset can result in errors, you should place the code that calls the adapter's `Update` method inside of a `try`/`catch` block.  
@@ -39,12 +39,12 @@ After the data in your dataset has been modified and validated, you probably wan
   
 1.  Execute code that attempts sending updates to the database within a `try`/`catch` block.  
   
-2.  If an exception is caught, locate the data row that caused the error. For more information, see [How to: Locate Rows that Have Errors](../Topic/How%20to:%20Locate%20Rows%20that%20Have%20Errors.md).  
+2.  If an exception is caught, locate the data row that caused the error. For more information, see [How to: Locate Rows that Have Errors](http://msdn.microsoft.com/library/1fa907c5-fe66-4f29-a253-2b97b900050c).  
   
 3.  Reconcile the problem in the data row (programmatically if possible, or by presenting the invalid row to the user for modification), and then reattempt the update (<xref:System.Data.DataRow.HasErrors%2A> property, <xref:System.Data.DataTable.GetErrors%2A> method).  
   
 ## Saving Data to a Database  
- Call the `Update` method of a TableAdapter or data adapter, passing the name of the data table that contains the values to be written to the database. For more information on saving data from a single data table back to a database, see [Walkthrough: Saving Data to a Database (Single Table)](../Topic/Walkthrough:%20Saving%20Data%20to%20a%20Database%20\(Single%20Table\).md).  
+ Call the `Update` method of a TableAdapter or data adapter, passing the name of the data table that contains the values to be written to the database. For more information on saving data from a single data table back to a database, see [Walkthrough: Saving Data to a Database (Single Table)](http://msdn.microsoft.com/library/68befa96-7463-43e8-abcf-dc2f42ccd53d).  
   
 #### To update a database with a dataset using a TableAdapter  
   
@@ -71,7 +71,7 @@ After the data in your dataset has been modified and validated, you probably wan
   
  For detailed information on saving data from multiple tables, see [Save data to a database (multiple tables)](../data-tools/save-data-to-a-database-multiple-tables.md).  
   
- If you are updating two or more related tables, then you should include all the update logic within a transaction. A transaction is a process that assures all related changes to a database are successful before committing any changes. For more information see, [Transactions and Concurrency](../Topic/Transactions%20and%20Concurrency.md).  
+ If you are updating two or more related tables, then you should include all the update logic within a transaction. A transaction is a process that assures all related changes to a database are successful before committing any changes. For more information see, [Transactions and Concurrency](http://msdn.microsoft.com/library/f46570de-9e50-4fe6-8710-a8c31fa8569b).  
   
 #### To update two related tables using a TableAdapter  
   
@@ -96,12 +96,12 @@ After the data in your dataset has been modified and validated, you probably wan
      [!code-vb[VbRaddataSaving#28](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Class1.vb#28)]  
   
 ## See Also  
- [Data Walkthroughs](../Topic/Data%20Walkthroughs.md)   
+ [Data Walkthroughs](http://msdn.microsoft.com/library/15a88fb8-3bee-4962-914d-7a1f8bd40ec4)   
  [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)   
  [Connecting to Data in Visual Studio](../data-tools/connecting-to-data-in-visual-studio.md)   
- [Preparing Your Application to Receive Data](../Topic/Preparing%20Your%20Application%20to%20Receive%20Data.md)   
+ [Preparing Your Application to Receive Data](http://msdn.microsoft.com/library/c17bdb7e-c234-4f2f-9582-5e55c27356ad)   
  [Fetching Data into Your Application](../data-tools/fetching-data-into-your-application.md)   
  [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)   
  [Editing Data in Your Application](../data-tools/editing-data-in-your-application.md)   
- [Validating Data](../Topic/Validating%20Data.md)   
+ [Validating Data](http://msdn.microsoft.com/library/b3a9ee4e-5d4d-4411-9c56-c811f2b4ee7e)   
  [Saving Data](../data-tools/saving-data.md)

@@ -22,4 +22,4 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # Member Functions in Nested Classes
-This content has moved to [Nested Class Declarations](../Topic/Nested%20Class%20Declarations.md) .
+This content has moved to [Nested Class Declarations](http://msdn.microsoft.com/library/c02e471d-b7f9-41b8-8ef6-2323f006dbd5) .

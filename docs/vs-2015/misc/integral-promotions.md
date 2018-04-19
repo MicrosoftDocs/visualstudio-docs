@@ -21,7 +21,7 @@ ms.author: "mithom"
 manager: "douge"
 ---
 # Integral Promotions
-This content has moved to [Standard Conversions](../Topic/Standard%20Conversions.md)  
+This content has moved to [Standard Conversions](http://msdn.microsoft.com/library/ce7ac8d3-5c99-4674-8229-0672de05528d)  
   
 ## See Also  
- [Standard Conversions](../Topic/Standard%20Conversions.md)
+ [Standard Conversions](http://msdn.microsoft.com/library/ce7ac8d3-5c99-4674-8229-0672de05528d)

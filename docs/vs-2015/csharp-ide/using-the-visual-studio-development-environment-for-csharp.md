@@ -48,6 +48,6 @@ The Visual Studio integrated development environment (IDE) is a collection of de
 |[Managing Application Resources (.NET)](../ide/managing-application-resources-dotnet.md)|Shows how to add or edit resources for your project, such as strings, images, icons, audio, and files.|  
   
 ## See Also  
- [C#](../Topic/C%23.md)   
- [Getting Started with C#](../Topic/Getting%20Started%20with%20C%23.md)   
- [C# Reference](../Topic/C%23%20Reference.md)
+ [C#](http://msdn.microsoft.com/library/7f4f8103-7068-4f1d-92c7-3c4519b6edbc)   
+ [Getting Started with C#](http://msdn.microsoft.com/library/d6ec050f-3956-4737-8030-a4fa3521d29f)   
+ [C# Reference](http://msdn.microsoft.com/library/06de3167-c16c-4e1a-b3c5-c27841d4569a)

@@ -23,4 +23,4 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # Positive and Negative Subscripts
-This content has moved [Subscript Operator:](../Topic/Subscript%20Operator:.md).
+This content has moved [Subscript Operator:](http://msdn.microsoft.com/library/69c31494-52da-4dd0-8bbe-6ccbfd50f197).

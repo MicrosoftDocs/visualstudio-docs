@@ -42,7 +42,7 @@ This topic describes the debugger windows and dialog boxes. It only discusses th
 |`position()`|The position, or index number, of the context node, relative to the context size.|  
 |`self::node()`|The value of the context node.|  
   
- For more information, see [How to: Change the Debugger Context](../Topic/How%20to:%20Change%20the%20Debugger%20Context.md).  
+ For more information, see [How to: Change the Debugger Context](http://msdn.microsoft.com/library/8a69ea63-2ef0-4b4f-9521-cf8ad2e3ec5e).  
   
 ## Output Window  
  The Output window shows any error messages or security exceptions that occur during debugging.  
@@ -100,5 +100,5 @@ This topic describes the debugger windows and dialog boxes. It only discusses th
 ## See Also  
  [Debugging XSLT](../xml-tools/debugging-xslt.md)   
  [Debugger Basics](../debugger/debugger-basics.md)   
- [Variable Windows](../Topic/Variable%20Windows.md)
+ [Variable Windows](http://msdn.microsoft.com/library/ce0a67f6-2502-4b7a-ba45-cc32f8aeba3e)
 

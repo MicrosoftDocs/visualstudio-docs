@@ -32,7 +32,7 @@ You can use the pages in the **Environment** folder in the **Options** dialog bo
 |For information about how to|See|  
 |----------------------------------|---------|  
 |Customize the appearance and behavior of windows, menus, and other elements of the IDE.|[General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)|  
-|Specify security for add-ins.|[Add-in Security, Environment, Options Dialog Box](../Topic/Add-in%20Security,%20Environment,%20Options%20Dialog%20Box.md)|  
+|Specify security for add-ins.|[Add-in Security, Environment, Options Dialog Box](http://msdn.microsoft.com/library/f95aa7af-70a5-4323-abe5-91bd6d264f4e)|  
 |Change the settings for automatic saving and restoration of files.|[AutoRecover, Environment, Options Dialog Box](../../ide/reference/autorecover-environment-options-dialog-box.md)|  
 |Establish document display and management settings that include the behavior of Miscellaneous files.|[Documents, Environment, Options Dialog Box](../../ide/reference/documents-environment-options-dialog-box.md)|  
 |Customize how updates occur and how extensions are managed.|[Extensions and Updates, Environment, Options Dialog Box](../../ide/reference/extensions-and-updates-environment-options-dialog-box.md)|  

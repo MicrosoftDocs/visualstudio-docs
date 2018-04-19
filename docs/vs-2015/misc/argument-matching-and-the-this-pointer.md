@@ -25,4 +25,4 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # Argument Matching and the this Pointer
-This content has moved to [Function Overloading](../Topic/Function%20Overloading.md)
+This content has moved to [Function Overloading](http://msdn.microsoft.com/library/3c9884cb-1d5e-42e8-9a49-6f46141f929e)

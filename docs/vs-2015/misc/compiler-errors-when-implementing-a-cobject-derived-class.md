@@ -79,4 +79,4 @@ int main()
 ```  
   
 ## See Also  
- [Compiler Warnings C4600 Through C4799](../Topic/Compiler%20Warnings%20C4600%20Through%20C4799.md)
+ [Compiler Warnings C4600 Through C4799](http://msdn.microsoft.com/library/22bd4392-f3be-445c-9f23-6126aebac901)

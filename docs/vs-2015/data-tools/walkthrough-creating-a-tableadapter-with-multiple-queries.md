@@ -28,7 +28,7 @@ robots: noindex,nofollow
 # Walkthrough: Creating a TableAdapter with Multiple Queries
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-In this walkthrough, you will create a TableAdapter in a dataset using the [Data Source Configuration Wizard](../Topic/Data%20Source%20Configuration%20Wizard.md). The walkthrough takes you through the process of creating a second query in the [TableAdapter](../data-tools/tableadapter-overview.md) using the [Editing TableAdapters](../data-tools/editing-tableadapters.md) within the [Dataset Designer](../data-tools/creating-and-editing-typed-datasets.md).  
+In this walkthrough, you will create a TableAdapter in a dataset using the [Data Source Configuration Wizard](http://msdn.microsoft.com/library/c4df7de5-5da0-4064-940c-761dd6d9e28f). The walkthrough takes you through the process of creating a second query in the [TableAdapter](../data-tools/tableadapter-overview.md) using the [Editing TableAdapters](../data-tools/editing-tableadapters.md) within the [Dataset Designer](../data-tools/creating-and-editing-typed-datasets.md).  
   
  Tasks illustrated in this walkthrough include:  
   
@@ -167,9 +167,9 @@ In this walkthrough, you will create a TableAdapter in a dataset using the [Data
  [TableAdapter Overview](../data-tools/tableadapter-overview.md)   
  [Create and configure TableAdapters](../data-tools/create-and-configure-tableadapters.md)   
  [How to: Create TableAdapter Queries](../data-tools/how-to-create-tableadapter-queries.md)   
- [Data Walkthroughs](../Topic/Data%20Walkthroughs.md)   
+ [Data Walkthroughs](http://msdn.microsoft.com/library/15a88fb8-3bee-4962-914d-7a1f8bd40ec4)   
  [Connecting to Data in Visual Studio](../data-tools/connecting-to-data-in-visual-studio.md)   
- [Preparing Your Application to Receive Data](../Topic/Preparing%20Your%20Application%20to%20Receive%20Data.md)   
+ [Preparing Your Application to Receive Data](http://msdn.microsoft.com/library/c17bdb7e-c234-4f2f-9582-5e55c27356ad)   
  [Fetching Data into Your Application](../data-tools/fetching-data-into-your-application.md)   
  [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)   
  [Editing Data in Your Application](../data-tools/editing-data-in-your-application.md)

@@ -73,7 +73,7 @@ The supported configurations and platforms for coded UI tests for Visual Studio 
   
 ## See Also  
  [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)   
- [Generating a Coded UI Test from an Existing Action Recording](../Topic/Generating%20a%20Coded%20UI%20Test%20from%20an%20Existing%20Action%20Recording.md)
+ [Generating a Coded UI Test from an Existing Action Recording](http://msdn.microsoft.com/library/56736963-9027-493b-b5c4-2d4e86d1d497)
 
 
 

@@ -56,11 +56,11 @@ INCLUDE[vsprvs](../../includes/vsprvs-md.md)] supports many file types. In a par
  [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] uses a variety of file formats to store information specific to projects. For more information, see the following Help topics:  
   
  [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)]  
- [File Types Created for Visual C++ Projects](../Topic/File%20Types%20Created%20for%20Visual%20C++%20Projects.md)  
+ [File Types Created for Visual C++ Projects](http://msdn.microsoft.com/library/2b0ee2e0-ae81-4185-9bb9-11da3c99a283)  
   
- [Creating and Managing Visual C++ Projects](../Topic/Creating%20and%20Managing%20Visual%20C++%20Projects.md)  
+ [Creating and Managing Visual C++ Projects](http://msdn.microsoft.com/library/11003cd8-9046-4630-a189-a32bf3b88047)  
   
- [Unicode](../Topic/Unicode%20in%20MFC.md)  
+ [Unicode](http://msdn.microsoft.com/library/1002004b-4113-4380-bf63-e1570934b793)  
   
 ## See Also  
  [Solutions and Projects](../../ide/solutions-and-projects-in-visual-studio.md)

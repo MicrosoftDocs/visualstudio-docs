@@ -36,9 +36,9 @@ This section explains how to use C++ overloaded functions and overloaded operato
   
 -   [Address of overloaded functions](../misc/address-of-overloaded-functions.md)  
   
--   [Overloaded operators](../Topic/Operator%20Overloading.md)  
+-   [Overloaded operators](http://msdn.microsoft.com/library/56ad4c4f-dd0c-45e0-adaa-08fe98cb1f8e)  
   
--   [General rules for operator overloading](../Topic/General%20Rules%20for%20Operator%20Overloading.md)  
+-   [General rules for operator overloading](http://msdn.microsoft.com/library/eb2b3754-35f7-4832-b1da-c502893dc0c7)  
   
 ## See Also  
- [C++ Language Reference](../Topic/C++%20Language%20Reference.md)
+ [C++ Language Reference](http://msdn.microsoft.com/library/4be9cacb-c862-4391-894a-3a118c9c93ce)

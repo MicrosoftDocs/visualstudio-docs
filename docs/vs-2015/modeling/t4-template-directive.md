@@ -35,7 +35,7 @@ A [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] T4 text template usually starts w
  `compilerOptions="optimize+"`  
   
  Valid values:  
- Any valid compiler options. For more information, see [C# Compiler Options Listed by Category](../Topic/C%23%20Compiler%20Options%20Listed%20by%20Category.md) and [Visual Basic Compiler Options Listed by Category](../Topic/Visual%20Basic%20Compiler%20Options%20Listed%20by%20Category.md).  
+ Any valid compiler options. For more information, see [C# Compiler Options Listed by Category](http://msdn.microsoft.com/library/96437ecc-6502-4cd3-b070-e9386a298e83) and [Visual Basic Compiler Options Listed by Category](http://msdn.microsoft.com/library/fbe36f7a-7cfa-4f77-a8d4-2be5958568e3).  
   
  Ignored for run-time (preprocessed) templates.  
   

@@ -144,9 +144,9 @@ For a **Tools Options** page to be available to users and support automation, it
 |ProfileSave|DWORD|1/0|Optional.<br /><br /> This value indicates whether the **Tools Options** page settings are saved by the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] settings mechanism when a user clicks the **Import/Export Settings** command on the **Tools** menu.<br /><br /> If the key is present and its value is 1, then the **Tools Options** page is requesting settings support.<br /><br /> Implementations based on the managed package framework set this value if the <xref:Microsoft.VisualStudio.Shell.ProvideOptionPageAttribute> constructor is supplied with the <xref:Microsoft.VisualStudio.Shell.ProvideOptionPageAttribute.SupportsProfiles%2A> property set to `true`.|  
   
 ## See Also  
- [Creating Registrar Scripts](../Topic/Creating%20Registrar%20Scripts.md)   
+ [Creating Registrar Scripts](http://msdn.microsoft.com/library/cbd5024b-8061-4a71-be65-7fee90374a35)   
  [Using Options Pages](../misc/using-options-pages.md)   
  [Creating Options Pages By Using Interop Assemblies](../misc/creating-options-pages-by-using-interop-assemblies.md)   
- [How to: Create Custom Options Pages](../Topic/How%20to:%20Create%20Custom%20Options%20Pages.md)   
+ [How to: Create Custom Options Pages](http://msdn.microsoft.com/library/850b7335-2677-40d7-8604-27fcab93a589)   
  [Options Pages](../misc/options-pages.md)   
  [Automation Support for Options Pages](../extensibility/internals/automation-support-for-options-pages.md)

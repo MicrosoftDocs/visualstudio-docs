@@ -32,7 +32,7 @@ The topics in this section describe the overall structure of [!INCLUDE[vsprvs](.
  [Visual Studio Shell](../extensibility/internals/visual-studio-shell.md)  
  Describes the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] IDE, which is the primary agent of integration in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   
- [Visual Studio SDK and Automation](../Topic/Visual%20Studio%20SDK%20and%20Automation.md)  
+ [Visual Studio SDK and Automation](http://msdn.microsoft.com/library/918cf97f-53f4-4fb5-8639-88f0b2852846)  
  Discusses using automation, VSPackages, or a combination to create [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] extensibility applications.  
   
  [Visual Studio SDK and Managed Code](../misc/visual-studio-sdk-and-managed-code.md)  

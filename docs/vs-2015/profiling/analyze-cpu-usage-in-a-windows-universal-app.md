@@ -28,7 +28,7 @@ The latest version of this topic can be found at [Analyze CPU Usage in a Univers
   
 Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "windows_and_phone_content")  
   
- When you need to investigate performance issues in your app, a good place to start is understanding how it uses the CPU. The **CPU Usage** tool shows you where the CPU is spending time executing code. To focus on specific scenarios, CPU Usage can be run with the [XAML UI Responsiveness](../Topic/Analyze%20UI%20responsiveness%20in%20Store%20apps%20\(XAML\).md) tool, the [Energy Consumption](../profiling/analyze-energy-use-in-store-apps.md) tool, or both tools in a single diagnostic session.  
+ When you need to investigate performance issues in your app, a good place to start is understanding how it uses the CPU. The **CPU Usage** tool shows you where the CPU is spending time executing code. To focus on specific scenarios, CPU Usage can be run with the [XAML UI Responsiveness](http://msdn.microsoft.com/library/4ff84cd1-4e63-4fda-b34f-3ef862a6e480) tool, the [Energy Consumption](../profiling/analyze-energy-use-in-store-apps.md) tool, or both tools in a single diagnostic session.  
   
 > [!NOTE]
 >  The **CPU Usage** tool cannot be used with Windows Phone Silverlight 8.1 apps.  

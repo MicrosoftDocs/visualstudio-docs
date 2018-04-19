@@ -37,44 +37,44 @@ Code snippets are ready-made snippets of code you can quickly insert into your c
   
 |Name (or shortcut)|Description|Valid locations to insert snippet|  
 |--------------------------|-----------------|---------------------------------------|  
-|#if|Creates a [#if](../Topic/%23if%20\(C%23%20Reference\).md) directive and a [#endif](../Topic/%23endif%20\(C%23%20Reference\).md) directive.|Anywhere.|  
-|#region|Creates a [#region](../Topic/%23region%20\(C%23%20Reference\).md) directive and a [#endregion](../Topic/%23endregion%20\(C%23%20Reference\).md) directive.|Anywhere.|  
+|#if|Creates a [#if](http://msdn.microsoft.com/library/48cabbff-ca82-491f-a56a-eeccd528c7c2) directive and a [#endif](http://msdn.microsoft.com/library/6a5fca55-5aee-441f-86f6-1c99fbe9ec05) directive.|Anywhere.|  
+|#region|Creates a [#region](http://msdn.microsoft.com/library/672c87d1-9771-4f64-ab3f-0ad3d4ffb2b4) directive and a [#endregion](http://msdn.microsoft.com/library/16099660-91b2-49e5-9646-77f9ef069526) directive.|Anywhere.|  
 |~|Creates a destructor for the containing class.|Inside a class.|  
 |attribute|Creates a declaration for a class that derives from <xref:System.Attribute>.|Inside a namespace (including the global namespace), a class, or a struct.|  
-|checked|Creates a [checked](../Topic/checked%20\(C%23%20Reference\).md) block.|Inside a method, an indexer, a property accessor, or an event accessor.|  
+|checked|Creates a [checked](http://msdn.microsoft.com/library/718a1194-988d-48a3-b089-d6ee8bd1608d) block.|Inside a method, an indexer, a property accessor, or an event accessor.|  
 |class|Creates a class declaration.|Inside a namespace (including the global namespace), a class, or a struct.|  
 |ctor|Creates a constructor for the containing class.|Inside a class.|  
 |cw|Creates a call to <xref:System.Console.WriteLine%2A>.|Inside a method, an indexer, a property accessor, or an event accessor.|  
-|do|Creates a [do](../Topic/do%20\(C%23%20Reference\).md)`while` loop.|Inside a method, an indexer, a property accessor, or an event accessor.|  
-|else|Creates an [else](../Topic/if-else%20\(C%23%20Reference\).md) block.|Inside a method, an indexer, a property accessor, or an event accessor.|  
-|enum|Creates an [enum](../Topic/enum%20\(C%23%20Reference\).md) declaration.|Inside a namespace (including the global namespace), a class, or a struct.|  
+|do|Creates a [do](http://msdn.microsoft.com/library/50725f79-9ba6-4898-aa78-6e331568a1bb)`while` loop.|Inside a method, an indexer, a property accessor, or an event accessor.|  
+|else|Creates an [else](http://msdn.microsoft.com/library/d9a1d562-8cf5-4bd4-9ba7-8ad970cd25b2) block.|Inside a method, an indexer, a property accessor, or an event accessor.|  
+|enum|Creates an [enum](http://msdn.microsoft.com/library/bbeb9a0f-e9b3-41ab-b0a6-c41b1a08974c) declaration.|Inside a namespace (including the global namespace), a class, or a struct.|  
 |equals|Creates a method declaration that overrides the <xref:System.Object.Equals%2A> method defined in the <xref:System.Object> class.|Inside a class or a struct.|  
 |exception|Creates a declaration for a class that derives from an exception (<xref:System.Exception> by default).|Inside a namespace (including the global namespace), a class, or a struct.|  
-|for|Creates a [for](../Topic/for%20\(C%23%20Reference\).md) loop.|Inside a method, an indexer, a property accessor, or an event accessor.|  
-|foreach|Creates a [foreach](../Topic/foreach,%20in%20\(C%23%20Reference\).md) loop.|Inside a method, an indexer, a property accessor, or an event accessor.|  
-|forr|Creates a [for](../Topic/for%20\(C%23%20Reference\).md) loop that decrements the loop variable after each iteration.|Inside a method, an indexer, a property accessor, or an event accessor.|  
-|if|Creates an [if](../Topic/if-else%20\(C%23%20Reference\).md) block.|Inside a method, an indexer, a property accessor, or an event accessor.|  
+|for|Creates a [for](http://msdn.microsoft.com/library/34041a40-2c87-467a-9ffb-a0417d8f67a8) loop.|Inside a method, an indexer, a property accessor, or an event accessor.|  
+|foreach|Creates a [foreach](http://msdn.microsoft.com/library/5a9c5ddc-5fd3-457a-9bb6-9abffcd874ec) loop.|Inside a method, an indexer, a property accessor, or an event accessor.|  
+|forr|Creates a [for](http://msdn.microsoft.com/library/34041a40-2c87-467a-9ffb-a0417d8f67a8) loop that decrements the loop variable after each iteration.|Inside a method, an indexer, a property accessor, or an event accessor.|  
+|if|Creates an [if](http://msdn.microsoft.com/library/d9a1d562-8cf5-4bd4-9ba7-8ad970cd25b2) block.|Inside a method, an indexer, a property accessor, or an event accessor.|  
 |indexer|Creates an indexer declaration.|Inside a class or a struct.|  
-|interface|Creates an [interface](../Topic/interface%20\(C%23%20Reference\).md) declaration.|Inside a namespace (including the global namespace), a class, or a struct.|  
+|interface|Creates an [interface](http://msdn.microsoft.com/library/7da38e81-4f99-4bc5-b07d-c986b687eeba) declaration.|Inside a namespace (including the global namespace), a class, or a struct.|  
 |invoke|Creates a block that safely invokes an event.|Inside a method, an indexer, a property accessor, or an event accessor.|  
 |iterator|Creates an iterator.|Inside a class or a struct.|  
 |iterindex|Creates a "named" iterator and indexer pair by using a nested class.|Inside a class or a struct.|  
-|lock|Creates a [lock](../Topic/lock%20Statement%20\(C%23%20Reference\).md) block.|Inside a method, an indexer, a property accessor, or an event accessor.|  
+|lock|Creates a [lock](http://msdn.microsoft.com/library/656da1a4-707e-4ef6-9c6e-6d13b646af42) block.|Inside a method, an indexer, a property accessor, or an event accessor.|  
 |mbox|Creates a call to <xref:System.Windows.Forms.MessageBox.Show%2A?displayProperty=fullName>. You may have to add a reference to System.Windows.Forms.dll.|Inside a method, an indexer, a property accessor, or an event accessor.|  
-|namespace|Creates a [namespace](../Topic/namespace%20\(C%23%20Reference\).md) declaration.|Inside a namespace (including the global namespace).|  
-|prop|Creates an [auto-implemented property](../Topic/Auto-Implemented%20Properties%20\(C%23%20Programming%20Guide\).md) declaration.|Inside a class or a struct.|  
+|namespace|Creates a [namespace](http://msdn.microsoft.com/library/0a788423-9110-42e0-97d9-bda41ca4870f) declaration.|Inside a namespace (including the global namespace).|  
+|prop|Creates an [auto-implemented property](http://msdn.microsoft.com/library/aa55fa97-ccec-431f-b5e9-5ac789fd32b7) declaration.|Inside a class or a struct.|  
 ropfull|Creates a property declaration with get and set accessors.|Inside a class or a struct.|  
-|propg|Creates a read-only [auto-implemented property](../Topic/Auto-Implemented%20Properties%20\(C%23%20Programming%20Guide\).md) with a private "set" accessor.|Inside a class or a struct.|  
-|sim|Creates a [static](../Topic/static%20\(C%23%20Reference\).md)[int](../Topic/int%20\(C%23%20Reference\).md) Main method declaration.|Inside a class or a struct.|  
-|struct|Creates a [struct](../Topic/struct%20\(C%23%20Reference\).md) declaration.|Inside a namespace (including the global namespace), a class, or a struct.|  
-|svm|Creates a [static](../Topic/static%20\(C%23%20Reference\).md)[void](../Topic/void%20\(C%23%20Reference\).md) Main method declaration.|Inside a class or a struct.|  
-|switch|Creates a [switch](../Topic/switch%20\(C%23%20Reference\).md) block.|Inside a method, an indexer, a property accessor, or an event accessor.|  
-|try|Creates a [try-catch](../Topic/try-catch%20\(C%23%20Reference\).md) block.|Inside a method, an indexer, a property accessor, or an event accessor.|  
-|tryf|Creates a [try-finally](../Topic/try-finally%20\(C%23%20Reference\).md) block.|Inside a method, an indexer, a property accessor, or an event accessor.|  
-|unchecked|Creates an [unchecked](../Topic/unchecked%20\(C%23%20Reference\).md) block.|Inside a method, an indexer, a property accessor, or an event accessor.|  
-|unsafe|Creates an [unsafe](../Topic/unsafe%20\(C%23%20Reference\).md) block.|Inside a method, an indexer, a property accessor, or an event accessor.|  
-|using|Creates a [using](../Topic/using%20Directive%20\(C%23%20Reference\).md) directive.|Inside a namespace (including the global namespace).|  
-|while|Creates a [while](../Topic/while%20\(C%23%20Reference\).md) loop.|Inside a method, an indexer, a property accessor, or an event accessor.|  
+|propg|Creates a read-only [auto-implemented property](http://msdn.microsoft.com/library/aa55fa97-ccec-431f-b5e9-5ac789fd32b7) with a private "set" accessor.|Inside a class or a struct.|  
+|sim|Creates a [static](http://msdn.microsoft.com/library/5509e215-2183-4da3-bab4-6b7e607a4fdf)[int](http://msdn.microsoft.com/library/212447b4-5d2a-41aa-88ab-84fe710bdb52) Main method declaration.|Inside a class or a struct.|  
+|struct|Creates a [struct](http://msdn.microsoft.com/library/ff3dd9b7-dc93-4720-8855-ef5558f65c7c) declaration.|Inside a namespace (including the global namespace), a class, or a struct.|  
+|svm|Creates a [static](http://msdn.microsoft.com/library/5509e215-2183-4da3-bab4-6b7e607a4fdf)[void](http://msdn.microsoft.com/library/0d2d8a95-fe20-4fbd-bf5d-c1e54bce71d4) Main method declaration.|Inside a class or a struct.|  
+|switch|Creates a [switch](http://msdn.microsoft.com/library/44bae8b8-8841-4d85-826b-8a94277daecb) block.|Inside a method, an indexer, a property accessor, or an event accessor.|  
+|try|Creates a [try-catch](http://msdn.microsoft.com/library/cb5503c7-bfa1-4610-8fc2-ddcd2e84c438) block.|Inside a method, an indexer, a property accessor, or an event accessor.|  
+|tryf|Creates a [try-finally](http://msdn.microsoft.com/library/c27623fb-7261-4464-862c-7a369d3c8f0a) block.|Inside a method, an indexer, a property accessor, or an event accessor.|  
+|unchecked|Creates an [unchecked](http://msdn.microsoft.com/library/0c021f7c-923f-4b3d-a58f-55336f5ac27e) block.|Inside a method, an indexer, a property accessor, or an event accessor.|  
+|unsafe|Creates an [unsafe](http://msdn.microsoft.com/library/7e818009-1c6e-4b9e-b769-3728a01586a0) block.|Inside a method, an indexer, a property accessor, or an event accessor.|  
+|using|Creates a [using](http://msdn.microsoft.com/library/b42b8e61-5e7e-439c-bb71-370094b44ae8) directive.|Inside a namespace (including the global namespace).|  
+|while|Creates a [while](http://msdn.microsoft.com/library/72a0765c-6852-4aca-b327-4a11cb7f5c59) loop.|Inside a method, an indexer, a property accessor, or an event accessor.|  
   
 ## See Also  
  [Code Snippet Functions](../ide/code-snippet-functions.md)   

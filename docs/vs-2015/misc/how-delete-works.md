@@ -20,7 +20,7 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # How delete Works
-This content has moved [delete Operator](../Topic/delete%20Operator%20\(C++\).md).  
+This content has moved [delete Operator](http://msdn.microsoft.com/library/de39c900-3f57-489c-9598-dcb73c4b3930).  
   
 ## See Also  
- [Expressions with Unary Operators](../Topic/Expressions%20with%20Unary%20Operators.md)
+ [Expressions with Unary Operators](http://msdn.microsoft.com/library/1217685b-b85d-4b48-9ff4-d90f56a26c1b)

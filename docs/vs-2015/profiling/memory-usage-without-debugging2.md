@@ -205,8 +205,8 @@ You can use the **Memory Usage** tool without debugging to do the following
   
 ## See Also  
  [JavaScript Memory](../profiling/javascript-memory.md)   
- [Analyze app performance](../Topic/Analyze%20the%20performance%20of%20Windows%20Store%20apps%20using%20Visual%20Studio%20diagnostic%20tools.md)   
- [Run performance and diagnostic tools](../Topic/Run%20analysis%20tools%20from%20the%20Performance%20and%20Diagnostic%20page.md)   
+ [Analyze app performance](http://msdn.microsoft.com/library/58acb30b-8428-41a6-b195-b0fdedb89575)   
+ [Run performance and diagnostic tools](http://msdn.microsoft.com/library/788279d8-f56b-40a0-9bef-facc3dfba471)   
  [Performance best practices for Windows Store apps using C++, C#, and Visual Basic](http://msdn.microsoft.com/library/windows/apps/hh750313.aspx)   
  [Diagnosing memory issues with the new Memory Usage Tool in Visual Studio](http://go.microsoft.com/fwlink/p/?LinkId=394706)
 

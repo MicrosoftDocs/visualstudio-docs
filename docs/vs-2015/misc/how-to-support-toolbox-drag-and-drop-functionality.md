@@ -27,13 +27,13 @@ manager: "douge"
   
  By default, all [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] objects derived from <xref:System.Windows.Forms.Control?displayProperty=fullName> automatically and transparently provide support for consuming **Toolbox** controls, and the procedures described below are unnecessary. The basic functionality can be extended by creating a designer.  
   
- For more information, see [Windows Forms Overview](../Topic/Windows%20Forms%20Overview.md) and [Extending Design-Time Support](../Topic/Extending%20Design-Time%20Support.md).  
+ For more information, see [Windows Forms Overview](http://msdn.microsoft.com/library/3a2b6284-c8d6-4e1c-8c69-0bed38f38cd4) and [Extending Design-Time Support](http://msdn.microsoft.com/library/d6ac8a6a-42fd-4bc8-bf33-b212811297e2).  
   
 ### To implement basic drag-and-drop functionality  
   
 1.  Provide drag-and-drop support by implementing <xref:Microsoft.VisualStudio.OLE.Interop.IDropTarget> on a view object. This provides the view with OLE drag-and-drop functionality and serialization of the control.  
   
-     For more information on implementing drag-and-drop functionality, see [Drag and Drop (OLE)](../Topic/Drag%20and%20Drop%20\(OLE\).md).  
+     For more information on implementing drag-and-drop functionality, see [Drag and Drop (OLE)](http://msdn.microsoft.com/library/a4595350-ca06-4400-88a1-f0175c76b77b).  
   
      Drops can either be Clipboard items or controls being dropped on a designer. For information on standard Clipboard formats supported by the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] **Toolbox**, see [Extending the Toolbox](../misc/extending-the-toolbox.md).  
   

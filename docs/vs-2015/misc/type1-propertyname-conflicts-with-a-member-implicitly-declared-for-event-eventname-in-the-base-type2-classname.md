@@ -34,7 +34,7 @@ A property is declared with the same name as an implicit member formed from an e
 2.  If you do not intend to hide the base class member, change the property name.  
   
 ## See Also  
- [Property Statement](../Topic/Property%20Statement.md)   
- [Event Statement](../Topic/Event%20Statement.md)   
- [Shadows](../Topic/Shadows%20\(Visual%20Basic\).md)   
- [Shadowing in Visual Basic](../Topic/Shadowing%20in%20Visual%20Basic.md)
+ [Property Statement](http://msdn.microsoft.com/library/3155edaf-8ebd-45c6-9cef-11d5d2dc8d38)   
+ [Event Statement](http://msdn.microsoft.com/library/306ff8ed-74dd-4b6a-bd2f-e91b17474042)   
+ [Shadows](http://msdn.microsoft.com/library/6bf687cd-0544-4797-b51b-911125ec57c6)   
+ [Shadowing in Visual Basic](http://msdn.microsoft.com/library/54bb4c25-12c4-4181-b4a0-93546053964e)

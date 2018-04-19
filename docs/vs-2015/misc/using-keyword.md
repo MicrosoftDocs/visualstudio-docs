@@ -24,8 +24,8 @@ The `using` keyword has many uses in C and C++, depending on context.
   
 ## Articles about the using keyword  
   
-1.  [using Declaration](../Topic/using%20Declaration.md)  
+1.  [using Declaration](http://msdn.microsoft.com/library/4184e2b1-3adc-408e-b5f3-0b3f8b554723)  
   
 2.  [using Directive](../misc/using-directive-cpp.md)  
   
-3.  [Aliases and typedefs](../Topic/Aliases%20and%20typedefs%20\(C++\).md)
+3.  [Aliases and typedefs](http://msdn.microsoft.com/library/af1c24d2-4bfd-408a-acfc-482e264232f5)

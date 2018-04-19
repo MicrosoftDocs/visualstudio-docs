@@ -55,7 +55,7 @@ TypeName|AvoidUnsealedAttributes|
  [CA1018: Mark attributes with AttributeUsageAttribute](../code-quality/ca1018-mark-attributes-with-attributeusageattribute.md)  
   
 ## See Also  
- [Attributes](../Topic/Attributes1.md)
+ [Attributes](http://msdn.microsoft.com/library/ee0038ef-b247-4747-a650-3c5c5cd58d8b)
 
 
 

@@ -24,4 +24,4 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # Class-Member Declaration Syntax
-This content has moved to  [Class Member Overview](../Topic/Class%20Member%20Overview.md)
+This content has moved to  [Class Member Overview](http://msdn.microsoft.com/library/8802cfa9-705d-4f37-acde-245d6838010c)

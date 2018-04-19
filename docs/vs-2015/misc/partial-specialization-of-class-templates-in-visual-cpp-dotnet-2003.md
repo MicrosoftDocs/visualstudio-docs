@@ -18,4 +18,4 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # Partial Specialization of Class Templates in Visual C++ .NET 2003
-This content has been removed. For more information, see [Partial Specialization of Class Templates](../Topic/Template%20Specialization%20\(C++\).md).
+This content has been removed. For more information, see [Partial Specialization of Class Templates](http://msdn.microsoft.com/library/f3c67c0b-3875-434a-b8d8-bb47e99cf4f0).

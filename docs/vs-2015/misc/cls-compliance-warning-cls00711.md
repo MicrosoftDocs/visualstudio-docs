@@ -26,7 +26,7 @@ The underlying type of an enum shall be a built-in CLS integer type
   
  If you specify the underlying type of an enum, and if you want a CLS-compliant assembly, the underlying type of the enum must be a Common Language Subset (CLS) compliant, integer type.  
   
- For more information about CLR enums, see [enum class](../Topic/enum%20class%20%20\(C++%20Component%20Extensions\).md).  
+ For more information about CLR enums, see [enum class](http://msdn.microsoft.com/library/8010fa8c-bad6-45b4-8214-b4db64d7ffe1).  
   
  For more information CLS compliance checking, see [CLS Compliant Assemblies](http://msdn.microsoft.com/en-us/3320b57e-ea55-4697-a17d-f509a36a3c93).  
   

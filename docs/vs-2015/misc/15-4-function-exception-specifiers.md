@@ -22,4 +22,4 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # 15.4 Function Exception Specifiers
-This content has been removed. Please see [Nonstandard Behavior](../Topic/Nonstandard%20Behavior.md).
+This content has been removed. Please see [Nonstandard Behavior](http://msdn.microsoft.com/library/a57dea27-dc79-4f64-8a83-017e84841773).

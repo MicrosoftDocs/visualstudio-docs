@@ -57,7 +57,7 @@ Use the **AdvancedCompiler Settings** dialog box of the **Project Designer** to 
  Select **None**, **Full**, or **pdb-only** from the list. **None** specifies that no debugging information be generated. **Full** specifies that full debugging information be generated, and **pdb-only** specifies that only PDB debugging information be generated. By default, this option is set to **Full**.  
   
 ## Compilation Constants  
- Conditional compilation constants have an effect similar to that of using a [#Const](../Topic/%23Const%20Directive.md) preprocessor directive in a source file, except that constants defined are public and apply to all files in the project. You can use conditional compilation constants together with the [#If...Then...#Else](../Topic/%23If...Then...%23Else%20Directives.md) directive to compile source files conditionally. See [Conditional Compilation](../Topic/Conditional%20Compilation%20in%20Visual%20Basic.md).  
+ Conditional compilation constants have an effect similar to that of using a [#Const](http://msdn.microsoft.com/library/707669e5-23f9-4f17-8622-a0d534429386) preprocessor directive in a source file, except that constants defined are public and apply to all files in the project. You can use conditional compilation constants together with the [#If...Then...#Else](http://msdn.microsoft.com/library/10bba104-e3fd-451b-b672-faa472530502) directive to compile source files conditionally. See [Conditional Compilation](http://msdn.microsoft.com/library/9c35e55e-7eee-44fb-a586-dad1f1884848).  
   
  **Define DEBUG constant**  
  By default, this check box is selected, specifying that a DEBUG constant be set.  

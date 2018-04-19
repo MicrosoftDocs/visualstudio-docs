@@ -79,7 +79,7 @@ Concurrency exceptions (<xref:System.Data.DBConcurrencyException>) are raised wh
   
 1.  On the **Data** menu, choose **Add New Data source**.  
   
-     The [Data Source Configuration Wizard](../Topic/Data%20Source%20Configuration%20Wizard.md) opens.  
+     The [Data Source Configuration Wizard](http://msdn.microsoft.com/library/c4df7de5-5da0-4064-940c-761dd6d9e28f) opens.  
   
 2.  On the **Choose a Data Source Type**screen, select **Database**.  
   

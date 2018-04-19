@@ -30,7 +30,7 @@ robots: noindex,nofollow
 This section provides information and preparatory instructions for working with data in Visual Studio applications that typically target the client and middle tier.  
   
 ## In This Section  
- [Walkthrough: Creating a Simple Data Application](../Topic/Walkthrough:%20Creating%20a%20Simple%20Data%20Application.md)  
+ [Walkthrough: Creating a Simple Data Application](http://msdn.microsoft.com/library/c5d0968c-d86f-4ae9-a2e1-871f208a3bb3)  
  Provides step-by-step instructions for creating an application that displays data from a database.  
   
  [Add new data sources](../data-tools/add-new-data-sources.md)  
@@ -58,7 +58,7 @@ This section provides information and preparatory instructions for working with 
  [Connecting to Data in Visual Studio](../data-tools/connecting-to-data-in-visual-studio.md)  
  Describes how to create connections to databases, Web services, and objects from your application.  
   
- [Preparing Your Application to Receive Data](../Topic/Preparing%20Your%20Application%20to%20Receive%20Data.md)  
+ [Preparing Your Application to Receive Data](http://msdn.microsoft.com/library/c17bdb7e-c234-4f2f-9582-5e55c27356ad)  
  Explains what typed datasets are and how to create and edit the individual objects that make up typed datasets.  
   
  [Fetching Data into Your Application](../data-tools/fetching-data-into-your-application.md)  
@@ -70,7 +70,7 @@ This section provides information and preparatory instructions for working with 
  [Editing Data in Your Application](../data-tools/editing-data-in-your-application.md)  
  Discusses how to manipulate data before sending it back to the data source or to another process or application.  
   
- [Validating Data](../Topic/Validating%20Data.md)  
+ [Validating Data](http://msdn.microsoft.com/library/b3a9ee4e-5d4d-4411-9c56-c811f2b4ee7e)  
  Provides links to topics describing how to add validation to datasets.  
   
  [Saving Data](../data-tools/saving-data.md)  
@@ -85,8 +85,8 @@ This section provides information and preparatory instructions for working with 
  [Work with datasets in n-tier applications](../data-tools/work-with-datasets-in-n-tier-applications.md)  
  Provides links to topics about how to use Visual Studio features create n-tier applications.  
   
- [ADO.NET](../Topic/ADO.NET.md)  
+ [ADO.NET](http://msdn.microsoft.com/library/5b96ed06-9759-4966-a797-a1d5f6ee50ca)  
  Describes the ADO.NET classes, which expose data-access services to the .NET programmer.  
   
- [Data in Office Solutions](../Topic/Data%20in%20Office%20Solutions.md)  
+ [Data in Office Solutions](http://msdn.microsoft.com/library/8478c095-864b-4ed3-8a70-1fc19b411c6a)  
  Provides links to topics that explain how data works in Office solutions. Includes information about schema-oriented programming, data caching, and server-side data access.

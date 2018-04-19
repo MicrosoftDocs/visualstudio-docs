@@ -34,6 +34,6 @@ An <xref:System.Deployment.Application.InvalidDeploymentException> exception is 
   
 ## See Also  
  <xref:System.Deployment.Application.InvalidDeploymentException>   
- [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)   
+ [Use the Exception Assistant](http://msdn.microsoft.com/library/e0a78c50-7318-4d54-af51-40c00aea8711)   
  [Troubleshooting ClickOnce Deployments](../deployment/troubleshooting-clickonce-deployments.md)   
- [ClickOnce Deployment for Windows Forms](../Topic/ClickOnce%20Deployment%20for%20Windows%20Forms.md)
+ [ClickOnce Deployment for Windows Forms](http://msdn.microsoft.com/library/1451fce9-1965-4a03-b4d3-831b5fe4ad66)

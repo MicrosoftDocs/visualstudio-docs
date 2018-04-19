@@ -68,7 +68,7 @@ Test Projects containing coded UI tests that were created in [!INCLUDE[vs_dev10_
  [Porting, Migrating, and Upgrading Visual Studio Projects](../porting/porting-migrating-and-upgrading-visual-studio-projects.md)   
  [Upgrading Tests from Earlier Versions of Visual Studio](http://msdn.microsoft.com/en-us/e9c8b7f6-bd72-448e-8edb-d090dcc5cf52)   
  [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)   
- [Generating a Coded UI Test from an Existing Action Recording](../Topic/Generating%20a%20Coded%20UI%20Test%20from%20an%20Existing%20Action%20Recording.md)   
+ [Generating a Coded UI Test from an Existing Action Recording](http://msdn.microsoft.com/library/56736963-9027-493b-b5c4-2d4e86d1d497)   
  [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)
 
 

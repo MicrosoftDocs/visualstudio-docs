@@ -26,7 +26,7 @@ Type used in a property declaration was not CLS compliant
   
  All types in a property declaration were not CLS-compliant.  
   
- For more information about properties, see [property](../Topic/property%20%20\(C++%20Component%20Extensions\).md).  
+ For more information about properties, see [property](http://msdn.microsoft.com/library/cc79d2b2-f013-4d81-8252-eece97a18704).  
   
  For more information CLS compliance checking, see [CLS Compliant Assemblies](http://msdn.microsoft.com/en-us/3320b57e-ea55-4697-a17d-f509a36a3c93).  
   

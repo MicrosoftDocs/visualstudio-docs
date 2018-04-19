@@ -49,7 +49,7 @@ This error means that the Visual Studio Remote Debugger service is running under
   
 ### To correct this error  
   
-1.  Make sure the Visual Studio Remote Debugger service is correctly set up on the remote computer. For more information, see [Set Up the Remote Tools on the Device](../Topic/Set%20Up%20the%20Remote%20Tools%20on%20the%20Device.md).  
+1.  Make sure the Visual Studio Remote Debugger service is correctly set up on the remote computer. For more information, see [Set Up the Remote Tools on the Device](http://msdn.microsoft.com/library/90f45630-0d26-4698-8c1f-63f85a12db9c).  
   
 2.  Run the remote debugger service under an account that can access the debugger host computer, as shown in the previous table.  
   

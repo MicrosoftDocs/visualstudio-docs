@@ -24,7 +24,7 @@ manager: "ghogen"
 
 The latest version of this topic can be found at [IDiaSymbol::get_noReturn](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasymbol-get-noreturn).  
   
-Retrieves a flag that specifies whether the function has been marked as never returning with the [noreturn](../Topic/noreturn.md) attribute.  
+Retrieves a flag that specifies whether the function has been marked as never returning with the [noreturn](http://msdn.microsoft.com/library/9c6517e5-22d7-4051-9974-3d2200ae4d1d) attribute.  
   
 ## Syntax  
   
@@ -53,7 +53,7 @@ HRESULT get_noReturn(
   
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
- [noreturn](../Topic/noreturn.md)
+ [noreturn](http://msdn.microsoft.com/library/9c6517e5-22d7-4051-9974-3d2200ae4d1d)
 
 
 

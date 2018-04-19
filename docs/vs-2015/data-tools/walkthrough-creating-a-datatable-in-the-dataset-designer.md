@@ -121,17 +121,17 @@ This walkthrough explains how to create a <xref:System.Data.DataTable> (without 
 |To|See|  
 |--------|---------|  
 |Create a form to input data|[Walkthrough: Displaying Data on a Windows Form](../data-tools/walkthrough-displaying-data-on-a-windows-form.md).|  
-|Add data to the table|[Adding Data to a DataTable](../Topic/Adding%20Data%20to%20a%20DataTable.md).|  
-|View data in a table|[Viewing Data in a DataTable](../Topic/Viewing%20Data%20in%20a%20DataTable.md).|  
-|Edit data|[DataTable Edits](../Topic/DataTable%20Edits.md)|  
-|Delete a row from a table|[DataRow Deletion](../Topic/DataRow%20Deletion.md)|  
+|Add data to the table|[Adding Data to a DataTable](http://msdn.microsoft.com/library/d6aa8474-7bde-48f7-949d-20dc38a1625b).|  
+|View data in a table|[Viewing Data in a DataTable](http://msdn.microsoft.com/library/1d26e0fb-f6e0-4afa-9a9c-b8d55b8f20dc).|  
+|Edit data|[DataTable Edits](http://msdn.microsoft.com/library/f08008a9-042e-4de9-94f3-4f0e502b1eb5)|  
+|Delete a row from a table|[DataRow Deletion](http://msdn.microsoft.com/library/c34f531d-4b9b-4071-b2d7-342c402aa586)|  
   
 ## See Also  
  [Connecting to Data in Visual Studio](../data-tools/connecting-to-data-in-visual-studio.md)   
- [Preparing Your Application to Receive Data](../Topic/Preparing%20Your%20Application%20to%20Receive%20Data.md)   
+ [Preparing Your Application to Receive Data](http://msdn.microsoft.com/library/c17bdb7e-c234-4f2f-9582-5e55c27356ad)   
  [Fetching Data into Your Application](../data-tools/fetching-data-into-your-application.md)   
  [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)   
  [Editing Data in Your Application](../data-tools/editing-data-in-your-application.md)   
- [Validating Data](../Topic/Validating%20Data.md)   
+ [Validating Data](http://msdn.microsoft.com/library/b3a9ee4e-5d4d-4411-9c56-c811f2b4ee7e)   
  [Saving Data](../data-tools/saving-data.md)   
- [Data Walkthroughs](../Topic/Data%20Walkthroughs.md)
+ [Data Walkthroughs](http://msdn.microsoft.com/library/15a88fb8-3bee-4962-914d-7a1f8bd40ec4)

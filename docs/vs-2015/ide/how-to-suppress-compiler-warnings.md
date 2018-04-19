@@ -105,7 +105,7 @@ You can declutter a build log by specifying one or more kinds of compiler warnin
   
      The **Output** window no longer shows the warnings that you specified.  
   
- For more information, see [/nowarn](../Topic/-nowarn.md).  
+ For more information, see [/nowarn](http://msdn.microsoft.com/library/7ebf2106-0652-4fdc-bf60-70fc86465d83).  
   
 ## See Also  
  [Walkthrough: Building an Application](../ide/walkthrough-building-an-application.md)   

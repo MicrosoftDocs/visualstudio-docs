@@ -24,7 +24,7 @@ ms.author: "ghogen"
 manager: "douge"
 ---
 # unchecked_uninitialized_fill_n
-`unchecked_unintialized_fill_n` has been deprecated. For information about checked iterators, see [Checked Iterators](../Topic/Checked%20Iterators.md).  
+`unchecked_unintialized_fill_n` has been deprecated. For information about checked iterators, see [Checked Iterators](http://msdn.microsoft.com/library/cfc87df8-e3d9-403b-ab78-e9483247d940).  
   
 ## Syntax  
   

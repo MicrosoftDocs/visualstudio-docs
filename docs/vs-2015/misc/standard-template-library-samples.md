@@ -22,7 +22,7 @@ ms.author: "douge"
 manager: "douge"
 ---
 # Standard Template Library Samples
-This content is no longer maintained. STL code samples have been moved to their respective reference topics under [STL Headers](../Topic/C++%20Standard%20Library%20Header%20Files.md).  
+This content is no longer maintained. STL code samples have been moved to their respective reference topics under [STL Headers](http://msdn.microsoft.com/library/e7bf497a-0f63-48d0-9b54-cb0eef4073c4).  
   
 ## See Also  
- [C++ Standard Library](../Topic/C++%20Standard%20Library%20Reference.md)
+ [C++ Standard Library](http://msdn.microsoft.com/library/a37d3ba3-58af-47c7-9ee2-441ccd7b77ee)

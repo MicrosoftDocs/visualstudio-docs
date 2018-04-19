@@ -19,7 +19,7 @@ manager: "ghogen"
 The latest version of this topic can be found at [How to: Create LINQ to SQL classes mapped to tables and views (O-R Designer)](https://docs.microsoft.com/visualstudio/data-tools/how-to-create-linq-to-sql-classes-mapped-to-tables-and-views-o-r-designer).  
   
   
-INCLUDE[vbtecdlinq](../includes/vbtecdlinq-md.md)] classes that are mapped to database tables and views are called *entity classes*. The entity class maps to a record, whereas the individual properties of an entity class map to the individual columns that make up a record. Create entity classes that are based on database tables or views by dragging tables or views from **Server Explorer**/**Database Explorer** onto the [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md). The [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)] generates the classes and applies the specific [!INCLUDE[vbtecdlinq](../includes/vbtecdlinq-md.md)] attributes to enable [!INCLUDE[vbtecdlinq](../includes/vbtecdlinq-md.md)] functionality (the data communication and editing capabilities of the <xref:System.Data.Linq.DataContext>). For detailed information about [!INCLUDE[vbtecdlinq](../includes/vbtecdlinq-md.md)] classes, see [The LINQ to SQL Object Model](../Topic/The%20LINQ%20to%20SQL%20Object%20Model.md).  
+INCLUDE[vbtecdlinq](../includes/vbtecdlinq-md.md)] classes that are mapped to database tables and views are called *entity classes*. The entity class maps to a record, whereas the individual properties of an entity class map to the individual columns that make up a record. Create entity classes that are based on database tables or views by dragging tables or views from **Server Explorer**/**Database Explorer** onto the [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md). The [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)] generates the classes and applies the specific [!INCLUDE[vbtecdlinq](../includes/vbtecdlinq-md.md)] attributes to enable [!INCLUDE[vbtecdlinq](../includes/vbtecdlinq-md.md)] functionality (the data communication and editing capabilities of the <xref:System.Data.Linq.DataContext>). For detailed information about [!INCLUDE[vbtecdlinq](../includes/vbtecdlinq-md.md)] classes, see [The LINQ to SQL Object Model](http://msdn.microsoft.com/library/81dd0c37-e2a4-4694-83b0-f2e49e693810).  
   
 > [!NOTE]
 >  The [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)] is a simple object relational mapper because it supports only 1:1 mapping relationships. In other words, an entity class can have only a 1:1 mapping relationship with a database table or view. Complex mapping, such as mapping an entity class to multiple tables, is not supported. However, you can map an entity class to a view that joins multiple related tables.  
@@ -40,7 +40,7 @@ INCLUDE[vbtecdlinq](../includes/vbtecdlinq-md.md)] classes that are mapped to da
      An entity class is created and appears on the design surface. The entity class has properties that map to the columns in the selected table or view.  
   
 ## Create an Object Data Source and Display the Data on a Form  
- After you create entity classes by using the [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)], you can create an object data source and populate the [Data Sources Window](../Topic/Data%20Sources%20Window.md) with the entity classes.  
+ After you create entity classes by using the [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)], you can create an object data source and populate the [Data Sources Window](http://msdn.microsoft.com/library/0d20f699-cc95-45b3-8ecb-c7edf1f67992) with the entity classes.  
   
 #### To create an object data source based on LINQ to SQL entity classes  
   
@@ -63,11 +63,11 @@ INCLUDE[vbtecdlinq](../includes/vbtecdlinq-md.md)] classes that are mapped to da
   
 ## See Also  
  [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   
- [Walkthrough: Creating LINQ to SQL Classes (O-R Designer)](../Topic/Walkthrough:%20Creating%20LINQ%20to%20SQL%20Classes%20\(O-R%20Designer\).md)   
+ [Walkthrough: Creating LINQ to SQL Classes (O-R Designer)](http://msdn.microsoft.com/library/35aad4a4-2e8a-46e2-ae09-5fbfd333c233)   
  [DataContext Methods (O/R Designer)](../data-tools/datacontext-methods-o-r-designer.md)   
  [How to: Create DataContext methods mapped to stored procedures and functions (O/R Designer)](../data-tools/how-to-create-datacontext-methods-mapped-to-stored-procedures-and-functions-o-r-designer.md)   
- [The LINQ to SQL Object Model](../Topic/The%20LINQ%20to%20SQL%20Object%20Model.md)   
+ [The LINQ to SQL Object Model](http://msdn.microsoft.com/library/81dd0c37-e2a4-4694-83b0-f2e49e693810)   
  [Walkthrough: Customizing the insert, update, and delete behavior of entity classes](../data-tools/walkthrough-customizing-the-insert-update-and-delete-behavior-of-entity-classes.md)   
- [Walkthrough: Adding Validation to Entity Classes](../Topic/Walkthrough:%20Adding%20Validation%20to%20Entity%20Classes.md)   
+ [Walkthrough: Adding Validation to Entity Classes](http://msdn.microsoft.com/library/85b06a02-b2e3-4534-95b8-d077c8d4c1d7)   
  [How to: Create an association (relationship) between LINQ to SQL classes (O/R Designer)](../data-tools/how-to-create-an-association-relationship-between-linq-to-sql-classes-o-r-designer.md)
 

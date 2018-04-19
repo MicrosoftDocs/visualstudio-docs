@@ -30,5 +30,5 @@ manager: "wpickett"
 -   Remove `Error` statements from debugging code.  
   
 ## See Also  
- [Error Statement](../Topic/Error%20Statement.md)   
+ [Error Statement](http://msdn.microsoft.com/library/85cd5c59-5224-4f02-aaf5-fcfefab17a29)   
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)

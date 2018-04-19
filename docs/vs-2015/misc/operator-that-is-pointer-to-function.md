@@ -18,7 +18,7 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # Operator That is Pointer to Function
-This content has been removed. For information, see [Overloading the Function Call Operator](../Topic/Function%20Call%20\(C++\).md).  
+This content has been removed. For information, see [Overloading the Function Call Operator](http://msdn.microsoft.com/library/5094254a-045b-46f7-8653-69bc91e80dce).  
   
 ```  
 // operator_that_is_pointer_to_function.cpp  

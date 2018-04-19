@@ -26,7 +26,7 @@ manager: "douge"
 ---
 # __property
 > [!NOTE]
->  This topic applies only to version 1 of Managed Extensions for C++. This syntax should only be used to maintain version 1 code. See [property](../Topic/property%20%20\(C++%20Component%20Extensions\).md) for information on using the equivalent functionality in the new syntax.  
+>  This topic applies only to version 1 of Managed Extensions for C++. This syntax should only be used to maintain version 1 code. See [property](http://msdn.microsoft.com/library/cc79d2b2-f013-4d81-8252-eece97a18704) for information on using the equivalent functionality in the new syntax.  
   
  Declares either a scalar or indexed property for the managed class.  
   

@@ -32,9 +32,9 @@ manager: "ghogen"
 The latest version of this topic can be found at [How to: Connect to Data in a Service](https://docs.microsoft.com/visualstudio/data-tools/how-to-connect-to-data-in-a-service).  
   
   
-You connect your application to the data returned from a service by running the [Data Source Configuration Wizard](../Topic/Data%20Source%20Configuration%20Wizard.md) and selecting **Service** on the **Choose a Data Source Type** page.  
+You connect your application to the data returned from a service by running the [Data Source Configuration Wizard](http://msdn.microsoft.com/library/c4df7de5-5da0-4064-940c-761dd6d9e28f) and selecting **Service** on the **Choose a Data Source Type** page.  
   
- Upon completion of the wizard, a service reference is added to your project and is immediately available in the [Data Sources Window](../Topic/Data%20Sources%20Window.md).  
+ Upon completion of the wizard, a service reference is added to your project and is immediately available in the [Data Sources Window](http://msdn.microsoft.com/library/0d20f699-cc95-45b3-8ecb-c7edf1f67992).  
   
 > [!NOTE]
 >  The items that appear in the **Data Sources** window are dependent on the information that the service returns. Some services might not provide enough information for the **Data Source Configuration Wizard** to create bindable objects. For example, if the service returns an untyped dataset, then no items appear in the **Data Sources Window** upon completing the wizard. This is because untyped datasets do not provide schema, so the wizard does not have enough information to create the data source.  

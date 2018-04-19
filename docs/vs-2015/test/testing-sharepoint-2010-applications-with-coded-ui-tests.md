@@ -146,11 +146,11 @@ uiGridKeyboardInputEdit.Text=value;
   
 ## See Also  
  [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)   
- [Web performance and load testing SharePoint 2010 and 2013 applications](../Topic/Web%20performance%20and%20load%20testing%20SharePoint%202010%20and%202013%20applications.md)   
- [Create SharePoint Solutions](../Topic/Create%20SharePoint%20Solutions.md)   
- [Verifying and Debugging SharePoint Code](../Topic/Verifying%20and%20Debugging%20SharePoint%20Code.md)   
- [Building and Debugging SharePoint Solutions](../Topic/Building%20and%20Debugging%20SharePoint%20Solutions.md)   
- [Profiling the Performance of SharePoint Applications](../Topic/Profiling%20the%20Performance%20of%20SharePoint%20Applications.md)
+ [Web performance and load testing SharePoint 2010 and 2013 applications](http://msdn.microsoft.com/library/20c2e469-0e4e-4296-a739-c0e8fff36e54)   
+ [Create SharePoint Solutions](http://msdn.microsoft.com/library/4bfb1e59-97c9-4594-93f8-3068b4eb9631)   
+ [Verifying and Debugging SharePoint Code](http://msdn.microsoft.com/library/b5f3bce2-6a51-41b1-a292-9e384bae420c)   
+ [Building and Debugging SharePoint Solutions](http://msdn.microsoft.com/library/c9e7c9ab-4eb3-40cd-a9b9-6c2a896f70ae)   
+ [Profiling the Performance of SharePoint Applications](http://msdn.microsoft.com/library/61ae02e7-3f37-4230-bae1-54a498c2fae8)
 
 
 

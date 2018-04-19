@@ -20,6 +20,6 @@ ms.author: "ghogen"
 manager: "douge"
 ---
 # list::list (STL Samples)
-Topic deprecated, see [Welcome Back to C++](../Topic/Welcome%20Back%20to%20C++%20\(Modern%20C++\).md) and [list::list](../Topic/list::list.md).  
+Topic deprecated, see [Welcome Back to C++](http://msdn.microsoft.com/library/1cb1b849-ed9c-4721-a972-fd8f3dab42e2) and [list::list](http://msdn.microsoft.com/library/415ff234-ff4e-4236-a7fe-0aa1ec7300a2).  
   
 ## Syntax

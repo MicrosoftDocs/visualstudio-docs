@@ -20,4 +20,4 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # How new Works
-This content has moved [new Operator](../Topic/new%20Operator%20\(C++\).md).
+This content has moved [new Operator](http://msdn.microsoft.com/library/69fee812-1c28-4882-8fda-d1ad17860004).

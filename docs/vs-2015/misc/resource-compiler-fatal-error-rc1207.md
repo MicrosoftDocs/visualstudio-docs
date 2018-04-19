@@ -24,4 +24,4 @@ manager: "douge"
 # Resource Compiler Fatal Error RC1207
 default code page is invalid  
   
- The code page specified by the **RCCODEPAGE** environment variable is not valid. See [Code Pages](../Topic/Code%20Pages.md) in the *Run-Time Library Reference* for more information.
+ The code page specified by the **RCCODEPAGE** environment variable is not valid. See [Code Pages](http://msdn.microsoft.com/library/4a26fc42-185a-4add-98bf-a7b314ae6186) in the *Run-Time Library Reference* for more information.

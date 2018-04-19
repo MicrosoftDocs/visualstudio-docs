@@ -21,4 +21,4 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # Declarations
-This content has moved to [Declarations and Definitions](../Topic/Declarations%20and%20Definitions%20\(C++\).md).
+This content has moved to [Declarations and Definitions](http://msdn.microsoft.com/library/678f1424-e12f-45e0-a957-8169e5fef6cb).

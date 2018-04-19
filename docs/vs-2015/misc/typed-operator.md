@@ -25,4 +25,4 @@ The `typeid` operator is supported in both ISO C++ and in C++ Component Extensio
   
  [typeid (ISO C++)](http://msdn.microsoft.com/en-us/3dbe7b36-124e-49ba-8570-ec3cc92b2595)  
   
- [typeid](../Topic/typeid%20%20\(C++%20Component%20Extensions\).md)
+ [typeid](http://msdn.microsoft.com/library/e9706cae-e7c4-4d6d-b474-646d73df3e70)

@@ -35,7 +35,7 @@ INCLUDE[TLA#tla_winclient](../includes/tlasharptla-winclient-md.md)] extends the
 ## See Also  
  [.Targets Files](../msbuild/msbuild-dot-targets-files.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)   
- [Building a WPF Application (WPF)](../Topic/Building%20a%20WPF%20Application%20\(WPF\).md)
+ [Building a WPF Application (WPF)](http://msdn.microsoft.com/library/a58696fd-bdad-4b55-9759-136dfdf8b91c)
 
 
 

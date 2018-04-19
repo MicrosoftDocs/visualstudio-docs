@@ -75,7 +75,7 @@ You can call external tools from inside Visual Studio. A few default tools are a
   
 1.  Create GUID: generates a GUID.  
   
-2.  Error Lookup: gets an error message from the value entered. For more information, see [ERRLOOK Reference](../Topic/ERRLOOK%20Reference.md).  
+2.  Error Lookup: gets an error message from the value entered. For more information, see [ERRLOOK Reference](http://msdn.microsoft.com/library/6040ffc1-2355-4a45-8998-84cbcba4ca91).  
   
 3.  ATL/MFC Trace Tool: shows debug trace messages in the ATL and MFC sources.  
   
@@ -123,7 +123,7 @@ You can call external tools from inside Visual Studio. A few default tools are a
 |Solution file name|$(SolutionFileName)|The file name of the current solution (drive + path + file name).|  
   
 ## See Also  
- [C/C++ Build Tools](../Topic/C-C++%20Build%20Tools.md)
+ [C/C++ Build Tools](http://msdn.microsoft.com/library/48d9daf4-6bbf-473a-8ce2-bf2923b69f80)
 
 
 

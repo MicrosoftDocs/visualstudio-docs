@@ -46,11 +46,11 @@ Managed VSPackages can use the COM-based interop assemblies of the [!INCLUDE[vsi
 ## Registering a Tools Options Page  
  You can register a **Tools Options** page by creating an entry in the following registry location: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<Version>*\ToolsOptionsPages, where *\<Version>* is the version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], such as 8.0.  
   
- To register the page, you can either manually edit the registry or use a registry script (.rgs file). For more information, see [Creating Registrar Scripts](../Topic/Creating%20Registrar%20Scripts.md).  
+ To register the page, you can either manually edit the registry or use a registry script (.rgs file). For more information, see [Creating Registrar Scripts](http://msdn.microsoft.com/library/cbd5024b-8061-4a71-be65-7fee90374a35).  
   
 ## See Also  
- [Extending the Visual Studio Environment](../Topic/Extending%20the%20Visual%20Studio%20Environment.md)   
- [Creating Registrar Scripts](../Topic/Creating%20Registrar%20Scripts.md)   
+ [Extending the Visual Studio Environment](http://msdn.microsoft.com/library/4173a963-7ac7-4966-9bb7-e28a9d9f6792)   
+ [Creating Registrar Scripts](http://msdn.microsoft.com/library/cbd5024b-8061-4a71-be65-7fee90374a35)   
  [Automation Support for Options Pages](../extensibility/internals/automation-support-for-options-pages.md)   
  [Using Options Pages](../misc/using-options-pages.md)   
  [Creating Options Pages](../extensibility/internals/creating-options-pages.md)   

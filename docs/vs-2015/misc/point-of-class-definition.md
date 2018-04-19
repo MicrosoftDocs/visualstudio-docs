@@ -20,4 +20,4 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # Point of Class Definition
-This content has moved to [Classes and Structs](../Topic/Classes%20and%20Structs%20\(C++\).md)
+This content has moved to [Classes and Structs](http://msdn.microsoft.com/library/516dd496-13fb-4f17-845a-e9ca45437873)

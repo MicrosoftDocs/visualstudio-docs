@@ -26,15 +26,15 @@ The ellipsis operator (`...`) has many uses in C and C++, depending on context. 
   
 -   [Ellipses and Default Arguments](../misc/ellipses-and-default-arguments.md)  
   
--   [Ellipses and Variadic Templates](../Topic/Ellipses%20and%20Variadic%20Templates.md)  
+-   [Ellipses and Variadic Templates](http://msdn.microsoft.com/library/f20967d9-c967-4fd2-b902-2bb1d5ed87e3)  
   
--   [try, throw, and catch Statements (C++)](../Topic/try,%20throw,%20and%20catch%20Statements%20\(C++\).md)  
+-   [try, throw, and catch Statements (C++)](http://msdn.microsoft.com/library/15e6a87b-b8a5-4032-a7ef-946c644ba12a)  
   
 -   [Variable Argument Lists](../misc/variable-argument-lists.md)  
   
--   [Variable Argument Lists (...) (C++/CLI)](../Topic/Variable%20Argument%20Lists%20\(...\)%20\(C++-CLI\).md)  
+-   [Variable Argument Lists (...) (C++/CLI)](http://msdn.microsoft.com/library/db1a27f4-02a8-4318-8690-1f2893f52b38)  
   
--   [Variadic Macros](../Topic/Variadic%20Macros.md)  
+-   [Variadic Macros](http://msdn.microsoft.com/library/51e757dc-0134-4bb2-bb74-64ea5ad75134)  
   
 ## See Also  
- [Expressions](../Topic/Expressions%20\(C++\).md)
+ [Expressions](http://msdn.microsoft.com/library/aaa1f250-7185-4113-b682-3f5e995943d1)

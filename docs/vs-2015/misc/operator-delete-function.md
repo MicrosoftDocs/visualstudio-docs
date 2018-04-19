@@ -26,6 +26,6 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # operator delete Function
-This content has moved to [new and delete Operators](../Topic/new%20and%20delete%20Operators.md)  
+This content has moved to [new and delete Operators](http://msdn.microsoft.com/library/fa721b9e-0374-4f04-bb87-032ea775bcc8)  
   
 ## Example

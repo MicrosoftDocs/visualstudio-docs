@@ -25,7 +25,7 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # __delegate
-**Note** This topic applies only to version 1 of Managed Extensions for C++. This syntax should only be used to maintain version 1 code. See [delegate  (C++ Component Extensions)](../Topic/delegate%20%20\(C++%20Component%20Extensions\).md) for information on using the equivalent functionality in the new syntax.  
+**Note** This topic applies only to version 1 of Managed Extensions for C++. This syntax should only be used to maintain version 1 code. See [delegate  (C++ Component Extensions)](http://msdn.microsoft.com/library/03caf23d-7873-4a23-9b34-becf42aaf429) for information on using the equivalent functionality in the new syntax.  
   
  Defines a reference type that can be used to encapsulate a method with a specific signature.  
   

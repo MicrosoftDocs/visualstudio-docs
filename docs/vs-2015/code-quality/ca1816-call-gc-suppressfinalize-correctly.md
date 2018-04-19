@@ -74,7 +74,7 @@ TypeName|CallGCSuppressFinalizeCorrectly|
  [CA2216: Disposable types should declare finalizer](../code-quality/ca2216-disposable-types-should-declare-finalizer.md)  
   
 ## See Also  
- [Dispose Pattern](../Topic/Dispose%20Pattern.md)
+ [Dispose Pattern](http://msdn.microsoft.com/library/31a6c13b-d6a2-492b-9a9f-e5238c983bcb)
 
 
 

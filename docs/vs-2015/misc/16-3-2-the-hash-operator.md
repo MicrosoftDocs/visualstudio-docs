@@ -18,7 +18,7 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # 16.3.2 The # Operator
-This content has been removed. For information about the # (stringize) operator, see [Stringizing Operator (#)](../Topic/Stringizing%20Operator%20\(%23\).md).  
+This content has been removed. For information about the # (stringize) operator, see [Stringizing Operator (#)](http://msdn.microsoft.com/library/1175dd19-4538-43b3-ad97-a008ab80e7b1).  
   
 ## See Also  
- [Nonstandard Behavior](../Topic/Nonstandard%20Behavior.md)
+ [Nonstandard Behavior](http://msdn.microsoft.com/library/a57dea27-dc79-4f64-8a83-017e84841773)

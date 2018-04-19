@@ -25,7 +25,7 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # __pin
-**Note** This topic applies only to version 1 of Managed Extensions for C++. This syntax should only be used to maintain version 1 code. See [pin_ptr (C++/CLI)](../Topic/pin_ptr%20\(C++-CLI\).md) for information on using the equivalent functionality in the new syntax.  
+**Note** This topic applies only to version 1 of Managed Extensions for C++. This syntax should only be used to maintain version 1 code. See [pin_ptr (C++/CLI)](http://msdn.microsoft.com/library/6c2e6c73-4ec2-4dce-8e1f-ccf3a9f9d0aa) for information on using the equivalent functionality in the new syntax.  
   
  Prevents an object or embedded object of a managed class from being moved by the common language runtime during garbage collection.  
   

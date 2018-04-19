@@ -36,21 +36,21 @@ Previous 16-bit versions of Microsoft C/C++ and Microsoft Visual C++ supported t
   
 |Function|Long double<br /><br /> counterpart|Function|Long double<br /><br /> counterpart|  
 |--------------|---------------------------------|--------------|---------------------------------|  
-|[acos](../Topic/acos,%20acosf,%20acosl.md)|`acosl`|[frexp](../Topic/frexp.md)|`frexpl`|  
-|[asin](../Topic/asin,%20asinf,%20asinl.md)|`asinl`|[_hypot](../Topic/hypot,%20hypotf,%20hypotl,%20_hypot,%20_hypotf,%20_hypotl.md)|`_hypotl`|  
-|[atan](../Topic/atan,%20atanf,%20atanl,%20atan2,%20atan2f,%20atan2l.md)|`atanl`|[ldexp](../Topic/ldexp.md)|`ldexpl`|  
-|[atan2](../Topic/atan,%20atanf,%20atanl,%20atan2,%20atan2f,%20atan2l.md)|`atan2l`|[log](../Topic/log,%20logf,%20log10,%20log10f.md)|`logl`|  
-|[atof](../Topic/atof,%20_atof_l,%20_wtof,%20_wtof_l.md)|`_atold`|[log10](../Topic/log,%20logf,%20log10,%20log10f.md)|`log10l`|  
-|[Bessel functions j0, j1, jn](../misc/bessel-functions-j0-j1-jn.md)|`j0l, j1l, jnl`|[_matherr](../Topic/_matherr.md)|`_matherrl`|  
-|[Bessel functions y0, y1, yn](../Topic/Bessel%20Functions:%20_y0,%20_y1,%20_yn.md)|`y0l, y1l, ynl`|[modf](../Topic/modf,%20modff,%20modfl.md)|`modfl`|  
-|[_cabs](../Topic/_cabs.md)|`_cabsl`|[pow](../Topic/pow,%20powf,%20powl.md)|`powl`|  
-|[ceil](../Topic/ceil,%20ceilf,%20ceill.md)|`ceill`|[sin](../Topic/sin,%20sinf,%20sinl,%20sinh,%20sinhf,%20sinhl.md)|`sinl`|  
-|[cos](../Topic/cos,%20cosf,%20cosl,%20cosh,%20coshf,%20coshl.md)|`cosl`|[sinh](../Topic/sin,%20sinf,%20sinl,%20sinh,%20sinhf,%20sinhl.md)|`sinhl`|  
-|[cosh](../Topic/cos,%20cosf,%20cosl,%20cosh,%20coshf,%20coshl.md)|`coshl`|[sqrt](../Topic/sqrt,%20sqrtf,%20sqrtl.md)|`sqrtl`|  
-|[exp](../Topic/exp,%20expf.md)|`expl`|[strtod](../Topic/strtod,%20_strtod_l,%20wcstod,%20_wcstod_l.md)|`_strtold`|  
-|[fabs](../Topic/fabs,%20fabsf,%20fabsl.md)|`fabsl`|[tan](../Topic/tan,%20tanf,%20tanl,%20tanh,%20tanhf,%20tanhl.md)|`tanl`|  
-|[floor](../Topic/floor,%20floorf,%20floorl.md)|`floorl`|[tanh](../Topic/tan,%20tanf,%20tanl,%20tanh,%20tanhf,%20tanhl.md)|`tanhl`|  
-|[fmod](../Topic/fmod,%20fmodf.md)|`fmodl`|||  
+|[acos](http://msdn.microsoft.com/library/00b89c48-8faf-4824-aa95-fa4349a4975d)|`acosl`|[frexp](http://msdn.microsoft.com/library/9b020f2e-3967-45ec-a6a8-d467a071aa55)|`frexpl`|  
+|[asin](http://msdn.microsoft.com/library/ca05f9ea-b711-49f6-9f32-2f4019abfd69)|`asinl`|[_hypot](http://msdn.microsoft.com/library/6a13887f-bd53-43fc-9d77-5b42d6e49925)|`_hypotl`|  
+|[atan](http://msdn.microsoft.com/library/7a87a18e-c94d-4727-9cb1-1bb5c2725ae4)|`atanl`|[ldexp](http://msdn.microsoft.com/library/aa7f5310-3879-4f63-ae74-86a39fbdedfa)|`ldexpl`|  
+|[atan2](http://msdn.microsoft.com/library/7a87a18e-c94d-4727-9cb1-1bb5c2725ae4)|`atan2l`|[log](http://msdn.microsoft.com/library/7adc77c2-04f7-4245-a980-21215563cfae)|`logl`|  
+|[atof](http://msdn.microsoft.com/library/eb513241-c9a9-4f5c-b7e7-a49b14abfb75)|`_atold`|[log10](http://msdn.microsoft.com/library/7adc77c2-04f7-4245-a980-21215563cfae)|`log10l`|  
+|[Bessel functions j0, j1, jn](../misc/bessel-functions-j0-j1-jn.md)|`j0l, j1l, jnl`|[_matherr](http://msdn.microsoft.com/library/b600d66e-165a-4608-a856-8fb418d46760)|`_matherrl`|  
+|[Bessel functions y0, y1, yn](http://msdn.microsoft.com/library/96581b10-7ef1-43c5-80c0-5622b2d97bbe)|`y0l, y1l, ynl`|[modf](http://msdn.microsoft.com/library/b1c7abf5-d476-43ca-a03c-02072a86e32d)|`modfl`|  
+|[_cabs](http://msdn.microsoft.com/library/fea292ee-1a39-4a0a-b416-4a189346ff26)|`_cabsl`|[pow](http://msdn.microsoft.com/library/e75c33ed-2e59-48b1-be40-81da917324f1)|`powl`|  
+|[ceil](http://msdn.microsoft.com/library/f4e5acab-5c8f-4b10-9ae2-9561e6453718)|`ceill`|[sin](http://msdn.microsoft.com/library/737de73e-3590-45f9-8257-dc1c0c489dfc)|`sinl`|  
+|[cos](http://msdn.microsoft.com/library/ae90435e-6b68-4a47-a81f-be87d5c08f16)|`cosl`|[sinh](http://msdn.microsoft.com/library/737de73e-3590-45f9-8257-dc1c0c489dfc)|`sinhl`|  
+|[cosh](http://msdn.microsoft.com/library/ae90435e-6b68-4a47-a81f-be87d5c08f16)|`coshl`|[sqrt](http://msdn.microsoft.com/library/2ba9467b-f172-41dc-8f10-b86f68fa813c)|`sqrtl`|  
+|[exp](http://msdn.microsoft.com/library/7070016d-1143-407e-9e9a-6b059bb88867)|`expl`|[strtod](http://msdn.microsoft.com/library/0444f74a-ba2a-4973-b7f0-1d77ba88c6ed)|`_strtold`|  
+|[fabs](http://msdn.microsoft.com/library/23bca210-f408-4f5e-b46b-0ccaaec31e36)|`fabsl`|[tan](http://msdn.microsoft.com/library/36cc0ce8-9c80-4653-b354-ddb3b378b6bd)|`tanl`|  
+|[floor](http://msdn.microsoft.com/library/e9955f70-d659-414f-8050-132e13c8ff36)|`floorl`|[tanh](http://msdn.microsoft.com/library/36cc0ce8-9c80-4653-b354-ddb3b378b6bd)|`tanhl`|  
+|[fmod](http://msdn.microsoft.com/library/6962d369-d11f-40b1-a6d7-6f67239f8a23)|`fmodl`|||  
   
 ## See Also  
- [Run-Time Routines by Category](../Topic/Run-Time%20Routines%20by%20Category.md)
+ [Run-Time Routines by Category](http://msdn.microsoft.com/library/de6f5ac4-2226-4dad-be9f-deeb31138c9d)

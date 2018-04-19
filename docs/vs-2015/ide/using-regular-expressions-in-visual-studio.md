@@ -30,7 +30,7 @@ manager: "ghogen"
 
 The latest version of this topic can be found at [Using Regular Expressions in Visual Studio](https://docs.microsoft.com/visualstudio/ide/using-regular-expressions-in-visual-studio).  
   
-INCLUDE[vsprvs](../includes/vsprvs-md.md)] uses .NET Framework regular expressions to find and replace text. For more information about .NET regular expressions, see [.NET Framework Regular Expressions](../Topic/.NET%20Framework%20Regular%20Expressions.md).  
+INCLUDE[vsprvs](../includes/vsprvs-md.md)] uses .NET Framework regular expressions to find and replace text. For more information about .NET regular expressions, see [.NET Framework Regular Expressions](http://msdn.microsoft.com/library/521b3f6d-f869-42e1-93e5-158c54a6895d).  
   
  Before Visual Studio 2012, Visual Studio used custom regular expression syntax in the Find and Replace windows. See [Visual Studio Regular Expression Conversions](https://msdn.microsoft.com/library/2k3te2cs\(v=vs.110\).aspx) for an explanation of how to convert some of the more commonly-used custom regular expression symbols to the .NET versions.  
   
@@ -38,7 +38,7 @@ INCLUDE[vsprvs](../includes/vsprvs-md.md)] uses .NET Framework regular expressio
 >  In Windows operating systems, most lines end in “\r\n” (a carriage return followed by a new line). These characters are not visible, but are present in the editor and are passed to the .NET Regular Expression service.  
   
 > [!TIP]
->  For information about regular expressions that are used in replacement patterns, see [Substitutions](../Topic/Substitutions%20in%20Regular%20Expressions.md). To use a numbered capture group, the syntax is `$1` to specify the numbered group and `(x)` to specify the group in question. For example, the grouped regular expression `(\d)([a-z])` finds four matches in the following string: **1a 2b 3c 4d**. The replacement string `z$1` converts that string to **z1 z2 z3 z4**.  
+>  For information about regular expressions that are used in replacement patterns, see [Substitutions](http://msdn.microsoft.com/library/d1f52431-1c7d-4dc6-8792-6b988256892e). To use a numbered capture group, the syntax is `$1` to specify the numbered group and `(x)` to specify the group in question. For example, the grouped regular expression `(\d)([a-z])` finds four matches in the following string: **1a 2b 3c 4d**. The replacement string `z$1` converts that string to **z1 z2 z3 z4**.  
   
 ## Regular Expressions in Visual Studio  
  Here are some examples  

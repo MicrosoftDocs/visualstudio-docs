@@ -23,7 +23,7 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # Troubleshooting Exceptions: System.NullReferenceException
-A <xref:System.NullReferenceException> occurs  when you try to use a method or property of a *reference type* ([C#](../Topic/Reference%20Types%20\(C%23%20Reference\).md), [Visual Basic](../Topic/Value%20Types%20and%20Reference%20Types.md)) whose value is `null`. For example, you may have tried to use an object without first using the [new](../Topic/new%20\(C%23%20Reference\).md) keyword ([New](../Topic/New%20Operator%20\(Visual%20Basic\).md) in Visual Basic), or tried to use an object whose value was set to [null](../Topic/null%20\(C%23%20Reference\).md) ([Nothing](../Topic/Nothing%20\(Visual%20Basic\).md) in Visual Basic).  
+A <xref:System.NullReferenceException> occurs  when you try to use a method or property of a *reference type* ([C#](http://msdn.microsoft.com/library/801cf030-6e2d-4a0d-9daf-1431b0c31f47), [Visual Basic](http://msdn.microsoft.com/library/fc82ce15-5a40-4c5c-a1e1-a556830e7391)) whose value is `null`. For example, you may have tried to use an object without first using the [new](http://msdn.microsoft.com/library/e4136516-f058-45a8-84e5-da00a5cf9b6a) keyword ([New](http://msdn.microsoft.com/library/d7d566d7-fe0e-4336-91f7-641a542de4d0) in Visual Basic), or tried to use an object whose value was set to [null](http://msdn.microsoft.com/library/fecb1c60-6232-4efe-87f7-9a86ba2e9119) ([Nothing](http://msdn.microsoft.com/library/06176e2d-bbf7-4a37-afaa-a86ad21ee99f) in Visual Basic).  
   
 ##  <a name="BKMK_Contents"></a> Sections in this article  
  [Classes used in this article](#BKMK_Classes_used_in_the_examples)  
@@ -132,7 +132,7 @@ End Sub
  ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Sections in this article](#BKMK_Contents)  
   
 ###  <a name="BKMK_A_property_or_field_is_null"></a> A property or field is null  
- The fields and properties of a class are automatically initialized to their [default value](../Topic/Data%20Member%20Default%20Values.md) when the class is created. The default value of a reference type is `null` (`Nothing` in Visual Basic) Calling member methods on a field or property of a parent class when the field or property value is null causes a NullReferenceException.  
+ The fields and properties of a class are automatically initialized to their [default value](http://msdn.microsoft.com/library/53a3b505-4b27-444b-b079-0eb84a97cfd8) when the class is created. The default value of a reference type is `null` (`Nothing` in Visual Basic) Calling member methods on a field or property of a parent class when the field or property value is null causes a NullReferenceException.  
   
  In this example, the highlighted line throws a NullReferenceException because the `Engine` property of `car` is auto-initialized to null.  
   
@@ -556,7 +556,7 @@ End Class
 > [!NOTE]
 >  **Use lazy initialization for large or infrequently used properties**  
 >   
->  To reduce the memory footprint of your class and to increase its performance, consider using lazy initialization of reference-type properties. See [Lazy Initialization](../Topic/Lazy%20Initialization.md).  
+>  To reduce the memory footprint of your class and to increase its performance, consider using lazy initialization of reference-type properties. See [Lazy Initialization](http://msdn.microsoft.com/library/56b4ae5c-4745-44ff-ad78-ffe4fcde6b9b).  
   
 ##  <a name="BKMK_Handle_NullReferenceExceptions_in_release_code"></a> Handling NullReferenceExceptions in release code  
  [Check for null (Nothing in Visual Basic) before you use a reference type](#BKMK_Check_for_null_Nothing_in_Visual_Basic_before_using_a_reference_type)  
@@ -632,7 +632,7 @@ End Sub
  ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Sections in this article](#BKMK_Contents)  
   
 ###  <a name="BKMK_Use_try_catch_finally_Try_Catch_Finally_in_Visual_Basic_to_handle_the_exception"></a> Use try-catch-finally (Try-Catch-Finally in Visual Basic) to handle the exception  
- Using the built-in exception handling constructs ([try, catch, finally](../Topic/Exception%20Handling%20Statements%20\(C%23%20Reference\).md) in C#, [Try, Catch, Finally](../Topic/Try...Catch...Finally%20Statement%20\(Visual%20Basic\).md) in Visual Basic) offers more options for dealing with NullReferenceExceptions than checking whether an object is not null.  
+ Using the built-in exception handling constructs ([try, catch, finally](http://msdn.microsoft.com/library/6d0323a3-3164-411c-9b84-a3606bd0e13c) in C#, [Try, Catch, Finally](http://msdn.microsoft.com/library/d6488026-ccb3-42b8-a810-0d97b9d6472b) in Visual Basic) offers more options for dealing with NullReferenceExceptions than checking whether an object is not null.  
   
  In this example, `CatchNullReferenceFromMethodCall` uses two asserts to confirm the assumption that its parameter contains a complete automobile, including an engine. In the `try` block, the highlighted line throws a NullReferenceException because the call to `RarelyBadEngineSwap` can destroy the car's `Engine` property. The `catch` block captures the exception, writes the exception information to a file, and reports the error to the user. In the `finally` block, the method insures that the state of the car is no worse than when the method began.  
   

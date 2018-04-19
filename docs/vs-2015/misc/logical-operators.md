@@ -22,6 +22,6 @@ manager: "douge"
 # Logical Operators
 The content in this article was removed. See the following pages for information on the individual operators.  
   
--   [logical AND](../Topic/Logical%20AND%20Operator:%20&&.md) (&&)  
+-   [logical AND](http://msdn.microsoft.com/library/50cfa664-a8c4-4b31-9bab-2f80d7cd2d1f) (&&)  
   
--   [logical OR](../Topic/Logical%20OR%20Operator:%20%7C%7C.md) (&#124;&#124;)
+-   [logical OR](http://msdn.microsoft.com/library/31837c99-2655-4bf3-8ded-f13b7a9dc533) (&#124;&#124;)

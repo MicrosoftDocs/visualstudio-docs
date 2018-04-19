@@ -20,4 +20,4 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # Using delete
-This content has moved [delete Operator](../Topic/delete%20Operator%20\(C++\).md).
+This content has moved [delete Operator](http://msdn.microsoft.com/library/de39c900-3f57-489c-9598-dcb73c4b3930).

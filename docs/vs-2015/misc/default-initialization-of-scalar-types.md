@@ -23,4 +23,4 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # Default Initialization of Scalar Types
-This content has been removed. For more information, see [Initializers](../Topic/Initializers.md)
+This content has been removed. For more information, see [Initializers](http://msdn.microsoft.com/library/ce301ed8-aa1c-47b2-bb39-9f0541b4af85)

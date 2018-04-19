@@ -22,4 +22,4 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # C/C++ Languages
-This content has moved to [C/C++ Language and Standard Libraries](../Topic/C-C++%20Language%20and%20Standard%20Libraries.md).
+This content has moved to [C/C++ Language and Standard Libraries](http://msdn.microsoft.com/library/c26a6682-961a-43ef-ad33-2adc612f69ac).

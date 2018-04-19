@@ -31,4 +31,4 @@ The `SyncLock` statement synchronizes threads and is not permitted in a debuggin
   
 ## See Also  
  [Immediate Window](../ide/reference/immediate-window.md)   
- [SyncLock Statement](../Topic/SyncLock%20Statement.md)
+ [SyncLock Statement](http://msdn.microsoft.com/library/14501703-298f-4d43-b139-c4b6366af176)

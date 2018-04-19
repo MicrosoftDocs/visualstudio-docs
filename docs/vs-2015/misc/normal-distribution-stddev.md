@@ -46,6 +46,6 @@ RealType stddev() const;
  **Namespace:** std  
   
 ## See Also  
- [\<random>](../Topic/%3Crandom%3E.md)   
- [normal_distribution Class](../Topic/normal_distribution%20Class.md)   
+ [\<random>](http://msdn.microsoft.com/library/60afc25c-b162-4811-97c1-1b65398d4c57)   
+ [normal_distribution Class](http://msdn.microsoft.com/library/bf92cdbd-bc72-4d4a-b588-173d748f0d7d)   
  [normal_distribution::mean](../misc/normal-distribution-mean.md)

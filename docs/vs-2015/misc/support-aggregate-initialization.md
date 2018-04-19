@@ -18,4 +18,4 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # Support Aggregate Initialization
-This content has been removed. For information about initialization, see [Initializers](../Topic/Initializers.md).
+This content has been removed. For information about initialization, see [Initializers](http://msdn.microsoft.com/library/ce301ed8-aa1c-47b2-bb39-9f0541b4af85).

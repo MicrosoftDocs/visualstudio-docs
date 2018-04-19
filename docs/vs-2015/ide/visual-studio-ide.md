@@ -30,7 +30,7 @@ Microsoft Visual Studio 2015 is a suite of tools for creating software, from the
   
 4.  games and graphics-intensive applications for a variety of Windows devices, including Xbox, using DirectX.  
   
- Visual Studio by default provides support for C#, C and C++, JavaScript, F#, and Visual Basic. Visual Studio works and integrates well with third-party applications like Unity through the [Visual Studio Tools for Unity](../cross-platform/visual-studio-tools-for-unity.md) extension and Apache Cordova through [Visual Studio Tools for Apache Cordova](../Topic/Get%20Started%20with%20Visual%20Studio%20Tools%20for%20Apache%20Cordova1.md). You can extend Visual Studio yourself by creating custom tools that perform specialized tasks.  
+ Visual Studio by default provides support for C#, C and C++, JavaScript, F#, and Visual Basic. Visual Studio works and integrates well with third-party applications like Unity through the [Visual Studio Tools for Unity](../cross-platform/visual-studio-tools-for-unity.md) extension and Apache Cordova through [Visual Studio Tools for Apache Cordova](http://msdn.microsoft.com/library/db446f2c-6ba4-4c76-aac5-4c66f43b8c42). You can extend Visual Studio yourself by creating custom tools that perform specialized tasks.  
   
  If you’ve never used Visual Studio before, learn the basics with our [Get Started Developing with Visual Studio](../ide/get-started-developing-with-visual-studio.md) tutorials and walkthroughs.  
   
@@ -165,10 +165,10 @@ Microsoft Visual Studio 2015 is a suite of tools for creating software, from the
  ![Unit Test Explorer](../ide/media/ute-failedpassednotrunsummary.png "UTE_FailedPassedNotRunSummary")  
   
 ## Analyzing code quality and performance  
- Visual Studio includes powerful tools for static and runtime analysis. The static analysis tools help you identify potential errors in design, globalization, interoperability, performance, security, and other categories. Performance testing, or profiling, involves measuring how your program runs. You access these tools from the **Analyze** menu. For more information, see [Improving Quality with Visual Studio Diagnostic Tools](../Topic/Improve%20Code%20Quality.md).  
+ Visual Studio includes powerful tools for static and runtime analysis. The static analysis tools help you identify potential errors in design, globalization, interoperability, performance, security, and other categories. Performance testing, or profiling, involves measuring how your program runs. You access these tools from the **Analyze** menu. For more information, see [Improving Quality with Visual Studio Diagnostic Tools](http://msdn.microsoft.com/library/73baa961-c21f-43fe-bb92-3f59ae9b5945).  
   
 ## Connecting to cloud services and databases  
- The [Server Explorer](../Topic/Server%20Explorer.md) window in Visual Studio shows the resources in all the accounts managed under your personalization account (the one you logged in with), including SQL Server instances, Azure, Salesforce.com, Office 365, and websites.  
+ The [Server Explorer](http://msdn.microsoft.com/library/4ea29b3b-bbb2-45e4-9082-eaf635c41c4d) window in Visual Studio shows the resources in all the accounts managed under your personalization account (the one you logged in with), including SQL Server instances, Azure, Salesforce.com, Office 365, and websites.  
   
  ![Server Explorer](../ide/media/vs2015-serverexplorer3.png "vs2015_ServerExplorer3")  
   
@@ -185,7 +185,7 @@ Microsoft Visual Studio 2015 is a suite of tools for creating software, from the
  You can use Visual Studio architecture and modeling tools to design and model your app. These tools help you to visualize the code's structure, behavior, and relationships. You can create models at different levels of detail throughout the application lifecycle as part of your development process. You can track requirements, tasks, test cases, bugs, and other work associated with your models by linking model elements to Team Foundation Server work items and your development plan. For more information, see [Design and model your app](../modeling/analyze-and-model-your-architecture.md).  
   
 ## Extending Visual Studio through the Visual Studio SDK  
- Visual Studio is an extensible platform. A Visual Studio extension is a custom tool that integrates with the IDE. You can add third-party extensions or create your own. For more information, see [Developing Visual Studio Extensions](../Topic/Developing%20Visual%20Studio%20Extensions.md).  
+ Visual Studio is an extensible platform. A Visual Studio extension is a custom tool that integrates with the IDE. You can add third-party extensions or create your own. For more information, see [Developing Visual Studio Extensions](http://msdn.microsoft.com/library/5b1b5db3-6005-44cf-83b0-e608d7764d14).  
   
  The [Visual Studio User Experience Guidelines](../extensibility/ux-guidelines/visual-studio-user-experience-guidelines.md) are an essential reference for anyone writing extensions for Visual Studio. These platform-specific guidelines include information on dialog design, fonts, colors, icons, common controls, and other interaction patterns that will make your new feature integrate seamlessly with Visual Studio.  
   
@@ -197,7 +197,7 @@ Microsoft Visual Studio 2015 is a suite of tools for creating software, from the
 |[How to: Move Around in the IDE](../ide/how-to-move-around-in-the-visual-studio-ide.md)|[Get Started Developing with Visual Studio](../ide/get-started-developing-with-visual-studio.md)|  
 |[Finding and Using Visual Studio Extensions](../ide/finding-and-using-visual-studio-extensions.md)|[Solutions and Projects](../ide/solutions-and-projects-in-visual-studio.md)|  
 |[Writing Code](../ide/writing-code-in-the-code-and-text-editor.md)|[Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)|  
-|[Profiling Tools](../profiling/profiling-tools.md)|[Improve Code Quality](../Topic/Improve%20Code%20Quality.md)|  
+|[Profiling Tools](../profiling/profiling-tools.md)|[Improve Code Quality](http://msdn.microsoft.com/library/73baa961-c21f-43fe-bb92-3f59ae9b5945)|  
 |[Designing User Interfaces](../designers/designing-user-interfaces.md)|[Analyzing and Modeling Architecture](../modeling/analyze-and-model-your-architecture.md)|  
 |[Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)|[Deploying Applications, Services, and Components](../deployment/deploying-applications-services-and-components.md)|  
 |[Visual Studio IDE 64-Bit Support](../ide/visual-studio-ide-64-bit-support.md)|[Security](../ide/security-in-visual-studio.md)|  

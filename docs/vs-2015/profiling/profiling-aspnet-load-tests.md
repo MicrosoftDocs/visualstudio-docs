@@ -24,9 +24,9 @@ You can collect profiling data from automated [!INCLUDE[TCMext](../includes/tcme
   
  [(NIB) How to: Run a Performance Session on a Web Application from the Web Performance Test Editor](http://msdn.microsoft.com/en-us/d14e0a27-33cc-4e4e-8792-fe03e50d51e1)  
   
- [How to: Configure ASP.NET Profiler for Load Tests Using Test Settings in Visual Studio](../Topic/How%20to:%20Configure%20ASP.NET%20Profiler%20for%20Load%20Tests%20Using%20Test%20Settings%20in%20Visual%20Studio.md)  
+ [How to: Configure ASP.NET Profiler for Load Tests Using Test Settings in Visual Studio](~/E:/Repos/visualstudio-docs-pr/docs/test/how-to-configure-aspnet-profiler-for-load-tests-using-test-settings.md)  
   
- [Running System Tests Using Microsoft Visual Studio](../Topic/Running%20Automated%20Tests%20Using%20Microsoft%20Visual%20Studio.md).  
+ [Running System Tests Using Microsoft Visual Studio](http://msdn.microsoft.com/library/19fae5c4-5798-4c4c-b531-3e8f901b1130).  
   
 ## See Also  
  [Understanding Sampling Data Values](../profiling/understanding-sampling-data-values.md)   

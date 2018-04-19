@@ -33,4 +33,4 @@ ms.author: "corob"
 manager: "ghogen"
 ---
 # cabs
-This POSIX function is deprecated. Use the ISO C++ conformant [_cabs](../Topic/_cabs.md) instead.
+This POSIX function is deprecated. Use the ISO C++ conformant [_cabs](http://msdn.microsoft.com/library/fea292ee-1a39-4a0a-b416-4a189346ff26) instead.

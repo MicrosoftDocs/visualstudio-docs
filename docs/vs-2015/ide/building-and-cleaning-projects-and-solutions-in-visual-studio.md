@@ -116,7 +116,7 @@ By using the procedures in this topic, you can build, rebuild, or clean all or s
  [Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)   
  [Understanding Build Configurations](../ide/understanding-build-configurations.md)   
  [Debug and Release Project Configurations](http://msdn.microsoft.com/en-us/0440b300-0614-4511-901a-105b771b236e)   
- [C/C++ Building Reference](../Topic/C-C++%20Building%20Reference.md)   
+ [C/C++ Building Reference](http://msdn.microsoft.com/library/100b4ccf-572c-4d1f-970c-fa0bc0cc0d2d)   
  [Devenv Command Line Switches](../ide/reference/devenv-command-line-switches.md)   
  [Solutions and Projects](../ide/solutions-and-projects-in-visual-studio.md)
 

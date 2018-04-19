@@ -32,7 +32,7 @@ TypeName|SecuredTypesShouldNotExposeFields|
 |Breaking Change|Breaking|  
   
 ## Cause  
- A public or protected type contains public fields and is secured by a [Link Demands](../Topic/Link%20Demands.md).  
+ A public or protected type contains public fields and is secured by a [Link Demands](http://msdn.microsoft.com/library/a33fd5f9-2de9-4653-a4f0-d9df25082c4d).  
   
 ## Rule Description  
  If code has access to an instance of a type that is secured by a link demand, the code does not have to satisfy the link demand to access the type's fields.  
@@ -70,8 +70,8 @@ TypeName|SecuredTypesShouldNotExposeFields|
  [CA1051: Do not declare visible instance fields](../code-quality/ca1051-do-not-declare-visible-instance-fields.md)  
   
 ## See Also  
- [Link Demands](../Topic/Link%20Demands.md)   
- [Data and Modeling](../Topic/Data%20and%20Modeling%20in%20the%20.NET%20Framework.md)
+ [Link Demands](http://msdn.microsoft.com/library/a33fd5f9-2de9-4653-a4f0-d9df25082c4d)   
+ [Data and Modeling](http://msdn.microsoft.com/library/8c37635d-e2c1-4b64-a258-61d9e87405e6)
 
 
 

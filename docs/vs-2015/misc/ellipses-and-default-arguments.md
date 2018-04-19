@@ -24,4 +24,4 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # Ellipses and Default Arguments
-This content has moved [Postfix Expressions](../Topic/Postfix%20Expressions.md)
+This content has moved [Postfix Expressions](http://msdn.microsoft.com/library/7ac62a57-06df-422f-b012-a75b37d7cb9b)

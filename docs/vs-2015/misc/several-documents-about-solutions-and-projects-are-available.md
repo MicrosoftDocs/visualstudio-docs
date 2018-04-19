@@ -28,4 +28,4 @@ manager: "douge"
 |[NIB:How to: Unload and Reload Projects](http://msdn.microsoft.com/en-us/abc0155b-8fcb-4ffc-95b6-698518a7100b)|Describes how to make projects in a solution temporarily unavailable.|  
 |[Solutions and Projects](../ide/solutions-and-projects-in-visual-studio.md)|Describes the structure of a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution.|  
 |[Solutions and Projects](../ide/solutions-and-projects-in-visual-studio.md)|Links to documents that describe common tasks for working with solutions and projects.|  
-|[Office Projects in the Visual Studio Environment](../Topic/Office%20Projects%20in%20the%20Visual%20Studio%20Environment.md)|Describes the items in Office projects that are displayed in **Solution Explorer**, such as the document, workbook, or sheets in a document-level project.|
+|[Office Projects in the Visual Studio Environment](http://msdn.microsoft.com/library/4bff36c9-4edd-4b28-89e6-0ea9f6caca02)|Describes the items in Office projects that are displayed in **Solution Explorer**, such as the document, workbook, or sheets in a document-level project.|

@@ -51,8 +51,8 @@ This section provides tips on debugging COM applications and ActiveX controls.
   
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   
- [Introduction to COM](../Topic/Introduction%20to%20COM.md)   
- [ActiveX Controls](../Topic/ActiveX%20Controls.md)   
+ [Introduction to COM](http://msdn.microsoft.com/library/120735d9-db71-4ad3-a730-ce576ea2354e)   
+ [ActiveX Controls](http://msdn.microsoft.com/library/52aaec4d-3889-402e-b57d-758078f8ac57)   
  [SDI Server Applications](../debugger/sdi-server-applications.md)
 
 

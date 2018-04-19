@@ -13,7 +13,7 @@ caps.latest.revision: 5
 |||||  
 |-|-|-|-|  
 |![HomePageTools&#95;VS2015](../misc/media/homepagetools-vs2015.png "HomePageTools_VS2015")<br /><br /> **Tools**|![Devices](../cross-platform/media/homedevices.png "HomeDevices")<br /><br /> **Devices**|![HomePageCloud&#95;vs2015](../misc/media/homepagecloud-vs2015.png "HomePageCloud_vs2015")<br /><br /> **Web**|![HomePageLanguages&#95;VS2015](../misc/media/homepagelanguages-vs2015.png "HomePageLanguages_VS2015")<br /><br /> **Languages**|  
-|[Designers](../designers/designing-user-interfaces.md), [editors](../ide/writing-code-in-the-code-and-text-editor.md), [Debuggers](../debugger/debugging-in-visual-studio.md),[profilers](../profiling/beginners-guide-to-performance-profiling.md) -- all packaged up in a single environment.|Tools for [Apache Cordova with Visual Studio](../Topic/Build%20cross-platform%20apps%20with%20Visual%20Studio%20Tools%20for%20Apache%20Cordova.md) and [Visual Studio Tools for Unity](../cross-platform/visual-studio-tools-for-unity.md) to reach even more platforms.|Extensive web support for [ASP.NET](http://www.asp.net/), Node.js, and [JavaScript](../Topic/JavaScript%20Language%20Reference.md).|Code in [C++](../Topic/Visual%20C++%20in%20Visual%20Studio%202015.md), [C#](../Topic/C%23.md), [VB](../Topic/Visual%20Basic.md), [JavaScript](../Topic/JavaScript%20Language%20Reference.md), [F#](../Topic/F%23%20Language%20Reference.md), [Python](http://pytools.codeplex.com/documentation), and Java.|  
+|[Designers](../designers/designing-user-interfaces.md), [editors](../ide/writing-code-in-the-code-and-text-editor.md), [Debuggers](../debugger/debugging-in-visual-studio.md),[profilers](../profiling/beginners-guide-to-performance-profiling.md) -- all packaged up in a single environment.|Tools for [Apache Cordova with Visual Studio](http://msdn.microsoft.com/library/34d3c1be-22b3-4812-97fb-10b4e8ad2134) and [Visual Studio Tools for Unity](../cross-platform/visual-studio-tools-for-unity.md) to reach even more platforms.|Extensive web support for [ASP.NET](http://www.asp.net/), Node.js, and [JavaScript](~/E:/Repos/visualstudio-docs-pr/scripting-docs/javascript/javascript-language-reference.md).|Code in [C++](http://msdn.microsoft.com/library/e8dcc44c-a3e2-4ffe-887c-fd15b18dc458), [C#](http://msdn.microsoft.com/library/7f4f8103-7068-4f1d-92c7-3c4519b6edbc), [VB](http://msdn.microsoft.com/library/5cc578fe-d9e5-4015-937d-b34b83207072), [JavaScript](~/E:/Repos/visualstudio-docs-pr/scripting-docs/javascript/javascript-language-reference.md), [F#](http://msdn.microsoft.com/library/16b706f8-b5f2-4ff7-b2c1-64df33cd6adf), [Python](http://pytools.codeplex.com/documentation), and Java.|  
   
  Welcome to Visual Studio! We’ve got everything you need to create great apps for devices or desktop apps, for the web and in the cloud. Write code for iOS, Android, and Windows in one IDE. Get great IntelliSense, easy code navigation, fast builds, and quick deployment. Visual Studio increases your productivity and makes it easy to do your work alone or as part of a larger team.  
   
@@ -43,7 +43,7 @@ caps.latest.revision: 5
   
 1.  [Xamarin for Visual Studio](../cross-platform/build-apps-with-native-ui-using-xamarin-in-visual-studio.md): A common code base in C# for all devices  
   
-2.  [Apache Cordova with Visual Studio](../Topic/Get%20Started%20with%20Visual%20Studio%20Tools%20for%20Apache%20Cordova1.md): A common code base for HTML, CSS, and JavaScript or Typescript  
+2.  [Apache Cordova with Visual Studio](http://msdn.microsoft.com/library/db446f2c-6ba4-4c76-aac5-4c66f43b8c42): A common code base for HTML, CSS, and JavaScript or Typescript  
   
 3.  [Visual Studio Tools for Unity](../cross-platform/visual-studio-tools-for-unity.md): 2D/3D game development in C#  
   
@@ -66,7 +66,7 @@ caps.latest.revision: 5
 ## Build, test, and manage your code  
   
 ### Check in your code  
- If you work on a team, you need to share the latest versions of the code too so everyone on the team is using the same codebase. Visual Studio seamlessly integrates with Visual Studio Team Services or Team Foundation Server to provide version control with Git or TFVC (Team Foundation Version Control). Use Visual Studio Team Services to store your code in the cloud with no maintenance of a local server. Use Team Foundation Server if you want to have an on-premises server. Every time you create a code project, you have the option to add it to version control. Learn about which version control system is best for your needs: [Use version control](../Topic/Use%20version%20control.md).  
+ If you work on a team, you need to share the latest versions of the code too so everyone on the team is using the same codebase. Visual Studio seamlessly integrates with Visual Studio Team Services or Team Foundation Server to provide version control with Git or TFVC (Team Foundation Version Control). Use Visual Studio Team Services to store your code in the cloud with no maintenance of a local server. Use Team Foundation Server if you want to have an on-premises server. Every time you create a code project, you have the option to add it to version control. Learn about which version control system is best for your needs: [Use version control](http://msdn.microsoft.com/library/33267cee-fe5f-4aa3-b2cd-6d22ceace314).  
   
 ### Build your app  
  You can [build your app locally](../ide/compiling-and-building-in-visual-studio.md) and make sure that it works correctly. Then use the [debugging tools](../debugger/debugging-in-visual-studio.md) to fix any issues with your app. Or you can build projects on shared build servers or in the cloud. Automate your build process to build the code that the devs on your team have checked into version control. For example, you can build one or more projects nightly or every time that code is checked in.  
@@ -77,14 +77,14 @@ caps.latest.revision: 5
  Plan, create and run manual and automated tests for your app. Test plans, suites, test cases and your test results are stored in the cloud with Visual Studio Team Services or on-premises with Team Foundation Server. Learn more about [testing the application](Title%20Changed%20Date%20Checked%20Out%20By%20Project%20Name%20TOC%20Bucket%20Name).  
   
 ### Deliver your team’s code faster  
- Remove barriers between members of your team and improve collaboration. Go further and automate the release of your app to each stage in your development all the way to production. Monitor your app's performance and availability when live. Collect real-time usage data about how your customers are actually using your app. See [DevOps and Application Lifecycle Management](../Topic/DevOps%20and%20Application%20Lifecycle%20Management.md) for more details.  
+ Remove barriers between members of your team and improve collaboration. Go further and automate the release of your app to each stage in your development all the way to production. Monitor your app's performance and availability when live. Collect real-time usage data about how your customers are actually using your app. See [DevOps and Application Lifecycle Management](http://msdn.microsoft.com/library/74a1f71d-7f23-4c71-8fd7-89ede614fab6) for more details.  
   
 ## What’s new?  
   
 |||||  
 |-|-|-|-|  
-|[What’s new in Visual Studio 2015](../ide/what-s-new-in-visual-studio-2015.md)|[What's New for Visual C#](../Topic/What's%20New%20for%20Visual%20C%23.md)|[What’s new for .NET Framework 4.6](../Topic/What's%20New%20in%20the%20.NET%20Framework.md)|[What’s new for ALM](http://msdn.microsoft.com/en-us/54b98a53-6083-4303-869a-8063d8fae938)|  
-|[What’s new for C++](../Topic/What's%20New%20for%20Visual%20C++%20in%20Visual%20Studio%202015.md)|[What's New for Visual Basic](../Topic/What's%20New%20for%20Visual%20Basic.md)|[What’s new for JavaScript](../Topic/What's%20New%20in%20JavaScript.md)||  
+|[What’s new in Visual Studio 2015](../ide/what-s-new-in-visual-studio-2015.md)|[What's New for Visual C#](http://msdn.microsoft.com/library/9f18dc26-27fa-4603-a639-b573f07a117b)|[What’s new for .NET Framework 4.6](http://msdn.microsoft.com/library/1d971dd7-10fc-4692-8dac-30ca308fc0fa)|[What’s new for ALM](http://msdn.microsoft.com/en-us/54b98a53-6083-4303-869a-8063d8fae938)|  
+|[What’s new for C++](http://msdn.microsoft.com/library/1cc09fad-85a2-43c2-b022-bb99f5fe0ad7)|[What's New for Visual Basic](http://msdn.microsoft.com/library/d7e97396-7f42-4873-a81c-4ebcc4b6ca02)|[What’s new for JavaScript](~/E:/Repos/visualstudio-docs-pr/scripting-docs/javascript/what-s-new-in-javascript.md)||  
 |[Python](../python/getting-started-with-python.md)||||  
   
 ## In this section  
@@ -101,18 +101,18 @@ caps.latest.revision: 5
   
 6.  [Cross-Platform Mobile Development](../cross-platform/cross-platform-mobile-development-in-visual-studio.md)  
   
-7.  [C# and Visual Basic Shared Programming Concepts](../Topic/C%23%20and%20Visual%20Basic%20Shared%20Programming%20Concepts.md)  
+7.  [C# and Visual Basic Shared Programming Concepts](http://msdn.microsoft.com/library/fa9bf5e6-07c8-4b5b-b1ae-8a22816a63c6)  
   
-8.  [Visual C++](../Topic/Visual%20C++%20in%20Visual%20Studio%202015.md)  
+8.  [Visual C++](http://msdn.microsoft.com/library/e8dcc44c-a3e2-4ffe-887c-fd15b18dc458)  
   
 9. [JavaScript](../javascript/javascript-in-visual-studio.md)  
   
 10. [Python](../python/getting-started-with-python.md)  
   
-11. [Visual F#](../Topic/Visual%20F%23.md)  
+11. [Visual F#](http://msdn.microsoft.com/library/66f52f8a-a034-4c32-bb83-fa5b030faa4d)  
   
-12. [Visual Studio LightSwitch](../Topic/Visual%20Studio%20LightSwitch.md)  
+12. [Visual Studio LightSwitch](http://msdn.microsoft.com/library/2021a2cf-f684-493f-8d1b-4cdf39bc6eb3)  
   
-13. [DevOps and Application Lifecycle Management](../Topic/DevOps%20and%20Application%20Lifecycle%20Management.md)  
+13. [DevOps and Application Lifecycle Management](http://msdn.microsoft.com/library/74a1f71d-7f23-4c71-8fd7-89ede614fab6)  
   
 14. [Talk to Us](../ide/talk-to-us.md)

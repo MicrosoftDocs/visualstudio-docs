@@ -21,4 +21,4 @@ ms.author: "mithom"
 manager: "douge"
 ---
 # Pointer-to-Member Conversions
-This content has moved to [Standard Conversions](../Topic/Standard%20Conversions.md).
+This content has moved to [Standard Conversions](http://msdn.microsoft.com/library/ce7ac8d3-5c99-4674-8229-0672de05528d).

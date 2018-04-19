@@ -24,7 +24,7 @@ ms.author: "ghogen"
 manager: "douge"
 ---
 # checked_uninitialized_copy
-`checked_uninitialized_copy` has been deprecated. For information about checked iterators, see [Checked Iterators](../Topic/Checked%20Iterators.md).  
+`checked_uninitialized_copy` has been deprecated. For information about checked iterators, see [Checked Iterators](http://msdn.microsoft.com/library/cfc87df8-e3d9-403b-ab78-e9483247d940).  
   
 ## Syntax  
   

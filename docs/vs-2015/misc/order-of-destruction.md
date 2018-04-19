@@ -24,4 +24,4 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # Order of Destruction
-This content has moved to [Destructors](../Topic/Destructors%20\(C++\).md).
+This content has moved to [Destructors](http://msdn.microsoft.com/library/afa859b0-f3bc-4c4d-b250-c68b335b6004).

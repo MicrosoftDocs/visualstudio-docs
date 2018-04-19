@@ -20,4 +20,4 @@ ms.author: "mithom"
 manager: "douge"
 ---
 # Conversion Functions (C++)
-This content has been relocated. For information about conversion functions, see [User-Defined Type Conversions](../Topic/User-Defined%20Type%20Conversions%20\(C++\).md).
+This content has been relocated. For information about conversion functions, see [User-Defined Type Conversions](http://msdn.microsoft.com/library/d40e4310-a190-4e95-a34c-22c5c20aa0b9).

@@ -22,7 +22,7 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # Compound Assignment
-This content has moved [Assignment Operators](../Topic/Assignment%20Operators.md).  
+This content has moved [Assignment Operators](http://msdn.microsoft.com/library/b028cf35-2ff1-4f14-9027-fd53ebec8aa0).  
   
 ## See Also  
- [Expressions with Binary Operators](../Topic/Expressions%20with%20Binary%20Operators.md)
+ [Expressions with Binary Operators](http://msdn.microsoft.com/library/6dea3df4-a4bd-42c3-9807-4a27c120ac9a)

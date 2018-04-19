@@ -24,4 +24,4 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # Variable Argument Lists
-This content has moved to [Functions with Variable Argument Lists](../Topic/Functions%20with%20Variable%20Argument%20Lists%20%20\(C++\).md)
+This content has moved to [Functions with Variable Argument Lists](http://msdn.microsoft.com/library/27c2f83a-21dd-44c6-913c-2834cb944703)

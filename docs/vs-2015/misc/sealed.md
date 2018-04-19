@@ -25,7 +25,7 @@ manager: "douge"
 ---
 # __sealed
 > [!NOTE]
->  This topic applies only to version 1 of Managed Extensions for C++. This syntax should only be used to maintain version 1 code. See [sealed](../Topic/sealed%20%20\(C++%20Component%20Extensions\).md) for information on using the equivalent functionality in the new syntax.  
+>  This topic applies only to version 1 of Managed Extensions for C++. This syntax should only be used to maintain version 1 code. See [sealed](http://msdn.microsoft.com/library/3d0d688a-41aa-45f5-a25a-65c44206521e) for information on using the equivalent functionality in the new syntax.  
   
  Prevents a method from being overridden or a class from being a base class.  
   
@@ -50,7 +50,7 @@ __sealed function-declarator
   
 -   A `__sealed` method cannot be pure.  
   
--   The **__sealed** keyword is not allowed when used with the [__interface](../Topic/__interface.md) keyword.  
+-   The **__sealed** keyword is not allowed when used with the [__interface](http://msdn.microsoft.com/library/ca5d400b-d6d8-4ba2-89af-73f67e5ec056) keyword.  
   
  When a class (or struct) is marked with `__sealed`, the class cannot be used as a base class. For example:  
   

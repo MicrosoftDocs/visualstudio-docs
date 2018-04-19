@@ -83,9 +83,9 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
 -   If the lifetime of the DOM element or object is different from the associated event listener, you might have to call the `removeEventListener` method. For example, if you use the `window.onresize` event, you might have to remove the event listener if you navigate away from the page where you handle the event.  
   
--   If `removeEventListener` fails to remove the specified listener, it might be getting called on a different instance of the object. You can use the [bind Method (Function)](../Topic/bind%20Method%20\(Function\)%20\(JavaScript\).md) method to resolve this issue when you add the listener.  
+-   If `removeEventListener` fails to remove the specified listener, it might be getting called on a different instance of the object. You can use the [bind Method (Function)](~/E:/Repos/visualstudio-docs-pr/scripting-docs/javascript/reference/bind-method-function-javascript.md) method to resolve this issue when you add the listener.  
   
--   To remove an event listener that was added by using either [bind Method (Function)](../Topic/bind%20Method%20\(Function\)%20\(JavaScript\).md) or by using an anonymous function, store an instance of the function when you add the listener. Here's one way to safely use this pattern:  
+-   To remove an event listener that was added by using either [bind Method (Function)](~/E:/Repos/visualstudio-docs-pr/scripting-docs/javascript/reference/bind-method-function-javascript.md) or by using an anonymous function, store an instance of the function when you add the listener. Here's one way to safely use this pattern:  
   
     ```javascript  
     // You could use the following code within the constructor function of an object, or  

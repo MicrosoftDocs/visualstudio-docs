@@ -57,7 +57,7 @@ N-tier data applications* are data-centric applications that are separated into 
  [Walkthrough: Creating an N-Tier Data Application](../data-tools/walkthrough-creating-an-n-tier-data-application.md)  
  Provides step-by-step instructions for creating a typed dataset and separating the TableAdapter and dataset code into multiple projects.  
   
- [Walkthrough: Adding Validation to an N-Tier Data Application](../Topic/Walkthrough:%20Adding%20Validation%20to%20an%20N-Tier%20Data%20Application.md)  
+ [Walkthrough: Adding Validation to an N-Tier Data Application](http://msdn.microsoft.com/library/b35d072c-31f0-49ba-a225-69177592c265)  
  Provides step-by-step instructions for adding validation to the application that was created in the n-tier data application walkthrough.  
   
 ## Reference  
@@ -76,5 +76,5 @@ N-tier data applications* are data-centric applications that are separated into 
   
  [TableAdapter Overview](../data-tools/tableadapter-overview.md)  
   
- [N-Tier and Remote Applications with LINQ to SQL](../Topic/N-Tier%20and%20Remote%20Applications%20with%20LINQ%20to%20SQL.md)
+ [N-Tier and Remote Applications with LINQ to SQL](http://msdn.microsoft.com/library/854a1cdd-53cb-45f5-83ca-63962a9b3598)
 

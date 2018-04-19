@@ -40,5 +40,5 @@ manager: "erikre"
 8.  The project template creates a service definition as XAML. The [!INCLUDE[wfd1](../includes/wfd1-md.md)] opens to the design view with a <xref:System.Activities.Statements.Sequence> activity that contains a set of <xref:System.ServiceModel.Activities.Receive> and <xref:System.ServiceModel.Activities.SendReply> activities.  
   
 ## See Also  
- [How to: Create an Activity](../Topic/How%20to:%20Create%20an%20Activity.md)   
+ [How to: Create an Activity](http://msdn.microsoft.com/library/c09b1e99-21b5-4d96-9c04-ec31db3f4436)   
  [Creating a Workflow Project](../workflow-designer/creating-a-workflow-project.md)

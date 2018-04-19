@@ -192,9 +192,9 @@ By completing this walkthrough, you’ll  become more familiar with several opti
   
      The build information includes the time that the build started (located at the beginning), the order in which files were processed, and the amount of time that the process took to complete (located at the end). This information also includes the actual compiler syntax that Visual Studio runs during the build.  
   
-     For example, in the Visual C# build, the [/nowarn](../Topic/-nowarn.md) option lists the warning code, 1762, that you specified earlier in this topic, along with three other warnings.  
+     For example, in the Visual C# build, the [/nowarn](http://msdn.microsoft.com/library/7ebf2106-0652-4fdc-bf60-70fc86465d83) option lists the warning code, 1762, that you specified earlier in this topic, along with three other warnings.  
   
-     In the Visual Basic build, [/nowarn](../Topic/-nowarn.md) doesn’t include specific warnings to exclude, so no warnings appear.  
+     In the Visual Basic build, [/nowarn](http://msdn.microsoft.com/library/7ebf2106-0652-4fdc-bf60-70fc86465d83) doesn’t include specific warnings to exclude, so no warnings appear.  
   
     > [!TIP]
     >  You can search the contents of the **Output** window if you display the **Find** dialog box by choosing the Ctrl+F keys.  
@@ -257,7 +257,7 @@ By completing this walkthrough, you’ll  become more familiar with several opti
  Congratulations: you’ve successfully completed this walkthrough.  
   
 ## See Also  
- [Walkthrough: Building a Project (C++)](../Topic/Walkthrough:%20Building%20a%20Project%20\(C++\).md)   
+ [Walkthrough: Building a Project (C++)](http://msdn.microsoft.com/library/d459bc03-88ef-48d0-9f9a-82d17f0b6a4d)   
  [ASP.NET Web Application Project Precompilation Overview](http://msdn.microsoft.com/en-us/b940abbd-178d-4570-b441-52914fa7b887)   
  [Walkthrough: Using MSBuild](../msbuild/walkthrough-using-msbuild.md)
 

@@ -26,4 +26,4 @@ manager: "douge"
 ### Output  
   
 ## See Also  
- [delegate  (C++ Component Extensions)](../Topic/delegate%20%20\(C++%20Component%20Extensions\).md)
+ [delegate  (C++ Component Extensions)](http://msdn.microsoft.com/library/03caf23d-7873-4a23-9b34-becf42aaf429)

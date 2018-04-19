@@ -21,4 +21,4 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # Defining namespace Members
-This content has moved to [Namespaces](../Topic/Namespaces%20\(C++\).md).
+This content has moved to [Namespaces](http://msdn.microsoft.com/library/d1a5a9ab-1cad-47e6-a82d-385bb77f4188).

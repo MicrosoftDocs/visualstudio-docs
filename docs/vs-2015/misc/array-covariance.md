@@ -73,4 +73,4 @@ int main() {
 ```  
   
 ## See Also  
- [Arrays](../Topic/Arrays%20\(C++%20Component%20Extensions\).md)
+ [Arrays](http://msdn.microsoft.com/library/49445812-d775-4db1-a231-869598dbb955)

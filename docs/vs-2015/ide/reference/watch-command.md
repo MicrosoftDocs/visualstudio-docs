@@ -49,8 +49,8 @@ Debug.Watch[index]
   
 ## See Also  
  [Autos and Locals Windows](../../debugger/autos-and-locals-windows.md)   
- [How to: Edit a Value in a Variable Window](../Topic/How%20to:%20Edit%20a%20Value%20in%20a%20Variable%20Window.md)   
- [How to: Use the QuickWatch Dialog Box](../Topic/How%20to:%20Use%20the%20QuickWatch%20Dialog%20Box.md)   
+ [How to: Edit a Value in a Variable Window](http://msdn.microsoft.com/library/36f464ab-c900-4c0b-9ab3-557b3d9cdab5)   
+ [How to: Use the QuickWatch Dialog Box](http://msdn.microsoft.com/library/ffaee1dd-e5ce-4ef2-9401-d28329398867)   
  [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)   
  [Command Window](../../ide/reference/command-window.md)   
  [Find/Command Box](../../ide/find-command-box.md)   

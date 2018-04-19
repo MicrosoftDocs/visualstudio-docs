@@ -28,4 +28,4 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # Compiler-Generated Copying
-Moved content to [Copy Constructors and Copy Assignment Operators](../Topic/Copy%20Constructors%20and%20Copy%20Assignment%20Operators%20\(C++\).md)
+Moved content to [Copy Constructors and Copy Assignment Operators](http://msdn.microsoft.com/library/a94fe1f9-0289-4fb9-8633-77c654002c0d)

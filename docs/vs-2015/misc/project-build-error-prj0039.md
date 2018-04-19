@@ -24,7 +24,7 @@ manager: "douge"
 # Project Build Error PRJ0039
 Unable to create a temporary file. The ability to do this is required in order for the NMake tool to be able to run.  
   
- When building a makefile project (see [Creating a Makefile Project](../Topic/Creating%20a%20Makefile%20Project.md)), the Visual C++ project system needs to create some temporary files. This error indicates that the project system was unable to create one or more of those files.  
+ When building a makefile project (see [Creating a Makefile Project](http://msdn.microsoft.com/library/dd077af3-97a8-48fb-baaa-cf7e07ddef61)), the Visual C++ project system needs to create some temporary files. This error indicates that the project system was unable to create one or more of those files.  
   
  The TMP environment variable contains the name of the temp directory.  
   

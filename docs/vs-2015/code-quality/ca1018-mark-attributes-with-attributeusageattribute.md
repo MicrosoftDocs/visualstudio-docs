@@ -57,7 +57,7 @@ TypeName|MarkAttributesWithAttributeUsage|
  [CA1813: Avoid unsealed attributes](../code-quality/ca1813-avoid-unsealed-attributes.md)  
   
 ## See Also  
- [Attributes](../Topic/Attributes1.md)
+ [Attributes](http://msdn.microsoft.com/library/ee0038ef-b247-4747-a650-3c5c5cd58d8b)
 
 
 

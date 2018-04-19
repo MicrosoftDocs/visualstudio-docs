@@ -22,6 +22,6 @@ manager: "douge"
 # ^ operator (C++)
 The `^` operator has two meanings in Visual C++, depending on its context. For more information see:  
   
--   [Bitwise Exclusive OR Operator: ^](../Topic/Bitwise%20Exclusive%20OR%20Operator:%20%5E.md), for use in all flavors of C++.  
+-   [Bitwise Exclusive OR Operator: ^](http://msdn.microsoft.com/library/f9185d85-65d5-4f64-a6d6-679758d52217), for use in all flavors of C++.  
   
--   [Handle to Object Operator (^)](../Topic/Handle%20to%20Object%20Operator%20\(%5E\)%20%20\(C++%20Component%20Extensions\).md), for use in [!INCLUDE[cppwrt_short](../includes/cppwrt-short-md.md)] and [!INCLUDE[cppcli](../includes/cppcli-md.md)]
+-   [Handle to Object Operator (^)](http://msdn.microsoft.com/library/70c411e6-be57-4468-a944-6ea7be89f392), for use in [!INCLUDE[cppwrt_short](../includes/cppwrt-short-md.md)] and [!INCLUDE[cppcli](../includes/cppcli-md.md)]

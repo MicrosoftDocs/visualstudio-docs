@@ -25,7 +25,7 @@ manager: "douge"
 ---
 # __abstract
 > [!NOTE]
->  This topic applies only to version 1 of Managed Extensions for C++. This syntax should only be used to maintain version 1 code. See [abstract](../Topic/abstract%20%20\(C++%20Component%20Extensions\).md) for information on using the equivalent functionality in the new syntax.  
+>  This topic applies only to version 1 of Managed Extensions for C++. This syntax should only be used to maintain version 1 code. See [abstract](http://msdn.microsoft.com/library/cbae3408-0378-4ac8-b70d-c016b381a6d5) for information on using the equivalent functionality in the new syntax.  
   
  Declares a managed class that cannot be instantiated directly.  
   
@@ -41,7 +41,7 @@ __abstract struct-specifier
 ## Remarks  
  The `__abstract` keyword declares that the target class can only be used as a base class of another class. Applying `__abstract` to a class or structure does not imply that the result is a __gc class or \__gc structure.  
   
- Differing from the C++ notion of an [abstract](../Topic/Abstract%20Classes%20\(C++\).md) base class, a class with the `__abstract` keyword can define its member functions.  
+ Differing from the C++ notion of an [abstract](http://msdn.microsoft.com/library/f0c5975b-39de-4d68-9640-6ce57f4632e6) base class, a class with the `__abstract` keyword can define its member functions.  
   
 > [!NOTE]
 >  The `__abstract` keyword is not allowed when used with the `__value` or `__sealed` keyword and redundant when used with the `__interface` keyword.  

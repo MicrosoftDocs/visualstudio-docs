@@ -22,4 +22,4 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # Access to Virtual Functions
-This content has moved to [Member Access Control (C++)](../Topic/Member%20Access%20Control%20\(C++\).md)
+This content has moved to [Member Access Control (C++)](http://msdn.microsoft.com/library/2d596bca-56ad-4277-94e1-ce3db45fa14a)

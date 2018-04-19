@@ -20,7 +20,7 @@ ms.author: "mithom"
 manager: "douge"
 ---
 # How to: Use Tracking References and Value Types
-Content moved to [How to: Use Tracking References in C++/CLI](../Topic/How%20to:%20Use%20Tracking%20References%20in%20C++-CLI.md).  
+Content moved to [How to: Use Tracking References in C++/CLI](http://msdn.microsoft.com/library/d91e471c-34ff-4786-9e0d-c6db0494b946).  
   
 ## See Also  
- [Tracking Reference Operator](../Topic/Tracking%20Reference%20Operator%20\(C++%20Component%20Extensions\).md)
+ [Tracking Reference Operator](http://msdn.microsoft.com/library/142a7269-ab69-4b54-a6d7-833bef06228f)

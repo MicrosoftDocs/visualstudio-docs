@@ -29,4 +29,4 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # Name Ambiguities
-This content has moved to [Multiple Base Classes](../Topic/Multiple%20Base%20Classes.md)
+This content has moved to [Multiple Base Classes](http://msdn.microsoft.com/library/a30c69fe-401c-4a87-96a0-e0da70c7c740)

@@ -29,4 +29,4 @@ MSB8031
 1.  [Download the MBCS MFC DLL Add-on](http://go.microsoft.com/fwlink/?LinkId=299009) from the MSDN Download Center, or if it is practical to do so, convert your project to the UNICODE character set.  
   
 ## See Also  
- [MFC MBCS DLL Add-on](../Topic/MFC%20MBCS%20DLL%20Add-on.md)
+ [MFC MBCS DLL Add-on](http://msdn.microsoft.com/library/bebec0ff-e019-42ca-b5df-8c218ac5b54a)

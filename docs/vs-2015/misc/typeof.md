@@ -23,7 +23,7 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # __typeof
-**Note** This topic applies only to version 1 of Managed Extensions for C++. This syntax should only be used to maintain version 1 code. See [typeid](../Topic/typeid%20%20\(C++%20Component%20Extensions\).md) for information on using the equivalent functionality in the new syntax.  
+**Note** This topic applies only to version 1 of Managed Extensions for C++. This syntax should only be used to maintain version 1 code. See [typeid](http://msdn.microsoft.com/library/e9706cae-e7c4-4d6d-b474-646d73df3e70) for information on using the equivalent functionality in the new syntax.  
   
  Returns the **System::Type** of a specified type.  
   
@@ -41,7 +41,7 @@ typename
  The name of a managed type for which you want the **System::Type** name. Note that in a managed program, some native types are aliased to types in the common language runtime. For example, `int` is an alias for **System::Int32**.  
   
 ## Remarks  
- The **__typeof** operator lets you get the **System::Type** type of a type that you specify. **__typeof** can also be used to return a value of **System::Type** in a custom attribute block. See [attribute](../Topic/attribute.md) for more information about creating your own attributes.  
+ The **__typeof** operator lets you get the **System::Type** type of a type that you specify. **__typeof** can also be used to return a value of **System::Type** in a custom attribute block. See [attribute](http://msdn.microsoft.com/library/8cb3489f-65c4-44ea-b0aa-3c3c6b15741d) for more information about creating your own attributes.  
   
 ## Example  
  In the following example, a custom attribute (`AtClass`) is applied to a __gc class (`B`). The value of the custom attribute is then retrieved with **\__typeof**:  

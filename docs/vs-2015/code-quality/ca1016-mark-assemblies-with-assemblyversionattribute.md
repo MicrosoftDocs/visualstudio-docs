@@ -61,8 +61,8 @@ TypeName|MarkAssembliesWithAssemblyVersion|
  [!code-vb[FxCop.Design.AssembliesVersion#1](../snippets/visualbasic/VS_Snippets_CodeAnalysis/FxCop.Design.AssembliesVersion/vb/FxCop.Design.AssembliesVersion.vb#1)]  
   
 ## See Also  
- [Assembly Versioning](../Topic/Assembly%20Versioning.md)   
- [How to: Create a Publisher Policy](../Topic/How%20to:%20Create%20a%20Publisher%20Policy.md)
+ [Assembly Versioning](http://msdn.microsoft.com/library/775ad4fb-914f-453c-98ef-ce1089b6f903)   
+ [How to: Create a Publisher Policy](http://msdn.microsoft.com/library/8046bc5d-2fa9-4277-8a5e-6dcc96c281d9)
 
 
 

@@ -39,7 +39,7 @@ System.Diagnostics.DebuggerHiddenAttribute does not affect 'Get' or 'Set' when a
   
 ## See Also  
  <xref:System.Diagnostics.DebuggerHiddenAttribute>   
- [Property Procedures](../Topic/Property%20Procedures%20\(Visual%20Basic\).md)   
- [Property Statement](../Topic/Property%20Statement.md)   
- [Get Statement](../Topic/Get%20Statement.md)   
- [Set Statement](../Topic/Set%20Statement%20\(Visual%20Basic\).md)
+ [Property Procedures](http://msdn.microsoft.com/library/46a98379-e1a2-45dd-a48c-b51213f5ab07)   
+ [Property Statement](http://msdn.microsoft.com/library/3155edaf-8ebd-45c6-9cef-11d5d2dc8d38)   
+ [Get Statement](http://msdn.microsoft.com/library/56b05cdc-bd64-4dfd-bb12-824eacec6f94)   
+ [Set Statement](http://msdn.microsoft.com/library/9ecc27b4-df84-420d-9075-db25455fb3cd)

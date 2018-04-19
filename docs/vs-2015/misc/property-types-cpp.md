@@ -20,4 +20,4 @@ ms.author: "mblome"
 manager: "douge"
 ---
 # Property Types (C++)
-This content has been moved to [Working with Project Properties](../Topic/Working%20with%20Project%20Properties.md).
+This content has been moved to [Working with Project Properties](http://msdn.microsoft.com/library/9b0d6f8b-7d4e-4e61-aa75-7d14944816cd).
