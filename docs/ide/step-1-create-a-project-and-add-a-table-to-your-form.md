@@ -1,5 +1,5 @@
 ---
-title: "Step 1: Create a Project and Add a Table to Your Form | Microsoft Docs"
+title: "Step 1: Create a project and add a table to your form | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
@@ -12,12 +12,12 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Step 1: Create a Project and Add a Table to Your Form
+# Step 1: Create a project and add a table to your form
 The first step in creating a matching game is to create the project and add a table to your form. The table helps align the icons into an orderly 4x4 grid. You also set several properties to enhance the appearance of the game board.  
   
 ### To create a project and add a table to your form  
   
-1.  On the menu bar, choose **File**, **New**, **Project**.  
+1.  On the menu bar, choose **File** > **New** > **Project**.  
   
 2.  If you're not using Visual Studio Express, you need to select a programming language first. From the **Installed Templates** list, choose either **Visual C#** or **Visual Basic**.  
   
@@ -36,7 +36,7 @@ The first step in creating a matching game is to create the project and add a ta
     1.  Set the **BackColor** property to **CornflowerBlue**. To do this, open the **BackColor** dialog box by choosing the drop-down arrow next to the **BackColor** property in the **Properties** window.  Then, choose the **Web** tab in the **BackColor** dialog box to view a list of available color names.  
   
         > [!NOTE]
-        >  The colors are not in alphabetical order, and CornflowerBlue is near the bottom of the list.  
+        >  The colors are not in alphabetical order, and **CornflowerBlue** is near the bottom of the list.  
   
     2.  Set the **Dock** property to **Fill** by choosing the drop-down button next to the property and choosing the large middle button. This spreads the table out so that it covers the entire form.  
   
@@ -62,7 +62,7 @@ The first step in creating a matching game is to create the project and add a ta
   
     4.  Set the **TextAlign** property to **MiddleCenter** by choosing the drop-down button next to the property, and then choosing the middle button. This ensures the icon appears in the middle of the cell.  
   
-    5.  Choose the **Font** property. An ellipsis (...) button should appear.  
+    5.  Choose the **Font** property. An ellipsis (**...**) button should appear.  
   
     6.  Choose the ellipsis button, and set the **Font** value to **Webdings**, the **Font Style** to **Bold**, and the **Size** to **72**.  
   
@@ -73,10 +73,10 @@ The first step in creating a matching game is to create the project and add a ta
         > [!NOTE]
         >  The Webdings font is a font of icons that ships with the Windows operating system. In your matching game, the player needs to match pairs of icons, so you use this font to display the icons to match. Instead of putting **c** in the **Text** property, try entering different letters to see what icons are displayed. An exclamation point is a spider, an uppercase N is an eye, and a comma is a chili pepper.  
   
-8.  Choose your label control and copy it to the next cell in the TableLayoutPanel. (Choose the Ctrl+C keys, or on the menu bar, choose **Edit**, **Copy**.) Then paste it. (Choose the Ctrl+V keys, or on the menu bar, choose **Edit**, **Paste**.) A copy of the first label appears in the second cell of the TableLayoutPanel. Paste it again, and another label appears in the third cell. Keep pasting `Label` controls until all of the cells are filled.  
+8.  Choose your label control and copy it to the next cell in the TableLayoutPanel. (Choose the **Ctrl**+**C** keys, or on the menu bar, choose **Edit** > **Copy**.) Then paste it. (Choose the **Ctrl**+**V** keys, or on the menu bar, choose **Edit** > **Paste**.) A copy of the first label appears in the second cell of the TableLayoutPanel. Paste it again, and another label appears in the third cell. Keep pasting `Label` controls until all of the cells are filled.  
   
     > [!NOTE]
-    >  If you paste too many times, the IDE adds a new row to the TableLayoutPanel so that it has a place to add your new label control. You can undo it. To remove the new cell, choose the Ctrl+Z keys, or on the menu bar, choose **Edit**, **Undo**.  
+    >  If you paste too many times, the IDE adds a new row to the TableLayoutPanel so that it has a place to add your new label control. You can undo it. To remove the new cell, choose the **Ctrl**+**Z** keys, or on the menu bar, choose **Edit** > **Undo**.  
   
      Now your form is laid out. It should look like the following picture.  
   
@@ -85,6 +85,6 @@ Initial matching game form
   
 ### To continue or review  
   
--   To go to the next tutorial step, see [Step 2: Add a Random Object and a List of Icons](../ide/step-2-add-a-random-object-and-a-list-of-icons.md).  
+-   To go to the next tutorial step, see [Step 2: Add a random object and a list of icons](../ide/step-2-add-a-random-object-and-a-list-of-icons.md).  
   
--   To return to the overview topic, see [Tutorial 3: Create a Matching Game](../ide/tutorial-3-create-a-matching-game.md).
+-   To return to the overview topic, see [Tutorial 3: Create a matching game](../ide/tutorial-3-create-a-matching-game.md).
