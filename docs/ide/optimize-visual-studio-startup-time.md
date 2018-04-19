@@ -18,7 +18,7 @@ ms.workload:
 ---
 # Optimize Visual Studio startup time
 
-Visual Studio is designed to start up as quickly and efficiently as possible. However, certain Visual Studio extensions and tool windows can adversely affect startup time when they are loaded. You can control the behavior of slow extensions and tool windows in the the  **Manage Visual Studio Performance** dialog box. For more general tips on improving performance, see [Visual Studio performance tips and tricks](../ide/visual-studio-performance-tips-and-tricks.md).
+Visual Studio is designed to start up as quickly and efficiently as possible. However, certain Visual Studio extensions and tool windows can adversely affect startup time when they are loaded. You can control the behavior of slow extensions and tool windows in the the **Manage Visual Studio Performance** dialog box. For more general tips on improving performance, see [Visual Studio performance tips and tricks](../ide/visual-studio-performance-tips-and-tricks.md).
 
 ## Startup behavior
 
@@ -40,7 +40,7 @@ The dialog box lists the extensions and tools windows that are affecting startup
 
 2. Choose the extension you want to disable, then choose the **Disable** button.
 
-You can always re-enable the extension for future sessions by using the Extension Manager or the Manage Visual Studio Performance dialog box.
+You can always re-enable the extension for future sessions by using the **Extension Manager** or the **Manage Visual Studio Performance** dialog box.
 
 ## <a name="tool-windows" />To change tool window settings to improve startup time
 

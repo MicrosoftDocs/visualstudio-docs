@@ -16,7 +16,7 @@ ms.workload:
   - "multiple"
 ---
 # Logical and advanced operators in search expressions
-You can use logical operators and advanced search operators to refine your search of the Help content in Help Viewer.
+You can use logical operators and advanced search operators to refine your search of the Help content in **Help Viewer**.
 
 ## Logical operators
 Logical operators specify how multiple search terms should be combined in a search query. The following table shows the logical operators AND, OR, NOT and NEAR.
@@ -36,29 +36,29 @@ Advanced search operators refine your search for content by specifying where in 
 
 |To search for|Use|Example|Result|  
 |-------------------|---------|-------------|------------|  
-|A term in the title of the article|title:|title:binaryreader|Topics that contain "binaryreader" in their titles.|  
-|A term in a code example|code:|code:readdouble|Topics that contain "readdouble" in a code example.|  
-|A term in an example of a specific programming language|code:vb:|code:vb:string|Topics that contain "string" in a Visual Basic code example.|  
-|An article that is associated with a specific index keyword|keyword:|keyword:readbyte|Topics that are associated with the "readbyte" index keyword.|  
+|A term in the title of the article|`title:`|`title:binaryreader`|Topics that contain "binaryreader" in their titles.|  
+|A term in a code example|`code:`|`code:readdouble`|Topics that contain "readdouble" in a code example.|  
+|A term in an example of a specific programming language|`code:vb:`|`code:vb:string`|Topics that contain "string" in a Visual Basic code example.|  
+|An article that is associated with a specific index keyword|`keyword:`|`keyword:readbyte`|Topics that are associated with the "readbyte" index keyword.|  
 
 > [!IMPORTANT]
 > You must enter advanced search operators with a final colon and no intervening space before the colon for the search engine to recognize them.    
 
 ### Programming languages for code examples
-You can use the **code:** operator to find content about any of several programming languages. To return examples for a specific programming language, use one of the following programming language values:  
+You can use the `code:` operator to find content about any of several programming languages. To return examples for a specific programming language, use one of the following programming language values:  
 
 |Programming Language|Search operator syntax|  
 |--------------------|---------|  
-|Visual Basic|code:vb<br/>code:visualbasic|  
-|C#|code:c#<br/>code:csharp|  
-|C++|code:cpp<br/>code:c++<br/>code:cplusplus|  
-|F#|code:f#<br/>code:fsharp|  
-|JavaScript|code:javascript<br/>code:js|  
-|XAML|code:xaml|
+|Visual Basic|`code:vb`<br/>`code:visualbasic`|  
+|C#|`code:c#`<br/>`code:csharp`|  
+|C++|`code:cpp`<br/>`code:c++`<br/>`code:cplusplus`|  
+|F#|`code:f#`<br/>`code:fsharp`|  
+|JavaScript|`code:javascript`<br/>`code:js`|  
+|XAML|`code:xaml`|
 
 > [!NOTE]
-> The **code:** operator only finds content that is marked up with a programming language label, as opposed to content that is generically marked up as code. 
+> The `code:` operator only finds content that is marked up with a programming language label, as opposed to content that is generically marked up as code. 
   
-## See 
-[How to: search for topics](how-to-search-for-topics.md)  
+## See also
+[How to: Search for topics](how-to-search-for-topics.md)  
 [Microsoft Help Viewer](microsoft-help-viewer.md)
