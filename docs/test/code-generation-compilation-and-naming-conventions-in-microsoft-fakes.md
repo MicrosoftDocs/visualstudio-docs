@@ -16,6 +16,7 @@ This article discusses options and issues in Fakes code generation and compilati
 **Requirements**
 
 -   Visual Studio Enterprise
+-   Only for .NET Framework projects. Currently, there is not support for .NET Framework projects that target .NET Standard. 
 
 ## Code generation and compilation
 
