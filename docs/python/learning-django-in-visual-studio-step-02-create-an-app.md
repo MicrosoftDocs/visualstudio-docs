@@ -51,7 +51,7 @@ Using either method, create an app with the name "HelloDjangoApp". The result is
 | `apps.py` | A Python file that defines a configuration class for the app (see below, after this table). |
 | `models.py` | Models are data objects, identified by functions, through which views interact with the app's underlying database (see step 6). Django provides the database connection layer so that apps don't need to concern themselves with those details. The `models.py` file is a default place in which to create your models, and initially contains only the statement, `from django.db import models`. |
 | `tests.py` | A Python file that contains the basic structure of unit tests. |
-| `views.py` | Views are what you typically think of as web pages, including those that aren't necessary seen by users of the app (such as intermediate forms). Views typically render as HTML that web browsers know how to display. A view is defined by a Python function whose responsibility is to render the HTML to send to the browser. The `views.py` file is a default place in which to create views, and initially contains only the statement, `from django.shortcuts import render`. |
+| `views.py` | Views are what you typically think of as web pages, which take an HTTP request and return an HTTP response. Views typically render as HTML that web browsers know how to display, but a view doesn't necessarily have to be visible (like a intermediate form). A view is defined by a Python function whose responsibility is to render the HTML to send to the browser. The `views.py` file is a default place in which to create views, and initially contains only the statement, `from django.shortcuts import render`. |
 
 The contents of `app.py` appears as follows when using the name "HelloDjangoApp":
 
@@ -269,5 +269,7 @@ Answer: If you see errors that the template cannot be found, make sure you added
 
 ## Going deeper
 
-- For more capabilities of Django templates, such as includes and inheritance, see [The Django template language](https://docs.djangoproject.com/en/2.0/ref/templates/language/) in the Django documentation.
-- [Regular expression training on inLearning (LinkedIn)](https://www.linkedin.com/learning/topics/regular-expressions)
+- [Writing your first Django app, part 1 - views](https://docs.djangoproject.com/en/2.0/intro/tutorial01/#write-your-first-view) (docs.djangoproject.com)
+- For more capabilities of Django templates, such as includes and inheritance, see [The Django template language](https://docs.djangoproject.com/en/2.0/ref/templates/language/) (docs.djangoproject.com)
+- [Regular expression training on inLearning](https://www.linkedin.com/learning/topics/regular-expressions) (LinkedIn)
+- Tutorial source code on GitHub: [Microsoft/python-sample-vs-learning-django](https://github.com/Microsoft/python-sample-vs-learning-django)
