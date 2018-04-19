@@ -115,6 +115,7 @@ using System;
 using System.Runtime.InteropServices;  
   
 namespace MyNamespace  
+{
     class MyClass  
     {  
         string EncodeData(string documentString,  
@@ -141,7 +142,7 @@ namespace MyNamespace
             }  
             // Copy guid data bytes to string as wide characters.  
             // Assumption: sizeof(char) == 2.  
-            for (int i = 0; i < guidDataLength; i++)  
+            for (int i = 0; i < guidDataLength / sizeof(char); i++)  
             {  
                 returnString += (char)Marshal.ReadInt16(pBuffer, i * sizeof(char));  
             }  
@@ -197,7 +198,7 @@ namespace MyNamespace
                for (int i = 0; i < guidDataLength; i++)  
                {  
                    Marshal.WriteByte(pGuidBuffer, i,  
-                                     Marshal.ReadByte(pBuffer, bufferOffset + i);  
+                                     Marshal.ReadByte(pBuffer, bufferOffset + i));  
                }  
                bufferOffset += guidDataLength;  
                checksumGuid = (Guid)Marshal.PtrToStructure(pGuidBuffer, typeof(Guid));  
