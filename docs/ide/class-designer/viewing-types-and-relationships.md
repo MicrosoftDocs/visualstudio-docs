@@ -1,22 +1,20 @@
 ---
-title: "Viewing Types and Relationships (Class Designer) | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-general"
-ms.topic: "conceptual"
-f1_keywords: 
+title: Viewing Types and Relationships (Class Designer)
+ms.date: 11/04/2016
+ms.technology: vs-ide-general
+ms.topic: conceptual
+f1_keywords:
   - "vs.classdesigner.CannotShowBaseType"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "class diagrams"
   - "types [Visual Studio], visualizing"
   - "relationships, class diagrams"
   - "types [Visual Studio], class diagrams"
   - "relationships, visualizing"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Viewing Types and Relationships (Class Designer)
@@ -28,7 +26,7 @@ Class Designer uses class diagrams to show you the details of types, for example
 
 ## See also
 
-[Designing Classes and Types](designing-classes-and-types.md)  
-[Refactoring Classes and Types](refactoring-classes-and-types.md)  
-[How to: Customize Class Diagrams](how-to-customize-class-diagrams.md)  
-[Working with Class Diagrams](working-with-class-diagrams.md)
+- [Designing Classes and Types](designing-classes-and-types.md)
+- [Refactoring Classes and Types](refactoring-classes-and-types.md)
+- [How to: Customize Class Diagrams](how-to-customize-class-diagrams.md)
+- [Working with Class Diagrams](working-with-class-diagrams.md)
