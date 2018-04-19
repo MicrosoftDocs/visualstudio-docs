@@ -115,7 +115,7 @@ Answer: The 'r' prefix on a string in Python means "raw," which instructs Python
 
 ### Question: what do the ^ and $ characters mean in the URL routing entries?
 
-Answer: In the regular expressions that define URL patterns, ^ means "start of line" and $ means "end of line," where again the URLs are relative to the site root (the part that follows "https://www.domain.com/"). The regular expression `^$` effectively means "blank" and therefore matches the full URL "https://www.domain.com/" (nothing added to the site root). The pattern `^home$` matches exactly "https://www.domain.com/home/". (Django doesn't use the trailing / in pattern matching.)
+Answer: In the regular expressions that define URL patterns, ^ means "start of line" and $ means "end of line," where again the URLs are relative to the site root (the part that follows `https://www.domain.com/`). The regular expression `^$` effectively means "blank" and therefore matches the full URL `https://www.domain.com/` (nothing added to the site root). The pattern `^home$` matches exactly `https://www.domain.com/home/`. (Django doesn't use the trailing / in pattern matching.)
 
 If you don't use a trailing $ in a regular expression, as with `^home`, then URL pattern matches *any* URL that begins with "home" such as "home", "homework", "homestead", and "home192837".
 

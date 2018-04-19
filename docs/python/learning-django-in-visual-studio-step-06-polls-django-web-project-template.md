@@ -272,7 +272,7 @@ All that's done here is to identify the model that the view works with (Poll), a
 
 The core of the template (`templates/app/index.html`) is as follows:
 
-``html
+```html
 {% if latest_poll_list %}
 <table class="table table-hover">
     <tbody>
