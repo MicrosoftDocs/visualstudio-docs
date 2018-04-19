@@ -1,18 +1,16 @@
 ---
-title: "Manage application settings (.NET) | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-general"
-ms.topic: "conceptual"
-f1_keywords: 
+title: Manage application settings (.NET)
+ms.date: 11/04/2016
+ms.technology: vs-ide-general
+ms.topic: conceptual
+f1_keywords:
   - "msvse_settingsdesigner.err.nameblank"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "application settings [Visual Studio]"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Manage application settings (.NET)
@@ -99,4 +97,4 @@ For general information about accessing application settings through the `Settin
 
 ## See also
 
-[Access application settings (.NET Framework)](/dotnet/visual-basic/developing-apps/programming/app-settings/accessing-application-settings)
+- [Access application settings (.NET Framework)](/dotnet/visual-basic/developing-apps/programming/app-settings/accessing-application-settings)

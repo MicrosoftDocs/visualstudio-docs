@@ -1,11 +1,9 @@
 ---
-title: "JavaScript IntelliSense | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/28/2017"
-ms.technology: 
-  - "vs-ide-general"
-ms.topic: "conceptual"
-helpviewer_keywords: 
+title: JavaScript IntelliSense
+ms.date: 06/28/2017
+ms.technology: vs-ide-general
+ms.topic: conceptual
+helpviewer_keywords:
   - "IntelliSense [JavaScript]"
   - "<reference> JavaScript XML tag"
   - "JavaScript Code Editor"
@@ -22,10 +20,10 @@ helpviewer_keywords:
   - "IntelliSense [JavaScript], about"
   - "IntelliSense extensibility [JavaScript]"
   - "XML documentation comments [JavaScript]"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # JavaScript IntelliSense
@@ -112,7 +110,7 @@ See [JSDoc support in JavaScript](https://github.com/Microsoft/TypeScript/wiki/J
 
 ### IntelliSense based on TypeScript declaration files
 
-Because JavaScript and TypeScript are now based on the same language service, they are able to interact in a richer way. For example, JavaScript IntelliSense can be provided for values declared in a *.d.ts* file (see [TypeScript documentation](https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html)), and types such as interfaces and classes declared in TypeScript are available for use as types in JsDoc comments. 
+Because JavaScript and TypeScript are now based on the same language service, they are able to interact in a richer way. For example, JavaScript IntelliSense can be provided for values declared in a *.d.ts* file (see [TypeScript documentation](https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html)), and types such as interfaces and classes declared in TypeScript are available for use as types in JsDoc comments.
 
 Below, we show a simple example of a TypeScript definition file providing such type information (via an interface) to a JavaScript file in the same project (using a `JsDoc` tag).
 
@@ -133,4 +131,4 @@ If you do not wish to use auto-acquisition, disable it by adding a configuration
 
 ## See also
 
-[Using IntelliSense](../ide/using-intellisense.md)
+- [Using IntelliSense](../ide/using-intellisense.md)

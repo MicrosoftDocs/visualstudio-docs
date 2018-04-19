@@ -1,13 +1,12 @@
 ---
-title: "Manage project and solution properties | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
+title: Manage project and solution properties
+ms.date: 11/04/2016
 ms.technology: vs-ide-general
-ms.topic: "conceptual"
-author: "gewarren"
-ms.author: "gewarren"
+ms.topic: conceptual
+author: gewarren
+ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Manage project and solution properties
@@ -49,4 +48,4 @@ To access properties on the solution, right click the solution node in **Solutio
 
 ## See also
 
-[Solutions and projects in Visual Studio](../ide/solutions-and-projects-in-visual-studio.md)
+- [Solutions and projects in Visual Studio](../ide/solutions-and-projects-in-visual-studio.md)

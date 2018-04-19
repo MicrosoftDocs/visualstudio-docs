@@ -1,12 +1,11 @@
 ---
-title: "Identify and customize keyboard shortcuts in Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
+title: Identify and customize keyboard shortcuts in Visual Studio
+ms.date: 11/04/2016
 ms.technology: vs-ide-general
-ms.topic: "conceptual"
-f1_keywords: 
+ms.topic: conceptual
+f1_keywords:
   - "VS.ToolsOptionsPages.Environment.Keyboard"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "keyboard shortcuts [Visual Studio], customizing"
   - "importing shortcut keys [Visual Studio]"
   - "shortcut key combinations [Visual Studio]"
@@ -14,10 +13,10 @@ helpviewer_keywords:
   - "custom shortcut keys [Visual Studio]"
   - "customizing keyboard shortcuts [Visual Studio]"
   - "exporting shortcut keys [Visual Studio]"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Identify and customize keyboard shortcuts in Visual Studio
@@ -128,4 +127,4 @@ You can share your custom keyboard shortcuts by exporting them to a file and the
 
 ## See also
 
-[Accessibility features of Visual Studio](../ide/reference/accessibility-features-of-visual-studio.md)
+- [Accessibility features of Visual Studio](../ide/reference/accessibility-features-of-visual-studio.md)
