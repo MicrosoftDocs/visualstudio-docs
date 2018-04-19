@@ -46,16 +46,29 @@ For more information about nullable types in C#, see [Nullable Types](/dotnet/cs
   
 5.  In the **Name** column of the **Class Details** window (or in the class shape itself), change the name of the new field to a valid and meaningful name.  
   
-6.  In the **Type** column of the **Class Details** window, declare the type as a nullable type, as shown in the following code:  
-    ```
-    <CodeContentPlaceHolder>0</CodeContentPlaceHolder>  
-    <CodeContentPlaceHolder>1</CodeContentPlaceHolder>
-    ```  
+6.  In the **Type** column of the **Class Details** window, declare the type as a nullable type by specifying the following:
+    - `int?` (C#) 
+    - `Nullable(Of Integer)` (Visual Basic)
+  
 ### To add a nullable type by using the Code Editor  
   
 1.  Add a class to the project. Select the project node in **Solution Explorer**, and, on the **Project** menu, click **Add Class**.  
   
-2.  In the .cs or .vb file for the new class, add one or more nullable types in the new class to the class declaration.  
+2.  In the .cs or .vb file for the new class, add one or more nullable types in the new class to the class declaration.
+    ```C#
+    // Declare a nullable type in Visual C#:
+    class Test
+    {
+       int? building_number = 5;
+    }
+    ```
+
+    ``` VB
+    ' Declare a nullable type in Visual Basic:
+    Class Test
+       Dim buildingNumber As Nullable(Of Integer) = 5
+    End Class
+    ```
   
 3.  From Class View, drag the new class icon to the Class Designer design surface. A class shape appears in the class diagram.  
   
