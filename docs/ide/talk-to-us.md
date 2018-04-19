@@ -47,5 +47,5 @@ If you want to share your questions and answers with other developers, you can u
 ## I want to help improve the Visual Studio documentation
 Please use the **Was this page helpful?** feedback button at the bottom of the page. You can find this button on all our documentation pages. Alternatively, you can add feedback to any Visual Studio page on [docs.microsoft.com](https://docs.microsoft.com/visualstudio/) by using the **Sign in to give documentation feedback** button, also at the bottom of the page.
 
-## See Also
+## See also
  [How to Report a Problem with Visual Studio](how-to-report-a-problem-with-visual-studio-2017.md)
