@@ -36,10 +36,10 @@ Advanced search operators refine your search for content by specifying where in 
 
 |To search for|Use|Example|Result|  
 |-------------------|---------|-------------|------------|  
-|A term in the title of the article|title:|title:binaryreader|Topics that contain "binaryreader" in their titles.|  
-|A term in a code example|code:|code:readdouble|Topics that contain "readdouble" in a code example.|  
-|A term in an example of a specific programming language|code:vb:|code:vb:string|Topics that contain "string" in a Visual Basic code example.|  
-|An article that is associated with a specific index keyword|keyword:|keyword:readbyte|Topics that are associated with the "readbyte" index keyword.|  
+|A term in the title of the article|`title:`|`title:binaryreader`|Topics that contain "binaryreader" in their titles.|  
+|A term in a code example|`code:`|`code:readdouble`|Topics that contain "readdouble" in a code example.|  
+|A term in an example of a specific programming language|`code:vb:`|`code:vb:string`|Topics that contain "string" in a Visual Basic code example.|  
+|An article that is associated with a specific index keyword|`keyword:`|`keyword:readbyte`|Topics that are associated with the "readbyte" index keyword.|  
 
 > [!IMPORTANT]
 > You must enter advanced search operators with a final colon and no intervening space before the colon for the search engine to recognize them.    
@@ -49,12 +49,12 @@ You can use the `code:` operator to find content about any of several programmin
 
 |Programming Language|Search operator syntax|  
 |--------------------|---------|  
-|Visual Basic|code:vb<br/>code:visualbasic|  
-|C#|code:c#<br/>code:csharp|  
-|C++|code:cpp<br/>code:c++<br/>code:cplusplus|  
-|F#|code:f#<br/>code:fsharp|  
-|JavaScript|code:javascript<br/>code:js|  
-|XAML|code:xaml|
+|Visual Basic|`code:vb`<br/>`code:visualbasic`|  
+|C#|`code:c#`<br/>`code:csharp`|  
+|C++|`code:cpp`<br/>`code:c++`<br/>`code:cplusplus`|  
+|F#|`code:f#`<br/>`code:fsharp`|  
+|JavaScript|`code:javascript`<br/>`code:js`|  
+|XAML|`code:xaml`|
 
 > [!NOTE]
 > The `code:` operator only finds content that is marked up with a programming language label, as opposed to content that is generically marked up as code. 
