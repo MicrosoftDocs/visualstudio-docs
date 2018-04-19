@@ -42,14 +42,15 @@ For more information about nullable types in C#, see [Nullable Types](/dotnet/cs
   
 3.  To expand the class shape, on the **Class Diagram** menu, click **Expand**.  
   
-4.  Select the class shape. On the **Class Diagram** menu, click **Add* > **Field**. A new field that has the default name **Field** will appear in the class shape and also in the **Class Details** window.  
+4.  Select the class shape. On the **Class Diagram** menu, click **Add** > **Field**. A new field that has the default name **Field** will appear in the class shape and also in the **Class Details** window.  
   
 5.  In the **Name** column of the **Class Details** window (or in the class shape itself), change the name of the new field to a valid and meaningful name.  
   
 6.  In the **Type** column of the **Class Details** window, declare the type as a nullable type, as shown in the following code:  
-  
-<CodeContentPlaceHolder>0</CodeContentPlaceHolder>  
-<CodeContentPlaceHolder>1</CodeContentPlaceHolder>  
+    ```
+    <CodeContentPlaceHolder>0</CodeContentPlaceHolder>  
+    <CodeContentPlaceHolder>1</CodeContentPlaceHolder>
+    ```  
 ### To add a nullable type by using the Code Editor  
   
 1.  Add a class to the project. Select the project node in **Solution Explorer**, and, on the **Project** menu, click **Add Class**.  
