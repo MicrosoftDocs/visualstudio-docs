@@ -99,6 +99,10 @@ In the .NET Framework versions 4 and 4.5, property functions can be used to eval
 
 -   System.Text.RegularExpressions.Regex  
 
+-   System.UriBuilder
+
+-   System.Version
+
 -   Microsoft.Build.Utilities.ToolLocationHelper  
 
  In addition, you can use the following static methods and properties:  
