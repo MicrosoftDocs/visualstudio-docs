@@ -19,13 +19,14 @@ ms.workload:
   - "multiple"
 ---
 # Visual Studio Command Aliases
-Aliases provide a means for entering a command into the **Find/Command** box or **Command** window by shortening the text needed to execute the command. For example, instead of entering `>File.OpenFile` to display the **Open File** dialog box, you can use the pre-defined alias `>of`.
 
- Type `alias` in the **Command**window to display a list of the current aliases and their definitions. Type `>cls` to clear the contents of the **Command** window. If you want to see an alias for a specific command, type `alias <command name>`.
+Command aliases let you type fewer characters when you want to execute a command. You enter aliases into the **Find/Command** box or **Command** window. For example, instead of entering `>File.OpenFile` to display the **Open File** dialog box, you can use the pre-defined alias `>of`.
 
- You can easily create your own alias for one of the Visual Studio commands (with or without arguments). For example, the syntax for aliasing `File.NewFile MyFile.txt` is `alias MyAlias File.NewFile MyFile.txt`. You can delete one of your aliases with `alias <alias name> /delete`
+Type `alias` in the **Command** window to display a list of the current aliases and their definitions. Type `>cls` to clear the contents of the **Command** window. If you want to see an alias for a specific command, type `alias <command name>`.
 
- The table below contains a list of the pre-defined Visual Studio command aliases. Some command names have more than one pre-defined alias. Click the links for the command names below to display detailed topics that explain the correct syntax, arguments, and switches for those commands.
+You can easily create your own alias for one of the Visual Studio commands (with or without arguments). For example, the syntax for aliasing `File.NewFile MyFile.txt` is `alias MyAlias File.NewFile MyFile.txt`. You can delete one of your aliases with `alias <alias name> /delete`
+
+The table below contains a list of the pre-defined Visual Studio command aliases. Some command names have more than one pre-defined alias. Click the links for the command names below to display detailed topics that explain the correct syntax, arguments, and switches for those commands.
 
 |Command Name|Alias|Complete Name|
 |------------------|-----------|-------------------|
@@ -45,16 +46,16 @@ Aliases provide a means for entering a command into the **Find/Command** box or 
 |View Code|code|View.ViewCode|
 |[List Memory Command](../../ide/reference/list-memory-command.md)|d|Debug.ListMemory|
 |[List Memory Command](../../ide/reference/list-memory-command.md) as ANSI|da|Debug.ListMemory /Ansi|
-|[List Memory Command](../../ide/reference/list-memory-command.md) One Byte format|db|Debug.ListMemory /Format:OneByte|
-|[List Memory Command](../../ide/reference/list-memory-command.md) as ANSI with Four Byte format|dc|Debug.ListMemory /Format:FourBytes /Ansi|
-|[List Memory Command](../../ide/reference/list-memory-command.md) Four Byte format|dd|Debug.ListMemory /Format:FourBytes|
+|[List Memory Command](../../ide/reference/list-memory-command.md) One-Byte format|db|Debug.ListMemory /Format:OneByte|
+|[List Memory Command](../../ide/reference/list-memory-command.md) as ANSI with Four-Byte format|dc|Debug.ListMemory /Format:FourBytes /Ansi|
+|[List Memory Command](../../ide/reference/list-memory-command.md) Four-Byte format|dd|Debug.ListMemory /Format:FourBytes|
 |Delete to BOL|DelBOL|Edit.DeleteToBOL|
 |Delete to EOL|DelEOL|Edit.DeleteToEOL|
 |Delete Horizontal Whitespace|DelHSp|Edit.DeleteHorizontalWhitespace|
 |View Designer|designer|View.ViewDesigner|
 |[List Memory Command](../../ide/reference/list-memory-command.md) Float format|df|Debug.ListMemory/Format:Float|
 |Disassembly window|disasm|Debug.Disassembly|
-|[List Memory Command](../../ide/reference/list-memory-command.md) Eight Byte format|dq|Debug.ListMemory /Format:EightBytes|
+|[List Memory Command](../../ide/reference/list-memory-command.md) Eight-Byte format|dq|Debug.ListMemory /Format:EightBytes|
 |[List Memory Command](../../ide/reference/list-memory-command.md) as Unicode|du|Debug.ListMemory /Unicode|
 |[Evaluate Statement Command](../../ide/reference/evaluate-statement-command.md)|eval|Debug.EvaluateStatement|
 |Exit|Exit|File.Exit|
