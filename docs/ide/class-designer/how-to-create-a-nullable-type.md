@@ -55,7 +55,7 @@ For more information about nullable types in C#, see [Nullable Types](/dotnet/cs
 1.  Add a class to the project. Select the project node in **Solution Explorer**, and, on the **Project** menu, click **Add Class**.  
   
 2.  In the .cs or .vb file for the new class, add one or more nullable types in the new class to the class declaration.
-    ```CSharp
+    ```csharp
     // Declare a nullable type in Visual C#:
     class Test
     {
@@ -63,7 +63,7 @@ For more information about nullable types in C#, see [Nullable Types](/dotnet/cs
     }
     ```
 
-    ``` VB
+    ```vb
     ' Declare a nullable type in Visual Basic:
     Class Test
        Dim buildingNumber As Nullable(Of Integer) = 5
