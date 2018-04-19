@@ -3,7 +3,7 @@ title: "Update Visual Studio 2017"
 description: "Learn how to update Visual Studio to the most recent release, step-by-step."
 ms.date: 03/06/2018
 ms.technology: vs-acquisition
-ms-prod: visual-studio-dev15
+ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "update Visual Studio"

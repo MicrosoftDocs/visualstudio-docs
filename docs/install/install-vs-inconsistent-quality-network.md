@@ -3,7 +3,7 @@ title: "Install on low bandwidth or unreliable network environments | Microsoft 
 description: "Learn how to use the Visual Studio installer when your network is unreliable or you have low-bandwidth, and how to use the command line to download installation files."
 ms.date: 01/17/2018
 ms.technology: vs-acquisition
-ms-prod: visual-studio-dev15
+ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "installing Visual Studio"

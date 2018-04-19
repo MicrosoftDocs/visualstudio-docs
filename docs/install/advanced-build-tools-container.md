@@ -1,21 +1,21 @@
 ---
-title: "Advanced Example for Containers | Microsoft Docs"
+title: "Advanced example for containers"
+description: ""
 ms.custom: ""
-ms.date: "10/18/2017"
-ms.technology:
-  - "vs-acquisition"
-ms.topic: "conceptual"
-ms.assetid: "e03835db-a616-41e6-b339-92b41d0cfc70"
-author: "heaths"
-ms.author: "tglee"
+ms.date: 04/18/2018
+ms.technology: vs-acquisition
+ms.prod: visual-studio-dev15
+ms.topic: conceptual
+ms.assetid: e03835db-a616-41e6-b339-92b41d0cfc70
+author: heaths
+ms.author: tglee
 manager: douge
 ms.workload:
   - "multiple"
 ---
+# Advanced example for containers
 
-# Advanced Example for Containers
-
-The sample Dockerfile in [Install Build Tools into a Container](build-tools-container.md) always uses the [microsoft/dotnet-framework:4.7.1](https://hub.docker.com/r/microsoft/dotnet-framework) image based on the latest microsoft/windowsservercore image, and the latest Visual Studio Build Tools 2017 installer. If you publish this image to a [Docker registry](https://azure.microsoft.com/services/container-registry) for others to pull, this image may be okay for many scenarios. However, in practice it's more common to be specific about what base image you use, what binaries you download, and which tool versions you install.
+The sample Dockerfile in [Install Build Tools into a container](build-tools-container.md) always uses the [microsoft/dotnet-framework:4.7.1](https://hub.docker.com/r/microsoft/dotnet-framework) image based on the latest microsoft/windowsservercore image, and the latest Visual Studio Build Tools 2017 installer. If you publish this image to a [Docker registry](https://azure.microsoft.com/services/container-registry) for others to pull, this image may be okay for many scenarios. However, in practice it's more common to be specific about what base image you use, what binaries you download, and which tool versions you install.
 
 The following example Dockerfile uses a specific version tag of the microsoft/dotnet-framework image. Using a specific tag for a base image is commonplace and makes it easy to remember that building or rebuilding images always has the same basis.
 
@@ -116,10 +116,11 @@ After the last line finishes executing, open "%TEMP%\vslogs.zip" on your machine
 Sometimes, things can go wrong. If your Visual Studio install fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://www.visualstudio.com/vs/support/#talktous).
 
 Here are a few more support options:
+
 * You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
 * You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
-* You can track product issues in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/), and ask questions and find answers.
-* You can also engage with us and other Visual Studio developers through the [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).  (This option requires a [GitHub](https://github.com/) account.)
+* You can track product issues and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/).
+* You can also engage with us and other Visual Studio developers through the [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio). (This option requires a [GitHub](https://github.com/) account.)
 
 ## See also
 
