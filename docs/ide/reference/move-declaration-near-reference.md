@@ -1,6 +1,5 @@
 ---
-title: "Move variable declaration near reference in Visual Studio | Microsoft Docs"
-ms.custom: ""
+title: Move variable declaration near reference in Visual Studio
 ms.date: 01/26/2018
 ms.technology: vs-ide-general
 ms.topic: reference
