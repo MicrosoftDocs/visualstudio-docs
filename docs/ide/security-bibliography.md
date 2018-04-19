@@ -1,9 +1,8 @@
 ---
-title: "Security bibliography | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
+title: Security bibliography
+ms.date: 11/04/2016
 ms.technology: vs-ide-general
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "security [Visual Studio], additional information"
 ms.assetid: 3e839007-c388-4fc4-a6d1-8127cd207750

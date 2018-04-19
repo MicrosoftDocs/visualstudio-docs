@@ -1,12 +1,10 @@
 ---
-title: "Tour of the Visual Studio IDE | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/15/2017"
-ms.technology:
-  - "vs-ide-general"
-ms.topic: "quickstart"
-author: "gewarren"
-ms.author: "gewarren"
+title: Tour of the Visual Studio IDE
+ms.date: 11/15/2017
+ms.technology: vs-ide-general
+ms.topic: quickstart
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"

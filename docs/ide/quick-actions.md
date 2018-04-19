@@ -1,10 +1,10 @@
 ---
-title: "Quick Actions | Microsoft Docs"
+title: Quick Actions
 ms.date: 03/28/2018
 ms.technology: vs-ide-general
 ms.topic: conceptual
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 dev_langs:
   - CSharp

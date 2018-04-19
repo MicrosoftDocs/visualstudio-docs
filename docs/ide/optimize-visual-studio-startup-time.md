@@ -1,5 +1,5 @@
 ---
-title: "Improve Visual Studio start up time | Microsoft Docs"
+title: Improve Visual Studio start up time
 ms.date: 11/15/2017
 ms.topic: conceptual
 helpviewer_keywords:
@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "optimizing performance [Visual Studio]"
   - "speed up start time [Visual Studio]"
 ms.assetid: d1508121-8499-4084-8eb5-fa89fa7b17d3
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 f1_keywords:
   - "vs.performancecenter"

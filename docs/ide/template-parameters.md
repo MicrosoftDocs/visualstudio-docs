@@ -1,16 +1,15 @@
 ---
-title: "Visual Studio project and item template parameters | Microsoft Docs"
-ms.custom: ""
-ms.date: "01/02/2018"
+title: Visual Studio project and item template parameters
+ms.date: 01/02/2018
 ms.technology: vs-ide-general
-ms.topic: "conceptual"
-helpviewer_keywords: 
+ms.topic: reference
+helpviewer_keywords:
   - "Visual Studio templates, parameters"
   - "template parameters [Visual Studio]"
   - "project templates, parameters"
   - "item templates, parameters"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ---
 # Template parameters
@@ -113,5 +112,5 @@ In the .vstemplate file for the project template, include the `ReplaceParameters
 
 ## See also
 
-[Customizing templates](../ide/customizing-project-and-item-templates.md)  
-[How to: Create project templates](../ide/how-to-create-project-templates.md)
+- [Customizing templates](../ide/customizing-project-and-item-templates.md)
+- [How to: Create project templates](../ide/how-to-create-project-templates.md)
