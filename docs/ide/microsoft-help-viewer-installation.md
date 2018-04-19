@@ -19,7 +19,7 @@ Several products can display Help content in Microsoft Help Viewer, including Vi
 
 Help Viewer is an optional installation component of Visual Studio. To install it through Visual Studio Installer, follow these steps:
 
-1. Open **Visual Studio Installer** from the Start menu or, if you have Visual Studio open, you can choose **Tools**, **Get Tools and Features...** to open Visual Studio Installer.
+1. Open **Visual Studio Installer** from the Start menu or, if you have Visual Studio open, you can choose **Tools** > **Get Tools and Features** to open Visual Studio Installer.
 
 1. Choose the **Individual Components** tab, then select **Help Viewer** under the **Code tools** section.
 
@@ -33,7 +33,7 @@ Another way to easily install Microsoft Help Viewer is via the **Quick Launch** 
 
    ![Quick Launch box](media/help_viewer_quick_launch.png)
 
-1. Choose the Install result called **Help Viewer (Indiviual Component)**.
+1. Choose the result called **Help Viewer (Indiviual Component)**.
 
 1. In the dialog box that opens, choose the **Install** button.
 

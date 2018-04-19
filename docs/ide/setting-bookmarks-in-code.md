@@ -38,4 +38,4 @@ You can turn off bookmarks (without removing them) by choosing the **Disable All
 
 ## See also
 
-- [Writing Code in the Editor](../ide/writing-code-in-the-code-and-text-editor.md)
+- [Write code in the editor](../ide/writing-code-in-the-code-and-text-editor.md)
