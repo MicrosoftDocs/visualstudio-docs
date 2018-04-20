@@ -1,5 +1,5 @@
 ---
-title: "Step 7: Add Multiplication and Division Problems | Microsoft Docs"
+title: "Step 7: Add multiplication and division problems | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
@@ -12,7 +12,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Step 7: Add Multiplication and Division Problems
+# Step 7: Add multiplication and division problems
 In the seventh part of this tutorial, you'll add multiplication and division problems, but first think about how to make that change. Consider the initial step, which involves storing values.  
   
 ### To add multiplication and division problems  
@@ -34,7 +34,7 @@ In the seventh part of this tutorial, you'll add multiplication and division pro
   
      You can't easily enter the multiplication sign (×) and the division sign (÷) using the keyboard, so Visual C# and Visual Basic accept an asterisk (*) for multiplication and a slash mark (/) for division.  
   
-4.  Change the last part of the timer's Tick event handler so that it fills in the correct answer when time runs out.  
+4.  Change the last part of the timer's `Tick` event handler so that it fills in the correct answer when time runs out.  
   
      [!code-vb[VbExpressTutorial3Step7#23](../ide/codesnippet/VisualBasic/step-7-add-multiplication-and-division-problems_4.vb)]
      [!code-csharp[VbExpressTutorial3Step7#23](../ide/codesnippet/CSharp/step-7-add-multiplication-and-division-problems_4.cs)]  
@@ -48,6 +48,6 @@ Math quiz with four problems
   
 ### To continue or review  
   
--   To go to the next tutorial step, see [Step 8: Customize the Quiz](../ide/step-8-customize-the-quiz.md).  
+-   To go to the next tutorial step, see [Step 8: Customize the quiz](../ide/step-8-customize-the-quiz.md).  
   
--   To return to the previous tutorial step, see [Step 6: Add a Subtraction Problem](../ide/step-6-add-a-subtraction-problem.md).
+-   To return to the previous tutorial step, see [Step 6: Add a subtraction problem](../ide/step-6-add-a-subtraction-problem.md).

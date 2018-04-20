@@ -1,5 +1,5 @@
 ---
-title: "Step 2: Create a Random Addition Problem | Microsoft Docs"
+title: "Step 2: Create a random addition Problem | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology:
@@ -12,19 +12,19 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Step 2: Create a Random Addition Problem
+# Step 2: Create a random addition problem
 In the second part of this tutorial, you make the quiz challenging by adding math problems that are based on random numbers. You also create a method that's named `StartTheQuiz()` and that fills in the problems and starts the countdown timer. Later in this tutorial, you'll add the subtraction, multiplication, and division problems.
 
 > [!NOTE]
->  This topic is part of a tutorial series about basic coding concepts. For an overview of the tutorial, see [Tutorial 2: Create a Timed Math Quiz](../ide/tutorial-2-create-a-timed-math-quiz.md).
+>  This topic is part of a tutorial series about basic coding concepts. For an overview of the tutorial, see [Tutorial 2: Create a timed math quiz](../ide/tutorial-2-create-a-timed-math-quiz.md).
 
 ### To create a random addition problem
 
-1.  In the form designer, choose the form (Form1).
+1.  In the form designer, choose the form (**Form1**).
 
-2.  On the menu bar, choose **View**, **Code**.
+2.  On the menu bar, choose **View** > **Code**.
 
-     Form1.cs or Form1.vb appears, depending on the programming language that you're using, so that you can view the code behind the form.
+     *Form1.cs* or *Form1.vb* appears, depending on the programming language that you're using, so that you can view the code behind the form.
 
 3.  Create a `Random` object by adding a `new` statement near the top of the code, like the following.
 
@@ -60,7 +60,7 @@ Next method
      When you enter a dot after an object, IntelliSense shows a list of the object's members, such as properties, methods, and events.
 
     > [!NOTE]
-    >  When you use the `Next()` method with the `Random` object, such as when you call `randomizer.Next(50)`, you get a random number that's less than 50 (from 0 through 49). In this example, you called `randomizer.Next(51)`. You used 51 and not 50 so that the two random numbers will add up to an answer that's from 0 through 100. If you pass 50 to the `Next()` method, it chooses a number from 0 through 49, so the highest possible answer is 98, not 100. After the first two statements in the method run, each of the two integer variables, `addend1` and `addend2`, hold a random number from 0 through 50. This screenshot shows Visual C# code, but IntelliSense works the same way for Visual Basic.
+    >  When you use the `Next()` method with the `Random` object, such as when you call `randomizer.Next(50)`, you get a random number that's less than 50 (from 0 through 49). In this example, you called `randomizer.Next(51)`. You used 51 and not 50 so that the two random numbers will add up to an answer that's from 0 through 100. If you pass 50 to the `Next()` method, it chooses a number from 0 through 49, so the highest possible answer is 98, not 100. After the first two statements in the method run, each of the two integer variables, **addend1** and **addend2**, hold a random number from 0 through 50. This screenshot shows Visual C# code, but IntelliSense works the same way for Visual Basic.
 
      Take a closer look at these statements.
 
@@ -69,7 +69,7 @@ Next method
 
      The statements set the **Text** properties of **plusLeftLabel** and **plusRightLabel** so that they display the two random numbers. You must use the integer's `ToString()` method to convert the numbers to text. (In programming, string means text. Label controls display only text, not numbers.
 
-6.  In the design window, either double-click the **Start** button, or choose it and then choose the Enter key.
+6.  In the design window, either double-click the **Start** button, or choose it and then choose the **Enter** key.
 
      When a quiz taker chooses this button, the quiz should start, and you've just added a Click event handler to implement that behavior.
 
@@ -91,6 +91,6 @@ Random addition problem
 
 ### To continue or review
 
--   To go to the next tutorial step, see [Step 3: Add a Countdown Timer](../ide/step-3-add-a-countdown-timer.md).
+-   To go to the next tutorial step, see [Step 3: Add a countdown timer](../ide/step-3-add-a-countdown-timer.md).
 
--   To return to the previous tutorial step, see [Step 1: Create a Project and Add Labels to Your Form](../ide/step-1-create-a-project-and-add-labels-to-your-form.md).
+-   To return to the previous tutorial step, see [Step 1: Create a project and add labels to your form](../ide/step-1-create-a-project-and-add-labels-to-your-form.md).

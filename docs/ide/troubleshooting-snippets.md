@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Snippets | Microsoft Docs"
+title: "Troubleshoot snippets | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
@@ -16,22 +16,22 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Troubleshooting Snippets
+# Troubleshoot snippets
 Problems with IntelliSense code snippets are typically caused by two problems: a corrupt snippet file or bad content in the snippet file.  
   
-## Common Problems  
+## Common problems  
   
-### The Snippet Cannot Be Dragged from File Explorer to a Visual Studio Source File  
+### The snippet cannot Be dragged from File Explorer to a Visual Studio source file  
   
 -   The XML in the snippet file may be corrupt. The **XML Editor** in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] can locate problems in the XML structure.  
   
 -   The snippet file may not conform to the snippet schema. The **XML Editor** in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] can locate problems in the XML structure.  
   
-### The Code Has Compiler Errors That Are Not Highlighted  
+### The code has compiler errors that are not highlighted  
   
 -   You may be missing a project reference. Examine the documentation about the snippet. If the reference is not found on the computer, you will need to install it. Inserting a snippet should add to the project any references needed. If the snippet is missing the reference information, that can be reported to the snippet creator as an error.  
   
 -   A variable may be undefined. Undefined variables in a snippet should be highlighted. If not, that can be reported to the snippet creator as an error.  
   
-## See Also  
- [Code Snippets](../ide/code-snippets.md)
+## See also  
+ [Code snippets](../ide/code-snippets.md)

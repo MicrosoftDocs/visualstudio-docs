@@ -1,5 +1,5 @@
 ---
-title: "Step 6: Add a Subtraction Problem | Microsoft Docs"
+title: "Step 6: Add a subtraction problem | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology:
@@ -12,7 +12,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Step 6: Add a Subtraction Problem
+# Step 6: Add a subtraction problem
 In the sixth part of this tutorial, you'll add a subtraction problem and learn how to perform the following tasks:
 
 -   Store the subtraction values.
@@ -21,7 +21,7 @@ In the sixth part of this tutorial, you'll add a subtraction problem and learn h
 
 -   Update the method that checks the answers so that it checks the new subtraction problem too.
 
--   Update your timer's Tick event handler so that the event handler fills in the correct answer when time runs out.
+-   Update your timer's `Tick` event handler so that the event handler fills in the correct answer when time runs out.
 
 ### To add a subtraction problem
 
@@ -44,12 +44,12 @@ In the sixth part of this tutorial, you'll add a subtraction problem and learn h
      [!code-vb[VbExpressTutorial3Step5_6#21](../ide/codesnippet/VisualBasic/step-6-add-a-subtraction-problem_3.vb)]
      [!code-csharp[VbExpressTutorial3Step5_6#21](../ide/codesnippet/CSharp/step-6-add-a-subtraction-problem_3.cs)]
 
-     You can call the `Next()` method of the `Random` class, which you named "randomizer" earlier  in this tutorial, in multiple ways. Methods that you can call in more than one way are referred to as overloaded, and you can use IntelliSense to explore them. Look again at the tooltip of the IntelliSense window for the `Next()` method.
+     You can call the `Next()` method of the `Random` class, which you named "randomizer" earlier in this tutorial, in multiple ways. Methods that you can call in more than one way are referred to as overloaded, and you can use IntelliSense to explore them. Look again at the tooltip of the IntelliSense window for the `Next()` method.
 
      ![IntelliSense window tooltip](../ide/media/express_overloads.png "Express_Overloads")
 IntelliSense window tooltip
 
-     The tooltip shows **(+ 2 overload(s))**, which means that you can call the `Next()` method in two other ways. Overloads contain different numbers or types of arguments, so that they work slightly differently from one another. For example, a method might take a single integer argument, and one of its overloads might take an integer and a string. You choose the correct overload based on what you want it to do. When you add the code to the `StartTheQuiz()` method, more information appears in the IntelliSense window as soon as you enter `randomizer.Next(`. To cycle through the overloads, choose the Up Arrow and Down Arrow keys as shown in the following illustration:
+     The tooltip shows **(+ 2 overload(s))**, which means that you can call the `Next()` method in two other ways. Overloads contain different numbers or types of arguments, so that they work slightly differently from one another. For example, a method might take a single integer argument, and one of its overloads might take an integer and a string. You choose the correct overload based on what you want it to do. When you add the code to the `StartTheQuiz()` method, more information appears in the IntelliSense window as soon as you enter `randomizer.Next(`. To cycle through the overloads, choose the **Up Arrow** and **Down Arrow** keys as shown in the following illustration:
 
      ![Overload for Next&#40;&#41; method in IntelliSense](../ide/media/express_nextoverload.png "Express_NextOverload")
 Overload for Next() method in IntelliSense
@@ -63,7 +63,7 @@ Overload for Next() method in IntelliSense
 
      In Visual C#, `&&` is the `logical and` operator. In Visual Basic, the equivalent operator is `AndAlso`. These operators indicate "If the sum of addend1 and addend2 equals the value of the sum NumericUpDown and if minuend minus subtrahend equals the value of the difference NumericUpDown." The `CheckTheAnswer()` method returns `true` only if the answers to the addition and the subtraction problems are both correct.
 
-4.  Replace the last part of the timer's Tick event handler with the following code so that it fills in the correct answer when time runs out.
+4.  Replace the last part of the timer's `Tick` event handler with the following code so that it fills in the correct answer when time runs out.
 
      [!code-vb[VbExpressTutorial3Step5_6#22](../ide/codesnippet/VisualBasic/step-6-add-a-subtraction-problem_5.vb)]
      [!code-csharp[VbExpressTutorial3Step5_6#22](../ide/codesnippet/CSharp/step-6-add-a-subtraction-problem_5.cs)]
@@ -77,6 +77,6 @@ Math quiz with subtraction problem
 
 ### To continue or review
 
--   To go to the next tutorial step, see [Step 7: Add Multiplication and Division Problems](../ide/step-7-add-multiplication-and-division-problems.md).
+-   To go to the next tutorial step, see [Step 7: Add multiplication and division problems](../ide/step-7-add-multiplication-and-division-problems.md).
 
--   To return to the previous tutorial step, see [Step 5: Add Enter Event Handlers for the NumericUpDown Controls](../ide/step-5-add-enter-event-handlers-for-the-numericupdown-controls.md).
+-   To return to the previous tutorial step, see [Step 5: Add Enter event handlers for the NumericUpDown controls](../ide/step-5-add-enter-event-handlers-for-the-numericupdown-controls.md).

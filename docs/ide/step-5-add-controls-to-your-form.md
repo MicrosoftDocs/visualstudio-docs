@@ -1,5 +1,5 @@
 ---
-title: "Step 5: Add Controls to Your Form | Microsoft Docs"
+title: "Step 5: Add controls to your form | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
@@ -12,18 +12,18 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Step 5: Add Controls to Your Form
+# Step 5: Add controls to your form
 In this step, you add controls, such as a `PictureBox` control and a `CheckBox` control, to your form. You then add buttons to your form.  
   
- ![link to video](../data-tools/media/playvideo.gif "PlayVideo")For a video version of this topic, see [Tutorial 1: Create a Picture Viewer in Visual Basic - Video 2](http://go.microsoft.com/fwlink/?LinkId=205211) or [Tutorial 1: Create a Picture Viewer in C# - Video 2](http://go.microsoft.com/fwlink/?LinkId=205200). These videos use an earlier version of Visual Studio, so there are slight differences in some menu commands and other user interface elements. However, the concepts and procedures work similarly in the current version of Visual Studio.  
+ ![link to video](../data-tools/media/playvideo.gif "PlayVideo")For a video version of this topic, see [Tutorial 1: Create a picture viewer in Visual Basic - Video 2](http://go.microsoft.com/fwlink/?LinkId=205211) or [Tutorial 1: Create a picture viewer in C# - Video 2](http://go.microsoft.com/fwlink/?LinkId=205200). These videos use an earlier version of Visual Studio, so there are slight differences in some menu commands and other user interface elements. However, the concepts and procedures work similarly in the current version of Visual Studio.  
   
 ### To add controls to your form  
   
-1.  Go to the Toolbox tab (located on the left side of the Visual Studio IDE) and expand the **Common Controls** group. This shows the most common controls that you see on forms.  
+1.  Go to the **Toolbox** tab (located on the left side of the Visual Studio IDE) and expand the **Common Controls** group. This shows the most common controls that you see on forms.  
   
 2.  Choose the TableLayoutPanel control on the form. To verify that the TableLayoutPanel is selected, make sure that its name appears in the dropdown list box at the top of the **Properties** window. You can also choose form controls by using the dropdown list box at the top of the **Properties** window. Choosing a control this way can often be easier than choosing a tiny control with a mouse.  
   
-3.  Double-click the **PictureBox** item to add a PictureBox control to your form. Because the TableLayoutPanel is docked to fill your form, the IDE adds the PictureBox control to the first empty cell (the upper left corner).  
+3.  Double-click the **PictureBox** item to add a **PictureBox** control to your form. Because the TableLayoutPanel is docked to fill your form, the IDE adds the PictureBox control to the first empty cell (the upper left corner).  
   
 4.  Choose the new PictureBox control to select it, and then choose the black triangle on the new PictureBox control to display its task list, as shown in the following picture.  
   
@@ -31,7 +31,7 @@ In this step, you add controls, such as a `PictureBox` control and a `CheckBox` 
 PictureBox tasks  
   
     > [!NOTE]
-    >  If you accidentally add the wrong type of control to your TableLayoutPanel, you can delete it. Right-click the control, and then choose **Delete** on its context menu. You can also remove controls from the form by using the menu bar. On the menu bar, choose **Edit**, **Undo**, or **Edit**, **Delete**.  
+    >  If you accidentally add the wrong type of control to your TableLayoutPanel, you can delete it. Right-click the control, and then choose **Delete** on its context menu. You can also remove controls from the form by using the menu bar. On the menu bar, choose **Edit** > **Undo**, or **Edit** > **Delete**.  
   
 5.  Choose the **Dock in parent container** link. This automatically sets the PictureBox **Dock** property to **Fill**. To see this, choose the PictureBox control to select it, go to the **Properties** window, and be sure that the **Dock** property is set to **Fill**.  
   
@@ -40,7 +40,7 @@ PictureBox tasks
     > [!NOTE]
     >  If you don't see a **ColumnSpan** property for your PictureBox, then it's likely that the PictureBox was added to the form rather than the TableLayoutPanel. To fix this, choose the PictureBox, delete it, choose the TableLayoutPanel, and then add a new PictureBox.  
   
-7.  Choose the TableLayoutPanel on the form and then add a **CheckBox** control to the form. Double-click the **CheckBox** item in the Toolbox to add a new CheckBox control to the next free cell in your table. Because a PictureBox takes up the first two cells in the TableLayoutPanel, the CheckBox control is added to the lower-left cell. Choose the **Text** property and type in the word **Stretch**, as shown in the following picture.  
+7.  Choose the TableLayoutPanel on the form and then add a **CheckBox** control to the form. Double-click the **CheckBox** item in the **Toolbox** to add a new CheckBox control to the next free cell in your table. Because a PictureBox takes up the first two cells in the TableLayoutPanel, the CheckBox control is added to the lower-left cell. Choose the **Text** property and type in the word **Stretch**, as shown in the following picture.  
   
      ![TextBox control with Stretch property](../ide/media/express_pictureviewercheckbox.png "Express_PictureViewerCheckbox")  
 TextBox control with Stretch property  
@@ -52,9 +52,9 @@ TextBox control with Stretch property
   
 ### To add buttons  
   
-1.  Choose the new FlowLayoutPanel that you added. Go to **Common Controls** in the Toolbox and double-click the **Button** item to add a button control called **button1** to your FlowLayoutPanel. Repeat to add another button. The IDE determines that there's already a button called **button1** and calls the next one **button2**.  
+1.  Choose the new FlowLayoutPanel that you added. Go to **Common Controls** in the **Toolbox** and double-click the **Button** item to add a button control called **button1** to your FlowLayoutPanel. Repeat to add another button. The IDE determines that there's already a button called **button1** and calls the next one **button2**.  
   
-2.  Typically, you add the other buttons using the Toolbox. This time, choose **button2**, and then on the menu bar, choose **Edit**, **Copy** (or press Ctrl+C). On the menu bar, choose **Edit**, **Paste** (or press Ctrl+V) to paste a copy of your button. Now paste it again. The IDE has now added **button3** and **button4** to the FlowLayoutPanel.  
+2.  Typically, you add the other buttons using the **Toolbox**. This time, choose **button2**, and then on the menu bar, choose **Edit** > **Copy** (or press **Ctrl**+**C**). On the menu bar, choose **Edit** > **Paste** (or press **Ctrl**+**V**) to paste a copy of your button. Now paste it again. The IDE has now added **button3** and **button4** to the FlowLayoutPanel.  
   
     > [!NOTE]
     >  You can copy and paste any control. The IDE names and places the new controls in a logical manner. If you paste a control into a container, the IDE chooses the next logical space for placement.  
@@ -66,7 +66,7 @@ TextBox control with Stretch property
     > [!NOTE]
     >  If the buttons are still in the wrong order, you can drag the buttons around the FlowLayoutPanel to rearrange them in any order. You can choose a button and drag it left or right.  
   
-5.  Choose the **Close** button to select it. Hold down the CTRL key and choose the other three buttons, so that they are all selected. While all the buttons are selected, go to the **Properties** window and scroll up to the **AutoSize** property. This property tells the button to automatically resize itself to fit all of its text. Set it to **true**. Your buttons should now be sized properly and be in the right order. (As long as all four buttons are selected, you can change all four **AutoSize** properties at the same time.) The following picture shows the four buttons.  
+5.  Choose the **Close** button to select it. Hold down the **Ctrl** key and choose the other three buttons, so that they are all selected. While all the buttons are selected, go to the **Properties** window and scroll up to the **AutoSize** property. This property tells the button to automatically resize itself to fit all of its text. Set it to **true**. Your buttons should now be sized properly and be in the right order. (As long as all four buttons are selected, you can change all four **AutoSize** properties at the same time.) The following picture shows the four buttons.  
   
      ![Picture Viewer with four buttons](../ide/media/express_autosize.png "Express_AutoSize")  
 Picture Viewer with four buttons  
@@ -75,6 +75,6 @@ Picture Viewer with four buttons
   
 ### To continue or review  
   
--   To go to the next tutorial step, see [Step 6: Name Your Button Controls](../ide/step-6-name-your-button-controls.md).  
+-   To go to the next tutorial step, see [Step 6: Name your button controls](../ide/step-6-name-your-button-controls.md).  
   
--   To return to the previous tutorial step, see [Step 4: Lay Out Your Form with a TableLayoutPanel Control](../ide/step-4-lay-out-your-form-with-a-tablelayoutpanel-control.md).
+-   To return to the previous tutorial step, see [Step 4: Lay out your form with a TableLayoutPanel control](../ide/step-4-lay-out-your-form-with-a-tablelayoutpanel-control.md).

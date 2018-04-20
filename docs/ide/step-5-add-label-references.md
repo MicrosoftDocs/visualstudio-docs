@@ -1,5 +1,5 @@
 ---
-title: "Step 5: Add Label References | Microsoft Docs"
+title: "Step 5: Add label references | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
@@ -12,7 +12,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Step 5: Add Label References
+# Step 5: Add label references
 The program needs to track which label controls the player chooses. Right now, the program shows all labels chosen by the player. But we're going to change that. After the first label is chosen, the program should show the label's icon. After the second label is chosen, the program should display both icons for a brief time, and then hide both icons again. Your program will now keep track of which label control is chosen first and which is chosen second by using *reference variables*.  
   
 ### To add label references  
@@ -26,7 +26,7 @@ The program needs to track which label controls the player chooses. Right now, t
   
      When a variable isn't keeping track of an object, it's set to a special reserved value: `null` in Visual C# and `Nothing` in Visual Basic. So, when the program starts, both `firstClicked` and `secondClicked` are set to `null` or `Nothing`, which means that the variables aren't keeping track of anything.  
   
-2.  Modify your Click event handler to use the new `firstClicked` reference variable. Remove the last statement in the `label_Click()` event handler method (`clickedLabel.ForeColor = Color.Black;`) and replace it with the `if` statement that follows. (Be sure you include the comment, and the whole `if` statement.)  
+2.  Modify your `Click` event handler to use the new `firstClicked` reference variable. Remove the last statement in the `label_Click()` event handler method (`clickedLabel.ForeColor = Color.Black;`) and replace it with the `if` statement that follows. (Be sure you include the comment, and the whole `if` statement.)  
   
      [!code-vb[VbExpressTutorial4Step5#6](../ide/codesnippet/VisualBasic/step-5-add-label-references_2.vb)]
      [!code-csharp[VbExpressTutorial4Step5#6](../ide/codesnippet/CSharp/step-5-add-label-references_2.cs)]  
@@ -42,6 +42,6 @@ Matching game showing one icon
   
 ### To continue or review  
   
--   To go to the next tutorial step, see [Step 6: Add a Timer](../ide/step-6-add-a-timer.md).  
+-   To go to the next tutorial step, see [Step 6: Add a timer](../ide/step-6-add-a-timer.md).  
   
--   To return to the previous tutorial step, see [Step 4: Add a Click Event Handler to Each Label](../ide/step-4-add-a-click-event-handler-to-each-label.md).
+-   To return to the previous tutorial step, see [Step 4: Add a Click event handler to each label](../ide/step-4-add-a-click-event-handler-to-each-label.md).

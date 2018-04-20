@@ -1,5 +1,5 @@
 ---
-title: "Step 4: Add the CheckTheAnswer() Method | Microsoft Docs"
+title: "Step 4: Add the CheckTheAnswer() method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
@@ -12,8 +12,8 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Step 4: Add the CheckTheAnswer() Method
-In the fourth part of this tutorial, you'll write a method, `CheckTheAnswer()`, that determines whether the answers to the math problems are correct. This topic is part of a tutorial series about basic coding concepts. For an overview of the tutorial, see [Tutorial 2: Create a Timed Math Quiz](../ide/tutorial-2-create-a-timed-math-quiz.md).  
+# Step 4: Add the CheckTheAnswer() method
+In the fourth part of this tutorial, you'll write a method, `CheckTheAnswer()`, that determines whether the answers to the math problems are correct. This topic is part of a tutorial series about basic coding concepts. For an overview of the tutorial, see [Tutorial 2: Create a timed math quiz](../ide/tutorial-2-create-a-timed-math-quiz.md).  
   
 > [!NOTE]
 >  If you're following along in Visual Basic, you'll use the `Function` keyword instead of the usual `Sub` keyword because this method returns a value. It's really that simple: a sub doesn't return a value, but a function does.  
@@ -45,6 +45,6 @@ In the fourth part of this tutorial, you'll write a method, `CheckTheAnswer()`, 
   
 ### To continue or review  
   
--   To go to the next tutorial step, see [Step 5: Add Enter Event Handlers for the NumericUpDown Controls](../ide/step-5-add-enter-event-handlers-for-the-numericupdown-controls.md).  
+-   To go to the next tutorial step, see [Step 5: Add Enter event handlers for the NumericUpDown controls](../ide/step-5-add-enter-event-handlers-for-the-numericupdown-controls.md).  
   
--   To return to the previous tutorial step, see [Step 3: Add a Countdown Timer](../ide/step-3-add-a-countdown-timer.md).
+-   To return to the previous tutorial step, see [Step 3: Add a countdown timer](../ide/step-3-add-a-countdown-timer.md).

@@ -1,5 +1,5 @@
 ---
-title: "Step 2: Run Your Program | Microsoft Docs"
+title: "Step 2: Run your program | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
@@ -12,10 +12,10 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Step 2: Run Your Program
+# Step 2: Run your program
 When you created a new solution, you actually built a program that runs. It doesn't do much yet—it just displays an empty window that shows **Form1** in the title bar. But it does run, as you're about to find out.  
   
- ![link to video](../data-tools/media/playvideo.gif "PlayVideo")For a video version of this topic, see [Tutorial 1: Create a Picture Viewer in Visual Basic - Video 1](http://go.microsoft.com/fwlink/?LinkId=205209) or [Tutorial 1: Create a Picture Viewer in C# - Video 1](http://go.microsoft.com/fwlink/?LinkId=205199). These videos use an earlier version of Visual Studio, so there are slight differences in some menu commands and other user interface elements. However, the concepts and procedures work similarly in the current version of Visual Studio.  
+ ![link to video](../data-tools/media/playvideo.gif "PlayVideo")For a video version of this topic, see [Tutorial 1: Create a picture viewer in Visual Basic - Video 1](http://go.microsoft.com/fwlink/?LinkId=205209) or [Tutorial 1: Create a picture viewer in C# - Video 1](http://go.microsoft.com/fwlink/?LinkId=205199). These videos use an earlier version of Visual Studio, so there are slight differences in some menu commands and other user interface elements. However, the concepts and procedures work similarly in the current version of Visual Studio.  
   
 ### To run your program  
   
@@ -23,7 +23,7 @@ When you created a new solution, you actually built a program that runs. It does
   
     -   Choose the **F5** key.  
   
-    -   On the menu bar, choose **Debug**, **Start Debugging**.  
+    -   On the menu bar, choose **Debug** > **Start Debugging**.  
   
     -   On the toolbar, choose the **Start Debugging** button, which appears as follows.  
   
@@ -44,15 +44,15 @@ Debugging toolbar
   
     -   On the toolbar, choose the **Stop Debugging** button.  
   
-    -   On the menu bar, choose **Debug**, **Stop Debugging**.  
+    -   On the menu bar, choose **Debug** > **Stop Debugging**.  
   
     -   Choose the X button in the upper corner of the **Form1** window.  
   
     > [!NOTE]
-    >  When you run your program from inside the IDE, it's called *debugging* because you typically do it to locate and fix bugs (errors) in the program. Although this program is small and doesn't really do anything yet, it's still a real program. You follow the same procedure to run and debug other programs. To learn more about debugging, see [Debugger Basics](../debugger/debugger-basics.md).  
+    >  When you run your program from inside the IDE, it's called debugging because you typically do it to locate and fix bugs (errors) in the program. Although this program is small and doesn't really do anything yet, it's still a real program. You follow the same procedure to run and debug other programs. To learn more about debugging, see [Debugger basics](../debugger/debugger-basics.md).  
   
 ### To continue or review  
   
--   To go to the next tutorial step, see [Step 3: Set Your Form Properties](../ide/step-3-set-your-form-properties.md).  
+-   To go to the next tutorial step, see [Step 3: Set your form properties](../ide/step-3-set-your-form-properties.md).  
   
--   To return to the previous tutorial step, see [Step 1: Create a Windows Forms Application Project](../ide/step-1-create-a-windows-forms-application-project.md).
+-   To return to the previous tutorial step, see [Step 1: Create a Windows Forms Application project](../ide/step-1-create-a-windows-forms-application-project.md).
