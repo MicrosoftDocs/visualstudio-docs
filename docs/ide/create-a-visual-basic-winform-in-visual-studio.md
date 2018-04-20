@@ -1,14 +1,14 @@
 ---
-title: "Create a Windows Forms app in Visual Studio with Visual Basic | Microsoft Docs"
+title: "Create a Windows Forms app in Visual Studio with Visual Basic"
 description: "Learn how to create a Windows Forms app in Visual Studio with Visual Basic, step-by-step."
 ms.custom: ""
-ms.date: "12/04/2017"
-ms.technology:
-  - "vs-acquisition"
-ms.topic: "conceptual"
-ms.devlang: "vb"
-author: "TerryGLee"
-ms.author: "tglee"
+ms.date: 12/04/2017
+ms.technology: vs-acquisition
+ms.prod: visual-studio-dev15
+ms.topic: conceptual
+ms.devlang: vb
+author: TerryGLee
+ms.author: tglee
 manager: douge
 dev_langs:
   - vb

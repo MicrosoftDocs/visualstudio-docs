@@ -1,5 +1,5 @@
 ---
-title: Class Designer Errors
+title: Class Designer errors
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: troubleshooting
@@ -30,15 +30,17 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Additional Information About Class Designer Errors
+# Additional information about Class Designer errors
 
-Class Designer does not track the location of your source files, so modifying your project structure or moving source files in the project can cause Class Designer to lose track of the type (especially the source type of a typedef, base classes, or association types). You might receive an error such as **Class Designer is unable to display this type**. If you do, drag the modified or relocated source code to the class diagram again to redisplay it.
+**Class Designer** does not track the location of your source files, so modifying your project structure or moving source files in the project can cause **Class Designer** to lose track of the type (especially the source type of a typedef, base classes, or association types). You might receive an error such as **Class Designer is unable to display this type**. If you do, drag the modified or relocated source code to the class diagram again to redisplay it.
+
+## Resources
 
 You can find assistance with other errors and warnings in the following resources:
 
-- [Work with Visual C++ code](working-with-visual-cpp-code.md) includes troubleshooting information about displaying C++ in a class diagram.
-- [Visual Studio Class Designer forum](http://go.microsoft.com/fwlink/?LinkId=160754) provides a forum for questions about the Class Designer.
+- [Working with Visual C++ Code](working-with-visual-cpp-code.md) includes troubleshooting information about displaying C++ in a class diagram.
+- [Visual Studio Class Designer forum](http://go.microsoft.com/fwlink/?LinkId=160754) provides a forum for questions about the **Class Designer**.
 
 ## See also
 
-- [Design and view classes and types](designing-and-viewing-classes-and-types.md)
+- [Designing and viewing classes and types](designing-and-viewing-classes-and-types.md)

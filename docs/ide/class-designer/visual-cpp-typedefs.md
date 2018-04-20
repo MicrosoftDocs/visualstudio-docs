@@ -15,9 +15,9 @@ manager: douge
 ms.workload:
   - "cplusplus"
 ---
-# Visual C++ Typedefs in Class Designer
+# Visual C++ typedefs in Class Designer
 
-Typedef statements create one or more layers of indirection between a name and its underlying type. The Class Designer supports C++ typedef types, which are declared with the keyword `typedef`, for example:
+Typedef statements create one or more layers of indirection between a name and its underlying type. The **Class Designer** supports C++ typedef types, which are declared with the keyword `typedef`, for example:
 
 ```cpp
 typedef class coord
@@ -32,7 +32,7 @@ You can then use this type to declare an instance:
 
 `COORD OriginPoint;`
 
-Although you can declare a typedef without a name, Class Designer will not use the tag name that you specify; it will use the name that Class View generates. For example, the following declaration is valid, but it appears in Class View and Class Designer as an object named **__unnamed**:
+Although you can declare a typedef without a name, **Class Designer** will not use the tag name that you specify; it will use the name that Class View generates. For example, the following declaration is valid, but it appears in **Class View** and **Class Designer** as an object named **__unnamed**:
 
 ```cpp
 typedef class coord
@@ -51,7 +51,7 @@ Classes and structures can have nested typedefs declared within them; therefore,
 
 Typedef shapes support the **Show as Association** and **Show as Collection Association** commands on the context menu.
 
-The following are some examples of typdef types that the Class Designer supports:
+The following are some examples of typdef types that the **Class Designer** supports:
 
 `typedef type name`
 
@@ -69,7 +69,7 @@ typedef
 
 Typedef for function pointers. No association line is drawn.
 
-Class Designer does not display a typedef if its source type is a function pointer.
+**Class Designer** does not display a typedef if its source type is a function pointer.
 
 ```cpp
 typedef int MyInt;
@@ -171,7 +171,7 @@ Class
 
 -> MyB
 
-Class Designer does not support displaying this kind of relationship by using a context menu command.
+**Class Designer** does not support displaying this kind of relationship by using a context menu command.
 
 `#include <vector>`
 
@@ -195,5 +195,4 @@ Class
 
 ## See also
 
-- [Work with Visual C++ Code](working-with-visual-cpp-code.md)
-- [Typedefs](/cpp/aliases-and-typedefs-cpp#typedefs)
+- [Working with Visual C++ Code](working-with-visual-cpp-code.md)

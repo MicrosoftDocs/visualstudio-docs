@@ -16,10 +16,11 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# How to: View Inheritance Between Types (Class Designer)
-You can find the inheritance relationship, if it exists, between a base type and its derived types on a class diagram in Class Designer. To create an inheritance relationship, if none exist, between two types, see [How to: Create Inheritance Between Types](how-to-create-inheritance-between-types.md).
+# How to: View inheritance between types (Class Designer)
 
-### To find the base type
+You can find the inheritance relationship, if it exists, between a base type and its derived types on a class diagram in **Class Designer**. To create an inheritance relationship, if none exist, between two types, see [How to: Create inheritance between types](how-to-create-inheritance-between-types.md).
+
+## To find the base type
 
 1.  On the class diagram, click the type for which you want to see the base class or interface.
 
@@ -29,7 +30,7 @@ You can find the inheritance relationship, if it exists, between a base type and
 
 You can also right-click the type whose base type you want to display, and choose **Show Base Class** or **Show Base Interfaces**.
 
-### To find the derived types
+## To find the derived types
 
 1.  On the class diagram, click the type for which you want to see the derived classes or interfaces.
 

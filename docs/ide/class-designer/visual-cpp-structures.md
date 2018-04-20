@@ -12,9 +12,9 @@ manager: douge
 ms.workload:
   - "cplusplus"
 ---
-# Visual C++ Structures in Class Designer
+# Visual C++ structures in Class Designer
 
-Class Designer supports C++ structures, which are declared with the keyword `struct`. Following is an example:
+**Class Designer** supports C++ structures, which are declared with the keyword `struct`. Following is an example:
 
 ```cpp
 struct MyStructure

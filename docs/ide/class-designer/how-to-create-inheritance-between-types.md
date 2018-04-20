@@ -15,12 +15,13 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# How to: Create Inheritance Between Types (Class Designer)
-To create an inheritance relationship between two types on a class diagram using Class Designer, connect the base type with its derived type or types. You can have an inheritance relationship between two classes, between a class and an interface, or between two interfaces.
+# How to: Create inheritance between types (Class Designer)
 
-### To create an inheritance between types
+To create an inheritance relationship between two types on a class diagram using **Class Designer**, connect the base type with its derived type or types. You can have an inheritance relationship between two classes, between a class and an interface, or between two interfaces.
 
-1.  From your project in Solution Explorer, open a class diagram (.cd) file.
+## To create an inheritance between types
+
+1.  From your project in **Solution Explorer**, open a class diagram (.cd) file.
 
      If you don't have a class diagram, create it. See [How to: Add Class Diagrams to Projects](how-to-add-class-diagrams-to-projects.md).
 
@@ -37,7 +38,7 @@ To create an inheritance relationship between two types on a class diagram using
 4.  Optionally, when you have a derived type from a generic type, click the inheritance line. In the **Properties** window, set the **Type Arguments** property to match the type that you want for the generic type.
 
     > [!NOTE]
-    >  If a parent abstract class contains at least one abstract member, then all abstract members are implemented as non-abstract inheriting classes.
+    > If a parent abstract class contains at least one abstract member, then all abstract members are implemented as non-abstract inheriting classes.
     >
     >  Although you can visualize existing generic types, you can't create new generic types. You also can't change the type parameters for existing generic types.
 

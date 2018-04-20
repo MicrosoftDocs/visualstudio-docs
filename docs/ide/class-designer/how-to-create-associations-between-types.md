@@ -18,24 +18,24 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# How to: Create Associations Between Types (Class Designer)
-Association lines in Class Designer show how classes in a diagram are related. An Association line represents a class that is the type of a property or field of another class in your project. Association lines are generally used to illustrate the most important relationships between classes in your project.
+# How to: Create associations between types (Class Designer)
+
+Association lines in **Class Designer** show how classes in a diagram are related. An Association line represents a class that is the type of a property or field of another class in your project. Association lines are generally used to illustrate the most important relationships between classes in your project.
 
 While you could display all fields and properties as associations, it makes more sense to show only important members as associations, depending on what you intend to emphasize in the diagram. (You can show less important members as regular members or hide them altogether.)
 
 > [!NOTE]
-> Class Designer supports only unidirectional associations.
+> **Class Designer** supports only unidirectional associations.
 
+## To define an association line in the Class Diagram
 
-### To define an association line in the Class Diagram
-
-1.  In the Toolbox, under Class Designer, select **Association**.
+1.  In the Toolbox, under **Class Designer**, select **Association**.
 
 2.  Draw a line between the two shapes you want to link with an association.
 
      A new property is created in the first class. This property displays as an association line (not as a property within a compartment in the shape) with a default name. Its type is the shape to which the association line points.
 
-### To change the name of an association
+## To change the name of an association
 
 -   On the diagram surface, click the label of the association line and edit it.
 
@@ -51,4 +51,4 @@ While you could display all fields and properties as associations, it makes more
 
 ## See also
 
-- [How to: Change Between Member Notation and Association Notation](how-to-change-between-member-notation-and-association-notation.md)
+- [How to: Change between member notation and association notation](how-to-change-between-member-notation-and-association-notation.md)
