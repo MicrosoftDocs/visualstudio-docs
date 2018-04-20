@@ -1,7 +1,7 @@
 ---
-title: "Bind a Test Controller or Test Agent to a Network Adapter in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "conceptual"
+title: "Bind a Test Controller or Test Agent to a Network Adapter in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "controllers, netwrok adapter"
   - "agents, configuring"

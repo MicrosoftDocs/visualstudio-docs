@@ -1,7 +1,7 @@
 ---
-title: "Configure Ports for Test Controllers and Test Agents in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "conceptual"
+title: "Configure Ports for Test Controllers and Test Agents in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "firewalls, configuring for test agents"
   - "firewalls, configuring for test controllers"

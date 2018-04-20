@@ -1,7 +1,7 @@
 ---
-title: "Comparing load test results in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "conceptual"
+title: "Comparing load test results in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "load tests, reporting"
   - "load tests, results"

@@ -1,7 +1,7 @@
 ---
-title: "How to: Select a Load Test Results Repository in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "conceptual"
+title: "How to: Select a Load Test Results Repository in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 f1_keywords:
   - "vs.test.load.dialog.connectstringmissing"
   - "vs.test.load.dialog.databaseconnectstring"

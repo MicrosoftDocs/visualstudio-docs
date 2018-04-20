@@ -1,7 +1,7 @@
 ---
-title: "Timing Details Storage Property for a Load Test Run Setting in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "conceptual"
+title: "Timing Details Storage Property for a Load Test Run Setting in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "load tests, properties"
   - "load tests, run settings"

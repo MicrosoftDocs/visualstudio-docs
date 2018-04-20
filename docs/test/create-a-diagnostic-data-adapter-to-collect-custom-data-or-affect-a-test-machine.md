@@ -1,7 +1,7 @@
 ---
-title: "Create a Diagnostic Data Adapter for testing in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "conceptual"
+title: "Create a Diagnostic Data Adapter for testing in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "Diagnostic Data Adapter [Visual Studio ALM]"
   - "Diagnostic Data Adapter"

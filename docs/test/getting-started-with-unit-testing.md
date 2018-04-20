@@ -1,8 +1,8 @@
 ---
-title: "Get started with unit testing in Visual Studio | Microsoft Docs"
-ms.date: "05/02/2017"
+title: "Get started with unit testing in Visual Studio"
+ms.date: 05/02/2017
 ms.technology: vs-ide-test
-ms.topic: "conceptual"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "unit testing, create unit test plans"
 ms.author: gewarren

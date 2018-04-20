@@ -1,7 +1,7 @@
 ---
-title: "Create a Load Test Plug-In in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "conceptual"
+title: "Create a Load Test Plug-In in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 f1_keywords:
   - "vs.test.load.loadtestplugin"
 helpviewer_keywords:
@@ -97,7 +97,8 @@ You can create a load test plug-in to run code at different times while the load
 The following code shows a load test plug-in that runs custom code after a LoadTestFinished event occurs. If this code is run on a test agent on a remote machine and the test agent does not have a localhost SMTP service, the load test will remain in the "In progress" state because a message box will be open.
 
 > [!NOTE]
->  The following code requires that you add a reference to System.Windows.Forms.
+> The following code requires that you add a reference to System.Windows.Forms.
+
 
 ```csharp
 using System;

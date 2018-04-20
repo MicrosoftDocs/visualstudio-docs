@@ -1,7 +1,7 @@
 ---
-title: "Editing Text Mix Models in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "conceptual"
+title: "Editing Text Mix Models in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "load tests, scenarios"
   - "load tests, virtual users"

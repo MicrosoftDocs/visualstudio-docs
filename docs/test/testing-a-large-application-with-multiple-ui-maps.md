@@ -1,8 +1,8 @@
 ---
-title: "Testi a Large Application with Multiple UI Maps in Visual Studio | Microsoft Docs"
-ms.date: "11/04/2016"
+title: "Testi a Large Application with Multiple UI Maps in Visual Studio"
+ms.date: 11/04/2016
 ms.technology: vs-ide-test
-ms.topic: "conceptual"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "coded UI tests, multiple UI maps"
   - "coded UI tests, for large applications"

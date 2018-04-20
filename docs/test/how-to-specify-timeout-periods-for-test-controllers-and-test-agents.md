@@ -1,7 +1,7 @@
 ---
-title: "Timeout Periods for Test Controllers and Test Agents in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "conceptual"
+title: "Timeout Periods for Test Controllers and Test Agents in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "agents, configuring"
   - "agetns, timeouts"

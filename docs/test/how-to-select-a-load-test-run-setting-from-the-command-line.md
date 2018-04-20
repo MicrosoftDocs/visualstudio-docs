@@ -1,7 +1,7 @@
 ---
-title: "Set Visual Studio load test run settings from the command line | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "conceptual"
+title: "Set Visual Studio load test run settings from the command line"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "load tests, command line"
   - "load tests, run settings, selecting"

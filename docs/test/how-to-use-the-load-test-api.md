@@ -1,7 +1,7 @@
 ---
-title: "Load Test API in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "conceptual"
+title: "Load Test API in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "code, load tests"
   - "plug-ins, load test"

@@ -1,8 +1,8 @@
 ---
-title: "Using Different Web Browsers with Coded UI Tests in Visual Studio | Microsoft Docs"
-ms.date: "11/04/2016"
+title: "Using Different Web Browsers with Coded UI Tests in Visual Studio"
+ms.date: 11/04/2016
 ms.technology: vs-ide-test
-ms.topic: "conceptual"
+ms.topic: conceptual
 ms.author: gewarren
 manager: douge
 ms.workload:
