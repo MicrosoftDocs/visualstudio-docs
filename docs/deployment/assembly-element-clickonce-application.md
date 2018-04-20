@@ -2,9 +2,8 @@
 title: "&lt;assembly&gt; Element (ClickOnce Application) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-deployment"
-ms.topic: "conceptual"
+ms.technology: vs-ide-deployment
+ms.topic: "reference"
 f1_keywords: 
   - "urn:schemas-microsoft-com:asm.v2#assembly"
 dev_langs: 
@@ -14,9 +13,9 @@ dev_langs:
 helpviewer_keywords: 
   - "<assembly> element [ClickOnce application manifest]"
 ms.assetid: 51410569-10f9-4c0a-96b5-d39185edbefc
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

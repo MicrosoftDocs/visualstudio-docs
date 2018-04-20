@@ -2,8 +2,7 @@
 title: "Profiling Feature Tour | Microsoft Docs"
 ms.custom: "H1HackMay2017"
 ms.date: "05/18/2017"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "debugger"

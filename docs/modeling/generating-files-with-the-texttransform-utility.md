@@ -1,7 +1,7 @@
 ---
-title: "Generating Files with the TextTransform Utility in Visual Studio | Microsoft Docs"
+title: Generating Files with the TextTransform Utility in Visual Studio
 ms.date: 03/22/2018
-ms.topic: "conceptual"
+ms.topic: conceptual
 helpviewer_keywords:
   - "text templates, TextTransform utility"
   - "TextTransform.exe"

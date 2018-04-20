@@ -1,17 +1,16 @@
 ---
-title: "Viewing call hierarchy in Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "01/10/2018"
+title: Viewing call hierarchy in Visual Studio
+ms.date: 01/10/2018
 ms.technology: vs-ide-general
-ms.topic: "conceptual"
-f1_keywords: 
+ms.topic: reference
+f1_keywords:
   - "VS.CallHierarchy"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Call Hierarchy"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # View call hierarchy

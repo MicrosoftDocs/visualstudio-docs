@@ -2,8 +2,7 @@
 title: "How to: Create File Associations For a ClickOnce Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-deployment"
+ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -13,9 +12,9 @@ helpviewer_keywords:
   - "file associations, ClickOnce applications"
   - "ClickOnce deployment, file associations"
 ms.assetid: 835230c8-3177-440f-85e3-e40f1d8b4f9d
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -2,8 +2,7 @@
 title: "Deploying ClickOnce Applications For Testing and Production Servers without Resigning | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-deployment"
+ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -17,9 +16,9 @@ helpviewer_keywords:
   - "deploymentProvider tag"
   - "manifests [ClickOnce]"
 ms.assetid: 1218a98d-1ad5-4eef-95dd-0e0b3c44168c
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

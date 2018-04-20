@@ -3,7 +3,7 @@ title: "Property Element (MSBuild) | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/13/2017"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "<Property> Element [MSBuild]"
   - "Property Element [MSBuild]"
 ms.assetid: 69ab08ab-3e76-41dd-a01b-49aa1d2e0cac
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

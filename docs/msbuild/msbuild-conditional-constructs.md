@@ -3,7 +3,7 @@ title: "MSBuild Conditional Constructs | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -19,7 +19,7 @@ helpviewer_keywords:
   - "Otherwise Element [MSBuild]"
   - "When Element [MSBuild]"
 ms.assetid: dd54258e-f4fb-448f-9da4-d1817e0cbaf2
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

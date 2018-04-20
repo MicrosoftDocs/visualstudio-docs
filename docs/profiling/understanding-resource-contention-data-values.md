@@ -2,8 +2,7 @@
 title: "Understanding Resource Contention Data Values | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "concurrency profiling method"

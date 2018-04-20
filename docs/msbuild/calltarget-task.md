@@ -3,7 +3,7 @@ title: "CallTarget Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "CallTarget task [MSBuild]"
   - "MSBuild, CallTarget task"
 ms.assetid: bb1fe2c4-4383-436f-8326-c24cc4a46150
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

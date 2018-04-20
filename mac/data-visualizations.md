@@ -4,7 +4,6 @@ description: Debugging is a common, and necessary, part of programming. Visual S
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017
-ms.topic: article
 ms.technology: vs-ide-debug
 ms.assetid: 527E6BEC-EF15-4002-ACB5-62AE1C16F6B7
 ---

@@ -2,8 +2,7 @@
 title: "Debugging ClickOnce Applications That Use System.Deployment.Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-deployment"
+ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -15,9 +14,9 @@ helpviewer_keywords:
   - "debugging, System.Deployment"
   - "deploying applications [ClickOnce], debugging"
 ms.assetid: 86f31948-2ca8-47c0-8e8b-c2b817bbf79f
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

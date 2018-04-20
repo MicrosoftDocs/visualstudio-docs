@@ -2,8 +2,7 @@
 title: "How to: Check for Application Updates Programmatically Using the ClickOnce Deployment API | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-deployment"
+ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -13,9 +12,9 @@ helpviewer_keywords:
   - "ClickOnce deployment, updates"
   - "application updates"
 ms.assetid: 1a886310-67c8-44e5-a382-c2f0454f887d
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -3,7 +3,7 @@ title: "Sdk Element (MSBuild) | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/25/2018"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "reference"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#Project"
 dev_langs: 
@@ -14,9 +14,9 @@ dev_langs:
 helpviewer_keywords: 
   - "Sdk element [MSBuild]"
   - "<Sdk> element [MSBuild]"
-author: "jeffkl"
-ms.author: jeffkl
-manager: angerlic
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -1,13 +1,12 @@
 ---
-title: "How to: Enable and Disable Automatic Code Analysis for Managed Code | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
+title: "How to: Enable and Disable Automatic Code Analysis for Managed Code"
+ms.date: 11/04/2016
 ms.technology: vs-ide-code-analysis
 ms.topic: "conceptual"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "dotnet"
 ---
 # How to: Enable and disable automatic code analysis for managed code

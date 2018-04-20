@@ -2,8 +2,7 @@
 title: "Create a visual map of the call stack | Microsoft Docs"
 ms.custom: ""
 ms.date: "05/18/2017"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.progression.debugwithcodemaps"
@@ -29,7 +28,7 @@ helpviewer_keywords:
 ms.assetid: d6a72e5e-f88d-46fc-94a3-1789d34805ef
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "douge"
+manager: douge
 ms.workload: 
   - "multiple"
 ---

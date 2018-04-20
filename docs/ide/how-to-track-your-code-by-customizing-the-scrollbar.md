@@ -1,16 +1,15 @@
 ---
-title: "How to: Track Your Code by Customizing the Scrollbar | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
+title: "How to: Track your code by customizing the scrollbar"
+ms.technology:$1ms.date: 11/04/2016
 ms.technology: vs-ide-general
-ms.topic: "conceptual"
-author: "gewarren"
-ms.author: "gewarren"
+ms.topic: conceptual
+author: gewarren
+ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
-# How to: Track Your Code by Customizing the Scrollbar
+# How to: Track your code by customizing the scrollbar
 
 When you are working with long code files, it can be hard to keep everything in mind. You can customize the scroll bar of the code window to give you a bird's eye view of what's happening in your code.
 
@@ -18,7 +17,7 @@ When you are working with long code files, it can be hard to keep everything in 
 
 1. You can set up the scroll bar to show code changes, breakpoints, errors, and bookmarks.
 
-    Open the **Scroll Bar** options page by choosing **Tools** > **Options** > **Text Editor** > **All Languages** or a specific language, or by entering  **scroll bar** in the Quick Launch window.
+    Open the **Scroll Bar** options page by choosing **Tools** > **Options** > **Text Editor** > **All Languages** or a specific language, or by entering  **scroll bar** in the **Quick Launch** window.
 
 2. Select **Show Annotations over vertical scroll bar**, then select the annotations you want to see.
 
@@ -40,7 +39,7 @@ When you are working with long code files, it can be hard to keep everything in 
 
     On the **Scroll Bar** options page, select either **Use Bar mode for vertical scroll bar** or **Use Map mode for vertical scroll bar**. You can choose the width in the **Source Overview** drop-down.
 
-    Here's how the search example looks when map mode is on and the width is set to Medium:
+    Here's how the search example looks when map mode is on and the width is set to **Medium**:
 
     ![The scroll bar in map mode](../ide/media/enhancedscrollbar.png "EnhancedScrollbar")
 
@@ -52,4 +51,4 @@ When you are working with long code files, it can be hard to keep everything in 
 
 ## See also
 
-[Writing Code in the Editor](../ide/writing-code-in-the-code-and-text-editor.md)
+- [Write code in the editor](../ide/writing-code-in-the-code-and-text-editor.md)

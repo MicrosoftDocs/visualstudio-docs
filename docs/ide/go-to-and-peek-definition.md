@@ -1,17 +1,16 @@
 ---
-title: "Viewing type definitions in Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "01/10/2018"
+title: Viewing type definitions in Visual Studio
+ms.date: 01/10/2018
 ms.technology: vs-ide-general
-ms.topic: "conceptual"
+ms.topic: conceptual
 helpviewer_keywords:
   - "code editor, view definition"
   - "go to definition"
   - "peek definition"
   - "type definition [Visual Studio]"
   - "member definition [Visual Studio]"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
@@ -72,6 +71,5 @@ New in Visual Studio 2017 version 15.6, you can set an option to see decompiled 
 
 ## See also
 
-[Navigating code](../ide/navigating-code.md)
-
-[How to: View and edit code by using Peek Definition (Alt+F12)](how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md)
+- [Navigate code](../ide/navigating-code.md)
+- [How to: View and edit code by using Peek Definition (Alt+F12)](how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md)

@@ -1,13 +1,12 @@
 ---
-title: "How to: Build and Run the LinqToXmlDataBinding Example | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
+title: "How to: Build and Run the LinqToXmlDataBinding Example"
+ms.date: 11/04/2016
 ms.technology: vs-ide-designers
-ms.topic: "conceptual"
-author: "gewarren"
-ms.author: "gewarren"
+ms.topic: conceptual
+author: gewarren
+ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # How to: Build and Run the LinqToXmlDataBinding Example
@@ -74,6 +73,6 @@ The LinqToXmlDataBinding program enables the user to view and manipulate a list 
 
 ## See also
 
-[WPF Data Binding Using LINQ to XML Example](../designers/wpf-data-binding-using-linq-to-xml-example.md)  
-[Walkthrough: LinqToXmlDataBinding Example](../designers/walkthrough-linqtoxmldatabinding-example.md)  
-[Visual Studio IDE Overview](../ide/visual-studio-ide.md)
+- [WPF Data Binding Using LINQ to XML Example](../designers/wpf-data-binding-using-linq-to-xml-example.md)
+- [Walkthrough: LinqToXmlDataBinding Example](../designers/walkthrough-linqtoxmldatabinding-example.md)
+- [Visual Studio IDE Overview](../ide/visual-studio-ide.md)

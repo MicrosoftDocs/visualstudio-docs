@@ -1,10 +1,9 @@
 ---
-title: "Projects and Solutions in Visual Studio for Mac | Microsoft Docs"
+title: "Projects and Solutions in Visual Studio for Mac"
 description: This document provides an overview of Projects and Solutions in Visual Studio for Mac.
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017
-ms.topic: article
 ms.assetid: 8254505D-D96E-48BD-8A5E-CF6A917897EA
 ---
 # Projects and Solutions

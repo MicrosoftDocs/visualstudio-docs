@@ -3,14 +3,14 @@ title: "GetReferenceAssemblyPaths Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs: 
   - "VB"
   - "CSharp"
   - "C++"
   - "jsharp"
 ms.assetid: 178ef49c-5dee-405b-a14b-a37f41dc0609
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

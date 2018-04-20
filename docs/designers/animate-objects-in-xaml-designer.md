@@ -4,8 +4,8 @@ ms.date: 04/11/2018
 ms.technology: vs-ide-designers
 ms.topic: conceptual
 ms.assetid: fb88fa26-e835-47f5-9771-2f279441c83c
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "uwp"

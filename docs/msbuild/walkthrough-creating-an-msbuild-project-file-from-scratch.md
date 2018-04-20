@@ -7,7 +7,7 @@ ms.topic: "conceptual"
 helpviewer_keywords: 
   - "MSBuild, tutorial"
 ms.assetid: e3acff7c-cb4e-4ae1-8be2-a871bcff847b
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 
