@@ -43,13 +43,13 @@ Microsoft is committed to making its products and services easier for everyone t
 
 ##  <a name="windows"></a> Accessibility features of Windows
 
- The Windows operating system has many built-in accessibility features that are useful for individuals who have difficulty typing or using a mouse, are blind or have low vision, or who are deaf or hard-of-hearing. The features are installed during Setup. For more information about these features, see Help in Windows and the [Microsoft Accessibility Web site](http://go.microsoft.com/fwlink/?LinkId=8431).
+ The Windows operating system has many built-in accessibility features that are useful for individuals who have difficulty typing or using a mouse, are blind or have low vision, or who are deaf or hard-of-hearing. The features are installed during Setup. For more information about these features, see Help in Windows and the [Microsoft Accessibility](http://go.microsoft.com/fwlink/?LinkId=8431) website.
 
 ### Free step-by-step tutorials
 
  Microsoft offers a series of step-by-step tutorials that provide detailed procedures for adjusting the accessibility options and settings on your computer. This information is presented in a side-by-side format so that you can learn how to use the mouse, the keyboard, or a combination of both.
 
- To find step-by-step tutorials for Microsoft products, see the [Microsoft Accessibility Web site](http://go.microsoft.com/fwlink/?LinkId=8431).
+ To find step-by-step tutorials for Microsoft products, see the [Microsoft Accessibilit](http://go.microsoft.com/fwlink/?LinkId=8431) website.
 
 ### Assistive technology products for Windows
 
@@ -59,7 +59,7 @@ Microsoft is committed to making its products and services easier for everyone t
 
 ##  <a name="altfortmats"></a> Documentation in alternative formats
 
- If you have difficulty reading or handling printed materials, you can obtain the documentation for many Microsoft products in more accessible formats. You can view an index of accessible product documentation on the [Microsoft Accessibility Web site](http://go.microsoft.com/fwlink/?LinkId=8431).
+ If you have difficulty reading or handling printed materials, you can obtain the documentation for many Microsoft products in more accessible formats. You can view an index of accessible product documentation on the [Microsoft Accessibility](http://go.microsoft.com/fwlink/?LinkId=8431) website.
 
  In addition, you can obtain additional Microsoft publications from Recording for the Blind & Dyslexic, Inc (RFB&D). RFB&D distributes these documents to registered, eligible members of their distribution service. For information about the availability of Microsoft product documentation and books from Microsoft Press, contact:
 

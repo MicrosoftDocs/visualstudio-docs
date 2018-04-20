@@ -65,6 +65,7 @@ Some other useful shortcut key combinations include the following.
 > The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition.
 
 ## Use the Sound applet to set build and breakpoint cues
+
 You can use the Sound applet in Windows to assign a sound to Visual Studio program events. Specifically, you can assign sounds to the following program events:
 
  * Breakpoint hit
