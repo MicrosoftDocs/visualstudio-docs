@@ -32,24 +32,21 @@ However, there are more features available to users who upgrade their version of
 
 ## Registering Dotfuscator CE
 
-Registered users of Dotfuscator CE get access to additional features, such as [command line support][cli], which makes it easy to integrate Dotfuscator CE into your automated build process.
-In addition, registering will grant access to Lucidator, a built-in tool used for [decoding obfuscated stack traces][decode-obfuscated].
+Registered users of Dotfuscator CE get access to additional features, such as [command-line support][cli], which makes it easy to integrate Dotfuscator CE into your automated build process. Registering also grants access to Lucidator, a built-in tool used for [decoding obfuscated stack traces][decode-obfuscated].
 
 Registration is quick, simple, and free of charge.
 To register Dotfuscator CE, see [the Registering Dotfuscator CE section on the Getting Started page of the full Dotfuscator CE User Guide][register-ce].
 
 ## Dotfuscator Professional
 
-While Dotfuscator Community Edition provides a basic level of protection,
-**_PreEmptive Protection - Dotfuscator_ Professional Edition** includes enhanced obfuscation transforms and protection capabilities.
-These include:
+While Dotfuscator Community Edition provides a basic level of protection, **_PreEmptive Protection - Dotfuscator_ Professional Edition** includes enhanced obfuscation transforms and protection capabilities. The enhanced transforms and capabilities include:
 
 * *Intellectual Property Protection*
   * Additional renaming options, including Enhanced Overload Induction™ and randomized identifier selection.
   * Tooling for decoding obfuscated stack traces.
   * Access to enterprise-level obfuscation transforms, including [transforms targeted at defeating automated code decompilation][control-flow].
   * The ability to [obscure sensitive strings][string-encryption], making a simple search of the decompiled code impossible.
-  * The ability to [discreetly embed ownership and distribution strings into your assemblies][watermarking] (software watermarking), allowing you to determine the source of unauthorized software leaks.
+  * The ability to [discreetly embed ownership and distribution strings into your assemblies][watermarking], allowing you to determine the source of unauthorized software leaks.
   * The ability to [combine multiple assemblies into one][linking], making it even more difficult for attackers to determine the roles of code elements, as separation of concerns has been eliminated.
   * The ability to [automatically remove unused code from your application][pruning], reducing the amount of sensitive code that is shipped.
 * *Application Integrity Protection*
@@ -59,7 +56,7 @@ These include:
   * Telemetry encryption.
 * *Application Monitoring*
   * The ability to collect and save collected information during temporary network outages.
-  * The ability to collect personally-identifiable information.
+  * The ability to collect personally identifiable information.
   * Unlimited use of [feature tracking][features].
   * The ability to track exceptions caught and thrown by your code, in addition to unhandled exceptions.
   * The ability to track exceptions in `.dll` assemblies.
@@ -68,12 +65,12 @@ These include:
 Dotfuscator Professional is the industry standard [.NET Obfuscator][net-obfuscator] and is suitable for enterprise developers requiring ongoing support, maintenance, and product updates.
 Additionally, Dotfuscator Professional offers tighter integration with Visual Studio and is licensed for commercial use.
 
-For more information on the advanced application protection features of Dotfuscator Professional, please visit PreEmptive Solutions' [Dotfuscator Overview page][product-about] and [compare it to Community Edition][product-compare].
-[Fully-supported trials are available on request at preemptive.com][eval].
+For more information about the advanced application protection features of Dotfuscator Professional, visit PreEmptive Solutions' [Dotfuscator Overview page][product-about] and [compare it to Community Edition][product-compare].
+[Fully supported trials are available at preemptive.com][eval].
 
 ## See Also
 
-[This topic in the full Dotfuscator CE User Guide][full]
+[This article in the full Dotfuscator CE User Guide][full]
 
 <!-- Copyright © 2017 PreEmptive Solutions, LLC -->
 

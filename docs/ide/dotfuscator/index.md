@@ -29,8 +29,8 @@ Dotfuscator works on compiled assemblies without the need for additional program
 ## Why Protection Matters
 
 It's important to **protect your intellectual property** (IP).
-Your application's code contains design and implementation details which can be considered IP.
-However, applications built on the .NET Framework [contain significant metadata and high-level intermediate code][assemblies], making them very easy to reverse engineer, just by using one of many free, automated tools.
+Your application's code contains design and implementation details, which can be considered IP.
+However, applications built on the .NET Framework [contain significant metadata and high-level intermediate code][assemblies], making them easy to reverse engineer, just by using one of many free, automated tools.
 By disrupting and stopping reverse-engineering, you can prevent unauthorized IP disclosure, as well as demonstrate that your code contains trade secrets.
 Dotfuscator can [obfuscate][obfuscation] your .NET assemblies to hinder reverse-engineering, while maintaining original application behavior.
 
@@ -45,7 +45,7 @@ For more information on how Dotfuscator fits into a secure software development 
 Your copy of Microsoft Visual Studio 2017 includes a copy of ***PreEmptive Protection - Dotfuscator* Community Edition**, also known as Dotfuscator CE, free for personal use.
 For instructions on how to install the version of Dotfuscator CE included with Visual Studio 2017, see the [Installation page][install].
 
-Dotfuscator CE offers a range of [software protection and hardening][software-protection] services for developers, architects and testers.
+Dotfuscator CE offers a range of [software protection and hardening][software-protection] services for developers, architects, and testers.
 Examples of [.NET Obfuscation][obfuscation] and other [Application Protection][app-protection] features included in Dotfuscator CE are:
 
 * *[Renaming][renaming]* of identifiers to make reverse-engineering of the compiled assemblies more difficult.
@@ -66,16 +66,16 @@ For information about enhancing Dotfuscator, see the [Upgrades page][upgrades].
 
 To begin using Dotfuscator CE from Visual Studio, type `dotfuscator` into the **Quick Launch** (Ctrl+Q) search bar.
 
-* If Dotfuscator CE is already installed, this will bring up the *Menu* option to start the Dotfuscator CE user interface. For details, see [the Getting Started page of the full Dotfuscator CE User Guide][get-started].
-* If Dotfuscator CE is not yet installed, this will bring up the relevant *Install* option. See the [Installation page][install] for details.
+* If Dotfuscator CE is already installed, **Quick Launch** brings up the *Menu* option to start the Dotfuscator CE user interface. For details, see [the Getting Started page of the full Dotfuscator CE User Guide][get-started].
+* If Dotfuscator CE is not yet installed, **Quick Launch** brings up the relevant *Install* option. See the [Installation page][install] for details.
 
 You can also get the **latest version** of Dotfuscator CE from [the Dotfuscator Downloads page on preemptive.com][download].
 
 ## Full Documentation
 
-This page and its sub-pages provide a high-level overview of Dotfuscator CE's features, as well as [instructions for installing the tool][install].
+This page and its subpages provide a high-level overview of Dotfuscator CE's features, as well as [instructions for installing the tool][install].
 
-Please see [the full Dotfuscator CE User Guide at preemptive.com][full] for detailed usage instructions, including [how to start using the Dotfuscator CE user interface][get-started].
+See [the full Dotfuscator CE User Guide at preemptive.com][full] for detailed usage instructions, including [how to start using the Dotfuscator CE user interface][get-started].
 
 <!-- Copyright © 2017 PreEmptive Solutions, LLC -->
 
