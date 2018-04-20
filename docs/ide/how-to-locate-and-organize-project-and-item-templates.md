@@ -1,17 +1,16 @@
 ---
-title: "Organize templates in Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "01/02/2018"
+title: Organize templates in Visual Studio
+ms.date: 01/02/2018
 ms.technology: vs-ide-general
-ms.topic: "conceptual"
-helpviewer_keywords: 
+ms.topic: conceptual
+helpviewer_keywords:
   - "project templates [Visual Studio], locations"
   - "item templates [Visual Studio], locations"
   - "template locations [Visual Studio]"
   - "Visual Studio templates, organizing"
   - "templates [Visual Studio], organizing"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ---
 # How to: Locate and organize project and item templates
@@ -116,8 +115,8 @@ You can enable templates in subcategories to be displayed in their parent catego
 
 ## See also
 
-[Customize templates](../ide/customizing-project-and-item-templates.md)  
-[Visual Studio template schema reference (extensibility)](../extensibility/visual-studio-template-schema-reference.md)  
-[NumberOfParentCategoriesToRollUp (Visual Studio templates)](../extensibility/numberofparentcategoriestorollup-visual-studio-templates.md)  
-[How to: Create project templates](../ide/how-to-create-project-templates.md)  
-[How to: Create item templates](../ide/how-to-create-item-templates.md)
+- [Customize templates](../ide/customizing-project-and-item-templates.md)
+- [Visual Studio template schema reference (extensibility)](../extensibility/visual-studio-template-schema-reference.md)
+- [NumberOfParentCategoriesToRollUp (Visual Studio templates)](../extensibility/numberofparentcategoriestorollup-visual-studio-templates.md)
+- [How to: Create project templates](../ide/how-to-create-project-templates.md)
+- [How to: Create item templates](../ide/how-to-create-item-templates.md)

@@ -25,7 +25,7 @@ If you haven't already done so, sign in to Visual Studio before you report a pro
 2. If you are not signed in, select **Sign In**; it's on the right-hand side of the tool, as shown in the following screenshot.
 3. Follow the instructions on-screen to sign in.
 
- ![Sign in to report a problem](../ide/media/sign-in-new-ux.png "Sign in to report a problem")  
+ ![Sign in to report a problem](../ide/media/sign-in-new-ux.png "Sign in to report a problem")
 
 ## Search and vote for similar problems <a name="search_and_vote"></a>
 
