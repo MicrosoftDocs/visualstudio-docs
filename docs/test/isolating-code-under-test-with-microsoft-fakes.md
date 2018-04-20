@@ -30,8 +30,8 @@ Fakes come in two flavors:
 -   Visual Studio Enterprise
 -   A .NET Framework project
 
-[!NOTE]
-.NET Standard projects are not supported.
+> [!NOTE]
+> .NET Standard projects are not supported.
 
 ## Choosing between stub and shim types
 Typically, you would consider a Visual Studio project to be a component, because you develop and update those classes at the same time. You would consider using stubs and shims for calls that the project makes to other projects in your solution, or to other assemblies that the project references.
