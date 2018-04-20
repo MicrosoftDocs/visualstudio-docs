@@ -1,5 +1,5 @@
 ---
-title: "Schema Cache"
+title: "XML Editor Schema Cache"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
 ms.technology: vs-xml-tools
@@ -96,8 +96,9 @@ The catalog document can include a `Catalog` element, which points to other cata
   targetNamespace="http://www.microsoft.com/schema/EnterpriseTemplates/TDLSchema"/>
 ```
 
-## Changing the Location of the Schema Cache
- You can customize the location for the schema cache using the **Miscellaneous** options page. If you have a directory of favorite schemas, the editor can be configured to use those schemas instead.
+## Change the Location of the Schema Cache
+
+You can customize the location for the schema cache using the **Miscellaneous** options page. If you have a directory of favorite schemas, the editor can be configured to use those schemas instead.
 
 > [!NOTE]
 > This change affects only the current Visual Studio user.

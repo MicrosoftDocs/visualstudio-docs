@@ -1,5 +1,5 @@
 ---
-title: "How to: Add Schema Set Search Result Nodes to the Workspace"
+title: "Add XML Schema Set Search Result Nodes to the Workspace"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
 ms.technology: vs-xml-tools

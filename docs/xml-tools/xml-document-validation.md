@@ -1,5 +1,5 @@
 ---
-title: "XML Document Validation"
+title: "XML Document Validation in XML Editor"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
 ms.technology: vs-xml-tools

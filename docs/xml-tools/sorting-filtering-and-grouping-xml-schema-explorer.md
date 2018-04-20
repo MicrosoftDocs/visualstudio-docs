@@ -1,5 +1,5 @@
 ---
-title: "Sorting, Filtering, and Grouping (XML Schema Explorer)"
+title: "Sorting, Filtering, and Grouping in XML Schema Explorer"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
 ms.technology: vs-xml-tools

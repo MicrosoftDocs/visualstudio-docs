@@ -1,5 +1,5 @@
 ---
-title: "Searching the Schema Set"
+title: "XML Schema Explorer - search the schema set"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
 ms.technology: vs-xml-tools

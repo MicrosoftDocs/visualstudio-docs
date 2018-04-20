@@ -1,5 +1,5 @@
 ---
-title: "How to: Examine the Content Model of Nodes Using the Content Model View"
+title: "Examine the Content Model of Nodes Using the Content Model View in XML Schema Designer"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
 ms.technology: vs-xml-tools

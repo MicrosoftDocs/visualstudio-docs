@@ -1,5 +1,5 @@
 ---
-title: "How to: Add Nodes to the Workspace from the Start View"
+title: "Add Nodes to the Workspace from the Start View in XML Schema Designer"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
 ms.technology: vs-xml-tools
