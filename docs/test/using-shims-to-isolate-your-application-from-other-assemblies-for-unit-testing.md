@@ -21,7 +21,10 @@ author: gewarren
  **Requirements**
 
 -   Visual Studio Enterprise
--   Only for .NET Framework projects. Currently, there is not support for .NET Framework projects that target .NET Standard. 
+-   A .NET Framework project
+
+[!NOTE]
+.NET Standard projects are not supported.
 
 ## Example: The Y2K bug
 
