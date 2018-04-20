@@ -1,19 +1,18 @@
 ---
-title: "Toolbox, HTML Tab | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/21/2017"
+title: Toolbox, HTML Tab
+ms.date: 06/21/2017
 ms.technology: vs-ide-general
-ms.topic: "conceptual"
-f1_keywords: 
+ms.topic: reference
+f1_keywords:
   - "vs.toolbox.html"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Toolbox, HTML tab"
   - "HTML Designer, setting options"
   - "HTML tab in Toolbox"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Toolbox, HTML tab
@@ -158,7 +157,7 @@ Inserts a `textarea` element. You can resize the text area, or use its scroll ba
 When you drag **Textarea** onto the Design view surface, HTML markup like the following is inserted into your document:
 
 ```html
-<textarea id=" textarea 1 name=" textarea 1" rows=2 cols=20></textarea> 
+<textarea id=" textarea 1 name=" textarea 1" rows=2 cols=20></textarea>
 ```
 
 > [!IMPORTANT]
@@ -173,7 +172,7 @@ Inserts a `table` element.
 When you drag **Table** onto the Design view surface, HTML markup like the following is inserted into your document:
 
 ```html
-<table cellspacing="1" width="75%" border=1> <tr><td></td></tr></table> 
+<table cellspacing="1" width="75%" border=1> <tr><td></td></tr></table>
 ```
 
 **Image**
@@ -228,4 +227,4 @@ When you drag **Div** onto the Design view surface, HTML markup like the followi
 
 ## See also
 
-[Toolbox](../../ide/reference/toolbox.md)
+- [Toolbox](../../ide/reference/toolbox.md)
