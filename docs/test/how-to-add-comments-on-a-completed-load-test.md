@@ -1,7 +1,7 @@
 ---
-title: "Add Comments while Analyzing a Completed Load Test in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "conceptual"
+title: "Add Comments while Analyzing a Completed Load Test in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "load tests, adding comments"
 ms.assetid: e6b68940-4fb6-4bd6-bcde-f6477adc7af9

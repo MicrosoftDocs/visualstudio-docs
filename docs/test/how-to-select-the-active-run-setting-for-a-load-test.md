@@ -1,7 +1,7 @@
 ---
-title: "Select a Run Setting for a Load Test in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "conceptual"
+title: "Select a Run Setting for a Load Test in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "load tests, run settings, active"
 ms.assetid: ed6ff546-acfa-4dd8-b3a2-6e7455930ca4
@@ -38,7 +38,8 @@ In the Load Test Editor, the active run setting is identified by the "[Active]" 
      The run setting selected becomes active, and remains active until you select a different run setting to be active.
 
 > [!NOTE]
->  You can override the active run setting by setting an environment variable named `Test.UseRunSetting=<run setting name>`. This is useful when you run a load test from the command line or from a batch file. This lets you choose different run settings without opening your load test.
+> You can override the active run setting by setting an environment variable named `Test.UseRunSetting=<run setting name>`. This is useful when you run a load test from the command line or from a batch file. This lets you choose different run settings without opening your load test.
+
 
 ## Specifying the Run Setting to Use from the Command Line
  You can override the default run settings in your load test by setting an environment variable from the command line:

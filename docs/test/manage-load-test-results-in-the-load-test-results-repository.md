@@ -1,7 +1,7 @@
 ---
-title: "Manage Load Test Results in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "conceptual"
+title: "Manage Load Test Results in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "load tests, results repository"
   - "results, load test"

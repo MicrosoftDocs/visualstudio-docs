@@ -1,7 +1,7 @@
 ---
-title: "Create a Recorder Plug-In for web performance tests in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "conceptual"
+title: "Create a Recorder Plug-In for web performance tests in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "Web performance tests, recorder plug-in"
 ms.assetid: 6fe13be1-aeb5-4927-9bff-35950e194da9

@@ -1,7 +1,7 @@
 ---
-title: "Emulating Real-World Usage of a Web Site for load testing in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "conceptual"
+title: "Emulating Real-World Usage of a Web Site for load testing in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "load model, specifying"
   - "load test load model, specifying"

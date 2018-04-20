@@ -1,7 +1,7 @@
 ---
-title: "Counter Sets and Threshold Rules for load testing in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "conceptual"
+title: "Counter Sets and Threshold Rules for load testing in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "counters, counter sets"
   - "load tests, thresholds"

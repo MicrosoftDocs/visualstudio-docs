@@ -1,7 +1,7 @@
 ---
-title: "Add Run Settings to a Load Test in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "conceptual"
+title: "Add Run Settings to a Load Test in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "load tests, run settings, adding"
   - "load tests, run settings"

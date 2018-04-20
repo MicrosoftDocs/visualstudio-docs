@@ -1,7 +1,7 @@
 ---
-title: "Apply Distribution to Pacing Delay for load testing in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "conceptual"
+title: "Apply Distribution to Pacing Delay for load testing in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "load tests, test mix model"
 ms.assetid: ae8b35f9-d465-4d72-8d7d-7b56ae6ffd22
