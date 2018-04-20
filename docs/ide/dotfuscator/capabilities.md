@@ -15,9 +15,9 @@ helpviewer_keywords:
 description: "Learn the capabilities of the free Dotfuscator Community Edition included in Visual Studio 2017."
 ms.assetid: 0ee89c58-c900-48fc-a6a2-65ace00e8bab
 author: "Joe-Sewell-PreEmptive"
+ms.author: gewarren
 manager: douge
 ---
-
 # Capabilities of Dotfuscator
 
 This page focuses on the capabilities of Dotfuscator Community Edition (Dotfuscator CE) with some references to advanced options available through [upgrades][upgrades].

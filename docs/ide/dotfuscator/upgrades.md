@@ -22,9 +22,9 @@ helpviewer_keywords:
 description: "Learn how to upgrade the free Dotfuscator Community Edition included in Visual Studio 2017."
 ms.assetid: c7c60904-27f9-4f1f-b79b-ddf65041b810
 author: "Joe-Sewell-PreEmptive"
+ms.author: gewarren
 manager: douge
 ---
-
 # Upgrade Dotfuscator Community Edition (CE)
 
 Dotfuscator Community Edition (Dotfuscator CE) offers many application protection and hardening features immediately to all developers using Microsoft Visual Studio.
