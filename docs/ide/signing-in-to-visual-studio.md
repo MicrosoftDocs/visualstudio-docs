@@ -1,13 +1,13 @@
 ---
-title: "Sign in to Visual Studio | Microsoft Docs"
+title: "Sign in to Visual Studio"
 ms.custom: ""
 ms.date: 11/16/2017
-ms.technology:
-  - "vs-acquisition"
-ms.topic: "conceptual"
+ms.technology: vs-acquisition
+ms.topic: conceptual
+ms.prod: visual-studio-dev15
 ms.assetid: b9531c25-e4cf-43ae-b331-a9f31a8cd171
-author: "TerryGLee"
-ms.author: "tglee"
+author: TerryGLee
+ms.author: tglee
 manager: douge
 ms.workload:
   - "multiple"
@@ -56,9 +56,9 @@ Unless you sign out, you're automatically signed in to Visual Studio whenever yo
 
 ## Troubleshooting
 
-If you encounter any problems while signing in, please see the [Accounts support page](https://www.visualstudio.com/subscriptions/support/) to get help.
+If you encounter any problems while signing in, please see the [Accounts support](https://www.visualstudio.com/subscriptions/support/) page to get help.
 
 ## See also
 
-[How to unlock Visual Studio](../ide/how-to-unlock-visual-studio.md)  
-[Visual Studio IDE overview](../ide/visual-studio-ide.md)
+* [How to Unlock Visual Studio](../ide/how-to-unlock-visual-studio.md)  
+* [Visual Studio IDE Overview](../ide/visual-studio-ide.md)
