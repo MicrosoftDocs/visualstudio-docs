@@ -1,11 +1,9 @@
 ---
-title: "Navigate code in Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "09/26/2017"
-ms.technology: 
-  - "vs-ide-general"
-ms.topic: "conceptual"
-helpviewer_keywords: 
+title: Navigate code in Visual Studio
+ms.date: 09/26/2017
+ms.technology: vs-ide-general
+ms.topic: conceptual
+helpviewer_keywords:
   - "code editor, navigation"
   - "code editor, go to"
   - "code editor, go to definition"
@@ -16,10 +14,10 @@ helpviewer_keywords:
   - "peek definition"
   - "go to line"
   - "go to"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Navigate code
@@ -60,10 +58,10 @@ To hide the navigation bar, change the **Navigation bar** option in the **Text E
 
 Finds all the references to the selected element in the solution. You can use this to check possible side-effects of a large refactoring, or to verify "dead" code. Press **F8** to jump between results. For more information, see [Find references in your code](finding-references.md).
 
-Input        | Function 
+Input        | Function
 ------------ | ---
-**Keyboard** | Place your text cursor somewhere inside the type name, and press **Shift**+**F12**  
-**Mouse**    | Select **Find All References** from the context menu  
+**Keyboard** | Place your text cursor somewhere inside the type name, and press **Shift**+**F12**
+**Mouse**    | Select **Find All References** from the context menu
 
 ## Reference highlighting
 
@@ -71,7 +69,7 @@ When you click a symbol in the source code, all instances of that symbol are hig
 
 ## Go To commands
 
-Go To has the following commands, which are available in the **Edit** menu under **Go To**:  
+Go To has the following commands, which are available in the **Edit** menu under **Go To**:
 
 - **Go To Line** (**Ctrl**+**G**): Move to the specified line number in the active document.
 
@@ -145,5 +143,5 @@ You can find info about specific code, like changes and who made those changes, 
 
 ## See also
 
-[Write code in the code and text editor](../ide/writing-code-in-the-code-and-text-editor.md)  
-[View call hierarchy](../ide/reference/call-hierarchy.md)
+- [Write code in the code and text editor](../ide/writing-code-in-the-code-and-text-editor.md)
+- [View call hierarchy](../ide/reference/call-hierarchy.md)

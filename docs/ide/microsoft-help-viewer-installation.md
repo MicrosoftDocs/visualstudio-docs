@@ -1,16 +1,15 @@
 ---
-title: "Install Visual Studio offline help | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/01/2017"
+title: Install Visual Studio offline help
+ms.date: 11/01/2017
 ms.technology: vs-help-viewer
-ms.topic: "conceptual"
-helpviewer_keywords: 
+ms.topic: conceptual
+helpviewer_keywords:
   - "installing Help Viewer"
   - "Help Viewer, installing"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Microsoft Help Viewer installation
@@ -45,5 +44,5 @@ Another way to easily install Microsoft Help Viewer is via the **Quick Launch** 
 
 ## See also
 
-[Microsoft Help Viewer](../ide/microsoft-help-viewer.md)  
-[Help viewer and offline content for SQL Server](/sql/sql-server/sql-server-help-installation)
+- [Microsoft Help Viewer](../ide/microsoft-help-viewer.md)
+- [Help viewer and offline content for SQL Server](/sql/sql-server/sql-server-help-installation)

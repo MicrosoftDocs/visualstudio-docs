@@ -1,24 +1,22 @@
 ---
-title: "Manage application resources (.NET) | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-general"
-ms.topic: "conceptual"
-f1_keywords: 
+title: Manage application resources (.NET)
+ms.date: 11/04/2016
+ms.technology: vs-ide-general
+ms.topic: conceptual
+f1_keywords:
   - "msvse_resedit.dlg.SetCustomTool"
   - "msvse_settingsdesigner.err.formatvalue"
   - "msvse_resedit.err.nameblank"
   - "msvse_resedit.err.duplicatename"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Resource Designer"
   - "resources [Visual Studio]"
   - "Resources page in Project Designer"
   - "application resources [Visual Studio]"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Manage application resources (.NET)
@@ -46,4 +44,4 @@ Resources are managed differently in .NET projects than in other project types. 
 
 ## See also
 
-[Resources in desktop apps (.NET Framework)](/dotnet/framework/resources/index)
+- [Resources in desktop apps (.NET Framework)](/dotnet/framework/resources/index)

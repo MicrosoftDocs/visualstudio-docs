@@ -1,8 +1,8 @@
 ---
-title: "Maintain application security in Visual Studio | Microsoft Docs"
-ms.date: "11/04/2016"
+title: Maintain application security in Visual Studio
+ms.date: 11/04/2016
 ms.technology: vs-ide-general
-ms.topic: "conceptual"
+ms.topic: conceptual
 helpviewer_keywords:
   - "unauthorized access"
   - "Baseline Security Analyzer"
@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "MBSA (Microsoft Baseline Security Analyzer)"
   - "security [.NET Framework], maintaining after deployment"
 ms.assetid: 621d10c1-842b-4902-be60-bb9719591751
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"

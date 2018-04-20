@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "namespaces [Visual Studio], referencing"
   - "COM components, referencing"
   - "objects [Visual Studio], referencing"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
