@@ -1,13 +1,11 @@
 ---
 title: "How to: Select the XML Schemas to Use"
-ms.custom: ""
 ms.date: 11/04/2016
-ms.technology:
-  - "vs-ide-general"
+ms.technology: vs-xml-tools
 ms.topic: conceptual
 ms.assetid: d6fda3ef-d465-4788-8514-2f2d528d658c
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
@@ -20,7 +18,8 @@ The XML Editor provides a schema cache located in the %InstallDir%\Xml\Schemas d
  The schemas you specify are saved in the hidden Solution user options file (.suo), along with all other XML document properties. As a result, you do not have to re-enter these values the next time you open the solution.
 
 > [!NOTE]
->  The editor can validate using an inline schema, or a schema referenced by the `xsd:schemaLocation` attribute. For more information, see [XML Document Validation](../xml-tools/xml-document-validation.md).
+> The editor can validate using an inline schema, or a schema referenced by the `xsd:schemaLocation` attribute. For more information, see [XML Document Validation](../xml-tools/xml-document-validation.md).
+
 
 ### To select an XML Schema from the schema cache
 

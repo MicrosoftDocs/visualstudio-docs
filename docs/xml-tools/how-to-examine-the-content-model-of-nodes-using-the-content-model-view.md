@@ -1,13 +1,11 @@
 ---
 title: "How to: Examine the Content Model of Nodes Using the Content Model View"
-ms.custom: ""
 ms.date: 11/04/2016
-ms.technology:
-  - "vs-ide-general"
+ms.technology: vs-xml-tools
 ms.topic: conceptual
 ms.assetid: c42ddac8-b0e3-48d6-9832-112a19d6c104
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"

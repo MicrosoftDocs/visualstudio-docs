@@ -1,13 +1,11 @@
 ---
 title: "How to: Print Diagrams from the Graph View and the Content Model View"
-ms.custom: ""
 ms.date: 11/04/2016
-ms.technology:
-  - "vs-ide-general"
+ms.technology: vs-xml-tools
 ms.topic: conceptual
 ms.assetid: 7e1785e4-4aaf-4c66-8735-51e7ca035565
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"

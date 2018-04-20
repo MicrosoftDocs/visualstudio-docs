@@ -1,13 +1,11 @@
 ---
 title: "XML Schemas Dialog Box"
-ms.custom: ""
 ms.date: 11/04/2016
-ms.technology:
-  - "vs-ide-general"
+ms.technology: vs-xml-tools
 ms.topic: conceptual
 ms.assetid: 0271fa26-2205-49bd-96e0-ae1441571808
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"

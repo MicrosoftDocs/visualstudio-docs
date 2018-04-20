@@ -1,13 +1,11 @@
 ---
 title: "How to: Use the XML Schema Designer with XML Literals"
-ms.custom: ""
 ms.date: 11/04/2016
-ms.technology:
-  - "vs-ide-general"
+ms.technology: vs-xml-tools
 ms.topic: conceptual
 ms.assetid: d11803e7-f81a-41a2-a145-ba494a45cc93
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 dev_langs:
   - "VB"

@@ -1,13 +1,11 @@
 ---
 title: "How to: Add Schema Set Search Result Nodes to the Workspace"
-ms.custom: ""
 ms.date: 11/04/2016
-ms.technology:
-  - "vs-ide-general"
+ms.technology: vs-xml-tools
 ms.topic: conceptual
 ms.assetid: ff33b3cc-4db9-4b4e-9378-b45ed5999b18
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
@@ -16,7 +14,8 @@ ms.workload:
 This topic explains how to add nodes that are highlighted in the XML Schema Explorer as the result of a keyword search in the workspace.
 
 > [!NOTE]
->  Only global nodes can be added to the [workspace](../xml-tools/xml-schema-designer-workspace.md).
+> Only global nodes can be added to the [workspace](../xml-tools/xml-schema-designer-workspace.md).
+
 
  This example uses the sample [Purchase Order Schema](../xml-tools/sample-xsd-file-purchase-order-schema.md).
 

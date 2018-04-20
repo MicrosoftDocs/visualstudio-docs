@@ -1,12 +1,10 @@
 ---
 title: "Walkthrough: Using XSLT Hierarchy"
-ms.custom: ""
 ms.date: 11/04/2016
-ms.technology:
-  - "vs-ide-general"
+ms.technology: vs-xml-tools
 ms.topic: conceptual
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ---
 # Walkthrough: Using XSLT Hierarchy

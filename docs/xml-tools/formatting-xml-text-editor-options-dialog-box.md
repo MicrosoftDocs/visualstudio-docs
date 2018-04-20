@@ -1,13 +1,11 @@
 ---
 title: "Formatting, XML, Text Editor, Options Dialog Box"
-ms.custom: ""
 ms.date: 11/04/2016
-ms.technology:
-  - "vs-ide-general"
+ms.technology: vs-xml-tools
 ms.topic: conceptual
 ms.assetid: bb539b3a-027c-4b2f-906e-403e0e22ba8d
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
@@ -16,14 +14,14 @@ ms.workload:
 This dialog box allows you to specify the formatting settings for the XML Editor. You can access the **Options** dialog box from the **Tools** menu.
 
 > [!NOTE]
->  These settings are available when you select the **Text Editor** folder, the **XML** folder, and then the **Formatting** option from the **Options** dialog box.
+> These settings are available when you select the **Text Editor** folder, the **XML** folder, and then the **Formatting** option from the **Options** dialog box.
 
 ## Attributes
  **Preserve manual attribute formatting**
  Attributes are not reformatted. This is the default.
 
 > [!NOTE]
->  If the attributes are on multiple lines, the editor indents each line of attributes to match the indentation of the parent element.
+> If the attributes are on multiple lines, the editor indents each line of attributes to match the indentation of the parent element.
 
  **Align attributes each on their own line**
  Aligns the second and subsequent attributes vertically to match the indentation of the first attribute. The following XML text is an example of how the attributes would be aligned.

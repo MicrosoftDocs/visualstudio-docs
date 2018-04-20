@@ -1,13 +1,11 @@
 ---
 title: "XML Document Properties, Properties Window"
-ms.custom: ""
 ms.date: 11/04/2016
-ms.technology:
-  - "vs-ide-general"
+ms.technology: vs-xml-tools
 ms.topic: conceptual
 ms.assetid: 9dbb34d9-02ea-4201-b445-c98a0eb0d6db
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
@@ -16,7 +14,8 @@ ms.workload:
 The **Properties** window provides basic information about the document that is active in the XML Editor. The properties that are available vary depending on the type of XML document that is currently active.
 
 > [!NOTE]
->  All XML document properties are saved in the solution. As a result, you do not have to reenter these values the next time you open the solution.
+> All XML document properties are saved in the solution. As a result, you do not have to reenter these values the next time you open the solution.
+
 
  **Encoding**
  The character encoding for the file. Changing this property also changes the encoding attribute on the XML declaration, and vice versa. The new encoding will be used to encode the file when you save the file.

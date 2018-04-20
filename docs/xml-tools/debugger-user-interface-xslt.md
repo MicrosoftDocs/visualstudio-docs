@@ -1,13 +1,11 @@
 ---
 title: "Debugger User Interface (XSLT)"
-ms.custom: ""
 ms.date: 11/04/2016
-ms.technology:
-  - "vs-ide-general"
+ms.technology: vs-xml-tools
 ms.topic: conceptual
 ms.assetid: 846fdabd-e5c3-4688-9b0d-a93fbeea1b96
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
@@ -48,7 +46,7 @@ This topic describes the debugger windows and dialog boxes. It only discusses th
  The Task List includes any errors that occur in the script blocks in the XSLT file.
 
 > [!NOTE]
->  The XSLT debugger has no warnings, so they never appear in the Task List.
+> The XSLT debugger has no warnings, so they never appear in the Task List.
 
 ## Breakpoints Window
  The Breakpoints window shows all breakpoints set in the current project. If a breakpoint is added while the window is in view, the window is automatically updated to show the new breakpoint.

@@ -1,13 +1,11 @@
 ---
 title: "Miscellaneous, XML, Text Editor, Options Dialog Box"
-ms.custom: ""
 ms.date: 11/04/2016
-ms.technology:
-  - "vs-ide-general"
+ms.technology: vs-xml-tools
 ms.topic: conceptual
 ms.assetid: fd3fff31-cddc-422d-a2f0-a5a1ef492afd
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
@@ -16,7 +14,8 @@ ms.workload:
 This dialog box allows you to change the auto-completion and schema settings for the XML Editor. You can access the **Options** dialog box from the **Tools** menu.
 
 > [!NOTE]
->  These settings are available when you select the **Text Editor** folder, the **XML** folder, and then the **Miscellaneous** option from the **Options** dialog box.
+> These settings are available when you select the **Text Editor** folder, the **XML** folder, and then the **Miscellaneous** option from the **Options** dialog box.
+
 
 ## Auto Insert
  **Close tags**

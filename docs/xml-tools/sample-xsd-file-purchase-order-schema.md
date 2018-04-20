@@ -1,13 +1,11 @@
 ---
 title: "Sample XSD File: Purchase Order Schema"
-ms.custom: ""
 ms.date: 11/04/2016
-ms.technology:
-  - "vs-ide-general"
+ms.technology: vs-xml-tools
 ms.topic: conceptual
 ms.assetid: f92b63b5-ec61-43b5-ae1e-63432a7a7e30
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"

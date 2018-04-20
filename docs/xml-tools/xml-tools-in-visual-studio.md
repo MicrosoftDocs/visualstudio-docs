@@ -1,9 +1,7 @@
 ---
 title: "XML Tools in Visual Studio"
-ms.custom: ""
 ms.date: 11/04/2016
-ms.technology:
-  - "vs-ide-general"
+ms.technology: vs-xml-tools
 ms.topic: conceptual
 f1_keywords:
   - "vb.xmldesigner"
@@ -30,8 +28,8 @@ helpviewer_keywords:
   - "XSL, style sheets"
   - "XMLDataDocument class"
 ms.assetid: 1fd5de47-2d61-4180-9539-c2c4bf9ab768
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"

@@ -1,13 +1,11 @@
 ---
 title: "How to: Add Nodes to the Workspace from the XML Schema Explorer"
-ms.custom: ""
 ms.date: 11/04/2016
-ms.technology:
-  - "vs-ide-general"
+ms.technology: vs-xml-tools
 ms.topic: conceptual
 ms.assetid: 3b5a5749-9693-4b29-b0c2-8e07e0e55514
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
@@ -16,7 +14,7 @@ ms.workload:
 This topic explains how to add nodes to the [XML Schema Designer workspace](../xml-tools/xml-schema-designer-workspace.md) from the XML Schema Explorer. This can be achieved by dragging and dropping nodes from the XML Schema Explorer onto an XSD Designer view, or by using the XML Schema Explorer's context menu. You can also add nodes that are highlighted as a result of a search performed by the XML Schema Explorer. For more information, see [How to: Add Schema Set Search Result Nodes to the Workspace](../xml-tools/how-to-add-schema-set-search-result-nodes-to-the-workspace.md).
 
 > [!NOTE]
->  Only global nodes can be added to the [XML Schema Designer Workspace](../xml-tools/xml-schema-designer-workspace.md).
+> Only global nodes can be added to the [XML Schema Designer Workspace](../xml-tools/xml-schema-designer-workspace.md).
 
 ### To add nodes through the XML Explorer Context Menu
 

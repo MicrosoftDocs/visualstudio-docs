@@ -1,13 +1,11 @@
 ---
 title: "Walkthrough: Using XML Editor Features"
-ms.custom: ""
 ms.date: 11/04/2016
-ms.technology:
-  - "vs-ide-general"
+ms.technology: vs-xml-tools
 ms.topic: conceptual
 ms.assetid: ea8dc357-2e66-455a-aec2-7ccaccfc9adf
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
@@ -16,7 +14,8 @@ ms.workload:
 The steps in this walkthrough show you how to create a new XML document. The walkthrough also uses some of the features of the XML Editor that make it valuable for XML authoring.
 
 > [!NOTE]
->  Before starting the walkthrough, save the hireDate.xsd file (included below in this topic) to your local computer.
+> Before starting the walkthrough, save the hireDate.xsd file (included below in this topic) to your local computer.
+
 
 ### To create a new XML file and associate it with an XML Schema
 

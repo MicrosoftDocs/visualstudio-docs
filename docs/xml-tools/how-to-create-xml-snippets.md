@@ -1,13 +1,11 @@
 ---
 title: "How to: Create XML Snippets"
-ms.custom: ""
 ms.date: 11/04/2016
-ms.technology:
-  - "vs-ide-general"
+ms.technology: vs-xml-tools
 ms.topic: conceptual
 ms.assetid: d8556dd7-1382-4af7-ba80-3e873c9416be
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
@@ -55,7 +53,8 @@ The XML Editor can be used to create new XML snippets. The editor includes an XM
  The `Code` element defines the XML text that will be inserted when the snippet is invoked.
 
 > [!NOTE]
->  The XML snippet text must be enclosed in a `<![CDATA[...]]>` section.
+> The XML snippet text must be enclosed in a `<![CDATA[...]]>` section.
+
 
  The following is the `Code` element that is created by the boilerplate snippet.
 

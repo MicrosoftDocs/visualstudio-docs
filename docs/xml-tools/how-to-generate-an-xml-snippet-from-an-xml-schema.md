@@ -1,13 +1,11 @@
 ---
 title: "How to: Generate an XML Snippet From an XML Schema"
-ms.custom: ""
 ms.date: 11/04/2016
-ms.technology:
-  - "vs-ide-general"
+ms.technology: vs-xml-tools
 ms.topic: conceptual
 ms.assetid: 2c128d2a-aaa6-4814-aa95-e07056afe338
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
@@ -41,7 +39,8 @@ Default values are generated and noted as editable values. If the schema specifi
  The steps in this section show you how use the schema-generated XML snippet feature of the XML Editor.
 
 > [!NOTE]
->  Before starting these procedures, save the schema file to your local computer.
+> Before starting these procedures, save the schema file to your local computer.
+
 
 #### To create a new XML file and associate it with an XML Schema
 
