@@ -1,20 +1,19 @@
 ---
-title: "Visual Studio find and replace in files | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
+title: Visual Studio find and replace in files
+ms.date: 11/04/2016
 ms.technology: vs-ide-general
-ms.topic: "conceptual"
-f1_keywords: 
+ms.topic: conceptual
+f1_keywords:
   - "vs.findreplace.replaceinfiles"
   - "vs.replaceinfiles"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "text searches, replacing text"
   - "find and replace"
   - "replace in files"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Replace in Files
@@ -58,32 +57,40 @@ The option chosen from the **Look in** drop-down list determines whether **Repla
 
 You can expand or collapse the **Find options** section. The following options can be selected or cleared:
 
-**Match case**  
+**Match case**
+
 When selected, the **Find Results** windows will only display instances of the **Find what** string that are matched both by content and by case. For example, a search for "MyObject" with **Match case** selected will return "MyObject" but not "myobject" or "MYOBJECT."
 
-**Match whole word**  
+**Match whole word**
+
 When selected, the **Find Results** windows will only display instances of the **Find what** string that are matched in complete words. For example, a search for "MyObject" will return "MyObject" but not "CMyObject" or "MyObjectC."
 
-**Use Regular Expressions**  
+**Use Regular Expressions**
+
 When this check box is selected, you can use special notations to define patterns of text in the **Find what** or **Replace with** text boxes. For a list of these notations, see [Use regular expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md).
 
-**Look at these file types**  
+**Look at these file types**
+
 This list indicates the types of files to search through in the **Look in** directories. If this field is left blank, all of the files in the **Look in** directories will be searched. Select any item in the list to enter a preconfigured search string that will find files of those particular types.
 
 ## Result options
 
 You can expand or collapse the **Result options** section. The following options can be selected or cleared:
 
-**Find Results 1** window  
+**Find Results 1** window
+
 When selected, the results of the current search will replace the content of the **Find Results 1** window. This window opens automatically to display your search results. To open this window manually, select **Other Windows** from the **View** menu and choose **Find Results 1**.
 
-**Find Results 2** window  
+**Find Results 2** window
+
 When selected, the results of the current search will replace the content of the **Find Results 2** window. This window opens automatically to display your search results. To open this window manually, select **Other Windows** from the **View** menu and choose **Find Results 2**.
 
-**Display file names only**  
+**Display file names only**
+
 When this check box is selected, the **Find Results** windows list the full names and paths for all files that contain the search string. However, the results don't include the line of code where the string appears. This check box is available for **Find in Files** only.
 
-**Keep modified files open after Replace All**  
+**Keep modified files open after Replace All**
+
 When selected, leaves open all files in which replacements have been made, so you can undo or save the changes. Memory constraints might limit the number of files that can remain open after a replace operation.
 
 > [!CAUTION]
@@ -91,6 +98,6 @@ When selected, leaves open all files in which replacements have been made, so yo
 
 ## See also
 
-[Find and replace text](../ide/finding-and-replacing-text.md)  
-[Find in files](../ide/find-in-files.md)  
-[Visual Studio commands](../ide/reference/visual-studio-commands.md)
+- [Find and replace text](../ide/finding-and-replacing-text.md)
+- [Find in files](../ide/find-in-files.md)
+- [Visual Studio commands](../ide/reference/visual-studio-commands.md)

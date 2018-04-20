@@ -1,20 +1,18 @@
 ---
-title: "Troubleshoot broken references | Microsoft Docs"
-ms.custom: ""
-ms.date: "03/21/2017"
-ms.technology: 
-  - "vs-ide-general"
-ms.topic: "conceptual"
-helpviewer_keywords: 
+title: Troubleshoot broken references
+ms.date: 03/21/2017
+ms.technology: vs-ide-general
+ms.topic: troubleshooting
+helpviewer_keywords:
   - "C# projects, references"
   - "Visual Basic projects, references"
   - "troubleshooting references"
   - "referencing files from projects"
   - "referencing components, troubleshooting"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Troubleshoot broken references
@@ -87,4 +85,4 @@ If a user has added a reference to a COM component and a second user tries to ru
 
 ## See also
 
-[References Page, Project Designer (Visual Basic)](../ide/reference/references-page-project-designer-visual-basic.md)
+- [References Page, Project Designer (Visual Basic)](../ide/reference/references-page-project-designer-visual-basic.md)
