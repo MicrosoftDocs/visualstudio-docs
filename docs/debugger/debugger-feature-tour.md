@@ -1,6 +1,6 @@
 ---
-title: "Debugger Feature Tour - Visual Studio | Microsoft Docs"
-description: Take a tour of the Visual Studio debugger
+title: "First look at the debugger"
+description: "Take quick look at the different features of the Visual Studio debugger."
 ms.custom: "mvc"
 ms.date: "03/27/2018"
 ms.technology: "vs-ide-debug"

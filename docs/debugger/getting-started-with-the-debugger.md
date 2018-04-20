@@ -1,6 +1,6 @@
 ---
-title: "Learn to debug - Visual Studio | Microsoft Docs"
-ms.description: "Learn how to start the Visual Studio debugger, step through code, and inspect data"
+title: "Get started with the debugger"
+ms.description: "Learn how to start the Visual Studio debugger, step through code, and inspect data."
 ms.custom: "mvc"
 ms.date: "03/16/2018"
 ms.technology: "vs-ide-debug"
