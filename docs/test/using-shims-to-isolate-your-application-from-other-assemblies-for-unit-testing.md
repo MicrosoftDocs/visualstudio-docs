@@ -23,8 +23,8 @@ author: gewarren
 -   Visual Studio Enterprise
 -   A .NET Framework project
 
-[!NOTE]
-.NET Standard projects are not supported.
+> [!NOTE]
+> .NET Standard projects are not supported.
 
 ## Example: The Y2K bug
 
