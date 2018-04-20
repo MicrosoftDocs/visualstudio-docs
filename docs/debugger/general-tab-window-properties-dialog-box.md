@@ -2,8 +2,7 @@
 title: "General Tab, Window Properties Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "reference"
 helpviewer_keywords: 
   - "Window Properties dialog box, General Tab"

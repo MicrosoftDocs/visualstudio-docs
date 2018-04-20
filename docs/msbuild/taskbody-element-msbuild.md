@@ -3,7 +3,7 @@ title: "TaskBody Element (MSBuild) | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/13/2017"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "TaskBody element [MSBuild]"
   - "<TaskBody> element [MSBuild]"
 ms.assetid: 49d8741b-f1ea-4470-94fd-a1ac27341a6a
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

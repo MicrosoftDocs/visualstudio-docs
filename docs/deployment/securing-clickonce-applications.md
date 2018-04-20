@@ -2,8 +2,7 @@
 title: "Securing ClickOnce Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/17/2017"
-ms.technology: 
-  - "vs-ide-deployment"
+ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -14,9 +13,9 @@ helpviewer_keywords:
   - "ClickOnce deployment, security"
   - "deploying applications, ClickOnce security"
 ms.assetid: a05b5f2f-d1f2-471a-8096-8b11f7554265
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

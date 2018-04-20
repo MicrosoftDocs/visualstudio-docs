@@ -2,8 +2,7 @@
 title: "View data values in DataTips in the code editor | Microsoft Docs"
 ms.custom: ""
 ms.date: "07/14/2017"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"

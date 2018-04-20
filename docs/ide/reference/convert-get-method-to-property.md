@@ -1,6 +1,5 @@
 ---
-title: "Convert Get method to property and convert a property to a Get method in Visual Studio | Microsoft Docs"
-ms.custom: ""
+title: Convert Get method to property and convert a property to a Get method in Visual Studio
 ms.date: 01/26/2018
 ms.technology: vs-ide-general
 ms.topic: reference

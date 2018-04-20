@@ -2,8 +2,7 @@
 title: "Code Access Security for ClickOnce Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-deployment"
+ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 f1_keywords: 
   - "vb.XBAPProjectPropertiesSecurity.HowTo"
@@ -21,9 +20,9 @@ helpviewer_keywords:
   - "ClickOnce applications, code access security policies"
   - "security, ClickOnce"
 ms.assetid: 04b104d0-0bd3-4ccb-b164-1de92d234487
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

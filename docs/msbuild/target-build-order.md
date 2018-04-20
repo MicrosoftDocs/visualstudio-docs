@@ -7,7 +7,7 @@ ms.topic: "conceptual"
 helpviewer_keywords: 
   - "msbuild, build order"
 ms.assetid: f4a26339-9f9a-497a-9aa6-0797183d450d
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

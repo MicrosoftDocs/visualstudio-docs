@@ -2,9 +2,8 @@
 title: "&lt;file&gt; Element (ClickOnce Application) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-deployment"
-ms.topic: "conceptual"
+ms.technology: vs-ide-deployment
+ms.topic: "reference"
 f1_keywords: 
   - "http://www.w3.org/2000/09/xmldsig#Transform"
   - "urn:schemas-microsoft-com:asm.v2#file"
@@ -20,9 +19,9 @@ helpviewer_keywords:
   - "<file> element [ClickOnce application manifest]"
   - "manifests [ClickOnce], file element"
 ms.assetid: 56e3490c-eed5-4841-b1bf-eefe778b6ac9
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

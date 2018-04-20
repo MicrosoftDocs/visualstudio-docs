@@ -3,7 +3,7 @@ title: "MSBuild Project File Schema Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -12,7 +12,7 @@ dev_langs:
 helpviewer_keywords: 
   - "MSBuild, file schema"
 ms.assetid: d9a68146-1f43-4621-ac78-2c8c3f400936
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

@@ -2,8 +2,7 @@
 title: "How to: Publish a ClickOnce Application using the Publish Wizard | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-deployment"
+ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -15,9 +14,9 @@ helpviewer_keywords:
   - "Windows applications, ClickOnce deployments"
   - "publishing, ClickOnce"
 ms.assetid: 2e4aa67c-4445-4f7b-9e03-9acb95829127
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

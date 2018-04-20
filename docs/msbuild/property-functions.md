@@ -7,7 +7,7 @@ ms.topic: "conceptual"
 helpviewer_keywords: 
   - "MSBuild, property functions"
 ms.assetid: 2253956e-3ae0-4bdc-9d3a-4881dfae4ddb
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 
@@ -98,6 +98,10 @@ In the .NET Framework versions 4 and 4.5, property functions can be used to eval
 -   System.TimeSpan  
 
 -   System.Text.RegularExpressions.Regex  
+
+-   System.UriBuilder
+
+-   System.Version
 
 -   Microsoft.Build.Utilities.ToolLocationHelper  
 

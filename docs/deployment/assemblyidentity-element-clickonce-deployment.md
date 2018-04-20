@@ -2,9 +2,8 @@
 title: "&lt;assemblyIdentity&gt; Element (ClickOnce Deployment) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-deployment"
-ms.topic: "conceptual"
+ms.technology: vs-ide-deployment
+ms.topic: "reference"
 f1_keywords: 
   - "urn:schemas-microsoft-com:asm.v2#assemblyIdentity"
 dev_langs: 
@@ -14,9 +13,9 @@ dev_langs:
 helpviewer_keywords: 
   - "<assemblyIdentity> element [ClickOnce deployment manifest]"
 ms.assetid: f4a3bb83-c800-47d0-9905-9a5ae2486838
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

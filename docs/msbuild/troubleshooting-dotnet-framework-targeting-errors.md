@@ -3,7 +3,7 @@ title: "Troubleshooting .NET Framework Targeting Errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "troubleshooting"
 f1_keywords: 
   - "vs.FrameworkTargetingErrors"
   - "MSBuild.ResolveAssemblyReference.FailedToResolveReferenceBecausePrimaryAssemblyInExclusionList"
@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "multitargeting"
   - ".NET Framework Client Profile"
 ms.assetid: 830e3e45-9a93-4279-a249-75b84599aefb
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

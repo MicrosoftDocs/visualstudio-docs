@@ -3,7 +3,7 @@ title: "RequiresFramework35SP1Assembly Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "RequiresFramework35SP1Assembly task [MSBuild]"
   - "MSBuild, RequiresFramework35SP1Assembly task"
 ms.assetid: 755c018a-8a8b-4c94-8aee-3f171fc419e5
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

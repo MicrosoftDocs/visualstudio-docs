@@ -1,14 +1,12 @@
 ---
-title: "All Rules rule set | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-code-analysis"
-ms.topic: "conceptual"
-author: "gewarren"
-ms.author: "gewarren"
+title: All Rules rule set
+ms.date: 11/04/2016
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
+author: gewarren
+ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # All Rules rule set

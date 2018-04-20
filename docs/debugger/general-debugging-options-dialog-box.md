@@ -2,8 +2,7 @@
 title: "General, Debugging, Options Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "05/23/2017"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.options.General"
