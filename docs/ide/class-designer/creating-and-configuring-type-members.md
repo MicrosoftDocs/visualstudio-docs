@@ -1,10 +1,8 @@
 ---
-title: "Creating and Configuring Type Members (Class Designer) | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology:
-  - "vs-ide-general"
-ms.topic: "conceptual"
+title: Creating and Configuring Type Members (Class Designer)
+ms.date: 11/04/2016
+ms.technology: vs-ide-general
+ms.topic: conceptual
 f1_keywords:
   - "vs.classdetails.method"
   - "vs.classdetails.property"
@@ -27,8 +25,8 @@ helpviewer_keywords:
   - "Class Details window"
   - "Class Details window, member creation"
 ms.assetid: 42af8738-3738-4ca7-82ff-edf573a68f96
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
@@ -47,7 +45,7 @@ You can add these members to types on a class diagram and configure those member
 |Module (VB Only)|method, property, field, event, constructor, constant|
 
 > [!NOTE]
->  Make property declaration more concise when a property's get and set accessors don't need additional logic by using auto-implemented properties (C# only). To show the full signature, from the **Class Diagram** menu choose **Change Members Format** > **Display Full Signature**. For more information about auto-implemented properties, see [Auto-Implemented Properties](/dotnet/csharp/programming-guide/classes-and-structs/auto-implemented-properties).
+> Make property declaration more concise when a property's get and set accessors don't need additional logic by using auto-implemented properties (C# only). To show the full signature, from the **Class Diagram** menu choose **Change Members Format** > **Display Full Signature**. For more information about auto-implemented properties, see [Auto-Implemented Properties](/dotnet/csharp/programming-guide/classes-and-structs/auto-implemented-properties).
 
 ## Common tasks
 
@@ -79,10 +77,10 @@ You can create a member using any of the following tools:
 -   **Class Details** window
 
 > [!NOTE]
->  You can also create constructors and destructors using the procedures in this section. Please bear in mind that constructors and destructors are special kinds of methods, and as such, they appear in the **Methods** compartment in class diagram shapes and in the **Methods** section of the **Class Details** window grid.
+> You can also create constructors and destructors using the procedures in this section. Please bear in mind that constructors and destructors are special kinds of methods, and as such, they appear in the **Methods** compartment in class diagram shapes and in the **Methods** section of the **Class Details** window grid.
 
 > [!NOTE]
->  The only entity you can add to a delegate is parameter. Note that the procedure entitled 'To Create a member using the **Class Details** window toolbar' is not valid for this action.
+> The only entity you can add to a delegate is parameter. Note that the procedure entitled 'To Create a member using the **Class Details** window toolbar' is not valid for this action.
 
 #### To create a member using Class Designer
 
@@ -210,10 +208,12 @@ Parameter rows contain the following items:
 The Properties window displays the same parameter properties displayed in the **Class Details** window: **Name**, **Type**, **Modifier**, **Summary**, as well as the **Optional Default** property. Changing a property in one location updates the value of the property globally, including the display of its value in the other location.
 
 > [!NOTE]
->  To add a parameter to a delegate, see [Creating Members](creating-and-configuring-type-members.md#CreateMembers).
+> To add a parameter to a delegate, see [Creating Members](creating-and-configuring-type-members.md#CreateMembers).
+
 
 > [!NOTE]
->  Although a destructor is a method, it cannot have parameters.
+> Although a destructor is a method, it cannot have parameters.
+
 
 ### To add a parameter to a method
 
