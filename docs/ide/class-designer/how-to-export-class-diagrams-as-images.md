@@ -16,7 +16,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Export Class Diagrams As Images (Class Designer)
+# How to: Export class diagrams as images (Class Designer)
 To export a class diagram that you created from code in a project, save the diagram as an image. If you want to export UML class diagrams instead, see [Export diagrams as images](../../modeling/export-diagrams-as-images.md).  
   
 1.  Open your class diagram (.cd) file.  

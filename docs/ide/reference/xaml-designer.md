@@ -1,12 +1,12 @@
 ---
-title: "XAML Designer options page"
-ms.date: "03/02/2017"
+title: XAML Designer options page
+ms.date: 03/02/2017
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.XAMLDesigner"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "uwp"

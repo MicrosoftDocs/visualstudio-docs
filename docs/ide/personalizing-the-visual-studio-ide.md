@@ -1,14 +1,12 @@
 ---
-title: "Customize the Visual Studio IDE | Microsoft Docs"
-ms.custom: ""
+title: Customize the Visual Studio IDE
 ms.date: 11/20/2017
-ms.technology: 
-  - "vs-ide-general"
-ms.topic: "conceptual"
-author: "gewarren"
-ms.author: "gewarren"
+ms.technology: vs-ide-general
+ms.topic: conceptual
+author: gewarren
+ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Personalize the Visual Studio IDE
@@ -54,5 +52,5 @@ You can customize the **Tools** menu to launch external tools. For more informat
 
 ## See also
 
-[Visual Studio IDE overview](../ide/visual-studio-ide.md)  
-[Quickstart: First look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)
+- [Visual Studio IDE overview](../ide/visual-studio-ide.md)
+- [Quickstart: First look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)

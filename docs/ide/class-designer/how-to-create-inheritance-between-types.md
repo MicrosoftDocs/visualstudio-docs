@@ -17,12 +17,12 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Create Inheritance Between Types (Class Designer)
-To create an inheritance relationship between two types on a class diagram using Class Designer, connect the base type with its derived type or types. You can have an inheritance relationship between two classes, between a class and an interface, or between two interfaces.  
+# How to: Create inheritance between types (Class Designer)
+To create an inheritance relationship between two types on a class diagram using **Class Designer**, connect the base type with its derived type or types. You can have an inheritance relationship between two classes, between a class and an interface, or between two interfaces.  
   
 ### To create an inheritance between types  
   
-1.  From your project in Solution Explorer, open a class diagram (.cd) file.  
+1.  From your project in **Solution Explorer**, open a class diagram (.cd) file.  
   
      If you don't have a class diagram, create it. See [How to: Add Class Diagrams to Projects](how-to-add-class-diagrams-to-projects.md).  
   
