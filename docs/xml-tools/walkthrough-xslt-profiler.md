@@ -11,9 +11,11 @@ ms.workload:
   - "multiple"
 ---
 # Walkthrough: XSLT Profiler
+
 The XSLT Profiler creates detailed XSLT performance reports that help measure, evaluate, and target performance-related problems in XSLT code. The XSLT Profiler includes useful hints for XSL and XSLT style sheet optimizations. For XSLT applications that demand maximum performance, this tool can be essential.
 
 ## Prerequisites
+
 The procedures in the following walkthrough require Visual Studio and .NET Framework version 4.0 or later.
 
 ### Create the performance report
@@ -101,4 +103,5 @@ The procedures in the following walkthrough require Visual Studio and .NET Frame
 4.  The process view displays a table that includes the **Process ID**, **Process Name**, **Begin Time**, and the **End Time**. Data can be sorted by clicking column names.
 
 ## See Also
-[Walkthrough: Using XSLT Hierarchy](../xml-tools/walkthrough-using-xslt-hierarchy.md)
+
+- [Walkthrough: Using XSLT Hierarchy](../xml-tools/walkthrough-using-xslt-hierarchy.md)

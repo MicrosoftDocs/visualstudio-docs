@@ -11,6 +11,7 @@ ms.workload:
   - "multiple"
 ---
 # XML Editor IntelliSense Features
+
 The XML Editor provides full IntelliSense features comparable to other language editors provided in Visual Studio. This section explains how you can use the IntelliSense with XML Schema definition language (XSD) and XSLT documents.
 
 ## IntelliSense in an XSD Document
@@ -111,6 +112,7 @@ For example, if you select the `e:Book` element from the IntelliSense list where
 3.  Make any changes to the **Auto insert** section and click **OK**.
 
 ## See Also
- [XML Editor](../xml-tools/xml-editor.md)
- [Using IntelliSense](../ide/using-intellisense.md)
- [Walkthrough: Using XSLT IntelliSense](../xml-tools/walkthrough-using-xslt-intellisense.md)
+
+- [XML Editor](../xml-tools/xml-editor.md)
+- [Using IntelliSense](../ide/using-intellisense.md)
+- [Walkthrough: Using XSLT IntelliSense](../xml-tools/walkthrough-using-xslt-intellisense.md)

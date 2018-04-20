@@ -44,14 +44,6 @@ XML is at the core of many features of Visual Studio and the .NET Framework. The
 
 For more information, see the <xref:System.Xml?displayProperty=fullName> documentation.
 
-## In This Section
-
-[Working with XML Data](../xml-tools/working-with-xml-data.md)
-Discusses the role of XML in the way data is handled in Visual Studio.
-
-[Debugging XSLT](../xml-tools/debugging-xslt.md)
-Provides links to topics about using the Visual Studio debugger to debug XSLT.
-
 ## Reference
 
 [Microsoft.VisualStudio.XmlEditor](http://go.microsoft.com/fwlink/?LinkID=165699)

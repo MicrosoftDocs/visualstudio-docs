@@ -1,5 +1,5 @@
 ---
-title: "How to use XML snippets in Microsoft Visual Studio"
+title: "How to use XML snippets"
 ms.date: 11/04/2016
 ms.technology: vs-xml-tools
 ms.topic: conceptual

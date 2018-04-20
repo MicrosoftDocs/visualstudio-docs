@@ -1,8 +1,8 @@
 ---
-title: "Graph View"
+title: "XML Schema Designer Graph View"
 ms.date: 11/04/2016
 ms.technology: vs-xml-tools
-ms.topic: conceptual
+ms.topic: reference
 ms.assetid: 5881afde-3f24-4eb9-bff8-6cb3fc8aade7
 author: gewarren
 ms.author: gewarren
@@ -11,6 +11,7 @@ ms.workload:
   - "multiple"
 ---
 # Graph View
+
 The Graph View provides a graphic representation of global schema nodes and the relationships between the nodes. Note that the Graph View does not allow you to alter the layout of the schema set on the design surface. The Graph View also includes the XML Schema Designer toolbar and the breadcrumb bar.
 
  The following image shows the Graph View with six global nodes on its design surface.
@@ -18,6 +19,7 @@ The Graph View provides a graphic representation of global schema nodes and the 
  ![XML Schema Designer Graph View](../xml-tools/media/xsddesigner_graphview.gif "XSDDesigner_GraphView")
 
 ## Design Surface
+
  The design surface of the Graph View displays the contents of the [XML Schema Designer Workspace](../xml-tools/xml-schema-designer-workspace.md). If the workspace contains any global nodes from the schema set, the nodes are shown on the Graph View design surface and arrows are drawn between the nodes that have relationships.
 
  Double-clicking a node in the Graph View will bring up XML Editor.
@@ -31,9 +33,11 @@ The Graph View provides a graphic representation of global schema nodes and the 
  If the schema set has errors, the following text is displayed at the end of the list: "Use the Error List to view and fix the errors in the set."
 
 ## Breadcrumb Bar
+
  The breadcrumb bar at the bottom of the Graph View shows where the selected node is located in the schema set. If multiple items are selected, the breadcrumb bar will be blank.
 
 ## Context Menu
+
  The following table describes the options that are available for all the nodes on the Graph View design surface.
 
 |Option|Description|
@@ -81,9 +85,11 @@ The Graph View provides a graphic representation of global schema nodes and the 
 |**Add All References**|Adds all nodes that refer to the group and draws arrows to indicate relationships between them.|
 
 ## Properties Window
+
  Use the context menu to initially open the **Properties** window. By default, the **Properties** window appears in the lower right corner of Visual Studio. When you click a node that is rendered in the Content Model View, the properties of that node will be displayed in the **Properties** Window.
 
 ## XSD Toolbar
+
  The following XSD Toolbar buttons are enabled when the Graph View is active.
 
  ![XML Schema Designer Toolbar](../xml-tools/media/xsdgraphviewtoolbar.gif "XSDGraphViewToolbar")
@@ -102,9 +108,11 @@ The Graph View provides a graphic representation of global schema nodes and the 
 |**Bottom to Top**|Changes the layout in the Graph View to a bottom-to-top hierarchical representation of nodes. This option can be accessed by using the keyboard shortcut: **Alt + Up Arrow**.|
 
 ## Pan/Scroll
+
  You can pan the design surface by using the scrollbars or by holding the CTRL key while you click and drag the mouse. When you pan the design surface using click and drag, the cursor will change to four crossed arrows pointing in four directions.
 
 ## Undo/Redo
+
  The undo/redo capability is enabled in the Graph View for the following actions:
 
 -   Adding a single node by dragging and dropping.
@@ -114,6 +122,7 @@ The Graph View provides a graphic representation of global schema nodes and the 
 -   Deleting single or multiple nodes.
 
 ## Zoom
+
  Zoom is available in the lower right corner of the Graph View.
 
  Zoom can be controlled in the following ways:
@@ -125,9 +134,11 @@ The Graph View provides a graphic representation of global schema nodes and the 
 The Zoom slider is opaque when you select it, hover over it, or use CTRL with the mouse wheel to zoom; at all other times, it is transparent.
 
 ## XML Editor Integration
+
  You can switch back and forth between the Graph View and the XML Editor by clicking a node and using the View Code context menu.
 
  If you make changes to the schema set in the XML Editor, the changes will be synchronized in the Graph View. For more information, see [Integration with XML Editor](../xml-tools/integration-with-xml-editor.md).
 
 ## See Also
- [Design Surface](../xml-tools/xml-schema-designer-workspace.md)
+
+- [Design Surface](../xml-tools/xml-schema-designer-workspace.md)

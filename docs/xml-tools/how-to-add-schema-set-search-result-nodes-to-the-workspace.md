@@ -11,6 +11,7 @@ ms.workload:
   - "multiple"
 ---
 # How to: Add Schema Set Search Result Nodes to the Workspace
+
 This topic explains how to add nodes that are highlighted in the XML Schema Explorer as the result of a keyword search in the workspace.
 
 > [!NOTE]
@@ -19,7 +20,7 @@ This topic explains how to add nodes that are highlighted in the XML Schema Expl
 
  This example uses the sample [Purchase Order Schema](../xml-tools/sample-xsd-file-purchase-order-schema.md).
 
-### To add schema set result nodes
+## To add schema set result nodes
 
 1.  Follow the steps in [How to: Create and Edit an XSD Schema File](../xml-tools/how-to-create-and-edit-an-xsd-schema-file.md).
 

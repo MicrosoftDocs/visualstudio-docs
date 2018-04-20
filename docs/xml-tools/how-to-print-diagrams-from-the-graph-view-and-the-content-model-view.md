@@ -1,5 +1,5 @@
 ---
-title: "How to: Print Diagrams from the Graph View and the Content Model View"
+title: "Print Diagrams from the Graph View and Content Model View of XML Schema Designer"
 ms.date: 11/04/2016
 ms.technology: vs-xml-tools
 ms.topic: conceptual
@@ -11,9 +11,10 @@ ms.workload:
   - "multiple"
 ---
 # How to: Print Diagrams from the Graph View and the Content Model View
-This topic describes how to print a diagram from the Graph View or the Content Model View.
 
-### To print diagrams from the XML Schema Designer
+This topic describes how to print a diagram from the Graph View or the Content Model View of XML Schema Designer.
+
+## To print diagrams from the XML Schema Designer
 
 1.  Open an XSD file in Visual Studio and add some nodes to the [XML Schema Designer Workspace](../xml-tools/xml-schema-designer-workspace.md).
 
@@ -24,6 +25,7 @@ This topic describes how to print a diagram from the Graph View or the Content M
 3.  Print the saved image in the XPS file by using an XPS viewer.
 
 ## See Also
- [Graph View](../xml-tools/graph-view.md)
- [Content Model View](../xml-tools/content-model-view.md)
- [XML Schema Designer Workspace](../xml-tools/xml-schema-designer-workspace.md)
+
+- [Graph View](../xml-tools/graph-view.md)
+- [Content Model View](../xml-tools/content-model-view.md)
+- [XML Schema Designer Workspace](../xml-tools/xml-schema-designer-workspace.md)

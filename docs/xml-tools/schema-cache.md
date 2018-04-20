@@ -11,11 +11,12 @@ ms.workload:
   - "multiple"
 ---
 # Schema Cache
+
 The XML Editor provides a schema cache located in the %InstallRoot%\Xml\Schemas directory. The schema cache is global to all users on your computer and includes standard XML Schemas that are used for IntelliSense and XML document validation.
 
- The XML editor can also find schemas located in the solution, schemas specified in the **Schemas** field of the document **Properties** window, and schemas identified by the `xsi:schemaLocation` and `xsi:noNamespaceSchemaLocation` attributes.
+The XML editor can also find schemas located in the solution, schemas specified in the **Schemas** field of the document **Properties** window, and schemas identified by the `xsi:schemaLocation` and `xsi:noNamespaceSchemaLocation` attributes.
 
- The following table describes the schemas that are installed with the XML Editor.
+The following table describes the schemas that are installed with the XML Editor.
 
 |Filename|Description|
 |--------------|-----------------|
@@ -100,8 +101,7 @@ The catalog document can include a `Catalog` element, which points to other cata
 > [!NOTE]
 > This change affects only the current Visual Studio user.
 
-
-#### To change the schema cache location
+### To change the schema cache location
 
 1.  From the **Tools** menu, select **Options**.
 
@@ -111,7 +111,7 @@ The catalog document can include a `Catalog` element, which points to other cata
 
 4.  Select the folder for the schema cache and click **OK**.
 
-#### To add another directory of common schemas
+### To add another directory of common schemas
 
 1.  Edit the catalog.xml file in the XML editor schema cache directory.
 
@@ -122,4 +122,5 @@ The catalog document can include a `Catalog` element, which points to other cata
      The catalog is automatically reloaded.
 
 ## See Also
- [XML Editor](../xml-tools/xml-editor.md)
+
+- [XML Editor](../xml-tools/xml-editor.md)

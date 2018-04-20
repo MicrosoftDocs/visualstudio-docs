@@ -11,13 +11,13 @@ ms.workload:
   - "multiple"
 ---
 # Walkthrough: Using XML Editor Features
+
 The steps in this walkthrough show you how to create a new XML document. The walkthrough also uses some of the features of the XML Editor that make it valuable for XML authoring.
 
 > [!NOTE]
 > Before starting the walkthrough, save the hireDate.xsd file (included below in this topic) to your local computer.
 
-
-### To create a new XML file and associate it with an XML Schema
+## To create a new XML file and associate it with an XML Schema
 
 1.  On the **File** menu, point to **New**, and click **File**.
 
@@ -39,7 +39,7 @@ The steps in this walkthrough show you how to create a new XML document. The wal
 
      The XML Schema is now associated with the XML document. The XML Schema is used to validate the document. It is also used by IntelliSense to populate the member list of valid elements.
 
-### To add data
+## To add data
 
 1.  Type `<` in the editor pane.
 
@@ -89,13 +89,13 @@ The steps in this walkthrough show you how to create a new XML document. The wal
 
 12. Type in **2003-01-10** for the hire-date value.
 
-### To format the XML document
+## To format the XML document
 
 - Select the **Format Document** button from the XML Editor toolbar.
 
     The XML document is reformatted.
 
-### To save the XML document
+## To save the XML document
 
 1.  From the **File** menu, select **Save As**.
 
@@ -123,4 +123,5 @@ The steps in this walkthrough show you how to create a new XML document. The wal
 ```
 
 ## See Also
- [XML Editor](../xml-tools/xml-editor.md)
+
+- [XML Editor](../xml-tools/xml-editor.md)

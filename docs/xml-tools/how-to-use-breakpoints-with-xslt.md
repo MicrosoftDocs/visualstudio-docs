@@ -53,4 +53,4 @@ Breakpoints can be set on elements, attributes, namespace node, comments, proces
 
 ## See also
 
-[Walkthrough: Debug an XSLT Style Sheet](../xml-tools/walkthrough-debug-an-xslt-style-sheet.md)
+- [Walkthrough: Debug an XSLT Style Sheet](../xml-tools/walkthrough-debug-an-xslt-style-sheet.md)

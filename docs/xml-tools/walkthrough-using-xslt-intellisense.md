@@ -11,9 +11,10 @@ ms.workload:
   - "multiple"
 ---
 # Walkthrough: Using XSLT IntelliSense
+
 This walkthrough demonstrates how to use XSLT IntelliSense to auto-complete value of some attributes.
 
-### To use IntelliSense in the name attribute of xsl:with-param and xsl:call-template elements
+## To use IntelliSense in the name attribute of xsl:with-param and xsl:call-template elements
 
 1.  Create a new XSLT file and copy in the following code:
 
@@ -56,7 +57,7 @@ This walkthrough demonstrates how to use XSLT IntelliSense to auto-complete valu
 
      The list of parameter names appears in the `name=""` attribute of the `xsl:with-param` element.
 
-### To use IntelliSense in the mode attribute of an xsl:apply-templates element
+## To use IntelliSense in the mode attribute of an xsl:apply-templates element
 
 1.  Create a new XSLT file and copy in the following code:
 
@@ -113,7 +114,7 @@ This walkthrough demonstrates how to use XSLT IntelliSense to auto-complete valu
 
      The list of template modes appears in the `mode=""` attribute of the `xsl:apply-templates` element.
 
-### To use IntelliSense in the stylesheet-prefix and result-prefix attributes of an xsl:namespace-alias element
+## To use IntelliSense in the stylesheet-prefix and result-prefix attributes of an xsl:namespace-alias element
 
 1.  Create a new XSLT file and copy in the following code:
 
@@ -156,4 +157,4 @@ This walkthrough demonstrates how to use XSLT IntelliSense to auto-complete valu
 
 ## See also
 
-[XML Editor IntelliSense Features](../xml-tools/xml-editor-intellisense-features.md)
+- [XML Editor IntelliSense Features](../xml-tools/xml-editor-intellisense-features.md)

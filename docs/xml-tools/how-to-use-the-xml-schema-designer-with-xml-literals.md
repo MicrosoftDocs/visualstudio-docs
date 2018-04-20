@@ -13,9 +13,10 @@ ms.workload:
   - "multiple"
 ---
 # How to: Use the XML Schema Designer with XML Literals
+
 This topic describes how to view a schema associated with an XML literal in a Visual Basic project.
 
-### To create a new Visual Basic console application project
+## To create a new Visual Basic console application project
 
 1.  Start Visual Studio.
 
@@ -23,7 +24,7 @@ This topic describes how to view a schema associated with an XML literal in a Vi
 
      The new poject is created. The XMLLiterals project contains one Visual Basic source file, Module1.vb.
 
-### To add an existing XSD file to the project
+## To add an existing XSD file to the project
 
 1.  Open a new text file in Notepad.Copy the XML Schema sample code from [Purchase Order Schema](../xml-tools/sample-xsd-file-simple-schema.md) and paste it in to the file.
 
@@ -33,7 +34,7 @@ This topic describes how to view a schema associated with an XML literal in a Vi
 
      The XMLLiterals project now contains two files: Module1.vb and PurchaseOrderSchema.xsd.
 
-### To add Visual Basic code with an XML literal, based on the XSD file included in the project
+## To add Visual Basic code with an XML literal, based on the XSD file included in the project
 
 1.  Replace the code in Module1.vb file with the following code:
 

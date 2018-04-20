@@ -11,10 +11,12 @@ ms.workload:
   - "multiple"
 ---
 # XML Snippets
+
 The XML Editor offers a feature, called *XML snippets*, that allows you to build XML files more quickly. You can reuse XML snippets by inserting them into your files. You can also generate XML data based on an XML Schema definition language (XSD) schema.
 
 ## Reusable XML Snippets
- The XML Editor includes many snippets that cover some common tasks. This allows you to create XML files more easily. For example, if you were authoring an XML Schema, using the "Complex Type Sequence Element" and "Simple Type Element" snippets inserts the following XML text to your file. You would then change the `name` value to suit your needs.
+
+The XML Editor includes many snippets that cover some common tasks. This allows you to create XML files more easily. For example, if you were authoring an XML Schema, using the "Complex Type Sequence Element" and "Simple Type Element" snippets inserts the following XML text to your file. You would then change the `name` value to suit your needs.
 
 ```xml
 <xs:element name="name">
@@ -45,4 +47,5 @@ The XML Editor offers a feature, called *XML snippets*, that allows you to build
  For more information, see [How to: Create XML Snippets](../xml-tools/how-to-create-xml-snippets.md).
 
 ## See Also
- [XML Editor](../xml-tools/xml-editor.md)
+
+- [XML Editor](../xml-tools/xml-editor.md)

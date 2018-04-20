@@ -11,9 +11,11 @@ ms.workload:
   - "multiple"
 ---
 # How to: Create XML Snippets
+
 The XML Editor can be used to create new XML snippets. The editor includes an XML snippet, named "Snippet", that is a boilerplate snippet for creating new XML snippets.
 
 ## To create a new XML snippet
+
  To create a new XML code snippet create a new XML file and use the **Insert Snippet** feature.
 
 1.  On the **File** menu, click **New** and then click **File**.
@@ -35,9 +37,11 @@ The XML Editor can be used to create new XML snippets. The editor includes an XM
 8.  Use the **Save in** drop-down list to change the file location to the My Documents\Visual Studio 2005\Code Snippets\XML\My XML Snippets folder and then press **Save**.
 
 ## Snippet Description
+
  This section describes some of the key elements in the boilerplate snippet. For more information about schema elements used by the XML snippets, see [Code Snippets Schema Reference](../ide/code-snippets-schema-reference.md).
 
 ### SnippetType Element
+
  The editor supports two snippet types:
 
 ```xml
@@ -50,6 +54,7 @@ The XML Editor can be used to create new XML snippets. The editor includes an XM
  The `Expansion` type determines whether the snippet appears when you invoke the **Insert Snippet** command. The `SurroundsWith` type determines whether the snippet appears when you invoke the **Surrounds With** command.
 
 ### Code Element
+
  The `Code` element defines the XML text that will be inserted when the snippet is invoked.
 
 > [!NOTE]
@@ -85,6 +90,7 @@ The XML Editor can be used to create new XML snippets. The editor includes an XM
  The value of the name element is marked as an editable region.
 
 ### Literal Element
+
  The `Literal` element is used to identify replacement text that can be customized after it is inserted into the file. For example, literal strings, numeric values, and some variable names can be declared as literals. You can define any number of literals in your XML snippet and you can refer to them multiple times from within the snippet. The following is an example of a `Literal` element that defines a $name$ variable whose default value is "name."
 
 ```xml
@@ -106,6 +112,7 @@ The XML Editor can be used to create new XML snippets. The editor includes an XM
  The $prefix$ variable can then be used elsewhere in your XML snippet.
 
 ## See Also
- [XML Snippets](../xml-tools/xml-snippets.md)
- [How to: Use XML Snippets](../xml-tools/how-to-use-xml-snippets.md)
- [How to: Generate an XML Snippet From an XML Schema](../xml-tools/how-to-generate-an-xml-snippet-from-an-xml-schema.md)
+
+- [XML Snippets](../xml-tools/xml-snippets.md)
+- [How to: Use XML Snippets](../xml-tools/how-to-use-xml-snippets.md)
+- [How to: Generate an XML Snippet From an XML Schema](../xml-tools/how-to-generate-an-xml-snippet-from-an-xml-schema.md)

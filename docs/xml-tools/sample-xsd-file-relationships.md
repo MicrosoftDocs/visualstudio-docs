@@ -2,7 +2,7 @@
 title: "Sample XSD File: Relationships"
 ms.date: 11/04/2016
 ms.technology: vs-xml-tools
-ms.topic: conceptual
+ms.topic: sample
 ms.assetid: 60126510-b7dd-4cb4-92d3-9883590b92f2
 author: gewarren
 ms.author: gewarren
@@ -11,6 +11,7 @@ ms.workload:
   - "multiple"
 ---
 # Sample XSD File: Relationships
+
 The following XSD file is used in various examples in the XSD Schema Designer documentation. This file is a purchase order schema with annotations and documentation.
 
 ```xml

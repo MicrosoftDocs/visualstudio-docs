@@ -11,9 +11,10 @@ ms.workload:
   - "multiple"
 ---
 # How to: Generate an XML Snippet From an XML Schema
+
 The XML Editor has the ability to generate XML snippets from an XML Schema definition language (XSD) schema. For example, as you are authoring an XML file, while positioned next to the element name, you can press TAB to populate the element with XML data generated from the schema information for that element.
 
- This feature is only available on elements. The following rules also apply:
+This feature is only available on elements. The following rules also apply:
 
 -   The element must have an associated schema type; that is, the element must be valid according to some associated schema. The schema type cannot be abstract and the type must contain the required attributes and/or required child elements.
 
@@ -36,13 +37,13 @@ Default values are generated and noted as editable values. If the schema specifi
 -   If the schema type is an atomic type, the editor gets the atomic type and inserts the atomic type name. For a derived simple type it uses the base simple type. For a list type the atomic type is the `itemType`. For a union, the atomic type is the atomic type of the first `memberType`.
 
 ## Example
+
  The steps in this section show you how use the schema-generated XML snippet feature of the XML Editor.
 
 > [!NOTE]
 > Before starting these procedures, save the schema file to your local computer.
 
-
-#### To create a new XML file and associate it with an XML Schema
+### To create a new XML file and associate it with an XML Schema
 
 1.  On the **File** menu, point to **New**, and click **File**.
 
@@ -64,7 +65,7 @@ Default values are generated and noted as editable values. If the schema specifi
 
      The XML Schema is now associated with the XML document.
 
-#### To generate an XML snippet
+### To generate an XML snippet
 
 1.  Type `<` in the editor pane.
 
@@ -84,7 +85,8 @@ Default values are generated and noted as editable values. If the schema specifi
 
 4.  Press TAB to generate XML data for the `Contact` element based on its schema information.
 
-### Input
+## Input
+
  The following schema file is used by the walkthrough.
 
 ```xml
@@ -133,6 +135,7 @@ Default values are generated and noted as editable values. If the schema specifi
 ```
 
 ### Output
+
  Following is the XML data that is generated based on the schema information associated with the `Contact` element. Items marked as `bold` designate editable fields in the XML snippet.
 
 ```xml
@@ -147,5 +150,6 @@ Default values are generated and noted as editable values. If the schema specifi
 ```
 
 ## See Also
- [XML Snippets](../xml-tools/xml-snippets.md)
- [How to: Use XML Snippets](../xml-tools/how-to-use-xml-snippets.md)
+
+- [XML Snippets](../xml-tools/xml-snippets.md)
+- [How to: Use XML Snippets](../xml-tools/how-to-use-xml-snippets.md)

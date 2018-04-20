@@ -2,7 +2,7 @@
 title: "Sample XSD File: Simple Schema"
 ms.date: 11/04/2016
 ms.technology: vs-xml-tools
-ms.topic: conceptual
+ms.topic: sample
 ms.assetid: f7e1dde1-b4f6-4371-add4-935b68ec77d7
 author: gewarren
 ms.author: gewarren
@@ -11,6 +11,7 @@ ms.workload:
   - "multiple"
 ---
 # Sample XSD File: Simple Schema
+
 The following XSD file is used in various examples in the XSD Schema Designer documentation. This file is a simple purchase order schema.
 
 ```xml

@@ -11,9 +11,10 @@ ms.workload:
   - "multiple"
 ---
 # How to: Get an Overview of a Schema Set Using the Graph View
+
 This topic describes how to use the [Graph View](../xml-tools/graph-view.md) to see a high-level view of the nodes in a schema set and the relationships between the nodes.
 
-### To create a new XSD file and display the root element in the Content Model View
+## To create a new XSD file and display the root element in the Content Model View
 
 1.  Create a new XML Schema file and save the file as Relationships.xsd.
 

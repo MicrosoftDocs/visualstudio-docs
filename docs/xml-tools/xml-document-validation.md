@@ -11,6 +11,7 @@ ms.workload:
   - "multiple"
 ---
 # XML Document Validation
+
 The XML Editor checks XML 1.0 syntax and also performs data validation as you type. The editor can validate using a document type definition (DTD) or a schema. Red wavy underlines highlight any XML 1.0 well-formed errors. Blue wavy underlines show semantic errors based on DTD or schema validation. Each error has an associated entry in the error list. You can also view the error message by pausing the mouse over the wavy underline.
 
  Schemas used in validation are found by matching the `targetNamespace` of a compiled schema with the element's xmlns declaration. Compiled schemas are loaded from one of the following locations, listed in order of priority:
@@ -38,4 +39,5 @@ Schemas can also be found in the following additional locations when the schema 
  When editing an XML Schema file, the xsdschema.xsd file located in the schema cache is used for validation. Validation errors are shown as blue wavy underlines. Any compilation errors are also shown with red wavy underlines.
 
 ## See Also
- [XML Editor](../xml-tools/xml-editor.md)
+
+- [XML Editor](../xml-tools/xml-editor.md)

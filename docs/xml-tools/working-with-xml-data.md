@@ -39,14 +39,6 @@ The XML Schema Designer is integrated with Visual Studio and the XML Editor to e
 
 Visual Studio supports debugging XSLT style sheets. Using the debugger, you can set break points in an XSLT style sheet, step into an XSLT style sheet from code, and so on.
 
-## In this section
-
-[XML Editor](../xml-tools/xml-editor.md)
-Introduces the XML Editor.
-
-[XML Schema Designer](../xml-tools/xml-schema-designer.md)
-Discusses the XML Schema Designer and working with XML Schema definition language (XSD) schemas.
-
 ## Related sections
 
 [Debugging XSLT](../xml-tools/debugging-xslt.md)
@@ -63,4 +55,4 @@ Discusses how to create and deploy XML Web services and how to access XML Web se
 
 ## See also
 
-[XML Tools in Visual Studio](../xml-tools/xml-tools-in-visual-studio.md)
+- [XML Tools in Visual Studio](../xml-tools/xml-tools-in-visual-studio.md)

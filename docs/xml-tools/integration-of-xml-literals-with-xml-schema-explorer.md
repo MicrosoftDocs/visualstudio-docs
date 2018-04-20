@@ -11,15 +11,19 @@ ms.workload:
   - "multiple"
 ---
 # Integration of XML Literals with XML Schema Explorer
+
 Visual Basic supports XML literals, which means that you can incorporate XML fragments directly into your Visual Basic code. For more information, see [XML Literals Overview](http://go.microsoft.com/fwlink/?LinkId=140325).
 
- If an XSD file in your Visual Basic project includes an XML literal, you can view the XML schema set in the XML Schema Explorer. To view the schema set associated with an XML literal, right-click on an XML node in an XML literal or an XML namespace import and select **Show in Schema Explorer**.
+## How to
 
- ![Visual Basic XML Literals; XML Schema Explorer](../xml-tools/media/vbxmlliteralswithxmlschemaexplorer1.gif "VBXMLLiteralsWithXMLSchemaExplorer1")
+If an XSD file in your Visual Basic project includes an XML literal, you can view the XML schema set in the XML Schema Explorer. To view the schema set associated with an XML literal, right-click on an XML node in an XML literal or an XML namespace import and select **Show in Schema Explorer**.
 
- This opens the XML Schema Explorer side by side with your Visual Basic file.
+![Visual Basic XML Literals; XML Schema Explorer](../xml-tools/media/vbxmlliteralswithxmlschemaexplorer1.gif)
 
- ![Visual Basic XML Literals; XML Schema Explorer](../xml-tools/media/vbxmlliteralswithxmlschemaexplorer2.gif "VBXMLLiteralsWithXMLSchemaExplorer2")
+This opens the XML Schema Explorer side by side with your Visual Basic file.
+
+![Visual Basic XML Literals; XML Schema Explorer](../xml-tools/media/vbxmlliteralswithxmlschemaexplorer2.gif)
 
 ## See also
-[How to: Use the XML Schema Designer with XML Literals](../xml-tools/how-to-use-the-xml-schema-designer-with-xml-literals.md)
+
+- [How to: Use the XML Schema Designer with XML Literals](../xml-tools/how-to-use-the-xml-schema-designer-with-xml-literals.md)

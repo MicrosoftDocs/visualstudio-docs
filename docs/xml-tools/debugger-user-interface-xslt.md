@@ -2,7 +2,7 @@
 title: "Debugger User Interface (XSLT)"
 ms.date: 11/04/2016
 ms.technology: vs-xml-tools
-ms.topic: conceptual
+ms.topic: reference
 ms.assetid: 846fdabd-e5c3-4688-9b0d-a93fbeea1b96
 author: gewarren
 ms.author: gewarren
@@ -11,20 +11,24 @@ ms.workload:
   - "multiple"
 ---
 # Debugger User Interface (XSLT)
+
 This topic describes the debugger windows and dialog boxes. It only discusses the user interface pieces that have XSLT-specific debugging behavior.
 
- For more information, see the [Debugging User Interface Reference](../debugger/debugging-user-interface-reference.md).
+For more information, see the [Debugging User Interface Reference](../debugger/debugging-user-interface-reference.md).
 
 ## Locals Window
  The Locals window displays information about any variables defined in the style sheet. The Locals window contains three columns of information:
 
  **Name**
+
  This column contains the names of all local variables in the current scope. Node sets have a tree control that you can drill-down to see its subfolders.
 
  **Value**
+
  This column shows the value contained by each variable. Attribute, processing instruction, comment, text, and CData nodes display the text value of the node. Namespace nodes display the namespace URI.
 
  **Type**
+
  This column identifies the data type of each variable listed in the **Name** column.
 
  The Locals window also displays the predefined context variables that track the context of the XSLT transformation. The following table describes the predefined context variables used by the XSLT debugger.
@@ -89,6 +93,7 @@ For more information, see [How to: Evaluate an XPath Expression](../xml-tools/ho
  For more information, [How to: Use the Disassembly Window](../debugger/how-to-use-the-disassembly-window.md).
 
 ## See Also
- [Debugging XSLT](../xml-tools/debugging-xslt.md)
- [Debugger Basics](../debugger/debugger-basics.md)
- [Inspect Variables in the Autos and Locals Windows in Visual Studio](../debugger/autos-and-locals-windows.md)
+
+- [Debugging XSLT](../xml-tools/debugging-xslt.md)
+- [Debugger Basics](../debugger/debugger-basics.md)
+- [Inspect Variables in the Autos and Locals Windows in Visual Studio](../debugger/autos-and-locals-windows.md)

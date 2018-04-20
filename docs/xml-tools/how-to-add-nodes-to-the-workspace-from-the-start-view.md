@@ -11,9 +11,10 @@ ms.workload:
   - "multiple"
 ---
 # How to: Add Nodes to the Workspace from the Start View
+
 This topic describes how to add global nodes to the [XML Schema Designer Workspace](../xml-tools/xml-schema-designer-workspace.md) from the [Start View](../xml-tools/start-view.md).
 
-### To add nodes to the workspace from the Start View
+## To add nodes to the workspace from the Start View
 
 1.  Follow the steps in [How to: Create and Edit an XSD Schema File](../xml-tools/how-to-create-and-edit-an-xsd-schema-file.md).
 

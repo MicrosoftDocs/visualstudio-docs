@@ -11,9 +11,10 @@ ms.workload:
   - "multiple"
 ---
 # Walkthrough: Debug an XSLT Style Sheet
+
 The steps in this walkthrough demonstrate how to use the XSLT debugger. Steps include viewing variables, setting breakpoints, and stepping through the code. The style sheet finds all books that cost below the average book price.
 
-### To prepare for this walkthrough
+## To prepare for this walkthrough
 
 1.  Close any open solutions.
 
@@ -21,7 +22,7 @@ The steps in this walkthrough demonstrate how to use the XSLT debugger. Steps in
 
 ## Start Debugging
 
-#### To start debugging
+### To start debugging
 
 1.  From the **File** menu, point to **Open**, and click **File**.
 
@@ -49,7 +50,7 @@ The **XSL Output** window displays the output of the XSL transformation. This wi
 
 ## Watch Window
 
-#### To use the Watch window
+### To use the Watch window
 
 1.  From the **Debug** menu, point to **Windows**, point to **Watch**, and click **Watch 1**.
 
@@ -70,7 +71,7 @@ The **XSL Output** window displays the output of the XSL transformation. This wi
 ## Step Through the Code
  The debugger enables you to execute code one line at a time.
 
-#### To step through the code
+### To step through the code
 
 1.  Press **F5** to continue.
 
@@ -89,7 +90,8 @@ The **XSL Output** window displays the output of the XSL transformation. This wi
      Because the `xsl:if` condition was satisfied, the third book is added to the XSL Output window. All books in the XML document have been processed and the debugger stops.
 
 ## Sample Files
- The following two files are used by the walkthrough.
+
+The following two files are used by the walkthrough.
 
 ### belowAvg.xsl
 
@@ -147,4 +149,5 @@ The **XSL Output** window displays the output of the XSL transformation. This wi
 ```
 
 ## See Also
- [Debugging XSLT](../xml-tools/debugging-xslt.md)
+
+- [Debugging XSLT](../xml-tools/debugging-xslt.md)

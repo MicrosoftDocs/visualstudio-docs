@@ -11,9 +11,10 @@ ms.workload:
   - "multiple"
 ---
 # How to: Switch Between Views and the XML Editor
+
 This topic shows how to switch between the XML Schema Designer (XSD Designer) views and the XML Editor. This example uses the [Purchase Order Schema](../xml-tools/sample-xsd-file-simple-schema.md).
 
-### To switch between the views and the XML Editor
+## To switch between the views and the XML Editor
 
 1.  To create and edit a new XML Schema file, follow the steps in [How to: Create and Edit an XSD Schema File](../xml-tools/how-to-create-and-edit-an-xsd-schema-file.md).
 

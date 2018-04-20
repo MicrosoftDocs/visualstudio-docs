@@ -11,9 +11,10 @@ ms.workload:
   - "multiple"
 ---
 # How to: Create and Edit an XSD Schema File
+
 This topic describes how to create a new XML Schema (XSD) file and then add content to the XSD file.
 
-### To create a new XML Schema file
+## To create a new XML Schema file
 
 1.  In Visual Studio, open the **File** menu and select **New** and then **File**. Or, use the CTRL+N keyboard shortcut.
 
@@ -21,7 +22,7 @@ This topic describes how to create a new XML Schema (XSD) file and then add cont
 
      A new file is created. The Start View and an empty XML Schema Explorer window appear in Visual Studio.
 
-### To edit a file
+## To edit a file
 
 1.  Click the **Use XML Editor to view and edit the underlying XML Schema file** link on the Start View.
 
@@ -32,5 +33,6 @@ This topic describes how to create a new XML Schema (XSD) file and then add cont
      The XML Schema Explorer is updated with the new schema set.
 
 ## See Also
- [Working with XML Data](../xml-tools/working-with-xml-data.md)
- [XML Schema Designer Tasks](../xml-tools/xml-schema-designer-tasks.md)
+
+- [Working with XML Data](../xml-tools/working-with-xml-data.md)
+- [XML Schema Designer Tasks](../xml-tools/xml-schema-designer-tasks.md)

@@ -2,7 +2,7 @@
 title: "Context Menus (XML Schema Explorer)"
 ms.date: 11/04/2016
 ms.technology: vs-xml-tools
-ms.topic: conceptual
+ms.topic: reference
 ms.assetid: 42ab17ca-b8c1-40d7-beda-d033f66fe874
 author: gewarren
 ms.author: gewarren
@@ -11,10 +11,12 @@ ms.workload:
   - "multiple"
 ---
 # Context Menus (XML Schema Explorer)
+
 The following context menu items are used to perform schema-specific searches and other operations.
 
 ## Node Type: Schema Set
- The following table describes the options that are available for a schema set node.
+
+The following table describes the options that are available for a schema set node.
 
 |Option|Description|
 |------------|-----------------|
@@ -106,5 +108,6 @@ The following context menu items are used to perform schema-specific searches an
 |**Show All References**|Finds and highlights all references (groups that have `ref="selectedGroup"`) to the selected group.|
 
 ## See Also
- [XML Schema Explorer](../xml-tools/xml-schema-explorer.md)
- [Searching the Schema Set](../xml-tools/searching-the-schema-set.md)
+
+- [XML Schema Explorer](../xml-tools/xml-schema-explorer.md)
+- [Searching the Schema Set](../xml-tools/searching-the-schema-set.md)

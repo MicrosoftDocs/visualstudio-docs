@@ -35,26 +35,6 @@ The XML editor is based on the Visual Studio text editor, and includes additiona
 
 The XML editor is invoked for well-known file extensions, such as .xml, .xsd, .xsl, and .config. It is also invoked on any unknown file extension if the file appears to contain XML. You can also open any file with the XML editor by using the **Open With** option and selecting the XML editor from the list.
 
-## In This Section
-
-[XML Document Validation](../xml-tools/xml-document-validation.md)
-Describes the syntax checking and validation features.
-
-[XML editor IntelliSense Features](../xml-tools/xml-editor-intellisense-features.md)
-Describes the editor IntelliSense functionality.
-
-[XML Snippets](../xml-tools/xml-snippets.md)
-Describes how to use the XML snippets feature.
-
-[Editing XSLT Style Sheets](../xml-tools/editing-xslt-style-sheets.md)
-Describes the XSLT editing experience.
-
-[Schema Cache](../xml-tools/schema-cache.md)
-Lists the schemas that are installed by the XML editor.
-
-[XML editor Components](../xml-tools/xml-editor-components.md)
-Describes the XML editor user interface components.
-
 ## Related Sections
 
 [Writing code in the editor](../ide/writing-code-in-the-code-and-text-editor.md)
@@ -65,4 +45,4 @@ Provides information about XML technologies, including XML, Document Type Defini
 
 ## See also
 
-[XML Tools in Visual Studio](../xml-tools/xml-tools-in-visual-studio.md)
+- [XML Tools in Visual Studio](../xml-tools/xml-tools-in-visual-studio.md)

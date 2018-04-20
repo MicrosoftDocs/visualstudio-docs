@@ -11,6 +11,7 @@ ms.workload:
   - "multiple"
 ---
 # How to: Evaluate an XPath Expression
+
 You can evaluate XPath expressions with the **QuickWatch** dialog box. The XPath expression must be valid according to the W3C XPath 1.0 recommendation. The current XSLT context—that is, the `self::node()` node in the **Locals** window—provides the evaluation context for the XPath expression.
 
  The following list describes which functions are supported when evaluating an XPath expression:
@@ -24,8 +25,7 @@ You can evaluate XPath expressions with the **QuickWatch** dialog box. The XPath
 > [!NOTE]
 > The following procedure uses the belowAvg.xsl and books.xml files from the [Walkthrough: Debug an XSLT Style Sheet](../xml-tools/walkthrough-debug-an-xslt-style-sheet.md) topic.
 
-
-### To evaluate an XPath expression
+## To evaluate an XPath expression
 
 1.  Insert a breakpoint at the `xsl:if` start tag.
 
@@ -46,4 +46,5 @@ You can evaluate XPath expressions with the **QuickWatch** dialog box. The XPath
      The **Value** box shows that the XPath expression evaluates to `true`.
 
 ## See Also
- [Debugging XSLT](../xml-tools/debugging-xslt.md)
+
+- [Debugging XSLT](../xml-tools/debugging-xslt.md)

@@ -10,7 +10,8 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# What&#39;s New in the XML Editor
+# What's New in the XML Editor
+
 The following features are new in Visual Studio 2010.
 
 ## XSLT IntelliSense
@@ -23,5 +24,6 @@ The following features are new in Visual Studio 2010.
  The XSLT Hierarchy tool allows you to add breakpoints in included style sheets and/or built-in template rules. For more information, see [Walkthrough: Using XSLT Hierarchy](../xml-tools/walkthrough-using-xslt-hierarchy.md).
 
 ## See Also
- [XML Editor Tasks](../xml-tools/xml-editor-tasks.md)
- [XML Editor](../xml-tools/xml-editor.md)
+
+- [XML Editor Tasks](../xml-tools/xml-editor-tasks.md)
+- [XML Editor](../xml-tools/xml-editor.md)
