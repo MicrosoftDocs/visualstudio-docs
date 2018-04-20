@@ -1,22 +1,25 @@
 ---
-title: "How to: Invoke a Windows Communication Foundation Contract Operation (Legacy) | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: "Workflow Designer - How to: Invoke a Windows Communication Foundation Contract Operation (Legacy)"
+ms.date: 11/04/2016
+ms.topic: conceptual
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
 ms.assetid: a9058345-708f-4fcf-8739-2a43e5285b7a
 author: gewarren
 ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # How to: Invoke a Windows Communication Foundation Contract Operation (Legacy)
-This topic describes how to invoke a [!INCLUDE[indigo1](../workflow-designer/includes/indigo1_md.md)] contract operation using the legacy Windows Workflow Designer that targets the [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] or the [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)].
 
- After dragging a **SendActivity** activity from the toolbox to the workflow design surface, you must import an existing contract and determine which operation will be invoked from that **SendActivity** activity. You select your contract and its operations through the [Choose Operation Dialog Box (Legacy)](../workflow-designer/choose-operation-dialog-box-legacy.md).
+This topic describes how to invoke a Windows Communication Foundation (WCF) contract operation using the legacy Windows Workflow Designer that targets the .NET Framework version 3.5 or the WinFX.
 
- Also, if you are using a configuration file with your service, you will need to specify a <xref:System.Workflow.Activities.ChannelToken>. The <xref:System.Workflow.Activities.ChannelToken> identifies the endpoint configuration your send activity is going to use to connect to the workflow service.
+After dragging a **SendActivity** activity from the toolbox to the workflow design surface, you must import an existing contract and determine which operation will be invoked from that **SendActivity** activity. You select your contract and its operations through the [Choose Operation Dialog Box (Legacy)](../workflow-designer/choose-operation-dialog-box-legacy.md).
 
-### To invoke a WCF contract operation from a SendActivity activity
+Also, if you are using a configuration file with your service, you will need to specify a <xref:System.Workflow.Activities.ChannelToken>. The <xref:System.Workflow.Activities.ChannelToken> identifies the endpoint configuration your send activity is going to use to connect to the workflow service.
+
+## To invoke a WCF contract operation from a SendActivity activity
 
 1.  Double-click the **SendActivity** activity in the designer or click the ellipsis next to the **ServiceOperationInfo** property in the **Properties** pane.
 
@@ -30,7 +33,7 @@ This topic describes how to invoke a [!INCLUDE[indigo1](../workflow-designer/inc
 
 5.  Under **Available Operations**, select the operation you want to invoke and click **OK**.
 
-### To specify a channel token
+## To specify a channel token
 
 1.  Select the <xref:System.Workflow.Activities.SendActivity> activity in the designer.
 
