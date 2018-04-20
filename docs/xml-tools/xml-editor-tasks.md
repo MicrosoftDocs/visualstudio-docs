@@ -1,6 +1,7 @@
 ---
 title: "XML Editor Tasks"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-xml-tools
 ms.topic: conceptual
 ms.assetid: d069ba3a-266c-45ac-8f9f-7833a72c5a27

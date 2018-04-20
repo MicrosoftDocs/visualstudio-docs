@@ -1,6 +1,7 @@
 ---
 title: "How to: Get an Overview of a Schema Set Using the Graph View"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-xml-tools
 ms.topic: conceptual
 ms.assetid: c0df4b0d-52ef-4a6c-9676-1d8311aad7c7

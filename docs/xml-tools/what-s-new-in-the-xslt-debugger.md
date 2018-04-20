@@ -1,6 +1,7 @@
 ---
 title: "What's New in the XSLT Debugger"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-xml-tools
 ms.topic: conceptual
 ms.assetid: 07ddc47e-5941-41f8-bd44-d993c2d054ed

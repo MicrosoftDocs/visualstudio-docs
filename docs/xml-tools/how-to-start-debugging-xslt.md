@@ -1,6 +1,7 @@
 ---
 title: "How to: Start Debugging XSLT"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-xml-tools
 ms.topic: conceptual
 author: gewarren

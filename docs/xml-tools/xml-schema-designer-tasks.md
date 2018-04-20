@@ -1,6 +1,7 @@
 ---
 title: "XML Schema Designer Tasks"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-xml-tools
 ms.topic: conceptual
 ms.assetid: f413f208-696f-446a-bb78-7fc55cf96d6c

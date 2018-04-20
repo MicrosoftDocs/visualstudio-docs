@@ -1,6 +1,7 @@
 ---
 title: "What&#39;s New in the XML Editor"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-xml-tools
 ms.topic: conceptual
 ms.assetid: bd335a8d-6692-4a4c-9b5f-aa98f1fcaba3
