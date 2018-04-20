@@ -13,7 +13,7 @@ ms.workload:
   - data-science
 ---
 
-# Assigning which Python environment is used for a project
+# How to assign which Python environment is used for a project
 
 All code in a Python project runs within the context of a specific environment. Visual Studio also uses that environment for debugging, import and member completions, syntax checking, and any other tasks that require an environment.
 

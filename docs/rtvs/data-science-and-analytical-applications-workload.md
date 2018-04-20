@@ -13,7 +13,7 @@ ms.workload:
   - data-science
 ---
 
-# Installing data science support in Visual Studio
+# Install data science support in Visual Studio
 
 The Data Science and Analytical Applications workload, which you select and install through the Visual Studio installer, brings together three languages and their respective runtime distributions:
 
