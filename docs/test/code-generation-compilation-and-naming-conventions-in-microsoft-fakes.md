@@ -18,8 +18,8 @@ This article discusses options and issues in Fakes code generation and compilati
 -   Visual Studio Enterprise
 -   A .NET Framework project
 
-[!NOTE]
-.NET Standard projects are not supported.
+> [!NOTE]
+> .NET Standard projects are not supported.
 
 ## Code generation and compilation
 
