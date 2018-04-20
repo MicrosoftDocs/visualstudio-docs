@@ -1,29 +1,32 @@
 ---
-title: "CompensableActivity Activity Designer | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
-f1_keywords: 
+title: "Workflow Designer - CompensableActivity Activity Designer"
+ms.date: 11/04/2016
+ms.topic: reference
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
+f1_keywords:
   - "System.Activities.Statements.CompensableActivity.UI"
 ms.assetid: e0340d89-d39e-4a52-8557-13e27040d7b5
 author: gewarren
 ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # CompensableActivity Activity Designer
+
 The **CompensableActivity** activity designer is used to create and configure a <xref:System.Activities.Statements.CompensableActivity> activity.
 
 ## The CompensableActivity Activity
  The <xref:System.Activities.Statements.CompensableActivity> defines a unit of work that can be confirmed or compensated after successful completion.
 
 ### Using the CompensableActivity Activity Designer
- The **CompensableActivity** activity designer can be found in the **Transaction** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab on the left side of the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] (Alternatively, select **Toolbar** from the **View** menu, or CTRL+ALT+X.)
+ The **CompensableActivity** activity designer can be found in the **Transaction** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab on the left side of the Workflow Designer (Alternatively, select **Toolbar** from the **View** menu, or CTRL+ALT+X.)
 
- The **CompensableActivity** activity designer can be dragged from the **Toolbox** and dropped on to the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] surface wherever activities are usually placed, such as inside a <xref:System.Activities.Statements.Sequence>. This creates a <xref:System.Activities.Statements.CompensableActivity> activity with a default <xref:System.Activities.Activity.DisplayName%2A> of CompensableActivity. The <xref:System.Activities.Activity.DisplayName%2A> value can be edited in the header of the **CompensableActivity** activity designer or in the **DisplayName** box of the property grid.
+ The **CompensableActivity** activity designer can be dragged from the **Toolbox** and dropped on to the Workflow Designer surface wherever activities are usually placed, such as inside a <xref:System.Activities.Statements.Sequence>. This creates a <xref:System.Activities.Statements.CompensableActivity> activity with a default <xref:System.Activities.Activity.DisplayName%2A> of CompensableActivity. The <xref:System.Activities.Activity.DisplayName%2A> value can be edited in the header of the **CompensableActivity** activity designer or in the **DisplayName** box of the property grid.
 
 ### The CompensableActivity Properties
- The following table shows the <xref:System.Activities.Statements.CompensableActivity> properties and describes how they are used in the designer. The <xref:System.Activities.Activity.DisplayName%2A> and <xref:System.Activities.Activity%601.Result%2A> property can be edited in property grid but the other properties must be edited on the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] surface.
+ The following table shows the <xref:System.Activities.Statements.CompensableActivity> properties and describes how they are used in the designer. The <xref:System.Activities.Activity.DisplayName%2A> and <xref:System.Activities.Activity%601.Result%2A> property can be edited in property grid but the other properties must be edited on the Workflow Designer surface.
 
 |Property Name|Required|Usage|
 |-------------------|--------------|-----------|
