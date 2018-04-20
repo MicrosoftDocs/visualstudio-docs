@@ -1,7 +1,9 @@
 ---
-title: "Rule Condition Editor Dialog Box (Legacy) | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: "Workflow Designer - Rule Condition Editor Dialog Box (Legacy)"
+ms.date: 11/04/2016
+ms.topic: reference
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
 f1_keywords:
   - "System.Workflow.Activities.Rules.Design.RuleConditionDialog.UI"
 helpviewer_keywords:
@@ -15,7 +17,7 @@ ms.workload:
 ---
 # Rule Condition Editor Dialog Box (Legacy)
 
-This topic describes how use the **Rule Condition Editor** dialog box in the legacy Windows Workflow Designer. Use the legacy [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] when you need to target either the [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] or the [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)].
+This topic describes how use the **Rule Condition Editor** dialog box in the legacy Windows Workflow Designer. Use the legacy Workflow Designer when you need to target either the .NET Framework version 3.5 or the WinFX.
 
 You create and modify declarative rule conditions by using the **Rule Condition Editor** dialog box. These rule conditions are exposed as properties on the following Windows Workflow Foundation out-of-box activities:
 
