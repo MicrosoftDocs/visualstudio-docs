@@ -1,7 +1,7 @@
 ---
-title: "Save load test log for test failures in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "conceptual"
+title: "Save load test log for test failures in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "load tests, scenarios"
   - "load tests, logging"
@@ -16,7 +16,8 @@ ms.technology: vs-ide-test
 After you create your load test with the **New Load Test Wizard**, you can use the **Load Test Editor** to change the load test properties to meet your testing needs and goals. See [Walkthrough: Create and run a load test](../test/walkthrough-create-and-run-a-load-test.md). You can specify if you want to have the test log saved if a test fails in a load test by changing the **Save Log on Test Failure** property.
 
 > [!NOTE]
->  For a complete list of the run settings properties and their descriptions, see [Load Test Run Settings Properties](../test/load-test-run-settings-properties.md).
+> For a complete list of the run settings properties and their descriptions, see [Load Test Run Settings Properties](../test/load-test-run-settings-properties.md).
+
 
 ## To specify if the test log is saved when a test fails in a scenario
 

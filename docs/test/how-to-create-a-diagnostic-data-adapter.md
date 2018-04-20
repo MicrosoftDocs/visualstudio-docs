@@ -1,7 +1,7 @@
 ---
-title: "How to: Create a Diagnostic Data Adapter in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "conceptual"
+title: "How to: Create a Diagnostic Data Adapter in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "Diagnostic Data Adapter, creating"
 ms.assetid: bd7ad36c-54cb-4d2a-9aea-9d10ad98d7ba

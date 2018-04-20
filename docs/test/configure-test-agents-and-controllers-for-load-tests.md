@@ -1,7 +1,7 @@
 ---
-title: "Configure test agents and test controllers for load tests in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "conceptual"
+title: "Configure test agents and test controllers for load tests in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "load tests, test agents and controllers"
 author: gewarren

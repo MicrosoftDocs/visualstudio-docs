@@ -1,8 +1,8 @@
 ---
-title: "Microsoft.VisualStudio.TestTools.CppUnitTestFramework API Reference | Microsoft Docs"
-ms.date: "11/04/2017"
+title: "Microsoft.VisualStudio.TestTools.CppUnitTestFramework API Reference"
+ms.date: 11/04/2017
 ms.technology: vs-ide-test
-ms.topic: "conceptual"
+ms.topic: reference
 ms.author: mblome
 manager: douge
 ms.workload: 
