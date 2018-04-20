@@ -23,14 +23,14 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Refactoring Classes and Types (Class Designer)
+# Refactoring classes and types (Class Designer)
 
 When you refactor code, you make it easier to understand, maintain, and more efficient by changing its internal structure and how its objects are designed, not its external behavior. Use Class Designer and the Class Details window to reduce the work that you have to do and the chance of introducing bugs when you refactor C#, Visual Basic, or C++ code in your Visual Studio project.
 
 > [!NOTE]
 > The files of a project might be read-only because the project is under source-code control and is not checked out, it is a referenced project, or its files are marked as read-only on disk. When you work in a project in one of these states, you will be presented with various ways to save your work depending on the project's state. This applies to refactoring code and also to code that you change in another way, such as directly editing it.
 
-## Common Tasks  
+## Common tasks  
   
 |Task|Supporting Content|  
 |----------|------------------------|  
@@ -38,7 +38,7 @@ When you refactor code, you make it easier to understand, maintain, and more eff
 |**Working with interfaces:** In Class Designer, you can implement an interface on the class diagram by connecting it to a class that provides code for the interface methods.|-   [How to: Implement an Interface](how-to-implement-an-interface.md)|  
 |**Refactoring types, type members, and parameters:** By using Class Designer, you can rename types, override type members, or move them from one type to another. You can also create nullable types.|-   [Renaming Types and Type Members](refactoring-classes-and-types.md#RenamingTypesAndMembers)<br />-   [Moving Type Members from One Type to Another](refactoring-classes-and-types.md#MovingTypeMembers)<br />-   [How to: Create a Nullable Type](how-to-create-a-nullable-type.md)|  
   
-###  <a name="RenamingTypesAndMembers"></a> Renaming Types and Type Members  
+### Rename types and type members  
 In Class Designer, you can rename a type or a member of a type on the class diagram or in the Properties window. In the Class Details window, you can change the name of a member but not a type. Renaming a type or type member propagates to all windows and code locations where the old name appeared.  
   
 ##### To rename a name in the Class Designer  
@@ -49,7 +49,7 @@ In Class Designer, you can rename a type or a member of a type on the class diag
   
 2.  Type the new name for the type or type member  
   
-##### To rename a name in the Class Details Window  
+##### To rename a name in the Class Details window  
   
 1.  To display the Class Details window, right-click the type or type member and then click **Class Details**.  
   
@@ -72,7 +72,7 @@ In Class Designer, you can rename a type or a member of a type on the class diag
   
      The new name propagates to all windows and code locations in the current project where the old name appeared.  
   
-###  <a name="MovingTypeMembers"></a> Moving Type Members from One Type to Another  
+### Move type members from one type to another  
 Using **Class Designer**, you can move a type member from one type to another type, if both are visible in the current class diagram.  
   
 ##### To move a type member from one type to another  

@@ -1,5 +1,5 @@
 ---
-title: "Additional Information About Class Designer Errors | Microsoft Docs"
+title: "Additional Information About Class Designer errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: 
@@ -32,16 +32,16 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Additional Information About Class Designer Errors
-Class Designer does not track the location of your source files, so modifying your project structure or moving source files in the project can cause Class Designer to lose track of the type (especially the source type of a typedef, base classes, or association types). You might receive an error such as **Class Designer is unable to display this type**. If you do, drag the modified or relocated source code to the class diagram again to redisplay it.  
+# Additional information about Class Designer errors 
+**Class Designer** does not track the location of your source files, so modifying your project structure or moving source files in the project can cause **Class Designer** to lose track of the type (especially the source type of a typedef, base classes, or association types). You might receive an error such as **Class Designer is unable to display this type**. If you do, drag the modified or relocated source code to the class diagram again to redisplay it.  
   
 You can find assistance with other errors and warnings in the following resources:  
   
 [Working with Visual C++ Code](working-with-visual-cpp-code.md)  
 Includes troubleshooting information about displaying C++ in a class diagram.  
   
-[Visual Studio Class Designer Forum](http://go.microsoft.com/fwlink/?LinkId=160754)  
-Provides a forum for questions about the Class Designer.  
+[Visual Studio Class Designer forum](http://go.microsoft.com/fwlink/?LinkId=160754)  
+Provides a forum for questions about the **Class Designer**.  
   
-## See also
-[Designing and Viewing Classes and Types](designing-and-viewing-classes-and-types.md)
+## See also 
+[Designing and viewing classes and types](designing-and-viewing-classes-and-types.md)

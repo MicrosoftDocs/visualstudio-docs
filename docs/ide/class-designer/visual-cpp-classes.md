@@ -16,13 +16,13 @@ manager: douge
 ms.workload: 
   - "cplusplus"
 ---
-# Visual C++ Classes in Class Designer
-Class Designer supports C++ classes and visualizes native C++ classes in the same way as Visual Basic and C# class shapes, except that C++ classes can have multiple inheritance relationships. You can expand the class shape to show more fields and methods in the class or collapse it to conserve space.  
+# Visual C++ classes in Class Designer
+**Class Designer** supports C++ classes and visualizes native C++ classes in the same way as Visual Basic and C# class shapes, except that C++ classes can have multiple inheritance relationships. You can expand the class shape to show more fields and methods in the class or collapse it to conserve space.  
   
 > [!NOTE]
->  Class Designer does not support unions (a special type of class in which the memory allocated is only the amount necessary for the union's largest data member).  
+>  **Class Designer** does not support unions (a special type of class in which the memory allocated is only the amount necessary for the union's largest data member).  
   
-## Simple Inheritance  
+## Simple inheritance  
 When you drag more than one class onto a class diagram, and the classes have a class inheritance relationship, an arrow connects them. The arrow points in the direction of the base class. For example, when the following classes are displayed in a class diagram, an arrow connects them, pointing from B to A:  
   
 ```cpp
@@ -32,8 +32,8 @@ class B : A {};
   
 You can also drag only class B to the class diagram, right-click the class shape for B, and then click **Show Base Classes**. This displays its base class: A.  
   
-## Multiple Inheritance  
-Class Designer supports the visualization of multiple-class inheritance relationships. *Multiple inheritance* is used when a derived class has attributes of more than one base class. Following is an example of multiple inheritance:  
+## Multiple inheritance  
+**Class Designer** supports the visualization of multiple-class inheritance relationships. *Multiple inheritance* is used when a derived class has attributes of more than one base class. Following is an example of multiple inheritance:  
   
 ```cpp
 class Bird {};  
@@ -46,12 +46,12 @@ When you drag more than one class onto the class diagram, and the classes have a
 Right-clicking a class shape and then clicking **Show Base Classes** displays the base classes for the selected class.  
   
 > [!NOTE]
->  The **Show Derived Classes** command is not supported for C++ code. You can display derived classes by going to Class View, expanding the type node, expanding the **Derived Types** subfolder, and then dragging those types onto the class diagram.  
+>  The **Show Derived Classes** command is not supported for C++ code. You can display derived classes by going to **Class View**, expanding the type node, expanding the **Derived Types** subfolder, and then dragging those types onto the class diagram.  
   
 For more information about multiple-class inheritance, see [Multiple Inheritance](https://msdn.microsoft.com/library/6td5yws2.aspx) and [Multiple Base Classes](/cpp/cpp/multiple-base-classes).  
   
-## Abstract Classes  
-Class Designer supports abstract classes (also named "abstract base classes"). These are classes that you never instantiate, but from which you can derive other classes. Using an example from "Multiple Inheritance" earlier in this document, you might instantiate the `Bird` class as individual objects as follows:  
+## Abstract classes  
+**Class Designer** supports abstract classes (also named "abstract base classes"). These are classes that you never instantiate, but from which you can derive other classes. Using an example from "Multiple Inheritance" earlier in this document, you might instantiate the `Bird` class as individual objects as follows:  
   
 ```cpp
 int main()  
@@ -100,10 +100,10 @@ int main()
 }  
 ```  
   
-When you display this code in a Class Diagram, Class Designer draws an inheritance line from `Fish` to `Swimmer`.  
+When you display this code in a Class Diagram, **Class Designer** draws an inheritance line from `Fish` to `Swimmer`.  
   
-## Anonymous Classes  
-Class Designer supports anonymous classes. *Anonymous class types* are classes declared without an identifier. They cannot have a constructor or destructor, cannot be passed as arguments to functions, and cannot be returned as return values from functions. You can use an anonymous class to replace a class name with a typedef name, as in the following example:  
+## Anonymous classes  
+**Class Designer** supports anonymous classes. *Anonymous class types* are classes declared without an identifier. They cannot have a constructor or destructor, cannot be passed as arguments to functions, and cannot be returned as return values from functions. You can use an anonymous class to replace a class name with a typedef name, as in the following example:  
   
 ```cpp
 typedef struct  
@@ -113,12 +113,12 @@ typedef struct
 } POINT;  
 ```  
   
-Structures can also be anonymous. Class Designer displays anonymous classes and structures the same as it displays the respective type. Although you can declare and display anonymous classes and structures, Class Designer will not use the tag name that you specify. It will use the name that Class View generates. The class or structure appears in Class View and Class Designer as an element called **__unnamed**.  
+Structures can also be anonymous. **Class Designer** displays anonymous classes and structures the same as it displays the respective type. Although you can declare and display anonymous classes and structures, **Class Designer** will not use the tag name that you specify. It will use the name that Class View generates. The class or structure appears in Class View and **Class Designer** as an element called **__unnamed**.  
   
 For more information about anonymous classes, see [Anonymous Class Types](/cpp/cpp/anonymous-class-types).  
   
-## Template Classes  
-Class Designer supports the visualization of template classes. Nested declarations are supported. The following table shows some typical declarations.  
+## Template classes  
+**Class Designer** supports the visualization of template classes. Nested declarations are supported. The following table shows some typical declarations.  
   
 |Code element|Class Designer view|  
 |------------------|-------------------------|  

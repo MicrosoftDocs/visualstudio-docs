@@ -17,10 +17,10 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Keyboard and Mouse Shortcuts in the Class Diagram and Class Details Window (Class Designer)
-You can use the keyboard in addition to the mouse to perform navigational actions in Class Designer and in the **Class Details** window.
+# Keyboard and mouse shortcuts in the Class Diagram and Class Details window (Class Designer)
+You can use the keyboard in addition to the mouse to perform navigational actions in **Class Designer** and in the **Class Details** window.
 
-## Using the Mouse in Class Designer  
+## Using the mouse in Class Designer  
 The following mouse actions are supported in class diagrams:  
   
 |Mouse Combination|Context|Description|  
@@ -33,8 +33,8 @@ The following mouse actions are supported in class diagrams:
 |CTRL + Mouse Wheel|Class diagram|Zoom.|  
 |CTRL + Shift + click|Class diagram|Zoom.|  
   
-## Using the Mouse in the Class Details Window  
-Using a mouse, you can change the appearance of the Class Details window and the data it displays, in the following ways:  
+## Using the mouse in the Class Details window  
+Using a mouse, you can change the appearance of the **Class Details** window and the data it displays, in the following ways:  
   
 -   Clicking any editable cell lets you edit the contents of that cell. Your changes are reflected in all places that data is stored or displayed, including in the Properties window and in source code.  
   
@@ -46,7 +46,7 @@ Using a mouse, you can change the appearance of the Class Details window and the
   
 -   The Class Details Window offers several buttons for creating new members in the current class and for navigating among the members' compartments in the Class Details Window grid. For more information, see Class Details Window Buttons.  
   
-## Using the Keyboard in Class Designer  
+## Using the keyboard in Class Designer  
 The following keyboard actions are supported in class diagrams:  
   
 |Key|Context|Description|  
@@ -73,23 +73,23 @@ The following keyboard actions are supported in class diagrams:
 |SHIFT+TAB|All contexts|Navigates to previous child within the same parent (supports wrapping).|  
 |SPACE|All contexts|Toggles selection on the current element.|  
   
-## Using the Keyboard in the Class Details Window  
+## Using the keyboard in the Class Details window  
   
 > [!NOTE]
 >  The following key bindings were chosen to specifically to mimic the experience of typing code.  
   
-Use the following keys to navigate the Class Details window:  
+Use the following keys to navigate the **Class Details** window:  
   
 |||  
 |-|-|  
 |Key|Result|  
-|, (comma)|If the cursor is in a parameter row, typing a comma moves the cursor to the Name field of the next parameter. If the cursor is in the last parameter row of a method, it moves the cursor to the \<add parameter> field, which you can use to create a new parameter.<br /><br /> If the cursor is elsewhere in the Class Details Window, typing a comma literally adds a comma in the current field.|  
-|; (semicolon)<br /><br /> or<br /><br /> ) (close parenthesis)|Move the cursor to the Name field of the next member row in the Class Details Window grid.|  
-|Tab|Moves the cursor to the next field, first moving left to right and then top to bottom. If the cursor is moving from a field in which you have typed text, Class Details Window processes that text and stores it if it does not produce an error.<br /><br /> If the cursor is on an empty field such as \<add parameter>, Tab moves it to the first field of the next row.|  
+|, (comma)|If the cursor is in a parameter row, typing a comma moves the cursor to the Name field of the next parameter. If the cursor is in the last parameter row of a method, it moves the cursor to the \<add parameter> field, which you can use to create a new parameter.<br /><br /> If the cursor is elsewhere in the **Class Details** window, typing a comma literally adds a comma in the current field.|  
+|; (semicolon)<br /><br /> or<br /><br /> ) (close parenthesis)|Move the cursor to the Name field of the next member row in the **Class Details** window grid.|  
+|Tab|Moves the cursor to the next field, first moving left to right and then top to bottom. If the cursor is moving from a field in which you have typed text, **Class Details** processes that text and stores it if it does not produce an error.<br /><br /> If the cursor is on an empty field such as \<add parameter>, Tab moves it to the first field of the next row.|  
 |\<space>|Moves the cursor to the next field, first moving left to right and then top to bottom. If the cursor is on an empty field such as \<add parameter>, it moves to the first field of the next row. Note that \<space> typed immediately after a comma is ignored.<br /><br /> If the cursor is in the Summary field, typing a space adds a space character.<br /><br /> If the cursor is in the Hide column of a given row, typing a space toggles the value of the Hide checkbox.|  
-|CTRL+Tab|Switch to another document window. For example, switch from the Class Details Window to an open code file.|  
-|ESC (Escape)|If you have begun to type text in a field, pressing ESC acts as an undo key, reverting the field's contents to its previous value. If the Class Details Window has general focus, but no specific cell has focus, pressing ESC moves focus away from the Class Details Window.|  
-|Up arrow and down arrow|These keys move the cursor from row to row vertically in the Class Details Window grid.|  
+|CTRL+Tab|Switch to another document window. For example, switch from the **Class Details** window to an open code file.|  
+|ESC (Escape)|If you have begun to type text in a field, pressing ESC acts as an undo key, reverting the field's contents to its previous value. If the Class Details Window has general focus, but no specific cell has focus, pressing ESC moves focus away from the **Class Details** window.|  
+|Up arrow and down arrow|These keys move the cursor from row to row vertically in the **Class Details** window grid.|  
 |Left arrow|If the cursor is in the Name column, pressing the left arrow collapses the current node in the hierarchy (if it is open).|  
 |Right arrow|If the cursor is in the Name column, pressing the right arrow expands the current node in the hierarchy (if it is collapsed).|  
   
