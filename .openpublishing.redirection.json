@@ -2287,6 +2287,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/vb6/partners/index.md",
+            "redirect_url": "/previous-versions/visualstudio/visual-basic-6/visual-basic-6-support-policy",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/vb6/vb6-support.md",
             "redirect_url": "/previous-versions/visualstudio/visual-basic-6/visual-basic-6-support-policy",
             "redirect_document_id": false
