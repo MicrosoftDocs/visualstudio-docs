@@ -1,10 +1,9 @@
 ---
-title: "Solutions and projects in Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/5/2017"
+title: Solutions and projects in Visual Studio
+ms.date: 10/5/2017
 ms.technology: vs-ide-general
-ms.topic: "conceptual"
-f1_keywords: 
+ms.topic: conceptual
+f1_keywords:
   - "vs.addnewsolutionitem"
   - "vs.environment.projects"
   - "vs.openproject"
@@ -15,16 +14,16 @@ f1_keywords:
   - "vs.addexistingsolutionitem"
   - "vs.environment.solutions"
   - "VS.SolutionExplorer.Solutions"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "solution items [Visual Studio]"
   - "solutions [Visual Studio]"
   - "project items [Visual Studio]"
   - "solutions [Visual Studio], designing"
   - "projects [Visual Studio]"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Solutions and projects in Visual Studio
@@ -63,4 +62,4 @@ After you create a new project, you can use **Solution Explorer** to view and ma
 
 ## See also
 
-[Visual Studio IDE](../ide/visual-studio-ide.md)
+- [Visual Studio IDE](../ide/visual-studio-ide.md)

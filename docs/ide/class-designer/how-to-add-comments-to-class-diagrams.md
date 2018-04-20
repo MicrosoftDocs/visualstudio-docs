@@ -18,10 +18,10 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Add Comments to Class Diagrams (Class Designer)
+# How to: add comments to class diagrams (Class Designer)
 You can use comment shapes to annotate class diagrams. A comment shape has one property, **Text**, into which you can type text. Comment shapes exist only on the diagram surface and not in code.  
   
-A comment resides on the class diagramview in **Class Designer**; if you open a second class diagram onto the same project, comments you created in the first view are not visible. If you delete a diagram, all the comments it contained are also deleted.  
+A comment resides on the class diagram view in **Class Designer**. If you open a second class diagram onto the same project, comments you created in the first view are not visible. If you delete a diagram, all the comments it contained are also deleted.  
   
 You can resize a comment shape but you cannot change other aspects of its appearance, such as its background color, font, or font size.  
   
@@ -32,6 +32,5 @@ You can resize a comment shape but you cannot change other aspects of its appear
 2.  Click in the new comment shape on the diagram and type the text you want.  
   
 ## See also
-[Working with Class Diagrams](working-with-class-diagrams.md)   
-[Working with Class Diagrams](working-with-class-diagrams.md)   
+[Working with Class Diagrams](working-with-class-diagrams.md)
 [How to: Customize Class Diagrams](how-to-customize-class-diagrams.md)

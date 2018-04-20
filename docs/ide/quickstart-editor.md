@@ -1,11 +1,10 @@
 ---
-title: "Introduction to editing in Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/30/2017"
+title: Introduction to editing in Visual Studio
+ms.date: 11/30/2017
 ms.technology: vs-ide-general
-ms.topic: "quickstart"
-author: "gewarren"
-ms.author: "gewarren"
+ms.topic: quickstart
+author: gewarren
+ms.author: gewarren
 manager: douge
 dev_langs:
   - "CSharp"
