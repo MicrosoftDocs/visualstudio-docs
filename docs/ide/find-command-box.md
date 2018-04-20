@@ -1,17 +1,16 @@
 ---
-title: "Find-Command Box | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
+title: Find-Command Box
+ms.date: 11/04/2016
 ms.technology: vs-ide-general
-ms.topic: "conceptual"
-f1_keywords: 
+ms.topic: conceptual
+f1_keywords:
   - "vs.findcommandbox"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Find/Command box"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Find/Command box
@@ -50,5 +49,5 @@ A caret functions the same whether it is inside or outside quotation marks. If a
 
 ## See also
 
-[Command window](../ide/reference/command-window.md)  
-[Finding and replacing text](../ide/finding-and-replacing-text.md)
+- [Command window](../ide/reference/command-window.md)
+- [Finding and replacing text](../ide/finding-and-replacing-text.md)

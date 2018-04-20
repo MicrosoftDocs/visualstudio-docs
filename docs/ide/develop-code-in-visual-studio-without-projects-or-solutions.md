@@ -1,14 +1,14 @@
 ---
-title: "Develop code in Visual Studio without projects or solutions | Microsoft Docs"
+title: Develop code in Visual Studio without projects or solutions
 ms.date: 02/21/2018
-ms.technology: "vs-ide-general"
-ms.topic: "conceptual"
+ms.technology: vs-ide-general
+ms.topic: conceptual
 helpviewer_keywords:
   - "open folder [Visual Studio]"
   - "anycode [Visual Studio]"
   - projects and solutions, develop code without
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
