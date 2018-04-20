@@ -21,18 +21,12 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Create Types by using Class Designer
+# How to: Create types by using Class Designer
 To design new types for C# and Visual Basic projects, create them on a class diagram. To see existing types, see [How to: View Existing Types](how-to-view-existing-types.md).  
-  
--   [Create a new type](#CreateType)  
-  
--   [Apply a custom attribute to a type](#CustAttributeType)  
-  
--   [Apply a custom attribute to a type member](#CustAttributeMember)  
   
 ##  <a name="CreateType"></a> Create a new type  
   
-1.  In the Toolbox, under Class Designer, drag one of these onto a class diagram:  
+1.  In the **Toolbox**, under **Class Designer**, drag one of these onto a class diagram:  
   
     -   **Class** or **Abstract Class**  
   
@@ -67,13 +61,13 @@ To design new types for C# and Visual Basic projects, create them on a class dia
     |Delegate|Parameters that define the delegate|  
     |Module|Methods, properties, fields, events, constructors (method), and constants that define the module|  
   
-     See [Creating Members](creating-and-configuring-type-members.md#CreateMembers).  
+     See [Creating Members](creating-and-configuring-type-members.md#create-members).  
   
 ##  <a name="CustAttributeType"></a> Apply a custom attribute to a type  
   
 1.  Click the type's shape on a class diagram.  
   
-2.  In the Properties window, next to the **Custom Attributes** property for the type, click the ellipsis (...) button.  
+2.  In **Properties**, next to the **Custom Attributes** property for the type, click the ellipsis (...) button.  
   
 3.  Add one or more custom attributes with one per line. Don't enclose them in brackets.  
   
@@ -83,7 +77,7 @@ To design new types for C# and Visual Basic projects, create them on a class dia
   
 1.  Click the member's name in its type's shape on a class diagram, or its row in the Class Details window.  
   
-2.  In the Properties window, find the member's **Custom Attributes** property.  
+2.  In **Properties**, find the member's **Custom Attributes** property.  
   
 3.  Add one or more custom attributes with one per line. Don't enclose them in brackets.  
   
@@ -94,4 +88,4 @@ To design new types for C# and Visual Basic projects, create them on a class dia
 [How to: Create Associations Between Types](how-to-create-associations-between-types.md)
 [Creating and Configuring Type Members](creating-and-configuring-type-members.md)   
 [Working with Class Diagrams](working-with-class-diagrams.md)   
-[Designing Classes and Types](designing-classes-and-types.md)
+[Designing Classes and Types](designing-and-viewing-classes-and-types.md)
