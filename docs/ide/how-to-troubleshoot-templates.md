@@ -13,11 +13,11 @@ manager: douge
 
 If a template fails to load in the development environment, there are several ways to locate the problem.
 
-## Validate the .vstemplate file
+## Validate the vstemplate file
 
-If the *.vstemplate* file in a template does not adhere to the Visual Studio template schema, the template may not appear in the **New Project** dialog box.
+If the *vstemplate* file in a template doesn't adhere to the Visual Studio template schema, the template may not appear in the **New Project** dialog box.
 
-### To validate the .vstemplate file
+### To validate the vstemplate file
 
 1. Locate the *.zip* file that contains the template.
 
@@ -25,14 +25,14 @@ If the *.vstemplate* file in a template does not adhere to the Visual Studio tem
 
 1. On the **File** menu in Visual Studio, choose **Open** > **File**.
 
-1. Select the *.vstemplate* file for the template, and choose **Open**.
+1. Select the *vstemplate* file for the template, and choose **Open**.
 
-1. Verify that the XML of the *.vstemplate* file adheres to the template schema. For more information on the *.vstemplate* schema, see [Template schema reference](../extensibility/visual-studio-template-schema-reference.md).
+1. Verify that the XML of the *vstemplate* file adheres to the template schema. For more information on the *vstemplate* schema, see [Template schema reference](../extensibility/visual-studio-template-schema-reference.md).
 
     > [!NOTE]
-    > To get IntelliSense support while authoring the *.vstemplate* file, add a `xmlns` attribute to the `VSTemplate` element, and assign it a value of http://schemas.microsoft.com/developer/vstemplate/2005.
+    > To get IntelliSense support while authoring the *vstemplate* file, add a `xmlns` attribute to the `VSTemplate` element, and assign it a value of http://schemas.microsoft.com/developer/vstemplate/2005.
 
-1. Save and close the *.vstemplate* file.
+1. Save and close the *vstemplate* file.
 
 1. Select the files included in your template, right-click, and choose **Send to** > **Compressed (zipped) folder**. The files that you selected are compressed into a *.zip* file.
 

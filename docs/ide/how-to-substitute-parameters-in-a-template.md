@@ -13,7 +13,7 @@ manager: douge
 ---
 # How to: Substitute parameters in a template
 
-Template parameters enable you to replace identifiers such as class names and namespaces, when a file is created from a template. You can add template parameters to existing templates, or create your own templates with template parameters.
+Template parameters let you replace identifiers such as class names and namespaces when a file is created from a template. You can add template parameters to existing templates, or create your own templates with template parameters.
 
 Template parameters are written in the format $*parameter*$. For a complete list of template parameters, see [Template parameters](../ide/template-parameters.md).
 
@@ -27,7 +27,7 @@ The following section shows you how to modify a template to replace the name of 
     namespace $safeprojectname$
     ```
 
-1. In the *.vstemplate* file for the template, locate the `ProjectItem` element that includes this file.
+1. In the *vstemplate* file for the template, locate the `ProjectItem` element that includes this file.
 
 1. Set the `ReplaceParameters` attribute to `true` for the `ProjectItem` element:
 
