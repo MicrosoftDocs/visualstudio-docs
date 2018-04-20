@@ -1,17 +1,15 @@
 ---
-title: "Synchronize your settings in Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "01/23/2017"
-ms.technology: 
-  - "vs-ide-general"
-ms.topic: "conceptual"
-f1_keywords: 
+title: Synchronize your settings in Visual Studio
+ms.date: 01/23/2017
+ms.technology: vs-ide-general
+ms.topic: conceptual
+f1_keywords:
   - "VS.ToolsOptionsPages.Environment.RoamingSettings"
 ms.assetid: a3d2ea29-be5d-4012-9820-44b06adbb7dd
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Synchronize your settings in Visual Studio

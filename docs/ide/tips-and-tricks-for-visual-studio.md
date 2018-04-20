@@ -1,10 +1,10 @@
 ---
-title: "Visual Studio keyboard shortcuts | Microsoft Docs"
-ms.date: "06/21/2017"
+title: Visual Studio keyboard shortcuts
+ms.date: 06/21/2017
 ms.technology: vs-ide-general
-ms.topic: "conceptual"
-author: "gewarren"
-ms.author: "gewarren"
+ms.topic: reference
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"

@@ -1,16 +1,14 @@
 ---
-title: "Create multi-project templates for Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "01/02/2018"
-ms.technology: 
-  - "vs-ide-general"
-ms.topic: "conceptual"
-helpviewer_keywords: 
+title: Create multi-project templates for Visual Studio
+ms.date: 01/02/2018
+ms.technology: vs-ide-general
+ms.topic: conceptual
+helpviewer_keywords:
   - "Visual Studio templates, creating multi-project"
   - "project templates, multi-project"
   - "multi-project templates"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ---
 # How to: Create multi-project templates
@@ -21,15 +19,15 @@ A multi-project template has two or more project templates, and a root template 
 
 Multi-project templates behave differently than single project templates. They have the following unique characteristics:
 
-- Individual projects in a multi-project template cannot be assigned names in the **New Project** dialog box. Instead, use the `ProjectName` attribute on the `ProjectTemplateLink` element in the *.vstemplate* file to specify a name for each project.
+- Individual projects in a multi-project template cannot be assigned names in the **New Project** dialog box. Instead, use the `ProjectName` attribute on the `ProjectTemplateLink` element in the *vstemplate* file to specify a name for each project.
 
-- Multi-project templates can contain projects for different languages, but the entire template itself can only be put in one category. Specify the template category in the `ProjectType` element of the *.vstemplate* file.
+- Multi-project templates can contain projects for different languages, but the entire template itself can only be put in one category. Specify the template category in the `ProjectType` element of the *vstemplate* file.
 
 A multi-project template must include the following items, compressed into a *.zip* file:
 
-- A root *.vstemplate* file for the entire multi-project template. This root *.vstemplate* file contains metadata that the **New Project** dialog box displays, and specifies where to find the *.vstemplate* files for the projects in the template. This file must be located at the root of the *.zip* file.
+- A root *vstemplate* file for the entire multi-project template. This root *vstemplate* file contains metadata that the **New Project** dialog box displays, and specifies where to find the *vstemplate* files for the projects in the template. This file must be located at the root of the *.zip* file.
 
-- Two or more folders that contain the files that are required for a complete project template. The folders include all code files for the project, and also a *.vstemplate* file for the project.
+- Two or more folders that contain the files that are required for a complete project template. The folders include all code files for the project, and also a *vstemplate* file for the project.
 
 For example, a multi-project template *.zip* file that has two projects could have the following files and directories:
 
@@ -41,7 +39,7 @@ For example, a multi-project template *.zip* file that has two projects could ha
 - *\Project2\Project2.vbproj*
 - *\Project2\Class.vb*
 
-The root *.vstemplate* file for a multi-project template differs from a single-project template in the following ways:
+The root *vstemplate* file for a multi-project template differs from a single-project template in the following ways:
 
 - The `Type` attribute of the `VSTemplate` element has the value `ProjectGroup` instead of `Project`. For example:
 
@@ -50,7 +48,7 @@ The root *.vstemplate* file for a multi-project template differs from a single-p
         xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
     ```
 
-- The `TemplateContent` element contains a `ProjectCollection` element that has one or more `ProjectTemplateLink` elements that define the paths to the *.vstemplate* files of the included projects. For example:
+- The `TemplateContent` element contains a `ProjectCollection` element that has one or more `ProjectTemplateLink` elements that define the paths to the *vstemplate* files of the included projects. For example:
 
     ```xml
     <TemplateContent>
@@ -88,7 +86,7 @@ The root *.vstemplate* file for a multi-project template differs from a single-p
 
 1. Extract the contents of each project's *.zip* file into the corresponding subdirectory that you created.
 
-1. In the base directory, create an XML file with a *.vstemplate* file extension. This file contains the metadata for the multi-project template. See the example that follows for the structure of the file. Be sure to specify the relative path to each project's *.vstemplate* file.
+1. In the base directory, create an XML file with a *.vstemplate* file extension. This file contains the metadata for the multi-project template. See the example that follows for the structure of the file. Be sure to specify the relative path to each project's *vstemplate* file.
 
 1. Select the base directory, and from the right-click or context menu, choose **Send to** > **Compressed (zipped) folder**.
 
@@ -100,10 +98,10 @@ The root *.vstemplate* file for a multi-project template differs from a single-p
 
 ## Two-project example
 
-This example shows a basic multi-project root *.vstemplate* file. In this example, the template has two projects, `My Windows Application` and `My Class Library`. The `ProjectName` attribute on the `ProjectTemplateLink` element specifies the name that is given to the project.
+This example shows a basic multi-project root *vstemplate* file. In this example, the template has two projects, `My Windows Application` and `My Class Library`. The `ProjectName` attribute on the `ProjectTemplateLink` element specifies the name that is given to the project.
 
 > [!TIP]
-> If the `ProjectName` attribute is not specified, the name of the *.vstemplate* file is used as the project name.
+> If the `ProjectName` attribute is not specified, the name of the *vstemplate* file is used as the project name.
 
 ```xml
 <VSTemplate Version="2.0.0" Type="ProjectGroup"
@@ -165,8 +163,8 @@ This example uses the `SolutionFolder` element to divide the projects into two g
 
 ## See also
 
-[Creating project and item templates](../ide/creating-project-and-item-templates.md)  
-[How to: Create project templates](../ide/how-to-create-project-templates.md)  
-[Visual Studio template schema reference (extensibility)](../extensibility/visual-studio-template-schema-reference.md)  
-[SolutionFolder element (Visual Studio templates)](../extensibility/solutionfolder-element-visual-studio-templates.md)  
-[ProjectTemplateLink element (Visual Studio templates)](../extensibility/projecttemplatelink-element-visual-studio-templates.md)
+- [Creating project and item templates](../ide/creating-project-and-item-templates.md)
+- [How to: Create project templates](../ide/how-to-create-project-templates.md)
+- [Visual Studio template schema reference (extensibility)](../extensibility/visual-studio-template-schema-reference.md)
+- [SolutionFolder element (Visual Studio templates)](../extensibility/solutionfolder-element-visual-studio-templates.md)
+- [ProjectTemplateLink element (Visual Studio templates)](../extensibility/projecttemplatelink-element-visual-studio-templates.md)

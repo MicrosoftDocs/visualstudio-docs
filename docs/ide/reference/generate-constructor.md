@@ -1,9 +1,8 @@
 ---
-title: "Generate a constructor in Visual Studio | Microsoft Docs"
-ms.custom: ""
+title: Generate a constructor in Visual Studio
 ms.date: 01/26/2018
 ms.technology: vs-ide-general
-ms.topic: "conceptual"
+ms.topic: reference
 author: "kuhlenh"
 ms.author: "kaseyu"
 manager: douge

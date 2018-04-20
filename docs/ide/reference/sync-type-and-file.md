@@ -1,11 +1,10 @@
 ---
-title: "Rename a filename to match a type in Visual Studio | Microsoft Docs"
-ms.custom: ""
+title: Rename a filename to match a type in Visual Studio
 ms.date: 01/26/2018
 ms.technology: vs-ide-general
 ms.topic: reference
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 dev_langs:
   - CSharp
@@ -63,4 +62,4 @@ This refactoring applies to:
 
 ## See also
 
-[Refactoring](../refactoring-in-visual-studio.md)
+- [Refactoring](../refactoring-in-visual-studio.md)

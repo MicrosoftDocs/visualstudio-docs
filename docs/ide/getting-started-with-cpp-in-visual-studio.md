@@ -1,11 +1,13 @@
 ---
-title: "Get started with C++ in Visual Studio | Microsoft Docs"
-ms.custom: "mvc"
-ms.date: "12/04/2017"
-ms.technology: "vs-acquisition"
-ms.topic: "tutorial"
-author: "corob-msft"
-ms.author: "tglee"
+title: "Get started with C++ in Visual Studio"
+description: ""
+ms.custom: mvc
+ms.date: 12/04/2017
+ms.technology: vs-acquisition
+ms.prod: visual-studio-dev15
+ms.topic: tutorial
+author: corob-msft
+ms.author: tglee
 manager: douge
 dev_langs:
   - "CPP"
@@ -147,8 +149,8 @@ Congratulations on completing this quickstart! If you want to explore more examp
 
 ## See also
 
-[Using the Visual Studio IDE for C++ desktop development](/cpp/ide/using-the-visual-studio-ide-for-cpp-desktop-development)  
-[Walkthrough: Create a simple application with C# or Visual Basic](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md)  
-[Productivity tips for Visual Studio](../ide/productivity-tips-for-visual-studio.md)  
-[Visual Studio samples](../ide/visual-studio-samples.md)  
-[Get started developing with Visual Studio](../ide/get-started-developing-with-visual-studio.md)
+- [Using the Visual Studio IDE for C++ desktop development](/cpp/ide/using-the-visual-studio-ide-for-cpp-desktop-development)
+- [Walkthrough: Create a simple application with C# or Visual Basic](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md)
+- [Productivity tips for Visual Studio](../ide/productivity-tips-for-visual-studio.md)
+- [Visual Studio samples](../ide/visual-studio-samples.md)
+- [Get started developing with Visual Studio](../ide/get-started-developing-with-visual-studio.md)
