@@ -26,7 +26,7 @@ Breakpoints can be set on start tags, end tags, and text nodes of an XSLT style 
 
 2.  Position the cursor at the breakpoint location, right-click, point to **Breakpoint**, and click **Insert Breakpoint**.
 
-3.  Click the browse the browse button (**...**) on the **Input** field of the document properties window.
+3.  Click the browse button (**...**) on the **Input** field of the document properties window.
 
 4.  Locate the XML source document and click **Open**.
 
@@ -44,7 +44,7 @@ Breakpoints can be set on elements, attributes, namespace node, comments, proces
 
 2.  Position the cursor at the breakpoint location, right-click, point to **Breakpoint**, and click **Insert Breakpoint**.
 
-3.  Click the browse the browse button (**...**) on the **Stylesheet** field of the document properties window.
+3.  Click the browse button (**...**) on the **Stylesheet** field of the document properties window.
 
 4.  Locate the XML source document and click **Open**.
 

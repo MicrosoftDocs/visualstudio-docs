@@ -18,7 +18,7 @@ The example in this topic demonstrates debugging in a referenced style sheet.
 
 ## To debug in a referenced style sheet
 
-1. Open an XML document in Visual Studio. This example uses the following `collection.xml` document.
+1. Open an XML document in Visual Studio. This example uses the following  document:
 
     ```xml
     <?xml version="1.0" encoding="utf-8"?>
@@ -103,7 +103,7 @@ The example in this topic demonstrates debugging in a referenced style sheet.
 
 5.  Start debugging.
 
-6.  When the debugger stops at the instruction `<xsl:include href="xslincludefile.xsl" />`, press the **Step Into** button. Note that the debugging can be continued in the referenced style sheet. The hierarchy is visible and the designer displays the right path.
+6.  When the debugger stops at the instruction `<xsl:include href="xslincludefile.xsl" />`, press the **Step Into** button. The debugging can be continued in the referenced style sheet. The hierarchy is visible and the designer displays the right path.
 
 ## See also
 

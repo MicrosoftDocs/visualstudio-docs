@@ -25,9 +25,9 @@ The XML Schema Explorer enables you to search the schema set in the following wa
 
  ![XML Schema Explorer Keyword Search](../xml-tools/media/schemaexplorersearch.gif "SchemaExplorerSearch")
 
- The XML Schema Explorer searches the schema set for the following:
+ The XML Schema Explorer searches the schema set for the following attributes:
 
--   Any `name` or `ref` attributes that match the specified keyword. This enables you to find elements, attributes, types, and so on by name.
+-   Any `name` or `ref` attributes that match the specified keyword. This enables you to find elements, attributes, types, and so on, by name.
 
 -   The `schemaLocation` attributes of include statements.
 
