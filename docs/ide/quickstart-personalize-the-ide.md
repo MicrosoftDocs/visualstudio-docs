@@ -1,12 +1,10 @@
 ---
-title: "Set color theme and fonts in Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/20/2017"
-ms.technology:
-  - "vs-ide-general"
-ms.topic: "quickstart"
-author: "gewarren"
-ms.author: "gewarren"
+title: Set color theme and fonts in Visual Studio
+ms.date: 11/20/2017
+ms.technology: vs-ide-general
+ms.topic: quickstart
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"

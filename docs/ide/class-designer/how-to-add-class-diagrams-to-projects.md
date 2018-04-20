@@ -15,7 +15,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Add Class Diagrams to Projects (Class Designer)
+# How to: Add class diagrams to projects (Class Designer)
 To design, edit, and refactor classes and other types, add a class diagram to your C#, Visual Basic, or C++ project. To visualize different parts of the code in a project, add multiple class diagrams to the project.  
   
 You can't create class diagrams from projects that share code across multiple apps. To create UML class diagrams, see [Create UML modeling projects and diagrams](../../modeling/create-uml-modeling-projects-and-diagrams.md).  
@@ -32,7 +32,7 @@ You can't create class diagrams from projects that share code across multiple ap
   
 ### To add a class diagram based on existing types  
   
-1.  In Solution Explorer, open the class file context menu, then choose **View Class Diagram**.  
+1.  In **Solution Explorer**, open the class file context menu, then choose **View Class Diagram**.  
   
      -or-  
   
@@ -40,13 +40,13 @@ You can't create class diagrams from projects that share code across multiple ap
   
 ### To display the contents of a complete project in a class diagram  
   
-1.  In Solution Explorer or Class View, right-click the project and choose **View**, then choose **View Class Diagram**.
+1.  In **Solution Explorer** or Class View, right-click the project and choose **View**, then choose **View Class Diagram**.
 
-     An auto-populated Class Diagram is created.  
+     An auto-populated class diagram is created.  
   
 ## See also
-[How to: Create Types by using Class Designer](how-to-create-types.md)   
-[How to: View Existing Types](how-to-view-existing-types.md)   
-[Designing Classes and Types](designing-classes-and-types.md)   
-[Viewing Types and Relationships](viewing-types-and-relationships.md)   
-[Working with Class Diagrams](working-with-class-diagrams.md)
+[How to: Create types using the Class Designer](how-to-create-types.md)   
+[How to: View existing types](how-to-view-existing-types.md)   
+[Designing and viewing classes and types](designing-and-viewing-classes-and-types.md)   
+[Viewing types and relationships](viewing-types-and-relationships.md)   
+[Working with class diagrams](working-with-class-diagrams.md)

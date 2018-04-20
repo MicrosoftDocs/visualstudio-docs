@@ -14,8 +14,8 @@ manager: douge
 ms.workload: 
   - "cplusplus"
 ---
-# Visual C++ Enumerations in Class Designer
-Class Designer supports C++ `enum` and scoped `enum class` types. Following is an example:  
+# Visual C++ enumerations in Class Designer
+**Class Designer** supports C++ `enum` and scoped `enum class` types. Following is an example:  
   
 ```cpp
 enum CardSuit {  

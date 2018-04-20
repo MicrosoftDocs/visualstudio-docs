@@ -1,13 +1,15 @@
 ---
-title: "How to report a problem with Visual Studio 2017 | Microsoft Docs"
+title: "How to report a problem with Visual Studio 2017"
+description: "Find out how to report a problem with Visual Studio 2017 to Microsoft so that we can diagnose and fix it."
 ms.custom: ""
-ms.date: "03/11/2018"
-ms.topic: "conceptual"
+ms.date: 03/11/2018
+ms.technology: vs-acquisition
+ms.prod: visual-studio-dev15
+ms.topic: conceptual
 ms.assetid: bee01179-cde5-4419-9095-190ee0ba5902
-author: "TerryGLee"
-ms.author: "tglee"
+author: TerryGLee
+ms.author: tglee
 manager: douge
-ms.technology: "vs-acquisition"
 ms.workload:
   - "multiple"
 ---
