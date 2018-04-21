@@ -1,7 +1,7 @@
 ---
-title: "Walkthrough: Building an Application"
+title: "Walkthrough: Build an Application"
 ms.date: 09/25/2017
-ms.technology: vs-ide-general
+ms.technology: vs-ide-compile
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
@@ -9,7 +9,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Walkthrough: Building an Application
+# Walkthrough: Build an Application
 
 By completing this walkthrough, you'll become more familiar with several options that you can configure when you build applications with Visual Studio. You'll create a custom build configuration, hide certain warning messages, and increase build output information for a sample application.
 
