@@ -25,7 +25,7 @@ The <xref:System.Activities.Statements.Assign> activity assigns a value to a var
 
 The **Assign** activity designer can be found in the **Primitives** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab (Alternatively, select **Toolbox** from the **View** menu or CTRL+ALT+X.)
 
-The **Assign** activity designer can be dragged from the **Toolbox** and dropped on to the Workflow Designer surface where ever activities are usually placed, such as inside a <xref:System.Activities.Statements.Sequence>. This creates an <xref:System.Activities.Statements.Assign> activity with a default **DisplayName** of Assign. The <xref:System.Activities.Activity.DisplayName%2A> can be edited in the header of the **Assign** activity designer or in the **DisplayName** box of the property grid.
+The **Assign** activity designer can be dragged from the **Toolbox** and dropped on to the Workflow Designer surface where ever activities are placed, such as inside a <xref:System.Activities.Statements.Sequence>. Dropping the **Assign** activity designer creates an <xref:System.Activities.Statements.Assign> activity with a default **DisplayName** of Assign. The <xref:System.Activities.Activity.DisplayName%2A> can be edited in the header of the **Assign** activity designer or in the **DisplayName** box of the property grid.
 
 ### The Assign Properties
 
@@ -34,7 +34,7 @@ The following table shows the <xref:System.Activities.Statements.Assign> propert
 |Property Name|Required|Usage|
 |-------------------|--------------|-----------|
 |<xref:System.Activities.Activity.DisplayName%2A>|False|The friendly name of the <xref:System.Activities.Statements.Assign> activity. The default is Assign. Although the <xref:System.Activities.Activity.DisplayName%2A> value is not strictly required, it is a best practice to use one.|
-|<xref:System.Activities.Statements.Assign.To%2A>|True|The variable or argument to which the <xref:System.Activities.Statements.Assign.Value%2A> is assigned. This must be a valid Visual Basic identifier. To set the property, type a Visual Basic expression in the **To** box on the **Assign** activity designer or in the property grid.|
+|<xref:System.Activities.Statements.Assign.To%2A>|True|The variable or argument to which the <xref:System.Activities.Statements.Assign.Value%2A> is assigned. The value must be a valid Visual Basic identifier. To set the property, type a Visual Basic expression in the **To** box on the **Assign** activity designer or in the property grid.|
 |<xref:System.Activities.Statements.Assign.Value%2A>|True|The value that is assigned to the variable. To set the <xref:System.Activities.Statements.Assign.Value%2A>, type a Visual Basic expression in the **Value** box on the **Assign** activity designer or in the property grid.|
 
 ## See also
