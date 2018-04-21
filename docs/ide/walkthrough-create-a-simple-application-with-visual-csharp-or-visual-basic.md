@@ -2,13 +2,14 @@
 title: "Walkthrough: Create a Simple Application with C# or Visual Basic"
 ms.date: 10/03/2017
 ms.technology: vs-acquisition
+ms.prod: visual-studio-dev15
 ms.topic: conceptual
 dev_langs:
   - "VB"
   - "CSharp"
 ms.assetid: f84339c7-d617-4f56-bfcd-af2215c347ba
-author: "TerryGLee"
-ms.author: "tglee"
+author: TerryGLee
+ms.author: tglee
 manager: douge
 ms.workload:
   - "dotnet"
