@@ -15,7 +15,7 @@ ms.workload:
 
 This topic describes how to invoke a Windows Communication Foundation (WCF) contract operation using the legacy Windows Workflow Designer that targets the .NET Framework version 3.5 or the WinFX.
 
-After dragging a **SendActivity** activity from the toolbox to the workflow design surface, you must import an existing contract and determine which operation will be invoked from that **SendActivity** activity. You select your contract and its operations through the [Choose Operation Dialog Box (Legacy)](../workflow-designer/choose-operation-dialog-box-legacy.md).
+After you drag a **SendActivity** activity from the toolbox to the workflow design surface, import an existing contract. Determine which operation is invoked from that **SendActivity** activity. Select the contract and its operations through the [Choose Operation Dialog Box (Legacy)](../workflow-designer/choose-operation-dialog-box-legacy.md).
 
 Also, if you are using a configuration file with your service, you need to specify a <xref:System.Workflow.Activities.ChannelToken>. The <xref:System.Workflow.Activities.ChannelToken> identifies the endpoint configuration your send activity is going to use to connect to the workflow service.
 
