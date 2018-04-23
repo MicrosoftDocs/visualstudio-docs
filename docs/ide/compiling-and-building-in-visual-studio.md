@@ -1,7 +1,7 @@
 ---
 title: Compiling and building in Visual Studio
 ms.date: 07/14/2017
-ms.technology: vs-ide-general
+ms.technology: vs-ide-compile
 ms.topic: conceptual
 helpviewer_keywords:
   - "builds [Visual Studio], about building in Visual Studio"

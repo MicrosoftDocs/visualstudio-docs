@@ -1,6 +1,7 @@
 ---
-title: "Debug a multithreaded application using the Threads window | Microsoft Docs"
-ms.custom: "H1HackMay2017"
+title: "Debug a multithreaded application"
+description: Debug using the Threads window and the Debug Location toolbar in Visual Studio
+ms.custom: ""
 ms.date: "05/18/2017"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"

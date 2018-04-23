@@ -1,52 +1,52 @@
 ---
-title: "Tutorial 1: Create a Picture Viewer | Microsoft Docs"
+title: "Tutorial 1: Create a Picture Viewer"
 ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-acquisition"
-ms.topic: "conceptual"
+ms.date: 11/04/2016
+ms.technology: vs-acquisition
+ms.prod: visual-studio-dev15
+ms.topic: conceptual
 ms.assetid: 3071d6df-2b2f-4e95-ab68-bef727323136
-author: "TerryGLee"
-ms.author: "tglee"
+author: TerryGLee
+ms.author: tglee
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Tutorial 1: Create a Picture Viewer
 In this tutorial, you build a program that loads a picture from a file and displays it in a window. You learn how to drag controls like buttons and picture boxes on your form, set their properties, and use containers to smoothly resize the form. You also get started writing code. You learn how to:  
-  
+
 -   Create a new project.  
-  
+
 -   Test (debug) an application.  
-  
+
 -   Add basic controls like check boxes and buttons to a form.  
-  
+
 -   Position controls on a form using layouts.  
-  
+
 -   Add **Open File** and **Color** dialog boxes to a form.  
-  
+
 -   Write code using IntelliSense and code snippets.  
-  
+
 -   Write event handler methods.  
-  
+
  When you finish, your program will look like the following picture.  
-  
+
  ![Picture that you create in this tutorial](../ide/media/express_pictureviewerdone.png "Express_PictureViewerDone")  
 Picture that you create in this tutorial  
-  
+
  To download a completed version of the sample, see [Complete Picture Viewer tutorial sample](http://code.msdn.microsoft.com/Complete-Picture-Viewer-7d91d3a8).  
-  
+
  ![link to video](../data-tools/media/playvideo.gif "PlayVideo")For a video version of this topic, see [How Do I: Create a Picture Viewer in Visual Basic?](http://go.microsoft.com/fwlink/?LinkId=205207) or [How Do I: Create a Picture Viewer in C#?](http://go.microsoft.com/fwlink/?LinkId=205198).  
-  
+
 > [!NOTE]
 >  These videos use an earlier version of Visual Studio, so there are slight differences in some menu commands and other user interface elements. However, the concepts and procedures work similarly in the current version of Visual Studio. Visual C# and Visual Basic are both covered in this tutorial, so focus on information specific to the programming language that you're using.  
 >   
 >  To see code for Visual Basic, choose the **VB** tab at the top of code blocks, and to see code for Visual C#, choose the **C#** tab. If you're interested in learning about Visual C++, see [Getting Started](../ide/getting-started-with-cpp-in-visual-studio.md) and [C++ Language Tutorial](http://www.cplusplus.com/doc/tutorial/).  
 >   
 >  If you're interested in learning how to write Visual C# or Visual Basic UWP apps, see [Build UWP apps](https://developer.microsoft.com/windows/apps).
-  
+
 ## Related Topics  
-  
+
 |Title|Description|  
 |-----------|-----------------|  
 |[Step 1: Create a Windows Forms Application Project](../ide/step-1-create-a-windows-forms-application-project.md)|Begin by creating a Windows Forms application project.|  
