@@ -1,8 +1,8 @@
 ---
-title: "Make Coded UI Tests Wait For Specific Events in Visual Studio | Microsoft Docs"
-ms.date: "11/04/2016"
+title: "Make Coded UI Tests Wait For Specific Events in Visual Studio"
+ms.date: 11/04/2016
 ms.technology: vs-ide-test
-ms.topic: "conceptual"
+ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
 manager: douge
@@ -18,7 +18,8 @@ In a coded UI test playback, you can instruct the test to wait for certain event
  Visual Studio Enterprise
 
 > [!TIP]
->  You can also add delays before actions using the Coded UI Test Editor. For more information, see [How to: Insert a Delay Before a UI Action Using the Coded UI Test Editor](http://msdn.microsoft.com/Library/509f8ef7-e105-4049-b11b-d64549e055b0).
+> You can also add delays before actions using the Coded UI Test Editor. For more information, see [How to: Insert a Delay Before a UI Action Using the Coded UI Test Editor](http://msdn.microsoft.com/Library/509f8ef7-e105-4049-b11b-d64549e055b0).
+
 
  **UITestControl.WaitForControlXXX() Methods**
 

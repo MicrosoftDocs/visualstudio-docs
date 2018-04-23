@@ -1,7 +1,7 @@
 ---
-title: "Zoom in on load test result graphs in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "conceptual"
+title: "Zoom in on load test result graphs in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 f1_keywords:
   - "vs.test.load.monitor.graphzoom"
 helpviewer_keywords:

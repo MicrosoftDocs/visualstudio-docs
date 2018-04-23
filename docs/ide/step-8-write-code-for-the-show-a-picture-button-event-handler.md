@@ -1,20 +1,20 @@
 ---
-title: "Step 8: Write code for the show a picture button event handler | Microsoft Docs"
+title: "Step 8: Write code for the show a picture button event handler"
 ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-acquisition"
-ms.topic: "conceptual"
+ms.date: 11/04/2016
+ms.technology: vs-acquisition
+ms.prod: visual-studio-dev15
+ms.topic: conceptual
 ms.assetid: 07f4ec00-cda4-42f4-98bb-37edc7167de7
-author: "TerryGLee"
-ms.author: "tglee"
+author: TerryGLee
+ms.author: tglee
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Step 8: Write code for the show a picture button event handler
 In this step, you make the **Show a picture** button work like this:  
-  
+
 -   When a user chooses that button, the program opens an **Open File** dialog box.  
   
 -   If a user opens a picture file, the program shows that picture in the **PictureBox**.  
@@ -36,9 +36,9 @@ In this step, you make the **Show a picture** button work like this:
   
      ![Visual C&#35; code](../ide/media/express_highlighttrue.png "Express_HighlightTrue")  
 Visual C# code  
-  
+
 4.  Next, you use IntelliSense to enter more code to open an **Open File** dialog box. If the user chose the **OK** button, the PictureBox loads the file that the user selected. The following steps show how to enter the code, and although it's numerous steps, it's just a few keystrokes:  
-  
+
     1.  Start with the selected text **true** in the snippet. Type `op` to overwrite it. (In Visual Basic, you start with an initial cap, so type `Op`.)  
   
     2.  The **IntelliSense** window opens and displays **openFileDialog1**. Choose the **Tab** key to select it. (In Visual Basic, it starts with an initial cap, so you see **OpenFileDialog1**. Ensure that **OpenFileDialog1** is selected.)  
@@ -49,7 +49,7 @@ Visual C# code
   
         > [!NOTE]
         >  The **IntelliSense** window can show you both properties and methods. To determine what is being shown, look at the icon on the left side of each item in the **IntelliSense** window. You see a picture of a block next to each method, and a picture of a wrench (or spanner) next to each property. There's also a lightning bolt icon next to each event. These pictures display as follows.  
-  
+
          ![Method icon](../ide/media/express_iconmethod.png "Express_IconMethod")  
 **Method** icon  
   
@@ -62,12 +62,12 @@ Visual C# code
     4.  Start to type `ShowDialog` (capitalization is unimportant to IntelliSense). The `ShowDialog()` method will show the **Open File** dialog box. After the window has highlighted **ShowDialog**, choose the **Tab** key. You can also highlight "ShowDialog" and choose the **F1** key to get help for it.  
   
          To learn more about the `ShowDialog()` method, see [ShowDialog Method](http://msdn.microsoft.com/library/c7ykbedk.aspx).  
-  
+
     5.  When you use a method on a control or a component (referred to as *calling a method*), you need to add parentheses. So enter opening and closing parentheses immediately after the "g" in `ShowDialog`: `()` It should now look like "openFileDialog1.ShowDialog()".  
-  
+
         > [!NOTE]
         >  Methods are an important part of any program, and this tutorial has shown several ways to use methods. You can call a component's method to tell it to do something, like how you called the **OpenFileDialog** component's `ShowDialog()` method. You can create your own methods to make your program do things, like the one you're building now, called the `showButton_Click()` method, which opens a dialog box and a picture when a user chooses a button.  
-  
+
     6.  For Visual C#, add a space, and then add two equal signs (`==`). For Visual Basic, add a space, and then use a single equal sign (`=`). (Visual C# and Visual Basic use different equality operators.)  
   
     7.  Add another space. As soon as you do, another **IntelliSense** window opens. Start to type `DialogResult` and choose the **Tab** key to add it.  
@@ -78,7 +78,7 @@ Visual C# code
     8.  Type a dot to open the DialogResult value **IntelliSense** window. Enter the letter `O` and choose the **Tab** key to insert **OK**.  
   
          To learn more about `DialogResult`, see [DialogResult](http://msdn.microsoft.com/library/system.windows.forms.dialogresult.aspx).  
-  
+
         > [!NOTE]
         >  The first line of code should be complete. For Visual C#, it should be the following.  
         >   
@@ -87,12 +87,12 @@ Visual C# code
         >  For Visual Basic, it should be the following.  
         >   
         >  `If OpenFileDialog1.ShowDialog() = DialogResult.OK Then`  
-  
+
     9. Now add one more line of code. You can type it (or copy and paste it), but consider using IntelliSense to add it. The more familiar you are with IntelliSense, the more quickly you can write your own code. Your final `showButton_Click()` method looks like the following. (Choose the **VB** tab to view the Visual Basic version of the code.)  
-  
+
          [!code-csharp[VbExpressTutorial1Step8#1](../ide/codesnippet/CSharp/step-8-write-code-for-the-show-a-picture-button-event-handler_1.cs)]
          [!code-vb[VbExpressTutorial1Step8#1](../ide/codesnippet/VisualBasic/step-8-write-code-for-the-show-a-picture-button-event-handler_1.vb)]  
-  
+
 ### To continue or review  
   
 -   To go to the next tutorial step, see [Step 9: Review, comment, and test your code](../ide/step-9-review-comment-and-test-your-code.md).  

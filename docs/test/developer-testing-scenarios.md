@@ -1,8 +1,8 @@
 ---
-title: "Developer testing tools in Visual Studio | Microsoft Docs"
-ms.date: "05/02/2017"
+title: "Developer testing tools in Visual Studio"
+ms.date: 05/02/2017
 ms.technology: vs-ide-test
-ms.topic: "conceptual"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "unit testing, create unit tests"
 ms.author: gewarren

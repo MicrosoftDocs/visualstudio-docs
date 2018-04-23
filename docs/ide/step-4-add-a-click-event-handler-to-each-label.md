@@ -1,24 +1,24 @@
 ---
-title: "Step 4: Add a click event handler to each label | Microsoft Docs"
+title: "Step 4: Add a click event handler to each label"
 ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-acquisition"
-ms.topic: "conceptual"
+ms.date: 11/04/2016
+ms.technology: vs-acquisition
+ms.prod: visual-studio-dev15
+ms.topic: conceptual
 ms.assetid: 16bdbc7c-4129-411d-bace-f4a3e5375975
-author: "TerryGLee"
-ms.author: "tglee"
+author: TerryGLee
+ms.author: tglee
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Step 4: Add a click event handler to each label
 The matching game works as follows:  
-  
+
 1.  When a player chooses one of the squares with a hidden icon, the program shows the icon to the player by changing the icon color to black.  
-  
+
 2.  Then the player chooses another hidden icon.  
-  
+
 3.  If the icons match, they stay visible. If not, both icons are hidden again.  
   
  To get your program to work that way, you add a `Click` event handler that changes the color of the label that is chosen.  
@@ -30,20 +30,20 @@ The matching game works as follows:
 2.  Choose the first label control to select it. Then, hold down the **Ctrl** key while you choose each of the other labels to select them. Be sure that every label is selected.  
   
 3.  Choose the **Events** button on the tool bar in the **Properties** window to view the **Events** page in the **Properties** window. Scroll down to the **Click** event, and enter **label_Click** in the box, as shown in the following picture.  
-  
+
      ![Properties window showing Click event](../ide/media/express_labelclick.png "Express_labelClick")  
 **Properties** window showing **Click** event  
   
 4.  Choose the **Enter** key. The IDE adds a `Click` event handler called `label_Click()` to the code, and hooks it to each of the labels on the form.  
   
 5.  Fill in the rest of the code, as follows:  
-  
+
      [!code-csharp[VbExpressTutorial4Step2_3_4#4](../ide/codesnippet/CSharp/step-4-add-a-click-event-handler-to-each-label_1.cs)]
      [!code-vb[VbExpressTutorial4Step2_3_4#4](../ide/codesnippet/VisualBasic/step-4-add-a-click-event-handler-to-each-label_1.vb)]  
-  
+
     > [!NOTE]
     >  If you copy and paste the `label_Click()` code block rather than entering the code manually, be sure to replace the existing `label_Click()` code. Otherwise, you'll end up with a duplicate code block.  
-  
+
     > [!NOTE]
     >  You may recognize `object sender` at the top of the event handler as the same one used in the [Tutorial 2: Create a timed math quiz](../ide/tutorial-2-create-a-timed-math-quiz.md) tutorial. Because you hooked up different label control click events to a single event handler method, the same method is called no matter which label the user chooses. The event handler method needs to know which label was chosen, so it uses the name `sender` to identify the label control. The first line of the method tells the program that it's not just a generic object, but specifically a label control, and that it uses the name `clickedLabel` to access the label's properties and methods.  
   

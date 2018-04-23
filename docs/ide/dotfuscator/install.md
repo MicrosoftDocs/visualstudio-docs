@@ -1,12 +1,11 @@
 ---
-title: "Install Dotfuscator Community Edition (CE) | Microsoft Docs"
-ms.date: "2017-06-22"
+title: Install Dotfuscator Community Edition (CE)
+ms.date: 06/22/2017
 ms.devlang: "dotnet"
-ms.technology: 
-  - "vs-ide-general"
-ms.topic: "conceptual"
+ms.technology: vs-ide-general
+ms.topic: conceptual
 keywords: Dotfuscator, Dotfuscator CE, PreEmptive, PreEmptive Solutions, PreEmptive Protection, protection, community edition, obfuscation, .NET, free, Visual Studio 2017, install
-helpviewer_keywords: 
+helpviewer_keywords:
   - "PreEmptive Protection Dotfuscator"
   - "Dotfuscator Community Edition"
   - "Dotfuscator CE"
@@ -21,9 +20,9 @@ helpviewer_keywords:
 description: "Learn how to install the free Dotfuscator Community Edition included in Visual Studio 2017."
 ms.assetid: f2146651-e24a-4e24-ade8-8ddee8ff4e43
 author: "Joe-Sewell-PreEmptive"
+ms.author: gewarren
 manager: douge
 ---
-
 # Install Dotfuscator Community Edition (CE)
 
 Visual Studio 2017 introduces a new low-impact installation experience.
@@ -73,9 +72,9 @@ Once the installation is complete, you can start using Dotfuscator CE. For detai
 
 <!-- Copyright © 2017 PreEmptive Solutions, LLC -->
 
-[2017-install]: https://www.visualstudio.com/downloads/#vs-2017
-[get-started]: https://www.preemptive.com/dotfuscator/ce/docs/help/gui_getstarted.html
+- [2017-install]: https://www.visualstudio.com/downloads/#vs-2017
+- [get-started]: https://www.preemptive.com/dotfuscator/ce/docs/help/gui_getstarted.html
 
-[download]: https://www.preemptive.com/products/dotfuscator/downloads
+- [download]: https://www.preemptive.com/products/dotfuscator/downloads
 
-[full]: https://www.preemptive.com/dotfuscator/ce/docs/help/intro_install.html
+- [full]: https://www.preemptive.com/dotfuscator/ce/docs/help/intro_install.html

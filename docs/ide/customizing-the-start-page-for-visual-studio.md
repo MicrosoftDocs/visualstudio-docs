@@ -1,19 +1,18 @@
 ---
-title: "Install a custom start page or change the startup item in Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "02/01/2017"
+title: Install a custom start page or change the startup item in Visual Studio
+ms.date: 02/01/2017
 ms.technology: vs-ide-general
-ms.topic: "conceptual"
+ms.topic: conceptual
 f1_keywords:
   - "vs.ToolsOptionsPages.Startup"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Start Page [Visual Studio]"
   - "customizing Start Page [Visual Studio]"
   - "Visual Studio Start Page"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Customize the start page for Visual Studio
@@ -47,4 +46,4 @@ To install a custom start page, open the *.vsix* file, or copy and paste the sta
 
 ## See also
 
-[Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md)
+- [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md)

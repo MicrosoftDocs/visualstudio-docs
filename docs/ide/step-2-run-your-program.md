@@ -1,15 +1,15 @@
 ---
-title: "Step 2: Run your program | Microsoft Docs"
+title: "Step 2: Run your program"
 ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-acquisition"
-ms.topic: "conceptual"
+ms.date: 11/04/2016
+ms.technology: vs-acquisition
+ms.prod: visual-studio-dev15
+ms.topic: conceptual
 ms.assetid: 9a8fe90e-c97b-4e98-b6c8-0c6b3962c49d
-author: "TerryGLee"
-ms.author: "tglee"
+author: TerryGLee
+ms.author: tglee
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Step 2: Run your program
@@ -18,30 +18,30 @@ When you created a new solution, you actually built a program that runs. It does
  ![link to video](../data-tools/media/playvideo.gif "PlayVideo")For a video version of this topic, see [Tutorial 1: Create a picture viewer in Visual Basic - Video 1](http://go.microsoft.com/fwlink/?LinkId=205209) or [Tutorial 1: Create a picture viewer in C# - Video 1](http://go.microsoft.com/fwlink/?LinkId=205199). These videos use an earlier version of Visual Studio, so there are slight differences in some menu commands and other user interface elements. However, the concepts and procedures work similarly in the current version of Visual Studio.  
   
 ### To run your program  
-  
+
 1.  Use one of the following methods to run your program.  
-  
+
     -   Choose the **F5** key.  
   
     -   On the menu bar, choose **Debug** > **Start Debugging**.  
   
     -   On the toolbar, choose the **Start Debugging** button, which appears as follows.  
-  
+
          ![Start Debugging toolbar button](../ide/media/express_icondebug.png "Express_IconDebug")  
 **Start Debugging** toolbar button  
   
 2.  Visual Studio runs your program, and a window called **Form1** appears. The following diagram shows the program you just built. The program is running, and you will soon add to it.  
-  
+
      ![Windows Form application program running](../ide/media/express_firstrun.png "Express_FirstRun")  
 **Windows Forms** application program running  
   
 3.  Go back to the Visual Studio integrated development environment (IDE), and look at the new toolbar. Additional buttons appear on the toolbar when you run a program. These buttons let you do things like stop and start your program, and help you track down any errors (bugs) it may have. For this example, we're just using it to start and stop the program.  
-  
+
      ![Debugging toolbar](../ide/media/express_debugtoolbar.png "Express_DebugToolbar")  
 **Debugging** toolbar  
   
 4.  Use one of the following methods to stop your program.  
-  
+
     -   On the toolbar, choose the **Stop Debugging** button.  
   
     -   On the menu bar, choose **Debug** > **Stop Debugging**.  

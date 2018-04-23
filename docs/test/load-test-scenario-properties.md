@@ -1,7 +1,7 @@
 ---
-title: "Visual Studio Load Test Scenario Properties | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "conceptual"
+title: "Visual Studio Load Test Scenario Properties"
+ms.date: 10/19/2016
+ms.topic: reference
 helpviewer_keywords:
   - "load tests, properties"
   - "load tests, scenarios"

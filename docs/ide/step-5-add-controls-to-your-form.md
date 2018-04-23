@@ -1,15 +1,15 @@
 ---
-title: "Step 5: Add controls to your form | Microsoft Docs"
+title: "Step 5: Add controls to your form"
 ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-acquisition"
-ms.topic: "conceptual"
+ms.date: 11/04/2016
+ms.technology: vs-acquisition
+ms.prod: visual-studio-dev15
+ms.topic: conceptual
 ms.assetid: dc2746f4-0b5c-4674-9ef7-f40f94150f52
-author: "TerryGLee"
-ms.author: "tglee"
+author: TerryGLee
+ms.author: tglee
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Step 5: Add controls to your form
@@ -58,7 +58,7 @@ In this step, you add controls, such as a `PictureBox` control and a `CheckBox` 
   
     > [!NOTE]
     >  You can copy and paste any control. The IDE names and places the new controls in a logical manner. If you paste a control into a container, the IDE chooses the next logical space for placement.  
-  
+
 3.  Choose the first button and set its **Text** property to **Show a picture**. Then set the **Text** properties of the next three buttons to **Clear the picture**, **Set the background color**, and **Close**.  
   
 4.  The next step is to size the buttons and arrange them so they align to the right side of the panel. Choose the **FlowLayoutPanel** and look at its **FlowDirection** property. Change it so it's set to **RightToLeft**. As soon as you do, the buttons should align themselves to the right side of the cell, and reverse their order so that the **Show a picture** button is on the right.  
@@ -72,7 +72,7 @@ In this step, you add controls, such as a `PictureBox` control and a `CheckBox` 
 **Picture Viewer** with four buttons  
   
 6.  Now run your program again to see your newly laid out form. Choosing the buttons and the check box doesn't do anything yet, but it will work soon.  
-  
+
 ### To continue or review  
   
 -   To go to the next tutorial step, see [Step 6: Name your button controls](../ide/step-6-name-your-button-controls.md).  

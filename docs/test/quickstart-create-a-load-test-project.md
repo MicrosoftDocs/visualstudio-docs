@@ -1,5 +1,5 @@
 ---
-title: "Create a web performance and load test project in Visual Studio | Microsoft Docs"
+title: "Create a web performance and load test project in Visual Studio"
 ms.date: 03/14/2018
 ms.topic: quickstart
 helpviewer_keywords:

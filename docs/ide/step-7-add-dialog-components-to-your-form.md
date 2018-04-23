@@ -1,15 +1,15 @@
 ---
-title: "Step 7: Add Dialog components to your form | Microsoft Docs"
+title: "Step 7: Add Dialog components to your form"
 ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-acquisition"
-ms.topic: "conceptual"
+ms.date: 11/04/2016
+ms.technology: vs-acquisition
+ms.prod: visual-studio-dev15
+ms.topic: conceptual
 ms.assetid: ea98c55e-6213-4893-ba7b-f19d7f119527
-author: "TerryGLee"
-ms.author: "tglee"
+author: TerryGLee
+ms.author: tglee
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Step 7: Add dialog components to your form
@@ -34,15 +34,15 @@ To enable your program to open picture files and choose a background color, in t
 3.  Choose the **openFileDialog1** icon in the area at the bottom of the **Windows Forms Designer**. Set two properties:  
   
     -   Set the **Filter** property to the following (you can copy and paste it):  
-  
+
         ```  
         JPEG Files (*.jpg)|*.jpg|PNG Files (*.png)|*.png|BMP Files (*.bmp)|*.bmp|All files (*.*)|*.*  
         ```  
-  
+
     -   Set the **Title** property to the following: **Select a picture file**  
-  
+
          The **Filter** property settings specify the kinds of file types that will display in the **Select a picture** file dialog box.  
-  
+
     > [!NOTE]
     >  To see an example of the **Open File** dialog box in a different application, open **Notepad** or **Paint**, and on the menu bar, choose **File** > **Open**. Notice how there's a **Files of type** drop-down list at the bottom. You just used the **Filter** property in the **OpenFileDialog** component to set that up. Also, notice how the **Title** and **Filter** properties are bold in the **Properties** window. The IDE does that to show you any properties that have been changed from their default values.  
   

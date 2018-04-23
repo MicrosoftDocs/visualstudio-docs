@@ -1,10 +1,9 @@
 ---
-title: "Overview of Visual Studio 2017 | Microsoft Docs"
-ms.custom: ""
+title: Overview of Visual Studio 2017
 ms.date: 02/05/2018
 ms.technology: vs-ide-general
-ms.topic: "conceptual"
-author: "gewarren"
+ms.topic: conceptual
+author: gewarren
 f1_keywords:
   - vs.startpage
   - VS.StartPage.HowDoI

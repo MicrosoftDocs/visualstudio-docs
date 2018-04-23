@@ -1,7 +1,7 @@
 ---
 title: Suppress compiler warnings in Visual Studio for projects and NuGet packages
 ms.date: 01/24/2018
-ms.technology: vs-ide-general
+ms.technology: vs-ide-compile
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren

@@ -1,7 +1,7 @@
 ---
-title: "Specify Test Agents to Use in Load Test Scenarios in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "conceptual"
+title: "Specify Test Agents to Use in Load Test Scenarios in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "test agents, load tests"
   - "load tests, scenarios"

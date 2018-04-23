@@ -1,7 +1,7 @@
 ---
-title: "Analyzing Load Test Virtual User Activity in Visual Studio | Microsoft Docs"
-ms.date: "10/03/2016"
-ms.topic: "conceptual"
+title: "Analyzing Load Test Virtual User Activity in Visual Studio"
+ms.date: 10/03/2016
+ms.topic: conceptual
 f1_keywords:
   - "vs.test.load.monitor.activitychart"
 helpviewer_keywords:

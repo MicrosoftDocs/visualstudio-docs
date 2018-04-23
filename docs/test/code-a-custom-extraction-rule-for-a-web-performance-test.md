@@ -1,7 +1,7 @@
 ---
-title: "Coding a custom extraction rule for a web performance test in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "conceptual"
+title: "Coding a custom extraction rule for a web performance test in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "extraction rules"
   - "Web performance tests, creating custom extraction rules"

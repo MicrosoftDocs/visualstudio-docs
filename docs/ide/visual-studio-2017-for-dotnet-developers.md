@@ -1,21 +1,20 @@
 ---
-title: "Visual Studio 2017 for .NET Developers | Microsoft Docs"
+title: Visual Studio 2017 for .NET Developers
 description: "Overview of Visual Studio 2017 features to help you write better .NET code faster."
 author: "kuhlenh"
 ms.author: "kaseyu"
 manager: douge
 ms.technology: vs-ide-general
-ms.date: "01/16/2018"
-ms.topic: "conceptual"
+ms.date: 01/16/2018
+ms.topic: conceptual
 helpviewer_keywords:
   - "editor"
 ms.workload:
   - "dotnet"
 ---
-
 # Visual Studio 2017 Productivity Guide for .NET Developers
 
-[Visual Studio 2017](https://www.visualstudio.com/downloads/) makes developers more productive than ever! We improved performance and reliability for solution startup and load, test discovery, and typing latency. We’ve also added and enhanced features to help you write better code faster. Some of these features include: navigation to decompiled assemblies, variable name suggestions as you type, a hierarchy-view in the Test Explorer, Go To All (**Ctrl+T**) to navigate to file/type/member/symbol declarations, an intelligent Exception Helper, code style configuration and enforcement, and many refactorings and code fixes. 
+[Visual Studio 2017](https://www.visualstudio.com/downloads/) makes developers more productive than ever! We improved performance and reliability for solution startup and load, test discovery, and typing latency. We’ve also added and enhanced features to help you write better code faster. Some of these features include: navigation to decompiled assemblies, variable name suggestions as you type, a hierarchy-view in the Test Explorer, Go To All (**Ctrl+T**) to navigate to file/type/member/symbol declarations, an intelligent Exception Helper, code style configuration and enforcement, and many refactorings and code fixes.
 
 Follow this guide to optimize your productivity.
 
@@ -27,7 +26,7 @@ If you are coming from another IDE or coding environment, you may find installin
 - [HotKeys for Visual Studio (ReSharper/IntelliJ)](https://marketplace.visualstudio.com/items?itemName=JustinClareburtMSFT.HotKeys)
 - [VSVim](https://marketplace.visualstudio.com/items?itemName=JaredParMSFT.VsVim)
 
-The following are popular Visual Studio shortcuts: 
+The following are popular Visual Studio shortcuts:
 
 | Shortcut (All Profiles) | Command | Description |
 |-|-|-|
@@ -57,7 +56,7 @@ Visual Studio 2017 has a feature called _Go To All_ (**Ctrl+T**). Go To All enab
 
 ## My team enforces code style rules on our codebase.
 You can use an .editorconfig file to codify coding conventions and have them travel with your source.
-- We recommend installing the [EditorConfig Language Services extension](https://aka.ms/editorconfig) for adding and editing an .editorconfig file in Visual Studio. 
+- We recommend installing the [EditorConfig Language Services extension](https://aka.ms/editorconfig) for adding and editing an .editorconfig file in Visual Studio.
 - Check out the [documentation](https://aka.ms/editorconfigDocs) for all .NET coding convention options.
 - See [this gist](https://gist.github.com/kuhlenh/5471666a7a2c57fea427e81cf0a41da8) for an example .editorconfig.
 
@@ -66,10 +65,10 @@ You can use an .editorconfig file to codify coding conventions and have them tra
 ## I need more refactorings and code fixes.
 Visual Studio 2017 comes with a lot of refactorings, code generation actions, and code fixes. Red squiggles represent errors, green squiggles represent warnings, and three gray dots represent code suggestions. You can access code fixes by clicking the lightbulb/screwdriver icon or by pressing **Ctrl+.** or **Alt+Enter**. Each fix comes with a preview window that shows a live code diff of how the fix works.
 
-- Popular quick fixes and refactorings include: 
+- Popular quick fixes and refactorings include:
   - *Rename*
   - *Extract Method*
-  - *Change Method Signature* 
+  - *Change Method Signature*
   - *Generate Constructor*
   - *Generate Method*
   - *Move Type to File*
@@ -77,8 +76,8 @@ Visual Studio 2017 comes with a lot of refactorings, code generation actions, an
   - *Add Parameter*
   - *Remove Unnecessary Usings*
   - See more in our [documentation](https://aka.ms/refactorings)
-- Write your own refactoring or code fix with [Roslyn analyzers](https://github.com/dotnet/roslyn/wiki/Getting-Started-Writing-a-Custom-Analyzer-&-Code-Fix). 
-- Several community members have written *free* extensions which add additional code inspections: 
+- Write your own refactoring or code fix with [Roslyn analyzers](https://github.com/dotnet/roslyn/wiki/Getting-Started-Writing-a-Custom-Analyzer-&-Code-Fix).
+- Several community members have written *free* extensions which add additional code inspections:
   - [Roslynator](https://marketplace.visualstudio.com/items?itemName=josefpihrt.Roslynator2017)
   - [SonarLint for Visual Studio](https://marketplace.visualstudio.com/items?itemName=SonarSource.SonarLintforVisualStudio2017)
   - [StyleCopAnalyzers](https://www.nuget.org/packages/stylecop.analyzers/)
@@ -89,10 +88,10 @@ Visual Studio 2017 comes with a lot of refactorings, code generation actions, an
 Visual Studio 2017 has many features to help you search and navigate your codebase. Read more about [code navigation features](../ide/navigating-code.md)
 
 | Feature | Shortcut | Details/Improvements |
-|- | - | -| 
+|- | - | -|
 | Find All References | **Shift+F12**| Results are colorized and can be grouped by project, definition, etc. You can also 'lock' results. |
 | Go To Implementation | **Ctrl+F12** | You can use Go To Definition on the `override` keyword to navigate to the overridden member |
-| Go To Definition | **F12** or **Ctrl+Click**| You can hold **Ctrl** while clicking to navgiate to definition | 
+| Go To Definition | **F12** or **Ctrl+Click**| You can hold **Ctrl** while clicking to navgiate to definition |
 | Peek Definition | **Alt+F12** | Inline view of a definition |
 | Structure Visualizer | Gray, dotted-lines between braces | Hover to see your code structure |
 | Navigation to decompiled assemblies | **F12** or **Ctrl+Click** | Navigate to external source (decompiled with ILSpy) by enabling the feature: **Tools > Options > Text Editor > C# > Advanced > Enable navigation to decompiled sources**. |
@@ -108,8 +107,8 @@ We made a lot of improvements to the testing experience in Visual Studio 2017. U
 ![Hierarchy view for Text Explorer in Visual Studio](../ide/media/VSGuide_Testing.png)
 
 ## I want to debug my code.
-We've added a ton of new debugging capabilities in Visual Studio 2017. 
-- *Run to click* allows you to hover next to a line of code, hit the green 'play' icon that appears, and run your program until it reaches that line. 
+We've added a ton of new debugging capabilities in Visual Studio 2017.
+- *Run to click* allows you to hover next to a line of code, hit the green 'play' icon that appears, and run your program until it reaches that line.
 - The new *Exception Helper* puts the most important information, like which variable is 'null' in a NullReferenceException, at the top-level in the dialog.
 - [Step Back](../debugger/how-to-use-intellitrace-step-back.md) debugging enables you to go back to previous breakpoints or steps and view the state of the application as it was in the past.
 - [Snapshot Debugging](/azure/application-insights/app-insights-snapshot-debugger) lets you investigate the state of a live web application at the moment an exception was thrown (must be on Azure).
@@ -117,8 +116,8 @@ We've added a ton of new debugging capabilities in Visual Studio 2017.
 ![New Exception Helper in VS2017](../ide/media/VSGuide_Debugging.png "VSGuide_Debugging")
 
 ## I want to use version control with my projects.
-You can use git or TFVC to store and update your code in Visual Studio. 
-- Organize your local changes with *Team Explorer* and use the status bar to track pending commits and changes. 
+You can use git or TFVC to store and update your code in Visual Studio.
+- Organize your local changes with *Team Explorer* and use the status bar to track pending commits and changes.
 - Set up continuous integration and delivery for your projects inside of Visual Studio with our [Continuous Delivery Tools for Visual Studio](https://marketplace.visualstudio.com/items?itemName=VSIDEDevOpsMSFT.ContinuousDeliveryToolsforVisualStudio) extension and adopt the agile developer workflow.
 
 ![Source control in Visual Studio](../ide/media/VSIDE_Productivity_SourceControl.png)

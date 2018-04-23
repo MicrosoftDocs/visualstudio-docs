@@ -1,7 +1,7 @@
 ---
 title: "How to: Configure projects to target multiple platforms"
 ms.technology:$1ms.date: 11/04/2016
-ms.technology: vs-ide-general
+ms.technology: vs-ide-compile
 ms.topic: conceptual
 helpviewer_keywords:
   - "projects [Visual Studio], targeting platforms"

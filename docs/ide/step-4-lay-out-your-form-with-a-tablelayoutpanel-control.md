@@ -1,15 +1,15 @@
 ---
-title: "Step 4: Lay out your form with a TableLayoutPanel control | Microsoft Docs"
+title: "Step 4: Lay out your form with a TableLayoutPanel control"
 ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-acquisition"
-ms.topic: "conceptual"
+ms.date: 11/04/2016
+ms.technology: vs-acquisition
+ms.prod: visual-studio-dev15
+ms.topic: conceptual
 ms.assetid: 61acde79-e115-4bad-bb06-1fbe37717a3e
-author: "TerryGLee"
-ms.author: "tglee"
+author: TerryGLee
+ms.author: tglee
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Step 4: Lay out your form with a TableLayoutPanel control
@@ -22,7 +22,7 @@ In this step, you add a `TableLayoutPanel` control to your form. The TableLayout
 1.  On the left side of the Visual Studio IDE, locate the **Toolbox** tab. Choose the **Toolbox** tab, and the **Toolbox** appears. (Or, on the menu bar, choose **View** > **Toolbox**.)  
   
 2.  Choose the small triangle symbol next to the **Containers** group to open it, as shown in the following picture.  
-  
+
      ![Containers group](../ide/media/express_toolbox.png "Express_Toolbox")  
 **Containers** group  
   
@@ -54,7 +54,7 @@ In this step, you add a `TableLayoutPanel` control to your form. The TableLayout
      *Docking* in Visual Studio refers to when a window is attached to another window or area in the IDE. For example, the **Properties** window can be undocked - that is, unattached and free-floating within Visual Studio - or it can be docked against **Solution Explorer**.  
   
 7.  After you set the TableLayoutPanel **Dock** property to **Fill**, the panel fills the entire form. If you resize the form again, the TableLayoutPanel stays docked, and resizes itself to fit.  
-  
+
     > [!NOTE]
     >  A TableLayoutPanel works like a table in Microsoft Office Word: It has rows and columns, and an individual cell can span multiple rows and columns. Each cell can hold one control (like a button, a check box, or a label). Your TableLayoutPanel will have a `PictureBox` control spanning its entire top row, a `CheckBox` control in its lower-left cell, and four `Button` controls in its lower-right cell.  
   
@@ -64,9 +64,9 @@ In this step, you add a `TableLayoutPanel` control to your form. The TableLayout
 **Triangle** button  
   
      This button indicates that the control has tasks that help you set its properties automatically.  
-  
+
 9. Choose the triangle to display the control's task list, as shown in the following picture.  
-  
+
      ![TableLayoutPanel tasks](../ide/media/express_tablepanel.png "Express_TablePanel")  
 **TableLayoutPanel** tasks  
   

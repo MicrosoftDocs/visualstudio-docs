@@ -1,19 +1,22 @@
 ---
-title: Accessibility Features of Visual Studio
+title: "Accessibility features of Visual Studio"
+description: "Learn more about the accessibility features and utilities that help make both the Windows operating system and the Visual Studio developer suite more accessible for everyone, including people with disabilities."
 ms.date: 08/22/2017
 ms.technology: vs-ide-general
+ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "Visual Studio, accessibility"
   - "accessibility [Visual Studio]"
 ms.assetid: aa1ada29-4d93-4bf0-af8b-03633fcb0fba
-author: "TerryGLee"
-ms.author: "tglee"
+author: TerryGLee
+ms.author: tglee
 manager: douge
 ms.workload:
   - "multiple"
 ---
-# Accessibility Features of Visual Studio
+# Accessibility features of Visual Studio
+
 > [!TIP]
 > To learn more about recent accessibility updates, see the [Accessibility improvements in Visual Studio 2017 version 15.3](https://blogs.msdn.microsoft.com/visualstudio/2017/08/14/accessibility-improvements-in-visual-studio-2017-version-15-3/) blog post.
 
@@ -35,16 +38,16 @@ In addition to accessibility features and utilities in Windows, the following fe
 
  For more information, see the following topics:
 
--   [How to: Set IDE Accessibility Options](../../ide/reference/how-to-set-ide-accessibility-options.md)
+-   [How to: Set IDE Accessibility options](../../ide/reference/how-to-set-ide-accessibility-options.md)
 
--   [How to: Use the Keyboard Exclusively](../../ide/reference/how-to-use-the-keyboard-exclusively.md)
+-   [How to: Use the keyboard exclusively](../../ide/reference/how-to-use-the-keyboard-exclusively.md)
 
--   [Default Keyboard Shortcuts](../../ide/default-keyboard-shortcuts-in-visual-studio.md)
+-   [Default keyboard shortcuts](../../ide/default-keyboard-shortcuts-in-visual-studio.md)
 
--   [Accessibility Tips and Tricks](../../ide/reference/accessibility-tips-and-tricks.md)
+-   [Accessibility tips and tricks](../../ide/reference/accessibility-tips-and-tricks.md)
 
--   [How to: Change Fonts and Colors](../../ide/how-to-change-fonts-and-colors-in-visual-studio.md)
+-   [How to: Change fonts and colors](../../ide/how-to-change-fonts-and-colors-in-visual-studio.md)
 
-## See Also
+## See also
 
-- [Accessibility Products and Services from Microsoft](../../ide/reference/accessibility-products-and-services-from-microsoft.md)
+- [Accessibility products and services from Microsoft](../../ide/reference/accessibility-products-and-services-from-microsoft.md)

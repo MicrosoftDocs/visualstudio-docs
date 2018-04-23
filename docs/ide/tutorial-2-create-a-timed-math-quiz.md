@@ -1,40 +1,40 @@
 ---
-title: "Tutorial 2: Create a timed math quiz | Microsoft Docs"
+title: "Tutorial 2: Create a timed math quiz"
 ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-acquisition"
-ms.topic: "conceptual"
+ms.date: 11/04/2016
+ms.technology: vs-acquisition
+ms.prod: visual-studio-dev15
+ms.topic: conceptual
 ms.assetid: d7165d08-ace3-457d-b57d-fb8f80760a6f
-author: "TerryGLee"
-ms.author: "tglee"
+author: TerryGLee
+ms.author: tglee
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Tutorial 2: Create a timed math quiz
 In this tutorial, you build a quiz in which the quiz taker must answer four random arithmetic problems within a specified time. You learn how to:  
-  
+
 -   Generate random numbers by using the `Random` class.  
-  
+
 -   Trigger events to occur at a specific time by using a **Timer** control.  
-  
+
 -   Control program flow by using `if else` statements.  
-  
+
 -   Perform basic arithmetic operations in code.  
-  
+
  When you finish, your quiz will look like the following picture, except with different numbers.  
-  
+
  ![Math quiz with four problems](../ide/media/express_finishedquiz.png "Express_FinishedQuiz")  
 Quiz that you create in this tutorial  
-  
+
  To download a completed version of the quiz, see [Complete math quiz tutorial sample](http://code.msdn.microsoft.com/Complete-Math-Quiz-8581813c).  
-  
+
 > [!NOTE]
 >  This tutorial covers both Visual C# and Visual Basic, so focus on the information that's specific to the programming language that you're using.  
-  
-## Related topics  
-  
+
+## Related Topics  
+
 |Title|Description|  
 |-----------|-----------------|  
 |[Step 1: Create a project and add labels to your form](../ide/step-1-create-a-project-and-add-labels-to-your-form.md)|Start by creating the project, changing properties, and adding `Label` controls.|  

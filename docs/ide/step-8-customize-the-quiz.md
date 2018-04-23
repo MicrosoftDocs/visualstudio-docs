@@ -1,22 +1,22 @@
 ---
-title: "Step 8: Customize the quiz | Microsoft Docs"
+title: "Step 8: Customize the quiz"
 ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-acquisition"
-ms.topic: "conceptual"
+ms.date: 11/04/2016
+ms.technology: vs-acquisition
+ms.prod: visual-studio-dev15
+ms.topic: conceptual
 ms.assetid: dc8edb13-1b23-47d7-b859-8c6f7888c1a9
-author: "TerryGLee"
-ms.author: "tglee"
+author: TerryGLee
+ms.author: tglee
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Step 8: Customize the quiz
 In the last part of the tutorial, you'll explore some ways to customize the quiz and expand on what you've already learned. For example, think about how the program creates random division problems for which the answer is never a fraction. To learn more, turn the `timeLabel` control a different color, and give the quiz taker a hint.  
-  
+
 ### To customize the quiz  
-  
+
 -   When only five seconds remain in a quiz, turn the **timeLabel** control red by setting its **BackColor** property (`timeLabel.BackColor = Color.Red;`). Reset the color when the quiz is over.  
   
 -   Give the quiz taker a hint by playing a sound when the correct answer is entered into a **NumericUpDown** control. (You must write an event handler for each control's `ValueChanged()` event, which fires whenever the quiz taker changes the control's value.)  

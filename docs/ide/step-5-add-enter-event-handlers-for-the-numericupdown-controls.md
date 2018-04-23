@@ -1,15 +1,15 @@
 ---
-title: "Step 5: Add Enter event handlers for the NumericUpDown controls | Microsoft Docs"
+title: "Step 5: Add Enter event handlers for the NumericUpDown controls"
 ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-acquisition"
-ms.topic: "conceptual"
+ms.date: 11/04/2016
+ms.technology: vs-acquisition
+ms.prod: visual-studio-dev15
+ms.topic: conceptual
 ms.assetid: 45a99a5d-c881-4298-b74d-adb481dec5ee
-author: "TerryGLee"
-ms.author: "tglee"
+author: TerryGLee
+ms.author: tglee
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Step 5: Add Enter event handlers for the NumericUpDown controls
@@ -19,7 +19,7 @@ In the fifth part of this tutorial, you'll add `Enter` event handlers to make en
 >  This topic is part of a tutorial series about basic coding concepts. For an overview of the tutorial, see [Tutorial 2: Create a timed math quiz](../ide/tutorial-2-create-a-timed-math-quiz.md).  
   
 ### To verify the default behavior  
-  
+
 1.  Run your program, and start the quiz.  
   
      In the **NumericUpDown** control for the addition problem, the cursor flashes next to **0** (zero).  
@@ -44,14 +44,14 @@ In the fifth part of this tutorial, you'll add `Enter` event handlers to make en
 **Properties** dialog box  
   
      You've just added an Enter event handler for the sum NumericUpDown control, and you've named the handler **answer_Enter**.  
-  
+
 3.  In the method for the **answer_Enter** event handler, add the following code.  
-  
+
      [!code-vb[VbExpressTutorial3Step5_6#11](../ide/codesnippet/VisualBasic/step-5-add-enter-event-handlers-for-the-numericupdown-controls_1.vb)]
      [!code-csharp[VbExpressTutorial3Step5_6#11](../ide/codesnippet/CSharp/step-5-add-enter-event-handlers-for-the-numericupdown-controls_1.cs)]  
-  
+
      This code may look complex, but you can understand it if you look at it step by step. First, look at the top of the method: `object sender` in C# or `sender As System.Object` in Visual Basic. This parameter refers to the object whose event is firing, which is known as the sender. In this case, the sender object is the NumericUpDown control. So, in the first line of the method, you specify that the sender isn't just any generic object but specifically a NumericUpDown control. (Every NumericUpDown control is an object, but not every object is a NumericUpDown control.) The NumericUpDown control is named **answerBox** in this method, because it will be used for all of the NumericUpDown controls on the form, not just the sum NumericUpDown control. Because you declare the answerBox variable in this method, its scope applies only to this method. In other words, the variable can be used only within this method.  
-  
+
      The next line verifies whether answerBox was successfully converted (cast) from an object to a NumericUpDown control. If the conversion was unsuccessful, the variable would have a value of `null` (C#) or `Nothing` (Visual Basic). The third line gets the length of the answer that appears in the NumericUpDown control, and the fourth line selects the current value in the control based on this length. Now, when the quiz taker chooses the control, Visual Studio fires this event, which causes the current answer to be selected. As soon as the quiz taker starts to enter a different answer, the previous answer is cleared and replaced with the new answer.  
   
 4.  In **Windows Forms Designer**, choose the difference **NumericUpDown** control.  
@@ -61,9 +61,9 @@ In the fifth part of this tutorial, you'll add `Enter` event handlers to make en
 6.  Repeat the previous step for the product and quotient **NumericUpDown** controls.  
   
 7.  Save your program, and then run it.  
-  
+
      When you choose a NumericUpDown control, the existing value is automatically selected and then cleared when you start to enter a different value.  
-  
+
 ### To continue or review  
   
 -   To go to the next tutorial step, see [Step 6: Add a subtraction problem](../ide/step-6-add-a-subtraction-problem.md).  

@@ -1,11 +1,11 @@
 ---
-title: "Visual Studio Performance Tips and Tricks | Microsoft Docs"
-ms.date: "08/31/2017"
+title: Visual Studio Performance Tips and Tricks
+ms.date: 08/31/2017
 ms.technology: vs-ide-general
 ms.topic: conceptual
 ms.assetid: 2fbcb59e-e981-4b40-8b7a-c1140d31ec4b
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"

@@ -1,8 +1,8 @@
 ---
-title: "Using emulators to isolate unit tests for Sharepoint 2010 applications | Microsoft Docs"
-ms.date: "11/04/2016"
+title: "Using emulators to isolate unit tests for Sharepoint 2010 applications"
+ms.date: 11/04/2016
 ms.technology: vs-ide-test
-ms.topic: "conceptual"
+ms.topic: conceptual
 ms.author: gewarren
 manager: douge
 ms.workload: 
@@ -297,7 +297,8 @@ public string GetAppointmentsForToday(string listName, SPWeb web)
  Here's a modification of an existing test method, `GetAppointmentsForTodayReturnsOnlyTodaysAppointments`, that implements a Fakes delegate. The required changes are called out in comments:
 
 > [!IMPORTANT]
->  Test methods that explicitly create Fakes shims throw a `ShimNotSupported` exception when the test is run in the `EmulationMode.Passthrough` context. To avoid this issue, use a variable to set the `EmulationMode` value and wrap any Fakes code in an `if` statement that tests the value.
+> Test methods that explicitly create Fakes shims throw a `ShimNotSupported` exception when the test is run in the `EmulationMode.Passthrough` context. To avoid this issue, use a variable to set the `EmulationMode` value and wrap any Fakes code in an `if` statement that tests the value.
+
 
 ```csharp
 // class level field to set emulation mode
