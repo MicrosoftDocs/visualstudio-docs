@@ -29,7 +29,7 @@ You can also use the Visual Studio Object Browser (**View > Other Windows > Obje
 
 ## IntelliSense
 
-IntelliSense provides [completions](#completions), [signature help](#signature-help), [quick info](#quick-info), and [code coloring](#code-coloring).
+IntelliSense provides [completions](#completions), [signature help](#signature-help), [quick info](#quick-info), and [code coloring](#code-coloring). Visual Studio 2017 version 15.7 and later also supports [type hints](#type-hints).
 
 To improve performance, IntelliSense in **Visual Studio 2017 version 15.5** and earlier depends on a completion database that's generated for each Python environment in your project. Databases may need refreshing if you add, remove, or update packages. Database status is shown in the **Python Environments** window (a sibling of Solution Explorer) on the **IntelliSense** tab (see [Environments window reference](python-environments-window-tab-reference.md#intellisense-tab)).
 
@@ -73,6 +73,41 @@ Typing @ starts a decorator and shows potential decorators. Many of these items 
 
 > [!Tip]
 > You can configure the behavior of completions through **Tools > Options > Text Editor > Python > Advanced"**. Among these, **Filter list based on search string**: applies filtering of completion suggestions as you type (default is checked), and **Member completion displays intersection of members** shows only completions that are supported by all possible types (default is unchecked). See [Options - completion results](python-support-options-and-settings-in-visual-studio.md#completion-results).
+
+### Type hints
+
+*Visual Studio 2017 version 15.7 and later.*
+
+"Type hints" in Python ([PEP 484](https://www.python.org/dev/peps/pep-0484/) (python.org) is a annotation syntax for functions and classes that allow you to indicate the types of arguments, return values, and class attributes. IntelliSense displays type hints when you hover over functions calls, arguments, and variables that have those annotations.
+
+In the example below, the `Vector` class is declared as `List[float]`, and the `scale` function contains type hints for both its arguments and return value. Hovering over a call to that function shows the tyep hints:
+
+![Hovering over a function call to reveal type hints](media/code-editing-type-hints1.png)
+
+In the following example, you can see how the annotated attributes of the `Employee` class appear in the IntelliSense completion popup for an attribute:
+
+![IntelliSense completion showing type hints](media/code-editing-type-hints2.png)
+
+It's also helpful to validate type hints throughout your project, because errors won't normally appear until run time. For this purpose, Visual Studio integrates the industry standard MyPy tool through the context menu command **Python > Run MyPy** in **Solution Explorer**:
+
+![Run MyPy context menu command in Solution Explorer](media/code-editing-type-hints-run-mypy.png)
+
+Running the command prompts you to install MyPy, if needed, the validates type hints in every Python file in the project. Errors appear in the Visual Studio **Error List** window. Selecting an item in the window navigates to the appropriate line in your code.
+
+As a simple example, the following function definition contains a type hint to indicate that the `input` argument is type `str`, whereas the call to that function attempts to pass an integer:
+
+```python
+def commasToColons(input: str):
+    items = input.split(',')
+    items = [x.strip() for x in items]
+    return ':'.join(items)
+
+commasToColons(1)
+```
+
+Using the **Run MyPy** command on this code generates the following error:
+
+![Example result of MyPy validating type hints](media/code-editing-type-hints-validation-error.png)
 
 ### Signature help
 
