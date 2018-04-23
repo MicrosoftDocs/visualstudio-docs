@@ -13,17 +13,18 @@ ms.workload:
 ---
 # Debugging XSLT
 
-You can use the Visual Studio debugger to debug XSLT. The debugger supports setting breakpoints, viewing XSLT execution states, and so on. XSLT debugging is available in the Visual Studio Team System and the Professional Edition.
+You can use the Visual Studio debugger to debug XSLT. The debugger supports setting breakpoints, viewing XSLT execution states, and so on.
+
+> [!NOTE]
+> The XSLT debugger is only available in the Enterprise edition of Visual Studio 2017.
+
+## XSLT profiler
+
+The [XSLT profiler](../xml-tools/xslt-profiler.md) is a tool that allows developers to measure, evaluate, and target performance-related problems in XSLT code by creating detailed XSLT performance reports.
 
 ## Related Sections
- [Editing XSLT Style Sheets](../xml-tools/editing-xslt-style-sheets.md)
- Discusses using the XML Editor to edit style sheets.
 
- [Security Considerations when Working with XML Data](../xml-tools/security-considerations-when-working-with-xml-data.md)
- Discusses security issues that you need to know about when working the XML Editor or the XSLT debugger.
-
- [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)
- Introduces the Visual Studio debugger.
-
- [XSLT Reference](http://msdn.microsoft.com/678bcd68-cbbb-4be5-9dd2-40f94488a1cf)
- Provides reference material for XSLT elements and functions.
+- [Editing XSLT Style Sheets](../xml-tools/editing-xslt-style-sheets.md) discusses using the XML Editor to edit style sheets.
+- [Security Considerations when Working with XML Data](../xml-tools/security-considerations-when-working-with-xml-data.md) discusses security issues that you need to know about when working the XML Editor or the XSLT debugger.
+- [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md) introduces the Visual Studio debugger.
+- [XSLT Reference](http://msdn.microsoft.com/678bcd68-cbbb-4be5-9dd2-40f94488a1cf) provides reference material for XSLT elements and functions.

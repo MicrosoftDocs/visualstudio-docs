@@ -1,7 +1,6 @@
 # [XML Tools in Visual Studio](xml-tools-in-visual-studio.md)
 ## [Working with XML Data](working-with-xml-data.md)
 ### [XML Editor](xml-editor.md)
-#### [What's New in the XML Editor](what-s-new-in-the-xml-editor.md)
 #### [XML Document Validation](xml-document-validation.md)
 #### [XML Editor IntelliSense Features](xml-editor-intellisense-features.md)
 #### [XML Snippets](xml-snippets.md)

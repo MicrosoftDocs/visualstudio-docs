@@ -36,6 +36,18 @@ The XML editor is based on the Visual Studio text editor, and includes additiona
 
 The XML editor is invoked for well-known file extensions, such as .xml, .xsd, .xsl, and .config. It is also invoked on any unknown file extension if the file appears to contain XML. You can also open any file with the XML editor by using the **Open With** option and selecting the XML editor from the list.
 
+## XSLT IntelliSense
+
+[XSLT IntelliSense](../xml-tools/xml-editor-intellisense-features.md) allows you to auto-complete attribute set names, template modes and names, and parameter names for a specified mode or a specified named template.
+
+## XSLT Profiler
+
+The [XSLT Profiler](../xml-tools/walkthrough-xslt-profiler.md) creates detailed XSLT performance reports that help you measure, evaluate, and target performance-related problems in XSLT code. The XSLT Profiler also includes useful hints for XSL and XSLT style sheet optimizations.
+
+## XSLT Hierarchy
+
+The [XSLT Hierarchy tool](../xml-tools/walkthrough-using-xslt-hierarchy.md) allows you to add breakpoints in included style sheets and/or built-in template rules.
+
 ## Related Sections
 
 [Writing code in the editor](../ide/writing-code-in-the-code-and-text-editor.md)
