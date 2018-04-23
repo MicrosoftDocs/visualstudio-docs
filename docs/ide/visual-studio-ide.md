@@ -49,7 +49,7 @@ You can leverage Azure services for your apps using Connected Services such as:
 
 The web drives our modern world, and Visual Studio can help you write apps for it. You can create web apps using ASP.NET, Node.js, Python, JavaScript and TypeScript. Visual Studio understands web frameworks like Angular, jQuery, Express, and more. ASP.NET Core and .NET Core run on Windows, Mac, and Linux operating systems. [ASP.NET Core](http://www.asp.net/core/overview) is a major update to MVC, WebAPI and SignalR, and runs on Windows, Mac, and Linux.  ASP.NET Core has been designed from the ground up to provide you with a lean and composable .NET stack for building modern cloud-based web apps and services.
 
-For more information, see [Modern Web Tooling](https://www.visualstudio.com/vs/modern-web-tooling/).
+For more information, see [Modern web tooling](https://www.visualstudio.com/vs/modern-web-tooling/).
 
 ### Build cross-platform apps and games
 
@@ -87,7 +87,7 @@ When you start Visual Studio for the first time, you can optionally sign in usin
 
 One good way to learn about something is to use it! Let's dive in and create a new, simple program.
 
-1. Open Visual Studio. On the menu, choose **File** > **New** > **Project...**.
+1. Open Visual Studio. On the menu, choose **File** > **New** > **Project**.
 
   ![File > New Project on menu bar](../ide/media/VSIDE_Tour_NewProject1.png)
 
@@ -155,7 +155,7 @@ For testing, Visual Studio offers unit testing, IntelliTest, load and performanc
 
 ## Deploy your finished application
 
-When your application is ready to deploy to users or customers, Visual Studio provides the tools to do that, whether you're deploying to Microsoft Store, to a SharePoint site, or with InstallShield or Windows Installer technologies. It's all accessible through the IDE. For more information, see [Deploying applications, services, and components](../deployment/deploying-applications-services-and-components.md).
+When your application is ready to deploy to users or customers, Visual Studio provides the tools to do that, whether you're deploying to Microsoft Store, to a SharePoint site, or with InstallShield or Windows Installer technologies. It's all accessible through the IDE. For more information, see [Deploy applications, services, and components](../deployment/deploying-applications-services-and-components.md).
 
 ## Quick tour of the IDE
 
@@ -175,7 +175,7 @@ To give you a high-level visual overview of Visual Studio, the following image s
 
 Following are some other common productivity features in Visual Studio:
 
-- The [Quick Launch](../ide/reference/quick-launch-environment-options-dialog-box.md) search box is a great way to rapidly find what you need in Visual Studio. Just start entering in the name of whatever you are looking for, and Visual Studio lists results that take you exactly where you want to go. Quick Launch also shows links that start the Visual Studio Installer for any workload or individual component.
+- The [Quick Launch](../ide/reference/quick-launch-environment-options-dialog-box.md) search box is a great way to rapidly find what you need in Visual Studio. Just start entering in the name of whatever you are looking for, and Visual Studio lists results that take you exactly where you want to go. **Quick Launch** also shows links that start the Visual Studio Installer for any workload or individual component.
 
   ![Quick Launch search box](../ide/media/VSIDE_Tour_QuickLaunch.png)
 
@@ -215,9 +215,9 @@ Visual Studio Team Services is a cloud-based service for hosting software projec
 
 Team Foundation Server (TFS) is the application lifecycle management hub for Visual Studio. It enables everyone involved with the development process to participate using a single solution. TFS is useful for managing heterogeneous teams and projects, too.
 
-If you have a Visual Studio Team Services account or a Team Foundation Server on your network, you connect to it through the Team Explorer window in Visual Studio. From this window you can check code into or out of source control, manage work items, start builds, and access team rooms and workspaces. You can open Team Explorer from the **Quick Launch** box, or on the main menu from **View, Team Explorer** or from **Team, Manage Connections**.
+If you have a Visual Studio Team Services account or a Team Foundation Server on your network, you connect to it through the **Team Explorer** window in Visual Studio. From this window you can check code into or out of source control, manage work items, start builds, and access team rooms and workspaces. You can open Team Explorer from the **Quick Launch** box, or on the main menu from **View** > **Team Explorer** or from **Team** > **Manage Connections**.
 
-The following image shows the Team Explorer window for a solution that is hosted in VSTS.
+The following image shows the **Team Explorer** window for a solution that is hosted in VSTS.
 
 ![Visual Studio Team Explorer](../ide/media/vs2017_teamexplorer.png)
 
@@ -229,9 +229,9 @@ The cloud is critical for today's online world, and Visual Studio provides you t
 
 ![Connected services](../ide/media/VSIDE_Tour_Connected_Services.png)
 
-Choosing a service on the **Connected Services** page starts a Connected Services Wizard that configures your project and downloads the necessary NuGet packages to help get you started coding against the service.
+Choosing a service on the **Connected Services** page starts a Connected Services wizard that configures your project and downloads the necessary NuGet packages to help get you started coding against the service.
 
-You can view and manage your Azure-based cloud resources within Visual Studio using [Cloud Explorer](/azure/vs-azure-tools-resources-managing-with-cloud-explorer). Cloud Explorer shows the Azure resources in all the accounts managed under the Azure subscription you are logged into. You can get Cloud Explorer by selecting the **Azure development** workload in the Visual Studio installer.
+You can view and manage your Azure-based cloud resources within Visual Studio using [Cloud Explorer](/azure/vs-azure-tools-resources-managing-with-cloud-explorer). **Cloud Explorer** shows the Azure resources in all the accounts managed under the Azure subscription you are logged into. You can get Cloud Explorer by selecting the **Azure development** workload in the Visual Studio installer.
 
 ![Cloud Explorer](../ide/media/VSIDE_CloudExplorer.png)
 
@@ -255,7 +255,7 @@ To learn more about extending Visual Studio, see [Extend Visual Studio IDE](http
 
 ## Learn more and find out what's new
 
-If you've never used Visual Studio before, look at [Get Started Developing with Visual Studio](../ide/get-started-developing-with-visual-studio.md), or check out the free Visual Studio courses available on [Microsoft Virtual Academy](https://mva.microsoft.com/product-training/visual-studio-courses#!index=2&lang=1033). If you want to check out the new features in Visual Studio 2017, see [What's New in Visual Studio 2017](../ide/whats-new-in-visual-studio.md).
+If you've never used Visual Studio before, look at [Get started developing with Visual Studio](../ide/get-started-developing-with-visual-studio.md), or check out the free Visual Studio courses available on [Microsoft Virtual Academy](https://mva.microsoft.com/product-training/visual-studio-courses#!index=2&lang=1033). If you want to check out the new features in Visual Studio 2017, see [What's new in Visual Studio 2017](../ide/whats-new-in-visual-studio.md).
 
 Congratulations on completing the tour of the Visual Studio IDE! We hope you learned something useful about some of its main features.
 

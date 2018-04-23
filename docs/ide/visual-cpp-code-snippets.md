@@ -1,5 +1,5 @@
 ---
-title: Visual C++ Code Snippets
+title: Visual C++ code snippets
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
@@ -17,9 +17,9 @@ In Visual Studio, you can use code snippets to add commonly-used code to your C+
 
 You can either add a code snippet at a particular location in your code (insertion) or surround some selected code with a code snippet.
 
-## Inserting a code snippet
+## Insert a code snippet
 
-To insert a code snippet, open a C++ code file (.cpp or .h), click somewhere inside the file, and do one of the following:
+To insert a code snippet, open a C++ code file (*.cpp* or *.h*), click somewhere inside the file, and do one of the following:
 
 - Right-click to get the context menu and select **Insert Snippet**
 
@@ -37,7 +37,7 @@ You should see a list of choices beginning with **#if**. When you select **#if**
 
 You can then replace the 0 with the correct condition.
 
-## Using a code snippet to surround selected code
+## Use a code snippet to surround selected code
 
 To use a code snippet to surround selected code, select a line (or multiple lines) and do one of the following:
 
@@ -45,7 +45,7 @@ To use a code snippet to surround selected code, select a line (or multiple line
 
 - From the **Edit** > **IntelliSense** menu, select **Surround With**
 
-- Using a keyboard, press: **CTRL**+**K**+**S**
+- Using a keyboard, press: **Ctrl**+**K**+**S**
 
 Select **#if**. You should see something like this:
 
@@ -65,7 +65,7 @@ The names of most code snippets are self-explanatory, but some names might be co
 
 ## Class vs. classi
 
-The **class** snippet provides the definition of a class named MyClass, with the appropriate default constructor and destructor, where the definitions of the constructor and destructor are located outside the class:
+The **class** snippet provides the definition of a class named `MyClass`, with the appropriate default constructor and destructor, where the definitions of the constructor and destructor are located outside the class:
 
 ```cpp
 class MyClass
@@ -87,7 +87,7 @@ MyClass::~MyClass()
 }
 ```
 
-The **classi** code snippet also provides the definition of a class named MyClass, but the default constructor and destructor are defined inside the class definition:
+The **classi** code snippet also provides the definition of a class named `MyClass`, but the default constructor and destructor are defined inside the class definition:
 
 ```cpp
 class MyClass

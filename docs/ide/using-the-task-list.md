@@ -1,5 +1,5 @@
 ---
-title: Using the Task List
+title: Use the Task List
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: conceptual
@@ -16,7 +16,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Using the Task List
+# Use the Task List
 
 Use the **Task List** to track code comments that use tokens such as `TODO` and `HACK`, or custom tokens, and to manage shortcuts that will take you directly to a predefined location in the code. Click on the item in the list to go to its location in the source code.
 
@@ -26,7 +26,7 @@ When the **Task List** is open, it appears at the bottom of the application wind
 
 ### To open the Task List
 
-- On the **View** menu, choose **Task List** (Keyboard: Ctrl+\\,T).
+- On the **View** menu, choose **Task List** (Keyboard: **Ctrl**+**\\**,**T**).
 
     ![Task List window](../ide/media/vs2015_task_list.png "vs2015_task_list")
 
@@ -34,7 +34,7 @@ When the **Task List** is open, it appears at the bottom of the application wind
 
 - Click the header of any column. To further refine your search results, press Shift and click a second column header.
 
-     As an alternative, on the shortcut menu, choose **Sort by**, and choose a header. To further refine your search results, press Shift and choose a second header.
+     As an alternative, on the shortcut menu, choose **Sort by**, and choose a header. To further refine your search results, press **Shift** and choose a second header.
 
 ### To show or hide columns
 
@@ -44,9 +44,9 @@ When the **Task List** is open, it appears at the bottom of the application wind
 
 - Drag any column header to the location that you want.
 
-## User Tasks
+## User tasks
 
-The user task feature was removed starting in Visual Studio 2015. When you open a solution which has user task data from Visual Studio 2013 and earlier, the user task data in your .suo file will not be affected, but the user tasks will not be displayed in the task list.
+The user task feature was removed starting in Visual Studio 2015. When you open a solution which has user task data from Visual Studio 2013 and earlier, the user task data in your *.suo* file will not be affected, but the user tasks will not be displayed in the task list.
 
 If you wish to continue to access and update your user task data, you should open the project in Visual Studio 2013 and copy the content of any user tasks into your preferred project management tool (such as Team Foundation Server).
 
@@ -68,7 +68,7 @@ Because `TODO` is a predefined token, this comment appears as a `TODO` task in t
 
 ###  <a name="customTokens"></a> Custom tokens
 
-By default, Visual Studio includes the following tokens: HACK, TODO, UNDONE, NOTE. These are not case sensitive.
+By default, Visual Studio includes the following tokens: `HACK`, `TODO`, `UNDONE`, `NOTE`. These are not case sensitive.
 
 You can also create your own custom tokens.
 
@@ -102,10 +102,10 @@ A *shortcut* is a bookmark in the code that is tracked in the **Task List**; it 
 
 ### To create a shortcut
 
-To create a shortcut, insert the pointer into the code where you want to place a shortcut. Choose **Edit** > **Bookmarks** > **Add Task List Shortcut** or press **Ctrl** + **K**, **Ctrl** + **H**.
+To create a shortcut, insert the pointer into the code where you want to place a shortcut. Choose **Edit** > **Bookmarks** > **Add Task List Shortcut** or press **Ctrl**+**K**, **Ctrl**+**H**.
 
 To navigate through the shortcuts in the code, choose a shortcut in the list, and then choose **Next Task** or **Previous Task** from the shortcut menu.
 
 ## See also
 
-- [Task List, Environment, Options Dialog Box](../ide/reference/task-list-environment-options-dialog-box.md)
+- [Task List, Environment, Options dialog box](../ide/reference/task-list-environment-options-dialog-box.md)
