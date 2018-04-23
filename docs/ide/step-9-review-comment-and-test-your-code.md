@@ -77,7 +77,7 @@ You next add a comment to your code. A comment is a note that doesn't change the
 2.  Choose the **Show a picture** button to run the code you just wrote. First, the program opens an **Open File** dialog box. Verify that your filters appear in the **Files of type** drop-down list at the bottom of the dialog box. Then navigate to a picture and open it. You can usually find sample pictures that ship with the Windows operating system in your *My Documents* folder, inside the *My Pictures\Sample Pictures* folder.  
   
     > [!NOTE]
-    >  If you don't see any images in the **Select a picture file** dialog box, be sure that the **All files (*.*)** filter is selected in the drop-down list on the lower right side of the dialog box.  
+    >  If you don't see any images in the **Select a picture file** dialog box, be sure that the **All files (*./*)** filter is selected in the drop-down list on the lower right side of the dialog box.  
   
 3.  Load a picture, and it appears in your PictureBox. Then try resizing your form by dragging its borders. Because you have your PictureBox docked inside a TableLayoutPanel, which itself is docked inside the form, your picture area will resize itself so that it's as wide as the form, and fills the top 90 percent of the form. That's why you used the TableLayoutPanel and FlowLayoutPanel containers: They keep your form sized correctly when the user resizes it.  
 
