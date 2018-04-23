@@ -1,7 +1,7 @@
 ---
-title: "Analyze load test Errors Using the Counters Panel in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "conceptual"
+title: "Analyze load test Errors Using the Counters Panel in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "Load Test Analyzer, counters panel"
 ms.assetid: 981b4f1e-505a-4078-a06d-58ae17d996b4

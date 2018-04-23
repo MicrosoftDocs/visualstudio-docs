@@ -1,7 +1,7 @@
 ---
-title: "Coded web performance tests in Visual Studio | Microsoft Docs"
-ms.date: "10/03/2016"
-ms.topic: "conceptual"
+title: "Coded web performance tests in Visual Studio"
+ms.date: 10/03/2016
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Web performance tests, walkthroughs"
   - "Web performance tests, creating"

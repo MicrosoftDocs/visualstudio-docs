@@ -1,14 +1,13 @@
 ---
-title: "Code editor features in Visual Studio | Microsoft Docs"
-ms.custom: ""
+title: Code editor features in Visual Studio
 ms.date: 02/23/2018
 ms.technology: vs-ide-general
-ms.topic: "conceptual"
+ms.topic: conceptual
 helpviewer_keywords:
   - "code, editing [Visual Studio]"
   - "code editor [Visual Studio]"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"

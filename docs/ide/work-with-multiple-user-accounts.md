@@ -1,11 +1,11 @@
 ---
-title: "Work with multiple user accounts | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology: "vs-acquisition"
-ms.topic: "conceptual"
-author: "TerryGLee"
-ms.author: "tglee"
+title: Work with multiple user accounts
+ms.date: 11/04/2016
+ms.technology: vs-acquisition
+ms.prod: visual-studio-dev15
+ms.topic: conceptual
+author: TerryGLee
+ms.author: tglee
 manager: douge
 ms.workload:
   - "multiple"
@@ -73,4 +73,4 @@ Now go to **Server Explorer** again, right-click on the Azure node and choose **
 
 ## See also
 
-[Sign in to Visual Studio](signing-in-to-visual-studio.md)
+- [Sign in to Visual Studio](signing-in-to-visual-studio.md)

@@ -1,7 +1,7 @@
 ---
-title: "Analyzing Load Test Results in Visual Studio | Microsoft Docs"
-ms.date: "10/20/2016"
-ms.topic: "conceptual"
+title: "Analyzing Load Test Results in Visual Studio"
+ms.date: 10/20/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "load tests, test results"
   - "load tests, analyzing test results"

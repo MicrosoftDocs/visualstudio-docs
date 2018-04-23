@@ -1,13 +1,12 @@
 ---
-title: "Using Peek Definition in Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "01/10/2018"
+title: Using Peek Definition in Visual Studio
+ms.date: 01/10/2018
 ms.technology: vs-ide-general
-ms.topic: "conceptual"
-author: "gewarren"
-ms.author: "gewarren"
+ms.topic: conceptual
+author: gewarren
+ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # How to: View and edit code by using Peek Definition (Alt+F12)
@@ -60,7 +59,7 @@ When you start to edit inside a **Peek Definition** window, the file that you're
 
 1. Click **OK** to close the **Options** dialog box.
 
-   ![Setting the mouse-click peek definition option](../ide/media/editor_options_peek_view.png)  
+   ![Setting the mouse-click peek definition option](../ide/media/editor_options_peek_view.png)
 
 ### Keyboard shortcuts for Peek Definition
 
@@ -80,6 +79,6 @@ You can use these keyboard shortcuts with the **Peek Definition** window:
 
 ## See also
 
-[Navigate code](../ide/navigating-code.md)  
-[Go To Definition and Peek Definition](../ide/go-to-and-peek-definition.md)  
-[Productivity tips](../ide/productivity-tips-for-visual-studio.md)
+- [Navigate code](../ide/navigating-code.md)
+- [Go To Definition and Peek Definition](../ide/go-to-and-peek-definition.md)
+- [Productivity tips](../ide/productivity-tips-for-visual-studio.md)

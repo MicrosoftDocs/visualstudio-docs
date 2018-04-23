@@ -1,7 +1,7 @@
 ---
-title: "Load Test Run Settings in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "conceptual"
+title: "Load Test Run Settings in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: reference
 helpviewer_keywords:
   - "load tests, run settings"
 ms.assetid: de10dabb-02ed-403b-9e6f-0b735524988c

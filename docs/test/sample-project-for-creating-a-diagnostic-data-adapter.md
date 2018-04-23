@@ -1,7 +1,7 @@
 ---
-title: "Sample Project for Creating a Diagnostic Data Adapter in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "conceptual"
+title: "Sample Project for Creating a Diagnostic Data Adapter in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: sample
 helpviewer_keywords:
   - "Diagnostic Data Adapter [Visual Studio ALM]"
   - "samples. Diagnostic Data Adapter [Visual Studio ALM]"

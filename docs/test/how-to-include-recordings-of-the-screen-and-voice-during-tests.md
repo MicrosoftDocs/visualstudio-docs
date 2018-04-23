@@ -1,7 +1,7 @@
 ---
-title: "Include Recordings of the Screen and Voice During Tests Using Test Settings in Visual Studio | Microsoft Docs"
-ms.date: "10/03/2016"
-ms.topic: "conceptual"
+title: "Include Recordings of the Screen and Voice During Tests Using Test Settings in Visual Studio"
+ms.date: 10/03/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "test settings, recording desktop video"
 ms.assetid: 2cefe8c2-430a-4cb4-bbe0-f3edb2e5bc03

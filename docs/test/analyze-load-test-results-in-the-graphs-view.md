@@ -1,7 +1,7 @@
 ---
-title: "Analyzing Load Test Results in the Graphs View of the Load Test Analyzer | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "conceptual"
+title: "Analyzing Load Test Results in the Graphs View of the Load Test Analyzer"
+ms.date: 10/19/2016
+ms.topic: conceptual
 f1_keywords:
   - "vs.test.load.monitor.graph.view"
 helpviewer_keywords:

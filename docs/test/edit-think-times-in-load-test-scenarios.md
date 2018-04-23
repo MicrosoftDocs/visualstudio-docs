@@ -1,7 +1,7 @@
 ---
-title: "Think Times for load testing in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "conceptual"
+title: "Think Times for load testing in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "load tests, think times"
   - "load tests, adding delays"

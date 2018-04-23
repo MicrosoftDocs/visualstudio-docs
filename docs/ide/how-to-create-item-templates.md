@@ -1,13 +1,12 @@
 ---
-title: "Create item templates for Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "01/02/2018"
+title: Create item templates for Visual Studio
+ms.date: 01/02/2018
 ms.technology: vs-ide-general
-ms.topic: "conceptual"
-helpviewer_keywords: 
+ms.topic: conceptual
+helpviewer_keywords:
   - "item templates [Visual Studio], creating"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ---
 # How to: Create item templates
@@ -121,6 +120,6 @@ In some cases you may want to create an item template manually, from scratch.
 
 ## See also
 
-[Create project and item templates](../ide/creating-project-and-item-templates.md)  
-[How to: Create multi-file item templates](../ide/how-to-create-multi-file-item-templates.md)  
-[Visual Studio template schema reference (extensibility)](../extensibility/visual-studio-template-schema-reference.md)
+- [Create project and item templates](../ide/creating-project-and-item-templates.md)
+- [How to: Create multi-file item templates](../ide/how-to-create-multi-file-item-templates.md)
+- [Visual Studio template schema reference (extensibility)](../extensibility/visual-studio-template-schema-reference.md)
