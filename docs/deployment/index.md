@@ -82,6 +82,24 @@ Visual Studio provides several different tools to help you deploy your apps.
         </a>
     </li>
     <li>
+        <a href="/visualstudio/python/publishing-python-web-applications-to-azure-from-visual-studio">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="/media/common/i_get-started.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Deploy Python to Azure</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
         <a href="/cpp/ide/deployment-in-visual-cpp">
         <div class="cardSize">
             <div class="cardPadding">
