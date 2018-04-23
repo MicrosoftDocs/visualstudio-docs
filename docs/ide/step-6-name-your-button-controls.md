@@ -27,7 +27,7 @@ There's only one PictureBox on your form. When you added it, the IDE automatical
 1.  On the form, choose the **Close** button. (If you still have all the buttons selected, choose the **Esc** key to cancel the selection.) Scroll in the **Properties** window until you see the **(Name)** property. (The **(Name)** property is near the top when the properties are alphabetical.) Change the name to **closeButton**, as shown in the following picture.  
   
      ![Properties window with closeButton name](../ide/media/express_setnameproperty.png "Express_SetNameProperty")  
-Properties window with closeButton name  
+**Properties** window with **closeButton** name  
   
     > [!NOTE]
     >  If you try changing the name of your button to **closeButton**, with a space between the words close and Button, the IDE displays an error message: "Property value is not valid." Spaces (and a few other characters) are not allowed in control names.  
@@ -37,7 +37,7 @@ Properties window with closeButton name
 3.  Double-click the **Show a picture** button on the form. As an alternative, choose the **Show a picture** button on the form, and then choose the **Enter** key. When you do, the IDE opens an additional tab in the main window called **Form1.cs** (**Form1.vb** if you're using Visual Basic). This tab shows the code file behind the form, as shown in the following picture.  
   
      ![Form1.cs tab with Visual C&#35; code](../ide/media/express_showbuttoncode.png "Express_ShowButtonCode")  
-Form1.cs tab with Visual C# code  
+**Form1.cs** tab with Visual C# code  
   
 4.  Focus on this part of the code. (Choose the **VB** tab below if you're using Visual Basic to view the Visual Basic version of the code.)  
   
@@ -47,11 +47,11 @@ Form1.cs tab with Visual C# code
      You are looking at code called `showButton_Click()`. The IDE added this to the form's code when you opened the code file for the **showButton** button. At design-time, when you open the code file for a control in a form, code is generated for the control if it doesn't already exist. This code, known as a *method*, runs when you run your program and choose the control - in this case, the **Show a picture** button.  
   
     > [!NOTE]
-    >  In this tutorial, the Visual Basic code that's automatically generated has been simplified by removing everything between the parentheses, (). Whenever this occurs, you can remove the same code. Your program will work either way. For the remainder of the tutorials, any automatically generated code is simplified whenever possible.  
+    >  In this tutorial, the Visual Basic code that's automatically generated has been simplified by removing everything between the parentheses, `()`. Whenever this occurs, you can remove the same code. Your program will work either way. For the remainder of the tutorials, any automatically generated code is simplified whenever possible.  
   
 5.  Choose the **Windows Forms Designer** tab again (**Form1.cs [Design]** in Visual C#, **Form1.vb [Design]** in Visual Basic) and then open the code file for the **Clear the picture** button to create a method for it in the form's code. Repeat this for the remaining two buttons. Each time, the IDE adds a new method to the form's code file.  
   
-6.  To add one more method, open the code file for the CheckBox control in **Windows Forms Designer** to make the IDE add a `checkBox1_CheckedChanged()` method. That method is called whenever the user selects or clears the check box.  
+6.  To add one more method, open the code file for the **CheckBox** control in **Windows Forms Designer** to make the IDE add a `checkBox1_CheckedChanged()` method. That method is called whenever the user selects or clears the check box.  
   
     > [!NOTE]
     >  When working on a program, you often move between the code editor and **Windows Forms Designer**. The IDE makes it easy to navigate in your project. Use **Solution Explorer** to open **Windows Forms Designer** by double-clicking *Form1.cs* in Visual C# or *Form1.vb* in Visual Basic, or on the menu bar, choose **View** > **Designer**.  
@@ -67,10 +67,10 @@ Form1.cs tab with Visual C# code
   
      After you add an event handler for a control, you can return to it at any time from **Windows Forms Designer** by double-clicking the control, or on the menu bar, choosing **View** > **Code**.  
   
-     Names are important when you build programs, and methods (including event handlers) can have any name that you want. When you add an event handler with the IDE, it creates a name based on the control's name and the event being handled. For example, the `Click` event for a button named **showButton** is called the `showButton_Click()` event handler method. Also, opening and closing parentheses () are usually added after the method name to indicate that methods are being discussed. If you decide you want to change a code variable name, right-click the variable in the code and then choose **Refactor** > **Rename**. All instances of that variable in the code are renamed. See [Rename refactoring](../ide/reference/rename.md) for more information.
+     Names are important when you build programs, and methods (including event handlers) can have any name that you want. When you add an event handler with the IDE, it creates a name based on the control's name and the event being handled. For example, the `Click` event for a button named **showButton** is called the `showButton_Click()` event handler method. Also, opening and closing parentheses `()` are usually added after the method name to indicate that methods are being discussed. If you decide you want to change a code variable name, right-click the variable in the code and then choose **Refactor** > **Rename**. All instances of that variable in the code are renamed. See [Rename refactoring](../ide/reference/rename.md) for more information.
   
 ### To continue or review  
   
--   To go to the next tutorial step, see [Step 7: Add Dialog components to your form](../ide/step-7-add-dialog-components-to-your-form.md).  
+-   To go to the next tutorial step, see [Step 7: Add dialog components to your form](../ide/step-7-add-dialog-components-to-your-form.md).  
   
 -   To return to the previous tutorial step, see [Step 5: Add controls to your form](../ide/step-5-add-controls-to-your-form.md).

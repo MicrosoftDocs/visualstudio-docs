@@ -55,8 +55,8 @@ Picture that you create in this tutorial
 |[Step 4: Lay out your form with a TableLayoutPanel control](../ide/step-4-lay-out-your-form-with-a-tablelayoutpanel-control.md)|Add a `TableLayoutPanel` control to your form.|  
 |[Step 5: Add controls to your form](../ide/step-5-add-controls-to-your-form.md)|Add controls, such as a `PictureBox` control and a `CheckBox` control, to your form. Add buttons to your form.|  
 |[Step 6: Name your button controls](../ide/step-6-name-your-button-controls.md)|Rename your buttons to something more meaningful.|  
-|[Step 7: Add Dialog components to your form](../ide/step-7-add-dialog-components-to-your-form.md)|Add an **OpenFileDialog** component and a **ColorDialog** component to your form.|  
-|[Step 8: Write code for the show a picture Button event handler](../ide/step-8-write-code-for-the-show-a-picture-button-event-handler.md)|Write code using the IntelliSense tool.|  
+|[Step 7: Add dialog components to your form](../ide/step-7-add-dialog-components-to-your-form.md)|Add an **OpenFileDialog** component and a **ColorDialog** component to your form.|  
+|[Step 8: Write code for the show a picture button event handler](../ide/step-8-write-code-for-the-show-a-picture-button-event-handler.md)|Write code using the IntelliSense tool.|  
 |[Step 9: Review, comment, and test your code](../ide/step-9-review-comment-and-test-your-code.md)|Review and test your code. Add comments as needed.|  
 |[Step 10: Write code for additional buttons and a check box](../ide/step-10-write-code-for-additional-buttons-and-a-check-box.md)|Write code to make other buttons and a check box work using IntelliSense.|  
 |[Step 11: Run your program and try other features](../ide/step-11-run-your-program-and-try-other-features.md)|Run your program and set the background color. Try other features, such as changing colors, fonts, and borders.|

@@ -49,7 +49,7 @@ You next add a comment to your code. A comment is a note that doesn't change the
      [!code-csharp[VbExpressTutorial1Step9_10#1](../ide/codesnippet/CSharp/step-9-review-comment-and-test-your-code_1.cs)]  
   
     > [!NOTE]
-    >  Your **showButton** button's `Click` event handler is now finished, and it works. You have started writing code, starting with an `if` statement. An `if` statement is how you tell your program, "Check this one thing, and if it's true, do these actions." In this case, you tell your program to open the **Open File** dialog box, and if the user selects a file and chooses the **OK** button, load that file in the PictureBox.  
+    >  Your **showButton** button's `Click` event handler is now finished, and it works. You have started writing code, starting with an `if` statement. An `if` statement is how you tell your program, "Check this one thing, and if it's true, do these actions." In this case, you tell your program to open the **Open File** dialog box, and if the user selects a file and chooses the **OK** button, load that file in the **PictureBox**.  
   
     > [!TIP]
     >  The IDE is built to make it easy for you to write code, and *code snippets* are one way it does that. A snippet is a shortcut that gets expanded into a small block of code.  
@@ -61,14 +61,14 @@ You next add a comment to your code. A comment is a note that doesn't change the
 2.  Before you run your program, save your program by choosing the **Save All** toolbar button, which appears as follows.  
   
      ![Save All toolbar button](../ide/media/express_iconsaveall.png "Express_IconSaveAll")  
-Save All button  
+**Save All** button  
   
      Alternatively, to save your program, on the menu bar, choose **File** > **Save All**. It's a best practice to save early and often.  
   
      When it's running, your program should look like the following picture.  
   
      ![Picture Viewer](../ide/media/express_pictureviewerdonerun.png "Express_PictureViewerDoneRun")  
-Picture Viewer  
+**Picture Viewer**  
   
 ### To test your program  
   
@@ -77,7 +77,7 @@ Picture Viewer
 2.  Choose the **Show a picture** button to run the code you just wrote. First, the program opens an **Open File** dialog box. Verify that your filters appear in the **Files of type** drop-down list at the bottom of the dialog box. Then navigate to a picture and open it. You can usually find sample pictures that ship with the Windows operating system in your *My Documents* folder, inside the *My Pictures\Sample Pictures* folder.  
   
     > [!NOTE]
-    >  If you don't see any images in the **Select a picture file** dialog box, be sure that the "All files (*.\*)" filter is selected in the drop-down list on the lower right side of the dialog box.  
+    >  If you don't see any images in the **Select a picture file** dialog box, be sure that the **All files (*.*)** filter is selected in the drop-down list on the lower right side of the dialog box.  
   
 3.  Load a picture, and it appears in your PictureBox. Then try resizing your form by dragging its borders. Because you have your PictureBox docked inside a TableLayoutPanel, which itself is docked inside the form, your picture area will resize itself so that it's as wide as the form, and fills the top 90 percent of the form. That's why you used the TableLayoutPanel and FlowLayoutPanel containers: They keep your form sized correctly when the user resizes it.  
   
@@ -87,4 +87,4 @@ Picture Viewer
   
 -   To go to the next tutorial step, see [Step 10: Write code for additional buttons and a check box](../ide/step-10-write-code-for-additional-buttons-and-a-check-box.md).  
   
--   To return to the previous tutorial step, see [Step 8: Write code for the show a picture Button event handler](../ide/step-8-write-code-for-the-show-a-picture-button-event-handler.md).
+-   To return to the previous tutorial step, see [Step 8: Write code for the show a picture button event handler](../ide/step-8-write-code-for-the-show-a-picture-button-event-handler.md).

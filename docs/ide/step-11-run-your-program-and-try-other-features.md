@@ -26,7 +26,7 @@ Your program is finished and ready to run. You can run your program and set the 
 2.  Before you open a picture, choose the **Set the background color** button. The **Color** dialog box opens.  
   
      ![Color dialog box](../ide/media/express_colordialog.png "Express_ColorDialog")  
-Color dialog box  
+**Color** dialog box 
   
 3.  Choose a color to set the PictureBox background color. Look closely at the `backgroundButton_Click()` method to understand how it works.  
   

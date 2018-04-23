@@ -35,7 +35,7 @@ In the third part of this tutorial, you'll add a countdown timer to track the nu
   
      Because the interval value is milliseconds, a value of 1000 causes the `Tick` event to fire every second.  
   
-4.  On the form, double-click the Timer control, or choose it and then choose the **Enter** key.  
+4.  On the form, double-click the **Timer** control, or choose it and then choose the **Enter** key.  
   
      The code editor appears and displays the method for the `Tick` event handler that you just added.  
   
@@ -44,7 +44,7 @@ In the third part of this tutorial, you'll add a countdown timer to track the nu
      [!code-vb[VbExpressTutorial3Step3#6](../ide/codesnippet/VisualBasic/step-3-add-a-countdown-timer_2.vb)]
      [!code-csharp[VbExpressTutorial3Step3#6](../ide/codesnippet/CSharp/step-3-add-a-countdown-timer_2.cs)]  
   
-     Based on what you added, the timer checks each second whether time has run out by determining whether the **timeLeft** integer variable is greater than 0. If it is, time still remains. The timer first subtracts 1 from timeLeft and then updates the **Text** property of the `timeLabel` control to show the quiz taker how many seconds remain.  
+     Based on what you added, the timer checks each second whether time has run out by determining whether the **timeLeft** integer variable is greater than 0. If it is, time still remains. The timer first subtracts 1 from timeLeft and then updates the **Text** property of the **timeLabel** control to show the quiz taker how many seconds remain.  
   
      If no time remains, the timer stops and changes the text of the **timeLabel** control so that it shows **Time's up!** A message box announces that the quiz is over, and the answer is revealed—in this case, by adding addend1 and addend2. The **Enabled** property of the **startButton** control is set to **true** so that the quiz taker can start another quiz.  
   
@@ -81,7 +81,7 @@ In the third part of this tutorial, you'll add a countdown timer to track the nu
      [!code-vb[VbExpressTutorial3Step3#24](../ide/codesnippet/VisualBasic/step-3-add-a-countdown-timer_3.vb)]
      [!code-csharp[VbExpressTutorial3Step3#24](../ide/codesnippet/CSharp/step-3-add-a-countdown-timer_3.cs)]  
   
-     The statement `addend1 + addend2` adds the values in the two variables together. The first part (`sum.Value`) uses the **Value** property of the sum `NumericUpDown` control to display the correct answer. You use the same property later to check the answers for the quiz.  
+     The statement `addend1 + addend2` adds the values in the two variables together. The first part (`sum.Value`) uses the **Value** property of the sum NumericUpDown control to display the correct answer. You use the same property later to check the answers for the quiz.  
   
      Quiz takers can enter numbers more easily by using a `NumericUpDown` control, which is why you use one for the answers to the math problems. All of the potential answers are whole numbers from 0 through 100. By leaving the default values of the **Minimum**, **Maximum**, and **DecimalPlaces** properties, you ensure that quiz takers can't enter decimals, negative numbers, or numbers that are too high. (If you wanted to allow quiz takers to enter 3.141 but not 3.1415, you could set the **DecimalPlaces** property to 3.)  
   

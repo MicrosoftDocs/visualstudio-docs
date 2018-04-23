@@ -51,7 +51,7 @@ The game works well, as long as the player only chooses pairs of icons that don'
 2.  Save and run the program, and then start choosing icons on the form. If you choose a pair that doesn't match, the timer's `Tick` event triggers, and both icons disappear. If you choose a matching pair, the new `if` statement executes, and the return statement causes the method to skip the code that starts the timer, so the icons stay visible, as shown in the following picture.  
   
      ![Game that you create in this tutorial](../ide/media/express_finishedgame.png "Express_FinishedGame")  
-Matching game with visible icon pairs  
+**Matching game** with visible icon pairs  
   
 ### To continue or review  
   

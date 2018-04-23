@@ -44,7 +44,7 @@ In the seventh part of this tutorial, you'll add multiplication and division pro
      Quiz takers must answer four problems to complete the quiz, as the following illustration shows.  
   
      ![Math quiz with four problems](../ide/media/express_finishedquiz.png "Express_FinishedQuiz")  
-Math quiz with four problems  
+**Math quiz** with four problems  
   
 ### To continue or review  
   

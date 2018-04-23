@@ -24,7 +24,7 @@ By default, the following settings are synchronized.
 
 - The following options in the **Tools** > **Options** pages:
 
-    - **Theme** and menu bar casing settings, on the **Environment** > **General** options page
+    - Theme and menu bar casing settings, on the **Environment** > **General** options page
 
     - All settings on the **Environment** > **Fonts and Colors** options page
 

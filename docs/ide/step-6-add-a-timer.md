@@ -20,7 +20,7 @@ Next, you add a `Timer` control to the matching game. A timer waits a specified 
 1.  From the toolbox in **Windows Forms Designer**, choose **Timer** (in the **Components** category) and then choose the **Enter** key, or double-click the timer to add a timer control to the form. The timer's icon, called **Timer1**, should appear in a space below the form, as shown in the following picture.  
   
      ![Timer](../ide/media/express_timer.png "Express_Timer")  
-Timer  
+**Timer**  
   
     > [!NOTE]
     >  If the toolbox is empty, be sure to select the form designer, and not the code behind the form, before opening the toolbox.  

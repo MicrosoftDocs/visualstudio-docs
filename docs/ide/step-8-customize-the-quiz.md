@@ -19,7 +19,7 @@ In the last part of the tutorial, you'll explore some ways to customize the quiz
   
 -   When only five seconds remain in a quiz, turn the **timeLabel** control red by setting its **BackColor** property (`timeLabel.BackColor = Color.Red;`). Reset the color when the quiz is over.  
   
--   Give the quiz taker a hint by playing a sound when the correct answer is entered into a NumericUpDown control. (You must write an event handler for each control's `ValueChanged()` event, which fires whenever the quiz taker changes the control's value.)  
+-   Give the quiz taker a hint by playing a sound when the correct answer is entered into a **NumericUpDown** control. (You must write an event handler for each control's `ValueChanged()` event, which fires whenever the quiz taker changes the control's value.)  
   
 ### To continue or review  
   

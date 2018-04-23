@@ -32,7 +32,7 @@ You've created a fun game, but it needs an additional item to finish it. The gam
 3.  Save and run the program. Play the game and match all of the icons. When you win, the program displays a congratulatory **MessageBox** (as shown in the following picture), and then closes the box.  
   
      ![Matching game with MessageBox](../ide/media/express_tut4step8.png "Express_Tut4Step8")  
-Matching game with MessageBox  
+**Matching game** with **MessageBox**  
   
 ### To continue or review  
   

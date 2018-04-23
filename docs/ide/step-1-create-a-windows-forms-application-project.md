@@ -22,7 +22,7 @@ When you create a picture viewer, the first step is to create a Windows Forms Ap
 1.  On the menu bar, choose **File** > **New** > **Project**. The dialog box should look like this.  
   
      ![New project dialog](../ide/media/newprojectdialogcallouts.png "NewProjectDialogCallouts")  
-New project dialog box  
+**New project** dialog box  
   
 2.  Choose either **Visual C#** or **Visual Basic** in the **Installed Templates** list.  
   
@@ -36,7 +36,7 @@ New project dialog box
     >  Your window layout may not look exactly like this illustration. The precise window layout depends on the version of Visual Studio, the programming language you are using, and other factors. However, you should verify that all three windows appear.  
   
      ![IDE window](../ide/media/express_ideoverview_visio.png "Express_IDEOverview_Visio")  
-IDE window  
+**IDE** window  
   
      The interface contains three windows: a main window, **Solution Explorer**, and the **Properties** window.  
   
@@ -58,7 +58,7 @@ IDE window
      As an alternative, choose the **Save All** button on the toolbar, which the following illustration shows.  
   
      ![Save All toolbar button](../ide/media/express_iconsaveall.png "Express_IconSaveAll")  
-Save All toolbar button  
+**Save All** toolbar button  
   
      Visual Studio automatically fills in the folder name and the project name and then saves the project in your projects folder.  
   
