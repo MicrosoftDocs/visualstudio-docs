@@ -50,9 +50,8 @@ The [XSLT hierarchy tool](../xml-tools/walkthrough-using-xslt-hierarchy.md) allo
 
 ## Related sections
 
-[Writing code in the editor](../ide/writing-code-in-the-code-and-text-editor.md) provides information about the text editor.
-
-[XML standards reference](http://msdn.microsoft.com/79c78508-c9d0-423a-a00f-672e855de401) provides information about XML technologies, including XML, Document Type Definition (DTD), XML Schema Definition language (XSD), and XSLT.
+- [Writing code in the editor](../ide/writing-code-in-the-code-and-text-editor.md) provides information about the text editor.
+- [XML standards reference](http://msdn.microsoft.com/79c78508-c9d0-423a-a00f-672e855de401) provides information about XML technologies, including XML, Document Type Definition (DTD), XML Schema Definition language (XSD), and XSLT.
 
 ## See also
 
