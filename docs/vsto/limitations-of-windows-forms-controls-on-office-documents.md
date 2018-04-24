@@ -34,7 +34,7 @@ Many of these differences are caused by the way that Windows Forms controls are 
 
 There are a number of methods and properties of Windows Forms controls that do not work the same way on a document as they would on a Windows Form and, therefore, it is recommended that they not be used. For example, setting properties such as <xref:Microsoft.Office.Tools.Word.Controls.Button.Dock> and <xref:Microsoft.Office.Tools.Word.Controls.Button.Anchor> only affects the position of the control with respect to the container ActiveX control, rather than the document. The following is a list of unsupported methods and properties of Windows Forms controls for Word and Excel:
 
-- Unsupported methods and properties of Excel controls:
+- Unsupported properties of Excel controls:
 
     - <xref:Microsoft.Office.Tools.Word.Controls.Button.Anchor>
     - <xref:Microsoft.Office.Tools.Word.Controls.Button.Dock>
@@ -45,17 +45,17 @@ There are a number of methods and properties of Windows Forms controls that do n
 
 - Unsupported methods and properties of Word controls:
 
-    - `Hide`
-    - `Show`
-    - `Anchor`
-    - `Dock`
-    - `Location`
-    - `TabIndex`
-    - `TabStop`
-    - `TopLevelControl`
-    - `Visible`
+    - <xref:Microsoft.Office.Tools.Word.Controls.Button.Hide%2A>
+    - <xref:Microsoft.Office.Tools.Word.Controls.Button.Show%2A>
+    - <xref:Microsoft.Office.Tools.Word.Controls.Button.Anchor>
+    - <xref:Microsoft.Office.Tools.Word.Controls.Button.Dock>
+    - <xref:Microsoft.Office.Tools.Word.Controls.Button.Location>
+    - <xref:Microsoft.Office.Tools.Word.Controls.Button.TabIndex>
+    - <xref:Microsoft.Office.Tools.Word.Controls.Button.TabStop>
+    - <xref:Microsoft.Office.Tools.Word.Controls.Button.TopLevelControl>
+    - <xref:Microsoft.Office.Tools.Word.Controls.Button.Visible>
 
-You also cannot set the `Left` or `Top` property of Windows Forms controls that are in line with text on a Word document. Windows Forms controls are added in line with text in the following cases:
+You also cannot set the <xref:Microsoft.Office.Tools.Word.Controls.Button.Left> or <xref:Microsoft.Office.Tools.Word.Controls.Button.Top> property of Windows Forms controls that are in line with text on a Word document. Windows Forms controls are added in line with text in the following cases:
 
 - You programmatically add a control to a Word document and use a method that specifies a range for the location.
 
@@ -69,7 +69,7 @@ Windows Forms controls generally have the same behavior on an Office document as
 |-------------------|----------------|
 |Control tab order|You cannot tab through controls placed on an Excel worksheet or Word document.|
 |Control grouping|You cannot use a <xref:System.Windows.Forms.GroupBox> control to contain other controls on an Office document. When you add multiple radio buttons directly to the document, the radio buttons are not mutually exclusive. You can write code to make the radio buttons mutually exclusive; however, the preferred approach is to add the radio buttons to a user control and then add the user control to the document. For more information, see the Word Controls Sample or Excel Controls Sample at [Office Development Samples and Walkthroughs](../vsto/office-development-samples-and-walkthroughs.md).|
-|Control type|Windows Forms controls used on documents are wrapped in a class provided by the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] that gives the controls additional functionality specific to the Excel worksheet or Word document. For example, if you have a `Button` control on an Excel worksheet, be sure to specify the type as <xref:Microsoft.Office.Tools.Excel.Controls.Button> rather than <xref:System.Windows.Forms.Button> when referencing or casting the object.|
+|Control type|Windows Forms controls used on documents are wrapped in a class provided by the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] that gives the controls additional functionality specific to the Excel worksheet or Word document. For example, if you have a **Button** control on an Excel worksheet, be sure to specify the type as <xref:Microsoft.Office.Tools.Excel.Controls.Button> rather than <xref:System.Windows.Forms.Button> when referencing or casting the object.|
 |Control position and size|The size and position of the control is determined by properties that are part of the container ActiveX control. The ActiveX control properties take different values than the equivalent properties of a Windows Forms control. When you set the `Top`, `Left`, `Height`, or `Width` properties of a control, it is measured in points, rather than pixels.|
 |Control position on Word documents|If you add controls to a flow-based layout, keep in mind that the controls will flow with the content as the content changes. You cannot anchor the control to a paragraph when you drag it from the **Toolbox** because the control is added to the Word document in line with text. If you use another method to add the control, such as double-clicking the control, the control is inserted according to the Word option you have set for inserting pictures.<br /><br /> You cannot set the `Left` or `Top` property of a control that is inline with text.<br /><br /> You cannot place controls in a header or footer, or within a subdocument.|
 |Control events|When the control is selected, it raises events in the following order:<br /><br /> 1.  `Enter`<br />2.  `GotFocus`<br /><br /> When the control is deselected, it raises events in the following order:<br /><br /> 1.  `Leave`<br />2.  `Validating`<br />3.  `Validated`<br />4.  `LostFocus`|
