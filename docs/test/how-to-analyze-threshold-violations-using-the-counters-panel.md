@@ -8,6 +8,7 @@ ms.assetid: 0126d7b7-0538-4ea9-9046-6556654b3b9d
 author: gewarren
 ms.author: gewarren
 manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # How to: Analyze Threshold Violations Using the Counters Panel in Load Test Analyzer

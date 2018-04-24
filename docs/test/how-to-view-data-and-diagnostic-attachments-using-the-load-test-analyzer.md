@@ -8,6 +8,7 @@ ms.assetid: 73309bdd-437a-4eb0-88c8-702c3e24b9b0
 author: gewarren
 ms.author: gewarren
 manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # How to: View Data and Diagnostic Attachments Using the Load Test Analyzer

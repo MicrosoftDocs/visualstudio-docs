@@ -1,6 +1,7 @@
 ---
 title: "Extending Coded UI Tests and Action Recordings to Support Microsoft Excel"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.author: gewarren

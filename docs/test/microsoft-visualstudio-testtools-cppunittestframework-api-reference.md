@@ -1,6 +1,7 @@
 ---
 title: "Microsoft.VisualStudio.TestTools.CppUnitTestFramework API Reference"
 ms.date: 11/04/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ms.topic: reference
 ms.author: mblome
