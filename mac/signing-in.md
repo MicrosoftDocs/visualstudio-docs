@@ -1,5 +1,5 @@
 ---
-title: "Signing in to Visual Studio for Mac | Microsoft Docs"
+title: "Signing in to Visual Studio for Mac"
 description: 
 author: asb3993
 ms.author: amburns

@@ -1,5 +1,5 @@
 ---
-title: "Report a Problem | Microsoft Docs"
+title: "Report a Problem"
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017

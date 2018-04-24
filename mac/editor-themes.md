@@ -1,5 +1,6 @@
 ---
 title: "Editor Themes"
+description: "This article describes how to edit the theme of the editor or add your own in Visual Studio for Mac"
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017

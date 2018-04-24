@@ -1,5 +1,5 @@
 ---
-title: "Azure in Visual Studio for Mac | Microsoft Docs"
+title: "Azure"
 description: "Add Azure data storage, authentication, and push notifications to mobile apps from within Visual Studio for Mac"
 ms.prod: xamarin
 ms.assetid: 3E5ADF4A-6655-42AD-BFC1-CE5E437C457B

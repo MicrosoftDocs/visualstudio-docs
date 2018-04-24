@@ -1,5 +1,5 @@
 ---
-title: Customizing the IDE | Microsoft Docs
+title: Customizing the IDE
 description: Visual Studio for Mac can be customized in a variety of ways, allowing users to develop apps in an environment that meets both their efficiency and aesthetic needs. This topic explores the variety of ways Visual Studio for Mac can be adapted to suit your needs.
 author: asb3993
 ms.author: amburns

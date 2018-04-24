@@ -1,5 +1,5 @@
 ---
-title: Working with Subversion | Microsoft Docs
+title: Working with Subversion
 description: Using Subversion in Visual Studio for Mac.
 author: asb3993
 ms.author: amburns

@@ -1,5 +1,5 @@
 ---
-title: "Installing Preview releases in Visual Studio for Mac | Microsoft Docs"
+title: "Installing Preview releases"
 description: "Instructions for updating Visual Studio for Mac and accessing preview releases."
 author: asb3993
 ms.author: amburns

@@ -1,6 +1,6 @@
 ---
-title: "Compiling and Building in Visual Studio for Mac | Microsoft Docs"
-description: 
+title: "Compiling and Building"
+description: "This article describes how to compile and build projects and solutions in Visual Studio for Mac"
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017

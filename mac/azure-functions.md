@@ -1,5 +1,5 @@
 ---
-title: "Azure Functions in Visual Studio for Mac | Microsoft Docs"
+title: "Azure Functions"
 description: "Using Azure functions in Visual Studio for Mac."
 author: asb3993
 ms.author: amburns
