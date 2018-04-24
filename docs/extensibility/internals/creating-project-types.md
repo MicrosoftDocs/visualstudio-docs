@@ -2,20 +2,16 @@
 title: "Creating Project Types | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "project types, new"
   - "projects [Visual Studio SDK], new project types"
 ms.assetid: bdb2d22e-d622-450c-bb2d-98152a745fcf
-caps.latest.revision: 25
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

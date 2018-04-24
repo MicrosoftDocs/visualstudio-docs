@@ -1,18 +1,14 @@
 ---
-title: "Step 2: Create a Random Addition Problem | Microsoft Docs"
+title: "Step 2: Create a Random Addition Problem"
 ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-acquisition"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: 11/04/2016
+ms.technology: vs-acquisition
+ms.prod: visual-studio-dev15
+ms.topic: conceptual
 ms.assetid: 6461c4cf-f2aa-4bf5-91ed-06820a4f893d
-caps.latest.revision: 27
-author: "TerryGLee"
-ms.author: "tglee"
-manager: ghogen
+author: TerryGLee
+ms.author: tglee
+manager: douge
 ms.workload:
   - "multiple"
 ---

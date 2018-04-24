@@ -2,20 +2,16 @@
 title: "IDebugSymbolProviderDirect::GetSymUnmanagedReader | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "GetSymUnmanagedReader"
   - "IDebugSymbolProviderDirect::GetSymUnmanagedReader"
 ms.assetid: 147bacfa-f66c-43e0-8a72-e601058dc57f
-caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

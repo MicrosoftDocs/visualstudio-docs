@@ -1,13 +1,13 @@
 ---
-title: "Install test agents and test controllers for Visual Studio | Microsoft Docs"
+title: "Install test agents and test controllers for Visual Studio"
 ms.date: 03/02/2018
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: conceptual
 helpviewer_keywords:
   - "configure test agents, test lab"
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ---

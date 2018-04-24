@@ -2,12 +2,8 @@
 title: "How to: Specify Debugger Settings | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
   - "VB"
@@ -20,10 +16,9 @@ helpviewer_keywords:
   - "debugging [Visual Studio], debugger settings"
   - "options, debugging"
 ms.assetid: ea172841-7fef-47bf-bd02-e7da4c3c7109
-caps.latest.revision: 23
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

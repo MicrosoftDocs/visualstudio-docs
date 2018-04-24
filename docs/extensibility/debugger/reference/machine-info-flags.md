@@ -2,21 +2,17 @@
 title: "MACHINE_INFO_FLAGS | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "MACHINE_INFO_FLAGS"
 helpviewer_keywords: 
   - "MACHINE_INFO_FLAGS enumeration"
 ms.assetid: 1482095d-9a2e-4ef1-9e14-362c0b85194e
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

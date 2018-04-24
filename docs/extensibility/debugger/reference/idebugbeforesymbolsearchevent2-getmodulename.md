@@ -2,20 +2,16 @@
 title: "IDebugBeforeSymbolSearchEvent2::GetModuleName | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "GetModuleName"
   - "IDebugBeforeSymbolSearchEvent2::GetModuleName"
 ms.assetid: 0b4abeac-2eaf-4b2e-a2d5-c9ec303bc869
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

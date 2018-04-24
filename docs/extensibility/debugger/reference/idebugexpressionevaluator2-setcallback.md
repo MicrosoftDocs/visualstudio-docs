@@ -2,20 +2,16 @@
 title: "IDebugExpressionEvaluator2::SetCallback | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugExpressionEvaluator2::SetCallback"
   - "SetCallback"
 ms.assetid: 31e3a99e-e784-44a3-8b19-cc5ef31ed546
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

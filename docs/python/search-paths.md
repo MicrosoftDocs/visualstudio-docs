@@ -1,21 +1,16 @@
 ---
-title: How Python search paths are applied | Microsoft Docs
+title: How Python search paths are applied
 description: An overview of how Visual Studio uses Python search paths in both environments and projects.
-ms.custom: ""
 ms.date: 03/05/2018
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "devlang-python"
-ms.devlang: python
-ms.tgt_pltfrm: ""
-ms.topic: "conceptual"
-author: "kraigb"
-ms.author: "kraigb"
-manager: ghogen
+ms.prod: visual-studio-dev15
+ms.technology: vs-python
+ms.topic: conceptual
+author: kraigb
+ms.author: kraigb
+manager: douge
 ms.workload:
-  - "python"
-  - "data-science"
+  - python
+  - data-science
 ---
 
 # How Visual Studio uses Python search paths

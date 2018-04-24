@@ -2,21 +2,17 @@
 title: "Getting Local Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "expression evaluation, getting local properties"
   - "debugging [Debugging SDK], local properties"
   - "expression evaluation, local properties"
 ms.assetid: 6c3a79e8-1ba1-4863-97c3-0216c3d9f092
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

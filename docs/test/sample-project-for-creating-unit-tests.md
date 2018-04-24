@@ -1,14 +1,14 @@
 ---
-title: "Sample Project for Creating Unit Tests in Visual Studio | Microsoft Docs"
-ms.date: "11/04/2016"
+title: "Sample Project for Creating Unit Tests in Visual Studio"
+ms.date: 11/04/2016
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: sample
 helpviewer_keywords: 
   - "unit test sample [Visual Studio]"
   - "unit tests, samples"
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -1,24 +1,27 @@
 ---
-title: "How to: Create a Declarative Rule Condition (Legacy) | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
-helpviewer_keywords: 
+title: "Workflow Designer - How to: Create a Declarative Rule Condition (Legacy)"
+ms.date: 11/04/2016
+ms.topic: conceptual
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
+helpviewer_keywords:
   - "declarative rule conditions"
   - "condition statements, declarative rule conditions"
   - "Rule Condition Editor dialog box"
 ms.assetid: 804b6129-c433-408f-a424-46987967730c
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # How to: Create a Declarative Rule Condition (Legacy)
-This topic describes how to declare a rule condition using the legacy Windows Workflow Designer that targets the [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] or the [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)].
 
- A condition statement evaluates to **True** or **False**. A declarative rule condition is a condition statement that is created by using the [Rule Condition Editor Dialog Box (Legacy)](../workflow-designer/rule-condition-editor-dialog-box-legacy.md) and stored as XML with the workflow. It can include predicates that compare workflow state and Boolean algebra that combines multiple predicates.
+This topic describes how to declare a rule condition using the legacy Windows Workflow Designer that targets the .NET Framework version 3.5 or the WinFX.
 
- Declarative rule conditions are used in the following Windows Workflow Foundation out-of-box activities:
+A condition statement evaluates to **True** or **False**. A declarative rule condition is a condition statement that is created by using the [Rule Condition Editor Dialog Box (Legacy)](../workflow-designer/rule-condition-editor-dialog-box-legacy.md) and stored as XML with the workflow. It can include predicates that compare workflow state and Boolean algebra that combines multiple predicates.
+
+Declarative rule conditions are used in the following Windows Workflow Foundation out-of-box activities:
 
 -   [ConditionedActivityGroup](http://go.microsoft.com/fwlink?LinkID=65017)
 
@@ -32,7 +35,7 @@ This topic describes how to declare a rule condition using the legacy Windows Wo
 
 -   [StateMachineWorkflowActivity](http://go.microsoft.com/fwlink?LinkID=65045)
 
-### To create a declarative rule condition using the Rule Condition Editor
+## To create a declarative rule condition using the Rule Condition Editor
 
 1.  In the activity's **Properties** window, click the **Condition** property or **UntilCondition** property, depending on the activity.
 

@@ -1,5 +1,5 @@
 ---
-title: "Using Regular Expressions in Visual Studio | Microsoft Docs"
+title: Using Regular Expressions in Visual Studio
 ms.date: 03/26/2018
 ms.technology: vs-ide-general
 ms.topic: conceptual
@@ -12,9 +12,9 @@ f1_keywords:
 helpviewer_keywords:
   - "regular expressions [Visual Studio]"
   - "regular expressions"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: gewarren
+ms.author: gewarren
+manager: douge
 ms.workload:
   - "multiple"
 ---
@@ -68,4 +68,4 @@ Here are some examples:
 
 ## See also
 
-[Finding and Replacing Text](../ide/finding-and-replacing-text.md)
+- [Finding and Replacing Text](../ide/finding-and-replacing-text.md)

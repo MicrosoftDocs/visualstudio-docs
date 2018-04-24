@@ -2,12 +2,8 @@
 title: "VSInstr | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "performance tools, instrumentation"
   - "instrumentation, VSInstr tool"
@@ -18,10 +14,9 @@ helpviewer_keywords:
   - "VSInstr tool"
   - "performance tools, VSInstr tool"
 ms.assetid: 7b1334f7-f9b0-4a82-a145-d0607bfa8467
-caps.latest.revision: 44
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -1,14 +1,9 @@
 ---
-title: "Viewing code structure in Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
+title: Viewing code structure in Visual Studio
+ms.date: 11/04/2016
+ms.technology: vs-ide-general
+ms.topic: conceptual
+f1_keywords:
   - "vs.documentoutline.window"
   - "vs.objectbrowser"
   - "vs.classview"
@@ -16,7 +11,7 @@ f1_keywords:
   - "VS.CodeDefinitionWindow"
   - "vs.componentpicker"
   - "vs.callbrowser"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "document outline window."
   - "Visual Studio, object browser"
   - "call hierarchy"
@@ -26,10 +21,10 @@ helpviewer_keywords:
   - "Visual Studio, call hierarchy window"
   - "class view"
   - "object browser"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # View the structure of code
@@ -219,4 +214,4 @@ You can use the **Document Outline** window in conjunction with designer views, 
 
 ## See also
 
-[Class View and Object Browser icons](../ide/class-view-and-object-browser-icons.md)
+- [Class View and Object Browser icons](../ide/class-view-and-object-browser-icons.md)

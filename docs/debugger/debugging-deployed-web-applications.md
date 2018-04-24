@@ -2,12 +2,8 @@
 title: "Debugging Deployed ASP.NET Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/30/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
   - "VB"
@@ -21,10 +17,9 @@ helpviewer_keywords:
   - "ASP.NET, debugging Web applications"
   - "XML Web services, debugging"
 ms.assetid: b938a91b-be96-416f-83bc-4177e7f3929a
-caps.latest.revision: 31
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "aspnet"
 ---

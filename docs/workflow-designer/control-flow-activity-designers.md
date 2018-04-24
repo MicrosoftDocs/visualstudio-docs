@@ -1,12 +1,14 @@
 ---
-title: "Control Flow Activity Designers | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: "Workflow Designer - Control Flow Activity Designers"
+ms.date: 11/04/2016
+ms.topic: reference
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
 ms.assetid: ba74af23-5398-4e62-bd90-c50612e3bfef
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # Control Flow Activity Designers
@@ -39,7 +41,7 @@ Windows Workflow Designer includes a number of system-provided activities that y
 
 ## Related Sections
 
-For other types of activity designers, see the following topics.
+For other types of activity designers, see the following topics:
 
  [Using the Activity Designers](../workflow-designer/using-the-activity-designers.md)
 

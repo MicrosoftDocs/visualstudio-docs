@@ -1,35 +1,38 @@
 ---
-title: "CancellationScope Activity Designer | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
-f1_keywords: 
+title: "Workflow Designer - CancellationScope Activity Designer"
+ms.date: 11/04/2016
+ms.topic: reference
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
+f1_keywords:
   - "System.Activities.Statements.CancellationScope.UI"
 ms.assetid: 2c85d663-b219-4142-9866-7693ffd46379
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # CancellationScope Activity Designer
+
 The **CancellationScope** activity designer is used to create and configure a <xref:System.Activities.Statements.CancellationScope> activity.
 
 ## The CancellationScope Activity
  The <xref:System.Activities.Statements.CancellationScope> activity allows you to specify an activity for execution and cancellation logic for that activity.
 
 ### Using the CancellationScope Activity Designer
- The **CancellationScope** activity designer can be found in the **Transaction** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab of the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] (Alternatively, select **Toolbar** from the **View** menu, or CTRL+ALT+X.)
+ The **CancellationScope** activity designer can be found in the **Transaction** category of **Toolbox**. To open **Toolbox**, select the **Toolbox** tab of the Workflow Designer. Alternatively, select **Toolbar** from the **View** menu, or press CTRL+ALT+X.
 
- The **CancellationScope** activity designer can be dragged from the **Toolbox** and dropped on to the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] surface wherever activities are usually placed, such as inside a <xref:System.Activities.Statements.Sequence>. This creates a <xref:System.Activities.Statements.CancellationScope> activity with a default <xref:System.Activities.Activity.DisplayName%2A> of CancellationScope. The <xref:System.Activities.Activity.DisplayName%2A> value can be edited in the header of the **CancellationScope** activity designer or in the **DisplayName** box of the property grid.
+ The **CancellationScope** activity designer can be dragged from **Toolbox** and dropped on to the Workflow Designer surface wherever activities are placed, such as inside a <xref:System.Activities.Statements.Sequence>. Dropping the **CancellationScope** activity designer creates a <xref:System.Activities.Statements.CancellationScope> activity with a default <xref:System.Activities.Activity.DisplayName%2A> of CancellationScope. Edit the <xref:System.Activities.Activity.DisplayName%2A> value in the header of the **CancellationScope** activity designer. You can also edit it in the **DisplayName** box of the property grid.
 
 ### The CancellationScope Properties
- The following table shows the <xref:System.Activities.Statements.CancellationScope> properties and describes how they are used in the designer. The <xref:System.Activities.Activity.DisplayName%2A> property can be edited in property grid but the other properties must be edited on [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] surface.
+ The following table shows the <xref:System.Activities.Statements.CancellationScope> properties and describes how they are used in the designer. The <xref:System.Activities.Activity.DisplayName%2A> property can be edited in property grid but the other properties must be edited on Workflow Designer surface.
 
 |Property Name|Required|Usage|
 |-------------------|--------------|-----------|
 |<xref:System.Activities.Activity.DisplayName%2A>|False|The optional friendly name of the <xref:System.Activities.Statements.CancellationScope> activity. The default is CancellationScope. Although the <xref:System.Activities.Activity.DisplayName%2A> value is not strictly required, it is a best practice to use one.|
-|<xref:System.Activities.Statements.CancellationScope.Body%2A>|True|Specifies the activity for which cancellation logic is provided. To add the <xref:System.Activities.Statements.CancellationScope.Body%2A> activity, drop an activity from the **Toolbox** into the **Body** box on the **CancellationScope** activity designer with hint text "Drop Activity Here".|
-|<xref:System.Activities.Statements.CancellationScope.CancellationHandler%2A>|True|Specifies the activity that is executed in the event of cancellation. To add the <xref:System.Activities.Statements.CancellationScope.CancellationHandler%2A> activity, drop an activity from the **Toolbox** into the **CancellationHandler** box on the **CancellationScope** activity designer with hint text "Drop Activity Here".|
+|<xref:System.Activities.Statements.CancellationScope.Body%2A>|True|Specifies the activity for which cancellation logic is provided. To add the <xref:System.Activities.Statements.CancellationScope.Body%2A> activity, drop an activity from **Toolbox** into the **Body** box on the **CancellationScope** activity designer. Add the hint text "Drop Activity Here".|
+|<xref:System.Activities.Statements.CancellationScope.CancellationHandler%2A>|True|Specifies the activity that is executed if there's a cancellation. To add the <xref:System.Activities.Statements.CancellationScope.CancellationHandler%2A> activity, drop an activity from **Toolbox** into the **CancellationHandler** box on the **CancellationScope** activity designer. Add the hint text "Drop Activity Here".|
 
 ## See also
 

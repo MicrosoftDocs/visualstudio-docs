@@ -2,21 +2,16 @@
 title: "DA0022: High rate of Gen 2 garbage collections | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.DA0022"
   - "vs.performance.rules.DA0022"
   - "vs.performance.22"
 ms.assetid: f871a547-0e6f-4b11-b2d7-174d30fc2ed8
-caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

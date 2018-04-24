@@ -1,19 +1,14 @@
 ---
 title: "Debug Azure services | Microsoft Docs"
 ms.date: "09/14/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "debugger"
 ms.assetid: 3d434de3-ee5f-419d-9a94-ac4ac02d635b
-caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "azure"
 ---

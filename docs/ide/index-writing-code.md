@@ -1,7 +1,7 @@
 ---
 layout: LandingPage
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 ms.topic: landing-page
 title: Write and Manage Code using Visual Studio | Microsoft Docs
 description: Learn how to use the code editor and other tools in Visual Studio to write, navigate, manage, and improve your code.

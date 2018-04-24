@@ -1,16 +1,11 @@
 ---
-title: "Visual C++ IntelliSense | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+title: Visual C++ IntelliSense
+ms.date: 11/04/2016
+ms.technology: vs-ide-general
+ms.topic: conceptual
+author: gewarren
+ms.author: gewarren
+manager: douge
 ms.workload:
   - "cplusplus"
 ---
@@ -102,4 +97,4 @@ By default, single file IntelliSense only uses standard include directories to f
 
 ## See also
 
-[Using IntelliSense](../ide/using-intellisense.md)
+- [Using IntelliSense](../ide/using-intellisense.md)

@@ -2,20 +2,16 @@
 title: "How to: Create an Atom Feed for a Private Gallery | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Atom feed, VSIX private galleries"
   - "VSIX private galleries, Atom feed"
 ms.assetid: 5897f538-9c41-486f-97d9-a1976d20d9fd
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

@@ -1,13 +1,13 @@
 ---
-title: "Code Generation in a Build Process in Visual Studio | Microsoft Docs"
+title: Code Generation in a Build Process in Visual Studio
 ms.date: 03/22/2018
-ms.topic: "article"
+ms.topic: conceptual
 helpviewer_keywords:
   - "text templates, build tasks"
   - "text templates, transforming by using msbuild"
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ms.technology: vs-ide-modeling

@@ -1,16 +1,16 @@
 ---
-title: "Application property page for UWP apps | Microsoft Docs"
-ms.date: "01/23/2018"
+title: Application property page for UWP apps
+ms.date: 01/23/2018
 ms.technology: vs-ide-general
-ms.topic: "article"
-f1_keywords: 
+ms.topic: reference
+f1_keywords:
   - AppPackage.Properties.Application"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Application page [UWP project]"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.workload:
   - "uwp"
 ---
 # Application property page (UWP projects)
@@ -43,5 +43,5 @@ For information about platform targeting in Visual Studio 2017, see [Platform ta
 
 ## See also
 
-[Create your first UWP app](/windows/uwp/get-started/your-first-app)  
-[Choose a UWP version](/windows/uwp/updates-and-versions/choose-a-uwp-version)
+- [Create your first UWP app](/windows/uwp/get-started/your-first-app)
+- [Choose a UWP version](/windows/uwp/updates-and-versions/choose-a-uwp-version)

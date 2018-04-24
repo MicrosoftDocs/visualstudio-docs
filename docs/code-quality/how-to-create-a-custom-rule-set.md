@@ -1,5 +1,5 @@
 ---
-title: "Create a custom code analysis rule set in Visual Studio | Microsoft Docs"
+title: Create a custom code analysis rule set in Visual Studio
 ms.date: 04/04/2018
 ms.technology: vs-ide-code-analysis
 ms.topic: conceptual
@@ -7,9 +7,9 @@ f1_keywords:
   - "vs.codeanalysis.addremoverulesets"
 helpviewer_keywords:
   - "Development Edition, rule sets"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: gewarren
+ms.author: gewarren
+manager: douge
 ms.workload:
   - "multiple"
 ---

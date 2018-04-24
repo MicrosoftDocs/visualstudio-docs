@@ -1,20 +1,15 @@
 ---
-title: "Walkthrough: Creating a Multiple-Computer Build Environment | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
+title: "Walkthrough: Creating a Multiple-Computer Build Environment"
+ms.date: 11/04/2016
+ms.technology: vs-ide-general
+ms.topic: conceptual
+helpviewer_keywords:
   - "MSBuild, building on multiple computers"
   - "build environment, MSBuild"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # Walkthrough: Creating a Multiple-Computer Build Environment
@@ -413,5 +408,5 @@ You can create a build environment that can be deployed to various computers and
 
 ## See also
 
-[Preparing a Test Machine To Run a Debug Executable](/cpp/ide/preparing-a-test-machine-to-run-a-debug-executable)  
-[Command-Line Reference](../msbuild/msbuild-command-line-reference.md)
+- [Preparing a Test Machine To Run a Debug Executable](/cpp/ide/preparing-a-test-machine-to-run-a-debug-executable)
+- [Command-Line Reference](../msbuild/msbuild-command-line-reference.md)

@@ -28,10 +28,12 @@ If you have available licenses for Visual Studio subscriptions, you can assign t
 
     If your organization has a different email for receiving emails than the one to be used to sign in, you have the option for entering it here. Select the hyperlink that indicates “Different email for communication than sign-in?”. 
 
-    If you want this subscriber to have accees to software downloads when they sign into the [Visual Studio Subscriptions Portal](https:/my.visualstudio.com?wt.mc_id=o~msft~docs), make sure to leave the Downloads box checked. If you choose to uncheck this box, the user will not have access to software downloads, but will still have access to all other benefits included in the subscription. When you’re done, click **Add**.
+    **Access to Downloads:**  
+    If you want this subscriber to have accees to software downloads when they sign into the [Visual Studio Subscriptions Portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs), make sure to leave the Downloads box checked. If you choose to uncheck this box, the user will not have access to software downloads, but will still have access to all other benefits included in the subscription. 
+    
+    When you’re done choosing the options for this subscriber, click **Add**.
 
     ![Enter subscriber information](_img\assign-license-add\add-subscriber-1.png)
-
     ![Enter subscriber information](_img\assign-license-add\add-subscriber-2.png)
 
 4.	After adding the subscriber, an Assignment Email will be automatically sent to the new subscriber with further instructions. You can send the Assignment Email again at any time by selecting the subscriber and clicking the **Resend** button in the top menu.
@@ -52,7 +54,6 @@ If you have available licenses for Visual Studio subscriptions, you can assign t
     - Ensure that none of the form fields contain commas.
     - Remove spaces before and after form fields such as users’ names.
     - Make sure users’ names do not contain extra spaces between two-part first or last names (e.g. two-part first name such as “Maggie May” should not be typed as “Maggie  May” as the system will not trim the extra space)
-
     ![Bulk Add Template](_img\assign-license-add\bulk-template.png)
 
 4.	Return to the Visual Studio Subscriptions Administration portal and in the Upload Multiple Subscribers dialog box, click **Browse**. Navigate to the Excel file you saved and click **OK**. You will see the upload progress on the screen. 

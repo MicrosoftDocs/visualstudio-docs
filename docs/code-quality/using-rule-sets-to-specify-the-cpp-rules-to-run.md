@@ -1,16 +1,11 @@
 ---
-title: "Use Rule Sets to Specify the C++ Rules to Run | Microsoft Docs"
-ms.custom: ""
-ms.date: "04/20/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Using Rule Sets to Specify the C++ Rules to Run
+ms.date: 04/20/2018
+ms.technology: vs-ide-code-analysis
+ms.topic: "conceptual"
 author: mikeblome
 ms.author: mblome
-manager: ghogen
+manager: wpickett
 ms.workload:
   - "cplusplus"
 ---
@@ -84,12 +79,12 @@ You can create a custom rule set in a text editor, store it in any location with
 The following example shows a basic rule set file that you can use as a starting point:
 
 ```xml
- 
-<?xml version="1.0" encoding="utf-8"?> 
-<RuleSet Name="New Rule Set" Description=" " ToolsVersion="15.0"> 
-  <Rules AnalyzerId="Microsoft.Analyzers.NativeCodeAnalysis" RuleNamespace="Microsoft.Rules.Native"> 
-    <Rule Id="C6001" Action="Warning" /> 
-    <Rule Id="C26494" Action="Warning" /> 
-  </Rules> 
-</RuleSet> 
+
+<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="New Rule Set" Description=" " ToolsVersion="15.0">
+  <Rules AnalyzerId="Microsoft.Analyzers.NativeCodeAnalysis" RuleNamespace="Microsoft.Rules.Native">
+    <Rule Id="C6001" Action="Warning" />
+    <Rule Id="C26494" Action="Warning" />
+  </Rules>
+</RuleSet>
 ```

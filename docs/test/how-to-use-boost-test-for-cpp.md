@@ -1,11 +1,11 @@
 ---
-title: "How to use Boost.Test for C++ in Visual Studio | Microsoft Docs"
-ms.date: "01/29/2018"
+title: "How to use Boost.Test for C++ in Visual Studio"
+ms.date: 01/29/2018
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: conceptual
 author: mikeblome
 ms.author: mblome
-manager: ghogen
+manager: douge
 ms.workload: 
   - "cplusplus"
 ---

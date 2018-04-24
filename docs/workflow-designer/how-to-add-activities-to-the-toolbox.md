@@ -1,12 +1,14 @@
 ---
-title: "How to: Add Activities to the Toolbox | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: "Workflow Designer - How to: Add Activities to the Toolbox"
+ms.date: 11/04/2016
+ms.topic: conceptual
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
 ms.assetid: b3a8a785-5928-457a-8a50-30267e29503d
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # How to: Add Activities to the Toolbox
@@ -22,7 +24,7 @@ Activities can be added to the **Toolbox** in your solution in several different
 3.  Build the project. If the build was successful, a new category in the **Toolbox** named "\<*project name*>" with the custom activity included in that category is displayed.
 
     > [!NOTE]
-    > If the toolbox is reset, custom activities will be removed, even if the solution is built again. To repopulate the toolbox with custom activities after it has been reset, restart [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)].
+    > If the toolbox is reset, custom activities will be removed, even if the solution is built again. To repopulate the toolbox with custom activities after it has been reset, restart Visual Studio 2010.
 
     > [!NOTE]
     > The toolbox can only show one activity of a given name. If two activities from different assemblies have the same class name, only one will display.
