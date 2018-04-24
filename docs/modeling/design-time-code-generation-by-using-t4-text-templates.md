@@ -15,6 +15,7 @@ ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
 # Design-Time Code Generation by using T4 Text Templates
