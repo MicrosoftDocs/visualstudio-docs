@@ -1,6 +1,7 @@
 ---
 title: Visual C++ IntelliSense
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
 author: gewarren

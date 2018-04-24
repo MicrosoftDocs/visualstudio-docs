@@ -9,6 +9,7 @@ ms.assetid: b0b53fae-7007-4ad9-a604-21685937622f
 author: gewarren
 ms.author: gewarren
 manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # Create a Diagnostic Data Adapter to Collect Custom Data or Affect a Test Machine

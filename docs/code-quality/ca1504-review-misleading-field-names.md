@@ -1,6 +1,7 @@
 ---
 title: "CA1504: Review misleading field names"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:

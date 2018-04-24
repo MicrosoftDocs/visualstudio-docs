@@ -8,6 +8,7 @@ ms.assetid: 981b4f1e-505a-4078-a06d-58ae17d996b4
 author: gewarren
 ms.author: gewarren
 manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # How to: Analyze Errors Using the Counters Panel

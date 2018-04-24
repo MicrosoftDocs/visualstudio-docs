@@ -1,6 +1,7 @@
 ---
 title: "How to: Create or Update Standard Code Analysis Check-in Policies"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: "conceptual"
 f1_keywords:

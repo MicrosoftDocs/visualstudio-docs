@@ -10,6 +10,7 @@ ms.assetid: fec04f2e-bf38-4d44-b2ec-fa50f58fd0d9
 author: gewarren
 ms.author: gewarren
 manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # Edit Load Test Scenarios

@@ -11,6 +11,7 @@ ms.assetid: 63f4bd42-3cfb-4eee-af68-e8334976539e
 author: gewarren
 ms.author: gewarren
 manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # Analyzing Load Test Virtual User Activity in the Details View of the Load Test Analyzer

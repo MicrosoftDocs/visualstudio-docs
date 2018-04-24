@@ -1,6 +1,7 @@
 ---
 title: Work with multiple user accounts
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
 ms.topic: conceptual

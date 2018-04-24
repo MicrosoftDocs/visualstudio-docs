@@ -10,6 +10,7 @@ ms.assetid: e61c49f3-3161-45b1-9220-08b5459065a2
 author: gewarren
 ms.author: gewarren
 manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # How to: View Web Page Response Time in a Load Test Using the Load Test Analyzer

@@ -1,6 +1,7 @@
 ---
 title: "Visual Studio Test Explorer FAQ"
 ms.date: 1/15/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ms.topic: conceptual
 helpviewer_keywords:

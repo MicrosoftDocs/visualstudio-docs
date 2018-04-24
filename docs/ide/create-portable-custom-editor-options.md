@@ -7,6 +7,7 @@ helpviewer_keywords:
 author: gewarren
 ms.author: gewarren
 manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ---
 # Create portable, custom editor settings with EditorConfig

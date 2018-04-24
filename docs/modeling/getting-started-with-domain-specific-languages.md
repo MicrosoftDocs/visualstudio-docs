@@ -7,6 +7,7 @@ ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
 # Getting Started with Domain-Specific Languages

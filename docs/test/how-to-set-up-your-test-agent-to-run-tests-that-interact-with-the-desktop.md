@@ -8,6 +8,7 @@ ms.assetid: 3a94dd07-6d17-402c-ae8f-7947143755c9
 author: gewarren
 ms.author: gewarren
 manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # How to: Set Up Your Test Agent to Run Tests that Interact with the Desktop

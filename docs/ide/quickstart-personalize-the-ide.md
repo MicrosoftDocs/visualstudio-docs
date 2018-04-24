@@ -1,6 +1,7 @@
 ---
 title: Set color theme and fonts in Visual Studio
 ms.date: 11/20/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: quickstart
 author: gewarren

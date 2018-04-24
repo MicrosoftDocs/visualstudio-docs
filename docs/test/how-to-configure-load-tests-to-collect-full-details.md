@@ -9,6 +9,7 @@ ms.assetid: cb22e43b-af4d-4e09-9389-3c3fa00786f7
 author: gewarren
 ms.author: gewarren
 manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # How to: Configure Load Tests to Collect Full Details to Enable Virtual User Activity in Test Results

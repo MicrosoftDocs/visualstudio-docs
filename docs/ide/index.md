@@ -5,6 +5,7 @@ layout: LandingPage
 author: gewarren
 ms.author: gewarren
 ms.topic: landing-page
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.workload:
   - "multiple"

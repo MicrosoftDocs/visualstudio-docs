@@ -1,6 +1,7 @@
 ---
 title: Options, Text Editor, XAML, Formatting
 ms.date: 01/17/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
