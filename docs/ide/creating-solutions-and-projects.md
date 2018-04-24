@@ -1,24 +1,21 @@
 ---
-title: "Create solutions and projects in Visual Studio | Microsoft Docs"
-ms.custom: ""
+title: Create solutions and projects in Visual Studio
 ms.date: 02/06/2018
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-general
+ms.topic: conceptual
+f1_keywords:
   - "vs.openprojectfromweb"
   - "vs.newproject"
   - "VS.ToolsOptionsPages.Projects.General"
   - "SolutionItemsProject"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "solutions [Visual Studio], creating"
   - "projects [Visual Studio], creating"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # Create solutions and projects
@@ -27,7 +24,7 @@ ms.workload:
 
 ![Solution/project hierarchy](./media/vside-proj-soln.png)
 
-You can view your solutions and projects in a tool window called **Solution Explorer**. The following screenshot shows an example solution in Solution Explorer (BikeSharing.Xamarin-UWP) that contains two projects: BikeSharing.Clients.Core and BikeSharing.Clients.Windows. Each project contains multiple files, folders, and references. The project name in bold is the *startup project*; that is, the project that starts when you run the app. You can specify which project is the startup project.
+You can view your solutions and projects in a tool window called **Solution Explorer**. The following screenshot shows an example solution in **Solution Explorer** (**BikeSharing.Xamarin-UWP**) that contains two projects: **BikeSharing.Clients.Core** and **BikeSharing.Clients.Windows**. Each project contains multiple files, folders, and references. The project name in bold is the *startup project*; that is, the project that starts when you run the app. You can specify which project is the startup project.
 
 ![Solution Explorer with projects](./media/vside-solution-explorer-projects.png)
 
@@ -40,7 +37,7 @@ That being said, solutions and projects are not required to develop apps in Visu
 
 ## To create a project from a project template
 
-1. There are multiple ways to create a new project in Visual Studio. On the Start Page, enter the name of a project template in the **Search project templates** box, or choose the **Create new project** link to open the **New Project** dialog box. You can also choose **File** > **New** > **Project...** on the menu bar, or choose the **New Project** button on the toolbar.
+1. There are multiple ways to create a new project in Visual Studio. On the **Start Page**, enter the name of a project template in the **Search project templates** box, or choose the **Create new project** link to open the **New Project** dialog box. You can also choose **File** > **New** > **Project...** on the menu bar, or choose the **New Project** button on the toolbar.
 
   ![Start page](./media/vside-newproject1.png)
 
@@ -63,7 +60,7 @@ That being said, solutions and projects are not required to develop apps in Visu
 
 1. Choose the **OK** button to create the solution and project.
 
-1. If you want to add an additional project to the solution, choose the solution node in Solution Explorer, and then on the menu bar, choose **Project** > **Add New Item**.
+1. If you want to add an additional project to the solution, choose the solution node in **Solution Explorer**, and then on the menu bar, choose **Project** > **Add New Item**.
 
 ## Create a project from existing code files
 
@@ -117,10 +114,10 @@ To create a temporary project, first go to **Tools** > **Options** > **Projects 
 
 ## Delete a solution, project, or item
 
-You can delete solutions and their contents permanently, but not by using the Visual Studio IDE. Deleting items within Visual Studio only removes them from the current solution or project. To permanently delete a solution or other component from your system, use File Explorer to delete the folder that contains the .sln and .suo solution files. However, before permanently deleting a solution, it's recommended that you back up any projects or files in case you need them again.
+You can delete solutions and their contents permanently, but not by using the Visual Studio IDE. Deleting items within Visual Studio only removes them from the current solution or project. To permanently delete a solution or other component from your system, use File Explorer to delete the folder that contains the *.sln* and *.suo* solution files. However, before permanently deleting a solution, it's recommended that you back up any projects or files in case you need them again.
 
 > [!NOTE]
-> The .suo file is a hidden file that is not displayed under the default File Explorer settings. To show hidden files, on the **View** menu in File Explorer, select the **Hidden Items** checkbox.
+> The *.suo* file is a hidden file that is not displayed under the default File Explorer settings. To show hidden files, on the **View** menu in File Explorer, select the **Hidden Items** checkbox.
 
 ### To permanently delete a solution
 
@@ -132,7 +129,7 @@ You can delete solutions and their contents permanently, but not by using the Vi
 
 ## See also
 
-[Solutions and projects](../ide/solutions-and-projects-in-visual-studio.md)  
-[Microsoft's open source repositories on GitHub](https://github.com/Microsoft)  
-[Visual Studio Samples](../ide/visual-studio-samples.md)  
-[Developer code samples](https://code.msdn.microsoft.com/)
+- [Solutions and projects](../ide/solutions-and-projects-in-visual-studio.md)
+- [Microsoft's open source repositories on GitHub](https://github.com/Microsoft)
+- [Visual Studio samples](../ide/visual-studio-samples.md)
+- [Developer code samples](https://code.msdn.microsoft.com/)

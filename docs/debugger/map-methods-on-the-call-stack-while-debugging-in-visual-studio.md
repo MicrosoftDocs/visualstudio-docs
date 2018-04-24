@@ -2,11 +2,7 @@
 title: "Create a visual map of the call stack | Microsoft Docs"
 ms.custom: ""
 ms.date: "05/18/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.progression.debugwithcodemaps"
@@ -30,10 +26,9 @@ helpviewer_keywords:
   - "debugging [Visual Studio], tracing the call stack visually"
   - "debugging [Visual Studio], visualizing the call stack"
 ms.assetid: d6a72e5e-f88d-46fc-94a3-1789d34805ef
-caps.latest.revision: 39
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "douge"
+manager: douge
 ms.workload: 
   - "multiple"
 ---

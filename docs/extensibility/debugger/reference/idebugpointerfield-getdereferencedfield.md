@@ -2,21 +2,17 @@
 title: "IDebugPointerField::GetDereferencedField | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugPointerField::GetDereferencedField"
 helpviewer_keywords: 
   - "IDebugPointerField::GetDereferencedField method"
 ms.assetid: 8de988ab-cd79-4287-be72-3c900f2fe407
-caps.latest.revision: 7
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

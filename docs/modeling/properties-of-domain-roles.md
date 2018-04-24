@@ -1,15 +1,13 @@
 ---
-title: "Properties of Domain Roles | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.topic: "article"
+title: Properties of Domain Roles
+ms.date: 11/04/2016
+ms.topic: reference
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
 # Properties of Domain Roles
@@ -37,7 +35,8 @@ The properties in the following table are associated with a domain role. For inf
 |Property Display Name|The name that is displayed in the generated designer for the generated role property.|The adjusted value of the Property Name property.|
 
 > [!NOTE]
->  The default value of a display name is based on the associated property value by inserting spaces before each upper-case character that is preceded by a lower-case character and that is not followed by another upper-case character.
+> The default value of a display name is based on the associated property value by inserting spaces before each upper-case character that is preceded by a lower-case character and that is not followed by another upper-case character.
 
 ## See Also
- [Properties of Domain Relationships](../modeling/properties-of-domain-relationships.md)
+
+- [Properties of Domain Relationships](../modeling/properties-of-domain-relationships.md)

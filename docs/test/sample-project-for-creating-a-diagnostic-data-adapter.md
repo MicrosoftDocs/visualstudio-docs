@@ -1,7 +1,7 @@
 ---
-title: "Sample Project for Creating a Diagnostic Data Adapter in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "article"
+title: "Sample Project for Creating a Diagnostic Data Adapter in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: sample
 helpviewer_keywords:
   - "Diagnostic Data Adapter [Visual Studio ALM]"
   - "samples. Diagnostic Data Adapter [Visual Studio ALM]"
@@ -9,7 +9,8 @@ helpviewer_keywords:
 ms.assetid: 548bdc5e-338f-4be7-a555-e6a2efb1df6b
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # Sample Project for Creating a Diagnostic Data Adapter

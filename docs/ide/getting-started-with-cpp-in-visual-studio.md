@@ -1,25 +1,27 @@
 ---
-title: "Get Started with C++ in Visual Studio | Microsoft Docs"
-ms.custom: "mvc"
-ms.date: "12/04/2017"
-ms.technology: "vs-acquisition"
-ms.tgt_pltfrm: ""
-ms.topic: "tutorial"
-author: "corob-msft"
-ms.author: "tglee"
-manager: ghogen
+title: "Get started with C++ in Visual Studio"
+description: ""
+ms.custom: mvc
+ms.date: 12/04/2017
+ms.prod: visual-studio-dev15
+ms.technology: vs-acquisition
+ms.prod: visual-studio-dev15
+ms.topic: tutorial
+author: corob-msft
+ms.author: tglee
+manager: douge
 dev_langs:
   - "CPP"
 ms.workload:
   - "cplusplus"
 ---
-# Get Started with C++ in Visual Studio
+# Get started with C++ in Visual Studio
 
 Complete this quickstart to become familiar with many of the tools and dialog boxes that you can use when you develop applications in C++ with Visual Studio. Create a "Hello, World"-style console application while you learn more about working in the integrated development environment (IDE).
 
 ## Prerequisites
 
-You don't need to be familiar with C++ to complete this quickstart, but you should be familiar with some general programming and debugging concepts. The Visual Studio documentation doesn't teach you how to program in C++. A good guide to C++ learning resources is the [Get Started](https://isocpp.org/get-started) page on the ISO C++ website.
+You don't need to be familiar with C++ to complete this quickstart, but you should be familiar with some general programming and debugging concepts. The Visual Studio documentation doesn't teach you how to program in C++. A good guide to C++ learning resources is the [Get started](https://isocpp.org/get-started) page on the ISO C++ website.
 
 To follow along, you need a copy of Visual Studio 2017 version 15.3 or later, with the **Desktop development with C++** workload installed. For a fast guide to installation, see [Install C++ support in Visual Studio](/cpp/build/vscpp-step-0-installation).
 
@@ -47,7 +49,7 @@ Visual Studio uses *projects* to organize the code for an app, and *solutions* t
 
 1. Choose the **OK** button to create your app project and solution.
 
-   The HelloApp project and solution, with the basic files for a Windows console app, are created and automatically loaded into **Solution Explorer**. The HelloApp.cpp file is opened in the code editor. These items appear in **Solution Explorer**:
+   The HelloApp project and solution, with the basic files for a Windows console app, are created and automatically loaded into **Solution Explorer**. The *HelloApp.cpp* file is opened in the code editor. These items appear in **Solution Explorer**:
 
    ![Files for the solution in Solution Explorer](../ide/media/get-started-cpp-solution-explorer.png "Files for the solution in Solution Explorer")
 
@@ -57,7 +59,7 @@ Next, add code to display the word "Hello" in the console window.
 
 ### To edit code in the editor
 
-1. In the HelloApp.cpp file, enter a blank line before the line `return 0;` and then enter this code:
+1. In the *HelloApp.cpp* file, enter a blank line before the line `return 0;` and then enter this code:
 
    ```cpp
    cout << "Hello\n";
@@ -71,16 +73,16 @@ Next, add code to display the word "Hello" in the console window.
 
    ![Error in Error List window](../ide/media/get-started-cpp-error-list.png "Error in Error List window")
 
-   Your code is missing a declaration for [std::cout](/cpp/standard-library/iostream), which is found in the \<iostream> header file.
+   Your code is missing a declaration for [std::cout](/cpp/standard-library/iostream), which is found in the *\<iostream>* header file.
 
-1. To include the iostream header, enter this code after `#include "stdafx.h"`:
+1. To include the *iostream* header, enter this code after `#include "stdafx.h"`:
 
    ```cpp
    #include <iostream>
    using namespace std;
    ```
 
-   You probably noticed that a box appeared as you entered code. This box contains auto-completion suggestions for the characters that you enter. It's part of C++ IntelliSense, which provides coding prompts, including class or interface members and parameter information. You can also use code snippets, which are pre-defined blocks of code. For more information, see [Using IntelliSense](../ide/using-intellisense.md) and [Code Snippets](../ide/code-snippets.md).
+   You probably noticed that a box appeared as you entered code. This box contains auto-completion suggestions for the characters that you enter. It's part of C++ IntelliSense, which provides coding prompts, including class or interface members and parameter information. You can also use code snippets, which are pre-defined blocks of code. For more information, see [Using IntelliSense](../ide/using-intellisense.md) and [Code snippets](../ide/code-snippets.md).
 
    ![The fixed code in the editor](../ide/media/get-started-cpp-cout-fix.png "The fixed code in the editor")
 
@@ -100,11 +102,11 @@ You can debug HelloApp to see whether the word "Hello" appears in the console wi
 
 ### To debug the app
 
-1. To start the debugger, choose **Debug > Start Debugging** on the menu bar.
+To start the debugger, choose **Debug > Start Debugging** on the menu bar.
 
-   ![Start Debugging command on the Debug menu](../ide/media/get-started-cpp-start-debugging-menu.png "Start Debugging command on the Debug menu")
+![Start Debugging command on the Debug menu](../ide/media/get-started-cpp-start-debugging-menu.png "Start Debugging command on the Debug menu")
 
-   The debugger starts and runs the code. The console window (a separate window that looks like a command prompt) appears for a few seconds but closes quickly when the debugger stops running. To see the text, you need to set a breakpoint to stop program execution.
+The debugger starts and runs the code. The console window (a separate window that looks like a command prompt) appears for a few seconds but closes quickly when the debugger stops running. To see the text, you need to set a breakpoint to stop program execution.
 
 ### To add a breakpoint
 
@@ -124,7 +126,7 @@ You can debug HelloApp to see whether the word "Hello" appears in the console wi
 
 1. To stop debugging, press **Shift+F5**.
 
-For more information about console project debugging, see [Console Projects](../debugger/debugging-preparation-console-projects.md).
+For more information about console project debugging, see [Console projects](../debugger/debugging-preparation-console-projects.md).
 
 ## Build a release version of the app
 
@@ -144,12 +146,12 @@ Now that you've verified that everything works, you can prepare a release build 
 
 When this build completes, you've created an app that you can copy and run in any command prompt window. It may not do much, but it's the gateway to greater things.
 
-Congratulations on completing this quickstart! If you want to explore more examples, see [Visual Studio Samples](../ide/visual-studio-samples.md).
+Congratulations on completing this quickstart! If you want to explore more examples, see [Visual Studio samples](../ide/visual-studio-samples.md).
 
 ## See also
 
-[Using the Visual Studio IDE for C++ Desktop Development](/cpp/ide/using-the-visual-studio-ide-for-cpp-desktop-development)  
-[Walkthrough: Create a Simple Application with C# or Visual Basic](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md)  
-[Productivity Tips for Visual Studio](../ide/productivity-tips-for-visual-studio.md)  
-[Visual Studio Samples](../ide/visual-studio-samples.md)  
-[Get Started Developing with Visual Studio](../ide/get-started-developing-with-visual-studio.md)
+- [Using the Visual Studio IDE for C++ desktop development](/cpp/ide/using-the-visual-studio-ide-for-cpp-desktop-development)
+- [Walkthrough: Create a simple application with C# or Visual Basic](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md)
+- [Productivity tips for Visual Studio](../ide/productivity-tips-for-visual-studio.md)
+- [Visual Studio samples](../ide/visual-studio-samples.md)
+- [Get started developing with Visual Studio](../ide/get-started-developing-with-visual-studio.md)

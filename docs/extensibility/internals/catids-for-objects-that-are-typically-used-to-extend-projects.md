@@ -2,21 +2,17 @@
 title: "CATIDs for Objects That Are Typically Used to Extend Projects | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "VSPackages, CATIDs"
   - "GUIDs, VSPackages"
   - "CATIDs for VSPackages"
 ms.assetid: 0c7fdb66-ed96-4b36-89f6-021bca573572
-caps.latest.revision: 16
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

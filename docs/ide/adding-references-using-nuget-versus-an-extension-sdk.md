@@ -1,18 +1,13 @@
 ---
-title: "Adding References Using NuGet Versus an Extension SDK | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-caps.latest.revision: 21
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+title: Adding References Using NuGet Versus an Extension SDK
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-general
+ms.topic: conceptual
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # Adding references using NuGet versus an extension SDK
@@ -68,4 +63,4 @@ The following table helps you compare the referencing features of an SDK with th
 
 ## See also
 
-[Managing references in a project](../ide/managing-references-in-a-project.md)
+- [Managing references in a project](../ide/managing-references-in-a-project.md)

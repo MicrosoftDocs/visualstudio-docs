@@ -1,21 +1,24 @@
 ---
-title: "How to: Add Activities to the Toolbox (Legacy) | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
-helpviewer_keywords: 
+title: "Workflow Designer - How to: Add Activities to the Toolbox (Legacy)"
+ms.date: 11/04/2016
+ms.topic: conceptual
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
+helpviewer_keywords:
   - "Toolbox, adding activities"
   - "activities, adding to Toolbox"
 ms.assetid: b66ea29c-120b-40ba-8a61-c1c8240850fa
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # How to: Add Activities to the Toolbox (Legacy)
-When building a workflow solution with the legacy Windows Workflow Designer that targets the [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] or the [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)], custom activities can be added to the workflow project and their designers placed in the **Toolbox** for easy access. You can also add activities directly to the **Toolbox** from a dynamic-link library (DLL).
 
-### To add an activity to the Toolbox from a DLL
+When building a workflow solution with the legacy Windows Workflow Designer that targets the .NET Framework version 3.5 or the WinFX, custom activities can be added to the workflow project and their designers placed in the **Toolbox** for easy access. You can also add activities directly to the **Toolbox** from a dynamic-link library (DLL).
+
+## To add an activity to the Toolbox from a DLL
 
 1.  Right-click the Toolbox window surface under **Windows Workflow**, and then click **Choose Items**.
 

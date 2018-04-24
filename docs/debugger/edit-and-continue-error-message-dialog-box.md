@@ -2,11 +2,7 @@
 title: "Edit and Continue Error Message Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/22/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
+ms.technology: "vs-ide-debug"
 ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.ENC.SupportedButNotAvaiable"
@@ -19,10 +15,9 @@ dev_langs:
 helpviewer_keywords: 
   - "Edit and Continue Error Message dialog box"
 ms.assetid: f98c91c0-447a-4533-85b6-87170a0dc4c3
-caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

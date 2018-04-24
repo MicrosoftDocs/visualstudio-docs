@@ -1,23 +1,20 @@
 ---
-title: "Error: The target process exited while evaluating the function &#39;function&#39; | Microsoft Docs"
+title: "Error: The target process exited with code &#39;code&#39; while evaluating the function &#39;function&#39; | Microsoft Docs"
 ms.custom: ""
 ms.date: "4/06/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "reference"
+ms.topic: "troubleshooting"
 f1_keywords: 
-  - "vs.debug.error.process_exit_func_eval_abort"
-ms.technology: vs-ide-debug
+  - "vs.debug.error.process_exit_during_func_eval"
+ms.technology: "vs-ide-debug"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Error: The target process exited while evaluating the function &#39;function&#39;
+# Error: The target process exited with code &#39;code&#39; while evaluating the function &#39;function&#39;
 
-Full message text: The target process exited while evaluating the function 'function'. See the Output window for the target process' exit code.
+Full message text: The target process exited with code 'code' while evaluating the function 'function'.
 
 To make it easier to inspect the state of .NET objects, the debugger will automatically force the debugged process to run additional code (typically property getter methods and `ToString` functions). In most scenarios, these functions complete successfully or throw exceptions that can be caught by the debugger. However, there are some circumstances in which exceptions cannot be caught because they cross kernel boundaries, require user message pumping, or are unrecoverable. As a result, a property getter or ToString method that executes code that either explicitly terminates the process (for example, calls `ExitProcess()`) or throws an unhandled exception that cannot be caught (for example, `StackOverflowException`) will terminate the debugged process and end the debug session. If you encounter this error message, this has occurred.
  

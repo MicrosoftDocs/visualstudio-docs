@@ -1,17 +1,19 @@
 ---
-title: "Primitives Activity Designers | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: "Workflow Designer - Primitives Activity Designers"
+ms.date: 11/04/2016
+ms.topic: reference
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
 ms.assetid: 0a2b613e-dc04-49a1-a787-caec2ec63b90
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # Primitives Activity Designers
 
-Primitives activity designers are used to create and configure various activities in the <xref:System.Activities.Statements> namespace such as Assign and Delay. The topics contained in this section provide guidance on how to use the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] activity and template designers.
+Primitives activity designers are used to create and configure various activities in the <xref:System.Activities.Statements> namespace such as Assign and Delay. The topics contained in this section provide guidance on how to use the Workflow Designer activity and template designers.
 
 ## Related Sections
  [Control Flow](../workflow-designer/control-flow-activity-designers.md)

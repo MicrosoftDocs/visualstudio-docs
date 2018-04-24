@@ -2,11 +2,9 @@
 title: "Quickstart: Create your first Universal Windows Platform application in Visual Studio with XAML and C# | Microsoft Docs"
 ms.custom: ""
 ms.date: "04/04/2018"
-ms.reviewer: ""
-ms.suite: ""
+ms.prod: visual-studio-dev15
 ms.technology:
   - "vs-acquisition"
-ms.tgt_pltfrm: ""
 ms.topic: "quickstart"
 ms.devlang: "CSharp"
 author: "TerryGLee"
@@ -29,7 +27,7 @@ First, create a Universal Windows Platform project. The project type comes with 
 
 1. Open Visual Studio 2017.
 
-2. From the top menu bar, choose **File** > **New** > **Project...**.
+2. From the top menu bar, choose **File** > **New** > **Project**.
 
 3. In the left pane of the **New Project** dialog box, expand **Visual C#**, and then choose **Windows Universal**. In the middle pane, choose **Blank App (Universal Windows)**. Then, name the project *HelloWorld* and choose **OK**.
 
@@ -52,7 +50,7 @@ It's time to start developing. You'll add a button control, add an action to the
 
 ### Add a button to the Design canvas
 
-1. In the **Solution Explorer**, double-click **MainPage.xaml** to open a split view.
+1. In the **Solution Explorer**, double-click *MainPage.xaml* to open a split view.
 
   ![Open MainPage.xaml from the Solution Explorer ](../ide/media/uwp-solution-explorer-MainPage-xaml.png)
 
@@ -64,7 +62,7 @@ It's time to start developing. You'll add a button control, add an action to the
 
   ![Click Toolbox to open the Toolbox fly-out window](../ide/media/uwp-toolbox.png)
 
-  (If you don't see the Toolbox option, you can open it from the menu bar. To do so, choose **View** > **Toolbar**. Or, press **Ctrl**+**Alt**+**X**.)
+  (If you don't see the **Toolbox** option, you can open it from the menu bar. To do so, choose **View** > **Toolbar**. Or, press **Ctrl**+**Alt**+**X**.)
 
 3. Click the **Pin** icon to dock the Toolbox window.
 
@@ -74,27 +72,27 @@ It's time to start developing. You'll add a button control, add an action to the
 
    ![Click the Button control and drag it onto the Design canvas](../ide/media/uwp-toolbox-add-button-control.png)
 
-  If you look at the code in the XAML Editor, you'll see that the Button has been added there, too:
+  If you look at the code in the **XAML Editor**, you'll see that the Button has been added there, too:
 
   ![Click the Button control and drag it onto the Design canvas](../ide/media/uwp-xaml-control-code-window.png)
 
 ### Add a label to the button
 
-1. In the XAML Editor, change Button Content value from "Button" to "Hello World!"
+1. In the **XAML Editor**, change Button Content value from "Button" to "Hello World!"
 
    ![Change the Button content value to Hello World](../ide/media/uwp-change-button-text-in-xaml-code-window.png)
 
-2. Notice that the button in the XAML Designer changes, too.
+2. Notice that the button in the **XAML Designer** changes, too.
 
    ![The button changes to Hello World on the design canvas](../ide/media/uwp-button-text-change-in-design-canvas.png)
 
-### Add an Event Handler
+### Add an event handler
 
 An "event handler" sounds complicated, but it's just another name for code that is called when an event happens. In this case, it adds an action to the "Hello World!" button.
 
 1. Double-click the button control on the design canvas.
 
-2.  Edit the event handler code in *MainPage.xaml.cs*, the code-behind page.
+2. Edit the event handler code in *MainPage.xaml.cs*, the code-behind page.
 
  This is where things get interesting. The default event handler looks like this:
 
@@ -119,7 +117,7 @@ An "event handler" sounds complicated, but it's just another name for code that 
 
 #### What did we just do?
 
-The code uses some Windows APIs to create a speech synthesis object and then gives it some text to say. (For more information on using SpeechSynthesis, see  <xref:System.Speech.Synthesis>.)
+The code uses some Windows APIs to create a speech synthesis object and then gives it some text to say. (For more information on using `SpeechSynthesis`, see  <xref:System.Speech.Synthesis>.)
 
 ## Run the application
 

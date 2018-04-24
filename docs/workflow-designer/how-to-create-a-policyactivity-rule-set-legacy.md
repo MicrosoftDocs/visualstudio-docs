@@ -1,8 +1,10 @@
 ---
-title: "How to: Create a PolicyActivity Rule Set (Legacy) | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
-helpviewer_keywords: 
+title: "Workflow Designer - How to: Create a PolicyActivity Rule Set (Legacy)"
+ms.date: 11/04/2016
+ms.topic: conceptual
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
+helpviewer_keywords:
   - "PolicyActivity activity, creating rule sets"
   - "Rule Set Editor dialog box"
   - "PolicyActivity activity, selecting rule sets"
@@ -11,20 +13,20 @@ helpviewer_keywords:
 ms.assetid: f272489d-3342-4511-8b59-6a0fd7a42d70
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # How to: Create a PolicyActivity Rule Set (Legacy)
 
-This topic describes how to create a policy activity rule set using the legacy Windows Workflow Designer that targets the [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] or the [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)].
+This topic describes how to create a policy activity rule set using the legacy Windows Workflow Designer that targets the .NET Framework version 3.5 or the WinFX.
 
  After you have dragged a **Policy** activity item from the **Toolbox** to the workflow design surface, you will want to select an existing rule or create a new rule set for the [PolicyActivity](http://go.microsoft.com/fwlink?LinkID=65019) activity. You select an existing rule set by using the [Select Rule Set Dialog Box (Legacy)](../workflow-designer/select-rule-set-dialog-box-legacy.md) and you create rule sets by using the [Rule Set Editor Dialog Box (Legacy)](../workflow-designer/rule-set-editor-dialog-box-legacy.md).
 
 > [!NOTE]
 > You can open the [Rule Set Editor Dialog Box (Legacy)](../workflow-designer/rule-set-editor-dialog-box-legacy.md) dialog box directly by double-clicking on a [PolicyActivity](http://go.microsoft.com/fwlink?LinkID=65019) activity that is on the workflow design surface.
 
-### To select or create a rule set for a PolicyActivity activity
+## To select or create a rule set for a PolicyActivity activity
 
 1.  Right-click the [PolicyActivity](http://go.microsoft.com/fwlink?LinkID=65019), and then click **Properties** to open the **Properties** window.
 

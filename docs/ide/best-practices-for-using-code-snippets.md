@@ -1,19 +1,16 @@
 ---
-title: "Best Practices for Using Code Snippets | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
+title: Best Practices for Using Code Snippets
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
+ms.topic: conceptual
+helpviewer_keywords:
   - "code snippets, best practices"
   - "code snippets, security"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # Best practices for using code snippets
@@ -68,6 +65,6 @@ IntelliSense code snippets installed by Visual Studio are not in themselves a se
 
 ## See also
 
-[Visual Basic IntelliSense code snippets](/dotnet/visual-basic/developing-apps/using-ide/intellisense-code-snippets)  
-[Securing applications](../ide/securing-applications.md)  
-[Code snippets](../ide/code-snippets.md)
+- [Visual Basic IntelliSense code snippets](/dotnet/visual-basic/developing-apps/using-ide/intellisense-code-snippets)
+- [Securing applications](../ide/securing-applications.md)
+- [Code snippets](../ide/code-snippets.md)

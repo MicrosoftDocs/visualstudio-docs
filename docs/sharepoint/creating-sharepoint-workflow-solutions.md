@@ -2,12 +2,9 @@
 title: "Creating SharePoint Workflow Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VSTO.NewSharePointWorkflowWizard.Page3"
   - "VS.SharePointTools.Workflow.WorkflowName"
@@ -23,7 +20,7 @@ helpviewer_keywords:
   - "workflows [SharePoint development in Visual Studio]"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

@@ -1,13 +1,14 @@
 ---
-title: "View Data and Diagnostic Attachments for load tests in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "article"
+title: "View Data and Diagnostic Attachments for load tests in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "load tests, data and diagnostics attachments"
 ms.assetid: 73309bdd-437a-4eb0-88c8-702c3e24b9b0
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # How to: View Data and Diagnostic Attachments Using the Load Test Analyzer

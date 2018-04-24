@@ -2,21 +2,17 @@
 title: "IDebugEnumField::GetValueFromStringCaseInsensitive | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugEnumField::GetValueFromStringCaseInsensitive"
 helpviewer_keywords: 
   - "IDebugEnumField::GetValueFromStringCaseInsensitive method"
 ms.assetid: ef95b38e-d9b2-4fb5-a166-7c2e14641dc7
-caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

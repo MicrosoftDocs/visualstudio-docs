@@ -1,18 +1,15 @@
 ---
-title: "Creating a UI by using Blend for Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "07/17/2017"
-ms.reviewer: ""
-ms.suite: ""
+title: Creating a UI by using Blend for Visual Studio
+ms.date: 07/17/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-designers
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
+ms.topic: conceptual
+f1_keywords:
   - "Blend.Start.Dev12"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # Creating a UI by using Blend for Visual Studio
@@ -116,7 +113,7 @@ Use this panel to view and modify the properties of an object. You can also set 
 
 ## See also
 
-[Insert controls and modify their behavior](../designers/insert-controls-and-modify-their-behavior-in-xaml-designer.md)  
-[Animate objects](../designers/animate-objects-in-xaml-designer.md)  
-[Draw shapes and paths](../designers/draw-shapes-and-paths.md)  
-[Designing XAML in Visual Studio and Blend for Visual Studio](../designers/designing-xaml-in-visual-studio.md)
+- [Insert controls and modify their behavior](../designers/insert-controls-and-modify-their-behavior-in-xaml-designer.md)
+- [Animate objects](../designers/animate-objects-in-xaml-designer.md)
+- [Draw shapes and paths](../designers/draw-shapes-and-paths.md)
+- [Designing XAML in Visual Studio and Blend for Visual Studio](../designers/designing-xaml-in-visual-studio.md)

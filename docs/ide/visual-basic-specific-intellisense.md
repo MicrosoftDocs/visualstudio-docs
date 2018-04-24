@@ -1,20 +1,16 @@
 ---
-title: "Visual Basic IntelliSense | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
+title: Visual Basic IntelliSense
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-general
+ms.topic: conceptual
+helpviewer_keywords:
   - "IntelliSense [Visual Basic]"
   - "IntelliSense [Visual Studio], Visual Basic"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # IntelliSense for Visual Basic code files
@@ -55,4 +51,4 @@ In Visual Basic, IntelliSense completion lists have two tab controls located nea
 
 ## See also
 
-[Using IntelliSense](../ide/using-intellisense.md)
+- [Using IntelliSense](../ide/using-intellisense.md)

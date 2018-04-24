@@ -1,6 +1,7 @@
 ---
-title: "CA1701: Resource string compound words should be cased correctly | Microsoft Docs"
+title: "CA1701: Resource string compound words should be cased correctly"
 ms.date: 03/28/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
@@ -10,9 +11,9 @@ helpviewer_keywords:
   - "CA1701"
   - "ResourceStringCompoundWordsShouldBeCasedCorrectly"
 ms.assetid: 4ddbe09f-24b8-4c47-9373-a06f4487ca0d
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: gewarren
+ms.author: gewarren
+manager: douge
 ms.workload:
   - "multiple"
 ---

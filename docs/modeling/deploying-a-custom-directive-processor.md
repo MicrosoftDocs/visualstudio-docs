@@ -1,201 +1,199 @@
 ---
-title: "Deploying a Custom Directive Processor | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.topic: "article"
-helpviewer_keywords: 
+title: Deploying a Custom Directive Processor
+ms.date: 11/04/2016
+ms.topic: conceptual
+helpviewer_keywords:
   - "text templates, custom directive processors"
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
 # Deploying a Custom Directive Processor
 
-To use a custom directive processor in Visual Studio on any computer, you must register it by one of the methods described in this topic.  
-  
-The alternative methods are:  
-  
--   [Visual Studio Extensions](../extensibility/shipping-visual-studio-extensions.md). This provides a way to install and uninstall the directive processor both on your own computer and on other computers. Typically, you might package other features in the same VSIX.  
-  
--   [VSPackage](../extensibility/internals/vspackages.md). If you are defining a VSPackage that contains other features in addition to the directive processor, there is a convenient method of registering the directive processor.  
-  
--   Set a registry key. In this method, you add a registry entry for the directive processor.  
-  
-You need to use one of these methods only if you want to transform your text template in Visual Studio or MSBuild. If you use a custom host in your own application, your custom host is responsible for finding the directive processors for each directive.  
-  
+To use a custom directive processor in Visual Studio on any computer, you must register it by one of the methods described in this topic.
+
+The alternative methods are:
+
+-   [Visual Studio Extensions](../extensibility/shipping-visual-studio-extensions.md). This provides a way to install and uninstall the directive processor both on your own computer and on other computers. Typically, you might package other features in the same VSIX.
+
+-   [VSPackage](../extensibility/internals/vspackages.md). If you are defining a VSPackage that contains other features in addition to the directive processor, there is a convenient method of registering the directive processor.
+
+-   Set a registry key. In this method, you add a registry entry for the directive processor.
+
+You need to use one of these methods only if you want to transform your text template in Visual Studio or MSBuild. If you use a custom host in your own application, your custom host is responsible for finding the directive processors for each directive.
+
 ## Deploying a Directive Processor in a VSIX
 
 You can add a custom directive processor to a [Visual Studio Extension (VSIX)](../extensibility/starting-to-develop-visual-studio-extensions.md).
-  
- You need to make sure that the following two items are contained in the .vsix file:  
-  
--   The assembly (.dll) that contains the custom directive processor class.  
-  
--   A .pkgdef file that registers the directive processor. The root name of the file must be the same as the assembly. For example, your files could be named CDP.dll and CDP.pkgdef.  
-  
-To inspect or change the content of a .vsix file, change its file name extension to .zip and then open it. After editing the contents, change the filename back to .vsix.  
 
-There are several ways of creating a .vsix file. The following procedure describes one method.  
+ You need to make sure that the following two items are contained in the .vsix file:
 
-#### To develop a custom directive processor in a VSIX project  
-  
-1.  Create a VSIX project in Visual Studio.  
-  
-    -   In the **New Project** dialog box, expand **Visual Basic** or **Visual C#**, then expand **Extensibility**. Click **VSIX Project**.  
-  
-2.  In **source.extension.vsixmanifest**, set the content type and supported editions.  
-  
-    1.  In the VSIX manifest editor, on the **Assets** tab, choose **New** and set the new item's properties:  
-  
-         **Content Type** = **VSPackage**  
-  
-         **Source Project** = \<*the current project*>  
-  
-    2.  Click **Selected Editions** and check the types of installation on which you want the directive processor to be usable.  
-  
-3.  Add a .pkgdef file and set its properties to be included in the VSIX.  
-  
-    1.  Create a text file and name it \<*assemblyName*>.pkgdef.  
-  
-         \<*assemblyName*> is usually the same as the name of the project.  
-  
-    2.  Select it in Solution Explorer and set its properties as follows:  
-  
-         **Build Action** = **Content**  
-  
-         **Copy to Output Directory** = **Copy Always**  
-  
-         **Include in VSIX** = **True**  
-  
-    3.  Set the name of the VSIX and make sure that the ID is unique.  
-  
-4.  Add the following text to the .pkgdef file.  
-  
-    ```  
-    [$RootKey$\TextTemplating]  
-    [$RootKey$\TextTemplating\DirectiveProcessors]  
-    [$RootKey$\TextTemplating\DirectiveProcessors\ CustomDirectiveProcessorName]  
-    @="Custom Directive Processor description"  
-    "Class"="NamespaceName.ClassName"  
-    "CodeBase"="$PackageFolder$\AssemblyName.dll"  
-    ```  
-  
-     Replace the following names with your own names: `CustomDirectiveProcessorName`, `NamespaceName`, `ClassName`, `AssemblyName`.  
-  
-5.  Add the following references to the project:  
-  
-    -   **Microsoft.VisualStudio.TextTemplating.\*.0**  
-  
-    -   **Microsoft.VisualStudio.TextTemplating.Interfaces.\*.0**  
-  
-    -   **Microsoft.VisualStudio.TextTemplating.VSHost.\*.0**  
-  
-6.  Add your custom directive processor class to the project.  
-  
-     This is a public class that should implement <xref:Microsoft.VisualStudio.TextTemplating.DirectiveProcessor> or <xref:Microsoft.VisualStudio.TextTemplating.RequiresProvidesDirectiveProcessor>.  
-  
-#### To install the Custom Directive Processor  
-  
-1.  In Windows Explorer, open the build directory (usually bin\Debug or bin\Release).  
-  
-2.  If you want to install the directive processor on another computer, copy the .vsix file to the other computer.  
-  
-3.  Double-click the .vsix file. The Visual Studio Extension Installer appears.  
-  
-4.  Restart Visual Studio. You will now be able to run text templates that contain directives that refer to the custom directive processor. Each directive is of this form:  
-  
-     `<#@ CustomDirective Processor="CustomDirectiveProcessorName" parameter1="value1" ... #>`  
-  
-#### To uninstall or temporarily disable the custom directive processor  
-  
-1.  In the Visual Studio **Tools** menu, click **Extension Manager**.  
-  
-2.  Select the VSIX that contains the directive processor, and then click **Uninstall** or **Disable**.  
-  
-### Troubleshooting a Directive Processor in a VSIX  
- If the directive processor does not work, the following suggestions might help:  
-  
--   The Processor name that you specify in the custom directive should match the `CustomDirectiveProcessorName` that you specified in the .pkgdef file.  
-  
--   Your `IsDirectiveSupported` method must return `true` when it is passed the name of your `CustomDirective`.  
-  
--   If you cannot see the extension in Extension Manager, but the system will not allow you to install it, delete the extension from **%localappdata%\Microsoft\VisualStudio\\\*.0\Extensions\\**.  
-  
--   Open the .vsix file and inspect its contents. To open it, change the filename extension to .zip. Verify that it contains the .dll, .pkgdef, and extension.vsixmanifest files. The extension.vsixmanifest file should contain the appropriate list in the SupportedProducts node, and should also contain a VsPackage node under the Content node:  
-  
-     `<Content>`  
-  
-     `<VsPackage>CustomDirectiveProcessor.dll</VsPackage>`  
-  
-     `</Content>`  
-  
-## Deploying a Directive Processor in a VSPackage  
- If your directive processor is part of a VSPackage that will be installed in the GAC, you can have the system generate the .pkgdef file for you.  
-  
- Place the following attribute on your package class:  
-  
-```  
-[ProvideDirectiveProcessor(typeof(DirectiveProcessorClass), "DirectiveProcessorName", "Directive processor description.")]  
-```  
-  
+-   The assembly (.dll) that contains the custom directive processor class.
+
+-   A .pkgdef file that registers the directive processor. The root name of the file must be the same as the assembly. For example, your files could be named CDP.dll and CDP.pkgdef.
+
+To inspect or change the content of a .vsix file, change its file name extension to .zip and then open it. After editing the contents, change the filename back to .vsix.
+
+There are several ways of creating a .vsix file. The following procedure describes one method.
+
+#### To develop a custom directive processor in a VSIX project
+
+1.  Create a VSIX project in Visual Studio.
+
+    -   In the **New Project** dialog box, expand **Visual Basic** or **Visual C#**, then expand **Extensibility**. Click **VSIX Project**.
+
+2.  In **source.extension.vsixmanifest**, set the content type and supported editions.
+
+    1.  In the VSIX manifest editor, on the **Assets** tab, choose **New** and set the new item's properties:
+
+         **Content Type** = **VSPackage**
+
+         **Source Project** = \<*the current project*>
+
+    2.  Click **Selected Editions** and check the types of installation on which you want the directive processor to be usable.
+
+3.  Add a .pkgdef file and set its properties to be included in the VSIX.
+
+    1.  Create a text file and name it \<*assemblyName*>.pkgdef.
+
+         \<*assemblyName*> is usually the same as the name of the project.
+
+    2.  Select it in Solution Explorer and set its properties as follows:
+
+         **Build Action** = **Content**
+
+         **Copy to Output Directory** = **Copy Always**
+
+         **Include in VSIX** = **True**
+
+    3.  Set the name of the VSIX and make sure that the ID is unique.
+
+4.  Add the following text to the .pkgdef file.
+
+    ```
+    [$RootKey$\TextTemplating]
+    [$RootKey$\TextTemplating\DirectiveProcessors]
+    [$RootKey$\TextTemplating\DirectiveProcessors\ CustomDirectiveProcessorName]
+    @="Custom Directive Processor description"
+    "Class"="NamespaceName.ClassName"
+    "CodeBase"="$PackageFolder$\AssemblyName.dll"
+    ```
+
+     Replace the following names with your own names: `CustomDirectiveProcessorName`, `NamespaceName`, `ClassName`, `AssemblyName`.
+
+5.  Add the following references to the project:
+
+    -   **Microsoft.VisualStudio.TextTemplating.\*.0**
+
+    -   **Microsoft.VisualStudio.TextTemplating.Interfaces.\*.0**
+
+    -   **Microsoft.VisualStudio.TextTemplating.VSHost.\*.0**
+
+6.  Add your custom directive processor class to the project.
+
+     This is a public class that should implement <xref:Microsoft.VisualStudio.TextTemplating.DirectiveProcessor> or <xref:Microsoft.VisualStudio.TextTemplating.RequiresProvidesDirectiveProcessor>.
+
+#### To install the Custom Directive Processor
+
+1.  In Windows Explorer, open the build directory (usually bin\Debug or bin\Release).
+
+2.  If you want to install the directive processor on another computer, copy the .vsix file to the other computer.
+
+3.  Double-click the .vsix file. The Visual Studio Extension Installer appears.
+
+4.  Restart Visual Studio. You will now be able to run text templates that contain directives that refer to the custom directive processor. Each directive is of this form:
+
+     `<#@ CustomDirective Processor="CustomDirectiveProcessorName" parameter1="value1" ... #>`
+
+#### To uninstall or temporarily disable the custom directive processor
+
+1.  In the Visual Studio **Tools** menu, click **Extension Manager**.
+
+2.  Select the VSIX that contains the directive processor, and then click **Uninstall** or **Disable**.
+
+### Troubleshooting a Directive Processor in a VSIX
+ If the directive processor does not work, the following suggestions might help:
+
+-   The Processor name that you specify in the custom directive should match the `CustomDirectiveProcessorName` that you specified in the .pkgdef file.
+
+-   Your `IsDirectiveSupported` method must return `true` when it is passed the name of your `CustomDirective`.
+
+-   If you cannot see the extension in Extension Manager, but the system will not allow you to install it, delete the extension from **%localappdata%\Microsoft\VisualStudio\\\*.0\Extensions\\**.
+
+-   Open the .vsix file and inspect its contents. To open it, change the filename extension to .zip. Verify that it contains the .dll, .pkgdef, and extension.vsixmanifest files. The extension.vsixmanifest file should contain the appropriate list in the SupportedProducts node, and should also contain a VsPackage node under the Content node:
+
+     `<Content>`
+
+     `<VsPackage>CustomDirectiveProcessor.dll</VsPackage>`
+
+     `</Content>`
+
+## Deploying a Directive Processor in a VSPackage
+ If your directive processor is part of a VSPackage that will be installed in the GAC, you can have the system generate the .pkgdef file for you.
+
+ Place the following attribute on your package class:
+
+```
+[ProvideDirectiveProcessor(typeof(DirectiveProcessorClass), "DirectiveProcessorName", "Directive processor description.")]
+```
+
 > [!NOTE]
->  This attribute is placed on the package class, not the directive processor class.  
-  
- The .pkgdef file will be generated when you build the project. When you install the VSPackage, the .pkgdef file will register the directive processor.  
-  
- Verify that the .pkgdef file appears in the build folder, which is usually bin\Debug or bin\Release. If it does not appear, open the .csproj file in a text editor, and remove the following node: `<GeneratePkgDefFile>false</GeneratePkgDefFile>`.  
-  
- For more information, see [VSPackages](../extensibility/internals/vspackages.md).  
-  
-## Setting a Registry Key  
- This method of installing a custom directive processor is the least preferred. It does not provide a convenient way enable and disable the directive processor, and does not provide a method of distributing the directive processor to other users.  
-  
+>  This attribute is placed on the package class, not the directive processor class.
+
+ The .pkgdef file will be generated when you build the project. When you install the VSPackage, the .pkgdef file will register the directive processor.
+
+ Verify that the .pkgdef file appears in the build folder, which is usually bin\Debug or bin\Release. If it does not appear, open the .csproj file in a text editor, and remove the following node: `<GeneratePkgDefFile>false</GeneratePkgDefFile>`.
+
+ For more information, see [VSPackages](../extensibility/internals/vspackages.md).
+
+## Setting a Registry Key
+ This method of installing a custom directive processor is the least preferred. It does not provide a convenient way enable and disable the directive processor, and does not provide a method of distributing the directive processor to other users.
+
 > [!CAUTION]
->  Incorrectly editing the registry can severely damage your system. Before making changes to the registry, be sure to back up any valued data on the computer.  
-  
-#### To register a directive processor by setting a registry key  
-  
-1.  Run `regedit`.  
-  
-2.  In regedit, navigate to  
-  
-     **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\\*.0\TextTemplating\DirectiveProcessors**  
-  
-     If you want to install the directive processor in the experimental version of Visual Studio, insert "Exp" after "11.0".  
-  
-3.  Add a registry key that has the same name as the directive processor class.  
-  
-    -   In the registry tree, right-click the **DirectiveProcessors** node, point to **New**, and then click **Key**.  
-  
-4.  In the new node, add string values for Class and CodeBase or Assembly, according to the following tables.  
-  
-    1.  Right-click the node that you created, point to **New**, and then click **String Value**.  
-  
-    2.  Edit the name of the value.  
-  
-    3.  Double-click the name and edit the data.  
-  
- If the custom directive processor is not in the GAC, the registry subkeys should look like the following table:  
-  
-|Name|Type|Data|  
-|----------|----------|----------|  
-|(Default)|REG_SZ|(value not set)|  
-|Class|REG_SZ|**\<Namespace Name>.\<Class Name>**|  
-|CodeBase|REG_SZ|**\<Your Path>\\<Your Assembly Name\>**|  
-  
- If the assembly is in the GAC, the registry subkeys should look like the following table:  
-  
-|Name|Type|Data|  
-|----------|----------|----------|  
-|(Default)|REG_SZ|(value not set)|  
-|Class|REG_SZ|\<**Your Fully Qualified Class Name**>|  
-|Assembly|REG_SZ|\<**Your Assembly Name in the GAC**>|  
-  
+>  Incorrectly editing the registry can severely damage your system. Before making changes to the registry, be sure to back up any valued data on the computer.
+
+#### To register a directive processor by setting a registry key
+
+1.  Run `regedit`.
+
+2.  In regedit, navigate to
+
+     **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\\*.0\TextTemplating\DirectiveProcessors**
+
+     If you want to install the directive processor in the experimental version of Visual Studio, insert "Exp" after "11.0".
+
+3.  Add a registry key that has the same name as the directive processor class.
+
+    -   In the registry tree, right-click the **DirectiveProcessors** node, point to **New**, and then click **Key**.
+
+4.  In the new node, add string values for Class and CodeBase or Assembly, according to the following tables.
+
+    1.  Right-click the node that you created, point to **New**, and then click **String Value**.
+
+    2.  Edit the name of the value.
+
+    3.  Double-click the name and edit the data.
+
+ If the custom directive processor is not in the GAC, the registry subkeys should look like the following table:
+
+|Name|Type|Data|
+|----------|----------|----------|
+|(Default)|REG_SZ|(value not set)|
+|Class|REG_SZ|**\<Namespace Name>.\<Class Name>**|
+|CodeBase|REG_SZ|**\<Your Path>\\<Your Assembly Name\>**|
+
+ If the assembly is in the GAC, the registry subkeys should look like the following table:
+
+|Name|Type|Data|
+|----------|----------|----------|
+|(Default)|REG_SZ|(value not set)|
+|Class|REG_SZ|\<**Your Fully Qualified Class Name**>|
+|Assembly|REG_SZ|\<**Your Assembly Name in the GAC**>|
+
 ## See also
 
-[Creating Custom T4 Text Template Directive Processors](../modeling/creating-custom-t4-text-template-directive-processors.md)
+- [Creating Custom T4 Text Template Directive Processors](../modeling/creating-custom-t4-text-template-directive-processors.md)

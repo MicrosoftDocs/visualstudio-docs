@@ -1,14 +1,15 @@
 ---
-title: "Create a Visual Studio Load Test Performance Report Using Microsoft Word | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "article"
+title: "Create a Visual Studio Load Test Performance Report Using Microsoft Word"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "load tests, reporting"
   - "load tests, creating Word reports"
 ms.assetid: 3b864c75-2699-48c1-a2b4-9651f108c267
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # How to: Manually Create a Load Test Performance Report Using Microsoft Word

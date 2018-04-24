@@ -1,24 +1,20 @@
 ---
-title: "CA1062: Validate arguments of public methods | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
+title: "CA1062: Validate arguments of public methods"
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
+f1_keywords:
   - "CA1062"
   - "ValidateArgumentsOfPublicMethods"
   - "Validate arguments of public methods"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "CA1062"
   - "ValidateArgumentsOfPublicMethods"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # CA1062: Validate arguments of public methods

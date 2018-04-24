@@ -2,16 +2,13 @@
 title: "How to: Reference an MSBuild Project SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/25/2018"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "MSBuild, SDKs, SDK"
-author: "jeffkl"
-ms.author: jeffkl
-manager: angerlic
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -1,14 +1,15 @@
 ---
 title: "Build Actions"
+<<<<<<< HEAD
 description: "This article describes the various build actions that can be used for C# projects"
+=======
+>>>>>>> MicrosoftDocs/master
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017
-ms.topic: article
 ms.assetid: 5399BCB1-E317-4C7B-87B1-C531E985DE6E
 ---
-
-# Build actions 
+# Build actions
 
 All files in a Visual Studio for Mac project have a build action which controls what happens to the file during a build. These can be set by right-clicking on any file and browsing to **Build Action**, as illustrated below:
 
@@ -23,4 +24,4 @@ Some of the common build actions for C# projects are:
 
 It is possible to select more than one file in the solution explorer, allowing you to set the build action to many files at once.
 
-Also, there are build actions for specific projects. For example, Xamarin.iOS projects have the **BundleResource** build action, which will add the file as part of the app bundle. Information on Xamarin.Android specific build actions can be found in the [build process](https://developer.xamarin.com/guides/android/under_the_hood/build_process/#Build_Actions) guide on developer.xamarin.com.
+Also, there are build actions for specific projects. For example, Xamarin.iOS projects have the **BundleResource** build action, which will add the file as part of the app bundle. Information on Xamarin.Android specific build actions can be found in the [build process](/xamarin/android/deploy-test/building-apps/build-process#Build_Actions) guide.

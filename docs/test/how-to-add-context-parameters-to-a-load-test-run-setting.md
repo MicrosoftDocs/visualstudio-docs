@@ -1,14 +1,15 @@
 ---
-title: "Add Context Parameters to a Load Test Run Setting in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "article"
+title: "Add Context Parameters to a Load Test Run Setting in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "load tests, run settings, context parameters"
   - "load tests, context parameters"
 ms.assetid: a8a0b97e-8040-4711-85ab-36548b130ed2
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # How to: Add Context Parameters to a Load Test Run Setting

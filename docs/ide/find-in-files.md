@@ -1,16 +1,13 @@
 ---
-title: "Find in Files | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
+title: Find in Files
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
+ms.topic: conceptual
+f1_keywords:
   - "vs.findreplace.findinfiles"
   - "vs.findinfiles"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "objects [Visual Studio], finding"
   - "text searches, replacing text"
   - "objects [Visual Studio], searching for"
@@ -19,10 +16,10 @@ helpviewer_keywords:
   - "documents, searching"
   - "files, searching"
   - "Find in Files tab, Find and Replace window"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # Find in Files
@@ -33,7 +30,7 @@ You can use any of the following methods to display **Find in Files** in the **F
 
 ## To display Find in Files
 
-1. On the menu bar, choose **Edit**, **Find and Replace**.
+1. On the menu bar, choose **Edit** > **Find and Replace**.
 
 1. Choose **Find in Files**.
 
@@ -44,7 +41,7 @@ To cancel a Find operation, press **Ctrl** + **Break**.
 
 ## Find what
 
-To search for a new text string or expression, specify it in the box. To search for any of the 20 strings that you searched for most recently, open the drop-down list and choose the string. Choose the adjacent **Expression Builder** button if you want to use one or more regular expressions in your search string. For more information, see [Using Regular Expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md).
+To search for a new text string or expression, specify it in the box. To search for any of the 20 strings that you searched for most recently, open the drop-down list and choose the string. Choose the adjacent **Expression Builder** button if you want to use one or more regular expressions in your search string. For more information, see [Using regular expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md).
 
 > [!NOTE]
 > The **Expression Builder** button will only be enabled if you have selected **Use Regular Expressions** under **Find options**.
@@ -67,16 +64,20 @@ Specifies that subfolders of the **Look in** folder will be searched.
 
 You can expand or collapse the **Find options** section. The following options can be selected or cleared:
 
-Match case  
+**Match case**
+
 When selected, a **Find Results** search will be case-sensitive
 
-Match whole word  
+**Match whole word**
+
 When selected, the **Find Results** windows will only return whole word matches.
 
-Use Regular Expressions  
-If this check box is selected, you can use special notations to define patterns of text to match in the **Find what** or **Replace with** text boxes. For a list of these notations, see [Using Regular Expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md).
+**Use Regular Expressions**
 
-Look at these file types  
+If this check box is selected, you can use special notations to define patterns of text to match in the **Find what** or **Replace with** text boxes. For a list of these notations, see [Using regular expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md).
+
+**Look at these file types**
+
 This list indicates the types of files to search through in the **Look in** directories. If this field is blank, all of the files in the **Look in** directories will be searched.
 
 Select any item in the list to enter a preconfigured search string that will find files of those particular types.
@@ -85,20 +86,24 @@ Select any item in the list to enter a preconfigured search string that will fin
 
 You can expand or collapse the **Result options** section. The following options can be selected or cleared:
 
-Find results 1 window  
+**Find results 1 window**
+
 When selected, the results of the current search will replace the content of the **Find Results 1** window. This window opens automatically to display your search results. To open this window manually, select **Other Windows** from the **View** menu and choose **Find Results 1**.
 
-Find results 2 window  
+**Find results 2 window**
+
 When selected, the results of the current search will replace the content of the **Find Results 2** window. This window opens automatically to display your search results. To open this window manually, select **Other Windows** from the **View** menu and choose **Find Results 2**.
 
-Display file names only  
+**Display file names only**
+
 Displays a list of files containing search matches rather than displaying the search matches themselves.
 
-Append results  
+**Append results**
+
 Appends the results from the search to the previous search results.
 
 ## See also
 
-[Finding and Replacing Text](../ide/finding-and-replacing-text.md)  
-[Replace in Files](../ide/replace-in-files.md)  
-[Visual Studio Commands](../ide/reference/visual-studio-commands.md)
+- [Finding and replacing text](../ide/finding-and-replacing-text.md)
+- [Replace in Files](../ide/replace-in-files.md)
+- [Visual Studio commands](../ide/reference/visual-studio-commands.md)

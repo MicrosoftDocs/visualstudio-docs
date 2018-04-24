@@ -1,7 +1,7 @@
 ---
-title: "Analyzing Threshold Rule Violations in Load Tests in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "article"
+title: "Analyzing Threshold Rule Violations in Load Tests in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 f1_keywords:
   - "vs.test.load.monitor.threshholdresult"
 helpviewer_keywords:
@@ -14,7 +14,8 @@ helpviewer_keywords:
 ms.assetid: 969ed346-cf2e-4d48-82b3-edb3e075e1c0
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # Analyzing Threshold Rule Violations in Load Tests Using the Load Test Analyzer

@@ -1,16 +1,14 @@
 ---
-title: "Use models in your development process | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
+title: Use models in your development process
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
-ms.topic: "conceptual"
+ms.topic: conceptual
 helpviewer_keywords:
   - "UML, using models"
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ---
@@ -136,11 +134,11 @@ Different kinds of diagram are useful for describing the design at different lev
 
 ## See also
 
-[Use models in Agile development](http://msdn.microsoft.com/592ac27c-3d3e-454a-9c38-b76658ed137f)
-[Create models for your app](../modeling/create-models-for-your-app.md)
-[Model user requirements](../modeling/model-user-requirements.md)
-[Model your app's architecture](../modeling/model-your-app-s-architecture.md)
-[Develop tests from a model](../modeling/develop-tests-from-a-model.md)
-[Structure your modeling solution](../modeling/structure-your-modeling-solution.md)
+- [Use models in Agile development](http://msdn.microsoft.com/592ac27c-3d3e-454a-9c38-b76658ed137f)
+- [Create models for your app](../modeling/create-models-for-your-app.md)
+- [Model user requirements](../modeling/model-user-requirements.md)
+- [Model your app's architecture](../modeling/model-your-app-s-architecture.md)
+- [Develop tests from a model](../modeling/develop-tests-from-a-model.md)
+- [Structure your modeling solution](../modeling/structure-your-modeling-solution.md)
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]

@@ -2,21 +2,17 @@
 title: "PARSEFLAGS | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "PARSEFLAGS"
 helpviewer_keywords: 
   - "PARSEFLAGS enumeration"
 ms.assetid: 47943f0a-54cb-4493-a62e-5dba97bd4c35
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

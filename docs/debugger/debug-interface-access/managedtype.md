@@ -2,12 +2,8 @@
 title: "ManagedType | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
@@ -15,10 +11,9 @@ helpviewer_keywords:
   - "managed type symbol"
   - "ManagedType symbol"
 ms.assetid: 5db99e2a-4f2e-4796-89b7-b401b151826f
-caps.latest.revision: 15
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "dotnet"
 ---

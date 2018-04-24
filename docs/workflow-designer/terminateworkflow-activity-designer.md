@@ -1,29 +1,35 @@
 ---
-title: "TerminateWorkflow Activity Designer | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
-f1_keywords: 
+title: "Workflow Designer - TerminateWorkflow Activity Designer"
+ms.date: 11/04/2016
+ms.topic: reference
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
+f1_keywords:
   - "System.Activities.Statements.TerminateWorkflow.UI"
 ms.assetid: 08e632ed-0724-4fb4-9df1-f8d443eaf0ac
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # TerminateWorkflow Activity Designer
+
 The **TerminateWorkflow** activity designer is used to create and configure a <xref:System.Activities.Statements.TerminateWorkflow> activity.
 
 ## The TerminateWorkflow Activity
- The <xref:System.Activities.Statements.TerminateWorkflow> activity terminates the execution of a workflow.
+
+The <xref:System.Activities.Statements.TerminateWorkflow> activity terminates the execution of a workflow.
 
 ### Using the TerminateWorkflow Activity Designer
- The **TerminateWorkflow** activity designer can be found in the **Runtime** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab (Alternatively, select **Toolbox** from the **View** menu or CTRL+ALT+X.)
 
- The **TerminateWorkflow** activity designer can be dragged from the **Toolbox** and dropped on to the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] surface wherever activities are usually placed, such as inside a <xref:System.Activities.Statements.Sequence>. This creates a <xref:System.Activities.Statements.TerminateWorkflow> activity with a default **DisplayName** of TerminateWorkflow. The <xref:System.Activities.Activity.DisplayName%2A> can be edited in the header of the **TerminateWorkflow** activity designer or in the **DisplayName** box of the property grid.
+The **TerminateWorkflow** activity designer can be found in the **Runtime** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab (Alternatively, select **Toolbox** from the **View** menu or CTRL+ALT+X.)
+
+The **TerminateWorkflow** activity designer can be dragged from the **Toolbox** and dropped on to the Workflow Designer surface wherever activities are usually placed, such as inside a <xref:System.Activities.Statements.Sequence>. This creates a <xref:System.Activities.Statements.TerminateWorkflow> activity with a default **DisplayName** of TerminateWorkflow. The <xref:System.Activities.Activity.DisplayName%2A> can be edited in the header of the **TerminateWorkflow** activity designer or in the **DisplayName** box of the property grid.
 
 ### The TerminateWorkflow Properties
- The following table shows the <xref:System.Activities.Statements.TerminateWorkflow> properties and describes how they are used in the designer. These properties can be edited in property grid and some of them can be edited on [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] surface.
+
+The following table shows the <xref:System.Activities.Statements.TerminateWorkflow> properties and describes how they are used in the designer. These properties can be edited in property grid and some of them can be edited on Workflow Designer surface.
 
 |Property Name|Required|Usage|
 |-------------------|--------------|-----------|

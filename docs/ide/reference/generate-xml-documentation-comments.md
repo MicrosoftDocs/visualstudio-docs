@@ -1,15 +1,13 @@
 ---
-title: "Insert XML documentation comments in Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "01/26/2018"
-ms.reviewer: ""
-ms.suite: ""
+title: Insert XML documentation comments in Visual Studio
+ms.date: 01/26/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
-ms.topic: "article"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+ms.topic: reference
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.workload:
   - "dotnet"
 ---
 # How to: Insert XML comments for documentation generation
@@ -46,9 +44,9 @@ Visual Studio can help you document code elements such as classes and methods, b
 
 ## See also
 
-[XML documentation comments (C# Programming Guide)](/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments)  
-[Documenting your code with XML comments (C# Guide)](/dotnet/csharp/codedoc)  
-[How to: Create XML documentation (Visual Basic)](/dotnet/visual-basic/programming-guide/program-structure/how-to-create-xml-documentation)  
-[C++ Comments](/cpp/cpp/comments-cpp)  
-[XML Documentation (C++)](/cpp/ide/xml-documentation-visual-cpp)  
-[Code generation](../code-generation-in-visual-studio.md)
+- [XML documentation comments (C# Programming Guide)](/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments)
+- [Documenting your code with XML comments (C# Guide)](/dotnet/csharp/codedoc)
+- [How to: Create XML documentation (Visual Basic)](/dotnet/visual-basic/programming-guide/program-structure/how-to-create-xml-documentation)
+- [C++ Comments](/cpp/cpp/comments-cpp)
+- [XML Documentation (C++)](/cpp/ide/xml-documentation-visual-cpp)
+- [Code generation](../code-generation-in-visual-studio.md)

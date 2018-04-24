@@ -4,7 +4,6 @@ description: "Instructions on how to install Visual Studio for Mac and additiona
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017
-ms.topic: article
 ms.technology: vs-ide-install
 ms.assetid: 22B1F2CD-32AE-464D-80AC-C8AB4786B015
 ---

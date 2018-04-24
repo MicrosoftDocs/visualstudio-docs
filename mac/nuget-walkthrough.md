@@ -4,7 +4,6 @@ description: This document covers how to include a NuGet package in a Xamarin pr
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017
-ms.topic: article
 ms.assetid: 5C800815-0B13-4B27-B017-95FCEF1A0EA2
 ---
 

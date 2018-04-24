@@ -1,32 +1,35 @@
 ---
-title: "Rule Set Editor Dialog Box (Legacy) | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
-f1_keywords: 
+title: "Workflow Designer - Rule Set Editor Dialog Box (Legacy)"
+ms.date: 11/04/2016
+ms.topic: reference
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
+f1_keywords:
   - "System.Workflow.Activities.Rules.Design.RuleSetDialog.UI"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Rule Set Editor dialog box"
 ms.assetid: 7cfd5df1-1115-4e5c-9b72-121f39419e83
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # Rule Set Editor Dialog Box (Legacy)
-This topic describes how use the **Rule Set Editor** dialog box in the legacy Windows Workflow Designer. Use the legacy [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] when you need to target either the [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] or the [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)].
 
- The **Rule Set Editor** dialog box is used to create and modify [PolicyActivity](http://go.microsoft.com/fwlink?LinkID=65019) rule sets, which are serialized to a .rules file.
+This topic describes how use the **Rule Set Editor** dialog box in the legacy Windows Workflow Designer. Use the legacy Workflow Designer when you need to target either the .NET Framework version 3.5 or the WinFX.
+
+The **Rule Set Editor** dialog box is used to create and modify [PolicyActivity](http://go.microsoft.com/fwlink?LinkID=65019) rule sets, which are serialized to a .rules file.
 
 > [!NOTE]
 > If you want to open the .rules file with the **XML Editor with encoding**, you must first close the associated designer window for the workflow or activity.
 
- For information about how to access the **Rule Set Editor** dialog box, see [How to: Create a PolicyActivity Rule Set (Legacy)](../workflow-designer/how-to-create-a-policyactivity-rule-set-legacy.md).
+For information about how to access the **Rule Set Editor** dialog box, see [How to: Create a PolicyActivity Rule Set (Legacy)](../workflow-designer/how-to-create-a-policyactivity-rule-set-legacy.md).
 
 > [!WARNING]
-> The Rules editor of the legacy [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] that is used to target either the [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] or the [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)] does not support Multitargeting.
+> The Rules editor of the legacy Workflow Designer that is used to target either the .NET Framework version 3.5 or the WinFX does not support Multitargeting.
 
- The following table describes the user interface (UI) elements of the **Rule Set Editor** dialog box.
+The following table describes the user interface (UI) elements of the **Rule Set Editor** dialog box.
 
 |UI Element|Description|
 |----------------|-----------------|

@@ -1,12 +1,13 @@
 ---
-title: "Sample Coded UI Test Extension for Excel | Microsoft Docs"
-ms.date: "11/04/2016"
+title: "Sample Coded UI Test Extension for Excel"
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: sample
 helpviewer_keywords: 
   - "coded UI tests, extensions for Excel"
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 author: gewarren

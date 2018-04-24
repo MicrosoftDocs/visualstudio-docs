@@ -2,21 +2,17 @@
 title: "IDebugPortRequest2::GetPortName | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugPortRequest2::GetPortName"
 helpviewer_keywords: 
   - "IDebugPortRequest2::GetPortName"
 ms.assetid: 53e2a3a4-bb34-4a02-a983-6bd84ea70587
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

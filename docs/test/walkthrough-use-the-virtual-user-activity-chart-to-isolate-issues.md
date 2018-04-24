@@ -1,14 +1,15 @@
 ---
-title: "Using the Virtual User Activity Chart for load tests in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "article"
+title: "Using the Virtual User Activity Chart for load tests in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "load tests, virtual user activity chart"
   - "virtual user activity chart, isolating performance issues"
 ms.assetid: d1c10fb9-cfeb-4e7f-9991-2d1e1103699e
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # Walkthrough: Using the Virtual User Activity Chart to Isolate Issues

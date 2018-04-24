@@ -1,27 +1,30 @@
 ---
-title: "Theme Configuration Dialog Box (Legacy) | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
-f1_keywords: 
+title: "Workflow Designer - Theme Configuration Dialog Box (Legacy)"
+ms.date: 11/04/2016
+ms.topic: reference
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
+f1_keywords:
   - "System.Workflow.ComponentModel.Design.ThemeConfigurationDialog.UI"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "themes, configuring"
   - "Theme Configuration dialog box"
 ms.assetid: 9e6d182a-c4d9-4e71-b2b9-02f675fc2b29
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # Theme Configuration Dialog Box (Legacy)
-This topic describes how use the **Theme Configuration** dialog box in the legacy Windows Workflow Designer. Use the legacy [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] when you need to target either the [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] or the [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)].
 
- A theme defines the background and foreground colors, styles, icons, and other visual elements of a workflow. You can save themes for reuse by other workflows.
+This topic describes how use the **Theme Configuration** dialog box in the legacy Windows Workflow Designer. Use the legacy Workflow Designer when you need to target either the .NET Framework version 3.5 or the WinFX.
 
- You create and edit themes by using the **Theme Configuration** dialog box. To open the dialog box, select **Create New Theme** on the **Workflow** menu, or right-click the workflow design surface and select **Create New Theme**.
+A theme defines the background and foreground colors, styles, icons, and other visual elements of a workflow. You can save themes for reuse by other workflows.
 
- The following table describes the user interface (UI) elements of the **Theme Configuration** dialog box.
+You create and edit themes by using the **Theme Configuration** dialog box. To open the dialog box, select **Create New Theme** on the **Workflow** menu, or right-click the workflow design surface and select **Create New Theme**.
+
+The following table describes the user interface (UI) elements of the **Theme Configuration** dialog box.
 
 |UI Element|Description|
 |----------------|-----------------|

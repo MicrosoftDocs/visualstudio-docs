@@ -2,21 +2,17 @@
 title: "IDebugObject2::CreateAlias | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugObject2::CreateAlias"
 helpviewer_keywords: 
   - "IDebugObject2::CreateAlias method"
 ms.assetid: 54a05920-5d13-4f67-962b-d1a7f013dff9
-caps.latest.revision: 7
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

@@ -1,14 +1,15 @@
 ---
-title: "Web Performance Test API in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "article"
+title: "Web Performance Test API in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "Web performance tests, using the API"
   - "APIs, Web performance tests"
 ms.assetid: 93a6a1dd-663b-4ab5-8760-7d6b081561d3
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # How to: Use the Web Performance Test API
@@ -18,7 +19,8 @@ You can write code for your Web performance tests. The Web performance test API 
  You can also use the Web performance test API to programmatically create and save declarative Web performance tests. To do this, use the <xref:Microsoft.VisualStudio.TestTools.WebTesting.DeclarativeWebTest> and <xref:Microsoft.VisualStudio.TestTools.WebTesting.DeclarativeWebTestSerializer> classes.
 
 > [!TIP]
->  Use the object browser to examine the <xref:Microsoft.VisualStudio.TestTools.WebTesting> namespace. Both the Visual C# and Visual Basic editors offer IntelliSense support for coding with the classes in the namespace.
+> Use the object browser to examine the <xref:Microsoft.VisualStudio.TestTools.WebTesting> namespace. Both the Visual C# and Visual Basic editors offer IntelliSense support for coding with the classes in the namespace.
+
 
  You can also create plug-ins for load tests. For more information, see [How to: Use the Load Test API](../test/how-to-use-the-load-test-api.md) and [How to: Create a Load Test Plug-In](../test/how-to-create-a-load-test-plug-in.md).
 

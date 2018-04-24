@@ -4,7 +4,6 @@ description: "This article describes how to get started with ASP.NET in Visual S
 author: asb3993
 ms.author: amburns
 ms.date: 07/13/2017
-ms.topic: article
 ms.assetid: 6E8B0C90-33D6-4546-8207-CE0787584565
 ---
 
