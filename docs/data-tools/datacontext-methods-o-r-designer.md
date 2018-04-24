@@ -6,6 +6,7 @@ ms.assetid: c149f4e5-3b61-4c33-892e-3e26d47f3eeb
 author: gewarren
 ms.author: gewarren
 manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-data-tools
 ms.workload:
   - "data-storage"
