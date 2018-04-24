@@ -1,6 +1,7 @@
 ---
 title: Add references in the Reference Manager
 ms.date: 04/11/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
@@ -17,8 +18,8 @@ helpviewer_keywords:
   - "referencing components, removing references"
   - "references [Visual Studio], removing"
   - "referencing components, assemblies not listed"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"

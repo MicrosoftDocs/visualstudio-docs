@@ -1,15 +1,15 @@
 ---
-title: "How to: Start Debugging XSLT | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology: vs-ide-general
-ms.topic: "conceptual"
-author: "gewarren"
-ms.author: "gewarren"
+title: "How to: Start Debugging XSLT"
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
+ms.technology: vs-xml-tools
+ms.topic: conceptual
+author: gewarren
+ms.author: gewarren
 manager: douge
-dev_langs: 
+dev_langs:
   - "CSharp"
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # How to: Start Debugging XSLT
@@ -56,36 +56,36 @@ You can also step into XSLT while debugging an application. When you press F11 o
 The following is an example of a C# XSLT program. It shows how to enable XSLT debugging.
 
 ```csharp
-using System;  
-using System.IO;  
-using System.Xml;  
-using System.Xml.Xsl;  
-  
-namespace ConsoleApplication   
-{  
-  class Program   
-  {  
-    private const string sourceFile = @"c:\data\xsl_files\books.xml";  
-    private const string stylesheet = @"c:\data\xsl_files\belowAvg.xsl";  
-    private const string outputFile = @"c:\data\xsl_files\output.xml";  
-  
-    static void Main(string[] args)  
-    {  
+using System;
+using System.IO;
+using System.Xml;
+using System.Xml.Xsl;
+
+namespace ConsoleApplication
+{
+  class Program
+  {
+    private const string sourceFile = @"c:\data\xsl_files\books.xml";
+    private const string stylesheet = @"c:\data\xsl_files\belowAvg.xsl";
+    private const string outputFile = @"c:\data\xsl_files\output.xml";
+
+    static void Main(string[] args)
+    {
       // Enable XSLT debugging.
-      XslCompiledTransform xslt = new XslCompiledTransform(true);  
-  
+      XslCompiledTransform xslt = new XslCompiledTransform(true);
+
       // Compile the style sheet.
-      xslt.Load(stylesheet)  
-  
+      xslt.Load(stylesheet)
+
       // Execute the XSLT transform.
-      FileStream outputStream = new FileStream(outputFile, FileMode.Append);  
-      xslt.Transform(sourceFile, null, outputStream);  
-    }  
-  }  
-}  
+      FileStream outputStream = new FileStream(outputFile, FileMode.Append);
+      xslt.Transform(sourceFile, null, outputStream);
+    }
+  }
+}
 ```
 
 ## See also
 
-[Walkthrough: Debug an XSLT Style Sheet](../xml-tools/walkthrough-debug-an-xslt-style-sheet.md)  
-[Debugger basics](../debugger/debugger-basics.md)
+- [Walkthrough: Debug an XSLT Style Sheet](../xml-tools/walkthrough-debug-an-xslt-style-sheet.md)
+- [Debugger basics](../debugger/debugger-basics.md)

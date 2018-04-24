@@ -11,6 +11,7 @@ ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
 # Add a Tracking Property to a Domain-Specific Language Definition

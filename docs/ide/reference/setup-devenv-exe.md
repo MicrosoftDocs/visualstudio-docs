@@ -1,15 +1,15 @@
 ---
-title: "devenv.exe setup switch | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.technology:
-  - "vs-ide-general"
-ms.topic: "conceptual"
+title: devenv.exe setup switch
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-general
+ms.topic: reference
 helpviewer_keywords:
   - "setup Devenv switch"
   - "/setup Devenv switch"
   - "Devenv, /setup switch"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ---
 # /Setup (devenv.exe)
@@ -39,4 +39,4 @@ devenv /setup
 
 ## See also
 
-[Devenv Command Line Switches](../../ide/reference/devenv-command-line-switches.md)
+- [Devenv Command Line Switches](../../ide/reference/devenv-command-line-switches.md)

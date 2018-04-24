@@ -1,9 +1,9 @@
 ---
-title: "-UseEnv (devenv.exe) | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
+title: -UseEnv (devenv.exe)
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "VC.Project.UseEnvVars.ExcludePath"
   - "VC.Project.UseEnvVars.LibraryPath"
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "/UseEnv Devenv switch"
   - "Devenv, /UseEnv"
 ms.assetid: 2dd14603-a61b-42d2-ba31-427a0ee8a799
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"

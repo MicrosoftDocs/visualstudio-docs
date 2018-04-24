@@ -1,8 +1,9 @@
 ---
-title: "Walkthrough: Creating and Running Unit Tests for Managed Code in Visual Studio | Microsoft Docs"
-ms.date: "11/04/2016"
+title: "Walkthrough: Creating and Running Unit Tests for Managed Code in Visual Studio"
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
-ms.topic: "conceptual"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "unit tests, walkthrough"
   - "unit tests, creating"
@@ -40,10 +41,12 @@ This walkthrough will step you through creating, running, and customizing a seri
  [Use unit tests to improve your code](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md#BKMK_Use_unit_tests_to_improve_your_code)
 
 > [!NOTE]
->  This walkthrough uses the Microsoft unit test framework for managed code. Test Explorer also can run tests from third party unit test frameworks that have adapters for Test Explorer. For more information, see [Install third-party unit test frameworks](../test/install-third-party-unit-test-frameworks.md)
+> This walkthrough uses the Microsoft unit test framework for managed code. Test Explorer also can run tests from third party unit test frameworks that have adapters for Test Explorer. For more information, see [Install third-party unit test frameworks](../test/install-third-party-unit-test-frameworks.md)
+
 
 > [!NOTE]
->  For information about how to run tests from a command line, see [Walkthrough: using the command-line test utility](http://msdn.microsoft.com/Library/52c11992-9e94-4067-a4b7-59f19d69d867).
+> For information about how to run tests from a command line, see [Walkthrough: using the command-line test utility](http://msdn.microsoft.com/Library/52c11992-9e94-4067-a4b7-59f19d69d867).
+
 
 ## Prerequisites
 

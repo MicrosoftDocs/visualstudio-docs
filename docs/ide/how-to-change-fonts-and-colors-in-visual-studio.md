@@ -1,16 +1,15 @@
 ---
-title: "How to: Change fonts and colors in Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology:
-  - "vs-ide-general"
-ms.topic: "conceptual"
+title: "How to: Change fonts and colors in Visual Studio"
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-general
+ms.topic: conceptual
 helpviewer_keywords:
   - "Visual Studio, color themes"
   - "color themes, Visual Studio"
 ms.assetid: 60d91ba1-244b-4c43-847f-60b744f1352a
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
@@ -64,6 +63,5 @@ You can change the font and text size for all windows and dialog boxes in the ID
 
 ## See also
 
-[Accessibility features of Visual Studio](../ide/reference/accessibility-features-of-visual-studio.md)  
-
-[How to: Change fonts and colors in the editor](../ide/reference/how-to-change-fonts-and-colors-in-the-editor.md)
+- [Accessibility features of Visual Studio](../ide/reference/accessibility-features-of-visual-studio.md)
+- [How to: Change fonts and colors in the editor](../ide/reference/how-to-change-fonts-and-colors-in-the-editor.md)

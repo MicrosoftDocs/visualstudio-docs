@@ -1,16 +1,15 @@
 ---
-title: "Creating multi-file item templates for Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "01/02/2018"
-ms.technology: 
-  - "vs-ide-general"
-ms.topic: "conceptual"
-helpviewer_keywords: 
+title: Creating multi-file item templates for Visual Studio
+ms.date: 01/02/2018
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-general
+ms.topic: conceptual
+helpviewer_keywords:
   - "Visual Studio templates, creating multi-file item templates"
   - "multi-file item templates"
   - "item templates, creating multi-file item templates"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ---
 # How to: Create multi-file item templates
@@ -91,7 +90,7 @@ The following example shows a Windows Forms template. When an item is created ba
 
 ## See also
 
-[Create project and item templates](../ide/creating-project-and-item-templates.md)  
-[How to: Create item templates](../ide/how-to-create-item-templates.md)  
-[Template parameters](../ide/template-parameters.md)  
-[How to: Substitute parameters in a template](../ide/how-to-substitute-parameters-in-a-template.md)
+- [Create project and item templates](../ide/creating-project-and-item-templates.md)
+- [How to: Create item templates](../ide/how-to-create-item-templates.md)
+- [Template parameters](../ide/template-parameters.md)
+- [How to: Substitute parameters in a template](../ide/how-to-substitute-parameters-in-a-template.md)

@@ -1,16 +1,16 @@
 ---
-title: "Target a .NET Framework version in Visual Studio | Microsoft Docs"
-ms.custom: ""
+title: Target a .NET Framework version in Visual Studio
 ms.date: 02/06/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
-ms.topic: "conceptual"
-helpviewer_keywords: 
+ms.topic: conceptual
+helpviewer_keywords:
   - "targeting .NET Framework [Visual Studio]"
   - ".NET Framework version [Visual Studio]"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "dotnet"
 ---
 # How to: Target a version of the .NET Framework
@@ -64,8 +64,8 @@ For information about how to change the target version for C++ projects, see [Ho
 
 ## See also
 
-[Visual Studio multi-targeting overview](../ide/visual-studio-multi-targeting-overview.md)  
-[Troubleshoot .NET Framework targeting errors](../msbuild/troubleshooting-dotnet-framework-targeting-errors.md)  
-[Application page, Project Designer (C#)](../ide/reference/application-page-project-designer-csharp.md)  
-[Application page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md)  
-[How to: Modify the target framework and platform toolset (C++)](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset)
+- [Visual Studio multi-targeting overview](../ide/visual-studio-multi-targeting-overview.md)
+- [Troubleshoot .NET Framework targeting errors](../msbuild/troubleshooting-dotnet-framework-targeting-errors.md)
+- [Application page, Project Designer (C#)](../ide/reference/application-page-project-designer-csharp.md)
+- [Application page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md)
+- [How to: Modify the target framework and platform toolset (C++)](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset)

@@ -9,6 +9,7 @@ ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
 # How to: Access and Constrain the Current Selection

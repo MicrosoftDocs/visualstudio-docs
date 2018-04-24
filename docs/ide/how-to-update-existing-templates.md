@@ -1,17 +1,16 @@
 ---
-title: "Update existing project and item templates in Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "01/02/2018"
-ms.technology: 
-  - "vs-ide-general"
-ms.topic: "conceptual"
-helpviewer_keywords: 
+title: Update existing project and item templates in Visual Studio
+ms.date: 01/02/2018
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-general
+ms.topic: conceptual
+helpviewer_keywords:
   - "item templates, updating"
   - "Visual Studio templates, updating"
   - "project templates, updating"
   - "updating templates [Visual Studio]"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ---
 # How to: Update existing templates
@@ -64,8 +63,8 @@ You can update an existing template without using the **Export Template Wizard**
 
 ## See also
 
-[Customize templates](../ide/customizing-project-and-item-templates.md)  
-[Create project and item templates](../ide/creating-project-and-item-templates.md)  
-[Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)  
-[Template parameters](../ide/template-parameters.md)  
-[How to: Create starter kits](../ide/how-to-create-starter-kits.md)
+- [Customize templates](../ide/customizing-project-and-item-templates.md)
+- [Create project and item templates](../ide/creating-project-and-item-templates.md)
+- [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)
+- [Template parameters](../ide/template-parameters.md)
+- [How to: Create starter kits](../ide/how-to-create-starter-kits.md)

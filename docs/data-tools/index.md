@@ -4,6 +4,7 @@ author: gewarren
 ms.author: gewarren
 title: Use data tools in Visual Studio to develop data solutions
 description: Learn about tools for data solutions in Visual Studio.
+ms.prod: visual-studio-dev15
 ms.technology: vs-data-tools
 ms.topic: landing-page
 ms.workload:

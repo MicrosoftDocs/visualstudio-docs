@@ -1,13 +1,13 @@
 ---
-title: "Suppress compiler warnings in Visual Studio for projects and NuGet packages | Microsoft Docs"
-ms.custom: ""
-ms.date: "01/24/2018"
-ms.technology: vs-ide-general
-ms.topic: "conceptual"
-author: "gewarren"
-ms.author: "gewarren"
+title: Suppress compiler warnings in Visual Studio for projects and NuGet packages
+ms.date: 01/24/2018
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-compile
+ms.topic: conceptual
+author: gewarren
+ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # How to: Suppress compiler warnings
@@ -127,6 +127,6 @@ In some cases, you may want to suppress NuGet compiler warnings for a single NuG
 
 ## See also
 
-[Walkthrough: Build an application](../ide/walkthrough-building-an-application.md)  
-[How to: View, save, and configure build log files](../ide/how-to-view-save-and-configure-build-log-files.md)  
-[Compile and build](../ide/compiling-and-building-in-visual-studio.md)
+- [Walkthrough: Build an application](../ide/walkthrough-building-an-application.md)
+- [How to: View, save, and configure build log files](../ide/how-to-view-save-and-configure-build-log-files.md)
+- [Compile and build](../ide/compiling-and-building-in-visual-studio.md)

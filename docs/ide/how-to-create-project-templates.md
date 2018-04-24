@@ -1,15 +1,15 @@
 ---
-title: "Create project templates for Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "01/02/2018"
+title: Create project templates for Visual Studio
+ms.date: 01/02/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
-ms.topic: "conceptual"
-f1_keywords: 
+ms.topic: conceptual
+f1_keywords:
   - "VS.ExportTemplateWizard"
 helpviewer_keywords:
   - "project templates [Visual Studio], creating"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ---
 # How to: Create project templates
@@ -46,6 +46,6 @@ If you have the Visual Studio SDK installed, you can wrap the finished template 
 
 ## See also
 
-[Create project and item templates](../ide/creating-project-and-item-templates.md)  
-[How to: Create item templates](../ide/how-to-create-item-templates.md)  
-[Get started with the VSIX project template](../extensibility/getting-started-with-the-vsix-project-template.md)
+- [Create project and item templates](../ide/creating-project-and-item-templates.md)
+- [How to: Create item templates](../ide/how-to-create-item-templates.md)
+- [Get started with the VSIX project template](../extensibility/getting-started-with-the-vsix-project-template.md)

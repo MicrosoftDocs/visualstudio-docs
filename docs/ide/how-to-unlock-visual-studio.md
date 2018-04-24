@@ -1,10 +1,10 @@
 ---
-title: "How to: Unlock Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: 07/20/2017
-ms.technology:
-  - "vs-acquisition"
-ms.topic: "conceptual"
+title: "How to: Unlock Visual Studio"
+ms.prod: visual-studio-dev15
+ms.technology:$1ms.date: 07/20/2017
+ms.prod: visual-studio-dev15
+ms.technology: vs-acquisition
+ms.topic: conceptual
 ms.assetid: ffb580a1-8b5d-48f5-b811-87f8036f50ea
 author: "TerryGLee"
 ms.author: "tglee"
