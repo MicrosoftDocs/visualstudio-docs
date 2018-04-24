@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating a Multiple-Computer Build Environment"
+title: "Walkthrough: Create a multiple-computer build environment"
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: conceptual
@@ -12,7 +12,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Walkthrough: Creating a Multiple-Computer Build Environment
+# Walkthrough: Create a multiple-computer build environment
 
 You can create a build environment within your organization by installing Visual Studio on a host computer and then copying various files and settings to another computer so that it can participate in builds. You don't have to install Visual Studio on the other computer.
 
@@ -38,25 +38,25 @@ This walkthrough has been validated against the following operating systems, by 
 
  This walkthrough is divided into these parts:
 
-- [Installing software on the computers](../ide/walkthrough-creating-a-multiple-computer-build-environment.md#InstallingSoftware)
+- [Install software on the computers](../ide/walkthrough-creating-a-multiple-computer-build-environment.md#InstallingSoftware)
 
-- [Copying files from the host computer to the build computer](../ide/walkthrough-creating-a-multiple-computer-build-environment.md#CopyingFiles)
+- [Copy files from the host computer to the build computer](../ide/walkthrough-creating-a-multiple-computer-build-environment.md#CopyingFiles)
 
-- [Creating registry settings](../ide/walkthrough-creating-a-multiple-computer-build-environment.md#CreatingRegistry)
+- [Create registry settings](../ide/walkthrough-creating-a-multiple-computer-build-environment.md#CreatingRegistry)
 
-- [Setting environment variables on the build computer](../ide/walkthrough-creating-a-multiple-computer-build-environment.md#SettingEnvVariables)
+- [Set environment variables on the build computer](../ide/walkthrough-creating-a-multiple-computer-build-environment.md#SettingEnvVariables)
 
-- [Installing MSBuild assemblies to the Global Assembly Cache (GAC) on the build computer](../ide/walkthrough-creating-a-multiple-computer-build-environment.md#InstallingMSBuildToGAC)
+- [Install MSBuild assemblies to the Global Assembly Cache (GAC) on the build computer](../ide/walkthrough-creating-a-multiple-computer-build-environment.md#InstallingMSBuildToGAC)
 
-- [Building projects](../ide/walkthrough-creating-a-multiple-computer-build-environment.md#BuildingProjects)
+- [Build projects](../ide/walkthrough-creating-a-multiple-computer-build-environment.md#BuildingProjects)
 
-- [Creating the build environment so that it can be checked into source control](../ide/walkthrough-creating-a-multiple-computer-build-environment.md#CreatingForSourceControl)
+- [Create the build environment so that it can be checked into source control](../ide/walkthrough-creating-a-multiple-computer-build-environment.md#CreatingForSourceControl)
 
 ## Prerequisites
 
 - Visual Studio with the .NET desktop development workload installed.
 
-## <a name="InstallingSoftware"></a> Installing software on the computers
+## <a name="InstallingSoftware"></a> Install software on the computers
 
 First, set up the host computer and then set up the build computer.
 
@@ -64,16 +64,16 @@ By installing Visual Studio on the host computer, you create the files and setti
 
 1. On the host computer, install Visual Studio.
 
-2. On the build computer, install the .NET Framework 4.5. To verify that it's installed, make sure that the value of the registry key HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full@Version starts with "4.5".
+2. On the build computer, install the .NET Framework 4.5. To verify that it's installed, make sure that the value of the registry key `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full@Version` starts with "4.5".
 
-## <a name="CopyingFiles"></a> Copying files from the host computer to the build computer
+## <a name="CopyingFiles"></a> Copy files from the host computer to the build computer
 
 This section covers the copying of specific files, compilers, build tools, MSBuild assets, and registry settings from the host computer to the build computer. These instructions assume that you've installed Visual Studio in the default location on the host computer; if you installed in another location, adjust the steps accordingly.
 
-- On an x86 computer, the default location is C:\Program Files\Microsoft Visual Studio 11.0\
-- On an x64 computer, the default location is C:\Program Files (x86)\Microsoft Visual Studio 11.0\
+- On an x86 computer, the default location is *C:\Program Files\Microsoft Visual Studio 11.0*
+- On an x64 computer, the default location is *C:\Program Files (x86)\Microsoft Visual Studio 11.0*
 
-Notice that the name of the Program Files folder depends on the operating system that's installed. On an x86 computer, the name is \Program Files\\; on an x64 computer, the name is \Program Files (x86)\\. Irrespective of the system architecture, this walkthrough refers to the Program Files folder as %ProgramFiles%.
+Notice that the name of the *Program Files* folder depends on the operating system that's installed. On an x86 computer, the name is *Program Files*; on an x64 computer, the name is *Program Files (x86)*. Irrespective of the system architecture, this walkthrough refers to the Program Files folder as *%ProgramFiles%*.
 
 > [!NOTE]
 > On the build computer, all of the relevant files must be on the same drive; however, the drive letter for that drive can be different than the drive letter for the drive where Visual Studio is installed on the host computer. In any case, you must account for the location of files when you create registry entries as described later in this document.
@@ -180,7 +180,7 @@ Notice that the name of the Program Files folder depends on the operating system
 
     - \Microsoft.VC110.OPENMP\vcomp110.dll
 
-5. Copy only the following files from the \Debug_NonRedist\x86\ or \Debug_NonRedist\x64\ folder to the build computer, as described in [Preparing a Test Machine To Run a Debug Executable](/cpp/ide/preparing-a-test-machine-to-run-a-debug-executable). No other files may be copied.
+5. Copy only the following files from the \Debug_NonRedist\x86\ or \Debug_NonRedist\x64\ folder to the build computer, as described in [Prepare a test machine to run a debug executable](/cpp/ide/preparing-a-test-machine-to-run-a-debug-executable). No other files may be copied.
 
     - \Microsoft.VC110.DebugCRT\msvcp110d.dll
 
@@ -260,13 +260,13 @@ Notice that the name of the Program Files folder depends on the operating system
 
     - HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSBuild\ToolsVersions\4.0\11.0@VCTargetsPath11
 
-## <a name="SettingEnvVariables"></a> Setting environment variables on the build computer
+## <a name="SettingEnvVariables"></a> Set environment variables on the build computer
 
-To use MSBuild on the build computer, you must set the PATH environment variables. You can use vcvarsall.bat to set the variables, or you can manually configure them.
+To use MSBuild on the build computer, you must set the PATH environment variables. You can use *vcvarsall.bat* to set the variables, or you can manually configure them.
 
 ### To use vcvarsall.bat to set environment variables
 
-- Open a Command Prompt window on the build computer and run %Program Files%\Microsoft Visual Studio 11.0\VC\vcvarsall.bat. You can use a command-line argument to specify the toolset you want to use—x86, native x64, or x64 cross-compiler. If you don't specify a command-line argument, the x86 toolset is used.
+- Open a **Command Prompt** window on the build computer and run %Program Files%\Microsoft Visual Studio 11.0\VC\vcvarsall.bat. You can use a command-line argument to specify the toolset you want to use—x86, native x64, or x64 cross-compiler. If you don't specify a command-line argument, the x86 toolset is used.
 
      This table describes the supported arguments for vcvarsall.bat:
 
@@ -298,7 +298,7 @@ To use MSBuild on the build computer, you must set the PATH environment variable
 
     - %windir%\Microsoft.NET\Framework64\v4.0.30319
 
-## <a name="InstallingMSBuildToGAC"></a> Installing MSBuild assemblies to the Global Assembly Cache (GAC) on the build computer
+## <a name="InstallingMSBuildToGAC"></a> Install MSBuild assemblies to the Global Assembly Cache (GAC) on the build computer
 
 MSBuild requires some additional assemblies to be installed to the GAC on the build computer.
 
@@ -310,31 +310,31 @@ MSBuild requires some additional assemblies to be installed to the GAC on the bu
 
     - %ProgramFiles%\Microsoft Visual Studio 11.0\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.VCProjectEngine.dll
 
-2. To install the assemblies to the GAC, locate gacutil.exe on the build computer—typically, it's in %ProgramFiles%\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\\. If you can't locate this folder, repeat the steps in the [Copying files from the host computer to the build computer](../ide/walkthrough-creating-a-multiple-computer-build-environment.md#CopyingFiles) section of this walkthrough.
+2. To install the assemblies to the GAC, locate *gacutil.exe* on the build computer—typically, it's in %ProgramFiles%\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\\. If you can't locate this folder, repeat the steps in the [Copy files from the host computer to the build computer](../ide/walkthrough-creating-a-multiple-computer-build-environment.md#CopyingFiles) section of this walkthrough.
 
-     Open a Command Prompt window that has administrative rights and run this command for each file:
+     Open a **Command Prompt** window that has administrative rights and run this command for each file:
 
      **gacutil -i \<file>**
 
     > [!NOTE]
     > A reboot may be required for an assembly to fully install into the GAC.
 
-## <a name="BuildingProjects"></a> Building projects
+## <a name="BuildingProjects"></a> Build projects
 
 You can use Team Foundation Build to build [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)] projects and solutions, or you can build them on the command line. When you use Team Foundation Build to build projects, it invokes the MSBuild executable that corresponds to the system architecture. On the command line, you can use either 32-bit MSBuild or 64-bit MSBuild, and you can choose the architecture of MSBuild by setting the PATH environment variable or by directly invoking the architecture-specific MSBuild executable.
 
-To use msbuild.exe at the command prompt, run the following command, in which *solution.sln* is a placeholder for the name of your solution.
+To use *msbuild.exe* at the command prompt, run the following command, in which *solution.sln* is a placeholder for the name of your solution.
 
 **msbuild** *solution.sln*
 
-For more information about how to use MSBuild on the command line, see [Command-Line Reference](../msbuild/msbuild-command-line-reference.md).
+For more information about how to use MSBuild on the command line, see [Command-line reference](../msbuild/msbuild-command-line-reference.md).
 
 > [!NOTE]
 > To build [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)] projects, you must use the "v110" Platform Toolset. If you don't want to edit the [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)] project files, you can set the Platform Toolset by using this command-line argument:
 >
 > **msbuild** *solution.sln* **/p:PlatformToolset=v110**
 
-## <a name="CreatingForSourceControl"></a> Creating the build environment so that it can be checked into source control
+## <a name="CreatingForSourceControl"></a> Create the build environment so that it can be checked into source control
 
 You can create a build environment that can be deployed to various computers and doesn't require GAC'ing files or modifying registry settings. The following steps are just one way to accomplish this. Adapt these steps to the unique characteristics of your build environment.
 
@@ -347,7 +347,7 @@ You can create a build environment that can be deployed to various computers and
 
      These steps refer to the directory as %Depot%.
 
-2. Copy the directories and files as described in the [Copying files from the host computer to the build computer](../ide/walkthrough-creating-a-multiple-computer-build-environment.md#CopyingFiles) section of this walkthrough, except paste them under the %Depot% directory that you just created. For example, copy from %ProgramFiles%\Windows Kits\8.0\bin\ to %Depot%\Windows Kits\8.0\bin\\.
+2. Copy the directories and files as described in the [Copy files from the host computer to the build computer](../ide/walkthrough-creating-a-multiple-computer-build-environment.md#CopyingFiles) section of this walkthrough, except paste them under the %Depot% directory that you just created. For example, copy from %ProgramFiles%\Windows Kits\8.0\bin\ to %Depot%\Windows Kits\8.0\bin\\.
 
 3. When the files are pasted in %Depot%, make these changes:
 
@@ -369,7 +369,7 @@ You can create a build environment that can be deployed to various computers and
 
          AssemblyFile="$(VCTargetsPath11)Microsoft.Build.CppTasks.Common.v110.dll".
 
-4. Create a .props file—for example, Partner.AutoImports.props—and put it at the root of the folder that contains your projects. This file is used to set variables that are used by MSBuild to find various resources. If the variables are not set by this file, they are set by other .props files and .targets files that rely on registry values. Because we aren't setting any registry values, these variables would be empty and the build would fail. Instead, add this to Partner.AutoImports.props:
+4. Create a *.props* file—for example, *Partner.AutoImports.props*—and put it at the root of the folder that contains your projects. This file is used to set variables that are used by MSBuild to find various resources. If the variables are not set by this file, they are set by other *.props* files and *.targets* files that rely on registry values. Because we aren't setting any registry values, these variables would be empty and the build would fail. Instead, add this to *Partner.AutoImports.props*:
 
     ```xml
     <?xml version="1.0" encoding="utf-8"?>
@@ -408,5 +408,5 @@ You can create a build environment that can be deployed to various computers and
 
 ## See also
 
-- [Preparing a Test Machine To Run a Debug Executable](/cpp/ide/preparing-a-test-machine-to-run-a-debug-executable)
-- [Command-Line Reference](../msbuild/msbuild-command-line-reference.md)
+- [Prepare a test machine to run a debug executable](/cpp/ide/preparing-a-test-machine-to-run-a-debug-executable)
+- [Command-line reference](../msbuild/msbuild-command-line-reference.md)
