@@ -1,6 +1,7 @@
 ---
 title: How to create and apply a resource
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-designers
 ms.topic: conceptual
 f1_keywords:
