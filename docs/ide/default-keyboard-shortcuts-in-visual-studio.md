@@ -1,6 +1,7 @@
 ---
 title: Default keyboard shortcuts in Visual Studio
 ms.date: 06/26/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 helpviewer_keywords:

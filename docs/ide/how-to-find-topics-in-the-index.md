@@ -1,6 +1,8 @@
 ---
 title: "Use Visual Studio Help Viewer index"
+ms.prod: visual-studio-dev15
 ms.technology:$1ms.date: 11/02/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-help-viewer
 ms.topic: conceptual
 helpviewer_keywords:

@@ -1,6 +1,7 @@
 ---
 title: Accessibility of Visual Studio Help Viewer
 ms.date: 11/02/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-help-viewer
 ms.topic: conceptual
 helpviewer_keywords:

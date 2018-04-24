@@ -1,6 +1,7 @@
 ---
 title: C# Code Snippets
 ms.date: 06/05/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 helpviewer_keywords:

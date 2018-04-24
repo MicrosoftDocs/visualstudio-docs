@@ -2,6 +2,7 @@
 title: "Quickstart: Create your first Universal Windows Platform application in Visual Studio with XAML and C# | Microsoft Docs"
 ms.custom: ""
 ms.date: "04/04/2018"
+ms.prod: visual-studio-dev15
 ms.technology:
   - "vs-acquisition"
 ms.topic: "quickstart"

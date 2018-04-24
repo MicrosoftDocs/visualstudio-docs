@@ -1,6 +1,7 @@
 ---
 title: Find in Files
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:

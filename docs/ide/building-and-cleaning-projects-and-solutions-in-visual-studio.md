@@ -1,6 +1,7 @@
 ---
 title: Building and Cleaning Projects and Solutions in Visual Studio
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-compile
 ms.topic: conceptual
 f1_keywords:

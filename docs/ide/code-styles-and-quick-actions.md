@@ -1,6 +1,7 @@
 ---
 title: Visual Studio code style preferences
 ms.date: 03/10/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
 author: gewarren
