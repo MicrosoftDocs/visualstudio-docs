@@ -1,5 +1,6 @@
 ---
 title: "Code Snippets"
+description: "How to use code snippets to program efficiently in Visual Studio for Mac"
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017

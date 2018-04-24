@@ -1,6 +1,6 @@
 ---
 title: "Task Comments"
-description: 
+description: "Adding task comments to your code"
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017
