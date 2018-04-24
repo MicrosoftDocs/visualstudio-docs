@@ -24,7 +24,7 @@ ms.workload:
 ---
 # Limitations of Windows Forms Controls on Office Documents
 
-There are some differences between Windows Forms controls that are added to Microsoft Office Word documents or Microsoft Office Excel worksheets, and Windows Forms controls that are added to Windows Forms. For example, when you add a <xref:Microsoft.Office.Tools.Word.Controls.Button> control to a document, properties such as <xref:Microsoft.Office.Tools.Word.Controls.Button.Dock>, <xref:Microsoft.Office.Tools.Word.Controls.Button.Anchor>, and <xref:Microsoft.Office.Tools.Word.Controls.Button.TabIndex> do not behave as you might expect.
+There are some differences between Windows Forms controls that are added to Microsoft Office Word documents or Microsoft Office Excel worksheets, and Windows Forms controls that are added to Windows Forms. For example, when you add a <xref:Microsoft.Office.Tools.Word.Controls.Button> control to a document, properties such as <xref:System.Windows.Forms.Control.Dock>, <xref:System.Windows.Forms.Control.Anchor>, and <xref:System.Windows.Forms.Control.TabIndex> do not behave as you might expect.
 
 Many of these differences are caused by the way that Windows Forms controls are hosted on documents. When a Windows Forms control is added to a document, the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] embeds an ActiveX control that then hosts the Windows Forms control in the document. The Windows Forms control is not embedded directly in the document.
 
@@ -32,30 +32,30 @@ Many of these differences are caused by the way that Windows Forms controls are 
 
 ## Limitations of Methods and Properties of Windows Forms Controls
 
-There are a number of methods and properties of Windows Forms controls that do not work the same way on a document as they would on a Windows Form and, therefore, it is recommended that they not be used. For example, setting properties such as <xref:Microsoft.Office.Tools.Word.Controls.Button.Dock> and <xref:Microsoft.Office.Tools.Word.Controls.Button.Anchor> only affects the position of the control with respect to the container ActiveX control, rather than the document. The following is a list of unsupported methods and properties of Windows Forms controls for Word and Excel:
+There are a number of methods and properties of Windows Forms controls that do not work the same way on a document as they would on a Windows Form and, therefore, it is recommended that they not be used. For example, setting properties such as <xref:System.Windows.Forms.Control.Dock> and <xref:System.Windows.Forms.Control.Anchor> only affects the position of the control with respect to the container ActiveX control, rather than the document. The following is a list of unsupported methods and properties of Windows Forms controls for Word and Excel:
 
 - Unsupported properties of Excel controls:
 
-    - <xref:Microsoft.Office.Tools.Word.Controls.Button.Anchor>
-    - <xref:Microsoft.Office.Tools.Word.Controls.Button.Dock>
-    - <xref:Microsoft.Office.Tools.Word.Controls.Button.Location>
-    - <xref:Microsoft.Office.Tools.Word.Controls.Button.TabIndex>
-    - <xref:Microsoft.Office.Tools.Word.Controls.Button.TabStop>
-    - <xref:Microsoft.Office.Tools.Word.Controls.Button.TopLevelControl>
+    - <xref:System.Windows.Forms.Control.Anchor>
+    - <xref:System.Windows.Forms.Control.Dock>
+    - <xref:System.Windows.Forms.Control.Location>
+    - <xref:System.Windows.Forms.Control.TabIndex>
+    - <xref:System.Windows.Forms.Control.TabStop>
+    - <xref:System.Windows.Forms.Control.TopLevelControl>
 
 - Unsupported methods and properties of Word controls:
 
-    - <xref:Microsoft.Office.Tools.Word.Controls.Button.Hide%2A>
-    - <xref:Microsoft.Office.Tools.Word.Controls.Button.Show%2A>
-    - <xref:Microsoft.Office.Tools.Word.Controls.Button.Anchor>
-    - <xref:Microsoft.Office.Tools.Word.Controls.Button.Dock>
-    - <xref:Microsoft.Office.Tools.Word.Controls.Button.Location>
-    - <xref:Microsoft.Office.Tools.Word.Controls.Button.TabIndex>
-    - <xref:Microsoft.Office.Tools.Word.Controls.Button.TabStop>
-    - <xref:Microsoft.Office.Tools.Word.Controls.Button.TopLevelControl>
-    - <xref:Microsoft.Office.Tools.Word.Controls.Button.Visible>
+    - <xref:System.Windows.Forms.Control.Hide%2A>
+    - <xref:System.Windows.Forms.Control.Show%2A>
+    - <xref:System.Windows.Forms.Control.Anchor>
+    - <xref:System.Windows.Forms.Control.Dock>
+    - <xref:System.Windows.Forms.Control.Location>
+    - <xref:System.Windows.Forms.Control.TabIndex>
+    - <xref:System.Windows.Forms.Control.TabStop>
+    - <xref:System.Windows.Forms.Control.TopLevelControl>
+    - <xref:System.Windows.Forms.Control.Visible>
 
-You also cannot set the <xref:Microsoft.Office.Tools.Word.Controls.Button.Left> or <xref:Microsoft.Office.Tools.Word.Controls.Button.Top> property of Windows Forms controls that are in line with text on a Word document. Windows Forms controls are added in line with text in the following cases:
+You also cannot set the <xref:System.Windows.Forms.Control.Left> or <xref:System.Windows.Forms.Control.Top> property of Windows Forms controls that are in line with text on a Word document. Windows Forms controls are added in line with text in the following cases:
 
 - You programmatically add a control to a Word document and use a method that specifies a range for the location.
 
