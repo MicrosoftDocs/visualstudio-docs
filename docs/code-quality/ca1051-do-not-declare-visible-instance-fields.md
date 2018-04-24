@@ -1,6 +1,7 @@
 ---
 title: "CA1051: Do not declare visible instance fields"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
