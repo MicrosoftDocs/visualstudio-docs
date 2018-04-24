@@ -276,7 +276,7 @@ When you create or update a tool window in your extension, you can add the same 
     System.Threading.Thread.Sleep(100);  
     ```  
   
-5.  Test the new settings by rebuilding the solution and starting to debugb.  
+5.  Test the new settings by rebuilding the solution and starting to debug.  
   
      The progress bar appears in the search window (as a blue line below the search text box) every time that you perform a search.  
   
