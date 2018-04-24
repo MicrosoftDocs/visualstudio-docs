@@ -5,7 +5,7 @@ ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
-  - AppPackage.Properties.Application"
+  - AppPackage.Properties.Application
 helpviewer_keywords:
   - "Application page [UWP project]"
 author: gewarren

@@ -1,5 +1,6 @@
 ---
 layout: LandingPage
+ms.date: 01/01/2018
 author: gewarren
 ms.author: gewarren
 title: Use data tools in Visual Studio to develop data solutions
