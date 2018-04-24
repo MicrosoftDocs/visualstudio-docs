@@ -1,6 +1,7 @@
 ---
 title: Find and use Visual Studio extensions
 ms.date: 06/07/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:

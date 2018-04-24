@@ -1,6 +1,7 @@
 ---
 title: "Sample Excel Extension: ExtensionPackage Class"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ms.topic: sample
 ms.author: gewarren

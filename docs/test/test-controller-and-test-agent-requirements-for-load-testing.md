@@ -9,6 +9,7 @@ ms.assetid: 372d97ce-12e4-46a9-9863-da508adba68f
 author: gewarren
 ms.author: gewarren
 manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # Test Controller and Test Agent Requirements for Load Testing

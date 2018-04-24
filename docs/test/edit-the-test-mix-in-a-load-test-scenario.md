@@ -11,6 +11,7 @@ ms.assetid: 303e1d70-5d98-424a-b51e-e0898e16d3f8
 author: gewarren
 ms.author: gewarren
 manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # Edit the Test Mix to Specify Which Web Performance, Unit and Coded UI Tests to Include in a Load Test Scenario

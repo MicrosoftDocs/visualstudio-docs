@@ -13,6 +13,7 @@ ms.assetid: 9e14d955-f3a4-4717-bbfe-7f08cdda5678
 author: gewarren
 ms.author: gewarren
 manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # Specify Counter Sets and Threshold Rules for Computers in a Load Test

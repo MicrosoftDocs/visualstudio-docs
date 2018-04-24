@@ -1,6 +1,7 @@
 ---
 title: "How to: Model 3D Terrain"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-designers
 ms.topic: conceptual
 ms.assetid: f779b1fd-82a9-4a11-8ab7-c1c9caabc883

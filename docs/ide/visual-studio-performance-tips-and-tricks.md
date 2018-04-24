@@ -1,6 +1,7 @@
 ---
 title: Visual Studio performance tips and tricks
 ms.date: 08/31/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
 ms.assetid: 2fbcb59e-e981-4b40-8b7a-c1140d31ec4b

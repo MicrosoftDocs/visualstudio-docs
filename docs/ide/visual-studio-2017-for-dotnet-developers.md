@@ -4,6 +4,7 @@ description: "Overview of Visual Studio 2017 features to help you write better .
 author: "kuhlenh"
 ms.author: "kaseyu"
 manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.date: 01/16/2018
 ms.topic: conceptual

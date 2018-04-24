@@ -1,6 +1,7 @@
 ---
 title: Keyboard and Mouse Shortcuts in the Class Diagram and Class Details Window (Class Designer)
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:

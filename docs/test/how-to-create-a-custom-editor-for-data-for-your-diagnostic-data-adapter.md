@@ -8,6 +8,7 @@ ms.assetid: 24970227-d1ea-4f6d-9839-e911478848ba
 author: gewarren
 ms.author: gewarren
 manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # How to: Create a Custom Editor for Data for Your Diagnostic Data Adapter

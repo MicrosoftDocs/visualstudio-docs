@@ -11,6 +11,7 @@ ms.assetid: a612f2d2-9806-477d-a126-12842f07da6e
 author: gewarren
 ms.author: gewarren
 manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # How to: Create a Web Performance Test Plug-In

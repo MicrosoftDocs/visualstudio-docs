@@ -10,6 +10,7 @@ ms.assetid: e17d0e71-f982-4fc1-a2df-a1065d37473d
 author: gewarren
 ms.author: gewarren
 manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # How to: Add Counters to Counter Sets Using the Load Test Editor

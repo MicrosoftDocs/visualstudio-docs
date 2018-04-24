@@ -1,6 +1,7 @@
 ---
 title: "Walkthrough: Create a simple application with C# or Visual Basic"
 ms.date: 10/03/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
 ms.topic: conceptual

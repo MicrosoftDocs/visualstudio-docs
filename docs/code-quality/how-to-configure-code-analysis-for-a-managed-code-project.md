@@ -1,6 +1,7 @@
 ---
 title: Configure Code Analysis in Visual Studio
 ms.date: 04/04/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: conceptual
 f1_keywords:

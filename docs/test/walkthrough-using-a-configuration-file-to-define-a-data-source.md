@@ -1,6 +1,7 @@
 ---
 title: "Walkthrough: Using a Configuration File to Define a Data Source in Visual Studio"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ms.topic: conceptual
 helpviewer_keywords: 

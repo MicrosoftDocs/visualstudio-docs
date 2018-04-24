@@ -1,6 +1,7 @@
 ---
 title: Working with 3D Assets for Games and Apps
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-designers
 ms.topic: conceptual
 f1_keywords:

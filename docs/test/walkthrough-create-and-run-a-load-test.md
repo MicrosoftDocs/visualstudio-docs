@@ -10,6 +10,7 @@ ms.assetid: bbf075a5-96d5-48ed-a03c-330f0fc04748
 author: gewarren
 ms.author: gewarren
 manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # Walkthrough: Create and Run a Load Test that contains Unit Tests

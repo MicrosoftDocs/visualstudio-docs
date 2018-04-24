@@ -10,6 +10,7 @@ ms.assetid: e15567bc-1f21-4feb-b81d-f17ba35cfde5
 author: gewarren
 ms.author: gewarren
 manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # How to: Use the Load Test API

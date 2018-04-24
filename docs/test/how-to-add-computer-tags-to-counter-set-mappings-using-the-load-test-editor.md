@@ -8,6 +8,7 @@ ms.assetid: f52a73e1-036a-4b28-a6c8-848284bf4488
 author: gewarren
 ms.author: gewarren
 manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # How to: Add Computer Tags to Counter Set Mappings Using the Load Test Editor
