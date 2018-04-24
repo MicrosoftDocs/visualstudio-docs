@@ -13,6 +13,7 @@ helpviewer_keywords:
 author: "kuhlenh"
 ms.author: "kaseyu"
 manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.workload:
   - "dotnet"

@@ -1,6 +1,7 @@
 ---
 title: Culture-Specific Classes for Global Windows Forms and Web Forms
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:

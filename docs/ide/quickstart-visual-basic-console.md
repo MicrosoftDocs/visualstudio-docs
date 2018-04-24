@@ -3,6 +3,7 @@ title: "Quickstart: Create your first console app in Visual Studio with Visual B
 description: "Learn how to create a simple console app in Visual Studio with Visual Basic, step-by-step."
 ms.custom: ""
 ms.date: 12/10/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
 ms.topic: quickstart

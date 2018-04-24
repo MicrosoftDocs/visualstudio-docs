@@ -1,6 +1,7 @@
 ---
 title: VC++ Project Settings, Projects and Solutions, Options Dialog Box
 ms.date: 08/02/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:

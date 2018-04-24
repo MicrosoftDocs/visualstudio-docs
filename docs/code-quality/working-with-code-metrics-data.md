@@ -1,6 +1,7 @@
 ---
 title: The Code Metrics Results window in Visual Studio
 ms.date: 12/12/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: "conceptual"
 f1_keywords:

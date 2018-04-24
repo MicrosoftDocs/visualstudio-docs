@@ -10,6 +10,7 @@ ms.assetid: 548bdc5e-338f-4be7-a555-e6a2efb1df6b
 author: gewarren
 ms.author: gewarren
 manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # Sample Project for Creating a Diagnostic Data Adapter

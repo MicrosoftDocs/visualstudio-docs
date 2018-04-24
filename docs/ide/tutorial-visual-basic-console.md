@@ -2,6 +2,7 @@
 title: "Getting started with Visual Basic in Visual Studio"
 ms.custom: ""
 ms.date: 12/08/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
 ms.topic: tutorial

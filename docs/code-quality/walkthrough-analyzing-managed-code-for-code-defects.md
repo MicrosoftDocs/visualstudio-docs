@@ -1,6 +1,7 @@
 ---
 title: Walkthrough Analyzing Managed Code for Code Defects | Microsoft Docs
 ms.date: 01/29/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: "conceptual"
 helpviewer_keywords:

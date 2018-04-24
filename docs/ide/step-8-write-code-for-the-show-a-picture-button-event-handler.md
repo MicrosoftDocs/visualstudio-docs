@@ -2,6 +2,7 @@
 title: "Step 8: Write Code for the Show a Picture Button Event Handler"
 ms.custom: ""
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
 ms.topic: conceptual

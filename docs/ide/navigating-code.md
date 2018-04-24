@@ -1,6 +1,7 @@
 ---
 title: Navigate code in Visual Studio
 ms.date: 09/26/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:

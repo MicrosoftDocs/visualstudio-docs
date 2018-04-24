@@ -2,6 +2,7 @@
 title: "Step 1: Create a Windows Forms Application Project"
 ms.custom: ""
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
 ms.topic: conceptual

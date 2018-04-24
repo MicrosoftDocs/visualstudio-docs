@@ -2,6 +2,7 @@
 title: What publishing options are right for me?
 ms.date: 03/09/2017
 ms.reviewer: "riande"
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-deployment
 ms.topic: conceptual
 helpviewer_keywords:

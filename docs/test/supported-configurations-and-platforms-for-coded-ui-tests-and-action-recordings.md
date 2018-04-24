@@ -1,6 +1,7 @@
 ---
 title: "Configurations and Platforms for Coded UI Tests in Visual Studio"
 ms.date: 2015-10-04
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ms.topic: reference
 helpviewer_keywords: 

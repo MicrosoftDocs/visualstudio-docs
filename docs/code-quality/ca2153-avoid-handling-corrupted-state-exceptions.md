@@ -1,6 +1,7 @@
 ---
 title: "CA2153: Avoid Handling Corrupted State Exceptions"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: reference
 author: gewarren

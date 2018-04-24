@@ -1,6 +1,7 @@
 ---
 title: "Use UI Automation To Test Your Code in Visual Studio"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ms.topic: conceptual
 f1_keywords:
