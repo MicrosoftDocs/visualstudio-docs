@@ -67,7 +67,7 @@ When creating a project from a framework-specific template, a dialog appears to 
 
 ![Dialog that installs needed packages for a project template](media/template-web-requirements-txt-wizard.png)
 
-If you're using source control, you typically omit then virtual environment folder as that environment can be recreated using only `requirements.txt`. The best way to exclude the folder is to first select the **I will install them myself** in the prompt shown above, then disable auto-commit before creating the virtual environment. For details, see [Learning Django Tutorial - Steps 1-2 and 1-3](learn-django-in-visual-studio-step-01-project-and-solution?branch=pr-en-us-1810#step-1-2-examine-the-git-controls-and-publish-to-a-remote-repository)
+If you're using source control, you typically omit then virtual environment folder as that environment can be recreated using only `requirements.txt`. The best way to exclude the folder is to first select the **I will install them myself** in the prompt shown above, then disable auto-commit before creating the virtual environment. For details, see [Learning Django Tutorial - Steps 1-2 and 1-3](learn-django-in-visual-studio-step-01-project-and-solution.md#step-1-2-examine-the-git-controls-and-publish-to-a-remote-repository)
 
 When deploying to Microsoft Azure App Service, select a version of Python as a [site extension](https://aka.ms/PythonOnAppService) and manually install packages. Also, because Azure App Service does **not** automatically install packages from a `requirements.txt` file when deployed from Visual Studio, follow the configuration details on [aka.ms/PythonOnAppService](https://aka.ms/PythonOnAppService).
 
