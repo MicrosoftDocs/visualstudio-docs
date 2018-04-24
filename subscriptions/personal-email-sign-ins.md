@@ -33,4 +33,4 @@ Finally, since the administrator migration is taking data from VLSC regarding th
 
 To correct the problem, you'll need to edit subscriber information to update their sign-in email addresses.  Edits can be made for individual subscribers, or in bulk. For complete information, please visit [Edit a subscription](/visualstudio/subscriptions/edit-license).  
 
-Once you have updated the subscriber(s) email address(es), you may want to notify them that their sign-in information has changed.  
+Once you have updated the subscriber(s) email address(es), you may want to notify them that their sign-in information has changed.  They will also receive an email with the updated information.   
