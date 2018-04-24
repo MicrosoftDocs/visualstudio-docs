@@ -1,5 +1,5 @@
 ---
-title: Tutorial - Learning Django in Visual Studio, step 4
+title: Tutorial - Learn Django in Visual Studio, step 4
 description: A walkthrough of Django basics in the context of Visual Studio projects, specifically the features provided by the Django Web Project template.
 ms.date: 04/16/2018
 ms.prod: visual-studio-dev15
@@ -14,7 +14,7 @@ ms.workload:
 
 # Tutorial step 4: Use the full Django Web Project template
 
-**Previous step: [Serve static files, add pages, and use template inheritance](learning-django-in-visual-studio-step-03-serve-static-files-and-add-pages.md)**
+**Previous step: [Serve static files, add pages, and use template inheritance](learn-django-in-visual-studio-step-03-serve-static-files-and-add-pages.md)**
 
 Now that you've explored the basics of Django by building an app upon the "Blank Django App Project" template in Visual Studio, you can easily understand the fuller app that's produced by the "Django Web Project" template.
 
@@ -55,7 +55,7 @@ The template also provides basic authentication, which is covered in the Step 5.
 
 1. You can leave the app running for the sections that follow.
 
-    If you want to stop the app and [commit changes to source control](learning-django-in-visual-studio-step-02-create-an-app.md#commit-to-source-control), first open the **Changes** page in **Team Explorer**, right-click the folder for the virtual environment (probably `env`), and select **Ignore these local items**.
+    If you want to stop the app and [commit changes to source control](learn-django-in-visual-studio-step-02-create-an-app.md#commit-to-source-control), first open the **Changes** page in **Team Explorer**, right-click the folder for the virtual environment (probably `env`), and select **Ignore these local items**.
 
 ### Examine what the template creates
 
@@ -66,7 +66,7 @@ At the broadest level, the "Django Web Project" template creates the following s
   - `db.sqlite3`, a default SQLite database.
   - `requirements.txt` containing a dependency on Django 1.x.
   - `readme.html`, a file that's displayed in Visual Studio after creating the a project. As noted in the previous section, follow the instructions here to create a super user (administrator) account for the app.
-- The `app` folder contains all the app files, including views, models, tests, forms, templates and static files (see step 4-2).
+- The `app` folder contains all the app files, including views, models, tests, forms, templates and static files (see step 4-2). You typically rename this folder to use a more distinctive app name.
 - The `DjangoWeb` (Django project) folder contains the typical Django project files: `__init.py__`, `settings.py`, `urls.py`, and `wsgi.py`. By using the project template, `settings.py` is already configured for the app and the database file, and `urls.py` is already configured with routes to all the app pages, including the login form.
 
 ### Question: Is it possible to share a virtual environment between Visual Studio projects?
@@ -98,7 +98,7 @@ def about(request):
     )
 ```
 
-Templates are located in the app's `templates/app` folder. The base template, `layout.html`, is the most extensive. It refers to all the necessary static files (JavaScript and CSS), defines a block named "content" that other pages override, and provides another block named "scripts". The following annotated excerpts from `layout.html` show these specific areas:
+Templates are located in the app's `templates/app` folder (and you typically want to rename `app` to the name of your real app). The base template, `layout.html`, is the most extensive. It refers to all the necessary static files (JavaScript and CSS), defines a block named "content" that other pages override, and provides another block named "scripts". The following annotated excerpts from `layout.html` show these specific areas:
 
 ```html
 <!DOCTYPE html>
@@ -207,9 +207,9 @@ Answer: The lack of the trailing '$' in the regular expression was a simple over
 ## Next steps
 
 > [!div class="nextstepaction"]
-> [Authenticate users in Django](learning-django-in-visual-studio-step-05-django-authentication.md)
+> [Authenticate users in Django](learn-django-in-visual-studio-step-05-django-authentication.md)
 
 ## Going deeper
 
 - [Writing your first Django app, part 4 - forms and generic views](https://docs.djangoproject.com/en/2.0/intro/tutorial04/) (docs.djangoproject.com)
-- Tutorial source code on GitHub: [Microsoft/python-sample-vs-learning-django](https://github.com/Microsoft/python-sample-vs-learning-django)
+- Tutorial source code on GitHub: [Microsoft/python-sample-vs-learn-django](https://github.com/Microsoft/python-sample-vs-learn-django)

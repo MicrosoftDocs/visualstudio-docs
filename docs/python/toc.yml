@@ -35,20 +35,20 @@
       href: tutorial-working-with-python-in-visual-studio-step-05-installing-packages.md
     - name: 6 - Working with Git
       href: tutorial-working-with-python-in-visual-studio-step-06-working-with-git.md
-  - name: Learning Django in Visual Studio
+  - name: Learn Django in Visual Studio
     items:    
     - name: 1 - Create a project and solution
-      href: learning-django-in-visual-studio-step-01-project-and-solution.md
+      href: learn-django-in-visual-studio-step-01-project-and-solution.md
     - name: 2 - Create a Django app
-      href: learning-django-in-visual-studio-step-02-create-an-app.md
+      href: learn-django-in-visual-studio-step-02-create-an-app.md
     - name: 3 - Serve static files and add pages
-      href: learning-django-in-visual-studio-step-03-serve-static-files-and-add-pages.md
+      href: learn-django-in-visual-studio-step-03-serve-static-files-and-add-pages.md
     - name: 4 - Use the Django Web Project template
-      href: learning-django-in-visual-studio-step-04-full-django-project-template.md
+      href: learn-django-in-visual-studio-step-04-full-django-project-template.md
     - name: 5 - Authenticate users
-      href: learning-django-in-visual-studio-step-05-django-authentication.md
+      href: learn-django-in-visual-studio-step-05-django-authentication.md
     - name: 6 - Use the Polls Django Web Project template
-      href: learning-django-in-visual-studio-step-06-polls-django-web-project-template.md
+      href: learn-django-in-visual-studio-step-06-polls-django-web-project-template.md
 
 - name: Concepts
   items:

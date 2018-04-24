@@ -1,5 +1,5 @@
 ---
-title: Tutorial - Learning Django in Visual Studio, step 1
+title: Tutorial - Learn Django in Visual Studio, step 1
 description: A walkthrough of Django basics in the context of Visual Studio projects, demonstrating the support Visual Studio provides for Django development.
 ms.date: 04/16/2018
 ms.prod: visual-studio-dev15
@@ -91,7 +91,7 @@ Because you selected the **Create new Git repository** in the **New Project** di
 
     ![Team Explorer window showing available Git repository options for source control](media/django/step01-team-explorer.png)
 
-    You can choose whichever service you want for your own projects. This tutorial shows the use of GitHub, where the completed sample code for the tutorial is maintained in the [Microsoft/python-sample-vs-learning-django](https://github.com/Microsoft/python-sample-vs-learning-django) repository.
+    You can choose whichever service you want for your own projects. This tutorial shows the use of GitHub, where the completed sample code for the tutorial is maintained in the [Microsoft/python-sample-vs-learn-django](https://github.com/Microsoft/python-sample-vs-learn-django) repository.
 
 1. When selecting any of the **Publish** controls, **Team Explorer** prompts you for more information. For example, when publishing the sample for this tutorial, the repository itself had to be created first, in which case we used the **Push to Remote Repository** option, copied in the repository's URL, and selected **Publish**.
 
@@ -189,10 +189,10 @@ Answer: In addition to the **Debug** menu commands and toolbar buttons, you can 
 At this point, the basic Django project does not contain any apps. You create an app in the next step. Because you typically work with Django apps more than the Django project, you won't need to know much more about the boilerplate files at present.
 
 > [!div class="nextstepaction"]
-> [Create a Django app with views and page templates](learning-django-in-visual-studio-step-02-create-an-app.md)
+> [Create a Django app with views and page templates](learn-django-in-visual-studio-step-02-create-an-app.md)
 
 ## Going deeper
 
 - Django project code: [Writing your first Django app, part 1](https://docs.djangoproject.com/en/2.0/intro/tutorial01/) (docs.djangoproject.com)
 - Administrative utility: [django-admin and manage.py](https://docs.djangoproject.com/en/2.0/ref/django-admin/) (docs.djangoproject.com)
-- Tutorial source code on GitHub: [Microsoft/python-sample-vs-learning-django](https://github.com/Microsoft/python-sample-vs-learning-django)
+- Tutorial source code on GitHub: [Microsoft/python-sample-vs-learn-django](https://github.com/Microsoft/python-sample-vs-learn-django)

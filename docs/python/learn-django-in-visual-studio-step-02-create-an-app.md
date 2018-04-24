@@ -1,5 +1,5 @@
 ---
-title: Tutorial - Learning Django in Visual Studio, step 2
+title: Tutorial - Learn Django in Visual Studio, step 2
 description: A walkthrough of Django basics in the context of Visual Studio projects, specifically steps of creating an app and using views and templates.
 ms.date: 04/16/2018
 ms.prod: visual-studio-dev15
@@ -14,7 +14,7 @@ ms.workload:
 
 # Tutorial step 2: Create a Django app with views and page templates
 
-**Previous step: [Create a Visual Studio project and solution](learning-django-in-visual-studio-step-01-project-and-solution.md)**
+**Previous step: [Create a Visual Studio project and solution](learn-django-in-visual-studio-step-01-project-and-solution.md)**
 
 What you have so far in the Visual Studio project are only the site-level components of a Django *project*, which can run one or more Django *apps*. The next step is to create your first app with a single page.
 
@@ -46,7 +46,7 @@ Using either method, create an app with the name "HelloDjangoApp". The result is
 | --- | --- |
 | `__init.py__` | The file that identifies the app as a package. |
 | `migrations` | A folder in which Django stores scripts that update the database to align with changes to the models. Django's migration tools then apply the necessary changes to any previous version of the database so that it matches the current models. Using migrations, you keep your focus on your models and let Django handle the underlying database schema. Migrations are discussed in step 6; for now, the folder simply contains an `__init.py__` file (indicating that the folder defines its own Python package). |
-| `templates` | A folder for Django page templates containing a single file `index.html`. Templates are blocks of HTML into which views can add information to dynamically render a page. Page template "variables," such as `{{ content }}` in `index.html`, are placeholders for dynamic values as explained later in this article (step 2). |
+| `templates` | A folder for Django page templates containing a single file `index.html`. Templates are blocks of HTML into which views can add information to dynamically render a page. Page template "variables," such as `{{ content }}` in `index.html`, are placeholders for dynamic values as explained later in this article (step 2). Typically Django apps create a namespace for their templates by placing them in a subfolder that matches the app name. |
 | `admin.py` | The Python file in which you extend the app's administrative interface (see step 6), which is used to see and edit data in a database. Initially, this file contains only the statement, `from django.contrib import admin`. By default, Django includes a standard administrative interface through entries in the Django project's `settings.py` file, which you can turn on by uncommenting existing entries in `urls.py`. |
 | `apps.py` | A Python file that defines a configuration class for the app (see below, after this table). |
 | `models.py` | Models are data objects, identified by functions, through which views interact with the app's underlying database (see step 6). Django provides the database connection layer so that apps don't need to concern themselves with those details. The `models.py` file is a default place in which to create your models, and initially contains only the statement, `from django.db import models`. |
@@ -201,9 +201,7 @@ The following steps demonstrate the use of page templates:
         )
     ```
 
-    The first argument to `render`, as you can see, is the request object, followed by the relative path to the template file within the app's `templates` folder. Typically, a template file is named for the page that uses it, if appropriate. You can also organize templates into subfolders within `templates`, in which case you prepend folder names to the filename argument.
-
-    The third argument is then a dictionary of variables that the template refers to. You can include objects in the dictionary, in which case a varaible in the template can refer to `{{ object.property }}`.
+    The first argument to `render`, as you can see, is the request object, followed by the relative path to the template file within the app's `templates` folder. A template file is named for the view is supports, if appropriate. The third argument to `render` is then a dictionary of variables that the template refers to. You can include objects in the dictionary, in which case a varaible in the template can refer to `{{ object.property }}`.
 
 1. Run the project and observe the output. You should see the a similar message to that seen step 2-2, indicating that the template works.
 
@@ -246,6 +244,8 @@ The following steps demonstrate the use of page templates:
     >
     > ![Restart button on the debugging toolbar in Visual Studio](media/debugging-restart-toolbar-button.png)
 
+1. <a name="template-namespacing"></a>As a final step, move your templates into a subfolder named the same as your app, which create namespaces and avoids potential conflicts with other apps you might add to the project. That is, create a subfolder in `templates` named `HelloDjangoApp`, move `index.html` into that subfolder, and modify the `index` view function to refer to the template's new path, `HelloDjangoApp/index.html`. Then run the project, verify that the page renders properly, and stop the server.
+
 1. Commit your changes to source control and update your remote repository, if desired, as described under [step 2-2](#commit-to-source-control).
 
 ### Question: do page templates have to be in a separate file?
@@ -262,14 +262,18 @@ In fact, when you're working with a Django project, Visual Studio automatically 
 
 Answer: If you see errors that the template cannot be found, make sure you added the app to the Django project's `settings.py` in the `INSTALLED_APPS` list. Without that entry, Django won't know to look in the app's `templates` folder.
 
+### Question: Why is template namespacing important?
+
+Answer: When Django looks for a template referred to in the `render` function, it uses whatever file it finds first that matches the relative path. If you have multiple Django apps in the same project that use the same folder structures for templates, it's likely that one app will unintentionally use a template from another app. To avoid this, always create a subfolder under an app's `templates` folder that matches the name of the app to avoid any and all duplication.
+
 ## Next steps
 
 > [!div class="nextstepaction"]
-> [Serve static files, add pages, and use template inheritance](learning-django-in-visual-studio-step-03-serve-static-files-and-add-pages.md)
+> [Serve static files, add pages, and use template inheritance](learn-django-in-visual-studio-step-03-serve-static-files-and-add-pages.md)
 
 ## Going deeper
 
 - [Writing your first Django app, part 1 - views](https://docs.djangoproject.com/en/2.0/intro/tutorial01/#write-your-first-view) (docs.djangoproject.com)
 - For more capabilities of Django templates, such as includes and inheritance, see [The Django template language](https://docs.djangoproject.com/en/2.0/ref/templates/language/) (docs.djangoproject.com)
 - [Regular expression training on inLearning](https://www.linkedin.com/learning/topics/regular-expressions) (LinkedIn)
-- Tutorial source code on GitHub: [Microsoft/python-sample-vs-learning-django](https://github.com/Microsoft/python-sample-vs-learning-django)
+- Tutorial source code on GitHub: [Microsoft/python-sample-vs-learn-django](https://github.com/Microsoft/python-sample-vs-learn-django)

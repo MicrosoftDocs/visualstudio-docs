@@ -1,5 +1,5 @@
 ---
-title: Tutorial - Learning Django in Visual Studio, step 6
+title: Tutorial - Learn Django in Visual Studio, step 6
 description: A walkthrough of Django basics in the context of Visual Studio projects, specifically the features of the Polls Django Web Project template such as administrative customization.
 ms.date: 04/16/2018
 ms.prod: visual-studio-dev15
@@ -14,7 +14,7 @@ ms.workload:
 
 # Tutorial step 6: Use the Polls Django Web Project template
 
-**Previous step: [Authenticate users in Django](learning-django-in-visual-studio-step-05-django-authentication.md)**
+**Previous step: [Authenticate users in Django](learn-django-in-visual-studio-step-05-django-authentication.md)**
 
 Having understood Visual Studio's "Django Web Project" template, you can now look at the third Django template, "Polls Django Web Project", which builds upon the same code base and demonstrates working with a database.
 
@@ -55,7 +55,7 @@ A project created using this template is similar to what you get by following th
 
 1. You can leave the app running for the sections that follow.
 
-    If you want to stop the app and [commit changes to source control](learning-django-in-visual-studio-step-02-create-an-app.md#commit-to-source-control), first open the **Changes** page in **Team Explorer**, right-click the folder for the virtual environment (probably `env`), and select **Ignore these local items**.
+    If you want to stop the app and [commit changes to source control](learn-django-in-visual-studio-step-02-create-an-app.md#commit-to-source-control), first open the **Changes** page in **Team Explorer**, right-click the folder for the virtual environment (probably `env`), and select **Ignore these local items**.
 
 ### Examine the project contents
 
@@ -349,12 +349,14 @@ admin.site.register(Poll, PollAdmin)
 
 As you can see, the `PollAdmin` class derives from `django.contrib.admin.ModelAdmin` and customizes a number of its fields using names from the `Poll` model, which it manages. These fields are described on [ModelAdmin options](https://docs.djangoproject.com/en/2.0/ref/contrib/admin/#modeladmin-options) in the Django documentation.
 
-The call to `admin.site.register` then connects that class to the model (`Poll`) and includes it on the admin interface.
+The call to `admin.site.register` then connects that class to the model (`Poll`) and includes it on the admin interface. The overall result is shown below:
+
+![Administrative view of the Polls Django Web Project app](media/django/step06-polls-administrative-interface.png)
 
 ## Next steps
 
 > [!Note]
-> If you've been committing your Visual Studio solution to source control throughout the course of this tutorial, now is a good time to do another commit. Your solution should match the tutorial source code on GitHub: [Microsoft/python-sample-vs-learning-django](https://github.com/Microsoft/python-sample-vs-learning-django).
+> If you've been committing your Visual Studio solution to source control throughout the course of this tutorial, now is a good time to do another commit. Your solution should match the tutorial source code on GitHub: [Microsoft/python-sample-vs-learn-django](https://github.com/Microsoft/python-sample-vs-learn-django).
 
 You've now explored the entirety of the "Blank Django Web Project", "Django Web Project", and "Polls Django Web Project" templates in Visual Studio. You've learned all the basics of Django such as using views and templates, and have explored routing, authentication, and using database models. You should now be able to create a web app of your own with any views and models that you need.
 

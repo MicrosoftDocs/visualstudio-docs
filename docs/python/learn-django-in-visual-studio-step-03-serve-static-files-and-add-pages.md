@@ -1,5 +1,5 @@
 ---
-title: Tutorial - Learning Django in Visual Studio, step 3
+title: Tutorial - Learn Django in Visual Studio, step 3
 description: A walkthrough of Django basics in the context of Visual Studio projects, specifically demonstrating how to serve static files, add pages to the app, and use template inheritance
 ms.date: 04/16/2018
 ms.prod: visual-studio-dev15
@@ -14,7 +14,7 @@ ms.workload:
 
 # Tutorial step 3: Serve static files, add pages, and use template inheritance
 
-**Previous step: [Create a Django app with views and page templates](learning-django-in-visual-studio-step-02-create-an-app.md)**
+**Previous step: [Create a Django app with views and page templates](learn-django-in-visual-studio-step-02-create-an-app.md)**
 
 In the previous steps of this tutorial you've learned how to create a very basic Django app with a single page of self-contained HTML. Modern web apps, however are typically composed of many pages, and make use of shared resources like CSS and JavaScript and file to provide consistent styling and behavior.
 
@@ -59,7 +59,9 @@ You can organize files using any folder structure within `static` that you like,
 
 1. In **Solution Explorer**, right-click the "HelloDjangoApp" folder in the Visual Studio project, select **Add** > **New folder**, and name the folder `static`.
 
-1. Right-click the `static` folder and select **Add** > **New item**. In the dialog that appears, select the "Stylesheet" template, name the file `site.css`, and select **OK**. The `site.css` file appears in the project and is opened in the editor.
+1. Right-click the `static` folder and select **Add** > **New item**. In the dialog that appears, select the "Stylesheet" template, name the file `site.css`, and select **OK**. The `site.css` file appears in the project and is opened in the editor. Your folder structure should appear similar to the following image:
+
+    ![Static file structure as shown in Solution Explorer](media/django/step03-static-file-structure.png)
 
 1. Replace the contents of `site.css` with the following code and save the file:
 
@@ -70,7 +72,7 @@ You can organize files using any folder structure within `static` that you like,
     }
     ```
 
-1. Replace the contents of the app's `templates/index.html` file with the following code, which replaces the `<strong>` element used in step 2 with a `<span>` that references the `message` style class. Using a style class in this way gives you much more flexibility in styling the element.
+1. Replace the contents of the app's `templates/HelloDjangoApp/index.html` file with the following code, which replaces the `<strong>` element used in step 2 with a `<span>` that references the `message` style class. Using a style class in this way gives you much more flexibility in styling the element. (If you haven't moved `index.html` into a subfolder in `templates`, refer to [template namespacing](learn-django-in-visual-studio-step-02-create-an-app.md#template-namespacing) in step 2.)
 
     ```html
     <html>
@@ -85,7 +87,7 @@ You can organize files using any folder structure within `static` that you like,
     </html>
     ```
 
-1. Run the project to observe the results. Stop the server when done, and commit your changes to source control if you like (as explained in [step 2](learning-django-in-visual-studio-step-02-create-an-app.md#commit-to-source-control)).
+1. Run the project to observe the results. Stop the server when done, and commit your changes to source control if you like (as explained in [step 2](learn-django-in-visual-studio-step-02-create-an-app.md#commit-to-source-control)).
 
 ### Question: what is purpose of the {% load staticfiles %} tag?
 
@@ -105,7 +107,7 @@ Adding another page to the app means the following:
 
 The following steps add an "About" page to the "HelloDjangoApp" project, and links to that page from the home page:
 
-1. In **Solution Explorer**, right-click the `HelloDjangoApp/template` folder, select **Add** > **New item**, select the "HTML Page" item template, name the file `about.html`, and select **OK**.
+1. In **Solution Explorer**, right-click the `templates/HelloDjangoApp` folder, select **Add** > **New item**, select the "HTML Page" item template, name the file `about.html`, and select **OK**.
 
     > [!Tip]
     > If the **New Item** command doesn't appear on the **Add** menu, make sure that you've stopped the server so that Visual Studio exits debugging mode.
@@ -132,7 +134,7 @@ The following steps add an "About" page to the "HelloDjangoApp" project, and lin
     def about(request):
         return render(
             request,
-            "about.html",
+            "HelloDjangoApp/about.html",
             {
                 'title' : "About HelloDjangoApp",
                 'content' : "Example app page for Django."
@@ -146,7 +148,7 @@ The following steps add an "About" page to the "HelloDjangoApp" project, and lin
     url(r'^about$', HelloDjangoApp.views.about, name='about'),
     ```
 
-1. Open the app's `templates/index.html` file and add the following line below the `<body>` element to link to the About page (again, you replace this link with a nav bar in step 3-4):
+1. Open the `templates/HelloDjangoApp/index.html` file and add the following line below the `<body>` element to link to the About page (again, you replace this link with a nav bar in step 3-4):
 
     ```html
     <div><a href="about">About</a></div>
@@ -168,15 +170,17 @@ Instead of having explicit navigation links on each page, modern web apps typica
 
 Django's templating system provides two means for reusing specific elements across multiple templates: includes and inheritance.
 
-- *Includes* are other page templates that you insert at a specific place in the referring template using the syntax `{% include <template_path> %}` where `<template_path>` points to the included template file relative to the `templates` folder (`../` or `./` are allowed too). You can even use a variable if you want to change the path dynamically in code. Includes are typically used in the body of a page to pull in the shared template at a specific location on the page.
+- *Includes* are other page templates that you insert at a specific place in the referring template using the syntax `{% include <template_path> %}`. You can also use a variable if you want to change the path dynamically in code. Includes are typically used in the body of a page to pull in the shared template at a specific location on the page.
 
 - *Inheritance* uses the `{% extends <template_path> %}` at the beginning of a page template to specify a shared base template that the referring template then builds upon. Inheritance is commonly used to define a shared layout, nav bar, and other structures for an app's pages, such that referring templates need only add or modify specific areas of the base template called *blocks*.
+
+In both cases, `<template_path>` is relative to the app's `templates` folder (`../` or `./` are also allowed).
 
 A base template delineates blocks using `{% block <block_name> %}` and `{% endblock %}` tags. If a referring template then uses tags with the same block name, its block content override that of the base template.
 
 The following steps demonstrate inheritance:
 
-1. In the app's `templates` folder, create a new HTML file (using the **Add** > **New item** context menu or **Add** > **HTML Page**) called `layout.html`, and paste in the contents below. You can see that this template contains a block named "content" that is all that the referring pages need to replace:
+1. In the app's `templates/HelloDjangoApp` folder, create a new HTML file (using the **Add** > **New item** context menu or **Add** > **HTML Page**) called `layout.html`, and paste in the contents below. You can see that this template contains a block named "content" that is all that the referring pages need to replace:
 
     ```html
     <!DOCTYPE html>
@@ -238,19 +242,19 @@ The following steps demonstrate inheritance:
     }
     ```
 
-1. Modify `templates/index.html` to refer to the base template and override the content block. You can see that by using inheritance, this template becomes very simple:
+1. Modify `templates/HelloDjangoApp/index.html` to refer to the base template and override the content block. You can see that by using inheritance, this template becomes very simple:
 
     ```html
-    {% extends "layout.html" %}
+    {% extends "HelloDjangoApp/layout.html" %}
     {% block content %}
     <span class="message">{{ message }}</span>{{ content }}
     {% endblock %}
     ```
 
-1. Modify `templates/about.html` to also refer to the base template and override the content block:
+1. Modify `templates/HelloDjangoApp/about.html` to also refer to the base template and override the content block:
 
     ```html
-    {% extends "layout.html" %}
+    {% extends "HelloDjangoApp/layout.html" %}
     {% block content %}
     {{ content }}
     {% endblock %}
@@ -258,16 +262,18 @@ The following steps demonstrate inheritance:
 
 1. Run the server to observe the results. Close the server when done.
 
-1. Because you'd made substantial changes to the app, it's again a good time to [commit your changes to source control](learning-django-in-visual-studio-step-02-create-an-app.md#commit-to-source-control).
+    ![Running app showing the nav bar](media/django/step03-nav-bar.png)
+
+1. Because you'd made substantial changes to the app, it's again a good time to [commit your changes to source control](learn-django-in-visual-studio-step-02-create-an-app.md#commit-to-source-control).
 
 ## Next steps
 
 > [!div class="nextstepaction"]
-> [Use the full Django Web Project template](learning-django-in-visual-studio-step-04-full-django-project-template.md)
+> [Use the full Django Web Project template](learn-django-in-visual-studio-step-04-full-django-project-template.md)
 
 ## Going deeper
 
 - [Writing your first Django app, part 3 (views)](https://docs.djangoproject.com/en/2.0/intro/tutorial03/) (docs.djangoproject.com)
 - For more capabilities of Django templates, such as control flow, see [The Django template language](https://docs.djangoproject.com/en/2.0/ref/templates/language/) (docs.djangoproject.com)
 - For complete details on using the `{% url %}` tag, see [url](https://docs.djangoproject.com/en/2.0/ref/templates/builtins/#url) within the [Built-in template tags and filters for Django templates reference](https://docs.djangoproject.com/en/2.0/ref/templates/builtins/) (docs.djangoproject.com)
-- Tutorial source code on GitHub: [Microsoft/python-sample-vs-learning-django](https://github.com/Microsoft/python-sample-vs-learning-django)
+- Tutorial source code on GitHub: [Microsoft/python-sample-vs-learn-django](https://github.com/Microsoft/python-sample-vs-learn-django)

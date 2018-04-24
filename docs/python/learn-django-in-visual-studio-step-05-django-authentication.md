@@ -1,5 +1,5 @@
 ---
-title: Tutorial - Learning Django in Visual Studio, step 5
+title: Tutorial - Learn Django in Visual Studio, step 5
 description: A walkthrough of Django basics in the context of Visual Studio projects, specifically authentication features as provided by the Django Web Project templates.
 ms.date: 04/16/2018
 ms.prod: visual-studio-dev15
@@ -14,7 +14,7 @@ ms.workload:
 
 # Tutorial step 5: Authenticate users in Django
 
-**Previous step: [Use the full Django Web Project template](learning-django-in-visual-studio-step-04-full-django-project-template.md)**
+**Previous step: [Use the full Django Web Project template](learn-django-in-visual-studio-step-04-full-django-project-template.md)**
 
 Because authentication is a common need for web apps, the "Django Web Project" template includes a basic authentication flow. (The "Polls Django Web Project" template discussed in step 6 of this tutorial also includes the same flow.) When using any of the Django project templates, Visual Studio includes all the necessary modules for authentication in the Django project's `settings.py`.
 
@@ -199,9 +199,9 @@ Answer: The `{% crsf_token %}` tag includes Django's built-in [cross-site reques
 ## Next steps
 
 > [!div class="nextstepaction"]
-> [Use the Polls Django Web Project template](learning-django-in-visual-studio-step-06-polls-django-web-project-template.md)
+> [Use the Polls Django Web Project template](learn-django-in-visual-studio-step-06-polls-django-web-project-template.md)
 
 ## Going deeper
 
 - [User authentication in Django](https://docs.djangoproject.com/en/2.0/topics/auth/) (docs.djangoproject.com)
-- Tutorial source code on GitHub: [Microsoft/python-sample-vs-learning-django](https://github.com/Microsoft/python-sample-vs-learning-django)
+- Tutorial source code on GitHub: [Microsoft/python-sample-vs-learn-django](https://github.com/Microsoft/python-sample-vs-learn-django)
