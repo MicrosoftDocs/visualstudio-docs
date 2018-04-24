@@ -1,6 +1,7 @@
 ---
 title: Find code using Go To commands
 ms.date: 09/26/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
 ms.assetid: 509b2107-23d1-4fb3-987f-ab99ef45b72e

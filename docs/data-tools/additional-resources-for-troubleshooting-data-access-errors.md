@@ -223,6 +223,7 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 robots: noindex,nofollow
+ms.prod: visual-studio-dev15
 ms.technology: vs-data-tools
 ms.workload:
   - "data-storage"

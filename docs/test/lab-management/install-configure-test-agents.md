@@ -1,6 +1,7 @@
 ---
 title: "Install test agents and test controllers for Visual Studio"
 ms.date: 03/02/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ms.topic: conceptual
 helpviewer_keywords:

@@ -1,6 +1,7 @@
 ---
 title: Extend dependency diagrams
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ms.topic: conceptual
 helpviewer_keywords:

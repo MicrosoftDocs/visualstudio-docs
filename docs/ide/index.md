@@ -1,10 +1,12 @@
 ---
-title: Visual Studio documentation | Microsoft Docs
+title: Visual Studio documentation
 description: Learn how Visual Studio helps you develop apps using a variety of programming languages.
+ms.date: 01/01/2018
 layout: LandingPage
 author: gewarren
 ms.author: gewarren
 ms.topic: landing-page
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.workload:
   - "multiple"

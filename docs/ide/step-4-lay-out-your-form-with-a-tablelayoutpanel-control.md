@@ -2,6 +2,7 @@
 title: "Step 4: Lay Out Your Form with a TableLayoutPanel Control"
 ms.custom: ""
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
 ms.topic: conceptual

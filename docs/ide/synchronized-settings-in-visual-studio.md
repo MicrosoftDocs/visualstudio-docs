@@ -1,6 +1,7 @@
 ---
 title: Synchronize your settings in Visual Studio
 ms.date: 01/23/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:

@@ -2,6 +2,7 @@
 title: "Sign in to Visual Studio"
 ms.custom: ""
 ms.date: 11/16/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
 ms.topic: conceptual
 ms.prod: visual-studio-dev15

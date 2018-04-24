@@ -7,6 +7,7 @@ ms.author: mblome
 manager: wpickett
 dev_langs:
  - CPP
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ---
 # Using the C++ Core Guidelines checkers
