@@ -74,37 +74,6 @@ When you create or update a tool window in your extension, you can add the same 
   
      This code adds a public <xref:System.Windows.Controls.TextBox> property  named **SearchResultsTextBox** and a public string property named **SearchContent**. In the constructor, SearchResultsTextBox is set to the text box, and SearchContent is initialized to a newline-delimited set of strings. The content of the text box is also initialized to the set of strings.  
   
-    ```csharp  
-    public partial class TestSearchControl : UserControl  
-    {  
-        public TextBox SearchResultsTextBox { get; set; }  
-        public string SearchContent { get; set; }  
-  
-        public TestSearchControl()  
-        {  
-            InitializeComponent();  
-  
-            this.SearchResultsTextBox = resultsTextBox;  
-            this.SearchContent = BuildContent();  
-  
-            this.SearchResultsTextBox.Text = this.SearchContent;  
-        }  
-  
-        private string BuildContent()  
-        {  
-            StringBuilder sb = new StringBuilder();  
-            sb.AppendLine("1 go");  
-            sb.AppendLine("2 good");  
-            sb.AppendLine("3 Go");  
-            sb.AppendLine("4 Good");  
-            sb.AppendLine("5 goodbye");  
-            sb.AppendLine("6 Goodbye");  
-  
-            return sb.ToString();  
-        }  
-    }  
-    ```  
-  
      [!code-csharp[ToolWindowSearch#1](../extensibility/codesnippet/CSharp/adding-search-to-a-tool-window_1.cs)]
      [!code-vb[ToolWindowSearch#1](../extensibility/codesnippet/VisualBasic/adding-search-to-a-tool-window_1.vb)]  
   
