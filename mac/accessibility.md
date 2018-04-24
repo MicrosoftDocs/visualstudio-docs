@@ -1,10 +1,6 @@
 ---
 title: "Accessibility"
-<<<<<<< HEAD
 description: "This article introduces the accessibility features in Visual Studio for Mac and how they can be enabled."
-=======
-description: 
->>>>>>> MicrosoftDocs/master
 author: asb3993
 ms.author: amburns
 ms.date: 08/15/2017

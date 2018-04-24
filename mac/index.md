@@ -1,10 +1,6 @@
 ---
 title: "Introducing Visual Studio for Mac"
-<<<<<<< HEAD
 description: "This article introduces the features of Visual Studio for Mac"
-=======
-description: 
->>>>>>> MicrosoftDocs/master
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017

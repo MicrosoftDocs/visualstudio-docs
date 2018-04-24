@@ -1,10 +1,6 @@
 ---
 title: "Editor Behavior"
-<<<<<<< HEAD
 description: "This articles describes the various options that can be used to modify the text editor behavior in Visual Studio for Mac"
-=======
-description: 
->>>>>>> MicrosoftDocs/master
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017

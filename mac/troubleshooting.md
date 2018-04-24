@@ -1,12 +1,7 @@
 ---
-<<<<<<< HEAD
-title: "Troubleshooting"
-description: 
-=======
 title: "Visual Studio for Mac Troubleshooting"
 description: "Common issues and resolutions for Visual Studio for Mac users."
 ms.topic: troubleshooting
->>>>>>> MicrosoftDocs/master
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017

@@ -1,9 +1,6 @@
 ---
 title: "Block Selection"
-<<<<<<< HEAD
 description: "This article explains how to use the block selection feature in Visual Studio for Mac"
-=======
->>>>>>> MicrosoftDocs/master
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017

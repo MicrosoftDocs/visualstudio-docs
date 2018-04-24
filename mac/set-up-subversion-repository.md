@@ -1,9 +1,5 @@
 ---
-<<<<<<< HEAD
 title: Setting Up a Subversion Repository
-=======
-title: Setting Up a Subversion Repository in Visual Studio for Mac
->>>>>>> MicrosoftDocs/master
 description: Using Git and Subversion in Visual Studio for Mac.
 author: asb3993
 ms.author: amburns
