@@ -31,7 +31,7 @@ The first step in creating a matching game is to create the project and add a ta
 
 5.  Display the toolbox by choosing the **Toolbox** tab on the left side of the IDE.  
 
-6.  Drag a `TableLayoutPanel` control from the **Containers** category in the toolbox, and then set the following properties for it.  
+6.  Drag a <xref:System.Windows.Forms.TableLayoutPanel> control from the **Containers** category in the toolbox, and then set the following properties for it.  
 
     1.  Set the **BackColor** property to **CornflowerBlue**. To do this, open the **BackColor** dialog box by choosing the drop-down arrow next to the **BackColor** property in the **Properties** window.  Then, choose the **Web** tab in the **BackColor** dialog box to view a list of available color names.  
 
@@ -52,7 +52,7 @@ The first step in creating a matching game is to create the project and add a ta
 
 7.  Be certain that the TableLayoutPanel is selected in the form editor. To verify this, you should see **tableLayoutPanel1** at the top of the **Properties** window. If it is not selected, choose the TableLayoutPanel on the form, or choose it in the dropdown control at the top of the **Properties** window.  
   
-     While the TableLayoutPanel is selected, open the toolbox and add a `Label` control (located in the **Common Controls** category) to the upper-left cell of the TableLayoutPanel. The label control should now be selected in the IDE. Set the following properties for it.  
+     While the TableLayoutPanel is selected, open the toolbox and add a <xref:System.Windows.Forms.Label> control (located in the **Common Controls** category) to the upper-left cell of the TableLayoutPanel. The label control should now be selected in the IDE. Set the following properties for it.  
   
     1.  Be sure that the label's **BackColor** property is set to **CornflowerBlue**.  
 
@@ -73,10 +73,10 @@ The first step in creating a matching game is to create the project and add a ta
         > [!NOTE]
         >  The Webdings font is a font of icons that ships with the Windows operating system. In your matching game, the player needs to match pairs of icons, so you use this font to display the icons to match. Instead of putting **c** in the **Text** property, try entering different letters to see what icons are displayed. An exclamation point is a spider, an uppercase N is an eye, and a comma is a chili pepper.  
   
-8.  Choose your label control and copy it to the next cell in the TableLayoutPanel. (Choose the **Ctrl**+**C** keys, or on the menu bar, choose **Edit** > **Copy**.) Then paste it. (Choose the **Ctrl**+**V** keys, or on the menu bar, choose **Edit** > **Paste**.) A copy of the first label appears in the second cell of the TableLayoutPanel. Paste it again, and another label appears in the third cell. Keep pasting label controls until all of the cells are filled.  
+8.  Choose your Label control and copy it to the next cell in the TableLayoutPanel. (Choose the **Ctrl**+**C** keys, or on the menu bar, choose **Edit** > **Copy**.) Then paste it. (Choose the **Ctrl**+**V** keys, or on the menu bar, choose **Edit** > **Paste**.) A copy of the first Label appears in the second cell of the TableLayoutPanel. Paste it again, and another Label appears in the third cell. Keep pasting Label controls until all of the cells are filled.  
   
     > [!NOTE]
-    >  If you paste too many times, the IDE adds a new row to the TableLayoutPanel so that it has a place to add your new label control. You can undo it. To remove the new cell, choose the **Ctrl**+**Z** keys, or on the menu bar, choose **Edit** > **Undo**.  
+    >  If you paste too many times, the IDE adds a new row to the TableLayoutPanel so that it has a place to add your new Label control. You can undo it. To remove the new cell, choose the **Ctrl**+**Z** keys, or on the menu bar, choose **Edit** > **Undo**.  
   
      Now your form is laid out. It should look like the following picture.  
 
@@ -85,6 +85,6 @@ Initial matching game form
 
 ### To continue or review  
   
--   To go to the next tutorial step, see [Step 2: Add a random object and a list of icons](../ide/step-2-add-a-random-object-and-a-list-of-icons.md).  
+-   To go to the next tutorial step, see [Step 2: Add a Random object and a list of icons](../ide/step-2-add-a-random-object-and-a-list-of-icons.md).  
   
 -   To return to the overview topic, see [Tutorial 3: Create a matching game](../ide/tutorial-3-create-a-matching-game.md).

@@ -13,7 +13,7 @@ ms.workload:
   - "multiple"
 ---
 # Step 5: Add Enter event handlers for the NumericUpDown controls
-In the fifth part of this tutorial, you'll add `Enter` event handlers to make entering answers for quiz problems a little easier. This code will select and clear the current value in each `NumericUpDown` control as soon as the quiz taker chooses it and starts to enter a different value.  
+In the fifth part of this tutorial, you'll add <xref:System.Windows.Forms.Control.Enter> event handlers to make entering answers for quiz problems a little easier. This code will select and clear the current value in each <xref:System.Windows.Forms.NumericUpDown> control as soon as the quiz taker chooses it and starts to enter a different value.  
   
 > [!NOTE]
 >  This topic is part of a tutorial series about basic coding concepts. For an overview of the tutorial, see [Tutorial 2: Create a timed math quiz](../ide/tutorial-2-create-a-timed-math-quiz.md).  
@@ -58,11 +58,11 @@ In the fifth part of this tutorial, you'll add `Enter` event handlers to make en
   
 5.  In the **Events** page of the **Properties** dialog box, scroll down to the **Enter** event, choose the drop-down arrow at the end of the row, and then choose the `answer_Enter` event handler that you just added.  
   
-6.  Repeat the previous step for the product and quotient **NumericUpDown** controls.  
+6.  Repeat the previous step for the product and quotient NumericUpDown controls.  
   
 7.  Save your program, and then run it.  
 
-     When you choose a NumericUpDown control, the existing value is automatically selected and then cleared when you start to enter a different value.  
+     When you choose a **NumericUpDown** control, the existing value is automatically selected and then cleared when you start to enter a different value.  
 
 ### To continue or review  
   

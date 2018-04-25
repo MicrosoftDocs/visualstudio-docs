@@ -22,12 +22,12 @@ In the fourth part of this tutorial, you'll write a method, `CheckTheAnswer()`, 
 
 1.  Add the `CheckTheAnswer()` method.  
   
-     When this method is called, it adds the values of addend1 and addend2 and compares the result to the value in the sum NumericUpDown control. If the values are equal, the method returns a value of `true`. Otherwise, the method returns a value of `false`. Your code should look like the following.  
+     When this method is called, it adds the values of addend1 and addend2 and compares the result to the value in the sum <xref:System.Windows.Forms.NumericUpDown> control. If the values are equal, the method returns a value of `true`. Otherwise, the method returns a value of `false`. Your code should look like the following.  
   
      [!code-vb[VbExpressTutorial3Step4#8](../ide/codesnippet/VisualBasic/step-4-add-the-checktheanswer-parens-method_1.vb)]
      [!code-csharp[VbExpressTutorial3Step4#8](../ide/codesnippet/CSharp/step-4-add-the-checktheanswer-parens-method_1.cs)]  
   
-     Next, you'll check the answer by updating the code in the method for the timer's `Tick` event handler to call the new `CheckTheAnswer()` method.  
+     Next, you'll check the answer by updating the code in the method for the timer's <xref:System.Windows.Forms.Timer.Tick> event handler to call the new `CheckTheAnswer()` method.  
   
 2.  Add the following code to the `if else` statement.  
 

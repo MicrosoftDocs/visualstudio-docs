@@ -1,5 +1,5 @@
 ---
-title: "Step 2: Add a random object and a list of icons"
+title: "Step 2: Add a Random object and a list of icons"
 ms.custom: ""
 ms.date: 11/04/2016
 ms.technology: vs-acquisition
@@ -12,8 +12,8 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Step 2: Add a random object and a list of icons
-In this step, you create a set of matching symbols for the game. Each symbol is added to two random cells in the TableLayoutPanel on the form. To do this, you use two `new` statements to create two objects. The first is a `Random` object, like the one you used in the math quiz game. It is used in this code to randomly choose cells in the TableLayoutPanel. The second object, which may be new to you, is a `List` object which is used to store the randomly-chosen symbols.
+# Step 2: Add a Random object and a list of icons
+In this step, you create a set of matching symbols for the game. Each symbol is added to two random cells in the TableLayoutPanel on the form. To do this, you use two `new` statements to create two objects. The first is a <xref:System.Random> object, like the one you used in the math quiz game. It is used in this code to randomly choose cells in the TableLayoutPanel. The second object, which may be new to you, is a <xref:System.Collections.Generic.List-1> object which is used to store the randomly-chosen symbols.
 
 ### To add a random object and a list of icons
 
@@ -28,7 +28,7 @@ In this step, you create a set of matching symbols for the game. Each symbol is 
 
      If you're using Visual C#, be sure you put the code after the opening curly brace and just after the class declaration (`public partial class Form1 : Form`). If you're using Visual Basic, put the code right after the class declaration (`Public Class Form1`).
 
-3.  When adding the `List` object, notice the **IntelliSense** window that opens. The following is a Visual C# example, but similar text appears when you add a list in Visual Basic.
+3.  When adding the List object, notice the **IntelliSense** window that opens. The following is a Visual C# example, but similar text appears when you add a list in Visual Basic.
 
      ![Properties window showing Click event](../ide/media/express_listintellisense.png "Express_ListIntellisense")
 IntelliSense window
@@ -42,7 +42,7 @@ IntelliSense window
 
 4.  Consider why in Visual Basic a temporary array must be created first, but in Visual C#, the list can be created with one statement. This is because the Visual C# language has *collection initializers*, which prepare the list to accept values. In Visual Basic, you can use a collection initializer. However, for compatibility with the previous version of Visual Basic, we recommend using the preceding code.
 
-     When you use a collection initializer with a `new` statement, after the new `List` object is created, the program fills it with the data you provided inside the curly braces. In this case, you get a list of strings named icons, and that list will be initialized so that it contains sixteen strings. Each of those strings is a single letter, and they all correspond to the icons that will be in the labels. So, the game will have a pair of exclamation points, a pair of uppercase N letters, a pair of commas, and so on. (When these characters are set to the Webdings font, they will appear as symbols, such as a bus, a bike, a spider, and so forth.) Your list object will have sixteen strings in all, one for each cell in the TableLayoutPanel panel.
+     When you use a collection initializer with a `new` statement, after the new List object is created, the program fills it with the data you provided inside the curly braces. In this case, you get a list of strings named icons, and that list will be initialized so that it contains sixteen strings. Each of those strings is a single letter, and they all correspond to the icons that will be in the labels. So, the game will have a pair of exclamation points, a pair of uppercase N letters, a pair of commas, and so on. (When these characters are set to the Webdings font, they will appear as symbols, such as a bus, a bike, a spider, and so forth.) Your list object will have sixteen strings in all, one for each cell in the TableLayoutPanel panel.
 
     > [!NOTE]
     >  In Visual Basic, you get the same result, but first the strings are put into a temporary array, which is then converted into a list object. An array is similar to a list, except, for example, arrays are created with a fixed size. Lists can shrink and grow as needed, which is important in this program.

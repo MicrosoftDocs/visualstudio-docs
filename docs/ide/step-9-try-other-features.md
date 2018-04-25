@@ -27,7 +27,7 @@ To learn more, try changing icons and colors, adding a game timer, and adding so
 -   Add a game timer that tracks how long it takes for the player to win.  
 
     > [!TIP]
-    >  To do this, you can add a label to display the elapsed time on the form above the TableLayoutPanel, and add another timer to the form to track the time. Use code to start the timer when the player starts the game, and stop the timer after they match the last two icons.  
+    >  To do this, you can add a label to display the elapsed time on the form above the <xref:System.Windows.Forms.TableLayoutPanel>, and add another timer to the form to track the time. Use code to start the timer when the player starts the game, and stop the timer after they match the last two icons.  
 
 -   Add a sound when the player finds a match, another sound when the player uncovers two icons that don't match, and a third sound when the program hides the icons again.  
 

@@ -13,7 +13,7 @@ ms.workload:
   - "multiple"
 ---
 # Step 4: Lay out your form with a TableLayoutPanel control
-In this step, you add a `TableLayoutPanel` control to your form. The TableLayoutPanel helps properly align controls in the form that you will add later.  
+In this step, you add a <xref:System.Windows.Forms.TableLayoutPanel> control to your form. The TableLayoutPanel helps properly align controls in the form that you will add later.  
   
  ![link to video](../data-tools/media/playvideo.gif "PlayVideo")For a video version of this topic, see [Tutorial 1: Create a picture viewer in Visual Basic - Video 2](http://go.microsoft.com/fwlink/?LinkId=205211) or [Tutorial 1: Create a picture viewer in C# - Video 2](http://go.microsoft.com/fwlink/?LinkId=205200). These videos use an earlier version of Visual Studio, so there are slight differences in some menu commands and other user interface elements. However, the concepts and procedures work similarly in the current version of Visual Studio.  
   
@@ -26,7 +26,7 @@ In this step, you add a `TableLayoutPanel` control to your form. The TableLayout
      ![Containers group](../ide/media/express_toolbox.png "Express_Toolbox")  
 **Containers** group  
   
-3.  You can add controls like buttons, check boxes, and labels to your form. Double-click the `TableLayoutPanel` control in the **Toolbox**. (Or, you can drag the control from the toolbox onto the form.) When you do this, the IDE adds a TableLayoutPanel control to your form, as shown in the following picture.  
+3.  You can add controls like buttons, check boxes, and labels to your form. Double-click the TableLayoutPanel control in the **Toolbox**. (Or, you can drag the control from the toolbox onto the form.) When you do this, the IDE adds a TableLayoutPanel control to your form, as shown in the following picture.  
   
      ![TableLayoutPanel control](../ide/media/express_formtablelayout.png "Express_FormTableLayout")  
 **TableLayoutPanel** control  
@@ -56,7 +56,7 @@ In this step, you add a `TableLayoutPanel` control to your form. The TableLayout
 7.  After you set the TableLayoutPanel **Dock** property to **Fill**, the panel fills the entire form. If you resize the form again, the TableLayoutPanel stays docked, and resizes itself to fit.  
 
     > [!NOTE]
-    >  A TableLayoutPanel works like a table in Microsoft Office Word: It has rows and columns, and an individual cell can span multiple rows and columns. Each cell can hold one control (like a button, a check box, or a label). Your TableLayoutPanel will have a `PictureBox` control spanning its entire top row, a `CheckBox` control in its lower-left cell, and four `Button` controls in its lower-right cell.  
+    >  A TableLayoutPanel works like a table in Microsoft Office Word: It has rows and columns, and an individual cell can span multiple rows and columns. Each cell can hold one control (like a button, a check box, or a label). Your TableLayoutPanel will have a <xref:System.Windows.Forms.PictureBox> control spanning its entire top row, a <xref:System.Windows.Forms.CheckBox> control in its lower-left cell, and four <xref:System.Windows.Forms.Button> controls in its lower-right cell.  
   
 8.  Currently, the TableLayoutPanel has two equal-size rows and two equal-size columns. You need to resize them so the top row and right column are both much bigger. In **Windows Forms Designer**, select the TableLayoutPanel. In the upper-right corner, there is a small black triangle button, which appears as follows.  
   
@@ -70,7 +70,7 @@ In this step, you add a `TableLayoutPanel` control to your form. The TableLayout
      ![TableLayoutPanel tasks](../ide/media/express_tablepanel.png "Express_TablePanel")  
 **TableLayoutPanel** tasks  
   
-10. Choose the **Edit Rows and Columns** task to display the **Column and Row Styles** window. Choose **Column1**, and set its size to 15 percent by being sure the **Percent** button is selected and entering **15** in the **Percent** box. (That's a `NumericUpDown` control, which you will use in a later tutorial.) Choose **Column2** and set it to 85 percent. Don't choose the **OK** button yet, because the window will close. (But if you do, you can reopen it using the task list.)  
+10. Choose the **Edit Rows and Columns** task to display the **Column and Row Styles** window. Choose **Column1**, and set its size to 15 percent by being sure the **Percent** button is selected and entering **15** in the **Percent** box. (That's a <xref:System.Windows.Forms.NumericUpDown> control, which you will use in a later tutorial.) Choose **Column2** and set it to 85 percent. Don't choose the **OK** button yet, because the window will close. (But if you do, you can reopen it using the task list.)  
   
      ![TableLayoutPanel column and row styles](../ide/media/vs_tablelayoutpanel_setup.png "VS_TableLayoutPanel_Setup")  
 **TableLayoutPanel** column and row styles  

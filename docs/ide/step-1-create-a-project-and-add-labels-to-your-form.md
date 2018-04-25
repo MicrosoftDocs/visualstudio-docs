@@ -42,7 +42,7 @@ As the first steps in developing this quiz, you create the project, and you add 
   
 ### To create the time remaining box  
   
-1.  Add a `Label` control from the **Toolbox**, and then set the value of its **(Name)** property to **timeLabel**.  
+1.  Add a <xref:System.Windows.Forms.Label> control from the **Toolbox**, and then set the value of its **(Name)** property to **timeLabel**.  
   
      This label will become a box in the upper-right corner that shows the number of seconds that remain in the quiz.  
 
@@ -65,7 +65,7 @@ As the first steps in developing this quiz, you create the project, and you add 
      ![Properties window showing font size](../ide/media/express_setfontsize.png "Express_setFontSize")  
 **Properties** window showing font size  
   
-8.  Add another `Label` control from the **Toolbox**, and then set its font size to **15.75**.  
+8.  Add another Label control from the **Toolbox**, and then set its font size to **15.75**.  
   
 9. Set the **Text** property to **Time Left**.  
 
@@ -73,7 +73,7 @@ As the first steps in developing this quiz, you create the project, and you add 
 
 ### To add controls for the addition problems  
   
-1.  Add a `Label` control from the **Toolbox**, and then set its **Text** property to **?** (question mark).  
+1.  Add a Label control from the **Toolbox**, and then set its **Text** property to **?** (question mark).  
   
 2.  Set the **AutoSize** property to **False**.  
 
@@ -101,11 +101,11 @@ As the first steps in developing this quiz, you create the project, and you add 
 
 13. Set the value of the fourth label's **Text** property to **=** (equal sign).  
   
-14. Add a `NumericUpDown` control from the **Toolbox**, set its font size to **18**, and set its width to **100**.  
+14. Add a <xref:System.Windows.Forms.NumericUpDown> control from the **Toolbox**, set its font size to **18**, and set its width to **100**.  
   
      You'll learn more about this kind of control later.  
   
-15. Line up the NumericUpDown control with the label controls for the addition problem.  
+15. Line up the NumericUpDown control with the Label controls for the addition problem.  
   
 16. Change the value of the **(Name)** property for the NumericUpDown control to **sum**.  
   
@@ -116,7 +116,7 @@ First row of math quiz
 
 ### To add controls for the subtraction, multiplication, and division problems  
   
-1.  Copy all five controls for the addition problem (the four label controls and the NumericUpDown control), and then paste them.  
+1.  Copy all five controls for the addition problem (the four Label controls and the NumericUpDown control), and then paste them.  
   
      The form contains five new controls, which are still selected.  
 
@@ -143,7 +143,7 @@ First row of math quiz
 
 ### To add a start button and set the tab-index order  
   
-1.  Add a `Button` control from the **Toolbox**, and then set its **(Name)** property to **startButton**.  
+1.  Add a <xref:System.Windows.Forms.Button> control from the **Toolbox**, and then set its **(Name)** property to **startButton**.  
   
 2.  Set the **Text** property to **Start the quiz**.  
 

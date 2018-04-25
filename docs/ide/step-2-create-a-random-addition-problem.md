@@ -26,7 +26,7 @@ In the second part of this tutorial, you make the quiz challenging by adding mat
 
      *Form1.cs* or *Form1.vb* appears, depending on the programming language that you're using, so that you can view the code behind the form.
 
-3.  Create a `Random` object by adding a `new` statement near the top of the code, like the following.
+3.  Create a <xref:System.Random> object by adding a `new` statement near the top of the code, like the following.
 
      [!code-csharp[VbExpressTutorial3Step2#1](../ide/codesnippet/CSharp/step-2-create-a-random-addition-problem_1.cs)]
      [!code-vb[VbExpressTutorial3Step2#1](../ide/codesnippet/VisualBasic/step-2-create-a-random-addition-problem_1.vb)]
@@ -47,7 +47,7 @@ In the second part of this tutorial, you make the quiz challenging by adding mat
      [!code-csharp[VbExpressTutorial3Step2#2](../ide/codesnippet/CSharp/step-2-create-a-random-addition-problem_2.cs)]
      [!code-vb[VbExpressTutorial3Step2#2](../ide/codesnippet/VisualBasic/step-2-create-a-random-addition-problem_2.vb)]
 
-5.  Add a method that's named `StartTheQuiz()` and that uses the Random object's `Next()` method to show the random numbers in the labels. `StartTheQuiz()` will eventually fill in all of the problems and then start the timer, so add a comment. The function should look like the following.
+5.  Add a method that's named `StartTheQuiz()` and that uses the Random object's <xref:System.Random.Next> method to show the random numbers in the labels. `StartTheQuiz()` will eventually fill in all of the problems and then start the timer, so add a comment. The function should look like the following.
 
      [!code-csharp[VbExpressTutorial3Step2#3](../ide/codesnippet/CSharp/step-2-create-a-random-addition-problem_3.cs)]
      [!code-vb[VbExpressTutorial3Step2#3](../ide/codesnippet/VisualBasic/step-2-create-a-random-addition-problem_3.vb)]

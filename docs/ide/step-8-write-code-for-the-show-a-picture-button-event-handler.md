@@ -15,9 +15,9 @@ ms.workload:
 # Step 8: Write code for the show a picture button event handler
 In this step, you make the **Show a picture** button work like this:  
 
--   When a user chooses that button, the program opens an **Open File** dialog box.  
+-   When a user chooses that button, the program opens an <xref:System.Windows.Forms.OpenFileDialog> box.  
   
--   If a user opens a picture file, the program shows that picture in the **PictureBox**.  
+-   If a user opens a picture file, the program shows that picture in the <xref:System.Windows.Forms.PictureBox>.  
   
  The IDE has a powerful tool called IntelliSense that helps you write code. As you enter code, the IDE opens a box with suggested completions for partial words that you enter. It tries to determine what you want to do next, and automatically jumps to the last item you choose from the list. You can use the up or down arrows to move in the list, or you can keep typing letters to narrow the choices. When you see the choice you want, choose the **Tab** key to select it. Or, you can ignore the suggestions, if not needed.  
   
@@ -73,11 +73,11 @@ Visual C# code
     7.  Add another space. As soon as you do, another **IntelliSense** window opens. Start to type `DialogResult` and choose the **Tab** key to add it.  
   
         > [!NOTE]
-        >  When you write code to call a method, sometimes it returns a value. In this case, the **OpenFileDialog** component's `ShowDialog()` method returns a `DialogResult` value. `DialogResult` is a special value that tells you what happened in a dialog box. An **OpenFileDialog** component can result in the user choosing **OK** or **Cancel**, so its `ShowDialog()` method returns either `DialogResult.OK` or `DialogResult.Cancel`.  
+        >  When you write code to call a method, sometimes it returns a value. In this case, the **OpenFileDialog** component's <xref:System.Windows.Forms.CommonDialog.ShowDialog> method returns a <xref:System.Windows.Forms.DialogResult> value. DialogResult is a special value that tells you what happened in a dialog box. An **OpenFileDialog** component can result in the user choosing **OK** or **Cancel**, so its `ShowDialog()` method returns either `DialogResult.OK` or `DialogResult.Cancel`.  
   
     8.  Type a dot to open the DialogResult value **IntelliSense** window. Enter the letter `O` and choose the **Tab** key to insert **OK**.  
   
-         To learn more about `DialogResult`, see [DialogResult](http://msdn.microsoft.com/library/system.windows.forms.dialogresult.aspx).  
+         To learn more about DialogResult, see [DialogResult](http://msdn.microsoft.com/library/system.windows.forms.dialogresult.aspx).  
 
         > [!NOTE]
         >  The first line of code should be complete. For Visual C#, it should be the following.  

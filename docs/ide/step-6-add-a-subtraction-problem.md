@@ -21,7 +21,7 @@ In the sixth part of this tutorial, you'll add a subtraction problem and learn h
 
 -   Update the method that checks the answers so that it checks the new subtraction problem too.
 
--   Update your timer's `Tick` event handler so that the event handler fills in the correct answer when time runs out.
+-   Update your timer's <xref:System.Windows.Forms.Timer.Tick> event handler so that the event handler fills in the correct answer when time runs out.
 
 ### To add a subtraction problem
 
@@ -39,12 +39,12 @@ In the sixth part of this tutorial, you'll add a subtraction problem and learn h
      [!code-vb[VbExpressTutorial3Step5_6#13](../ide/codesnippet/VisualBasic/step-6-add-a-subtraction-problem_2.vb)]
      [!code-csharp[VbExpressTutorial3Step5_6#13](../ide/codesnippet/CSharp/step-6-add-a-subtraction-problem_2.cs)]
 
-     To prevent negative answers for the subtraction problem, this code uses the `Next()` method of the `Random` class a little differently from how the addition problem does. When you give the `Next()` method two values, it picks a random number that's greater than or equal to the first value and less than the second one. The following code chooses a random number from 1 through 100 and stores it in the minuend variable.
+     To prevent negative answers for the subtraction problem, this code uses the <xref:System.Random.Next> method of the <xref:System.Random> class a little differently from how the addition problem does. When you give the `Next()` method two values, it picks a random number that's greater than or equal to the first value and less than the second one. The following code chooses a random number from 1 through 100 and stores it in the minuend variable.
 
      [!code-vb[VbExpressTutorial3Step5_6#21](../ide/codesnippet/VisualBasic/step-6-add-a-subtraction-problem_3.vb)]
      [!code-csharp[VbExpressTutorial3Step5_6#21](../ide/codesnippet/CSharp/step-6-add-a-subtraction-problem_3.cs)]
 
-     You can call the `Next()` method of the `Random` class, which you named "randomizer" earlier in this tutorial, in multiple ways. Methods that you can call in more than one way are referred to as overloaded, and you can use IntelliSense to explore them. Look again at the tooltip of the IntelliSense window for the `Next()` method.
+     You can call the `Next()` method of the Random class, which you named "randomizer" earlier in this tutorial, in multiple ways. Methods that you can call in more than one way are referred to as overloaded, and you can use IntelliSense to explore them. Look again at the tooltip of the IntelliSense window for the `Next()` method.
 
      ![IntelliSense window tooltip](../ide/media/express_overloads.png "Express_Overloads")
 **IntelliSense** window tooltip
@@ -63,7 +63,7 @@ Overload for **Next()** method in **IntelliSense**
 
      In Visual C#, `&&` is the `logical and` operator. In Visual Basic, the equivalent operator is `AndAlso`. These operators indicate "If the sum of addend1 and addend2 equals the value of the sum NumericUpDown and if minuend minus subtrahend equals the value of the difference NumericUpDown." The `CheckTheAnswer()` method returns `true` only if the answers to the addition and the subtraction problems are both correct.
 
-4.  Replace the last part of the timer's `Tick` event handler with the following code so that it fills in the correct answer when time runs out.
+4.  Replace the last part of the timer's Tick event handler with the following code so that it fills in the correct answer when time runs out.
 
      [!code-vb[VbExpressTutorial3Step5_6#22](../ide/codesnippet/VisualBasic/step-6-add-a-subtraction-problem_5.vb)]
      [!code-csharp[VbExpressTutorial3Step5_6#22](../ide/codesnippet/CSharp/step-6-add-a-subtraction-problem_5.cs)]

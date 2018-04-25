@@ -33,7 +33,7 @@ Quiz that you create in this tutorial
 > [!NOTE]
 >  This tutorial covers both Visual C# and Visual Basic, so focus on the information that's specific to the programming language that you're using.  
 
-## Related Topics  
+## Related topics  
 
 |Title|Description|  
 |-----------|-----------------|  

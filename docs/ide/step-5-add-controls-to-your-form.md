@@ -13,7 +13,7 @@ ms.workload:
   - "multiple"
 ---
 # Step 5: Add controls to your form
-In this step, you add controls, such as a `PictureBox` control and a `CheckBox` control, to your form. You then add buttons to your form.  
+In this step, you add controls, such as a <xref:System.Windows.Forms.PictureBox> control and a <xref:System.Windows.Forms.CheckBox> control, to your form. You then add <xref:System.Windows.Forms.Button> controls to your form.  
   
  ![link to video](../data-tools/media/playvideo.gif "PlayVideo")For a video version of this topic, see [Tutorial 1: Create a picture viewer in Visual Basic - Video 2](http://go.microsoft.com/fwlink/?LinkId=205211) or [Tutorial 1: Create a picture viewer in C# - Video 2](http://go.microsoft.com/fwlink/?LinkId=205200). These videos use an earlier version of Visual Studio, so there are slight differences in some menu commands and other user interface elements. However, the concepts and procedures work similarly in the current version of Visual Studio.  
   
@@ -23,9 +23,9 @@ In this step, you add controls, such as a `PictureBox` control and a `CheckBox` 
   
 2.  Choose the **TableLayoutPanel** control on the form. To verify that the TableLayoutPanel is selected, make sure that its name appears in the dropdown list box at the top of the **Properties** window. You can also choose form controls by using the dropdown list box at the top of the **Properties** window. Choosing a control this way can often be easier than choosing a tiny control with a mouse.  
   
-3.  Double-click the **PictureBox** item to add a **PictureBox** control to your form. Because the TableLayoutPanel is docked to fill your form, the IDE adds the PictureBox control to the first empty cell (the upper left corner).  
+3.  Double-click the **PictureBox** item to add a PictureBox control to your form. Because the TableLayoutPanel is docked to fill your form, the IDE adds the PictureBox control to the first empty cell (the upper left corner).  
   
-4.  Choose the new **PictureBox** control to select it, and then choose the black triangle on the new **PictureBox** control to display its task list, as shown in the following picture.  
+4.  Choose the new **PictureBox** control to select it, and then choose the black triangle on the new PictureBox control to display its task list, as shown in the following picture.  
   
      ![PictureBox tasks](../ide/media/express_pictureboxtasks.png "Express_PictureBoxTasks")  
 **PictureBox** tasks  
@@ -38,17 +38,17 @@ In this step, you add controls, such as a `PictureBox` control and a `CheckBox` 
 6.  Make the PictureBox span both columns by changing its **ColumnSpan** property. Choose the **PictureBox** control and set its **ColumnSpan** property to **2**. Also, when the PictureBox is empty, you want to show an empty frame. Set its **BorderStyle** property to **Fixed3D**.  
   
     > [!NOTE]
-    >  If you don't see a **ColumnSpan** property for your PictureBox, then it's likely that the PictureBox was added to the form rather than the TableLayoutPanel. To fix this, choose the **PictureBox**, delete it, choose the **TableLayoutPanel**, and then add a new **PictureBox**.  
+    >  If you don't see a **ColumnSpan** property for your PictureBox, then it's likely that the PictureBox was added to the form rather than the TableLayoutPanel. To fix this, choose the **PictureBox**, delete it, choose the **TableLayoutPanel**, and then add a new PictureBox.  
   
-7.  Choose the **TableLayoutPanel** on the form and then add a **CheckBox** control to the form. Double-click the **CheckBox** item in the **Toolbox** to add a new CheckBox control to the next free cell in your table. Because a PictureBox takes up the first two cells in the TableLayoutPanel, the CheckBox control is added to the lower-left cell. Choose the **Text** property and type in the word **Stretch**, as shown in the following picture.  
+7.  Choose the **TableLayoutPanel** on the form and then add a CheckBox control to the form. Double-click the **CheckBox** item in the **Toolbox** to add a new CheckBox control to the next free cell in your table. Because a PictureBox takes up the first two cells in the TableLayoutPanel, the CheckBox control is added to the lower-left cell. Choose the **Text** property and type in the word **Stretch**, as shown in the following picture.  
   
      ![TextBox control with Stretch property](../ide/media/express_pictureviewercheckbox.png "Express_PictureViewerCheckbox")  
 **TextBox** control with **Stretch** property  
   
-8.  Choose the **TableLayoutPanel** on the form, and then go to the **Containers** group in the **Toolbox** (where you got your TableLayoutPanel control) and double-click the **FlowLayoutPanel** item to add a new control to the last cell in the **PictureBox** (bottom right). Then dock the FlowLayoutPanel in the TableLayoutPanel (either by choosing **Dock in parent container** on the FlowLayoutPanel's black triangle task list, or by setting the FlowLayoutPanel's **Dock** property to **Fill**).  
+8.  Choose the **TableLayoutPanel** on the form, and then go to the **Containers** group in the **Toolbox** (where you got your TableLayoutPanel control) and double-click the **FlowLayoutPanel** item to add a new control to the last cell in the PictureBox (bottom right). Then dock the FlowLayoutPanel in the TableLayoutPanel (either by choosing **Dock in parent container** on the FlowLayoutPanel's black triangle task list, or by setting the FlowLayoutPanel's **Dock** property to **Fill**).  
   
     > [!NOTE]
-    >  A `FlowLayoutPanel` is a container that arranges other controls in neat rows in order. When you resize a FlowLayoutPanel, if it has room to lay out all of its controls in a single row, it does that. Otherwise, it arranges them in lines, one on top of the other. You will use a FlowLayoutPanel to hold four buttons. If the buttons arrange one on top another when added, be sure that the FlowLayoutPanel is selected before adding the buttons. Although it was stated earlier that each cell can hold only one control, the lower-right cell of the TableLayoutPanel has four button controls. This is because you can put a control in a cell that holds other controls. That kind of control is called a container, and the FlowLayoutPanel is a container.  
+    >  A <xref:System.Windows.Forms.FlowLayoutPanel> is a container that arranges other controls in neat rows in order. When you resize a FlowLayoutPanel, if it has room to lay out all of its controls in a single row, it does that. Otherwise, it arranges them in lines, one on top of the other. You will use a FlowLayoutPanel to hold four buttons. If the buttons arrange one on top another when added, be sure that the FlowLayoutPanel is selected before adding the buttons. Although it was stated earlier that each cell can hold only one control, the lower-right cell of the TableLayoutPanel has four button controls. This is because you can put a control in a cell that holds other controls. That kind of control is called a container, and the FlowLayoutPanel is a container.  
   
 ### To add buttons  
   

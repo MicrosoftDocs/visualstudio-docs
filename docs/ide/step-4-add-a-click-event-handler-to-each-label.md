@@ -21,7 +21,7 @@ The matching game works as follows:
 
 3.  If the icons match, they stay visible. If not, both icons are hidden again.  
   
- To get your program to work that way, you add a `Click` event handler that changes the color of the label that is chosen.  
+ To get your program to work that way, you add a <xref:System.Windows.Forms.Control.Click> event handler that changes the color of the label that is chosen.  
   
 ### To add a click event handler to each label  
   

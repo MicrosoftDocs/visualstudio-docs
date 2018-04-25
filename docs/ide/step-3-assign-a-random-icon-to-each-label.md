@@ -13,7 +13,7 @@ ms.workload:
   - "multiple"
 ---
 # Step 3: Assign a random icon to each label
-If the icons show up in the same cells every game, it's not very challenging. To avoid this, assign the icons randomly to the label controls on your form by using an `AssignIconsToSquares()` method.  
+If the icons show up in the same cells every game, it's not very challenging. To avoid this, assign the icons randomly to the Label controls on your form by using an `AssignIconsToSquares()` method.  
 
 ### To assign a random icon to each label  
 
@@ -22,9 +22,9 @@ If the icons show up in the same cells every game, it's not very challenging. To
      [!code-csharp[VbExpressTutorial4Step2_3_4#2](../ide/codesnippet/CSharp/step-3-assign-a-random-icon-to-each-label_1.cs)]
      [!code-vb[VbExpressTutorial4Step2_3_4#2](../ide/codesnippet/VisualBasic/step-3-assign-a-random-icon-to-each-label_1.vb)]  
   
-2.  Add the `AssignIconsToSquares()` method as shown in the previous step. You can put it just below the code you added in [Step 2: Add a random object and a list of icons](../ide/step-2-add-a-random-object-and-a-list-of-icons.md).  
+2.  Add the `AssignIconsToSquares()` method as shown in the previous step. You can put it just below the code you added in [Step 2: Add a Random object and a list of icons](../ide/step-2-add-a-random-object-and-a-list-of-icons.md).  
   
-     As mentioned earlier, there's something new in your `AssignIconsToSquares()` method: a `foreach` loop in Visual C# and `For Each` in Visual Basic. You can use a `For Each` loop any time you want to do the same action multiple times. In this case, you want to execute the same statements for every label on your **TableLayoutPanel**, as explained by the following code. The first line creates a variable named `control` that stores each control one at a time while that control has the statements in the loop executed on it.  
+     As mentioned earlier, there's something new in your `AssignIconsToSquares()` method: a `foreach` loop in Visual C# and `For Each` in Visual Basic. You can use a `For Each` loop any time you want to do the same action multiple times. In this case, you want to execute the same statements for every label on your <xref:System.Windows.Forms.TableLayoutPanel>, as explained by the following code. The first line creates a variable named `control` that stores each control one at a time while that control has the statements in the loop executed on it.  
   
      [!code-csharp[VbExpressTutorial4Step2_3_4#14](../ide/codesnippet/CSharp/step-3-assign-a-random-icon-to-each-label_2.cs)]
      [!code-vb[VbExpressTutorial4Step2_3_4#14](../ide/codesnippet/VisualBasic/step-3-assign-a-random-icon-to-each-label_2.vb)]  
@@ -32,14 +32,14 @@ If the icons show up in the same cells every game, it's not very challenging. To
     > [!NOTE]
     >  The names "iconLabel" and "control" are used because they are descriptive. You can replace these names with any names, and the code will work exactly the same as long as you change the name in each statement inside the loop.  
   
-     The `AssignIconsToSquares()` method iterates through each label control in the **TableLayoutPanel** and executes the same statements for each of them. Those statements pull a random icon from the list that you added in [Step 2: Add a random object and a list of icons](../ide/step-2-add-a-random-object-and-a-list-of-icons.md). (That's why you included two of each icon in the list, so there would be a pair of icons assigned to random label controls.)  
+     The `AssignIconsToSquares()` method iterates through each label control in the TableLayoutPanel and executes the same statements for each of them. Those statements pull a random icon from the list that you added in [Step 2: Add a Random object and a list of icons](../ide/step-2-add-a-random-object-and-a-list-of-icons.md). (That's why you included two of each icon in the list, so there would be a pair of icons assigned to random Label controls.)  
   
      Look more closely at the code that runs inside the `foreach` or `For Each` loop. This code is reproduced here.  
 
      [!code-csharp[VbExpressTutorial4Step2_3_4#16](../ide/codesnippet/CSharp/step-3-assign-a-random-icon-to-each-label_3.cs)]
      [!code-vb[VbExpressTutorial4Step2_3_4#16](../ide/codesnippet/VisualBasic/step-3-assign-a-random-icon-to-each-label_3.vb)]  
   
-     The first line converts the **control** variable to a label named **iconLabel**. The line after that is an `if` statement that checks to make sure the conversion worked. If the conversion does work, the statements in the `if` statement run. (As you may recall from the previous tutorials, the `if` statement is used to evaluate whatever condition you specify.) The first line in the `if` statement creates a variable named **randomNumber** that contains a random number that corresponds to one of the items in the icons list. To do this, it uses the `Next` method of the `Random` object that you created earlier. The `Next` method returns the random number. This line also uses the `Count` property of the **icons** list to determine the range from which to choose the random number. The next line assigns one of the icon list items to the `Text` property of the label. The commented-out line is explained later in this topic. Finally, the last line in the `if` statement removes from the list the icon that has been added to the form.  
+     The first line converts the **control** variable to a label named **iconLabel**. The line after that is an `if` statement that checks to make sure the conversion worked. If the conversion does work, the statements in the `if` statement run. (As you may recall from the previous tutorials, the `if` statement is used to evaluate whatever condition you specify.) The first line in the `if` statement creates a variable named **randomNumber** that contains a random number that corresponds to one of the items in the icons list. To do this, it uses the <xref:System.Random.Next> method of the <xref:System.Random> object that you created earlier. The `Next` method returns the random number. This line also uses the <xref:System.Collections.Generic.List-1.Count> property of the **icons** list to determine the range from which to choose the random number. The next line assigns one of the icon list items to the <xref:System.Windows.Forms.Label.Text> property of the label. The commented-out line is explained later in this topic. Finally, the last line in the `if` statement removes from the list the icon that has been added to the form.  
   
      Remember, if you're not sure about what some part of the code does, you can position the mouse pointer over a code element and review the resulting tooltip. You can also step through each line of code while the program is running by using the Visual Studio debugger. See [How do I: Step with The debugger in Visual Studio?](http://msdn.microsoft.com/vstudio/ee672313.aspx) or [Navigate through code with the debugger](../debugger/navigating-through-code-with-the-debugger.md) for more information.  
   
@@ -62,7 +62,7 @@ If the icons show up in the same cells every game, it's not very challenging. To
      ![Matching game with random icons](../ide/media/express_tut4step3.png "Express_Tut4Step3")  
 Matching game with random icons  
 
-     The icons are visible now because you haven't hidden them. To hide them from the player, you can set each label's `Forecolor` property to the same color as its `BackColor` property.  
+     The icons are visible now because you haven't hidden them. To hide them from the player, you can set each label's **ForeColor** property to the same color as its **BackColor** property.  
 
     > [!TIP]
     >  Another way to hide controls like labels is to set their **Visible** property to **False**.  
@@ -78,4 +78,4 @@ Matching game with random icons
   
 -   To go to the next tutorial step, see [Step 4: Add a click event handler to each label](../ide/step-4-add-a-click-event-handler-to-each-label.md).  
   
--   To return to the previous tutorial step, see [Step 2: Add a random object and a list of icons](../ide/step-2-add-a-random-object-and-a-list-of-icons.md).
+-   To return to the previous tutorial step, see [Step 2: Add a Random object and a list of icons](../ide/step-2-add-a-random-object-and-a-list-of-icons.md).
