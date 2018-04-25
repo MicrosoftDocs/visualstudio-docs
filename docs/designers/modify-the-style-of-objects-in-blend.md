@@ -1,10 +1,11 @@
 ---
 title: Modify the style of objects in Blend
-ms.date: "11/04/2016"
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-designers
 ms.topic: conceptual
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
@@ -97,4 +98,4 @@ You can convert just about anything in your project to a resource. A resource is
 
 ## See also
 
-[Creating a UI by using Blend for Visual Studio](../designers/creating-a-ui-by-using-blend-for-visual-studio.md)
+- [Creating a UI by using Blend for Visual Studio](../designers/creating-a-ui-by-using-blend-for-visual-studio.md)

@@ -1,16 +1,15 @@
 ---
-title: "Image Editor | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology:
-  - "vs-ide-designers"
-ms.topic: "conceptual"
+title: Image Editor
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 f1_keywords:
   - "vs.graphics.designer.imageeditor"
   - "vs.graphics.imageeditor"
 ms.assetid: fc71d502-c548-4863-8afc-12a1d3ec90d4
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"

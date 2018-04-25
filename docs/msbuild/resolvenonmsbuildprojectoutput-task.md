@@ -3,7 +3,7 @@ title: "ResolveNonMSBuildProjectOutput Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "MSBuild, ResolveNonMSBuildProjectOutput task"
   - "ResolveNonMSBuildProjectOutput task [MSBuild]"
 ms.assetid: a0b8fcec-8c8d-4867-85ac-5304c5108e5e
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

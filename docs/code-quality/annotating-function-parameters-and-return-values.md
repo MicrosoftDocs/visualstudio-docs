@@ -1,6 +1,7 @@
 ---
 title: Annotating Function Parameters and Return Values
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: "conceptual"
 f1_keywords:
@@ -123,7 +124,7 @@ f1_keywords:
 ms.assetid: 82826a3d-0c81-421c-8ffe-4072555dca3a
 author: mikeblome
 ms.author: mblome
-manager: douge
+manager: wpickett
 ms.workload:
   - "multiple"
 ---

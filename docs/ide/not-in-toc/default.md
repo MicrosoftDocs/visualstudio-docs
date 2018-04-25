@@ -1,7 +1,7 @@
 ---
-title: "Default page for F1 in Visual Studio | Microsoft Docs"
+title: Default page for F1 help
 ms.date: 02/28/2018
-ms.topic: "conceptual"
+ms.topic: conceptual
 robots: noindex,nofollow
 f1_keywords:
  - "vs.texteditor"
@@ -9,6 +9,7 @@ f1_keywords:
 manager: douge
 author: gewarren
 ms.author: gewarren
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ---
 # F1 help

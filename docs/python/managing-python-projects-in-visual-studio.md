@@ -1,6 +1,6 @@
 ---
 title: Managing Python application projects
-description: Explains the purpose of projects in Visual Studio, demonstrates how to create and manage projects for Python code, and outlines the different project templates available for Python.
+description: The purpose of projects in Visual Studio, how to create and manage projects for Python code, and the different project templates available for Python.
 ms.date: 03/05/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
@@ -13,7 +13,7 @@ ms.workload:
   - data-science
 ---
 
-# Python projects
+# Python projects in Visual Studio
 
 Python applications are typically defined using only folders and files, but this structure can become complex as applications become larger and perhaps involve auto-generated files, JavaScript for web applications, and so on. A Visual Studio project helps manage this complexity. The project (a `.pyproj` file) identifies all the source and content files associated with your project, contains build information for each file, maintains the information to integrate with source-control systems, and helps you organize your application into logical components.
 

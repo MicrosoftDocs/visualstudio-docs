@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "projects [.NET Framework], building"
   - "MSBuild, building a project with resources"
 ms.assetid: d07ac73f-2c2d-4e9a-812a-6dcb632bafe2
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

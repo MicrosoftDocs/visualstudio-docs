@@ -1,16 +1,15 @@
 ---
-title: "Shader Designer | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology:
-  - "vs-ide-designers"
-ms.topic: "conceptual"
+title: Shader Designer
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 f1_keywords:
   - "vs.graphics.designer.effectdesigner"
   - "vs.graphics.shaderdesigner"
 ms.assetid: 5db09a16-b82c-4ba3-8ec9-630cdc109397
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"

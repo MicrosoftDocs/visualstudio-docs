@@ -3,7 +3,7 @@ title: "Task Element (MSBuild) | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/13/2017"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "Task element [MSBuild]"
   - "<Task> element [MSBuild]"
 ms.assetid: d82e2485-e5f0-4936-a357-745bacccc299
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

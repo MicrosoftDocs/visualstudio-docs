@@ -1,14 +1,15 @@
 ---
 title: Visual Studio C++ Core Guidelines Checker Reference
 ms.date: 03/22/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "code analysis, C++ core check"
 ms.assetid: f1429463-136e-41ed-8a75-a8dbf0b4fd89
 author: mikeblome
 ms.author: mblome
-manager: douge
+manager: wpickett
 ms.workload:
   - "cplusplus"
 ---

@@ -1,11 +1,12 @@
 ---
-title: "Designing XAML in Visual Studio | Microsoft Docs"
-ms.date: "07/17/2017"
+title: Designing XAML in Visual Studio
+ms.date: 07/17/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-designers
-ms.topic: "conceptual"
+ms.topic: conceptual
 ms.assetid: 288e2415-9fcf-408e-bc35-9848315e14fd
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "uwp"
@@ -62,4 +63,4 @@ To increase your productivity, consider using Blend for Visual Studio for the fo
 |**Edit controls, templates, and styles**|Requires coding and knowledge of WPF styles and templates.|Turn any image into a control.<br /><br /> Use the template editing tools to make changes to controls, styles, and templates with just a few mouse clicks.<br /><br /> For example, you can use Blend for Visual Studio style resources to implement common WPF controls (such as buttons, list boxes, scroll bars, menus, etc.), and change their color, style, or underlying template directly in Blend for Visual Studio. You can then switch to code for finishing touches if you want.|[Modify the style of objects](../designers/modify-the-style-of-objects-in-blend.md)|
 |**Connect your UI to data**|You can create a data source from resources such as SQL Server databases, WCF or web services, objects, or SharePoint lists, and bind the data source to your UI controls.<br /><br /> Design-time data must be created by hand for an interactive design experience.|Create sample data easily for prototyping and testing. Switch to live data when you're ready.<br /><br /> Blend for Visual Studio's data generation capabilities are outstanding (you can add names, numbers, URLs, photos easily on the fly), and can save you a lot of time.<br /><br /> For live data, you can bind your UI controls to an XML file or to any CLR data source.|[Display data](../designers/display-data-in-blend.md)|
 
-For more information about advanced XAML design, see . [Creating a UI by using Blend for Visual Studio](../designers/creating-a-ui-by-using-blend-for-visual-studio.md)
+For more information about advanced XAML design, see [Creating a UI by using Blend for Visual Studio](../designers/creating-a-ui-by-using-blend-for-visual-studio.md).

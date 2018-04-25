@@ -1,6 +1,7 @@
 ---
 title: Code Analysis for C/C++ Overview
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: conceptual
 helpviewer_keywords:
@@ -19,7 +20,7 @@ helpviewer_keywords:
 ms.assetid: 81f0c9e8-f471-4de5-aac4-99db336a8809
 author: mikeblome
 ms.author: mblome
-manager: douge
+manager: wpickett
 ms.workload:
   - "cplusplus"
 ---

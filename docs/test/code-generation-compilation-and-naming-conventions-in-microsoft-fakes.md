@@ -1,8 +1,9 @@
 ---
-title: "Code generation, compilation, and naming conventions in Microsoft Fakes for Visual Studio | Microsoft Docs"
-ms.date: "11/04/2016"
+title: "Code generation, compilation, and naming conventions in Microsoft Fakes for Visual Studio"
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
-ms.topic: "conceptual"
+ms.topic: conceptual
 ms.author: gewarren
 manager: douge
 ms.workload:
@@ -16,6 +17,10 @@ This article discusses options and issues in Fakes code generation and compilati
 **Requirements**
 
 -   Visual Studio Enterprise
+-   A .NET Framework project
+
+> [!NOTE]
+> .NET Standard projects are not supported.
 
 ## Code generation and compilation
 

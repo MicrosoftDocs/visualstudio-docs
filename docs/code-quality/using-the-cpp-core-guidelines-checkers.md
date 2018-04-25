@@ -4,9 +4,10 @@ ms.date: 11/04/2016
 ms.topic: "conceptual"
 author: mikeblome
 ms.author: mblome
-manager: douge
+manager: wpickett
 dev_langs:
  - CPP
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ---
 # Using the C++ Core Guidelines checkers

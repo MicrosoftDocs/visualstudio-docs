@@ -1,21 +1,20 @@
 ---
-title: "Using the Task List | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-general"
-ms.topic: "conceptual"
-f1_keywords: 
+title: Using the Task List
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-general
+ms.topic: conceptual
+f1_keywords:
   - "TaskListWindow"
   - "VS.TaskList"
   - "tasklist"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "task list"
   - "Visual Studio, task list"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Using the Task List
@@ -110,4 +109,4 @@ To navigate through the shortcuts in the code, choose a shortcut in the list, an
 
 ## See also
 
-[Task List, Environment, Options Dialog Box](../ide/reference/task-list-environment-options-dialog-box.md)
+- [Task List, Environment, Options Dialog Box](../ide/reference/task-list-environment-options-dialog-box.md)

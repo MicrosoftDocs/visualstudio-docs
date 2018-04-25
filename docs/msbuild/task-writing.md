@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "tasks, creating for MSBuild"
   - "MSBuild, creating tasks"
 ms.assetid: 3ebc5f87-8f00-46fc-82a1-228f35a6823b
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 
@@ -263,4 +263,3 @@ namespace SimpleTask2
   
 ## See Also  
  [Task Reference](../msbuild/msbuild-task-reference.md)   
- [Task Reference](../msbuild/msbuild-task-reference.md)

@@ -1,6 +1,7 @@
 ---
 title: Intrinsic Functions
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: "conceptual"
 f1_keywords:
@@ -13,7 +14,7 @@ f1_keywords:
 ms.assetid: adf29f8c-89fd-4a5e-9804-35ac83e1c457
 author: mikeblome
 ms.author: mblome
-manager: douge
+manager: wpickett
 ms.workload:
   - "multiple"
 ---
