@@ -5,8 +5,6 @@ ms.date: 12/04/2017
 ms.prod: visual-studio-dev15
 ms.technology: vs-rtvs
 ms.topic: reference
-dev_langs:
-  - R
 f1_keywords: 
   - "vs.toolsoptionspages.text_editor.r.advanced"
   - "vs.toolsoptionspages.r_tools"

@@ -76,7 +76,7 @@ The following table summarizes the templates available in Visual Studio 2017 (no
 > [!Note]
 > Because Python is an interpreted language, Python projects in Visual Studio don't produce a stand-alone executable like other compiled language projects (C#, for example). For more information, see [questions and answers](overview-of-python-tools-for-visual-studio.md#questions-and-answers).
 
-<a name="create-project-from-existing-files"</a>
+<a name="create-project-from-existing-files"></a>
 
 ### Creating a project from existing files
 
