@@ -1,0 +1,62 @@
+﻿<Window x:Class="MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="MainWindow" Height="762" Width="390" xmlns:my="clr-namespace:AdventureWorksProductsEditor">
+    <Window.Resources>
+        <my:AdventureWorksLTDataSet x:Key="AdventureWorksLTDataSet" />
+        <CollectionViewSource x:Key="ProductViewSource" Source="{Binding Path=Product, Source={StaticResource AdventureWorksLTDataSet}}" />
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="75" />
+            <RowDefinition Height="625" />
+        </Grid.RowDefinitions>
+        <Button HorizontalAlignment="Left" Margin="22,20,0,24" Name="backButton" Width="75">&lt;</Button>
+        <Button HorizontalAlignment="Left" Margin="116,20,0,24" Name="nextButton" Width="75">&gt;</Button>
+        <Button HorizontalAlignment="Right" Margin="0,21,46,24" Name="saveButton" Width="110">Save changes</Button>
+        <Grid DataContext="{StaticResource ProductViewSource}" Grid.Row="1" HorizontalAlignment="Left" Margin="22,20,0,0" Name="Grid1" VerticalAlignment="Top" Height="586" Width="334">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Label Content="Product ID:" Grid.Column="0" Grid.Row="0" HorizontalAlignment="Left" Margin="3" VerticalAlignment="Center" />
+            <TextBox Grid.Column="1" Grid.Row="0" Height="23" HorizontalAlignment="Left" Margin="3" Name="ProductIDTextBox" Text="{Binding Path=ProductID, Mode=OneWay}" VerticalAlignment="Center" Width="120" IsReadOnly="True" />
+            <Label Content="Name:" Grid.Column="0" Grid.Row="1" HorizontalAlignment="Left" Margin="3" VerticalAlignment="Center" />
+            <TextBox Grid.Column="1" Grid.Row="1" Height="23" HorizontalAlignment="Left" Margin="3" Name="NameTextBox" Text="{Binding Path=Name, Mode=TwoWay, ValidatesOnExceptions=true, NotifyOnValidationError=true}" VerticalAlignment="Center" Width="120" />
+            <Label Content="Product Number:" Grid.Column="0" Grid.Row="2" HorizontalAlignment="Left" Margin="3" VerticalAlignment="Center" />
+            <TextBox Grid.Column="1" Grid.Row="2" Height="23" HorizontalAlignment="Left" Margin="3" Name="ProductNumberTextBox" Text="{Binding Path=ProductNumber, Mode=TwoWay, ValidatesOnExceptions=true, NotifyOnValidationError=true}" VerticalAlignment="Center" Width="120" />
+            <Label Content="Color:" Grid.Column="0" Grid.Row="3" HorizontalAlignment="Left" Margin="3" VerticalAlignment="Center" />
+            <TextBox Grid.Column="1" Grid.Row="3" Height="23" HorizontalAlignment="Left" Margin="3" Name="ColorTextBox" Text="{Binding Path=Color, Mode=TwoWay, ValidatesOnExceptions=true, NotifyOnValidationError=true}" VerticalAlignment="Center" Width="120" />
+            <Label Content="Standard Cost:" Grid.Column="0" Grid.Row="4" HorizontalAlignment="Left" Margin="3" VerticalAlignment="Center" />
+            <TextBox Grid.Column="1" Grid.Row="4" Height="23" HorizontalAlignment="Left" Margin="3" Name="StandardCostTextBox" Text="{Binding Path=StandardCost, Mode=TwoWay, ValidatesOnExceptions=true, NotifyOnValidationError=true}" VerticalAlignment="Center" Width="120" />
+            <Label Content="List Price:" Grid.Column="0" Grid.Row="5" HorizontalAlignment="Left" Margin="3" VerticalAlignment="Center" />
+            <TextBox Grid.Column="1" Grid.Row="5" Height="23" HorizontalAlignment="Left" Margin="3" Name="ListPriceTextBox" Text="{Binding Path=ListPrice, Mode=TwoWay, ValidatesOnExceptions=true, NotifyOnValidationError=true}" VerticalAlignment="Center" Width="120" />
+            <Label Content="Size:" Grid.Column="0" Grid.Row="6" HorizontalAlignment="Left" Margin="3" VerticalAlignment="Center" />
+            <TextBox Grid.Column="1" Grid.Row="6" Height="23" HorizontalAlignment="Left" Margin="3" Name="SizeTextBox" Text="{Binding Path=Size, Mode=TwoWay, ValidatesOnExceptions=true, NotifyOnValidationError=true}" VerticalAlignment="Center" Width="120" />
+            <Label Content="Weight:" Grid.Column="0" Grid.Row="7" HorizontalAlignment="Left" Margin="3" VerticalAlignment="Center" />
+            <TextBox Grid.Column="1" Grid.Row="7" Height="23" HorizontalAlignment="Left" Margin="3" Name="WeightTextBox" Text="{Binding Path=Weight, Mode=TwoWay, ValidatesOnExceptions=true, NotifyOnValidationError=true}" VerticalAlignment="Center" Width="120" />
+            <Label Content="Sell Start Date:" Grid.Column="0" Grid.Row="8" HorizontalAlignment="Left" Margin="3" VerticalAlignment="Center" />
+            <DatePicker Grid.Column="1" Grid.Row="8" Height="25" HorizontalAlignment="Left" Margin="3" Name="SellStartDateDatePicker" SelectedDate="{Binding Path=SellStartDate, Mode=TwoWay, ValidatesOnExceptions=true, NotifyOnValidationError=true}" VerticalAlignment="Center" Width="115" />
+            <Label Content="Sell End Date:" Grid.Column="0" Grid.Row="9" HorizontalAlignment="Left" Margin="3" VerticalAlignment="Center" />
+            <DatePicker Grid.Column="1" Grid.Row="9" Height="25" HorizontalAlignment="Left" Margin="3" Name="SellEndDateDatePicker" SelectedDate="{Binding Path=SellEndDate, Mode=TwoWay, ValidatesOnExceptions=true, NotifyOnValidationError=true}" VerticalAlignment="Center" Width="115" />
+            <Label Content="Discontinued Date:" Grid.Column="0" Grid.Row="10" HorizontalAlignment="Left" Margin="3" VerticalAlignment="Center" />
+            <DatePicker Grid.Column="1" Grid.Row="10" Height="25" HorizontalAlignment="Left" Margin="3" Name="DiscontinuedDateDatePicker" SelectedDate="{Binding Path=DiscontinuedDate, Mode=TwoWay, ValidatesOnExceptions=true, NotifyOnValidationError=true}" VerticalAlignment="Center" Width="115" />
+            <Label Content="Thumb Nail Photo:" Grid.Column="0" Grid.Row="11" HorizontalAlignment="Left" Margin="3" VerticalAlignment="Center" />
+            <Image Grid.Column="1" Grid.Row="11" Height="150" HorizontalAlignment="Left" Margin="3" Name="ThumbNailPhotoImage" Source="{Binding Path=ThumbNailPhoto}" Stretch="Fill" VerticalAlignment="Center" Width="200" />
+        </Grid>
+    </Grid>
+</Window>
