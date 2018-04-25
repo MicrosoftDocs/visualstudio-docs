@@ -2,19 +2,15 @@
 title: "Strings Used as Keys for Finding a Source Control Plug-in | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "source control plug-ins, strings used for finding"
 ms.assetid: c1e31f76-42a1-4c3d-afb2-664044ef12fd
-caps.latest.revision: 15
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

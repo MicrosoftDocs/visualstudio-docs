@@ -1,11 +1,9 @@
 ---
-title: "Map methods on the call stack while debugging in Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
+title: Map methods on the call stack while debugging in Visual Studio
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
-ms.topic: "conceptual"
+ms.topic: conceptual
 f1_keywords:
   - "vs.progression.debugwithcodemaps"
 dev_langs:
@@ -29,22 +27,22 @@ helpviewer_keywords:
   - "debugging [Visual Studio], visualizing the call stack"
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ---
 # Map methods on the call stack while debugging in Visual Studio
-Create a code map to visually trace the call stack while you're debugging. You can make notes on the map to track what the code is doing so you can focus on finding bugs.  
+Create a code map to visually trace the call stack while you're debugging. You can make notes on the map to track what the code is doing so you can focus on finding bugs.
 
- ![Debugging with call stacks on code maps](../debugger/media/debuggermap_overview.png "DebuggerMap_Overview")  
+ ![Debugging with call stacks on code maps](../debugger/media/debuggermap_overview.png "DebuggerMap_Overview")
 
- You'll need:  
+ You'll need:
 
--   [Visual Studio Enterprise](https://www.visualstudio.com/downloads/download-visual-studio-vs)  
+-   [Visual Studio Enterprise](https://www.visualstudio.com/downloads/download-visual-studio-vs)
 
--   Code that you can debug, such as Visual C#, Visual Basic, C++, JavaScript, or X++  
+-   Code that you can debug, such as Visual C#, Visual Basic, C++, JavaScript, or X++
 
- See:  
+ See:
 
 -   [Video: Debug visually with Code Map debugger integration (Channel 9)](http://go.microsoft.com/fwlink/?LinkId=293418)
 
@@ -58,120 +56,120 @@ Create a code map to visually trace the call stack while you're debugging. You c
 
 -   [Find bugs using the map](#FindBugs)
 
--   [Q & A](#QA)  
+-   [Q & A](#QA)
 
- For details of the commands and actions you can use when working with code maps, see [Browse and rearrange code maps](../modeling/browse-and-rearrange-code-maps.md).  
+ For details of the commands and actions you can use when working with code maps, see [Browse and rearrange code maps](../modeling/browse-and-rearrange-code-maps.md).
 
-##  <a name="MapStack"></a> Map the call stack  
+##  <a name="MapStack"></a> Map the call stack
 
-1.  Start debugging. (Keyboard: **F5**)  
+1.  Start debugging. (Keyboard: **F5**)
 
-2.  After your app enters break mode or you step into a function, choose **Code Map**. (Keyboard: **Ctrl** + **Shift** + **`**)  
+2.  After your app enters break mode or you step into a function, choose **Code Map**. (Keyboard: **Ctrl** + **Shift** + **`**)
 
-     ![Choose Code Map to start mapping call stack](../debugger/media/debuggermap_choosecodemap.png "DebuggerMap_ChooseCodeMap")  
+     ![Choose Code Map to start mapping call stack](../debugger/media/debuggermap_choosecodemap.png "DebuggerMap_ChooseCodeMap")
 
-     The current call stack appears in orange on a new code map:  
+     The current call stack appears in orange on a new code map:
 
-     ![See call stack on code map](../debugger/media/debuggermap_seeundocallstack.png "DebuggerMap_SeeUndoCallStack")  
+     ![See call stack on code map](../debugger/media/debuggermap_seeundocallstack.png "DebuggerMap_SeeUndoCallStack")
 
-     The map will update automatically while you continue debugging. See [Update the map with the next call stack](#UpdateMap).  
+     The map will update automatically while you continue debugging. See [Update the map with the next call stack](#UpdateMap).
 
-##  <a name="MakeNotes"></a> Make notes about the code  
- Add comments to track what's happening in the code. To add a new line in a comment, press **Shift + Return**.  
+##  <a name="MakeNotes"></a> Make notes about the code
+ Add comments to track what's happening in the code. To add a new line in a comment, press **Shift + Return**.
 
- ![Add comment to call stack on code map](../debugger/media/debuggermap_addcomment.png "DebuggerMap_AddComment")  
+ ![Add comment to call stack on code map](../debugger/media/debuggermap_addcomment.png "DebuggerMap_AddComment")
 
-##  <a name="UpdateMap"></a> Update the map with the next call stack  
- Run your app to the next breakpoint or step into a function. The map adds a new call stack.  
+##  <a name="UpdateMap"></a> Update the map with the next call stack
+ Run your app to the next breakpoint or step into a function. The map adds a new call stack.
 
- ![Update code map with next call stack](../debugger/media/debuggermap_addclearcallstack.png "DebuggerMap_AddClearCallStack")  
+ ![Update code map with next call stack](../debugger/media/debuggermap_addclearcallstack.png "DebuggerMap_AddClearCallStack")
 
-##  <a name="AddRelatedCode"></a> Add related code to the map  
- Now you've got a map - what next? If you're working with C# or Visual Basic, add items, such as fields, properties, and other methods, to track what's happening in the code.  
+##  <a name="AddRelatedCode"></a> Add related code to the map
+ Now you've got a map - what next? If you're working with C# or Visual Basic, add items, such as fields, properties, and other methods, to track what's happening in the code.
 
- Double-click a method to see its code definition, or use the shortcut menu for the method. (Keyboard: Select the method on the map and press **F12**)  
+ Double-click a method to see its code definition, or use the shortcut menu for the method. (Keyboard: Select the method on the map and press **F12**)
 
- ![Go to code definition for a method on code map](../debugger/media/debuggermap_gotocodedefinition.png "DebuggerMap_GoToCodeDefinition")  
+ ![Go to code definition for a method on code map](../debugger/media/debuggermap_gotocodedefinition.png "DebuggerMap_GoToCodeDefinition")
 
- Add the items that you want to track on the map.  
+ Add the items that you want to track on the map.
 
- ![Show fields in a method on call stack code map](../debugger/media/debuggermap_showfields.png "DebuggerMap_ShowFields")  
+ ![Show fields in a method on call stack code map](../debugger/media/debuggermap_showfields.png "DebuggerMap_ShowFields")
 
 > [!NOTE]
->  By default, adding items to the map also adds the parent group nodes such as the class, namespace, and assembly. While this is useful, you can keep the map simple by turning off this feature using the **Include Parents** button on the map toolbar, or by pressing **CTRL** when you add items.  
+>  By default, adding items to the map also adds the parent group nodes such as the class, namespace, and assembly. While this is useful, you can keep the map simple by turning off this feature using the **Include Parents** button on the map toolbar, or by pressing **CTRL** when you add items.
 
- ![Fields related to a method on call stack code map](../debugger/media/debuggermap_showedfields.png "DebuggerMap_ShowedFields")  
+ ![Fields related to a method on call stack code map](../debugger/media/debuggermap_showedfields.png "DebuggerMap_ShowedFields")
 
- Here you can easily see which methods use the same fields. The most recently added items appear in green.  
+ Here you can easily see which methods use the same fields. The most recently added items appear in green.
 
- Continue building the map to see more code.  
+ Continue building the map to see more code.
 
- ![See methods that use a field: call stack code map](../debugger/media/debuggermap_findallreferences.png "DebuggerMap_FindAllReferences")  
+ ![See methods that use a field: call stack code map](../debugger/media/debuggermap_findallreferences.png "DebuggerMap_FindAllReferences")
 
- ![Methods that use a field on call stack code map](../debugger/media/debuggermap_foundallreferences.png "DebuggerMap_FoundAllReferences")  
+ ![Methods that use a field on call stack code map](../debugger/media/debuggermap_foundallreferences.png "DebuggerMap_FoundAllReferences")
 
-##  <a name="FindBugs"></a> Find bugs using the map  
- Visualizing your code can help you find bugs faster. For example, suppose you're investigating a bug in a drawing program. When you draw a line and try to undo it, nothing happens until you draw another line.  
+##  <a name="FindBugs"></a> Find bugs using the map
+ Visualizing your code can help you find bugs faster. For example, suppose you're investigating a bug in a drawing program. When you draw a line and try to undo it, nothing happens until you draw another line.
 
- So you set breakpoints in the `clear`, `undo`, and `Repaint` methods, start debugging, and build a map like this one:  
+ So you set breakpoints in the `clear`, `undo`, and `Repaint` methods, start debugging, and build a map like this one:
 
- ![Add another call stack to code map](../debugger/media/debuggermap_addpaintobjectcallstack.png "DebuggerMap_AddPaintObjectCallStack")  
+ ![Add another call stack to code map](../debugger/media/debuggermap_addpaintobjectcallstack.png "DebuggerMap_AddPaintObjectCallStack")
 
- You notice that all the user gestures on the map call `Repaint`, except for `undo`. This might explain why `undo` doesn't work immediately.  
+ You notice that all the user gestures on the map call `Repaint`, except for `undo`. This might explain why `undo` doesn't work immediately.
 
- After you fix the bug and continue running the program, the map adds the new call from `undo` to `Repaint`:  
+ After you fix the bug and continue running the program, the map adds the new call from `undo` to `Repaint`:
 
- ![Add new method call to call stack on code map](../debugger/media/debuggermap_addnewcallforrepaint.png "DebuggerMap_AddNewCallForRepaint")  
+ ![Add new method call to call stack on code map](../debugger/media/debuggermap_addnewcallforrepaint.png "DebuggerMap_AddNewCallForRepaint")
 
-##  <a name="QA"></a> Q & A  
+##  <a name="QA"></a> Q & A
 
--   **Not all calls appear on the map. Why?**  
+-   **Not all calls appear on the map. Why?**
 
-     By default, only your own code appears on the map. To see external code, turn it on in the **Call Stack** window:  
+     By default, only your own code appears on the map. To see external code, turn it on in the **Call Stack** window:
 
-     ![Display external code using the Call Stack window](../debugger/media/debuggermap_callstackmenu.png "DebuggerMap_CallStackMenu")  
+     ![Display external code using the Call Stack window](../debugger/media/debuggermap_callstackmenu.png "DebuggerMap_CallStackMenu")
 
-     or turn off **Enable Just My Code** in the Visual Studio debugging options:  
+     or turn off **Enable Just My Code** in the Visual Studio debugging options:
 
-     ![Show external code using Options dialog](../debugger/media/debuggermap_debugoptions.png "DebuggerMap_DebugOptions")  
+     ![Show external code using Options dialog](../debugger/media/debuggermap_debugoptions.png "DebuggerMap_DebugOptions")
 
--   **Does changing the map affect the code?**  
+-   **Does changing the map affect the code?**
 
-     Changing the map doesn't affect the code in any way. Feel free to rename, move, or remove anything on the map.  
+     Changing the map doesn't affect the code in any way. Feel free to rename, move, or remove anything on the map.
 
--   **What does this message mean: "The diagram may be based on an older version of the code"?**  
+-   **What does this message mean: "The diagram may be based on an older version of the code"?**
 
-     The code might have changed after you last updated the map. For example, a call on the map might not exist in code anymore. Close the message, then try rebuilding the solution before updating the map again.  
+     The code might have changed after you last updated the map. For example, a call on the map might not exist in code anymore. Close the message, then try rebuilding the solution before updating the map again.
 
--   **How do I control the map's layout?**  
+-   **How do I control the map's layout?**
 
-     Open the **Layout** menu on the map toolbar:  
+     Open the **Layout** menu on the map toolbar:
 
-    -   Change the default layout.  
+    -   Change the default layout.
 
-    -   To stop rearranging the map automatically, turn off **Automatically Layout when Debugging**.  
+    -   To stop rearranging the map automatically, turn off **Automatically Layout when Debugging**.
 
-    -   To rearrange the map as little as possible when you add items, turn off **Incremental Layout**.  
+    -   To rearrange the map as little as possible when you add items, turn off **Incremental Layout**.
 
--   **Can I share the map with others?**  
+-   **Can I share the map with others?**
 
-     You can export the map, send it to others if you have Microsoft Outlook, or save it to your solution so you can check it into Team Foundation version control.  
+     You can export the map, send it to others if you have Microsoft Outlook, or save it to your solution so you can check it into Team Foundation version control.
 
-     ![Share call stack code map with others](../debugger/media/debuggermap_sharewithothers.png "DebuggerMap_ShareWithOthers")  
+     ![Share call stack code map with others](../debugger/media/debuggermap_sharewithothers.png "DebuggerMap_ShareWithOthers")
 
--   **How do I stop the map from adding new call stacks automatically?**  
+-   **How do I stop the map from adding new call stacks automatically?**
 
-     Choose ![Button &#45; Show call stack on code map automatically](../debugger/media/debuggermap_automaticupdateicon.gif "DebuggerMap_AutomaticUpdateIcon") on the map toolbar. To manually add the current call stack to the map, press **Ctrl** + **Shift** + **`**.  
+     Choose ![Button &#45; Show call stack on code map automatically](../debugger/media/debuggermap_automaticupdateicon.gif "DebuggerMap_AutomaticUpdateIcon") on the map toolbar. To manually add the current call stack to the map, press **Ctrl** + **Shift** + **`**.
 
-     The map will continue highlighting existing call stacks on the map while you're debugging.  
+     The map will continue highlighting existing call stacks on the map while you're debugging.
 
--   **What do the item icons and arrows mean?**  
+-   **What do the item icons and arrows mean?**
 
-     To get more info about an item, move the mouse pointer over it and look at the item's tooltip. You can also look at the **Legend** to learn what each icon means.  
+     To get more info about an item, move the mouse pointer over it and look at the item's tooltip. You can also look at the **Legend** to learn what each icon means.
 
-     ![What do icons on the call stack code map mean?](../debugger/media/debuggermap_showlegend.png "DebuggerMap_ShowLegend")  
+     ![What do icons on the call stack code map mean?](../debugger/media/debuggermap_showlegend.png "DebuggerMap_ShowLegend")
 
- See:  
+ See:
 
 -   [Map the call stack](#MapStack)
 
@@ -181,10 +179,11 @@ Create a code map to visually trace the call stack while you're debugging. You c
 
 -   [Add related code to the map](#AddRelatedCode)
 
--   [Find bugs using the map](#FindBugs)  
+-   [Find bugs using the map](#FindBugs)
 
-## See Also  
- [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)   
- [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)   
- [Find potential problems using code map analyzers](../modeling/find-potential-problems-using-code-map-analyzers.md)   
- [Browse and rearrange code maps](../modeling/browse-and-rearrange-code-maps.md)
+## See Also
+
+- [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)
+- [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)
+- [Find potential problems using code map analyzers](../modeling/find-potential-problems-using-code-map-analyzers.md)
+- [Browse and rearrange code maps](../modeling/browse-and-rearrange-code-maps.md)

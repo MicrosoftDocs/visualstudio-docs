@@ -1,10 +1,11 @@
 ---
-title: "How to test a Visual C++ DLL for UWP apps in Visual Studio | Microsoft Docs"
-ms.date: "02/15/2018"
+title: "How to test a Visual C++ DLL for UWP apps in Visual Studio"
+ms.date: 02/15/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: conceptual
 ms.author: mblome
-manager: ghogen
+manager: douge
 ms.workload: 
   - "uwp"
 author: mikeblome
@@ -231,7 +232,8 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
      Both tests pass.
 
 > [!TIP]
->  Develop code by adding tests one at a time. Make sure that all the tests pass after each iteration.
+> Develop code by adding tests one at a time. Make sure that all the tests pass after each iteration.
+
 
 ##  <a name="Debug_a_failing_test"></a> Debug a failing test
 

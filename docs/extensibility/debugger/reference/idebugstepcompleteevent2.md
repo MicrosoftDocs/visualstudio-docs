@@ -2,21 +2,17 @@
 title: "IDebugStepCompleteEvent2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugStepCompleteEvent2"
 helpviewer_keywords: 
   - "IDebugStepCompleteEvent2 interface"
 ms.assetid: eba2b76e-f90d-486b-ae5c-c47f1b8ba2e5
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

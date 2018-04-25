@@ -1,10 +1,11 @@
 ---
-title: "Configure unit tests in Visual Studio with a .runsettings file | Microsoft Docs"
+title: "Configure unit tests in Visual Studio with a .runsettings file"
 ms.date: 02/28/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
-ms.topic: article
+ms.topic: conceptual
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 author: gewarren

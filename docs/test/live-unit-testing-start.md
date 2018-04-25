@@ -1,9 +1,10 @@
 ---
-title: "Learn how to test your code with Live Unit Test in Visual Studio 2017 | Microsoft Docs | Microsoft Docs"
-ms.date: "08/31/2017"
+title: "Learn how to test your code with Live Unit Test in Visual Studio 2017 | Microsoft Docs"
+ms.date: 08/31/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
-ms.topic: "article"
-ms.topic: "get-started-article"
+ms.topic: conceptual
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Visual Studio ALM"
   - "Live Unit Testing"

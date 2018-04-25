@@ -1,18 +1,15 @@
 ---
-title: "Step 6: Add a Subtraction Problem | Microsoft Docs"
+title: "Step 6: Add a Subtraction Problem"
 ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-acquisition"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
+ms.technology: vs-acquisition
+ms.prod: visual-studio-dev15
+ms.topic: conceptual
 ms.assetid: 59204ef9-24bd-4f81-b85f-e3168e518a3e
-caps.latest.revision: 25
-author: "TerryGLee"
-ms.author: "tglee"
-manager: ghogen
+author: TerryGLee
+ms.author: tglee
+manager: douge
 ms.workload:
   - "multiple"
 ---

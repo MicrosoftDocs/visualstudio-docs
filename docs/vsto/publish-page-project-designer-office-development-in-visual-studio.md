@@ -2,12 +2,9 @@
 title: "Publish Page, Project Designer (Office Development in Visual Studio) | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VST.ProjectProperties.Publish.2007System"
 dev_langs: 
@@ -19,7 +16,7 @@ helpviewer_keywords:
   - "Property Pages dialog box, Publish [Office development in Visual Studio]"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

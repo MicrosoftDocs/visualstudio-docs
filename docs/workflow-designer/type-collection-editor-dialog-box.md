@@ -1,14 +1,16 @@
 ---
-title: "Type Collection Editor Dialog Box | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
-f1_keywords: 
+title: "Workflow Designer - Type Collection Editor Dialog Box"
+ms.date: 11/04/2016
+ms.topic: reference
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
+f1_keywords:
   - "TypeCollectionEditor.UI"
 ms.assetid: 63cdea6b-bca2-4c06-b8b4-c8faabd40726
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # Type Collection Editor Dialog Box

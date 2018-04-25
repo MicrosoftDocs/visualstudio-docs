@@ -2,19 +2,15 @@
 title: "SetNotificationForWaitCompletion Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "SetNotificationForWaitCompletion method, Task class [.NET Framework debug engines]"
 ms.assetid: da149c9a-20f4-4543-a29e-429c8c1d2e19
-caps.latest.revision: 5
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

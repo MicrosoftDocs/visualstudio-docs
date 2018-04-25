@@ -2,11 +2,7 @@
 title: "Debugging User Interface Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
+ms.technology: "vs-ide-debug"
 ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.uiref"
@@ -19,10 +15,9 @@ dev_langs:
 helpviewer_keywords: 
   - "debugger, user interface reference"
 ms.assetid: 57f1cad8-c908-42bf-8ec5-6eb567df08e9
-caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

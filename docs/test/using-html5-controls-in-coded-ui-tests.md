@@ -1,10 +1,11 @@
 ---
-title: "Using HTML5 Controls in Coded UI Tests in Visual Studio | Microsoft Docs"
-ms.date: "11/04/2016"
+title: "Using HTML5 Controls in Coded UI Tests in Visual Studio"
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: conceptual
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 author: gewarren
@@ -18,10 +19,12 @@ Coded UI tests include support for some of the HTML5 controls that are included 
 -   Visual Studio Enterprise
 
 > [!WARNING]
->  In versions prior to Internet Explorer 10, it was possible to run coded UI tests in a higher privilege level compared to that of the Internet Explorer process. When running coded UI tests on Internet Explorer 10, both the coded UI test and the Internet Explorer process must be at the same privilege level. This is because of more secure AppContainer features in Internet Explorer 10.
+> In versions prior to Internet Explorer 10, it was possible to run coded UI tests in a higher privilege level compared to that of the Internet Explorer process. When running coded UI tests on Internet Explorer 10, both the coded UI test and the Internet Explorer process must be at the same privilege level. This is because of more secure AppContainer features in Internet Explorer 10.
+
 
 > [!WARNING]
->  If you create a coded UI test in Internet Explorer 10, it might not run using Internet Explorer 9 or Internet Explorer 8. This is because Internet Explorer 10 includes HTML5 controls such as Audio, Video, ProgressBar and Slider. These HTML5 controls are not recognized by Internet Explorer 9, or Internet Explorer 8. Likewise, your coded UI test using Internet Explorer 9 might include some HTML5 controls that also will not be recognized by Internet Explorer 8.
+> If you create a coded UI test in Internet Explorer 10, it might not run using Internet Explorer 9 or Internet Explorer 8. This is because Internet Explorer 10 includes HTML5 controls such as Audio, Video, ProgressBar and Slider. These HTML5 controls are not recognized by Internet Explorer 9, or Internet Explorer 8. Likewise, your coded UI test using Internet Explorer 9 might include some HTML5 controls that also will not be recognized by Internet Explorer 8.
+
 
 ## Supported HTML5 Controls
  Coded UI tests include support for record, playback, and validation of the following HTML5 controls:
@@ -75,7 +78,8 @@ string Volume
  **Filter properties:** The filter properties for `HtmlAudio` are `Src`, `Class`, `ControlDefinition` and `TagInstance`.
 
 > [!NOTE]
->  The amount of time for Seek and Pause can be significant. During playback, the coded UI test will wait until the specified time in `(TimeSpan)` before Pausing the audio. If by some special circumstance, the specified time has passed before hitting the Pause command, an exception will be thrown.
+> The amount of time for Seek and Pause can be significant. During playback, the coded UI test will wait until the specified time in `(TimeSpan)` before Pausing the audio. If by some special circumstance, the specified time has passed before hitting the Pause command, an exception will be thrown.
+
 
 ###  <a name="UsingHTML5ControlsCodedUITestsVideo"></a> Video Control
  **Video control:** Actions on the HTML5 Video control are correctly recorded and played back.
@@ -105,7 +109,8 @@ string VideoWidth
  **Filter properties:** The filter properties for `HtmlVideo` are `Src`, `Poster`, `Class`, `ControlDefinition` and `TagInstance`.
 
 > [!NOTE]
->  If you rewind or fast forward the video using -30s or +30s labels, this will be aggregated to seek to the appropriate time.
+> If you rewind or fast forward the video using -30s or +30s labels, this will be aggregated to seek to the appropriate time.
+
 
 ###  <a name="UsingHTML5ControlsCodedUITestsSlider"></a> Slider
  **Slider control:** Actions on the HTML5 Slider control are correctly recorded and played back.

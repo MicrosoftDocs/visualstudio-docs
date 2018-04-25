@@ -2,12 +2,8 @@
 title: "How to: Debug an executable that is not part of a Visual Studio solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
   - "VB"
@@ -19,10 +15,9 @@ helpviewer_keywords:
   - "executable files, importing"
   - "executable files, debugging outside of projects"
 ms.assetid: 3ea176e8-1ce5-42c4-b7a2-abe3a2765033
-caps.latest.revision: 23
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

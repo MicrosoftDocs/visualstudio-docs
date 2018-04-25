@@ -1,18 +1,15 @@
 ---
-title: "Visual C++ Code Snippets | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
+title: Visual C++ Code Snippets
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+ms.topic: reference
+author: gewarren
+ms.author: gewarren
+manager: douge
 dev_langs:
  - CPP
-ms.workload: 
+ms.workload:
   - "cplusplus"
 ---
 # Visual C++ code snippets
@@ -172,4 +169,4 @@ If you try to insert the destructor snippet outside a class, it provides a destr
 
 ## See also
 
-[Code snippets](../ide/code-snippets.md)
+- [Code snippets](../ide/code-snippets.md)

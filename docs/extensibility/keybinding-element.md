@@ -2,20 +2,16 @@
 title: "KeyBinding Element | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "VSCT XML schema elements, KeyBindings"
   - "KeyBinding element (VSCT XML schema)"
 ms.assetid: e55a1098-15df-42a9-9f87-e3a99cf437dd
-caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

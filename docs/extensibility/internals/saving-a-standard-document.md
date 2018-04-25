@@ -2,21 +2,17 @@
 title: "Saving a Standard Document | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], saving standard documents"
   - "projects [Visual Studio SDK], saving standard documents"
   - "persistence, saving standard documents"
 ms.assetid: d692fedf-b46e-4d60-84bd-578635042235
-caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

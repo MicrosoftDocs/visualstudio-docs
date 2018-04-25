@@ -1,8 +1,10 @@
 ---
-title: "How to: Change the Debug Stepping Option (Legacy) | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
-helpviewer_keywords: 
+title: "Workflow Designer - How to: Change the Debug Stepping Option (Legacy)"
+ms.date: 11/04/2016
+ms.topic: conceptual
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
+helpviewer_keywords:
   - "branch stepping"
   - "debugging, stepping options"
   - "debugging workflows, stepping options"
@@ -11,26 +13,27 @@ helpviewer_keywords:
 ms.assetid: aedc06af-d58a-44d6-aee4-f397f1f923a0
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # How to: Change the Debug Stepping Option (Legacy)
-This topic describes how to change the debug stepping option for [!INCLUDE[wf](../workflow-designer/includes/wf_md.md)] applications in the legacy Windows Workflow Designer that have concurrent actions. Use the legacy [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] when you need to target either the [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] or the [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)].
 
- When you are debugging legacy activities that have concurrent execution, such as **ParallelActivity** or **ConditionedActivityGroup**, you can use one of two options to step through your code.
+This topic describes how to change the debug stepping option for Windows Workflow Foundation (WF) applications in the legacy Windows Workflow Designer that have concurrent actions. Use the legacy Workflow Designer when you need to target either the .NET Framework version 3.5 or the WinFX.
 
- Follow these steps to change the debug stepping option in your legacy workflow project.
+When you are debugging legacy activities that have concurrent execution, such as **ParallelActivity** or **ConditionedActivityGroup**, you can use one of two options to step through your code.
+
+Follow these steps to change the debug stepping option in your legacy workflow project.
 
 ## Procedures
 
-#### To change the debug stepping option
+### To change the debug stepping option
 
 1.  Start Visual Studio.
 
-2.  Open an existing legacy workflow project or create a new project that employs concurrent activities and that targets either the [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] or the [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)].
+2.  Open an existing legacy workflow project or create a new project that employs concurrent activities and that targets either the .NET Framework version 3.5 or the WinFX.
 
-3.  On the **Workflow** menu in the legacy [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)], point to **Debug**, and then point to **Stepping Options**.
+3.  On the **Workflow** menu in the legacy Workflow Designer, point to **Debug**, and then point to **Stepping Options**.
 
 4.  Select either **Instance** or **Branch**.
 

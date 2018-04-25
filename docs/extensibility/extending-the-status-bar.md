@@ -2,20 +2,16 @@
 title: "Extending the Status Bar | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "status bars, about status bars"
   - "status bars, overview"
 ms.assetid: f955115c-4c5f-45ec-b41b-365868c5ec0c
-caps.latest.revision: 23
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

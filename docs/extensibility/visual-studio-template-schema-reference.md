@@ -2,21 +2,17 @@
 title: "Visual Studio Template Schema Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "VSTEMPLATE files"
   - "Visual Studio templates, schema"
   - ".vstemplate files"
 ms.assetid: 6f74a2d5-3811-43d6-8b10-eb5823ad8995
-caps.latest.revision: 25
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

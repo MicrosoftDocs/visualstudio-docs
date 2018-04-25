@@ -2,15 +2,12 @@
 title: "Import an XCode Project | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: aa4b8161-d98f-4a1a-9db3-520133bfc82f
 ms.technology: vs-ide-mobile
 author: "corob-msft"
 ms.author: "corob"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "xplat-cplusplus"
 ---

@@ -2,12 +2,8 @@
 title: "Create Custom Visualizers of Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/19/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.visualizer.troubleshoot"
 dev_langs: 
@@ -20,10 +16,9 @@ helpviewer_keywords:
   - "debugger, visualizers"
   - "visualizers"
 ms.assetid: c24c006f-f2ac-429f-89db-677fc0c6e1ea
-caps.latest.revision: 28
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

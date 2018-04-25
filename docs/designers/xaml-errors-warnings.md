@@ -1,8 +1,9 @@
 ---
-title: "XAML Errors and Warnings | Microsoft Docs"
+title: XAML Errors and Warnings
 ms.date: 03/06/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-designers
-ms.topic: "article"
+ms.topic: conceptual
 ms.assetid: 34eac8a0-7ec5-4c40-b97a-0126ed367931
 author: "karann-msft"
 ms.author: "karann"
@@ -18,11 +19,11 @@ When authoring XAML, Visual Studio analyzes the code as you type. A squiggle app
 
 Behind the scenes, multiple tools analyze the XAML in parallel. XAML errors are categorized into one of the following three types, based on the tool that detected the error:
 
-|**Error detected by**|**Error code format**|  
-|--------------------------------|-----------------|  
-|XAML Language Service (XAML editor)|XLSxxxx|  
-|XAML Designer|XDGxxxx|  
-|XAML Edit and Continue|XECxxxx|  
+|**Error detected by**|**Error code format**|
+|--------------------------------|-----------------|
+|XAML Language Service (XAML editor)|XLSxxxx|
+|XAML Designer|XDGxxxx|
+|XAML Edit and Continue|XECxxxx|
 
 > [!Note]
 > Not all errors/warnings have a corresponding code. Such errors are usually XAML Designer errors.

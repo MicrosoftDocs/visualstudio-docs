@@ -2,12 +2,9 @@
 title: "Walkthrough: Calling Code from VBA in a Visual C# Project | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -22,7 +19,7 @@ helpviewer_keywords:
   - "document-level customizations [Office development in Visual Studio], calling code"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

@@ -2,11 +2,8 @@
 title: "RC Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 f1_keywords: 
   - "VC.Project.VCResourceCompilerTool.UndefineProcessorDefinitions"
   - "vc.task.rc"
@@ -22,10 +19,9 @@ helpviewer_keywords:
   - "RC task (MSBuild (Visual C++))"
   - "MSBuild (Visual C++), RC task"
 ms.assetid: 2fd26c75-a056-4dda-9f7e-2f90d3748d88
-caps.latest.revision: 10
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

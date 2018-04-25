@@ -1,7 +1,7 @@
 ---
-title: "Analyzing Load Test Results in Visual Studio | Microsoft Docs"
-ms.date: "10/20/2016"
-ms.topic: "article"
+title: "Analyzing Load Test Results in Visual Studio"
+ms.date: 10/20/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "load tests, test results"
   - "load tests, analyzing test results"
@@ -9,7 +9,8 @@ helpviewer_keywords:
 ms.assetid: 8a4ba300-425d-447c-91d9-c53f4345feee
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # Analyze Load Test Results Using the Load Test Analyzer

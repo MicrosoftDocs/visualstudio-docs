@@ -2,21 +2,17 @@
 title: "IDebugDisassemblyStream2::GetDocument | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugDisassemblyStream2::GetDocument"
 helpviewer_keywords: 
   - "IDebugDisassemblyStream2::GetDocument"
 ms.assetid: 3d039a44-ebaa-4413-ac18-7cfd92c408bd
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

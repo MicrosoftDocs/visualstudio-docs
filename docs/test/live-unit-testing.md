@@ -1,8 +1,9 @@
 ---
-title: "Live Unit Testing in Visual Studio | Microsoft Docs"
-ms.date: "2017-03-07"
+title: "Live Unit Testing in Visual Studio"
+ms.date: 2017-03-07
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Visual Studio ALM"
   - "Live Unit Testing"

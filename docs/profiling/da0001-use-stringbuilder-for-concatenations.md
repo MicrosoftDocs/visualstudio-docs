@@ -2,22 +2,17 @@
 title: "DA0001: Use StringBuilder for concatenations | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.DA0001"
   - "vs.performance.rules.DAUseStringBuilder"
   - "vs.performance.1"
   - "vs.performance.rules.DA0001"
 ms.assetid: a7cc7613-ad5f-48c8-bd2b-56372cc12dfc
-caps.latest.revision: 16
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -2,12 +2,8 @@
 title: "Project Settings for  C# Debug Configurations | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
   - "VB"
@@ -21,10 +17,9 @@ helpviewer_keywords:
   - "project configurations, debug"
   - "debugging [C#], debugger settings"
 ms.assetid: e30ca810-66e9-4d6e-9cf6-9f285cd0b100
-caps.latest.revision: 22
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "dotnet"
 ---

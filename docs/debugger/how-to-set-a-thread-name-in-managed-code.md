@@ -2,12 +2,8 @@
 title: "How to: Set a Thread Name in Managed Code | Microsoft Docs"
 ms.custom: ""
 ms.date: "04/27/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
   - "VB"
@@ -19,10 +15,9 @@ helpviewer_keywords:
   - "thread names"
   - "debugging [Visual Studio], threads"
 ms.assetid: c0c4d74a-0314-4b71-81c9-b0b019347ab8
-caps.latest.revision: 28
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "dotnet"
 ---

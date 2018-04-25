@@ -1,15 +1,12 @@
 ---
-title: "Introduction to editing in Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/30/2017"
-ms.reviewer: ""
-ms.suite: ""
+title: Introduction to editing in Visual Studio
+ms.date: 11/30/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
-ms.topic: "quickstart"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+ms.topic: quickstart
+author: gewarren
+ms.author: gewarren
+manager: douge
 dev_langs:
   - "CSharp"
 ms.workload:
@@ -19,7 +16,7 @@ ms.workload:
 
 In this 10-minute introduction to the editor, we'll add code to a file to look at some of the ways that Visual Studio makes writing, navigating, and understanding code easier.
 
-If you haven't already installed Visual Studio, go to the [Visual Studio Downloads](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) page to install it for free.
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) page to install it for free.
 
 This quickstart assumes you are already familiar with a programming language. If you aren't, we suggest you look at one of the programming quickstarts first, such as create a web app with [Python](../ide/quickstart-python.md) or [C#](../ide/tutorial-csharp-aspnet-core.md), or create a console app with [Visual Basic](../ide/quickstart-visual-basic-console.md) or [C++](../ide/quickstart-cpp.md).
 
@@ -27,19 +24,19 @@ This quickstart assumes you are already familiar with a programming language. If
 
 Start by creating a new file and adding some code to it. Notice that we do not have to create a project to gain some of the benefits that the editor offers.
 
-1. Open Visual Studio, and from the **File** menu on the menu bar, choose **New** > **File...**.
+1. Open Visual Studio, and from the **File** menu on the menu bar, choose **New** > **File**.
 
 1. In the **New File** dialog box, under the **General** category, choose **Visual C# Class**, and then choose **Open**.
 
    A new file opens in the editor with the skeleton of a C# class.
 
-## Using code snippets
+## Use code snippets
 
 Visual Studio provides useful code snippets that you can use to quickly and easily generate commonly used code blocks. [Code snippets](../ide/code-snippets.md) are available for different programming languages including C#, Visual Basic, and C++. Let's add the C# `void Main` snippet to our file.
 
 1. Place your cursor below the closing brace of the `Class1` constructor and enter the characters `svm`.
 
-   You see an IntelliSense dialog box appear with information about the `svm` snippet.
+   You see an **IntelliSense** dialog box appear with information about the `svm` snippet.
 
    ![IntelliSense snippet](media/quickstart-intellisense-snippet.png)
 
@@ -47,13 +44,13 @@ Visual Studio provides useful code snippets that you can use to quickly and easi
 
    You see the `static void Main()` method signature get added to the file. The `Main()` method is the entry point for C# applications.
 
-The available code snippets vary for different languages. You can look at the available code snippets for your programming language by choosing **Edit**, **IntelliSense**, **Insert Snippet...**, and then choosing your language's folder. For C#, the list looks like this:
+The available code snippets vary for different languages. You can look at the available code snippets for your programming language by choosing **Edit** > **IntelliSense** > **Insert Snippet**, and then choosing your language's folder. For C#, the list looks like this:
 
 ![C# code snippet list](media/quickstart-code-snippet-list.png)
 
 The list includes snippets for creating a class, a constructor, `Console.WriteLine()`, `for` loops, `if` and `switch` statements, and more.
 
-## Commenting out code
+## Comment out code
 
 The toolbar provides a number of buttons to make you more productive as you code. For example, you can toggle IntelliSense completion mode, increase or decrease an indent, set a bookmark, or comment out code. In this section, we'll comment out some code that we don't want to compile.
 
@@ -89,15 +86,15 @@ The toolbar provides a number of buttons to make you more productive as you code
 
    The C# comment characters `//` are added to the beginning of each selected line to comment out the code.
 
-## Collapsing code blocks
+## Collapse code blocks
 
 We don't want to see the empty constructor for `Class1` that was generated, so to unclutter our view of the code, let's collapse it. Choose the small gray box with the minus sign inside it in the margin of the first line of the constructor. Or, if you are a keyboard user, place the cursor anywhere in the constructor code and press **Ctrl**+**M**, **Ctrl**+**M**.
 
 ![Outlining collapse button](media/quickstart-collapse.png)
 
-The code block collapses to just the first line, followed by an ellipsis (`...`). To expand the code block again, click the same gray box that now has a plus sign in it, or press **Ctrl**+**M**, **Ctrl**+**M** again. This feature is called [outlining](../ide/outlining.md) and is especially useful when you're collapsing long methods or entire classes.
+The code block collapses to just the first line, followed by an ellipsis (`...`). To expand the code block again, click the same gray box that now has a plus sign in it, or press **Ctrl**+**M**, **Ctrl**+**M** again. This feature is called [Outlining](../ide/outlining.md) and is especially useful when you're collapsing long methods or entire classes.
 
-## Viewing symbol definitions
+## View symbol definitions
 
 The Visual Studio editor makes it easy to inspect the definition of a type, method, etc. One way is to navigate to the file that contains the definition, for example by choosing **Go to Definition** anywhere the symbol is referenced. An even quicker way that doesn't move your focus away from the file you're working in is to use [Peek Definition](../ide/go-to-and-peek-definition.md#peek-definition). Let's peek at the definition of `string`.
 
@@ -109,7 +106,7 @@ The Visual Studio editor makes it easy to inspect the definition of a type, meth
 
 1. Close the peeked definition window by choosing the small box with an "x" at the top right of the pop-up window.
 
-## Using IntelliSense to complete words
+## Use IntelliSense to complete words
 
 [IntelliSense](../ide/using-intellisense.md) is an invaluable resource when you're coding. It can show you information about available members of a type, or parameter details for different overloads of a method. You can also use IntelliSense to complete a word after you type enough characters to disambiguate it. Let's add a line of code to print out the ordered strings to the console window.
 
@@ -134,11 +131,11 @@ The Visual Studio editor makes it easy to inspect the definition of a type, meth
    }
    ```
 
-## Refactoring a name
+## Refactor a name
 
-Nobody gets code right the first time, and one of the things you might want to change is the name of a variable or method. Let's try out Visual Studio's [refactoring](../ide/refactoring-in-visual-studio.md) functionality to rename the `_words` variable to `words`.
+Nobody gets code right the first time, and one of the things you might want to change is the name of a variable or method. Let's try out Visual Studio's [refactor](../ide/refactoring-in-visual-studio.md) functionality to rename the `_words` variable to `words`.
 
-1. Place your cursor over the definition of the `words` variable, and choose **Rename...** from the right-click or context menu, or press **Ctrl**+**R**, **Ctrl**+**R**.
+1. Place your cursor over the definition of the `words` variable, and choose **Rename** from the right-click or context menu, or press **Ctrl**+**R**, **Ctrl**+**R**.
 
    A pop-up **Rename** dialog box appears at the top right of the editor.
 
@@ -152,7 +149,7 @@ Nobody gets code right the first time, and one of the things you might want to c
 
 ## Next steps
 
-You've completed this quickstart for the Visual Studio editor! Next you might try out some of the other quickstarts for the Visual Studio IDE, look at more ways of [navigating code](../ide/navigating-code.md), or check out the links to more information about the features we looked at. Otherwise, happy coding!
+You've completed this Quickstart for the Visual Studio editor! Next you might try out some of the other Quickstarts for the Visual Studio IDE, look at more ways to [Navigate code](../ide/navigating-code.md), or check out the links to more information about the features we looked at. Otherwise, happy coding!
 
 ## See also
 
@@ -163,4 +160,4 @@ You've completed this quickstart for the Visual Studio editor! Next you might tr
 - [Outlining](../ide/outlining.md)
 - [Go To Definition and Peek Definition](../ide/go-to-and-peek-definition.md)
 - [Refactoring](../ide/refactoring-in-visual-studio.md)
-- [Using IntelliSense](../ide/using-intellisense.md)
+- [Use IntelliSense](../ide/using-intellisense.md)

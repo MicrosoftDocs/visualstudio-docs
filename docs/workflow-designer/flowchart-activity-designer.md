@@ -1,33 +1,39 @@
 ---
-title: "Flowchart Activity Designer | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
-f1_keywords: 
+title: "Workflow Designer - Flowchart Activity Designer"
+ms.date: 11/04/2016
+ms.topic: reference
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
+f1_keywords:
   - "System.Activities.Statements.Flowchart.UI"
   - "System.Activities.Statements.FlowStep.UI"
   - "System.Activities.Core.Presentation.FlowStart.UI"
 ms.assetid: d5af2276-5215-4138-880a-cf2b90bbf3a0
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # Flowchart Activity Designer
-The <xref:System.Activities.Statements.Flowchart> activity is used to create workflows that define and manage complex flow controls. A <xref:System.Activities.Statements.Flowchart> can be authored either in code or by using [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)]. This topic documents the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] experience. The Windows Workflow Designer workflow activity designer enables developers to author workflows in a natural manner.
+
+The <xref:System.Activities.Statements.Flowchart> activity is used to create workflows that define and manage complex flow controls. A <xref:System.Activities.Statements.Flowchart> can be authored either in code or by using Workflow Designer. This topic documents the Workflow Designer experience. The Windows Workflow Designer workflow activity designer enables developers to author workflows in a natural manner.
 
 ## The Flowchart Activity
- The <xref:System.Activities.Statements.Flowchart> specifies a unique <xref:System.Activities.Statements.Flowchart.StartNode%2A> that is executed when the workflow starts and uses a network of linked <xref:System.Activities.Statements.Flowchart.Nodes%2A> to create arbitrary loops or to divert the flow of execution to anywhere else in the workflow at any given time.
+
+The <xref:System.Activities.Statements.Flowchart> specifies a unique <xref:System.Activities.Statements.Flowchart.StartNode%2A> that is executed when the workflow starts and uses a network of linked <xref:System.Activities.Statements.Flowchart.Nodes%2A> to create arbitrary loops or to divert the flow of execution to anywhere else in the workflow at any given time.
 
 ### Using the Flowchart Activity Designer
- The **Flowchart** activity designer can be found in the **Flowchart** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab on the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] (Alternatively, select **Toolbar** from the **View** menu or CTRL+ALT+X.)
 
- The **Flowchart** activity designer can be dragged from the **Toolbox** and dropped on to the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] surface wherever activity designers are normally placed, either as a root activity or as the child of another control flow activity. If the **Flowchart** activity designer is dropped onto a blank [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] surface, it creates a <xref:System.Activities.Statements.Flowchart> activity, which by default presents itself in an expanded view in which the start node that initiates execution is represented as a green ball. If the **Flowchart** activity designer is dropped into another control flow activity, it presents itself in a minimized view that can be expanded by double-clicking the **Flowchart** activity designer. Any activity in the **Toolbox** can be dragged directly onto the **Flowchart** activity designer, including other control flow activities.
+The **Flowchart** activity designer can be found in the **Flowchart** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab on the Workflow Designer (Alternatively, select **Toolbar** from the **View** menu or CTRL+ALT+X.)
 
- After dragging various activity designers onto the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] canvas, the <xref:System.Activities.Activity> objects they represent can be linked together to specify the order of execution. To create a link between a source activity and a destination activity, mouse over the designer of the source activity and square handles appear on each side of it. Click one of the square handles and drag it by holding down the mouse button to one of the handles that appears in a similar manner around the destination activity when hovering over it with the mouse. Release the mouse button and a link is created between these two activities that is represented as an arrow from the source designer to the destination designer.
+The **Flowchart** activity designer can be dragged from the **Toolbox** and dropped on to the Workflow Designer surface wherever activity designers are normally placed, either as a root activity or as the child of another control flow activity. If the **Flowchart** activity designer is dropped onto a blank Workflow Designer surface, it creates a <xref:System.Activities.Statements.Flowchart> activity, which by default presents itself in an expanded view in which the start node that initiates execution is represented as a green ball. If the **Flowchart** activity designer is dropped into another control flow activity, it presents itself in a minimized view that can be expanded by double-clicking the **Flowchart** activity designer. Any activity in the **Toolbox** can be dragged directly onto the **Flowchart** activity designer, including other control flow activities.
+
+After dragging various activity designers onto the Workflow Designer canvas, the <xref:System.Activities.Activity> objects they represent can be linked together to specify the order of execution. To create a link between a source activity and a destination activity, mouse over the designer of the source activity and square handles appear on each side of it. Click one of the square handles and drag it by holding down the mouse button to one of the handles that appears in a similar manner around the destination activity when hovering over it with the mouse. Release the mouse button and a link is created between these two activities that is represented as an arrow from the source designer to the destination designer.
 
 ### Flowchart Activity Properties
- The following table shows the <xref:System.Activities.Statements.Flowchart> properties and describes how they are used in the designer. These properties can be edited in property grid or on the designer surface.
+
+The following table shows the <xref:System.Activities.Statements.Flowchart> properties and describes how they are used in the designer. These properties can be edited in property grid or on the designer surface.
 
 |Property Name|Required|Usage|
 |-------------------|--------------|-----------|

@@ -1,33 +1,37 @@
 ---
-title: "Receive Activity Designer | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
-f1_keywords: 
+title: "Workflow Designer - Receive Activity Designer"
+ms.date: 11/04/2016
+ms.topic: reference
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
+f1_keywords:
   - "System.ServiceModel.Activities.Receive.UI"
 ms.assetid: f58d3c70-944d-4bb4-90a7-e68c103caddc
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # Receive Activity Designer
+
 The **Receive** activity designer is used to create and configure a <xref:System.ServiceModel.Activities.Receive> activity. A <xref:System.ServiceModel.Activities.Receive> activity is an activity that receives a message that can be either a built-in type such as <xref:System.ServiceModel.Channels.Message>, <xref:System.IO.Stream> or <xref:System.Xml.Linq.XElement>, or an application-defined data contract, message contract, or XML class that can be serialized.
 
 ## The Receive Activity
- The <xref:System.ServiceModel.Activities.Receive> activity can receive a single item or multiple items depending on the type of receive content used. A <xref:System.ServiceModel.Activities.SendReply> activity can be bound to a <xref:System.ServiceModel.Activities.Receive> activity that receives a message as part of a request/response message exchange pattern on the service.
+
+The <xref:System.ServiceModel.Activities.Receive> activity can receive a single item or multiple items depending on the type of receive content used. A <xref:System.ServiceModel.Activities.SendReply> activity can be bound to a <xref:System.ServiceModel.Activities.Receive> activity that receives a message as part of a request/response message exchange pattern on the service.
 
 ### Using the Receive Activity Designer
- The **Receive** activity designer can be found in the **Messaging** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab on the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] (Alternatively, select **Toolbar** from the **View** menu or CTRL+ALT+X.)
+ The **Receive** activity designer can be found in the **Messaging** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab on the Workflow Designer (Alternatively, select **Toolbar** from the **View** menu or CTRL+ALT+X.)
 
- The **Receive** activity designer can be dragged from the **Toolbox** and dropped on to the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] surface wherever activities are usually placed. This creates a <xref:System.ServiceModel.Activities.Receive> activity with a default <xref:System.Activities.Activity.DisplayName%2A> of Receive. The <xref:System.Activities.Activity.DisplayName%2A> can be edited in the header of the **Receive** activity designer or in the **DisplayName** box of the property grid.
+ The **Receive** activity designer can be dragged from the **Toolbox** and dropped on to the Workflow Designer surface wherever activities are usually placed. This creates a <xref:System.ServiceModel.Activities.Receive> activity with a default <xref:System.Activities.Activity.DisplayName%2A> of Receive. The <xref:System.Activities.Activity.DisplayName%2A> can be edited in the header of the **Receive** activity designer or in the **DisplayName** box of the property grid.
 
  To create a <xref:System.ServiceModel.Activities.SendReply> activity and bind it to the selected <xref:System.ServiceModel.Activities.Receive> activity, right-click the **Receive** activity designer, click the **Create SendReply** item in the context menu and the **SendReplyToReceive** designer appears below the **Receive** designer. The <xref:System.ServiceModel.Activities.SendReply> activity is an activity that sends the reply message as part of a request/response message exchange pattern on the service. It can be configured with the **SendReplyToReceive** designer.
 
  Alternatively, the **ReceiveAndSendReply** template designer in the **Messaging** category of the **Toolbox** can be used to create a pair of pre-configured <xref:System.ServiceModel.Activities.Receive> and <xref:System.ServiceModel.Activities.SendReply> activity. For more information about the use of the **ReceiveAndSendReply** and **SendReplyToReceive** template, see the [ReceiveAndSendReply](../workflow-designer/receiveandsendreply-template-designer.md) topic.
 
 ### The Receive Activity Properties
- The following table shows the <xref:System.ServiceModel.Activities.Receive> properties and describes how they are used in the designer. These properties can be edited in properties grid or on the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] surface. The only required property is the <xref:System.ServiceModel.Activities.Receive.OperationName%2A> property.
+ The following table shows the <xref:System.ServiceModel.Activities.Receive> properties and describes how they are used in the designer. These properties can be edited in properties grid or on the Workflow Designer surface. The only required property is the <xref:System.ServiceModel.Activities.Receive.OperationName%2A> property.
 
 |Property Name|Required|Usage|
 |-------------------|--------------|-----------|

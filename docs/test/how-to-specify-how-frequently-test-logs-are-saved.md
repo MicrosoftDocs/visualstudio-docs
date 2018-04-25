@@ -1,14 +1,15 @@
 ---
-title: "Saving load test logs in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "article"
+title: "Saving load test logs in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "load tests, scenarios"
   - "load tests, logging"
 ms.assetid: 9ac88d8a-4777-462c-aa0e-244dadb2cfd1
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # How to: Specify How Frequently Test Logs are Saved Using the Load Test Editor

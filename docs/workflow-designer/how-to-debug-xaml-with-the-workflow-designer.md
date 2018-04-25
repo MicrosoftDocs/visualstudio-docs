@@ -1,23 +1,26 @@
 ---
-title: "How to: Debug XAML with the Workflow Designer | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: "Workflow Designer - How to: Debug XAML with the Workflow Designer"
+ms.date: 11/04/2016
+ms.topic: conceptual
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
 ms.assetid: d9305dbc-af62-4bdd-b03f-c54e3fe9ecc7
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "uwp"
 ---
 # How to: Debug XAML with the Workflow Designer
-Workflows are defined in terms of XAML. The UI representation of workflow is built on top of the XAML tree defining the workflow. The debugging experience is similar to debugging workflows in the Windows Workflow Designer. For instance, while debugging XAML, the locals, watch, and threads windows work the same way as they do in [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] debugging. In addition, the call stack view during the XAML debugging is a line-based hierarchical view of the execution flow for the workflow.
+
+Workflows are defined in terms of XAML. The UI representation of workflow is built on top of the XAML tree defining the workflow. The debugging experience is similar to debugging workflows in the Windows Workflow Designer. For instance, while debugging XAML, the locals, watch, and threads windows work the same way as they do in Workflow Designer debugging. In addition, the call stack view during the XAML debugging is a line-based hierarchical view of the execution flow for the workflow.
 
 > [!NOTE]
 > If the XAML for a workflow is located in the same assembly as the activities, the assembly portion of the class names are not included. Without this portion of the class (activity) names, the XAML cannot be loaded at runtime. It is not recommended to define activities in the same namespace as the main project; otherwise, the XAML will need to be hand-edited after being edited in the designer.
 
-### To debug workflow XAML
+## To debug workflow XAML
 
-1.  Open a workflow or activity project in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].
+1.  Open a workflow or activity project in Visual Studio.
 
 2.  Set a breakpoint on the activity or activities you want to debug as described in [How to: Set Breakpoints in Workflows](../workflow-designer/how-to-set-breakpoints-in-workflows.md).
 

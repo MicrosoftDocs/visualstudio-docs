@@ -1,13 +1,14 @@
 ---
-title: "Configure a Visual Studio Test Agent to Run Tests that Interact with the Desktop | Microsoft Docs"
-ms.date: "10/20/2016"
-ms.topic: "article"
+title: "Configure a Visual Studio Test Agent to Run Tests that Interact with the Desktop"
+ms.date: 10/20/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "agents, configuring for interaction with desktop"
 ms.assetid: 3a94dd07-6d17-402c-ae8f-7947143755c9
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # How to: Set Up Your Test Agent to Run Tests that Interact with the Desktop

@@ -2,21 +2,17 @@
 title: "Quick Info in a Legacy Language Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Quick Info, supporting in language services [managed package framework]"
   - "IntelliSense, Quick Info"
   - "language services [managed package framework], IntelliSense Quick Info"
 ms.assetid: 159ccb0b-f5d6-4912-b88b-e9612924ed5e
-caps.latest.revision: 16
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

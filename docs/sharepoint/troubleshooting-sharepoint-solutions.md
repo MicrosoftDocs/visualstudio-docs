@@ -2,12 +2,9 @@
 title: "Troubleshooting SharePoint Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/22/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "Microsoft.VisualStudio.Tools.SharePoint.Errors.Debugging"
 dev_langs: 
@@ -19,7 +16,7 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, troubleshooting"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

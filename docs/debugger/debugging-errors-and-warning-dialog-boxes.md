@@ -2,11 +2,7 @@
 title: "Debugging Errors and Warning Dialog Boxes | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
+ms.technology: "vs-ide-debug"
 ms.topic: "reference"
 f1_keywords: 
   - "VS.WebClient.AccessRequiredDialog"
@@ -22,10 +18,9 @@ helpviewer_keywords:
   - "debugger, errors"
   - "errors [Visual Studio], debugger"
 ms.assetid: 73baaf39-3026-48c9-be48-8b9ba0063cde
-caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

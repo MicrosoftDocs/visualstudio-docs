@@ -1,8 +1,10 @@
 ---
-title: "Using the Legacy Activity Designer | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
-helpviewer_keywords: 
+title: "Workflow Designer - Using the Legacy Activity Designer"
+ms.date: 11/04/2016
+ms.topic: conceptual
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
+helpviewer_keywords:
   - "activities, configuring"
   - "custom activities"
   - "Activity Designer"
@@ -12,17 +14,19 @@ helpviewer_keywords:
 ms.assetid: 2fea8a05-6e58-423d-94bf-a822b15ffb80
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # Using the Legacy Activity Designer
-This topic describes how to use the activity designer in the legacy Windows Workflow Designer. Use the legacy designer when targeting the [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] or the [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)].
 
- The Activity Designer enables you to create your own custom activities.
+This topic describes how to use the activity designer in the legacy Windows Workflow Designer. Use the legacy designer when targeting the .NET Framework version 3.5 or the WinFX.
+
+The Activity Designer enables you to create your own custom activities.
 
 ## Creating a Custom Activity
- Follow these steps to create a custom activity using the Activity Designer:
+
+Follow these steps to create a custom activity using the Activity Designer:
 
 1.  On the **Project** menu, click **Add Activity**.
 
@@ -34,10 +38,11 @@ This topic describes how to use the activity designer in the legacy Windows Work
 
 3.  Type an activity name or keep the default name, and then click **Add**.
 
- You can also create a set of custom activities by creating a new project of type **Workflow Activity Library**. For more information about this project type, see [How to: Create a Workflow Activity Library (Legacy)](../workflow-designer/how-to-create-a-workflow-activity-library-legacy.md).
+You can also create a set of custom activities by creating a new project of type **Workflow Activity Library**. For more information about this project type, see [How to: Create a Workflow Activity Library (Legacy)](../workflow-designer/how-to-create-a-workflow-activity-library-legacy.md).
 
 ## Configuring an Activity
- While the Activity Designer is active, you can use the property browser to configure the properties listed in the following table.
+
+While the Activity Designer is active, you can use the property browser to configure the properties listed in the following table.
 
 |Property|Comments|
 |--------------|--------------|
@@ -47,7 +52,8 @@ This topic describes how to use the activity designer in the legacy Windows Work
 |**Enabled**|Set to **True** by default to enable activity execution and validation. Set to **False** to disable activity execution and validation. For information about activity execution and validation, see [Developing Workflow Activities](http://go.microsoft.com/fwlink?LinkID=65024).|
 
 ## Adding Child Activities
- You can drag child activities from the Toolbox to the activity that you are designing. You can then configure each child activity using the property browser.
+
+You can drag child activities from the Toolbox to the activity that you are designing. You can then configure each child activity using the property browser.
 
 ## See also
 

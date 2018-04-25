@@ -1,10 +1,11 @@
 ---
-title: "How to: Write unit tests for C++ DLLs | Microsoft Docs"
-ms.date: "11/04/2017"
+title: "How to: Write unit tests for C++ DLLs"
+ms.date: 11/04/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: conceptual
 ms.author: mblome
-manager: ghogen
+manager: douge
 ms.workload: 
   - "cplusplus"
 author: mikeblome
@@ -288,7 +289,8 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
      ![All tests pass](../test/media/ute_ult_alltestspass.png "UTE_ULT_AllTestsPass")
 
 > [!TIP]
->  If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png "UTE_parallelicon-small") toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
+> If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png "UTE_parallelicon-small") toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
+
 
 ##  <a name="refactor"></a> Refactor the code without changing tests
 

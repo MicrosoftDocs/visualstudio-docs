@@ -2,12 +2,8 @@
 title: "How Can I Find Out Who Is Passing a Wrong Parameter Value? | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.parameters"
 dev_langs: 
@@ -22,10 +18,9 @@ helpviewer_keywords:
   - "functions [debugger], detecting wrong parameter values"
   - "parameter values, troubleshooting"
 ms.assetid: 1f1ae455-0e25-4e9d-b33f-53908f5bd6ce
-caps.latest.revision: 19
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

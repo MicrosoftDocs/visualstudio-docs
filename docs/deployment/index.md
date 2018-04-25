@@ -2,7 +2,7 @@
 layout: LandingPage
 title: Deploying your Apps in Visual Studio | Microsoft Docs
 description: Learn how use Visual Studio 2017 to deploy applications, services, and components.
-ms.technology: vs-ide-debug
+ms.technology: vs-ide-deployment
 ---
 # Deployment in Visual Studio
 

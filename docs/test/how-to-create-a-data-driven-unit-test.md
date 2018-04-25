@@ -1,8 +1,9 @@
 ---
-title: "How To: Create a Data-Driven Unit Test in Visual Studio | Microsoft Docs"
-ms.date: "11/04/2016"
+title: "How To: Create a Data-Driven Unit Test in Visual Studio"
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: conceptual
 f1_keywords:
   - "vs.test.testresults.unittest.datadriven"
   - "vs.test.testresults.unittest.datadriven.failure"
@@ -11,7 +12,7 @@ helpviewer_keywords:
   - "unit tests, data-driven"
   - "data-driven unit tests"
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 author: gewarren

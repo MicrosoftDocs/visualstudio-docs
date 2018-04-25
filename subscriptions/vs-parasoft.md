@@ -1,49 +1,22 @@
 ---
 title: Parasoft Virtualize/SOAtest Professional Desktop Benefit | Microsoft Docs
-Author: evanwindom
-Ms.author: jaunger
-Manager: evelynp
-Ms.date: 10/3/2017
-Ms.topic: Get-Started-Article
-Description:  Learn how to activate the Parasoft Virtualize/SOA Test Professional subscription included in your Visual Studio subscription. 
-Ms.prod: vs-subscription
-Ms.technology: vs-subscriptions
-Searchscope: VS Subscription
+author: evanwindom
+ms.author: jaunger
+manager: evelynp
+ms.date: 10/03/2017
+ms.topic: Get-Started-Article
+description:  Learn how to activate the Parasoft Virtualize/SOA Test Professional subscription included in your Visual Studio subscription. 
+ms.prod: vs-subscription
+ms.technology: vs-subscriptions
+searchscope: VS Subscription
 ---
 
-# Parasoft Virtualize/SOAtest Professional Desktop in Visual Studio Subscriptions
-
-## Overview
+# Parasoft Virtualize/SOAtest Professional Desktop in Visual Studio subscriptions
 
 Test earlier and more often.  Simulate and test the behavior of unavailable evolving applications and systems.  Your benefit includes a free six-month subscription.  At the end of your six-month subscription, you’ll qualify for a 25% discount on the price of an annual subscription.  
 
-## Eligibility
 
-| Subscription Level / Program                                 | Benefit                     | Renewable?                                                   |
-|--------------------------------------------------------------|-----------------------------|--------------------------------------------------------------|
-| Visual Studio Enterprise Standard                            | 6 months                    |   Yes                                                        |
-| Visual Studio Enterprise annual                              | 6 months                    |   Yes                                                        |
-| Visual Studio Enterprise monthly                             | Not available               |                                                              |
-| Visual Studio Professional Standard                          | Not available               |                                                              |
-| Visual Studio Professional annual                            | Not available               |                                                              | 
-| Visual Studio Professional monthly                           | Not available               |                                                              |
-| Visual Studio Test Pro                                       | Not available               |                                                              |
-| MSDN Platforms                                               | Not available               |                                                              |
-| Visual Studio Dev Essentials                                 | Not available               |                                                              |
-| Visual Studio Enterprise - NFR*                              | Not available               |                                                              |
-| Visual Studio Enterprise - FTE                               | Not available               |                                                              |
-| Visual Studio Enterprise - Microsoft Partner Network         | 6 months                    |   Yes                                                        |
-| Visual Studio Professional - Microsoft Partner Network       | Not available               |                                                              |
-| Visual Studio Enterprise – Imagine (Standard)                | Not available               |                                                              |
-| Visual Studio Enterprise – Imagine (Premium)                 | Not available               |                                                              |
-| Visual Studio Enterprise – BizSpark                          | Not available               |                                                              |
-| Visual Studio Enterprise – MCT Software & Services           | Not available               |                                                              |
-| Visual Studio Enterprise – MCT Software & Services Developer | Not available               |                                                              |
-*Includes Not for Resale (NFR), Microsoft Valued Partner (MVP), Region Director (RD), Visual Studio Industry Partner (VSIP)  
-
-Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions. 
-
-## Activation Steps
+## Activation steps
 
 1.	To use your Parasoft Virtualize/SOAtest Professional Desktop benefit, sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
 
@@ -94,10 +67,21 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 
 17.	When the setup is complete, click **Finish**. You're now ready to start using your Parasoft Virtualize/SOAtest Professional Desktop benefit!
 
-## FAQ
-*Check here for updates*
- 
-## Support Resources
+## Eligibility
+| Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
+|--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
+| Visual Studio Enterprise (Standard, annual cloud)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | 6 months       |  Yes       |
+| Visual Studio Professional (Standard, annual cloud) | VL, Azure, Retail                                       | Not available                                                           |NA         |
+| Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Not available                                                           |NA         |
+| MSDN Platforms (Standard)                                          | VL, Retail                                              | Not available                                                           |NA         |
+| Visual Studio Dev Essentials | NA  | Not available|NA |
+| Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure                                       | Not available                                                           |NA|
+
+<sup>1</sup>  *Includes: Microsoft Partner Network (Enterprise).  Excludes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), FTE, MCT Software & Services Developer, BizSpark, Imagine, Microsoft Valued Partner (MVP), Region Director (RD).  MCT Software & Services.*
+
+
+
+## Support resources
 -  Need help with Parasoft products?  Check out these resources:
     - Technical Support:  https://www.parasoft.com/support/ 
     - Parasoft Resource Center:  https://www.parasoft.com/resources/ 

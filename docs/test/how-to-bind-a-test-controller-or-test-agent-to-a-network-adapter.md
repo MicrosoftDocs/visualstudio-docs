@@ -1,7 +1,7 @@
 ---
-title: "Bind a Test Controller or Test Agent to a Network Adapter in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "article"
+title: "Bind a Test Controller or Test Agent to a Network Adapter in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "controllers, netwrok adapter"
   - "agents, configuring"
@@ -10,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 7eb9290a-f9f6-4e41-9caa-796fcfaf0610
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # How to: Bind a test controller or test agent to a network adapter

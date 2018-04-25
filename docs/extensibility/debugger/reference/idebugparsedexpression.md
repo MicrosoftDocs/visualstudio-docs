@@ -2,21 +2,17 @@
 title: "IDebugParsedExpression | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugParsedExpression"
 helpviewer_keywords: 
   - "IDebugParsedExpression interface"
 ms.assetid: be6486ed-b070-4898-95b1-58581bcb4447
-caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

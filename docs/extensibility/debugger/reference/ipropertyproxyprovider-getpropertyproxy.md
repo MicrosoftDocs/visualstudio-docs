@@ -2,21 +2,17 @@
 title: "IPropertyProxyProvider::GetPropertyProxy | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IPropertyProxyProvider::GetPropertyProxy"
 helpviewer_keywords: 
   - "IPropertyProxyProvider::GetPropertyProxy"
 ms.assetid: 3ebb7515-5bfe-48f4-9b8d-721b8f664eb6
-caps.latest.revision: 14
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

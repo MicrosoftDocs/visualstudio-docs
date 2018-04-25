@@ -2,11 +2,8 @@
 title: "Using Visual Studio Tools for Unity | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-unity-tools
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: e67ec9a2-a449-413e-8930-9a471bd43a06
 author: "conceptdev"
 ms.author: "crdun"

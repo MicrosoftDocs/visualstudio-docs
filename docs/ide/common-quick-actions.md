@@ -1,11 +1,12 @@
 ---
-title: "Common Quick Actions | Microsoft Docs"
+title: Common Quick Actions
 ms.date: 03/28/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 author: "kuhlenh"
 ms.author: "kaseyu"
-manager: ghogen
+manager: douge
 dev_langs:
   - CSharp
   - VB
@@ -950,4 +951,4 @@ Console.WriteLine($"{x} {y}");
 
 ## See also
 
-[Quick Actions](../ide/quick-actions.md)
+- [Quick Actions](../ide/quick-actions.md)

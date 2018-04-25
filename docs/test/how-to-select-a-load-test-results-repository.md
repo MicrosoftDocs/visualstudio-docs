@@ -1,7 +1,7 @@
 ---
-title: "How to: Select a Load Test Results Repository in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "article"
+title: "How to: Select a Load Test Results Repository in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 f1_keywords:
   - "vs.test.load.dialog.connectstringmissing"
   - "vs.test.load.dialog.databaseconnectstring"
@@ -14,7 +14,8 @@ helpviewer_keywords:
 ms.assetid: fa0c4dd9-612f-4a57-b8eb-458f129d9cda
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # How to: Select a Load Test Results Repository

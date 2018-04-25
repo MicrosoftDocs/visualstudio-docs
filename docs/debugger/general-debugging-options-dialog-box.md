@@ -2,11 +2,7 @@
 title: "General, Debugging, Options Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "05/23/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
+ms.technology: "vs-ide-debug"
 ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.options.General"
@@ -22,10 +18,9 @@ dev_langs:
 helpviewer_keywords: 
   - "Options dialog box, debugging"
 ms.assetid: b33aee0b-43c3-4c26-8ed4-bc673f491503
-caps.latest.revision: 46
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

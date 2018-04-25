@@ -1,13 +1,13 @@
 ---
-title: "XSLT Profiler | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology: vs-ide-general
-ms.topic: "article"
+title: "XSLT Profiler"
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: 8e852628-99fc-4e6e-8602-e1c13dde3b95
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: gewarren
+ms.author: gewarren
+manager: douge
 ms.workload:
   - "multiple"
 ---

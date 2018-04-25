@@ -1,14 +1,16 @@
 ---
-title: "Send Activity Designer | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
-f1_keywords: 
+title: "Workflow Designer - Send Activity Designer"
+ms.date: 11/04/2016
+ms.topic: reference
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
+f1_keywords:
   - "System.ServiceModel.Activities.Send.UI"
 ms.assetid: b514f2e4-767c-4b94-ac61-dd3a54d4b96d
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # Send Activity Designer
@@ -16,19 +18,20 @@ ms.workload:
 The **Send** activity designer is used to create and configure a <xref:System.ServiceModel.Activities.Send> activity.
 
 ## The Send Activity
+
  A <xref:System.ServiceModel.Activities.Send> activity is used to send a message to a service. A <xref:System.ServiceModel.Activities.ReceiveReply> activity can be bound to a <xref:System.ServiceModel.Activities.Send> activity that receives a message as part of a request/response message exchange pattern on the client.
 
 ### Using the Send Activity Designer
- The **Send** activity designer can be found in the **Messaging** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab in [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] (Alternatively, select **Toolbar** from the **View** menu or CTRL+ALT+X.)
+ The **Send** activity designer can be found in the **Messaging** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab in Workflow Designer (Alternatively, select **Toolbar** from the **View** menu or CTRL+ALT+X.)
 
- The **Send** activity designer can be dragged from the **Toolbox** and dropped on to the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] surface wherever activities are usually placed. This creates a <xref:System.ServiceModel.Activities.Send> activity with a default <xref:System.Activities.Activity.DisplayName%2A> of Send. The <xref:System.Activities.Activity.DisplayName%2A> can be edited in the header of the **Send** activity designer or in the **DisplayName** box of the property grid.
+ The **Send** activity designer can be dragged from the **Toolbox** and dropped on to the Workflow Designer surface wherever activities are usually placed. This creates a <xref:System.ServiceModel.Activities.Send> activity with a default <xref:System.Activities.Activity.DisplayName%2A> of Send. The <xref:System.Activities.Activity.DisplayName%2A> can be edited in the header of the **Send** activity designer or in the **DisplayName** box of the property grid.
 
  To create a <xref:System.ServiceModel.Activities.ReceiveReply> activity and bind it to the selected <xref:System.ServiceModel.Activities.Send> activity, right-click the **Send** activity designer, click the **Create ReceiveReply** item in the context menu and the **ReceiveReplyForSend** designer appears below the **Send** designer. The <xref:System.ServiceModel.Activities.ReceiveReply> activity is an activity that receives a message as part of a request/response message exchange pattern on the client. It can be configured with the **ReceiveReplyForSend** designer.
 
  Alternatively, the **SendAndReceiveReply** template designer in the **Messaging** category of the **Toolbox** can be used to create a pair of pre-configured <xref:System.ServiceModel.Activities.Send> and <xref:System.ServiceModel.Activities.ReceiveReply> activities. For more information about the use of the **SendAndReceiveReply** and **ReceiveReplyForSend** templates, see the [SendAndReceiveReply](../workflow-designer/sendandreceivereply-template-designer.md) topic.
 
 ### The Send Activity Properties
- The following table shows the <xref:System.ServiceModel.Activities.Send> properties and describes how they are used in the designer. These properties can be edited in properties grid or on [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] surface.
+ The following table shows the <xref:System.ServiceModel.Activities.Send> properties and describes how they are used in the designer. These properties can be edited in properties grid or on Workflow Designer surface.
 
 |Property Name|Required|Usage|
 |-------------------|--------------|-----------|

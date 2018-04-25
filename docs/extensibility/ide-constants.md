@@ -3,8 +3,7 @@ title: "IDE Constants | Microsoft Docs"
 ms.date: 03/22/2018
 ms.technology:
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "IDE, errors"
   - "logical views"
@@ -14,10 +13,9 @@ helpviewer_keywords:
   - "IDE, constants"
   - "physical views"
 ms.assetid: 5030e70a-241d-474a-ba8c-e3b1cf947ff0
-caps.latest.revision: 23
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload:
   - "vssdk"
 ---

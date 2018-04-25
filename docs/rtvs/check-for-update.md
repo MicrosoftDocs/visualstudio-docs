@@ -1,21 +1,15 @@
 ---
-title: "Current version of R Tools for Visual Studio | Microsoft Docs"
+title: Current version of R Tools
 description: How to check the version of R Tools for Visual Studio and install updates.
-ms.custom:
 ms.date: 01/24/2018
-ms.reviewer:
-ms.suite:
-ms.technology: 
-  - "devlang-r"
-dev_langs:
-  - "R"
-ms.tgt_pltfrm:
-ms.topic: "article"
-author: "kraigb"
-ms.author: "kraigb"
-manager: ghogen
+ms.prod: visual-studio-dev15
+ms.technology: vs-rtvs
+ms.topic: conceptual
+author: kraigb
+ms.author: kraigb
+manager: douge
 ms.workload: 
-  - "data-science"
+  - data-science
 ---
 
 # RTVS current version

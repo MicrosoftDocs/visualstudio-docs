@@ -1,24 +1,16 @@
 ---
-title: Working with C++ and Python | Microsoft Docs
-description: A walkthrough of creating a C++ extension for Python using Visual Studio, including a walkthrough of mixed-mode debugging.
-ms.custom:
+title: Working with C++ and Python
+description: A walkthrough of creating a C++ extension for Python using Visual Studio, including mixed-mode debugging.
 ms.date: 04/03/2018
-ms.reviewer:
-ms.suite:
-ms.technology: 
-  - "devlang-python"
-dev_langs:
-  - "python"
-  - "C++"
-ms.tgt_pltfrm:
-ms.topic: "conceptual"
-description: The process amd steps to write a C++ extension or module for Python in Visual Studio
-author: "kraigb"
-ms.author: "kraigb"
+ms.prod: visual-studio-dev15
+ms.technology: vs-python
+ms.topic: conceptual
+author: kraigb
+ms.author: kraigb
 manager: douge
 ms.workload: 
-  - "python"
-  - "data-science"
+  - python
+  - data-science
 ---
 
 # Creating a C++ extension for Python

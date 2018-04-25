@@ -1,19 +1,16 @@
 ---
-title: "Target a .NET Framework version in Visual Studio | Microsoft Docs"
-ms.custom: ""
+title: Target a .NET Framework version in Visual Studio
 ms.date: 02/06/2018
-ms.reviewer: ""
-ms.suite: ""
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
+ms.topic: conceptual
+helpviewer_keywords:
   - "targeting .NET Framework [Visual Studio]"
   - ".NET Framework version [Visual Studio]"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.workload:
   - "dotnet"
 ---
 # How to: Target a version of the .NET Framework
@@ -21,13 +18,13 @@ ms.workload:
 This document describes how to target a version of the .NET Framework when you create a project, and how to change the targeted version in an existing Visual Basic, C#, or Visual F# project.
 
 > [!IMPORTANT]
-> For information about how to change the target version for C++ projects, see [How to: Modify the Target Framework and Platform Toolset](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset).
+> For information about how to change the target version for C++ projects, see [How to: Modify the target framework and platform toolset](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset).
 
 ## To target a version when you create a project
 
 When you create a project, the available .NET Framework versions depend on which versions are installed, and the selected template in the **New Project** dialog box.
 
-1. On the menu bar, choose **File** > **New** > **Project...**.
+1. On the menu bar, choose **File** > **New** > **Project**.
 
 1. In the list of installed templates, choose the type of project that you want to create, and enter a name for the project.
 
@@ -43,13 +40,13 @@ When you create a project, the available .NET Framework versions depend on which
 
 You can change the targeted version of the .NET Framework in a Visual Basic, C#, or Visual F# project by following this procedure.
 
-For information about how to change the target version for C++ projects, see [How to: Modify the Target Framework and Platform Toolset](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset).
+For information about how to change the target version for C++ projects, see [How to: Modify the target framework and platform toolset](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset).
 
 1. In **Solution Explorer**, open the shortcut menu for the project that you want to change, and then choose **Properties**.
 
     ![Visual Studio Solution Explorer Properties](../ide/media/vs_slnexplorer_properties.png "vs_slnExplorer_Properties")
 
-1. In the left column of the properties window, choose the **Application** tab.
+1. In the left column of the **Properties** window, choose the **Application** tab.
 
     ![Visual Studio App Properties Application tab](../ide/media/vs_slnexplorer_properties_applicationtab.png "vs_slnExplorer_Properties_ApplicationTab")
 
@@ -63,12 +60,12 @@ For information about how to change the target version for C++ projects, see [Ho
     The project unloads. When it reloads, it targets the .NET Framework version that you just chose.
 
     > [!NOTE]
-    > If your code contains references to a different version of the .NET Framework than the one that you targeted, error messages may appear when you compile or run the code. To resolve these errors, you must modify the references. See [Troubleshooting .NET Framework Targeting Errors](../msbuild/troubleshooting-dotnet-framework-targeting-errors.md).
+    > If your code contains references to a different version of the .NET Framework than the one that you targeted, error messages may appear when you compile or run the code. To resolve these errors, you must modify the references. See [Troubleshoot .NET Framework targeting errors](../msbuild/troubleshooting-dotnet-framework-targeting-errors.md).
 
 ## See also
 
-[Visual Studio Multi-Targeting Overview](../ide/visual-studio-multi-targeting-overview.md)  
-[Troubleshooting .NET Framework Targeting Errors](../msbuild/troubleshooting-dotnet-framework-targeting-errors.md)  
-[Application Page, Project Designer (C#)](../ide/reference/application-page-project-designer-csharp.md)  
-[Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md)  
-[How to: Modify the Target Framework and Platform Toolset (C++)](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset)
+- [Visual Studio multi-targeting overview](../ide/visual-studio-multi-targeting-overview.md)
+- [Troubleshoot .NET Framework targeting errors](../msbuild/troubleshooting-dotnet-framework-targeting-errors.md)
+- [Application page, Project Designer (C#)](../ide/reference/application-page-project-designer-csharp.md)
+- [Application page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md)
+- [How to: Modify the target framework and platform toolset (C++)](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset)

@@ -1,25 +1,27 @@
 ---
-title: "How to: Configure Workflow Project Properties (Legacy) | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
-f1_keywords: 
+title: "Workflow Designer - How to: Configure Workflow Project Properties (Legacy)"
+ms.date: 11/04/2016
+ms.topic: conceptual
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
+f1_keywords:
   - "workflow"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "workflow projects, configuring properties"
   - "properties, configuring workflow project"
   - "projects, configuring properties"
 ms.assetid: 850f5c96-8e5b-4126-bc16-fd2c26e6e656
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # How to: Configure Workflow Project Properties (Legacy)
 
 Follow these steps to view or modify properties that are associated with workflow projects.
 
-### To view or modify workflow project properties
+## To view or modify workflow project properties
 
 1.  If **Solution Explorer** window is not visible, select **Solution Explorer** on the **View** menu.
 

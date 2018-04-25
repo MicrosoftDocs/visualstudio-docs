@@ -2,12 +2,8 @@
 title: "Where Can I Look Up Win32 Error Codes? | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vc.errors"
 dev_langs: 
@@ -19,10 +15,9 @@ helpviewer_keywords:
   - "error codes, Win32"
   - "Win32, error codes"
 ms.assetid: 8fb4ff42-b8eb-4152-b49e-b802d194b05e
-caps.latest.revision: 16
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
