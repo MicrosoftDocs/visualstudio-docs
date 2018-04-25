@@ -1,7 +1,7 @@
 ---
 title: Tutorial - Learn Django in Visual Studio, step 2
 description: A walkthrough of Django basics in the context of Visual Studio projects, specifically steps of creating an app and using views and templates.
-ms.date: 04/16/2018
+ms.date: 04/25/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: tutorial
@@ -38,7 +38,7 @@ A Django app typically begins with a standard set of files. Visual Studio provid
 
     ![Menu command for adding a Django app](media/django/step02-add-django-app-command.png)
 
-Using either method, create an app with the name "HelloDjangoApp". The result is a folder in your project with that name, which contains the following items:
+Using either method, create an app with the name "HelloDjangoApp". The result is a folder in your project with that name that contains items as described in the table that follows.
 
 ![Django app files in Solution Explorer](media/django/step02-django-app-in-solution-explorer.png)
 
@@ -125,7 +125,7 @@ To experiment with different regular expressions, try online tools such as [rege
 
 The `index` function that you have so far in `views.py` generates nothing more than a plain-text HTTP response for the page. Most real-world web pages, of course, respond with rich HTML pages that often incorporate live data. Indeed, the primary reason to define a view using a function is so you can generated that content dynamically.
 
-Because the argument to `HttpResponse` is just a string, you can build up any HTML you like within a string. As a simple example, replace the `index` function with the following code, which generates an HTML response using dynamic content that's updated every time you refresh the page:
+Because the argument to `HttpResponse` is just a string, you can build up any HTML you like within a string. As a simple example, replace the `index` function with the following code (keeping the existing `from` statements), which generates an HTML response using dynamic content that's updated every time you refresh the page:
 
 ```python
 from datetime import datetime
@@ -141,6 +141,11 @@ def index(request):
 ```
 
 Run the project again to see a message like "**Hello Django!** on Monday, 16 April, 2018 at 16:28:10". Refresh the page to update the time and confirm that the content is being generated with each request. Stop the server when you're done.
+
+> [!Tip]
+> A shortcut to stopping and restarting the project is to use the **Debug** > **Restart** menu command (Ctrl+Shift+F5) or the restart button on the debugging toolbar:
+>
+> ![Restart button on the debugging toolbar in Visual Studio](media/debugging-restart-toolbar-button.png)
 
 ## Step 2-4: Render a view using a page template
 
@@ -179,16 +184,11 @@ The following steps demonstrate the use of page templates:
     </html>
     ```
 
-1. In the `HelloDjangoApp` folder, open `views.py` and rewrite the `index` function to use the template. First, add the necessary import statements to the top of the file:
+1. In the `HelloDjangoApp` folder, open `views.py` and replace the `index` function with the following code that uses the `django.shortcuts.render` helper function. The `render` helper provides a simplified interface for working with page templates. Be sure to keep all existing `from` statements.
 
     ```python
-    from datetime import datetime        # Should already be present from step 2-2
-    from django.shortcuts import render
-    ```
+    from django.shortcuts import render   # Added for this step
 
-    Then modify the `index` function as follows to use the `django.shortcuts.render` helper function, which provides a simplified interface for working with page templates:
-
-    ```python
     def index(request):
         now = datetime.now()
 
@@ -237,12 +237,9 @@ The following steps demonstrate the use of page templates:
         )
     ```
 
-1. Stop the server and restart the project, and observe that the page now renders properly.
+1. Stop the server and restart the project, and observe that the page now renders properly:
 
-    > [!Tip]
-    > A shortcut to stopping and restarting the project is to use the **Debug** > **Restart** menu command (Ctrl+Shift+F5) or the restart button on the debugging toolbar:
-    >
-    > ![Restart button on the debugging toolbar in Visual Studio](media/debugging-restart-toolbar-button.png)
+    ![Running app using the template](media/django/step02-result.png)
 
 1. <a name="template-namespacing"></a>As a final step, move your templates into a subfolder named the same as your app, which create namespaces and avoids potential conflicts with other apps you might add to the project. That is, create a subfolder in `templates` named `HelloDjangoApp`, move `index.html` into that subfolder, and modify the `index` view function to refer to the template's new path, `HelloDjangoApp/index.html`. Then run the project, verify that the page renders properly, and stop the server.
 
@@ -254,7 +251,7 @@ Answer: Although templates are usually maintained in separate HTML files, you ca
 
 ### Question: must templates use the .html file extension?
 
-Answer: No, using the `.html` extension for page template files is entirely optional, because you always identify the exact relative path to the file in the second argument to the `render` function. However, Visual Studio (and other editors) typically give you features like code completion and syntax coloration with `.html` files, which outweighs the fact that page templates are not strictly HTML.
+Answer: The `.html` extension for page template files is entirely optional, because you always identify the exact relative path to the file in the second argument to the `render` function. However, Visual Studio (and other editors) typically give you features like code completion and syntax coloration with `.html` files, which outweighs the fact that page templates are not strictly HTML.
 
 In fact, when you're working with a Django project, Visual Studio automatically detects when the HTML file you're editing is actually a Django template, an provides certain auto-complete features. For example, when you start typing a Django page template comment, `{#`, Visual Studio automatically gives you the closing `#}` characters. The **Comment Selection** and **Uncomment Selection** commands (on the **Edit** > **Advanced** menu and on the toolbar) also use template comments instead of HTML comments.
 

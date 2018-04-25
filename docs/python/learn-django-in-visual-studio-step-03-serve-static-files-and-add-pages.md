@@ -1,7 +1,7 @@
 ---
 title: Tutorial - Learn Django in Visual Studio, step 3
 description: A walkthrough of Django basics in the context of Visual Studio projects, specifically demonstrating how to serve static files, add pages to the app, and use template inheritance
-ms.date: 04/16/2018
+ms.date: 04/25/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: tutorial
@@ -26,15 +26,17 @@ In this step, you learn how to:
 > - Add additional pages to the app (step 3-3)
 > - Use template inheritance to create a header and nav bar that's used across pages (step 3-4)
 
-## Step 3-1: Use item templates
+## Step 3-1: Become familiar with item templates
 
 As you develop a Django app, you typically add many more Python, HTML, CSS, and JavaScript files. For each of these (as well as other files like `web.config` that you may need for deployment), Visual Studio provides convenient [item templates](python-item-templates.md) to get you started.
 
-To access a template, go to **Solution Explorer**, right-click the folder in which you want to create the item, select **Add > New Item...**, select the desired template, specify a name for the file, and select **OK**. Adding an item in this manner automatically adds the file to your Visual Studio project.
+To see available templates, go to **Solution Explorer**, right-click the folder in which you want to create the item, select **Add** > **New Item**:
 
 ![Add new item dialog in Visual Studio](media/django/step03-add-new-item-dialog.png)
 
-Visual Studio also adds some frequently-used options to the **Add** menu directly. In a Python project, for example, you see an **HTML Page** command at the bottom of the **Add** menu, which simply prompts you for a page name and creates the file.
+To use a template, select the desired template, specify a name for the file, and select **OK**. Adding an item in this manner automatically adds the file to your Visual Studio project and marks the changes for source control.
+
+Visual Studio also adds some frequently-used options to the **Add** menu directly. In a Python project, for example, you might see **HTML Page** or **Style Sheet** commands at the bottom of the **Add** menu, which simply prompt you for a name and creates the file.
 
 ### Question: how does Visual Studio know which item templates to offer?
 
