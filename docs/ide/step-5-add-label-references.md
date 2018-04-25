@@ -22,7 +22,7 @@ The program needs to track which Label controls the player chooses. Right now, t
      [!code-vb[VbExpressTutorial4Step5#5](../ide/codesnippet/VisualBasic/step-5-add-label-references_1.vb)]
      [!code-csharp[VbExpressTutorial4Step5#5](../ide/codesnippet/CSharp/step-5-add-label-references_1.cs)]  
   
-     These reference variables look similar to the statements you used earlier to add objects (like <xref:System.Windows.Forms.Timer> objects, <xref:System.Collections.Generic.List-1> objects, and <xref:System.Random> objects) to your form. However, these statements don't cause two extra Label controls to appear on the form because there's no `new` keyword used in either of the two statements. Without the `new` keyword, no object is created. That's why `firstClicked` and `secondClicked` are called reference variables: They just keep track (or, refer to) Label objects.  
+     These reference variables look similar to the statements you used earlier to add objects (like <xref:System.Windows.Forms.Timer> objects, <xref:System.Collections.Generic.List> objects, and <xref:System.Random> objects) to your form. However, these statements don't cause two extra Label controls to appear on the form because there's no `new` keyword used in either of the two statements. Without the `new` keyword, no object is created. That's why `firstClicked` and `secondClicked` are called reference variables: They just keep track (or, refer to) Label objects.  
   
      When a variable isn't keeping track of an object, it's set to a special reserved value: `null` in Visual C# and `Nothing` in Visual Basic. So, when the program starts, both `firstClicked` and `secondClicked` are set to `null` or `Nothing`, which means that the variables aren't keeping track of anything.  
   

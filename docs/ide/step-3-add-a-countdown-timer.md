@@ -90,7 +90,7 @@ In the third part of this tutorial, you'll add a countdown timer to track the nu
      [!code-vb[VbExpressTutorial3Step3#7](../ide/codesnippet/VisualBasic/step-3-add-a-countdown-timer_4.vb)]
      [!code-csharp[VbExpressTutorial3Step3#7](../ide/codesnippet/CSharp/step-3-add-a-countdown-timer_4.cs)]  
   
-     Now, when your quiz starts, the **timeLeft** variable is set to 30 and the **Text** property of the **timeLabel** control is set to 30 seconds. Then the <xref:System.Windows.Forms.Start> method of the Timer control starts the countdown. (The quiz doesn't check the answer yet—that comes next.)  
+     Now, when your quiz starts, the **timeLeft** variable is set to 30 and the **Text** property of the **timeLabel** control is set to 30 seconds. Then the <xref:System.Windows.Forms.Timer.Start> method of the Timer control starts the countdown. (The quiz doesn't check the answer yet—that comes next.)  
   
 7.  Save your program, run it, and then choose the **Start** button on the form.  
 
