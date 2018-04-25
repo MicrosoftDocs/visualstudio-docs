@@ -34,7 +34,7 @@ ms.workload:
 
 An externally visible enumeration is marked with <xref:System.FlagsAttribute>, and it has one or more values that are not powers of two or a combination of the other defined values on the enumeration.
 
-## Rule eescription
+## Rule description
 
 An enumeration should have <xref:System.FlagsAttribute> present only if each value defined in the enumeration is a power of two or a combination of defined values.
 
@@ -48,7 +48,7 @@ Do not suppress a warning from this rule.
 
 ## Example that should not have the attribute
 
-The following example shows an enumeration, `Color`, that contains the value 3. 3 is neither a power of two, nor a combination of any of the defined values. The `Color` enumeration should not be marked with <xref:System.FlagsAttribute>.
+The following example shows an enumeration, `Color`, that contains the value 3. 3 is not a power of two, or a combination of any of the defined values. The `Color` enumeration shouldn't be marked with <xref:System.FlagsAttribute>.
 
 [!code-cpp[FxCop.Usage.EnumNoFlags#1](../code-quality/codesnippet/CPP/ca2217-do-not-mark-enums-with-flagsattribute_1.cpp)]
 [!code-csharp[FxCop.Usage.EnumNoFlags#1](../code-quality/codesnippet/CSharp/ca2217-do-not-mark-enums-with-flagsattribute_1.cs)]
