@@ -22,7 +22,7 @@ Visual Studio provides several different tools to help you deploy your apps.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_road-map.svg" alt="">
+                            <img src="https://docs.microsoft.com/media/common/i_road-map.svg" alt="">
                         </div>
                     </div>
                     <div class="cardText">
@@ -40,7 +40,7 @@ Visual Studio provides several different tools to help you deploy your apps.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_get-started.svg" alt="">
+                            <img src="https://docs.microsoft.com/media/common/i_get-started.svg" alt="">
                         </div>
                     </div>
                     <div class="cardText">
@@ -58,7 +58,7 @@ Visual Studio provides several different tools to help you deploy your apps.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_get-started.svg" alt="">
+                            <img src="https://docs.microsoft.com/media/common/i_get-started.svg" alt="">
                         </div>
                     </div>
                     <div class="cardText">
@@ -76,7 +76,7 @@ Visual Studio provides several different tools to help you deploy your apps.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_get-started.svg" alt="">
+                            <img src="https://docs.microsoft.com/media/common/i_get-started.svg" alt="">
                         </div>
                     </div>
                     <div class="cardText">
@@ -99,7 +99,7 @@ Visual Studio provides several different tools to help you deploy your apps.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/logos/logo_net.svg" alt="">
+                            <img src="https://docs.microsoft.com/media/logos/logo_net.svg" alt="">
                         </div>
                     </div>
                     <div class="cardText">
@@ -117,7 +117,7 @@ Visual Studio provides several different tools to help you deploy your apps.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/logos/logo_windows.svg" alt="">
+                            <img src="https://docs.microsoft.com/media/logos/logo_windows.svg" alt="">
                         </div>
                     </div>
                     <div class="cardText">
@@ -135,7 +135,7 @@ Visual Studio provides several different tools to help you deploy your apps.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/logos/logo_net.svg" alt="">
+                            <img src="https://docs.microsoft.com/media/logos/logo_net.svg" alt="">
                         </div>
                     </div>
                     <div class="cardText">
@@ -153,7 +153,7 @@ Visual Studio provides several different tools to help you deploy your apps.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/logos/logo_windows.svg" alt="">
+                            <img src="https://docs.microsoft.com/media/logos/logo_windows.svg" alt="">
                         </div>
                     </div>
                     <div class="cardText">
@@ -171,7 +171,7 @@ Visual Studio provides several different tools to help you deploy your apps.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/logos/logo_Python.svg" alt="">
+                            <img src="https://docs.microsoft.com/media/logos/logo_Python.svg" alt="">
                         </div>
                     </div>
                     <div class="cardText">
@@ -189,7 +189,7 @@ Visual Studio provides several different tools to help you deploy your apps.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_get-started.svg" alt="">
+                            <img src="https://docs.microsoft.com/media/common/i_get-started.svg" alt="">
                         </div>
                     </div>
                     <div class="cardText">
