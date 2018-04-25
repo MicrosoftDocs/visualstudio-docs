@@ -1,8 +1,9 @@
 ---
-title: "Code Coverage in Visual Studio | Microsoft Docs"
-ms.date: "11/04/2016"
+title: "Code Coverage in Visual Studio"
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: conceptual
 helpviewer_keywords:
   - "code coverage"
 dev_langs:
@@ -10,7 +11,7 @@ dev_langs:
   - "VB"
   - "CPP"
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 author: gewarren

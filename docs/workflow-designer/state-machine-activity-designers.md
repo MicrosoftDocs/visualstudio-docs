@@ -1,29 +1,19 @@
 ---
-title: "State Machine Activity Designers | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: "Workflow Designer - State Machine Activity Designers"
+ms.date: 11/04/2016
+ms.topic: reference
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
 ms.assetid: 97f0bff5-7e48-4914-8f04-8015a1c6bfae
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 author: gewarren
 ---
 # State Machine Activity Designers
+
 Windows Workflow Designer includes a number of activity designers that you can use when constructing your workflows. This section contains the system-provided activity designers used to create and manage state machine workflows. The following topics describe these designers and provide guidance on how to use them.
-
-## In This Section
- [StateMachine](../workflow-designer/statemachine-activity-designer.md)
- Contains a collection of states and models workflows using the familiar state machine paradigm.
-
- [State](../workflow-designer/state-activity-designer.md)
- Represents a state in which a state machine can be in.
-
- [FinalState](../workflow-designer/finalstate-activity-designer.md)
- Represents a state that terminates a state machine instance.
-
- [Transition](../workflow-designer/transition-activity-designer.md)
- Represents the transition between two states.
 
 ## Reference
  <xref:System.Activities.Statements.StateMachine>

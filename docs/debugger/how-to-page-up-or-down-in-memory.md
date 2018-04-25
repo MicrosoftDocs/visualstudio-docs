@@ -2,12 +2,8 @@
 title: "How to: Page Up or Down in Memory | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
   - "VB"
@@ -20,10 +16,9 @@ helpviewer_keywords:
   - "Disassembly window, viewing memory space"
   - "Memory window, paging up or down in memory"
 ms.assetid: 50b30a68-66f6-43f8-a48b-59ce12c95471
-caps.latest.revision: 18
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -1,12 +1,9 @@
 ---
-title: "Project and Solution File Types | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
+title: Project and Solution File Types
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: reference
 f1_keywords:
   - "File Properties.CopyToOutputDirectory"
   - "File Properties.CustomToolNamespace"
@@ -23,9 +20,9 @@ helpviewer_keywords:
   - "solution files [Visual Studio]"
   - "sln files"
   - "suo files"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: gewarren
+ms.author: gewarren
+manager: douge
 ms.workload:
   - "multiple"
 ---
@@ -50,4 +47,4 @@ For more information about file types in C++ projects, see [File Types Created f
 
 ## See also
 
-[Solutions and Projects](../../ide/solutions-and-projects-in-visual-studio.md)
+- [Solutions and Projects](../../ide/solutions-and-projects-in-visual-studio.md)

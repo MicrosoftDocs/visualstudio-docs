@@ -2,21 +2,16 @@
 title: "Current Tab | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.cv.threads.reportnav.current"
 helpviewer_keywords: 
   - "Concurrency Visualizer, Callstack at Selection Point"
 ms.assetid: 2c7b1ae5-3756-4795-bc59-f6bb113f2ba5
-caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

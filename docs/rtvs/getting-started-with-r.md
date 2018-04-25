@@ -1,24 +1,18 @@
 ---
-title: Getting started with R in Visual Studio | Microsoft Docs
+title: Getting started with R Tutorial
 description: A walkthrough of using R in Visual Studio including project creation, the interactive window, code editing, and debugging.
-ms.custom:
 ms.date: 06/29/2017
-ms.reviewer:
-ms.suite:
-ms.technology: 
-  - "devlang-r"
-dev_langs:
-  - "R"
-ms.tgt_pltfrm:
-ms.topic: "tutorial"
-author: "kraigb"
-ms.author: "kraigb"
-manager: ghogen
+ms.prod: visual-studio-dev15
+ms.technology: vs-rtvs
+ms.topic: tutorial
+author: kraigb
+ms.author: kraigb
+manager: douge
 ms.workload: 
-  - "data-science"
+  - data-science
 ---
 
-# Getting started with R Tools for Visual Studio
+# Get started with R Tools for Visual Studio
 
 Once you have R Tools for Visual Studio (RTVS) installed (see [Installation](installing-r-tools-for-visual-studio.md)), you can quickly get a taste of the experience that those tools provide. 
 

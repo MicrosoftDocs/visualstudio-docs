@@ -1,14 +1,12 @@
 ---
-title: "Refactor a field to a property in Visual Studio | Microsoft Docs"
-ms.custom: ""
+title: Refactor a field to a property in Visual Studio
 ms.date: 01/26/2018
-ms.reviewer: ""
-ms.suite: ""
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: gewarren
+ms.author: gewarren
+manager: douge
 f1_keywords:
   - "vs.csharp.refactoring.encapsulatefield"
 dev_langs:

@@ -2,12 +2,8 @@
 title: "Analyze HTML UI responsiveness in UWP Apps | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
   - "JavaScript"
 helpviewer_keywords: 
@@ -16,10 +12,9 @@ helpviewer_keywords:
   - "UI Responsiveness Profiler [JavaScript]"
   - "profiler, UI responsiveness [JavaScript]"
   - "profiler, JavaScript [UWP apps]"
-caps.latest.revision: 47
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "uwp"
 ---

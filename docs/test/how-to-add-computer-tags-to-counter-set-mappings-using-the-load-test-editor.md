@@ -1,13 +1,14 @@
 ---
-title: "Add Computer Tags to Counter Set Mappings for load testing in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "article"
+title: "Add Computer Tags to Counter Set Mappings for load testing in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "load tests, counter set mappings, computer tags"
 ms.assetid: f52a73e1-036a-4b28-a6c8-848284bf4488
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # How to: Add Computer Tags to Counter Set Mappings Using the Load Test Editor

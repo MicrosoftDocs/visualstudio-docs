@@ -1,6 +1,6 @@
 
 # [Profiling documentation](index.md)
-# Overview
+# [Overview](profiling-overview.md)
 # Quickstarts
 ## [First look at profiling](profiling-feature-tour.md)
 ## [Analyze CPU usage (managed)](quickstart-cpu-usage-managed.md)

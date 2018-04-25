@@ -2,21 +2,17 @@
 title: "IEnumDebugProcesses2::Next | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IEnumDebugProcesses2::Next"
 helpviewer_keywords: 
   - "IEnumDebugProcesses2::Next"
 ms.assetid: abef89eb-198b-49cd-a4c9-17bce6cac0e1
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

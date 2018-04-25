@@ -1,7 +1,7 @@
 ---
-title: "Load patterns for load testing in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "article"
+title: "Load patterns for load testing in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "load tests, load patterns"
   - "load tests, scenarios"
@@ -9,7 +9,8 @@ helpviewer_keywords:
 ms.assetid: 0ba0363b-7f50-4bde-a919-0e3bce7bc115
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # Edit Load Patterns to Model Virtual User Activities
@@ -38,7 +39,8 @@ The load pattern is a component of a scenario. The scenarios, together with thei
  For example a Step load with an **Initial User** count of one, **Maximum User Count** of 100, **Step Duration (seconds)** of 10, and a **Step User Count** of 1 creates a user load pattern that starts at 1, increases by 1 every 10 seconds until it reaches 100 Users.
 
 > [!NOTE]
->  If the total test duration is shorter than the time that is required to step up to the maximum user load, then the test stops after the elapsed duration and does not reach the Max User Count target.
+> If the total test duration is shorter than the time that is required to step up to the maximum user load, then the test stops after the elapsed duration and does not reach the Max User Count target.
+
 
  You can use the Step goal to increase the load until the server reaches a point that where performance diminishes significantly. As load increases, the server will eventually run out of resources. The step load is a good way to determine the number of users at which this occurs. With the stepping load, you also have to monitor agent resources closely to make sure that the agents can generate the desired load.
 
@@ -112,12 +114,14 @@ The load pattern is a component of a scenario. The scenarios, together with thei
  After you create your load test with the **New Load Test Wizard**, you can use the **Load Test Editor** to change the load pattern properties associated with a scenario to levels that meet your test goals.
 
 > [!NOTE]
->  For a full list of the load test scenario properties and their descriptions, see [Load Test Scenario Properties](../test/load-test-scenario-properties.md).
+> For a full list of the load test scenario properties and their descriptions, see [Load Test Scenario Properties](../test/load-test-scenario-properties.md).
+
 
  A load pattern specifies the number of virtual users active during a load test, and the rate at which new users are added. You can choose from the three available patterns: step pattern, constant and goal based. For more information, see [Specifying the Number of Virtual Users with Load Patterns in a Load Test Scenario](../test/edit-load-patterns-to-model-virtual-user-activities.md).
 
 > [!NOTE]
->  You can also change your load properties programmatically by using a load test plug-in. For more information, see [How to: Create a Load Test Plug-In](../test/how-to-create-a-load-test-plug-in.md).
+> You can also change your load properties programmatically by using a load test plug-in. For more information, see [How to: Create a Load Test Plug-In](../test/how-to-create-a-load-test-plug-in.md).
+
 
 ### To change the load pattern
 

@@ -1,11 +1,12 @@
 ---
-title: "Quick Actions | Microsoft Docs"
+title: Quick Actions
 ms.date: 03/28/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: gewarren
+ms.author: gewarren
+manager: douge
 dev_langs:
   - CSharp
   - VB
@@ -37,7 +38,7 @@ For any language, third parties can provide custom diagnostics and suggestions, 
 
 ## To see potential fixes
 
-Either click on the down arrow or the Show potential fixes link to display a list of quick actions that the light bulb can take for you.
+Either click on the down arrow or the **Show potential fixes** link to display a list of quick actions that the light bulb can take for you.
 
 ![Light bulb expanded](../ide/media/vs2015_lightbulb_hover_expanded.png)
 
@@ -46,4 +47,4 @@ Either click on the down arrow or the Show potential fixes link to display a lis
 - [Code generation in Visual Studio](../ide/code-generation-in-visual-studio.md)
 - [Common Quick Actions](../ide/common-quick-actions.md)
 - [Code styles and Quick Actions](../ide/code-styles-and-quick-actions.md)
-- [Writing and refactoring code (C++)](/cpp/ide/writing-and-refactoring-code-cpp)
+- [Write and refactor code (C++)](/cpp/ide/writing-and-refactoring-code-cpp)

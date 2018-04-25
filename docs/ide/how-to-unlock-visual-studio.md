@@ -1,13 +1,9 @@
 ---
-title: "How to: unlock Visual Studio | Microsoft Docs"
-ms.custom: ""
+title: "How to: Unlock Visual Studio"
 ms.date: 07/20/2017
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-acquisition"
-ms.tgt_pltfrm: ""
-ms.topic: "conceptual"
+ms.prod: visual-studio-dev15
+ms.technology: vs-acquisition
+ms.topic: conceptual
 ms.assetid: ffb580a1-8b5d-48f5-b811-87f8036f50ea
 author: "TerryGLee"
 ms.author: "tglee"
@@ -15,7 +11,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# How to: unlock Visual Studio
+# How to: Unlock Visual Studio
 
 You can evaluate Visual Studio for free up to 30 days. Signing into the IDE extends the trial period to 90 days. To continue using Visual Studio, unlock the IDE by either:
 
@@ -27,16 +23,16 @@ You can evaluate Visual Studio for free up to 30 days. Signing into the IDE exte
 
 To unlock Visual Studio using an MSDN or Visual Studio Team Service subscription associated with a Microsoft account, or a work or school account:
 
-1. Click on the "Sign in" button in the upper right corner of the IDE (or go to File > Account Settings to open the Account Settings dialog and click on the "Sign in" button).
+1. Click on the **Sign in** button in the upper right corner of the IDE (or go to **File** > **Account Settings** to open the **Account Settings** dialog and click on the **Sign in** button).
 
 1. Enter the credentials for either a Microsoft account or a work or school account. Visual Studio finds a Visual Studio subscription or Visual Studio Team Services subscription associated with your account.
 
 > [!IMPORTANT]
-> Visual Studio automatically looks for associated online subscriptions when you connect to a Visual Studio Team Services account from the Team Explorer tool window. When you connect to a Visual Studio Team Services account, you can sign in using both Microsoft and work or school accounts. If an online subscription exists for that user account, Visual Studio will automatically unlock the IDE for you.
+> Visual Studio automatically looks for associated online subscriptions when you connect to a Visual Studio Team Services account from the **Team Explorer** tool window. When you connect to a Visual Studio Team Services account, you can sign in using both Microsoft and work or school accounts. If an online subscription exists for that user account, Visual Studio will automatically unlock the IDE for you.
 
 ## To unlock Visual Studio with a product key
 
-1. Select **File**, **Account Settings** to open the Account Settings dialog and click on the **License with a Product Key** link.
+1. Select **File** > **Account Settings** to open the **Account Settings** dialog and click on the **License with a Product Key** link.
 
 Enter the product key in the space provided.
 
@@ -58,15 +54,15 @@ Enter the product key in the space provided.
 
 Before the license token goes stale, Visual Studio first shows a warning message asking you to reenter your credentials.
 
-If you do not reenter your credentials, the token starts to go stale and the Account Settings dialog tells you how many days you have left before your token will fully expire. After your token expires, you will need to reenter your credentials for this account or license with another method above before you can continue using Visual Studio.
+If you do not reenter your credentials, the token starts to go stale and the **Account Settings** dialog tells you how many days you have left before your token will fully expire. After your token expires, you will need to reenter your credentials for this account or license with another method above before you can continue using Visual Studio.
 
 > [!Important]
 > If you are using Visual Studio for extended periods in environments with limited or no internet access, you should use a product key to unlock Visual Studio in order to avoid interruption.
 
 ### Update expired licenses
 
- If your subscription has expired completely and you no longer have access rights to Visual Studio, you must renew your subscription or add another account that has a subscription. To see more information about the license you are using, go to **File**, **Account Settings** and look at the license information on the right side of the dialog. If you have another subscription associated with a different account, add that account to the **All Accounts** list on the left side of the dialog box by selecting the **Add an account...** link.
+ If your subscription has expired completely and you no longer have access rights to Visual Studio, you must renew your subscription or add another account that has a subscription. To see more information about the license you are using, go to **File** > **Account Settings** and look at the license information on the right side of the dialog. If you have another subscription associated with a different account, add that account to the **All Accounts** list on the left side of the dialog box by selecting the **Add an account** link.
 
 ## See also
 
-* [Signing in to Visual Studio](../ide/signing-in-to-visual-studio.md)
+* [Sign in to Visual Studio](../ide/signing-in-to-visual-studio.md)

@@ -1,10 +1,11 @@
 ---
-title: "Create a unit test project in Visual Studio | Microsoft Docs"
-ms.date: "11/04/2016"
+title: "Create a unit test project in Visual Studio"
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: conceptual
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 author: gewarren
@@ -14,7 +15,7 @@ author: gewarren
 Unit tests often mirror the structure of the code under test. For example, a unit test project would be created for each code project in the product. The test project can be in the same solution as the production code, or it can be in a separate solution. You can have multiple unit test projects in a solution.
 
 > [!NOTE]
->  The location of unit tests for native code and the test project structure can be different than the structure that is described in this topic. For more information, see [Writing Unit Tests for C/C++](writing-unit-tests-for-c-cpp.md).
+> The location of unit tests for native code and the test project structure can be different than the structure that is described in this topic. For more information, see [Writing Unit Tests for C/C++](writing-unit-tests-for-c-cpp.md).
 
 ## To create a unit test project:
 

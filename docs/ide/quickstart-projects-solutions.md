@@ -1,15 +1,12 @@
 ---
-title: "Introduction to projects and solutions in Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "12/11/2017"
-ms.reviewer: ""
-ms.suite: ""
+title: Introduction to projects and solutions in Visual Studio
+ms.date: 12/11/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
-ms.topic: "quickstart"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+ms.topic: quickstart
+author: gewarren
+ms.author: gewarren
+manager: douge
 ms.workload:
   - "multiple"
 ---
@@ -17,7 +14,7 @@ ms.workload:
 
 In this 10-minute quickstart, we'll explore what it means to create a solution and a project in Visual Studio. We'll look at the properties of a project and some of the files it can contain. We'll also create a reference to a second project.
 
-If you haven't already installed Visual Studio, go to the [Visual Studio Downloads](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) page to install it for free.
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) page to install it for free.
 
 > [!TIP]
 > We'll be constructing a solution and project from scratch in this quickstart, as an educational exercise to understand the concept of a project. In your general use of Visual Studio, you will most likely use the many project templates that Visual Studio offers when you are creating a new project.
@@ -37,7 +34,7 @@ We'll start our exploration by creating an empty solution. After you get to know
 
    Visual Studio opens, and you'll likely see the **Start Page** taking up most of the window's real estate.
 
-1. On the menu bar, choose **File** > **New** > **Project...**.
+1. On the menu bar, choose **File** > **New** > **Project**.
 
    The **New Project** dialog box opens.
 
@@ -51,13 +48,13 @@ We'll start our exploration by creating an empty solution. After you get to know
 
 Now let's add our first project to the solution. We'll start with an empty project and add the items we need to the project.
 
-1. From the right-click or context menu of **Solution 'QuickSolution'** in **Solution Explorer**, choose **Add** > **New Project...**.
+1. From the right-click or context menu of **Solution 'QuickSolution'** in **Solution Explorer**, choose **Add** > **New Project**.
 
    The **Add New Project** dialog box opens.
 
 1. In the left pane, expand **Visual C#** and choose **Windows Classic Desktop**. Then, in the middle pane, choose **Empty Project (.NET Framework)**. Name the project "QuickDate", then choose the **OK** button.
 
-   A project named "QuickDate" appears beneath the solution in **Solution Explorer**. Currently it contains a single file called **App.config**.
+   A project named "QuickDate" appears beneath the solution in **Solution Explorer**. Currently it contains a single file called *App.config*.
 
    > [!NOTE]
    > If you don't see **Visual C#** in the left pane of the dialog box, you need to install the **.NET desktop development** workload. An easy way to do this is to choose the **Open Visual Studio Installer** link in the bottom left corner of the dialog box. After **Visual Studio Installer** launches, choose the **.NET desktop development** workload and then the **Modify** button.
@@ -68,15 +65,15 @@ Now let's add our first project to the solution. We'll start with an empty proje
 
 We have an empty project&mdash;let's add a code file.
 
-1. From the right-click or context menu of **QuickDate** in **Solution Explorer**, choose **Add** > **New Item...**.
+1. From the right-click or context menu of **QuickDate** in **Solution Explorer**, choose **Add** > **New Item**.
 
    The **Add New Item** dialog box opens.
 
 1. Expand **Visual C# Items**, then choose **Code**. In the middle pane choose **Class**. Name the class "Calendar", and then choose the **Add** button.
 
-   A file named "Calendar.cs" is added to the project. The **.cs** on the end is the file extension that is given to C# code files. The file appears in the visual project hierarchy in **Solution Explorer**, and its contents are opened in the editor.
+   A file named *Calendar.cs* is added to the project. The *.cs* on the end is the file extension that is given to C# code files. The file appears in the visual project hierarchy in **Solution Explorer**, and its contents are opened in the editor.
 
-1. Replace the contents of the **Calendar.cs** file with the following code.
+1. Replace the contents of the *Calendar.cs* file with the following code.
 
    ```csharp
    using System;
@@ -108,13 +105,13 @@ It is common for solutions to contain more than one project, and often these pro
 
 Let's add a unit test project to our solution. This time we'll start from a project template, so we don't have to add an additional code file to the project.
 
-1. From the right-click or context menu of **Solution 'QuickSolution'** in **Solution Explorer**, choose **Add** > **New Project...**.
+1. From the right-click or context menu of **Solution 'QuickSolution'** in **Solution Explorer**, choose **Add** > **New Project**.
 
    The **Add New Project** dialog box opens.
 
 1. In the left pane, expand **Visual Basic** and choose the **Test** category. In the middle pane, choose **Unit Test Project (.NET Framework)**. Name the project "QuickTest", and then choose the **OK** button.
 
-   A second project is added to **Solution Explorer**, and a file named **UnitTest1.vb** opens in the editor. **.vb** is the file extension that is given to Visual Basic code files.
+   A second project is added to **Solution Explorer**, and a file named *UnitTest1.vb* opens in the editor. *.vb* is the file extension that is given to Visual Basic code files.
 
    ![Solution Explorer with two projects](media/quickstart-projects-solution-explorer.png)
 
@@ -122,7 +119,7 @@ Let's add a unit test project to our solution. This time we'll start from a proj
 
 We're going to use the new unit test project to test our method in the **QuickDate** project, so we need to add a reference to that project. This creates a build dependency between the two projects, meaning **QuickDate** will be built before **QuickTest** when the solution is built.
 
-1. Choose the **References** node in the **QuickTest** project, and from the right-click or context menu, choose **Add Reference...**.
+1. Choose the **References** node in the **QuickTest** project, and from the right-click or context menu, choose **Add Reference**.
 
    ![Add Reference menu](media/quickstart-projects-add-reference.png)
 
@@ -134,7 +131,7 @@ We're going to use the new unit test project to test our method in the **QuickDa
 
 ## Add test code
 
-1. Now we'll add test code to the Visual Basic code file. Replace the contents of **UnitTest1.vb** with the following code.
+1. Now we'll add test code to the Visual Basic code file. Replace the contents of *UnitTest1.vb* with the following code.
 
    ```vb
    <TestClass()> Public Class UnitTest1
@@ -148,7 +145,7 @@ We're going to use the new unit test project to test our method in the **QuickDa
 
    You'll see a red "squiggly" under some of the code. We'll fix this error by making the test project a [friend assembly](/dotnet/csharp/programming-guide/concepts/assemblies-gac/friend-assemblies) to the **QuickDate** project.
 
-1. Back in the **QuickDate** project, open the **Calendar.cs** file if it's not already open, and add the following using statement and <xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute> attribute, to resolve the error in the test project.
+1. Back in the **QuickDate** project, open the *Calendar.cs* file if it's not already open, and add the following using statement and <xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute> attribute, to resolve the error in the test project.
 
    ```csharp
    using System.Runtime.CompilerServices;
@@ -166,7 +163,7 @@ The line in the C# code file that contains the <xref:System.Runtime.CompilerServ
 
 1. In **Solution Explorer**, select the **QuickTest** project. From the right-click or context menu, select **Properties**, or just press **Alt**+**Enter**.
 
-   The property pages for the project open on the **Application** tab. Notice that the assembly name of the **QuickTest** project is indeed "QuickTest". If you wanted to change it, this is where you would change it. Then, when you build the test project, the name of the resulting executable file would change from **QuickTest.exe** to whatever you chose.
+   The property pages for the project open on the **Application** tab. Notice that the assembly name of the **QuickTest** project is indeed "QuickTest". If you wanted to change it, this is where you would change it. Then, when you build the test project, the name of the resulting executable file would change from *QuickTest.exe* to whatever you chose.
 
    ![Project properties](media/quickstart-projects-properties.png)
 
@@ -176,14 +173,14 @@ The line in the C# code file that contains the <xref:System.Runtime.CompilerServ
 
 If you want to check that your unit test is working, choose **Test** > **Run** > **All Tests** from the menu bar. A window called **Test Explorer** opens, and you should see that the **TestGetCurrentDate** test passes.
 
-Congratulations on completing this quickstart! Next, you might want to explore some of the other quickstarts for Visual Studio, or learn more about [creating projects and solutions](../ide/creating-solutions-and-projects.md).
+Congratulations on completing this Quickstart! Next, you might want to explore some of the other Quickstarts for Visual Studio, or learn more about how to [Create projects and solutions](../ide/creating-solutions-and-projects.md).
 
 ## See also
 
 - [Quickstart: First look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)
 - [Quickstart: Personalize the Visual Studio IDE and editor](../ide/quickstart-personalize-the-ide.md)
 - [Quickstart: Coding in the editor](../ide/quickstart-editor.md)
-- [Managing project and solution properties](../ide/managing-project-and-solution-properties.md)
-- [Managing references in a project](../ide/managing-references-in-a-project.md)
+- [Manage project and solution properties](../ide/managing-project-and-solution-properties.md)
+- [Manage references in a project](../ide/managing-references-in-a-project.md)
 - [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md)
 - [Visual Studio IDE overview](../ide/visual-studio-ide.md)

@@ -2,20 +2,16 @@
 title: "IDebugArrayObject2::HasBaseIndices | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "HasBaseIndices"
   - "IDebugArrayObject2::HasBaseIndices"
 ms.assetid: 51a5d145-ea53-422c-b5cf-c800cf64b8e6
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

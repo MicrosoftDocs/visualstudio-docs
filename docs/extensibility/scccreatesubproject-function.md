@@ -2,21 +2,17 @@
 title: "SccCreateSubProject Function | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "SccCreateSubProject"
 helpviewer_keywords: 
   - "SccCreateSubProject function"
 ms.assetid: 08154aed-ae5c-463c-8694-745d0e332965
-caps.latest.revision: 19
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

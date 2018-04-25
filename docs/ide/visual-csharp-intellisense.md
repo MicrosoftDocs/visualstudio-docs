@@ -1,19 +1,16 @@
 ---
-title: "C# IntelliSense | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
+title: C# IntelliSense
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
+ms.topic: conceptual
+helpviewer_keywords:
   - "C#, IntelliSense"
   - "IntelliSense [C#]"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.workload:
   - "dotnet"
 ---
 # C# IntelliSense
@@ -157,5 +154,5 @@ If you press **Tab**, IntelliSense stubs out a method with the correct signature
 
 ## See also
 
-[Using IntelliSense](../ide/using-intellisense.md)  
-[Visual Studio IDE](../ide/visual-studio-ide.md)
+- [Using IntelliSense](../ide/using-intellisense.md)
+- [Visual Studio IDE](../ide/visual-studio-ide.md)

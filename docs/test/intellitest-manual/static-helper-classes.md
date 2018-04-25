@@ -1,48 +1,40 @@
 ---
-title: "Static helper classes | Microsoft IntelliTest Developer Test Tool | Microsoft Docs"
-ms.date: "05/02/2017"
+title: "Static helper classes | Microsoft IntelliTest Developer Test Tool"
+ms.date: 05/02/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: reference
 helpviewer_keywords: 
   - "IntelliTest, Static helper classes"
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 author: gewarren
 ---
 # Static helper classes
 
-IntelliTest provides a set of static helper class 
-that can be used when authoring 
-[parameterized unit tests](test-generation.md#parameterized-unit-testing):
+IntelliTest provides a set of static helper class that can be used when authoring [parameterized unit tests](test-generation.md#parameterized-unit-testing):
 
 * [PexAssume](#pexassume): used to define assumptions on inputs, and is useful for filtering undesirable inputs
 * [PexAssert](#pexassert): a simple assertion class for use if your test framework does not provide one
 * [PexChoose](#pexchoose): a stream of additional test inputs that IntelliTest manages
 * [PexObserve](#pexobserve): logs concrete values and, optionaly, validates them in the generated code
 
-Some classes allow you to interact with the 
-IntelliTest reasoning engine at a low-level:
+Some classes allow you to interact with the IntelliTest reasoning engine at a low-level:
 
 * [PexSymbolicValue](#pexsymbolicvalue): utilities to inspect or modify symbolic constraints on variables
 
 <a name="pexassume"></a>
 ## PexAssume
 
-A static class used to express assumptions, such as 
-[preconditions](test-generation.md#precondition), in 
-[parameterized unit tests](test-generation.md#parameterized-unit-testing).
-The methods of this class can be used to filter out undesirable test inputs.
+A static class used to express assumptions, such as [preconditions](test-generation.md#precondition), in [parameterized unit tests](test-generation.md#parameterized-unit-testing). The methods of this class can be used to filter out undesirable test inputs.
 
-If the assumed condition does not hold for some test 
-input, a **PexAssumeFailedException** is thrown. This 
-will cause the test to be silently ignored.
+If the assumed condition does not hold for some test input, a **PexAssumeFailedException** is thrown. This will cause the test to be silently ignored.
 
 **Example**
 
-The following parameterized test will not consider 
-**j=0**:
+The following parameterized test will not consider **j=0**:
 
 ```
 public void TestSomething(int i, int j) {
@@ -61,29 +53,20 @@ The code above is almost equivalent to:
           return;
 ```
 
-except that a failing **PexAssume** results in no 
-test cases. In the case of an **if** statement, 
-IntelliTest generates a separate test case to cover 
-the **then** branch of the **if** statement.
+except that a failing **PexAssume** results in no test cases. In the case of an **if** statement, IntelliTest generates a separate test case to cover the **then** branch of the **if** statement.
 
-**PexAssume** also contains specialzed nested classes
-for assumptions on string, arrays, and collections.
+**PexAssume** also contains specialzed nested classes for assumptions on string, arrays, and collections.
 
 <a name="pexassert"></a>
 ## PexAssert
 
-A static class used to express assertions, such as
-[postconditions](test-generation.md#postcondition), 
-in [parameterized unit tests](test-generation.md#parameterized-unit-testing).
+A static class used to express assertions, such as [postconditions](test-generation.md#postcondition), in [parameterized unit tests](test-generation.md#parameterized-unit-testing).
 
-If the asserted condition does not hold for some test
-input, a **PexAssertFailedException** is thrown, which 
-causes the test to fail.
+If the asserted condition does not hold for some test input, a **PexAssertFailedException** is thrown, which causes the test to fail.
 
 **Example**
 
-The following asserts that the absolute value of an 
-integer is positive:
+The following asserts that the absolute value of an integer is positive:
 
 ```
 public void TestSomething(int i) {
@@ -214,5 +197,4 @@ public static void AreElementsNotNull<T>(T[] value)
 
 ## Got feedback?
 
-Post your ideas and feature requests on 
-**[UserVoice](https://visualstudio.uservoice.com/forums/121579-visual-studio-2015/category/157869-test-tools?query=IntelliTest)**.
+Post your ideas and feature requests on [UserVoice](https://visualstudio.uservoice.com/forums/121579-visual-studio-2015/category/157869-test-tools?query=IntelliTest).

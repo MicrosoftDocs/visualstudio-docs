@@ -2,21 +2,17 @@
 title: "IDebugProgramPublisher2::PublishProgram | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgramPublisher2::PublishProgram"
 helpviewer_keywords: 
   - "IDebugProgramPublisher2::PublishProgram"
 ms.assetid: 92ff63f0-e869-4040-b3ae-b2c899e708ff
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

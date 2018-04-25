@@ -1,8 +1,9 @@
 ---
-title: "What's New in Live Unit Testing | Microsoft Docs"
-ms.date: "10-11-2017"
+title: "What's New in Live Unit Testing"
+ms.date: 10-11-2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Visual Studio ALM"
   - "Live Unit Testing"

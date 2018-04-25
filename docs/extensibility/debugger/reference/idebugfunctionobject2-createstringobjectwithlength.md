@@ -2,20 +2,16 @@
 title: "IDebugFunctionObject2::CreateStringObjectWithLength | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "CreateStringObjectWithLength"
   - "IDebugFunctionObject2::CreateStringObjectWithLength"
 ms.assetid: 1f43ec66-1615-4a4c-8b9d-e933f549f96d
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

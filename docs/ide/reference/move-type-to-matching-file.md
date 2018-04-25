@@ -1,14 +1,12 @@
 ---
-title: "Move type to matching file refactoring in Visual Studio | Microsoft Docs"
-ms.custom: ""
+title: Move type to matching file refactoring in Visual Studio
 ms.date: 01/26/2018
-ms.reviewer: ""
-ms.suite: ""
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: gewarren
+ms.author: gewarren
+manager: douge
 dev_langs:
   - CSharp
   - VB
@@ -60,4 +58,4 @@ This refactoring applies to:
 
 ## See also
 
-[Refactoring](../refactoring-in-visual-studio.md)
+- [Refactoring](../refactoring-in-visual-studio.md)

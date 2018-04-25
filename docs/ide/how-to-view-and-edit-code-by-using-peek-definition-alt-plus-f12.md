@@ -1,16 +1,13 @@
 ---
-title: "Using Peek Definition in Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "01/10/2018"
-ms.reviewer: ""
-ms.suite: ""
+title: Using Peek Definition in Visual Studio
+ms.date: 01/10/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+ms.topic: conceptual
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # How to: View and edit code by using Peek Definition (Alt+F12)
@@ -63,7 +60,7 @@ When you start to edit inside a **Peek Definition** window, the file that you're
 
 1. Click **OK** to close the **Options** dialog box.
 
-   ![Setting the mouse-click peek definition option](../ide/media/editor_options_peek_view.png)  
+   ![Setting the mouse-click peek definition option](../ide/media/editor_options_peek_view.png)
 
 ### Keyboard shortcuts for Peek Definition
 
@@ -71,18 +68,18 @@ You can use these keyboard shortcuts with the **Peek Definition** window:
 
 |Functionality|Keyboard shortcut|
 |-------------------|:-----------------------:|
-|Open the definition window|Alt+F12|
-|Close the definition window|Esc|
-|Promote the definition window to a regular document tab|Shift+Alt+Home|
-|Navigate between definition windows|Ctrl+Alt+- and Ctrl+Alt+=|
-|Navigate between multiple results|F8 and Shift+F8|
-|Toggle between the code editor window and the definition window|Shift+Esc|
+|Open the definition window|**Alt**+**F12**|
+|Close the definition window|**Esc**|
+|Promote the definition window to a regular document tab|**Shift**+**Alt**+**Home**|
+|Navigate between definition windows|**Ctrl**+**Alt**+**-** and **Ctrl**+**Alt**+**=**|
+|Navigate between multiple results|**F8** and **Shift**+**F8**|
+|Toggle between the code editor window and the definition window|**Shift**+**Esc**|
 
 > [!NOTE]
 > You can also use the same keyboard shortcuts to edit code in a **Peek Definition** window as you use elsewhere in Visual Studio.
 
 ## See also
 
-[Navigating Code](../ide/navigating-code.md)  
-[Go To Definition and Peek Definition](../ide/go-to-and-peek-definition.md)  
-[Productivity Tips](../ide/productivity-tips-for-visual-studio.md)
+- [Navigate code](../ide/navigating-code.md)
+- [Go To Definition and Peek Definition](../ide/go-to-and-peek-definition.md)
+- [Productivity tips](../ide/productivity-tips-for-visual-studio.md)
