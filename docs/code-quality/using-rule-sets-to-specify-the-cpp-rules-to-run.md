@@ -1,7 +1,7 @@
 ---
 title: Using Rule Sets to Specify the C++ Rules to Run
 ms.date: 04/28/2018
-ms.prod: visual-studio-dev15
+mstudio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: "conceptual"
 author: mikeblome
@@ -80,11 +80,12 @@ You can create a custom rule set in a text editor, store it in any location with
 The following example shows a basic rule set file that you can use as a starting point:
 
 ```xml
-<?xml version="1.0" encoding="utf-8"?> 
-<RuleSet Name="New Rule Set" Description=" " ToolsVersion="15.0"> 
-  <Rules AnalyzerId="Microsoft.Analyzers.NativeCodeAnalysis" RuleNamespace="Microsoft.Rules.Native"> 
-    <Rule Id="C6001" Action="Warning" /> 
-    <Rule Id="C26494" Action="Warning" /> 
-  </Rules> 
-</RuleSet> 
+
+<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="New Rule Set" Description=" " ToolsVersion="15.0">
+  <Rules AnalyzerId="Microsoft.Analyzers.NativeCodeAnalysis" RuleNamespace="Microsoft.Rules.Native">
+    <Rule Id="C6001" Action="Warning" />
+    <Rule Id="C26494" Action="Warning" />
+  </Rules>
+</RuleSet>
 ```
