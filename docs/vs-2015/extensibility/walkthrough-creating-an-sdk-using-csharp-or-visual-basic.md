@@ -72,7 +72,7 @@ In this walkthrough, you’ll learn how to create a simple Math Library SDK by u
   
 6.  Replace the existing XML with the following XML:  
   
-     [!code-xml[CreatingAnSDKUsingWinRT#1](../../docs/extensibility/codesnippet/XML/walkthrough-creating-an-sdk-using-csharp-or-visual-basic_2.xml)]
+     [!code-xml[CreatingAnSDKUsingWinRT#1](../../extensibility/codesnippet/XML/walkthrough-creating-an-sdk-using-csharp-or-visual-basic_2.xml)]
   
 7.  In **Solution Explorer**, choose the **SimpleMathVSIX** project.  
   
