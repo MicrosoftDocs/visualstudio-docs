@@ -1,13 +1,14 @@
 ---
 title: "Troubleshooting | Microsoft Docs"
-author: "johnsta"
-ms.author: "johnsta"
+author: "ghogen"
+ms.author: "ghogen"
 ms.date: "02/20/2018"
-ms.topic: "article"
-ms.technology: "vsce-kubernetes"
+ms.topic: "troubleshooting"
+ms.prod: visual-studio-dev15
+ms.technology: "vs-azure"
 description: "Rapid Kubernetes development with containers and microservices on Azure"
 keywords: "Docker, Kubernetes, Azure, AKS, Azure Container Service, containers"
-manager: "ghogen"
+manager: "douge"
 ---
 # Troubleshooting Guide
 

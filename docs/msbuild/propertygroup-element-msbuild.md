@@ -3,7 +3,7 @@ title: "PropertyGroup Element (MSBuild) | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/13/2017"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "reference"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#PropertyGroup"
 dev_langs: 
@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "<PropertyGroup> element [MSBuild]"
   - "PropertyGroup element [MSBuild]"
 ms.assetid: ff1e6c68-b9a1-4263-a1ce-dc3b829a64d4
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

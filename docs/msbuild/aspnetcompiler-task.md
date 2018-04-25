@@ -3,7 +3,7 @@ title: "Using AspNetCompiler Task to precompile ASP.NET applications | Microsoft
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "reference"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#AspNetCompiler"
 dev_langs: 
@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "MSBuild, AspNetCompiler task"
   - "AspNetCompiler task [MSBuild]"
 ms.assetid: f811c019-a67b-4d54-82e6-e29549496f6e
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

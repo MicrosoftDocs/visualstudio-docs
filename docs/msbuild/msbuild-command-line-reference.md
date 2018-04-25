@@ -3,7 +3,7 @@ title: "MSBuild Command-Line Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "MSBuild, command line reference"
   - "msbuild.exe"
 ms.assetid: edaa65ec-ab8a-42a1-84cb-d76d5b2f4584
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

@@ -1,6 +1,6 @@
 ---
-title: Working with Python, step 0, installation
-description: Step 0 (prerequisites) of a core tutorial for working with Python within Visual Studio, covering how to install Python support in Visual Studio.
+title: Working with Python Tutorial, Step 0, installation
+description: Step 0 (installation prerequisites) of a core walkthrough of working with Python in Visual Studio.
 ms.date: 01/16/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python

@@ -5,7 +5,8 @@ ms.topic: "conceptual"
 ms.assetid: 7c83814a-f21d-4323-ad5f-13bac40d3e38
 author: "mblome"
 ms.author: "mblome"
-manager: douge
+manager: wpickett
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.workload:
   - "cplusplus"

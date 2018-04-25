@@ -1,8 +1,9 @@
 ---
-title: "Configure Unit Tests to Target An Earlier Version of the .NET Framework in Visual Studio | Microsoft Docs"
-ms.date: "11/04/2016"
+title: "Configure Unit Tests to Target An Earlier Version of the .NET Framework in Visual Studio"
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
-ms.topic: "conceptual"
+ms.topic: conceptual
 ms.author: gewarren
 manager: douge
 ms.workload:

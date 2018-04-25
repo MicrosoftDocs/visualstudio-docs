@@ -3,7 +3,7 @@ title: "Message Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "reference"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#Message"
 dev_langs: 
@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "MSBuild, Message task"
   - "Message task [MSBuild]"
 ms.assetid: 2293309d-42b6-46dc-9684-8c146f66bc28
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

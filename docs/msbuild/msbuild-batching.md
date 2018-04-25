@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "batching [MSBuild]"
   - "MSBuild, batching"
 ms.assetid: d35c085b-27b8-49d7-b6f8-8f2f3a0eec38
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

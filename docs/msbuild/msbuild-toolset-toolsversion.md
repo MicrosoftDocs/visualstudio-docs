@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "MSBuild, targeting a specific .NET framework"
   - "multitargeting [MSBuild]"
 ms.assetid: 40040ee7-4620-4043-a6d8-ccba921421d1
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

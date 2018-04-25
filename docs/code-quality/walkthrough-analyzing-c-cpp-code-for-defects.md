@@ -1,6 +1,7 @@
 ---
 title: "Walkthrough: Analyzing C/C++ Code for Defects"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -10,7 +11,7 @@ helpviewer_keywords:
   - "code analysis tool, walkthroughs"
 author: mikeblome
 ms.author: mblome
-manager: douge
+manager: wpickett
 ms.workload:
   - "cplusplus"
 ---

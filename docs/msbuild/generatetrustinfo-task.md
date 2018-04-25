@@ -3,7 +3,7 @@ title: "GenerateTrustInfo Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "MSBuild, GenerateTrustInfo task"
   - "GenerateTrustInfo task [MSBuild]"
 ms.assetid: 3ca60816-4bb0-4fef-ae43-ca0bfb63def3
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

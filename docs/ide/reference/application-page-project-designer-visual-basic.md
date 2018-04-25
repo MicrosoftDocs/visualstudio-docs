@@ -1,18 +1,17 @@
 ---
-title: "Application Page, Project Designer (Visual Basic) | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology:
-  - "vs-ide-general"
-ms.topic: "conceptual"
+title: Application Page, Project Designer (Visual Basic)
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords:
   - "vb.ProjectPropertiesApplicationWPF"
   - "vb.ProjectPropertiesApplication"
 helpviewer_keywords:
   - "Project Designer, Application page"
   - "Application page in Project Designer"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"

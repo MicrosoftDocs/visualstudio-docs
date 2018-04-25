@@ -3,7 +3,7 @@ title: "XmlPoke Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "XmlPoke task [MSBuild]"
   - "MSBuild, XmlPoke task"
 ms.assetid: 6ba1953c-be3b-4df8-8561-e133408f8270
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

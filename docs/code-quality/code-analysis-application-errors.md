@@ -1,8 +1,9 @@
 ---
 title: Code Analysis Application Errors
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
-ms.topic: "conceptual"
+ms.topic: reference
 helpviewer_keywords:
   - "errors [Visual Studio ALM], code analysis"
   - "code analysis, errors"

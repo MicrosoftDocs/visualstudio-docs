@@ -3,7 +3,7 @@ title: "MarkupCompilePass1 Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "MarkupCompilePass1 task [WPF MSBuild], parameters"
   - "converting XAML projects to compiled binary format [WPF MSBuild]"
   - "MarkupCompilePass1 task [WPF MSBuild], converting XAML to binary format"
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

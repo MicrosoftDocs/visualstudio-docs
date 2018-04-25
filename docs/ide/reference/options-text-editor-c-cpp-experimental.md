@@ -1,17 +1,16 @@
 ---
-title: "Options, Text Editor, C/C++, Experimental | Microsoft Docs"
-ms.custom: ""
-ms.date: "08/02/2017"
-ms.topic: "conceptual"
+title: Options, Text Editor, C/C++, Experimental
+ms.date: 08/02/2017
+ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.C/C++.Experimental"
   - "VS.ToolsOptionsPages.Text_Editor.C%2FC%2B%2B.Experimental"
   - "VS.ToolsOptionsPages.Text_Editor.C\\C++.Experimental"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
-ms.technology:
-  - "vs-ide-general"
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-general
 ms.workload:
   - "cplusplus"
 ---

@@ -3,7 +3,7 @@ title: "ResolveKeySource Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "reference"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#ResolveKeySource"
 dev_langs: 
@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "ResolveKeySource task [MSBuild]"
   - "MSBuild, ResolveKeySource task"
 ms.assetid: 449f06c2-e9aa-4236-ab1e-c45c25452b2e
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

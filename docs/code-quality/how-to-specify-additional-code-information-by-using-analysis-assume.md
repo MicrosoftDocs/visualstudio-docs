@@ -1,6 +1,7 @@
 ---
 title: "How to: Specify Additional Code Information by Using __analysis_assume"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: "conceptual"
 f1_keywords:
@@ -10,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 51205d97-4084-4cf4-a5ed-3eeaf67deb1b
 author: mikeblome
 ms.author: mblome
-manager: douge
+manager: wpickett
 ms.workload:
   - "multiple"
 ---
