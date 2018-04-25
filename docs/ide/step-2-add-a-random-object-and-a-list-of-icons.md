@@ -13,7 +13,7 @@ ms.workload:
   - "multiple"
 ---
 # Step 2: Add a Random object and a list of icons
-In this step, you create a set of matching symbols for the game. Each symbol is added to two random cells in the TableLayoutPanel on the form. To do this, you use two `new` statements to create two objects. The first is a <xref:System.Random> object, like the one you used in the math quiz game. It is used in this code to randomly choose cells in the TableLayoutPanel. The second object, which may be new to you, is a <xref:System.Collections.Generic.List> object which is used to store the randomly-chosen symbols.
+In this step, you create a set of matching symbols for the game. Each symbol is added to two random cells in the TableLayoutPanel on the form. To do this, you use two `new` statements to create two objects. The first is a <xref:System.Random> object, like the one you used in the math quiz game. It is used in this code to randomly choose cells in the TableLayoutPanel. The second object, which may be new to you, is a <xref:System.Collections.Generic.List%601> object which is used to store the randomly-chosen symbols.
 
 ### To add a random object and a list of icons
 

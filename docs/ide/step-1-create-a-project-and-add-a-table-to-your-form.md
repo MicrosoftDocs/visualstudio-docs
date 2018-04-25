@@ -68,7 +68,7 @@ The first step in creating a matching game is to create the project and add a ta
 
     7.  Set the **Text** property of the label to the letter **c**.  
   
-         The upper-left cell in the `TableLayoutPanel` should now contain a black box centered on a blue background.  
+         The upper-left cell in the TableLayoutPanel should now contain a black box centered on a blue background.  
   
         > [!NOTE]
         >  The Webdings font is a font of icons that ships with the Windows operating system. In your matching game, the player needs to match pairs of icons, so you use this font to display the icons to match. Instead of putting **c** in the **Text** property, try entering different letters to see what icons are displayed. An exclamation point is a spider, an uppercase N is an eye, and a comma is a chili pepper.  
