@@ -26,7 +26,7 @@ Visual Studio provides several different tools to help you deploy your apps.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>First look at different deployment features</h3>
+                        <h3>First look at deployment options</h3>
                     </div>
                 </div>
             </div>
