@@ -1,0 +1,32 @@
+---
+title: "Copyright Notice for Spy++ Help | Microsoft Docs"
+ms.custom: ""
+ms.date: "2018-06-30"
+ms.prod: "visual-studio-dev14"
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "vs-ide-debug"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+helpviewer_keywords: 
+  - "coyright, Spy++"
+ms.assetid: 84efcb95-5e57-4e1b-9670-13c9163f6fc6
+caps.latest.revision: 7
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: "ghogen"
+---
+# Copyright Notice for Spy++ Help
+[!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
+The latest version of this topic can be found at [Copyright Notice for Spy++ Help](https://docs.microsoft.com/visualstudio/debugger/copyright-notice-for-spy-increment-help).  
+  
+Information in this document is subject to change without notice. Companies, names, and data used in examples herein are fictitious unless otherwise noted. No part of this document may be reproduced or transmitted in any form or by any means, electronic or mechanical, for any purpose, without express written permission of Microsoft Corporation.  
+  
+ © 1993-2010 Microsoft Corporation. All rights reserved.  
+  
+ Microsoft is a registered trademark and Windows and Windows NT are trademarks of Microsoft Corporation.
+
+
+

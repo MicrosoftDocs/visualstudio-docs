@@ -1,0 +1,76 @@
+﻿<Window x:Class="AdventureWorksSalesEditor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="702" Width="375" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:my="clr-namespace:AdventureWorksSalesEditor.AdventureWorksService" Loaded="Window_Loaded">
+    <Window.Resources>
+        <CollectionViewSource x:Key="salesOrderHeadersViewSource" d:DesignSource="{d:DesignInstance my:SalesOrderHeader, CreateList=True}" />
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="75" />
+            <RowDefinition Height="525" />
+        </Grid.RowDefinitions>
+        <Button HorizontalAlignment="Left" Margin="22,20,0,24" Name="backButton" Width="75" Click="backButton_Click">&lt;</Button>
+        <Button HorizontalAlignment="Left" Margin="116,20,0,24" Name="nextButton" Width="75" Click="nextButton_Click">&gt;</Button>
+        <Button HorizontalAlignment="Right" Margin="0,21,46,24" Name="saveButton" Width="110" Click="saveButton_Click">Save changes</Button>
+        <Grid DataContext="{StaticResource salesOrderHeadersViewSource}" Grid.Row="1" HorizontalAlignment="Left" Margin="34,16,0,0" Name="grid1" VerticalAlignment="Top">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Label Content="Account Number:" Grid.Column="0" Grid.Row="0" HorizontalAlignment="Left" Margin="3" VerticalAlignment="Center" />
+            <TextBox Grid.Column="1" Grid.Row="0" Height="23" HorizontalAlignment="Left" Margin="3" Name="accountNumberTextBox" Text="{Binding Path=AccountNumber, Mode=TwoWay, ValidatesOnExceptions=true, NotifyOnValidationError=true}" VerticalAlignment="Center" Width="120" />
+            <Label Content="Bill To Address ID:" Grid.Column="0" Grid.Row="1" HorizontalAlignment="Left" Margin="3" VerticalAlignment="Center" />
+            <TextBox Grid.Column="1" Grid.Row="1" Height="23" HorizontalAlignment="Left" Margin="3" Name="billToAddressIDTextBox" Text="{Binding Path=BillToAddressID, Mode=TwoWay, ValidatesOnExceptions=true, NotifyOnValidationError=true}" VerticalAlignment="Center" Width="120" />
+            <Label Content="Comment:" Grid.Column="0" Grid.Row="2" HorizontalAlignment="Left" Margin="3" VerticalAlignment="Center" />
+            <TextBox Grid.Column="1" Grid.Row="2" Height="23" HorizontalAlignment="Left" Margin="3" Name="commentTextBox" Text="{Binding Path=Comment, Mode=TwoWay, ValidatesOnExceptions=true, NotifyOnValidationError=true}" VerticalAlignment="Center" Width="120" />
+            <Label Content="Customer ID:" Grid.Column="0" Grid.Row="3" HorizontalAlignment="Left" Margin="3" VerticalAlignment="Center" />
+            <TextBox Grid.Column="1" Grid.Row="3" Height="23" HorizontalAlignment="Left" Margin="3" Name="customerIDTextBox" Text="{Binding Path=CustomerID, Mode=TwoWay, ValidatesOnExceptions=true, NotifyOnValidationError=true}" VerticalAlignment="Center" Width="120" />
+            <Label Content="Due Date:" Grid.Column="0" Grid.Row="4" HorizontalAlignment="Left" Margin="3" VerticalAlignment="Center" />
+            <DatePicker Grid.Column="1" Grid.Row="4" Height="25" HorizontalAlignment="Left" Margin="3" Name="dueDateDatePicker" SelectedDate="{Binding Path=DueDate, Mode=TwoWay, ValidatesOnExceptions=true, NotifyOnValidationError=true}" VerticalAlignment="Center" Width="115" />
+            <Label Content="Freight:" Grid.Column="0" Grid.Row="5" HorizontalAlignment="Left" Margin="3" VerticalAlignment="Center" />
+            <TextBox Grid.Column="1" Grid.Row="5" Height="23" HorizontalAlignment="Left" Margin="3" Name="freightTextBox" Text="{Binding Path=Freight, Mode=TwoWay, ValidatesOnExceptions=true, NotifyOnValidationError=true}" VerticalAlignment="Center" Width="120" />
+            <Label Content="Order Date:" Grid.Column="0" Grid.Row="6" HorizontalAlignment="Left" Margin="3" VerticalAlignment="Center" />
+            <DatePicker Grid.Column="1" Grid.Row="6" Height="25" HorizontalAlignment="Left" Margin="3" Name="orderDateDatePicker" SelectedDate="{Binding Path=OrderDate, Mode=TwoWay, ValidatesOnExceptions=true, NotifyOnValidationError=true}" VerticalAlignment="Center" Width="115" />
+            <Label Content="Purchase Order Number:" Grid.Column="0" Grid.Row="7" HorizontalAlignment="Left" Margin="3" VerticalAlignment="Center" />
+            <TextBox Grid.Column="1" Grid.Row="7" Height="23" HorizontalAlignment="Left" Margin="3" Name="purchaseOrderNumberTextBox" Text="{Binding Path=PurchaseOrderNumber, Mode=TwoWay, ValidatesOnExceptions=true, NotifyOnValidationError=true}" VerticalAlignment="Center" Width="120" />
+            <Label Content="Sales Order ID:" Grid.Column="0" Grid.Row="8" HorizontalAlignment="Left" Margin="3" VerticalAlignment="Center" />
+            <TextBox Grid.Column="1" Grid.Row="8" Height="23" HorizontalAlignment="Left" Margin="3" Name="salesOrderIDTextBox" Text="{Binding Path=SalesOrderID, Mode=TwoWay, ValidatesOnExceptions=true, NotifyOnValidationError=true}" VerticalAlignment="Center" Width="120" />
+            <Label Content="Sales Order Number:" Grid.Column="0" Grid.Row="9" HorizontalAlignment="Left" Margin="3" VerticalAlignment="Center" />
+            <TextBox Grid.Column="1" Grid.Row="9" Height="23" HorizontalAlignment="Left" Margin="3" Name="salesOrderNumberTextBox" Text="{Binding Path=SalesOrderNumber, Mode=TwoWay, ValidatesOnExceptions=true, NotifyOnValidationError=true}" VerticalAlignment="Center" Width="120" />
+            <Label Content="Ship Date:" Grid.Column="0" Grid.Row="10" HorizontalAlignment="Left" Margin="3" VerticalAlignment="Center" />
+            <DatePicker Grid.Column="1" Grid.Row="10" Height="25" HorizontalAlignment="Left" Margin="3" Name="shipDateDatePicker" SelectedDate="{Binding Path=ShipDate, Mode=TwoWay, ValidatesOnExceptions=true, NotifyOnValidationError=true}" VerticalAlignment="Center" Width="115" />
+            <Label Content="Ship Method:" Grid.Column="0" Grid.Row="11" HorizontalAlignment="Left" Margin="3" VerticalAlignment="Center" />
+            <TextBox Grid.Column="1" Grid.Row="11" Height="23" HorizontalAlignment="Left" Margin="3" Name="shipMethodTextBox" Text="{Binding Path=ShipMethod, Mode=TwoWay, ValidatesOnExceptions=true, NotifyOnValidationError=true}" VerticalAlignment="Center" Width="120" />
+            <Label Content="Ship To Address ID:" Grid.Column="0" Grid.Row="12" HorizontalAlignment="Left" Margin="3" VerticalAlignment="Center" />
+            <TextBox Grid.Column="1" Grid.Row="12" Height="23" HorizontalAlignment="Left" Margin="3" Name="shipToAddressIDTextBox" Text="{Binding Path=ShipToAddressID, Mode=TwoWay, ValidatesOnExceptions=true, NotifyOnValidationError=true}" VerticalAlignment="Center" Width="120" />
+            <Label Content="Status:" Grid.Column="0" Grid.Row="13" HorizontalAlignment="Left" Margin="3" VerticalAlignment="Center" />
+            <TextBox Grid.Column="1" Grid.Row="13" Height="23" HorizontalAlignment="Left" Margin="3" Name="statusTextBox" Text="{Binding Path=Status, Mode=TwoWay, ValidatesOnExceptions=true, NotifyOnValidationError=true}" VerticalAlignment="Center" Width="120" />
+            <Label Content="Sub Total:" Grid.Column="0" Grid.Row="14" HorizontalAlignment="Left" Margin="3" VerticalAlignment="Center" />
+            <TextBox Grid.Column="1" Grid.Row="14" Height="23" HorizontalAlignment="Left" Margin="3" Name="subTotalTextBox" Text="{Binding Path=SubTotal, Mode=TwoWay, ValidatesOnExceptions=true, NotifyOnValidationError=true}" VerticalAlignment="Center" Width="120" />
+            <Label Content="Tax Amt:" Grid.Column="0" Grid.Row="15" HorizontalAlignment="Left" Margin="3" VerticalAlignment="Center" />
+            <TextBox Grid.Column="1" Grid.Row="15" Height="23" HorizontalAlignment="Left" Margin="3" Name="taxAmtTextBox" Text="{Binding Path=TaxAmt, Mode=TwoWay, ValidatesOnExceptions=true, NotifyOnValidationError=true}" VerticalAlignment="Center" Width="120" />
+            <Label Content="Total Due:" Grid.Column="0" Grid.Row="16" HorizontalAlignment="Left" Margin="3" VerticalAlignment="Center" />
+            <TextBox Grid.Column="1" Grid.Row="16" Height="23" HorizontalAlignment="Left" Margin="3" Name="totalDueTextBox" Text="{Binding Path=TotalDue, Mode=TwoWay, ValidatesOnExceptions=true, NotifyOnValidationError=true}" VerticalAlignment="Center" Width="120" />
+        </Grid>
+    </Grid>
+</Window>

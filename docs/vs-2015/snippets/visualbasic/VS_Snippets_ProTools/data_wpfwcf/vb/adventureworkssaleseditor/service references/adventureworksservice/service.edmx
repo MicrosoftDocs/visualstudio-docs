@@ -1,0 +1,38 @@
+﻿<edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx">
+  <edmx:DataServices xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" m:DataServiceVersion="1.0">
+    <Schema Namespace="AdventureWorksLTModel" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+      <EntityType Name="SalesOrderHeader">
+        <Key>
+          <PropertyRef Name="SalesOrderID" />
+        </Key>
+        <Property Name="SalesOrderID" Type="Edm.Int32" Nullable="false" p8:StoreGeneratedPattern="Identity" xmlns:p8="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+        <Property Name="RevisionNumber" Type="Edm.Byte" Nullable="false" />
+        <Property Name="OrderDate" Type="Edm.DateTime" Nullable="false" />
+        <Property Name="DueDate" Type="Edm.DateTime" Nullable="false" />
+        <Property Name="ShipDate" Type="Edm.DateTime" Nullable="true" />
+        <Property Name="Status" Type="Edm.Byte" Nullable="false" />
+        <Property Name="OnlineOrderFlag" Type="Edm.Boolean" Nullable="false" />
+        <Property Name="SalesOrderNumber" Type="Edm.String" Nullable="false" MaxLength="25" Unicode="true" FixedLength="false" p8:StoreGeneratedPattern="Computed" xmlns:p8="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+        <Property Name="PurchaseOrderNumber" Type="Edm.String" Nullable="true" MaxLength="25" Unicode="true" FixedLength="false" />
+        <Property Name="AccountNumber" Type="Edm.String" Nullable="true" MaxLength="15" Unicode="true" FixedLength="false" />
+        <Property Name="CustomerID" Type="Edm.Int32" Nullable="false" />
+        <Property Name="ShipToAddressID" Type="Edm.Int32" Nullable="true" />
+        <Property Name="BillToAddressID" Type="Edm.Int32" Nullable="true" />
+        <Property Name="ShipMethod" Type="Edm.String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+        <Property Name="CreditCardApprovalCode" Type="Edm.String" Nullable="true" MaxLength="15" Unicode="false" FixedLength="false" />
+        <Property Name="SubTotal" Type="Edm.Decimal" Nullable="false" Precision="19" Scale="4" />
+        <Property Name="TaxAmt" Type="Edm.Decimal" Nullable="false" Precision="19" Scale="4" />
+        <Property Name="Freight" Type="Edm.Decimal" Nullable="false" Precision="19" Scale="4" />
+        <Property Name="TotalDue" Type="Edm.Decimal" Nullable="false" Precision="19" Scale="4" p8:StoreGeneratedPattern="Computed" xmlns:p8="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+        <Property Name="Comment" Type="Edm.String" Nullable="true" MaxLength="Max" Unicode="true" FixedLength="false" />
+        <Property Name="rowguid" Type="Edm.Guid" Nullable="false" />
+        <Property Name="ModifiedDate" Type="Edm.DateTime" Nullable="false" />
+      </EntityType>
+    </Schema>
+    <Schema Namespace="AdventureWorksService" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+      <EntityContainer Name="AdventureWorksLTEntities" p7:LazyLoadingEnabled="true" m:IsDefaultEntityContainer="true" xmlns:p7="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+        <EntitySet Name="SalesOrderHeaders" EntityType="AdventureWorksLTModel.SalesOrderHeader" />
+      </EntityContainer>
+    </Schema>
+  </edmx:DataServices>
+</edmx:Edmx>
