@@ -63,9 +63,9 @@ As noted before. much of what's in a project created from the "Polls Django Web 
 
 ### Question: what does the Django Migrate command do?
 
-Answer: the **Django Migrate** command specifically runs the `manage.py migrate` command, which runs any scripts in the `app/migrations` folder that haven't been run previously. In this case, the command runs rhe `0001_initial.py` script in that folder to set up the necessary schema in the database.
+Answer: the **Django Migrate** command specifically runs the `manage.py migrate` command, which runs any scripts in the `app/migrations` folder that haven't been run previously. In this case, the command runs the `0001_initial.py` script in that folder to set up the necessary schema in the database.
 
-The migration script itself was created by the `manage.py makemigrations` command, which scans the app's `models.py` file, compares it to the current state of the database, and then generates the necessary scripts to migrate the database schema to match the current models. This feature of Django is very powerful as you update and modify your models over time. By generating and running migrations, you keep the models and the database in sync with very little difficulty.
+The migration script itself is created by the `manage.py makemigrations` command, which scans the app's `models.py` file, compares it to the current state of the database, and then generates the necessary scripts to migrate the database schema to match the current models. This feature of Django is very powerful as you update and modify your models over time. By generating and running migrations, you keep the models and the database in sync with little difficulty.
 
 You work with a migration in step 6-3 later in this article.
 
@@ -106,13 +106,13 @@ class Choice(models.Model):
         return self.text
 ```
 
-As you can see, a Poll maintains a description in its `text` field and a publication date in `pub_date`. These are the only fields that exist for the Poll in the database; the `total_votes` field is calculated at runtime.
+As you can see, a Poll maintains a description in its `text` field and a publication date in `pub_date`. These fields are the only onesields that exist for the Poll in the database; the `total_votes` field is calculated at runtime.
 
 A Choice is related to a Poll through the `poll` field, contains a description in `text`, and maintains a count for that choice in `votes`. The `votes_percentage` field is calculated at runtime and is not found in the database.
 
-The full list of field types is `CharField` (limited text) `TextField` (unlimited text), `EmailField`, `URLField`, `DateTimeField`, `IntegerField`, `DecimalField`, `BooleanField`, `ForeignKey`, and `ManyToMany`. Each field takes some attributes, like `max_length`. The `blank=True` attribute means the field is optional; `null=true` means that a value is optional. There is also a `choices` attribute that limits values to those in an array of data value/display value tuples. (See the [Model field reference](https://docs.djangoproject.com/en/2.0/ref/models/fields/) in the Django documentation.)
+The full list of field types is `CharField` (limited text) `TextField` (unlimited text), `EmailField`, `URLField`, `DateTimeField`, `IntegerField`, `DecimalField`, `BooleanField`, `ForeignKey`, and `ManyToMany`. Each field takes some attributes, like `max_length`. The `blank=True` attribute means the field is optional; `null=true` means that a value is optional. There is also a `choices` attribute that limits values to values in an array of data value/display value tuples. (See the [Model field reference](https://docs.djangoproject.com/en/2.0/ref/models/fields/) in the Django documentation.)
 
-You can confirm exactly what's stored in the database by examining the `db.sqlite3` file in the project using a tool like the [SQLite browser](http://sqlitebrowser.org/). In the database you see that a foreign key field like `poll` in the Choice model is actually stored as `poll_id`; Django handles the mapping automatically.
+You can confirm exactly what's stored in the database by examining the `db.sqlite3` file in the project using a tool like the [SQLite browser](http://sqlitebrowser.org/). In the database, you see that a foreign key field like `poll` in the Choice model is stored as `poll_id`; Django handles the mapping automatically.
 
 In general, working with your database in Django means working exclusively through your models so that Django can manage the underlying database on your behalf.
 
@@ -168,7 +168,7 @@ Because you'll inevitably make changes to your models over time, Django makes it
 
 Django tracks which migrations have been applied to any given database, such that when you run the migrate command, Django applies whichever migrations are needed. If you create a new, empty database, for example, running the migrate command brings it up to date with your current models by applying every migration script. Similarly, if you make multiple model changes and generate migrations on a development computer, you can then apply the cumulative migrations to your production database by running the migrate command on your production server. Django again applies only those migration scripts that have been generated since the last migration of the production database.
 
-To see the effect of changing a model, try the following:
+To see the effect of changing a model, try the following steps:
 
 1. Add an optional author field to the Poll model in `app/models.py` by adding the following line after the `pub_date` field to add an optional `author` field:
 
@@ -192,7 +192,7 @@ Answer: If the models don't match what's in the database, Django fails at runtim
 
 ### Question: Why doesn't Solution Explorer show newly generated scripts after running Django Make Migrations?
 
-Answer: Although newly generated scripts exist in the `app/migrations` folder and are be applied when running the **Django Migrate** command, they don't appear automatically in **Solution Explorer** because they've not been added to the Visual Studio project. To make them visible, first select the **Project** > **Show All Files** menu command or the toolbar button outlined in the image below. This command causes **Solution Explorer** to show all files in the project folder, using a dotted outline icon for those that haven't been added to the project itself. Right-click the files you want to add and select **Include In Project**, which also includes them in source control with your next commit.
+Answer: Although newly generated scripts exist in the `app/migrations` folder and are applied when running the **Django Migrate** command, they don't appear automatically in **Solution Explorer** because they've not been added to the Visual Studio project. To make them visible, first select the **Project** > **Show All Files** menu command or the toolbar button outlined in the image below. This command causes **Solution Explorer** to show all files in the project folder, using a dotted outline icon for items that haven't been added to the project itself. Right-click the files you want to add and select **Include In Project**, which also includes them in source control with your next commit.
 
 ![Include in Project command in Solution Explorer](media/django/step06-include-migrations-script-in-project.png)
 
@@ -202,7 +202,7 @@ Answer: Yes, use the [django-admin showmigrations command](https://docs.djangopr
 
 ## Step 6-4: Understand the views and page templates created by the project template
 
-Most of the views generated by the "Polls Django Web Project" template, such as those for the About and Contact pages, are quite similar to those created by the "Django Web Project" template you worked with earlier in this tutorial. What's different in the Polls app is that its home page makes use of the models, as do several added pages for voting and viewing poll results.
+Most of the views generated by the "Polls Django Web Project" template, such as the views for the About and Contact pages, are quite similar to views created by the "Django Web Project" template you worked with earlier in this tutorial. What's different in the Polls app is that its home page makes use of the models, as do several added pages for voting and viewing poll results.
 
 To begin with, the first line in the Django project's `urlpatterns` array in `urls.py` file is more than just a simple routing to an app view. Instead, it pulls in the app's own `urls.py` file:
 
@@ -292,7 +292,7 @@ The core of the template (`templates/app/index.html`) is as follows:
 
 Put simply, the template receives the list of Poll objects in `latest_poll_list`, and then iterates through that list to create a table row that contains a link to each poll using the poll's `text` value. In the `{% url %}` tag, "app:detail" refers to the url pattern in `app/urls.py` named "detail", using `poll.id` as an argument. The effect of this is that Django creates a URL using the appropriate pattern and uses that for the link. This bit of future-proofing means that you can change that URL pattern at any time and the generated links automatically update to match.
 
-The `PollDetailView` and `PollResultsView` classes in `app/views.py` (not shown here) look almost identical to `PollListView` except that they derive from `DetailView` instead. Their respective templates, `app/templates/details.html` and `app/templates/results.html` then place the appropriate fields from the models within various HTML controls. One unique piece in `details.html` is that the choices for a poll are contained within an HTML form that when submitted does a POST to the /vote URL. As seen earlier, that URL pattern is routed to `app.views.vote` which is implemented as follows (note the `poll_id` argument, which is again a named group in the regular expression used in the routing for this view):
+The `PollDetailView` and `PollResultsView` classes in `app/views.py` (not shown here) look almost identical to `PollListView` except that they derive from `DetailView` instead. Their respective templates, `app/templates/details.html` and `app/templates/results.html` then place the appropriate fields from the models within various HTML controls. One unique piece in `details.html` is that the choices for a poll are contained within an HTML form that when submitted does a POST to the /vote URL. As seen earlier, that URL pattern is routed to `app.views.vote`, which is implemented as follows (note the `poll_id` argument, which is again a named group in the regular expression used in the routing for this view):
 
 ```python
 def vote(request, poll_id):
@@ -360,7 +360,7 @@ The call to `admin.site.register` then connects that class to the model (`Poll`)
 
 You've now explored the entirety of the "Blank Django Web Project", "Django Web Project", and "Polls Django Web Project" templates in Visual Studio. You've learned all the basics of Django such as using views and templates, and have explored routing, authentication, and using database models. You should now be able to create a web app of your own with any views and models that you need.
 
-Running a web app on your development computer is just one step in making the app available to your customers. Next steps may include the following:
+Running a web app on your development computer is just one step in making the app available to your customers. Next steps may include the following tasks:
 
 - Customize the 404 page by creating a template named `templates/404.html`. When present, Django uses this template instead of its default one. For more information, see [Error views](https://docs.djangoproject.com/en/2.0/ref/views/#error-views) in the Django documentation.
 

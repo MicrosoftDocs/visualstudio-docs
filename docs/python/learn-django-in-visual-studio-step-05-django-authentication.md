@@ -25,7 +25,7 @@ In this step you learn:
 
 ## Step 5-1: Use the authentication flow
 
-The following steps exercise the authentication flow and describe the part of the project that are involved:
+The following steps exercise the authentication flow and describe the parts of the project that are involved:
 
 1. If you have not already followed the instructions in the `readme.html` file in the project root to create a super user (administrator) account, do so now.
 
@@ -35,7 +35,7 @@ The following steps exercise the authentication flow and describe the part of th
 
 1. Open `templates/app/layout.html` and observe that the `<div class="navbar ...>` element contains the tag `{% include app/loginpartial.html %}`. The `{% include %}` tag instructs Django's templating system to pull in the contents of the included file at this point in the containing template.
 
-1. Open `templates/app/loginpartial.html` and observe how it use the conditional tag `{% if user.is_authenticated %}` along with an `{% else %}` tag to render different UI elements depending on whether the user has authenticated:
+1. Open `templates/app/loginpartial.html` and observe how it uses the conditional tag `{% if user.is_authenticated %}` along with an `{% else %}` tag to render different UI elements depending on whether the user has authenticated:
 
     ```html
     {% if user.is_authenticated %}
@@ -91,7 +91,7 @@ The following steps exercise the authentication flow and describe the part of th
 
     As you can see, this form class derives from `AuthenticationForm` and specifically overrides the username and password fields to add placeholder text. The Visual Studio template includes this explicit code on the assumption that you'll likely want to customize the form, such as adding password strength validation.
 
-1. When you navigate to the login page, then, the app renders the `login.html` template. The variables `{{ form.username }}` and `{{ form.password }}` render the `CharField` forms from `BootstrapAuthenticationForm`. There's also a built-in section to show validation errors, and a ready-made element for social logins if you choose to add those.
+1. When you navigate to the login page, then, the app renders the `login.html` template. The variables `{{ form.username }}` and `{{ form.password }}` render the `CharField` forms from `BootstrapAuthenticationForm`. There's also a built-in section to show validation errors, and a ready-made element for social logins if you choose to add those services.
 
     ```html
     {% extends "app/layout.html" %}
@@ -138,7 +138,7 @@ The following steps exercise the authentication flow and describe the part of th
     {% endblock %}
     ```
 
-1. When you submit the form, Django attempts to authenticate the credentials you provide (such as those of the super user). If authentication fails, you remain on the same page but `form.errors` set to true. If authentication is successful, Django navigates to the relative URL in the "next" field, `<input type="hidden" name="next" value="/" />`, which in this case is the home page (`/`).
+1. When you submit the form, Django attempts to authenticate the credentials you provide (such as the super user's credentials). If authentication fails, you remain on the same page but `form.errors` set to true. If authentication is successful, Django navigates to the relative URL in the "next" field, `<input type="hidden" name="next" value="/" />`, which in this case is the home page (`/`).
 
 1. Now, when the home page is rendered again, the `user.is_authenticated` property is true when the `loginpartial.html` template is rendered. As a result, you see a "Hello (username)" message and "Log off". You can use `user.is_authenticated` in other parts of the app to check authentication.
 
@@ -161,11 +161,11 @@ The following steps exercise the authentication flow and describe the part of th
     ]
     ```
 
-    When you restart the app you can navigate to "/admin/" and "/admin/doc/" and perform tasks like create additional user accounts.
+    When you restart the app, you can navigate to "/admin/" and "/admin/doc/" and perform tasks like create additional user accounts.
 
     ![Django administrator interface](media/django/step05-administrator-interface.png)
 
-1. The final part to the authentication flow is logging off. As you can see in `loginpartial.html`, the **Log off** link simply does a POST to the relative URL "/login", which is handled by the built-in view `django.contrib.auth.views.logout`. This view doesn't display any UI and just navigates to the home page (as shown in `urls.py` for the "^logout$" pattern). If you want to display a log off page, first change the URL pattern as follows to add a "template_name" property and remove the "next_page" property:
+1. The final part to the authentication flow is logging off. As you can see in `loginpartial.html`, the **Log off** link simply does a POST to the relative URL "/login", which is handled by the built-in view `django.contrib.auth.views.logout`. This view doesn't display any UI and just navigates to the home page (as shown in `urls.py` for the "^logout$" pattern). If you want to display a logoff page, first change the URL pattern as follows to add a "template_name" property and remove the "next_page" property:
 
     ```python
     url(r'^logout$',

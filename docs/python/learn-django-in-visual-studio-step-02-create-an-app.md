@@ -51,7 +51,7 @@ Using either method, create an app with the name "HelloDjangoApp". The result is
 | `apps.py` | A Python file that defines a configuration class for the app (see below, after this table). |
 | `models.py` | Models are data objects, identified by functions, through which views interact with the app's underlying database (see step 6). Django provides the database connection layer so that apps don't need to concern themselves with those details. The `models.py` file is a default place in which to create your models, and initially contains only the statement, `from django.db import models`. |
 | `tests.py` | A Python file that contains the basic structure of unit tests. |
-| `views.py` | Views are what you typically think of as web pages, which take an HTTP request and return an HTTP response. Views typically render as HTML that web browsers know how to display, but a view doesn't necessarily have to be visible (like a intermediate form). A view is defined by a Python function whose responsibility is to render the HTML to send to the browser. The `views.py` file is a default place in which to create views, and initially contains only the statement, `from django.shortcuts import render`. |
+| `views.py` | Views are what you typically think of as web pages, which take an HTTP request and return an HTTP response. Views typically render as HTML that web browsers know how to display, but a view doesn't necessarily have to be visible (like an intermediate form). A view is defined by a Python function whose responsibility is to render the HTML to send to the browser. The `views.py` file is a default place in which to create views, and initially contains only the statement, `from django.shortcuts import render`. |
 
 The contents of `app.py` appears as follows when using the name "HelloDjangoApp":
 
@@ -164,7 +164,7 @@ The following steps demonstrate the use of page templates:
     ]
     ```
 
-1. Also in `settings.py`, make sure the the `TEMPLATES` object contains the following line (included by default), which instructs Django to look for templates in an installed app's `templates` folder:
+1. Also in `settings.py`, make sure the `TEMPLATES` object contains the following line (included by default), which instructs Django to look for templates in an installed app's `templates` folder:
 
     ```json
     'APP_DIRS': True,
@@ -201,9 +201,9 @@ The following steps demonstrate the use of page templates:
         )
     ```
 
-    The first argument to `render`, as you can see, is the request object, followed by the relative path to the template file within the app's `templates` folder. A template file is named for the view is supports, if appropriate. The third argument to `render` is then a dictionary of variables that the template refers to. You can include objects in the dictionary, in which case a varaible in the template can refer to `{{ object.property }}`.
+    The first argument to `render`, as you can see, is the request object, followed by the relative path to the template file within the app's `templates` folder. A template file is named for the view is supports, if appropriate. The third argument to `render` is then a dictionary of variables that the template refers to. You can include objects in the dictionary, in which case a variable in the template can refer to `{{ object.property }}`.
 
-1. Run the project and observe the output. You should see the a similar message to that seen step 2-2, indicating that the template works.
+1. Run the project and observe the output. You should see a similar message to that seen step 2-2, indicating that the template works.
 
     Observe, however, that the HTML you used in the `content` property renders only as plain text because the `render` function automatically escapes that HTML. Although you can get around escaping, you ideally should avoid using inline HTML in the first place. Formatting and styling are best kept in the page template, not in the code, and it's a simple matter to create additional variables where needed.
 
@@ -241,7 +241,7 @@ The following steps demonstrate the use of page templates:
 
     ![Running app using the template](media/django/step02-result.png)
 
-1. <a name="template-namespacing"></a>As a final step, move your templates into a subfolder named the same as your app, which create namespaces and avoids potential conflicts with other apps you might add to the project. That is, create a subfolder in `templates` named `HelloDjangoApp`, move `index.html` into that subfolder, and modify the `index` view function to refer to the template's new path, `HelloDjangoApp/index.html`. Then run the project, verify that the page renders properly, and stop the server.
+1. <a name="template-namespacing"></a>As a final step, move your templates into a subfolder named the same as your app, which creates a namespace and avoids potential conflicts with other apps you might add to the project. That is, create a subfolder in `templates` named `HelloDjangoApp`, move `index.html` into that subfolder, and modify the `index` view function to refer to the template's new path, `HelloDjangoApp/index.html`. Then run the project, verify that the page renders properly, and stop the server.
 
 1. Commit your changes to source control and update your remote repository, if desired, as described under [step 2-2](#commit-to-source-control).
 
@@ -253,7 +253,7 @@ Answer: Although templates are usually maintained in separate HTML files, you ca
 
 Answer: The `.html` extension for page template files is entirely optional, because you always identify the exact relative path to the file in the second argument to the `render` function. However, Visual Studio (and other editors) typically give you features like code completion and syntax coloration with `.html` files, which outweighs the fact that page templates are not strictly HTML.
 
-In fact, when you're working with a Django project, Visual Studio automatically detects when the HTML file you're editing is actually a Django template, an provides certain auto-complete features. For example, when you start typing a Django page template comment, `{#`, Visual Studio automatically gives you the closing `#}` characters. The **Comment Selection** and **Uncomment Selection** commands (on the **Edit** > **Advanced** menu and on the toolbar) also use template comments instead of HTML comments.
+In fact, when you're working with a Django project, Visual Studio automatically detects when the HTML file you're editing is actually a Django template, and provides certain auto-complete features. For example, when you start typing a Django page template comment, `{#`, Visual Studio automatically gives you the closing `#}` characters. The **Comment Selection** and **Uncomment Selection** commands (on the **Edit** > **Advanced** menu and on the toolbar) also use template comments instead of HTML comments.
 
 ### Question: When I run the project, I see an error that the template cannot be found. What's wrong?
 
@@ -261,7 +261,7 @@ Answer: If you see errors that the template cannot be found, make sure you added
 
 ### Question: Why is template namespacing important?
 
-Answer: When Django looks for a template referred to in the `render` function, it uses whatever file it finds first that matches the relative path. If you have multiple Django apps in the same project that use the same folder structures for templates, it's likely that one app will unintentionally use a template from another app. To avoid this, always create a subfolder under an app's `templates` folder that matches the name of the app to avoid any and all duplication.
+Answer: When Django looks for a template referred to in the `render` function, it uses whatever file it finds first that matches the relative path. If you have multiple Django apps in the same project that use the same folder structures for templates, it's likely that one app will unintentionally use a template from another app. To avoid such errors, always create a subfolder under an app's `templates` folder that matches the name of the app to avoid any and all duplication.
 
 ## Next steps
 

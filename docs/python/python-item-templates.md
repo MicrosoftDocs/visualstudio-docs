@@ -1,7 +1,7 @@
 ---
 title: Item templates for Python projects
 description: A reference list of item templates for Python project that are available through the Add > New Item dialog in Visual Studio.
-ms.date: 04/17/2018
+ms.date: 04/25/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: tutorial
@@ -42,7 +42,7 @@ The following table briefly explains the effect of each item template within a P
 | Azure Remote debugging web.config | A `web.config.debug` file that enables remote debugging over WebSockets, alongside `Microsoft.PythonTools.WebRole.dll` and a `ptvsd` folder containing the modules to deploy to the server to enable remote debugging. You typically create this item in the same place as your `web.config` file. For more information, see [Remotely debugging Python code on Azure](debugging-remote-python-code-on-azure.md). Also see the note below. |
 
 > [!Note]
-> If you add the debugging `web.config` template to a project and plan to use Python remote debugging, you need to publish the site in "Debug" configuration. This setting is separate from the current active solution configuration and always defaults to "Release." To change it, open the **Settings** tab and use the **Configuration** combo box in the publish wizard (see the [Azure documentation](https://azure.microsoft.com/develop/python/) for more information on creating and deploying to Azure Web Apps):
+> If you add the debugging `web.config` template to a project and plan to use Python remote debugging, you need to publish the site in "Debug" configuration. This setting is separate from the current active solution configuration and always defaults to "Release." To change it, open the **Settings** tab and use the **Configuration** combo box in the publish wizard. (See the [Azure documentation](https://azure.microsoft.com/develop/python/) for more information on creating and deploying to Azure Web Apps.)
 >
 > ![Changing the publish configuration](media/template-web-publish-config.png)
 

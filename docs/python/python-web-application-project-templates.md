@@ -35,7 +35,7 @@ All "Blank (framework) Web Project" templates create a project with more or less
 
 | Template | Description |
 | --- | --- |
-| Blank Bottle Web Project | Generates a minimal app in `app.py` with a home page for `/` and a `/hello/<name>` page that echos `<name>` using a very short inline page template. |
+| Blank Bottle Web Project | Generates a minimal app in `app.py` with a home page for `/` and a `/hello/<name>` page that echoes `<name>` using a very short inline page template. |
 | Blank Django Web Project | Generates a Django project with the core Django site structure but no Django apps. For more information, see [Django templates](python-django-web-application-project-template.md) and [Learning Django Step 1](learn-django-in-visual-studio-step-01-project-and-solution.md). |
 | Blank Flask Web Project | Generates a minimal app with a single "Hello World!" page for `/`. This app is similar to the result of following the detailed steps in [Quickstart: Use Visual Studio to create your first Python web app](../ide/quickstart-python.md?context=visualstudio/python/default).
 
@@ -135,7 +135,7 @@ If you have settings for another framework that you would like to share, or if y
 
 ## Convert a project to Azure Cloud Service
 
-The **Convert to Microsoft Azure Cloud Service Project** command (image below) adds a cloud service project to your solution. This project includes the deployment settings and configuration for the virtual machines and services to be used. Use the **Publish** command on the cloud project to deploy to Cloud Services; the **Publish** command on the Python project still deploys to Web Sites. See [Azure cloud service Projects](python-azure-cloud-service-project-template.md) for more details.
+The **Convert to Microsoft Azure Cloud Service Project** command (image below) adds a cloud service project to your solution. This project includes the deployment settings and configuration for the virtual machines and services to be used. Use the **Publish** command on the cloud project to deploy to Cloud Services; the **Publish** command on the Python project still deploys to Web Sites. For more information, see [Azure cloud service Projects](python-azure-cloud-service-project-template.md).
 
 ![Convert to Microsoft Azure cloud service project command](media/template-web-convert-menu.png)
 

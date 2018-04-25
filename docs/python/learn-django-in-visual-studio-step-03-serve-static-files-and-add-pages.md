@@ -16,7 +16,7 @@ ms.workload:
 
 **Previous step: [Create a Django app with views and page templates](learn-django-in-visual-studio-step-02-create-an-app.md)**
 
-In the previous steps of this tutorial you've learned how to create a very basic Django app with a single page of self-contained HTML. Modern web apps, however are typically composed of many pages, and make use of shared resources like CSS and JavaScript and file to provide consistent styling and behavior.
+In the previous steps of this tutorial, you've learned how to create a minimal Django app with a single page of self-contained HTML. Modern web apps, however are typically composed of many pages, and make use of shared resources like CSS and JavaScript and file to provide consistent styling and behavior.
 
 In this step, you learn how to:
 
@@ -28,7 +28,7 @@ In this step, you learn how to:
 
 ## Step 3-1: Become familiar with item templates
 
-As you develop a Django app, you typically add many more Python, HTML, CSS, and JavaScript files. For each of these (as well as other files like `web.config` that you may need for deployment), Visual Studio provides convenient [item templates](python-item-templates.md) to get you started.
+As you develop a Django app, you typically add many more Python, HTML, CSS, and JavaScript files. For each file type (as well as other files like `web.config` that you may need for deployment), Visual Studio provides convenient [item templates](python-item-templates.md) to get you started.
 
 To see available templates, go to **Solution Explorer**, right-click the folder in which you want to create the item, select **Add** > **New Item**:
 
@@ -36,7 +36,7 @@ To see available templates, go to **Solution Explorer**, right-click the folder 
 
 To use a template, select the desired template, specify a name for the file, and select **OK**. Adding an item in this manner automatically adds the file to your Visual Studio project and marks the changes for source control.
 
-Visual Studio also adds some frequently-used options to the **Add** menu directly. In a Python project, for example, you might see **HTML Page** or **Style Sheet** commands at the bottom of the **Add** menu, which simply prompt you for a name and creates the file.
+Visual Studio also adds some frequently used options to the **Add** menu directly. In a Python project, for example, you might see **HTML Page** or **Style Sheet** commands at the bottom of the **Add** menu, which prompt you for a name and creates the file.
 
 ### Question: how does Visual Studio know which item templates to offer?
 
@@ -156,7 +156,7 @@ The following steps add an "About" page to the "HelloDjangoApp" project, and lin
     <div><a href="about">About</a></div>
     ```
 
-1. Save all the file using the **File** > **Save All** menu command, or just press or Ctrl+Shift+S. (Technically, this step isn't needed as running the project in Visual Studio saves files automatically. Nevertheless, it's a good command to know about!)
+1. Save all the files using the **File** > **Save All** menu command, or just press or Ctrl+Shift+S. (Technically, this step isn't needed as running the project in Visual Studio saves files automatically. Nevertheless, it's a good command to know about!)
 
 1. Run the project to observe the results and check navigation between pages. Close the server when done.
 
@@ -164,7 +164,7 @@ The following steps add an "About" page to the "HelloDjangoApp" project, and lin
 
 Answer: Even though the view function in `views.py` is named `index`, the URL routing patterns in the Django project's `urls.py` file does not contain a regular expression that matches the string "index". To match that string, you need to add another entry for the pattern `^index$`.
 
-As shown in the next section, it's actually much better to use the `{% url '<pattern_name>' %}` tag in the page template to refer to the *name* of a pattern, in which case Django creates the proper URL for you. For example, replace `<div><a href="home">Home</a></div>` in `about.html` with `<div><a href="{% url 'index' %}">Home</a></div>`. The use of 'index' works here because the first URL pattern in `urls.py` is, in fact, named 'index' (by virtue of the `name='index'` argument). You can also use 'home' to refer to the second pattern.
+As shown in the next section, it's much better to use the `{% url '<pattern_name>' %}` tag in the page template to refer to the *name* of a pattern, in which case Django creates the proper URL for you. For example, replace `<div><a href="home">Home</a></div>` in `about.html` with `<div><a href="{% url 'index' %}">Home</a></div>`. The use of 'index' works here because the first URL pattern in `urls.py` is, in fact, named 'index' (by virtue of the `name='index'` argument). You can also use 'home' to refer to the second pattern.
 
 ## Step 3-4: Use template inheritance to create a header and nav bar
 
@@ -244,7 +244,7 @@ The following steps demonstrate inheritance:
     }
     ```
 
-1. Modify `templates/HelloDjangoApp/index.html` to refer to the base template and override the content block. You can see that by using inheritance, this template becomes very simple:
+1. Modify `templates/HelloDjangoApp/index.html` to refer to the base template and override the content block. You can see that by using inheritance, this template becomes simple:
 
     ```html
     {% extends "HelloDjangoApp/layout.html" %}

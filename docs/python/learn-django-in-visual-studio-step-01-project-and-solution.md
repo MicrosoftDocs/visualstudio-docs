@@ -30,7 +30,7 @@ In this tutorial, you learn how to:
 
 - Visual Studio 2017 with the Python workload installed. For instructions, see [Installing Python support in Visual Studio](installing-python-support-in-visual-studio.md).
 
-Django project templates are also included with all earlier versions of Python Tools for Visual Studio, though details may differ from what's discussed in this tutorial especially those that use earlier versions of the Django framework.
+Django project templates are also included with all earlier versions of Python Tools for Visual Studio, though details may differ from what's discussed in this tutorial (especially different with earlier versions of the Django framework).
 
 ### "Visual Studio projects" and "Django projects"
 
@@ -59,13 +59,13 @@ When working with Django from the command line, you typically start a project by
 
 1. After a moment, Visual Studio prompts you with a dialog saying "This project requires external packages" (shown below). This dialog appears because the template includes a `requirements.txt` file referencing the latest Django 1.x package. (Select **Show required packages** to see the exact dependencies.)
 
-    ![Prompt saying This project requires external packages](media/django/step01-requirements-prompt-install-myself.png)
+    ![Prompt saying that the project requires external packages](media/django/step01-requirements-prompt-install-myself.png)
 
 1. Select the option **I will install them myself**. You create the virtual environment shortly to make sure it's excluded from source control. (The environment can always be created from `requirements.txt`.)
 
 ## Step 1-2: Examine the Git controls and publish to a remote repository
 
-Because you selected the **Create new Git repository** in the **New Project** dialog, the project is already committed to local source control as soon as the creation process is complete. In this step you familiarize yourself with Visual Studio's Git controls and the **Team Explorer** window in which you work with source control.
+Because you selected the **Create new Git repository** in the **New Project** dialog, the project is already committed to local source control as soon as the creation process is complete. In this step, you familiarize yourself with Visual Studio's Git controls and the **Team Explorer** window in which you work with source control.
 
 1. Examine the Git controls on the bottom corner of the Visual Studio main window. From left to right, these controls show unpushed commits, uncommitted changes, the name of the repository, and the current branch:
 
@@ -86,7 +86,7 @@ Because you selected the **Create new Git repository** in the **New Project** di
 
     You can choose whichever service you want for your own projects. This tutorial shows the use of GitHub, where the completed sample code for the tutorial is maintained in the [Microsoft/python-sample-vs-learn-django](https://github.com/Microsoft/python-sample-vs-learn-django) repository.
 
-1. When selecting any of the **Publish** controls, **Team Explorer** prompts you for more information. For example, when publishing the sample for this tutorial, the repository itself had to be created first, in which case we used the **Push to Remote Repository** option, copied in the repository's URL, and selected **Publish**.
+1. When selecting any of the **Publish** controls, **Team Explorer** prompts you for more information. For example, when publishing the sample for this tutorial, the repository itself had to be created first, in which case the **Push to Remote Repository** option was used with the repository's URL.
 
     ![Team Explorer window for pushing to an existing remote repository](media/django/step01-push-to-github.png)
 
@@ -101,7 +101,7 @@ Because you selected the **Create new Git repository** in the **New Project** di
 
 Answer: First of all, using source control from the start, especially if you also use a remote repository, provides a regular offsite backup of your project. Unlike maintaining a project just on a local file system, source control also provides a complete change history and the easy ability to revert a single file or the whole project to a previous state. That change history helps determine the cause of regressions (test failures). Furthermore, source control is essential if multiple people are working on a project, as it manages overwrites and provides conflict resolution. Finally, source control, which is fundamentally a form of automation, sets you up well for automating builds, testing, and release management. It's really the first step in using DevOps for a project, and because the barriers to entry are so low, there's really no reason to not use source control from the beginning.
 
-For further discussion on source control as automation, see [The Source of Truth: The Role of Repositories in DevOps](https://msdn.microsoft.com/magazine/mt763232), an article in MSDN Magazine written for mobile apps it applies just as well to web apps.
+For further discussion on source control as automation, see [The Source of Truth: The Role of Repositories in DevOps](https://msdn.microsoft.com/magazine/mt763232), an article in MSDN Magazine written for mobile apps that applies also to web apps.
 
 ### Question: Can I prevent Visual Studio from auto-committing a new project?
 
@@ -121,7 +121,7 @@ Now that you've configured source control for your project, you can create the v
 
 1. Select **Create** to accept the defaults. (You can change the name of the virtual environment if you want, which just changes the name of its subfolder, but `env` is a standard convention.)
 
-1. Consent to administrator privileges if prompted, then be patient for a few minutes while Visual Studio downloads and installs packages, which for Django means expanding several thousand files in just about as many subfolders! You can see progress in the Visual Studio **Output** window. While you're waiting, ponder the Question sections that follow.
+1. Consent to administrator privileges if prompted, then be patient for a few minutes while Visual Studio downloads and installs packages, which for Django means expanding several thousand files in about as many subfolders! You can see progress in the Visual Studio **Output** window. While you're waiting, ponder the Question sections that follow.
 
 1. On the Visual Studio Git controls (on the status bar), select the changes indicator (that shows "99*") which opens the **Changes** page in **Team Explorer**.
 
@@ -137,11 +137,11 @@ Now that you've configured source control for your project, you can create the v
 
 ### Question: Why do I want to create a virtual environment?
 
-Answer: A virtual environment is a great way to isolate your app's exact dependencies. Such isolation avoids conflicts within a global Python environment, and aids both testing and collaboration. Over time, as you develop an app, you invariably bring in any number many helpful Python packages. By keeping these in a project-specific virtual environment, you can easily update the project's `requirements.txt` file that describes that environment, which is included in source control. When the project is copied to any other computers, including build servers, deployment servers, and other development computers, it's easy to recreate the environment using only `requirements.txt` (which is why the environment doesn't need to be in source control). For more information, see [Using virtual environments](selecting-a-python-environment-for-a-project.md#using-virtual-environments).
+Answer: A virtual environment is a great way to isolate your app's exact dependencies. Such isolation avoids conflicts within a global Python environment, and aids both testing and collaboration. Over time, as you develop an app, you invariably bring in any number many helpful Python packages. By keeping packages in a project-specific virtual environment, you can easily update the project's `requirements.txt` file that describes that environment, which is included in source control. When the project is copied to any other computers, including build servers, deployment servers, and other development computers, it's easy to recreate the environment using only `requirements.txt` (which is why the environment doesn't need to be in source control). For more information, see [Using virtual environments](selecting-a-python-environment-for-a-project.md#using-virtual-environments).
 
 ### Question: How do I remove a virtual environment that's already committed to source control?
 
-Answer: First, edit your `.gitignore` file to exclude the folder: find the section at the end with the comment `# Python Tools for Visual Studio (PTVS)` and add an new line for the virtual environment folder, such as `/BasicProject/env`. (Because Visual Studio doesn't show the file in **Solution Explorer**, open it directly using the **File** > **Open** > **File** menu command. You can also open the file from **Team Explorer**: on the **Settings** page, select **Repository Settings**, go to the **Ignore & Attributes Files** section, then select the **Edit** link next to `.gitignore`.)
+Answer: First, edit your `.gitignore` file to exclude the folder: find the section at the end with the comment `# Python Tools for Visual Studio (PTVS)` and add a new line for the virtual environment folder, such as `/BasicProject/env`. (Because Visual Studio doesn't show the file in **Solution Explorer**, open it directly using the **File** > **Open** > **File** menu command. You can also open the file from **Team Explorer**: on the **Settings** page, select **Repository Settings**, go to the **Ignore & Attributes Files** section, then select the **Edit** link next to `.gitignore`.)
 
 Second, open a command window, navigate to the folder like `BasicProject` that contains the virtual environment folder such as `env`, and run `git rm -r env`. Then commit those changes from the command line (`git commit -m 'Remove venv'`) or commit from the **Changes** page of **Team Explorer**.
 
@@ -149,7 +149,7 @@ Second, open a command window, navigate to the folder like `BasicProject` that c
 
 Once project creation completes, examine the boilerplate Django project code (which is again the same as generated by the CLI command `django-admin startproject <project_name>`).
 
-1. In your project root is `manage.py`, the Django command-line administrative utility that Visual Studio automatically sets as the project startup file. You run the utility on the command line using `python manage.py <command> [options]`. For common Django tasks, Visual Studio provides convenient menu commands. Right-click the project in **Solution Explorer** and select **Python** to see the list. We'll encounter some of these in the course of this tutorial.
+1. In your project root is `manage.py`, the Django command-line administrative utility that Visual Studio automatically sets as the project startup file. You run the utility on the command line using `python manage.py <command> [options]`. For common Django tasks, Visual Studio provides convenient menu commands. Right-click the project in **Solution Explorer** and select **Python** to see the list. You encounter some of these commands in the course of this tutorial.
 
     ![Django commands on a Python project context menu](media/django/step01-django-commands-menu.png)
 
