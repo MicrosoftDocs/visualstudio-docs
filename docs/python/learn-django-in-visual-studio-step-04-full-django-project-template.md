@@ -165,38 +165,38 @@ Answer: Yes, Django page templates work fine if you indent block tags, perhaps t
 
 The Django project's `urls.py` file as created by the "Django Web Project" template contains the following code:
 
-    ```python
-    from datetime import datetime
-    from django.conf.urls import url
-    import django.contrib.auth.views
+```python
+from datetime import datetime
+from django.conf.urls import url
+import django.contrib.auth.views
 
-    import app.forms
-    import app.views
+import app.forms
+import app.views
 
-    urlpatterns = [
-        url(r'^$', app.views.home, name='home'),
-        url(r'^contact$', app.views.contact, name='contact'),
-        url(r'^about$', app.views.about, name='about'),
-        url(r'^login/$',
-            django.contrib.auth.views.login,
+urlpatterns = [
+    url(r'^$', app.views.home, name='home'),
+    url(r'^contact$', app.views.contact, name='contact'),
+    url(r'^about$', app.views.about, name='about'),
+    url(r'^login/$',
+        django.contrib.auth.views.login,
+        {
+            'template_name': 'app/login.html',
+            'authentication_form': app.forms.BootstrapAuthenticationForm,
+            'extra_context':
             {
-                'template_name': 'app/login.html',
-                'authentication_form': app.forms.BootstrapAuthenticationForm,
-                'extra_context':
-                {
-                    'title': 'Log in',
-                    'year': datetime.now().year,
-                }
-            },
-            name='login'),
-        url(r'^logout$',
-            django.contrib.auth.views.logout,
-            {
-                'next_page': '/',
-            },
-            name='logout'),
-    ]
-    ```
+                'title': 'Log in',
+                'year': datetime.now().year,
+            }
+        },
+        name='login'),
+    url(r'^logout$',
+        django.contrib.auth.views.logout,
+        {
+            'next_page': '/',
+        },
+        name='logout'),
+]
+```
 
 The first three URL patterns map directly to the `home`, `contact`, and `about` views in the app's `views.py` file. The patterns `^login/$` and `^logout$`, on the other hand, use built-in Django views instead of app-defined views. The calls to the `url` method also include extra data to customize the view. Step 5 explores these calls.
 
