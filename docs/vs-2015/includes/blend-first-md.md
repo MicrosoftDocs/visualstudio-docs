@@ -1,1 +1,0 @@
-Blend for Visual Studio
