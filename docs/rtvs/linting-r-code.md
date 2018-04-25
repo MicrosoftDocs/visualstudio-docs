@@ -5,8 +5,6 @@ ms.date: 01/15/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-rtvs
 ms.topic: conceptual
-dev_langs:
-  - R
 f1_keywords: 
   - "vs.toolsoptionspages.text_editor.r.lint"
 author: kraigb

@@ -5,6 +5,7 @@ ms.date: 07/13/2017
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: conceptual
+author: kraigb
 ms.author: kraigb
 manager: douge
 ms.workload: 
