@@ -121,7 +121,7 @@ The **Debug > Windows > Exception Settings** menu command brings up a window in 
 
 The checkbox for each exception controls whether the debugger *always* breaks when it is raised. Check this box when you want to break more often for a particular exception.
 
-By default, most exceptions break when an exception handler cannot be found in the source code. To change this behavior, right-click any exception and check or uncheck **Continue When Unhandled in User Code**. Clear this box when you want to break less often for an exception.
+By default, most exceptions break when an exception handler cannot be found in the source code. To change this behavior, right-click any exception and modify the **Continue When Unhandled in User Code** option. Clear this box when you want to break less often for an exception.
 
 To configure an exception that does not appear in this list, click the **Add** button to add it. The name must match the full name of the exception.
 
