@@ -71,10 +71,10 @@ By installing Visual Studio on the host computer, you create the files and setti
 
 This section covers the copying of specific files, compilers, build tools, MSBuild assets, and registry settings from the host computer to the build computer. These instructions assume that you've installed Visual Studio in the default location on the host computer; if you installed in another location, adjust the steps accordingly.
 
-- On an x86 computer, the default location is *C:\Program Files\Microsoft Visual Studio 11.0*
-- On an x64 computer, the default location is *C:\Program Files (x86)\Microsoft Visual Studio 11.0*
+- On an x86 computer, the default location is C:\Program Files\Microsoft Visual Studio 11.0
+- On an x64 computer, the default location is C:\Program Files (x86)\Microsoft Visual Studio 11.0
 
-Notice that the name of the *Program Files* folder depends on the operating system that's installed. On an x86 computer, the name is *Program Files*; on an x64 computer, the name is *Program Files (x86)*. Irrespective of the system architecture, this walkthrough refers to the Program Files folder as *%ProgramFiles%*.
+Notice that the name of the *Program Files* folder depends on the operating system that's installed. On an x86 computer, the name is *Program Files*; on an x64 computer, the name is *Program Files (x86)*. Irrespective of the system architecture, this walkthrough refers to the Program Files folder as %ProgramFiles%.
 
 > [!NOTE]
 > On the build computer, all of the relevant files must be on the same drive; however, the drive letter for that drive can be different than the drive letter for the drive where Visual Studio is installed on the host computer. In any case, you must account for the location of files when you create registry entries as described later in this document.
@@ -199,12 +199,12 @@ Notice that the name of the *Program Files* folder depends on the operating syst
 
     - \Microsoft.VC110.DebugOpenMP\vcomp110d.dll
 
-##  <a name="CreatingRegistry"></a> Creating registry settings
+##  <a name="CreatingRegistry"></a> Create registry settings
  You must create registry entries to configure settings for MSBuild.
 
 #### To create registry settings
 
-1. Identify the parent folder for registry entries. All of the registry entries are created under the same parent key. On an x86 computer, the parent key is HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\\. On an x64 computer the parent key is HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\\. Irrespective of the system architecture, this walkthrough refers to the parent key as %RegistryRoot%.
+1. Identify the parent folder for registry entries. All of the registry entries are created under the same parent key. On an x86 computer, the parent key is `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft`. On an x64 computer the parent key is `HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft`. Irrespective of the system architecture, this walkthrough refers to the parent key as %RegistryRoot%.
 
     > [!NOTE]
     > If the architecture of your host computer differs from that of your build computer, make sure to use the appropriate parent key on each computer. This is especially important if you're automating the export process.
@@ -267,9 +267,9 @@ To use MSBuild on the build computer, you must set the PATH environment variable
 
 ### To use vcvarsall.bat to set environment variables
 
-- Open a **Command Prompt** window on the build computer and run %Program Files%\Microsoft Visual Studio 11.0\VC\vcvarsall.bat. You can use a command-line argument to specify the toolset you want to use—x86, native x64, or x64 cross-compiler. If you don't specify a command-line argument, the x86 toolset is used.
+- Open a **Command Prompt** window on the build computer and run *%Program Files%\Microsoft Visual Studio 11.0\VC\vcvarsall.bat*. You can use a command-line argument to specify the toolset you want to use—x86, native x64, or x64 cross-compiler. If you don't specify a command-line argument, the x86 toolset is used.
 
-     This table describes the supported arguments for vcvarsall.bat:
+     This table describes the supported arguments for *vcvarsall.bat*:
 
     |Vcvarsall.bat argument|Compiler|Build computer architecture|Build output architecture|
     |----------------------------|--------------|---------------------------------|-------------------------------|
@@ -277,7 +277,7 @@ To use MSBuild on the build computer, you must set the PATH environment variable
     |x86_amd64|x64 Cross|x86, x64|x64|
     |amd64|x64 Native|x64|x64|
 
-     If vcvarsall.bat runs successfully—that is, no error message is displayed—you can skip the next step and continue at the [Installing MSBuild assemblies to the Global Assembly Cache (GAC) on the build computer](../ide/walkthrough-creating-a-multiple-computer-build-environment.md#InstallingMSBuildToGAC) section of this document.
+     If *vcvarsall.bat* runs successfully—that is, no error message is displayed—you can skip the next step and continue at the [Install MSBuild assemblies to the Global Assembly Cache (GAC) on the build computer](../ide/walkthrough-creating-a-multiple-computer-build-environment.md#InstallingMSBuildToGAC) section of this document.
 
 ### To manually set environment variables
 
@@ -340,7 +340,7 @@ For more information about how to use MSBuild on the command line, see [Command-
 You can create a build environment that can be deployed to various computers and doesn't require GAC'ing files or modifying registry settings. The following steps are just one way to accomplish this. Adapt these steps to the unique characteristics of your build environment.
 
 > [!NOTE]
-> You must disable incremental building so that tracker.exe will not throw an error during a build. To disable incremental building, set this build parameter:
+> You must disable incremental building so that *tracker.exe* will not throw an error during a build. To disable incremental building, set this build parameter:
 >
 > **msbuild** *solution.sln* **/p:TrackFileAccess=false**
 
@@ -348,9 +348,9 @@ You can create a build environment that can be deployed to various computers and
 
      These steps refer to the directory as %Depot%.
 
-2. Copy the directories and files as described in the [Copy files from the host computer to the build computer](../ide/walkthrough-creating-a-multiple-computer-build-environment.md#CopyingFiles) section of this walkthrough, except paste them under the %Depot% directory that you just created. For example, copy from %ProgramFiles%\Windows Kits\8.0\bin\ to %Depot%\Windows Kits\8.0\bin\\.
+2. Copy the directories and files as described in the [Copy files from the host computer to the build computer](../ide/walkthrough-creating-a-multiple-computer-build-environment.md#CopyingFiles) section of this walkthrough, except paste them under the *%Depot%* directory that you just created. For example, copy from %ProgramFiles%\Windows Kits\8.0\bin\ to %Depot%\Windows Kits\8.0\bin\\.
 
-3. When the files are pasted in %Depot%, make these changes:
+3. When the files are pasted in *%Depot%*, make these changes:
 
     - In %Depot%\MSBuild\Microsoft.Cpp\v4.0\v110\Microsoft.CPP.Targets, \Microsoft.Cpp.InvalidPlatforms.targets\\, \Microsoft.cppbuild.targets\\, and \Microsoft.CppCommon.targets\\, change every instance of
 
