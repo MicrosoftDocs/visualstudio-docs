@@ -215,4 +215,4 @@ You can use the **Document Outline** window in conjunction with designer views, 
 
 ## See also
 
-- [Class view and Object Browser icons](../ide/class-view-and-object-browser-icons.md)
+- [Class View and Object Browser icons](../ide/class-view-and-object-browser-icons.md)

@@ -28,7 +28,7 @@ You can use the menu items and keyboard shortcuts shown in the following image t
 
 When you start typing a keyword, type, function, variable name, or other program element that the compiler recognizes, the editor offers to complete the word for you.
 
-For a list of the icons and their meanings, see [Class view and Object Browser icons](../ide/class-view-and-object-browser-icons.md).
+For a list of the icons and their meanings, see [Class View and Object Browser icons](../ide/class-view-and-object-browser-icons.md).
 
 ![Visual C&#43;&#43; Complete Word window](../ide/media/vs2015_cpp_complete_word.png "vs2015_cpp_complete_word")
 
@@ -68,7 +68,7 @@ Here's an OpenGLES Application that is configured to build for Android and iOS. 
 
 Notice the following:
 
-- The `#else` branch on line 8 is grayed out to indicate inactive region, because __ANDROID\_\_ is defined for Android project.
+- The `#else` branch on line 8 is grayed out to indicate inactive region, because `__ANDROID__` is defined for Android project.
 
 - The greeting variable at line 11 is initialized with identifier `HELLO`, which has a purple squiggle. This is because no identifier `HELLO` is defined in the currently inactive iOS project. While in Android project line 11 would compile, it won't in iOS. Since this is shared code, that is something you should change even though it compiles in the currently active configuration.
 
@@ -80,7 +80,7 @@ Now, change the active project to **iOS.StaticLibrary** and notice how the squig
 
 Notice the following:
 
-- The `#ifdef` branch on line 6 is grayed out to indicate inactive region, because __ANDROID\_\_ is not defined for iOS project.
+- The `#ifdef` branch on line 6 is grayed out to indicate inactive region, because `__ANDROID__` is not defined for iOS project.
 
 - The greeting variable at line 11 is initialized with identifier `HELLO`, which now has red squiggle. This is because no identifier `HELLO` is defined in the currently active iOS project.
 

@@ -48,7 +48,7 @@ In C#, the completion list includes extension methods that are in scope.
 > [!NOTE]
 > The completion list does not display all extension methods for <xref:System.String> objects.
 
-Extension methods use a different icon than instance methods. For a listing of list icons, see [Class view and Object Browser icons](../ide/class-view-and-object-browser-icons.md). When an instance method and extension method with the same name are both in scope, the completion list displays the extension method icon.
+Extension methods use a different icon than instance methods. For a listing of list icons, see [Class View and Object Browser icons](../ide/class-view-and-object-browser-icons.md). When an instance method and extension method with the same name are both in scope, the completion list displays the extension method icon.
 
 ## Filtered completion lists
 
@@ -74,7 +74,7 @@ IntelliSense removes unnecessary members from the completion list by using filte
 
 ## Most recently used members
 
-IntelliSense remembers the members that you have recently selected in the pop-up [List members](../ide/using-intellisense.md) box for automatic object name completion. The next time you use Member List, the most recently used members are shown at the top. The history of most recently used members is cleared between each session in the IDE.
+IntelliSense remembers the members that you have recently selected in the pop-up [List Members](../ide/using-intellisense.md) box for automatic object name completion. The next time you use Member List, the most recently used members are shown at the top. The history of most recently used members is cleared between each session in the IDE.
 
 ## override
 
@@ -86,7 +86,7 @@ When you type [override](/dotnet/csharp/language-reference/keywords/override) an
 
 The **Add using** IntelliSense operation automatically adds the required `using` directive to your code file. This feature enables you to maintain your focus on the code you are writing rather than requiring you to shift your focus to another part of the code.
 
-To initiate the **Add using** operation, position the cursor on a type reference that cannot be resolved. For example, when you create a console application and then add `XmlTextReader` to the body of the `Main` method, a red squiggle appears on that line of code because the type reference cannot be resolved. You can then invoke the **Add using** through the **Quick Action**. The **Quick Action** is only visible when the cursor is positioned on the unbound type.
+To initiate the **Add using** operation, position the cursor on a type reference that cannot be resolved. For example, when you create a console application and then add `XmlTextReader` to the body of the `Main` method, a red squiggle appears on that line of code because the type reference cannot be resolved. You can then invoke the **Add using** through the **Quick Actions**. The **Quick Actions** is only visible when the cursor is positioned on the unbound type.
 
 ![Add using, quick action expanded image](../ide/media/addusing-quickaction.png "AddUsing-QuickAction")
 
@@ -98,13 +98,13 @@ The **Remove and Sort Usings** option sorts and removes `using` and `extern` dec
 
 ### Implement interface
 
-IntelliSense provides an option to help you implement an [interface](/dotnet/csharp/language-reference/keywords/interface) while working in the **Code Editor**. Normally, to implement an interface properly, you must create a method declaration for every member of the interface in your class. Using IntelliSense, after you type the name of an interface in a class declaration, a **Quick Action** light bulb is displayed. The light bulb gives you the option to implement the interface automatically, using explicit or implicit naming. Under explicit naming, the method declarations carry the name of the interface; under implicit naming, the method declarations do not indicate the interface to which they belong. An explicitly named interface method can only be accessed through an interface instance, and not through a class instance. For more information, see [Explicit interface implementation](/dotnet/csharp/programming-guide/interfaces/explicit-interface-implementation).
+IntelliSense provides an option to help you implement an [interface](/dotnet/csharp/language-reference/keywords/interface) while working in the **Code Editor**. Normally, to implement an interface properly, you must create a method declaration for every member of the interface in your class. Using IntelliSense, after you type the name of an interface in a class declaration, a **Quick Actions** light bulb is displayed. The light bulb gives you the option to implement the interface automatically, using explicit or implicit naming. Under explicit naming, the method declarations carry the name of the interface; under implicit naming, the method declarations do not indicate the interface to which they belong. An explicitly named interface method can only be accessed through an interface instance, and not through a class instance. For more information, see [Explicit interface implementation](/dotnet/csharp/programming-guide/interfaces/explicit-interface-implementation).
 
 Implement Interface will generate the minimum number of method stubs that is required to satisfy the interface. If a base class implements parts of the interface, then those stubs are not regenerated.
 
 ### Implement abstract base class
 
-IntelliSense provides an option to help you implement members of an abstract base class automatically while working in the **Code Editor**. Normally, to implement members of an abstract base class requires creating a new method definition for each method of the abstract base class in your derived class. Using IntelliSense, after typing the name of an abstract base class in a class declaration, a **Quick Action** light bulb is displayed. The light bulb gives you the option to implement the base class methods automatically.
+IntelliSense provides an option to help you implement members of an abstract base class automatically while working in the **Code Editor**. Normally, to implement members of an abstract base class requires creating a new method definition for each method of the abstract base class in your derived class. Using IntelliSense, after typing the name of an abstract base class in a class declaration, a **Quick Actions** light bulb is displayed. The light bulb gives you the option to implement the base class methods automatically.
 
 The method stubs that are generated by the **Implement Abstract Base Class** feature are modeled by the code snippet defined in the file *MethodStub.snippet*. Code snippets are modifiable. For more information, see [Walkthrough: Create a code snippet](../ide/walkthrough-creating-a-code-snippet.md).
 
@@ -114,7 +114,7 @@ The **Generate From Usage** feature enables you to use classes and members befor
 
 A red wavy underline appears under each undefined identifier. When you rest the mouse pointer on the identifier, an error message appears in a tooltip. To display the appropriate options, you can use one of the following procedures:
 
-- Click the undefined identifier. A **Quick Action** light bulb appears under the identifier. Click the light bulb.
+- Click the undefined identifier. A **Quick Actions** light bulb appears under the identifier. Click the light bulb.
 
 - Click the undefined identifier, and then press **Ctrl**+**.** (**Ctrl** + period).
 
@@ -140,7 +140,7 @@ When you type the `+=` operator after an event field in a *.cs* file, IntelliSen
 
 ![Button Auto Hook Up](../ide/media/vxautohookup.gif "vxAutoHookUp")
 
-If you press **Tab**, IntelliSense automatically finishes the statement for you and displays the event handler reference as selected text in the Code Editor. To complete the automatic event hookup, IntelliSense prompts you to press the **Tab** key again to create an empty stub for the event handler.
+If you press **Tab**, IntelliSense automatically finishes the statement for you and displays the event handler reference as selected text in the **Code Editor**. To complete the automatic event hookup, IntelliSense prompts you to press the **Tab** key again to create an empty stub for the event handler.
 
 ![Generate Event Handler](../ide/media/vxgenerateeventhandler.gif "vxGenerateEventHandler")
 

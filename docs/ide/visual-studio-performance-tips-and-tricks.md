@@ -24,7 +24,7 @@ Visual Studio performance recommendations are intended for low memory situations
 
     If you upgrade your system from a 32-bit version of Windows to a 64-bit version, you expand the amount of virtual memory available to Visual Studio from 2 GB to 4 GB. This enables Visual Studio to handle significantly larger workloads even though it is 32-bit process.
 
-    For more information, see [Memory limits](https://msdn.microsoft.com/library/windows/desktop/aa366778(v=vs.85).aspx#memory_limits) and [Using /LARGEADDRESSAWARE on 64-bit Windows](https://blogs.msdn.microsoft.com/oldnewthing/20050601-24/?p=35483/).
+    For more information, see [Memory limits](https://msdn.microsoft.com/library/windows/desktop/aa366778(v=vs.85).aspx#memory_limits) and [Use /LARGEADDRESSAWARE on 64-bit Windows](https://blogs.msdn.microsoft.com/oldnewthing/20050601-24/?p=35483/).
 
 ## Configure solution and projects
 
@@ -101,7 +101,7 @@ For information about .NET Compiler Platform ("Roslyn") performance consideratio
 
 - **Disable XAML Designer**
 
-    The XAML designer is enabled by default, but only consumes resources if you open a *.XAML* file. If you work with XAML files but do not wish to use the designer functionality, disable this feature to free up some memory.
+    The XAML designer is enabled by default, but only consumes resources if you open a *.xaml* file. If you work with XAML files but do not wish to use the designer functionality, disable this feature to free up some memory.
 
     To disable **XAML Designer**, go to **Tools** > **Options** > **XAML Designer** > **Enable XAML Designer**, and deselect the option.
 

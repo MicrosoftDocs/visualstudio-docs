@@ -48,7 +48,7 @@ The next time you open **Server Explorer**, the resources for that subscription(
 
 ### <a name="access_azure"></a> Access Azure Active Directory in a Web project
 
-Azure AD enables support for end-user single Sign-In in ASP.NET MVC web applications, or AD Authentication in Web API services. Domain authentication is different from individual user account authentication; users that have access to your Active Directory domain can use their existing Azure AD accounts to connect to your web applications. Office 365 apps can also use domain authentication. To see this in action, create a web application (**File** > **New Project** > **C#** > **Cloud** > **ASP.NET Web Application**). In the **New ASP.NET Project** dialog choose **Change Authentication**. The authentication wizard appears and enables you to choose what kind of authentication to use in your application.
+Azure AD enables support for end-user single Sign-In in ASP.NET MVC web applications, or AD Authentication in Web API services. Domain authentication is different from individual user account authentication; users that have access to your Active Directory domain can use their existing Azure AD accounts to connect to your web applications. Office 365 apps can also use domain authentication. To see this in action, create a web application (**File** > **New Project** > **C#** > **Cloud** > **ASP.NET Web Application**). In the **New ASP.NET Project** dialog, choose **Change Authentication**. The authentication wizard appears and enables you to choose what kind of authentication to use in your application.
 
 ![Change authentication dialog for ASP.NET](../ide/media/vs2015_change_authentication.png "VS2015_change_authentication")
 
@@ -64,13 +64,13 @@ Click on the down arrow next to your user name in the upper corner of Visual Stu
 
 ![Visual Studio account picker](../ide/media/vs2015_acct_picker.png "VS2015_acct_picker")
 
-Follow the prompts to enter the new account credentials. The following illustration shows the **Account Manager** after a user has added his **Contoso.com** work account.
+Follow the prompts to enter the new account credentials. The following illustration shows the **Account Manager** after a user has added his *Contoso.com* work account.
 
 ![Account Manager](../ide/media/vs2015_accountmanager.gif "VS2015_AccountManager")
 
 ## Revisit the Add Connected Services wizard and Server Explorer
 
-Now go to **Server Explorer** again, right-click on the **Azure** node and choose **Manage and filter subscriptions**. Choose the new account by clicking the drop down arrow next to the current account, and then choose which subscriptions you want to display in **Server Explorer**. You should see all the services associated with the specified subscription.Even though you are not currently signed in to the Visual Studio IDE with the second account, you are signed in to that account's services and resources. The same is true for **Project** > **Add Connected Service** and **Team** > **Connect to Team Foundation Server**.
+Now go to **Server Explorer** again, right-click on the **Azure** node and choose **Manage and filter subscriptions**. Choose the new account by clicking the drop down arrow next to the current account, and then choose which subscriptions you want to display in **Server Explorer**. You should see all the services associated with the specified subscription. Even though you are not currently signed in to the Visual Studio IDE with the second account, you are signed in to that account's services and resources. The same is true for **Project** > **Add Connected Service** and **Team** > **Connect to Team Foundation Server**.
 
 ## See also
 

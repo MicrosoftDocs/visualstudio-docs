@@ -344,7 +344,7 @@ You can create a build environment that can be deployed to various computers and
 >
 > **msbuild** *solution.sln* **/p:TrackFileAccess=false**
 
-1. Create a "Depot" directory on the host computer.
+1. Create a *Depot* directory on the host computer.
 
      These steps refer to the directory as %Depot%.
 

@@ -105,19 +105,19 @@ Next, you'll add two [RadioButton](/dotnet/framework/wpf/controls/radiobutton) c
 
      ![Greetings form with textblock and two radiobuttons](../ide/media/exploreide-greetingswithradiobuttons.png "ExploreIDE-Greetingswithradiobuttons")
 
-3.  In the **Properties** window for the left RadioButton control, change the **Name** property (the property at the top of the **Properties** window) to **HelloButton**.
+3.  In the **Properties** window for the left RadioButton control, change the **Name** property (the property at the top of the **Properties** window) to `HelloButton`.
 
      ![RadioButton properties window](../ide/media/exploreide-buttonproperties.png "exploreide-buttonproperties")
 
-4.  In the **Properties** window for the right RadioButton control, change the **Name** property to **GoodbyeButton**, and then save your changes.
+4.  In the **Properties** window for the right RadioButton control, change the **Name** property to `GoodbyeButton`, and then save your changes.
 
 You can now add display text for each RadioButton control. The following procedure updates the **Content** property for a RadioButton control.
 
 #### To add display text for each radio button
 
-1.  On the design surface, open the shortcut menu for HelloButton by pressing the right mouse button on HelloButton, choose **Edit Text**, and then enter 'Hello'.
+1.  On the design surface, open the shortcut menu for HelloButton by pressing the right mouse button on HelloButton, choose **Edit Text**, and then enter `Hello`.
 
-2.  Open the shortcut menu for GoodbyeButton by pressing the right mouse button on GoodbyeButton, choose **Edit Text**, and then enter 'Goodbye'.
+2.  Open the shortcut menu for GoodbyeButton by pressing the right mouse button on GoodbyeButton, choose **Edit Text**, and then enter `Goodbye`.
 
 ### To set a radio button to be checked by default
 In this step we'll set HelloButton to be checked by default so that one of the two radio buttons is always selected.
@@ -204,7 +204,7 @@ In this step, you'll find the error that we caused earlier by changing the name 
 
      ![Stop Debugging command on the Debug menu](../ide/media/exploreide-stopdebugging.png "ExploreIDE-StopDebugging")
 
-We renamed *MainWindow.xaml* to *Greetings.xaml* at the start of this walkthrough, but the code still refers to *mainwindow.xaml* as the startup URI for the application, so the project can't start.
+We renamed *MainWindow.xaml* to *Greetings.xaml* at the start of this walkthrough, but the code still refers to *MainWindow.xaml* as the startup URI for the application, so the project can't start.
 
 #### To specify Greetings.xaml as the startup URI
 
@@ -268,7 +268,7 @@ You can test the code during debugging by adding some breakpoints. You can add b
 
      ![Build Solution command on the Build menu](../ide/media/exploreide-buildsolution.png "ExploreIDE-BuildSolution")
 
-Congratulations on completing this walkthrough! You can find the *.exe* you built under your solution and project directory (...\HelloWPFApp\HelloWPFApp\bin\Release\\). If you want to explore more examples, see [Visual Studio samples](../ide/visual-studio-samples.md).
+Congratulations on completing this walkthrough! You can find the *.exe* you built under your solution and project directory (*...\HelloWPFApp\HelloWPFApp\bin\Release*). If you want to explore more examples, see [Visual Studio samples](../ide/visual-studio-samples.md).
 
 ## See also
 

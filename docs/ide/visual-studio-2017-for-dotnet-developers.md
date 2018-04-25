@@ -48,7 +48,7 @@ The following are popular Visual Studio shortcuts:
 > Some extensions unbind the default Visual Studio keybindings. To use the following commands, restore your keybindings to Visual Studio's defaults by going to **Tools** > **Import and Export Settings** > **Reset all settings** or **Tools** > **Options** > **Keyboard** > **Reset**.
 
 ## I need a way to quickly navigate to files or types.
-Visual Studio 2017 has a feature called *Go To All* (**Ctrl**+**T**). Go To All enables you to quickly jump to any file, type, member, or symbol declaration.
+Visual Studio 2017 has a feature called **Go To All** (**Ctrl**+**T**). Go To All enables you to quickly jump to any file, type, member, or symbol declaration.
 - Change the location of this search bar or turn off the 'live navigation preview' with the **gear** icon
 - Filter results using our query syntax (for example, "t mytype"). You can also scope your search to just the current document.
 - camelCase matching is supported!
@@ -78,7 +78,7 @@ Visual Studio 2017 comes with a lot of refactorings, code generation actions, an
   - *Remove Unnecessary Usings*
   - See more in our [documentation](https://aka.ms/refactorings)
 - Write your own refactoring or code fix with [Roslyn analyzers](https://github.com/dotnet/roslyn/wiki/Getting-Started-Writing-a-Custom-Analyzer-&-Code-Fix).
-- Several community members have written *free* extensions which add additional code inspections:
+- Several community members have written free extensions which add additional code inspections:
   - [Roslynator](https://marketplace.visualstudio.com/items?itemName=josefpihrt.Roslynator2017)
   - [SonarLint for Visual Studio](https://marketplace.visualstudio.com/items?itemName=SonarSource.SonarLintforVisualStudio2017)
   - [StyleCopAnalyzers](https://www.nuget.org/packages/stylecop.analyzers/)
@@ -102,7 +102,7 @@ Visual Studio 2017 has many features to help you search and navigate your codeba
 ## I want to run and see my unit tests.
 We made a lot of improvements to the testing experience in Visual Studio 2017. Use either of our unit testing experiences with the MSTest v1, MSTest v2, NUnit, or XUnit test frameworks.
 - **Test Explorer** test discovery is fast in version 15.6 (for best results, upgrade to the latest version of your test adapter).
-- Organize your tests in **Test Explorer** with our new *hierarchical sorting* in version 15.6.
+- Organize your tests in Test Explorer with our new *hierarchical sorting* in version 15.6.
 - [Live unit testing](../test/live-unit-testing.md) continuously runs tests impacted by your code changes and updates inline editor icons to let you know the status of your tests. Include or exclude specific tests or test projects from your *Live Test Set*.
 
 ![Hierarchy view for Text Explorer in Visual Studio](../ide/media/VSGuide_Testing.png)
@@ -128,10 +128,10 @@ Here is a list of editor and productivity features to make writing code more eff
 
 | Feature | Details | How to enable |
 |-|-|-|
-| Locate File in **Solution Explorer** | Highlights the active file in the **Solution Explorer** | **Tools** > **Options** > **Projects and Solutions** > **Track Active Item in Solution Explorer** |
+| Locate File in Solution Explorer | Highlights the active file in the Solution Explorer | **Tools** > **Options** > **Projects and Solutions** > **Track Active Item in Solution Explorer** |
 | Add usings for types in reference assemblies and NuGet packages | Shows a lightbulb with a code fix to install a NuGet package for an unreferenced type | **Tools** > **Options** > **Text Editor** > **C#** > **Advanced** > **Suggest usings for types in reference assemblies** and **Suggest usings for types in NuGet packages** |
 | Enable full solution analysis | See all errors in your solution in the **Error List** | **Tools** > **Options** > **Text Editor** > **C#** > **Advanced** > **Enable full solution analysis** |
-| Enable navigation to decompiled sources | Allow **Go To Definition** on types/members from external sources and use the ILSpy decompiler to show method bodies | **Tools** > **Options** > **Text Editor** > **C#** > **Advanced** > **Enable navigation to decompiled sources** |
+| Enable navigation to decompiled sources | Allow Go To Definition on types/members from external sources and use the ILSpy decompiler to show method bodies | **Tools** > **Options** > **Text Editor** > **C#** > **Advanced** > **Enable navigation to decompiled sources** |
 | Completion/Suggestion Mode | Changes the completion behavior in IntelliSense--developers with IntelliJ backgrounds tend to change the setting here from the default | **Menu** > **Edit** > **IntelliSense** > **Toggle Completion Mode** |
 | [CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md) | Displays code reference information and change history in the editor | **Tools** > **Options** > **Text Editor** > **All Languages** > **CodeLens** |
 | [Code snippets](../ide/visual-csharp-code-snippets.md) | Help stub out common boilerplate |  Type a snippet name and press **Tab** twice. |

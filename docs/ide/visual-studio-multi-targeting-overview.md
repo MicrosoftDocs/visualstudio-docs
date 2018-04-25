@@ -45,7 +45,7 @@ When you work on a project that targets an earlier version of the [!INCLUDE[dnpr
 
 - It filters custom controls in the **Toolbox** to remove those that are not available in the targeted version and to show the only the most up-to-date controls when multiple controls are available.
 
-- It filters IntelliSense to omit language features that are not available in the targeted version.
+- It filters **IntelliSense** to omit language features that are not available in the targeted version.
 
 - It filters properties in the **Properties** window to omit those that are not available in the targeted version.
 
@@ -74,7 +74,7 @@ For more information about assembly references, see [Resolve assemblies at desig
 
 ## Enable LINQ
 
-When you target the .NET Framework 3.5 or later, a reference to **System.Core** and a project-level import for <xref:System.Linq> (in Visual Basic only) are added automatically. If you want to use LINQ features, you must also turn `Option Infer` on (in Visual Basic only). The reference and import are removed automatically if you change the target to an earlier .NET Framework version. For more information, see [Working with LINQ](/dotnet/csharp/tutorials/working-with-linq).
+When you target the .NET Framework 3.5 or later, a reference to **System.Core** and a project-level import for <xref:System.Linq> (in Visual Basic only) are added automatically. If you want to use LINQ features, you must also turn `Option Infer` on (in Visual Basic only). The reference and import are removed automatically if you change the target to an earlier .NET Framework version. For more information, see [Work with LINQ](/dotnet/csharp/tutorials/working-with-linq).
 
 ## See also
 

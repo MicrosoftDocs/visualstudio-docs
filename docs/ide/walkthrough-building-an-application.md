@@ -32,7 +32,7 @@ You can change or create configurations and platform settings by using the **Con
 
 1. In the **Active solution configuration** list, choose **\<New...\>**.
 
-1. In the **New Solution Configuration** dialog box, name the new configuration `Test`, copy settings from the existing Debug configuration, and then choose the **OK** button.
+1. In the **New Solution Configuration** dialog box, name the new configuration `Test`, copy settings from the existing **Debug** configuration, and then choose the **OK** button.
 
    ![New Solution Configuration Dialog Box](../ide/media/buildwalk_newsolutionconfigdlgbox.png "BuildWalk_NewSolutionConfigDlgBox")
 
@@ -44,7 +44,7 @@ You can change or create configurations and platform settings by using the **Con
 
 1. Choose the **OK** button.
 
-   The active solution configuration has been changed to Test with the active solution platform set to x64.
+   The active solution configuration has been changed to **Test** with the active solution platform set to x64.
 
    ![Configuration Manager with Test configuration](../ide/media/buildwalk_configmanagertestconfig.png "BuildWalk_ConfigManagerTestconfig")
 
@@ -150,7 +150,7 @@ You can change how much information about the build process appears in the **Out
 
      The build information includes the time that the build started (located at the beginning) and the order in which files were processed. This information also includes the actual compiler syntax that Visual Studio runs during the build.
 
-     For example, in the C# build, the [/nowarn](/dotnet/visual-basic/reference/command-line-compiler/nowarn) option lists the warning code, 1762, that you specified earlier in this topic, along with three other warnings.
+     For example, in the C# build, the [/nowarn](/dotnet/visual-basic/reference/command-line-compiler/nowarn) option lists the warning code, **1762**, that you specified earlier in this topic, along with three other warnings.
 
      In the Visual Basic build, [/nowarn](/dotnet/visual-basic/reference/command-line-compiler/nowarn) doesn't include specific warnings to exclude, so no warnings appear.
 
@@ -179,7 +179,7 @@ For more information, see [How to: Change the build output directory](../ide/how
 
 1. In the **Build output path** box, specify a network path.
 
-     For example, you can specify \\\myserver\builds.
+     For example, you can specify `\\myserver\builds`.
 
     > [!IMPORTANT]
     > A message box might appear, warning you that the network share that you've specified might not be a trusted location. If you trust the location that you've specified, choose the **OK** button in the message box.
@@ -202,7 +202,7 @@ For more information, see [How to: Change the build output directory](../ide/how
 
 1. In the **Output path** box, specify a network path.
 
-     For example, you could specify \\\myserver\builds.
+     For example, you could specify `\\myserver\builds`.
 
     > [!IMPORTANT]
     > A message box might appear, warning you that the network share that you've specified might not be a trusted location. If you trust the location that you've specified, choose the **OK** button in the message box.
@@ -213,7 +213,7 @@ For more information, see [How to: Change the build output directory](../ide/how
 
      ![Build Solution command on the Build menu](../ide/media/exploreide-buildsolution.png "ExploreIDE-BuildSolution")
 
-   The executable file is copied to the network path that you specified. Its path would be \\\myserver\builds\\*FileName*.exe.
+   The executable file is copied to the network path that you specified. Its path would be `\\myserver\builds\\FileName.exe`.
 
 Congratulations: you've successfully completed this walkthrough.
 

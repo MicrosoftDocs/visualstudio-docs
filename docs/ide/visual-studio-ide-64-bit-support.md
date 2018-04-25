@@ -20,7 +20,7 @@ Visual Studio enables you to set up your applications to target different platfo
 
 ## Deploy a 64-bit application
 
-[Deploying prerequisites for 64-bit applications](../deployment/deploying-prerequisites-for-64-bit-applications.md) lists the redistributables you can use as prerequisites for the installation of a 64-bit application.
+[Deploy prerequisites for 64-bit applications](../deployment/deploying-prerequisites-for-64-bit-applications.md) lists the redistributables you can use as prerequisites for the installation of a 64-bit application.
 
 ## Configure projects as 64-bit applications
 
@@ -28,5 +28,5 @@ Visual Studio enables you to set up your applications to target different platfo
 
 ## Debug a 64-bit application
 
-- [Debug 64-Bit applications](../debugger/debug-64-bit-applications.md)
+- [Debug 64-bit applications](../debugger/debug-64-bit-applications.md)
 - [Use dump files](../debugger/using-dump-files.md)

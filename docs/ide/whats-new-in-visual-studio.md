@@ -133,7 +133,7 @@ When you are working with a project in Visual Studio, you can set up and quickly
 #### Experience improved navigation controls
 We've refreshed the navigation experience to help you get from A to B with greater confidence and fewer distractions.
 
-* **New in 15.4**: **Go To Definition (Ctrl+click or F12)** &ndash; Mouse users have an easier way to navigate to the definition of a member by pressing **Ctrl** and then clicking the member. Pressing **Ctrl** and hovering over a code symbol will underline it and turn it into a link. See [Go To Definition and Peek Definition](../ide/go-to-and-peek-definition.md) for more information.  
+* **New in 15.4**: **Go To Definition (Ctrl+Click or F12)** &ndash; Mouse users have an easier way to navigate to the definition of a member by pressing **Ctrl** and then clicking the member. Pressing **Ctrl** and hovering over a code symbol will underline it and turn it into a link. See [Go To Definition and Peek Definition](../ide/go-to-and-peek-definition.md) for more information.  
 
 * **Go To Implementation (Ctrl+F12)** &ndash; Navigate from any base type or member to its various implementations.
 
@@ -293,7 +293,7 @@ If you want to make a suggestion about how we can improve Visual Studio, or repo
  Sometimes, a message isn't enough to convey the full impact of a problem you've encountered. If you experience a hang, crash, or other performance issue, you can easily share repro steps and supporting files (such as screenshots, and trace and heap dump files) with us by using the **Report a Problem** tool. For more information about how to use this tool, see the [How to report a problem](how-to-report-a-problem-with-visual-studio-2017.md) page.  
 
 ### Track your issue in Connect  
- If want to track the status of your Visual Studio feedback, go to [Connect](http://connect.microsoft.com/) and report the bug there. After you report it, you can return to Connect to track its status.  
+ If want to track the status of your Visual Studio feedback, go to [Connect](http://connect.microsoft.com/) and report the bug there. After you report it, you can return to **Connect** to track its status.  
 
 ## See also
 * [Visual Studio 2017 release notes](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes)

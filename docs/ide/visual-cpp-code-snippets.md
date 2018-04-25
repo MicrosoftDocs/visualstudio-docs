@@ -36,7 +36,7 @@ You should see a list of choices beginning with **#if**. When you select **#if**
 #endif // 0
 ```
 
-You can then replace the 0 with the correct condition.
+You can then replace the **0** with the correct condition.
 
 ## Use a code snippet to surround selected code
 
@@ -148,7 +148,7 @@ class SomeClass {
 };
 ```
 
-If you insert the destructor snippet, it provides a destructor for SomeClass:
+If you insert the destructor snippet, it provides a destructor for `SomeClass`:
 
 ```cpp
 class SomeClass {
