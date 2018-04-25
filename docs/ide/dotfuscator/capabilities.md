@@ -24,7 +24,7 @@ manager: douge
 This page focuses on the capabilities of Dotfuscator Community Edition (Dotfuscator CE) with some references to advanced options available through [upgrades][upgrades].
 
 Dotfuscator is a *post-build* system for .NET applications.
-With Dotfuscator CE, Visual Studio users are able to [obfuscate assemblies][obfuscation] and inject [active defense][checks] and [analytics tracking][analytics] into the application - all without Dotfuscator needing to access the original source code.
+With Dotfuscator CE, Visual Studio users are able to [obfuscate assemblies][obfuscation] and inject [active defense][checks] into the application - all without Dotfuscator needing to access the original source code.
 Dotfuscator protects your application in multiple ways, creating a layered protection strategy.
 
 Dotfuscator CE supports a wide range of .NET assembly and application types, including [Universal Windows Platform (UWP)][uwp] and [Xamarin][xamarin].
@@ -50,17 +50,9 @@ Attackers can attempt to hijack your application in order to circumvent licensin
 Dotfuscator CE can inject [application validation code][checks] into your assemblies,
 including [anti-tamper][tamper], [anti-debug][debug], and [anti-rooted device][root] measures.
 When an invalid application state is detected, the validation code can [call upon application code to address to the situation in an appropriate way][check-app].
-Or, if you prefer not to write code to handle invalid uses of the application, Dotfuscator can also inject [telemetry reporting][check-telemetry] and [response][check-action] behaviors, without requiring any modification to your source code.
+Or, if you prefer not to write code to handle invalid uses of the application, Dotfuscator can also inject [response][check-action] behaviors, without requiring any modification to your source code.
 
 Many of these same methods may also be used to enforce [end-of-life deadlines][shelflife] for evaluation or trial software.
-
-## Application Monitoring
-
-When developing an application, it is critical to understand the behavior patterns of users, including beta testers and users of prior versions.
-Application analytics allows you to track how frequently the application is used and how it is used, including what errors customers experience.
-
-Dotfuscator CE can inject [exception-tracking][exceptions], [session-tracking][sessions], and [feature-tracking][features] code into your application.
-When run, the processed application will transmit analytics data to a configured [PreEmptive Analytics endpoint][endpoints].
 
 ## See Also
 
@@ -77,9 +69,6 @@ When run, the processed application will transmit analytics data to a configured
 [obfuscation]:  https://www.preemptive.com/dotfuscator/ce/docs/help/obfuscation_overview.html
 [renaming]:  https://www.preemptive.com/dotfuscator/ce/docs/help/obfuscation_renaming.html
 
-[analytics]:  https://www.preemptive.com/dotfuscator/ce/docs/help/instrumentation_overview.html
-[endpoints]:  https://www.preemptive.com/dotfuscator/ce/docs/help/instrumentation_overview.html#endpoints
-
 [checks]:  https://www.preemptive.com/dotfuscator/ce/docs/help/checks_overview.html
 [check-app]:  https://www.preemptive.com/dotfuscator/ce/docs/help/checks_overview.html#app-notification
 [check-action]:  https://www.preemptive.com/dotfuscator/ce/docs/help/checks_overview.html#action
@@ -88,9 +77,5 @@ When run, the processed application will transmit analytics data to a configured
 [debug]:  https://www.preemptive.com/dotfuscator/ce/docs/help/checks_debug.html
 [root]: https://www.preemptive.com/dotfuscator/ce/docs/help/checks_root.html
 [shelflife]:  https://www.preemptive.com/dotfuscator/ce/docs/help/checks_shelflife.html
-[exceptions]:  https://www.preemptive.com/dotfuscator/ce/docs/help/instrumentation_exceptions.html
-[sessions]:  https://www.preemptive.com/dotfuscator/ce/docs/help/instrumentation_sessions.html
-[features]:  https://www.preemptive.com/dotfuscator/ce/docs/help/instrumentation_features.html
-[check-telemetry]:  https://www.preemptive.com/dotfuscator/ce/docs/help/instrumentation_checks.html
 
 [full]:  https://www.preemptive.com/dotfuscator/ce/docs/help/intro_capabilities.html
