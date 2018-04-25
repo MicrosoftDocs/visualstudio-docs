@@ -15,7 +15,6 @@
 # [reference](ide\reference\TOC.md)
 # [install](install\TOC.md)
 # [javascript](javascript\TOC.md)
-# [misc](misc\TOC.md)
 # [modeling](modeling\TOC.md)
 # [msbuild](msbuild\TOC.md)
 # [porting](porting\TOC.md)
