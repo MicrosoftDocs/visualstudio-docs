@@ -1,3 +1,6 @@
+---
+ms.topic: "include"
+---
 ## Clean Up
 To completely delete a Connected Environment in Azure, including all the running services within it, use the `vsce env rm` command. Please bear in mind that this action is irreversible.
 
