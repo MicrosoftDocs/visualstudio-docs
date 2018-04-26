@@ -80,29 +80,29 @@ See [the full Dotfuscator CE User Guide at preemptive.com][full] for detailed us
 
 <!-- Copyright © 2017 PreEmptive Solutions, LLC -->
 
-- [assemblies]: https://docs.microsoft.com/en-us/dotnet/standard/assembly-format
-- [software-protection]: https://www.preemptive.com/software-protection
-- [obfuscation]: https://www.preemptive.com/obfuscation
-- [app-protection]: https://www.preemptive.com/application-protection
-- [sdl-protection]: https://www.preemptive.com/solutions/SDL-App-Protection
-- [net-obfuscator]: https://www.preemptive.com/products/dotfuscator/overview
-- [download]: https://www.preemptive.com/products/dotfuscator/downloads
+[assemblies]:  https://docs.microsoft.com/en-us/dotnet/standard/assembly-format
+[software-protection]:  https://www.preemptive.com/software-protection
+[obfuscation]:  https://www.preemptive.com/obfuscation
+[app-protection]:  https://www.preemptive.com/application-protection
+[sdl-protection]:  https://www.preemptive.com/solutions/SDL-App-Protection
+[net-obfuscator]:  https://www.preemptive.com/products/dotfuscator/overview
+[download]:  https://www.preemptive.com/products/dotfuscator/downloads
 
-- [install]: install.md
-- [capabilities]: capabilities.md
-- [upgrades]: upgrades.md
+[install]:  install.md
+[capabilities]:  capabilities.md
+[upgrades]:  upgrades.md
 
-- [get-started]: https://www.preemptive.com/dotfuscator/ce/docs/help/gui_getstarted.html
+[get-started]:  https://www.preemptive.com/dotfuscator/ce/docs/help/gui_getstarted.html
 
-- [renaming]: https://www.preemptive.com/dotfuscator/ce/docs/help/obfuscation_renaming.html
+[renaming]:  https://www.preemptive.com/dotfuscator/ce/docs/help/obfuscation_renaming.html
 
-- [checks]: https://www.preemptive.com/dotfuscator/ce/docs/help/checks_overview.html
-- [tamper]: https://www.preemptive.com/dotfuscator/ce/docs/help/checks_tamper.html
-- [debug]: https://www.preemptive.com/dotfuscator/ce/docs/help/checks_debug.html
-- [shelflife]: https://www.preemptive.com/dotfuscator/ce/docs/help/checks_shelflife.html
+[checks]:  https://www.preemptive.com/dotfuscator/ce/docs/help/checks_overview.html
+[tamper]:  https://www.preemptive.com/dotfuscator/ce/docs/help/checks_tamper.html
+[debug]:  https://www.preemptive.com/dotfuscator/ce/docs/help/checks_debug.html
+[shelflife]:  https://www.preemptive.com/dotfuscator/ce/docs/help/checks_shelflife.html
 
-- [exceptions]: https://www.preemptive.com/dotfuscator/ce/docs/help/instrumentation_exceptions.html
-- [sessions]: https://www.preemptive.com/dotfuscator/ce/docs/help/instrumentation_sessions.html
-- [features]: https://www.preemptive.com/dotfuscator/ce/docs/help/instrumentation_features.html
+[exceptions]:  https://www.preemptive.com/dotfuscator/ce/docs/help/instrumentation_exceptions.html
+[sessions]:  https://www.preemptive.com/dotfuscator/ce/docs/help/instrumentation_sessions.html
+[features]:  https://www.preemptive.com/dotfuscator/ce/docs/help/instrumentation_features.html
 
-- [full]: https://www.preemptive.com/dotfuscator/ce/docs/help/index.html
+[full]:  https://www.preemptive.com/dotfuscator/ce/docs/help/index.html
