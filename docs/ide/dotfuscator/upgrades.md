@@ -75,23 +75,23 @@ For more information about the advanced application protection features of Dotfu
 
 <!-- Copyright © 2017 PreEmptive Solutions, LLC -->
 
-- [control-flow]: https://www.preemptive.com/products/dotfuscator/features#controlflow
-- [string-encryption]: https://www.preemptive.com/products/dotfuscator/features#string
-- [watermarking]: https://www.preemptive.com/products/dotfuscator/features#watermarking
-- [linking]: https://www.preemptive.com/products/dotfuscator/features#linking
-- [pruning]: https://www.preemptive.com/products/dotfuscator/features#pruning
+[control-flow]:  https://www.preemptive.com/products/dotfuscator/features#controlflow
+[string-encryption]:  https://www.preemptive.com/products/dotfuscator/features#string
+[watermarking]:  https://www.preemptive.com/products/dotfuscator/features#watermarking
+[linking]:  https://www.preemptive.com/products/dotfuscator/features#linking
+[pruning]:  https://www.preemptive.com/products/dotfuscator/features#pruning
 
-- [check-actions]: https://www.preemptive.com/dotfuscator/pro/userguide/en/protection_checks_overview.html#actions
-- [features]: https://www.preemptive.com/dotfuscator/pro/userguide/en/instrumentation_features.html
+[check-actions]:  https://www.preemptive.com/dotfuscator/pro/userguide/en/protection_checks_overview.html#actions
+[features]:  https://www.preemptive.com/dotfuscator/pro/userguide/en/instrumentation_features.html
 
-- [net-obfuscator]: https://www.preemptive.com/products/dotfuscator/overview
-- [eval]: https://www.preemptive.com/eval-request
+[net-obfuscator]:  https://www.preemptive.com/products/dotfuscator/overview
+[eval]:  https://www.preemptive.com/eval-request
 
-- [product-about]: https://www.preemptive.com/products/dotfuscator/overview
-- [product-compare]: https://www.preemptive.com/products/dotfuscator/compare-editions
+[product-about]:  https://www.preemptive.com/products/dotfuscator/overview
+[product-compare]:  https://www.preemptive.com/products/dotfuscator/compare-editions
 
-- [cli]: https://www.preemptive.com/dotfuscator/ce/docs/help/intro_cli.html
-- [register-ce]: https://www.preemptive.com/dotfuscator/ce/docs/help/gui_getstarted.html#register
+[cli]:  https://www.preemptive.com/dotfuscator/ce/docs/help/intro_cli.html
+[register-ce]:  https://www.preemptive.com/dotfuscator/ce/docs/help/gui_getstarted.html#register
 
-- [full]: https://www.preemptive.com/dotfuscator/ce/docs/help/intro_upgrades.html
-- [decode-obfuscated]: https://www.preemptive.com/dotfuscator/ce/docs/help/gui_decode_stack_trace.html
+[full]:  https://www.preemptive.com/dotfuscator/ce/docs/help/intro_upgrades.html
+[decode-obfuscated]:  https://www.preemptive.com/dotfuscator/ce/docs/help/gui_decode_stack_trace.html
