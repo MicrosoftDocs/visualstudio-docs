@@ -37,7 +37,7 @@ ms.workload:
 ---
 # Find and replace text
 
-You can find and replace text in the Visual Studio editor by using [Find and Replace](#find-and-replace-control) or [Find/Replace in Files](#find-replace-in-files). New in **Visual Studio 2017 version 15.7**, you can find and replace *some* instances of a pattern by using [multi-caret selection](#multi-caret-selection).
+You can find and replace text in the Visual Studio editor by using [Find and Replace](#find-and-replace-control) or [Find/Replace in Files](#find-replace-in-files). New in **Visual Studio 2017 version 15.7**, you can find and replace *some* instances of a pattern by using *[multi-caret selection](#multi-caret-selection)*.
 
 Find-and-replace functionality is available in the editor, in certain other text-based windows such as the **Find Results** windows, in designer windows such as the XAML designer and Windows Forms designer, and in tool windows.
 
