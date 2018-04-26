@@ -88,7 +88,8 @@ The following table shows how the sentence "This is sample text." is shared by a
 |Bookmark2|*\<empty>*|
 
 ## Events
- The following events are available for the <xref:Microsoft.Office.Tools.Word.Bookmark> control:
+
+The following events are available for the <xref:Microsoft.Office.Tools.Word.Bookmark> control:
 
 -   <xref:Microsoft.Office.Tools.Word.Bookmark.BeforeDoubleClick>
 
@@ -104,10 +105,10 @@ The following table shows how the sentence "This is sample text." is shared by a
 
 -   <xref:Microsoft.Office.Tools.Word.Bookmark.SelectionChange>
 
-## See Also
- [Automating Word by Using Extended Objects](../vsto/automating-word-by-using-extended-objects.md)
- [How to: Add Bookmark Controls to Word Documents](../vsto/how-to-add-bookmark-controls-to-word-documents.md)
- [Walkthrough: Creating Shortcut Menus for Bookmarks](../vsto/walkthrough-creating-shortcut-menus-for-bookmarks.md)
- [Binding Data to Controls in Office Solutions](../vsto/binding-data-to-controls-in-office-solutions.md)
- [Programmatic Limitations of Host Items and Host Controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)
+## See also
 
+- [Automating Word by Using Extended Objects](../vsto/automating-word-by-using-extended-objects.md)
+- [How to: Add Bookmark Controls to Word Documents](../vsto/how-to-add-bookmark-controls-to-word-documents.md)
+- [Walkthrough: Creating Shortcut Menus for Bookmarks](../vsto/walkthrough-creating-shortcut-menus-for-bookmarks.md)
+- [Binding Data to Controls in Office Solutions](../vsto/binding-data-to-controls-in-office-solutions.md)
+- [Programmatic Limitations of Host Items and Host Controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)
