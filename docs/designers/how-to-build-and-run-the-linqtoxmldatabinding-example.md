@@ -1,6 +1,7 @@
 ---
 title: "How to: Build and Run the LinqToXmlDataBinding Example"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-designers
 ms.topic: conceptual
 author: gewarren

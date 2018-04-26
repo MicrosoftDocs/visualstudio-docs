@@ -1,6 +1,6 @@
 ---
-title: Working with Python, step 4, debugging
-description: Step 4 of a core tutorial for working with Python within Visual Studio, covering how to run Python code in the debugger.
+title: Working with Python Tutorial, Step 4, debugging
+description: Step 4 of a core walkthrough of Python capabilities in Visual Studio, covering how to run Python code in the debugger.
 ms.date: 03/08/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
@@ -96,7 +96,7 @@ In addition to managing projects, providing a rich editing experience, and the i
 > [!Tip]
 > In some situations, such as a failure to launch the Python interpreter itself, the output window may appear only briefly and then close automatically without giving you a chance to see any errors messages. If this happens, right-click the project in Solution Explorer, select **Properties**, select the **Debug** tab, then add `-i` to the **Interpreter Arguments** field. This argument causes the interpreter to go into interactive mode after a program completes, thereby keeping the window open until you enter Ctrl+Z,Enter to exit.
 
-## Next steps
+## Next step
 
 > [!div class="nextstepaction"]
 > [Installing packages in your Python environment](tutorial-working-with-python-in-visual-studio-step-05-installing-packages.md)

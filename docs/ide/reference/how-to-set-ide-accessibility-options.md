@@ -1,18 +1,22 @@
 ---
-title: "How to: Set IDE Accessibility Options"
+title: "How to: Set IDE accessibility options"
+description: "Learn how to set accessibility options in Visual Studio that will make its integrated development environment (IDE) easier for everyone to use, including for people who have low vision to read and for people who have limited dexterity to write."
 ms.date: 08/22/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
+ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "accessibility [Visual Studio]"
 ms.assetid: ddc96c4c-0600-46c1-8267-7dce4c44ad24
-author: "TerryGLee"
-ms.author: "tglee"
+author: TerryGLee
+ms.author: tglee
 manager: douge
 ms.workload:
   - "multiple"
 ---
-# How to: Set IDE Accessibility Options
+# How to: Set IDE accessibility options
+
 > [!TIP]
 > To learn more about recent accessibility updates, see the [Accessibility improvements in Visual Studio 2017 version 15.3](https://blogs.msdn.microsoft.com/visualstudio/2017/08/14/accessibility-improvements-in-visual-studio-2017-version-15-3/) blog post.
 
@@ -23,9 +27,9 @@ ms.workload:
 > [!NOTE]
 > The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).
 
+## Editors, dialogs, and tool windows
 
-## Editors, Dialogs, and Tool Windows
- By default, dialog boxes and tool windows in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] use the same font size and colors as the operating system. The color settings for the frame of the IDE, dialog boxes, toolbars, and tool windows are based a color scheme: light or dark. You can change the current color theme in the [General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md).
+ By default, dialog boxes and tool windows in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] use the same font size and colors as the operating system. The color settings for the frame of the IDE, dialog boxes, toolbars, and tool windows are based a color scheme: light or dark. You can change the current color theme in the [General, Environment, Options dialog box](../../ide/reference/general-environment-options-dialog-box.md).
 
  You can also display pop-up windows in the Code view of the editor. These windows can prompt you with available members on the current object and the parameters to complete a function or statement. These windows can be helpful if you have difficulty typing. However, they interfere with focus in the code editor, which can be problematic for some users. You can turn off these windows by opening the Options dialog box and clearing **Auto list members** and **Parameter information** in the **Text Editor**, **All Languages**, **General** page in the **Options** dialog box.
 
@@ -33,7 +37,8 @@ ms.workload:
 
  For more information about how to change window layouts, see [Customizing window layouts](../../ide/customizing-window-layouts-in-visual-studio.md).
 
-### Changing the Size of Text
+### Changing the size of text
+
  You can change the settings for text-based tool windows, such as the **Command** window, **Immediate** window, and **Output** window, in the **Fonts and Colors** pane of the **Environment** options in the **Tools** dialog box. When **[All Text Tool Windows]** is selected in the **Show settings for** drop-down list, the default setting is listed as **Default** in the **Item foreground** and **Item background** drop-down lists. You can also change the settings for how text is displayed in the editor.
 
 ##### To change the size of text in text-based tool windows and editors
@@ -63,7 +68,8 @@ ms.workload:
 
 7.  Choose **OK**.
 
-### Changing the Colors used in the IDE
+### Change the colors that are used in the IDE
+
  You can also choose to change the default colors for text, margin indicators, white space, and code elements in the editor.
 
 > [!NOTE]
@@ -74,7 +80,7 @@ ms.workload:
 
 1.  From the **Tools** menu, choose **Options**.
 
-2.  Choose **Fonts and Colors** from the **Environment** folder.
+2.  In the **Environment** folder, choose **Fonts and Colors**.
 
 3.  In **Show settings for**, choose **Text Editor**.
 
@@ -85,6 +91,7 @@ ms.workload:
 6.  Choose **OK**.
 
 ## Toolbars
+
  To improve toolbar usability and accessibility, you can add text to toolbar buttons.
 
 #### To assign text to toolbar buttons
@@ -101,13 +108,13 @@ ms.workload:
 
 6.  Choose **Image and Text**.
 
-#### To modify the button's displayed text
+#### To modify the displayed text in a button
 
 1.  Re-select **Modify Selection**.
 
 2.  Adjacent to In **Name**, insert provide a new caption for the selected button.
 
-## See Also
+## See also
 
-- [Accessibility Features of Visual Studio](../../ide/reference/accessibility-features-of-visual-studio.md)
-- [Resources for Designing Accessible Applications](../../ide/reference/resources-for-designing-accessible-applications.md)
+* [Accessibility features of Visual Studio](../../ide/reference/accessibility-features-of-visual-studio.md)
+* [Resources for designing accessible applications](../../ide/reference/resources-for-designing-accessible-applications.md)

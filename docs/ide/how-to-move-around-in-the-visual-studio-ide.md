@@ -1,6 +1,7 @@
 ---
 title: "How to: Move around in the Visual Studio IDE"
-ms.technology:$1ms.date: 11/04/2016
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:

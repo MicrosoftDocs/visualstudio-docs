@@ -1,3 +1,6 @@
+---
+ms.topic: "include"
+---
 ## Sign in to Azure
 We'll need to sign in to Azure to create our development environment. Type the following command in a terminal window:
 ```cmd

@@ -1,3 +1,6 @@
+---
+ms.topic: "include"
+---
 ## Initialize code for Docker and Kubernetes development
 So far, we have a basic web app that can run locally. We'll now containerize it by creating assets that define the app's container and how it will deploy to Kubernetes. This is easy to do with Connected Environment: 
 

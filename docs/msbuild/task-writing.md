@@ -263,4 +263,3 @@ namespace SimpleTask2
   
 ## See Also  
  [Task Reference](../msbuild/msbuild-task-reference.md)   
- [Task Reference](../msbuild/msbuild-task-reference.md)

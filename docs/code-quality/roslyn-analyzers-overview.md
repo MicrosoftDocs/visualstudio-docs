@@ -1,6 +1,7 @@
 ---
 title: Roslyn analyzers in Visual Studio
 ms.date: 03/26/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: overview
 helpviewer_keywords:

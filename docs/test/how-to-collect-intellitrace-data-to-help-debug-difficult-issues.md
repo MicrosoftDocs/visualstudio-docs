@@ -1,7 +1,7 @@
 ---
-title: "Intellitrace data in Visual Studio | Microsoft Docs"
-ms.date: "10/13/2016"
-ms.topic: "conceptual"
+title: "Intellitrace data in Visual Studio"
+ms.date: 10/13/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "IntelliTrace, configuring test settings"
   - "Diagnostic Data Adapter, InteliTrace"
@@ -11,6 +11,7 @@ ms.assetid: 02b6716f-569e-4961-938a-e790a0c74b5c
 author: gewarren
 ms.author: gewarren
 manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # How to: Collect IntelliTrace Data to Help Debug Difficult Issues

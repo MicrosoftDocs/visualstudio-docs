@@ -1,6 +1,7 @@
 ---
 title: Introduction to projects and solutions in Visual Studio
 ms.date: 12/11/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: quickstart
 author: gewarren

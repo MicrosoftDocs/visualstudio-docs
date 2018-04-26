@@ -1,6 +1,7 @@
 ---
 title: JavaScript IntelliSense
 ms.date: 06/28/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:

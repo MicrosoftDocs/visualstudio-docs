@@ -1,7 +1,7 @@
 ---
-title: "Using the Graphs View Legend to Analyze Load Tests in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "conceptual"
+title: "Using the Graphs View Legend to Analyze Load Tests in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "Load Test Analyzer, graphs view legend"
   - "load tests, graphs view legend"
@@ -9,6 +9,7 @@ ms.assetid: 0f6ba8e4-1343-419c-8a9f-240cf50efed7
 author: gewarren
 ms.author: gewarren
 manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # Using the Graphs View Legend to Analyze Load Tests

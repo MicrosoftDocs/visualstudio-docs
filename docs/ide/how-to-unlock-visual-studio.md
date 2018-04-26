@@ -1,6 +1,7 @@
 ---
 title: "How to: Unlock Visual Studio"
-ms.technology:$1ms.date: 07/20/2017
+ms.date: 07/20/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
 ms.topic: conceptual
 ms.assetid: ffb580a1-8b5d-48f5-b811-87f8036f50ea

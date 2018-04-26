@@ -26,10 +26,10 @@ If you have available licenses for Visual Studio subscriptions, you can assign t
 
 3.	Enter the information into the form fields for the new subscriber. If your organization is using Azure Active Directory, this field acts as a search function to find people in your current directory so you can select the correct user from the search results. Once you select that person, their name, sign-in email and notification email will automatically populate as you see below. 
 
-    If your organization has a different email for receiving emails than the one to be used to sign in, you have the option for entering it here. Select the hyperlink that indicates “Different email for communication than sign-in?”. 
+    If your organization is not using Azure Active Directory (Azure AD), but has a different email for receiving emails than the one to be used to sign in, you have the option for entering it here. Select the hyperlink labeled “Add a different email for receiving communication”. 
 
     **Access to Downloads:**  
-    If you want this subscriber to have accees to software downloads when they sign into the [Visual Studio Subscriptions Portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs), make sure to leave the Downloads box checked. If you choose to uncheck this box, the user will not have access to software downloads, but will still have access to all other benefits included in the subscription. 
+    If you want this subscriber to have accees to software downloads when they sign into the [Visual Studio Subscriptions Portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs), make sure to leave the downloads toggle enabled. If you choose to disable downloads, the user will not have access to software downloads, but will still have access to all other benefits included in the subscription. 
     
     When you’re done choosing the options for this subscriber, click **Add**.
 
@@ -41,7 +41,7 @@ If you have available licenses for Visual Studio subscriptions, you can assign t
     ![Subscriber added](_img\assign-license-add\add-subscriber-complete.png)
 
 ## Bulk assignments
-1.	To add multiple subscribers at once, navigate to the **Subscribers** tab. In the ribbon at the top, click **Bulk Add**. 
+1.	To add multiple subscribers at once, navigate to the **Manage Subscribers** tab. In the ribbon at the top, click **Bulk Add**. 
 
     ![Bulk Add](_img\assign-license-add\bulk-assign-add.png)
 
@@ -49,7 +49,7 @@ If you have available licenses for Visual Studio subscriptions, you can assign t
 
     ![Upload Multiple Subscribers](_img\assign-license-add\bulk-assign-upload.png)
 
-3.	In the Excel spreadsheet, fill out the fields with the information for the individuals you want to assign subscriptions to. Reference is an optional field. If you have filled out any part of the template incorrectly, you should see an error message describing the problem. Save the file on your hard drive when done.
+3.	In the Excel spreadsheet, fill out the fields with the information for the individuals you want to assign subscriptions to. Reference is an optional field. If you have filled out any part of the template incorrectly, you should see an error message describing the problem. Save the file locally once done.
 **To help ensure a smooth upload, observe the following best practices:**
     - Ensure that none of the form fields contain commas.
     - Remove spaces before and after form fields such as users’ names.

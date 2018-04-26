@@ -1,5 +1,6 @@
 ---
-title: "Debug with managed code using the Visual Studio debugger | Microsoft Docs"
+title: "Debug managed code | Microsoft Docs"
+description: "Debug C# or Visual Basic using the Visual Studio debugger"
 ms.custom: "mvc"
 ms.date: "03/18/2018"
 ms.technology: "vs-ide-debug"
@@ -13,7 +14,7 @@ manager: douge
 ms.workload: 
   - "dotnet"
 ---
-# Debug with managed code using the Visual Studio debugger
+# Quickstart: Debug with managed code using the Visual Studio debugger
 
 The Visual Studio debugger provides many powerful features to help you debug your apps. This topic provides a quick way to learn some of the basic features.
 

@@ -1,7 +1,8 @@
 ---
 title: "How to: Build to a common output directory"
 ms.date: 11/04/2016
-ms.technology: vs-ide-general
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-compile
 ms.topic: conceptual
 helpviewer_keywords:
   - "output directory"

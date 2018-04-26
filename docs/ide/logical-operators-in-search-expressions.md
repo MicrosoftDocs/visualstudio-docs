@@ -1,6 +1,7 @@
 ---
 title: Logical operators and advanced operators in search expressions
 ms.date: 11/02/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-help-viewer
 ms.topic: reference
 helpviewer_keywords:

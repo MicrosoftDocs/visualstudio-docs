@@ -1,6 +1,7 @@
 ---
 title: Security in Visual Studio
 ms.date: 02/17/2017
+ms.prod: visual-studio-dev15
 ms.technology:  vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:

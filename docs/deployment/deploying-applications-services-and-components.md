@@ -1,5 +1,5 @@
 ---
-title: "Deployment Overview - Visual Studio | Microsoft Docs"
+title: "Deployment Overview"
 description: "Learn about your options for deploying apps from Visual Studio."
 ms.custom: "mvc"
 ms.date: 11/26/2017

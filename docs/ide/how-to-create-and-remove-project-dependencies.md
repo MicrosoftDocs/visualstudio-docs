@@ -1,6 +1,7 @@
 ---
 title: "How to: Create and remove project dependencies"
-ms.technology:$1ms.date: 06/21/2017
+ms.date: 06/21/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:

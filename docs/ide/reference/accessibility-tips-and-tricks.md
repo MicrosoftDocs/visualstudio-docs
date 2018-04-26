@@ -1,38 +1,45 @@
 ---
-title: Accessibility tips and tricks for Visual Studio
+title: "Accessibility tips and tricks for Visual Studio"
+description: "Learn more about tips and tricks that can help make the Visual Studio integrated development environment (IDE) more accessible for everyone to use, including people with disabilities."
 ms.date: 09/15/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
+ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "accessibility [Visual Studio]"
 ms.assetid: 6b491d88-f79e-4686-8841-857624bdcfda
-author: "TerryGLee"
-ms.author: "tglee"
+author: TerryGLee
+ms.author: tglee
 manager: douge
 ms.workload:
   - "multiple"
 ---
 # Accessibility tips and tricks for Visual Studio
+
 > [!TIP]
 > To learn more about recent accessibility updates, see the [Accessibility improvements in Visual Studio 2017 version 15.3](https://blogs.msdn.microsoft.com/visualstudio/2017/08/14/accessibility-improvements-in-visual-studio-2017-version-15-3/) blog post.
 
 Visual Studio has built-in accessibility features that are compatible with screen readers and other assistive technologies. This topic lists common shortcut key combinations that you can use to perform tasks with the keyboard only, and includes information about using high-contrast themes to improve visibility. As well, it shows you how to use annotations to reveal useful information about your code, and how to set sound cues for build and breakpoint events.
 
 ## Save your IDE settings
+
  You can customize your IDE experience by saving your window layout, keyboard mapping scheme, and other preferences. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).
 
 ## Modify your IDE for high-contrast viewing
+
 For some folks, some colors are more difficult to see. If you want more contrast as you code but do not want to use the typical "High Contrast" themes, we now offer a “Blue (Extra Contrast)” theme.
 
   ![Compare the Blue theme and Blue Extra Contrast theme](media/blue-extra-contrast-theme.png "See the difference between the Blue theme and the Blue Extra Contrast theme")
 
-## Use Annotations to reveal useful information about your code
+## Use annotations to reveal useful information about your code
 
 The Visual Studio editor includes many text "adornments" that let you know about characteristics and features at particular points on a line of code, such as lightbulbs, error and warning “squiggles”, bookmarks, and so on. You can use the “Show Line Annotations” command set to help you discover and then navigate between these adornments.
 
   ![Use the Show Line Annotations command set](media/show-line-annotations-command-set.png "Shows how to set the Show Line Annotations command set")
 
 ## Access toolbars by using shortcut key combinations
+
 The Visual Studio IDE has toolbars as do many tool windows. The following shortcut key combinations help you access them.
 
 |Feature|Description|Key Combination|
@@ -42,6 +49,7 @@ The Visual Studio IDE has toolbars as do many tool windows. The following shortc
 |Toolbars|Go to the first item in the next toolbar (when a toolbar has focus).|**CTRL** + **TAB**|
 
 ### Other useful shortcut key combinations
+
 Some other useful shortcut key combinations include the following.
 
 |Feature|Description|Key Combination|
@@ -57,9 +65,8 @@ Some other useful shortcut key combinations include the following.
 > [!NOTE]
 > The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition.
 
-
-
 ## Use the Sound applet to set build and breakpoint cues
+
 You can use the Sound applet in Windows to assign a sound to Visual Studio program events. Specifically, you can assign sounds to the following program events:
 
  * Breakpoint hit
@@ -88,7 +95,7 @@ Here's how.
 
 ## See also
 
-* [Accessibility Features of Visual Studio](../../ide/reference/accessibility-features-of-visual-studio.md)
-* [How to: Customize Menus and Toolbars in Visual Studio](../../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md)
+* [Accessibility features of Visual Studio](../../ide/reference/accessibility-features-of-visual-studio.md)
+* [How to: Customize menus and toolbars in Visual Studio](../../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md)
 * [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md)
 * [Microsoft Accessibility](https://www.microsoft.com/Accessibility)

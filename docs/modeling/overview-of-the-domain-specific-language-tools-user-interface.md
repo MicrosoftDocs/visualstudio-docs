@@ -11,6 +11,7 @@ ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
 # Overview of the Domain-Specific Language Tools User Interface

@@ -1,20 +1,21 @@
 ---
-title: "Customizing project and item templates in Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "01/02/2018"
-ms.technology: 
-  - "vs-ide-general"
-ms.topic: "conceptual"
-helpviewer_keywords: 
+title: Customizing project and item templates in Visual Studio
+ms.date: 01/02/2018
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-general
+ms.topic: conceptual
+helpviewer_keywords:
   - "customizing templates [Visual Studio]"
   - "Visual Studio templates, customizing"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ---
-# Customizing project and item templates
+# Customize project and item templates
 
 Even after project and item templates have been created, you can further customize them to meet your needs.
+
+## Customizations
 
 For example, you can perform the following tasks:
 
@@ -30,12 +31,12 @@ For example, you can perform the following tasks:
 
    For more information, see [How to: Use wizards with project templates (extensibility)](../extensibility/how-to-use-wizards-with-project-templates.md).
 
-### See also
+## See also
 
-[Creating project and item templates](../ide/creating-project-and-item-templates.md)  
-[How to: Troubleshoot templates](../ide/how-to-troubleshoot-templates.md)  
-[How to: Create project templates](../ide/how-to-create-project-templates.md)  
-[How to: Create item templates](../ide/how-to-create-item-templates.md)  
-[How to: Create starter kits](../ide/how-to-create-starter-kits.md)  
-[Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)  
-<xref:Microsoft.VisualStudio.TemplateWizard.IWizard>
+- [Creating project and item templates](../ide/creating-project-and-item-templates.md)
+- [How to: Troubleshoot templates](../ide/how-to-troubleshoot-templates.md)
+- [How to: Create project templates](../ide/how-to-create-project-templates.md)
+- [How to: Create item templates](../ide/how-to-create-item-templates.md)
+- [How to: Create starter kits](../ide/how-to-create-starter-kits.md)
+- [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)
+- <xref:Microsoft.VisualStudio.TemplateWizard.IWizard>
