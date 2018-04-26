@@ -1,15 +1,16 @@
 ---
-title: "Automatic feature suspension in Visual Studio | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "article"
+title: Automatic feature suspension in Visual Studio
+ms.date: 11/04/2016
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "full solution analysis"
   - "performance"
   - "low-memory"
 ms.assetid: 572c15aa-1fd0-468c-b6be-9fa50e170914
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.workload:
   - "multiple"

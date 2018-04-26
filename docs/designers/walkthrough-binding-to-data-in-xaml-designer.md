@@ -1,24 +1,21 @@
 ---
-title: "Walkthrough: Binding to data in XAML Designer | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
+title: "Bind to data in XAML Designer"
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-designers
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
+ms.topic: conceptual
+f1_keywords:
   - "VS.XamlDesigner.DataBinding"
 dev_langs:
  - CSharp
  - VB
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.workload:
   - "uwp"
 ---
-# Walkthrough: Binding to data in XAML Designer
+# Walkthrough: Bind to data in XAML Designer
 
 In XAML Designer, you can set data binding properties by using the artboard and the Properties window. The example in this walkthrough shows how to bind data to a control. Specifically, the walkthrough shows how to create a simple shopping cart class that has a [DependencyProperty](/uwp/api/Windows.UI.Xaml.DependencyProperty) named `ItemCount`, and then bind the `ItemCount` property to the **Text** property of a [TextBlock](/uwp/api/Windows.UI.Xaml.Controls.TextBlock) control.
 
@@ -98,5 +95,5 @@ In XAML Designer, you can set data binding properties by using the artboard and 
 
 ## See also
 
-[Creating a UI by using XAML Designer](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md)  
-[Add Value Converter dialog box](https://msdn.microsoft.com/c5f3d110-a541-4b55-8bca-928f77778af8)
+- [Create a UI by using XAML Designer](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md)
+- [Add Value Converter dialog box](https://msdn.microsoft.com/c5f3d110-a541-4b55-8bca-928f77778af8)

@@ -2,19 +2,14 @@
 title: "Deploy to a local folder - Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/22/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
+ms.technology: vs-ide-deployment
 ms.topic: "quickstart"
 helpviewer_keywords: 
   - "deployment, local folder"
 ms.assetid: adb461c4-812a-4b8c-b2ab-96002379f6a9
-caps.latest.revision: 1
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

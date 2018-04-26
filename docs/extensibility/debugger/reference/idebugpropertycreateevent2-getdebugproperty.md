@@ -2,21 +2,17 @@
 title: "IDebugPropertyCreateEvent2::GetDebugProperty | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugPropertyCreateEvent2::GetDebugProperty"
 helpviewer_keywords: 
   - "IDebugPropertyCreateEvent2::GetDebugProperty"
 ms.assetid: d7e43183-444c-4417-af19-82e28229f83a
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

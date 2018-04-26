@@ -2,21 +2,17 @@
 title: "CANSTOP_REASON | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "CANSTOP_REASON"
 helpviewer_keywords: 
   - "CANSTOP_REASON enumeration"
 ms.assetid: 6da944eb-36cd-4a8c-8d71-544c775cfcc1
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

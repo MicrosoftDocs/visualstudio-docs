@@ -2,11 +2,8 @@
 title: "Delete Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#Delete"
 dev_langs: 
@@ -18,10 +15,9 @@ helpviewer_keywords:
   - "Delete task [MSBuild]"
   - "MSBuild, Delete task"
 ms.assetid: 916bb2e3-3017-4828-ae27-c0b5c99bbb48
-caps.latest.revision: 16
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

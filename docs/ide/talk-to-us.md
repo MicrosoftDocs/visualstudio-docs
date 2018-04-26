@@ -1,24 +1,22 @@
 ---
-title: "Talk to Us | Microsoft Docs"
+title: "Talk to us"
 ms.custom: ""
-ms.date: "02/19/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: 02/19/2018
+ms.prod: visual-studio-dev15
+ms.technology: vs-acquisition
+ms.prod: visual-studio-dev15
+ms.topic: conceptual
 helpviewer_keywords:
   - "product support [Visual Studio]"
   - "Help [Visual Studio], product support"
 ms.assetid: e0846d4d-2ce1-48e3-b219-674ff070bf4e
-author: "TerryGLee"
-ms.author: "tglee"
-manager: ghogen
-ms.technology:
-  - "vs-acquisition"
+author: TerryGLee
+ms.author: tglee
+manager: douge
 ms.workload:
   - "multiple"
 ---
-# Talk to Us
+# Talk to us
 We're interested in your ideas for improving our products and documentation. We can't always respond personally, but we'll make sure that your feedback gets to the right person or team.  
 
 ## I want to report a problem with Visual Studio
@@ -50,5 +48,5 @@ If you want to share your questions and answers with other developers, you can u
 ## I want to help improve the Visual Studio documentation
 Please use the **Was this page helpful?** feedback button at the bottom of the page. You can find this button on all our documentation pages. Alternatively, you can add feedback to any Visual Studio page on [docs.microsoft.com](https://docs.microsoft.com/visualstudio/) by using the **Sign in to give documentation feedback** button, also at the bottom of the page.
 
-## See Also
+## See also
  [How to Report a Problem with Visual Studio](how-to-report-a-problem-with-visual-studio-2017.md)

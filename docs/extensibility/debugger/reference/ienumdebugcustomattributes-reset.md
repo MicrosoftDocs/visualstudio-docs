@@ -2,21 +2,17 @@
 title: "IEnumDebugCustomAttributes::Reset | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IEnumCustomAttributes::Reset"
 helpviewer_keywords: 
   - "IEnumDebugCustomAttributes::Reset"
 ms.assetid: e0db6518-5a71-4adb-a407-4d2ac7a3e369
-caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

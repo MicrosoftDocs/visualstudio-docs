@@ -1,7 +1,7 @@
 ---
-title: Accessing data in Visual Studio | Microsoft Docs
-ms.date: "11/04/2016"
-ms.topic: "article"
+title: Accessing data in Visual Studio
+ms.date: 11/04/2016
+ms.topic: conceptual
 f1_keywords:
   - "80025080"
 helpviewer_keywords:
@@ -9,10 +9,11 @@ helpviewer_keywords:
   - "data access [Visual Studio]"
   - "data [C#]"
   - "ADO.NET, data access"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.technology: "vs-data-tools"
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.prod: visual-studio-dev15
+ms.technology: vs-data-tools
 ms.workload:
   - "data-storage"
 ---
@@ -28,7 +29,7 @@ The following lists show just a few of the many database and storage systems tha
 
 ||||
 |-|-|-|
-|SQL Database|DocumentDB|Storage (blobs, tables, queues, files)|
+|SQL Database|Azure Cosmos DB|Storage (blobs, tables, queues, files)|
 |SQL Data Warehouse|SQL Server Stretch Database|StorSimple|
 
 And more...
@@ -107,7 +108,7 @@ To learn more about connecting to databases from C++ apps, see [Visual Studio da
 
 ## Python
 
-Install [Python support in Visual Studio](../python/python-in-visual-studio.md) to create Python applications. The Azure documentation has several tutorials on connecting to data, including the following:
+Install [Python support in Visual Studio](../python/overview-of-python-tools-for-visual-studio.md) to create Python applications. The Azure documentation has several tutorials on connecting to data, including the following:
 
 - [Django and SQL Database on Azure](/azure/app-service/app-service-web-get-started-python)
 - [Django and MySQL on Azure](/azure/app-service-web/web-sites-python-ptvs-django-mysql)

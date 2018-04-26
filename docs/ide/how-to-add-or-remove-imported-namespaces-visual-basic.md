@@ -1,80 +1,77 @@
 ---
-title: "How to: Add or Remove Imported Namespaces (Visual Basic) | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/21/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
+title: "How to: Add or remove imported namespaces (Visual Basic)"
+ms.date: 06/21/2017
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-general
+ms.topic: conceptual
+helpviewer_keywords:
   - "adding imported namespaces"
   - "removing imported namespaces"
   - "namespaces [Visual Studio], imported"
   - "imported namespaces [Visual Studio]"
   - "references [Visual Studio], imported namespaces"
 ms.assetid: 44cebec3-0ea0-47c2-8406-4edeab6a997e
-caps.latest.revision: 11
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.workload:
   - "multiple"
 ---
-# How to: Add or Remove Imported Namespaces (Visual Basic)
-Importing a namespace allows you to use elements from that namespace in your code without fully qualifying the element. For example, if you want to access the `Create` method in the `System.Messaging.MessageQueue` class, you can import the `System.Messaging` namespace and just refer to the element you need in code as `MessageQueue.Create`.  
+# How to: Add or remove imported namespaces (Visual Basic)
 
- Imported namespaces are managed on the **References** page of the **Project Designer**. The imports you specify in this dialog box are passed directly to the compiler (`/imports`) and apply to all files in your project. Use the `Imports` statement to use a namespace in a single source code file.  
+Importing a namespace allows you to use elements from that namespace in your code without fully qualifying the element. For example, if you want to access the `Create` method in the `System.Messaging.MessageQueue` class, you can import the `System.Messaging` namespace and just refer to the element you need in code as `MessageQueue.Create`.
 
-### To add an imported namespace  
+ Imported namespaces are managed on the **References** page of the **Project Designer**. The imports you specify in this dialog box are passed directly to the compiler (*/imports*) and apply to all files in your project. Use the `Imports` statement to use a namespace in a single source code file.
 
-1.  In **Solution Explorer**, double-click the **My Project** node for the project.  
+### To add an imported namespace
 
-2.  In the **Project Designer**, click the **References** tab.  
+1.  In **Solution Explorer**, double-click the **My Project** node for the project.
 
-3.  In the **Imported Namespaces** list, select the check box for the namespace that you wish to add.  
+2.  In the **Project Designer**, click the **References** tab.
 
-    > [!NOTE]
-    >  In order to be imported, the namespace must be in a referenced component. If the namespace does not appear in the list, you will need to add a reference to the component that contains it. For more information, see [Managing references in a project](managing-references-in-a-project.md).  
-  
-### To remove an imported namespace  
-
-1.  In **Solution Explorer**, double-click the **My Project** node for the project.  
-
-2.  In the **Project Designer**, click the **References** tab.  
-
-3.  In the **Imported Namespaces** list, clear the check box for the namespace that you wish to remove.  
-
-## User Imports  
- User imports allow you to import a specific class within a namespace rather than the entire namespace. For example, your application might have an import for the `Systems.Diagnostics` namespace, but the only class within that namespace that you are interested in is the `Debug` class. You can define `System.Diagnostics.Debug` as a user import, and then remove the import for `System.Diagnostics`.  
-
- If you later change you mind and decide that was really the `EventLog` class that you needed, you could enter `System.Diagnostics.EventLog` as a user import and overwrite `System.Diagnostics.Debug` using the update functionality.  
-
-#### To add a user import  
-
-1.  In **Solution Explorer**, double-click the **My Project** node for the project.  
-
-2.  In the **Project Designer**, click the **References** tab.  
-
-3.  In the text box below the **Imported Namespaces** list, enter the full name for the namespace you wish to import, including the root namespace.  
-
-4.  Click the **Add user import** button to add the namespace to the **Imported Namespaces** list.  
+3.  In the **Imported Namespaces** list, select the check box for the namespace that you wish to add.
 
     > [!NOTE]
-    >  The **Add user import** button will be disabled if the namespace matches one already in the list; you cannot add an import twice.  
+    >  In order to be imported, the namespace must be in a referenced component. If the namespace does not appear in the list, you will need to add a reference to the component that contains it. For more information, see [Managing references in a project](managing-references-in-a-project.md).
 
-#### To update a user import  
+### To remove an imported namespace
 
-1.  In **Solution Explorer**, double-click the **My Project** node for the project.  
+1.  In **Solution Explorer**, double-click the **My Project** node for the project.
 
-2.  In the **Project Designer**, click the **References** tab.  
+2.  In the **Project Designer**, click the **References** tab.
 
-3.  In the **Imported Namespaces** list, select the namespace you wish to change.  
+3.  In the **Imported Namespaces** list, clear the check box for the namespace that you wish to remove.
 
-4.  In the text box below the **Imported Namespaces** list, enter the name for the new namespace.  
+## User imports
+ User imports allow you to import a specific class within a namespace rather than the entire namespace. For example, your application might have an import for the <xref:System.Diagnostics> namespace, but the only class within that namespace that you are interested in is the `Debug` class. You can define <xref:System.Diagnostics.Debug> as a user import, and then remove the import for <xref:System.Diagnostics>.
 
-5.  Click the **Update user import** button to update the namespace in the **Imported Namespaces** list.  
+ If you later change you mind and decide that was really the `EventLog` class that you needed, you could enter <xref:System.Diagnostics.EventLog> as a user import and overwrite <xref:System.Diagnostics.Debug> using the update functionality.
 
-## See Also  
- [Managing references in a project](../ide/managing-references-in-a-project.md)
+### To add a user import
+
+1.  In **Solution Explorer**, double-click the **My Project** node for the project.
+
+2.  In the **Project Designer**, click the **References** tab.
+
+3.  In the text box below the **Imported Namespaces** list, enter the full name for the namespace you wish to import, including the root namespace.
+
+4.  Click the **Add user import** button to add the namespace to the **Imported Namespaces** list.
+
+    > [!NOTE]
+    > The **Add user import** button will be disabled if the namespace matches one already in the list; you cannot add an import twice.
+
+### To update a user import
+
+1.  In **Solution Explorer**, double-click the **My Project** node for the project.
+
+2.  In the **Project Designer**, click the **References** tab.
+
+3.  In the **Imported Namespaces** list, select the namespace you wish to change.
+
+4.  In the text box below the **Imported Namespaces** list, enter the name for the new namespace.
+
+5.  Click the **Update user import** button to update the namespace in the **Imported Namespaces** list.
+
+## See also
+
+- [Manage references in a project](../ide/managing-references-in-a-project.md)

@@ -1,14 +1,16 @@
 ---
-title: "Workflow Designer Shell Features | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
-f1_keywords: 
+title: "Workflow Designer Shell Features"
+ms.date: 11/04/2016
+ms.topic: conceptual
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
+f1_keywords:
   - "WFDShellFeatures.UI"
 ms.assetid: 14bfe312-9592-408e-92ce-e98585ad16e7
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # Workflow Designer Shell Features
@@ -22,7 +24,7 @@ Windows Workflow Designer is composed of three major UI areas: the designer surf
  The overview map displays a small version of the entire activity at the current breadcrumb root, including all of its children and all of their expanded children. There is a viewport, a rectangle with an orange border, which highlights the portion of the activity currently displayed inside the editor. Dragging the rectangle around the overview map scrolls the workflow designer and changes the view of the editor.
 
 > [!NOTE]
-> The [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] user interface is virtualized. The activity designers are rendered only when required. If a portion of the workflow has never been drawn on the designer surface, that portion appears as white on the overview map. Scrolling around the overview map completely draws the workflow.
+> The Workflow Designer user interface is virtualized. The activity designers are rendered only when required. If a portion of the workflow has never been drawn on the designer surface, that portion appears as white on the overview map. Scrolling around the overview map completely draws the workflow.
 
 ## Copying or Saving Workflows as Images
  Workflows can be copied in bitmap format or saved in bitmap or vector format. Copying or saving an image provides a way to export a view of entire activity at the current breadcrumb root, including all of its children and all of their expanded children to another program.
@@ -31,4 +33,4 @@ Windows Workflow Designer is composed of three major UI areas: the designer surf
 
 ## Fonts and Colors
 
-The fonts used in [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] inside [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)] are controlled by the environment font. The colors displayed in [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] change if you are using a high contrast color scheme for your operating system theme. You must restart [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)] after making a change to the font or color settings before the changes take effect in [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)].
+The fonts used in Workflow Designer inside Visual Studio 2010 are controlled by the environment font. The colors displayed in Workflow Designer change if you are using a high contrast color scheme for your operating system theme. You must restart Visual Studio 2010 after making a change to the font or color settings before the changes take effect in Workflow Designer.

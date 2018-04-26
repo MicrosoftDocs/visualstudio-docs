@@ -1,11 +1,9 @@
 ---
-title: "CA1063: Implement IDisposable correctly | Microsoft Docs"
-ms.custom: ""
+title: "CA1063: Implement IDisposable correctly"
 ms.date: 02/12/2018
-ms.reviewer: ""
-ms.suite: ""
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
-ms.topic: "article"
+ms.topic: reference
 f1_keywords:
   - "ImplementIDisposableCorrectly"
   - "CA1063"
@@ -13,9 +11,9 @@ helpviewer_keywords:
   - "CA1063"
   - "ImplementIDisposableCorrectly"
 ms.assetid: 12afb1ea-3a17-4a3f-a1f0-fcdb853e2359
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: gewarren
+ms.author: gewarren
+manager: douge
 ms.workload:
   - "multiple"
 ---

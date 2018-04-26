@@ -1,16 +1,13 @@
 ---
-title: "Modify the style of objects in Blend | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
+title: Modify the style of objects in Blend
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-designers
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+ms.topic: conceptual
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # Modify the style of objects in Blend
@@ -22,8 +19,6 @@ If you want re-use settings or groups of settings, create a re-usable resource. 
 ## Brushes: Modify the appearance of an object
 
 Apply a brush to an object if you want to change its appearance.
-
-**Watch a short video:** ![Play button](../designers/media/bldadminconsoleinitialconfigicon.PNG) [Brushes Editor](http://www.popscreen.com/v/6A4mO/Microsoft-Expression-Blend-The-Brushes-Editor).
 
 ### Paint a repeating image or pattern on an object
 
@@ -43,8 +38,6 @@ Create a visual brush from a control such as a button. The following illustratio
 
 ![Visual brush](../designers/media/fb6c90e0-153c-48fe-b563-e601beac6227.png) ![Visual brush tiled](../designers/media/e261b99f-7d8f-4d91-bc84-19c7beccc255.png)
 
-**Watch a short video:** ![Play button](../designers/media/bldadminconsoleinitialconfigicon.PNG) [Tile Brushes](http://www.popscreen.com/v/6A4iM/Microsoft-Expression-Blend-Tile-Brushes).
-
 ## Styles and templates: Create a consistent look and feel across controls
 
 You can design the appearance and behavior of a control one time and apply that design to other controls so that you don't have to maintain them individually.
@@ -55,7 +48,7 @@ You can design the appearance and behavior of a control one time and apply that 
 
 ### Create a template or style
 
-There's two ways to create a template. You can convert any object on your artboard to a control or you can base your template on an existing control.
+There're two ways to create a template. You can convert any object on your artboard to a control or you can base your template on an existing control.
 
 To convert any object to a control template, select the object, and then on the **Tools** menu, choose **Make Into Control**.
 
@@ -77,7 +70,7 @@ In the **Create Style Resource** dialog box, you can either name the style or te
 
 > [!NOTE]
 > You can't create styles or templates for every type of control. If a control doesn't support them, the breadcrumb button won't appear above the artboard.
-> To return to the editing scope of your main document, click **Return scope to** ![](../designers/media/55844eb3-ed98-4f20-aa66-a6f5b23eeb2b.png).
+> To return to the editing scope of your main document, click **Return scope to** ![Return scope to icon](../designers/media/55844eb3-ed98-4f20-aa66-a6f5b23eeb2b.png).
 
 ### Apply a style or template to a control
 
@@ -87,7 +80,7 @@ Right-click an object in the [Objects and Timeline](../designers/creating-a-ui-b
 
 ### Restore the default style or template of a control
 
-Select the control, and in the [Properties](../designers/creating-a-ui-by-using-blend-for-visual-studio.md#tour-of-the-properties-panel) panel, locate the **Style** or **Template** property. Choose **Advanced options** ![](../designers/media/12e06962-5d8a-480d-a837-e06b84c545bb.png), and then click **Reset** on the shortcut menu.
+Select the control, and in the [Properties](../designers/creating-a-ui-by-using-blend-for-visual-studio.md#tour-of-the-properties-panel) panel, locate the **Style** or **Template** property. Choose **Advanced options**, and then click **Reset** on the shortcut menu.
 
 ## Visual states: Change the appearance of a control based on its state
 
@@ -97,14 +90,12 @@ Controls can have different visual appearances based on user interactions. For e
 
 **Watch a short video:** ![Play button](../designers/media/bldadminconsoleinitialconfigicon.PNG) [Manage the state of your WPF controls](https://www.youtube.com/watch?v=m0PlkF5i6uw).
 
-##  <a name="Resources"></a> Resources: Create colors, styles, and templates and reuse them later
+## Resources: Create colors, styles, and templates and reuse them later
 
 You can convert just about anything in your project to a resource. A resource is just an object that you can reuse in different places in your application. For example, you can create a color one time, make it a resource, and then use that color on several objects. To change the color of all of those objects, just change the color resource.
 
 ![Convert color to resource button](../designers/media/89203705-cf66-46e0-b153-52a23cd744f7.png) ![Create Color Resource dialog box](../designers/media/6bff8b19-3cd5-41a0-bbf9-ff65532d5aae.png)
 
-**Watch a short video:** ![Play button](../designers/media/bldadminconsoleinitialconfigicon.PNG) [A brief touch on resources](http://www.popscreen.com/v/6A4k7/Microsoft-Expression-Blend-Brief-Touch-on-Resources).
-
 ## See also
 
-[Creating a UI by using Blend for Visual Studio](../designers/creating-a-ui-by-using-blend-for-visual-studio.md)
+- [Creating a UI by using Blend for Visual Studio](../designers/creating-a-ui-by-using-blend-for-visual-studio.md)

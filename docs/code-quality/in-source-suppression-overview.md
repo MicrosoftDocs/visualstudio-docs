@@ -1,25 +1,23 @@
 ---
-title: "Suppress code analysis warnings in Visual Studio | Microsoft Docs"
-ms.custom: ""
+title: Suppress code analysis warnings in Visual Studio
 ms.date: 01/29/2018
-ms.reviewer: ""
-ms.suite: ""
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
-ms.topic: "article"
-helpviewer_keywords: 
+ms.topic: "conceptual"
+helpviewer_keywords:
   - "source suppression, code analysis"
   - "code analysis, source suppression"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: gewarren
+ms.author: gewarren
+manager: douge
 dev_langs:
  - CSharp
  - VB
  - CPP
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
-# Suppressing code analysis warnings
+# Suppress code analysis warnings
 
 It is often useful to indicate that a warning is not applicable. This indicates to team members that the code was reviewed, and that the warning can be suppressed. In-source suppression (ISS) uses the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute to suppress a warning. The attribute can be placed close to the code segment that generated the warning. You can add the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute to the source file by typing it in, or you can use the shortcut menu on a warning in the **Error List** to add it automatically.
 
@@ -89,7 +87,7 @@ If there are strict performance reasons for minimizing in-source suppression met
 
 For maintainability reasons, omitting the rule name is not recommended.
 
-## Suppressing selective violations within a method body
+## Suppress selective violations within a method body
 
 Suppression attributes can be applied to a method, but cannot be embedded within a method body. This means that all violations of a particular rule are suppressed if you add the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute to the method.
 
@@ -163,4 +161,5 @@ The global suppression file maintains suppressions that are either global-level 
 
 ## See also
 
-<xref:System.Diagnostics.CodeAnalysis>
+- <xref:System.Diagnostics.CodeAnalysis>
+- [Use Roslyn analyzers](../code-quality/use-roslyn-analyzers.md)

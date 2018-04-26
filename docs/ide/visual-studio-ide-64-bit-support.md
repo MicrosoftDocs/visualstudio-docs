@@ -1,26 +1,22 @@
 ---
-title: "Visual Studio IDE 64-Bit Support | Microsoft Docs"
-ms.custom: ""
-ms.date: "02/21/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
+title: Visual Studio IDE 64-Bit Support
+ms.date: 02/21/2018
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-general
+ms.topic: conceptual
+helpviewer_keywords:
   - "64-bit applications [C++]"
   - "Visual Studio, 64-bit support"
   - "64-bit programming [C++]"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # Visual Studio IDE 64-Bit Support
 
-Visual Studio enables you to set up your applications to target different platforms, including 64-bit platforms. For more information on 64-bit platform support in Visual Studio, see [64-bit Applications](/dotnet/framework/64-bit-apps.md).
+Visual Studio enables you to set up your applications to target different platforms, including 64-bit platforms. For more information on 64-bit platform support in Visual Studio, see [64-bit Applications](/dotnet/framework/64-bit-apps).
 
 ## Deploying a 64-bit application
 
@@ -32,5 +28,5 @@ Visual Studio enables you to set up your applications to target different platfo
 
 ## Debugging a 64-bit application
 
-[Debug 64-Bit Applications](../debugger/debug-64-bit-applications.md)
-[Using Dump Files](../debugger/using-dump-files.md)
+- [Debug 64-Bit Applications](../debugger/debug-64-bit-applications.md)
+- [Using Dump Files](../debugger/using-dump-files.md)

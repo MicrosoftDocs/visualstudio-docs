@@ -1,12 +1,13 @@
 ---
-title: "Use Build or Release Management for automated testing in Visual Studio | Microsoft Docs"
+title: "Use Build or Release Management for automated testing in Visual Studio"
 ms.date: 03/02/2018
-ms.technology: vs-devops-test
-ms.topic: "article"
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-test
+ms.topic: conceptual
 helpviewer_keywords:
   - "automated testing, lab management, test lab"
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 author: gewarren
@@ -38,7 +39,7 @@ Some of the benefits of using Build or Release Management for this scenario are:
 
 ## Self-service management of SCVMM environments
 
-The [Lab Center in Microsoft Test Manager](https://msdn.microsoft.com/library/dd997438.aspx) supports the ability to manage a library of environment templates as well as provision environments on demand using an [SCVMM server](/system-center/vmm/overview?view=sc-vmm-1801).
+The [Test Center in Microsoft Test Manager](/vsts/manual-test/mtm/guidance-mtm-usage) supports the ability to manage a library of environment templates as well as provision environments on demand using an [SCVMM server](/system-center/vmm/overview?view=sc-vmm-1801).
 
 The self-service provisioning features of Lab Center have two distinct goals:
 

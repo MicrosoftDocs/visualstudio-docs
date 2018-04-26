@@ -2,16 +2,12 @@
 title: "MSBuild Target Framework and Target Platform | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: df6517c5-edd6-4cc4-97ad-b3cdfc78e799
-caps.latest.revision: 10
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -62,14 +58,16 @@ A project can be built to run on a *target framework*, which is a particular ver
  A *platform* is combination of hardware and software that defines a particular runtime environment. For example,  
   
 -   `x86` designates a 32-bit Windows operating system that is running on an Intel 80x86 processor or its equivalent.  
+
+-   `x64` designates a 64-bit Windows operating system that is running on an Intel x64 processor or it equivalent.
   
 -   `Xbox` designates the Microsoft Xbox 360 platform.  
   
- A *target platform* is the particular platform that your project is built to run on. The target platform is specified in the `Platform` build property in a project file. You can change the target platform by using the project property pages or the **Configuration Manager** in the IDE.  
+ A *target platform* is the particular platform that your project is built to run on. The target platform is specified in the `PlatformTarget` build property in a project file. You can change the target platform by using the project property pages or the **Configuration Manager** in the IDE.  
   
 ```xml  
 <PropertyGroup>  
-   <Platform>x86</Platform>  
+   <PlatformTarget>x86</PlatformTarget>  
 </PropertyGroup>  
   
 ```  
@@ -78,7 +76,7 @@ A project can be built to run on a *target framework*, which is a particular ver
   
 ```xml  
 <PropertyGroup>  
-   <Platform>x86</Platform>  
+   <PlatformTarget>x86</PlatformTarget>  
    <Configuration>Debug</Configuration>  
 <PropertyGroup>  
   

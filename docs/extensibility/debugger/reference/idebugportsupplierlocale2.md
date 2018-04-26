@@ -2,19 +2,15 @@
 title: "IDebugPortSupplierLocale2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugPortSupplierLocale2 interface"
 ms.assetid: 910e7220-da2a-4339-9fff-9fb1bad3c28c
-caps.latest.revision: 4
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

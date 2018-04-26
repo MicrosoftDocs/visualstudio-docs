@@ -1,16 +1,13 @@
 ---
-title: "Dynamic symbolic execution | Microsoft IntelliTest Developer Test Tool | Microsoft Docs"
-ms.custom: ""
-ms.date: "05/02/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: vs-devops-test
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: "Dynamic symbolic execution | Microsoft IntelliTest Developer Test Tool"
+ms.date: 05/02/2017
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-test
+ms.topic: conceptual
 helpviewer_keywords: 
   - "IntelliTest, Dynamic symbolic execution"
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 author: gewarren
@@ -259,10 +256,7 @@ program behaviors.
 <a name="additional-inputs"></a>
 ## Obtaining additional inputs
 
-The [PexChoose](static-helper-classes.md#pexchoose) 
-static class can be used to obtain additional inputs
-to a test, and can be used to implement 
-[parameterized mocks](#parameterized-mocks).
+The [PexChoose](static-helper-classes.md#pexchoose) static class can be used to obtain additional inputs to a test, and can be used to implement [parameterized mocks](#parameterized-mocks).
 
 <a name="further-reading"></a>
 ## Further reading
@@ -271,5 +265,4 @@ to a test, and can be used to implement
 
 ## Got feedback?
 
-Post your ideas and feature requests on 
-**[UserVoice](https://visualstudio.uservoice.com/forums/121579-visual-studio-2015/category/157869-test-tools?query=IntelliTest)**.
+Post your ideas and feature requests on [UserVoice](https://visualstudio.uservoice.com/forums/121579-visual-studio-2015/category/157869-test-tools?query=IntelliTest).

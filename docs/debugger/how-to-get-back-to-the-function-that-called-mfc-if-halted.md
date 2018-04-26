@@ -2,12 +2,8 @@
 title: "How to: Get Back to the Function that Called MFC If Halted | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.mfc"
 dev_langs: 
@@ -24,10 +20,9 @@ helpviewer_keywords:
   - "programs, halting"
   - "functions [debugger]"
 ms.assetid: d254a5a9-afbd-4923-9d7a-7422d824cabf
-caps.latest.revision: 18
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

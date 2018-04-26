@@ -2,14 +2,11 @@
 title: "Visual Studio Tools for Unity | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-unity-tools
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 6cabc626-5310-4622-a743-210a9abb5535
-author: "conceptdev"
-ms.author: "crdun"
+author: "dantogno"
+ms.author: "v-davian"
 manager: crdun
 ms.workload:
   - "unity"

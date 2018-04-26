@@ -1,12 +1,12 @@
 ---
-title: "Unit testing Visual C# code in Visual Studio | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.technology: vs-devops-test
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: "Unit testing Visual C# code in Visual Studio"
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.author: gewarren
-manager: ghogen
-ms.workload:
+manager: douge
+ms.workload: 
   - "uwp"
 author: gewarren
 ---

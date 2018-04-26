@@ -2,12 +2,9 @@
 title: "Saving Data in Extensions of the SharePoint Project System | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "SharePoint project items, saving string data"
   - "project items [SharePoint development in Visual Studio], saving string data"
@@ -15,7 +12,7 @@ helpviewer_keywords:
   - "SharePoint projects, saving string data"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

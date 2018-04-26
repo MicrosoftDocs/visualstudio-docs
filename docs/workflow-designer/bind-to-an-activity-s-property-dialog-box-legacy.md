@@ -1,20 +1,23 @@
 ---
-title: "Bind to an Activity&#39;s Property Dialog Box (Legacy) | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
-f1_keywords: 
+title: "Workflow Designer - Bind to an Activity&#39;s Property Dialog Box (Legacy)"
+ms.date: 11/04/2016
+ms.topic: reference
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
+f1_keywords:
   - "System.Workflow.ComponentModel.Design.ActivityBindForm.UI"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Bind to an Activity's Property dialog box"
 ms.assetid: 19ebb207-e0a9-4642-8f5f-a5e31395c683
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
-# Bind to an Activity&#39;s Property Dialog Box (Legacy)
-This topic describes how use the **Bind to an Activity's Property** dialog box in the legacy Windows Workflow Designer. Use the legacy [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] when you need to target either the [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] or the [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)].
+# Bind to an Activity's Property Dialog Box (Legacy)
+
+This topic describes how use the **Bind to an Activity's Property** dialog box in the legacy Windows Workflow Designer. Use the legacy Workflow Designer when you need to target either the .NET Framework version 3.5 or the WinFX.
 
  An instance type of dependency property can be bound to another activity's public property or event. For more information about activity binding, see [Using Dependency Properties](http://go.microsoft.com/fwlink?LinkID=65007).
 

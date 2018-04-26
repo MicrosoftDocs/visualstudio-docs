@@ -1,18 +1,15 @@
 ---
-title: "Unit Test Basics | Microsoft Docs"
-ms.custom: ""
-ms.date: "2016-01-07"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: vs-devops-test
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords:
+title: "Unit Test Basics in Visual Studio"
+ms.date: 2016-01-07
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-test
+ms.topic: conceptual
+f1_keywords: 
   - "vs.UnitTest.CreateUnitTest"
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload:
+manager: douge
+ms.workload: 
   - "multiple"
 ---
 # Unit test basics
@@ -25,13 +22,13 @@ You can quickly generate test projects and test methods from your code, or manua
 
 Test Explorer can also run third-party and open source unit test frameworks that have implemented Test Explorer add-on interfaces. You can add many of these frameworks through the Visual Studio Extension Manager and the Visual Studio gallery. See [Install third-party unit test frameworks](../test/install-third-party-unit-test-frameworks.md)
 
-## Quick starts
+## Getting started
 
 For an introduction to unit testing that takes you directly into coding, see one of these topics:
 
 - [Walkthrough: Creating and Running Unit Tests for Managed Code](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md)
 
-- [Quick Start: Test Driven Development with Test Explorer](../test/quick-start-test-driven-development-with-test-explorer.md)
+- [Quickstart: Test Driven Development with Test Explorer](../test/quick-start-test-driven-development-with-test-explorer.md)
 
 - [Write unit tests for C/C++ in Visual Studio](../test/writing-unit-tests-for-c-cpp.md)
 
@@ -108,7 +105,7 @@ It is often quicker to generate the unit test project and unit test stubs from y
 3.  To use one of the Microsoft unit test frameworks, choose **Unit Test Project** from the list of project templates. Otherwise, choose the project template of the unit test framework that you want to use. To test the `Accounts` project of our example, you would name the project `AccountsTests`.
 
     > [!WARNING]
-    >  Not all third-party and open source unit test frameworks provide a Visual Studio project template. Consult the framework document for information about creating a project.
+    > Not all third-party and open source unit test frameworks provide a Visual Studio project template. Consult the framework document for information about creating a project.
 
 4.  In your unit test project, add a reference to the code project under test, in our example to the Accounts project.
 

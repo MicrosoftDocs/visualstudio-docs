@@ -2,21 +2,17 @@
 title: "CONNECTION_PROTOCOL | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "CONNECTION_PROTOCOL"
 helpviewer_keywords: 
   - "CONNECTION_PROTOCOL enumeration"
 ms.assetid: 99df5865-8b36-486d-9f4c-d10ae2bc688a
-caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

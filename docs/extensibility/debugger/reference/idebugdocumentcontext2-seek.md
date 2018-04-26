@@ -2,21 +2,17 @@
 title: "IDebugDocumentContext2::Seek | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugDocumentContext2::Seek"
 helpviewer_keywords: 
   - "IDebugDocumentContext2::Seek"
 ms.assetid: 71501356-8a82-4d36-b354-6625bdd2baa0
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

@@ -2,21 +2,17 @@
 title: "Word Completion in a Legacy Language Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "language services [managed package framework], IntelliSense Complete Word"
   - "IntelliSense, Complete Word"
   - "Complete Word"
 ms.assetid: 0ace5ac3-f9e1-4e6d-add4-42967b1f96a6
-caps.latest.revision: 15
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

@@ -2,20 +2,16 @@
 title: "IDebugExpressionEvaluator2::SetCorPath | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "SetCorPath"
   - "IDebugExpressionEvaluator2::SetCorPath"
 ms.assetid: 27b614ff-7325-4f9b-8da4-61ee020c9410
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

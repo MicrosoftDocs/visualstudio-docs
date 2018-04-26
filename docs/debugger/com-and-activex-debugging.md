@@ -2,12 +2,8 @@
 title: "COM and ActiveX Debugging | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.com"
 dev_langs: 
@@ -22,10 +18,9 @@ helpviewer_keywords:
   - "debugging COM containers"
   - "ActiveX controls, debugging"
 ms.assetid: 3260b2a7-3239-493d-9271-aedf705c13c7
-caps.latest.revision: 20
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

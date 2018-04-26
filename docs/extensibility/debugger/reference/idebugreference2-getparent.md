@@ -2,21 +2,17 @@
 title: "IDebugReference2::GetParent | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugReference2::GetParent"
 helpviewer_keywords: 
   - "IDebugReference2::GetParent"
 ms.assetid: e3061665-ad3e-4c1b-b33f-82755fa21be3
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

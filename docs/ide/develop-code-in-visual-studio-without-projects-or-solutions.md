@@ -1,17 +1,16 @@
 ---
-title: "Develop code in Visual Studio without projects or solutions | Microsoft Docs"
+title: Develop code in Visual Studio without projects or solutions
 ms.date: 02/21/2018
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: "vs-ide-general"
-ms.topic: "article"
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-general
+ms.topic: conceptual
 helpviewer_keywords:
   - "open folder [Visual Studio]"
   - "anycode [Visual Studio]"
   - projects and solutions, develop code without
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: gewarren
+ms.author: gewarren
+manager: douge
 ms.workload:
   - "multiple"
 ---
@@ -19,7 +18,7 @@ ms.workload:
 
 In Visual Studio 2017, you can open code from nearly any type of directory-based project into Visual Studio without the need for a solution or project file. This means you can, for example, clone a repo on GitHub, open it directly into Visual Studio, and begin developing, without having to create a solution or project. If needed, you can specify custom build tasks and launch parameters through simple JSON files.
 
-After you open your code files in Visual Studio, Solution Explorer displays all the files in the folder. You can click on any file to begin editing it. In the background, Visual Studio starts indexing the files to enable IntelliSense, navigation, and refactoring features. As you edit, create, move, or delete files, Visual Studio tracks the changes automatically and continuously updates its IntelliSense index. Code will appear with syntax colorization and, in many cases, include basic IntelliSense statement completion.
+After you open your code files in Visual Studio, **Solution Explorer** displays all the files in the folder. You can click on any file to begin editing it. In the background, Visual Studio starts indexing the files to enable IntelliSense, navigation, and refactoring features. As you edit, create, move, or delete files, Visual Studio tracks the changes automatically and continuously updates its IntelliSense index. Code will appear with syntax colorization and, in many cases, include basic IntelliSense statement completion.
 
 ## Open any code
 
@@ -27,7 +26,7 @@ You can open code into Visual Studio in any of the following ways:
 
 - On the Visual Studio menu bar, choose **File** > **Open** > **Folder**, and then browse to the code location.
 - On the context (right-click) menu of a folder containing code, choose the **Open in Visual Studio** command.
-- Choose the **Open Folder** link on the Visual Studio Start Page.
+- Choose the **Open Folder** link on the Visual Studio **Start Page**.
 - If you are a keyboard user, press **Ctrl**+**Shift**+**Alt**+**O** in Visual Studio.
 - Open code from a cloned GitHub repo.
 
@@ -41,7 +40,7 @@ The following example shows how to clone a GitHub repo and then open its code in
 
    ![GitHub clone button](./media/VSIDE_Code_Clone.png)
 
-1. In Visual Studio, choose the **Team Explorer** tab to open Team Explorer. If you don't see the tab, open it from **View** > **Team Explorer**.
+1. In Visual Studio, choose the **Team Explorer** tab to open **Team Explorer**. If you don't see the tab, open it from **View** > **Team Explorer**.
 
 1. In Team Explorer, under the **Local Git Repositories** section, choose the **Clone** command and then paste the URL of the GitHub page into the text box.
 
@@ -49,11 +48,11 @@ The following example shows how to clone a GitHub repo and then open its code in
 
 1. Choose the **Clone** button to clone the project's files to a local Git repository. Depending on the size of the repo, this process could take several minutes.
 
-1. After the repo has been cloned to your system, in Team Explorer, choose the **Open** command on the context (right-click) menu of the newly cloned repo.
+1. After the repo has been cloned to your system, in **Team Explorer**, choose the **Open** command on the context (right-click) menu of the newly cloned repo.
 
    ![Cloned repo](./media/VSIDE_Code_Clone3.png)
 
-1. Choose the **Show Folder View** command to view the files in Solution Explorer
+1. Choose the **Show Folder View** command to view the files in **Solution Explorer**.
 
    ![Show folder view](./media/VSIDE_Code_Clone3_show.png)
 

@@ -1,21 +1,19 @@
 ---
-title: "Toolbox window in Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "01/18/2018"
-ms.reviewer: ""
-ms.suite: ""
+title: Toolbox window in Visual Studio
+ms.date: 01/18/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
-ms.topic: "article"
-f1_keywords: 
+ms.topic: reference
+f1_keywords:
   - "vs.toolbox.general"
   - "vs.toolbox"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Toolbox [Visual Studio]"
   - "custom controls [Visual Studio]"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # Toolbox

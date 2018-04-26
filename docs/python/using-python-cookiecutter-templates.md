@@ -1,22 +1,16 @@
 ---
-title: CookieCutter extension for Python in Visual Studio | Microsoft Docs
+title: CookieCutter extension for Python
 description: Visual Studio supports the graphical Cookiecutter extension to discover templates for Python code and create projects from those templates.
-ms.custom:
 ms.date: 07/12/2017
-ms.reviewer:
-ms.suite:
-ms.technology: 
-  - "devlang-python"
-dev_langs:
-  - "python"
-ms.tgt_pltfrm:
-ms.topic: "article"
-author: "kraigb"
-ms.author: "kraigb"
-manager: ghogen
+ms.prod: visual-studio-dev15
+ms.technology: vs-python
+ms.topic: conceptual
+author: kraigb
+ms.author: kraigb
+manager: douge
 ms.workload: 
-  - "python"
-  - "data-science"
+  - python
+  - data-science
 ---
 
 # Using the Cookiecutter extension
@@ -31,7 +25,7 @@ Once installed, select **View > Cookiecutter Explorer** to open its window:
 
 ## Cookiecutter workflow
 
-Working with Cookiecutter is a process of browsing and selecting a template, cloning it to your local machine, setting options, then creating code from that template, as described in the sections that follow.
+Working with Cookiecutter is a process of browsing and selecting a template, cloning it to your local computer, setting options, then creating code from that template, as described in the sections that follow.
 
 ### Browsing templates
 
@@ -39,7 +33,7 @@ The Cookiecutter home page displays a list of templates to choose from, organize
 
 | Group | Description |
 | --- | --- |
-| Installed | Templates that have been installed to your local machine. When an online template is used, its repository is automatically cloned to a subfolder of `~/.cookiecutters`. You can delete a selected installed template by pressing **Del**. |
+| Installed | Templates that have been installed to your local computer. When an online template is used, its repository is automatically cloned to a subfolder of `~/.cookiecutters`. You can delete a selected installed template by pressing **Del**. |
 | Recommended | Templates loaded from the recommended feed. The default feed is curated by Microsoft. See [Cookiecutter options](#cookiecutter-options) below for details on customizing the feed. |
 | GitHub | GitHub search results for the cookiecutter keyword. Results from GitHub come back paginated, if more results are available, **Load More** appears at the end of the list. |
 | Custom | When a custom location is entered in the search box, it appears in this group. You can either type in a full path to the GitHub repository, or the full path to a folder on your local disk. |
@@ -48,7 +42,7 @@ The Cookiecutter home page displays a list of templates to choose from, organize
 
 When you select a template followed by **Next**, Cookiecutter makes a local copy to work from.
 
-If you select a template from the **Recommended** or **GitHub** groups, or enter a custom URL into the search box and select that template, it's cloned and installed on your local machine. If that template was installed in a previous session of Visual Studio, it's automatically deleted and the latest version is cloned.
+If you select a template from the **Recommended** or **GitHub** groups, or enter a custom URL into the search box and select that template, it's cloned and installed on your local computer. If that template was installed in a previous session of Visual Studio, it's automatically deleted and the latest version is cloned.
 
 If you select a template from the **Installed** group, or enter a custom folder path into the search box and select that template, Visual Studio loads that template without cloning.
 
@@ -203,7 +197,7 @@ Some templates may use post-generation scripts that are not compatible with the 
 
 ### Hook script not supported on Windows
 
-If the post script is `.sh`, then it may not be associated with an application on your Windows machine. You may see a Windows dialog asking you to find a compatible application in the Windows store.
+If the post script is `.sh`, then it may not be associated with an application on your Windows computer. You may see a Windows dialog asking you to find a compatible application in the Windows store.
 
 ### Templates with known issues
 

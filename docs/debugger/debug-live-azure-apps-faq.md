@@ -1,19 +1,14 @@
 ---
 title: "FAQ for snapshot debugging | Microsoft Docs"
 ms.date: "11/07/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "debugger"
 ms.assetid: 944f1eb0-a74b-4d28-ae2b-a370cd869add
-caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

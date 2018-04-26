@@ -2,21 +2,17 @@
 title: "IDebugPortSupplier2::RemovePort | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugPortSupplier2::RemovePort"
 helpviewer_keywords: 
   - "IDebugPortSupplier2::RemovePort"
 ms.assetid: f5c1fbf2-9084-46f2-a682-7db963928df2
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

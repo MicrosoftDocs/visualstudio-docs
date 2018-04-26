@@ -1,25 +1,19 @@
 ---
-title: Installing Python support in Visual Studio | Microsoft Docs
-description: Detailed instructions on how to install the Python Tools for Visual Studio (PTVS) in Visual Studio 2017, 2015, 2013, 2012, and 2010, including options and installation locations.
-ms.custom:
+title: Installing Python support
+description: How to install the Python Tools for Visual Studio (PTVS) in Visual Studio 2017, 2015, 2013, 2012, and 2010, including options and installation locations.
 ms.date: 02/15/2018
-ms.reviewer:
-ms.suite:
-ms.technology: 
-  - "devlang-python"
-dev_langs:
-  - "python"
-ms.tgt_pltfrm:
-ms.topic: "article"
-author: "kraigb"
-ms.author: "kraigb"
-manager: ghogen
+ms.prod: visual-studio-dev15
+ms.technology: vs-python
+ms.topic: conceptual
+author: kraigb
+ms.author: kraigb
+manager: douge
 ms.workload: 
-  - "python"
-  - "data-science"
+  - python
+  - data-science
 ---
 
-# Installing Python support in Visual Studio on Windows
+# How to install Python support in Visual Studio on Windows
 
 To install Python support for Visual Studio (also known as Python Tools for Visual Studio or PTVS), follow the instructions in the section that matches your version of Visual Studio:
 
@@ -39,7 +33,7 @@ To quickly test Python support after following the installation steps, Open the 
 
 ## Visual Studio 2017
 
-1. Download and run the latest Visual Studio 2017 installer. If you have Visual Studio installed already, run the Visual Studio installer and go to step 2.
+1. Download and run the latest Visual Studio 2017 installer. If you have Visual Studio installed already, run the Visual Studio Installer, select the **Modify** option (see [Modify Visual Studio](../install/modify-visual-studio.md)) and go to step 2.
 
     > [!div class="nextstepaction"]
     > <a target="frameTarget" href="https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Community&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_install">Install Visual Studio 2017 Community</a>
@@ -76,6 +70,16 @@ To quickly test Python support after following the installation steps, Open the 
 |   |   |
 |---|---|
 | ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | [Watch a video (Microsoft Virtual Academy)](https://mva.microsoft.com/en-US/training-courses-embed/python-tools-for-visual-studio-2017-18121/Video-Installing-Visual-Studio-Python-Support-go1id3LWE_1705918567) on installing Python support in Visual Studio.|
+
+### Troubleshooting
+
+If you encounter problems installing or running Python in Visual Studio, try the following:
+
+- Determine whether the same error occurs using the Python CLI, that is, running `python.exe` from a command prompt.
+- Use the [Repair option in the Visual Studio installer](../install/repair-visual-studio.md).
+- Repair or reinstall Python through **Settings > Apps & features** in Windows.
+
+**Example error**: Failed to start interactive process: System.ComponentModel.Win32Exception (0x80004005): Unknown error (0xc0000135) at Microsoft.PythonTools.Repl.PythonInteractiveEvaluator.d__43.MoveNext().
 
 ## Visual Studio 2015
 

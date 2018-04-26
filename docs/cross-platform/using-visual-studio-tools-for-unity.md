@@ -2,11 +2,8 @@
 title: "Using Visual Studio Tools for Unity | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-unity-tools
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: e67ec9a2-a449-413e-8930-9a471bd43a06
 author: "conceptdev"
 ms.author: "crdun"
@@ -133,6 +130,12 @@ In this section, you'll learn how to use Visual Studio Tools for Unity's integra
 
 > [!IMPORTANT]
 >  Because Visual Studio Tools for Unity and the Unity instance are communicating over a UDP network socket, your firewall might ask about it. If this happens, you'll have to authorize the connection so that VSTU and Unity can communicate.
+
+### Troubleshooting the connection between Unity and Visual Studio
+
+#### Confirm Editor Attaching is enabled
+
+In the Unity Menu, select **Edit > Preferences** and then select the **External Tools** tab. Confirm that the **Editor Attaching** checkbox is enabled. For more information, consult the [Unity Preferences documentation](https://docs.unity3d.com/Manual/Preferences.html).
 
 ###  <a name="debugging-your-project-in-a-unity-player"></a> Debugging your project in a Unity Player
  You can connect Visual Studio Tools for Unity directly to your Unity app running in a stand-alone player when you are not running Unity Editor, or to debug problems that are platform specific.

@@ -1,21 +1,21 @@
 ---
-title: "Visual Studio keyboard shortcuts | Microsoft Docs"
-ms.date: "06/21/2017"
+title: Visual Studio keyboard shortcuts
+ms.date: 06/21/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
-ms.topic: "article"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+ms.topic: reference
+author: gewarren
+ms.author: gewarren
+manager: douge
 ms.workload:
   - "multiple"
 ---
-# Keyboard tips for Visual Studio
+# Keyboard shortcuts for Visual Studio
 
 You can navigate in Visual Studio more easily by using the keyboard shortcuts in this article.
 
-The shortcuts listed here are only a subset of the available keyboard shortcuts. For a more complete list, see [Default Keyboard Shortcuts in Visual Studio](../ide/default-keyboard-shortcuts-in-visual-studio.md).
-
-For information about how to optimize Visual Studio for accessibility, see [Accessibility Tips and Tricks](../ide/reference/accessibility-tips-and-tricks.md).
+> [!TIP]
+> The shortcuts listed here are only a subset of the available keyboard shortcuts. For a more complete list, see [Default keyboard shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md).
 
 ## Window management
 
@@ -34,9 +34,9 @@ For information about how to optimize Visual Studio for accessibility, see [Acce
 |-|-|
 |Move/Dock Floating Windows|Win+Left / Win+Right|
 |Maximize/Minimize Windows|Win+Up / Win+Down|
-|Show Jump List|Win+Alt+n|
-|Start New Instance|Win+Shift+n|
-|Switch Between Windows|Win+n|
+|Show Jump List|Win+Alt+N|
+|Start New Instance|Win+Shift+N|
+|Switch Between Windows|Win+N|
 
 ## Visual Studio search
 
@@ -73,10 +73,10 @@ For information about how to optimize Visual Studio for accessibility, see [Acce
 |Snippet Picker|Ctrl+K,X or ?,Tab (VB)||
 |Surround With|Ctrl+K,S||
 |Show Quick Info|Ctrl+K,I||
-|Navigate To|Ctrl+,||
+|Navigate To|**Ctrl**+**,**||
 |Navigate Highlighted References|Ctrl+Shift+Up (Previous), Ctrl+Shift+Down (Next)||
-|Editor Zoom|Ctrl+Shift+> (In), Ctrl+Shift+< (Out)||
-|Block Selection|Hold Alt and drag mouse, Shift+Alt+Arrow Keys||
+|Editor Zoom|**Ctrl**+**Shift**+**>** (In), **Ctrl**+**Shift**+**<** (Out)||
+|Block Selection|Hold **Alt** and drag mouse, Shift+Alt+Arrow Keys||
 |Move Line Up/Down|Alt+Up / Alt+Down||
 |Duplicate line|Ctrl+E,V|Visual Studio 2017 version 15.6|
 |Expand selection|**Shift**+**Alt**+**=**|Visual Studio 2017 version 15.5|
@@ -86,16 +86,16 @@ For information about how to optimize Visual Studio for accessibility, see [Acce
 |Go To Definition Stack|Ctrl+Shift+8 (Back), Ctrl+Shift+7 (Forward)||
 |Close the Peek Definition window|Esc||
 |Promote the Peek Definition window to a regular document tab|Ctrl+Alt+Home||
-|Navigate between multiple Peek Definition windows|Ctrl+Alt+- and Ctrl+Alt+=||
-|Navigate between multiple Peek results|F8 and Shift+F8||
+|Navigate between multiple Peek Definition windows|**Ctrl**+**Alt**+**-** and **Ctrl**+**Alt**+**=**||
+|Navigate between multiple Peek results|**F8** and **Shift**+**F8**||
 |Toggle between the code editor window and the Peek Definition window|Shift+Esc||
 
 ## Toolbars
 
 |||
 |-|-|
-|Add Buttons|Click toolbar overflow button|
-|Find Combo in Standard toolbar|Ctrl+D|
+|Add Buttons|Select the toolbar overflow button|
+|Find Combo in Standard toolbar|**Ctrl**+**D**|
 |Find Textbox Command Mode|Type ">"|
 |Create new alias|>alias NewAlias Command|
 
@@ -120,9 +120,6 @@ For information about how to optimize Visual Studio for accessibility, see [Acce
 
 ## See also
 
+- [Accessibility tips and tricks](../ide/reference/accessibility-tips-and-tricks.md)
 - [Keyboard shortcuts (VSTS and TFS)](/vsts/collaborate/keyboard-shortcuts)
-- [Visual Studio Blog](http://blogs.msdn.com/b/visualstudio)
-- [Visual Studio Tips and Tricks Blog](http://blogs.msdn.com/b/zainnab)
-- [Visual Studio Toolbox on Channel 9](http://channel9.msdn.com/Shows/Visual-Studio-Toolbox)
-- [Visual Studio UserVoice](http://visualstudio.uservoice.com/forums/121579-visual-studio)
-- [Visual Studio Connect Bugs](http://connect.microsoft.com/VisualStudio)
+- [Visual Studio tips and tricks blog](http://blogs.msdn.com/b/zainnab)

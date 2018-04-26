@@ -1,25 +1,24 @@
 ---
-title: "Options, Text Editor, C#, Formatting | Microsoft Docs"
+title: Options, Text Editor, C#, Formatting
 ms.date: 02/09/2018
-ms.reviewer: ""
-ms.suite: ""
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
-ms.topic: "article"
-f1_keywords: 
+ms.topic: reference
+f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.CSharp.Formatting.Spacing"
   - "VS.ToolsOptionsPages.Text_Editor.CSharp.Formatting.NewLines"
   - "VS.ToolsOptionsPages.Text_Editor.CSharp.Formatting.Indentation"
   - "VS.ToolsOptionsPages.Text_Editor.CSharp.Formatting.Wrapping"
   - "VS.ToolsOptionsPages.Text_Editor.CSharp.Formatting"
   - "VS.ToolsOptionsPages.Text_Editor.CSharp.Formatting.General"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "formatting options [C#]"
   - "Text editor Options dialog box, formatting"
 ms.assetid: 5a7bb668-1d0c-4ffe-9508-24592813162e
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.workload:
   - "dotnet"
 ---
 # Options, Text Editor, C#, Formatting
@@ -53,4 +52,4 @@ Indentation options on the **Tabs** pages for each language only determine where
 
 ## See also
 
-[General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)
+- [General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)

@@ -2,11 +2,8 @@
 title: "BscMake Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 f1_keywords: 
   - "vc.task.bscmake"
   - "VC.Project.VCBscMakeTool.PreserveSBR"
@@ -20,10 +17,9 @@ helpviewer_keywords:
   - "MSBuild (Visual C++), tasks"
   - "BscMake task (MSBuild (Visual C++))"
 ms.assetid: bb98fc67-cad8-43a7-9598-60df6d734db2
-caps.latest.revision: 7
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

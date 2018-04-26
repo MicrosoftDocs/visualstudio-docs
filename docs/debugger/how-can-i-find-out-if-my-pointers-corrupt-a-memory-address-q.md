@@ -2,12 +2,8 @@
 title: "How Can I Find Out If My Pointers Corrupt a Memory Address? | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
   - "VB"
@@ -21,10 +17,9 @@ helpviewer_keywords:
   - "debugging [C++], memory corruption"
   - "corrupted memory address"
 ms.assetid: a147c939-4fb1-415c-8410-cf303781e9e8
-caps.latest.revision: 19
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

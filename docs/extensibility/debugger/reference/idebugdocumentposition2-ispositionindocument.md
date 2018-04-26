@@ -2,21 +2,17 @@
 title: "IDebugDocumentPosition2::IsPositionInDocument | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugDocumentPosition2::IsPositionInDocument"
 helpviewer_keywords: 
   - "IDebugDocumentPosition2::IsPositionInDocument"
 ms.assetid: d5cf57cb-b93b-4e1d-bec9-185f4fe8668d
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

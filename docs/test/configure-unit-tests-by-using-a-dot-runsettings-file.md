@@ -1,11 +1,11 @@
-
 ---
-title: "Configure unit tests in Visual Studio by using a *.runsettings* file | Microsoft Docs"
+title: "Configure unit tests in Visual Studio with a .runsettings file"
 ms.date: 02/28/2018
-ms.technology: vs-devops-test
-ms.topic: article
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 author: gewarren
@@ -53,7 +53,7 @@ Following is a typical *.runsettings* file. Each element of the file is optional
 
     <!-- Path to Test Adapters -->
     <TestAdaptersPaths>%SystemDrive%\Temp\foo;%SystemDrive%\Temp\bar</TestAdaptersPaths>
-  
+
      <!--TestSessionTimeout is only available with Visual Studio 2017 version 15.5 and higher -->
      <!-- Specify timeout in milliseconds. A valid value should be greater than 0 -->
      <TestSessionTimeout>10000</TestSessionTimeout>
@@ -143,7 +143,7 @@ The code coverage data collector creates a log of which parts of the application
 
 The video data collector captures a screen recording when tests are run. This recording is useful for troubleshooting UI tests. Video data collector is available in **Visual Studio 2017 version 15.5** and later.
 
-To customize any other type of diagnostic data adapter, you must use a test settings file. For more information, see [Specifying Test Settings for Visual Studio Tests](/devops-test-docs/test/specifying-test-settings-for-visual-studio-tests).
+To customize any other type of diagnostic data adapter, you must use a [test settings file](../test/collect-diagnostic-information-using-test-settings.md).
 
 ### TestRunParameters
 
@@ -177,4 +177,4 @@ These settings are specific to the test adapter that runs test methods that have
 
 ## See also
 
-[Customizing Code Coverage Analysis](../test/customizing-code-coverage-analysis.md)
+- [Customizing Code Coverage Analysis](../test/customizing-code-coverage-analysis.md)

@@ -1,13 +1,10 @@
 ---
-title: "Deployment Overview - Visual Studio | Microsoft Docs"
-ms.custom: ""
+title: "Deployment Overview"
+description: "Learn about your options for deploying apps from Visual Studio."
+ms.custom: "mvc"
 ms.date: 11/26/2017
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.technology: vs-ide-deployment
+ms.topic: "quickstart"
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -22,15 +19,14 @@ helpviewer_keywords:
   - "deploying applications [Visual Studio], about deploying applications"
   - "components [.NET Framework], deploying"
 ms.assetid: 63fcdd5b-2e54-4210-9038-65bc23167725
-caps.latest.revision: 33
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---
 
-# Deployment Overview in Visual Studio
+# Quickstart: First look at deployment in Visual Studio
 
 By deploying an application, service, or component, you distribute it for installation on other computers, devices, servers, or in the cloud. You choose the appropriate method in Visual Studio for the type of deployment that you need. (Many app types support other deployment tools such as command line deployment or NuGet that are not described here.)
 

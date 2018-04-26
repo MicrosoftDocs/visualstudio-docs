@@ -1,13 +1,14 @@
 ---
-title: "Visual Studio Connected Environment | Microsoft Docs"
-author: "johnsta"
-ms.author: "johnsta"
-ms.date: "02/20/2018"
-ms.topic: "get-started-article"
-ms.technology: "vsce-kubernetes"
+title: "Create a .NET Core development environment with containers using Kubernetes in the cloud with Visual Studio - Step 6 - Learn about team development | Microsoft Docs"
+author: "ghogen"
+ms.author: "ghogen"
+ms.date: "04/05/2018"
+ms.topic: "tutorial"
+ms.prod: visual-studio-dev15
+ms.technology: "vs-azure"
 description: "Rapid Kubernetes development with containers and microservices on Azure"
 keywords: "Docker, Kubernetes, Azure, AKS, Azure Container Service, containers"
-manager: "ghogen"
+manager: "douge"
 ---
 # Get Started on Connected Environment with .NET Core and Visual Studio
 
@@ -44,7 +45,7 @@ Do the following to make sure both our `webfrontend` and `mywebapi` services are
 3. Switch to the Visual Studio window with the `webfrontend` project and press Ctrl+F5 to run it as well.
 
 > [!Note]
-It is sometimes necessarry to refresh your browser after it the web page is initially displayed following a Ctrl+F5.
+It is sometimes necessary to refresh your browser after it the web page is initially displayed following a Ctrl+F5.
 
 Anyone who opens the public URL and navigates to the web app will invoke the code path we have written which runs through both services using the default `mainline` space. Now suppose we want to continue developing `mywebapi` - how can we do this and not interrupt other developers who are using the development environment? To do that, we'll set up our own space.
 
