@@ -52,7 +52,7 @@ Examples of [.NET Obfuscation][obfuscation] and other [Application Protection][a
 * *[Renaming][renaming]* of identifiers to make reverse-engineering of the compiled assemblies more difficult.
 * *[Anti-tamper][tamper]* to detect the execution of tampered applications, transmit incident alerts, and terminate tampered sessions.
 * *[Anti-debug][debug]* to detect the attachment of a debugger to a running application, transmit incident alerts, and terminate debugged sessions.
-* *[Anti-rooted device][root]* to detect if the application is running on a rooted Android device, transmit incident alerts, and terminate sessions on these devices.
+* *[Anti-rooted device][root]* to detect if the application is running on a rooted Android device and terminate sessions on these devices.
 * *[Application expiration behaviors][shelflife]* that encode an "end-of-life" date, transmit alerts when applications are executed after their expiration date, and terminate expired application sessions.
 * *[Exception tracking][exceptions]* to monitor unhandled exceptions occurring within the application.
 * *[Session][sessions] and [feature][features] usage tracking* to determine what applications have been executed, what versions of those applications, and what features are used in those applications.
