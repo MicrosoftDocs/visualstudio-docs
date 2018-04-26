@@ -81,7 +81,7 @@ Although Solution Explorer is where you manage project files, the *editor* windo
 
 1. Run the program again with Ctrl+F5 or **Debug > Start Without Debugging**. Close the output window when you're done.
 
-## Next steps
+## Next step
 
 > [!div class="nextstepaction"]
 > [Using the interactive REPL window](tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md)
