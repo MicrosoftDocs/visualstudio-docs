@@ -4,12 +4,12 @@ description: Thsi Visual Studio workload brings together Python, R, F#, and thei
 ms.date: 01/24/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-rtvs
-  - vs-python
 ms.topic: overview
 author: kraigb
 ms.author: kraigb
 manager: douge
-ms.workload: 
+ms.workload:  
+  - python
   - data-science
 ---
 

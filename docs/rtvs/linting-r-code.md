@@ -5,8 +5,6 @@ ms.date: 01/15/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-rtvs
 ms.topic: conceptual
-dev_langs:
-  - R
 f1_keywords: 
   - "vs.toolsoptionspages.text_editor.r.lint"
 author: kraigb
@@ -18,7 +16,7 @@ ms.workload:
 
 # Linting R code in Visual Studio
 
-Linting is a process that analyzes code to reveal potential errors, formatting issues, and other code noise such as spurious whitespace. Linting also helps encourage certain coding conventions, such as how identifiers are named, which is very helpful within teams and other collaborative situations.
+Linting analyzes code to reveal potential errors, formatting issues, and other code noise such as spurious whitespace. Linting also helps encourage certain coding conventions, such as how identifiers are named. Such conventions are helpful within teams and other collaborative situations.
 
 R Tools for Visual Studio (RTVS) provides built-in linting for R, the behavior of which is controlled through a variety of options described in this article. These options are found in **Tool > Options > Text Editor > R > Lint**.
 
@@ -28,7 +26,7 @@ When enabled, linting is applied in the editor while you type. Issues appear as 
 
 ![Examples of linting for R code](media/linting-01.png)
 
-You often change linting options depending on the needs of a project or file. For example, sample code from an online course might use `=` instead of `<-` along with Pascal-case identifiers. Such code would show frequent linting warnings because the default linting options flag these cases. While working with that code, then, you can simply disable the options instead of spending time correcting each instance.
+You often change linting options depending on the needs of a project or file. For example, sample code from an online course might use `=` instead of `<-` along with Pascal-case identifiers. Such code would show frequent linting warnings because the default linting options flag these cases. While working with that code, then, you can disable the options instead of spending time correcting each instance.
 
 ## Assignment group
 

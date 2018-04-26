@@ -55,7 +55,7 @@ Once you've [installed Python support in Visual Studio 2017](installing-python-s
 
 **Answer**: With the Python workload installed, Visual Studio provides a variety of project templates including ones for the [Flask, Bottle, and Django web frameworks](../python/python-web-application-project-templates.md), Azure cloud services, different machine learning scenarios, and even a template to create a project from an existing folder structure containing a Python app. You access these through the **File > New > Project...** dialog box by selecting the **Python** language node and its child nodes.
 
-Visual Studio also provides a variety of file or *item templates* to quickly create a Python class, a Python package, a Python unit test, web.config files, and more. When you have a Python project open, you access item templates through the **Project > Add New Item...** menu command.
+Visual Studio also provides a variety of file or *item templates* to quickly create a Python class, a Python package, a Python unit test, `web.config` files, and more. When you have a Python project open, you access item templates through the **Project > Add New Item** menu command. See the [item templates](python-item-templates.md) reference.
 
 Using templates can save you significant time when starting a project or creating a file, and are also a great way to learn about different app types and code structures. It's helpful to take a few minutes to create projects and items from the various templates to familiarize yourself with what they offer.
 

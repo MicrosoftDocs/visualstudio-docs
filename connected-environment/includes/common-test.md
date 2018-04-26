@@ -1,3 +1,6 @@
+---
+ms.topic: "include"
+---
 ### This is a common section
 
 Here is some content.

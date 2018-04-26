@@ -34,7 +34,7 @@
 #### [Specify When and Where an Annotation Applies](specifying-when-and-where-an-annotation-applies.md)
 #### [Intrinsic Functions](intrinsic-functions.md)
 #### [Best Practices and Examples (SAL)](best-practices-and-examples-sal.md)
-### [Specify Additional Code Information by Using __analysis_assume](how-to-specify-additional-code-information-by-using-analysis-assume.md)
+### [Specify Additional Code Information by Using _Analysis_assume](how-to-specify-additional-code-information-by-using-analysis-assume.md)
 ## [Rule Sets](using-rule-sets-to-group-code-analysis-rules.md)
 ### [Rule Sets for Managed Code](how-to-configure-code-analysis-for-a-managed-code-project.md)
 #### [Configure Code Analysis for an ASP.NET Web Application](how-to-configure-code-analysis-for-an-aspnet-web-application.md)

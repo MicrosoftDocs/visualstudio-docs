@@ -1,3 +1,6 @@
+---
+ms.topic: "include"
+---
 So far we've run our application's code as if we were the only developer working on the app. In this section, we'll learn how Connected Environment streamlines team development:
 * Enable a team of developers to work in the same development environment.
 * Supports each developer iterating on their code in isolation and without fear of breaking others.
