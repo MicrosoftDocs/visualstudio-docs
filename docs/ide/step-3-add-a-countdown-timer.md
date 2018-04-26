@@ -18,7 +18,7 @@ In the third part of this tutorial, you'll add a countdown timer to track the nu
 > [!NOTE]
 >  This topic is part of a tutorial series about basic coding concepts. For an overview of the tutorial, see [Tutorial 2: Create a timed math quiz](../ide/tutorial-2-create-a-timed-math-quiz.md).  
   
-### To add a countdown timer  
+## To add a countdown timer  
 
 1.  Add an integer variable that's named **timeLeft**, just like you did in the previous procedure. Your code should look like the following.  
 
@@ -99,7 +99,7 @@ In the third part of this tutorial, you'll add a countdown timer to track the nu
      ![Math quiz in progress](../ide/media/express_addcountdown.png "Express_AddCountdown")  
 Math quiz in progress  
 
-### To continue or review  
+## To continue or review  
   
 -   To go to the next tutorial step, see [Step 4: Add the CheckTheAnswer() method](../ide/step-4-add-the-checktheanswer-parens-method.md).  
   

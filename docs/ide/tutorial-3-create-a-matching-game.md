@@ -15,7 +15,7 @@ ms.workload:
 # Tutorial 3: Create a matching game
 In this tutorial, you build a matching game, where the player must match pairs of hidden icons. You learn how to:  
 
--   Store objects, such as icons, in a `List` object.  
+-   Store objects, such as icons, in a <xref:System.Collections.Generic.List%601> object.  
 
 -   Use a `foreach` loop in Visual C# or a `For Each` loop in Visual Basic to iterate through items in a list.  
 
@@ -29,6 +29,8 @@ In this tutorial, you build a matching game, where the player must match pairs o
 
  ![Game that you create in this tutorial](../ide/media/express_finishedgame.png "Express_FinishedGame")  
 Game that you create in this tutorial  
+
+## Tutorial links
 
  To download a completed version of the sample, see [Complete matching game tutorial sample](http://code.msdn.microsoft.com/Complete-Matching-Game-4cffddba).  
 

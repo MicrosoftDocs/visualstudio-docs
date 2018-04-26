@@ -17,7 +17,7 @@ Next, you use the **Properties** window to change the way your form looks.
   
  ![link to video](../data-tools/media/playvideo.gif "PlayVideo")For a video version of this topic, see [Tutorial 1: Create a picture viewer in Visual Basic - Video 1](http://go.microsoft.com/fwlink/?LinkId=205209) or [Tutorial 1: Create a picture viewer in C# - Video 1](http://go.microsoft.com/fwlink/?LinkId=205199). These videos use an earlier version of Visual Studio, so there are slight differences in some menu commands and other user interface elements. However, the concepts and procedures work similarly in the current version of Visual Studio.  
   
-### To set your form properties  
+## To set your form properties  
   
 1.  Be sure you're looking at **Windows Forms Designer**. In the Visual Studio integrated development environment (IDE), choose the **Form1.cs [Design]** tab (or the **Form1.vb [Design]** tab in Visual Basic).  
   
@@ -64,7 +64,7 @@ Drag handle
   
     -   Choose the **X** button in the upper corner of the **Form1** window.  
   
-### To continue or review  
+## To continue or review  
   
 -   To go to the next tutorial step, see [Step 4: Lay out your form with a TableLayoutPanel control](../ide/step-4-lay-out-your-form-with-a-tablelayoutpanel-control.md).  
   

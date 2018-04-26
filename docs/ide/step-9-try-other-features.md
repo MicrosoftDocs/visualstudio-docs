@@ -17,7 +17,7 @@ To learn more, try changing icons and colors, adding a game timer, and adding so
   
  To download a completed version of the sample, see [Complete matching game tutorial sample](http://code.msdn.microsoft.com/Complete-Matching-Game-4cffddba).  
   
-### To try other features  
+## To try other features  
 
 -   Replace the icons and colors with ones you choose.  
 
@@ -41,7 +41,7 @@ To learn more, try changing icons and colors, adding a game timer, and adding so
 
 -   Make the game more challenging by hiding the first icon if the player is too slow to respond and doesn't choose the second icon before a certain amount of time.  
 
-### To continue or review  
+## To continue or review  
   
 -   If you get stuck or have programming questions, try posting your question on one of the MSDN forums. See [Visual Basic forum](http://social.msdn.microsoft.com/Forums/home?forum=vbgeneral) and [Visual C# forum](http://social.msdn.microsoft.com/Forums/home?forum=csharpgeneral).  
   

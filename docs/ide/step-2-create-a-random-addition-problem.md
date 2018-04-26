@@ -18,7 +18,7 @@ In the second part of this tutorial, you make the quiz challenging by adding mat
 > [!NOTE]
 >  This topic is part of a tutorial series about basic coding concepts. For an overview of the tutorial, see [Tutorial 2: Create a timed math quiz](../ide/tutorial-2-create-a-timed-math-quiz.md).
 
-### To create a random addition problem
+## To create a random addition problem
 
 1.  In the form designer, choose the form (**Form1**).
 
@@ -89,7 +89,7 @@ Random addition problem
 
      In the next step of the tutorial, you'll add the sum.
 
-### To continue or review
+## To continue or review
 
 -   To go to the next tutorial step, see [Step 3: Add a countdown timer](../ide/step-3-add-a-countdown-timer.md).
 

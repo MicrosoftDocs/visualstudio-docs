@@ -18,7 +18,7 @@ In the fifth part of this tutorial, you'll add <xref:System.Windows.Forms.Contro
 > [!NOTE]
 >  This topic is part of a tutorial series about basic coding concepts. For an overview of the tutorial, see [Tutorial 2: Create a timed math quiz](../ide/tutorial-2-create-a-timed-math-quiz.md).  
   
-### To verify the default behavior  
+## To verify the default behavior  
 
 1.  Run your program, and start the quiz.  
   
@@ -32,7 +32,7 @@ In the fifth part of this tutorial, you'll add <xref:System.Windows.Forms.Contro
   
      This behavior may seem odd, but it makes sense given the logic of the code. When you choose the **Start** button, its **Enabled** property is set to **False**, and the button appears dimmed and is unavailable. Your program changes the current selection (focus) to the control that has the next lowest TabIndex value, which is the NumericUpDown control for the addition problem. When you use the **Tab** key to go to a NumericUpDown control, the cursor is automatically positioned at the start of the control, which is why the numbers that you enter appear from the left side and not the right side. When you specify a number that's higher than the value of the **MaximumValue** property, which is set to 100, the number that you enter is replaced with the value of that property.  
   
-### To add an Enter event handler for a NumericUpDown control  
+## To add an Enter event handler for a NumericUpDown control  
   
 1.  Choose the first **NumericUpDown** control (named "sum") on the form, and then, in the **Properties** dialog box, choose the **Events** icon on the toolbar.  
   
@@ -64,7 +64,7 @@ In the fifth part of this tutorial, you'll add <xref:System.Windows.Forms.Contro
 
      When you choose a **NumericUpDown** control, the existing value is automatically selected and then cleared when you start to enter a different value.  
 
-### To continue or review  
+## To continue or review  
   
 -   To go to the next tutorial step, see [Step 6: Add a subtraction problem](../ide/step-6-add-a-subtraction-problem.md).  
   

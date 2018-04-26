@@ -18,7 +18,7 @@ As the first steps in developing this quiz, you create the project, and you add 
 > [!NOTE]
 >  This topic is part of a tutorial series about basic coding concepts. For an overview of the tutorial, see [Tutorial 2: Create a timed math quiz](../ide/tutorial-2-create-a-timed-math-quiz.md).  
   
-### To create a project and and set properties for a form  
+## To create a project and set properties for a form  
   
 1.  On the menu bar, choose **File** > **New** > **Project**.  
   
@@ -40,7 +40,7 @@ As the first steps in developing this quiz, you create the project, and you add 
 
      These values prevent quiz takers from resizing the form.  
   
-### To create the time remaining box  
+## To create the time remaining box  
   
 1.  Add a <xref:System.Windows.Forms.Label> control from the **Toolbox**, and then set the value of its **(Name)** property to **timeLabel**.  
   
@@ -114,7 +114,7 @@ As the first steps in developing this quiz, you create the project, and you add 
      ![First row of math quiz](../ide/media/express_firstrow.png "Express_firstRow")  
 First row of math quiz  
 
-### To add controls for the subtraction, multiplication, and division problems  
+## To add controls for the subtraction, multiplication, and division problems  
   
 1.  Copy all five controls for the addition problem (the four Label controls and the NumericUpDown control), and then paste them.  
   
@@ -141,7 +141,7 @@ First row of math quiz
     > [!NOTE]
     >  You can copy the multiplication sign × and the division sign ÷ from this tutorial and paste them onto the form.  
 
-### To add a start button and set the tab-index order  
+## To add a start button and set the tab-index order  
   
 1.  Add a <xref:System.Windows.Forms.Button> control from the **Toolbox**, and then set its **(Name)** property to **startButton**.  
   
@@ -167,7 +167,7 @@ Initial math quiz form
   
 8.  To verify whether the **TabIndex** property works as you expect, save and run your program by choosing the **F5** key, or by choosing **Debug** > **Start Debugging** on the menu bar, and then choose the **Tab** key a few times.  
   
-### To continue or review  
+## To continue or review  
   
 -   To go to the next tutorial step, see [Step 2: Create a random addition problem](../ide/step-2-create-a-random-addition-problem.md).  
   

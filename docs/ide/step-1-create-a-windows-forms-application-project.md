@@ -17,7 +17,7 @@ When you create a picture viewer, the first step is to create a Windows Forms Ap
   
  ![link to video](../data-tools/media/playvideo.gif "PlayVideo")For a video version of this topic, see [Tutorial 1: Create a picture viewer in Visual Basic - Video 1](http://go.microsoft.com/fwlink/?LinkId=205209) or [Tutorial 1: Create a picture viewer in C# - Video 1](http://go.microsoft.com/fwlink/?LinkId=205199). These videos use an earlier version of Visual Studio, so there are slight differences in some menu commands and other user interface elements. However, the concepts and procedures work similarly in the current version of Visual Studio.  
   
-### To create a Windows Forms Application project  
+## To create a Windows Forms Application project  
   
 1.  On the menu bar, choose **File** > **New** > **Project**. The dialog box should look like this.  
   
@@ -62,7 +62,7 @@ When you create a picture viewer, the first step is to create a Windows Forms Ap
   
      Visual Studio automatically fills in the folder name and the project name and then saves the project in your projects folder.  
 
-### To continue or review  
+## To continue or review  
   
 -   To go to the next tutorial step, see [Step 2: Run your program](../ide/step-2-run-your-program.md).  
   

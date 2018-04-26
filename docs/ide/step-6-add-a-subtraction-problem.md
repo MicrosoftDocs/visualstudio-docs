@@ -23,7 +23,7 @@ In the sixth part of this tutorial, you'll add a subtraction problem and learn h
 
 -   Update your timer's <xref:System.Windows.Forms.Timer.Tick> event handler so that the event handler fills in the correct answer when time runs out.
 
-### To add a subtraction problem
+## To add a subtraction problem
 
 1.  Add two integer variables for the subtraction problem to your form, between the integer variables for the addition problem and the timer. The code should look like the following.
 
@@ -75,7 +75,7 @@ Overload for **Next()** method in **IntelliSense**
      ![Math quiz with subtraction problem](../ide/media/express_addsubtract.png "Express_AddSubtract")
 **Math quiz** with subtraction problem
 
-### To continue or review
+## To continue or review
 
 -   To go to the next tutorial step, see [Step 7: Add multiplication and division problems](../ide/step-7-add-multiplication-and-division-problems.md).
 

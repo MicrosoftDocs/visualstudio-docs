@@ -15,7 +15,7 @@ ms.workload:
 # Step 2: Add a Random object and a list of icons
 In this step, you create a set of matching symbols for the game. Each symbol is added to two random cells in the TableLayoutPanel on the form. To do this, you use two `new` statements to create two objects. The first is a <xref:System.Random> object, like the one you used in the math quiz game. It is used in this code to randomly choose cells in the TableLayoutPanel. The second object, which may be new to you, is a <xref:System.Collections.Generic.List%601> object which is used to store the randomly-chosen symbols.
 
-### To add a random object and a list of icons
+## To add a random object and a list of icons
 
 1.  In **Solution Explorer**, choose *Form1.cs* if you're using Visual C#, or *Form1.vb* if you're using Visual Basic, and then on the menu bar, choose **View** > **Code**. As an alternative, you can choose the **F7** key or double-click **Form1** in **Solution Explorer**.
 
@@ -47,7 +47,7 @@ IntelliSense window
     > [!NOTE]
     >  In Visual Basic, you get the same result, but first the strings are put into a temporary array, which is then converted into a list object. An array is similar to a list, except, for example, arrays are created with a fixed size. Lists can shrink and grow as needed, which is important in this program.
 
-### To continue or review
+## To continue or review
 
 -   To go to the next tutorial step, see [Step 3: Assign a random icon to each label](../ide/step-3-assign-a-random-icon-to-each-label.md).
 

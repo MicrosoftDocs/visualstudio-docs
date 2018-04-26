@@ -15,7 +15,7 @@ ms.workload:
 # Step 8: Add a method to verify whether the player won
 You've created a fun game, but it needs an additional item to finish it. The game should end when the player wins, so you need to add a `CheckForWinner()` method to verify whether the player won.  
 
-### To add a method to verify whether the player won  
+## To add a method to verify whether the player won  
 
 1.  Add a `CheckForWinner()` method to the bottom of your code, below the `timer1_Tick()` event handler, as shown in the following code.  
 
@@ -34,7 +34,7 @@ You've created a fun game, but it needs an additional item to finish it. The gam
      ![Matching game with MessageBox](../ide/media/express_tut4step8.png "Express_Tut4Step8")  
 **Matching game** with **MessageBox**  
   
-### To continue or review  
+## To continue or review  
   
 -   To go to the next tutorial step, see [Step 9: Try other features](../ide/step-9-try-other-features.md).  
   

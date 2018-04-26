@@ -41,7 +41,7 @@ You next add a comment to your code. A comment is a note that doesn't change the
   
  ![link to video](../data-tools/media/playvideo.gif "PlayVideo")For a video version of this topic, see [Tutorial 1: Create a picture viewer in Visual Basic - Video 5](http://go.microsoft.com/fwlink/?LinkId=205216) or [Tutorial 1: Create a picture viewer in C# - Video 5](http://go.microsoft.com/fwlink/?LinkId=205206). These videos use an earlier version of Visual Studio, so there are slight differences in some menu commands and other user interface elements. However, the concepts and procedures work similarly in the current version of Visual Studio.  
   
-### To add comments  
+## To add comments  
 
 1.  Add the following comment to your code.  
 
@@ -70,7 +70,7 @@ You next add a comment to your code. A comment is a note that doesn't change the
      ![Picture Viewer](../ide/media/express_pictureviewerdonerun.png "Express_PictureViewerDoneRun")  
 **Picture Viewer**  
   
-### To test your program  
+## To test your program  
   
 1.  Choose the **F5** key or choose the **Start Debugging** toolbar button.  
   
@@ -83,7 +83,7 @@ You next add a comment to your code. A comment is a note that doesn't change the
 
      Right now, larger pictures go beyond the borders of your picture viewer. In the next step, you'll add code to make pictures fit in the window.  
 
-### To continue or review  
+## To continue or review  
   
 -   To go to the next tutorial step, see [Step 10: Write code for additional buttons and a check box](../ide/step-10-write-code-for-additional-buttons-and-a-check-box.md).  
   

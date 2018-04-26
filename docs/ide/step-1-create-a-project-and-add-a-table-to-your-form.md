@@ -15,7 +15,7 @@ ms.workload:
 # Step 1: Create a project and add a table to your form
 The first step in creating a matching game is to create the project and add a table to your form. The table helps align the icons into an orderly 4x4 grid. You also set several properties to enhance the appearance of the game board.  
 
-### To create a project and add a table to your form  
+## To create a project and add a table to your form  
   
 1.  On the menu bar, choose **File** > **New** > **Project**.  
   
@@ -83,7 +83,7 @@ The first step in creating a matching game is to create the project and add a ta
      ![Initial matching game form](../ide/media/express_tut4step1.png "Express_Tut4Step1")  
 Initial matching game form  
 
-### To continue or review  
+## To continue or review  
   
 -   To go to the next tutorial step, see [Step 2: Add a Random object and a list of icons](../ide/step-2-add-a-random-object-and-a-list-of-icons.md).  
   

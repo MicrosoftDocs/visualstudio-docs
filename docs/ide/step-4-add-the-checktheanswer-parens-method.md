@@ -18,7 +18,7 @@ In the fourth part of this tutorial, you'll write a method, `CheckTheAnswer()`, 
 > [!NOTE]
 >  If you're following along in Visual Basic, you'll use the `Function` keyword instead of the usual `Sub` keyword because this method returns a value. It's really that simple: a sub doesn't return a value, but a function does.  
 
-### To verify whether the answers are correct  
+## To verify whether the answers are correct  
 
 1.  Add the `CheckTheAnswer()` method.  
   
@@ -43,7 +43,7 @@ In the fourth part of this tutorial, you'll write a method, `CheckTheAnswer()`, 
 
      When you provide a correct answer, a message box opens, the **Start** button becomes available, and the timer stops.  
 
-### To continue or review  
+## To continue or review  
   
 -   To go to the next tutorial step, see [Step 5: Add Enter event handlers for the NumericUpDown controls](../ide/step-5-add-enter-event-handlers-for-the-numericupdown-controls.md).  
   

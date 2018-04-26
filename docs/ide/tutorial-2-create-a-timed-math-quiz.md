@@ -15,9 +15,9 @@ ms.workload:
 # Tutorial 2: Create a timed math quiz
 In this tutorial, you build a quiz in which the quiz taker must answer four random arithmetic problems within a specified time. You learn how to:  
 
--   Generate random numbers by using the `Random` class.  
+-   Generate random numbers by using the <xref:System.Random> class.  
 
--   Trigger events to occur at a specific time by using a **Timer** control.  
+-   Trigger events to occur at a specific time by using a <xref:System.Windows.Forms.Timer> control.  
 
 -   Control program flow by using `if else` statements.  
 
@@ -27,6 +27,8 @@ In this tutorial, you build a quiz in which the quiz taker must answer four rand
 
  ![Math quiz with four problems](../ide/media/express_finishedquiz.png "Express_FinishedQuiz")  
 Quiz that you create in this tutorial  
+
+## Tutorial links
 
  To download a completed version of the quiz, see [Complete math quiz tutorial sample](http://code.msdn.microsoft.com/Complete-Math-Quiz-8581813c).  
 

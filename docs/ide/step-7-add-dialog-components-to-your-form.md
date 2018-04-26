@@ -19,7 +19,7 @@ To enable your program to open picture files and choose a background color, in t
   
  ![link to video](../data-tools/media/playvideo.gif "PlayVideo")For a video version of this topic, see [Tutorial 1: Create a picture viewer in Visual Basic - Video 3](http://go.microsoft.com/fwlink/?LinkId=205213) or [Tutorial 1: Create a picture viewer in C# - Video 3](http://go.microsoft.com/fwlink/?LinkId=205202). These videos use an earlier version of Visual Studio, so there are slight differences in some menu commands and other user interface elements. However, the concepts and procedures work similarly in the current version of Visual Studio.  
   
-### To add dialog components to your form  
+## To add dialog components to your form  
   
 1.  Choose the **Windows Forms Designer** (**Form1.cs [Design]** or **Form1.vb [Design]**) and then open the **Dialogs** group in the **Toolbox**.  
   
@@ -46,7 +46,7 @@ To enable your program to open picture files and choose a background color, in t
     > [!NOTE]
     >  To see an example of the **Open File** dialog box in a different application, open **Notepad** or **Paint**, and on the menu bar, choose **File** > **Open**. Notice how there's a **Files of type** drop-down list at the bottom. You just used the **Filter** property in the **OpenFileDialog** component to set that up. Also, notice how the **Title** and **Filter** properties are bold in the **Properties** window. The IDE does that to show you any properties that have been changed from their default values.  
   
-### To continue or review  
+## To continue or review  
   
 -   To go to the next tutorial step, see [Step 8: Write code for the show a picture button event handler](../ide/step-8-write-code-for-the-show-a-picture-button-event-handler.md).  
   

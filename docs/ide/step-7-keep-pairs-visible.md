@@ -15,7 +15,7 @@ ms.workload:
 # Step 7: Keep pairs visible
 The game works well, as long as the player only chooses pairs of icons that don't match. But consider what should happen when the player chooses a matching pair. Instead of making the icons disappear by turning on the timer (using the <xref:System.Windows.Forms.Timer.Start> method), the game should reset itself so that it's no longer keeping track of any labels using the `firstClicked` and `secondClicked` reference variables, without resetting the colors for the two labels that were chosen.  
 
-### To keep pairs visible  
+## To keep pairs visible  
 
 1.  Add the following `if` statement to the `label_Click()` event handler method, near the end of the code just above the statement where you start the timer. Take a close look at the code while adding it to the program. Consider how the code works.  
 
@@ -53,7 +53,7 @@ The game works well, as long as the player only chooses pairs of icons that don'
      ![Game that you create in this tutorial](../ide/media/express_finishedgame.png "Express_FinishedGame")  
 **Matching game** with visible icon pairs  
   
-### To continue or review  
+## To continue or review  
   
 -   To go to the next tutorial step, see [Step 8: Add a method to verify whether the player won](../ide/step-8-add-a-method-to-verify-whether-the-player-won.md).  
   

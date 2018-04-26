@@ -17,7 +17,7 @@ In this step, you add controls, such as a <xref:System.Windows.Forms.PictureBox>
   
  ![link to video](../data-tools/media/playvideo.gif "PlayVideo")For a video version of this topic, see [Tutorial 1: Create a picture viewer in Visual Basic - Video 2](http://go.microsoft.com/fwlink/?LinkId=205211) or [Tutorial 1: Create a picture viewer in C# - Video 2](http://go.microsoft.com/fwlink/?LinkId=205200). These videos use an earlier version of Visual Studio, so there are slight differences in some menu commands and other user interface elements. However, the concepts and procedures work similarly in the current version of Visual Studio.  
   
-### To add controls to your form  
+## To add controls to your form  
   
 1.  Go to the **Toolbox** tab (located on the left side of the Visual Studio IDE) and expand the **Common Controls** group. This shows the most common controls that you see on forms.  
   
@@ -50,7 +50,7 @@ In this step, you add controls, such as a <xref:System.Windows.Forms.PictureBox>
     > [!NOTE]
     >  A <xref:System.Windows.Forms.FlowLayoutPanel> is a container that arranges other controls in neat rows in order. When you resize a FlowLayoutPanel, if it has room to lay out all of its controls in a single row, it does that. Otherwise, it arranges them in lines, one on top of the other. You will use a FlowLayoutPanel to hold four buttons. If the buttons arrange one on top another when added, be sure that the FlowLayoutPanel is selected before adding the buttons. Although it was stated earlier that each cell can hold only one control, the lower-right cell of the TableLayoutPanel has four button controls. This is because you can put a control in a cell that holds other controls. That kind of control is called a container, and the FlowLayoutPanel is a container.  
   
-### To add buttons  
+## To add buttons  
   
 1.  Choose the new FlowLayoutPanel that you added. Go to **Common Controls** in the **Toolbox** and double-click the **Button** item to add a button control called **button1** to your FlowLayoutPanel. Repeat to add another button. The IDE determines that there's already a button called **button1** and calls the next one **button2**.  
   
@@ -73,7 +73,7 @@ In this step, you add controls, such as a <xref:System.Windows.Forms.PictureBox>
   
 6.  Now run your program again to see your newly laid out form. Choosing the buttons and the check box doesn't do anything yet, but it will work soon.  
 
-### To continue or review  
+## To continue or review  
   
 -   To go to the next tutorial step, see [Step 6: Name your button controls](../ide/step-6-name-your-button-controls.md).  
   

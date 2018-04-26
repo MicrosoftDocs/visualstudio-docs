@@ -17,7 +17,7 @@ In this step, you add a <xref:System.Windows.Forms.TableLayoutPanel> control to 
   
  ![link to video](../data-tools/media/playvideo.gif "PlayVideo")For a video version of this topic, see [Tutorial 1: Create a picture viewer in Visual Basic - Video 2](http://go.microsoft.com/fwlink/?LinkId=205211) or [Tutorial 1: Create a picture viewer in C# - Video 2](http://go.microsoft.com/fwlink/?LinkId=205200). These videos use an earlier version of Visual Studio, so there are slight differences in some menu commands and other user interface elements. However, the concepts and procedures work similarly in the current version of Visual Studio.  
   
-### To lay out your form with a TableLayoutPanel control  
+## To lay out your form with a TableLayoutPanel control  
   
 1.  On the left side of the Visual Studio IDE, locate the **Toolbox** tab. Choose the **Toolbox** tab, and the **Toolbox** appears. (Or, on the menu bar, choose **View** > **Toolbox**.)  
   
@@ -82,7 +82,7 @@ In this step, you add a <xref:System.Windows.Forms.TableLayoutPanel> control to 
      ![Form1 with resized TableLayoutPanel](../ide/media/vs_formafterlayoutpanel.png "VS_FormAfterLayoutPanel")  
 **Form1** with resized **TableLayoutPanel**  
   
-### To continue or review  
+## To continue or review  
   
 -   To go to the next tutorial step, see [Step 5: Add controls to your form](../ide/step-5-add-controls-to-your-form.md).  
   

@@ -15,7 +15,7 @@ ms.workload:
 # Step 6: Add a timer
 Next, you add a <xref:System.Windows.Forms.Timer> control to the matching game. A timer waits a specified number of milliseconds, and then fires an event, referred to as a *tick*. This is useful for starting an action, or repeating an action on a regular basis. In this case, you'll use a timer to enable players to choose two icons, and if the icons don't match, hide the two icons again after a short period of time.  
   
-### To add a timer  
+## To add a timer  
   
 1.  From the toolbox in **Windows Forms Designer**, choose **Timer** (in the **Components** category) and then choose the **Enter** key, or double-click the timer to add a timer control to the form. The timer's icon, called **Timer1**, should appear in a space below the form, as shown in the following picture.  
   
@@ -50,7 +50,7 @@ Next, you add a <xref:System.Windows.Forms.Timer> control to the matching game. 
 
 6.  Choose another icon. It appears briefly, and then both icons disappear. Repeat this numerous times. The form now keeps track of the first and second icons that you choose, and uses the timer to pause before making the icons disappear.  
 
-### To continue or review  
+## To continue or review  
   
 -   To go to the next tutorial step, see [Step 7: Keep pairs visible](../ide/step-7-keep-pairs-visible.md).  
   

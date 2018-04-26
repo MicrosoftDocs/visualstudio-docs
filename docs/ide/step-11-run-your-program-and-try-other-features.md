@@ -19,7 +19,7 @@ Your program is finished and ready to run. You can run your program and set the 
   
  ![link to video](../data-tools/media/playvideo.gif "PlayVideo")For a video version of this topic, see [Tutorial 1: Create a picture viewer in Visual Basic - Video 5](http://go.microsoft.com/fwlink/?LinkId=205216) or [Tutorial 1: Create a picture viewer in C# - Video 5](http://go.microsoft.com/fwlink/?LinkId=205206). These videos use an earlier version of Visual Studio, so there are slight differences in some menu commands and other user interface elements. However, the concepts and procedures work similarly in the current version of Visual Studio.  
   
-### To run your program and set the background color  
+## To run your program and set the background color  
   
 1.  Choose **F5**, or on the menu bar, choose **Debug** > **Start Debugging**.  
   
@@ -35,7 +35,7 @@ Your program is finished and ready to run. You can run your program and set the 
 
 4.  Choose the **Clear the picture** button to make sure it clears. Then, exit the program by choosing the **Close** button.  
 
-### To try other features  
+## To try other features  
 
 -   Change the color of the form and the buttons by using the **BackColor** property.  
 
@@ -45,7 +45,7 @@ Your program is finished and ready to run. You can run your program and set the 
   
 -   Use your form's **AcceptButton** and **CancelButton** properties so that buttons are automatically chosen when the user chooses the **Enter** or **Esc** key. Make the program open the **Open File** dialog box when the user chooses **Enter** and close the box when the user chooses **Esc**.  
   
-### To continue or review  
+## To continue or review  
   
 -   To learn more about programming in Visual Studio, see [Programming concepts](http://msdn.microsoft.com/Library/65c12cca-af4f-4017-886e-2dbc00a189d6).  
   

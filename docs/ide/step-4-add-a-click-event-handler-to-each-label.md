@@ -23,7 +23,7 @@ The matching game works as follows:
   
  To get your program to work that way, you add a <xref:System.Windows.Forms.Control.Click> event handler that changes the color of the label that is chosen.  
   
-### To add a click event handler to each label  
+## To add a click event handler to each label  
   
 1.  Open the form in the **Windows Forms Designer**. In **Solution Explorer**, choose *Form1.cs* or *Form1.vb*. On the menu bar, choose **View** > **Designer**.  
   
@@ -51,7 +51,7 @@ The matching game works as follows:
   
 6.  On the menu bar, choose **File** > **Save All** to save your progress, and then, on the menu bar, choose **Debug** > **Start Debugging** to run your program. You should see an empty form with a blue background. Choose any of the cells in the form, and one of the icons should become visible. Continue choosing different places in the form. As you choose the icons, they should appear.  
   
-### To continue or review  
+## To continue or review  
   
 -   To go to the next tutorial step, see [Step 5: Add label references](../ide/step-5-add-label-references.md).  
   

@@ -15,7 +15,7 @@ ms.workload:
 # Step 7: Add multiplication and division problems
 In the seventh part of this tutorial, you'll add multiplication and division problems, but first think about how to make that change. Consider the initial step, which involves storing values.  
 
-### To add multiplication and division problems  
+## To add multiplication and division problems  
 
 1.  Add four more integer variables to the form.  
 
@@ -46,7 +46,7 @@ In the seventh part of this tutorial, you'll add multiplication and division pro
      ![Math quiz with four problems](../ide/media/express_finishedquiz.png "Express_FinishedQuiz")  
 **Math quiz** with four problems  
   
-### To continue or review  
+## To continue or review  
   
 -   To go to the next tutorial step, see [Step 8: Customize the quiz](../ide/step-8-customize-the-quiz.md).  
   

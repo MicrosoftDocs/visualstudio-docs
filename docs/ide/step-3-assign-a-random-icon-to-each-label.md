@@ -15,7 +15,7 @@ ms.workload:
 # Step 3: Assign a random icon to each label
 If the icons show up in the same cells every game, it's not very challenging. To avoid this, assign the icons randomly to the Label controls on your form by using an `AssignIconsToSquares()` method.  
 
-### To assign a random icon to each label  
+## To assign a random icon to each label  
 
 1.  Before adding the following code, consider how the method works. There's a new keyword: `foreach` in Visual C# and `For Each` in Visual Basic. (One of the lines is commented out on purpose, which is explained at the end of this procedure.)  
 
@@ -74,7 +74,7 @@ Matching game with random icons
 
 7.  On the menu bar, choose the **Save All** button to save your program, and then run it. The icons seem to have disappeared—only a blue background appears. However, the icons are randomly assigned and are still there. Because the icons are the same color as the background, it hides them from the player. After all, it wouldn't be a very challenging game if the player could see all of the icons right away!  
 
-### To continue or review  
+## To continue or review  
   
 -   To go to the next tutorial step, see [Step 4: Add a click event handler to each label](../ide/step-4-add-a-click-event-handler-to-each-label.md).  
   

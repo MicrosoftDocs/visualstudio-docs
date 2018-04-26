@@ -22,14 +22,14 @@ Now you're ready to complete the other four methods. You could copy and paste th
 > [!NOTE]
 >  As a best practice: Always comment your code. Comments are information for a person to read, and it's worth the time to make your code understandable. Everything on a comment line is ignored by the program. In Visual C#, you comment a line by typing two forward slashes at the beginning (//), and in Visual Basic you comment a line by starting with a single quotation mark (').  
 
-### To write code for additional buttons and a check box  
+## To write code for additional buttons and a check box  
   
 -   Add the following code to your **Form1** code file (*Form1.cs* or *Form1.vb*). Choose the **VB** tab to view Visual Basic code.  
   
      [!code-vb[VbExpressTutorial1Step9_10#2](../ide/codesnippet/VisualBasic/step-10-write-code-for-additional-buttons-and-a-check-box_1.vb)]
      [!code-csharp[VbExpressTutorial1Step9_10#2](../ide/codesnippet/CSharp/step-10-write-code-for-additional-buttons-and-a-check-box_1.cs)]  
 
-### To continue or review  
+## To continue or review  
   
 -   To go to the next tutorial step, see [Step 11: Run your program and try other features](../ide/step-11-run-your-program-and-try-other-features.md).  
   
