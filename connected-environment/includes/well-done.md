@@ -1,3 +1,6 @@
+---
+ms.topic: "include"
+---
 ## Well done!
 You've completed the getting started guide! You learned how to:
 
