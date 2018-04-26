@@ -5,6 +5,7 @@ ms.date: 04/25/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: tutorial
+author: kraigb
 ms.author: kraigb
 manager: douge
 ms.workload: 
