@@ -164,7 +164,7 @@
 ## [Using the Task List](using-the-task-list.md)
 ## [Find code changes and other history](find-code-changes-and-other-history-with-codelens.md)
 ### [CodeIndex Command](codeindex-command.md)
-## [Using the Visual Studio Development Environment for C#](csharp-ide\TOC.md)
+## [Using the Visual Studio Development Environment for C#](../csharp-ide/TOC.md)
 # [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)
 # [Profiling](../profiling/profiling-tools.md)
 # [Improve Code Quality](../test/improve-code-quality.md)
