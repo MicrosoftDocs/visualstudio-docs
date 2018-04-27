@@ -186,7 +186,7 @@
 ## [Creating Options Pages](creating-options-pages.md)
 # [Service Essentials](service-essentials.md)
 ## [List of Available Services](list-of-available-services.md)
-# [Visual Studio Debugger Extensibility](debugger/visual-studio-debugger-extensibility.md)
+# [Visual Studio Debugger Extensibility](../debugger/visual-studio-debugger-extensibility.md)
 # [Source Control](source-control.md)
 ## [Essentials](source-control-integration-essentials.md)
 ## [Overview](source-control-integration-overview.md)
