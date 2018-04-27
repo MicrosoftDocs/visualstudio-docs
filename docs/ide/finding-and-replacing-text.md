@@ -39,6 +39,9 @@ ms.workload:
 
 You can find and replace text in the Visual Studio editor by using [Find and Replace](#find-and-replace-control) or [Find/Replace in Files](#find-replace-in-files). New in **Visual Studio 2017 version 15.7**, you can find and replace *some* instances of a pattern by using *[multi-caret selection](#multi-caret-selection)*.
 
+> [!TIP]
+> If you're renaming code symbols such as variables and methods, it's better to *[refactor](../ide/reference/rename.md)* them than to use find-and-replace. Refactoring is intelligent and understands scope, whereas find-and-replace blindly replaces all instances.
+
 Find-and-replace functionality is available in the editor, in certain other text-based windows such as the **Find Results** windows, in designer windows such as the XAML designer and Windows Forms designer, and in tool windows.
 
 You can scope searches to the current document, the current solution, or a custom set of folders. You can also specify a set of file name extensions for multi-file searches. Customize search syntax by using .NET [regular expressions](../ide/using-regular-expressions-in-visual-studio.md).
@@ -118,3 +121,4 @@ Some of the commands are also available on the **Edit** menu, under **Multiple C
 ## See also
 
 - [Use regular expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md)
+- [Refactor code in Visual Studio](../ide/refactoring-in-visual-studio.md)
