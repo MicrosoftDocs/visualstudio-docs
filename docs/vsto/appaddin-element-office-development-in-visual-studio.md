@@ -21,7 +21,7 @@ ms.workload:
   
 ## Syntax  
   
-```  
+```xml 
 <appAddin  
   application  
   loadBehavior  
@@ -61,7 +61,7 @@ ms.workload:
   
 ### Code  
   
-```  
+```xml  
 <vstov4:appAddIn   
   application="Outlook"   
   loadBehavior="3"   

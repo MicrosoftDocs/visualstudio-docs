@@ -32,7 +32,7 @@ ms.workload:
   
  Application manifests for Office solutions have the following element in the `co.v1` namespace.  
   
-```  
+```xml  
 <entryPoint>  
     <co.v1:customHostSpecified />  
 </entryPoint>   
@@ -40,7 +40,7 @@ ms.workload:
   
  These application manifests also have the following elements and attributes in the `vstav3` namespace.  
   
-```  
+```xml  
 <addIn>  
   <entryPointsCollection>  
     <entryPoints>  
