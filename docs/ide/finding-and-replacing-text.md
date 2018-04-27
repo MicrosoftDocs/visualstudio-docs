@@ -1,5 +1,5 @@
 ---
-title: Find and replace text, and multi-caret selection
+title: Find and replace text
 ms.date: 05/07/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
@@ -27,7 +27,6 @@ helpviewer_keywords:
   - "find and replace"
   - "find text"
   - "replace text"
-  - "multi-caret selection"
 ms.assetid: a62545c3-1570-4d12-99fb-a82607eb35a1
 author: gewarren
 ms.author: gewarren
