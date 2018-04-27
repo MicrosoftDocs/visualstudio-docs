@@ -1,18 +1,18 @@
 ---
-title: "User Permissions and Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
+title: User Permissions and Visual Studio
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
-ms.topic: "conceptual"
-helpviewer_keywords: 
+ms.topic: conceptual
+helpviewer_keywords:
   - "Visual Studio, user permissions"
   - "user permissions"
   - "administrative privileges"
   - "permissions"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # User Permissions and Visual Studio
@@ -58,5 +58,5 @@ These instructions are for Windows 10. They are similar for other versions of Wi
 
 ## See also
 
-[Porting, Migrating, and Upgrading Visual Studio Projects](../porting/port-migrate-and-upgrade-visual-studio-projects.md)  
-[Install Visual Studio](../install/install-visual-studio.md)
+- [Porting, Migrating, and Upgrading Visual Studio Projects](../porting/port-migrate-and-upgrade-visual-studio-projects.md)
+- [Install Visual Studio](../install/install-visual-studio.md)

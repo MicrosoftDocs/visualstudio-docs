@@ -1,6 +1,7 @@
 ---
-title: Managing references in a project
+title: Manage references in a project
 ms.date: 04/11/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
@@ -17,8 +18,8 @@ helpviewer_keywords:
   - "namespaces [Visual Studio], referencing"
   - "COM components, referencing"
   - "objects [Visual Studio], referencing"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
@@ -27,7 +28,7 @@ ms.workload:
 
 Before you write code against an external component or connected service, your project must first contain a reference to it. A reference is essentially an entry in a project file that contains the information that Visual Studio needs to locate the component or the service.
 
-To add a reference, right click on the **References** or **Dependencies** node in **Solution Explorer** and choose **Add Reference**. You can also right-click on the project node and select **Add** > **Reference**. For more information, see [How to: Add or Remove References](../ide/how-to-add-or-remove-references-by-using-the-reference-manager.md).
+To add a reference, right click on the **References** or **Dependencies** node in **Solution Explorer** and choose **Add Reference**. You can also right-click on the project node and select **Add** > **Reference**. For more information, see [How to: Add or remove references](../ide/how-to-add-or-remove-references-by-using-the-reference-manager.md).
 
 ![Add a reference in Visual C&#43;&#43;](../ide/media/vs2015_cpp_add_reference.png)
 
@@ -49,7 +50,7 @@ You can add a reference to the following types of components and services:
 
 Universal Windows Platform (UWP) projects can create references to other UWP projects in the solution, or to Windows 8.1 projects or binaries, provided that these projects do not use APIs that have been deprecated in Windows 10. For more information, see [Move from Windows Runtime 8 to UWP](/windows/uwp/porting/w8x-to-uwp-root).
 
-If you choose to retarget Windows 8.1 projects to Windows 10, see [Port, Migrate, and Upgrade Visual Studio Projects](../porting/port-migrate-and-upgrade-visual-studio-projects.md).
+If you choose to retarget Windows 8.1 projects to Windows 10, see [Port, migrate, and upgrade Visual Studio projects](../porting/port-migrate-and-upgrade-visual-studio-projects.md).
 
 ### Extension SDK references
 
@@ -84,9 +85,9 @@ When you make a reference to an assembly in your project, Visual Studio searches
 - Other project directories in the same solution. (You can find these assemblies on the **Projects** tab.)
 
 > [!NOTE]
-> - All projects contain an implied reference to mscorlib.
+> - All projects contain an implied reference to **mscorlib**.
 > - All projects contain an implied reference to `System.Core`, even if `System.Core` is removed from the list of references.
-> - Visual Basic projects contain an implied reference to `Microsoft.VisualBasic`.
+> - Visual Basic projects contain an implied reference to <xref:Microsoft.VisualBasic>.
 
 ## References to shared components at run time
 
@@ -106,7 +107,7 @@ For more information, see [Multi-targeting overview](../ide/visual-studio-multi-
 
 Project-to-project references are references to projects that contain assemblies; you create them by using the **Project** tab. Visual Studio can find an assembly when given a path to the project.
 
-When you have a project that produces an assembly, you should reference the project and not use a file reference (see below). The advantage of a project-to-project reference is that it creates a dependency between the projects in the build system. The dependent project will be built if it has changed since the last time the referencing project was built. A file reference does not create a build dependency, so it is possible to build the referencing project without building the dependent project, and the reference can become obsolete. (That is, the project can reference a previously built version of the project.) This can result in several versions of a single DLL being required in the bin directory, which is not possible. When this conflict occurs, you will see a message such as "Warning: the dependency 'file' in project 'project' cannot be copied to the run directory because it would overwrite the reference 'file.'". For more information, see [Troubleshooting Broken References](../ide/troubleshooting-broken-references.md) and [How to: Create and Remove Project Dependencies](../ide/how-to-create-and-remove-project-dependencies.md).
+When you have a project that produces an assembly, you should reference the project and not use a file reference (see below). The advantage of a project-to-project reference is that it creates a dependency between the projects in the build system. The dependent project will be built if it has changed since the last time the referencing project was built. A file reference does not create a build dependency, so it is possible to build the referencing project without building the dependent project, and the reference can become obsolete. (That is, the project can reference a previously built version of the project.) This can result in several versions of a single DLL being required in the *bin* directory, which is not possible. When this conflict occurs, you will see a message such as "Warning: the dependency 'file' in project 'project' cannot be copied to the run directory because it would overwrite the reference 'file.'". For more information, see [Troubleshoot broken references](../ide/troubleshooting-broken-references.md) and [How to: Create and remove project dependencies](../ide/how-to-create-and-remove-project-dependencies.md).
 
 > [!NOTE]
 > A file reference instead of a project-to-project reference is created if the target version of the .NET Framework of one project is version 4.5, and the target version of the other project is version 2, 3, 3.5, or 4.0.
@@ -117,5 +118,5 @@ File references are direct references to assemblies outside the context of a Vis
 
 ## See also
 
-- [Troubleshooting broken references](../ide/troubleshooting-broken-references.md)
+- [Troubleshoot broken references](../ide/troubleshooting-broken-references.md)
 - [How to: Add or remove references](../ide/how-to-add-or-remove-references-by-using-the-reference-manager.md)

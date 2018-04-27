@@ -1,11 +1,11 @@
 ---
-title: "Generate a field, property, or local variable in Visual Studio | Microsoft Docs"
-ms.custom: ""
+title: Generate a field, property, or local variable in Visual Studio
 ms.date: 01/26/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
-ms.topic: "conceptual"
-author: "gewarren"
-ms.author: "gewarren"
+ms.topic: reference
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "dotnet"

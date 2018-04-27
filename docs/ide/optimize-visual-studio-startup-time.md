@@ -1,5 +1,5 @@
 ---
-title: "Improve Visual Studio start up time | Microsoft Docs"
+title: Improve Visual Studio start up time
 ms.date: 11/15/2017
 ms.topic: conceptual
 helpviewer_keywords:
@@ -7,18 +7,19 @@ helpviewer_keywords:
   - "optimizing performance [Visual Studio]"
   - "speed up start time [Visual Studio]"
 ms.assetid: d1508121-8499-4084-8eb5-fa89fa7b17d3
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 f1_keywords:
   - "vs.performancecenter"
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.workload:
   - "multiple"
 ---
 # Optimize Visual Studio startup time
 
-Visual Studio is designed to start up as quickly and efficiently as possible. However, certain Visual Studio extensions and tool windows can adversely affect startup time when they are loaded. You can control the behavior of slow extensions and tool windows in the the  **Manage Visual Studio Performance** dialog box. For more general tips on improving performance, see [Visual Studio performance tips and tricks](../ide/visual-studio-performance-tips-and-tricks.md).
+Visual Studio is designed to start up as quickly and efficiently as possible. However, certain Visual Studio extensions and tool windows can adversely affect startup time when they are loaded. You can control the behavior of slow extensions and tool windows in the the **Manage Visual Studio Performance** dialog box. For more general tips on improving performance, see [Visual Studio performance tips and tricks](../ide/visual-studio-performance-tips-and-tricks.md).
 
 ## Startup behavior
 
@@ -40,7 +41,7 @@ The dialog box lists the extensions and tools windows that are affecting startup
 
 2. Choose the extension you want to disable, then choose the **Disable** button.
 
-You can always re-enable the extension for future sessions by using the Extension Manager or the Manage Visual Studio Performance dialog box.
+You can always re-enable the extension for future sessions by using the **Extension Manager** or the **Manage Visual Studio Performance** dialog box.
 
 ## <a name="tool-windows" />To change tool window settings to improve startup time
 

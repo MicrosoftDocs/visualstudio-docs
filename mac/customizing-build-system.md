@@ -1,10 +1,9 @@
 ---
-title: "Customizing the Build System | Microsoft Docs"
+title: "Customizing the Build System"
 description: 
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017
-ms.topic: article
 ms.assetid: 6958B102-8527-4B40-BC65-3505DB63F9D3
 ---
 

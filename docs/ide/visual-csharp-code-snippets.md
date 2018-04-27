@@ -1,18 +1,18 @@
 ---
-title: "C# Code Snippets | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/05/2017"
+title: C# Code Snippets
+ms.date: 06/05/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
-ms.topic: "conceptual"
-helpviewer_keywords: 
+ms.topic: reference
+helpviewer_keywords:
   - "snippets [C#]"
   - "code snippets [C#]"
   - "Code Snippet Inserter [C#]"
   - "C#, code snippets"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "dotnet"
 ---
 # C# code snippets
@@ -70,7 +70,7 @@ By default the following code snippets are included in Visual Studio for C#.
 
 ## See also
 
-[Code Snippet Functions](../ide/code-snippet-functions.md)  
-[Code Snippets](../ide/code-snippets.md)  
-[Template Parameters](../ide/template-parameters.md)  
-[How to: Use Surround-with Code Snippets](../ide/how-to-use-surround-with-code-snippets.md)
+- [Code Snippet Functions](../ide/code-snippet-functions.md)
+- [Code Snippets](../ide/code-snippets.md)
+- [Template Parameters](../ide/template-parameters.md)
+- [How to: Use Surround-with Code Snippets](../ide/how-to-use-surround-with-code-snippets.md)

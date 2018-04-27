@@ -2,8 +2,7 @@
 title: "How to: Specify the ClickOnce Offline or Online Install Mode | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-deployment"
+ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -16,9 +15,9 @@ helpviewer_keywords:
   - "offline applications"
   - "ClickOnce install mode"
 ms.assetid: 0aee5fc1-e966-4bda-9b8f-d9997aeaa779
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

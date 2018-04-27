@@ -1,11 +1,11 @@
 ---
-title: "Extract an interface refactoring in Visual Studio | Microsoft Docs"
-ms.custom: ""
+title: Extract an interface refactoring in Visual Studio
 ms.date: 01/26/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 f1_keywords:
   - "vs.csharp.refactoring.extractinterface"
@@ -76,4 +76,4 @@ This refactoring applies to:
 
 ## See also
 
-[Refactoring](../refactoring-in-visual-studio.md)
+- [Refactoring](../refactoring-in-visual-studio.md)

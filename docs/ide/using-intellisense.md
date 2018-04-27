@@ -1,21 +1,21 @@
 ---
-title: "Visual Studio IntelliSense | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
+title: Visual Studio IntelliSense
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
-ms.topic: "conceptual"
-f1_keywords: 
+ms.topic: conceptual
+f1_keywords:
   - "vc.tools.intellisense"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Quick info"
   - "Parameter info"
   - "Complete word"
   - "List members"
   - "IntelliSense [Visual Studio]"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Using IntelliSense in Visual Studio
@@ -94,8 +94,8 @@ MessageBox( hWnd, "String literal|")
 
 ## See also
 
-[Visual Basic IntelliSense](../ide/visual-basic-specific-intellisense.md)  
-[C# IntelliSense](../ide/visual-csharp-intellisense.md)  
-[JavaScript IntelliSense](../ide/javascript-intellisense.md)  
-[Writing and refactoring code (C++)](/cpp/ide/writing-and-refactoring-code-cpp)  
-[Supplying XML code comments](../ide/supplying-xml-code-comments.md)
+- [Visual Basic IntelliSense](../ide/visual-basic-specific-intellisense.md)
+- [C# IntelliSense](../ide/visual-csharp-intellisense.md)
+- [JavaScript IntelliSense](../ide/javascript-intellisense.md)
+- [Writing and refactoring code (C++)](/cpp/ide/writing-and-refactoring-code-cpp)
+- [Supplying XML code comments](../ide/supplying-xml-code-comments.md)

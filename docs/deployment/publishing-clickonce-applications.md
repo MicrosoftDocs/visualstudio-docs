@@ -2,8 +2,7 @@
 title: "Publishing ClickOnce Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-deployment"
+ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 f1_keywords: 
   - "Microsoft.VisualStudio.Publish.ClickOnceProvider.Dialog.Options"
@@ -18,9 +17,9 @@ helpviewer_keywords:
   - "applications [Visual Studio], ClickOnce deployment"
   - "deploying applications [ClickOnce], publishing ClickOnce applications"
 ms.assetid: eb6dfe79-f54c-4331-8e36-073688e70973
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -1,7 +1,7 @@
 ---
-title: "Analyzing Load Test Results and Errors in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "conceptual"
+title: "Analyzing Load Test Results and Errors in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 f1_keywords:
   - "vs.test.load.monitor.pageresult"
   - "vs.test.load.dialog.column"
@@ -21,6 +21,7 @@ ms.assetid: 0a84bda3-6051-45eb-9c7f-d57419e1f97d
 author: gewarren
 ms.author: gewarren
 manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # Analyze Load Test Results and Errors in the Tables View of the Load Test Analyzer

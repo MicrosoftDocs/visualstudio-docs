@@ -1,18 +1,16 @@
 ---
 title: Python environments window reference
 description: Details on each of the tabs that appear in the Python Environments window in Visual Studio.
-ms.custom: ""
 ms.date: 03/05/2018
-ms.technology:
-  - "devlang-python"
-ms.devlang: python
-ms.topic: "conceptual"
-author: "kraigb"
-ms.author: "kraigb"
+ms.prod: visual-studio-dev15
+ms.technology: vs-python
+ms.topic: conceptual
+author: kraigb
+ms.author: kraigb
 manager: douge
 ms.workload:
-  - "python"
-  - "data-science"
+  - python
+  - data-science
 ---
 
 # Python Environments window tabs reference

@@ -1,11 +1,11 @@
 ---
 title: Code generation features in Visual Studio | Microsoft Docs
-ms.custom: ""
-ms.date: "01/11/2018"
+ms.date: 01/11/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
-ms.topic: "conceptual"
-author: "gewarren"
-ms.author: "gewarren"
+ms.topic: conceptual
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "dotnet"
@@ -13,6 +13,8 @@ ms.workload:
 # Code generation features in Visual Studio
 
 There are numerous ways that Visual Studio can help you generate, fix, and refactor code.
+
+## Features
 
 - You can use [code snippets](../ide/code-snippets.md) to insert a template such as a [switch](/dotnet/csharp/language-reference/keywords/switch) block or an [enum](/dotnet/csharp/language-reference/keywords/enum) declaration.
 
@@ -23,9 +25,9 @@ There are numerous ways that Visual Studio can help you generate, fix, and refac
 > [!NOTE]
 > Each language service in Visual Studio provides its own code generation capabilities, so some features are only available in C#, and some are available in both C# and Visual Basic.
 
-### See also
+## See also
 
-[Code snippets](../ide/code-snippets.md)  
-[Quick Actions](../ide/quick-actions.md)  
-[Refactoring](../ide/refactoring-in-visual-studio.md)  
-[Code generation and T4 text templates](../modeling/code-generation-and-t4-text-templates.md)
+- [Code snippets](../ide/code-snippets.md)
+- [Quick Actions](../ide/quick-actions.md)
+- [Refactoring](../ide/refactoring-in-visual-studio.md)
+- [Code generation and T4 text templates](../modeling/code-generation-and-t4-text-templates.md)

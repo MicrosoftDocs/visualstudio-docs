@@ -1,7 +1,7 @@
 ---
-title: "Comparing load test results in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "conceptual"
+title: "Comparing load test results in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "load tests, reporting"
   - "load tests, results"
@@ -9,6 +9,7 @@ ms.assetid: 31874114-459a-45d5-9f8b-2ea503627db8
 author: gewarren
 ms.author: gewarren
 manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # Reporting Load Tests Results for Test Comparisons or Trend Analysis

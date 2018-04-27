@@ -1,13 +1,14 @@
 ---
-title: "Suppress code analysis warnings in Visual Studio | Microsoft Docs"
+title: Suppress code analysis warnings in Visual Studio
 ms.date: 01/29/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "source suppression, code analysis"
   - "code analysis, source suppression"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 dev_langs:
  - CSharp

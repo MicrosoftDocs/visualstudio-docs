@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "MSBuild, target batching"
   - "target batching [MSBuild]"
 ms.assetid: f3cc4186-6a4c-4161-bbe5-1ec638b4925b
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

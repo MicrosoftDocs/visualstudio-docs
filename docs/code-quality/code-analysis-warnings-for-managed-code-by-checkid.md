@@ -1,8 +1,9 @@
 ---
-title: "Visual Studio Code Analysis Warnings for Managed Code by CheckId | Microsoft Docs"
-ms.date: "11/04/2016"
+title: Visual Studio Code Analysis Warnings for Managed Code by CheckId
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "CA1000"
   - "CA1001"
@@ -254,8 +255,8 @@ f1_keywords:
   - "CA2243"
   - "CA5122"
 ms.assetid: 5cb221f6-dc59-4abf-9bfa-adbd6f907f96
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "dotnet"

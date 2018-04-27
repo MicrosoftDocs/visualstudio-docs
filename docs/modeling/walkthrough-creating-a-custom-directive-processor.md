@@ -1,7 +1,7 @@
 ---
-title: "Walkthrough: Creating a Custom Directive Processor | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: "Walkthrough: Creating a Custom Directive Processor"
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "text templates, custom directive processors"
   - "walkthroughs [text templates], directive processor"
@@ -10,6 +10,7 @@ ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 dev_langs:
  - CSharp

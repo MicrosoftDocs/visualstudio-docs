@@ -1,8 +1,9 @@
 ---
-title: "Sample Excel Extension: TechnologyManager Class | Microsoft Docs"
-ms.date: "11/04/2016"
+title: "Sample Excel Extension: TechnologyManager Class"
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
-ms.topic: "conceptual"
+ms.topic: sample
 ms.author: gewarren
 manager: douge
 ms.workload: 

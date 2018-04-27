@@ -1,8 +1,9 @@
 ---
-title: "Generate unit tests for your code with IntelliTest in Visual Studio | Microsoft Docs"
-ms.date: "2015-10-05"
+title: "Generate unit tests for your code with IntelliTest in Visual Studio"
+ms.date: 2015-10-05
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
-ms.topic: "conceptual"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.UnitTest.CreateIntelliTest"
 ms.author: gewarren

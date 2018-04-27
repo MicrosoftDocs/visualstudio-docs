@@ -1,9 +1,9 @@
 ---
-title: "Profile application performance in Visual Studio | Microsoft Docs"
-ms.custom: "H1Hack27Feb2017"
+title: "Measure CPU usage in your apps"
+description: "Analyze CPU performance issues in your application using the debugger-integrated diagnostics tools."
+ms.custom: "mvc"
 ms.date: "02/27/2017"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "tutorial"
 f1_keywords: 
   - "vs.performance.wizard.intropage"

@@ -3,7 +3,7 @@ title: "FindInList Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "FindInList task [MSBuild]"
   - "MSBuild, FindInList task"
 ms.assetid: d49b9f84-52a2-4242-9269-b741a7a7e9f7
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 
