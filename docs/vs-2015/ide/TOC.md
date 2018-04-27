@@ -248,5 +248,5 @@
 ## [Creating Applications in Bi-directional Languages](creating-applications-in-bi-directional-languages.md)
 ### [How to: Save and Open Files with Encoding](how-to-save-and-open-files-with-encoding.md)
 # [Adding Visual Studio editor support for other languages](adding-visual-studio-editor-support-for-other-languages.md)
-# [Reference](ide/reference/TOC.md)
+# [Reference](reference/visual-studio-reference.md)
 
