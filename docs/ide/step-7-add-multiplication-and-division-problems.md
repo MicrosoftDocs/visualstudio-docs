@@ -1,5 +1,5 @@
 ---
-title: "Step 7: Add Multiplication and Division Problems"
+title: "Step 7: Add multiplication and division problems"
 ms.custom: ""
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
@@ -13,10 +13,10 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Step 7: Add Multiplication and Division Problems
+# Step 7: Add multiplication and division problems
 In the seventh part of this tutorial, you'll add multiplication and division problems, but first think about how to make that change. Consider the initial step, which involves storing values.  
 
-### To add multiplication and division problems  
+## To add multiplication and division problems  
 
 1.  Add four more integer variables to the form.  
 
@@ -34,9 +34,9 @@ In the seventh part of this tutorial, you'll add multiplication and division pro
      [!code-csharp[VbExpressTutorial3Step7#17](../ide/codesnippet/CSharp/step-7-add-multiplication-and-division-problems_3.cs)]  
 
      You can't easily enter the multiplication sign (×) and the division sign (÷) using the keyboard, so Visual C# and Visual Basic accept an asterisk (*) for multiplication and a slash mark (/) for division.  
-
-4.  Change the last part of the timer's Tick event handler so that it fills in the correct answer when time runs out.  
-
+  
+4.  Change the last part of the timer's <xref:System.Windows.Forms.Timer.Tick> event handler so that it fills in the correct answer when time runs out.  
+  
      [!code-vb[VbExpressTutorial3Step7#23](../ide/codesnippet/VisualBasic/step-7-add-multiplication-and-division-problems_4.vb)]
      [!code-csharp[VbExpressTutorial3Step7#23](../ide/codesnippet/CSharp/step-7-add-multiplication-and-division-problems_4.cs)]  
 
@@ -45,10 +45,10 @@ In the seventh part of this tutorial, you'll add multiplication and division pro
      Quiz takers must answer four problems to complete the quiz, as the following illustration shows.  
 
      ![Math quiz with four problems](../ide/media/express_finishedquiz.png "Express_FinishedQuiz")  
-Math quiz with four problems  
-
-### To continue or review  
-
--   To go to the next tutorial step, see [Step 8: Customize the Quiz](../ide/step-8-customize-the-quiz.md).  
-
--   To return to the previous tutorial step, see [Step 6: Add a Subtraction Problem](../ide/step-6-add-a-subtraction-problem.md).
+**Math quiz** with four problems  
+  
+## To continue or review  
+  
+-   To go to the next tutorial step, see [Step 8: Customize the quiz](../ide/step-8-customize-the-quiz.md).  
+  
+-   To return to the previous tutorial step, see [Step 6: Add a subtraction problem](../ide/step-6-add-a-subtraction-problem.md).
