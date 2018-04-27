@@ -37,7 +37,7 @@ ms.workload:
 ---
 # Find and replace text
 
-You can find and replace text in the Visual Studio editor by using [Find and Replace](#find-and-replace-control) or [Find/Replace in Files](#find-replace-in-files). New in **Visual Studio 2017 version 15.7**, you can find and replace *some* instances of a pattern by using *[multi-caret selection](#multi-caret-selection)*.
+You can find and replace text in the Visual Studio editor by using [Find and Replace](#find-and-replace-control) or [Find/Replace in Files](#find-replace-in-files).
 
 > [!TIP]
 > If you're renaming code symbols such as variables and methods, it's better to *[refactor](../ide/reference/rename.md)* them than to use find-and-replace. Refactoring is intelligent and understands scope, whereas find-and-replace blindly replaces all instances.
@@ -85,38 +85,6 @@ You can define a search scope by choosing the **Choose Search Folders** button (
 ### Create custom component sets
 
 You can define component sets as your search scope by choosing the **Edit Custom Component Set** button next to the **Look in** box. You can specify installed .NET or COM components, Visual Studio projects that are included in your solution, or any assembly or type library (*.dll*, *.tlb*, *.olb*, *.exe*, or *.ocx*). To search references, select the **Look in references** box.
-
-## Multi-caret selection
-
-**New in Visual Studio 2017 version 15.7**
-
-Use *multi-caret selection* to make the same edit in two or more places at the same time. For example, you can insert the same text or modify existing text in multiple locations at the same time.
-
-In the following screenshot, `-0000` is selected in three locations; if the user presses **Delete**, all three selections are deleted:
-
-![Multi-caret selection in an XML file](media/multi-caret-selection.png)
-
-To select multiple carets, click or make first text selection as usual, and then press **Alt** while you click or select text in each additional location. You can also automatically add matching text as additional selections, or select a box of text to edit identically on each line.
-
-> [!TIP]
-> If you've selected **Alt** as the modifier key for mouse-click Go to Definition in **Tools** > **Options**, multi-caret select is disabled.
-
-### Commands
-
-Use the following keys and actions for multi-caret selection behaviors:
-
-|Shortcut|Action|
-|-|-|
-|**Alt** + click|Add or remove a location or selection|
-|**Alt** + double-click|Add a word selection|
-|**Shift**+**Alt** + click|Set a box selection|
-|**Esc** or click|Clear all selections|
-|**Shift**+**Alt**+**Ins**|Add the next matching text as a selection|
-|**Ctrl**+**Ins**|Add all matching text as selections|
-
-Some of the commands are also available on the **Edit** menu, under **Multiple Carets**:
-
-![Multiple Carets fly-out menu](media/edit-menu-multiple-carets.png)
 
 ## See also
 
