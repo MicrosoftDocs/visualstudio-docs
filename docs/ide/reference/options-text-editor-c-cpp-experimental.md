@@ -6,9 +6,9 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.C/C++.Experimental"
   - "VS.ToolsOptionsPages.Text_Editor.C%2FC%2B%2B.Experimental"
   - "VS.ToolsOptionsPages.Text_Editor.C\\C++.Experimental"
-author: gewarren
-ms.author: gewarren
-manager: douge
+author: mikeblome
+ms.author: mblome
+manager: wpickett
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.workload:
