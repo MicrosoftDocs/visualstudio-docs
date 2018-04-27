@@ -23,7 +23,7 @@ ms.workload:
 
 ## Syntax  
 
-```  
+```xml
 <addIn>  
   <entryPointsCollection>  
     <entryPoints>  
@@ -71,7 +71,7 @@ ms.workload:
 
 ### Code  
 
-```  
+```xml
 <vstav3:addIn   
   xmlns:vstav3="urn:schemas-microsoft-com:vsta.v3">  
   <vstav3:entryPointsCollection>  
@@ -135,7 +135,7 @@ ms.workload:
 
 ### Code  
 
-```  
+```xml
 <vstav3:addIn   
   xmlns:vstav3="urn:schemas-microsoft-com:vsta.v3">  
   <vstav3:entryPointsCollection>  

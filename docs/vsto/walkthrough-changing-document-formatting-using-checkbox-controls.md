@@ -153,8 +153,7 @@ ms.workload:
   
 -   Using radio buttons to select chart styles. For more information, see [Walkthrough: Updating a Chart in a Document Using Radio Buttons](../vsto/walkthrough-updating-a-chart-in-a-document-using-radio-buttons.md).  
   
--  
-  
+
 ## See Also  
  [Walkthroughs Using Word](../vsto/walkthroughs-using-word.md)   
  [Office Development Samples and Walkthroughs](../vsto/office-development-samples-and-walkthroughs.md)   

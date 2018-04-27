@@ -76,9 +76,6 @@ ms.workload:
  [Visual Studio Tools for Office Forum](http://go.microsoft.com/fwlink/?LinkId=149744)  
  Provides a forum for questions about the Office developer tools in Visual Studio.  
   
- [Office Discussion Groups](http://go.microsoft.com/fwlink/?LinkId=63585)  
- Provides a newsgroup experience for questions about Office applications. Use the programming newsgroups here for questions about specific tasks related to the object models of Office applications.  
-  
  [Microsoft Help and Support](http://go.microsoft.com/fwlink/?LinkID=108287)  
  Provides access to Knowledge Base (KB) articles, downloads and updates, support Webcasts, and other services.  
   

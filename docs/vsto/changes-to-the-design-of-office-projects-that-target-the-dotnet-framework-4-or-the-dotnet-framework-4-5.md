@@ -1,5 +1,5 @@
 ---
-title: "Changes to the Design of Office Projects that Target the .NET Framework 4 or the .NET Framework 4.5 | Microsoft Docs"
+title: "Changes to the Design of Office Projects that Target the .NET Framework"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
