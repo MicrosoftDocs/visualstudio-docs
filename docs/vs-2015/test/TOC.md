@@ -57,6 +57,7 @@
 #### [Element Classes](sample-excel-extension-element-classes.md)
 #### [ActionFilter Class](sample-excel-extension-actionfilter-class.md)
 ## [Upgrading Coded UI Tests from Visual Studio 2010](upgrading-coded-ui-tests-from-visual-studio-2010.md)
+# [Analyzing Application Quality](code-quality\analyzing-application-quality-by-using-code-analysis-tools.md)
 # [Troubleshooting Quality Tools](troubleshooting-quality-tools.md)
 ## [Troubleshooting Code Analysis Issues](troubleshooting-code-analysis-issues.md)
 ## [Troubleshooting Code Metrics Issues](troubleshooting-code-metrics-issues.md)
