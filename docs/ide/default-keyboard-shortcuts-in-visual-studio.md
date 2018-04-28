@@ -509,13 +509,13 @@ The sections in the following table include commands that are global in that you
 
 |Commands|Keyboard shortcuts|
 |--------------|------------------------|
-|ArchitectureContextMenus.DirectedGraphContextMenu.Advanced.Add.AddNode|**Insert**|
-|ArchitectureContextMenus.DirectedGraphContextMenu.Advanced.Select.BothDependencies|**B**|
-|ArchitectureContextMenus.DirectedGraphContextMenu.Advanced.Select.IncomingDependencies|**I**|
-|ArchitectureContextMenus.DirectedGraphContextMenu.Advanced.Select.OutgoingDependencies|**O**|
-|ArchitectureContextMenus.DirectedGraphContextMenu.NewComment|**Ctrl+Shift+K**<br /><br /> or<br /><br /> **Ctrl+E, C**|
-|ArchitectureContextMenus.DirectedGraphContextMenu.Remove|**Delete**|
-|ArchitectureContextMenus.DirectedGraphContextMenu.Rename|**F2**|
+|ArchitectureContextMenus.DirectedGraphContextMenu. Advanced.Add.AddNode|**Insert**|
+|ArchitectureContextMenus.DirectedGraphContextMenu. Advanced.Select.BothDependencies|**B**|
+|ArchitectureContextMenus.DirectedGraphContextMenu. Advanced.Select.IncomingDependencies|**I**|
+|ArchitectureContextMenus.DirectedGraphContextMenu. Advanced.Select.OutgoingDependencies|**O**|
+|ArchitectureContextMenus.DirectedGraphContextMenu. NewComment|**Ctrl+Shift+K**<br /><br /> or<br /><br /> **Ctrl+E, C**|
+|ArchitectureContextMenus.DirectedGraphContextMenu. Remove|**Delete**|
+|ArchitectureContextMenus.DirectedGraphContextMenu. Rename|**F2**|
 
 ##  Graphics diagnostics
 
@@ -753,8 +753,8 @@ The sections in the following table include commands that are global in that you
 |TeamFoundationContextMenus.Commands.GoToTeamExplorerSection9Content|**Alt+9**|
 |TeamFoundationContextMenus.Commands.TeamExplorerNavigateBackward|**Alt+Left Arrow**|
 |TeamFoundationContextMenus.Commands.TeamExplorerNavigateForward|**Alt+Right Arrow**|
-|TeamFoundationContextMenus.MyWorkPageInProgress.TfsContextMyWorkPageCreateCopyWI|**Shift+Alt+C**|
-|TeamFoundationContextMenus.MyWorkPageInProgress.TfsContextMyWorkPageNewLinkedWI|**Shift+Alt+L**|
+|TeamFoundationContextMenus.MyWorkPageInProgress. TfsContextMyWorkPageCreateCopyWI|**Shift+Alt+C**|
+|TeamFoundationContextMenus.MyWorkPageInProgress. TfsContextMyWorkPageNewLinkedWI|**Shift+Alt+L**|
 |View.Refresh|**F5**|
 
 ##  Team Foundation Build Detail Editor
