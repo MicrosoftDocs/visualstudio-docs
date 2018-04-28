@@ -69,4 +69,4 @@
 #### [Run unit tests in Test Explorer](run-unit-tests-for-store-apps-in-visual-studio.md)
 ### [Analyze code quality using static code analysis](analyze-the-code-quality-of-store-apps-using-visual-studio-static-code-analysis.md)
 #### [Analyze Visual Basic and C# code quality](analyze-visual-basic-and-csharp-code-quality-in-store-apps-using-visual-studio-static-code-analysis.md)
-#### [Analyze C++ code quality](analyze-cpp-code-quality-of-store-apps-using-visual-studio-static-code-analysis.md)
+#### [Analyze C++ code quality](../code-quality/analyze-cpp-code-quality-of-store-apps-using-visual-studio-static-code-analysis.md)

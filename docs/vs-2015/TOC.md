@@ -1,4 +1,4 @@
-# [Welcome to Visual Studio 2015](welcome-to-visual-studio.md)
+# [Welcome to Visual Studio 2015](ide/welcome-to-visual-studio.md)
 # [What's New in Visual Studio 2015](ide\what-s-new-in-visual-studio-2015.md)
 # [Install Visual Studio 2015](install/install-visual-studio-2015.md)
 # [Porting, Migrating, and Upgrading Visual Studio Projects](porting/porting-migrating-and-upgrading-visual-studio-projects.md)
