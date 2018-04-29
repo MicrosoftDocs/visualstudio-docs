@@ -44,7 +44,7 @@ typedef class coord
 };
 ```
 
-For more information about using the `typedef` type, see [Typedefs](/cpp/cpp/aliases-and-typedefs-cpp).
+For more information about using the `typedef` type, see [Typedefs](/cpp/cpp/aliases-and-typedefs-cpp#typedefs).
 
 A C++ typedef shape has the shape of the type specified in the typedef. For example, if the source declares `typedef class`, the shape has rounded corners and the label **Class**. For `typedef struct`, the shape has square corners and the label **Struct**.
 
@@ -194,8 +194,8 @@ Class
 
 -> MyIntVect
 
-## See also
+### See also
 
 - [Working with Visual C++ Code](working-with-visual-cpp-code.md)  
-- [Typedefs](/cpp/cpp/aliases-and-typedefs-cpp)
+- [Typedefs](/cpp/cpp/aliases-and-typedefs-cpp#typedefs)
 
