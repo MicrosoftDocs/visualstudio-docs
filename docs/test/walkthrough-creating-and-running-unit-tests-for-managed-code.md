@@ -18,7 +18,7 @@ author: gewarren
 ---
 # Walkthrough: Create and Run Unit Tests for Managed Code
 
-This walkthrough will step you through creating, running, and customizing a series of unit tests using the Microsoft unit test framework for managed code and the Visual Studio **Test Explorer**. You start with a C# project that is under development, create tests that exercise its code, run the tests, and examine the results. Then you can change your project code and rerun the tests.
+This walkthrough steps you through creating, running, and customizing a series of unit tests using the Microsoft unit test framework for managed code and the Visual Studio **Test Explorer**. You start with a C# project that is under development, create tests that exercise its code, run the tests, and examine the results. Then you can change your project code and rerun the tests.
 
 > [!NOTE]
 > This walkthrough uses the Microsoft unit test framework for managed code. **Test Explorer** also can run tests from third party unit test frameworks that have adapters for **Test Explorer**. For more information, see [Install third-party unit test frameworks](../test/install-third-party-unit-test-frameworks.md)
@@ -149,15 +149,16 @@ There are at least three behaviors that need to be checked:
 
 - The method throws an <xref:System.ArgumentOutOfRangeException> if the debit amount is greater than the balance.
 
-- It also throws <xref:System.ArgumentOutOfRangeException> if the debit amount is less than zero.
+- The method throws <xref:System.ArgumentOutOfRangeException> if the debit amount is less than zero.
 
-- If the first two checks are satisfied, the method subtracts the amount from the account balance.
+- If the debit amount is valid, the method subtracts the debit amount from the account balance.
 
-The first test verifies that a valid amount (that is, one that is less than the account balance and that is greater than zero) withdraws the correct amount from the account.
+> [!TIP]
+> You can delete the default `TestMethod1` method, because you won't use it in this walkthrough.
 
 ### To create a test method
 
-Add the following method to that `BankAccountTests` class:
+The first test verifies that a valid amount (that is, one that is less than the account balance and greater than zero) withdraws the correct amount from the account. Add the following method to that `BankAccountTests` class:
 
 ```csharp
 [TestMethod]
@@ -180,18 +181,15 @@ public void Debit_WithValidAmount_UpdatesBalance()
 
 The method is straightforward: it sets up a new `BankAccount` object with a beginning balance, and then withdraws a valid amount. It uses the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual%2A> method to verify that the ending balance is as expected.
 
-> [!TIP]
-> You can delete the default `TestMethod1` method, because you won't use it in this walkthrough.
-
 ### Test method requirements
 
 A test method must meet the following requirements:
 
-- The method must be decorated with the `[TestMethod]` attribute.
+- It's decorated with the `[TestMethod]` attribute.
 
-- The method must return `void`.
+- It returns `void`.
 
-- The method cannot have parameters.
+- It cannot have parameters.
 
 ## Build and run the test
 
@@ -210,9 +208,9 @@ A test method must meet the following requirements:
 
 **Analyze the test results**
 
-The test result contains a message that describes the failure. For the `AreEquals` method, the message displays what was expected (the **Expected\<*value*>** parameter) and what was actually received (the **Actual\<*value*>** parameter). You expected the balance to decrease, but instead it increased by the amount of the withdrawal.
+The test result contains a message that describes the failure. For the `AreEquals` method, the message displays what was expected (the **Expected\<*value*>** parameter) and what was actually received (the **Actual\<*value*>** parameter). You expected the balance to decrease, but instead it actually increased by the amount of the withdrawal.
 
-A re-examination of the Debit code shows that the unit test has uncovered a bug. The amount of the withdrawal is *added* to the account balance when it should be *subtracted*.
+The unit test has uncovered a bug: the amount of the withdrawal is *added* to the account balance when it should be *subtracted*.
 
 **Correct the bug**
 
@@ -230,7 +228,7 @@ m_balance -= amount;
 
 **Rerun the test**
 
-In Test Explorer, choose **Run All** to rerun the test. The red/green bar turns green, and the test is moved to the **Passed Tests** group.
+In Test Explorer, choose **Run All** to rerun the test. The red/green bar turns green indicating the test passed, and the test is moved to the **Passed Tests** group.
 
 ## Use unit tests to improve your code
 
@@ -238,14 +236,14 @@ This section describes how an iterative process of analysis, unit test developme
 
 **Analyze the issues**
 
-You've created a test method to confirm that a valid amount is correctly deducted in the `Debit` method. Now, you'll verify the remaining cases; that is that the method throws an <xref:System.ArgumentOutOfRangeException> if the debit amount is either:
+You've created a test method to confirm that a valid amount is correctly deducted in the `Debit` method. Now, verify that the method throws an <xref:System.ArgumentOutOfRangeException> if the debit amount is either:
 
-- greater than the balance
-- less than zero
+- greater than the balance, or
+- less than zero.
 
 **Create the test methods**
 
-A first attempt at creating a test method to address these issues seems promising:
+Create a test method to verify correct behavior when the debit amount is less than zero:
 
 ```csharp
 [TestMethod]
@@ -260,11 +258,13 @@ public void Debit_WhenAmountIsLessThanZero_ShouldThrowArgumentOutOfRange()
     // Act
     account.Debit(debitAmount);
 
-    // Assert is handled by ExpectedException
+    // Assert is handled by the ExpectedException attribute on the test method.
 }
 ```
 
-Use the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute> attribute to assert that the right exception has been thrown. The attribute causes the test to fail unless an `ArgumentOutOfRangeException` is thrown. If you run the test with both positive and negative `debitAmount` values, and then temporarily modify the method under test to throw a generic <xref:System.ApplicationException> when the amount is less than zero, the test behaves correctly. To test the case when the amount withdrawn is greater than the balance, you need to:
+Use the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute> attribute to assert that the correct exception has been thrown. The attribute causes the test to fail unless an <xref:System.ArgumentOutOfRangeException> is thrown. If you temporarily modify the method under test to throw a more generic <xref:System.ApplicationException> when the debit amount is less than zero, the test behaves correctly&mdash;that is, it fails.
+
+To test the case when the amount withdrawn is greater than the balance, do the following steps:
 
 1. Create a new test method named `Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange`.
 
@@ -274,27 +274,27 @@ Use the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttr
 
 **Run the tests**
 
-Running the two methods with different values for `debitAmount` demonstrates that the tests adequately handle the remaining cases. Running all three tests confirms that all cases from the original analysis are correctly covered.
+Running the two test methods demonstrates that the tests work correctly.
 
 **Continue the analysis**
 
-However, the last two test methods are also troubling. You can't be certain which condition in the code under test throws when either test runs. Some way of differentiating the two conditions would be helpful. Knowing which condition was violated would increase your confidence in the tests. This information would also be helpful to the production mechanism that handles the exception when it is thrown by the method under test. Generating more information when the method throws would assist all concerned, but the `ExpectedException` attribute cannot supply this information.
+However, the last two test methods are also troubling. You can't be certain which condition in the method under test throws the exception when either test is run. Some way of differentiating the two conditions, that is a negative debit amount or an amount greater than the balance, would increase your confidence in the tests.
 
-Looking at the method under test again, notice that both conditional statements use an `ArgumentOutOfRangeException` constructor that takes name of the argument as a parameter:
+Looki at the method under test again, and notice that both conditional statements use an `ArgumentOutOfRangeException` constructor that just takes name of the argument as a parameter:
 
 ```csharp
 throw new ArgumentOutOfRangeException("amount");
 ```
 
-A constructor exists that reports far richer information. <xref:System.ArgumentOutOfRangeException.%23ctor%2A>`(String, Object, String)` includes the name of the argument, the argument value, and a user-defined message. You can refactor the method under test to use this constructor. Even better, you can use publicly available type members to specify the errors.
+There is a constructor you can use that reports far richer information: <xref:System.ArgumentOutOfRangeException.%23ctor%2A>`(String, Object, String)` includes the name of the argument, the argument value, and a user-defined message. You can refactor the method under test to use this constructor. Even better, you can use publicly available type members to specify the errors.
 
 **Refactor the code under test**
 
-First, define two constants for the error messages at class scope. Put these in the class under test (Bank):
+First, define two constants for the error messages at class scope. Put these in the class under test (`Bank`):
 
 ```csharp
 public const string DebitAmountExceedsBalanceMessage = "Debit amount exceeds balance";
-public const string DebitAmountLessThanZeroMessage = "Debit amount less than zero";
+public const string DebitAmountLessThanZeroMessage = "Debit amount is less than zero";
 ```
 
 Then, modify the two conditional statements in the `Debit` method:
@@ -313,15 +313,9 @@ Then, modify the two conditional statements in the `Debit` method:
 
 **Refactor the test methods**
 
-You can remove the `ExpectedException` attribute and instead, catch the thrown exception and verify that it was thrown in the correct condition statement. There are two options to verify the remaining conditions. For example, in the `Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange` method, you can take one of the following actions:
+Remove the `ExpectedException` test method attribute and instead, catch the thrown exception and verify its associated message. The <xref:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.Contains%2A?displayProperty=fullName> method provides the ability to compare two strings.
 
-- Assert that the `ActualValue` property of the exception (the second parameter of the `ArgumentOutOfRangeException` constructor) is greater than the beginning balance. This option requires that you test the `ActualValue` property of the exception against the `beginningBalance` variable of the test method, and also requires then verify that the `ActualValue` is greater than zero.
-
-- Assert that the message (the third parameter of the constructor) includes the `DebitAmountExceedsBalanceMessage` defined in the `BankAccount` class.
-
-The <xref:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.Contains%2A?displayProperty=fullName> method in the Microsoft unit test framework enables you to verify the second option without the calculations that are required of the first option.
-
-A second attempt at revising `Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange` might look like this:
+Now, the `Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange` might look like this:
 
 ```csharp
 [TestMethod]
@@ -340,24 +334,18 @@ public void Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange()
     catch (ArgumentOutOfRangeException e)
     {
         // Assert
-        StringAssert.Contains(e.Message, BankAccount. DebitAmountExceedsBalanceMessage);
+        StringAssert.Contains(e.Message, BankAccount.DebitAmountExceedsBalanceMessage);
     }
 }
 ```
 
 **Retest, rewrite, and reanalyze**
 
-When you retest the test methods with different values, you observe:
+Assume there's a bug in the method under test, and the `Debit` method doesn't even *throw* an <xref:System.ArgumentOutOfRangeException>, nevermind output the correct message with the exception. Currently, the test method doesn't handle this case. If the `debitAmount` value is valid (that is, less than the balance but greater than zero), no exception is caught, so the assert never fires. Yet, the test method passes. This is not good, because you want the test method to fail if no exception is thrown.
 
-- If you catch the correct error by using an assert where `debitAmount` that is greater than the balance, the `Contains` assert passes, the exception is ignored, and so the test method passes. This is the behavior you want.
+This is a bug in the test method. To resolve the issue, add an <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Fail%2A> assert at the end of the test method to handle the case where no exception is thrown.
 
-- If you use a `debitAmount` that is less than 0, the assert fails because the wrong error message is returned. The assert also fails if you introduce a temporary `ArgumentOutOfRange` exception at another point in the method under test code path. This too is good.
-
-- If the `debitAmount` value is valid (that is, less than the balance but greater than zero), no exception is caught, so the assert is never caught. The test method passes. This is not good, because you want the test method to fail if no exception is thrown.
-
-The third observation is a bug in the test method. To attempt to resolve the issue, add an <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Fail%2A> assert at the end of the test method to handle the case where no exception is thrown.
-
-But rerunning the test shows that the test now fails if the correct exception is caught. The catch statement resets the exception and the method continues to execute, and it fails at the new assert. To resolve the new problem, add a `return` statement after the `StringAssert`. Rerunning the test confirms that you've fixed the problems. The final version of the `Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange` looks like this:
+But rerunning the test shows that the test now *fails* if the correct exception is caught. The `catch` block catches the exception, but the method continues to execute and it fails at the new <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Fail%2A> assert. To resolve this problem, add a `return` statement after the `StringAssert` in the `catch` block. Rerunning the test confirms that you've fixed this problem. The final version of the `Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange` looks like this:
 
 ```csharp
 [TestMethod]
@@ -376,11 +364,12 @@ public void Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange()
     catch (ArgumentOutOfRangeException e)
     {
         // Assert
-        StringAssert.Contains(e.Message, BankAccount. DebitAmountExceedsBalanceMessage);
+        StringAssert.Contains(e.Message, BankAccount.DebitAmountExceedsBalanceMessage);
         return;
     }
-    Assert.Fail("No exception was thrown.");
+
+    Assert.Fail("The expected exception was not thrown.");
 }
 ```
 
-In this final section, the improvements to the test code led to more robust and informative test methods. But more importantly, the extra analysis led to better code in the project under test.
+The improvements to the test code led to more robust and informative test methods. But more importantly, they also improved the code under test.
