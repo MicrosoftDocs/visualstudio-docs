@@ -753,8 +753,8 @@ The sections in the following table include commands that are global in that you
 |TeamFoundationContextMenus.Commands.GoToTeamExplorerSection9Content|**Alt+9**|
 |TeamFoundationContextMenus.Commands.TeamExplorerNavigateBackward|**Alt+Left Arrow**|
 |TeamFoundationContextMenus.Commands.TeamExplorerNavigateForward|**Alt+Right Arrow**|
-|TeamFoundationContextMenus.MyWorkPageInProgress. TfsContextMyWorkPageCreateCopyWI|**Shift+Alt+C**|
-|TeamFoundationContextMenus.MyWorkPageInProgress. TfsContextMyWorkPageNewLinkedWI|**Shift+Alt+L**|
+|TeamFoundationContextMenus.MyWorkPageInProgress.TfsContextMyWorkPageCreateCopyWI|**Shift+Alt+C**|
+|TeamFoundationContextMenus.MyWorkPageInProgress.TfsContextMyWorkPageNewLinkedWI|**Shift+Alt+L**|
 |View.Refresh|**F5**|
 
 ##  Team Foundation Build Detail Editor
