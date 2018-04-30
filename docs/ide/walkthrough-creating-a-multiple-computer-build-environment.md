@@ -202,8 +202,6 @@ Notice that the name of the *Program Files* folder depends on the operating syst
 ##  <a name="CreatingRegistry"></a> Create registry settings
  You must create registry entries to configure settings for MSBuild.
 
-#### Create registry settings
-
 1. Identify the parent folder for registry entries. All of the registry entries are created under the same parent key. On an x86 computer, the parent key is **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft**. On an x64 computer the parent key is **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft**. Irrespective of the system architecture, this walkthrough refers to the parent key as %RegistryRoot%.
 
     > [!NOTE]
