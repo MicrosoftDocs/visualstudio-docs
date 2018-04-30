@@ -27,9 +27,7 @@ Visual Studio provides first-class language support for Python. This tutorial gu
 - [Step 5: Installing packages and managing Python environments](tutorial-working-with-python-in-visual-studio-step-05-installing-packages.md)
 - [Step 6: Working with Git](tutorial-working-with-python-in-visual-studio-step-06-working-with-git.md)
 
-## Prerequisites
-
-- Visual Studio 2017 with the Python workload installed. See [Step 0](tutorial-working-with-python-in-visual-studio-step-00-installation.md) for instructions.
+[!INCLUDE[tutorial-prereqs](includes/tutorial-prereqs.md)]
 
 ## Step 1: Create a new Python project
 
@@ -65,7 +63,7 @@ In this tutorial you begin with a simple project containing a single, empty code
 
     Right-click any node or item in Solution Explorer to access a menu of applicable commands. For example, the **Rename** command allows you to change the name of any node or item, including the project and the solution.
 
-## Next steps
+## Next step
 
 > [!div class="nextstepaction"]
 > [Writing and running code](tutorial-working-with-python-in-visual-studio-step-02-writing-code.md)

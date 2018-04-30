@@ -1,3 +1,6 @@
+---
+ms.topic: "include"
+---
 In this guide, you will learn how to:
 
 1. Create a Kubernetes-based environment in Azure that is optimized for development.

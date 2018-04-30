@@ -96,7 +96,7 @@ In addition to managing projects, providing a rich editing experience, and the i
 > [!Tip]
 > In some situations, such as a failure to launch the Python interpreter itself, the output window may appear only briefly and then close automatically without giving you a chance to see any errors messages. If this happens, right-click the project in Solution Explorer, select **Properties**, select the **Debug** tab, then add `-i` to the **Interpreter Arguments** field. This argument causes the interpreter to go into interactive mode after a program completes, thereby keeping the window open until you enter Ctrl+Z,Enter to exit.
 
-## Next steps
+## Next step
 
 > [!div class="nextstepaction"]
 > [Installing packages in your Python environment](tutorial-working-with-python-in-visual-studio-step-05-installing-packages.md)

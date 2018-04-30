@@ -49,7 +49,7 @@
       "titleSuffix": "Visual Studio"
     },
     "template": [],
-    "xref": ["missingapi.yml", "../dotnet-xref/_zip/dotnet.zip", "vs.140.zip"],
+    "xref": ["missingapi.yml", "vs.140.zip", "office15.zip"],
     "dest": "vsdocsdocs"
   }
 }

@@ -1,7 +1,6 @@
 ---
 title: "How to: Manage build configurations with Visual Basic developer settings applied"
-ms.prod: visual-studio-dev15
-ms.technology:$1ms.date: 11/04/2016
+ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-compile
 ms.topic: conceptual
