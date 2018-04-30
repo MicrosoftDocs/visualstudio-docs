@@ -28,7 +28,7 @@ This topic demonstrates how to use the [Generate From Usage](../ide/visual-cshar
 
 [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]
 
-### To create a Windows Class Library project and a Test project
+### Create a Windows Class Library project and a Test project
 
 1.  In [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] or [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)], create a new **Windows Class Library** project. Name it `GFUDemo_VB` or `GFUDemo_CS`, depending on which language you are using.
 
@@ -40,7 +40,7 @@ This topic demonstrates how to use the [Generate From Usage](../ide/visual-cshar
 
 4.  Choose **OK** to close the **New Project** dialog box.
 
-### To add a reference to the Class Library project
+### Add a reference to the Class Library project
 
 1.  In **Solution Explorer**, under your unit test project, right-click the **References** entry and choose **Add Reference**.
 
@@ -50,7 +50,7 @@ This topic demonstrates how to use the [Generate From Usage](../ide/visual-cshar
 
 4.  Save your solution. You are now ready to begin writing tests.
 
-### To generate a new class from a unit test
+### Generate a new class from a unit test
 
 1.  The test project contains a file that is named *UnitTest1*. Double-click this file in **Solution Explorer** to open it in the code editor. A test class and test method have been generated.
 
@@ -77,7 +77,7 @@ This topic demonstrates how to use the [Generate From Usage](../ide/visual-cshar
 
 7.  In **Solution Explorer**, look under the **GFUDemo_VB** or **GFUDemo_CS** project node to verify that the new *Automobile.vb* or *Automobile.cs* file is there. In the code editor, the focus is still in `AutomobileTest.DefaultAutomobileIsInitializedCorrectly`, which enables you to continue to write your test with a minimum of interruption.
 
-### To generate a property stub
+### Generate a property stub
 Assume that the product specification states that the `Automobile` class has two public properties named `Model` and `TopSpeed`. These properties must be initialized with default values of `"Not specified"` and `-1` by the default constructor. The following unit test will verify that the default constructor sets the properties to their correct default values.
 
 1. Add the following line of code to the `DefaultAutomobileIsInitializedCorrectly` test method.
@@ -91,7 +91,7 @@ Assume that the product specification states that the `Automobile` class has two
 
      In the `Automobile` class, the types of the new properties are correctly inferred from the context.
 
-### To generate a stub for a new constructor
+### Generate a stub for a new constructor
 Now we'll create a test method that will generate a constructor stub to initialize the `Model` and `TopSpeed` properties. Later, you'll add more code to complete the test.
 
 1. Add the following additional test method to your `AutomobileTest` class.
@@ -106,7 +106,7 @@ Now we'll create a test method that will generate a constructor stub to initiali
 
 3.  After you generate the new constructor, a wavy underline appears under the call to the default constructor in `DefaultAutomobileIsInitializedCorrectly`. The error message states that the `Automobile` class has no constructor that takes zero arguments. To generate an explicit default constructor that does not have parameters, click the **Quick Actions** light bulb, and then click **Generate constructor in 'Automobile'**.
 
-### To generate a stub for a method
+### Generate a stub for a method
 Assume that the specification states that a new `Automobile` can be put into a `IsRunning` state if its `Model` and `TopSpeed` properties are set to something other than the default values.
 
 1. Add the following lines to the `AutomobileWithModelNameCanStart` method.
@@ -120,7 +120,7 @@ Assume that the specification states that a new `Automobile` can be put into a `
 
      The `Automobile` class now contains a method named `Start()` and a property named `IsRunning`.
 
-### To run the tests
+### Run the tests
 
 1.  On the **Test** menu, choose **Run** > **All Tests**.
 
@@ -132,7 +132,7 @@ Assume that the specification states that a new `Automobile` can be put into a `
 
 2.  In the **Test Results** window, double-click on each test result row to go to the location of each test.
 
-### To implement the source code
+### Implement the source code
 
 1.  Add the following code to the default constructor so that the `Model`, `TopSpeed` and `IsRunning` properties are all initialized to their correct default values of `"Not specified"`, `-1`, and `False` (or `false` for C#).
 
@@ -144,7 +144,7 @@ Assume that the specification states that a new `Automobile` can be put into a `
      [!code-csharp[VbTDDWalkthrough#6](../ide/codesnippet/CSharp/walkthrough-test-first-support-with-the-generate-from-usage-feature_6.cs)]
      [!code-vb[VbTDDWalkthrough#6](../ide/codesnippet/VisualBasic/walkthrough-test-first-support-with-the-generate-from-usage-feature_6.vb)]
 
-### To run the tests again
+### Run the tests again
 
 - On the **Test** menu, point to **Run**, and then click **All Tests**.
 

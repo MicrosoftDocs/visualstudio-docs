@@ -24,7 +24,7 @@ When you create a solution, debug and release build configurations and their def
 
 You can change or create configurations and platform settings by using the **Configuration Manager** dialog box. In this procedure, you'll create a build configuration for testing.
 
-### To create a build configuration
+### Create a build configuration
 
 1. Open the **Configuration Manager** dialog box.
 
@@ -58,7 +58,7 @@ You can quickly verify or change the active solution configuration by using the 
 
 Next, you'll build the solution with the custom build configuration.
 
-### To build the solution
+### Build the solution
 
 -   On the menu bar, choose **Build** > **Build Solution**.
 
@@ -84,7 +84,7 @@ The **Output** window displays the results of the build. The build succeeded, bu
 
 You can temporarily hide certain warning messages during a build rather than have them clutter up the build output.
 
-### To hide a specific C# warning
+### Hide a specific C# warning
 
 1. In **Solution Explorer**, choose the top-level project node.
 
@@ -104,7 +104,7 @@ You can temporarily hide certain warning messages during a build rather than hav
 
      ![Output Window, Visual C&#35; Build Warnings](../ide/media/buildwalk_visualcsharpbuildwarnings.png "BuildWalk_VisualCsharpBuildWarnings")
 
-### To suppress all Visual Basic build warnings
+### Suppress all Visual Basic build warnings
 
 1. In **Solution Explorer**, choose the top-level project node.
 
@@ -134,7 +134,7 @@ You can change how much information about the build process appears in the **Out
 > If you display more information, the build will take longer to complete.
 
 
-### To change the amount of information in the Output window
+### Change the amount of information in the Output window
 
 1. Open the **Options** dialog box.
 
@@ -165,7 +165,7 @@ You can build a version of the sample application that's optimized for shipping 
 
 For more information, see [How to: Change the build output directory](../ide/how-to-change-the-build-output-directory.md) and [Build and clean projects and solutions in Visual Studio](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md).
 
-### To specify a release build for Visual Basic
+### Specify a release build for Visual Basic
 
 1. Open the **Project Designer**.
 
@@ -188,7 +188,7 @@ For more information, see [How to: Change the build output directory](../ide/how
 
      ![Build Solution command on the Build menu](../ide/media/exploreide-buildsolution.png "ExploreIDE-BuildSolution")
 
-### To specify a release build for C# #
+### Specify a release build for C# #
 
 1. Open the **Project Designer**.
 

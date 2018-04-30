@@ -79,7 +79,7 @@ Notice that the name of the *Program Files* folder depends on the operating syst
 > [!NOTE]
 > On the build computer, all of the relevant files must be on the same drive; however, the drive letter for that drive can be different than the drive letter for the drive where Visual Studio is installed on the host computer. In any case, you must account for the location of files when you create registry entries as described later in this document.
 
-#### To copy the Windows SDK files to the build computer
+#### Copy the Windows SDK files to the build computer
 
 1. If you have only the Windows SDK for Windows 8 installed, copy these folders recursively from the host computer to the build computer:
 
@@ -202,7 +202,7 @@ Notice that the name of the *Program Files* folder depends on the operating syst
 ##  <a name="CreatingRegistry"></a> Create registry settings
  You must create registry entries to configure settings for MSBuild.
 
-#### To create registry settings
+#### Create registry settings
 
 1. Identify the parent folder for registry entries. All of the registry entries are created under the same parent key. On an x86 computer, the parent key is **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft**. On an x64 computer the parent key is **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft**. Irrespective of the system architecture, this walkthrough refers to the parent key as %RegistryRoot%.
 
@@ -265,7 +265,7 @@ Notice that the name of the *Program Files* folder depends on the operating syst
 
 To use MSBuild on the build computer, you must set the PATH environment variables. You can use *vcvarsall.bat* to set the variables, or you can manually configure them.
 
-### To use vcvarsall.bat to set environment variables
+### Use vcvarsall.bat to set environment variables
 
 - Open a **Command Prompt** window on the build computer and run *%Program Files%\Microsoft Visual Studio 11.0\VC\vcvarsall.bat*. You can use a command-line argument to specify the toolset you want to use—x86, native x64, or x64 cross-compiler. If you don't specify a command-line argument, the x86 toolset is used.
 
@@ -279,7 +279,7 @@ To use MSBuild on the build computer, you must set the PATH environment variable
 
      If *vcvarsall.bat* runs successfully—that is, no error message is displayed—you can skip the next step and continue at the [Install MSBuild assemblies to the Global Assembly Cache (GAC) on the build computer](../ide/walkthrough-creating-a-multiple-computer-build-environment.md#InstallingMSBuildToGAC) section of this document.
 
-### To manually set environment variables
+### Manually set environment variables
 
 1. To manually configure the command-line environment, add this path to the PATH environment variable:
 

@@ -32,7 +32,7 @@ After Visual Studio launches, you'll see tool windows, the menus and toolbars, a
 ### Create the project
 When you create an application in Visual Studio, you first create a project and a solution. For this example, you'll create a Windows Presentation Foundation (WPF) project.
 
-#### To create the WPF project
+#### Create the WPF project
 
 1.  Create a new project. On the menu bar, choose **File** > **New** > **Project**.
 
@@ -48,7 +48,7 @@ Visual Studio creates the HelloWPFApp project and solution, and **Solution Explo
 
 After you create the project, you can customize it. By using the **Properties** window (found on the **View** menu), you can display and change options for project items, controls, and other items in an application.
 
-#### To change the name of MainWindow.xaml
+#### Change the name of MainWindow.xaml
 Let's give MainWindow a more specific name.
 
 1. In **Solution Explorer**, select *MainWindow.xaml*. You should see the **Properties** window, but if you don't, choose the **View** menu and then the **Properties Window** item.
@@ -61,7 +61,7 @@ Let's give MainWindow a more specific name.
 ### Design the user interface (UI)
 We will add three types of controls to this application: a <xref:System.Windows.Controls.TextBlock> control, two <xref:System.Windows.Controls.RadioButton> controls, and a <xref:System.Windows.Controls.Button> control.
 
-#### To add a TextBlock control
+#### Add a TextBlock control
 
 1.  Open the **Toolbox** window by choosing the **View** menu and the **Toolbox** item.
 
@@ -81,7 +81,7 @@ The XAML markup should look something like the following:
 <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" RenderTransformOrigin="4.08,2.312" Margin="237,57,221,238"><Run Text="TextBlock"/><InlineUIContainer><TextBlock TextWrapping="Wrap" Text="TextBlock"/>
 ```
 
-#### To customize the text in the text block
+#### Customize the text in the text block
 
 1.  In the XAML view, locate the markup for TextBlock and change the Text attribute:
 
@@ -93,7 +93,7 @@ The XAML markup should look something like the following:
 
 Next, you'll add two [RadioButton](/dotnet/framework/wpf/controls/radiobutton) controls to the form.
 
-#### To add radio buttons
+#### Add radio buttons
 
 1.  In the **Toolbox**, find the **RadioButton** control.
 
@@ -113,13 +113,13 @@ Next, you'll add two [RadioButton](/dotnet/framework/wpf/controls/radiobutton) c
 
 You can now add display text for each RadioButton control. The following procedure updates the **Content** property for a RadioButton control.
 
-#### To add display text for each radio button
+#### Add display text for each radio button
 
 1.  On the design surface, open the shortcut menu for HelloButton by pressing the right mouse button on HelloButton, choose **Edit Text**, and then enter `Hello`.
 
 2.  Open the shortcut menu for GoodbyeButton by pressing the right mouse button on GoodbyeButton, choose **Edit Text**, and then enter `Goodbye`.
 
-### To set a radio button to be checked by default
+### Set a radio button to be checked by default
 In this step we'll set HelloButton to be checked by default so that one of the two radio buttons is always selected.
 
 In the XAML view, locate the markup for HelloButton and add an **IsChecked** attribute:
@@ -130,7 +130,7 @@ IsChecked="True"
 
 The final UI element that you'll add is a [Button](/dotnet/framework/wpf/controls/button) control.
 
-#### To add the button control
+#### Add the button control
 
 1.  In the **Toolbox**, find the **Button** control, and then add it to the design surface under the RadioButton controls by dragging it to the form in the design view.
 
@@ -192,7 +192,7 @@ Next, you'll debug the application to look for errors and test that both message
 ### Find and fix errors
 In this step, you'll find the error that we caused earlier by changing the name of the *MainWindow.xaml* file.
 
-#### To start debugging and find the error
+#### Start debugging and find the error
 
 1.  Start the debugger by selecting **Debug**, then **Start Debugging**.
 
@@ -206,7 +206,7 @@ In this step, you'll find the error that we caused earlier by changing the name 
 
 We renamed *MainWindow.xaml* to *Greetings.xaml* at the start of this walkthrough, but the code still refers to *MainWindow.xaml* as the startup URI for the application, so the project can't start.
 
-#### To specify Greetings.xaml as the startup URI
+#### Specify Greetings.xaml as the startup URI
 
 1.  In **Solution Explorer**, open the *App.xaml* file (in the C# project) or the *Application.xaml* file (in the Visual Basic project).
 
@@ -214,10 +214,10 @@ We renamed *MainWindow.xaml* to *Greetings.xaml* at the start of this walkthroug
 
 Start the debugger again (press **F5**). You should see the **Greetings** window of the application. Now close the application window to stop debugging.
 
-### To debug with breakpoints
+### Debug with breakpoints
 You can test the code during debugging by adding some breakpoints. You can add breakpoints by choosing **Debug** > **Toggle Breakpoint**, by clicking in the left margin of the editor next to the line of code where you want the break to occur, or by pressing **F9**.
 
-#### To add breakpoints
+#### Add breakpoints
 
 1.  Open *Greetings.xaml.vb* or *Greetings.xaml.cs*, and select the following line: `MessageBox.Show("Hello.")`
 
@@ -254,7 +254,7 @@ You can test the code during debugging by adding some breakpoints. You can add b
 ### Build a release version of the application
  Now that you've verified that everything works, you can prepare a release build of the application.
 
-#### To clean the solution files and build a release version
+#### Clean the solution files and build a release version
 
 1.  On the main menu, select **Build** > **Clean solution** to delete intermediate files and output files that were created during previous builds. This is not necessary, but it cleans up the debug build outputs.
 

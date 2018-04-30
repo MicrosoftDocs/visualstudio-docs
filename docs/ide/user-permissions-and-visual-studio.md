@@ -46,7 +46,7 @@ You can do nearly everything in the Visual Studio IDE as a normal user, but, you
 
 You can launch Visual Studio with administrative permissions each time you start the IDE, or you can modify the application shortcut to always run with administrative permissions. For more information, see Windows Help.
 
-### To run Visual Studio with administrative permissions
+### Run Visual Studio with administrative permissions
 
 These instructions are for Windows 10. They are similar for other versions of Windows.
 

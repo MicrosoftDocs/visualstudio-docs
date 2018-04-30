@@ -43,7 +43,7 @@ You can create a code snippet with only a few steps. All you need to do is creat
 </CodeSnippets>
 ```
 
-### To create a code snippet
+### Create a code snippet
 
 1.  Create a new XML file in Visual Studio and add the template shown above.
 
@@ -61,7 +61,7 @@ You can create a code snippet with only a few steps. All you need to do is creat
 
 5.  Save the snippet as *VBCodeSnippet.snippet*.
 
-### To add a code snippet to Visual Studio
+### Add a code snippet to Visual Studio
 
 1.  You can add your own snippets to your Visual Studio installation by using the Code Snippets Manager. Open the **Code Snippets Manager** (**Tools** > **Code Snippets Manager**).
 
@@ -114,7 +114,7 @@ You can create a code snippet with only a few steps. All you need to do is creat
 
     The snippet code is inserted.
 
-### To add references and imports
+### Add references and imports
 
 1.  You can add a reference to a project by using the **References** element, and add an Imports declaration by using the **Imports** element. (This works for C# as well.) For example, if you change `Console.WriteLine` in the code example to `MessageBox.Show`, you may need to add the *System.Windows.Forms.dll* assembly to the project.
 
