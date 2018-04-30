@@ -1,6 +1,6 @@
 ---
 title: "Tutorial: Debug managed and native code | Microsoft Docs"
-description: Learn how to debug a native DLL from a C# app
+description: Learn how to debug a native DLL from a .NET Core or .NET Framework app
 ms.custom: ""
 ms.date: "04/27/2018"
 ms.technology: "vs-ide-debug"
@@ -17,7 +17,7 @@ ms.workload:
   - "dotnet"
   - "cplusplus"
 ---
-# How to: Debug managed and native code in Visual Studio
+# Tutorial: Debug managed and native code in Visual Studio
 
 Visual Studio allows you to enable more than one debugger type when debugging, which is called mixed mode debugging. In this tutorial, we set options to debug both managed and native code in a single debugging session. This tutorial shows how to debug native code from a managed app, but you can also do the reverse, and [debug managed code from a native app](../debugger/how-to-debug-in-mixed-mode.md). The debugger also supports other types of mixed mode debugging, such as debugging [Python and native code](../python/debugging-mixed-mode-c-cpp-python-in-visual-studio.md) and using the script debugger in app types such as ASP.NET.
 
@@ -25,9 +25,9 @@ In this tutorial, you will:
 
 > [!div class="checklist"]
 > * Create a simple native DLL
-> * Create a simple C# app to call the DLL
+> * Create a simple .NET Core or .NET Framework app to call the DLL
 > * Start the debugger
-> * Hit a breakpoint in the C# app
+> * Hit a breakpoint in the managed app
 > * Step into native code
 
 ## Prerequisites
@@ -78,12 +78,14 @@ In this tutorial, you will:
     #endif
     ```
 
-1. From the Debug toolbar, select a **Release** configuration and **Any CPU** as the platform, or, for .NET Core, **x64**.
+1. From the Debug toolbar, select a **Release** configuration and **Any CPU** as the platform, or, for .NET Core, select **x64** as the platform.
 
     ![Set a Release build for the DLL](../debugger/media/mixed-mode-setting-release-build.png)
 
     > [!NOTE]
-    > On .NET Core, choose **x64** as the platform because .NET Core always runs in 64-bit mode.
+    > On .NET Core, choose **x64** as the platform. .NET Core always runs in 64-bit mode so this is required.
+
+    By using a Release configuration, simplify the configuration of the DLL.
 
 1. In Solution Explorer, right-click the project node (**Mixed-Mode-Debugging**) and choose **Properties**.
 
@@ -124,10 +126,10 @@ In this tutorial, you will:
         public class Program
         {
             // Replace the file path shown here with the
-            // file path on your computer. For .NET Core, the default path
-            // for a 64-bit DLL might look more like this:
+            // file path on your computer. For .NET Core, the typical (default) path
+            // for a 64-bit DLL might look like this:
             // C:\Users\username\source\repos\Mixed-Mode-Debugging\x64\Release\Mixed-Mode-Debugging.dll
-            // Here, we show the default path for a DLL targeting the **Any CPU** option.
+            // Here, we show a typical path for a DLL targeting the **Any CPU** option.
             [DllImport(@"C:\Users\username\source\repos\Mixed-Mode-Debugging\Release\Mixed-Mode-Debugging.dll", EntryPoint =
             "mixed_mode_multiply", CallingConvention = CallingConvention.StdCall)]
             public static extern int Multiply(int x, int y);
@@ -151,7 +153,7 @@ In this tutorial, you will:
 
 ## Configure mixed mode debugging (.NET Core)
 
-Currently, you can enable mixed mode debugging for native code in a .NET Core app using the *launchSettings.json* file instead of the **Properties** page. To track UI updates for this feature, see this [GitHub issue](https://github.com/dotnet/project-system/issues/1125).
+In most versions of Visual Studio 2017, you must enable mixed mode debugging for native code in a .NET Core app using the *launchSettings.json* file instead of the **Properties** page. To track UI updates for this feature, see this [GitHub issue](https://github.com/dotnet/project-system/issues/1125).
 
 1. Open the *launchSettings.json* file in the *Properties* folder. By default, you can find the file in this location.
 
