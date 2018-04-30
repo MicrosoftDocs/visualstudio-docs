@@ -19,11 +19,11 @@ CodeLens lets you stay focused on your work while you find out what happened to 
 
 See where and how the individual parts of your code are used in your solution:
 
-![CodeLens indicators in the code editor](../ide/media/codelensoverview.png)
+![CodeLens indicators in the code editor](../ide/media/codelens-overview.png)
 
 Contact your team about changes to your code without leaving the editor:
 
-![CodeLens - Contact your team](../ide/media/codelensovervew2.png)
+![CodeLens - Contact your team](../ide/media/codelens-contact-info.png)
 
 To choose the indicators that you want to see, or to turn CodeLens off and on, go to **Tools** > **Options** > **Text Editor** > **All Languages** > **CodeLens**.
 
@@ -31,21 +31,26 @@ To choose the indicators that you want to see, or to turn CodeLens off and on, g
 
 You can find references in C# or Visual Basic code.
 
-1. Choose the **references** indicator, or press **Alt**+**2**. If you see **0 references**, you have no references from C# or Visual Basic code. This doesn't include references from other items such as *.xaml* and *.aspx* files.
+1. Choose the **references** indicator, or press **Alt**+**2**.
 
-   ![CodeLens - Choose references indicator](../ide/media/codelensviewreferenceslist.png)
+   ![CodeLens references](../ide/media/codelens-view-references.png)
 
-2. To view the referencing code, move your mouse on top of the reference.
+   > [!NOTE]
+   > If the indicator shows **0 references**, you have no references from C# or Visual Basic code. However, there may be references in other items such as *.xaml* and *.aspx* files.
 
-   ![CodeLens - Peek reference](../ide/media/codelensviewreferencespeekreference.png)
+2. To view the referencing code, mouse over the reference in the list.
 
-3. To open the file containing the reference, double-click the reference.
+   ![CodeLens - Peek reference](../ide/media/codelens-peek-reference.png)
 
-4. To see relationships between the code and its references, [create a code map](../modeling/map-dependencies-across-your-solutions.md) and choose **Show All References** in the code map shortcut menu.
+3. To open the file that contains the reference, double-click the reference.
 
-   ![CodeLens - References on code map](../ide/media/codelensmappedreferences.png)
+### Code maps
 
-## <a name="find-code-history"/>Find your code's history and linked items
+To see relationships between the code and its references, [create a code map](../modeling/map-dependencies-across-your-solutions.md). In the code map shortcut menu, select **Show All References**.
+
+![CodeLens - References on code map](../ide/media/codelensmappedreferences.png)
+
+## <a name="find-code-history"/>Find changes in your code
 
 Inspect your code's history to find out what happened to your code. Or, review changes before they're merged into your code so you can better understand how changes in other branches might affect your code.
 
@@ -57,29 +62,33 @@ You'll need:
 
 - [Skype for Business](/skypeforbusiness/), or Lync 2010 or later, to contact your team from the code editor
 
-For C# or Visual Basic code that's stored with Team Foundation Version Control (TFVC) or Git, you get CodeLens details at the class and method levels (*code-element-level* indicators). If your Git repository is hosted in TfGit, you also get links to TFS work items.
+For C# or Visual Basic code that's stored with Team Foundation Version Control (TFVC) or Git, you get CodeLens details at the class and method levels (*code element-level* indicators). If your Git repository is hosted in TfGit, you also get links to TFS work items.
 
-![Code element-level indicators](../ide/media/codelenselementlevelindicators.png)
+![Code element-level indicators](../ide/media/codelens-element-level-indicators.png)
 
-For all other types of files that you can open in the Visual Studio editor, you get CodeLens details for the entire file in one place at the bottom of the window (*file-level* indicators).
+For file types other than *.cs* or *.vb*, you get CodeLens details for the entire file in one place at the bottom of the window (*file-level* indicators).
 
 ![File-level CodeLens indicators](../ide/media/almcodelensfilelevelindicators.png)
 
-To use the keyboard to select indicators, press and hold the **Alt** key to display the related number keys.
+### Keyboard shortcuts
 
-![Keyboard access numbers](../ide/media/codelensaltkeyindicators.png)
+To use the keyboard to select indicators, press and hold the **Alt** key to display the related number keys, then press the number that corresponds to the indicator you want to select.
 
-### Find changes in your code
+![Keyboard access numbers](../ide/media/codelens-alt-keys.png)
 
-Find who changed your C# or Visual Basic code, and the changes they made, in code element-level indicators. This is what you see when you use Team Foundation Version Control (TFVC) in Team Foundation Server or Visual Studio Team Services.
+### Code element-level indicators
 
-![CodeLens: Get change history for your code in TFVC](../ide/media/codelenscodechanges.png)
+Code element-level indicators let you see who changed your code, and what changes they made. Code element-level indicators are available for C# and Visual Basic code.
 
-The default time period is the last 12 months. If your code is stored in Team Foundation Server, you can change this by running the [TFSConfig command](/vsts/tfs-server/command-line/tfsconfig-cmd) with the [CodeIndex command](../ide/codeindex-command.md) and the **/indexHistoryPeriod** flag.
+This is what you see when you use Team Foundation Version Control (TFVC) in Team Foundation Server or Visual Studio Team Services:
+
+![CodeLens: Get change history for your code in TFVC](../ide/media/codelens-code-changes.png)
+
+The default time period is the last 12 months. If your code is stored in Team Foundation Server, you can change the time period by running the [TFSConfig command](/vsts/tfs-server/command-line/tfsconfig-cmd) with the [CodeIndex command](../ide/codeindex-command.md) and the **/indexHistoryPeriod** flag.
 
 To see a detailed history of all the changes, including those from more than a year ago, choose **Show all file changes**:
 
-![Show all code changes](../ide/media/codelensshowsallchanges.png)
+![Show all code changes](../ide/media/codelens-show-all-file-changes.png)
 
 The **History** window opens:
 
@@ -87,13 +96,18 @@ The **History** window opens:
 
 When your files are in a Git repository and you choose the code element-level changes indicator, this is what you see:
 
-![CodeLens: Get change history for your code in Git](../ide/media/codelenscodechangesgit.png)
+![CodeLens: Get change history for your code in Git](../ide/media/codelens-code-changes-git.png)
 
-Find changes for an entire file (except for C# and Visual Basic files) in the file-level indicators at the bottom of the window:
+### File-level indicators
 
-![CodeLens: Get code file details](../ide/media/codelensfilelevel.png)
+Find changes for an entire file in the file-level indicators at the bottom of the window:
 
-To get more details about a change, right-click that item. Depending on whether you are using TFVC or Git, you get a series of options to compare the versions of the file, view details and track the changeset, get the selected version of the file, and email the author of that change. Some of these details appear in **Team Explorer**.
+![CodeLens: Get code file details](../ide/media/codelens-file-level.png)
+
+> [!NOTE]
+> File-level indicators are not available for C# and Visual Basic files.
+
+To get more details about a change, right-click that item. Depending on whether you are using TFVC or Git, there are options to compare the versions of the file, view details and track the changeset, get the selected version of the file, and email the author of that change. Some of these details appear in **Team Explorer**.
 
 You can also see who changed your code over time. This can help you find patterns in your team's changes and assess their impact.
 
@@ -101,17 +115,17 @@ You can also see who changed your code over time. This can help you find pattern
 
 #### Find changes in your current branch
 
-Suppose your team has multiple branches, for example a main branch and a child development branch, to reduce the risk of breaking stable code:
+Your team may have multiple branches, for example a main branch and a child development branch, to reduce the risk of breaking stable code.
 
 ![CodeLens: Find when your code was branched](../ide/media/codelensfirstbranchconceptual.png)
 
-Find how many people changed your code and how many changes were made in your main branch by pressing **Alt**+**6**:
+You can find out how many people changed your code and how many changes were made in the main branch by pressing **Alt**+**6**:
 
-![CodeLens: Find how many changes in your branch](../ide/media/codelensbranchchanges.png)
+![CodeLens: Find how many changes in your branch](../ide/media/codelens-branch-changes.png)
 
 #### Find when your code was branched
 
-Go to your code in the child branch, for example, the **Dev** branch in the following screenshot. Choose the changes indicator (**Alt**+**6**):
+To find when your code was branched, navigate to your code in the child branch. Then, select the **changes** indicator or press**Alt**+**6**:
 
 ![CodeLens: Find when your code was branched](../ide/media/codelensfirstbranchscreenshot.png)
 
@@ -119,11 +133,11 @@ Go to your code in the child branch, for example, the **Dev** branch in the foll
 
 ![CodeLens: Find code changes in other branches](../ide/media/codelensbranchchangecheckinconceptual.png)
 
-...like this bug fix in the Dev branch here:
+You can view incoming changes. In the following screenshot, a bug fix was made in the "Dev" branch:
 
-![CodeLens: Change checked into another branch](../ide/media/codelensbranchchangedevscreenshot.png)
+![CodeLens: Change checked into another branch](../ide/media/codelens-branch-changes-dev.png)
 
-You can review this change without leaving your current branch (Main):
+You can review the change without leaving your current branch ("Main"):
 
 ![CodeLens: See incoming change from another branch](../ide/media/codelensbranchchangemainscreenshot.png)
 
