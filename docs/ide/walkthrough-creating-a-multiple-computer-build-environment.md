@@ -65,16 +65,16 @@ By installing Visual Studio on the host computer, you create the files and setti
 
 1. On the host computer, install Visual Studio.
 
-2. On the build computer, install the .NET Framework 4.5. To verify that it's installed, make sure that the value of the registry key `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full@Version` starts with "4.5".
+2. On the build computer, install the .NET Framework 4.5. To verify that it's installed, make sure that the value of the registry key **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full@Version** starts with "4.5".
 
 ## <a name="CopyingFiles"></a> Copy files from the host computer to the build computer
 
 This section covers the copying of specific files, compilers, build tools, MSBuild assets, and registry settings from the host computer to the build computer. These instructions assume that you've installed Visual Studio in the default location on the host computer; if you installed in another location, adjust the steps accordingly.
 
-- On an x86 computer, the default location is C:\Program Files\Microsoft Visual Studio 11.0
-- On an x64 computer, the default location is C:\Program Files (x86)\Microsoft Visual Studio 11.0
+- On an x86 computer, the default location is *C:\Program Files\Microsoft Visual Studio 11.0*
+- On an x64 computer, the default location is *C:\Program Files (x86)\Microsoft Visual Studio 11.0*
 
-Notice that the name of the *Program Files* folder depends on the operating system that's installed. On an x86 computer, the name is *Program Files*; on an x64 computer, the name is *Program Files (x86)*. Irrespective of the system architecture, this walkthrough refers to the Program Files folder as %ProgramFiles%.
+Notice that the name of the *Program Files* folder depends on the operating system that's installed. On an x86 computer, the name is *Program Files*; on an x64 computer, the name is *Program Files (x86)*. Irrespective of the system architecture, this walkthrough refers to the *Program Files* folder as *%ProgramFiles%*.
 
 > [!NOTE]
 > On the build computer, all of the relevant files must be on the same drive; however, the drive letter for that drive can be different than the drive letter for the drive where Visual Studio is installed on the host computer. In any case, you must account for the location of files when you create registry entries as described later in this document.
@@ -105,7 +105,7 @@ Notice that the name of the *Program Files* folder depends on the operating syst
 
     - Microsoft Windows Hardware Certification Kit
 
-     ...they might have installed files into the %ProgramFiles%\Windows Kits\8.0\ folders that are listed in the previous step, and their license terms might not allow build-server rights for those files. Check the license terms for every installed Windows kit to verify whether files may be copied to your build computer. If the license terms don't allow build-server rights, then remove the files from the build computer.
+     ...they might have installed files into the *%ProgramFiles%\Windows Kits\8.0* folders that are listed in the previous step, and their license terms might not allow build-server rights for those files. Check the license terms for every installed Windows kit to verify whether files may be copied to your build computer. If the license terms don't allow build-server rights, then remove the files from the build computer.
 
 2. Copy the following folders recursively from the host computer to the build computer:
 
@@ -141,7 +141,7 @@ Notice that the name of the *Program Files* folder depends on the operating syst
 
     - %ProgramFiles%\Microsoft Visual Studio 11.0\Common7\Tools\vsvars32.bat
 
-4. The following Visual C++ runtime libraries are required only if you run build outputs on the build computer—for example, as part of automated testing. The files are typically located in subfolders under the %ProgramFiles%\Microsoft Visual Studio 11.0\VC\redist\x86\ or %ProgramFiles%\Microsoft Visual Studio 11.0\VC\redist\x64\ folder, depending on the system architecture. On x86 systems, copy the x86 binaries to the \Windows\System32\ folder. On x64 systems, copy the x86 binaries to the Windows\SysWOW64\ folder, and the x64 binaries to the Windows\System32\ folder.
+4. The following Visual C++ runtime libraries are required only if you run build outputs on the build computer—for example, as part of automated testing. The files are typically located in subfolders under the *%ProgramFiles%\Microsoft Visual Studio 11.0\VC\redist\x86* or *%ProgramFiles%\Microsoft Visual Studio 11.0\VC\redist\x64* folder, depending on the system architecture. On x86 systems, copy the x86 binaries to the *Windows\System32* folder. On x64 systems, copy the x86 binaries to the *Windows\SysWOW64* folder, and the x64 binaries to the *Windows\System32* folder.
 
     - \Microsoft.VC110.ATL\atl110.dll
 
@@ -181,7 +181,7 @@ Notice that the name of the *Program Files* folder depends on the operating syst
 
     - \Microsoft.VC110.OPENMP\vcomp110.dll
 
-5. Copy only the following files from the \Debug_NonRedist\x86\ or \Debug_NonRedist\x64\ folder to the build computer, as described in [Prepare a test machine to run a debug executable](/cpp/ide/preparing-a-test-machine-to-run-a-debug-executable). No other files may be copied.
+5. Copy only the following files from the *Debug_NonRedist\x86* or *Debug_NonRedist\x64* folder to the build computer, as described in [Prepare a test machine to run a debug executable](/cpp/ide/preparing-a-test-machine-to-run-a-debug-executable). No other files may be copied.
 
     - \Microsoft.VC110.DebugCRT\msvcp110d.dll
 
@@ -204,7 +204,7 @@ Notice that the name of the *Program Files* folder depends on the operating syst
 
 #### To create registry settings
 
-1. Identify the parent folder for registry entries. All of the registry entries are created under the same parent key. On an x86 computer, the parent key is `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft`. On an x64 computer the parent key is `HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft`. Irrespective of the system architecture, this walkthrough refers to the parent key as %RegistryRoot%.
+1. Identify the parent folder for registry entries. All of the registry entries are created under the same parent key. On an x86 computer, the parent key is **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft**. On an x64 computer the parent key is **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft**. Irrespective of the system architecture, this walkthrough refers to the parent key as %RegistryRoot%.
 
     > [!NOTE]
     > If the architecture of your host computer differs from that of your build computer, make sure to use the appropriate parent key on each computer. This is especially important if you're automating the export process.
@@ -213,53 +213,53 @@ Notice that the name of the *Program Files* folder depends on the operating syst
 
 2. Create the following registry entries on the build computer. All of these entries are strings (Type == "REG_SZ" in the registry). Set the values of these entries the same as the values of the comparable entries on the host computer.
 
-    - %RegistryRoot%\\.NETFramework\v4.0.30319\AssemblyFoldersEx\VCMSBuild Public Assemblies@(Default)
+    - **%RegistryRoot%\\.NETFramework\v4.0.30319\AssemblyFoldersEx\VCMSBuild Public Assemblies@(Default)**
 
-    - %RegistryRoot%\Microsoft SDKs\Windows\v8.0@InstallationFolder
+    - **%RegistryRoot%\Microsoft SDKs\Windows\v8.0@InstallationFolder**
 
-    - %RegistryRoot%\Microsoft SDKs\Windows\v8.0A@InstallationFolder
+    - **%RegistryRoot%\Microsoft SDKs\Windows\v8.0A@InstallationFolder**
 
-    - %RegistryRoot%\Microsoft SDKs\Windows\v8.0A\WinSDK-NetFx40Tools@InstallationFolder
+    - **%RegistryRoot%\Microsoft SDKs\Windows\v8.0A\WinSDK-NetFx40Tools@InstallationFolder**
 
-    - %RegistryRoot%\Microsoft SDKs\Windows\v8.0A\WinSDK-NetFx40Tools-x86@InstallationFolder
+    - **%RegistryRoot%\Microsoft SDKs\Windows\v8.0A\WinSDK-NetFx40Tools-x86@InstallationFolder**
 
-    - %RegistryRoot%\VisualStudio\11.0@Source Directories
+    - **%RegistryRoot%\VisualStudio\11.0@Source Directories**
 
-    - %RegistryRoot%\VisualStudio\11.0\Setup\VC@ProductDir
+    - **%RegistryRoot%\VisualStudio\11.0\Setup\VC@ProductDir**
 
-    - %RegistryRoot%\VisualStudio\SxS\VC7@FrameworkDir32
+    - **%RegistryRoot%\VisualStudio\SxS\VC7@FrameworkDir32**
 
-    - %RegistryRoot%\VisualStudio\SxS\VC7@FrameworkDir64
+    - **%RegistryRoot%\VisualStudio\SxS\VC7@FrameworkDir64**
 
-    - %RegistryRoot%\VisualStudio\SxS\VC7@FrameworkVer32
+    - **%RegistryRoot%\VisualStudio\SxS\VC7@FrameworkVer32**
 
-    - %RegistryRoot%\VisualStudio\SxS\VC7@FrameworkVer64
+    - **%RegistryRoot%\VisualStudio\SxS\VC7@FrameworkVer64**
 
-    - %RegistryRoot%\VisualStudio\SxS\VC7@11.0
+    - **%RegistryRoot%\VisualStudio\SxS\VC7@11.0**
 
-    - %RegistryRoot%\VisualStudio\SxS\VS7@11.0
+    - **%RegistryRoot%\VisualStudio\SxS\VS7@11.0**
 
-    - %RegistryRoot%\Windows Kits\Installed Roots@KitsRoot
+    - **%RegistryRoot%\Windows Kits\Installed Roots@KitsRoot**
 
-    - %RegistryRoot%\MSBuild\ToolsVersions\4.0\11.0@VCTargetsPath
+    - **%RegistryRoot%\MSBuild\ToolsVersions\4.0\11.0@VCTargetsPath**
 
-    - %RegistryRoot%\MSBuild\ToolsVersions\4.0\11.0@VCTargetsPath10
+    - **%RegistryRoot%\MSBuild\ToolsVersions\4.0\11.0@VCTargetsPath10**
 
-    - %RegistryRoot%\MSBuild\ToolsVersions\4.0\11.0@VCTargetsPath11
+    - **%RegistryRoot%\MSBuild\ToolsVersions\4.0\11.0@VCTargetsPath11**
 
      On an x64 build computer, also create the following registry entry and refer to the host computer to determine how to set it.
 
-    - %RegistryRoot%\Microsoft SDKs\Windows\v8.0A\WinSDK-NetFx40Tools-x64@InstallationFolder
+    - **%RegistryRoot%\Microsoft SDKs\Windows\v8.0A\WinSDK-NetFx40Tools-x64@InstallationFolder**
 
      If your build computer is x64 and you want to use the 64-bit version of MSBuild, or if you're using Team Foundation Server Build Service on an x64 computer, you must create the following registry entries in the native 64-bit registry. Refer to the host computer to determine how to set these entries.
 
-    - HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\11.0\Setup\VS@ProductDir
+    - **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\11.0\Setup\VS@ProductDir**
 
-    - HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSBuild\ToolsVersions\4.0\11.0@VCTargetsPath
+    - **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSBuild\ToolsVersions\4.0\11.0@VCTargetsPath**
 
-    - HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSBuild\ToolsVersions\4.0\11.0@VCTargetsPath10
+    - **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSBuild\ToolsVersions\4.0\11.0@VCTargetsPath10**
 
-    - HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSBuild\ToolsVersions\4.0\11.0@VCTargetsPath11
+    - **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSBuild\ToolsVersions\4.0\11.0@VCTargetsPath11**
 
 ## <a name="SettingEnvVariables"></a> Set environment variables on the build computer
 
@@ -348,7 +348,7 @@ You can create a build environment that can be deployed to various computers and
 
      These steps refer to the directory as %Depot%.
 
-2. Copy the directories and files as described in the [Copy files from the host computer to the build computer](../ide/walkthrough-creating-a-multiple-computer-build-environment.md#CopyingFiles) section of this walkthrough, except paste them under the *%Depot%* directory that you just created. For example, copy from %ProgramFiles%\Windows Kits\8.0\bin\ to %Depot%\Windows Kits\8.0\bin\\.
+2. Copy the directories and files as described in the [Copy files from the host computer to the build computer](../ide/walkthrough-creating-a-multiple-computer-build-environment.md#CopyingFiles) section of this walkthrough, except paste them under the *%Depot%* directory that you just created. For example, copy from *%ProgramFiles%\Windows Kits\8.0\bin* to *%Depot%\Windows Kits\8.0\bin*.
 
 3. When the files are pasted in *%Depot%*, make these changes:
 

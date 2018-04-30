@@ -70,7 +70,7 @@ You can stay signed in longer, too. Visual Studio won't ask you to sign in again
 The new Visual Studio Performance Center can help you optimize your IDE start-up time. The Performance Center lists all the extensions and tool windows that might slow down the IDE startup. You can use it to improve startup performance by determining when extensions start, or whether tool windows are open at startup.
 
 ### Faster on-demand loading of extensions
-Visual Studio is moving its extensions (and working with third-party extensions too) so that they load on-demand, rather than at IDE startup. Curious about which extensions impact startup, solution load, and typing performance? You can see this information in **Help** -> **Manage Visual Studio Performance**.
+Visual Studio is moving its extensions (and working with third-party extensions too) so that they load on-demand, rather than at IDE startup. Curious about which extensions impact startup, solution load, and typing performance? You can see this information in **Help** > **Manage Visual Studio Performance**.
 
   ![Options dialog box in Visual Studio 2017](../ide/media/vs2017ide-manage-vs-perf.png "Visual Studio Help dialog box - Performance Management")
 
@@ -133,15 +133,15 @@ When you are working with a project in Visual Studio, you can set up and quickly
 #### Experience improved navigation controls
 We've refreshed the navigation experience to help you get from A to B with greater confidence and fewer distractions.
 
-* **New in 15.4**: **Go To Definition (Ctrl+Click or F12)** &ndash; Mouse users have an easier way to navigate to the definition of a member by pressing **Ctrl** and then clicking the member. Pressing **Ctrl** and hovering over a code symbol will underline it and turn it into a link. See [Go To Definition and Peek Definition](../ide/go-to-and-peek-definition.md) for more information.  
+* **New in 15.4**: **Go To Definition** (**Ctrl**+**click** or **F12**) &ndash; Mouse users have an easier way to navigate to the definition of a member by pressing **Ctrl** and then clicking the member. Pressing **Ctrl** and hovering over a code symbol will underline it and turn it into a link. See [Go To Definition and Peek Definition](../ide/go-to-and-peek-definition.md) for more information.  
 
-* **Go To Implementation (Ctrl+F12)** &ndash; Navigate from any base type or member to its various implementations.
+* **Go To Implementation** (**Ctrl**+**F12**) &ndash; Navigate from any base type or member to its various implementations.
 
-* **Go To All (Ctrl+T or Ctrl+,)** &ndash; Navigate directly to any file/type/member/symbol declaration. You can filter your result list or use the query syntax (for example, "f searchTerm" for files, "t searchTerm" for types, etc.).
+* **Go To All** (**Ctrl**+**T** or **Ctrl**+**,**) &ndash; Navigate directly to any file/type/member/symbol declaration. You can filter your result list or use the query syntax (for example, "f searchTerm" for files, "t searchTerm" for types, etc.).
 
  ![Improved Go To All](../ide/media/vs2017ide-navigation-go-to.png "Example of the improved Go To All feature")
 
-* **Find All References (Shift+F12)** &ndash; With syntax colorization, you can group Find All Reference results by a combination of project, definition, and path. You can also "lock" results so that you can continue to find other references without losing your original results.
+* **Find All References** (**Shift**+**F12**) &ndash; With syntax colorization, you can group Find All Reference results by a combination of project, definition, and path. You can also "lock" results so that you can continue to find other references without losing your original results.
 
  ![New Find All References tool](../ide/media/vs2017ide-find-all-references.png "Example of the new Find All References tool")
 
@@ -158,7 +158,7 @@ As well, we've fixed over 250 bugs and reported issues in the compiler and tools
 
 For complete details, see the [What's new for Visual C++ in Visual 2017](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio) page.  
 
-### Debugging and Diagnostics
+### Debugging and diagnostics
 #### Run to Click:
 Now, you can more easily skip ahead during debugging without setting a breakpoint to stop on the line you want. When you are stopped in the debugger, just click the icon that appears next to the line of code. Your code will run and stop on that line the next time it is hit in your code path.
 

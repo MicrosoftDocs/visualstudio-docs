@@ -47,11 +47,11 @@ You can create a code snippet with only a few steps. All you need to do is creat
 
 1.  Create a new XML file in Visual Studio and add the template shown above.
 
-2.  Fill in the title of the snippet, e.g. "Hello World VB", in the `Title` element.
+2.  Fill in the title of the snippet, e.g. "Hello World VB", in the **Title** element.
 
-3.  Fill in the language of the snippet in the `Languages` attribute of the `Code` element. For this example, use "VB".
+3.  Fill in the language of the snippet in the **Languages** attribute of the **Code** element. For this example, use "VB".
 
-4.  Add some code in the `CDATA` section inside the `Code` element, for example:
+4.  Add some code in the **CDATA** section inside the **Code** element, for example:
 
     ```xml
     <Code Language="VB">
@@ -83,9 +83,9 @@ You can create a code snippet with only a few steps. All you need to do is creat
 
 1.  Description fields give more information about your code snippet when viewed in the Code Snippets Manager. The shortcut is a tag that users can type in order to insert your snippet. Edit the snippet you have added by opening the file *%USERPROFILE%\Documents\Visual Studio 2017\Code Snippets\Visual Basic\My Code Snippet\VBCodeSnippet.snippet*.
 
-2.  Add `Author` and `Description` elements to the `Header` element, and fill them in.
+2.  Add **Author** and **Description** elements to the **Header** element, and fill them in.
 
-3.  The `Header` element should look something like this:
+3.  The **Header** element should look something like this:
 
     ```xml
     <Header>
@@ -95,9 +95,9 @@ You can create a code snippet with only a few steps. All you need to do is creat
     </Header>
     ```
 
-4.  Open the **Code Snippets Manager** and select your code snippet. In the right pane you should see that the `Description` and `Author` fields are now populated.
+4.  Open the **Code Snippets Manager** and select your code snippet. In the right pane you should see that the **Description** and **Author** fields are now populated.
 
-5.  To add a shortcut, add a `Shortcut` element alongside the `Author` and `Description` element:
+5.  To add a shortcut, add a **Shortcut** element alongside the **Author** and **Description** element:
 
     ```xml
     <Header>
@@ -116,11 +116,11 @@ You can create a code snippet with only a few steps. All you need to do is creat
 
 ### To add references and imports
 
-1.  You can add a reference to a project by using the `References` element, and add an Imports declaration by using the `Imports` element. (This works for C# as well.) For example, if you change `Console.WriteLine` in the code example to `MessageBox.Show`, you may need to add the *System.Windows.Forms.dll* assembly to the project.
+1.  You can add a reference to a project by using the **References** element, and add an Imports declaration by using the **Imports** element. (This works for C# as well.) For example, if you change `Console.WriteLine` in the code example to `MessageBox.Show`, you may need to add the *System.Windows.Forms.dll* assembly to the project.
 
 2.  Open your snippet.
 
-3.  Add the `References` element under the `Snippet` element:
+3.  Add the **References** element under the **Snippet** element:
 
     ```xml
     <References>
@@ -130,7 +130,7 @@ You can create a code snippet with only a few steps. All you need to do is creat
     </References>
     ```
 
-4.  Add the `Imports` element under the `Snippet` element:
+4.  Add the **Imports** element under the **Snippet** element:
 
     ```xml
     <Imports>
@@ -140,7 +140,7 @@ You can create a code snippet with only a few steps. All you need to do is creat
     </Imports>
     ```
 
-5.  Change the `CDATA` section to the following:
+5.  Change the **CDATA** section to the following:
 
     ```xml
     <![CDATA[MessageBox.Show("Hello, World!")]]>
@@ -164,7 +164,7 @@ You can create a code snippet with only a few steps. All you need to do is creat
 
 2.  Open your snippet.
 
-3.  This example uses a SQL connection string, so you need to change the `Imports` and `References` elements to add the appropriate references:
+3.  This example uses a SQL connection string, so you need to change the **Imports** and **References** elements to add the appropriate references:
 
     ```xml
     <References>
@@ -185,7 +185,7 @@ You can create a code snippet with only a few steps. All you need to do is creat
     </Imports>
     ```
 
-4.  To declare a literal replacement for the SQL connection string, add a `Declarations` element under the `Snippet` element, and in it add a `Literal` element with subelements for the ID, the tooltip, and the default value for the replacement:
+4.  To declare a literal replacement for the SQL connection string, add a **Declarations** element under the **Snippet** element, and in it add a **Literal** element with subelements for the ID, the tooltip, and the default value for the replacement:
 
     ```xml
     <Declarations>
@@ -197,7 +197,7 @@ You can create a code snippet with only a few steps. All you need to do is creat
     </Declarations>
     ```
 
-5.  To declare an object replacement for the SQL connection, add an `Object` element inside the `Declarations` element, and add sub-elements for the ID, the type of the object, the tooltip, and the default value. The resulting `Declarations` element should look like this:
+5.  To declare an object replacement for the SQL connection, add an **Object** element inside the **Declarations** element, and add sub-elements for the ID, the type of the object, the tooltip, and the default value. The resulting **Declarations** element should look like this:
 
     ```xml
     <Declarations>
