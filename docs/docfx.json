@@ -7,7 +7,6 @@
           "**/**.yml"
         ],
         "group": "group-2015",
-        "src": "vs-2015",
         "exclude": [
           "**/obj/**",
           "vsdocsdocs/**",
@@ -21,7 +20,6 @@
           "**/**.yml"
         ],
         "group": "group-2017",
-        "src": "vs-2017",
         "exclude": [
           "**/obj/**",
           "vsdocsdocs/**",
@@ -49,7 +47,6 @@
           "**/*.svg"
         ],
         "group": "group-2015",
-        "src": "vs-2015",
         "exclude": [
           "**/obj/**",
           "vsdocsdocs/**",
@@ -64,7 +61,6 @@
           "**/*.svg"
         ],
         "group": "group-2017",
-        "src": "vs-2017",
         "exclude": [
           "**/obj/**",
           "vsdocsdocs/**",
@@ -96,11 +92,9 @@
     "dest": "vsdocsdocs",
     "groups": {
       "group-2015": {
-        "dest": "vsdocsdocs-2015",
         "moniker-range": "vs-2015"
       },
       "group-2017": {
-        "dest": "vsdocsdocs",
         "moniker-range": ">= vs-2017"
       }
     }
