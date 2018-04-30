@@ -1,18 +1,20 @@
 ---
 title: Visual C++ IntelliSense
-ms.date: 11/04/2016
+ms.date: 04/25/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
-manager: douge
+author: mikeblome
+ms.author: mblome
+manager: wpickett
 ms.workload:
   - "cplusplus"
 ---
 # Visual C++ IntelliSense
 
 IntelliSense for C++ is available for stand-alone files as well as for files that are part of a C++ project. In cross-platform projects, some IntelliSense features are available in .cpp and .c files in the shared code project, even when you are in an Android or iOS context.
+
+This article provides an overview of C++ IntelliSense features. For information on how to configure your project for IntelliSense and how to troubleshoot problems, see [Configure a C++ project for IntelliSense](visual-cpp-intellisense-configuration.md).
 
 ## IntelliSense features in C++
 
@@ -32,7 +34,7 @@ For a list of the icons and their meanings, see [Class View and Object Browser I
 
 ![Visual C&#43;&#43; Complete Word window](../ide/media/vs2015_cpp_complete_word.png "vs2015_cpp_complete_word")
 
-The first time member list is invoked it only shows members that are accessible for the current context. If you press **Ctrl**+**J** after that, it shows all members regardless of accessibility. If you invoke it a third time, an even wider list of program elements is shown. You can turn off member list in the **Options** dialog box, under **Text Editor** > **C/C++** > **General** > **Auto list members**.
+The first time that you invoke member list, it only shows members that are accessible for the current context. If you press **Ctrl**+**J** after that, it shows all members regardless of accessibility. If you invoke it a third time, an even wider list of program elements is shown. You can turn off member list in the **Options** dialog box, under **Text Editor** > **C/C++** > **General** > **Auto list members**.
 
 ![Visual C&#43;&#43; Member List](../ide/media/vs2015_cpp_list_members.png "vs2015_cpp_list_members")
 
@@ -99,3 +101,4 @@ By default, single file IntelliSense only uses standard include directories to f
 ## See also
 
 - [Using IntelliSense](../ide/using-intellisense.md)
+- [Configure a C++ project for IntelliSense](visual-cpp-intellisense-configuration.md)
