@@ -70,12 +70,6 @@ For file types other than *.cs* or *.vb*, you get CodeLens details for the entir
 
 ![File-level CodeLens indicators](../ide/media/almcodelensfilelevelindicators.png)
 
-### Keyboard shortcuts
-
-To use the keyboard to select indicators, press and hold the **Alt** key to display the related number keys, then press the number that corresponds to the indicator you want to select.
-
-![Keyboard access numbers](../ide/media/codelens-alt-keys.png)
-
 ### Code element-level indicators
 
 Code element-level indicators let you see who changed your code, and what changes they made. Code element-level indicators are available for C# and Visual Basic code.
@@ -113,7 +107,7 @@ You can also see who changed your code over time. This can help you find pattern
 
 ![CodeLens: See code changes history as a graph](../ide/media/codelens.png)
 
-#### Find changes in your current branch
+### Find changes in your current branch
 
 Your team may have multiple branches, for example a main branch and a child development branch, to reduce the risk of breaking stable code.
 
@@ -123,13 +117,13 @@ You can find out how many people changed your code and how many changes were mad
 
 ![CodeLens: Find how many changes in your branch](../ide/media/codelens-branch-changes.png)
 
-#### Find when your code was branched
+### Find when your code was branched
 
 To find when your code was branched, navigate to your code in the child branch. Then, select the **changes** indicator or press**Alt**+**6**:
 
 ![CodeLens: Find when your code was branched](../ide/media/codelensfirstbranchscreenshot.png)
 
-#### Find incoming changes from other branches
+### Find incoming changes from other branches
 
 ![CodeLens: Find code changes in other branches](../ide/media/codelensbranchchangecheckinconceptual.png)
 
@@ -139,27 +133,29 @@ You can view incoming changes. In the following screenshot, a bug fix was made i
 
 You can review the change without leaving your current branch ("Main"):
 
-![CodeLens: See incoming change from another branch](../ide/media/codelensbranchchangemainscreenshot.png)
+![CodeLens: See incoming change from another branch](../ide/media/codelens-branch-changes-main.png)
 
-#### Find when changes got merged
+### Find when changes got merged
 
-So you can see which changes are included in your branch:
+You can see when changes got merged, so you can determine which changes are included in your branch:
 
 ![CodeLens - Merged changes between branches](../ide/media/codelensbranchmergedconceptual.png)
 
-For example, your code in the Main branch now has the bug fix from the Dev branch:
+For example, your code in the Main branch now has the bug fix from the "Dev" branch:
 
-![CodeLens - Merged changes between branches](../ide/media/codelensbranchmergedscreenshot.png)
+![CodeLens - Merged changes between branches](../ide/media/codelens-branch-merged.png)
 
-#### Compare an incoming change with your local version (Shift + F10)
+### Compare an incoming change with your local version
 
-![CodeLens: Compare incoming change with local](../ide/media/codelensbranchincomingchangemenu.png)
+Compare an incoming change with your local version by pressing **Shift**+**F10**, or by double-clicking the changeset.
 
-You can also double-click the changeset.
+![CodeLens: Compare incoming change with local](../ide/media/codelens-branch-incoming-change-menu.png)
 
-#### What do the icons mean?
+### Branch icons
 
-|**Icon**|**Where did the change come from?**|
+The icon in the **Branch** column tells you how the branch is related to the branch you're working in.
+
+|**Icon**|**The change came from:**|
 |--------------|-----------------------------------------|
 |![CodeLens: Change from current branch icon](../ide/media/codelensbranchcurrenticon.png)|The current branch|
 |![CodeLens: Change from parent branch icon](../ide/media/codelensbranchparenticon.png)|The parent branch|
@@ -170,55 +166,66 @@ You can also double-click the changeset.
 |![CodeLens: Merge from child branch icon](../ide/media/codelensbranchmergefromchildicon.png)|A merge from a child branch to the parent branch|
 |![CodeLens: Merge from unrelated branch icon](../ide/media/codelensbranchmergefromunrelatedicon.png)|A merge from an unrelated branch (baseless merge)|
 
-### Find linked work items
+## Linked work items
 
-![CodeLens - Find work items for specific code](../ide/media/codelensworkitems.png)
+Find linked work items by selecting the **work items** indicator or by pressing **Alt**+**8**.
 
-### Find linked code reviews
+![CodeLens - Find work items for specific code](../ide/media/codelens-work-items.png)
 
-![CodeLens - View code review requests](../ide/media/codelenscodereviews.png)
+## Linked code reviews
 
-### Find linked bugs
+Find linked code reviews by selecting the **reviews** indicator. To use the keyboard, hold down the **Alt** key and then press **Left arrow** or **Right arrow** to navigate the indicator options.
 
-![CodeLens - Find bugs linked to changesets](../ide/media/codelensbugschangesets.png)
+![CodeLens - View code review requests](../ide/media/codelens-code-reviews.png)
 
-### Contact the owner of an item
+## Linked bugs
 
-![Contact the owner of an item](../ide/media/codelenscontactitemowner.png)
+Find linked bugs by selecting the **bugs** indicator or by pressing **Alt**+**7**.
+
+![CodeLens - Find bugs linked to changesets](../ide/media/codelens-bugs-changesets.png)
+
+## Contact the owner of an item
+
+Find the author of an item by selecting the **authors** indicator or by pressing **Alt**+**5**.
+
+![Contact the owner of an item](../ide/media/codelens-contact-item-owner.png)
 
 Open the shortcut menu for an item to see the contact options. If you have Lync or Skype for Business installed, you see these options:
 
-![Contact options for an item](../ide/media/codelensitemcontactmenu.png)
+![Contact options for an item](../ide/media/codelens-item-contact-menu.png)
 
-## Find unit tests for your code
+## Associated unit tests
 
-Find out more about unit tests that exist for your code without opening **Test Explorer**. You'll need:
+You can discover unit tests that exist for your C# or Visual Basic code without opening **Test Explorer**.
 
-- Visual Studio Enterprise or Visual Studio Professional
+1. Go to application code that has associated [unit test code](../test/unit-test-your-code.md).
 
-- C# or Visual Basic code
+2. Review the tests for the code by pressing **Alt**+**3**.
 
-- A [unit test project](../test/unit-test-your-code.md) that has unit tests for your application code
+     ![CodeLens - Choose test status in code editor](../ide/media/codelens-choose-test-indicator.png)
 
-1. Go to application code that has unit tests.
+3. If you see a warning icon ![warning icon](../ide/media/codelenstestwarningicon.png), the tests haven't run yet, so run them.
 
-2. Review the tests for that code by pressing **Alt**+**3**.
-
-     ![CodeLens - Choose test status in code editor](../ide/media/codelenschoosetestindicator.png)
-
-3. If you see a warning icon ![warning icon](../ide/media/codelenstestwarningicon.png), run the tests.
-
-     ![CodeLens - View unit tests not run yet](../ide/media/codelenstestsnotyetrun.png)
+     ![CodeLens - View unit tests not run yet](../ide/media/codelens-tests-not-yet-run.png)
 
 4. To review a test's definition, double-click the test item in the CodeLens indicator window to open the code file in the editor.
 
-     ![CodeLens - Go to unit test definition](../ide/media/codelensunittestdefinition.png)
+     ![CodeLens - Go to unit test definition](../ide/media/codelens-unit-test-definition.png)
 
-5. Review the test's results. Choose the test status indicator (![test failed icon](../ide/media/codelenstestfailedicon.png) or ![test passed icon](../ide/media/codelenstestpassedicon.png)), or press **Alt**+**1**.
+5. To review the test's results, choose the test status indicator (![test failed icon](../ide/media/codelenstestfailedicon.png) or ![test passed icon](../ide/media/codelenstestpassedicon.png)), or press **Alt**+**1**.
 
-     ![CodeLens - See unit test result](../ide/media/codelensunittestresult.png)
+     ![CodeLens - See unit test result](../ide/media/codelens-unit-test-result.png)
 
 6. To see how many people changed this test, who changed this test, or how many changes were made to this test, [find your code's history](#find-code-history) and linked items.
+
+## Keyboard shortcuts
+
+To use the keyboard to select indicators, press and hold the **Alt** key to display the related number keys, then press the number that corresponds to the indicator you want to select.
+
+![Keyboard access numbers](../ide/media/codelens-alt-keys.png)
+
+> [!NOTE]
+> To select the **reviews** indicator, hold down **Alt** while using the left and right arrow keys to navigate.
 
 ## Q & A
 
