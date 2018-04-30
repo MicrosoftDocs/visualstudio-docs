@@ -6,11 +6,37 @@
           "**/*.md",
           "**/**.yml"
         ],
+        "group": "group-2015",
+        "src": "vs-2015",
         "exclude": [
           "**/obj/**",
           "vsdocsdocs/**",
           "**/includes/**",
           "missingapi.yml"
+        ]
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/**.yml"
+        ],
+        "group": "group-2017",
+        "src": "vs-2017",
+        "exclude": [
+          "**/obj/**",
+          "vsdocsdocs/**",
+          "**/includes/**",
+          "missingapi.yml"
+        ]
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/**.yml"
+        ],
+        "exclude": [
+          "vs-2015",
+          "vs-2017"
         ]
       }
     ],
@@ -22,6 +48,23 @@
           "**/*.gif",
           "**/*.svg"
         ],
+        "group": "group-2015",
+        "src": "vs-2015",
+        "exclude": [
+          "**/obj/**",
+          "vsdocsdocs/**",
+          "**/includes/**"
+        ]
+      },
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.svg"
+        ],
+        "group": "group-2017",
+        "src": "vs-2017",
         "exclude": [
           "**/obj/**",
           "vsdocsdocs/**",
@@ -50,6 +93,16 @@
     },
     "template": [],
     "xref": ["missingapi.yml", "vs.140.zip", "office15.zip"],
-    "dest": "vsdocsdocs"
+    "dest": "vsdocsdocs",
+    "groups": {
+      "group-2015": {
+        "dest": "vsdocsdocs-2015",
+        "moniker-range": "visualstudio-2015"
+      },
+      "group-2017": {
+        "dest": "vsdocsdocs",
+        "moniker-range": ">= visualstudio-2017"
+      }
+    }
   }
 }
