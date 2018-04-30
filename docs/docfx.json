@@ -97,11 +97,11 @@
     "groups": {
       "group-2015": {
         "dest": "vsdocsdocs-2015",
-        "moniker-range": "visualstudio-2015"
+        "moniker-range": "vs-2015"
       },
       "group-2017": {
         "dest": "vsdocsdocs",
-        "moniker-range": ">= visualstudio-2017"
+        "moniker-range": ">= vs-2017"
       }
     }
   }
