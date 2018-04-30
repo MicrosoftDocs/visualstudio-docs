@@ -1,6 +1,6 @@
 ---
 title: Overview of Python support in Visual Studio on Windows
-description: Summary of features in Visual Studio, making it the best Python IDE on Windows (also know as Python Tools for Visual Studio, PTVS)
+description: Summary of Python features in Visual Studio, making it the best Python IDE on Windows (also known as Python Tools for Visual Studio, PTVS).
 ms.date: 04/06/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
@@ -13,7 +13,7 @@ ms.workload:
   - data-science
 ---
 
-# Working with Python in Visual Studio (Windows)
+# Working with Python in Visual Studio on Windows
 
 Python is a popular programming language that is reliable, flexible, easy to learn, free to use on all operating systems, and supported by both a strong developer community and many free libraries. Python supports all manners of development, including web applications, web services, desktop apps, scripting, and scientific computing, and is used by many universities, scientists, casual developers, and professional developers alike. You can learn more about the language on [python.org](https://www.python.org) and [Python for Beginners](https://www.python.org/about/gettingstarted/).
 
@@ -84,6 +84,7 @@ Project and item templates automate the process of setting up different types of
 For more information:
 
 - Docs: [Managing Python projects](managing-python-projects-in-visual-studio.md)
+- Docs: [Item templates reference](python-item-templates.md)
 - Docs: [Python project templates](managing-python-projects-in-visual-studio.md#project-templates)
 - Docs: [Working with C++ and Python](working-with-c-cpp-python-in-visual-studio.md)
 - General Visual Studio feature docs: [Project and item templates](../ide/creating-project-and-item-templates.md#visual-studio-templates)

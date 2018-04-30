@@ -1,6 +1,7 @@
 ---
 title: Tour of the Visual Studio IDE
 ms.date: 11/15/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: quickstart
 author: gewarren

@@ -1,6 +1,6 @@
 ---
-title: Selecting an environment for a project
-description: In Visual Studio Solution Explorer, you can assign a specific Python interpreter (environment) to always use for any given project, ignoring the default environment. You can also create and manage virtual environments.
+title: Selecting a Python interpreter and environment for a project
+description: How to assign the Python environment to use for a Visual Studio project, plus instructions on creating virtual environments.
 ms.date: 03/21/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
@@ -13,7 +13,7 @@ ms.workload:
   - data-science
 ---
 
-# Selecting a Python interpreter and environment for use in a project
+# How to assign which Python environment is used for a project
 
 All code in a Python project runs within the context of a specific environment. Visual Studio also uses that environment for debugging, import and member completions, syntax checking, and any other tasks that require an environment.
 

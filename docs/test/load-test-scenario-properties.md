@@ -1,7 +1,7 @@
 ---
-title: "Visual Studio Load Test Scenario Properties | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "conceptual"
+title: "Visual Studio Load Test Scenario Properties"
+ms.date: 10/19/2016
+ms.topic: reference
 helpviewer_keywords:
   - "load tests, properties"
   - "load tests, scenarios"
@@ -9,6 +9,7 @@ ms.assetid: 4414a638-1fa2-40ad-b1f4-b99f90b62e62
 author: gewarren
 ms.author: gewarren
 manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # Load Test Scenario Properties

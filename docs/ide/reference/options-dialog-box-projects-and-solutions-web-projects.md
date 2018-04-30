@@ -1,6 +1,7 @@
 ---
 title: Options Dialog Box, Projects and Solutions, Web Projects
 ms.date: 07/14/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:

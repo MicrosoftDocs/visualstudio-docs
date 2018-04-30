@@ -1,6 +1,7 @@
 ---
 title: "How to: Search for topics"
-ms.technology:$1ms.date: 11/02/2017
+ms.date: 11/02/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-help-viewer
 ms.topic: conceptual
 ms.assetid: 683f1b0c-1551-4bba-91fe-3855f03fdd69

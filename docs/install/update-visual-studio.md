@@ -1,7 +1,7 @@
 ---
 title: "Update Visual Studio 2017"
 description: "Learn how to update Visual Studio to the most recent release, step-by-step."
-ms.date: 03/06/2018
+ms.date: 04/23/2018
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
@@ -48,6 +48,9 @@ When there is an update, there's a corresponding notification flag in Visual Stu
 
      Your update continues. Then, when it's complete, Visual Studio restarts.
 
+     > [!NOTE]
+     > If you run Visual Studio in administrator mode, you must manually restart Visual Studio after the update.    
+
 ### Use the IDE
 
 You can check for an update and then install the update from the menu bar in Visual Studio.
@@ -61,6 +64,9 @@ You can check for an update and then install the update from the menu bar in Vis
 3. When the **Update** dialog box opens, choose **Update Now**.
 
    The update proceeds as described in the previous section, and then Visual Studio restarts after the update completes successfully.
+
+   > [!NOTE]
+   > If you run Visual Studio in administrator mode, you must manually restart Visual Studio after the update.  
 
 ### Use the Visual Studio Installer
 

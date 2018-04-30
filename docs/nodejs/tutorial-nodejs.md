@@ -1,6 +1,6 @@
 ---
-title: "Create a Node.js and Express app - Visual Studio | Microsoft Docs"
-description: In this tutorial, you create a Node.js and Express app in Visual Studio
+title: "Create a Node.js and Express app"
+description: In this tutorial, you create an app in using Node.js tools for Visual Studio
 ms.custom: ""
 ms.date: "03/13/2018"
 ms.technology: vs-nodejs

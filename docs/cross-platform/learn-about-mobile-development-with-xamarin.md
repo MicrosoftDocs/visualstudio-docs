@@ -4,11 +4,12 @@ ms.custom: ""
 ms.date: "03/30/2018"
 ms.topic: "conceptual"
 ms.assetid: e970d936-1df4-4c0c-96e3-ef6191295882
-ms.technology: vs-ide-mobile
-author: "ghogen"
-ms.author: "ghogen"
-manager: douge
-ms.workload: 
+ms.prod: xamarin
+ms.technology: xamarin-tools
+author: conceptdev
+ms.author: crdun
+manager: crdun
+ms.workload:
   - "xamarin"
 ---
 

@@ -1,8 +1,9 @@
 ---
-title: "Write unit tests for C/C++ in Visual Studio | Microsoft Docs"
-ms.date: "11/04/2017"
+title: "Write unit tests for C/C++ in Visual Studio"
+ms.date: 11/04/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
-ms.topic: "conceptual"
+ms.topic: conceptual
 ms.author: "mblome"
 manager: douge
 ms.workload: 

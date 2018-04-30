@@ -2076,6 +2076,26 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/xml-tools/what-s-new-in-the-xslt-debugger.md",
+            "redirect_url": "/visualstudio/xml-tools/debugging-xslt",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/xml-tools/what-s-new-in-the-xml-editor.md",
+            "redirect_url": "/visualstudio/xml-tools/xml-editor",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/xml-tools/xml-editor-tasks.md",
+            "redirect_url": "/visualstudio/xml-tools/walkthrough-using-xml-editor-features",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/xml-tools/xml-schema-designer-tasks.md",
+            "redirect_url": "/visualstudio/xml-tools/how-to-create-and-edit-an-xsd-schema-file",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "scripting-docs/chakra-hosting/index.md",
             "redirect_url": "/script/chakra-hosting/javascript-runtime-hosting",
             "redirect_document_id": false
@@ -2274,6 +2294,26 @@
         {
             "source_path": "subscriptions/vs-elearn.md",
             "redirect_url": "/visualstudio/subscriptions",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vb6/partners/gmstudio.md",
+            "redirect_url": "/previous-versions/visualstudio/visual-basic-6/vb6-partners-gmstudio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vb6/partners/mobilize-net.md",
+            "redirect_url": "/previous-versions/visualstudio/visual-basic-6/vb6-partners-mobilize-net",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vb6/partners/index.md",
+            "redirect_url": "/previous-versions/visualstudio/visual-basic-6/visual-basic-6-support-policy",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vb6/vb6-support.md",
+            "redirect_url": "/previous-versions/visualstudio/visual-basic-6/visual-basic-6-support-policy",
             "redirect_document_id": false
         }
     ]

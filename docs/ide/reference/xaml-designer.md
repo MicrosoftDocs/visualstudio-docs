@@ -1,6 +1,7 @@
 ---
 title: XAML Designer options page
 ms.date: 03/02/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:

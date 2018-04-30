@@ -1,12 +1,14 @@
 ---
 title: "How to use a custom NuGet feed in a connected environment| Microsoft Docs"
-author: "johnsta"
-ms.author: "johnsta"
+author: "ghogen"
+ms.author: "ghogen"
 ms.date: "03/27/2018"
-ms.topic: "article"
+ms.topic: "conceptual"
+ms.prod: visual-studio-dev15
+ms.technology: vs-azure
 description: "Use a custom NuGet feed to access and use NuGet packages in a connected environment."
 keywords: "Docker, Kubernetes, Azure, AKS, Azure Container Service, containers"
-manager: "ghogen"
+manager: "douge"
 ---
 #  Use a custom NuGet feed in a connected environment
 

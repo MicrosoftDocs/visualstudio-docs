@@ -1,6 +1,6 @@
 ---
-title: How to manage Python environments and interpreters
-description: How to use the Python Environments window in Visual Studio to manage global and virtual environments, set up custom environments, installing Python interpreters, installing packages, setting search paths, and managing environments for Visual Studio projects.
+title: Manage Python environments and interpreters
+description: Use the Python Environments window to manage global, virtual, and conda environments, installing Python interpreters and packages, and assigning environments to Visual Studio projects.
 ms.date: 03/21/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
@@ -13,7 +13,7 @@ ms.workload:
   - data-science
 ---
 
-# Managing Python environments in Visual Studio
+# How to create and manage Python environments in Visual Studio
 
 A Python *environment* is a context in which you run Python code and includes global, virtual, and conda environments. An environment consists of an interpreter, a library (typically the Python Standard Library), and a set of installed packages. These components together determine which language constructs and syntax are valid, what operating-system functionality you can access, and which packages you can use.
 

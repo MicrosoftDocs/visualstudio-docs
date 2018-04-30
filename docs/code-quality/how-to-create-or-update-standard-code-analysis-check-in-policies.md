@@ -1,6 +1,7 @@
 ---
 title: "How to: Create or Update Standard Code Analysis Check-in Policies"
 ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: "conceptual"
 f1_keywords:
@@ -24,7 +25,7 @@ Code analysis check-in policies are set in the team project settings and apply t
 
 - For managed code, you set the check-in policy by specifying a *rule set* that contains a subset of the code analysis rules.
 
-- For C/C++ code, the check-in policy requires that all code analysis rules are run. You can add pre-processor directives to disable specific rules for the individual code projects in your team project.
+- For C/C++ code, in Visual Studio 2017 version 15.6 and earlier, the check-in policy requires that all code analysis rules are run. You can add pre-processor directives to disable specific rules for the individual code projects in your team project. In 15.7 and later, you can use **/analyze:ruleset** to specify which rules to run. For more information, see [Using Rule Sets to Specify the C++ Rules to Run](using-rule-sets-to-specify-the-cpp-rules-to-run.md).
 
 After you specify a check-in policy for managed code, team members can synchronize their code analysis settings for code projects to the team project policy settings.
 

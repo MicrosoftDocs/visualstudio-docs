@@ -1,6 +1,7 @@
 ---
 title: XAML Errors and Warnings
 ms.date: 03/06/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-designers
 ms.topic: conceptual
 ms.assetid: 34eac8a0-7ec5-4c40-b97a-0126ed367931

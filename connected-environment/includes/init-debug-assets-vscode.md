@@ -1,3 +1,6 @@
+---
+ms.topic: "include"
+---
 ## Initialize debug assets with the VS Code extension
 We first need to configure our code project so VS Code will communicate with our development environment in Azure. The VS Code extension for Connected Environment provides a helper command to set up debug configuration. 
 
