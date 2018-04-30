@@ -52,9 +52,9 @@ In the KeyBindingTestTextViewCreationListener.cs class file, change the name of 
     ```  
 
 ## Handling TYPECHAR Command
-Prior to Visual Studio 2017 version 15.6 the only way to handle commands in an editor extention was implementing an <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> based command filter. Visual Studio 2017 version 15.6 introduced a modern simplified approach based on editor command handlers. The next two sections demonstarte how to handle a command using both legacy and modern approach.
+Prior to Visual Studio 2017 version 15.6 the only way to handle commands in an editor extension was implementing an <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> based command filter. Visual Studio 2017 version 15.6 introduced a modern simplified approach based on editor command handlers. The next two sections demonstrate how to handle a command using both the legacy and modern approach.
 
-# Defining the Command Filter (prior to Visual Studio 2017 version 15.6)
+## Defining the Command Filter (prior to Visual Studio 2017 version 15.6)
 
  The command filter is an implementation of <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>, which handles the command by instantiating the adornment.  
   
@@ -129,7 +129,7 @@ Prior to Visual Studio 2017 version 15.6 the only way to handle commands in an e
   
     ```  
   
-# Adding the Command Filter (prior to Visual Studio 2017 version 15.6)
+## Adding the Command Filter (prior to Visual Studio 2017 version 15.6)
  The adornment provider must add a command filter to the text view. In this example, the provider implements <xref:Microsoft.VisualStudio.Editor.IVsTextViewCreationListener> to listen to text view creation events. This adornment provider also exports the adornment layer, which defines the Z-order of the adornment.  
   
 1.  In the KeyBindingTestTextViewCreationListener file, add the following using statements:  
@@ -188,7 +188,7 @@ Prior to Visual Studio 2017 version 15.6 the only way to handle commands in an e
     }  
     ```  
 
-# Implementing a command handler (starting with Visual Studio 2017 version 15.6)
+## Implementing a command handler (starting with Visual Studio 2017 version 15.6)
 
 Update project's Nuget references to make sure you reference latest editor API. Click Project/Manage Nuget Packages, in the Nuget Package Manager switch to Updates tab, check "Select all packages" checkbox and click Update button.
 
@@ -231,7 +231,7 @@ The command handler is an implementation of <xref:Microsoft.VisualStudio.Command
     } 
     ```  
   
-7.  Implement the `ExecuteCommand()` method so that it adds a purple box to the view if a + character is typed. 
+6.  Implement the `ExecuteCommand()` method so that it adds a purple box to the view if a + character is typed. 
   
     ```csharp  
         public bool ExecuteCommand(TypeCharCommandArgs args, CommandExecutionContext executionContext)
@@ -250,7 +250,7 @@ The command handler is an implementation of <xref:Microsoft.VisualStudio.Command
         return false;
     }
     ```  
- 8. Copy adornment layer definition from KeyBindingTestTextViewCreationListener.cs file to the KeyBindingCommandHandler.cs and then delete KeyBindingTestTextViewCreationListener.cs file:
+ 7. Copy adornment layer definition from KeyBindingTestTextViewCreationListener.cs file to the KeyBindingCommandHandler.cs and then delete KeyBindingTestTextViewCreationListener.cs file:
     ```csharp  
     /// <summary>
     /// Defines the adornment layer for the adornment. This layer is ordered
