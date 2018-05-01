@@ -25,7 +25,7 @@ ms.workload:
 
  [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]
 
- In document-level projects, you can add <xref:Microsoft.Office.Tools.Word.Bookmark> controls to your document at design time or at run time. In VSTO Add-in projects, you can add <xref:Microsoft.Office.Tools.Word.Bookmark> controls to any open document at run time. For more information, see [How to: Add bookmark controls to Word documents](../vsto/how-to-add-bookmark-controls-to-word-documents.md).
+ In document-level projects, you can add <xref:Microsoft.Office.Tools.Word.Bookmark> controls to your document at design time or at run time. In VSTO Add-in projects, you can add <xref:Microsoft.Office.Tools.Word.Bookmark> controls to any open document at run time. For more information, see [How to: Add Bookmark controls to Word documents](../vsto/how-to-add-bookmark-controls-to-word-documents.md).
 
 ## Bind data to the control
  A <xref:Microsoft.Office.Tools.Word.Bookmark> control supports simple data binding. The bookmark should be bound to a data source using the <xref:System.Windows.Forms.IBindableComponent.DataBindings%2A> property. The default data binding property of the bookmark is the <xref:Microsoft.Office.Tools.Word.Bookmark.Text%2A> property.
@@ -108,7 +108,7 @@ The following events are available for the <xref:Microsoft.Office.Tools.Word.Boo
 ## See also
 
 - [Automate Word by using extended objects](../vsto/automating-word-by-using-extended-objects.md)
-- [How to: Add bookmark controls to Word documents](../vsto/how-to-add-bookmark-controls-to-word-documents.md)
+- [How to: Add Bookmark controls to Word documents](../vsto/how-to-add-bookmark-controls-to-word-documents.md)
 - [Walkthrough: Create shortcut menus for bookmarks](../vsto/walkthrough-creating-shortcut-menus-for-bookmarks.md)
 - [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)
 - [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)

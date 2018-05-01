@@ -1,5 +1,5 @@
 ---
-title: "Assemblies in the Visual Studio Tools for Office Runtime"
+title: "Assemblies in the Visual Studio Tools for Office runtime"
 ms.custom: ""
 ms.date: 02/02/2017
 ms.technology: office-development
@@ -16,8 +16,8 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Assemblies in the Visual Studio Tools for Office Runtime
-  When you create an Office project, Visual Studio automatically adds references to the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] assemblies that are used for the project type and the target .NET Framework of the project. There are different assemblies in the Office extensions for the .NET Framework 3.5, [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)], and [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)]. For more information about the Office extensions, see [Visual Studio Tools for Office Runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md).  
+# Assemblies in the Visual Studio Tools for Office runtime
+  When you create an Office project, Visual Studio automatically adds references to the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] assemblies that are used for the project type and the target .NET Framework of the project. There are different assemblies in the Office extensions for the .NET Framework 3.5, [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)], and [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)]. For more information about the Office extensions, see [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md).  
   
 ## Assemblies in the Office extensions for the .NET Framework 4 and the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)]  
  The following table lists the assemblies that are included in Office extensions for the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] and the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)]. For documentation about the namespaces and types in these assemblies, see [Managed reference &#40;Office development in Visual Studio&#41;](../vsto/managed-reference-office-development-in-visual-studio.md).  
@@ -42,7 +42,7 @@ ms.workload:
 |Microsoft.Office.Tools.Outlook.v4.0.Utilities.dll|Provides base classes for the generated `ThisAddIn` and form region classes in Outlook projects.|  
 |Microsoft.Office.Tools.Word.v4.0.Utilities.dll|Provides the following types:<br /><br /> -   Base classes for the generated `ThisDocument` class in document-level projects for Word.<br />-   Windows Forms controls that you can use on documents in Word projects.|  
   
-## Assemblies in the Office Extensions for the .NET Framework 3.5  
+## Assemblies in the Office extensions for the .NET Framework 3.5  
  The following table lists the assemblies that are included in the Office extensions for the .NET Framework 3.5. For documentation about the namespaces and classes in these assemblies, see the following reference section in the Visual Studio 2008 documentation: [http://go.microsoft.com/fwlink/?LinkId=160658](http://go.microsoft.com/fwlink/?LinkId=160658).  
   
 |Assembly name|Description|  
@@ -51,14 +51,14 @@ ms.workload:
 |Microsoft.Office.Tools.Excel.v9.0.dll|Provides host items and host controls for Excel solutions. For more information, see [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md).|  
 |Microsoft.Office.Tools.Outlook.v9.0.dll|Provides classes that you can use to create custom form regions in Outlook VSTO Add-ins.|  
 |Microsoft.Office.Tools.Word.v9.0.dll|Provides host items and host controls for Word solutions. For more information, see [Automate Word by using extended objects](../vsto/automating-word-by-using-extended-objects.md).|  
-|Microsoft.Office.Tools.v9.0.dll|Provides the following types:<br /><br /> -   The [RemoteBindableComponent](https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2008/bb546360(v=vs.90)) class, which provides the data binding capabilities for host controls in document-level customizations.<br />-   Other types that are part of the Visual Studio Tools for Office runtime infrastructure, and are not intended to be used directly from your code.|  
+|Microsoft.Office.Tools.v9.0.dll|Provides the following types:<br /><br /> -   The [RemoteBindableComponent](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2008/bb546360(v=vs.90)) class, which provides the data binding capabilities for host controls in document-level customizations.<br />-   Other types that are part of the Visual Studio Tools for Office runtime infrastructure, and are not intended to be used directly from your code.|  
 |Microsoft.VisualStudio.Tools.Applications.Runtime.v9.0.dll|Provides the following types:<br /><br /> -   The <xref:Microsoft.VisualStudio.Tools.Applications.Runtime.CachedAttribute> attribute and <xref:Microsoft.VisualStudio.Tools.Applications.Runtime.ICachedType> interface, which you can use to cache data objects in a document-level customization. For more information, see [Cache data](../vsto/caching-data.md).<br />-   Exceptions that can be thrown by the Visual Studio Tools for Office runtime.<br />-   Other types that are part of the Visual Studio Tools for Office runtime infrastructure, and are not intended to be used directly from your code.|  
 |Microsoft.VisualStudio.Tools.Applications.Runtime.v10.0.dll|Provides the <xref:Microsoft.VisualStudio.Tools.Applications.Deployment.IAddInPostDeploymentAction> interface, which you can implement to run additional installation steps as the final step of the ClickOnce installer for an Office solution. For more information, see [Advanced Office solution deployment](http://msdn.microsoft.com/en-us/9147b6f6-849f-4cb1-b2c5-e22658d74b02).|  
 |Microsoft.VisualStudio.Tools.Applications.ServerDocument.v10.0.dll|Provides the following types:<br /><br /> -   The <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument> class, which you can use to programmatically attach customization assemblies to documents and to access the cached data in documents. For more information, see [Manage documents on a server by using the ServerDocument class](../vsto/managing-documents-on-a-server-by-using-the-serverdocument-class.md).<br />-   Several classes that represent the hierarchy of cached data in a document-level customization. For more information, see [Access data in documents on the server](../vsto/accessing-data-in-documents-on-the-server.md).|  
 |Microsoft.VisualStudio.Tools.Office.Runtime.v10.0.dll|Provides the following types:<br /><br /> -   The Microsoft.VisualStudio.Tools.Office.Runtime.Security.AddInSecurityEntry and Microsoft.VisualStudio.Tools.Office.Runtime.Security.UserInclusionList classes, which you can use to create user inclusion list entries to grant trust to Office solutions that target the .NET Framework 3.5.<br />-   Other types that are part of the Visual Studio Tools for Office runtime infrastructure, and are not intended to be used directly from your code.|  
   
 ## See also  
- [Visual Studio Tools for Office Runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md)   
- [Visual Studio Tools for Office Runtime installation scenarios](../vsto/visual-studio-tools-for-office-runtime-installation-scenarios.md)  
+ [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md)   
+ [Visual Studio Tools for Office runtime installation scenarios](../vsto/visual-studio-tools-for-office-runtime-installation-scenarios.md)  
   
   

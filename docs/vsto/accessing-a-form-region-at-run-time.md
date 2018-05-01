@@ -70,7 +70,7 @@ ms.workload:
  For more information about how to create properties in Visual Basic, see [How to: Create a property (Visual Basic)](/dotnet/visual-basic/programming-guide/language-features/procedures/how-to-create-a-property).  
 
 ## See also  
- [Guidelines for creating Outlook form regions](../vsto/guidelines-for-creating-outlook-form-regions.md)   
+ [Guidelines to create Outlook form regions](../vsto/guidelines-for-creating-outlook-form-regions.md)   
  [Walkthrough: Design an Outlook form region](../vsto/walkthrough-designing-an-outlook-form-region.md)   
  [How to: Add a form region to an Outlook Add-in project](../vsto/how-to-add-a-form-region-to-an-outlook-add-in-project.md)   
  [Custom actions in Outlook form regions](../vsto/custom-actions-in-outlook-form-regions.md)   

@@ -35,7 +35,7 @@ ms.workload:
   
 1.  Open the Ribbon item in Design view.  
   
-     For information about how to add a **Ribbon (Visual Designer)** item to your project, see [How to: Get Started Customizing the Ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md).  
+     For information about how to add a **Ribbon (Visual Designer)** item to your project, see [How to: Get started customizing the Ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md).  
   
 2.  In the Ribbon Designer, click the **File** tab.  
   

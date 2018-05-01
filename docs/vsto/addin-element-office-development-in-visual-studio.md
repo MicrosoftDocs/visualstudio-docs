@@ -19,7 +19,7 @@ ms.workload:
   - "office"
 ---
 # &lt;addin&gt; element (Office development in Visual Studio)
-  The `addin` element of the `vstav3` namespace contains information that is specific to Microsoft Office VSTO Add-ins and document-level customizations developed with Visual Studio.  
+  The **addin** element of the `vstav3` namespace contains information that is specific to Microsoft Office VSTO Add-ins and document-level customizations developed with Visual Studio.  
 
 ## Syntax  
 
@@ -46,28 +46,28 @@ ms.workload:
 ```  
 
 ## Elements and attributes  
- The `addin` element of the `vstav3` namespace contains information about the Office solution and the Microsoft Office application. This element must be in the following namespace: `vstav3=urn:schemas-microsoft-com:vsta.v3`. Child elements must also be in this namespace.  
+ The **addin** element of the `vstav3` namespace contains information about the Office solution and the Microsoft Office application. This element must be in the following namespace: `vstav3=urn:schemas-microsoft-com:vsta.v3`. Child elements must also be in this namespace.  
 
  The `addin` element has no attributes.  
 
  The `addin` element has the following child elements.  
 
 ### entryPoints  
- Required. The `entryPoints` element is described in [&#60;entryPoints&#62; element &#40;Office development in Visual Studio&#41;](../vsto/entrypoints-element-office-development-in-visual-studio.md).  
+ Required. The **entryPoints** element is described in [&#60;entryPoints&#62; element &#40;Office development in Visual Studio&#41;](../vsto/entrypoints-element-office-development-in-visual-studio.md).  
 
 ### update  
- Required. The `update` element is described in [&#60;update&#62; element &#40;Office development in Visual Studio&#41;](../vsto/update-element-office-development-in-visual-studio.md).  
+ Required. The **update** element is described in [&#60;update&#62; element &#40;Office development in Visual Studio&#41;](../vsto/update-element-office-development-in-visual-studio.md).  
 
 ### postActions  
- Optional. The `postActions` element is described in [&#60;postActions&#62; element &#40;Office development in Visual Studio&#41;](../vsto/postactions-element-office-development-in-visual-studio.md).  
+ Optional. The **postActions** element is described in [&#60;postActions&#62; element &#40;Office development in Visual Studio&#41;](../vsto/postactions-element-office-development-in-visual-studio.md).  
 
 ### application  
- Required. The `application` element is described in [&#60;application&#62; element &#40;Office development in Visual Studio&#41;](../vsto/application-element-office-development-in-visual-studio.md).  
+ Required. The **application** element is described in [&#60;application&#62; element &#40;Office development in Visual Studio&#41;](../vsto/application-element-office-development-in-visual-studio.md).  
 
 ## Document-level customization example  
 
 ### Description  
- The following code example illustrates the `addin` element in a document-level Office solution that is deployed by using [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)]. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).  
+ The following code example illustrates the **addin** element in a document-level Office solution that is deployed by using [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)]. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).  
 
 ### Code  
 
@@ -131,7 +131,7 @@ ms.workload:
 ## VSTO Add-in example  
 
 ### Description  
- The following code example illustrates the `addin` element in an application-level Office solution that is deployed by using [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)]. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).  
+ The following code example illustrates the **addin** element in an application-level Office solution that is deployed by using [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)]. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).  
 
 ### Code  
 

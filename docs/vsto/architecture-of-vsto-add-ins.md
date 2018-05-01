@@ -59,7 +59,7 @@ ms.workload:
 ### Visual Studio Tools for Office Runtime  
  To run VSTO Add-ins that are created by using the Office developer tools in Visual Studio, end user computers must have the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] installed. The runtime includes unmanaged components and a set of managed assemblies. The unmanaged components load the VSTO Add-in assembly. The managed assemblies provide the object model that your VSTO Add-in code uses to automate and extend the host application.  
   
- For more information, see [Visual Studio Tools for Office Runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md).  
+ For more information, see [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md).  
   
 ##  <a name="HowAddinsWork"></a> How VSTO Add-ins work with Microsoft Office applications  
  When a user starts a Microsoft Office application, the application uses the deployment manifest and the application manifest to locate and load the most current version of the VSTO Add-in assembly. The following illustration shows the basic architecture of these VSTO Add-ins.  
@@ -74,7 +74,7 @@ ms.workload:
   
 1.  The application checks the registry for entries that identify VSTO Add-ins that were created by using the Office developer tools in Visual Studio.  
   
-2.  If the application finds these registry entries, the application loads VSTOEE.dll, which loads VSTOLoader.dll. These are unmanaged DLLs that are the loader components for the Visual Studio 2010 Tools for Office Runtime. For more information, see [Visual Studio Tools for Office Runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md).  
+2.  If the application finds these registry entries, the application loads VSTOEE.dll, which loads VSTOLoader.dll. These are unmanaged DLLs that are the loader components for the Visual Studio 2010 Tools for Office Runtime. For more information, see [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md).  
   
 3.  *VSTOLoader.dll* loads the [!INCLUDE[dnprdnshort](../sharepoint/includes/dnprdnshort-md.md)] and starts the managed portion of the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)].  
   
@@ -104,7 +104,7 @@ ms.workload:
 ## See also  
  [Architecture of Office solutions in Visual Studio](../vsto/architecture-of-office-solutions-in-visual-studio.md)   
  [Architecture of document-level customizations](../vsto/architecture-of-document-level-customizations.md)   
- [Visual Studio Tools for Office Runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md)   
+ [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md)   
  [Program VSTO Add-Ins](../vsto/programming-vsto-add-ins.md)   
  [Develop Office solutions](../vsto/developing-office-solutions.md)   
  [Secure Office solutions](../vsto/securing-office-solutions.md)   

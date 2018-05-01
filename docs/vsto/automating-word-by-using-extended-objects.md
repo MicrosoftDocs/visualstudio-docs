@@ -53,10 +53,10 @@ ms.workload:
   
 ## See also  
  [How to: Add content controls to Word documents](../vsto/how-to-add-content-controls-to-word-documents.md)   
- [How to: Add bookmark controls to Word documents](../vsto/how-to-add-bookmark-controls-to-word-documents.md)   
+ [How to: Add Bookmark controls to Word documents](../vsto/how-to-add-bookmark-controls-to-word-documents.md)   
  [How to: Add XMLNode controls to Word documents](../vsto/how-to-add-xmlnode-controls-to-word-documents.md)   
  [How to: Add XMLNodes controls to Word documents](../vsto/how-to-add-xmlnodes-controls-to-word-documents.md)   
- [How to: Resize bookmark controls](../vsto/how-to-resize-bookmark-controls.md)   
+ [How to: Resize Bookmark controls](../vsto/how-to-resize-bookmark-controls.md)   
  [Walkthrough: Create a template by using content controls](../vsto/walkthrough-creating-a-template-by-using-content-controls.md)   
  [Walkthrough: Bind content controls to custom XML parts](../vsto/walkthrough-binding-content-controls-to-custom-xml-parts.md)   
  [Walkthrough: Create shortcut menus for bookmarks](../vsto/walkthrough-creating-shortcut-menus-for-bookmarks.md)   

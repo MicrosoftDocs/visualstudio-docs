@@ -31,13 +31,13 @@ ms.workload:
   
 |Outlook Item Type|Message Class Name|  
 |-----------------------|------------------------|  
-|AppointmentItem|IPM.Appointment|  
-|ContactItem|IPM.Contact|  
-|DistListItem|IPM.DistList|  
-|JournalItem|IPM.Activity|  
-|MailItem|IPM.Note|  
-|PostItem|IPM.Post or IPM.Post.RSS|  
-|TaskItem|IPM.Task|  
+|AppointmentItem|`IPM.Appointment`|  
+|ContactItem|`IPM.Contact`|  
+|DistListItem|`IPM.DistList`|  
+|JournalItem|`IPM.Activity`|  
+|MailItem|`IPM.Note`|  
+|PostItem|`IPM.Post` or `IPM.Post.RSS`|  
+|TaskItem|`IPM.Task`|  
   
  You can also specify the names of custom message classes. Custom message classes identify custom forms that you define in Outlook.  
   

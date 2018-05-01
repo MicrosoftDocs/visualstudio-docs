@@ -88,11 +88,11 @@ ms.workload:
 ### Support for Word documents that have .xml file name extensions  
  The document-level project templates do not allow you to create projects based on the following file formats:  
   
--   Word XML Document (*xml).  
+-   Word XML Document (*\*xml*).  
   
--   Word 2003 XML Document (*xml).  
+-   Word 2003 XML Document (*\*xml*).  
   
- If you want your end users to use customizations in these file formats, build and deploy a customization that uses one of the supported file formats specified in the table above. After installing the customization, end users can save the document in the Word XML Document (*xml) format or the Word 2003 XML Document (\*xml) format, and the customization will continue to work as expected.  
+ If you want your end users to use customizations in these file formats, build and deploy a customization that uses one of the supported file formats specified in the table above. After installing the customization, end users can save the document in the Word XML Document (*\*xml*) format or the Word 2003 XML Document (*\*xml*) format, and the customization will continue to work as expected.  
   
 ##  <a name="Components"></a> Components of customizations  
  The main components of a customization are the document and the assembly. In addition to these components, there are several other parts that play an important role in how Microsoft Office applications discover and load customizations.  
@@ -106,7 +106,7 @@ ms.workload:
  For more information, see [Visual Studio tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md).  
   
 ##  <a name="HowCustomizationsWork"></a> How customizations work with Microsoft Office applications  
- When a user opens a document that is part of a Microsoft Office customization, the application uses the deployment manifest that is linked to the document to locate and load the most current version of the customization assembly. The location of the deployment manifest is stored in a custom document property named _AssemblyLocation. The string that identifies this location is inserted into the property when you build the solution.  
+ When a user opens a document that is part of a Microsoft Office customization, the application uses the deployment manifest that is linked to the document to locate and load the most current version of the customization assembly. The location of the deployment manifest is stored in a custom document property named **AssemblyLocation**. The string that identifies this location is inserted into the property when you build the solution.  
   
  The deployment manifest points to the application manifest, which then points to the most current assembly. For more information, see [Application and deployment manifests in Office solutions](../vsto/application-and-deployment-manifests-in-office-solutions.md).  
   
@@ -122,7 +122,7 @@ ms.workload:
   
 1.  The Microsoft Office application checks the custom document properties to see whether there are managed code extensions associated with the document. For more information, see [Custom document properties overview](../vsto/custom-document-properties-overview.md).  
   
-2.  If there are managed code extensions, the application loads *VSTOEE.dll*, which loads *VSTOLoader.dll*. These are unmanaged DLLs that are the loader components for the Visual Studio 2010 Tools for Office Runtime. For more information, see [Visual Studio Tools for Office Runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md).  
+2.  If there are managed code extensions, the application loads *VSTOEE.dll*, which loads *VSTOLoader.dll*. These are unmanaged DLLs that are the loader components for the Visual Studio 2010 Tools for Office runtime. For more information, see [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md).  
   
 3.  *VSTOLoader.dll* loads the [!INCLUDE[dnprdnshort](../sharepoint/includes/dnprdnshort-md.md)] and starts the managed portion of the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)].  
   
@@ -141,7 +141,7 @@ ms.workload:
 ## See also  
  [Architecture of Office solutions in Visual Studio](../vsto/architecture-of-office-solutions-in-visual-studio.md)   
  [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md)   
- [Visual Studio Tools for Office Runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md)   
+ [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md)   
  [Secure Office solutions](../vsto/securing-office-solutions.md)   
  [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)   
  [Custom document properties overview](../vsto/custom-document-properties-overview.md)   
