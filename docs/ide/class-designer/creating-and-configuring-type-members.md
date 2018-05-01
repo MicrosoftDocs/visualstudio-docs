@@ -52,8 +52,8 @@ You can add these members to types on a class diagram and configure those member
 
 |Task|Supporting content|
 |----------|------------------------|
-|**Get started:** Before you create and configure type members, you must open the **Class Details** window.|-   [Opening the Class Details window](creating-and-configuring-type-members.md#OpenClassDetails)<br />-   [Class Details Usage Notes](creating-and-configuring-type-members.md#ClassDetailsUsageNotes)<br />-   [Display of Read-Only Information](creating-and-configuring-type-members.md#ReadOnlyInfo)<br />-   [Keyboard and Mouse Shortcuts in the Class Diagram and Class Details window](keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window.md)|
-|**Create and modify type members:** You can create new members, modify members, and add parameters to a method by using the **Class Details** window.|-   [Creating Members](creating-and-configuring-type-members.md#CreateMembers)<br />-   [Modifying Type Members](creating-and-configuring-type-members.md#ModifyTypeMembers)<br />-   [Adding Parameters to Methods](creating-and-configuring-type-members.md#AddMethodParams)|
+|**Get started:** Before you create and configure type members, you must open the **Class Details** window.|-   [Open the Class Details window](creating-and-configuring-type-members.md#open-the-class-details-window)<br />-   [Class Details usage notes](creating-and-configuring-type-members.md#class-details-usage-notes)<br />-   [Display of read-only information](creating-and-configuring-type-members.md#display-of-read-only-information)<br />-   [Keyboard and mouse shortcuts in the Class Diagram and Class Details window](keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window.md)|
+|**Create and modify type members:** You can create new members, modify members, and add parameters to a method by using the **Class Details** window.|-   [Create members](creating-and-configuring-type-members.md#create-members)<br />-   [Modify type members](creating-and-configuring-type-members.md#modify-type-members)<br />-   [Add parameters to methods](creating-and-configuring-type-members.md#add-parameters-to-methods)|
 
 ## Open the Class Details window
 By default, the **Class Details** window appears automatically when you open a new class diagram (see [How to: Add Class Diagrams to Projects](how-to-add-class-diagrams-to-projects.md)). You can also open the **Class Details** window explicitly, in the following ways.
@@ -152,7 +152,7 @@ Each member row displays the following elements:
 
 -   **\<add member>**
 
-     The last row in the **Class Details** window contains the text **\<add member>** in the **Name** cell. If you click this cell, you can create a new member. For more information, see [Creating Members](creating-and-configuring-type-members.md#CreateMembers).
+     The last row in the **Class Details** window contains the text **\<add member>** in the **Name** cell. If you click this cell, you can create a new member. For more information, see [Create members](creating-and-configuring-type-members.md#create-members).
 
 -   **Member properties in the Properties window**
 
@@ -202,14 +202,14 @@ Parameter rows contain the following items:
 
 -   **\<add parameter>**
 
-     The last parameter row of a member contains the text **<add parameter>** in the **Name** cell. Clicking this cell lets you create a new parameter. For more information, see [To add a parameter to a method](creating-and-configuring-type-members.md#HowToAddParameterToMethod).
+     The last parameter row of a member contains the text **<add parameter>** in the **Name** cell. Clicking this cell lets you create a new parameter. For more information, see [To add a parameter to a method](creating-and-configuring-type-members.md#add-parameters-to-methods).
 
 **Parameter properties in the Properties window**
 
 The Properties window displays the same parameter properties displayed in the **Class Details** window: **Name**, **Type**, **Modifier**, **Summary**, as well as the **Optional Default** property. Changing a property in one location updates the value of the property globally, including the display of its value in the other location.
 
 > [!NOTE]
-> To add a parameter to a delegate, see [Creating Members](creating-and-configuring-type-members.md#CreateMembers).
+> To add a parameter to a delegate, see [Create members](creating-and-configuring-type-members.md#create-members).
 
 
 > [!NOTE]
