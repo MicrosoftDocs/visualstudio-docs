@@ -2,21 +2,17 @@
 title: "IEnumDebugFrameInfo2::Skip | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IEnumDebugFrameInfo2::Skip"
 helpviewer_keywords: 
   - "IEnumDebugFrameInfo2::Skip"
 ms.assetid: 68cd3948-022a-41ad-bd9f-9ab776cf6248
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

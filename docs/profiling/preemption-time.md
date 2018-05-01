@@ -2,21 +2,16 @@
 title: "Preemption Time | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.cv.threads.timeline.preemption"
 helpviewer_keywords: 
   - "Concurrency Visualizer, Preemption Time"
 ms.assetid: 6b78f91e-a006-440c-83fb-e7368040951d
-caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

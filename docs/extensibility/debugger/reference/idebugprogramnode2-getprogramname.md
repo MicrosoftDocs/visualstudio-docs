@@ -2,21 +2,17 @@
 title: "IDebugProgramNode2::GetProgramName | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgramNode2::GetProgramName"
 helpviewer_keywords: 
   - "IDebugProgramNode2::GetProgramName"
 ms.assetid: 510c7f5d-48ff-4d9f-ad79-fbad9f15239d
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

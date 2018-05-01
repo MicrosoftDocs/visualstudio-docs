@@ -1,20 +1,18 @@
 ---
-title: "Generate a class or type in Visual Studio | Microsoft Docs"
-ms.custom: ""
+title: Generate a class or type in Visual Studio
 ms.date: 01/26/2018
-ms.reviewer: ""
-ms.suite: ""
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
-ms.topic: "article"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-f1_keywords: 
+ms.topic: reference
+author: gewarren
+ms.author: gewarren
+manager: douge
+f1_keywords:
   - "vsl.GenerateFromUsage"
-dev_langs: 
+dev_langs:
   - CSharp
   - VB
-ms.workload: 
+ms.workload:
   - "dotnet"
 ---
 # Generate a class or type in Visual Studio
@@ -46,7 +44,7 @@ This code generation applies to:
 1. Next, do one of the following:
 
    - **Keyboard**
-     - Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu.
+     - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
    - **Mouse**
      - Right-click and select the **Quick Actions and Refactorings** menu.
      - Hover over the red squiggle and click the ![Lightbulb](media/bulb-cs.png) icon which appears.
@@ -88,5 +86,5 @@ The class or struct is created. For C#, a constructor is also created.
 
 ## See also
 
-[Code Generation](../code-generation-in-visual-studio.md)  
-[Preview Changes](../../ide/preview-changes.md)
+- [Code Generation](../code-generation-in-visual-studio.md)
+- [Preview Changes](../../ide/preview-changes.md)

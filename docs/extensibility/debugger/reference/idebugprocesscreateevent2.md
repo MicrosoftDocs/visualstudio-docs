@@ -2,21 +2,17 @@
 title: "IDebugProcessCreateEvent2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProcessCreateEvent2"
 helpviewer_keywords: 
   - "IDebugProcessCreateEvent2"
 ms.assetid: c660439d-8b23-4dbb-923e-ebb5e1d7edf5
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

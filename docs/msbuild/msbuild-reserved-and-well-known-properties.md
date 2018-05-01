@@ -2,11 +2,8 @@
 title: "MSBuild Reserved and Well-Known Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -15,17 +12,16 @@ dev_langs:
 helpviewer_keywords: 
   - "MSBuild, reserved properties"
 ms.assetid: 99333e61-83c9-4804-84e3-eda297c2478d
-caps.latest.revision: 29
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
 # MSBuild Reserved and Well-Known Properties
 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] provides a set of predefined properties that store information about the project file and the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] binaries. These properties are evaluated in the same manner as other [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] properties. For example, to use the `MSBuildProjectFile` property, you type `$(MSBuildProjectFile)`.  
   
- MSBuild uses the values in the following table to predefine reserved and well-known properties. Reserved properties cannot be overridden, but well-known properties can be overridden by using identically named environment properties, global properties, or properties that are declared in the project file.  
+ MSBuild uses the values in the following table to predefine reserved and well-known properties. Reserved properties cannot be overridden, but well-known properties can be overridden by using identically named environment properties, global properties, or properties that are declared in the project file.
   
 ## Reserved and Well-Known Properties  
  The following table describes the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] predefined properties.  
@@ -56,7 +52,24 @@ ms.workload:
 |`MSBuildThisFileName`|The file name portion of `MSBuildThisFileFullPath`, without the file name extension.|Reserved|  
 |`MSBuildToolsPath`|The installation path of the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] version that's associated with the value of `MSBuildToolsVersion`.<br /><br /> Do not include the final backslash in the path.<br /><br /> This property cannot be overridden.|Reserved|  
 |`MSBuildToolsVersion`|The version of the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] Toolset that is used to build the project.<br /><br /> Note: An [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] Toolset consists of tasks, targets, and tools that are used to build an application. The tools include compilers such as csc.exe and vbc.exe. For more information, see [Toolset (ToolsVersion)](../msbuild/msbuild-toolset-toolsversion.md), and [Standard and Custom Toolset Configurations](../msbuild/standard-and-custom-toolset-configurations.md).|Reserved|  
-  
+
+## Names that conflict with MSBuild elements
+
+In addition to the above, names corresponding to MSBuild language elements cannot be used for user-defined properties, items, or item metadata:
+
+* VisualStudioProject
+* Target
+* PropertyGroup
+* Output
+* ItemGroup
+* UsingTask
+* ProjectExtensions
+* OnError
+* ImportGroup
+* Choose
+* When
+* Otherwise
+
 ## See Also  
  [MSBuild Reference](../msbuild/msbuild-reference.md)
  [MSBuild Properties](../msbuild/msbuild-properties.md)

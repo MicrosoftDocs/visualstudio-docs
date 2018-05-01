@@ -2,21 +2,17 @@
 title: "Displaying Files By Using the Open With Command | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "project types, supporting Open With command"
   - "Open With command"
   - "persistence, supporting Open With command"
 ms.assetid: 53794bc3-1b73-4d40-954e-cfade1abddcf
-caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

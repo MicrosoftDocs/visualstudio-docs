@@ -1,3 +1,15 @@
+---
+title: "Troubleshooting | Microsoft Docs"
+author: "ghogen"
+ms.author: "ghogen"
+ms.date: "02/20/2018"
+ms.topic: "troubleshooting"
+ms.prod: visual-studio-dev15
+ms.technology: "vs-azure"
+description: "Rapid Kubernetes development with containers and microservices on Azure"
+keywords: "Docker, Kubernetes, Azure, AKS, Azure Container Service, containers"
+manager: "douge"
+---
 # Troubleshooting Guide
 
 ## Error 'upstream connect error or disconnect/reset before headers'
@@ -11,7 +23,7 @@ You may see this error when trying to access your service. For example, when you
 1. If the container is in the process of being built/deployed, you can wait 2-3 seconds and try accessing the service again. 
 1. Check your port configuration. The specified port numbers should be **identical** in all the assets below:
     * **Dockerfile:** Specified by the `EXPOSE` instruction.
-    * **Helm Chart:** Specified by the `externalPort` and `internalPort` values for a service (often located in a `values.yml` file),
+    * **[Helm chart](https://docs.helm.sh):** Specified by the `externalPort` and `internalPort` values for a service (often located in a `values.yml` file),
     * Any ports being opened up in application code, for example in Node.js: `var server = app.listen(80, function () {...}`
 
 

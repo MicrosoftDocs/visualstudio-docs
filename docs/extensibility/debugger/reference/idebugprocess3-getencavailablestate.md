@@ -2,21 +2,17 @@
 title: "IDebugProcess3::GetENCAvailableState | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProcess3::GetENCAvailableState"
 helpviewer_keywords: 
   - "IDebugProcess3::GetENCAvailableState"
 ms.assetid: 98a5d527-8a72-476c-8e92-0bff3d97c195
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

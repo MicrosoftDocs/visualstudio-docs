@@ -2,12 +2,8 @@
 title: "Instruction Pointers (IPs) View | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.view.instructionpointers"
   - "vs.performance.view.ips"
@@ -18,10 +14,9 @@ helpviewer_keywords:
   - "Instruction Pointers view"
   - "profiling tools, IP view"
 ms.assetid: 5e26e0fd-383b-4fb6-a29d-a458d8232828
-caps.latest.revision: 17
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

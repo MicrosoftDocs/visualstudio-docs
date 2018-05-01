@@ -2,12 +2,8 @@
 title: "How to: Set Permissions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "profiling, setting permissions"
   - "security [Visual Studio ALM], setting permissions"
@@ -16,7 +12,7 @@ helpviewer_keywords:
   - "performance tools, setting profiling permissions"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

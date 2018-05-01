@@ -1,3 +1,15 @@
+---
+title: "Create a .NET Core development environment with containers using Kubernetes in the cloud with Visual Studio - Step 4 - Debug a container in Kubernetes | Microsoft Docs"
+author: "ghogen"
+ms.author: "ghogen"
+ms.date: "02/20/2018"
+ms.topic: "tutorial"
+ms.prod: visual-studio-dev15
+ms.technology: "vs-azure"
+description: "Rapid Kubernetes development with containers and microservices on Azure"
+keywords: "Docker, Kubernetes, Azure, AKS, Azure Container Service, containers"
+manager: "douge"
+---
 # Get Started on Connected Environment with .NET Core and Visual Studio
 
 Previous step: [Create a dev environment in Azure](get-started-netcore-visualstudio-03.md)

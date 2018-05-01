@@ -2,21 +2,17 @@
 title: "BP_RES_DATA_FLAGS | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "BP_RES_DATA_FLAGS"
 helpviewer_keywords: 
   - "BP_RES_DATA_FLAGS enumeration"
 ms.assetid: d97611e2-def6-45a9-ad7d-eedf2ad4c82b
-caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

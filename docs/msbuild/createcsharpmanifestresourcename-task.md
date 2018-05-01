@@ -2,11 +2,8 @@
 title: "CreateCSharpManifestResourceName Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -16,10 +13,9 @@ helpviewer_keywords:
   - "MSBuild, CreateCSharpManifestResourceName task"
   - "CreateCSharpManifestResourceName task [MSBuild]"
 ms.assetid: 2ace88c1-d757-40a7-8158-c1d3f5ff0511
-caps.latest.revision: 8
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

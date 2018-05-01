@@ -2,21 +2,17 @@
 title: "Query Edit Query Save (Source Control VSPackage) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "QEQS events"
   - "Query Edit Query Save events"
   - "source control packages, Query Edit Query Save events"
 ms.assetid: c360d2ad-fe42-4d65-899d-d1588cc8a322
-caps.latest.revision: 17
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

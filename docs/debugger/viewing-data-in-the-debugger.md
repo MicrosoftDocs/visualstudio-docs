@@ -2,12 +2,8 @@
 title: "Create custom views of data in the debugger | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/27/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug"
 dev_langs: 
@@ -20,10 +16,9 @@ helpviewer_keywords:
   - "debugging [Visual Studio], inspecting programs"
   - "debugger, viewing data"
 ms.assetid: 13e1105f-f987-402e-9108-ec6ac12be042
-caps.latest.revision: 30
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

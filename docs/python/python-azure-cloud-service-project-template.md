@@ -1,32 +1,26 @@
 ---
-title: Azure cloud service project template for Python in Visual Studio | Microsoft Docs
+title: Azure cloud service project template for Python
 description: An overview of the Visual Studio template for Azure cloud services written in Python including role deployment, dependencies, and troubleshooting.
-ms.custom:
 ms.date: 07/13/2017
-ms.reviewer:
-ms.suite:
-ms.technology: 
-  - "devlang-python"
-dev_langs:
-  - "python"
-ms.tgt_pltfrm:
-ms.topic: "article"
-author: "kraigb"
-ms.author: "kraigb"
-manager: ghogen
+ms.prod: visual-studio-dev15
+ms.technology: vs-python
+ms.topic: conceptual
+author: kraigb
+ms.author: kraigb
+manager: douge
 ms.workload: 
-  - "python"
-  - "data-science"
-  - "azure"
+  - python
+  - data-science
+  - azure
 ---
 
 # Azure cloud service projects for Python
 
 Visual Studio provides templates to help you get started creating Azure Cloud Services using Python.
 
-A [cloud service](http://go.microsoft.com/fwlink/?LinkId=306052) consists of any number of *worker roles* and *web roles*, each of which performs a conceptually separate task but can be separately replicated across visual machines as needed for scaling. Web roles provide hosting for front-end web applications. Where Python is concerned, any web framework that supports WSGI can be used to write such an application (as supported by the [Web project template](python-web-application-project-templates.md)). Worker roles are intended for long-running processes that do not interact directly with users. They typically make use of the [data](http://go.microsoft.com/fwlink/?LinkId=401571) and [app service](http://go.microsoft.com/fwlink/?LinkId=401572) libraries, which may be installed with [`pip install azure`](http://pypi.org/project/azure).
+A [cloud service](https://docs.microsoft.com/azure/cloud-services/) consists of any number of *worker roles* and *web roles*, each of which performs a conceptually separate task but can be separately replicated across virtual machines as needed for scaling. Web roles provide hosting for front-end web applications. Where Python is concerned, any web framework that supports WSGI can be used to write such an application (as supported by the [Web project template](python-web-application-project-templates.md)). Worker roles are intended for long-running processes that do not interact directly with users. They typically make use of the packages within the "azure" package, which is installed with [`pip install azure`](http://pypi.org/project/azure).
 
-This topic contains details about the project template and other support in Visual Studio 2017 (earlier versions are similar, but with some differences). For more about working with Azure from Python, visit the [Azure Python Developer Center](http://go.microsoft.com/fwlink/?linkid=254360).
+This article contains details about the project template and other support in Visual Studio 2017 (earlier versions are similar, but with some differences). For more about working with Azure from Python, visit the [Azure Python Developer Center](https://docs.microsoft.com/en-us/python/azure/?view=azure-python).
 
 ## Create a project
 
@@ -89,7 +83,7 @@ For Cloud Services, the `ConfigureCloudService.ps1` script uses `pip` to install
 
 Note that cloud service instances do not include C compilers, so all libraries with C extensions must provide pre-compiled binaries.
 
-pip and its dependencies, as well as the packages in `requirements.txt`, are downloaded automatically and may count as chargeable bandwidth usage. See [Managing required packages](managing-python-environments-in-visual-studio.md#managing-required-packages-requirementstxt) for details on managing `requirements.txt` files.
+pip and its dependencies, as well as the packages in `requirements.txt`, are downloaded automatically and may count as chargeable bandwidth usage. See [Managing required packages](managing-required-packages-with-requirements-txt.md) for details on managing `requirements.txt` files.
 
 ## Troubleshooting
 

@@ -2,11 +2,7 @@
 title: "General, Debugging, Options Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "05/23/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
+ms.technology: "vs-ide-debug"
 ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.options.General"
@@ -22,10 +18,9 @@ dev_langs:
 helpviewer_keywords: 
   - "Options dialog box, debugging"
 ms.assetid: b33aee0b-43c3-4c26-8ed4-bc673f491503
-caps.latest.revision: 46
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -113,7 +108,7 @@ Sends all debugger messages that would ordinarily appear in the **Output** windo
 Turns off all object structure view customizations. For more information about view customizations, see [Create custom views of .managed objects](../debugger/create-custom-views-of-dot-managed-objects.md).  
   
 **Suppress JIT optimization on module load (Managed only)**  
-Disables the JIT optimization of managed code when a module is loaded and JIT is compiled while the debugger is attached. Disabling optimization may make it easier to debug some problems, although at the expense of performance. If you are using Just My Code, suppressing JIT optimization can cause non-user code to appear as user code ("My Code").
+Disables the JIT optimization of managed code when a module is loaded and JIT is compiled while the debugger is attached. Disabling optimization may make it easier to debug some problems, although at the expense of performance. If you are using Just My Code, suppressing JIT optimization can cause non-user code to appear as user code ("My Code"). For more information, see [JIT Optimization and Debugging](../debugger/jit-optimization-and-debugging.md).
 
 **Enable JavaScript debugging for ASP.NET (Chrome and IE)**
 Enables the script debugger for ASP.NET apps. On first use in Chrome, you may need to sign into the browser on first use to enable Chrome extensions that you have installed. Disable this option to revert to legacy behavior.    

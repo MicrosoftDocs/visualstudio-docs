@@ -1,24 +1,19 @@
 ---
-title: "What publishing options are right for me? | Microsoft Docs"
-ms.custom: ""
-ms.date: "03/09/2017"
+title: What publishing options are right for me?
+ms.date: 03/09/2017
 ms.reviewer: "riande"
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-deployment
+ms.topic: conceptual
+helpviewer_keywords:
   - "ASP.NET, web applications, deployment, publishing"
 ms.assetid: 3A13F685-531C-457D-A98E-631888011E4B
-caps.latest.revision: 1
-author: "Mikejo5000"
-ms.author: "mikejo"
-manager: ghogen
-ms.workload: 
+author: Mikejo5000
+ms.author: mikejo
+manager: douge
+ms.workload:
   - "multiple"
 ---
-
 # What publishing options are right for me?
 
 From within Visual Studio, Web applications can be published directly to the following targets:
@@ -28,7 +23,7 @@ From within Visual Studio, Web applications can be published directly to the fol
 - [File system](#file-system)
 - [Custom targets (IIS, FTP, etc.)](#custom-targets), which includes all arbitrary web servers.
 
-On the **Publish** tab, you can select an existing publish profile, import an existing one, or create a new one using the options described here.
+On the **Publish** tab, you can select an existing publish profile, import an existing one, or create a new one using the options described here. For a tour of the publishing options in the IDE for different app types, see [First look at deployment](../../deployment/deploying-applications-services-and-components.md).
 
 ## Azure App Service Web Apps
 

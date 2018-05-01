@@ -2,21 +2,17 @@
 title: "IDebugProcess3 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProcess3"
 helpviewer_keywords: 
   - "IDebugProcess3 interface"
 ms.assetid: 7bd6b952-cf34-4e66-b8f6-d472dac3748f
-caps.latest.revision: 24
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

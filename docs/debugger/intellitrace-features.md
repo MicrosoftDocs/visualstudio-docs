@@ -2,12 +2,8 @@
 title: "IntelliTrace Features | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IntelliTrace, debugging with events"
   - "IntelliTrace, recording execution history"
@@ -23,7 +19,7 @@ helpviewer_keywords:
   - "debugging [Visual Studio ALM], IntelliTrace"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -50,7 +46,7 @@ If you're debugging, stop debugging. Go to **Tools > Options > IntelliTrace > In
 
 This isn't enabled by default, but IntelliTrace can capture snapshots of your application at every breakpoint and debugger step event, and you can view theses snapshots in a historical debugging session. A snapshot gives you a view of your full application state. To enable the capture of snapshots, go to **Tools > Options > IntelliTrace > General**, and select **IntelliTrace events and snapshots**. For more information, see [View snapshots using IntelliTrace step-back](../debugger/how-to-use-intellitrace-step-back.md)
 
-Snapshots are available in Visual Studio Enterprise 2017 version 15.5 and higher, and it requires Windows 10 Anniversary Update or above.  Snapshots are not currently available for .NET Core and ASP.NET Core apps.
+Snapshots are available in Visual Studio Enterprise 2017 version 15.5 and higher, and it requires Windows 10 Anniversary Update or above.  For .NET Core and ASP.NET Core apps, Visual Studio Enterprise 2017 version 15.7 preview 1 is required.
 
 ## <a name="GoingFurther"></a> Collect IntelliTrace events and call information
 

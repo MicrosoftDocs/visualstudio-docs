@@ -1,20 +1,17 @@
 ---
-title: "Create and configure datasets in Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
+title: Create and configure datasets in Visual Studio
+ms.date: 11/04/2016
+ms.topic: conceptual
+helpviewer_keywords:
   - "typed datasets, creating"
   - "datasets, creating"
   - "datasets, configuring"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.technology: "vs-data-tools"
-ms.workload: 
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.prod: visual-studio-dev15
+ms.technology: vs-data-tools
+ms.workload:
   - "data-storage"
 ---
 # Create and configure datasets in Visual Studio
@@ -89,4 +86,4 @@ This procedure shows how to add a table from the same database that you used to 
 
 ## See also
 
-[Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md)
+- [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md)

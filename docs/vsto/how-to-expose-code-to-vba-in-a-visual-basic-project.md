@@ -2,12 +2,9 @@
 title: "How to: Expose Code to VBA in a Visual Basic Project | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -19,7 +16,7 @@ helpviewer_keywords:
   - "host items [Office development in Visual Studio], exposing code to VBA"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

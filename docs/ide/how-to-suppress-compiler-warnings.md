@@ -1,22 +1,20 @@
 ---
-title: "Suppress compiler warnings in Visual Studio for projects and NuGet packages | Microsoft Docs"
-ms.custom: ""
-ms.date: "01/24/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: vs-ide-general
-ms.topic: "article"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+title: Suppress compiler warnings in Visual Studio for projects and NuGet packages
+ms.date: 01/24/2018
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-compile
+ms.topic: conceptual
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # How to: Suppress compiler warnings
 
-You can declutter a build log by filtering out one or more kinds of compiler warnings. For example, you might want to review only some of the output that's generated when you set the build log verbosity to Normal, Detailed, or Diagnostic. For more information about verbosity, see [How to: View, save, and configure build log files](../ide/how-to-view-save-and-configure-build-log-files.md).
+You can declutter a build log by filtering out one or more kinds of compiler warnings. For example, you might want to review only some of the output that's generated when you set the build log verbosity to **Normal**, **Detailed**, or **Diagnostic**. For more information about verbosity, see [How to: View, save, and configure build log files](../ide/how-to-view-save-and-configure-build-log-files.md).
 
-## Suppressing specific warnings for Visual C# or F# #
+## Suppress specific warnings for Visual C# or F# #
 
 Use the **Build** property page to suppress specific warnings for C# and F# projects.
 
@@ -30,7 +28,7 @@ Use the **Build** property page to suppress specific warnings for C# and F# proj
 
 1. Rebuild the solution.
 
-## Suppressing specific warnings for Visual C++
+## Suppress specific warnings for Visual C++
 
 Use the **Configuration Properties** property page to suppress specific warnings for C++ projects.
 
@@ -48,9 +46,9 @@ Use the **Configuration Properties** property page to suppress specific warnings
 
 1. Choose the **OK** button, and then rebuild the solution.
 
-## Suppressing warnings for Visual Basic
+## Suppress warnings for Visual Basic
 
-You can hide specific compiler warnings for Visual Basic by editing the *.vbproj* file for the project. To suppress warnings by *category*, you can use the [Compile property page](../ide/reference/compile-page-project-designer-visual-basic.md). For more information, see [Configuring warnings in Visual Basic](../ide/configuring-warnings-in-visual-basic.md).
+You can hide specific compiler warnings for Visual Basic by editing the *.vbproj* file for the project. To suppress warnings by *category*, you can use the [Compile property page](../ide/reference/compile-page-project-designer-visual-basic.md). For more information, see [Configure warnings in Visual Basic](../ide/configuring-warnings-in-visual-basic.md).
 
 ### To suppress specific warnings for Visual Basic
 
@@ -60,7 +58,7 @@ This example shows you how to edit the *.vbproj* file to suppress specific compi
 
 1. On the menu bar, choose **Project** > **Unload Project**.
 
-1. In **Solution Explorer**, open the right-click or shortcut menu for the project, and then choose **Edit** *ProjectName* **.vbproj**.
+1. In **Solution Explorer**, open the right-click or shortcut menu for the project, and then choose **Edit <ProjectName>.vbproj**.
 
     The XML project file opens in the code editor.
 
@@ -109,7 +107,7 @@ This example shows you how to edit the *.vbproj* file to suppress specific compi
 
 For more information, see the [/nowarn compiler option](/dotnet/visual-basic/reference/command-line-compiler/nowarn) for the Visual Basic command-line compiler.
 
-## Suppressing warnings for NuGet packages
+## Suppress warnings for NuGet packages
 
 In some cases, you may want to suppress NuGet compiler warnings for a single NuGet package, instead of for an entire project. The warning serves a purpose, so you don't want to suppress it at the project level. For example, one of the NuGet warnings tells you that the package may not be fully compatible with your project. If you suppress it at the project level and later add an additional NuGet package, you would never know if it was producing the compatibility warning.
 
@@ -129,6 +127,6 @@ In some cases, you may want to suppress NuGet compiler warnings for a single NuG
 
 ## See also
 
-[Walkthrough: Building an Application](../ide/walkthrough-building-an-application.md)  
-[How to: View, Save, and Configure Build Log Files](../ide/how-to-view-save-and-configure-build-log-files.md)  
-[Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)
+- [Walkthrough: Build an application](../ide/walkthrough-building-an-application.md)
+- [How to: View, save, and configure build log files](../ide/how-to-view-save-and-configure-build-log-files.md)
+- [Compile and build](../ide/compiling-and-building-in-visual-studio.md)

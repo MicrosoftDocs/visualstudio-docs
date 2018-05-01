@@ -2,21 +2,17 @@
 title: "IDebugStackFrame2::GetLanguageInfo | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugStackFrame2::GetLanguageInfo"
 helpviewer_keywords: 
   - "IDebugStackFrame2::GetLanguageInfo"
 ms.assetid: 0e12fd92-f155-46a7-8272-cda279388cfb
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

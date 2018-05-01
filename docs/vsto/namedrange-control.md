@@ -2,12 +2,9 @@
 title: "NamedRange Control | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VST.Toolbox.Range"
 dev_langs: 
@@ -20,7 +17,7 @@ helpviewer_keywords:
   - "NamedRange control"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

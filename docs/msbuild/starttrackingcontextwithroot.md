@@ -2,11 +2,8 @@
 title: "StartTrackingContextWithRoot | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 apiname: 
   - "StartTrackingContextWithRoot"
 apilocation: 
@@ -15,10 +12,9 @@ apitype: "COM"
 helpviewer_keywords: 
   - "StartTrackingContextWithRoot"
 ms.assetid: f6ef2b76-8035-4a14-8195-aa221c46ef48
-caps.latest.revision: 6
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

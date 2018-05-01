@@ -2,22 +2,18 @@
 title: "IDebugPendingBreakpoint2::SetPassCount | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugPendingBreakpoint2::SetPassCount"
 helpviewer_keywords: 
   - "SetPassCount method"
   - "IDebugPendingBreakpoint2::SetPassCount method"
 ms.assetid: 08ddd328-57eb-42e0-baa9-8424dcd1bf04
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

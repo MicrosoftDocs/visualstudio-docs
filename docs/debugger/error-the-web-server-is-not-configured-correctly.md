@@ -2,12 +2,8 @@
 title: "Error: The web server is not configured correctly | Microsoft Docs"
 ms.custom: ""
 ms.date: "09/20/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "reference"
+ms.technology: "vs-ide-debug"
+ms.topic: "troubleshooting"
 f1_keywords: 
   - "vs.debug.remote.projnotconfigured"
 dev_langs: 
@@ -17,10 +13,9 @@ dev_langs:
   - "C++"
 helpviewer_keywords: 
   - "debugger, Web application errors"
-caps.latest.revision: 22
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -2,12 +2,9 @@
 title: "ListObject Control | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VST.Toolbox.List"
 dev_langs: 
@@ -21,7 +18,7 @@ helpviewer_keywords:
   - "ListObject control, improving performance when bound to data"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

@@ -2,21 +2,17 @@
 title: "IDebugPortSupplier3 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugPortSupplier3"
 helpviewer_keywords: 
   - "IDebugPortSupplier3 interface"
 ms.assetid: e458cd02-2370-4435-8953-17d7a60ce152
-caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

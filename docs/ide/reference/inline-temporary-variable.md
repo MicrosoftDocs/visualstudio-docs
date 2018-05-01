@@ -1,18 +1,16 @@
 ---
-title: "Replace a temporary variable with its value in Visual Studio | Microsoft Docs"
-ms.custom: ""
+title: Replace a temporary variable with its value in Visual Studio
 ms.date: 01/26/2018
-ms.reviewer: ""
-ms.suite: ""
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-dev_langs: 
+author: gewarren
+ms.author: gewarren
+manager: douge
+dev_langs:
   - CSharp
   - VB
-ms.workload: 
+ms.workload:
   - "dotnet"
 ---
 # Inline a temporary variable refactoring
@@ -44,7 +42,7 @@ This refactoring applies to:
 1. Next, do one of the following:
 
    - **Keyboard**
-     - Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu.
+     - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
    - **Mouse**
      - Right-click the code and select the **Quick Actions and Refactorings** menu.
 
@@ -62,4 +60,4 @@ This refactoring applies to:
 
 ## See also
 
-[Refactoring](../refactoring-in-visual-studio.md)
+- [Refactoring](../refactoring-in-visual-studio.md)

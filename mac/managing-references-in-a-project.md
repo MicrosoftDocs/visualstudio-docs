@@ -1,15 +1,14 @@
 ---
-title: "Managing References in a Project" 
+title: "Managing References in a Project in Visual Studio for Mac" 
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017
-ms.topic: article
 ms.assetid: 4AD51385-B0A8-4BA7-B2D4-BF2BD167A142
 ---
 
 # Managing References in a Project
 
-Visual Studio for Mac provides three  means of adding additional references to your project:
+Visual Studio for Mac provides two means of adding additional references to your project:
 
 ![Project References](media/projects-and-solutions-image10.png)
 
@@ -17,7 +16,6 @@ These are:
 
 * References
 * NuGets (Added via the Packages folder)
-* Components
 
 In addition, Web References and native references can also be added to any project.
 

@@ -2,12 +2,8 @@
 title: "View DLLs and Executables in the Debugger | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.modules"
 dev_langs: 
@@ -24,10 +20,9 @@ helpviewer_keywords:
   - "DLLs, displaying while debugging"
   - "modules, displaying"
 ms.assetid: d840fdca-b035-4452-b652-72580c831896
-caps.latest.revision: 36
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -2,17 +2,12 @@
 title: "Analyze CPU Usage in Visual Studio | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 ms.assetid: 7501a20d-04a1-480f-a69c-201524aa709d
-caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -22,6 +17,9 @@ When you need to investigate performance issues in your app, a good place to sta
 You have several options for running and managing your diagnostics session. For example, you can run the **CPU Usage** tool on local or remote machines, or on in a simulator or emulator. You can analyze the performance of an open project in Visual Studio, attached to a running app, or start an app that is installed from the Microsoft Store. For more information, see [Run Profiling Tools with or without the Debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
 
 Here, we show you how to collect and analyze CPU usage with release builds. To analyze CPU usage while debugging, see [Beginner's Guide to Performance Profiling](../profiling/beginners-guide-to-performance-profiling.md). 
+
+> [!NOTE]
+> For .NET Core and ASP.NET Core, the CPU Usage tool currently does not provide accurate results with portable PBDs. Use full PDBs instead.
   
 ##  <a name="BKMK_Collect_CPU_usage_data"></a> Collect CPU usage data  
   

@@ -2,11 +2,8 @@
 title: "Item Element (MSBuild) | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/13/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -16,10 +13,9 @@ helpviewer_keywords:
   - "Item Element [MSBuild]"
   - "<Item> Element [MSBuild]"
 ms.assetid: dcef5f91-0613-4bfc-8ee9-d7004bb6d3a9
-caps.latest.revision: 31
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -70,7 +66,7 @@ Now, however, you can pass the `Version` metadata as an attribute, such as in th
 
 |Attribute|Description|  
 |---------------|-----------------|  
-|`Include`|Required attribute.<br /><br /> The file or wildcard to include in the list of items.|  
+|`Include`|Optional attribute.<br /><br /> The file or wildcard to include in the list of items.|  
 |`Exclude`|Optional attribute.<br /><br /> The file or wildcard to exclude from the list of items.|  
 |`Condition`|Optional attribute.<br /><br /> The condition to be evaluated. For more information, see [Conditions](../msbuild/msbuild-conditions.md).|  
 |`Remove`|Optional attribute.<br /><br /> The file or wildcard to remove from the list of items.<br /><br />|  

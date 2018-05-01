@@ -2,21 +2,17 @@
 title: "IDebugDisassemblyStream2::Seek | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugDisassemblyStream2::Seek"
 helpviewer_keywords: 
   - "IDebugDisassemblyStream2::Seek"
 ms.assetid: afec3008-b1e0-4803-ad24-195dbfb6497e
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

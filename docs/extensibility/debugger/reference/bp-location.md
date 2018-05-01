@@ -2,21 +2,17 @@
 title: "BP_LOCATION | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "BP_LOCATION"
 helpviewer_keywords: 
   - "BP_LOCATION union"
 ms.assetid: ed1e874c-f289-4c31-8b6c-04dde03ad0f5
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

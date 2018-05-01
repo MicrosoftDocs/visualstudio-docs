@@ -2,21 +2,17 @@
 title: "IDebugBreakpointErrorEvent2::GetErrorBreakpoint | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugBreakpointErrorEvent2::GetErrorBreakpoint"
 helpviewer_keywords: 
   - "IDebugBreakpointErrorEvent2::GetErrorBreakpoint"
 ms.assetid: e5acfd19-ac17-47f3-a31a-b2aa8baca36d
-caps.latest.revision: 16
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---
