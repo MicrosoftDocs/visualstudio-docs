@@ -6,7 +6,7 @@
           "**/*.md",
           "**/**.yml"
         ],
-        "group": "group-2015",
+        "version": "group-2015",
         "exclude": [
           "**/obj/**",
           "vsdocsdocs/**",
@@ -19,7 +19,7 @@
           "**/*.md",
           "**/**.yml"
         ],
-        "group": "group-2017",
+        "version": "group-2017",
         "exclude": [
           "**/obj/**",
           "vsdocsdocs/**",
@@ -46,7 +46,7 @@
           "**/*.gif",
           "**/*.svg"
         ],
-        "group": "group-2015",
+        "version": "group-2015",
         "exclude": [
           "**/obj/**",
           "vsdocsdocs/**",
@@ -60,7 +60,7 @@
           "**/*.gif",
           "**/*.svg"
         ],
-        "group": "group-2017",
+        "version": "group-2017",
         "exclude": [
           "**/obj/**",
           "vsdocsdocs/**",
@@ -90,11 +90,11 @@
     "template": [],
     "xref": ["missingapi.yml", "vs.140.zip", "office15.zip"],
     "dest": "vsdocsdocs",
-    "groups": {
-      "group-2015": {
+    "versions": {
+      "version-2015": {
         "moniker-range": "vs-2015"
       },
-      "group-2017": {
+      "version-2017": {
         "moniker-range": ">= vs-2017"
       }
     }
