@@ -45,7 +45,7 @@ ms.workload:
 ## Create the project  
  The first step is to create a Word Document project.  
   
-#### Create a new project  
+### Create a new project  
   
 1.  Create a Word Document project with the name **My Word Formatting**. In the wizard, select **Create a new document**.  
   
@@ -56,7 +56,7 @@ ms.workload:
 ## Add text and controls to the Word document  
  For this walkthrough, add three check boxes and some text in a <xref:Microsoft.Office.Tools.Word.Bookmark> control to the Word document. The check boxes will present options to the user for formatting the text.  
   
-#### Add three check boxes  
+### Add three check boxes  
   
 1.  Verify that the document is open in the Visual Studio designer.  
   
@@ -87,7 +87,7 @@ ms.workload:
     |**Name**|**applyUnderlineFont**|  
     |**Text**|**Underline**|  
   
-#### Add text and a Bookmark control  
+### Add text and a Bookmark control  
   
 1.  Move the insertion point below the check box controls and type the following text:  
   
@@ -108,7 +108,7 @@ ms.workload:
 ## Format the text when a check box is checked or cleared  
  When the user selects a formatting option, change the format of the text in the document.  
   
-#### Change formatting when a check box is selected  
+### Change formatting when a check box is selected  
   
 1.  Right-click `ThisDocument` in **Solution Explorer**, and then click **View Code** on the shortcut menu.  
   
@@ -138,7 +138,7 @@ ms.workload:
 ## Test the application  
  You can now test your document to verify that the text is formatted correctly when you select or clear a check box.  
   
-#### Test your document  
+### Test your document  
   
 1.  Press **F5** to run your project.  
   

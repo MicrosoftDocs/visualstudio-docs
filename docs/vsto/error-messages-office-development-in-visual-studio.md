@@ -23,7 +23,7 @@ ms.workload:
   
 |Method|Description|  
 |-|-|  
-|**F1**|If you receive an error, you can press **F1**. This will open the corresponding error message topic in the online documentation.|  
+|F1|If you receive an error, you can press **F1**. This will open the corresponding error message topic in the online documentation.|  
 |Full text search|You can use full text search using words from the first sentence in the error message text. On the **Help** menu, click **Search**.|  
   
 ## See also  

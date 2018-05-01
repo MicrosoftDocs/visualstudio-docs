@@ -1,7 +1,7 @@
 ---
 title: "Changes to the design of Office projects that target the .NET Framework"
 ms.custom: ""
-ms.date: "02/02/2017
+ms.date: "02/02/2017"
 ms.technology: 
   - "office-development"
 ms.topic: "conceptual"
