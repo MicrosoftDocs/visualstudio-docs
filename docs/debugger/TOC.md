@@ -15,6 +15,7 @@
 ## [Remote debug ASP.NET on Azure](remote-debugging-azure.md)
 ## [Remote debug a C# or Visual Basic project](remote-debugging-csharp.md)
 ## [Remote debug a C++ project](remote-debugging-cpp.md)
+## [Debug managed and native code](how-to-debug-managed-and-native-code.md)
 # How-to guides
 ## [Navigate through code with the debugger](navigating-through-code-with-the-debugger.md)
 ## [Use breakpoints](using-breakpoints.md)

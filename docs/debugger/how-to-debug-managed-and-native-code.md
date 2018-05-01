@@ -19,7 +19,7 @@ ms.workload:
 ---
 # Tutorial: Debug managed and native code in Visual Studio
 
-Visual Studio allows you to enable more than one debugger type when debugging, which is called mixed mode debugging. In this tutorial, we set options to debug both managed and native code in a single debugging session. This tutorial shows how to debug native code from a managed app, but you can also do the reverse, and [debug managed code from a native app](../debugger/how-to-debug-in-mixed-mode.md). The debugger also supports other types of mixed mode debugging, such as debugging [Python and native code](../python/debugging-mixed-mode-c-cpp-python-in-visual-studio.md) and using the script debugger in app types such as ASP.NET.
+Visual Studio allows you to enable more than one debugger type when debugging, which is called mixed mode debugging. In this tutorial, you set options to debug both managed and native code in a single debugging session. This tutorial shows how to debug native code from a managed app, but you can also do the reverse, and [debug managed code from a native app](../debugger/how-to-debug-in-mixed-mode.md). The debugger also supports other types of mixed mode debugging, such as debugging [Python and native code](../python/debugging-mixed-mode-c-cpp-python-in-visual-studio.md) and using the script debugger in app types such as ASP.NET.
 
 In this tutorial, you will:
 
@@ -44,13 +44,13 @@ In this tutorial, you will:
 
 1. In Visual Studio, choose **File** > **New** > **Project**.
 
-1. In the **New Project** dialog box, choose **Visual C++**, **General** from the installed templates section, and then in the middel pane select **Empty Project**.
+1. In the **New Project** dialog box, choose **Visual C++**, **General** from the installed templates section, and then in the middle pane select **Empty Project**.
 
 1. In the **Name** field, type **Mixed-Mode-Debugging** and click **OK**.
 
     Visual Studio creates the empty project, which appears in Solution Explorer in the right pane.
 
-1. In Solution Explorer, right-click the **Source Files** node in the C++ project and choose **Add** > **New Item**, and then select **C++ file (.cpp)**, give the file the name **Mixed-Mode.cpp**, and choose **Add**.
+1. In Solution Explorer, right-click the **Source Files** node in the C++ project, and then choose **Add** > **New Item**, and then select **C++ file (.cpp)**. Give the file the name **Mixed-Mode.cpp**, and choose **Add**.
 
     Visual Studio adds the new C++ file.
 
@@ -59,7 +59,7 @@ In this tutorial, you will:
     ```cpp
     #include "Mixed_Mode.h"
     ```
-1. In Solution Explorer, right-click the **Header Files** node in the C++ project and choose **Add** > **New Item**, and then select **Header file (.h)**, give the file the name **Mixed-Mode.h**, and choose **Add**.
+1. In Solution Explorer, right-click the **Header Files** node in the C++ project, and then choose **Add** > **New Item**, and then select **Header file (.h)**. Give the file the name **Mixed-Mode.h**, and choose **Add**.
 
     Visual Studio adds the new header file.
 
@@ -85,9 +85,9 @@ In this tutorial, you will:
 
 1. In Solution Explorer, right-click the project node (**Mixed-Mode-Debugging**) and choose **Properties**.
 
-1. In the **Properties** page, choose **Configuration Properties** > **Linker** > **Advanced**, and then in the **No Entry Point** drop-down list, select **NO**, and then apply settings.
+1. In the **Properties** page, choose **Configuration Properties** > **Linker** > **Advanced**, and then in the **No Entry Point** drop-down list, select **NO**. Then apply settings.
 
-1. In the **Properties** page, choose **Configuration Properties** > **General**, and then select **Dynamic Library (.dll)** from the **Configuration Type** field, and then apply settings.
+1. In the **Properties** page, choose **Configuration Properties** > **General**, and then select **Dynamic Library (.dll)** from the **Configuration Type** field. Then apply settings.
 
     ![Switch to a native DLL](../debugger/media/mixed-mode-set-as-native-dll.png)
 
@@ -139,9 +139,9 @@ In this tutorial, you will:
 
 ## Configure mixed mode debugging (.NET Framework)
 
-1. In Solution Explorer, right click the managed **Mixed_Mode_Calling_App** project and choose **Set as Startup Project**.
+1. In Solution Explorer, right-click the managed **Mixed_Mode_Calling_App** project and choose **Set as Startup Project**.
 
-1. Right click the managed **Mixed_Mode_Calling_App** project and choose **Properties**, and then choose **Debug** in the left pane, select **Enable native code debugging**, and then close the properties page to save the changes.
+1. Right-click the managed **Mixed_Mode_Calling_App** project, and then choose **Properties**, and then choose **Debug** in the left pane. Select **Enable native code debugging**, and then close the properties page to save the changes.
 
     ![Enable mixed mode debugging](../debugger/media/mixed-mode-enable-native-code-debugging.png)
 
@@ -161,7 +161,7 @@ In most versions of Visual Studio 2017, you must enable mixed mode debugging for
     "nativeDebugging": true
     ```
     
-    So, for example, your file might look like this:
+    So, for example, your file might look like the following:
     
     ```
     {
@@ -214,7 +214,7 @@ In most versions of Visual Studio 2017, you must enable mixed mode debugging for
 
 ## Next steps
 
-In this tutorial, you learned how to debug native code from a managed app by enabling mixed mode debugging. For an overview of other debugger features, see the following article.
+In this tutorial, you learned how to debug native code from a managed app by enabling mixed mode debugging. For an overview of other debugger features, see the following article:
 
 > [!div class="nextstepaction"]
 > [First look at the debugger](../debugger/debugger-feature-tour.md)
