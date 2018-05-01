@@ -54,7 +54,7 @@ To see relationships between the code and its references, [create a code map](..
 
 Inspect your code's history to find out what happened to your code. Or, review changes before they're merged into your code so you can better understand how changes in other branches might affect your code.
 
-You'll need:
+You need:
 
 - Visual Studio Enterprise or Visual Studio Professional
 
