@@ -6,38 +6,15 @@
           "**/*.md",
           "**/**.yml"
         ],
-        "version": "group-2015",
+        "group": "group-vs",
         "exclude": [
           "**/obj/**",
           "vsdocsdocs/**",
           "**/includes/**",
           "missingapi.yml"
-        ]
-      },
-      {
-        "files": [
-          "**/*.md",
-          "**/**.yml"
-        ],
-        "version": "group-2017",
-        "exclude": [
-          "**/obj/**",
-          "vsdocsdocs/**",
-          "**/includes/**",
-          "missingapi.yml"
-        ]
-      },
-      {
-        "files": [
-          "**/*.md",
-          "**/**.yml"
-        ],
-        "exclude": [
-          "vs-2015",
-          "vs-2017"
         ]
       }
-    ],
+        ],
     "resource": [
       {
         "files": [
@@ -46,21 +23,7 @@
           "**/*.gif",
           "**/*.svg"
         ],
-        "version": "group-2015",
-        "exclude": [
-          "**/obj/**",
-          "vsdocsdocs/**",
-          "**/includes/**"
-        ]
-      },
-      {
-        "files": [
-          "**/*.png",
-          "**/*.jpg",
-          "**/*.gif",
-          "**/*.svg"
-        ],
-        "version": "group-2017",
+        "version": "group-vs",
         "exclude": [
           "**/obj/**",
           "vsdocsdocs/**",
@@ -85,17 +48,23 @@
       "ms.prod": "visual-studio-dev15",
       "searchScope": ["VS IDE"],
       "uhfHeaderId": "MSDocsHeader-VisualStudio",
-      "titleSuffix": "Visual Studio"
+      "titleSuffix": "Visual Studio",
+      "monikerRange": ">= vs-2017"
     },
+
+    "fileMetadata": {
+      "monikerRange": {
+        "vs-2015/**/*.md": "vs-2015"
+      }
+    },
+
+
     "template": [],
     "xref": ["missingapi.yml", "vs.140.zip", "office15.zip"],
     "dest": "vsdocsdocs",
-    "versions": {
-      "version-2015": {
-        "moniker-range": "vs-2015"
-      },
-      "version-2017": {
-        "moniker-range": ">= vs-2017"
+    "group": {
+      "group-vs": {
+        "moniker-range": "vs-2015 || >= vs-2017"
       }
     }
   }

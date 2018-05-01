@@ -38,7 +38,8 @@
       "build_source_folder": "docs",
       "build_output_subfolder": "vsdocsdocs",
       "locale": "en-us",
-      "moniker_ranges": ["vs-2015", ">= vs-2017"],
+      "monikers": [],
+      "moniker_ranges": ["vs-2015 || >= vs-2017"],
       "xref_query_tags": [
         "/dotnet"
       ],
