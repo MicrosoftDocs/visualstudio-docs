@@ -87,7 +87,9 @@ In this tutorial, you will:
 
 1. In the **Properties** page, choose **Configuration Properties** > **Linker** > **Advanced**, and then in the **No Entry Point** drop-down list, select **NO**, and then apply settings.
 
-1. In the **Properties** page, choose **Configuration Properties** > **General**, and then select **Dynamic Link Library (.dll)** from the **Configuration Type** field, and then apply settings.
+1. In the **Properties** page, choose **Configuration Properties** > **General**, and then select **Dynamic Library (.dll)** from the **Configuration Type** field, and then apply settings.
+
+    ![Switch to a native DLL](../debugger/media/mixed-mode-set-as-native-dll.png)
 
 1. Right-click the project and choose **Debug** > **Build**.
 
