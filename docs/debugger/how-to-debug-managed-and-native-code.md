@@ -78,28 +78,20 @@ In this tutorial, you will:
     #endif
     ```
 
-1. From the Debug toolbar, select a **Release** configuration and **Any CPU** as the platform, or, for .NET Core, select **x64** as the platform.
-
-    ![Set a Release build for the DLL](../debugger/media/mixed-mode-setting-release-build.png)
+1. From the Debug toolbar, select a **Debug** configuration and **Any CPU** as the platform, or, for .NET Core, select **x64** as the platform.
 
     > [!NOTE]
     > On .NET Core, choose **x64** as the platform. .NET Core always runs in 64-bit mode so this is required.
 
-    By using a Release configuration, simplify the configuration of the DLL.
-
 1. In Solution Explorer, right-click the project node (**Mixed-Mode-Debugging**) and choose **Properties**.
 
-1. In the **Properties** page, choose **Configuration Properties** > **Linker** > **Advanced**, and then in the **No Entry Point** drop-down list, select **YES (/NOENTRY)**, and then apply settings.
-
-    ![Remove entry point from the DLL](../debugger/media/mixed-mode-no-entry-point.png)
-
-    We simplify the DLL code a little by removing the entry point.
+1. In the **Properties** page, choose **Configuration Properties** > **Linker** > **Advanced**, and then in the **No Entry Point** drop-down list, select **NO**, and then apply settings.
 
 1. In the **Properties** page, choose **Configuration Properties** > **General**, and then select **Dynamic Link Library (.dll)** from the **Configuration Type** field, and then apply settings.
 
 1. Right-click the project and choose **Debug** > **Build**.
 
-    If you see any build errors, make sure you selected a Release build in the previous steps.
+    The project should build with no errors.
 
 ## Create a simple .NET Framework or .NET Core app to call the DLL
 
@@ -128,9 +120,9 @@ In this tutorial, you will:
             // Replace the file path shown here with the
             // file path on your computer. For .NET Core, the typical (default) path
             // for a 64-bit DLL might look like this:
-            // C:\Users\username\source\repos\Mixed-Mode-Debugging\x64\Release\Mixed-Mode-Debugging.dll
+            // C:\Users\username\source\repos\Mixed-Mode-Debugging\x64\Debug\Mixed-Mode-Debugging.dll
             // Here, we show a typical path for a DLL targeting the **Any CPU** option.
-            [DllImport(@"C:\Users\username\source\repos\Mixed-Mode-Debugging\Release\Mixed-Mode-Debugging.dll", EntryPoint =
+            [DllImport(@"C:\Users\username\source\repos\Mixed-Mode-Debugging\Debug\Mixed-Mode-Debugging.dll", EntryPoint =
             "mixed_mode_multiply", CallingConvention = CallingConvention.StdCall)]
             public static extern int Multiply(int x, int y);
             public static void Main(string[] args)
@@ -182,10 +174,6 @@ In most versions of Visual Studio 2017, you must enable mixed mode debugging for
 
 ## Set a breakpoint and start the debugger
 
-1. In the Debug toolbar, switch to a **Debug** build.
-
-    This will allow you to step into code with the debugger and hit breakpoints.
-
 1. In the C# project, open *Program.cs* and set a breakpoint in the following line of code by clicking in the left margin:
 
     ```c#
@@ -205,8 +193,6 @@ In most versions of Visual Studio 2017, you must enable mixed mode debugging for
     The header file with the native code opens and you see the yellow arrow where the debugger is paused.
 
     ![Step into native code](../debugger/media/mixed-mode-step-into-native-code.png)
-
-    Note that we are able to debug the release version of the DLL because the [symbol files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md) are available in the same folder as the DLL itself.
 
     Now, you can do things like set and hit breakpoints and inspect variables.
 
