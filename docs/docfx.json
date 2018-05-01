@@ -23,7 +23,7 @@
           "**/*.gif",
           "**/*.svg"
         ],
-        "version": "group-vs",
+        "group": "group-vs",
         "exclude": [
           "**/obj/**",
           "vsdocsdocs/**",
