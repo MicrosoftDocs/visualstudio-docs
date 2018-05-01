@@ -1,8 +1,8 @@
 ---
-title: "View a snapshot using IntelliTrace step-back - Visual Studio  | Microsoft Docs"
+title: "View a snapshot using IntelliTrace step-back"
 ms.description: "Learn how to take snapshots, and view snapshots with IntelliTrace step-back"
 ms.custom: "mvc"
-ms.date: "12/06/2017"
+ms.date: "05/01/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "tutorial"
 ms.assetid: 7c60d929-d993-49dc-9db3-43b30be9912b
@@ -39,7 +39,10 @@ In this tutorial, you will:
 
     ![Configure behavior for snapshots on exceptions](../debugger/media/intellitrace-enable-snapshots-on-exceptions.png)
 
-    When you enable events and snapshots, taking snapshots on exceptions is also enabled by default. You can disable snapshots on exceptions by deselecting **Collect snapshots on exception events**. When this feature is enabled, snapshots are taken for unhandled exceptions only, not for handled exceptions. You can set a maximum number of snapshots on exceptions by selecting a value from the drop-down list. The maximum applies for each time that your app enters break mode (such as hitting a breakpoint).
+    When you enable events and snapshots, taking snapshots on exceptions is also enabled by default. You can disable snapshots on exceptions by deselecting **Collect snapshots on exception events**. When this feature is enabled, snapshots are taken for unhandled exceptions. For handled exceptions, snapshots are taken only if the exception is thrown and if it is not a re-throw of an previously-thrown exception. You can set a maximum number of snapshots on exceptions by selecting a value from the drop-down list. The maximum applies for each time that your app enters break mode (such as when your app hits a breakpoint).
+
+    > [!NOTE]
+    > Snapshots are taken only for exception events that IntelliTrace records. You can specify what events IntelliTrace records by selecting **Tools** > **Options** > **IntelliTrace Events**.
 
 1. In your project, set one or more breakpoints and start debugging (press **F5**), or start debugging by stepping through your code (**F10** or **F11**).
 
