@@ -73,7 +73,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
     </li>
 </ul>
 
-<a name="quickstarts"></a><h2>Experience Visual Studio with 5-minute "Quickstarts"</h2>
+<h2>Experience Visual Studio with 5-minute "Quickstarts"</h2>
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -240,7 +240,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
     </li>
 </ul>
 
-<a name="tutorials"></a><h2>Go deeper with tutorials</h2>
+<h2>Go deeper with tutorials</h2>
 
 <!-- Converting to icon48 format, this gets cleaner in YAML -->
 <div class="ico48Case halfStack">

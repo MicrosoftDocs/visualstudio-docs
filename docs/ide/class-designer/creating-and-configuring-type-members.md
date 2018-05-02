@@ -318,4 +318,4 @@ You cannot edit native C++ code by using the Class Designer or the **Class Detai
 ## See also
 
 - [Viewing types and relationships](viewing-types-and-relationships.md)
-- [Refactoring clases and types](refactoring-classes-and-types.md)
+- [Refactoring classes and types](refactoring-classes-and-types.md)
