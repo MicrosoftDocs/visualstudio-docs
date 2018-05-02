@@ -25,6 +25,7 @@
           "**/*.svg"
         ],
         "group": "group-vs",
+        "src": "docs",
         "exclude": [
           "**/obj/**",
           "vsdocsdocs/**",
