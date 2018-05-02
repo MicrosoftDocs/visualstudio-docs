@@ -1,0 +1,57 @@
+---
+title: "IDebugExceptionEvent2::GetException | Microsoft Docs"
+ms.custom: ""
+ms.date: "2018-06-30"
+ms.prod: "visual-studio-dev14"
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "vs-ide-sdk"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+f1_keywords: 
+  - "IDebugExceptionEvent2::GetException"
+helpviewer_keywords: 
+  - "IDebugExceptionEvent2::GetException"
+ms.assetid: 7c98f41d-322b-4e72-a514-cbd4823eb70d
+caps.latest.revision: 11
+ms.author: "gregvanl"
+manager: "ghogen"
+---
+# IDebugExceptionEvent2::GetException
+[!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
+
+The latest version of this topic can be found at [IDebugExceptionEvent2::GetException](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugexceptionevent2-getexception).  
+  
+Gets a detailed description of the exception that fired this event.  
+  
+## Syntax  
+  
+```cpp#  
+HRESULT GetException(   
+   EXCEPTION_INFO* pExceptionInfo  
+);  
+```  
+  
+```csharp  
+int GetException(   
+   EXCEPTION_INFO[] pExceptionInfo  
+);  
+```  
+  
+#### Parameters  
+ `pExceptionInfo`  
+ [in, out] An [EXCEPTION_INFO](../../../extensibility/debugger/reference/exception-info.md) structure that is filled in with the description of the exception.  
+  
+## Return Value  
+ If successful, returns `S_OK`; otherwise, returns an error code.  
+  
+## Remarks  
+ [C++ only] The caller is responsible for freeing any strings in the [EXCEPTION_INFO](../../../extensibility/debugger/reference/exception-info.md) structure as well as releasing the [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) object in the structure.  
+  
+## See Also  
+ [IDebugExceptionEvent2](../../../extensibility/debugger/reference/idebugexceptionevent2.md)   
+ [EXCEPTION_INFO](../../../extensibility/debugger/reference/exception-info.md)   
+ [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md)   
+ [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)
+
