@@ -63,7 +63,7 @@
     "template": [],
     "xref": ["missingapi.yml", "vs.140.zip", "office15.zip"],
     "dest": "vsdocsdocs",
-    "group": {
+    "groups": {
       "group-vs": {
         "moniker-range": ">= vs-2017"
       },
