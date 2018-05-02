@@ -14,9 +14,37 @@
           "missingapi.yml",
           "vs-2015"
         ]
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/**.yml"
+        ],
+        "group": "group-vs2015",
+        "src": "vs-2015",
+        "exclude": [
+          "**/obj/**",
+          "vsdocsdocs/**",
+          "**/includes/**",
+          "missingapi.yml"
+        ]
       }
         ],
     "resource": [
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.svg"
+        ],
+        "group": "group-vs",
+        "exclude": [
+          "**/obj/**",
+          "vsdocsdocs/**",
+          "**/includes/**"
+        ]
+      },
       {
         "files": [
           "**/*.png",
