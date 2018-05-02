@@ -11,7 +11,8 @@
           "**/obj/**",
           "vsdocsdocs/**",
           "**/includes/**",
-          "missingapi.yml"
+          "missingapi.yml",
+          "vs-2015"
         ]
       }
         ],
