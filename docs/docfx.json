@@ -50,22 +50,7 @@
       "searchScope": ["VS IDE"],
       "uhfHeaderId": "MSDocsHeader-VisualStudio",
       "titleSuffix": "Visual Studio",
-      "monikerRange": ">= vs-2017",
-      "versions": {
-         "vs-2015": 
-         {
-           "src": "docs/vs-2015",
-           "toc_rel": "docs/vs-2015/TOC.md",
-           "breadcrumb_path": "docs/vs-2015/_breadcrumb/toc.json"
-         },
-         ">= vs-2017": 
-         {
-           "src": "docs",
-           "toc_rel": "docs/TOC.md",
-           "breadcrumb_path": "docs/_breadcrumb/toc.json"
-         }
-      }
-
+      "monikerRange": ">= vs-2017"
     },
 
     "fileMetadata": {
