@@ -20,7 +20,7 @@ Opens the specified executable file to be debugged.
 
 ## Syntax
 
-```
+```cmd
 Devenv /debugexe ExecutableFile
 ```
 
@@ -37,7 +37,7 @@ Devenv /debugexe ExecutableFile
 ## Example
  The following example opens the file `MyApplication.exe` for debugging.
 
-```
+```cmd
 Devenv.exe /debugexe MyApplication.exe
 ```
 

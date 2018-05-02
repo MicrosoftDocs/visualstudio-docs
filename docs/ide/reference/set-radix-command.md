@@ -21,7 +21,7 @@ Sets or returns the numeric base used to display integer values.
 
 ## Syntax
 
-```
+```cmd
 Debug.SetRadix [10 | 16 | hex | dec]
 ```
 
@@ -33,7 +33,7 @@ Debug.SetRadix [10 | 16 | hex | dec]
 ## Example
  This example sets the environment to display integer values in hexadecimal format.
 
-```
+```cmd
 >Debug.SetRadix hex
 ```
 

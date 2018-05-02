@@ -24,7 +24,7 @@ Logs all activity to the log file for troubleshooting. This file appears after y
 
 ## Syntax
 
-```
+```cmd
 Devenv /log Path\NameOfLogFile
 ```
 
