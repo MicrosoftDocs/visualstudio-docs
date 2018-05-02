@@ -7,7 +7,6 @@
           "**/**.yml"
         ],
         "group": "group-vs",
-        "src": "~",
         "exclude": [
           "**/obj/**",
           "vsdocsdocs/**",
@@ -24,8 +23,8 @@
           "**/*.gif",
           "**/*.svg"
         ],
-        "group": "group-vs",
-        "src": "~",
+        "group": "group-vs2015",
+        "src": "vs-2015",
         "exclude": [
           "**/obj/**",
           "vsdocsdocs/**",
@@ -82,6 +81,9 @@
     "group": {
       "group-vs": {
         "moniker-range": "vs-2015 || >= vs-2017"
+      },
+      "group-vs2015": {
+        "moniker-range": "vs2015"
       }
     }
   }
