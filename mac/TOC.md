@@ -3,6 +3,7 @@
 # [IDE Tour](ide-tour.md)
 
 # [Installation](installation.md)
+## [Preview Installation](install-preview.md)
 ## [Update](update.md)
 ## [Uninstall](uninstall.md)
 
@@ -51,6 +52,8 @@
 # [Workloads](workloads.md)
 ## [ASP.NET Core](asp-net-core.md)
 ## [Azure](azure-workload.md)
+### [Introduction to Azure Functions](azure-functions.md)
+### [How to: Azure Functions](azure-functions.md)
 ### [Connected Services](connected-services.md)
 ## [Unity Game Development](unity-tools.md)
 ### [Setup](setup-vsmac-tools-unity.md)
