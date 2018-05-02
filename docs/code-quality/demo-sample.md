@@ -60,7 +60,7 @@ This following procedures show you how to create the sample for [Walkthrough: An
 
 3.  In the **Name** box, type **Bug.h** and then click **Add**.
 
-4.  Copy the following code and paste it into the **Bug.cpp** file in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] editor.
+4.  Copy the following code and paste it into the **Bug.h** file in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] editor.
 
     ```cpp
     #include <windows.h>
