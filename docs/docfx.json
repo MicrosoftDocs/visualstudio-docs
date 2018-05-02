@@ -83,7 +83,8 @@
         "moniker-range": "vs-2015 || >= vs-2017"
       },
       "group-vs2015": {
-        "moniker-range": "vs2015"
+        "moniker-range": "vs2015",
+        "dest": "vsdocsdocs-2015"
       }
     }
   }
