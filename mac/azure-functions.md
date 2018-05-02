@@ -11,24 +11,32 @@ ms.assetid: 25CD47A4-5B32-4734-8EF3-E24A02AABF29
 
 # Introduction to Azure Functions
 
-Azure Functions is an event-based serverless compute experience in the cloud to accelerate your development. You can write just the code you need for the problem at hand, without worrying about a whole application or the infrastructure to run it. Functions can make development even more productive, and you can use your development language of choice, such as C#, F#, Node.js, Python or PHP. Pay only for the time your code runs and trust Azure to scale as needed. Azure Functions enables you to develop serverless applications on Microsoft Azure.
-
-Azure functions is a way to create and run snippets of code –– functions –– in the cloud. https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview
+Azure functions is a way to create and run event-driven snippets of code –– functions –– in the cloud, without having to explicitly provision or manage infrastructure. For more information about Azure Functions, see the [Azure Functions documentation](https://docs.microsoft.com/azure/azure-functions/).
 
 ## Requirements
 
-- Azure Function tools are included in Visual Studio for Mac 7.5.
+Azure Function tools are included in **Visual Studio for Mac 7.5**.
 
-To create and deploy functions you also need:
-
-- Azure subscription (available free from [https://azure.com/free](https://azure.com/free))
+To create and deploy functions you also need an Azure subscription, which available free from [https://azure.com/free](https://azure.com/free).
 
 ## Creating your first Azure Functions project
 
 1. In Visual Studio for Mac, select **File > New Solution…** 
-2. From the New Project dialog, select the Azure functions template under **Cloud > General** and click **Next**:
+2. From the New Project dialog, select the Azure Functions template under **Cloud > General** and click **Next**:
     ![New Project dialog showing Azure functions option](media/azure-functions-image1.png)
 3. Enter a **Project Name** and select **Create**.
+
+Visual Studio for Mac creates a .NET Standard project with a default HttpTrigger function included. It also includes NuGet references to a variety of **AzureWebJobs** packages, as well as the **Newtonsoft.Json** package.
+
+![Visual Studio for Mac editor displaying a brand new azure function from template](media/azure-functions-newproj.png)
+
+The new project contains the following files:
+
+* **HttpTrigger.cs** – This class contains boilerplate code for a HTTPFunction. It contains a **FunctionName** attribute with the function name, and a trigger attribute, **HttpTrigger**, that specifies that the function is triggered by a HTTP request. For more information on the function method, refer to the [Azure Functions C# developer reference](https://docs.microsoft.com/azure/azure-functions/functions-dotnet-class-library) article.
+* **host.json** – This file describes the global configuration options for Functions host. For an example file and information on the available settings for this file, see the [host.json reference for Azure Functions](https://docs.microsoft.com/azure/azure-functions/functions-host-json).
+* **local.settings.json** – This file contains all the settings for running functions locally. These settings are used by the Azure Functions Core Tools. For more information, see [Local settings file](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local#local-settings-file) in the Azure Functions Core Tools article.
+
+Now that you've created a new Azure Functions project in Visual Studio for Mac, you can test out the default HTTP-triggered function from your local machine.
 
 <!--
 ## Create an Azure storage account
@@ -53,12 +61,12 @@ With Azure Functions support in Visual Studio for Mac you can test and debug you
 
 1. To test your function locally, press the **Run** button in Visual Studio for Mac:
     ![Start debugging button in visual studio for mac](media/azure-functions-run.png) 
-1. Running the project starts local debugging on the Azure Function and opens a new Terminal window, as illustrated in the following image: 
+2. Running the project starts local debugging on the Azure Function and opens a new Terminal window, as illustrated in the following image: 
 
     ![terminal window showing function output](media/azure-functions-terminal.png) 
 
     Copy the URL from the  output.
-1. Paste the URL for the HTTP request into your browser's address bar. Add the query string `?name=<yourname>` to the end of the URL and execute the request. The following image shows the response in the browser to the local GET request returned by the function:
+3. Paste the URL for the HTTP request into your browser's address bar. Add the query string `?name=<yourname>` to the end of the URL and execute the request. The following image shows the response in the browser to the local GET request returned by the function:
     ![http request in browser](media/azure-functions-httpreq.png)
 
 ## Creating a new function
@@ -70,13 +78,18 @@ Function Templates enable you to quickly create new functions using the most com
     ![dialog to remove file from project](media/azure-functions-remove.png)
 
 2. To add a new function, right-click on the project name and select **Add > Add Function...**:
+
     ![context action for adding new function](media/azure-functions-addnew.png)
+
 3. From the **New Azure Function** dialog, select the function you require:
+
     ![new azure function dialog](media/azure-functions-newfunction.png)
 
-The following Function templates are provided:
+    A list of the Azure Function templates are provided in the following section.
 
-- **HTTP** – Trigger the execution of your code by using an HTTP request. There are explicit templaes for the following HTTP triggers:
+## Available function templates
+
+- **HTTP** – Trigger the execution of your code by using an HTTP request. There are explicit templates for the following HTTP triggers:
     - Http GET CRUD
     - Http POST CRUD
     - Http Trigger with parameters
