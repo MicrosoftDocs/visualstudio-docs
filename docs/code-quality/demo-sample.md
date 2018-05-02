@@ -58,7 +58,7 @@ This following procedures show you how to create the sample for [Walkthrough: An
 
 2.  In the **Add New Item** dialog box, click **Code**, and then click **Header File (.h)**.
 
-3.  In the **Name** box, type **Bug.cpp** and then click **Add**.
+3.  In the **Name** box, type **Bug.h** and then click **Add**.
 
 4.  Copy the following code and paste it into the **Bug.cpp** file in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] editor.
 
