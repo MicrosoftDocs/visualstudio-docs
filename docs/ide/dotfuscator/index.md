@@ -25,9 +25,9 @@ manager: douge
 Use it to harden, protect, and prune desktop, mobile, server, and embedded applications to help secure trade secrets and other intellectual property (IP), reduce piracy and counterfeiting, and protect against tampering and unauthorized debugging.
 Dotfuscator works on compiled assemblies without the need for additional programming or even access to source code.
 
-![](media/header.svg)
+![PreEmptive Protection - Dotfuscator](media/header.svg)
 
-## Why Protection Matters
+## Why protection matters
 
 It's important to **protect your intellectual property** (IP).
 Your application's code contains design and implementation details, which can be considered IP.
@@ -64,7 +64,7 @@ Even more application protection measures are available to registered users of D
 and to users of *PreEmptive Protection - Dotfuscator* Professional Edition, the world's leading [.NET Obfuscator][net-obfuscator].
 For information about enhancing Dotfuscator, see the [Upgrades page][upgrades].
 
-## Getting Started
+## Getting started
 
 To begin using Dotfuscator CE from Visual Studio, type `dotfuscator` into the **Quick Launch** (Ctrl+Q) search bar.
 
@@ -73,7 +73,7 @@ To begin using Dotfuscator CE from Visual Studio, type `dotfuscator` into the **
 
 You can also get the **latest version** of Dotfuscator CE from [the Dotfuscator Downloads page on preemptive.com][download].
 
-## Full Documentation
+## Full documentation
 
 This page and its subpages provide a high-level overview of Dotfuscator CE's features, as well as [instructions for installing the tool][install].
 
