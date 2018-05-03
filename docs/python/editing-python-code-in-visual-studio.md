@@ -78,9 +78,9 @@ Typing @ starts a decorator and shows potential decorators. Many of these items 
 
 *Visual Studio 2017 version 15.7 and later.*
 
-"Type hints" in Python ([PEP 484](https://www.python.org/dev/peps/pep-0484/) (python.org) is a annotation syntax for functions and classes that allow you to indicate the types of arguments, return values, and class attributes. IntelliSense displays type hints when you hover over functions calls, arguments, and variables that have those annotations.
+"Type hints" in Python 3.5+ ([PEP 484](https://www.python.org/dev/peps/pep-0484/) (python.org) is an annotation syntax for functions and classes that indicate the types of arguments, return values, and class attributes. IntelliSense displays type hints when you hover over functions calls, arguments, and variables that have those annotations.
 
-In the example below, the `Vector` class is declared as `List[float]`, and the `scale` function contains type hints for both its arguments and return value. Hovering over a call to that function shows the tyep hints:
+In the example below, the `Vector` class is declared as `List[float]`, and the `scale` function contains type hints for both its arguments and return value. Hovering over a call to that function shows the type hints:
 
 ![Hovering over a function call to reveal type hints](media/code-editing-type-hints1.png)
 
@@ -88,26 +88,31 @@ In the following example, you can see how the annotated attributes of the `Emplo
 
 ![IntelliSense completion showing type hints](media/code-editing-type-hints2.png)
 
-It's also helpful to validate type hints throughout your project, because errors won't normally appear until run time. For this purpose, Visual Studio integrates the industry standard MyPy tool through the context menu command **Python > Run MyPy** in **Solution Explorer**:
+It's also helpful to validate type hints throughout your project, because errors won't normally appear until run time. For this purpose, Visual Studio integrates the industry standard MyPy tool through the context menu command **Python > Run Mypy** in **Solution Explorer**:
 
 ![Run MyPy context menu command in Solution Explorer](media/code-editing-type-hints-run-mypy.png)
 
-Running the command prompts you to install MyPy, if needed, the validates type hints in every Python file in the project. Errors appear in the Visual Studio **Error List** window. Selecting an item in the window navigates to the appropriate line in your code.
+Running the command prompts you to install the mypy package, if needed. Visual Studio then runs mypy to validate type hints in every Python file in the project. Errors appear in the Visual Studio **Error List** window. Selecting an item in the window navigates to the appropriate line in your code.
 
 As a simple example, the following function definition contains a type hint to indicate that the `input` argument is type `str`, whereas the call to that function attempts to pass an integer:
 
 ```python
-def commasToColons(input: str):
+def commas_to_colons(input: str):
     items = input.split(',')
     items = [x.strip() for x in items]
     return ':'.join(items)
 
-commasToColons(1)
+commas_to_colons(1)
 ```
 
-Using the **Run MyPy** command on this code generates the following error:
+Using the **Run Mypy** command on this code generates the following error:
 
-![Example result of MyPy validating type hints](media/code-editing-type-hints-validation-error.png)
+![Example result of mypy validating type hints](media/code-editing-type-hints-validation-error.png)
+
+> [!Tip]
+> For versions of Python before 3.5, Visual Studio also displays type hints that you supply through *stub files* (`.pyi`). You can use stub files whenever you don't want to include type hints directly in your code, or when you want to create type hints for a library that doesn't use them directly. For more information, see [Create Stubs for Python Modules](https://github.com/python/mypy/wiki/Creating-Stubs-For-Python-Modules) in the mypy project wiki.
+>
+> At present, Visual Studio doesn't support type hints in comments.
 
 ### Signature help
 

@@ -46,7 +46,23 @@ In Visual Studio, you can create a virtual environment for a specific project, w
 
 A conda environment is one created using the `conda` tool, or with integrated conda management in Visual Studio 2017 version 15.7 and higher. (Requires Anaconda or Miniconda; Anaconda is available through the Visual Studio installer, see [Installation - Visual Studio 2017](installing-python-support-in-visual-studio.md#visual-studio-2017).)
 
-Conda environments are typically stored in the `envs` folder within an Anaconda installation, and therefore act similarly to global environments. For example, installing a new package into a conda environment makes that package available to all projects using that environment.
+> [!Note]
+> For best results with conda environments, use conda 4.4.8 or later (conda versions are different from Anaconda versions). Installing Anaconda 5.1 from the Visual Studio 2017 installer
+
+To see the conda version, where conda environments are stored, and other information, run `conda info` at an Anaconda command prompt (that is, a command prompt where Anaconda is in the path):
+
+```bash
+conda info
+```
+You conda environment folders appear as follows:
+
+```output
+       envs directories : c:\anaconda3\envs
+                          C:\Users\user\AppData\Local\conda\conda\envs
+                          C:\Users\user\.conda\envs
+```
+
+Because conda environments are not stored with a project, they act similarly to global environments. For example, installing a new package into a conda environment makes that package available to all projects using that environment.
 
 For Visual Studio 2017 version 15.6 and earlier, you can use conda environments by pointing to them manually as described under [Manually identify an existing environment](#manually-identify-an-existing-environment).
 
@@ -123,7 +139,7 @@ Use the following steps to identify an environment that's installed in a non-sta
 
 *Visual Studio 2017 version 15.7 and later.*
 
-1. Select **+ Create conda environment** in the **Python Environments** window, which opens the **Configure** tab:
+1. Select **+ Create conda environment** in the **Python Environments** window, which opens a **Create new conda environment** tab:
 
     ![Create tab for a new conda environment](media/environments-conda-1.png)
 
