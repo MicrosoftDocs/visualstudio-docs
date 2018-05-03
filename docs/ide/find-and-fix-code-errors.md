@@ -14,7 +14,7 @@ ms.workload:
 ---
 # Make code work in Visual Studio
 
-Visual Studio provides a powerful integrated set of project build and debugging tools. In this topic, find out how Visual Studio can help you find problems in your code using build output, code analysis, debugging tools, and unit tests.
+Visual Studio provides a powerful integrated set of project build and debugging tools. In this article, find out how Visual Studio can help you find problems in your code using build output, code analysis, debugging tools, and unit tests.
 
 You've figured out the editor and created some code. Now, you want to make sure the code works properly. In Visual Studio, as with most IDEs, there are two phases to making code work: building the code to catch and resolve project and compiler errors, and running the code to find run-time and dynamic errors.
 
@@ -26,7 +26,7 @@ The easiest way to build your project is to press **F7**, but you can also start
 
 ![Visual Studio build project menu selection](../ide/media/vs_ide_gs_debug_build_menu_item.png)
 
-You can observe the build process in the **Output** window at the bottom of the Visual Studio UI. Errors, warnings, and build operations are displayed here. If you have errors (or if you have a warnings above a configured level), your build fails. You can click on the errors and warnings to go to the line where they occurred. Rebuild your project by either pressing **F7** again (to recompile only the files with errors) or **Ctrl**+**Alt**+**F7** (for a clean and complete rebuild).
+You can observe the build process in the **Output** window at the bottom of the Visual Studio UI. Errors, warnings, and build operations are displayed here. If you have errors (or if you have warnings above a configured level), your build fails. You can click on the errors and warnings to go to the line where they occurred. Rebuild your project by either pressing **F7** again (to recompile only the files with errors) or **Ctrl**+**Alt**+**F7** (for a clean and complete rebuild).
 
 There are two tabbed windows in the results window below the editor: the **Output** window, which contains the raw compiler output (including error messages); and the **Error List** window, which provides a sortable and filterable list of all errors and warnings.
 
@@ -40,7 +40,7 @@ Unless you've made no modifications to code you've previously and successfully c
 
 ![Visual Studio Output and Error List](../ide/media/vs_ide_gs_debug_bad_build_error_list.png)
 
-Click on the error line in the **Error List** window to jump to the line the error occurs in. (Or turn on line numbers by clicking in the **Quick Launch** bar in the upper-right, typing "line numbers" into it, and pressing **Enter**. This is the fastest way to get to the **Options** dialog where you can turn on line numbers. Learn to use the **Quick Launch** bar and save yourself a lot of UI clicks!)
+Click on the error line in the **Error List** window to jump to the line the error occurs in. (Or turn on line numbers by clicking in the **Quick Launch** bar in the upper-right, typing "line numbers" into it, and pressing **Enter**. This is the fastest way to get to the **Options** dialog where you can turn on line numbers. Learn to use the **Quick Launch** bar and save yourself many UI clicks!)
 
 ![Visual Studio editor with line numbers](../ide/media/vs_ide_gs_debug_line_numbers.png)
 
@@ -104,7 +104,7 @@ Now that you've successfully built your code and performed a little clean up, ru
 
 ![Visual Studio Autos and Call Stack Windows](../ide/media/vs_ide_gs_debug_autos_and_call_stack.png)
 
-Stop your app by pressing **Shift**+**F5** or by clicking the **Stop** button. Or, you can simply close the app's main window (or command line dialog).
+Stop your app by pressing **Shift**+**F5** or by clicking the **Stop** button. Or, you can simply close the app's main window (or command-line dialog).
 
 If your code ran perfectly and exactly as expected, congratulations! However, if it hung, or crashed, or gave you some strange results, you'll need to find the source of those problems and fix the bugs.
 
@@ -146,7 +146,7 @@ Additionally, Visual Studio displays the **Diagnostic Tools** window, where you 
 
 ## Run unit tests
 
-Unit tests are your first line of defense against code bugs because, when done correctly, they test a single "unit" of code, typically a single function, and are usually much easier to debug than debugging your full program. Visual Studio installs the Microsoft unit testing frameworks for both managed and native code. Use a unit testing framework to create unit tests, run them, and report the results of these tests. Rerun unit tests when you make changes, to test that your code is still working correctly. With Visual Studio Enterprise edition, you can run tests automatically after every build.
+Unit tests are your first line of defense against code bugs because, when done correctly, they test a single "unit" of code, typically a single function, and are easier to debug than your full program. Visual Studio installs the Microsoft unit testing frameworks for both managed and native code. Use a unit testing framework to create unit tests, run them, and report the results of these tests. Rerun unit tests when you make changes, to test that your code is still working correctly. With Visual Studio Enterprise edition, you can run tests automatically after every build.
 
 To get started, read [Generate unit tests for your code with IntelliTest](../test/generate-unit-tests-for-your-code-with-intellitest.md).
 
