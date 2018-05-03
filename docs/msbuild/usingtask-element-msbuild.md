@@ -63,10 +63,10 @@ Maps the task that is referenced in a [Task](../msbuild/task-element-msbuild.md)
 |[Project](../msbuild/project-element-msbuild.md)|Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file.|  
 
 ## Remarks  
- Environment variables, command-line properties, and project-level properties can be referenced anywhere in the `UsingTask` element if it appears in the project file either explicitly or through an imported project file. For more information, see [Tasks](../msbuild/msbuild-tasks.md).  
+ Environment variables, command-line properties, project-level properties, and project-level items can be referenced in the `UsingTask` elements included in the project file either directly or through an imported project file. For more information, see [Tasks](../msbuild/msbuild-tasks.md).  
 
 > [!NOTE]
->  Project-level properties have no meaning if the `UsingTask` element is coming from one of the .tasks files that are globally registered with the MSBuild engine. Project-level properties are not global to MSBuild.  
+>  Project-level properties and items have no meaning if the `UsingTask` element is coming from one of the .tasks files that are globally registered with the MSBuild engine. Project-level values are not global to MSBuild.  
 
  In MSBuild 4.0, using tasks can be loaded from .overridetask files.  
 
