@@ -44,6 +44,7 @@
 ### [Create and Edit configurations](create-and-edit-configurations.md)
 
 # [Version Control](version-control.md)
+## [TF Version Control](tf-version-control.md)
 ## [Setting Up a Git Repository](set-up-git-repository.md)
 ## [Working with Git](working-with-git.md)
 ## [Setting Up a Subversion Repository](set-up-subversion-repository.md)
@@ -53,7 +54,7 @@
 ## [ASP.NET Core](asp-net-core.md)
 ## [Azure](azure-workload.md)
 ### [Introduction to Azure Functions](azure-functions.md)
-### [How to: Azure Functions](azure-functions.md)
+### [How to: Azure Functions](azure-functions-lab.md)
 ### [Connected Services](connected-services.md)
 ## [Unity Game Development](unity-tools.md)
 ### [Setup](setup-vsmac-tools-unity.md)
