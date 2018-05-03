@@ -34,7 +34,7 @@ Here's a high-level recap of the changes we've made since our previous version, 
 * **AI development**. With Visual Studio Tools for AI (**new in 15.5**), you can use the productivity features of Visual Studio to accelerate AI innovation. Build, test, and deploy Deep Learning / AI solutions that seamlessly integrate with Azure Machine Learning for robust experimentation capabilities, such as submitting data preparation and model training jobs transparently to different compute targets. And, Visual Studio Tools for AI provides support for custom metrics and run history tracking, which enable data science reproducibility and auditing.
 
 > [!NOTE]
-> For a complete list of new features and functionality in Visual Studio 2017, see the [current Release Notes](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes). And for a peek at future feature offerings, see the [Preview Release Notes](https://www.visualstudio.com/news/releasenotes/vs2017-preview-relnotes).
+> For a complete list of new features and functionality in Visual Studio 2017, see the [Current release notes](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes). And for a peek at future feature offerings, see the [Preview release notes](https://www.visualstudio.com/news/releasenotes/vs2017-preview-relnotes).
 
 Here's more detailed information about some of the most notable improvements and new features in Visual Studio 2017.
 
@@ -64,20 +64,20 @@ For more information, see the [Accessibility improvements in Visual Studio 2017 
 ### Sign in across multiple accounts  
 We've introduced a new identity service in Visual Studio that allows you to share user accounts across Team Explorer, Azure Tools, Microsoft Store publishing, and more.
 
-You can stay signed in longer, too. Visual Studio won't ask you to sign in again every 12 hours. To learn more, see the [Fewer Visual Studio Sign-in Prompts](https://blogs.msdn.microsoft.com/visualstudio/2016/08/15/fewer-visual-studio-sign-in-prompts/) blog post.
+You can stay signed in longer, too. Visual Studio won't ask you to sign in again every 12 hours. To learn more, see the [Fewer Visual Studio sign-in prompts](https://blogs.msdn.microsoft.com/visualstudio/2016/08/15/fewer-visual-studio-sign-in-prompts/) blog post.
 
 ### Start Visual Studio faster
 The new Visual Studio Performance Center can help you optimize your IDE start-up time. The Performance Center lists all the extensions and tool windows that might slow down the IDE startup. You can use it to improve startup performance by determining when extensions start, or whether tool windows are open at startup.
 
 ### Faster on-demand loading of extensions
-Visual Studio is moving its extensions (and working with third-party extensions too) so that they load on-demand, rather than at IDE startup. Curious about which extensions impact startup, solution load, and typing performance? You can see this information in Help -> Manage Visual Studio Performance.
+Visual Studio is moving its extensions (and working with third-party extensions too) so that they load on-demand, rather than at IDE startup. Curious about which extensions impact startup, solution load, and typing performance? You can see this information in **Help** > **Manage Visual Studio Performance**.
 
   ![Options dialog box in Visual Studio 2017](../ide/media/vs2017ide-manage-vs-perf.png "Visual Studio Help dialog box - Performance Management")
 
 #### Manage your extensions with Roaming Extensions Manager
 It's easier to set up each development environment with your favorite extensions when you sign in to Visual Studio. The new Roaming Extension Manager keeps track of all your favorite extensions by creating a synchronized list in the cloud.  
 
-To see a list of your extensions in Visual Studio, click  Tools > Extensions & Updates, and then click the Roaming Extension Manager.
+To see a list of your extensions in Visual Studio, click  **Tools** > **Extensions & Updates**, and then click the **Roaming Extension Manager**.
 
 ![Visual Studio 2017 - Extensions and Updates dialog](../ide/media/vs2017ide-extensions-and-updates.png "Visual Studio 2017 - Tools > Extensions and Updates dialog")
 
@@ -102,13 +102,13 @@ In Visual Studio Enterprise 2017, live unit testing gives you live unit test res
 
 For more information, see the [Introducing Live Unit Testing](../test/live-unit-testing-intro.md). For a list of new features added in each release of Visual Studio Enterprise 2017, see [What's new in Live Unit Testing](../test/live-unit-testing-whats-new.md).
 
-#### Setting up a CI/CD pipeline
+#### Set up a CI/CD pipeline
 #### Automated testing
 Automated testing is a key part of any DevOps pipeline. It allows you to consistently and reliably test and release your solution on much shorter cycles. CI/CD (Continuous Integration and Continuous Delivery) flows can help make the process more efficient.
 
 For more information about automated tests, see the [CI/CD pipeline for automated tests in DevOps](https://blogs.msdn.microsoft.com/visualstudioalmrangers/2017/04/20/set-up-a-cicd-pipeline-to-run-automated-tests-efficiently/) blog post.
 
-And, for more information about what's new in the [Continuous Delivery Tools for Visual Studio](https://marketplace.visualstudio.com/items?itemName=VSIDEDevOpsMSFT.ContinuousDeliveryToolsforVisualStudio) DevLabs extension, see the [Committing with Confidence: Commit Time Code Quality](https://blogs.msdn.microsoft.com/visualstudio/2017/08/21/committing-with-confidence-commit-time-code-quality-information-updated/) blog post.
+And, for more information about what's new in the [Continuous delivery tools for Visual Studio](https://marketplace.visualstudio.com/items?itemName=VSIDEDevOpsMSFT.ContinuousDeliveryToolsforVisualStudio) DevLabs extension, see the [Commit with confidence: Commit time code quality](https://blogs.msdn.microsoft.com/visualstudio/2017/08/21/committing-with-confidence-commit-time-code-quality-information-updated/) blog post.
 
 ### Visual Studio IDE enhancements
 #### Use new refactorings
@@ -133,15 +133,15 @@ When you are working with a project in Visual Studio, you can set up and quickly
 #### Experience improved navigation controls
 We've refreshed the navigation experience to help you get from A to B with greater confidence and fewer distractions.
 
-* **New in 15.4**: **Go To Definition (Ctrl+click or F12)** &ndash; Mouse users have an easier way to navigate to the definition of a member by pressing **Ctrl** and then clicking the member. Pressing **Ctrl** and hovering over a code symbol will underline it and turn it into a link. See [Go To Definition and Peek Definition](../ide/go-to-and-peek-definition.md) for more information.  
+* **New in 15.4**: **Go To Definition** (**Ctrl**+**click** or **F12**) &ndash; Mouse users have an easier way to navigate to the definition of a member by pressing **Ctrl** and then clicking the member. Pressing **Ctrl** and hovering over a code symbol will underline it and turn it into a link. See [Go To Definition and Peek Definition](../ide/go-to-and-peek-definition.md) for more information.  
 
-* **Go To Implementation (Ctrl+F12)** &ndash; Navigate from any base type or member to its various implementations.
+* **Go To Implementation** (**Ctrl**+**F12**) &ndash; Navigate from any base type or member to its various implementations.
 
-* **Go To All (Ctrl+T or Ctrl+,)** &ndash; Navigate directly to any file/type/member/symbol declaration. You can filter your result list or use the query syntax (for example, "f searchTerm" for files, "t searchTerm" for types, etc.).
+* **Go To All** (**Ctrl**+**T** or **Ctrl**+**,**) &ndash; Navigate directly to any file/type/member/symbol declaration. You can filter your result list or use the query syntax (for example, "f searchTerm" for files, "t searchTerm" for types, etc.).
 
  ![Improved Go To All](../ide/media/vs2017ide-navigation-go-to.png "Example of the improved Go To All feature")
 
-* **Find All References (Shift+F12)** &ndash; With syntax colorization, you can group Find All Reference results by a combination of project, definition, and path. You can also "lock" results so that you can continue to find other references without losing your original results.
+* **Find All References** (**Shift**+**F12**) &ndash; With syntax colorization, you can group Find All Reference results by a combination of project, definition, and path. You can also "lock" results so that you can continue to find other references without losing your original results.
 
  ![New Find All References tool](../ide/media/vs2017ide-find-all-references.png "Example of the new Find All References tool")
 
@@ -156,9 +156,9 @@ You'll see several improvements in Visual Studio, such as distributing C++ Core 
 
 As well, we've fixed over 250 bugs and reported issues in the compiler and tools, many submitted by customers through [Microsoft Connect](https://connect.microsoft.com/VisualStudio "Microsoft Connect").
 
-For complete details, see the [What's New for Visual C++ in Visual 2017](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio) page.  
+For complete details, see the [What's new for Visual C++ in Visual 2017](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio) page.  
 
-### Debugging and Diagnostics
+### Debugging and diagnostics
 #### Run to Click:
 Now, you can more easily skip ahead during debugging without setting a breakpoint to stop on the line you want. When you are stopped in the debugger, just click the icon that appears next to the line of code. Your code will run and stop on that line the next time it is hit in your code path.
 
@@ -169,12 +169,12 @@ The new Exception Helper helps you view your exception information at-a-glance. 
 
 ![The New Exception Helper dialog in Visual Studio](../ide/media/vs2017ide-ExceptionHelper.png "The New Exception Helper dialog")
 
-For more information, see the [Using the New Exception Helper in Visual Studio](https://blogs.msdn.microsoft.com/visualstudioalm/2016/03/31/using-the-new-exception-helper-in-visual-studio-15-preview/) blog post.
+For more information, see the [Use the new Exception Helper in Visual Studio](https://blogs.msdn.microsoft.com/visualstudioalm/2016/03/31/using-the-new-exception-helper-in-visual-studio-15-preview/) blog post.
 
 #### Snapshots and IntelliTrace step-back:
 **New in 15.5**: IntelliTrace step-back automatically takes a snapshot of your application at every breakpoint and debugger step event. The recorded snapshots enable you to go back to previous breakpoints or steps and view the state of the application as it was in the past. IntelliTrace step-back can save you time when you want to see the previous application state but don't want to restart debugging or recreate the desired app state.
 
-You can navigate and view snapshots by using the **Step Backward** and **Step Forward** buttons in the Debug toolbar. These buttons navigate the events that appear in the **Events** tab in the **Diagnostic Tools** window. Stepping backward or forward to an event automatically activates historical debugging on the selected event.
+You can navigate and view snapshots by using the **Step Backward** and **Step Forward** buttons in the **Debug** toolbar. These buttons navigate the events that appear in the **Events** tab in the **Diagnostic Tools** window. Stepping backward or forward to an event automatically activates historical debugging on the selected event.
 
 ![The New Exception Helper dialog in Visual Studio](../debugger/media/intellitrace-step-back-icons-description.png  "Step Backward and Forward buttons")
 
@@ -189,10 +189,10 @@ Containers provide you with increased app density and lower deployment cost alon
 * By default, Visual Studio will automatically pull, build, and run the necessary container images in the background when you open a project that has Docker support. You can disable this via the **Automatically start containers in background** setting in Visual Studio.
 
 ## Cloud app development with Azure
-### Azure Functions Tools
+### Azure Functions tools
 As part of the "Azure development" workload, we've included tools to help you develop Azure functions by using pre-compiled C# class libraries. Now you can build, run, and debug on your local development machine and then publish directly to Azure from Visual Studio.
 
-For more information, see the [Azure Functions Tools for Visual Studio](https://docs.microsoft.com/azure/azure-functions/functions-develop-vs) page.
+For more information, see the [Azure Functions tools for Visual Studio](https://docs.microsoft.com/azure/azure-functions/functions-develop-vs) page.
 
 ### Debug live ASP.NET apps using snappoints and logpoints in live Azure applications
 **New in 15.5**: The Snapshot Debugger takes a snapshot of your in-production apps when code that you are interested in executes. To instruct the debugger to take a snapshot, you set snappoints and logpoints in your code. The debugger lets you see exactly what went wrong, without impacting traffic of your production application. The Snapshot Debugger can help you dramatically reduce the time it takes to resolve issues that occur in production environments.
@@ -229,12 +229,12 @@ As part of the "Mobile development with .NET" workload, developers familiar with
 For more information, see the [Visual Studio and Xamarin](../cross-platform/visual-studio-and-xamarin.md) page.
 
 ### Entitlements editor
-**New in 15.3**: For your iOS development needs, we've added a stand-alone Entitlements editor. It includes a user-friendly UI that can be easily browsed. To launch it, double-click your entitlements.plist file.
+**New in 15.3**: For your iOS development needs, we've added a stand-alone Entitlements editor. It includes a user-friendly UI that can be easily browsed. To launch it, double-click your *entitlements.plist* file.
 
 ![Entitlement editor for Xamarin](../ide/media/xamarin-entitlements-editor.png "Entitlement editor for Xamarin")
 
 ### Visual Studio Tools for Xamarin
-**New in 15.4**: Xamarin Live enables developers to continuously deploy, test, and debug their apps, directly on iOS and Android devices. After downloading the Xamarin Live Player&mdash;available in the App Store or on Google Play&mdash;you can pair your device with Visual Studio and revolutionize the way you build mobile apps. This functionality is now included in Visual Studio and can be enabled by going to Tools > Options > Xamarin > Other > Enable Xamarin Live Player.
+**New in 15.4**: Xamarin Live enables developers to continuously deploy, test, and debug their apps, directly on iOS and Android devices. After downloading the Xamarin Live Player&mdash;available in the App Store or on Google Play&mdash;you can pair your device with Visual Studio and revolutionize the way you build mobile apps. This functionality is now included in Visual Studio and can be enabled by going to **Tools** > **Options** > **Xamarin** > **Other** > **Enable Xamarin Live Player**.
 
 ![Animation of the Xamarin Live Player pair, deployment, and live edit modes](../ide/media/xamarinliveplayer.gif)
 
@@ -243,7 +243,7 @@ For more information, see the [Visual Studio and Xamarin](../cross-platform/visu
 
   ![Visual Studio App Center test environment](../ide/media/app-center-test-env.png)
 
-For more information, see the [Introducing App Center: Build, Test, Distribute and Monitor Apps in the Cloud](https://blogs.msdn.microsoft.com/vsappcenter/introducing-visual-studio-app-center/) blog post.
+For more information, see the [Introducing App Center: Build, test, distribute and monitor apps in the cloud](https://blogs.msdn.microsoft.com/vsappcenter/introducing-visual-studio-app-center/) blog post.
 
 ## Cross-platform development
 ### Redgate Data Tools
@@ -267,7 +267,7 @@ And, it now includes Docker support.
 
 **New in 15.3**: Visual Studio 2017 version 15.3 supports .NET Core 2.0 development. Using .NET Core 2.0 requires downloading and installing the .NET Core 2.0 SDK separately.  
 
-For more information, see the [.NET Core Guide](/dotnet/core/index) page.
+For more information, see the [.NET Core guide](/dotnet/core/index) page.
 
 ## Games development
 ### Visual Studio Tools for Unity
@@ -287,17 +287,17 @@ For more information, see the [Visual Studio Tools for AI](../ai/about-ai-tools.
 ## Talk to us  
  Why send feedback to the Visual Studio team? Because we take customer feedback seriously. It drives much of what we do.  
 
-If you want to make a suggestion about how we can improve Visual Studio, or report a problem, please see the [Talk to Us](../ide/talk-to-us.md) page.  
+If you want to make a suggestion about how we can improve Visual Studio, or report a problem, please see the [Talk to us](../ide/talk-to-us.md) page.  
 
 ### Report a problem  
- Sometimes, a message isn't enough to convey the full impact of a problem you've encountered. If you experience a hang, crash, or other performance issue, you can easily share repro steps and supporting files (such as screenshots, and trace and heap dump files) with us by using the **Report a Problem** tool. For more information about how to use this tool, see the [How to Report a Problem](how-to-report-a-problem-with-visual-studio-2017.md) page.  
+ Sometimes, a message isn't enough to convey the full impact of a problem you've encountered. If you experience a hang, crash, or other performance issue, you can easily share repro steps and supporting files (such as screenshots, and trace and heap dump files) with us by using the **Report a Problem** tool. For more information about how to use this tool, see the [How to report a problem](how-to-report-a-problem-with-visual-studio-2017.md) page.  
 
 ### Track your issue in Connect  
- If want to track the status of your Visual Studio feedback, go to [Connect](http://connect.microsoft.com/) and report the bug there. After you report it, you can return to Connect to track its status.  
+ If want to track the status of your Visual Studio feedback, go to [Connect](http://connect.microsoft.com/) and report the bug there. After you report it, you can return to **Connect** to track its status.  
 
 ## See also
-* [Visual Studio 2017 Release Notes](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes)
-* [What's New in Visual C++](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio)
-* [What's New in C#](/dotnet/csharp/whats-new)  
-* [What's New for Team Foundation Server](https://www.visualstudio.com/docs/whats-new)
-* [What's New in Visual Studio for Mac](https://www.visualstudio.com/vs/visual-studio-mac/)
+* [Visual Studio 2017 release notes](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes)
+* [What's new in Visual C++](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio)
+* [What's new in C#](/dotnet/csharp/whats-new)  
+* [What's new for Team Foundation Server](https://www.visualstudio.com/docs/whats-new)
+* [What's new in Visual Studio for Mac](https://www.visualstudio.com/vs/visual-studio-mac/)

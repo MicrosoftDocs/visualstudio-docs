@@ -16,7 +16,7 @@ searchscope: VS Subscription
 Sometimes orders are changed after subscribers have been added, which can result in having more assigned subscriptions than licenses owned by your company. When this happens, the Subscribers tab shows an alert and provides you with further information. 
 
 > [!NOTE] 
-> Overclaimed scenarios are not allowed in Open License programs.
+> Overclaimed scenarios are not allowed in Open License programs.  Also, other programs may display this information in the portal differently. 
 
  ![Notice of Over-claimed Subscriptions](_img\over-claimed\over-claimed-alert.png)
 
