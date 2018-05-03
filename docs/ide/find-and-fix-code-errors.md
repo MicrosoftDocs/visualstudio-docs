@@ -32,13 +32,13 @@ There are two tabbed windows in the results window below the editor: the **Outpu
 
 When build succeeds, you see results like this in the **Output** window:
 
-![Visual Studio successful build output](../ide/media/vs_ide_gs_debug_success_build.PNG)
+![Visual Studio successful build output](../ide/media/vs_ide_gs_debug_success_build.png)
 
 ## Review the Error List
 
 Unless you've made no modifications to code you've previously and successfully compiled, you probably have an error. If you're new to coding, you probably have lots of them. Errors are sometimes obvious, such as a simple syntax error or incorrect variable name, and sometimes they are difficult to understand, with only a cryptic code to guide you. For a cleaner view of the issues, navigate to the bottom of the build **Output** window, and click the **Error List** tab. This takes you to a more organized view of the errors and warnings for your project, and gives you some extra options as well.
 
-![Visual Studio Output and Error List](../ide/media/vs_ide_gs_debug_bad_build_error_list.PNG)
+![Visual Studio Output and Error List](../ide/media/vs_ide_gs_debug_bad_build_error_list.png)
 
 Click on the error line in the **Error List** window to jump to the line the error occurs in. (Or turn on line numbers by clicking in the **Quick Launch** bar in the upper-right, typing "line numbers" into it, and pressing **Enter**. This is the fastest way to get to the **Options** dialog where you can turn on line numbers. Learn to use the **Quick Launch** bar and save yourself a lot of UI clicks!)
 
@@ -54,7 +54,7 @@ The error is identified by a red "squiggle" underscore. Hover over it for additi
 
 Walk through the error list and address all the errors in your code.
 
-![Visual Studio Debug errors window](../ide/media/vs_ide_gs_debug_error_list.PNG)
+![Visual Studio Debug errors window](../ide/media/vs_ide_gs_debug_error_list.png)
 
 ### Review errors in detail
 
@@ -82,7 +82,7 @@ Press **Alt**+**F11** (or select **Analyze** > **Run Code Analysis on Solution**
 
 Any new or updated warnings appear in the **Error List** tab at the bottom of the IDE. Click on the warnings to jump to them in code.
 
-![Visual Studio Error List with Warnings](../ide/media/cpp-code-analysis-warning.md)
+![Visual Studio Error List with Warnings](../ide/media/cpp-code-analysis-warning.png)
 
 ## Use light bulbs to fix or refactor code
 
@@ -92,11 +92,11 @@ Any new or updated warnings appear in the **Error List** tab at the bottom of th
 
 You'll see a list of possible fixes or refactorings you can apply to that line of code.
 
-![Visual Studio light bulb preview](../ide/media/vs_ide_gs_debug_light_bulb_preview_changes.PNG)
+![Visual Studio light bulb preview](../ide/media/vs_ide_gs_debug_light_bulb_preview_changes.png)
 
 Light bulbs can be used wherever code analyzers determine there's an opportunity to fix, refactor, or improve your code. Click on any line of code, right-click to open the context menu, and select **Quick Actions** (or, again, if you prefer efficiency, press **Ctrl**+**.**). If refactoring or improvement options are available, they are displayed. Otherwise, the message **No quick options available here** displays in the lower-left corner of the IDE.
 
-![Visual Studio light bulb 'no option' text](../ide/media/vs_ide_gs_debug_light_bulb_no_options.PNG)
+![Visual Studio light bulb 'no option' text](../ide/media/vs_ide_gs_debug_light_bulb_no_options.png)
 
 With experience, you can quickly use the arrow keys and **Ctrl**+**.** to check for quick options refactoring opportunities and clean up your code!
 
@@ -106,7 +106,7 @@ For more information on light bulbs, read [Quick Actions](../ide/quick-actions.m
 
 Now that you've successfully built your code and performed a little clean up, run it by pressing **F5** or selecting **Debug** > **Start Debugging**. This starts your app in a debug environment so you can observe its behavior in detail. The Visual Studio IDE changes while your app is running: the **Output** window is replaced by two new ones (in the default window configuration), the **Autos/Locals/Watch** tabbed window and the **Call Stack/Breakpoints/Exception Settings/Output** tabbed window. These windows have multiple tabs that allow you to inspect and evaluate your app's variables, threads, call stacks, and various other behaviors as it runs.
 
-![Visual Studio Autos and Call Stack Windows](../ide/media/vs_ide_gs_debug_autos_and_call_stack.PNG)
+![Visual Studio Autos and Call Stack Windows](../ide/media/vs_ide_gs_debug_autos_and_call_stack.png)
 
 Stop your app by pressing **Shift**+**F5** or by clicking the **Stop** button. Or, you can simply close the app's main window (or command line dialog).
 
@@ -136,13 +136,13 @@ For more information about using breakpoints, read [Using breakpoints](../debugg
 
 When your running code hits a breakpoint and pauses, the line of code marked in yellow (the current statement) has not executed yet. At this point, you may want to execute the current statement and then inspect the changed values. You can use several *step* commands to execute code in the debugger. If the marked code is a method call, you can step into it by pressing **F11**. You can also *step over* the line of code by pressing **F10**. For additional commands and details on how to step through code, read [Navigate code with the debugger](../debugger/navigating-through-code-with-the-debugger.md).
 
-![Visual Studio run-time value inspection](../ide/media/vs_ide_gs_debug_hit_breakpoint.PNG)
+![Visual Studio run-time value inspection](../ide/media/vs_ide_gs_debug_hit_breakpoint.png)
 
 In the preceding illustration, you can advance the debugger one statement by pressing either **F10** or **F11** (since there is no method call here, both commands have the same result).
 
 While the debugger is paused, you can inspect your variables and call stacks to determine what is going on. Are the values in the ranges you expect to see? Are calls being made in the right order?
 
-![Visual Studio run-time value inspection](../ide/media/vs_ide_gs_debug_inspect_value.PNG)
+![Visual Studio run-time value inspection](../ide/media/vs_ide_gs_debug_inspect_value.png)
 
 Hover over a variable to see its current value and references. If you see a value you didn't expect, you probably have a bug in the preceding or calling code. For more in-depth debugging information, [learn more](../debugger/getting-started-with-the-debugger.md) about using the debugger.
 
