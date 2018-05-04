@@ -1,5 +1,5 @@
 ---
-title: "How to: Create or Update Standard Code Analysis Check-in Policies"
+title: "Create or Update Standard Code Analysis Check-in Policies"
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
@@ -29,7 +29,7 @@ Code analysis check-in policies are set in the team project settings and apply t
 
 After you specify a check-in policy for managed code, team members can synchronize their code analysis settings for code projects to the team project policy settings.
 
-### To open the check-in policy editor
+## To open the check-in policy editor
 
 1. In Team Explorer, right-click the team project name, point to **Team Project Settings**, and then click **Source Control**.
 
@@ -41,17 +41,17 @@ After you specify a check-in policy for managed code, team members can synchroni
 
     - Double-click the existing **Code Analysis** item in the **Policy Type** list to change the policy.
 
-### To set policy options
+## To set policy options
 
 Select or clear the following options:
 
-    |Option|Description|
-    |------------|-----------------|
-    |**Enforce check-in to only contain files that are part of current solution.**|Code analysis can run only on files specified in solution and project configuration files. This policy guarantees that all code that is part of a solution is analyzed.|
-    |**Enforce C/C++ Code Analysis (/analyze)**|Requires that all C or C++ projects be built with the /analyze compiler option to run code analysis before they can be checked in.|
-    |**Enforce Code Analysis for Managed Code**|Requires that all managed projects run code analysis and build before they can be checked in.|
+|Option|Description|
+|------------|-----------------|
+|**Enforce check-in to only contain files that are part of current solution.**|Code analysis can run only on files specified in solution and project configuration files. This policy guarantees that all code that is part of a solution is analyzed.|
+|**Enforce C/C++ Code Analysis (/analyze)**|Requires that all C or C++ projects be built with the /analyze compiler option to run code analysis before they can be checked in.|
+|**Enforce Code Analysis for Managed Code**|Requires that all managed projects run code analysis and build before they can be checked in.|
 
-### To specify a managed rule set
+## To specify a managed rule set
 
 - From the **Run this rule set** list, use one of the following methods:
 
@@ -65,4 +65,4 @@ Select or clear the following options:
 
 ## See also
 
-[Creating and Using Code Analysis Check-In Policies](../code-quality/creating-and-using-code-analysis-check-in-policies.md)
+- [Create and use code analysis check-in policies](../code-quality/creating-and-using-code-analysis-check-in-policies.md)
