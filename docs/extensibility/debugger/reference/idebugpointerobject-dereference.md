@@ -2,21 +2,17 @@
 title: "IDebugPointerObject::Dereference | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugPointerObject::Dereference"
 helpviewer_keywords: 
   - "IDebugPointerObject::Dereference method"
 ms.assetid: 196ec2cc-8569-4780-b217-23b24e7f50ca
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

@@ -1,24 +1,20 @@
 ---
-title: "Profiling Feature Tour | Microsoft Docs"
-ms.custom: "H1HackMay2017"
+title: "Measure performance with profiling tools"
+description: "Take a brief look at the different diagnostic tools available in Visual Studio."
+ms.custom: "mvc"
 ms.date: "05/18/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "quickstart"
 helpviewer_keywords: 
-  - "debugger"
+  - "diagnostic tools"
 ms.assetid: d2ee0301-ea78-43d8-851a-71b7b2043d73
-caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Profiling Feature Tour
+# Quickstart: First look at profiling tools
 
 Visual Studio provides a variety of profiling tools to help you diagnose different kinds of performance issues depending on your app type.
 
@@ -149,18 +145,21 @@ If you need features such as instrumentation that are not currently present in C
 
 Here is a table that lists the different tools Visual Studio offers and the different project types you can use them with:
   
-|Performance Tool|Windows desktop|UWP|ASP.NET/ASP.NET Core|  
-|----------------------|---------------------|------------------------------|-------------|  
-|[Memory Usage](../profiling/memory-usage.md)|yes|yes|yes|  
-|[CPU Usage](../profiling/cpu-usage.md)|yes|yes|yes (no for .NET Core/ASP.NET Core)|  
-|[GPU Usage](../debugger/gpu-usage.md)|yes|yes|no|  
-|[Application Timeline](../profiling/application-timeline.md)|yes|yes|no|  
-|[PerfTips](../profiling/perftips.md)|yes|yes for XAML, no for HTML|yes|  
-|[Performance Explorer](../profiling/performance-explorer.md)|yes|no|yes (no for ASP.NET Core)|  
-|[IntelliTrace](../debugger/intellitrace.md)|.NET and Visual Studio Enterprise only|.NET and Visual Studio Enterprise only|.NET and Visual Studio Enterprise only|
-|[Network Usage](../profiling/network-usage.md)|no|yes|no| 
-|[HTML UI responsiveness](../profiling/html-ui-responsiveness.md)|no|yes for HTML, no for XAML|no|  
-|[JavaScript Memory](../profiling/javascript-memory.md)|no|yes for HTML, no for XAML|no|  
+|Performance Tool|Windows desktop|UWP|ASP.NET/ASP.NET Core| 
+|----------------------|---------------------|-------------|-------------|  
+|[Memory Usage](../profiling/memory-usage.md)|yes|yes|yes| 
+|[CPU Usage](../profiling/cpu-usage.md)|yes (see note)|yes|yes (see note)|
+|[GPU Usage](../debugger/gpu-usage.md)|yes|yes|no| 
+|[Application Timeline](../profiling/application-timeline.md)|yes|yes|no|
+|[PerfTips](../profiling/perftips.md)|yes|yes for XAML, no for HTML|yes|
+|[Performance Explorer](../profiling/performance-explorer.md)|yes|no|yes|
+|[IntelliTrace](../debugger/intellitrace.md)|.NET with Visual Studio Enterprise only|.NET with Visual Studio Enterprise only|.NET with Visual Studio Enterprise only|
+|[Network Usage](../profiling/network-usage.md)|no|yes|no|
+|[HTML UI responsiveness](../profiling/html-ui-responsiveness.md)|no|yes for HTML, no for XAML|no| 
+|[JavaScript Memory](../profiling/javascript-memory.md)|no|yes for HTML, no for XAML|no|
+
+> [!NOTE]
+> For .NET Core and ASP.NET Core, the CPU Usage tool currently does not provide accurate results with portable PBDs. Use full PDBs instead.
 
 ## See Also  
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)

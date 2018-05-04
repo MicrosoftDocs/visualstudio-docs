@@ -1,21 +1,22 @@
 ---
 title: Edit Subscriptions in the Administrator Portal | Microsoft Docs
-Author: evanwindom
-Ms.author: jaunger
-Manager: evelynp
-Ms.date: 10/3/2017
-Ms.topic: Get-Started-Article
-Description:  Learn how administrators can edit subscription assignments.
-Ms.prod: vs-subscription
-Ms.technology: vs-subscriptions
-Searchscope: VS Subscription
+author: evanwindom
+ms.author: jaunger
+manager: evelynp
+ms.date: 10/03/2017
+ms.topic: Get-Started-Article
+description:  Learn how administrators can edit subscription assignments.
+ms.prod: vs-subscription
+ms.technology: vs-subscriptions
+searchscope: VS Subscription
 ---
 
-# Editing Visual Studio Subscription Assignments
+# Editing Visual Studio subscription assignments
+
+As a subscription administrator, you can make changes to the subscriptions assigned to individuals within your organization.  This article discusses the types of changes you can make and provides the necessary steps. 
 
 ## Making changes to subscriber information
 You can edit a subscriber’s information to correct errors or update information. 
-**Please note that editing a subscriber’s email address will cause any existing benefits to be reset.**
 
 To edit a subscriber, select the ellipses (…) that appear next to the subscriber’s email address when you hover your mouse over it. A dropdown will appear.  Select **Edit** to modify the subscriber’s details. You can also double-click on the subscriber's row in the grid to open the edit window.
 
@@ -49,7 +50,7 @@ You can edit multiple subscribers at once using the bulk edit process. This feat
 
     ![Editing a License - Bulk Edits File Upload](_img\edit-license\edit-license-bulk-file-upload1.png)
 
-5.	Once you’ve uploaded the file, you will see a notification letting you know it was successful. 
+5.	Once you’ve uploaded the file, you will see a notification letting you know it was successful. At this point, your edits will be reflected in the subscriber information. 
 
     ![Editing a License - Bulk Edits Upload Complete](_img\edit-license\edit-license-bulk-upload-complete.png)
 

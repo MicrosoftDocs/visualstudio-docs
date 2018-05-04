@@ -2,21 +2,17 @@
 title: "BP_TYPE | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "BP_TYPE"
 helpviewer_keywords: 
   - "BP_TYPE enumeration"
 ms.assetid: ef07191e-7966-43ab-96fb-1a0b1db3115d
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

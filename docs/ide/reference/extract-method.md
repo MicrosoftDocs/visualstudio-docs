@@ -1,20 +1,18 @@
 ---
-title: "Extract a method in Visual Studio | Microsoft Docs"
-ms.custom: ""
+title: Extract a method in Visual Studio
 ms.date: 01/26/2018
-ms.reviewer: ""
-ms.suite: ""
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-f1_keywords: 
+author: gewarren
+ms.author: gewarren
+manager: douge
+f1_keywords:
   - "vs.csharp.refactoring.extractmethod"
-dev_langs: 
+dev_langs:
   - CSharp
   - VB
-ms.workload: 
+ms.workload:
   - "dotnet"
 ---
 # Extract a method refactoring
@@ -47,7 +45,7 @@ This refactoring applies to:
 
    - **Keyboard**
      - Press **Ctrl+R**, then **Ctrl+M**. (Note that your keyboard shortcut may be different based on which profile you've selected.)
-     - Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu and select **Extract Method** from the Preview window popup.
+     - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu and select **Extract Method** from the Preview window popup.
    - **Mouse**
      - Select **Edit > Refactor > Extract Method**.
      - Right-click the code and select **Refactor > Extract > Extract Method**.
@@ -59,16 +57,16 @@ This refactoring applies to:
    > You can also update comments and other strings to use this new name, as well as [preview changes](../../ide/preview-changes.md) before saving, using the checkboxes in the **Rename** box which appears at the top right of your IDE.
 
    - C#:
-   
+
     ![Rename method - C#](media/extractmethod-rename-cs.png)
 
    - Visual Basic:
-   
+
     ![Rename method - Visual Basic](media/extractmethod-rename-vb.png)
 
 1. When you're happy with the change, choose the **Apply** button or press **Enter** and the changes will be committed.
 
 ## See also
 
-[Refactoring](../refactoring-in-visual-studio.md)  
-[Preview Changes](../../ide/preview-changes.md)
+- [Refactoring](../refactoring-in-visual-studio.md)
+- [Preview Changes](../../ide/preview-changes.md)

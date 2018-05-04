@@ -2,12 +2,9 @@
 title: "Walkthrough: Creating a Silverlight Web Part that Displays OData for SharePoint | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/22/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.SPE.SilverlightWebPart"
 dev_langs: 
@@ -15,7 +12,7 @@ dev_langs:
   - "CSharp"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

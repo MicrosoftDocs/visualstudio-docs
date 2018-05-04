@@ -1,16 +1,12 @@
 ---
-title: "Walkthrough: Using XSLT Hierarchy | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+title: "Walkthrough: Using XSLT Hierarchy"
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
+ms.technology: vs-xml-tools
+ms.topic: conceptual
+author: gewarren
+ms.author: gewarren
+manager: douge
 ---
 # Walkthrough: Using XSLT Hierarchy
 
@@ -22,93 +18,93 @@ The example in this topic demonstrates debugging in a referenced style sheet.
 
 ## To debug in a referenced style sheet
 
-1. Open an XML document in Visual Studio. This example uses the following `collection.xml` document.  
-  
+1. Open an XML document in Visual Studio. This example uses the following  document:
+
     ```xml
-    <?xml version="1.0" encoding="utf-8"?>  
-    <?xml-stylesheet type="text/xsl" href="xslinclude.xsl"?>  
-    <COLLECTION>  
-      <BOOK>  
-        <TITLE>Lover Birds</TITLE>  
-        <AUTHOR>Cynthia Randall</AUTHOR>  
-        <PUBLISHER>Lucerne Publishing</PUBLISHER>  
-      </BOOK>  
-      <BOOK>  
-        <TITLE>The Sundered Grail</TITLE>  
-        <AUTHOR>Eva Corets</AUTHOR>  
-        <PUBLISHER>Lucerne Publishing</PUBLISHER>  
-      </BOOK>  
-      <BOOK>  
-        <TITLE>Splish Splash</TITLE>  
-        <AUTHOR>Paula Thurman</AUTHOR>  
-        <PUBLISHER>Scootney</PUBLISHER>  
-      </BOOK>  
-    </COLLECTION>  
+    <?xml version="1.0" encoding="utf-8"?>
+    <?xml-stylesheet type="text/xsl" href="xslinclude.xsl"?>
+    <COLLECTION>
+      <BOOK>
+        <TITLE>Lover Birds</TITLE>
+        <AUTHOR>Cynthia Randall</AUTHOR>
+        <PUBLISHER>Lucerne Publishing</PUBLISHER>
+      </BOOK>
+      <BOOK>
+        <TITLE>The Sundered Grail</TITLE>
+        <AUTHOR>Eva Corets</AUTHOR>
+        <PUBLISHER>Lucerne Publishing</PUBLISHER>
+      </BOOK>
+      <BOOK>
+        <TITLE>Splish Splash</TITLE>
+        <AUTHOR>Paula Thurman</AUTHOR>
+        <PUBLISHER>Scootney</PUBLISHER>
+      </BOOK>
+    </COLLECTION>
     ```
 
 1. Add the following `xslincludefile.xsl`:
 
     ```xml
-    <?xml version='1.0'?>  
-    <xsl:stylesheet version="1.0"  
-          xmlns:xsl="http://www.w3.org/1999/XSL/Transform"  
-          xml:space="preserve">  
-  
-    <xsl:template match="TITLE">  
-       Title - <xsl:value-of select="."/><BR/>  
-    </xsl:template>  
-  
-    <xsl:template match="AUTHOR">  
-       Author - <xsl:value-of select="."/><BR/>  
-    </xsl:template>  
-  
-    <xsl:template match="PUBLISHER">  
-       Publisher - <xsl:value-of select="."/><BR/><!-- removed second <BR/> -->  
-    </xsl:template>  
-  
-    </xsl:stylesheet>  
+    <?xml version='1.0'?>
+    <xsl:stylesheet version="1.0"
+          xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+          xml:space="preserve">
+
+    <xsl:template match="TITLE">
+       Title - <xsl:value-of select="."/><BR/>
+    </xsl:template>
+
+    <xsl:template match="AUTHOR">
+       Author - <xsl:value-of select="."/><BR/>
+    </xsl:template>
+
+    <xsl:template match="PUBLISHER">
+       Publisher - <xsl:value-of select="."/><BR/><!-- removed second <BR/> -->
+    </xsl:template>
+
+    </xsl:stylesheet>
     ```
-  
-3.  Add the following `xslinclude.xsl` file:  
-  
+
+3.  Add the following `xslinclude.xsl` file:
+
     ```xml
-    <?xml version='1.0'?>  
-    <xsl:stylesheet version="1.0"  
-          xmlns:xsl="http://www.w3.org/1999/XSL/Transform">  
-  
-      <xsl:output method="xml" omit-xml-declaration="yes"/>  
-  
-      <xsl:template match="/">  
-        <xsl:for-each select="COLLECTION/BOOK">  
-          <xsl:apply-templates select="TITLE"/>  
-          <xsl:apply-templates select="AUTHOR"/>  
-          <xsl:apply-templates select="PUBLISHER"/>  
-          <BR/>  
-          <!-- add this -->  
-        </xsl:for-each>  
-      </xsl:template>  
-  
-      <!-- The following template rule will not be called,  
-      because the related template in the including stylesheet  
-      is called. If we move this template so that  
-      it follows the xsl:include instruction, this one  
-      will be called instead.-->  
-      <xsl:template match="TITLE">  
-        <DIV STYLE="color:blue">  
-          Title: <xsl:value-of select="."/>  
-        </DIV>  
-      </xsl:template>  
-  
-      <xsl:include href="xslincludefile.xsl" />  
-    </xsl:stylesheet>  
+    <?xml version='1.0'?>
+    <xsl:stylesheet version="1.0"
+          xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+      <xsl:output method="xml" omit-xml-declaration="yes"/>
+
+      <xsl:template match="/">
+        <xsl:for-each select="COLLECTION/BOOK">
+          <xsl:apply-templates select="TITLE"/>
+          <xsl:apply-templates select="AUTHOR"/>
+          <xsl:apply-templates select="PUBLISHER"/>
+          <BR/>
+          <!-- add this -->
+        </xsl:for-each>
+      </xsl:template>
+
+      <!-- The following template rule will not be called,
+      because the related template in the including stylesheet
+      is called. If we move this template so that
+      it follows the xsl:include instruction, this one
+      will be called instead.-->
+      <xsl:template match="TITLE">
+        <DIV STYLE="color:blue">
+          Title: <xsl:value-of select="."/>
+        </DIV>
+      </xsl:template>
+
+      <xsl:include href="xslincludefile.xsl" />
+    </xsl:stylesheet>
     ```
-  
+
 4.  Add a breakpoint at the instruction `<xsl:include href="xslincludefile.xsl" />`.
-  
-5.  Start debugging.  
-  
-6.  When the debugger stops at the instruction `<xsl:include href="xslincludefile.xsl" />`, press the **Step Into** button. Note that the debugging can be continued in the referenced style sheet. The hierarchy is visible and the designer displays the right path.  
-  
+
+5.  Start debugging.
+
+6.  When the debugger stops at the instruction `<xsl:include href="xslincludefile.xsl" />`, press the **Step Into** button. The debugging can be continued in the referenced style sheet. The hierarchy is visible and the designer displays the right path.
+
 ## See also
 
-[Walkthrough: XSLT Profiler](../xml-tools/walkthrough-xslt-profiler.md)
+- [Walkthrough: XSLT Profiler](../xml-tools/walkthrough-xslt-profiler.md)

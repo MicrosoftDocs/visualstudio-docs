@@ -2,19 +2,14 @@
 title: "How to: Configure Performance Rules | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.ruleseditor"
 ms.assetid: a148b468-b849-4858-880a-808a6b47e596
-caps.latest.revision: 14
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

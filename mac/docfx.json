@@ -37,7 +37,7 @@
       "contributors_to_exclude": ["conceptdev","meganbradley"],
       "breadcrumb_path": "~/_breadcrumb/toc.yml",
       "manager": "crdun",
-      "ms.topic": "article",
+      "ms.topic": "conceptual",
       "audience": "developer",
       "ms.prod": "visual-studio-mac",
       "ms.technology": "vs-ide-general",

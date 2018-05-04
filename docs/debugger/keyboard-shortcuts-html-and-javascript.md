@@ -2,22 +2,17 @@
 title: "Keyboard shortcuts (HTML and JavaScript) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
   - "VB"
   - "FSharp"
   - "C++"
 ms.assetid: 8d44425a-6584-477d-932e-4e10d5e79511
-caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

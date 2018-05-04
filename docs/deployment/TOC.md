@@ -1,7 +1,8 @@
 # [Deployment documentation](index.md)
 # Overview
-## [Deployment overview](deploying-applications-services-and-components.md)
+## [Overview of deployment](deploying-applications-services-and-components-resources.md)
 # Quickstarts
+## [First look at deployment](deploying-applications-services-and-components.md)
 ## [Deploy to a local folder](quickstart-deploy-to-local-folder.md)
 ## [Deploy to a web site](quickstart-deploy-to-a-web-site.md)
 ## [Deploy to Azure](quickstart-deploy-to-azure.md)
@@ -94,13 +95,13 @@
 #### [Security, Versioning, and Manifest Issues in ClickOnce Deployments](security-versioning-and-manifest-issues-in-clickonce-deployments.md)
 #### [Troubleshooting Specific Errors in ClickOnce Deployments](troubleshooting-specific-errors-in-clickonce-deployments.md)
 #### [Debugging ClickOnce Applications That Use System.Deployment.Application](debugging-clickonce-applications-that-use-system-deployment-application.md)
-## [Application Deployment Prerequisites](application-deployment-prerequisites.md)
-### [Deploying Prerequisites for 64-bit Applications](deploying-prerequisites-for-64-bit-applications.md)
-### [Creating Bootstrapper Packages](creating-bootstrapper-packages.md)
-### [How to: Create a Product Manifest](how-to-create-a-product-manifest.md)
-### [How to: Create a Package Manifest](how-to-create-a-package-manifest.md)
-### [How to: Create a Localized Bootstrapper Package](how-to-create-a-localized-bootstrapper-package.md)
-### [Walkthrough: Creating a Custom Bootstrapper to Show a Privacy Prompt](walkthrough-creating-a-custom-bootstrapper-to-show-a-privacy-prompt.md)
+## [Application deployment prerequisites](application-deployment-prerequisites.md)
+### [Deploy Prerequisites for 64-bit Applications](deploying-prerequisites-for-64-bit-applications.md)
+### [Create bootstrapper packages](creating-bootstrapper-packages.md)
+### [How to: Create a product manifest](how-to-create-a-product-manifest.md)
+### [How to: Create a package manifest](how-to-create-a-package-manifest.md)
+### [How to: Create a localized bootstrapper package](how-to-create-a-localized-bootstrapper-package.md)
+### [Walkthrough: Create a custom bootstrapper with a privacy prompt](walkthrough-creating-a-custom-bootstrapper-to-show-a-privacy-prompt.md)
 ### [Product and Package Schema Reference](product-and-package-schema-reference.md)
 #### [<Product> Element (Bootstrapper)](product-element-bootstrapper.md)
 #### [<Package> Element (Bootstrapper)](package-element-bootstrapper.md)
@@ -131,6 +132,4 @@
 #### [<Signature> Element (ClickOnce Deployment)](signature-element-clickonce-deployment.md)
 #### [<customErrorReporting> Element (ClickOnce Deployment)](customerrorreporting-element-clickonce-deployment.md)
 ### [ClickOnce Unmanaged API Reference](clickonce-unmanaged-api-reference.md)
-# Resources
-## [Deploying Applications, Services, and Components](deploying-applications-services-and-components-resources.md)
 

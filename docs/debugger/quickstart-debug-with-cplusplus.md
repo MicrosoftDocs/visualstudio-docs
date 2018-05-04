@@ -1,24 +1,20 @@
 ---
-title: "Debug with C++ using the Visual Studio debugger | Microsoft Docs"
-ms.custom: ""
-ms.date: "12/06/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
+title: "Debug C++"
+description: "Debug native code using the Visual Studio debugger"
+ms.custom: "mvc"
+ms.date: "03/18/2018"
+ms.technology: "vs-ide-debug"
 ms.topic: "quickstart"
 helpviewer_keywords: 
   - "debugger"
 ms.assetid: 639e430b-6d2d-46bd-b738-8c60dfb384f1
-caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "cplusplus"
 ---
-# Debug with C++ using the Visual Studio debugger
+# Quickstart: Debug with C++ using the Visual Studio debugger
 
 The Visual Studio debugger provides many powerful features to help you debug your apps. This topic provides a quick way to learn some of the basic features.
 
@@ -87,21 +83,21 @@ A *breakpoint* is a marker that indicates where Visual Studio should suspend you
     The debugger pauses where you set the breakpoint. The statement where the debugger and app execution is paused is indicated by the yellow arrow. The line with the `doWork` function call has not yet executed.
 
     > [!TIP]
-    > If you have a breakpoint in a loop or recursion, or if you have a lot of breakpoints which you frequently step through, use a [conditional breakpoint](../debugger/using-breakpoints.md#BKMK_Specify_a_breakpoint_condition_using_a_code_expression) to make sure that your code is suspended ONLY when specific conditions are met. This saves time and can also make it easier to debug issues that are hard to reproduce.
+    > If you have a breakpoint in a loop or recursion, or if you have many breakpoints that you frequently step through, use a [conditional breakpoint](../debugger/using-breakpoints.md#BKMK_Specify_a_breakpoint_condition_using_a_code_expression) to make sure that your code is suspended ONLY when specific conditions are met. A conditional breakpoint saves time and can also make it easier to debug issues that are hard to reproduce.
 
     When trying to debug memory-related failures in C++, you can also use breakpoints to inspect address values (look for NULL) and reference counts. 
 
 ## Navigate code
 
-There are different commands to instruct the debugger to continue. We will show a useful code navigation command that is new in Visual Studio 2017.
+There are different commands to instruct the debugger to continue. We show a useful code navigation command that is new in Visual Studio 2017.
 
-- While paused at the breakpoint, hover over the statement `c1.push_back(20)` until the green **Run to click** button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick") appears, and then press the **Run to click** button.
+While paused at the breakpoint, hover over the statement `c1.push_back(20)` until the green **Run to click** button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick") appears, and then press the **Run to click** button.
 
-    ![Run to click](../debugger/media/dbg-qs-run-to-click.png "Run to click")
+![Run to click](../debugger/media/dbg-qs-run-to-click.png "Run to click")
 
-    The app continues execution, calling `doWork`, and pauses on the line of code where you clicked the button.
+The app continues execution, calling `doWork`, and pauses on the line of code where you clicked the button.
 
-    Common keyboard commands used to step through code include **F10** and **F11**. For more in-depth instructions, see the [Beginner's Guide](../debugger/getting-started-with-the-debugger.md).
+Common keyboard commands used to step through code include **F10** and **F11**. For more in-depth instructions, see the [Beginner's Guide](../debugger/getting-started-with-the-debugger.md).
 
 ## Inspect variables in a datatip
 
@@ -131,9 +127,7 @@ For more information on using edit-and-continue and on feature limitations, see 
 
 ## Next steps
 
-- To learn more about the debugger, see [Start the debugger and navigate code](../debugger/getting-started-with-the-debugger.md).
-- To find out more about breakpoints, see [Using breakpoints](../debugger/using-breakpoints.md).
+In this tutorial, you've learned how to start the debugger, step through code, and inspect variables. You may want to get a high-level look at debugger features along with links to more information.
 
-## See Also  
- [Debugging in Visual Studio](../debugger/index.md)  
- [Debugger Feature Tour](../debugger/debugger-feature-tour.md)
+> [!div class="nextstepaction"]
+> [Debugger feature tour](../debugger/debugger-feature-tour.md)

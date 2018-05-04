@@ -1,17 +1,15 @@
 ---
-title: "Move variable declaration near reference in Visual Studio | Microsoft Docs"
-ms.custom: ""
+title: Move variable declaration near reference in Visual Studio
 ms.date: 01/26/2018
-ms.reviewer: ""
-ms.suite: ""
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 author: "kuhlenh"
 ms.author: "kaseyu"
-manager: ghogen
-dev_langs: 
+manager: douge
+dev_langs:
   - csharp
-ms.workload: 
+ms.workload:
   - "dotnet"
 ---
 # Move declaration near reference refactoring
@@ -33,7 +31,7 @@ This refactoring applies to:
 1. Next, do one of the following:
 
    - **Keyboard**
-     - Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu and select **Move declaration near reference** from the Preview window popup.
+     - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu and select **Move declaration near reference** from the Preview window popup.
    - **Mouse**
      - Right-click the code, select the **Quick Actions and Refactorings** menu and select **Move declaration near reference** from the Preview window popup.
 
@@ -62,5 +60,5 @@ if (condition)
 
 ## See also
 
-[Refactoring](../refactoring-in-visual-studio.md)  
-[Preview Changes](../../ide/preview-changes.md)
+- [Refactoring](../refactoring-in-visual-studio.md)
+- [Preview Changes](../../ide/preview-changes.md)

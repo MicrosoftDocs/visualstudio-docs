@@ -2,12 +2,9 @@
 title: "Visual Studio SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VSSDK.v90.StartPage"
 helpviewer_keywords: 
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "VS SDK (see Visual Studio SDK)"
   - "Visual Studio, SDK"
 ms.assetid: 1f7c348a-114c-4243-b392-3531e9c9c6fd
-caps.latest.revision: 56
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

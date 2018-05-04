@@ -2,19 +2,15 @@
 title: "Migrating a Legacy Language Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "language services, migrating"
 ms.assetid: e0f666a0-92a7-4f9c-ba79-d05b13fb7f11
-caps.latest.revision: 16
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

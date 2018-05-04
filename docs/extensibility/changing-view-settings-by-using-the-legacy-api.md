@@ -2,19 +2,15 @@
 title: "Changing View Settings by Using the Legacy API | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], legacy - changing view settings"
 ms.assetid: 12c9b300-0894-4124-96a1-764326176d77
-caps.latest.revision: 18
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

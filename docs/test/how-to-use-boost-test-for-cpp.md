@@ -1,15 +1,12 @@
 ---
-title: "How to use Boost.Test for C++ in Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "01/29/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: vs-devops-test
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: "How to use Boost.Test for C++ in Visual Studio"
+ms.date: 01/29/2018
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-test
+ms.topic: conceptual
 author: mikeblome
 ms.author: mblome
-manager: ghogen
+manager: douge
 ms.workload: 
   - "cplusplus"
 ---
@@ -30,18 +27,18 @@ Boost.Test requires [Boost](http://www.boost.org/)! If you do not have Boost ins
 1. Install the Boost.Test dynamic or static library:
 
 	- Run **vcpkg install boost-test** to install the Boost.Test dynamic library.
-	
+
 	   -OR-
-	   
+
 	- Run **vcpkg install boost-test:x86-windows-static** to install the Boost.Test static library.
 
 1. Run **vcpkg integrate install** to configure Visual Studio with the library and include paths to the Boost headers and binaries.
 
 ## Add the item template (Visual Studio 2017 version 15.6 and later)
 
-1. To create a .cpp file for your tests, right-click on the project node in **Solution Explorer** and choose **Add New Item**. 
- 
-![Boost.Test Item Template](media/boost_test_item_template.png "Boost.Test item template")
+1. To create a .cpp file for your tests, right-click on the project node in **Solution Explorer** and choose **Add New Item**.
+
+   ![Boost.Test Item Template](media/boost_test_item_template.png "Boost.Test item template")
 
 1. The new file contains a sample test method. Build your project to enable **Test Explorer** to discover the method.
 
@@ -49,14 +46,14 @@ The item template uses the single-header variant of Boost.Test, but you can modi
 
 ## Create a test project (Visual Studio 2017 version 15.5)
 
-In Visual Studio 2017 version 15.5, no pre-configured test project or item templates are available for Boost.Test. Therefore, you have to create and configure a console application project to hold your tests. 
+In Visual Studio 2017 version 15.5, no pre-configured test project or item templates are available for Boost.Test. Therefore, you have to create and configure a console application project to hold your tests.
 
 1. In **Solution Explorer**, right click on the solution node and choose **Add** > **New Project...**.
 
 1. In the left pane, choose **Visual C++** > **Windows Desktop**, and then choose the **Windows Console Application** template.
 
 1. Give the project a name and choose **OK**.
-1. Delete the `main` function in the .cpp file. 
+1. Delete the `main` function in the .cpp file.
 
 1. If you are using the single-header or dynamic library version of Boost.Test, go to [Add include directives](#add_include_directives). If you are using the static library version, then you have to perform some additional configuration:
 
@@ -121,7 +118,7 @@ BOOST_AUTO_TEST_CASE(my\_boost_test)
 ```
 
 ## Write and run tests
-You are now ready to write and run Boost Tests. See the [Boost Test Library Documentation](http://www.boost.org/doc/libs/1_38_0/libs/test/doc/html/index.html) for information about the test macros. See [Run unit tests with Test Explorer](run-unit-tests-with-test-explorer.md) for information about discovering, running, and grouping your tests by using **Test Explorer**.
+You are now ready to write and run Boost Tests. See the [Boost Test Library Documentation](http://www.boost.org/doc/libs/release/libs/test/doc/html/index.html) for information about the test macros. See [Run unit tests with Test Explorer](run-unit-tests-with-test-explorer.md) for information about discovering, running, and grouping your tests by using **Test Explorer**.
 
 ## See also
 [Writing Unit Tests for C/C++](writing-unit-tests-for-c-cpp.md)

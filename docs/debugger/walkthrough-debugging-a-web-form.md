@@ -2,12 +2,8 @@
 title: "Walkthrough: Debugging a Web Form | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
   - "VB"
@@ -23,10 +19,9 @@ helpviewer_keywords:
   - "debugging ASP.NET Web applications, Web Forms"
   - "debugging [Visual Studio], Web Forms"
 ms.assetid: e2b4fa14-8f5b-444d-a903-54070b784bd4
-caps.latest.revision: 31
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

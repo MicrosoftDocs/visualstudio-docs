@@ -1,3 +1,15 @@
+---
+title: "Create a .NET Core development environment with containers using Kubernetes in the cloud with Visual Studio - Step 3 - Create a Kubernetes development environment | Microsoft Docs"
+author: "ghogen"
+ms.author: "ghogen"
+ms.date: "02/20/2018"
+ms.topic: "tutorial"
+ms.prod: visual-studio-dev15
+ms.technology: "vs-azure"
+description: "Rapid Kubernetes development with containers and microservices on Azure"
+keywords: "Docker, Kubernetes, Azure, AKS, Azure Container Service, containers"
+manager: "douge"
+---
 # Get Started on Connected Environment with .NET Core and Visual Studio
 
 Previous step: [Create an ASP.NET web apps](get-started-netcore-visualstudio-02.md)
@@ -29,7 +41,7 @@ Until the development environment is successfully created you cannot debug your 
 ## Look at the files added to project
 While we wait for the development environment to be created, let’s look at the files that have been added to your project when you chose to use a development environment.
 
-First, you can see a folder named `charts` has been added and within this a Helm chart for your application has been scaffolded. These files are used to deploy your application into the development environment.
+First, you can see a folder named `charts` has been added and within this a [Helm chart](https://docs.helm.sh) for your application has been scaffolded. These files are used to deploy your application into the development environment.
 
 You will see a file named `Dockerfile` has been added. This file has information needed to package your application in the standard Docker format. A `HeaderPropagation.cs` file is also created, we will discuss this file later in the walkthrough. 
 

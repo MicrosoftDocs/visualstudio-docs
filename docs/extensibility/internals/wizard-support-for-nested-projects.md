@@ -2,21 +2,17 @@
 title: "Wizard Support for Nested Projects | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Add Item wizard"
   - "nested projects, wizard support"
   - "New Project wizard"
 ms.assetid: 1b496acc-b326-4cdb-bb48-e3b5c6f12e05
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

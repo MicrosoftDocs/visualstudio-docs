@@ -1,24 +1,26 @@
 ---
-title: Use Visual Studio to create an ASP.NET Core web app in C# | Microsoft Docs
-ms.custom: ""
-ms.date: "10/10/2017"
-ms.reviewer: ""
-ms.suite: ""
+title: "Use Visual Studio to create an ASP.NET Core web app in C#"
+description: "Learn how to create an ASP.NET Core web app in Visual Studio with C#, step-by-step."
+ms.custom: mvc
+ms.date: 10/10/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
-ms.tgt_pltfrm: ""
-ms.topic: "quickstart"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-dev_langs: 
+ms.prod: visual-studio-dev15
+ms.topic: quickstart
+author: TerryGLee
+ms.author: tglee
+manager: douge
+dev_langs:
   - CSharp
-ms.workload: 
+ms.workload:
   - "aspnet"
   - "dotnetcore"
 ---
 # Quickstart: Use Visual Studio to create your first ASP.NET Core web app
 
-In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you'll create a simple C# ASP.NET Core web application. If you haven't already installed Visual Studio, install it for free [here](http://www.visualstudio.com).
+In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you'll create a simple C# ASP.NET Core web application.
+
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) page to install it for free.
 
 ## Create a project
 
@@ -26,7 +28,7 @@ First, you'll create an ASP.NET Core web application project. The project type c
 
 1. Open Visual Studio 2017.
 
-1. From the top menu bar, choose **File** > **New** > **Project...**.
+1. From the top menu bar, choose **File** > **New** > **Project**.
 
 1. In the **New Project** dialog box, in the left pane, expand **Visual C#**, then choose **.NET Core**. In the middle pane, choose **ASP.NET Core Web Application**, then choose **OK**.
 
@@ -36,7 +38,7 @@ First, you'll create an ASP.NET Core web application project. The project type c
 
 1. In the **New ASP.NET Core Web Application** dialog box, select **ASP.NET Core 2.0** from the top drop-down menu. (If you don't see **ASP.NET Core 2.0** in the list, install it by following the **Download** link that should appear in a yellow bar near the top of the dialog box.) Choose **OK**.
 
-   ![New ASP.NET Core Web Application dialogbox](../ide/media/quickstart-aspnet-core20.png)
+   ![New ASP.NET Core Web Application dialog box](../ide/media/quickstart-aspnet-core20.png)
 
 ## Explore the IDE
 
@@ -64,7 +66,7 @@ First, you'll create an ASP.NET Core web application project. The project type c
 
    ![Error List](../ide/media/quickstart-aspnet-errorlist.png)
 
-1. In the editor window, place your cursor on either line that contains the error, then choose the Quick Actions light bulb in the left margin. From the drop-down menu, choose **using System;** to add this directive to the top of your file and resolve the errors.
+1. In the editor window, place your cursor on either line that contains the error, then choose the **Quick Actions light bulb** in the left margin. From the drop-down menu, choose **using System;** to add this directive to the top of your file and resolve the errors.
 
 ## Run the application
 
@@ -77,10 +79,10 @@ First, you'll create an ASP.NET Core web application project. The project type c
 > [!NOTE]
 > If you get an error message that says **Unable to connect to web server 'IIS Express'**, close Visual Studio and then open it using the **Run as administrator** option from the right-click or context menu. Then, run the application again.
 
-Congratulations on completing this quickstart! We hope you learned a little bit about the Visual Studio IDE. If you'd like to delve deeper into its capabilities, please continue with a tutorial in the **Tutorials** section of the table of contents.
+Congratulations on completing this Quickstart! We hope you learned a little bit about the Visual Studio IDE. If you'd like to delve deeper into its capabilities, please continue with a tutorial in the **Tutorials** section of the table of contents.
 
-## See also
+## Next steps
+Congratulations on completing this Quickstart! We hope you learned a little bit about C#, ASP.NET Core, and the Visual Studio IDE. To learn more, continue with the following tutorial.
 
-[Getting started with C# and ASP.NET in Visual Studio](tutorial-csharp-aspnet-core.md)  
-[Getting Started with C# and Visual Basic using Visual Studio](getting-started-with-visual-csharp-and-visual-basic.md)  
-[Getting started with Razor Pages in ASP.NET Core](/aspnet/core/tutorials/razor-pages/razor-pages-start)
+> [!div class="nextstepaction"]
+> [Get started with C# and ASP.NET in Visual Studio](tutorial-csharp-aspnet-core.md)

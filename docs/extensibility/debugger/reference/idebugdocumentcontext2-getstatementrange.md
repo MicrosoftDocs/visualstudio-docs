@@ -2,21 +2,17 @@
 title: "IDebugDocumentContext2::GetStatementRange | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugDocumentContext2::GetStatementRange"
 helpviewer_keywords: 
   - "IDebugDocumentContext2::GetStatementRange"
 ms.assetid: bc94851a-0ec4-47ea-99c7-0a585e54e726
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

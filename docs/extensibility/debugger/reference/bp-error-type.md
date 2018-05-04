@@ -2,21 +2,17 @@
 title: "BP_ERROR_TYPE | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "BP_ERROR_TYPE"
 helpviewer_keywords: 
   - "BP_ERROR_TYPE enumeration"
 ms.assetid: c483eaab-db29-46de-bfdb-5c2a9a9cfb68
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

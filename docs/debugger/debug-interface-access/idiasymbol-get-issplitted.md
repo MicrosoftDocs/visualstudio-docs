@@ -2,21 +2,16 @@
 title: "IDiaSymbol::get_isSplitted | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaSymbol::get_isSplitted method"
 ms.assetid: ff160cf6-003b-4ef5-a406-20a7b287b2bf
-caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

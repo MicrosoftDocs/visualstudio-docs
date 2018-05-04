@@ -2,12 +2,8 @@
 title: "How to: Debug an ActiveX Control | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vc.controls.debug"
 dev_langs: 
@@ -25,10 +21,9 @@ helpviewer_keywords:
   - "ActiveX controls, debugging"
   - "testing [Visual Studio], ActiveX controls"
 ms.assetid: bbc02cf7-a7e6-44fe-99af-87a43e1d7251
-caps.latest.revision: 16
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

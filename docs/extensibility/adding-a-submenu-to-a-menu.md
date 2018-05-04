@@ -2,22 +2,18 @@
 title: "Adding a Submenu to a Menu | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "context menus"
   - "submenus, cascading"
   - "cascading submenus"
   - "menus, creating cascading submenus"
 ms.assetid: 692600cb-d052-40e2-bdae-4354ae7c6c84
-caps.latest.revision: 43
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---
@@ -93,7 +89,7 @@ This walkthrough builds on the demonstration in [Adding a Menu to the Visual Stu
 2.  Add the sub-command. Find the command constructor. Add the following lines just after the call to the `AddCommand` method.  
   
     ```csharp  
-    CommandID subCommandID = new CommandID(CommandSet, (int)TestCommandPackageGuids.cmdidTestSubCmd);  
+    CommandID subCommandID = new CommandID(CommandSet, cmdidTestSubCmd);  
     MenuCommand subItem = new MenuCommand(  
         new EventHandler(SubItemCallback), subCommandID);  
     commandService.AddCommand(subItem);  

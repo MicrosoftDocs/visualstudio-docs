@@ -1,22 +1,16 @@
 ---
-title: Debugging Python code remote Linux computers using Visual Studio | Microsoft Docs
+title: Debugging Python code on remote Linux computers
 description: How to use Visual Studio to debug Python code running on remote Linux computers, including necessary configuration steps, security, and troubleshooting.
-ms.custom:
 ms.date: 07/12/2017
-ms.reviewer:
-ms.suite:
-ms.technology: 
-  - "devlang-python"
-dev_langs:
-  - "python"
-ms.tgt_pltfrm:
-ms.topic: "article"
-author: "kraigb"
-ms.author: "kraigb"
-manager: ghogen
+ms.prod: visual-studio-dev15
+ms.technology: vs-python
+ms.topic: conceptual
+author: kraigb
+ms.author: kraigb
+manager: douge
 ms.workload: 
-  - "python"
-  - "data-science"
+  - python
+  - data-science
 ---
 
 # Remotely debugging Python code on Linux
@@ -36,7 +30,7 @@ The following items are needed to follow this walkthrough:
 - A remote computer running Python on an operating system like Mac OSX or Linux.
 - Port 5678 (inbound) opened on that computer's firewall, which is the default for remote debugging.
 
-You can easily create [Linux virtual machines on Azure](/azure/virtual-machines/linux/creation-choices) and [access it using Remote Desktop](/azure/virtual-machines/linux/use-remote-desktop) from Windows. An Ubuntu for the VM is convenient because Python is installed by default; otherwise, see the list on [Install a Python interpreter of your choice](managing-python-environments-in-visual-studio.md#selecting-and-installing-python-interpreters) for additional Python download locations.
+You can easily create [Linux virtual machines on Azure](/azure/virtual-machines/linux/creation-choices) and [access it using Remote Desktop](/azure/virtual-machines/linux/use-remote-desktop) from Windows. An Ubuntu for the VM is convenient because Python is installed by default; otherwise, see the list on [Install a Python interpreter of your choice](installing-python-interpreters.md) for additional Python download locations.
 
 For details on creating a firewall rule for an Azure VM, see [Opening ports to a VM in Azure using the Azure portal](/azure/virtual-machines/windows/nsg-quickstart-portal).
 
@@ -44,29 +38,29 @@ For details on creating a firewall rule for an Azure VM, see [Opening ports to a
 
 1. On the remote computer, create a Python file called `guessing-game.py` with the following code:
 
-  ```python
-  import random
+    ```python
+    import random
 
-  guesses_made = 0
-  name = input('Hello! What is your name?\n')
-  number = random.randint(1, 20)
-  print('Well, {0}, I am thinking of a number between 1 and 20.'.format(name))
+    guesses_made = 0
+    name = input('Hello! What is your name?\n')
+    number = random.randint(1, 20)
+    print('Well, {0}, I am thinking of a number between 1 and 20.'.format(name))
 
-  while guesses_made < 6:
-      guess = int(input('Take a guess: '))
-      guesses_made += 1
-      if guess < number:
-          print('Your guess is too low.')
-      if guess > number:
-          print('Your guess is too high.')
-      if guess == number:
-          break
-  if guess == number:
-      print('Good job, {0}! You guessed my number in {1} guesses!'.format(name, guesses_made))
-  else:
-      print('Nope. The number I was thinking of was {0}'.format(number))
-  ```
- 
+    while guesses_made < 6:
+        guess = int(input('Take a guess: '))
+        guesses_made += 1
+        if guess < number:
+            print('Your guess is too low.')
+        if guess > number:
+            print('Your guess is too high.')
+        if guess == number:
+            break
+    if guess == number:
+        print('Good job, {0}! You guessed my number in {1} guesses!'.format(name, guesses_made))
+    else:
+        print('Nope. The number I was thinking of was {0}'.format(number))
+    ```
+
 1. Install the `ptvsd` package into your environment using `pip3 install ptvsd`. (Note: it's a good idea to record the version of ptvsd that's installed in case you need it for troubleshooting; the [ptvsd listing](https://pypi.python.org/pypi/ptvsd) also shows available versions.)
 
 1. Enable remote debugging by adding the code below at the earliest possible point in `guessing-game.py`, before other code. (Though not a strict requirement, it's impossible to debug any background threads spawned before the `enable_attach` function is called.)

@@ -2,21 +2,17 @@
 title: "METADATA_TYPE | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "METADATA_TYPE"
 helpviewer_keywords: 
   - "METADATA_TYPE structure"
 ms.assetid: 2d8b78f6-0aef-4d79-809a-cff9b2c24659
-caps.latest.revision: 7
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

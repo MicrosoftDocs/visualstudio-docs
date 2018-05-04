@@ -2,12 +2,9 @@
 title: "How to: Programmatically Perform Actions When an E-Mail Message Is Received | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -18,7 +15,7 @@ helpviewer_keywords:
   - "e-mail [Office development in Visual Studio], custom actions"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

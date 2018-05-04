@@ -1,10 +1,22 @@
+---
+title: "Create a Node.js development environment with containers using Kubernetes in the cloud - Step 4 - Debug a container in Kubernetes | Microsoft Docs"
+author: "ghogen"
+ms.author: "ghogen"
+ms.date: "02/20/2018"
+ms.topic: "tutorial"
+ms.prod: visual-studio-dev15
+ms.technology: "vs-azure"
+description: "Rapid Kubernetes development with containers and microservices on Azure"
+keywords: "Docker, Kubernetes, Azure, AKS, Azure Container Service, containers"
+manager: "douge"
+---
 # Get Started on Connected Environment with Node.js
 
 Previous step: [Create a Node.js container in Kubernetes](get-started-nodejs-03.md)
 
-[!INCLUDE[](common/debug-intro.md)]
+[!INCLUDE[](includes/debug-intro.md)]
 
-[!INCLUDE[](common/init-debug-assets-vscode.md)]
+[!INCLUDE[](includes/init-debug-assets-vscode.md)]
 
 
 ## Select the VSCE debug configuration
@@ -21,7 +33,7 @@ Hit **F5** to debug your code in Kubernetes!
 
 Similar to the `up` command, code is synced to the development environment when you start debugging, and a container is built and deployed to Kubernetes. This time, of course, the debugger is attached to the remote container.
 
-[!INCLUDE[](common/tip-vscode-status-bar-url.md)]
+[!INCLUDE[](includes/tip-vscode-status-bar-url.md)]
 
 Set a breakpoint in a server-side code file, for example within the `app.get('/api'...` in  `server.js`. Refresh the browser page, or press the 'Say It Again' button, and you should hit the breakpoint and be able to step through code.
 

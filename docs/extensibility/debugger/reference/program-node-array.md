@@ -2,21 +2,17 @@
 title: "PROGRAM_NODE_ARRAY | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "PROGRAM_NODE_ARRAY"
 helpviewer_keywords: 
   - "PROGRAM_NODE_ARRAY structure"
 ms.assetid: 8eeea600-eda5-4b7c-868a-0b86d177b0a5
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

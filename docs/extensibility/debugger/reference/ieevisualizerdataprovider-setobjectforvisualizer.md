@@ -2,21 +2,17 @@
 title: "IEEVisualizerDataProvider::SetObjectForVisualizer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IEEVisualizerDataProvider::SetObjectForVisualizer"
 helpviewer_keywords: 
   - "IEEVisualizerDataProvider::SetObjectForVisualizer method"
 ms.assetid: 40dad2be-57ff-4f74-9d82-c48039c125c4
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

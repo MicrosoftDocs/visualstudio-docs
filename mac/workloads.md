@@ -1,9 +1,8 @@
 ---
-title: "Visual Studio for Mac Workloads | Microsoft Docs"
+title: "Visual Studio for Mac Workloads"
 author: asb3993
 ms.author: amburns
 ms.date: 08/03/2017
-ms.topic: article
 ms.assetid: DDC39599-8C5D-4CB9-8DA5-229E085384CA
 ---
 

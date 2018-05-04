@@ -1,3 +1,15 @@
+---
+title: "Create a development environment with containers using Kubernetes in the cloud | Microsoft Docs"
+author: "ghogen"
+ms.author: "ghogen"
+ms.date: "02/20/2018"
+ms.topic: "tutorial"
+ms.prod: visual-studio-dev15
+ms.technology: "vs-azure"
+description: "Rapid Kubernetes development with containers and microservices on Azure"
+keywords: "Docker, Kubernetes, Azure, AKS, Azure Container Service, containers"
+manager: "douge"
+---
 # Get Started on VS Connected Environment
 
 Welcome! Please select a **language-specific guide** to get started:

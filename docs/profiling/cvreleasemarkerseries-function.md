@@ -2,21 +2,16 @@
 title: "CvReleaseMarkerSeries Function | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "cvmarkers/CvReleaseMarkerSeries"
 helpviewer_keywords: 
   - "CvReleaseMarkerSeries method"
 ms.assetid: 3b4711ee-e534-411d-9128-f69cd7932a48
-caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

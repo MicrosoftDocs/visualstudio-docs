@@ -2,20 +2,16 @@
 title: "Breakpoint-Related Methods | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "debugging [Debugging SDK], breakpoint methods"
   - "breakpoints, methods"
 ms.assetid: a6f77bf0-bf81-443f-8683-5f12075bbe10
-caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

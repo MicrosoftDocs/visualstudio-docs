@@ -1,21 +1,19 @@
 ---
-title: "Refactor a method signature in Visual Studio | Microsoft Docs"
-ms.custom: ""
+title: Refactor a method signature in Visual Studio
 ms.date: 01/26/2018
-ms.reviewer: ""
-ms.suite: ""
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-f1_keywords: 
+author: gewarren
+ms.author: gewarren
+manager: douge
+f1_keywords:
   - "vs.csharp.refactoring.remove"
   - "vs.csharp.refactoring.reorder"
-dev_langs: 
+dev_langs:
   - CSharp
   - VB
-ms.workload: 
+ms.workload:
   - "dotnet"
 ---
 # Change a method signature refactoring
@@ -48,7 +46,7 @@ This refactoring applies to:
 
    - **Keyboard**
      - Press **Ctrl+R**, then **Ctrl+V**.  (Note that your keyboard shortcut may be different based on which profile you've selected.)
-     - Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu and select **Change Signature** from the Preview window popup.
+     - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu and select **Change Signature** from the Preview window popup.
    - **Mouse**
      - Select **Edit > Refactor > Remove Parameters**.
      - Select **Edit > Refactor > Reorder Parameters**.
@@ -79,5 +77,5 @@ This refactoring applies to:
 
 ## See also
 
-[Refactoring](../refactoring-in-visual-studio.md)  
-[Preview Changes](../../ide/preview-changes.md)
+- [Refactoring](../refactoring-in-visual-studio.md)
+- [Preview Changes](../../ide/preview-changes.md)

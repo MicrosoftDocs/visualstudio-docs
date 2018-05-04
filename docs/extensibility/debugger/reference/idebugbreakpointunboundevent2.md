@@ -2,21 +2,17 @@
 title: "IDebugBreakpointUnboundEvent2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugBreakpointUnboundEvent2"
 helpviewer_keywords: 
   - "IDebugBreakpointUnboundEvent2"
 ms.assetid: 6b1e1863-0c64-4d85-8ab9-aface522fdea
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

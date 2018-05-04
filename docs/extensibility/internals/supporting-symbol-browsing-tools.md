@@ -2,12 +2,9 @@
 title: "Supporting Symbol-Browsing Tools | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "symbols, symbol-browsing tools"
   - "browsers, symbol browsers"
@@ -19,10 +16,9 @@ helpviewer_keywords:
   - "symbols"
   - "libraries, symbol-browsing tools"
 ms.assetid: 70d8c9e5-4b0b-4a69-b3b3-90f36debe880
-caps.latest.revision: 26
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

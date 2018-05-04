@@ -1,3 +1,15 @@
+---
+title: "Create a .NET Core development environment with containers using Kubernetes in the cloud with Visual Studio - Step 1 - Install tools | Microsoft Docs"
+author: "ghogen"
+ms.author: "ghogen"
+ms.date: "04/05/2018"
+ms.topic: "tutorial"
+ms.prod: visual-studio-dev15
+ms.technology: "vs-azure"
+description: "Rapid Kubernetes development with containers and microservices on Azure"
+keywords: "Docker, Kubernetes, Azure, AKS, Azure Container Service, containers"
+manager: "douge"
+---
 # Get Started on Connected Environment with .NET Core and Visual Studio
 
 In this guide, you will learn how to:
@@ -7,13 +19,11 @@ In this guide, you will learn how to:
 1. Independently develop two separate services, and used Kubernetes' DNS service discovery to make a call to another service.
 1. Productively develop and test your code in a team environment.
 
-[!INCLUDE[](common/see-troubleshooting.md)]
+[!INCLUDE[](includes/see-troubleshooting.md)]
 
 ## Install the Connected Environment CLI
 Connected Environment requires minimal local machine setup. Most of your development environment's configuration gets stored in the cloud, and is shareable with other users.
 
-1. Install [Git for Windows](https://git-scm.com/downloads), select the default install options. 
-1. Download **kubectl.exe** from [this link](https://storage.googleapis.com/kubernetes-release/release/v1.9.0/bin/windows/amd64/kubectl.exe) and **save** it to a location on your PATH.
 1. Download and run the [Connected Environment CLI Installer](https://aka.ms/get-vsce-windows). 
 
 ## Get Kubernetes Debugging Tools

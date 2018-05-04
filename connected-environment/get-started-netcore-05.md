@@ -1,3 +1,15 @@
+---
+title: "Create a .NET Core development environment with containers using Kubernetes in the cloud - Step 5 - Call another container | Microsoft Docs"
+author: "ghogen"
+ms.author: "ghogen"
+ms.date: "02/20/2018"
+ms.topic: "tutorial"
+ms.prod: visual-studio-dev15
+ms.technology: "vs-azure"
+description: "Rapid Kubernetes development with containers and microservices on Azure"
+keywords: "Docker, Kubernetes, Azure, AKS, Azure Container Service, containers"
+manager: "douge"
+---
 # Get Started on Connected Environment with .NET Core
 
 Previous step: [Debug a container in Kubernetes](get-started-netcore-04.md)
@@ -7,7 +19,7 @@ In this section we're going to create a second service, `mywebapi`, and have `we
 ![](media/multi-container.png)
 
 ## Download sample code for *mywebapi*
-For the sake of time, let's download sample code from a GitHub repository. Go to https://github.com/johnsta/vsce-samples and select **Clone or Download** to download the GitHub repository. The code for this section is in `vsce-samples/dotnetcore/getting-started/mywebapi`.
+For the sake of time, let's download sample code from a GitHub repository. Go to https://github.com/Azure/vsce and select **Clone or Download** to download the GitHub repository. The code for this section is in `vsce/samples/dotnetcore/getting-started/mywebapi`.
 
 
 ## Run *mywebapi*

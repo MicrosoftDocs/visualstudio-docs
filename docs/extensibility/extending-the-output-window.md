@@ -2,19 +2,15 @@
 title: "Extending the Output Window | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Output window, about Output window"
 ms.assetid: b02fa88c-f92a-4ff6-ba5f-2eb4d48a643a
-caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

@@ -2,12 +2,9 @@
 title: "Chart Control | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VST.ProjectItem.ExcelChart"
 dev_langs: 
@@ -19,7 +16,7 @@ helpviewer_keywords:
   - "Chart control [Office development in Visual Studio], data binding"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

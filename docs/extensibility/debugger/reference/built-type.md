@@ -2,21 +2,17 @@
 title: "BUILT_TYPE | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "BUILT_TYPE"
 helpviewer_keywords: 
   - "BUILT_TYPE structure"
 ms.assetid: cc02c32c-0f65-4210-ad25-a9b1899066e8
-caps.latest.revision: 7
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

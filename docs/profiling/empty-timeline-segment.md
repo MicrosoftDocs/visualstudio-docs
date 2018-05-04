@@ -2,21 +2,16 @@
 title: "Empty Timeline Segment | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.cv.threads.timeline.empty"
 helpviewer_keywords: 
   - "Concurrency Visualizer, empty timeline segment"
 ms.assetid: f37b301f-3edc-4e56-8084-feec2dc5a9b1
-caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

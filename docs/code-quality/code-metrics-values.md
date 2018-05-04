@@ -1,18 +1,15 @@
 ---
-title: "Calculate code metrics in Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "12/12/2017"
-ms.reviewer: ""
-ms.suite: ""
+title: Calculate code metrics in Visual Studio
+ms.date: 12/12/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
+ms.topic: "conceptual"
+helpviewer_keywords:
   - "code metrics [Visual Studio]"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # Code metrics values
@@ -21,9 +18,11 @@ The increased complexity of modern software applications also increases the diff
 
 Developers can use Visual Studio to generate code metrics data that measure the complexity and maintainability of their managed code. Code metrics data can be generated for an entire solution or a single project.
 
+For information about how to generate code metrics data in Visual Studio, see [How to: Generate code metrics data](../code-quality/how-to-generate-code-metrics-data.md).
+
 ## Software measurements
 
-The following list shows the code metrics results that [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] calculates:
+The following list shows the code metrics results that Visual Studio calculates:
 
 - **Maintainability Index** - Calculates an index value between 0 and 100 that represents the relative ease of maintaining the code. A high value means better maintainability. Color coded ratings can be used to quickly identify trouble spots in your code. A green rating is between 20 and 100 and indicates that the code has good maintainability. A yellow rating is between 10 and 19 and indicates that the code is moderately maintainable. A red rating is a rating between 0 and 9 and indicates low maintainability.
 
@@ -46,3 +45,8 @@ For more information about how Code Metrics treats anonymous methods, see [Anony
 Some software tools and compilers generate code that is added to a project and that the project developer either does not see or should not change. Mostly, Code Metrics ignores generated code when it calculates the metrics values. This enables the metrics values to reflect what the developer can see and change.
 
 Code generated for Windows Forms is not ignored, because it is code that the developer can see and change.
+
+## Next steps
+
+- [How to: Generate code metrics data](../code-quality/how-to-generate-code-metrics-data.md)
+- [Use the Code Metrics Results window](../code-quality/working-with-code-metrics-data.md)

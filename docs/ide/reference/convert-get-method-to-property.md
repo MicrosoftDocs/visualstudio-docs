@@ -1,20 +1,18 @@
 ---
-title: "Convert Get method to property and convert a property to a Get method in Visual Studio | Microsoft Docs"
-ms.custom: ""
+title: Convert Get method to property and convert a property to a Get method in Visual Studio
 ms.date: 01/26/2018
-ms.reviewer: ""
-ms.suite: ""
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 ms.devlang: csharp
 author: "kuhlenh"
 ms.author: "kaseyu"
-manager: ghogen
-f1_keywords: 
+manager: douge
+f1_keywords:
   - "vs.csharp.refactoring.convertmethodtoproperty"
-dev_langs: 
+dev_langs:
   - csharp
-ms.workload: 
+ms.workload:
   - "dotnet"
 ---
 # Convert Get method to property / Convert property to Get method refactorings
@@ -36,7 +34,7 @@ These refactorings apply to:
 1. Next, do one of the following:
 
    - **Keyboard**
-     - Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu, and select **Replace method with property** from the Preview window popup.
+     - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu, and select **Replace method with property** from the Preview window popup.
    - **Mouse**
      - Right-click the code, select the **Quick Actions and Refactorings** menu, and select **Replace method with property** from the Preview window popup.
 
@@ -68,7 +66,7 @@ public int MyValue
 
 **What:** Lets you convert a property to a Get method
 
-**When:** You have a property that involves more than immediately setting and getting a value 
+**When:** You have a property that involves more than immediately setting and getting a value
 
 ### How-to
 
@@ -77,7 +75,7 @@ public int MyValue
 1. Next, do one of the following:
 
    - **Keyboard**
-     - Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu and select **Replace property with methods** from the Preview window popup.
+     - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu and select **Replace property with methods** from the Preview window popup.
    - **Mouse**
      - Right-click the code, select the **Quick Actions and Refactorings** menu and select **Replace property with methods** from the Preview window popup.
 
@@ -85,5 +83,5 @@ public int MyValue
 
 ## See also
 
-[Refactoring](../refactoring-in-visual-studio.md)  
-[Preview Changes](../../ide/preview-changes.md)
+- [Refactoring](../refactoring-in-visual-studio.md)
+- [Preview Changes](../../ide/preview-changes.md)

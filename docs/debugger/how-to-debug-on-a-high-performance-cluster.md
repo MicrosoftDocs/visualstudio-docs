@@ -2,12 +2,8 @@
 title: "How to: Debug On a High-Performance Cluster | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
   - "VB"
@@ -17,10 +13,9 @@ helpviewer_keywords:
   - "cluster debugging"
   - "high-perfomance debugging"
 ms.assetid: a2f0eb07-840e-4f95-a1b1-9509217e5b8f
-caps.latest.revision: 24
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

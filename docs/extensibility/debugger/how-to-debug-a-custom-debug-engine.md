@@ -2,20 +2,16 @@
 title: "How To: Debug a Custom Debug Engine | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "debug engines, debugging"
   - "debugging [Debugging SDK], custom debug engines"
 ms.assetid: df27a8d6-3938-45ff-b47f-b684e80b38a0
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

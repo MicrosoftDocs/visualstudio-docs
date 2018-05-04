@@ -1,22 +1,16 @@
 ---
-title: Formatting Python code in Visual Studio | Microsoft Docs
+title: Formatting Python code
 description: How to automatically reformat Python code in Visual Studio including spacing, statements, wrapping, and comments.
-ms.custom:
 ms.date: 07/12/2017
-ms.reviewer:
-ms.suite:
-ms.technology: 
-  - "devlang-python"
-dev_langs:
-  - "python"
-ms.tgt_pltfrm:
-ms.topic: "article"
-author: "kraigb"
-ms.author: "kraigb"
-manager: ghogen
+ms.prod: visual-studio-dev15
+ms.technology: vs-python
+ms.topic: conceptual
+author: kraigb
+ms.author: kraigb
+manager: douge
 ms.workload: 
-  - "python"
-  - "data-science"
+  - python
+  - data-science
 ---
 
 # Formatting Python code
@@ -26,9 +20,13 @@ Visual Studio lets you quick reformat code to match pre-configured formatting op
 - To format a selection: select **Edit > Advanced > Format Selection** or press Ctrl+E,F.
 - To format the whole file: select **Edit > Advanced > Format Document** or press Ctrl+E,D.
 
-Options are set through **Tools > Options > Text Editor > Python > Formatting** and its nested tabs, and by default are set to match a superset of the [PEP 8 style guide](http://www.python.org/dev/peps/pep-0008/). The **General** tab determines when formatting is applied; settings the other three tabs are described in this topic.
+Options are set through **Tools > Options > Text Editor > Python > Formatting** and its nested tabs. You need to select **Show all settings** for these options to appear:
 
-[Python support in Visual Studio](installing-python-support-in-visual-studio.md) also adds the useful [Fill Comment Paragraph](#fill-comment-paragraph-command) command to the **Edit > Advanced** menu as described that follow.
+![Python formatting options in Visual Studio](media/options-editor-formatting.png)
+
+Formatting options by default are set to match a superset of the [PEP 8 style guide](http://www.python.org/dev/peps/pep-0008/). The **General** tab determines when formatting is applied; settings for the other three tabs are described in this article.
+
+[Python support in Visual Studio](installing-python-support-in-visual-studio.md) also adds the useful [Fill Comment Paragraph](#fill-comment-paragraph-command) command to the **Edit > Advanced** menu as described in a later section.
 
 ## Spacing
 

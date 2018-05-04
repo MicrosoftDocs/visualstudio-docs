@@ -2,12 +2,8 @@
 title: "Use Breakpoints in the Debugger in Visual Studio | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
 ms.date: "02/07/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.breakpointswin"
   - "vs.debug.disassembly.insert"
@@ -35,10 +31,9 @@ f1_keywords:
 helpviewer_keywords: 
   - "breakpoints, about breakpoints"
 ms.assetid: 020b2e97-3b3e-4b2c-872d-b5c6025e120e
-caps.latest.revision: 57
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -60,7 +55,31 @@ You can set breakpoints when you want to stop debugger execution, perhaps to see
   
  You can set a breakpoint on any line of executable code. For example, in the C# code above you can set a breakpoint on the variable declaration, the `for` loop, or any code inside the `for` loop, but you cannot set a breakpoint on the namespace or class declarations or the method signature.  
   
-##  <a name="BKMK_Set_a_breakpoint_in_a_source_file"></a> Setting Other Kinds of Breakpoints  
+##  <a name="BKMK_Set_a_breakpoint_in_a_source_file"></a> Setting a function breakpoint  
+  You can break execution when a function is called.
+  
+1. Open the **Breakpoints** window and choose **New > Function Breakpoint**.
+
+2. Enter a function name in the **Function Name** box. 
+
+   To narrow the function specification:
+   
+   Use the fully qualified function name. 
+   Example:  Namespace1.ClassX.MethodA()
+   
+   Add the parameter types of an overloaded function. 
+   Example:  MethodA(int, string)
+   
+   Use the '!' symbol to specify the module.
+   Example: App1.dll!MethodA
+   
+   Use the context operator in native C++.
+   {function, , [module]} [+&lt;line offset from start of method&gt;]
+   Example: {MethodA, , App1.dll}+2
+
+3. In the **Language** dropdown, choose the specific language of the function you want to break on.
+  
+##  <a name="BKMK_Set_a_breakpoint_in_a_function"></a> Setting Other Kinds of Breakpoints  
  You can also set breakpoints in the call stack, in the Disassembly window, and, in native C++ code, at a data condition or a memory address.  
   
 ## <a name="BKMK_Set_a_breakpoint_in_the_call_stack_window"></a> Setting a Breakpoint in the Call Stack Window  
@@ -208,7 +227,7 @@ You can set breakpoints when you want to stop debugger execution, perhaps to see
 ##  <a name="BKMK_Print_to_the_Output_window_with_tracepoints"></a> Breakpoint Actions and Tracepoints  
  A tracepoint is a breakpoint that prints a message to the Output window. A tracepoint can act like a temporary trace statement in the programming language.  
   
- In the **Breakpoint Settings** window, check the **Actions** box. Choose **Log a message to Output window** in the **Action** group. You can print a generic string, such as **this is a test**. To include the value of a variable or expression, enclose it in curly braces.  
+ In the **Breakpoint Settings** window, check the **Actions** box. Choose **Log a message to Output window** in the **Action** group. You can print a generic string, such as **this is a test**. To include the value of a variable or expression, enclose it in curly braces.  You can also use format specifiers ([C#](../debugger/format-specifiers-in-csharp.md) and [C++](../debugger/format-specifiers-in-cpp.md)) for values included in a tracepoint.
   
  To break execution when the tracepoint is hit, clear the **Continue Execution** check box. When **Continue Execution** is checked, execution is not halted. In both cases, the message is printed.  
   
@@ -224,8 +243,7 @@ You can set breakpoints when you want to stop debugger execution, perhaps to see
 |**$PNAME**|Process name|  
 |**$TID**|Thread id|  
 |**$TNAME**|Thread name|  
-|**$TICK**||  
-|**$TNAME**||  
+|**$TICK**|Tick count (from Windows `GetTickCount`)|  
   
 ##  <a name="BKMK_Set_a_breakpoint_at_a_function_return_in_the_Call_Stack_window"></a> Breakpoint labels  
  Breakpoint labels are used only in the **Breakpoints** window to sort and filter the list of breakpoints. To add a label to a breakpoint, choose the breakpoint row and then choose **Label** on the context menu.  

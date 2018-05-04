@@ -2,21 +2,16 @@
 title: "IDiaStackFrame::get_type | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaStackFrame::get_type method"
 ms.assetid: 99daa97b-5c05-455d-bd1e-800762ccf7c9
-caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

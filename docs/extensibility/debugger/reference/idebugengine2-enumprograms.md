@@ -2,21 +2,17 @@
 title: "IDebugEngine2::EnumPrograms | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugEngine2::EnumPrograms"
 helpviewer_keywords: 
   - "IDebugEngine2::EnumPrograms"
 ms.assetid: 56bf98eb-beec-4e5f-9ebe-46c922e54c56
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

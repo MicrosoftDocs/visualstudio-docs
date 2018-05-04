@@ -2,12 +2,8 @@
 title: "DA0029: Unsupported CLR Version | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.29"
   - "vs.performance.rules.DA0029"
@@ -16,10 +12,9 @@ helpviewer_keywords:
   - "vs.performance.DA0029"
   - "vs.performance.rules.DA0029"
 ms.assetid: 76247259-c6f3-44c4-b3f9-d8dac16b5e0d
-caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

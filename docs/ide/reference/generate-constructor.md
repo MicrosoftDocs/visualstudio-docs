@@ -1,15 +1,13 @@
 ---
-title: "Generate a constructor in Visual Studio | Microsoft Docs"
-ms.custom: ""
+title: Generate a constructor in Visual Studio
 ms.date: 01/26/2018
-ms.reviewer: ""
-ms.suite: ""
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
-ms.topic: "article"
+ms.topic: reference
 author: "kuhlenh"
 ms.author: "kaseyu"
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "dotnet"
 ---
 # Generate a constructor in Visual Studio
@@ -43,7 +41,7 @@ This code generation applies to:
 1. Next, do one of the following:
 
    - **Keyboard**
-     - Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu.
+     - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
    - **Mouse**
      - Right-click and select the **Quick Actions and Refactorings** menu.
      - Click the ![Lightbulb](media/bulb-cs.png) icon which appears in the left margin if the text cursor is already on the empty line in the class.
@@ -74,7 +72,7 @@ This code generation applies to:
 1. Next, do one of the following:
 
    - **Keyboard**
-     - Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu.
+     - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
    - **Mouse**
      - Right-click and select the **Quick Actions and Refactorings** menu.
      - Click the ![Lightbulb](media/bulb-cs.png) icon which appears in the left margin if the text cursor is already on the line with the selection.
@@ -102,7 +100,7 @@ This code generation applies to:
 1. Next, do one of the following:
 
    - **Keyboard**
-     - Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu.
+     - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
    - **Mouse**
      - Right-click and select the **Quick Actions and Refactorings** menu.
      - Hover over the red squiggle and click the ![Lightbulb](media/bulb-cs.png) icon which appears.
@@ -136,7 +134,7 @@ This code generation applies to:
 1. Next, do one of the following:
 
    - **Keyboard**
-     - Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu.
+     - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
    - **Mouse**
      - Right-click and select the **Quick Actions and Refactorings** menu.
      - Hover over the red squiggle and click the ![Lightbulb](media/bulb-cs.png) icon which appears.
@@ -161,7 +159,7 @@ This code generation applies to:
 1. Next, do one of the following:
 
    - **Keyboard**
-     - Press **Ctrl+.** to trigger the **Quick Actions and Refactorings** menu.
+     - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
    - **Mouse**
      - Right-click and select the **Quick Actions and Refactorings** menu.
      - Click the ![Lightbulb](media/bulb-cs.png) icon which appears in the left margin if the text cursor is already on the line with the added parameter.
@@ -176,5 +174,5 @@ This code generation applies to:
 
 ## See also
 
-[Code Generation](../code-generation-in-visual-studio.md)  
-[Preview Changes](../../ide/preview-changes.md)
+- [Code Generation](../code-generation-in-visual-studio.md)
+- [Preview Changes](../../ide/preview-changes.md)

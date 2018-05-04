@@ -2,21 +2,17 @@
 title: "FRAMEINFO_FLAGS | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "FRAMEINFO_FLAGS"
 helpviewer_keywords: 
   - "FRAMEINFO_FLAGS enumeration"
 ms.assetid: 41578062-8455-412a-9d8b-1e1e9dc8d52e
-caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

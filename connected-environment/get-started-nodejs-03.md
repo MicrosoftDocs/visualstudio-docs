@@ -1,15 +1,27 @@
+---
+title: "Create a Node.js development environment with containers using Kubernetes in the cloud - Step 3 - Create an ASP.NET web app | Microsoft Docs"
+author: "ghogen"
+ms.author: "ghogen"
+ms.date: "02/20/2018"
+ms.topic: "tutorial"
+ms.prod: visual-studio-dev15
+ms.technology: "vs-azure"
+description: "Rapid Kubernetes development with containers and microservices on Azure"
+keywords: "Docker, Kubernetes, Azure, AKS, Azure Container Service, containers"
+manager: "douge"
+---
 # Get Started on Connected Environment with Node.js
 
 Previous step: [Create a Kubernetes development environment in Azure](get-started-nodejs-02.md)
 
 ## Create a Node.js Web App
-Download code from GitHub by navigating to https://github.com/johnsta/vsce-samples and select **Clone or Download** to download the GitHub repository to your local environment. The code for this guide is in `vsce-samples/nodejs/getting-started/webfrontend`.
+Download code from GitHub by navigating to https://github.com/Azure/vsce and select **Clone or Download** to download the GitHub repository to your local environment. The code for this guide is in `vsce/samples/nodejs/getting-started/webfrontend`.
 
-[!INCLUDE[](common/vsce-init.md)]
+[!INCLUDE[](includes/vsce-init.md)]
 
-[!INCLUDE[](common/ensure-env-created.md)]
+[!INCLUDE[](includes/ensure-env-created.md)]
 
-[!INCLUDE[](common/build-and-run-in-k8s-cli.md)]
+[!INCLUDE[](includes/build-and-run-in-k8s-cli.md)]
 
 ## Update a content file
 Connected Environment isn't just about getting code running in Kubernetes - it's about enabling you to quickly and iteratively see your code changes take effect in a Kubernetes environment in the cloud.
@@ -30,13 +42,13 @@ If you open the web app on a mobile device, you will notice that the UI does not
 
 To fix this, we'll add a `viewport` meta tag:
 1. Open the file `./public/index.html`
-1. Add a `viewport` meta tag in the existing `header` tag:
+1. Add a `viewport` meta tag in the existing `head` element:
 
 ```html
-<header>
+<head>
     <!-- Add this line -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-</header>
+</head>
 ```
 
 1. Save the file.
