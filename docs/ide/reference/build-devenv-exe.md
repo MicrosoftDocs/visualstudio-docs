@@ -21,7 +21,7 @@ Builds a solution using a specified solution configuration file.
 
 ## Syntax
 
-```
+```cmd
 Devenv SolutionName /build SolnConfigName [/project ProjName [/projectconfig ProjConfigName]]
 ```
 
@@ -50,7 +50,7 @@ Devenv SolutionName /build SolnConfigName [/project ProjName [/projectconfig Pro
 ## Example
  This example builds the project `CSharpConsoleApp`, using the `Debug` project build configuration within the `Debug` solution configuration of `MySolution`.
 
-```
+```cmd
 devenv "C:\Documents and Settings\someuser\My Documents\Visual Studio\Projects\MySolution\MySolution.sln" /build Debug /project "CSharpWinApp\CSharpWinApp.csproj" /projectconfig Debug
 ```
 

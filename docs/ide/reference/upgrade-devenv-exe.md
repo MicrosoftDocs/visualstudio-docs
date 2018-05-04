@@ -20,7 +20,7 @@ Updates the solution file and all of its project files, or the project file spec
 
 ## Syntax
 
-```
+```cmd
 devenv SolutionFile | ProjectFile /upgrade
 ```
 
@@ -43,7 +43,7 @@ devenv SolutionFile | ProjectFile /upgrade
 ## Example
  This example upgrades a solution file named "MyProject.sln" in your default folder for [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] solutions.
 
-```
+```cmd
 devenv "MyProject.sln" /upgrade
 ```
 

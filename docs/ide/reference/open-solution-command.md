@@ -21,7 +21,7 @@ Opens an existing solution, closing any other open solutions.
 
 ## Syntax
 
-```
+```cmd
 File.OpenSolution filename
 ```
 
@@ -38,7 +38,7 @@ File.OpenSolution filename
 ## Example
  This example opens the solution, Test1.sln.
 
-```
+```cmd
 >File.OpenSolution "c:\MySolutions\Test1\Test1.sln"
 ```
 

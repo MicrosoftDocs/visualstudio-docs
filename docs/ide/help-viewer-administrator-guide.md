@@ -33,7 +33,7 @@ If you do not have internet access in your network environment, Help Viewer can 
 
 You can use **Help Content Manager** (*HlpCtntMgr.exe*) to deploy local Help content from the internet to client computers. Use the following syntax:
 
-```
+```cmd
 \\%ProgramFiles(x86)%\Microsoft Help Viewer\v2.3\HlpCtntmgr.exe /operation \<*name*> /catalogname \<*catalog name*> /locale \<*locale*>
 ```
 
@@ -132,7 +132,7 @@ Next, you need to package the content so it can be deployed to client computers.
 
 2.  Create a *.bat* file to contain the deployment script for the help content. Since the client could possibly have a read lock on any of the files being deleted as part of the push, you should have the client shut down prior to pushing updates. For example:
 
-    ```
+    ```cmd
     REM - copy pre-ripped content to ProgramData
     Xcopy %~dp0HelpLibrary2 %SYSTEMDRIVE%\ProgramData\Microsoft\HelpLibrary2\ /y /e /k /o
     if ERRORLEVEL 1 ECHO *** ERROR COPYING Help Library files to ProgramData (%ERRORLEVEL%)

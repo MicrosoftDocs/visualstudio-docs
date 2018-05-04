@@ -22,7 +22,7 @@ Opens an existing file and allows you to specify an editor.
 
 ## Syntax
 
-```
+```cmd
 File.OpenFile filename [/e:editorname]
 ```
 
@@ -40,7 +40,7 @@ File.OpenFile filename [/e:editorname]
 
  For example, to open a file in the source code editor, you would enter the following for the /e:`editorname` argument.
 
-```
+```cmd
 /e:"Source Code (text) Editor"
 ```
 
@@ -50,7 +50,7 @@ File.OpenFile filename [/e:editorname]
 ## Example
  This example opens the style file "Test1.css" in the source code editor.
 
-```
+```cmd
 >File.OpenFile "C:\My Projects\project1\Test1.css" /e:"Source Code (text) Editor"
 ```
 
