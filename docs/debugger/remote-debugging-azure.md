@@ -91,6 +91,7 @@ Depending on your browser security settings, it may save you time to add the fol
 - go.microsoft.com
 - download.microsoft.com
 - visualstudio.com
+- iis.net
 
 If you are using Internet Explorer, you can add the trusted sites by going to **Internet Options > Security > Trusted Sites > Sites**. These steps are different for other browsers. (If you need to download an older version of the remote debugger from my.visualstudio.com, some additional trusted sites are required to sign in.)
 

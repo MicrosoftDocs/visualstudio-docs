@@ -39,9 +39,12 @@ If you do not already have an Azure account, you can [sign up here](https://azur
 
     ![Choose Publish](../deployment/media/quickstart-publish-aspnet.png "Choose Publish")
 
-1. In the **Publish** pane, choose **Microsoft Azure App Service**.
+1. In the **Pick a publish target** dialog box, choose **App Service**.
 
     ![Choose Azure App Service](../deployment/media/quickstart-publish-azure.png "Choose Azure App Service")
+
+    > [!NOTE]
+    > If you have previously configured any publishing profiles, the **Publish** pane appears instead. In this scenario, click **New Profile** instead.
 
 1. Click **Publish**.
 

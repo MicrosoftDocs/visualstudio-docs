@@ -39,9 +39,12 @@ These steps apply to ASP.NET, ASP.NET Core, .NET Core, and Python apps in Visual
 
     ![Choose Publish](../deployment/media/quickstart-publish-aspnet.png "Choose Publish")
 
-1. In the **Publish** pane, choose **IIS, FTP, etc**.
+1. In the **Pick a publish target** dialog box, choose **IIS, FTP, etc**.
 
     ![Choose IIS, FTP, etc.](../deployment/media/quickstart-publish-iis-ftp.png "Choose IIS, FTP, etc.")
+
+    > [!NOTE]
+    > If you have previously configured any publishing profiles, the **Publish** pane appears instead. In this scenario, click **New Profile** instead.
 
 1. Click **Publish**.
 
@@ -51,7 +54,7 @@ These steps apply to ASP.NET, ASP.NET Core, .NET Core, and Python apps in Visual
 
 1. In the **Publish method** field, choose a method such as **Web Deploy** or **FTP**.
 
-    The settings that you see next correspond to your publishing method.
+    The settings that you see next correspond to your publishing method. Web Deploy simplifies deployment of Web applications and Web sites to IIS servers, and must be installed as an application on the server. Use the [Web Platform Installer](https://www.microsoft.com/web/downloads/platform.aspx) to install it.
 
 1. Configure required settings for the publish method and click **Validate Connection**.
 

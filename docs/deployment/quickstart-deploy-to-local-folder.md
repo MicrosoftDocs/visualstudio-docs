@@ -35,9 +35,12 @@ These steps apply to ASP.NET, ASP.NET Core, .NET Core, and Python apps in Visual
 
     ![Choose Publish](../deployment/media/quickstart-publish.png "Choose Publish")
 
-1. In the **Publish** pane, choose **Folder**.
+1. In the **Pick a publish target** dialog box, choose **Folder**.
 
     ![Choose Folder](../deployment/media/quickstart-publish-folder.png "Choose Folder")
+
+    > [!NOTE]
+    > If you have previously configured any publishing profiles, the **Publish** pane appears instead. In this scenario, click **New Profile**.
 
 1. Enter a path or click **Browse** to browse to a local folder.
 
