@@ -188,11 +188,15 @@ Prior to Visual Studio 2017 version 15.6 the only way to handle commands in an e
     }  
     ```  
 
-## Implementing a command handler (starting with Visual Studio 2017 version 15.6)
+## Implement a command handler (starting in Visual Studio 2017 version 15.6)
 
-Update project's Nuget references to make sure you reference latest editor API. Click Project/Manage Nuget Packages, in the Nuget Package Manager switch to Updates tab, check "Select all packages" checkbox and click Update button.
+First, update the project's Nuget references to reference the latest editor API:
 
-The command handler is an implementation of <xref:Microsoft.VisualStudio.Commanding.ICommandHandler<T>>, which handles the command by instantiating the adornment.  
+1. Right-click on the project and select **Manage Nuget Packages**.
+
+2. In **Nuget Package Manager**, select the **Updates** tab, select the **Select all packages** checkbox, and then select **Update**.
+
+The command handler is an implementation of <xref:Microsoft.VisualStudio.Commanding.ICommandHandler%601>, which handles the command by instantiating the adornment.  
   
 1.  Add a class file and name it `KeyBindingCommandHandler`.  
   
@@ -203,11 +207,10 @@ The command handler is an implementation of <xref:Microsoft.VisualStudio.Command
     using Microsoft.VisualStudio.Text.Editor;
     using Microsoft.VisualStudio.Text.Editor.Commanding.Commands;
     using Microsoft.VisualStudio.Utilities;
-    using System.ComponentModel.Composition; 
-  
+    using System.ComponentModel.Composition;   
     ```  
   
-3.  The class named KeyBindingCommandHandler should inherit from <xref:Microsoft.VisualStudio.Commanding.ICommandHandler<Microsoft.VisualStudio.Text.Editor.Commanding.Commands.TypeCharCommandArgs>> and export it as <xref:Microsoft.VisualStudio.Commanding.ICommandHandler>:
+3.  The class named KeyBindingCommandHandler should inherit from `ICommandHandler<TypeCharCommandArgs>`, and export it as <xref:Microsoft.VisualStudio.Commanding.ICommandHandler>:
   
     ```csharp  
     [Export(typeof(ICommandHandler))]
@@ -234,7 +237,7 @@ The command handler is an implementation of <xref:Microsoft.VisualStudio.Command
 6.  Implement the `ExecuteCommand()` method so that it adds a purple box to the view if a + character is typed. 
   
     ```csharp  
-        public bool ExecuteCommand(TypeCharCommandArgs args, CommandExecutionContext executionContext)
+    public bool ExecuteCommand(TypeCharCommandArgs args, CommandExecutionContext executionContext)
     {
         if (args.TypedChar == '+')
         {
@@ -251,10 +254,11 @@ The command handler is an implementation of <xref:Microsoft.VisualStudio.Command
     }
     ```  
  7. Copy adornment layer definition from KeyBindingTestTextViewCreationListener.cs file to the KeyBindingCommandHandler.cs and then delete KeyBindingTestTextViewCreationListener.cs file:
+ 
     ```csharp  
     /// <summary>
     /// Defines the adornment layer for the adornment. This layer is ordered
-    /// after the selection layer in the Z-order
+    /// after the selection layer in the Z-order.
     /// </summary>
     [Export(typeof(AdornmentLayerDefinition))]
     [Name("PurpleCornerBox")]
@@ -263,9 +267,10 @@ The command handler is an implementation of <xref:Microsoft.VisualStudio.Command
     ```  
 
 ## Making the Adornment Appear on Every Line  
- The original adornment appeared on every character 'a' in a text file. Now that we have changed the code to add the adornment in response to the '+' character, it adds the adornment only on the line where the '+' is typed. We can change the adornment code so that the adornment once more appears on every 'a'.  
+
+The original adornment appeared on every character 'a' in a text file. Now that we have changed the code to add the adornment in response to the '+' character, it adds the adornment only on the line where the '+' is typed. We can change the adornment code so that the adornment once more appears on every 'a'.  
   
- In the KeyBindingTest.cs file, change the CreateVisuals() method to iterate through all the lines in the view to decorate the 'a' character.  
+In the KeyBindingTest.cs file, change the CreateVisuals() method to iterate through all the lines in the view to decorate the 'a' character.  
   
 ```csharp  
 private void CreateVisuals(ITextViewLine line)  
