@@ -10,6 +10,7 @@
 ### [Install required certificates for offline installation](install/install-certificates-for-visual-studio-offline.md)
 ### [Install on low-bandwidth or unreliable network environments](install/install-vs-inconsistent-quality-network.md)
 ## [Troubleshooting installation issues](install/troubleshooting-installation-issues.md)
+## [Change installation locations](change-installation-location.md)
 ## [Update Visual Studio](install/update-visual-studio.md)
 ## [Modify Visual Studio](install/modify-visual-studio.md)
 ## [Install Help Viewer](ide/microsoft-help-viewer-installation.md)
