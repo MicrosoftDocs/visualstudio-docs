@@ -62,7 +62,7 @@
 ## [Node.js in Visual Studio](nodejs/tutorial-nodejs.md)
 ## [C# in Visual Studio](ide/tutorial-csharp-aspnet-core.md)
 ## [Visual Basic in Visual Studio](ide/tutorial-visual-basic-console.md)
-## [Debugging in Visual Studio](ide/getting-started-with-debugging-in-visual-studio.md)
+## [Debugging in Visual Studio](debugger/getting-started-with-the-debugger.md?context=visualstudio/default)
 # How-to guides
 ## [Develop](ide/index-writing-code.md)
 ### [Move Around in the Visual Studio IDE](ide/how-to-move-around-in-the-visual-studio-ide.md)
@@ -185,6 +185,7 @@
 #### [Find code changes and other history with CodeLens](ide/find-code-changes-and-other-history-with-codelens.md)
 ##### [CodeIndex Command](ide/codeindex-command.md)
 #### [Editor support for other languages](ide/adding-visual-studio-editor-support-for-other-languages.md)
+### [Improve your code](ide/find-and-fix-code-errors.md)
 ### [Cross-Platform Mobile Development](cross-platform/cross-platform-mobile-development-in-visual-studio.md)
 ### [Office and Sharepoint Development](vsto/office-and-sharepoint-development-in-visual-studio.md)
 ### [Work with XML and XSLT Files](xml-tools/xml-tools-in-visual-studio.md)
