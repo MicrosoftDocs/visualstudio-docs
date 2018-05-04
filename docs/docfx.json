@@ -4,24 +4,25 @@
       {
         "files": [
           "**/*.md",
-          "**/**.yml"
+          "**/*.yml"
         ],
         "group": "group-vs",
+        "src": ".",
         "exclude": [
           "**/obj/**",
           "vsdocsdocs/**",
           "**/includes/**",
           "missingapi.yml",
-          "vs-2015"
+          "vs-2015/**"
         ]
       },
       {
         "files": [
           "**/*.md",
-          "**/**.yml"
+          "**/*.yml"
         ],
         "group": "group-vs2015",
-        "src": "vs-2015",
+        "src": "./vs-2015",
         "exclude": [
           "**/obj/**",
           "vsdocsdocs/**",
@@ -39,10 +40,12 @@
           "**/*.svg"
         ],
         "group": "group-vs",
+        "src": ".",
         "exclude": [
           "**/obj/**",
           "vsdocsdocs/**",
-          "**/includes/**"
+          "**/includes/**",
+          "vs-2015/**"
         ]
       },
       {
@@ -78,23 +81,24 @@
       "ms.prod": "visual-studio-dev15",
       "searchScope": ["VS IDE"],
       "uhfHeaderId": "MSDocsHeader-VisualStudio",
-      "titleSuffix": "Visual Studio",
-      "monikerRange": ">= vs-2017"
+      "titleSuffix": "Visual Studio"
     },
 
     "fileMetadata": {
-      "monikerRange": {
-        "vs-2015/**/*.md": "vs-2015"
+      "breadcrumb_path": 
+      {
+        "**/*.md": "_breadcrumb/toc.json",
+        "vs-2015/**/*.md": "vs-2015/_breadcrumb/toc.json"
       }
     },
-
 
     "template": [],
     "xref": ["missingapi.yml", "vs.140.zip", "office15.zip"],
     "dest": "vsdocsdocs",
     "groups": {
       "group-vs": {
-        "moniker-range": ">= vs-2017"
+        "moniker-range": ">= vs-2017",
+        "dest": "vsdocsdocs-2017"
       },
       "group-vs2015": {
         "moniker-range": "vs2015",
