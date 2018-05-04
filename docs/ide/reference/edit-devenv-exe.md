@@ -19,7 +19,7 @@ Opens the specified file in an existing instance of [!INCLUDE[vsprvs](../../code
 
 ## Syntax
 
-```
+```cmd
 Devenv /edit [file1[ file2]]
 ```
 
@@ -40,7 +40,7 @@ Devenv /edit [file1[ file2]]
 ## Example
  This example opens the file `MyFile.cs` in an existing instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] or opens the file in a new instance of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] if one does not already exist.
 
-```
+```cmd
 devenv /edit MyFile.cs
 ```
 

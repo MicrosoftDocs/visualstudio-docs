@@ -69,7 +69,7 @@ In this procedure we will use the same Hello World code snippet created in [Walk
 
 2.  Add the following lines to the file.
 
-    ```
+    ```txt
     // Visual Basic
     [$RootKey$\Languages\CodeExpansions\Basic\Paths]
     "HelloWorldVB"="$PackageFolder$"

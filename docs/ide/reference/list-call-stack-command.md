@@ -21,7 +21,7 @@ Displays the current call stack.
 
 ## Syntax
 
-```
+```cmd
 Debug.ListCallStack [/Count:number] [/ShowTypes:yes|no]
 [/ShowNames:yes|no] [/ShowValues:yes|no] [/ShowModule:yes|no]
 [/ShowLineOffset:yes|no] [/ShowByteOffset:yes|no]
@@ -83,7 +83,7 @@ Debug.ListCallStack [/Count:number] [/ShowTypes:yes|no]
 ## Remarks
  Changes made to the arguments or switches apply to future invocations of this command. If you issue Debug.ListCallStackby itself, the entire call stack displays. If you specify an index, for example,
 
-```
+```cmd
 Debug.ListCallStack 2
 ```
 
@@ -91,7 +91,7 @@ Debug.ListCallStack 2
 
  You can also write this command using its pre-defined alias, kb. For example, you can enter
 
-```
+```cmd
 kb 2
 ```
 
@@ -99,7 +99,7 @@ kb 2
 
 ## Example
 
-```
+```cmd
 >Debug.CallStack /Count:4 /ShowTypes:yes
 ```
 
