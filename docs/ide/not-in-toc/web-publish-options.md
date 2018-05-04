@@ -1,21 +1,19 @@
 ---
-title: "What publishing options are right for me? | Microsoft Docs"
-ms.custom: ""
-ms.date: "03/09/2017"
+title: What publishing options are right for me?
+ms.date: 03/09/2017
 ms.reviewer: "riande"
-ms.technology: 
-  - "vs-ide-deployment"
-ms.topic: "conceptual"
-helpviewer_keywords: 
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-deployment
+ms.topic: conceptual
+helpviewer_keywords:
   - "ASP.NET, web applications, deployment, publishing"
 ms.assetid: 3A13F685-531C-457D-A98E-631888011E4B
-author: "Mikejo5000"
-ms.author: "mikejo"
+author: Mikejo5000
+ms.author: mikejo
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
-
 # What publishing options are right for me?
 
 From within Visual Studio, Web applications can be published directly to the following targets:

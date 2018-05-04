@@ -1,10 +1,9 @@
 ---
-title: "Debug live ASP.NET Azure apps - Visual Studio | Microsoft Docs"
-ms.description: "Learn how to set snappoints and view snapshots with the Snapshot Debugger"
+title: "Debug live ASP.NET Azure apps"
+ms.description: "Learn how to set snappoints and view snapshots with the Snapshot Debugger."
 ms.custom: "mvc"
 ms.date: "03/16/2018"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "tutorial"
 helpviewer_keywords: 
   - "debugger"

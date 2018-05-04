@@ -1,16 +1,16 @@
 ---
-title: "Visual Studio templates for projects and files | Microsoft Docs"
-ms.custom: ""
-ms.date: "01/02/2018"
+title: Visual Studio templates for projects and files
+ms.date: 01/02/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
-ms.topic: "conceptual"
-helpviewer_keywords: 
+ms.topic: conceptual
+helpviewer_keywords:
   - "templates [Visual Studio], project"
   - "templates [Visual Studio], item"
   - "item templates [Visual Studio]"
   - "project templates [Visual Studio]"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ---
 # Project and item templates
@@ -47,8 +47,8 @@ Starter Kits are enhanced templates that can be shared with other members of the
 
 ## See also
 
-[How to: Create project templates](../ide/how-to-create-project-templates.md)  
-[How to: Create item templates](../ide/how-to-create-item-templates.md)  
-[Template parameters](../ide/template-parameters.md)  
-[Customizing templates](../ide/customizing-project-and-item-templates.md)  
-[NuGet packages in Visual Studio templates](/nuget/visual-studio-extensibility/visual-studio-templates)
+- [How to: Create project templates](../ide/how-to-create-project-templates.md)
+- [How to: Create item templates](../ide/how-to-create-item-templates.md)
+- [Template parameters](../ide/template-parameters.md)
+- [Customizing templates](../ide/customizing-project-and-item-templates.md)
+- [NuGet packages in Visual Studio templates](/nuget/visual-studio-extensibility/visual-studio-templates)

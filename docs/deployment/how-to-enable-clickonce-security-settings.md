@@ -2,8 +2,7 @@
 title: "How to: Enable ClickOnce Security Settings | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-deployment"
+ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -14,9 +13,9 @@ helpviewer_keywords:
   - "ClickOnce deployment, security settings"
   - "security settings, ClickOnce deployment"
 ms.assetid: 73cd3e9d-cd72-4ad2-8cae-94d6bb6b01e0
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

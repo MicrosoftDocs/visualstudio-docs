@@ -1,7 +1,7 @@
 ---
-title: "Load test counter sets in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "conceptual"
+title: "Load test counter sets in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 f1_keywords:
   - "vs.test.load.dialog.countersetmapping"
 helpviewer_keywords:
@@ -13,6 +13,7 @@ ms.assetid: 64315c2f-a0b2-4378-be16-0774b99beef5
 author: gewarren
 ms.author: gewarren
 manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # How to: Manage Counter Sets Using the Load Test Editor

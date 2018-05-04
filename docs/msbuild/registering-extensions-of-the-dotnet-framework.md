@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "MSBuild, registering extensions of the .NET Framework"
   - ".NET Framework extensions, registering"
 ms.assetid: deee6f53-ea87-4b88-a120-bea589822e03
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

@@ -2,8 +2,7 @@
 title: "Walkthrough: Manually Deploying a ClickOnce Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-deployment"
+ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -18,9 +17,9 @@ helpviewer_keywords:
   - "manual ClickOnce deployments"
   - "manifests [ClickOnce]"
 ms.assetid: ccee6551-a1b9-4ca2-8845-9c1cf4ac2560
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

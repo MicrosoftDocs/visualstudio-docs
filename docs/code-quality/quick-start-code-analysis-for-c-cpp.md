@@ -1,7 +1,7 @@
 ---
-title: "Quick Start: Code Analysis for C/C++ | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
+title: "Quick Start: Code Analysis for C/C++"
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "code analysis,C/C++"
 author: mikeblome
 ms.author: mblome
-manager: douge
+manager: wpickett
 ms.workload:
   - "cplusplus"
 ---

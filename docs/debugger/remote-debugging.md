@@ -2,8 +2,7 @@
 title: "Remote debugging in Visual Studio | Microsoft Docs"
 ms.custom: "remotedebugging"
 ms.date: "08/14/2017"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.remote.overview"

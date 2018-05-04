@@ -2,11 +2,10 @@
 title: "Troubleshoot Breakpoints in the Visual Studio Debugger | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/23/2018"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
-author: "carpediemma"
-ms.author: "emrou"
+author: "mikejo5000"
+ms.author: "mikejo"
 manager: douge
 ms.workload: 
   - "multiple"

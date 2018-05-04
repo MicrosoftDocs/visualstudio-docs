@@ -1,6 +1,7 @@
 ---
-title: "Common Quick Actions | Microsoft Docs"
+title: Common Quick Actions
 ms.date: 03/28/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 author: "kuhlenh"
@@ -14,7 +15,7 @@ ms.workload:
 ---
 # Common Quick Actions
 
-The sections in this topic list some of the common Quick Actions that are applicable to both C# and Visual Basic code. These actions are *code fixes* for the built-in [analyzer rules](../code-quality/roslyn-analyzers-overview.md) in Visual Studio.
+The sections in this topic list some of the common **Quick Actions** that are applicable to both C# and Visual Basic code. These actions are *code fixes* for either compiler diagnostics, or the built-in [.NET Compiler Platform analyzers](../code-quality/roslyn-analyzers-overview.md) in Visual Studio.
 
 ## Actions that fix errors
 
@@ -950,4 +951,4 @@ Console.WriteLine($"{x} {y}");
 
 ## See also
 
-[Quick Actions](../ide/quick-actions.md)
+- [Quick Actions](../ide/quick-actions.md)

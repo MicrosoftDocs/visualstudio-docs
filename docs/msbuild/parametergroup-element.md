@@ -3,7 +3,7 @@ title: "ParameterGroup Element | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/13/2017"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "<ParameterGroup> element [MSBuild]"
   - "ParameterGroup element [MSBuild]"
 ms.assetid: c3275e69-a427-4889-bc1d-51bff2c285fa
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

@@ -2,8 +2,7 @@
 title: "How to: Configure the ClickOnce Trust Prompt Behavior | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-deployment"
+ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -16,9 +15,9 @@ helpviewer_keywords:
   - "ClickOnce applications, trust prompt"
   - "ClickOnce deployment, trust prompt"
 ms.assetid: cc04fa75-012b-47c9-9347-f4216be23cf2
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

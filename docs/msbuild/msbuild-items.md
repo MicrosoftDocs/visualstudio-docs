@@ -7,7 +7,7 @@ ms.topic: "conceptual"
 helpviewer_keywords: 
   - "MSBuild, Items"
 ms.assetid: d762eff4-c92a-4b5f-a944-1ca30aa22319
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

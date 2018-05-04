@@ -3,7 +3,7 @@ title: "Error Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "reference"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#Error"
 dev_langs: 
@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "Error task [MSBuild]"
   - "MSBuild, Error task"
 ms.assetid: e96a90ee-a8ae-4e5b-8ef2-b5cf5fedd8b2
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

@@ -3,7 +3,7 @@ title: "CreateItem Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "reference"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#CreateItem"
 dev_langs: 
@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "CreateItem task [MSBuild]"
   - "MSBuild, CreateItem task"
 ms.assetid: c4311f38-979e-4324-b524-9e8c1cbdc41a
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

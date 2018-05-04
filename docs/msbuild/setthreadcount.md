@@ -3,7 +3,7 @@ title: "SetThreadCount | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "reference"
 apiname: 
   - "SetThreadCount"
 apilocation: 
@@ -12,7 +12,7 @@ apitype: "COM"
 helpviewer_keywords: 
   - "SetThreadCount"
 ms.assetid: 335335a5-8ca0-4e18-95f5-62aa6a691386
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

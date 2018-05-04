@@ -9,6 +9,7 @@
 ## [Learn to debug using Visual Studio](getting-started-with-the-debugger.md)
 ## [Running Python code in the debugger...](../python/tutorial-working-with-python-in-visual-studio-step-04-debugging.md)
 ## [Debug a live Azure app](debug-live-azure-applications.md)
+## [Debug managed and native code](how-to-debug-managed-and-native-code.md)
 ## [View snapshots using IntelliTrace step-back](how-to-use-intellitrace-step-back.md)
 # How-to guides
 ## [Navigate through code with the debugger](navigating-through-code-with-the-debugger.md)
@@ -295,6 +296,7 @@
 #### [Unable to Attach to the Process](unable-to-attach-to-the-process.md)
 #### [Edit and Continue Error Message dialog box](edit-and-continue-error-message-dialog-box.md)
 #### [Error: Evaluating the function 'function' timed out and needed to be aborted in an unsafe way](error-evaluating-the-function-function-timed-out-and-needed-to-be-aborted-in-an-unsafe-way.md)
+#### [Error: The target process exited with code 'code' while evaluating the function 'function'](error-evaluating-the-function-process-exited.md)
 #### [Error: Unable to connect to SQL Server on remote machine](error-unable-to-connect-to-sql-server-on-remote-machine.md)
 #### [Error: Unable to access the SQL Server debugging interface](error-unable-to-access-the-sql-server-debugging-interface.md)
 #### [Error: SQL Can't Find SSDEBUGPS](error-sql-can-t-find-ssdebugps.md)

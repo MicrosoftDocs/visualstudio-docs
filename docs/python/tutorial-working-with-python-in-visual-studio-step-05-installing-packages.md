@@ -1,19 +1,16 @@
 ---
-title: Working with Python, step 5, installing packages
-description: Step 5 of a core tutorial for working with Python within Visual Studio, demonstrating Visual Studio's features for managing packages in a Python environment.
-ms.custom: "mvc"
+title: Working with Python Tutorial, Step 5, installing packages
+description: Step 5 of a core walkthrough of Python capabilities in Visual Studio, demonstrating Visual Studio's features for managing packages in a Python environment.
 ms.date: 03/05/2018
-ms.technology:
-  - "devlang-python"
-dev_langs:
-  - "python"
-ms.topic: "tutorial"
-author: "kraigb"
-ms.author: "kraigb"
+ms.prod: visual-studio-dev15
+ms.technology: vs-python
+ms.topic: tutorial
+author: kraigb
+ms.author: kraigb
 manager: douge
 ms.workload:
-  - "python"
-  - "data-science"
+  - python
+  - data-science
 ---
 
 # Step 5: Installing packages in your Python environment
@@ -65,7 +62,7 @@ The Python developer community has produced thousands of useful packages that yo
 
   ![Output of matplotlib example](media/environments-add-matplotlib3.png)
 
-## Next steps
+## Next step
 
 > [!div class="nextstepaction"]
 > [Working with Git](tutorial-working-with-python-in-visual-studio-step-06-working-with-git.md)

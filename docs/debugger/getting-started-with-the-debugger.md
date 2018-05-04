@@ -1,10 +1,9 @@
 ---
-title: "Learn to debug - Visual Studio | Microsoft Docs"
-ms.description: "Learn how to start the Visual Studio debugger, step through code, and inspect data"
+title: "Get started with the debugger"
+ms.description: "Learn how to start the Visual Studio debugger, step through code, and inspect data."
 ms.custom: "mvc"
 ms.date: "03/16/2018"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "tutorial"
 helpviewer_keywords: 
   - "debugger"
@@ -15,7 +14,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Learn to debug using Visual Studio
+# Tutorial: Learn to debug using Visual Studio
 
 This topic introduces the features of the Visual Studio debugger in a step-by-step walkthrough. If you want a higher-level view of the debugger features, see [Debugger Feature Tour](../debugger/debugger-feature-tour.md).
 

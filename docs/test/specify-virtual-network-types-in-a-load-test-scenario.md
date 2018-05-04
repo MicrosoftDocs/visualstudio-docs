@@ -1,7 +1,7 @@
 ---
-title: "Specifying Virtual Network Types in a Load Test Scenario in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "conceptual"
+title: "Specifying Virtual Network Types in a Load Test Scenario in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "load tests, scenarios"
   - "load tests, adding networks"
@@ -12,6 +12,7 @@ ms.assetid: 3c4f7874-081a-4ec4-9510-4d6d7d863a11
 author: gewarren
 ms.author: gewarren
 manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # Specify Virtual Network Types in a Load Test Scenario

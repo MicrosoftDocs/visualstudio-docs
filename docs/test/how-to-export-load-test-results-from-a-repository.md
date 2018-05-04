@@ -1,7 +1,7 @@
 ---
-title: "Export Load Test Results in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "conceptual"
+title: "Export Load Test Results in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "results, load test"
   - "load tests, exporting results"
@@ -11,6 +11,7 @@ ms.assetid: 716c2af5-8737-4d31-956f-a0273f7c5c0c
 author: gewarren
 ms.author: gewarren
 manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # How to: Export Load Test Results from a Repository

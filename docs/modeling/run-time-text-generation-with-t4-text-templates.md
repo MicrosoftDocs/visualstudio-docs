@@ -1,8 +1,7 @@
 ---
-title: "Run-Time Text Generation with T4 Text Templates | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Run-Time Text Generation with T4 Text Templates
+ms.date: 11/04/2016
+ms.topic: conceptual
 dev_langs:
  - CSharp
  - VB
@@ -16,6 +15,7 @@ ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
 # Run-Time Text Generation with T4 Text Templates

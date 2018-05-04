@@ -1,7 +1,7 @@
 ---
-title: Accessing data in Visual Studio | Microsoft Docs
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Accessing data in Visual Studio
+ms.date: 11/04/2016
+ms.topic: conceptual
 f1_keywords:
   - "80025080"
 helpviewer_keywords:
@@ -9,10 +9,11 @@ helpviewer_keywords:
   - "data access [Visual Studio]"
   - "data [C#]"
   - "ADO.NET, data access"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
-ms.technology: "vs-data-tools"
+ms.prod: visual-studio-dev15
+ms.technology: vs-data-tools
 ms.workload:
   - "data-storage"
 ---

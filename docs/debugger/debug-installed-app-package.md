@@ -2,8 +2,7 @@
 title: "Debug an installed app package (UWP) | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
 ms.date: "07/17/2017"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.installedapppackagelauncher"

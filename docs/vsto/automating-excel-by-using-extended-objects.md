@@ -1,10 +1,10 @@
 ---
 title: "Automating Excel by Using Extended Objects | Microsoft Docs"
 ms.custom: ""
-ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
-ms.topic: "conceptual"
+ms.date: 02/02/2017
+ms.technology: office-development
+ms.prod: visual-studio-dev15
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"

@@ -1,21 +1,21 @@
 ---
-title: "Create solutions and projects in Visual Studio | Microsoft Docs"
-ms.custom: ""
+title: Create solutions and projects in Visual Studio
 ms.date: 02/06/2018
-ms.technology: "vs-ide-general"
-ms.topic: "conceptual"
-f1_keywords: 
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-general
+ms.topic: conceptual
+f1_keywords:
   - "vs.openprojectfromweb"
   - "vs.newproject"
   - "VS.ToolsOptionsPages.Projects.General"
   - "SolutionItemsProject"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "solutions [Visual Studio], creating"
   - "projects [Visual Studio], creating"
-author: "gewarren"
-ms.author: "gewarren"
+author: gewarren
+ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Create solutions and projects
@@ -129,7 +129,7 @@ You can delete solutions and their contents permanently, but not by using the Vi
 
 ## See also
 
-[Solutions and projects](../ide/solutions-and-projects-in-visual-studio.md)  
-[Microsoft's open source repositories on GitHub](https://github.com/Microsoft)  
-[Visual Studio samples](../ide/visual-studio-samples.md)  
-[Developer code samples](https://code.msdn.microsoft.com/)
+- [Solutions and projects](../ide/solutions-and-projects-in-visual-studio.md)
+- [Microsoft's open source repositories on GitHub](https://github.com/Microsoft)
+- [Visual Studio samples](../ide/visual-studio-samples.md)
+- [Developer code samples](https://code.msdn.microsoft.com/)

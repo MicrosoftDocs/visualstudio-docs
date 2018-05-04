@@ -3,7 +3,7 @@ title: "WPF MSBuild Task Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "build tasks using the Microsoft build engine [WPF MSBuild], compile markup and process resources"
   - "WPF MSBuild task reference [WPF MSBuild]"
 ms.assetid: 96df0370-e50f-4ffc-9771-b12fb8721143
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: douge
 ms.workload: 

@@ -1,10 +1,10 @@
 ---
-title: "Analyze Memory Usage in Visual Studio | Microsoft Docs"
-ms.custom: "H1Hack27Feb2017"
+title: "Measure memory usage in your apps"
+description: "Find memory leaks and inefficient memory while you're debugging with the debugger-integrated diagnostic tool."
+ms.custom: "mvc"
 ms.date: "04/25/2017"
-ms.technology: 
-  - "vs-ide-debug"
-ms.topic: "conceptual"
+ms.technology: "vs-ide-debug"
+ms.topic: "tutorial"
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: douge

@@ -2,8 +2,7 @@
 title: "Debug at Design Time - Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/21/2018"
-ms.technology: 
-  - "vs-ide-debug"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
