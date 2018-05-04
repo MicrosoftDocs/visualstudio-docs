@@ -926,6 +926,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/ide/getting-started-with-debugging-in-visual-studio.md",
+            "redirect_url": "/visualstudio/ide/find-and-fix-code-errors",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/ide/get-started-with-visual-studio.md",
             "redirect_url": "/visualstudio/ide/visual-studio-ide",
             "redirect_document_id": false
