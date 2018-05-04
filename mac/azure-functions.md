@@ -23,7 +23,9 @@ To create and deploy functions you also need an Azure subscription, which availa
 
 1. In Visual Studio for Mac, select **File > New Solution…** 
 2. From the New Project dialog, select the Azure Functions template under **Cloud > General** and click **Next**:
+
     ![New Project dialog showing Azure functions option](media/azure-functions-image1.png)
+
 3. Enter a **Project Name** and select **Create**.
 
 Visual Studio for Mac creates a .NET Standard project with a default HttpTrigger function included. It also includes NuGet references to a variety of **AzureWebJobs** packages, as well as the **Newtonsoft.Json** package.
@@ -60,13 +62,17 @@ Now that you've created a new Azure Functions project in Visual Studio for Mac, 
 With Azure Functions support in Visual Studio for Mac you can test and debug your function on your local development computer.
 
 1. To test your function locally, press the **Run** button in Visual Studio for Mac:
-    ![Start debugging button in visual studio for mac](media/azure-functions-run.png) 
-2. Running the project starts local debugging on the Azure Function and opens a new Terminal window, as illustrated in the following image: 
+
+    ![Start debugging button in visual studio for mac](media/azure-functions-run.png)
+
+1. Running the project starts local debugging on the Azure Function and opens a new Terminal window, as illustrated in the following image: 
 
     ![terminal window showing function output](media/azure-functions-terminal.png) 
 
     Copy the URL from the  output.
+
 3. Paste the URL for the HTTP request into your browser's address bar. Add the query string `?name=<yourname>` to the end of the URL and execute the request. The following image shows the response in the browser to the local GET request returned by the function:
+
     ![http request in browser](media/azure-functions-httpreq.png)
 
 ## Creating a new function
