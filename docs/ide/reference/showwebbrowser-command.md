@@ -21,7 +21,7 @@ Displays the URL you specify in a Web browser window either within the integrate
 
 ## Syntax
 
-```
+```cmd
 View.ShowWebBrowser URL [/new][/ext]
 ```
 
@@ -45,7 +45,7 @@ View.ShowWebBrowser URL [/new][/ext]
 ## Example
  The following example displays the MSDN Online home page in a Web browser outside of the IDE. If an instance of the Web browser is already open, it is used; otherwise a new instance is launched.
 
-```
+```cmd
 >View.ShowWebBrowser http://msdn.microsoft.com /ext
 ```
 
