@@ -12,6 +12,9 @@ ms.workload:
   - "multiple"
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
+dev_langs:
+ - CSharp
+ - VB
 ---
 # Walkthrough: Connect a Host to a Generated Directive Processor
 
@@ -19,7 +22,7 @@ You can write your own host that processes text templates. A basic custom host i
 
 In this walkthrough, you expand your custom host so that it supports text templates that call directive processors. When you define a domain-specific language, it generates a *directive processor* for the domain model. The directive processor makes it easier for users to write templates that access the model, reducing the need to write assembly and import directives in the templates.
 
-> [!WARNING]
+> [!NOTE]
 > This walkthrough builds on [Walkthrough: Creating a Custom Text Template Host](../modeling/walkthrough-creating-a-custom-text-template-host.md). Perform that walkthrough first.
 
 This walkthrough includes the following tasks:
@@ -31,7 +34,8 @@ This walkthrough includes the following tasks:
 -   Testing the custom host with the generated directive processor.
 
 ## Prerequisites
- To define a DSL, you must have installed the following components:
+
+To define a DSL, you must have installed the following components:
 
 |||
 |-|-|
@@ -41,7 +45,7 @@ This walkthrough includes the following tasks:
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 
- In addition, you must have the custom text template transformation created in [Walkthrough: Creating a Custom Text Template Host](../modeling/walkthrough-creating-a-custom-text-template-host.md).
+In addition, you must have the custom text template transformation created in [Walkthrough: Creating a Custom Text Template Host](../modeling/walkthrough-creating-a-custom-text-template-host.md).
 
 ## Use Domain-Specific Language Tools to Generate a Directive Processor
 
@@ -57,12 +61,12 @@ In this walkthrough, you use the Domain-Specific Language Designer Wizard to cre
 
     -   Company name: Fabrikam
 
-     For more information about creating a domain-specific language solution, see [How to: Create a Domain-Specific Language Solution](../modeling/how-to-create-a-domain-specific-language-solution.md).
+   For more information about creating a domain-specific language solution, see [How to: Create a Domain-Specific Language Solution](../modeling/how-to-create-a-domain-specific-language-solution.md).
 
 2.  On the **Build** menu, click **Build Solution**.
 
     > [!IMPORTANT]
-    >  This step generates the directive processor and adds the key for it in the registry.
+    > This step generates the directive processor and adds the key for it in the registry.
 
 3.  On the **Debug** menu, click **Start Debugging**.
 

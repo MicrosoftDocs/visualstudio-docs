@@ -53,15 +53,15 @@ Select or clear the following options:
 
 ## To specify a managed rule set
 
-- From the **Run this rule set** list, use one of the following methods:
+From the **Run this rule set** list, use one of the following methods:
 
-    - Select a Microsoft standard rule set.
+- Select a Microsoft standard rule set.
 
-    - To select a custom rule set, click **\<Select Rule Set from Source Control...>**, and then type the version control path of the rule set in the source control browser. The syntax of a version control path is:
+- Select a custom rule set by clicking **\<Select Rule Set from Source Control...>**. Then, type the version control path of the rule set in the source control browser. The syntax of a version control path is:
 
-    - **$/** `TeamProjectName` **/** `VersionControlPath`
+   **$/** `TeamProjectName` **/** `VersionControlPath`
 
-    - For more information about how to create and implement a custom check-in policy rule set, see [Implementing Custom Check-in Policies for Managed Code](../code-quality/implementing-custom-code-analysis-check-in-policies-for-managed-code.md).
+For more information about how to create and implement a custom check-in policy rule set, see [Implement Custom Check-in Policies for Managed Code](../code-quality/implementing-custom-code-analysis-check-in-policies-for-managed-code.md).
 
 ## See also
 
