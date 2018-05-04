@@ -116,7 +116,7 @@ Another way that you can change the default language is by running the installer
 
 ## Step 7 - Change the installation location (Optional)
 
-**New in 15.7** You can now reduce the installation footprint of Visual Studio on your system drive. You can choose to move the download cache, shared components, SDKs, and tools to different drives, and keep Visual Studio on the drive that runs it the fastest.
+**New in 15.7**: You can now reduce the installation footprint of Visual Studio on your system drive. You can choose to move the download cache, shared components, SDKs, and tools to different drives, and keep Visual Studio on the drive that runs it the fastest.
 
   ![Visual Studio 2017 - Change the installation location](media/installation-options-by-location.png "Change the installation location")
 

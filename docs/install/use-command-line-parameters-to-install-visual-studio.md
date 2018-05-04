@@ -99,8 +99,7 @@ The command-line options are used in conjunction with the setup bootstrapper, wh
 | `--path <name>=<path>` | **New in 15.7, optional**: Used to specify custom install paths for the installation. Supported path names are shared, cache, and install. |
 | `--path cache=<path>` | **New in 15.7, optional**: Uses the location you specify to download installation files. This location can only be set the first time Visual Studio is installed. Example: `--path cache="C:\VS\cache"` |
 | `--path shared=<path>` | **New in 15.7, optional**: Contains shared files for side-by-side Visual Studio installations. Some tools and SDKs install to a location on this drive, while some others might override this setting and install to another drive. Example: `--path shared="C:\VS\shared"` |
-| `--path install=<path>` | **New in 15.7, optional**: Equivalent to `–-installPath`. Specifically, `--installPath "C:\VS"` and `--path install="C:\VS"` are equivalent. Only one of these can be used at a time. 
-. |
+| `--path install=<path>` | **New in 15.7, optional**: Equivalent to `–-installPath`. Specifically, `--installPath "C:\VS"` and `--path install="C:\VS"` are equivalent. Only one of these can be used at a time. |
 
 ## List of workload IDs and component IDs
 

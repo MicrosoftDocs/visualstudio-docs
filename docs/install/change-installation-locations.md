@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Change the installation locations in Visual Studio 2017
 
-**New in 15.7** You can reduce the installation footprint on your system drive by moving download cache, shared components, SDKs, and tools to different drives.
+**New in 15.7**: You can reduce the installation footprint on your system drive by moving download cache, shared components, SDKs, and tools to different drives.
 
 Here's how.
 

@@ -107,19 +107,19 @@ In each example, `vs_enterprise.exe`, `vs_professional.exe` and `vs_community.ex
 
 These command-line paramters are **new in 15.7**. For more information about them, see the [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md) page.
 
-* Using cache, shared, and install paths:
+* Using the install, cache, and shared paths:
 
  `vs_enterprise.exe --add Microsoft.VisualStudio.Workload.CoreEditor --path install="C:\VS" --path cache="C:\VS\cache" --path shared="C:\VS\shared"`
 
-* Using only cache and install paths:
+* Using only the install and cache paths:
 
  `vs_enterprise.exe --add Microsoft.VisualStudio.Workload.CoreEditor --path install="C:\VS" --path cache="C:\VS\cache"`
 
-* Using only shared and install paths:
+* Using only the install and shared paths:
 
  `vs_enterprise.exe --add Microsoft.VisualStudio.Workload.CoreEditor --path install="C:\VS" --path shared="C:\VS\shared"`
 
-* Using only install path: 
+* Using only the install path:
 
  `vs_enterprise.exe --add Microsoft.VisualStudio.Workload.CoreEditor --path install="C:\VS"`
 
