@@ -59,7 +59,7 @@ For more details, see [this blog post](https://blogs.msdn.microsoft.com/visualst
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 
-## <a name="VersionSupport" /a>Version support for architecture and modeling tools
+## <a name="VersionSupport" />Version support for architecture and modeling tools
 
 Visual Studio 2015 is available in several versions. Not all of these provide support for the architecture and modeling tools. The following table shows the availability of each tool.
 
