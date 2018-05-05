@@ -21,7 +21,7 @@ Begins the debug process and allows you to specify how errors are handled.
 
 ## Syntax
 
-```
+```cmd
 Debug.ListDisassembly [/count:number] [/endaddress:expression]
 [/codebytes:yes|no] [/source:yes|no] [/symbolnames:yes|no]
 [/linenumbers:yes|no]
@@ -56,7 +56,7 @@ Debug.ListDisassembly [/count:number] [/endaddress:expression]
 
 ## Example
 
-```
+```cmd
 >Debug.ListDisassembly
 ```
 

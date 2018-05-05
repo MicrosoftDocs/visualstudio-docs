@@ -22,7 +22,7 @@ Evaluates an expression, or displays specified text.
 
 ## Syntax
 
-```
+```cmd
 Debug.Print text
 ```
 
@@ -34,13 +34,13 @@ Debug.Print text
 ## Remarks
  You can use the question mark (?) as an alias for this command. So, for example, the command
 
-```
+```cmd
 >Debug.Print expA
 ```
 
  can also be written
 
-```
+```cmd
 >? expA
 ```
 
@@ -48,7 +48,7 @@ Debug.Print text
 
 ## Example
 
-```
+```cmd
 >Debug.Print varA
 ```
 

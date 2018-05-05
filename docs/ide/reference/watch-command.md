@@ -21,7 +21,7 @@ Creates and opens a specified instance of a **Watch** window. You can use a **Wa
 
 ## Syntax
 
-```
+```cmd
 Debug.Watch[index]
 ```
 
@@ -35,7 +35,7 @@ Debug.Watch[index]
 
 ## Example
 
-```
+```cmd
 >Debug.Watch1
 ```
 
