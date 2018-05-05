@@ -23,7 +23,7 @@ Developers can find more information and sign up for news and future private pre
 
 Visual Studio IntelliCode is a range of capabilities that offers new productivity enhancements through artificial intelligence (AI).
 
-Developers can download an experimental extension for Visual Studio 2017 version 15.7 and later. The extension provides enhanced IntelliSense that can predict the next and correct API for the developer to use, rather than the traditional alphabetical list of members. It uses the developer's current code context and patterns to provide this dynamic list. We'll update the extension with more capabilities in the coming months.
+Developers can [download an experimental extension](https://marketplace.visualstudio.com/) for Visual Studio 2017 version 15.7 and later. The extension provides enhanced IntelliSense that can predict the most likely correct API for the developer to use, rather than the traditional alphabetical list of members. It uses the developer's current code context and patterns to provide this dynamic list. We'll update the extension with more capabilities in the coming months.
 
 ## Q: What makes “AI-assisted IntelliSense” powered by IntelliCode better than regular IntelliSense?
 
