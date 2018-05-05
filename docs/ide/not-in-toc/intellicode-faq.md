@@ -19,7 +19,7 @@ We showed an early view of how IntelliCode does this by delivering better contex
 
 Developers can find more information and sign up for news and future private previews at [https://aka.ms/intellicode](https://aka.ms/intellicode).
 
-## Q. What will Visual Studio IntelliCode enable customers to do?
+## Q. What does Visual Studio IntelliCode enable customers to do?
 
 Visual Studio IntelliCode is a range of capabilities that offers new productivity enhancements through artificial intelligence (AI).
 
@@ -47,8 +47,10 @@ The experience was shown at Build 2018 in Visual Studio 2017 on a C# codebase. H
 
 ## Q: What about privacy? Are you sending my code to the cloud? What customer data is being sent to Microsoft?
 
-Developers are invited to experience Visual Studio IntelliCode today as an experimental preview extension. The purpose of the extension is to enable developers to test IntelliCode's capabilities, and to provide feedback to the product team. We capture some anonymized usage and error-reporting data from the extension to help improve the product. No user-defined code is sent to Microsoft unless it matches a type or member that's already in the extension's model (that is, .NET Framework and open-source types and members).
+Developers are invited to experience Visual Studio IntelliCode today as an experimental preview extension. The purpose of the extension is to enable developers to test IntelliCode's capabilities, and to provide feedback to the product team.
 
-Developers can opt out of the data collection entirely by opting out of Visual Studio data collection. In addition, the extension may periodically ask the developer to complete a survey, which again is anonymized. Users can sign up for news and a future private preview, but are not currently required to do so to use the experimental extension.
+We capture some anonymized usage and error-reporting data from the extension to help improve the product. No user-defined code is sent to Microsoft unless it matches a type or member that's already in the extension's model (that is, .NET Framework and open-source types and members). Developers can opt out of Visual Studio data collection, which includes the data that the IntelliCode extension may collect. From the menu bar, select **Help** > **Send Feedback** > **Settings**. In the **Visual Studio Experience Improvement Program** dialog, select **No, I would not like to participate** and then select **OK**.
+
+The IntelliCode extension may periodically ask the developer to complete a survey, which again is anonymized. Users can sign up for news and a future private preview, but are not currently required to do so to use the experimental extension.
 
 Future features may require access to a service, which will require sign-up. We'll publish more details when those features are ready for preview.
