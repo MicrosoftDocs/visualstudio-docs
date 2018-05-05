@@ -47,7 +47,7 @@ To find out more about these tools and the scenarios that they support, see:
 
 - [Visualize code](../modeling/visualize-code.md)
 
-##  <a name="ScenarioOverview"></a> Scenario Overview
+## Scenario overview
 
 This scenario describes episodes from the software development lifecycles of two fictitious companies: Dinner Now and Lucerne Publishing. Dinner Now provides a Web-based meal delivery service in Seattle. Customers can order meals and pay for them on the Dinner Now Web site. The orders are then sent to the appropriate local restaurant for delivery. Lucerne Publishing, a company in New York, runs several businesses both off and on the Web. For example, they run a Web site where customers can post restaurant reviews.
 
@@ -67,11 +67,11 @@ Both teams use modeling diagrams in Visual Studio to help them develop systems t
 
 For more information about Team Foundation Server, see:
 
-- [Planning and tracking work](#PlanningTracking)
+- [Planning and tracking work](#planning-and-tracking-work)
 
 - [Testing, validating, and checking in updated code](#TestValidateCheckInCode)
 
-##  <a name="ModelingDiagramsTools"></a> Roles of Architecture and Modeling Diagrams in Software Development
+## <a name="ModelingDiagramsTools"></a> Roles of Architecture and Modeling Diagrams in Software Development
 
 The following table describes roles that these tools can play during multiple and various stages of the software development lifecycle:
 
@@ -97,9 +97,7 @@ See:
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 
-Both teams also use dependency validation to make sure that code under development remains consistent with the design.
-
-See:
+Both teams also use dependency validation to make sure that code under development remains consistent with the design. See:
 
 - [Keeping Code Consistent with the Design](#ValidatingCode)
 
@@ -107,10 +105,10 @@ See:
 
 - [Validate code with dependency diagrams](../modeling/validate-code-with-layer-diagrams.md)
 
-    > [!NOTE]
-    > Some versions of Visual Studio support dependency validation and read-only versions of code maps for visualization and modeling. To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
+> [!NOTE]
+> Some versions of Visual Studio support dependency validation and read-only versions of code maps for visualization and modeling. To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
 
-##  <a name="UnderstandingCommunicating"></a> Understanding and Communicating Information about the System
+## Understand and communicate information about the system
 
 There is no prescribed order for using the Visual Studio modeling diagrams, so you can use them as they fit with your needs or approach. Usually, teams revisit their models iteratively and frequently throughout a project. Each diagram offers particular strengths to help you understand, describe, and communicate different aspects of the system under development.
 
@@ -136,20 +134,9 @@ The diagrams are integrated with Team Foundation Server so the teams can plan, m
 
 Before teams check in their changes, they validate the code against the tests and the design by running builds that include dependency validation and automated tests. This helps make sure that the updated code does not conflict with the design and break previously working functionality.
 
-See:
+### Identify Changes to the Existing System
 
-- [Identifying changes to the existing system](#DeterminingChanges)
-
-- [Keeping code consistent with the design](#ValidatingCode)
-
-- [General tips for creating and using models](#GeneralTips)
-
-- [Planning and tracking work](#PlanningTracking)
-
-- [Testing, validating, and checking in updated code](#TestValidateCheckInCode)
-
-###  <a name="DeterminingChanges"></a> Identifying Changes to the Existing System
- Dinner Now must estimate the cost of meeting the new requirement. This depends partly on how much this change will affect other parts of the system. To help them understand this, one of the Dinner Now developers creates these maps and diagrams from existing code:
+Dinner Now must estimate the cost of meeting the new requirement. This depends partly on how much this change will affect other parts of the system. To help them understand this, one of the Dinner Now developers creates these maps and diagrams from existing code:
 
 |**Map or diagram**|**Shows**|
 |------------------------|---------------|
@@ -176,7 +163,7 @@ See:
 |------------------|-------------------|
 |*Code-based class diagram*<br /><br /> See [How to: Add Class Diagrams to Projects (Class Designer)](../ide/how-to-add-class-diagrams-to-projects-class-designer.md).|Existing classes in code.|
 
-###  <a name="ValidatingCode"></a> Keeping Code Consistent with the Design
+###  <a name="ValidatingCode"></a> Keep Code Consistent with the Design
  Dinner Now must make sure that the updated code stays consistent with the design. They create dependency diagrams that describe the layers of functionality in the system, specify the permitted dependencies between them, and associate solution artifacts to those layers.
 
 |**Diagram**|**Describes**|
@@ -199,7 +186,7 @@ See:
 
 - [Customize your build process template](http://msdn.microsoft.com/Library/b94c58f2-ae6f-4245-bedb-82cd114f6039)
 
-###  <a name="GeneralTips"></a> General Tips for Creating and Using Models
+### General Tips for Creating and Using Models
 
 - Most diagrams consist of nodes that are connected by lines. For each diagram type, the toolbox provides different kinds of nodes and lines.
 
@@ -209,7 +196,7 @@ See:
 
 - To create a line or a connection, click the appropriate tool in the toolbox, click the source node, and then click the target node. Some lines can be created only between certain kinds of nodes. When you move the pointer over a possible source or target, the pointer indicates whether you can create a connection.
 
-###  <a name="PlanningTracking"></a> Planning and Tracking Work
+### Plan and track work
 
 Visual Studio modeling diagrams are integrated with Team Foundation Server so that you can plan, manage, and track work more easily. Both teams use models to identify test cases and development tasks and to estimate their work. Lucerne creates and links Team Foundation Server work items to model elements, such as use cases or components. This helps them monitor their progress and trace their work back to the users' requirements. This helps them make sure that their changes continue to meet those requirements.
 
@@ -229,7 +216,7 @@ See:
 
 - [Create your backlog and tasks using Project](http://msdn.microsoft.com/Library/be5cef4f-755f-4ffe-8dd7-876d1e02c330)
 
-###  <a name="TestValidateCheckInCode"></a> Testing, Validating, and Checking In Code
+### <a name="TestValidateCheckInCode"></a> Test, Validate, and Check In Code
 
 As the teams complete each task, they check their code into Team Foundation version control and receive reminders from Team Foundation Server, if they forget. Before Team Foundation Server accepts their check-ins, the teams run unit tests and dependency validation to verify the code against their test cases and the design. They use Team Foundation Server to run builds, automated unit tests, and dependency validation regularly. This helps make sure that the code meets the following criteria:
 
@@ -253,7 +240,7 @@ See:
 
 - [Build and release](/vsts/build-release/index)
 
-##  <a name="UpdatingSystem"></a> Updating the System Using Visualization and Modeling
+## Update the System Using Visualization and Modeling
 
 Lucerne and Dinner Now must integrate their payment systems. The following sections show the modeling diagrams in Visual Studio help them perform this task:
 
@@ -271,7 +258,7 @@ See:
 
 - [Model your app's architecture](../modeling/model-your-app-s-architecture.md)
 
-###  <a name="VisualizeCode"></a> Visualize Existing Code: Code Maps
+### <a name="VisualizeCode"></a> Visualize Existing Code: Code Maps
 
 Code maps show the current organization and relationships in the code. Items are represented by *nodes* on the map, and relationships are represented by *links*. Code maps can help you perform the following kinds of tasks:
 
@@ -341,7 +328,7 @@ This map shows that the PaymentApprover class is now in the DinnerNow.Business n
 |Dependency diagram|The logical architecture of the system. Use dependency validation to make sure that the code stays consistent with the design.<br /><br /> To help you identify existing dependencys or intended dependencys, create a code map and group related items. To create a dependency diagram, see:<br /><br /> - [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)<br />- [Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)|
 |Class diagram (code-based)|Existing classes in code for a specific project.<br /><br /> To visualize and modify an existing class in code, use Class Designer.<br /><br /> See [How to: Add Class Diagrams to Projects (Class Designer)](../ide/how-to-add-class-diagrams-to-projects-class-designer.md).|
 
-###  <a name="DefineClasses"></a> Define a Glossary of Types: Class Diagrams
+### <a name="DefineClasses"></a> Define a Glossary of Types: Class Diagrams
  Class diagrams define the entities, terms, or concepts that participate in the system and their relationships with one another. For example, you can use these diagrams during development to describe the attributes and operations for each class, regardless of their implementation language or style.
 
  To help Lucerne describe and discuss the entities that participate in the Process Payment use case, they draw the following class diagram:
@@ -410,7 +397,7 @@ As a starting point to explore and discuss existing classes, you can use Class D
 |Dependency diagram|Define the logical architecture of the system as it relates to classes.<br /><br /> Use dependency validation to make sure that the code stays consistent with the design.<br /><br /> See:<br /><br /> - [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)<br />- [Dependency Diagrams: Reference](../modeling/layer-diagrams-reference.md)<br />- [Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)<br />- [Validate code with dependency diagrams](../modeling/validate-code-with-layer-diagrams.md)|
 |Code map|Visualize the organization and relationships in existing code.<br /><br /> To identify classes, their relationships, and their methods, create a code map that shows those elements.<br /><br /> See:<br /><br /> - [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)|
 
-###  <a name="DescribeLayers"></a> Describe the Logical Architecture: dependency Diagrams
+### <a name="DescribeLayers"></a> Describe the Logical Architecture: dependency Diagrams
  Dependency diagrams describe the logical architecture of a system by organizing the artifacts in your solution into abstract groups, or *layers*. Artifacts can be many things, such as namespaces, projects, classes, methods, and so on. Layers represent and describe the roles or tasks that the artifacts perform in the system. You can also include layer validation in your build and check-in operations to make sure that the code stays consistent with its design.
 
  To keep the code consistent with the design, Dinner Now and Lucerne use the following dependency diagram to validate their code as it evolves:
@@ -470,7 +457,8 @@ See:
 - [Validate code with dependency diagrams](../modeling/validate-code-with-layer-diagrams.md)
 
 #### Summary: Strengths of Dependency Diagrams
- Dependency diagrams help you:
+
+Dependency diagrams help you:
 
 - Describe the logical architecture of a system according to the functionality of its artifacts.
 
