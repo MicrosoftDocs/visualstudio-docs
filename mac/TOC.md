@@ -57,7 +57,7 @@
 ### [Javascript](javascript.md)
 ## [Azure](azure-workload.md)
 ### [Introduction to Azure Functions](azure-functions.md)
-### [How-to: Azure Functions](azure-functions-lab.md)
+### [Tutorial: Azure Functions](azure-functions-lab.md)
 ### [Connected Services](connected-services.md)
 ## [Unity Game Development](unity-tools.md)
 ### [Setup](setup-vsmac-tools-unity.md)

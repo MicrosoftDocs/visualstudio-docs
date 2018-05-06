@@ -60,39 +60,39 @@ In this lab, you'll learn how to get started building Azure Functions using Visu
 
 1. Select **Add** to create a new storage account:
 
-    ![favorites section of Azure portal showing storage accounts item](media/azure-functions-lab-image5.png)
+    ![Button to add new storage account](media/azure-functions-lab-image5.png)
 
 1. Enter a globally unique name for the **Name** and reuse it for the **Resource group**. You can keep all the other items as their default.
 
-    ![favorites section of Azure portal showing storage accounts item](media/azure-functions-lab-image6.png)
+    ![new storage account details](media/azure-functions-lab-image6.png)
 
 1. Click **Create**. It might take a few minutes to create the storage account. You'll get a notification once it has been successfully created.
 
-    ![favorites section of Azure portal showing storage accounts item](media/azure-functions-lab-image7.png)
+    ![deployment successful notification](media/azure-functions-lab-image7.png)
 
 1. Select the **Go to resource** button from the notification.
 
 1. Select the **Access keys** tab.
 
-    ![favorites section of Azure portal showing storage accounts item](media/azure-functions-lab-image8.png)
+    ![access key setting](media/azure-functions-lab-image8.png)
 
 1. Copy the first **Connection String**. This string is used to integrate Azure storage with your Azure Functions later on.
 
-    ![favorites section of Azure portal showing storage accounts item](media/azure-functions-lab-image9.png)
+    ![information for key 1](media/azure-functions-lab-image9.png)
 
 1. Return to **Visual Studio for Mac** and paste the full connection string in as the **AzureWebJobsStorage** setting in **local.settings.json**. Now you can reference the name of the setting in attributes for functions that need access to its resources.
 
-    ![favorites section of Azure portal showing storage accounts item](media/azure-functions-lab-image10.png)
+    ![local settings file with connection key entered](media/azure-functions-lab-image10.png)
 
 ## Example 3: Creating and debugging an Azure Function
 
 1. You're now ready to start adding some code. When working with a .NET class library, Azure Functions are added as static methods. From **Solution Pad**, right-click the **AzureFunctions** project node and select **Add > Add Function…**:
 
-    ![](media/azure-functions-lab-image11.png)
+    ![Add function option](media/azure-functions-lab-image11.png)
 
 1. In the New Azure Functions dialog, select the Generic webhook template. Set the **Name** to **Add** and click **Ok** to create your function:
 
-    ![](media/azure-functions-lab-image12.png)
+    ![New azure functions dialog](media/azure-functions-lab-image12.png)
 
 1. At the top of the new file, add the **using** directives below:
 
@@ -120,41 +120,41 @@ In this lab, you'll learn how to get started building Azure Functions using Visu
     
     The first thing you'll see is the **FunctionName** attribute that marks this method as an Azure Function. The attribute designates the public name of the function. The attribute name doesn't need to match the actual method name.
 
-    ![](media/azure-functions-lab-image13.png)
+    ![New run method with FunctionName attribute highlighted](media/azure-functions-lab-image13.png)
 
 1. Next, the method is marked as a **public static** method, which is required. You'll also notice that the return value is an **int**. Unless otherwise specified using method attributes, any non-void return value of an Azure Function is returned to the client as text. By default it's returned as **XML**, but can be changed to **JSON**, which you'll do later on in the lab.
 
-    ![](media/azure-functions-lab-image14.png)
+    ![New run method with method initialization highlighted](media/azure-functions-lab-image14.png)
 
 1. The first parameter is marked with the **HttpTrigger** attribute, which indicates that this method is invoked by an HTTP request. The attribute also specifies the authorization level of the method, as well as the verbs it supports (only **"GET"** in this case). You may also optionally define a **Route** that overrides the path to the method and offers a way to automatically extract variables from the path. Since the **Route** is null here, the path to this method will default to **/api/Add**.
 
-    ![](media/azure-functions-lab-image15.png)
+    ![New run method with parameter highlighted](media/azure-functions-lab-image15.png)
 
 1. The final parameter to the method is a **TraceWriter** that can be used to log messages for diagnostics and errors.
 
-    ![](media/azure-functions-lab-image16.png)
+    ![New run method with TraceWriter highlighted](media/azure-functions-lab-image16.png)
 
 1. Set a breakpoint on the **return** line of the method by clicking in the margin of the line:
 
-    ![](media/azure-functions-lab-image17.png)
+    ![Breakpoint set at return line](media/azure-functions-lab-image17.png)
 
 1. Build and run the project in a debug session by pressing **F5** or selecting **Run > Start Debugging**. You could alternatively click the **Run** button. These options all perform the same task. The rest of this lab references **F5**, but you can use the method you find most comfortable.
 
-    ![](media/azure-functions-lab-image18.png)
+    ![Build and Run project](media/azure-functions-lab-image18.png)
 
 1. Running the project will automatically open the Terminal application.
 
 1. The project goes through a process of detecting Azure Functions based on method attributes and a file convention that is covered later in this article. In this case, it detects a single Azure Function and "generates" 1 job function.
 
-    ![](media/azure-functions-lab-image19.png)
+    ![Output of Azure Function in Terminal](media/azure-functions-lab-image19.png)
 
 1. At the bottom of the startup messages, the Azure Functions host prints the URLs of any HTTP trigger APIs. There should only be one. Copy that URL and paste it in a new browser tab.
 
-    ![](media/azure-functions-lab-image20.png)
+    ![Azure Function API URL](media/azure-functions-lab-image20.png)
 
 1. The breakpoint should trigger immediately. The web request has been routed to the function and can now be debugged. Mouse over the **x** variable to see its value. 
 
-    ![](media/azure-functions-lab-image21.png)
+    ![Breakpoint triggered](media/azure-functions-lab-image21.png)
 
 1. Remove the breakpoint using the same method used to add it earlier (click on the margin or select the line and press **F9**).
 
@@ -164,7 +164,7 @@ In this lab, you'll learn how to get started building Azure Functions using Visu
 
 1. In **Visual Studio for Mac**, click the **Stop** button to end the debug session. To ensure that new changes are picked up, don't forget to restart (stop and then run) the debugging session.
 
-    ![](media/azure-functions-lab-image22.png)
+    ![Stop debugging option](media/azure-functions-lab-image22.png)
 
 1. In the **Run** method, replace the **x** and **y** definitions with the code below. This code extracts values from the URL's query string so that the addition operation can be performed dynamically based on the provided parameters.
 
@@ -190,27 +190,27 @@ In this lab, you'll learn how to get started building Azure Functions using Visu
 
 1.  In an earlier exercise, it was mentioned that Visual Studio for Mac "generated" a job function for the Azure Function defined in the library. This is because Azure Functions doesn't actually use the method attributes at runtime, but rather uses a compile-time file system convention to configure where and how Azure Functions are made available. From **Solution Pad**, right-click on your project node and select **Reveal in Finder**.
 
-     ![](media/azure-functions-lab-image23.png)
+     ![Reveal in Finder menu option](media/azure-functions-lab-image23.png)
 
 1. Navigate down the file system until you reach **bin/Debug/netstandard2.0**. There should be a folder named **Add**. This folder was created to correspond with the function name attribute in the C# code. Expand the Add folder to reveal a single **function.json** file. This file is used by the runtime to host and manage the Azure Function. For other language models without compile-time support (such as C# script or JavaScript), these folders must be manually created and maintained. For C# developers, they are automatically generated from attribute metadata upon build. Right-click on **function.json** and select to open it in Visual Studio.
 
-    ![](media/azure-functions-lab-image24.png)
+    ![function.json in the file directory](media/azure-functions-lab-image24.png)
 
 1. Given the previous steps of this tutorial, you should have a basic understanding of C# attributes. Taking that into account, this JSON should look familiar. However, there are a few items that were not covered in earlier exercises. For example, each **binding** must have its **direction** set. As you might infer, **"in"** means that the parameter is input, whereas **"out"** indicates that the parameter is either a return value (via **$return**) or an **out** parameter to the method. You also need to specify the **scriptFile** (relative to this final location) and the **entryPoint** method (public and static) within the assembly. In the next few steps you'll add a custom function path using this model, so copy the contents of this file to the clipboard.
 
-    ![](media/azure-functions-lab-image25.png)
+    ![function.json file open in visual studio for mac](media/azure-functions-lab-image25.png)
 
 1. In **Solution Pad**, right-click the **AzureFunctionsLab** project node and select **Add > New Folder**. Name the new folder **Adder**. By default convention, the name of this folder will define the path to the API, such as **api/Adder**.
 
-    ![](media/azure-functions-lab-image26.png)
+    ![New folder option](media/azure-functions-lab-image26.png)
 
 1. Right-click the **Adder** folder and select **Add > New File**.
 
-    ![](media/azure-functions-lab-image27.png)
+    ![New file option](media/azure-functions-lab-image27.png)
 
 1. Select the **Web** category and the **Empty JSON File** template. Set the **Name** to **function** and click **New**.
 
-    ![](media/azure-functions-lab-image28.png)
+    ![Empty json file option](media/azure-functions-lab-image28.png)
 
 1. Paste the contents of the other **function.json** (from step 3) in to replace the default contents of the newly created file.
 
@@ -273,7 +273,7 @@ In this lab, you'll learn how to get started building Azure Functions using Visu
 
 1. The one final step required to make this all work is to instruct Visual Studio for Mac to copy this file to the same relative path in the output directory every time it changes. With the file selected, choose the properties tab from the right-hand bar, and for **Copy to output directory** select **Copy if newer**:
 
-    ![](media/azure-functions-lab-image30.png)
+    ![Properties options for json file](media/azure-functions-lab-image30.png)
 
 1. In **Add.cs**, replace the `Run` method (including the attribute) with the following method to fulfill the expected function. It's very similar to `Run`, except that it uses no attributes and has explicit parameters for **x** and **y**.
 
@@ -289,9 +289,9 @@ In this lab, you'll learn how to get started building Azure Functions using Visu
     ```
 1. Press **F5** to build and run the project.
 
-1. As the build completes and platform spins up, it will now indicate that there is a second route available for requests that maps to the newly added method.
+1. As the build completes and platform spins up, it will now indicate that there is a second route available for requests that maps to the newly added method:
 
-    ![](media/azure-functions-lab-image31.png)
+    ![URL for Http functions](media/azure-functions-lab-image31.png)
 
 1. Return the browser window and navigate to **http://localhost:7071/api/Adder/3/5**.
 
@@ -344,7 +344,7 @@ Often, the service you build might be much more complex than what we have built 
 
 1. Return to **Terminal** and watch for the incoming request for **4 + 6**.
 
-    ![](media/azure-functions-lab-image32.png)
+    ![Terminal output showing addition request](media/azure-functions-lab-image32.png)
 
 1. Return to the browser to refresh the request to the same URL. This time you'll see an error after the **Process** method. This is because the code is attempting to add a row to the Azure Table Storage table using a partition and row key combination that already exists.
 
@@ -373,11 +373,11 @@ Often, the service you build might be much more complex than what we have built 
 
 1. In the browser tab, refresh the URL at **http://localhost:7071/api/Process/4/6**. Since the table row for this record exists, it should return immediately and without error. Since there is no HTTP output, you can see the output in Terminal.
 
-    ![](media/azure-functions-lab-image33.png)
+    ![Terminal output showing table row already exists](media/azure-functions-lab-image33.png)
 
 1. Update the URL to reflect a combination not yet tested, such as **http://localhost:7071/api/Process/5/7**. Note the message in Terminal, which indicates that the table row was not found (as expected).
 
-    ![](media/azure-functions-lab-image34.png)
+    ![Terminal output showing new process](media/azure-functions-lab-image34.png)
 
 1. Return to **Visual Studio for Mac** and end the debugging session.
 
@@ -403,8 +403,7 @@ Often, the service you build might be much more complex than what we have built 
     ![](https://user-images.githubusercontent.com/3944468/29033725-be9d5a5e-7b4a-11e7-8b55-df0a200b6320.png)
 -->
 
-<a name="Summary"></a>
-## Summary ##
+## Summary
 
 In this lab, you've learned how to get started building Azure Functions with Visual Studio for Mac.
 
