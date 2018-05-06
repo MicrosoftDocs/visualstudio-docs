@@ -3,7 +3,7 @@ title: Setting Up a Subversion Repository
 description: Using Git and Subversion in Visual Studio for Mac.
 author: asb3993
 ms.author: amburns
-ms.date: 04/14/2017
+ms.date: 05/06/2018
 ms.assetid: 0D58FB37-530E-495B-BED6-FD499477A9B6
 ---
 

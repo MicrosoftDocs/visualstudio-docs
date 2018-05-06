@@ -3,7 +3,7 @@ title: "Introduction to Azure Functions"
 description: "Using Azure functions in Visual Studio for Mac."
 author: asb3993
 ms.author: amburns
-ms.date: 04/12/2018
+ms.date: 05/06/2018
 ms.topic: article
 ms.technology: vs-ide-install
 ms.assetid: 25CD47A4-5B32-4734-8EF3-E24A02AABF29

@@ -3,7 +3,7 @@ title: "EditorConfig"
 description: "Using an editorconfig file to enable consistent project coding styles in Visual Studio for Mac."
 author: asb3993
 ms.author: amburns
-ms.date: 04/30/2018
+ms.date: 05/06/2018
 ms.topic: article
 ms.technology: vs-ide-install
 ms.assetid: 26A0DE31-2FBF-4E1B-99FB-083111AA1680
