@@ -4,10 +4,9 @@ ms.date: 05/07/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
-robots: noindex,nofollow
 manager: douge
-author: gewarren
-ms.author: gewarren
+author: markw-t
+ms.author: mwthomas
 ---
 # Visual Studio IntelliCode FAQ
 
