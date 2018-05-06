@@ -17,7 +17,7 @@ Azure functions is a way to create and run event-driven snippets of code –– 
 
 Azure Function tools are included in **Visual Studio for Mac 7.5**.
 
-To create and deploy functions you also need an Azure subscription, which available free from [https://azure.com/free](https://azure.com/free).
+To create and deploy functions you also need an Azure subscription, which is available for free from [https://azure.com/free](https://azure.com/free).
 
 ## Creating your first Azure Functions project
 
@@ -34,7 +34,7 @@ Visual Studio for Mac creates a .NET Standard project with a default HttpTrigger
 
 The new project contains the following files:
 
-* **HttpTrigger.cs** – This class contains boilerplate code for a HTTPFunction. It contains a **FunctionName** attribute with the function name, and a trigger attribute, **HttpTrigger**, that specifies that the function is triggered by a HTTP request. For more information on the function method, refer to the [Azure Functions C# developer reference](https://docs.microsoft.com/azure/azure-functions/functions-dotnet-class-library) article.
+* **HttpTrigger.cs** – This class contains boilerplate code for a HTTP-triggered function. It contains a **FunctionName** attribute with the function name, and a trigger attribute, **HttpTrigger**, that specifies that the function is triggered by a HTTP request. For more information on the function method, refer to the [Azure Functions C# developer reference](https://docs.microsoft.com/azure/azure-functions/functions-dotnet-class-library) article.
 * **host.json** – This file describes the global configuration options for Functions host. For an example file and information on the available settings for this file, see the [host.json reference for Azure Functions](https://docs.microsoft.com/azure/azure-functions/functions-host-json).
 * **local.settings.json** – This file contains all the settings for running functions locally. These settings are used by the Azure Functions Core Tools. For more information, see [Local settings file](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local#local-settings-file) in the Azure Functions Core Tools article.
 
@@ -77,7 +77,7 @@ With Azure Functions support in Visual Studio for Mac you can test and debug you
 
 ## Creating a new function
 
-Function Templates enable you to quickly create new functions using the most common triggers and templates. When a new Azure Functions project is created, automatically include an HttpTrigger function. To create another type of function, do the following:
+Function Templates enable you to quickly create new functions using the most common triggers and templates. When a new Azure Functions project is created, it automatically includes an HttpTrigger function. To create another type of function, do the following:
 
 1. Remove the **HttpTrigger.cs** file by right-clicking on it and selecting **Remove**. From the following alert, select **Delete** to remove it from your project:
 
@@ -100,7 +100,7 @@ Function Templates enable you to quickly create new functions using the most com
     - Http POST CRUD
     - Http Trigger with parameters
     - Http Trigger
-- **Timer** – Execute cleanup or other batch tasks on a predefined schedule. This template takes two fields: a Name and a schedule, which is a six field CRON expression that schedules your function to run every minute. For more information, see the [Azure functions article on Time](https://docs.microsoft.com/azure/azure-functions/functions-create-scheduled-function)
+- **Timer** – Execute cleanup or other batch tasks on a predefined schedule. This template takes two fields: a Name and a schedule, which is a six field CRON expression. For more information, see the [Azure functions article on Time](https://docs.microsoft.com/azure/azure-functions/functions-create-scheduled-function)
 - **GitHub Trigger** – Respond to events that occur in your GitHub repositories. For more information, see the [Azure Functions article on GitHub](https://docs.microsoft.com/azure/azure-functions/functions-create-github-webhook-triggered-function)
     - GitHub commenter – This function will be run when it receives a GitHub webhook for an issue or pull request and adds a comment.
     - GitHub WebHook – This function will be run when it receives a GitHub webhook

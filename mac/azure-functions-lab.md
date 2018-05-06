@@ -18,7 +18,7 @@ In this lab, you'll learn how to get started building Azure Functions using Visu
 > [!div class="checklist"]
 > * Create and debug local Azure Functions
 > * Integrate with web and Azure storage resources
-> * Orchestrate a workflow involving multiple Azure Functionss
+> * Orchestrate a workflow involving multiple Azure Functions
 
 ## Requirements
 
@@ -37,7 +37,7 @@ In this lab, you'll learn how to get started building Azure Functions using Visu
 
 1. Set the **Project Name** to **"AzureFunctionsLab"** and click **Create**.
 
-    ![naming and creating your azure function project](media/azure-functions-lab-image1.png)
+    ![naming and creating your azure function project](media/azure-functions-lab-image2.png)
 
 1. Expand the nodes in **Solution Pad**. The default project template includes NuGet references to a variety of Azure WebJobs packages, as well as the Newtonsoft.Json package. 
 
@@ -82,7 +82,7 @@ In this lab, you'll learn how to get started building Azure Functions using Visu
 
 1. Return to **Visual Studio for Mac** and paste the full connection string in as the **AzureWebJobsStorage** setting in **local.settings.json**. Now you can reference the name of the setting in attributes for functions that need access to its resources.
 
-    ![favorites section of Azure portal showing storage accounts item](media/azure-functions-lab-image11.png)
+    ![favorites section of Azure portal showing storage accounts item](media/azure-functions-lab-image10.png)
 
 ## Example 3: Creating and debugging an Azure Function
 

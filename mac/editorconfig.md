@@ -28,6 +28,8 @@ The editor in Visual Studio supports the core set of [EditorConfig properties](h
 - `insert_final_newline`
 - `root`
 
+EditorConfig also supports [Code style formatting](https://docs.microsoft.com/visualstudio/ide/editorconfig-code-style-settings-reference) in C#.
+
 ## Add an EditorConfig file to a project
 
 ### Adding a new EditorConfig file
@@ -98,7 +100,7 @@ trim_trailing_whitespace = false
 csharp_new_line_before_open_brace = none
 ```
 
-This file is declared as the top-most file for the codebase and any higher `.editorconfig` files in the project will be ignored, as explained in the [Override EditorConfig Settings](#override-editorconfig-settings) section.
+Setting `root` to `true` will flag this file as the top-most file of the codebase and any higher `.editorconfig` files in the project will be ignored, as explained in the [Override EditorConfig Settings](#override-editorconfig-settings) section.
 
 Each section is denoted by square (**[ ]**) braces and specifies information on the types of files the following properties should pertain to.
 
@@ -112,11 +114,11 @@ In the example above, some settings are applied to all files in the project and 
 
 ![after editorconfig settings have been applied](media/editorconfig-image5.png)
 
-For more information on available EditorConfig settings, see the [.NET coding convention settings for EditorConfig](../ide/editorconfig-code-style-settings-reference.md) article and the [Supported Properties](http://editorconfig.org/#supported-properties) section on the official documentation.
+For more information on available EditorConfig settings, see the [.NET coding convention settings for EditorConfig](https://docs.microsoft.com/visualstudio/ide/editorconfig-code-style-settings-reference) article and the [Supported Properties](http://editorconfig.org/#supported-properties) section on the official documentation.
 
 ## Override EditorConfig Settings
 
-It's possible to have more than one `.editorconfig` file in each directory. Visual Studio for Mac reads `.editorconfig` files from top to bottom in the solution, adding and overriding settings as it goes. This means that the settings in the `.editorconfig` _closest_ to the file you're editing will take precedence. 
+It's possible to have more than one `.editorconfig` file in each solution. Visual Studio for Mac reads `.editorconfig` files from top to bottom in the solution, adding and overriding settings as it goes. This means that the settings in the `.editorconfig` _closest_ to the file you're editing will take precedence. 
 
 If you want to ensure that _no_ settings from any higher-level `.editorconfig` files are applied to this part of the codebase, add the `root=true` property to the top of the lower-level `.editorconfig` file:
 
