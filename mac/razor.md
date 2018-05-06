@@ -19,6 +19,6 @@ Visual Studio for Mac now officially supports Razor editing, including IntelliSe
 
 There are two options to consider when getting started with Razor in Visual Studio for Mac: Razor Pages in ASP.NET Core and ASP.NET Core MVC. For tutorials and more information on both options, visit one of the guides below:
 
-- [Get started with ASP.NET Core MVC and Visual Studio for Mac](https://docs.microsoft.com/aspnet/core/tutorials/razor-pages-mac/razor-pages-start?view=aspnetcore-2.1)
+- [Get started with Razor Pages in ASP.NET Core on macOS with Visual Studio for Mac](https://docs.microsoft.com/aspnet/core/tutorials/razor-pages-mac/razor-pages-start?view=aspnetcore-2.1)
 - [Get started with ASP.NET Core MVC and Visual Studio for Mac](https://docs.microsoft.com/aspnet/core/tutorials/first-mvc-app-mac/start-mvc?view=aspnetcore-2.1)
 
