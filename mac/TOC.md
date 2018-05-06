@@ -31,6 +31,7 @@
 ## [Snippets](snippets.md)
 ## [Block Selection](block-selection.md)
 ## [Editor Themes](editor-themes.md)
+## [EditorConfig](editorconfig.md)
 ## [Common Keyboard Shortcuts](keyboard-shortcuts.md)
 
 # [Debugging](debugging.md)
