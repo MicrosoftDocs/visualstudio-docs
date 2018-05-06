@@ -1,5 +1,5 @@
 ---
-title: "Azure Functions"
+title: "Tutorial: Azure Functions"
 description: "Using Azure functions in Visual Studio for Mac."
 author: asb3993
 ms.author: amburns
@@ -9,15 +9,16 @@ ms.technology: vs-ide-install
 ms.assetid: 38FD2070-5151-482E-B0A9-993715128736
 ---
 
-# Getting started with Azure Functions in Visual Studio for Mac
+# Tutorial: Getting started with Azure Functions
 
 In this lab, you'll learn how to get started building Azure Functions using Visual Studio for Mac. You'll also integrate with Azure storage tables, which represent one of the many kinds of bindings and triggers available to Azure Functions developers.
 
 ## Objectives
 
-- Create and debug local Azure Functions
-- Integrate with web and Azure storage resources
-- Orchestrate a workflow involving multiple Azure Functions
+> [!div class="checklist"]
+> * Create and debug local Azure Functions
+> * Integrate with web and Azure storage resources
+> * Orchestrate a workflow involving multiple Azure Functionss
 
 ## Requirements
 
