@@ -112,7 +112,7 @@ In the example above, some settings are applied to all files in the project and 
 
 ![after editorconfig settings have been applied](media/editorconfig-image5.png)
 
-For more information on available EditorConfig settings, see the [.NET coding convention settings for EditorConfig](~/visualstudio/ide/editorconfig-code-style-settings-reference.md) article and the [Supported Properties](http://editorconfig.org/#supported-properties) section on the official documentation.
+For more information on available EditorConfig settings, see the [.NET coding convention settings for EditorConfig](../ide/editorconfig-code-style-settings-reference.md) article and the [Supported Properties](http://editorconfig.org/#supported-properties) section on the official documentation.
 
 ## Override EditorConfig Settings
 
