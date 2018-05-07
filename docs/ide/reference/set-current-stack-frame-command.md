@@ -21,7 +21,7 @@ Allows you to set a particular stack frame.
 
 ## Syntax
 
-```
+```cmd
 Debug.SetCurrentStackFrame index
 ```
 
@@ -32,7 +32,7 @@ Debug.SetCurrentStackFrame index
 
 ## Example
 
-```
+```cmd
 >Debug.SetCurrentStackFrame 1
 ```
 

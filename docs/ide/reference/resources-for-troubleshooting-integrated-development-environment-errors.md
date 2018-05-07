@@ -116,4 +116,4 @@ If you still have questions after you try the other resources, you can contact M
 
 ## See also
 
-* [Troubleshooting proxy errors](/visualstudio/install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server#troubleshooting-proxy-errors)
+* [Troubleshoot network-related or proxy errors](../../install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md#troubleshoot-network-related-errors)

@@ -66,10 +66,10 @@ This dialog box lets you define [!INCLUDE[vcprvc](../../code-quality/includes/vc
 ## Extensions to Hide
   Specifies the file name extensions of files that will not be displayed in **Solution Explorer** when **Show All Files** is enabled.
 
- ## Build Customization Search Path
+## Build Customization Search Path
   Specifies the list of directories that contain .rules files, which help you define build rules for your projects.
 
-# Solution Explorer Mode
+## Solution Explorer Mode
  **Show only files in project**
 
   Configures **Solution Explorer** to only display files in the project.
