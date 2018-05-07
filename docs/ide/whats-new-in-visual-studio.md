@@ -1,7 +1,7 @@
 ---
 title: "What's new in Visual Studio 2017"
 ms.custom: ""
-ms.date: 12/04/2017
+ms.date: 05/07/2017
 ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
@@ -19,7 +19,7 @@ ms.workload:
   - "multiple"
 ---
 # What&#39;s new in Visual Studio 2017
-#### Updated for the [15.6 release](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes)
+#### Updated for the [15.7 release](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes)
 Looking to upgrade from a previous version of Visual Studio? Here's what Visual Studio 2017 can offer you: Unparalleled productivity for any dev, any app, and any platform. Use Visual Studio 2017 to develop apps for Android, iOS, Windows, Linux, web, and cloud. Code fast, debug and diagnose with ease, test often, and release with confidence. You can also extend and customize Visual Studio by building your own extensions. Use version control, be agile, and collaborate efficiently with this release!
 
 Here's a high-level recap of the changes we've made since our previous version, Visual Studio 2015:
@@ -51,7 +51,11 @@ Choose the workloads you need, and change them when you need to.
 
  ![Visual Studio 2017 setup dialog](../install/media/install-visual-studio-enterprise.png "Visual Studio 2017 setup screen")
 
-Want to pick your own components instead of using workloads? Select the **Individual components** tab from the installer. Want to install Language Packs without also having to change the Windows language option? Choose the **Language packs** tab of the installer.  
+And you've got options to fine-tune your installation, too:
+
+* Want to pick your own components instead of using workloads? Select the **Individual components** tab from the installer.
+* Want to install Language Packs without also having to change the Windows language option? Choose the **Language packs** tab of the installer.
+* **New in 15.7**: Want to change the location of where Visual Studio installs? Choose the **Installation options** tab of the installer.
 
 To learn more about the new installation experience, including step-by-step instructions that walk you through it, see the [Install Visual Studio](../install/install-visual-studio.md) page.
 
@@ -284,7 +288,7 @@ For more information, see the [Visual Studio Tools for Unity](../cross-platform/
 For more information, see the [Visual Studio Tools for AI](../ai/about-ai-tools.md) page.
 
 
-## Talk to us  
+## Contact us  
  Why send feedback to the Visual Studio team? Because we take customer feedback seriously. It drives much of what we do.  
 
 If you want to make a suggestion about how we can improve Visual Studio, or report a problem, please see the [Talk to us](../ide/talk-to-us.md) page.  
