@@ -1,7 +1,7 @@
 ---
 title: "What's new in Visual Studio 2017"
 ms.custom: ""
-ms.date: 05/07/2017
+ms.date: 05/07/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
