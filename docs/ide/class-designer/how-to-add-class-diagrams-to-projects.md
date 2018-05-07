@@ -38,7 +38,7 @@ If you are running Visual Studio 2017 and you haven't installed the **Class Desi
 
 ## Add a blank class diagram to a project
 
-1. In **Solution Explorer**, right-click the project node and then choose ****Add** > **New Item**. Or, press **Ctrl**+**Shift**+**A**.
+1. In **Solution Explorer**, right-click the project node and then choose **Add** > **New Item**. Or, press **Ctrl**+**Shift**+**A**.
 
    The **Add New Item** dialog opens.
 
