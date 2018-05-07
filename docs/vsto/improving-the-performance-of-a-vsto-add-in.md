@@ -21,7 +21,7 @@ ms.workload:
   
 -   [Publish Office solutions by using Windows Installer](#Publish).  
   
--   [Bypass ribbon reflection](#Bypass).  
+-   [Bypass Ribbon reflection](#Bypass).  
   
 -   [Perform expensive operations in a separate execution thread](#Perform).  
   
@@ -34,7 +34,7 @@ ms.workload:
   
 -   The first time that the user interacts with the VSTO Add-in after starting the application any subsequent time.  
   
- For example, your VSTO Add-in might populate a worksheet with data when the user chooses a custom button that's labeled **Get My Data**. The application must load your VSTO Add-in at least one time so that the **Get My Data** button can appear in the ribbon. However, the VSTO Add-in doesn't load again when the user starts the application the next time. The VSTO Add-in loads only when the user chooses the **Get My Data** button.  
+ For example, your VSTO Add-in might populate a worksheet with data when the user chooses a custom button that's labeled **Get My Data**. The application must load your VSTO Add-in at least one time so that the **Get My Data** button can appear in the Ribbon. However, the VSTO Add-in doesn't load again when the user starts the application the next time. The VSTO Add-in loads only when the user chooses the **Get My Data** button.  
   
 ### To configure a ClickOnce solution to load VSTO Add-ins on demand  
   
@@ -48,13 +48,13 @@ ms.workload:
   
 ### To configure a Windows Installer solution to load VSTO Add-ins on demand  
   
-1.  In the registry, set the `LoadBehavior` entry of the ***Root*\Software\Microsoft\Office\\*ApplicationName*\Addins\\*Add-in ID*** key to **0x10**.  
+1.  In the registry, set the `LoadBehavior` entry of the ***Root*\Software\Microsoft\Office\\*ApplicationName*\Addins\ *Add-in ID*** key to **0x10**.  
   
      For more information, see [Registry entries for VSTO Add-ins](../vsto/registry-entries-for-vsto-add-ins.md).  
   
 ### To configure a solution to load VSTO Add-ins on demand while you debug the solution  
   
-1.  Create a script that sets the `LoadBehavior` entry of the ***Root*\Software\Microsoft\Office\\*ApplicationName*\Addins\\*Add-in ID*** key to **0x10**.  
+1.  Create a script that sets the `LoadBehavior` entry of the ***Root*\Software\Microsoft\Office\\*ApplicationName*\Addins\\*Add-in ID* ** key to **0x10**.  
   
      The following code shows an example of this script.  
   
@@ -81,7 +81,7 @@ ms.workload:
      For information about how to create a post-build event in a Visual Basic project, see [How to: Specify build events &#40;Visual Basic&#41;](/visualstudio/ide/how-to-specify-build-events-visual-basic).  
   
 ##  <a name="Publish"></a> Publish Office solutions by using Windows Installer  
- If you publish your solution by using Windows Installer, the Visual Studio 2010 Tools for Office Runtime bypasses the following steps when the VSTO Add-in loads.  
+ If you publish your solution by using Windows Installer, the Visual Studio 2010 Tools for Office runtime bypasses the following steps when the VSTO Add-in loads.  
   
 -   Validating the manifest schema.  
   
@@ -94,12 +94,12 @@ ms.workload:
   
  For more information, see [Deploy an Office solution by using Windows Installer](../vsto/deploying-an-office-solution-by-using-windows-installer.md).  
   
-##  <a name="Bypass"></a> Bypass ribbon reflection  
- If you build a solution by using [!INCLUDE[vs_dev11_long](../sharepoint/includes/vs-dev11-long-md.md)], ensure that your users have installed the most recent version of the Visual Studio 2010 Tools for Office runtime when you deploy the solution. Older versions of that runtime reflected into solution assemblies to locate ribbon customizations. This process can cause the VSTO Add-in to load more slowly.  
+##  <a name="Bypass"></a> Bypass Ribbon reflection  
+ If you build a solution by using [!INCLUDE[vs_dev11_long](../sharepoint/includes/vs-dev11-long-md.md)], ensure that your users have installed the most recent version of the Visual Studio 2010 Tools for Office runtime when you deploy the solution. Older versions of that runtime reflected into solution assemblies to locate Ribbon customizations. This process can cause the VSTO Add-in to load more slowly.  
   
- As an alternative, you can prevent any version of the Visual Studio 2010 Tools for Office Runtime from using reflection to identify ribbon customizations. To follow this strategy, override the `CreateRibbonExtensibility` method, and explicitly return ribbon objects. If your VSTO Add-in doesn't contain any ribbon customizations, return `null` inside of the method.  
+ As an alternative, you can prevent any version of the Visual Studio 2010 Tools for Office runtime from using reflection to identify Ribbon customizations. To follow this strategy, override the `CreateRibbonExtensibility` method, and explicitly return Ribbon objects. If your VSTO Add-in doesn't contain any Ribbon customizations, return `null` inside of the method.  
   
- The following example returns a ribbon object based on the value of a field.  
+ The following example returns a Ribbon object based on the value of a field.  
   
  [!code-vb[Trin_Ribbon_Choose_Ribbon#1](../vsto/codesnippet/VisualBasic/trin_ribbon_choose_ribbon_4/ThisWorkbook.vb#1)]
  [!code-csharp[Trin_Ribbon_Choose_Ribbon#1](../vsto/codesnippet/CSharp/trin_ribbon_choose_ribbon_4/ThisWorkbook.cs#1)]  

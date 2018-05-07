@@ -209,7 +209,7 @@ ms.workload:
   
 ##  <a name="security"></a> Security tasks  
   
--   [How to: Sign office solutions](../vsto/how-to-sign-office-solutions.md).  
+-   [How to: Sign Office solutions](../vsto/how-to-sign-office-solutions.md).  
   
 ##  <a name="deployment"></a> Deployment tasks  
   
@@ -228,7 +228,7 @@ ms.workload:
 -   [How to: Change the installation path of an Office solution](http://msdn.microsoft.com/en-us/d0eaa07b-2d72-4902-899f-2f9fb165b8fd).  
   
 ## See also  
- [Gett started &#40;Office development in Visual Studio&#41;](../vsto/getting-started-office-development-in-visual-studio.md)   
+ [Get started &#40;Office development in Visual Studio&#41;](../vsto/getting-started-office-development-in-visual-studio.md)   
  [Features available by Office application and project type](../vsto/features-available-by-office-application-and-project-type.md)   
  [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md)  
   
