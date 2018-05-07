@@ -109,18 +109,18 @@ For a list of workload and component IDs sorted by Visual Studio product, see th
 
 | **Language-locale** | **Language** |
 | ----------------------- | --------------- |
-| cs-CZ | Czech |
-| de-DE | German |
+| Cs-cz | Czech |
+| De-de | German |
 | En-us | English |
 | Es-es | Spanish |
 | Fr-fr | French |
-| it-IT | Italian |
+| It-it | Italian |
 | Ja-jp | Japanese |
 | Ko-kr | Korean |
-| pl-PL | Polish |
+| Pl-pl | Polish |
 | Pt-br | Portuguese - Brazil |
 | Ru-ru | Russian |
-| tr-TR | Turkish |
+| Tr-tr | Turkish |
 | Zh-cn | Chinese - Simplified |
 | Zh-tw | Chinese - Traditional |
 
