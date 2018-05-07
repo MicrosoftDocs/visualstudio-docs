@@ -10,13 +10,18 @@ ms.author: mwthomas
 ---
 # Visual Studio IntelliCode FAQ
 
-Thanks for your interest in IntelliCode for Visual Studio! We've provided this short FAQ to hopefully answer some of the questions you may have about the extension.
+Thanks for your interest in Visual Studio IntelliCode! We've provided this short FAQ to hopefully answer some of the questions you may have.
 
 ## Q. What is Visual Studio IntelliCode?
 
 At Build 2018, we announced Visual Studio IntelliCode, a new capability that enhances software development using AI. IntelliCode helps developers and teams code with confidence, find issues faster, and focus code reviews.
 
-We showed an early view of how IntelliCode enhances the software development process by delivering better context-aware code completions, guiding developers to adhere to the patterns and styles of their team, finding difficult-to-catch code issues, and focusing code reviews on areas that really matter.
+We showed an early view of how IntelliCode enhances the software development process in the following ways:
+
+- Delivers context-aware code completions
+- Guides developers to adhere to the patterns and styles of their team
+- Finds difficult-to-catch code issues
+- Focuses code reviews by drawing attention to areas that really matter
 
 Developers can find more information and sign up for news and future private previews at [https://aka.ms/intellicode](https://aka.ms/intellicode).
 
@@ -24,11 +29,11 @@ Developers can find more information and sign up for news and future private pre
 
 Visual Studio IntelliCode is a range of capabilities that offers new productivity enhancements through artificial intelligence (AI).
 
-Developers can [download an experimental extension](https://marketplace.visualstudio.com/) for Visual Studio 2017 version 15.7 and later. The extension provides enhanced IntelliSense that predicts the most likely correct API for the developer to use, rather than just presenting an alphabetical list of members. It uses the developer's current code context and patterns to provide this dynamic list. We'll update the extension with more capabilities in the coming months.
+Developers can [download an experimental extension](https://go.microsoft.com/fwlink/?linkid=872707) for Visual Studio 2017 version 15.7 and later. The extension provides enhanced IntelliSense that predicts the most likely correct API for the developer to use, rather than just presenting an alphabetical list of members. It uses the developer's current code context and patterns to provide this dynamic list. We'll update the extension with more capabilities in the coming months.
 
 ## Q: What makes “AI-assisted IntelliSense” powered by IntelliCode better than regular IntelliSense?
 
-With IntelliCode, IntelliSense suggests the most likely correct API for a developer to use, rather than presenting a simple alphabetical list of members. It uses the developer's current code context, and patterns based on 2000 high quality, open-source projects on GitHub each with over 100 stars, to provide this dynamic list. The results form a model that predicts the most likely and most relevant API calls.
+With IntelliCode, the completion list suggests the most likely correct API for a developer to use, rather than presenting a simple alphabetical list of members. It uses the developer's current code context, and patterns based on 2000 high quality, open-source projects on GitHub each with over 100 stars, to provide this dynamic list. The results form a model that predicts the most likely and most relevant API calls.
 
 ## Q. What's the future of IntelliCode?
 
@@ -40,11 +45,11 @@ We have no announcements regarding pricing at present.
 
 ## Q. When will IntelliCode be released?
 
-IntelliCode is currently in its first preview. We have no schedule for a final release, but we welcome feedback from developers so we can deliver the best possible experiences. You can sign up for news and updates at [https://aka.ms/intellicode](https://aka.ms/intellicode).
+IntelliCode's AI-assisted IntelliSense is currently in its first experimental preview. We'll continue to update the experimental extension, and we'll add further capabilities in the future. We have no schedule for a final release, but we welcome feedback from developers so we can deliver the best possible experiences. You can sign up for news and updates at [https://aka.ms/intellicode](https://aka.ms/intellicode).
 
 ## Q. Is this experience only available in Visual Studio?
 
-The experience was shown at Build 2018 in Visual Studio 2017 on a C# codebase. However, we look forward to expanding IntelliCode to more languages and tools in the future.
+The experience was shown at Build 2018 in Visual Studio 2017 on a C# codebase. However, we look forward to expanding IntelliCode to more languages and tools in the Visual Studio family in the future.
 
 ## Q: What about privacy? Are you sending my code to the cloud? What customer data is being sent to Microsoft?
 
@@ -54,4 +59,4 @@ We capture some anonymized usage and error-reporting data from the extension to 
 
 The IntelliCode extension may periodically ask the developer to complete a survey, which again is anonymized. Users can sign up for news and a future private preview, but are not currently required to do so to use the experimental extension.
 
-Future features may require access to a service, which will require sign-up. We'll publish more details when those features are ready for preview.
+Future features may require access to a service, which will require sign-up. We'll publish more details when those features are ready for private preview.
