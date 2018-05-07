@@ -45,6 +45,6 @@ Once you've [installed Python support in Visual Studio 2017](installing-python-s
 ## See also
 
 - [Using the Cookiecutter extension](using-python-cookiecutter-templates.md)
-- [Manually identifying an existing Python interpreter](managing-python-environments-in-visual-studio.md#manually-identifying-an-existing-environment).
+- [Manually identifying an existing Python interpreter](managing-python-environments-in-visual-studio.md#manually-identify-an-existing-environment).
 - [Install Python support in Visual Studio 2015 and earlier](installing-python-support-in-visual-studio.md).
 - [Install locations](installing-python-support-in-visual-studio.md#install-locations).

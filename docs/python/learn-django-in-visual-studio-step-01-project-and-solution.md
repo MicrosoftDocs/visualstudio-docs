@@ -1,7 +1,7 @@
 ---
 title: Tutorial - Learn Django in Visual Studio, step 1
 description: A walkthrough of Django basics in the context of Visual Studio projects, demonstrating the support Visual Studio provides for Django development.
-ms.date: 04/25/2018
+ms.date: 05/03/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: tutorial
@@ -29,7 +29,9 @@ In this tutorial, you learn how to:
 
 ## Prerequisites
 
-- Visual Studio 2017 with the Python workload installed. For instructions, see [Installing Python support in Visual Studio](installing-python-support-in-visual-studio.md).
+- Visual Studio 2017 with the following options:
+  - The **Python development** workload (**Workload** tab in the installer). For instructions, see [Installing Python support in Visual Studio](installing-python-support-in-visual-studio.md).
+  - **Git for Windows** and **GitHub Extension for Visual Studio** on the **Individual components** tab under **Code tools**.
 
 Django project templates are also included with all earlier versions of Python Tools for Visual Studio, though details may differ from what's discussed in this tutorial (especially different with earlier versions of the Django framework).
 
