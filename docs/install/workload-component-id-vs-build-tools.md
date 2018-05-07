@@ -5,7 +5,7 @@ keywords:
 author: TerryGLee
 ms.author: tglee
 manager: douge
-ms.date: 03/05/2018
+ms.date: 05/07/2018
 ms.topic: reference
 helpviewer_keywords:
   - "workload ID, Visual Studio"
@@ -144,7 +144,7 @@ Microsoft.Net.Core.Component.SDK.1x | .NET Core 1.0 - 1.1 development tools | 15
 
 **ID:** Microsoft.VisualStudio.Workload.NodeBuildTools
 
-**Description:** Build scalable network applications using Node.js, an asynchronous event-driven JavaScript runtime. 
+**Description:** Build scalable network applications using Node.js, an asynchronous event-driven JavaScript runtime.
 
 ### Components included by this workload
 

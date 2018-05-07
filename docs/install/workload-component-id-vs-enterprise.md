@@ -5,7 +5,7 @@ keywords:
 author: TerryGLee
 ms.author: tglee
 manager: douge
-ms.date: 03/05/2018
+ms.date: 05/07/2018
 ms.topic: reference
 helpviewer_keywords:
   - "workload ID, Visual Studio"
@@ -715,7 +715,7 @@ Microsoft.VisualStudio.Web.Mvc4.ComponentGroup | ASP.NET MVC 4 | 15.6.27406.0 | 
 
 **ID:** Microsoft.VisualStudio.Workload.Node
 
-**Description:** Build scalable network applications using Node.js, an asynchronous event-driven JavaScript runtime. 
+**Description:** Build scalable network applications using Node.js, an asynchronous event-driven JavaScript runtime.
 
 ### Components included by this workload
 
