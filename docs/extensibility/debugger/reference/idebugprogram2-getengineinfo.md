@@ -2,48 +2,33 @@
 title: "IDebugProgram2::GetEngineInfo | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgram2::GetEngineInfo"
 helpviewer_keywords: 
   - "IDebugProgram2::GetEngineInfo"
 ms.assetid: 3a4f2dc0-e082-4d8d-aeaf-463ab09d279b
-caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProgram2::GetEngineInfo
 Gets the name and GUID of the debug engine (DE) running this program.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetEngineInfo(   
    BSTR* pbstrEngine,  
    GUID* pguidEngine  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetEngineInfo(   
    out string pbstrEngine,  
    out GUID   pguidEngine  

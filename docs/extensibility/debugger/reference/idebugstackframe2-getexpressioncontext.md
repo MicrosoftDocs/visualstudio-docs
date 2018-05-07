@@ -2,47 +2,32 @@
 title: "IDebugStackFrame2::GetExpressionContext | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugStackFrame2::GetExpressionContext"
 helpviewer_keywords: 
   - "IDebugStackFrame2::GetExpressionContext"
 ms.assetid: a2604e6a-502d-473b-868f-b11ac64c7a35
-caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugStackFrame2::GetExpressionContext
 Gets an evaluation context for expression evaluation within the current context of a stack frame and thread.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetExpressionContext (   
    IDebugExpressionContext2** ppExprCxt  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetExpressionContext (   
    out IDebugExpressionContext2 ppExprCxt  
 );  

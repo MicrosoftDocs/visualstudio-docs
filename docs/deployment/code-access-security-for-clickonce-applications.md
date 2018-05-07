@@ -2,12 +2,8 @@
 title: "Code Access Security for ClickOnce Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-deployment
+ms.topic: "conceptual"
 f1_keywords: 
   - "vb.XBAPProjectPropertiesSecurity.HowTo"
   - "vb.XBAProjectPropertiesSecurity.HowTo"
@@ -24,25 +20,11 @@ helpviewer_keywords:
   - "ClickOnce applications, code access security policies"
   - "security, ClickOnce"
 ms.assetid: 04b104d0-0bd3-4ccb-b164-1de92d234487
-caps.latest.revision: 31
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
+ms.workload: 
+  - "multiple"
 ---
 # Code Access Security for ClickOnce Applications
 ClickOnce applications are based on the .NET Framework and are subject to code access security constraints. For this reason, it is important that you understand the implications of code access security and write your ClickOnce applications accordingly.  

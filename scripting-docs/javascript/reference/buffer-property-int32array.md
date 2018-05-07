@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 9e165880-7f16-4845-a41f-5b0c6e8605c5
 caps.latest.revision: 7
@@ -23,14 +24,14 @@ Read-only. Gets the ArrayBuffer that is referenced by this array.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 var arrayBuffer = int32Array.buffer;  
 ```  
   
 ## Example  
  The following example shows how to get the ArrayBuffer of the array.  
   
-```javascript  
+```JavaScript  
 var req = new XMLHttpRequest();  
     req.open('GET', "http://www.example.com");  
     req.responseType = "arraybuffer";  

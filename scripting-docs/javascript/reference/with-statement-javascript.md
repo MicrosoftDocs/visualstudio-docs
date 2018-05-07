@@ -13,6 +13,7 @@ f1_keywords:
   - "with_JavaScriptKeyword"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "With statement"
@@ -49,7 +50,7 @@ with (object) {
 ## Example  
  In this example, the `Math` object is used repeatedly:  
   
-```javascript  
+```JavaScript  
 x = Math.cos(3 * Math.PI) + Math.sin(Math.LN10)   
 y = Math.tan(14 * Math.E)  
 ```  
@@ -57,7 +58,7 @@ y = Math.tan(14 * Math.E)
 ## Example  
  If you rewrite the example to use the `with` statement, your code becomes more succinct:  
   
-```javascript  
+```JavaScript  
 with (Math){  
    x = cos(3 * PI) + sin (LN10)    
    y = tan(14 * E)  

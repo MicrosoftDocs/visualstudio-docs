@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: fb80f2e0-fc5e-4508-af14-1c3b3b833636
 caps.latest.revision: 5
@@ -23,7 +24,7 @@ Returns `true` if the set contains the specified element.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 setObj.has(value)  
 ```  
   
@@ -40,7 +41,7 @@ setObj.has(value)
 ## Example  
  The following example shows how to add members to a `Set` and then check whether the set contains a specific member.  
   
-```javascript  
+```JavaScript  
 var s = new Set();  
 s.add("Thomas Jefferson");  
 s.add(1776);  

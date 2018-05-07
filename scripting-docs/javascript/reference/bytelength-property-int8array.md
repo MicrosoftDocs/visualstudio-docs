@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 4e8457a8-2200-4d61-800e-f49fc1e916e5
 caps.latest.revision: 7
@@ -23,14 +24,14 @@ Read-only. The length of this array from the start of its ArrayBuffer, in bytes,
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 var arrayByteLength = int8Array.byteLength;  
 ```  
   
 ## Example  
  The following example shows how to get the length of the array.  
   
-```javascript  
+```JavaScript  
 var req = new XMLHttpRequest();  
     req.open('GET', "http://www.example.com");  
     req.responseType = "arraybuffer";  

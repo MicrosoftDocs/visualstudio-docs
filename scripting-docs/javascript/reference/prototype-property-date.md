@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 44f9c637-7da7-4833-906d-358506f32ced
 caps.latest.revision: 2
@@ -35,7 +36,7 @@ date.prototype
   
  For example, to add a method to the `Date` object that returns the value of the largest element of the array, declare the function, add it to `Date.prototype`, and then use it.  
   
-```javascript  
+```JavaScript  
 function max( ){  
     var max = new Date();  
     max.setFullYear(2200, 01, 01);  

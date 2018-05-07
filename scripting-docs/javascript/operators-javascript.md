@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "JavaScript, operators"
@@ -32,7 +33,7 @@ manager: "ghogen"
 |[Decrement](../javascript/reference/increment-and-decrement-operators-javascript.md)|--|  
 |[Multiplication](../javascript/reference/multiplication-operator-decrement-javascript.md)|*|  
 |[Division](../javascript/reference/division-operator-decrement-javascript.md)|/|  
-|[Modulus arithmetic](../javascript/reference/modulus-operator-decrementjavascript.md)|%|  
+|[Remainder arithmetic](../javascript/reference/modulus-operator-decrementjavascript.md)|%|  
 |[Addition](../javascript/reference/addition-operator-decrement-javascript.md)|+|  
 |[Subtraction](../javascript/reference/subtraction-operator-decrement-javascript.md)|-|  
   
@@ -91,7 +92,7 @@ manager: "ghogen"
   
  For example:  
   
-```javascript  
+```JavaScript  
 // Two strings with the same value.  
 var string1 = "Hello";  
 var string2 = "Hello";  

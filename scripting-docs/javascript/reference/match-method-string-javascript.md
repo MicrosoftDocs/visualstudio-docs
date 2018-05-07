@@ -13,6 +13,7 @@ f1_keywords:
   - "match"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "Match method"
@@ -51,7 +52,7 @@ stringObj.match(rgExp)
 ## Example  
  The following example illustrates the use of the `match` method.  
   
-```javascript  
+```JavaScript  
 var src = "azcafAJAC";  
   
 var re = /[a-c]/;  

@@ -2,34 +2,19 @@
 title: "SccGetProjPath Function | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "SccGetProjPath"
 helpviewer_keywords: 
   - "SccGetProjPath function"
 ms.assetid: 1079847e-d45f-4cb8-9d92-1e01ce5d08f6
-caps.latest.revision: 15
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # SccGetProjPath Function
 This function prompts the user for a project path, which is a string that is meaningful only to the source control plug-in. It is called when the user is:  
@@ -42,7 +27,7 @@ This function prompts the user for a project path, which is a string that is mea
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 SCCRTN SccGetProjPath (  
    LPVOID pvContext,  
    HWND   hWnd,  

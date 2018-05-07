@@ -2,32 +2,14 @@
 title: "MSBuild Glossary | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: "reference"
 ms.assetid: f767d8e4-24d8-4803-80eb-e857202dbe2c
-caps.latest.revision: 23
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
+ms.workload: 
+  - "multiple"
 ---
 # MSBuild Glossary
 These terms are used to describe the Microsoft Build Engine (MSBuild) and its components.  
@@ -91,7 +73,7 @@ These terms are used to describe the Microsoft Build Engine (MSBuild) and its co
  Well-known metadata is read-only item metadata that is initialized by using a predefined value. Well-known metadata provides descriptive information for an item that references a file. For example, the value of the well-known metadata named `FullPath` is the full path of the referenced file. For more information, see [Items](../msbuild/msbuild-items.md).  
   
  multitargeting  
- The ability for an application or assembly project to target many different CLR’s and frameworks from MSBuild and from Visual Studio.  
+ The ability for an application or assembly project to target many different CLR's and frameworks from MSBuild and from Visual Studio.  
   
  profile  
  A subset of the full framework. This is used to minimize the amount that needs to be downloaded to a machine.  

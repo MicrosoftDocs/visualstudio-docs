@@ -13,6 +13,7 @@ f1_keywords:
   - "exp"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "exp method"

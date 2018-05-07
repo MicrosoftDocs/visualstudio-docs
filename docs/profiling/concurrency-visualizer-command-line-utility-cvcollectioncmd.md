@@ -2,37 +2,19 @@
 title: "Concurrency Visualizer Command-Line Utility (CVCollectionCmd) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.cv.performance.cvcollectioncmd"
 ms.assetid: 476601be-1608-4014-af15-5aba6ccbed1c
-caps.latest.revision: 21
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: douge
+ms.workload: 
+  - "multiple"
 ---
 # Concurrency Visualizer Command-Line Utility (CVCollectionCmd)
-You can use the Concurrency Visualizer command-line utility (CVCollectionCmd.exe) to collect traces from the command line so that you can view them in the Concurrency Visualizer for Visual Studio . The ools can be used on computers that do not have Visual Studio installed.  
+You can use the Concurrency Visualizer command-line utility (CVCollectionCmd.exe) to collect traces from the command line so that you can view them in the Concurrency Visualizer for Visual Studio . The tools can be used on computers that do not have Visual Studio installed.  
   
 > [!NOTE]
 >  Starting in Visual Studio 2013, the Concurrency Visualizer is an optional extension. (Previously it had been included in Visual Studio.) You can download the [Concurrency Visualizer Collection Tools for Visual Studio 2015](http://www.microsoft.com/en-in/download/details.aspx?id=49103) from the Download Center.  
@@ -54,8 +36,8 @@ You can use the Concurrency Visualizer command-line utility (CVCollectionCmd.exe
   
 |Option|Description|Parameters|Return values|  
 |------------|-----------------|----------------|-------------------|  
-|Query|Returns whether collection can be started.|None|0 if collection is ready to start.<br /><br /> 1  if collection is already in progress.<br /><br /> 2 if collection isn’t in progress, but one or more of the required [ETW](http://msdn.microsoft.com/Library/ac99a063-e2d2-40cc-b659-d23c2f783f92) sessions is already enabled.|  
-|Launch|Runs the specified process under the Concurrency Visualizer.|The path of the executable.|0 if the run succeeded.<br /><br /> 1 if the run failed because the target application couldn’t be started.<br /><br /> 13 if the run failed because CVCollectionCmd has insufficient permissions to write to the specified output directory.|  
+|Query|Returns whether collection can be started.|None|0 if collection is ready to start.<br /><br /> 1  if collection is already in progress.<br /><br /> 2 if collection isn't in progress, but one or more of the required [ETW](/dotnet/framework/wcf/samples/etw-tracing) sessions is already enabled.|  
+|Launch|Runs the specified process under the Concurrency Visualizer.|The path of the executable.|0 if the run succeeded.<br /><br /> 1 if the run failed because the target application couldn't be started.<br /><br /> 13 if the run failed because CVCollectionCmd has insufficient permissions to write to the specified output directory.|  
 |Attach|Begins collecting a system-wide trace; otherwise, attaches to a process if one is specified.|None.|0 if attachment succeeded.<br /><br /> 1 if attachment failed because the specified process is invalid or ambiguous.<br /><br /> 13 if the attachment failed because CVCollectionCmd has insufficient permissions to write to the specified output directory.|  
 |Detach|Stops collection.|None.|0 if detachment succeeded.<br /><br /> 1 if detachment failed because collection is not currently in progress.<br /><br /> 2 if detachment failed because collection could not be stopped.|  
 |Analyze|Analyzes the specified trace.|The full path of the CVTrace file.|0 if analysis succeeded.<br /><br /> 1 if analysis cannot start because the specified trace was system-wide, but no target process was specified.<br /><br /> 2 if analysis cannot start because the trace was not system-wide and a process was specified.<br /><br /> 3  if analysis failed because the specified process is invalid.<br /><br /> 4 if analysis failed because the specified CVTrace file is invalid.|  

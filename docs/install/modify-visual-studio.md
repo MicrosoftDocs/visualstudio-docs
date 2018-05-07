@@ -1,77 +1,78 @@
 ---
-title: "Modify Visual Studio 2017 RC | Microsoft Docs"
+title: "Modify Visual Studio 2017 | Microsoft Docs"
 description: "Learn how to modify Visual Studio, step-by-step."
-ms.custom: ""
-ms.date: "11/18/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-install"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: H1Hack27Feb2017
+ms.date: 04/06/2018
+ms.technology: vs-acquisition
+ms.prod: visual-studio-dev15
+ms.topic: conceptual
 helpviewer_keywords:
   - "modify Visual Studio"
   - "change visual studio"
-  - "Visual Studio Preview"
-  - "Visual Studio Release Candidate"
-  - "Visual Studio RC"
-  - "modifying Visual Studio"
   - "changing Visual Studio"
   - "customize Visual Studio"
 ms.assetid: 3399ea7b-a291-4a9e-80a1-b861a21afa1d
-author: "TerryGLee"
-ms.author: "tglee"
-manager: "ghogen"
-translation.priority.ht:
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt:
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: TerryGLee
+ms.author: tglee
+manager: douge
+ms.workload:
+  - "multiple"
 ---
-# Modify Visual Studio 2017 RC
-Not only have we made is easier for you to personalize Visual Studio to match the tasks you want to accomplish, we’ve also made it easier to modify Visual Studio, too. No more looking in Control Panel to do so; simply start the new Visual Studio installer and make the changes you want.  
+# Modify Visual Studio 2017 by adding or removing workloads and components
 
- Here's how.  
+Not only have we made is easier for you to personalize Visual Studio to match the tasks you want to accomplish, we've also made it easier to customize Visual Studio, too. To do so, start the new Visual Studio Installer and make the changes you want.
 
-## Modify workloads  
- Workloads contain the features you need for the programming language or platform that you are using. Use workloads to modify Visual Studio so that it supports the work you want to do, when you want to do it.  
+Here's how.
 
-1.  Find the Visual Studio installer on your computer.  
+## Modify workloads
 
-     For example, on a computer running Windows 10 Anniversary Update, click **Start**, and then scroll to the letter **M**, where you’ll see it listed as **Microsoft Visual Studio Installer**.  
+ Workloads contain the features you need for the programming language or platform that you are using. Use workloads to modify Visual Studio so that it supports the work you want to do, when you want to do it.
 
-     ![00-ModifyingDev15Prev5-FindTheVisualStudioInstaller](../install/media/00-modifyingdev15prev5-findthevisualstudioinstaller.png "Locate the Microsoft Visual Studio Installer")
+>[!IMPORTANT]
+>To install, update, or modify Visual Studio, you must log on with an account that has administrative permissions. For more information, see [User Permissions and Visual Studio](../ide/user-permissions-and-visual-studio.md).
 
-2.  Click to start the installer, and then click **Modify**.  
+1. Find the Visual Studio Installer on your computer.  
 
-     ![Modifying Visual Studio 2017 RC; Launch or Modify](media/vs2017modify-ModifyOrLaunch.png "Launch or Modify Visual Studio 2017")  
+     For example, on a computer running Windows 10, select **Start**, and then scroll to the letter **V**, where it's listed as **Visual Studio Installer**.  
 
-3.  From the **Workloads** screen, click to select or deselect the workloads that you want to install or uninstall.  
+     ![Visual Studio Installer](media/vs2017-locate-the-visual-studio-installer.PNG "Locate the Microsoft Visual Studio Installer")
 
-    ![Visual Studio 2017 RC Setup Dialog](media/vs2017modify-ChooseWorkload.png "Choose a workload in Visual Studio 2017")
+     >[!NOTE]
+     On some computers, the Visual Studio Installer might be listed under the letter **"M"** as the **Microsoft Visual Studio Installer**.<br/><br/> Alternatively, you can find the Visual Studio Installer in the following location: `C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe`
 
-4. Click **Modify**.  
+2. Click or tap to start the installer, and then choose **Modify**.  
 
-5. After the new workloads and components are installed, click **Launch**.
+     ![Launch or modify Visual Studio](media/modify-visual-studio.png "Modify Visual Studio 2017")
+
+     If you have an update pending, then the Modify button is in a different place. Click **More**, and then choose **Modify**.   
+
+     ![Update or modify Visual Studio](media/modify-or-update-visual-studio.png "Update or modify Visual Studio 2017")
+
+3. From the **Workloads** screen, select or deselect the workloads that you want to install or uninstall.
+
+    ![Visual Studio 2017 Setup Dialog](media/vs2017-modify-workloads.PNG "Choose a workload in Visual Studio 2017")
+
+4. Choose **Modify** again.  
+
+5. After the new workloads and components are installed, choose **Launch**.
 
 ## Modify individual components
 
-If you don’t want to use the handy Workloads feature to customize your Visual Studio installation, choose the **Individual Components** option from the Visual Studio Installer, select what you want, and then follow the prompts.  
+If you don't want to use the handy Workloads feature to customize your Visual Studio installation, choose the **Individual Components** option from the Visual Studio Installer, select what you want and then follow the prompts.
 
-> [!IMPORTANT]
-> While Visual Studio 2017 RC in general is supported for use in a production environment, those workloads and components that are marked "Preview" in the installation UI are not supported for use in a production environment.
+## Get support
 
-## See also  
-* [Install Visual Studio 2017 RC](https://go.microsoft.com/fwlink/?linkid=833223)
-* [Uninstall Visual Studio 2017 RC](uninstall-visual-studio.md)
-* [How to Report a Problem with Visual Studio 2017 RC](../ide/how-to-report-a-problem-with-visual-studio-2017.md)
+Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page for help. You can also contact us for installation help by [live chat](https://www.visualstudio.com/vs/support/#talktous) (English only); for more information, see the [Visual Studio "Contact Us"  page](https://www.visualstudio.com/vs/support/#talktous).
+
+Here are a few more support options:
+
+* You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
+* You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
+* You can track product issues and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/).
+* You can also engage with us and other Visual Studio developers through the [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio). (This option requires a [GitHub](https://github.com/) account.)
+
+## See also
+
+* [Install Visual Studio 2017](install-visual-studio.md)
+* [Update Visual Studio 2017](update-visual-studio.md)
+* [Uninstall Visual Studio 2017](uninstall-visual-studio.md)

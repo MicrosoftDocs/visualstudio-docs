@@ -2,31 +2,14 @@
 title: "How to: Publish a WPF Application with Visual Styles Enabled | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-deployment
+ms.topic: "conceptual"
 ms.assetid: 73b22b02-fc75-42aa-82d3-51fdcaf8e5c8
-caps.latest.revision: 3
-author: "mairaw"
-ms.author: "mairaw"
-manager: "wpickett"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
+ms.workload: 
+  - "multiple"
 ---
 # How to: Publish a WPF Application with Visual Styles Enabled
 Visual styles enable the appearance of common controls to change based on the theme chosen by the user. By default, visual styles are not enabled for Windows Presentation Foundation (WPF) applications, so you must enable them manually. However, enabling visual styles for a WPF application and then publishing the solution causes an error. This topic describes how to resolve this error and the process for publishing a WPF application with visual styles enabled. For more information about visual styles, see [Visual Styles Overview](http://msdn.microsoft.com/5b5d7bb6-684f-478d-bf5f-b8d18bbcff2e). For more information about the error message, see [Troubleshooting Specific Errors in ClickOnce Deployments](../deployment/troubleshooting-specific-errors-in-clickonce-deployments.md).  
@@ -45,7 +28,7 @@ Visual styles enable the appearance of common controls to change based on the th
   
 ##  <a name="BKMK_publishsolwovs"></a> Publish the solution without visual styles enabled  
   
-1.  Ensure that your project does not have visual styles enabled. First, check your project’s manifest file for the following XML. Then, if the XML is present, enclose the XML with a comment tag.  
+1.  Ensure that your project does not have visual styles enabled. First, check your project's manifest file for the following XML. Then, if the XML is present, enclose the XML with a comment tag.  
   
      By default, visual styles are not enabled.  
   
@@ -107,7 +90,7 @@ Visual styles enable the appearance of common controls to change based on the th
   
 1.  Open the **Visual Studio Command Prompt**.  
   
-     For more information about how to open the **Visual Studio Command Prompt**, see [Command Prompts](http://msdn.microsoft.com/Library/94fcf524-9045-4993-bfb2-e2d8bad44219).  
+     For more information about how to open the **Visual Studio Command Prompt**, see [Command Prompts](/dotnet/framework/tools/developer-command-prompt-for-vs).  
   
     > [!NOTE]
     >  The remaining steps make the following assumptions about your solution:  
@@ -129,7 +112,7 @@ Visual styles enable the appearance of common controls to change based on the th
 3.  At the command prompt, run the following command to embed the manifest file into the executable file of the application.  
   
     ```  
-    mt –manifest c:\temp\themes.manifest –outputresource:MyWPFApp.exe.deploy  
+    mt -manifest c:\temp\themes.manifest -outputresource:MyWPFApp.exe.deploy  
     ```  
   
 ##  <a name="BKMK_signappdeplyman"></a> Sign the application and deployment manifests  
@@ -150,7 +133,7 @@ Visual styles enable the appearance of common controls to change based on the th
     ```  
   
     > [!NOTE]
-    >  This example assumes that you sign the manifest by using the `.pfx` file of the project. If you are not signing the manifest, you can omit the `–cf` parameter that is used in this example. If you are signing the manifest with a certificate that requires a password, specify the `–password` option (`For example: mage –u MyWPFApp.exe.manifest –cf ..\..\..\MyWPFApp_TemporaryKey.pfx – password Password`).  
+    >  This example assumes that you sign the manifest by using the `.pfx` file of the project. If you are not signing the manifest, you can omit the `-cf` parameter that is used in this example. If you are signing the manifest with a certificate that requires a password, specify the `-password` option (`For example: mage -u MyWPFApp.exe.manifest -cf ..\..\..\MyWPFApp_TemporaryKey.pfx - password Password`).  
   
 3.  At the command prompt, run the following command to add the `.deploy` extension to the name of the file that you renamed in a previous step of this procedure.  
   
@@ -168,7 +151,7 @@ Visual styles enable the appearance of common controls to change based on the th
     ```  
   
     > [!NOTE]
-    >  This example assumes that you sign the manifest by using the `.pfx` file of the project. If you are not signing the manifest, you can omit the `–cf` parameter that is used in this example. If you are signing the manifest with a certificate that requires a password, specify the `–password` option, as in this example:`For example: mage –u MyWPFApp.exe.manifest –cf ..\..\..\MyWPFApp_TemporaryKey.pfx – password Password`.  
+    >  This example assumes that you sign the manifest by using the `.pfx` file of the project. If you are not signing the manifest, you can omit the `-cf` parameter that is used in this example. If you are signing the manifest with a certificate that requires a password, specify the `-password` option, as in this example:`For example: mage -u MyWPFApp.exe.manifest -cf ..\..\..\MyWPFApp_TemporaryKey.pfx - password Password`.  
   
  After you have performed these steps, you can move the published files to the location from which you want end users to install the application. If you intend to update the solution often, you can move these commands into a script and run the script each time that you publish a new version.  
   
@@ -176,4 +159,4 @@ Visual styles enable the appearance of common controls to change based on the th
  [Troubleshooting Specific Errors in ClickOnce Deployments](../deployment/troubleshooting-specific-errors-in-clickonce-deployments.md)   
  [Visual Styles Overview](http://msdn.microsoft.com/5b5d7bb6-684f-478d-bf5f-b8d18bbcff2e)   
  [Enabling Visual Styles](https://msdn.microsoft.com/library/bb773175.aspx)   
- [Command Prompts](http://msdn.microsoft.com/Library/94fcf524-9045-4993-bfb2-e2d8bad44219)
+ [Command Prompts](/dotnet/framework/tools/developer-command-prompt-for-vs)

@@ -13,6 +13,7 @@ f1_keywords:
   - "setMonth"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "Month method"
@@ -53,7 +54,7 @@ dateObj. setMonth(numMonth[, dateVal])
 ## Example  
  The following example illustrates the use of the `setMonth` method.  
   
-```javascript  
+```JavaScript  
 date = new Date('1/1/1990');  
 date.setMonth(14);  
 document.write(date);  

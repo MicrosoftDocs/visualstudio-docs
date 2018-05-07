@@ -2,47 +2,32 @@
 title: "IDebugManagedObject::GetManagedObject | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugManagedObject::GetManagedObject"
 helpviewer_keywords: 
   - "IDebugManagedObject::GetManagedObject method"
 ms.assetid: 6abe1402-6aad-41e6-8ec1-ae12d5945992
-caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugManagedObject::GetManagedObject
 Returns an interface that represents the managed object.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetManagedObject(   
    IUnknown** ppManagedObject  
 );  
 ```  
   
-```cpp#  
+```cpp  
 int GetManagedObject(  
    out object ppManagedObject  
 );  

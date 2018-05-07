@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Field ID="{$guid5$}" Name="$fieldname$" DisplayName="$fieldname$" Type="$selectedfieldtype$" Group="$selectedgrouptype$">
+  </Field>
+</Elements>

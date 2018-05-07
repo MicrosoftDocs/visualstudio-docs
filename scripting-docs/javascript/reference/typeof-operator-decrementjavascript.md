@@ -13,6 +13,7 @@ f1_keywords:
   - "typeof_JavaScriptKeyword"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "typeof operator"
@@ -35,14 +36,16 @@ typeof[(]expression[)] ;
 ## Remarks  
  The *expression* argument is any expression for which type information is sought.  
   
- The `typeof` operator returns type information as a string. There are six possible values that `typeof` returns: "number," "string," "boolean," "object," "function," and "undefined."  
+ The `typeof` operator returns type information as a string. There are seven possible values that `typeof` returns: "number," "string," "boolean," "object," "function," "undefined," and "unknown".  
   
  The parentheses are optional in the `typeof` syntax.  
+
+ An object might return as an unknown type in an XMLHTTPRequest. A COM object with no analog in JavaScript may also return as an unknown type.
   
 ## Example  
  The following example tests the data type of variables.  
   
-```javascript  
+```JavaScript  
 var index = 5;  
 var result = (typeof index === 'number');  
 // Output: true  
@@ -55,7 +58,7 @@ var result = (typeof description === 'string');
 ## Example  
  The following example tests for a data type of `undefined` for declared and undeclared variables.  
   
-```javascript  
+```JavaScript  
 var declared;  
 var result = (declared === undefined);  
 // Output: true  

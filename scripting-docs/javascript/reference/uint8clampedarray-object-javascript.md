@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 0c5537f7-00b4-487a-8fba-ef032e67e7bd
 caps.latest.revision: 6
@@ -52,7 +53,7 @@ uint8ClampedArray = new Uint8ClampedArray( buffer, byteOffset, length);
 ## Remarks  
  Values stored in a `Uint8ClampedArray` object are between 0 and 255. If you set a negative value for an array member, 0 is set for the value. If you set a value that is larger than 255, 255 is set as the value.  
   
- Values in a `Uint8ClampedArray` object are rounded to the nearest event value, which is called banker's rounding.  
+ Values in a `Uint8ClampedArray` object are rounded to the nearest even value, which is called banker's rounding.  
   
 ## Constants  
  The following table lists the constants of the `Uint8ClampedArray` object.  
@@ -82,7 +83,7 @@ uint8ClampedArray = new Uint8ClampedArray( buffer, byteOffset, length);
 ## Example  
  The following example shows how to use a `Uint8ClampedArray` object to process the binary data acquired from an `XmlHttpRequest`:  
   
-```javascript  
+```JavaScript  
 var req = new XMLHttpRequest();  
     req.open('GET', "http://www.example.com");  
     req.responseType = "arraybuffer";  
@@ -105,7 +106,7 @@ var req = new XMLHttpRequest();
 ## Example  
  The following example shows how values are restricted in a `Uint8ClampedArray`.  
   
-```javascript  
+```JavaScript  
 var ints = new Uint8ClampedArray(2);  
 ints[0] = -1;  // 0 will be assigned.  
 ints[1] = 256; // 255 will be assigned.  
@@ -118,7 +119,7 @@ ints[1] = 256; // 255 will be assigned.
 ```  
 var ints = new Uint8ClampedArray(4);  
 ints[0] = 11.3; // 11 will be assigned (same as Int8Array).  
-ints[1] = 11.8; // 11 will be assigned (same as Int8Array).  
+ints[1] = 11.8; // 12 will be assigned (same as Int8Array).  
 ints[2] = 10.5; // 10 will be assigned (rounded to the nearest   
                 // even value).  
 ints[3] = 11.5; // 12 will be assigned (rounded to the nearest   

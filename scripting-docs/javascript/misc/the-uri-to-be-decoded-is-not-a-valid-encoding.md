@@ -13,6 +13,7 @@ f1_keywords:
   - "VS.WebClient.Help.SCRIPT5025"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 029e0790-ffd1-496d-8700-3b3dbac1b6fd
 caps.latest.revision: 9
@@ -25,7 +26,7 @@ You attempted to decode an improperly formed URI (Uniform Resource Identifier). 
   
  A complete URI is composed of a sequence of components and separators. The general form is:  
   
-```javascript  
+```JavaScript  
 <Scheme>:<first>/<second>;<third>?<fourth>  
 ```  
   

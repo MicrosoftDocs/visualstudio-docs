@@ -2,48 +2,33 @@
 title: "IDebugBoundBreakpoint2::GetState | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugBoundBreakpoint2::GetState"
 helpviewer_keywords: 
   - "GetState method"
   - "IDebugBoundBreakpoint2::GetState method"
 ms.assetid: a40a8382-295e-4916-aae6-ffe3a9cd3f2d
-caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugBoundBreakpoint2::GetState
 Gets the state of this bound breakpoint.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetState(   
    BP_STATE* pState  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetState(   
    out enum_BP_STATE pState  
 );  

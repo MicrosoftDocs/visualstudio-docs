@@ -13,6 +13,7 @@ f1_keywords:
   - "getTimeZoneOffset"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "getTimezoneOffset method"
@@ -44,7 +45,7 @@ dateObj.getTimezoneOffset()
 ## Example  
  The following example shows how to use the `getTimezoneOffset` method.  
   
-```javascript  
+```JavaScript  
 var date =  new Date();  
 var minutes = date.getTimezoneOffset();  
   

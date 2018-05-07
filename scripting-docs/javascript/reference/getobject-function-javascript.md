@@ -13,6 +13,7 @@ f1_keywords:
   - "GetObject"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "GetObject function"
@@ -54,7 +55,7 @@ GetObject([pathname] [, class])
   
  Use the `GetObject` function to access an Automation object from a file. Assign the object returned by `GetObject` to the object variable. For example:  
   
-```javascript  
+```JavaScript  
 var CADObject;  
 CADObject = GetObject("C:\\CAD\\SCHEMA.CAD");  
 ```  
@@ -65,20 +66,20 @@ CADObject = GetObject("C:\\CAD\\SCHEMA.CAD");
   
  For example, in a drawing application you might have multiple layers to a drawing stored in a file. You could use the following code to activate a layer within a drawing called `SCHEMA.CAD`:  
   
-```javascript  
+```JavaScript  
 var LayerObject = GetObject("C:\\CAD\\SCHEMA.CAD!Layer3");  
 ```  
   
  If you do not specify the object's class, Automation determines which application to start and which object to activate, based on the file name you provide. Some files, however, may support more than one class of object. For example, a drawing might support three different types of objects: an Application object, a Drawing object, and a Toolbar object, all of which are part of the same file. To specify which object in a file you want to activate, use the optional `class` argument. For example:  
   
-```javascript  
+```JavaScript  
 var MyObject;  
 MyObject = GetObject("C:\\DRAWINGS\\SAMPLE.DRW", "FIGMENT.DRAWING");  
 ```  
   
  In the preceding example, `FIGMENT` is the name of a drawing application and `DRAWING` is one of the object types it supports. Once an object is activated, you reference it in code using the object variable you defined. In the preceding example, you access properties and methods of the new object using the object variable `MyObject`. For example:  
   
-```javascript  
+```JavaScript  
 MyObject.Line(9, 90);  
 MyObject.InsertText(9, 100, "Hello, world.");  
 MyObject.SaveAs("C:\\DRAWINGS\\SAMPLE.DRW");  

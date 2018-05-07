@@ -2,12 +2,8 @@
 title: "&lt;dependency&gt; Element (ClickOnce Application) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-deployment
+ms.topic: "reference"
 f1_keywords: 
   - "urn:schemas-microsoft-com:asm.v2#osVersionInfo"
   - "urn:schemas-microsoft-com:asm.v2#os"
@@ -27,24 +23,11 @@ helpviewer_keywords:
   - "manifests [ClickOnce], dependency element"
   - "<dependency> element [ClickOnce application manifest]"
 ms.assetid: 09d6a1e0-60f8-4fbd-843b-8e49ee3115a3
-caps.latest.revision: 34
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
+ms.workload: 
+  - "multiple"
 ---
 # &lt;dependency&gt; Element (ClickOnce Application)
 Identifies a platform or assembly dependency that is required for the application.  

@@ -13,6 +13,7 @@ f1_keywords:
   - "arguments"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "arguments, arguments property"
@@ -41,7 +42,7 @@ function.arguments
 ## Example  
  The following example illustrates the use of the `arguments` property:  
   
-```javascript  
+```JavaScript  
 function ArgTest(arg1, arg2){  
    var s = "";  
    s += "The individual arguments are: "  

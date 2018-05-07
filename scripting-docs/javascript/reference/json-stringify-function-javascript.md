@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "stringify method"
@@ -92,7 +93,7 @@ value [, replacer] [, space])
 ## Example  
  This example uses `JSON.stringify` to convert the `contact` object to JSON text. The `memberfilter` array is defined so that only the `surname` and `phone` members are converted. The `firstname` member is omitted.  
   
-```javascript  
+```JavaScript  
 var contact = new Object();  
 contact.firstname = "Jesper";  
 contact.surname = "Aaberg";  
@@ -110,7 +111,7 @@ document.write(jsonText);
 ## Example  
  This example uses `JSON.stringify` with an array. The `replaceToUpper` function converts every string in the array to uppercase.  
   
-```javascript  
+```JavaScript  
 var continents = new Array();  
 continents[0] = "Europe";  
 continents[1] = "Asia";  
@@ -134,7 +135,7 @@ function replaceToUpper(key, value) {
 ## Example  
  This example uses the `toJSON` method to convert string values to uppercase.  
   
-```javascript  
+```JavaScript  
 var contact = new Object();   
 contact.firstname = "Jesper";  
 contact.surname = "Aaberg";  

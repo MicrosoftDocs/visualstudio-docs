@@ -1,0 +1,16 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" onLoad="OnLoad">
+  <ribbon startFromScratch="false">
+    <tabs>
+      <tab id="VSTO.Tab" label="Insert Items" visible="1">
+        <group id="ItemsGroup" label="Insert Text or Table" visible="1">
+          <button id="textButton" label="Text"
+               screentip="Text" onAction="OnTextButton"
+               supertip="Inserts text at the cursor location."/>
+          <button id="tableButton" label="Table"
+               screentip="Table" onAction="OnTableButton"
+               supertip="Inserts a table at the cursor location."/>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>

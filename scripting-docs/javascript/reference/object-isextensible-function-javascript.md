@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "Object.isExtensible function [JavaScript]"
@@ -26,7 +27,7 @@ Returns a value that indicates whether new properties can be added to an object.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 Object.isExtensible(object)  
 ```  
   
@@ -63,7 +64,7 @@ Object.isExtensible(object)
 ## Example  
  The following example illustrates the use of the `Object.isExtensible` function.  
   
-```javascript  
+```JavaScript  
 // Create an object that has two properties.  
 var obj = { pasta: "spaghetti", length: 10 };  
   

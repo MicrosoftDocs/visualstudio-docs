@@ -2,33 +2,18 @@
 title: "How to: Manage a Private Gallery By Using Registry Settings | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "VSIX private galleries, managing"
   - "managing VSIX private galleries"
 ms.assetid: 86b86442-4293-4cad-9fe2-876eef65f426
-caps.latest.revision: 6
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # How to: Manage a Private Gallery By Using Registry Settings
 If you are an administrator or the developer of an Isolated Shell extension, you can control access to the controls, templates, and tools in the Visual Studio Gallery, the Samples Gallery, or private galleries. To make a gallery available or unavailable, create a .pkgdef file that describes the modified registry keys and their values.  
@@ -37,10 +22,10 @@ If you are an administrator or the developer of an Isolated Shell extension, you
  You can create a .pkgdef file to control access to galleries on multiple computers. This file must have the following format.  
   
 ```  
-[$RootPath$\ExtensionManager\Repositories\{UniqueGUID}]  
+[$RootKey$\ExtensionManager\Repositories\{UniqueGUID}]  
 @={URI}  (REG_SZ)  
 Disabled=0 | 1 (DWORD)  
-Priority=0 (highest priority) … MaxInt (lowest priority) (DWORD) (uint)  
+Priority=0 (highest priority) ... MaxInt (lowest priority) (DWORD) (uint)  
 Protocol=Atom Feed|Sharepoint (REG_SZ)  
 DisplayName={DisplayName} (REG_SZ)  
 DisplayNameResourceID={ID} (REG_SZ)  
@@ -66,7 +51,7 @@ DisplayNamePackageGuid={GUID} (REG_SZ)
  You can disable a gallery in a .pkgdef file. The following entry disables the Visual Studio Gallery:  
   
 ```  
-[$RootPath$\ExtensionManager\Repositories\{0F45E408-7995-4375-9485-86B8DB553DC9}]  
+[$RootKey$\ExtensionManager\Repositories\{0F45E408-7995-4375-9485-86B8DB553DC9}]  
 "Disabled"=dword:00000001  
   
 ```  
@@ -74,7 +59,7 @@ DisplayNamePackageGuid={GUID} (REG_SZ)
  The following entry disables the Samples Gallery:  
   
 ```  
-[$RootPath$\ExtensionManager\Repositories\{AEB9CB40-D8E6-4615-B52C-27E307F8506C}]  
+[$RootKey$\ExtensionManager\Repositories\{AEB9CB40-D8E6-4615-B52C-27E307F8506C}]  
 "Disabled"=dword:00000001  
   
 ```  

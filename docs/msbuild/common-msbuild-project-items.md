@@ -2,12 +2,8 @@
 title: "Common MSBuild Project Items | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: "reference"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -16,27 +12,14 @@ dev_langs:
 helpviewer_keywords: 
   - "MSBuild, common project items"
 ms.assetid: 1eba3721-cc12-4b80-9987-84923ede5e2e
-caps.latest.revision: 17
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
+ms.workload: 
+  - "multiple"
 ---
 # Common MSBuild Project Items
-In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)], an item is a named reference to one or more files. Items contain metadata such as file names, paths, and version numbers. All project types in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] have several items in common. These items are defined in the file microsoft.build.commontypes.xsd.  
+In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)], an item is a named reference to one or more files. Items contain metadata such as file names, paths, and version numbers. All project types in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] have several items in common. These items are defined in the file Microsoft.Build.CommonTypes.xsd.  
   
 ## Common Items  
  The following is a list of all the common project items.  
@@ -44,7 +27,7 @@ In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.m
 ### Reference  
  Represents an assembly (managed) reference in the project.  
   
-|Item Name|Description|  
+|Item Metadata Name|Description|  
 |---------------|-----------------|  
 |HintPath|Optional string. Relative or absolute path of the assembly.|  
 |Name|Optional string. The display name of the assembly, for example, "System.Windows.Forms."|  
@@ -56,7 +39,7 @@ In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.m
 ### COMReference  
  Represents a COM (unmanaged) component reference in the project.  
   
-|Item Name|Description|  
+|Item Metadata Name|Description|  
 |---------------|-----------------|  
 |Name|Optional string. The display name of the component.|  
 |Guid|Optional string. A GUID for the component, in the form {12345678-1234-1234-1234-1234567891234}.|  
@@ -69,14 +52,14 @@ In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.m
 ### COMFileReference  
  Represents a list of type libraries that feed into the ResolvedComreference target.  
   
-|Item Name|Description|  
+|Item Metadata Name|Description|  
 |---------------|-----------------|  
 |WrapperTool|Optional string. The name of the wrapper tool that is used on the component, for example, "tlbimp."|  
   
 ### NativeReference  
  Represents a native manifest file or a reference to such a file.  
   
-|Item Name|Description|  
+|Item Metadata Name|Description|  
 |---------------|-----------------|  
 |Name|Required string. The base name of the manifest file.|  
 |HintPath|Required string. The relative path of the manifest file.|  
@@ -84,7 +67,7 @@ In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.m
 ### ProjectReference  
  Represents a reference to another project.  
   
-|Item Name|Description|  
+|Item Metadata Name|Description|  
 |---------------|-----------------|  
 |Name|Optional string. The display name of the reference.|  
 |Project|Optional string. A GUID for the reference, in the form {12345678-1234-1234-1234-1234567891234}.|  
@@ -93,7 +76,7 @@ In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.m
 ### Compile  
  Represents the source files for the compiler.  
   
-|Item Name|Description|  
+|Item Metadata Name|Description|  
 |---------------|-----------------|  
 |DependentUpon|Optional string. Specifies the file this file depends on to compile correctly.|  
 |AutoGen|Optional boolean. Indicates whether the file was generated for the project by the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE).|  
@@ -104,7 +87,7 @@ In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.m
 ### EmbeddedResource  
  Represents resources to be embedded in the generated assembly.  
   
-|Item Name|Description|  
+|Item Metadata Name|Description|  
 |---------------|-----------------|  
 |DependentUpon|Optional string. Specifies the file this file depends on to compile correctly|  
 |Generator|Required string. The name of any file generator that is run on this item.|  
@@ -118,13 +101,13 @@ In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.m
 ### Content  
  Represents files that are not compiled into the project, but may be embedded or published together with it.  
   
-|Item Name|Description|  
+|Item Metadata Name|Description|  
 |---------------|-----------------|  
 |DependentUpon|Optional string. Specifies the file this file depends on to compile correctly.|  
 |Generator|Required string. The name of any file generator that runs on this item.|  
 |LastGenOutput|Required string. The name of the file that was created by any file generator that was run on this item.|  
 |CustomToolNamespace|Required string. The namespace in which any file generator that runs on this item should create code.|  
-|Link|Optional boolean. Indicates whether to display the file in **Solution Explorer** in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].|  
+|Link|Optional string. The notational path to be displayed if the file is physically located outside the influence of the project.|  
 |PublishState|Required string. The publish state of the content, either:<br /><br /> -   Default<br />-   Included<br />-   Excluded<br />-   DataFile<br />-   Prerequisite|  
 |IsAssembly|Optional boolean. Specifies whether the file is an assembly.|  
 |Visible|Optional boolean. Indicates whether to display the file in **Solution Explorer** in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].|  
@@ -133,7 +116,7 @@ In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.m
 ### None  
  Represents files that should have no role in the build process.  
   
-|Item Name|Description|  
+|Item Metadata Name|Description|  
 |---------------|-----------------|  
 |DependentUpon|Optional string. Specifies the file this file depends on to compile correctly.|  
 |Generator|Required string. The name of any file generator that is run on this item.|  

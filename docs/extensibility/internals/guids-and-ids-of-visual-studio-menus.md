@@ -2,12 +2,9 @@
 title: "GUIDs and IDs of Visual Studio Menus | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "visual studio menus"
   - "visual studio groups"
@@ -16,23 +13,11 @@ helpviewer_keywords:
   - "guid"
   - "menus"
 ms.assetid: 84639d86-dd21-4b35-9988-6bb654162488
-caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # GUIDs and IDs of Visual Studio Menus
 This topic enumerates the GUID and ID values of the menus and groups on the Visual Studio menu bar. These values are defined in .vsct files that are installed as part of the Visual Studio SDK. For more information, see [IDE-Defined Commands, Menus, and Groups](../../extensibility/internals/ide-defined-commands-menus-and-groups.md).  
@@ -205,7 +190,7 @@ This topic enumerates the GUID and ID values of the menus and groups on the Visu
 |||IDG_VS_FILE_MOVE_PICKER|  
 |IDG_VS_VIEW_DEV_WINDOWS|IDM_VS_CSCD_FINDRESULTS|IDG_VS_WNDO_FINDRESULTS|  
 ||IDM_VS_CSCD_WINDOWS|IDG_VS_VIEW_CALLBROWSER|  
-|||IDG_VS_WNDO_OTRWNDWS1…6|  
+|||IDG_VS_WNDO_OTRWNDWS1...6|  
 |||IDG_VS_WNDO_WINDOWS2|  
 |IDG_VS_VIEW_TOOLBARS|IDM_VS_CSCD_COMMANDBARS||  
 |IDG_VS_EDIT_GOTO|IDM_VS_EDITOR_FIND_MENU||  

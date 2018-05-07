@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Trin_VstcoreOutlookSecurity">
+</Property><Property Name="Solution File" Value="C:\Users\normesta\Desktop\Projects\Trin_VstcoreOutlookSecurity\CS\Trin_VstcoreOutlookSecurity.sln">
+</Property><Property Name="User Options File" Value="C:\Users\normesta\Desktop\Projects\Trin_VstcoreOutlookSecurity\CS\Trin_VstcoreOutlookSecurity.v11.suo">
+</Property><Property Name="Date" Value="Tuesday, November 08, 2011">
+</Property><Property Name="Time" Value="14:46 PM">
+</Property></Properties><Event ErrorLevel="3" Project="" Source="Trin_VstcoreOutlookSecurity.sln" Description="SafeUpgrade">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_VstcoreOutlookSecurity.sln" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreOutlookSecurity\CS\Backup\Trin_VstcoreOutlookSecurity.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_VstcoreOutlookSecurity.v11.suo" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreOutlookSecurity\CS\Backup\Trin_VstcoreOutlookSecurity.v11.suo">
+</Event><Event ErrorLevel="3" Project="Trin_VstcoreOutlookSecurity" Source="Trin_VstcoreOutlookSecurity.csproj" Description="SafeRepair">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreOutlookSecurity" Source="Trin_VstcoreOutlookSecurity.csproj" Description="Project file successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreOutlookSecurity\CS\Backup\Trin_VstcoreOutlookSecurity.csproj">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreOutlookSecurity" Source="Trin_VstcoreOutlookSecurity.csproj.user" Description="Project user file successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreOutlookSecurity\CS\Backup\Trin_VstcoreOutlookSecurity.csproj.user">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreOutlookSecurity" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreOutlookSecurity\CS\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreOutlookSecurity" Source="Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreOutlookSecurity\CS\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreOutlookSecurity" Source="Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreOutlookSecurity\CS\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreOutlookSecurity" Source="ThisAddIn.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreOutlookSecurity\CS\Backup\ThisAddIn.cs">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreOutlookSecurity" Source="ThisAddIn.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreOutlookSecurity\CS\Backup\ThisAddIn.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreOutlookSecurity" Source="Properties\Settings.settings" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreOutlookSecurity\CS\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreOutlookSecurity" Source="ThisAddIn.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreOutlookSecurity\CS\Backup\ThisAddIn.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreOutlookSecurity" Source="Trin_VstcoreOutlookSecurity_TemporaryKey.pfx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreOutlookSecurity\CS\Backup\Trin_VstcoreOutlookSecurity_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreOutlookSecurity" Source="Properties\Resources.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_VstcoreOutlookSecurity\CS\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreOutlookSecurity" Source="Trin_VstcoreOutlookSecurity.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Trin_VstcoreOutlookSecurity" Source="Trin_VstcoreOutlookSecurity.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_VstcoreOutlookSecurity.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Trin_VstcoreOutlookSecurity.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreOutlookSecurity" Source="Trin_VstcoreOutlookSecurity.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

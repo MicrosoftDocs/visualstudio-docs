@@ -13,6 +13,7 @@ f1_keywords:
   - "function_JavaScriptKeyword"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "new operator"
@@ -57,7 +58,7 @@ function functionname ([arg1 [, arg2 [,...[, argN]]]]) {
 ## Example  
  The following example illustrates the use of the `function` statement.  
   
-```javascript  
+```JavaScript  
 function myfunction (arg1, arg2) {  
     var r = arg1 * arg2;  
     return(r);  
@@ -67,7 +68,7 @@ function myfunction (arg1, arg2) {
 ## Example  
  A function can be assigned to a variable. This is illustrated in the following example.  
   
-```javascript  
+```JavaScript  
 function AddFive(x) {  
     return x + 5;  
 }  

@@ -2,46 +2,31 @@
 title: "IDebugProcessQueryProperties::QueryProperties | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugProcessQueryProperties::QueryProperties"
 ms.assetid: 976a9962-b689-45bb-afb6-16b2c5dbc3b8
-caps.latest.revision: 5
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProcessQueryProperties::QueryProperties
 This method queries for a specified property values of the debugging process.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT QueryProperties(  
    ULONG                  celt,  
    PROCESS_PROPERTY_TYPE *rgdwPropTypes,  
    VARIANT               *rgtPropValues);  
 ```  
   
-```c#  
+```csharp  
 int QueryProperties(  
    uint                       celt,  
    enum_PROCESS_PROPERTY_TYPE rgdwPropTypes,  

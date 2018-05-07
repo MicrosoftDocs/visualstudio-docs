@@ -2,42 +2,27 @@
 title: "IntelliSenseHostFlags | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IntellisenseHostFlags"
 helpviewer_keywords: 
   - "IntelliSense, IntellisenseHostFlags enumeration"
   - "IntellisenseHostFlags enumeration"
 ms.assetid: 0930640b-eb84-48ef-a8f7-d4268f55c99c
-caps.latest.revision: 6
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # IntelliSenseHostFlags
 Specifies IntelliSense host flags.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum IntellisenseHostFlags  
 {  
     IHF_READONLYCONTEXT      = 0x00000001  

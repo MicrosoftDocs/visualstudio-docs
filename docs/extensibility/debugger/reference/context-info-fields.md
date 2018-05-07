@@ -2,41 +2,26 @@
 title: "CONTEXT_INFO_FIELDS | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "CONTEXT_INFO_FIELDS"
 helpviewer_keywords: 
   - "CONTEXT_INFO_FIELDS enumeration"
 ms.assetid: ef436bd3-738e-47e8-828c-8febce752439
-caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # CONTEXT_INFO_FIELDS
 Specifies what information to retrieve about a memory context.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_CONTEXT_INFO_FIELDS {   
    CIF_MODULEURL =       0x00000001,  
    CIF_FUNCTION =        0x00000002,  
@@ -49,7 +34,7 @@ enum enum_CONTEXT_INFO_FIELDS { 
 typedef DWORD CONTEXT_INFO_FIELDS;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_CONTEXT_INFO_FIELDS {  
    CIF_MODULEURL =       0x00000001,  
    CIF_FUNCTION =        0x00000002,  

@@ -2,41 +2,26 @@
 title: "BP_ERROR_RESOLUTION_INFO | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "BP_ERROR_RESOLUTION_INFO"
 helpviewer_keywords: 
   - "BP_ERROR_RESOLUTION_INFO structure"
 ms.assetid: a6b83242-5728-4716-80f3-840c96d59c6c
-caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # BP_ERROR_RESOLUTION_INFO
 Describes the resolution of an error breakpoint, including location, program, and thread.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct _BP_ERROR_RESOLUTION_INFO {   
    BPERESI_FIELDS         dwFields;  
    BP_RESOLUTION_LOCATION bpResLocation;  
@@ -47,7 +32,7 @@ typedef struct _BP_ERROR_RESOLUTION_INFO { 
 } BP_ERROR_RESOLUTION_INFO;  
 ```  
   
-```c#  
+```csharp  
 public struct BP_ERROR_RESOLUTION_INFO {   
    public uint                   dwFields;  
    public BP_RESOLUTION_LOCATION bpResLocation;  

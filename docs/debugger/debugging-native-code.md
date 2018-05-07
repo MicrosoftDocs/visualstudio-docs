@@ -1,20 +1,15 @@
 ---
 title: "Debugging Native Code | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "04/11/2017"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
-  - "C++"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "debugging native code"
@@ -22,24 +17,11 @@ helpviewer_keywords:
   - "debugging [Visual Studio], native code"
   - "native code, debugging"
 ms.assetid: d94eee90-7e0d-4cac-88c1-9831030daa5e
-caps.latest.revision: 21
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "cplusplus"
 ---
 # Debugging Native Code
 The section covers some common debugging problems and techniques for native applications. The techniques covered in this section are high-level techniques. For the mechanics of using the Visual Studio debugger, see [Debugger Roadmap](../debugger/debugger-basics.md).  
@@ -69,9 +51,6 @@ The section covers some common debugging problems and techniques for native appl
  [COM and ActiveX Debugging](../debugger/com-and-activex-debugging.md)  
  Provides information on debugging COM and ActiveX applications, including tools you can use for COM and ActiveX debugging.  
   
- [How to: Debug Native DLLs](../debugger/how-to-debug-native-dlls.md)  
- Explains how to set up debugging for DLLs from native code.  
-  
  [How to: Debug Injected Code](../debugger/how-to-debug-injected-code.md)  
  Provides guidance on debugging code that uses attributes. Instructions include how to turn on Source Annotation, how to view injected code, and how to view the disassembly code at the current execution point.  
   
@@ -81,10 +60,14 @@ The section covers some common debugging problems and techniques for native appl
 ## Related Sections  
  [Visual C++ Project Types](../debugger/debugging-preparation-visual-cpp-project-types.md)  
  Provides links to topics that describe how to debug the native project types created by the Visual C++ project templates.  
+
+ [Debugging DLL Projects](../debugger/debugging-dll-projects.md)
+ Provides information on how to debug native and managed DLLs.
   
- [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)  
+ [Debugger Feature Tour](../debugger/debugger-feature-tour.md)  
  Provides links to the larger sections of the debugging documentation. Information includes what's new in the debugger, settings and preparation, breakpoints, handling exceptions, edit and continue, debugging managed code, debugging native code, debugging SQL, and the user interface references.  
   
 ## See Also  
- [Debugger Security](../debugger/debugger-security.md)   
- [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)
+ [Debugger Security](../debugger/debugger-security.md)  
+ [Debugging in Visual Studio](../debugger/index.md) 
+ [Debugger Feature Tour](../debugger/debugger-feature-tour.md)

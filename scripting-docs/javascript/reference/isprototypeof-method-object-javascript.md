@@ -13,6 +13,7 @@ f1_keywords:
   - "isPrototypeOf"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "isPrototypeOf method"
@@ -45,7 +46,7 @@ prototype.isPrototypeOf(object)
 ## Example  
  The following example illustrates the use of the `isPrototypeOf` method.  
   
-```javascript  
+```JavaScript  
 function Rectangle() {  
 }  
   

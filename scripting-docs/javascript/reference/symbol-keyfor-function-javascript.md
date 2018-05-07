@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: f0b6f034-6d0a-421c-b1c6-52489411e9a3
 caps.latest.revision: 2
@@ -36,7 +37,7 @@ Symbol.keyFor(sym);
   
 ## Example  
   
-```javascript  
+```JavaScript  
 // Local symbol  
 var sym1 = Symbol("desc");  
 // Global symbol  

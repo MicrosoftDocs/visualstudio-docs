@@ -13,6 +13,7 @@ f1_keywords:
   - "VS.WebClient.Help.SCRIPT5035"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 4727186f-facd-4aa6-9447-bbefbae83f07
 caps.latest.revision: 12
@@ -30,7 +31,7 @@ An attempt has been made to invoke `JSON.stringify` with an argument that is not
 ## Example  
  The code in this example causes a runtime error because `memberfilter` is an object instead of a function or array.  
   
-```javascript  
+```JavaScript  
 var contact = new Object();  
 contact.firstname = "Jesper";  
 contact.surname = "Aaberg";  

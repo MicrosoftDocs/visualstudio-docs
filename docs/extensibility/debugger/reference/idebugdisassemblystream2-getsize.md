@@ -2,47 +2,32 @@
 title: "IDebugDisassemblyStream2::GetSize | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugDisassemblyStream2::GetSize"
 helpviewer_keywords: 
   - "IDebugDisassemblyStream2::GetSize"
 ms.assetid: 8f512704-12d0-46d2-959a-4f8dffe117b5
-caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugDisassemblyStream2::GetSize
 Gets the size in instructions of this disassembly stream.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetSize(   
    UINT64* pnSize  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetSize(   
    out ulong pnSize  
 );  

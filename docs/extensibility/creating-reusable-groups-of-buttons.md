@@ -2,34 +2,19 @@
 title: "Creating Reusable Groups of Buttons | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "button groups, creating in VSPackages"
   - "VSPackages, creating reusable button groups"
   - "buttons, creating reusable groups"
 ms.assetid: 0c561617-fb86-476d-8bd1-c6e5e7464c65
-caps.latest.revision: 44
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # Creating Reusable Groups of Buttons
 A command group is a collection of commands that always appear together on a menu or toolbar. Any command group can be re-used by assigning it to different parent menus in the CommandPlacements section of the .vsct file.  
@@ -54,7 +39,7 @@ A command group is a collection of commands that always appear together on a men
     </GuidSymbol>  
     ```  
   
-     By default, the command item template creates a group named **MyGroup** and a button that has the name that you provided, together with an IDSymbol entry for each.  
+     By default, the command item template creates a group named **MyMenuGroup** and a button that has the name that you provided, together with an IDSymbol entry for each.  
   
 5.  In the Groups section, create a Group element that has the same GUID and ID attributes as the ones given in the Symbols section. You can also use an existing group, or use the entry that is provided by the command template, as in the following example. This group appears on the **Tools** menu  
   

@@ -2,34 +2,19 @@
 title: "METADATA_ADDRESS_ARRAYELEM | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "METADATA_ADDRESS_ARRAYELEM"
 helpviewer_keywords: 
   - "METADATA_ADDRESS_ARRAYELEM structure"
 ms.assetid: 24321be5-7c17-4038-82a1-c20a2b68ff3c
-caps.latest.revision: 6
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # METADATA_ADDRESS_ARRAYELEM
 This structure represents an array element within an array.  
@@ -43,7 +28,7 @@ typedef struct _tagMETADATA_ADDRESS_ARRAYELEM {
 } METADATA_ADDRESS_ARRAYELEM;  
 ```  
   
-```c#  
+```csharp  
 public struct METADATA_ADDRESS_ARRAYELEM {  
    public int  tokMethod;  
    public uint dwIndex;  

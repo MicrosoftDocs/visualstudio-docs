@@ -2,32 +2,17 @@
 title: "Walkthrough: Accessing the DTE Object from an Editor Extension | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], new - getting the DTE object"
 ms.assetid: c1f40bab-c6ec-45b0-8333-ea5ceb02a39d
-caps.latest.revision: 22
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # Walkthrough: Accessing the DTE Object from an Editor Extension
 In VSPackages, you can get the DTE object by calling the <xref:Microsoft.VisualStudio.Shell.Package.GetService%2A> method with the type of the DTE object. In Managed Extensibility Framework (MEF) extensions, you can import <xref:Microsoft.VisualStudio.Shell.SVsServiceProvider> and then call the <xref:Microsoft.VisualStudio.Shell.ServiceProvider.GetService%2A> method with a type of <xref:EnvDTE.DTE>.  
@@ -51,7 +36,7 @@ In VSPackages, you can get the DTE object by calling the <xref:Microsoft.VisualS
   
 3.  Go to the DTETest.cs file, and add the following `using` directives:  
   
-    ```c#  
+    ```csharp  
     using EnvDTE;  
     using EnvDTE80;  
     using Microsoft.VisualStudio.Shell;  
@@ -60,7 +45,7 @@ In VSPackages, you can get the DTE object by calling the <xref:Microsoft.VisualS
   
 4.  In the `GetDTEProvider` class, import a <xref:Microsoft.VisualStudio.Shell.SVsServiceProvider>.  
   
-    ```c#  
+    ```csharp  
     [Import]  
     internal SVsServiceProvider ServiceProvider = null;  
   
@@ -68,7 +53,7 @@ In VSPackages, you can get the DTE object by calling the <xref:Microsoft.VisualS
   
 5.  In the `GetClassifier()` method, add the following code.  
   
-    ```c#  
+    ```csharp  
     DTE dte = (DTE)ServiceProvider.GetService(typeof(DTE));  
   
     ```  

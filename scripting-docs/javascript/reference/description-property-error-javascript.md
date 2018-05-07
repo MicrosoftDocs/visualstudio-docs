@@ -13,6 +13,7 @@ f1_keywords:
   - "Description"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "error handling, error description"
@@ -50,7 +51,7 @@ object
 ## Example  
  The following example illustrates the use of the **description** property.  
   
-```javascript  
+```JavaScript  
 try  
 {  
 // Cause an error:  

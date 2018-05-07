@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 11
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AdventureWorksDataSet", "AdventureWorksDataSet.vbproj", "{A8E9B943-3A25-458B-818D-89AF8E727E2C}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AdventureWorksReport", "AdventureWorksReport\AdventureWorksReport.vbproj", "{DFB47F04-0FA8-4407-B2A5-97912091ABF5}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DataWriter", "DataWriter\DataWriter.vbproj", "{3A3C23ED-25B6-4C36-BCC4-6C0F54627873}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = preSolution
+		{3A3C23ED-25B6-4C36-BCC4-6C0F54627873}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A3C23ED-25B6-4C36-BCC4-6C0F54627873}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A3C23ED-25B6-4C36-BCC4-6C0F54627873}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A3C23ED-25B6-4C36-BCC4-6C0F54627873}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8E9B943-3A25-458B-818D-89AF8E727E2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8E9B943-3A25-458B-818D-89AF8E727E2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8E9B943-3A25-458B-818D-89AF8E727E2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8E9B943-3A25-458B-818D-89AF8E727E2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFB47F04-0FA8-4407-B2A5-97912091ABF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFB47F04-0FA8-4407-B2A5-97912091ABF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFB47F04-0FA8-4407-B2A5-97912091ABF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFB47F04-0FA8-4407-B2A5-97912091ABF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

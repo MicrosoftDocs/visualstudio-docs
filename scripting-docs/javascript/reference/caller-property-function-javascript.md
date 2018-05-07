@@ -13,6 +13,7 @@ f1_keywords:
   - "caller"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "caller property"
@@ -42,7 +43,7 @@ functionName.caller
   
  The following example illustrates the use of the `caller` property:  
   
-```javascript  
+```JavaScript  
 function CallLevel(){  
    if (CallLevel.caller == null)  
       return("CallLevel was called from the top level.");  

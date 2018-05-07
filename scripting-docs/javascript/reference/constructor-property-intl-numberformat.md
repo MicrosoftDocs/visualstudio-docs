@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: ec35a7af-b29f-4fa5-8043-4126590ab6b5
 caps.latest.revision: 2
@@ -23,7 +24,7 @@ Specifies the function that creates a formatter.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 numberFormatter.constructor  
 ```  
   

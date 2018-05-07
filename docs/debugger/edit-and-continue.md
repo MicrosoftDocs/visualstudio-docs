@@ -1,21 +1,15 @@
 ---
-title: "Edit and Continue | Microsoft Docs"
+title: "Edit code and continue debugging in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "05/31/2017"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.enc"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
-  - "C++"
   - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "Edit and Continue"
@@ -23,37 +17,20 @@ helpviewer_keywords:
   - "debugging [Visual Studio], Edit and Continue"
   - "debugger, tools for debugging"
 ms.assetid: 2cdd4531-7117-4221-a809-8447812de2a1
-caps.latest.revision: 24
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "multiple"
 ---
-# Edit and Continue
+# Edit code and continue Debugging in Visual Studio (C#, VB, C++)
 Edit and Continue is a time-saving feature that enables you to make changes to your source code while your program is in break mode. When you resume execution of the program by choosing an execution command like **Continue** or **Step**, Edit and Continue automatically applies the code changes with some limitations. This allows you to make changes to your code during a debugging session, instead of having to stop, recompile your entire program, and restart the debugging session.  
   
- This section includes the following topics:  
-  
- [How to: Apply Code Changes Explicitly](http://msdn.microsoft.com/en-us/89c4fce9-a3ef-432d-a840-67840b1c4be8)  
+ This section includes the following topics:   
   
  [How to: Enable and Disable Edit and Continue](../debugger/how-to-enable-and-disable-edit-and-continue.md)  
   
- [How to: Stop Code Changes](../debugger/how-to-stop-code-changes.md)  
-  
- [Point of Execution](http://msdn.microsoft.com/en-us/dd9855a7-b536-4e76-821f-27017829b996)  
+ [How to: Stop Code Changes](../debugger/how-to-stop-code-changes.md)   
   
  [Edit and Continue (Visual C++)](../debugger/edit-and-continue-visual-cpp.md)  
   

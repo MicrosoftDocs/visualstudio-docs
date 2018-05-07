@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Trin_Ribbon_Choose_Ribbon_4">
+</Property><Property Name="Solution File" Value="C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Choose_Ribbon\VB\Trin_Ribbon_Choose_Ribbon_4.sln">
+</Property><Property Name="User Options File" Value="C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Choose_Ribbon\VB\Trin_Ribbon_Choose_Ribbon_4.v11.suo">
+</Property><Property Name="Date" Value="Friday, November 04, 2011">
+</Property><Property Name="Time" Value="16:23 PM">
+</Property></Properties><Event ErrorLevel="3" Project="" Source="Trin_Ribbon_Choose_Ribbon_4.sln" Description="SafeUpgrade">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_Ribbon_Choose_Ribbon_4.sln" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Choose_Ribbon\VB\Backup\Trin_Ribbon_Choose_Ribbon_4.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_Ribbon_Choose_Ribbon_4.v11.suo" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Choose_Ribbon\VB\Backup\Trin_Ribbon_Choose_Ribbon_4.v11.suo">
+</Event><Event ErrorLevel="3" Project="Trin_Ribbon_Choose_Ribbon_4" Source="Trin_Ribbon_Choose_Ribbon_4.vbproj" Description="SafeRepair">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Choose_Ribbon_4" Source="Trin_Ribbon_Choose_Ribbon_4.vbproj" Description="Project file successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Choose_Ribbon\VB\Backup\Trin_Ribbon_Choose_Ribbon_4.vbproj">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Choose_Ribbon_4" Source="Trin_Ribbon_Choose_Ribbon_4.vbproj.user" Description="Project user file successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Choose_Ribbon\VB\Backup\Trin_Ribbon_Choose_Ribbon_4.vbproj.user">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Choose_Ribbon_4" Source="My Project\AssemblyInfo.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Choose_Ribbon\VB\Backup\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Choose_Ribbon_4" Source="Ribbon1.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Choose_Ribbon\VB\Backup\Ribbon1.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Choose_Ribbon_4" Source="Ribbon1.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Choose_Ribbon\VB\Backup\Ribbon1.vb">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Choose_Ribbon_4" Source="Ribbon2.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Choose_Ribbon\VB\Backup\Ribbon2.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Choose_Ribbon_4" Source="Ribbon2.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Choose_Ribbon\VB\Backup\Ribbon2.vb">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Choose_Ribbon_4" Source="Sheet1.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Choose_Ribbon\VB\Backup\Sheet1.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Choose_Ribbon_4" Source="Sheet1.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Choose_Ribbon\VB\Backup\Sheet1.vb">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Choose_Ribbon_4" Source="Sheet2.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Choose_Ribbon\VB\Backup\Sheet2.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Choose_Ribbon_4" Source="Sheet2.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Choose_Ribbon\VB\Backup\Sheet2.vb">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Choose_Ribbon_4" Source="Sheet3.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Choose_Ribbon\VB\Backup\Sheet3.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Choose_Ribbon_4" Source="Sheet3.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Choose_Ribbon\VB\Backup\Sheet3.vb">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Choose_Ribbon_4" Source="ThisWorkbook.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Choose_Ribbon\VB\Backup\ThisWorkbook.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Choose_Ribbon_4" Source="ThisWorkbook.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Choose_Ribbon\VB\Backup\ThisWorkbook.vb">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Choose_Ribbon_4" Source="My Project\Resources.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Choose_Ribbon\VB\Backup\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Choose_Ribbon_4" Source="My Project\Settings.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Choose_Ribbon\VB\Backup\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Choose_Ribbon_4" Source="My Project\Settings.settings" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Choose_Ribbon\VB\Backup\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Choose_Ribbon_4" Source="Trin_Ribbon_Choose_Ribbon_4.xlsx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Choose_Ribbon\VB\Backup\Trin_Ribbon_Choose_Ribbon_4.xlsx">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Choose_Ribbon_4" Source="Trin_Ribbon_Choose_Ribbon_4_TemporaryKey.pfx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Choose_Ribbon\VB\Backup\Trin_Ribbon_Choose_Ribbon_4_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Choose_Ribbon_4" Source="ThisWorkbook.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Choose_Ribbon\VB\Backup\ThisWorkbook.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Choose_Ribbon_4" Source="Sheet1.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Choose_Ribbon\VB\Backup\Sheet1.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Choose_Ribbon_4" Source="Sheet2.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Choose_Ribbon\VB\Backup\Sheet2.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Choose_Ribbon_4" Source="Sheet3.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Choose_Ribbon\VB\Backup\Sheet3.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Choose_Ribbon_4" Source="My Project\Resources.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Choose_Ribbon\VB\Backup\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Choose_Ribbon_4" Source="Ribbon1.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Choose_Ribbon\VB\Backup\Ribbon1.resx">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Choose_Ribbon_4" Source="Ribbon2.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Ribbon_Choose_Ribbon\VB\Backup\Ribbon2.resx">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Choose_Ribbon_4" Source="Trin_Ribbon_Choose_Ribbon_4.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Trin_Ribbon_Choose_Ribbon_4" Source="Trin_Ribbon_Choose_Ribbon_4.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_Ribbon_Choose_Ribbon_4.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Trin_Ribbon_Choose_Ribbon_4.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Trin_Ribbon_Choose_Ribbon_4" Source="Trin_Ribbon_Choose_Ribbon_4.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

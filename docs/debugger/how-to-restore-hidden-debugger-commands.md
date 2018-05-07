@@ -2,44 +2,24 @@
 title: "How to: Restore Hidden Debugger Commands | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
   - "JScript"
-  - "VB"
-  - "CSharp"
-  - "C++"
 helpviewer_keywords: 
   - "debugger, restoring commands"
   - "debugging [Visual Studio], restoring commands"
   - "commands, debugger"
 ms.assetid: 76ac9b77-f536-43b5-a9fc-984854b1c566
-caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "multiple"
 ---
 # How to: Restore Hidden Debugger Commands
 When you set up Visual Studio, you are asked to choose a set of default IDE settings for your primary programming language. Default IDE settings for some languages may hide certain debugger commands.  
@@ -54,7 +34,7 @@ When you set up Visual Studio, you are asked to choose a set of default IDE sett
   
 3.  In the **Menu bar:** drop-down, select the **Debug** menu that you want to contain the restored command.  
   
-4.  Click the **Add Command…** button.  
+4.  Click the **Add Command...** button.  
   
 5.  In the **Add Command** box, select the command you want to add, and click **OK**.  
   

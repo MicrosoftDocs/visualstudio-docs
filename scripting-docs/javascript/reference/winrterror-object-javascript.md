@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "WinRTError object [JavaScript]"
@@ -38,7 +39,7 @@ errorObj = new WinRTError();
 ## Example  
  The following example shows how a WinRTError is thrown and caught.  
   
-```javascript  
+```JavaScript  
 try {  
             Windows.Storage.ApplicationData.localFolder.createFileAsync("sample.txt");  
         } catch (err) {  

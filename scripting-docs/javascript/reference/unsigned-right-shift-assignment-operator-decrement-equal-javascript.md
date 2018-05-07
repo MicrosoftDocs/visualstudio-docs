@@ -13,6 +13,7 @@ f1_keywords:
   - ">>>="
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - ">>>= operator"
@@ -44,13 +45,13 @@ result >>>= expression
 ## Remarks  
  Using the >>>= operator is exactly the same as doing the following:  
   
-```javascript  
+```JavaScript  
 result = result >>> expression  
 ```  
   
  The **>>>=** operator shifts the bits of *result* right by the number of bits specified in *expression*. Zeroes are filled in from the left. Digits shifted off the right are discarded. For example:  
   
-```javascript  
+```JavaScript  
 var temp  
 temp = -14  
 temp >>>= 2  

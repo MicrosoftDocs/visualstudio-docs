@@ -13,6 +13,7 @@ f1_keywords:
   - "Comment_JavaScript"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "comments, ignoring"
@@ -61,7 +62,7 @@ condStatement
 ## Example  
  The following example illustrates the most common uses of comments.  
   
-```javascript  
+```JavaScript  
 /* This is a multiline comment that  
     can span as many lines as necessary.  */  
 function myfunction(arg1, arg2){  
@@ -75,7 +76,7 @@ function myfunction(arg1, arg2){
 ## Example  
  The following example shows how to use conditional compilation. This example uses special comment delimiters that are used only if conditional compilation is activated by the `@cc_on` statement. Scripting engines that do not support conditional compilation see only the message that says conditional compilation is not supported.  
   
-```javascript  
+```JavaScript  
 /*@cc_on @*/  
 /*@if (@_jscript_version >= 4)  
     alert("JavaScript version 4 or better");  

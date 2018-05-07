@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 8b462020-ceff-4947-8dd1-c78e6aff8d98
 caps.latest.revision: 2
@@ -34,11 +35,11 @@ Math.sign(number)
   
 -   `NaN`, if `number` is `NaN`.  
   
--   -0, if `number` is −0.  
+-   -0, if `number` is -0.  
   
 -   +0, if `number` is +0.  
   
--   -1, if `number` is negative and not −0.  
+-   -1, if `number` is negative and not -0.  
   
 -   +1, if `number` is positive and not +0.  
   

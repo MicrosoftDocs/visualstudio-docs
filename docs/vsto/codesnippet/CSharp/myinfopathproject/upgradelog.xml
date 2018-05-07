@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="MyInfoPathProject">
+</Property><Property Name="Solution File" Value="C:\Users\normesta\Desktop\Projects\Trin_RibbonInfoPathBasic\CS\MyInfoPathProject.sln">
+</Property><Property Name="User Options File" Value="C:\Users\normesta\Desktop\Projects\Trin_RibbonInfoPathBasic\CS\MyInfoPathProject.v11.suo">
+</Property><Property Name="Date" Value="Friday, November 04, 2011">
+</Property><Property Name="Time" Value="16:29 PM">
+</Property></Properties><Event ErrorLevel="3" Project="" Source="MyInfoPathProject.sln" Description="SafeUpgrade">
+</Event><Event ErrorLevel="0" Project="" Source="MyInfoPathProject.sln" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_RibbonInfoPathBasic\CS\Backup\MyInfoPathProject.sln">
+</Event><Event ErrorLevel="0" Project="" Source="MyInfoPathProject.v11.suo" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_RibbonInfoPathBasic\CS\Backup\MyInfoPathProject.v11.suo">
+</Event><Event ErrorLevel="3" Project="MyInfoPathProject" Source="MyInfoPathProject.csproj" Description="SafeRepair">
+</Event><Event ErrorLevel="0" Project="MyInfoPathProject" Source="MyInfoPathProject.csproj" Description="Project file successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_RibbonInfoPathBasic\CS\Backup\MyInfoPathProject.csproj">
+</Event><Event ErrorLevel="0" Project="MyInfoPathProject" Source="DesignModeRibbon.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_RibbonInfoPathBasic\CS\Backup\DesignModeRibbon.cs">
+</Event><Event ErrorLevel="0" Project="MyInfoPathProject" Source="DesignModeRibbon.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_RibbonInfoPathBasic\CS\Backup\DesignModeRibbon.Designer.cs">
+</Event><Event ErrorLevel="0" Project="MyInfoPathProject" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_RibbonInfoPathBasic\CS\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="MyInfoPathProject" Source="Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_RibbonInfoPathBasic\CS\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="MyInfoPathProject" Source="Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_RibbonInfoPathBasic\CS\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="MyInfoPathProject" Source="Ribbon.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_RibbonInfoPathBasic\CS\Backup\Ribbon.cs">
+</Event><Event ErrorLevel="0" Project="MyInfoPathProject" Source="ThisAddIn.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_RibbonInfoPathBasic\CS\Backup\ThisAddIn.cs">
+</Event><Event ErrorLevel="0" Project="MyInfoPathProject" Source="ThisAddIn.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_RibbonInfoPathBasic\CS\Backup\ThisAddIn.Designer.cs">
+</Event><Event ErrorLevel="0" Project="MyInfoPathProject" Source="MyInfoPathProject_TemporaryKey.pfx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_RibbonInfoPathBasic\CS\Backup\MyInfoPathProject_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="MyInfoPathProject" Source="Properties\Settings.settings" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_RibbonInfoPathBasic\CS\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="MyInfoPathProject" Source="ThisAddIn.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_RibbonInfoPathBasic\CS\Backup\ThisAddIn.Designer.xml">
+</Event><Event ErrorLevel="0" Project="MyInfoPathProject" Source="DesignModeRibbon.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_RibbonInfoPathBasic\CS\Backup\DesignModeRibbon.resx">
+</Event><Event ErrorLevel="0" Project="MyInfoPathProject" Source="Properties\Resources.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_RibbonInfoPathBasic\CS\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="MyInfoPathProject" Source="Ribbon.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_RibbonInfoPathBasic\CS\Backup\Ribbon.xml">
+</Event><Event ErrorLevel="0" Project="MyInfoPathProject" Source="MyInfoPathProject.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="MyInfoPathProject" Source="MyInfoPathProject.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="MyInfoPathProject.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="MyInfoPathProject.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="MyInfoPathProject" Source="MyInfoPathProject.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

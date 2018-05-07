@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 6e2f6c6d-7cd2-47c4-a513-3ba53988d27d
 caps.latest.revision: 2
@@ -23,7 +24,7 @@ Returns a value that indicates whether two values are the same value.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 Object.is(value1, value2)  
 ```  
   

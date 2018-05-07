@@ -2,35 +2,20 @@
 title: "How to: Migrate Extensibility Projects to Visual Studio 2015 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Visual Studio SDK, upgrading"
 ms.assetid: 22491cdc-8f04-4e1c-8eb4-ff33798ec792
-caps.latest.revision: 25
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # How to: Migrate Extensibility Projects to Visual Studio 2015
-Here’s how to upgrade your extension.  
+Here's how to upgrade your extension.  
   
 > [!IMPORTANT]
 >  If you intend to maintain a version of your extension solution for an earlier version of Visual Studio, be sure to make a copy before you upgrade it. It may be difficult to return the upgraded version to its previous state.  
@@ -51,13 +36,13 @@ Here’s how to upgrade your extension.
   
 #### To update an extensibility project to NuGet VS SDK reference assemblies  
   
-1.  Determine the VS SDK reference assemblies your project needs.  In **Solution Explorer**, expand the project’s **References** node and review the list of project references.  VS SDK references assemblies will have the prefix **Microsoft.VisualStudio** in the name (for example: Microsoft.VisualStudio.Shell.14.0).  
+1.  Determine the VS SDK reference assemblies your project needs.  In **Solution Explorer**, expand the project's **References** node and review the list of project references.  VS SDK references assemblies will have the prefix **Microsoft.VisualStudio** in the name (for example: Microsoft.VisualStudio.Shell.14.0).  
   
 2.  Remove the VS SDK reference assemblies from the project by selecting them, right click and **Remove**.  
   
-3.  Add the NuGet versions of the VS SDK reference assemblies.  While still in the **Solution Explorer References** node, open the **Manage NuGet Packages…** dialog.  If you want to learn more about this dialog, see [Manage NuGet Packages Using the Dialog](http://docs.nuget.org/Consume/Package-Manager-Dialog). The VS SDK reference assemblies are published on [nuget.org](http://www.nuget.org) by [VisualStudioExtensibility](http://www.nuget.org/profiles/VisualStudioExtensibility).  
+3.  Add the NuGet versions of the VS SDK reference assemblies.  While still in the **Solution Explorer References** node, open the **Manage NuGet Packages...** dialog.  If you want to learn more about this dialog, see [Package Manager UI](/NuGet/Tools/Package-Manager-UI). The VS SDK reference assemblies are published on [nuget.org](http://www.nuget.org) by [VisualStudioExtensibility](http://www.nuget.org/profiles/VisualStudioExtensibility).  
   
-4.  Using **nuget.org** as your **Package Source**, search for the NuGet package name which matches the desired reference assembly (for example: Microsoft.VisualStudio.Shell.14.0) and install it in your project.  NuGet may add multiple reference assemblies in order to satisfy the initial assembly’s dependencies.  
+4.  Using **nuget.org** as your **Package Source**, search for the NuGet package name which matches the desired reference assembly (for example: Microsoft.VisualStudio.Shell.14.0) and install it in your project.  NuGet may add multiple reference assemblies in order to satisfy the initial assembly's dependencies.  
   
      If you prefer, you can add all the VS SDK reference assemblies at once by installing the VS SDK [Meta package](http://www.nuget.org/packages/VSSDK_Reference_Assemblies).  
   

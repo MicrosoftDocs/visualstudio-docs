@@ -2,12 +2,8 @@
 title: "DA0013: High usage of String.Split or String.Substring | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.13"
   - "vs.performance.rules.DAAvoidStringSubstr"
@@ -17,25 +13,11 @@ helpviewer_keywords:
   - "vs.performance.13"
   - "vs.performance.rules.DA0013"
 ms.assetid: f501f423-bef9-4e08-bf96-c9ac9957e5a2
-caps.latest.revision: 14
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: douge
+ms.workload: 
+  - "multiple"
 ---
 # DA0013: High usage of String.Split or String.Substring
 |||  

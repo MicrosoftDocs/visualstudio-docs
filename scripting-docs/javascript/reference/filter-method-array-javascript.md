@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "arrays [JavaScript], filter method"
@@ -78,7 +79,7 @@ array1.filter(callbackfn[, thisArg])
 ## Example  
  The following example shows how to use the `filter` method.  
   
-```javascript  
+```JavaScript  
 // Define a callback function.  
 function CheckIfPrime(value, index, ar) {  
     high = Math.floor(Math.sqrt(value)) + 1;  
@@ -104,7 +105,7 @@ document.write(primes);
 ## Example  
  In the following example, the `callbackfn` argument includes the code of the callback function.  
   
-```javascript  
+```JavaScript  
 // Create the original array.  
 var arr = [5, "element", 10, "the", true];  
   
@@ -123,7 +124,7 @@ document.write(result);
 ## Example  
  The following example displays the names of properties that start with the letter "css" in the `window` DOM object.  
   
-```javascript  
+```JavaScript  
 var filteredNames = Object.getOwnPropertyNames(window).filter(IsC);  
   
     for (i in filteredNames)  
@@ -155,7 +156,7 @@ function IsC(value) {
 ## Example  
  The following example illustrates the use of the `thisArg` argument, which specifies an object to which the `this` keyword can refer.  
   
-```javascript  
+```JavaScript  
 var checkNumericRange = function(value) {  
     if (typeof value !== 'number')  
         return false;  
@@ -179,7 +180,7 @@ document.write(result);
 ## Example  
  The `filter` method can be applied to a string instead of an array. The following example shows how to do this.  
   
-```javascript  
+```JavaScript  
 // Define a callback function that returns true  
 // if the current array element follows a space  
 // or is the first character.  

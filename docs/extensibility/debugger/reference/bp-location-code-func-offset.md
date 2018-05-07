@@ -2,41 +2,26 @@
 title: "BP_LOCATION_CODE_FUNC_OFFSET | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "BP_LOCATION_CODE_FUNC_OFFSET"
 helpviewer_keywords: 
   - "BP_LOCATION_CODE_FUNC_OFFSET structure"
 ms.assetid: ab38f7ca-fa01-4cf3-a06c-56cbb7207617
-caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # BP_LOCATION_CODE_FUNC_OFFSET
 Describes the offset location of a breakpoint in a function in code.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct _BP_LOCATION_CODE_FUNC_OFFSET {   
    BSTR                     bstrContext;  
    IDebugFunctionPosition2* pFuncPos;  

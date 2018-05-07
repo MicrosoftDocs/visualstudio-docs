@@ -13,6 +13,7 @@ f1_keywords:
   - "setUTCDate"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "dates, UTC"
@@ -52,7 +53,7 @@ dateObj.setUTCDate(numDate)
 ## Example  
  The following example illustrates the use of the `setUTCDate` method.  
   
-```javascript  
+```JavaScript  
 function SetUTCDateDemo(newdayofmonth){  
    var d = new Date();           // Create Date object.  
    d.setUTCDate(newdayofmonth);  // Set UTC day of month.  

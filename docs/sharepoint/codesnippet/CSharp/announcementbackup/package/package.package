@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" Id="92b8d6d5-230e-4654-abbb-03c996648716" solutionId="92b8d6d5-230e-4654-abbb-03c996648716" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" name="AnnouncementBackup">
+    <features>
+        <featureReference projectId="9a5c649f-9a7d-4e76-8280-409d95d829b2" itemId="bca38bd1-160d-40cb-bba1-eeec49b46c80" />
+    </features>
+</package>

@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 2ad059f1-4b7f-4758-882a-c74ce1283ab0
 caps.latest.revision: 7
@@ -42,9 +43,9 @@ obj = Symbol(desc)
   
 |Symbol|Description|  
 |------------|-----------------|  
-|`Symbol.hasInstance`|This method determines whether a constructor object recognizes an object as one of the constructor’s instances. It is used internally by the `instanceof` operator.|  
+|`Symbol.hasInstance`|This method determines whether a constructor object recognizes an object as one of the constructor's instances. It is used internally by the `instanceof` operator.|  
 |`Symbol.isConcatSpreadable`|This property returns a Boolean value that indicates whether an object should be flattened to its array elements by `Array.concat`.|  
-|`Symbol.iterator`|This method returns the default iterator for an object. It is used internally by the `for…of` statement.|  
+|`Symbol.iterator`|This method returns the default iterator for an object. It is used internally by the `for...of` statement.|  
 |`Symbol.toPrimitive`|This method converts an object to a corresponding primitive value. It is used internally by the `ToPrimitive` abstract operation.|  
 |`Symbol.toStringTag`|This property returns a string value that is used to help create the default string description of an object. It is used internally by the built-in method `Object.toString` method.|  
 |`Symbol.unscopables`|This property returns an object whose properties are excluded from the `with` environment bindings of the associated object.|  
@@ -61,7 +62,7 @@ obj = Symbol(desc)
   
 ## Example  
   
-```javascript  
+```JavaScript  
 (function() {  
   
     // module-scoped symbol  

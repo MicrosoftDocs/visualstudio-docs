@@ -13,6 +13,7 @@ f1_keywords:
   - "VS.WebClient.Help.SCRIPT5024"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: a3f0fdbb-8d4b-41ae-a396-43dfc9483760
 caps.latest.revision: 8
@@ -27,7 +28,7 @@ You attempted to encode a string as a URI (Uniform Resource Identifier), but it 
   
 -   Ensure the string to be encoded contains only valid Unicode sequences. A complete URI is composed of a sequence of components and separators. The names in angle brackets represent components, and the ":", "/", ";" and "?" are reserved characters used as separators. The general form is:  
   
-    ```javascript  
+    ```JavaScript  
     <Scheme>:<first>/<second>;<third>?<fourth>  
     ```  
   

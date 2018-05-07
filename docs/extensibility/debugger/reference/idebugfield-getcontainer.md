@@ -2,47 +2,32 @@
 title: "IDebugField::GetContainer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugField::GetContainer"
 helpviewer_keywords: 
   - "IDebugField::GetContainer method"
 ms.assetid: 6d6c8213-6181-4adf-9584-3e4cac163dd8
-caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugField::GetContainer
 This method gets the container of a field.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetContainer(   
    IDebugContainerField** ppContainerField  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetContainer(  
    out IDebugContainerField ppContainerField  
 );  

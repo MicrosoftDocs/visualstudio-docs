@@ -2,12 +2,8 @@
 title: "Process View | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.view.process"
 helpviewer_keywords: 
@@ -17,24 +13,11 @@ helpviewer_keywords:
   - "Profiling Tools,process view"
   - "Profiling Tools,process report"
 ms.assetid: 6d4e2a5d-9f17-4ece-a6f1-75836e1fc382
-caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "multiple"
 ---
 # Process View
 The Process view displays profiling data for the processes and threads that were executed during the profiling run.  

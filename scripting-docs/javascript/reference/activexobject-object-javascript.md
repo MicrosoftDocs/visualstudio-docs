@@ -13,6 +13,7 @@ f1_keywords:
   - "ActiveXObject"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "ActiveXObject object"
@@ -73,14 +74,14 @@ newObj = new ActiveXObject(servername.typename[, location])
   
  To create an Automation object, assign the new `ActiveXObject` to an object variable:  
   
-```javascript  
+```JavaScript  
 var ExcelApp = new ActiveXObject("Excel.Application");  
 var ExcelSheet = new ActiveXObject("Excel.Sheet");  
 ```  
   
  This code starts the application creating the object (in this case, a Microsoft Excel worksheet). Once an object is created, you refer to it in code using the object variable you defined. In the following example, you access properties and methods of the new object using the object variable `ExcelSheet` and other Excel objects, including the Application object and the ActiveSheet.Cells collection.  
   
-```javascript  
+```JavaScript  
 // Make Excel visible through the Application object.  
 ExcelSheet.Application.Visible = true;  
 // Place some text in the first cell of the sheet.  

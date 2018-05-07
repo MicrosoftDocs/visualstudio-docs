@@ -2,48 +2,33 @@
 title: "IDebugStackFrame2::GetPhysicalStackRange | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugStackFrame2::GetPhysicalStackRange"
 helpviewer_keywords: 
   - "IDebugStackFrame2::GetPhysicalStackRange"
 ms.assetid: 2f6992e2-ac1c-433f-83b7-a7f83a4ce63d
-caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugStackFrame2::GetPhysicalStackRange
 Gets a machine-dependent representation of the range of physical addresses associated with a stack frame.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetPhysicalStackRange (   
    UINT64* paddrMin,  
    UINT64* paddrMax  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetPhysicalStackRange (   
    out ulong paddrMin,  
    out ulong paddrMax  

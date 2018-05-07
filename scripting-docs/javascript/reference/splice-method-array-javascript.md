@@ -13,6 +13,7 @@ f1_keywords:
   - "splice"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "splice method"
@@ -51,7 +52,7 @@ arrayObj.splice(start, deleteCount, [item1[, item2[, . . . [,itemN]]]])
 ## Example  
  The following code shows how to use the `splice` method.  
   
-```javascript  
+```JavaScript  
 var arr = new Array("4", "11", "2", "10", "3", "1");  
 arr.splice(2, 2, "21", "31");  
 document.write(arr);  

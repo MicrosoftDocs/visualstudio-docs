@@ -13,6 +13,7 @@ f1_keywords:
   - "moveFirst"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "MoveFirst method"
@@ -43,7 +44,7 @@ enumObj.moveFirst( )
 ## Example  
  In following example, the `moveFirst` method is used to evaluate members of the `Drives` collection from the beginning of the list:  
   
-```javascript  
+```JavaScript  
 function ShowDrives()  
 {  
     var s = "";  

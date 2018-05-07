@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 87717f5d-b0c6-4c8d-a293-476002b7bfcf
 caps.latest.revision: 6
@@ -24,7 +25,7 @@ If the lifetime of a DOM element or object is different from the lifetime of its
 ## Event listeners and object scope  
  The following code example shows code that might result in a memory leak when the `dataObjFactory()` function is called. In this code, an event listener is registered for a data object each time a new data object is created. To make the current data object available in the `dataReady()` event handler, the [bind Method (Function)](../../javascript/reference/bind-method-function-javascript.md) is used in `addEventListener`.  
   
-```javascript  
+```JavaScript  
  var data;  
  var dataObj;  
   
@@ -76,7 +77,7 @@ function dataObjFactory() {
   
  To fix this code and make the data objects available for garbage collection, you must first store a reference to the bound version of the event handler, as shown in this code, and then pass the stored reference to `addEventListener`. Here's the corrected code for `DataObject`:  
   
-```javascript  
+```JavaScript  
 function DataObject() {  
   
     this.name = "Data Object";  
@@ -94,7 +95,7 @@ function DataObject() {
   
  Finally, you need to call `removeEventListener` on the stored reference (`handlerRef`) of the bound function. Here's the corrected code for `dataObjFactory`:  
   
-```javascript  
+```JavaScript  
 function dataObjFactory() {  
      for (var x = 0; x < 100; x++) {  
          if (dataObj) {  

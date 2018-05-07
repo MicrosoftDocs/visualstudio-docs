@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "arrays [JavaScript], some method"
@@ -85,7 +86,7 @@ array1.some(callbackfn[, thisArg])
 ## Example  
  The following example uses the `some` method to find out if any elements in an array are even.  
   
-```javascript  
+```JavaScript  
 // The callback function.  
 function CheckIfEven(value, index, ar) {  
     if (value % 2 == 0)  
@@ -104,7 +105,7 @@ document.write(evens);
 ## Example  
  The following example shows how to use the `thisArg` parameter, which specifies an object to which the `this` keyword can refer. It checks whether any of the numbers in an array are outside the range provided by an object passed  
   
-```javascript  
+```JavaScript  
 // Create a function that returns true if the value is   
 // outside the range.  
 var isOutsideRange = function (value) {  

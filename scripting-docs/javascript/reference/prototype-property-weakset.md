@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 950e15a2-2f56-4cb9-8e48-020efd97f938
 caps.latest.revision: 2
@@ -23,7 +24,7 @@ Returns a reference to the prototype for a `WeakSet`.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 weakset.prototype  
 ```  
   

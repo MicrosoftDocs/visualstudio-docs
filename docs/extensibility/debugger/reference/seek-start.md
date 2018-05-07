@@ -2,41 +2,26 @@
 title: "SEEK_START | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "SEEK_START"
 helpviewer_keywords: 
   - "SEEK_START enumeration"
 ms.assetid: 55bd8901-626e-428b-a263-23b14417f4c6
-caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # SEEK_START
 Specifies the position from which to start seeking in a disassembly stream.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_SEEK_START {   
    SEEK_START_BEGIN       = 0x0001,  
    SEEK_START_END         = 0x0002,  
@@ -47,7 +32,7 @@ enum enum_SEEK_START { 
 typedef DWORD SEEK_START;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_SEEK_START {   
    SEEK_START_BEGIN       = 0x0001,  
    SEEK_START_END         = 0x0002,  

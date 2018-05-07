@@ -2,47 +2,32 @@
 title: "IDebugExpressionEvaluationCompleteEvent2::GetExpression | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugExpressionEvaluationCompleteEvent2::GetExpression"
 helpviewer_keywords: 
   - "IDebugExpressionEvaluationCompleteEvent2::GetExpression"
 ms.assetid: faf6b2dd-2afd-4852-b21c-7e8d3130e141
-caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugExpressionEvaluationCompleteEvent2::GetExpression
 Gets the original expression.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetExpression(   
    IDebugExpression2** ppExpr  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetExpression(   
    out IDebugExpression2 ppExpr  
 );  

@@ -2,45 +2,25 @@
 title: "Debugging Preparation: Windows Forms Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
+  - "CSharp"
+  - "VB"
   - "FSharp"
-  - "VB"
-  - "CSharp"
   - "C++"
-  - "VB"
-  - "CSharp"
 helpviewer_keywords: 
   - "debugging Windows applications"
   - "Windows applications, debugging"
   - "debugging [Visual Studio], Windows applications"
-  - "debugging [J#], Windows applications"
   - "debugging [C#], Windows applications"
   - "debugging [Visual Basic], Windows applications"
 ms.assetid: 7092ee7f-8378-4def-aef8-1695bd97cf14
-caps.latest.revision: 28
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "multiple"
 ---
 # Debugging Preparation: Windows Forms Applications
 The Windows Forms project template creates a Windows Forms application. Debugging this type of application in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is straightforward. For more information, see [Creating a Windows Application Project](http://msdn.microsoft.com/en-us/b2f93fed-c635-4705-8d0e-cf079a264efa).  
@@ -73,7 +53,7 @@ The Windows Forms project template creates a Windows Forms application. Debuggin
   
     3.  Focus and Validation Events.  
   
-     For more information, see [Creating Event Handlers in Windows Forms](http://msdn.microsoft.com/Library/6514e530-c6b8-489c-a8d2-eda7b7072701).  
+     For more information, see [Creating Event Handlers in Windows Forms](/dotnet/framework/winforms/creating-event-handlers-in-windows-forms).  
   
 3.  On the **Debug** menu, click **Start**.  
   
@@ -86,4 +66,4 @@ The Windows Forms project template creates a Windows Forms application. Debuggin
  [Project Settings for  C# Debug Configurations](../debugger/project-settings-for-csharp-debug-configurations.md)   
  [Project Settings for a Visual Basic Debug Configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md)   
  [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)   
- [Windows Forms](http://msdn.microsoft.com/Library/627df1e9-b254-41af-bbac-9a4f02810c54)
+ [Windows Forms](/dotnet/framework/winforms/index)

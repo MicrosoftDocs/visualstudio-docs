@@ -2,42 +2,27 @@
 title: "IDebugMemoryBytes2::WriteAt | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugMemoryBytes2::WriteAt"
 helpviewer_keywords: 
   - "IDebugMemoryBytes2::WriteAt method"
   - "WriteAt method"
 ms.assetid: 61cc3704-47fa-4d9b-aa62-bb4585ac8fb1
-caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugMemoryBytes2::WriteAt
 Writes the specified number of bytes of memory, starting at the specified address.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT WriteAt(   
    IDebugMemoryContext2* pStartContext,  
    DWORD                 dwCount,  
@@ -45,7 +30,7 @@ HRESULT WriteAt( 
 );  
 ```  
   
-```c#  
+```csharp  
 int WriteAt(  
    IDebugMemoryContext2 pStartContext,  
    uint                 dwCount,  

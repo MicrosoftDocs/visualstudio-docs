@@ -2,47 +2,32 @@
 title: "IDebugEvent2::GetAttributes | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugEvent2::GetAttributes"
 helpviewer_keywords: 
   - "IDebugEvent2::GetAttributes"
 ms.assetid: 2ac5b5fb-da17-43f7-811a-313f677e60d7
-caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugEvent2::GetAttributes
 Gets the attributes for this debug event.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetAttribute(   
    DWORD* pdwAttrib  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetAttribute(   
    out uint pdwAttrib  
 );  

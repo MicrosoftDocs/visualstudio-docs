@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 250ec067-7505-4ee0-82ab-bfd3c2820afa
 caps.latest.revision: 10
@@ -78,7 +79,7 @@ dataView = new DataView(buffer, byteOffset, byteLength);
 ## Example  
  The following example shows how to use a DataView object to process the binary data acquired from an XmlHttpRequest:  
   
-```javascript  
+```JavaScript  
 var req = new XMLHttpRequest();  
     req.open('GET', "http://www.example.com");  
     req.responseType = "arraybuffer";  

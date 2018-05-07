@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 42c05252-13c1-4943-b1a4-b33285aeab3e
 caps.latest.revision: 4
@@ -50,7 +51,7 @@ numberObj.toLocaleString([locales][, options])
 ## Example  
  The following example shows how to use the `toLocaleString` method with no parameters.  
   
-```javascript  
+```JavaScript  
 var n, s;  
 n = new Number(100);  
 s = "Current locale value is: ";  
@@ -64,7 +65,7 @@ document.write(s);
 ## Example  
  The following example shows how to use the `toLocaleString` method with a specified locale and comparison options.  
   
-```javascript  
+```JavaScript  
 var number = 123456789;  
 var options1 = { style: "percent" };  
 var options2 = { style: "currency", currency: "INR" };  

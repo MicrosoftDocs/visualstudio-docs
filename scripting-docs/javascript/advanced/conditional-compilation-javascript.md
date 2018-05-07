@@ -13,6 +13,7 @@ f1_keywords:
   - "ConditionalComp_JavaScript"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "conditional compilation, overview"
@@ -34,7 +35,7 @@ Conditional compilation allows the use of new [!INCLUDE[javascript](../../javasc
   
  Always place conditional compilation code in comments, so that hosts (like Netscape Navigator) that do not support conditional compilation will ignore it. Here is an example.  
   
-```javascript  
+```JavaScript  
 /*@cc_on @*/  
 /*@if (@_jscript_version >= 4)  
     alert("JavaScript version 4 or better");  

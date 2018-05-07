@@ -13,6 +13,7 @@ f1_keywords:
   - "do_JavaScriptKeyword"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "do...while statement"
@@ -46,12 +47,12 @@ while (expression) ;
 ## Remarks  
  Unlike the `while` statement, a `do...while` loop is executed one time before the conditional expression is evaluated.  
   
- On any line in a `do…while` block, you can use the `break` statement to cause the program flow to exit the loop, or you can use the `continue` statement to go directly to the `while` expression.  
+ On any line in a `do...while` block, you can use the `break` statement to cause the program flow to exit the loop, or you can use the `continue` statement to go directly to the `while` expression.  
   
 ## Example  
  In the following example, the statements in the `do...while` loop continue to execute as long as the variable `i` is less than 10.  
   
-```javascript  
+```JavaScript  
 var i = 0;  
 do {  
     document.write(i + " ");  
@@ -64,7 +65,7 @@ do {
 ## Example  
  In the following example, the statements inside the loop are executed once even though the condition is not met.  
   
-```javascript  
+```JavaScript  
 var i = 10;  
 do {  
     document.write(i + " ");  

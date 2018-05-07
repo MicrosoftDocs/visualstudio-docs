@@ -2,47 +2,32 @@
 title: "IDebugExceptionEvent2::GetException | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugExceptionEvent2::GetException"
 helpviewer_keywords: 
   - "IDebugExceptionEvent2::GetException"
 ms.assetid: 7c98f41d-322b-4e72-a514-cbd4823eb70d
-caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugExceptionEvent2::GetException
 Gets a detailed description of the exception that fired this event.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetException(   
    EXCEPTION_INFO* pExceptionInfo  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetException(   
    EXCEPTION_INFO[] pExceptionInfo  
 );  

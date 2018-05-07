@@ -13,6 +13,7 @@ f1_keywords:
   - "getUTCDay"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "Date object"
@@ -47,7 +48,7 @@ dateObj.getUTCDay()
 ## Example  
  The following example shows how to use the `getUTCDay` method.  
   
-```javascript  
+```JavaScript  
 var date = new Date("2/6/2001");  
 var day = date.getUTCDay();  
 document.write(day);  

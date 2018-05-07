@@ -2,12 +2,8 @@
 title: "CvWriteMessage Function | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "cvmarkers/CvWriteMessageW"
   - "cvmarkers/CvWriteMessageExW"
@@ -27,25 +23,11 @@ helpviewer_keywords:
   - "CvWriteMessageVA method"
   - "CvWriteMessageExA method"
 ms.assetid: e20ae7be-bfa7-437a-b8c1-fa0f1baa7f83
-caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: douge
+ms.workload: 
+  - "multiple"
 ---
 # CvWriteMessage Function
 Writes a message to the Concurrency Visualizer trace file.  

@@ -2,34 +2,19 @@
 title: "IDebugObject2::IsEncOutdated | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugObject2::IsEncOutdated"
 helpviewer_keywords: 
   - "IDebugObject2::IsEncOutdated method"
 ms.assetid: d3a8c02d-895b-478c-9957-d663130f308e
-caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugObject2::IsEncOutdated
 This method determines whether the Edit and Continue status of this object or of the parent container is out of date. A custom expression evaluator does not implement this method and always returns `E_NOTIMPL`.  
@@ -42,7 +27,7 @@ HRESULT IsEncOutdated(
 );  
 ```  
   
-```c#  
+```csharp  
 int IsEncOutdated(  
    out int pfEncOutdated  
 );  

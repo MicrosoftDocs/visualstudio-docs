@@ -2,34 +2,19 @@
 title: "IDebugProcess3::Execute | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProcess3::Execute"
 helpviewer_keywords: 
   - "IDebugProcess3::Execute"
 ms.assetid: d831cd81-d7bf-4172-8517-aa699867791f
-caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProcess3::Execute
 Continues running this process from a stopped state. Any previous execution state (such as a step) is cleared and the process starts executing again.  
@@ -45,7 +30,7 @@ HRESULT Execute(
 );  
 ```  
   
-```c#  
+```csharp  
 int Execute(  
    IDebugThread2 pThread  
 );  

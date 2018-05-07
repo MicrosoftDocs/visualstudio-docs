@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Trin_VstcoreActionsPaneExcelCS">
+</Property><Property Name="Solution File" Value="C:\Users\normesta\Desktop\Projects\Trin_VstcoreActionsPaneExcel\CS\Trin_VstcoreActionsPaneExcelCS.sln">
+</Property><Property Name="Date" Value="Tuesday, November 08, 2011">
+</Property><Property Name="Time" Value="14:26:42 PM">
+</Property><Property Name="Log Number" Value="3">
+</Property></Properties><Event ErrorLevel="3" Project="Trin_VstcoreCreatingExcelCS" Source="..\..\Trin_VstcoreCreatingExcel\CS\Trin_VstcoreCreatingExcelCS.csproj" Description="SafeRepair">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreCreatingExcelCS" Source="..\..\Trin_VstcoreCreatingExcel\CS\Trin_VstcoreCreatingExcelCS.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Trin_VstcoreCreatingExcelCS" Source="..\..\Trin_VstcoreCreatingExcel\CS\Trin_VstcoreCreatingExcelCS.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Trin_VstcoreCreatingExcelCS" Source="..\..\Trin_VstcoreCreatingExcel\CS\Trin_VstcoreCreatingExcelCS.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

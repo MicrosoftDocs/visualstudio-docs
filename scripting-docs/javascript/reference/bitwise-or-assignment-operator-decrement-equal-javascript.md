@@ -13,6 +13,7 @@ f1_keywords:
   - "|="
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "assignment operators, bitwise [JavaScript]"
@@ -45,13 +46,13 @@ result |= expression
 ## Remarks  
  Using this operator is exactly the same as specifying:  
   
-```javascript  
+```JavaScript  
 result = result | expression  
 ```  
   
  The **&#124;=** operator looks at the binary representation of the values of *result* and *expression* and does a bitwise OR operation on them. The result of this operation behaves like this:  
   
-```javascript  
+```JavaScript  
 0101    (result)  
 1100    (expression)  
 ----  

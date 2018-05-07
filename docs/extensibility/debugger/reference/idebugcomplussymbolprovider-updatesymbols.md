@@ -2,40 +2,25 @@
 title: "IDebugComPlusSymbolProvider::UpdateSymbols | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "UpdateSymbols"
   - "IDebugComPlusSymbolProvider::UpdateSymbols"
 ms.assetid: d530f6f1-4af2-454b-bab0-02478a8fe81e
-caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugComPlusSymbolProvider::UpdateSymbols
 Updates the debug symbols in memory with those from the specified data stream.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT UpdateSymbols (  
    ULONG32  ulAppDomainID,  
    GUID     guidModule,  
@@ -43,7 +28,7 @@ HRESULT UpdateSymbols (
 );  
 ```  
   
-```c#  
+```csharp  
 int UpdateSymbols (  
    uint    ulAppDomainID,  
    Guid    guidModule,  
@@ -64,7 +49,7 @@ int UpdateSymbols (
 ## Example  
  The following example shows how to implement this method for a **CDebugSymbolProvider** object that exposes the [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugSymbolProvider::UpdateSymbols(  
     ULONG32 ulAppDomainID,  
     GUID guidModule,  

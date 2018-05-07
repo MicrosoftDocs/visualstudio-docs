@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "toJSON method"
@@ -44,7 +45,7 @@ objectname.toJSON()
 ## Example  
  The following example uses the `toJSON` method to serialize string member values in uppercase. The `toJSON` method is called when `JSON.stringify` is called.  
   
-```javascript  
+```JavaScript  
 var contact = new Object();  
 contact.firstname = "Jesper";  
 contact.surname = "Aaberg";  
@@ -73,7 +74,7 @@ var jsonText = JSON.stringify(contact);
 ## Example  
  The following example illustrates how to use the `toJSON` method that is a built-in member of the [Date](../../javascript/reference/date-object-javascript.md) object.  
   
-```javascript  
+```JavaScript  
 var dt = new Date('8/24/2009');  
 dt.setUTCHours(7, 30, 0);  
 var jsonText = JSON.stringify(dt);  

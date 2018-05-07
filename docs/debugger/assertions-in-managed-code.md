@@ -2,19 +2,12 @@
 title: "Assertions in Managed Code | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
+  - "CSharp"
+  - "VB"
   - "FSharp"
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "VB"
-  - "CSharp"
   - "C++"
 helpviewer_keywords: 
   - "debugging [Visual Studio], assertions in managed code"
@@ -26,24 +19,11 @@ helpviewer_keywords:
   - "Trace.Listeners property"
   - "assertions, managed code"
 ms.assetid: 70ab2522-6486-4076-a1a9-e0f11cd0f3a1
-caps.latest.revision: 29
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "dotnet"
 ---
 # Assertions in Managed Code
 An assertion, or `Assert` statement, tests a condition, which you specify as an argument to the `Assert` statement. If the condition evaluates to true, no action occurs. If the condition evaluates to false, the assertion fails. If you are running with a debug build, your program enters break mode.  
@@ -80,7 +60,7 @@ Function IntegerDivide(ByVal dividend As Integer, ByVal divisor As Integer) As I
 End Function  
 ```  
   
-```CSharp  
+```csharp  
 int IntegerDivide ( int dividend , int divisor )  
     { Debug.Assert ( divisor != 0 );  
         return ( dividend / divisor ); }  
@@ -97,7 +77,7 @@ Debug.Assert(amount <= balance)
 SavingsAccount.Withdraw(amount)  
 ```  
   
-```CSharp  
+```csharp  
 float balance = savingsAccount.Balance;  
 Debug.Assert ( amount <= balance );  
 savingsAccount.Withdraw ( amount );  
@@ -112,7 +92,7 @@ Trace.Assert(amount <= balance)
 SavingsAccount.Withdraw(amount)  
 ```  
   
-```CSharp  
+```csharp  
 float balance = savingsAccount.Balance;  
 Trace.Assert ( amount <= balance );  
 savingsAccount.Withdraw ( amount );  
@@ -132,7 +112,7 @@ savingsAccount.Withdraw ( amount );
 Debug.Assert (meas(i) <> 0 )  
 ```  
   
-```CSharp  
+```csharp  
 // unsafe code  
 Debug.Assert (meas(i) != 0 );  
 ```  
@@ -144,7 +124,7 @@ temp = meas( i )
 Debug.Assert (temp <> 0)  
 ```  
   
-```CSharp  
+```csharp  
 temp = meas( i );  
 Debug.Assert ( temp != 0 );  
 ```  
@@ -180,7 +160,7 @@ Debug.Assert(stacksize > 0)
 Trace.Assert(stacksize > 0)  
 ```  
   
-```CSharp  
+```csharp  
 Debug.Assert ( stacksize > 0 );  
 Trace.Assert ( stacksize > 0 );   
 ```  
@@ -192,7 +172,7 @@ Debug.Assert(stacksize > 0, "Out of stack space")
 Trace.Assert(stacksize > 0, "Out of stack space")  
 ```  
   
-```CSharp  
+```csharp  
 Debug.Assert ( stacksize > 0, "Out of stack space" );  
 Trace.Assert ( stacksize > 0, "Out of stack space" );  
 ```  
@@ -205,7 +185,7 @@ Trace.Assert(stacksize > 0, "Out of stack space. Bytes left:" , Format(size, "G"
 Trace.Assert(stacksize > 0, "Out of stack space. Bytes left:", "inctemp failed on third call" )  
 ```  
   
-```CSharp  
+```csharp  
 Debug.Assert ( stacksize > 100, "Out of stack space" , "Failed in inctemp" );  
 Trace.Assert ( stacksize > 0, "Out of stack space", "Failed in inctemp" );   
 ```  
@@ -221,7 +201,7 @@ Trace.Assert ( stacksize > 0, "Out of stack space", "Failed in inctemp" );
   
  To customize the output in this way, your program must contain a listener, and you must inherit from <xref:System.Diagnostics.TraceListener> and override its <xref:System.Diagnostics.TraceListener.Fail%2A?displayProperty=fullName> method.  
   
- For more Information, see [Trace Listeners](http://msdn.microsoft.com/Library/444b0d33-67ea-4c36-9e94-79c50f839025).  
+ For more Information, see [Trace Listeners](/dotnet/framework/debug-trace-profile/trace-listeners).  
   
  [In this topic](#BKMK_In_this_topic)  
   
@@ -232,7 +212,7 @@ Trace.Assert ( stacksize > 0, "Out of stack space", "Failed in inctemp" );
  <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName>   
  <xref:System.Diagnostics.Trace.Assert%2A?displayProperty=fullName>   
  [Debugger Security](../debugger/debugger-security.md)   
- [Tracing and Instrumenting Applications](http://msdn.microsoft.com/Library/773b6fc4-9013-4322-b728-5dec7a72e743)   
- [How to: Compile Conditionally with Trace and Debug](http://msdn.microsoft.com/Library/56d051c3-012c-42c1-9a58-7270edc624aa)   
+ [Tracing and Instrumenting Applications](/dotnet/framework/debug-trace-profile/tracing-and-instrumenting-applications)   
+ [How to: Compile Conditionally with Trace and Debug](/dotnet/framework/debug-trace-profile/how-to-compile-conditionally-with-trace-and-debug)   
  [C#, F#, and Visual Basic Project Types](../debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)   
  [Debugging Managed Code](../debugger/debugging-managed-code.md)

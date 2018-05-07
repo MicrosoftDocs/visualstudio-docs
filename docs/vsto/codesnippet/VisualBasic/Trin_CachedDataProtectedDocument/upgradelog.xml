@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Trin_CachedDataProtectedDocument">
+</Property><Property Name="Solution File" Value="C:\Users\normesta\Desktop\Trin_CachedDataProtectedDocument\VB\Trin_CachedDataProtectedDocument.sln">
+</Property><Property Name="User Options File" Value="C:\Users\normesta\Desktop\Trin_CachedDataProtectedDocument\VB\Trin_CachedDataProtectedDocument.v11.suo">
+</Property><Property Name="Date" Value="Thursday, October 27, 2011">
+</Property><Property Name="Time" Value="6:27 AM">
+</Property></Properties><Event ErrorLevel="3" Project="" Source="Trin_CachedDataProtectedDocument.sln" Description="SafeUpgrade">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_CachedDataProtectedDocument.sln" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CachedDataProtectedDocument\VB\Backup\Trin_CachedDataProtectedDocument.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_CachedDataProtectedDocument.v11.suo" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CachedDataProtectedDocument\VB\Backup\Trin_CachedDataProtectedDocument.v11.suo">
+</Event><Event ErrorLevel="3" Project="Trin_CachedDataProtectedDocument" Source="Trin_CachedDataProtectedDocument.vbproj" Description="SafeRepair">
+</Event><Event ErrorLevel="0" Project="Trin_CachedDataProtectedDocument" Source="Trin_CachedDataProtectedDocument.vbproj" Description="Project file successfully backed up as C:\Users\normesta\Desktop\Trin_CachedDataProtectedDocument\VB\Backup\Trin_CachedDataProtectedDocument.vbproj">
+</Event><Event ErrorLevel="0" Project="Trin_CachedDataProtectedDocument" Source="Trin_CachedDataProtectedDocument.vbproj.user" Description="Project user file successfully backed up as C:\Users\normesta\Desktop\Trin_CachedDataProtectedDocument\VB\Backup\Trin_CachedDataProtectedDocument.vbproj.user">
+</Event><Event ErrorLevel="0" Project="Trin_CachedDataProtectedDocument" Source="ThisDocument.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CachedDataProtectedDocument\VB\Backup\ThisDocument.vb">
+</Event><Event ErrorLevel="0" Project="Trin_CachedDataProtectedDocument" Source="ThisDocument.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CachedDataProtectedDocument\VB\Backup\ThisDocument.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_CachedDataProtectedDocument" Source="My Project\AssemblyInfo.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CachedDataProtectedDocument\VB\Backup\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="Trin_CachedDataProtectedDocument" Source="My Project\Resources.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CachedDataProtectedDocument\VB\Backup\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_CachedDataProtectedDocument" Source="My Project\Settings.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CachedDataProtectedDocument\VB\Backup\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_CachedDataProtectedDocument" Source="Trin_CachedDataProtectedDocument.docx" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CachedDataProtectedDocument\VB\Backup\Trin_CachedDataProtectedDocument.docx">
+</Event><Event ErrorLevel="0" Project="Trin_CachedDataProtectedDocument" Source="ThisDocument.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CachedDataProtectedDocument\VB\Backup\ThisDocument.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_CachedDataProtectedDocument" Source="My Project\Settings.settings" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CachedDataProtectedDocument\VB\Backup\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Trin_CachedDataProtectedDocument" Source="Trin_CachedDataProtectedDocument_TemporaryKey.pfx" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CachedDataProtectedDocument\VB\Backup\Trin_CachedDataProtectedDocument_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="Trin_CachedDataProtectedDocument" Source="My Project\Resources.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CachedDataProtectedDocument\VB\Backup\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Trin_CachedDataProtectedDocument" Source="ThisDocument.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CachedDataProtectedDocument\VB\Backup\ThisDocument.resx">
+</Event><Event ErrorLevel="0" Project="Trin_CachedDataProtectedDocument" Source="Trin_CachedDataProtectedDocument.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Trin_CachedDataProtectedDocument" Source="Trin_CachedDataProtectedDocument.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_CachedDataProtectedDocument.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Trin_CachedDataProtectedDocument.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Trin_CachedDataProtectedDocument" Source="Trin_CachedDataProtectedDocument.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

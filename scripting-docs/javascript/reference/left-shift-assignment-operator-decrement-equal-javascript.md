@@ -13,6 +13,7 @@ f1_keywords:
   - "<<="
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "<<= operator [JavaScript]"
@@ -47,7 +48,7 @@ result <<= expression
   
  The following example shows how to use the `<<=` operator.  
   
-```javascript  
+```JavaScript  
 // 14 is 00000000000000000000000000001110  
 var temp = 14;  
 temp <<= 2;   

@@ -13,6 +13,7 @@ f1_keywords:
   - "void_JavaScriptKeyword"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "void operator"

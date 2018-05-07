@@ -2,34 +2,19 @@
 title: "METADATA_ADDRESS_RETVAL | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "METADATA_ADDRESS_RETVAL"
 helpviewer_keywords: 
   - "METADATA_ADDRESS_RETVAL structure"
 ms.assetid: 5b0ec0fb-84b3-4ce7-8e24-becf3d881d7d
-caps.latest.revision: 6
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # METADATA_ADDRESS_RETVAL
 This structure represents a return value from a method or function.  
@@ -45,7 +30,7 @@ typedef struct _tagMETADATA_ADDRESS_RETVAL {
 } METADATA_ADDRESS_RETVAL;  
 ```  
   
-```c#  
+```csharp  
 public struct METADATA_ADDRESS_RETVAL {  
    public int    tokMethod;  
    public uint   dwCorType;  

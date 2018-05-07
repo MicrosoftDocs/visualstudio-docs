@@ -2,47 +2,32 @@
 title: "IDebugBreakpointEvent2::EnumBreakpoints | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugBreakpointEvent2:::EnumBreakpoints"
 helpviewer_keywords: 
   - "IDebugBreakpointEvent2:::EnumBreakpoints"
 ms.assetid: 606a9625-ee43-4e84-9a47-af9a50d2d005
-caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugBreakpointEvent2::EnumBreakpoints
 Creates an enumerator for all the breakpoints that fired at the current code location.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumBreakpoints(  
   IEnumDebugBoundBreakpoints2** ppEnum  
 );  
 ```  
   
-```c#  
+```csharp  
 int EnumBreakpoints(  
   out IEnumDebugBoundBreakpoints2 ppEnum  
 );  

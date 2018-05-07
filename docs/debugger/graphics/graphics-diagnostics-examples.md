@@ -2,31 +2,14 @@
 title: "Graphics Diagnostics Examples | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 ms.assetid: 45dd86b2-801e-4b07-a8c4-7bd25641d7f8
-caps.latest.revision: 33
-author: "BrianPeek"
-ms.author: "brpeek"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: douge
+ms.workload: 
+  - "multiple"
 ---
 # Graphics Diagnostics Examples
 These examples show how to debug rendering problems in DirectX-based apps by using [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Graphics Diagnostics.  
@@ -47,7 +30,7 @@ These examples show how to debug rendering problems in DirectX-based apps by usi
 ## Debugging missing objects  
  A missing object (or objects) is one of the most common rendering problems that graphics developers experience. This kind of problem can be difficult to diagnose because several different kinds of errors might cause an object to apparently disappear. Typical causes for missing objects include misconfigured device state, problems in transforming the object's geometry, or a misconfigured graphics pipeline.  
   
- These scenarios demonstrate how you can use Graphics Diagnostics to determine why an object is missing and find the code that’s responsible.  
+ These scenarios demonstrate how you can use Graphics Diagnostics to determine why an object is missing and find the code that's responsible.  
   
 -   [Walkthrough: Missing Objects Due to Device State](walkthrough-missing-objects-due-to-device-state.md)  
   

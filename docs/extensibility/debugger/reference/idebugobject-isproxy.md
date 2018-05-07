@@ -2,46 +2,31 @@
 title: "IDebugObject::IsProxy | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugObject::IsProxy"
   - "IsProxy"
 ms.assetid: 06c66b87-db95-4400-ab26-5d33e743a439
-caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugObject::IsProxy
 Determines if the object is a transparent proxy.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT IsProxy (  
    BOOL* pfIsProxy  
 );  
 ```  
   
-```c#  
+```csharp  
 int IsProxy (  
    out bool pfIsProxy  
 );  

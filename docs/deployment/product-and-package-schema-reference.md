@@ -2,12 +2,8 @@
 title: "Product and Package Schema Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-deployment
+ms.topic: "conceptual"
 f1_keywords: 
   - "MSBuild.GenerateBootstrapper.CircularIncludes"
   - "MSBuild.ResolveManifestFiles.PublishFileNotFound"
@@ -26,24 +22,11 @@ helpviewer_keywords:
   - "package files [ClickOnce]"
   - "Windows Installer, bootstrapper elements"
 ms.assetid: 5a74878f-b896-4cca-b968-98d00fe78fb0
-caps.latest.revision: 7
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
+ms.workload: 
+  - "multiple"
 ---
 # Product and Package Schema Reference
 A *product file* is an XML manifest that describes all of the external dependencies required by a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application. Examples of external dependencies include the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] and the Microsoft Data Access Components (MDAC). A package file is similar to a product file but is used to install the culture-dependent components of a dependency, such as localized assemblies, license agreements, and documentation.  

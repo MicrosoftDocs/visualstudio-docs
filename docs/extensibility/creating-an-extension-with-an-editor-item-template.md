@@ -2,32 +2,17 @@
 title: "Creating an Extension with an Editor Item Template | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], new - extensions"
 ms.assetid: fa3b993b-ab95-47fa-a38b-b788f3a5b2d8
-caps.latest.revision: 16
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # Creating an Extension with an Editor Item Template
 You can use item templates that are included in the Visual Studio SDK to create basic editor extensions that add classifiers, adornments, and margins to the editor. The editor item templates are available for Visual C# or Visual Basic VSIX projects.  
@@ -46,7 +31,7 @@ You can use item templates that are included in the Visual Studio SDK to create 
   
     -   EditorClassifier1.cs contains the `EditorClassifier1` class.  
   
-    -   EditorClassifier1ClassificationDefinition.cs contains the `OEditorClassifier1ClassificationDefinition` class.  
+    -   EditorClassifier1ClassificationDefinition.cs contains the `EditorClassifier1ClassificationDefinition` class.  
   
     -   EditorClassifier1Format.cs contains the `EditorClassifier1Format`  class.  
   
@@ -67,7 +52,7 @@ You can use item templates that are included in the Visual Studio SDK to create 
   
     -   TextAdornment1.cs contains the `TextAdornment1` class.  
   
-    -   extAdornment1TextViewCreationListener.cs contains the `TextAdornment1TextViewCreationListener` class.  
+    -   TextAdornment1TextViewCreationListener.cs contains the `TextAdornment1TextViewCreationListener` class.  
   
 4.  Build the project and start debugging. The experimental instance appears. If you open a text file, all the 'a' characters in the text are outlined in red against a blue background.  
   
@@ -98,7 +83,7 @@ You can use item templates that are included in the Visual Studio SDK to create 
   
 1.  In the **New Project** dialog box, expand **Visual C#** or **Visual Basic** and then click **Extensibility**. In the **Templates** pane, select **VSIX Project**. In the **Name** box, type `MarginExtension`. Click **OK**.  
   
-2.  In the **Solution Explorer**, right-click the project node and select **Add / New Item**. Go to the Visual C# **Extensibility** node and select **Editor Viewport Adornment**. Leave the default file name (EditorMargin1.cs/vb).  
+2.  In the **Solution Explorer**, right-click the project node and select **Add / New Item**. Go to the Visual C# **Extensibility** node and select **Editor Margin**. Leave the default file name (EditorMargin1.cs/vb).  
   
 3.  There are two code files, as follows:  
   

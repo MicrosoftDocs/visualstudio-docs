@@ -2,47 +2,32 @@
 title: "IDebugEngineCreateEvent2::GetEngine | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugEngineCreateEvent2::GetEngine"
 helpviewer_keywords: 
   - "IDebugEngineCreateEvent2::GetEngine"
 ms.assetid: 187d24ed-9f9a-4418-a0ef-b8a19f54652c
-caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugEngineCreateEvent2::GetEngine
 Retrieves the object that represents the newly created debug engine (DE).  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetEngine(   
    IDebugEngine2** pEngine  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetEngine(   
    out IDebugEngine2 pEngine  
 );  

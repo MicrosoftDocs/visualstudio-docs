@@ -13,6 +13,7 @@ f1_keywords:
   - "max"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "max method"
@@ -39,7 +40,7 @@ Math.max([number1[, number2[... [, numberN]]]])
 ## Example  
  The following code shows how to get the larger of two expressions.  
   
-```javascript  
+```JavaScript  
 var x = Math.max(107 - 3,  48 * 90);  
 document.write(x);  
   

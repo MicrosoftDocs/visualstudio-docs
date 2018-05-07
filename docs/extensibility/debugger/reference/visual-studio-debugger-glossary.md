@@ -2,33 +2,18 @@
 title: "Visual Studio Debugger Glossary | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "glossary [Debugging SDK]"
   - "debugging [Debugging SDK], glossary"
 ms.assetid: 4a2cfaab-1fbd-4a23-bd00-9ac4cc50d7fd
-caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # Visual Studio Debugger Glossary
 The following are terms used in the [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] Debugging SDK.  
@@ -38,7 +23,7 @@ The following are terms used in the [!INCLUDE[vsprvs](../../../code-quality/incl
  An abstraction for a breakpoint set in code. There is a one-to-one relationship between a bound breakpoint and a breakpoint instruction in the code stream. When code unloads, bound breakpoints may unbind.  
   
  causality  
- Provides the ability to track a logical thread of execution across multiple physical threads, processes, and machines, and to reconstruct the call stack of that logical thread at any given point in that thread’s lifetime.  
+ Provides the ability to track a logical thread of execution across multiple physical threads, processes, and machines, and to reconstruct the call stack of that logical thread at any given point in that thread's lifetime.  
   
  code context  
  Provides an abstraction of a position in code known to the debug engine. For most run-time architectures, a code context is an address in a program's instruction stream. For nontraditional languages, in which code may not be represented by instructions, a code context may be represented by other means.  

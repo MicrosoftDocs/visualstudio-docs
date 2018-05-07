@@ -13,6 +13,7 @@ f1_keywords:
   - "concat"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "concat method (array)"
@@ -54,7 +55,7 @@ array1.concat([item1[, item2[, . . . [, itemN]]]])
 ## Example  
  The following example shows how to use the `concat` method when used with an array:  
   
-```javascript  
+```JavaScript  
 var a, b, c, d;  
 a = new Array(1,2,3);  
 b = "dog";  

@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 487930fe-a948-446f-902d-06bb0d7685d5
 caps.latest.revision: 5
@@ -37,7 +38,7 @@ dateTimeFormatObj.format
 ## Example  
  The following example uses a `DateTimeFormat` object to localize the date "Dec 1, 2007" into German and reformat it.  
   
-```javascript  
+```JavaScript  
 var dtFormat = new Intl.DateTimeFormat(["de"], {  
     year: "numeric",  
     month: "long",  

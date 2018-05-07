@@ -2,32 +2,14 @@
 title: "Walkthrough: Missing Objects Due to Misconfigured Pipeline | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 ms.assetid: ed8ac02d-b38f-4055-82fb-67757c2ccbb9
-caps.latest.revision: 13
-author: "BrianPeek"
-ms.author: "brpeek"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: douge
+ms.workload: 
+  - "multiple"
 ---
 # Walkthrough: Missing Objects Due to Misconfigured Pipeline
 This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Graphics Diagnostics tools to investigate an object that's missing due to an unset pixel shader.  
@@ -85,7 +67,7 @@ This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../../code-qualit
   
 #### To examine device context  
   
-1.  Open the **d3d11 device context**. In the **Graphics Pipeline Stages** window, choose the **ID3D11DeviceContext** link that’s part of the `DrawIndexed` call that's displayed at the top of the window.  
+1.  Open the **d3d11 device context**. In the **Graphics Pipeline Stages** window, choose the **ID3D11DeviceContext** link that's part of the `DrawIndexed` call that's displayed at the top of the window.  
   
 2.  Examine the device state that's displayed in the **d3d11 device context** tab to confirm that no pixel shader was active during the draw call. In this scenario, the **shader general information**—displayed under **pixel shader state**—indicates that the shader is **NULL**:  
   

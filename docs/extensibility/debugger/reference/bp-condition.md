@@ -2,41 +2,26 @@
 title: "BP_CONDITION | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "BP_CONDITION"
 helpviewer_keywords: 
   - "BP_CONDITION structure"
 ms.assetid: 407f87a3-2878-429b-8c65-b68feb36622a
-caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # BP_CONDITION
 Describes the conditions under which a breakpoint fires.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct _BP_CONDITION {   
    IDebugThread2* pThread;  
    BP_COND_STYLE  styleCondition;  
@@ -46,7 +31,7 @@ typedef struct _BP_CONDITION { 
 } BP_CONDITION;  
 ```  
   
-```c#  
+```csharp  
 public struct BP_CONDITION {   
    public IDebugThread2 pThread;  
    public uint          styleCondition;  

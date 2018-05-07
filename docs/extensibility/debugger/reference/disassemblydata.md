@@ -2,41 +2,26 @@
 title: "DisassemblyData | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "DisassemblyData"
 helpviewer_keywords: 
   - "DisassemblyData structure"
 ms.assetid: 10e70aa7-9381-40d3-bdd1-d2cad78ef16c
-caps.latest.revision: 13
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # DisassemblyData
 Describes one disassembly instruction for the integrated development environment (IDE) to display.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct tagDisassemblyData {   
    DISASSEMBLY_STREAM_FIELDS dwFields;  
    BSTR                      bstrAddress;  
@@ -54,7 +39,7 @@ typedef struct tagDisassemblyData { 
 } DisassemblyData;  
 ```  
   
-```c#  
+```csharp  
 public struct DisassemblyData {   
    public uint          dwFields;  
    public string        bstrAddress;  
@@ -125,11 +110,12 @@ public struct DisassemblyData { 
 ## Example  
  The `bstrDocumentUrl` field can contain additional information other than a string if the `DF_DOCUMENT_CHECKSUM` flag is set. The process of creating and reading this encoded string is straightforward in [!INCLUDE[vcprvc](../../../code-quality/includes/vcprvc_md.md)]. However, in [!INCLUDE[csprcs](../../../data-tools/includes/csprcs_md.md)], it is another matter. For those who are curious, the following example shows one way to create the encoded string from [!INCLUDE[csprcs](../../../data-tools/includes/csprcs_md.md)] and one way to decode the encoded string in [!INCLUDE[csprcs](../../../data-tools/includes/csprcs_md.md)].  
   
-```c#  
+```csharp  
 using System;  
 using System.Runtime.InteropServices;  
   
 namespace MyNamespace  
+{
     class MyClass  
     {  
         string EncodeData(string documentString,  
@@ -156,7 +142,7 @@ namespace MyNamespace
             }  
             // Copy guid data bytes to string as wide characters.  
             // Assumption: sizeof(char) == 2.  
-            for (int i = 0; i < guidDataLength; i++)  
+            for (int i = 0; i < guidDataLength / sizeof(char); i++)  
             {  
                 returnString += (char)Marshal.ReadInt16(pBuffer, i * sizeof(char));  
             }  
@@ -212,7 +198,7 @@ namespace MyNamespace
                for (int i = 0; i < guidDataLength; i++)  
                {  
                    Marshal.WriteByte(pGuidBuffer, i,  
-                                     Marshal.ReadByte(pBuffer, bufferOffset + i);  
+                                     Marshal.ReadByte(pBuffer, bufferOffset + i));  
                }  
                bufferOffset += guidDataLength;  
                checksumGuid = (Guid)Marshal.PtrToStructure(pGuidBuffer, typeof(Guid));  

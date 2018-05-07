@@ -2,12 +2,8 @@
 title: "Building ClickOnce Applications from the Command Line | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-deployment
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -17,24 +13,11 @@ helpviewer_keywords:
   - "publishing"
   - "publishing, ClickOnce"
 ms.assetid: d9bc6212-c584-4f72-88c9-9a4b998c555e
-caps.latest.revision: 23
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
+ms.workload: 
+  - "multiple"
 ---
 # Building ClickOnce Applications from the Command Line
 In [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)], you can build projects from the command line, even if they are created in the integrated development environment (IDE). In fact, you can rebuild a project created with [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] on another computer that has only the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] installed. This allows you to reproduce a build using an automated process, for example, in a central build lab or using advanced scripting techniques beyond the scope of building the project itself.  

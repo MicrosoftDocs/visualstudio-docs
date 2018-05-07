@@ -13,6 +13,7 @@ f1_keywords:
   - "%2C"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "comma operator"
@@ -42,7 +43,7 @@ expression1, expression2
 ## Remarks  
  The `,` operator causes the expressions to be executed in left-to-right order. A common use for the `,` operator is in the increment expression of a `for` loop. For example:  
   
-```javascript  
+```JavaScript  
 j=25;  
 for (i = 0; i < 10; i++, j++)  
 {  

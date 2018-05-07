@@ -13,6 +13,7 @@ f1_keywords:
   - "name"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "Name property"
@@ -55,7 +56,7 @@ name
 ## Example  
  The following example causes a TypeError exception to be thrown and displays the name of the error and its message.  
   
-```javascript  
+```JavaScript  
 try  
 {  
     var x = y;  
@@ -74,7 +75,7 @@ catch(e)
 ## Example  
  The output of this code is as follows.  
   
-```javascript  
+```JavaScript  
 Error Message: 'y' is undefined  
 Error Code: 5009  
 Error Name: TypeError  

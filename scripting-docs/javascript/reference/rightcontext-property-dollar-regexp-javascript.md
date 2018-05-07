@@ -13,6 +13,7 @@ f1_keywords:
   - "$'"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "rightContext property ($')"
@@ -40,7 +41,7 @@ RegExp.rightContext
 ## Example  
  The following example illustrates the use of the **rightContext** property:  
   
-```javascript  
+```JavaScript  
 // Create the regular expression pattern.  
 var re = new RegExp("d(b+)(d)","ig");  
 var str = "cdbBdbsbdbdz";  

@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 3a200cf0-db67-4c7b-89f8-5e9f5dc1a926
 caps.latest.revision: 3
@@ -60,7 +61,7 @@ arrayObj.findIndex(callbackfn [, thisArg]);
 ## Example  
  In the following example, the callback function tests whether each element in the array is equal to 2.  
   
-```javascript  
+```JavaScript  
 [1,2,3].findIndex(function(x) { x == 2; });  
 // Returns an index value of 1.  
   

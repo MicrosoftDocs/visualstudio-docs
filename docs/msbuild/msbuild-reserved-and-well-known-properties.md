@@ -2,12 +2,8 @@
 title: "MSBuild Reserved and Well-Known Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: "reference"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -16,29 +12,16 @@ dev_langs:
 helpviewer_keywords: 
   - "MSBuild, reserved properties"
 ms.assetid: 99333e61-83c9-4804-84e3-eda297c2478d
-caps.latest.revision: 29
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
+ms.workload: 
+  - "multiple"
 ---
 # MSBuild Reserved and Well-Known Properties
 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] provides a set of predefined properties that store information about the project file and the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] binaries. These properties are evaluated in the same manner as other [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] properties. For example, to use the `MSBuildProjectFile` property, you type `$(MSBuildProjectFile)`.  
   
- MSBuild uses the values in the following table to predefine reserved and well-known properties. Reserved properties cannot be overridden, but well-known properties can be overridden by using identically named environment properties, global properties, or properties that are declared in the project file.  
+ MSBuild uses the values in the following table to predefine reserved and well-known properties. Reserved properties cannot be overridden, but well-known properties can be overridden by using identically named environment properties, global properties, or properties that are declared in the project file.
   
 ## Reserved and Well-Known Properties  
  The following table describes the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] predefined properties.  
@@ -59,6 +42,7 @@ translation.priority.ht:
 |`MSBuildProjectFile`|The complete file name of the project file, including the file name extension; for example, MyApp.proj.|Reserved|  
 |`MSBuildProjectFullPath`|The absolute path and complete file name of the project file, including the file name extension; for example, C:\MyCompany\MyProduct\MyApp.proj.|Reserved|  
 |`MSBuildProjectName`|The file name of the project file without the file name extension; for example, MyApp.|Reserved|  
+|`MSBuildRuntimeType`|The type of the runtime that is currently executing. Introduced in MSBuild 15. Value may be undefined (prior to MSBuild 15), `Full` indicating that MSBuild is running on the desktop .NET Framework, `Core` indicating that MSBuild is running on .NET Core, or `Mono` indicating that MSBuild is running on Mono.|Reserved|  
 |`MSBuildStartupDirectory`|The absolute path of the folder where [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] is called. By using this property, you can build everything below a specific point in a project tree without creating dirs.proj files in every directory. Instead, you have just one project—for example, c:\traversal.proj, as shown here:<br /><br /> `<Project ...>     <ItemGroup>         <ProjectFiles              Include="$            (MSBuildStartupDirectory)            **\*.csproj"/>     </ItemGroup>     <Target Name="build">         <MSBuild             Projects="@(ProjectFiles)"/>     </Target> </Project>`<br /><br /> To build at any point in the tree, type:<br /><br /> `msbuild c:\traversal.proj`<br /><br /> Do not include the final backslash on this property.|Reserved|  
 |`MSBuildThisFile`|The file name and file extension portion of `MSBuildThisFileFullPath`.|Reserved|  
 |`MSBuildThisFileDirectory`|The directory portion of `MSBuildThisFileFullPath`.<br /><br /> Include the final backslash in the path.|Reserved|  
@@ -68,7 +52,24 @@ translation.priority.ht:
 |`MSBuildThisFileName`|The file name portion of `MSBuildThisFileFullPath`, without the file name extension.|Reserved|  
 |`MSBuildToolsPath`|The installation path of the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] version that's associated with the value of `MSBuildToolsVersion`.<br /><br /> Do not include the final backslash in the path.<br /><br /> This property cannot be overridden.|Reserved|  
 |`MSBuildToolsVersion`|The version of the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] Toolset that is used to build the project.<br /><br /> Note: An [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] Toolset consists of tasks, targets, and tools that are used to build an application. The tools include compilers such as csc.exe and vbc.exe. For more information, see [Toolset (ToolsVersion)](../msbuild/msbuild-toolset-toolsversion.md), and [Standard and Custom Toolset Configurations](../msbuild/standard-and-custom-toolset-configurations.md).|Reserved|  
-  
+
+## Names that conflict with MSBuild elements
+
+In addition to the above, names corresponding to MSBuild language elements cannot be used for user-defined properties, items, or item metadata:
+
+* VisualStudioProject
+* Target
+* PropertyGroup
+* Output
+* ItemGroup
+* UsingTask
+* ProjectExtensions
+* OnError
+* ImportGroup
+* Choose
+* When
+* Otherwise
+
 ## See Also  
  [MSBuild Reference](../msbuild/msbuild-reference.md)
  [MSBuild Properties](../msbuild/msbuild-properties.md)

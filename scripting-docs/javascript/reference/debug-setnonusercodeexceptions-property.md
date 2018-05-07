@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 1dd2abee-a415-41bb-a359-017da62f9485
 caps.latest.revision: 3
@@ -34,7 +35,7 @@ Debug.setNonUserCodeExceptions [= bool];
 ## Example  
  The following code shows how to set this property.  
   
-```javascript  
+```JavaScript  
 (function () {  
     Debug.setNonUserCodeExceptions = true;  
     try{  

@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 74c945dc-56ae-458c-b0aa-782f240e9b6c
 caps.latest.revision: 18
@@ -78,7 +79,7 @@ float64Array = new Float64Array( buffer, byteOffset, length);
 ## Example  
  The following example shows how to use a Float64Array object to process the binary data acquired from an XmlHttpRequest:  
   
-```javascript  
+```JavaScript  
 var req = new XMLHttpRequest();  
     req.open('GET', "http://www.example.com");  
     req.responseType = "arraybuffer";  

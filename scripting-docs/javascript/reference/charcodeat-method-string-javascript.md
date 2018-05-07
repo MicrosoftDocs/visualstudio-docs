@@ -13,6 +13,7 @@ f1_keywords:
   - "charCodeAt"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "charCodeAt method"
@@ -44,7 +45,7 @@ strObj. charCodeAt(index)
 ## Example  
  The following example illustrates the use of the `charCodeAt` method.  
   
-```javascript  
+```JavaScript  
 var str = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";   
 document.write(str.charCodeAt(str.length - 1));  
   

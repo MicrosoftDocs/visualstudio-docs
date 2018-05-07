@@ -2,41 +2,26 @@
 title: "DUMPTYPE | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "DUMPTYPE"
 helpviewer_keywords: 
   - "DUMPTYPE enumeration"
 ms.assetid: ea8160db-8732-4056-a1d7-892ef72da71e
-caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # DUMPTYPE
 Specifies how much of a program's state (such as running threads, stack frames, and current instruction address) to dump.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_DUMPTYPE {   
    DUMP_MINIDUMP = 0,  
    DUMP_FULLDUMP = 1  
@@ -44,7 +29,7 @@ enum enum_DUMPTYPE { 
 typedef DWORD DUMPTYPE;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_DUMPTYPE {   
    DUMP_MINIDUMP = 0,  
    DUMP_FULLDUMP = 1  

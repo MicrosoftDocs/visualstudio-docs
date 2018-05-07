@@ -13,6 +13,7 @@ f1_keywords:
   - "atEnd"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "atEnd method"
@@ -43,7 +44,7 @@ myEnum.atEnd()
 ## Example  
  In following code, the `atEnd` method is used to determine if the end of a list of drives has been reached:  
   
-```javascript  
+```JavaScript  
 function ShowDrives()  
 {  
     var s = "";  

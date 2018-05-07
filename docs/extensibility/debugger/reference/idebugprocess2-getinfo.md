@@ -2,48 +2,33 @@
 title: "IDebugProcess2::GetInfo | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProcess2::GetInfo"
 helpviewer_keywords: 
   - "IDebugProcess2::GetInfo"
 ms.assetid: 46021dce-bb97-46c3-b0cc-e5b3b68acc35
-caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProcess2::GetInfo
 Gets a description of the process.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetInfo(  
    PROCESS_INFO_FIELDS  Fields,  
    PROCESS_INFO*        pProcessInfo  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetInfo(  
    enum_PROCESS_INFO_FIELDS  Fields,  
    PROCESS_INFO[]            pProcessInfo  

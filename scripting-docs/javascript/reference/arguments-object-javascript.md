@@ -13,6 +13,7 @@ f1_keywords:
   - "arguments"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "arguments, arguments object"
@@ -45,7 +46,7 @@ An object representing the arguments to the currently executing function, and th
 ## Example  
  The following example illustrates the use of the **arguments** object.  
   
-```javascript  
+```JavaScript  
 function ArgTest(a, b)  
 {  
    var s = "";  

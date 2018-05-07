@@ -2,34 +2,19 @@
 title: "IDebugProgram2::Execute | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgram2::Execute"
 helpviewer_keywords: 
   - "IDebugProgram2::Execute"
 ms.assetid: f7205ce8-0ac6-4fcd-b6ec-b720b4fcaccf
-caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProgram2::Execute
 Continues running this program from a stopped state. Any previous execution state (such as a step) is cleared, and the program starts executing again.  
@@ -39,13 +24,13 @@ Continues running this program from a stopped state. Any previous execution stat
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Execute(  
    void  
 );  
 ```  
   
-```c#  
+```csharp  
 int Execute();  
 ```  
   

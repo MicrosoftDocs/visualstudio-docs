@@ -2,40 +2,25 @@
 title: "IDebugComPlusSymbolProvider::GetEntryPoint | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugComPlusSymbolProvider::GetEntryPoint"
   - "GetEntryPoint"
 ms.assetid: 9640e121-1da1-41f9-8e66-76efca36baf2
-caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugComPlusSymbolProvider::GetEntryPoint
 Retrieves the application entry point.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetEntryPoint(  
    ULONG32         ulAppDomainID,  
    GUID            guidModule,  
@@ -43,7 +28,7 @@ HRESULT GetEntryPoint(
 );  
 ```  
   
-```c#  
+```csharp  
 int GetEntryPoint(  
    uint              ulAppDomainID,  
    Guid              guidModule,  
@@ -67,7 +52,7 @@ int GetEntryPoint(
 ## Example  
  The following example shows how to implement this method for a **CDebugSymbolProvider** object that exposes the [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugSymbolProvider::GetEntryPoint(  
     ULONG32 ulAppDomainID,  
     GUID guidModule,  

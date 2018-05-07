@@ -2,47 +2,32 @@
 title: "IDebugThread2::SetThreadName | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugThread2::SetThreadName"
 helpviewer_keywords: 
   - "IDebugThread2::SetThreadName"
 ms.assetid: fa934121-3f58-44dc-9c30-d3f752e44c8b
-caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugThread2::SetThreadName
 Sets the name of the thread.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT SetThreadName (   
    LPCOLESTR pszName  
 );  
 ```  
   
-```c#  
+```csharp  
 int SetThreadName (   
    string pszName  
 );  

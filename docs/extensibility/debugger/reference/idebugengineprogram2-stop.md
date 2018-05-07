@@ -2,47 +2,32 @@
 title: "IDebugEngineProgram2::Stop | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugEngineProgram2::Stop"
 helpviewer_keywords: 
   - "IDebugEngineProgram2::Stop"
 ms.assetid: 6e1c3d56-fb67-4a5b-80f9-8ee5131972bf
-caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugEngineProgram2::Stop
 Stops all threads running in this program.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Stop(   
    void   
 );  
 ```  
   
-```c#  
+```csharp  
 int Stop();  
 ```  
   

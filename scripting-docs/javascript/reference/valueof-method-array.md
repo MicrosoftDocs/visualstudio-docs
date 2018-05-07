@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: b694fe65-1297-4580-8af2-406932c06454
 caps.latest.revision: 2
@@ -37,7 +38,7 @@ array.valueOf()
 ## Remarks  
  In the following example, the instantiated array object is the same as the return value of this method.  
   
-```javascript  
+```JavaScript  
 var arr = [1, 2, 3, 4];  
 var s = arr.valueOf();  
   

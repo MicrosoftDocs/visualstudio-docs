@@ -13,6 +13,7 @@ f1_keywords:
   - "setYear"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "Year method"

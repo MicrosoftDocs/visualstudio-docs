@@ -1,41 +1,20 @@
 ---
 title: "Graphics Frame Analysis | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "02/09/2017"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.graphics.frameanalysis"
-ms.assetid: 336c48ba-a1c4-4db9-b2a4-3de4a129cdd6
-caps.latest.revision: 9
-author: "BrianPeek"
-ms.author: "brpeek"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: douge
+ms.workload: 
+  - "multiple"
 ---
 # Graphics Frame Analysis
 Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and optimize the rendering performance of your Direct3D game or app.  
-  
-> [!IMPORTANT]
->  Graphics Analyzer supports Frame Analysis for apps that use Direct3D 11 on supported platforms including Windows 10. Frame Analysis is not currently supported for apps that use Direct3D 12.  
-  
+
 ## Frame analysis  
  Frame analysis uses the same information that's captured in a graphics log file for diagnostic purposes, but uses it to summarize rendering performance instead. Performance information is not recorded to the log during capture; instead the performance information is generated later, during frame analysis, by timing events and collecting statistics as the frame is played back. This approach has several advantages over recording performance information during capture:  
   
@@ -43,7 +22,7 @@ Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and op
   
 -   Frame analysis can generate performance information for hardware configurations and devices other than the one where the information was captured.  
   
--   Frame analysis can generate new performance summaries from previously captured information—for example, when GPU drivers are optimized or expose additional debugging features.  
+-   Frame analysis can generate new performance summaries from previously captured information — for example, when GPU drivers are optimized or expose additional debugging features.  
   
  In addition to these advantages, frame analysis can also make changes to how the frame is rendered during playback so that it can present information about how those changes might impact the rendering performance of an app. You can use this information to decide among potential optimization strategies without having to implement them all and then capture and compare all of the results yourself.  
   
@@ -160,37 +139,32 @@ Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and op
 ### GPU counters  
  Support for GPU hardware counters is hardware-dependent.  
   
- Because no computer GPU currently offered by Intel, AMD, or nVidia supports GPU hardware counters reliably, Frame Analysis doesn't collect counters from them. However, Frame Analysis does collect hardware counters from these GPUs, which reliably support them:  
+ Because no computer GPU currently offered by Intel, AMD, or nVidia supports GPU hardware counters reliably, Frame Analysis doesn't collect counters from them. However, Frame Analysis does collect hardware counters from the following GPU, which reliably supports them:  
   
--   Qualcomm SOCs (any that supports Windows Phone)  
-  
--   nVidia T40 (Tegra4).  
+-   nVidia T40 (Tegra4)
   
  No other platform that supports Frame Analysis collects GPU hardware counters.  
   
 > [!NOTE]
 >  Because GPU hardware counters are hardware resources, it can take multiple passes to collect the complete set of hardware counters for each rendering variant. As a result, the order in which GPU counters are collected is unspecified.  
   
-### Windows phone  
- Timestamps, occlusion queries, and GPU hardware counters are only supported on Windows Phone handsets that originally shipped with Windows Phone 8.1. Frame Analysis requires these in order to play back the graphics log file. Windows Phone handsets that were originally shipped with Windows Phone 8 do not support Frame Analysis, even for handsets that have been updated to Windows Phone 8.1.  
-  
 ## Unsupported scenarios  
  Certain ways of using frame analysis are unsupported or are just a bad idea.  
-  
-### WARP  
- Frame analysis is intended to be used to profile and improve rendering performance on real hardware. Running frame analysis on WARP devices isn't prevented—the Windows Phone emulator runs on WARP—but it's not usually a worthwhile pursuit because WARP running on a high-end CPU is slower than even the least-capable modern GPUs, and because WARP performance can vary greatly depending on the particular CPU it's running on.  
   
 ### Playback of high-feature-level captures on down-level devices  
  In Graphics Analyzer, when you play back a graphics log file that uses a higher feature level than the playback machine supports, it automatically falls back to WARP. In Frame Analysis it explicitly does not fall back to WARP and it generates an error—WARP is useful for examining the correctness of your Direct3D app, but not for examining its performance.  
   
 > [!NOTE]
->  Although it's important to keep the feature-level issues in mind, you can capture and play back graphics log files on different hardware configurations and devices. For example, you can capture graphics information on a Windows Phone and play it back on a desktop computer, and the reverse is also supported. In both cases, the graphics log can be played back as long as the log file doesn't contain APIs or use feature levels that aren't supported on the playback machine.  
+>  Although it's important to keep the feature-level issues in mind, you can capture and play back graphics log files on different hardware configurations and devices. The graphics log can be played back as long as the log file doesn't contain APIs or use feature levels that aren't supported on the playback machine.  
   
 ### Direct3D 10 and lower  
- Frame Analysis is only supported for the Direct3D 11 API. If your app calls the Direct3D 10 API, Frame Analysis won't recognize or profile them even though they're recognized and used by other Graphics Analyzer tools. If your app uses both the Direct3D11 and the Direct3D 10 APIs, only the Direct3D 11 calls are profiled.  
+ If your app calls the Direct3D 10 API, Frame Analysis won't recognize or profile them even though they're recognized and used by other Graphics Analyzer tools.
   
 > [!NOTE]
->  This applies only to the Direct3D API calls that you're using, not feature levels. As long as you're using the Direct3D 11, Direct3D 11.1, or Direct3D 11.2 API, you can use whatever feature level you like and Frame Analysis will just work.  
+>  This applies only to the Direct3D API calls that you're using, not feature levels.
+
+### WARP  
+ Frame analysis is intended to be used to profile and improve rendering performance on real hardware. Running frame analysis on WARP devices isn't prevented, but it's not usually a worthwhile pursuit because WARP running on a high-end CPU is slower than even the least-capable modern GPUs, and because WARP performance can vary greatly depending on the particular CPU it's running on.  
   
 ##  <a name="Variants"></a> Variants  
  Each change that Frame Analysis makes to the way a frame is rendered during playback is known as a *variant*. The variants that Frame Analysis examines correspond to common, relatively easy changes that you could make to improve the rendering performance or visual quality of your app—for example, reducing the size of textures, using texture compression, or enabling different kinds of anti-aliasing. Variants override the usual rendering context and parameters of your app. Here's a summary:  

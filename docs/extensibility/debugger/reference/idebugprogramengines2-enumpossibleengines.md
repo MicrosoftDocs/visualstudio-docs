@@ -2,41 +2,26 @@
 title: "IDebugProgramEngines2::EnumPossibleEngines | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgramEngines2::EnumPossibleEngines"
 helpviewer_keywords: 
   - "IDebugProgramEngines2::EnumPossibleEngines"
 ms.assetid: 993d70a4-f6a5-4e47-a603-0b162b9fde00
-caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProgramEngines2::EnumPossibleEngines
 Returns the GUIDs for all the possible debug engines (DE) that can debug this program.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumPossibleEngines(   
    DWORD  celtBuffer,  
    GUID*  rgguidEngines,  
@@ -44,7 +29,7 @@ HRESULT EnumPossibleEngines( 
 );  
 ```  
   
-```c#  
+```csharp  
 int EnumPossibleEngines(   
    uint      celtBuffer,  
    GUID[]    rgguidEngines,  

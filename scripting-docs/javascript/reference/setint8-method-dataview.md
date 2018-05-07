@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 0a0e1450-e0c4-4778-8706-4d332442d882
 caps.latest.revision: 5
@@ -40,7 +41,7 @@ dataView.setInt8(byteOffset, value);
 ## Example  
  The following example shows how to set the first Int8 in the DataView.  
   
-```javascript  
+```JavaScript  
 var req = new XMLHttpRequest();  
     req.open('GET', "http://www.example.com");  
     req.responseType = "arraybuffer";  

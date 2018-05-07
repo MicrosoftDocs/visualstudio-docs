@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 6b0b48d5-e419-4c3c-98ed-d94cbe56e95d
 caps.latest.revision: 10
@@ -23,7 +24,7 @@ Sets a value or an array of values.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 uint8Array.set(index, value);  
 uint8Array.set(array, offset);  
   
@@ -50,7 +51,7 @@ uint8Array.set(array, offset);
 ## Example  
  The following example shows how to set the first element of the array.  
   
-```javascript  
+```JavaScript  
 var req = new XMLHttpRequest();  
     req.open('GET', "http://www.example.com");  
     req.responseType = "arraybuffer";  

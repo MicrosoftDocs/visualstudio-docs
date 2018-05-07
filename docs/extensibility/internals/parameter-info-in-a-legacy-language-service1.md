@@ -2,12 +2,9 @@
 title: "Parameter Info in a Legacy Language Service1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "language services, method tips"
   - "method tips"
@@ -15,23 +12,11 @@ helpviewer_keywords:
   - "IVsMethodData interface"
   - "Parameter Info (IntelliSense)"
 ms.assetid: f367295e-45b6-45d2-9ec8-77481743beef
-caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # Parameter Info in a Legacy Language Service
 The IntelliSense Parameter Info tooltip provides users with hints about where they are in a language construct.  

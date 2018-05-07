@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 4b29456a-1488-4006-ae66-5bf4c05003b1
 caps.latest.revision: 17
@@ -79,7 +80,7 @@ float32Array = new Float32Array( buffer, byteOffset, length);
 ## Example  
  The following example shows how to use a Float32Array object to process the binary data acquired from an XmlHttpRequest:  
   
-```javascript  
+```JavaScript  
 var req = new XMLHttpRequest();  
     req.open('GET', "http://www.example.com");  
     req.responseType = "arraybuffer";  

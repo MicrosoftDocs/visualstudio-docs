@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: ee6a1efc-375c-4ce8-a4e8-8896ee29f849
 caps.latest.revision: 5

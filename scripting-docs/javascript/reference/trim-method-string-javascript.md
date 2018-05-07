@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "trim method"
@@ -45,7 +46,7 @@ stringObj.trim()
 ## Example  
  The following example illustrates the use of the `trim` method.  
   
-```javascript  
+```JavaScript  
 var message = "    abc def     \r\n  ";  
   
 document.write("[" + message.trim() + "]");  

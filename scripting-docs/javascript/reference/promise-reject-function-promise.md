@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 9746e15b-9717-4e36-bf6b-910dcc6cd667
 caps.latest.revision: 5
@@ -36,7 +37,7 @@ Promise.reject(r);
   
 ## Example  
   
-```javascript  
+```JavaScript  
 var p = Promise.reject('failure');  
 p.catch(function(result) {  
     console.log(result);  

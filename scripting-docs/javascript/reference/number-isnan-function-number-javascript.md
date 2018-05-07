@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 2d9813d6-ec9c-433b-b060-8e3c3ff62ca4
 caps.latest.revision: 3
@@ -46,7 +47,7 @@ Number.isNaN(numValue)
   
 ## Example  
   
-```javascript  
+```JavaScript  
 // Returns true.  
 Number.isNaN(NaN);  
 Number.isNaN(Number.NaN);  

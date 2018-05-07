@@ -2,46 +2,31 @@
 title: "IDebugSourceServerModule::GetSourceServerData | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugSourceServerModule::GetSourceServerData"
 ms.assetid: f15d86aa-1bd9-4b16-a64a-21b01c27db2e
-caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugSourceServerModule::GetSourceServerData
 Retrieves an array of source server information.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetSourceServerData(  
    ULONG* pDataByteCount,   
    BYTE** ppData  
 );  
 ```  
   
-```c#  
+```csharp  
 public int GetSourceServerData(  
    out uint  pDataByteCount,   
    out int[] ppData  
@@ -61,7 +46,7 @@ public int GetSourceServerData(
 ## Example  
  The following example shows how to implement this method for a **CModule** object that exposes the [IDebugSourceServerModule](../../../extensibility/debugger/reference/idebugsourceservermodule.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CModule::GetSourceServerData(ULONG* pDataByteCount, BYTE** ppData)  
 {  
     HRESULT hr = S_OK;  

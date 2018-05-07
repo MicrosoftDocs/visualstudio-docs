@@ -1,13 +1,9 @@
 ---
 title: "Common MSBuild Project Properties | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "01/18/2018"
+ms.technology: msbuild
+ms.topic: "reference"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -19,24 +15,11 @@ helpviewer_keywords:
   - "ExcludeDeploymentUrl property"
   - "project file properties (MSBuild)"
 ms.assetid: 9857505d-ae15-42f1-936d-6cd7fb9dd276
-caps.latest.revision: 36
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
+ms.workload: 
+  - "multiple"
 ---
 # Common MSBuild Project Properties
 The following table lists frequently used properties that are defined in the Visual Studio project files or included in .targets files that MSBuild provides.  
@@ -59,7 +42,7 @@ The following table lists frequently used properties that are defined in the Vis
 |BaseOutputPath|Specifies the base path for the output file. If it is set, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] will use `OutputPath = $(BaseOutputPath)\$(Configuration)\`. Example syntax: `<BaseOutputPath>c:\xyz\bin\</BaseOutputPath>`|  
 |BaseIntermediateOutputPath|The top-level folder where all configuration-specific intermediate output folders are created. The default value is `obj\`. The following code is an example: `<BaseIntermediateOutputPath>c:\xyz\obj\</BaseIntermediateOutputPath>`|  
 |BuildInParallel|A boolean value that indicates whether project references are built or cleaned in parallel when Multi-Proc [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] is used. The default value is `true`, which means that projects will be built in parallel if the system has multiple cores or processors.|  
-|BuildProjectReferences|A boolean value that indicates whether project references are built by [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]. Set `false` if you are building your project in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE), `true` if otherwise.|  
+|BuildProjectReferences|A boolean value that indicates whether project references are built by [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]. Automatically set to `false` if you are building your project in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE), `true` if otherwise. `/p:BuildProjectReferences=false` can be specified on the command line to avoid checking that referenced projects are up to date.|  
 |CleanFile|The name of the file that will be used as the "clean cache." The clean cache is a list of generated files to be deleted during the cleaning operation. The file is put in the intermediate output path by the build process.<br /><br /> This property specifies only file names that do not have path information.|  
 |CodePage|Specifies the code page to use for all source-code files in the compilation. This property is equivalent to the `/codepage` compiler switch.|  
 |CompilerResponseFile|An optional response file that can be passed to the compiler tasks.|  
@@ -72,6 +55,7 @@ The following table lists frequently used properties that are defined in the Vis
 |DefineTrace|A boolean value that indicates whether you want the TRACE constant defined.|  
 |DebugType|Defines the level of debug information that you want generated. Valid values are "full," "pdbonly," and "none."|  
 |DelaySign|A boolean value that indicates whether you want to delay-sign the assembly rather than full-sign it.|  
+|Deterministic|A boolean value that indicates whether the compiler should produce identical assemblies for identical inputs. This parameter corresponds to the `/deterministic` switch of the `vbc.exe` and `csc.exe` compilers.|
 |DisabledWarnings|Suppresses the specified warnings. Only the numeric part of the warning identifier must be specified. Multiple warnings are separated by semicolons. This parameter corresponds to the `/nowarn` switch of the vbc.exe compiler.|  
 |DisableFastUpToDateCheck|A boolean value that applies to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] only. The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] build manager uses a process called FastUpToDateCheck to determine whether a project must be rebuilt to be up to date. This process is faster than using [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] to determine this. Setting the DisableFastUpToDateCheck property to `true` lets you bypass the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] build manager and force it to use [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] to determine whether the project is up to date.|  
 |DocumentationFile|The name of the file that is generated as the XML documentation file. This name includes only the file name and has no path information.|  
@@ -79,16 +63,16 @@ The following table lists frequently used properties that are defined in the Vis
 |ExcludeDeploymentUrl|The [GenerateDeploymentManifest Task](../msbuild/generatedeploymentmanifest-task.md) adds a  deploymentProvider tag to the deployment manifest if the project file includes any of the following elements:<br /><br /> -   UpdateUrl<br />-   InstallUrl<br />-   PublishUrl<br /><br /> Using ExcludeDeploymentUrl, however, you can prevent the deploymentProvider tag from being added to the deployment manifest even if any of the above URLs are specified. To do this, add the following property to your project file:<br /><br /> `<ExcludeDeploymentUrl>true</ExcludeDeploymentUrl>` **Note:**  ExcludeDeploymentUrl is not exposed in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE and can be set only by manually editing the project file. Setting this property does not affect publishing within [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]; that is, the deploymentProvider tag will still be added to the URL specified by PublishUrl.|  
 |FileAlignment|Specifies, in bytes, where to align the sections of the output file. Valid values are 512, 1024, 2048, 4096, 8192. This property is equivalent to the `/filealignment` compiler switch.|  
 |FrameworkPathOverride|Specifies the location of mscorlib.dll and microsoft.visualbasic.dll. This parameter is equivalent to the `/sdkpath` switch of the vbc.exe compiler.|  
-|GenerateDocumentation|A boolean parameter that indicates whether documentation is generated by the build. If `true`, the build generates documentation information and puts it in an .xml file together with the name of the executable file or library that the build task created.|  
-|IntermediateOutputPath|The full intermediate output path as derived from `BaseIntermediateOutputPath`, if no path is specified. For example, \obj\debug\\. If this property is overridden, then setting `BaseIntermediateOutputPath` has no effect.|  
+|GenerateDocumentation|(Visual Basic only) A boolean parameter that indicates whether documentation is generated by the build. If `true`, the build generates documentation information and puts it in an .xml file together with the name of the executable file or library that the build task created.|
+|IntermediateOutputPath|The full intermediate output path as derived from `BaseIntermediateOutputPath`, if no path is specified. For example, \obj\debug\\.|  
 |KeyContainerName|The name of the strong-name key container.|  
 |KeyOriginatorFile|The name of the strong-name key file.|  
-|NoWin32Manifest|Determines whether the compiler generates the default Win32 manifest into the output assembly. The default value of `false` means that the default Win32 manifest is generated for all applications. This property is equivalent to the `/nowin32manifest` compiler switch of vbc.exe.|  
+|MSBuildProjectExtensionsPath|Specifies the path where project extensions are located. By default, this takes the same value as `BaseIntermediateOutputPath`.|  
 |ModuleAssemblyName|The name of the assembly that the compiled module is to be incorporated into. The property is equivalent to the `/moduleassemblyname` compiler switch.|  
 |NoLogo|A boolean value that indicates whether you want compiler logo to be turned off. This property is equivalent to the `/nologo` compiler switch.|  
 |NoStdLib|A boolean value that indicates whether to avoid referencing the standard library (mscorlib.dll). The default value is `false`.|  
 |NoVBRuntimeReference|A boolean value that indicates whether the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] runtime (Microsoft.VisualBasic.dll) should be included as a reference in the project.|  
-|NoWin32Manifest|A boolean value that indicates whether User Account Control (UAC) manifest information will be embedded in the application's executable. Applies only to Visual Studio projects targeting [!INCLUDE[windowsver](../deployment/includes/windowsver_md.md)]. In projects deployed using [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] and Registration-Free COM, this element is ignored. `False` (the default value) specifies that User Account Control (UAC) manifest information be embedded in the application's executable. `True` specifies that UAC manifest information not be embedded.<br /><br /> This property applies only to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] projects targeting [!INCLUDE[windowsver](../deployment/includes/windowsver_md.md)]. In projects deployed using [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] and Registration-Free COM, this property is ignored.<br /><br /> You should add NoWin32Manifest only if you do not want [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to embed any manifest information in the application's executable; this process is called *virtualization*. To use virtualization, set `<ApplicationManifest>` in conjunction with `<NoWin32Manifest>` as follows:<br /><br /> -   For [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] projects, remove the `<ApplicationManifest>` node. (In [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] projects, `<NoWin32Manifest>` is ignored when an `<ApplicationManifest>` node exists.)<br />-   For [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] projects, set `<ApplicationManifest>` to `False` and `<NoWin32Manifest>` to `True`. (In [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] projects, `<ApplicationManifest>` overrides `<NoWin32Manifest>`.)|  
+|NoWin32Manifest|A boolean value that indicates whether User Account Control (UAC) manifest information will be embedded in the application's executable. Applies only to Visual Studio projects targeting [!INCLUDE[windowsver](../deployment/includes/windowsver_md.md)]. In projects deployed using [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] and Registration-Free COM, this element is ignored. `False` (the default value) specifies that User Account Control (UAC) manifest information be embedded in the application's executable. `True` specifies that UAC manifest information not be embedded.<br /><br /> This property applies only to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] projects targeting [!INCLUDE[windowsver](../deployment/includes/windowsver_md.md)]. In projects deployed using [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] and Registration-Free COM, this property is ignored.<br /><br /> You should add NoWin32Manifest only if you do not want [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to embed any manifest information in the application's executable; this process is called *virtualization*. To use virtualization, set `<ApplicationManifest>` in conjunction with `<NoWin32Manifest>` as follows:<br /><br /> -   For [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] projects, remove the `<ApplicationManifest>` node. (In [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] projects, `<NoWin32Manifest>` is ignored when an `<ApplicationManifest>` node exists.)<br />-   For [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] projects, set `<ApplicationManifest>` to `False` and `<NoWin32Manifest>` to `True`. (In [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] projects, `<ApplicationManifest>` overrides `<NoWin32Manifest>`.)<br /> This property is equivalent to the `/nowin32manifest` compiler switch of vbc.exe.|  
 |Optimize|A boolean value that when set to `true`, enables compiler optimizations. This property is equivalent to the `/optimize` compiler switch.|  
 |OptionCompare|Specifies how string comparisons are made. Valid values are "binary" or "text." This property is equivalent to the `/optioncompare` compiler switch of vbc.exe.|  
 |OptionExplicit|A boolean value that when set to `true`, requires explicit declaration of variables in the source code. This property is equivalent to the `/optionexplicit` compiler switch.|  
@@ -99,6 +83,7 @@ The following table lists frequently used properties that are defined in the Vis
 |OverwriteReadOnlyFiles|A boolean value that indicates whether you want to enable the build to overwrite read-only files or trigger an error.|  
 |PdbFile|The file name of the .pdb file that you are emitting. This property is equivalent to the `/pdb` switch of the csc.exe compiler.|  
 |Platform|The operating system you are building for. Valid values are "Any CPU", "x86", and "x64".|  
+|ProduceReferenceAssembly|A boolean value that when set to `true` enables production of [reference assemblies](https://github.com/dotnet/roslyn/blob/master/docs/features/refout.md) for the current assembly. `Deterministic` should be `true` when using this feature. This property corresponds to the `/refout` switch of the `vbc.exe` and `csc.exe` compilers.|
 |RemoveIntegerChecks|A boolean value that indicates whether to disable integer overflow error checks. The default value is `false`. This property is equivalent to the `/removeintchecks` switch of the vbc.exe compiler.|  
 |SGenUseProxyTypes|A boolean value that indicates whether proxy types should be generated by SGen.exe.<br /><br /> The SGen target uses this property to set the UseProxyTypes flag. This property defaults to true, and there is no UI to change this. To generate the serialization assembly for non-webservice types, add this property to the project file and set it to false before importing the Microsoft.Common.Targets or the C#/VB.targets.|  
 |SGenToolPath|An optional tool path that indicates where to obtain SGen.exe when the current version of SGen.exe is overridden.|  
@@ -131,7 +116,7 @@ The following table lists frequently used properties that are defined in the Vis
 |UseHostCompilerIfAvailable|A boolean parameter that, if `true`, causes the build task to use the in-process compiler object, if it is available. This parameter is used only by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].|  
 |Utf8Output|A boolean parameter that, if `true`, logs compiler output by using UTF-8 encoding. This parameter is equivalent to the `/utf8Output` compiler switch.|  
 |VbcToolPath|An optional path that indicates another location for vbc.exe when the current version of vbc.exe is overridden.|  
-|VbcVerbosity|Specifies the verbosity of the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler’s output. Valid values are "Quiet," "Normal" (the default value), or "Verbose."|  
+|VbcVerbosity|Specifies the verbosity of the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler's output. Valid values are "Quiet," "Normal" (the default value), or "Verbose."|  
 |VisualStudioVersion|Specifies the version of Visual Studio under which this project should be considered to be running. If this property isn't specified, MSBuild sets it to a reasonable default value.<br /><br /> This property is used in several project types to specify the set of targets that are used for the build. If `ToolsVersion` is set to 4.0 or higher for a project, `VisualStudioVersion` is used to specify which sub-toolset to use. For more information, see [Toolset (ToolsVersion)](../msbuild/msbuild-toolset-toolsversion.md).|  
 |WarningsAsErrors|Specifies a list of warnings to treat as errors. This parameter is equivalent to the `/warnaserror` compiler switch.|  
 |WarningsNotAsErrors|Specifies a list of warnings that are not treated as errors. This parameter is equivalent to the `/warnaserror` compiler switch.|  

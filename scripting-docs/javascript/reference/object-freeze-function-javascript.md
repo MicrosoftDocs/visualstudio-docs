@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "Object.freeze function"
@@ -26,7 +27,7 @@ Prevents the modification of existing property attributes and values, and preven
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 Object.freeze(object)  
 ```  
   
@@ -71,7 +72,7 @@ Object.freeze(object)
 ## Example  
  The following example illustrates the use of the `Object.freeze` function.  
   
-```javascript  
+```JavaScript  
 // Create an object that has two properties.  
 var obj = { pasta: "spaghetti", length: 10 };  
   

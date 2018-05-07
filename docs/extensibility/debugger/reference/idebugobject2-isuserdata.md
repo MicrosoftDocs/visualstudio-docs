@@ -2,34 +2,19 @@
 title: "IDebugObject2::IsUserData | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugObject2::IsUserData"
 helpviewer_keywords: 
   - "IDebugObject2::IsUserData method"
 ms.assetid: 6ffa0d0e-f742-496d-acc7-db74c248bc45
-caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugObject2::IsUserData
 Determines whether the object represents user data.  
@@ -42,7 +27,7 @@ HRESULT IsUserData(
 );  
 ```  
   
-```c#  
+```csharp  
 int IsUserData(  
    out int pfUser  
 );  

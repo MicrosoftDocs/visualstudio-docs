@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "properties [JavaScript], locking attributes"
@@ -27,7 +28,7 @@ Returns `true` if existing property attributes cannot be modified in an object a
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 Object.isSealed(object)  
 ```  
   
@@ -74,7 +75,7 @@ Object.isSealed(object)
 ## Example  
  The following example illustrates the use of the `Object.isSealed` function.  
   
-```javascript  
+```JavaScript  
 // Create an object that has two properties.  
 var obj = { pasta: "spaghetti", length: 10 };  
   

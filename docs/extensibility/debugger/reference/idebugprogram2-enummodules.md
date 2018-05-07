@@ -2,47 +2,32 @@
 title: "IDebugProgram2::EnumModules | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgram2::EnumModules"
 helpviewer_keywords: 
   - "IDebugProgram2::EnumModules"
 ms.assetid: 876ac9da-3b7c-4156-b79a-8f340e9fcea6
-caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProgram2::EnumModules
 Retrieves a list of the modules that this program has loaded and is executing.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumModules(   
    IEnumDebugModules2** ppEnum  
 );  
 ```  
   
-```c#  
+```csharp  
 int EnumModules(   
    out IEnumDebugModules2 ppEnum  
 );  

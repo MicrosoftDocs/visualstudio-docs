@@ -18,7 +18,7 @@
                 }
             }
 
-            // If the loop didn’t return, it didn't find
+            // If the loop didn't return, it didn't find
             // any unmatched icons
             // That means the user won. Show a message and close the form
             MessageBox.Show("You matched all the icons!", "Congratulations");

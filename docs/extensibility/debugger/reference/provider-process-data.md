@@ -2,41 +2,26 @@
 title: "PROVIDER_PROCESS_DATA | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "PROVIDER_PROCESS_DATA"
 helpviewer_keywords: 
   - "PROVIDER_PROCESS_DATA structure"
 ms.assetid: ec2362ed-4a0c-4a09-9d66-8ff04e4f41ee
-caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # PROVIDER_PROCESS_DATA
 This structure provides information about processes running on a machine.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct tagPROVIDER_PROCESS_DATA {  
    PROVIDER_FIELDS    Fields;  
    PROGRAM_NODE_ARRAY ProgramNodes;  
@@ -44,7 +29,7 @@ typedef struct tagPROVIDER_PROCESS_DATA {
 } PROVIDER_PROCESS_DATA;  
 ```  
   
-```c#  
+```csharp  
 public struct PROVIDER_PROCESS_DATA {  
    public uint               Fields;  
    public PROGRAM_NODE_ARRAY ProgramNodes;  

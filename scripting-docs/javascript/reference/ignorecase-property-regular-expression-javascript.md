@@ -13,6 +13,7 @@ f1_keywords:
   - "ignoreCase"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "IgnoreCase property"
@@ -44,7 +45,7 @@ rgExp.ignoreCase
   
  This function returns the Boolean values that indicate the state of the allowable regular expression flags, which are **g**, **i**, and **m**. The function also returns the string with all replacements made.  
   
-```javascript  
+```JavaScript  
 function RegExpPropDemo(flag){  
     // The flag parameter is a string that contains  
     // g, i, or m. The flags can be combined.  
@@ -84,7 +85,7 @@ document.write(RegExpPropDemo("g"));
 ## Example  
  Following is the resulting output.  
   
-```javascript  
+```JavaScript  
 global: true  
 ignoreCase: true  
 multiline: false  

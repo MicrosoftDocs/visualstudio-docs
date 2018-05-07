@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Trin_ExcelAddInDatabase_O12">
+</Property><Property Name="Solution File" Value="C:\Users\normesta\Desktop\Trin_ExcelAddInDatabase\CS\Trin_ExcelAddInDatabase_O12.sln">
+</Property><Property Name="User Options File" Value="C:\Users\normesta\Desktop\Trin_ExcelAddInDatabase\CS\Trin_ExcelAddInDatabase_O12.v11.suo">
+</Property><Property Name="Date" Value="Friday, October 28, 2011">
+</Property><Property Name="Time" Value="7:57 AM">
+</Property></Properties><Event ErrorLevel="3" Project="" Source="Trin_ExcelAddInDatabase_O12.sln" Description="SafeUpgrade">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_ExcelAddInDatabase_O12.sln" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ExcelAddInDatabase\CS\Backup\Trin_ExcelAddInDatabase_O12.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_ExcelAddInDatabase_O12.v11.suo" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ExcelAddInDatabase\CS\Backup\Trin_ExcelAddInDatabase_O12.v11.suo">
+</Event><Event ErrorLevel="3" Project="Trin_ExcelAddInDatabase_O12" Source="Trin_ExcelAddInDatabase_O12.csproj" Description="SafeRepair">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelAddInDatabase_O12" Source="Trin_ExcelAddInDatabase_O12.csproj" Description="Project file successfully backed up as C:\Users\normesta\Desktop\Trin_ExcelAddInDatabase\CS\Backup\Trin_ExcelAddInDatabase_O12.csproj">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelAddInDatabase_O12" Source="Trin_ExcelAddInDatabase_O12.csproj.user" Description="Project user file successfully backed up as C:\Users\normesta\Desktop\Trin_ExcelAddInDatabase\CS\Backup\Trin_ExcelAddInDatabase_O12.csproj.user">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelAddInDatabase_O12" Source="AdventureWorksLTDataSet.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ExcelAddInDatabase\CS\Backup\AdventureWorksLTDataSet.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelAddInDatabase_O12" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ExcelAddInDatabase\CS\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelAddInDatabase_O12" Source="Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ExcelAddInDatabase\CS\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelAddInDatabase_O12" Source="Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ExcelAddInDatabase\CS\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelAddInDatabase_O12" Source="ThisAddIn.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ExcelAddInDatabase\CS\Backup\ThisAddIn.cs">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelAddInDatabase_O12" Source="ThisAddIn.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ExcelAddInDatabase\CS\Backup\ThisAddIn.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelAddInDatabase_O12" Source="AdventureWorksLTDataSet.xsc" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ExcelAddInDatabase\CS\Backup\AdventureWorksLTDataSet.xsc">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelAddInDatabase_O12" Source="AdventureWorksLTDataSet.xsd" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ExcelAddInDatabase\CS\Backup\AdventureWorksLTDataSet.xsd">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelAddInDatabase_O12" Source="AdventureWorksLTDataSet.xss" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ExcelAddInDatabase\CS\Backup\AdventureWorksLTDataSet.xss">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelAddInDatabase_O12" Source="app.config" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ExcelAddInDatabase\CS\Backup\app.config">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelAddInDatabase_O12" Source="Properties\Settings.settings" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ExcelAddInDatabase\CS\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelAddInDatabase_O12" Source="ThisAddIn.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ExcelAddInDatabase\CS\Backup\ThisAddIn.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelAddInDatabase_O12" Source="Trin_ExcelAddInDatabase_O12_TemporaryKey.pfx" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ExcelAddInDatabase\CS\Backup\Trin_ExcelAddInDatabase_O12_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelAddInDatabase_O12" Source="Properties\Resources.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_ExcelAddInDatabase\CS\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelAddInDatabase_O12" Source="Trin_ExcelAddInDatabase_O12.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Trin_ExcelAddInDatabase_O12" Source="Trin_ExcelAddInDatabase_O12.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_ExcelAddInDatabase_O12.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Trin_ExcelAddInDatabase_O12.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Trin_ExcelAddInDatabase_O12" Source="app.config" Description="File converted successfully. All &lt;supportedRuntime&gt; and &lt;requiredRuntime&gt; tags were removed to enable the project to build and run with Visual Studio 2005.">
+</Event><Event ErrorLevel="3" Project="Trin_ExcelAddInDatabase_O12" Source="app.config" Description="Converted">
+</Event></UpgradeLog>

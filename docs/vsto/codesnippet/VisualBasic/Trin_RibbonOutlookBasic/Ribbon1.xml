@@ -1,0 +1,16 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" onLoad="OnLoad">
+  <ribbon startFromScratch="false">
+    <tabs>
+      <tab id="VSTO.Tab" label="VSTO Add-in Tab" visible="1">
+        <group id="VSTO.Group" label="VSTO Group" visible="1">
+          <toggleButton id="toggleButton1" label="Toggle Button 1"
+              screentip="ToggleButton1 Screentip" onAction="OnToggleButton1" />
+          <toggleButton id="toggleButton2" label="Button 1"
+              onAction="OnActionCallback" />
+          <checkBox id="checkBox1" label="Check Box 1"
+              onAction="OnActionCallback" />          
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>

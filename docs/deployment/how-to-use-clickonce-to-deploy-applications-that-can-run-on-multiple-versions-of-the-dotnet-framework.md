@@ -2,12 +2,8 @@
 title: "How to: Use ClickOnce to Deploy Applications That Can Run on Multiple Versions of the .NET Framework | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-deployment
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -17,24 +13,11 @@ helpviewer_keywords:
   - "ClickOnce deployment, multiple .NET Framework versions"
   - "deploying applications [ClickOnce], multiple .NET Framework versions"
 ms.assetid: e0a8c330-21bc-4eb2-b936-fd0f3c3221f1
-caps.latest.revision: 17
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
+ms.workload: 
+  - "dotnet"
 ---
 # How to: Use ClickOnce to Deploy Applications That Can Run on Multiple Versions of the .NET Framework
 You can deploy an application that targets multiple versions of the .NET Framework by using the ClickOnce deployment technology. This requires that you generate and update the application and deployment manifests.  
@@ -120,4 +103,4 @@ You can deploy an application that targets multiple versions of the .NET Framewo
  [\<compatibleFrameworks> Element](../deployment/compatibleframeworks-element-clickonce-deployment.md)   
  [\<dependency> Element](../deployment/dependency-element-clickonce-application.md)   
  [ClickOnce Deployment Manifest](../deployment/clickonce-deployment-manifest.md)   
- [Configuration File Schema](http://msdn.microsoft.com/Library/69003d39-dc8a-460c-a6be-e6d93e690b38)
+ [Configuration File Schema](/dotnet/framework/configure-apps/file-schema/index)

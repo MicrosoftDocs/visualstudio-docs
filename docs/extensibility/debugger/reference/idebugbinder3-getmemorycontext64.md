@@ -2,40 +2,25 @@
 title: "IDebugBinder3::GetMemoryContext64 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "GetMemoryContext64"
   - "IDebugBinder3::GetMemoryContext64"
 ms.assetid: f021fd16-9fc7-4c41-86af-e54e6224cfbb
-caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugBinder3::GetMemoryContext64
 Converts either an object location or a 64-bit memory address to a memory context.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetMemoryContext64 (  
    IDebugField*           pField,  
    UINT64                 uConstant,  
@@ -43,7 +28,7 @@ HRESULT GetMemoryContext64 (
 );  
 ```  
   
-```c#  
+```csharp  
 int GetMemoryContext64 (  
    IDebugField              pField,  
    ulong                    uConstant,  
@@ -67,7 +52,7 @@ int GetMemoryContext64 (
 ## Example  
  The following examples creates an object that implements the [IDebugBinder3](../../../extensibility/debugger/reference/idebugbinder3.md) interface and uses this method to retrieve the memory context.  
   
-```cpp#  
+```cpp  
 HRESULT CValueProperty::GetMemoryContext ( IDebugMemoryContext2** out_ppMemoryContext )  
 {  
     // precondition  

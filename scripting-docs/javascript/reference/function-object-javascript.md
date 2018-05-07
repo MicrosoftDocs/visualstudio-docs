@@ -13,6 +13,7 @@ f1_keywords:
   - "function"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "Function object"
@@ -60,7 +61,7 @@ functionName = new Function( [argname1,  [... argnameN,]] body );
   
 ## Example 1  
   
-```javascript  
+```JavaScript  
 function add(x, y)  
 {  
    return(x + y);  
@@ -77,7 +78,7 @@ var add = function(x, y) {
   
  In either case, you call the function with a line of code similar to the following:  
   
-```javascript  
+```JavaScript  
 add(2, 3);  
 ```  
   

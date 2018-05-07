@@ -2,41 +2,26 @@
 title: "IDebugPointerObject::SetBytes | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugPointerObject::SetBytes"
 helpviewer_keywords: 
   - "IDebugPointerObject::SetBytes method"
 ms.assetid: 8c578b38-38d7-46f3-bb2e-8a730fccd334
-caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugPointerObject::SetBytes
 Sets the value pointed to from a series of consecutive bytes.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT SetBytes(   
    DWORD  dwStart,  
    DWORD  dwCount,  
@@ -45,7 +30,7 @@ HRESULT SetBytes( 
 );  
 ```  
   
-```c#  
+```csharp  
 int SetBytes(  
    uint     dwStart,   
    uint     dwCount,   

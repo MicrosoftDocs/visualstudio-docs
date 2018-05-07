@@ -13,6 +13,7 @@ f1_keywords:
   - "setUTCSeconds"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "dates, UTC"
@@ -57,7 +58,7 @@ dateObj.setUTCSeconds(numSeconds[, numMilli])
 ## Example  
  The following example illustrates the use of the `setUTCSeconds` method.  
   
-```javascript  
+```JavaScript  
 function SetUTCSecondsDemo(nsec){  
 // Create Date object.  
     var d = new Date();       

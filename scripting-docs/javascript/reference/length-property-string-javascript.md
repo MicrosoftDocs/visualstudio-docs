@@ -13,6 +13,7 @@ f1_keywords:
   - "length Property"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "strings [Visual Studio], length"
@@ -44,7 +45,7 @@ Returns the length of a `String` object.
 ## Example  
  The following code shows how to use `length`. JavaScript strings are immutable and cannot be modified in place. However, you can write the reversed string to an array and then call `join` with the empty character, which produces a string with no separator characters.  
   
-```javascript  
+```JavaScript  
 var str = "every good boy does fine";  
         var start = 0;  
         var end = str.length - 1;  

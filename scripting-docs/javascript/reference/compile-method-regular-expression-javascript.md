@@ -13,6 +13,7 @@ f1_keywords:
   - "compile"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "regular expressions, compiling"
@@ -56,7 +57,7 @@ rgExp.compile(pattern, [flags])
 ## Example  
  The following example illustrates the use of the **compile** method:  
   
-```javascript  
+```JavaScript  
 function CompileDemo(){  
    var rs;  
    var s = "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPp"  

@@ -2,41 +2,26 @@
 title: "PDB_TYPE | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "PDB_TYPE"
 helpviewer_keywords: 
   - "PDB_TYPE structure"
 ms.assetid: 1c1bb772-77d6-4870-90b2-fd9247d0004e
-caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # PDB_TYPE
 This structure specifies information about a field type taken from a PDB symbol.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct _tagTYPE_PDB {  
    ULONG32 ulAppDomainID;  
    GUID    guidModule;  
@@ -44,7 +29,7 @@ typedef struct _tagTYPE_PDB {
 } PDB_TYPE;  
 ```  
   
-```c#  
+```csharp  
 public struct PDB_TYPE {  
    public uint ulAppDomainID;  
    public Guid guidModule;  

@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: b3f68048-c817-48d2-bc17-945e3bcc94d7
 caps.latest.revision: 5
@@ -43,7 +44,7 @@ dataView.setFloat32 (byteOffset, value, littleEndian);
 ## Example  
  The following example shows how to set the first Float32 in the DataView.  
   
-```javascript  
+```JavaScript  
 var req = new XMLHttpRequest();  
     req.open('GET', "http://www.example.com");  
     req.responseType = "arraybuffer";  

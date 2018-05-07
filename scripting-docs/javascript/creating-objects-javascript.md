@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "constructors, including properties and methods"
@@ -37,8 +38,8 @@ There are a number of ways you can create your own objects in JavaScript. You ca
 ## Example  
  The following code shows how to instantiate an object and add some properties. In this case only the `pasta` object has the `grain`, `width`, and `shape` properties.  
   
-```javascript  
-var pasta = new Object();  
+```JavaScript  
+const pasta = new Object();  
 pasta.grain = "wheat";  
 pasta.width = 0.5;  
 pasta.shape = "round";  
@@ -58,8 +59,8 @@ document.write(pasta.getShape());
 ## Object literals  
  You can also use object literal notation when you want to create only one instance of an object. The following code shows how to instantiate an object by using object literal notation.  
   
-```javascript  
-var pasta = {  
+```JavaScript  
+const pasta = {  
     grain: "wheat",  
     width: 0.5,  
     shape: "round"  
@@ -73,18 +74,18 @@ var pasta = {
   
  In [!INCLUDE[jsv12text](../javascript/includes/jsv12text-md.md)], you can use shorthand syntax to create an object literal.  
   
-```javascript  
-var key = 'a';  
-var value = 5;  
+```JavaScript  
+const key = 'a';  
+const value = 5;  
   
 // Older version  
-var obj1 = {  
+const obj1 = {  
     key: key,  
     value: value  
 };  
   
 // Edge mode  
-var obj2 = {key, value};  
+const obj2 = {key, value};  
   
 console.log(obj2);  
   
@@ -94,15 +95,15 @@ console.log(obj2);
   
  The following example shows the use of shorthand syntax to define methods in object literals.  
   
-```javascript  
+```JavaScript  
 // Older versions  
-var obj = {  
+const obj = {  
     method1: function() {},  
     method2: function() {}  
 };  
   
 // Edge mode  
-var obj = {  
+const obj = {  
     method1() {},  
     method2() {}  
 };  
@@ -110,10 +111,10 @@ var obj = {
   
  You can also set property names dynamically in object literals in [!INCLUDE[jsv12text](../javascript/includes/jsv12text-md.md)]. The following code example creates a property name for an object dynamically using the set syntax.  
   
-```javascript  
-var propName = "prop_42";  
+```JavaScript  
+const propName = "prop_42";  
   
-var obj = {  
+const obj = {  
     value: 0,  
     set [propName](v) {  
         this.value = v;  
@@ -133,10 +134,10 @@ console.log(obj.value);
   
  The following code example creates a property name for an object dynamically using the get syntax.  
   
-```javascript  
-var propName = "prop_42";  
+```JavaScript  
+const propName = "prop_42";  
   
-var obj = {  
+const obj = {  
     get [propName]() {  
         return 777;  
     }  
@@ -150,8 +151,8 @@ console.log(obj.prop_42);
   
  The following code example creates a computed property using [arrow function syntax](../javascript/functions-javascript.md) to append 42 to the property name.  
   
-```javascript  
-var obj = {  
+```JavaScript  
+const obj = {  
     [ 'prop_' + (() => 42)() ]: 42  
 };  
 ```

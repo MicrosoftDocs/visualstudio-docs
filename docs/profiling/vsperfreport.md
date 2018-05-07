@@ -2,12 +2,8 @@
 title: "VSPerfReport | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "command-line tools, VSPerfReporttool"
   - "performance tools, VSPerfReport tool"
@@ -16,24 +12,11 @@ helpviewer_keywords:
   - "command line, tools"
   - "instrumentation, VSPerfReporttool"
 ms.assetid: dbfd8d91-4430-4b82-81b9-97ac61412a6c
-caps.latest.revision: 32
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "multiple"
 ---
 # VSPerfReport
 VSPerfReport command line tool is used to create reports using  [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools profiling data files. The default report format is a .csv file.  

@@ -2,41 +2,26 @@
 title: "GETHOSTNAME_TYPE | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "GETHOSTNAME_TYPE"
 helpviewer_keywords: 
   - "GETHOSTNAME_TYPE enumeration"
 ms.assetid: 2be92bea-8133-412b-9015-1833baf16e1b
-caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # GETHOSTNAME_TYPE
 Specifies the type of host name.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_GETHOSTNAME_TYPE {   
    GHN_FRIENDLY_NAME = 0,  
    GHN_FILE_NAME     = 1  
@@ -44,7 +29,7 @@ enum enum_GETHOSTNAME_TYPE { 
 typedef DWORD GETHOSTNAME_TYPE;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_GETHOSTNAME_TYPE {   
    GHN_FRIENDLY_NAME = 0,  
    GHN_FILE_NAME     = 1  

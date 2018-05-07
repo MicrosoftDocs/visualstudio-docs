@@ -13,6 +13,7 @@ f1_keywords:
   - "Error.stackTraceLimit"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "error stack track limit [JavaScript]"
@@ -42,7 +43,7 @@ Error
 ## Example  
  The following example shows how to set and then get the stack trace limit.  
   
-```javascript  
+```JavaScript  
 try  
     {  
     var err = new Error("my error");  

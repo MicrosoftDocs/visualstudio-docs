@@ -2,49 +2,34 @@
 title: "IDebugModule2::GetInfo | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugModule2::GetInfo"
 helpviewer_keywords: 
   - "GetInfo method"
   - "IDebugModule2::GetInfo method"
 ms.assetid: de337e66-294f-4ac9-b21e-71fac7418e36
-caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugModule2::GetInfo
 Gets information about this module.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetInfo(   
    MODULE_INFO_FIELDS dwFields,  
    MODULE_INFO*       pInfo  
 );  
 ```  
   
-```cpp#  
+```cpp  
 int GetInfo(   
    enum_MODULE_INFO_FIELDS dwFields,  
    MODULE_INFO[]           pInfo  

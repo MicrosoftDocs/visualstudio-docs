@@ -2,18 +2,14 @@
 title: "Create custom views of managed objects | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.data.elements"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "data types [C#], custom"
@@ -24,24 +20,11 @@ helpviewer_keywords:
   - "debugger, expanding data types"
   - "mcee_mc.dat file"
 ms.assetid: 9969e9b2-9008-4729-8a14-0d6deaa61576
-caps.latest.revision: 34
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "dotnet"
 ---
 # Create custom views of managed objects
 You can customize the way Visual Studio displays data types in debugger variable windows.  
@@ -66,4 +49,4 @@ You can customize the way Visual Studio displays data types in debugger variable
  [Using DebuggerTypeProxy Attribute](../debugger/using-debuggertypeproxy-attribute.md)   
  [Using the DebuggerDisplay Attribute](../debugger/using-the-debuggerdisplay-attribute.md)   
  [Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md)   
- [Enhancing Debugging with the Debugger Display Attributes](http://msdn.microsoft.com/Library/72bb7aa9-459b-42c4-9163-9312fab4c410)
+ [Enhancing Debugging with the Debugger Display Attributes](/dotnet/framework/debug-trace-profile/enhancing-debugging-with-the-debugger-display-attributes)

@@ -2,41 +2,26 @@
 title: "THREADPROPERTY_FIELDS | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "THREADPROPERTY_FIELDS"
 helpviewer_keywords: 
   - "THREADPROPERTY_FIELDS enumeration"
 ms.assetid: 5b88acb9-03ea-4c29-a788-f0087dccbe23
-caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # THREADPROPERTY_FIELDS
 Specifies what information about a thread is to be retrieved.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_THREADPROPERTY_FIELDS {   
    TPF_ID           = 0x0001,  
    TPF_SUSPENDCOUNT = 0x0002,  
@@ -49,7 +34,7 @@ enum enum_THREADPROPERTY_FIELDS { 
 typedef DWORD THREADPROPERTY_FIELDS;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_THREADPROPERTY_FIELDS {   
    TPF_ID           = 0x0001,  
    TPF_SUSPENDCOUNT = 0x0002,  

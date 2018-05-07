@@ -13,6 +13,7 @@ f1_keywords:
   - "VS.WebClient.Help.SCRIPT1006"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 2fb72012-0f83-40fa-b747-167940d90bdd
 caps.latest.revision: 7
@@ -23,7 +24,7 @@ manager: "ghogen"
 # Expected &#39;)&#39; (JavaScript)
 You attempted to enclose an expression within a set of parentheses, but did not include the closing parenthesis. Some expression must be enclosed within a set of opening and closing parentheses. Notice the use of parentheses in the following example.  
   
-```javascript  
+```JavaScript  
 for (initialize; test; increment) {  
 statement;  
 }  

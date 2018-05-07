@@ -2,48 +2,33 @@
 title: "IDebugBoundBreakpoint2::SetHitCount | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugBoundBreakpoint2::SetHitCount"
 helpviewer_keywords: 
   - "SetHitCount method"
   - "IDebugBoundBreakpoint2::SetHitCount method"
 ms.assetid: 8145d875-26b1-4049-a2a2-e7d3d7f4735f
-caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugBoundBreakpoint2::SetHitCount
 Sets the hit count for the bound breakpoint.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT SetHitCount(   
    DWORD dwHitCount  
 );  
 ```  
   
-```c#  
+```csharp  
 int SetHitCount(   
    uint dwHitCount  
 );  

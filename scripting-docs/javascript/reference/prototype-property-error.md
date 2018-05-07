@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 6c268a51-1a3d-4397-abf8-e54ca4e598fe
 caps.latest.revision: 2
@@ -35,7 +36,7 @@ error.prototype
   
  For example, to add a method to the `Error` object that returns the value of the largest element of the array, declare the function, add it to `Error.prototype`, and then use it.  
   
-```javascript  
+```JavaScript  
 function getSeverity(){  
     if (this.number > 1000)  
         return "high";  

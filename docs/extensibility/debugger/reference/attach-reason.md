@@ -2,41 +2,26 @@
 title: "ATTACH_REASON | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "ATTACH_REASON"
 helpviewer_keywords: 
   - "ATTACH_REASON enumeration"
 ms.assetid: 159fb70b-a344-4ba6-9115-b7eaa16e228f
-caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # ATTACH_REASON
 Specifies the reason for the debug engine (DE) to attach to a program node.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_ATTACH_REASON {   
    ATTACH_REASON_LAUNCH = 0x0001,  
    ATTACH_REASON_USER   = 0x0002,  
@@ -45,7 +30,7 @@ enum enum_ATTACH_REASON { 
 typedef DWORD ATTACH_REASON;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_ATTACH_REASON {   
    ATTACH_REASON_LAUNCH = 0x0001,  
    ATTACH_REASON_USER   = 0x0002,  

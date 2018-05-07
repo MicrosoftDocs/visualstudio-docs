@@ -2,34 +2,19 @@
 title: "CONNECTION_PROTOCOL | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "CONNECTION_PROTOCOL"
 helpviewer_keywords: 
   - "CONNECTION_PROTOCOL enumeration"
 ms.assetid: 99df5865-8b36-486d-9f4c-d10ae2bc688a
-caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # CONNECTION_PROTOCOL
 Indicates the protocol being used to communicate between a debug server and the debug package (DE).  
@@ -48,7 +33,7 @@ typedef enum tagCONNECTION_PROTOCOL {
 } CONNECTION_PROTOCOL;  
 ```  
   
-```c#  
+```csharp  
 public enum CONNECTION_PROTOCOL {  
    CONNECTION_NONE    = 0,  
    CONNECTION_UNKNOWN = 1,  

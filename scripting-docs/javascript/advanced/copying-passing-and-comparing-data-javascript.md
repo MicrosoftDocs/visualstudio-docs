@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "arrays [Visual Studio], passing values"
@@ -48,7 +49,7 @@ In [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)], how data 
   
  For example (using the Internet Explorer object model):  
   
-```javascript  
+```JavaScript  
 // This clobbers (over-writes) its parameter, so the change  
 // is not reflected in the calling code.  
 function Clobber(param)   

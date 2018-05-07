@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 867eefa0-f2e0-44b9-85bc-efb849d55138
 caps.latest.revision: 5
@@ -40,7 +41,7 @@ var testInt = dataView.getInt8(byteOffset);
 ## Example  
  The following example shows how to get the first Int8 in the DataView.  
   
-```javascript  
+```JavaScript  
 var req = new XMLHttpRequest();  
     req.open('GET', "http://www.example.com");  
     req.responseType = "arraybuffer";  

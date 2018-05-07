@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: c7b429cb-97b7-400e-a214-1b18bddd6b02
 caps.latest.revision: 3
@@ -23,7 +24,7 @@ Returns a reference to the prototype for a map.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 map.prototype  
 ```  
   

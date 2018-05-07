@@ -2,33 +2,16 @@
 title: "HLSL Shader Debugger | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.graphics.shaderviewer"
 ms.assetid: 4ccec541-3c49-42bd-972a-686eb3a88fbc
-caps.latest.revision: 18
-author: "BrianPeek"
-ms.author: "brpeek"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: douge
+ms.workload: 
+  - "multiple"
 ---
 # HLSL Shader Debugger
 The HLSL debugger in Visual Studio Graphics Analyzer helps you understand how your HLSL shader code operates under real conditions of your app.  
@@ -53,7 +36,7 @@ The HLSL debugger in Visual Studio Graphics Analyzer helps you understand how yo
  Nevertheless, the HLSL debugger provides a better, more CPU-like debugging experience than would be possible otherwise.  
   
 ## HLSL Shader Edit & Apply  
- The HLSL shader debugger doesn't support Edit & Continue in the same way that the CPU debugger does because the GPU execution model doesn't allow shader state to be undone. Instead, the HLSL debugger supports Edit & Apply, which allows you to edit HLSL source files and then choose **Apply** to regenerate the frame to see the effect of your changes. Your modified shader code is stored in a separate file to preserve the integrity of your project's original HLSL source file, but when you're satisfied with your changes you can choose **Copy to…** to copy the changes into your project. Using this feature, you can quickly iterate on shader code that contains errors and eliminate costly rebuild and capture steps from your HLSL debugging workflow.  
+ The HLSL shader debugger doesn't support Edit & Continue in the same way that the CPU debugger does because the GPU execution model doesn't allow shader state to be undone. Instead, the HLSL debugger supports Edit & Apply, which allows you to edit HLSL source files and then choose **Apply** to regenerate the frame to see the effect of your changes. Your modified shader code is stored in a separate file to preserve the integrity of your project's original HLSL source file, but when you're satisfied with your changes you can choose **Copy to...** to copy the changes into your project. Using this feature, you can quickly iterate on shader code that contains errors and eliminate costly rebuild and capture steps from your HLSL debugging workflow.  
   
 ## HLSL Disassembly  
  The HLSL shader debugger provides a listing of HLSL shader assembly to the right of the HLSL source code listing.  

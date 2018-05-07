@@ -13,6 +13,7 @@ f1_keywords:
   - "call"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "call method"
@@ -46,7 +47,7 @@ call([thisObj[, arg1[, arg2[,  [, argN]]]]])
 ## Example  
  The following code shows how to use the `call` method.  
   
-```javascript  
+```JavaScript  
 function callMe(arg1, arg2){  
     var s = "";  
   

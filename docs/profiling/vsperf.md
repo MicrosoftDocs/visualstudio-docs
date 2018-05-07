@@ -2,37 +2,19 @@
 title: "VSPerf | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 ms.assetid: b5854e62-279e-4850-bfeb-0c6ef82f4805
-caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: douge
+ms.workload: 
+  - "multiple"
 ---
 # VSPerf
 Use the **VsPerf** command line tool to:  
   
-1.  Profile Windows Store apps from the command line when Visual Studio is not installed on the device.  
+1.  Profile UWP apps from the command line when Visual Studio is not installed on the device.  
   
 2.  Profile Windows 8 desktop applications and Windows Server 2012 applications using the sampling profiling method.  
   
@@ -41,14 +23,14 @@ Use the **VsPerf** command line tool to:
 ##  <a name="BKMK_In_this_topic"></a> In this topic  
  This topic describes the options that you can use with the `vsperf.exe` command line tool. The topic contains the following sections:  
   
- [Windows Store apps only](#BKMK_windows_store_apps_only)  
+ [UWP apps only](#BKMK_windows_store_apps_only)  
   
  [Windows 8 desktop applications and Windows Server 2012 applications only](#BKMK_Windows_8_classic_applications_and_Windows_Server_2012_applications_only)  
   
  [All applications](#BKMK_All_applications)  
   
-##  <a name="BKMK_windows_store_apps_only"></a> Windows Store apps only  
- These options apply only to Windows Store apps.  
+##  <a name="BKMK_windows_store_apps_only"></a> UWP apps only  
+ These options apply only to UWP apps.  
   
 |||  
 |-|-|  
@@ -59,12 +41,12 @@ Use the **VsPerf** command line tool to:
 |**/listapps**|List installed app Names and PackageFullNames.|  
   
 ##  <a name="BKMK_Windows_8_classic_applications_and_Windows_Server_2012_applications_only"></a> Windows 8 desktop applications and Windows Server 2012 applications only  
- These options do not work on Windows Store apps.  
+ These options do not work on UWP apps.  
   
 |||  
 |-|-|  
 |**/launch:{Executable}**|Starts and begins profiling the specified executable file.|  
-|**/args:{ExecutableArguments}**|Specifies command line arguments to pass the the **/launch** target.|  
+|**/args:{ExecutableArguments}**|Specifies command line arguments to pass the **/launch** target.|  
 |**/console**|Runs the **/launch** target in a new command window.|  
   
 ##  <a name="BKMK_All_applications"></a> All applications  

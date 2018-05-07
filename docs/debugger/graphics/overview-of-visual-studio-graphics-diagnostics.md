@@ -1,35 +1,17 @@
 ---
 title: "Overview of Visual Studio Graphics Diagnostics | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-ms.assetid: ddd429d9-ac70-4ac4-9e69-299c6ea2df09
-caps.latest.revision: 29
-author: "BrianPeek"
-ms.author: "brpeek"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+ms.date: "02/09/2017"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: douge
+ms.workload: 
+  - "multiple"
 ---
 # Overview of Visual Studio Graphics Diagnostics
-Visual Studio *Graphics Diagnostics* is a set of tools for recording and then analyzing rendering and performance problems in Direct3D apps. Graphics Diagnostics can be used on apps that are running locally on your Windows PC, in a Windows device emulator, or on a remote PC or device.  
+Visual Studio *Graphics Diagnostics* is a set of tools for recording and then analyzing rendering and performance problems in Direct3D apps. Graphics Diagnostics can be used on apps that are running locally on your Windows PC or on a remote PC or device.  
   
 ## Using Graphics Diagnostics to debug rendering problems  
  Debugging rendering problems in a graphically-rich app is not as straight-forward as starting a debugger and stepping through some code. In each frame, hundreds of thousands of unique pixels are produced, each according to a complex set of state, data, parameters, and code—of these, perhaps only a few pixels will exhibit the problem you are trying to diagnose. To complicate matters even further, the code that generates each pixel is executed on specialized hardware that processes hundreds of pixels in parallel. Traditional debugging tools and techniques—which are difficult to leverage in even lightly-threaded code—are ineffective when faced with so much data.  
@@ -37,21 +19,18 @@ Visual Studio *Graphics Diagnostics* is a set of tools for recording and then an
  The Graphics Diagnostics tools in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] are designed to help you locate rendering problems by starting with the visual artifacts that indicate the problem and then tracing back to the source of the problem by focusing only on relevant shader code, pipeline stages, draw calls, resources, and device state—in the app's own source code.  
   
 ## DirectX version compatibility  
- Graphics Diagnostics supports apps that use Direct3D 12, Direct3D 11, and Direct3D 10, and provides limited support for apps that use Direct2D. It does not support apps that use earlier versions of Direct3D, DirectDraw, or other graphics APIs.  
+ Graphics Diagnostics supports apps that use Direct3D 10 or greater, and provides limited support for apps that use Direct2D. It does not support apps that use earlier versions of Direct3D, DirectDraw, or other graphics APIs.  
   
 ### Windows 10 and Direct3D 12  
- Windows 10 introduces the next version of Direct3D, *Direct3D 12*, which is substantially different from Direct3D 10 and Direct3D 11. These differences bring DirectX back into alignment with modern graphics hardware and unleashing its full potential, but they also bring big API changes and place greater responsibility on the programmer to manage resource lifetimes and contention. Having great debugging tools is crucial to help graphics programmers make this transition, so Graphics Diagnostics in Visual Studio 2015 supports Direct3D12 right from the start. Despite the differences, Graphics Diagnostics with Direct3D 12 maintains feature-parity with Graphics Diagnostics with Direct3D 11.2, with the current exception of the Frame Analysis feature. Soon, support for Frame Analysis in Direct3D 12 will be added, followed by new diagnostics tools to help you solve new kinds of bugs you might encounter in Direct3D 12.  
+ Windows 10 introduced *Direct3D 12*, which is substantially different from Direct3D 10 and Direct3D 11. These differences bring DirectX back into alignment with modern graphics hardware and unleashing its full potential, but they also bring big API changes and place greater responsibility on the programmer to manage resource lifetimes and contention. Despite the differences, Graphics Diagnostics with Direct3D 12 maintains feature-parity with Graphics Diagnostics with Direct3D 11.2.
   
- Windows 10 also maintains support for previous versions of Direct3D and the games and applications that rely on them. Graphics Diagnostics in Visual Studio 2015 continues to support Direct3D 10 and Direct3D 11 on Windows 10, as well as on Windows 8.1.  
-  
-### Windows 8.1 and Direct3D 11.2  
- In [!INCLUDE[win81](../includes/win81_md.md)], DirectX 11.2 introduces new features that include support for capturing graphics information through its runtime. [!INCLUDE[win81](../includes/win81_md.md)] uses the new runtime-based capture—known as *robust capture*—exclusively for all versions of DirectX that [!INCLUDE[win81](../includes/win81_md.md)] supports. Robust capture also supports new features of Direct3D 11.2.  
+ Windows 10 also maintains support for previous versions of Direct3D and the games and applications that rely on them. Graphics Diagnostics in Visual Studio continues to support Direct3D 10 and Direct3D 11 on Windows 10.
   
 ### Limited Direct2D support  
- Because Direct2D is a user-mode API that’s built on top of Direct3D, you can use Graphics Diagnostics to help debug rendering problems in apps that use Direct2D. However, because only the underlying Direct3D events are recorded instead of the higher-level Direct2D events, Direct2D events won't appear in the Graphics Event List. Also, because the relationship between Direct2D events and the resulting Direct3D events are not always clear, using Graphics Diagnostics to debug rendering problems in apps that use Direct2D is not straight forward. Still, you can use Graphics Diagnostics to get information about low-level rendering problems in apps that use Direct2D.  
+ Because Direct2D is a user-mode API that's built on top of Direct3D, you can use Graphics Diagnostics to help debug rendering problems in apps that use Direct2D. However, because only the underlying Direct3D events are recorded instead of the higher-level Direct2D events, Direct2D events won't appear in the Graphics Event List. Also, because the relationship between Direct2D events and the resulting Direct3D events are not always clear, using Graphics Diagnostics to debug rendering problems in apps that use Direct2D is not straight forward. Still, you can use Graphics Diagnostics to get information about low-level rendering problems in apps that use Direct2D.  
   
 ## Graphics Diagnostics features in Visual Studio  
- Graphics Diagnostics has a dedicated interface—the Graphics Analyzer window—for diagnosing rendering problems, but it also adds some tools to the Visual Studio interface.  
+ Graphics Diagnostics has a dedicated interface - the Graphics Analyzer window - for diagnosing rendering problems, but it also adds some tools to the Visual Studio interface.  
   
 ### The graphics toolbar (Visual Studio)  
  The Graphics toolbar provides quick access to Graphics Diagnostics commands.  
@@ -73,7 +52,7 @@ Visual Studio *Graphics Diagnostics* is a set of tools for recording and then an
 ### DirectX control panel  
  The DirectX control panel is a component of DirectX that you can use to change the way that DirectX behaves—for example, you can enable the debug version of the DirectX runtime components, select the kind of debug messages that are reported, and disallow certain graphics hardware capabilities from being used to emulate less-capable hardware. This level of control over DirectX can help you debug and test your DirectX app. You can access the DirectX control panel from Visual Studio.  
   
-##### To open the DirectX control panel  
+#### To open the DirectX control panel  
   
 -   On the menu bar, choose **Debug**, **Graphics**, **DirectX Control Panel**.  
   
@@ -127,11 +106,11 @@ Visual Studio *Graphics Diagnostics* is a set of tools for recording and then an
  The [Object Table](graphics-object-table.md) displays all the objects that exist at the time of the graphics event selected in the event list. Since most objects in a typical app are textures, the event list is optimized to show details relevant to images at a glance. The Type column tells you what kind of object is in each row, and the Format column further shows the sub-type or version of the object. Other details are also shown. Some objects also have hyperlinks you can follow to view the object with a more specialized viewer, such as textures (you can view the texture as an image), or buffers (you can choose how the buffer viewer parses and displays the raw buffer bytes by defining the buffer format).  
   
 ### Frame analysis  
- Your app's graphics don't just need to be correct – they need to be fast, too. Even on less-powerful devices like laptops with integrated graphics or mobile phones. And they still need to look great too.  
+ Your app's graphics don't just need to be correct - they need to be fast, too. Even on less-powerful devices like laptops with integrated graphics or mobile phones. And they still need to look great too.  
   
  The [Frame Analysis](graphics-frame-analysis.md) tool explores potential performance optimizations by automatically changing the way the app uses Direct3D and providing benchmark results for comparison. For example, Frame Analysis can enable mip-mapping on every texture, which might reveal textures that could benefit from mip-mapping but don't currently have it enabled. On hardware that supports it, Frame Analysis also presents information collected from the GPU's performance counters—this level of information can identify hardware-level performance issues, such as high numbers of texture fetch stalls or cache misses.  
   
- But Frame Analysis isn't just about going fast – it's about gaining the most performance you can while giving up the least amount of visual quality. Sometimes an expensive effect that looks great on a large display doesn't make the same impact when viewed on the small screen of a phone, where a simpler effect might look just as good without draining the battery. The automatic changes and benchmarks that Graphics Analysis provides can help you find the balance that’s right for your app across a range of devices.  
+ But Frame Analysis isn't just about going fast - it's about gaining the most performance you can while giving up the least amount of visual quality. Sometimes an expensive effect that looks great on a large display doesn't make the same impact when viewed on the small screen of a phone, where a simpler effect might look just as good without draining the battery. The automatic changes and benchmarks that Graphics Analysis provides can help you find the balance that's right for your app across a range of devices.  
   
 ## See Also  
  [Command-Line Capture Tool](command-line-capture-tool.md)   

@@ -13,6 +13,7 @@ f1_keywords:
   - "Infinity"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "Infinity property"

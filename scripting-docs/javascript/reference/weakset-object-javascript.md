@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: f97e6e7c-d678-4e32-978e-d949a7cafa3a
 caps.latest.revision: 5
@@ -32,7 +33,7 @@ setObj = new WeakSet()
   
  Unlike a `Set`, only objects may be added to the collection. Arbitrary values cannot be added to the collection.  
   
- In a `WeakSet` object, references to objects in the set are held ‘weakly’. This means that `WeakSet` will not prevent a garbage collection from happening on the objects. When there are no references (other than `WeakSet`) to the objects, the garbage collector may collect the objects.  
+ In a `WeakSet` object, references to objects in the set are held 'weakly'. This means that `WeakSet` will not prevent a garbage collection from happening on the objects. When there are no references (other than `WeakSet`) to the objects, the garbage collector may collect the objects.  
   
  `WeakSet` (or `WeakMap`) may be helpful in some scenarios involving caching of objects or object metadata. For example, metadata for non-extensible objects may be stored in a `WeakSet`, or you may create a cache of user images using `WeakSet`.  
   
@@ -56,7 +57,7 @@ setObj = new WeakSet()
 ## Example  
  The following example shows how to add members to a set and then verify that they have been added.  
   
-```javascript  
+```JavaScript  
 var ws = new WeakSet();  
   
 var str = new String("Thomas Jefferson");  

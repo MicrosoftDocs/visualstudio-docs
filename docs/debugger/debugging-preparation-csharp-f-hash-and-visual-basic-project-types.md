@@ -2,19 +2,13 @@
 title: "Debugging Preparation: C#, F#, and Visual Basic Project Types | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
+  - "CSharp"
+  - "VB"
   - "FSharp"
-  - "VB"
-  - "CSharp"
   - "C++"
-  - "VB"
-  - "CSharp"
 helpviewer_keywords: 
   - "debugging [Visual Basic]"
   - "debug builds, project settings"
@@ -23,24 +17,11 @@ helpviewer_keywords:
   - "debugging [C#]"
   - "debugger, settings by project type"
 ms.assetid: 7a0535f6-1cd4-4b51-ad34-f4a45b9f1ce3
-caps.latest.revision: 25
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "dotnet"
 ---
 # Debugging Preparation: C#, F#, and Visual Basic Project Types
 The topics in this section describe how to debug the C#, F#, and [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] project types created by the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project templates.  

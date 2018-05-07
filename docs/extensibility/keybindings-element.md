@@ -2,35 +2,20 @@
 title: "KeyBindings Element | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "KeyBindings"
 helpviewer_keywords: 
   - "VSCT XML schema elements, KeyBindings"
   - "KeyBindings element (VSCT XML schema)"
 ms.assetid: 26a15d5c-ddea-4977-af7f-d795ff09c7ad
-caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # KeyBindings Element
 The KeyBindings element groups KeyBinding elements and other KeyBindings groupings.  

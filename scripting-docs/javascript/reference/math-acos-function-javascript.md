@@ -13,6 +13,7 @@ f1_keywords:
   - "acos"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "acos method"
@@ -41,7 +42,7 @@ Math.acos(number)
 ## Example  
  The following code shows how to use the `acos` function.  
   
-```javascript  
+```JavaScript  
 var v1 = Math.acos(-1.0);  
 var v2 = Math.cos(-1.0);  
   

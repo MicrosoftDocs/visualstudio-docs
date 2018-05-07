@@ -2,34 +2,16 @@
 title: "How to: Collect Line-Level Sampling Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "performance tools, line-level sampling"
 ms.assetid: 44803aad-dd39-4c2e-9209-d35185d44983
-caps.latest.revision: 22
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: douge
+ms.workload: 
+  - "multiple"
 ---
 # How to: Collect Line-Level Sampling Data
 Line-level sampling is the ability of the profiler to determine where in the code of a processor-intensive function, such as a function that has high exclusive samples, the processor has to spend most of its time.  
@@ -48,15 +30,15 @@ Line-level sampling is the ability of the profiler to determine where in the cod
   
 -   Function address.  
   
--   Line begin –line number of the sampled code.  
+-   Line begin -line number of the sampled code.  
   
--   Line end – ending source line number. This is generally the same as the "Line begin" data except when a single program statement spans multiple source code lines.  
+-   Line end - ending source line number. This is generally the same as the "Line begin" data except when a single program statement spans multiple source code lines.  
   
--   Character begin – beginning column of the aggregate sample. This is generally 0 except when a single line contains multiple program statements.  
+-   Character begin - beginning column of the aggregate sample. This is generally 0 except when a single line contains multiple program statements.  
   
--   Character end – ending column of the aggregate sample.  
+-   Character end - ending column of the aggregate sample.  
   
--   IP – address where the aggregate sample was taken (IP view only).  
+-   IP - address where the aggregate sample was taken (IP view only).  
   
  In **Modules** view, if a function has line-level statistics, the statistics are nested under each function. Additionally, IP-level statistics that are nested under each line are presented.  
   

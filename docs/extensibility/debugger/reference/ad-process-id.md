@@ -2,41 +2,26 @@
 title: "AD_PROCESS_ID | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "AD_PROCESS_ID"
 helpviewer_keywords: 
   - "AD_PROCESS_ID union"
 ms.assetid: 4cb40d12-2e92-4f09-83f4-689928bd65b3
-caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # AD_PROCESS_ID
 Specifies the process ID, which may be either a system ID or a GUID.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct _AD_PROCESS_ID {  
    AD_PROCESS_ID_TYPE ProcessIdType;  
    union {  
@@ -47,7 +32,7 @@ typedef struct _AD_PROCESS_ID {
 } AD_PROCESS_ID;  
 ```  
   
-```c#  
+```csharp  
 public struct AD_PROCESS_ID {  
    AD_PROCESS_ID_TYPE ProcessIdType;  
    DWORD              dwProcessId;   

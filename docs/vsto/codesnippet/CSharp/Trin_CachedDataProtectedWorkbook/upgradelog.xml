@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Trin_CachedDataProtectedWorkbook">
+</Property><Property Name="Solution File" Value="C:\Users\normesta\Desktop\Trin_CachedDataProtectedWorkbook\CS\Trin_CachedDataProtectedWorkbook.sln">
+</Property><Property Name="User Options File" Value="C:\Users\normesta\Desktop\Trin_CachedDataProtectedWorkbook\CS\Trin_CachedDataProtectedWorkbook.v11.suo">
+</Property><Property Name="Date" Value="Friday, October 28, 2011">
+</Property><Property Name="Time" Value="6:58 AM">
+</Property></Properties><Event ErrorLevel="3" Project="" Source="Trin_CachedDataProtectedWorkbook.sln" Description="SafeUpgrade">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_CachedDataProtectedWorkbook.sln" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CachedDataProtectedWorkbook\CS\Backup\Trin_CachedDataProtectedWorkbook.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_CachedDataProtectedWorkbook.v11.suo" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CachedDataProtectedWorkbook\CS\Backup\Trin_CachedDataProtectedWorkbook.v11.suo">
+</Event><Event ErrorLevel="3" Project="Trin_CachedDataProtectedWorkbook" Source="Trin_CachedDataProtectedWorkbook.csproj" Description="SafeRepair">
+</Event><Event ErrorLevel="0" Project="Trin_CachedDataProtectedWorkbook" Source="Trin_CachedDataProtectedWorkbook.csproj" Description="Project file successfully backed up as C:\Users\normesta\Desktop\Trin_CachedDataProtectedWorkbook\CS\Backup\Trin_CachedDataProtectedWorkbook.csproj">
+</Event><Event ErrorLevel="0" Project="Trin_CachedDataProtectedWorkbook" Source="Trin_CachedDataProtectedWorkbook.csproj.user" Description="Project user file successfully backed up as C:\Users\normesta\Desktop\Trin_CachedDataProtectedWorkbook\CS\Backup\Trin_CachedDataProtectedWorkbook.csproj.user">
+</Event><Event ErrorLevel="0" Project="Trin_CachedDataProtectedWorkbook" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CachedDataProtectedWorkbook\CS\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Trin_CachedDataProtectedWorkbook" Source="Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CachedDataProtectedWorkbook\CS\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_CachedDataProtectedWorkbook" Source="Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CachedDataProtectedWorkbook\CS\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_CachedDataProtectedWorkbook" Source="Sheet1.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CachedDataProtectedWorkbook\CS\Backup\Sheet1.cs">
+</Event><Event ErrorLevel="0" Project="Trin_CachedDataProtectedWorkbook" Source="Sheet1.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CachedDataProtectedWorkbook\CS\Backup\Sheet1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_CachedDataProtectedWorkbook" Source="Sheet2.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CachedDataProtectedWorkbook\CS\Backup\Sheet2.cs">
+</Event><Event ErrorLevel="0" Project="Trin_CachedDataProtectedWorkbook" Source="Sheet2.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CachedDataProtectedWorkbook\CS\Backup\Sheet2.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_CachedDataProtectedWorkbook" Source="Sheet3.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CachedDataProtectedWorkbook\CS\Backup\Sheet3.cs">
+</Event><Event ErrorLevel="0" Project="Trin_CachedDataProtectedWorkbook" Source="Sheet3.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CachedDataProtectedWorkbook\CS\Backup\Sheet3.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_CachedDataProtectedWorkbook" Source="ThisWorkbook.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CachedDataProtectedWorkbook\CS\Backup\ThisWorkbook.cs">
+</Event><Event ErrorLevel="0" Project="Trin_CachedDataProtectedWorkbook" Source="ThisWorkbook.Designer.cs" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CachedDataProtectedWorkbook\CS\Backup\ThisWorkbook.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Trin_CachedDataProtectedWorkbook" Source="Properties\Settings.settings" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CachedDataProtectedWorkbook\CS\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Trin_CachedDataProtectedWorkbook" Source="Trin_CachedDataProtectedWorkbook.xlsx" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CachedDataProtectedWorkbook\CS\Backup\Trin_CachedDataProtectedWorkbook.xlsx">
+</Event><Event ErrorLevel="0" Project="Trin_CachedDataProtectedWorkbook" Source="ThisWorkbook.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CachedDataProtectedWorkbook\CS\Backup\ThisWorkbook.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_CachedDataProtectedWorkbook" Source="Sheet1.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CachedDataProtectedWorkbook\CS\Backup\Sheet1.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_CachedDataProtectedWorkbook" Source="Sheet2.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CachedDataProtectedWorkbook\CS\Backup\Sheet2.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_CachedDataProtectedWorkbook" Source="Sheet3.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CachedDataProtectedWorkbook\CS\Backup\Sheet3.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_CachedDataProtectedWorkbook" Source="Trin_CachedDataProtectedWorkbook_TemporaryKey.pfx" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CachedDataProtectedWorkbook\CS\Backup\Trin_CachedDataProtectedWorkbook_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="Trin_CachedDataProtectedWorkbook" Source="Properties\Resources.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CachedDataProtectedWorkbook\CS\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Trin_CachedDataProtectedWorkbook" Source="Sheet1.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Trin_CachedDataProtectedWorkbook\CS\Backup\Sheet1.resx">
+</Event><Event ErrorLevel="0" Project="Trin_CachedDataProtectedWorkbook" Source="Trin_CachedDataProtectedWorkbook.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Trin_CachedDataProtectedWorkbook" Source="Trin_CachedDataProtectedWorkbook.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_CachedDataProtectedWorkbook.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Trin_CachedDataProtectedWorkbook.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Trin_CachedDataProtectedWorkbook" Source="Trin_CachedDataProtectedWorkbook.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

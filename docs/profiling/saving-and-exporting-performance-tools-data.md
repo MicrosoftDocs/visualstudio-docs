@@ -2,34 +2,16 @@
 title: "Saving and Exporting Performance Tools Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "performance tools, saving and exporting reports"
 ms.assetid: 2e9b28fe-3ed2-4e1d-b9cb-0a5e384380b0
-caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: douge
+ms.workload: 
+  - "multiple"
 ---
 # Saving and Exporting Performance Tools Data
 This topic describes how to save and export performance data files.  
@@ -75,7 +57,7 @@ This topic describes how to save and export performance data files.
   
 4.  Under **Exported report location**, specify the directory.  
   
-5.  Under **Exported report format**, select (Comma delimited) (*.csv), or XML Data (\*.xml).  
+5.  Under **Exported report format**, select (Comma delimited) (\*.csv\), or XML Data (\*.xml\).  
   
 6.  Click **Export**.  
   
@@ -95,7 +77,7 @@ This topic describes how to save and export performance data files.
   
 6.  Under **Exported report location**, specify the directory.  
   
-7.  Under **Exported report format**, select (Comma delimited) (*.csv), or XML Data (\*.xml).  
+7.  Under **Exported report format**, select (Comma delimited) (\*.csv), or XML Data (\*.xml).  
   
 8.  Click **Export**.  
   

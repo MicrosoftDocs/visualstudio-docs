@@ -2,34 +2,19 @@
 title: "IDebugBinder3::GetEEService | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugBinder3::GetEEService"
 helpviewer_keywords: 
   - "IDebugBinder3::GetEEService method"
 ms.assetid: eb07aa40-8cd9-4a52-a4c7-4affd2307a01
-caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugBinder3::GetEEService
 This method returns a requested service.  
@@ -45,7 +30,7 @@ HRESULT GetEEService(
 );  
 ```  
   
-```c#  
+```csharp  
 Int GetEEService(  
    Guid       vendor,  
    Guid       language,  

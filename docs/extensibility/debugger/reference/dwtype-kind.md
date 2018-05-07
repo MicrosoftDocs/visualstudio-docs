@@ -2,41 +2,26 @@
 title: "dwTYPE_KIND | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "dwTYPE_KIND"
 helpviewer_keywords: 
   - "dwTYPE_KIND enumeration"
 ms.assetid: 6ff56b0f-c502-4e6c-9829-bfa05361b783
-caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # dwTYPE_KIND
 Specifies how to interpret the type of an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_dwTYPE_KIND {  
    TYPE_KIND_METADATA = 0x0001,  
    TYPE_KIND_PDB      = 0x0002,  
@@ -46,7 +31,7 @@ enum enum_dwTYPE_KIND {
 typedef DWORD dwTYPE_KIND;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_dwTYPE_KIND {  
    TYPE_KIND_METADATA = 0x0001,  
    TYPE_KIND_PDB      = 0x0002,  

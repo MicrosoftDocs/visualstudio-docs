@@ -2,34 +2,19 @@
 title: "IDebugAlias::GetObject | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugAlias::GetObject"
 helpviewer_keywords: 
   - "IDebugAlias::GetObject method"
 ms.assetid: 97bc3af6-6e55-4940-8a6d-692c61257806
-caps.latest.revision: 7
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugAlias::GetObject
 Gets the object that this alias is for.  
@@ -42,7 +27,7 @@ HRESULT GetObject(
 );  
 ```  
   
-```c#  
+```csharp  
 int GetObject(  
    Out IDebugObject2 ppObject  
 )  

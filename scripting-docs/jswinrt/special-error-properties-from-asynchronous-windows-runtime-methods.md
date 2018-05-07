@@ -21,7 +21,7 @@ It can be difficult to debug asynchronous Windows Runtime methods in JavaScript,
 ## Special Error Properties  
  An error object that results from a failed Windows Runtime asynchronous operation in debug mode has the following special properties:  
   
--   `asyncOpSource` (Object) Gets information about the original location where the call that produced an error was made. The property `asyncOpSource.originatingCall` (String) displays the location in the user’s code that originated the asynchronous operation.  
+-   `asyncOpSource` (Object) Gets information about the original location where the call that produced an error was made. The property `asyncOpSource.originatingCall` (String) displays the location in the user's code that originated the asynchronous operation.  
   
 -   asyncOpType (String) Gets the name of the asynchronous operation type that raised the error.  
   

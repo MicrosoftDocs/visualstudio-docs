@@ -2,47 +2,32 @@
 title: "IDebugComPlusSymbolProvider::UnloadSymbols | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "UnloadSymbols"
   - "IDebugComPlusSymbolProvider::UnloadSymbols"
 ms.assetid: 53e3ddc1-ab47-4097-8fef-b26e5504b37a
-caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugComPlusSymbolProvider::UnloadSymbols
 Unloads the debug symbols for the specified module from memory.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT UnloadSymbols(  
    ULONG32 ulAppDomainID,  
    GUID    guidModule  
 );  
 ```  
   
-```c#  
+```csharp  
 int UnloadSymbols(  
    uint ulAppDomainID,  
    Guid guidModule  
@@ -62,7 +47,7 @@ int UnloadSymbols(
 ## Example  
  The following example shows how to implement this method for a **CDebugSymbolProvider** object that exposes the [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md) interface.  
   
-```cpp#  
+```cpp  
 HRESULT CDebugSymbolProvider::UnloadSymbols(  
     ULONG32 ulAppDomainID,  
     GUID guidModule  

@@ -2,35 +2,18 @@
 title: "Measure Mode On-Off | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.cv.threads.tools.measure"
 helpviewer_keywords: 
   - "Concurrency Visualizer, Measure Mode On/Off"
 ms.assetid: fbd99736-9ea8-47d2-af51-7e3a4e9c29c1
-caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "multiple"
 ---
 # Measure Mode On/Off
 By using this tool, you can precisely measure a length of time in the timeline. To enable measure mode, click the measure button (which has a ruler icon), and then drag in the timeline. As you drag, notice that the area below the pointer is highlighted in yellow and the time measured appears in the toolbar to the right of the button. This value is calculated dynamically as you drag so that you can immediately see how long a particular event is taking. When you release the mouse button, the time value remains visible.  

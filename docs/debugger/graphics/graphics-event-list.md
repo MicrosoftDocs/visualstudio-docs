@@ -2,34 +2,16 @@
 title: "Graphics Event List | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.graphics.eventlist"
 ms.assetid: a1252e19-b27d-4dc7-a16b-fdac894c1f0e
-caps.latest.revision: 20
-author: "BrianPeek"
-ms.author: "brpeek"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: douge
+ms.workload: 
+  - "multiple"
 ---
 # Graphics Event List
 Use the Graphics Event List in Visual Studio Graphics Analyzer to explore the Direct3D events that were recorded while rendering a frame of your game or app.  
@@ -55,9 +37,9 @@ Use the Graphics Event List in Visual Studio Graphics Analyzer to explore the Di
  Direct3D 11 doesn't expose multiple queues, so events aren't color-coded in the Event List when you're working with a capture of a Direct3D 11 app.  
   
 ### Event list views  
- The event list supports two different views that organize graphics events in different ways to support your workflow and preferences. The first view is the *draw calls view* which organizes events and their associated state hierarchically. The second view is the *timeline view* which organizes events chronologically, in a flat list.  
+ The event list supports two different views that organize graphics events in different ways to support your workflow and preferences. The first view is the *GPU work view* which organizes events and their associated state hierarchically. The second view is the *timeline view* which organizes events chronologically, in a flat list.  
   
- The **Draw Calls** view  
+ The **GPU Work** view  
  Displays captured events and their state in a hierarchy. The top level of the hierarchy is made up of events such as draw calls, clears, present, and those dealing with views. In the event list, you can expand draw calls to display the device state that was current at the time of the draw call; and you can further expand each kind of state to display the events that set their values. At this level, you can also see whether a particular state was set in a previous frame, or if it has been set more than once since the last draw call.  
   
  The **Timeline** view  
@@ -65,7 +47,7 @@ Use the Graphics Event List in Visual Studio Graphics Analyzer to explore the Di
   
 ##### To change the event list view mode  
   
--   In the **Graphics Event List** window, above the list of events, locate the **View** dropdown and chose either the **Timeline** view or the **Draw calls** view.  
+-   In the **Graphics Event List** window, above the list of events, locate the **View** dropdown and chose either the **Timeline** view or the **GPU Work** view.  
   
 ### Filtering events  
  You can use the Search box—located in the upper-right corner of the **Graphics Event List** window—to filter the events list to include only events whose names contain specific keywords. You can specify single keywords like `Vertex`—as shown in the previous illustration—or multiple keywords by using a semicolon-delimited list like `Draw;Primitive`—which matches events that have either `Draw` or `Primitive` in their names. Searches are sensitive to whitespace—for example, `VSSet` and `VS Set` are different searches—so make sure to form searches carefully.  
@@ -111,6 +93,22 @@ Use the Graphics Event List in Visual Studio Graphics Analyzer to explore the Di
 |Create an event marker|`SetMarkerInt`|`SetMarker`|`D3DPerf_SetMarker`|  
   
  You can use any of these APIs that your version of Direct3D supports—for example, if you are targeting the Direct3D 11.1 API, you can use either `SetMarker` or `D3DPerf_SetMarker` to create an event marker, but not `SetMarkerInt` because its only available in Direct3D 11.2—and you can even mix those that support different versions of Direct3D together in the same app.  
-  
+
+<!-- VERSIONLESS -->
+<a name="resource-history"></a>
+## Resource History
+Visual Studio 2017 and greater contain the **Resource History** window.  Selecting the watch icon ![watch icon](media/gfx_watch.png) next to an entry in the **Event List** window will bring up the **Resource History** window shown below:
+
+![Resource History](media/gfx_diag_resource_history.png)
+
+This window allows you to view the history of the selected item in the event list.  The dropdown at the top can be used to select other items to view the history of.  The top half of the window contains the **Frame Setup Events**.  These are the events which fall into the *Create* type category and are calls that typically initialize and create the resource.  The bottom half of the window contains the **Frame Events** section.  These are the normal read and write events that occur during the usage of the resource.  
+
+Column|Description
+---|---
+**Type** | Shows the type of the entry, typically *Create*, *Read* and *Write*.  
+**View** | Shows a thumbnail of the resource at that moment in time.  Double-click the thumbnail to open a details view of the resource at that time.  
+**Event**| Shows the method call that occurred which generated the event.  Any additional history on individual items can be viewed by selecting the watch icon ![watch icon](media/gfx_watch.png) on the appropriate line.  Also, any item which is drawn in blue text, such as `m_commandList` in the screenshot above, can be selected for more details.
+<!-- /VERSIONLESS -->
+
 ## See Also  
  [Walkthrough: Missing Objects Due to Device State](walkthrough-missing-objects-due-to-device-state.md)

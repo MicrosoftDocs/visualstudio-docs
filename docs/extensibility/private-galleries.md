@@ -2,33 +2,18 @@
 title: "Private Galleries | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "VSIX galleries, private"
   - "private galleries, VSIX"
 ms.assetid: b6b3dee7-91c5-4556-9f69-0d56b675e83b
-caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # Private Galleries
 You can share the controls, templates, and tools that you develop by posting them to a *private gallery* on the intranet for your organization, as follows:  
@@ -62,11 +47,11 @@ You can share the controls, templates, and tools that you develop by posting the
  An administrator can make a private gallery available to several computers at the same time by modifying the system registry on each computer. To accomplish this, create a .pkgdef file that describes the new registry keys and their values.  The format of this file is as follows.  
   
 ```  
-[$RootPath$\ExtensionManager\Repositories\{UniqueGUID}]  
+[$RootKey$\ExtensionManager\Repositories\{UniqueGUID}]  
 @={URI}  (REG_SZ)  
 Disabled=0 | 1 (DWORD)  
-Priority=0 (highest priority) … MaxInt (lowest priority) (DWORD) (uint)  
-Protocol=VSGallery|Atom|Sharepoint (REG_SZ)  
+Priority=0 (highest priority) ... MaxInt (lowest priority) (DWORD) (uint)  
+Protocol=Atom|Sharepoint (REG_SZ)  
 DisplayName={DisplayName} (REG_SZ)  
 DisplayNameResourceID={ID} (REG_SZ)  
 DisplayNamePackageGuid={GUID} (REG_SZ)  

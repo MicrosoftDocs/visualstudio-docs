@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "arrays [JavaScript], reduceRight method"
@@ -104,7 +105,7 @@ array1.reduceRight(callbackfn[, initialValue])
 ## Example  
  The following example concatenates array values into a string, separating the values with "::". Because no initial value is provided to the `reduceRight` method, the first call to the callback function has 456 as the `previousValue` argument and 123 as the `currentValue` argument.  
   
-```javascript  
+```JavaScript  
 // Define the callback function.  
 function appendCurrent (previousValue, currentValue) {  
     return previousValue + "::" + currentValue;  
@@ -126,7 +127,7 @@ document.write(result);
 ## Example  
  The following example finds the sum of the squares of the array elements. The `reduceRight` method is called with an initial value of 0.  
   
-```javascript  
+```JavaScript  
 // Define the callback function.  
 function Process(previousValue, currentValue, index, array) {  
     // Add the previous value to the current value squared.  
@@ -154,7 +155,7 @@ document.write("sum of squares=" + sumOfSquares);
 ## Example  
  The following example gets those elements of an array whose values are between 1 and 10. The initial value provided to the `reduceRight` method is an empty array.  
   
-```javascript  
+```JavaScript  
 function Process2(previousArray, currentValue) {  
     // If currentValue is between 1 and 10,   
     // append currentValue to the array.  
@@ -187,7 +188,7 @@ document.write("result array=" + resultArray);
 ## Example  
  The `reduceRight` method can be applied to a string. The following example shows how to use this method to reverse the characters in a string.  
   
-```javascript  
+```JavaScript  
 // Define the callback function.  
 function AppendToArray(previousValue, currentValue) {  
     return previousValue + currentValue;  

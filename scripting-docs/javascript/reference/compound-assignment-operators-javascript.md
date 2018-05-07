@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "compound assignment operators"
@@ -34,7 +35,7 @@ The following table lists [!INCLUDE[javascript](../../javascript/includes/javasc
 |[Bitwise XOR](../../javascript/reference/bitwise-xor-assignment-operator-decrement-hat-equal-javascript.md)|^=|  
 |[Division](../../javascript/reference/division-assignment-operator-decrement-equal-javascript.md)|/=|  
 |[Left Shift](../../javascript/reference/left-shift-assignment-operator-decrement-equal-javascript.md)|<\<=|  
-|[Modulus](../../javascript/reference/modulus-assignment-operator-decrement-javascript.md)|%=|  
+|[Remainder](../../javascript/reference/modulus-assignment-operator-decrement-javascript.md)|%=|  
 |[Multiplication](../../javascript/reference/multiplication-assignment-operator-decrement-equal-javascript.md)|*=|  
 |[Right Shift](../../javascript/reference/right-shift-assignment-operator-decrement-equal-javascript.md)|>>=|  
 |[Subtraction](../../javascript/reference/subtraction-assignment-operator-decrement-equal-javascript.md)|-=|  

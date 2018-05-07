@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 2b89abee-04fa-47e6-9676-980016cff5f8
 caps.latest.revision: 8
@@ -47,7 +48,7 @@ proxyObj = new Proxy(target, handler)
 |`construct: function(target, args)`|A trap for a constructor.|  
 |`defineProperty: function(target, propertyName, descriptor)`|A trap for [Object.defineProperty Function](../../javascript/reference/object-defineproperty-function-javascript.md).|  
 |`deleteProperty: function(target, propertyName)`|A trap for the `delete` statement.|  
-|`enumerate: function(target)`|A trap for the [for…in](../../javascript/reference/for-dot-dot-dot-in-statement-javascript.md) statement, [Object.getOwnPropertySymbols](../../javascript/reference/object-getownpropertysymbols-function-javascript.md), [Object.keys](../../javascript/reference/object-keys-function-javascript.md) function, and [JSON.stringify](../../javascript/reference/json-stringify-function-javascript.md).|  
+|`enumerate: function(target)`|A trap for the [for...in](../../javascript/reference/for-dot-dot-dot-in-statement-javascript.md) statement, [Object.getOwnPropertySymbols](../../javascript/reference/object-getownpropertysymbols-function-javascript.md), [Object.keys](../../javascript/reference/object-keys-function-javascript.md) function, and [JSON.stringify](../../javascript/reference/json-stringify-function-javascript.md).|  
 |`get: function(target, propertyName, receiver)`|A trap for any [getter](../../javascript/creating-objects-javascript.md) properties.|  
 |`getOwnPropertyDescriptor: function(target, propertyName)`|A trap for [Object.getOwnPropertyDescriptor Function](../../javascript/reference/object-getownpropertydescriptor-function-javascript.md).|  
 |`getPrototypeOf: function(target)`|A trap for [Object.getPrototypeOf Function](../../javascript/reference/object-getprototypeof-function-javascript.md).|  
@@ -61,12 +62,12 @@ proxyObj = new Proxy(target, handler)
 ## Example  
  The following code example shows how to create a proxy for an object literal using the `get` trap.  
   
-```javascript  
+```JavaScript  
 var target = {};  
 var handler = {  
-  get: function (receiver, name) {  
+  get: function (target, property, receiver) {  
     // This example includes a template string.  
-    return `Hello, ${name}!`;  
+    return `Hello, ${property}!`;  
   }  
 };  
   
@@ -81,7 +82,7 @@ console.log(p.world);
 ## Example  
  The following code example shows how to create a proxy for a function using the `apply` trap.  
   
-```javascript  
+```JavaScript  
 var target = function () { return 'I am the target'; };  
 var handler = {  
   // This example includes a rest parameter.  

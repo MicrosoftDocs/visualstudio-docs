@@ -1,48 +1,29 @@
 ---
-title: "Refresh an app (JavaScript) | Microsoft Docs"
+title: "Refresh a UWP app | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
-  - "JavaScript debugging, refreshing pages [Windows Store apps]"
-  - "debugging, refreshing pages [Windows Store apps]"
-  - "DOM Explorer, Refresh [Windows Store apps]"
-  - "Refresh [Windows Store apps]"
+  - "JavaScript debugging, refreshing pages [UWP apps]"
+  - "debugging, refreshing pages [UWP apps]"
+  - "DOM Explorer, Refresh [UWP apps]"
+  - "Refresh [UWP apps]"
 ms.assetid: fd99ee60-fa94-46df-8b17-369f60bfd908
-caps.latest.revision: 20
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pt-br"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "tr-tr"
+manager: douge
+ms.workload: 
+  - "uwp"
 ---
-# Refresh an app (JavaScript)
-![Applies to Windows and Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  
+# Refresh a UWP app in Visual Studio
   
- You can make changes to your code while you're debugging, and then refresh a Store app using JavaScript by choosing the **Refresh Windows app** button on the **Debug** toolbar. Choosing this button reloads the app without stopping and restarting the debugger. The Refresh feature enables you to modify HTML, CSS, and JavaScript code and quickly see the result. This feature is supported for both Windows Store and Windows Phone Store apps.  
+ You can make changes to your code while you're debugging, and then refresh a UWP app using JavaScript by choosing the **Refresh Windows app** button on the **Debug** toolbar. Choosing this button reloads the app without stopping and restarting the debugger. The Refresh feature enables you to modify HTML, CSS, and JavaScript code and quickly see the result. This feature is supported for UWP apps.  
   
  Refresh doesn't maintain your app state or reflect the following changes to your app:  
   
@@ -61,37 +42,19 @@ translation.priority.mt:
   
 ### To refresh an app  
   
-1.  In Visual Studio, create a new project by using the Navigation App project template.  
-  
-     This can be Windows Store app, Windows Phone Store app, or a universal app.  
-  
-2.  With the template open in Visual Studio, select a debug target.  
-  
-     If a Windows Phone project is your current startup project, select a Windows Phone emulator for the debug target. Otherwise, select **Simulator** or **Local Machine**.  
+1.  With your UWP project open in Visual Studio, select **Local Machine** as the debug target.
   
      ![Select debug target list](../debugger/media/js_select_target.png "JS_Select_Target")  
   
 3.  Press F5 to run the app in debug mode.  
   
-4.  Switch to Visual Studio. (Press F12.)  
+4.  Switch to Visual Studio. 
   
-5.  In **Solution Explorer**, in the **pages** > **home** folder, open home.html.  
-  
-6.  Change the page title text from  
-  
-    ```html  
-    Welcome to yourAppName!  
-    ```  
-  
-     to something else, like this:  
-  
-    ```html  
-    Hello!  
-    ```  
+5.  In the home page of your UWP app, edit some of the HTML.
   
 7.  Click the **Refresh Windows app** button, which looks like this: ![Refresh Windows app button](../debugger/media/js_refresh.png "JS_Refresh"). (Or press F4.)  
   
-8.  Switch to the app. The app is reloaded without the debugger restarting, and the new page title appears.  
+8.  Switch to the app. The app is reloaded and the updated HTML is used to render the app.
   
 ## See Also  
  [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md)

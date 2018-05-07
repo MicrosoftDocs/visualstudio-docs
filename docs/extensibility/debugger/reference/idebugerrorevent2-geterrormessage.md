@@ -2,41 +2,26 @@
 title: "IDebugErrorEvent2::GetErrorMessage | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugErrorEvent2::GetErrorMessage"
 helpviewer_keywords: 
   - "IDebugErrorEvent2::GetErrorMessage"
 ms.assetid: 9e3b0d74-a2dd-4eaa-bd95-21b2f9c79409
-caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugErrorEvent2::GetErrorMessage
 Returns information that allows construction of a human-readable error message.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetErrorMessage(  
    MESSAGETYPE* pMessageType,  
    BSTR*        pbstrErrorFormat,  
@@ -47,7 +32,7 @@ HRESULT GetErrorMessage(
 );  
 ```  
   
-```c#  
+```csharp  
 int GetErrorMessage(  
    out enum_MESSAGETYPE   pMessageType,  
    out string             pbstrErrorFormat,  

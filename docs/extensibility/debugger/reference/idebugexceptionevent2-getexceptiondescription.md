@@ -2,47 +2,32 @@
 title: "IDebugExceptionEvent2::GetExceptionDescription | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugExceptionEvent2::GetExceptionDescription"
 helpviewer_keywords: 
   - "IDebugExceptionEvent2::GetExceptionDescription"
 ms.assetid: d07d458f-5729-47e4-9b77-1bd59c61a75a
-caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugExceptionEvent2::GetExceptionDescription
 Gets a displayable description of the exception.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT GetExceptionDescription(   
    BSTR* pbstrDescription  
 );  
 ```  
   
-```c#  
+```csharp  
 int GetExceptionDescription(   
    out string pbstrDescription  
 );  

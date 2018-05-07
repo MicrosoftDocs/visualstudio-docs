@@ -2,47 +2,32 @@
 title: "IDebugEngineLaunch2::ResumeProcess | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugEngineLaunch2::ResumeProcess"
 helpviewer_keywords: 
   - "IDebugEngineLaunch2::ResumeProcess"
 ms.assetid: 61ccc14e-75c6-44e7-aae4-57a9aac52089
-caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugEngineLaunch2::ResumeProcess
 Resumes process execution.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT ResumeProcess (   
    IDebugProcess2* pProcess  
 );  
 ```  
   
-```c#  
+```csharp  
 int ResumeProcess (   
    IDebugProcess2 pProcess  
 );  

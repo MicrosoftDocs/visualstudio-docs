@@ -2,33 +2,18 @@
 title: "Project Types | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "project types, adding"
   - "projects [Visual Studio SDK], adding new types"
 ms.assetid: 263a084f-f97a-4e09-add7-f0e8a6a27daf
-caps.latest.revision: 22
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # Project Types
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] includes several project types for languages such as [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] and [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)]. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] also lets you create your own project types.  
@@ -42,12 +27,6 @@ translation.priority.mt:
   
  [Adding a Command to the Solution Explorer Toolbar](../../extensibility/adding-a-command-to-the-solution-explorer-toolbar.md)  
  Details the steps that you must follow to add a button to the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] **Solution Explorer** toolbar.  
-  
- [Adding Web Services to Project Systems](../../misc/adding-web-services-to-project-systems.md)  
- Shows how to integrate Web services into your VSPackage project system.  
-  
- [Renaming Project Hierarchy Nodes (C++)](../../misc/renaming-project-hierarchy-nodes-cpp.md)  
- Shows how to rename a project folder hierarchy node.  
   
  [Adding Project and Project Item Templates](../../extensibility/internals/adding-project-and-project-item-templates.md)  
  Discusses how you can add templates to your project types so that users can create new projects and project items according to a pattern.  

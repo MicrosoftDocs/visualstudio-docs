@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "isFrozen function [JavaScript]"
@@ -26,7 +27,7 @@ Returns `true` if existing property attributes and values cannot be modified in 
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 Object.isFrozen(object)  
 ```  
   
@@ -73,7 +74,7 @@ Object.isFrozen(object)
 ## Example  
  The following example illustrates the use of the `Object.isFrozen` function.  
   
-```javascript  
+```JavaScript  
 // Create an object that has two properties.  
 var obj = { pasta: "spaghetti", length: 10 };  
   

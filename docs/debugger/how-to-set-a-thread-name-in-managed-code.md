@@ -1,17 +1,13 @@
 ---
 title: "How to: Set a Thread Name in Managed Code | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "04/27/2017"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "Thread.Name property"
@@ -19,33 +15,43 @@ helpviewer_keywords:
   - "thread names"
   - "debugging [Visual Studio], threads"
 ms.assetid: c0c4d74a-0314-4b71-81c9-b0b019347ab8
-caps.latest.revision: 28
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "dotnet"
 ---
 # How to: Set a Thread Name in Managed Code
-Thread naming is possible in any edition of Visual Studio. Thread naming is useful for keeping track of threads in the **Threads** window. Because the **Threads** window is not available in the Visual Studio Express editions, thread naming has little utility in Express editions.  
+Thread naming is possible in any edition of Visual Studio. Thread naming is useful for keeping track of threads in the **Threads** window.
   
  To set a thread name in managed code, use the <xref:System.Threading.Thread.Name%2A> property.  
   
 ## Example  
-  
-```  
+
+```csharp
+public class Needle
+{
+    // This method will be called when the thread is started.  
+    public void Baz()
+    {
+        Console.WriteLine("Needle Baz is running on another thread");
+    }
+}
+
+public void Main()
+{
+    Console.WriteLine("Thread Simple Sample");
+    Needle oNeedle = new Needle();
+    // Create a Thread object.   
+    System.Threading.Thread oThread = new System.Threading.Thread(oNeedle.Baz);
+    // Set the Thread name to "MyThread".  
+    oThread.Name = "MyThread";
+    // Starting the thread invokes the ThreadStart delegate  
+    oThread.Start();
+}
+```
+
+```VB 
 Public Class Needle  
     ' This method will be called when the thread is started.  
     Sub Baz()  
@@ -58,8 +64,8 @@ Sub Main()
     Dim oNeedle As New Needle()  
    ' Create a Thread object.   
     Dim oThread As New System.Threading.Thread(AddressOf oNeedle.Baz)  
-    ' Set the Thread name to "MainThread".  
-    oThread.Name = "MainThread"  
+    ' Set the Thread name to "MyThread".  
+    oThread.Name = "MyThread"  
     ' Starting the thread invokes the ThreadStart delegate  
     oThread.Start()  
 End Sub  

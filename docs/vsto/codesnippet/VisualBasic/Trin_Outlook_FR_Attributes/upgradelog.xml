@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Trin_Outlook_FR_Attributes">
+</Property><Property Name="Solution File" Value="C:\Users\normesta\Desktop\Projects\Trin_Outlook_FR_Attributes\VB\Trin_Outlook_FR_Attributes.sln">
+</Property><Property Name="User Options File" Value="C:\Users\normesta\Desktop\Projects\Trin_Outlook_FR_Attributes\VB\Trin_Outlook_FR_Attributes.v11.suo">
+</Property><Property Name="Date" Value="Friday, November 04, 2011">
+</Property><Property Name="Time" Value="15:50 PM">
+</Property></Properties><Event ErrorLevel="3" Project="" Source="Trin_Outlook_FR_Attributes.sln" Description="SafeUpgrade">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_Outlook_FR_Attributes.sln" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Outlook_FR_Attributes\VB\Backup\Trin_Outlook_FR_Attributes.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_Outlook_FR_Attributes.v11.suo" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Outlook_FR_Attributes\VB\Backup\Trin_Outlook_FR_Attributes.v11.suo">
+</Event><Event ErrorLevel="3" Project="Trin_Outlook_FR_Attributes" Source="Trin_Outlook_FR_Attributes.vbproj" Description="SafeRepair">
+</Event><Event ErrorLevel="0" Project="Trin_Outlook_FR_Attributes" Source="Trin_Outlook_FR_Attributes.vbproj" Description="Project file successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Outlook_FR_Attributes\VB\Backup\Trin_Outlook_FR_Attributes.vbproj">
+</Event><Event ErrorLevel="0" Project="Trin_Outlook_FR_Attributes" Source="Trin_Outlook_FR_Attributes.vbproj.user" Description="Project user file successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Outlook_FR_Attributes\VB\Backup\Trin_Outlook_FR_Attributes.vbproj.user">
+</Event><Event ErrorLevel="0" Project="Trin_Outlook_FR_Attributes" Source="FormRegion1.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Outlook_FR_Attributes\VB\Backup\FormRegion1.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_Outlook_FR_Attributes" Source="FormRegion1.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Outlook_FR_Attributes\VB\Backup\FormRegion1.vb">
+</Event><Event ErrorLevel="0" Project="Trin_Outlook_FR_Attributes" Source="ThisAddIn.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Outlook_FR_Attributes\VB\Backup\ThisAddIn.vb">
+</Event><Event ErrorLevel="0" Project="Trin_Outlook_FR_Attributes" Source="ThisAddIn.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Outlook_FR_Attributes\VB\Backup\ThisAddIn.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_Outlook_FR_Attributes" Source="My Project\AssemblyInfo.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Outlook_FR_Attributes\VB\Backup\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="Trin_Outlook_FR_Attributes" Source="My Project\Resources.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Outlook_FR_Attributes\VB\Backup\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_Outlook_FR_Attributes" Source="My Project\Settings.Designer.vb" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Outlook_FR_Attributes\VB\Backup\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Trin_Outlook_FR_Attributes" Source="ThisAddIn.Designer.xml" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Outlook_FR_Attributes\VB\Backup\ThisAddIn.Designer.xml">
+</Event><Event ErrorLevel="0" Project="Trin_Outlook_FR_Attributes" Source="My Project\Settings.settings" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Outlook_FR_Attributes\VB\Backup\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Trin_Outlook_FR_Attributes" Source="Trin_Outlook_FR_Attributes_TemporaryKey.pfx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Outlook_FR_Attributes\VB\Backup\Trin_Outlook_FR_Attributes_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="Trin_Outlook_FR_Attributes" Source="FormRegion1.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Outlook_FR_Attributes\VB\Backup\FormRegion1.resx">
+</Event><Event ErrorLevel="0" Project="Trin_Outlook_FR_Attributes" Source="My Project\Resources.resx" Description="File successfully backed up as C:\Users\normesta\Desktop\Projects\Trin_Outlook_FR_Attributes\VB\Backup\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Trin_Outlook_FR_Attributes" Source="Trin_Outlook_FR_Attributes.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Trin_Outlook_FR_Attributes" Source="Trin_Outlook_FR_Attributes.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Trin_Outlook_FR_Attributes.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Trin_Outlook_FR_Attributes.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Trin_Outlook_FR_Attributes" Source="Trin_Outlook_FR_Attributes.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

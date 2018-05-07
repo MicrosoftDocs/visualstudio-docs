@@ -2,34 +2,19 @@
 title: "Changing the Appearance of a Command | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "commands, changing appearance"
   - "menu commands, changing appearance"
   - "menus, changing command appearance"
 ms.assetid: da2474fa-f92d-4e9e-b8bf-67c61bf249c2
-caps.latest.revision: 23
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # Changing the Appearance of a Command
 You can provide feedback to your user by changing the appearance of a command. For example, you may want a command to look different when it is unavailable. You can make commands available or unavailable, hide or show them, or check or uncheck them on the menu.  
@@ -50,19 +35,19 @@ You can provide feedback to your user by changing the appearance of a command. F
   
 2.  In the ChangeMenuText.cs file, add the following using statement:  
   
-    ```c#  
+    ```csharp  
     using System.Security.Permissions;  
     ```  
   
 3.  In the ChangeMenuTextPackageGuids.cs file, add the following line:  
   
-    ```c#  
+    ```csharp  
     public const string guidChangeMenuTextPackageCmdSet= "00000000-0000-0000-0000-00000000";  // get the GUID from the .vsct file  
     ```  
   
 4.  In the ChangeMenuText.cs file, replace the code in the ShowMessageBox method with the following:  
   
-    ```c#  
+    ```csharp  
     private void ShowMessageBox(object sender, EventArgs e)  
     {  
         var command = sender as OleMenuCommand;  
@@ -73,7 +58,7 @@ You can provide feedback to your user by changing the appearance of a command. F
   
 5.  Obtain the command that you want to update from the <xref:Microsoft.VisualStudio.Shell.OleMenuCommandService> object and then set the appropriate properties on the command object. For example, the following method makes the specified command from a VSPackage command set available or unavailable. The following code makes the menu item named `New Text` unavailable after it has been clicked.  
   
-    ```c#  
+    ```csharp  
     public bool ChangeMyCommand(int cmdID, bool enableCmd)  
     {  
         bool cmdUpdated = false;  
@@ -92,7 +77,7 @@ You can provide feedback to your user by changing the appearance of a command. F
   
 6.  Build the project and start debugging. The experimental instance of Visual Studio should appear.  
   
-7.  On the **Tools** menu, click the **Invoke ChangeMenuText** command. At this point the command name is **Invoke ChangeMenuText**, so the command handler doesn’t call ChangeMyCommand().  
+7.  On the **Tools** menu, click the **Invoke ChangeMenuText** command. At this point the command name is **Invoke ChangeMenuText**, so the command handler doesn't call ChangeMyCommand().  
   
 8.  On the **Tools** menu you should now see **New Text**. Click **New Text**. The command should now be grayed out.  
   

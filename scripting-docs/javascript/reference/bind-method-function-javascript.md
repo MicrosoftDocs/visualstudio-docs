@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "parameters [JavaScript], bind method"
@@ -52,7 +53,7 @@ function.bind(thisArg[,arg1[,arg2[,argN]]])
 ## Example  
  The following code shows how to use the `bind` method.  
   
-```javascript  
+```JavaScript  
 // Define the original function.  
 var checkNumericRange = function (value) {  
     if (typeof value !== 'number')  
@@ -77,7 +78,7 @@ document.write(result);
 ## Example  
  In the following example, the `thisArg` object is different from the object that contains the original method.  
   
-```javascript  
+```JavaScript  
 // Create an object that contains the original function.  
 var originalObject = {  
     minimum: 50,  
@@ -110,7 +111,7 @@ document.write(result);
 ## Example  
  The following code shows how to use the `arg1[,arg2[,argN]]]` arguments. The bound function uses the parameters specified in the `bind` method as the first and second parameters. Any parameters specified when the bound function is called are used as the third, fourth (and so on) parameters.  
   
-```javascript  
+```JavaScript  
 // Define the original function with four parameters.  
 var displayArgs = function (val1, val2, val3, val4) {  
     document.write(val1 + " " + val2 + " " + val3 + " " + val4);  

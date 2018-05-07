@@ -2,48 +2,33 @@
 title: "IDebugProgram2::EnumCodeContexts | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgram2::EnumCodeContexts"
 helpviewer_keywords: 
   - "IDebugProgram2::EnumCodeContexts"
 ms.assetid: 478e06a2-07bb-4841-8887-deab0f42ebd0
-caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProgram2::EnumCodeContexts
 Retrieves a list of the code contexts for a given position in a source file.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT EnumCodeContexts(   
    IDebugDocumentPosition2*  pDocPos,  
    IEnumDebugCodeContexts2** ppEnum  
 );  
 ```  
   
-```c#  
+```csharp  
 int EnumCodeContexts(   
    IDebugDocumentPosition2     pDocPos,  
    out IEnumDebugCodeContexts2 ppEnum  

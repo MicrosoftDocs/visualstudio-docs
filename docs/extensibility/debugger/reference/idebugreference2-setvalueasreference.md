@@ -2,41 +2,26 @@
 title: "IDebugReference2::SetValueAsReference | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugReference2::SetValueAsReference"
 helpviewer_keywords: 
   - "IDebugReference2::SetValueAsReference"
 ms.assetid: 94a545d2-16b9-45e9-b2e7-4e49ff90aad0
-caps.latest.revision: 10
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugReference2::SetValueAsReference
 Sets the value of a reference from another reference. Reserved for future use.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT SetValueAsReference (   
    IDebugReference2** rgpArgs,  
    DWORD              dwArgCount,  
@@ -45,7 +30,7 @@ HRESULT SetValueAsReference ( 
 );  
 ```  
   
-```cpp#  
+```cpp  
 int SetValueAsReference (   
    IDebugReference2[] rgpArgs,  
    uint               dwArgCount,  

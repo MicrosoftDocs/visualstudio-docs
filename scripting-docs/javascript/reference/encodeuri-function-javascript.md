@@ -13,6 +13,7 @@ f1_keywords:
   - "encodeURI"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "encodeURI method"
@@ -43,7 +44,7 @@ URIString
 ## Example  
  The following code first encodes and then decodes a URI.  
   
-```javascript  
+```JavaScript  
 var uriEncode = encodeURI ("http://www.Not a URL.com");  
 var uriDecode = decodeURIComponent(uriEncode);  
   

@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: ab2894fe-4cdc-40c8-9503-951e42ca61e7
 caps.latest.revision: 5
@@ -43,7 +44,7 @@ dataView.setUint32 (byteOffset, value, littleEndian);
 ## Example  
  The following example shows how to set the first Uint32 in the DataView.  
   
-```javascript  
+```JavaScript  
 var req = new XMLHttpRequest();  
     req.open('GET', "http://www.example.com");  
     req.responseType = "arraybuffer";  

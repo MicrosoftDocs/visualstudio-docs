@@ -2,12 +2,8 @@
 title: "GenerateBootstrapper Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: "reference"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#GenerateBootstrapper"
 dev_langs: 
@@ -19,24 +15,11 @@ helpviewer_keywords:
   - "MSBuild, GenerateBootstrapper task"
   - "GenerateBootstrapper task [MSBuild]"
 ms.assetid: ca3ba2c6-d2ea-41f2-b7e3-0fc2b0730460
-caps.latest.revision: 13
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
+ms.workload: 
+  - "multiple"
 ---
 # GenerateBootstrapper Task
 Provides an automated way to detect, download, and install an application and its prerequisites. It serves as a single installer that integrates the separate installers for all the components making up an application.  
@@ -66,7 +49,7 @@ Provides an automated way to detect, download, and install an application and it
   
      Optional `String` parameter.  
   
-     Specifies the Web location that is hosting the application’s installer.  
+     Specifies the Web location that is hosting the application's installer.  
   
 -   `BootstrapperComponentFiles`  
   

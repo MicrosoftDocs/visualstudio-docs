@@ -2,48 +2,33 @@
 title: "IDebugBinder::ResolveRuntimeType | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugBinder::ResolveRuntimeType"
 helpviewer_keywords: 
   - "IDebugBinder::ResolveRuntimeType method"
 ms.assetid: 6456ab3e-1c03-4f3c-91f9-16797ab7f5e7
-caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugBinder::ResolveRuntimeType
 This method determines the run-time type of an object.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT ResolveRuntimeType(   
    IDebugObject* pObject,  
    IDebugField** ppResolved  
 );  
 ```  
   
-```c#  
+```csharp  
 int ResolveRuntimeType(  
    IDebugObject     pObject,   
    out IDebugField  ppResolved  

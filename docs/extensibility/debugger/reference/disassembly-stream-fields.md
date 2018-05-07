@@ -2,41 +2,26 @@
 title: "DISASSEMBLY_STREAM_FIELDS | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "DISASSEMBLY_STREAM_FIELDS"
 helpviewer_keywords: 
   - "DISASSEMBLY_STREAM_FIELDS enumeration"
 ms.assetid: cfc9b4de-c756-4844-bea7-d9f186a51d1b
-caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # DISASSEMBLY_STREAM_FIELDS
 Specifies what information to retrieve about a disassembly field.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 enum enum_DISASSEMBLY_STREAM_FIELDS {   
    DSF_ADDRESS          = 0x00000001,  
    DSF_ADDRESSOFFSET    = 0x00000002,  
@@ -55,7 +40,7 @@ enum enum_DISASSEMBLY_STREAM_FIELDS { 
 typedef DWORD DISASSEMBLY_STREAM_FIELDS;  
 ```  
   
-```c#  
+```csharp  
 public enum enum_DISASSEMBLY_STREAM_FIELDS {   
    DSF_ADDRESS          = 0x00000001,  
    DSF_ADDRESSOFFSET    = 0x00000002,  

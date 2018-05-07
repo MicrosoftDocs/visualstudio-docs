@@ -2,35 +2,20 @@
 title: "RDT_ReadLock Usage | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
+ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords:
+ms.topic: "conceptual"
+helpviewer_keywords: 
   - "RDT_ReadLock"
   - "visible"
   - "RDT_EditLock"
   - "invisible"
 ms.assetid: b935fc82-9d6b-4a8d-9b70-e9a5c5ad4a55
-caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt:
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # RDT_ReadLock Usage
 
@@ -48,7 +33,7 @@ When a user opens a document in the UI, an <xref:Microsoft.VisualStudio.Shell.In
 
 ## RDT_EditLock and Document Modification
 
-The previous flag mentioned indicates that the invisible opening of the document will yield its `RDT_EditLock` when the document is opened by the user into a visible **DocumentWindow**. When this occurs, the user is presented with a **Save** prompt when the visible **DocumentWindow** is closed. <xref:Microsoft.VisualStudio.Package.Automation.OAProject.CodeModel> implementations that use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsInvisibleEditorManager> service initially work when only an `RDT_ReadLock` is taken (i.e., when the document is opened invisibly to parse information). Later, if the document must be modified, then the lock is upgraded to a weak **RDT_EditLock**. If the user then opens the document in a visible **DocumentWindow**, the `CodeModel`'s weak `RDT_EditLock` is released.
+The previous flag mentioned indicates that the invisible opening of the document will yield its `RDT_EditLock` when the document is opened by the user into a visible **DocumentWindow**. When this occurs, the user is presented with a **Save** prompt when the visible **DocumentWindow** is closed. `Microsoft.VisualStudio.Package.Automation.OAProject.CodeModel` implementations that use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsInvisibleEditorManager> service initially work when only an `RDT_ReadLock` is taken (i.e., when the document is opened invisibly to parse information). Later, if the document must be modified, then the lock is upgraded to a weak **RDT_EditLock**. If the user then opens the document in a visible **DocumentWindow**, the `CodeModel`'s weak `RDT_EditLock` is released.
 
 If the user then closes the **DocumentWindow** and chooses **No** when prompted to save the open document, then the `CodeModel` implementation disposes of all information in the document and reopens the document from disk invisibly the next time more information is required for the document. The subtlety of this behavior is an instance where the user opens the **DocumentWindow** of the invisible open document, modifies it, closes it, and then chooses **No** when prompted to save the document. In this case, if the document has an `RDT_ReadLock`, then the document will not actually be closed and the modified document will stay open invisibly in memory, even though the user chose not to save the document.
 

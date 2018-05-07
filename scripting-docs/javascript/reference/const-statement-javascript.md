@@ -13,6 +13,7 @@ f1_keywords:
   - "const_JavaScriptKeyword"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "declaring variables, const statement"
@@ -47,7 +48,7 @@ const constant1 = value1
 ## Example  
  The following example illustrates the use of the `const` statement.  
   
-```javascript  
+```JavaScript  
 var c = 10;  
 {  
     const c = 2;  

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" Id="75d93080-cf93-4c7c-a905-f4d3d9aead02" solutionId="75d93080-cf93-4c7c-a905-f4d3d9aead02" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" name="SP_BDC_Entity_Data_Class">
+    <features>
+        <featureReference projectId="03bd3f4d-a0e6-47ea-b0f1-d0c6cfbe3d51" itemId="6dc01e97-704a-49a6-adbd-ba342b408dc1" />
+    </features>
+</package>

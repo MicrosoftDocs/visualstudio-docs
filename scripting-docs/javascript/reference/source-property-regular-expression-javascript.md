@@ -13,6 +13,7 @@ f1_keywords:
   - "source"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "Source property"
@@ -35,7 +36,7 @@ rgExp.source
 ## Example  
  The following example illustrates the use of the **source** property:  
   
-```javascript  
+```JavaScript  
 function SourceDemo(re, s){  
    var s1;  
    // Test string for existence of regular expression.  

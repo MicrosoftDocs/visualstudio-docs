@@ -13,6 +13,7 @@ f1_keywords:
   - "charAt"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "String object, returning characters"
@@ -47,7 +48,7 @@ strObj. charAt(index)
 ## Example  
  The following example illustrates the use of the `charAt` method:  
   
-```javascript  
+```JavaScript  
 var str = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";  
 document.write(str.charAt(str.length - 1));  
   

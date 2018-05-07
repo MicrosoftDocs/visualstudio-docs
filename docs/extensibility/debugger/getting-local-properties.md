@@ -2,34 +2,19 @@
 title: "Getting Local Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "expression evaluation, getting local properties"
   - "debugging [Debugging SDK], local properties"
   - "expression evaluation, local properties"
 ms.assetid: 6c3a79e8-1ba1-4863-97c3-0216c3d9f092
-caps.latest.revision: 11
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # Getting Local Properties
 > [!IMPORTANT]
@@ -46,7 +31,7 @@ translation.priority.mt:
 ## Managed Code  
  This example shows an implementation of `IEnumDebugPropertyInfo2::EnumChildren` for a method's locals in managed code.  
   
-```c#  
+```csharp  
 namespace EEMC  
 {  
     public class CEnumMethodField : IEnumDebugFields  
@@ -109,7 +94,7 @@ namespace EEMC
 ## Unmanaged Code  
  This example shows an implementation of `IEnumDebugPropertyInfo2::EnumChildren` for a method's locals in unmanaged code.  
   
-```cpp#  
+```cpp  
 STDMETHODIMP CEnumPropertyInfo::Next(  
     in  ULONG                count,  
     out DEBUG_PROPERTY_INFO* pelements,   

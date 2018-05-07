@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 6f9bf139-a6f0-4d91-b7bf-bcc0515de686
 caps.latest.revision: 5
@@ -36,7 +37,7 @@ Debug.msTraceAsyncCallbackCompleted()
 ## Example  
  The following code provides an example of tracing an asynchronous call for a [!INCLUDE[win8_appname_long](../../javascript/includes/win8-appname-long-md.md)] app.  
   
-```javascript  
+```JavaScript  
 function asyncWrapperFunction() {  
     var opID = Debug.msTraceAsyncOperationStarting('async trace');  
     doSomethingAsync().then(function (result) {  

@@ -14,6 +14,7 @@ f1_keywords:
   - "if_JavaScriptKeyword"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "if statement, if...else"
@@ -62,7 +63,7 @@ if (condition1) {
   
  It is good practice to enclose `statement1` and `statement2` in braces ({}) for clarity and to avoid inadvertent errors.  
   
-```javascript  
+```JavaScript  
 var z = 3;  
 if (x == 5) {  
     z = 10;  

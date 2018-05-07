@@ -2,39 +2,21 @@
 title: "IDiaSymbol::get_hasSEH | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaSymbol::get_hasSEH method"
 ms.assetid: 1a709ded-22c8-464c-97be-eba5e464210c
-caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: douge
+ms.workload: 
+  - "multiple"
 ---
 # IDiaSymbol::get_hasSEH
-Retrieves a flag that specifies whether the function contains any [Structured Exception Handling (C/C++)](/visual-cpp/cpp/structured-exception-handling-c-cpp) (for example, __try/\__except blocks).  
+Retrieves a flag that specifies whether the function contains any [Structured Exception Handling (C/C++)](/cpp/cpp/structured-exception-handling-c-cpp) (for example, __try/\__except blocks).  
   
 ## Syntax  
   
@@ -63,4 +45,4 @@ HRESULT get_hasSEH(
   
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
- [Structured Exception Handling (C/C++)](/visual-cpp/cpp/structured-exception-handling-c-cpp)
+ [Structured Exception Handling (C/C++)](/cpp/cpp/structured-exception-handling-c-cpp)

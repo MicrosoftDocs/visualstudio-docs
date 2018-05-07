@@ -2,33 +2,18 @@
 title: "Visual Studio SDK Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Visual Studio SDK, reference"
   - "reference, Visual Studio SDK"
 ms.assetid: a6930db5-a112-4651-8de3-e520df851f82
-caps.latest.revision: 28
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # Visual Studio SDK Reference
 This section contains information about Visual Studio namespaces, related namespaces, and other areas of interest for developers who use the Visual Studio SDK.  
@@ -232,7 +217,7 @@ This section contains information about Visual Studio namespaces, related namesp
  <xref:Microsoft.VisualStudio.Threading>  
  Used for Visual Studio threading.  
   
- <xref:Microsoft.VisualStudio.Connected> Services?qualifyHint=False&autoUpgrade=True  
+ [Microsoft.VisualStudio.ConnectedServices Namespace](https://msdn.microsoft.com/library/microsoft.visualstudio.connectedservices.aspx)
  Used for Visual Studio connected services.  
   
  [IntelliSenseHostFlags](../extensibility/intellisensehostflags.md) enumeration  
@@ -262,52 +247,52 @@ This section contains information about Visual Studio namespaces, related namesp
  [Glossary](../extensibility/visual-studio-sdk-glossary.md)  
  Gives a list of helpful terms and their definitions for use when you are reading the Visual Studio SDK documentation.  
   
- <xref:Microsoft.VisualStudio.Build.BuildEngine>  
+ <xref:Microsoft.Build.BuildEngine>  
  Used for MSBuild.  
   
- <xref:Microsoft.VisualStudio.Build.Construction>  
+ <xref:Microsoft.Build.Construction>  
  Used for MSBuild.  
   
- <xref:Microsoft.VisualStudio.Build.Conversion>  
+ <xref:Microsoft.Build.Conversion>  
  Used for MSBuild.  
   
- <xref:Microsoft.VisualStudio.Build.Debugging>  
+ <xref:Microsoft.Build.Debugging>  
  Used for MSBuild.  
   
- <xref:Microsoft.VisualStudio.Build.Evaluation>  
+ <xref:Microsoft.Build.Evaluation>  
  Used for MSBuild.  
   
- <xref:Microsoft.VisualStudio.Build.Exceptions>  
+ <xref:Microsoft.Build.Exceptions>  
  Used for MSBuild.  
   
- <xref:Microsoft.VisualStudio.Build.Execution>  
+ <xref:Microsoft.Build.Execution>  
  Used for MSBuild.  
   
- <xref:Microsoft.VisualStudio.Build.Framework>  
+ <xref:Microsoft.Build.Framework>  
  Used for MSBuild.  
   
- <xref:Microsoft.VisualStudio.Build.Framework.XamlTypes>  
+ <xref:Microsoft.Build.Framework.XamlTypes>  
  Used for MSBuild.  
   
- <xref:Microsoft.VisualStudio.Build.Logging>  
+ <xref:Microsoft.Build.Logging>  
  Used for MSBuild.  
   
- <xref:Microsoft.VisualStudio.Build.Tasks>  
+ <xref:Microsoft.Build.Tasks>  
  Used for MSBuild.  
   
- <xref:Microsoft.VisualStudio.Build.Tasks.Deployment.Bootstrapper>  
+ <xref:Microsoft.Build.Tasks.Deployment.Bootstrapper>  
  Used for MSBuild.  
   
- <xref:Microsoft.VisualStudio.Build.Tasks.Deployment.ManifestUtilities>  
+ <xref:Microsoft.Build.Tasks.Deployment.ManifestUtilities>  
  Used for MSBuild.  
   
- <xref:Microsoft.VisualStudio.Build.Tasks.Hosting>  
+ <xref:Microsoft.Build.Tasks.Hosting>  
  Used for MSBuild.  
   
- <xref:Microsoft.VisualStudio.Build.Tasks.Xaml>  
+ <xref:Microsoft.Build.Tasks.Xaml>  
  Used for MSBuild.  
   
- <xref:Microsoft.VisualStudio.Build.Utilities>  
+ <xref:Microsoft.Build.Utilities>  
  Used for MSBuild.  
   
 ## Related Sections  

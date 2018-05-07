@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 48696299-e41e-4590-b1b5-26fe19f68139
 caps.latest.revision: 15
@@ -77,7 +78,7 @@ int32Array = new Int32Array( buffer, byteOffset, length);
 ## Example  
  The following example shows how to use an Int32Array object to process the binary data acquired from an XmlHttpRequest:  
   
-```javascript  
+```JavaScript  
 var req = new XMLHttpRequest();  
     req.open('GET', "http://www.example.com");  
     req.responseType = "arraybuffer";  

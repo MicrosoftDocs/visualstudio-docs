@@ -13,6 +13,7 @@ f1_keywords:
   - "isNaN"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "isNaN method"
@@ -48,7 +49,7 @@ isNaN(numValue)
   
 ## Example  
   
-```javascript  
+```JavaScript  
 // Returns false.  
 isNaN(100);  
   

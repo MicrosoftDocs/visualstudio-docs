@@ -13,6 +13,7 @@ f1_keywords:
   - "getUTCMonth"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "dates, UTC"
@@ -47,7 +48,7 @@ dateObj.getUTCMonth()
 ## Example  
  The following example shows how to use the `getUTCMonth` method.  
   
-```javascript  
+```JavaScript  
 var date = new Date("2/2/2002");  
 document.write(date.getUTCMonth());  
   

@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "toISOString method [JavaScript]"
@@ -25,7 +26,7 @@ Returns a date as a string value in ISO format.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
   
 objDate.toISOString()  
 ```  
@@ -44,7 +45,7 @@ objDate.toISOString()
 ## Example  
  The following example illustrates the use of the `toISOString` method.  
   
-```javascript  
+```JavaScript  
 var dt = new Date("30 July 2010 15:05 UTC");  
 document.write(dt.toISOString());  
 document.write("<br />");  

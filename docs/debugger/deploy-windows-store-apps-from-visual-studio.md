@@ -1,43 +1,23 @@
 ---
-title: "Deploy Windows Store apps from Visual Studio | Microsoft Docs"
+title: "Deploy UWP apps from Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "01/16/2018"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
-ms.assetid: ef3a0f36-bfc9-4ca0-aa61-18261f619bff
-caps.latest.revision: 14
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: douge
+ms.workload: 
+  - "uwp"
 ---
-# Deploy Windows Store apps from Visual Studio
-![Applies to Windows only](../debugger/media/windows_only_content.png "windows_only_content")  
+# Deploy UWP apps from Visual Studio
   
- The Visual Studio deployment functionality builds and registers Windows Store apps that are created with Visual Studio on a target device. Exactly how the app is registered depends on whether the target device is local or remote:  
+ The Visual Studio deployment functionality builds and registers UWP apps that are created with Visual Studio on a target device. Exactly how the app is registered depends on whether the target device is local or remote:  
   
 -   When the target is the local Visual Studio machine, Visual Studio registers the app from its build folder.  
   
@@ -49,18 +29,9 @@ translation.priority.mt:
   
 -   Deploying an app that will start another app that you want to debug.  
   
--   Deploying an app that will be debugged when it is started by another app or method.  
+-   Deploying an app that will be debugged when it is started by another app or method.
   
-##  <a name="BKMK_In_this_topic"></a> In this topic  
- In this topic, you can learn:  
-  
- [How to deploy a Windows Store app](#BKMK_How_to_deploy_a_Windows_Store_app)  
-  
- [How to specify a remote device](#BKMK_How_to_specify_a_remote_device)  
-  
- [Deployment options](#BKMK_Deployment_options)  
-  
-##  <a name="BKMK_How_to_deploy_a_Windows_Store_app"></a> How to deploy a Windows Store app  
+##  <a name="BKMK_How_to_deploy_a_Windows_Store_app"></a> How to deploy a UWP app  
  Manually deploying an app is a simple process:  
   
 1.  If you are deploying to a remote device, specify the name or IP address of the device in the property project page of the app's startup project. (The steps to do this are listed further down in this topic.).  
@@ -72,15 +43,15 @@ translation.priority.mt:
 3.  On the **Build** menu, choose **Deploy**  
   
 ##  <a name="BKMK_How_to_specify_a_remote_device"></a> How to specify a remote device  
- **Prerequisites**  
+
+**Prerequisites**  
   
- To deploy an app to a remote device:  
+On a Windows 10 remote device, you must enable [developer mode](/windows/uwp/get-started/enable-your-device-for-development). On Windows 10 devices running Creator's Update or later, the remote tools are automatically installed when you deploy your app. For more information, see [Debug an installed app package](../debugger/debug-installed-app-package.md).
+
+> [!NOTE]
+> On pre-Creator's Update versions of Windows 10, the Remote Tools for Visual Studio must be installed on the remote device, and the remote debugger must be running.
   
--   A developer's license must be installed on the remote device.  
-  
--   The Visual Studio Remote Tools must be installed on the remote device and the Remote Debugging Monitor must be running.  
-  
-     Deployment uses the remote debugger network channel to send the app files to the remote device.  
+Deployment uses the remote debugger network channel to send the app files to the remote device.  
   
 #### To specify a remote device  
   
@@ -88,13 +59,17 @@ translation.priority.mt:
   
 2.  To open the Debug property page, choose the project in Solution Explorer and then choose **Properties** from the shortcut menu.  
   
-3.  Then choose the **Debug** node on the property pages window.  
+3.  Then choose the **Debug** node on the property pages window.
+
+4. For **Target device**, select **Remote Machine**.
+
+5. Under **Remote machine**, click **Find**.
   
-4.  You can type the name or IP address of the remote device, or you can choose the device from the **Select Remote Debugger Connection** dialog box.  
+4.  You can type the name or IP address of the remote device, or you can choose the device from the **Remote Connection** dialog box.  
   
      ![Select Remote Debugger Connection dialog box](../debugger/media/vsrun_selectremotedebuggerdlg.png "VSRUN_SelectRemoteDebuggerDlg")  
   
-     The **Select Remote Debugger Connection** dialog box displays the devices on the local network subnet and any device that is directly connected to the Visual Studio machine by an Ethernet cable.  
+     The **Remote Connection** dialog box displays the devices on the local network subnet and any device that is directly connected to the Visual Studio machine by an Ethernet cable.  
   
  **Specifying the remote device in a JavaScript or Visual C++ project page**  
   
@@ -116,7 +91,7 @@ translation.priority.mt:
  You can set the following deployment options on the Debug property page of the startup project.  
   
  **Allow Network Loopback**  
- For security reasons, a [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] app that is installed in the standard manner is not allowed to make network calls to the device it is installed on. By default, Visual Studio deployment creates an exemption from this rule for the deployed app. This exemption allows you to test communication procedures on a single machine. Before you submit your app to the [!INCLUDE[win8_appstore_long](../debugger/includes/win8_appstore_long_md.md)], you should test your app without the exemption.  
+ For security reasons, a UWP or [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] app that is installed in the standard manner is not allowed to make network calls to the device it is installed on. By default, Visual Studio deployment creates an exemption from this rule for the deployed app. This exemption allows you to test communication procedures on a single machine. Before you submit your app to the [!INCLUDE[win8_appstore_long](../debugger/includes/win8_appstore_long_md.md)], you should test your app without the exemption.  
   
  To remove the network loopback exemption from the app:  
   
@@ -132,4 +107,6 @@ translation.priority.mt:
 -   On the JavaScript and Debug property page, set the **Launch Application** value to **Yes**.  
   
 ## See Also  
+ [Advanced remote deployment options](/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps#advanced-remote-deployment-options)  
+ [Debug an installed app package](../debugger/debug-installed-app-package.md)   
  [Run apps from Visual Studio](../debugger/run-store-apps-from-visual-studio.md)

@@ -13,6 +13,7 @@ f1_keywords:
   - "throw_JavaScriptKeyword"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "error handling, throw statement"
@@ -37,7 +38,7 @@ throw exception
   
  The following example throws an error inside a `try` block, and it is caught in the `catch` block.  
   
-```javascript  
+```JavaScript  
 try {  
         throw new Error(200, "x equals zero");  
 }  

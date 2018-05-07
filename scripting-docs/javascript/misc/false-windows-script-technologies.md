@@ -13,6 +13,7 @@ f1_keywords:
   - "false_JavaScriptKeyword"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "Boolean values, False keyword"

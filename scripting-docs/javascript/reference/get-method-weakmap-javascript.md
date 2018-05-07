@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: d922c55d-486d-4feb-aedc-1f4867c417d2
 caps.latest.revision: 4
@@ -23,7 +24,7 @@ Returns a specified element from a `WeakMap` object.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 weakmapObj.get(key)  
 ```  
   
@@ -40,7 +41,7 @@ weakmapObj.get(key)
 ## Example  
  The following example shows how to retrieve members from a `WeakMap` object.  
   
-```javascript  
+```JavaScript  
 var dog = {  
     breed: "yorkie"  
 }  

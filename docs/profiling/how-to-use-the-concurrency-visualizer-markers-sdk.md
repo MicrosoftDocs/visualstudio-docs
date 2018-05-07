@@ -2,32 +2,14 @@
 title: "How To: Use the Concurrency Visualizer Markers SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 ms.assetid: 19a45032-f8a7-4137-890e-2ceeec938b8d
-caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: douge
+ms.workload: 
+  - "multiple"
 ---
 # How To: Use the Concurrency Visualizer Markers SDK
 This topic shows how to use the Concurrency Visualizer SDK to create spans and write flags, messages, and alerts.  
@@ -103,11 +85,11 @@ This topic shows how to use the Concurrency Visualizer SDK to create spans and w
   
     ```  
   
-    ```CSharp  
+    ```csharp  
     using Microsoft.ConcurrencyVisualizer.Instrumentation;  
     ```  
   
-3.  Add code to create three spans on the default marker series and write a flag, a message, and an alert, one to each span. You create a <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.Span> object by calling the static [EnterSpan](assetId:///EnterSpan?qualifyHint=False&autoUpgrade=True) method. To write to the default series, you use the static write methods of the <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.Markers> class.  
+3.  Add code to create three spans on the default marker series and write a flag, a message, and an alert, one to each span. You create a <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.Span> object by calling the static `EnterSpan` method. To write to the default series, you use the static write methods of the <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.Markers> class.  
   
     ```VB  
   
@@ -129,7 +111,7 @@ This topic shows how to use the Concurrency Visualizer SDK to create spans and w
   
     ```  
   
-    ```CSharp  
+    ```csharp  
   
     Span flagSpan = Markers.EnterSpan("flag span");  
     Markers.WriteFlag("Here is the flag.");  
@@ -170,7 +152,7 @@ This topic shows how to use the Concurrency Visualizer SDK to create spans and w
     messageSeriesSpan.Leave()  
     ```  
   
-    ```CSharp  
+    ```csharp  
   
     MarkerSeries flagSeries = Markers.DefaultWriter.CreateMarkerSeries("flag series");  
     Span flagSeriesSpan = flagSeries.EnterSpan("flag span");  

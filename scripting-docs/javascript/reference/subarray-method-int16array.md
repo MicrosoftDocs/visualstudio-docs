@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 8a7437c2-8c4e-41eb-a3d5-ec4f7399b81d
 caps.latest.revision: 10
@@ -23,7 +24,7 @@ Gets a new Int16Array view of the [ArrayBuffer Object](../../javascript/referenc
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 var newInt16Array = int16Array.subarray(begin, end);  
 ```  
   
@@ -43,7 +44,7 @@ var newInt16Array = int16Array.subarray(begin, end);
 ## Example  
  The following example shows how to get a subarray two elements long, starting with the first element of the array.  
   
-```javascript  
+```JavaScript  
 var req = new XMLHttpRequest();  
     req.open('GET', "http://www.example.com");  
     req.responseType = "arraybuffer";  

@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: b87f36b4-4e38-4f32-b258-654c4ad2c615
 caps.latest.revision: 15
@@ -77,7 +78,7 @@ int16Array = new Int16Array( buffer, byteOffset, length);
 ## Example  
  The following example shows how to use an Int16Array object to process the binary data acquired from an XmlHttpRequest:  
   
-```javascript  
+```JavaScript  
 var req = new XMLHttpRequest();  
     req.open('GET', "http://www.example.com");  
     req.responseType = "arraybuffer";  

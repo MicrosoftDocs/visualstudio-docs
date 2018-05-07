@@ -2,47 +2,32 @@
 title: "IDebugProgram2::Terminate | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgram2::Terminate"
 helpviewer_keywords: 
   - "IDebugProgram2::Terminate"
 ms.assetid: 4d3127d3-b1e9-4b28-ac22-2f2eea255f86
-caps.latest.revision: 8
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProgram2::Terminate
 Terminates the program.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT Terminate(   
    void   
 );  
 ```  
   
-```c#  
+```csharp  
 int Terminate();  
 ```  
   

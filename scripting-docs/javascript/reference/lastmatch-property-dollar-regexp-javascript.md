@@ -13,6 +13,7 @@ f1_keywords:
   - "$&"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "lastMatch property ($%)"
@@ -41,7 +42,7 @@ RegExp.lastMatch
 ## Example  
  The following example illustrates the use of the `lastMatch` property:  
   
-```javascript  
+```JavaScript  
 // Create the regular expression pattern.  
 var re = new RegExp("d(b+)(d)","ig");  
 var str = "cdbBdbsbdbdz";  

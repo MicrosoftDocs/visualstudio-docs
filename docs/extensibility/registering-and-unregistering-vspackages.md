@@ -2,33 +2,18 @@
 title: "Registering and Unregistering VSPackages | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "registration, VSPackages"
   - "VSPackages, registering"
 ms.assetid: e25e7a46-6a55-4726-8def-ca316f553d6b
-caps.latest.revision: 35
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # Registering and Unregistering VSPackages
 You use attributes to register a VSPackage, but  
@@ -38,7 +23,7 @@ You use attributes to register a VSPackage, but
   
  The following code shows how to use the standard registration attributes to register your VSPackage.  
   
-```c#  
+```csharp  
 [PackageRegistration(UseManagedResourcesOnly = true)]  
 [Guid("0B81D86C-0A85-4f30-9B26-DD2616447F95")]  
 public sealed class BasicPackage : Package  
@@ -57,8 +42,79 @@ public sealed class BasicPackage : Package
  If for some reason neither of these methods succeeds at uninstalling the extension, you can unregister the VSPackage assembly from the command line as follows:  
   
 ```  
-<location of Visual Studio 2015 install>\"Microsoft Visual Studio 14.0\VSSDK\VisualStudioIntegration\Tools\Bin\regpkg” /unregister <pathToVSPackage assembly>  
+<location of Visual Studio 2015 install>\"Microsoft Visual Studio 14.0\VSSDK\VisualStudioIntegration\Tools\Bin\regpkg" /unregister <pathToVSPackage assembly>  
 ```  
+  
+<a name="using-a-custom-registration-attribute-to-register-an-extension"></a>  
+  
+## Use a custom registration attribute to register an extension  
+  
+In certain cases you may need to create a new registration attribute for your extension. You can use registration attributes to add new registry keys or to add new values to existing keys. The new attribute must derive from <xref:Microsoft.VisualStudio.Shell.RegistrationAttribute>, and it must override the <xref:Microsoft.VisualStudio.Shell.RegistrationAttribute.Register%2A> and <xref:Microsoft.VisualStudio.Shell.RegistrationAttribute.Unregister%2A> methods.  
+  
+### Creating a Custom Attribute  
+  
+The following code shows how to create a new registration attribute.  
+  
+```csharp  
+[AttributeUsage(AttributeTargets.Class, Inherited = true, AllowMultiple = false)]  
+    public class CustomRegistrationAttribute : RegistrationAttribute  
+    {  
+    }  
+```  
+  
+ The <xref:System.AttributeUsageAttribute> is used on attribute classes to specify the program element (class, method, etc.) to which the attribute pertains, whether it can be used more than once, and whether it can be inherited.  
+  
+### Creating a Registry Key  
+  
+In the following code, the custom attribute creates a **Custom** subkey under the key for the VSPackage that is being registered.  
+  
+```csharp  
+public override void Register(RegistrationAttribute.RegistrationContext context)  
+{  
+    Key packageKey = null;  
+    try  
+    {   
+        packageKey = context.CreateKey(@"Packages\{" + context.ComponentType.GUID + @"}\Custom");  
+        packageKey.SetValue("NewCustom", 1);  
+    }  
+    finally  
+    {  
+        if (packageKey != null)  
+            packageKey.Close();  
+    }  
+}  
+  
+public override void Unregister(RegistrationContext context)  
+{  
+    context.RemoveKey(@"Packages\" + context.ComponentType.GUID + @"}\Custom");  
+}  
+```  
+  
+### Creating a New Value Under an Existing Registry Key  
+  
+You can add custom values to an existing key. The following code shows how to add a new value to a VSPackage registration key.  
+  
+```csharp  
+public override void Register(RegistrationAttribute.RegistrationContext context)  
+{  
+    Key packageKey = null;  
+    try  
+    {   
+        packageKey = context.CreateKey(@"Packages\{" + context.ComponentType.GUID + "}");  
+        packageKey.SetValue("NewCustom", 1);  
+    }  
+    finally  
+    {  
+        if (packageKey != null)  
+            packageKey.Close();  
+                }  
+}  
+  
+public override void Unregister(RegistrationContext context)  
+{  
+    context.RemoveValue(@"Packages\" + context.ComponentType.GUID, "NewCustom");  
+}  
+```
   
 ## See Also  
  [VSPackages](../extensibility/internals/vspackages.md)

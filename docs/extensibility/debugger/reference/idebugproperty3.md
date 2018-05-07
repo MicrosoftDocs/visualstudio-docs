@@ -2,34 +2,19 @@
 title: "IDebugProperty3 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProperty3"
 helpviewer_keywords: 
   - "IDebugProperty3 interface"
 ms.assetid: 8f9be68d-4490-4eca-8f6b-8a10ed77e226
-caps.latest.revision: 12
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProperty3
 This interface provides support for:  
@@ -52,7 +37,7 @@ IDebugProperty3 : IDebugProperty2
  The debug engine (DE) implements this interface on the same object that implements [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) to provide support for long strings, property IDs, and custom viewers.  
   
 ## Notes for Callers  
- Call [QueryInterface](/visual-cpp/atl/queryinterface) on an `IDebugProperty2` interface to obtain this interface.  
+ Call [QueryInterface](/cpp/atl/queryinterface) on an `IDebugProperty2` interface to obtain this interface.  
   
 ## Methods in Vtable Order  
  In addition to the methods inherited from `IDebugProperty2`, the `IDebugProperty3` interface exposes the following methods.  

@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: c1bbb523-fb55-4395-b357-34d91cf5bba0
 caps.latest.revision: 2
@@ -23,7 +24,7 @@ Returns a reference to the prototype for a collator.
   
 ## Syntax  
   
-```javascript  
+```JavaScript  
 collator.prototype  
 ```  
   

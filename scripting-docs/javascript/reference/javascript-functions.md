@@ -13,6 +13,7 @@ f1_keywords:
   - "function_JavaScriptKeyword"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "JavaScript, functions"

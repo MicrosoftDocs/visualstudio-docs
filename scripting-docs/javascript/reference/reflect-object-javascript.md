@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 1df74f34-2eb4-42f1-a930-b943c86daa0e
 caps.latest.revision: 3
@@ -44,7 +45,7 @@ Reflect.[method]
 |`Reflect.construct(target, args)`|A function equivalent for the `new` operator.|  
 |`Reflect.defineProperty(target, propertyName, descriptor)`|Similar to [Object.defineProperty](../../javascript/reference/object-defineproperty-function-javascript.md). Returns a boolean value indicating whether the call succeeded.|  
 |`Reflect.deleteProperty(target, propertyName)`|Similar to the `delete` statement. Returns a boolean value indicating whether the call succeeded.|  
-|`Reflect.enumerate(target)`|Similar to [for…in](../../javascript/reference/for-dot-dot-dot-in-statement-javascript.md) statement, [Object.getOwnPropertySymbols](../../javascript/reference/object-getownpropertysymbols-function-javascript.md), [Object.keys](../../javascript/reference/object-keys-function-javascript.md) function, and [JSON.stringify](../../javascript/reference/json-stringify-function-javascript.md).|  
+|`Reflect.enumerate(target)`|Similar to [for...in](../../javascript/reference/for-dot-dot-dot-in-statement-javascript.md) statement, [Object.getOwnPropertySymbols](../../javascript/reference/object-getownpropertysymbols-function-javascript.md), [Object.keys](../../javascript/reference/object-keys-function-javascript.md) function, and [JSON.stringify](../../javascript/reference/json-stringify-function-javascript.md).|  
 |`Reflect.get(target, propertyName, receiver)`|A function equivalent for any [getter](../../javascript/creating-objects-javascript.md) properties.|  
 |`Reflect.getOwnPropertyDescriptor(target, propertyName)`|Similar to [Object.getOwnPropertyDescriptor](../../javascript/reference/object-getownpropertydescriptor-function-javascript.md). Returns a Boolean value indicating whether the call succeeded.|  
 |`Reflect.getPrototypeOf(target)`|Similar to [Object.getPrototypeOf](../../javascript/reference/object-getprototypeof-function-javascript.md).|  
@@ -58,7 +59,7 @@ Reflect.[method]
 ## Example  
  The following code example shows how use `Reflect.get` to write a proxy that blocks get operations for properties that begin with an underscore.  
   
-```javascript  
+```JavaScript  
 var p = new Proxy({}, {  
     get(k, t, r) {  
         // return undefined if key begins with underscore  

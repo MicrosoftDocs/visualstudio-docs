@@ -13,6 +13,7 @@ f1_keywords:
   - "String_JavaScript"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "String object"
@@ -48,7 +49,7 @@ newString = new String(["stringLiteral"])
   
  The following example shows that the data type of a string literal is not the same as that of a `String` object.  
   
-```javascript  
+```JavaScript  
 var strLit = "This is a string literal.";  
 var strObj = new String("This is a string object.");  
   
@@ -65,7 +66,7 @@ document.write(typeof strObj);
   
  The following example applies the `toUpperCase` method to a string literal.  
   
-```javascript  
+```JavaScript  
 var strLit = "This is a string literal.";  
   
 var result1 = strLit.toUpperCase();  
@@ -83,7 +84,7 @@ document.write(result2);
 ## Accessing an Individual Character  
  You can access an individual character of a string as a read-only array-indexed property. This feature was introduced in [!INCLUDE[jsv9text](../../javascript/includes/jsv9text-md.md)]. The following example accesses individual string characters.  
   
-```javascript  
+```JavaScript  
 var str = "abcd";  
 var result = str[2];  
 document.write (result);  

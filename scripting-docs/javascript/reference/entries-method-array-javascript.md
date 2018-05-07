@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 9bc46afb-74d2-4f99-8c95-f46475acf21d
 caps.latest.revision: 4
@@ -36,7 +37,7 @@ arrayObj.entries();
 ## Example  
  The following example shows how to get the key/value pairs of an array.  
   
-```javascript  
+```JavaScript  
 var entries = ["a", "b", "c"].entries();  
 // entries.next().value == [0, "a"]  
 // entries.next().value == [1, "b"]  

@@ -2,18 +2,14 @@
 title: "COM and ActiveX Debugging | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.com"
 dev_langs: 
-  - "FSharp"
-  - "VB"
   - "CSharp"
+  - "VB"
+  - "FSharp"
   - "C++"
 helpviewer_keywords: 
   - "COM, debugging"
@@ -22,24 +18,11 @@ helpviewer_keywords:
   - "debugging COM containers"
   - "ActiveX controls, debugging"
 ms.assetid: 3260b2a7-3239-493d-9271-aedf705c13c7
-caps.latest.revision: 20
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "multiple"
 ---
 # COM and ActiveX Debugging
 This section provides tips on debugging COM applications and ActiveX controls.  
@@ -55,11 +38,11 @@ This section provides tips on debugging COM applications and ActiveX controls.
  Lists viewers and sample applications that may be useful in debugging your COM application.  
   
 ## Related Sections  
- [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)  
+ [Debugger Feature Tour](../debugger/debugger-feature-tour.md)  
  Provides links to the larger sections of the debugging documentation. Information includes: what's new in the debugger, settings and preparation, breakpoints, handling exceptions, edit and continue, debugging managed code, debugging Visual C++ projects, debugging COM and ActiveX, debugging DLLs, debugging SQL, and the user interface references.  
   
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   
- [Introduction to COM](/visual-cpp/atl/introduction-to-com)   
- [ActiveX Controls](/visual-cpp/mfc/activex-controls)   
+ [Introduction to COM](/cpp/atl/introduction-to-com)   
+ [ActiveX Controls](/cpp/mfc/activex-controls)   
  [SDI Server Applications](../debugger/sdi-server-applications.md)

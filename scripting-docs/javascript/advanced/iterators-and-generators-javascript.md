@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 68ef5b2f-0349-492b-b557-73ff2a2f90cf
 caps.latest.revision: 14
@@ -42,7 +43,7 @@ An iterator is an object that is used to traverse a container object like a list
   
  An iterable object must provide the Symbol.iterator method, which returns an iterator.  
   
-```javascript  
+```JavaScript  
 obj[Symbol.iterator] = function() { return iterObj; }  
 ```  
   
@@ -53,7 +54,7 @@ obj[Symbol.iterator] = function() { return iterObj; }
 ### Iterator interface  
  The object returned by the Symbol.iterator method must implement the `next` method. The `next` method has the following syntax.  
   
-```javascript  
+```JavaScript  
 iterObj.next() = function() { return iterResultObj; };  
 ```  
   
@@ -64,7 +65,7 @@ iterObj.next() = function() { return iterResultObj; };
 ### IteratorResult interface  
  The IteratorResult interface is the required interface for the result of the `next` method on an iterator. The object returned by `next` must provide a `done` and `value` property.  
   
-```javascript  
+```JavaScript  
 var iterResultObj = { done: true|false, value: value }  
 ```  
   
@@ -80,7 +81,7 @@ var iterResultObj = { done: true|false, value: value }
   
  The following example shows a generator that returns an iterator for a string object.  
   
-```javascript  
+```JavaScript  
 function* stringIter() {  
     var str = "bobsyouruncle";  
     var idx = 0;  
@@ -109,7 +110,7 @@ console.log(si.next().value);
   
  If you append the following code to the preceding example, `yield*` delegates to the `stringIter` generator.  
   
-```javascript  
+```JavaScript  
 function* strIter() {  
     yield "jo";  
     yield* stringIter();  
@@ -135,19 +136,20 @@ console.log(si2.next().value);
 function* strIter() {  
     var str = "jobob";  
     var idx = 0;  
-    while(idx , str.length) {  
+    while(idx < str.length) {  
         var modify = yield str[idx++];  
         if(modify == 100) {  
             idx = 0;  
         }  
-    }  
+    }
+}
   
 var si3 = strIter();  
   
-console.log(si2.next().value);  
-console.log(si2.next().value);  
-console.log(si2.next().value);  
-console.log(si2.next(100).value);  
+console.log(si3.next().value);  
+console.log(si3.next().value);  
+console.log(si3.next().value);  
+console.log(si3.next(100).value);  
   
 // Output:  
 // j  

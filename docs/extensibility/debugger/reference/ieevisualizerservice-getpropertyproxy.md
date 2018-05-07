@@ -2,34 +2,19 @@
 title: "IEEVisualizerService::GetPropertyProxy | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IEEVisualizerService::GetPropertyProxy"
 helpviewer_keywords: 
   - "IEEVisualizerService::GetPropertyProxy method"
 ms.assetid: 748750f4-76e7-4580-9da2-afba07681b37
-caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # IEEVisualizerService::GetPropertyProxy
 This method returns a proxy for a property object.  
@@ -43,7 +28,7 @@ HRESULT GetPropertyProxy(
 );  
 ```  
   
-```c#  
+```csharp  
 int GetPropertyProxy(  
    uint                     dwID,  
    out IPropertyProxyEESide proxy  

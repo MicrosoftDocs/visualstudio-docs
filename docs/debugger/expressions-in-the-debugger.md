@@ -1,13 +1,9 @@
 ---
-title: "Expressions in the Debugger | Microsoft Docs"
+title: "Expressions in the debugger | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/07/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "hero-article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.expressions"
 helpviewer_keywords: 
@@ -20,28 +16,14 @@ helpviewer_keywords:
   - "debugging [Visual Studio], expression evaluation"
   - "debugging [Visual Studio], variable evaluation"
 ms.assetid: 70f9b531-44c7-4d77-980d-5eddbf2bff41
-caps.latest.revision: 25
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
-translation.priority.ht: 
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "ru-ru"
-  - "zh-cn"
-  - "zh-tw"
-translation.priority.mt: 
-  - "cs-cz"
-  - "pl-pl"
-  - "pt-br"
-  - "tr-tr"
+manager: douge
+ms.workload: 
+  - "multiple"
 ---
-# Expressions in the Debugger
-The Visual Studio debugger includes expression evaluators that work when you enter an expression in the **QuickWatch** dialog box, **Watch** window, or **Immediate** window. The expression evaluators are also at work in the **Breakpoints** window and many other places in the debugger.  
+# Expressions in the Visual Studio debugger
+The Visual Studio debugger includes expression evaluators that work when you enter an expression in the **QuickWatch** dialog box, **Watch** window, or **Immediate** window. The expression evaluators are also at work in the **Breakpoints** window and many other places in the debugger.
   
  The following sections give details about  expressions in different languages.  
   
@@ -109,7 +91,7 @@ int main()
   
 -   Work in scenarios where the regular function calls are not possible, such as debugging a minidump.  
   
- Debugger intrinsic functions can also make evaluating expressions more convenient. For example, `strncmp(str, “asd”)` is much easier to write in a breakpoint condition than `str[0] == ‘a’ && str[1] == ‘s’ && str[2] == ‘d’`. )  
+ Debugger intrinsic functions can also make evaluating expressions more convenient. For example, `strncmp(str, "asd")` is much easier to write in a breakpoint condition than `str[0] == 'a' && str[1] == 's' && str[2] == 'd'`. )  
   
 |Area|Intrinsic functions|  
 |----------|-------------------------|  

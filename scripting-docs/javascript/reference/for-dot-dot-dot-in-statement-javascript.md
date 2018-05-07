@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "iteration statements, for...in statement"
@@ -52,7 +53,7 @@ for (variable in [object | array]) {
 ## Example  
  The following example illustrates the use of the `for...in` statement with an object used as an associative array.  
   
-```javascript  
+```JavaScript  
 // Initialize object.  
 a = {"a" : "Athens" , "b" : "Belgrade", "c" : "Cairo"}  
   
@@ -73,7 +74,7 @@ document.write (s);
 ## Example  
  This example illustrates the use of the `for ... in` statement to iterate though an `Array` object that has expando properties.  
   
-```javascript  
+```JavaScript  
 // Initialize the array.  
 var arr = new Array("zero","one","two");  
   

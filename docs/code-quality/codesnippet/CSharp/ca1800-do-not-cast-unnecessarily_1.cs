@@ -24,17 +24,33 @@ namespace PerformanceLibrary
          }
       }
 
-      // This method satisfies the rule.
-      public static void BetterPerforming(ArrayList list)
+      // This method satisfies the rule by checking
+      // the result of the as operation.
+      public static void BetterPerforming1(ArrayList list)
       {
-         foreach(object obj in list) 
-         {
-            Control aControl = obj as Control;
-            if(aControl != null) 
-            {
-               // Use aControl.
-            }
-         }
+          foreach (object obj in list)
+          {
+              Control aControl = obj as Control;
+              if (aControl != null)
+              {
+                  // Use aControl.
+                  Console.WriteLine(aControl.Name);
+              }
+          }
+      }
+
+      // This method also satisfies the rule by using
+      // the is operator with a type pattern (C# 7.0).
+      public static void BetterPerforming2(ArrayList list)
+      {
+          foreach (object obj in list)
+          {
+              if (obj is Control aControl)
+              {
+                  // Use aControl.
+                  Console.WriteLine(aControl.Name);
+              }
+          }
       }
    }
 }

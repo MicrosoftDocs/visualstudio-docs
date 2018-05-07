@@ -13,6 +13,7 @@ f1_keywords:
   - "VS.WebClient.Help.SCRIPT1035"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: b03b7747-01a1-40c6-af80-a1dd70bc5781
 caps.latest.revision: 8
@@ -23,7 +24,7 @@ manager: "ghogen"
 # Throw must be followed by an expression on the same source line
 You used the `throw` keyword, but did not follow it with an expression on the same source line. A `throw` statement consists of two parts: the `throw` keyword, followed by the expression to be thrown. For example:  
   
-```javascript  
+```JavaScript  
 if (denominator == 0) {  
  throw new DivideByZeroException();  
 }  

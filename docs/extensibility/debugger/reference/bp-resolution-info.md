@@ -2,41 +2,26 @@
 title: "BP_RESOLUTION_INFO | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "BP_RESOLUTION_INFO"
 helpviewer_keywords: 
   - "BP_RESOLUTION_INFO structure"
 ms.assetid: ba0c162a-61e8-4a0b-811f-4c1d8a5d82f0
-caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # BP_RESOLUTION_INFO
 Describes the bound breakpoint information for either a code breakpoint or a data breakpoint.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 typedef struct _BP_RESOLUTION_INFO {   
    BPRESI_FIELDS          dwFields;  
    BP_RESOLUTION_LOCATION bpResLocation;  
@@ -45,7 +30,7 @@ typedef struct _BP_RESOLUTION_INFO { 
 } BP_RESOLUTION_INFO;  
 ```  
   
-```c#  
+```csharp  
 public struct BP_RESOLUTION_INFO {   
    public uint                   dwFields;  
    public BP_RESOLUTION_LOCATION bpResLocation;  

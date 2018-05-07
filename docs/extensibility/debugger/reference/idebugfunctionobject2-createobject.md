@@ -2,40 +2,25 @@
 title: "IDebugFunctionObject2::CreateObject | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugFunctionObject2::CreateObject"
   - "CreateObject"
 ms.assetid: 148de615-941e-4b64-ab11-75b692aae465
-caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugFunctionObject2::CreateObject
 Creates an object that uses a constructor given evaluation flag settings and a timeout value.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
 HRESULT CreateObject (  
    IDebugFunctionObject* pConstructor,  
    DWORD                 dwArgs,  
@@ -46,7 +31,7 @@ HRESULT CreateObject (
 );  
 ```  
   
-```c#  
+```csharp  
 int CreateObject (  
    IDebugFunctionObject pConstructor,  
    uint                 dwArgs,  

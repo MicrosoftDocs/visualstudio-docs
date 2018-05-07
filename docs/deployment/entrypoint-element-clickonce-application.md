@@ -2,12 +2,8 @@
 title: "&lt;entryPoint&gt; Element (ClickOnce Application) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-deployment
+ms.topic: "reference"
 f1_keywords: 
   - "urn:schemas-microsoft-com:asm.v2#commandLine"
   - "urn:schemas-microsoft-com:asm.v2#entryPoint"
@@ -19,24 +15,11 @@ helpviewer_keywords:
   - "<entryPoint> element [ClickOnce application manifest]"
   - "manifests [ClickOnce], entryPoint element"
 ms.assetid: 10ad3083-10c1-4189-a870-9bba2eab244f
-caps.latest.revision: 33
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
+ms.workload: 
+  - "multiple"
 ---
 # &lt;entryPoint&gt; Element (ClickOnce Application)
 Identifies the assembly that should be executed when this [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application is run on a client computer.  

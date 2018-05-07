@@ -13,6 +13,7 @@ f1_keywords:
   - "VS.WebClient.Help.SCRIPT5021"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 971e9d5a-f88a-47a8-af94-f3c7c4aed5ab
 caps.latest.revision: 8
@@ -23,7 +24,7 @@ manager: "ghogen"
 # Invalid range in character set (JavaScript)
 You attempted to create a regular expression with an invalid character set range. Character sets must range from single characters only, such as a-z or 0-9; you cannot include character classes such as \w in a character set. The first character in the range must also come before the second character in the range. For example:  
   
-```javascript  
+```JavaScript  
 var good = /[a-z]/;     // A valid character range - a comes before z.  
 var notGood = /[z-a]/;  // An invalid character range - z does not come before a.  
 ```  

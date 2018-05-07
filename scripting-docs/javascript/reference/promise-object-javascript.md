@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "language-reference"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 ms.assetid: 358ad98b-f7fa-448c-9ee0-ef1e2a45e9c6
 caps.latest.revision: 9
@@ -43,7 +44,7 @@ var promise = new Promise(function(resolve, reject) { ... });
 ## Example  
  The following example shows how to call a function (`timeout`) that returns a promise. The fulfillment handler of the `then` method runs after the 5000ms timeout period expires.  
   
-```javascript  
+```JavaScript  
 function timeout(duration) {  
     return new Promise(function(resolve, reject) {  
         setTimeout(resolve, duration);  
@@ -62,7 +63,7 @@ var m = timeout(5000).then(() => {
 ## Example  
  You can also chain calls to the `then` method as shown in the following code. Each completion handler must itself return a promise to support chaining. In this code, which calls the same `timeout` function, the first call to timeout returns after 1000 ms. The first completion handler calls `timeout` again, and this promise returns after 2000ms. Its completion handler then throws an error. The error handler calls `Promise.all`, which returns only when both calls to timeout are completed or rejected.  
   
-```javascript  
+```JavaScript  
 var p = timeout(1000).then(() => {  
     return timeout(2000);  
 }).then(() => {  

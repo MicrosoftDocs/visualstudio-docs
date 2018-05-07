@@ -2,34 +2,19 @@
 title: "IDebugProgramPublisher2::UnpublishProgram | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgramPublisher2::UnpublishProgram"
 helpviewer_keywords: 
   - "IDebugProgramPublisher2::UnpublishProgram"
 ms.assetid: 627e7d38-b2ac-4873-9a40-37ff7f47cd1d
-caps.latest.revision: 9
+author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
-translation.priority.mt: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+manager: douge
+ms.workload: 
+  - "vssdk"
 ---
 # IDebugProgramPublisher2::UnpublishProgram
 Makes a program unavailable to be debugged.  
@@ -42,7 +27,7 @@ HRESULT UnpublishProgram(
 );  
 ```  
   
-```c#  
+```csharp  
 int UnpublishProgram(  
    object pDebuggeeInterface  
 );  

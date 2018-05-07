@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "JavaScript"
+  - "TypeScript"
   - "DHTML"
 helpviewer_keywords: 
   - "built-in objects [JavaScript]"
@@ -29,7 +30,7 @@ manager: "ghogen"
   
  To create a new array, use the **new** operator and the **Array()** [constructor](../javascript/reference/constructor-property-object-javascript.md), as in the following example.  
   
-```javascript  
+```JavaScript  
 var theMonths = new Array(12);  
 theMonths[0] = "Jan";  
 theMonths[1] = "Feb";  
@@ -47,7 +48,7 @@ theMonths[11] = "Dec";
   
  When you create an array using the `Array` keyword, [!INCLUDE[javascript](../javascript/includes/javascript-md.md)] includes a **length** property, which records the number of entries. If you do not specify a number, the length is set to 0, and the array has no entries. If you specify a number, the length is set to that number. If you specify more than one parameter, the parameters are used as entries in the array. In addition, the number of parameters is assigned to the length property, as in the following example, which is equivalent to the preceding example.  
   
-```javascript  
+```JavaScript  
 var theMonths = new Array("Jan", "Feb", "Mar", "Apr", "May", "Jun",   
 "Jul", "Aug", "Sep", "Oct", "Nov", "Dec");  
 ```  
@@ -57,7 +58,7 @@ var theMonths = new Array("Jan", "Feb", "Mar", "Apr", "May", "Jun",
 ## String Object  
  In [!INCLUDE[javascript](../javascript/includes/javascript-md.md)], you can treat strings (and numbers) as if they were objects. The [string Object](../javascript/reference/string-object-javascript.md) has certain built-in methods, which you can use with your strings. One of these is the [substring Method](../javascript/reference/substring-method-string-javascript.md), which returns part of the string. It takes two numbers as its arguments.  
   
-```javascript  
+```JavaScript  
 var aString = "0123456789";  
   
 // This code sets aChunk to "456".  
@@ -74,21 +75,21 @@ firstLetter = theMonths[5].substring(0,1);
   
  Another property of the `String` object is the **length** property. This property contains the number of characters in the string (0 for an empty string). This a numeric value, and can be used directly in calculations.  
   
-```javascript  
+```JavaScript  
 var howLong = "Hello World".length  // Sets the howLong variable to 11.  
 ```  
   
 ## Math Object  
  The **Math** object has a number of predefined constants and functions. The constants are specific numbers. One of these specific numbers is the value of pi (approximately 3.14159...). This is the **Math.PI** constant, shown in the following example.  
   
-```javascript  
+```JavaScript  
 var radius = 5;  
 var circleArea = Math.PI * radius * radius;  
 ```  
   
  One of the built-in functions of the **Math** object is the exponentiation method, or `Math.pow`, which raises a number to a specified power. The following example uses both pi and exponentiation to calculate the volume of a sphere.  
   
-```javascript  
+```JavaScript  
 var volume = (4/3)*(Math.PI*Math.pow(radius,3));  
 ```  
   
@@ -97,7 +98,7 @@ var volume = (4/3)*(Math.PI*Math.pow(radius,3));
   
  To create a new `Date` object, use the **new** operator, as shown in the following example.  
   
-```javascript  
+```JavaScript  
 var toDay = new Date();    
 var thisYear = toDay.getFullYear();  
 var thisMonth = theMonths[toDay.getMonth()];  
