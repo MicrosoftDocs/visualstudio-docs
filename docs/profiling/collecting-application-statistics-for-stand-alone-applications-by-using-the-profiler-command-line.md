@@ -25,7 +25,7 @@ This section describes the procedures and options for collecting performance sta
 |Task|Related content|  
 |----------|---------------------|  
 |**Start an application by using profiling**|-   [How to: Launch a Stand-Alone Application and Collect Application Statistics](../profiling/how-to-launch-a-stand-alone-application-with-the-profiler-and-collect-application-statistics-by-using-the-command-line.md)|  
-|**Attach the profiler to a running .NET Framework application**|-   [How to: Attach the Profiler to a .NET Framework Application and Collect Application Statistics](../profiling/how-to-attach-the-profiler-to-a-dotnet-framework-stand-alone-application-and-collect-application-statistics-by-using-the-command-line.md)|  
+|**Attach the profiler to a running .NET Framework application**|-   [How to: Attach the Profiler to a .NET Framework Application and Collect Application Statistics](../profiling/how-to-attach-the-profiler-to-a-dotnet-app-and-collect-application-statistics.md)|  
 |**Attach the profiler to a running C/C++ application**|-   [How to: Attach the Profiler to a Native Application and Collect Application Statistics](../profiling/how-to-attach-the-profiler-to-a-native-stand-alone-application-and-collect-application-statistics-by-using-the-command-line.md)|  
 |**Add tier-interaction data**|-   [Collecting tier interaction data](../profiling/adding-tier-interaction-data-from-the-command-line.md)|  
   
