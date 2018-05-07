@@ -1,9 +1,9 @@
 ---
 title: "Introducing Visual Studio for Mac"
-description: 
+description: "This article introduces the features of Visual Studio for Mac"
 author: asb3993
 ms.author: amburns
-ms.date: 04/14/2017
+ms.date: 05/06/2018
 ms.assetid: 3A130EC1-DD8C-4125-9034-B08D7AF7EA65
 ---
 
@@ -69,7 +69,7 @@ Visual Studio has its own integrated Android SDK manager.
 For Android applications, Visual Studio for Mac includes its own designer, which works with Android `.axml` files to
 visually construct user interfaces. Visual Studio for Mac will open these files in its Android designer, as illustrated in the following image:
 
-![](media/intro-image31.png)
+![Android UI Designer](media/intro-image31.png)
 
 For more information on the Android designer, see the [Designer Overview](https://developer.xamarin.com/Android/Guides/User_Interface/Designer_Overview) document.
 
@@ -77,7 +77,7 @@ For more information on the Android designer, see the [Designer Overview](https:
 
 The iOS Designer is fully integrated with Visual Studio for Mac and enables visual editing of .xib and Storyboard files to create iOS, tvOS, and WatchOS UIs and transitions. The entire user interface can be built using drag-and-drop functionality between the Toolbox and Design Surface, while using an intuitive approach to handling events. The iOS Designer also supports [custom controls](https://developer.xamarin.com/guides/ios/user_interface/designer/ios_designable_controls_overview/) with the added benefit of design-time rendering.
 
-![](media/intro-image30.png)
+![iOS Storyboard designer](media/intro-image30.png)
 
 For more information on using the iOS Designer, see the [Designer](https://developer.xamarin.com/guides/ios/user_interface/designer) documents.
 
@@ -106,7 +106,7 @@ The Xamarin Profiler has three instruments available for profiling. The [Introdu
 
 The Xamarin Inspector provides an interactive C# console with tools to users. It can be used as a debugging or diagnostics aid when inspecting live applications, as a teaching tool, as a documentation tool or an experimentation tool.
 
-![](media/intro-inspector.png)
+![Xamarin Inspector](media/intro-inspector.png)
 
 It consists of a standalone application that provides a rich C# console that can target various programming platforms (Android, iOS, Mac, and Windows) as well as integrating into the debugging workflow of your IDE.
 

@@ -3,7 +3,7 @@ title: Working with Subversion
 description: Using Subversion in Visual Studio for Mac.
 author: asb3993
 ms.author: amburns
-ms.date: 04/14/2017
+ms.date: 05/06/2018
 ms.assetid: 2400ED9C-6236-4C0A-A3AB-9D7CBE1F0CF4
 ---
 
