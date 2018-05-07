@@ -1,9 +1,9 @@
 ---
 title: "Task Comments"
-description: 
+description: "Adding task comments to your code"
 author: asb3993
 ms.author: amburns
-ms.date: 04/14/2017
+ms.date: 05/06/2018
 ms.assetid: 562DCB46-D8FA-4DC4-AAEA-F274448C4CD2
 ---
 

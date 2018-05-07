@@ -9,6 +9,7 @@
 ### [Create an offline installation of Visual Studio](install/create-an-offline-installation-of-visual-studio.md)
 ### [Install required certificates for offline installation](install/install-certificates-for-visual-studio-offline.md)
 ### [Install on low-bandwidth or unreliable network environments](install/install-vs-inconsistent-quality-network.md)
+## [Change installation locations](install/change-installation-locations.md)
 ## [Troubleshooting installation issues](install/troubleshooting-installation-issues.md)
 ## [Update Visual Studio](install/update-visual-studio.md)
 ## [Modify Visual Studio](install/modify-visual-studio.md)
