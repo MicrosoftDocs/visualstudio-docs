@@ -48,7 +48,7 @@ ms.workload:
   
 ### To configure a Windows Installer solution to load VSTO Add-ins on demand  
   
-1.  In the registry, set the `LoadBehavior` entry of the **_Root_\Software\Microsoft\Office\\_ApplicationName_\Addins\_Add-in ID_** key to **0x10**.  
+1.  In the registry, set the `LoadBehavior` entry of the **_Root_\Software\Microsoft\Office\\_ApplicationName_\Addins\\_Add-in ID_** key to **0x10**.  
   
      For more information, see [Registry entries for VSTO Add-ins](../vsto/registry-entries-for-vsto-add-ins.md).  
   
