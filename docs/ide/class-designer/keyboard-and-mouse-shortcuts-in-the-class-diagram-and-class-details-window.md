@@ -27,8 +27,8 @@ The following mouse actions are supported in class diagrams:
 |Mouse Combination|Context|Description|
 |-----------------------|-------------|-----------------|
 |Double-click|Shape elements|Opens the code editor.|
-||Lollipop connector|Expand/collapse lollipop.|
-||Lollipop connector label|Invokes **Show Interface** command.|
+|Double-click|Lollipop connector|Expand/collapse lollipop.|
+|Double-click|Lollipop connector label|Invokes **Show Interface** command.|
 |Mouse Wheel|Class diagram|Scroll vertically.|
 |SHIFT + Mouse Wheel|Class diagram|Scroll horizontally.|
 |CTRL + Mouse Wheel|Class diagram|Zoom.|
@@ -55,12 +55,12 @@ The following keyboard actions are supported in class diagrams:
 |Key|Context|Description|
 |---------|-------------|-----------------|
 |Arrow keys|Inside type shapes|Tree-style navigation on shape contents (wrapping around shape is supported). Left and right keys expand/collapse current item if it is expandable and navigate to parent if not (see tree-view navigation for detailed behavior).|
-||Top-level shapes|Moving shapes on the diagram.|
+|Arrow keys|Top-level shapes|Moving shapes on the diagram.|
 |SHIFT+arrow keys|Inside type shapes|Building continuous selection consisting of shape elements such as members, nested types, or compartments. These shortcuts do not support wrapping around.|
 |HOME|Inside type shapes|Navigate to the top-level shape title.|
-||Top-level shapes|Navigate to first shape on the diagram.|
+|HOME|Top-level shapes|Navigate to first shape on the diagram.|
 |END|Inside type shapes|Navigate to last visible element inside the shape.|
-||Top-level shapes|Navigate to the last shape on the diagram.|
+|END|Top-level shapes|Navigate to the last shape on the diagram.|
 |SHIFT+HOME|Inside type shape|Selects elements within the shape starting with the current item and ending with the top-most item on the same shape.|
 |SHIFT+END|Inside type shape|Same as SHIFT+HOME but in top-down direction.|
 |ENTER|All contexts|Invokes default action on the shape which is also available via double-click. In most cases this is View Code but some elements define it differently (lollipops, compartment headers, lollipop labels).|
@@ -70,7 +70,7 @@ The following keyboard actions are supported in class diagrams:
 |ALT+SHIFT+L|Inside type shapes + on type shapes.|Navigates to the lollipop of currently selected shape if it is present.|
 |ALT+SHIFT+B|Inside type shapes + on type shapes.|If base type list is shown on the type shape and has more than one item, this toggles expansion state of the list (collapse/expand).|
 |DELETE|On type and comment shapes|Invokes **Remove from Diagram** command.|
-||On everything else.|Invokes **Delete from Code** command (members, parameters, associations, inheritance, lollipop labels).|
+|DELETE|On everything else.|Invokes **Delete from Code** command (members, parameters, associations, inheritance, lollipop labels).|
 |CTRL+DELETE|All contexts|Invokes **Delete from Code** command on selection.|
 |TAB|All contexts|Navigates to next child within the same parent (supports wrapping).|
 |SHIFT+TAB|All contexts|Navigates to previous child within the same parent (supports wrapping).|
