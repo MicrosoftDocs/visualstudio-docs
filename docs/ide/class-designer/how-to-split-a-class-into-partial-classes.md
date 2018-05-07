@@ -11,10 +11,13 @@ ms.assetid: 6f6b0b30-3996-4569-9200-20482b3adf90
 author: gewarren
 ms.author: gewarren
 manager: douge
+dev_langs:
+ - CSharp
+ - VB
 ms.workload:
   - "multiple"
 ---
-# How to: Split a class into partial classes (Class Designer)
+# How to: Split a class into partial classes in Class Designer
 
 You can use the `partial` keyword (`Partial` in Visual Basic) to divide the declaration of a class or structure among several declarations. You can use as many partial declarations as you want.
 
@@ -31,30 +34,11 @@ The following examples split the definition of class `Employee` into two declara
 > [!NOTE]
 > Visual Basic uses partial-class definitions to separate Visual Studio—generated code from user-authored code. The code is separated into discrete source files. For example, the **Windows Form Designer** defines partial classes for controls such as `Form`. You should not modify the generated code in these controls.
 
-
 For more information about partial types in Visual Basic, see [Partial](/dotnet/visual-basic/language-reference/modifiers/partial).
 
-## Visual Basic example
+## Example
 
-To split a class definition in Visual Basic, use the `Partial` keyword, as shown in the following example.
-
-```vb
-' First part of class definition.
-Partial Public Class Employee
-    Public Sub CalculateWorkHours()
-    End Sub
-End Class
-
-' Second part of class definition.
-Partial Public Class Employee
-    Public Sub CalculateTaxes()
-    End Sub
-End Class
-```
-
-## C# example
-
-To split a class definition in C#, use the `partial` keyword, as shown in the following example.
+To split a class definition, use the `partial` keyword (`Partial` in Visual Basic), as shown in the following example:
 
 ```csharp
 // First part of class definition.
@@ -74,9 +58,23 @@ public partial class Employee
 }
 ```
 
+```vb
+' First part of class definition.
+Partial Public Class Employee
+    Public Sub CalculateWorkHours()
+    End Sub
+End Class
+
+' Second part of class definition.
+Partial Public Class Employee
+    Public Sub CalculateTaxes()
+    End Sub
+End Class
+```
+
 ## See also
 
-- [Partial Classes and Methods](/dotnet/csharp/programming-guide/classes-and-structs/partial-classes-and-methods)
-- [partial (Type)](/dotnet/csharp/language-reference/keywords/partial-type)
+- [Partial classes and methods](/dotnet/csharp/programming-guide/classes-and-structs/partial-classes-and-methods)
+- [partial (Type) (C# Reference)](/dotnet/csharp/language-reference/keywords/partial-type)
 - [partial (Method) (C# Reference)](/dotnet/csharp/language-reference/keywords/partial-method)
-- [Partial](/dotnet/visual-basic/language-reference/modifiers/partial)
+- [Partial (Visual Basic)](/dotnet/visual-basic/language-reference/modifiers/partial)

@@ -16,7 +16,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# How to: Customize class diagrams (Class Designer)
+# How to: Customize class diagrams
 
 You can change the way that class diagrams display information. You can customize the whole diagram or the individual types on the design surface.
 

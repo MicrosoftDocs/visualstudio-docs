@@ -17,7 +17,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# How to: View existing types (Class Designer)
+# How to: View existing types in Class Designer
 
 To see an existing type and its members, add its shape to a class diagram.
 

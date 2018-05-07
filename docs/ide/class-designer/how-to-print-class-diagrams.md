@@ -14,7 +14,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# How to: Print class diagrams (Class Designer)
+# How to: Print class diagrams
 
 You can print a class diagram using the print feature of Visual Studio.
 

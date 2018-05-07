@@ -14,7 +14,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# How to: Create a nullable type (Class Designer)
+# How to: Create a nullable type in Class Designer
 
 Certain value types do not always have (or need) a defined value. This is common practice in databases, where some fields might not be assigned any value. For example, you might assign a null value to a database field to signify that it has not yet been assigned a value.
 

@@ -19,7 +19,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# How to: Create associations between types (Class Designer)
+# How to: Create associations between types in Class Designer
 
 Association lines in **Class Designer** show how classes in a diagram are related. An Association line represents a class that is the type of a property or field of another class in your project. Association lines are generally used to illustrate the most important relationships between classes in your project.
 
