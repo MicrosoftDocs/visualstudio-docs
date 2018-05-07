@@ -6,11 +6,11 @@
 ## [Print class diagrams](how-to-print-class-diagrams.md)
 ## [Add comments to class diagrams](how-to-add-comments-to-class-diagrams.md)
 ## Design classes and types
-### [Create Types by using Class Designer](how-to-create-types.md)
-### [Create Inheritance Between Types](how-to-create-inheritance-between-types.md)
-### [Create Associations Between Types](how-to-create-associations-between-types.md)
-### [Visualize a Collection Association](how-to-visualize-a-collection-association.md)
-### [Creating and Configuring Type Members](creating-and-configuring-type-members.md)
+### [Create types by using Class Designer](how-to-create-types.md)
+### [Create inheritance between types](how-to-create-inheritance-between-types.md)
+### [Create associations between types](how-to-create-associations-between-types.md)
+### [Visualize a collection association](how-to-visualize-a-collection-association.md)
+### [Create and configure type members](creating-and-configuring-type-members.md)
 ## View types and relationships
 ### [View existing types](how-to-view-existing-types.md)
 ### [View inheritance between types](how-to-view-inheritance-between-types.md)
