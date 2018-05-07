@@ -38,7 +38,7 @@ HRESULT Load([in] BSTR bstrManifestURL,
 ## Remarks  
  A manifest is a file (typically, an XML file) that provides information that is used to help load the VSTO Add-in. For example, a manifest can specify the location of the VSTO Add-in assembly and the entry point class to instantiate when the VSTO Add-in is loaded.  
   
- The *bstrManifestURL* parameter contains the value of the `Manifest` entry under the **HKEY_CURRENT_USER\Software\Microsoft\Office\\*\<application name>*\Addins\ *\<add-in ID>* ** registry key for the VSTO Add-in. For more information, see [IManagedAddin interface](../vsto/imanagedaddin-interface.md).  
+ The *bstrManifestURL* parameter contains the value of the `Manifest` entry under the **HKEY_CURRENT_USER\Software\Microsoft\Office\\_\<application name>_\Addins\\_\<add-in ID>_** registry key for the VSTO Add-in. For more information, see [IManagedAddin interface](../vsto/imanagedaddin-interface.md).  
   
  Implement the [IManagedAddIn::Load](../vsto/imanagedaddin-load.md) method to perform tasks such as configuring the application domain and security policy for the VSTO Add-in that is being loaded.  
   

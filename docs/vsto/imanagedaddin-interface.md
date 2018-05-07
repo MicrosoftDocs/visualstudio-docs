@@ -53,13 +53,13 @@ interface IManagedAddin : IUnknown
   
 1.  The application discovers VSTO Add-ins by looking for entries under the following registry key:  
   
-     **HKEY_CURRENT_USER\Software\Microsoft\Office\\*\<application name>*\Addins\**  
+     **HKEY_CURRENT_USER\Software\Microsoft\Office\\_\<application name>_\Addins\**  
   
      Each entry under this registry key is a unique ID of the VSTO Add-in. Typically, this is the name of the VSTO Add-in assembly.  
   
 2.  The application looks for a `Manifest` entry under the entry for each VSTO Add-in.  
   
-     Managed VSTO Add-ins can store the full path of a manifest in the `Manifest` entry under **HKEY_CURRENT_USER\Software\Microsoft\Office\\*\<application name>*\Addins\*\<add-in ID>***. A manifest is a file (typically, an XML file) that provides information that is used to help load the VSTO Add-in.  
+     Managed VSTO Add-ins can store the full path of a manifest in the `Manifest` entry under **HKEY_CURRENT_USER\Software\Microsoft\Office\\_\<application name>_\Addins\\_\<add-in ID>_**. A manifest is a file (typically, an XML file) that provides information that is used to help load the VSTO Add-in.  
   
 3.  If the application finds a `Manifest` entry, the application tries to load a managed VSTO Add-in loader component. The application does this by trying to create a COM object that implements the IManagedAddin interface.  
   
