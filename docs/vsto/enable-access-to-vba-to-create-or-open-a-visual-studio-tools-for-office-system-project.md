@@ -34,7 +34,7 @@ You must explicitly enable access to the Visual Basic for Applications (VBA) pro
 
  It is important to note that disabling access to the Visual Basic for Applications project system on its own does not protect you from viruses, it simply helps to stop some viruses from spreading to other documents if your computer ever becomes infected with a macro virus. The option is disabled by default as an added layer of protection for your computer, but enabling it does not make your computer any more susceptible to viruses if you are following security best practices.
 
- The best protection against Office macro viruses is to run Office at the High or Very High security level, to only trust macros from verified, known sources, and to stay up to date with security patches and virus scanners.
+ The best protection against Office macro viruses is to run Office at the High or Very High security level, to only trust macros from verified, known sources, and to stay up-to-date with security patches and virus scanners.
 
  For more information about protecting your PC from viruses and other malicious code, see [http://www.microsoft.com/protect](http://www.microsoft.com/protect).
 
