@@ -187,7 +187,7 @@
 ###### [Export class diagrams as images](how-to-export-class-diagrams-as-images.md)
 ###### [Print class diagrams](how-to-print-class-diagrams.md)
 ###### [Add comments to class diagrams](how-to-add-comments-to-class-diagrams.md)
-###### Design classes and types
+###### Create classes and types
 ####### [Create types](how-to-create-types.md)
 ####### [Create inheritance between types](how-to-create-inheritance-between-types.md)
 ####### [Create associations between types](how-to-create-associations-between-types.md)

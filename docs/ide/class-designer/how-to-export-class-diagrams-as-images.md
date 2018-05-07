@@ -19,7 +19,9 @@ ms.workload:
 
 To export a class diagram that you created from code in a project, save the diagram as an image. If you want to export UML class diagrams instead, see [Export diagrams as images](../../modeling/export-diagrams-as-images.md).
 
-1.  Open your class diagram (.cd) file.
+## Export a diagram
+
+1.  Open your class diagram (*.cd*) file.
 
 2.  From the **Class Diagram** menu or the diagram surface shortcut menu, choose **Export Diagram as Image**.
 
@@ -29,7 +31,7 @@ To export a class diagram that you created from code in a project, save the diag
 
 5.  Choose **Export** to finish exporting.
 
-     To automatically update exported images that are linked from other documents, export the diagram again in Visual Studio.
+To automatically update exported images that are linked from other documents, export the diagram again in Visual Studio.
 
 ### See also
 

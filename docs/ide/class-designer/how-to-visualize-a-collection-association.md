@@ -30,7 +30,7 @@ Properties and fields that are collections of other types can be displayed on th
 
 3.  In the class, right-click the field or property and choose **Show as Collection Association**.
 
-     The property or field is shown as an association line linking to the collected type.
+The property or field is shown as an association line linking to the collected type.
 
 ## See also
 
