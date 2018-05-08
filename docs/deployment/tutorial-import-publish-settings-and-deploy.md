@@ -18,8 +18,10 @@ You can use the **Publish** tool import publish settings and then deploy your ap
 
 These steps apply to ASP.NET, ASP.NET Core, and .NET Core apps in Visual Studio.
 
+A publish settings file is different than a publishing profile created in Visual Studio. A publish settings file is created by IIS or Azure App Service (or it can be manually created), and then imported into Visual Studio.
+
 > [!NOTE]
-> A publish settings file is different than a publishing profile created in Visual Studio. A publish settings file is created by IIS or Azure App Service, or it can be manually generated, and then imported into Visual Studio. If you just need to copy a Visual Studio publishing profile (\*.pubxml file), you can find the publishing profile, *\<profilename\>.pubxml*, in the *\\<projectname\>\Properties\PublishProfiles* folder for managed project types. For websites, look under the *\App_Data* folder. The publishing profiles are MSBuild xml files. You can copy these profiles from one version of Visual Studio to another
+> If you just need to copy a Visual Studio publishing profile (\*.pubxml file), you can find the publishing profile, *\<profilename\>.pubxml*, in the *\\<projectname\>\Properties\PublishProfiles* folder for managed project types. For websites, look under the *\App_Data* folder. The publishing profiles are MSBuild xml files. You can copy these profiles from one installation of Visual Studio to another.
 
 ## Prerequisites
 
@@ -76,7 +78,7 @@ These steps apply to ASP.NET, ASP.NET Core, and .NET Core apps in Visual Studio.
     </publishData>
     ```
 
-    Depending on your Windows Server configuration, you may see different values. Here is some information about these values.
+    Depending on your Windows Server and IIS configuration, you may see different values. Here is some information about these values.
 
     * In the `publishUrl` attribute, msdeploy.axd is a dynamically-generated HTTP handler file for Web Deploy. For testing purposes, `http://myhostname:8172` will generally work as well.
     * The `publishUrl` port is usually set to port 8172, which is the default for Web Deploy.
@@ -101,21 +103,13 @@ These steps apply to ASP.NET, ASP.NET Core, and .NET Core apps in Visual Studio.
 
 1. Navigate to the location of the publish settings file that you created in the previous section.
 
-1. In the **Import Publish Settings File** dialog box, select the profile you previously created, and click **Open**.
-
-1. Click **Publish**.
-
-    The profile publish settings dialog box opens.
-
-    ![Choose Folder](../deployment/media/quickstart-publish-settings-web.png "Choose Folder")
-
-1. To publish, click **Publish**.
+1. In the **Import Publish Settings File** dialog box, navigate to and select the profile that you created in the previous section, and click **Open**.
 
     The Output window shows deployment progress and results.
 
     If you get an any errors, click **Settings** to edit settings. Modify settings and click **Validate** to test new settings.
 
-    ![Edit settings in the Publish Wizard](../deployment/media/tutorial-configure-publish-settings-in-wizard.png)
+    ![Edit settings in the Publish tool](../deployment/media/tutorial-configure-publish-settings-in-wizard.png)
 
 ## Next steps
 
