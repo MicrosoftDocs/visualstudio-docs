@@ -19,13 +19,19 @@ You can use the **Publish** tool to publish ASP.NET, ASP.NET Core, Python, Node.
 
 If you do not already have an Azure account, you can [sign up here](https://azure.microsoft.com/free/?ref=microsoft.com&utm_source=microsoft.com&utm_medium=doc&utm_campaign=visualstudio).
 
+## Prerequisites
+
+* You must have Visual Studio 2017 installed and the **ASP.NET** and **.NET Framework** development workload. For a .NET Core app, you also need the **.NET Core** workload.
+
+    If you haven't already installed Visual Studio, install it for free [here](http://www.visualstudio.com).
+
 ## Create a new project 
 
 1. In Visual Studio, choose **File > New Project**.
 
 1. Under **Visual C#** or **Visual Basic**, choose **Web**, and then in the middle pane choose either **ASP.NET Web Application (.NET Framework)** or (C# only) **ASP.NET Core Web Application**, and then click **OK**.
 
-1. Choose **MVC**, make sure that **No Authentication** is selected, and then click **OK**.
+1. Choose **MVC** (or choose **Web Application (Model-View-Controller)** for .NET Core), make sure that **No Authentication** is selected, and then click **OK**.
 
 1. Type a name like **MyWebApp** and click **OK**.
 
@@ -39,12 +45,11 @@ If you do not already have an Azure account, you can [sign up here](https://azur
 
     ![Choose Publish](../deployment/media/quickstart-publish-aspnet.png "Choose Publish")
 
+1. If you have previously configured any publishing profiles, the **Publish** pane appears. Click **Create new profile**.
+
 1. In the **Pick a publish target** dialog box, choose **App Service**.
 
     ![Choose Azure App Service](../deployment/media/quickstart-publish-azure.png "Choose Azure App Service")
-
-    > [!NOTE]
-    > If you have previously configured any publishing profiles, the **Publish** pane appears instead. In this scenario, click **New Profile** instead.
 
 1. Click **Publish**.
 
