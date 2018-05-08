@@ -1,22 +1,16 @@
 ---
-title: Debugging Python Code | Microsoft Docs
+title: Debugging Python code
 description: A walkthrough of the debugging features in Visual Studio specifically for Python code, including setting breakpoints, stepping, inspecting values, looking at exceptions, and debugging in the interactive window.
-ms.custom:
 ms.date: 03/05/2018
-ms.reviewer:
-ms.suite:
-ms.technology:
-  - "devlang-python"
-dev_langs:
-  - "python"
-ms.tgt_pltfrm:
-ms.topic: "conceptual"
-author: "kraigb"
-ms.author: "kraigb"
-manager: ghogen
+ms.prod: visual-studio-dev15
+ms.technology: vs-python
+ms.topic: conceptual
+author: kraigb
+ms.author: kraigb
+manager: douge
 ms.workload:
-  - "python"
-  - "data-science"
+  - python
+  - data-science
 ---
 
 # Debugging your Python code
@@ -127,7 +121,7 @@ The **Debug > Windows > Exception Settings** menu command brings up a window in 
 
 The checkbox for each exception controls whether the debugger *always* breaks when it is raised. Check this box when you want to break more often for a particular exception.
 
-By default, most exceptions break when an exception handler cannot be found in the source code. To change this behavior, right-click any exception and check or uncheck **Continue When Unhandled in User Code**. Clear this box when you want to break less often for an exception.
+By default, most exceptions break when an exception handler cannot be found in the source code. To change this behavior, right-click any exception and modify the **Continue When Unhandled in User Code** option. Clear this box when you want to break less often for an exception.
 
 To configure an exception that does not appear in this list, click the **Add** button to add it. The name must match the full name of the exception.
 

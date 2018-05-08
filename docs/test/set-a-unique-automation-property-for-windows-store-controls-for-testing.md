@@ -1,10 +1,11 @@
 ---
-title: "Set a Unique Automation Property for UWP Controls for Testing in Visual Studio | Microsoft Docs"
-ms.date: "11/04/2016"
+title: "Set a Unique Automation Property for UWP Controls for Testing in Visual Studio"
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: conceptual
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload: 
   - "uwp"
 author: gewarren
@@ -70,7 +71,8 @@ Set the AutomationProperties.Name to **ButtonY** using the Content property in t
  **Blend for Visual Studio:** Use one of the following methods to do this from Blend for Visual Studio.
 
 > [!NOTE]
->  You can only use this method for controls that are created statically using XAML.
+> You can only use this method for controls that are created statically using XAML.
+
 
  **To give a unique name to existing controls**
 

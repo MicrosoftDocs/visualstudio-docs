@@ -1,22 +1,18 @@
 ---
-title: "Visual C++ IntelliSense | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+title: Visual C++ IntelliSense
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-general
+ms.topic: conceptual
+author: gewarren
+ms.author: gewarren
+manager: douge
 ms.workload:
   - "cplusplus"
 ---
 # Visual C++ IntelliSense
 
-IntelliSense for C++ is available for stand-alone files as well as for files that are part of a C++ project. In cross-platform projects, some IntelliSense features are available in .cpp and .c files in the shared code project, even when you are in an Android or iOS context.
+IntelliSense for C++ is available for stand-alone files as well as for files that are part of a C++ project. In cross-platform projects, some IntelliSense features are available in *.cpp* and *.c* files in the shared code project, even when you are in an Android or iOS context.
 
 ## IntelliSense features in C++
 
@@ -32,7 +28,7 @@ You can use the menu items and keyboard shortcuts shown in the following image t
 
 When you start typing a keyword, type, function, variable name, or other program element that the compiler recognizes, the editor offers to complete the word for you.
 
-For a list of the icons and their meanings, see [Class View and Object Browser Icons](../ide/class-view-and-object-browser-icons.md).
+For a list of the icons and their meanings, see [Class View and Object Browser icons](../ide/class-view-and-object-browser-icons.md).
 
 ![Visual C&#43;&#43; Complete Word window](../ide/media/vs2015_cpp_complete_word.png "vs2015_cpp_complete_word")
 
@@ -72,34 +68,34 @@ Here's an OpenGLES Application that is configured to build for Android and iOS. 
 
 Notice the following:
 
-- The #else branch on line 8 is grayed out to indicate inactive region, because __ANDROID\_\_ is defined for Android project.
+- The `#else` branch on line 8 is grayed out to indicate inactive region, because `__ANDROID__` is defined for Android project.
 
-- The greeting variable at line 11 is initialized with identifier HELLO, which has a purple squiggle. This is because no identifier HELLO is defined in the currently inactive iOS project. While in Android project line 11 would compile, it won't in iOS. Since this is shared code, that is something you should change even though it compiles in the currently active configuration.
+- The greeting variable at line 11 is initialized with identifier `HELLO`, which has a purple squiggle. This is because no identifier `HELLO` is defined in the currently inactive iOS project. While in Android project line 11 would compile, it won't in iOS. Since this is shared code, that is something you should change even though it compiles in the currently active configuration.
 
-- Line 12 has red squiggle on identifier BYE; this identifier is not defined in the currently selected active project.
+- Line 12 has red squiggle on identifier `BYE`; this identifier is not defined in the currently selected active project.
 
-Now, change the active project to iOS.StaticLibrary and notice how the squiggles change.
+Now, change the active project to **iOS.StaticLibrary** and notice how the squiggles change.
 
 ![iOS is selected as the active project.](../ide/media/intellisensecppcrossplatform2.png "IntelliSenseCppCrossPlatform2")
 
 Notice the following:
 
-- The #ifdef branch on line 6 is grayed out to indicate inactive region, because __ANDROID\_\_ is not defined for iOS project.
+- The `#ifdef` branch on line 6 is grayed out to indicate inactive region, because `__ANDROID__` is not defined for iOS project.
 
-- The greeting variable at line 11 is initialized with identifier HELLO, which now has red squiggle. This is because no identifier HELLO is defined in the currently active iOS project.
+- The greeting variable at line 11 is initialized with identifier `HELLO`, which now has red squiggle. This is because no identifier `HELLO` is defined in the currently active iOS project.
 
-- Line 12 has purple squiggle on identifier BYE; this identifier is not defined in currently inactive Android.NativeActivity project.
+- Line 12 has purple squiggle on identifier `BYE`; this identifier is not defined in currently inactive **Android.NativeActivity** project.
 
 ### IntelliSense for stand-alone files
 
-When you open a single file outside of any project, you still get IntelliSense. You can enable or disable particular IntelliSense features in the **Options** dialog box, under **Text Editor** > **C/C++** > **Advanced**. To configure IntelliSense for single files that aren't part of a project, look for the **IntelliSense and Browsing for Non-Project Files** section.
+When you open a single file outside of any project, you still get IntelliSense. You can enable or disable particular IntelliSense features in the **Options** dialog box, under **Text Editor** > **C/C++** > **Advanced**. To configure IntelliSense for single files that aren't part of a project, look for the **IntelliSense and browsing for non-project files** section.
 
 ![Visual C&#43;&#43; single file intellisense](../ide/media/vs2015_cpp_single_file_intellisense.png "vs2015_cpp_single_file_intellisense")
 
-By default, single file IntelliSense only uses standard include directories to find header files. To add additional directories, open the shortcut menu on the Solution node, and add your directory to **Debug Source Code** list, as the following illustration shows:
+By default, single file IntelliSense only uses standard include directories to find header files. To add additional directories, open the shortcut menu on the **Solution** node, and add your directory to **Debug Source Code** list, as the following illustration shows:
 
 ![Adding a path to a header file.](../ide/media/intellisensedebugyourcode.jpg "IntelliSenseDebugYourCode")
 
 ## See also
 
-[Using IntelliSense](../ide/using-intellisense.md)
+- [Use IntelliSense](../ide/using-intellisense.md)

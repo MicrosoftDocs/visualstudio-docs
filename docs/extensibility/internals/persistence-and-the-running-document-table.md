@@ -2,22 +2,18 @@
 title: "Persistence and the Running Document Table | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "persistence, managing"
   - "IVsPersistHierarchyItem interface, implementing"
   - "architecture, persistence"
   - "running document table (RDT), architecture"
 ms.assetid: 27117eae-6c58-4189-a61a-1397a43b5ecf
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

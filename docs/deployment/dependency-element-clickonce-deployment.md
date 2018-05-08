@@ -2,12 +2,8 @@
 title: "&lt;dependency&gt; Element (ClickOnce Deployment) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-deployment
+ms.topic: "reference"
 f1_keywords: 
   - "urn:schemas-microsoft-com:asm.v2#osVersionInfo"
   - "urn:schemas-microsoft-com:asm.v2#os"
@@ -26,10 +22,9 @@ dev_langs:
 helpviewer_keywords: 
   - "<dependency> element [ClickOnce deployment manifest]"
 ms.assetid: 9b4d2082-0347-4922-ac70-85f11b913039
-caps.latest.revision: 27
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

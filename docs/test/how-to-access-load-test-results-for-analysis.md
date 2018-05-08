@@ -1,7 +1,7 @@
 ---
-title: "Analyze load test results in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "article"
+title: "Analyze load test results in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "results, load test"
   - "load test results, accessing"
@@ -13,7 +13,8 @@ helpviewer_keywords:
 ms.assetid: b0a3e694-2894-479b-b270-7e61e9fafacd
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # How to: Access Load Test Results for Analysis

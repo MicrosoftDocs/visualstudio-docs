@@ -1,13 +1,14 @@
 ---
-title: "Plot Options for Graphing Counters for load tests in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "article"
+title: "Plot Options for Graphing Counters for load tests in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "load tests, graphing counters"
 ms.assetid: 1969c20b-e0eb-48f6-a49f-a9090cd86008
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # How to: Specify Plot Options for Graphing Counters

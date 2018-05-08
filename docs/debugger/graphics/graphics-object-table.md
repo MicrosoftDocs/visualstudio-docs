@@ -2,21 +2,16 @@
 title: "Graphics Object Table | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.graphics.datavisualizer"
   - "vs.graphics.objecttable"
   - "vs.graphics.bufferviewer"
 ms.assetid: f48f62d9-16ff-4a2e-8c01-5cbe99513788
-caps.latest.revision: 16
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -1,17 +1,13 @@
 ---
-title: "Add new connections | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-caps.latest.revision: 14
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.technology: "vs-data-tools"
-ms.workload: 
+title: Add new connections
+ms.date: 11/04/2016
+ms.topic: conceptual
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.prod: visual-studio-dev15
+ms.technology: vs-data-tools
+ms.workload:
   - "data-storage"
 ---
 # Add new connections
@@ -36,9 +32,9 @@ To create a connection to the database, click the **Add Connection** icon in **S
 
 ![Server Explorer New Connection icon](../data-tools/media/raddata-server-explorer-new-connection-icon.png "raddata Server Explorer New Connection icon")
 
-This brings up the **Add Connection** dialog box. Here, we have entered the name of the SQL Server LocalDB instance.  
+This brings up the **Add Connection** dialog box. Here, we have entered the name of the SQL Server LocalDB instance.
 
-![Add New Connection](../data-tools/media/raddata-add-new-connection-dialog.png "raddata Add New Connection Dialog")  
+![Add New Connection](../data-tools/media/raddata-add-new-connection-dialog.png "raddata Add New Connection Dialog")
 
 ## Change the provider
 
@@ -56,4 +52,4 @@ If the test succeeds, you are ready to create a *data source*, which is a Visual
 
 ## See also
 
-[Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md)
+- [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md)

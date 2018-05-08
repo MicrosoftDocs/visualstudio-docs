@@ -2,12 +2,9 @@
 title: "VBA and Office Solutions in Visual Studio Compared | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -16,7 +13,7 @@ helpviewer_keywords:
   - "managed code extensions [Office development in Visual Studio], VBA compared to"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

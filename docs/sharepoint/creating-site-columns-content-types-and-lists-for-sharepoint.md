@@ -2,12 +2,9 @@
 title: "Creating Site Columns, Content Types, and Lists for SharePoint | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.ListDesigner.ContentTypeSetting"
   - "VS.SharePointTools.ContentTypeDesigner.CommonPropertiesPage"
@@ -21,7 +18,7 @@ dev_langs:
   - "CSharp"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

@@ -1,26 +1,21 @@
 ---
-title: Django web project template for Python | Microsoft Docs
+title: Django web project template for Python
 description: An overview of the Visual Studio templates for web applications written in Python using the Django framework.
-ms.custom:
-ms.date: 07/13/2017
-ms.reviewer:
-ms.suite:
-ms.technology: 
-  - "devlang-python"
-dev_langs:
-  - "python"
-ms.tgt_pltfrm:
-ms.topic: "conceptual"
-ms.author: "kraigb"
-manager: ghogen
+ms.date: 04/17/2018
+ms.prod: visual-studio-dev15
+ms.technology: vs-python
+ms.topic: conceptual
+author: kraigb
+ms.author: kraigb
+manager: douge
 ms.workload: 
-  - "python"
-  - "data-science"
+  - python
+  - data-science
 ---
 
 # Django web project template
 
-[Django](https://www.djangoproject.com/) is a high-level Python framework designed for rapid, secure, and scalable web development. Python support in Visual Studio provides a project template to set up the structure of a Django-based web application. To use the template in Visual Studio, select **File > New > Project**, search for "Django", and select the **Django Web Project** template. The resulting project includes boilerplate code as well as a default SQLite database. The **Blank Django Web Project** template is similar but does not include the database.
+[Django](https://www.djangoproject.com/) is a high-level Python framework designed for rapid, secure, and scalable web development. Python support in Visual Studio provides several project templates to set up the structure of a Django-based web application. To use a template in Visual Studio, select **File** > **New** > **Project**, search for "Django", and select from the "Blank Django Web Project," "Django Web Project", and "Polls Django Web Project" templates. See the [Learning Django tutorial](learn-django-in-visual-studio-step-01-project-and-solution.md) for a walkthrough of all the templates.
 
 Visual Studio provides full IntelliSense for Django projects:
 
@@ -56,10 +51,14 @@ The Django management console is accessed through various commands on the **Proj
 
     ![Console](media/template-django-console-sync-db.png)
 
-- **Collect Static**: executes `manage.py collectstatic --noinput` to copy all the static files to the path specified by `STATIC_ROOT` in your `settings.py`. Note that when [publishing to Microsoft Azure](python-web-application-project-templates.md#publishing-to-azure-app-service), static files are automatically collected as part of the publish operation.
+- **Collect Static**: executes `manage.py collectstatic --noinput` to copy all the static files to the path specified by `STATIC_ROOT` in your `settings.py`. When [publishing to Azure App Service](publishing-python-web-applications-to-azure-from-visual-studio.md), static files are automatically collected as part of the publish operation.
 
     ![Console](media/template-django-console-collect-static.png)
 
 - **Validate**: executes `manage.py validate`, which reports any validation errors in the installed models specified by `INSTALLED_APPS` in your `settings.py`:
 
     ![Console](media/template-django-console-validate.png)
+
+## See also
+
+- [Learning Django tutorial](learn-django-in-visual-studio-step-01-project-and-solution.md)

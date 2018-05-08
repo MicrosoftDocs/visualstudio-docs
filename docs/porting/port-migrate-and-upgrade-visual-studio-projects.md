@@ -1,13 +1,14 @@
 ---
-title: "Port, Migrate, and Upgrade Visual Studio Projects | Microsoft Docs"
-ms.custom:
+title: Port, Migrate, and Upgrade Projects
+description: A reference for the support in Visual Studio 2017 for projects created in earlier versions of Visual Studio, and how Visual Studio decides when it needs to migrate a project.
 ms.date: 03/14/2018
-ms.reviewer:
-ms.suite:
-ms.technology:
-  - "vs-ide-general"
-ms.tgt_pltfrm:
-ms.topic: "article"
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-general
+ms.topic: conceptual
+author: kraigb
+ms.author: kraigb
+manager: douge
+ms.workload: multiple
 f1_keywords: 
   - "Win8ExpressDesktopBlock"
   - "w8trefactor"
@@ -18,14 +19,9 @@ helpviewer_keywords:
   - "conversion, projects"
   - "asset compatibility"
   - "projects, conversion"
-author: "kraigb"
-ms.author: "kraigb"
-manager: ghogen
-ms.workload: 
-  - "multiple"
 ---
 
-# Port, Migrate, and Upgrade Visual Studio Projects
+# Project migration and upgrade reference for Visual Studio 2017
 
 Each new version of Visual Studio generally supports most previous types of projects, files, and other assets. You can work with them [as you always have](../ide/solutions-and-projects-in-visual-studio.md), and provided that you don't depend on newer features, Visual Studio generally tries to preserve backwards compatibility with previous versions like Visual Studio 2015, Visual Studio 2013, and Visual Studio 2012. (See the [Release Notes](https://www.visualstudio.com/vs/release-notes/) for which features are specific to which versions.)
 

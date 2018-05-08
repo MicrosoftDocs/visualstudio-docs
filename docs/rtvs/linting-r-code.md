@@ -1,28 +1,22 @@
 ---
-title: Linting R Code with the R Tools for Visual Studio | Microsoft Docs
+title: Linting R code
 description: How to work with Visual Studio's build-in linting support for R, including linting options.
-ms.custom:
 ms.date: 01/15/2018
-ms.reviewer:
-ms.suite:
-ms.technology: 
-  - "devlang-r"
-dev_langs:
-  - "R"
-ms.tgt_pltfrm:
+ms.prod: visual-studio-dev15
+ms.technology: vs-rtvs
+ms.topic: conceptual
 f1_keywords: 
   - "vs.toolsoptionspages.text_editor.r.lint"
-ms.topic: "article"
-author: "kraigb"
-ms.author: "kraigb"
-manager: ghogen
+author: kraigb
+ms.author: kraigb
+manager: douge
 ms.workload: 
-  - "data-science"
+  - data-science
 ---
 
 # Linting R code in Visual Studio
 
-Linting is a process that analyzes code to reveal potential errors, formatting issues, and other code noise such as spurious whitespace. Linting also helps encourage certain coding conventions, such as how identifiers are named, which is very helpful within teams and other collaborative situations.
+Linting analyzes code to reveal potential errors, formatting issues, and other code noise such as spurious whitespace. Linting also helps encourage certain coding conventions, such as how identifiers are named. Such conventions are helpful within teams and other collaborative situations.
 
 R Tools for Visual Studio (RTVS) provides built-in linting for R, the behavior of which is controlled through a variety of options described in this article. These options are found in **Tool > Options > Text Editor > R > Lint**.
 
@@ -32,7 +26,7 @@ When enabled, linting is applied in the editor while you type. Issues appear as 
 
 ![Examples of linting for R code](media/linting-01.png)
 
-You often change linting options depending on the needs of a project or file. For example, sample code from an online course might use `=` instead of `<-` along with Pascal-case identifiers. Such code would show frequent linting warnings because the default linting options flag these cases. While working with that code, then, you can simply disable the options instead of spending time correcting each instance.
+You often change linting options depending on the needs of a project or file. For example, sample code from an online course might use `=` instead of `<-` along with Pascal-case identifiers. Such code would show frequent linting warnings because the default linting options flag these cases. While working with that code, then, you can disable the options instead of spending time correcting each instance.
 
 ## Assignment group
 

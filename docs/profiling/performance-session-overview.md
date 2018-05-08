@@ -2,20 +2,15 @@
 title: "Performance Session Overview | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Profiling Tools, performance session"
   - "performance sessions"
 ms.assetid: 35752f95-a57a-4def-b64d-cf4899669e99
-caps.latest.revision: 35
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

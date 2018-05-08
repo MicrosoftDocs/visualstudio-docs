@@ -2,16 +2,14 @@
 title: "Learn about mobile development with Xamarin | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/30/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: e970d936-1df4-4c0c-96e3-ef6191295882
-ms.technology: vs-ide-mobile
-author: "ghogen"
-ms.author: "ghogen"
-manager: ghogen
-ms.workload: 
+ms.prod: xamarin
+ms.technology: xamarin-tools
+author: conceptdev
+ms.author: crdun
+manager: crdun
+ms.workload:
   - "xamarin"
 ---
 

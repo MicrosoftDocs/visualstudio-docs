@@ -1,18 +1,13 @@
 ---
-title: "Adding References Using NuGet Versus an Extension SDK | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-caps.latest.revision: 21
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+title: Adding References Using NuGet Versus an Extension SDK
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-general
+ms.topic: conceptual
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # Adding references using NuGet versus an extension SDK
@@ -50,7 +45,7 @@ The following table helps you compare the referencing features of an SDK with th
 |The mechanism integrates with app manifests.|Y|The SDK must pass [!INCLUDE[win8_appstore_short](../ide/includes/win8_appstore_short_md.md)]-specific concepts so that packaging and F5 work correctly with SDKs available in the [!INCLUDE[win8_appstore_short](../ide/includes/win8_appstore_short_md.md)].|Y|NuGet content becomes part of the project. No special F5 consideration is needed.|
 |The mechanism deploys non-reference files (for example, deploy test framework upon which to run tests of [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps).|Y|If you drop the files in the *\redist* folder, the files are automatically deployed.|Y||
 |The mechanism automatically adds the platform SDKs in Visual Studio IDE.|Y|If you drop the [!INCLUDE[win8](../debugger/includes/win8_md.md)] SDK or the Windows Phone SDK in a specific location with a specific layout, the SDK is automatically integrated with all the Visual Studio features.|N||
-|The mechanism supports a clean developer machine. (That is, no installation is required, and simple retrieval from source code control will work.)|N|Because you reference an SDK, you must check in your solution and the SDK separately. You can check in the SDK from the two non-registry default locations from which MSBuild iterates SDKs (for details, see [Creating a Software Development Kit](../extensibility/creating-a-software-development-kit.md)). As an alternative, if a custom location consists of the SDKs, you can specify the following code in the project file:<br /><br /> `<PropertyGroup>    <SDKReferenceDirectoryRoot>C:\MySDKs</SDKReferenceDirectoryRoot>   </PropertyGroup>`<br /><br /> Then check the SDKs into that location.|Y|You can check out the solution, and Visual Studio immediately recognizes and acts on the files.|
+|The mechanism supports a clean developer machine. (That is, no installation is required, and simple retrieval from source code control will work.)|N|Because you reference an SDK, you must check in your solution and the SDK separately. You can check in the SDK from the two non-registry default locations from which MSBuild iterates SDKs (for details, see [Creating a Software Development Kit](../extensibility/creating-a-software-development-kit.md)). As an alternative, if a custom location consists of the SDKs, you can specify the following code in the project file:<br /><br />`<PropertyGroup>`<br />&nbsp;&nbsp;`<SDKReferenceDirectoryRoot>`<br />&nbsp;&nbsp;`C:\MySDKs`<br />&nbsp;&nbsp;`</SDKReferenceDirectoryRoot>`<br />`</PropertyGroup>`<br /><br /> Then check the SDKs into that location.|Y|You can check out the solution, and Visual Studio immediately recognizes and acts on the files.|
 |You can join a large existing community of package authors.|N/A|The community is new.|Y||
 |You can join a large existing community of package consumers.|N/A|The community is new.|Y||
 |You can join an ecosystem of partners (custom galleries, repositories, and so forth).|N/A|The available repositories include Visual Studio Marketplace, Microsoft Download Center, and [!INCLUDE[win8_appstore_long](../debugger/includes/win8_appstore_long_md.md)].|Y||
@@ -68,4 +63,4 @@ The following table helps you compare the referencing features of an SDK with th
 
 ## See also
 
-[Managing references in a project](../ide/managing-references-in-a-project.md)
+- [Managing references in a project](../ide/managing-references-in-a-project.md)

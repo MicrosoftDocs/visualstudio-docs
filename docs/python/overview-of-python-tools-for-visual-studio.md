@@ -1,25 +1,19 @@
 ---
-title: Overview of Python support in Visual Studio on Windows | Microsoft Docs
-description: Summary of features in Visual Studio, making it the best Python IDE on Windows (also know as Python Tools for Visual Studio, PTVS)
-ms.custom:
-ms.date: 04/06/2018
-ms.reviewer:
-ms.suite:
-ms.technology: 
-  - "devlang-python"
-dev_langs:
-  - "python"
-ms.tgt_pltfrm:
-ms.topic: "overview"
-author: "kraigb"
-ms.author: "kraigb"
+title: Overview of Python support in Visual Studio on Windows
+description: Summary of Python features in Visual Studio, making it the best Python IDE on Windows (also known as Python Tools for Visual Studio, PTVS).
+ms.date: 05/07/2018
+ms.prod: visual-studio-dev15
+ms.technology: vs-python
+ms.topic: overview
+author: kraigb
+ms.author: kraigb
 manager: douge
 ms.workload: 
-  - "python"
-  - "data-science"
+  - python
+  - data-science
 ---
 
-# Working with Python in Visual Studio (Windows)
+# Working with Python in Visual Studio on Windows
 
 Python is a popular programming language that is reliable, flexible, easy to learn, free to use on all operating systems, and supported by both a strong developer community and many free libraries. Python supports all manners of development, including web applications, web services, desktop apps, scripting, and scientific computing, and is used by many universities, scientists, casual developers, and professional developers alike. You can learn more about the language on [python.org](https://www.python.org) and [Python for Beginners](https://www.python.org/about/gettingstarted/).
 
@@ -48,7 +42,7 @@ For more information:
 
 ## Rich editing, IntelliSense, and code comprehension
 
-Visual Studio provides a first-class Python editor, including syntax coloring, auto-complete across all your code and libraries, code formatting, signature help, refactoring, type hints, and linting (linting is shown below). Visual Studio also provides unique features like class view, Go to Definition, Find All References, and code snippets. Direct integration with the [Interactive Window](#interactive-window) helps you quickly develop Python code that's already saved in a file.
+Visual Studio provides a first-class Python editor, including syntax coloring, auto-complete across all your code and libraries, code formatting, signature help, refactoring, linting (shown below), and type hints. Visual Studio also provides unique features like class view, Go to Definition, Find All References, and code snippets. Direct integration with the [Interactive Window](#interactive-window) helps you quickly develop Python code that's already saved in a file.
 
 ![Code completions for Python code in Visual Studio](media/code-editing-completions-simple.png)
 
@@ -90,6 +84,7 @@ Project and item templates automate the process of setting up different types of
 For more information:
 
 - Docs: [Managing Python projects](managing-python-projects-in-visual-studio.md)
+- Docs: [Item templates reference](python-item-templates.md)
 - Docs: [Python project templates](managing-python-projects-in-visual-studio.md#project-templates)
 - Docs: [Working with C++ and Python](working-with-c-cpp-python-in-visual-studio.md)
 - General Visual Studio feature docs: [Project and item templates](../ide/creating-project-and-item-templates.md#visual-studio-templates)
@@ -170,13 +165,15 @@ A. Python is generally an interpreted language, with which code is run on demand
 Python features can be installed in the following editions of Visual Studio as described in the [installation guide](installing-python-support-in-visual-studio.md):
 
 - [Visual Studio 2017 (all editions)](https://www.visualstudio.com/vs/)
-- [Visual Studio 2015 (all editions)](https://www.visualstudio.com/downloads/visual-studio-2015-downloads-vs)
+- Visual Studio 2015 (all editions)
 - Visual Studio 2013 Community Edition
 - Visual Studio 2013 Express for Web, Update 2 or higher
 - Visual Studio 2013 Express for Desktop, Update 2 or higher
 - Visual Studio 2013 (Pro edition or higher)
 - Visual Studio 2012 (Pro edition or higher)
 - Visual Studio 2010 SP1 (Pro edition or higher; .NET 4.5 required)
+
+Visual Studio 2015 and earlier are available at [visualstudio.com/vs/older-downloads/](https://www.visualstudio.com/vs/older-downloads/).
 
 > [!Important]
 > Features are fully supported and maintained for only the latest version of Visual Studio. Features are available in older versions but are not actively maintained.
@@ -297,6 +294,6 @@ Python features can be installed in the following editions of Visual Studio as d
 
 ## Additional resources
 
-- [WFastCGI bridge between IIS and Python](https://pypi.python.org/pypi/wfastcgi) (python.org)
+- [WFastCGI bridge between IIS and Python](https://pypi.org/p/wfastcgi) (pypi.org)
 - [Free Python courses on Microsoft Virtual Academy](https://mva.microsoft.com/search/SearchResults.aspx#!q=python)
 - [Top Python Questions at Microsoft Virtual Academy](https://aka.ms/mva-top-python-questions)

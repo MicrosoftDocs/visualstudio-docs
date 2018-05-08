@@ -1,11 +1,15 @@
 ---
-layout: LandingPage
-author: "gewarren"
-ms.author: "gewarren"
-ms.topic: landing-page
-title: Write and Manage Code using Visual Studio | Microsoft Docs
+title: Write and Manage Code
 description: Learn how to use the code editor and other tools in Visual Studio to write, navigate, manage, and improve your code.
+layout: LandingPage
+ms.date: 01/01/2018
+author: gewarren
+ms.author: gewarren
+ms.topic: landing-page
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
+f1_keywords:
+ - vs.newproject
 ms.workload:
   - "multiple"
 ---
@@ -21,7 +25,7 @@ Learn how to use the code editor and other tools in Visual Studio to write, navi
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_code-blocks.svg" alt="" />
+                            <img src="/media/common/i_code-blocks.svg" alt="Create solutions and projects" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -39,7 +43,7 @@ Learn how to use the code editor and other tools in Visual Studio to write, navi
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_code-edit.svg" alt="" />
+                            <img src="/media/common/i_code-edit.svg" alt="Use the code editor" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -57,7 +61,7 @@ Learn how to use the code editor and other tools in Visual Studio to write, navi
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_agile.svg" alt="" />
+                            <img src="/media/common/i_agile.svg" alt="Navigate code" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -75,7 +79,7 @@ Learn how to use the code editor and other tools in Visual Studio to write, navi
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_code-automate.svg" alt="" />
+                            <img src="/media/common/i_code-automate.svg" alt="Generate and fix code" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -111,7 +115,7 @@ Learn how to use the code editor and other tools in Visual Studio to write, navi
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_git-mark.svg" alt="" />
+                            <img src="/media/common/i_git-mark.svg" alt="Use Git" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -140,7 +144,7 @@ Create your first app in Visual Studio.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Get started with C# and ASP.NET in Visual Studio</h3>
+                        <h3>Get started with C# and ASP.NET Core in Visual Studio</h3>
                     </div>
                 </div>
             </div>
@@ -148,17 +152,17 @@ Create your first app in Visual Studio.
         </a>
     </li>
     <li>
-        <a href="/visualstudio/ide/quickstart-cpp">
+        <a href="/visualstudio/ide/getting-started-with-cpp-in-visual-studio">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/logos/logo_Cplusplus.svg" alt="" />
+                            <img src="https://docs.microsoft.com/media/logos/logo_Cplusplus.svg" alt="Get started with C++" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Get started with C++ in Visual Studio</h3>
+                        <h3>Create a C++ console app in Visual Studio</h3>
                     </div>
                 </div>
             </div>
@@ -190,7 +194,7 @@ Create your first app in Visual Studio.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/logos/logo_vb.svg" alt="" />
+                            <img src="https://docs.microsoft.com/media/logos/logo_vb.svg" alt="Create Visual Basic console app" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -208,7 +212,7 @@ Create your first app in Visual Studio.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/logos/logo_nodejs.svg" alt="" />
+                            <img src="https://docs.microsoft.com/media/logos/logo_nodejs.svg" alt="Create Node.js web app" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -226,11 +230,65 @@ Create your first app in Visual Studio.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/logos/logo_r.svg" alt="" />
+                            <img src="https://docs.microsoft.com/media/logos/logo_r.svg" alt="Get started with R Tools" />
                         </div>
                     </div>
                     <div class="cardText">
                         <h3>Get started with R Tools for Visual Studio</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="/visualstudio/ide/quickstart-uwp-csharp">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/media/logos/logo_Windows.svg" alt="Create a UWP app with C#" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Create a UWP app in C#</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="/dotnet/core/tutorials/with-visual-studio">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/media/logos/logo_NETcore.svg" alt="Create a .NET Core app in C#" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Create a .NET Core console app in C#</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="/azure/app-service/app-service-web-get-started-dotnet-framework?view=azure-dotnet">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/media/logos/logo_azure.svg" alt="Create an Azure web app" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Create an Azure web app in Visual Studio</h3>
                     </div>
                 </div>
             </div>

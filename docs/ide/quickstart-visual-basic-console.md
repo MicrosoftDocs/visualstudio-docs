@@ -1,16 +1,15 @@
 ---
-title: "Quickstart: Create your first console app in Visual Studio with Visual Basic | Microsoft Docs"
+title: "Quickstart: Create your first console app in Visual Studio with Visual Basic"
+description: "Learn how to create a simple console app in Visual Studio with Visual Basic, step-by-step."
 ms.custom: ""
-ms.date: "12/10/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-acquisition"
-ms.tgt_pltfrm: ""
-ms.topic: "quickstart"
-ms.devlang: "vb"
-author: "TerryGLee"
-ms.author: "tglee"
+ms.date: 12/10/2017
+ms.prod: visual-studio-dev15
+ms.technology: vs-acquisition
+ms.prod: visual-studio-dev15
+ms.topic: quickstart
+ms.devlang: vb
+author: TerryGLee
+ms.author: tglee
 manager: douge
 dev_langs:
   - vb
@@ -18,16 +17,18 @@ ms.workload:
   - "multiple"
 ---
 # Quickstart: Create your first console app in Visual Studio with Visual Basic
+
 In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you'll create a simple Visual Basic application that runs on the console.
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) page to install it for free.
 
 ## Create a project
+
 First, you'll create a Visual Basic application project. The project type comes with all the template files you'll need, before you've even added anything!
 
 1. Open Visual Studio 2017.
 
-2. From the top menu bar, choose **File** > **New** > **Project...**.
+2. From the top menu bar, choose **File** > **New** > **Project**.
 
 3. In the **New Project** dialog box in the left pane, expand **Visual Basic**, and then choose **.NET Core**. In the middle pane, choose **Console App (.NET Core)**. Then name the project *HelloWorld*.
 
@@ -42,6 +43,7 @@ First, you'll create a Visual Basic application project. The project type comes 
      ![.NET Core cross-platform development workload in the Visual Studio Installer](../ide/media/dot-net-core-xplat-dev-workload.png)
 
 ## Create the application
+
 After you select your Visual Basic project template and name your project, Visual Studio creates a simple "Hello World" application for you. It calls the <xref:System.Console.WriteLine%2A> method to display the literal string "Hello World!" in the console window.
 
 ![View the default Hello World code from the template](../ide/media/vb-console-helloworld-template.png)
@@ -53,6 +55,7 @@ If you click the **HelloWorld** button in the IDE, you can run the program in De
 When you do this, the console window is visible for only a moment before it closes. This happens because the `Main` method terminates after its single statement executes, and so the application ends.
 
 ### Add some code
+
 Let's add some code to pause the application and then ask for user input.
 
 1. Add the following code immediately after the call to the <xref:System.Console.WriteLine%2A> method:
@@ -68,6 +71,7 @@ Let's add some code to pause the application and then ask for user input.
    This compiles your program into an intermediate language (IL) that's converted into binary code by a just-in-time (JIT) compiler.
 
 ## Run the application
+
 1. Click the **HelloWorld** button on the toolbar.
 
    ![Click the Hello World button to run the program from the toolbar](../ide/media/vb-console-hello-world-button.png)
@@ -76,8 +80,9 @@ Let's add some code to pause the application and then ask for user input.
 
    ![Console window showing Hello World and Press any key to continue](../ide/media/vb-console-hello-world-press-any-key.png)
 
-## Next Steps
+## Next steps
+
 Congratulations on completing this Quickstart! We hope you learned a little bit about Visual Basic and the Visual Studio IDE. To learn more, continue with the following tutorial.
 
 > [!div class="nextstepaction"]
-> [Getting started with Visual Basic in Visual Studio](tutorial-visual-basic-console.md)
+> [Get started with Visual Basic in Visual Studio](tutorial-visual-basic-console.md)

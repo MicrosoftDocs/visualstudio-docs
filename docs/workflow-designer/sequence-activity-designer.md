@@ -1,26 +1,31 @@
 ---
-title: "Sequence Activity Designer | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
-f1_keywords: 
+title: "Workflow Designer - Sequence Activity Designer"
+ms.date: 11/04/2016
+ms.topic: reference
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
+f1_keywords:
   - "System.Activities.Statements.Sequence.UI"
 ms.assetid: 51c8d3cb-4d43-458f-9631-b63755f9ac94
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # Sequence Activity Designer
+
 The <xref:System.Activities.Statements.Sequence> activity contains an ordered collection of child activities that it executes in order.
 
- Another way to execute a set of activities in order is to use a <xref:System.Activities.Statements.Flowchart> activity. Consider using the [Flowchart](../workflow-designer/flowchart-activity-designer.md) when you have a simple branching or looping program flow that you want to model diagrammatically.
+Another way to execute a set of activities in order is to use a <xref:System.Activities.Statements.Flowchart> activity. Consider using the [Flowchart](../workflow-designer/flowchart-activity-designer.md) when you have a simple branching or looping program flow that you want to model diagrammatically.
 
 ## Using the Sequence Activity Designer
- To add a <xref:System.Activities.Statements.Sequence> activity, drag the **Sequence** activity designer from the **Toolbox** and drop it on to the Windows Workflow Designer surface. To add a child activity to this <xref:System.Activities.Statements.Sequence> activity, drag some other activity from the **Toolbox** and drop it on the triangle in the box with the hint text "Drop activity here".
+
+To add a <xref:System.Activities.Statements.Sequence> activity, drag the **Sequence** activity designer from the **Toolbox** and drop it on to the Windows Workflow Designer surface. To add a child activity to this <xref:System.Activities.Statements.Sequence> activity, drag some other activity from the **Toolbox** and drop it on the triangle in the box with the hint text "Drop activity here".
 
 ### Sequence Activity Properties in the Workflow Designer
- The following table shows the <xref:System.Activities.Statements.Sequence> properties and describes how they are used in the designer. These properties can be edited in property grid or on the designer surface.
+
+The following table shows the <xref:System.Activities.Statements.Sequence> properties and describes how they are used in the designer. These properties can be edited in property grid or on the designer surface.
 
 |Property Name|Required|Usage|
 |-------------------|--------------|-----------|

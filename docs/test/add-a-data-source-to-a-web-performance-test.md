@@ -1,14 +1,15 @@
 ---
-title: "Add a data source to a web performance test in Visual Studio | Microsoft Docs"
-ms.date: "10/03/2016"
-ms.topic: "article"
+title: "Add a data source to a web performance test in Visual Studio"
+ms.date: 10/03/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "Web performance tests, walkthroughs"
   - "Web performance tests, data binding (database)"
 ms.assetid: 2ada376d-f168-455d-9643-6acb535360c1
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # Add a data source to a web performance test

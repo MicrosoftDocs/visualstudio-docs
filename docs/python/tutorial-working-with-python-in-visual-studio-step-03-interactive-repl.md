@@ -1,22 +1,16 @@
 ---
-title: Working with Python, Step 3, the Interactive REPL Window | Microsoft Docs
-description: Step 3 of a core tutorial for working with Python within Visual Studio, covering the Python Interactive REPL window.
-ms.custom: "mvc"
+title: Working with Python Tutorial, Step 3, the interactive REPL
+description: Step 3 of a core walkthrough of Python capabilities in Visual Studio, covering the Python Interactive REPL window.
 ms.date: 01/16/2018
-ms.reviewer:
-ms.suite:
-ms.technology: 
-  - "devlang-python"
-dev_langs:
-  - "python"
-ms.tgt_pltfrm:
-ms.topic: "tutorial"
-author: "kraigb"
-ms.author: "kraigb"
-manager: ghogen
+ms.prod: visual-studio-dev15
+ms.technology: vs-python
+ms.topic: tutorial
+author: kraigb
+ms.author: kraigb
+manager: douge
 ms.workload: 
-  - "python"
-  - "data-science"
+  - python
+  - data-science
 ---
 
 # Step 3: Using the interactive REPL window
@@ -91,7 +85,7 @@ The Visual Studio *interactive window* for Python provides a rich read-evaluate-
 
 1. What you've just done is use the rapid REPL environment of the interactive window to work out the details for a small piece of code, then you conveniently added that code to your project's source file. When you now run the code again with Ctrl+F5 (or **Debug > Start Without Debugging**), you see the exact results you wanted.
 
-## Next steps
+## Next step
 
 > [!div class="nextstepaction"]
 > [Running code in the debugger](tutorial-working-with-python-in-visual-studio-step-04-debugging.md)

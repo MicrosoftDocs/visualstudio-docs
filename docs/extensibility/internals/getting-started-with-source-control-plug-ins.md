@@ -2,20 +2,16 @@
 title: "Getting Started with Source Control Plug-ins | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "source control plug-ins, getting started"
   - "getting started, source control plug-ins"
 ms.assetid: 46ac1f9f-4ecc-4a72-88d3-4c7e1647e1cb
-caps.latest.revision: 21
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

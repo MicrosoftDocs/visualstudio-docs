@@ -1,22 +1,23 @@
 ---
-title: "Using Rule Sets to Specify the C++ Rules to Run | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Using Rule Sets to Specify the C++ Rules to Run
+ms.date: 04/28/2018
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-code-analysis
+ms.topic: "conceptual"
 author: mikeblome
 ms.author: mblome
-manager: ghogen
+manager: wpickett
 ms.workload:
   - "cplusplus"
 ---
 # Use Rule Sets to Specify the C++ Rules to Run
 
-In Visual Studio, you can create and modify a custom *rule set* to meet specific project needs associated with code analysis. To create a custom C++ rule set, a C/C++ project must be open in the Visual Studio IDE. You then open a standard rule set in the rule set editor and then add or remove specific rules and optionally change the action that occurs when code analysis determines that a rule has been violated.
+In Visual Studio, you can create and modify a custom *rule set* to meet specific project needs associated with code analysis. The default rule sets are stored in `%VSINSTALLDIR%\Team Tools\Static Analysis Tools\Rule Sets`.
+
+**Visual Studio 2017 version 15.7**
+You can create custom rule sets using any text editor and apply them in command line builds no matter what build system you are using. For more information, see [/analyze:ruleset](/cpp/build/reference/analyze-code-quality).
+
+To create a custom C++ rule set in Visual Studio, a C/C++ project must be open in the Visual Studio IDE. You then open a standard rule set in the rule set editor and then add or remove specific rules and optionally change the action that occurs when code analysis determines that a rule has been violated.
 
 To create a new custom rule set, you save it by using a new file name. The custom rule set is automatically assigned to the project.
 
@@ -71,3 +72,20 @@ To create a new custom rule set, you save it by using a new file name. The custo
 - To switch between showing and hiding rules that are assigned the **None** action, choose **Show rules that are not enabled**.
 
 - To add or remove Microsoft default rule sets to the current rule set, choose **Add or remove child rule sets**.
+
+## To create a rule set in a text editor
+
+You can create a custom rule set in a text editor, store it in any location with a `.ruleset` extension, and apply in with the [/analyze:ruleset](/cpp/build/reference/analyze-code-quality) compiler option.
+
+The following example shows a basic rule set file that you can use as a starting point:
+
+```xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="New Rule Set" Description=" " ToolsVersion="15.0">
+  <Rules AnalyzerId="Microsoft.Analyzers.NativeCodeAnalysis" RuleNamespace="Microsoft.Rules.Native">
+    <Rule Id="C6001" Action="Warning" />
+    <Rule Id="C26494" Action="Warning" />
+  </Rules>
+</RuleSet>
+```

@@ -2,21 +2,17 @@
 title: "IEEVisualizerDataProvider::GetNewObjectForVisualizer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IEEVisualizerDataProvider::GetNewObjectForVisualizer"
 helpviewer_keywords: 
   - "IEEVisualizerDataProvider::GetNewObjectForVisualizer method"
 ms.assetid: a898d549-4898-4fde-aad1-e8bb89129652
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

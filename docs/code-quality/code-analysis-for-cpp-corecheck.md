@@ -1,20 +1,16 @@
 ---
-title: "Visual Studio C++ Core Guidelines Checker Reference | Microsoft Docs"
-ms.custom: ""
-ms.date: "03/22/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
+title: Visual Studio C++ Core Guidelines Checker Reference
+ms.date: 03/22/2018
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
+helpviewer_keywords:
   - "code analysis, C++ core check"
 ms.assetid: f1429463-136e-41ed-8a75-a8dbf0b4fd89
 author: mikeblome
 ms.author: mblome
-manager: ghogen
-ms.workload: 
+manager: wpickett
+ms.workload:
   - "cplusplus"
 ---
 # C++ Core Guidelines Checker Reference
@@ -61,7 +57,7 @@ Do not assign the result of an allocation or a function call with an owner\<T> r
 [C26401 DONT_DELETE_NON_OWNER](c26401.md)
 Do not delete a raw pointer that is not an owner\<T>. See [C++ Core Guidelines I.11](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Ri-raw).
 
-[C26402 DONT_HEAP_ALLOCATE_MOVABLE_RESULT](C26402.md)  
+[C26402 DONT_HEAP_ALLOCATE_MOVABLE_RESULT](C26402.md) 
 Return a scoped object instead of a heap-allocated if it has a move constructor. See [C++ Core Guidelines R.3](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Rr-ptr).
 
 [C26408 NO_MALLOC_FREE](C26408.md)
@@ -124,7 +120,7 @@ Return a scoped object instead of a heap-allocated if it has a move constructor.
 [C26427 NO_GLOBAL_INIT_EXTERNS](C26427.md)
   Global initializer accesses extern object '%symbol%'. See [C++ Core Guidelines I.22](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#i22-avoid-complex-initialization-of-global-objects).
 
-[C26444 NO_UNNAMED_RAII_OBJECTS](c26444.md) 
+[C26444 NO_UNNAMED_RAII_OBJECTS](c26444.md)
 Avoid unnamed objects with custom construction and destruction. See [ES.84: Don't (try to) declare a local variable with no name](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md).
 
 ## CLASS Group
@@ -146,7 +142,7 @@ Function '%symbol%' should specify exactly one of 'virtual', 'override', or 'fin
   The type '%symbol%' with a virtual function needs either public virtual or protected nonvirtual destructor. See [C++ Core Guidelines C.35](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#c35-a-base-class-destructor-should-be-either-public-and-virtual-or-protected-and-nonvirtual).
 
 
-[C26443 NO_EXPLICIT_DTOR_OVERRIDE](c26443.md) 
+[C26443 NO_EXPLICIT_DTOR_OVERRIDE](c26443.md)
 Overriding destructor should not use explicit 'override' or 'virtual' specifiers. See [C.128: Virtual functions should specify exactly one of virtual, override, or final](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md).
 
 
@@ -182,7 +178,7 @@ See [C++ Core Guidelines:  F.6: If your function may not throw, declare it noexc
 [C26460 USE_CONST_REFERENCE_ARGUMENTS](c26460.md)
   The reference argument '%argument%' for function '%function%' can be marked as `const`. See [C++ Core Guidelines con.3](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Rconst-ref).
 
-[C26461 USE_CONST_POINTER_ARGUMENTS](c26461.md): 
+[C26461 USE_CONST_POINTER_ARGUMENTS](c26461.md):
   The pointer argument '%argument%' for function '%function%' can be marked as a pointer to `const`. See [C++ Core Guidelines con.3](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Rconst-ref).
 
 [C26462 USE_CONST_POINTER_FOR_VARIABLE](c26462.md)
@@ -225,7 +221,7 @@ See [C++ Core Guidelines:  F.6: If your function may not throw, declare it noexc
 
 [C26475 NO_FUNCTION_STYLE_CASTS](C26475.md)
   Do not use function style C-casts. See [C++ Core Guidelines ES.49](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#es49-if-you-must-use-a-cast-use-a-named-cast).
- 
+
 [C26490 NO_REINTERPRET_CAST](c26490.md)
   Don't use `reinterpret_cast`. See [C++ Core Guidelines Type.1](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#SS-type).
 
@@ -237,7 +233,7 @@ See [C++ Core Guidelines:  F.6: If your function may not throw, declare it noexc
 
 [C26493 NO_CSTYLE_CAST](c26493.md)
   Don't use C-style casts. See [C++ Core Guidelines Type.4](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#SS-type).
- 
+
 [C26494 VAR_USE_BEFORE_INIT](c26494.md)
   Variable '%variable%' is uninitialized. Always initialize an object. See [C++ Core Guidelines Type.5](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#SS-type).
 
@@ -274,7 +270,7 @@ Prefer to use `gsl::at()` instead of unchecked subscript operator. See [C++ Core
 Consider using `gsl::finally` if final action is intended. See [C++ Core Guidelines:  GSL.util: Utilities](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#SS-utilities).
 
 [C26449 NO_SPAN_FROM_TEMPORARY](c26449.md)
-`gsl::span` or `std::string_view` created from a temporary will be invalid when the temporary is invalidated. See 
+`gsl::span` or `std::string_view` created from a temporary will be invalid when the temporary is invalidated. See
 [C++ Core Guidelines: GSL.view: Views](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#gslview-views).
 
 

@@ -1,22 +1,16 @@
 ---
-title: Quickstart - Create a Python project using a template | Microsoft Docs
+title: Quickstart - Create a Python project using a template
 description: In this quickstart, you create a Visual Studio project for Python using the built-in template for a basic Flask app.
-ms.custom: "mvc"
-ms.date: 03/22/2018
-ms.reviewer:
-ms.suite:
-ms.technology: 
-  - "devlang-python"
-dev_langs:
-  - "python"
-ms.tgt_pltfrm:
-ms.topic: "quickstart"
-author: "kraigb"
-ms.author: "kraigb"
-manager: "douge"
+ms.date: 05/07/2018
+ms.prod: visual-studio-dev15
+ms.technology: vs-python
+ms.topic: quickstart
+author: kraigb
+ms.author: kraigb
+manager: douge
 ms.workload: 
-  - "python"
-  - "data-science"
+  - python
+  - data-science
 ---
 
 # Quickstart: create a Python project from a template in Visual Studio
@@ -61,7 +55,7 @@ Once you've [installed Python support in Visual Studio 2017](installing-python-s
 
 **Answer**: With the Python workload installed, Visual Studio provides a variety of project templates including ones for the [Flask, Bottle, and Django web frameworks](../python/python-web-application-project-templates.md), Azure cloud services, different machine learning scenarios, and even a template to create a project from an existing folder structure containing a Python app. You access these through the **File > New > Project...** dialog box by selecting the **Python** language node and its child nodes.
 
-Visual Studio also provides a variety of file or *item templates* to quickly create a Python class, a Python package, a Python unit test, web.config files, and more. When you have a Python project open, you access item templates through the **Project > Add New Item...** menu command.
+Visual Studio also provides a variety of file or *item templates* to quickly create a Python class, a Python package, a Python unit test, `web.config` files, and more. When you have a Python project open, you access item templates through the **Project > Add New Item** menu command. See the [item templates](python-item-templates.md) reference.
 
 Using templates can save you significant time when starting a project or creating a file, and are also a great way to learn about different app types and code structures. It's helpful to take a few minutes to create projects and items from the various templates to familiarize yourself with what they offer.
 
@@ -76,6 +70,6 @@ Using templates can save you significant time when starting a project or creatin
 
 ## See also
 
-- [Manually identifying an existing Python interpreter](managing-python-environments-in-visual-studio.md#manually-identifying-an-existing-environment).
+- [Manually identifying an existing Python interpreter](managing-python-environments-in-visual-studio.md#manually-identify-an-existing-environment).
 - [Install Python support in Visual Studio 2015 and earlier](installing-python-support-in-visual-studio.md).
 - [Install locations](installing-python-support-in-visual-studio.md#install-locations).

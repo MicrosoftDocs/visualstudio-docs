@@ -2,20 +2,16 @@
 title: "Item Metadata in Target Batching | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "batching [MSBuild]"
   - "MSBuild, target batching"
   - "target batching [MSBuild]"
 ms.assetid: f3cc4186-6a4c-4161-bbe5-1ec638b4925b
-caps.latest.revision: 6
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

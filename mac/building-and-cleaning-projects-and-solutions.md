@@ -1,10 +1,9 @@
 ---
-title: "Building and Cleaning Projects and Solutions"
-description: 
+title: "Building and Cleaning Projects and Solutions in Visual Studio for Mac"
+description: "This article describes how to build a project in Visual Studio for Mac"
 author: asb3993
 ms.author: amburns
-ms.date: 04/14/2017
-ms.topic: article
+ms.date: 05/06/2018
 ms.assetid: E4B6CB42-9FE2-43B9-93B7-BD4BD50518B1
 ---
 
@@ -18,11 +17,11 @@ To build, rebuild, or clean an entire solution:
 
 1. Select the Solution node in the Solution Pad:
 
-    ![](media/compiling-and-building-image1.png)
+    ![Selecting the solution node](media/compiling-and-building-image1.png)
 
 2. Select Build Menu in the Menu bar and select one of the following options:
 
-    ![](media/compiling-and-building-image2.png)
+    ![selecting the build all menu item](media/compiling-and-building-image2.png)
 
     * **Build All** - Attempts to build all files within project that have changed within the project since the most recent build.
     * **Rebuild All** - Cleans the solution and then builds it.

@@ -1,13 +1,14 @@
 ---
-title: "Create a Custom HTTP Body Editor for the Web Performance Test Editor in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "article"
+title: "Create a Custom HTTP Body Editor for the Web Performance Test Editor in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "Web performance tests, custom HTTP body editor"
 ms.assetid: a0b2d8ff-3e2a-487e-9172-90047174f336
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # How to: Create a Custom HTTP Body Editor for the Web Performance Test Editor

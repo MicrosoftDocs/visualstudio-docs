@@ -1,20 +1,17 @@
 ---
-title: "How to: Create or Update Standard Code Analysis Check-in Policies | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
+title: "Create or Update Standard Code Analysis Check-in Policies"
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
+ms.topic: "conceptual"
+f1_keywords:
   - "vs.codeanalysis.policyeditor"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "code analysis, migrating check-in policy"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # How to: Create or Update Standard Code Analysis Check-in Policies
@@ -28,11 +25,11 @@ Code analysis check-in policies are set in the team project settings and apply t
 
 - For managed code, you set the check-in policy by specifying a *rule set* that contains a subset of the code analysis rules.
 
-- For C/C++ code, the check-in policy requires that all code analysis rules are run. You can add pre-processor directives to disable specific rules for the individual code projects in your team project.
+- For C/C++ code, in Visual Studio 2017 version 15.6 and earlier, the check-in policy requires that all code analysis rules are run. You can add pre-processor directives to disable specific rules for the individual code projects in your team project. In 15.7 and later, you can use **/analyze:ruleset** to specify which rules to run. For more information, see [Using Rule Sets to Specify the C++ Rules to Run](using-rule-sets-to-specify-the-cpp-rules-to-run.md).
 
 After you specify a check-in policy for managed code, team members can synchronize their code analysis settings for code projects to the team project policy settings.
 
-### To open the check-in policy editor
+## To open the check-in policy editor
 
 1. In Team Explorer, right-click the team project name, point to **Team Project Settings**, and then click **Source Control**.
 
@@ -44,28 +41,28 @@ After you specify a check-in policy for managed code, team members can synchroni
 
     - Double-click the existing **Code Analysis** item in the **Policy Type** list to change the policy.
 
-### To set policy options
+## To set policy options
 
 Select or clear the following options:
 
-    |Option|Description|  
-    |------------|-----------------|  
-    |**Enforce check-in to only contain files that are part of current solution.**|Code analysis can run only on files specified in solution and project configuration files. This policy guarantees that all code that is part of a solution is analyzed.|  
-    |**Enforce C/C++ Code Analysis (/analyze)**|Requires that all C or C++ projects be built with the /analyze compiler option to run code analysis before they can be checked in.|  
-    |**Enforce Code Analysis for Managed Code**|Requires that all managed projects run code analysis and build before they can be checked in.|
+|Option|Description|
+|------------|-----------------|
+|**Enforce check-in to only contain files that are part of current solution.**|Code analysis can run only on files specified in solution and project configuration files. This policy guarantees that all code that is part of a solution is analyzed.|
+|**Enforce C/C++ Code Analysis (/analyze)**|Requires that all C or C++ projects be built with the /analyze compiler option to run code analysis before they can be checked in.|
+|**Enforce Code Analysis for Managed Code**|Requires that all managed projects run code analysis and build before they can be checked in.|
 
-### To specify a managed rule set
+## To specify a managed rule set
 
-- From the **Run this rule set** list, use one of the following methods:
+From the **Run this rule set** list, use one of the following methods:
 
-    - Select a Microsoft standard rule set.
+- Select a Microsoft standard rule set.
 
-    - To select a custom rule set, click **\<Select Rule Set from Source Control...>**, and then type the version control path of the rule set in the source control browser. The syntax of a version control path is:
+- Select a custom rule set by clicking **\<Select Rule Set from Source Control...>**. Then, type the version control path of the rule set in the source control browser. The syntax of a version control path is:
 
-    - **$/** `TeamProjectName` **/** `VersionControlPath`
+   **$/** `TeamProjectName` **/** `VersionControlPath`
 
-    - For more information about how to create and implement a custom check-in policy rule set, see [Implementing Custom Check-in Policies for Managed Code](../code-quality/implementing-custom-code-analysis-check-in-policies-for-managed-code.md).
+For more information about how to create and implement a custom check-in policy rule set, see [Implement Custom Check-in Policies for Managed Code](../code-quality/implementing-custom-code-analysis-check-in-policies-for-managed-code.md).
 
 ## See also
 
-[Creating and Using Code Analysis Check-In Policies](../code-quality/creating-and-using-code-analysis-check-in-policies.md)
+- [Create and use code analysis check-in policies](../code-quality/creating-and-using-code-analysis-check-in-policies.md)

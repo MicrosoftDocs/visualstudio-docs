@@ -2,21 +2,17 @@
 title: "IDebugProgramNodeAttach2::OnAttach | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgramNodeAttach2::OnAttach"
 helpviewer_keywords: 
   - "IDebugProgramNodeAttach2::OnAttach"
 ms.assetid: 5fe52761-a508-4ab5-abdb-334fb6590334
-caps.latest.revision: 3
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

@@ -1,15 +1,18 @@
 ---
-title: "How to: Set Breakpoints in Workflows | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: "Workflow Designer - How to: Set Breakpoints in Workflows"
+ms.date: 11/04/2016
+ms.topic: conceptual
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
 ms.assetid: e41b21c9-c061-4358-8e2f-eb5e412864a8
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # How to: Set Breakpoints in Workflows
+
 When you use Windows Workflow Designer, you can set breakpoints on your graphical workflows as you would do in Visual Basic or C# code. As expected, workflow execution stops at each breakpoint that you set.
 
  A breakpoint has three states: *Pending*, *Bound*, and *Error*. When you set a breakpoint, it is Pending, and it is represented by a solid red icon. When the runtime has loaded the workflow type, it becomes Bound. If you specify an incorrect format for the breakpoint, such as an activity name that is not valid, an error window appears. The breakpoint is still added to the breakpoint window, but it is marked with a small "x".
@@ -23,7 +26,7 @@ When you use Windows Workflow Designer, you can set breakpoints on your graphica
 > [!WARNING]
 > Breakpoints in a workflow will not get hit if the full path to XAML file property is not accurate.The full path to XAML file is not accurate after moving the project/solution to another folder or to another machine.Select Ctrl+S to save and update full path property.
 
-### To set a breakpoint on an activity in the Design View
+## To set a breakpoint on an activity in the Design View
 
 1.  Select the activity you want the debugger to break on.
 

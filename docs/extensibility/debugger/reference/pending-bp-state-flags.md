@@ -2,21 +2,17 @@
 title: "PENDING_BP_STATE_FLAGS | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "PENDING_BP_STATE_FLAGS"
 helpviewer_keywords: 
   - "PENDING_BP_STATE_FLAGS enumeration"
 ms.assetid: 85522449-3fd8-4da5-b0fe-a43160e0c33b
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

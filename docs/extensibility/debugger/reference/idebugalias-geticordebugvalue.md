@@ -2,21 +2,17 @@
 title: "IDebugAlias::GetICorDebugValue | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugAlias::GetICorDebugValue"
 helpviewer_keywords: 
   - "IDebugAlias::GetICorDebugValue method"
 ms.assetid: b9eb39ee-84af-4ace-9cfe-236b3d48aff5
-caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

@@ -2,11 +2,7 @@
 title: "Configure Firewall for Remote Debugging Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
+ms.technology: "vs-ide-debug"
 ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.firewallconfiguration"
@@ -21,10 +17,9 @@ helpviewer_keywords:
   - "remote debugging, configuring firewalls"
   - "firewalls, configuring for remote debugging"
 ms.assetid: 5dff3393-fdeb-4129-a2f6-31f653107a82
-caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

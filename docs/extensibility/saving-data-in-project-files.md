@@ -2,21 +2,17 @@
 title: "Saving Data in Project Files | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "data [Visual Studio], saving in project files"
   - "project files"
   - "project files, saving data"
 ms.assetid: a3d4b15b-a91e-41ba-b235-e62632d11bc5
-caps.latest.revision: 28
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

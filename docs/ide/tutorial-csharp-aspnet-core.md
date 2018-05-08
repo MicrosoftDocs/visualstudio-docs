@@ -1,16 +1,14 @@
 ---
-title: "Getting started with C# and ASP.NET Core in Visual Studio | Microsoft Docs"
+title: "Get started with C# and ASP.NET Core in Visual Studio"
 ms.custom: ""
-ms.date: "12/11/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-acquisition"
-ms.tgt_pltfrm: ""
-ms.topic: "tutorial"
-ms.devlang: "CSharp"
-author: "TerryGLee"
-ms.author: "tglee"
+ms.date: 12/11/2017
+ms.prod: visual-studio-dev15
+ms.technology: vs-acquisition
+ms.prod: visual-studio-dev15
+ms.topic: tutorial
+ms.devlang: CSharp
+author: TerryGLee
+ms.author: tglee
 manager: douge
 dev_langs:
   - CSharp
@@ -19,7 +17,7 @@ ms.workload:
   - "dotnetcore"
 ---
 
-# Getting started with C# and ASP.NET in Visual Studio
+# Get started with C# and ASP.NET in Visual Studio
 In this tutorial for C# development with ASP.NET Core using Visual Studio, you'll create a C# ASP.NET Core web app, add code to it, explore some features of the IDE, and run the app.
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) page to install it for free.
@@ -41,7 +39,7 @@ First, you'll create a ASP.NET Core project. The project type comes with all the
 
 1. Open Visual Studio 2017.
 
-2. From the top menu bar, choose **File** > **New** > **Project...**.
+2. From the top menu bar, choose **File** > **New** > **Project**.
 
 3. In the **New Project** dialog box in the left pane, expand **Visual C#**, expand **Web**, and then choose **.NET Core**. In the middle pane, choose **ASP.NET Core Web Application**, name the file *MyCoreApp*, and then choose **OK**.   
 
@@ -60,7 +58,7 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
    ![.NET Core cross-platform development workload in the Visual Studio Installer](../ide/media/asp-dot-net-web-dev-workload.png)
 
 ##### Option 2: Use the Tools menu bar
-1. Cancel out of the **New Project** dialog box and from the top menu bar, choose **Tools** > **Get Tools and Features...**.
+1. Cancel out of the **New Project** dialog box and from the top menu bar, choose **Tools** > **Get Tools and Features**.
 
 2. The Visual Studio Installer launches. Choose the **ASP.NET and web development** workload, and then choose **Modify**.   
 
@@ -85,15 +83,15 @@ The MVC pattern helps you create apps that are easier to test and update than tr
 
     ![ASP.NET Solution Explorer in Visual Studio](../ide/media/csharp-aspnet-solution-explorer-mycoreapp.png)
 
-1. Open the **HomeController.cs** file from the **Controllers** folder.
+1. Open the *HomeController.cs* file from the **Controllers** folder.
 
       ![HomeController.cs file in the Solution Explorer in Visual Studio](../ide/media/csharp-aspnet-solution-explorer-home-controller.png)
 
-2. View the **HomeController.cs**
+2. View the *HomeController.cs*
 
   ![HomeController.cs in the Visual Studio code window](../ide/media/csharp-aspnet-home-controller-code.png)
 
-4. The project also has a **Views** folder that contains other folders that map to each controller (as well as one for **Shared** views). For example, the view CSHTML file (an extension of HTML) for the **/Home/About** path would be at **Views/Home/About.cshtml**. Open that file.
+4. The project also has a **Views** folder that contains other folders that map to each controller (as well as one for **Shared** views). For example, the view CSHTML file (an extension of HTML) for the */Home/About* path would be at *Views/Home/About.cshtml*. Open that file.
 
   ![About.cshtml file in the Solution Explorer in Visual Studio](../ide/media/csharp-aspnet-solution-explorer-view-about.png)
 
@@ -102,13 +100,13 @@ The MVC pattern helps you create apps that are easier to test and update than tr
   ![About.cshtml in the Visual Studio code window](../ide/media/csharp-aspnet-about-cshtml-code.png)
 
  >[!NOTE]
- > To learn more about this, see the [Getting started with C# and ASP.NET using the Razor syntax](/aspnet/web-pages/overview/getting-started/introducing-razor-syntax-c) page.
+ > To learn more about this, see the [Get started with C# and ASP.NET using the Razor syntax](/aspnet/web-pages/overview/getting-started/introducing-razor-syntax-c) page.
 
-6. The solution also contains a **wwwroot** folder that is the root for your web site. You can put static site content, such as CSS, images, and JavaScript libraries, directly at the paths you'd want them to be at when the site is deployed.
+6. The solution also contains a *wwwroot* folder that is the root for your web site. You can put static site content, such as CSS, images, and JavaScript libraries, directly at the paths you'd want them to be at when the site is deployed.
 
  ![wwwroot folder in the Solution Explorer in Visual Studio](../ide/media/csharp-aspnet-solution-wwwroot.png)
 
-7. There are also a variety of configuration files that serve to manage the project, its packages, and the application at runtime. For example, the default application [configuration](/aspnet/core/fundamentals/configuration) is stored in **appsettings.json**. However, you can override some/all of these settings on a per-environment basis, such as by providing an **appsettings.Development.json** file for the **Development** environment.
+7. There are also a variety of configuration files that serve to manage the project, its packages, and the application at runtime. For example, the default application [configuration](/aspnet/core/fundamentals/configuration) is stored in *appsettings.json*. However, you can override some/all of these settings on a per-environment basis, such as by providing an *appsettings.Development.json* file for the **Development** environment.
 
  ![Configuration files in the Solution Explorer in Visual Studio](../ide/media/csharp-aspnet-solution-explorer-config-files.png)
 
@@ -125,21 +123,21 @@ The MVC pattern helps you create apps that are easier to test and update than tr
 
  ![Select About in the browser window for your app](../ide/media/csharp-aspnet-browser-page.png)
 
- Among other things, the About page in the browser renders the text that is set in the HomeController.cs file.
+ Among other things, the **About** page in the browser renders the text that is set in the *HomeController.cs* file.
 
    ![View the text on the About page](../ide/media/csharp-aspnet-browser-page-about.png)
 
-1. Keep the browser window open and return to Visual Studio. Open **Controllers/HomeController.cs** if it's not already open.
+1. Keep the browser window open and return to Visual Studio. Open *Controllers/HomeController.cs* if it's not already open.
 
  ![Open the HomeController.cs file from the Solution Explorer in Visual Studio](../ide/media/csharp-aspnet-solution-explorer-home-controller.png)
 
 1. Set a breakpoint in the first line of the **About** method. To do this, click in the margin or set the cursor on the line and press **F9**.
 
-  This line sets some data in the **ViewData** collection that is rendered in the CSHTML page at **Views/Home/About.cshtml**.
+  This line sets some data in the **ViewData** collection that is rendered in the CSHTML page at *Views/Home/About.cshtml*.
 
  ![Set a breakpoint in the first line of the About method in About.cshtml.  ](../ide/media/csharp-aspnet-home-controller-code-set-breakpoint.png)
 
-1. Return to the browser and refresh the About page. This will trigger the breakpoint in Visual Studio.
+1. Return to the browser and refresh the **About** page. This will trigger the breakpoint in Visual Studio.
 
 1. In Visual Studio, mouse over the **ViewData** member to view its data.
 
@@ -147,7 +145,7 @@ The MVC pattern helps you create apps that are easier to test and update than tr
 
 1. Remove the application breakpoint using the same method you used to add it.
 
-1. Open **Views/Home/About.cshtml**.
+1. Open *Views/Home/About.cshtml*.
 
  ![Select About.cshtml in the Solution Explorer](../ide/media/csharp-aspnet-solution-explorer-view-about.png)
 
@@ -168,4 +166,4 @@ The MVC pattern helps you create apps that are easier to test and update than tr
 Congratulations on completing this tutorial! We hope you learned a little bit about C#, ASP.NET Core, and the Visual Studio IDE. To learn even more, continue with the following tutorial.
 
  > [!div class="nextstepaction"]
- > [Getting started with ASP.NET Core MVC and Visual Studio](/aspnet/core/tutorials/first-mvc-app/start-mvc?tabs=aspnetcore2x)
+ > [Get started with ASP.NET Core MVC and Visual Studio](/aspnet/core/tutorials/first-mvc-app/start-mvc?tabs=aspnetcore2x)

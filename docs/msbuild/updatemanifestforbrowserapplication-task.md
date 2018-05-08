@@ -2,11 +2,8 @@
 title: "UpdateManifestForBrowserApplication Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -18,10 +15,9 @@ helpviewer_keywords:
   - "building XBAP projects [WPF MSBuild]"
   - "UpdateManifestForBrowserApplication task [WPF MSBuild], parameters"
 ms.assetid: 653339f7-654b-4d64-a26a-5c9f27036895
-caps.latest.revision: 8
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

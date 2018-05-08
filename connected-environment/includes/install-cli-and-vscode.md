@@ -1,3 +1,6 @@
+---
+ms.topic: "include"
+---
 ## Install the Connected Environment CLI
 Connected Environment requires minimal local machine setup. Most of your development environment's configuration gets stored in the cloud, and is shareable with other users.
 

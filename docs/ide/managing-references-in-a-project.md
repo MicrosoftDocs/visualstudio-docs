@@ -1,13 +1,9 @@
 ---
-title: "Managing references in a project | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/26/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Manage references in a project
+ms.date: 04/11/2018
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-general
+ms.topic: conceptual
 f1_keywords:
   - "vs.ProjectPropertiesReferencePaths"
   - "cs.ProjectPropertiesReferencePaths"
@@ -22,21 +18,21 @@ helpviewer_keywords:
   - "namespaces [Visual Studio], referencing"
   - "COM components, referencing"
   - "objects [Visual Studio], referencing"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: gewarren
+ms.author: gewarren
+manager: douge
 ms.workload:
   - "multiple"
 ---
-# Managing references in a project
+# Manage references in a project
 
 Before you write code against an external component or connected service, your project must first contain a reference to it. A reference is essentially an entry in a project file that contains the information that Visual Studio needs to locate the component or the service.
 
-To add a reference, right click on the References node in Solution Explorer and choose **Add Reference**. For more information, see [How to: Add or Remove References By Using the Reference Manager](../ide/how-to-add-or-remove-references-by-using-the-reference-manager.md).
+To add a reference, right click on the **References** or **Dependencies** node in **Solution Explorer** and choose **Add Reference**. You can also right-click on the project node and select **Add** > **Reference**. For more information, see [How to: Add or remove references](../ide/how-to-add-or-remove-references-by-using-the-reference-manager.md).
 
-![Add a reference in Visual C&#43;&#43;](../ide/media/vs2015_cpp_add_reference.png "vs2015_cpp_add_reference")
+![Add a reference in Visual C&#43;&#43;](../ide/media/vs2015_cpp_add_reference.png)
 
-You can make a reference to the following types of components and services:
+You can add a reference to the following types of components and services:
 
 - .NET Framework class libraries or assemblies
 
@@ -54,7 +50,7 @@ You can make a reference to the following types of components and services:
 
 Universal Windows Platform (UWP) projects can create references to other UWP projects in the solution, or to Windows 8.1 projects or binaries, provided that these projects do not use APIs that have been deprecated in Windows 10. For more information, see [Move from Windows Runtime 8 to UWP](/windows/uwp/porting/w8x-to-uwp-root).
 
-If you choose to retarget Windows 8.1 projects to Windows 10, see [Port, Migrate, and Upgrade Visual Studio Projects](../porting/port-migrate-and-upgrade-visual-studio-projects.md).
+If you choose to retarget Windows 8.1 projects to Windows 10, see [Port, migrate, and upgrade Visual Studio projects](../porting/port-migrate-and-upgrade-visual-studio-projects.md).
 
 ### Extension SDK references
 
@@ -76,11 +72,11 @@ If you determine that the Extension SDK being referenced by your app is not supp
 
 1. Restart Visual Studio and open your app.
 
-1. Right-click on the **References** node in the project that caused the error and choose **Add Reference**.
+1. Right-click on the **References** or **Dependencies** node in the project that caused the error and choose **Add Reference**.
 
 1. Click the **Windows** tab and then the **Extensions** sub-tab, then uncheck the checkboxes for the old Extension SDKs, and check the checkboxes for the new Extension SDKs. Click **OK**.
 
-## Adding a reference at design time
+## Add a reference at design time
 
 When you make a reference to an assembly in your project, Visual Studio searches for the assembly in the following locations:
 
@@ -89,7 +85,9 @@ When you make a reference to an assembly in your project, Visual Studio searches
 - Other project directories in the same solution. (You can find these assemblies on the **Projects** tab.)
 
 > [!NOTE]
-> All projects contain an implied reference to mscorlib. Visual Basic projects contain an implied reference to `Microsoft.VisualBasic`. All projects contain an implied reference to `System.Core`, even if `System.Core` is removed from the list of references.
+> - All projects contain an implied reference to **mscorlib**.
+> - All projects contain an implied reference to `System.Core`, even if `System.Core` is removed from the list of references.
+> - Visual Basic projects contain an implied reference to <xref:Microsoft.VisualBasic>.
 
 ## References to shared components at run time
 
@@ -99,9 +97,9 @@ If you deploy an application that contains a reference to a custom component tha
 
 By default, the <xref:Microsoft.VisualStudio.VCProjectEngine.VCProjectReference.CopyLocal%2A> property is set to **False** if the assembly or component is in the global assembly cache or is a framework component. Otherwise, the value is set to **True**. Project-to-project references are always set to **True**.
 
-## Referencing a project or assembly that targets a different version of the .NET Framework
+## Reference a project or assembly that targets a different version of the .NET Framework
 
-You can create applications that reference projects or assemblies that target a different version of the .NET Framework. For example, you could create an application that targets the [!INCLUDE[net_client_v40_long](../deployment/includes/net_client_v40_long_md.md)], that references an assembly that targets [!INCLUDE[dnprdnext](../ide/includes/dnprdnext_md.md)]. If you create a project that targets an earlier version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], you cannot set a reference in that project to a project or assembly that targets a newer version.
+You can create applications that reference projects or assemblies that target a different version of the .NET Framework. For example, you could create an application that targets .NET Framework 4.6, that references an assembly that targets .NET Framework 4.5. If you create a project that targets an earlier version of the .NET Framework, you cannot set a reference in that project to a project or assembly that targets a newer version.
 
 For more information, see [Multi-targeting overview](../ide/visual-studio-multi-targeting-overview.md).
 
@@ -109,7 +107,7 @@ For more information, see [Multi-targeting overview](../ide/visual-studio-multi-
 
 Project-to-project references are references to projects that contain assemblies; you create them by using the **Project** tab. Visual Studio can find an assembly when given a path to the project.
 
-When you have a project that produces an assembly, you should reference the project and not use a file reference (see below). The advantage of a project-to-project reference is that it creates a dependency between the projects in the build system. The dependent project will be built if it has changed since the last time the referencing project was built. A file reference does not create a build dependency, so it is possible to build the referencing project without building the dependent project, and the reference can become obsolete. (That is, the project can reference a previously built version of the project.) This can result in several versions of a single DLL being required in the bin directory, which is not possible. When this conflict occurs, you will see a message such as "Warning: the dependency 'file' in project 'project' cannot be copied to the run directory because it would overwrite the reference 'file.'". For more information, see [Troubleshooting Broken References](../ide/troubleshooting-broken-references.md) and [How to: Create and Remove Project Dependencies](../ide/how-to-create-and-remove-project-dependencies.md).
+When you have a project that produces an assembly, you should reference the project and not use a file reference (see below). The advantage of a project-to-project reference is that it creates a dependency between the projects in the build system. The dependent project will be built if it has changed since the last time the referencing project was built. A file reference does not create a build dependency, so it is possible to build the referencing project without building the dependent project, and the reference can become obsolete. (That is, the project can reference a previously built version of the project.) This can result in several versions of a single DLL being required in the *bin* directory, which is not possible. When this conflict occurs, you will see a message such as "Warning: the dependency 'file' in project 'project' cannot be copied to the run directory because it would overwrite the reference 'file.'". For more information, see [Troubleshoot broken references](../ide/troubleshooting-broken-references.md) and [How to: Create and remove project dependencies](../ide/how-to-create-and-remove-project-dependencies.md).
 
 > [!NOTE]
 > A file reference instead of a project-to-project reference is created if the target version of the .NET Framework of one project is version 4.5, and the target version of the other project is version 2, 3, 3.5, or 4.0.
@@ -120,5 +118,5 @@ File references are direct references to assemblies outside the context of a Vis
 
 ## See also
 
-[Troubleshooting Broken References](../ide/troubleshooting-broken-references.md)
-[How to: Add or Remove References By Using the Reference Manager](../ide/how-to-add-or-remove-references-by-using-the-reference-manager.md)
+- [Troubleshoot broken references](../ide/troubleshooting-broken-references.md)
+- [How to: Add or remove references](../ide/how-to-add-or-remove-references-by-using-the-reference-manager.md)

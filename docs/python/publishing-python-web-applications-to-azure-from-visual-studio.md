@@ -1,23 +1,17 @@
 ---
-title: Publishing a Python App to Azure App Service | Microsoft Docs
+title: Publishing a Python app to Azure App Service
 description: How to publish a Python web application directly to Azure App Service from Visual Studio, including the necessary content for the web.config file.
-ms.custom:
 ms.date: 09/27/2017
-ms.reviewer:
-ms.suite:
-ms.technology: 
-  - "devlang-python"
-dev_langs:
-  - "python"
-ms.tgt_pltfrm:
-ms.topic: "conceptual"
-author: "kraigb"
-ms.author: "kraigb"
-manager: ghogen
+ms.prod: visual-studio-dev15
+ms.technology: vs-python
+ms.topic: conceptual
+author: kraigb
+ms.author: kraigb
+manager: douge
 ms.workload: 
-  - "python"
-  - "data-science"
-  - "azure"
+  - python
+  - data-science
+  - azure
 ---
 
 # Publishing to Azure App Service
@@ -80,7 +74,7 @@ Publishing to Azure App Service from Visual Studio 2017 copies only the files in
 
 1. In Visual Studio **Solution Explorer**, right-click the project and select **Add > New Item...*. In the dialog that appears, selecting the "Azure web.config (Fast CGI)" template and select OK. This creates a `web.config` file in your project root.
 
-1. Modify the `PythonHandler` entry in `web.config` so that the path matches the Python installation on the server. For example, for Python 3.6.1 x64 the entry should appear as follows:
+1. Modify the `PythonHandler` entry in `web.config` so that the path matches the Python installation on the server (see [IIS Configuration Reference](https://www.iis.net/configreference) (iis.net) for exact details). For example, for Python 3.6.1 x64 the entry should appear as follows:
 
     ```xml
     <system.webServer>
@@ -108,7 +102,7 @@ Publishing to Azure App Service from Visual Studio 2017 copies only the files in
         <add key="WSGI_HANDLER" value="FlaskAzurePublishExample.app"/>
         ```
 
-    - **Django**: Two changes are needed to `web.config` for Django apps. First, change the `WSGI_HANDLER` value to `django.core.wsgi.get_wsgi_application()` (the object is in the `wsgi.py` file):
+    - **Django**: Two changes are needed to `web.config` for Django projects. First, change the `WSGI_HANDLER` value to `django.core.wsgi.get_wsgi_application()` (the object is in the `wsgi.py` file):
 
         ```xml
         <!-- Django apps only -->
@@ -121,7 +115,7 @@ Publishing to Azure App Service from Visual Studio 2017 copies only the files in
         <add key="DJANGO_SETTINGS_MODULE" value="DjangoAzurePublishExample.settings" />
         ```
 
-1. **Django apps only**: In the folder that matches your project name, open `settings.py` and add your site URL domain to `ALLOWED_HOSTS` as shown below, replacing 'vspython-test-02.azurewebsites.net' with your URL, of course:
+1. **Django apps only**: In the Django project's `settings.py` file, add your site URL domain to `ALLOWED_HOSTS` as shown below, replacing 'vspython-test-02.azurewebsites.net' with your URL, of course:
 
     ```python
     # Change the URL to your specific site
@@ -130,9 +124,13 @@ Publishing to Azure App Service from Visual Studio 2017 copies only the files in
 
     Failure to add your URL to the array results in the error "DisallowedHost at / Invalid HTTP_HOST header: '\<site URL\>'. You may need to add '\<site URL\>' to ALLOWED_HOSTS."
 
+    Note that when the array is empty, Django automatically allows 'localhost', but adding your production URL removes that capabilities. For this reason you might want to maintain separate development and production copies of `settings.py`, or use environment variables to control the run time values.
+
 1. In **Solution Explorer**, expand the folder named the same as your project, right-click the `static` folder, select **Add > New Item...**, select the "Azure static files web.config" template, and select **OK**. This action creates another `web.config` in the `static` folder that disables Python processing for that folder. This configuration sends requests for static files to the default web server rather than using the Python application.
 
 1. Save your project, then in Visual Studio **Solution Explorer**, right-click the project and select **Publish**.
+
+    ![Publish command on a project's context menu](media/template-web-publish-command.png)
 
 1. In the **Publish** tab that appears, select the publishing target:
 
@@ -168,8 +166,8 @@ Publishing to Azure App Service from Visual Studio 2017 copies only the files in
 
     e. Try restarting the App Service after installing new packages. A restart is not necessary when changing `web.config`, as App Service does an automatic restart whenever `web.config` changes.
 
-    > [!Tip] 
-    > If you make any changes to your app's `requirements.txt` file, be sure to again use the Kudu console to install any packages that are now listed in that file. 
+    > [!Tip]
+    > If you make any changes to your app's `requirements.txt` file, be sure to again use the Kudu console to install any packages that are now listed in that file.
 
 1. Once you've fully configured the server environment, refresh the page in the browser and the web app should appear.
 
@@ -177,7 +175,7 @@ Publishing to Azure App Service from Visual Studio 2017 copies only the files in
 
 ## Publishing to App Service - Visual Studio 2015
 
-> [!Note] 
+> [!Note]
 > A short video of this process can be found on [Visual Studio Python Tutorial: Building a Website](https://www.youtube.com/watch?v=FJx5mutt1uk&list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff&index=6) (youtube.com, 3m10s).
 
 1. In **Solution Explorer**, right-click the project select **Publish**.
@@ -197,7 +195,7 @@ Publishing to Azure App Service from Visual Studio 2017 copies only the files in
 
 1. Select **Next >** as needed to review additional settings. If you plan to [remotely debug your Python code on Azure](debugging-remote-python-code-on-azure.md), you must set **Configuration** to **Debug**
 
-1. Select **Publish**. Once your application is deployed to Azure, your default browser opens on that site. 
+1. Select **Publish**. Once your application is deployed to Azure, your default browser opens on that site.
 
 As part of this process, Visual Studio also does the following steps:
 

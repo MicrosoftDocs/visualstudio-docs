@@ -2,21 +2,17 @@
 title: "IEnumDebugCodeContexts2::GetCount | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IEnumDebugCodeContexts2::GetCount"
 helpviewer_keywords: 
   - "IEnumDebugCodeContexts2::GetCount"
 ms.assetid: 74c52fcf-688c-40df-9acd-29b3b84e6216
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

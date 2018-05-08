@@ -1,15 +1,16 @@
 ---
-title: "Create a simple data application by using ADO.NET in Visual Studio | Microsoft Docs"
-ms.date: "08/23/2017"
-ms.topic: "article"
+title: Create a simple data application by using ADO.NET in Visual Studio
+ms.date: 08/23/2017
+ms.topic: conceptual
 dev_langs:
   - "VB"
   - "CSharp"
 ms.assetid: 2222841f-e443-4a3d-8c70-4506aa905193
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.technology: "vs-data-tools"
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.prod: visual-studio-dev15
+ms.technology: vs-data-tools
 ms.workload:
   - "data-storage"
 ---

@@ -1,20 +1,26 @@
 ---
-title: "Test generation | Microsoft IntelliTest Developer Test Tool | Microsoft Docs"
-ms.date: "05/02/2017"
+title: "Test generation | Microsoft IntelliTest Developer Test Tool"
+ms.date: 05/02/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "IntelliTest, Test generation"
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 author: gewarren
 ---
 # Test generation
 
-In traditional unit testing, it requires several 
-ingredients to put together a test:
+In traditional unit testing, a test consists of several things:
+
+* A [sequence of method calls](test-generation.md#test-generators)
+* The arguments with which the methods are called; the arguments are the [test inputs](input-generation.md)
+* Validation of the intended behavior of the tested application by stating a set of [assertions](#assumptions-and-assertions)
+
+Following is an example test structure:
 
 ```
 [Test]
@@ -31,52 +37,23 @@ void MyTest() {
 }
 ```
 
-The test consists of different aspects:
-
-* It fixes a [sequence of method calls](test-generation.md#test-generators)
-* It fixes the arguments with which the methods are called; the arguments are the [test inputs](input-generation.md)
-* It validates the intended behavior of the tested application by a stating a set of [assertions](#assumptions-and-assertions)
-
-IntelliTest can often automatically determine 
-relevant argument values for more general 
-[Parameterized Unit Tests](#parameterized-unit-testing), 
-which provide the sequence of method calls and assertions.
+IntelliTest can often automatically determine relevant argument values for more general [Parameterized Unit Tests](#parameterized-unit-testing), which provide the sequence of method calls and assertions.
 
 <a name="test-generators"></a>
 ## Test generators
 
-IntelliTest generates test cases by selecting a 
-sequence of methods of the implementation under test 
-to execute, and then generating inputs for the 
-methods while checking assertions over the derived data.
+IntelliTest generates test cases by selecting a sequence of methods of the implementation under test to execute, and then generating inputs for the methods while checking assertions over the derived data.
 
-A [parameterized unit test](#parameterized-unit-testing)
-directly states a sequence of method calls in its body.
+A [parameterized unit test](#parameterized-unit-testing) directly states a sequence of method calls in its body.
 
-When IntelliTest needs to construct objects, calls to
-constructors and factory methods will be added 
-automatically to the sequence as required.
+When IntelliTest needs to construct objects, calls to constructors and factory methods will be added automatically to the sequence as required.
 
 <a name="parameterized-unit-testing"></a>
 ## Parameterized unit testing
 
-*Parameterized Unit Tests* (PUTs) are tests that take
-parameters. Unlike traditional unit tests, which are 
-usually closed methods, PUTs take any set of 
-parameters. Is it that simple? Yes - from there, 
-IntelliTest will try to 
-[generate the (minimal) set of inputs](input-generation.md)
-that [fully cover](input-generation.md#dynamic-code-coverage)
-the code reachable from the test.
+*Parameterized Unit Tests* (PUTs) are tests that take parameters. Unlike traditional unit tests, which are usually closed methods, PUTs take any set of parameters. Is it that simple? Yes - from there, IntelliTest will try to [generate the (minimal) set of inputs](input-generation.md) that [fully cover](input-generation.md#dynamic-code-coverage) the code reachable from the test.
 
-PUTs are defined using the 
-[PexMethod](attribute-glossary.md#pexmethod) custom 
-attribute in a similar fashion to MSTest (or NUnit, 
-xUnit). PUTs are instance methods logically grouped 
-in classes tagged with 
-[PexClass](attribute-glossary.md#pexclass). The 
-following example shows a simple PUT stored in the 
-**MyPexTest** class:
+PUTs are defined using the [PexMethod](attribute-glossary.md#pexmethod) custom attribute in a similar fashion to MSTest (or NUnit, xUnit). PUTs are instance methods logically grouped in classes tagged with [PexClass](attribute-glossary.md#pexclass). The following example shows a simple PUT stored in the **MyPexTest** class:
 
 ```
 [PexMethod]
@@ -88,8 +65,7 @@ void ReplaceFirstChar(string target, char c) {
 }
 ```
 
-where **ReplaceFirstChar** is a method that replaces
-the first character of a string:
+where **ReplaceFirstChar** is a method that replaces the first character of a string:
 
 ```
 class StringHelper {
@@ -101,11 +77,7 @@ class StringHelper {
 }
 ```
 
-From this test, IntelliTest can automatically 
-[generate inputs](input-generation.md) for a PUT that
-covers many execution paths of the tested code. Each 
-input that covers a different execution path gets 
-"serialized" as a unit test:
+From this test, IntelliTest can automatically [generate inputs](input-generation.md) for a PUT that covers many execution paths of the tested code. Each input that covers a different execution path gets "serialized" as a unit test:
 
 ```
 [TestMethod, ExpectedException(typeof(ArgumentNullException))]
@@ -122,10 +94,7 @@ void ReplaceFirstChar10() {
 <a name="generic-parameterized"></a>
 ## Generic parameterized unit testing
 
-Parameterized unit tests can be generic methods. In 
-this case, the user must specify the types used to 
-instantiate the method by using 
-[PexGenericArguments](attribute-glossary.md#pexgenericarguments).
+Parameterized unit tests can be generic methods. In this case, the user must specify the types used to instantiate the method by using [PexGenericArguments](attribute-glossary.md#pexgenericarguments).
 
 ```
 [PexClass]
@@ -141,14 +110,9 @@ public partial class ListTest {
 <a name="allowing-exceptions"></a>
 ## Allowing exceptions
 
-IntelliTest provides numerous validation attributes 
-to help triage exceptions into expected exceptions 
-and unexpected exceptions.
+IntelliTest provides numerous validation attributes to help triage exceptions into expected exceptions and unexpected exceptions.
 
-Expected exceptions generate negative test cases with
-the appropriate annotation such as 
-**ExpectedException(typeof(*xxx*))**, while 
-unexpected exceptions generate failing test cases.
+Expected exceptions generate negative test cases with the appropriate annotation such as **ExpectedException(typeof(*xxx*))**, while unexpected exceptions generate failing test cases.
 
 ```
 [PexMethod, PexAllowedException(typeof(ArgumentNullException))]
@@ -165,10 +129,7 @@ The validators are:
 <a name="internal-types"></a>
 ## Testing internal types
 
-IntelliTest can "test" internal types, as long as it 
-can see them. For IntelliTest to see the types, the 
-following attribute is added to your product or test 
-project by the Visual Studio IntelliTest wizards:
+IntelliTest can "test" internal types, as long as it can see them. For IntelliTest to see the types, the following attribute is added to your product or test project by the Visual Studio IntelliTest wizards:
 
 ```
 [assembly: InternalsVisibleTo("Microsoft.Pex, PublicKey=002400000480000094000000060200000024000052534131000400000100010007d1fa57c4aed9f0a32e84aa0faefd0de9e8fd6aec8f87fb03766c834c99921eb23be79ad9d5dcc1dd9ad236132102900b723cf980957fc4e177108fc607774f29e8320e92ea05ece4e821c0a5efe8f1645c4c0c93c1ab99285d622caa652c1dfad63d745d6f2de5f17e5eaf0fc4963d261c8a12436518206dc093344d5ad293
@@ -177,25 +138,9 @@ project by the Visual Studio IntelliTest wizards:
 <a name="assumptions-and-assertions"></a>
 ## Assumptions and assertions
 
-Users can use assumptions and assertions to express 
-[preconditions](#precondition) (assumptions) and 
-[postconditions](#postcondition) (assertions) about 
-their tests. When IntelliTest generates a set of 
-parameter values and "explores" the code, it might 
-violate an assumption of the test. When that happens,
-it will not generate a test for that path but will
-silently ignore it.
+Users can use assumptions and assertions to express [preconditions](#precondition) (assumptions) and [postconditions](#postcondition) (assertions) about their tests. When IntelliTest generates a set of parameter values and "explores" the code, it might violate an assumption of the test. When that happens, it will not generate a test for that path but will silently ignore it.
 
-Assertions are a well known concept in regular unit 
-test frameworks, so IntelliTest already "understands"
-the built-in **Assert** classes provided by each 
-supported test framework. However, most frameworks 
-do not provide an **Assume** class. In that case, 
-IntelliTest provides the 
-[PexAssume](static-helper-classes.md#pexassume) class. 
-If you do not want to use an existing test framework,
-IntelliTest also has the 
-[PexAssert](static-helper-classes.md#pexassert) class.
+Assertions are a well known concept in regular unit test frameworks, so IntelliTest already "understands" the built-in **Assert** classes provided by each supported test framework. However, most frameworks do not provide an **Assume** class. In that case, IntelliTest provides the [PexAssume](static-helper-classes.md#pexassume) class. If you do not want to use an existing test framework, IntelliTest also has the [PexAssert](static-helper-classes.md#pexassert) class.
 
 ```
 [PexMethod]
@@ -207,8 +152,7 @@ public void Test1(object o) {
 }
 ```
 
-In particular, the non-nullness assumption can be 
-encoded as a custom attribute:
+In particular, the non-nullness assumption can be encoded as a custom attribute:
 
 ```
 [PexMethod]
@@ -222,31 +166,20 @@ public void Test2([PexAssumeNotNull] object o)
 <a name="precondition"></a>
 ## Precondition
 
-A precondition of a method expresses the conditions
-under which the method will succeed.
+A precondition of a method expresses the conditions under which the method will succeed.
 
-Usually, the precondition is enforced by checking the
-parameters and the object state, and throwing an 
-**ArgumentException** or **InvalidOperationException**
-if it is violated.
+Usually, the precondition is enforced by checking the parameters and the object state, and throwing an **ArgumentException** or **InvalidOperationException** if it is violated.
 
-In IntelliTest, a precondition of a 
-[parameterized unit test](#parameterized-unit-testing)
-is expressed with [PexAssume](static-helper-classes.md#pexassume).
+In IntelliTest, a precondition of a [parameterized unit test](#parameterized-unit-testing) is expressed with [PexAssume](static-helper-classes.md#pexassume).
 
 <a name="postcondition"></a>
 ## Postcondition
 
-A postcondition of a method expresses the conditions 
-which should hold during and after execution of the 
-method, assuming that its preconditions were initially valid.
+A postcondition of a method expresses the conditions which should hold during and after execution of the method, assuming that its preconditions were initially valid.
 
-Usually, the postcondition is enforced by calls to 
-**Assert** methods.
+Usually, the postcondition is enforced by calls to **Assert** methods.
 
-With IntelliTest, a postcondition of a 
-[parameterized unit test](#parameterized-unit-testing) 
-is expressed with [PexAssert](static-helper-classes.md#pexassert).
+With IntelliTest, a postcondition of a [parameterized unit test](#parameterized-unit-testing) is expressed with [PexAssert](static-helper-classes.md#pexassert).
 
 <a name="test-failures"></a>
 ## Test failures
@@ -258,17 +191,12 @@ When does a generated test case fail?
 
 1. If the test violates an [assertion](#assumptions-and-assertions); for example, by throwing an assertion violation exception of a unit testing framework, it fails
 
-If none of the above produce a decision, a test 
-succeeds if and only if it does not throw an 
-exception. Assertion violations are treated 
-in the same way as exceptions.
+If none of the above produce a decision, a test succeeds if and only if it does not throw an exception. Assertion violations are treated in the same way as exceptions.
 
 <a name="setup-teardown"></a>
 ## Setup and tear down
 
-As part of the integration with test frameworks, 
-IntelliTest supports detecting and running setup and 
-tear down methods.
+As part of the integration with test frameworks, IntelliTest supports detecting and running setup and tear down methods.
 
 **Example**
 
@@ -311,5 +239,4 @@ namespace MyTests
 
 ## Got feedback?
 
-Post your ideas and feature requests on 
-**[UserVoice](https://visualstudio.uservoice.com/forums/121579-visual-studio-2015/category/157869-test-tools?query=IntelliTest)**.
+Post your ideas and feature requests on [UserVoice](https://visualstudio.uservoice.com/forums/121579-visual-studio-2015/category/157869-test-tools?query=IntelliTest).

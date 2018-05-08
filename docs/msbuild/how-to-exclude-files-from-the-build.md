@@ -2,20 +2,16 @@
 title: "How to: Exclude Files from the Build | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "MSBuild, wildcards"
   - "MSBuild, excluding files"
   - "wildcards, MSBuild"
 ms.assetid: 1be36e45-01da-451c-972d-f9fc0e7d663c
-caps.latest.revision: 16
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

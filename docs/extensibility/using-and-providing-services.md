@@ -2,21 +2,17 @@
 title: "Using and Providing Services | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "examples [Visual Studio SDK], services"
   - "Visual Studio, services"
   - "services"
 ms.assetid: c0b415ba-b825-4da0-9faf-8a60a663e302
-caps.latest.revision: 41
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

@@ -2,19 +2,15 @@
 title: "Walkthrough: Displaying Matching Braces | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], new - brace matching"
 ms.assetid: 5af08ac7-1d08-4ccf-997e-01aa6cb3d3d7
-caps.latest.revision: 27
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

@@ -691,6 +691,26 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/designers/create-modern-desktop-applications-with-windows-presentation-foundation.md",
+            "redirect_url": "/visualstudio/designers/getting-started-with-wpf",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/designers/walkthrough-my-first-wpf-desktop-application2.md",
+            "redirect_url": "/dotnet/framework/wpf/getting-started/walkthrough-my-first-wpf-desktop-application",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/designers/wpf-community-resources.md",
+            "redirect_url": "/dotnet/framework/wpf/getting-started/community-feedback",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/designers/wpf-data-binding-with-linq-to-xml.md",
+            "redirect_url": "/visualstudio/designers/wpf-data-binding-with-linq-to-xml-overview",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/designers/walkthrough-create-a-wpf-desktop-application-connected-to-an-azure-mobile-service.md",
             "redirect_url": "/azure/app-service-mobile/app-service-mobile-windows-store-dotnet-get-started",
             "redirect_document_id": false
@@ -866,6 +886,16 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/ide/class-designer/viewing-types-and-relationships.md",
+            "redirect_url": "/visualstudio/ide/class-designer/designing-and-viewing-classes-and-types",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/class-designer/working-with-class-diagrams.md",
+            "redirect_url": "/visualstudio/ide/class-designer/designing-and-viewing-classes-and-types",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/ide/connected-environment.md",
             "redirect_url": "/visualstudio/ide/signing-in-to-visual-studio",
             "redirect_document_id": false
@@ -903,6 +933,11 @@
         {
             "source_path": "docs/ide/get-started-developing-with-visual-studio.md",
             "redirect_url": "/visualstudio/ide/visual-studio-ide",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/getting-started-with-debugging-in-visual-studio.md",
+            "redirect_url": "/visualstudio/ide/find-and-fix-code-errors",
             "redirect_document_id": false
         },
         {
@@ -2041,6 +2076,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/vsto/you-must-explicitly-enable-access-to-the-microsoft-office-visual-basic-for-applications-project-system-before-you-can-create-or-open-a-----for-the-microsoft-office-system-project.md",
+            "redirect_url": "/visualstudio/vsto/enable-access-to-vba-to-create-or-open-a-visual-studio-tools-for-office-system-project",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/welcome-to-visual-studio.md",
             "redirect_url": "/visualstudio/ide/visual-studio-ide",
             "redirect_document_id": false
@@ -2053,6 +2093,26 @@
         {
             "source_path": "docs/xml-tools/index.md",
             "redirect_url": "/visualstudio/xml-tools/xml-tools-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/xml-tools/what-s-new-in-the-xslt-debugger.md",
+            "redirect_url": "/visualstudio/xml-tools/debugging-xslt",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/xml-tools/what-s-new-in-the-xml-editor.md",
+            "redirect_url": "/visualstudio/xml-tools/xml-editor",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/xml-tools/xml-editor-tasks.md",
+            "redirect_url": "/visualstudio/xml-tools/walkthrough-using-xml-editor-features",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/xml-tools/xml-schema-designer-tasks.md",
+            "redirect_url": "/visualstudio/xml-tools/how-to-create-and-edit-an-xsd-schema-file",
             "redirect_document_id": false
         },
         {
@@ -2250,7 +2310,31 @@
             "source_path": "subscriptions/access-admin-portal.md",
             "redirect_url": "/visualstudio/subscriptions/subscription-management-info",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "subscriptions/vs-elearn.md",
+            "redirect_url": "/visualstudio/subscriptions",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vb6/partners/gmstudio.md",
+            "redirect_url": "/previous-versions/visualstudio/visual-basic-6/vb6-partners-gmstudio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vb6/partners/mobilize-net.md",
+            "redirect_url": "/previous-versions/visualstudio/visual-basic-6/vb6-partners-mobilize-net",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vb6/partners/index.md",
+            "redirect_url": "/previous-versions/visualstudio/visual-basic-6/visual-basic-6-support-policy",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vb6/vb6-support.md",
+            "redirect_url": "/previous-versions/visualstudio/visual-basic-6/visual-basic-6-support-policy",
+            "redirect_document_id": false
         }
-        
     ]
 }

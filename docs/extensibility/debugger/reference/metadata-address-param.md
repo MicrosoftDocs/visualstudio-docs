@@ -2,21 +2,17 @@
 title: "METADATA_ADDRESS_PARAM | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "METADATA_ADDRESS_PARAM"
 helpviewer_keywords: 
   - "METADATA_ADDRESS_PARAM structure"
 ms.assetid: 90904f19-0e71-4cb3-a56e-6a2e92f66dfc
-caps.latest.revision: 6
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

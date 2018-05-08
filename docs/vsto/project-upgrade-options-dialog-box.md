@@ -2,12 +2,9 @@
 title: "Project Upgrade, Options Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VS.ToolsOptionsPages.Project_Upgrade"
   - "VS.ToolsOptionsPages.Microsoft_Office_Keyboard_Settings.Microsoft_Office_Upgrade"
@@ -19,7 +16,7 @@ helpviewer_keywords:
   - "Options dialog box, Project Upgrade page"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

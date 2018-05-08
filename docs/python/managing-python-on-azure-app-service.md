@@ -1,26 +1,20 @@
 ---
-title: Installing Python interpreters and libraries on Azure App Service | Microsoft Docs
+title: Configuring Python on Azure App Service
 description: How to install a Python interpreter and libraries on Azure App Service, and configuring web applications to properly refer to that interpreter.
-ms.custom:
 ms.date: 09/13/2017
-ms.reviewer:
-ms.suite:
-ms.technology: 
-  - "devlang-python"
-dev_langs:
-  - "python"
-ms.tgt_pltfrm:
-ms.topic: "conceptual"
-author: "kraigb"
-ms.author: "kraigb"
-manager: ghogen
+ms.prod: visual-studio-dev15
+ms.technology: vs-python
+ms.topic: conceptual
+author: kraigb
+ms.author: kraigb
+manager: douge
 ms.workload: 
-  - "python"
-  - "data-science"
-  - "azure"
+  - python
+  - data-science
+  - azure
 ---
 
-# Managing Python on Azure App Service
+# How to set up a Python environment on Azure App Service
 
 [Azure App Service](https://azure.microsoft.com/services/app-service/) is a platform-as-a-service offering for web apps, whether they are sites accessed through a browser, REST APIs used by your own clients, or event-triggered processing. App Service fully supports using Python to implement apps.
 
@@ -48,7 +42,7 @@ Customizable Python support on Azure App Service is provided as a set of App Ser
 
 ## Choosing a Python version through the Azure Resource Manager
 
-If you are deploying an App Service with an Azure Resource Manager template, add the site extension as a resource. The extension appears as a nested resource with the type `siteextensions` and the name from [siteextensions.net](https://www.siteextensions.net/packages?q=Tags%3A%22python%22).
+If you are deploying an App Service with an Azure Resource Manager template, add the site extension as a resource. Specifically, the extension appears as a nested resource (a `resources` object under `resources`) with the type `siteextensions` and the name from [siteextensions.net](https://www.siteextensions.net/packages?q=Tags%3A%22python%22).
 
 For example, after adding a reference to `python361x64` (Python 3.6.1 x64), your template may look like the following (some properties omitted):
 

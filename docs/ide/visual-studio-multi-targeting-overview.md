@@ -1,22 +1,18 @@
 ---
-title: "Targeting the .NET Framework in Visual Studio | Microsoft Docs"
-ms.custom: ""
+title: Target the .NET Framework in Visual Studio
 ms.date: 02/06/2018
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-general
+ms.topic: conceptual
 helpviewer_keywords:
   - "targeting .NET Framework [Visual Studio]"
   - "multi-targeting [Visual Studio]"
   - "multitargeting [Visual Studio]"
   - "framework targeting [Visual Studio]"
   - ".NET framework targeting [Visual Studio]"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: gewarren
+ms.author: gewarren
+manager: douge
 ms.workload:
   - "dotnet"
 ---
@@ -49,7 +45,7 @@ When you work on a project that targets an earlier version of the [!INCLUDE[dnpr
 
 - It filters custom controls in the **Toolbox** to remove those that are not available in the targeted version and to show the only the most up-to-date controls when multiple controls are available.
 
-- It filters IntelliSense to omit language features that are not available in the targeted version.
+- It filters **IntelliSense** to omit language features that are not available in the targeted version.
 
 - It filters properties in the **Properties** window to omit those that are not available in the targeted version.
 
@@ -60,27 +56,27 @@ When you work on a project that targets an earlier version of the [!INCLUDE[dnpr
 > [!NOTE]
 > Framework targeting does not guarantee that your application will run correctly. You must test your application to make sure it runs against the targeted version. You cannot target framework versions that are earlier than the .NET Framework 2.0.
 
-## Selecting a target framework version
+## Select a target framework version
 
 When you create a project, select the target .NET Framework version in the **New Project** dialog box. The list of available frameworks includes the installed framework versions that are applicable to the selected template type. For template types that don't require .NET Framework, for example .NET Core templates, the **Framework** drop-down list is hidden.
 
 ![Framework drop-down in New Project dialog](media/vside-newproject-framework.png)
 
-In an existing project, you can change the target [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] version in the project properties dialog box. For more information, see [How to: Target a Version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md).
+In an existing project, you can change the target [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] version in the project properties dialog box. For more information, see [How to: Target a version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md).
 
-## Resolving system and user assembly references
+## Resolve system and user assembly references
 
 To target a .NET Framework version, you must first install the appropriate assembly references. You can download developer packs for different versions of the .NET Framework on the [.NET downloads](https://www.microsoft.com/net/download/windows) page.
 
-The **Add Reference** dialog box disables system assemblies that do not pertain to the target [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] version so that they cannot be added to a project inadvertently. (System assemblies are .dll files that are included in a [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] version.) References that belong to a framework version that is later than the targeted version will not resolve, and controls that depend on such a reference cannot be added. If you want to enable such a reference, reset the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] target of the project to one that includes the reference.  For more information, see [How to: Target a Version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md).
+The **Add Reference** dialog box disables system assemblies that do not pertain to the target [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] version so that they cannot be added to a project inadvertently. (System assemblies are *.dll* files that are included in a [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] version.) References that belong to a framework version that is later than the targeted version will not resolve, and controls that depend on such a reference cannot be added. If you want to enable such a reference, reset the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] target of the project to one that includes the reference.  For more information, see [How to: Target a version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md).
 
-For more information about assembly references, see [Resolving Assemblies at Design Time](../msbuild/resolving-assemblies-at-design-time.md).
+For more information about assembly references, see [Resolve assemblies at design time](../msbuild/resolving-assemblies-at-design-time.md).
 
-## Enabling LINQ
+## Enable LINQ
 
-When you target the .NET Framework 3.5 or later, a reference to System.Core and a project-level import for System.Linq (in Visual Basic only) are added automatically. If you want to use LINQ features, you must also turn Option Infer on (in Visual Basic only). The reference and import are removed automatically if you change the target to an earlier .NET Framework version. For more information, see [Working with LINQ](/dotnet/csharp/tutorials/working-with-linq).
+When you target the .NET Framework 3.5 or later, a reference to **System.Core** and a project-level import for <xref:System.Linq> (in Visual Basic only) are added automatically. If you want to use LINQ features, you must also turn `Option Infer` on (in Visual Basic only). The reference and import are removed automatically if you change the target to an earlier .NET Framework version. For more information, see [Work with LINQ](/dotnet/csharp/tutorials/working-with-linq).
 
 ## See also
 
 - [Multitargeting (MSBuild)](../msbuild/msbuild-multitargeting-overview.md)
-- [How to: Modify the Target Framework and Platform Toolset (C++)](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset)
+- [How to: Modify the target framework and platform toolset (C++)](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset)

@@ -2,21 +2,17 @@
 title: "Changing the Appearance of a Command | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "commands, changing appearance"
   - "menu commands, changing appearance"
   - "menus, changing command appearance"
 ms.assetid: da2474fa-f92d-4e9e-b8bf-67c61bf249c2
-caps.latest.revision: 23
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

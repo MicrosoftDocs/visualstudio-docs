@@ -2,17 +2,12 @@
 title: "How to: Instrument a .NET Framework Service and Collect Memory Data by Using the Profiler Command Line | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 ms.assetid: 2fa072fc-05fe-4420-99c0-51d2ea3ac4ce
-caps.latest.revision: 24
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "dotnet"
 ---

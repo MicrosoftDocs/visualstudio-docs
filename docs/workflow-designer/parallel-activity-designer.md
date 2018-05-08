@@ -1,33 +1,39 @@
 ---
-title: "Parallel Activity Designer | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
-f1_keywords: 
+title: "Workflow Designer - Parallel Activity Designer"
+ms.date: 11/04/2016
+ms.topic: reference
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
+f1_keywords:
   - "System.Activities.Statements.Parallel.UI"
 ms.assetid: 0306dc3b-075a-4091-ac3a-96486fbabed5
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # Parallel Activity Designer
+
 The <xref:System.Activities.Statements.Parallel> activity executes a collection of child activities concurrently.
 
 ## The Parallel Activity
- The <xref:System.Activities.Statements.Parallel> activity stores its child activities in a  <xref:System.Activities.Statements.Parallel.Branches%2A> collection. Use the <xref:System.Activities.Statements.Parallel> activity instead of the <xref:System.Activities.Statements.Sequence> activity if some of the child activities may go idle.
 
- The <xref:System.Activities.Statements.Parallel> activity has a <xref:System.Activities.Statements.Parallel.CompletionCondition%2A> property that contains a user specified [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] expression. The <xref:System.Activities.Statements.Parallel> activity evaluates this property after each branch completes. If it evaluates to **True**, then the <xref:System.Activities.Statements.Parallel> activity completes without executing the other branches. If the <xref:System.Activities.Statements.Parallel.CompletionCondition%2A> does not evaluate to **True**, then the <xref:System.Activities.Statements.Parallel> activity completes when all of its child activities have completed.
+The <xref:System.Activities.Statements.Parallel> activity stores its child activities in a  <xref:System.Activities.Statements.Parallel.Branches%2A> collection. Use the <xref:System.Activities.Statements.Parallel> activity instead of the <xref:System.Activities.Statements.Sequence> activity if some of the child activities may go idle.
+
+The <xref:System.Activities.Statements.Parallel> activity has a <xref:System.Activities.Statements.Parallel.CompletionCondition%2A> property that contains a user specified Visual Basic expression. The <xref:System.Activities.Statements.Parallel> activity evaluates this property after each branch completes. If it evaluates to **True**, then the <xref:System.Activities.Statements.Parallel> activity completes without executing the other branches. If the <xref:System.Activities.Statements.Parallel.CompletionCondition%2A> does not evaluate to **True**, then the <xref:System.Activities.Statements.Parallel> activity completes when all of its child activities have completed.
 
 ### Using the Parallel Activity Designer
- The **Parallel** activity designer can be found in the **Control Flow** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab on the left side of the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] (Alternatively, select **Toolbar** from the **View** menu, or CTRL+ALT+X.)
 
- The **Parallel** activity designer can be dragged from the **Toolbox** and dropped on to the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] surface wherever activity designers are normally placed, for example, inside of a **Sequence** activity designer. After dropping it into the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)], it creates a <xref:System.Activities.Statements.Parallel> activity, which by default contains a <xref:System.Activities.Activity.DisplayName%2A> of **Parallel**
+The **Parallel** activity designer can be found in the **Control Flow** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab on the left side of the Workflow Designer (Alternatively, select **Toolbar** from the **View** menu, or CTRL+ALT+X.)
 
- To add an activity to the <xref:System.Activities.Statements.Parallel.Branches%2A> collection of the parallel activity, drag some other activity designer from the **Toolbox** and drop it on the triangle inside the **Parallel** activity designer. The triangles flank the activities contained in the branches. Additional activities can be added by repeating this procedure. The activities can be reordered by dragging and dropping them within the **Parallel** activity designer.
+The **Parallel** activity designer can be dragged from the **Toolbox** and dropped on to the Workflow Designer surface wherever activity designers are normally placed, for example, inside of a **Sequence** activity designer. After dropping it into the Workflow Designer, it creates a <xref:System.Activities.Statements.Parallel> activity, which by default contains a <xref:System.Activities.Activity.DisplayName%2A> of **Parallel**
+
+To add an activity to the <xref:System.Activities.Statements.Parallel.Branches%2A> collection of the parallel activity, drag some other activity designer from the **Toolbox** and drop it on the triangle inside the **Parallel** activity designer. The triangles flank the activities contained in the branches. Additional activities can be added by repeating this procedure. The activities can be reordered by dragging and dropping them within the **Parallel** activity designer.
 
 ### Parallel Activity Properties in the Workflow Designer
- The following table shows the Parallel activity properties and describes how they are used in the designer.
+
+The following table shows the Parallel activity properties and describes how they are used in the designer.
 
 |Property Name|Required|Usage|
 |-------------------|--------------|-----------|

@@ -1,12 +1,13 @@
 ---
-title: "Use Build or Release Management for automated testing in Visual Studio | Microsoft Docs"
+title: "Use Build or Release Management for automated testing in Visual Studio"
 ms.date: 03/02/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: conceptual
 helpviewer_keywords:
   - "automated testing, lab management, test lab"
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 author: gewarren

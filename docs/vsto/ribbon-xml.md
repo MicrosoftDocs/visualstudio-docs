@@ -2,12 +2,9 @@
 title: "Ribbon XML | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VSTO.Ribbon.RibbonXMLItem"
 dev_langs: 
@@ -26,7 +23,7 @@ helpviewer_keywords:
   - "customizing the Ribbon, displaying"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

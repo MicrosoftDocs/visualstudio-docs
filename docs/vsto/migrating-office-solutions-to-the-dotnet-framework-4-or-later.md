@@ -2,12 +2,9 @@
 title: "Migrating Office Solutions to the .NET Framework 4 or later | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VST.Project.TargetFrameworkWarning"
 dev_langs: 
@@ -17,7 +14,7 @@ helpviewer_keywords:
   - "Office projects [Office development in Visual Studio], migrating to .NET Framework 4"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

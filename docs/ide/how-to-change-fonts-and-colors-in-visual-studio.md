@@ -1,38 +1,33 @@
 ---
-title: "How to: Change Fonts and Colors in Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: "How to: Change fonts and colors in Visual Studio"
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-general
+ms.topic: conceptual
 helpviewer_keywords:
   - "Visual Studio, color themes"
   - "color themes, Visual Studio"
 ms.assetid: 60d91ba1-244b-4c43-847f-60b744f1352a
-caps.latest.revision: 13
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: gewarren
+ms.author: gewarren
+manager: douge
 ms.workload:
   - "multiple"
 ---
-# How to: Change Fonts and Colors in Visual Studio
+# How to: Change fonts and colors in Visual Studio
 
 You can customize the color of the IDE frame and tool windows in Visual Studio in several ways.
 
 > [!TIP]
-> For information about how to change the colors of the code editor, see [How to: Change Fonts and Colors in the Editor](../ide/reference/how-to-change-fonts-and-colors-in-the-editor.md).
+> For information about how to change the colors of the code editor, see [How to: Change fonts and colors in the editor](../ide/reference/how-to-change-fonts-and-colors-in-the-editor.md).
 
-## Change the Color Theme of the IDE
+## Change the color theme of the IDE
 
-1. On the menu bar, choose **Tools**, **Options**.
+1. On the menu bar, choose **Tools** > **Options**.
 
-1. In the options list, choose **Environment**, **General**.
+1. In the options list, choose **Environment** > **General**.
 
-1. In the **Color theme** list, choose either the default **Blue** theme, **Dark** or **Light**.
+1. In the **Color theme** list, choose either the default **Blue** theme, **Dark**, or **Light**.
 
 > [!NOTE]
 > When you change a color theme, text in the IDE reverts to the default or previously customized fonts and sizes.
@@ -40,27 +35,27 @@ You can customize the color of the IDE frame and tool windows in Visual Studio i
 > [!TIP]
 > You can create and edit Visual Studio themes by installing the [Visual Studio Color Theme Editor](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.VisualStudio2017ColorThemeEditor).
 
-## Use Windows High Contrast Colors
+## Use Windows high contrast colors
 
-Choose the **Left Alt** + **Left Shift** + **PrtScn** keys.
+Choose the **Left Alt**+**Left Shift**+**PrtScn** keys.
 
 > [!WARNING]
 > This option sets high contrast for all applications and UI on the current computer.
 
-## Change IDE Fonts
+## Change IDE fonts
 
 You can change the font and text size for all windows and dialog boxes in the IDE. You can choose to customize only certain windows and other text elements.
 
 ### To change the font and size of all text in the IDE
 
-1. On the menu bar, choose **Tools**, **Options**.
+1. On the menu bar, choose **Tools** > **Options**.
 
-1. In the options list, choose **Environment**, **Fonts and Colors**.
+1. In the options list, choose **Environment** > **Fonts and Colors**.
 
 1. In the **Show settings for** list, choose **Environment Font**.
 
     > [!TIP]
-    > If you want to change the font for tool windows only, in the **Show settings for** list, choose **[All Text Tool Windows]**.
+    > If you want to change the font for tool windows only, in the **Show settings for** list, choose **All Text Tool Windows**.
 
 1. In the **Font** list, choose a font.
 
@@ -68,5 +63,5 @@ You can change the font and text size for all windows and dialog boxes in the ID
 
 ## See also
 
-[Accessibility Features of Visual Studio](../ide/reference/accessibility-features-of-visual-studio.md)
-[How to: Change Fonts and Colors in the Editor](../ide/reference/how-to-change-fonts-and-colors-in-the-editor.md)
+- [Accessibility features of Visual Studio](../ide/reference/accessibility-features-of-visual-studio.md)
+- [How to: Change fonts and colors in the editor](../ide/reference/how-to-change-fonts-and-colors-in-the-editor.md)

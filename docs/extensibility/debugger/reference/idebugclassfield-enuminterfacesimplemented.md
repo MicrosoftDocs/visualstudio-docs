@@ -2,21 +2,17 @@
 title: "IDebugClassField::EnumInterfacesImplemented | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugClassField::EnumInterfacesImplemented"
 helpviewer_keywords: 
   - "IDebugClassField::EnumInterfacesImplemented method"
 ms.assetid: e5523e45-d350-491e-a92c-fe0ca97d2052
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---
