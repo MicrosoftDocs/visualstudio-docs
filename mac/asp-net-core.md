@@ -139,7 +139,7 @@ To add a controller, do the following:
 
 2. Add the following code to the new controller:
 
-    ```
+    ```csharp
     using System;
     using Microsoft.AspNetCore.Mvc;
     using System.Text.Encodings.Web;
