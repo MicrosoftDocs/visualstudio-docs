@@ -77,4 +77,7 @@ These steps apply to ASP.NET, ASP.NET Core, .NET Core, and Python apps in Visual
 
 ## Next steps
 
-- [Deploy ASP.NET to IIS](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45)
+In this quickstart, you learned how to use Visual Studio to create a publishing profile.
+
+> [!div class="nextstepaction"]
+> [Import publish settings and deploy to Azure](tutorial-import-publish-settings-and-deploy.md)

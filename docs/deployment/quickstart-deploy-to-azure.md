@@ -73,5 +73,7 @@ If you do not already have an Azure account, you can [sign up here](https://azur
 
 ## Next steps
 
-- [Deploy an ASP.NET Core app to Azure](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs)
-- [Continuous deployment of ASP.NET Core to Azure with Git](/aspnet/core/publishing/azure-continuous-deployment)
+In this quickstart, you learned how to use Visual Studio to create a publishing profile for deployment to Azure.
+
+> [!div class="nextstepaction"]
+> [Import publish settings and deploy to Azure](tutorial-import-publish-settings-and-deploy-to-azure.md)
