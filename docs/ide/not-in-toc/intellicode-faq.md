@@ -35,6 +35,12 @@ Developers can [download an experimental extension](https://go.microsoft.com/fwl
 
 With IntelliCode, the completion list suggests the most likely correct API for a developer to use, rather than presenting a simple alphabetical list of members. It uses the developer's current code context, and patterns based on 2000 high quality, open-source projects on GitHub each with over 100 stars, to provide this dynamic list. The results form a model that predicts the most likely and most relevant API calls.
 
+##Q: How good are the IntelliCode completion suggestions?
+
+A: We’ve been using IntelliCode’s recommendations internally for some time, and believe the suggestions are useful. Ultimately though, the proof here will be in how useful these recommendations are to you as you code. We would love you to give the Visual Studio IntelliCode extension a try. Let us know how it works out for you and send us your feedback. We’ll also learn from what you pick in our recommendations to improve our model over time, and update the extension with them.
+
+(note: none of your user defined code is collected – see the question on privacy below). 
+
 ## Q. What's the future of IntelliCode?
 
 We're exploring a wide range of ways to improve developer productivity using AI and other advanced techniques. At Build 2018, we showed an early view of some of the scenarios where we think AI could assist developers, but there are so many more! We're interested in learning from developers that experiment with what we've shown, so sign up for news and updates at [https://aka.ms/intellicode](https://aka.ms/intellicode).
