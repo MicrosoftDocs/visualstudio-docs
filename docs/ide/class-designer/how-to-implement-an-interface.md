@@ -14,7 +14,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# How to: Implement an interface (Class Designer)
+# How to: Implement an interface in Class Designer
 
 In **Class Designer**, you can implement an interface on the class diagram by connecting it to a class that provides code for the interface methods. **Class Designer** generates an interface implementation and displays the relationship between the interface and the class as an inheritance relationship. You can implement an interface by drawing an inheritance line between the interface and the class or by dragging the interface from Class View.
 
@@ -29,7 +29,7 @@ In **Class Designer**, you can implement an interface on the class diagram by co
 
      A lollipop appears attached to the class and a label with the interface name identifies the inheritance relationship. Visual Studio generates stubs for all interface members.
 
- For more information, see [How to: Create inheritance between types](how-to-create-inheritance-between-types.md).
+For more information, see [How to: Create inheritance between types](how-to-create-inheritance-between-types.md).
 
 ## To implement an interface from the Class View window
 
