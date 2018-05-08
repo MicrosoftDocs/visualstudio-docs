@@ -14,9 +14,9 @@ ms.workload:
 ---
 # Publish an application to IIS by importing publish settings in Visual Studio
 
-You can use the **Publish** tool to create publish settings, import publish settings, and then deploy your app. In this article, we use publish settings for IIS, but you can use similar steps to import publish settings for Azure App Service.
+You can use the **Publish** tool import publish settings and then deploy your app. In this article, we use publish settings for IIS, but you can use similar steps to import publish settings for Azure App Service.
 
-These steps apply to ASP.NET, ASP.NET Core, .NET Core apps in Visual Studio.
+These steps apply to ASP.NET, ASP.NET Core, and .NET Core apps in Visual Studio.
 
 > [!NOTE]
 > A publish settings file is different than a publishing profile created in Visual Studio. A publish settings file is created by IIS or Azure App Service, or it can be manually generated, and then imported into Visual Studio. If you just need to copy a Visual Studio publishing profile (\*.pubxml file), you can find the publishing profile, *\<profilename\>.pubxml*, in the *\\<projectname\>\Properties\PublishProfiles* folder for managed project types. For websites, look under the *\App_Data* folder. The publishing profiles are MSBuild xml files. You can copy these profiles from one version of Visual Studio to another
@@ -45,16 +45,11 @@ These steps apply to ASP.NET, ASP.NET Core, .NET Core apps in Visual Studio.
 
 1. Choose **Build > Build Solution** to build the project.
 
-## Create a publish settings file in Azure App Service
+## Install and configure Web Deploy
 
-TBD
-TBD
-TBD
+[!INCLUDE [install-web-deploy-with-hosting-server](../deployment/includes/install-web-deploy-with-hosting-server.md)]
 
-## Install an configure Web Deploy
-
-
-## Create the publish settings file
+## Create the publish settings file in IIS
 
 1. In IIS, right-click the **Default Web Site**, choose **Deploy** > **Configure Web Deploy Publishing**.
 
