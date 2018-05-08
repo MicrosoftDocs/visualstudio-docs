@@ -14,9 +14,9 @@ ms.workload:
 ---
 # Publish an application to IIS by importing publish settings in Visual Studio
 
-You can use the **Publish** tool import publish settings and then deploy your app. In this article, we use publish settings for IIS, but you can use similar steps to import publish settings for Azure App Service.
+You can use the **Publish** tool to import publish settings and then deploy your app. In this article, we use publish settings for IIS, but you can use similar steps to import publish settings for [Azure App Service](../deployment/tutorial-import-publish-settings-and-deploy-to-azure.md). In some scenarios, use of a publish settings profile can be faster than manually configuring deployment to IIS for each installation of Visual Studio.
 
-These steps apply to ASP.NET, ASP.NET Core, and .NET Core apps in Visual Studio.
+These steps apply to ASP.NET, ASP.NET Core, and .NET Core apps in Visual Studio. The steps correspond to Visual Studio 2017 version 15.6.
 
 In this tutorial, you will:
 
@@ -26,7 +26,7 @@ In this tutorial, you will:
 > * Import the publish settings file into Visual Studio
 > * Deploy the app to IIS
 
-A publish settings file (*.publishsettings) is different than a publishing profile (*.pubxml) created in Visual Studio. A publish settings file is created by IIS or Azure App Service, or it can be manually created, and then it can be imported into Visual Studio.
+A publish settings file (\*.publishsettings) is different than a publishing profile (\*.pubxml) created in Visual Studio. A publish settings file is created by IIS or Azure App Service, or it can be manually created, and then it can be imported into Visual Studio.
 
 > [!NOTE]
 > If you just need to copy a Visual Studio publishing profile (\*.pubxml file) from one installation of Visual Studio to another, you can find the publishing profile, *\<profilename\>.pubxml*, in the *\\<projectname\>\Properties\PublishProfiles* folder for managed project types. For websites, look under the *\App_Data* folder. The publishing profiles are MSBuild XML files.
@@ -36,6 +36,8 @@ A publish settings file (*.publishsettings) is different than a publishing profi
 * You must have Visual Studio installed and the **ASP.NET** and **.NET Framework** development workload. For a .NET Core app, you also need the **.NET Core** workload.
 
     If you haven't already installed Visual Studio, install it for free [here](http://www.visualstudio.com).
+
+    The steps in this article are based on Visual Studio 2017
 
 * To generate the publish settings file from IIS, you must have another computer running Windows Server 2012 with the IIS 8.0 Web Server role correctly configured and either ASP.NET 4.5 or ASP.NET Core installed. For ASP.NET Core, see [Publishing to IIS](/aspnet/core/publishing/iis?tabs=aspnetcore2x#iis-configuration). For ASP.NET 4.5, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45).
 
