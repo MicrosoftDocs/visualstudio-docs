@@ -35,11 +35,12 @@ Developers can [download an experimental extension](https://go.microsoft.com/fwl
 
 With IntelliCode, the completion list suggests the most likely correct API for a developer to use, rather than presenting a simple alphabetical list of members. It uses the developer's current code context, and patterns based on 2000 high quality, open-source projects on GitHub each with over 100 stars, to provide this dynamic list. The results form a model that predicts the most likely and most relevant API calls.
 
-##Q: How good are the IntelliCode completion suggestions?
+## Q: How good are the IntelliCode completion suggestions?
 
-A: We’ve been using IntelliCode’s recommendations internally for some time, and believe the suggestions are useful. Ultimately though, the proof here will be in how useful these recommendations are to you as you code. We would love you to give the Visual Studio IntelliCode extension a try. Let us know how it works out for you and send us your feedback. We’ll also learn from what you pick in our recommendations to improve our model over time, and update the extension with them.
+We’ve been using IntelliCode’s recommendations internally at Microsoft for some time, and believe the suggestions are useful. Ultimately, though, the proof will be in how useful these recommendations are to you as you code. We would love you to give the Visual Studio [IntelliCode extension](https://go.microsoft.com/fwlink/?linkid=872707) a try. Let us know how it works out for you and send us your feedback. We’ll also train our model based on what you pick in our recommendations, and we'll update the extension as the model improves.
 
-(note: none of your user defined code is collected – see the question on privacy below). 
+> [!NOTE]
+> None of your user-defined code is collected. See the question on [privacy](#privacy).
 
 ## Q. What's the future of IntelliCode?
 
@@ -57,7 +58,7 @@ IntelliCode's AI-assisted IntelliSense is currently in its first experimental pr
 
 The experience was shown at Build 2018 in Visual Studio 2017 on a C# codebase. However, we look forward to expanding IntelliCode to more languages and tools in the Visual Studio family in the future.
 
-## Q: What about privacy? Are you sending my code to the cloud? What customer data is being sent to Microsoft?
+## <a name="privacy"/> Q: What about privacy? Are you sending my code to the cloud? What customer data is being sent to Microsoft?
 
 Developers are invited to experience Visual Studio IntelliCode today as an experimental preview extension. The purpose of the extension is to enable developers to test IntelliCode's capabilities and to provide feedback to the product team.
 
