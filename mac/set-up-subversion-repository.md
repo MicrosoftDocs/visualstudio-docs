@@ -33,9 +33,9 @@ Before starting to use Subversion, the Xcode command line tools must be installe
 
 7. Click **OK** and then confirm by pressing **Publish**.
 
-7. You might be prompted to enter your credentials for the site on which you create the repository. Enter these as illustrated below:
+7. If prompted, enter your credentials for the site on which you create the repository, as illustrated below:
 
-    ![](media/version-control-subversion5.png)
+    ![Entering credentials for subversion repo](media/version-control-subversion5.png)
 
 8.	All the version control commands available should now be visible in the version control menu.
 

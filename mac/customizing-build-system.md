@@ -24,11 +24,11 @@ MSBuild uses an XML file, called a project file, that defines the *Items* that a
 
 Locate the MSBuild file by right-clicking on your project name and selecting **Reveal in Finder**. The finder window displays all the files and folders related to your project, including the `.csproj` file, as illustrated in the following image:
 
-![](media/customizing-build-system-image1.png)
+![csproj location in Finder](media/customizing-build-system-image1.png)
 
 To display the `.csproj` in a new tab in Visual Studio for Mac, right-click on your project name and browse to **Tools > Edit File**:
 
-![](media/customizing-build-system-image2.png)
+![opening the csproj in the source editor](media/customizing-build-system-image2.png)
 
 ### Composition of the MSBuild file
 
