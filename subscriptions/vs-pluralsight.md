@@ -78,7 +78,7 @@ The table below details what Pluralsight subscription benefits are available to 
 | Visual Studio Enterprise (NFR<sup>1</sup> ) | Program                                       | Not available                                  |NA|
 <sup>1</sup>  *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), BizSpark, MCT Software & Services Developer, MCT Software & Service, Microsoft Valued Partner (MVP), Region Director (RD), Microsoft Partner Network (MPN), FTE, Imagine.*
 
-<sup>2</sup>  *Following the expiration of Pluralsight subscriptions, you may be eligible to receive 12 months of access to 50 selected Pluralsight courses in one of three study areas.  The Pluralsight benefit is single use only, tied to the individual.  Once the subscriber consumes the benefit, it does not reset. Please see the frequently asked questions below for more details.*
+<sup>2</sup>  *The Pluralsight benefit is single use only, tied to the individual.  Once the subscriber consumes the benefit, it does not reset. Please see the frequently asked questions below for more details.  Following the expiration of Pluralsight subscriptions, you may be eligible to receive 12 months of access to 50 selected Pluralsight courses in one of three study areas.*
 
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions. 
 

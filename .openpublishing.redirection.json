@@ -886,6 +886,16 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/ide/class-designer/viewing-types-and-relationships.md",
+            "redirect_url": "/visualstudio/ide/class-designer/designing-and-viewing-classes-and-types",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/class-designer/working-with-class-diagrams.md",
+            "redirect_url": "/visualstudio/ide/class-designer/designing-and-viewing-classes-and-types",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/ide/connected-environment.md",
             "redirect_url": "/visualstudio/ide/signing-in-to-visual-studio",
             "redirect_document_id": false
@@ -2063,6 +2073,11 @@
         {
             "source_path": "docs/vsto/index.md",
             "redirect_url": "/visualstudio/vsto/office-and-sharepoint-development-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vsto/you-must-explicitly-enable-access-to-the-microsoft-office-visual-basic-for-applications-project-system-before-you-can-create-or-open-a-----for-the-microsoft-office-system-project.md",
+            "redirect_url": "/visualstudio/vsto/enable-access-to-vba-to-create-or-open-a-visual-studio-tools-for-office-system-project",
             "redirect_document_id": false
         },
         {
