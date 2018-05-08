@@ -128,3 +128,9 @@ A:  Yes you can, if your reseller participates in the Cloud Solution Provider (C
 * [Visual Studio Professional annual](https://marketplace.visualstudio.com/items?itemName=ms.vs-professional-annual)
 * [Visual Studio Enterprise monthly](https://marketplace.visualstudio.com/items?itemName=ms.vs-enterprise-monthly)
 * [Visual Studio Enterprise annual](https://marketplace.visualstudio.com/items?itemName=ms.vs-enterprise-annual)
+
+## Related resources
+
+* [Visual Studio Subscriptions Administration portal](https://manage.visualstudio.com/)
+* [Visual Studio subscription support](https://www.visualstudio.com/vs/support/)
+* [Visual Studio cloud subscription purchasing for CSPs](vscloud-csp.md)
