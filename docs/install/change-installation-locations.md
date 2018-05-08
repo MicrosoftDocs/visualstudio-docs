@@ -34,7 +34,7 @@ Here's how.
 
 2. In the **Download cache** section, decide if you want to keep the download cache, and then check or uncheck the **Keep download cache** accordingly. <br><br>If you decide not to keep the download cache, the location is used only temporarily. As well, this action will not affect or delete files from previous installations. (To clean all installation packages, you must modify your previous installations separately.)
 
-3. In the **Download cache** section, specify the drive where you want to store installation files and manifests. <br><br>For example, if you select the "Desktop development with C++ workload, the temporarily required size is 1.58 GB on your system drive, which is then freed as soon as the installation completes.
+3. In the **Download cache** section, specify the drive where you want to store installation files and manifests. <br><br>For example, if you select the "Desktop development with C++" workload, the temporarily required size is 1.58 GB on your system drive, which is then freed as soon as the installation completes.
 
  > [!NOTE]
  > The files are first downloaded to a temp folder on your system drive and later deleted after Visual Studio verifies and then moves them to the download cache folder. If you select to keep your download cache to a different drive, Visual Studio still needs disk space that is equivalent to the size of the download cache on your system drive.
