@@ -18,7 +18,7 @@ The VSPerfCmd.exe **Args** option specifies a list of arguments that are passed 
   
 ## Syntax  
   
-```  
+```cmd  
 VSPerfCmd.exe /Launch:AppName /Args:Arguments [Options]  
 ```  
   
@@ -33,7 +33,7 @@ VSPerfCmd.exe /Launch:AppName /Args:Arguments [Options]
 ## Example  
  The following example uses the **Args** option to pass arguments to TestApp.exe.  
   
-```  
+```cmd  
 VSPerfCmd.exe /Start:Sample /Output:TestApp.exe.vsp  
 VSPerfCmd.exe /Launch:TestApp.exe /Args:"123, 'Hello World'"  
 ```  

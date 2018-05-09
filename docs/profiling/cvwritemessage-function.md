@@ -34,7 +34,7 @@ Writes a message to the Concurrency Visualizer trace file.
   
 ## Syntax  
   
-```  
+```C  
 HRESULT CvWriteMessageW(  
     _In_reads_bytes_(16) PCV_MARKERSERIES pMarkerSeries,  
     _In_ PCWSTR pMessage,  

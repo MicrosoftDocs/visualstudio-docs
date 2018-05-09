@@ -20,7 +20,7 @@ The `Concurrency` namespace provides classes and functions that give you access 
   
 ## Syntax  
   
-```  
+```cpp  
 namespace Concurrency;  
 ```  
   

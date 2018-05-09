@@ -25,7 +25,7 @@ You can use the Concurrency Visualizer command-line utility (CVCollectionCmd.exe
 ## Collect a trace with CVCollectionCmd  
  You can collect a trace by starting the app with CVCollectionCmd, or by attaching to it. See the command reference below for your options. For example  
   
-```  
+```cmd  
 <Path>CVCollectionCmd /launch c:\myapp\myapp.exe /outdir c:\myapp\data  
 ```  
   

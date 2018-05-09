@@ -32,7 +32,7 @@ Marks the beginning of a new span.
   
 ## Syntax  
   
-```  
+```C  
 HRESULT CvEnterSpanW(  
     _In_reads_bytes_(16) PCV_MARKERSERIES pMarkerSeries,   
     _Out_ PCV_SPAN* ppSpan,   

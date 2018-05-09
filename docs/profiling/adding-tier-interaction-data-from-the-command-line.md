@@ -49,20 +49,20 @@ In the following example, a Windows desktop application is profiled by using the
 
 2. Initialize .NET profiling and the TIP environment variables. Type the following commands:
 
-    ```
+    ```cmd
     vsperfclrenv /traceon
     vsperfclrenv /interactionon
     ```
 
 3. Start the profiler. Type the following command:
 
-    ```
+    ```cmd
     vsperfcmd /start:trace /output:Desktop_tip.vsp 
     ```
 
 4. Start the application with VSPerfCmd. Type the following command:
 
-    ```
+    ```cmd
     vsperfcmd /launch:DesktopApp.exe
     ```
 
@@ -70,7 +70,7 @@ In the following example, a Windows desktop application is profiled by using the
 
 6. Clear the TIP environment variables. Type the following command:
 
-    ```
+    ```cmd
     vsperfclrenv /off
     ```
 
@@ -92,13 +92,13 @@ In the following example, a Windows service is profiled by using the instrumenta
 
 3. Initialize the .NET profiling environment variables. Type the following command:
 
-    ```
+    ```cmd
     vsperfclrenv /globaltraceon
     ```
 
 4. Initialize the TIP environment variables. Type the following command
 
-    ```
+    ```cmd
     vsperfclrenv /globalinteractionon
     ```
 
@@ -108,7 +108,7 @@ In the following example, a Windows service is profiled by using the instrumenta
 
 7. Start the profiler. Type the following command:
 
-    ```
+    ```cmd
     vsperfcmd /start:trace /output:MiddleTier_tip.vsp /user:SYSTEM /crosssession 
     ```
 
@@ -116,7 +116,7 @@ In the following example, a Windows service is profiled by using the instrumenta
 
 9. Attach the profiler to the service. Type the following command:
 
-    ```
+    ```cmd
     vsperfcmd /attach:MiddleTier.exe /output:MyService_tip.vsp /user:SYSTEM /crosssession 
     ```
 
@@ -128,7 +128,7 @@ In the following example, a Windows service is profiled by using the instrumenta
 
 12. Clear the .NET and TIP profiling environment variables. Type the following command:
 
-    ```
+    ```cmd
     vsperfclrenv /globaloff
     ```
 
@@ -146,7 +146,7 @@ The VSPerfASPNETCmd command-line tool enables you to easily profile [!INCLUDE[vs
 
 To add tier interaction to profiling data collected by using VSPerfASPNETCmd, add the **/TIP** option to the command line. For example, use the following command line to collect tier interaction data for an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application by using the instrumentation method:
 
-```
+```cmd
 vsperfaspnetcmd /tip /trace http://localhost/MyWebApp
 ```
 

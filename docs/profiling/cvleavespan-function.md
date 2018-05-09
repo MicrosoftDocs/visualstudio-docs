@@ -20,7 +20,7 @@ Marks the end of span.
   
 ## Syntax  
   
-```  
+```C  
 HRESULT CvLeaveSpan(  
    _In_ PCV_SPAN pSpan  
 );  

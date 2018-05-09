@@ -16,7 +16,7 @@ The VSPerfCmd.exe **Console** option starts the specified application in a new c
   
 ## Syntax  
   
-```  
+```cmd  
 VSPerfCmd.exe /Launch:AppName /Console  
 ```  
   
