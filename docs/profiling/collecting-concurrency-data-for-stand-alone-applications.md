@@ -32,16 +32,16 @@ The concurrency method of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.m
   
 |Task|Related content|  
 |----------|---------------------|  
-|**Profile by using the sampling method**|-   [Collecting Application Statistics Using Sampling](../profiling/collecting-application-statistics-for-stand-alone-applications-by-using-the-profiler-command-line.md)|  
-|**Profile by using the instrumentation method**|-   [Collecting Detailed Timing Data Using Instrumentation](../profiling/collecting-detailed-timing-data-for-a-stand-alone-application-by-using-the-profiler-command-line.md)|  
-|**Profile .NET memory allocation and garbage collection**|-   [Collecting .NET Framework Memory Data](../profiling/collecting-dotnet-framework-memory-data-for-stand-alone-applications-by-using-the-profiler-command-line.md)|  
+|**Profile by using the sampling method**|-   [Collecting Application Statistics Using Sampling](../profiling/collecting-application-statistics-for-stand-alone-applications.md)|  
+|**Profile by using the instrumentation method**|-   [Collecting Detailed Timing Data Using Instrumentation](../profiling/collecting-detailed-timing-data-for-a-stand-alone-application.md)|  
+|**Profile .NET memory allocation and garbage collection**|-   [Collecting .NET Framework Memory Data](../profiling/collecting-dotnet-framework-memory-data-for-stand-alone-applications.md)|  
 |**Adding tier-interaction data**|-   [Collecting tier interaction data](../profiling/adding-tier-interaction-data-from-the-command-line.md)|  
   
 ### Profiling Concurrency Issues  
   
 |Task|Related content|  
 |----------|---------------------|  
-|**Profile ASP.NET applications**|-   [Collecting Concurrency Data](../profiling/collecting-concurrency-data-for-an-aspnet-web-application-using-the-profiler-command-line.md)|  
+|**Profile ASP.NET applications**|-   [Collecting Concurrency Data](../profiling/collecting-concurrency-data-for-an-aspnet-web-application.md)|  
 |**Profile services**|-   [Collecting Concurrency Data](../profiling/collecting-concurrency-data-for-a-service-by-using-the-profiler-command-line.md)|  
   
 ### Analyzing Concurrency Data Views and Reports  

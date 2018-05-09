@@ -48,7 +48,7 @@
 #### [How to: Sign Setup Files with SignTool.exe (ClickOnce)](how-to-sign-setup-files-with-signtool-exe-clickonce.md)
 ### [Publishing ClickOnce Applications](publishing-clickonce-applications.md)
 #### [Creating ClickOnce Applications for Others to Deploy](creating-clickonce-applications-for-others-to-deploy.md)
-#### [Deploying ClickOnce Applications For Testing and Production Servers without Resigning](deploying-clickonce-applications-for-testing-and-production-servers-without-resigning.md)
+#### [Deploying ClickOnce Applications For Testing and Production Servers without Resigning](deploying-clickonce-applications-for-testing-and-production-without-resigning.md)
 #### [Accessing Local and Remote Data in ClickOnce Applications](accessing-local-and-remote-data-in-clickonce-applications.md)
 #### [Deploying COM Components with ClickOnce](deploying-com-components-with-clickonce.md)
 #### [Building ClickOnce Applications from the Command Line](building-clickonce-applications-from-the-command-line.md)

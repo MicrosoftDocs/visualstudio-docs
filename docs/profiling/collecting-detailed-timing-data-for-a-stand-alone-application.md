@@ -31,16 +31,16 @@ This section describes the procedures and options for collecting detailed perfor
   
 |Task|Related Content|  
 |----------|---------------------|  
-|**Profiling applications by using sampling**|-   [Collecting Application Statistics Using Sampling](../profiling/collecting-application-statistics-for-stand-alone-applications-by-using-the-profiler-command-line.md)|  
-|**Profiling .NET memory allocation and garbage collection**|-   [Collecting .NET Framework Memory Data](../profiling/collecting-dotnet-framework-memory-data-for-stand-alone-applications-by-using-the-profiler-command-line.md)|  
-|**Profiling resource contention and thread activity**|-   [Collecting Concurrency Data](../profiling/collecting-concurrency-data-for-stand-alone-applications-by-using-the-profiler-command-line.md)|  
+|**Profiling applications by using sampling**|-   [Collecting Application Statistics Using Sampling](../profiling/collecting-application-statistics-for-stand-alone-applications.md)|  
+|**Profiling .NET memory allocation and garbage collection**|-   [Collecting .NET Framework Memory Data](../profiling/collecting-dotnet-framework-memory-data-for-stand-alone-applications.md)|  
+|**Profiling resource contention and thread activity**|-   [Collecting Concurrency Data](../profiling/collecting-concurrency-data-for-stand-alone-applications.md)|  
   
 ### Profiling by Using the Instrumentation Method  
   
 |Task|Related Content|  
 |----------|---------------------|  
 |**Profiling ASP.NET applications**|-   [Collecting Detailed Timing Data Using Instrumentation](../profiling/collecting-detailed-timing-data-aspnet-profiler-instrumentation-method.md)|  
-|**Profiling services**|-   [Collecting Detailed Timing Data Using Instrumentation](../profiling/collecting-detailed-timing-data-for-services-by-using-the-instrumentation-method-from-the-profiler-command-line.md)|  
+|**Profiling services**|-   [Collecting Detailed Timing Data Using Instrumentation](../profiling/collecting-detailed-timing-data-for-services-by-using-the-instrumentation-method.md)|  
   
 ### Analyzing Instrumentation Data Views and Reports  
  [Instrumentation Method Data Views](../profiling/instrumentation-method-data-views.md)  

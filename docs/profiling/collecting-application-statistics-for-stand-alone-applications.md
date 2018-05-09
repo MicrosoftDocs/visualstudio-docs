@@ -35,15 +35,15 @@ This section describes the procedures and options for collecting performance sta
   
 |Task|Related content|  
 |----------|---------------------|  
-|**Instrument an application**|-   [Collecting Detailed Timing Data Using Instrumentation](../profiling/collecting-detailed-timing-data-for-a-stand-alone-application-by-using-the-profiler-command-line.md)|  
-|**Collect .NET memory allocation and garbage collection data**|-   [Collecting .NET Framework Memory Data](../profiling/collecting-dotnet-framework-memory-data-for-stand-alone-applications-by-using-the-profiler-command-line.md)|  
-|**Collect resource contention and thread execution data**|-   [Collecting Concurrency Data](../profiling/collecting-concurrency-data-for-stand-alone-applications-by-using-the-profiler-command-line.md)|  
+|**Instrument an application**|-   [Collecting Detailed Timing Data Using Instrumentation](../profiling/collecting-detailed-timing-data-for-a-stand-alone-application.md)|  
+|**Collect .NET memory allocation and garbage collection data**|-   [Collecting .NET Framework Memory Data](../profiling/collecting-dotnet-framework-memory-data-for-stand-alone-applications.md)|  
+|**Collect resource contention and thread execution data**|-   [Collecting Concurrency Data](../profiling/collecting-concurrency-data-for-stand-alone-applications.md)|  
   
 ### Profiling by Using the Sampling Method  
   
 |Task|Related content|  
 |----------|---------------------|  
-|**Profile ASP.NET Web applications**|-   [Collecting Application Statistics Using Sampling](../profiling/collecting-application-statistics-for-aspnet-web-applications-using-the-profiler-sampling-method-from-the-command-line.md)|  
+|**Profile ASP.NET Web applications**|-   [Collecting Application Statistics Using Sampling](../profiling/collecting-application-statistics-for-aspnet-using-the-profiler-sampling-method.md)|  
 |**Profile services**|-   [Collecting Application Statistics Using Sampling](../profiling/collecting-application-statistics-for-services-by-using-the-profiler-sampling-method.md). Describes how to collect performance statistics from Windows services by using the sampling method.|  
   
 ### Analyzing Sampling Data Views and Reports  
