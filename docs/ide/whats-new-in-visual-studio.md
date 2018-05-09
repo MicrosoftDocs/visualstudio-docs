@@ -334,10 +334,14 @@ For more information, see the [Visual Studio Tools for AI](../ai/about-ai-tools.
 
 ## What's next
 
-We update Visual Studio 2017 often to add new features to make your development experience even better. Here's a recap of some of our most notable updates, which are **new in 15.7**:
+We update Visual Studio 2017 often to add new features that can make your development experience even better. Here's a recap of some of our most notable updates.
 
-* **Live Share**. Now you can share a codebase and its context so you get instant, bi-directional, collaboration directly from either Visual Studio 2017 or Visual Studio Code. With Live Share, your teammate can read, navigate, edit, and debug a project that you've shared with them, both seamlessly and securely.<br><br>For more information, see the [Live Share FAQ](/visualstudio/liveshare/faq.md).<br><br>
-* **IntelliCode**. <br><br>For more information, see the [IntelliCode FAQ](../ide/not-in-toc/intellicode-faq.md).
+### New in 15.7
+
+* **Live Share**. Now you can share a codebase and its context and get instant bi-directional collaboration directly from either Visual Studio 2017 or Visual Studio Code. With Live Share, your teammate can read, navigate, edit, and debug a project that you've shared with them, seamlessly and securely.<br><br>For more information, see the [Live Share FAQ](/visualstudio/liveshare/faq).<br><br>
+* **IntelliCode**, a new capability that enhances software development by using AI. IntelliCode helps you code with confidence, find issues faster, and focus code reviews. <br><br>For more information, see the [IntelliCode FAQ](../ide/not-in-toc/intellicode-faq.md).
+
+Want to know more about what else is in the works for Visual Studio 2017? See the [Visual Studio Roadmap](/visualstudio/productinfo/vs2018-roadmap) page.
 
 ## Contact us
 
@@ -347,7 +351,7 @@ If you want to make a suggestion about how we can improve Visual Studio, or repo
 
 ### Report a problem
 
- Sometimes, a message isn't enough to convey the full impact of a problem you've encountered. If you experience a hang, crash, or other performance issue, you can easily share repro steps and supporting files (such as screenshots, and trace and heap dump files) with us by using the **Report a Problem** tool. For more information about how to use this tool, see the [How to report a problem](how-to-report-a-problem-with-visual-studio-2017.md) page.  
+ Sometimes, a message isn't enough to convey the full impact of a problem you've encountered. If you experience a hang, crash, or other performance issue, you can easily share repro steps and supporting files (such as screenshots, and trace and heap dump files) with us by using the **Report a Problem** tool. For more information about how to use this tool, see the [How to report a problem](how-to-report-a-problem-with-visual-studio-2017.md) page.
 
 ### Track your issue in Connect
 
@@ -357,6 +361,6 @@ If you want to make a suggestion about how we can improve Visual Studio, or repo
 
 * [Visual Studio 2017 release notes](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes)
 * [What's new in Visual C++](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio)
-* [What's new in C#](/dotnet/csharp/whats-new)  
+* [What's new in C#](/dotnet/csharp/whats-new)
 * [What's new for Team Foundation Server](https://www.visualstudio.com/docs/whats-new)
 * [What's new in Visual Studio for Mac](https://www.visualstudio.com/vs/visual-studio-mac/)
