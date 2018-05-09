@@ -28,17 +28,17 @@ Reasons you might want to convert a [for](/dotnet/csharp/language-reference/keyw
 
 - You don't use the iteration count variable inside the loop except as an index to access the item.
 
-- You want to simplify your code and reduce the likelihood of logic errors in the initializer, condition, and iterations statements.
+- You want to simplify your code and reduce the likelihood of logic errors in the initializer, condition, and iteration statements.
 
 ### How to use it
 
 1. Place your cursor on the first line of the `for` loop.
 
-1. Press **Ctrl**+**.** or click the screwdriver ![Screwdriver icon](../media/screwdriver-icon.png) icon in margin of the code file.
+1. Press **Ctrl**+**.** or click the screwdriver ![Screwdriver icon](../media/screwdriver-icon.png) icon in the margin of the code file.
 
    ![Convert to foreach menu](media/convert-to-foreach.png)
 
-1. Select **Convert to 'foreach'**, or select **Preview changes** to open the [Preview Changes](../../ide/preview-changes.md) dialog, and then select **Apply**.
+1. Select **Convert to 'foreach'**. Or, select **Preview changes** to open the [Preview Changes](../../ide/preview-changes.md) dialog, and then select **Apply**.
 
 ## Convert a foreach statement to a for loop
 
@@ -56,11 +56,11 @@ Reasons you might want to convert a [foreach](/dotnet/csharp/language-reference/
 
 1. Place your cursor on the first line of the `foreach` statement.
 
-1. Press **Ctrl**+**.** or click the screwdriver ![Screwdriver icon](../media/screwdriver-icon.png) icon in margin of the code file.
+1. Press **Ctrl**+**.** or click the screwdriver ![Screwdriver icon](../media/screwdriver-icon.png) icon in the margin of the code file.
 
    ![Convert to for menu](media/convert-to-for.png)
 
-1. Select **Convert to 'for'**, or select **Preview changes** to open the [Preview Changes](../../ide/preview-changes.md) dialog, and then select **Apply**.
+1. Select **Convert to 'for'**. Or, select **Preview changes** to open the [Preview Changes](../../ide/preview-changes.md) dialog, and then select **Apply**.
 
 ## See also
 
