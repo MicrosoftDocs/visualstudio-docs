@@ -65,7 +65,7 @@ To learn more about the new installation experience, including step-by-step inst
 
 ### A focus on accessibility
 
-**New in 15.3**, we made over 1,700 targeted fixes to improve compatibility between Visual Studio and the assistive technologies that many customers use. There are dozens of scenarios that are more compatible with screen readers, high contrast themes, and other assistive technologies than ever before. The debugger, editor and shell have all gotten significant improvements, too.
+**New in 15.3**, we made over 1,700 targeted fixes to improve compatibility between Visual Studio and the assistive technologies that many customers use. There are dozens of scenarios that are more compatible with screen readers, high contrast themes, and other assistive technologies than ever before. The debugger, editor, and shell have all gotten significant improvements, too.
 
 For more information, see the [Accessibility improvements in Visual Studio 2017 version 15.3](https://blogs.msdn.microsoft.com/visualstudio/2017/08/14/accessibility-improvements-in-visual-studio-2017-version-15-3/) blog post.
 
@@ -273,7 +273,7 @@ For more information, see the [Visual Studio and Xamarin](../cross-platform/visu
 
 ### Visual Studio Tools for Xamarin
 
-**New in 15.4**: Xamarin Live enables developers to continuously deploy, test, and debug their apps, directly on iOS and Android devices. After downloading the Xamarin Live Player&mdash;available in the App Store or on Google Play&mdash;you can pair your device with Visual Studio and revolutionize the way you build mobile apps. This functionality is now included in Visual Studio and can be enabled by going to **Tools** > **Options** > **Xamarin** > **Other** > **Enable Xamarin Live Player**.
+**New in 15.4**: Xamarin Live enables developers to continuously deploy, test, and debug their apps, directly on iOS and Android devices. After you download the Xamarin Live Player&mdash;available in the App Store or on Google Play&mdash;you can pair your device with Visual Studio and revolutionize the way you build mobile apps. This functionality is now included in Visual Studio and can be enabled by going to **Tools** > **Options** > **Xamarin** > **Other** > **Enable Xamarin Live Player**.
 
 ![Animation of the Xamarin Live Player pair, deployment, and live edit modes](../ide/media/xamarinliveplayer.gif)
 
@@ -352,10 +352,6 @@ If you want to make a suggestion about how we can improve Visual Studio, or repo
 ### Report a problem
 
  Sometimes, a message isn't enough to convey the full impact of a problem you've encountered. If you experience a hang, crash, or other performance issue, you can easily share repro steps and supporting files (such as screenshots, and trace and heap dump files) with us by using the **Report a Problem** tool. For more information about how to use this tool, see the [How to report a problem](how-to-report-a-problem-with-visual-studio-2017.md) page.
-
-### Track your issue in Connect
-
- If want to track the status of your Visual Studio feedback, go to [Connect](http://connect.microsoft.com/) and report the bug there. After you report it, you can return to **Connect** to track its status.
 
 ## See also
 
