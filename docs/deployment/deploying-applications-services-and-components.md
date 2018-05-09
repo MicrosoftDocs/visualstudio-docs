@@ -48,6 +48,8 @@ See the Tutorials for step-by-step instructions.
 
     ![Choose IIS, FTP, etc.](../deployment/media/quickstart-publish-iis-ftp.png)
 
+    For information on importing a publish profile in Visual Studio, see [Import publish settings and deploy to IIS](../deployment/tutorial-import-publish-settings-iis.md).
+
     You can also deploy ASP.NET applications and services in a number of other ways. For more information, see [Deploying ASP.NET web applications and services](http://www.asp.net/aspnet/overview/deployment).
 
 - **Visual C++ runtime**: You can deploy the Visual C++ runtime using central deployment. For more information, see [Deploying Native Desktop Applications (Visual C++)](/cpp/ide/deploying-native-desktop-applications-visual-cpp). 
@@ -60,14 +62,12 @@ See the Tutorials for step-by-step instructions.
 
     ![Choose Azure App Service](../deployment/media/quickstart-publish-azure.png "Choose Azure App Service")
 
-    To publish to an Azure Virtual Machine, scroll right and select **Microsoft Azure Virtual Machines**.
+    For information on importing a publish profile from Azure App Service to Visual Studio, see [Import publish settings and deploy to Azure](../deployment/tutorial-import-publish-settings-azure.md).
 
     For a quick introduction, see [Publish to Azure](quickstart-deploy-to-azure.md). Also, see [Publish an ASP.NET Core app to Azure](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs). For deployment using Git, see [Continuous deployment of ASP.NET Core to Azure with Git](/aspnet/core/publishing/azure-continuous-deployment).
 
     > [!NOTE]
     > If you do not already have an Azure account, you can [sign up here](https://azure.microsoft.com/free/?ref=microsoft.com&utm_source=microsoft.com&utm_medium=doc&utm_campaign=visualstudio).
-
-- Other **Azure services**: See the specific [Azure service](/azure/#pivot=products) documentation for different deployment options that may be supported by Visual Studio.
 
 ### Publish to Microsoft Store
 

@@ -73,7 +73,7 @@ If you do not already have an Azure account, you can [sign up here](https://azur
 
 ## Next steps
 
-In this quickstart, you learned how to use Visual Studio to create a publishing profile for deployment to Azure.
+In this quickstart, you learned how to use Visual Studio to create a publishing profile for deployment to Azure. You can also configure a publishing profile by importing publish settings from Azure App Service.
 
 > [!div class="nextstepaction"]
-> [Import publish settings and deploy to Azure](tutorial-import-publish-settings-and-deploy-to-azure.md)
+> [Import publish settings and deploy to Azure](tutorial-import-publish-settings-azure.md)

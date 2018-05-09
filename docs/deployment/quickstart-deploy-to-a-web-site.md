@@ -77,7 +77,7 @@ These steps apply to ASP.NET, ASP.NET Core, .NET Core, and Python apps in Visual
 
 ## Next steps
 
-In this quickstart, you learned how to use Visual Studio to create a publishing profile.
+In this quickstart, you learned how to use Visual Studio to create a publishing profile. You can also configure a publishing profile by importing publish settings.
 
 > [!div class="nextstepaction"]
-> [Import publish settings and deploy to Azure](tutorial-import-publish-settings-and-deploy.md)
+> [Import publish settings and deploy to IIS](tutorial-import-publish-settings-iis.md)
