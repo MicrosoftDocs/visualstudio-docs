@@ -69,7 +69,7 @@ You can add elements—controls, layouts, and shapes—to your app in XAML, in c
 
      When the edges are aligned, an *alignment boundary* appears to indicate alignment. The alignment boundary is a red dashed line. Alignment boundaries appear only when **snapping to snaplines** is enabled. For an illustration of the artboard that shows an alignment boundary, see [Creating a UI by using XAML Designer](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md).
 
-## Changing the an element's margins
+## Changing an element's margins
  The margins in XAML Designer determine the amount of empty space that is around an element on the artboard. For example, margins specify the amount of space between the outside edges of an element and the boundaries of a  `Grid` panel that contains the element. Margins also specify the amount of space between elements that are contained in a `StackPanel`.
 
 #### To change an element's margins in the Properties window
