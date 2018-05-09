@@ -54,9 +54,13 @@ We have no announcements regarding pricing at present.
 
 IntelliCode's AI-assisted IntelliSense is currently in its first experimental preview. We'll continue to update the experimental extension, and we'll add further capabilities in the future. We have no schedule for a final release, but we welcome feedback from developers so we can deliver the best possible experiences. You can sign up for news and updates at [https://aka.ms/intellicode](https://aka.ms/intellicode).
 
-## Q. Is this experience only available in Visual Studio?
+## Q. Is this experience only available in Visual Studio and for C#?
 
 The experience was shown at Build 2018 in Visual Studio 2017 on a C# codebase. However, we look forward to expanding IntelliCode to more languages and tools in the Visual Studio family in the future.
+
+## Q. Is this experience only available in English?
+
+IntelliCode is a preview extension today and we are eager to understand how useful these capabilities are for a broad set of customers before we take it out of preview. When we do so, we will certainly consider what locale/language to support first, and how it is packaged. Based on feedback, we also plan to look into support for other programming languages and other AI-assisted productivity capabilities.
 
 ## <a name="privacy"/> Q: What about privacy? Are you sending my code to the cloud? What customer data is being sent to Microsoft?
 
