@@ -25,16 +25,16 @@ ms.workload:
 
 Looking to upgrade from a previous version of Visual Studio? Here's what Visual Studio 2017 can offer you: Unparalleled productivity for any dev, any app, and any platform. Use Visual Studio 2017 to develop apps for Android, iOS, Windows, Linux, web, and cloud. Code fast, debug and diagnose with ease, test often, and release with confidence. You can also extend and customize Visual Studio by building your own extensions. Use version control, be agile, and collaborate efficiently with this release!
 
-Here's a high-level recap of the changes we've made since our previous version, Visual Studio 2015:
+Here's a high-level recap of the changes that were made since the previous version, Visual Studio 2015:
 
-* **Redefined fundamentals**. A new setup experience means that you can install more quickly and install what you want when you need it. Whether you want to load large solutions and projects, or work on folders of code, or even a single file of code, Visual Studio starts faster. And, Visual Studio helps you stay focused on the big picture, especially for teams embracing DevOps.
+* **Redefined fundamentals**. A new setup experience means that you can install more quickly and install what you want when you need it. Whether you want to load large solutions and projects, or work on folders of code, or even on a single file of code, Visual Studio starts faster. And, Visual Studio helps you stay focused on the big picture, especially for teams embracing DevOps.
 * **Performance and productivity**. We have focused on new and modern mobile, cloud, and desktop development capabilities. And, we've also improved the overall acquisition, performance, and general developer productivity experiences. Visual Studio starts faster, is more responsive, and uses less memory than before.
 * **Cloud app development with Azure**. A built-in suite of Azure tools enable you to easily create cloud-first apps powered by Microsoft Azure. Visual Studio makes it easy to configure, build, debug, package, and deploy apps and services on Azure.
 * **Windows app development**. Use the UWP templates in Visual Studio 2017 to create a single project for all Windows 10 devices &ndash; PC, tablet, phone, Xbox, HoloLens, Surface Hub, and more. Then, produce an app package and submit it to Microsoft Store from within Visual Studio to get your app out to customers.
 * **Mobile app development**. In Visual Studio 2017, you can innovate and get results fast with Xamarin, which unifies your multi-platform mobile requirements by using one core codebase and set of skills. Go mobile with your existing teams, technology investments, and C# code to deliver consumer-grade experiences ahead of schedule and under budget. Accelerate every step of the mobile lifecycle to deliver world-class consumer experiences or a portfolio of productivity apps to empower your workforce.
 * **Cross-platform development**. Seamlessly deliver software to any targeted platform. Extend DevOps processes to SQL Server through Redgate Data Tools and safely automate database deployments from Visual Studio. Or, use .NET Core to write apps and libraries that run unmodified across Windows, Linux, and macOS operating systems. (And **new in 15.3**: Get side-by-side support for .NET Core 2.0 SDKs.)
 * **Games development**. With Visual Studio Tools for Unity (VSTU), you can use Visual Studio to write game and editor scripts in C# and then use its powerful debugger to find and fix errors. The latest release of VSTU includes syntax coloring for Unity's ShaderLab shader language, better debugger visualizations, and improved code generation for the MonoBehavior wizard. VSTU also brings your Unity project files, console messages, and the ability to start your game into Visual Studio so you can spend less time switching to and from the Unity Editor while writing code.
-* **AI development**. With Visual Studio Tools for AI (**new in 15.5**), you can use the productivity features of Visual Studio to accelerate AI innovation. Build, test, and deploy Deep Learning / AI solutions that seamlessly integrate with Azure Machine Learning for robust experimentation capabilities, such as submitting data preparation and model training jobs transparently to different compute targets. And, Visual Studio Tools for AI provides support for custom metrics and run history tracking, which enable data science reproducibility and auditing.
+* **AI development**. With Visual Studio Tools for AI (**new in 15.5**), you can use the productivity features of Visual Studio to accelerate AI innovation. Build, test, and deploy Deep Learning / AI solutions that seamlessly integrate with Azure Machine Learning for robust experimentation capabilities, such as submitting data preparation and model training jobs transparently to different compute targets. And, Visual Studio Tools for AI provides support for custom metrics and run history tracking, which enables data science reproducibility and auditing.
 
 > [!NOTE]
 > For a complete list of new features and functionality in Visual Studio 2017, see the [Current release notes](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes). And for a peek at future feature offerings, see the [Preview release notes](https://www.visualstudio.com/news/releasenotes/vs2017-preview-relnotes).
@@ -108,7 +108,7 @@ When you use the Roaming Extension Manager, there are three icon types on your l
 * ![Installed icon](../ide/media/vs2017ide-installedicon.png "Installed Icon") ***Installed***: All extensions that are installed in this environment, but are not part of your Roaming List.
   (You can add extensions to the Roaming List by using the **Start Roaming** button.)
 
-Any extension that you download while you are signed in is added to your list as **Roamed & Installed** and is part of your Roaming list, which gives you access to it from any machine.
+Any extension that you download while you are signed in is added to your list as **Roamed & Installed**. The extension then becomes part of your Roaming list, which gives you access to it from any machine.
 
 ### Experience live unit testing
 
@@ -241,7 +241,7 @@ For more information, see [Debug live ASP.NET apps using snappoints and logpoint
 
 ### Universal Windows Platform
 
-The Universal Windows Platform (UWP) is the app platform for Windows 10. You can develop apps for UWP with just one API set, one app package, and one store to reach all Windows 10 devices &ndash; PC, tablet, phone, Xbox, HoloLens, Surface Hub, and more. UWP supports different screen sizes and a variety of interaction models, whether it be touch, mouse and keyboard, a game controller, or a pen. At the core of UWP apps is the idea that users want their experiences to be mobile across ALL their devices, and they want to use whatever device is most convenient or productive for the task at hand.
+The Universal Windows Platform (UWP) is the app platform for Windows 10. You can develop apps for UWP with just one API set, one app package, and one store to reach all Windows 10 devices &ndash; PC, tablet, phone, Xbox, HoloLens, Surface Hub, and more. UWP supports different screen sizes and a variety of interaction models, whether it be touch, mouse and keyboard, a game controller, or a pen. At the core of UWP apps is the idea that users want their experiences to be mobile across ALL their devices, and that they want to use whatever device is most convenient or productive for the task at hand.
 
  ![Universal Windows Platform](../cross-platform/media/uwp_coreextensions.png "UWP_CoreExtensions")
 
@@ -347,11 +347,11 @@ Want to know more about what else is in the works for Visual Studio 2017? See th
 
  Why send feedback to the Visual Studio team? Because we take customer feedback seriously. It drives much of what we do.
 
-If you want to make a suggestion about how we can improve Visual Studio, or report a problem, please see the [Talk to us](../ide/talk-to-us.md) page.
+If you want to make a suggestion about how we can improve Visual Studio, or learn more about product support options, please see the [Talk to us](../ide/talk-to-us.md) page.
 
 ### Report a problem
 
- Sometimes, a message isn't enough to convey the full impact of a problem you've encountered. If you experience a hang, crash, or other performance issue, you can easily share repro steps and supporting files (such as screenshots, and trace and heap dump files) with us by using the **Report a Problem** tool. For more information about how to use this tool, see the [How to report a problem](how-to-report-a-problem-with-visual-studio-2017.md) page.
+ Sometimes, a message isn't enough to convey the full impact of a problem that you've encountered. If you experience a hang, crash, or other performance issue, you can easily share repro steps and supporting files (such as screenshots, and trace and heap dump files) with us by using the **Report a Problem** tool. For more information about how to use this tool, see the [How to report a problem](how-to-report-a-problem-with-visual-studio-2017.md) page.
 
 ## See also
 
