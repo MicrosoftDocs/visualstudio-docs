@@ -32,7 +32,7 @@ Here's a high-level recap of the changes that were made since the previous versi
 * **[Cloud app development with Azure](#cloud-app-development-with-azure)**. A built-in suite of Azure tools enable you to easily create cloud-first apps powered by Microsoft Azure. Visual Studio makes it easy to configure, build, debug, package, and deploy apps and services on Azure.
 * **[Windows app development](#windows-app-development)**. Use the UWP templates in Visual Studio 2017 to create a single project for all Windows 10 devices &ndash; PC, tablet, phone, Xbox, HoloLens, Surface Hub, and more. Then, produce an app package and submit it to Microsoft Store from within Visual Studio to get your app out to customers.
 * **[Mobile app development](#mobile-app-development)**. In Visual Studio 2017, you can innovate and get results fast with Xamarin, which unifies your multi-platform mobile requirements by using one core codebase and set of skills. Go mobile with your existing teams, technology investments, and C# code to deliver consumer-grade experiences ahead of schedule and under budget. Accelerate every step of the mobile lifecycle to deliver world-class consumer experiences or a portfolio of productivity apps to empower your workforce.
-* **[Cross-platform development](#cross--platform-development)**. Seamlessly deliver software to any targeted platform. Extend DevOps processes to SQL Server through Redgate Data Tools and safely automate database deployments from Visual Studio. Or, use .NET Core to write apps and libraries that run unmodified across Windows, Linux, and macOS operating systems. (And **new in 15.3**: Get side-by-side support for .NET Core 2.0 SDKs.)
+* **[Cross-platform development](#cross-platform-development)**. Seamlessly deliver software to any targeted platform. Extend DevOps processes to SQL Server through Redgate Data Tools and safely automate database deployments from Visual Studio. Or, use .NET Core to write apps and libraries that run unmodified across Windows, Linux, and macOS operating systems. (And **new in 15.3**: Get side-by-side support for .NET Core 2.0 SDKs.)
 * **[Games development](#games-development)**. With Visual Studio Tools for Unity (VSTU), you can use Visual Studio to write game and editor scripts in C# and then use its powerful debugger to find and fix errors. The latest release of VSTU includes syntax coloring for Unity's ShaderLab shader language, better debugger visualizations, and improved code generation for the MonoBehavior wizard. VSTU also brings your Unity project files, console messages, and the ability to start your game into Visual Studio so you can spend less time switching to and from the Unity Editor while writing code.
 * **[AI development](#ai-development)**. With Visual Studio Tools for AI (**new in 15.5**), you can use the productivity features of Visual Studio to accelerate AI innovation. Build, test, and deploy Deep Learning / AI solutions that seamlessly integrate with Azure Machine Learning for robust experimentation capabilities, such as submitting data preparation and model training jobs transparently to different compute targets. And, Visual Studio Tools for AI provides support for custom metrics and run history tracking, which enables data science reproducibility and auditing.
 
@@ -161,15 +161,15 @@ We've refreshed the navigation experience to help you get from A to B with great
 
 * **Go To All** (**Ctrl**+**T** or **Ctrl**+**,**) &ndash; Navigate directly to any file/type/member/symbol declaration. You can filter your result list or use the query syntax (for example, "f searchTerm" for files, "t searchTerm" for types, etc.).
 
- ![Improved Go To All](../ide/media/vs2017ide-navigation-go-to.png "Example of the improved Go To All feature")
+  ![Improved Go To All](../ide/media/vs2017ide-navigation-go-to.png "Example of the improved Go To All feature")
 
 * **Find All References** (**Shift**+**F12**) &ndash; With syntax colorization, you can group Find All Reference results by a combination of project, definition, and path. You can also "lock" results so that you can continue to find other references without losing your original results.
 
- ![New Find All References tool](../ide/media/vs2017ide-find-all-references.png "Example of the new Find All References tool")
+  ![New Find All References tool](../ide/media/vs2017ide-find-all-references.png "Example of the new Find All References tool")
 
 * **Structure Visualizer** &ndash; Dotted, gray vertical lines (indent guides) act as landmarks in code to provide context within your frame of view. You may recognize them from the popular Productivity Power Tools. You can use them to visualize and discover what block of code you're in at any time without having to scroll. Hovering over the lines displays a tooltip that shows you the opening of that block and its parents. It's available for all the languages supported via TextMate grammars, as well as C#, Visual Basic, and XAML.  
 
-![Visual Studio 2017 structure visualizer](../ide/media/vsIDE-StructureVisualizer.png "Structure visualizer in Visual Studio")
+  ![Visual Studio 2017 structure visualizer](../ide/media/vsIDE-StructureVisualizer.png "Structure visualizer in Visual Studio")
 
 For more information about the new productivity features, see the [Productivity in Visual Studio 2017](https://blogs.msdn.microsoft.com/visualstudio/2016/11/28/productivity-in-visual-studio-2017-rc/) blog post by Mark Wilson-Thomas.
 
@@ -331,12 +331,10 @@ For more information, see the [Visual Studio Tools for AI](../ai/about-ai-tools.
 
 ## What's next
 
-We update Visual Studio 2017 often to add new features that can make your development experience even better. Here's a recap of some of our most notable updates.
+We update Visual Studio 2017 often with new features that can make your development experience even better. Here's a recap of some of our most notable updates that are in experimental preview:
 
-### New in 15.7
-
-* **[Live Share](https://www.visualstudio.com/services/live-share/)**, a tool that allows you to share a codebase and its context with someone else and get instant bi-directional collaboration directly from either Visual Studio 2017 or Visual Studio Code. With Live Share, a teammate can read, navigate, edit, and debug a project that you've shared with them, seamlessly and securely.<br><br>For more information, see the [Live Share FAQ](/visualstudio/liveshare/faq).<br><br>
-* **[IntelliCode](https://www.visualstudio.com/services/intellicode/)**, a new capability that enhances software development by using AI. IntelliCode helps you code with confidence, find issues faster, and focus code reviews.<br><br>For more information, see the [IntelliCode FAQ](../ide/not-in-toc/intellicode-faq.md).
+* **[Live Share](https://www.visualstudio.com/services/live-share/)**, a new tool that allows you to share a codebase and its context with a teammate and get instant bi-directional collaboration directly from within Visual Studio. With Live Share, a teammate can read, navigate, edit, and debug a project that you've shared with them, and do so seamlessly and securely.<br><br>For more information, see the [Live Share FAQ](/visualstudio/liveshare/faq).<br><br>
+* **[IntelliCode](https://www.visualstudio.com/services/intellicode/)**, a new capability that enhances software development by using AI to deliver better context-aware code completions, guide developers to code to the patterns and styles of their team, find difficult-to-catch code issues, and focus code reviews on areas that really matter. <br><br>For more information, see the [IntelliCode FAQ](../ide/not-in-toc/intellicode-faq.md).
 
 Want to know more about what else is in the works for Visual Studio 2017? See the [Visual Studio Roadmap](/visualstudio/productinfo/vs2018-roadmap) page.
 
