@@ -23,7 +23,7 @@ These refactorings apply to:
 
 ## Convert Get method to property
 
-**What:** Lets you convert a Get method into a property (and optionally your Set method), and vice versa.
+**What:** Lets you convert a Get method into a property (and optionally your Set method).
 
 **When:** You have a Get method that does not contain any logic.
 
