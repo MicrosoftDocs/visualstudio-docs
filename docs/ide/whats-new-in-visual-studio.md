@@ -21,7 +21,7 @@ ms.workload:
 ---
 # What&#39;s new in Visual Studio 2017
 
-**Updated for the [15.7 release](/visualstudio/releasenotes/vs2017-relnotes)**
+**Updated for the [15.7 release](/visualstudio/releasenotes/vs2017-relnotes?context=visualstudio/default)**
 
 Looking to upgrade from a previous version of Visual Studio? Here's what Visual Studio 2017 can offer you: Unparalleled productivity for any dev, any app, and any platform. Use Visual Studio 2017 to develop apps for Android, iOS, Windows, Linux, web, and cloud. Code fast, debug and diagnose with ease, test often, and release with confidence. You can also extend and customize Visual Studio by building your own extensions. Use version control, be agile, and collaborate efficiently with this release!
 
@@ -37,7 +37,7 @@ Here's a high-level recap of the changes that were made since the previous versi
 * **[AI development](#ai-development)**. With Visual Studio Tools for AI (**new in 15.5**), you can use the productivity features of Visual Studio to accelerate AI innovation. Build, test, and deploy Deep Learning / AI solutions that seamlessly integrate with Azure Machine Learning for robust experimentation capabilities, such as submitting data preparation and model training jobs transparently to different compute targets. And, Visual Studio Tools for AI provides support for custom metrics and run history tracking, which enables data science reproducibility and auditing.
 
 > [!NOTE]
-> For a complete list of new features and functionality in Visual Studio 2017, see the [Current release notes](/visualstudio/releasenotes/vs2017-relnotes). And for a peek at future feature offerings, see the [Preview release notes](/visualstudio/releasenotes/vs2017-preview-relnotes).
+> For a complete list of new features and functionality in Visual Studio 2017, see the [Current release notes](/visualstudio/releasenotes/vs2017-relnotes?context=visualstudio/default). And for a peek at future feature offerings, see the [Preview release notes](/visualstudio/releasenotes/vs2017-preview-relnotes?context=visualstudio/default).
 
 Here's more detailed information about some of the most notable improvements and new features in Visual Studio 2017.
 
@@ -45,7 +45,7 @@ Here's more detailed information about some of the most notable improvements and
 
 ### A new setup experience
 
-[Download Visual Studio 2017](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) or [Check Visual Studio system requirements](https://www.visualstudio.com/productinfo/vs2017-system-requirements-vs)
+[Download Visual Studio 2017](https://www.visualstudio.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) or [Check Visual Studio system requirements](/visualstudio/productinfo/vs2017-system-requirements-vs?context=visualstudio/default)
 
  Visual Studio makes it easier and faster to install just the features you need, when you need them. And, it uninstalls cleanly, too.
 
@@ -335,7 +335,7 @@ We update Visual Studio 2017 often to add new features that can make your develo
 
 ### New in 15.7
 
-* **[Live Share](https://www.visualstudio.com/services/live-share/)**. Now you can share a codebase and its context and get instant bi-directional collaboration directly from either Visual Studio 2017 or Visual Studio Code. With Live Share, your teammate can read, navigate, edit, and debug a project that you've shared with them, seamlessly and securely.<br><br>For more information, see the [Live Share FAQ](/visualstudio/liveshare/faq).<br><br>
+* **[Live Share](https://www.visualstudio.com/services/live-share/)**, a tool that allows you to share a codebase and its context with someone else and get instant bi-directional collaboration directly from either Visual Studio 2017 or Visual Studio Code. With Live Share, a teammate can read, navigate, edit, and debug a project that you've shared with them, seamlessly and securely.<br><br>For more information, see the [Live Share FAQ](/visualstudio/liveshare/faq).<br><br>
 * **[IntelliCode](https://www.visualstudio.com/services/intellicode/)**, a new capability that enhances software development by using AI. IntelliCode helps you code with confidence, find issues faster, and focus code reviews.<br><br>For more information, see the [IntelliCode FAQ](../ide/not-in-toc/intellicode-faq.md).
 
 Want to know more about what else is in the works for Visual Studio 2017? See the [Visual Studio Roadmap](/visualstudio/productinfo/vs2018-roadmap) page.
@@ -352,7 +352,7 @@ If you want to make a suggestion about how we can improve Visual Studio, or lear
 
 ## See also
 
-* [Visual Studio 2017 release notes](/visualstudio/releasenotes/vs2017-relnotes)
+* [Visual Studio 2017 release notes](/visualstudio/releasenotes/vs2017-relnotes?context=visualstudio/default)
 * [What's new in Visual C++](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio)
 * [What's new in C#](/dotnet/csharp/whats-new)
 * [What's new for Team Foundation Server](https://www.visualstudio.com/docs/whats-new)
