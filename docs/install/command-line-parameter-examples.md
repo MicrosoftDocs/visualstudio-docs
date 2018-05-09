@@ -105,7 +105,7 @@ In each example, `vs_enterprise.exe`, `vs_professional.exe` and `vs_community.ex
 
 ## Using --path
 
-These command-line paramters are **new in 15.7**. For more information about them, see the [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md) page.
+These command-line parameters are **new in 15.7**. For more information about them, see the [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md) page.
 
 * Using the install, cache, and shared paths:
 
