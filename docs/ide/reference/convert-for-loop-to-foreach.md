@@ -26,7 +26,7 @@ If you have a [for](/dotnet/csharp/language-reference/keywords/for) loop in your
 
 Reasons you might want to convert a [for](/dotnet/csharp/language-reference/keywords/for) loop to a [foreach](/dotnet/csharp/language-reference/keywords/foreach-in) statement include:
 
-- You don't use the iteration count variable inside the loop except as in index to access the item.
+- You don't use the iteration count variable inside the loop except as an index to access the item.
 
 - You want to simplify your code and reduce the likelihood of logic errors in the initializer, condition, and iterations statements.
 
