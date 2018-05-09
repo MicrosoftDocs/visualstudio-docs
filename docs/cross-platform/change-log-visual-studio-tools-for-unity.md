@@ -31,12 +31,15 @@ Visual Studio Tools for Unity change log.
 -   **Debugging:**
 
     -   Added support for orchestrated debugging (debugging multiple players/editor with the same Visual Studio session).
+    
     -   Added support for Android USB player debugging.
+    
     -   Added support for UWP/IL2CPP player debugging.
 
 -   **Evaluation:**
 
     -   Added support for hexadecimal specifiers.
+    
     -   Improved watch window evaluation experience.
 
 ### Bug fixes
