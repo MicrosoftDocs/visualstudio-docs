@@ -60,7 +60,7 @@ The experience was shown at Build 2018 in Visual Studio 2017 on a C# codebase. H
 
 ## Q. Is this experience only available in English?
 
-IntelliCode is a preview extension today and we are eager to understand how useful these capabilities are for a broad set of customers before we take it out of preview. When we do so, we will certainly consider what locale/language to support first, and how it is packaged. Based on feedback, we also plan to look into support for other programming languages and other AI-assisted productivity capabilities.
+IntelliCode is a preview extension today, and we are eager to understand how useful these capabilities are for a broad set of customers. When we take IntelliCode out of preview, we'll certainly consider which locale or language to support first, and how it is packaged. Based on feedback, we also plan to look into support for other programming languages and other AI-assisted productivity capabilities.
 
 ## <a name="privacy"/> Q: What about privacy? Are you sending my code to the cloud? What customer data is being sent to Microsoft?
 
