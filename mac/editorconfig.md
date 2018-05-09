@@ -69,7 +69,7 @@ If you're working with a project or solution that already contains an `.editorco
 
 You may want to reuse an existing `.editorconfig` file in your project. To add an existing file, you first need to display hidden files in Finder by entering the following command in **Terminal**:
 
-```
+```bash
 $ defaults write com.apple.Finder AppleShowAllFiles true
 $ killall Finder
 ```
