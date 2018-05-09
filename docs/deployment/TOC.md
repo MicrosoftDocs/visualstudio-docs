@@ -14,8 +14,8 @@
 ### [Building ClickOnce Applications from the Command Line](building-clickonce-applications-from-the-command-line.md)
 ## ASP.NET
 ### [Publish an ASP.NET Core app to Azure](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs)
-### [Import publish settings and deploy to Azure](tutorial-import-publish-settings-and-deploy-to-azure.md)
-### [Import publish settings and deploy to IIS](tutorial-import-publish-settings-and-deploy.md)
+### [Import publish settings and deploy to Azure](tutorial-import-publish-settings-azure.md)
+### [Import publish settings and deploy to IIS](tutorial-import-publish-settings-iis.md)
 ### [Continuous deployment of ASP.NET Core to Azure with Git](/aspnet/core/publishing/azure-continuous-deployment)
 ### [Deploy ASP.NET to IIS](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45)
 ## Native
