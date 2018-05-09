@@ -24,7 +24,7 @@ ms.workload:
   - "multiple"
 ---
 # Create bootstrapper packages
-The Setup program is a generic installer that can be configured to detect and install redistributable components such as Windows Installer (.msi) files and executable programs. The installer is also known as a bootstrapper. It is programmed through a set of XML manifests that specify the metadata to manage the installation of the component.  Each redistributable component, or prerequisite, is a bootstrapper package. A bootstrapper package is a group of directories and files that contain manifest files that describe how the prerequisite should be installed. 
+The Setup program is a generic installer that can be configured to detect and install redistributable components such as Windows Installer (.msi) files and executable programs. The installer is also known as a bootstrapper. It is programmed through a set of XML manifests that specify the metadata to manage the installation of the component.  Each redistributable component, or prerequisite, that appears in the **Prerequisites** dialog box for ClickOnce is a bootstrapper package. A bootstrapper package is a group of directories and files that contain manifest files that describe how the prerequisite should be installed. 
   
 The bootstrapper first detects whether any of the prerequisites are already installed. If prerequisites are not installed, first the bootstrapper shows the license agreements. Second, after the end-user accepts the license agreements, the installation begins for the prerequisites. Otherwise, if all the prerequisites are detected, the bootstrapper just starts the application installer.  
   
