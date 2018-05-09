@@ -21,7 +21,7 @@ ms.workload:
 ---
 # What&#39;s new in Visual Studio 2017
 
-**Updated for the [15.7 release](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes)**
+**Updated for the [15.7 release](/visualstudio/releasenotes/vs2017-relnotes)**
 
 Looking to upgrade from a previous version of Visual Studio? Here's what Visual Studio 2017 can offer you: Unparalleled productivity for any dev, any app, and any platform. Use Visual Studio 2017 to develop apps for Android, iOS, Windows, Linux, web, and cloud. Code fast, debug and diagnose with ease, test often, and release with confidence. You can also extend and customize Visual Studio by building your own extensions. Use version control, be agile, and collaborate efficiently with this release!
 
@@ -37,7 +37,7 @@ Here's a high-level recap of the changes that were made since the previous versi
 * **[AI development](ai-development)**. With Visual Studio Tools for AI (**new in 15.5**), you can use the productivity features of Visual Studio to accelerate AI innovation. Build, test, and deploy Deep Learning / AI solutions that seamlessly integrate with Azure Machine Learning for robust experimentation capabilities, such as submitting data preparation and model training jobs transparently to different compute targets. And, Visual Studio Tools for AI provides support for custom metrics and run history tracking, which enables data science reproducibility and auditing.
 
 > [!NOTE]
-> For a complete list of new features and functionality in Visual Studio 2017, see the [Current release notes](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes). And for a peek at future feature offerings, see the [Preview release notes](https://www.visualstudio.com/news/releasenotes/vs2017-preview-relnotes).
+> For a complete list of new features and functionality in Visual Studio 2017, see the [Current release notes](/visualstudio/releasenotes/vs2017-relnotes). And for a peek at future feature offerings, see the [Preview release notes](/visualstudio/releasenotes/vs2017-preview-relnotes).
 
 Here's more detailed information about some of the most notable improvements and new features in Visual Studio 2017.
 
@@ -352,7 +352,7 @@ If you want to make a suggestion about how we can improve Visual Studio, or lear
 
 ## See also
 
-* [Visual Studio 2017 release notes](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes)
+* [Visual Studio 2017 release notes](/visualstudio/releasenotes/vs2017-relnotes)
 * [What's new in Visual C++](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio)
 * [What's new in C#](/dotnet/csharp/whats-new)
 * [What's new for Team Foundation Server](https://www.visualstudio.com/docs/whats-new)
