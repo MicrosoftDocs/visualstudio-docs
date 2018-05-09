@@ -697,7 +697,7 @@
         },
         {
             "source_path": "docs/deployment/walkthrough-manually-deploying-a-clickonce-application-that-does-not-require-re-signing-and-that-preserves-branding-information.md",
-            "redirect_url": "/visualstudio/deployment/walkthrough-manually-deploying-a-clickonce-app-that-does-not-require-re-signing",
+            "redirect_url": "/visualstudio/deployment/walkthrough-manually-deploying-a-clickonce-app-no-re-signing-required",
             "redirect_document_id": false
         },
         {
