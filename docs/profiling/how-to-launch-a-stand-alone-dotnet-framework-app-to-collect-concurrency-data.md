@@ -93,4 +93,4 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
      **VSPerfCmd**  [/shutdown](../profiling/shutdown.md)  
   
 ## See Also  
- [Collecting Concurrency Data](../profiling/collecting-concurrency-data-for-stand-alone-applications-by-using-the-profiler-command-line.md)
+ [Collecting Concurrency Data](../profiling/collecting-concurrency-data-for-stand-alone-applications.md)
