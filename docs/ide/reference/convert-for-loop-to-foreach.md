@@ -62,6 +62,8 @@ Reasons you might want to convert a [foreach](/dotnet/csharp/language-reference/
 
 1. Select **Convert to 'for'**. Or, select **Preview changes** to open the [Preview Changes](../../ide/preview-changes.md) dialog, and then select **Apply**.
 
+1. Because the refactoring introduces a new iteration count variable, the **Rename** box appears at the top-right corner of the editor. If you want to choose a different name for the variable, type it in and then press **Enter** or select **Apply** in the **Rename** box. If you don't want to choose a new name, press **Esc** or select **Apply** to dismiss the **Rename** box.
+
 ## See also
 
 - [Refactoring](../refactoring-in-visual-studio.md)
