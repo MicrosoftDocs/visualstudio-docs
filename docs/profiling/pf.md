@@ -25,7 +25,7 @@ The VSPerfCmd.exe **PF** option sets the profiling event that is sampled to page
   
 ## Syntax  
   
-```  
+```cmd  
 VSPerfCmd.exe {/Launch:AppName|/Attach:PID} /PF[:Events] [Options]  
 ```  
   
@@ -60,7 +60,7 @@ VSPerfCmd.exe {/Launch:AppName|/Attach:PID} /PF[:Events] [Options]
 ## Example  
  This example demonstrates how to set the profiling sample event to page faults and set the sampling interval to 20 page faults.  
   
-```  
+```cmd  
 VSPerfCmd.exe /Start:Sample /Output:TestApp.exe.vsp  
 VSPerfCmd.exe /Launch:TestApp.exe /PF:20  
 ```  

@@ -20,7 +20,7 @@ The `diagnostics` namespace provides functionality for emitting Concurrency Visu
   
 ## Syntax  
   
-```  
+```cpp  
 namespace diagnostic;  
 ```  
   

@@ -19,14 +19,14 @@ The PROFILE_CURRENTID returns the pseudo-token for the thread id or process id, 
 ## Example  
  PROFILE_CURRENTID is defined in VSPerf.h as:  
   
-```  
+```cpp  
 static const unsigned int PROFILE_CURRENTID = (unsigned int)-1;  
 ```  
   
 ## Example  
  The following example illustrates PROFILE_CURRENTID. The example uses PROFILE_CURRENTID as a parameter identifying the current thread in a call to the [StartProfile](../profiling/startprofile.md) function.  
   
-```  
+```cpp  
 void ExerciseProfileCurrentID()  
 {  
     // Declare ProfileOperationResult enumeration   
