@@ -58,6 +58,9 @@ IntelliCode's AI-assisted IntelliSense is currently in its first experimental pr
 
 The experience was shown at Build 2018 in Visual Studio 2017 on a C# codebase. However, we look forward to expanding IntelliCode to more languages and tools in the Visual Studio family in the future.
 
+## Q. What release of Visual Studio do I need to run this extension?
+The Visual Studio IntelliCode extension supports Visual Studio 2017 15.7 preview 5 or higher (all SKUs). Installation will halt with "This extension is not installable on any currently installed products." if you don't have at least that version.
+
 ## Q. Is this experience only available in English?
 
 IntelliCode is a preview extension today, and we are eager to understand how useful these capabilities are for a broad set of customers. When we take IntelliCode out of preview, we'll certainly consider which locale or language to support first, and how it is packaged, based on your feedback. 
