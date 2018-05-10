@@ -14,7 +14,7 @@ ms.workload:
   - "multiple"
 ---
 # PROFILE_CURRENTID
-The PROFILE_CURRENTID returns the pseudo-token for the thread id or process id, in a call to NameProfile, StartProfile, StopProfile, SuspendProfile, and ResumeProfile functions. Use it to cause the function to operate on the current thread or process, rather than a specifically indicated one.  
+The PROFILE_CURRENTID returns the pseudo-token for the thread ID or process ID, in a call to NameProfile, StartProfile, StopProfile, SuspendProfile, and ResumeProfile functions. Use it to cause the function to operate on the current thread or process, rather than a specifically indicated one.  
   
 ## Example  
  PROFILE_CURRENTID is defined in VSPerf.h as:  
