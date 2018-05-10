@@ -16,7 +16,7 @@ ms.workload:
 
 You can use the **Publish** tool to import publish settings and then deploy your app. In this article, we use publish settings for Azure App Service, but you can use similar steps to import publish settings from [IIS](../deployment/tutorial-import-publish-settings-iis.md). In some scenarios, use of a publish settings profile can be faster than manually configuring deployment to the service for each installation of Visual Studio.
 
-These steps apply to ASP.NET, ASP.NET Core, and .NET Core apps in Visual Studio. The steps correspond to Visual Studio 2017 version 15.6.
+These steps apply to ASP.NET, ASP.NET Core, and .NET Core apps in Visual Studio. You can also import publish settings for [Python](/visualstudio/python/publishing-python-web-applications-to-azure-from-visual-studio) apps. The steps correspond to Visual Studio 2017 version 15.6.
 
 In this tutorial, you will:
 
@@ -25,10 +25,10 @@ In this tutorial, you will:
 > * Import the publish settings file into Visual Studio
 > * Deploy the app to Azure App Service
 
-A publish settings file (*.publishsettings) is different than a publishing profile (*.pubxml) created in Visual Studio. A publish settings file is created by Azure App Service, and then it can be imported into Visual Studio.
+A publish settings file (*\*.publishsettings*) is different than a publishing profile (*\*.pubxml*) created in Visual Studio. A publish settings file is created by Azure App Service, and then it can be imported into Visual Studio.
 
 > [!NOTE]
-> If you just need to copy a Visual Studio publishing profile (\*.pubxml file) from one installation of Visual Studio to another, you can find the publishing profile, *\<profilename\>.pubxml*, in the *\\<projectname\>\Properties\PublishProfiles* folder for managed project types. For websites, look under the *\App_Data* folder. The publishing profiles are MSBuild XML files.
+> If you just need to copy a Visual Studio publishing profile (*\*.pubxml* file) from one installation of Visual Studio to another, you can find the publishing profile, *\<profilename\>.pubxml*, in the *\\<projectname\>\Properties\PublishProfiles* folder for managed project types. For websites, look under the *\App_Data* folder. The publishing profiles are MSBuild XML files.
 
 ## Prerequisites
 

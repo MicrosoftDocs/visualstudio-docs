@@ -27,7 +27,7 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
   
 #### To configure the ASP.NET Web application and the Web server  
   
-1.  Modify the web.config file of the target application. See [How to: Modify Web.Config Files to Instrument and Profile Dynamically Compiled ASP.NET Web Applications](../profiling/how-to-modify-web-config-files-to-instrument-and-profile-dynamically-compiled-aspnet-web-applications.md).  
+1.  Modify the web.config file of the target application. See [How to: Modify Web.Config Files to Instrument and Profile Dynamically Compiled ASP.NET Web Applications](../profiling/how-to-modify-web-config-files-to-instrument-dynamically-compiled-aspnet-apps.md).  
   
 2.  Open a command prompt window on the computer that hosts the Web application.  
   
