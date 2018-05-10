@@ -21,7 +21,7 @@ The sections in this topic list some of the common **Quick Actions** that are ap
 
 The Quick Actions in this section fix errors in code that would cause a build to fail. When Quick Actions are available to fix an error on a line of code, the icon that's displayed in the margin or underneath the red squiggle is a light bulb with a red 'x' on it.
 
-![Quick Actions error icon and menu](media/error-light-bulb-with-code.png).
+![Quick Actions error icon and menu](media/error-light-bulb-with-code.png)
 
 ### Correct misspelled symbol or keyword
 
