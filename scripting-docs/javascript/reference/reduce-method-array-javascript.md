@@ -54,7 +54,7 @@ array1.reduce(callbackfn[, initialValue])
 ## Remarks  
  If an `initialValue` is provided, the `reduce` method calls the `callbackfn` function one time for each element present in the array, in ascending index order. If an `initialValue` is not provided, the `reduce` method calls the `callbackfn` function on each element, starting with the second element.  
   
- The return value of the callback function is provided as the `previousValue` argument on the next call to the callback function. The return value of the last call to the callback function is the return value of the `reduce` method.  
+ The return value of the callback function is provided as the `accumulator` argument on the next call to the callback function. The return value of the last call to the callback function is the return value of the `reduce` method.  
   
  The callback function is not called for missing elements of the array.  
   
@@ -64,7 +64,7 @@ array1.reduce(callbackfn[, initialValue])
 ## Callback Function Syntax  
  The syntax of the callback function is as follows:  
   
- `function callbackfn(previousValue, currentValue, currentIndex, array1)`  
+ `function callbackfn(accumulator, currentValue, currentIndex, array1)`  
   
  You can declare the callback function by using up to four parameters.  
   
@@ -72,7 +72,7 @@ array1.reduce(callbackfn[, initialValue])
   
 |Callback argument|Definition|  
 |-----------------------|----------------|  
-|`previousValue`|The value from the previous call to the callback function. If an `initialValue` is provided to the `reduce` method, the `previousValue` is `initialValue` the first time the function is called.|  
+|`accumulator`|The value from the previous call to the callback function. If an `initialValue` is provided to the `reduce` method, the `accumulator` is `initialValue` the first time the function is called.|  
 |`currentValue`|The value of the current array element.|  
 |`currentIndex`|The numeric index of the current array element.|  
 |`array1`|The array object that contains the element.|  
@@ -82,13 +82,13 @@ array1.reduce(callbackfn[, initialValue])
   
  If an `initialValue` is provided to the reduce method:  
   
--   The `previousValue` argument is `initialValue`.  
+-   The `accumulator` argument is `initialValue`.  
   
 -   The `currentValue` argument is the value of the first element present in the array.  
   
  If an `initialValue` is not provided:  
   
--   The `previousValue` argument is the value of the first element present in the array.  
+-   The `accumulator` argument is the value of the first element present in the array.  
   
 -   The `currentValue` argument is the value of the second element present in the array.  
   
@@ -105,12 +105,12 @@ array1.reduce(callbackfn[, initialValue])
 |Element is deleted from the array.|No, unless that element has already been passed to the callback function.|  
   
 ## Example  
- The following example concatenates array values into a string, separating the values with "::". Because no initial value is provided to the `reduce` method, the first call to the callback function has "abc" as the `previousValue` argument and "def" as the `currentValue` argument.  
+ The following example concatenates array values into a string, separating the values with "::". Because no initial value is provided to the `reduce` method, the first call to the callback function has "abc" as the `accumulator` argument and "def" as the `currentValue` argument.  
   
 ```JavaScript  
 // Define the callback function.  
-function appendCurrent (previousValue, currentValue) {  
-    return previousValue + "::" + currentValue;  
+function appendCurrent (accumulator, currentValue) {  
+    return accumulator + "::" + currentValue;  
     }  
   
 // Create an array.  
@@ -132,8 +132,8 @@ document.write(result);
   
 ```JavaScript  
 // Define the callback function.  
-function addRounded (previousValue, currentValue) {  
-    return previousValue + Math.round(currentValue);  
+function addRounded (accumulator, currentValue) {  
+    return accumulator + Math.round(currentValue);  
     }  
   
 // Create an array.  
@@ -150,10 +150,10 @@ document.write (result);
  The following example adds the values in an array. The `currentIndex` and `array1` parameters are used in the callback function.  
   
 ```JavaScript  
-function addDigitValue(previousValue, currentDigit, currentIndex, array) {  
+function addDigitValue(accumulator, currentDigit, currentIndex, array) {  
     var exponent = (array.length - 1) - currentIndex;  
     var digitValue = currentDigit * Math.pow(10, exponent);  
-    return previousValue + digitValue;  
+    return accumulator + digitValue;  
     }  
   
 var digits = [4, 1, 2, 5];  
@@ -169,17 +169,17 @@ document.write (result);
  The following example gets an array that contains only those values that are between 1 and 10 in another array. The initial value provided to the `reduce` method is an empty array.  
   
 ```JavaScript  
-function Process(previousArray, currentValue) {  
+function Process(accumulatedArray, currentValue) {  
     // If currentValue is between 1 and 10,   
     // append currentValue to the array.  
     var nextArray;  
     if (currentValue >= 1 && currentValue <= 10)  
-        nextArray = previousArray.concat(currentValue);  
+        nextArray = accumulatedArray.concat(currentValue);  
     else  
-        nextArray = previousArray;  
+        nextArray = accumulatedArray;  
   
     // If this is not the last call by the reduce method,  
-    // the returned array is previousArray on the next call.  
+    // the returned array is accumulatedArray on the next call.  
     // If this is the last call by the reduce method, the  
     // returned array is the return value of the reduce method.  
     return nextArray;  
