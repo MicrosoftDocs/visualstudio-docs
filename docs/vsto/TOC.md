@@ -381,7 +381,7 @@
 ##### [Microsoft Office is not installed on this computer](microsoft-office-is-not-installed-on-this-computer.md)
 ##### [The workbook used to create this project contains ActiveX controls that the designer cannot load](the-workbook-used-to-create-this-project-contains-activex-controls-that-the-designer-cannot-load.md)
 ##### [One or more properties in the .ofs file are not valid for the message class selected](one-or-more-properties-in-the-dot-ofs-file-are-not-valid-for-the-message-class-selected.md)
-##### [You must explicitly enable access to the Microsoft Office Visual Basic for Applications project system before you can create or open a Visual Studio Tools for the Microsoft Office System project](you-must-explicitly-enable-access-to-the-microsoft-office-visual-basic-for-applications-project-system-before-you-can-create-or-open-a-----for-the-microsoft-office-system-project.md)
+##### [Enable access to VBA to create or open a Visual Studio Tools for the Microsoft Office System project](enable-access-to-vba-to-create-or-open-a-visual-studio-tools-for-office-system-project.md)
 ### [Managed Reference (Office Development in Visual Studio)](managed-reference-office-development-in-visual-studio.md)
 ### [Unmanaged API Reference (Office Development in Visual Studio)](unmanaged-api-reference-office-development-in-visual-studio.md)
 #### [EnsureVSTOComponent Function](ensurevstocomponent-function.md)

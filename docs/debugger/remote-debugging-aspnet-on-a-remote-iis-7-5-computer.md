@@ -46,6 +46,7 @@ Depending on your security settings, it may save you time to add the following t
 - go.microsoft.com
 - download.microsoft.com
 - visualstudio.com
+- iis.net
 
 If you are using Internet Explorer, you can add the trusted sites by going to **Internet Options > Security > Trusted Sites > Sites**. These steps are different for other browsers. (If you need to download an older version of the remote debugger from my.visualstudio.com, some additional trusted sites are required to sign in.)
 
@@ -54,6 +55,8 @@ When you download the software, you may get requests to grant permission to load
 ## <a name="BKMK_deploy_asp_net"></a> Install ASP.NET 4.5 on Windows Server
 
 If you want more detailed information to install ASP.NET on IIS, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45).
+
+1. In the left pane of Server Manager, select **IIS**. Right-click the server and select **Internet Information Services (IIS) Manager**.
 
 1. Use the Web Platform Installer (WebPI) to install ASP.NET 4.5 (from the Server node in Windows Server 2012 R2, choose **Get New Web Platform Components** and then search for ASP.NET)
 
@@ -74,7 +77,7 @@ If you want more detailed information to install ASP.NET on IIS, see [IIS 8.0 Us
 
 1. Open Windows Explorer and create a new folder, **C:\Publish**, where you will later deploy the ASP.NET project.
 
-2. Open the **Internet Information Services (IIS) Manager**. (In the left pane of Server Manager, select **IIS**. Right-click the server and select **Internet Information Services (IIS) Manager**.)
+2. If it's not already open, open the **Internet Information Services (IIS) Manager**. (In the left pane of Server Manager, select **IIS**. Right-click the server and select **Internet Information Services (IIS) Manager**.)
 
 3. Under **Connections** in the left pane, go to **Sites**.
 
