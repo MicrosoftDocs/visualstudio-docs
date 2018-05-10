@@ -18,7 +18,7 @@ By default, the profiler collects the source code line number and line number of
   
 ## Syntax  
   
-```  
+```cmd  
 VSPerfCmd.exe /Launch:AppName /LineOff [Options]  
 ```  
   
@@ -34,7 +34,7 @@ VSPerfCmd.exe /Launch:AppName /LineOff [Options]
 ## Example  
  This example starts the application and the profiler, and disables line-level sampling.  
   
-```  
+```cmd  
 VSPerfCmd.exe /Start:Sample /Output:TestApp.exe.vsp  
 VSPerfCmd.exe /Launch:TestApp.exe /LineOff  
 ```  
