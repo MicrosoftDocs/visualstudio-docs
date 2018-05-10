@@ -21,7 +21,7 @@ The sections in this topic list some of the common **Quick Actions** that are ap
 
 ### Correct misspelled symbol or keyword
 
-If you accidentally misspell a type or keyword in Visual Studio, this Quick Action will automatically correct it for you. You'll see these items in the light bulb menu as **"Change '*misspelled word*' to '*correct word*'**.  For example:
+If you accidentally misspell a type or keyword in Visual Studio, this Quick Action automatically corrects it for you. You'll see these items in the light bulb menu as **"Change '*misspelled word*' to '*correct word*'**.  For example:
 
 ```csharp
 // Before
