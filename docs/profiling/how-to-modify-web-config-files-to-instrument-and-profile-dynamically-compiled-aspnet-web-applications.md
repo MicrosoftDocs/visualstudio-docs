@@ -70,7 +70,7 @@ You can use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profil
   
      `PathToASPNetHelperDll` is the file URL of the Microsoft.VisualStudio.Enterprise.ASPNetHelper.dll. If [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is installed in the default location, the **href** value should be `C:/Program%20Files/Microsoft%20Visual%20Studio%202010.0/Common7/IDE/PrivateAssemblies/Microsoft.VisualStudio.Enterprise.ASPNetHelper.DLL`  
   
-```  
+```xml  
     <configuration>  
         <runtime>  
             <assemblyBinding   
@@ -105,7 +105,7 @@ You can use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profil
     |--------------------|---------------------|  
     |**assemblyPostProcessorType**|**Microsoft.VisualStudio.Enterprise.Common.AspPerformanceInstrumenter, Microsoft.VisualStudio.Enterprise.ASPNetHelper, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a**|  
   
-```  
+```xml  
     <configuration>  
         <runtime>  
         . . .  
@@ -147,7 +147,7 @@ You can use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profil
   
      `PerformanceToolsFolder` is the path of the profiler executable files. If [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is installed in the default location, the value will be **C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Performance Tools**  
   
-```  
+```xml  
     <configuration>  
         <runtime>  
         . . .  
@@ -171,7 +171,7 @@ You can use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profil
 ## Example  
  The following is a complete web.config file that enables the instrumentation and profiling of dynamically compiled [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web applications. This example assumes that there were no other settings in the file before modification.  
   
-```  
+```xml  
 <?xml version="1.0"?>  
     <configuration>  
         <runtime>  

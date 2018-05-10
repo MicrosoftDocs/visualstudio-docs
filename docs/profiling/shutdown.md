@@ -20,7 +20,7 @@ The **Shutdown** option waits for any currently profiled process to end or detac
   
 ## Syntax  
   
-```  
+```cmd  
 VSPerfCmd.exe /Shutdown[:Timeout]  
 ```  
   
