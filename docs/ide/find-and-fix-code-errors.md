@@ -90,9 +90,9 @@ Any new or updated warnings appear in the **Error List** tab at the bottom of th
 
 ![Visual Studio light bulb preview](../ide/media/quick-actions-options.png)
 
-Quick Actions can be used wherever code analyzers determine there's an opportunity to fix, refactor, or improve your code. Click on any line of code, right-click to open the context menu, and select **Quick Actions and refactorings**. If refactoring or improvement options are available, they are displayed. Otherwise, the message **No quick options available here** displays in the lower-left corner of the IDE.
+Quick Actions can be used wherever code analyzers determine there's an opportunity to fix, refactor, or improve your code. Click on any line of code, right-click to open the context menu, and select **Quick Actions and refactorings**. If refactoring or improvement options are available, they are displayed. Otherwise, the message **No quick actions available here** displays in the lower-left corner of the IDE.
 
-![Visual Studio light bulb 'no option' text](../ide/media/vs_ide_gs_debug_light_bulb_no_options.png)
+![No quick actions available text](../ide/media/vs_ide_gs_debug_light_bulb_no_options.png)
 
 With experience, you can quickly use the arrow keys and **Ctrl**+**.** to check for easy refactoring opportunities and clean up your code!
 

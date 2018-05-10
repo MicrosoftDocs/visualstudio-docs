@@ -66,7 +66,7 @@ First, you'll create an ASP.NET Core web application project. The project type c
 
    ![Error List](../ide/media/quickstart-aspnet-errorlist.png)
 
-1. In the editor window, place your cursor on either line that contains the error, then choose the **Quick Actions light bulb** in the left margin. From the drop-down menu, choose **using System;** to add this directive to the top of your file and resolve the errors.
+1. In the editor window, place your cursor on either line that contains the error, then choose the Quick Actions light bulb in the left margin. From the drop-down menu, choose **using System;** to add this directive to the top of your file and resolve the errors.
 
 ## Run the application
 
