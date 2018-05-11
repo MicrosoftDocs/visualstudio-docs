@@ -20,7 +20,7 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_road-map.svg" alt="">
+                            <img src="/media/common/i_road-map.svg" alt="Feature Tour of the Profiler">
                         </div>
                     </div>
                     <div class="cardText">
@@ -38,7 +38,7 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_code-performance.svg" alt="">
+                            <img src="/media/common/i_code-performance.svg" alt="Get Started with the Diagnostics Tools (CPU Usage)">
                         </div>
                     </div>
                     <div class="cardText">
@@ -56,7 +56,7 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_video.svg" alt="">
+                            <img src="/media/common/i_video.svg" alt="Watch a Video on the Diagnostics Tools">
                         </div>
                     </div>
                     <div class="cardText">
@@ -74,7 +74,7 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_code-performance.svg" alt="">
+                            <img src="/media/common/i_code-performance.svg" alt="Get Started analyzing Memory Usage">
                         </div>
                     </div>
                     <div class="cardText">
@@ -92,7 +92,7 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_get-started.svg" alt="">
+                            <img src="/media/common/i_get-started.svg" alt="Analyze Resource Consumption (XAML)">
                         </div>
                     </div>
                     <div class="cardText">
@@ -110,7 +110,7 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_get-started.svg" alt="">
+                            <img src="/media/common/i_get-started.svg" alt="Analyze Network Usage (UWP Apps)">
                         </div>
                     </div>
                     <div class="cardText">
@@ -128,7 +128,7 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_get-started.svg" alt="">
+                            <img src="/media/common/i_get-started.svg" alt="Analyze GPU Usage (Direct3D)">
                         </div>
                     </div>
                     <div class="cardText">
@@ -146,7 +146,7 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_get-started.svg" alt="">
+                            <img src="/media/common/i_get-started.svg" alt="Analyze Energy Use (UWP Apps)">
                         </div>
                     </div>
                     <div class="cardText">
@@ -164,7 +164,7 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_whats-new.svg" alt="">
+                            <img src="/media/common/i_whats-new.svg" alt="See What&#39;s New in Profiling Tools">
                         </div>
                     </div>
                     <div class="cardText">

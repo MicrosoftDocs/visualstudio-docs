@@ -21,7 +21,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Analyze JavaScript Memory Usage in UWP Apps
+# Analyze JavaScript memory usage in UWP apps
 The JavaScript memory analyzer is available in Visual Studio to help you understand memory usage and find memory leaks in your UWP apps built for Windows using JavaScript. Supported apps include apps for Universal Windows Apps.
   
  The JavaScript memory analyzer can do these things for you:  
@@ -45,7 +45,7 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
   
 2.  If you're running the app from Visual Studio, in the **Start Debugging** list on the **Standard** toolbar, choose the debug target for your project: either **Local Machine** or **Device**.  
   
-3.  On the menu bar, choose **Debug**, **Performance Profiler...**.  
+3.  On the menu bar, choose **Debug** > **Performance Profiler**.  
   
      By default, the current startup project is analyzed. If you want to change the analysis target, choose **Change Target**.  
   
@@ -339,7 +339,7 @@ if (performance && performance.mark) {
   
  ![Using a Profile Mark](../profiling/media/js_mem_performance_marks.png "JS_Mem_Performance_Marks")  
   
-##  <a name="Tips"></a> Tips for identifying memory issues  
+##  <a name="Tips"></a> Tips to identify memory issues  
   
 -   Follow the workflow described in [Isolate a memory leak](#Isolate) and use the **Objects left over from Snapshot #\<number>** filter in a diff view to identify likely candidates for memory leaks.  
   

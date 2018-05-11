@@ -11,7 +11,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Analyze Network Usage in UWP Apps
+# Analyze network usage in UWP apps
 The Visual Studio **Network** diagnostics tool collects data about network operations performed using the [Windows.Web.Http API](/uwp/api/windows.web.http). Analyzing the data can help you resolve issues like access and authentication problems, incorrect cache-use, and poor display and download performance.  
   
  The Network tool supports only UWP apps. Other platforms are not supported at this time.  
@@ -19,12 +19,12 @@ The Visual Studio **Network** diagnostics tool collects data about network opera
 > [!NOTE]
 >  For a more complete description of the Network tool, see [Introducing Visual Studio's network tool](http://blogs.msdn.com/b/visualstudio/archive/2015/05/04/introducing-visual-studios-network-tool.aspx).  
   
-## Collecting network tool data  
+## Collect network tool data  
  You should run the **Network** tool with an open Visual Studio project on the Visual Studio computer.  
   
 1.  Open the project in Visual Studio.  
   
-2.  On the  menu, click **Debug / Performance Profiler...**. Choose **Network**, and then choose **Start**.  
+2.  On the  menu, click **Debug / Performance Profiler**. Choose **Network**, and then choose **Start**.  
   
 3.  The network tool begins collecting your app's HTTP traffic.  
   
@@ -36,7 +36,7 @@ The Visual Studio **Network** diagnostics tool collects data about network opera
   
  ![The Network window](../profiling/media/network_fullwindow.png "NETWORK_FullWindow")  
   
-## Analyzing data  
+## Analyze data  
  You can analyze captured HTTP traffic while your app is running, or even after the app has been closed, by selecting any of the network operations displayed on the summary view.  
   
  The **Network** summary view shows data for each network operation in the run of your app. Choose a column header to sort the list, or choose the content types to display in the **Content Type** filter view.  
@@ -69,6 +69,6 @@ The Visual Studio **Network** diagnostics tool collects data about network opera
 ## See Also  
  [Run Profiling Tools with or without the Debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md)  
  [Visual Studio blog: Introducing Visual Studio's network inspector](http://go.microsoft.com/fwlink/?LinkId=535022)   
- [Channel 9 Video: VS Diagnostics tools - New Network Profiler](http://channel9.msdn.com/Series/ConnectOn-Demand/206)  
+ [Channel 9 Video: VS diagnostics tools - new Network Profiler](http://channel9.msdn.com/Series/ConnectOn-Demand/206)  
  [Profiling in Visual Studio](../profiling/index.md)  
- [Profiling Feature Tour](../profiling/profiling-feature-tour.md)
+ [Profiling feature tour](../profiling/profiling-feature-tour.md)
