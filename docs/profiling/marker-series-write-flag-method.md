@@ -20,7 +20,7 @@ Writes a flag to the Concurrency Visualizer trace file.
   
 ## Syntax  
   
-```  
+```cpp  
 void write_flag(  
    _In_ LPCTSTR _Format,  
    ...  

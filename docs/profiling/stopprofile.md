@@ -18,7 +18,7 @@ The `StopProfile` function sets the counter to 0 (off) for the specified profili
   
 ## Syntax  
   
-```  
+```cpp  
 PROFILE_COMMAND_STATUS PROFILERAPI StopProfile(  
                        PROFILE_CONTROL_LEVEL Level,   
                        unsigned int dwId);  
@@ -68,7 +68,7 @@ PROFILE_COMMAND_STATUS PROFILERAPI StopProfile(
 ## Example  
  The following example illustrates the StopProfile method. The example assumes that a call to the StartProfile method has been made for the same thread or process identified by [PROFILE_CURRENTID](../profiling/profile-currentid.md).  
   
-```  
+```cpp  
 void ExerciseStopProfile()  
 {  
     // StartProfile and StopProfile control the   
