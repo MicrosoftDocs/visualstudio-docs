@@ -22,7 +22,7 @@ These refactorings apply to:
 
 If you have a [for](/dotnet/csharp/language-reference/keywords/for) loop in your code, you can use this refactoring to convert it to a [foreach](/dotnet/csharp/language-reference/keywords/foreach-in) statement.
 
-### Why to convert
+### Why convert
 
 Reasons you might want to convert a [for](/dotnet/csharp/language-reference/keywords/for) loop to a [foreach](/dotnet/csharp/language-reference/keywords/foreach-in) statement include:
 
@@ -44,7 +44,7 @@ Reasons you might want to convert a [for](/dotnet/csharp/language-reference/keyw
 
 If you have a [foreach](/dotnet/csharp/language-reference/keywords/foreach-in) statement in your code, you can use this refactoring to convert it to a [for](/dotnet/csharp/language-reference/keywords/for) loop.
 
-### Why to convert
+### Why convert
 
 Reasons you might want to convert a [foreach](/dotnet/csharp/language-reference/keywords/foreach-in) statement to a [for](/dotnet/csharp/language-reference/keywords/for) loop include:
 
