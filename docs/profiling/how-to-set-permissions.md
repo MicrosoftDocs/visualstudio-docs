@@ -53,7 +53,7 @@ Members of the Users group can run the profiling tools if an administrator grant
 
      The path of this folder might resemble the following:
 
-    ```
+    ```cmd
     D:\ourProject
     ```
 
@@ -77,13 +77,13 @@ Members of the Users group can run the profiling tools if an administrator grant
 
 2. Change the directory to:
 
-    ```
+    ```cmd
     <drive>:\Program Files\Microsoft Visual Studio 10\Team Tools\Performance Tools
     ```
 
 3. Run the following command:
 
-    ```
+    ```cmd
     vsperfcmd /admin:driver,start /admin:service,start
     ```
 
@@ -95,7 +95,7 @@ Members of the Users group can run the profiling tools if an administrator grant
 
 4. Run the command to allow access to profiling driver functionality by a user or group that does not have administrator access to the computer:
 
-    ```
+    ```cmd
     vsperfcmd /admin:security,allow,<right[,right],<user name|group name>
     ```
 
@@ -109,7 +109,7 @@ Members of the Users group can run the profiling tools if an administrator grant
 
 5. (Optional) To preserve the results of any of the previous steps after computer restarts, run the following command:
 
-    ```
+    ```cmd
     vsperfcmd /admin:driver,autostart,on
     ```
 

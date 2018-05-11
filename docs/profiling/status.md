@@ -18,7 +18,7 @@ The VSPerfCmd.exe **Status** option displays information about the state of the 
   
 ## Syntax  
   
-```  
+```cmd  
 VSPerfCmd.exe /Status  
 ```  
   
