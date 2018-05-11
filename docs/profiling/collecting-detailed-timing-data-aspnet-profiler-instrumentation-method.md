@@ -24,8 +24,8 @@ This section describes the procedures and options for collecting detailed perfor
   
 |Task|Related Content|  
 |----------|---------------------|  
-|**Profile statically compiled binaries**|-   [How to: Instrument a Statically Compiled ASP.NET Application and Collect Detailed Timing Data](../profiling/how-to-instrument-a-statically-compiled-aspnet-web-application-and-collect-detailed-timing-data-with-the-profiler-by-using-the-command-line.md)|  
-|**Profile dynamically compiled binaries**|-   [How to: Instrument a Dynamically Compiled ASP.NET Application and Collect Detailed Timing Data](../profiling/how-to-instrument-a-dynamically-compiled-aspnet-web-application-and-collect-detailed-timing-data-with-the-profiler.md)|  
+|**Profile statically compiled binaries**|-   [How to: Instrument a Statically Compiled ASP.NET Application and Collect Detailed Timing Data](../profiling/how-to-instrument-statically-compiled-aspnet-and-collect-detailed-timing-data.md)|  
+|**Profile dynamically compiled binaries**|-   [How to: Instrument a Dynamically Compiled ASP.NET Application and Collect Detailed Timing Data](../profiling/how-to-instrument-a-dynamically-compiled-aspnet-app-and-collect-timing-data.md)|  
   
 ## Related Tasks  
   
@@ -33,16 +33,16 @@ This section describes the procedures and options for collecting detailed perfor
   
 |Task|Related Content|  
 |----------|---------------------|  
-|**Profile by using the sampling method**|-   [Collecting Application Statistics Using Sampling](../profiling/collecting-application-statistics-for-aspnet-web-applications-using-the-profiler-sampling-method-from-the-command-line.md)|  
-|**Profile memory allocation and garbage collection**|-   [Collecting Memory Data](../profiling/collecting-memory-data-from-an-aspnet-web-application-by-using-the-profiler-command-line.md)|  
-|**Profile resource contention and thread activity**|-   [Collecting Concurrency Data](../profiling/collecting-concurrency-data-for-an-aspnet-web-application-using-the-profiler-command-line.md)|  
+|**Profile by using the sampling method**|-   [Collecting Application Statistics Using Sampling](../profiling/collecting-application-statistics-for-aspnet-using-the-profiler-sampling-method.md)|  
+|**Profile memory allocation and garbage collection**|-   [Collecting Memory Data](../profiling/collecting-memory-data-from-an-aspnet-web-application.md)|  
+|**Profile resource contention and thread activity**|-   [Collecting Concurrency Data](../profiling/collecting-concurrency-data-for-an-aspnet-web-application.md)|  
   
 ### Profiling by Using the Instrumentation Method  
   
 |Task|Related Content|  
 |----------|---------------------|  
-|**Profile stand-alone (client) applications**|-   [Collecting Detailed Timing Data Using Instrumentation](../profiling/collecting-detailed-timing-data-for-a-stand-alone-application-by-using-the-profiler-command-line.md)|  
-|**Profile services**|-   [Collecting Detailed Timing Data Using Instrumentation](../profiling/collecting-detailed-timing-data-for-services-by-using-the-instrumentation-method-from-the-profiler-command-line.md)|  
+|**Profile stand-alone (client) applications**|-   [Collecting Detailed Timing Data Using Instrumentation](../profiling/collecting-detailed-timing-data-for-a-stand-alone-application.md)|  
+|**Profile services**|-   [Collecting Detailed Timing Data Using Instrumentation](../profiling/collecting-detailed-timing-data-for-services-by-using-the-instrumentation-method.md)|  
   
 ### Analyzing Instrumentation Data Views and Reports  
  [Instrumentation Method Data Views](../profiling/instrumentation-method-data-views.md)

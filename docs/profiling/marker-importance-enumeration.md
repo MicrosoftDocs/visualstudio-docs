@@ -20,7 +20,7 @@ Represents the importance level of a Concurrency Visualizer marker.
   
 ## Syntax  
   
-```  
+```cpp  
 enum marker_importance;  
 ```  
   

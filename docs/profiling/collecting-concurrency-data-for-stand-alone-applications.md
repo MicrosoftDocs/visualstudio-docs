@@ -21,9 +21,9 @@ The concurrency method of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.m
   
 |Task|Related content|  
 |----------|---------------------|  
-|**Start a .NET Framework application and profile concurrency data**|-   [How to: Launch a .NET Framework Application to Collect Concurrency Data](../profiling/how-to-launch-a-stand-alone-dotnet-framework-application-with-the-profiler-to-collect-concurrency-data-by-using-the-command-line.md)|  
+|**Start a .NET Framework application and profile concurrency data**|-   [How to: Launch a .NET Framework Application to Collect Concurrency Data](../profiling/how-to-launch-a-stand-alone-dotnet-framework-app-to-collect-concurrency-data.md)|  
 |**Start a C/C++ application and profile concurrency data**|-   [How to: Launch a Native Application to Collect Concurrency Data](../profiling/how-to-launch-a-stand-alone-native-application-with-the-profiler-to-collect-concurrency-data-by-using-the-command-line.md)|  
-|**Attach the profiler to a running .NET Framework application**|-   [How to: Attach the Profiler to a .NET Framework Application to Collect Concurrency Data](../profiling/how-to-attach-the-profiler-to-a-dotnet-framework-stand-alone-application-to-collect-concurrency-data-by-using-the-command-line.md)|  
+|**Attach the profiler to a running .NET Framework application**|-   [How to: Attach the Profiler to a .NET Framework Application to Collect Concurrency Data](../profiling/how-to-attach-the-profiler-to-a-dotnet-app-and-collect-concurrency-data.md)|  
 |**Attach the profiler to a running C/C++ application**|-   [How to: Attach the Profiler to a Native Application and Collect Concurrency Data](../profiling/how-to-attach-the-profiler-to-a-native-stand-alone-application-and-collect-concurrency-data-by-using-the-command-line.md)|  
   
 ## Related Tasks  
@@ -32,16 +32,16 @@ The concurrency method of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.m
   
 |Task|Related content|  
 |----------|---------------------|  
-|**Profile by using the sampling method**|-   [Collecting Application Statistics Using Sampling](../profiling/collecting-application-statistics-for-stand-alone-applications-by-using-the-profiler-command-line.md)|  
-|**Profile by using the instrumentation method**|-   [Collecting Detailed Timing Data Using Instrumentation](../profiling/collecting-detailed-timing-data-for-a-stand-alone-application-by-using-the-profiler-command-line.md)|  
-|**Profile .NET memory allocation and garbage collection**|-   [Collecting .NET Framework Memory Data](../profiling/collecting-dotnet-framework-memory-data-for-stand-alone-applications-by-using-the-profiler-command-line.md)|  
+|**Profile by using the sampling method**|-   [Collecting Application Statistics Using Sampling](../profiling/collecting-application-statistics-for-stand-alone-applications.md)|  
+|**Profile by using the instrumentation method**|-   [Collecting Detailed Timing Data Using Instrumentation](../profiling/collecting-detailed-timing-data-for-a-stand-alone-application.md)|  
+|**Profile .NET memory allocation and garbage collection**|-   [Collecting .NET Framework Memory Data](../profiling/collecting-dotnet-framework-memory-data-for-stand-alone-applications.md)|  
 |**Adding tier-interaction data**|-   [Collecting tier interaction data](../profiling/adding-tier-interaction-data-from-the-command-line.md)|  
   
 ### Profiling Concurrency Issues  
   
 |Task|Related content|  
 |----------|---------------------|  
-|**Profile ASP.NET applications**|-   [Collecting Concurrency Data](../profiling/collecting-concurrency-data-for-an-aspnet-web-application-using-the-profiler-command-line.md)|  
+|**Profile ASP.NET applications**|-   [Collecting Concurrency Data](../profiling/collecting-concurrency-data-for-an-aspnet-web-application.md)|  
 |**Profile services**|-   [Collecting Concurrency Data](../profiling/collecting-concurrency-data-for-a-service-by-using-the-profiler-command-line.md)|  
   
 ### Analyzing Concurrency Data Views and Reports  

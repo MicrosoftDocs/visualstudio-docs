@@ -91,7 +91,7 @@ Visual Studio does not have a solution template for creating native UI applicati
   
     -   Click **Install**.  
   
-7.  Repeat step 7 to find and install the **Microsoft.CSharp** package in the .NET Standard project. This library is necessary to use the C# `dynamic` data type in a .NET Standard library.
+7.  Repeat step 6 to find and install the **Microsoft.CSharp** package in the .NET Standard project. This library is necessary to use the C# `dynamic` data type in a .NET Standard library.
   
 8.  Build your solution and verify that there are no build errors.  
   

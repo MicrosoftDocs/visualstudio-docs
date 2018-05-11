@@ -22,7 +22,7 @@ The VSPerfCmd.exe **Timer** option sets the profiling event that is sampled to p
   
 ## Syntax  
   
-```  
+```cmd  
 VSPerfCmd.exe {/Launch:AppName|/Attach:PID} /Timer[:Cycles] [Options]  
 ```  
   
@@ -57,7 +57,7 @@ VSPerfCmd.exe {/Launch:AppName|/Attach:PID} /Timer[:Cycles] [Options]
 ## Example  
  This example demonstrates how to set the profiler sampling interval to 1,000,000 processor cycles.  
   
-```  
+```cmd  
 VSPerfCmd.exe /Start:Sample /Output:TestApp.exe.vsp  
 VSPerfCmd.exe /Launch:TestApp.exe /Timer:1000000  
 ```  

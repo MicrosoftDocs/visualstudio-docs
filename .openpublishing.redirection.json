@@ -681,8 +681,28 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user-can-be-dangerous-if-the-following-information-looks-suspicious-or-you-are-unsure-do-not-attach-to-this-process.md",
+            "redirect_url": "/visualstudio/debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/error-the-microsoft-visual-studio-remote-debugging-monitor-on-the-remote-computer-does-not-have-permission-to-connect-to-this-computer.md",
+            "redirect_url": "/visualstudio/debugger/error-the-microsoft-visual-studio-remote-debugging-monitor-no-permission",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/deployment/installshield-limited-edition.md",
             "redirect_url": "/visualstudio/deployment/deploying-applications-services-and-components",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/deployment/walkthrough-manually-deploying-a-clickonce-application-that-does-not-require-re-signing-and-that-preserves-branding-information.md",
+            "redirect_url": "/visualstudio/deployment/walkthrough-manually-deploying-a-clickonce-app-no-re-signing-required",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/deployment/deploying-clickonce-applications-for-testing-and-production-servers-without-resigning.md",
+            "redirect_url": "/visualstudio/deployment/deploying-clickonce-applications-for-testing-and-production-without-resigning",
             "redirect_document_id": false
         },
         {
@@ -1548,6 +1568,91 @@
         {
             "source_path": "docs/profiling/walkthrough-identifying-performance-problems.md",
             "redirect_url": "/visualstudio/profiling/beginners-guide-to-cpu-sampling",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/collecting-detailed-timing-data-for-an-aspnet-web-application-using-the-profiler-instrumentation-method-from-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/collecting-detailed-timing-data-aspnet-profiler-instrumentation-method",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/collecting-detailed-timing-data-for-an-aspnet-web-application-using-the-profiler-instrumentation-method.md",
+            "redirect_url": "/visualstudio/profiling/collecting-detailed-timing-data-aspnet-profiler-instrumentation-method",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/how-to-attach-the-profiler-to-a-dotnet-framework-stand-alone-application-and-collect-application-statistics-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-attach-the-profiler-to-a-dotnet-app-and-collect-application-statistics",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/how-to-attach-the-profiler-to-a-dotnet-framework-stand-alone-application-to-collect-concurrency-data-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-attach-the-profiler-to-a-dotnet-app-and-collect-concurrency-data",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/how-to-instrument-a-dynamically-compiled-aspnet-web-application-and-collect-detailed-timing-data-with-the-profiler-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-instrument-a-dynamically-compiled-aspnet-app-and-collect-timing-data",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/how-to-instrument-a-statically-compiled-aspnet-web-application-and-collect-detailed-timing-data-with-the-profiler-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-instrument-statically-compiled-aspnet-and-collect-detailed-timing-data",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/how-to-instrument-a-stand-alone-dotnet-framework-component-and-collect-memory-data-with-the-profiler-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-instrument-a-dotnet-framework-component-and-collect-memory-data",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/how-to-launch-a-stand-alone-dotnet-framework-application-with-the-profiler-to-collect-concurrency-data-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-launch-a-stand-alone-dotnet-framework-app-to-collect-concurrency-data",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/how-to-modify-web-config-files-to-instrument-and-profile-dynamically-compiled-aspnet-web-applications.md",
+            "redirect_url": "/visualstudio/profiling/how-to-modify-web-config-files-to-instrument-dynamically-compiled-aspnet-apps",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/collecting-detailed-timing-data-for-services-by-using-the-instrumentation-method-from-the-profiler-command-line.md",
+            "redirect_url": "/visualstudio/profiling/collecting-detailed-timing-data-for-services-by-using-the-instrumentation-method",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/collecting-application-statistics-for-aspnet-web-applications-using-the-profiler-sampling-method-from-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/collecting-application-statistics-for-aspnet-using-the-profiler-sampling-method",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/collecting-application-statistics-for-stand-alone-applications-by-using-the-profiler-command-line.md",
+            "redirect_url": "/visualstudio/profiling/collecting-application-statistics-for-stand-alone-applications",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/collecting-concurrency-data-for-an-aspnet-web-application-using-the-profiler-command-line.md",
+            "redirect_url": "/visualstudio/profiling/collecting-concurrency-data-for-an-aspnet-web-application",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/collecting-concurrency-data-for-stand-alone-applications-by-using-the-profiler-command-line.md",
+            "redirect_url": "/visualstudio/profiling/collecting-concurrency-data-for-stand-alone-applications",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/collecting-detailed-timing-data-for-a-stand-alone-application-by-using-the-profiler-command-line.md",
+            "redirect_url": "/visualstudio/profiling/collecting-detailed-timing-data-for-a-stand-alone-application",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/collecting-dotnet-framework-memory-data-for-stand-alone-applications-by-using-the-profiler-command-line.md",
+            "redirect_url": "/visualstudio/profiling/collecting-dotnet-framework-memory-data-for-stand-alone-applications",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/collecting-memory-data-from-an-aspnet-web-application-by-using-the-profiler-command-line.md",
+            "redirect_url": "/visualstudio/profiling/collecting-memory-data-from-an-aspnet-web-application",
             "redirect_document_id": false
         },
         {
