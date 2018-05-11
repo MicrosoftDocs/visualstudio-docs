@@ -20,7 +20,7 @@ Initializes a new instance of the `span` class.
   
 ## Syntax  
   
-```  
+```cpp  
 span(  
    const marker_series& _Series,  
    _In_ LPCTSTR _Format,  

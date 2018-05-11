@@ -16,7 +16,7 @@ The **Start** option is a VSPerfCmd.exe option that initializes the profiler to 
   
 ## Syntax  
   
-```  
+```cmd  
 VSPerfCmd.exe /Start:Method /Output:FileName [Options]  
 ```  
   
@@ -62,7 +62,7 @@ VSPerfCmd.exe /Start:Method /Output:FileName [Options]
 ## Example  
  The following example demonstrates how to use the VSPerfCmd.exe **Start** option to initialize the profiler.  
   
-```  
+```cmd  
 VSPerfCmd.exe /Start:Sample /Output:TestApp.exe.vsp  
 VSPerfCmd.exe /Launch:TestApp.exe  
 ```  

@@ -20,7 +20,7 @@ ms.workload:
 # VSPerfCmd
 The **VSPerfCmd.exe** tool is used to start and stop performance data collection. It uses the following syntax:  
   
-```  
+```cmd  
 VSPerfCmd [/U] [/options]  
 ```  
   
