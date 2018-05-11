@@ -1,7 +1,7 @@
 ---
 title: "Change Log (Visual Studio Tools for Unity, Windows) | Microsoft Docs"
 ms.custom: ""
-ms.date: "03/23/2018"
+ms.date: "05/07/2018"
 ms.technology: vs-unity-tools
 ms.topic: "conceptual"
 ms.assetid: ea490b7e-fc0d-44b1-858a-a725ce20e396
@@ -14,6 +14,44 @@ ms.workload:
 # Change Log (Visual Studio Tools for Unity, Windows)
 Visual Studio Tools for Unity change log.
 
+## 3.7.0.1
+ Released 2018-05-07
+
+### Bug fixes
+
+-   **Installer:**
+
+    -   Fixed dependency issue when using experimental builds.
+
+## 3.7.0.0
+ Released 2018-05-07
+
+### New Features
+
+-   **Debugging:**
+
+    -   Added support for orchestrated debugging (debugging multiple players/editor with the same Visual Studio session).
+    
+    -   Added support for Android USB player debugging.
+    
+    -   Added support for UWP/IL2CPP player debugging.
+
+-   **Evaluation:**
+
+    -   Added support for hexadecimal specifiers.
+    
+    -   Improved watch window evaluation experience.
+
+### Bug fixes
+
+-   **Integration:**
+
+    -   Fixed usage of exception settings.
+
+-   **Project Generation:**
+
+    -   Exclude package manager compilation units from generation.
+
 ## 3.6.0.5
  Released 2018-03-13
 
@@ -21,7 +59,7 @@ Visual Studio Tools for Unity change log.
 
 -   **Project Generation:**
 
-    -   Added support for the new project generator in Unity 2018.1
+    -   Added support for the new project generator in Unity 2018.1.
 
 ### Bug fixes
 
