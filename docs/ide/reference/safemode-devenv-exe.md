@@ -20,7 +20,7 @@ Starts [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] in safe mode
 
 ## Syntax
 
-```
+```cmd
 devenv /SafeMode
 ```
 
@@ -32,7 +32,7 @@ devenv /SafeMode
 
 ## Code
 
-```
+```cmd
 Devenv.exe /SafeMode
 ```
 

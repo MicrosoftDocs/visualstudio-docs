@@ -12,16 +12,20 @@ ms.workload:
   - "multiple"
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
+dev_langs:
+ - CSharp
+ - VB
 ---
-# Walkthrough: Connecting a Host to a Generated Directive Processor
+# Walkthrough: Connect a Host to a Generated Directive Processor
+
 You can write your own host that processes text templates. A basic custom host is demonstrated in [Walkthrough: Creating a Custom Text Template Host](../modeling/walkthrough-creating-a-custom-text-template-host.md). You could extend that host to add functions such as generating multiple output files.
 
- In this walkthrough, you expand your custom host so that it supports text templates that call directive processors. When you define a domain-specific language, it generates a *directive processor* for the domain model. The directive processor makes it easier for users to write templates that access the model, reducing the need to write assembly and import directives in the templates.
+In this walkthrough, you expand your custom host so that it supports text templates that call directive processors. When you define a domain-specific language, it generates a *directive processor* for the domain model. The directive processor makes it easier for users to write templates that access the model, reducing the need to write assembly and import directives in the templates.
 
-> [!WARNING]
->  This walkthrough builds on [Walkthrough: Creating a Custom Text Template Host](../modeling/walkthrough-creating-a-custom-text-template-host.md). Perform that walkthrough first.
+> [!NOTE]
+> This walkthrough builds on [Walkthrough: Creating a Custom Text Template Host](../modeling/walkthrough-creating-a-custom-text-template-host.md). Perform that walkthrough first.
 
- This walkthrough includes the following tasks:
+This walkthrough includes the following tasks:
 
 -   Using [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] to generate a directive processor that is based on a domain model.
 
@@ -30,7 +34,8 @@ You can write your own host that processes text templates. A basic custom host i
 -   Testing the custom host with the generated directive processor.
 
 ## Prerequisites
- To define a DSL, you must have installed the following components:
+
+To define a DSL, you must have installed the following components:
 
 |||
 |-|-|
@@ -40,12 +45,11 @@ You can write your own host that processes text templates. A basic custom host i
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 
- In addition, you must have the custom text template transformation created in [Walkthrough: Creating a Custom Text Template Host](../modeling/walkthrough-creating-a-custom-text-template-host.md).
+In addition, you must have the custom text template transformation created in [Walkthrough: Creating a Custom Text Template Host](../modeling/walkthrough-creating-a-custom-text-template-host.md).
 
-## Using Domain-Specific Language Tools to Generate a Directive Processor
- In this walkthrough, you use the Domain-Specific Language Designer Wizard to create a domain-specific language for the solution DSLMinimalTest.
+## Use Domain-Specific Language Tools to Generate a Directive Processor
 
-#### To use Domain-Specific Language Tools to generate a directive processor that is based on a domain model
+In this walkthrough, you use the Domain-Specific Language Designer Wizard to create a domain-specific language for the solution DSLMinimalTest.
 
 1.  Create a domain-specific language solution that has the following characteristics:
 
@@ -57,12 +61,12 @@ You can write your own host that processes text templates. A basic custom host i
 
     -   Company name: Fabrikam
 
-     For more information about creating a domain-specific language solution, see [How to: Create a Domain-Specific Language Solution](../modeling/how-to-create-a-domain-specific-language-solution.md).
+   For more information about creating a domain-specific language solution, see [How to: Create a Domain-Specific Language Solution](../modeling/how-to-create-a-domain-specific-language-solution.md).
 
 2.  On the **Build** menu, click **Build Solution**.
 
     > [!IMPORTANT]
-    >  This step generates the directive processor and adds the key for it in the registry.
+    > This step generates the directive processor and adds the key for it in the registry.
 
 3.  On the **Debug** menu, click **Start Debugging**.
 
@@ -76,10 +80,9 @@ You can write your own host that processes text templates. A basic custom host i
 
 6.  Save the solution, and then close the Domain-Specific Language Designer.
 
-## Connecting a Custom Text Template Host to a Directive Processor
- After you generate the directive processor, you connect the directive processor and the custom text template host that you created in [Walkthrough: Creating a Custom Text Template Host](../modeling/walkthrough-creating-a-custom-text-template-host.md).
+## Connect a Custom Text Template Host to a Directive Processor
 
-#### To connect a custom text template host to the generated directive processor
+After you generate the directive processor, you connect the directive processor and the custom text template host that you created in [Walkthrough: Creating a Custom Text Template Host](../modeling/walkthrough-creating-a-custom-text-template-host.md).
 
 1.  Open the CustomHost solution.
 
@@ -114,7 +117,7 @@ You can write your own host that processes text templates. A basic custom host i
 5.  Locate the code for the property `StandardAssemblyReferences`, and replace it with the following code:
 
     > [!NOTE]
-    >  In this step, you add references to the assemblies that are required by the generated directive processor that your host will support.
+    > In this step, you add references to the assemblies that are required by the generated directive processor that your host will support.
 
     ```csharp
     //the host can provide standard assembly references
@@ -150,7 +153,7 @@ You can write your own host that processes text templates. A basic custom host i
 6.  Locate the code for the function `ResolveDirectiveProcessor`, and replace it with the following code:
 
     > [!IMPORTANT]
-    >  This code contains hard-coded references to the name of the generated directive processor to which you want to connect. You could easily make this more general, in which case it looks for all directive processors listed in the registry and tries to find a match. In that case, the host would work with any generated directive processor.
+    > This code contains hard-coded references to the name of the generated directive processor to which you want to connect. You could easily make this more general, in which case it looks for all directive processors listed in the registry and tries to find a match. In that case, the host would work with any generated directive processor.
 
     ```csharp
     //the engine calls this method based on the directives the user has
@@ -225,17 +228,18 @@ You can write your own host that processes text templates. A basic custom host i
 
 8.  On the **Build** menu, click **Build Solution**.
 
-## Testing the Custom Host with the Directive Processor
- To test the custom text template host, first you must write a text template that calls the generated directive processor. Then you run the custom host, pass to it the name of the text template, and verify that the directive is processed correctly.
+## Test the Custom Host with the Directive Processor
 
-#### To create a text template to test the custom host
+To test the custom text template host, first you must write a text template that calls the generated directive processor. Then you run the custom host, pass to it the name of the text template, and verify that the directive is processed correctly.
+
+### Create a text template to test the custom host
 
 1.  Create a text file, and name it `TestTemplateWithDP.tt`. You can use any text editor, such as Notepad, to create the file.
 
 2.  Add the following to the text file:
 
     > [!NOTE]
-    >  The programming language of the text template does not need to match that of the custom host.
+    > The programming language of the text template does not need to match that of the custom host.
 
     ```csharp
     Text Template Host Test
@@ -308,7 +312,7 @@ You can write your own host that processes text templates. A basic custom host i
 
 4.  Save and close the file.
 
-#### To test the custom host
+### Test the custom host
 
 1.  Open a Command Prompt window.
 
@@ -319,7 +323,7 @@ You can write your own host that processes text templates. A basic custom host i
      `<YOUR PATH>CustomHost\bin\Debug\CustomHost.exe`
 
     > [!NOTE]
-    >  Instead of typing the address, you can browse to the file CustomHost.exe in **Windows Explorer**, and then drag the file into the Command Prompt window.
+    > Instead of typing the address, you can browse to the file CustomHost.exe in **Windows Explorer**, and then drag the file into the Command Prompt window.
 
 3.  Type a space.
 
@@ -330,7 +334,7 @@ You can write your own host that processes text templates. A basic custom host i
      `<YOUR PATH>TestTemplateWithDP.txt`
 
     > [!NOTE]
-    >  Instead of typing the address, you can browse to the file TestTemplateWithDP.txt in **Windows Explorer**, and then drag the file into the Command Prompt window.
+    > Instead of typing the address, you can browse to the file TestTemplateWithDP.txt in **Windows Explorer**, and then drag the file into the Command Prompt window.
 
      The custom host application runs and starts the text template transformation process.
 
@@ -352,6 +356,6 @@ You can write your own host that processes text templates. A basic custom host i
     Linked from: ExampleElement1
     ```
 
-## See Also
+## See also
 
 - [Walkthrough: Creating a Custom Text Template Host](../modeling/walkthrough-creating-a-custom-text-template-host.md)

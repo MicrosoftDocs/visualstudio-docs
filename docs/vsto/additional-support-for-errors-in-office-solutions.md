@@ -2,9 +2,9 @@
 title: "Additional Support for Errors in Office Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
-ms.topic: "conceptual"
+ms.technology: office-development
+ms.prod: visual-studio-dev15
+ms.topic: conceptual
 f1_keywords: 
   - "VST.MSBuild.errAppInfoTaskInsertCtlFailed"
   - "VST.MSBuild.errAppInfoTaskDeleteCtlFailed"

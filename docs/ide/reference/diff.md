@@ -16,7 +16,7 @@ Compares two files. The differences are displayed in a special Visual Studio win
 
 ## Syntax
 
-```
+```cmd
 devenv /Diff SourceFile, TargetFile, [SourceDisplayName],[TargetDisplayName]
 ```
 

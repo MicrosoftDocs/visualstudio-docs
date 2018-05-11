@@ -5,6 +5,7 @@ ms.date: 04/25/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: tutorial
+author: kraigb
 ms.author: kraigb
 manager: douge
 ms.workload: 
@@ -212,4 +213,4 @@ Answer: The lack of the trailing '$' in the regular expression was a simple over
 ## Going deeper
 
 - [Writing your first Django app, part 4 - forms and generic views](https://docs.djangoproject.com/en/2.0/intro/tutorial04/) (docs.djangoproject.com)
-- Tutorial source code on GitHub: [Microsoft/python-sample-vs-learn-django](https://github.com/Microsoft/python-sample-vs-learn-django)
+- Tutorial source code on GitHub: [Microsoft/python-sample-vs-learning-django](https://github.com/Microsoft/python-sample-vs-learning-django)

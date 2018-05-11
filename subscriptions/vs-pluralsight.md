@@ -78,7 +78,7 @@ The table below details what Pluralsight subscription benefits are available to 
 | Visual Studio Enterprise (NFR<sup>1</sup> ) | Program                                       | Not available                                  |NA|
 <sup>1</sup>  *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), BizSpark, MCT Software & Services Developer, MCT Software & Service, Microsoft Valued Partner (MVP), Region Director (RD), Microsoft Partner Network (MPN), FTE, Imagine.*
 
-<sup>2</sup>  *Following the expiration of Pluralsight subscriptions, you may be eligible to receive 12 months of access to 50 selected Pluralsight courses in one of three study areas.  Please see the frequently asked questions below for more details.*
+<sup>2</sup>  *The Pluralsight benefit is single use only, tied to the individual.  Once the subscriber consumes the benefit, it does not reset. Please see the frequently asked questions below for more details.  Following the expiration of Pluralsight subscriptions, you may be eligible to receive 12 months of access to 50 selected Pluralsight courses in one of three study areas.*
 
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions. 
 
@@ -87,10 +87,23 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 ### Q: I have a Visual Studio Enterprise subscription, but I don't see the Pluralsight tile on the Benefits page. What's wrong? 
 A: Not all Visual Studio Enterprise subscriptions include the Pluralsight benefit.  Check the [eligility table](#eligibility) table to see whether your subscription is eligible.
 
+### Q: Do I have access to any customized learning  playlists or channels? 
+A: Yes, as a Visual Studio subscriber you get access to expert channels as part of your Pluralsight training benefit. These channels have been specially curated by Microsoft experts and are geared towards learning in the areas of .Net, Azure, DevOps and Mobility. Activate your Pluralsight benefit through your Visual Studio subscription portal [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs) to get access to these channels on your Pluralsight landing page – 
+
+•	Scott Hanselmann (.Net, Azure) - [http://go.pluralsight.com/scott-hanselman](http://go.pluralsight.com/scott-hanselman)
+
+•	Donovan Brown (DevOps) - [http://go.pluralsight.com/donovan-brown](http://go.pluralsight.com/donovan-brown) 
+
+•	James Montemagno (Mobility) - [http://go.pluralsight.com/james-montemagno](http://go.pluralsight.com/james-montemagno)
+
+
 ### Q: What happens when my Pluralsight subscription runs out?  
 A:  At the end of your free Pluralsight subscription, you have two options:
 - You get free 12-month access (Check the [eligility table](#eligibility) table to see whether your subscription is eligible) to a limited set of 50 courses in one of three key areas including: app development on the cloud; AI, machine learning and data; and DevOps in the cloud. Watch for an email from Pluralsight to claim your free access after expiration. You can see a [list of courses](https://help.pluralsight.com/help/which-courses-are-included-with-the-visual-studio-benefit) available under each partial library.
-- You may choose to purchase a subscription directly from Pluralsight at a 10% discount which gives you access to their full course catalog.  Please contact [Pluralsight](http://www.pluralsight.com) for full details.  
+- You may choose to purchase a subscription directly from Pluralsight at a 10% discount which gives you access to their full course catalog.  Please contact [Pluralsight](http://www.pluralsight.com) for full details. 
+
+### Q: My company renews their Visual Studio subscription through an Enterprise Agreement. Does the Pluralsight benefit reset?
+A:  No.  The Pluralsight benefit is single use only, tied to the individual.  Once the subscriber consumes the benefit, it does not reset.  This is true for all purchasing channels, including retail, cloud and Volume License (VL) purchases. 
 
 ## Support resources
 -  [Pluralsight Help Center](https://help.pluralsight.com/help) provides assistance with taking Pluralsight courses or using the Pluralsight website. 

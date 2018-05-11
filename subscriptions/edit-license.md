@@ -13,12 +13,10 @@ searchscope: VS Subscription
 
 # Editing Visual Studio subscription assignments
 
-As a subscription administrator, you have the ability to make changes to the subscriptions assigned to individuals within your organization.  This article discusses the types of changes you can make, and provides the necessary steps. 
+As a subscription administrator, you can make changes to the subscriptions assigned to individuals within your organization.  This article discusses the types of changes you can make and provides the necessary steps. 
 
 ## Making changes to subscriber information
 You can edit a subscriber’s information to correct errors or update information. 
-> [!NOTE]
-> Editing a subscriber’s email address will cause any existing benefits to be reset.
 
 To edit a subscriber, select the ellipses (…) that appear next to the subscriber’s email address when you hover your mouse over it. A dropdown will appear.  Select **Edit** to modify the subscriber’s details. You can also double-click on the subscriber's row in the grid to open the edit window.
 

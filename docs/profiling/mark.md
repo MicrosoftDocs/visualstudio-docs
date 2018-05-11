@@ -18,7 +18,7 @@ The VSPerfCmd.exe **Mark** option inserts the specified information into the pro
   
 ## Syntax  
   
-```  
+```cmd  
 VSPerfCmd.exe /Mark:MarkID,[MarkName]  
 ```  
   
@@ -32,7 +32,7 @@ VSPerfCmd.exe /Mark:MarkID,[MarkName]
 ## Example  
  This example inserts a mark with an ID of 123 and a mark name of "TestMark".  
   
-```  
+```cmd  
 VSPerfCmd.exe /Start:Sample /Output:TestApp.exe.vsp  
 VSPerfCmd.exe /Launch:TestApp.exe  
 VSPerfCmd.exe /Mark:123,TestMark  

@@ -2,8 +2,13 @@
 title: Port, Migrate, and Upgrade Projects
 description: A reference for the support in Visual Studio 2017 for projects created in earlier versions of Visual Studio, and how Visual Studio decides when it needs to migrate a project.
 ms.date: 03/14/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
+author: kraigb
+ms.author: kraigb
+manager: douge
+ms.workload: multiple
 f1_keywords: 
   - "Win8ExpressDesktopBlock"
   - "w8trefactor"
@@ -14,11 +19,6 @@ helpviewer_keywords:
   - "conversion, projects"
   - "asset compatibility"
   - "projects, conversion"
-author: kraigb
-ms.author: kraigb
-manager: douge
-ms.workload: 
-  - multiple
 ---
 
 # Project migration and upgrade reference for Visual Studio 2017

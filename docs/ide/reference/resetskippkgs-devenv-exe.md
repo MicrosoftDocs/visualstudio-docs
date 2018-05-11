@@ -20,7 +20,7 @@ Clears all options to skip loading added to VSPackages by users wishing to avoid
 
 ## Syntax
 
-```
+```cmd
 Devenv /ResetSkipPkgs
 ```
 
@@ -30,7 +30,7 @@ Devenv /ResetSkipPkgs
 ## Example
  The following example clears all SkipLoading tags.
 
-```
+```cmd
 Devenv.exe /ResetSkipPkgs
 ```
 
