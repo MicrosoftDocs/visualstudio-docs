@@ -5,8 +5,8 @@ ms.date: "05/07/2018"
 ms.technology: vs-unity-tools
 ms.topic: "conceptual"
 ms.assetid: ea490b7e-fc0d-44b1-858a-a725ce20e396
-author: "dantogno"
-ms.author: "v-davian"
+author: "TerryGLee"
+ms.author: "tglee"
 manager: crdun
 ms.workload:
   - "unity"
@@ -117,7 +117,7 @@ Visual Studio Tools for Unity change log.
 -   **Integration:**
 
     -   Only reload projects on external change (with throttling).
- 
+
 ## 3.6.0.1
  Released 2018-01-24
 
@@ -126,9 +126,9 @@ Visual Studio Tools for Unity change log.
 -   **Integration:**
 
     -   Fixed automatic pdb to mdb debug symbol conversion.
-    
+
     -   Fixed indirect call to EditorPrefs.GetBool impacting the inspector while trying to change array size.
- 
+
 ## 3.6.0.0
  Released 2018-01-10
 
@@ -145,7 +145,7 @@ Visual Studio Tools for Unity change log.
 -   **Debugger:**
 
     -   Added support for DebuggerHidden/DebuggerStepThrough attributes with the new Unity runtime.
-    
+
 -   **Wizards:**
 
     -   Introduce 'Latest' version for wizards.
@@ -159,7 +159,7 @@ Visual Studio Tools for Unity change log.
 -   **Debugger:**
 
     -   Fixed a race in handling breaking events.
-    
+
 -   **Wizards:**
 
     -   Refresh roslyn context before inserting method.

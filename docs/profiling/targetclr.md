@@ -18,7 +18,7 @@ The **TargetCLR** option specifies the version of the common language run-time (
   
 ## Syntax  
   
-```  
+```cmd  
 VSPerfCmd.exe {/Launch:AppName | /Attach:PID} /TargetCLR[:ClrVersion] [Options]   
 ```  
   
@@ -38,7 +38,7 @@ VSPerfCmd.exe {/Launch:AppName | /Attach:PID} /TargetCLR[:ClrVersion] [Options]
 ## Example  
  In this example, the TargetCLR option is used to make sure that CLR version 4.0.11003 is profiled.  
   
-```  
+```cmd  
 VSPerfCmd.exe /Start:Sample /Output:TestApp.exe.vsp  
 VSPerfCmd.exe /Launch:TestApp.exe /TargetCLR:v4.0.11003  
 ```

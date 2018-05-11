@@ -20,7 +20,7 @@ Defines a phase of the application.
   
 ## Syntax  
   
-```  
+```cpp  
 class span;  
 ```  
   
