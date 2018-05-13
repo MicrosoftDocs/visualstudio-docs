@@ -53,7 +53,7 @@ Just-In-Time debugging may still be enabled even if Visual Studio is no longer i
   
     -   HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AeDebug\Debugger  
   
-    -   HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\DbgManagedDebugger  
+    -   HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\\.NETFramework\DbgManagedDebugger  
 
     ![JIT Registry Key](../debugger/media/dbg-jit-registry.png "JIT Registry Key") 
   
