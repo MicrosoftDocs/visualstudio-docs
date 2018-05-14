@@ -32,7 +32,7 @@ The Visual Studio **Network** diagnostics tool collects data about network opera
   
 4.  Choose **Stop** to close the app.  
   
- The report window should look something like this:  
+ The report window should appear something like this:  
   
  ![The Network window](../profiling/media/network_fullwindow.png "NETWORK_FullWindow")  
   
@@ -58,13 +58,13 @@ The Visual Studio **Network** diagnostics tool collects data about network opera
  The Network **summary** bar shows the number of network operations that are displayed at any given point, how much data was transferred, how much time it took to download them, and how many errors (requests with 4xx or 5xx responses) are visible.  
   
 ### Analysis tips  
- This tool highlights certain areas that can be useful when you are running network related analysis:  
+ This tool highlights certain areas that can be useful when you are running network-related analysis:  
   
 1.  Requests that are fully served from the cache are shown as **(from cache)** in the **Received** column. This can help you determine whether you are using the cache effectively to save user bandwidth, or whether you are caching responses by mistake and providing the end-user of your application with outdated data.  
   
-2.  Error responses (4xx or 5xx) are displayed in the in the **Results** column with a red status code and are also highlighted in the summary bar. This makes it easy to spot errors among the many potential requests on your application.  
+2.  Error responses (4xx or 5xx) are displayed in the **Results** column with a red status code and are also highlighted in the summary bar. This makes it easy to spot errors among the many potential requests on your application.  
   
-3.  The response pretty printing button (inside the body tab) can help you parse through JSON, XML, HTML, CSS, JavaScript and TypeScript response payloads by increasing the readability of the content.  
+3.  The response pretty printing button (inside the body tab) can help you parse through JSON, XML, HTML, CSS, JavaScript, and TypeScript response payloads by increasing the readability of the content.  
   
 ## See Also  
  [Run Profiling Tools with or without the Debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md)  
