@@ -26,7 +26,7 @@ Writes an alert to the Concurrency Visualizer trace file.
   
 ## Syntax  
   
-```  
+```C  
 HRESULT CvWriteAlertW(  
     _In_reads_bytes_(16) PCV_MARKERSERIES pMarkerSeries,  
     _In_ PCWSTR pMessage,  
