@@ -88,7 +88,7 @@ To install Visual Studio for Mac behind a firewall, certain endpoints must be ma
 
 Configure your network to allow access to the following locations:
 
-* [Visual Studio endpoints](../docs/install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server)
+* [Visual Studio endpoints](../docs/install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md)
 
 ## Next Steps
 
