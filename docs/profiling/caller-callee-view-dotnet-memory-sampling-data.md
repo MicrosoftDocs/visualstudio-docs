@@ -13,7 +13,7 @@ manager: douge
 ms.workload: 
   - "dotnet"
 ---
-# Caller/Callee View - .NET Memory Sampling Data
+# Caller/Callee view - .NET memory sampling data
 The Caller/Callee view displays .NET memory profiling data for a selected function and its parent and child functions. The Caller/Callee view contains three grids.  
   
  **Current function** is displayed in the middle grid, and it shows memory profiling information about the selected function. The values include all sampled calls to the function.  
@@ -46,7 +46,7 @@ The Caller/Callee view displays .NET memory profiling data for a selected functi
 |**Exclusive Bytes %**|The percentage of all bytes of memory that were allocated in the profiling run that were exclusive allocations of this function.|  
   
 ## See Also  
- [How to: Customize Report View Columns](../profiling/how-to-customize-report-view-columns.md)   
- [Caller/Callee View - NET Memory Instrumentation Data](../profiling/caller-callee-view-net-memory-instrumentation-data.md)   
- [Caller / Callee View - Sampling Data](../profiling/caller-callee-view-sampling-data.md)   
- [Caller/Callee View - Instrumentation Data](../profiling/caller-callee-view-instrumentation-data.md)
+ [How to: Customize report view columns](../profiling/how-to-customize-report-view-columns.md)   
+ [Caller/Callee View - .NET memory instrumentation data](../profiling/caller-callee-view-net-memory-instrumentation-data.md)   
+ [Caller/Callee view - sampling data](../profiling/caller-callee-view-sampling-data.md)   
+ [Caller/Callee view - instrumentation data](../profiling/caller-callee-view-instrumentation-data.md)

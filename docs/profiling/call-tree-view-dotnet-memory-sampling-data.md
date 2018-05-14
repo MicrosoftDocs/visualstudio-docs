@@ -13,15 +13,15 @@ manager: douge
 ms.workload: 
   - "dotnet"
 ---
-# Call Tree View - .NET Memory Sampling Data
+# Call Tree view - .NET memory sampling data
 The Call Tree view displays the function execution paths that were traversed in the profiled application. The root of the tree is the entry point into the application or the component. Each function node lists all the functions that it called and the .NET memory allocation data about those function calls.  
   
  The values in the Call Tree view are for the function instances that were called by the parent function in the call tree. Percentage values are calculated by comparing the function instance value to the total number or size of allocations in the profiling run.  
   
-## Highlighting the Execution Hot Path  
+## Highlight the execution hot path  
  The Call Tree view can expand and highlight the execution path of the process or function that created the largest or most memory objects. To display the most active path, right-click the process or function, and then click **Expand Hot Path**.  
   
-## Setting the Call Tree Root Node  
+## Set the Call Tree root node  
  Each process in the profiling run is displayed as a root node. To set the starting node of the Call Tree view to a different node, right-click the node that you want to set as the start node and select **Set Root**.  
   
  When you set the root node, you eliminate all other entries from the view except the subtree of the selected node. You can reset the root node back to the node that you were viewing; right-click in the Call Tree View window and select **Reset Root**.  
@@ -47,6 +47,6 @@ The Call Tree view displays the function execution paths that were traversed in 
 |**Exclusive Bytes %**|The percentage of all bytes of memory that were allocated in the profiling run that were exclusive allocations of this function.|  
   
 ## See Also  
- [Call Tree View - Instrumentation](../profiling/call-tree-view-dotnet-memory-instrumentation-data.md)   
- [Call Tree View](../profiling/call-tree-view-sampling-data.md)   
- [Call Tree View](../profiling/call-tree-view-instrumentation-data.md)
+ [Call Tree view - instrumentation](../profiling/call-tree-view-dotnet-memory-instrumentation-data.md)   
+ [Call Tree view](../profiling/call-tree-view-sampling-data.md)   
+ [Call Tree view](../profiling/call-tree-view-instrumentation-data.md)
