@@ -58,7 +58,7 @@ ms.workload:
   
 2.  The designer—either the developer who creates the project or someone else—creates the final look and feel of the document for the end user.  
   
-#### Run time  
+#### Runtime  
  The run-time experience includes the following steps:  
   
 1.  The end user opens a document or workbook that has managed code extensions.  

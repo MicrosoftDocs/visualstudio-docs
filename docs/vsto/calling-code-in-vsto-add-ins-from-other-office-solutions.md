@@ -22,7 +22,7 @@ ms.workload:
   - "office"
 ---
 # Calling Code in VSTO Add-ins from Other Office Solutions
-  You can expose an object in your VSTO Add-in to other solutions, including other Microsoft Office solutions. This is useful if your VSTO Add-in provides a service that you want to enable other solutions to use. For example, if you have an VSTO Add-in for Microsoft Office Excel that performs calculations on financial data from a Web service, other solutions can perform these calculations by calling into the Excel VSTO Add-in at run time.  
+  You can expose an object in your VSTO Add-in to other solutions, including other Microsoft Office solutions. This is useful if your VSTO Add-in provides a service that you want to enable other solutions to use. For example, if you have an VSTO Add-in for Microsoft Office Excel that performs calculations on financial data from a Web service, other solutions can perform these calculations by calling into the Excel VSTO Add-in at runtime.  
   
  [!INCLUDE[appliesto_allapp](../vsto/includes/appliesto-allapp-md.md)]  
   

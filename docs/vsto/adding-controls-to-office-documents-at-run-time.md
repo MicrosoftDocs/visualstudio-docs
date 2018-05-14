@@ -1,5 +1,5 @@
 ---
-title: "Add controls to Office documents at run time"
+title: "Add controls to Office documents at runtime"
 ms.custom: ""
 ms.date: 02/02/2017
 ms.technology: office-development
@@ -13,12 +13,12 @@ helpviewer_keywords:
   - "host controls [Office development in Visual Studio], adding"
   - "Windows Forms controls [Office development in Visual Studio], adding"
   - "Office documents [Office development in Visual Studio, host controls"
-  - "user controls [Office development in Visual Studio], adding at run time"
+  - "user controls [Office development in Visual Studio], adding at runtime"
   - "documents [Office development in Visual Studio], Windows Forms controls"
   - "document-level customizations [Office development in Visual Studio], host controls"
   - "documents [Office development in Visual Studio], host controls"
   - "document-level customizations [Office development in Visual Studio], Windows Forms controls"
-  - "controls [Office development in Visual Studio], adding at run time"
+  - "controls [Office development in Visual Studio], adding at runtime"
   - "helper methods [Office development in Visual Studio]"
 author: TerryGLee
 ms.author: tglee
@@ -26,14 +26,14 @@ manager: douge
 ms.workload:
   - "office"
 ---
-# Add controls to Office documents at run time
-  You can add controls to a Microsoft Office Word document and Microsoft Office Excel workbook at run time. You can also remove them at run time. Controls that you add or remove at run time are called *dynamic controls*.  
+# Add controls to Office documents at runtime
+  You can add controls to a Microsoft Office Word document and Microsoft Office Excel workbook at runtime. You can also remove them at runtime. Controls that you add or remove at runtime are called *dynamic controls*.  
 
  [!INCLUDE[appliesto_controls](../vsto/includes/appliesto-controls-md.md)]  
 
  This topic describes the following:  
 
--   [Manage controls at run time by using control collections](#ControlsCollection).  
+-   [Manage controls at runtime by using control collections](#ControlsCollection).  
 
 -   [Add host controls to documents](#HostControls).  
 
@@ -41,8 +41,8 @@ ms.workload:
 
  ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Add controls to a document surface at runtime?](http://go.microsoft.com/fwlink/?LinkId=132782).  
 
-##  <a name="ControlsCollection"></a> Manage controls at run time by using control collections  
- To add, get, or remove controls at run time, use helper methods of <xref:Microsoft.Office.Tools.Excel.ControlCollection> and <xref:Microsoft.Office.Tools.Word.ControlCollection> objects.  
+##  <a name="ControlsCollection"></a> Manage controls at runtime by using control collections  
+ To add, get, or remove controls at runtime, use helper methods of <xref:Microsoft.Office.Tools.Excel.ControlCollection> and <xref:Microsoft.Office.Tools.Word.ControlCollection> objects.  
 
  The way that you access these objects depends on the type of project you are developing:  
 
@@ -50,7 +50,7 @@ ms.workload:
 
 -   In a document-level project for Word, use the <xref:Microsoft.Office.Tools.Word.Document.Controls%2A> property of the `ThisDocument` class. For more information about this class, see [Document host item](../vsto/document-host-item.md).  
 
--   In an VSTO Add-in project for Excel or Word, use the `Controls` property of a <xref:Microsoft.Office.Tools.Excel.Worksheet> or <xref:Microsoft.Office.Tools.Word.Document> that you generate at run time. For more information about generating these objects at run time, see [Extend Word documents and Excel workbooks in VSTO Add-ins at run time](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).  
+-   In an VSTO Add-in project for Excel or Word, use the `Controls` property of a <xref:Microsoft.Office.Tools.Excel.Worksheet> or <xref:Microsoft.Office.Tools.Word.Document> that you generate at runtime. For more information about generating these objects at runtime, see [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).  
 
 ### Add controls  
  The <xref:Microsoft.Office.Tools.Excel.ControlCollection> and <xref:Microsoft.Office.Tools.Word.ControlCollection> types include helper methods that you can use to add host controls and common Windows Forms controls to documents and worksheets. Each method name has the format `Add`*control class*, where *control class* is the class name of the control that you want to add. For example, to add a <xref:Microsoft.Office.Tools.Excel.NamedRange> control to your document, use the <xref:Microsoft.Office.Tools.Excel.ControlCollection.AddNamedRange%2A> method.  
@@ -68,7 +68,7 @@ ms.workload:
  [!code-vb[Trin_ExcelWorkbookDynamicControls#4](../vsto/codesnippet/VisualBasic/trin_excelworkbookdynamiccontrols4/ThisWorkbook.vb#4)]
  [!code-csharp[Trin_ExcelWorkbookDynamicControls#4](../vsto/codesnippet/CSharp/trin_excelworkbookdynamiccontrols4/ThisWorkbook.cs#4)]  
 
- You cannot remove static controls at run time. If you try to use the `Delete` or `Remove` method to remove a static control, a <xref:Microsoft.Office.Tools.CannotRemoveControlException> will be thrown.  
+ You cannot remove static controls at runtime. If you try to use the `Delete` or `Remove` method to remove a static control, a <xref:Microsoft.Office.Tools.CannotRemoveControlException> will be thrown.  
 
 > [!NOTE]  
 >  Do not programmatically remove controls in the `Shutdown` event handler of the document. The UI elements of the document are no longer available when the `Shutdown` event is raised. If you want to remove controls before the document closes, add your code to the event handler for another event, such as <xref:Microsoft.Office.Tools.Word.Document.BeforeClose> or <xref:Microsoft.Office.Tools.Word.Document.BeforeSave> for Word, or <xref:Microsoft.Office.Tools.Excel.Workbook.BeforeClose>, or <xref:Microsoft.Office.Tools.Excel.Workbook.BeforeSave> for Excel.  

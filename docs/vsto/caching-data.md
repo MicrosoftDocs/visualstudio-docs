@@ -27,7 +27,7 @@ ms.workload:
   
 -   To add an object to the data cache when the solution is built, apply the <xref:Microsoft.VisualStudio.Tools.Applications.Runtime.CachedAttribute> attribute to the object declaration. For more information, see [How to: Cache Data for Use Offline or on a Server](../vsto/how-to-cache-data-for-use-offline-or-on-a-server.md).  
   
--   To programmatically add an object to the data cache at run time, use the `StartCaching` method of a host item, such as the `ThisDocument` or `ThisWorkbook` classes. For more information, see [How to: Programmatically Cache a Data Source in an Office Document](../vsto/how-to-programmatically-cache-a-data-source-in-an-office-document.md).  
+-   To programmatically add an object to the data cache at runtime, use the `StartCaching` method of a host item, such as the `ThisDocument` or `ThisWorkbook` classes. For more information, see [How to: Programmatically Cache a Data Source in an Office Document](../vsto/how-to-programmatically-cache-a-data-source-in-an-office-document.md).  
   
  After you add an object to the data cache, you can access and modify the cached data without starting Word or Excel. For more information, see [Accessing Data in Documents on the Server](../vsto/accessing-data-in-documents-on-the-server.md).  
   
