@@ -14,7 +14,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Call Tree View - Sampling Data
+# Call Tree view - sampling data
 The Call Tree view displays the function execution paths that were traversed in the profiled application.  
   
 > [!NOTE]
@@ -24,10 +24,10 @@ The Call Tree view displays the function execution paths that were traversed in 
   
  The values in the Call Tree view are for the function instances that were called by the parent function in the call tree. Percentage values are calculated by comparing the function instance value to the total number of samples in the profiling run.  
   
-## Highlighting the Execution Hot Path  
+## Highlight the execution hot path  
  The Call Tree view can expand and highlight the execution path of the process or function that was sampled most frequently. To display the most active path, right-click the process or function and then click **Expand Hot Path**.  
   
-## Setting the Call Tree Root Node  
+## Set the call tree root node  
  Each process in the profiling run is displayed as a root node. To set the start node of the Call Tree view, right-click the node that you want to set as the start node and select **Set Root**.  
   
  When you set the root node, you eliminate all other entries from the view except the subtree of the selected node. To reset the root node back to the original node, right-click in the Call Tree View window and select **Reset Root**.  
@@ -48,9 +48,9 @@ The Call Tree view displays the function execution paths that were traversed in 
 |**Inclusive Samples**|The number of samples that were collected in this function when it was called by the parent function in the call tree. This number includes samples that were collected in functions that were called by the function.|  
 |**Inclusive Samples %**|The percentage of all samples in the profiling run that were inclusive samples of this function when it was called by the parent function in the call tree.|  
   
-## See Also  
- [How to: Customize Report View Columns](../profiling/how-to-customize-report-view-columns.md)   
- [Call Tree View - Profiler Sampling Data](../profiling/call-tree-view-sampling-data.md)   
- [Call Tree View - Sampling](../profiling/call-tree-view-dotnet-memory-sampling-data.md)   
- [Call Tree View - Instrumentation](../profiling/call-tree-view-dotnet-memory-instrumentation-data.md)   
- [Call Tree View](../profiling/call-tree-view-instrumentation-data.md)
+## See also  
+ [How to: Customize report view columns](../profiling/how-to-customize-report-view-columns.md)   
+ [Call Tree view - profiler sampling data](../profiling/call-Tree-view-sampling-data.md)   
+ [Call Tree view - sampling](../profiling/call-tree-view-dotnet-memory-sampling-data.md)   
+ [Call Tree view - instrumentation](../profiling/call-tree-view-dotnet-memory-instrumentation-data.md)   
+ [Call Tree view](../profiling/call-tree-view-instrumentation-data.md)
