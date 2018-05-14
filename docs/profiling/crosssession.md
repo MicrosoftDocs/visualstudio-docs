@@ -18,7 +18,7 @@ The VSPerfCmd.exe **CrossSession** option enables the profiler to collect data f
   
 ## Syntax  
   
-```  
+```cmd  
 VSPerfCmd.exe /Start:Method /CrossSession [Options]  
 ```  
   
@@ -40,7 +40,7 @@ VSPerfCmd.exe /Start:Method /CrossSession [Options]
 ## Example  
  In this example, the **CrossSession** option is used to attach to an application that was started in another console session.  
   
-```  
+```cmd  
 VSPerfCmd.exe /Start:Sample /Output:TestApp.exe.vsp /CrossSession  
 VSPerfCmd.exe /Attach:12345 /CS  
 ```  
