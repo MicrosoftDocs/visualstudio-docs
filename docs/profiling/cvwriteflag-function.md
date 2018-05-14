@@ -26,7 +26,7 @@ Writes a flag to the Concurrency Visualizer trace file.
   
 ## Syntax  
   
-```  
+```C  
 HRESULT CvWriteFlagExW(  
     _In_reads_bytes_(16) PCV_MARKERSERIES pMarkerSeries,  
     _In_ CV_IMPORTANCE level,  

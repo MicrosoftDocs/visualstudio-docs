@@ -22,7 +22,7 @@ Determines whether any session has enabled the specified ETW provider.
   
 ## Syntax  
   
-```  
+```C  
 HRESULT CvIsEnabled(  
    _In_ PCV_PROVIDER pProvider  
 );  

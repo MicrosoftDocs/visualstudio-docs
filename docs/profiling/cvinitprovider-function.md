@@ -20,7 +20,7 @@ Initializes marker provider. Has to be called before any other Concurrency Visua
   
 ## Syntax  
   
-```  
+```C  
 HRESULT CvInitProvider(  
    _In_ const GUID* pGuid,  
    _Out_ PCV_PROVIDER* ppProvider  

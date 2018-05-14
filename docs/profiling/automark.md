@@ -18,7 +18,7 @@ The **AutoMark** option specifies the number of milliseconds between the collect
   
 ## Syntax  
   
-```  
+```cmd  
 VSPerfCmd.exe /Start:Method /WinCounter:Path /AutoMark:Milliseconds  
 ```  
   
@@ -33,7 +33,7 @@ VSPerfCmd.exe /Start:Method /WinCounter:Path /AutoMark:Milliseconds
 ## Example  
  In this example, a sampling interval of 1000 milliseconds is set for two Windows performance counters.  
   
-```  
+```cmd  
 VSPerfCmd.exe /Start:Trace /Output:TestApp.exe.vsp /WinCounter:"\Process(*)\% Processor Time" /WinCounter:"\ASP.NET\Pages/sec" /AutoMark:1000  
 VSPerfCmd.exe /Launch:TestApp.exe  
 ```  
