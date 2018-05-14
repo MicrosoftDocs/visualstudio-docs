@@ -66,10 +66,11 @@ When selected, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] disp
 
 When selected, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] displays a confirmation message box before the locations of files are changed by actions in Solution Explorer.
 
-**Reopen documents on solution load (Available only in version 15.8 Preview 2 and above)**
+**Reopen documents on solution load (Visual Studio 2017 version 15.8 preview 2 and later)**
  
-During solution load, automatically re-load documents that were open in the previous session. When selected, while opening a solution VS will automatically reopen all documents that were alive in the solution at the time when the solution was last closed. Reopen certain types of file extensions or designers can delay solution load considerably. Uncheck this to increase solution load performance if you are not interested in restoring the previous context of solutions when opening them
+During solution load, automatically reopen documents that were open in the previous session. When selected, documents that were open the previous time this solution was closed are automatically opened when the solution is loaded.
 
+Reopening certain types of files or designers can delay solution load. Uncheck this option to improve solution load performance if you don't want to restore the solution's previous context.
 
 ## Locations tab options
 
