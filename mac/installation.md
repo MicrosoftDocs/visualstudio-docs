@@ -3,7 +3,7 @@ title: "Install Visual Studio for Mac"
 description: "Instructions on how to install Visual Studio for Mac and additional components required for cross-platform development."
 author: asb3993
 ms.author: amburns
-ms.date: 04/14/2017
+ms.date: 05/06/2018
 ms.technology: vs-ide-install
 ms.assetid: 22B1F2CD-32AE-464D-80AC-C8AB4786B015
 ---

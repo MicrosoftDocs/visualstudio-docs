@@ -38,7 +38,7 @@ The walkthrough uses a C# application to demonstrate how to use the [!INCLUDE[vs
   
  By default, when the profiler is started, the profiler collects data at the global level. The following code at the start of the program turns global profiling off.  
   
-```  
+```csharp  
 DataCollection.StopProfile(  
 ProfileLevel.Global,  
 DataCollection.CurrentId);  
@@ -57,7 +57,7 @@ DataCollection.CurrentId);
   
 2.  Copy and paste the following code into your project:  
   
-    ```  
+    ```csharp  
     using System;  
     using System.Collections.Generic;  
     using System.Text;  
@@ -126,7 +126,7 @@ DataCollection.CurrentId);
   
  By default, when the profiler is started, the profiler will collect data at the global level. The following code at the start of the program turns global profiling off.  
   
-```  
+```csharp  
 DataCollection.StopProfile(  
 ProfileLevel.Global,  
 DataCollection.CurrentId);  

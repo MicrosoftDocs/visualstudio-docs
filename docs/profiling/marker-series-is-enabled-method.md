@@ -20,7 +20,7 @@ Determines if any session has enabled the provider.
   
 ## Syntax  
   
-```  
+```cpp  
 bool is_enabled();  
 bool is_enabled(  
    marker_importance _Importance,  

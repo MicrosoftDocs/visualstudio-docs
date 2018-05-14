@@ -18,7 +18,7 @@ The **Launch** option starts the profiler using the sampling method and it also 
   
 ## Syntax  
   
-```  
+```cmd  
 VSPerfCmd.exe /Launch:AppName [Options]  
 ```  
   
@@ -72,7 +72,7 @@ VSPerfCmd.exe /Launch:AppName [Options]
 ## Example  
  This example demonstrates the use of **Launch** to start an application.  
   
-```  
+```cmd  
 VSPerfCmd.exe /Start:Sample /Output:TestApp.exe.vsp  
 VSPerfCmd.exe /Launch:TestApp.exe  
 ```  

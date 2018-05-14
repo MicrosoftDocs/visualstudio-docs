@@ -21,7 +21,7 @@ Evaluates and displays the given statement.
 
 ## Syntax
 
-```
+```cmd
 Debug.EvaluateStatement text
 ```
 
@@ -34,7 +34,7 @@ Debug.EvaluateStatement text
 
  In the **Command** window, an equals sign (=) is interpreted as a comparison operator. So, for example, if the values of variables `a` and `b` are different, then the command
 
-```
+```cmd
 >Debug.EvaluateStatement(a=b)
 ```
 
@@ -42,7 +42,7 @@ Debug.EvaluateStatement text
 
  In the **Immediate** window, by contrast, an equals sign (=) is interpreted as an assignment operator. So, for example, the command
 
-```
+```cmd
 >Debug.EvaluateStatement(a=b)
 ```
 
@@ -50,7 +50,7 @@ Debug.EvaluateStatement text
 
 ## Example
 
-```
+```cmd
 >Debug.EvaluateStatement(a+b)
 ```
 

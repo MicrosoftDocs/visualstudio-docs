@@ -49,13 +49,13 @@ Sampling is a profiling method by which a specific process is periodically polle
 
 4. Type the following command to set the appropriate environment variables:
 
-    ```
+    ```cmd
     VSPerfCLREnv /sampleon
     ```
 
 5. Start profiling by running VSPerfCmd.exe, which is the command-line tool that controls the profiler. The following command starts the application and profiler in the sampling mode:
 
-    ```
+    ```cmd
     VsPerfCmd /start:sample /output:PeopleTraxReport.vsp /launch:PeopleTrax.exe
     ```
 
@@ -71,13 +71,13 @@ Sampling is a profiling method by which a specific process is periodically polle
 
 9. Shut down the profiler. Type the following command:
 
-    ```
+    ```cmd
     VSPerfCmd /shutdown
     ```
 
 10. Use the following command to reset the environmental variables:
 
-    ```
+    ```cmd
     VSPerfCLREnv /sampleoff
     ```
 
@@ -89,7 +89,7 @@ Sampling is a profiling method by which a specific process is periodically polle
 
     - Generate a comma-separated value (.csv) file by using the command-line tool VSPerfReport.exe. To generate reports for use outside the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE use the following command:
 
-        ```
+        ```cmd
         VSPerfReport <dir> PeopleTraxReport.vsp /output:<dir> /summary:all
         ```
 

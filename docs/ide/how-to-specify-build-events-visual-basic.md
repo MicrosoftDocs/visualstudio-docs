@@ -64,7 +64,7 @@ The following procedure shows how to set the minimum operating system version in
 
 3.  In *Module1.vb*, add the following line to the other `Imports` statements at the top of the file:
 
-    ```
+    ```vb
     Imports System.Xml
     ```
 

@@ -1,5 +1,5 @@
 ---
-title: Using the Task List
+title: Use the Task List
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
@@ -17,7 +17,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Using the Task List
+# Use the Task List
 
 Use the **Task List** to track code comments that use tokens such as `TODO` and `HACK`, or custom tokens, and to manage shortcuts that will take you directly to a predefined location in the code. Click on the item in the list to go to its location in the source code.
 
@@ -25,29 +25,29 @@ Use the **Task List** to track code comments that use tokens such as `TODO` and 
 
 When the **Task List** is open, it appears at the bottom of the application window.
 
-### To open the Task List
+### Open the Task List
 
-- On the **View** menu, choose **Task List** (Keyboard: Ctrl+\\,T).
+- On the **View** menu, choose **Task List** (Keyboard: **Ctrl**+**\\**,**T**).
 
     ![Task List window](../ide/media/vs2015_task_list.png "vs2015_task_list")
 
-### To change the sort order of the list
+### Change the sort order of the list
 
 - Click the header of any column. To further refine your search results, press Shift and click a second column header.
 
-     As an alternative, on the shortcut menu, choose **Sort by**, and choose a header. To further refine your search results, press Shift and choose a second header.
+     As an alternative, on the shortcut menu, choose **Sort by**, and choose a header. To further refine your search results, press **Shift** and choose a second header.
 
-### To show or hide columns
+### Show or hide columns
 
 - On the shortcut menu, choose **Show Columns**. Choose the columns that you want to show or hide.
 
-### To change the order of the columns
+### Change the order of the columns
 
 - Drag any column header to the location that you want.
 
-## User Tasks
+## User tasks
 
-The user task feature was removed starting in Visual Studio 2015. When you open a solution which has user task data from Visual Studio 2013 and earlier, the user task data in your .suo file will not be affected, but the user tasks will not be displayed in the task list.
+The user task feature was removed starting in Visual Studio 2015. When you open a solution which has user task data from Visual Studio 2013 and earlier, the user task data in your *.suo* file will not be affected, but the user tasks will not be displayed in the task list.
 
 If you wish to continue to access and update your user task data, you should open the project in Visual Studio 2013 and copy the content of any user tasks into your preferred project management tool (such as Team Foundation Server).
 
@@ -69,11 +69,11 @@ Because `TODO` is a predefined token, this comment appears as a `TODO` task in t
 
 ###  <a name="customTokens"></a> Custom tokens
 
-By default, Visual Studio includes the following tokens: HACK, TODO, UNDONE, NOTE. These are not case sensitive.
+By default, Visual Studio includes the following tokens: `HACK`, `TODO`, `UNDONE`, `NOTE`. These are not case sensitive.
 
 You can also create your own custom tokens.
 
-#### To create a custom token
+#### Create a custom token
 
 1. On the **Tools** menu, choose **Options**.
 
@@ -91,7 +91,7 @@ You can also create your own custom tokens.
 
 By default, C++ TODO comments are displayed in the **Task List** window. You can change this behavior.
 
-#### To turn off C++ TODO comments
+#### Turn off C++ TODO comments
 
 On the **Tools** menu, choose **Options** > **Text Editor** > **C/C++** > **View** > **Enumerate Comment Tasks** and set the value to false.
 
@@ -101,12 +101,12 @@ A *shortcut* is a bookmark in the code that is tracked in the **Task List**; it 
 
 ![Visual Studio Task List Shortcut Icon](../ide/media/vs2015_task_list_bookmark.png "vs2015_task_list_bookmark")
 
-### To create a shortcut
+### Create a shortcut
 
-To create a shortcut, insert the pointer into the code where you want to place a shortcut. Choose **Edit** > **Bookmarks** > **Add Task List Shortcut** or press **Ctrl** + **K**, **Ctrl** + **H**.
+To create a shortcut, insert the pointer into the code where you want to place a shortcut. Choose **Edit** > **Bookmarks** > **Add Task List Shortcut** or press **Ctrl**+**K**, **Ctrl**+**H**.
 
 To navigate through the shortcuts in the code, choose a shortcut in the list, and then choose **Next Task** or **Previous Task** from the shortcut menu.
 
 ## See also
 
-- [Task List, Environment, Options Dialog Box](../ide/reference/task-list-environment-options-dialog-box.md)
+- [Task List, Environment, Options dialog box](../ide/reference/task-list-environment-options-dialog-box.md)

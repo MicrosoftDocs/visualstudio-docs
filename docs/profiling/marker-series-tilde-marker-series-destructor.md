@@ -20,7 +20,7 @@ Destroys marker_series object and releases all allocated resources.
   
 ## Syntax  
   
-```  
+```cpp  
 ~marker_series();  
 ```  
   

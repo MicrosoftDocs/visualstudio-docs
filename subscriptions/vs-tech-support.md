@@ -72,5 +72,19 @@ To use your Visual Studio subscription technical support benefit for issues rela
 4.	Enter the provide “Access ID” and “Contract ID” provided in #1 above.
 Once you have completed these steps, you'll be able to select the support plan associated with your Visual Studio subscription benefit.  (The name of the plan may contain "MSDN".)
 
+## Eligibility
+| Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
+|--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
+| Visual Studio Enterprise (Standard, annual cloud)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | 4 incidents       |  Yes|
+| Visual Studio Professional (Standard, annual cloud) | VL, Azure, Retail, selected NFR<sup>2</sup>                                        | 2 incidents                                                          |Yes         |
+| Visual Studio Test Professional (Standard)                         | VL, Retail                                              | 2 incidents                                             |  Yes         |
+| MSDN Platforms (Standard)                                          | VL, Retail                                              | 2 incidents                                               | Yes         |
+| Visual Studio Dev Essentials | NA  | Not available |NA|
+| Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure                                       | Not available                                                           |NA|
+
+<sup>1</sup>  *Includes:  Imagine Premium. Excludes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), Microsoft Partner Network (MPN), FTE, MCT Software & Services Developer, BizSpark, Imagine Standard, Microsoft Valued Partner (MVP), Region Director (RD), MCT Software & Services.*
+
+<sup>2</sup>  *Includes:  Imagine Standard.*
+
  
 

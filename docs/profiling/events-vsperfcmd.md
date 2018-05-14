@@ -18,7 +18,7 @@ The VSPerfCmd.exe **Events** option controls Event Tracing for Windows (ETW) log
   
 ## Syntax  
   
-```  
+```cmd  
 VSPerfCmd.exe /events {On|Off} {Guid|ProviderName} [,Flags[,Level]  
 ```  
   
@@ -74,7 +74,7 @@ VSPerfCmd.exe /events {On|Off} {Guid|ProviderName} [,Flags[,Level]
 > [!NOTE]
 >  When CLR ETW events are enabled, additional startup data is also collected in the Trace View report. To exclude startup events from appearing in the report, use the following command:  
   
-```  
+```cmd  
 C:\<path>VSPerfCmd -events on, \".NET Common Language Runtime\", 0x7fffffff, 5  
 ```  
   

@@ -21,7 +21,7 @@ Adds an existing file to the current solution and opens it.
 
 ## Syntax
 
-```
+```cmd
 File.AddExistingItem filename [/e:editorname]
 ```
 
@@ -35,7 +35,7 @@ File.AddExistingItem filename [/e:editorname]
 
  The /e:`editorname` argument syntax uses the editor names as they appear in the **Open With Dialog Box**, enclosed in quotation marks. For example, to open a style sheet in the source code editor, you would enter the following for the /e:`editorname` argument.
 
-```
+```cmd
 /e:"Source Code (text) Editor"
 ```
 
@@ -45,7 +45,7 @@ File.AddExistingItem filename [/e:editorname]
 ## Example
  This example adds the file, Form1.frm, to the current solution.
 
-```
+```cmd
 >File.AddExistingItem "C:\public\solution files\Form1.frm"
 ```
 
