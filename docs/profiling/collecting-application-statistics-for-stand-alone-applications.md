@@ -18,7 +18,7 @@ ms.workload:
 This section describes the procedures and options for collecting performance statistics for a client (stand-alone) application by using the sampling method from the command line.  
   
 > [!NOTE]
->  Enhanced security features in Windows 8 and Windows Server 2012 required significant changes in the way the Visual Studio profiler collects data on these platforms. UWP apps also require new collection techniques. See [Performance Tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md).  
+>  Enhanced security features in Windows 8 and Windows Server 2012 required significant changes in the way the Visual Studio profiler collects data on these platforms. UWP apps also require new collection techniques. See [Performance tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md).  
   
 ## Common tasks  
   
@@ -43,8 +43,9 @@ This section describes the procedures and options for collecting performance sta
   
 |Task|Related content|  
 |----------|---------------------|  
-|**Profile ASP.NET Web applications**|-   [Collect application statistics using sampling](../profiling/collecting-application-statistics-for-aspnet-using-the-profiler-sampling-method.md)|  
-|**Profile services**|-   [Collect application statistics using sampling](../profiling/collecting-application-statistics-for-services-by-using-the-profiler-sampling-method.md). Describes how to collect performance statistics from Windows services by using the sampling method.|  
+|**Profile ASP.NET web applications**|-   [Collecting application statistics using sampling](../profiling/collecting-application-statistics-for-aspnet-using-the-profiler-sampling-method.md)|  
+|**Profile services**|-   [Collecting application statistics using sampling](../profiling/collecting-application-statistics-for-services-by-using-the-profiler-sampling-method.md). Describes how to collect performance statistics from Windows services by using the sampling method.|  
   
 ### Analyze sampling data views and reports  
- [Sampling method data views](../profiling/profiler-sampling-method-data-views.md)
+ [Sampling Method Data Views](../profiling/profiler-sampling-method-data-views.md)
+

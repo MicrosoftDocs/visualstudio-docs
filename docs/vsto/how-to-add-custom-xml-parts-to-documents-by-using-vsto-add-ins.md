@@ -1,5 +1,5 @@
 ---
-title: "How to: Add Custom XML Parts to Documents by Using VSTO Add-Ins | Microsoft Docs"
+title: "How to: Add custom XML parts to documents by using VSTO Add-ins"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
@@ -23,7 +23,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Add Custom XML Parts to Documents by Using VSTO Add-Ins
+# How to: Add custom XML parts to documents by using VSTO Add-ins
   You can store XML data in the following types of documents by creating a custom XML part in a VSTO Add-in:  
   
 -   A Microsoft Office Excel workbook.  
@@ -32,9 +32,9 @@ ms.workload:
   
 -   A Microsoft Office PowerPoint presentation.  
   
- For more information, see [Custom XML Parts Overview](../vsto/custom-xml-parts-overview.md).  
+ For more information, see [Custom XML parts overview](../vsto/custom-xml-parts-overview.md).  
   
- **Applies to:** The information in this topic applies to application-level projects for Excel, PowerPoint, and Word. For more information, see [Features Available by Office Application and Project Type](../vsto/features-available-by-office-application-and-project-type.md).  
+ **Applies to:** The information in this topic applies to application-level projects for Excel, PowerPoint, and Word. For more information, see [Features available by Office application and project type](../vsto/features-available-by-office-application-and-project-type.md).  
   
 ### To add a custom XML part to an Excel workbook  
   
@@ -75,11 +75,11 @@ ms.workload:
   
 3.  Call the method from other code in your project. For example, to create the custom XML part when the user opens a presentation, call the method from an event handler for the <xref:Microsoft.Office.Interop.PowerPoint.EApplication_Event.AfterPresentationOpen> event.  
   
-## Robust Programming  
+## Robust programming  
  For simplicity, this example uses an XML string that is defined as a local variable in the method. Typically, you should obtain the XML from an external source, such as a file or a database.  
   
-## See Also  
- [Custom XML Parts Overview](../vsto/custom-xml-parts-overview.md)   
- [How to: Add Custom XML Parts to Document-Level Customizations](../vsto/how-to-add-custom-xml-parts-to-document-level-customizations.md)  
+## See also  
+ [Custom XML parts overview](../vsto/custom-xml-parts-overview.md)   
+ [How to: Add custom XML parts to document-level customizations](../vsto/how-to-add-custom-xml-parts-to-document-level-customizations.md)  
   
   
