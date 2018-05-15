@@ -149,7 +149,7 @@
 ###### [Remove unreachable code](ide/reference/remove-unreachable-code.md)
 ###### [Rename](ide/reference/rename.md)
 ###### [Synchronize type and filename](ide/reference/sync-type-and-file.md)
-###### [Use explicit type](ide/reference/use-explicit-type.md)
+###### [Use explicit type](ide/reference/convert-var-to-explicit-type.md)
 ##### [Walkthrough: Generate code from usage](ide/walkthrough-test-first-support-with-the-generate-from-usage-feature.md)
 #### [Productivity tips](ide/productivity-tips-for-visual-studio.md)
 ##### [Keyboard shortcuts](ide/tips-and-tricks-for-visual-studio.md)

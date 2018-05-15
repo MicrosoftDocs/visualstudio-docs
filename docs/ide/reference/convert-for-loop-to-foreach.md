@@ -56,7 +56,7 @@ If you have a [foreach (C#)](/dotnet/csharp/language-reference/keywords/foreach-
 
 Reasons you might want to convert a [foreach](/dotnet/csharp/language-reference/keywords/foreach-in) statement to a [for](/dotnet/csharp/language-reference/keywords/for) loop include:
 
-- You want to use the iteration count variable inside the loop, for more than just accessing the item.
+- You want to use the iteration count variable inside the loop for more than just accessing the item.
 
 - You are [iterating through a multi-dimensional array](/dotnet/csharp/programming-guide/arrays/using-foreach-with-arrays) and you want more control over the array elements.
 

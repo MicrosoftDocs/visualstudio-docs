@@ -28,7 +28,7 @@ Following are some reasons to declare a variable with an explicit type:
 
 - When you don't want to initialize the variable in the declaration.
 
-However, `var` must be used when a variable is initialized with an anonymous type and the properties of the object are accessed at a later point. For more information, see [Implicitly typed local variables (C#)](/dotnet/csharp/programming-guide/classes-and-structs/implicitly-typed-local-variables).
+However, [var](/dotnet/csharp/language-reference/keywords/var) must be used when a variable is initialized with an anonymous type and the properties of the object are accessed at a later point. For more information, see [Implicitly typed local variables (C#)](/dotnet/csharp/programming-guide/classes-and-structs/implicitly-typed-local-variables).
 
 ## How to use it
 
