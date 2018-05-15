@@ -14,13 +14,15 @@ ms.workload:
 ---
 # Refactoring to add a readonly modifier
 
-Use this refactoring to add the [readonly](/dotnet/csharp/language-reference/keywords/readonly) modifier to a static or instance field declaration.
+Use this refactoring to add the [readonly (C#)](/dotnet/csharp/language-reference/keywords/readonly) or [ReadOnly (Visual Basic)](/dotnet/visual-basic/language-reference/modifiers/readonly) modifier to a static or instance field declaration.
 
-Use this refactoring to conform code to the code style setting for **Prefer readonly**. The **Prefer readonly** code style setting is configured in **Tools** > **Options** > **Text Editor** > **C#** > **Code Style** > **General** > **Field preferences**. If the **Prefer readonly** preference value is **No**, this refactoring doesn't appear as a Quick Action.
+Use this refactoring to conform code to the code style setting for **Prefer readonly**. The **Prefer readonly** code style setting is configured in **Tools** > **Options** > **Text Editor** > **C#** or **Basic** > **Code Style** > **General** > **Field preferences**. If the **Prefer readonly** preference value is **No**, this refactoring doesn't appear as a Quick Action.
 
 This refactoring applies to:
 
 - C#
+
+- Visual Basic
 
 ## Why add readonly
 
@@ -42,5 +44,6 @@ Fields marked [readonly](/dotnet/csharp/language-reference/keywords/readonly) ca
 ## See also
 
 - [readonly keyword (C#)](/dotnet/csharp/language-reference/keywords/readonly)
+- [ReadOnly modifier (Visual Basic)](/dotnet/visual-basic/language-reference/modifiers/readonly)
 - [Refactoring](../refactoring-in-visual-studio.md)
 - [Preview Changes](../../ide/preview-changes.md)
