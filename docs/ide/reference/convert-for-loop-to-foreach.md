@@ -14,11 +14,13 @@ ms.workload:
 ---
 # Refactoring to convert between a for loop and a foreach statement
 
-These refactorings apply to:
-
-- C#
+This article describes the refactorings that convert between two looping structures. It includes some reasons why you might want to switch between a [for](/dotnet/csharp/language-reference/keywords/for) loop and a [foreach](/dotnet/csharp/language-reference/keywords/foreach-in) statement in your code.
 
 ## Convert a for loop to a foreach statement
+
+This refactoring applies to:
+
+- C#
 
 If you have a [for](/dotnet/csharp/language-reference/keywords/for) loop in your code, you can use this refactoring to convert it to a [foreach](/dotnet/csharp/language-reference/keywords/foreach-in) statement.
 
@@ -42,7 +44,13 @@ Reasons you might want to convert a [for](/dotnet/csharp/language-reference/keyw
 
 ## Convert a foreach statement to a for loop
 
-If you have a [foreach](/dotnet/csharp/language-reference/keywords/foreach-in) statement in your code, you can use this refactoring to convert it to a [for](/dotnet/csharp/language-reference/keywords/for) loop.
+This refactoring applies to:
+
+- C#
+
+- Visual Basic
+
+If you have a [foreach (C#)](/dotnet/csharp/language-reference/keywords/foreach-in) or [For Each...Next (Visual Basic)](/dotnet/visual-basic/language-reference/statements/for-each-next-statement) statement in your code, you can use this refactoring to convert it to a [for](/dotnet/csharp/language-reference/keywords/for) loop.
 
 ### Why convert
 
@@ -54,7 +62,7 @@ Reasons you might want to convert a [foreach](/dotnet/csharp/language-reference/
 
 ### How to use it
 
-1. Place your cursor on the first line of the `foreach` statement.
+1. Place your cursor on the first line of the `foreach` or `For Each` statement.
 
 1. Press **Ctrl**+**.** or click the screwdriver ![Screwdriver icon](../media/screwdriver-icon.png) icon in the margin of the code file.
 
