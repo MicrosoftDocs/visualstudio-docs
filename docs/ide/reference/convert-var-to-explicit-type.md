@@ -14,7 +14,7 @@ ms.workload:
 ---
 # Refactoring to replace var with an explicit type
 
-Use this refactoring to replace [var](/dotnet/csharp/language-reference/keywords/var) with an explicit type.
+Use this refactoring to replace [var](/dotnet/csharp/language-reference/keywords/var) in a local variable declaration with an explicit type.
 
 This refactoring applies to:
 
@@ -22,7 +22,13 @@ This refactoring applies to:
 
 ## Why to use an explicit type
 
+Following are some reasons to declare a variable with an explicit type:
 
+- To improve the code's readability.
+
+- When you don't want to initialize the variable in the declaration.
+
+However, `var` must be used when a variable is initialized with an anonymous type and the properties of the object are accessed at a later point. For more information, see [Implicitly typed local variables (C#)](/dotnet/csharp/programming-guide/classes-and-structs/implicitly-typed-local-variables).
 
 ## How to use it
 
@@ -36,6 +42,6 @@ This refactoring applies to:
 
 ## See also
 
-- [var (C#)](/dotnet/csharp/language-reference/keywords/var)
+- [Implicitly typed variables (C#)](/dotnet/csharp/programming-guide/classes-and-structs/implicitly-typed-local-variables)
 - [Refactoring](../refactoring-in-visual-studio.md)
 - [Preview Changes](../../ide/preview-changes.md)
