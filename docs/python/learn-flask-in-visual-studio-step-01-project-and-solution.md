@@ -1,7 +1,7 @@
 ---
 title: Tutorial - Learn Flask in Visual Studio, step 1
 description: A walkthrough of Flask basics in the context of Visual Studio projects.
-ms.date: 05/02/2018
+ms.date: 05/15/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: tutorial
@@ -26,7 +26,7 @@ In this tutorial, you learn how to:
 > - Create a Flask app with one page and render that page using a template (step 2)
 > - Serve static files, add pages, and use template inheritance (step 3)
 > - Use the Flask Web Project template to create an app with multiple pages and responsive design (step 4)
-> - Use the Polls Flask Web Project template to TODO
+> - Use the Polls Flask Web Project template to create an polling app that uses a variety of storage options (Azure storage, MongoDB, or memory).
 
 Over the course of these steps you create a single Visual Studio solution that contains three separate projects. You create the project using different Flask project templates that are included with Visual Studio. By keeping the projects in the same solution, you can easily switch back and forth between different files for comparison.
 
@@ -151,7 +151,7 @@ Second, open a command window, navigate to the folder like `BasicProject` that c
 
 1. As noted earlier, the `requirements.txt` file specifies the Flask package dependency. The presence of this file is what invites you to create a virtual environment when first creating the project.
 
-1. The single `app.py` file contains three parts. First is an `import` statement for Flask, creating an instance of the `Flask` class, which is assigned to the variable `app`, and then assigning a `wsgi_app` variable (which is useful when deploying to a web host):
+1. The single `app.py` file contains three parts. First is an `import` statement for Flask, creating an instance of the `Flask` class, which is assigned to the variable `app`, and then assigning a `wsgi_app` variable (which is useful when deploying to a web host, but not used at present):
 
     ```python
     from flask import Flask

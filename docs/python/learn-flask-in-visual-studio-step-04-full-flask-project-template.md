@@ -1,7 +1,7 @@
 ---
 title: Tutorial - Learn Flask in Visual Studio, step 4
 description: A walkthrough of Flask basics in the context of Visual Studio projects, specifically the features provided by the Flask Web Project template.
-ms.date: 05/02/2018
+ms.date: 05/15/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: tutorial
@@ -56,15 +56,16 @@ In this step you now:
 
 ### Examine what the template creates
 
-At the broadest level, the "Flask Web Project" template creates the following structure:
+The "Flask Web Project" template creates the structure below. The contents are very similar to what you created in previous steps. The difference is that the "Flask Web Project" template contains more structure in the `static` folder because it includes jQuery and Bootstrap for responsive design. The template also adds a Contact page. Overall, if you've followed the previous steps in this tutorial, everything from the template should be familiar.
 
 - Files in the project root:
   - `runserver.py`, a script to run the app in a development server.
   - `requirements.txt` containing a dependency on Flask 0.x.
 - The `FlaskWeb` folder contains all the app files:
-  - `__init.py__` marks the app code as a Python module.
+  - `__init.py__` marks the app code as a Python module, creates the Flask object, and imports the app's views.
   - `views.py` contains the code to render pages.
-  - `static` is a folder that contains subfolders named `content` (CSS files), `fonts` (font files), and `scripts` (JavaScript files) for jQuery and Bootstrap.
+  - The `static` folder contains subfolders named `content` (CSS files), `fonts` (font files), and `scripts` (JavaScript files).
+  - The `templates` folder contains a `layout.html` base template along with `about.html`, `contact.html`, and `index.html` for specific pages that each extend `layout.html`.
 
 ### Question: Is it possible to share a virtual environment between Visual Studio projects?
 
@@ -153,7 +154,7 @@ The individual page templates, `about.html`, `contact.html`, and `index.html`, e
 ## Next steps
 
 > [!div class="nextstepaction"]
-> [Authenticate users in Flask](learn-django-in-visual-studio-step-05-django-authentication.md)
+> [The Polls Flask Web Project template](learn-flask-in-visual-studio-step-05-polls-flask-web-project.md)
 
 ## Going deeper
 
