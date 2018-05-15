@@ -64,6 +64,8 @@ You can use Visual C++ for Cross-Platform Mobile Development to edit, debug and 
   
 -   [Node.js](http://nodejs.org/)  
   
+     Install the latest Long Term Support (LTS) version 8.x of Node.js on your Mac. Note that other latest release versions may not support some modules used in vcremote and can cause vcremote installation to fail.
+  
 -   An updated version of npm  
   
      The version of npm that comes with Node.js may not be recent enough to install vcremote. To update npm, open the Terminal app on your Mac and enter the following command:  
