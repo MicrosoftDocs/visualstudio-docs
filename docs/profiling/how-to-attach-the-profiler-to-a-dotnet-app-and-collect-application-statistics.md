@@ -11,7 +11,7 @@ manager: douge
 ms.workload: 
   - "dotnet"
 ---
-# How to: Attach the Profiler to a .NET Framework Stand-Alone Application and Collect Application Statistics by Using the Command Line
+# How to: Attach the profiler to a .NET Framework stand-alone application and collect application statistics by using the command line
 This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to attach the profiler to a running .NET Framework stand-alone (client) application and collect performance statistics by using the sampling method.  
   
 > [!NOTE]
@@ -25,9 +25,9 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
   
  To end a profiling session, the profiler must no longer be attached to the application and the profiler must be explicitly shut down. In most cases, we recommend clearing the profiling environment variables at the end of a profiling session.  
   
-## Attaching the Profiler  
+## Attach the profiler  
   
-#### To attach the Profiler to a running .NET Framework application  
+#### To attach the profiler to a running .NET Framework application  
   
 1.  Open a Command Prompt window.  
   
@@ -75,9 +75,9 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
     |[/sys](../profiling/sys-vsperfcmd.md) [**:**`Interval`]|Changes the sampling event to system calls from the process to the operating system kernel (syscalls). If `Interval` is specified, sets the number of calls between samples. Default is 10.|  
     |[/counter](../profiling/counter.md) **:** `Config`|Changes the sampling event and interval to the processor performance counter and interval that are specified in `Config`.|  
   
-    -  
+     
   
-## Controlling Data Collection  
+## Control data collection  
  When the target application is running, you can control data collection by starting and stopping the writing of data to the profiler data file by using **VSPerfCmd.exe** options. Controlling data collection enables you to collect data for a specific part of program execution, such as starting or shutting down the application.  
   
 #### To start and stop data collection  
@@ -90,7 +90,7 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
     |[/processon](../profiling/processon-and-processoff.md) **:** `PID` [/processoff](../profiling/processon-and-processoff.md) **:** `PID`|Starts (**/processon**) or stops (**/processoff**) data collection for the process that is specified by the `PID`.|  
     |[/attach](../profiling/attach.md) **:**{`PID`&#124;`ProcName`} [/detach](../profiling/detach.md)[**:**{`PID`&#124;`ProcName`}]|**/attach** starts to collect data for the process that is specified by the `PID` or process name (ProcName). **/detach** stops data collection for the specified process or for all processes if a specific process is not specified.|  
   
-## Ending the Profiling Session  
+## End the profiling session  
  To end a profiling session, the profiler must be detached from all profiled processes and the profiler must be explicitly shut down. You can detach the profiler from an application that was profiled by using the sampling method by closing the application or by calling the **VSPerfCmd /detach** option. You then call the **VSPerfCmd /shutdown** option to turn the profiler off and close the profiling data file. The **VSPerfClrEnv /off** command clears the profiling environment variables.  
   
 #### To end a profiling session  
@@ -111,6 +111,6 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
   
      **VSPerfClrEnv /off**  
   
-## See Also  
+## See also  
  [Profiling Stand-Alone Applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
  [Sampling Method Data Views](../profiling/profiler-sampling-method-data-views.md)

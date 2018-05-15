@@ -38,8 +38,8 @@ VSPerfCmd.exe /Start:Sample /Output:TestApp.exe.vsp
 VSPerfCmd.exe /Launch:TestApp.exe /Args:"123, 'Hello World'"  
 ```  
   
-## See Also  
+## See also  
  [VSPerfCmd](../profiling/vsperfcmd.md)   
- [Profiling Stand-Alone Applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
- [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
- [Profiling Services](../profiling/command-line-profiling-of-services.md)
+ [Profiling stand-alone applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
+ [Profiling ASP.NET web applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
+ [Profiling services](../profiling/command-line-profiling-of-services.md)

@@ -18,7 +18,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Call Tree View
+# Call Tree view
 The Call Tree view displays the function execution paths that were traversed in the profiled application. The root of the tree is the entry point into the application or the component. Each function node lists all the functions it called and performance data about those function calls.  
   
  The Call Tree view can also expand and highlight the execution path of a function that consumed the most time or was sampled most frequently. To display the most performance-expensive path, right-click the function and then click **Expand Hot Path**.  
@@ -29,22 +29,22 @@ The Call Tree view displays the function execution paths that were traversed in 
   
  The Call Tree view can be customized to add or remove columns. Right-click the **Column Name Title Bar**, and then select **Add/Remove Columns**.  
   
- The Call Tree view can be configured for noise reduction by limiting the amount of data that is presented. By using noise reduction, performance problems are more prominent in the view. When performance problems are easy to distinguish, analysis is easier. For more information, see [How to: Configure Noise Reduction in Report Views](../profiling/how-to-configure-noise-reduction-in-report-views.md).  
+ The Call Tree view can be configured for noise reduction by limiting the amount of data that is presented. By using noise reduction, performance problems are more prominent in the view. When performance problems are easy to distinguish, analysis is easier. For more information, see [How to: Configure noise reduction in report views](../profiling/how-to-configure-noise-reduction-in-report-views.md).  
   
 > [!NOTE]
 >  If noise reduction is configured to display a warning when it is enabled, an information bar will be displayed in the report.  
   
  For more information about definitions for columns in the Call Tree view, see the following:  
   
- [Call Tree View](../profiling/call-tree-view-sampling-data.md)  
+ [Call Tree view](../profiling/call-tree-view-sampling-data.md)  
   
- [Call Tree View](../profiling/call-tree-view-instrumentation-data.md)  
+ [Call Tree view](../profiling/call-tree-view-instrumentation-data.md)  
   
- [Call Tree View - Sampling](../profiling/call-tree-view-dotnet-memory-sampling-data.md)  
+ [Call Tree view - sampling](../profiling/call-tree-view-dotnet-memory-sampling-data.md)  
   
- [Call Tree View](../profiling/call-tree-view-contention-data.md)  
+ [Call Tree view](../profiling/call-tree-view-contention-data.md)  
   
-## See Also  
- [Performance Report Views](../profiling/performance-report-views.md)   
- [Understanding Instrumentation Data Values](../profiling/understanding-instrumentation-data-values.md)   
- [Understanding Sampling Data Values](../profiling/understanding-sampling-data-values.md)
+## See also  
+ [Performance report views](../profiling/performance-report-views.md)   
+ [Understanding instrumentation data values](../profiling/understanding-instrumentation-data-values.md)   
+ [Understanding sampling data values](../profiling/understanding-sampling-data-values.md)
