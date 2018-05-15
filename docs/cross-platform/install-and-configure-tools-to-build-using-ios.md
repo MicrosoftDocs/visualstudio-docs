@@ -85,7 +85,7 @@ You can use Visual C++ for Cross-Platform Mobile Development to edit, debug and 
   
      The global installation (**-g**) switch is recommended but not required.  
   
-     During the installation, vcremote is installed and developer mode is activated on your Mac. [Homebrew](http://brew.sh/) and two npm packages, vcremote-lib and vcremote-utils, are also installed. When installation completes, it is safe to ignore any warnings that state skipping optional dependencies.  
+     During the installation, vcremote is installed and developer mode is activated on your Mac. [Homebrew](http://brew.sh/) and two npm packages, vcremote-lib and vcremote-utils, are also installed. When installation completes, it's safe to ignore any warnings about skipped optional dependencies.  
   
     > [!NOTE]
     >  To install Homebrew, you must have sudo (administrator) access. If you need to install vcremote without sudo, you can install Homebrew manually in a usr/local location and add its bin folder to your path. For more information, see the [Homebrew documentation](https://github.com/Homebrew/homebrew/wiki/Installation). To manually enable developer mode, enter this command in the Terminal app: `DevToolsSecurity -enable`  
