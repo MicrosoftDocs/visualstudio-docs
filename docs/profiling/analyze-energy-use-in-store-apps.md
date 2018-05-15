@@ -62,7 +62,7 @@ The Visual Studio **Energy Consumption** profiler helps you analyze the power an
   
  To add user marks add the following code at the points in your code that you want to mark:  
   
-```  
+```JavaScript  
 if (performance && performance.mark) {  
     performance.mark(markDescription);  
 }  

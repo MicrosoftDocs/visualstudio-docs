@@ -23,7 +23,7 @@ VSPerfReport command line tool is used to create reports using  [!INCLUDE[vsprvs
   
  VSPerfReport uses the following syntax:  
   
-```  
+```cmd  
 VSPerfReport [/U] vspfilename [/options]  
 ```  
   
@@ -31,7 +31,7 @@ VSPerfReport [/U] vspfilename [/options]
   
  The VSPerfReport command line tool is also used to compare .vsp or .vsps files. To generate a difference ("diff") report, use the following syntax:  
   
-```  
+```cmd  
 VSPerfReport [/U] /diff vspfilename1 vspfilename2 [/options]  
 ```  
   
