@@ -48,7 +48,7 @@ You can add elements—controls, layouts, and shapes—to your app in XAML, in c
 
         -   **Send to Back** to send the element all the way to the back of the order.
 
-     Change the **ZIndex** property in the **Layout** section in the Properties window. For overlapping elements, the **ZIndex** property takes precedence over the order of elements shown in the Document Outline window. An element that has a lower **ZIndex** value appears in front when elements overlap.
+     Change the **ZIndex** property in the **Layout** section in the Properties window. For overlapping elements, the **ZIndex** property takes precedence over the order of elements shown in the Document Outline window. An element that has a higher **ZIndex** value appears in front when elements overlap.
 
 ## Changing the alignment of an element
  You can align elements in the artboard by using menu commands or by dragging elements to snaplines.
