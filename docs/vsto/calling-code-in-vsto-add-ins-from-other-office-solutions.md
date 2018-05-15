@@ -22,7 +22,7 @@ ms.workload:
   - "office"
 ---
 # Call code in VSTO Add-ins from other Office solutions
-  You can expose an object in your VSTO Add-in to other solutions, including other Microsoft Office solutions. This is useful if your VSTO Add-in provides a service that you want to enable other solutions to use. For example, if you have a VSTO Add-in for Microsoft Office Excel that performs calculations on financial data from a Web service, other solutions can perform these calculations by calling into the Excel VSTO Add-in at run time.  
+  You can expose an object in your VSTO Add-in to other solutions, including other Microsoft Office solutions. This is useful if your VSTO Add-in provides a service that you want to enable other solutions to use. For example, if you have a VSTO Add-in for Microsoft Office Excel that performs calculations on financial data from a Web service, other solutions can perform these calculations by calling into the Excel VSTO Add-in at runtime.  
   
  [!INCLUDE[appliesto_allapp](../vsto/includes/appliesto-allapp-md.md)]  
   
@@ -32,7 +32,7 @@ ms.workload:
   
 -   In another solution, access the object exposed by your VSTO Add-in, and call members of the object.  
   
-## Types of solutions that can call code in an Add-in  
+## Types of solutions that can call code in an add-in  
  You can expose an object in a VSTO Add-in to the following types of solutions:  
   
 -   Visual Basic for Applications (VBA) code in a document that is loaded in the same application process as your VSTO Add-in.  
@@ -65,7 +65,7 @@ ms.workload:
   
 4.  Apply the <xref:System.Runtime.InteropServices.ClassInterfaceAttribute> attribute to your class, and set this attribute to the **None** value of the <xref:System.Runtime.InteropServices.ClassInterfaceType> enumeration.  
   
-5.  If you want to expose the class to out-of-process clients, you might also need to do the following:  
+5.  If you want to expose this class to out-of-process clients, you might also need to do the following:  
   
     -   Derive the class from <xref:System.Runtime.InteropServices.StandardOleMarshalObject>. For more information, see [Expose classes to out-of-process clients](#outofproc).  
   
@@ -84,12 +84,12 @@ ms.workload:
 ###  <a name="outofproc"></a> Expose classes to out-of-process clients  
  If you want to expose a class in your VSTO Add-in to out-of-process clients, you should derive the class from <xref:System.Runtime.InteropServices.StandardOleMarshalObject> to ensure that out-of-process clients can call your exposed VSTO Add-in object. Otherwise, attempts to get an instance of your exposed object in an out-of-process client might fail unexpectedly.  
   
- This is because all calls into the object model of an Office application must be made on the main UI thread, but calls from an out-of-process client to your object will arrive on an arbitrary RPC (remote procedure call) thread. The COM marshaling mechanism in the .NET Framework will not switch threads, and it will instead attempt to marshal the call to your object on the incoming RPC thread instead of the main UI thread. If your object is an instance of a class that derives from <xref:System.Runtime.InteropServices.StandardOleMarshalObject>, incoming calls to your object are automatically marshaled to the thread where the exposed object was created, which will be the main UI thread of the host application.  
+ This failure is because all calls into the object model of an Office application must be made on the main UI thread, but calls from an out-of-process client to your object will arrive on an arbitrary RPC (remote procedure call) thread. The COM marshaling mechanism in the .NET Framework will not switch threads, and it will instead attempt to marshal the call to your object on the incoming RPC thread instead of the main UI thread. If your object is an instance of a class that derives from <xref:System.Runtime.InteropServices.StandardOleMarshalObject>, incoming calls to your object are automatically marshaled to the thread where the exposed object was created, which will be the main UI thread of the host application.  
   
  For more information about using threads in Office solutions, see [Threading support in Office](../vsto/threading-support-in-office.md).  
   
 ### Override the RequestComAddInAutomationService method  
- The following code example demonstrates how to override <xref:Microsoft.Office.Tools.AddInBase.RequestComAddInAutomationService%2A> in the `ThisAddIn` class in your VSTO Add-in. This example assumes that you have defined a class named `AddInUtilities` that you want to expose to other solutions. To see this code in the context of a larger walkthrough, see [Walkthrough: Call code in a VSTO Add-in from VBA](../vsto/walkthrough-calling-code-in-a-vsto-add-in-from-vba.md).  
+ The following code example demonstrates how to override <xref:Microsoft.Office.Tools.AddInBase.RequestComAddInAutomationService%2A> in the `ThisAddIn` class in your VSTO Add-in. The example assumes that you have defined a class named `AddInUtilities` that you want to expose to other solutions. To see this code in the context of a larger walkthrough, see [Walkthrough: Call code in a VSTO Add-in from VBA](../vsto/walkthrough-calling-code-in-a-vsto-add-in-from-vba.md).  
   
  [!code-csharp[Trin_AddInInteropWalkthrough#1](../vsto/codesnippet/CSharp/Trin_AddInInteropWalkthrough/ThisAddIn.cs#1)]
  [!code-vb[Trin_AddInInteropWalkthrough#1](../vsto/codesnippet/VisualBasic/Trin_AddInInteropWalkthrough/ThisAddIn.vb#1)]  
@@ -110,7 +110,7 @@ ms.workload:
 ### Access objects from VBA solutions  
  The following code example demonstrates how to use VBA to call a method that is exposed by a VSTO Add-in. This VBA macro calls a method named `ImportData` that is defined in a VSTO Add-in that is named **ExcelImportData**. To see this code in the context of a larger walkthrough, see [Walkthrough: Call code in a VSTO Add-in from VBA](../vsto/walkthrough-calling-code-in-a-vsto-add-in-from-vba.md).  
   
-```  
+```vb
 Sub CallVSTOMethod()  
     Dim addIn As COMAddIn  
     Dim automationObject As Object  
