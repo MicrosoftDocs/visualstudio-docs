@@ -13,7 +13,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Adding tier interaction data from the command line
+# Add tier interaction data from the command line
 
 Tier interaction profiling provides additional information about the execution times of synchronous [!INCLUDE[vstecado](../data-tools/includes/vstecado_md.md)] calls in functions of multi-tiered applications that communicate with one or more databases.
 
@@ -25,7 +25,7 @@ To collect tier interaction data on Windows 8 desktop apps and Windows Server 20
 
 Tier interaction profiling can be collected using any edition of Visual Studio. However, tier interaction profiling data can be viewed only in Visual Studio Enterprise.
 
-**Collecting TIP data on a remote machine**
+**Collect TIP data on a remote machine**
 
 To collect tier interaction data on a remote machine, you must copy the **vs_profiler_***\<Platform>***_***\<Language>***.exe** file from the *%VSInstallDir%***\Team Tools\Performance Tools\Setups** folder of a Visual Studio machine to the remote computer and install it. You cannot use the profiling tools in the [Remote Debugging](../debugger/remote-debugging.md) download package.
 
@@ -33,17 +33,17 @@ To collect tier interaction data on a remote machine, you must copy the **vs_pro
 
 Tier interaction data can only be viewed in Visual Studio Enterprise. File based tier interaction reports through [VSPerfReport](../profiling/vsperfreport.md) are not available.
 
-## Adding tier interaction data with VSPerfCmd
+## Add tier interaction data with VSPerfCmd
 
 The VSPerfASPNETCmd command line tool lets you access the complete functionality available in the Profiling Tools. To add tier interaction to profiling data collected by using VSPerfCmd, you must use the **VSPerfCLREnv** utility to set and remove the environment variables that enables tier interaction data. The options that you specify and the procedures required to collect data depend on the type of application that you are profiling.
 
-## Profiling stand-alone applications
+## Profile stand-alone applications
 
 To add tier interaction data to an application that is not run by another process, such as a Windows desktop application that makes synchronous [!INCLUDE[vstecado](../data-tools/includes/vstecado_md.md)] calls to a SQLServer database, use the **VSPerfClrEnv /InteractionOn** option to set the environment variables, and the **VSPerfClrEnv /InteractionOff** option to remove them.
 
 In the following example, a Windows desktop application is profiled by using the instrumentation method and tier interaction data is collected.
 
-### Profiling a Windows desktop application example
+### Profile a Windows desktop application example
 
 1. Open a command prompt window with Administrator privileges. Click **Start**, point to **All Programs**, and then point to **Accessories**. Right-click **Command Prompt**, and then click **Run As Administrator**.
 
@@ -74,9 +74,9 @@ In the following example, a Windows desktop application is profiled by using the
     vsperfclrenv /off
     ```
 
-For more information, see [Profiling Stand-Alone Applications](../profiling/command-line-profiling-of-stand-alone-applications.md).
+For more information, see [Profiling stand-alone applications](../profiling/command-line-profiling-of-stand-alone-applications.md).
 
-## Profiling services
+## Profile services
 
 To profile services, including [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] applications, use the **VSPerfClrEnv /GlobalInteractionOn** option to set the environment variables, and the **VSPerfClrEnv /GlobalInteractionOff** option to remove them.
 
@@ -84,7 +84,7 @@ When you are profiling services, including [!INCLUDE[vstecasp](../code-quality/i
 
 In the following example, a Windows service is profiled by using the instrumentation method and tier interaction data is collected.
 
-### Profiling a Windows service example
+### Profile a Windows service example
 
 1. If necessary, install the service.
 
@@ -96,7 +96,7 @@ In the following example, a Windows service is profiled by using the instrumenta
     vsperfclrenv /globaltraceon
     ```
 
-4. Initialize the TIP environment variables. Type the following command
+4. Initialize the TIP environment variables. Type the following command:
 
     ```cmd
     vsperfclrenv /globalinteractionon
@@ -140,7 +140,7 @@ For more information, see one of the following topics:
 
 [Profiling Services](../profiling/command-line-profiling-of-services.md)
 
-## Adding tier interaction data with VSPerfASPNETCmd
+## Add tier interaction data with VSPerfASPNETCmd
 
 The VSPerfASPNETCmd command-line tool enables you to easily profile [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web applications. Compared with the **VSPerfCmd** command-line tool, options are reduced, no environment variables have to be set, and rebooting the computer is not required. These features of VSPerfASPNETCmd make the collection of tier interaction data exceptionally easy.
 
