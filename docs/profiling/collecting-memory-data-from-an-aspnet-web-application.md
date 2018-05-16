@@ -34,16 +34,16 @@ This section describes the procedures and options for collecting memory allocati
   
 |Task|Related Content|  
 |----------|---------------------|  
-|**Profile by using the sampling method**|-   [Collecting Application Statistics Using Sampling](../profiling/collecting-application-statistics-for-aspnet-using-the-profiler-sampling-method.md)|  
-|**Profile by using the instrumentation method**|-   [Collecting Detailed Timing Data Using Instrumentation](../profiling/collecting-detailed-timing-data-aspnet-profiler-instrumentation-method.md)|  
-|**Profile resource contention and thread activity**|-   [Collecting Concurrency Data](../profiling/collecting-concurrency-data-for-an-aspnet-web-application.md)|  
+|**Profile by using the sampling method**|-   [Collect application statistics using sampling](../profiling/collecting-application-statistics-for-aspnet-using-the-profiler-sampling-method.md)|  
+|**Profile by using the instrumentation method**|-   [Collect detailed timing data using instrumentation](../profiling/collecting-detailed-timing-data-aspnet-profiler-instrumentation-method.md)|  
+|**Profile resource contention and thread activity**|-   [Collect concurrency data](../profiling/collecting-concurrency-data-for-an-aspnet-web-application.md)|  
   
 ### Profiling .NET Framework Memory Data  
   
 |Task|Related Content|  
 |----------|---------------------|  
 |**Profile stand-alone (client) applications**|-   [Collecting .NET Framework Memory Data](../profiling/collecting-dotnet-framework-memory-data-for-stand-alone-applications.md)|  
-|**Profile services**|-   [Collecting .NET Memory Data](../profiling/collecting-memory-data-from-dotnet-framework-services-by-using-the-profiler-command-line.md)|  
+|**Profile services**|-   [Collect .NET memory data](../profiling/collecting-memory-data-from-dotnet-framework-services-by-using-the-profiler-command-line.md)|  
   
 ### Analyzing .NET Memory Data Views and Reports  
  [.NET Memory Data Views](../profiling/dotnet-memory-data-views.md)  

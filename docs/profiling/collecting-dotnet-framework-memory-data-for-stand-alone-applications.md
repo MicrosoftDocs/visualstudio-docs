@@ -29,9 +29,9 @@ This section describes the procedures and options for collecting memory allocati
   
 |Task|Related content|  
 |----------|---------------------|  
-|**Profile by using the sampling method**|-   [Collecting Application Statistics Using Sampling](../profiling/collecting-application-statistics-for-stand-alone-applications.md)|  
-|**Profile by using the instrumentation method**|-   [Collecting Detailed Timing Data Using Instrumentation](../profiling/collecting-detailed-timing-data-for-a-stand-alone-application.md)|  
-|**Profile resource contention and thread activity**|-   [Collecting Concurrency Data](../profiling/collecting-concurrency-data-for-stand-alone-applications.md)|  
+|**Profile by using the sampling method**|-   [Collect application statistics using sampling](../profiling/collecting-application-statistics-for-stand-alone-applications.md)|  
+|**Profile by using the instrumentation method**|-   [Collect detailed timing data using instrumentation](../profiling/collecting-detailed-timing-data-for-a-stand-alone-application.md)|  
+|**Profile resource contention and thread activity**|-   [Collect concurrency data](../profiling/collecting-concurrency-data-for-stand-alone-applications.md)|  
 |**Adding tier-interaction data**|-   [Collecting tier interaction data](../profiling/adding-tier-interaction-data-from-the-command-line.md)|  
   
 ### Profiling .NET Memory Data  
@@ -39,7 +39,7 @@ This section describes the procedures and options for collecting memory allocati
 |Task|Related content|  
 |----------|---------------------|  
 |**Profiling ASP.NET applications**|-   [Collecting Memory Data](../profiling/collecting-memory-data-from-an-aspnet-web-application.md)|  
-|**Profiling services**|-   [Collecting .NET Memory Data](../profiling/collecting-memory-data-from-dotnet-framework-services-by-using-the-profiler-command-line.md)|  
+|**Profiling services**|-   [Collect .NET memory data](../profiling/collecting-memory-data-from-dotnet-framework-services-by-using-the-profiler-command-line.md)|  
   
 ### Analyzing .NET Memory Data Views and Reports  
  [.NET Memory Data Views](../profiling/dotnet-memory-data-views.md)  

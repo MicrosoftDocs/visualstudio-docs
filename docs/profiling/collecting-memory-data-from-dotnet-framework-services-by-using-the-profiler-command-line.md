@@ -28,9 +28,9 @@ This section describes the procedures and options for collecting memory allocati
   
 |Task|Related Content|  
 |----------|---------------------|  
-|**Profile by using the sampling method**|-   [Collecting Application Statistics Using Sampling](../profiling/collecting-application-statistics-for-services-by-using-the-profiler-sampling-method.md)|  
-|**Profile by using the instrumentation method**|-   [Collecting Detailed Timing Data Using Instrumentation](../profiling/collecting-detailed-timing-data-for-services-by-using-the-instrumentation-method.md)|  
-|**Profile resource contention and thread activity**|-   [Collecting Concurrency Data](../profiling/collecting-concurrency-data-for-a-service-by-using-the-profiler-command-line.md)|  
+|**Profile by using the sampling method**|-   [Collect application statistics using sampling](../profiling/collecting-application-statistics-for-services-by-using-the-profiler-sampling-method.md)|  
+|**Profile by using the instrumentation method**|-   [Collect detailed timing data using instrumentation](../profiling/collecting-detailed-timing-data-for-services-by-using-the-instrumentation-method.md)|  
+|**Profile resource contention and thread activity**|-   [Collect concurrency data](../profiling/collecting-concurrency-data-for-a-service-by-using-the-profiler-command-line.md)|  
   
 ### Profiling .NET Framework Memory Data  
   

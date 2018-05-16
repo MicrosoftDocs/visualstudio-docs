@@ -18,9 +18,9 @@ This section describes the procedures and options for collecting detailed perfor
   
 |Task|Related Content|  
 |----------|---------------------|  
-|**Profile a .NET service**|-   [How to: Instrument a .NET Service and Collect Detailed Timing Data](../profiling/how-to-instrument-a-dotnet-service-and-collect-detailed-timing-data-by-using-the-profiler-command-line.md)|  
+|**Profile a .NET service**|-   [How to: Instrument a .NET service and collect detailed timing data](../profiling/how-to-instrument-a-dotnet-service-and-collect-detailed-timing-data-by-using-the-profiler-command-line.md)|  
 |**Add tier-interaction data**|-   [Collecting tier interaction data](../profiling/adding-tier-interaction-data-from-the-command-line.md)|  
-|**Profile a C/C++ service**|-   [How to: Instrument a Native Service and Collect Detailed Timing Data](../profiling/how-to-instrument-a-native-service-and-collect-detailed-timing-data-by-using-the-profiler-command-line.md)|  
+|**Profile a C/C++ service**|-   [How to: Instrument a native service and collect detailed timing data](../profiling/how-to-instrument-a-native-service-and-collect-detailed-timing-data-by-using-the-profiler-command-line.md)|  
   
 ## Related Tasks  
   
@@ -28,16 +28,16 @@ This section describes the procedures and options for collecting detailed perfor
   
 |Task|Related Content|  
 |----------|---------------------|  
-|**Profile by using the sampling method**|-   [Collecting Application Statistics Using Sampling](../profiling/collecting-application-statistics-for-services-by-using-the-profiler-sampling-method.md)|  
-|**Profile.NET memory allocation and garbage collection**|-   [Collecting .NET Memory Data](../profiling/collecting-memory-data-from-dotnet-framework-services-by-using-the-profiler-command-line.md)|  
-|**Profile resource contention and thread activity**|-   [Collecting Concurrency Data](../profiling/collecting-concurrency-data-for-a-service-by-using-the-profiler-command-line.md)|  
+|**Profile by using the sampling method**|-   [Collect application statistics using sampling](../profiling/collecting-application-statistics-for-services-by-using-the-profiler-sampling-method.md)|  
+|**Profile.NET memory allocation and garbage collection**|-   [Collect .NET memory data](../profiling/collecting-memory-data-from-dotnet-framework-services-by-using-the-profiler-command-line.md)|  
+|**Profile resource contention and thread activity**|-   [Collect concurrency data](../profiling/collecting-concurrency-data-for-a-service-by-using-the-profiler-command-line.md)|  
   
 ### Profiling by Using the Instrumentation Method  
   
 |Task|Related Content|  
 |----------|---------------------|  
-|**Profile stand-alone (client) applications**|-   [Collecting Detailed Timing Data Using Instrumentation](../profiling/collecting-detailed-timing-data-for-a-stand-alone-application.md)|  
-|**Profile ASP.NET Web applications**|-   [Collecting Detailed Timing Data Using Instrumentation](../profiling/collecting-detailed-timing-data-aspnet-profiler-instrumentation-method.md)|  
+|**Profile stand-alone (client) applications**|-   [Collect detailed timing data using instrumentation](../profiling/collecting-detailed-timing-data-for-a-stand-alone-application.md)|  
+|**Profile ASP.NET Web applications**|-   [Collect detailed timing data using instrumentation](../profiling/collecting-detailed-timing-data-aspnet-profiler-instrumentation-method.md)|  
   
-### Analyzing Instrumentation Data Views and Reports  
+### Analyze instrumentation data views and reports  
  [Instrumentation Method Data Views](../profiling/instrumentation-method-data-views.md)

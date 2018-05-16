@@ -1,5 +1,5 @@
 ---
-title: "Collecting Concurrency Data for an ASP.NET Web Application Using the Profiler Command Line | Microsoft Docs"
+title: "Collect concurrency data for an ASP.NET Web Application Using the Profiler Command Line | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: "vs-ide-debug"
@@ -14,7 +14,7 @@ manager: douge
 ms.workload: 
   - "aspnet"
 ---
-# Collecting Concurrency Data for an ASP.NET Web Application Using the Profiler Command Line
+# Collect concurrency data for an ASP.NET Web Application Using the Profiler Command Line
 The concurrency method of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools enables you to collect resource contention data.  
   
 ## Common Tasks  
@@ -32,16 +32,16 @@ The concurrency method of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.m
   
 |Task|Related Content|  
 |----------|---------------------|  
-|**Profile by using the sampling method**|-   [Collecting Application Statistics Using Sampling](../profiling/collecting-application-statistics-for-aspnet-using-the-profiler-sampling-method.md)|  
-|**Profile by using the instrumentation method**|-   [Collecting Detailed Timing Data Using Instrumentation](../profiling/collecting-detailed-timing-data-aspnet-profiler-instrumentation-method.md)|  
+|**Profile by using the sampling method**|-   [Collect application statistics using sampling](../profiling/collecting-application-statistics-for-aspnet-using-the-profiler-sampling-method.md)|  
+|**Profile by using the instrumentation method**|-   [Collect detailed timing data using instrumentation](../profiling/collecting-detailed-timing-data-aspnet-profiler-instrumentation-method.md)|  
 |**Profile memory allocation and garbage collection**|-   [Collecting Memory Data](../profiling/collecting-memory-data-from-an-aspnet-web-application.md)|  
   
 ### Profiling Concurrency Issues  
   
 |Task|Related Content|  
 |----------|---------------------|  
-|**Profile stand-alone (client) applications**|-   [Collecting Concurrency Data](../profiling/collecting-concurrency-data-for-stand-alone-applications.md)|  
-|**Profile services**|-   [Collecting Concurrency Data](../profiling/collecting-concurrency-data-for-a-service-by-using-the-profiler-command-line.md)|  
+|**Profile stand-alone (client) applications**|-   [Collect concurrency data](../profiling/collecting-concurrency-data-for-stand-alone-applications.md)|  
+|**Profile services**|-   [Collect concurrency data](../profiling/collecting-concurrency-data-for-a-service-by-using-the-profiler-command-line.md)|  
   
 ### Analyzing Concurrency Data Views and Reports  
  [Resource Contention Data Views](../profiling/resource-contention-data-views.md)  
