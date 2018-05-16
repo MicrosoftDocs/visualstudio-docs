@@ -98,7 +98,7 @@ ms.workload:
   
  Most of the form region factory class is implemented in the form region designer file. However, the `FormRegionInitializing` event handler is exposed in the form region code file. You can use this event handler to specify whether Outlook should display the form region. For more information, see [Handle form region events](#HandlingFormRegionEvents).  
   
-###  <a name="AddingExistingFormRegion"></a> Adding an Existing Form Region to Your Project  
+###  <a name="AddingExistingFormRegion"></a> Add an existing form region to your project  
  If you have an Outlook form region that you used in another Outlook project, you can reuse it in your current Outlook VSTO Add-in project by using the **Add Existing Item** dialog box.  
   
  The existing form region must have a code file (*.vb* or *.cs*); you cannot add Outlook Form Storage (*.ofs*) files by using the **Add Existing Item** dialog box. However, you can create a new form region by importing an Outlook Form Storage file. For more information, see [How to: Add a form region to an Outlook Add-in project](../vsto/how-to-add-a-form-region-to-an-outlook-add-in-project.md).  

@@ -24,7 +24,7 @@ ms.workload:
  [Walkthrough: Simple data binding in a document-level project](../vsto/walkthrough-simple-data-binding-in-a-document-level-project.md)  
  Demonstrates how to bind a single data field in a SQL Server database to a <xref:Microsoft.Office.Tools.Excel.NamedRange> in a document-level customization for Excel.  
   
- [Walkthrough: Complex data binding in a document-Level project](../vsto/walkthrough-complex-data-binding-in-a-document-level-project.md)  
+ [Walkthrough: Complex data binding in a document-level project](../vsto/walkthrough-complex-data-binding-in-a-document-level-project.md)  
  Demonstrates how to bind a table in a SQL Server database to a <xref:Microsoft.Office.Tools.Excel.ListObject> in a document-level customization for Excel.  
   
  [Walkthrough: Simple data binding in VSTO Add-in project](../vsto/walkthrough-simple-data-binding-in-vsto-add-in-project.md)  

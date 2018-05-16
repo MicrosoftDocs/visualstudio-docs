@@ -20,7 +20,7 @@ ms.workload:
  The Office developer tools provide features that help you create Office solutions to suit a variety of business needs. The tools include project templates to help you create Office solutions by using Visual Basic or Visual C#, and visual designers that help you create custom user interfaces for your Office solutions.  
   
 > [!NOTE]  
->  Interested in developing solutions that extend the Office experience across [multiple platforms](https://dev.office.com/add-in-availability)? Check out the new [Office Add-ins model](https://dev.office.com/docs/add-ins/overview/office-add-ins). Office Add-ins have a small footprint compared to VSTO add-ins and solutions, and you can build them by using almost any web programming technology, such as HTML5, JavaScript, CSS3, and XML.  
+>  Interested in developing solutions that extend the Office experience across [multiple platforms](https://dev.office.com/add-in-availability)? Check out the new [Office Add-ins model](https://dev.office.com/docs/add-ins/overview/office-add-ins). Office Add-ins have a small footprint compared to VSTO Add-ins and solutions, and you can build them by using almost any web programming technology, such as HTML5, JavaScript, CSS3, and XML.  
   
  For the latest information about Office development, see the following development centers on MSDN:  
   
@@ -97,13 +97,13 @@ ms.workload:
  Provides additional Visual Studio resources such as technical articles, videos, and blogs.  
   
  [Office business applications developer portal](http://go.microsoft.com/fwlink/?LinkId=99125)  
- Provides information about Office Business Applications (OBAs) and how to build them by using the Office system Platform.  
+ Provides information about Office Business Applications (OBAs) and how to build them by using the Office system platform.  
   
- [Microsoft Office development section of the MSDN Library](http://go.microsoft.com/fwlink/?LinkId=149870)  
- The area of the MSDN Library where you can find articles and reference documentation about developing solutions for several versions of Office (not specific to Office development using Visual Studio).  
+ [Microsoft Office development section of the MSDN library](http://go.microsoft.com/fwlink/?LinkId=149870)  
+ The area of the MSDN library where you can find articles and reference documentation about developing solutions for several versions of Office (not specific to Office development using Visual Studio).  
   
  [Application development in Visual Studio](http://msdn.microsoft.com/en-us/97490c1b-a247-41fb-8f2c-bc4c201eff68)  
- Contains links to topics that explain how you can use Visual Studio to design, develop, debug, and deploy Web applications, XML Web services, and traditional client applications.  
+ Contains links to topics that explain how you can use Visual Studio to design, develop, debug, and deploy web applications, XML web services, and traditional client applications.  
   
  [.NET Framework programming in Visual Studio](http://msdn.microsoft.com/en-us/f3f63195-82c6-48e8-a4a0-612810e7d093)  
  Discusses application development with the .NET Framework in Visual Basic and Visual C#.  

@@ -104,7 +104,6 @@ You can create a Windows Installer file by using InstallShield Limited Edition (
   
 ## <a name="Create"></a>Create a setup project  
   
-###   
 1. In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], open the Office project that you want to deploy.  
   
    The VSTO Add-in samples that are associated with this topic contain a project that's named **ExcelAddIn**. The document-level customization samples contain a project that's named **ExcelWorkbook**. This topic will refer to the Office project in your solution by using one of those two names.  
@@ -170,7 +169,6 @@ In your setup application, you must include not only the following components bu
   
 ### Add the .NET Framework 4 or the .NET Framework 4.5 as a prerequisite  
   
-####
 1. In **Solution Explorer**, expand the **OfficeAddInSetup** project node, expand the **Specify Application Data** node, and then choose the **Redistributables** file, which the following illustration shows.  
   
    ![The Redistributables file in Solution Explorer](../vsto/media/installshield-redistributablesfile.png "The Redistributables file in Solution Explorer")  
@@ -190,7 +188,7 @@ In your setup application, you must include not only the following components bu
 The **Redistributables** page contains an item that's named **Microsoft VSTO 2010 Runtime**, but it refers to an older version of the runtime. Therefore, you could manually create a configuration file that refers to the most recent version. You must then put that file into the same directory as the configuration files for all of the other items that appear in the **Redistributables** page.  
   
   
-#### To add the Visual Studio 2010 Tools for Office Runtime as a prerequisite  
+#### To add the Visual Studio 2010 Tools for Office runtime as a prerequisite  
   
 1. Open Notepad, and then paste the following XML into a text file.  
   
@@ -259,7 +257,6 @@ The **Redistributables** page contains an item that's named **Microsoft VSTO 201
   
 ## <a name="Location"></a>Specify where to install the solution on the user's computer  
   
-###   
 1. In **Solution Explorer**, expand the **OfficeAddInSetup** node, expand the **Organize your Setup** node, and then choose the **General Information** file.  
   
 2. On the menu bar, choose **View** > **Open**.  
@@ -503,7 +500,6 @@ To modify custom properties, you create a program that removes the document-leve
   
 ## <a name="Build"></a>Build the setup project  
   
-###   
 1. In **Solution Explorer**, expand the **Prepare for Release** node, and then choose the **Releases** file.  
   
 2. On the menu bar, choose **View** > **Open**.  

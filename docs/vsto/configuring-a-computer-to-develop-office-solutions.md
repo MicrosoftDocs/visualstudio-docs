@@ -26,7 +26,7 @@ To create VSTO Add-ins and customizations for Microsoft Office, install a suppor
 |.NET Framework|- The .NET Framework 4 or later.|
 |Microsoft Office|<ul><li>Any suite edition of Office including Office Professional Plus for Office 365.</li><li>Any of the following standalone applications:<br /><br /> <ul><li>Excel</li><li>InfoPath (Office 2013 and Office 2010 only)</li><li>Outlook</li><li>PowerPoint</li><li>Project</li><li>Visio</li><li>Word</li></ul></li></ul><br /> Visual Basic for Applications (VBA) must be installed as part of Office. **Important:** Click-to-Run versions of Office 2010 applications are not supported.|
 
-For detailed installation steps, see [How to: Configure a cmputer to develop Office solutions](../vsto/how-to-configure-a-computer-to-develop-office-solutions.md).
+For detailed installation steps, see [How to: Configure a computer to develop Office solutions](../vsto/how-to-configure-a-computer-to-develop-office-solutions.md).
 
 ## If project templates don't appear or they don't work in Visual Studio
 
@@ -47,7 +47,7 @@ If you continue to experience problems, see [Additional support for errors in Of
 ## See also
 
 [Get started &#40;Office development in Visual Studio&#41;](../vsto/getting-started-office-development-in-visual-studio.md)  
-[How to: Configure a Computer to develop Office solutions](../vsto/how-to-configure-a-computer-to-develop-office-solutions.md)  
+[How to: Configure a computer to develop Office solutions](../vsto/how-to-configure-a-computer-to-develop-office-solutions.md)  
 [How to: Install the Visual Studio Tools for Office runtime redistributable](../vsto/how-to-install-the-visual-studio-tools-for-office-runtime-redistributable.md)  
 [How to: Install Office primary interop assemblies](../vsto/how-to-install-office-primary-interop-assemblies.md)  
 [Features available by Office application and project type](../vsto/features-available-by-office-application-and-project-type.md)

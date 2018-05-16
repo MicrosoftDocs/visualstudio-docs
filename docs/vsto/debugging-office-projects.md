@@ -69,8 +69,8 @@ ms.workload:
 ## Debug cached datasets in a document-level project  
  Every time you build a project, the dataset is emptied and recreated. If you want to debug a cached dataset, you must open the document outside of Visual Studio and then attach the debugger.  
   
-## Debug Word document projects based on the Word 97-2003 Document (*.doc) Format  
- To debug a Word Document project based on Word 97-2003 Document (*/*.doc*) format, you must add the project folder to the trusted folder list. For more information on how to do this, see [Grant trust to documents](../vsto/granting-trust-to-documents.md)..  
+## Debug Word document projects based on the Word 97-2003 Document (*.doc) format  
+ To debug a Word Document project based on Word 97-2003 Document (*/*.doc*) format, you must add the project folder to the trusted folder list. For more information on how to do this, see [Grant trust to documents](../vsto/granting-trust-to-documents.md).  
   
 ## Debug disabled add-ins  
  Microsoft Office applications can disable VSTO Add-ins that behave unexpectedly. A Microsoft Office application disables VSTO Add-ins to prevent problematic code from loading every time that the application starts. However, it is also easy to cause unexpected behavior during typical debugging. For information about how to re-enable VSTO Add-ins, see [How to: Re-enable a VSTO Add-in that has been disabled](../vsto/how-to-re-enable-a-vsto-add-in-that-has-been-disabled.md).  
