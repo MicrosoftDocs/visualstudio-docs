@@ -135,7 +135,6 @@
 ###### [Implement interface](ide/reference/implement-interface.md)
 ###### [Introduce local variable](ide/reference/introduce-local-variable.md)
 ##### [Refactor code](ide/refactoring-in-visual-studio.md)
-###### [Add readonly modifier](ide/reference/add-readonly-modifier.md)
 ###### [Change method signature](ide/reference/change-method-signature.md)
 ###### [Convert between for loop and foreach statement](ide/reference/convert-for-loop-to-foreach.md)
 ###### [Convert between Get method and property](ide/reference/convert-get-method-to-property.md)
