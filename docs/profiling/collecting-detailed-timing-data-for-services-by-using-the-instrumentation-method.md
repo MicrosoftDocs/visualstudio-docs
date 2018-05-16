@@ -11,20 +11,20 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Collecting Detailed Timing Data for Services by Using the Instrumentation Method from the Profiler Command Line
+# Collect detailed timing data for services by using the instrumentation method from the profiler command line
 This section describes the procedures and options for collecting detailed performance data for Windows services using the instrumentation method from the command line.  
   
-## Common Tasks  
+## Common tasks
   
 |Task|Related Content|  
 |----------|---------------------|  
 |**Profile a .NET service**|-   [How to: Instrument a .NET service and collect detailed timing data](../profiling/how-to-instrument-a-dotnet-service-and-collect-detailed-timing-data-by-using-the-profiler-command-line.md)|  
-|**Add tier-interaction data**|-   [Collecting tier interaction data](../profiling/adding-tier-interaction-data-from-the-command-line.md)|  
+|**Add tier-interaction data**|-   [Collect tier interaction data](../profiling/adding-tier-interaction-data-from-the-command-line.md)|  
 |**Profile a C/C++ service**|-   [How to: Instrument a native service and collect detailed timing data](../profiling/how-to-instrument-a-native-service-and-collect-detailed-timing-data-by-using-the-profiler-command-line.md)|  
   
-## Related Tasks  
+## Related tasks
   
-### Profiling Windows Services  
+### Profile Windows services  
   
 |Task|Related Content|  
 |----------|---------------------|  
@@ -32,7 +32,7 @@ This section describes the procedures and options for collecting detailed perfor
 |**Profile.NET memory allocation and garbage collection**|-   [Collect .NET memory data](../profiling/collecting-memory-data-from-dotnet-framework-services-by-using-the-profiler-command-line.md)|  
 |**Profile resource contention and thread activity**|-   [Collect concurrency data](../profiling/collecting-concurrency-data-for-a-service-by-using-the-profiler-command-line.md)|  
   
-### Profiling by Using the Instrumentation Method  
+### Profile by using the instrumentation method  
   
 |Task|Related Content|  
 |----------|---------------------|  
@@ -40,4 +40,5 @@ This section describes the procedures and options for collecting detailed perfor
 |**Profile ASP.NET Web applications**|-   [Collect detailed timing data using instrumentation](../profiling/collecting-detailed-timing-data-aspnet-profiler-instrumentation-method.md)|  
   
 ### Analyze instrumentation data views and reports  
- [Instrumentation Method Data Views](../profiling/instrumentation-method-data-views.md)
+ [Instrumentation method data views](../profiling/instrumentation-method-data-views.md)
+

@@ -17,6 +17,7 @@ ms.workload:
 # Collect concurrency data for stand-alone applications by using the profiler command line
 The concurrency method of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools enables you to collect resource contention data and thread activity data that shows you CPU utilization, thread contention, thread migration, synchronization delays, areas of overlapped IO, and other system events.  
   
+
 ## Common tasks  
   
 |Task|Related content|  
@@ -26,7 +27,7 @@ The concurrency method of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.m
 |**Attach the profiler to a running .NET Framework application**|-   [How to: Attach the profiler to a .NET Framework application to collect concurrency data](../profiling/how-to-attach-the-profiler-to-a-dotnet-app-and-collect-concurrency-data.md)|  
 |**Attach the profiler to a running C/C++ application**|-   [How to: Attach the profiler to a native application and collect concurrency data](../profiling/how-to-attach-the-profiler-to-a-native-stand-alone-application-and-collect-concurrency-data-by-using-the-command-line.md)|  
   
-## Related tasks  
+## Related tasks
   
 ### Profile stand-alone applications  
   

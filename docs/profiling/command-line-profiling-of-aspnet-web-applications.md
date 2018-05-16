@@ -18,9 +18,9 @@ ms.workload:
 This section describes the procedures and options for collecting performance data for [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web applications by using [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools from the command line.  
   
 > [!NOTE]
->  Enhanced security features in Windows 8 and Windows Server 2012 required significant changes in the way the Visual Studio profiler collects data on these platforms. UWP apps also require new collection techniques. See [Performance Tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md).  
+>  Enhanced security features in Windows 8 and Windows Server 2012 required significant changes in the way the Visual Studio profiler collects data on these platforms. UWP apps also require new collection techniques. See [Performance tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md).  
   
-## Common tasks  
+## Common tasks
   
 |Task|Related Content|  
 |----------|---------------------|  
@@ -31,7 +31,8 @@ This section describes the procedures and options for collecting performance dat
 |**Collect concurrency data:** Use the concurrency method to collect resource contention data. **Note:**  Collecting thread activity and visualization data is not supported for Web applications.|-   [Collect concurrency data](../profiling/collecting-concurrency-data-for-an-aspnet-web-application.md)|  
 |**Add tier interaction data:** You can add performance data about synchronous [!INCLUDE[vstecado](../data-tools/includes/vstecado_md.md)] calls that the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application makes to a Microsoft [!INCLUDE[ssNoVersion](../data-tools/includes/ssnoversion_md.md)] database.|-   [Collect tier interaction data](../profiling/adding-tier-interaction-data-from-the-command-line.md)|  
   
-## Related tasks  
+## Related tasks
+
   
 |Task|Related Content|  
 |----------|---------------------|  

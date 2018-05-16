@@ -20,7 +20,8 @@ This section describes the procedures and options for collecting performance dat
 > [!NOTE]
 >  Enhanced security features in Windows 8 and Windows Server 2012 required significant changes in the way the Visual Studio profiler collects data on these platforms. UWP apps also require new collection techniques. See [Performance tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md).  
   
-## Common tasks  
+## Common tasks
+
   
 |Task|Related Content|  
 |----------|---------------------|  
@@ -30,7 +31,7 @@ This section describes the procedures and options for collecting performance dat
 |**Collect concurrency data:** Use the concurrency method to collect resource contention data and thread activity data that shows you CPU utilization, thread contention, thread migration, synchronization delays, areas of overlapped IO, and other system events.|-   [Collect concurrency data](../profiling/collecting-concurrency-data-for-a-service-by-using-the-profiler-command-line.md)|  
 |**Add tier interaction data:** You can add performance data about synchronous ADO.NET calls that the service made to a Microsoft [!INCLUDE[ssNoVersion](../data-tools/includes/ssnoversion_md.md)] database.|-   [Collect tier interaction data](../profiling/adding-tier-interaction-data-from-the-command-line.md)|  
   
-## Related Tasks  
+## Related tasks  
   
 |Task|Related Content|  
 |----------|---------------------|  

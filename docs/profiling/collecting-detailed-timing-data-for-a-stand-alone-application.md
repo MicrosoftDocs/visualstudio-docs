@@ -25,7 +25,7 @@ This section describes the procedures and options for collecting detailed perfor
 |**Profile a C/C++ application by using instrumentation**|-   [How to: Instrument a native component and collect detailed timing data](../profiling/how-to-instrument-a-native-stand-alone-component-and-collect-timing-data-with-the-profiler-from-the-command-line.md)|  
 |**Add tier-interaction data**|-   [Collect tier interaction data](../profiling/adding-tier-interaction-data-from-the-command-line.md)|  
   
-## Related tasks  
+## Related tasks
   
 ### Profile stand-alone applications  
   

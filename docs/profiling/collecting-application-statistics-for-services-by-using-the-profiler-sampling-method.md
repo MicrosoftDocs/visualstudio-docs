@@ -21,9 +21,9 @@ This section describes the procedures and options for collecting performance sta
   
 |Task|Related Content|  
 |----------|---------------------|  
-|**Attach the profiler to a .NET service**|-   [How to: Attach the Profiler to a .NET Service to Collect Application Statistics](../profiling/how-to-attach-the-profiler-to-a-dotnet-service-to-collect-application-statistics-by-using-the-command-line.md)|  
-|**Add tier-interaction data**|-   [Collecting tier interaction data](../profiling/adding-tier-interaction-data-from-the-command-line.md)|  
-|**Attach the profiler to a C/C++ service**|-   [How to: Attach the Profiler to a Native Service to Collect Application Statistics](../profiling/how-to-attach-the-profiler-to-a-native-service-to-collect-application-statistics-by-using-the-command-line.md)|  
+|**Attach the profiler to a .NET service**|-   [How to: Attach the profiler to a .NET service to collect application statistics](../profiling/how-to-attach-the-profiler-to-a-dotnet-service-to-collect-application-statistics-by-using-the-command-line.md)|  
+|**Add tier-interaction data**|-   [Collect tier interaction data](../profiling/adding-tier-interaction-data-from-the-command-line.md)|  
+|**Attach the profiler to a C/C++ service**|-   [How to: Attach the profiler to a native service to collect application statistics](../profiling/how-to-attach-the-profiler-to-a-native-service-to-collect-application-statistics-by-using-the-command-line.md)|  
   
 ## Related tasks  
   
@@ -35,6 +35,7 @@ This section describes the procedures and options for collecting performance sta
 |**Profile .NET memory allocation and garbage collection**|-   [Collect .NET memory data](../profiling/collecting-memory-data-from-dotnet-framework-services-by-using-the-profiler-command-line.md)|  
 |**Profile resource contention and thread activity**|-   [Collect concurrency data](../profiling/collecting-concurrency-data-for-a-service-by-using-the-profiler-command-line.md)|  
   
+
 ### Profile by using the sampling method  
   
 |Task|Related Content|  
@@ -44,3 +45,5 @@ This section describes the procedures and options for collecting performance sta
   
 ### Analyze sampling data views and reports  
  [Sampling method data views](../profiling/profiler-sampling-method-data-views.md)
+
+  
