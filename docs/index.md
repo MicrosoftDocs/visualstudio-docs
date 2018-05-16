@@ -532,7 +532,7 @@ ms.topic: hub-page
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Node.js</h3>
-                                                    <p>Build scalable network applications using Node.js, an asnchronous, event-driven JavaScript runtime.</p>
+                                                    <p>Build scalable network applications using Node.js, an asynchronous, event-driven JavaScript runtime.</p>
                                                 </div>
                                             </div>
                                         </div>
