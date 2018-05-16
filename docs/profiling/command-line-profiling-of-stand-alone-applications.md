@@ -14,10 +14,10 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Command-Line Profiling of Stand-Alone Applications
+# Command-line profiling of stand-alone applications
 This section describes the procedures and options for collecting performance data for stand-alone (client) applications by using the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools from the command line.  
   
-## Common Tasks  
+## Common tasks  
   
 |Task|Related content|  
 |----------|---------------------|  
@@ -28,7 +28,7 @@ This section describes the procedures and options for collecting performance dat
 |**Add tier-interaction data:** You can add performance data about synchronous ADO.NET calls that the application made to a Microsoft [!INCLUDE[ssNoVersion](../data-tools/includes/ssnoversion_md.md)] database. Adding tier interaction data to a profiling run requires specific procedures with the command line profiling tools.|-   [Collecting tier interaction data](../profiling/adding-tier-interaction-data-from-the-command-line.md)|  
 |**Try it out:** Use step-by-step procedures to profile a sample client application by using the sampling or instrumentation method.|-   [Walkthrough: Command-Line Profiling Using Sampling](../profiling/walkthrough-command-line-profiling-using-sampling.md)<br />-   [Walkthrough: Command-Line Profiling Using Instrumentation](../profiling/walkthrough-command-line-profiling-using-instrumentation.md)|  
   
-## Related Tasks  
+## Related tasks  
   
 |Task|Related Content|  
 |----------|---------------------|  
