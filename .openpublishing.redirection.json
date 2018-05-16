@@ -2448,7 +2448,7 @@
         },
         {
             "source_path": "connected-environment/get-started.md",
-            "redirect_url": "/azure/dev-spaces/",
+            "redirect_url": "/azure/dev-spaces/azure-dev-spaces",
             "redirect_document_id": false
         },
         {
