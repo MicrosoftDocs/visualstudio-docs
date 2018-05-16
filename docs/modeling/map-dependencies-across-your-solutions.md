@@ -30,7 +30,7 @@ ms.workload:
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
-# Map dependencies across your solutions
+# Map dependencies with code maps
 
 You can visualize dependencies across your code by creating a code map. Code maps help you see how the code fits together without reading through files and lines of code.
 
@@ -56,75 +56,50 @@ You can map dependencies for code in these languages:
 > [!NOTE]
 > For projects other than C# or Visual Basic, there are fewer options for starting a code map or adding items to an existing code map. For example, you cannot right-click an object in the text editor of a C++ project and add it to a code map. However, you can drag and drop individual code elements or files from **Solution Explorer**, **Class View**, and **Object Browser**.
 
-## Install Code Map
+## Install Code Map and Live Dependency Validation
 
-To create a code map in Visual Studio 2017, install the **Code Map** component:
+To create a code map in Visual Studio 2017, first install the **Code Map** and **Live Dependency Validation** components:
 
 1. Open **Visual Studio Installer**. You can open it from the Windows Start menu, or within Visual Studio by selecting **Tools** > **Get Tools and Features**.
 
 1. Select the **Individual components** tab.
 
-1. Scroll down to the **Code tools** section and select **Code Map**.
+1. Scroll down to the **Code tools** section and select **Code Map** and **Live Dependency Validation**.
 
-   ![Code Map component](media/code-map-component.png)
+   ![Code Map and Live Dependency Validation components in Visual Studio Installer](media/modeling-components.png)
 
 1. Select **Modify**.
 
-   The **Code Map** component begins installing.
+   The **Code Map** and **Live Dependency Validation** components begin installing. You may be asked to close Visual Studio.
 
-### To see the overall dependencies across your solution
+## Create a code map
 
-1. Open the **Architecture** menu.
+You can create an empty code map and drag items onto it, including assembly references, files and folders, or you can generate a code map for all or part of your solution.
 
-2. If you just opened the solution and haven't yet built it, or if your code has changed since the last time you built it, choose **Generate Code Map for Solution**.
-
-3. If your code hasn't changed since the last time you built it, choose **Generate Code Map for Solution Without Building** to get faster performance when creating the map.
-
-4. [See overall dependencies](#SeeOverviewSource) to understand how you can use code maps to view the overall dependencies across your solution.
-
-### To see specific dependencies within your solution
-
-1. With your solution loaded, open **Solution Explorer**.
-
-2. Select all the projects, assembly references, folders, files, types, or members that you want to map.
-
-3. On the **Solution Explorer** toolbar, choose **Show on Code Map** ![Create New Graph From Selected Nodes Button](../modeling/media/createnewgraphfromselectedbutton.gif). Or open the shortcut menu and choose **Show on Code Map**. You can also drag items from Class View or Object Browser into a new or an existing code map.
-
-4. [See specific dependencies](#SeeSpecificSource) to understand how you can use code maps to view specific dependencies within your solution.
-
-### Add a new empty code map to your solution
+## Add an empty code map
 
 1. In **Solution Explorer**, open the shortcut menu for your top-level solution node. Choose **Add** then choose **New Item**.
 
 2. Under **Installed**, choose **General**.
 
-3. In the right pane, choose **Directed Graph Document** and then choose **Add**.
+3. In the right pane, choose the **Directed Graph Document(.dgml)** template and then select **Add**.
+
+   > [!TIP]
+   > This template may not appear alphabetically, so scroll down to the bottom of the template list for **General** if you don't see it.
 
    A blank map appears in your solution's **Solution Items** folder.
 
-### Create a new empty code map without adding it to your solution
+Similarly, you can create a new code map file without adding it to your solution by selecting **Architecture** > **New Code Map** or **File** > **New** > **File**.
 
-1. Open the **Architecture** menu and choose **New Code Map**.
+## Generate a code map for your solution
 
-   \- or -
+To see all the dependencies in your solution:
 
-   Open the **File** menu and choose **New** then choose **File**.
-
-1. Under **Installed**, choose **General**.
-
-1. In the right pane, choose **Directed Graph Document** and then choose **Open**.
-
-   A blank map is created, which does not appear in your solution's folders.
-
-## <a name="SeeOverviewSource"></a> See overall dependencies
-
-To see dependencies across your solution, follow these steps:
-
-1. On the **Architecture** menu, choose **Generate Code Map for Solution**.
+1. On the menu bar, choose **Architecture** > **Generate Code Map for Solution**. If your code hasn't changed since the last time you built it, you can select **Architecture** > **Generate Code Map for Solution Without Building** instead.
 
    ![Generate a code map command](../modeling/media/codemapsarchitecturemenu.png)
 
-   You get a map that shows the top-level assemblies and aggregated links between them. The wider the aggregate link, the more dependencies it represents.
+   A map is generated that shows the top-level assemblies and aggregated links between them. The wider the aggregate link, the more dependencies it represents.
 
 2. Use the **Legend** button on the code map toolbar to show or hide the list of project type icons (such as Test, Web, and Phone Project), code items (such as Classes, Methods, and Properties), and relation types (such as Inherits From, Implements, and Calls).
 
@@ -170,7 +145,7 @@ To see dependencies across your solution, follow these steps:
 
    ![Drilling down to class and member level](../modeling/media/dependencygraph_expandedselectedgroups_2012.png)
 
-10. Another way to focus in on a complex solution map is to generate a new map containing selected items from an existing map. Hold **CTRL** while selecting the items you want to focus on, open the shortcut menu, and choose **New Graph from Selection**.
+10. Another way to focus in on a complex solution map is to generate a new map containing selected items from an existing map. Hold **Ctrl** while selecting the items you want to focus on, open the shortcut menu, and choose **New Graph from Selection**.
 
    ![Show selected items on a new code map](../modeling/media/codemapsshowonnewmap.png)
 
@@ -185,44 +160,33 @@ To see dependencies across your solution, follow these steps:
 Also see:
 
 - [Browse and rearrange code maps](../modeling/browse-and-rearrange-code-maps.md)
-
 - [Customize code maps by editing the DGML files](../modeling/customize-code-maps-by-editing-the-dgml-files.md)
+- Find potential problems in your code by [running an analyzer](../modeling/find-potential-problems-using-code-map-analyzers.md)
 
-- Find potential problems in your code by [running an analyzer](../modeling/find-potential-problems-using-code-map-analyzers.md).
-
-### See dependencies across assemblies or binaries
-
-1. Create an empty code map, or open an existing code map (*.dgml* file).
-
-2. Drag the assemblies or binaries you want to map from outside Visual Studio onto the map. For example, drag assemblies or binaries from Windows Explorer or File Explorer.
-
-> [!NOTE]
-> You can drag assemblies or binaries from Windows Explorer or File Explorer only if you are running it and Visual Studio at the same User Access Control (UAC) permissions level. For example, if UAC is turned on and you are running Visual Studio as Administrator, Windows Explorer or File Explorer will block the dragging operation. To work around this, make sure that both are running with the same permission level, or turn UAC off.
-
-## <a name="SeeSpecificSource"></a> See specific dependencies in your solution
+## View specific dependencies in a code map
 
 Suppose you have a code review to perform in some files with pending changes. To see the dependencies in those changes, you can create a code map from those files.
 
-![Show specific dependencies on a code map](../modeling/media/codemapsspecificdependenciesintro.png)
+   ![Show specific dependencies on a code map](../modeling/media/codemapsspecificdependenciesintro.png)
 
-1. Open **Solution Explorer**. Select the projects, assembly references, folders, files, types, and members that interest you. To find items that have dependencies on types or members, open the type or member's shortcut menu from **Solution Explorer**. Choose the dependency type, and then select the results.
-
-2. Map your items and their members. On the **Solution Explorer** toolbar click **Show on Code Map** ![Create New Graph From Selected Nodes Button](../modeling/media/createnewgraphfromselectedbutton.gif).
+1. In **Solution Explorer**, select the projects, assembly references, folders, files, types, or members that you want to map.
 
    ![Select the items you want to map](../modeling/media/codemapsselectinsolutionexplorer.png)
+
+1. On the **Solution Explorer** toolbar, choose **Show on Code Map** ![Create New Graph From Selected Nodes Button](../modeling/media/createnewgraphfromselectedbutton.gif). Or, open the shortcut menu for one or a group of items and choose **Show on Code Map**.
+
+   You can also drag items from **Solution Explorer**, **Class View**, or **Object Browser**, into a [new](#add-an-empty-code-map) or existing code map. To include the parent hierarchy for your items, press and hold the **Ctrl** key while you drag items, or use the **Include Parents** button on the code map toolbar to specify the default action. You can also drag assembly files from outside Visual Studio, such as from **Windows Explorer**.
+
+   > [!NOTE]
+   > When you add items from a project that's shared across multiple apps, like Windows Phone or Microsoft Store, those items appear on the map with the currently active app project. If you change context to another app project and add more items from the shared project, those items now appear with the newly active app project. Operations that you perform with an item on the map apply only to those items that share the same context.
 
 3. The map shows the selected items within their containing assemblies.
 
    ![Selected items shown as groups on the map](../modeling/media/codemapsshowitemsfromsolnexplorer.png)
 
-   You can also drag items from **Solution Explorer**, **Class View**, or **Object Browser** to a blank or an existing code map. To include the parent hierarchy for your items, press and hold the **Ctrl** key while you drag items, or use the **Include Parents** button on the code map toolbar to specify the default action.
-
-   > [!NOTE]
-   > When you add items from a project that's shared across multiple apps, like Windows Phone or Microsoft Store, those items appear on the map with the currently active app project. If you change context to another app project and add more items from the shared project, those items now appear with the newly active app project. Operations that you perform with an item on the map apply only to those items that share the same context.
-
 4. To explore items, expand them. Move the mouse pointer on top of an item, then click the chevron (down arrow) icon when it appears.
 
-   ![Expanding a node in a code map](../modeling/media/dependencygraph_containment.png)
+   ![Expand a node in a code map](../modeling/media/dependencygraph_containment.png)
 
    To expand all items, select them using **Ctrl**+**A**, then open the shortcut menu for the map and choose **Group** > **Expand**. However, this option isn't available if expanding all groups creates an unusable map or memory issues.
 
@@ -283,116 +247,9 @@ Suppose you have a code review to perform in some files with pending changes. To
 
    ![Use the Filter pane to simplify the display](../modeling/media/almcodemapfilterpane.png)
 
-## See dependencies between C and C++ source files and header files
-
-If you want to create more complete maps for C++ projects, set the browse information compiler option (**/FR**) on those projects. Otherwise, a message appears and prompts you to set this option. If you select **OK**, this sets the option for just the current map. You can choose to hide the message for all later maps. If you hide this message, you can make it appear again. Set the following registry key to **0** or delete the key:
-
-**HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\14.0\NativeProvider : AutoEnableSbr**
-
-When you open a solution that contains Visual C++ projects, it might take some time to update the IntelliSense database. During this time, you might not be able to create code maps for header (.h or `#include`) files until the IntelliSense database finishes updating. You can monitor the update progress in the Visual Studio status bar. To resolve issues or messages that appear because certain IntelliSense settings are disabled, see [Troubleshoot maps for C and C++ code](#Troubleshooting).
-
-- To see dependencies between all source files and header files in your solution, on the **Architecture** menu, choose **Generate Graph of Include Files**.
-
-   ![Dependency graph for native code](../modeling/media/dependencygraphgeneral_nativecode.png)
-
-- To see dependencies between the currently open file and related source files and header files, open either the source file or the header file. Open the file shortcut menu anywhere inside the file. Choose **Generate Graph of Include Files**.
-
-   ![First-level dependency graph for .h file](../modeling/media/dependencygraph_native_firstlevel.png)
-
-### <a name="Troubleshooting"></a> Troubleshoot code maps for C and C++ code
-
-These items aren't supported for C and C++ code:
-
-- Base types don't appear on maps that include the parent hierarchy.
-
-- Most **Show** menu items aren't available for C and C++ code.
-
-These issues might happen when you create code maps for C and C++ code:
-
-|**Issue**|**Possible cause**|**Resolution**|
-|---------------|------------------------|--------------------|
-|The code map failed to generate.|No projects in the solution were built successfully.|Fix the build errors that occurred and then regenerate the map.|
-|Visual Studio becomes unresponsive when you try to generate a code map from the **Architecture** menu.|The program database (.pdb) file might be corrupted.<br /><br /> A .pdb file stores debugging information, such as type, method, and source file information.|Rebuild the solution and then try again.|
-|Certain settings for the IntelliSense browsing database are disabled.|Certain IntelliSense settings might be disabled in the Visual Studio **Options** dialog box.|Turn on the settings to enable them.<br /><br /> See [Options, Text Editor, C/C++, Advanced](../ide/reference/options-text-editor-c-cpp-advanced.md).|
-|The message **Unknown Methods** appears on a method node.<br /><br /> This issue occurs because the name of the method cannot be resolved.|The binary file might not have a base relocation table.|Turn on the **/FIXED:NO** option in the linker.|
-||The program database (.pdb) file might not be built.<br /><br /> A .pdb file stores debugging information, such as type, method, and source file information.|Turn on the **/DEBUG** option in the linker.|
-||Cannot open or find the .pdb file in the expected locations.|Make sure that the .pdb file exists in the expected locations.|
-||Debug information has been stripped from the .pdb file.|If the **/PDBSTRIPPED** option was used in the linker, include the complete .pdb file instead.|
-||The caller is not a function and is either a thunk in the binary file or a pointer in the data section.|When the caller is a thunk, try using `_declspec(dllimport)` to avoid the thunk.|
-
-## Make code maps render more quickly
-
-When you generate a map for the first time, Visual Studio indexes all the dependencies that it finds. This process might take some time, especially for large solutions, but will improve performance later. If your code changes, Visual Studio re-indexes just the updated code. To minimize the time taken for the map to finish rendering, consider the following:
-
-- [Map only the dependencies that interest you.](#SeeSpecificSource)
-
-- Before you generate the map for an entire solution, reduce the solution scope.
-
-- Turn off automatic build for the solution with the **Skip Build** button on the code map toolbar.
-
-- Turn off automatic adding of parent items with the **Include Parents** button on the code map toolbar.
-
-- Edit the code map file directly to remove nodes and links you don't need. Changing the map doesn't affect the underlying code. See [Customize code maps by editing the DGML files](../modeling/customize-code-maps-by-editing-the-dgml-files.md).
-
-![Skip Build and Include Parents buttons](../modeling/media/codemapsfilterskipbuildicons.png)
-
-Although Visual Studio can run with 1 GB of memory, we recommended that your computer have at least 2 GB of memory to avoid long delays while Visual Studio creates the code index and generates the map.
-
-It might take more time to create maps or add items to a map from Solution Explorer when a project item's **Copy to Output Directory** property is set to **Copy Always**. This might cause issues with incremental builds and Visual Studio to rebuild the project each time. To increase performance, change this property to **Copy if newer** or `PreserveNewest`. See [Incremental Builds](../msbuild/incremental-builds.md).
-
-The completed map will show dependencies only for successfully-built code. If build errors occur for certain components, these errors appear on the map. Make sure that a component actually builds and has dependencies on it before you make architectural decisions based on the map.
-
-## Share code maps
-
-You can save code maps as part of a Visual Studio project, as an image, or as an XPS file.
-
-### Share a code map with other Visual Studio users
-
-Use the **File** menu to save the map.
-
--or-
-
-To save the map as part of specific project, on the map toolbar, choose **Share** > **Move \<CodeMapName>.dgml into**, and then choose the project where you want to save the map.
-
-![Move a map into another project](../modeling/media/codemapsmovemapmenu.png)
-
-Visual Studio saves the map as a *.dgml* file that you can share with other users of Visual Studio Enterprise and Visual Studio Professional.
-
-> [!NOTE]
-> Before you share a map with those who use Visual Studio Professional, make sure to expand any groups, show hidden nodes and cross-group links, and retrieve any deleted nodes that you want others to see on your map. Otherwise, other users won't be able to see these items.
->
-> The following error might occur when you save a map that is in a modeling project or was copied from a modeling project to another location:
->
-> "Cannot save *fileName* outside the project directory. Linked items are not supported."
->
-> Visual Studio shows the error, but creates the saved version anyway. To avoid the error, create the map outside the modeling project. You can then save it to the location that you want. Just copying the file to another location in the solution, and then trying to save it will not work.
-
-### Export a code map as an image
-
-When you export a code map as an image, you can copy it into other applications, such as Microsoft Word or PowerPoint.
-
-1. On the code map toolbar, choose **Share** > **Email as Image** or **Copy Image**.
-
-2. Paste the image into another application.
-
-### Export the map as an XPS file
-
-When you export a code map as an XPS file, you can see it in XML or XAML viewers like Internet Explorer.
-
-1. On the code map toolbar, choose **Share** > **Email As Portable XPS** or **Save As Portable XPS**.
-
-2. Browse to where you want to save the file.
-
-3. Name the code map. Make sure that the **Save as type** box is set to **XPS files (\*.xps)**. Choose **Save**.
-
-## Videos
-
-- [Understand your code dependencies through visualization](https://channel9.msdn.com/Series/Visual-Studio-2012-Premium-and-Ultimate-Overview/Visual-Studio-Ultimate-2012-Understand-your-code-dependencies-through-visualization)
-- [Visualize the impact of a change](https://channel9.msdn.com/Series/Visual-Studio-2012-Premium-and-Ultimate-Overview/Visual-Studio-Ultimate-2012-Visualize-the-impact-of-a-change)
-- [Understanding complex code with code maps](https://channel9.msdn.com/Series/Visual-Studio-2012-Premium-and-Ultimate-Overview/Visual-Studio-Ultimate-2012-Understanding-complex-code-with-Code-Map-ENU)
-
 ## See also
 
+- [Video: Understand design from code with Visual Studio 2015 code maps](https://channel9.msdn.com/Events/Visual-Studio/Connect-event-2015/502)]
 - [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)
 - [Map methods on the call stack while debugging](../debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio.md)
 - [Find potential problems using code map analyzers](../modeling/find-potential-problems-using-code-map-analyzers.md)
