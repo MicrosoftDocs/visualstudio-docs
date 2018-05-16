@@ -1,6 +1,6 @@
 ---
 title: Tutorial - Learn Flask in Visual Studio, step 4
-description: A walkthrough of Flask basics in the context of Visual Studio projects, specifically the features provided by the Flask Web Project template.
+description: A walkthrough of Flask basics in the context of Visual Studio projects, specifically the features provided by the Flask Web Project and Flask/Jade Web Project templates.
 ms.date: 05/15/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
@@ -17,7 +17,7 @@ ms.workload:
 
 **Previous step: [Serve static files, add pages, and use template inheritance](learn-flask-in-visual-studio-step-03-serve-static-files-and-add-pages.md)**
 
-Now that you've explored the basics of Flask by building an app upon the "Blank Flask App Project" template in Visual Studio, you can easily understand the fuller app that's produced by the "Flask Web Project" template.
+Now that you've explored the basics of Flask by building an app upon the "Blank Flask App Project" template in Visual Studio, you can easily understand the fuller app that's produced by the "Flask Web Project" template. 
 
 In this step you now:
 
@@ -25,6 +25,8 @@ In this step you now:
 > - Create a fuller Flask web app using the "Flask Web Project" template and examine the project structure (step 4-1)
 > - Understand the views and page templates created by the project template, which consist of three pages that inherit from a base page template and that employs static JavaScript libraries like jQuery and Bootstrap (step 4-2)
 > - Understand the URL routing provided by the template (step 4-3)
+
+This article applies also to the "Flask/Jade Web Project" template, which produces an app that's identical to that of the "Flask Web Project" using the Jade templating engine instead of Jinja. Additional details are provided at the end of this article.
 
 ## Step 4-1: Create a project from the template
 
@@ -151,12 +153,81 @@ The individual page templates, `about.html`, `contact.html`, and `index.html`, e
 
 `index.html` and `contact.html` use the same structure and provide lengthier content in the "content" block.
 
+## The Flask/Jade Web Project template
+
+As noted at the beginning of this article, Visual Studio provide a "Flask/Jade Web Project" template, which creates an application that's visually identical to that produced by the "Flask Web Project". The primary difference is that it uses the Jade templating engine, which is an extension to Jinja that implements the same concepts with a more succinct language. Specifically, Jade uses keywords instead of tags enclosed in {% %} delimeters, for example, and lets you refer to CSS styles and HTML elements using keywords.
+
+To enable Jade, the project template first includes the pyjade package in `requirements.txt`. 
+
+The app's `__init__.py` file contains a line to
+
+    ```python
+    app.jinja_env.add_extension('pyjade.ext.jinja.PyJadeExtension')
+    ```
+In the `templates` file you see `.jade` files instead of `.html` templates, and the views in `views.py` refer to these files in their calls to `flask.render_template`. Otherwise the views code is the same.
+
+Opening one of the `.jade` files, you can see the more succint expression of a template. For example, here's the contents of `templates/layout.jade` as created by the "Flask/Jade Web Project" template:
+
+    ```jade
+    doctype html
+    html
+      head
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        title #{title} - My Flask/Jade Application
+        link(rel='stylesheet', type='text/css', href='/static/content/bootstrap.min.css')
+        link(rel='stylesheet', type='text/css', href='/static/content/site.css')
+        script(src='/static/scripts/modernizr-2.6.2.js')
+      body
+        .navbar.navbar-inverse.navbar-fixed-top
+          .container
+            .navbar-header
+              button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+                span.icon-bar
+                span.icon-bar
+                span.icon-bar
+              a.navbar-brand(href='/') Application name
+            .navbar-collapse.collapse
+              ul.nav.navbar-nav
+                li
+                  a(href='/') Home
+                li
+                  a(href='/about') About
+                li
+                  a(href='/contact') Contact
+        .container.body-content
+          block content
+          hr
+          footer
+            p &copy; #{year} - My Flask/Jade Application
+
+        script(src='/static/scripts/jquery-1.10.2.js')
+        script(src='/static/scripts/bootstrap.js')
+        script(src='/static/scripts/respond.js')
+
+        block scripts
+    ```
+
+And here's the contents of `templates/about.jade`, showing the use of `#{ <name>}` for placeholders:
+
+    ```jade
+    extends layout
+
+    block content
+      h2 #{title}.
+      h3 #{message}
+      p Use this area to provide additional information.
+    ```
+
+Feel free to experiment with both Jinja and Jade syntaxes to see which one works best for you.
+
 ## Next steps
 
 > [!div class="nextstepaction"]
-> [The Polls Flask Web Project template](learn-flask-in-visual-studio-step-05-polls-flask-web-project.md)
+> [The Polls Flask Web Project template](learn-flask-in-visual-studio-step-05-polls-flask-web-project-template.md)
 
 ## Going deeper
 
 - [Writing your first Flask app, part 4 - forms and generic views](https://docs.djangoproject.com/en/2.0/intro/tutorial04/) (docs.djangoproject.com)
+- [Jade on GitHib (Documentation)](https://github.com/liuliqiang/pyjade) (github.com)
 - Tutorial source code on GitHub: [Microsoft/python-sample-vs-learn-django](https://github.com/Microsoft/python-sample-vs-learn-django)
