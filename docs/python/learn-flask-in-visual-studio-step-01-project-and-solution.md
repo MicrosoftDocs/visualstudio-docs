@@ -15,7 +15,7 @@ ms.workload:
 
 # Tutorial step 1: Get started with the Flask web framework in Visual Studio
 
-[Flask](flask.pocoo.org/) is a lightweight Python framework for web applications that provides the basics for URL routing and page rendering.
+[Flask](http://flask.pocoo.org/) is a lightweight Python framework for web applications that provides the basics for URL routing and page rendering.
 
 Flask is called a "micro" framework because it doesn't directly provide features like form validation, database abstraction, authentication, and so on. Such features are instead provided by special Python packages called Flask *extensions*. The extensions integrate seamlessly with Flask so that they appear as if they were part of Flask itself. For example, Flask itself doesn't provide a page template engine. Templating is provided by extensions such as Jinja and Jade, as demonstrated in this tutorial.
 
