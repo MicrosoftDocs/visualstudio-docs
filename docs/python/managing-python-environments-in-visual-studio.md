@@ -1,7 +1,7 @@
 ---
 title: Manage Python environments and interpreters
 description: Use the Python Environments window to manage global, virtual, and conda environments, installing Python interpreters and packages, and assigning environments to Visual Studio projects.
-ms.date: 03/21/2018
+ms.date: 05/07/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: conceptual
@@ -24,7 +24,7 @@ In Visual Studio on Windows, the [Python Environments window](#the-python-enviro
 - [Working with Python in Visual Studio](overview-of-python-tools-for-visual-studio.md)
 - [Installing Python support in Visual Studio](installing-python-support-in-visual-studio.md)
 
-Also note that you cannot manage environments for Python code that is opened only as a folder using the **File > Open > Folder** command. Instead, [Create a Python project from existing code](quickstart-01-python-in-visual-studio-project-from-existing-code.md) to enjoy the environment features of Visual Studio.
+Also note that you cannot manage environments for Python code that is opened only as a folder using the **File** > **Open** > **Folder** command. Instead, [Create a Python project from existing code](quickstart-01-python-in-visual-studio-project-from-existing-code.md) to enjoy the environment features of Visual Studio.
 
 If you want to install packages in an environment, refer to the [Packages tab](python-environments-window-tab-reference.md#packages-tab).
 
@@ -44,15 +44,35 @@ In Visual Studio, you can create a virtual environment for a specific project, w
 
 ### Conda environments
 
-A conda environment is one created using the `conda` tool. Conda environments are typically stored in the `envs` folder within an Anaconda installation, and therefore act similarly to global environments. For example, installing a new package into a conda environment makes that package available to all projects using that environment.
+A conda environment is one created using the `conda` tool, or with integrated conda management in Visual Studio 2017 version 15.7 and higher. (Requires Anaconda or Miniconda; Anaconda is available through the Visual Studio installer, see [Installation - Visual Studio 2017](installing-python-support-in-visual-studio.md#visual-studio-2017).)
 
-Visual Studio does not, at present, automatically detect conda environments, but you can point Visual Studio to it manually. See [Manually identifying an existing environment](#manually-identifying-an-existing-environment).
+> [!Note]
+> For best results with conda environments, use conda 4.4.8 or later (conda versions are different from Anaconda versions). Installing Anaconda 5.1 from the Visual Studio 2017 installer
+
+To see the conda version, where conda environments are stored, and other information, run `conda info` at an Anaconda command prompt (that is, a command prompt where Anaconda is in the path):
+
+```bash
+conda info
+```
+You conda environment folders appear as follows:
+
+```output
+       envs directories : c:\anaconda3\envs
+                          C:\Users\user\AppData\Local\conda\conda\envs
+                          C:\Users\user\.conda\envs
+```
+
+Because conda environments are not stored with a project, they act similarly to global environments. For example, installing a new package into a conda environment makes that package available to all projects using that environment.
+
+For Visual Studio 2017 version 15.6 and earlier, you can use conda environments by pointing to them manually as described under [Manually identify an existing environment](#manually-identify-an-existing-environment).
+
+Visual Studio 2017 version 15.7 and later detects conda environments automatically and displays them in the **Python Environments** window as described in the next section.
 
 ## The Python Environments window
 
 The environments that Visual Studio knows about are displayed in the **Python Environments** window. To open, the window, use one of the following methods:
 
-- Select the **View > Other Windows > Python Environments** menu command.
+- Select the **View** > **Other Windows** > **Python Environments** menu command.
 - Right-click the **Python Environments** node for a project in Solution Explorer and select **View All Python Environments**:
 
     ![View All Environments command in Solution Explorer](media/environments-view-all.png)
@@ -61,15 +81,17 @@ In either case, the **Python Environments** window appears as a sibling tab to S
 
 ![Python Environments window](media/environments-default-view.png)
 
-The image above shows that Visual Studio detected two installations of Python 3.6 (32-bit) along with Anaconda 5.0.0.
+The default environment in boldface is Python 3.6, which Visual Studio uses for any new projects. Any listed environment, of any type, can be used as the default.
 
-The default environment in boldface is Python 3.6 (in this case part of an Anaconda installation), which Visual Studio uses for any new projects. The commands in the lower part of the window apply to the selected Python 3.6 interpreter, which as you can see is the specific installation in `C:\Python36-32`. If you don't see an environment you expect, see [Manually identifying an existing environment](#manually-identifying-an-existing-environment).
+The commands in the lower part of the window apply to the selected interpreter, which as you can see is the specific installation in `C:\Python36-32` (the bolded default environment is part of an Anaconda installation). If you don't see an environment you expect, see [Manually identify an existing environment](#manually-identify-an-existing-environment).
 
-To the right of each listed environment is a control that opens an interactive window for that environment. Another control may appear that refreshes the IntelliSense database for that environment (see [Environments window reference](python-environments-window-tab-reference.md#intellisense-tab) for details about the database).
+To the right of each listed environment is a control that opens an interactive window for that environment. (In Visual Studio 2017 15.5 and earlier, another control appear that refreshes the IntelliSense database for that environment. See [Environments window reference](python-environments-window-tab-reference.md#intellisense-tab) for details about the database).
 
 Below the list of environments is a drop-down selector for the **Overview**, **Packages**, and **IntelliSense** options described in [Python Environments window tab reference](python-environments-window-tab-reference.md). Also, if you expand the **Python Environments** window wide enough, these options are shown as tabs, which you may find more convenient to work with:
 
 ![Python Environments window expanded view](media/environments-expanded-view.png)
+
+In the above image you can see the full list of environments on this particular computer, along with additional commands to create environments.
 
 > [!Note]
 > Although Visual Studio respects the system-site-packages option, it doesn't provide a way to change it from within Visual Studio.
@@ -82,18 +104,20 @@ Below the list of environments is a drop-down selector for the **Overview**, **P
 
 If no environments appear, it means Visual Studio failed to detect any Python installations in standard locations. For example, you may have installed Visual Studio 2017 but cleared all the interpreter options in the installer options for the Python workload. Similarly, you may have installed Visual Studio 2015 or earlier but did not install an interpreter manually (see [Installing Python interpreters](installing-python-interpreters.md)).
 
-If you know you have a Python interpreter on your computer but Visual Studio (any version) did not detect it, then use the **+ Custom...** command to specify its location manually. See the next section, [Manually identifying an existing environment](#manually-identifying-an-existing-environment).
+If you know you have a Python interpreter on your computer but Visual Studio (any version) did not detect it, then use the **+ Custom...** command to specify its location manually. See the next section, [Manually identify an existing environment](#manually-identify-an-existing-environment).
 
 > [!Tip]
 > Visual Studio detects updates to an existing interpreter, such as upgrading Python 2.7.11 to 2.7.14 using the installers from python.org. During the installation process, the older environment disappears from the **Python Environments** list before the update appears in its place.
 >
 > However, if you manually move an interpreter and its environment using the file system, Visual Studio won't know the new location. For more information, see [Moving an interpreter](installing-python-interpreters.md#moving-an-interpreter).
 
-## Manually identifying an existing environment
+<a name="manually-identifying-an-existing-environment></a>
 
-Use the following steps to identify an environment that's installed in a non-standard location, including conda environments:
+## Manually identify an existing environment
 
-1. Select **+ Custom...** in the **Python Environments** window, which opens the **Configure** tab:
+Use the following steps to identify an environment that's installed in a non-standard location (including conda environments in Visual Studio 2017 version 15.6 and earlier):
+
+1. Select **+ Custom** in the **Python Environments** window, which opens the **Configure** tab:
 
     ![Default view for a new custom environment](media/environments-custom-1.png)
 
@@ -110,6 +134,24 @@ Use the following steps to identify an environment that's installed in a non-sta
 1. Once the fields contain the values you want, select **Apply** to save the configuration. You can now use the environment like any other within Visual Studio.
 
 1. If you need to remove a manually identified environment, select the **Remove** command on the **Configure** tab. Auto-detected environments do not provide this option. For more information, see [Configure tab](python-environments-window-tab-reference.md#configure-tab).
+
+## Create a conda environment
+
+*Visual Studio 2017 version 15.7 and later.*
+
+1. Select **+ Create conda environment** in the **Python Environments** window, which opens a **Create new conda environment** tab:
+
+    ![Create tab for a new conda environment](media/environments-conda-1.png)
+
+1. Enter a name for the environment in the **Name** field, select a base Python interpreter in the **Python** field, and select **Create**.
+
+1. The **Output** window shows progress for the new environment, with a few CLI instructions once creation is complete:
+
+    ![Successful creation of a conda environment](media/environments-conda-2.png)
+
+1. Within Visual Studio, you can activate a conda environment for a project as you would any other environment as described on [Selecting an environment for a project](selecting-a-python-environment-for-a-project.md).
+
+1. To install packages in the environment, use the [Packages tab](python-environments-window-tab-reference.md#packages-tab).
 
 ## See also
 

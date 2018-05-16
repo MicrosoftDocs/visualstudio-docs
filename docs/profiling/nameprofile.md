@@ -21,7 +21,7 @@ The `NameProfile` function assigns a string to the specified process or thread.
   
 ## Syntax  
   
-```  
+```cpp  
 PROFILE_COMMAND_STATUS PROFILERAPI NameProfile(  
                                    LPCTSTR pszName,   
                                    PROFILE_CONTROL_LEVEL Level,  
@@ -93,7 +93,7 @@ PROFILE_COMMAND_STATUS PROFILERAPI NameProfile(
 ## Example  
  The following code illustrates the NameProfile function call. The example assumes the use of Win32 string macros and the compiler settings for ANSI to determine whether the code calls the ANSI enabled function.  
   
-```  
+```cpp  
 void ExerciseNameProfile()  
 {  
     // Variables used to print output.  

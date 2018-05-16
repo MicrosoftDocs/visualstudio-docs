@@ -18,7 +18,7 @@ The `StartProfile` function sets the counter to 1 (on) for the specified profili
   
 ## Syntax  
   
-```  
+```cpp  
 PROFILE_COMMAND_STATUS PROFILERAPI StartProfile(  
                         PROFILE_CONTROL_LEVEL Level,   
                         unsigned int dwId);  
@@ -68,7 +68,7 @@ PROFILE_COMMAND_STATUS PROFILERAPI StartProfile(
 ## Example  
  The following example illustrates the StartProfile function call.  
   
-```  
+```cpp  
 void ExerciseStartProfile()  
 {  
     // StartProfile and StopProfile control the  

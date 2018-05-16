@@ -62,7 +62,7 @@ The Visual Studio **Energy Consumption** profiler helps you analyze the power an
   
  To add user marks add the following code at the points in your code that you want to mark:  
   
-```  
+```JavaScript  
 if (performance && performance.mark) {  
     performance.mark(markDescription);  
 }  
@@ -147,6 +147,6 @@ if (performance && performance.mark) {
   
 -   The **JavaScript Function Timing** and the **CPU Usage** tools can help you reduce the CPU load when it is caused by inefficient functions. See [Analyze CPU Usage](../profiling/analyze-cpu-usage-in-a-windows-universal-app.md).
 
-## See Also
+## See also
  [Profiling in Visual Studio](../profiling/index.md)  
  [Profiling Feature Tour](../profiling/profiling-feature-tour.md)

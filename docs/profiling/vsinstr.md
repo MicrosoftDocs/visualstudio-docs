@@ -23,7 +23,7 @@ ms.workload:
 # VSInstr
 VSInstr tool is used to instrument binaries. It is invoked by using the following syntax:  
   
-```  
+```cmd  
 VSInstr [/U] filename [/options]  
 ```  
   

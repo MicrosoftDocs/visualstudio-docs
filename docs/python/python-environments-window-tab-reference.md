@@ -1,7 +1,7 @@
 ---
 title: Python environments window reference
 description: Details on each of the tabs that appear in the Python Environments window in Visual Studio.
-ms.date: 03/05/2018
+ms.date: 05/07/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: conceptual
@@ -32,7 +32,7 @@ Provides basic information and commands for the environment:
 
 | Command | Description |
 | --- | --- |
-| Make this environment the default for new projects | Sets the active environment, which may cause Visual Studio to briefly become non-responsive while it loads the IntelliSense database. Environments with many packages may be non-responsive for longer. |
+| Make this environment the default for new projects | Sets the active environment, which may cause Visual Studio (2017 version 15.5 and earlier) to briefly become non-responsive while it loads the IntelliSense database. Environments with many packages may be non-responsive for longer. |
 | Visit the distributor's website | Opens a browser to the URL provided by the Python distribution. Python 3.x, for example, goes to python.org. |
 | Open interactive window | Opens the [interactive (REPL) window](python-interactive-repl-in-visual-studio.md) for this environment within Visual Studio, applying any [startup scripts (see below)](#startup-scripts). |
 | Explore interactive scripts | See [startup scripts](#startup-scripts). |
@@ -71,7 +71,7 @@ If available, contains details as described in the table below. If this tab isn'
 
 *Also labeled "pip" in earlier versions.*
 
-Manages the packages installed in the environment, allowing you to also search for and install new ones (including any dependencies).
+Manages the packages installed in the environment using pip, allowing you to also search for and install new ones (including any dependencies). In Visual Studio 2017 version 15.7 and later, a **Packages (Conda)** option appears which uses the conda package manager instead. (If you don't see that choice, set the option  **Tools** > **Options** > **Python** > **Experimental** > **Use conda package manager when available (instead of pip)** and restart Visual Studio.)
 
 Packages that are already installed appear with controls to update (an up arrow) and uninstall (the X in a circle) the package:
 
@@ -101,7 +101,8 @@ Shows the current status of the IntelliSense completion database:
 
 ![Python Environments IntelliSense tab](media/environments-intellisense-tab.png)
 
-In **Visual Studio 2017 version 15.5** and earlier, IntelliSense completions depend on a database that's been compiled for that library. Building the database is done in the background when a library is installed, but can take some time and may not be complete when you start writing code. **Visual Studio 2017 version 15.6** and later uses a faster method to provide completions that do not depend on the database unless you specifically choose to enable it.
+- In **Visual Studio 2017 version 15.5** and earlier, IntelliSense completions depend on a database that's been compiled for that library. Building the database is done in the background when a library is installed, but can take some time and may not be complete when you start writing code.
+- **Visual Studio 2017 version 15.6** and later uses a faster method to provide completions that do not depend on the database by default. For this reason the tab is labeled **IntelliSense [database disabled]**. You can enable the database by clearing the option  **Tools** > **Options** > **Python** > **Experimental** > **Use new style IntelliSense for environments**.
 
 When Visual Studio detects a new environment (or you add one), it automatically begins to compile the database by analyzing the library source files. This process can take anywhere from a minute to an hour or more depending on what's installed. (Anaconda, for example, comes with many libraries and takes some time to compile the database.) Once complete, you get detailed IntelliSense and don't need to refresh the database again (with the **Refresh DB** button) until you install more libraries.
 

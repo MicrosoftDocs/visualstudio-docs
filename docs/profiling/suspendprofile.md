@@ -18,7 +18,7 @@ The `SuspendProfile` method increments the Suspend/Resume counter for the specif
   
 ## Syntax  
   
-```  
+```cpp  
 PROFILE_COMMAND_STATUS PROFILERAPI SuspendProfile(  
                        PROFILE_CONTROL_LEVEL Level,   
                        unsigned int dwId);  
@@ -68,7 +68,7 @@ PROFILE_COMMAND_STATUS PROFILERAPI SuspendProfile(
 ## Example  
  The following example illustrates the SuspendProfile method. This example assumes that a prior call to StartProfile has been made for the process or thread identified by [PROFILE_CURRENTID](../profiling/profile-currentid.md).  
   
-```  
+```cpp  
 void ExerciseSuspendProfile()  
 {  
     // The initial value of the Suspend/Resume counter is 0.  

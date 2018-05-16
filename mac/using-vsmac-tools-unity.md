@@ -1,5 +1,6 @@
 ---
 title: "Using Visual Studio for Mac Tools for Unity"
+description: "This guide describes how to use Visual Studio for Mac Tools for Unity extension"
 author: dantogno
 ms.author: v-davian
 ms.date: 07/17/2017

@@ -36,5 +36,8 @@ As a Visual Studio subscriber, you also have access to various types of support 
 - Get help from community members in the Priority Support forums.  If the community members can't answer your question, Microsoft's experts will provide an answer. 
 - Have questions about Azure?  Check out the Azure Community and Azure Advisory Chat services.  
 
-For more information about the benefits included in your subscription, check out the Visual Studio pricing page.  Information about the specific benefits, including which subscriptions feature them, is available in the **Using Subscriber Benefits** topic below. 
+> [!NOTE] 
+> Your subscription may also come with access to software downloads.  For more information about downloads, including which downloads are included with your subscription, visit [https://my.visualstudio.com/downloads](https://my.visualstudio.com/downloads?wt.mc_id=o~msft~docs).
+
+For more information about the benefits included in your subscription, check out the [Visual Studio pricing page](https://www.visualstudio.com/vs/pricing/).  Information about the specific benefits, including which subscriptions feature them, is available in the **Using Subscriber Benefits** topic below. 
 

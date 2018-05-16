@@ -18,7 +18,7 @@ The WaitStart option causes the VSPerfCmd.exe Start sub-command to return only w
   
 ## Syntax  
   
-```  
+```cmd  
 VSPerfCmd.exe /Start:Method /Output:FileName[Options] /StartWait[:Seconds]  
 ```  
   
@@ -37,7 +37,7 @@ VSPerfCmd.exe /Start:Method /Output:FileName[Options] /StartWait[:Seconds]
 ## Example  
  In this batch file example, the Start command will wait for 5 seconds for the profiler to initialize.  
   
-```  
+```cmd  
 VSPerfCmd.exe /Start:Sample /Output:TestApp.exe.vsp /WaitStart:5  
 if not %errorlevel% 0 goto :error_tag  
 VSPerfCmd.exe /Launch:TestApp.exe  

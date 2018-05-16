@@ -20,7 +20,7 @@ Writes a message to the Concurrency Visualizer trace file.
   
 ## Syntax  
   
-```  
+```cpp  
 void write_message(  
    _In_ LPCTSTR _Format,  
    ...  

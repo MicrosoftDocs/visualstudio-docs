@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Sample code for testing
 
-This sample code contains a class, *BankAccont*, with various methods that can be tested through unit tests.
+This sample code contains a class, *BankAccount*, with various methods that can be tested through unit tests.
 
 The code is used in the following walkthroughs:
 

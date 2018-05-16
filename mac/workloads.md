@@ -1,8 +1,9 @@
 ---
 title: "Visual Studio for Mac Workloads"
+description: "This article describes the various workloads that can be used in Visual Studio for Mac"
 author: asb3993
 ms.author: amburns
-ms.date: 08/03/2017
+ms.date: 05/06/2018
 ms.assetid: DDC39599-8C5D-4CB9-8DA5-229E085384CA
 ---
 

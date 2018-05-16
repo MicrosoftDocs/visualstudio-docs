@@ -54,7 +54,7 @@ You can instrument your source code by using the Concurrency Visualizer SDK to d
   
 4.  Add a using statement to your code.  
   
-    ```  
+    ```cpp  
     using namespace Concurrency::diagnostic;  
     ```  
   

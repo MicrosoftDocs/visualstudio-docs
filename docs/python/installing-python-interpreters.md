@@ -23,7 +23,7 @@ For **Visual Studio 2015 and earlier**, you must manually install one of the int
 
 Visual Studio (all versions) automatically detects each installed Python interpreter and its environment by checking the registry (following [PEP 514 - Python registration in the Windows registry](https://www.python.org/dev/peps/pep-0514/)).
 
-If Visual Studio does not detect an installed environment, see [Manually identifying an existing environment](managing-python-environments-in-visual-studio.md#manually-identifying-an-existing-environment).
+If Visual Studio does not detect an installed environment, see [Manually identify an existing environment](managing-python-environments-in-visual-studio.md#manually-identify-an-existing-environment).
 
 Visual Studio shows all known environments in the [Python Environments window](managing-python-environments-in-visual-studio.md), and automatically detects updates to existing interpreters.
 
@@ -41,7 +41,7 @@ Developers that want to provide new forms of detection for Python environments, 
 
 If you move an existing interpreter to a new location using the file system, Visual Studio doesn't automatically detect the change.
 
-- If you originally specified the location of the interpreter through the **Python Environments** window, the edit its environment using the **Configure** tab in that window to identify the new location. See [Manually identifying an existing environment](managing-python-environments-in-visual-studio.md#manually-identifying-an-existing-environment).
+- If you originally specified the location of the interpreter through the **Python Environments** window, the edit its environment using the **Configure** tab in that window to identify the new location. See [Manually identify an existing environment](managing-python-environments-in-visual-studio.md#manually-identify-an-existing-environment).
 
 - If you installed the interpreter using an installer program, then use the following steps to reinstall the interpreter in the new location:
 

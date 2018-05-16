@@ -22,7 +22,7 @@ Creates marker series for a given provider.
   
 ## Syntax  
   
-```  
+```C  
 _Check_return_ HRESULT CvCreateMarkerSeriesW(  
     _In_ PCV_PROVIDER  pProvider,  
     _In_ LPCWSTR pSeriesName,  

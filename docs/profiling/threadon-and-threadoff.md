@@ -28,7 +28,7 @@ The VSPerfCmd.exe **ThreadOff** and **ThreadOn** subcommands are only available 
   
 ## Syntax  
   
-```  
+```cmd  
 VSPerfCmd.exe /{ThreadOff|ThreadOn}:TID [Options]  
   
 ```  
@@ -52,7 +52,7 @@ VSPerfCmd.exe /{ThreadOff|ThreadOn}:TID [Options]
 ## Example  
  In this example, the **ThreadOff** subcommand is used to stop collecting profiling data so that only application startup data is collected.  
   
-```  
+```cmd  
 ; Initialize the profiler.  
 VSPerfCmd.exe /Start:Trace /Output:Instrument.vsp   
 ; Start the instrumented application.  
