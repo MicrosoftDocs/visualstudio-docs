@@ -2448,7 +2448,7 @@
         },
         {
             "source_path": "connected-environment/get-started.md",
-            "redirect_url": "/azure/dev-spaces/get-started/",
+            "redirect_url": "/azure/dev-spaces/",
             "redirect_document_id": false
         },
         {
@@ -2563,7 +2563,7 @@
         },
         {
             "source_path": "connected-environment/how-to/use-a-custom-nuget-feed.md",
-            "redirect_url": "/azure/dev-spaces/how-to/use-a-custom-nuget-feed",
+            "redirect_url": "/azure/dev-spaces/how-to/use-custom-nuget-feed",
             "redirect_document_id": false
         },
         {
