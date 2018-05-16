@@ -36,7 +36,7 @@ To see which versions of Visual Studio support each feature, see [Version suppor
 |**Understand class structures:**<br /><br /> Visualize the structure of classes in a project by creating class diagrams from code.|[How to: Add Class Diagrams to Projects (Class Designer)](../ide/how-to-add-class-diagrams-to-projects-class-designer.md)|
 |**Describe the high-level system design and validate code against this design:**<br /><br /> Describe the high-level system design and its intended dependencies by creating dependency diagrams. Validate code against this design to make sure dependencies in code remain consistent with the design.|- [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)<br />- [Dependency Diagrams: Reference](../modeling/layer-diagrams-reference.md)<br />- [Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)<br />- [Validate code with dependency diagrams](../modeling/validate-code-with-layer-diagrams.md)|
 
-## See Also
+## See also
 
 - [Scenario: Change your design using visualization and modeling](../modeling/scenario-change-your-design-using-visualization-and-modeling.md)
 - [Analyze and Model Architecture](../modeling/analyze-and-model-your-architecture.md)
