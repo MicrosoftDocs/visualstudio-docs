@@ -12,13 +12,11 @@ ms.workload:
 ---
 # Code maps for C++ projects
 
-If you want to create more complete maps for C++ projects, set the browse information compiler option (**/FR**) on those projects. Otherwise, a message appears and prompts you to set this option. If you select **OK**, this sets the option for just the current map. You can choose to hide the message for all later maps. If you hide this message, you can make it appear again. Set the following registry key to **0** or delete the key:
+If you want to create more complete maps for C++ projects, set the browse information compiler option (**/FR**) on those projects. Otherwise, a message appears and prompts you to set this option. If you select **OK**, this sets the option for just the current map. You can choose to hide the message for all later maps.
 
-**HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\14.0\NativeProvider : AutoEnableSbr**
+When you open a solution that contains Visual C++ projects, it might take some time to update the IntelliSense database. During this time, you might not be able to create code maps for header (*.h* or `#include`) files until the IntelliSense database finishes updating. You can monitor the update progress in the Visual Studio status bar.
 
-When you open a solution that contains Visual C++ projects, it might take some time to update the IntelliSense database. During this time, you might not be able to create code maps for header (*.h* or `#include`) files until the IntelliSense database finishes updating. You can monitor the update progress in the Visual Studio status bar. To resolve issues or messages that appear because certain IntelliSense settings are disabled, see [Troubleshoot maps for C and C++ code](#Troubleshooting).
-
-- To see dependencies between all source files and header files in your solution, on the **Architecture** menu, choose **Generate Graph of Include Files**.
+- To see dependencies between all source files and header files in your solution, select **Architecture** > **Generate Graph of Include Files**.
 
    ![Dependency graph for native code](../modeling/media/dependencygraphgeneral_nativecode.png)
 
@@ -34,7 +32,7 @@ These items aren't supported for C and C++ code:
 
 - Most **Show** menu items aren't available for C and C++ code.
 
-These issues might happen when you create code maps for C and C++ code:
+These issues might occur when you create code maps for C and C++ code:
 
 |**Issue**|**Possible cause**|**Resolution**|
 |---------------|------------------------|--------------------|

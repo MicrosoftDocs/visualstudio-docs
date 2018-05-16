@@ -6,22 +6,11 @@ f1_keywords:
   - "vs.progression.codemap"
   - "vs.progression.standardgraphsdialog"
 helpviewer_keywords:
-  - "Visual Studio Ultimate, dependency graphs"
-  - "code exploration, dependency graphs"
-  - "dependency graphs, exporting"
-  - "code exploration, relationships"
   - "DGML"
   - "graph documents"
-  - "code visualization [Visual Studio ALM]"
-  - "graph documents, saving"
+  - "code visualization [Visual Studio]"
   - "dependencies, visualizing"
-  - "dependency graphs, saving"
-  - "Visual Studio Ultimate, code visualization"
-  - "code, visualizing"
-  - "dependency graphs, creating"
   - "dependency graphs"
-  - "graph documents, exporting"
-  - "code exploration, visualizing"
 author: gewarren
 ms.author: gewarren
 manager: douge
@@ -36,14 +25,10 @@ You can visualize dependencies across your code by creating a code map. Code map
 
 ![View dependencies across your solutions](../modeling/media/codemapsmainintro.png)
 
-To use code maps you need either Visual Studio Enterprise or Visual Studio Professional:
-
-- Enterprise: Create code maps from the code editor, **Solution Explorer**, **Class View**, or **Object Browser**.
-
-- Professional: Open code maps, make limited edits, and navigate code.
+To use code maps, you need Visual Studio Enterprise or Professional edition. The code map functionality in Professional edition is slightly more limited than in Enterprise edition.
 
 > [!NOTE]
-> Before you share maps created in Visual Studio Enterprise with others who use Visual Studio Professional, make sure that all the items on the map (such as hidden items, expanded groups, and cross-group links) are made visible.
+> Before you share maps created in Visual Studio Enterprise with others who use Visual Studio Professional, make sure that all the items on the map (such as hidden items, expanded groups, and cross-group links) are visible.
 
 You can map dependencies for code in these languages:
 
@@ -72,20 +57,20 @@ To create a code map in Visual Studio 2017, first install the **Code Map** and *
 
    The **Code Map** and **Live Dependency Validation** components begin installing. You may be asked to close Visual Studio.
 
-## Create a code map
+## Add a code map
 
 You can create an empty code map and drag items onto it, including assembly references, files and folders, or you can generate a code map for all or part of your solution.
 
-## Add an empty code map
+To add an empty code map:
 
-1. In **Solution Explorer**, open the shortcut menu for your top-level solution node. Choose **Add** then choose **New Item**.
+1. In **Solution Explorer**, open the shortcut menu for your top-level solution node. Choose **Add** > **New Item**.
 
-2. Under **Installed**, choose **General**.
+2. In the **Add New Item** dialog, under **Installed**, choose the **General** category.
 
-3. In the right pane, choose the **Directed Graph Document(.dgml)** template and then select **Add**.
+3. Choose the **Directed Graph Document(.dgml)** template and then select **Add**.
 
    > [!TIP]
-   > This template may not appear alphabetically, so scroll down to the bottom of the template list for **General** if you don't see it.
+   > This template may not appear alphabetically, so scroll down to the bottom of the template list if you don't see it.
 
    A blank map appears in your solution's **Solution Items** folder.
 
@@ -118,7 +103,7 @@ To see all the dependencies in your solution:
    Or use the keyboard by selecting the item then pressing the plus key (**+**). To explore deeper levels of code, do the same for namespaces, types, and members.
 
    > [!TIP]
-   > For more details of working with code maps using the mouse, keyboard, and touch, see [Browse and rearrange code maps](../modeling/browse-and-rearrange-code-maps.md).
+   > For more details about working with code maps using the mouse, keyboard, and touch, see [Browse and rearrange code maps](../modeling/browse-and-rearrange-code-maps.md).
 
 5. To simplify the map and focus on individual parts, choose **Filters** on the code map toolbar and select just the types of nodes and links you are interested in. For example, you can hide all the Solution Folder and Assembly containers.
 
@@ -175,7 +160,7 @@ Suppose you have a code review to perform in some files with pending changes. To
 
 1. On the **Solution Explorer** toolbar, choose **Show on Code Map** ![Create New Graph From Selected Nodes Button](../modeling/media/createnewgraphfromselectedbutton.gif). Or, open the shortcut menu for one or a group of items and choose **Show on Code Map**.
 
-   You can also drag items from **Solution Explorer**, **Class View**, or **Object Browser**, into a [new](#add-an-empty-code-map) or existing code map. To include the parent hierarchy for your items, press and hold the **Ctrl** key while you drag items, or use the **Include Parents** button on the code map toolbar to specify the default action. You can also drag assembly files from outside Visual Studio, such as from **Windows Explorer**.
+   You can also drag items from **Solution Explorer**, **Class View**, or **Object Browser**, into a [new](#add-a-code-map) or existing code map. To include the parent hierarchy for your items, press and hold the **Ctrl** key while you drag items, or use the **Include Parents** button on the code map toolbar to specify the default action. You can also drag assembly files from outside Visual Studio, such as from **Windows Explorer**.
 
    > [!NOTE]
    > When you add items from a project that's shared across multiple apps, like Windows Phone or Microsoft Store, those items appear on the map with the currently active app project. If you change context to another app project and add more items from the shared project, those items now appear with the newly active app project. Operations that you perform with an item on the map apply only to those items that share the same context.
@@ -190,7 +175,7 @@ Suppose you have a code review to perform in some files with pending changes. To
 
    To expand all items, select them using **Ctrl**+**A**, then open the shortcut menu for the map and choose **Group** > **Expand**. However, this option isn't available if expanding all groups creates an unusable map or memory issues.
 
-5. Continue to expand items you are interested in, right down to the class and member level if required.
+5. Continue to expand items you are interested in, right down to the class and member level if necessary.
 
    ![Expand groups to class and member level](../modeling/media/codemapsexpandtoclassandmember.png)
 
@@ -239,7 +224,7 @@ Suppose you have a code review to perform in some files with pending changes. To
 
     ![Show methods called by this member](../modeling/media/codemapsshowrelatedmethods.png)
 
-7. The map shows the relationships. In this example, the methods called by the `Find` method, and their location in the solution or externally.
+7. The map shows the relationships. In this example, the map shows the methods called by the `Find` method and their location in the solution or externally.
 
    ![Show specific dependencies on a code map](../modeling/media/codemapsspecificdependenciesintro.png)
 

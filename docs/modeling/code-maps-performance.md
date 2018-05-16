@@ -12,15 +12,15 @@ ms.workload:
 ---
 # Improve performance for code maps
 
-When you generate a map for the first time, Visual Studio indexes all the dependencies that it finds. This process might take some time, especially for large solutions, but will improve performance later. If your code changes, Visual Studio re-indexes just the updated code. To minimize the time taken for the map to finish rendering, consider the following:
+When you generate a map for the first time, Visual Studio indexes all the dependencies that it finds. This process might take some time, especially for large solutions, but improves later performance. If your code changes, Visual Studio reindexes just the updated code. To minimize the time taken for the map to finish rendering, consider the following suggestions:
 
 - [Map only the dependencies that interest you.](#create-a-code-map-to-see-specific-dependencies)
 
 - Before you generate the map for an entire solution, reduce the solution scope.
 
-- Turn off automatic build for the solution with the **Skip Build** button on the code map toolbar.
+- Turn off automatic build for the solution by selecting **Skip Build** on the code map toolbar.
 
-- Turn off automatic adding of parent items with the **Include Parents** button on the code map toolbar.
+- Turn off automatic adding of parent items by selecting **Include Parents** on the code map toolbar.
 
    ![Skip Build and Include Parents buttons](../modeling/media/codemapsfilterskipbuildicons.png)
 
