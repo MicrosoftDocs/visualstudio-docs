@@ -76,7 +76,7 @@ You will continue managing subscriptions through the VLSC until you receive the 
 Sign in to the [VLSC](https://www.microsoft.com/Licensing/servicecenter/default.aspx) and navigate the following path: **Subscriptions** > **Visual Studio Subscriptions**. The PCN is located below the **Agreement/Public Customer Number Results**. Get step by step guidance on locating your PCN in this [help article](/find-pcn/). 
 
 ### How do I find out who my Primary or Notices Contact is?
-Sign in to the [VLSC](https://www.microsoft.com/Licensing/servicecenter/default.aspx) and navigate the following path: **Licenses > Relationship Summary**  Select your **Licensing ID > Contacts**. Get step by step guidance on finding your Primary or Notices Contact in this [help article](/find-primary-contact/). 
+Sign in to the [VLSC](https://www.microsoft.com/Licensing/servicecenter/default.aspx) and navigate the following path: **Licenses > Relationship Summary**  Select your **Licensing ID > Contacts**. Get step by step guidance on finding your Primary or Notices Contact in this [help article](find-primary-contact.md). 
 
 ### What if my Primary or Notices Contact is gone, no longer with the company or not available to complete onboarding?
 You will need to [contact support](https://www.visualstudio.com/subscriptions/support/#talktous) and provide the email that you used in the VLSC for managing subscriptions. Once verified, support will be able to assist you in the onboarding process. 
@@ -104,8 +104,8 @@ For the most up to date information regarding this migration, please visit our V
 
 - Visual Studio subscriptions and management [support](https://www.visualstudio.com/subscriptions/support/) 
 
-- [How to find my PCN](/find-pcn/)
+- [How to find my PCN](find-pcn.md)
 
-- [How to find my Primary or Notices Contact](/find-primary-contact/) 
+- [How to find my Primary or Notices Contact](find-primary-contact.md) 
 
 - [Video](https://www.youtube.com/watch?v=ZmnywYGSFMg&list=PLReL099Y5nRfDyvvwzNDBaZe7qTxmuM2T&index=1&t=0s) for onboarding your organization and managing administrators 
