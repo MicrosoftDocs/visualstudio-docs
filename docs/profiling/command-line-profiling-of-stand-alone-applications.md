@@ -27,6 +27,7 @@ This section describes the procedures and options for collecting performance dat
 |**Collect concurrency data:** Use the concurrency method to collect resource contention data and thread activity data that shows you CPU utilization, thread contention, thread migration, synchronization delays, areas of overlapped I/O, and other system events.|-   [Collect concurrency data](../profiling/collecting-concurrency-data-for-stand-alone-applications.md)|  
 |**Add tier-interaction data:** You can add performance data about synchronous ADO.NET calls that the application made to a Microsoft [!INCLUDE[ssNoVersion](../data-tools/includes/ssnoversion_md.md)] database. Adding tier interaction data to a profiling run requires specific procedures with the command line profiling tools.|-   [Collect tier interaction data](../profiling/adding-tier-interaction-data-from-the-command-line.md)|  
 |**Try it out:** Use step-by-step procedures to profile a sample client application by using the sampling or instrumentation method.|-   [Walkthrough: Command-line profiling using sampling](../profiling/walkthrough-command-line-profiling-using-sampling.md)<br />-   [Walkthrough: Command-line profiling using instrumentation](../profiling/walkthrough-command-line-profiling-using-instrumentation.md)|  
+
   
 ## Related tasks  
   
