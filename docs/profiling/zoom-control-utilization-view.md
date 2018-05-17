@@ -15,10 +15,10 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Zoom Control (Utilization View)
+# Zoom control (utilization view)
 The zoom control helps you zoom in on the CPU utilization chart in order to focus on areas of particular interest. This control zooms in on the center of the view. Therefore, you should center the area of interest before you zoom in.  
   
  You can drag the mouse pointer in the CPU utilization chart or GPU activity chart to create a highlighted area. When the mouse button is released, the view zooms in on the selected range.  
   
-## See Also  
- [Utilization View](../profiling/utilization-view.md)
+## See also  
+ [Utilization view](../profiling/utilization-view.md)
