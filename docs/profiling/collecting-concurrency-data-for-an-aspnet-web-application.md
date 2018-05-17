@@ -1,5 +1,5 @@
 ---
-title: "Collecting Concurrency Data for an ASP.NET Web Application Using the Profiler Command Line | Microsoft Docs"
+title: "Collect concurrency data for an ASP.NET Web Application Using the Profiler Command Line | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: "vs-ide-debug"
@@ -14,6 +14,7 @@ manager: douge
 ms.workload: 
   - "aspnet"
 ---
+
 # Collect concurrency data for an ASP.NET web application using the profiler command line
 The concurrency method of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools enables you to collect resource contention data.  
   
@@ -35,6 +36,7 @@ The concurrency method of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.m
 |**Profile by using the sampling method**|-   [Collect application statistics using sampling](../profiling/collecting-application-statistics-for-aspnet-using-the-profiler-sampling-method.md)|  
 |**Profile by using the instrumentation method**|-   [Collect detailed timing data using instrumentation](../profiling/collecting-detailed-timing-data-aspnet-profiler-instrumentation-method.md)|  
 |**Profile memory allocation and garbage collection**|-   [Collect memory data](../profiling/collecting-memory-data-from-an-aspnet-web-application.md)|  
+
   
 ### Profile concurrency issues  
   

@@ -20,14 +20,17 @@ This section describes the procedures and options for collecting detailed perfor
 > [!NOTE]
 >  The **VSPerfCmd** tool provides you with complete access to Profiling Tools functionality, including pausing and resuming profiling, and collecting additional data from processor and Windows performance counters. You can also use the  **VSPerfASPNETCmd** command-line tool when you do not need this functionality. In comparison to the [VSPerfCmd](../profiling/vsperfcmd.md) command-line tool, no environment variables have to be set, and rebooting the computer is not required. For more information, see [Rapid web site profiling with VSPerfASPNETCmd](../profiling/rapid-web-site-profiling-with-vsperfaspnetcmd.md).  
   
-## Common tasks
+
+## Common tasks  
   
 |Task|Related Content|  
 |----------|---------------------|  
 |**Profile statically compiled binaries**|-   [How to: Instrument a statically compiled ASP.NET application and collect detailed timing data](../profiling/how-to-instrument-statically-compiled-aspnet-and-collect-detailed-timing-data.md)|  
 |**Profile dynamically compiled binaries**|-   [How to: Instrument a dynamically compiled ASP.NET application and collect detailed timing data](../profiling/how-to-instrument-a-dynamically-compiled-aspnet-app-and-collect-timing-data.md)|  
   
+
 ## Related tasks
+
   
 ### Profile ASP.NET web applications  
   
@@ -35,7 +38,7 @@ This section describes the procedures and options for collecting detailed perfor
 |----------|---------------------|  
 |**Profile by using the sampling method**|-   [Collect application statistics using sampling](../profiling/collecting-application-statistics-for-aspnet-using-the-profiler-sampling-method.md)|  
 |**Profile memory allocation and garbage collection**|-   [Collect memory data](../profiling/collecting-memory-data-from-an-aspnet-web-application.md)|  
-|**Profile resource contention and thread activity**|-   [Collecting Concurrency Data](../profiling/collecting-concurrency-data-for-an-aspnet-web-application.md)|  
+|**Profile resource contention and thread activity**|-   [Collect concurrency data](../profiling/collecting-concurrency-data-for-an-aspnet-web-application.md)|  
   
 ### Profile by using the instrumentation method  
   

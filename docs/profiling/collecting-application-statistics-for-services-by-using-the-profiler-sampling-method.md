@@ -35,12 +35,15 @@ This section describes the procedures and options for collecting performance sta
 |**Profile .NET memory allocation and garbage collection**|-   [Collect .NET memory data](../profiling/collecting-memory-data-from-dotnet-framework-services-by-using-the-profiler-command-line.md)|  
 |**Profile resource contention and thread activity**|-   [Collect concurrency data](../profiling/collecting-concurrency-data-for-a-service-by-using-the-profiler-command-line.md)|  
   
-### Profile by Using the Sampling Method  
+
+### Profile by using the sampling method  
   
 |Task|Related Content|  
 |----------|---------------------|  
-|**Profile stand-alone (client) applications**|-   [Collect application statistics using sampling](../profiling/collecting-application-statistics-for-stand-alone-applications.md)|  
-|**Profile ASP.NET Web applications**|-   [Collect application statistics using sampling](../profiling/collecting-application-statistics-for-aspnet-using-the-profiler-sampling-method.md)|  
+|**Profile stand-alone (client) applications**|-   [Collecting application statistics using sampling](../profiling/collecting-application-statistics-for-stand-alone-applications.md)|  
+|**Profile ASP.NET Web applications**|-   [Collecting application statistics using sampling](../profiling/collecting-application-statistics-for-aspnet-using-the-profiler-sampling-method.md)|  
   
 ### Analyze sampling data views and reports  
- [Sampling Method Data Views](../profiling/profiler-sampling-method-data-views.md)
+ [Sampling method data views](../profiling/profiler-sampling-method-data-views.md)
+
+  
