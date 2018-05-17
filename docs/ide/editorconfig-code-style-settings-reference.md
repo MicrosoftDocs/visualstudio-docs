@@ -79,7 +79,7 @@ The following list shows the allowable language convention rules:
         - dotnet\_style\_coalesce_expression
         - dotnet\_style\_null_propagation
 - C# code style settings
-    - [Implicit and explicit types](#var)
+    - [Implicit and explicit types](#implicit-and-explicit-types)
         - csharp\_style\_var\_for\_built\_in_types
         - csharp\_style\_var\_when\_type\_is_apparent
         - csharp\_style\_var_elsewhere
@@ -587,7 +587,7 @@ dotnet_style_null_propagation = true:suggestion
 
 The style rules in this section are applicable to C# only.
 
-#### <a name="var"></a>Implicit and explicit types
+#### Implicit and explicit types
 
 The style rules in this section (rule IDs IDE0007 and IDE0008) concern the use of the [var](/dotnet/csharp/language-reference/keywords/var) keyword versus an explicit type in a variable declaration. This rule can be applied separately to built-in types, when the type is apparent, and elsewhere.
 
