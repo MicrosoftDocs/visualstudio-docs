@@ -42,5 +42,5 @@ The subscriber you designated will now appear in the center of the page, and her
 The new administrator can now sign in to the [management portal](https://manage.visualstudio.com), select the same Azure subscription that was used to purchase the cloud subscriptions from the list in the upper left corner of the page, and begin to manage those subscriptions. 
 
 
-For information about Visual Studio Cloud subscriptions, see the [Overview](/vscloud-overview/) under Buying Cloud Subscriptions. To purchase Visual Studio Cloud subscriptions, visit the Visual Studio Marketplace at [https://marketplace.visualstudio.com/subscriptions](https://marketplace.visualstudio.com/subscription). 
+For information about Visual Studio Cloud subscriptions, see the [Overview](vscloud-overview.md) under Buying Cloud Subscriptions. To purchase Visual Studio Cloud subscriptions, visit the Visual Studio Marketplace at [https://marketplace.visualstudio.com/subscriptions](https://marketplace.visualstudio.com/subscription). 
 

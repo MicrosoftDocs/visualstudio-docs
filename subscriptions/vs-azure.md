@@ -70,7 +70,8 @@ A:  Submitting a support incident from the Azure portal is a three-step process.
 1. Activate your technical support benefit, and obtain your Contract ID Access ID.
 2. Link your support contract to your Azure subscription.
 3. Submit a support incident.
-Please visit the [Technical Support](/visualstudio/subscriptions/vs-tech-support) documentation for complete details.
+
+Please visit the [Technical support](vs-tech-support.md) documentation for complete details.
 
 ### Q: I’ve received a message stating that my access to Azure will end soon.  What can I do to continue using Azure?
 
