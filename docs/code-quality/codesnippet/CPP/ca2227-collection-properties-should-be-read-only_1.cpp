@@ -6,7 +6,7 @@ namespace UsageLibrary
    public ref class WritableCollection
    {
    public:
-      // Violates the rule.
+      // This property violates rule CA2227.
       property ArrayList^ SomeStrings;
 
       WritableCollection()
@@ -24,11 +24,13 @@ void main()
    ArrayList^ newCollection = gcnew ArrayList(
       gcnew array<String^> {"a", "new", "collection"} );
 
-   // strings is directly replaced with newCollection.
    WritableCollection^ collection = gcnew WritableCollection();
+   // This line of code demonstrates how the entire collection
+   // can be replaced by a property that's not read-only.
    collection->SomeStrings = newCollection;
 
-   // newCollection is added to the cleared strings collection.
+   // If the intent is to replace an entire collection,
+   // implement Clear() and AddRange() methods instead.
    collection->SomeStrings->Clear();
    collection->SomeStrings->AddRange(newCollection);
 }
