@@ -32,16 +32,15 @@ Visual Studio Dev Essentials members are eligible to create a free account that 
 
 > [!NOTE]
 > Depending on your screen resolution and zoom level, you may need to scroll down to see the **Activate My Subscription Now** button.
+    > [!NOTE]
+    > If you receive an error that you must be signed in as the person who received the benefit, follow these steps:
+    > 1. Close the browser window with Xamarin University.
+    > 2. In the my.visualstudio.com portal, click **Sign out**.
+    > 3. Close all browser windows. 
+    > 4. Open a new browser and connect to [https://my.visualstudio.com](https://my.visualstudio.com).
+    > 5. Activate the Xamarin University Training benefit again. 
 
-> [!NOTE]
-> If you receive an error that you must be signed in as the person who received the benefit, follow these steps:
-> 1. Close the browser window with Xamarin University.
-> 2. In the my.visualstudio.com portal, click **Sign out**.
-> 3. Close your browser completely. 
-> 4. Open a new browser and connect to [https://my.visualstudio.com](https://my.visualstudio.com).
-> 5. Activate the Xamarin University Training benefit again. 
-
-4.	You'll see a sign in page, with a notice that Xamarin recently moved to Microsoft authentication.  Click **Connect with Microsoft**. 
+4.	You'll see a sign-in page, with a notice that Xamarin recently moved to Microsoft authentication.  Click **Connect with Microsoft**. 
 
     <img alt="Connect with Microsoft" src="_img/vs-xamarin/vs-xamarin-connect.png" style="border: 1px solid #CCCCCC" />
 
@@ -49,8 +48,8 @@ Visual Studio Dev Essentials members are eligible to create a free account that 
 
     <img alt="Approve access" src="_img/vs-xamarin/vs-xamarin-access.png" style="border: 1px solid #CCCCCC" />
 
-> [!NOTE]
-> Since signing in is necessary to use the Xamarin University benefit, clicking **No** will return you to the previous page and you will not be able to continue to the training. 
+    > [!NOTE]
+    > Since signing in is necessary to use the Xamarin University benefit, clicking **No** will return you to the previous page and you will not be able to continue to the training. 
 
 
 6. You'll see a welcome message about your new account.  Click **Start Learning**.
