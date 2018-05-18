@@ -46,7 +46,7 @@ The Call Tree view displays the function execution paths that were traversed in 
 |**Exclusive Bytes**|The number of bytes in memory that were allocated by the instances of this function that were called by the parent function in the call tree. This number does not include allocations that were made by child functions.|  
 |**Exclusive Bytes %**|The percentage of all bytes of memory that were allocated in the profiling run that were exclusive allocations of this function.|  
   
-## See Also  
+## See also  
  [Call Tree view - instrumentation](../profiling/call-tree-view-dotnet-memory-instrumentation-data.md)   
  [Call Tree view](../profiling/call-tree-view-sampling-data.md)   
  [Call Tree view](../profiling/call-tree-view-instrumentation-data.md)
