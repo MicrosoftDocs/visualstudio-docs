@@ -66,7 +66,7 @@
 ## [Debug in Visual Studio](debugger/getting-started-with-the-debugger.md?context=visualstudio/default)
 # How-to guides
 ## [Develop](ide/index-writing-code.md)
-### [Move around in the Visual Studio IDE](ide/how-to-move-around-in-the-visual-studio-ide.md)
+### [Move around in the IDE](ide/how-to-move-around-in-the-visual-studio-ide.md)
 ### [Work with solutions and projects](ide/solutions-and-projects-in-visual-studio.md)
 #### [Create solutions and projects](ide/creating-solutions-and-projects.md)
 #### [Port, migrate, and upgrade projects](porting/port-migrate-and-upgrade-visual-studio-projects.md)
@@ -97,7 +97,7 @@
 #### [Customize project and item templates](ide/customizing-project-and-item-templates.md)
 ##### [Update existing templates](ide/how-to-update-existing-templates.md)
 ##### [Substitute parameters in a template](ide/how-to-substitute-parameters-in-a-template.md)
-#### [Visual Studio IDE 64-bit support](ide/visual-studio-ide-64-bit-support.md)
+#### [64-bit support](ide/visual-studio-ide-64-bit-support.md)
 ### [Develop without projects or solutions ("Open Folder")](ide/develop-code-in-visual-studio-without-projects-or-solutions.md)
 #### [Customize build and debug tasks](ide/customize-build-and-debug-tasks-in-visual-studio.md)
 ### [Use the editor](ide/writing-code-in-the-code-and-text-editor.md)
