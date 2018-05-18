@@ -18,14 +18,17 @@ ms.workload:
 ---
 # Go To Line dialog box
 
-This dialog box allows you to move to a specific line in the active document. To access this dialog box, open a document for editing, then select **Go To** on the **Edit** menu.
+The **Go To Line** dialog box lets you move to a specific line in the active document. To access this dialog box, open a document for editing, and then select **Edit** > **Go To** > **Go To Line** or press **Ctrl**+**G**.
 
-## Line number (1 - `n`)
+![Go To Line dialog box in Visual Studio](media/go-to-line-dialog-box.png)
 
-Allows you to enter the number of the line in the active document to which you want to move. The number entered must fall between 1 and `n`, the number of lines in the current document.
+## Line number (1 - \<n>)
+
+In the **Line number (1 - \<n>)** box, enter the number of the line in the active document that you want to move to. The number entered must fall between 1 and the last line number in the current document.
 
 ## See Also
 
-- [Setting Bookmarks in Code](../../ide/setting-bookmarks-in-code.md)
-- [Finding and Replacing Text](../../ide/finding-and-replacing-text.md)
-- [Writing Code](../../ide/writing-code-in-the-code-and-text-editor.md)
+- [Find code using Go To commands](../../ide/go-to.md)
+- [Set bookmarks in code](../../ide/setting-bookmarks-in-code.md)
+- [Find and replace text](../../ide/finding-and-replacing-text.md)
+- [Features of the code editor](../../ide/writing-code-in-the-code-and-text-editor.md)

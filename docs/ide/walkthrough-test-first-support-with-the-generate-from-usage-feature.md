@@ -155,7 +155,7 @@ Assume that the specification states that a new `Automobile` can be put into a `
 ## See also
 
 - [Generate from usage](../ide/visual-csharp-intellisense.md#generate-from-usage)
-- [Write code](../ide/writing-code-in-the-code-and-text-editor.md)
+- [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)
 - [Use IntelliSense](../ide/using-intellisense.md)
 - [Unit test your code](../test/unit-test-your-code.md)
 - [Quick Actions](../ide/quick-actions.md)
