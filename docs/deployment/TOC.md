@@ -8,7 +8,7 @@
 ## [Deploy to Azure](quickstart-deploy-to-azure.md)
 # Tutorials
 ## .NET
-### [Deploy a .NET Core Application with the Publish tool](/dotnet/core/deploying/deploy-with-vs)
+### [Deploy a .NET Core Application with the Publish tool](/dotnet/core/deploying/deploy-with-vs?context=visualstudio/default)
 ### [Package a desktop app for Microsoft Store (Desktop Bridge)](/windows/uwp/porting/desktop-to-uwp-packaging-dot-net)
 ### [Deploy a desktop app using ClickOnce](how-to-publish-a-clickonce-application-using-the-publish-wizard.md)
 ### [Building ClickOnce Applications from the Command Line](building-clickonce-applications-from-the-command-line.md)
