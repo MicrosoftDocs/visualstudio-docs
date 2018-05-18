@@ -1,43 +1,40 @@
-using System;
 using System.Collections;
 
-namespace UsageLibrary
+namespace csharp_code_analysis_examples
 {
-   public class WritableCollection
-   {
-      ArrayList strings;
+    public class WritableCollection
+    {
+        public ArrayList SomeStrings
+        {
+            get;
 
-      public ArrayList SomeStrings
-      {
-         get { return strings; }
+            // This set accessor violates rule CA2227.
+            // To fix the code, remove this set accessor.
+            set;
+        }
 
-         // This property violates rule CA2227.
-         set { strings = value; }
-      }
+        public WritableCollection()
+        {
+            SomeStrings = new ArrayList(new string[] { "one", "two", "three" });
+        }
+    }
 
-      public WritableCollection()
-      {
-         strings = new ArrayList(
-            new string[] {"IEnumerable", "ICollection", "IList"} );
-      }
-   }
+    class ReplaceWritableCollection
+    {
+        static void Main()
+        {
+            ArrayList newCollection = new ArrayList(new string[] { "a", "new", "collection" });
 
-   class ReplaceWritableCollection
-   {
-      static void Main()
-      {
-         ArrayList newCollection = new ArrayList(
-            new string[] {"a", "new", "collection"} );
+            WritableCollection collection = new WritableCollection();
 
-         WritableCollection collection = new WritableCollection();
-         // This line of code demonstrates how the entire collection
-         // can be replaced by a property that's not read-only.
-         collection.SomeStrings = newCollection;
+            // This line of code demonstrates how the entire collection
+            // can be replaced by a property that's not read only.
+            collection.SomeStrings = newCollection;
 
-         // If the intent is to replace an entire collection,
-         // implement Clear() and AddRange() methods instead.
-         collection.SomeStrings.Clear();
-         collection.SomeStrings.AddRange(newCollection);
-      }
-   }
+            // If the intent is to replace an entire collection,
+            // implement and/or use the Clear() and AddRange() methods instead.
+            collection.SomeStrings.Clear();
+            collection.SomeStrings.AddRange(newCollection);
+        }
+    }
 }
