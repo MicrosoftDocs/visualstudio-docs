@@ -36,7 +36,7 @@ ms.workload:
   
 |Attribute|Description|  
 |---------------|-----------------|  
-|**Target**|Required **xs:string** attribute.<br /><br /> The path of the folder in the SharePoint installation that the mapped folder corresponds to, relative to the deployment root folder. The deployment root folder is determined by the deployment type specified by the **Type** attribute.<br /><br /> For more information, see the descriptions for the **Deployment Path** and **Deployment Root** properties of SharePoint project items in [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md).|  
+|**Target**|Required **xs: string** attribute.<br /><br /> The path of the folder in the SharePoint installation that the mapped folder corresponds to, relative to the deployment root folder. The deployment root folder is determined by the deployment type specified by the **Type** attribute.<br /><br /> For more information, see the descriptions for the **Deployment Path** and **Deployment Root** properties of SharePoint project items in [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md).|  
 |**Type**|Required **xs:string** attribute.<br /><br /> The type of deployment for the mapped folder. For more information about the possible values, see the description for the **Deployment Type** property of SharePoint project items in [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md).|  
   
 ### Child Elements  
@@ -46,7 +46,7 @@ ms.workload:
   
 |Element|Description|  
 |-------------|-----------------|  
-|[ProjectItem](../sharepoint/projectitem-element.md)|Represents a SharePoint project item. This is the required root element of the .spdata file.|  
+|[ProjectItem](../sharepoint/projectitem-element.md)|Represents a SharePoint project item. This element the required root element of the `.spdata` file.|  
   
 ## Remarks  
  For more information about mapped folders, see [How to: Add and Remove Mapped Folders](../sharepoint/how-to-add-and-remove-mapped-folders.md).  
