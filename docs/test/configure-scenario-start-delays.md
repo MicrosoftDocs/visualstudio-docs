@@ -67,7 +67,7 @@ The **Disable During Warmup** property is set by using the Properties window. Ed
 
      The **Load Test Editor** appears. The load test tree is displayed.
 
-2. In the load test trees **Scenarios** folder, choose the scenario node that you want change the warmup behavior for.
+2. In the load test trees **Scenarios** folder, choose the scenario node that you want to change the warmup behavior for.
 
 3. On the **View** menu, select **Properties Window**.
 
