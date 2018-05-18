@@ -8,26 +8,26 @@
 ## [Deploy to Azure](quickstart-deploy-to-azure.md)
 # Tutorials
 ## .NET
-### [Deploy a .NET Core Application with the Publish tool](/dotnet/core/deploying/deploy-with-vs?context=visualstudio/deployment/default)
-### [Package a desktop app for Microsoft Store (Desktop Bridge)](/windows/uwp/porting/desktop-to-uwp-packaging-dot-net?toc=/visualstudio/deployment/toc.json)
+### [Deploy a .NET Core Application with the Publish tool](/dotnet/core/deploying/deploy-with-vs?toc=/visualstudio/deployment/toc.json&bc=/visualstudio/deployment/_breadcrumb/toc.json)
+### [Package a desktop app for Microsoft Store (Desktop Bridge)](/windows/uwp/porting/desktop-to-uwp-packaging-dot-net?toc=/visualstudio/deployment/toc.json&bc=/visualstudio/deployment/_breadcrumb/toc.json)
 ### [Deploy a desktop app using ClickOnce](how-to-publish-a-clickonce-application-using-the-publish-wizard.md)
 ### [Building ClickOnce Applications from the Command Line](building-clickonce-applications-from-the-command-line.md)
 ## ASP.NET
-### [Publish an ASP.NET Core app to Azure](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs?toc=/visualstudio/deployment/toc.json)
+### [Publish an ASP.NET Core app to Azure](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs?toc=/visualstudio/deployment/toc.json&bc=/visualstudio/deployment/_breadcrumb/toc.json)
 ### [Import publish settings and deploy to Azure](tutorial-import-publish-settings-azure.md)
 ### [Import publish settings and deploy to IIS](tutorial-import-publish-settings-iis.md)
-### [Continuous deployment of ASP.NET Core to Azure with Git](/aspnet/core/publishing/azure-continuous-deployment)
-### [Deploy ASP.NET to IIS](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45)
+### [Continuous deployment of ASP.NET Core to Azure with Git](/aspnet/core/publishing/azure-continuous-deployment?toc=/visualstudio/deployment/toc.json&bc=/visualstudio/deployment/_breadcrumb/toc.json)
+### [Deploy ASP.NET to IIS](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45?toc=/visualstudio/deployment/toc.json&bc=/visualstudio/deployment/_breadcrumb/toc.json)
 ## Native
 ### [Deployment in Visual C++...](/cpp/ide/deployment-in-visual-cpp)
-### [Package a desktop app for Microsoft Store (Desktop Bridge)](/windows/uwp/porting/desktop-to-uwp-packaging-dot-net)
+### [Package a desktop app for Microsoft Store (Desktop Bridge)](/windows/uwp/porting/desktop-to-uwp-packaging-dot-net?toc=/visualstudio/deployment/toc.json&bc=/visualstudio/deployment/_breadcrumb/toc.json)
 ### [Deploy a native app using ClickOnce...](/cpp/ide/clickonce-deployment-for-visual-cpp-applications)
 ## UWP
-### [Package a UWP app by using Visual Studio](/windows/uwp/packaging/packaging-uwp-apps)
+### [Package a UWP app by using Visual Studio](/windows/uwp/packaging/packaging-uwp-apps?toc=/visualstudio/deployment/toc.json&bc=/visualstudio/deployment/_breadcrumb/toc.json)
 ## Node.js
-### [Publish to Azure Website using Web Deploy](https://github.com/Microsoft/nodejstools/wiki/Publish-to-Azure-Website-using-Web-Deploy?toc=/visualstudio/deployment/toc.json)
+### [Publish to Azure Website using Web Deploy](https://github.com/Microsoft/nodejstools/wiki/Publish-to-Azure-Website-using-Web-Deploy?toc=/visualstudio/deployment/toc.json&bc=/visualstudio/deployment/_breadcrumb/toc.json)
 ## Python
-### [Publish to Azure App Service](/visualstudio/python/publishing-python-web-applications-to-azure-from-visual-studio?context=visualstudio/deployment/default)
+### [Publish to Azure App Service](/visualstudio/python/publishing-python-web-applications-to-azure-from-visual-studio?toc=/visualstudio/deployment/toc.json&bc=/visualstudio/deployment/_breadcrumb/toc.json)
 # How-to guides
 ## [ClickOnce Security and Deployment](clickonce-security-and-deployment.md)
 ### [Choosing a ClickOnce Deployment Strategy](choosing-a-clickonce-deployment-strategy.md)
