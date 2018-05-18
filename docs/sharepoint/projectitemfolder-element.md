@@ -46,7 +46,7 @@ ms.workload:
   
 |Element|Description|  
 |-------------|-----------------|  
-|[ProjectItem](../sharepoint/projectitem-element.md)|Represents a SharePoint project item. This element the required root element of the `.spdata` file.|  
+|[ProjectItem](../sharepoint/projectitem-element.md)|Represents a SharePoint project item. This element is the required root element of the `.spdata` file.|  
   
 ## Remarks  
  For more information about mapped folders, see [How to: Add and Remove Mapped Folders](../sharepoint/how-to-add-and-remove-mapped-folders.md).  
