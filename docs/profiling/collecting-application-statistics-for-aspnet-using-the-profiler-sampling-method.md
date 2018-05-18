@@ -32,7 +32,7 @@ This section describes the procedures and options for collecting performance sta
   
 ## Related tasks  
   
-### Profiling ASP.NET web applications  
+### Profile ASP.NET web applications  
   
 |Task|Related Content|  
 |----------|---------------------|  
@@ -40,7 +40,7 @@ This section describes the procedures and options for collecting performance sta
 |**Profile memory allocation and garbage collection**|-   [Collect memory data](../profiling/collecting-memory-data-from-an-aspnet-web-application.md)|  
 |**Profile resource contention and thread activity**|-   [Collect concurrency data](../profiling/collecting-concurrency-data-for-an-aspnet-web-application.md)|  
   
-### Sampling method  
+### Sample method  
   
 |Task|Related Content|  
 |----------|---------------------|  

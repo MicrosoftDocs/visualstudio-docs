@@ -43,9 +43,9 @@ This section describes the procedures and options for collecting performance sta
   
 |Task|Related content|  
 |----------|---------------------|  
-|**Profile ASP.NET web applications**|-   [Collecting application statistics using sampling](../profiling/collecting-application-statistics-for-aspnet-using-the-profiler-sampling-method.md)|  
-|**Profile services**|-   [Collecting application statistics using sampling](../profiling/collecting-application-statistics-for-services-by-using-the-profiler-sampling-method.md). Describes how to collect performance statistics from Windows services by using the sampling method.|  
+|**Profile ASP.NET web applications**|-   [Collect application statistics using sampling](../profiling/collecting-application-statistics-for-aspnet-using-the-profiler-sampling-method.md)|  
+|**Profile services**|-   [Collect application statistics using sampling](../profiling/collecting-application-statistics-for-services-by-using-the-profiler-sampling-method.md). Describes how to collect performance statistics from Windows services by using the sampling method.|  
   
 ### Analyze sampling data views and reports  
- [Sampling Method Data Views](../profiling/profiler-sampling-method-data-views.md)
+ [Sampling method data views](../profiling/profiler-sampling-method-data-views.md)
 

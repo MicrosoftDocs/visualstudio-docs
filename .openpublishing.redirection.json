@@ -2440,6 +2440,141 @@
             "source_path": "docs/vb6/vb6-support.md",
             "redirect_url": "/previous-versions/visualstudio/visual-basic-6/visual-basic-6-support-policy",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/visual-studio-connected-environment.md",
+            "redirect_url": "/azure/dev-spaces/azure-dev-spaces",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/get-started.md",
+            "redirect_url": "/azure/dev-spaces/azure-dev-spaces",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/get-started-netcore-01.md",
+            "redirect_url": "/azure/dev-spaces/get-started-netcore",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/get-started-netcore-02.md",
+            "redirect_url": "/azure/dev-spaces/get-started-netcore",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/get-started-netcore-03.md",
+            "redirect_url": "/azure/dev-spaces/get-started-netcore",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/get-started-netcore-04.md",
+            "redirect_url": "/azure/dev-spaces/get-started-netcore",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/get-started-netcore-05.md",
+            "redirect_url": "/azure/dev-spaces/get-started-netcore",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/get-started-netcore-06.md",
+            "redirect_url": "/azure/dev-spaces/get-started-netcore",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/get-started-netcore-07.md",
+            "redirect_url": "/azure/dev-spaces/get-started-netcore",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/get-started-netcore-visualstudio-01.md",
+            "redirect_url": "/azure/dev-spaces/get-started-netcore-visualstudio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/get-started-netcore-visualstudio-02.md",
+            "redirect_url": "/azure/dev-spaces/get-started-netcore-visualstudio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/get-started-netcore-visualstudio-03.md",
+            "redirect_url": "/azure/dev-spaces/get-started-netcore-visualstudio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/get-started-netcore-visualstudio-04.md",
+            "redirect_url": "/azure/dev-spaces/get-started-netcore-visualstudio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/get-started-netcore-visualstudio-05.md",
+            "redirect_url": "/azure/dev-spaces/get-started-netcore-visualstudio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/get-started-netcore-visualstudio-06.md",
+            "redirect_url": "/azure/dev-spaces/get-started-netcore-visualstudio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/get-started-netcore-visualstudio-07.md",
+            "redirect_url": "/azure/dev-spaces/get-started-netcore-visualstudio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/get-started-nodejs-01.md",
+            "redirect_url": "/azure/dev-spaces/get-started-nodejs",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/get-started-nodejs-02.md",
+            "redirect_url": "/azure/dev-spaces/get-started-nodejs",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/get-started-nodejs-03.md",
+            "redirect_url": "/azure/dev-spaces/get-started-nodejs",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/get-started-nodejs-04.md",
+            "redirect_url": "/azure/dev-spaces/get-started-nodejs",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/get-started-nodejs-05.md",
+            "redirect_url": "/azure/dev-spaces/get-started-nodejs",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/get-started-nodejs-06.md",
+            "redirect_url": "/azure/dev-spaces/get-started-nodejs",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/get-started-nodejs-07.md",
+            "redirect_url": "/azure/dev-spaces/get-started-nodejs",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/how-to/share-dev-environment.md",
+            "redirect_url": "/azure/dev-spaces/how-to/share-dev-spaces",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/how-to/use-a-custom-nuget-feed.md",
+            "redirect_url": "/azure/dev-spaces/how-to/use-custom-nuget-feed",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/how-to/use-kubectl-with-vsce.md",
+            "redirect_url": "/azure/dev-spaces/how-to/use-kubectl-with-azure-dev-spaces",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/troubleshooting.md",
+            "redirect_url": "/azure/dev-spaces/troubleshooting",
+            "redirect_document_id": false
         }
     ]
 }

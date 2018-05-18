@@ -1,6 +1,6 @@
 ---
-title: Enable access to VBA to create or open a Visual Studio Tools for the Microsoft Office System project
-decsprition: "You must explicitly enable access to the Office VBA project system before you can create or open a Visual Studio Tools for Office System project"
+title: Enable access to VBA to create or open a Visual Studio Tools for the Microsoft Office system project
+decsprition: "You must explicitly enable access to the Office VBA project system before you can create or open a Visual Studio Tools for Office system project"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: office-development
@@ -21,9 +21,9 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Enable access to VBA to create or open a Visual Studio Tools for the Microsoft Office System project
+# Enable access to VBA to create or open a Visual Studio Tools for the Microsoft Office system project
 
-You must explicitly enable access to the Visual Basic for Applications (VBA) project system in Microsoft Office before you can create or open a Visual Studio Tools for the Microsoft Office System project.
+You must explicitly enable access to the Visual Basic for Applications (VBA) project system in Microsoft Office before you can create or open a Visual Studio Tools for the Microsoft Office system project.
 
  Microsoft Office development projects require access to the Visual Basic for Applications (VBA) project system in Microsoft Office Word and Microsoft Office Excel, even though the projects do not use Visual Basic for Applications. Design-time support of controls in both Visual Basic and C# projects depends on the Visual Basic for Applications project system.
 
@@ -42,7 +42,7 @@ You must explicitly enable access to the Visual Basic for Applications (VBA) pro
 
  You can repair your installation of Office if you see VBA or COM errors.
 
-## To enable or disable access to Visual Basic Projects
+## To enable or disable access to Visual Basic projects
 
 1. Click the **File** tab.
 
@@ -56,7 +56,7 @@ You must explicitly enable access to the Visual Basic for Applications (VBA) pro
 
 6. Click **OK**.
 
-### To enable or disable access to Visual Basic Projects with the 2007 Microsoft Office system
+### To enable or disable access to Visual Basic projects with the 2007 Microsoft Office system
 
 1. On the **Tools** menu in Word or Excel, point to **Macro**, and then click **Security**.
 
@@ -122,4 +122,4 @@ You must explicitly enable access to the Visual Basic for Applications (VBA) pro
 
 ## See also
 
- [Securing Office Solutions](../vsto/securing-office-solutions.md)
+ [Secure Office solutions](../vsto/securing-office-solutions.md)
