@@ -49,8 +49,20 @@
       href: learn-django-in-visual-studio-step-05-django-authentication.md
     - name: 6 - Use the Polls Django Web Project template
       href: learn-django-in-visual-studio-step-06-polls-django-web-project-template.md
+  - name: Learn Flask in Visual Studio
+    items:    
+    - name: 1 - Create a project and solution
+      href: learn-flask-in-visual-studio-step-01-project-and-solution.md
+    - name: 2 - Create a Flask app
+      href: learn-flask-in-visual-studio-step-02-create-an-app.md
+    - name: 3 - Serve static files and add pages
+      href: learn-flask-in-visual-studio-step-03-serve-static-files-and-add-pages.md
+    - name: 4 - Use the Flask Web Project template
+      href: learn-flask-in-visual-studio-step-04-full-flask-project-template.md
+    - name: 5 - Use the Polls Flask Web Project template
+      href: learn-flask-in-visual-studio-step-05-polls-flask-web-project-template.md
 
-- name: Concepts
+      - name: Concepts
   items:
   - name: Python projects
     href: managing-python-projects-in-visual-studio.md

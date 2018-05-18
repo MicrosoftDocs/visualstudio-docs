@@ -1,7 +1,7 @@
 ---
 title: Tutorial - Learn Flask in Visual Studio, step 4
 description: A walkthrough of Flask basics in the context of Visual Studio projects, specifically the features provided by the Flask Web Project and Flask/Jade Web Project templates.
-ms.date: 05/15/2018
+ms.date: 05/18/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: tutorial
@@ -230,4 +230,4 @@ Feel free to experiment with both Jinja and Jade syntaxes to see which one works
 
 - [Writing your first Flask app, part 4 - forms and generic views](https://docs.djangoproject.com/en/2.0/intro/tutorial04/) (docs.djangoproject.com)
 - [Jade on GitHib (Documentation)](https://github.com/liuliqiang/pyjade) (github.com)
-- Tutorial source code on GitHub: [Microsoft/python-sample-vs-learn-django](https://github.com/Microsoft/python-sample-vs-learn-django)
+- Tutorial source code on GitHub: [Microsoft/python-sample-vs-learn-flask](https://github.com/Microsoft/python-sample-vs-learn-flask)
