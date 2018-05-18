@@ -62,7 +62,7 @@
     - name: 5 - Use the Polls Flask Web Project template
       href: learn-flask-in-visual-studio-step-05-polls-flask-web-project-template.md
 
-      - name: Concepts
+- name: Concepts
   items:
   - name: Python projects
     href: managing-python-projects-in-visual-studio.md
