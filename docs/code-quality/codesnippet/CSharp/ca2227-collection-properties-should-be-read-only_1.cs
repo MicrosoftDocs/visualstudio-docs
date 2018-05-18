@@ -11,7 +11,7 @@ namespace UsageLibrary
       {
          get { return strings; }
 
-         // This property violates rule CA2227.
+         // Violates the rule.
          set { strings = value; }
       }
 
@@ -29,13 +29,11 @@ namespace UsageLibrary
          ArrayList newCollection = new ArrayList(
             new string[] {"a", "new", "collection"} );
 
+         // strings is directly replaced with newCollection.
          WritableCollection collection = new WritableCollection();
-         // This line of code demonstrates how the entire collection
-         // can be replaced by a property that's not read-only.
          collection.SomeStrings = newCollection;
 
-         // If the intent is to replace an entire collection,
-         // implement Clear() and AddRange() methods instead.
+         // newCollection is added to the cleared strings collection.
          collection.SomeStrings.Clear();
          collection.SomeStrings.AddRange(newCollection);
       }
