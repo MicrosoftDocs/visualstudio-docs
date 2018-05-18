@@ -1,6 +1,6 @@
 ---
 title: Go To Line
-ms.date: 11/04/2016
+ms.date: 05/18/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
