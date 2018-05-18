@@ -36,7 +36,7 @@ A publish settings file (*\*.publishsettings*) is different than a publishing pr
 
     If you haven't already installed Visual Studio, install it for free [here](http://www.visualstudio.com).
 
-* Create an Azure App Service. For detailed instructions, see [Deploy an ASP.NET Core web app to Azure using Visual Studio](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs?toc=/visualstudio/deployment/toc.json&bc=/visualstudio/deployment/_breadcrumb/toc.json). 
+* Create an Azure App Service. For detailed instructions, see [Deploy an ASP.NET Core web app to Azure using Visual Studio](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs). 
 
 ## Create a new ASP.NET project in Visual Studio
 
