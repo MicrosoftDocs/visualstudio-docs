@@ -12,7 +12,7 @@ namespace UsageLibrary
 			ArrayList^ get() { return someStrings; }
 
 			// This set accessor violates rule CA2227.
-                  // To fix the code, remove this set accessor.
+			// To fix the code, remove this set accessor.
 			void set(ArrayList^ value) { someStrings = value; }
 		}
 

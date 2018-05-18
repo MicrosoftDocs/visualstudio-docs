@@ -2,7 +2,7 @@ Public Class WritableCollection
 
     ' This property violates rule CA2227.
     ' To fix the code, add the ReadOnly modifier to the property:
-    '  ReadOnly Property SomeStrings As ArrayList
+    ' ReadOnly Property SomeStrings As ArrayList
     Property SomeStrings As ArrayList
 
     Sub New()
