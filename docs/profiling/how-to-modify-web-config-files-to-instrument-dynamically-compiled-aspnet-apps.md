@@ -11,7 +11,7 @@ manager: douge
 ms.workload: 
   - "aspnet"
 ---
-# How to: Modify Web.Config Files to Instrument and Profile Dynamically Compiled ASP.NET Web Applications
+# How to: Modify web.config files to instrument and profile dynamically compiled ASP.NET web applications
 You can use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools instrumentation method to collect detailed timing data, .NET memory allocation data, and .NET object lifetime data from dynamically compiled [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web applications.  
   
  This topic describes how to modify the web.config configuration file to enable the instrumentation and profiling of [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web applications.  
@@ -68,17 +68,19 @@ You can use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profil
     |**version**|**10.0.0.0**|  
     |**href**|`PathToASPNetHelperDll`|  
   
-     `PathToASPNetHelperDll` is the file URL of the Microsoft.VisualStudio.Enterprise.ASPNetHelper.dll. If [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is installed in the default location, the **href** value should be `C:/Program%20Files/Microsoft%20Visual%20Studio%202010.0/Common7/IDE/PrivateAssemblies/Microsoft.VisualStudio.Enterprise.ASPNetHelper.DLL`  
+     `PathToASPNetHelperDll` is the file URL of the Microsoft.VisualStudio.Enterprise.ASPNetHelper.dll. If [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is installed in the default location, the **href** value should be 
+     `C:/Program%20Files/Microsoft%20Visual%20Studio%202010.0/Common7/IDE/PrivateAssemblies/Microsoft.VisualStudio.Enterprise.ASPNetHelper.DLL`  
   
-```  
+```xml  
     <configuration>  
         <runtime>  
             <assemblyBinding   
                 xmlns="urn:schemas-microsoft-com:asm.v1"  
             >  
                 <dependentAssembly>  
-                    <assemblyIdentity                         name="Microsoft.VisualStudio.Enterprise.ASPNetHelper"   
-                        publicKeyToken="b03f5f7f11d50a3a"                         culture="neutral"   
+                    <assemblyIdentity name="Microsoft.VisualStudio.Enterprise.ASPNetHelper"   
+                        publicKeyToken="b03f5f7f11d50a3a"
+                        culture="neutral"   
                     />  
                     <codeBase   
                         version="10.0.0.0"  
@@ -89,7 +91,7 @@ You can use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profil
         </runtime>  
 ```  
   
-### To add the Profiler post-process step to the configuration/system.web/compilation element  
+### To add the profiler post-process step to the configuration/system.web/compilation element  
   
 1.  If necessary, add the **system.web** element as a child element of the **configuration** element; otherwise, go to the next step.  
   
@@ -105,7 +107,7 @@ You can use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profil
     |--------------------|---------------------|  
     |**assemblyPostProcessorType**|**Microsoft.VisualStudio.Enterprise.Common.AspPerformanceInstrumenter, Microsoft.VisualStudio.Enterprise.ASPNetHelper, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a**|  
   
-```  
+```xml  
     <configuration>  
         <runtime>  
         . . .  
@@ -121,7 +123,7 @@ You can use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profil
     <configuration>  
 ```  
   
-### To add Profiler location settings to the configuration/appSettings element  
+### To add profiler location settings to the configuration/appSettings element  
   
 1.  If necessary, add the **appSettings** element as a child element of the **configuration** element; otherwise, go to the next step.  
   
@@ -147,7 +149,7 @@ You can use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profil
   
      `PerformanceToolsFolder` is the path of the profiler executable files. If [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is installed in the default location, the value will be **C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Performance Tools**  
   
-```  
+```xml  
     <configuration>  
         <runtime>  
         . . .  
@@ -171,7 +173,7 @@ You can use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profil
 ## Example  
  The following is a complete web.config file that enables the instrumentation and profiling of dynamically compiled [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web applications. This example assumes that there were no other settings in the file before modification.  
   
-```  
+```xml  
 <?xml version="1.0"?>  
     <configuration>  
         <runtime>  
@@ -214,6 +216,6 @@ You can use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profil
   
 ```  
   
-## See Also  
- [How to: Instrument a Dynamically Compiled ASP.NET Application and Collect Detailed Timing Data](../profiling/how-to-instrument-a-dynamically-compiled-aspnet-app-and-collect-timing-data.md)   
- [How to: Instrument a Dynamically Compiled ASP.NET Application and Collect Memory Data](../profiling/how-to-instrument-a-dynamically-compiled-aspnet-web-application-and-collect-memory-data.md)
+## See also  
+ [How to: Instrument a dynamically compiled ASP.NET application and collect detailed timing data](../profiling/how-to-instrument-a-dynamically-compiled-aspnet-app-and-collect-timing-data.md)   
+ [How to: Instrument a dynamically compiled ASP.NET application and collect memory data](../profiling/how-to-instrument-a-dynamically-compiled-aspnet-web-application-and-collect-memory-data.md)

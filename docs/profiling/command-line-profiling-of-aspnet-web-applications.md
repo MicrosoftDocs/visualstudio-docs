@@ -32,6 +32,7 @@ This section describes the procedures and options for collecting performance dat
 |**Add tier interaction data:** You can add performance data about synchronous [!INCLUDE[vstecado](../data-tools/includes/vstecado_md.md)] calls that the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application makes to a Microsoft [!INCLUDE[ssNoVersion](../data-tools/includes/ssnoversion_md.md)] database.|-   [Collect tier interaction data](../profiling/adding-tier-interaction-data-from-the-command-line.md)|  
   
 ## Related tasks
+
   
 |Task|Related Content|  
 |----------|---------------------|  
