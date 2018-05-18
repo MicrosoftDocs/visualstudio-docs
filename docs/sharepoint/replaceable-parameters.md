@@ -90,7 +90,7 @@ ms.workload:
   
  For example, to add the file name extensions ".myextension" and ".yourextension" to the list of token replacement file name extensions, you would add the following to a .csproj file:  
   
-```  
+```xml  
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   <PropertyGroup>  
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>  

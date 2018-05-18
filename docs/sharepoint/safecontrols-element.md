@@ -21,7 +21,7 @@ ms.workload:
   
 ## Syntax  
   
-```  
+```xml  
 <SafeControls>  
   <SafeControl.../>  
 </SafeControls>  

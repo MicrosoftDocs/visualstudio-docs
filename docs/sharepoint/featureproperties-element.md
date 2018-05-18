@@ -21,7 +21,7 @@ ms.workload:
   
 ## Syntax  
   
-```  
+```xml  
 <FeatureProperties>  
   <FeatureProperty.../>  
 </FeatureProperties>  

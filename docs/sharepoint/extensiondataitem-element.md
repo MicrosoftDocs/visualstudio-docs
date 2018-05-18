@@ -21,7 +21,7 @@ ms.workload:
   
 ## Syntax  
   
-```  
+```xml  
 <ExtensionDataItem Key = "Key of the data item"  
     Value = "Value of the data item" />  
 ```  

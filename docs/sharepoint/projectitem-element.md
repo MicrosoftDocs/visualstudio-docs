@@ -21,7 +21,7 @@ ms.workload:
   
 ## Syntax  
   
-```  
+```xml  
 <ProjectItem DefaultFile = "File that opens in the editor when you open the project item"  
     FeatureReceiverClass = "Class that implements a feature receiver for the project item"  
     FeatureReceiverAssembly = "Assembly that defines a feature receiver for the project item"  

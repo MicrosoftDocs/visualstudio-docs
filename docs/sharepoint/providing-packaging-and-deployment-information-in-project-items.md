@@ -48,7 +48,7 @@ ms.workload:
   
  When you add a feature property value to a project item, the value is added as an element in the manifest of the item's feature. In a Business Data Connectivity (BDC) model project, for example, the ModelFileName feature property appears as:  
   
-```  
+```xml  
 <Property Key="ModelFileName" Value="BdcModel1\BdcModel1.bdcm" />   
 ```  
   

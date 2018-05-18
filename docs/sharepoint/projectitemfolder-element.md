@@ -21,7 +21,7 @@ ms.workload:
   
 ## Syntax  
   
-```  
+```xml  
 <ProjectItemFolder Target = "Path of SharePoint folder the mapped folder corresponds to"  
     Type = "Type of deployment for the mapped folder" />  
 ```  

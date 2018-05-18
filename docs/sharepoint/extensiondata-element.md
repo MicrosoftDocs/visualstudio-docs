@@ -21,7 +21,7 @@ ms.workload:
   
 ## Syntax  
   
-```  
+```xml  
 <ExtensionData>  
   <ExtensionDataItem.../>  
 </ExtensionData>  
