@@ -187,7 +187,7 @@
 #### [Editor support for other languages](ide/adding-visual-studio-editor-support-for-other-languages.md)
 ### [View the structure of code](ide/viewing-the-structure-of-code.md)
 #### [Class View and Object Browser icons](ide/class-view-and-object-browser-icons.md)
-#@# [Use the Task List](ide/using-the-task-list.md)
+### [Use the Task List](ide/using-the-task-list.md)
 ### [Design classes in Class Designer](ide/class-designer/designing-and-viewing-classes-and-types.md)
 #### [Add class diagrams to projects](ide/class-designer/how-to-add-class-diagrams-to-projects.md)
 #### [Customize class diagrams](ide/class-designer/how-to-customize-class-diagrams.md)
