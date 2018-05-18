@@ -27,7 +27,7 @@ In this step you learn how to:
 > - Understand the backing data stores and (step 5-3)
 > - Understand the poll detail and results views (step 5-4)
 
-Visual Studio also projects the "Polls Flask/Jade Web Project" template which produces an identical app, but uses the Jade extension for the Jinja templating engine. For details, see [Step 4 - The Flask/Jade Web Project template](learn-flask-in-visual-studio-step-04-full-flask-project-template.md#the-flask-jade-web-project-t template).
+Visual Studio also projects the "Polls Flask/Jade Web Project" template which produces an identical app, but uses the Jade extension for the Jinja templating engine. For details, see [Step 4 - The Flask/Jade Web Project template](learn-flask-in-visual-studio-step-04-full-flask-project-template.md#the-flask-jade-web-project-template).
 
 ## Step 5-1: Create the project
 
