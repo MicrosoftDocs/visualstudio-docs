@@ -51,10 +51,10 @@ To narrow your search to a specific type of code element, you can either specify
 
 Prefix | Icon | Shortcut | Description
 :----: | ---- | -------- | ---
-\#     | ![Symbol Icon](media/gotoall_symbolicon.png) | **Ctrl**+**1, **Ctrl**+**S** | Go to the specified symbol
-f      | ![File Icon](media/gotoall_fileicon.png)     | **Ctrl**+**1, **Ctrl**+**F** | Go to the specified file
-m      | ![Member Icon](media/gotoall_membericon.png) | **Ctrl**+**1, **Ctrl**+**M** | Go to the specified member
-t      | ![Type Icon](media/gotoall_typeicon.png)     | **Ctrl**+**1, **Ctrl**+**T** | Go to the specified type
+\#     | ![Symbol Icon](media/gotoall_symbolicon.png) | **Ctrl**+**1**, **Ctrl**+**S** | Go to the specified symbol
+f      | ![File Icon](media/gotoall_fileicon.png)     | **Ctrl**+**1**, **Ctrl**+**F** | Go to the specified file
+m      | ![Member Icon](media/gotoall_membericon.png) | **Ctrl**+**1**, **Ctrl**+**M** | Go to the specified member
+t      | ![Type Icon](media/gotoall_typeicon.png)     | **Ctrl**+**1**, **Ctrl**+**T** | Go to the specified type
 :      | ![Line Icon](media/gotoall_lineicon.png)     | **Ctrl**+**G**         | Go to the specified line number
 
 ### Filter to a specific location
