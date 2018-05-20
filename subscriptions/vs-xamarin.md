@@ -30,8 +30,9 @@ Visual Studio Dev Essentials members are eligible to create a free account that 
 
     <img alt="Activate My Subscription Now" src="_img/vs-xamarin/vs-xamarin-activate.png" style="border: 1px solid #CCCCCC" />
 
-> [!NOTE]
-> Depending on your screen resolution and zoom level, you may need to scroll down to see the **Activate My Subscription Now** button.
+    > [!NOTE]
+    > Depending on your screen resolution and zoom level, you may need to scroll down to see the **Activate My Subscription Now** button.
+    
     > [!NOTE]
     > If you receive an error that you must be signed in as the person who received the benefit, follow these steps:
     > 1. Close the browser window with Xamarin University.
