@@ -123,7 +123,7 @@ ms.workload:
  When you debug workflow projects, [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] adds the workflow template (depending on its type) to a library or to a list. You can then start the workflow template manually or by adding or updating an item. You can then use [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] to debug the workflow.  
   
 > [!NOTE]  
->  If you add references to other assemblies, make sure that that those assemblies are installed in the global assembly cache ([!INCLUDE[TLA2#tla_gac](../sharepoint/includes/tla2sharptla-gac-md.md)]). Otherwise, the workflow solution will fail. For information about how to install assemblies, see [Manually start a workflow on a document or item](http://go.microsoft.com/fwlink/?LinkID=79938).  
+>  If you add references to other assemblies, make sure that that those assemblies are installed in the global assembly cache ([!INCLUDE[TLA2#tla_gac](../sharepoint/includes/tla2sharptla-gac-md.md)]). Otherwise, the workflow solution will fail. For information about how to install assemblies, see [How to install an assembly in the .NET Framework global assembly cache](https://support.microsoft.com/help/910355/how-to-install-an-assembly-in-the-net-framework-global-assembly-cache).  
   
  However, the deployment process does not start the workflow. You must start the workflow from the SharePoint Web site. You can also start the workflow by using a client application such as Microsoft Office Word 2010, or by using separate server-side code. Use one of the approaches specified in the **SharePoint Customization Wizard**.  
   
