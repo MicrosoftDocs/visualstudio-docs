@@ -19,7 +19,7 @@ You can use C++ in Visual Studio to build Windows Desktop apps, Universal Window
 
 ## Requirements
 
-- For installation requirements, see [Visual Studio Product Family System Requirements]((https://www.visualstudio.com/productinfo/vs2017-system-requirements-vs).
+- For installation requirements, see [Visual Studio Product Family System Requirements](https://www.visualstudio.com/productinfo/vs2017-system-requirements-vs).
 
    > [!IMPORTANT]
    > If you are using Windows 7 or Windows Server 2008 R2, you can develop code for Windows Desktop applications, Android Native Activity apps and libraries, and apps and code libraries for iOS, but not Windows Phone or UWP apps.
