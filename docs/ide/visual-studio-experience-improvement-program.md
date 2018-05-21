@@ -24,12 +24,12 @@ The information that is collected helps Microsoft identify which features to imp
 
 The VSEIP is turned on by default. You can turn it off, or back on again, by following the instructions below.  
 
-1. Start Visual Studio.  
-2. From the Help menu, point to **Send Feedback**, and then click **Settings**.  
-3. To turn VSEIP off, click **No, I would not like to participate**, and then click **OK**.  
+1. Start Visual Studio.
+2. From the Help menu, point to **Send Feedback**, and then click **Settings**.
+3. To turn VSEIP off, click **No, I would not like to participate**, and then click **OK**.
    To turn VSEIP on, click **Yes, I am willing to participate**, and then click **OK**.  
-
- **Manage the VSEIP by using the registry or Group Policy**  
+  
+**Manage the VSEIP by using the registry or Group Policy**  
 If you install the Visual Studio Build Tools, you must update the registry to configure the VSEIP. Enterprise customers may construct Group Policy to opt in or out of the VSEIP by setting a registry-based policy. 
 The relevant registry key and settings are as follows:  
   
