@@ -81,7 +81,6 @@
 ##### [How to: Debug in mixed mode](how-to-debug-in-mixed-mode.md)
 #### [Debugging preparation: Console projects](debugging-preparation-console-projects.md)
 #### [How to: Debug an executable not part of a Visual Studio solution](how-to-debug-an-executable-not-part-of-a-visual-studio-solution.md)
-#### [How to: Debug with Code Center Premium Source](how-to-debug-with-code-center-premium-source.md)
 #### [Debugging and the hosting process](debugging-and-the-hosting-process.md)
 #### [How to: Specify a .NET Framework version for debugging](how-to-specify-a-dotnet-framework-version-for-debugging.md)
 ### [Create custom views of data](viewing-data-in-the-debugger.md)
