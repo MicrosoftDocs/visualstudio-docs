@@ -40,7 +40,7 @@ Exception types must implement the following three constructors:
 
 - public NewException(string, Exception)
 
-Additionally, if you are running legacy FxCop static code analysis as opposed to [Roslyn-based FxCop analyzers](../code-quality/roslyn-analyzers-overview.md), the absence of a fourth constructor also generates a violation:
+Additionally, if you're running legacy FxCop static code analysis as opposed to [Roslyn-based FxCop analyzers](../code-quality/roslyn-analyzers-overview.md), the absence of a fourth constructor also generates a violation:
 
 - protected or private NewException(SerializationInfo, StreamingContext)
 
@@ -54,7 +54,7 @@ To fix a violation of this rule, add the missing constructors to the exception, 
 
 ## When to suppress warnings
 
-It is safe to suppress a warning from this rule when the violation is caused by using a different access level for the public constructors. Additionally, it's okay to suppress the warning for the `NewException(SerializationInfo, StreamingContext)` constructor if you're building a Portable Class Library (PCL).
+It's safe to suppress a warning from this rule when the violation is caused by using a different access level for the public constructors. Additionally, it's okay to suppress the warning for the `NewException(SerializationInfo, StreamingContext)` constructor if you're building a Portable Class Library (PCL).
 
 ## Example
 
