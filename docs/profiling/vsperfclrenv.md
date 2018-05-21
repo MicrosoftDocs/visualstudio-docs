@@ -107,4 +107,4 @@ If the correct environment was not set during profiling, a warning is reported d
 
 ## See also
 
-[Profiling from the Command-Line](../profiling/using-the-profiling-tools-from-the-command-line.md)
+[Profile from the command-line](../profiling/using-the-profiling-tools-from-the-command-line.md)
