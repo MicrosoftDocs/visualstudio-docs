@@ -33,7 +33,7 @@ Developers can [download an experimental extension](https://go.microsoft.com/fwl
 
 ## Q. Are there other features coming to the Visual Studio IntelliCode extension? What about editorconfig generation?
 
-We are actively working on a number of capabilities which we're excited to share publicly as they become available. We demonstrated an early internal version of a tool to infer editorconfig settings for code style and formatting in C# at Build 2018; it is not in the experimental extension yet, but we are looking to make it available there soon. You can sign up for news and updates at [https://aka.ms/intellicode](https://aka.ms/intellicode) to be the first to know when we have new capabilities available. 
+We're actively working on a number of capabilities that we're excited to share publicly as they become available. We demonstrated an early, internal version of a tool that infers editorconfig settings for code style and formatting in C# at Microsoft Build 2018. It's not in the experimental extension yet, but we plan to make it available there soon. You can sign up for news and updates at [https://aka.ms/intellicode](https://aka.ms/intellicode) to be the first to know when we have new capabilities available. 
 
 ## Q: What makes “AI-assisted IntelliSense” powered by IntelliCode better than regular IntelliSense?
 
@@ -48,7 +48,7 @@ We’ve been using IntelliCode’s recommendations internally at Microsoft for s
 
 ## Q. What's the future of IntelliCode?
 
-We're exploring a wide range of ways to improve developer productivity using AI and other advanced techniques. At Build 2018, we showed an early view of some of the scenarios where we think AI could assist developers, but there are so many more! We're interested in learning from developers that experiment with what we've shown, so sign up for news and updates at [https://aka.ms/intellicode](https://aka.ms/intellicode).
+We're exploring a wide range of ways to improve developer productivity using AI and other advanced techniques. At Microsoft Build 2018, we showed an early view of some of the scenarios where we think AI could assist developers, but there are so many more! We're interested in learning from developers that experiment with what we've shown, so sign up for news and updates at [https://aka.ms/intellicode](https://aka.ms/intellicode).
 
 ## Q. How much does it cost?
 
@@ -64,9 +64,9 @@ The experience was shown at Build 2018 in Visual Studio 2017 on a C# codebase. H
 
 ## Q. <a name="whynointellisense"/> I can't see the IntelliCode suggestions in my C# editing experience - what's happening?
 
-IntelliCode suggestions appear in the standard Visual Studio IntelliSense experience for C#. Extensions which override that experience will prevent the IntelliCode "starred" suggestions from appearing at the top of the list. You can verify if this is the case by turning off any such extensions and trying IntelliSense again. 
+IntelliCode suggestions appear in the standard Visual Studio IntelliSense experience for C#. Extensions that override that experience prevent the IntelliCode "starred" suggestions from appearing at the top of the list. You can verify if extensions are causing this behavior by turning them off and then trying IntelliSense again. 
 
-If this doesn't solve the problem for you, please report your issue via the Visual Studio ["Report a Problem"](https://docs.microsoft.com/en-us/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017) feature, mentioning IntelliCode in your report.
+If this doesn't solve the problem for you, please report your issue via the Visual Studio [Report a Problem](https://docs.microsoft.com/en-us/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017) feature, and mention IntelliCode in your report.
 
 ## Q. What release of Visual Studio do I need to run this extension?
 
