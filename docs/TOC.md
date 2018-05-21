@@ -1,5 +1,6 @@
 # [Visual Studio Documentation](ide/index.md)
 # [Overview](ide/visual-studio-ide.md)
+## [Advanced features](ide/advanced-feature-overview.md)
 # Installation
 ## [Install Visual Studio](install/install-visual-studio.md)
 ## [Sign in to Visual Studio](ide/signing-in-to-visual-studio.md)
