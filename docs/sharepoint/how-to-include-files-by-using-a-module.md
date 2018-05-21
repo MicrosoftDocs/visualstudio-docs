@@ -54,7 +54,7 @@ ms.workload:
   
 8.  For any files that you want to appear in a document library, append the `Type="GhostableInLibrary"` attribute to their entry in Elements.xml. For example,  
   
-    ```  
+    ```xml  
     <File Path="Module1\Some Folder\SomePage.aspx" Url="Module1/Some Folder/SomePage.aspx" Type="GhostableInLibrary" />  
     ```  
   

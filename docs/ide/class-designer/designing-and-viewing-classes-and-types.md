@@ -53,5 +53,5 @@ After you have fine-tuned one or more class diagrams, you can copy them into Mic
 
 ## See also
 
-- [Write code in the editor](../writing-code-in-the-code-and-text-editor.md)
+- [Features of the code editor](../writing-code-in-the-code-and-text-editor.md)
 - [Map dependencies across your solutions](../../modeling/map-dependencies-across-your-solutions.md)

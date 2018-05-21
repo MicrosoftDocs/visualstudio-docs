@@ -50,13 +50,13 @@ ms.workload:
   
      The event receiver currently references the Announcements list definition by using the following line:  
   
-    ```  
+    ```xml  
     <Receivers ListTemplateId="104">  
     ```  
   
      Change this line to the following text:  
   
-    ```  
+    ```xml  
     <Receivers ListUrl="Lists/TestAnnouncements">  
     ```  
   

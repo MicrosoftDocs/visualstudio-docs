@@ -144,5 +144,5 @@ You can find info about specific code, like changes and who made those changes, 
 
 ## See also
 
-- [Write code in the code and text editor](../ide/writing-code-in-the-code-and-text-editor.md)
+- [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)
 - [View call hierarchy](../ide/reference/call-hierarchy.md)
