@@ -74,7 +74,7 @@ ms.workload:
 
 2.  Add the following line to the Web.config file:
 
-    ```
+    ```xml
     <compilation batch="false" optimizeCompilations="true">
     ```
 

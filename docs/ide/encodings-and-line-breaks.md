@@ -51,4 +51,4 @@ You can use the **File** > **Advanced Save Options** dialog box to determine the
 
 ## See also
 
-- [Writing code in the editor](../ide/writing-code-in-the-code-and-text-editor.md)
+- [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)

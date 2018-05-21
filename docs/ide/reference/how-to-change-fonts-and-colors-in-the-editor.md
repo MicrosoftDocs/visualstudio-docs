@@ -51,5 +51,5 @@ You can change the default font face, adjust the font size, and change the foreg
 
 - [Customizing the Editor](../../ide/customizing-the-editor.md)
 - [Text Editor Options Dialog Box](../../ide/reference/text-editor-options-dialog-box.md)
-- [Writing Code](../../ide/writing-code-in-the-code-and-text-editor.md)
+- [Features of the code editor](../../ide/writing-code-in-the-code-and-text-editor.md)
 - [How to: Change Fonts and Colors](../../ide/how-to-change-fonts-and-colors-in-visual-studio.md)
