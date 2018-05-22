@@ -681,8 +681,33 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user-can-be-dangerous-if-the-following-information-looks-suspicious-or-you-are-unsure-do-not-attach-to-this-process.md",
+            "redirect_url": "/visualstudio/debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/error-the-microsoft-visual-studio-remote-debugging-monitor-on-the-remote-computer-does-not-have-permission-to-connect-to-this-computer.md",
+            "redirect_url": "/visualstudio/debugger/error-the-microsoft-visual-studio-remote-debugging-monitor-no-permission",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/how-to-debug-with-code-center-premium-source.md",
+            "redirect_url": "/visualstudio/debugger/index",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/deployment/installshield-limited-edition.md",
             "redirect_url": "/visualstudio/deployment/deploying-applications-services-and-components",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/deployment/walkthrough-manually-deploying-a-clickonce-application-that-does-not-require-re-signing-and-that-preserves-branding-information.md",
+            "redirect_url": "/visualstudio/deployment/walkthrough-manually-deploying-a-clickonce-app-no-re-signing-required",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/deployment/deploying-clickonce-applications-for-testing-and-production-servers-without-resigning.md",
+            "redirect_url": "/visualstudio/deployment/deploying-clickonce-applications-for-testing-and-production-without-resigning",
             "redirect_document_id": false
         },
         {
@@ -886,6 +911,16 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/ide/class-designer/viewing-types-and-relationships.md",
+            "redirect_url": "/visualstudio/ide/class-designer/designing-and-viewing-classes-and-types",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/class-designer/working-with-class-diagrams.md",
+            "redirect_url": "/visualstudio/ide/class-designer/designing-and-viewing-classes-and-types",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/ide/connected-environment.md",
             "redirect_url": "/visualstudio/ide/signing-in-to-visual-studio",
             "redirect_document_id": false
@@ -923,6 +958,11 @@
         {
             "source_path": "docs/ide/get-started-developing-with-visual-studio.md",
             "redirect_url": "/visualstudio/ide/visual-studio-ide",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/getting-started-with-debugging-in-visual-studio.md",
+            "redirect_url": "/visualstudio/ide/find-and-fix-code-errors",
             "redirect_document_id": false
         },
         {
@@ -1536,6 +1576,91 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/profiling/collecting-detailed-timing-data-for-an-aspnet-web-application-using-the-profiler-instrumentation-method-from-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/collecting-detailed-timing-data-aspnet-profiler-instrumentation-method",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/collecting-detailed-timing-data-for-an-aspnet-web-application-using-the-profiler-instrumentation-method.md",
+            "redirect_url": "/visualstudio/profiling/collecting-detailed-timing-data-aspnet-profiler-instrumentation-method",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/how-to-attach-the-profiler-to-a-dotnet-framework-stand-alone-application-and-collect-application-statistics-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-attach-the-profiler-to-a-dotnet-app-and-collect-application-statistics",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/how-to-attach-the-profiler-to-a-dotnet-framework-stand-alone-application-to-collect-concurrency-data-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-attach-the-profiler-to-a-dotnet-app-and-collect-concurrency-data",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/how-to-instrument-a-dynamically-compiled-aspnet-web-application-and-collect-detailed-timing-data-with-the-profiler-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-instrument-a-dynamically-compiled-aspnet-app-and-collect-timing-data",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/how-to-instrument-a-statically-compiled-aspnet-web-application-and-collect-detailed-timing-data-with-the-profiler-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-instrument-statically-compiled-aspnet-and-collect-detailed-timing-data",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/how-to-instrument-a-stand-alone-dotnet-framework-component-and-collect-memory-data-with-the-profiler-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-instrument-a-dotnet-framework-component-and-collect-memory-data",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/how-to-launch-a-stand-alone-dotnet-framework-application-with-the-profiler-to-collect-concurrency-data-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-launch-a-stand-alone-dotnet-framework-app-to-collect-concurrency-data",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/how-to-modify-web-config-files-to-instrument-and-profile-dynamically-compiled-aspnet-web-applications.md",
+            "redirect_url": "/visualstudio/profiling/how-to-modify-web-config-files-to-instrument-dynamically-compiled-aspnet-apps",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/collecting-detailed-timing-data-for-services-by-using-the-instrumentation-method-from-the-profiler-command-line.md",
+            "redirect_url": "/visualstudio/profiling/collecting-detailed-timing-data-for-services-by-using-the-instrumentation-method",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/collecting-application-statistics-for-aspnet-web-applications-using-the-profiler-sampling-method-from-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/collecting-application-statistics-for-aspnet-using-the-profiler-sampling-method",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/collecting-application-statistics-for-stand-alone-applications-by-using-the-profiler-command-line.md",
+            "redirect_url": "/visualstudio/profiling/collecting-application-statistics-for-stand-alone-applications",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/collecting-concurrency-data-for-an-aspnet-web-application-using-the-profiler-command-line.md",
+            "redirect_url": "/visualstudio/profiling/collecting-concurrency-data-for-an-aspnet-web-application",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/collecting-concurrency-data-for-stand-alone-applications-by-using-the-profiler-command-line.md",
+            "redirect_url": "/visualstudio/profiling/collecting-concurrency-data-for-stand-alone-applications",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/collecting-detailed-timing-data-for-a-stand-alone-application-by-using-the-profiler-command-line.md",
+            "redirect_url": "/visualstudio/profiling/collecting-detailed-timing-data-for-a-stand-alone-application",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/collecting-dotnet-framework-memory-data-for-stand-alone-applications-by-using-the-profiler-command-line.md",
+            "redirect_url": "/visualstudio/profiling/collecting-dotnet-framework-memory-data-for-stand-alone-applications",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/collecting-memory-data-from-an-aspnet-web-application-by-using-the-profiler-command-line.md",
+            "redirect_url": "/visualstudio/profiling/collecting-memory-data-from-an-aspnet-web-application",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/python/code-editing.md",
             "redirect_url": "/visualstudio/python/editing-python-code-in-visual-studio",
             "redirect_document_id": false
@@ -2061,6 +2186,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/vsto/you-must-explicitly-enable-access-to-the-microsoft-office-visual-basic-for-applications-project-system-before-you-can-create-or-open-a-----for-the-microsoft-office-system-project.md",
+            "redirect_url": "/visualstudio/vsto/enable-access-to-vba-to-create-or-open-a-visual-studio-tools-for-office-system-project",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/welcome-to-visual-studio.md",
             "redirect_url": "/visualstudio/ide/visual-studio-ide",
             "redirect_document_id": false
@@ -2314,6 +2444,141 @@
         {
             "source_path": "docs/vb6/vb6-support.md",
             "redirect_url": "/previous-versions/visualstudio/visual-basic-6/visual-basic-6-support-policy",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/visual-studio-connected-environment.md",
+            "redirect_url": "/azure/dev-spaces/azure-dev-spaces",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/get-started.md",
+            "redirect_url": "/azure/dev-spaces/azure-dev-spaces",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/get-started-netcore-01.md",
+            "redirect_url": "/azure/dev-spaces/get-started-netcore",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/get-started-netcore-02.md",
+            "redirect_url": "/azure/dev-spaces/get-started-netcore",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/get-started-netcore-03.md",
+            "redirect_url": "/azure/dev-spaces/get-started-netcore",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/get-started-netcore-04.md",
+            "redirect_url": "/azure/dev-spaces/get-started-netcore",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/get-started-netcore-05.md",
+            "redirect_url": "/azure/dev-spaces/get-started-netcore",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/get-started-netcore-06.md",
+            "redirect_url": "/azure/dev-spaces/get-started-netcore",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/get-started-netcore-07.md",
+            "redirect_url": "/azure/dev-spaces/get-started-netcore",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/get-started-netcore-visualstudio-01.md",
+            "redirect_url": "/azure/dev-spaces/get-started-netcore-visualstudio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/get-started-netcore-visualstudio-02.md",
+            "redirect_url": "/azure/dev-spaces/get-started-netcore-visualstudio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/get-started-netcore-visualstudio-03.md",
+            "redirect_url": "/azure/dev-spaces/get-started-netcore-visualstudio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/get-started-netcore-visualstudio-04.md",
+            "redirect_url": "/azure/dev-spaces/get-started-netcore-visualstudio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/get-started-netcore-visualstudio-05.md",
+            "redirect_url": "/azure/dev-spaces/get-started-netcore-visualstudio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/get-started-netcore-visualstudio-06.md",
+            "redirect_url": "/azure/dev-spaces/get-started-netcore-visualstudio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/get-started-netcore-visualstudio-07.md",
+            "redirect_url": "/azure/dev-spaces/get-started-netcore-visualstudio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/get-started-nodejs-01.md",
+            "redirect_url": "/azure/dev-spaces/get-started-nodejs",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/get-started-nodejs-02.md",
+            "redirect_url": "/azure/dev-spaces/get-started-nodejs",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/get-started-nodejs-03.md",
+            "redirect_url": "/azure/dev-spaces/get-started-nodejs",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/get-started-nodejs-04.md",
+            "redirect_url": "/azure/dev-spaces/get-started-nodejs",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/get-started-nodejs-05.md",
+            "redirect_url": "/azure/dev-spaces/get-started-nodejs",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/get-started-nodejs-06.md",
+            "redirect_url": "/azure/dev-spaces/get-started-nodejs",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/get-started-nodejs-07.md",
+            "redirect_url": "/azure/dev-spaces/get-started-nodejs",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/how-to/share-dev-environment.md",
+            "redirect_url": "/azure/dev-spaces/how-to/share-dev-spaces",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/how-to/use-a-custom-nuget-feed.md",
+            "redirect_url": "/azure/dev-spaces/how-to/use-custom-nuget-feed",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/how-to/use-kubectl-with-vsce.md",
+            "redirect_url": "/azure/dev-spaces/how-to/use-kubectl-with-azure-dev-spaces",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "connected-environment/troubleshooting.md",
+            "redirect_url": "/azure/dev-spaces/troubleshooting",
             "redirect_document_id": false
         }
     ]

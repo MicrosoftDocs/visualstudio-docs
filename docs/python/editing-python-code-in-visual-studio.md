@@ -23,7 +23,7 @@ The editor is also integrated with the interactive window in Visual Studio, maki
 |---|---|
 | ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | [Watch a video (Microsoft Virtual Academy)](https://mva.microsoft.com/en-US/training-courses-embed/python-tools-for-visual-studio-2017-18121/Video-Editing-Python-Code-r2iQH5LWE_4605918567) for a demonstration of editing Python code (2m 30s).|
 
-For general documentation on editing code in Visual Studio, see [Writing Code in the Code and Text Editor](../ide/writing-code-in-the-code-and-text-editor.md). Also see [Outlining in Visual Studio](../ide/outlining.md), which helps you stay focused on particular sections of your code.
+For general documentation on editing code in Visual Studio, see [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md). Also see [Outlining in Visual Studio](../ide/outlining.md), which helps you stay focused on particular sections of your code.
 
 You can also use the Visual Studio Object Browser (**View > Other Windows > Object Browser** or Ctrl+W,J) for inspecting Python classes defined in each module and the functions defined in those classes.
 

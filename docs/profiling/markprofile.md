@@ -18,7 +18,7 @@ The `MarkProfile` method inserts a profile mark in the .vsp file. Profiling for 
   
 ## Syntax  
   
-```  
+```cpp  
 PROFILE_COMMAND_STATUS PROFILERAPI MarkProfile( long lMarker );  
 ```  
   
@@ -61,7 +61,7 @@ PROFILE_COMMAND_STATUS PROFILERAPI MarkProfile( long lMarker );
 ## Example  
  The following code illustrates the MarkProfile function.  
   
-```  
+```cpp  
 void ExerciseMarkProfile()  
 {  
     // Declare and initialize variables to pass to   

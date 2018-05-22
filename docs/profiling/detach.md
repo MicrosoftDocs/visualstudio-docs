@@ -23,7 +23,7 @@ The VSPerfCmd.exe **Detach** option disconnects the profiler from the specified 
   
 ## Syntax  
   
-```  
+```cmd  
 VSPerfCmd.exe /Detach[:PIDs|ProcessNames]  
 ```  
   
@@ -46,7 +46,7 @@ VSPerfCmd.exe /Detach[:PIDs|ProcessNames]
 ## Example  
  In this example, the **Detach** command suspends profiling and the **Shutdown** command closes the profiler data file.  
   
-```  
+```cmd  
 VSPerfCmd.exe /Start:Sample /Output:TestApp.exe.vsp  
 VSPerfCmd.exe /Launch:TestApp.exe  
 ;REM Excercise the application  

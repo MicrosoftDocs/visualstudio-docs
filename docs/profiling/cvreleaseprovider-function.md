@@ -20,7 +20,7 @@ Releases marker provider. Releasing the marker provider will not affect previous
   
 ## Syntax  
   
-```  
+```C  
 HRESULT CvReleaseProvider(  
    _In_ PCV_PROVIDER pProvider  
 );  

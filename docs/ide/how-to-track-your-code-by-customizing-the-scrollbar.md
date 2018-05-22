@@ -52,4 +52,4 @@ When you are working with long code files, it can be hard to keep everything in 
 
 ## See also
 
-- [Write code in the editor](../ide/writing-code-in-the-code-and-text-editor.md)
+- [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)

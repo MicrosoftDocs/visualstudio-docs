@@ -14,13 +14,13 @@ manager: douge
 ms.workload: 
   - "cplusplus"
 ---
-# Visual Studio Profiler API Reference (Native)
+# Visual Studio profiler API reference (native)
 Visual Studio Profiler APIs allow you to programmatically control the amount of data collected, and insert both timestamp and profile marks during profiling. To use native APIs, you include VSPerf.h header file and add the VSPerf.lib in your project.  
   
 > [!NOTE]
 >  By default, VSPerf.h and VSPerf.lib are located in a folder named PerfSDK. \<drive>:\Program Files\Microsoft Visual Studio 14.0\Team Tools\Performance Tools\PerfSDK directory, for example.  
   
-## In This Section  
+## In this section  
  [CommentMarkAtProfile](../profiling/commentmarkatprofile.md)  
   
  [CommentMarkProfile](../profiling/commentmarkprofile.md)  
@@ -39,6 +39,6 @@ Visual Studio Profiler APIs allow you to programmatically control the amount of 
   
  [PROFILE_CURRENTID](../profiling/profile-currentid.md)  
   
-## See Also  
- [Profiling Tools APIs](../profiling/profiling-tools-apis.md)   
- [Walkthrough: Using Profiler APIs](../profiling/walkthrough-using-profiler-apis.md)
+## See also  
+ [Profiling tools APIs](../profiling/profiling-tools-apis.md)   
+ [Walkthrough: Using profiler APIs](../profiling/walkthrough-using-profiler-apis.md)

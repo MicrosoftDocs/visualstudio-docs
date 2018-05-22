@@ -19,7 +19,7 @@ The `CommentMarkProfile` function inserts a numeric marker and a text string in 
   
 ## Syntax  
   
-```  
+```cpp  
 PROFILE_COMMAND_STATUS PROFILERAPI CommentMarkProfile(  
                                    long lMarker,   
                                    LPCTSTR szComment);  
@@ -69,7 +69,7 @@ PROFILE_COMMAND_STATUS PROFILERAPI CommentMarkProfile(
 ## Example  
  The following code illustrates the CommentMarkProfile function call. The example assumes the use of Win32 string macros and Unicode compiler settings to determine whether the code calls the [!INCLUDE[vcpransi](../profiling/includes/vcpransi_md.md)] function call.  
   
-```  
+```cpp  
 void ExerciseCommentMarkProfile()  
 {  
     // Declare and initalize variables to pass to   

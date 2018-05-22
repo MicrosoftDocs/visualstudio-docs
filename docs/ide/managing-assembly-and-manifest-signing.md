@@ -33,13 +33,13 @@ Strong-name signing gives a software component a globally unique identity. Stron
 
 You can sign .NET assemblies and application manifests. These include the following:
 
--   executables (*.exe*)
+-   Executables (*.exe*)
 
--   application manifests (*.exe.manifest*)
+-   Application manifests (*.exe.manifest*)
 
--   deployment manifests (*.application*)
+-   Deployment manifests (*.application*)
 
--   shared component assemblies (*.dll*)
+-   Shared component assemblies (*.dll*)
 
 You must sign the following types of asset:
 

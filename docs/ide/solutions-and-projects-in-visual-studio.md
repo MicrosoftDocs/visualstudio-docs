@@ -1,6 +1,6 @@
 ---
 title: Solutions and projects in Visual Studio
-ms.date: 10/5/2017
+ms.date: 10/05/2017
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual

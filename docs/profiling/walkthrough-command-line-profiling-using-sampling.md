@@ -14,7 +14,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Walkthrough: Command-Line Profiling Using Sampling
+# Walkthrough: Command-line profiling using sampling
 
 This walkthrough demonstrates how to profile an application by using command-line tools and sampling to identify performance problems.
 
@@ -49,13 +49,13 @@ Sampling is a profiling method by which a specific process is periodically polle
 
 4. Type the following command to set the appropriate environment variables:
 
-    ```
+    ```cmd
     VSPerfCLREnv /sampleon
     ```
 
 5. Start profiling by running VSPerfCmd.exe, which is the command-line tool that controls the profiler. The following command starts the application and profiler in the sampling mode:
 
-    ```
+    ```cmd
     VsPerfCmd /start:sample /output:PeopleTraxReport.vsp /launch:PeopleTrax.exe
     ```
 
@@ -71,13 +71,13 @@ Sampling is a profiling method by which a specific process is periodically polle
 
 9. Shut down the profiler. Type the following command:
 
-    ```
+    ```cmd
     VSPerfCmd /shutdown
     ```
 
 10. Use the following command to reset the environmental variables:
 
-    ```
+    ```cmd
     VSPerfCLREnv /sampleoff
     ```
 
@@ -89,14 +89,14 @@ Sampling is a profiling method by which a specific process is periodically polle
 
     - Generate a comma-separated value (.csv) file by using the command-line tool VSPerfReport.exe. To generate reports for use outside the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE use the following command:
 
-        ```
+        ```cmd
         VSPerfReport <dir> PeopleTraxReport.vsp /output:<dir> /summary:all
         ```
 
-## See Also
+## See also
 
-[Performance Session Overview](../profiling/performance-session-overview.md)  
-[Profiling from the Command-Line](../profiling/using-the-profiling-tools-from-the-command-line.md)  
+[Performance session overview](../profiling/performance-session-overview.md)  
+[Profile from the command-line](../profiling/using-the-profiling-tools-from-the-command-line.md)  
 [VSPerfCmd](../profiling/vsperfcmd.md)  
-[Understanding Sampling Data Values](../profiling/understanding-sampling-data-values.md)  
-[Performance Report Views](../profiling/performance-report-views.md)
+[Understand sampling data values](../profiling/understanding-sampling-data-values.md)  
+[Performance report views](../profiling/performance-report-views.md)

@@ -35,7 +35,7 @@ To change colorization options in the editor, type `environment` in the **Quick 
 
 You can change the main menu casing between **Title Case** ("File") and **All Caps** ("FILE"). Type `environment` in the **Quick Launch** box, select **Environment --> General**, and then change the **Apply title case styling to menu bar** option.
 
-### Customze menus and toolbars
+### Customize menus and toolbars
 
 To add or remove menu or toolbar items, see [How to: Customize menus and toolbars](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md).
 

@@ -265,8 +265,6 @@ ms.workload:
 
 The following table lists Code Analysis warnings for managed code by the CheckId identifier of the warning.
 
-## Warnings
-
 |CheckId|Warning|Description|
 |-------------|-------------|-----------------|
 |CA1000|[CA1000: Do not declare static members on generic types](../code-quality/ca1000-do-not-declare-static-members-on-generic-types.md)|When a static member of a generic type is called, the type argument must be specified for the type. When a generic instance member that does not support inference is called, the type argument must be specified for the member. In these two cases, the syntax for specifying the type argument is different and easily confused.|

@@ -74,7 +74,7 @@ For more information about which platforms and configurations are supported by c
     > [!WARNING]
     > All actions performed on the desktop will be recorded. Pause the recording if you are performing actions that may lead to sensitive data being included in the recording.
 
-     **To delete actions** that you recorded by mistake, choose **Edit Actions**.
+     **To delete actions** that you recorded by mistake, choose **Edit Steps**.
 
      **To generate code** that will replicate your actions, choose the **Generate Code** icon and type a name and description for your coded UI test method.
 

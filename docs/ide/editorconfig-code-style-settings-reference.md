@@ -79,7 +79,7 @@ The following list shows the allowable language convention rules:
         - dotnet\_style\_coalesce_expression
         - dotnet\_style\_null_propagation
 - C# code style settings
-    - [Implicit and explicit types](#var)
+    - [Implicit and explicit types](#implicit-and-explicit-types)
         - csharp\_style\_var\_for\_built\_in_types
         - csharp\_style\_var\_when\_type\_is_apparent
         - csharp\_style\_var_elsewhere
@@ -233,7 +233,7 @@ The following table shows the rule names, rules IDs, applicable programming lang
 
 | Rule name | Rule ID | Applicable languages | Visual Studio default |
 | --------- | ------- | -------------------- | ----------------------|
-| dotnet_style_predefined_type_for_locals_parameters_members | IDE0012 and IDE0014 | C# and Visual Basic | true:none |
+| dotnet_style_predefined_type_for_locals_ parameters_members | IDE0012 and IDE0014 | C# and Visual Basic | true:none |
 | dotnet_style_predefined_type_for_member_access | IDE0013 and IDE0015 | C# and Visual Basic | true:none |
 
 **dotnet\_style\_predefined\_type\_for\_locals\_parameters_members**
@@ -299,7 +299,7 @@ The following table shows the rule names, rule IDs, applicable programming langu
 
 | Rule name | Rule ID | Applicable languages | Visual Studio default | Visual Studio 2017 version |
 | --------- | ------- | -------------------- | ----------------------| ----------------  |
-| dotnet_style_require_accessibility_modifiers | IDE0040 | C# and Visual Basic | for_non_interface_members:none | 15.5 |
+| dotnet_style_require_ accessibility_modifiers | IDE0040 | C# and Visual Basic | for_non_interface_members:none | 15.5 |
 | csharp_preferred_modifier_order | IDE0036 | C# | public, private, protected, internal, static, extern, new, virtual, abstract, sealed, override, readonly, unsafe, volatile, async:none | 15.5 |
 | visual_basic_preferred_modifier_order | IDE0036 | Visual Basic | Partial, Default, Private, Protected, Public, Friend, NotOverridable, Overridable, MustOverride, Overloads, Overrides, MustInherit, NotInheritable, Static, Shared, Shadows, ReadOnly, WriteOnly, Dim, Const,WithEvents, Widening, Narrowing, Custom, Async:none | 15.5 |
 
@@ -387,7 +387,7 @@ The following table shows the rule names, rule IDs, applicable programming langu
 | dotnet_style_collection_initializer | IDE0028 | C# and Visual Basic | true:suggestion | First release |
 | dotnet_style_explicit_tuple_names | IDE0033 | C# 7.0+ and Visual Basic 15+ | true:suggestion | First release |
 | dotnet_style_prefer_inferred_tuple_names | IDE0037 | C# 7.1+ and Visual Basic 15+ | true:suggestion | 15.6 |
-| dotnet_style_prefer_inferred_anonymous_type_member_names | IDE0037 | C# and Visual Basic | true:suggestion | 15.6 |
+| dotnet_style_prefer_inferred_anonymous_ type_member_names | IDE0037 | C# and Visual Basic | true:suggestion | 15.6 |
 
 **dotnet\_style\_object_initializer**
 
@@ -587,7 +587,7 @@ dotnet_style_null_propagation = true:suggestion
 
 The style rules in this section are applicable to C# only.
 
-#### <a name="var"></a>Implicit and explicit types
+#### Implicit and explicit types
 
 The style rules in this section (rule IDs IDE0007 and IDE0008) concern the use of the [var](/dotnet/csharp/language-reference/keywords/var) keyword versus an explicit type in a variable declaration. This rule can be applied separately to built-in types, when the type is apparent, and elsewhere.
 
@@ -1492,7 +1492,7 @@ The following table shows the rule names, applicable languages, default values, 
 | ----------- | -------------------- | ----------------------| ----------------  |
 | csharp_space_after_cast |  C# | false | 15.3  |
 | csharp_space_after_keywords_in_control_flow_statements |  C# | true | 15.3  |
-| csharp_space_between_method_declaration_parameter_list_parentheses |  C# | false | 15.3  |
+| csharp_space_between_method_declaration_parameter_ list_parentheses |  C# | false | 15.3  |
 | csharp_space_between_method_call_parameter_list_parentheses |  C# | false | 15.3  |
 | csharp_space_between_parentheses |  C# | false | 15.3  |
 

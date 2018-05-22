@@ -16,7 +16,7 @@ The **Output** option specifies the name of the profiling data file for the perf
   
 ## Syntax  
   
-```  
+```cmd  
 VSPerfCmd.exe /Start:Method /Output:FileName [Options]  
 ```  
   
@@ -33,7 +33,7 @@ VSPerfCmd.exe /Start:Method /Output:FileName [Options]
 ## Example  
  In the following example, the profiling data file is created in the current directory.  
   
-```  
+```cmd  
 VSPerfCmd.exe /Start:Sample /Output:TestApp.exe.vsp  
 ```  
   

@@ -21,4 +21,4 @@ When a user’s subscription has expired, this is indicated in the portal by a r
 1.  Contact your Volume Licensing reseller or your Microsoft seller. 
 2.  Provide them with your Agreement Number and Purchase Account Number. 
 
-Your reseller or Microsoft seller will guide you through the renewal or purchasing additional subscriptions process. Once the order has been placed or the contract has been renewed, the new subscriptions will be available and can be [assigned to your subscribers](/assign-license/). 
+Your reseller or Microsoft seller will guide you through the renewal or purchasing additional subscriptions process. Once the order has been placed or the contract has been renewed, the new subscriptions will be available and can be [assigned to your subscribers](assign-license.md). 

@@ -27,13 +27,13 @@ The **Immediate** window is used to debug and evaluate expressions, execute stat
 ## Displaying the Values of Variables
  This window can be particularly useful while debugging an application. For example, to check the value of a variable `varA`, you can use the [Print Command](../../ide/reference/print-command.md):
 
-```
+```cmd
 >Debug.Print varA
 ```
 
  The question mark (?) is an alias for `Debug.Print`, so this command can also be written:
 
-```
+```cmd
 >? varA
 ```
 
@@ -95,7 +95,7 @@ You cannot use design time expression evaluation in project types that require s
 
  In the **Immediate** window, an equals sign (=) is interpreted as an assignment operator. So, for example, the command
 
-```
+```cmd
 >Debug.EvaluateStatement(varA=varB)
 ```
 
@@ -103,7 +103,7 @@ You cannot use design time expression evaluation in project types that require s
 
  In the **Command** window, by contrast, an equals sign (=) is interpreted as a comparison operator. You cannot use assignment operations in the **Command** window. So, for example, if the values of variables `varA` and `varB` are different, then the command
 
-```
+```cmd
 >Debug.EvaluateStatement(varA=varB)
 ```
 

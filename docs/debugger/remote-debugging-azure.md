@@ -79,18 +79,19 @@ From Visual Studio, you can quickly publish and debug your app to a fully provis
 
 You can create an Azure VM for Windows Server and then install and configure IIS and the other required software components. This takes more time than deploying to an Azure App Service and requires that you follow the remaining steps in this tutorial.
 
-First, follow all the steps described in [Install and run IIS](/azure/virtual-machines/virtual-machines-windows-hero-role).
+First, follow all the steps described in [Install and run IIS](/azure/virtual-machines/windows/quick-create-portal).
 
 When you open port 80 in the Network security group, also open port 4022 for the Remote Debugger. That way, you won't have to open it later.
 
 ### Update browser security settings on Windows Server
 
-Depending on your browser security settings, it may save you time to add the following trusted sites to your browser so you can easily download the software described in this tutorial. Access to these sites may be needed:
+Depending on your browser security settings, it may save you time to add the following trusted sites to your browser so you can more quickly download the software described in this tutorial. Access to these sites may be needed:
 
 - microsoft.com
 - go.microsoft.com
 - download.microsoft.com
 - visualstudio.com
+- iis.net
 
 If you are using Internet Explorer, you can add the trusted sites by going to **Internet Options > Security > Trusted Sites > Sites**. These steps are different for other browsers. (If you need to download an older version of the remote debugger from my.visualstudio.com, some additional trusted sites are required to sign in.)
 
@@ -105,11 +106,17 @@ When you download the software, you may get requests to grant permission to load
 
 3. Restart the system (or execute **net stop was /y** followed by **net start w3svc** from a command prompt to pick up a change to the system PATH).
 
+## (Optional) Install Web Deploy 3.6 for Hosting Servers on Windows Server
+
+In some scenarios, it can be faster to import publish settings in Visual Studio instead of manually configuring deployment options. If you prefer to import publish settings instead of configuring the publishing profile in Visual Studio, see [Import publish settings and deploy to IIS](../deployment/tutorial-import-publish-settings-iis.md). Otherwise, stay in this topic and continue reading. If you complete the article on importing publish settings and deploy the app successfully, then return to this topic and start in the section on [downloading the remote tools](#BKMK_msvsmon).
+
 ### <a name="BKMK_install_webdeploy"></a> (Optional) Install Web Deploy 3.6 on Windows Server
 
 [!INCLUDE [remote-debugger-install-web-deploy](../debugger/includes/remote-debugger-install-web-deploy.md)]
 
-### <a name="BKMK_deploy_asp_net"></a> Configure ASP.NET Web site on the Windows Server computer
+### <a name="BKMK_deploy_asp_net"></a> Configure the ASP.NET Web site on the Windows Server computer
+
+If you are importing publish settings, you can skip this section.
 
 1. Open the **Internet Information Services (IIS) Manager** and go to **Sites**.
 

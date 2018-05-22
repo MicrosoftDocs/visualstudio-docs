@@ -32,7 +32,7 @@ Marks the beginning of a new span.
   
 ## Syntax  
   
-```  
+```C  
 HRESULT CvEnterSpanW(  
     _In_reads_bytes_(16) PCV_MARKERSERIES pMarkerSeries,   
     _Out_ PCV_SPAN* ppSpan,   
@@ -111,10 +111,10 @@ HRESULT CvEnterSpanExVA(
  Valid marker series context. Cannot be NULL.  
   
  `pMessage`  
- Message format string. Cannot be NULL.  
+ Message-format string. Cannot be NULL.  
   
  `ppSpan`  
- Address of the variable which will hold resulting span object. Address cannot be NULL, the variable can have any value.  
+ Address of the variable that will hold resulting span object. Address cannot be NULL, the variable can have any value.  
   
 ## Return Value  
  S_OK when the message is successfully written. Error code in case there were any errors. Use SUCCEEDED/FAILED macros to check for error condition.  
