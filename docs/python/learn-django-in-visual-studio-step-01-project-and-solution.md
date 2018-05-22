@@ -112,7 +112,7 @@ Answer: Yes. To disable auto-commit, go to the **Settings** page in **Team Explo
 
 ## Step 1-3: Create the virtual environment and exclude it from source control
 
-Now that you've configured source control for your project, you can create the virtual environment the necessary Django packages that the project requires. You can then use **Team Explorer** to exclude the environment's folder from source control.
+Now that you've configured source control for your project, you can create the virtual environment using the necessary Django packages that the project requires. You can then use **Team Explorer** to exclude the environment's folder from source control.
 
 1. In **Solution Explorer**, right-click the **Python Environments** node and select **Add Virtual Environment**.
 
