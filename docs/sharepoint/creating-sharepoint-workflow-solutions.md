@@ -32,7 +32,7 @@ ms.workload:
 ## Workflows in SharePoint  
  When you add a workflow to a SharePoint library or list, you enforce a business process on all items in the library or list. A workflow describes the actions that the system or users must perform on each item, such as sending the item to be edited and then reviewed. These actions, known as *activities*, are the building blocks of the workflow.  
   
- You can create SharePoint workflows in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] and deploy them to a SharePoint Web site. After a workflow is deployed to SharePoint, you associate it with a library or list. It can then be started automatically, by a process, or manually, by a user. For more information about workflow operation, see [Using workflows to manage processes](http://go.microsoft.com/fwlink/?LinkId=79757).  
+ You can create SharePoint workflows in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] and deploy them to a SharePoint Web site. After a workflow is deployed to SharePoint, you associate it with a library or list. It can then be started automatically, by a process, or manually, by a user. For more information about workflow operation, see [Develop SharePoint workflows using Visual Studio](https://docs.microsoft.com/sharepoint/dev/general-development/develop-sharepoint-workflows-using-visual-studio).  
   
 ## Creating Custom SharePoint Workflows  
  Two SharePoint workflow projects are available to you in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]: **Sequential Workflow** and **State Machine Workflow**.  
