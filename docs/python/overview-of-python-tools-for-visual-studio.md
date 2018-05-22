@@ -8,7 +8,7 @@ ms.topic: overview
 author: kraigb
 ms.author: kraigb
 manager: douge
-ms.workload: 
+ms.workload:
   - python
   - data-science
 ---
@@ -53,7 +53,7 @@ For more information:
 - Docs: [Code formatting](formatting-python-code.md)
 - Docs: [Refactoring](refactoring-python-code.md)
 - Docs: [Linting](linting-python-code.md)
-- General Visual Studio feature docs: [Writing Code in the Code and Text Editor](../ide/writing-code-in-the-code-and-text-editor.md)
+- General Visual Studio feature docs: [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)
 
 ## Interactive Window
 
