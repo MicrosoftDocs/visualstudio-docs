@@ -34,9 +34,9 @@ The VSCEIP is turned on by default. You can turn it off, or back on again, by fo
 If you install the Visual Studio Build Tools, you must update the registry to configure the VSCEIP. Enterprise customers may construct Group Policy to opt in or out of the VSCEIP by setting a registry-based policy. 
 The relevant registry key and settings are as follows:  
   
- Key = HKEY_CURRENT_USER\Software\Microsoft\VSCommon\15.0\SQM  
- RegEntry name = OptIn  
- Entry type DWORD:  
+ Key = **HKEY_CURRENT_USER\SOFTWARE\Microsoft\VSCommon\15.0\SQM**  
+ Entry = OptIn  
+ Value = (DWORD)  
 -   0 is opted out (turn off the VSCEIP)  
 -   1 is opted in (turn on the VSCEIP)  
   
@@ -44,11 +44,13 @@ The relevant registry key and settings are as follows:
 >  Incorrectly editing the registry may severely damage your system. Before making changes to the registry, you should back up any valued data on the computer. You can also use the Last Known Good Configuration startup option if you encounter problems after manual changes have been applied.  
   
  For more information about the information collected, processed, or transmitted by the VSCEIP, see the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).  
- 
+
+>[!Note]
+    >If you're interested in viewing or deleting personal data, please review Microsoft's guidance in the [Microsoft Compliance Manager](https://servicetrust.microsoft.com/ComplianceManager) and in the [GDPR section of the Microsoft 365 Enterprise Compliance](https://docs.microsoft.com/microsoft-365/compliance/gdpr) site. If you're looking for general information about GDPR, see the [GDPR section of the Service Trust portal](https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted).
+
 ## See also
 
 * [Talk to us](../ide/talk-to-us.md)
 * [How to report a problem with Visual Studio](../ide/how-to-report-a-problem-with-visual-studio-2017.md)  
 * [Visual Studio Developer Community](https://developercommunity.visualstudio.com/)  
-* [European Union General Data Protection Regulation (GDPR)](https://docs.microsoft.com/microsoft-365/compliance/gdpr)  
 * [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement)  
