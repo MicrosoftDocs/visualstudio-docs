@@ -58,12 +58,15 @@ To save time when you install the tools on Windows Server, we recommend one of t
 
 * Download the remote tools directly on Windows Server and accept the prompts to add trusted sites. Modern websites often include many third-party resources, so this can result in a lot of prompts. In addition, any redirected links need to be added manually. Add some of the trusted sites before beginning the download. Go to **Internet Options > Security > Trusted Sites > Sites** and add the following sites.
 
+    * visualstudio.com
+    * download.visualstudio.microsoft.com
+    * about:blank
+
+    For older versions of the debugger on my.visualstudio.com, add these additional sites also to make sure that login is successful:
+
     * microsoft.com
     * go.microsoft.com
     * download.microsoft.com
-    * download.visualstudio.microsoft.com
-    * visualstudio.com
-    * about:blank
     * my.visualstudio.com
     * login.microsoftonline.com
     * login.live.com
@@ -78,7 +81,7 @@ To save time when you install the tools on Windows Server, we recommend one of t
 
     ![Blocked content dialog box](../debugger/media/remotedbg-blocked-content.png)
 
-    When you download the software, you will get additional requests to grant permission to load various web site scripts and resources. For successful login at my.visualstudio.com, we recommend you choose **Add** to add the resources.
+    When you download the software, you will get additional requests to grant permission to load various web site scripts and resources. On my.visualstudio.com, we recommend you add the additional sites to make sure that login is successful.
 
 ### <a name="fileshare_msvsmon"></a> (Optional) To run the remote debugger from a file share
 
