@@ -71,7 +71,7 @@ If available, contains details as described in the table below. If this tab isn'
 
 *Also labeled "pip" in earlier versions.*
 
-Manages the packages installed in the environment using pip, allowing you to also search for and install new ones (including any dependencies). In Visual Studio 2017 version 15.7 and later, a **Packages (Conda)** option appears which uses the conda package manager instead. (If you don't see that choice, set the option  **Tools** > **Options** > **Python** > **Experimental** > **Use conda package manager when available (instead of pip)** and restart Visual Studio.)
+Manages the packages installed in the environment using pip, allowing you to also search for and install new ones (including any dependencies). In Visual Studio 2017 version 15.7 and later, a **Packages (Conda)** tab appears which uses the conda package manager instead. (If you don't see that choice, set the option  **Tools** > **Options** > **Python** > **Experimental** > **Use conda package manager when available (instead of pip)** and restart Visual Studio.)
 
 Packages that are already installed appear with controls to update (an up arrow) and uninstall (the X in a circle) the package:
 
@@ -81,7 +81,13 @@ Entering a search term filters the list of installed packages as well as package
 
 ![Python environments packages tab with a search on "num"](media/environments-pip-tab.png)
 
-You can also directly enter any `pip install` command in the search box, including flags such as `--user` or `--no-deps`.
+As you can see in the image above, the search results show a number of packages that match the search term; the first entry in the list, however, is a command to run `pip install <name>` directly. If you're on the **Packages (Conda)** tab, you instead see `conda install <name>`:
+
+![Conda packages tab showing a conda install command](media/environments-conda-tab-install.png)
+
+In both cases, you can customize the install by adding arguments in the search box after the name of the package. When you include arguments, the search results shows `pip install` or `conda install` followed by the contents of the search box:
+
+![Using arguments on pip and conda install commands](media/environments-pip-tab-arguments.png)
 
 Installing a package creates subfolders within the environment's `Lib` folder on the file system. For example, if you have Python 3.6 installed in `c:\Python36`, packages are installed in `c:\Python36\Lib`; if you have Anaconda3 installed in `c:\Program Files\Anaconda3` then packages are installed in `c:\Program Files\Anaconda3\Lib`.
 
