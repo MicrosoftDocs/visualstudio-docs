@@ -18,14 +18,16 @@ For more information about the information collected, processed, or transmitted 
 The VSCEIP is turned on by default. You can turn it off, or back on again, by following the instructions below.
 
 1. Visual Studio for Mac.
-2. Choose **Visual Studio > Preferences > Other > Feedback**.
-3. Select your preference for participation:
+
+1. Choose **Visual Studio > Preferences > Other > Feedback**.
+
+1. Select your preference for participation:
 
     ![Select a radio button to reflect your participation preference](media/visual-studio-experience-improvement-program-image1.png)
 
 ## See also
 
-* [How to report a problem with Visual Studio](report-a-problem.md)  
-* [Visual Studio Developer Community](https://developercommunity.visualstudio.com/spaces/41/index.html)  
+* [How to report a problem with Visual Studio](report-a-problem.md)
+* [Visual Studio Developer Community](https://developercommunity.visualstudio.com/spaces/41/index.html)
 * [European Union General Data Protection Regulation (GDPR)](https://docs.microsoft.com/microsoft-365/compliance/gdpr)
-* [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement) 
+* [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement)
