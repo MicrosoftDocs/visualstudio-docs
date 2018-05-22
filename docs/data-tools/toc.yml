@@ -114,7 +114,7 @@
       - name: Save data by using a transaction
         href: save-data-by-using-a-transaction.md
         items:
-        - name: Walkthrough: Save data in a transaction
+        - name: "Walkthrough: Save data in a transaction"
           href: save-data-in-a-transaction.md
       - name: Save data to a database (multiple tables)
         href: save-data-to-a-database-multiple-tables.md
@@ -241,7 +241,7 @@
         href: the-objects-you-are-adding-to-the-designer-use-a-different-data-connection-than-the-designer-is-currently-using.md
       - name: Cannot create an association <association name> - property listed twice
         href: cannot-create-an-association-association-name-property-listed-twice.md
-      - name: Could not retrieve schema information for database object <object name>
+      - name: Could not retrieve schema information for database object
         href: could-not-retrieve-schema-information-for-database-object-object-name.md
       - name: One or more selected database objects return a schema that does not match the schema of the target class
         href: one-or-more-selected-database-objects-return-a-schema-that-does-not-match-the-schema-of-the-target-class.md
