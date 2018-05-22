@@ -54,7 +54,7 @@ Specifies whether the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 
   
  If the `ProvideDefaultName` element is `false`, the **Name** boxes of the **Add New Item** and **New Project** dialog boxes contain the value `<Enter_name>`.  
   
- Use the [DefaultName](../extensibility/defaultname-element-visual-studio-templates.md) element to specify the default name of the project or item in the **Add New Item** and **New Project** dialog boxes.  When the `ProvideDefaultName` element is `true`, omission of the `DefaultName` element for projects will populate the dialog box with the template's name (value from the [Name](../extensibility/name-element-visual-studio-templates.md) element).
+ Use the [DefaultName](../extensibility/defaultname-element-visual-studio-templates.md) element to specify the default name of the project or item in the **Add New Item** and **New Project** dialog boxes. When the value of the `ProvideDefaultName` element is `true`, omission of the `DefaultName` element for projects populates the dialog box with the template's name, that is, the value from the [Name](../extensibility/name-element-visual-studio-templates.md) element.
   
 ## Example  
  The following code example sets the `ProvideDefaultName` element to `false`.  
