@@ -56,26 +56,26 @@ To save time when you install the tools on Windows Server, we recommend one of t
 
 * Run the remote debugger [from a file share](#fileshare_msvsmon) on your Visual Studio machine.
 
-* Download the remote tools directly on Windows Server and accept the prompts to add trusted sites. Modern websites often include many third-party resources, so this can result in a lot of prompts. In addition, any redirected links need to be added manually. Add some of the trusted sites before beginning the download. Go to **Internet Options > Security > Trusted Sites > Sites** and add the following sites.
+* Download the remote tools directly on Windows Server and accept the prompts to add trusted sites. Modern websites often include many third-party resources, so this can result in a lot of prompts. In addition, any redirected links may need to be added manually. You can choose to add some of the trusted sites before beginning the download. Go to **Internet Options > Security > Trusted Sites > Sites** and add the following sites.
 
-    * visualstudio.com
-    * download.visualstudio.microsoft.com
-    * about:blank
+  * visualstudio.com
+  * download.visualstudio.microsoft.com
+  * about:blank
 
-    For older versions of the debugger on my.visualstudio.com, add these additional sites also to make sure that login is successful:
+  For older versions of the debugger on my.visualstudio.com, add these additional sites also to make sure that login is successful:
 
-    * microsoft.com
-    * go.microsoft.com
-    * download.microsoft.com
-    * my.visualstudio.com
-    * login.microsoftonline.com
-    * login.live.com
-    * secure.aadcdn.microsoftonline-p.com
-    * msft.sts.microsoft.com
-    * auth.gfx.ms
-    * app.vssps.visualstudio.com
-    * vlscppe.microsoft.com
-    * query.prod.cms.rt.microsoft.com
+  * microsoft.com
+  * go.microsoft.com
+  * download.microsoft.com
+  * my.visualstudio.com
+  * login.microsoftonline.com
+  * login.live.com
+  * secure.aadcdn.microsoftonline-p.com
+  * msft.sts.microsoft.com
+  * auth.gfx.ms
+  * app.vssps.visualstudio.com
+  * vlscppe.microsoft.com
+  * query.prod.cms.rt.microsoft.com
 
     If the domains listed previously are blocked when you try to download the remote tools, choose **Add** to add the site or resource as a trusted site.
 
