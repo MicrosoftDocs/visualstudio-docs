@@ -25,11 +25,10 @@ The VSCEIP is turned on by default. You can turn it off, or back on again, by fo
 
     ![Select a radio button to reflect your participation preference](media/visual-studio-experience-improvement-program-image1.png)
 
-[!INCLUDE [GDPR-related guidance](/azure-docs-pr/includes/gdpr-hybrid-note.md)]
+[!INCLUDE [GDPR-related guidance](/azure-docs-pr/includes/gdpr-hybrid-note)]
 
 ## See also
 
 * [How to report a problem with Visual Studio for Mac](report-a-problem.md)
 * [Visual Studio for Mac Developer Community](https://developercommunity.visualstudio.com/spaces/41/index.html)
-* [European Union General Data Protection Regulation (GDPR)](https://docs.microsoft.com/microsoft-365/compliance/gdpr)
 * [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement)
