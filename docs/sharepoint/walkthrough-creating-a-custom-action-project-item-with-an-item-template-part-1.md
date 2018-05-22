@@ -196,7 +196,7 @@ ms.workload:
     > [!NOTE]  
     >  The following XML is for a Visual C# item template. If you are creating a Visual Basic item template, replace the value of the `ProjectType` element with `VisualBasic`.  
   
-    ```  
+    ```xml  
     <?xml version="1.0" encoding="utf-8"?>  
     <VSTemplate Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">  
       <TemplateData>  
@@ -225,7 +225,7 @@ ms.workload:
   
 7.  Add the following XML to the CustomAction.spdata file, and then save and close the file.  
   
-    ```  
+    ```xml  
     <?xml version="1.0" encoding="utf-8"?>  
     <ProjectItem Type="Contoso.CustomAction" DefaultFile="Elements.xml"   
      xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">  
@@ -245,7 +245,7 @@ ms.workload:
   
 11. Replace the contents of the Elements.xml file with the following XML, and then save and close the file.  
   
-    ```  
+    ```xml  
     <?xml version="1.0" encoding="utf-8" ?>  
     <Elements Id="$guid8$" xmlns="http://schemas.microsoft.com/sharepoint/">  
       <CustomAction Id="Replace this with a GUID or some other unique string"  
@@ -269,13 +269,13 @@ ms.workload:
   
 15. Locate the following `VSTemplate` element in the project file.  
   
-    ```  
+    ```xml  
     <VSTemplate Include="ItemTemplate.vstemplate">  
     ```  
   
 16. Replace this `VSTemplate` element with the following XML, and then save and close the file.  
   
-    ```  
+    ```xml  
     <VSTemplate Include="ItemTemplate.vstemplate">  
       <OutputSubPath>SharePoint\SharePoint14</OutputSubPath>  
     </VSTemplate>  
@@ -395,25 +395,25 @@ ms.workload:
   
     -   In the `CustomAction` element, set the `Id` attribute to a GUID or some other unique string as the following example shows:  
   
-        ```  
+        ```xml  
         Id="cd85f6a7-af2e-44ab-885a-0c795b52121a"  
         ```  
   
     -   In the `CustomAction` element, set the `Title` attribute as the following example shows:  
   
-        ```  
+        ```xml  
         Title="SharePoint Developer Center"  
         ```  
   
     -   In the `CustomAction` element, set the `Description` attribute as the following example shows:  
   
-        ```  
+        ```xml  
         Description="Opens the SharePoint Developer Center Web site."  
         ```  
   
     -   In the `UrlAction` element, set the `Url` attribute as the following example shows:  
   
-        ```  
+        ```xml  
         Url="http://msdn.microsoft.com/sharepoint/default.aspx"  
         ```  
   

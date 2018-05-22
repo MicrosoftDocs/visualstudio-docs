@@ -20,7 +20,7 @@ Destroys the `span` object and releases its resources.
   
 ## Syntax  
   
-```  
+```cpp  
 ~span();  
 ```  
   

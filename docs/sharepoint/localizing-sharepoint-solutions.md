@@ -58,7 +58,7 @@ ms.workload:
   
  After you create the feature resource files, add translated strings to them. Access the localized strings with an expression in the following format:  
   
-```  
+```aspx-csharp  
 $Resources:String ID  
 ```  
   
@@ -80,25 +80,25 @@ $Resources:String ID
   
  Replace all hard-coded property strings in your ASPX pages and controls markup with an expression in the following format:  
   
-```  
+```aspx-csharp  
 <asp:<class> runat="server" Text="<%$Resources:<Resource File Name>, <String ID>%>" />  
 ```  
   
  For example:  
   
-```  
+```aspx-csharp  
 <asp:Button ID="btn1" runat="server" onclick="btn1_Click" Text="<%$Resources:Resource1,String7%>"></asp:Button>  
 ```  
   
  For ASPX as text, use an expression in the following format:  
   
-```  
+```aspx-csharp  
 <asp:literal ID="<ID>" runat="server" Text="<%$Resources:<Resource File Name>, <String ID>%>" />  
 ```  
   
  For example:  
   
-```  
+```aspx-csharp  
 <asp:literal ID="Literal1" runat="server" Text="<%$Resources:Resource1, String9%>" />  
 ```  
   
@@ -115,7 +115,7 @@ $Resources:String ID
   
  In your code, replace hard-coded strings with calls to the <xref:System.Web.HttpContext.GetGlobalResourceObject%2A> method using the following syntax:  
   
-```  
+```aspx-csharp  
 HttpContext.GetGlobalResourceObject("<Resource File Name>", "<String ID>")  
 ```  
   

@@ -1,5 +1,5 @@
 ---
-title: "Creating new Projects and Solutions Visual Studio for Mac"
+title: "Creating new Projects and Solutions"
 description: "This article describes how to create projects and solutions in Visual Studio for Mac"
 author: asb3993
 ms.author: amburns
@@ -28,7 +28,7 @@ This method of adding new projects can be used to take advantage of Xamarin code
 
 The landing page of Visual Studio displays a list of recent projects that you have been working on:
 
- ![](media/create-new-projects-recent.png)
+ ![Recent solutions section on welcome page](media/create-new-projects-recent.png)
 
 You can filter this list using the Filter box or remove individual items from the list. 
  

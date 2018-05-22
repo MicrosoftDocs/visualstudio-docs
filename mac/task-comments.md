@@ -15,7 +15,7 @@ When writing code, it is standard practice to explicitly comment unfinished or q
 
 To add a new task comment, add a comment that includes the task keyword. For example:
 
-```
+```csharp
 //TODO: Finish this for all properties.
 ```
 

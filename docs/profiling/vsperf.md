@@ -62,6 +62,6 @@ Use the **VsPerf** command line tool to:
 |**/detach**|Stop data collection, but let target processes continue to run.|  
 |**/status**|Show profiler status.|  
   
-## See Also  
- [Performance Tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md)   
- [Profiling from the Command-Line](../profiling/using-the-profiling-tools-from-the-command-line.md)
+## See also  
+ [Performance tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md)   
+ [Profile from the command-line](../profiling/using-the-profiling-tools-from-the-command-line.md)

@@ -23,7 +23,7 @@ ms.workload:
 # VSInstr
 VSInstr tool is used to instrument binaries. It is invoked by using the following syntax:  
   
-```  
+```cmd  
 VSInstr [/U] filename [/options]  
 ```  
   
@@ -55,5 +55,5 @@ VSInstr [/U] filename [/options]
  [VSPerfMon](../profiling/vsperfmon.md)   
  [VSPerfCmd](../profiling/vsperfcmd.md)   
  [VSPerfReport](../profiling/vsperfreport.md)   
- [VSInstr Warnings](../profiling/vsinstr-warnings.md)   
- [Performance Report Views](../profiling/performance-report-views.md)
+ [VSInstr warnings](../profiling/vsinstr-warnings.md)   
+ [Performance report views](../profiling/performance-report-views.md)

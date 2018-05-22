@@ -23,7 +23,7 @@ When an exception has been caught, an exception bubble will appear. To view more
 
 This will display the **Show Details** dialog, providing more information regarding the exception:
 
-![](media/troubleshooting-image3.png)
+![Show details dialog](media/troubleshooting-image3.png)
 
 Important sections of the dialog, which are numbered above are described in detail below:
 

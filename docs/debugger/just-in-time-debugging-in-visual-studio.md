@@ -20,7 +20,7 @@ The actions you should take when you see the Just-in-Time debugger dialog box de
 
 #### If you want to fix or debug the error (Visual Studio users)
 
-- You must have [Visual Studio installed](https://www.microsoft.com/en-us/download/details.aspx?id=48146) to view the detailed information about the error and to try to debug it. For more information, see [Debug using the Just-In-Time Debugger](../debugger/debug-using-the-just-in-time-debugger.md). If you cannot resolve the error and fix the app, contact the owner of the app to resolve the error.
+- You must have [Visual Studio installed](http://www.visualstudio.com) to view the detailed information about the error and to try to debug it. For more information, see [Debug using the Just-In-Time Debugger](../debugger/debug-using-the-just-in-time-debugger.md). If you cannot resolve the error and fix the app, contact the owner of the app to resolve the error.
 
 #### If you want to prevent the Just-In-Time Debugger dialog box from appearing
 

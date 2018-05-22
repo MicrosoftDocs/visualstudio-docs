@@ -27,7 +27,7 @@ In this tutorial, you learn how to:
 
 ## Prerequisites
 
-* You must have Visual Studio installed and the Node.js development workload.
+* You must have Visual Studio 2017 installed and the Node.js development workload.
 
     If you haven't already installed Visual Studio, install it for free [here](http://www.visualstudio.com).
 

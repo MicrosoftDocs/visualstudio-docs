@@ -1,7 +1,7 @@
 ---
 title: "Deploy to a local folder - Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/22/2017"
+ms.date: "05/08/2018"
 ms.technology: vs-ide-deployment
 ms.topic: "quickstart"
 helpviewer_keywords: 
@@ -19,11 +19,17 @@ You can use the **Publish** tool to publish your app to a local folder.
 
 These steps apply to ASP.NET, ASP.NET Core, .NET Core, and Python apps in Visual Studio. For Node.js, the steps are supported but the user interface is different.
 
+## Prerequisites
+
+* You must have Visual Studio 2017 installed and the **.NET Framework** and the **.NET Core** development workload installed.
+
+    If you haven't already installed Visual Studio, install it for free [here](http://www.visualstudio.com).
+
 ## Create a new project 
 
 1. In Visual Studio, choose **File > New Project**.
 
-1. Under **Visual C#** or **Visual Basic**, choose **.NET Core**, and then in the middle pane choose **Console App (.NET Core)**.
+1. Under **Visual C#** or **Visual Basic**, choose **.NET Core**, and then, in the middle pane choose **Console App (.NET Core)**.
 
 1. Type a name like **MyLocalApp** and click **OK**.
 
@@ -35,7 +41,9 @@ These steps apply to ASP.NET, ASP.NET Core, .NET Core, and Python apps in Visual
 
     ![Choose Publish](../deployment/media/quickstart-publish.png "Choose Publish")
 
-1. In the **Publish** pane, choose **Folder**.
+1. If you have previously configured any publishing profiles, the **Publish** pane appears. Click **Create new profile**.
+
+1. In the **Pick a publish target** dialog box, choose **Folder**.
 
     ![Choose Folder](../deployment/media/quickstart-publish-folder.png "Choose Folder")
 
@@ -59,6 +67,6 @@ Deploy the published files in any way you like. For example, you can package the
 
 ## Next steps
 
-- [Deploy a .NET Core Application with the Publish tool](/dotnet/core/deploying/deploy-with-vs)
-- [Package a desktop app for Microsoft Store (Desktop Bridge)](/windows/uwp/porting/desktop-to-uwp-packaging-dot-net)
-- (.NET) [Deploy the .NET Framework and applications](/dotnet/framework/deployment/)
+- [Deploy a .NET Core Application with the Publish tool](/dotnet/core/deploying/deploy-with-vs?toc=/visualstudio/deployment/toc.json&bc=/visualstudio/deployment/_breadcrumb/toc.json)
+- [Package a desktop app for Microsoft Store (Desktop Bridge)](/windows/uwp/porting/desktop-to-uwp-packaging-dot-net?toc=/visualstudio/deployment/toc.json&bc=/visualstudio/deployment/_breadcrumb/toc.json)
+- (.NET) [Deploy the .NET Framework and applications...](/dotnet/framework/deployment/)

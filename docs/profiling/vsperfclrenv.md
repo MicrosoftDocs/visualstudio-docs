@@ -20,7 +20,7 @@ ms.workload:
 
 The VSPerfCLREnv tool is used to set environment variables that are required to profile a .NET Framework application. It uses the following syntax:
 
-```
+```cmd
 VsPerfCLREnv [/option]
 ```
 
@@ -40,7 +40,7 @@ The **InteractionOn** and **GlobalInteractionOn** options enable the collection 
 
 The following example includes tier interaction data in a profiling run that uses the sampling method:
 
-```
+```cmd
 VSPerfCLREnv /SampleOn
 VSPerfCLREnv /InteractionOn
 VSPerfCmd /Start:Sample /Output:MyApp.exe.vsp /Launch:MyApp.exe
@@ -48,7 +48,7 @@ VSPerfCmd /Start:Sample /Output:MyApp.exe.vsp /Launch:MyApp.exe
 
 The following example includes tier interaction data in a profiling run for a Windows service:
 
-```
+```cmd
 VSPerfCLREnv /GlobalSampleOn
 VSPerfCLREnv /GlobalInteractionOn
 REM Restart the computer and start the service
@@ -107,4 +107,4 @@ If the correct environment was not set during profiling, a warning is reported d
 
 ## See also
 
-[Profiling from the Command-Line](../profiling/using-the-profiling-tools-from-the-command-line.md)
+[Profile from the command-line](../profiling/using-the-profiling-tools-from-the-command-line.md)
