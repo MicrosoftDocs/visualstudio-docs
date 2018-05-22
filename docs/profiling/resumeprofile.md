@@ -18,7 +18,7 @@ The `ResumeProfile` method decrements the Suspend/Resume counter for the specifi
   
 ## Syntax  
   
-```  
+```cpp  
 PROFILE_COMMAND_STATUS PROFILERAPI ResumeProfile(  
                        PROFILE_CONTROL_LEVEL Level,   
                        unsigned int dwId);  
@@ -68,7 +68,7 @@ PROFILE_COMMAND_STATUS PROFILERAPI ResumeProfile(
 ## Example  
  The following example illustrates the ResumeProfile function. The example assumes that a call to the SuspendProfile method has been made for the same thread or process identified by [PROFILE_CURRENTID](../profiling/profile-currentid.md).  
   
-```  
+```cpp  
 void ExerciseResumeProfile()  
 {  
     // The initial value of the Suspend/Resume counter is 0.   

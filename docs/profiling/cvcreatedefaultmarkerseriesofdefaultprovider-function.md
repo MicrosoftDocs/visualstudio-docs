@@ -20,7 +20,7 @@ Creates default marker series of a default provider.
   
 ## Syntax  
   
-```  
+```C  
 HRESULT CvCreateDefaultMarkerSeriesOfDefaultProvider(  
    _Out_ PCV_PROVIDER* ppProvider,  
    _Out_ PCV_MARKERSERIES* ppMarkerSeries  

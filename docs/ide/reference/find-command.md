@@ -21,7 +21,7 @@ Searches files using a subset of the options available on the **Find in Files** 
 
 ## Syntax
 
-```
+```cmd
 Edit.Find findwhat [/case] [/doc | /proc | /open | /sel]
 [/markall] [/options] [/reset] [/up] [/wild | /regex] [/word]
 ```
@@ -70,7 +70,7 @@ Edit.Find findwhat [/case] [/doc | /proc | /open | /sel]
 ## Example
  This example performs a case-sensitive search for the word "somestring" in the currently selected section of code.
 
-```
+```cmd
 >Edit.Find somestring /sel /case
 ```
 

@@ -25,13 +25,13 @@ The **Command** window is used to execute commands or aliases directly in the [!
 ## Displaying the Values of Variables
  To check the value of a variable `varA`, use the [Print Command](../../ide/reference/print-command.md):
 
-```
+```cmd
 >Debug.Print varA
 ```
 
  The question mark (?) is an alias for `Debug.Print`, so this command can also be written:
 
-```
+```cmd
 >? varA
 ```
 
@@ -71,7 +71,7 @@ The **Command** window is used to execute commands or aliases directly in the [!
 ## Parameters, Switches, and Values
  Some [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] commands commands have required and optional arguments, switches and values. Certain rules apply when dealing with such commands. The following is an example of a rich command to clarify the terminology.
 
-```
+```cmd
 Edit.ReplaceInFiles /case /pattern:regex var[1-3]+ oldpar
 ```
 
@@ -97,7 +97,7 @@ If short-form switches are combined into a group and given a value, that value a
 ## Escape Characters
  A caret (^) character in a command line means that the character immediately following it is interpreted literally, rather than as a control character. This can be used to embed straight quotation marks ("), spaces, leading slashes, carets, or any other literal characters in a parameter or switch value, with the exception of switch names. For example,
 
-```
+```cmd
 >Edit.Find ^^t /regex
 ```
 

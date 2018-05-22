@@ -17,7 +17,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# VSInstr Warnings
+# VSInstr warnings
 The following table lists warnings issued by the VSInstr.exe tool. You can use the NOWARN option along with the warning numbers to suppress the warning from appearing.  
   
 |Warning Number|Description|  
@@ -38,5 +38,5 @@ The following table lists warnings issued by the VSInstr.exe tool. You can use t
 |**VSP2013**|Instrumenting this image requires it to run as a 32-bit process. The CLR header flags have been updated to reflect this.<br /><br /> The profiler modifies the binary so that 64-bit operating systems can open the 32-bit process in WOW64 emulator. For libraries (DLLs) this might fail if they are loaded in an existing 64-bit process. This warning notifies the user of the dependency.|  
 |**VSP2014**|The resulting instrumented image appears to be invalid, and might not run.<br /><br /> This message occurs when the final instrumented assembly has an invalid PE header.|  
   
-## See Also  
+## See also  
  [VSInstr](../profiling/vsinstr.md)

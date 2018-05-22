@@ -21,7 +21,7 @@ Displays the selected or specified text in the Expression field of the [QuickWat
 
 ## Syntax
 
-```
+```cmd
 Debug.QuickWatchq [text]
 ```
 
@@ -35,7 +35,7 @@ Debug.QuickWatchq [text]
 
 ## Example
 
-```
+```cmd
 >Debug.QuickWatch
 ```
 

@@ -34,7 +34,7 @@ When your organization is ready to be onboarded to the Visual Studio Subscriptio
 
      a.	In the email, the Primary and Notices Contacts are provided with a unique link and the last three digits of their Public Customer Number (PCN).  (If the Primary or Notices Contacts receive more than one email, this means that they have more than one PCN. They will need to complete the process using the unique link for the PCN referenced in each email.)
 
-     b.	To obtain the entire PCN, the Primary Contact will need to sign in to the VLSC. [Instructions for locating the PCN](/find-pcn/) 
+     b.	To obtain the entire PCN, the Primary Contact will need to sign in to the VLSC. [Instructions for locating the PCN](find-pcn.md) 
 
      c.	After obtaining the PCN, they’ll need to select their unique link which will prompt them to sign in. They will be able to sign in using either a work/school account (if your organization is on AAD) or a Microsoft Account (MSA) if your organization is not on AAD. 
 
@@ -44,6 +44,6 @@ When your organization is ready to be onboarded to the Visual Studio Subscriptio
 
 3.	Accessing the new subscription management portal. Once your organization is migrated, emails will be sent to the newly added super admins and administrators inviting them to access the new portal and begin managing subscriptions.  
 
-If you need to be added to the new Visual Studio Subscriptions Administration Portal and you aren’t sure who your Primary/Notices Contact is, you can find this information after signing in to the [VLSC](https://www.microsoft.com/Licensing/servicecenter/default.aspx). Take a look the [Find Your Primary Contact](/find-primary-contact/) topic for steps to locate your Primary/Notices Contact in the VLSC.
+If you need to be added to the new Visual Studio Subscriptions Administration Portal and you aren’t sure who your Primary/Notices Contact is, you can find this information after signing in to the [VLSC](https://www.microsoft.com/Licensing/servicecenter/default.aspx). Take a look the [Find Your Primary Contact](find-primary-contact.md) topic for steps to locate your Primary/Notices Contact in the VLSC.
 
 If you have already been set up as an administrator, then you can go directly to the Visual Studio subscriptions Administration Portal at: [https://manage.visualstudio.com](https://manage.visualstudio.com). 

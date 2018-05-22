@@ -157,4 +157,4 @@ You can control the scope of your EditorConfig conventions by setting the ```roo
 - [.NET naming conventions](../ide/editorconfig-naming-conventions.md)
 - [Supporting EditorConfig for a language service](../extensibility/supporting-editorconfig.md)
 - [EditorConfig.org](http://editorconfig.org/)
-- [Writing code in the editor](writing-code-in-the-code-and-text-editor.md)
+- [Features of the code editor](writing-code-in-the-code-and-text-editor.md)

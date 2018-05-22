@@ -27,7 +27,7 @@ In this tutorial, you learn how to:
 
 ## Prerequisites
 
-* You must have Visual Studio installed and the Node.js development workload.
+* You must have Visual Studio 2017 installed and the Node.js development workload.
 
     If you haven't already installed Visual Studio, install it for free [here](http://www.visualstudio.com).
 
@@ -90,6 +90,8 @@ First, you'll create an Node.js web application project.
       a: img(id='myImage' height='200' width='200' src='')
     ```
 
+    The preceding code adds markup to dynamically generate an HTML page with a title and welcome message. The page also includes code to display an image that changes whenever you press a button.
+
 1. In the routes folder, open *index.js*.
 
 1. Add the following code before the call to `router.get`:
@@ -105,6 +107,8 @@ First, you'll create an Node.js web application project.
     }
     ````
 
+    This code creates a data object that we will pass to the dynamically generated HTML page.
+
 1. Replace the `router.get` function call with the following code:
 
     ```js
@@ -112,14 +116,16 @@ First, you'll create an Node.js web application project.
         res.render('index', { title: 'Express', "data" });
     });
     ```
+    
+    The preceding code sets the current page using the Express router object and renders the page, passing the title and data object to the page.
 
-    There is an error in the line of code containing `res.render`. We need to fix it before the app can run. We fix the error in the next section.
+    To demonstrate several features of Visual Studio, we included an error in the line of code containing `res.render`. We need to fix the error before the app can run. We fix the error in the next section.
 
 ## Use IntelliSense
 
 1. In *index.js*, go to the line of code containing `res.render`.
 
-1. After the `data` string, type `: get` and IntelliSense will show you the `getData` function. Select `getData`.
+1. Put your cursor after the `data` string, type `: get` and IntelliSense will show you the `getData` function. Select `getData`.
 
     ![Use IntelliSense](../nodejs/media/tutorial-nodejs-intellisense.png)
 

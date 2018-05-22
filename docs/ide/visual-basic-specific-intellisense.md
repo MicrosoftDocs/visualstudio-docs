@@ -33,7 +33,7 @@ Syntax tips display the syntax of the statement that you are typing. This is use
 
 Completion can be turned off by default by deselecting **Auto list members** from the **General** property page in the **Visual Basic** folder.
 
-You can manually invoke completion by invoking List Members, Complete Word, or ALT+RIGHT ARROW. For more information, see [Using IntelliSense](../ide/using-intellisense.md).
+You can manually invoke completion by invoking List Members, Complete Word, or **Alt**+**Right Arrow**. For more information, see [Use IntelliSense](../ide/using-intellisense.md).
 
 ## IntelliSense in Zone
 
@@ -43,7 +43,7 @@ IntelliSense in Zone assists Visual Basic developers who need to deploy applicat
 
 - Display APIs in the chosen Zone as available in List Members, and display APIs that require additional permissions as unavailable.
 
-For more information, see [Code Access Security for ClickOnce Applications](../deployment/code-access-security-for-clickonce-applications.md).
+For more information, see [Code access security for ClickOnce applications](../deployment/code-access-security-for-clickonce-applications.md).
 
 ## Filtered completion lists
 
@@ -51,4 +51,4 @@ In Visual Basic, IntelliSense completion lists have two tab controls located nea
 
 ## See also
 
-- [Using IntelliSense](../ide/using-intellisense.md)
+- [Use IntelliSense](../ide/using-intellisense.md)
