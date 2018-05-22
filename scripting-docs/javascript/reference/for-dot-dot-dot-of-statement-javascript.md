@@ -35,7 +35,7 @@ for (variable of object) {
  Required. A variable that can be any property value of `object`.  
   
  `object`  
- Required. An iterable object such as an `Array`, `Map`, `Set`, or an object that implements the [iterator interfaces](http://msdn.microsoft.com/en-us/3692355a-a703-4d43-8fb5-c03b4b7e8db1).  
+ Required. An iterable object such as an `Array`, `Map`, `Set`, or an object that implements the [iterator interfaces](../../javascript/advanced/iterators-and-generators-javascript.md).  
   
  `statements`  
  Optional. One or more statements to be executed for each value of an `object`. Can be a compound statement.  

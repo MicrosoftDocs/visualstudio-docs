@@ -26,7 +26,7 @@ VSPerfCmd.exe /Start:Method /Output:FileName[Options] /StartWait[:Seconds]
  `Seconds`  
  The number of seconds to wait before returning from the Start sub-command.  
   
-## Required Options  
+## Required options  
  The WaitStart option can only be used with the Start sub-command.  
   
  **Output:** `filename`  
