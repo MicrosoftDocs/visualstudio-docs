@@ -44,7 +44,7 @@ If you just want to download and install the remote debugger and don't need any 
 
 ## <a name="unblock_msvsmon"></a> Unblock the download of the remote tools on Windows Server
 
-Default settings in Internet Explorer on Windows Server can make it difficult to download the remote tools.
+The default security settings in Internet Explorer on Windows Server can make it difficult to download the remote tools.
 
 * Enhanced Security Configuration is enabled on Internet Explorer, which prevents you from opening websites and accessing web resources unless the domain containing the resource is explicitly allowed (that is, trusted).
 
@@ -56,17 +56,29 @@ To save time when you install the tools on Windows Server, we recommend one of t
 
 * Run the remote debugger [from a file share](#fileshare_msvsmon) on your Visual Studio machine.
 
-* Download the remote tools directly on Windows Server and accept the prompts to add trusted sites. Modern websites often include many third-party resources, so this can be a lot of prompts. In addition, a few redirected links need to be added manually. You can add some of the trusted sites before beginning the download. Go to **Internet Options > Security > Trusted Sites > Sites**. (If you need to download an older version of the remote debugger from my.visualstudio.com, some additional trusted sites are required to sign in.)
+* Download the remote tools directly on Windows Server and accept the prompts to add trusted sites. Modern websites often include many third-party resources, so this can result in a lot of prompts. In addition, any redirected links need to be added manually. Add some of the trusted sites before beginning the download. Go to **Internet Options > Security > Trusted Sites > Sites** and add the following sites.
 
     * microsoft.com
     * go.microsoft.com
     * download.microsoft.com
+    * download.visualstudio.microsoft.com
     * visualstudio.com
+    * about:blank
+    * my.visualstudio.com
     * login.microsoftonline.com
     * login.live.com
+    * secure.aadcdn.microsoftonline-p.com
+    * msft.sts.microsoft.com
     * auth.gfx.ms
+    * app.vssps.visualstudio.com
+    * vlscppe.microsoft.com
+    * query.prod.cms.rt.microsoft.com
 
-    When you download the software, you will get requests to grant permission to load various web site scripts and resources. In most cases, these additional resources are not required to install the software.
+    If the domains listed previously are blocked when you try to download the remote tools, choose **Add** to add the site or resource as a trusted site.
+
+    ![Blocked content dialog box](../debugger/media/remotedbg-blocked-content.png)
+
+    When you download the software, you will get additional requests to grant permission to load various web site scripts and resources. For successful login at my.visualstudio.com, we recommend you choose **Add** to add the resources.
 
 ### <a name="fileshare_msvsmon"></a> (Optional) To run the remote debugger from a file share
 
