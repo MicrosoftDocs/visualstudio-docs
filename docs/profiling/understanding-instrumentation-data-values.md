@@ -17,7 +17,7 @@ ms.workload:
 
 The *instrumentation* profiling method of Visual Studio records detailed timing information for the function calls, lines, and instructions in the profiled application
 
-The instrumentation method injects code at the start and end of target functions in the profiled binary, and before and after each call by those functions to other functions. The injected code records the following:
+The instrumentation method injects code at the start and end of target functions in the profiled binary, and before and after each call by those functions to other functions. The injected code records the following information:
 
 - The interval between this collection event and the previous one.
 
