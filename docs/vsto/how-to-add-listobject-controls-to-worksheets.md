@@ -39,7 +39,7 @@ ms.workload:
   
  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
   
-#### To use the Ribbon in Excel  
+### To use the Ribbon in Excel  
   
 1.  On the **Insert** tab, in the **Tables** group, click **Table**.  
   

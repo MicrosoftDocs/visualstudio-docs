@@ -25,7 +25,7 @@ ms.workload:
   - "office"
 ---
 # How to: Add controls to the Backstage view
-  You can use the Ribbon Designer to add controls to the menu that opens when you click the **File** tab. when you run the application, controls that you add to the **File** tab appear a group named **Add-ins**.  
+  You can use the Ribbon Designer to add controls to the menu that opens when you click the **File** tab. When you run the application, controls that you add to the **File** tab appear a group named **Add-ins**.  
   
  You cannot position controls before or after built-in controls by using the Ribbon designer in Visual Studio. A built-in control is a control that already appears in Backstage view. If you want to position controls before or after built-in controls, you must use a Ribbon XML. For more information about **Ribbon (XML)**, see [Ribbon XML](../vsto/ribbon-xml.md). For more information about customizing the Backstage view, see [Introduction to the Office 2010 Backstage view for developers](http://go.microsoft.com/fwlink/?LinkId=182189) and [Customize the Office 2010 Backstage view for developers](http://go.microsoft.com/fwlink/?LinkId=182188).  
   
@@ -61,9 +61,9 @@ ms.workload:
   
 ## See also  
  [Ribbon overview](../vsto/ribbon-overview.md)   
- [Ribbon Designer](../vsto/ribbon-designer.md)   
+ [Ribbon designer](../vsto/ribbon-designer.md)   
  [Ribbon XML](../vsto/ribbon-xml.md)   
- [How to: Get started customizing the Ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md)   
- [Walkthrough: Create a custom tab by using the Ribbon Designer](../vsto/walkthrough-creating-a-custom-tab-by-using-the-ribbon-designer.md)  
+ [How to: Get started customize the Ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md)   
+ [Walkthrough: Create a custom tab by using the Ribbon designer](../vsto/walkthrough-creating-a-custom-tab-by-using-the-ribbon-designer.md)  
   
   
