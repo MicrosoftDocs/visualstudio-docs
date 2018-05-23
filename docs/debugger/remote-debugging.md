@@ -52,7 +52,7 @@ The default security settings in Internet Explorer on Windows Server can make it
 
 To save time when you install the tools on Windows Server, we recommend one of the following:
 
-* Download the remote tools on a different computer such as the one running Visual Studio, and then copy the **.exe* file to Windows Server.
+* Download the remote tools on a different computer such as the one running Visual Studio, and then copy the *.exe* file to Windows Server.
 
 * Run the remote debugger [from a file share](#fileshare_msvsmon) on your Visual Studio machine.
 
