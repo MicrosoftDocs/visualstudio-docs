@@ -166,21 +166,21 @@
         href: how-to-use-clickonce-to-deploy-applications-that-can-run-on-multiple-versions-of-the-dotnet-framework.md
       - name: Publish a WPF Application with Visual Styles Enabled
         href: how-to-publish-a-wpf-application-with-visual-styles-enabled.md
-      - name: Walkthrough Download Assemblies on Demand Using the Designer
+      - name: "Walkthrough: Download Assemblies on Demand Using the Designer"
         href: walkthrough-downloading-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer.md
         items:
-        - Name: "Walkthrough: Download Assemblies on Demand"
+        - name: "Walkthrough: Download Assemblies on Demand"
           href: walkthrough-downloading-assemblies-on-demand-with-the-clickonce-deployment-api.md
-      - Name: "Walkthrough: Download Satellite Assemblies on Demand Using the Designer"
+      - name: "Walkthrough: Download Satellite Assemblies on Demand Using the Designer"
         href: walkthrough-downloading-satellite-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer.md
-      - Name: "Walkthrough: Manually Deploy a ClickOnce Application"
+      - name: "Walkthrough: Manually Deploy a ClickOnce Application"
         href: walkthrough-manually-deploying-a-clickonce-application.md
         items:
-        - Name: "Walkthrough: Manually Deploy an App that Does Not Require Re-Signing"
+        - name: "Walkthrough: Manually Deploy an App that Does Not Require Re-Signing"
           href: walkthrough-manually-deploying-a-clickonce-app-no-re-signing-required.md
-      - Name: "Walkthrough: Download Satellite Assemblies on Demand"
+      - name: "Walkthrough: Download Satellite Assemblies on Demand"
         href: walkthrough-downloading-satellite-assemblies-on-demand-with-the-clickonce-deployment-api.md
-      - Name: "Walkthrough: Create a Custom Installer"
+      - name: "Walkthrough: Create a Custom Installer"
         href: walkthrough-creating-a-custom-installer-for-a-clickonce-application.md
     - name: Choose a ClickOnce Update Strategy
       href: choosing-a-clickonce-update-strategy.md
@@ -221,7 +221,7 @@
       href: how-to-create-a-package-manifest.md
     - name: Create a localized bootstrapper package
       href: how-to-create-a-localized-bootstrapper-package.md
-    - Name: "Walkthrough: Create a custom bootstrapper with a privacy prompt"
+    - name: "Walkthrough: Create a custom bootstrapper with a privacy prompt"
       href: walkthrough-creating-a-custom-bootstrapper-to-show-a-privacy-prompt.md
     - name: Product and Package Schema Reference
       href: product-and-package-schema-reference.md
