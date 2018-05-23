@@ -93,7 +93,7 @@
         href: how-to-set-custom-permissions-for-a-clickonce-application.md
       - name: Debug a ClickOnce Application with Restricted Permissions
         href: how-to-debug-a-clickonce-application-with-restricted-permissions.md
-      - name: Add a Trusted Publisher to a Client Computer for ClickOnce Applications
+      - name: Add a Trusted Publisher to a Client Computer
         href: how-to-add-a-trusted-publisher-to-a-client-computer-for-clickonce-applications.md
       - name: Re-sign Application and Deployment Manifests
         href: how-to-re-sign-application-and-deployment-manifests.md
@@ -104,15 +104,15 @@
     - name: Publish ClickOnce Applications
       href: publishing-clickonce-applications.md
       items:
-      - name: Creating ClickOnce Applications for Others to Deploy
+      - name: Create ClickOnce Applications for Others to Deploy
         href: creating-clickonce-applications-for-others-to-deploy.md
-      - name: Deploying ClickOnce Applications For Testing and Production Servers without Resigning
+      - name: Deploy Apps For Test and Production Servers without Resigning
         href: deploying-clickonce-applications-for-testing-and-production-without-resigning.md
-      - name: Accessing Local and Remote Data in ClickOnce Applications
+      - name: Access Local and Remote Data in ClickOnce Applications
         href: accessing-local-and-remote-data-in-clickonce-applications.md
-      - name: Deploying COM Components with ClickOnce
+      - name: Deploy COM Components with ClickOnce
         href: deploying-com-components-with-clickonce.md
-      - name: Building ClickOnce Applications from the Command Line
+      - name: Build ClickOnce Applications from the Command Line
         href: building-clickonce-applications-from-the-command-line.md
       - name: Publish a ClickOnce Application using the Publish Wizard
         href: how-to-publish-a-clickonce-application-using-the-publish-wizard.md
@@ -144,7 +144,7 @@
       - name: Specify a Link for Technical Support
         href: how-to-specify-a-link-for-technical-support.md
         items:
-        - name: Specify a Support URL for Individual Prerequisites in a ClickOnce Deployment
+        - name: Specify a Support URL for Individual Prerequisites
           href: how-to-specify-a-support-url-for-individual-prerequisites-in-a-clickonce-deployment.md
       - name: Specify a Publish Page for a ClickOnce Application
         href: how-to-specify-a-publish-page-for-a-clickonce-application.md
