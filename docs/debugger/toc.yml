@@ -520,7 +520,7 @@
     - name: Debug GPU code
       href: debugging-gpu-code.md
     - name: Graphics diagnostics
-      href: graphics/TOC.md
+      href: graphics/toc.yml
     - name: Debug ASP.NET applications
       href: how-to-enable-debugging-for-aspnet-applications.md
       items:

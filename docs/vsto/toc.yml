@@ -855,4 +855,4 @@
         - name: SetWefProcessId Method
           href: setwefprocessid-method.md
   - name: Sharepoint Development in Visual Studio
-    href: ../sharepoint/TOC.md
+    href: ../sharepoint/toc.yml

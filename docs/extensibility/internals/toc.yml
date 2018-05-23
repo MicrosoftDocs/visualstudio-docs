@@ -408,7 +408,7 @@
   - name: List of Available Services
     href: list-of-available-services.md
 - name: Visual Studio Debugger Extensibility
-  href: ../debugger/TOC.md
+  href: ../debugger/toc.yml
 - name: Source Control
   href: source-control.md
   items:

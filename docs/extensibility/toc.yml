@@ -377,7 +377,7 @@
   - name: How to: Use the Activity Log
     href: how-to-use-the-activity-log.md
 - name: Visual Studio User Experience Guidelines
-  href: ux-guidelines/TOC.md
+  href: ux-guidelines/toc.yml
 - name: Addressing DPI Issues
   href: addressing-dpi-issues2.md
 - name: Image Service and Catalog
@@ -473,7 +473,7 @@
   - name: Locating Visual Studio
     href: locating-visual-studio.md
 - name: Inside the Visual Studio SDK
-  href: internals/TOC.md
+  href: internals/toc.yml
 - name: Support for the Visual Studio SDK
   href: support-for-the-visual-studio-sdk.md
 - name: Visual Studio SDK Reference
