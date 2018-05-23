@@ -41,9 +41,9 @@ The **Utilization View** displays information about the CPU, GPU, and other syst
   
  If you're using the GPU by using C++ AMP or DirectX, you might be interested in identifying the number of GPU engines in use or areas where the GPU is unexpectedly idle.  
   
-## Zooming  
+## Zoom  
  To zoom in on the CPU Utilization graph or the GPU Activity graph, select a section or use the zoom slider tool above the graph. The zoom setting persists as you switch to other views. To zoom out again, use the zoom slider tool. You can also zoom by using Ctrl+scroll.  
   
 ## See also  
  [Concurrency Visualizer](../profiling/concurrency-visualizer.md)   
- [Cores view](../profiling/cores-view.md)
+ [Cores View](../profiling/cores-view.md)

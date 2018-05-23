@@ -87,7 +87,7 @@ You can use Visual Studio profiling tools to analyze performance issues in your 
   
     -   The lower pane of the **Function Details** windows displays the function code itself. If you examine the code and find an opportunity to optimize its performance, click the source file name to open the file in the Visual Studio editor.  
   
-3.  To continue your analysis, return to the **Summary** view by selecting **Summary** from the View drop-down list. Then examine the functions in **Functions Doing the Most Individual Work**. This list displays the functions with the highest exclusive samples. The code in the function body of these functions performed significant work and you might be able to optimize it. To further analyze a particular function, , click the function name to display it in the **Function Details** view.  
+3.  To continue your analysis, return to the **Summary** view by selecting **Summary** from the View drop-down list. Then examine the functions in **Functions Doing the Most Individual Work**. This list displays the functions with the highest exclusive samples. The code in the function body of these functions performed significant work and you might be able to optimize it. To further analyze a particular function, click the function name to display it in the **Function Details** view.  
   
      ![List of functions doing the most work](../profiling/media/functions_mostwork.png "Functions_MostWork")  
   

@@ -26,7 +26,7 @@ VSPerfCmd.exe {/Launch:AppName | /Attach:PID} /TargetCLR[:ClrVersion] [Options]
  `ClrVersion`  
  The version number of the CLR. Use the version format **vN.N.NNNNN**.  
   
-## Required Options  
+## Required options  
  The **TargetCLR** option can only be used with the **Launch** or **Attach** options.  
   
  **Launch:** `AppName`  
