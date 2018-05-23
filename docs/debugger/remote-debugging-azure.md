@@ -1,7 +1,7 @@
 ---
 title: "Remote Debug ASP.NET Core on IIS and Azure | Microsoft Docs"
 ms.custom: "remotedebugging"
-ms.date: "08/14/2017"
+ms.date: "05/21/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: a6c04b53-d1b9-4552-a8fd-3ed6f4902ce6
@@ -63,13 +63,17 @@ From Visual Studio, you can quickly publish and debug your app to a fully provis
 
 1. In Visual Studio, right-click the project node and choose **Publish**.
 
-2. Choose **Microsoft Azure App Service** from the **Publish** dialog box, select **Create New**, and follow the prompts to publish.
+    If you have previously configured any publishing profiles, the **Publish** pane appears. Click **New profile**.
+
+1. Choose **Azure App Service** from the **Publish** dialog box, select **Create New**, and follow the prompts to publish.
 
     For detailed instructions, see [Deploy an ASP.NET Core web app to Azure using Visual Studio](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs).
 
-3. Open **Server Explorer** (**View** > **Server Explorer**), right-click on the App Service instance and choose **Attach Debugger**.
+    ![Publish to Azure App Service](../debugger/media/remotedbg_azure_app_service_profile.png)
 
-4. In the running ASP.NET application, click the link to the **About** page.
+1. Open **Server Explorer** (**View** > **Server Explorer**), right-click on the App Service instance and choose **Attach Debugger**.
+
+1. In the running ASP.NET application, click the link to the **About** page.
 
     The breakpoint should be hit in Visual Studio.
 
@@ -85,17 +89,14 @@ When you open port 80 in the Network security group, also open port 4022 for the
 
 ### Update browser security settings on Windows Server
 
-Depending on your browser security settings, it may save you time to add the following trusted sites to your browser so you can more quickly download the software described in this tutorial. Access to these sites may be needed:
+If Enhanced Security Configuration is enabled in Internet Explorer (it is enabled by default), then you may need to add some domains as trusted sites to enable you to download some of the web server components. Add the trusted sites by going to **Internet Options > Security > Trusted Sites > Sites**. Add the following domains.
 
 - microsoft.com
 - go.microsoft.com
 - download.microsoft.com
-- visualstudio.com
 - iis.net
 
-If you are using Internet Explorer, you can add the trusted sites by going to **Internet Options > Security > Trusted Sites > Sites**. These steps are different for other browsers. (If you need to download an older version of the remote debugger from my.visualstudio.com, some additional trusted sites are required to sign in.)
-
-When you download the software, you may get requests to grant permission to load various web site scripts and resources. In most cases, these additional resources are not required to install the software.
+When you download the software, you may get requests to grant permission to load various web site scripts and resources. Some of these resources are not required, but to simplify the process, click **Add** when prompted.
 
 ### Install ASP.NET Core on Windows Server
 
@@ -138,11 +139,13 @@ If you installed Web Deploy using the Web Platform Installer, you can deploy the
 
 2. In the **Solution Explorer**,  right-click the project node and select **Publish**.
 
-3. For **Select a publish target**, select **Microsoft Azure Virtual Machine** and click **Publish**.
+    If you have previously configured any publishing profiles, the **Publish** pane appears. Click **New profile**.
+
+3. Under **Pick a publish target**, select **Azure Virtual Machines** and click **Browse**.
 
     ![RemoteDBG_Publish_IISl](../debugger/media/remotedbg_azure_vm_profile.png "RemoteDBG_Publish_IIS")
 
-4. In the dialog box, select the Azure VM that you created previously.
+4. In the dialog box that opens, select the Azure VM that you created previously.
 
 4. Enter the correction configuration parameters for your Azure VM and IIS setup.
 
@@ -197,7 +200,8 @@ If you're not using Web Deploy, you must publish and deploy the app using the fi
 
 5. Check  **Show processes from all users**.
 6. Type the first letter of a process name to quickly find **dotnet.exe** (for ASP.NET Core).
-    >Note: For an ASP.NET Core app, the previous process name was dnx.exe.
+
+    For an ASP.NET Core app, the previous process name was dnx.exe.
 
     ![RemoteDBG_AttachToProcess](../debugger/media/remotedbg_attachtoprocess_aspnetcore.png "RemoteDBG_AttachToProcess")
 
