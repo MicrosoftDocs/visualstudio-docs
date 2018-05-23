@@ -11,12 +11,12 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# XML Editor IntelliSense Features
+# XML Editor IntelliSense features
 
 The XML Editor provides full IntelliSense features comparable to other language editors provided in Visual Studio. This section explains how you can use the IntelliSense with XML Schema definition language (XSD) and XSLT documents.
 
-## IntelliSense in an XSD Document
- After a schema is associated with your document, you get a drop-down list of expected elements any time you type `"<"` or click the **Display an Object Member List** button on the XML editor toolbar. For information about how to associate schemas with your XML documents, see [XML Document Validation](../xml-tools/xml-document-validation.md).
+## IntelliSense in an XSD document
+ After a schema is associated with your document, you get a drop-down list of expected elements any time you type `"<"` or click the **Display an Object Member List** button on the XML Editor toolbar. For information about how to associate schemas with your XML documents, see [XML document validation](../xml-tools/xml-document-validation.md).
 
  When you type SPACE from inside a start tag, you also get a drop-down list showing all attributes that can be added to the current element.
 
@@ -26,7 +26,7 @@ The XML Editor provides full IntelliSense features comparable to other language 
 
  ToolTips also appear on these IntelliSense lists based on `xsd:annotation` and `xsd:documentation` information found in the associated schema.
 
-## IntelliSense in an XSLT Document
+## IntelliSense in an XSLT document
  After you add a named template or an attribute to your XSLT document, you can use IntelliSense to insert the following:
 
 -   Attribute set names.
@@ -41,24 +41,24 @@ The XML Editor provides full IntelliSense features comparable to other language 
 
 For more information, see [Walkthrough: Using XSLT IntelliSense](../xml-tools/walkthrough-using-xslt-intellisense.md) topic.
 
-## Auto-Completion
- The XML editor also makes editing XML easier by filling in required XML syntax for you. For example, if you type the following start tag:
+## Auto-completion
+ The XML Editor also makes editing XML easier by filling in required XML syntax for you. For example, if you type the following start tag:
 
  `<book>`
 
- The XML editor fills in the end tag and positions the cursor after the start tag. The following is an example of this (the "&#124;" notes the cursor position):
+ The XML Editor fills in the end tag and positions the cursor after the start tag. The following is an example of this (the "&#124;" notes the cursor position):
 
  `<book>`&#124;`</book>`
 
- Because attribute values must always have quotes, the XML editor fills in the quotes for you. For example, if you type the following:
+ Because attribute values must always have quotes, the XML Editor fills in the quotes for you. For example, if you type the following:
 
  `<book title=`
 
- The XML editor adds the quotes and positions the cursor between the quotes:
+ The XML Editor adds the quotes and positions the cursor between the quotes:
 
  `<book title="`&#124;`"`
 
- Similarly, the XML editor also inserts the following XML syntax automatically for you:
+ Similarly, the XML Editor also inserts the following XML syntax automatically for you:
 
 -   End a processing instruction:  `?>`
 
@@ -70,14 +70,14 @@ For more information, see [Walkthrough: Using XSLT IntelliSense](../xml-tools/wa
 
 The XML Editor also has the ability to insert a namespace declaration if you select a namespace qualified element or attribute from an IntelliSense list and the namespace for that element or attribute is not yet in scope.
 
-For example, if you select the `e:Book` element from the IntelliSense list where the prefix is bound to the `http://books` namespace that has not been declared in the document, the XML editor inserts the required namespace declaration for you. The following is the resulting XML text:
+For example, if you select the `e:Book` element from the IntelliSense list where the prefix is bound to the `http://books` namespace that has not been declared in the document, the XML Editor inserts the required namespace declaration for you. The following is the resulting XML text:
 
 `<e:Book xmlns:e="http://books"`
 
-## Brace Matching
- The XML editor provides brace highlighting to give you immediate feedback on elements you have just closed. You can also use the keyboard shortcut (CTRL+]) to jump from one brace to the matching brace.
+## Brace matching
+ The XML Editor provides brace highlighting to give you immediate feedback on elements you have just closed. You can also use the keyboard shortcut (**Ctrl**+**]**) to jump from one brace to the matching brace.
 
- The XML editor does this for the following items:
+ The XML Editor does this for the following items:
 
 -   Matching start and end tags.
 
@@ -93,8 +93,8 @@ For example, if you select the `e:Book` element from the IntelliSense list where
 
 -   Opening and closing quotes on attributes.
 
-## Modifying the IntelliSense Options
- The IntelliSense and auto-completion features are enabled by default. However, you can change this by modifying your Tools-Options settings.
+## Modify the IntelliSense options
+ The IntelliSense and auto-completion features are enabled by default. However, you can change this by modifying your **Tools** > **Options** settings.
 
  The **Auto Insert** section of the **Miscellaneous** page controls the following behavior:
 
@@ -104,7 +104,7 @@ For example, if you select the `e:Book` element from the IntelliSense list where
 |Attribute quotes|Inserts attribute value quotes when you enter a new attribute name.|
 |Other markup|Completes comments, CDATA, DOCTYPE, processing instructions, and other markup declarations.|
 
-#### To change the auto-completion behavior
+### To change the auto-completion behavior
 
 1.  Select **Options** from the **Tools** menu.
 
@@ -112,7 +112,7 @@ For example, if you select the `e:Book` element from the IntelliSense list where
 
 3.  Make any changes to the **Auto insert** section and click **OK**.
 
-## See Also
+## See also
 
 - [XML Editor](../xml-tools/xml-editor.md)
 - [Using IntelliSense](../ide/using-intellisense.md)
