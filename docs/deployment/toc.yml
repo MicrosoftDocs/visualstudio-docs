@@ -166,9 +166,8 @@
         href: how-to-use-clickonce-to-deploy-applications-that-can-run-on-multiple-versions-of-the-dotnet-framework.md
       - name: Publish a WPF Application with Visual Styles Enabled
         href: how-to-publish-a-wpf-application-with-visual-styles-enabled.md
-     - name: Walkthrough Download Assemblies on Demand Using the Designer
+      - name: Walkthrough Download Assemblies on Demand Using the Designer
         href: walkthrough-downloading-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer.md
-      
         items:
         - Name: "Walkthrough: Download Assemblies on Demand"
           href: walkthrough-downloading-assemblies-on-demand-with-the-clickonce-deployment-api.md
