@@ -1,6 +1,6 @@
 ---
-title: IntelliCode FAQ
-ms.date: 05/07/2018
+title: IntelliCode questions and answers
+ms.date: 05/22/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
@@ -33,7 +33,7 @@ Developers can [download an experimental extension](https://go.microsoft.com/fwl
 
 ## Q. Are there other features coming to the Visual Studio IntelliCode extension? What about editorconfig generation?
 
-We're actively working on a number of capabilities that we're excited to share publicly as they become available. We demonstrated an early, internal version of a tool that infers editorconfig settings for code style and formatting in C# at Microsoft Build 2018. It's not in the experimental extension yet, but we plan to make it available there soon. You can sign up for news and updates at [https://aka.ms/intellicode](https://aka.ms/intellicode) to be the first to know when we have new capabilities available. 
+We're actively working on a number of capabilities that we're excited to share publicly as they become available. We demonstrated an early, internal version of a tool that infers editorconfig settings for code style and formatting in C# at Microsoft Build 2018. It's not in the experimental extension yet, but we plan to make it available there soon. You can sign up for news and updates at [https://aka.ms/intellicode](https://aka.ms/intellicode) to be the first to know when we have new capabilities available.
 
 ## Q: What makes “AI-assisted IntelliSense” powered by IntelliCode better than regular IntelliSense?
 
@@ -64,7 +64,7 @@ The experience was shown at Build 2018 in Visual Studio 2017 on a C# codebase. H
 
 ## Q. <a name="whynointellisense"/> I can't see the IntelliCode suggestions in my C# editing experience - what's happening?
 
-IntelliCode suggestions appear in the standard Visual Studio IntelliSense experience for C#. Extensions that override that experience prevent the IntelliCode "starred" suggestions from appearing at the top of the list. You can verify if extensions are causing this behavior by turning them off and then trying IntelliSense again. 
+IntelliCode suggestions appear in the standard Visual Studio IntelliSense experience for C#. Extensions that override that experience prevent the IntelliCode "starred" suggestions from appearing at the top of the list. You can verify if extensions are causing this behavior by turning them off and then trying IntelliSense again.
 
 If this doesn't solve the problem for you, please report your issue via the Visual Studio [Report a Problem](https://docs.microsoft.com/en-us/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017) feature, and mention IntelliCode in your report.
 
@@ -74,13 +74,13 @@ The Visual Studio IntelliCode extension is supported on Visual Studio 2017 versi
 
 ## Q. Is this experience only available in English?
 
-IntelliCode is a preview extension today, and we are eager to understand how useful these capabilities are for a broad set of customers. When we take IntelliCode out of preview, we'll certainly consider which locale or language to support first, and how it is packaged, based on your feedback. 
+IntelliCode is a preview extension today, and we are eager to understand how useful these capabilities are for a broad set of customers. When we take IntelliCode out of preview, we'll certainly consider which locale or language to support first, and how it is packaged, based on your feedback.
 
 ## <a name="privacy"/> Q: What about privacy? Are you sending my code to the cloud? What customer data is being sent to Microsoft?
 
 Developers are invited to experience Visual Studio IntelliCode today as an experimental preview extension. The purpose of the extension is to enable developers to test IntelliCode's capabilities and to provide feedback to the product team.
 
-We capture some anonymized usage and error-reporting data from the extension to help improve the product. No user-defined code is sent to Microsoft, but we collect information about your use of the IntelliCode results. The data only includes open-source and .NET types and members that you selected from IntelliCode's suggested list. Developers can opt out of Visual Studio data collection, which turns off data collection for the IntelliCode extension too. From the menu bar, select **Help** > **Send Feedback** > **Settings**. In the **Visual Studio Experience Improvement Program** dialog, select **No, I would not like to participate** and then select **OK**.
+We capture some anonymized usage and error-reporting data from the extension to help improve the product. No user-defined code is sent to Microsoft, but we collect information about your use of the IntelliCode results. The data only includes open-source and .NET types and members that you selected from IntelliCode's suggested list. Developers can opt out of the [Visual Studio Experience Improvement Program](../../ide/visual-studio-experience-improvement-program.md), which turns off data collection for the IntelliCode extension too. From the menu bar, select **Help** > **Send Feedback** > **Settings**. In the **Visual Studio Experience Improvement Program** dialog, select **No, I would not like to participate** and then select **OK**.
 
 The IntelliCode extension may periodically ask the developer to complete a survey, which again is anonymized. Users can sign up for news and a future private preview, but are not currently required to do so to use the experimental extension.
 

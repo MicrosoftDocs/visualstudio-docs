@@ -24,7 +24,7 @@
       href: /windows/uwp/porting/desktop-to-uwp-packaging-dot-net?toc=/visualstudio/deployment/toc.json&bc=/visualstudio/deployment/_breadcrumb/toc.json
     - name: Deploy a desktop app using ClickOnce
       href: how-to-publish-a-clickonce-application-using-the-publish-wizard.md
-    - name: Building ClickOnce Applications from the Command Line
+    - name: Build ClickOnce Applications from the Command Line
       href: building-clickonce-applications-from-the-command-line.md
   - name: ASP.NET
     items:
@@ -63,7 +63,7 @@
   - name: ClickOnce Security and Deployment
     href: clickonce-security-and-deployment.md
     items:
-    - name: Choosing a ClickOnce Deployment Strategy
+    - name: Choose a ClickOnce Deployment Strategy
       href: choosing-a-clickonce-deployment-strategy.md
     - name: ClickOnce Cache Overview
       href: clickonce-cache-overview.md
@@ -71,12 +71,12 @@
       href: clickonce-and-application-settings.md
     - name: ClickOnce Deployment on Windows Vista
       href: clickonce-deployment-on-windows-vista.md
-    - name: Localizing ClickOnce Applications
+    - name: Localize ClickOnce Applications
       href: localizing-clickonce-applications.md
       items:
       - name: Publish a Project That Has a Specific Locale
         href: how-to-publish-a-project-that-has-a-specific-locale.md
-    - name: Securing ClickOnce Applications
+    - name: Secure ClickOnce Applications
       href: securing-clickonce-applications.md
       items:
       - name: ClickOnce and Authenticode
