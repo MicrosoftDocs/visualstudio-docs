@@ -92,9 +92,43 @@ Let's dive in and create a new, simple program.
 
 1. Press any key to close the console window and stop the running program.
 
-## Use IntelliSense
+## Use refactoring and IntelliSense
 
+Let's look at a couple of the ways that [refactoring](refactoring-in-visual-studio.md) and [IntelliSense](using-intellisense.md) can help you code more efficiently.
 
+First, let's rename the `name` variable:
+
+1. Double-click the `name` variable to select it.
+
+1. Type in the new name for the variable, `username`.
+
+   Notice that a gray box appears around the variable, and a light bulb appears in the margin.
+
+1. Select the light bulb icon to show the available [Quick Actions](quick-actions.md). Select **Rename 'name' to 'username'**.
+
+   The variable is renamed across the project, which in our case is only two places.
+
+   ![Rename action in Visual Studio](media/rename-quick-action.png)
+
+   [Animated gif]
+
+Now let's use some of the features of IntelliSense.
+
+1. Below the line that says `Console.WriteLine($"\nHello {username}!");`, type **Console.Write**.
+
+   A box displays the members of the <xref:System.Console> that contain the text **write**.
+
+   ![IntelliSense list members in Visual Studio](media/intellisense-list-members.png)
+
+1. Select the member named **WriteLine** and notice that IntelliSense completes the word for you.
+
+1. Type an opening parenthesis character **(**.
+
+   IntelliSense displays a box with information about the member. This is called **Quick Info**.
+
+1. Use the **down arrow** on your keyboard, or click the downward-facing triangle icon in the box, to scroll through the available overloads for <xref:System.Console.WriteLine%2A>.
+
+   ![IntelliSense quick info in Visual Studio](media/intellisense-quick-info.png)
 
 ## Debug code
 
@@ -102,9 +136,19 @@ When you write code, you need to run it and test it for bugs. Visual Studio's de
 
 ## Customize Visual Studio
 
+You can personalize the IDE, including changing the default color theme. To change to the **Dark** theme:
 
+1. On the menu bar, choose **Tools** > **Options**.
 
-## Quick tour of the IDE
+1. On the **Environment** > **General** options page, change the **Color theme** selection to **Dark**, and then choose **OK**.
+
+   The color theme for the entire IDE changes to **Dark**.
+
+   ![VS in a dark theme](media/quickstart-personalize-dark-theme.png)
+
+To learn about other ways you can personalize the IDE, see [Personalize Visual Studio](../ide/personalizing-the-visual-studio-ide.md).
+
+## Tour of the IDE
 
 To give you a high-level visual overview of Visual Studio, the following image shows Visual Studio with an open project along with several key tool windows you will most likely use:
 
@@ -128,11 +172,11 @@ Following are some other common productivity features in Visual Studio:
 
    ![Refactoring](../ide/media/VSIDE_refactor.png)
 
-- **IntelliSense** is an umbrella term for a set of popular features that display type information about your code directly in the editor and, in some cases, write small bits of code for you. It's like having basic documentation inline in the editor, which saves you from having to look up type information in a separate help window. IntelliSense features vary by language. For more information, see [C# IntelliSense](../ide/visual-csharp-intellisense.md), [Visual C++ IntelliSense](../ide/visual-cpp-intellisense.md), [JavaScript IntelliSense](../ide/javascript-intellisense.md), and [Visual Basic IntelliSense](../ide/visual-basic-specific-intellisense.md). The following illustration shows some IntelliSense features at work:
+- [IntelliSense](../ide/using-intellisense.md) is an umbrella term for a set of popular features that display type information about your code directly in the editor and, in some cases, write small bits of code for you. It's like having basic documentation inline in the editor, which saves you from having to look up type information in a separate help window. IntelliSense features vary by language. For more information, see [C# IntelliSense](../ide/visual-csharp-intellisense.md), [Visual C++ IntelliSense](../ide/visual-cpp-intellisense.md), [JavaScript IntelliSense](../ide/javascript-intellisense.md), and [Visual Basic IntelliSense](../ide/visual-basic-specific-intellisense.md). The following illustration shows some IntelliSense features at work:
 
    ![Visual Studio Member List](../ide/media/vs2017_Intellisense.png)
 
-- **Squiggles** are wavy red underlines that alert you to errors or potential problems in your code in real time as you type. This enables you to fix them immediately without waiting for the error to be discovered during compilation or run time. If you hover over the squiggle, you see additional information about the error. A light bulb may also appear in the left margin with suggestions for how to fix the error. For more information, see [Quick Actions](../ide/quick-actions.md).
+- **Squiggles** are wavy underlines that alert you to errors or potential problems in your code in real time as you type. This enables you to fix them immediately without waiting for the error to be discovered during compilation or run time. If you hover over the squiggle, you see additional information about the error. A light bulb may also appear in the left margin with actions to fix the error. For more information, see [Quick Actions](../ide/quick-actions.md).
 
    ![Squiggles](../ide/media/vs2017_squiggle.png)
 
@@ -154,6 +198,7 @@ Following are some other common productivity features in Visual Studio:
 
 ## See also
 
+* [Advanced feature tour](../ide/advanced-feature-overview.md)
 * [Visual Studio IDE](https://www.visualstudio.com/vs/)
 * [Visual Studio downloads](https://www.visualstudio.com/downloads/)
 * [The Visual Studio blog](https://blogs.msdn.microsoft.com/visualstudio/)
