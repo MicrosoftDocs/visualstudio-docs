@@ -177,6 +177,10 @@ If you're not using Web Deploy, you must publish and deploy the app using the fi
 
 ### <a name="BKMK_msvsmon"></a> Download and Install the remote tools on Windows Server
 
+In this tutorial, we are using Visual Studio 2017.
+
+If you have trouble opening the page with the remote debugger download, see [Unblock the file download](../../debugger/remote-debugging.md#unblock_msvsmon) for help.
+
 [!INCLUDE [remote-debugger-download](../debugger/includes/remote-debugger-download.md)]
   
 ### <a name="BKMK_setup"></a> Set up the remote debugger on Windows Server
