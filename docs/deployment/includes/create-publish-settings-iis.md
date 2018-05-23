@@ -1,4 +1,6 @@
 
+1. Close and re-open the IIS Management Console to show updated configuration options in the UI.
+
 1. In IIS, right-click the **Default Web Site**, choose **Deploy** > **Configure Web Deploy Publishing**.
 
     ![Configure Web Deploy configuration](../../deployment/media/tutorial-configure-web-deploy-publishing.png)
