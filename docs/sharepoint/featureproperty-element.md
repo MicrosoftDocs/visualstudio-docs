@@ -21,7 +21,7 @@ ms.workload:
   
 ## Syntax  
   
-```  
+```xml  
 <FeatureProperty Key = "Key of the property value"  
     Value = "Property value" />  
 ```  

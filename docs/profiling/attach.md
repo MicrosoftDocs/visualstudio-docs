@@ -21,7 +21,7 @@ The VSPerfCmd.exe **Attach** option begins sample profiling of the running proce
   
 ## Syntax  
   
-```  
+```cmd  
 VSPerfCmd.exe /Attach:ProcessID [Options]  
 ```  
   
@@ -64,13 +64,13 @@ VSPerfCmd.exe /Attach:ProcessID [Options]
 ## Example  
  This example demonstrates how to attach to a running instance of an application with the process ID of 12345.  
   
-```  
+```cmd  
 VSPerfCmd.exe /Start:Sample /Output:TestApp.exe.vsp  
 VSPerfCmd.exe /Attach:12345  
 ```  
   
-## See Also  
+## See also  
  [VSPerfCmd](../profiling/vsperfcmd.md)   
- [Profiling Stand-Alone Applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
- [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
+ [Profiling stand-alone applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
+ [Profiling ASP.NET web applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
  [Profiling Services](../profiling/command-line-profiling-of-services.md)

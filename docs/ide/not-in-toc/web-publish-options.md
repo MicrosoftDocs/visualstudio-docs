@@ -93,7 +93,7 @@ You can create any number of Custom deployment profiles in Visual Studio, making
 
 ### When to choose custom deployment
 
-- You're using cloud services on a provide other than Azure that can be accessed through URLs.
+- You're using cloud services on a provider other than Azure that can be accessed through URLs.
 - You want to deploy using credentials other than the ones that you use within Visual Studio, or those tied directly to your Azure accounts.
 - You want to delete files from the target each time you deploy.
 

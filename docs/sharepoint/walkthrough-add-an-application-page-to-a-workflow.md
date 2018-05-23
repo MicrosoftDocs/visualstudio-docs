@@ -73,7 +73,7 @@ ms.workload:
   
 3.  In the [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] of ApplicationPage1.aspx, replace the `PlaceHolderMain` section with the following:  
   
-    ```  
+    ```aspx-csharp  
     <asp:Content ID="Main" ContentPlaceHolderID="PlaceHolderMain" runat="server">  
         <asp:Label ID="Label1" runat="server" Font-Bold="True"   
             Text="Expenses that exceeded allotted amount" Font-Size="Medium"></asp:Label>  
@@ -87,7 +87,7 @@ ms.workload:
   
 4.  Add a title to the application page by replacing the `PlaceHolderPageTitleInTitleArea` section with the following:  
   
-    ```  
+    ```aspx-csharp  
     <asp:Content ID="PageTitleInTitleArea" ContentPlaceHolderID="PlaceHolderPageTitleInTitleArea" runat="server" >  
         Expense Report Summary  
     </asp:Content>  

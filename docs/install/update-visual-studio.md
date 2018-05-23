@@ -49,7 +49,7 @@ When there is an update, there's a corresponding notification flag in Visual Stu
      Your update continues. Then, when it's complete, Visual Studio restarts.
 
      > [!NOTE]
-     > If you run Visual Studio in administrator mode, you must manually restart Visual Studio after the update.    
+     > When you run Visual Studio in administrator mode, you must manually restart Visual Studio after the update.
 
 ### Use the IDE
 
@@ -66,7 +66,7 @@ You can check for an update and then install the update from the menu bar in Vis
    The update proceeds as described in the previous section, and then Visual Studio restarts after the update completes successfully.
 
    > [!NOTE]
-   > If you run Visual Studio in administrator mode, you must manually restart Visual Studio after the update.  
+   > When you run Visual Studio in administrator mode, you must manually restart Visual Studio after the update.
 
 ### Use the Visual Studio Installer
 

@@ -18,7 +18,7 @@ The **QueryCounters** option lists the CPU (hardware) performance counters that 
   
 ## Syntax  
   
-```  
+```cmd  
 VSPerfCmd.exe /QueryCounters  
 ```  
   

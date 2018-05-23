@@ -22,7 +22,7 @@ Opens an existing project.
 
 ## Syntax
 
-```
+```cmd
 File.OpenProject filename
 ```
 
@@ -41,7 +41,7 @@ File.OpenProject filename
 ## Example
  This example opens the [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] project, Test1.
 
-```
+```cmd
 >File.OpenProject "C:\My Projects\Test1\Test1.vbproj"
 ```
 

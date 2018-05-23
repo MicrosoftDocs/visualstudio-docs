@@ -1,5 +1,5 @@
 ---
-title: "Guidelines for Creating Outlook Form Regions | Microsoft Docs"
+title: "Guidelines for creating Outlook form regions"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
@@ -17,14 +17,14 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Guidelines for Creating Outlook Form Regions
+# Guidelines for creating Outlook form regions
   The following information can help you optimize your form regions and avoid potential problems:  
   
--   [Using form region names](#UsingFormRegions).  
+-   [Use form region names](#UsingFormRegions).  
   
--   [Disabling form region inheritance](#DisablingInheritance).  
+-   [Disable form region inheritance](#DisablingInheritance).  
   
--   [Understanding Types and Message Class Names](#ClassNames).  
+-   [Understand types and message Class Names](#ClassNames).  
   
 -   [Designing adjoining form regions for the reading pane](#ReadingPane).  
   

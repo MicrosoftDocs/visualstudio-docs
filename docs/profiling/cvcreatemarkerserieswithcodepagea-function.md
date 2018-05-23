@@ -20,7 +20,7 @@ Creates marker series for a given provider and specified code page. This functio
   
 ## Syntax  
   
-```  
+```C  
 HRESULT CvCreateMarkerSeriesWithCodePageA(  
    _In_ PCV_PROVIDER pProvider,  
    _In_ LPCSTR pSeriesName,  

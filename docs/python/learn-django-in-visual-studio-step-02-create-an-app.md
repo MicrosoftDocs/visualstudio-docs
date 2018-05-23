@@ -202,7 +202,7 @@ The following steps demonstrate the use of page templates:
         )
     ```
 
-    The first argument to `render`, as you can see, is the request object, followed by the relative path to the template file within the app's `templates` folder. A template file is named for the view is supports, if appropriate. The third argument to `render` is then a dictionary of variables that the template refers to. You can include objects in the dictionary, in which case a variable in the template can refer to `{{ object.property }}`.
+    The first argument to `render`, as you can see, is the request object, followed by the relative path to the template file within the app's `templates` folder. A template file is named for the view it supports, if appropriate. The third argument to `render` is then a dictionary of variables that the template refers to. You can include objects in the dictionary, in which case a variable in the template can refer to `{{ object.property }}`.
 
 1. Run the project and observe the output. You should see a similar message to that seen step 2-2, indicating that the template works.
 
@@ -274,4 +274,4 @@ Answer: When Django looks for a template referred to in the `render` function, i
 - [Writing your first Django app, part 1 - views](https://docs.djangoproject.com/en/2.0/intro/tutorial01/#write-your-first-view) (docs.djangoproject.com)
 - For more capabilities of Django templates, such as includes and inheritance, see [The Django template language](https://docs.djangoproject.com/en/2.0/ref/templates/language/) (docs.djangoproject.com)
 - [Regular expression training on inLearning](https://www.linkedin.com/learning/topics/regular-expressions) (LinkedIn)
-- Tutorial source code on GitHub: [Microsoft/python-sample-vs-learn-django](https://github.com/Microsoft/python-sample-vs-learn-django)
+- Tutorial source code on GitHub: [Microsoft/python-sample-vs-learning-django](https://github.com/Microsoft/python-sample-vs-learning-django)

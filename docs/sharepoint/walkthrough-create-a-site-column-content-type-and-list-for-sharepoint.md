@@ -78,7 +78,7 @@ ms.workload:
   
 3.  In the site column's Elements.xml file, leave the **Type** setting as **Text**, and change the **Group** setting to **Clinic Site Columns**. When complete, the site column's Elements.xml file should look like the following example.  
   
-    ```  
+    ```xml  
     <Field  
          ID="{f9ba60d1-5631-41fb-b016-a38cf48eef63}"  
          Name="Clinic - Patient Name"  
