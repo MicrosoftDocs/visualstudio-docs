@@ -319,4 +319,4 @@ To use the keyboard:
 
 ## See also
 
-- [Writing code in the editor](../ide/writing-code-in-the-code-and-text-editor.md)
+- [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)

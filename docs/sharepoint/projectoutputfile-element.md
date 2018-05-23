@@ -21,7 +21,7 @@ ms.workload:
   
 ## Syntax  
   
-```  
+```xml  
 <ProjectOutputFile ProjectId = "GUID of the project"  
     ProjectPath = "Relative path of the project"  
     Target = "Deployment path of the project output"  

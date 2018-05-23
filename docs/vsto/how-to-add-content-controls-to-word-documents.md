@@ -45,7 +45,7 @@ ms.workload:
   
  For information about content controls, see [Content controls](../vsto/content-controls.md).  
   
-##  <a name="designtime"></a> Add Content controls at Design Time  
+##  <a name="designtime"></a> Add Content controls at design time  
  There are several ways to add content controls to the document in a document-level project at design time:  
   
 -   Add a content control from the **Word Controls** tab of the **Toolbox**.  
@@ -78,7 +78,7 @@ ms.workload:
 >  You cannot add a <xref:Microsoft.Office.Tools.Word.GroupContentControl> by using the **Toolbox**. You can only add a <xref:Microsoft.Office.Tools.Word.GroupContentControl> in Word, or at runtime.  
   
 > [!NOTE]  
->  Visual Studio does not provide a check box content control in the Toolbox. To add a check box content control to the document, you must create a <xref:Microsoft.Office.Tools.Word.ContentControl> object programmatically. For more information, see [Content Controls](../vsto/content-controls.md).  
+>  Visual Studio does not provide a check box content control in the Toolbox. To add a check box content control to the document, you must create a <xref:Microsoft.Office.Tools.Word.ContentControl> object programmatically. For more information, see [Content controls](../vsto/content-controls.md).  
   
 #### To add a content control to a document in Word  
   
@@ -92,7 +92,7 @@ ms.workload:
 3.  In the **Controls** group, click the icon for the content control that you want to add.  
   
 ##  <a name="runtimedoclevel"></a> Add content controls at runtime in a document-level project  
- You can add content controls programmatically to your document at run time by using methods of the <xref:Microsoft.Office.Tools.Word.Document.Controls%2A> property of the `ThisDocument` class in your project. Each method has three overloads that you can use to add a content control in the following ways:  
+ You can add content controls programmatically to your document at runtime by using methods of the <xref:Microsoft.Office.Tools.Word.Document.Controls%2A> property of the `ThisDocument` class in your project. Each method has three overloads that you can use to add a content control in the following ways:  
   
 -   Add a control at the current selection.  
   

@@ -280,7 +280,7 @@ Running the two test methods demonstrates that the tests work correctly.
 
 However, the last two test methods are also troubling. You can't be certain which condition in the method under test throws the exception when either test is run. Some way of differentiating the two conditions, that is a negative debit amount or an amount greater than the balance, would increase your confidence in the tests.
 
-Looki at the method under test again, and notice that both conditional statements use an `ArgumentOutOfRangeException` constructor that just takes name of the argument as a parameter:
+Look at the method under test again, and notice that both conditional statements use an `ArgumentOutOfRangeException` constructor that just takes name of the argument as a parameter:
 
 ```csharp
 throw new ArgumentOutOfRangeException("amount");

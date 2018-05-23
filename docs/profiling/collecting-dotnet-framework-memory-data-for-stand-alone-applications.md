@@ -33,6 +33,7 @@ This section describes the procedures and options for collecting memory allocati
 |**Profile by using the instrumentation method**|-   [Collect detailed timing data using instrumentation](../profiling/collecting-detailed-timing-data-for-a-stand-alone-application.md)|  
 |**Profile resource contention and thread activity**|-   [Collect concurrency data](../profiling/collecting-concurrency-data-for-stand-alone-applications.md)|  
 |**Adding tier-interaction data**|-   [Collect tier interaction data](../profiling/adding-tier-interaction-data-from-the-command-line.md)|  
+
   
 ### Profile .NET memory data  
   

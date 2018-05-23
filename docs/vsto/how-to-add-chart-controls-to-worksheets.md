@@ -18,7 +18,7 @@ ms.workload:
   - "office"
 ---
 # How to: Add Chart controls to worksheets
-  You can add <xref:Microsoft.Office.Tools.Excel.Chart> controls to a Microsoft Office Excel worksheet at design time and at run time in document-level customizations. You can also add <xref:Microsoft.Office.Tools.Excel.Chart> controls at runtime in VSTO Add-ins.  
+  You can add <xref:Microsoft.Office.Tools.Excel.Chart> controls to a Microsoft Office Excel worksheet at design time and at runtime in document-level customizations. You can also add <xref:Microsoft.Office.Tools.Excel.Chart> controls at runtime in VSTO Add-ins.  
   
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]  
   
@@ -63,7 +63,7 @@ ms.workload:
      [!code-vb[Trin_VstcoreHostControlsExcel#1](../vsto/codesnippet/VisualBasic/Trin_VstcoreHostControlsExcelVB/Sheet1.vb#1)]  
   
 ##  <a name="runtimeaddin"></a> Add chart controls at runtime in a VSTO Add-in project  
- You can add a <xref:Microsoft.Office.Tools.Excel.Chart> control programmatically to any open worksheet in a VSTO Add-in project. For more information, see [Extend Word documents and Excel workbooks in VSTO Add-ins at Run Time](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).  
+ You can add a <xref:Microsoft.Office.Tools.Excel.Chart> control programmatically to any open worksheet in a VSTO Add-in project. For more information, see [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).  
   
  Dynamically created chart controls are not persisted in the worksheet as host controls when the worksheet is closed. For more information, see [Add Controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md).  
   
