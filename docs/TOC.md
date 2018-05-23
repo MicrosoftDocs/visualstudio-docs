@@ -492,5 +492,6 @@
 ### [Distributable code](/visualstudio/productinfo/2017-redistribution-vs?context=visualstudio/default)
 ### [Support lifecycle and servicing](/visualstudio/productinfo/vs-servicing-vs?context=visualstudio/default)
 ## [How to Report a Problem with Visual Studio](ide/how-to-report-a-problem-with-visual-studio-2017.md)
+## [Visual Studio Experience Improvement Program](ide/visual-studio-experience-improvement-program.md)
 ## [Resources for Troubleshooting IDE Errors](ide/reference/resources-for-troubleshooting-integrated-development-environment-errors.md)
 ## [Talk to Us](ide/talk-to-us.md)
