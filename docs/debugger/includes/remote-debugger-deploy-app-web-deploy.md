@@ -1,19 +1,15 @@
 ---
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+ title: Deploy using Web Deploy
+ description: Deploy an app using Web Deploy in Visual Studio
+ services: ""
+ author: mikejo5000
+ ms.service: ""
+ ms.topic: include
+ ms.date: 05/23/2018
+ ms.author: mikejo
+ ms.custom: include file
 ---
+
 If you installed Web Deploy using the Web Platform Installer, you can deploy the app directly from Visual Studio.
 
 1. Start Visual Studio with Administrator privileges, and reopen the project.
