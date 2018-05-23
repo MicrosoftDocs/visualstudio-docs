@@ -73,7 +73,7 @@
       href: expression-evaluation-in-break-mode.md
     - name: Exception Handling (Visual Studio SDK)
       href: exception-handling-visual-studio-sdk.md
-  - name: How To: Debug a Custom Debug Engine
+  - name: "How To: Debug a Custom Debug Engine"
     href: how-to-debug-a-custom-debug-engine.md
 - name: Getting Started with Debugger Extensibility
   href: getting-started-with-debugger-extensibility.md
