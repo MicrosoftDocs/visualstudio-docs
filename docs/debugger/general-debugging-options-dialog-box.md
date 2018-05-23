@@ -89,7 +89,7 @@ Tells the Visual Studio debugger to get source files from source servers that im
 - **Allow source server for partial trust assemblies (Managed only)**  
     When source server support is enabled, this setting overrides the default behavior of not retrieving sources for partial trust assemblies.  
 
-- **Enable source link support**  
+**Enable Source Link support**  
     Tells the Visual Studio debugger to download source files for .pdb files that contain Source Link information. For more information about Source Link, see the [Source Link Specification](https://github.com/dotnet/core/blob/master/Documentation/diagnostics/source_link.md).
 
     > [!IMPORTANT]
