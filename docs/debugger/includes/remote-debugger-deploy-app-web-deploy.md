@@ -22,7 +22,7 @@ If you installed Web Deploy using the Web Platform Installer, you can deploy the
 
 1. In the **Solution Explorer**,  right-click the project node and select **Publish**.
 
-1. If you have previously configured any publishing profiles, the **Publish** pane appears. Click **Create new profile**.
+    If you have previously configured any publishing profiles, the **Publish** pane appears. Click **New profile**.
 
 1. For **Select a publish target**, select **IIS, FTP, etc.** and click **Publish**.
 

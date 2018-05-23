@@ -16,7 +16,7 @@ translation.priority.ht:
 ---
 1. In the **Solution Explorer**,  right-click the project node and select **Publish** (for Web Forms, **Publish Web App**).
 
-1. If you have previously configured any publishing profiles, the **Publish** pane appears. Click **Create new profile**.
+    If you have previously configured any publishing profiles, the **Publish** pane appears. Click **New profile**.
 
 1. In the **Publish** dialog box, select **Folder**, click **Browse**, and create a new folder, **C:\Publish**.
 
@@ -24,9 +24,7 @@ translation.priority.ht:
 
     For a Web Forms app, choose **Custom** in the Publish dialog box, enter a profile name, and choose **OK**.
 
-1. Click **Publish**.
-
-    Visual Studio publishes the project to the folder. Progress shows in the Output window.
+1. Click **Create profile** in the drop-down list (**Publish** is the default value).
 
 1. In the **Publish** dialog box, click the **Settings** link, and then select the **Settings** tab.
 
@@ -39,7 +37,7 @@ translation.priority.ht:
 
     ![RemoteDBG_Publish_Debug_Config](../media/remotedbg_publish_debug_config.png "RemoteDBG_Publish_Debug_Config")
     
-    The application publishes a **Debug** configuration of the project to the local folder.
+    The application publishes a **Debug** configuration of the project to the local folder. Progress shows in the Output window.
 
 1. Copy the ASP.NET project directory from the Visual Studio computer to the local directory configured for the ASP.NET app (in this example, **C:\Publish**) on the Windows Server computer. In this tutorial, we assume you are copying manually, but you can use other tools like PowerShell, Xcopy, or Robocopy.
 

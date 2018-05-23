@@ -141,11 +141,11 @@ If you installed Web Deploy using the Web Platform Installer, you can deploy the
 
     If you have previously configured any publishing profiles, the **Publish** pane appears. Click **New profile**.
 
-3. For **Select a publish target**, select **Azure Virtual Machines** and click **Publish**.
+3. Under **Pick a publish target**, select **Azure Virtual Machines** and click **Browse**.
 
     ![RemoteDBG_Publish_IISl](../debugger/media/remotedbg_azure_vm_profile.png "RemoteDBG_Publish_IIS")
 
-4. In the dialog box, select the Azure VM that you created previously.
+4. In the dialog box that opens, select the Azure VM that you created previously.
 
 4. Enter the correction configuration parameters for your Azure VM and IIS setup.
 
