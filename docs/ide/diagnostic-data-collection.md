@@ -46,7 +46,7 @@ The workflow to determine the root cause of an error varies depending on the typ
 
 ### Error classification
 
-Based on the collected data, errors are classified and counted to prioritize their investigation. For example, we may discover that “System.IO.__Error.WinIOError” at “System.IO.FileStream.Init” has occurred 500 times in version \<x> of the product, and has the highest rate of occurrence in that version.
+Based on the collected data, errors are classified and counted to prioritize their investigation. For example, we may discover that “System.IO.\__Error.WinIOError” at “System.IO.FileStream.Init” has occurred 500 times in version \<x> of the product, and has the highest rate of occurrence in that version.
 
 ### Logging of work items
 
