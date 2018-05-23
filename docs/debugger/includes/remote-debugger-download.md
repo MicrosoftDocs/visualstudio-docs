@@ -1,19 +1,15 @@
 ---
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+ title: Deploy to local folder
+ description: Deploy an app to the local folder
+ services: ""
+ author: mikejo5000
+ ms.service: ""
+ ms.topic: include
+ ms.date: 05/23/2018
+ ms.author: mikejo
+ ms.custom: include file
 ---
+
 1.  On the device or server machine that you want to debug (rather than the machine running Visual Studio), get the correct version of the remote tools.
 
     |Version|Link|Notes|
