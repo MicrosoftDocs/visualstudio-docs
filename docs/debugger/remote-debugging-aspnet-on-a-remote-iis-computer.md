@@ -29,7 +29,7 @@ Debugging between two computers connected through a proxy is not supported. Debu
 
 ## App already running in IIS?
 
-This article includes steps on setting up a basic configuration of IIS on Windows server and deploying the app from Visual Studio. These steps are included to make sure that requirements are in place and that you are ready to remote debug.
+This article includes steps on setting up a basic configuration of IIS on Windows server and deploying the app from Visual Studio. These steps are included to make sure that the server has required components installed, that the app can run correctly, and that you are ready to remote debug.
 
 * If your app is running in IIS and you just want to download the remote debugger and start debugging, go to [Download and Install the remote tools on Windows Server](#BKMK_msvsmon).
 
@@ -71,17 +71,40 @@ When you download the software, you may get requests to grant permission to load
 
 3. Restart the system (or execute **net stop was /y** followed by **net start w3svc** from a command prompt to pick up a change to the system PATH).
 
-## (Optional) Install Web Deploy 3.6 for Hosting Servers on Windows Server
+## Choose a deployment option
 
-In some scenarios, it can be faster to import publish settings in Visual Studio instead of manually configuring deployment options. If you prefer to import publish settings instead of configuring the publishing profile in Visual Studio, see [Import publish settings and deploy to IIS](../deployment/tutorial-import-publish-settings-iis.md). Otherwise, stay in this topic and continue reading. If you complete the article on importing publish settings and deploy the app successfully, then return to this topic and start in the section on [downloading the remote tools](#BKMK_msvsmon).
+If you need help to deploy the app to IIS, consider these options:
 
-## <a name="BKMK_install_webdeploy"></a> (Optional) Install Web Deploy 3.6 on Windows Server
+* Deploy by creating a publish settings file in IIS and importing the settings in Visual Studio. In some scenarios, this is a fast way to deploy your app. When you create the publish settings file, permissions are automatically set up in IIS.
 
-[!INCLUDE [remote-debugger-install-web-deploy](../debugger/includes/remote-debugger-install-web-deploy.md)]
+* Deploy by publishing to a local folder and copying the output by a preferred method to a prepared app folder on IIS.
 
-## <a name="BKMK_deploy_asp_net"></a> Configure ASP.NET Web site on the Windows Server computer
+## (Optional) Deploy using a publish settings file
 
-If you are importing publish settings, you can skip this section.
+You can use this option create a publish settings file and import it into Visual Studio.
+
+> [!NOTE]
+> This deployment method uses Web Deploy. If you want to configure Web Deploy manually in Visual Studio instead of importing the settings, you can install Web Deploy 3.6 instead of Web Deploy 3.6 for Hosting Servers. However, if you configure Web Deploy manually, you will need to make sure that an app folder on the server is configured with the correct values and permissions (see [Configure ASP.NET Web site](#BKMK_deploy_asp_net)).
+
+### Install and configure Web Deploy for Hosting Servers on Windows Server
+
+[!INCLUDE [install-web-deploy-with-hosting-server](../deployment/includes/install-web-deploy-with-hosting-server.md)]
+
+### Create the publish settings file in IIS on Windows Server
+
+[!INCLUDE [install-web-deploy-with-hosting-server](../deployment/includes/create-publish-settings-iis.md)]
+
+### Import the publish settings in Visual Studio and deploy
+
+[!INCLUDE [install-web-deploy-with-hosting-server](../deployment/includes/import-publish-settings-vs.md)]
+
+After the app deploys successfully, it should start automatically. If the app does not start from Visual Studio, start the app in IIS. For ASP.NET Core, you need to make sure that the Application pool field for the **DefaultAppPool** is set to **No Managed Code**.
+
+## (Optional) Deploy by publishing to a local folder
+
+You can use this option to deploy your app if you want to copy the app to IIS using Powershell, RoboCopy, or you want to manually copy the files.
+
+### <a name="BKMK_deploy_asp_net"></a> Configure the ASP.NET Web site on the Windows Server computer
 
 1. Open Windows Explorer and create a new folder, **C:\Publish**, where you will later deploy the ASP.NET project.
 
@@ -101,11 +124,7 @@ If you are importing publish settings, you can skip this section.
 
     If you don't see one of these users with access, go through steps to add IUSR as a user with Read & Execute rights.
 
-## <a name="bkmk_webdeploy"></a> (Optional) Publish and deploy the app using Web Deploy from Visual Studio
-
-[!INCLUDE [remote-debugger-deploy-app-web-deploy](../debugger/includes/remote-debugger-deploy-app-web-deploy.md)]
-
-## (Optional) Publish and Deploy the app by publishing to a local folder from Visual Studio
+### Publish and Deploy the app by publishing to a local folder from Visual Studio
 
 You can also publish and deploy the app using the file system or other tools.
 

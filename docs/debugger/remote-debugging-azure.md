@@ -87,6 +87,14 @@ First, follow all the steps described in [Install and run IIS](/azure/virtual-ma
 
 When you open port 80 in the Network security group, also open port 4022 for the Remote Debugger. That way, you won't have to open it later.
 
+### App already running in IIS on the Azure VM?
+
+This article includes steps on setting up a basic configuration of IIS on Windows server and deploying the app from Visual Studio. These steps are included to make sure that the server has the required components installed, that the app can run correctly, and that you are ready to remote debug.
+
+* If your app is running in IIS and you just want to download the remote debugger and start debugging, go to [Download and Install the remote tools on Windows Server](#BKMK_msvsmon).
+
+* If you want help to make sure that your app is set up, deployed, and running correctly in IIS so that you can debug, follow all the steps in this topic.
+
 ### Update browser security settings on Windows Server
 
 If Enhanced Security Configuration is enabled in Internet Explorer (it is enabled by default), then you may need to add some domains as trusted sites to enable you to download some of the web server components. Add the trusted sites by going to **Internet Options > Security > Trusted Sites > Sites**. Add the following domains.
