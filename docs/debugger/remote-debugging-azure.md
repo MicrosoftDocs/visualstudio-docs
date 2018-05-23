@@ -63,13 +63,17 @@ From Visual Studio, you can quickly publish and debug your app to a fully provis
 
 1. In Visual Studio, right-click the project node and choose **Publish**.
 
-2. Choose **Microsoft Azure App Service** from the **Publish** dialog box, select **Create New**, and follow the prompts to publish.
+    If you have previously configured any publishing profiles, the **Publish** pane appears. Click **New profile**.
+
+1. Choose **Azure App Service** from the **Publish** dialog box, select **Create New**, and follow the prompts to publish.
 
     For detailed instructions, see [Deploy an ASP.NET Core web app to Azure using Visual Studio](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs).
 
-3. Open **Server Explorer** (**View** > **Server Explorer**), right-click on the App Service instance and choose **Attach Debugger**.
+    ![Publish to Azure App Service](../debugger/media/remotedbg_azure_app_service_profile.png)
 
-4. In the running ASP.NET application, click the link to the **About** page.
+1. Open **Server Explorer** (**View** > **Server Explorer**), right-click on the App Service instance and choose **Attach Debugger**.
+
+1. In the running ASP.NET application, click the link to the **About** page.
 
     The breakpoint should be hit in Visual Studio.
 
@@ -135,7 +139,9 @@ If you installed Web Deploy using the Web Platform Installer, you can deploy the
 
 2. In the **Solution Explorer**,  right-click the project node and select **Publish**.
 
-3. For **Select a publish target**, select **Microsoft Azure Virtual Machine** and click **Publish**.
+    If you have previously configured any publishing profiles, the **Publish** pane appears. Click **New profile**.
+
+3. For **Select a publish target**, select **Azure Virtual Machines** and click **Publish**.
 
     ![RemoteDBG_Publish_IISl](../debugger/media/remotedbg_azure_vm_profile.png "RemoteDBG_Publish_IIS")
 
