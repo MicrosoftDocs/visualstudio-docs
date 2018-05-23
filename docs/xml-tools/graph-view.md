@@ -110,7 +110,7 @@ The Graph View provides a graphic representation of global schema nodes and the 
 
 ## Pan/Scroll
 
- You can pan the design surface by using the scrollbars or by holding the Ctrl key while you click and drag the mouse. When you pan the design surface using click and drag, the cursor will change to four crossed arrows pointing in four directions.
+ You can pan the design surface by using the scrollbars or by holding the **Ctrl** key while you click and drag the mouse. When you pan the design surface using click and drag, the cursor will change to four crossed arrows pointing in four directions.
 
 ## Undo/Redo
 
@@ -128,11 +128,11 @@ The Graph View provides a graphic representation of global schema nodes and the 
 
  Zoom can be controlled in the following ways:
 
--   By holding the Ctrl key and spinning the mouse wheel when the mouse is hovering over the Graph View surface.
+-   By holding the **Ctrl** key and spinning the mouse wheel when the mouse is hovering over the Graph View surface.
 
 -   By using the slider control. The slider shows the current zoom level.
 
-The Zoom slider is opaque when you select it, hover over it, or use Ctrl with the mouse wheel to zoom; at all other times, it is transparent.
+The Zoom slider is opaque when you select it, hover over it, or use **Ctrl** with the mouse wheel to zoom; at all other times, it is transparent.
 
 ## XML editor integration
 

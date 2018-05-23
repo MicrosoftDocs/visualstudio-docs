@@ -11,7 +11,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Content model view
+# Content Model View
 
 The Content Model View provides a graphic representation of local and global schema nodes and their components, including simple and complex types, elements, model groups, attributes, and attribute groups. XML comments and processing instructions cannot be viewed in the Content Model View. The Content Model View contains two panels: a **Workspace** panel that contains a list of the nodes in the [XML schema designer workspace](../xml-tools/xml-schema-designer-workspace.md), and the design surface where you can see the content model of schema nodes that are selected in the **Workspace** panel. The Content Model View also includes the XML Schema Designer toolbar and the breadcrumb bar.
 
@@ -67,7 +67,7 @@ The Content Model View provides a graphic representation of local and global sch
 
 ## Properties window
 
- Use the context menu to initially open the **Properties** window. By default, the **Properties** window appears in the lower right corner of Visual Studio. When you click a node that is rendered in the Content Model View, the properties of that node is displayed in the **Properties** Window.
+ Use the context menu to initially open the **Properties** window. By default, the **Properties** window appears in the lower right corner of Visual Studio. When you click a node that is rendered in the Content Model View, the properties of that node are displayed in the **Properties** Window.
 
 ## XSD designer toolbar
 
@@ -87,7 +87,7 @@ The Content Model View provides a graphic representation of local and global sch
 
 ## Pan/Scroll
 
- You can pan the design surface by using the scrollbars or by holding the Ctrl key while you click and drag the mouse. When you pan the design surface using click and drag, the cursor changes to four crossed arrows pointing in four directions.
+ You can pan the design surface by using the scrollbars or by holding the **Ctrl** key while you click and drag the mouse. When you pan the design surface using click and drag, the cursor changes to four crossed arrows pointing in four directions.
 
 ## Undo/Redo
 
@@ -107,11 +107,11 @@ The Content Model View provides a graphic representation of local and global sch
 
  Zoom can be controlled in the following ways:
 
--   By holding the Ctrl key and spinning the mouse wheel when the mouse is hovering over the Content Model View surface.
+-   By holding the **Ctrl** key and spinning the mouse wheel when the mouse is hovering over the Content Model View surface.
 
 -   By using the slider control. The slider shows the current zoom level.
 
-The Zoom slider is opaque when you select it, hover over it, or use Ctrl with the mouse wheel to zoom; at all other times, it is transparent.
+The Zoom slider is opaque when you select it, hover over it, or use **Ctrl** with the mouse wheel to zoom; at all other times, it is transparent.
 
 ## XML editor integration
 

@@ -11,11 +11,11 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Debugger User Interface (XSLT)
+# Debugger user interface (XSLT)
 
 This topic describes the debugger windows and dialog boxes. It only discusses the user interface pieces that have XSLT-specific debugging behavior.
 
-For more information, see the [Debugging User Interface Reference](../debugger/debugging-user-interface-reference.md).
+For more information, see the [Debugging user interface reference](../debugger/debugging-user-interface-reference.md).
 
 ## Locals Window
  The Locals window displays information about any variables defined in the style sheet. The Locals window contains three columns of information:

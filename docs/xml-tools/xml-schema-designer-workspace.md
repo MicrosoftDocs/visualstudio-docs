@@ -29,7 +29,7 @@ You can add nodes to the workspace in the following ways:
 
 -   Perform a search in the XSD Explorer and click the **Add highlighted nodes to Workspace** button on the summary results pane. For more information, see [Searching the schema set](../xml-tools/searching-the-schema-set.md).
 
-## View switching
+## Switch views
 
 To switch views, use one of the following:
 
