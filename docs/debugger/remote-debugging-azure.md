@@ -207,8 +207,9 @@ If you have trouble opening the page with the remote debugger download, see [Unb
     If you want to use the **Find** button, you may need to [open UDP port 3702](#bkmk_openports) on the server.
 
 5. Check  **Show processes from all users**.
-6. Type the first letter of a process name to quickly find **dotnet.exe** (for ASP.NET Core).
-    >Note: For an ASP.NET Core app, the previous process name was dnx.exe.
+6. Type the first letter of a process name to quickly find *dotnet.exe* (for ASP.NET Core).
+   
+   For an ASP.NET Core app, the previous process name was *dnx.exe*.
 
     ![RemoteDBG_AttachToProcess](../debugger/media/remotedbg_attachtoprocess_aspnetcore.png "RemoteDBG_AttachToProcess")
 

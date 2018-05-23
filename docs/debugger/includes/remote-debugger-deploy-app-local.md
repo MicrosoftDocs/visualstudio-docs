@@ -1,19 +1,15 @@
 ---
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+ title: Deploy to local folder
+ description: Deploy an app to a local folder
+ services: ""
+ author: mikejo5000
+ ms.service: ""
+ ms.topic: include
+ ms.date: 05/23/2018
+ ms.author: mikejo
+ ms.custom: include file
 ---
+
 1. In the **Solution Explorer**,  right-click the project node and select **Publish** (for Web Forms, **Publish Web App**).
 
     If you have previously configured any publishing profiles, the **Publish** pane appears. Click **New profile**.
