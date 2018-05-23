@@ -49,9 +49,9 @@
     href: configure-unit-tests-by-using-a-dot-runsettings-file.md
   - name: Write Unit Tests for Managed Code
     items:
-    - name: Walkthrough: Creating and Running Unit Tests for Managed Code
+    - name: "Walkthrough: Creating and Running Unit Tests for Managed Code"
       href: walkthrough-creating-and-running-unit-tests-for-managed-code.md
-    - name: Quick Start: Test Driven Development with Test Explorer
+    - name: "Quickstart: Test Driven Development with Test Explorer"
       href: quick-start-test-driven-development-with-test-explorer.md
     - name: Use Microsoft.VisualStudio.TestTools.UnitTesting Members in Unit Tests
       href: using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md
@@ -66,14 +66,14 @@
         href: using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md
       - name: Code generation, compilation, and naming conventions in Microsoft Fakes
         href: code-generation-compilation-and-naming-conventions-in-microsoft-fakes.md
-    - name: How To: Create a Data-Driven Unit Test
+    - name: Create a Data-Driven Unit Test
       href: how-to-create-a-data-driven-unit-test.md
       items:
-      - name: Walkthrough: Using a Configuration File to Define a Data Source
+      - name: "Walkthrough: Using a Configuration File to Define a Data Source"
         href: walkthrough-using-a-configuration-file-to-define-a-data-source.md
     - name: Unit tests for Generic Methods
       href: unit-tests-for-generic-methods.md
-    - name: How to: Configure Unit Tests to Target An Earlier Version of the .NET Framework
+    - name: Configure Unit Tests to Target An Earlier Version of the .NET Framework
       href: how-to-configure-unit-tests-to-target-an-earlier-version-of-the-dotnet-framework.md
     - name: Sample Project for Creating Unit Tests
       href: sample-project-for-creating-unit-tests.md
@@ -90,7 +90,7 @@
       href: how-to-use-ctest-for-cpp.md
     - name: Write unit tests for C/C++ DLLs
       href: how-to-write-unit-tests-for-cpp-dlls.md
-    - name: Walkthrough: Writing Unit tests for C++ DLLs
+    - name: "Walkthrough: Writing Unit tests for C++ DLLs"
       href: walkthrough-writing-unit-tests-for-cpp-dlls.md
     - name: Microsoft Unit Testing Framework for C++ API Reference
       href: microsoft-visualstudio-testtools-cppunittestframework-api-reference.md
@@ -100,7 +100,7 @@
       href: unit-testing-a-visual-cpp-dll-for-store-apps.md
     - name: Unit testing Visual C# code in UWP apps
       href: unit-testing-visual-csharp-code-in-a-store-app.md
-    - name: Walkthrough: Creating and Running Unit Tests for UWP apps
+    - name: "Walkthrough: Creating and Running Unit Tests for UWP apps"
       href: walkthrough-creating-and-running-unit-tests-for-windows-store-apps.md
   - name: Use Code Coverage to Determine How Much Code is being Tested
     href: using-code-coverage-to-determine-how-much-code-is-being-tested.md
@@ -124,7 +124,7 @@
     href: live-unit-testing-faq.md
 - name: Web performance and load testing
   items:
-  - name: Quickstart: Create a load test project
+  - name: "Quickstart: Create a load test project"
     href: quickstart-create-a-load-test-project.md
   - name: Configure load tests
     href: edit-load-tests.md
@@ -205,11 +205,11 @@
         items:
         - name: Command line
           href: how-to-select-a-load-test-run-setting-from-the-command-line.md
-  - name: Walkthrough: Create and run a load test
+  - name: "Walkthrough: Create and run a load test"
     href: walkthrough-create-and-run-a-load-test.md
   - name: Web performance tests
     items:
-    - name: How to: Create a web service test
+    - name: Create a web service test
       href: how-to-create-a-web-service-test.md
     - name: Generate a coded Web performance test
       href: generate-and-run-a-coded-web-performance-test.md
@@ -317,9 +317,9 @@
     - name: Details view
       href: analyze-load-test-virtual-user-activity-in-the-details-view.md
       items:
-      - name: How to: Analyze virtual user activity
+      - name: Analyze virtual user activity
         href: how-to-analyze-virtual-user-activity-during-a-load-test.md
-      - name: Walkthrough: Use the activity chart
+      - name: "Walkthrough: Use the activity chart"
         href: walkthrough-use-the-virtual-user-activity-chart-to-isolate-issues.md
     - name: Counters panel
       href: counters-panel-in-load-test-analyzer.md
@@ -356,7 +356,7 @@
 - name: Use UI automation to test your code
   href: use-ui-automation-to-test-your-code.md
   items:
-  - name: Walkthrough: Creating, Editing and Maintaining a Coded UI Test
+  - name: "Walkthrough: Creating, Editing and Maintaining a Coded UI Test"
     href: walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md
   - name: Test Windows UWP Apps with Coded UI Tests
     href: test-windows-store-8-1-apps-with-coded-ui-tests.md
@@ -398,15 +398,15 @@
     - name: Sample Coded UI Test Extension for Excel
       href: sample-coded-ui-test-extension-for-excel.md
       items:
-      - name: Sample Excel Extension: ExtensionPackage Class
+      - name: "Sample Excel Extension: ExtensionPackage Class"
         href: sample-excel-extension-extensionpackage-class.md
-      - name: Sample Excel Extension: TechnologyManager Class
+      - name: "Sample Excel Extension: TechnologyManager Class"
         href: sample-excel-extension-technologymanager-class.md
-      - name: Sample Excel Extension: PropertyProvider Class
+      - name: "Sample Excel Extension: PropertyProvider Class"
         href: sample-excel-extension-propertyprovider-class.md
-      - name: Sample Excel Extension: Element Classes
+      - name: "Sample Excel Extension: Element Classes"
         href: sample-excel-extension-element-classes.md
-      - name: Sample Excel Extension: ActionFilter Class
+      - name: "Sample Excel Extension: ActionFilter Class"
         href: sample-excel-extension-actionfilter-class.md
 - name: Test lab management
   href: lab-management/using-a-lab-environment-for-your-application-lifecycle.md

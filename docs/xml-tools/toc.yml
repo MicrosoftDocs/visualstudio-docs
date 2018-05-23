@@ -30,7 +30,7 @@
           href: xml-schemas-dialog-box.md
       - name: XML Editor Tasks
         items:
-        - name: Walkthrough: Using XML Editor Features
+        - name: "Walkthrough: Using XML Editor Features"
           href: walkthrough-using-xml-editor-features.md
         - name: Select the XML Schemas to Use
           href: how-to-select-the-xml-schemas-to-use.md
@@ -46,11 +46,11 @@
           href: how-to-generate-an-xml-snippet-from-an-xml-schema.md
         - name: Create XML Snippets
           href: how-to-create-xml-snippets.md
-        - name: Walkthrough: Using XSLT IntelliSense
+        - name: "Walkthrough: Using XSLT IntelliSense"
           href: walkthrough-using-xslt-intellisense.md
-        - name: Walkthrough: Using XSLT Hierarchy
+        - name: "Walkthrough: Using XSLT Hierarchy"
           href: walkthrough-using-xslt-hierarchy.md
-        - name: Walkthrough: XSLT Profiler
+        - name: "Walkthrough: XSLT Profiler"
           href: walkthrough-xslt-profiler.md
     - name: XML Schema Designer
       href: xml-schema-designer.md
@@ -113,13 +113,13 @@
   - name: XSLT Debugging
     href: debugging-xslt.md
     items:
-    - name: How to: Debug XSLT
+    - name: Debug XSLT
       href: how-to-start-debugging-xslt.md
     - name: Use Breakpoints with XSLT
       href: how-to-use-breakpoints-with-xslt.md
     - name: Evaluate an XPath Expression
       href: how-to-evaluate-an-xpath-expression.md
-    - name: Walkthrough: Debug an XSLT Style Sheet
+    - name: "Walkthrough: Debug an XSLT Style Sheet"
       href: walkthrough-debug-an-xslt-style-sheet.md
     - name: XSLT Default Templates
       href: xslt-default-templates.md

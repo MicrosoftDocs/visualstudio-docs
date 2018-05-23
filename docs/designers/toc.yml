@@ -13,7 +13,7 @@
         href: organize-objects-into-layout-containers-in-xaml-designer.md
       - name: Create and apply a resource
         href: how-to-create-and-apply-a-resource.md
-      - name: Walkthrough: Bind to data in XAML Designer
+      - name: "Walkthrough: Bind to data in XAML Designer"
         href: walkthrough-binding-to-data-in-xaml-designer.md
       - name: Keyboard shortcuts for XAML Designer
         href: keyboard-shortcuts-for-xaml-designer.md
@@ -83,9 +83,9 @@
       - name: Example
         href: wpf-data-binding-using-linq-to-xml-example.md
         items:
-        - name: How to: Build and run the LinqToXmlDataBinding example
+        - name: Build and run the LinqToXmlDataBinding example
           href: how-to-build-and-run-the-linqtoxmldatabinding-example.md
-        - name: Walkthrough: LINQ to XML data binding
+        - name: "Walkthrough: LINQ to XML data binding"
           href: walkthrough-linqtoxmldatabinding-example.md
           items:
           - name: L2DBForm.xaml source code
@@ -103,9 +103,9 @@
       - name: Image editor examples
         href: image-editor-examples.md
         items:
-        - name: How to: Create a basic texture
+        - name: Create a basic texture
           href: how-to-create-a-basic-texture.md
-        - name: How to: Create and modify MIP levels
+        - name: Create and modify MIP levels
           href: how-to-create-and-modify-mip-levels.md
     - name: Work with 3D models
       href: working-with-3-d-models.md
@@ -115,13 +115,13 @@
       - name: Model editor examples
         href: model-editor-examples.md
         items:
-        - name: How to: Create a basic 3D model
+        - name: Create a basic 3D model
           href: how-to-create-a-basic-3-d-model.md
-        - name: How to: Modify the pivot point of a 3D model
+        - name: Modify the pivot point of a 3D model
           href: how-to-modify-the-pivot-point-of-a-3-d-model.md
-        - name: How to: Model 3D terrain
+        - name: Model 3D terrain
           href: how-to-model-3-d-terrain.md
-        - name: How to: Apply a shader to a 3D model
+        - name: Apply a shader to a 3D model
           href: how-to-apply-a-shader-to-a-3-d-model.md
     - name: Work with shaders
       href: working-with-shaders.md
@@ -146,30 +146,30 @@
       - name: Shader designer examples
         href: shader-designer-examples.md
         items:
-        - name: How to: Create a basic color shader
+        - name: Create a basic color shader
           href: how-to-create-a-basic-color-shader.md
-        - name: How to: Create a basic Lambert shader
+        - name: Create a basic Lambert shader
           href: how-to-create-a-basic-lambert-shader.md
-        - name: How to: Create a basic Phong shader
+        - name: Create a basic Phong shader
           href: how-to-create-a-basic-phong-shader.md
-        - name: How to: Create a basic texture shader
+        - name: Create a basic texture shader
           href: how-to-create-a-basic-texture-shader.md
-        - name: How to: Create a grayscale texture shader
+        - name: Create a grayscale texture shader
           href: how-to-create-a-grayscale-texture-shader.md
-        - name: How to: Create a geometry-based gradient shader
+        - name: Create a geometry-based gradient shader
           href: how-to-create-a-geometry-based-gradient-shader.md
-        - name: Walkthrough: Create a realistic 3D billiard ball
+        - name: "Walkthrough: Create a realistic 3D billiard ball"
           href: walkthrough-creating-a-realistic-3-d-billiard-ball.md
-        - name: How to: Export a shader
+        - name: Export a shader
           href: how-to-export-a-shader.md
     - name: Use 3D assets in your game or app
       href: using-3-d-assets-in-your-game-or-app.md
       items:
-      - name: How to: Export a texture that contains mipmaps
+      - name: Export a texture that contains mipmaps
         href: how-to-export-a-texture-that-contains-mipmaps.md
-      - name: How to: Export a texture that has premultiplied alpha
+      - name: Export a texture that has premultiplied alpha
         href: how-to-export-a-texture-that-has-premultiplied-alpha.md
-      - name: How to: Export a texture for use with Direct2D or Javascipt apps
+      - name: Export a texture for use with Direct2D or Javascipt apps
         href: how-to-export-a-texture-for-use-with-direct2d-or-javascipt-apps.md
   - name: The Visual Studio image library
     href: the-visual-studio-image-library.md

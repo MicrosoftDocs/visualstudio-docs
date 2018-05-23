@@ -45,14 +45,14 @@
   - name: Analyze JavaScript memory
     href: javascript-memory.md
     items:
-    - name: Walkthrough: Find a memory leak (JavaScript)
+    - name: "Walkthrough: Find a memory leak (JavaScript)"
       href: walkthrough-find-a-memory-leak-javascript.md
   - name: Analyze Network usage
     href: network-usage.md
   - name: Analyze HTML UI responsiveness
     href: html-ui-responsiveness.md
     items:
-    - name: Walkthrough: Improve UI responsiveness (HTML)
+    - name: "Walkthrough: Improve UI responsiveness (HTML)"
       href: walkthrough-improving-ui-responsiveness-html.md
   - name: Use Performance Explorer
     href: performance-explorer.md
@@ -87,38 +87,38 @@
       items:
       - name: Beginner's guide to CPU sampling
         href: beginners-guide-to-cpu-sampling.md
-      - name: How to: Collect performance data for a Web site
+      - name: Collect performance data for a Web site
         href: how-to-collect-performance-data-for-a-web-site.md
-      - name: How to: Manually create performance sessions
+      - name: Manually create performance sessions
         href: how-to-manually-create-performance-sessions.md
     - name: Configure performance sessions
       href: configuring-performance-sessions.md
       items:
-      - name: How to: Reference Windows symbol information
+      - name: Reference Windows symbol information
         href: how-to-reference-windows-symbol-information.md
-      - name: How to: Choose collection methods
+      - name: Choose collection methods
         href: how-to-choose-collection-methods.md
       - name: Collect performance statistics by using sampling
         href: collecting-performance-statistics-by-using-sampling.md
         items:
-        - name: How to: Choose sampling events
+        - name: Choose sampling events
           href: how-to-choose-sampling-events.md
-        - name: How to: Collect line-Level sampling data
+        - name: Collect line-Level sampling data
           href: how-to-collect-line-level-sampling-data.md
       - name: Collect .NET memory allocation and lifetime data
         href: collecting-dotnet-memory-allocation-and-lifetime-data.md
       - name: Collect detailed timing data by using instrumentation
         href: collecting-detailed-timing-data-by-using-instrumentation.md
         items:
-        - name: How to: Collect CPU counter data
+        - name: Collect CPU counter data
           href: how-to-collect-cpu-counter-data.md
-        - name: How to: Relocate instrumented binaries
+        - name: Relocate instrumented binaries
           href: how-to-relocate-instrumented-binaries.md
-        - name: How to: Specify pre- and post-instrument commands
+        - name: Specify pre- and post-instrument commands
           href: how-to-specify-pre-and-post-instrument-commands.md
-        - name: How to: Specify additional instrumentation options
+        - name: Specify additional instrumentation options
           href: how-to-specify-additional-instrumentation-options.md
-      - name: How to: Profile JavaScript code in Web pages
+      - name: Profile JavaScript code in Web pages
         href: how-to-profile-javascript-code-in-web-pages.md
       - name: Collect thread and process concurrency data
         href: collecting-thread-and-process-concurrency-data.md
@@ -127,38 +127,38 @@
       - name: Collect additional performance data
         href: collecting-additional-performance-data.md
         items:
-        - name: How to: Collect Windows Counter Data
+        - name: Collect Windows Counter Data
           href: how-to-collect-windows-counter-data.md
-        - name: How to: Collect event tracing for Windows (ETW) data
+        - name: Collect event tracing for Windows (ETW) data
           href: how-to-collect-event-tracing-for-windows-etw-data.md
-      - name: How to: Serialize symbol information
+      - name: Serialize symbol information
         href: how-to-serialize-symbol-information.md
       - name: Set general performance session options
         href: setting-general-performance-session-options.md
-      - name: How to: Set the current session
+      - name: Set the current session
         href: how-to-set-the-current-session.md
-      - name: How to: Set permissions
+      - name: Set permissions
         href: how-to-set-permissions.md
-      - name: How to: Specify the binary to start
+      - name: Specify the binary to start
         href: how-to-specify-the-binary-to-start.md
-      - name: How to: Set performance data file name options
+      - name: Set performance data file name options
         href: how-to-set-performance-data-file-name-options.md
-      - name: How to: Specify the .NET Framework runtime
+      - name: Specify the .NET Framework runtime
         href: how-to-specify-the-dotnet-framework-runtime.md
     - name: Control data collection
       href: controlling-data-collection.md
       items:
-      - name: How to: Start and end performance data collection
+      - name: Start and end performance data collection
         href: how-to-start-and-end-performance-data-collection.md
-      - name: How to: Attach and detach performance tools to running processes
+      - name: Attach and detach performance tools to running processes
         href: how-to-attach-and-detach-performance-tools-to-running-processes.md
-      - name: How to: Pause and resume performance data collection
+      - name: Pause and resume performance data collection
         href: how-to-pause-and-resume-performance-data-collection.md
-      - name: How to: Limit instrumentation to specific DLLs
+      - name: Limit instrumentation to specific DLLs
         href: how-to-limit-instrumentation-to-specific-dlls.md
-      - name: How to: Limit instrumentation to specific functions
+      - name: Limit instrumentation to specific functions
         href: how-to-limit-instrumentation-to-specific-functions.md
-      - name: How to: Exclude or include short functions from instrumentation
+      - name: Exclude or include short functions from instrumentation
         href: how-to-exclude-or-include-short-functions-from-instrumentation.md
     - name: Analyze performance tools data
       href: analyzing-performance-tools-data.md
@@ -166,9 +166,9 @@
       - name: Use performance rules to analyze data
         href: using-performance-rules-to-analyze-data.md
         items:
-        - name: How to: View performance warnings
+        - name: View performance warnings
           href: how-to-view-performance-warnings.md
-        - name: How to: Configure performance rules
+        - name: Configure performance rules
           href: how-to-configure-performance-rules.md
         - name: Performance rules reference
           href: performance-rules-reference.md
@@ -178,74 +178,74 @@
           - name: .NET Framework usage performance rules
             href: dotnet-framework-usage-performance-rules.md
             items:
-            - name: DA0001: Use StringBuilder for concatenations
+            - name: "DA0001: Use StringBuilder for concatenations"
               href: da0001-use-stringbuilder-for-concatenations.md
-            - name: DA0005: Frequent GC2 collections
+            - name: "DA0005: Frequent GC2 collections"
               href: da0005-frequent-gc2-collections.md
-            - name: DA0006: Override Equals() for value types
+            - name: "DA0006: Override Equals() for value types"
               href: da0006-override-equals-parens-for-value-types.md
-            - name: DA0007: Avoid using exceptions for control flow
+            - name: "DA0007: Avoid using exceptions for control flow"
               href: da0007-avoid-using-exceptions-for-control-flow.md
-            - name: DA0010: Expensive GetHashCode
+            - name: "DA0010: Expensive GetHashCode"
               href: da0010-expensive-gethashcode.md
-            - name: DA0011: Expensive CompareTo
+            - name: "DA0011: Expensive CompareTo"
               href: da0011-expensive-compareto.md
-            - name: DA0012: Significant amount of Reflection
+            - name: "DA0012: Significant amount of Reflection"
               href: da0012-significant-amount-of-reflection.md
-            - name: DA0013: High usage of String.Split or String.Substring
+            - name: "DA0013: High usage of String.Split or String.Substring"
               href: da0013-high-usage-of-string-split-or-string-substring.md
-            - name: DA0018: 32-bit Application running at process managed memory limits
+            - name: "DA0018: 32-bit Application running at process managed memory limits"
               href: da0018-32-bit-application-running-at-process-managed-memory-limits.md
-            - name: DA0021: High rate of Gen 1 garbage collections
+            - name: "DA0021: High rate of Gen 1 garbage collections"
               href: da0021-high-rate-of-gen-1-garbage-collections.md
-            - name: DA0022: High rate of Gen 2 garbage collections
+            - name: "DA0022: High rate of Gen 2 garbage collections"
               href: da0022-high-rate-of-gen-2-garbage-collections.md
-            - name: DA0023: High GC CPU time
+            - name: "DA0023: High GC CPU time"
               href: da0023-high-gc-cpu-time.md
-            - name: DA0024: Excessive GC CPU Time
+            - name: "DA0024: Excessive GC CPU Time"
               href: da0024-excessive-gc-cpu-time.md
-            - name: DA0038: High Rate of Lock contentions
+            - name: "DA0038: High Rate of Lock contentions"
               href: da0038-high-rate-of-lock-contentions.md
-            - name: DA0039: Very High Rate of Lock contentions
+            - name: "DA0039: Very High Rate of Lock contentions"
               href: da0039-very-high-rate-of-lock-contentions.md
           - name: Memory and Paging Performance Rules
             href: memory-and-paging-performance-rules.md
             items:
-            - name: DA0014: Extremely high rates of paging active memory to disk
+            - name: "DA0014: Extremely high rates of paging active memory to disk"
               href: da0014-extremely-high-rates-of-paging-active-memory-to-disk.md
-            - name: DA0017: High rates of paging active memory to disk
+            - name: "DA0017: High rates of paging active memory to disk"
               href: da0017-high-rates-of-paging-active-memory-to-disk.md
           - name: Profiling Tools Usage Rules
             href: profiling-tools-usage-rules.md
             items:
-            - name: DA0002: VSPerfCorProf.dll is missing
+            - name: "DA0002: VSPerfCorProf.dll is missing"
               href: da0002-vsperfcorprof-dll-is-missing.md
-            - name: DA0003: Many kernel samples
+            - name: "DA0003: Many kernel samples"
               href: da0003-many-kernel-samples.md
-            - name: DA0004: High processor usage
+            - name: "DA0004: High processor usage"
               href: da0004-high-processor-usage.md
-            - name: DA0008: Few samples collected
+            - name: "DA0008: Few samples collected"
               href: da0008-few-samples-collected.md
-            - name: DA0026: Excessive kernel CPU time processing
+            - name: "DA0026: Excessive kernel CPU time processing"
               href: da0026-excessive-kernel-cpu-time-processing.md
-            - name: DA0029: Unsupported CLR Version
+            - name: "DA0029: Unsupported CLR Version"
               href: da0029-unsupported-clr-version.md
-            - name: DA0030: Gather Tier Interaction measurements for database projects
+            - name: "DA0030: Gather Tier Interaction measurements for database projects"
               href: da0030-gather-tier-interaction-measurements-for-database-projects.md
           - name: Resource Monitoring Performance Rules
             href: resource-monitoring-performance-rules.md
             items:
-            - name: DA0501: Average CPU consumption by the Process being profiled.
+            - name: "DA0501: Average CPU consumption by the Process being profiled"
               href: da0501-average-cpu-consumption-by-the-process-being-profiled.md
-            - name: DA0502: Maximum CPU consumption by the Process being profiled
+            - name: "DA0502: Maximum CPU consumption by the Process being profiled"
               href: da0502-maximum-cpu-consumption-by-the-process-being-profiled.md
-            - name: DA0503: Average Working Set in Bytes for the Process being profiled
+            - name: "DA0503: Average Working Set in Bytes for the Process being profiled"
               href: da0503-average-working-set-in-bytes-for-the-process-being-profiled.md
-            - name: DA0504: Maximum Working Set in Bytes for the Process being profiled
+            - name: "DA0504: Maximum Working Set in Bytes for the Process being profiled"
               href: da0504-maximum-working-set-in-bytes-for-the-process-being-profiled.md
-            - name: DA0505: Average Private Bytes allocated for the Process being profiled
+            - name: "DA0505: Average Private Bytes allocated for the Process being profiled"
               href: da0505-average-private-bytes-allocated-for-the-process-being-profiled.md
-            - name: DA0506: Maximum Private Bytes allocated for the Process being profiled
+            - name: "DA0506: Maximum Private Bytes allocated for the Process being profiled"
               href: da0506-maximum-private-bytes-allocated-for-the-process-being-profiled.md
       - name: Performance Report Views
         href: performance-report-views.md
@@ -369,22 +369,22 @@
       - name: Customize Performance Tools Report Views
         href: customizing-performance-tools-report-views.md
         items:
-        - name: How to: Customize Report View Columns
+        - name: Customize Report View Columns
           href: how-to-customize-report-view-columns.md
         - name: Filtering Report Views
           href: filtering-report-views.md
-        - name: How to: Filter Report Views from the Summary Timeline
+        - name: Filter Report Views from the Summary Timeline
           href: how-to-filter-report-views-from-the-summary-timeline.md
         - name: Performance Report View Filter
           href: performance-report-view-filter.md
-        - name: How to: Configure Noise Reduction in Report Views
+        - name: Configure Noise Reduction in Report Views
           href: how-to-configure-noise-reduction-in-report-views.md
-        - name: How to: Filter Profiling Tools Report Views to Display Just My Code
+        - name: Filter Profiling Tools Report Views to Display Just My Code
           href: how-to-filter-profiling-tools-report-views-to-display-just-my-code.md
     - name: Compare performance data files
       href: comparing-performance-data-files.md
       items:
-      - name: How to: Compare performance data files
+      - name: Compare performance data files
         href: how-to-compare-performance-data-files.md
     - name: Save symbol information with performance data files
       href: saving-symbol-information-with-performance-data-files.md
@@ -393,7 +393,7 @@
     - name: Use the profiling tools from the command line
       href: using-the-profiling-tools-from-the-command-line.md
       items:
-      - name: How to: Specify symbol file locations from the command line
+      - name: Specify symbol file locations from the command line
         href: how-to-specify-symbol-file-locations-from-the-command-line.md
       - name: Specify the path to profiling tools command line tools
         href: specifying-the-path-to-profiling-tools-command-line-tools.md
@@ -407,40 +407,40 @@
         - name: Collect application statistics for stand-alone applications by using the profiler command line
           href: collecting-application-statistics-for-stand-alone-applications.md
           items:
-          - name: How to: Launch a stand-alone application with the profiler and collect application statistics by using the command line
+          - name: Launch a stand-alone application with the profiler and collect application statistics by using the command line
             href: how-to-launch-a-stand-alone-application-with-the-profiler-and-collect-application-statistics-by-using-the-command-line.md
-          - name: How to: Attach the profiler to a .NET Framework stand-alone application and collect application statistics by using the command line
+          - name: Attach the profiler to a .NET Framework stand-alone application and collect application statistics by using the command line
             href: how-to-attach-the-profiler-to-a-dotnet-app-and-collect-application-statistics.md
-          - name: How to: Attach the profiler to a native stand-alone application and collect application statistics by using the command line
+          - name: Attach the profiler to a native stand-alone application and collect application statistics by using the command line
             href: how-to-attach-the-profiler-to-a-native-stand-alone-application-and-collect-application-statistics-by-using-the-command-line.md
         - name: Collecting detailed timing data for a stand-alone application by using the profiler command line
           href: collecting-detailed-timing-data-for-a-stand-alone-application.md
           items:
-          - name: How to: Instrument a stand-alone .NET Framework component and collect timing data with the profiler from the command line
+          - name: Instrument a stand-alone .NET Framework component and collect timing data with the profiler from the command line
             href: how-to-instrument-a-stand-alone-dotnet-framework-component-and-collect-timing-data-with-the-profiler-from-the-command-line.md
-          - name: How to: Instrument a native stand-alone component and collect timing data with the profiler from the command line
+          - name: Instrument a native stand-alone component and collect timing data with the profiler from the command line
             href: how-to-instrument-a-native-stand-alone-component-and-collect-timing-data-with-the-profiler-from-the-command-line.md
         - name: Collecting concurrency data for stand-alone applications by using the profiler command line
           href: collecting-concurrency-data-for-stand-alone-applications.md
           items:
-          - name: How to: Launch a stand-alone .NET Framework Application with the profiler to collect concurrency data by using the command line
+          - name: Launch a stand-alone .NET Framework Application with the profiler to collect concurrency data by using the command line
             href: how-to-launch-a-stand-alone-dotnet-framework-app-to-collect-concurrency-data.md
-          - name: How to: Launch a stand-alone native application with the profiler to collect concurrency data by using the command line
+          - name: Launch a stand-alone native application with the profiler to collect concurrency data by using the command line
             href: how-to-launch-a-stand-alone-native-application-with-the-profiler-to-collect-concurrency-data-by-using-the-command-line.md
-          - name: How to: Attach the profiler to a .NET Framework stand-alone Application to collect concurrency data by using the command line
+          - name: Attach the profiler to a .NET Framework stand-alone Application to collect concurrency data by using the command line
             href: how-to-attach-the-profiler-to-a-dotnet-app-and-collect-concurrency-data.md
-          - name: How to: Attach the profiler to a Native stand-alone Application and collect concurrency data by using the command line
+          - name: Attach the profiler to a Native stand-alone Application and collect concurrency data by using the command line
             href: how-to-attach-the-profiler-to-a-native-stand-alone-application-and-collect-concurrency-data-by-using-the-command-line.md
         - name: Collecting .NET Framework memory data for stand-alone applications by using the profiler command line
           href: collecting-dotnet-framework-memory-data-for-stand-alone-applications.md
           items:
-          - name: How to: Launch a stand-alone .NET Framework Application with the profiler to collect memory data by using the command line
+          - name: Launch a stand-alone .NET Framework Application with the profiler to collect memory data by using the command line
             href: how-to-launch-a-stand-alone-dotnet-framework-application-with-the-profiler-to-collect-memory-data-by-using-the-command-line.md
-          - name: How to: Attach the profiler to a .NET Framework stand-alone Application to collect memory data by using the command line
+          - name: Attach the profiler to a .NET Framework stand-alone Application to collect memory data by using the command line
             href: how-to-attach-the-profiler-to-a-dotnet-framework-stand-alone-application-to-collect-memory-data-by-using-the-command-line.md
-          - name: How to: Instrument a stand-alone .NET Framework component and collect memory data with the profiler by using the command line
+          - name: Instrument a stand-alone .NET Framework component and collect memory data with the profiler by using the command line
             href: how-to-instrument-a-dotnet-framework-component-and-collect-memory-data.md
-        - name: Walkthrough: Command line profiling using sampling
+        - name: "Walkthrough: Command line profiling using sampling"
           href: walkthrough-command-line-profiling-using-sampling.md
       - name: Command-line profiling of ASP.NET Web applications
         href: command-line-profiling-of-aspnet-web-applications.md
@@ -450,30 +450,30 @@
         - name: Collecting application statistics for ASP.NET Web applications using the profiler sampling method from the command line
           href: collecting-application-statistics-for-aspnet-using-the-profiler-sampling-method.md
           items:
-          - name: How to: Attach the profiler to an ASP.NET Web application to collect application statistics by using the command line
+          - name: Attach the profiler to an ASP.NET Web application to collect application statistics by using the command line
             href: how-to-attach-the-profiler-to-an-aspnet-web-application-to-collect-application-statistics-by-using-the-command-line.md
         - name: Collecting detailed timing data for an ASP.NET Web application using the profiler instrumentation method from the command line
           href: collecting-detailed-timing-data-aspnet-profiler-instrumentation-method.md
           items:
-          - name: How to: Instrument a statically compiled ASP.NET Web application and collect detailed timing data with the profiler by using the command line
+          - name: Instrument a statically compiled ASP.NET Web application and collect detailed timing data with the profiler by using the command line
             href: how-to-instrument-statically-compiled-aspnet-and-collect-detailed-timing-data.md
-          - name: How to: Instrument a dynamically compiled ASP.NET Web application and collect detailed timing data with the profiler by using the command line
+          - name: Instrument a dynamically compiled ASP.NET Web application and collect detailed timing data with the profiler by using the command line
             href: how-to-instrument-a-dynamically-compiled-aspnet-app-and-collect-timing-data.md
         - name: Collecting concurrency data for an ASP.NET Web application Using the profiler command line
           href: collecting-concurrency-data-for-an-aspnet-web-application.md
           items:
-          - name: How to: Attach the profiler to an ASP.NET Web application to collect concurrency data by using the command line
+          - name: Attach the profiler to an ASP.NET Web application to collect concurrency data by using the command line
             href: how-to-attach-the-profiler-to-an-aspnet-web-application-to-collect-concurrency-data-by-using-the-command-line.md
         - name: Collecting memory data from an ASP.NET Web application by using the profiler command line
           href: collecting-memory-data-from-an-aspnet-web-application.md
           items:
-          - name: How to: Attach the profiler to an ASP.NET Web application to collect memory data by using the command line
+          - name: Attach the profiler to an ASP.NET Web application to collect memory data by using the command line
             href: how-to-attach-the-profiler-to-an-aspnet-web-application-to-collect-memory-data-by-using-the-command-line.md
-          - name: How to: Instrument a statically compiled ASP.NET Web application and collect memory data by using the profiler command line
+          - name: Instrument a statically compiled ASP.NET Web application and collect memory data by using the profiler command line
             href: how-to-instrument-a-statically-compiled-aspnet-web-application-and-collect-memory-data-by-using-the-profiler-command-line.md
-          - name: How to: Instrument a dynamically compiled ASP.NET Web application and collect memory data by using the profiler command line
+          - name: Instrument a dynamically compiled ASP.NET Web application and collect memory data by using the profiler command line
             href: how-to-instrument-a-dynamically-compiled-aspnet-web-application-and-collect-memory-data.md
-        - name: How to: Modify Web.config files to instrument and profile dynamically compiled ASP.NET Web applications
+        - name: Modify Web.config files to instrument and profile dynamically compiled ASP.NET Web applications
           href: how-to-modify-web-config-files-to-instrument-dynamically-compiled-aspnet-apps.md
       - name: Command-line profiling of services
         href: command-line-profiling-of-services.md
@@ -481,47 +481,47 @@
         - name: Collecting application statistics for services by using the profiler sampling method
           href: collecting-application-statistics-for-services-by-using-the-profiler-sampling-method.md
           items:
-          - name: How to: Attach the profiler to a .NET service to collect application statistics by using the command line
+          - name: Attach the profiler to a .NET service to collect application statistics by using the command line
             href: how-to-attach-the-profiler-to-a-dotnet-service-to-collect-application-statistics-by-using-the-command-line.md
-          - name: How to: Attach the profiler to a native service to collect application statistics by using the command line
+          - name: Attach the profiler to a native service to collect application statistics by using the command line
             href: how-to-attach-the-profiler-to-a-native-service-to-collect-application-statistics-by-using-the-command-line.md
         - name: Collecting detailed timing data for services by using the Instrumentation method from the profiler command line
           href: collecting-detailed-timing-data-for-services-by-using-the-instrumentation-method.md
           items:
-          - name: How to: Instrument a .NET service and collect detailed timing data by using the profiler command line
+          - name: Instrument a .NET service and collect detailed timing data by using the profiler command line
             href: how-to-instrument-a-dotnet-service-and-collect-detailed-timing-data-by-using-the-profiler-command-line.md
-          - name: How to: Instrument a native service and collect detailed timing data by using the profiler command line
+          - name: Instrument a native service and collect detailed timing data by using the profiler command line
             href: how-to-instrument-a-native-service-and-collect-detailed-timing-data-by-using-the-profiler-command-line.md
         - name: Collecting concurrency data for a service by using the profiler command line
           href: collecting-concurrency-data-for-a-service-by-using-the-profiler-command-line.md
           items:
-          - name: How to: Attach the profiler to a .NET service to collect concurrency data by using the command line
+          - name: Attach the profiler to a .NET service to collect concurrency data by using the command line
             href: how-to-attach-the-profiler-to-a-dotnet-service-to-collect-concurrency-data-by-using-the-command-line.md
-          - name: How to: Attach the profiler to a native service to collect concurrency data by using the command line
+          - name: Attach the profiler to a native service to collect concurrency data by using the command line
             href: how-to-attach-the-profiler-to-a-native-service-to-collect-concurrency-data-by-using-the-command-line.md
         - name: Collecting memory data from .NET Framework services by using the profiler command line
           href: collecting-memory-data-from-dotnet-framework-services-by-using-the-profiler-command-line.md
           items:
-          - name: How to: Attach the profiler to a .NET service to collect memory data by using the command line
+          - name: Attach the profiler to a .NET service to collect memory data by using the command line
             href: how-to-attach-the-profiler-to-a-dotnet-service-to-collect-memory-data-by-using-the-command-line.md
-          - name: How to: Instrument a .NET Framework service and collect memory data by using the profiler command line
+          - name: Instrument a .NET Framework service and collect memory data by using the profiler command line
             href: how-to-instrument-a-dotnet-framework-service-and-collect-memory-data-by-using-the-profiler-command-line.md
       - name: Creating profiler reports from the command line
         href: creating-profiler-reports-from-the-command-line.md
         items:
         - name: Creating basic profiling reports from the command line
           href: creating-basic-profiling-reports-from-the-command-line.md
-        - name: How to: Filter reports from the command line
+        - name: Filter reports from the command line
           href: how-to-filter-reports-from-the-command-line.md
-        - name: How to: Create a profiler comparison report from a command prompt
+        - name: Create a profiler comparison report from a command prompt
           href: how-to-create-a-profiler-comparison-report-from-a-command-prompt.md
-        - name: How to: Create a profiling tools call trace report
+        - name: Create a profiling tools call trace report
           href: how-to-create-a-profiling-tools-call-trace-report.md
         - name: Creating portable profiling data files from the command line
           href: creating-portable-profiling-data-files-from-the-command-line.md
-        - name: How to: Create a profiling tools ETW report
+        - name: Create a profiling tools ETW report
           href: how-to-create-a-profiling-tools-etw-report.md
-      - name: How to: Install the stand-alone profiler
+      - name: Install the stand-alone profiler
         href: how-to-install-the-stand-alone-profiler.md
       - name: Command-line profiling tools reference
         href: command-line-profiling-tools-reference.md
@@ -623,7 +623,7 @@
           href: suspendprofile.md
         - name: PROFILE_CURRENTID
           href: profile-currentid.md
-      - name: Walkthrough: Using profiler APIs
+      - name: "Walkthrough: Using profiler APIs"
         href: walkthrough-using-profiler-apis.md
     - name: Profiling ASP.NET load tests
       href: profiling-aspnet-load-tests.md
@@ -743,7 +743,7 @@
     - name: Concurrency Visualizer SDK
       href: concurrency-visualizer-sdk.md
       items:
-      - name: How To: Use the Concurrency Visualizer Markers SDK
+      - name: Use the Concurrency Visualizer Markers SDK
         href: how-to-use-the-concurrency-visualizer-markers-sdk.md
       - name: C++ Library Reference
         href: cpp-library-reference.md
@@ -751,7 +751,7 @@
         - name: Concurrency Namespace (Concurrency Visualizer)
           href: concurrency-namespace-concurrency-visualizer.md
           items:
-          - name: diagnostic Namespace
+          - name: Diagnostic Namespace
             href: diagnostic-namespace.md
             items:
             - name: span Class
