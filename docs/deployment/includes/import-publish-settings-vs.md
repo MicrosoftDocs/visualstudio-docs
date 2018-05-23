@@ -15,4 +15,4 @@
 
     If you get an any deployment errors, click **Settings** to edit settings. Modify settings and click **Validate** to test new settings.
 
-    ![Edit settings in the Publish tool](../deployment/media/tutorial-configure-publish-settings-in-tool.png)
+    ![Edit settings in the Publish tool](../../deployment/media/tutorial-configure-publish-settings-in-tool.png)
