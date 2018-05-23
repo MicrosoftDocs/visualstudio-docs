@@ -200,7 +200,8 @@ If you're not using Web Deploy, you must publish and deploy the app using the fi
 
 5. Check  **Show processes from all users**.
 6. Type the first letter of a process name to quickly find **dotnet.exe** (for ASP.NET Core).
-    >Note: For an ASP.NET Core app, the previous process name was dnx.exe.
+
+    For an ASP.NET Core app, the previous process name was dnx.exe.
 
     ![RemoteDBG_AttachToProcess](../debugger/media/remotedbg_attachtoprocess_aspnetcore.png "RemoteDBG_AttachToProcess")
 
