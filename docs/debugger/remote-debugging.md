@@ -44,7 +44,7 @@ If you just want to download and install the remote debugger and don't need any 
 
 ## <a name="unblock_msvsmon"></a> Unblock the download of the remote tools on Windows Server
 
-The default security settings in Internet Explorer on Windows Server can make it difficult to download the remote tools.
+The default security settings in Internet Explorer on Windows Server can make it time-consuming to download the components such as the remote tools.
 
 * Enhanced Security Configuration is enabled on Internet Explorer, which prevents you from opening websites and accessing web resources unless the domain containing the resource is explicitly allowed (that is, trusted).
 
@@ -77,11 +77,11 @@ To save time when you install the tools on Windows Server, we recommend one of t
   * vlscppe.microsoft.com
   * query.prod.cms.rt.microsoft.com
 
-    If the domains listed previously are blocked when you try to download the remote tools, choose **Add** to add the site or resource as a trusted site.
+    If you choose to add these domains while downloading the remote tools, then choose **Add** when prompted.
 
     ![Blocked content dialog box](../debugger/media/remotedbg-blocked-content.png)
 
-    When you download the software, you will get additional requests to grant permission to load various web site scripts and resources. On my.visualstudio.com, we recommend you add the additional sites to make sure that login is successful.
+    When you download the software, you will get additional requests to grant permission to load various web site scripts and resources. On my.visualstudio.com, we recommend that you add the additional domains to make sure that login is successful.
 
 ### <a name="fileshare_msvsmon"></a> (Optional) To run the remote debugger from a file share
 
