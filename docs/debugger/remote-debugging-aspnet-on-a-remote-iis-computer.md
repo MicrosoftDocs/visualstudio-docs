@@ -141,7 +141,7 @@ You can also publish and deploy the app using the file system or other tools.
 
 In this tutorial, we are using Visual Studio 2017.
 
-If you have trouble opening the page with the remote debugger download, see [Unblock the file download](../../debugger/remote-debugging.md#unblock_msvsmon) for help.
+If you have trouble opening the page with the remote debugger download, see [Unblock the file download](../debugger/remote-debugging.md#unblock_msvsmon) for help.
 
 [!INCLUDE [remote-debugger-download](../debugger/includes/remote-debugger-download.md)]
 
