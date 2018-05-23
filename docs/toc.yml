@@ -1031,7 +1031,7 @@
       href: ide/dotfuscator/upgrades.md
 - name: Resources
   items:
-  - name: What's New
+  - name: What's new
     href: ide/whats-new-in-visual-studio.md
   - name: Release notes & system requirements
     items:
@@ -1053,11 +1053,14 @@
       href: /visualstudio/productinfo/2017-redistribution-vs?context=visualstudio/default
     - name: Support lifecycle and servicing
       href: /visualstudio/productinfo/vs-servicing-vs?context=visualstudio/default
-  - name: How to Report a Problem with Visual Studio
+  - name: Report a problem with Visual Studio
     href: ide/how-to-report-a-problem-with-visual-studio-2017.md
   - name: Customer Experience Improvement Program
     href: ide/visual-studio-experience-improvement-program.md
-  - name: Resources for Troubleshooting IDE Errors
+    items:
+    - name: Diagnostic information collected by Visual Studio
+      href: ide/diagnostic-data-collection.md
+  - name: Resources for troubleshooting IDE errors
     href: ide/reference/resources-for-troubleshooting-integrated-development-environment-errors.md
-  - name: Talk to Us
+  - name: Talk to us
     href: ide/talk-to-us.md
