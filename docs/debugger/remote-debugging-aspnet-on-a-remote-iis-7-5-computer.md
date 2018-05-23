@@ -16,7 +16,10 @@ To debug an ASP.NET application that has been deployed to IIS, install and run t
 
 ![Remote debugger components](../debugger/media/remote-debugger-aspnet.png "Remote_debugger_components")
 
-This guide explains how to set up and configure a Visual Studio 2017 ASP.NET MVC 4.5.2 application, deploy it to IIS, and attach the remote debugger from Visual Studio. To remote debug ASP.NET Core, see [Remote Debug ASP.NET Core on an IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md). For Azure App Service, you can easily deploy and debug on a preconfigured instance of IIS using either the [Snapshot Debugger](../debugger/debug-live-azure-applications.md) (.NET 4.6.1 required) or by [attaching the debugger from Server Explorer](../debugger/remote-debugging-azure.md).
+This guide explains how to set up and configure a Visual Studio 2017 ASP.NET MVC 4.5.2 application, deploy it to IIS, and attach the remote debugger from Visual Studio.
+
+> [!NOTE]
+> To remote debug ASP.NET Core instead, see [Remote Debug ASP.NET Core on an IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md). For Azure App Service, you can easily deploy and debug on a preconfigured instance of IIS using either the [Snapshot Debugger](../debugger/debug-live-azure-applications.md) (.NET 4.6.1 required) or by [attaching the debugger from Server Explorer](../debugger/remote-debugging-azure.md).
 
 These procedures have been tested on these server configurations:
 * Windows Server 2012 R2 and IIS 8 (For Windows Server 2008 R2, the server steps are different)
@@ -27,6 +30,14 @@ The remote debugger is supported on Windows Server starting with Windows Server 
 
 > [!NOTE]
 > Debugging between two computers connected through a proxy is not supported. Debugging over a high latency or low-bandwidth connection, such as dialup Internet, or over the Internet across countries is not recommended and may fail or be unacceptably slow.
+
+## App already running in IIS?
+
+This article includes steps on setting up a basic configuration of IIS on Windows server and deploying the app from Visual Studio. These steps are included to make sure that requirements are in place and that you are ready to remote debug.
+
+* If your app is running in IIS and you just want to download the remote debugger and start debugging, go to [Download and Install the remote tools on Windows Server](#BKMK_msvsmon).
+
+* If you want help to make sure that your app is set up, deployed, and running correctly in IIS so that you can debug, follow all the steps in this topic.
 
 ## Create the ASP.NET 4.5.2 application on the Visual Studio computer
   

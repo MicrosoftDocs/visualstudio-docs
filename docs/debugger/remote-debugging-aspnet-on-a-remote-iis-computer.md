@@ -27,6 +27,14 @@ These procedures have been tested on these server configurations:
 
 Debugging between two computers connected through a proxy is not supported. Debugging over a high latency or low-bandwidth connection, such as dialup Internet, or over the Internet across countries is not recommended and may fail or be unacceptably slow. For a complete list of requirements, see [Requirements](../debugger/remote-debugging.md#requirements_msvsmon).
 
+## App already running in IIS?
+
+This article includes steps on setting up a basic configuration of IIS on Windows server and deploying the app from Visual Studio. These steps are included to make sure that requirements are in place and that you are ready to remote debug.
+
+* If your app is running in IIS and you just want to download the remote debugger and start debugging, go to [Download and Install the remote tools on Windows Server](#BKMK_msvsmon).
+
+* If you want help to make sure that your app is set up, deployed, and running correctly in IIS so that you can debug, follow all the steps in this topic.
+
 ## Create the ASP.NET Core application on the Visual Studio 2017 computer 
 
 1. Create a new ASP.NET Core application. (**File > New > Project**, then select **Visual C# > Web > ASP.NET Core Web Application**).
