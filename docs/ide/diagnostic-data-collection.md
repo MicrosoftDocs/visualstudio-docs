@@ -16,7 +16,7 @@ Visual Studio collects error diagnostic information to fix problems and improve 
 
 ## Types of collected data
 
-Visual Studio collects diagnostic data for crashes, hangs, UI unresponsiveness, and high CPU or memory usage. We also collect information about errors encountered during product installation or usage. The collected data varies based on the error encountered. Some examples of the data we collect are the following:
+Visual Studio collects diagnostic data for crashes, hangs, UI unresponsiveness, and high CPU or memory usage. We also collect information about errors encountered during product installation or usage. The collected data varies based on the error, and may include stack traces, memory dumps, and exception information:
 
 - For high CPU usage and unresponsiveness, stack traces of relevant Visual Studio threads are collected.
 
@@ -26,8 +26,9 @@ Visual Studio collects diagnostic data for crashes, hangs, UI unresponsiveness, 
 
    The following example of collected data shows an exception name, stack trace, and exception message:
 
+   ```text
    "Reserved.DataModel.Fault.Exception.TypeString": "System.IO.IOException",
-   "Reserved.DataModel.Fault.Exception.StackTrace": "System.IO.\__Error.WinIOError(Int32,String)\r\n
+   "Reserved.DataModel.Fault.Exception.StackTrace": "System.IO.__Error.WinIOError(Int32,String)\r\n
    System.IO.FileStream.Init(String,FileMode,FileAccess,Int32,Boolean,FileShare,Int32,FileOptions,SECURITY_ATTRIBUTES,String,Boolean,Boolean,Boolean)\r\n
    System.IO.FileStream..ctor(String,FileMode,FileAccess,FileShare,Int32,FileOptions,String,Boolean,Boolean,Boolean)\r\nSystem.IO.StreamWriter.CreateFile(String,Boolean,Boolean)\r\n
    System.IO.StreamWriter..ctor(String,Boolean,Encoding,Int32,Boolean)\r\n
@@ -38,7 +39,8 @@ Visual Studio collects diagnostic data for crashes, hangs, UI unresponsiveness, 
    Microsoft.VisualStudio.Setup.Cache.ChannelManifestRepository.AddChannel(ChannelManifestPair,Boolean)\r\n
    Microsoft.VisualStudio.Setup.Cache.CacheManager.AddChannel(ChannelManifestPair,Boolean)\r\n
    Microsoft.VisualStudio.Setup.ChannelManager.\<UpdateAsync>d__37.MoveNext()\r\n”,
-   "Reserved.DataModel.Fault.Exception.Message": " The process cannot access the file 'C:\\Users\\[UserName]\\AppData\\Local\\Microsoft\\VisualStudio\\Packages\\\_Channels\\4CB340F5\\channelManifest.json' because it is being used by another process."
+   "Reserved.DataModel.Fault.Exception.Message": " The process cannot access the file 'C:\\Users\\[UserName]\\AppData\\Local\\Microsoft\\VisualStudio\\Packages\\_Channels\\4CB340F5\\channelManifest.json' because it is being used by another process."
+   ```
 
 ## How we use diagnostic data
 
@@ -54,13 +56,13 @@ Work items for individual, prioritized errors are created and assigned to engine
 
 ### Error investigation
 
-Engineers use the information available in the work item to determine the root cause of an error. In some cases, they need more information than what's present in the work item, in which case they refer to the original diagnostic data that was collected. For example, to understand a product crash an engineer might need to investigate the memory dump collected for that crash.
+Engineers use the information available in the work item to determine the root cause of an error. In some cases, they need more information than what's present in the work item, in which case they refer to the original diagnostic data that was collected. For example, an engineer might inspect a memory dump to understand a product crash.
 
 ## Access and retention of diagnostic data
 
-The error diagnostic data collected from customer machines is treated with utmost care, and we restrict access to it. For example, the data might only be accessible to engineers in the organizational group relevant to the product being investigated. The data is not shared with anyone outside of Microsoft.
+The error diagnostic data collected from customer machines is treated with utmost care, and we restrict access to it. For example, the data might only be accessible to engineers in the organizational group for the product. The data is not shared with anyone outside of Microsoft.
 
-Investigating and fixing errors can take from days to months, depending on their complexity. Regardless of that, the most sensitive data is retained for a short length of time. For example, memory dumps are typically retained for thirty days or less. Less sensitive data that only contains information related to the error condition is retained for a longer, but bounded, period of time.
+Investigating and fixing errors can take from days to months, depending on their complexity. Regardless, the most sensitive data is retained for a short length of time. For example, memory dumps are typically retained for 30 days or less. Less sensitive data that only contains information related to the error condition is retained for a longer, but bounded, period of time.
 
 We may store pieces of information derived from diagnostic data in work items or emails. Such data can live for unbounded periods of time. This data typically doesn't include sensitive information, and may include classification information, stack traces, and so on.
 
