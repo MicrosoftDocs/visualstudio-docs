@@ -27,7 +27,7 @@ Visual Studio collects diagnostic data for crashes, hangs, UI unresponsiveness, 
    The following example of collected data shows an exception name, stack trace, and exception message:
 
    "Reserved.DataModel.Fault.Exception.TypeString": "System.IO.IOException",
-   "Reserved.DataModel.Fault.Exception.StackTrace": "System.IO.__Error.WinIOError(Int32,String)\r\n
+   "Reserved.DataModel.Fault.Exception.StackTrace": "System.IO.\__Error.WinIOError(Int32,String)\r\n
    System.IO.FileStream.Init(String,FileMode,FileAccess,Int32,Boolean,FileShare,Int32,FileOptions,SECURITY_ATTRIBUTES,String,Boolean,Boolean,Boolean)\r\n
    System.IO.FileStream..ctor(String,FileMode,FileAccess,FileShare,Int32,FileOptions,String,Boolean,Boolean,Boolean)\r\nSystem.IO.StreamWriter.CreateFile(String,Boolean,Boolean)\r\n
    System.IO.StreamWriter..ctor(String,Boolean,Encoding,Int32,Boolean)\r\n
