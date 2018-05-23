@@ -73,7 +73,7 @@
         href: install/tools-for-managing-visual-studio-instances.md
     - name: Manage subscriptions
       items:
-      - name: Visual Studio subscriptions: Administrator overview
+      - name: "Visual Studio subscriptions: Administrator overview"
         href: /visualstudio/subscriptions/admin-responsibilities
     - name: Help Viewer Administrator Guide
       href: ide/help-viewer-administrator-guide.md
@@ -107,17 +107,17 @@
     href: ide/quickstart-editor.md
   - name: Personalize theme and text colors
     href: ide/quickstart-personalize-the-ide.md
-  - name: C++: Create a console app
+  - name: "C++: Create a console app"
     href: ide/getting-started-with-cpp-in-visual-studio.md
-  - name: Python: Create a web app
+  - name: "Python: Create a web app"
     href: ide/quickstart-python.md
-  - name: Node.js: Create a web app
+  - name: "Node.js: Create a web app"
     href: ide/quickstart-nodejs.md
-  - name: C#: Create a web app
+  - name: "C#: Create a web app"
     href: ide/quickstart-aspnet-core.md
-  - name: C#: Create a UWP app
+  - name: "C#: Create a UWP app"
     href: ide/quickstart-uwp-csharp.md
-  - name: Visual Basic: Create a console app
+  - name: "Visual Basic: Create a console app"
     href: ide/quickstart-visual-basic-console.md
 - name: Tutorials
   items:
@@ -257,7 +257,7 @@
               href: ide/best-practices-for-using-code-snippets.md
           - name: Create code snippets
             items:
-            - name: Walkthrough: Create a code snippet
+            - name: "Walkthrough: Create a code snippet"
               href: ide/walkthrough-creating-a-code-snippet.md
             - name: Distribute code snippets
               href: ide/how-to-distribute-code-snippets.md
@@ -321,7 +321,7 @@
             href: ide/reference/sync-type-and-file.md
           - name: Use explicit type
             href: ide/reference/convert-var-to-explicit-type.md
-        - name: Walkthrough: Generate code from usage
+        - name: "Walkthrough: Generate code from usage"
           href: ide/walkthrough-test-first-support-with-the-generate-from-usage-feature.md
       - name: Productivity tips
         href: ide/productivity-tips-for-visual-studio.md
@@ -481,70 +481,70 @@
       items:
       - name: Create a WPF app with C# or Visual Basic
         href: ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md
-      - name: Tutorial 1: Create a Picture Viewer (C#)
+      - name: "Tutorial 1: Create a Picture Viewer (C#)"
         href: ide/tutorial-1-create-a-picture-viewer.md
         items:
-        - name: Step 1: Create a Windows Forms Application Project
+        - name: "Step 1: Create a Windows Forms Application Project"
           href: ide/step-1-create-a-windows-forms-application-project.md
-        - name: Step 2: Run Your Program
+        - name: "Step 2: Run Your Program"
           href: ide/step-2-run-your-program.md
-        - name: Step 3: Set Your Form Properties
+        - name: "Step 3: Set Your Form Properties"
           href: ide/step-3-set-your-form-properties.md
-        - name: Step 4: Lay Out Your Form with a TableLayoutPanel Control
+        - name: "Step 4: Lay Out Your Form with a TableLayoutPanel Control"
           href: ide/step-4-lay-out-your-form-with-a-tablelayoutpanel-control.md
-        - name: Step 5: Add Controls to Your Form
+        - name: "Step 5: Add Controls to Your Form"
           href: ide/step-5-add-controls-to-your-form.md
-        - name: Step 6: Name Your Button Controls
+        - name: "Step 6: Name Your Button Controls"
           href: ide/step-6-name-your-button-controls.md
-        - name: Step 7: Add Dialog Components to Your Form
+        - name: "Step 7: Add Dialog Components to Your Form"
           href: ide/step-7-add-dialog-components-to-your-form.md
-        - name: Step 8: Write Code for the Show a Picture Button Event Handler
+        - name: "Step 8: Write Code for the Show a Picture Button Event Handler"
           href: ide/step-8-write-code-for-the-show-a-picture-button-event-handler.md
-        - name: Step 9: Review, Comment, and Test Your Code
+        - name: "Step 9: Review, Comment, and Test Your Code"
           href: ide/step-9-review-comment-and-test-your-code.md
-        - name: Step 10: Write Code for Additional Buttons and a Check Box
+        - name: "Step 10: Write Code for Additional Buttons and a Check Box"
           href: ide/step-10-write-code-for-additional-buttons-and-a-check-box.md
-        - name: Step 11: Run Your Program and Try Other Features
+        - name: "Step 11: Run Your Program and Try Other Features"
           href: ide/step-11-run-your-program-and-try-other-features.md
-      - name: Tutorial 2: Create a Timed Math Quiz (C#)
+      - name: "Tutorial 2: Create a Timed Math Quiz (C#)"
         href: ide/tutorial-2-create-a-timed-math-quiz.md
         items:
-        - name: Step 1: Create a Project and Add Labels to Your Form
+        - name: "Step 1: Create a Project and Add Labels to Your Form"
           href: ide/step-1-create-a-project-and-add-labels-to-your-form.md
-        - name: Step 2: Create a Random Addition Problem
+        - name: "Step 2: Create a Random Addition Problem"
           href: ide/step-2-create-a-random-addition-problem.md
-        - name: Step 3: Add a Countdown Timer
+        - name: "Step 3: Add a Countdown Timer"
           href: ide/step-3-add-a-countdown-timer.md
-        - name: Step 4: Add the CheckTheAnswer() Method
+        - name: "Step 4: Add the CheckTheAnswer() Method"
           href: ide/step-4-add-the-checktheanswer-parens-method.md
-        - name: Step 5: Add Enter Event Handlers for the NumericUpDown Controls
+        - name: "Step 5: Add Enter Event Handlers for the NumericUpDown Controls"
           href: ide/step-5-add-enter-event-handlers-for-the-numericupdown-controls.md
-        - name: Step 6: Add a Subtraction Problem
+        - name: "Step 6: Add a Subtraction Problem"
           href: ide/step-6-add-a-subtraction-problem.md
-        - name: Step 7: Add Multiplication and Division Problems
+        - name: "Step 7: Add Multiplication and Division Problems"
           href: ide/step-7-add-multiplication-and-division-problems.md
-        - name: Step 8: Customize the Quiz
+        - name: "Step 8: Customize the Quiz"
           href: ide/step-8-customize-the-quiz.md
-      - name: Tutorial 3: Create a Matching Game (C#)
+      - name: "Tutorial 3: Create a Matching Game (C#)"
         href: ide/tutorial-3-create-a-matching-game.md
-      - name: Step 1: Create a Project and Add a Table to Your Form
+      - name: "Step 1: Create a Project and Add a Table to Your Form"
         href: ide/step-1-create-a-project-and-add-a-table-to-your-form.md
         items:
-        - name: Step 2: Add a Random Object and a List of Icons
+        - name: "Step 2: Add a Random Object and a List of Icons"
           href: ide/step-2-add-a-random-object-and-a-list-of-icons.md
-        - name: Step 3: Assign a Random Icon to Each Label
+        - name: "Step 3: Assign a Random Icon to Each Label"
           href: ide/step-3-assign-a-random-icon-to-each-label.md
-        - name: Step 4: Add a Click Event Handler to Each Label
+        - name: "Step 4: Add a Click Event Handler to Each Label"
           href: ide/step-4-add-a-click-event-handler-to-each-label.md
-        - name: Step 5: Add Label References
+        - name: "Step 5: Add Label References"
           href: ide/step-5-add-label-references.md
-        - name: Step 6: Add a Timer
+        - name: "Step 6: Add a Timer"
           href: ide/step-6-add-a-timer.md
-        - name: Step 7: Keep Pairs Visible
+        - name: "Step 7: Keep Pairs Visible"
           href: ide/step-7-keep-pairs-visible.md
-        - name: Step 8: Add a Method to Verify Whether the Player Won
+        - name: "Step 8: Add a Method to Verify Whether the Player Won"
           href: ide/step-8-add-a-method-to-verify-whether-the-player-won.md
-        - name: Step 9: Try Other Features
+        - name: "Step 9: Try Other Features"
           href: ide/step-9-try-other-features.md
   - name: Access data...
     href: data-tools/accessing-data-in-visual-studio.md
@@ -553,7 +553,7 @@
   - name: Compile and build
     href: ide/compiling-and-building-in-visual-studio.md
     items:
-    - name: Walkthrough: Build an application
+    - name: "Walkthrough: Build an application"
       href: ide/walkthrough-building-an-application.md
     - name: Build and clean projects and solutions
       href: ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md
@@ -605,7 +605,7 @@
       items:
       - name: Hosting Process (vshost.exe)
         href: ide/hosting-process-vshost-exe.md
-    - name: Walkthrough: Create a Multiple-Computer Build Environment
+    - name: "Walkthrough: Create a Multiple-Computer Build Environment"
       href: ide/walkthrough-creating-a-multiple-computer-build-environment.md
   - name: Debug...
     href: debugger/debugger-feature-tour.md
@@ -1002,18 +1002,18 @@
     items:
     - name: Install and Manage Local Content
       href: ide/install-and-manage-local-content.md
-    - name: Finding topics in Help Viewer
+    - name: Find topics in Help Viewer
       items:
-      - name: How to: Find Topics in the Index
+      - name: Find Topics in the Index
         href: ide/how-to-find-topics-in-the-index.md
-      - name: How to: Find Topics in the Table of Contents
+      - name: Find Topics in the Table of Contents
         href: ide/how-to-find-topics-in-the-table-of-contents.md
-      - name: How to: Search for Topics
+      - name: Search for Topics
         href: ide/how-to-search-for-topics.md
         items:
         - name: Logical and Advanced Operators in Search Expressions
           href: ide/logical-operators-in-search-expressions.md
-    - name: Customize the Help Viewer
+    - name: Customize Help Viewer
       href: ide/customize-the-help-viewer.md
     - name: Accessibility Features of the Help Viewer
       href: ide/accessibility-features-of-the-help-viewer.md

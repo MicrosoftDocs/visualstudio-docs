@@ -10,11 +10,11 @@
   - name: Visual Studio Command Table (.Vsct) Files
     href: visual-studio-command-table-dot-vsct-files.md
     items:
-    - name: Authoring .Vsct Files
+    - name: Author .Vsct Files
       href: authoring-dot-vsct-files.md
-    - name: Designing XML Command Table (.Vsct) Files
+    - name: Design XML Command Table (.Vsct) Files
       href: designing-xml-command-table-dot-vsct-files.md
-    - name: How to: Create a .Vsct File
+    - name: Create a .Vsct File
       href: how-to-create-a-dot-vsct-file.md
     - name: VSCT Compiler Command-Line Flags
       href: vsct-compiler-command-line-flags.md
@@ -101,7 +101,7 @@
         href: important-commands-for-language-service-filters.md
     - name: Registering a Legacy Language Service2
       href: registering-a-legacy-language-service2.md
-    - name: Checklist: Creating a Legacy Language Service
+    - name: "Checklist: Creating a Legacy Language Service"
       href: checklist-creating-a-legacy-language-service.md
     - name: Legacy Language Service Features2
       href: legacy-language-service-features2.md
@@ -111,7 +111,7 @@
         items:
         - name: Implementing Syntax Coloring
           href: implementing-syntax-coloring.md
-        - name: How to: Use Built-In Colorable Items
+        - name: Use Built-In Colorable Items
           href: how-to-use-built-in-colorable-items.md
         - name: Custom Colorable Items
           href: custom-colorable-items.md
@@ -124,11 +124,11 @@
       - name: Outlining and Hidden Text in a Legacy Language Service
         href: outlining-and-hidden-text-in-a-legacy-language-service.md
         items:
-        - name: How to: Support Outlining in a Legacy Language Service
+        - name: Support Outlining in a Legacy Language Service
           href: how-to-support-outlining-in-a-legacy-language-service.md
-        - name: How to: Provide Hidden Text Support in a Legacy Language Service
+        - name: Provide Hidden Text Support in a Legacy Language Service
           href: how-to-provide-hidden-text-support-in-a-legacy-language-service.md
-        - name: How to: Provide Expanded Outlining Support in a Legacy Language Service
+        - name: Provide Expanded Outlining Support in a Legacy Language Service
           href: how-to-provide-expanded-outlining-support-in-a-legacy-language-service.md
       - name: Language Service Support for Debugging
         href: language-service-support-for-debugging.md
@@ -143,9 +143,9 @@
       href: registering-a-legacy-language-service1.md
     - name: Legacy Language Service Parser and Scanner
       href: legacy-language-service-parser-and-scanner.md
-    - name: Walkthrough: Creating a Legacy Language Service
+    - name: "Walkthrough: Creating a Legacy Language Service"
       href: walkthrough-creating-a-legacy-language-service.md
-    - name: Walkthrough: Getting a List of Installed Code Snippets (Legacy Implementation)
+    - name: "Walkthrough: Getting a List of Installed Code Snippets (Legacy Implementation)"
       href: walkthrough-getting-a-list-of-installed-code-snippets-legacy-implementation.md
     - name: Legacy Language Service Features1
       href: legacy-language-service-features1.md
@@ -181,18 +181,18 @@
   - name: Supporting Symbol-Browsing Tools
     href: supporting-symbol-browsing-tools.md
     items:
-    - name: How to: Register a Library with the Object Manager
+    - name: Register a Library with the Object Manager
       href: how-to-register-a-library-with-the-object-manager.md
-    - name: How to: Expose Lists of Symbols Provided by the Library to the Object Manager
+    - name: Expose Lists of Symbols Provided by the Library to the Object Manager
       href: how-to-expose-lists-of-symbols-provided-by-the-library-to-the-object-manager.md
-    - name: How to: Identify Symbols in a Library
+    - name: Identify Symbols in a Library
       href: how-to-identify-symbols-in-a-library.md
 - name: Projects
   href: projects.md
   items:
-  - name: New Project Generation: Under the Hood, Part One
+  - name: "New Project Generation: Under the Hood, Part One"
     href: new-project-generation-under-the-hood-part-one.md
-  - name: New Project Generation: Under the Hood, Part Two
+  - name: "New Project Generation: Under the Hood, Part Two"
     href: new-project-generation-under-the-hood-part-two.md
   - name: Project Types
     href: project-types.md
@@ -204,7 +204,7 @@
       items:
       - name: Project Type Design Decisions
         href: project-type-design-decisions.md
-      - name: Checklist: Creating New Project Types
+      - name: "Checklist: Creating New Project Types"
         href: checklist-creating-new-project-types.md
       - name: Creating Project Instances By Using Project Factories
         href: creating-project-instances-by-using-project-factories.md
@@ -283,7 +283,7 @@
     - name: Nesting Projects
       href: nesting-projects.md
       items:
-      - name: How to: Implement Nested Projects
+      - name: Implement Nested Projects
         href: how-to-implement-nested-projects.md
       - name: Considerations for Unloading and Reloading Nested Projects
         href: considerations-for-unloading-and-reloading-nested-projects.md
@@ -363,7 +363,7 @@
       href: automation-support-for-options-pages.md
     - name: Providing Automation for Code
       href: providing-automation-for-code.md
-    - name: How to: Provide Automation for Windows
+    - name: Provide Automation for Windows
       href: how-to-provide-automation-for-windows.md
     - name: Using the Automation Model
       href: using-the-automation-model.md
@@ -425,7 +425,7 @@
     - name: Getting Started with Source Control Plug-ins
       href: getting-started-with-source-control-plug-ins.md
       items:
-      - name: How to: Install a Source Control Plug-in
+      - name: Install a Source Control Plug-in
         href: how-to-install-a-source-control-plug-in.md
       - name: What's New in the Source Control Plug-in API Version 1.3
         href: what-s-new-in-the-source-control-plug-in-api-version-1-3.md
@@ -447,21 +447,21 @@
     - name: Test Guide for Source Control Plug-ins
       href: test-guide-for-source-control-plug-ins.md
       items:
-      - name: Test Area 1: Add To-Open From Source Control
+      - name: "Test Area 1: Add To-Open From Source Control"
         href: test-area-1-add-to-open-from-source-control.md
-      - name: Test Area 2: Get From Source Control
+      - name: "Test Area 2: Get From Source Control"
         href: test-area-2-get-from-source-control.md
-      - name: Test Area 3: Check Out-Undo Checkout
+      - name: "Test Area 3: Check Out-Undo Checkout"
         href: test-area-3-check-out-undo-checkout.md
-      - name: Test Area 4: Check In
+      - name: "Test Area 4: Check In"
         href: test-area-4-check-in.md
-      - name: Test Area 5: Change Source Control
+      - name: "Test Area 5: Change Source Control"
         href: test-area-5-change-source-control.md
-      - name: Test Area 6: Delete
+      - name: "Test Area 6: Delete"
         href: test-area-6-delete.md
-      - name: Test Area 7: Share
+      - name: "Test Area 7: Share"
         href: test-area-7-share.md
-      - name: Test Area 8: Plug-in Switching
+      - name: "Test Area 8: Plug-in Switching"
         href: test-area-8-plug-in-switching.md
   - name: Creating a Source Control VSPackage
     href: creating-a-source-control-vspackage.md
@@ -562,7 +562,7 @@
     href: vspackage-registration.md
   - name: Deploying Project Types
     href: deploying-project-types.md
-  - name: How to: Generate Registry Information for an Installer
+  - name: Generate Registry Information for an Installer
     href: how-to-generate-registry-information-for-an-installer.md
   - name: Commands That Must Be Run After Installation
     href: commands-that-must-be-run-after-installation.md

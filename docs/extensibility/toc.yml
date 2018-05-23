@@ -1,10 +1,10 @@
 - name: Visual Studio SDK
   href: visual-studio-sdk.md
-- name: Installing the Visual Studio SDK
+- name: Install the Visual Studio SDK
   href: installing-the-visual-studio-sdk.md
-- name: Starting to Develop Visual Studio Extensions
+- name: Start to Develop Visual Studio Extensions
   href: starting-to-develop-visual-studio-extensions.md
-- name: Creating your First Extension: Hello World
+- name: "Create your First Extension: Hello World"
   href: extensibility-hello-world.md
 - name: What's New in the Visual Studio 2017 SDK
   href: what-s-new-in-the-visual-studio-2017-sdk.md
@@ -13,15 +13,15 @@
     href: breaking-changes-2017.md
   - name: Ngen support in VSIX v3
     href: ngen-support.md
-  - name: Installing outside the extensions folder
+  - name: Install outside the extensions folder
     href: set-install-root.md
   - name: Migrate debugger COM registration
     href: migrate-debugger-com-registration.md
   - name: Frequently Asked Questions
     href: faq-2017.md
-- name: How to: Migrate Extensibility Projects to Visual Studio 2017
+- name: Migrate Extensibility Projects to Visual Studio 2017
   href: how-to-migrate-extensibility-projects-to-visual-studio-2017.md
-- name: How to: Roundtrip Extensions for Visual Studio
+- name: Roundtrip Extensions for Visual Studio
   href: how-to-roundtrip-VSIXs.md
 - name: Language Server Protocol
   href: language-server-protocol.md
@@ -124,42 +124,42 @@
       href: editor-imports.md
     - name: Supporting EditorConfig
       href: supporting-editorconfig.md
-    - name: Walkthrough: Linking a Content Type to a File Name Extension
+    - name: "Walkthrough: Linking a Content Type to a File Name Extension"
       href: walkthrough-linking-a-content-type-to-a-file-name-extension.md
-    - name: Walkthrough: Creating a Margin Glyph
+    - name: "Walkthrough: Creating a Margin Glyph"
       href: walkthrough-creating-a-margin-glyph.md
-    - name: Walkthrough: Customizing the Text View
+    - name: "Walkthrough: Customizing the Text View"
       href: walkthrough-customizing-the-text-view.md
-    - name: Walkthrough: Creating a View Adornment, Commands, and Settings (Column Guides)
+    - name: "Walkthrough: Creating a View Adornment, Commands, and Settings (Column Guides)"
       href: walkthrough-creating-a-view-adornment-commands-and-settings-column-guides.md
-    - name: Walkthrough: Highlighting Text
+    - name: "Walkthrough: Highlighting Text"
       href: walkthrough-highlighting-text.md
-    - name: Walkthrough: Outlining
+    - name: "Walkthrough: Outlining"
       href: walkthrough-outlining.md
-    - name: Walkthrough: Displaying Matching Braces
+    - name: "Walkthrough: Displaying Matching Braces"
       href: walkthrough-displaying-matching-braces.md
-    - name: Walkthrough: Displaying QuickInfo Tooltips
+    - name: "Walkthrough: Displaying QuickInfo Tooltips"
       href: walkthrough-displaying-quickinfo-tooltips.md
-    - name: Walkthrough: Displaying Signature Help
+    - name: "Walkthrough: Displaying Signature Help"
       href: walkthrough-displaying-signature-help.md
-    - name: Walkthrough: Displaying Statement Completion
+    - name: "Walkthrough: Displaying Statement Completion"
       href: walkthrough-displaying-statement-completion.md
-    - name: Walkthrough: Implementing Code Snippets
+    - name: "Walkthrough: Implementing Code Snippets"
       href: walkthrough-implementing-code-snippets.md
-    - name: Walkthrough: Displaying Light Bulb Suggestions
+    - name: "Walkthrough: Displaying Light Bulb Suggestions"
       href: walkthrough-displaying-light-bulb-suggestions.md
-    - name: Walkthrough: Using a Shell Command with an Editor Extension
+    - name: "Walkthrough: Using a Shell Command with an Editor Extension"
       href: walkthrough-using-a-shell-command-with-an-editor-extension.md
-    - name: Walkthrough: Using a Shortcut Key with an Editor Extension
+    - name: "Walkthrough: Using a Shortcut Key with an Editor Extension"
       href: walkthrough-using-a-shortcut-key-with-an-editor-extension.md
-    - name: Walkthrough: Accessing the DTE Object from an Editor Extension
+    - name: "Walkthrough: Accessing the DTE Object from an Editor Extension"
       href: walkthrough-accessing-the-dte-object-from-an-editor-extension.md
   - name: Creating Custom Editors and Designers
     href: creating-custom-editors-and-designers.md
     items:
-    - name: Walkthrough: Creating a Custom Editor
+    - name: "Walkthrough: Creating a Custom Editor"
       href: walkthrough-creating-a-custom-editor.md
-    - name: Walkthrough: Adding Features to a Custom Editor
+    - name: "Walkthrough: Adding Features to a Custom Editor"
       href: walkthrough-adding-features-to-a-custom-editor.md
     - name: Designer Initialization and Metadata Configuration
       href: designer-initialization-and-metadata-configuration.md
@@ -174,17 +174,17 @@
         href: supporting-multiple-document-views.md
       - name: Simplified Embedding
         href: simplified-embedding.md
-      - name: How to: Attach Views to Document Data
+      - name: Attach Views to Document Data
         href: how-to-attach-views-to-document-data.md
       - name: Document Lock Holder Management
         href: document-lock-holder-management.md
       - name: Single and Multi-tab Views
         href: single-and-multi-tab-views.md
-      - name: How to: Open Project-Specific Editors
+      - name: Open Project-Specific Editors
         href: how-to-open-project-specific-editors.md
-      - name: How to: Open Standard Editors
+      - name: Open Standard Editors
         href: how-to-open-standard-editors.md
-      - name: How to: Open Editors for Open Documents
+      - name: Open Editors for Open Documents
         href: how-to-open-editors-for-open-documents.md
 - name: Extending Projects
   href: extending-projects.md
@@ -219,7 +219,7 @@
     href: upgrading-custom-project-and-item-templates-for-visual-studio-2017.md
   - name: Troubleshooting Template Discovery
     href: troubleshooting-template-discovery.md
-  - name: How to: Use Wizards with Project Templates
+  - name: Use Wizards with Project Templates
     href: how-to-use-wizards-with-project-templates.md
   - name: Visual Studio Template Schema Reference
     href: visual-studio-template-schema-reference.md
@@ -364,17 +364,17 @@
   - name: Creating a Custom Start Page
     href: creating-a-custom-start-page.md
     items:
-    - name: Walkthrough: Adding Custom XAML to the Start Page
+    - name: "Walkthrough: Adding Custom XAML to the Start Page"
       href: walkthrough-adding-custom-xaml-to-the-start-page.md
     - name: Adding User Control to the Start Page
       href: adding-user-control-to-the-start-page.md
     - name: Adding Visual Studio Commands to a Start Page
       href: adding-visual-studio-commands-to-a-start-page.md
-    - name: Walkthrough: Saving User Settings on a Start Page
+    - name: "Walkthrough: Saving User Settings on a Start Page"
       href: walkthrough-saving-user-settings-on-a-start-page.md
     - name: Deploying Custom Start Pages
       href: deploying-custom-start-pages.md
-  - name: How to: Use the Activity Log
+  - name: Use the Activity Log
     href: how-to-use-the-activity-log.md
 - name: Visual Studio User Experience Guidelines
   href: ux-guidelines/toc.yml
@@ -385,13 +385,13 @@
 - name: Using and Providing Services
   href: using-and-providing-services.md
   items:
-  - name: How to: Get a Service
+  - name: Get a Service
     href: how-to-get-a-service.md
-  - name: How to: Provide a Service
+  - name: Provide a Service
     href: how-to-provide-a-service.md
-  - name: How to: Provide an Asynchronous Visual Studio Service
+  - name: Provide an Asynchronous Visual Studio Service
     href: how-to-provide-an-asynchronous-visual-studio-service.md
-  - name: How to: Troubleshoot Services
+  - name: Troubleshoot Services
     href: how-to-troubleshoot-services.md
 - name: Managing VSPackages
   href: managing-vspackages.md
@@ -402,15 +402,15 @@
     href: registering-and-unregistering-vspackages.md
   - name: Loading VSPackages
     href: loading-vspackages.md
-  - name: How to: Managing Multiple Threads in Managed Code
+  - name: Managing Multiple Threads in Managed Code
     href: managing-multiple-threads-in-managed-code.md
-  - name: How to: Use AsyncPackage to Load VSPackages in the Background
+  - name: Use AsyncPackage to Load VSPackages in the Background
     href: how-to-use-asyncpackage-to-load-vspackages-in-the-background.md
-  - name: How to: Use Rule-based UI Context for Visual Studio Extensions
+  - name: Use Rule-based UI Context for Visual Studio Extensions
     href: how-to-use-rule-based-ui-context-for-visual-studio-extensions.md
-  - name: How to: Diagnose extension performance
+  - name: Diagnose extension performance
     href: how-to-diagnose-extension-performance.md
-  - name: How to: Diagnose UI delays caused by extensions
+  - name: Diagnose UI delays caused by extensions
     href: how-to-diagnose-ui-delays-caused-by-extensions.md
   - name: Troubleshooting VSPackages
     href: troubleshooting-vspackages.md
@@ -423,9 +423,9 @@
     href: vsix-project-template.md
   - name: Getting Started with the VSIX Project Template
     href: getting-started-with-the-vsix-project-template.md
-  - name: Walkthrough: Publishing a Visual Studio Extension
+  - name: "Walkthrough: Publishing a Visual Studio Extension"
     href: walkthrough-publishing-a-visual-studio-extension.md
-  - name: How to: Add a Dependency to a VSIX Package
+  - name: Add a Dependency to a VSIX Package
     href: how-to-add-a-dependency-to-a-vsix-package.md
   - name: Anatomy of a VSIX Package
     href: anatomy-of-a-vsix-package.md
@@ -441,7 +441,7 @@
     items:
     - name: VSIX Language Pack Schema 2.0 Reference
       href: vsix-language-pack-schema-2-0-reference.md
-  - name: How to: Update a Visual Studio Extension
+  - name: Update a Visual Studio Extension
     href: how-to-update-a-visual-studio-extension.md
   - name: Preparing Extensions for Windows Installer Deployment
     href: preparing-extensions-for-windows-installer-deployment.md
@@ -450,9 +450,9 @@
   - name: Private Galleries
     href: private-galleries.md
     items:
-    - name: How to: Create an Atom Feed for a Private Gallery
+    - name: Create an Atom Feed for a Private Gallery
       href: how-to-create-an-atom-feed-for-a-private-gallery.md
-    - name: How to: Manage a Private Gallery By Using Registry Settings
+    - name: Manage a Private Gallery By Using Registry Settings
       href: how-to-manage-a-private-gallery-by-using-registry-settings.md
   - name: Supporting Multiple Versions of Visual Studio
     href: supporting-multiple-versions-of-visual-studio.md
@@ -694,7 +694,7 @@
       href: restrictions-on-string-lengths.md
     - name: Source Control Plug-in Glossary
       href: source-control-plug-in-glossary.md
-    - name: How to: Turn Off Compatibility Warnings for Source Control Plug-ins
+    - name: Turn Off Compatibility Warnings for Source Control Plug-ins
       href: how-to-turn-off-compatibility-warnings-for-source-control-plug-ins.md
   - name: Command-Line Switches (Visual Studio SDK)
     href: command-line-switches-visual-studio-sdk.md
@@ -721,11 +721,11 @@
 - name: Creating a Software Development Kit
   href: creating-a-software-development-kit.md
   items:
-  - name: Walkthrough: Creating an SDK using C# or Visual Basic
+  - name: "Walkthrough: Creating an SDK using C# or Visual Basic"
     href: walkthrough-creating-an-sdk-using-csharp-or-visual-basic.md
-  - name: Walkthrough: Creating an SDK using C++
+  - name: "Walkthrough: Creating an SDK using C++"
     href: walkthrough-creating-an-sdk-using-cpp.md
-  - name: Walkthrough: Creating an SDK using JavaScript
+  - name: "Walkthrough: Creating an SDK using JavaScript"
     href: walkthrough-creating-an-sdk-using-javascript.md
 - name: .NET Compiler Platform ("Roslyn") Extensibility
   href: dotnet-compiler-platform-roslyn-extensibility.md
