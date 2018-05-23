@@ -855,7 +855,7 @@ ms.topic: hub-page
                 </a>
             </li>
             <li>
-                <a href="https://go.microsoft.com/fwlink/?linkid=833104">
+                <a href="https://go.microsoft.com/fwlink/?linkid=874480">
                     Issue Reporting
                 </a>
             </li>

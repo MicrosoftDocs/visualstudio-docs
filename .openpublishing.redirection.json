@@ -691,6 +691,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/debugger/how-to-debug-with-code-center-premium-source.md",
+            "redirect_url": "/visualstudio/debugger/index",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/deployment/installshield-limited-edition.md",
             "redirect_url": "/visualstudio/deployment/deploying-applications-services-and-components",
             "redirect_document_id": false

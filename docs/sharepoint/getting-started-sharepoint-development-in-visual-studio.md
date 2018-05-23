@@ -31,7 +31,6 @@ ms.workload:
 |-----------|-----------------|  
 |[Requirements for Developing SharePoint Solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md)|Lists software requirements to develop for SharePoint.|  
 |[Additional Information for SharePoint Errors](../sharepoint/additional-information-for-sharepoint-errors.md)|Describes where to find help during SharePoint development and troubleshooting.|  
-|||  
   
 ## Related Sections  
   

@@ -14,7 +14,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Walkthrough: Command-Line Profiling Using Sampling
+# Walkthrough: Command-line profiling using sampling
 
 This walkthrough demonstrates how to profile an application by using command-line tools and sampling to identify performance problems.
 
@@ -93,10 +93,10 @@ Sampling is a profiling method by which a specific process is periodically polle
         VSPerfReport <dir> PeopleTraxReport.vsp /output:<dir> /summary:all
         ```
 
-## See Also
+## See also
 
-[Performance Session Overview](../profiling/performance-session-overview.md)  
-[Profiling from the Command-Line](../profiling/using-the-profiling-tools-from-the-command-line.md)  
+[Performance session overview](../profiling/performance-session-overview.md)  
+[Profile from the command-line](../profiling/using-the-profiling-tools-from-the-command-line.md)  
 [VSPerfCmd](../profiling/vsperfcmd.md)  
-[Understanding Sampling Data Values](../profiling/understanding-sampling-data-values.md)  
-[Performance Report Views](../profiling/performance-report-views.md)
+[Understand sampling data values](../profiling/understanding-sampling-data-values.md)  
+[Performance report views](../profiling/performance-report-views.md)

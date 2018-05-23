@@ -21,7 +21,7 @@ ms.workload:
   
 ## Syntax  
   
-```  
+```xml  
 <SafeControl Assembly = "Name of assembly that contains the safe control"  
     IsSafe = "true/false"  
     IsSafeAgainstScript = "true/false"  

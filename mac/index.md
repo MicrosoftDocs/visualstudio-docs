@@ -23,7 +23,7 @@ This article surveys various sections of Visual Studio for Mac, providing a look
 
 ## Installation
 
-Follow the steps in the [Installation](~/installation.md) guide to download and Install Visual Studio for Mac.
+Follow the steps in the [Installation](installation.md) guide to download and Install Visual Studio for Mac.
 
 ## Language support
 
@@ -114,8 +114,8 @@ For more information, see the [Xamarin Inspector](https://developer.xamarin.com/
 
 ## Next steps
 
-* **Get the tour** - To get an overview of many of the major features in Visual Studio for Mac, see the Visual Studio for Mac [IDE Tour](~/ide-tour.md).
-* **Set up** - To learn about how to download and install Visual Studio, see the [Installation](~/installation.md) guide.
+* **Get the tour** - To get an overview of many of the major features in Visual Studio for Mac, see the Visual Studio for Mac [IDE Tour](ide-tour.md).
+* **Set up** - To learn about how to download and install Visual Studio, see the [Installation](installation.md) guide.
 * **Xamarin Tutorials** - To learn more about how to develop code with Xamarin, go to the Xamarin [Developer Center](https://developer.xamarin.com).
 * **Videos** - To learn more about other features and aspects of Visual Studio for Mac, check out videos on the [Xamarin University](https://university.xamarin.com) website.
 * **Hands-on Labs** - To get started working with the various workloads included in Visual Studio for Mac, check out the [hands-on labs](https://github.com/Microsoft/vs4mac-labs).
