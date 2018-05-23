@@ -140,7 +140,7 @@ Visual Studio does not have a solution template for creating native UI applicati
     {  
         public class DataService  
         {  
-            public static async Task<dynamic> getDataFromService(string queryString)  
+            public static async Task<dynamic> GetDataFromService(string queryString)  
             {  
                 HttpClient client = new HttpClient();  
                 var response = await client.GetAsync(queryString);  
