@@ -101,7 +101,7 @@
         href: how-to-configure-the-clickonce-trust-prompt-behavior.md
       - name: Sign Setup Files with SignTool.exe (ClickOnce)
         href: how-to-sign-setup-files-with-signtool-exe-clickonce.md
-    - name: Publishing ClickOnce Applications
+    - name: Publish ClickOnce Applications
       href: publishing-clickonce-applications.md
       items:
       - name: Creating ClickOnce Applications for Others to Deploy
@@ -162,38 +162,38 @@
         items:
         - name: Disable URL Activation of ClickOnce Applications
           href: how-to-disable-url-activation-of-clickonce-applications.md
-      - name: Use ClickOnce to Deploy Applications That Can Run on Multiple Versions of the .NET Framework
+      - name: Deploy Apps That Can Run on Multiple Versions of the .NET Framework
         href: how-to-use-clickonce-to-deploy-applications-that-can-run-on-multiple-versions-of-the-dotnet-framework.md
       - name: Publish a WPF Application with Visual Styles Enabled
         href: how-to-publish-a-wpf-application-with-visual-styles-enabled.md
-      - Name: Walkthrough - Download Assemblies on Demand with the ClickOnce Deployment API Using the Designer
+      - Name: "Walkthrough: Download Assemblies on Demand Using the Designer"
         href: walkthrough-downloading-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer.md
         items:
-        - Name: Walkthrough - Download Assemblies on Demand with the ClickOnce Deployment API
+        - Name: "Walkthrough: Download Assemblies on Demand"
           href: walkthrough-downloading-assemblies-on-demand-with-the-clickonce-deployment-api.md
-      - Name: Walkthrough - Download Satellite Assemblies on Demand with the ClickOnce Deployment API Using the Designer
+      - Name: "Walkthrough: Download Satellite Assemblies on Demand Using the Designer"
         href: walkthrough-downloading-satellite-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer.md
-      - Name: Walkthrough - Manually Deploy a ClickOnce Application
+      - Name: "Walkthrough: Manually Deploy a ClickOnce Application"
         href: walkthrough-manually-deploying-a-clickonce-application.md
         items:
-        - Name: Walkthrough - Manually Deploy a ClickOnce Application that Does Not Require Re-Signing and that Preserves Branding Information
+        - Name: "Walkthrough: Manually Deploy an App that Does Not Require Re-Signing"
           href: walkthrough-manually-deploying-a-clickonce-app-no-re-signing-required.md
-      - Name: Walkthrough - Download Satellite Assemblies on Demand with the ClickOnce Deployment API
+      - Name: "Walkthrough: Download Satellite Assemblies on Demand"
         href: walkthrough-downloading-satellite-assemblies-on-demand-with-the-clickonce-deployment-api.md
-      - Name: Walkthrough - Create a Custom Installer for a ClickOnce Application
+      - Name: "Walkthrough: Create a Custom Installer"
         href: walkthrough-creating-a-custom-installer-for-a-clickonce-application.md
-    - name: Choosing a ClickOnce Update Strategy
+    - name: Choose a ClickOnce Update Strategy
       href: choosing-a-clickonce-update-strategy.md
       items:
       - name: How ClickOnce Performs Application Updates
         href: how-clickonce-performs-application-updates.md
-      - name: Check for Application Updates Programmatically Using the ClickOnce Deployment API
+      - name: Check for Application Updates Programmatically
         href: how-to-check-for-application-updates-programmatically-using-the-clickonce-deployment-api.md
       - name: Specify an Alternate Location for Deployment Updates
         href: how-to-specify-an-alternate-location-for-deployment-updates.md
     - name: ClickOnce Deployment Samples and Walkthroughs
       href: clickonce-deployment-samples-and-walkthroughs.md
-    - name: Troubleshooting ClickOnce Deployments
+    - name: Troubleshoot ClickOnce Deployments
       href: troubleshooting-clickonce-deployments.md
       items:
       - name: Set a Custom Log File Location for ClickOnce Deployment Errors
@@ -204,11 +204,11 @@
         href: server-and-client-configuration-issues-in-clickonce-deployments.md
       - name: Security, Versioning, and Manifest Issues in ClickOnce Deployments
         href: security-versioning-and-manifest-issues-in-clickonce-deployments.md
-      - name: Troubleshooting Specific Errors in ClickOnce Deployments
+      - name: Troubleshoot Specific Errors in ClickOnce Deployments
         href: troubleshooting-specific-errors-in-clickonce-deployments.md
-      - name: Debugging ClickOnce Applications That Use System.Deployment.Application
+      - name: Debug ClickOnce Applications That Use System.Deployment.Application
         href: debugging-clickonce-applications-that-use-system-deployment-application.md
-  - name: Application deployment prerequisites
+  - name: Application Deployment Prerequisites
     href: application-deployment-prerequisites.md
     items:
     - name: Deploy Prerequisites for 64-bit Applications
@@ -221,7 +221,7 @@
       href: how-to-create-a-package-manifest.md
     - name: Create a localized bootstrapper package
       href: how-to-create-a-localized-bootstrapper-package.md
-    - Name: Walkthrough - Create a custom bootstrapper with a privacy prompt
+    - Name: "Walkthrough: Create a custom bootstrapper with a privacy prompt"
       href: walkthrough-creating-a-custom-bootstrapper-to-show-a-privacy-prompt.md
     - name: Product and Package Schema Reference
       href: product-and-package-schema-reference.md
