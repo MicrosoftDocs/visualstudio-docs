@@ -23,7 +23,7 @@ Nesting of related files in **Solution Explorer** is not new, but until now you 
 
 * **Default**: This option gives you the default file nesting behavior in **Solution Explorer**. If no settings exist for a given project type, then no nesting happens for the project. If there are settings, for example, a Web project, nesting is applied.
 
-* **Web**: This option applies the **Web** file nesting behavior to all the projects in the current solution. It has a lot of rules, and we encourage you to check it out and tell us what you think. The following screenshot highlights just a few examples of the file nesting behavior that you get with this option:
+* **Web**: This option applies the **Web** file nesting behavior to all the projects in the current solution. It has numerous rules, and we encourage you to check it out and tell us what you think. The following screenshot highlights just a few examples of the file nesting behavior that you get with this option:
 
    ![File nesting in Solution Explorer](media/filenesting.png)
 
@@ -123,7 +123,7 @@ You can manage all settings, including your own custom settings, through the sam
 
 You can create solution-specific and project-specific settings through the context menu of each solution and project:
 
-![Solution and project specific nesting rules](media/filenesting_solutionprojectspecific.png)
+![Solution and project-specific nesting rules](media/filenesting_solutionprojectspecific.png)
 
 Solution-specific and project-specific settings are **combined** with the active Visual Studio settings. Don’t be surprised, for example, if you have a blank project-specific settings file, yet **Solution Explorer** is still nesting files. The nesting behavior is coming from either the solution-specific settings or the Visual Studio settings. The precedence for merging file nesting settings is: Visual Studio > Solution > Project.
 
