@@ -105,7 +105,7 @@ After the app deploys successfully, it should start automatically. If the app do
     > [!NOTE]
     > If you choose a Release configuration, you disable debugging in the *web.config* file when you publish.
 
-1. Click **Save**.
+1. Click **Save** and then republish the app.
 
 ## (Optional) Deploy by publishing to a local folder
 
