@@ -14,7 +14,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Caller / Callee view - sampling data
+# Caller/Callee view - sampling data
 The Caller/Callee view displays profiling information for a selected function and its parent and child functions. The Caller/Callee view contains three grids.  
   
  **Current function** is displayed in the middle grid, and it shows profiling information for the selected function. The values include all sampled calls to the function.  
