@@ -115,3 +115,17 @@ To add an alternate account:
 ![Alternate Account](_img\manage-vs-subscriptions\alternate-account-resized.png)
 
 Once you have added an alternate account, you can update or remove it at any time by clicking the **Subscriptions** tab and choosing the appropriate option in the **Related Links** section.  
+
+## Frequently asked questions   
+### Q: If I do not renew my subscription, how long will Microsoft keep my data?
+A: Depending on the purchasing channel, Microsoft maintains customer data for different lengths of time.
+
+| Channel                                                | Duration (days) |
+|--------------------------------------------------------|-----------------|
+|    Retail (e.g. thru Microsoft Store)                  |    360          |
+|    Volume Licensing Service Center (VLSC)              |    180          |
+|    Microsoft Products and Services Agreement (MPSA)    |    180          |
+|    Visual Studio Cloud Subscriptions                   |    180          |
+|    Program (e.g. MCT, BizSpark, MPN, Imagine)          |    180          |
+|    Not For Resale (e.g. MVP, MSP)                      |    180          |
+|    DevEssentials                                       |    30           |
