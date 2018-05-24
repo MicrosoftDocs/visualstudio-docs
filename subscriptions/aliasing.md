@@ -44,25 +44,26 @@ Please follow these steps to add a new subscriber with a directory account.
 1. Visit the [Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/default.aspx) (VLSC) and sign in.
 2. From the VLSC Admin page, click **Subscriptions** and then **Visual Studio Subscriptions**.
 
-    ![Subscriptions Menu](_img//vlsc/vlsc-subscriptions.png)
+    <img alt="Subscriptions menu" src="_img//vlsc/vlsc-subscriptions.png" style="border: 1px solid #CCCCCC" />
 
 3. Click the **Agreement Number** associated with the Visual Studio Subscription.
 
-    ![Select Agreement](_img/vlsc/vlsc-agreement.png)
+    <img alt="Select agreement" src="_img/vlsc/vlsc-agreement.png" style="border: 1px solid #CCCCCC" />
 
 4. Click **Assign Subscription**.
 
-    ![Assign Subscription](_img/vlsc/vlsc-assign.png)
+    <img alt="Assign subscription" src="_img/vlsc/vlsc-assign.png" style="border: 1px solid #CCCCCC" />
+
 
 5. Select the desired **Subscription Level**.
 
-    ![Subscription Level](_img/vlsc/vlsc-subscription-level.png)
-    
+    <img alt="Subscription level" src="_img/vlsc/vlsc-subscription-level.png" style="border: 1px solid #CCCCCC" /> 
+
 6. Validate you have subscriptions available to assign, and click **Next**.
 7.  Enter the subscriber details and directory address in the Email Address field, and click **Next**.
 
-    ![Email Address](_img/vlsc/vlsc-email-address.png)
-    
+    <img alt="Email address" src="_img/vlsc/vlsc-email-address.png" style="border: 1px solid #CCCCCC" /> 
+        
 8. Validate the subscriber information, and click **Finish**.
 
 9. Notify the subscriber that their subscription has been provisioned by using the below [template](#notifying-your-subscribers-with-directory-addresses).
