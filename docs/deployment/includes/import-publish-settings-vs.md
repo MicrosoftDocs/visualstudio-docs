@@ -13,6 +13,6 @@
 
     Visual Studio begins the deployment process, and the Output window shows progress and results.
 
-    If you get an any deployment errors, click **Settings** to edit settings. Modify settings and click **Validate** to test new settings.
+    If you get an any deployment errors, click **Settings** to edit settings. Modify settings and click **Validate** to test new settings. If the host name is not found, try the IP address instead of the host name in the **Server** and **Destination URL** fields.
 
     ![Edit settings in the Publish tool](../../deployment/media/tutorial-configure-publish-settings-in-tool.png)
