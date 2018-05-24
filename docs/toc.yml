@@ -1058,7 +1058,7 @@
   - name: Customer Experience Improvement Program
     href: ide/visual-studio-experience-improvement-program.md
     items:
-    - name: Diagnostic information collected by Visual Studio
+    - name: System-generated logs
       href: ide/diagnostic-data-collection.md
   - name: Resources for troubleshooting IDE errors
     href: ide/reference/resources-for-troubleshooting-integrated-development-environment-errors.md
