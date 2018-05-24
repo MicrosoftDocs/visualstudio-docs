@@ -17,11 +17,11 @@ This topic describes how to create a new XML Schema (XSD) file and then add cont
 
 ## To create a new XML Schema file
 
-1. In Visual Studio, open the **File** menu and select **New** > **File**. Or, use the CTRL+N keyboard shortcut.
+1. In Visual Studio, open the **File** menu and select **New** > **File**. Or, use the **Ctrl**+**N** keyboard shortcut.
 
 2. In the **New File** dialog box, select **XML Schema** and then select **Open**.
 
-   A new file is created. The Start View and an empty XML Schema Explorer window appear in Visual Studio.
+   A new file is created. The Start View and an empty **XML Schema Explorer** window appear in Visual Studio.
 
 ## To edit a file
 
@@ -29,10 +29,10 @@ This topic describes how to create a new XML Schema (XSD) file and then add cont
 
    The XML Editor appears with the new file open.
 
-2. Copy the XML Schema sample code from [Purchase Order Schema](../xml-tools/sample-xsd-file-simple-schema.md) and paste it to replace the code that was added to the new XSD file by default.
+2. Copy the XML Schema sample code from [Purchase order schema](../xml-tools/sample-xsd-file-simple-schema.md) and paste it to replace the code that was added to the new XSD file by default.
 
-   The XML Schema Explorer is updated with the new schema set.
+   The **XML Schema Explorer** is updated with the new schema set.
 
 ## See also
 
-- [Working with XML Data](../xml-tools/working-with-xml-data.md)
+- [Working with XML data](../xml-tools/working-with-xml-data.md)

@@ -111,7 +111,7 @@ In this tutorial, you will:
 
 1. In *Program.cs*, replace the default code with the following code:
 
-    ```c#
+    ```csharp
     using System;
     using System.Runtime.InteropServices;
     
@@ -178,7 +178,7 @@ In most versions of Visual Studio 2017, you must enable mixed mode debugging for
 
 1. In the C# project, open *Program.cs* and set a breakpoint in the following line of code by clicking in the left margin:
 
-    ```c#
+    ```csharp
     int result = Multiply(7, 7);
     ```
 
