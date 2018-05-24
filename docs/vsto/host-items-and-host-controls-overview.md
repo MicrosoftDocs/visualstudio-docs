@@ -107,7 +107,7 @@ ms.workload:
   
  ![Relationship between host items and host controls](../vsto/media/hostitemscontrols.png "Relationship between host items and host controls")  
   
- You can also use Windows Forms controls in your Office solutions by adding them directly to the Word and Excel document surface. For more information, see [Windows forms controls on Office documents overview](../vsto/windows-forms-controls-on-office-documents-overview.md).  
+ You can also use Windows Forms controls in your Office solutions by adding them directly to the Word and Excel document surface. For more information, see [Windows Forms controls on Office documents overview](../vsto/windows-forms-controls-on-office-documents-overview.md).  
   
 > [!NOTE]  
 >  Adding host controls or Windows Forms controls to a Word subdocument is not supported.  

@@ -137,7 +137,7 @@ ms.workload:
  ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Manage task panes in Word VSTO Add-ins?](http://go.microsoft.com/fwlink/?LinkId=136781).  
   
 ##  <a name="Outlook"></a> Outlook  
- When you create a custom task pane for Outlook, the custom task pane is associated with a specific Explorer or Inspector window. Explorers are windows that display the contents of a folder, and Inspectors are windows that display an item such as an e-mail message or a task.  
+ When you create a custom task pane for Outlook, the custom task pane is associated with a specific Explorer or Inspector window. Explorers are windows that display the contents of a folder, and Inspectors are windows that display an item such as an email message or a task.  
   
  If you want to display a custom task pane with multiple Explorer or Inspector windows, you need to create a new instance of the custom task pane when an Explorer or Inspector window opens. To do this, handle an event that is raised when an Explorer or Inspector window is created, and then create the task pane in the event handler. You can also handle Explorer and Inspector events to hide or display task panes depending on which window is visible.  
   
@@ -218,4 +218,4 @@ ms.workload:
  [How to: Add a custom task pane to an application](../vsto/how-to-add-a-custom-task-pane-to-an-application.md)   
  [Walkthrough: Automate an application from a custom task pane](../vsto/walkthrough-automating-an-application-from-a-custom-task-pane.md)   
  [Walkthrough: Synchronize a custom task pane with a Ribbon button](../vsto/walkthrough-synchronizing-a-custom-task-pane-with-a-ribbon-button.md)   
- [Walkthrough: Display custom task panes with e-mail messages in Outlook](../vsto/walkthrough-displaying-custom-task-panes-with-e-mail-messages-in-outlook.md)  
+ [Walkthrough: Display custom task panes with email messages in Outlook](../vsto/walkthrough-displaying-custom-task-panes-with-e-mail-messages-in-outlook.md)  
