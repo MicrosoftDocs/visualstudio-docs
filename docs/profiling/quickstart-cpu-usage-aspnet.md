@@ -44,13 +44,13 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
 
 1. In Solution Explorer, open `Models/Data.cs` and add the following `using` statement to the top of the file:
 
-    ```cs
+    ```csharp
     using System.Threading;
     ```
 
 1. In Data.cs, replace the following code:
 
-    ```cs
+    ```csharp
     public class Data
     {
     }
@@ -58,7 +58,7 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
 
     with this code:
 
-    ```cs
+    ```csharp
     public class ServerClass
     {
         const int MIN_ITERATIONS = int.MaxValue / 1000;
@@ -128,7 +128,7 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
 
 1. In Solution Explorer, open Controller/HomeControllers.cs, and replace the following code:
 
-    ```cs
+    ```csharp
     public ActionResult About()
     {
         ViewBag.Message = "Your application description page.";
@@ -139,7 +139,7 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
 
     with this code:
 
-    ```cs
+    ```csharp
     public ActionResult About()
     {
         Models.Simple s = new Models.Simple();
