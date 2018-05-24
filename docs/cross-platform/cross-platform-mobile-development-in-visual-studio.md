@@ -29,7 +29,7 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 |--------------------|
 |[Install Visual Studio](http://www.visualstudio.com/products/visual-studio-community-vs) (VisualStudio.com)|
 |[Learn about Xamarin in Visual Studio](http://www.visualstudio.com/explore/xamarin-vs) (VisualStudio.com)|
-|[Xamarin documentation](/xamarin/) |
+|[Xamarin mobile app development documentation](/xamarin/) |
 |[Application Lifecycle Management (ALM) with Xamarin apps](../cross-platform/application-lifecycle-management-alm-with-xamarin-apps.md) |
 |[Learn about Universal Windows apps in Visual Studio](https://www.visualstudio.com/vs/universal-windows-platform/) (VisualStudio.com)|
 |[Learn about the similarities between Swift and C#](http://aka.ms/scposter) (download.microsoft.com)|
@@ -60,7 +60,8 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 
 |**Learn more**|
 |--------------------|
-|Choose whether to share your code by using .NET Standard, shared projects, or both.<br /><br /> [Sharing Code Options](/xamarin/cross-platform/app-fundamentals/code-sharing/) (Xamarin)<br /><br /> [Code sharing options with .NET](/dotnet/standard/cross-platform/) |
+|[Sharing Code Options](/xamarin/cross-platform/app-fundamentals/code-sharing/) (Xamarin) |
+|[Code sharing options with .NET](/dotnet/standard/cross-platform/) |
 
 ###  <a name="WindowsHTML"></a> Target Windows 10 devices
 
@@ -103,7 +104,9 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 |[Get started with Visual Studio Tools for Apache Cordova](/visualstudio/cross-platform/tools-for-cordova/) (docs.microsoft.com)|
 |[Learn about the Visual Studio Emulator for Android](http://www.visualstudio.com/explore/msft-android-emulator-vs) (VisualStudio.com)|
 
-##  <a name="CPP"></a> Build an app for Android and Windows (C++)
+<a name="CPP"></a>
+
+## Build an app for Android and Windows (C++)
  ![Use C&#43;&#43; to build for Android, iOS, and Windows](../cross-platform/media/cross_plat_cpp_intro_image.png "Cross_Plat_CPP_Intro_Image")
 
  First, install Visual Studio 2017 and the **Mobile Development with C++** workload. Then, you can build a native activity application for Android or an app that targets Windows. C++ templates that target iOS are not yet available. You can target Android and Windows in the same solution if you want, and then share code between them by using a cross-platform static or dynamic shared library.
@@ -134,7 +137,9 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 |[Cross-platform mobile development examples for C++](https://msdn.microsoft.com/library/dn707596.aspx) (MSDN Library)|
 |[Additional cross-platform mobile development examples for C++](https://code.msdn.microsoft.com/site/search?f%5B0%5D.Type=SearchText&f%5B0%5D.Value=android&f%5B1%5D.Type=ProgrammingLanguage&f%5B1%5D.Value=C%2B%2B&f%5B1%5D.Text=C%2B%2B) (code.msdn)|
 
-##  <a name="Unity"></a> Build a cross-platform game for Android, iOS, and Windows by using Visual Studio tools for Unity
+<a name="Unity"></a>
+
+## Build a cross-platform game for Android, iOS, and Windows by using Visual Studio tools for Unity
 
  Visual Studio Tools for Unity is a free extension for Visual Studio that integrates Visual Studio's powerful code editing, productivity, and debugging tools with *Unity*, the popular cross-platform gaming/graphics engine and development environment for immersive apps that target Windows, iOS, Android, and other platforms including the web.
 
