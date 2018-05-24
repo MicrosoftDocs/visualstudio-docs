@@ -61,9 +61,9 @@ ms.workload:
   
 ## See also  
  [Ribbon overview](../vsto/ribbon-overview.md)   
- [Ribbon designer](../vsto/ribbon-designer.md)   
+ [Ribbon Designer](../vsto/ribbon-designer.md)   
  [Ribbon XML](../vsto/ribbon-xml.md)   
  [How to: Get started customize the Ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md)   
- [Walkthrough: Create a custom tab by using the Ribbon designer](../vsto/walkthrough-creating-a-custom-tab-by-using-the-ribbon-designer.md)  
+ [Walkthrough: Create a custom tab by using the Ribbon Designer](../vsto/walkthrough-creating-a-custom-tab-by-using-the-ribbon-designer.md)  
   
   
