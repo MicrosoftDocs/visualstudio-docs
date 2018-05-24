@@ -18,4 +18,4 @@ When a subscriber no longer requires a Visual Studio subscription, such as when 
 2.	To delete the selected subscriber(s), click **Delete**. 
 3.  When the message appears asking you to confirm the deletion, click **OK**. 
 
-![Delete Subscribers](_img\delete-license\delete-subscribers.png)
+    <img alt="Delete subscribers" src="_img\delete-license\delete-subscribers.png" style="border: 1px solid #CCCCCC" />
