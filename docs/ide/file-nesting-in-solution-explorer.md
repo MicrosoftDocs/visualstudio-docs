@@ -1,27 +1,32 @@
 ---
-title: File nesting in Solution Explorer
+title: File nesting rules for Solution Explorer
 ms.date: 05/25/2018
 ms.topic: conceptual
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
+helpviewer_keywords:
+ - "file nesting"
+ - "Solution Explorer, file nesting"
 author: angelosp
 ms.author: angelpe
 manager: douge
 ---
-# File nesting in Solution Explorer
+# Customize file nesting in Solution Explorer
 
 Nesting of related files in **Solution Explorer** is not new, but until now you had no control over the nesting rules. You can choose between the presets **Off**, **Default** and **Web**, but you can also customize the nesting exactly to your liking. You can even create solution-specific and project-specific settings, but more on all of that later. First let’s go over what you get out-of-the-box.
 
-> ![NOTE]
-> The feature is currently only supported by ASP.NET Core projects.
+> [!NOTE]
+> The feature is currently only supported for ASP.NET Core projects.
 
-## What you get out of the box
+## File nesting options
 
 ![Button for turning file nesting on/off](media/filenesting_onoff.png)
 
-* **Off**: This option gives you a flat list of files without any file nesting.
+The available options for non-customized file nesting are:
 
-* **Default**: This option gives you the default file nesting behavior in **Solution Explorer**. If no settings exist for a given project type, then no nesting happens for the project. If there are settings, for example, a Web project, nesting is applied.
+* **Off**: This option gives you a flat list of files without any nesting.
+
+* **Default**: This option gives you the default file nesting behavior in **Solution Explorer**. If no settings exist for a given project type, then no files in the project are nested. If settings exist, for example, for a Web project, nesting is applied.
 
 * **Web**: This option applies the **Web** file nesting behavior to all the projects in the current solution. It has numerous rules, and we encourage you to check it out and tell us what you think. The following screenshot highlights just a few examples of the file nesting behavior that you get with this option:
 
@@ -29,7 +34,7 @@ Nesting of related files in **Solution Explorer** is not new, but until now you 
 
 ## Customize file nesting
 
-If you don’t like what you get out-of-the-box, you can create your own, custom file nesting settings that instruct **Solution Explorer** how to nest files to your liking. You can add as many custom file nesting settings as you like, and you can switch between them as desired. To create a new custom setting, you can start with either an empty file or the **Web** settings as your starting point:
+If you don’t like what you get out-of-the-box, you can create your own, custom file nesting settings that instruct **Solution Explorer** how to nest files. You can add as many custom file nesting settings as you like, and you can switch between them as desired. To create a new custom setting, you can start with an empty file, or you can use the **Web** settings as your starting point:
 
 ![Add custom file nesting rules](media/filenesting_addcustom.png)
 
@@ -37,9 +42,9 @@ We recommend you use **Web** settings as your starting point because it’s easi
 
 ![Use existing file nesting rules as the basis for custom settings](media/filenesting_editcustom.png)
 
-Let’s focus on the node **dependentFileProvider** and its child nodes. Each child node is a type of rule that Visual Studio can use to nest files. For example, **having the same filename, but a different extension** is one type of rule. The available rules are:
+Let’s focus on the node **dependentFileProviders** and its child nodes. Each child node is a type of rule that Visual Studio can use to nest files. For example, **having the same filename, but a different extension** is one type of rule. The available rules are:
 
-* **extensionToExtension**: Use this type of rule to nest *file.js* nest under *file.ts*
+* **extensionToExtension**: Use this type of rule to nest *file.js* under *file.ts*
 
 * **fileSuffixToExtension**: Use this type of rule to nest *file-vsdoc.js* under *file.js*
 
@@ -47,27 +52,27 @@ Let’s focus on the node **dependentFileProvider** and its child nodes. Each ch
 
 * **pathSegment**: Use this type of rule to nest *jquery.min.js* under *jquery.js*
 
-* **allExtensions**: Use this type of rule to nest *file.\** under *file.js*
+* **allExtensions**: Use this type of rule to nest *file.** under *file.js*
 
 * **fileToFile**: Use this type of rule to nest *bower.json* under *.bowerrc*
 
 ### The extensionToExtension provider
 
-This provider lets you define file nesting rules using filename extensions. Let's take a look at an example:
+This provider lets you define file nesting rules using specific file extensions. Consider the following example:
 
 ![extentionToExtension example rules](media/filenesting_extensiontoextension.png) ![extentionToExtension example effect](media/filenesting_extensiontoextension_effect.png)
 
 * *cart.js* is nested under *cart.ts* because of the first **extensionToExtension** rule
 
-* *cart.js* is not nested under *cart.tsx* because \*.ts comes before \*.tsx in the rules, and there can only be one parent
+* *cart.js* is not nested under *cart.tsx* because **.ts** comes before **.tsx** in the rules, and there can only be one parent
 
 * *light.css* is nested under *light.sass* because of the second **extensionToExtension** rule
 
-* *home.html* is nested under *home.md* because of the second **extensionToExtension** rule
+* *home.html* is nested under *home.md* because of the third **extensionToExtension** rule
 
 ### The fileSuffixToExtension provider
 
-This provider works just like the **extensionToExtension** provider, with the only difference being that the rule looks at the suffix of the file instead of just the extension. Let's take a look at an example:
+This provider works just like the **extensionToExtension** provider, with the only difference being that the rule looks at the suffix of the file instead of just the extension. Consider the following example:
 
 ![fileSuffixToExtension example rules](media/filenesting_filesuffixtoextension.png) ![fileSuffixToExtension example effect](media/filenesting_filesuffixtoextension_effect.png)
 
@@ -77,15 +82,15 @@ This provider works just like the **extensionToExtension** provider, with the on
 
 ### The addedExtension provider
 
-This provider nests files with an additional extension under the file without an additional extension. The additional extension can only appear at the end of the full filename. Let's take a look at an example:
+This provider nests files with an additional extension under the file without an additional extension. The additional extension can only appear at the end of the full filename. Consider the following example:
 
 ![addedExtension example rules](media/filenesting_addedextension.png) ![addedExtension example effect](media/filenesting_addedextension_effect.png)
 
-* **file.html.css** is nested under **file.html** because of the addedExtension rule
+* *file.html.css* is nested under *file.html* because of the **addedExtension** rule
 
 ### The pathSegment provider
 
-This provider nests files with an additional extension under a file without an additional extension. The additional extension can only appear at the middle of the full filename. Let's take a look at an example:
+This provider nests files with an additional extension under a file without an additional extension. The additional extension can only appear at the middle of the full filename. Consider the following example:
 
 ![pathSegment example rules](media/filenesting_pathsegment.png) ![pathSegment example effect](media/filenesting_pathsegment_effect.png)
 
@@ -93,7 +98,7 @@ This provider nests files with an additional extension under a file without an a
 
 ### The allExtensions provider
 
-This provider lets you define file nesting rules for files with any extension but the same base file name. Let's take a look at an example:
+This provider lets you define file nesting rules for files with any extension but the same base file name. Consider the following example:
 
 ![allExtensions example rules](media/filenesting_allextensions.png) ![allExtensions example effect](media/filenesting_allextensions_effect.png)
 
@@ -101,7 +106,7 @@ This provider lets you define file nesting rules for files with any extension bu
 
 ### The fileToFile provider
 
-This provider lets you define file nesting rules based on entire filenames. Let's take a look at an example:
+This provider lets you define file nesting rules based on entire filenames. Consider the following example:
 
 ![fileToFile example rules](media/filenesting_filetofile.png) ![fileToFile example effect](media/filenesting_filetofile_effect.png)
 
@@ -109,9 +114,9 @@ This provider lets you define file nesting rules based on entire filenames. Let'
 
 ### Rule order
 
-Ordering is important in every part of your custom settings file. You can change the order in which rules are executed by moving them up or down inside of the dependentFileProvider node. For example, if you have one rule that makes **file.js** the parent of **file.ts** and another rule that makes **file.coffee** the parent of **file.ts**, the order in which they appear in the file dictates the nesting behavior when all three files are present. Since **file.ts** can only have one parent, whichever rule executes first wins.
+Ordering is important in every part of your custom settings file. You can change the order in which rules are executed by moving them up or down inside of the **dependentFileProvider** node. For example, if you have one rule that makes **file.js** the parent of **file.ts** and another rule that makes **file.coffee** the parent of **file.ts**, the order in which they appear in the file dictates the nesting behavior when all three files are present. Since **file.ts** can only have one parent, whichever rule executes first wins.
 
-Ordering is also important for rule sections themselves, not just for files within a section. As soon as a pair of files is matched with a file nesting rule, other rules down the line are ignored and the next pair of files is processed.
+Ordering is also important for rule sections themselves, not just for files within a section. As soon as a pair of files is matched with a file nesting rule, other rules further down in the file are ignored, and the next pair of files is processed.
 
 ### File nesting button
 
@@ -125,17 +130,17 @@ You can create solution-specific and project-specific settings through the conte
 
 ![Solution and project-specific nesting rules](media/filenesting_solutionprojectspecific.png)
 
-Solution-specific and project-specific settings are **combined** with the active Visual Studio settings. Don’t be surprised, for example, if you have a blank project-specific settings file, yet **Solution Explorer** is still nesting files. The nesting behavior is coming from either the solution-specific settings or the Visual Studio settings. The precedence for merging file nesting settings is: Visual Studio > Solution > Project.
+Solution-specific and project-specific settings are combined with the active Visual Studio settings. For example, you may have a blank project-specific settings file, but **Solution Explorer** is still nesting files. The nesting behavior is coming from either the solution-specific settings or the Visual Studio settings. The precedence for merging file nesting settings is: Visual Studio > Solution > Project.
 
 You can tell Visual Studio to ignore solution-specific and project-specific settings, even if the files exist on disk, by enabling the option **Ignore solution and project settings** under **Tools** > **Options** > **ASP.NET Core** > **File Nesting**.
 
-You can do the opposite and tell Visual Studio to **only use** the solution-specific or the project-specific settings. If you set the **root** node to **true**, Visual Studio stops merging files at that level and doesn't combine it with files higher up the hierarchy.
+You can do the opposite and tell Visual Studio to *only* use the solution-specific or the project-specific settings, by setting the **root** node to **true**. Visual Studio stops merging files at that level and doesn't combine it with files higher up the hierarchy.
 
 Solution-specific and project-specific settings can be checked into source control, and the entire team that works on the codebase can share them.
 
 ## Disable global file nesting rules for a particular solution or project
 
-You can disable existing global file nesting rules for specific solutions or projects by using the **remove** action for the providers instead of **add**. For example, if you add the following settings code to a project, all **pathSegment** rules that may exist globally for this specific project are disabled:
+You can disable existing global file nesting rules for specific solutions or projects by using the **remove** action for a provider instead of **add**. For example, if you add the following settings code to a project, all **pathSegment** rules that may exist globally for this specific project are disabled:
 
 ```json
 "dependentFileProviders": {
@@ -144,8 +149,6 @@ You can disable existing global file nesting rules for specific solutions or pro
   }
 }
 ```
-
-![Disable global file nesting rules for specific solution or project](media/filenesting_remove.png)
 
 ## See also
 
