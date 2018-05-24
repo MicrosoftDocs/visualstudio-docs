@@ -44,7 +44,7 @@ You can use the name or location of the project in the project file itself witho
  The following example project file references the project name as a reserved property to specify the name for the output.  
   
 ```xml  
-<Project xmlns="http://scheams.microsoft.com/developer/msbuild/2003"   
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003"   
     DefaultTargets = "Compile">  
   
     <!-- Specify the inputs -->  
