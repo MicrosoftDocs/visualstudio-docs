@@ -12,7 +12,7 @@ ms.workload:
 ---
 # System-generated logs collected by Visual Studio
 
-Visual Studio collects system-generated logs to fix problems and improve the quality of the product through the [Visual Studio Experience Improvement Program](visual-studio-experience-improvement-program.md). This article provides some information about the types of data we collect and how we use it. It also provides tips on how extension authors can avoid inadvertent disclosure of personal or sensitive information.
+Visual Studio collects system-generated logs to fix problems and improve the quality of the product through the [Visual Studio Customer Experience Improvement Program](visual-studio-experience-improvement-program.md). This article provides some information about the types of data we collect and how we use it. It also provides tips on how extension authors can avoid inadvertent disclosure of personal or sensitive information.
 
 ## Types of collected data
 
@@ -68,5 +68,5 @@ Given the purpose of the data we collect and the constraints on its access and r
 
 ## See also
 
-- [Visual Studio Experience Improvement Program](visual-studio-experience-improvement-program.md)
+- [Visual Studio Customer Experience Improvement Program](visual-studio-experience-improvement-program.md)
 - [Diagnostics, feedback, and privacy in Windows 10](https://privacy.microsoft.com/windows-10-feedback-diagnostics-and-privacy)
