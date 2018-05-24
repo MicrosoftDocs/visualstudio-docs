@@ -11,7 +11,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Editing XSLT Style Sheets
+# Edit XSLT Style Sheets
 
 The XML Editor can also be used to edit XSLT style sheets. You can take advantage of the default Editor features such as IntelliSense, outlining, XML snippets, and so on. In addition, there are also new features that make it easier to develop in XSLT.
 
@@ -24,7 +24,7 @@ The XML Editor can also be used to edit XSLT style sheets. You can take advantag
 
  **Wavy underlines**
 
- The XML Editor uses the installed xslt.xsd file to validate XSLT style sheets. Validation errors are shown as blue wavy underlines. The XML Editor also compiles the style sheet in the background and reports compiler errors or warnings with appropriate wavy underlines.
+ The XML Editor uses the installed xslt.*xsd* file to validate XSLT style sheets. Validation errors are shown as blue wavy underlines. The XML Editor also compiles the style sheet in the background and reports compiler errors or warnings with appropriate wavy underlines.
 
  **Support for script blocks**
 
@@ -32,12 +32,12 @@ The XML Editor can also be used to edit XSLT style sheets. You can take advantag
 
  **View XSLT output**
 
- You can execute an XSL transformation and view the output from the XML Editor. For more information, see [How to: Execute an XSLT Transformation from the XML Editor](../xml-tools/how-to-execute-an-xslt-transformation-from-the-xml-editor.md).
+ You can execute an XSL transformation and view the output from the XML Editor. For more information, see [How to: Execute an XSLT transformation from the XML Editor](../xml-tools/how-to-execute-an-xslt-transformation-from-the-xml-editor.md).
 
  **Debug XSLT**
 
  You can launch the XSLT debugger from an XSLT file in the XML Editor. The debugger supports setting breakpoints in the XSLT file, viewing XSLT execution state, and so on. Hovering over an XSLT variable brings up a ToolTip with the value of the variable. The debugger can be used to debug a style sheet, or to debug a compiled XSL transformation invoked from another application. For more information, see [Debugging XSLT](../xml-tools/debugging-xslt.md).
 
-## See Also
+## See also
 
 - [XML Editor](../xml-tools/xml-editor.md)
