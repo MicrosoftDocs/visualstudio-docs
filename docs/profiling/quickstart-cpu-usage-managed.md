@@ -35,7 +35,7 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
 
 2. Open Program.cs and replace all the code with the following code:
 
-    ```cs
+    ```csharp
     using System;
     using System.Threading;
     public class ServerClass

@@ -32,7 +32,7 @@ The Visual Studio debugger provides many powerful features to help you debug you
 
 4. In Program.cs or Module1.vb, replace the following code
 
-    ```c#
+    ```csharp
     class Program
     {
         static void Main(string[] args)
@@ -50,7 +50,7 @@ The Visual Studio debugger provides many powerful features to help you debug you
 
     with this code:
 
-    ```c#
+    ```csharp
     class Program
     {
         private static void doWork()
