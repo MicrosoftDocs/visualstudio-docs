@@ -1,5 +1,5 @@
 
-1. Close and re-open the IIS Management Console to show updated configuration options in the UI.
+1. Close and reopen the IIS Management Console to show updated configuration options in the UI.
 
 1. In IIS, right-click the **Default Web Site**, choose **Deploy** > **Configure Web Deploy Publishing**.
 
@@ -9,7 +9,7 @@
 
 1. Click **Setup**.
 
-    In the **Results** panel, the output shows that access rights have been granted to the specified user, and that a file with a *.publishsettings* file extension has been generated in the location shown in the dialog box.
+    In the **Results** panel, the output shows that access rights are granted to the specified user, and that a file with a *.publishsettings* file extension has been generated in the location shown in the dialog box.
 
     ```xml
     <?xml version="1.0" encoding="utf-8"?>
@@ -26,14 +26,14 @@
     </publishData>
     ```
 
-    Depending on your Windows Server and IIS configuration, you will see different values. Here are a few details about the values that you see:
+    Depending on your Windows Server and IIS configuration, you see different values in the XML file. Here are a few details about the values that you see:
 
-    * The *msdeploy.axd* file referenced in the `publishUrl` attribute is a dynamically-generated HTTP handler file for Web Deploy. (For testing purposes, `http://myhostname:8172` will generally work as well.)
-    * The `publishUrl` port is usually set to port 8172, which is the default for Web Deploy.
-    * The `destinationAppUrl` port is usually set to port 80, which is the default for IIS.
+    * The *msdeploy.axd* file referenced in the `publishUrl` attribute is a dynamically generated HTTP handler file for Web Deploy. (For testing purposes, `http://myhostname:8172` generally works as well.)
+    * The `publishUrl` port is set to port 8172, which is the default for Web Deploy.
+    * The `destinationAppUrl` port is set to port 80, which is the default for IIS.
     * If you are unable to connect to the remote host in Visual Studio using the host name (in later steps), test the IP address in place of the host name.
 
     > [!NOTE]
-    > If you are publishing to IIS running on an Azure VM, the Web Deploy and IIS ports must be opened in the Network Security group. For detailed information, see [Install and run IIS](/azure/virtual-machines/windows/quick-create-portal#open-port-80-for-web-traffic).
+    > If you are publishing to IIS running on an Azure VM, you must open the Web Deploy and IIS ports in the Network Security group. For detailed information, see [Install and run IIS](/azure/virtual-machines/windows/quick-create-portal#open-port-80-for-web-traffic).
 
 1. Copy this file to the computer where you are running Visual Studio.
