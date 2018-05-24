@@ -18,7 +18,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 
 It's usually better to use a .NET Standard library rather than a Shared project for this common code. The .NET Standard library includes those .NET APIs that can run on all target platforms.  
 
-Here's the application that you'll build. It's running (from left to write) on iOS and Android phones, and the Universal Windows Platform (UWP) of Windows 10:
+Here's the application that you'll build. It's running (from left to right) on iOS and Android phones, and the Universal Windows Platform (UWP) of Windows 10:
   
 [![The Weather App sample on iOS, Android, and UWP](../cross-platform/media/crossplat-xamarin-formsguide-1.png "CrossPlat Xamarin FormsGuide 1")](../cross-platform/media/crossplat-xamarin-formsguide-1-Large.png#lightbox)
   

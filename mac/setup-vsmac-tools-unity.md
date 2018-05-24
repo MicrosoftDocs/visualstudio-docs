@@ -16,7 +16,7 @@ Download and install Visual Studio for Mac. All editions of Visual Studio for Ma
 
 * Download Visual Studio for Mac from [visualstudio.com](https://www.visualstudio.com/).
 * Visual Studio for Mac Tools for Unity are installed automatically during the installation process.
-* Follow the steps in the [installation guide](/visualstudio/mac/installation) for additional installation help.
+* Follow the steps in the [installation guide](installation.md) for additional installation help.
 
 ## Confirm that the Visual Studio for Mac Tools for Unity extension is enabled
 

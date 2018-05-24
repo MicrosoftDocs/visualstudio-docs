@@ -102,13 +102,11 @@ ms.workload:
   
 3.  At the top of the dialog box, choose **.NET Framework 3.5** in the list of versions of the .NET Framework.  
   
-4.  
-  
-5.  In the list of project templates, choose **Class Library**, name the project **WebPartCommands**, and then choose the **OK** button.  
+4.  In the list of project templates, choose **Class Library**, name the project **WebPartCommands**, and then choose the **OK** button.  
   
      [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] adds the **WebPartCommands** project to the solution and opens the default Class1 code file.  
   
-6.  Delete the Class1 code file from the project.  
+5.  Delete the Class1 code file from the project.  
   
 ## Configuring the Projects  
  Before you write code to create the extension, you must add code files and assembly references, and configure the project settings.  

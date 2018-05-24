@@ -13,7 +13,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Understanding Resource Contention Data Values
+# Understand resource contention data values
 
 Resource contention profiling collects detailed call stack information each time competing threads in an application are forced to wait for access to a shared resource.
 
@@ -25,8 +25,8 @@ Resource contention reports display the total number of contentions and the tota
 
 Resource contention report views also include timeline graphs that show the individual contention events over time and show the call stacks that created the particular event. For more information, see one of the following topics:
 
-- [Thread Details View](../profiling/thread-details-view-contention-data.md)
+- [Thread details view](../profiling/thread-details-view-contention-data.md)
 
-- [Resource Details View](../profiling/resource-details-view-contention-data.md)
+- [Resource details view](../profiling/resource-details-view-contention-data.md)
 
 For more information about the second mode of concurrency profiling, see [Concurrency Visualizer](../profiling/concurrency-visualizer.md).
