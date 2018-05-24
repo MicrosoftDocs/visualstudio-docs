@@ -129,3 +129,7 @@ A: Depending on the purchasing channel, Microsoft maintains customer data for di
 |    Program (e.g. MCT, BizSpark, MPN, Imagine)          |    180          |
 |    Not For Resale (e.g. MVP, MSP)                      |    180          |
 |    DevEssentials                                       |    30           |
+
+> [!NOTE]
+> - If you choose to close your Microsoft Account or Azure AD, your personal data will be anonymized immediately.  
+> - We will not fully remove all your personal data if you have active subscriptions. 
