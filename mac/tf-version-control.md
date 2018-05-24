@@ -9,12 +9,12 @@ ms.technology: vs-ide-general
 ms.assetid: 52D3D26A-4D01-4FD1-AAA1-AE7D7BD39746
 ---
 
+> [!NOTE]
+> **Note**: Team Foundation Version Control support is currently in preview and some functionality is not yet fully working. We'd love feedback from you on any issues at [Developer Community](https://developercommunity.visualstudio.com/spaces/41/index.html). More changes are still to come!
+
 # Connecting to Team Foundation version control 
 
 Visual Studio Team Services (VSTS) and Team Foundation Server (TFS) provide two models of version control: Git, which is distributed version control, and Team Foundation Version Control (TFVC), which is centralized version control. This article provides an overview and a starting point for using Team Foundation Version Control with Visual Studio for Mac.
-
-> [!NOTE]
-> **Note**: Team Foundation Version Control support is currently in preview and some functionality is not yet fully working. More changes still to come!
 
 ## Requirements
 
