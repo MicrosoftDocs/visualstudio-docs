@@ -44,7 +44,7 @@ First, create a Node.js web application project.
 
 1. Open Visual Studio 2017.
 
-1. From the top menu bar, choose **File** > **New** > **Project...**.
+1. From the top menu bar, choose **File** > **New** > **Project**.
 
 1. In the **New Project** dialog box, in the left pane, expand **JavaScript**, and then choose **Node.js**. In the middle pane, choose **Blank Node.js Web Application**, type the name **NodejsWebAppBlank**, and then choose **OK**.
 
@@ -224,7 +224,7 @@ In the previous steps, you added *webpack-config.js* to the project. Next, you a
 
     The webpack configuration code instructs Webpack to use the TypeScript loader to transpile the JSX.
 
-1. Open tsconfig.json and replace the default code with the following code, which specifies the TypeScript compiler options:
+1. Open *tsconfig.json* and replace the default code with the following code, which specifies the TypeScript compiler options:
 
     ```json
     {
@@ -246,7 +246,7 @@ In the previous steps, you added *webpack-config.js* to the project. Next, you a
     }
     ```
 
-    app.tsx is specified as the source file.
+    *app.tsx* is specified as the source file.
 
 ## Transpile the JSX
 
@@ -326,7 +326,7 @@ In the preceding section, you attached the debugger to server-side Node.js code.
 
     ![Set a breakpoint](../nodejs/media/tutorial-nodejs-react-set-breakpoint-client-code.png)
 
-1. With Chrome selected as the debug target in Visual Studio, press **Ctrl + F5** (**Debug** > **Start Without Debugging**) to run the app in the browser.
+1. With Chrome selected as the debug target in Visual Studio, press **Ctrl**+**F5** (**Debug** > **Start Without Debugging**) to run the app in the browser.
 
     The app opens in a new browser tab.
 
@@ -341,7 +341,7 @@ In the preceding section, you attached the debugger to server-side Node.js code.
     You know the debugger has attached correctly when the DOM Explorer and the JavaScript Console open in Visual Studio. These debugging tools are similar to Chrome Developer Tools and F12 Tools for Edge.
 
     > [!NOTE]
-    > If the debugger does not attach and you see the message "Unable to attach to the process. An operation is not legal in the current state." then use the Task Manager to close all instances of Chrome before starting Chrome in debugging mode. Chrome Extensions may be running and preventing full debug mode.
+    > If the debugger does not attach and you see the message "Unable to attach to the process. An operation is not legal in the current state.", use the Task Manager to close all instances of Chrome before starting Chrome in debugging mode. Chrome Extensions may be running and preventing full debug mode.
 
 1. Because the code with the breakpoint already executed, refresh your browser page to hit the breakpoint.
 
@@ -363,4 +363,4 @@ In the preceding section, you attached the debugger to server-side Node.js code.
 In this tutorial, you learned how to create a Node.js and React app, transpile JSX, and debug. To learn more about Node.js Tools for Visual Studio, see the Wiki page.
 
 > [!div class="nextstepaction"]
-> [Node.js Tools for Visual Studio](https://github.com/Microsoft/nodejstools)
+> [Node.js tools for Visual Studio](https://github.com/Microsoft/nodejstools)

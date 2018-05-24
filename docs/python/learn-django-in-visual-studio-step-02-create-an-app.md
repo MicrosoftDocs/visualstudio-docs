@@ -202,7 +202,7 @@ The following steps demonstrate the use of page templates:
         )
     ```
 
-    The first argument to `render`, as you can see, is the request object, followed by the relative path to the template file within the app's `templates` folder. A template file is named for the view is supports, if appropriate. The third argument to `render` is then a dictionary of variables that the template refers to. You can include objects in the dictionary, in which case a variable in the template can refer to `{{ object.property }}`.
+    The first argument to `render`, as you can see, is the request object, followed by the relative path to the template file within the app's `templates` folder. A template file is named for the view it supports, if appropriate. The third argument to `render` is then a dictionary of variables that the template refers to. You can include objects in the dictionary, in which case a variable in the template can refer to `{{ object.property }}`.
 
 1. Run the project and observe the output. You should see a similar message to that seen step 2-2, indicating that the template works.
 

@@ -1,0 +1,417 @@
+- name: Visual Studio testing tools
+  href: improve-code-quality.md
+- name: Testing scenarios
+  href: developer-testing-scenarios.md
+- name: Unit testing
+  href: unit-test-your-code.md
+  items:
+  - name: Getting started
+    href: getting-started-with-unit-testing.md
+  - name: Unit test basics
+    href: unit-test-basics.md
+  - name: Create a unit test project
+    href: create-a-unit-test-project.md
+  - name: Create Unit Tests command
+    href: create-unit-tests-menu.md
+  - name: IntelliTest
+    href: generate-unit-tests-for-your-code-with-intellitest.md
+    items:
+    - name: Overview
+      href: intellitest-manual/introduction.md
+    - name: Getting started
+      href: intellitest-manual/getting-started.md
+    - name: Index to sections
+      href: intellitest-manual/index.md
+    - name: Test generation
+      href: intellitest-manual/test-generation.md
+    - name: Dynamic symbolic execution
+      href: intellitest-manual/input-generation.md
+    - name: Exploration bounds
+      href: intellitest-manual/exploration-bounds.md
+    - name: Attribute glossary
+      href: intellitest-manual/attribute-glossary.md
+    - name: Settings waterfall
+      href: intellitest-manual/settings-waterfall.md
+    - name: Static helper classes
+      href: intellitest-manual/static-helper-classes.md
+    - name: Warnings and errors
+      href: intellitest-manual/warnings-and-errors.md
+  - name: Install third-party unit test frameworks
+    href: install-third-party-unit-test-frameworks.md
+  - name: Run unit tests with Test Explorer
+    href: run-unit-tests-with-test-explorer.md
+    items:
+    - name: Test Explorer FAQ
+      href: test-explorer-faq.md
+  - name: Run a unit test as a 64-bit process
+    href: run-a-unit-test-as-a-64-bit-process.md
+  - name: Configure unit tests by using a .runsettings file
+    href: configure-unit-tests-by-using-a-dot-runsettings-file.md
+  - name: Write Unit Tests for Managed Code
+    items:
+    - name: "Walkthrough: Creating and Running Unit Tests for Managed Code"
+      href: walkthrough-creating-and-running-unit-tests-for-managed-code.md
+    - name: "Quickstart: Test Driven Development with Test Explorer"
+      href: quick-start-test-driven-development-with-test-explorer.md
+    - name: Use Microsoft.VisualStudio.TestTools.UnitTesting Members in Unit Tests
+      href: using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md
+    - name: Use the Assert Classes
+      href: using-the-assert-classes.md
+    - name: Isolate Code Under Test with Microsoft Fakes
+      href: isolating-code-under-test-with-microsoft-fakes.md
+      items:
+      - name: Use stubs to isolate parts of your application from each other for unit testing
+        href: using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing.md
+      - name: Use shims to isolate your application from other assemblies for unit testing
+        href: using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md
+      - name: Code generation, compilation, and naming conventions in Microsoft Fakes
+        href: code-generation-compilation-and-naming-conventions-in-microsoft-fakes.md
+    - name: Create a Data-Driven Unit Test
+      href: how-to-create-a-data-driven-unit-test.md
+      items:
+      - name: "Walkthrough: Using a Configuration File to Define a Data Source"
+        href: walkthrough-using-a-configuration-file-to-define-a-data-source.md
+    - name: Unit tests for Generic Methods
+      href: unit-tests-for-generic-methods.md
+    - name: Configure Unit Tests to Target An Earlier Version of the .NET Framework
+      href: how-to-configure-unit-tests-to-target-an-earlier-version-of-the-dotnet-framework.md
+    - name: Sample Project for Creating Unit Tests
+      href: sample-project-for-creating-unit-tests.md
+  - name: Write Unit tests for C/C++ Code
+    href: writing-unit-tests-for-c-cpp.md
+    items:
+    - name: Use the Microsoft Unit Testing Framework for C++
+      href: how-to-use-microsoft-test-framework-for-cpp.md
+    - name: Use Google C++ Testing Framework
+      href: how-to-use-google-test-for-cpp.md
+    - name: Use Boost.Test
+      href: how-to-use-boost-test-for-cpp.md
+    - name: Use CTest
+      href: how-to-use-ctest-for-cpp.md
+    - name: Write unit tests for C/C++ DLLs
+      href: how-to-write-unit-tests-for-cpp-dlls.md
+    - name: "Walkthrough: Writing Unit tests for C++ DLLs"
+      href: walkthrough-writing-unit-tests-for-cpp-dlls.md
+    - name: Microsoft Unit Testing Framework for C++ API Reference
+      href: microsoft-visualstudio-testtools-cppunittestframework-api-reference.md
+  - name: Create and run unit tests for UWP apps
+    items:
+    - name: Unit testing a C++ UWP DLL
+      href: unit-testing-a-visual-cpp-dll-for-store-apps.md
+    - name: Unit testing Visual C# code in UWP apps
+      href: unit-testing-visual-csharp-code-in-a-store-app.md
+    - name: "Walkthrough: Creating and Running Unit Tests for UWP apps"
+      href: walkthrough-creating-and-running-unit-tests-for-windows-store-apps.md
+  - name: Use Code Coverage to Determine How Much Code is being Tested
+    href: using-code-coverage-to-determine-how-much-code-is-being-tested.md
+    items:
+    - name: Customize Code Coverage Analysis
+      href: customizing-code-coverage-analysis.md
+    - name: Troubleshoot Code Coverage
+      href: troubleshooting-code-coverage.md
+  - name: Use emulators to isolate unit tests for Sharepoint 2010 applications
+    href: using-emulators-to-isolate-unit-tests-for-sharepoint-2010-applications.md
+- name: Live unit testing
+  href: live-unit-testing-intro.md
+  items:
+  - name: What's new in Live Unit Testing
+    href: live-unit-testing-whats-new.md
+  - name: Get started with Live Unit Testing
+    href: live-unit-testing-start.md
+  - name: Use Live Unit Testing in Visual Studio 2017 Enterprise Edition
+    href: live-unit-testing.md
+  - name: Live Unit Testing FAQ
+    href: live-unit-testing-faq.md
+- name: Web performance and load testing
+  items:
+  - name: "Quickstart: Create a load test project"
+    href: quickstart-create-a-load-test-project.md
+  - name: Configure load tests
+    href: edit-load-tests.md
+    items:
+    - name: Edit scenarios
+      href: edit-load-test-scenarios.md
+      items:
+      - name: Scenario properties
+        href: load-test-scenario-properties.md
+      - name: Test mix
+        href: edit-the-test-mix-in-a-load-test-scenario.md
+      - name: Test mix model
+        href: emulate-real-world-usage-of-a-web-site-in-a-load-test-using-test-mix-models.md
+        items:
+        - name: Edit test mix models
+          href: edit-test-mix-models-to-specify-the-probability-of-a-virtual-user-running-a-test.md
+      - name: Browser mix
+        href: edit-the-test-mix-to-specify-which-web-browsers-types-in-a-load-test-scenario.md
+      - name: Network mix
+        href: specify-virtual-network-types-in-a-load-test-scenario.md
+      - name: Think profile
+        href: edit-think-times-in-load-test-scenarios.md
+      - name: Load patterns
+        href: edit-load-patterns-to-model-virtual-user-activities.md
+        items:
+        - name: Step ramp time property
+          href: how-to-specify-the-step-ramp-time-property-for-a-step-load-pattern.md
+      - name: Start delays
+        href: configure-scenario-start-delays.md
+      - name: Test iterations
+        href: configure-test-iterations-in-a-load-test-scenario.md
+      - name: Percentage of new users
+        href: how-to-specify-the-percentage-of-virtual-users-that-use-web-cache-data.md
+      - name: Pacing delay distribution
+        href: how-to-apply-distribution-to-pacing-delay-when-using-a-user-pace-test-mix-model.md
+    - name: Edit counter sets
+      href: specify-counter-sets-and-threshold-rules-for-load-testing.md
+      items:
+      - name: Add counters
+        href: how-to-add-counters-to-counter-sets-using-the-load-test-editor.md
+      - name: Custom counter sets
+        href: how-to-add-custom-counter-sets-using-the-load-test-editor.md
+      - name: Add computer tags to counter set mappings
+        href: how-to-add-computer-tags-to-counter-set-mappings-using-the-load-test-editor.md
+      - name: Manage counter sets
+        href: how-to-manage-counter-sets-using-the-load-test-editor.md
+      - name: Add a threshold rule
+        href: how-to-add-a-threshold-rule-using-the-load-test-editor.md
+    - name: Edit run settings
+      href: configure-load-test-run-settings.md
+      items:
+      - name: Run settings properties
+        href: load-test-run-settings-properties.md
+      - name: Add additional run settings
+        href: how-to-add-additional-run-settings-to-a-load-test.md
+      - name: Context parameters
+        href: how-to-add-context-parameters-to-a-load-test-run-setting.md
+      - name: Logging settings
+        href: modify-load-test-logging-settings.md
+        items:
+        - name: Maximum log size
+          href: how-to-specify-the-maximum-size-for-the-log-file.md
+        - name: Save frequency
+          href: how-to-specify-how-frequently-test-logs-are-saved.md
+        - name: Failed tests
+          href: how-to-specify-if-test-failures-are-saved-to-test-logs.md
+      - name: Timing details storage
+        href: how-to-specify-the-timing-details-storage-property-for-a-load-test.md
+        items:
+        - name: Collect full details
+          href: how-to-configure-load-tests-to-collect-full-details.md
+      - name: Test iterations
+        href: how-to-specify-the-number-of-test-iterations-in-a-load-test.md
+      - name: Sample rate
+        href: how-to-specify-the-sample-rate-for-a-load-test.md
+      - name: Select a run setting
+        href: how-to-select-the-active-run-setting-for-a-load-test.md
+        items:
+        - name: Command line
+          href: how-to-select-a-load-test-run-setting-from-the-command-line.md
+  - name: "Walkthrough: Create and run a load test"
+    href: walkthrough-create-and-run-a-load-test.md
+  - name: Web performance tests
+    items:
+    - name: Create a web service test
+      href: how-to-create-a-web-service-test.md
+    - name: Generate a coded Web performance test
+      href: generate-and-run-a-coded-web-performance-test.md
+    - name: Add a data source to a Web performance test
+      href: add-a-data-source-to-a-web-performance-test.md
+    - name: Dynamic parameters
+      href: fix-non-detectable-dynamic-parameters-in-a-web-performance-test.md
+  - name: Test controllers and test agents
+    href: configure-test-agents-and-controllers-for-load-tests.md
+    items:
+    - name: Requirements
+      href: test-controller-and-test-agent-requirements-for-load-testing.md
+    - name: Manage test controllers and test agents
+      href: manage-test-controllers-and-test-agents.md
+    - name: How to specify test agents
+      href: how-to-specify-test-agents-to-use-in-load-test-scenarios.md
+    - name: Assign roles
+      href: assign-roles-to-a-test-controller-and-test-agent.md
+    - name: Configure ports
+      href: configure-ports-for-test-controllers-and-test-agents.md
+    - name: Bind to a network adapter
+      href: how-to-bind-a-test-controller-or-test-agent-to-a-network-adapter.md
+    - name: Run tests that interact with the desktop
+      href: how-to-set-up-your-test-agent-to-run-tests-that-interact-with-the-desktop.md
+    - name: Timeout periods
+      href: how-to-specify-timeout-periods-for-test-controllers-and-test-agents.md
+    - name: Troubleshoot
+      href: troubleshoot-test-controllers-and-test-agents.md
+  - name: Customize load tests
+    items:
+    - name: Load test API
+      href: how-to-use-the-load-test-api.md
+    - name: Web performance test API
+      href: how-to-use-the-web-performance-test-api.md
+    - name: Create a custom extraction rule
+      href: code-a-custom-extraction-rule-for-a-web-performance-test.md
+    - name: Create a custom validation rule
+      href: code-a-custom-validation-rule-for-a-web-performance-test.md
+    - name: Create custom code and plug-ins
+      href: create-custom-code-and-plug-ins-for-load-tests.md
+      items:
+      - name: Create a Web performance test plug-in
+        href: how-to-create-a-web-performance-test-plug-in.md
+      - name: Create a request level plug-in
+        href: how-to-create-a-request-level-plug-in.md
+      - name: Create a load test plug-in
+        href: how-to-create-a-load-test-plug-in.md
+      - name: Create a recorder plug-in
+        href: how-to-create-a-recorder-plug-in.md
+      - name: Create a custom HTTP body editor
+        href: how-to-create-a-custom-http-body-editor-for-the-web-performance-test-editor.md
+  - name: Diagnostics for load tests
+    items:
+    - name: Create a diagnostic data adapter
+      href: create-a-diagnostic-data-adapter-to-collect-custom-data-or-affect-a-test-machine.md
+      items:
+      - name: How to create
+        href: how-to-create-a-diagnostic-data-adapter.md
+      - name: How to install
+        href: how-to-install-a-custom-diagnostic-data-adapter.md
+      - name: Create a custom editor
+        href: how-to-create-a-custom-editor-for-data-for-your-diagnostic-data-adapter.md
+      - name: Sample project
+        href: sample-project-for-creating-a-diagnostic-data-adapter.md
+    - name: Collect diagnostics using test settings
+      href: collect-diagnostic-information-using-test-settings.md
+      items:
+      - name: Create test settings
+        href: how-to-create-a-test-setting-for-a-distributed-load-test.md
+      - name: Configure ASP.NET profiler
+        href: how-to-configure-aspnet-profiler-for-load-tests-using-test-settings.md
+      - name: Configure network emulation
+        href: how-to-configure-network-emulation-using-test-settings-in-visual-studio.md
+    - name: Collect IntelliTrace data
+      href: how-to-collect-intellitrace-data-to-help-debug-difficult-issues.md
+    - name: Screen and voice recordings
+      href: how-to-include-recordings-of-the-screen-and-voice-during-tests.md
+    - name: Prevent timeouts for diagnostic data adapters
+      href: how-to-prevent-time-outs-for-diagnostic-data-adapters.md
+  - name: Analyze results
+    href: analyze-load-test-results-using-the-load-test-analyzer.md
+    items:
+    - name: Access results
+      href: how-to-access-load-test-results-for-analysis.md
+    - name: Summary overview
+      href: load-test-results-summary-overview.md
+    - name: Tables view
+      href: analyze-load-test-results-and-errors-in-the-tables-view.md
+      items:
+      - name: Web page response time
+        href: how-to-view-web-page-response-time-in-a-load-test.md
+    - name: Graphs view
+      href: analyze-load-test-results-in-the-graphs-view.md
+      items:
+      - name: Add and delete counters
+        href: how-to-add-and-delete-counters-on-graphs-in-load-test-results.md
+      - name: Create custom graphs
+        href: how-to-create-custom-graphs-in-load-test-results.md
+      - name: Plot options
+        href: how-to-specify-plot-options-for-graphing-counters.md
+      - name: Use the legend
+        href: use-the-graphs-view-legend-to-analyze-load-tests.md
+      - name: How to zoom in
+        href: how-to-zoom-in-on-a-region-of-the-graph-in-load-test-results.md
+    - name: Details view
+      href: analyze-load-test-virtual-user-activity-in-the-details-view.md
+      items:
+      - name: Analyze virtual user activity
+        href: how-to-analyze-virtual-user-activity-during-a-load-test.md
+      - name: "Walkthrough: Use the activity chart"
+        href: walkthrough-use-the-virtual-user-activity-chart-to-isolate-issues.md
+    - name: Counters panel
+      href: counters-panel-in-load-test-analyzer.md
+      items:
+      - name: Analyze errors
+        href: how-to-analyze-errors-using-the-counters-panel.md
+      - name: Analyze threshold violations
+        href: how-to-analyze-threshold-violations-using-the-counters-panel.md
+    - name: Threshold rule violations
+      href: analyze-threshold-rule-violations-in-load-tests.md
+    - name: View data and diagnostic attachments
+      href: how-to-view-data-and-diagnostic-attachments-using-the-load-test-analyzer.md
+    - name: Compare results and analyze trends
+      href: compare-load-test-results.md
+    - name: Add comments to a load test result
+      href: how-to-add-comments-on-a-completed-load-test.md
+    - name: Create a report in Excel
+      href: how-to-create-load-test-performance-reports-using-microsoft-excel.md
+    - name: Create a report in Word
+      href: how-to-manually-create-a-load-test-performance-report-using-microsoft-word.md
+    - name: Results repositories
+      href: manage-load-test-results-in-the-load-test-results-repository.md
+      items:
+      - name: Select a repository
+        href: how-to-select-a-load-test-results-repository.md
+      - name: Import results
+        href: how-to-import-load-test-results-into-a-repository.md
+      - name: Export results
+        href: how-to-export-load-test-results-from-a-repository.md
+      - name: Delete results
+        href: how-to-delete-load-test-results-from-a-repository.md
+    - name: Create an add-in for the results viewer
+      href: how-to-create-an-add-in-for-the-web-performance-test-results-viewer.md
+- name: Use UI automation to test your code
+  href: use-ui-automation-to-test-your-code.md
+  items:
+  - name: "Walkthrough: Creating, Editing and Maintaining a Coded UI Test"
+    href: walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md
+  - name: Test Windows UWP Apps with Coded UI Tests
+    href: test-windows-store-8-1-apps-with-coded-ui-tests.md
+  - name: Test Windows UWP and 8.1 Phone Apps with Coded UI Tests
+    href: test-windows-phone-8-1-apps-with-coded-ui-tests.md
+  - name: Set a Unique Automation Property for UWP Controls for Testing
+    href: set-a-unique-automation-property-for-windows-store-controls-for-testing.md
+  - name: Use HTML5 Controls in Coded UI Tests
+    href: using-html5-controls-in-coded-ui-tests.md
+  - name: Test SharePoint 2010 Applications with Coded UI Tests
+    href: testing-sharepoint-2010-applications-with-coded-ui-tests.md
+  - name: Create a Data-Driven Coded UI Test
+    href: creating-a-data-driven-coded-ui-test.md
+  - name: Make Coded UI Tests Wait For Specific Events During Playback
+    href: making-coded-ui-tests-wait-for-specific-events-during-playback.md
+  - name: Use Different Web Browsers with Coded UI Tests
+    href: using-different-web-browsers-with-coded-ui-tests.md
+  - name: Edit Coded UI Tests Using the Coded UI Test Editor
+    href: editing-coded-ui-tests-using-the-coded-ui-test-editor.md
+  - name: Analyze Coded UI Tests Using Coded UI Test Logs
+    href: analyzing-coded-ui-tests-using-coded-ui-test-logs.md
+  - name: Anatomy of a Coded UI Test
+    href: anatomy-of-a-coded-ui-test.md
+  - name: Best Practices for Coded UI Tests
+    href: best-practices-for-coded-ui-tests.md
+  - name: Test a Large Application with Multiple UI Maps
+    href: testing-a-large-application-with-multiple-ui-maps.md
+  - name: Enable Coded UI Testing of Your Controls
+    href: enable-coded-ui-testing-of-your-controls.md
+  - name: Supported Configurations and Platforms for Coded UI Tests and Action Recordings
+    href: supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md
+  - name: Extend Coded UI Tests and Action Recordings to Support Microsoft Excel
+    href: extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel.md
+    items:
+    - name: Sample Excel Add-In for Coded UI Testing
+      href: sample-excel-add-in-for-coded-ui-testing.md
+    - name: Sample Excel Communicator Interface
+      href: sample-excel-communicator-interface.md
+    - name: Sample Coded UI Test Extension for Excel
+      href: sample-coded-ui-test-extension-for-excel.md
+      items:
+      - name: "Sample Excel Extension: ExtensionPackage Class"
+        href: sample-excel-extension-extensionpackage-class.md
+      - name: "Sample Excel Extension: TechnologyManager Class"
+        href: sample-excel-extension-technologymanager-class.md
+      - name: "Sample Excel Extension: PropertyProvider Class"
+        href: sample-excel-extension-propertyprovider-class.md
+      - name: "Sample Excel Extension: Element Classes"
+        href: sample-excel-extension-element-classes.md
+      - name: "Sample Excel Extension: ActionFilter Class"
+        href: sample-excel-extension-actionfilter-class.md
+- name: Test lab management
+  href: lab-management/using-a-lab-environment-for-your-application-lifecycle.md
+  items:
+  - name: Use Build or Release Management for automated testing
+    href: lab-management/use-build-or-rm-instead-of-lab-management.md
+  - name: Install test agents and test controllers
+    href: lab-management/install-configure-test-agents.md
