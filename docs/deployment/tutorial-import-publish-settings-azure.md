@@ -32,7 +32,7 @@ A publish settings file (*\*.publishsettings*) is different than a publishing pr
 
 ## Prerequisites
 
-* You must have Visual Studio installed and the **ASP.NET** and **.NET Framework** development workload. For a .NET Core app, you also need the **.NET Core** workload.
+* You must have Visual Studio 2017 installed and the **ASP.NET** and **.NET Framework** development workload. For a .NET Core app, you also need the **.NET Core** workload.
 
     If you haven't already installed Visual Studio, install it for free [here](http://www.visualstudio.com).
 
@@ -87,21 +87,7 @@ A publish settings file (*\*.publishsettings*) is different than a publishing pr
 
 ## Import the publish settings in Visual Studio and deploy
 
-1. On the computer where you have the ASP.NET project open in Visual Studio, right-click the project in Solution Explorer, and choose **Publish**.
-
-1. If you have previously configured any publishing profiles, the **Publish** pane appears. Click **Create new profile**.
-
-1. In the **Pick a publish target** dialog box, click **Import Profile**.
-
-    ![Choose Publish](../deployment/media/tutorial-publish-tool-import-profile.png)
-
-1. Navigate to the location of the publish settings file that you created in the previous section.
-
-1. In the **Import Publish Settings File** dialog box, select the profile that you created in the previous section, and click **Open**.
-
-1. Select one of the two imported profiles, and click **Publish**.
-
-    Visual Studio begins the deployment process, and the Output window shows progress and results.
+[!INCLUDE [install-web-deploy-with-hosting-server](../deployment/includes/import-publish-settings-vs.md)]
 
 ## Next steps
 
