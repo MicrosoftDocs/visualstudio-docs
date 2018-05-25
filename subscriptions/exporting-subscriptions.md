@@ -18,4 +18,5 @@ In the Visual Studio subscriptions [admininstrator portal](https://manage.visual
 This feature is useful for a few scenarios, such as tracking assignments and expiration dates. If, for instance, you are transitioning from using BANs to GUIDs to track subscription assignments, you can use this report with the VLOOKUP formula in Microsoft Excel to match subscribers appropriately.  
 
 To perform the export, simply select the **Export** tab, and the file will download to your local machine. The file will include the name of the agreement that contains your user subscriptions, as well as the date of the export.  
-        ![Export Subscribers](_img\exporting-subscriptions\exporting-subscriptions.png)
+
+<img alt="Export subscribers" src="_img\exporting-subscriptions\exporting-subscriptions.png" style="border: 1px solid #CCCCCC" />

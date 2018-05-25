@@ -18,7 +18,7 @@ Sometimes orders are changed after subscribers have been added, which can result
 > [!NOTE] 
 > Overclaimed scenarios are not allowed in Open License programs.  Also, other programs may display this information in the portal differently. 
 
- ![Notice of Over-claimed Subscriptions](_img\over-claimed\over-claimed-alert.png)
+   <img alt="Notice of Over-claimed Subscriptions" src="_img\over-claimed\over-claimed-alert.png" style="border: 1px solid #CCCCCC" />
 
 1.	To resolve over-claimed licenses, click the alert text. This will display a filtered list of the subscribers that are assigned to the subscription level and expiration date that is over-claimed. 
 
@@ -26,4 +26,4 @@ Sometimes orders are changed after subscribers have been added, which can result
 
 3.	The overview on the left side of the page will update to show that you are once again in compliance, and all over-claimed notifications will disappear. 
 
-    ![Delete Over-claimed Subscriptions](_img\over-claimed\delete-over-claimed.png)
+    <img alt="Delete Over-claimed Subscriptions" src="_img\over-claimed\delete-over-claimed.png" style="border: 1px solid #CCCCCC" />

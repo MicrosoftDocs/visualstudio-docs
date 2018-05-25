@@ -99,7 +99,7 @@ You can easily change the contact information and preferences in your profile.
 4.	When you’ve finalized your changes, click **Save**. 
 5.  Click your browser's **back** button to return to the Benefits page. 
 
-![Editing Profile Information](_img\manage-vs-subscriptions\edit-profile-resized.png)
+    <img alt="Editing Profile Information" src="_img\manage-vs-subscriptions\edit-profile-resized.png" style="border: 1px solid #CCCCCC" />
 
 ### Linking my subscription to existing VSTS or Azure subscriptions
 If you sign in to your subscription using a personal Microsoft account (MSA) and have a subscription that includes Visual Studio Team Services or Microsoft Azure using a work or school account managed by Azure, you can link the two subscriptions. This is called an "alternate account" and allows you to keep using your MSA to sign in to your subscription while having access to existing Azure, VSTS or IDE resources that are associated with your school or work accounts. 
@@ -112,7 +112,7 @@ To add an alternate account:
 3. Under **Related Links**, choose **Add alternate account**.
 4. Enter your work/school account emaiil address and click **Add**. 
 
-![Alternate Account](_img\manage-vs-subscriptions\alternate-account-resized.png)
+    <img alt="Alternate Account" src="_img\manage-vs-subscriptions\alternate-account-resized.png" style="border: 1px solid #CCCCCC" />
 
 Once you have added an alternate account, you can update or remove it at any time by clicking the **Subscriptions** tab and choosing the appropriate option in the **Related Links** section.  
 

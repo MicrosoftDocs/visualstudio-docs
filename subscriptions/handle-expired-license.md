@@ -14,8 +14,7 @@ searchscope: VS Subscription
 # Handling expired subscriptions
 
 When a user’s subscription has expired, this is indicated in the portal by a red bar next to their name in the list of subscribers. For those subscribers to continue using their Visual Studio Subscription benefits, you will need to renew their licenses. 
-
-![List of Expired Subscriptions](_img\expired-subscriptions\expired-list.png) 
+    <img alt="List of Expired Subscriptions" src="_img\expired-subscriptions\expired-list.png" style="border: 1px solid #CCCCCC" />
 
 **To renew subscriptions**
 1.  Contact your Volume Licensing reseller or your Microsoft seller. 

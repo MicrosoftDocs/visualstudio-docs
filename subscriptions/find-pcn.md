@@ -19,16 +19,17 @@ In order to complete the onboarding of your organization to the subscription adm
 
 1.  Log in to the Volume Licensing Service Center at: [https://www.Microsoft.com/licensing/servicecenter](https://www.Microsoft.com/licensing/servicecenter).
 
-    ![Sign in to VLSC](_img/vlsc/vlsc-login.png)
+
+    <img alt="Sign in to VLSC" src="_img/vlsc/vlsc-login.png" style="border: 1px solid #CCCCCC" />
 
 2. From the Subscriptions tab, select **Visual Studio Subscriptions**.
 
-    ![Choose Subscriptions in VLSC](_img/vlsc/vlsc-subscriptions.png)
+    <img alt="Choose subscriptions in VLSC" src="_img/vlsc/vlsc-subscriptions.png" style="border: 1px solid #CCCCCC" />
 
 3. The PCN or Public Customer Number is located halfway down the page.
     
-    ![Locate PCN in VLSC](_img/vlsc/vlsc-pcn.png)
-
+    <img alt="Locate PCN in VLSC" src="_img/vlsc/vlsc-pcn.png" style="border: 1px solid #CCCCCC" />
+    
 If you are not seeing the above page and are being redirected to the Visual Studio sign-in page, please copy and paste the following link into your browser: https://www.microsoft.com/Licensing/servicecenter/Subscription/AgreementSearch.
 
 ## If I have more than one PCN, which one should I use?
