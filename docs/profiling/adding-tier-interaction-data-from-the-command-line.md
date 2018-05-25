@@ -74,7 +74,7 @@ In the following example, a Windows desktop application is profiled by using the
     vsperfclrenv /off
     ```
 
-For more information, see [Profiling stand-alone applications](../profiling/command-line-profiling-of-stand-alone-applications.md).
+For more information, see [Profile stand-alone applications](../profiling/command-line-profiling-of-stand-alone-applications.md).
 
 ## Profile services
 
@@ -136,9 +136,9 @@ In the following example, a Windows service is profiled by using the instrumenta
 
 For more information, see one of the following topics:
 
-[Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)
+[Profile ASP.NET web applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)
 
-[Profiling Services](../profiling/command-line-profiling-of-services.md)
+[Profile services](../profiling/command-line-profiling-of-services.md)
 
 ## Add tier interaction data with VSPerfASPNETCmd
 
@@ -150,4 +150,4 @@ To add tier interaction to profiling data collected by using VSPerfASPNETCmd, ad
 vsperfaspnetcmd /tip /trace http://localhost/MyWebApp
 ```
 
-For more information about VSPerfASPNETCmd, see [Rapid Web Site Profiling with VSPerfASPNETCmd](../profiling/rapid-web-site-profiling-with-vsperfaspnetcmd.md).
+For more information about VSPerfASPNETCmd, see [Rapid web site profiling with VSPerfASPNETCmd](../profiling/rapid-web-site-profiling-with-vsperfaspnetcmd.md).

@@ -15,7 +15,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Concurrency Namespace (Concurrency Visualizer)
+# Concurrency namespace (Concurrency Visualizer)
 The `Concurrency` namespace provides classes and functions that give you access to the Concurrency Runtime, a concurrent programming framework for C++. For more information, see [Concurrency Runtime](/cpp/parallel/concrt/concurrency-runtime).  
   
 ## Syntax  
@@ -35,5 +35,5 @@ namespace Concurrency;
 ## Requirements  
  **Header:** cvmarkersobj.h  
   
-## See Also  
- [C Library Reference](../profiling/c-library-reference.md)
+## See also  
+ [C library reference](../profiling/c-library-reference.md)

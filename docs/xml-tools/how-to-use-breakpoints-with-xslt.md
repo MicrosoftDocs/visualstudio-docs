@@ -14,7 +14,7 @@ ms.workload:
 
 You can set breakpoints in an XSLT style sheet or in the XML source document. If you set a breakpoint on a tag, when execution starts the breakpoint will move to the next statement that has source line information.
 
-For more information, see [Debugging Basics: Breakpoints](../debugger/using-breakpoints.md).
+For more information, see [Debugging basics: Breakpoints](../debugger/using-breakpoints.md).
 
 ## Set a breakpoint in a style sheet
 
@@ -54,4 +54,4 @@ Breakpoints can be set on elements, attributes, namespace node, comments, proces
 
 ## See also
 
-- [Walkthrough: Debug an XSLT Style Sheet](../xml-tools/walkthrough-debug-an-xslt-style-sheet.md)
+- [Walkthrough: Debug an XSLT style sheet](../xml-tools/walkthrough-debug-an-xslt-style-sheet.md)

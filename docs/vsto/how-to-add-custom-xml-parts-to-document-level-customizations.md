@@ -58,4 +58,3 @@ ms.workload:
  [Custom XML parts overview](../vsto/custom-xml-parts-overview.md)   
  [How to: Add custom XML parts to documents by using VSTO Add-ins](../vsto/how-to-add-custom-xml-parts-to-documents-by-using-vsto-add-ins.md)  
   
-  
