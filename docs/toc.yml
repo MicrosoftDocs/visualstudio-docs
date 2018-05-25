@@ -631,7 +631,7 @@
     - name: Customize window layouts
       href: ide/customizing-window-layouts-in-visual-studio.md
     - name: Customize file nesting in Solution Explorer
-      href: ide/file-nesting-in-solution-explorer.md
+      href: ide/file-nesting-solution-explorer.md
     - name: Customize the Start Page
       href: ide/customizing-the-start-page-for-visual-studio.md
     - name: Find and use Visual Studio extensions
