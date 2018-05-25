@@ -33,14 +33,14 @@ ms.workload:
 ## Creating an Outlook VSTO Add-in Project  
  Create Outlook projects by using the **Outlook Add-in** project template in the **New Project** dialog box. This template includes required assembly references and project files.  
   
- For more information about how to create a VSTO Add-in project, see [How to: Create Office Projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md). For more information about the project templates, see [Office Project Templates Overview](../vsto/office-project-templates-overview.md).  
+ For more information about how to create a VSTO Add-in project, see [How to: Create Office Projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md). For more information about the project templates, see [Office project templates overview](../vsto/office-project-templates-overview.md).  
   
-## Outlook VSTO Add-in Programming Model  
+## Outlook VSTO Add-in programming model  
  When you create an Outlook VSTO Add-in project, Visual Studio generates a class, called `ThisAddIn`, which is the foundation of your solution. This class provides a starting point for writing your code, and it also exposes the object model of Outlook to your VSTO Add-in.  
   
- For more information about the `ThisAddIn` class and other features you can use in a VSTO Add-in, see [Programming VSTO Add-Ins](../vsto/programming-vsto-add-ins.md).  
+ For more information about the `ThisAddIn` class and other features you can use in a VSTO Add-in, see [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md).  
   
-## Automating Outlook by Using the Outlook Object Model  
+## Automate Outlook by using the Outlook object model  
  The Outlook object model exposes many types that you can use to automate Outlook. These types enable you to write code to accomplish common tasks:  
   
 -   Programmatically create and send e-mail messages.  
@@ -49,26 +49,26 @@ ms.workload:
   
 -   Search for items in Outlook folders.  
   
- For more information, see [Outlook Object Model Overview](../vsto/outlook-object-model-overview.md).  
+ For more information, see [Outlook object model overview](../vsto/outlook-object-model-overview.md).  
   
-## Customizing the User Interface of an Outlook Application  
+## Customize the user interface of an Outlook application  
   
 |Task|For more information|  
 |----------|--------------------------|  
-|Add custom tabs to the Ribbon of an Outlook Inspector.|[Ribbon Overview](../vsto/ribbon-overview.md)|  
-|Add custom groups to a built-in tab in an Outlook Inspector.|[How to: Customize a Built-in Tab](../vsto/how-to-customize-a-built-in-tab.md)|  
-|Add a custom task pane that appears in an Outlook Inspector|[Custom Task Panes](../vsto/custom-task-panes.md).|  
-|Add a form region that extends or replaces existing Outlook forms.|[Creating Outlook Form Regions](../vsto/creating-outlook-form-regions.md)|  
+|Add custom tabs to the Ribbon of an Outlook Inspector.|[Ribbon overview](../vsto/ribbon-overview.md)|  
+|Add custom groups to a built-in tab in an Outlook Inspector.|[How to: Customize a built-in tab](../vsto/how-to-customize-a-built-in-tab.md)|  
+|Add a custom task pane that appears in an Outlook Inspector|[Custom task panes](../vsto/custom-task-panes.md).|  
+|Add a form region that extends or replaces existing Outlook forms.|[Create Outlook form regions](../vsto/creating-outlook-form-regions.md)|  
   
- For more information about customizing the UI of Outlook and other Microsoft Office applications, see [Office UI Customization](../vsto/office-ui-customization.md).  
+ For more information about customizing the UI of Outlook and other Microsoft Office applications, see [Office UI customization](../vsto/office-ui-customization.md).  
   
-## Related Topics  
+## Related topics  
   
 |Title|Description|  
 |-----------|-----------------|  
-|[Outlook Object Model Overview](../vsto/outlook-object-model-overview.md)|Provides an overview of the objects that are provided by the Outlook object model.|  
-|[Creating Outlook Form Regions](../vsto/creating-outlook-form-regions.md)|Explains the tools provided by Visual Studio that make it easier for you to design, develop, and debug form regions.|  
-|[Walkthrough: Creating Your First VSTO Add-In for Outlook](../vsto/walkthrough-creating-your-first-vsto-add-in-for-outlook.md)|Shows you how to create a VSTO Add-in for Microsoft Office Outlook.|  
-|[Outlook 2010 in Office Development](http://go.microsoft.com/fwlink/?LinkId=199013)|The area of the MSDN Library where you can find articles and reference documentation about developing Outlook solutions (not specific to Office development using Visual Studio).|  
+|[Outlook object model overview](../vsto/outlook-object-model-overview.md)|Provides an overview of the objects that are provided by the Outlook object model.|  
+|[Create Outlook form regions](../vsto/creating-outlook-form-regions.md)|Explains the tools provided by Visual Studio that make it easier for you to design, develop, and debug form regions.|  
+|[Walkthrough: Create your first VSTO Add-In for Outlook](../vsto/walkthrough-creating-your-first-vsto-add-in-for-outlook.md)|Shows you how to create a VSTO Add-in for Microsoft Office Outlook.|  
+|[Outlook 2010 in Office development](http://go.microsoft.com/fwlink/?LinkId=199013)|The area of the MSDN Library where you can find articles and reference documentation about developing Outlook solutions (not specific to Office development using Visual Studio).|  
   
   

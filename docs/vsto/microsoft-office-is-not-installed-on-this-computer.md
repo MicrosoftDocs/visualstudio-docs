@@ -21,10 +21,10 @@ ms.workload:
   
 ### To correct this error  
   
-1.  Install the Microsoft Office application associated with this project type, including the primary interop assemblies. For more information about supported versions of Microsoft Office, see [Configuring a Computer to Develop Office Solutions](../vsto/configuring-a-computer-to-develop-office-solutions.md).  
+1.  Install the Microsoft Office application associated with this project type, including the primary interop assemblies. For more information about supported versions of Microsoft Office, see [Configure a computer to develop Office solutions](../vsto/configuring-a-computer-to-develop-office-solutions.md).  
   
-## See Also  
- [Configuring a Computer to Develop Office Solutions](../vsto/configuring-a-computer-to-develop-office-solutions.md)   
- [How to: Configure a Computer to Develop Office Solutions](../vsto/how-to-configure-a-computer-to-develop-office-solutions.md)  
+## See also  
+ [Configure a computer to develop Office solutions](../vsto/configuring-a-computer-to-develop-office-solutions.md)   
+ [How to: Configure a computer to develop Office solutions](../vsto/how-to-configure-a-computer-to-develop-office-solutions.md)  
   
   
