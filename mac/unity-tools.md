@@ -20,7 +20,7 @@ Here are some of the key features of Visual Studio for Mac Tools for Unity:
 
 ### Compatible with Visual Studio for Mac Community Edition
 
-[Visual Studio for Mac Community Edition](https://www.visualstudio.com/) is available for free.
+[Visual Studio for Mac Community Edition](https://www.visualstudio.com/) is available for free, and bundled with Unity installs starting with Unity 2018.1. See the Visual Studio for Mac Tools for Unity [setup documentation](setup-vsmac-tools-unity.md) for more information.
 
 ### IntelliSense for Unity messages
 
