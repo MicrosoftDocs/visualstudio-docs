@@ -33,13 +33,11 @@ A publish settings file (*\*.publishsettings*) is different than a publishing pr
 
 ## Prerequisites
 
-* You must have Visual Studio installed and the **ASP.NET** and **.NET Framework** development workload. For a .NET Core app, you also need the **.NET Core** workload.
+* You must have Visual Studio 2017 installed and the **ASP.NET** and **.NET Framework** development workload. For a .NET Core app, you also need the **.NET Core** workload.
 
     If you haven't already installed Visual Studio, install it for free [here](http://www.visualstudio.com).
 
-    The steps in this article are based on Visual Studio 2017
-
-* To generate the publish settings file from IIS, you must have a computer running Windows Server 2012 with the IIS 8.0 Web Server role correctly configured and either ASP.NET 4.5 or ASP.NET Core installed. For ASP.NET Core, see [Publishing to IIS](/aspnet/core/publishing/iis?tabs=aspnetcore2x#iis-configuration). For ASP.NET 4.5, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45).
+* To generate the publish settings file from IIS, you must have a computer running Windows Server 2012 or Windows Server 2016, and you must have the IIS Web Server role correctly configured. Either ASP.NET 4.5 or ASP.NET Core must also be installed. For ASP.NET Core, see [Publishing to IIS](/aspnet/core/publishing/iis?tabs=aspnetcore2x#iis-configuration). For ASP.NET 4.5, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45).
 
 ## Create a new ASP.NET project in Visual Studio
 
@@ -63,62 +61,13 @@ A publish settings file (*\*.publishsettings*) is different than a publishing pr
 
 ## Create the publish settings file in IIS on Windows Server
 
-1. In IIS, right-click the **Default Web Site**, choose **Deploy** > **Configure Web Deploy Publishing**.
-
-    ![Configure Web Deploy configuration](../deployment/media/tutorial-configure-web-deploy-publishing.png)
-
-1. In the **Configure Web Deploy Publishing** dialog box, examine the settings.
-
-1. Click **Setup**.
-
-    In the **Results** panel, the output shows that access rights have been granted to the specified user, and that a file with a *.publishsettings* file extension has been generated in the location shown in the dialog box.
-
-    ```xml
-    <?xml version="1.0" encoding="utf-8"?>
-    <publishData>
-      <publishProfile
-        publishUrl="https://myhostname:8172/msdeploy.axd"
-        msdeploySite="Default Web Site"
-        destinationAppUrl="http://myhostname:80/"
-        mySQLDBConnectionString=""
-        SQLServerDBConnectionString=""
-        profileName="Default Settings"
-        publishMethod="MSDeploy"
-        userName="myhostname\myusername" />
-    </publishData>
-    ```
-
-    Depending on your Windows Server and IIS configuration, you will see different values. Here are a few details about the values that you see:
-
-    * The *msdeploy.axd* file referenced in the `publishUrl` attribute is a dynamically-generated HTTP handler file for Web Deploy. (For testing purposes, `http://myhostname:8172` will generally work as well.)
-    * The `publishUrl` port is usually set to port 8172, which is the default for Web Deploy.
-    * The `destinationAppUrl` port is usually set to port 80, which is the default for IIS.
-    * If you are unable to connect to the remote host in Visual Studio using the host name (in later steps), test the IP address in place of the host name.
-
-    > [!NOTE]
-    > If you are publishing to IIS running on an Azure VM, the Web Deploy and IIS ports must be opened in the Network Security group. For detailed information, see [Install and run IIS](/azure/virtual-machines/windows/quick-create-portal#open-port-80-for-web-traffic).
-
-1. Copy this file to the computer where you are running Visual Studio.
+[!INCLUDE [install-web-deploy-with-hosting-server](../deployment/includes/create-publish-settings-iis.md)]
 
 ## Import the publish settings in Visual Studio and deploy
 
-1. On the computer where you have the ASP.NET project open in Visual Studio, right-click the project in Solution Explorer, and choose **Publish**.
+[!INCLUDE [install-web-deploy-with-hosting-server](../deployment/includes/import-publish-settings-vs.md)]
 
-1. If you have previously configured any publishing profiles, the **Publish** pane appears. Click **Create new profile**.
-
-1. In the **Pick a publish target** dialog box, click **Import Profile**.
-
-    ![Choose Publish](../deployment/media/tutorial-publish-tool-import-profile.png)
-
-1. Navigate to the location of the publish settings file that you created in the previous section.
-
-1. In the **Import Publish Settings File** dialog box, navigate to and select the profile that you created in the previous section, and click **Open**.
-
-    Visual Studio begins the deployment process, and the Output window shows progress and results.
-
-    If you get an any deployment errors, click **Settings** to edit settings. Modify settings and click **Validate** to test new settings.
-
-    ![Edit settings in the Publish tool](../deployment/media/tutorial-configure-publish-settings-in-tool.png)
+After the app deploys successfully, it should start automatically. If it does not start from Visual Studio, start the app in IIS. For ASP.NET Core, you need to make sure that the Application pool field for the **DefaultAppPool** is set to **No Managed Code**.
 
 ## Next steps
 
