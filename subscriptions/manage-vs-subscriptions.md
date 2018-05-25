@@ -122,7 +122,7 @@ A: Depending on the purchasing channel, Microsoft maintains customer data for di
 
 | Channel                                                | Duration (days) |
 |--------------------------------------------------------|-----------------|
-|    Retail (e.g. thru Microsoft Store)                  |    360          |
+|    Retail (e.g. through Microsoft Store)               |    360          |
 |    Volume Licensing Service Center (VLSC)              |    180          |
 |    Microsoft Products and Services Agreement (MPSA)    |    180          |
 |    Visual Studio Cloud Subscriptions                   |    180          |
