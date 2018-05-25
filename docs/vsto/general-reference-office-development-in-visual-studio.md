@@ -32,10 +32,10 @@ ms.workload:
  [Deployment manifests for Office solutions](../vsto/deployment-manifests-for-office-solutions.md)  
  Describes how deployment manifests are used Office solutions.  
   
- [User Interface Reference &#40;Office development in Visual Studio&#41;](../vsto/user-interface-reference-office-development-in-visual-studio.md)  
+ [User interface reference &#40;Office development in Visual Studio&#41;](../vsto/user-interface-reference-office-development-in-visual-studio.md)  
  Lists topics that explain the options that appear on various dialog boxes, windows, and other user interfaces.  
   
- [Error Messages &#40;Office development in Visual Studio&#41;](../vsto/error-messages-office-development-in-visual-studio.md)  
+ [Error messages &#40;Office development in Visual Studio&#41;](../vsto/error-messages-office-development-in-visual-studio.md)  
  Lists topics that explain error messages for Office projects.  
   
 ## Related sections  

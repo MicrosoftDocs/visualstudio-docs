@@ -20,9 +20,8 @@ ms.workload:
   The `friendlyName` element of the `vstov4` namespace stores the name that appears in the list of installed programs.  
   
 ## Syntax  
-
-xml  
-```  
+  
+```xml
 <friendlyName>  
 </friendlyName>  
 ```  
