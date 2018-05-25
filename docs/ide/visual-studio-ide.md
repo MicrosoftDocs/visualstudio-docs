@@ -116,7 +116,7 @@ Now let's use some of the features of IntelliSense.
 
 1. Below the line that says `Console.WriteLine($"\nHello {username}!");`, type **Console.Write**.
 
-   A box displays the members of the <xref:System.Console> that contain the text **write**.
+   A box displays the members of the <xref:System.Console> that contain the text **write**. In addition, the description of the selected method displays in a separate box.
 
    ![IntelliSense list members in Visual Studio](media/intellisense-list-members.png)
 
@@ -126,9 +126,23 @@ Now let's use some of the features of IntelliSense.
 
    IntelliSense displays a box with information about the member. This is called **Quick Info**.
 
-1. Use the **down arrow** on your keyboard, or click the downward-facing triangle icon in the box, to scroll through the available overloads for <xref:System.Console.WriteLine%2A>.
+1. Use the **down arrow** on your keyboard, or click the downward-facing triangle icon in the box, to scroll through the available overloads for <xref:System.Console.WriteLine%2A>. You can see that you can pass pretty much any parameter type to this method, and it will write its text representation to the output.
 
    ![IntelliSense quick info in Visual Studio](media/intellisense-quick-info.png)
+
+1. To demonstrate how <xref:System.Console.WriteLine(System.Integer)> prints out the value of an integer argument, we'll pass <xref:DateTime.Now.DayOfYear> to the method, which is an integer type. To make the output read better, we'll also add a call to <xref:Console.Write%2A> on the preceding line to describe what the printed number is. The two lines of code should look like this:
+
+   ```csharp
+   Console.Write("Day of year: ");
+   Console.WriteLine(DateTime.Now.DayOfYear);
+   ```
+
+   > [!TIP]
+   > <xref:System.Console.Write%2A> is a little different to <xref:System.Console.WriteLine%2A> in that it doesn't add a line terminator after it prints. That means that the next piece of text that's sent to the output will print on the same line. You can hover over each of these methods in your code to see the IntelliSense **Quick Info** description again.
+
+1. Run the program again by pressing **Ctrl**+**F5**. The output looks something like this:
+
+   ![Console window with program output](../ide/media/overview-console-day.png)
 
 ## Debug code
 
@@ -138,7 +152,7 @@ When you write code, you need to run it and test it for bugs. Visual Studio's de
 
 You can personalize the IDE, including changing the default color theme. To change to the **Dark** theme:
 
-1. On the menu bar, choose **Tools** > **Options**.
+1. On the menu bar, choose **Tools** > **Options** to open the **Options** dialog.
 
 1. On the **Environment** > **General** options page, change the **Color theme** selection to **Dark**, and then choose **OK**.
 
@@ -195,6 +209,12 @@ Following are some other common productivity features in Visual Studio:
 - The [Go To Definition](../ide/go-to-and-peek-definition.md) context menu option takes you directly to the place where the function or object is defined. Other navigation commands are also available by right-clicking in the editor.
 
    ![Go to Definition](../ide/media/VSIDE_go_to_definition.png)
+
+## Delve deeper
+
+Do you want to create an app for an Android phone? You can do that. How about create a cutting edge game using C++? You can do that too, and much more. Visual Studio provides templates that help you make websites, games, desktop apps, mobile apps, apps for Office, and more. Or, you can simply open some code you get from almost anywhere and get working. See a project on GitHub that you like? Just clone the repository, open it in Visual Studio, and start coding!
+
+To start learning about these and other features of Visual Studio, see []
 
 ## See also
 

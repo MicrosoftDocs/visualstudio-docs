@@ -1,5 +1,5 @@
 ---
-title: Advanced overview of Visual Studio 2017
+title: Advanced features of Visual Studio 2017
 ms.date: 05/25/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
@@ -10,19 +10,19 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Overview of Visual Studio 2017 for experienced developers
+# Features of Visual Studio 2017
 
-## What can you do with the Visual Studio IDE?
+The [Visual Studio IDE overview](../ide/visual-studio-ide.md) topic gives a basic introduction to Visual Studio. This article describes features that might be more appropriate for experienced developers, or those who are already familiar with Visual Studio.
 
-Do you want to create an app for an Android phone? You can do that. How about create a cutting edge game using C++? You can do that too and much, much more. Visual Studio provides templates that help you make websites, games, desktop apps, mobile apps, apps for Office, and more. Or, you can simply open some code you get from almost anywhere and get working. See a project on GitHub that you like? Just clone the repository, open it in Visual Studio, and start coding!
+Visual Studio 2017 makes it easy to move your apps to the cloud. You can develop cutting edge games and mobile apps.
 
-### Create mobile apps
+## Create mobile apps
 
 You can create native mobile apps for different platforms by using C# and Xamarin, or Visual C++, or hybrid apps using JavaScript with Apache Cordova. You can write mobile games for Unity, Unreal, DirectX, Cocos, and more. Visual Studio includes an Android emulator to help you run and debug Android apps.
 
 You can leverage the power of the cloud for your mobile apps by creating Azure app services. Azure app services enable your apps to store data on the cloud, securely authenticate users, and automatically scale its resources up or down to accommodate the needs of your app and your business. To learn more, see [Mobile app development](https://www.visualstudio.com/vs/mobile-app-development/).
 
-### Create cloud apps for Azure
+## Create cloud apps for Azure
 
 Visual Studio offers a suite of tools that enable you to easily create cloud-enabled applications powered by Microsoft Azure. You can configure, build, debug, package, and deploy applications and services on Microsoft Azure directly from the IDE. To get the Azure tools and project templates, select the **Azure development** workload when you install Visual Studio.
 
@@ -71,13 +71,13 @@ You can view and manage your Azure-based cloud resources within Visual Studio us
 
 ![SQL Server Object Explorer](../ide/media/vs2015_sqlobjectexplorer.png)
 
-### Create apps for the web
+## Create apps for the web
 
 The web drives our modern world, and Visual Studio can help you write apps for it. You can create web apps using ASP.NET, Node.js, Python, JavaScript and TypeScript. Visual Studio understands web frameworks like Angular, jQuery, Express, and more. ASP.NET Core and .NET Core run on Windows, Mac, and Linux operating systems. [ASP.NET Core](http://www.asp.net/core/overview) is a major update to MVC, WebAPI and SignalR, and runs on Windows, Mac, and Linux.  ASP.NET Core has been designed from the ground up to provide you with a lean and composable .NET stack for building modern cloud-based web apps and services.
 
 For more information, see [Modern web tooling](https://www.visualstudio.com/vs/modern-web-tooling/).
 
-### Build cross-platform apps and games
+## Build cross-platform apps and games
 
 You can use Visual Studio to build apps and games for macOS, Linux, and Windows, as well as for Android, iOS, and other mobile devices.
 
@@ -95,17 +95,13 @@ You can use Visual Studio to build apps and games for macOS, Linux, and Windows,
 
 Visual Studio can do help you do many more things. For a more complete list, see [www.visualstudio.com](https://www.visualstudio.com/vs/).
 
-## Installation
+## Modular installation
 
-To get started, [download Visual Studio 2017](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) and install it on your system.
+Visual Studio's modular installer enables you to choose and install *workloads*, which are groups of features needed for the programming language or platform you prefer. This strategy helps to keep the footprint of the Visual Studio installation smaller, which means it installs and updates faster too. In addition to improved installation performance, Visual Studio 2017 also has shorter IDE [startup](optimize-visual-studio-startup-time.md) and solution load times.
 
-The modular installer enables you to choose and install *workloads*, which are groups of features needed for the programming language or platform you prefer. This strategy helps to keep the footprint of the Visual Studio installation smaller, which means it installs and updates faster too. In addition to improved installation performance, Visual Studio 2017 also has shorter IDE [startup](optimize-visual-studio-startup-time.md) and solution load times.
+If you haven't already, you can download Visual Studio 2017 [here](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs).
 
 To learn more about setting up Visual Studio on your system, see [Install Visual Studio 2017](../install/install-visual-studio.md).
-
-## Sign in
-
-When you start Visual Studio for the first time, you can optionally sign in using your Microsoft account, or your work or school account. Being signed in lets you synchronize Visual Studio settings, such as window layouts, across multiple devices. It also connects you automatically to the services you might need, such as Azure subscriptions and [Visual Studio Team Services](/vsts/).
 
 ## Debug, test, and improve your code
 
@@ -146,3 +142,7 @@ To learn more about extending Visual Studio, see [Extend Visual Studio IDE](http
 ## Learn more and find out what's new
 
 If you've never used Visual Studio before, look at [Get started developing with Visual Studio](../ide/get-started-developing-with-visual-studio.md), or check out the free Visual Studio courses available on [Microsoft Virtual Academy](https://mva.microsoft.com/product-training/visual-studio-courses#!index=2&lang=1033). If you want to check out the new features in Visual Studio 2017, see [What's new in Visual Studio 2017](../ide/whats-new-in-visual-studio.md).
+
+## See also
+
+- [Visual Studio IDE overview](../ide/visual-studio-ide.md)
