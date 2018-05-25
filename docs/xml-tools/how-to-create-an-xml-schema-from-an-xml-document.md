@@ -11,7 +11,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# How to: Create an XML Schema from an XML Document
+# How to: Create an XML schema from an XML document
 
 The XML Editor allows you to create an XML Schema definition language (XSD) schema from an XML document. The XML instance document determines how the schema is generated in the following manner:
 
@@ -23,9 +23,9 @@ The XML Editor allows you to create an XML Schema definition language (XSD) sche
 
 The schemas that are created are then used to provide IntelliSense for the XML document.
 
-For more information about the schema inference engine, see [Inferring an XML Schema](/dotnet/standard/data/xml/inferring-an-xml-schema).
+For more information about the schema inference engine, see [Inferring an XML schema](/dotnet/standard/data/xml/inferring-an-xml-schema).
 
-## To create an XML Schema
+## To create an XML schema
 
 1.  Load an XML instance document into the XML Editor.
 
@@ -38,6 +38,6 @@ For more information about the schema inference engine, see [Inferring an XML Sc
     > [!NOTE]
     >  The **Create Schema** command is also available from the shortcut menu of the XML Editor and under the **XML** menu.
 
-## See Also
+## See also
 
 - [XML Editor](../xml-tools/xml-editor.md)
