@@ -114,41 +114,65 @@ First, let's rename the `name` variable:
 
    ![Animated gif showing rename refactoring in Visual Studio](media/rename-refactoring.gif)
 
-Now let's use some of the features of IntelliSense.
+1. Now let's take a look at IntelliSense. Below the line that says `Console.WriteLine($"\nHello {username}!");`, type **DateTime now = DateTime.**.
 
-1. Below the line that says `Console.WriteLine($"\nHello {username}!");`, type **Console.Write**.
-
-   A box displays the members of the <xref:System.Console> that contain the text **write**. In addition, the description of the selected method displays in a separate box.
+   A box displays the members of the <xref:System.DateTime> class. In addition, the description of the currently selected member displays in a separate box.
 
    ![IntelliSense list members in Visual Studio](media/intellisense-list-members.png)
 
-1. Select the member named **WriteLine** and notice that IntelliSense completes the word for you.
+1. Select the member named **Now**, which is a property of the class, by double-clicking on it or pressing **Tab**. Complete the line of code by adding a semi-colon **;**.
 
-1. Type an opening parenthesis character **(**.
-
-   IntelliSense displays a box with information about the member. This is called **Quick Info**.
-
-1. Use the **down arrow** on your keyboard, or click the downward-facing triangle icon in the box, to scroll through the available overloads for <xref:System.Console.WriteLine%2A>. You can see that you can pass pretty much any parameter type to this method, and it will write its text representation to the output.
-
-   ![IntelliSense quick info in Visual Studio](media/intellisense-quick-info.png)
-
-1. To demonstrate how <xref:System.Console.WriteLine(System.Integer)> prints out the value of an integer argument, we'll pass <xref:DateTime.Now.DayOfYear> to the method, which is an integer type. To make the output read better, we'll also add a call to <xref:Console.Write%2A> on the preceding line to describe what the printed number is. The two lines of code should look like this:
+1. Below that, type in or copy the following lines of code:
 
    ```csharp
+   int dayOfYear = now.DayOfYear;
+
    Console.Write("Day of year: ");
-   Console.WriteLine(DateTime.Now.DayOfYear);
+   Console.WriteLine(dayOfYear);
    ```
 
    > [!TIP]
    > <xref:System.Console.Write> is a little different to <xref:System.Console.WriteLine%2A> in that it doesn't add a line terminator after it prints. That means that the next piece of text that's sent to the output will print on the same line. You can hover over each of these methods in your code to see the IntelliSense **Quick Info** description again.
 
+1. Next, we'll use refactoring again to make the code a little more concise. Click on the variable `now` in the line `DateTime now = DateTime.Now;`.
+
+   Notice that a little screwdriver icon appears in the margin on that line.
+
+1. Click the screwdriver icon to see what suggestions Visual Studio has available. In this case, it's showing the [Inline temporary variable](reference/inline-temporary-variable.md) refactoring to remove a line of code without changing its behavior:
+
+   ![Inline temporary variable refactoring in Visual Studio](media/inline-temporary-variable-refactoring.png)
+
+1. Click **Inline temporary variable** to refactor the code.
+
 1. Run the program again by pressing **Ctrl**+**F5**. The output looks something like this:
 
-   ![Console window with program output](../ide/media/overview-console-day.png)
+   ![Console window with program output](../ide/media/overview-console-final.png)
 
 ## Debug code
 
-When you write code, you need to run it and test it for bugs. Visual Studio's debugging system lets you step through code one statement at a time and inspect variables as you go. You can set breakpoints that are only hit when a specified condition is true. You can monitor the values of variables as the code runs, and more. To get more details about debugging in Visual Studio, see [Debugger feature tour](../debugger/debugger-feature-tour.md).
+When you write code, you need to run it and test it for bugs. Visual Studio's debugging system lets you step through code one statement at a time and inspect variables as you go. You can set breakpoints that are only hit when a specified condition is true. You can monitor the values of variables as the code runs, and more.
+
+Let's set a breakpoint to see the value of the `username` variable while the program is "in flight".
+
+1. Find the line of code that says `Console.WriteLine($"\nHello {username}!");`. To set a breakpoint on this line of code, that is, to make the program pause execution at this line, click in the far left margin of the editor. You can also click anywhere on the line of code and then press **F9**.
+
+   A red circle appears in the far left margin, and the code is highlighted in red.
+
+   ![Breakpoint on line of code in Visual Studio](media/breakpoint.png)
+
+1. Start debugging by selecting **Debug** > **Start Debugging** or by pressing **F5**.
+
+1. When the console window appears and asks for your name, type it in and press **Enter**.
+
+   Notice that the focus returns to the Visual Studio code editor and the line of code with the breakpoint is highlighted in yellow. This signifies that it's the next line of code that the program will execute.
+
+1. Hover your mouse over the `username` variable to see its value. Alternatively, you can right-click on `username` and select **Add Watch** to add the variable to the **Watch** window, where you can also see its value.
+
+   ![Variable value during debugging in Visual Studio](media/debugging-variable-value.png)
+
+1. To let the program run to completion, press **F5** again.
+
+To get more details about debugging in Visual Studio, see [Debugger feature tour](../debugger/debugger-feature-tour.md).
 
 ## Customize Visual Studio
 
@@ -216,7 +240,7 @@ Following are some other common productivity features in Visual Studio:
 
 Do you want to create an app for an Android phone? You can do that. How about create a cutting edge game using C++? You can do that too, and much more. Visual Studio provides templates that help you make websites, games, desktop apps, mobile apps, apps for Office, and more. Or, you can simply open some code you get from almost anywhere and get working. See a project on GitHub that you like? Just clone the repository, open it in Visual Studio, and start coding!
 
-To start learning about these and other features of Visual Studio, see []
+To start learning about these and other features of Visual Studio, see [Features of Visual Studio 2017](../ide/advanced-feature-overview.md), or choose one of the Quickstart topics from the table of contents.
 
 ## See also
 
