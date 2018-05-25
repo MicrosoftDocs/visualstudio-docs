@@ -18,7 +18,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# &lt;postActionData&gt; Element (Office Development in Visual Studio)
+# &lt;postActionData&gt; element (Office development in Visual Studio)
   The `postActionData` element of the `vstav3` namespace specifies the data associated with any post-deployment action that runs after Office solutions are installed.  
   
 ## Syntax  
