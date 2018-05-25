@@ -16,7 +16,9 @@ ms.workload:
 ---
 # Visual Studio IDE overview
 
-The Visual Studio interactive development environment (IDE) is a creative launching pad that you can use to view and edit code, and then debug, build, and publish an app. There are versions available for Mac and Windows. This article introduces you to the basic features of the Visual Studio IDE. We'll walk through some things you can do with Visual Studio, including creating a simple project, using IntelliSense as a coding aid, and debugging an app. We'll also take a tour of the various tool windows.
+The Visual Studio interactive development environment (IDE) is a creative launching pad that you can use to view and edit code, and then debug, build, and publish an app. There are versions available for Mac and Windows.
+
+This article introduces you to the basic features of the Visual Studio IDE. We'll walk through some things you can do with Visual Studio, including creating a simple project, using IntelliSense as a coding aid, and debugging an app to see the value of a variable "in flight". We'll also take a tour of the various tool windows.
 
 ## Install the Visual Studio IDE
 
@@ -61,7 +63,7 @@ Let's dive in and create a new, simple program.
 
   ![Debug > Start without debugging menu](../ide/media/overview-start-without-debugging.png)
 
-  Visual Studio builds the app, and a console window opens with the message "Hello World!". You now have a running app!
+  Visual Studio builds the app, and a console window opens with the message **Hello World!**. You now have a running app!
 
   ![Console window](../ide/media/overview-console-window.png)
 
@@ -74,7 +76,7 @@ Let's dive in and create a new, simple program.
    var name = Console.ReadLine();
    ```
 
-   This code displays "What is your name?" in the console window, and waits until the user enters some text followed by the **Enter** key.
+   This code displays **What is your name?** in the console window, and then waits until the user enters some text followed by the **Enter** key.
 
 1. Change the line that says `Console.WriteLine("Hello World!");` to the following code:
 
@@ -106,11 +108,11 @@ First, let's rename the `name` variable:
 
 1. Select the light bulb icon to show the available [Quick Actions](quick-actions.md). Select **Rename 'name' to 'username'**.
 
-   The variable is renamed across the project, which in our case is only two places.
-
    ![Rename action in Visual Studio](media/rename-quick-action.png)
 
-   [Animated gif]
+   The variable is renamed across the project, which in our case is only two places.
+
+   ![Animated gif showing rename refactoring in Visual Studio](media/rename-refactoring.gif)
 
 Now let's use some of the features of IntelliSense.
 
@@ -138,7 +140,7 @@ Now let's use some of the features of IntelliSense.
    ```
 
    > [!TIP]
-   > <xref:System.Console.Write%2A> is a little different to <xref:System.Console.WriteLine%2A> in that it doesn't add a line terminator after it prints. That means that the next piece of text that's sent to the output will print on the same line. You can hover over each of these methods in your code to see the IntelliSense **Quick Info** description again.
+   > <xref:System.Console.Write> is a little different to <xref:System.Console.WriteLine%2A> in that it doesn't add a line terminator after it prints. That means that the next piece of text that's sent to the output will print on the same line. You can hover over each of these methods in your code to see the IntelliSense **Quick Info** description again.
 
 1. Run the program again by pressing **Ctrl**+**F5**. The output looks something like this:
 
