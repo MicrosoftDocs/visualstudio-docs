@@ -14,7 +14,13 @@ ms.workload:
 
 The [Visual Studio IDE overview](../ide/visual-studio-ide.md) topic gives a basic introduction to Visual Studio. This article describes features that might be more appropriate for experienced developers, or those who are already familiar with Visual Studio.
 
-Visual Studio 2017 makes it easy to move your apps to the cloud. You can develop cutting edge games and mobile apps.
+## Modular installation
+
+Visual Studio's modular installer enables you to choose and install *workloads*, which are groups of features needed for the programming language or platform you prefer. This strategy helps to keep the footprint of the Visual Studio installation smaller, which means it installs and updates faster too. In addition to improved installation performance, Visual Studio 2017 also has shorter IDE [startup](optimize-visual-studio-startup-time.md) and solution load times.
+
+If you haven't already, you can download Visual Studio 2017 [here](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs).
+
+To learn more about setting up Visual Studio on your system, see [Install Visual Studio 2017](../install/install-visual-studio.md).
 
 ## Create mobile apps
 
@@ -22,7 +28,7 @@ You can create native mobile apps for different platforms by using C# and Xamari
 
 You can leverage the power of the cloud for your mobile apps by creating Azure app services. Azure app services enable your apps to store data on the cloud, securely authenticate users, and automatically scale its resources up or down to accommodate the needs of your app and your business. To learn more, see [Mobile app development](https://www.visualstudio.com/vs/mobile-app-development/).
 
-## Create cloud apps for Azure
+## Create cloud-enabled apps for Azure
 
 Visual Studio offers a suite of tools that enable you to easily create cloud-enabled applications powered by Microsoft Azure. You can configure, build, debug, package, and deploy applications and services on Microsoft Azure directly from the IDE. To get the Azure tools and project templates, select the **Azure development** workload when you install Visual Studio.
 
@@ -32,44 +38,21 @@ After you install the **Azure development** workload, the following **Cloud** te
 
 ![Cloud project templates for Visual Studio](media/cloud-project-templates.png)
 
-Visual Studio's [Cloud Explorer](/azure/vs-azure-tools-resources-managing-with-cloud-explorer) lets you view and manage your Azure resources, such as virtual machines, tables, SQL databases, and more. If a particular operation requires the Azure portal, **Cloud Explorer** provides links that take you to the place in the Azure portal you need to go.
+Visual Studio's [Cloud Explorer](/azure/vs-azure-tools-resources-managing-with-cloud-explorer) lets you view and manage your Azure-based cloud resources within Visual Studio. These resources may include virtual machines, tables, SQL databases, and more. **Cloud Explorer** shows the Azure resources in all the accounts managed under the Azure subscription you're logged into. And if a particular operation requires the Azure portal, **Cloud Explorer** provides links that take you to the place in the portal where you need to go.
 
 ![Cloud Explorer in Visual Studio](media/cloud-explorer.png)
 
 You can leverage Azure services for your apps using **Connected Services** such as:
 
-- [Azure Mobile Services](http://azure.microsoft.com/documentation/services/mobile-services/)
+- [Active Directory connected service](/azure/active-directory/develop/vs-active-directory-add-connected-service) so users can use their accounts from [Azure Active Directory](/azure/active-directory/active-directory-whatis) to connect to web apps
+- [Azure Storage connected service](/azure/vs-azure-tools-connected-services-storage) for blob storage, queues, and tables
+- [Key Vault connected service](/azure/key-vault/vs-key-vault-add-connected-service) to manage secrets for web apps
 
-- [Azure Storage](/azure/vs-azure-tools-connected-services-storage)
+The available **Connected Services** depend on your project type. Add a service by right-clicking on the project in **Solution Explorer** and choosing **Add** > **Connected Service**.
 
 ![Visual Studio Connected Services](media/connected-services.png)
 
-Other tools that you might find useful for cloud development are:
-
-- [HockeyApp](https://www.visualstudio.com/hockey-app/), which helps you distribute beta versions, collect live crash reports, and get feedback from real users. In addition, you can integrate Office 365 REST APIs into your own app to connect to data stored in the cloud. For more information, see [these GitHub samples](https://github.com/OfficeDev/?utf8=%E2%9C%93&query=o365).
-- [Application Insights](https://marketplace.visualstudio.com/items?itemName=VisualStudioOnlineApplicationInsights.application-insights), which helps you detect and diagnose quality issues in your apps and web services. Application Insights also helps you understand what your users actually do with your app, so you can optimize the user experience.
-
-For more information, see [Move to the Cloud With Visual Studio and Azure](https://www.visualstudio.com/vs/azure-tools/).
-
-## Connect to services, databases, and cloud-based resources
-
-The cloud is critical for today's online world, and Visual Studio provides you the means to leverage it. For example, the Connected Services feature enables you to connect your app to services. Your apps can use it to store their data on Azure storage, among other things.
-
-![Connected services](../ide/media/VSIDE_Tour_Connected_Services.png)
-
-Choosing a service on the **Connected Services** page starts a **Connected Services** wizard that configures your project and downloads the necessary NuGet packages to help get you started coding against the service.
-
-You can view and manage your Azure-based cloud resources within Visual Studio using [Cloud Explorer](/azure/vs-azure-tools-resources-managing-with-cloud-explorer). Cloud Explorer shows the Azure resources in all the accounts managed under the Azure subscription you are logged into. You can get **Cloud Explorer** by selecting the **Azure development** workload in the Visual Studio installer.
-
-![Cloud Explorer](../ide/media/VSIDE_CloudExplorer.png)
-
-**Server Explorer** helps you browse and manage SQL Server instances and assets locally, remotely, and on Azure, Salesforce.com, Office 365, and websites. To open **Server Explorer**, on the main menu, choose **View** > **Server Explorer**. See [Add new connections](../data-tools/add-new-connections.md) for more information on using Server Explorer.
-
-[SQL Server Data Tools (SSDT)](/sql/ssdt/download-sql-server-data-tools-ssdt) is a powerful development environment for SQL Server, Azure SQL Database and Azure SQL Data Warehouse. It enables you to build, debug, maintain, and refactor databases. You can work with a database project, or directly with a connected database instance on- or off-premises.
-
-**SQL Server Object Explorer** in Visual Studio provides a view of your database objects similar to SQL Server Management Studio. SQL Server Object Explorer enables you to do light-duty database administration and design work, including editing table data, comparing schemas, executing queries by using contextual menus right from SQL Server Object Explorer, and more.
-
-![SQL Server Object Explorer](../ide/media/vs2015_sqlobjectexplorer.png)
+For more information, see [Move to the cloud With Visual Studio and Azure](https://www.visualstudio.com/vs/azure-tools/).
 
 ## Create apps for the web
 
@@ -95,13 +78,15 @@ You can use Visual Studio to build apps and games for macOS, Linux, and Windows,
 
 Visual Studio can do help you do many more things. For a more complete list, see [www.visualstudio.com](https://www.visualstudio.com/vs/).
 
-## Modular installation
+## Connect to databases
 
-Visual Studio's modular installer enables you to choose and install *workloads*, which are groups of features needed for the programming language or platform you prefer. This strategy helps to keep the footprint of the Visual Studio installation smaller, which means it installs and updates faster too. In addition to improved installation performance, Visual Studio 2017 also has shorter IDE [startup](optimize-visual-studio-startup-time.md) and solution load times.
+**Server Explorer** helps you browse and manage SQL Server instances and assets locally, remotely, and on Azure, Salesforce.com, Office 365, and websites. To open **Server Explorer**, on the main menu, choose **View** > **Server Explorer**. See [Add new connections](../data-tools/add-new-connections.md) for more information on using Server Explorer.
 
-If you haven't already, you can download Visual Studio 2017 [here](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs).
+[SQL Server Data Tools (SSDT)](/sql/ssdt/download-sql-server-data-tools-ssdt) is a powerful development environment for SQL Server, Azure SQL Database and Azure SQL Data Warehouse. It enables you to build, debug, maintain, and refactor databases. You can work with a database project, or directly with a connected database instance on- or off-premises.
 
-To learn more about setting up Visual Studio on your system, see [Install Visual Studio 2017](../install/install-visual-studio.md).
+**SQL Server Object Explorer** in Visual Studio provides a view of your database objects similar to SQL Server Management Studio. SQL Server Object Explorer enables you to do light-duty database administration and design work, including editing table data, comparing schemas, executing queries by using contextual menus right from SQL Server Object Explorer, and more.
+
+![SQL Server Object Explorer](../ide/media/vs2015_sqlobjectexplorer.png)
 
 ## Debug, test, and improve your code
 
@@ -139,7 +124,7 @@ Find [existing extensions](https://marketplace.visualstudio.com/vs) for Visual S
 
 To learn more about extending Visual Studio, see [Extend Visual Studio IDE](https://www.visualstudio.com/vs/extend/).
 
-## Learn more and find out what's new
+## Learn more
 
 If you've never used Visual Studio before, look at [Get started developing with Visual Studio](../ide/get-started-developing-with-visual-studio.md), or check out the free Visual Studio courses available on [Microsoft Virtual Academy](https://mva.microsoft.com/product-training/visual-studio-courses#!index=2&lang=1033). If you want to check out the new features in Visual Studio 2017, see [What's new in Visual Studio 2017](../ide/whats-new-in-visual-studio.md).
 

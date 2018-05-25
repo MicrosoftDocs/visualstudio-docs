@@ -132,7 +132,7 @@ First, let's rename the `name` variable:
    ```
 
    > [!TIP]
-   > <xref:System.Console.Write> is a little different to <xref:System.Console.WriteLine%2A> in that it doesn't add a line terminator after it prints. That means that the next piece of text that's sent to the output will print on the same line. You can hover over each of these methods in your code to see the IntelliSense **Quick Info** description again.
+   > <xref:System.Console.Write%2A> is a little different to <xref:System.Console.WriteLine%2A> in that it doesn't add a line terminator after it prints. That means that the next piece of text that's sent to the output will print on the same line. You can hover over each of these methods in your code to see their description.
 
 1. Next, we'll use refactoring again to make the code a little more concise. Click on the variable `now` in the line `DateTime now = DateTime.Now;`.
 
@@ -236,7 +236,7 @@ Following are some other common productivity features in Visual Studio:
 
    ![Go to Definition](../ide/media/VSIDE_go_to_definition.png)
 
-## Delve deeper
+## Learn more
 
 Do you want to create an app for an Android phone? You can do that. How about create a cutting edge game using C++? You can do that too, and much more. Visual Studio provides templates that help you make websites, games, desktop apps, mobile apps, apps for Office, and more. Or, you can simply open some code you get from almost anywhere and get working. See a project on GitHub that you like? Just clone the repository, open it in Visual Studio, and start coding!
 
