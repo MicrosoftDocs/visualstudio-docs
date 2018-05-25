@@ -39,8 +39,8 @@ This section describes the procedures and options for collecting memory allocati
   
 |Task|Related content|  
 |----------|---------------------|  
-|**Profiling ASP.NET applications**|-   [Collect memory data](../profiling/collecting-memory-data-from-an-aspnet-web-application.md)|  
-|**Profiling services**|-   [Collect .NET memory data](../profiling/collecting-memory-data-from-dotnet-framework-services-by-using-the-profiler-command-line.md)|  
+|**Profile ASP.NET applications**|-   [Collect memory data](../profiling/collecting-memory-data-from-an-aspnet-web-application.md)|  
+|**Profile services**|-   [Collect .NET memory data](../profiling/collecting-memory-data-from-dotnet-framework-services-by-using-the-profiler-command-line.md)|  
   
 ### Analyze .NET memory data views and reports  
  [.NET memory data views](../profiling/dotnet-memory-data-views.md)  

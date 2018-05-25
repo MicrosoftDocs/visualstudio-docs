@@ -11,10 +11,10 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Command-Line Profiling Tools Reference
+# Command-line profiling tools reference
 Command-line performance tools allow programmers to profile their applications at the command prompt. The following command-line profiling tools allow you to profile code at the command prompt.  
   
-## In This Section  
+## In this section  
  [VSInstr](../profiling/vsinstr.md)  
  Lists VSInstr.exe instrumentation options.  
   
