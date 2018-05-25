@@ -34,7 +34,7 @@ PROFILE_COMMAND_STATUS PROFILERAPI CommentMarkProfile(
   
  Pointer to the text string to insert. The string must be less than 256 characters including the NULL terminator.  
   
-## Property Value/Return Value  
+## Property value/return value  
  The function indicates success or failure by using **PROFILE_COMMAND_STATUS** enumeration. The return value can be one of the following:  
   
 |Enumerator|Description|  
@@ -55,10 +55,10 @@ PROFILE_COMMAND_STATUS PROFILERAPI CommentMarkProfile(
 > [!IMPORTANT]
 >  CommentMarkProfile method can only be used with instrumentation.  
   
-## .NET Framework Equivalent  
+## .NET Framework equivalent  
  Microsoft.VisualStudio.Profiler.dll  
   
-## Function Information  
+## Function information  
   
 |||  
 |-|-|  
@@ -105,5 +105,5 @@ void ExerciseCommentMarkProfile()
 }  
 ```  
   
-## See Also  
- [Visual Studio Profiler API Reference (Native)](../profiling/visual-studio-profiler-api-reference-native.md)
+## See also  
+ [Visual Studio profiler API reference (native)](../profiling/visual-studio-profiler-api-reference-native.md)
