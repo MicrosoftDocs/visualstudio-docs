@@ -1,7 +1,7 @@
 ---
 title: Tutorial - Learn Flask in Visual Studio, step 2
 description: A walkthrough of FLask basics in the context of Visual Studio projects, specifically steps of creating an app and using views and templates.
-ms.date: 05/15/2018
+ms.date: 05/25/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: tutorial

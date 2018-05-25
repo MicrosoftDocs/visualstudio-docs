@@ -1,7 +1,7 @@
 ---
 title: Tutorial - Learn Flask in Visual Studio, step 1
 description: A walkthrough of Flask basics in the context of Visual Studio projects.
-ms.date: 05/15/2018
+ms.date: 05/25/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: tutorial
@@ -35,11 +35,13 @@ Over the course of these steps you create a single Visual Studio solution that c
 
 ## Prerequisites
 
-- Visual Studio 2017 with the following options:
+- Visual Studio 2017 on Windows with the following options:
   - The **Python development** workload (**Workload** tab in the installer). For instructions, see [Installing Python support in Visual Studio](installing-python-support-in-visual-studio.md).
   - **Git for Windows** and **GitHub Extension for Visual Studio** on the **Individual components** tab under **Code tools**.
 
 Flask project templates are included with all earlier versions of Python Tools for Visual Studio, though details may differ from what's discussed in this tutorial.
+
+Python development is not presently supported in Visual Studio for Mac. On Mac and Linux, use the [Python extension in Visual Studio Code](https://code.visualstudio.com/docs/python/python-tutorial).
 
 ## Step 1-1: Create a Visual Studio project and solution
 
