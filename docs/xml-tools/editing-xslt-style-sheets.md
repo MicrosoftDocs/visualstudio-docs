@@ -24,7 +24,7 @@ The XML Editor can also be used to edit XSLT style sheets. You can take advantag
 
  **Wavy underlines**
 
- The XML Editor uses the installed xslt.*xsd* file to validate XSLT style sheets. Validation errors are shown as blue wavy underlines. The XML Editor also compiles the style sheet in the background and reports compiler errors or warnings with appropriate wavy underlines.
+ The XML Editor uses the installed *xslt.xsd* file to validate XSLT style sheets. Validation errors are shown as blue wavy underlines. The XML Editor also compiles the style sheet in the background and reports compiler errors or warnings with appropriate wavy underlines.
 
  **Support for script blocks**
 
