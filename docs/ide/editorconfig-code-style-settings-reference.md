@@ -294,7 +294,7 @@ dotnet_style_predefined_type_for_member_access = true:suggestion
 
 #### <a name="normalize_modifiers"></a>Modifier preferences
 
-The style rules in this section concern modifier preferences, including requiring accessibility modifiers, specifying the desired modifier sort order and requiring the read-only modifier.
+The style rules in this section concern modifier preferences, including requiring accessibility modifiers, specifying the desired modifier sort order, and requiring the read-only modifier.
 
 The following table shows the rule names, rule IDs, applicable programming languages, default values, and first supported version of Visual Studio:
 
@@ -363,7 +363,7 @@ End Class
 
 **dotnet_style_readonly_field**
 
-- When this rule is set to **true**, prefer that fields should be marked with `readonly` (C#) or `ReadOnly` (Visual Basic) if they are only ever assigned inline or inside of a constructor.
+- When this rule is set to **true**, prefer that fields should be marked with `readonly` (C#) or `ReadOnly` (Visual Basic) if they are only ever assigned inline, or inside of a constructor.
 - When this rule is set to **false**, specify no preference over whether fields should be marked with `readonly` (C#) or `ReadOnly` (Visual Basic).
 
 Code examples:
