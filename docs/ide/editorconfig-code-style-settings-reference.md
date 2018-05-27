@@ -233,7 +233,7 @@ The following table shows the rule names, rules IDs, applicable programming lang
 
 | Rule name | Rule ID | Applicable languages | Visual Studio default |
 | --------- | ------- | -------------------- | ----------------------|
-| dotnet_style_predefined_type_for_locals_ parameters_members | IDE0012 and IDE0014 | C# and Visual Basic | true:none |
+| dotnet_style_predefined_type_for_locals_parameters_members | IDE0012 and IDE0014 | C# and Visual Basic | true:none |
 | dotnet_style_predefined_type_for_member_access | IDE0013 and IDE0015 | C# and Visual Basic | true:none |
 
 **dotnet\_style\_predefined\_type\_for\_locals\_parameters_members**
