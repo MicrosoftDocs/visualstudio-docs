@@ -310,7 +310,7 @@ This rule does not accept a **true** or **false** value; instead it accepts a va
 | Value | Description |
 | ----- |:----------- |
 | always | Prefer accessibility modifiers to be specified |
-| for\_non\_interface_members | Prefer accessibility modifiers to be declared except for public interface members. This will currently not differ from **always** and will act as future proofing for if C# adds default interface methods. |
+| for\_non\_interface_members | Prefer accessibility modifiers to be declared except for public interface members. This is the same as **always** and has been added for future proofing if C# adds default interface methods. |
 | never | Do not prefer accessibility modifiers to be specified |
 
 Code examples:
