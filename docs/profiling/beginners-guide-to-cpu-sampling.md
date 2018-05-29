@@ -30,12 +30,12 @@ You can use Visual Studio profiling tools to analyze performance issues in your 
  If **Sampling** does not give you the data that you need, other profiling tools collection methods provide different kinds of information that might be helpful to you. For more information about these other methods, see [How to: Choose collection methods](../profiling/how-to-choose-collection-methods.md).  
   
 > [!TIP]
->  If you profile code that calls Windows functions, you should make sure that you have the most current .pdb files. Without these files, your report views will list Windows function names that are cryptic and difficult to understand. For more information about how to make sure that you have the files you need, see [How to: Reference Windows symbol information](../profiling/how-to-reference-windows-symbol-information.md).  
+>  If you profile code that calls Windows functions, you should make sure that you have the most current .*pdb* files. Without these files, your report views will list Windows function names that are cryptic and difficult to understand. For more information about how to make sure that you have the files you need, see [How to: Reference Windows symbol information](../profiling/how-to-reference-windows-symbol-information.md).  
   
 ## Create and run a performance session  
  To get the data that you need to analyze, you must first create a performance session and then run the session. The **Performance Wizard** lets you do both.  
   
- If you are not profiling a Windows desktop app or ASP.NET app, you must use one of the other profiling tools. See [Profiling Tools](../profiling/profiling-tools.md).  
+ If you are not profiling a Windows desktop app or ASP.NET app, you must use one of the other profiling tools. See [Profile tools](../profiling/profiling-tools.md).  
   
 #### To create and run a performance session  
   
@@ -87,13 +87,13 @@ You can use Visual Studio profiling tools to analyze performance issues in your 
   
     -   The lower pane of the **Function Details** windows displays the function code itself. If you examine the code and find an opportunity to optimize its performance, click the source file name to open the file in the Visual Studio editor.  
   
-3.  To continue your analysis, return to the **Summary** view by selecting **Summary** from the View drop-down list. Then examine the functions in **Functions Doing the Most Individual Work**. This list displays the functions with the highest exclusive samples. The code in the function body of these functions performed significant work and you might be able to optimize it. To further analyze a particular function, click the function name to display it in the **Function Details** view.  
+3.  To continue your analysis, return to the **Summary** view by selecting **Summary** from the **View** drop-down list. Then examine the functions in **Functions Doing the Most Individual Work**. This list displays the functions with the highest exclusive samples. The code in the function body of these functions performed significant work and you might be able to optimize it. To further analyze a particular function, click the function name to display it in the **Function Details** view.  
   
      ![List of functions doing the most work](../profiling/media/functions_mostwork.png "Functions_MostWork")  
   
      To continue your investigation of the profiling run, you can reanalyze a segment of the profiling data by using the timeline in the **Summary** view to show you the **Hot Path** and **Functions Doing  Most Individual Work** from a selected segment. For example, focusing on a smaller peak in the timeline might reveal expensive call trees and functions that were not shown in the analysis of the entire profiling run.  
   
-     To reanalyze a segment, select a segment inside the Summary Timeline box and then click **Filter by Selection**.  
+     To reanalyze a segment, select a segment inside the **Summary Timeline** box and then click **Filter by Selection**.  
   
      ![Performance Summary view timeline](../profiling/media/performancesummary.png "PerformanceSummary")  
   
@@ -114,7 +114,7 @@ You can use Visual Studio profiling tools to analyze performance issues in your 
   
 3.  In the **Performance Explorer**, right-click the session that you want to rerun, and then click **Launch with Profiling.**  
   
-4.  After you rerun the session, another data file is added to the **Reports** folder for the session in **Performance Explorer**. Select both the original and new profiling data, right-click the selection, and then click **Compare Performance Reports**.  
+4.  After you rerun the session, another data file is added to the *Reports* folder for the session in **Performance Explorer**. Select both the original and new profiling data, right-click the selection, and then click **Compare Performance Reports**.  
   
      A new report window opens, displaying the results of the comparison. For more information about how to use the comparison view, see [How to: Compare performance data files](../profiling/how-to-compare-performance-data-files.md).
   
@@ -122,5 +122,5 @@ You can use Visual Studio profiling tools to analyze performance issues in your 
  [Performance Explorer](../profiling/performance-explorer.md)   
  [Getting started](../profiling/getting-started-with-performance-tools.md)   
  [Overviews](../profiling/overviews-performance-tools.md)  
- [Profiling in Visual Studio](../profiling/index.md)  
- [Profiling feature tour](../profiling/profiling-feature-tour.md)
+ [Profile in Visual Studio](../profiling/index.md)  
+ [Profile feature tour](../profiling/profiling-feature-tour.md)

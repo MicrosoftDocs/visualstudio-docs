@@ -18,13 +18,13 @@ ms.workload:
   - "multiple"
 ---
 # VSPerfCmd
-The **VSPerfCmd.exe** tool is used to start and stop performance data collection. It uses the following syntax:  
+The *VSPerfCmd.exe* tool is used to start and stop performance data collection. It uses the following syntax:  
   
 ```cmd  
 VSPerfCmd [/U] [/options]  
 ```  
   
- The following tables describe **VSPerfCmd.exe** tool options.  
+ The following tables describe *VSPerfCmd.exe* tool options.  
   
 |Option|Description|  
 |------------|-----------------|  
@@ -38,7 +38,7 @@ VSPerfCmd [/U] [/options]
 |[QueryCounters](../profiling/querycounters.md)|Displays a list of valid CPU counters for the current machine.|  
 |[WinCounter](../profiling/wincounter.md) **:** *path*|Specifies a Windows performance counter event to include with profile mark data. Use only with **Start**.|  
 |[AutoMark](../profiling/automark.md) **:** *n*|Specifies the time interval (in milliseconds) between Windows performance counter data collection events. Use with **WinCounter**.|  
-|[Events](../profiling/events-vsperfcmd.md) **:** `option`|Controls collection of specified Event Tracing for Windows (ETW) events. ETW data is collected to an .itl file that is not the profiling data (.vsp) file.|  
+|[Events](../profiling/events-vsperfcmd.md) **:** `option`|Controls collection of specified Event Tracing for Windows (ETW) events. ETW data is collected to an .*itl* file that is not the profiling data (.*vsp*) file.|  
 |[Status](../profiling/status.md)|Displays the state of the profiler, information about processes that are currently being profiled, and accounts that have authority to control the profiler.|  
 |[Shutdown](../profiling/shutdown.md)[**:**`n`]|Closes the profiling data file and turns the profiler off.|  
 |[GlobalOn](../profiling/globalon-and-globaloff.md)|Resumes data collection after a call to **VSPerfCmdGlobalOff**.|  
@@ -57,8 +57,8 @@ VSPerfCmd [/U] [/options]
 |[Launch](../profiling/launch.md) **:** *Executable*|Starts the specified application and begins profiling.|  
 |[Args](../profiling/args.md) **:** *Arguments*|Specifies command line arguments to pass to the launched application.|  
 |[Console](../profiling/console.md)|Starts the specified command in a new command prompt window.|  
-|[Attach](../profiling/attach.md) **:** *PID*[**,***PID*]|Begins profiling the specified processes. Processes can be identified by the process id or by the process name.|  
-|[Detach](../profiling/detach.md)[**:***PID*[,*PID*]]|Stops profiling the specified processes. Processes can be identified by the process id or by the process name. If no process is specified, profiling is halted for all processes.|  
+|[Attach](../profiling/attach.md) **:** *PID*[**,***PID*]|Begins profiling the specified processes. Processes can be identified by the process ID or by the process name.|  
+|[Detach](../profiling/detach.md)[**:***PID*[,*PID*]]|Stops profiling the specified processes. Processes can be identified by the process ID or by the process name. If no process is specified, profiling is halted for all processes.|  
 |[GC](../profiling/gc-vsperfcmd.md)[**:**{**Allocation**`&#124;`**Lifetime**}]|Collects .NET memory allocation and object lifetime data. Use only with the **VSPerfCmdLaunch** option.|  
   
 ### Sample interval options  
@@ -85,7 +85,7 @@ VSPerfCmd [/U] [/options]
 ## VSPerfCmd /Driver  
  The **VSPerfCmd /Driver** option is now obsolete. Use the **VsPerfCmdAdmin** options for this functionality.  
   
-## See Also  
+## See also  
  [VSInstr](../profiling/vsinstr.md)   
  [VSPerfMon](../profiling/vsperfmon.md)   
  [VSPerfReport](../profiling/vsperfreport.md)
