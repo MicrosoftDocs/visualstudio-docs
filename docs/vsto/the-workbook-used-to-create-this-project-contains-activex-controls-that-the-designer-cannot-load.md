@@ -25,12 +25,12 @@ ms.workload:
   
 1.  Open the document or workbook.  
   
-2.  Remove the controls that were added at run time. You can do this by selecting them in the document or workbook and pressing the DELETE key.  
+2.  Remove the controls that were added at runtime. You can do this by selecting them in the document or workbook and pressing the DELETE key.  
   
 3.  Create a document-level solution based on the document or workbook.  
   
 ## See Also  
  [How to: Create Office Projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md)   
- [Adding Controls to Office Documents at Run Time](../vsto/adding-controls-to-office-documents-at-run-time.md)  
+ [Adding Controls to Office Documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md)  
   
   

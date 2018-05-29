@@ -1,5 +1,5 @@
 ---
-title: "Ribbon Designer | Microsoft Docs"
+title: "Ribbon Designer"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
@@ -33,7 +33,7 @@ ms.workload:
 # Ribbon Designer
   The Ribbon Designer is a visual design canvas. Use the Ribbon Designer to add custom tabs, groups, and controls to the Ribbon of a Microsoft Office application.  
   
- [!INCLUDE[appliesto_ribbon](../vsto/includes/appliesto-ribbon-md.md)]  
+ [!INCLUDE[appliesto_Ribbon](../vsto/includes/appliesto-Ribbon-md.md)]  
   
  To open the Ribbon Designer, add a **Ribbon (Visual Designer)** item to your project. You can then use the design tools for the following tasks:  
   
@@ -44,12 +44,12 @@ ms.workload:
 -   [Add controls to Backstage View](#CustomizingMicrosoftOfficeButton)  
   
 > [!NOTE]  
->  There are some tasks that you cannot accomplish by using the Ribbon Designer. For more information about these tasks and how you can accomplish them, see [Ribbon Overview](../vsto/ribbon-overview.md).  
+>  There are some tasks that you cannot accomplish by using the Ribbon Designer. For more information about these tasks and how you can accomplish them, see [Ribbon Overview](../vsto/Ribbon-overview.md).  
   
- ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How Do I: Use the Ribbon Designer to Customize the Ribbon in Outlook?](http://go.microsoft.com/fwlink/?LinkID=130312).  
+ ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Use the Ribbon Designer to customize the Ribbon in Outlook?](http://go.microsoft.com/fwlink/?LinkID=130312).  
   
-## Adding a Ribbon (Visual Designer) Item to a Project  
- To use the Ribbon Designer, add a new **Ribbon (Visual Designer)** item to your project. For more information, see [How to: Get Started Customizing the Ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md).  
+## Add a Ribbon (Visual Designer) item to a project  
+ To use the Ribbon Designer, add a new **Ribbon (Visual Designer)** item to your project. For more information, see [How to: Get started customizing the Ribbon](../vsto/how-to-get-started-customizing-the-Ribbon.md).  
   
  When you add a new **Ribbon (Visual Designer)** item, Visual Studio automatically adds the following files to your project:  
   
@@ -61,7 +61,7 @@ ms.workload:
   
  If you already have a **Ribbon (Visual Designer)** item from another project, you can reuse it in your current project by using the **Add Existing Item** dialog box.  
   
-##  <a name="DesigningRibbonLayout"></a> Designing a Ribbon  
+##  <a name="DesigningRibbonLayout"></a> Design a Ribbon  
  There are three ways to open the Ribbon Designer:  
   
 -   In **Solution Explorer**, double-click the Ribbon code file.  
@@ -80,7 +80,7 @@ ms.workload:
   
 -   Select an appropriate area in the designer, and then double-click a control in the **Toolbox**.  
   
-### Ribbon Design Workflow  
+### Ribbon design workflow  
  Follow these basic steps to design the Ribbon layout:  
   
 1.  [Add a custom tab to the Ribbon](#AddTabToRibbon).  
@@ -93,9 +93,9 @@ ms.workload:
   
  Arrange controls by dragging them to the correct positions. You can set the properties of a control by using the **Properties** window.  
   
- You cannot drag controls from one tab to another on the Ribbon. If you want to move a control to another tab, you must use the **Cut** command to remove the control from one tab, and then paste the control on another tab. If you do cut the control and paste it, the event handler stops working. You can reconnect the event handler in the **Properties** window. For more information, see [Properties Window](/visualstudio/ide/reference/properties-window).  
+ You cannot drag controls from one tab to another on the Ribbon. If you want to move a control to another tab, you must use the **Cut** command to remove the control from one tab, and then paste the control on another tab. If you do cut the control and paste it, the event handler stops working. You can reconnect the event handler in the **Properties** window. For more information, see [Properties window](/visualstudio/ide/reference/properties-window).  
   
-###  <a name="AddTabToRibbon"></a> Adding Custom Tabs to the Ribbon  
+###  <a name="AddTabToRibbon"></a> Add custom tabs to the Ribbon  
  There are three ways to add a custom tab to the Ribbon:  
   
 -   Add a tab from the **Toolbox**.  
@@ -108,7 +108,7 @@ ms.workload:
   
  After you add a tab, you can add groups to contain controls.  
   
-#### Removing Custom Tabs from the Ribbon  
+#### Remove custom tabs from the Ribbon  
  There are three ways to remove a custom tab from the Ribbon:  
   
 -   Right-click the designer, and then click **Remove Ribbon Tab**.  
@@ -117,22 +117,22 @@ ms.workload:
   
 -   Open the **Tab Collection Editor**, select the tab, and then click **Remove**.  
   
-#### Changing the Position of a Tab on the Ribbon  
- You can change the order of custom tabs on a Ribbon. You can also position custom tabs before or after a built-in tab on the Ribbon. For more information, see [How to: Change the Position of a Tab on the Ribbon](../vsto/how-to-change-the-position-of-a-tab-on-the-ribbon.md).  
+#### Change the position of a tab on the Ribbon  
+ You can change the order of custom tabs on a Ribbon. You can also position custom tabs before or after a built-in tab on the Ribbon. For more information, see [How to: Change the position of a tab on the Ribbon](../vsto/how-to-change-the-position-of-a-tab-on-the-Ribbon.md).  
   
-#### Customizing Built-in Tabs on the Ribbon  
+#### Customize built-in tabs on the Ribbon  
  A built-in tab is a tab that is already on the Ribbon of a Microsoft Office application. For example, the **Data** tab is a built-in tab in Excel.  
   
  You can add groups and controls to a built-in tab. By default, a custom group appears as the last group on a built-in tab, though you can move it before or after any built-in group on the tab.  
   
  You cannot remove built-in groups.  
   
- For details about how to customize a built-in tab, see [How to: Customize a Built-in Tab](../vsto/how-to-customize-a-built-in-tab.md).  
+ For details about how to customize a built-in tab, see [How to: Customize a built-in tab](../vsto/how-to-customize-a-built-in-tab.md).  
   
-###  <a name="AddGroupsToTab"></a> Adding Groups to a Tab  
+###  <a name="AddGroupsToTab"></a> Add groups to a tab  
  Groups logically organize controls on the Ribbon. Add groups to tabs. Add all other controls to the group.  
   
-###  <a name="AddControlsToGroups"></a> Adding Controls to Groups  
+###  <a name="AddControlsToGroups"></a> Add controls to groups  
  Add one or more controls to a group. The following table describes each control.  
   
 |Control|Description|  
@@ -146,28 +146,28 @@ ms.workload:
 |**EditBox**|A box in which the user can type text.|  
 |**Gallery**|A menu that presents an array or grid of visual choices from which users can select. You can control the layout of the selections in the menu. Use the <xref:Microsoft.Office.Tools.Ribbon.RibbonGallery.ColumnCount%2A> and the <xref:Microsoft.Office.Tools.Ribbon.RibbonGallery.RowCount%2A> properties to specify the number of rows and columns that will display the items and buttons of the gallery.|  
 |**Label**|Text that you can use to identify controls on the Ribbon.|  
-|**Menu**|A drop-down list that can contain any of the following controls:<br /><br /> -   Button<br />-   Check box<br />-   Gallery<br />-   Menu<br />-   Split button<br />-   Toggle button<br />-   Separator<br /><br /> To add a control to a menu in the Ribbon Designer, click the down arrow in the menu to expose the menu design surface. You can then drag Ribbon controls from the **Toolbox** onto the menu. To arrange controls, drag them to the desired positions.<br /><br /> To add controls to the <xref:Microsoft.Office.Tools.Ribbon.RibbonMenu> after the Ribbon is loaded into the Office application, you must set the <xref:Microsoft.Office.Tools.Ribbon.RibbonMenu.Dynamic%2A> property to **true** before the Ribbon is loaded. For information about how to do this, see [Ribbon Object Model Overview](../vsto/ribbon-object-model-overview.md).|  
+|**Menu**|A drop-down list that can contain any of the following controls:<br /><br /> -   Button<br />-   Check box<br />-   Gallery<br />-   Menu<br />-   Split button<br />-   Toggle button<br />-   Separator<br /><br /> To add a control to a menu in the Ribbon Designer, click the down arrow in the menu to expose the menu design surface. You can then drag Ribbon controls from the **Toolbox** onto the menu. To arrange controls, drag them to the desired positions.<br /><br /> To add controls to the <xref:Microsoft.Office.Tools.Ribbon.RibbonMenu> after the Ribbon is loaded into the Office application, you must set the <xref:Microsoft.Office.Tools.Ribbon.RibbonMenu.Dynamic%2A> property to **true** before the Ribbon is loaded. For information about how to do this, see [Ribbon object model overview](../vsto/Ribbon-object-model-overview.md).|  
 |**Separator**|A thin bar used to separate items in a list. When added to a group, the bar is vertical. When added to a menu, the bar is horizontal.|  
-|**SplitButton**|A button with a menu attached. A split button can contain any of the following controls:<br /><br /> -   Button<br />-   Check box<br />-   Gallery<br />-   Menu<br />-   Split button<br />-   Toggle button<br />-   Separator<br /><br /> Like the menu, the split button has its own design surface. However, unlike a menu, you can only update the items in a split button before the Ribbon is loaded into the Office application. For information about how to update the items in a split button, see [Ribbon Object Model Overview](../vsto/ribbon-object-model-overview.md).|  
+|**SplitButton**|A button with a menu attached. A split button can contain any of the following controls:<br /><br /> -   Button<br />-   Check box<br />-   Gallery<br />-   Menu<br />-   Split button<br />-   Toggle button<br />-   Separator<br /><br /> Like the menu, the split button has its own design surface. However, unlike a menu, you can only update the items in a split button before the Ribbon is loaded into the Office application. For information about how to update the items in a split button, see [Ribbon object model overview](../vsto/Ribbon-object-model-overview.md).|  
 |**ToggleButton**|A button that appears pressed or not pressed.|  
   
-##  <a name="HandleEventsSetProperties"></a> Handling Events and Setting Properties  
- The Ribbon Designer enables you to set control properties at design time by using the **Properties** window. In addition, the Ribbon exposes a strongly typed object model that you can use to get and set the properties of Ribbon controls at run time.  
+##  <a name="HandleEventsSetProperties"></a> Handle events and setting properties  
+ The Ribbon Designer enables you to set control properties at design time by using the **Properties** window. In addition, the Ribbon exposes a strongly typed object model that you can use to get and set the properties of Ribbon controls at runtime.  
   
  You can double-click any control on the designer to open an event handler for the control's default event. You can create event handlers for all other control events by using the **Properties** window.  
   
  Ribbon events and properties are located in the <xref:Microsoft.Office.Tools.Ribbon> namespace. The **Ribbon (Visual Designer)** item automatically adds a reference to this assembly in the project and inserts the appropriate **using** or **Imports** statement at the top of the Ribbon code file.  
   
- For information about handling Ribbon events and setting the properties of Ribbon controls at run time, see [Ribbon Object Model Overview](../vsto/ribbon-object-model-overview.md).  
+ For information about handling Ribbon events and setting the properties of Ribbon controls at run time, see [Ribbon object model overview](../vsto/Ribbon-object-model-overview.md).  
   
-##  <a name="CustomizingMicrosoftOfficeButton"></a> Customizing Backstage View  
+##  <a name="CustomizingMicrosoftOfficeButton"></a> Customize Backstage view  
  You can use the Ribbon Designer to add controls to the menu that opens when you click the **File** tab. This menu is called the Backstage view.  
   
- You cannot position controls before or after built-in controls by using the Ribbon designer. A built-in control is a control that already appears in Backstage view. If you want to position controls before or after built-in controls, you must use Ribbon XML. For more information about **Ribbon (XML)**, see [Ribbon XML](../vsto/ribbon-xml.md). For more information about customizing the Backstage view, see [Introduction to the Office 2010 Backstage View for Developers](http://go.microsoft.com/fwlink/?LinkId=182189) and [Customizing the Office 2010 Backstage View for Developers](http://go.microsoft.com/fwlink/?LinkId=182188).  
+ You cannot position controls before or after built-in controls by using the Ribbon designer. A built-in control is a control that already appears in Backstage view. If you want to position controls before or after built-in controls, you must use Ribbon XML. For more information about **Ribbon (XML)**, see [Ribbon XML](../vsto/Ribbon-xml.md). For more information about customizing the Backstage view, see [Introduction to the Office 2010 Backstage view for developers](http://go.microsoft.com/fwlink/?LinkId=182189) and [Customize the Office 2010 Backstage view for developers](http://go.microsoft.com/fwlink/?LinkId=182188).  
   
- [!INCLUDE[appliesto_ribbon_2010](../vsto/includes/appliesto-ribbon-2010-md.md)]  
+ [!INCLUDE[appliesto_Ribbon_2010](../vsto/includes/appliesto-Ribbon-2010-md.md)]  
   
- For information about how to add controls to the Backstage view, see [How to: Add Controls to the Backstage View](../vsto/how-to-add-controls-to-the-backstage-view.md).  
+ For information about how to add controls to the Backstage view, see [How to: Add controls to the Backstage view](../vsto/how-to-add-controls-to-the-backstage-view.md).  
   
 ##  <a name="Accessibility"></a> Accessibility in the Ribbon Designer  
  You can use keyboard shortcuts to move controls in the Ribbon Designer. Some keyboard shortcuts apply to all controls, and some apply only to controls that have menus.  
@@ -176,34 +176,34 @@ ms.workload:
   
 |Action|Keyboard shortcut|  
 |------------|-----------------------|  
-|Move a control before the previous control in the list.|CTRL+UP<br /><br /> CTRL+LEFT|  
-|Move a control after the next control in the list.|CTRL+DOWN<br /><br /> CTRL+RIGHT|  
-|Move the selection from one control to another in the same group. For a drop-down panel, move between the parent control and the controls in the drop-down panel.|UP<br /><br /> DOWN|  
-|Iterate forward through all the controls.|TAB|  
-|Iterate to the reverse through all the controls.|SHIFT+TAB|  
-|Delete the selected control or set of controls.|DELETE|  
-|Copy the selected controls.|CTRL+C|  
-|Cut the selected controls.|CTRL+X|  
-|Paste controls from the Clipboard.|CTRL+V|  
-|Select the **Toolbox**.|CTRL+ALT+X|  
-|Select the parent component.|ESC|  
+|Move a control before the previous control in the list.|**Ctrl**+**Up**<br /><br /> **Ctrl**+**Left**|  
+|Move a control after the next control in the list.|**Ctrl**+**Down**<br /><br /> **Ctrl**+**Right**|  
+|Move the selection from one control to another in the same group. For a drop-down panel, move between the parent control and the controls in the drop-down panel.|**Up**<br /><br /> **Down**|  
+|Iterate forward through all the controls.|**Tab**|  
+|Iterate to the reverse through all the controls.|**Shift**+**Tab**|  
+|Delete the selected control or set of controls.|**Delete**|  
+|Copy the selected controls.|**Ctrl**+**C**|  
+|Cut the selected controls.|**Ctrl**+**X**|  
+|Paste controls from the Clipboard.|**Ctrl**+**V**|  
+|Select the **Toolbox**.|**Ctrl**+**Alt**+**X**|  
+|Select the parent component.|**Esc**|  
   
  The keyboard shortcuts that apply only to the Microsoft Office Menu, <xref:Microsoft.Office.Tools.Ribbon.RibbonMenu>, and <xref:Microsoft.Office.Tools.Ribbon.RibbonSplitButton> are shown in the following table.  
   
 |Action|Keyboard shortcut|  
 |------------|-----------------------|  
-|Select the parent control if the drop-down panel is open and there is a control selected on the drop-down panel.|LEFT|  
-|Close the drop-down panel if the drop-down panel is open and parent control is selected.|LEFT|  
-|Open the drop-down panel.|RIGHT|  
-|Select the first control on the drop-down panel if the drop-down panel is open.|RIGHT|  
-|Close a drop-down panel.|ESC|  
+|Select the parent control if the drop-down panel is open and there is a control selected on the drop-down panel.|**Left**|  
+|Close the drop-down panel if the drop-down panel is open and parent control is selected.|**Left**|  
+|Open the drop-down panel.|**Right**|  
+|Select the first control on the drop-down panel if the drop-down panel is open.|**Right**|  
+|Close a drop-down panel.|**Esc**|  
   
-## See Also  
- [Ribbon Overview](../vsto/ribbon-overview.md)   
- [Ribbon XML](../vsto/ribbon-xml.md)   
- [Walkthrough: Creating a Custom Tab by Using the Ribbon Designer](../vsto/walkthrough-creating-a-custom-tab-by-using-the-ribbon-designer.md)   
- [How to: Export a Ribbon from the Ribbon Designer to Ribbon XML](../vsto/how-to-export-a-ribbon-from-the-ribbon-designer-to-ribbon-xml.md)   
- [How to: Get Started Customizing the Ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md)   
- [Accessing the Ribbon at Run Time](../vsto/accessing-the-ribbon-at-run-time.md)  
+## See also  
+ [Ribbon overview](../vsto/Ribbon-overview.md)   
+ [Ribbon XML](../vsto/Ribbon-xml.md)   
+ [Walkthrough: Create a custom tab by using the Ribbon Designer](../vsto/walkthrough-creating-a-custom-tab-by-using-the-Ribbon-designer.md)   
+ [How to: Export a Ribbon from the Ribbon Designer to Ribbon XML](../vsto/how-to-export-a-Ribbon-from-the-Ribbon-designer-to-Ribbon-xml.md)   
+ [How to: Get started customizing the Ribbon](../vsto/how-to-get-started-customizing-the-Ribbon.md)   
+ [Access the Ribbon at runtime](../vsto/accessing-the-Ribbon-at-run-time.md)  
   
   

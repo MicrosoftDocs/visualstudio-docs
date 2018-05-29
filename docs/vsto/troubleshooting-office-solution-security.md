@@ -22,7 +22,7 @@ ms.workload:
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]  
   
 ## Trusted Solutions Cannot Be Installed from Restricted Sites  
- Users cannot install a solution from a web location if the web site is listed in the Internet Explorer restricted sites zone. This is true even if the solution is signed with a trusted certificate.  
+ Users cannot install a solution from a web location if the website is listed in the Internet Explorer restricted sites zone. This is true even if the solution is signed with a trusted certificate.  
   
  The URL of the deployment manifest can be categorized into one of five zones:  
   
@@ -43,7 +43,7 @@ ms.workload:
   
  With IEESC and Internet Explorer 7 and higher, if the URL of the deployment manifest is categorized in the Internet zone, the manifest must have a certificate from a trusted publisher or the solution cannot be installed. Without IEESC, the default behavior is to prompt the end user to make a trust decision.  
   
- To manage the effect of IEESC and Internet Explorer 7 and higher, identify web sites and universal naming convention (UNC) paths that you trust and add them to one of the trusted security zones (Local intranet or Trusted sites).For information about how to manage zones, see [Configuring ClickOnce Trusted Publishers](http://go.microsoft.com/fwlink/?LinkId=94774).  
+ To manage the effect of IEESC and Internet Explorer 7 and higher, identify websites and universal naming convention (UNC) paths that you trust and add them to one of the trusted security zones (Local intranet or Trusted sites).For information about how to manage zones, see [Configuring ClickOnce Trusted Publishers](http://go.microsoft.com/fwlink/?LinkId=94774).  
   
 ## See Also  
  [Securing Office Solutions](../vsto/securing-office-solutions.md)  
