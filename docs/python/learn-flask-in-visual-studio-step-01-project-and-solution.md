@@ -201,7 +201,7 @@ def hello():
     return "Hello World!"
 ```
 
-< a name="qa-url-variables"></a>
+<a name="qa-url-variables"></a>
 
 ### Question: how does Flask work with variable URL routes and query parameters?
 
