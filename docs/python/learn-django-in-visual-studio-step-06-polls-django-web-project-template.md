@@ -108,6 +108,7 @@ class Choice(models.Model):
 ```
 
 As you can see, a Poll maintains a description in its `text` field and a publication date in `pub_date`. These fields are the only onesields that exist for the Poll in the database; the `total_votes` field is calculated at runtime.
+<!---Loc Comment: What does "onesields" mean--->
 
 A Choice is related to a Poll through the `poll` field, contains a description in `text`, and maintains a count for that choice in `votes`. The `votes_percentage` field is calculated at runtime and is not found in the database.
 
