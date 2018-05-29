@@ -31,7 +31,7 @@ Use the **Application Timeline** profiler to find and fix application-interactio
 > [!NOTE]
 >  You can collect and analyze CPU usage data and energy consumption data along with the **ApplicationTimeline** data. See [Running Profiling Tools with or without the Debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
   
-##  <a name="BKMK_Collect_Timeline_data_for_your_app"></a> Collect application timeline data  
+## Collect application timeline data  
  You can profile the responsiveness of your app on your local machine, connected device, Visual Studio simulator or emulators, or a remote device. See [Running Profiling Tools with or without the Debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
   
 > [!TIP]
@@ -56,7 +56,7 @@ Use the **Application Timeline** profiler to find and fix application-interactio
   
      ![Timeline profiler report](../profiling/media/timeline_base.png "TIMELINE_Base")  
   
-##  <a name="BKMK_Analyze_Timeline_profiling_data"></a> Analyze timeline profiling data  
+## Analyze timeline profiling data  
  After you have collected the profiling data, you can use these steps to start your analysis:  
   
 1.  Examine the information in the **UI thread utilization** and **Visual throughput (FPS)** graphs and then use the timeline navigation bars to select a time range that you want to analyze.  
@@ -111,8 +111,8 @@ Use the **Application Timeline** profiler to find and fix application-interactio
 |![Customize Timeline details information](../profiling/media/timeline_viewsettings.png "TIMELINE_ViewSettings")|Lets you specify the annotations to events.|  
   
 ## See also  
- [WPF Team Blog: New UI Performance Analysis Tool for WPF Applications](http://blogs.msdn.com/b/wpf/archive/2015/01/16/new-ui-performance-analysis-tool-for-wpf-applications.aspx)  
+ [WPF team blog: New UI performance analysis tool for WPF applications](http://blogs.msdn.com/b/wpf/archive/2015/01/16/new-ui-performance-analysis-tool-for-wpf-applications.aspx)  
  [Performance best practices for UWP apps using C++, C#, and Visual Basic](http://msdn.microsoft.com/en-us/567bcefa-5da5-4e42-a4b8-1358c71adfa2)   
- [Optimizing WPF Application Performance](/dotnet/framework/wpf/advanced/optimizing-wpf-application-performance)  
+ [Optimize WPF application performance](/dotnet/framework/wpf/advanced/optimizing-wpf-application-performance)  
  [Profiling in Visual Studio](../profiling/index.md)  
- [Profiling Feature Tour](../profiling/profiling-feature-tour.md)
+ [Profiling feature tour](../profiling/profiling-feature-tour.md)

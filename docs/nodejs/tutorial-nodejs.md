@@ -44,9 +44,9 @@ First, you'll create an Node.js web application project.
 
 1. Open Visual Studio 2017.
 
-1. From the top menu bar, choose **File** > **New** > **Project...**.
+1. From the top menu bar, choose **File** > **New** > **Project**.
 
-1. In the **New Project** dialog box, in the left pane, expand **JavaScript**, and then choose **Node.js**. In the middle pane, select **Basic Azure Node.js Express 4 Application**, and then choose **OK**.
+1. In the **New Project** dialog box, in the left pane, expand **JavaScript**, and then choose **Node.js**. In the middle pane, select **Basic Azure Node.js Express 4 Application** and then choose **OK**.
 
      If you don't see the **Basic Azure Node.js Express 4 Application** project template, you must install the **Node.js development** workload first.
 
@@ -189,7 +189,7 @@ First, you'll create an Node.js web application project.
 
     In the **App Service** dialog box, you can sign into your Azure account and connect to existing Azure subscriptions.
 
-1. Follow the remaining steps to select a subscription, choose or create a resource group, choose or create an app service plane, and then follow the steps when prompted to publish to Azure. For more detailed instructions, see [Publish to Azure Website using Web Deploy](https://github.com/Microsoft/nodejstools/wiki/Publish-to-Azure-Website-using-Web-Deploy).
+1. Follow the remaining steps to select a subscription, choose or create a resource group, choose or create an app service plane, and then follow the steps when prompted to publish to Azure. For more detailed instructions, see [Publish to Azure website using web deploy](https://github.com/Microsoft/nodejstools/wiki/Publish-to-Azure-Website-using-Web-Deploy).
 
 1. The **Output** window shows progress on deploying to Azure.
 
@@ -204,4 +204,4 @@ Congratulations on completing this tutorial!
 In this tutorial, you learned how to create and run a Node.js app using Express and hit a breakpoint using the debugger.
 
 > [!div class="nextstepaction"]
-> [Node.js Tools for Visual Studio](https://github.com/Microsoft/nodejstools)
+> [Node.js tools for Visual Studio](https://github.com/Microsoft/nodejstools)
