@@ -14,7 +14,7 @@ ms.workload:
 ---
 # Visual Studio Customer Experience Improvement Program
 
-The Visual Studio Customer Experience Improvement Program (VSCEIP) is a program designed to help Microsoft improve Visual Studio over time. This program collects information about computer hardware and how people use Visual Studio, without interrupting users in their tasks at the computer. The information that's collected helps Microsoft identify which features to improve. This document covers how to opt in or out of the VSCEIP.
+The Visual Studio Customer Experience Improvement Program (VSCEIP) is designed to help Microsoft improve Visual Studio over time. This program [collects information about errors](../ide/diagnostic-data-collection.md), computer hardware, and how people use Visual Studio, without interrupting users in their tasks at the computer. The information that's collected helps Microsoft identify which features to improve. This document covers how to opt in or out of the VSCEIP.
 
 ## Opt in or out
 
@@ -54,6 +54,7 @@ For more information about the information collected, processed, or transmitted 
 
 ## See also
 
+* [Diagnostic information collected by Visual Studio](diagnostic-data-collection.md)
 * [Talk to us](../ide/talk-to-us.md)
 * [How to report a problem with Visual Studio](../ide/how-to-report-a-problem-with-visual-studio-2017.md)
 * [Visual Studio Developer Community](https://developercommunity.visualstudio.com/)
