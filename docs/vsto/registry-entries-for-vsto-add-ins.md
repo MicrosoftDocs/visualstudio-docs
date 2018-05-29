@@ -25,7 +25,7 @@ ms.workload:
   
  [!INCLUDE[appliesto_allapp](../vsto/includes/appliesto-allapp-md.md)]  
   
- When you build your project, Visual Studio creates these registry entries on the development computer so that you can easily run and debug the VSTO Add-in. If you use ClickOnce to deploy your VSTO Add-in, the registry entries are automatically created on the end user computer. If you use Windows Installer to deploy your VSTO Add-in, you must configure the InstallShield Limited Edition project to create the registry entries on the end user computer.  
+ When you build your project, Visual Studio creates these registry entries on the development computer so that you can easily run and debug the VSTO Add-in. If you use ClickOnce to deploy your VSTO Add-in, the registry entries are automatically created on the end-user computer. If you use Windows Installer to deploy your VSTO Add-in, you must configure the InstallShield Limited Edition project to create the registry entries on the end-user computer.  
   
  For more information about how the registry entries are used during the load process for VSTO Add-ins, see [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md).  
   
@@ -35,9 +35,9 @@ ms.workload:
 ## Register VSTO Add-ins for the current user vs. all users  
  When a VSTO Add-in is installed, it can be registered in two ways:  
   
--   For the current user only (that is, it is available only to the user that is logged onto the computer when the VSTO Add-in is installed). In this case, the registry entries are created under the **HKEY_CURRENT_USER**.  
+-   For the current user only (that is, it is available only to the user that is logged on to the computer when the VSTO Add-in is installed). In this case, the registry entries are created under the **HKEY_CURRENT_USER**.  
   
--   For all users (that is, any user that logs onto the computer can use the VSTO Add-in). In this case, the registry entries are created under **HKEY_LOCAL_MACHINE**.  
+-   For all users (that is, any user that logs on to the computer can use the VSTO Add-in). In this case, the registry entries are created under **HKEY_LOCAL_MACHINE**.  
   
  All VSTO Add-ins that you create by using Visual Studio can be registered for the current user. However, VSTO Add-ins can be registered for all users only in certain scenarios. These scenarios depend on the version of Microsoft Office on the computer and how the VSTO Add-in was deployed.  
   
@@ -80,21 +80,21 @@ ms.workload:
   
  *Root*\Software\Microsoft\Office\Outlook\FormRegions\\*message class*  
   
- Like the other registry entries shared by all VSTO Add-ins, Visual Studio creates the form region registry entries on the development computer when you build your project. If you use ClickOnce to deploy your VSTO Add-in, the registry entries are automatically created on the end user computer. If you use Windows Installer to deploy your VSTO Add-in, you must configure the InstallShield Limited Edition project to create the registry entries on the end user computer.  
+ Like the other registry entries shared by all VSTO Add-ins, Visual Studio creates the form region registry entries on the development computer when you build your project. If you use ClickOnce to deploy your VSTO Add-in, the registry entries are automatically created on the end-user computer. If you use Windows Installer to deploy your VSTO Add-in, you must configure the InstallShield Limited Edition project to create the registry entries on the end-user computer.  
   
  For more information about the form region registry entries, see [Specify the location of a form region in a custom form](http://msdn.microsoft.com/library/office/ff868998.aspx). For more information about Outlook form regions, see [Create Outlook form regions](../vsto/creating-outlook-form-regions.md).  
   
 ##  <a name="LoadBehavior"></a> LoadBehavior values  
  The **LoadBehavior** entry under the *Root*\Software\Microsoft\Office\\*application name*\Addins\\*add-in ID* key contains a bitwise combination of values that specify the run time behavior of the VSTO Add-in. The lowest order bit (values 0 and 1) indicates whether the VSTO Add-in is currently unloaded or loaded. Other bits indicate when the application attempts to load the VSTO Add-in.  
   
- Typically, the **LoadBehavior** entry is intended to be set to 0, 3, or 16 (in decimal) when the VSTO Add-in is installed on end user computers. By default, Visual Studio sets the **LoadBehavior** entry of your VSTO Add-in to 3 when you build or publish it.  
+ Typically, the **LoadBehavior** entry is intended to be set to 0, 3, or 16 (in decimal) when the VSTO Add-in is installed on end-user computers. By default, Visual Studio sets the **LoadBehavior** entry of your VSTO Add-in to 3 when you build or publish it.  
   
  The following table lists all the possible values of the **LoadBehavior** entry. Some descriptions in this table refer to loading a VSTO Add-in manually or programmatically. To load a VSTO Add-in manually, select the check box next to the VSTO Add-in in the **COM Add-Ins** dialog box in the application. To load a VSTO Add-in programmatically, set the <xref:Microsoft.Office.Core.COMAddIn.Connect%2A> property of the <xref:Microsoft.Office.Core.COMAddIn> object that represents the VSTO Add-in to **true**.  
   
 |Value (in decimal)|VSTO Add-in status|VSTO Add-in load behavior|Description|  
 |--------------------------|-------------------------|--------------------------------|-----------------|  
 |0|Unloaded|Do not load automatically|The application never tries to load the VSTO Add-in automatically. The user can try to manually load the VSTO Add-in, or the VSTO Add-in can be loaded programmatically.<br /><br /> If the VSTO Add-in is successfully loaded, the **LoadBehavior** value remains 0, but the status of the VSTO Add-in in the **COM Add-ins** dialog box is updated to indicate that the VSTO Add-in is loaded.|  
-|1|Loaded|Do not load automatically|The application never tries to load the VSTO Add-in automatically. The user can try to manually load the VSTO Add-in, or the VSTO Add-in can be loaded programmatically.<br /><br /> Although the **COM Add-ins** dialog box indicates that the VSTO Add-in is loaded after the application starts, the VSTO Add-in isn't actually loaded until it is loaded manually or programmatically.<br /><br /> If the application successfully loads the VSTO Add-in, the **LoadBehavior** value changes to 0, and remains at 0 after the application closes.|  
+|1|Loaded|Do not load automatically|The application never tries to load the VSTO Add-in automatically. The user can try to manually load the VSTO Add-in, or the VSTO Add-in can be loaded programmatically.<br /><br /> Although the **COM Add-ins** dialog box indicates that the VSTO Add-in is loaded after the application starts, the VSTO Add-in isn't loaded until it is loaded manually or programmatically.<br /><br /> If the application successfully loads the VSTO Add-in, the **LoadBehavior** value changes to 0, and remains at 0 after the application closes.|  
 |2|Unloaded|Load at startup|The application does not try to load the VSTO Add-in automatically. The user can try to manually load the VSTO Add-in, or the VSTO Add-in can be loaded programmatically.<br /><br /> If the application successfully loads the VSTO Add-in, the **LoadBehavior** value changes to 3, and remains at 3 after the application closes.|  
 |3|Loaded|Load at startup|The application tries to load the VSTO Add-in when the application starts. This is the default value when you build or publish a VSTO Add-in in Visual Studio.<br /><br /> If the application successfully loads the VSTO Add-in, the **LoadBehavior** value remains 3. If an error occurs when loading the VSTO Add-in, the **LoadBehavior** value changes to 2, and remains at 2 after the application closes.|  
 |8|Unloaded|Load on demand|The application does not try to load the VSTO Add-in automatically. The user can try to manually load the VSTO Add-in, or the VSTO Add-in can be loaded programmatically.<br /><br /> If the application successfully loads the VSTO Add-in, the **LoadBehavior** value changes to 9.|  

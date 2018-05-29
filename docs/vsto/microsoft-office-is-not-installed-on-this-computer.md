@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Office is not installed on this computer | Microsoft Docs"
+title: "Microsoft Office is not installed on this computer"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
@@ -17,7 +17,7 @@ ms.workload:
   - "office"
 ---
 # Microsoft Office is not installed on this computer
-  Visual Studio cannot find the Microsoft Office application that corresponds to the project type. If you are developing an VSTO Add-in project, this means that you cannot debug or run the project. If you are trying to create a document-level project, this means that you cannot create the project.  
+  Visual Studio cannot find the Microsoft Office application that corresponds to the project type. If you are developing a VSTO Add-in project, it means that you cannot debug or run the project. If you are trying to create a document-level project, this means that you cannot create the project.  
   
 ### To correct this error  
   
