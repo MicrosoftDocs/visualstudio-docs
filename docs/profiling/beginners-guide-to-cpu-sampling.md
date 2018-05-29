@@ -35,7 +35,7 @@ You can use Visual Studio profiling tools to analyze performance issues in your 
 ## Create and run a performance session  
  To get the data that you need to analyze, you must first create a performance session and then run the session. The **Performance Wizard** lets you do both.  
   
- If you are not profiling a Windows desktop app or ASP.NET app, you must use one of the other profiling tools. See [Profile tools](../profiling/profiling-tools.md).  
+ If you are not profiling a Windows desktop app or ASP.NET app, you must use one of the other profiling tools. See [First look at profiling tools](../profiling/profiling-tools.md).  
   
 #### To create and run a performance session  
   
@@ -122,5 +122,5 @@ You can use Visual Studio profiling tools to analyze performance issues in your 
  [Performance Explorer](../profiling/performance-explorer.md)   
  [Getting started](../profiling/getting-started-with-performance-tools.md)   
  [Overviews](../profiling/overviews-performance-tools.md)  
- [Profile in Visual Studio](../profiling/index.md)  
- [Profile feature tour](../profiling/profiling-feature-tour.md)
+ [Profiling in Visual Studio](../profiling/index.md)  
+ [Profiling feature tour](../profiling/profiling-feature-tour.md)
