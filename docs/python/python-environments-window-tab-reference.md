@@ -1,7 +1,7 @@
 ---
 title: Python environments window reference
 description: Details on each of the tabs that appear in the Python Environments window in Visual Studio.
-ms.date: 03/05/2018
+ms.date: 05/25/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: conceptual
@@ -32,7 +32,7 @@ Provides basic information and commands for the environment:
 
 | Command | Description |
 | --- | --- |
-| Make this environment the default for new projects | Sets the active environment, which may cause Visual Studio to briefly become non-responsive while it loads the IntelliSense database. Environments with many packages may be non-responsive for longer. |
+| Make this environment the default for new projects | Sets the active environment, which may cause Visual Studio (2017 version 15.5 and earlier) to briefly become non-responsive while it loads the IntelliSense database. Environments with many packages may be non-responsive for longer. |
 | Visit the distributor's website | Opens a browser to the URL provided by the Python distribution. Python 3.x, for example, goes to python.org. |
 | Open interactive window | Opens the [interactive (REPL) window](python-interactive-repl-in-visual-studio.md) for this environment within Visual Studio, applying any [startup scripts (see below)](#startup-scripts). |
 | Explore interactive scripts | See [startup scripts](#startup-scripts). |
@@ -71,7 +71,7 @@ If available, contains details as described in the table below. If this tab isn'
 
 *Also labeled "pip" in earlier versions.*
 
-Manages the packages installed in the environment, allowing you to also search for and install new ones (including any dependencies).
+Manages the packages installed in the environment using pip, allowing you to also search for and install new ones (including any dependencies). In Visual Studio 2017 version 15.7 and later, a **Packages (Conda)** tab appears which uses the conda package manager instead. (If you don't see that choice, set the option  **Tools** > **Options** > **Python** > **Experimental** > **Use conda package manager when available (instead of pip)** and restart Visual Studio.)
 
 Packages that are already installed appear with controls to update (an up arrow) and uninstall (the X in a circle) the package:
 
@@ -81,11 +81,19 @@ Entering a search term filters the list of installed packages as well as package
 
 ![Python environments packages tab with a search on "num"](media/environments-pip-tab.png)
 
-You can also directly enter any `pip install` command in the search box, including flags such as `--user` or `--no-deps`.
+As you can see in the image above, the search results show a number of packages that match the search term; the first entry in the list, however, is a command to run `pip install <name>` directly. If you're on the **Packages (Conda)** tab, you instead see `conda install <name>`:
+
+![Conda packages tab showing a conda install command](media/environments-conda-tab-install.png)
+
+In both cases, you can customize the install by adding arguments in the search box after the name of the package. When you include arguments, the search results shows `pip install` or `conda install` followed by the contents of the search box:
+
+![Using arguments on pip and conda install commands](media/environments-pip-tab-arguments.png)
 
 Installing a package creates subfolders within the environment's `Lib` folder on the file system. For example, if you have Python 3.6 installed in `c:\Python36`, packages are installed in `c:\Python36\Lib`; if you have Anaconda3 installed in `c:\Program Files\Anaconda3` then packages are installed in `c:\Program Files\Anaconda3\Lib`.
 
-In the latter case, because the environment is located in a protected area of the file system, `c:\Program Files`, Visual Studio must run `pip install` elevated to allow it to create package subfolders. When elevation is required, Visual Studio displays the prompt, "Administrator privileges may be required to install, update or remove packages for this environment":
+### Granting administrator privileges for package install
+
+When installing packages into an environment that's located in a protected area of the file system, such as `c:\Program Files\Anaconda3\Lib`, Visual Studio must run `pip install` elevated to allow it to create package subfolders. When elevation is required, Visual Studio displays the prompt, "Administrator privileges may be required to install, update or remove packages for this environment":
 
 ![Elevation prompt for package installation](media/environments-pip-elevate.png)
 
@@ -95,13 +103,26 @@ Selecting **Always elevate when installing or removing packages** prevents the d
 
 In that same options tab, you can also select **Always run pip as administrator** to suppress the dialog for all environments. See [Options - General tab](python-support-options-and-settings-in-visual-studio.md#general-options).
 
+### Security restrictions with older versions of Python
+
+When using Python 2.6, 3.1 and 3.2, Visual Studio shows the warning, "Due to security restrictions, installing from the internet may not work on this version of Python":
+
+![Message about pip install restrictions with older version of Python](media/environments-old-version-restriction.png)
+
+The reason for the warning is that with these older versions of Python, `pip install` doesn't contain support for the Transport Security Layer (TLS) 1.2, which is required for downloading packages from the package source, pypi.org. Custom Python builds may support TLS 1.2 in which case `pip install` might work.
+
+It may be possible to download the appropriate `get-pip.py` for a package from [bootstrap.pypa.io](https://bootstrap.pypa.io/), manually download a package from [pypi.org](https://pypi.org/), and then install the package from that local copy.
+
+The recommendation, however, is to simply upgrade to Python 2.7 or 3.3+, in which case the warning does not appear.
+
 ## IntelliSense tab
 
 Shows the current status of the IntelliSense completion database:
 
 ![Python Environments IntelliSense tab](media/environments-intellisense-tab.png)
 
-In **Visual Studio 2017 version 15.5** and earlier, IntelliSense completions depend on a database that's been compiled for that library. Building the database is done in the background when a library is installed, but can take some time and may not be complete when you start writing code. **Visual Studio 2017 version 15.6** and later uses a faster method to provide completions that do not depend on the database unless you specifically choose to enable it.
+- In **Visual Studio 2017 version 15.5** and earlier, IntelliSense completions depend on a database that's been compiled for that library. Building the database is done in the background when a library is installed, but can take some time and may not be complete when you start writing code.
+- **Visual Studio 2017 version 15.6** and later uses a faster method to provide completions that do not depend on the database by default. For this reason the tab is labeled **IntelliSense [database disabled]**. You can enable the database by clearing the option  **Tools** > **Options** > **Python** > **Experimental** > **Use new style IntelliSense for environments**.
 
 When Visual Studio detects a new environment (or you add one), it automatically begins to compile the database by analyzing the library source files. This process can take anywhere from a minute to an hour or more depending on what's installed. (Anaconda, for example, comes with many libraries and takes some time to compile the database.) Once complete, you get detailed IntelliSense and don't need to refresh the database again (with the **Refresh DB** button) until you install more libraries.
 

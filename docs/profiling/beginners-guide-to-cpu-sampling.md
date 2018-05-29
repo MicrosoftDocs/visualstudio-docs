@@ -17,7 +17,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Beginners Guide to CPU Sampling
+# Beginners guide to CPU sampling
 You can use Visual Studio profiling tools to analyze performance issues in your application. This procedure shows how to use **Sampling** data.
 
 > [!NOTE]
@@ -27,15 +27,15 @@ You can use Visual Studio profiling tools to analyze performance issues in your 
   
  At specified intervals, the **Sampling** method collects information about the functions that are executing in your application. After you finish a profiling run, the **Summary** view of the profiling data shows the most active function call tree, called the **Hot Path**, where most of the work in the application was performed. The view also lists the functions that were performing the most individual work, and provides a timeline graph you can use to focus on specific segments of the sampling session.  
   
- If **Sampling** does not give you the data that you need, other profiling tools collection methods provide different kinds of information that might be helpful to you. For more information about these other methods, see [How to: Choose Collection Methods](../profiling/how-to-choose-collection-methods.md).  
+ If **Sampling** does not give you the data that you need, other profiling tools collection methods provide different kinds of information that might be helpful to you. For more information about these other methods, see [How to: Choose collection methods](../profiling/how-to-choose-collection-methods.md).  
   
 > [!TIP]
->  If you profile code that calls Windows functions, you should make sure that you have the most current .pdb files. Without these files, your report views will list Windows function names that are cryptic and difficult to understand. For more information about how to make sure that you have the files you need, see [How to: Reference Windows Symbol Information](../profiling/how-to-reference-windows-symbol-information.md).  
+>  If you profile code that calls Windows functions, you should make sure that you have the most current .*pdb* files. Without these files, your report views will list Windows function names that are cryptic and difficult to understand. For more information about how to make sure that you have the files you need, see [How to: Reference Windows symbol information](../profiling/how-to-reference-windows-symbol-information.md).  
   
-##  <a name="Step1"></a> Create and run a performance session  
+## Create and run a performance session  
  To get the data that you need to analyze, you must first create a performance session and then run the session. The **Performance Wizard** lets you do both.  
   
- If you are not profiling a Windows desktop app or ASP.NET app, you must use one of the other profiling tools. See [Profiling Tools](../profiling/profiling-tools.md).  
+ If you are not profiling a Windows desktop app or ASP.NET app, you must use one of the other profiling tools. See [First look at profiling tools](../profiling/profiling-tools.md).  
   
 #### To create and run a performance session  
   
@@ -58,12 +58,12 @@ You can use Visual Studio profiling tools to analyze performance issues in your 
   
      After you finish running the application, the **Summary** view of the profiling data appears in the main Visual Studio window and an icon for the new session appears in the **Performance Explorer** window.  
   
-##  <a name="Step2"></a> Step 2: Analyze Sampling data  
+## Step 2: Analyze Sampling data  
  When you finish running a performance session, the **Summary** view of the profiling report appears in the main window in Visual Studio.  
   
  We recommend that you begin analyzing your data by examining the **Hot Path,** then the list of functions that are doing the most work, and finally by focusing on other functions by using the **Summary Timeline**. You can also view profiling suggestions and warnings in the **Error List** window.  
   
- Be aware that the sampling method might not give you the information that you need. For example, samples are collected only when the application is executing user mode code. Therefore, some functionality, such as input and output operations, is not captured by sampling. The Profiling Tools provide several collection methods that can enable you to focus on the important data. For more information about the other methods, see [How to: Choose Collection Methods](../profiling/how-to-choose-collection-methods.md).  
+ Be aware that the sampling method might not give you the information that you need. For example, samples are collected only when the application is executing user mode code. Therefore, some functionality, such as input and output operations, is not captured by sampling. The Profiling Tools provide several collection methods that can enable you to focus on the important data. For more information about the other methods, see [How to: Choose collection methods](../profiling/how-to-choose-collection-methods.md).  
   
  Each numbered area in the figure relates to a step in the procedure.  
   
@@ -87,13 +87,13 @@ You can use Visual Studio profiling tools to analyze performance issues in your 
   
     -   The lower pane of the **Function Details** windows displays the function code itself. If you examine the code and find an opportunity to optimize its performance, click the source file name to open the file in the Visual Studio editor.  
   
-3.  To continue your analysis, return to the **Summary** view by selecting **Summary** from the View drop-down list. Then examine the functions in **Functions Doing the Most Individual Work**. This list displays the functions with the highest exclusive samples. The code in the function body of these functions performed significant work and you might be able to optimize it. To further analyze a particular function, , click the function name to display it in the **Function Details** view.  
+3.  To continue your analysis, return to the **Summary** view by selecting **Summary** from the **View** drop-down list. Then examine the functions in **Functions Doing the Most Individual Work**. This list displays the functions with the highest exclusive samples. The code in the function body of these functions performed significant work and you might be able to optimize it. To further analyze a particular function, click the function name to display it in the **Function Details** view.  
   
      ![List of functions doing the most work](../profiling/media/functions_mostwork.png "Functions_MostWork")  
   
      To continue your investigation of the profiling run, you can reanalyze a segment of the profiling data by using the timeline in the **Summary** view to show you the **Hot Path** and **Functions Doing  Most Individual Work** from a selected segment. For example, focusing on a smaller peak in the timeline might reveal expensive call trees and functions that were not shown in the analysis of the entire profiling run.  
   
-     To reanalyze a segment, select a segment inside the Summary Timeline box and then click **Filter by Selection**.  
+     To reanalyze a segment, select a segment inside the **Summary Timeline** box and then click **Filter by Selection**.  
   
      ![Performance Summary view timeline](../profiling/media/performancesummary.png "PerformanceSummary")  
   
@@ -103,7 +103,7 @@ You can use Visual Studio profiling tools to analyze performance issues in your 
   
     -   To view detailed information about the warning, right-click the error and then click **Show Error Help**  
   
-##  <a name="Step3"></a> Step 3: Revise code and rerun a session  
+## Step 3: Revise code and rerun a session  
  After you find and optimize one or more functions, you can repeat the profiling run and compare the data to see the difference that your changes have made to the performance of your application.  
   
 #### To revise code and rerun the profiler  
@@ -114,13 +114,13 @@ You can use Visual Studio profiling tools to analyze performance issues in your 
   
 3.  In the **Performance Explorer**, right-click the session that you want to rerun, and then click **Launch with Profiling.**  
   
-4.  After you rerun the session, another data file is added to the **Reports** folder for the session in **Performance Explorer**. Select both the original and new profiling data, right-click the selection, and then click **Compare Performance Reports**.  
+4.  After you rerun the session, another data file is added to the *Reports* folder for the session in **Performance Explorer**. Select both the original and new profiling data, right-click the selection, and then click **Compare Performance Reports**.  
   
-     A new report window opens, displaying the results of the comparison. For more information about how to use the comparison view, see [How to: Compare Performance Data Files](../profiling/how-to-compare-performance-data-files.md).
+     A new report window opens, displaying the results of the comparison. For more information about how to use the comparison view, see [How to: Compare performance data files](../profiling/how-to-compare-performance-data-files.md).
   
-## See Also  
+## See also  
  [Performance Explorer](../profiling/performance-explorer.md)   
- [Getting Started](../profiling/getting-started-with-performance-tools.md)   
+ [Getting started](../profiling/getting-started-with-performance-tools.md)   
  [Overviews](../profiling/overviews-performance-tools.md)  
  [Profiling in Visual Studio](../profiling/index.md)  
- [Profiling Feature Tour](../profiling/profiling-feature-tour.md)
+ [Profiling feature tour](../profiling/profiling-feature-tour.md)

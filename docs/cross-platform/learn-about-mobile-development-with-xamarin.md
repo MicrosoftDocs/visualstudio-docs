@@ -97,7 +97,7 @@ To debug your cross-platform apps without having to use a physical device, you w
   
 ### Microsoft's Android emulator 
 
-It is recommended that you use Microsoft's [Visual Studio Emulator for Android](~/cross-platform/visual-studio-emulator-for-android.md), which is installed with Visual Studio.  The [Visual Studio Emulator for Android](https://channel9.msdn.com/events/Visual-Studio/Connect-event-2015/711) video (Channel9, 5m55s) gives an overview and demonstration.  
+It is recommended that you use Microsoft's [Visual Studio Emulator for Android](visual-studio-emulator-for-android.md), which is installed with Visual Studio.  The [Visual Studio Emulator for Android](https://channel9.msdn.com/events/Visual-Studio/Connect-event-2015/711) video (Channel9, 5m55s) gives an overview and demonstration.  
   
 ### Apple's iOS Simulator
 

@@ -17,7 +17,7 @@ You can invoke XML snippets by using the following two commands on the XML Edito
 
 After the XML snippet has been added to the editor, any editable fields in the snippet are highlighted in yellow, and the cursor is positioned on the first editable field.
 
-## Insert snippet
+## Insert Snippet
 
 The following procedures describe how to access the **Insert Snippet** command.
 
@@ -44,7 +44,7 @@ The following procedures describe how to access the **Insert Snippet** command.
 
 3. Select a snippet from the list using the mouse or by typing the name of the snippet and pressing **Tab** or **Enter**.
 
-### To insert snippets through the IntelliSense Complete Word list
+### To insert snippets through the IntelliSense complete word list
 
 1. Position the cursor where you want to insert the XML snippet.
 
@@ -74,7 +74,7 @@ The following procedures describe how to access the **Surround With** command.
 > [!NOTE]
 > The **Surround With** command is also available through the keyboard shortcut (**Ctrl**+**K**, then **Ctrl**+**S**).
 
-### To use surround with from the context menu
+### To use Surround With from the context menu
 
 1. Select the text to surround in the XML Editor.
 
@@ -84,7 +84,7 @@ The following procedures describe how to access the **Surround With** command.
 
 3. Select a snippet from the list using the mouse, or by typing the name of the snippet and pressing **Tab** or **Enter**.
 
-### To use surround with from the IntelliSense menu
+### To use Surround With from the IntelliSense menu
 
 1. Select the text to surround in the XML Editor.
 
@@ -94,7 +94,7 @@ The following procedures describe how to access the **Surround With** command.
 
 3. Select a snippet from the list using the mouse, or by typing the name of the snippet and pressing **Tab** or **Enter**.
 
-## Using XML snippets
+## Use XML snippets
 
 Once you choose an XML snippet, the text of the code snippet is inserted automatically at the cursor position. Any editable fields in the snippet are highlighted, and the first editable field is selected automatically. The currently selected field is boxed.
 
@@ -104,10 +104,10 @@ Only the first instance of a given field is editable. When that field is highlig
 
 Pressing **Enter** or **Esc** cancels field editing and returns the editor to normal.
 
-The default colors for editable code snippet fields can be changed by modifying the Code Snippet Field setting in the **Fonts and Colors** pane of the **Options** dialog box. For more information, see [How to: Change Fonts and Colors in the Editor](../ide/reference/how-to-change-fonts-and-colors-in-the-editor.md).
+The default colors for editable code snippet fields can be changed by modifying the **Code Snippet Field** setting in the **Fonts and Colors** pane of the **Options** dialog box. For more information, see [How to: Change fonts and colors in the editor](../ide/reference/how-to-change-fonts-and-colors-in-the-editor.md).
 
 ## See also
 
-- [XML Snippets](../xml-tools/xml-snippets.md)
-- [How to: Generate an XML Snippet From an XML Schema](../xml-tools/how-to-generate-an-xml-snippet-from-an-xml-schema.md)
-- [How to: Create XML Snippets](../xml-tools/how-to-create-xml-snippets.md)
+- [XML snippets](../xml-tools/xml-snippets.md)
+- [How to: Generate an XML snippet from an XML schema](../xml-tools/how-to-generate-an-xml-snippet-from-an-xml-schema.md)
+- [How to: Create XML snippets](../xml-tools/how-to-create-xml-snippets.md)

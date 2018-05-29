@@ -2,7 +2,7 @@
 title: "Install Visual Studio 2017 | Microsoft Docs"
 description: "Learn how to install Visual Studio, step-by-step."
 ms.custom: ""
-ms.date: 12/04/2017
+ms.date: 05/07/2018
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
@@ -73,7 +73,7 @@ After the installer is installed, you can use it to customize your installation 
 
 1. Find the workload you want in the **Installing Visual Studio** screen.
 
- ![Select a workload from the Visual Studio 2017 setup dialog](../install/media/install-visual-studio-enterprise.png)
+ ![Select a workload from the Visual Studio 2017 setup dialog](../install/media/install-visual-studio-community.png)
 
      For example, choose the ".NET desktop development" workload. It comes with the default core editor, which includes basic code editing support for over 20 languages, the ability to open and edit code from any folder without requiring a project, and integrated source code control.  
 
@@ -114,7 +114,15 @@ By default, the installer program tries to match the language of the operating s
 
 Another way that you can change the default language is by running the installer from the command line. For example, you can force the installer to run in English by using the following command: `vs_installer.exe --locale en-US`. The installer will remember this setting when it is run the next time. The installer supports the following language tokens: zh-cn, zh-tw, cs-cz, en-us, es-es, fr-fr, de-de, it-it, ja-jp, ko-kr, pl-pl, pt-br, ru-ru, and tr-tr.
 
-## Step 7 - Start developing
+## Step 7 - Change the installation location (Optional)
+
+**New in 15.7**: You can now reduce the installation footprint of Visual Studio on your system drive. You can choose to move the download cache, shared components, SDKs, and tools to different drives, and keep Visual Studio on the drive that runs it the fastest.
+
+  ![Visual Studio 2017 - Change the installation location](media/installation-options-by-location.png "Change the installation location")
+
+For more information, see the [Change installation locations in Visual Studio](change-installation-locations.md) page.
+
+## Step 8 - Start developing
 
 1. After Visual Studio installation is complete, click the **Launch** button to [get started developing with Visual Studio](../ide/get-started-developing-with-visual-studio.md).
 

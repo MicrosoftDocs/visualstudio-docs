@@ -75,7 +75,7 @@ The following procedure shows how to set the minimum operating system version in
 
 3.  In *Program.cs*, add the following line to the other `using` statements at the top of the file:
 
-    ```
+    ```csharp
     using System.Xml;
     ```
 
@@ -155,7 +155,7 @@ The following procedure shows how to set the minimum operating system version in
 
      Search in the file for the `<osVersionInfo>` element. For example, the version might be:
 
-    ```
+    ```xml
     <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
     ```
 
@@ -175,7 +175,7 @@ The following procedure shows how to set the minimum operating system version in
 
      The version should now read:
 
-    ```
+    ```xml
     <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
     ```
 

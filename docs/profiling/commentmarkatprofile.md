@@ -19,7 +19,7 @@ The `CommentMarkAtProfile` method inserts a timestamp value, a numeric mark, and
   
 ## Syntax  
   
-```  
+```cpp  
 PROFILE_COMMAND_STATUS PROFILERAPI CommentMarkAtProfile (  
                                    __int64 dnTimestamp,  
                                    long lMarker,  
@@ -39,7 +39,7 @@ PROFILE_COMMAND_STATUS PROFILERAPI CommentMarkAtProfile (
   
  A pointer to the text string to insert. The string must be less than 256 characters including the NULL terminator.  
   
-## Property Value/Return Value  
+## Property value/return value  
  The function indicates success or failure by using **PROFILE_COMMAND_STATUS** enumeration. The return value can be one of the following:  
   
 |Enumerator|Description|  
@@ -58,10 +58,10 @@ PROFILE_COMMAND_STATUS PROFILERAPI CommentMarkAtProfile (
 > [!IMPORTANT]
 >  CommentMarkAtProfile methods should be used with instrumentation only.  
   
-## .NET Framework Equivalent  
+## .NET Framework equivalent  
  Microsoft.VisualStudio.Profiler.dll  
   
-## Function Information  
+## Function information  
   
 |||  
 |-|-|  
@@ -72,7 +72,7 @@ PROFILE_COMMAND_STATUS PROFILERAPI CommentMarkAtProfile (
 ## Example  
  The following code illustrates the use of the CommentMarkAtProfile generic function call. The example assumes the use of Win32 string macros and the compiler settings for ANSI to determine whether the code calls the ANSI enabled function.  
   
-```  
+```cpp  
 void ExerciseCommentMarkAtProfile(void)  
 {  
     // Declare and initalize variables to pass to   
@@ -110,5 +110,5 @@ void ExerciseCommentMarkAtProfile(void)
 }  
 ```  
   
-## See Also  
- [Visual Studio Profiler API Reference (Native)](../profiling/visual-studio-profiler-api-reference-native.md)
+## See also  
+ [Visual Studio Profiler API reference (native)](../profiling/visual-studio-profiler-api-reference-native.md)

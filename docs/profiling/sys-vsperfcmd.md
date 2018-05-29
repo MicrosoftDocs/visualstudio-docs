@@ -22,7 +22,7 @@ The VSPerfCmd.exe **Sys** option sets the profiling event that is sampled to sys
   
 ## Syntax  
   
-```  
+```cmd  
 VSPerfCmd.exe {/Launch:AppName|Attach:PID} /Sys[:Events] [Options]  
 ```  
   
@@ -57,7 +57,7 @@ VSPerfCmd.exe {/Launch:AppName|Attach:PID} /Sys[:Events] [Options]
 ## Example  
  This example demonstrates how to set the profiler sampling event to system calls and how to set the sampling interval to 20 calls per sample.  
   
-```  
+```cmd  
 VSPerfCmd.exe /Start:Sample /Output:TestApp.exe.vsp  
 VSPerfCmd.exe /Launch:TestApp.exe /Sys:20  
 ```  

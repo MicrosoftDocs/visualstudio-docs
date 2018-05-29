@@ -42,7 +42,7 @@ If you want direct control over where Visual Studio looks for updates, you can m
   ```
 
  Now end-users can run setup from this share to install Visual Studio.
-    ```
+    ```cmd
     \\server\share\VS2017\vs_enterprise.exe
     ```
 

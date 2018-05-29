@@ -20,7 +20,7 @@ Initializes a new instance of the `marker_series` class.
   
 ## Syntax  
   
-```  
+```cpp  
 marker_series();  
 marker_series(  
    _In_ LPCTSTR _SeriesName  

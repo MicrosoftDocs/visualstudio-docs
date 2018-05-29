@@ -1,45 +1,31 @@
-Imports System
-Imports System.Collections
+Public Class WritableCollection
 
-Namespace UsageLibrary
+    ' This property violates rule CA2227.
+    ' To fix the code, add the ReadOnly modifier to the property:
+    ' ReadOnly Property SomeStrings As ArrayList
+    Property SomeStrings As ArrayList
 
-   Public Class WritableCollection
-    
-      Dim strings As ArrayList
+    Sub New()
+        SomeStrings = New ArrayList(New String() {"one", "two", "three"})
+    End Sub
 
-      Property SomeStrings As ArrayList
-         Get
-            Return strings
-         End Get
+End Class
 
-         ' Violates the rule.
-         Set
-            strings = Value
-         End Set
-      End Property
+Class ViolatingVersusPreferred
 
-      Sub New()
-         strings = New ArrayList( _
-            New String() {"IEnumerable", "ICollection", "IList"} )
-      End Sub
+    Shared Sub Main()
+        Dim newCollection As New ArrayList(New String() {"a", "new", "collection"})
 
-   End Class
+        Dim collection As New WritableCollection()
 
-   Class ViolatingVersusPreferred
+        ' This line of code demonstrates how the entire collection
+        ' can be replaced by a property that's not read only.
+        collection.SomeStrings = newCollection
 
-      Shared Sub Main()
-         Dim newCollection As New ArrayList( _
-            New String() {"a", "new", "collection"} )
+        ' If the intent is to replace an entire collection,
+        ' implement and/or use the Clear() and AddRange() methods instead.
+        collection.SomeStrings.Clear()
+        collection.SomeStrings.AddRange(newCollection)
+    End Sub
 
-         ' strings is directly replaced with newCollection.
-         Dim collection As New WritableCollection()
-         collection.SomeStrings = newCollection
-
-         ' newCollection is added to the cleared strings collection.
-         collection.SomeStrings.Clear()
-         collection.SomeStrings.AddRange(newCollection)
-      End Sub
-
-   End Class
-
-End Namespace
+End Class
