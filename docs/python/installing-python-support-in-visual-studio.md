@@ -91,7 +91,7 @@ If you encounter problems installing or running Python in Visual Studio, try the
 
     ![PTVS option in Visual Studio 2015 installer](media/installation-vs2015.png)
 
-1. Once Visual Studio setup is complete, [install a Python interpreter of your choice](installing-python-interpreters.md). If you already have an interpreter installed and Visual Studio doesn't detect it automatically, see [Manually identifying an existing environment](managing-python-environments-in-visual-studio.md#manually-identifying-an-existing-environment).
+1. Once Visual Studio setup is complete, [install a Python interpreter of your choice](installing-python-interpreters.md). If you already have an interpreter installed and Visual Studio doesn't detect it automatically, see [Manually identify an existing environment](managing-python-environments-in-visual-studio.md#manually-identify-an-existing-environment).
 
 ## Visual Studio 2013 and earlier
 
@@ -101,7 +101,7 @@ If you encounter problems installing or running Python in Visual Studio, try the
     - Visual Studio 2012: [PTVS 2.1 for Visual Studio 2012](https://pytools.codeplex.com/downloads/get/920478)
     - Visual Studio 2010: [PTVS 2.1 for Visual Studio 2010](https://pytools.codeplex.com/downloads/get/920479)
 
-1. [Install a Python interpreter of your choice](installing-python-interpreters.md). If you already have an interpreter installed and Visual Studio doesn't detect it automatically, see [Manually identifying an existing environment](managing-python-environments-in-visual-studio.md#manually-identifying-an-existing-environment).
+1. [Install a Python interpreter of your choice](installing-python-interpreters.md). If you already have an interpreter installed and Visual Studio doesn't detect it automatically, see [Manually identify an existing environment](managing-python-environments-in-visual-studio.md#manually-identify-an-existing-environment).
 
 ## Install locations
 

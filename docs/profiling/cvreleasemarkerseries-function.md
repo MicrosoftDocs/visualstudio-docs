@@ -20,7 +20,7 @@ Releases marker series. Do not use marker series object after releasing otherwis
   
 ## Syntax  
   
-```  
+```C  
 HRESULT CvReleaseMarkerSeries(  
    _In_reads_bytes_(16) PCV_MARKERSERIES pMarkerSeries  
 );  

@@ -11,10 +11,13 @@ ms.assetid: 84673a89-3f6d-4668-919e-1c0f56182fe5
 author: gewarren
 ms.author: gewarren
 manager: douge
+dev_langs:
+ - CSharp
+ - VB
 ms.workload:
   - "multiple"
 ---
-# How to: Create a nullable type (Class Designer)
+# How to: Create a nullable type in Class Designer
 
 Certain value types do not always have (or need) a defined value. This is common practice in databases, where some fields might not be assigned any value. For example, you might assign a null value to a database field to signify that it has not yet been assigned a value.
 

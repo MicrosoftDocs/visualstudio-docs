@@ -22,11 +22,11 @@ The **Counter** option collects data from processor (hardware) performance count
   
 ## Syntax  
   
-```  
+```cmd  
 VSPerfCmd.exe {/Launch:AppName | /Attach PID} /Counter:Name[,Reload[,FriendlyName]][Options]  
 ```  
   
-```  
+```cmd  
 VSPerfCmd.exe /Start:Method /Counter:Name[,Reload[,FriendlyName]][/Counter:Name[,Reload[,FriendlyName]]][Options]  
 ```  
   
@@ -57,7 +57,7 @@ VSPerfCmd.exe /Start:Method /Counter:Name[,Reload[,FriendlyName]][/Counter:Name[
   
  The instrumentation method example demonstrates how to initialize the profiler to collect L2InstructionFetches counter events. The L2InstructionFetches counter name is specific to the processor.  
   
-```  
+```cmd  
 ; Sample Method Example  
 VSPerfCmd.exe /Start:Sample /Output:TestApp.exe.vsp  
 VSPerfCmd.exe /Launch:TestApp.exe /Counter:NonHaltedCycles,1000,"Non-Halted Cycles"  

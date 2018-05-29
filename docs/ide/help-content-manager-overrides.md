@@ -19,7 +19,7 @@ You can change the default behavior of the Help Viewer and Help-related features
 
 1. Create a *.pkgdef* file with the first line as `[$RootKey$\Help]`.
 
-2. Add any or all of the registry key values described in the table below on separate lines, for example `“UseOnlineHelp”=dword:00000001`.
+2. Add any or all of the registry key values described in the table below on separate lines, for example `"UseOnlineHelp"=dword:00000001`.
 
 3. Copy the file to *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\\<edition\>\Common7\IDE\CommonExtensions*.
 
@@ -40,12 +40,12 @@ You can change the default behavior of the Help Viewer and Help-related features
 
 ```
 [$RootKey$\Help]
-“NewContentAndUpdateService”=”https://some.service.endpoint”
-“UseOnlineHelp”=dword:00000001
-“OnlineBaseUrl”=”https://some.service.endpoint”
-“OnlineHelpPreferenceDisabled”=dword:00000000
-“DisableManageContent”=dword:00000000
-“DisableFirstRunHelpSelection”=dword:00000001
+"NewContentAndUpdateService"="https://some.service.endpoint"
+"UseOnlineHelp"=dword:00000001
+"OnlineBaseUrl"="https://some.service.endpoint"
+"OnlineHelpPreferenceDisabled"=dword:00000000
+"DisableManageContent"=dword:00000000
+"DisableFirstRunHelpSelection"=dword:00000001
 ```
 
 ## Use Registry Editor to change Help Viewer behavior
@@ -55,7 +55,7 @@ The following two behaviors can be controlled by setting registry key values in 
 |Task|Registry Key|Value|Data|
 |----------|-----|------|----|
 |Override BITS job priority|HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node (on a 64-bit machine)\Microsoft\Help\v2.3|BITSPriority|**foreground**, **high**, **normal**, or **low**|
-|Point to local content store on network share|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Help\v2.3\Catalogs\VisualStudio15|LocationPath|"*ContentStoreNetworkShare*"|
+|Point to local content store on network share|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Help\ v2.3\Catalogs\VisualStudio15|LocationPath|"*ContentStoreNetworkShare*"|
 
 ## See also
 

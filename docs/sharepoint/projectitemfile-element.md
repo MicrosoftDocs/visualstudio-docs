@@ -21,7 +21,7 @@ ms.workload:
   
 ## Syntax  
   
-```  
+```xml  
 <ProjectItemFile Source = "Name of the file"  
     Target = "Deployment path of the file"  
     Type = "Type of deployment for the file" />  

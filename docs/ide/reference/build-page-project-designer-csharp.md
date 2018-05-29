@@ -27,7 +27,7 @@ To access the **Build** page, choose a project node (not the **Solution** node) 
 The following options enable you to select the configuration and platform to display or modify.
 
 > [!NOTE]
-> With simplified build configurations, the project system determines whether to build a debug or release version. Therefore, these options are not displayed. For more information, see [How to: Set debug and release configurations](/debugger/how-to-set-debug-and-release-configurations.md).
+> With simplified build configurations, the project system determines whether to build a debug or release version. Therefore, these options are not displayed. For more information, see [How to: Set debug and release configurations](../../debugger/how-to-set-debug-and-release-configurations.md).
 
 **Configuration**
 Specifies which configuration settings to display or modify. The settings can be **Active (Debug)** (this is the default), **Debug**, **Release**, or **All Configurations**.

@@ -28,7 +28,7 @@ You can do nearly everything in the Visual Studio IDE as a normal user, but, you
 |----------|----------|--------------------------|
 |Installation|Install Visual Studio.|[Install Visual Studio](../install/install-visual-studio.md)|
 ||Installing, updating, or removing local Help content.|[Install and manage local content](../ide/install-and-manage-local-content.md)|
-|Application types|Developing solutions for SharePoint.|[Requirements for developing SharePoint solutions](/office-dev/office-dev/requirements-for-developing-sharepoint-solutions)|
+|Application types|Developing solutions for SharePoint.|[Requirements for developing SharePoint solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md)|  
 ||Acquiring a developer license for [!INCLUDE[win8_appstore_long](../debugger/includes/win8_appstore_long_md.md)].|[Get a developer license](http://go.microsoft.com/fwlink/?LinkID=241313)|
 |Toolbox|Adding classic COM controls to **Toolbox**.|[Toolbox](../ide/reference/toolbox.md)|
 |Add-ins|Installing and using add-ins that were written by using classic COM in the IDE.|[Create add-ins and wizards](http://msdn.microsoft.com/Library/c5a47c21-6668-4de3-898d-afa969317e73)|
@@ -41,6 +41,7 @@ You can do nearly everything in the Visual Studio IDE as a normal user, but, you
 ||Configuring a firewall for remote debugging.|[Remote debugging](../debugger/remote-debugging.md)|
 |Performance tools|Profiling an application.|[Beginners guide to performance profiling](../profiling/beginners-guide-to-performance-profiling.md)|
 |Deployment|Deploying a web application to Internet Information Services (IIS) on a local computer.|[Deploy an ASP.NET Web Application to a hosting provider using Visual Studio or Visual Web Developer: Deploy to IIS as a test environment](http://go.microsoft.com/fwlink/?LinkId=266478)|
+>>>>>>> 346075117af3d2bd1fddd9c3aca24516a39fa6a3
 
 ## Run Visual Studio as an administrator
 

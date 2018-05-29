@@ -11,7 +11,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Formatting, XML, Text Editor, Options Dialog Box
+# Formatting, XML, text editor, options dialog box
 
 This dialog box allows you to specify the formatting settings for the XML Editor. You can access the **Options** dialog box from the **Tools** menu.
 
@@ -37,7 +37,7 @@ This dialog box allows you to specify the formatting settings for the XML Editor
 </item>
 ```
 
-## Auto Reformat
+## Auto reformat
  **On paste from the Clipboard**
 
  Reformats XML text pasted from the Clipboard.
@@ -46,7 +46,7 @@ This dialog box allows you to specify the formatting settings for the XML Editor
 
  Reformats the element when the end tag is completed.
 
-## Mixed Content
+## Mixed content
  **Preserve mixed content by default**
 
  Determines whether the editor reformats mixed content. By default, the editor attempts to reformat mixed content, except when the content is found in an `xml:space="preserve"` scope.
@@ -60,7 +60,7 @@ This dialog box allows you to specify the formatting settings for the XML Editor
 </dir>
 ```
 
-## See Also
+## See also
 
-- [XML Document Properties, Properties Window](../xml-tools/xml-document-properties-properties-window.md)
-- [XML Editor Components](../xml-tools/xml-editor-components.md)
+- [XML document properties, properties window](../xml-tools/xml-document-properties-properties-window.md)
+- [XML Editor components](../xml-tools/xml-editor-components.md)

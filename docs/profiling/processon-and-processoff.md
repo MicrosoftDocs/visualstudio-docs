@@ -28,7 +28,7 @@ The VSPerfCmd.exe **ProcessOff** and **ProcessOn** subcommands pause and resume 
   
 ## Syntax  
   
-```  
+```cmd  
 VSPerfCmd.exe /{ProcessOff|ProcessOn}:PID [Options]  
   
 ```  
@@ -61,7 +61,7 @@ VSPerfCmd.exe /{ProcessOff|ProcessOn}:PID [Options]
 ## Example  
  In this example, the **ProcessOff** subcommand is used to collect profiling data for application startup.  
   
-```  
+```cmd  
 ; Initialize the profiler.  
 VSPerfCmd.exe /Start:Trace /Output:Instrument.vsp   
 ; Start the instrumented application.  

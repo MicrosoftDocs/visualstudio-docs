@@ -23,7 +23,7 @@ Compiles and runs the specified project or solution.
 
 ## Syntax
 
-```
+```cmd
 devenv {/run|/r} {SolutionName|ProjectName}
 ```
 
@@ -46,7 +46,7 @@ devenv {/run|/r} {SolutionName|ProjectName}
 ## Example
  This example runs the solution `MySolution` using the active deployment configuration.
 
-```
+```cmd
 devenv /run "C:\Documents and Settings\someuser\My Documents\Visual Studio\Projects\MySolution\MySolution.sln"
 ```
 

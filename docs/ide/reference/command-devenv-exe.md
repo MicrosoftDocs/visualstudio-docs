@@ -19,7 +19,7 @@ Executes the specified command after launching the [!INCLUDE[vsprvs](../../code-
 
 ## Syntax
 
-```
+```cmd
 devenv /command CommandName
 ```
 
@@ -35,7 +35,7 @@ devenv /command CommandName
 ## Example
  This example launches [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] and automatically runs the macro Open Favorite Files.
 
-```
+```cmd
 devenv /command "Macros.MyMacros.Module1.OpenFavoriteFiles"
 ```
 
