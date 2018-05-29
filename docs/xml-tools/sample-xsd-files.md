@@ -11,7 +11,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Sample XSD Files
+# Sample XSD files
 
 The example files in this section are used in the XSD Schema Designer documentation.
 
