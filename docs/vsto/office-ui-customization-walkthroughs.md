@@ -1,5 +1,5 @@
 ---
-title: "Office UI Customization Walkthroughs | Microsoft Docs"
+title: "Office UI customization walkthroughs"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
@@ -43,7 +43,7 @@ ms.workload:
  Demonstrates how to display a unique instance of a custom task pane with each e-mail message that is created or opened in Outlook.  
   
 ## Ribbon walkthroughs  
- [Walkthrough: Create a custom tab by using the Ribbon designer](../vsto/walkthrough-creating-a-custom-tab-by-using-the-ribbon-designer.md)  
+ [Walkthrough: Create a custom tab by using the Ribbon Designer](../vsto/walkthrough-creating-a-custom-tab-by-using-the-ribbon-designer.md)  
  Demonstrates how to create a custom ribbon tab by using the Ribbon Designer. The tab contains a button that can be used to hide or display an actions pane.  
   
  [Walkthrough: Update the controls on a Ribbon at runtime](../vsto/walkthrough-updating-the-controls-on-a-ribbon-at-run-time.md)  

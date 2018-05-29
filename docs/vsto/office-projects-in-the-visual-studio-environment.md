@@ -1,5 +1,5 @@
 ---
-title: "Office Projects in the Visual Studio Environment | Microsoft Docs"
+title: "Office projects in the Visual Studio environment"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
@@ -104,7 +104,7 @@ ms.workload:
   
  To view the document in *run-time mode*, you must open the application and the document outside Visual Studio. You can also build and run the project, which will automatically open the document and application outside Visual Studio.  
   
-## Code editor  
+## Code Editor  
  The Code Editor enables you to view and modify the visible code files in your solution. These files contain the code that defines the behavior of your solution.  
   
  For more information about the Code Editor, see [Write code in the code and text editor](/visualstudio/ide/writing-code-in-the-code-and-text-editor). For more information about how to write code in Office projects, see [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md).  
