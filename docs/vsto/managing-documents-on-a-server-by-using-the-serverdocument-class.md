@@ -62,6 +62,6 @@ ms.workload:
 ## See also  
  [How to: Attach managed code extensions to documents](../vsto/how-to-attach-managed-code-extensions-to-documents.md)   
  [How to: Remove managed code extensions from documents](../vsto/how-to-remove-managed-code-extensions-from-documents.md)   
- [Visual Studio Tools for office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md)   
+ [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md)   
  [Cache data](../vsto/caching-data.md)  
   

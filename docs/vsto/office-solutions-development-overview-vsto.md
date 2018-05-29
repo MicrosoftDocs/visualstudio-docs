@@ -33,7 +33,7 @@ ms.workload:
   
  The types of projects you can create depend on which Office applications you have installed on the development computer. For more information, see [Features available by Office application and project type](../vsto/features-available-by-office-application-and-project-type.md).  
   
-### Document-Level customizations  
+### Document-level customizations  
  Document-level customizations consist of an assembly that is associated with a single document, workbook, or template in Microsoft Office Word or Microsoft Office Excel. The assembly is loaded when the associated document is opened. Features in customizations that you create are available only when the associated document is open. Customizations cannot make application-wide changes, such as displaying a new menu item or ribbon tab when any document is open.  
   
  [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] includes tools to help you create document-level customizations. The document that you customize is hosted as a design surface in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], which enables you to design the document by dragging and dropping controls onto it. Many other [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] features are available in document-level projects, such as Windows Forms controls, drag-and-drop data binding, and an integrated debugger.  

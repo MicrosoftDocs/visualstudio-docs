@@ -110,7 +110,7 @@ ms.workload:
  [Outlook object model overview](../vsto/outlook-object-model-overview.md)   
  [PowerPoint solutions](../vsto/powerpoint-solutions.md)   
  [Project solutions](../vsto/project-solutions.md)   
- [Visio Object model overview](../vsto/visio-object-model-overview.md)   
+ [Visio object model overview](../vsto/visio-object-model-overview.md)   
  [Word object model overview](../vsto/word-object-model-overview.md)   
  [General reference &#40;Office development in Visual Studio&#41;](../vsto/general-reference-office-development-in-visual-studio.md)  
   

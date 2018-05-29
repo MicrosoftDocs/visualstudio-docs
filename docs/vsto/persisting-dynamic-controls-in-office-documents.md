@@ -1,5 +1,5 @@
 ---
-title: "Persisting dynamic Controls in Office Documents | Microsoft Docs"
+title: "Persist dynamic controls in Office documents"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
@@ -23,7 +23,7 @@ ms.workload:
   - "office"
 ---
 # Persist dynamic controls in Office documents
-  Controls that are added at run time are not persisted when the document or workbook is saved and closed. The exact behavior is different for host controls and Windows Forms controls. In both cases, you can add code to your solution to re-create the controls when the user reopens the document.  
+  Controls that are added at runtime are not persisted when the document or workbook is saved and closed. The exact behavior is different for host controls and Windows Forms controls. In both cases, you can add code to your solution to re-create the controls when the user reopens the document.  
   
  Controls that you add to documents at run time are called *dynamic controls*. For more information about dynamic controls, see [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md).  
   
@@ -64,7 +64,7 @@ ms.workload:
   
  In VSTO Add-ins, the controls are removed, but the ActiveX wrappers remain in the document. The next time the user opens the document, the ActiveX wrappers are visible. In Excel, the ActiveX wrappers display images of the controls as they appeared the last time the document was saved. In Word, the ActiveX wrappers are invisible unless the user clicks on them, in which case they display a dotted line that represents the border of the controls. There are several ways you can remove the ActiveX wrappers. For more information, see [Remove ActiveX Wrappers in an Add-in](#removingActiveX).  
   
-### Re-create Windows Forms controls when documents are opened  
+### Re-create Windows forms controls when documents are opened  
  You can re-create deleted Windows Forms controls when the user reopens the document. To do this, your solution must perform the following tasks:  
   
 1.  Store information about the size, location, and state of the controls when the document is saved or closed. In a document-level customization, you can save the data to the data cache in the document. In a VSTO Add-in, you can save the data to a custom XML part in the document.  
@@ -98,5 +98,4 @@ ms.workload:
   
 ## See also  
  [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md)  
-  
   

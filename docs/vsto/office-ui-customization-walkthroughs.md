@@ -19,7 +19,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Office UI Customization Walkthroughs
+# Office UI customization walkthroughs
   The following walkthroughs demonstrate ways that you can customize the user interface (UI) of Microsoft Office applications by using document-level customizations and VSTO Add-ins.  
   
 ## Actions pane walkthroughs  
@@ -43,17 +43,17 @@ ms.workload:
  Demonstrates how to display a unique instance of a custom task pane with each e-mail message that is created or opened in Outlook.  
   
 ## Ribbon walkthroughs  
- [Walkthrough: Create a custom tab by using the Ribbon Designer](../vsto/walkthrough-creating-a-custom-tab-by-using-the-ribbon-designer.md)  
+ [Walkthrough: Create a custom tab by using the Ribbon designer](../vsto/walkthrough-creating-a-custom-tab-by-using-the-ribbon-designer.md)  
  Demonstrates how to create a custom ribbon tab by using the Ribbon Designer. The tab contains a button that can be used to hide or display an actions pane.  
   
  [Walkthrough: Update the controls on a Ribbon at runtime](../vsto/walkthrough-updating-the-controls-on-a-ribbon-at-run-time.md)  
  Demonstrates how to use the Ribbon object model to update the controls on a ribbon after the ribbon is loaded into the Office application.  
   
- [Walkthrough: Create a custom tab by Using Ribbon XML](../vsto/walkthrough-creating-a-custom-tab-by-using-ribbon-xml.md)  
+ [Walkthrough: Create a custom tab by using Ribbon XML](../vsto/walkthrough-creating-a-custom-tab-by-using-ribbon-xml.md)  
  Demonstrates how to create a custom ribbon tab by using ribbon XML instead of using the Ribbon Designer.  
   
-## Controls on Word Documents  
- [Walkthrough: Add Controls to a document at runtime in a VSTO Add-In](../vsto/walkthrough-adding-controls-to-a-document-at-run-time-in-a-vsto-add-in.md)  
+## Controls on Word documents  
+ [Walkthrough: Add controls to a document at runtime in a VSTO add-In](../vsto/walkthrough-adding-controls-to-a-document-at-run-time-in-a-vsto-add-in.md)  
  Demonstrates how to add controls to a document by using an VSTO Add-in.  
   
  [Walkthrough: Change document formatting using CheckBox controls](../vsto/walkthrough-changing-document-formatting-using-checkbox-controls.md)  
@@ -65,7 +65,7 @@ ms.workload:
  [Walkthrough: Update a chart in a document using Radio buttons](../vsto/walkthrough-updating-a-chart-in-a-document-using-radio-buttons.md)  
  Demonstrates how to change chart styles in a Word document by using option buttons in a document-level customization.  
   
-## Controls on Excel Worksheets  
+## Controls on Excel worksheets  
  [Walkthrough: Add controls to a worksheet at runtime in VSTO add-in project](../vsto/walkthrough-adding-controls-to-a-worksheet-at-run-time-in-vsto-add-in-project.md)  
  Demonstrates how to add controls to a worksheet by using an VSTO Add-in.  
   
