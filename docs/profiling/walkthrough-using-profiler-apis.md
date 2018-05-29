@@ -158,4 +158,4 @@ DataCollection.CurrentId);
  <xref:Microsoft.VisualStudio.Profiler>   
  [Visual Studio profiler API reference (native)](../profiling/visual-studio-profiler-api-reference-native.md)   
  [Getting started](../profiling/getting-started-with-performance-tools.md)   
- [Profiling from the command-line](../profiling/using-the-profiling-tools-from-the-command-line.md)
+ [Profile from the command-line](../profiling/using-the-profiling-tools-from-the-command-line.md)
