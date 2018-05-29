@@ -55,6 +55,25 @@ searchScope: []
                                 </a>
                             </li>
                             <li>
+                                <a href="https://docs.microsoft.com/tfs" title="Team Foundation Server">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img data-scaleimage="./images/vs-team-services.svg" src="./images/vs-team-services.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Team Foundation Server</h3>
+                                                    <p>Documentation to set up, manage, and administer your on-premises deployment.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
                                 <a href="https://code.visualstudio.com/docs" title="Visual Studio Code">
                                     <div class="cardSize">
                                         <div class="cardPadding">
@@ -130,7 +149,7 @@ searchScope: []
                                     </div>
                                 </a>
                             </li>
-                        </ul>						
+                        </ul>
                     </li>
                 </ul>
             </li>
