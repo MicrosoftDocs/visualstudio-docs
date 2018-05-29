@@ -63,7 +63,7 @@ By default, the Visual Studio installation enables customer feedback. When you e
   * **0** is opted out
   * **1** is opted in
 
-For more information about the information about the customer feedback settings, see the [Visual Studio Customer Experience Improvement Program](..ide/visual-studio-experience-improvement-program.md) page.
+For more information about customer feedback settings, see the [Visual Studio Customer Experience Improvement Program](..ide/visual-studio-experience-improvement-program.md) page.
 
 ## Get support
 
