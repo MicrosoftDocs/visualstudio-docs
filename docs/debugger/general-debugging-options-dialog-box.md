@@ -25,7 +25,9 @@ ms.workload:
   - "multiple"
 ---
 # General, Debugging, Options Dialog Box
-The **Tools > Options > Debugging > General** page lets you set the following options:  
+The **Tools > Options > Debugging > General** page lets you set the options described in this article.
+
+If you need to restore default settings, you can do that using **Tools** > **Import and Export Settings** > **Reset all settings**. If you only want to reset a subset of settings, save your settings in the **Import and Export Settings Wizard** before making the changes that you want to test, then import your saved settings later.
   
 **Ask before deleting all breakpoints**  
 Requires confirmation before completing the **Delete All Breakpoints** command.  
@@ -196,6 +198,6 @@ When this option is selected, the debugger uses the Visual Studio 2010 native de
   
 You should use this option when you are debugging .NET C++ code, because the new debugging engine does not support evaluating .NET C++ expressions. However, enabling Native Compatibility Mode disables many features that depend on the current debugger implementation to operate. For example, the legacy engine lacks many visualizers for built-in types like `std::string` in Visual Studio 2015 projects.   Please use Visual Studio 2013 projects for the optimal debugging experience in these cases.
   
-## See Also  
+## See also  
  [Debugging in Visual Studio](../debugger/index.md)  
  [Debugger Feature Tour](../debugger/debugger-feature-tour.md)
