@@ -16,14 +16,14 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Office Development Samples
+# Office development samples
   Visual Studio includes sample applications that demonstrate how to use the Microsoft Office developer tools to create Office solutions. The code in these samples illustrates the syntax, structure, and techniques used to build Office solutions.  
   
- For the most current samples, see [MSDN Developer Samples: Learn Through Code](http://go.microsoft.com/fwlink/?LinkID=248199) on the Microsoft website.  
+ For the most current samples, see [MSDN developer samples: Learn through code](http://go.microsoft.com/fwlink/?LinkID=248199) on the Microsoft website.  
   
  [!INCLUDE[note_security_multiplesample](../vsto/includes/note-security-multiplesample-md.md)]  
   
-## Office Development Samples  
+## Office development samples  
   
 |Sample|Description|  
 |------------|-----------------|  
@@ -37,8 +37,8 @@ ms.workload:
 |UI Manager Sample|Demonstrates how to create a ribbon customization, a custom task pane, and a custom form region for Outlook by implementing extensibility interfaces in a VSTO Add-in. Each instance of the ribbon, task pane, and form region can correctly communicate with each other.|  
 |VBA and VSTO Interoperability Sample|Demonstrates how to call a method in a document-level customization for Excel from Visual Basic for Applications (VBA) code in the workbook.<br /><br /> This sample is only available online.|  
   
-## See Also  
- [MSDN Developer Samples: Learn Through Code Samples](http://go.microsoft.com/fwlink/?LinkID=248199)   
- [Common Tasks in Office Programming](../vsto/common-tasks-in-office-programming.md)  
+## See also  
+ [MSDN developer samples: Learn through code samples](http://go.microsoft.com/fwlink/?LinkID=248199)   
+ [Common tasks in Office programming](../vsto/common-tasks-in-office-programming.md)  
   
   
