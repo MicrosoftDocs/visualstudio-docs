@@ -201,6 +201,22 @@ def hello():
     return "Hello World!"
 ```
 
+< a name="qa-url-variables"></a>
+
+### Question: how does Flask work with variable URL routes and query parameters?
+
+Answer: In a route, you mark any variable with `<variable_name>`, and Flask passes the variable to the function using a named argument. The variable can be part of the URL path or in a query parameter. For example, a route in the form of `'/hello/<name>` generates a string argument called `name` to the function, and using `?message=<msg>` in the route parses the value given for the "message=" query parameter and passes it to the function as `msg`:
+
+```python
+@app.route('/hello/<name>?message=<msg>')
+def hello(name, msg):
+    return "Hello " + name + "! Message is " + msg + "."
+```
+
+To change the type, prefix the variable with `int`, `float`, `path` (which accepts slashes to delineate folder names), and `uuid`. For details, see [Variable rules](http://flask.pocoo.org/docs/1.0/quickstart/#variable-rules) in the Flask documentation.
+
+Query parameters are also available through the `request.args` property, specifically through the `request.args.get` method. For more information, see [The Request object](http://flask.pocoo.org/docs/1.0/quickstart/#the-request-object) in the Flask documentation.
+
 ### Question: Can Visual Studio generate a requirements.txt file from a virtual environment after I install other packages?
 
 Answer: Yes. Expand the **Python Environments** node, right-click your virtual environment, and select the **Generate requirements.txt** command. It's good to use this command periodically as you modify the environment, and commit changes to `requirements.txt` to source control along with any other code changes that depend on that environment. If you set up continuous integration on a build server, you should generate the file and commit changes whenever you modify the environment.

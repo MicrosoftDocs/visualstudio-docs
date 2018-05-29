@@ -17,7 +17,7 @@ ms.workload:
 
 **Previous step: [Serve static files, add pages, and use template inheritance](learn-flask-in-visual-studio-step-03-serve-static-files-and-add-pages.md)**
 
-Now that you've explored the basics of Flask by building an app upon the "Blank Flask App Project" template in Visual Studio, you can easily understand the fuller app that's produced by the "Flask Web Project" template. 
+Now that you've explored the basics of Flask by building an app upon the "Blank Flask App Project" template in Visual Studio, you can easily understand the fuller app that's produced by the "Flask Web Project" template.
 
 In this step you now:
 
