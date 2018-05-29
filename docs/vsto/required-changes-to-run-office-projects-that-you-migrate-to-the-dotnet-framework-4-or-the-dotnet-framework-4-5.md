@@ -1,5 +1,5 @@
 ---
-title: "Required Changes to Run Office Projects that You Migrate to the .NET Framework 4 or the .NET Framework 4.5 | Microsoft Docs"
+title: "Required changes to run Office projects that you migrate to the .NET Framework 4 or the .NET Framework 4.5"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
