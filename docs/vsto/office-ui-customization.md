@@ -1,5 +1,5 @@
 ---
-title: "Office UI Customization | Microsoft Docs"
+title: "Office UI customization"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
@@ -29,7 +29,7 @@ ms.workload:
   
 -   [Custom Ribbon UI](#Ribbon)  
   
--   [Backstage View](#Backstage)  
+-   [Backstage view](#Backstage)  
   
 -   [Outlook form regions](#FormRegion)  
   
@@ -68,7 +68,7 @@ ms.workload:
   
  For more information, see [Ribbon overview](../vsto/ribbon-overview.md).  
   
-##  <a name="Backstage"></a> Backstage View  
+##  <a name="Backstage"></a> Backstage view  
  In Office applications, clicking the **File** tab opens the Backstage view. The Backstage view provides a UI that combines file-level tasks and actions, and replaces similar functionality available from the Microsoft Office button in the 2007 Microsoft Office system. The Backstage view is fully extensible by using XML.  
   
  Visual Studio does not provide a designer or APIs for customizing the Backstage view. However, if you add a **Ribbon (XML)** item to your Office project, you can add XML to the Ribbon XML file to customize the Backstage view. For more information about **Ribbon (XML)** items, see [Ribbon XML](../vsto/ribbon-xml.md).  

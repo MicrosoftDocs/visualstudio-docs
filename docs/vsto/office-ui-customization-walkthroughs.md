@@ -1,5 +1,5 @@
 ---
-title: "Office UI Customization Walkthroughs | Microsoft Docs"
+title: "Office UI customization walkthroughs"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
@@ -19,7 +19,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Office UI Customization Walkthroughs
+# Office UI customization walkthroughs
   The following walkthroughs demonstrate ways that you can customize the user interface (UI) of Microsoft Office applications by using document-level customizations and VSTO Add-ins.  
   
 ## Actions pane walkthroughs  
@@ -49,10 +49,10 @@ ms.workload:
  [Walkthrough: Update the controls on a Ribbon at runtime](../vsto/walkthrough-updating-the-controls-on-a-ribbon-at-run-time.md)  
  Demonstrates how to use the Ribbon object model to update the controls on a ribbon after the ribbon is loaded into the Office application.  
   
- [Walkthrough: Create a custom tab by Using Ribbon XML](../vsto/walkthrough-creating-a-custom-tab-by-using-ribbon-xml.md)  
+ [Walkthrough: Create a custom tab by using Ribbon XML](../vsto/walkthrough-creating-a-custom-tab-by-using-ribbon-xml.md)  
  Demonstrates how to create a custom ribbon tab by using ribbon XML instead of using the Ribbon Designer.  
   
-## Controls on Word Documents  
+## Controls on Word documents  
  [Walkthrough: Add Controls to a document at runtime in a VSTO Add-In](../vsto/walkthrough-adding-controls-to-a-document-at-run-time-in-a-vsto-add-in.md)  
  Demonstrates how to add controls to a document by using an VSTO Add-in.  
   

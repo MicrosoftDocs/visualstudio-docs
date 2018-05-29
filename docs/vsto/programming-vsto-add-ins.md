@@ -46,7 +46,7 @@ ms.workload:
  For general information about VSTO Add-ins and other types of solutions you can create by using the Office development tools in Visual Studio, see [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md).  
   
 ## Use the ThisAddIn class  
- You can start writing your VSTO Add-in code in the `ThisAddIn` class. Visual Studio automatically generates this class in the ThisAddIn.vb (in [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)]) or *ThisAddIn.cs* (in C#) code file in your VSTO Add-in project. The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] automatically instantiates this class for you when the Microsoft Office application loads your VSTO Add-in.  
+ You can start writing your VSTO Add-in code in the `ThisAddIn` class. Visual Studio automatically generates this class in the *ThisAddIn.vb* (in [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)]) or *ThisAddIn.cs* (in C#) code file in your VSTO Add-in project. The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] automatically instantiates this class for you when the Microsoft Office application loads your VSTO Add-in.  
   
  There are two default event handlers in the `ThisAddIn` class. To run code when the VSTO Add-in is loaded, add code to the `ThisAddIn_Startup` event handler. To run code just before the VSTO Add-in is unloaded, add code to the `ThisAddIn_Shutdown` event handler. For more information about these event handlers, see [Events in Office projects](../vsto/events-in-office-projects.md).  
   

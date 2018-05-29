@@ -49,7 +49,7 @@ ms.workload:
 ### Infrastructure types in the project primary interop assembly  
  As you write code that uses the Project PIA, you might notice many types that are not described in the VBA reference. These additional types help translate objects in the COM-based object model of Project to managed code, are not intended to be used directly in your code.  
   
- For more information, see[Overview of classes and interfaces in the Office primary interop assemblies](http://go.microsoft.com/fwlink/?LinkId=189592).  
+ For more information, see [Overview of classes and interfaces in the Office primary interop assemblies](http://go.microsoft.com/fwlink/?LinkId=189592).  
   
 ## Customize the user interface of project  
  You can customize the Project UI in the following ways.  

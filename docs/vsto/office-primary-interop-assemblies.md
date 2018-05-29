@@ -67,7 +67,7 @@ ms.workload:
 ##  <a name="usingfeatures"></a> Use features of multiple Microsoft Office applications in a single project  
  Every Office project template in Visual Studio is designed to work with a single Microsoft Office application. To use features in multiple Microsoft Office applications, or to use features in an application or component that does not have a project in Visual Studio, you must add a reference to the required PIAs.  
   
- In most cases, you should add references to the PIAs that are installed by Visual Studio under the *%ProgramFiles%\Microsoft Visual Studio 12.0\Visual Studio Tools for Office\PIA\* directory. These versions of the assemblies appear on the **Framework** tab of the **Reference Manger** dialog box. For more information, see [How to: Target Office applications through Primary interop assemblies](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md).  
+ In most cases, you should add references to the PIAs that are installed by Visual Studio under the *%ProgramFiles%\Microsoft Visual Studio 12.0\Visual Studio Tools for Office\PIA\* directory. These versions of the assemblies appear on the **Framework** tab of the **Reference Manger** dialog box. For more information, see [How to: Target Office applications through primary interop assemblies](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md).  
   
  If you have installed and registered the PIAs in the global assembly cache, these versions of the assemblies appear on the **COM** tab of the **Reference Manager** dialog box. You should avoid adding references to these versions of the assemblies, because there are some development issues that can occur when you use them. For example, if you have registered different versions of the PIAs in the global assembly cache, your project will automatically bind to the version of the assembly that was registered last—even if you specify a different version of the assembly on the **COM** tab of the **Reference Manager** dialog box.  
   
@@ -110,7 +110,7 @@ ms.workload:
  [Outlook object model overview](../vsto/outlook-object-model-overview.md)   
  [PowerPoint solutions](../vsto/powerpoint-solutions.md)   
  [Project solutions](../vsto/project-solutions.md)   
- [Visio Object model overview](../vsto/visio-object-model-overview.md)   
+ [Visio object model overview](../vsto/visio-object-model-overview.md)   
  [Word object model overview](../vsto/word-object-model-overview.md)   
  [General reference &#40;Office development in Visual Studio&#41;](../vsto/general-reference-office-development-in-visual-studio.md)  
   
