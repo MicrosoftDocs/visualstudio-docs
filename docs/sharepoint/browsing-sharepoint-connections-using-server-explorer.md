@@ -32,7 +32,7 @@ ms.workload:
  Every component of a SharePoint site is represented by a node in the **Server Explorer** tree view under **SharePoint Connections**. For example, default SharePoint sites include a content type called Discussion, which represents a discussion type that displays in the **Discussions** page of the SharePoint site. The Discussion content type contains several fields. To view these fields in **Server Explorer**, expand the **ContentTypes** node, and then the **Discussion** node. Under it are several field nodes, such as Body, Discussion Subject, and Title.  
   
 ## Node shortcut menu commands
- Each node has a shortcut menu that you access by right-clicking the node or choosing it and then choosing the Shift+F10 keys. Node commands may include the following:  
+ Each node has a shortcut menu that you access by right-clicking the node or choosing it and then choosing the **Shift**+**F10** keys. Node commands may include the following:  
   
 |Command Name|Description|  
 |------------------|-----------------|  
