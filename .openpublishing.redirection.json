@@ -2021,6 +2021,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/test/test-windows-store-8-1-apps-with-coded-ui-tests.md",
+            "redirect_url": "/visualstudio/test/test-uwp-app-with-coded-ui-test",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/test/testing-store-apps-with-visual-studio.md",
             "redirect_url": "/visualstudio/test/create-and-run-unit-tests-for-a-store-app-in-visual-studio/",
             "redirect_document_id": false
