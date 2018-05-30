@@ -70,7 +70,7 @@ ms.workload:
   
 -   [Office primary interop assemblies](../vsto/office-primary-interop-assemblies.md)  
   
-## Run Microsoft VSTO Office solutions on end user computers  
+## Run Microsoft VSTO Office solutions on end-user computers  
  When you create a VSTO Office solution, consider how the deployment requirements might affect your development choices.  
   
 ### Deployment options  

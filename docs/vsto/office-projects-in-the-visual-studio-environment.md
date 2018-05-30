@@ -99,10 +99,10 @@ ms.workload:
   
  The document has an associated code file. The code file contains a generated *host item* class that represents the document. For more information, see [Document host item](../vsto/document-host-item.md).  
   
-### Design mode vs. run time mode  
+### Design mode vs. runtime mode  
  When a document is open in the Visual Studio environment, it is always in *design mode*. Some tasks, such as dragging a host control to the document surface, can be performed only design mode.  
   
- To view the document in *run-time mode*, you must open the application and the document outside Visual Studio. You can also build and run the project, which will automatically open the document and application outside Visual Studio.  
+ To view the document in *runtime mode*, you must open the application and the document outside Visual Studio. You can also build and run the project, which will automatically open the document and application outside Visual Studio.  
   
 ## Code Editor  
  The Code Editor enables you to view and modify the visible code files in your solution. These files contain the code that defines the behavior of your solution.  
@@ -112,7 +112,7 @@ ms.workload:
 ## Properties window  
  The **Properties** window displays properties for project items that are selected in **Solution Explorer**, and for UI elements that are selected in the designer, such as controls or the document in a document-level project. Some properties are specific to the application and document, and some properties are the same across all projects.  
   
-## Data sources window  
+## Data Sources window  
  You can use the **Data Sources** window in document-level Office projects to drag a data source onto your document and create a control that is bound to the data source. For more information, see [Bind controls to data in Visual Studio](/visualstudio/data-tools/bind-controls-to-data-in-visual-studio).  
   
 ## See also  
