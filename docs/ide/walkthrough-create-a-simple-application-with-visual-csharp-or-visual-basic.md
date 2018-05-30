@@ -16,9 +16,11 @@ ms.workload:
   - "dotnet"
 ---
 # Walkthrough: Create a simple application with C# or Visual Basic
+
 By completing this walkthrough, you'll become familiar with many of the tools, dialog boxes, and designers that you can use when you develop applications with Visual Studio. You'll create a simple "Hello, World" application, design the UI, add code, and debug errors, while you learn about working in the integrated development environment (IDE).
 
 ##  <a name="BKMK_ConfigureIDE"></a> Configure the IDE
+
 When you start Visual Studio for the first time, you'll be prompted to sign in. This step is optional for this walkthrough. Next you may be shown a dialog box that asks you to choose your development settings and color theme. Keep the defaults and choose **Start Visual Studio**.
 
 ![Choose settings dialog box](../ide/media/exploreide-settings.png "exploreide-settings")
@@ -30,6 +32,7 @@ After Visual Studio launches, you'll see tool windows, the menus and toolbars, a
 ##  <a name="BKMK_CreateApp"></a> Create a simple application
 
 ### Create the project
+
 When you create an application in Visual Studio, you first create a project and a solution. For this example, you'll create a Windows Presentation Foundation (WPF) project.
 
 #### Create the WPF project
@@ -49,6 +52,7 @@ Visual Studio creates the HelloWPFApp project and solution, and **Solution Explo
 After you create the project, you can customize it. By using the **Properties** window (found on the **View** menu), you can display and change options for project items, controls, and other items in an application.
 
 #### Change the name of MainWindow.xaml
+
 Let's give MainWindow a more specific name.
 
 1. In **Solution Explorer**, select *MainWindow.xaml*. You should see the **Properties** window, but if you don't, choose the **View** menu and then the **Properties Window** item.
@@ -59,6 +63,7 @@ Let's give MainWindow a more specific name.
      **Solution Explorer** shows that the name of the file is now *Greetings.xaml*, and the nested code file is now named *Greetings.xaml.vb* or *Greetings.xaml.cs*. This code file is nested under the *.xaml* file node to show they are closely related to each other.
 
 ### Design the user interface (UI)
+
 We will add three types of controls to this application: a <xref:System.Windows.Controls.TextBlock> control, two <xref:System.Windows.Controls.RadioButton> controls, and a <xref:System.Windows.Controls.Button> control.
 
 #### Add a TextBlock control
@@ -120,6 +125,7 @@ You can now add display text for each RadioButton control. The following procedu
 2.  Open the shortcut menu for GoodbyeButton by pressing the right mouse button on GoodbyeButton, choose **Edit Text**, and then enter `Goodbye`.
 
 ### Set a radio button to be checked by default
+
 In this step we'll set HelloButton to be checked by default so that one of the two radio buttons is always selected.
 
 In the XAML view, locate the markup for HelloButton and add an **IsChecked** attribute:
@@ -144,9 +150,11 @@ The final UI element that you'll add is a [Button](/dotnet/framework/wpf/control
      ![Greetings form with control labels](../ide/media/exploreide-greetingswithconrollabels.png "ExploreIDE-Greetingswithconrollabels")
 
 ### Add code to the display button
+
 When this application runs, a message box appears after a user chooses a radio button and then chooses the **Display** button. One message box will appear for Hello, and another will appear for Goodbye. To create this behavior, you'll add code to the `Button_Click` event in *Greetings.xaml.vb* or *Greetings.xaml.cs*.
 
 #### Add code to display message boxes
+
 1.  On the design surface, double-click the **Display** button.
 
      *Greetings.xaml.vb* or *Greetings.xaml.cs* opens, with the cursor in the `Button_Click` event.
@@ -187,9 +195,11 @@ When this application runs, a message box appears after a user chooses a radio b
 3.  Save the application.
 
 ##  <a name="BKMK_DebugTest"></a> Debug and test the application
+
 Next, you'll debug the application to look for errors and test that both message boxes appear correctly. The following instructions tell you how to build and launch the debugger, but later you might read [Build a WPF application (WPF)](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf) and [Debug WPF](../debugger/debugging-wpf.md) for more information.
 
 ### Find and fix errors
+
 In this step, you'll find the error that we caused earlier by changing the name of the *MainWindow.xaml* file.
 
 #### Start debugging and find the error
@@ -215,6 +225,7 @@ We renamed *MainWindow.xaml* to *Greetings.xaml* at the start of this walkthroug
 Start the debugger again (press **F5**). You should see the **Greetings** window of the application. Now close the application window to stop debugging.
 
 ### Debug with breakpoints
+
 You can test the code during debugging by adding some breakpoints. You can add breakpoints by choosing **Debug** > **Toggle Breakpoint**, by clicking in the left margin of the editor next to the line of code where you want the break to occur, or by pressing **F9**.
 
 #### Add breakpoints
@@ -252,26 +263,26 @@ You can test the code during debugging by adding some breakpoints. You can add b
 11. On the menu bar, choose **Debug** > **Disable All Breakpoints**.
 
 ### Build a release version of the application
- Now that you've verified that everything works, you can prepare a release build of the application.
+
+Now that you've verified that everything works, you can prepare a release build of the application.
 
 #### Clean the solution files and build a release version
 
 1.  On the main menu, select **Build** > **Clean solution** to delete intermediate files and output files that were created during previous builds. This is not necessary, but it cleans up the debug build outputs.
 
-     ![The Clean Solution command on the Build menu](../ide/media/exploreide-cleansolution.png "ExploreIDE-CleanSolution")
+     ![The Clean Solution command on the Build menu](../ide/media/exploreide-cleansolution.png)
 
 2.  Change the build configuration for HelloWPFApp from **Debug** to **Release** by using the dropdown control on the toolbar (it says "Debug" currently).
 
-     ![The Standard toolbar with Release selected](../ide/media/exploreide-releaseversion.png "ExploreIDE-ReleaseVersion")
+     ![The Standard toolbar with Release selected](../ide/media/exploreide-releaseversion.png)
 
 3.  Build the solution by choosing **Build**, then **Build Solution**.
 
-     ![Build Solution command on the Build menu](../ide/media/exploreide-buildsolution.png "ExploreIDE-BuildSolution")
+     ![Build Solution command on the Build menu](../ide/media/exploreide-buildsolution.png)
 
-Congratulations on completing this walkthrough! You can find the *.exe* you built under your solution and project directory (*...\HelloWPFApp\HelloWPFApp\bin\Release*). If you want to explore more examples, see [Visual Studio samples](../ide/visual-studio-samples.md).
+Congratulations on completing this walkthrough! You can find the *.exe* you built under your solution and project directory (*...\HelloWPFApp\HelloWPFApp\bin\Release*).
 
 ## See also
 
 - [What's new in Visual Studio 2017](../ide/whats-new-in-visual-studio.md)
-- [Get started developing with Visual Studio](../ide/get-started-developing-with-visual-studio.md)
 - [Productivity tips](../ide/productivity-tips-for-visual-studio.md)

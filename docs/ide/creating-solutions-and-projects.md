@@ -131,5 +131,4 @@ You can delete solutions and their contents permanently, but not by using the Vi
 
 - [Solutions and projects](../ide/solutions-and-projects-in-visual-studio.md)
 - [Microsoft's open source repositories on GitHub](https://github.com/Microsoft)
-- [Visual Studio samples](../ide/visual-studio-samples.md)
 - [Developer code samples](https://code.msdn.microsoft.com/)

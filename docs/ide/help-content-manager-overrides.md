@@ -13,7 +13,7 @@ ms.workload:
 ---
 # Help Content Manager overrides
 
-You can change the default behavior of the Help Viewer and Help-related features in the Visual Studio IDE. Some options are specified by creating a [.pkgdef](https://blogs.msdn.microsoft.com/visualstudio/2009/12/18/whats-a-pkgdef-and-why/) file to set various registry key values. Others are set directly in the registry.
+You can change the default behavior of Help Viewer and help-related features in the Visual Studio IDE. Some options are specified by creating a [.pkgdef](https://blogs.msdn.microsoft.com/visualstudio/2009/12/18/whats-a-pkgdef-and-why/) file to set various registry key values. Others are set directly in the registry.
 
 ## How to control Help Viewer behavior by using a .pkgdef file
 
@@ -62,4 +62,3 @@ The following two behaviors can be controlled by setting registry key values in 
 - [Help Viewer administrator guide](../ide/help-viewer-administrator-guide.md)
 - [Command-line arguments for the Help Content Manager](../ide/command-line-arguments-for-the-help-content-manager.md)
 - [Microsoft Help Viewer](../ide/microsoft-help-viewer.md)
-- [Modifying the isolated shell by using the .pkgdef file](../extensibility/shell/modifying-the-isolated-shell-by-using-the-dot-pkgdef-file.md)

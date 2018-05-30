@@ -81,7 +81,7 @@ This topic provides an overview of how to deploy [!INCLUDE[ndptecclick](../deplo
  Trusted Application Deployment is specific to [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)], and can only be used with [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications.  
   
 ### Sign the Deployment  
- After obtaining your certificate, you must use it to sign your deployment. If you are deploying your application by using the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Publish wizard, the wizard will automatically generate a test certificate for you if you have not specified a certificate yourself. You can also use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Project Designer window, however, to supply a certificate provided by a CA.  Also see [How to: Publish a ClickOnce Application using the Publish Wizard](http://msdn.microsoft.com/library/31kztyey\(v=vs.110\).  
+ After obtaining your certificate, you must use it to sign your deployment. If you are deploying your application by using the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Publish wizard, the wizard will automatically generate a test certificate for you if you have not specified a certificate yourself. You can also use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Project Designer window, however, to supply a certificate provided by a CA.  Also see [How to: Publish a ClickOnce Application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md).  
   
 > [!CAUTION]
 >  We do not recommend that the application be deployed with a test certificate.  

@@ -19,7 +19,7 @@ You might experience one of the following issues when you use the Profiling Tool
 -   [Performance Views and reports display numbers for function names](#NoSymbols)  
   
 ## No data is collected by the profiling tools  
- After you profile an application, a profiling data (.*vsp*) file is not created and you receive the following warning in the Output window or in the command window:  
+ After you profile an application, a profiling data (.*vsp*) file is not created and you receive the following warning in the **Output** window or in the command window:  
   
  PRF0025: No data was collected.  
   
@@ -32,7 +32,7 @@ You might experience one of the following issues when you use the Profiling Tool
 ## Performance views and reports display numbers for function names  
  After you profile an application, you see numbers instead of function names in reports and views.  
   
- This problem is caused by the Profiling Tools analysis engine being unable to find the *.pdb* files that contain the symbol information that maps source code information, such function names and line numbers to the compiled file. By default, the compiler creates the *.pdb* file when the application file is built. A reference to the local directory of the *.pdb* file is stored in the compiled application. The analysis engine looks in the referenced directory for the *.pdb* file and then in the file that currently contains the application file. If the *.pdb* file is not found, the analysis engine uses the function offsets instead of the function names.  
+ This problem is caused by the Profiling Tools analysis engine being unable to find the .*pdb* files that contain the symbol information that maps source code information, such function names and line numbers to the compiled file. By default, the compiler creates the .*pdb* file when the application file is built. A reference to the local directory of the .*pdb* file is stored in the compiled application. The analysis engine looks in the referenced directory for the .*pdb* file and then in the file that currently contains the application file. If the .*pdb* file is not found, the analysis engine uses the function offsets instead of the function names.  
   
  You can fix the problem in one of two ways:  
   
@@ -41,4 +41,4 @@ You might experience one of the following issues when you use the Profiling Tool
 -   Embed the symbol information in the profiling data (.*vsp*) file. For more information, see [Save symbol information with performance data files](../profiling/saving-symbol-information-with-performance-data-files.md).  
   
 > [!NOTE]
->  The analysis engine requires that the .*pdb* file is the same version as the compiled application file. A *.pdb* file from an earlier or later build of the application file will not work.
+>  The analysis engine requires that the .*pdb* file is the same version as the compiled application file. A .*pdb* file from an earlier or later build of the application file will not work.
