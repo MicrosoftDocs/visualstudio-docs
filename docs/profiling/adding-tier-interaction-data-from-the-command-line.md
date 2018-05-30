@@ -76,7 +76,7 @@ In the following example, a Windows desktop application is profiled by using the
 
 For more information, see [Profile stand-alone applications](../profiling/command-line-profiling-of-stand-alone-applications.md).
 
-## Profile services
+## Profiling services
 
 To profile services, including [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] applications, use the **VSPerfClrEnv /GlobalInteractionOn** option to set the environment variables, and the **VSPerfClrEnv /GlobalInteractionOff** option to remove them.
 
@@ -138,7 +138,7 @@ For more information, see one of the following topics:
 
 [Profile ASP.NET web applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)
 
-[Profile services](../profiling/command-line-profiling-of-services.md)
+[Profiling services](../profiling/command-line-profiling-of-services.md)
 
 ## Add tier interaction data with VSPerfASPNETCmd
 
