@@ -66,7 +66,7 @@ searchScope: []
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Team Foundation Server</h3>
-                                                    <p>Documentation to set up, manage, and administer your on-premises deployment.</p>
+                                                    <p>Install, upgrade, and manage your on-premises deployments.</p>
                                                 </div>
                                             </div>
                                         </div>
