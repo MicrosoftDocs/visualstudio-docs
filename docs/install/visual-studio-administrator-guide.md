@@ -55,15 +55,15 @@ We have several tools available to help you [detect and manage installed Visual 
 
 By default, the Visual Studio installation enables customer feedback. When you enable Group Policy, you can configure Visual Studio to disable customer feedback on individual computers. To do so, set a registry-based policy on the following key:
 
-  **HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\VisualStudio\SQM**
+**HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\VisualStudio\SQM**
 
-  Entry = **OptIn**
+Entry = **OptIn**
 
-  Value = (DWORD)
-  * **0** is opted out
-  * **1** is opted in
+Value = (DWORD)
+* **0** is opted out
+* **1** is opted in
 
-For more information about customer feedback settings, see the [Visual Studio Customer Experience Improvement Program](..ide/visual-studio-experience-improvement-program.md) page.
+For more information about customer feedback settings, see the [Visual Studio Customer Experience Improvement Program](../ide/visual-studio-experience-improvement-program.md) page.
 
 ## Get support
 
