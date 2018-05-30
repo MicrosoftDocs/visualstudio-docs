@@ -51,6 +51,20 @@ We have several tools available to help you [detect and manage installed Visual 
 > [!TIP]
 > In addition to the documentation in the administrator guide, a good source of information on Visual Studio 2017 setup is [Heath Stewart's blog](https://blogs.msdn.microsoft.com/heaths/tag/vs2017/).
 
+## Specify customer feedback settings
+
+By default, the Visual Studio installation enables customer feedback. When you enable Group Policy, you can configure Visual Studio to disable customer feedback on individual computers. To do so, set a registry-based policy on the following key:
+
+**HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\VisualStudio\SQM**
+
+Entry = **OptIn**
+
+Value = (DWORD)
+* **0** is opted out
+* **1** is opted in
+
+For more information about customer feedback settings, see the [Visual Studio Customer Experience Improvement Program](../ide/visual-studio-experience-improvement-program.md) page.
+
 ## Get support
 
 Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://www.visualstudio.com/vs/support/#talktous).
