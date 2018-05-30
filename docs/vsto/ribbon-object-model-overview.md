@@ -17,7 +17,7 @@ ms.workload:
   - "office"
 ---
 # Ribbon object model overview
-  The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] exposes a strongly typed object model that you can use to get and set the properties of Ribbon controls at runtime. For example, you can dynamically populate menu controls, or show and hide controls contextually. You can also add tabs, groups, and controls to a Ribbon, but only before the Ribbon is loaded by the Office application. For information, see [Set properties that become read-only](#SettingReadOnlyProperties).  
+  The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] exposes a strongly typed object model that you can use to get and set the properties of Ribbon controls at runtime. For example, you can dynamically populate menu controls, or show and hide controls contextually. You can also add tabs, groups, and controls to a ribbon, but only before the ribbon is loaded by the Office application. For information, see [Set properties that become read-only](#SettingReadOnlyProperties).  
   
  [!INCLUDE[appliesto_Ribbon](../vsto/includes/appliesto-Ribbon-md.md)]  
   
@@ -95,7 +95,7 @@ ms.workload:
   
 -   In the `CreateRibbonExtensibilityObject` method of the `ThisAddin`, `ThisWorkbook`, or `ThisDocument` class of your project.  
   
- Dynamic menus provide some exceptions. You can create new controls, set their properties, and then add them to a dynamic menu at runtime, even after the Ribbon that contains the menu is loaded.  
+ Dynamic menus provide some exceptions. You can create new controls, set their properties, and then add them to a dynamic menu at runtime, even after the ribbon that contains the menu is loaded.  
   
  Properties of controls that you add to a dynamic menu can be set at any time.  
   
@@ -182,7 +182,7 @@ ms.workload:
 |*e*|A <xref:Microsoft.Office.Tools.Ribbon.RibbonControlEventArgs> that contains a <xref:Microsoft.Office.Core.IRibbonControl>. Use this control to access any property that is not available in the Ribbon object model provided by the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)].|  
   
 ## See also  
- [Access the Ribbon at runtime](../vsto/accessing-the-Ribbon-at-run-time.md)   
+ [Access the ribbon at runtime](../vsto/accessing-the-Ribbon-at-run-time.md)   
  [Ribbon overview](../vsto/Ribbon-overview.md)   
  [How to: Get started customizing the ribbon](../vsto/how-to-get-started-customizing-the-Ribbon.md)   
  [Ribbon Designer](../vsto/Ribbon-designer.md)   
@@ -191,6 +191,6 @@ ms.workload:
  [Customize a ribbon for Outlook](../vsto/customizing-a-Ribbon-for-outlook.md)   
  [How to: Customize a built-in tab](../vsto/how-to-customize-a-built-in-tab.md)   
  [How to: Add controls to the Backstage view](../vsto/how-to-add-controls-to-the-backstage-view.md)   
- [How to: Export a Ribbon from the Ribbon Designer to Ribbon XML](../vsto/how-to-export-a-Ribbon-from-the-Ribbon-designer-to-Ribbon-xml.md)   
+ [How to: Export a ribbon from the Ribbon Designer to Ribbon XML](../vsto/how-to-export-a-Ribbon-from-the-Ribbon-designer-to-Ribbon-xml.md)   
  [How to: Show Add-in user interface errors](../vsto/how-to-show-add-in-user-interface-errors.md)  
  

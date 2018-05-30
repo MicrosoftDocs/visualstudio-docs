@@ -28,7 +28,7 @@ ms.workload:
   - "office"
 ---
 # Ribbon XML
-  The Ribbon (XML) item enables you to customize a Ribbon by using XML. Use the Ribbon (XML) item if you want to customize the ribbon in a way that is not supported by the Ribbon (Visual Designer) item. For a comparison of what you can do with each item, see [Ribbon overview](../vsto/Ribbon-overview.md).  
+  The Ribbon (XML) item enables you to customize a ribbon by using XML. Use the Ribbon (XML) item if you want to customize the ribbon in a way that is not supported by the Ribbon (Visual Designer) item. For a comparison of what you can do with each item, see [Ribbon overview](../vsto/Ribbon-overview.md).  
   
  [!INCLUDE[appliesto_Ribbon](../vsto/includes/appliesto-Ribbon-md.md)]  
   
@@ -37,7 +37,7 @@ ms.workload:
   
 -   A Ribbon XML file. This file defines the Ribbon user interface (UI). Use this file to add UI elements such as tabs, groups, and controls. For details, see [Ribbon XML file reference](#RibbonDescriptorFile) later in this topic.  
   
--   A Ribbon code file. This file contains the *Ribbon class*. This class has the name that you specified for the **Ribbon (XML)** item in the **Add New Item** dialog box. Microsoft Office applications use an instance of this class to load the custom Ribbon. For details, see [Ribbon class reference](#RibbonExtensionClass) later in this topic.  
+-   A Ribbon code file. This file contains the *Ribbon class*. This class has the name that you specified for the **Ribbon (XML)** item in the **Add New Item** dialog box. Microsoft Office applications use an instance of this class to load the custom ribbon. For details, see [Ribbon class reference](#RibbonExtensionClass) later in this topic.  
   
  By default, these files add a custom group to the **Add-Ins** tab in the ribbon.  
   
@@ -114,9 +114,9 @@ ms.workload:
 |-------------|-----------------|  
 |**customUI**|Represents the custom ribbon in the VSTO Add-in project.|  
 |**Ribbon**|Represents the ribbon.|  
-|**tabs**|Represents a set of ribbon tabs.|  
-|**tab**|Represents a single ribbon tab.|  
-|**group**|Represents a group of controls on the ribbon tab.|  
+|**tabs**|Represents a set of Ribbon tabs.|  
+|**tab**|Represents a single Ribbon tab.|  
+|**group**|Represents a group of controls on the Ribbon tab.|  
   
  These elements have attributes that specify the appearance and behavior of the custom ribbon. The following table describes the default attributes in the Ribbon XML file.  
   
@@ -137,7 +137,7 @@ ms.workload:
 |Method|Description|  
 |------------|-----------------|  
 |`GetCustomUI`|Returns the contents of the Ribbon XML file. Microsoft Office applications call this method to obtain an XML string that defines the user interface of your custom ribbon. This method implements the <xref:Microsoft.Office.Core.IRibbonExtensibility.GetCustomUI%2A> method. **Note:**  `GetCustomUI` should be implemented only to return the contents of the Ribbon XML file; it should not be used to initialize your VSTO Add-in. In particular, you should not try to display dialog boxes or other windows in your `GetCustomUI` implementation. Otherwise, the custom ribbon might not behave correctly. If you have to run code that initializes your VSTO Add-in, add the code to the `ThisAddIn_Startup` event handler.|  
-|`OnLoad`|Assigns the <xref:Microsoft.Office.Core.IRibbonControl> parameter to the `Ribbon` field. Microsoft Office applications call this method when they load the custom ribbon. You can use this field to dynamically update the custom Ribbon. For more information, see the technical article [Customize the Office (2007) Ribbon user interface for developers (Part 1 of 3)](http://msdn.microsoft.com/en-us/a4fd6d18-d4a8-4e64-bd89-f437208573d3).|  
+|`OnLoad`|Assigns the <xref:Microsoft.Office.Core.IRibbonControl> parameter to the `Ribbon` field. Microsoft Office applications call this method when they load the custom ribbon. You can use this field to dynamically update the custom ribbon. For more information, see the technical article [Customize the Office (2007) Ribbon user interface for developers (Part 1 of 3)](http://msdn.microsoft.com/en-us/a4fd6d18-d4a8-4e64-bd89-f437208573d3).|  
 |`GetResourceText`|Called by the `GetCustomUI` method to obtain the contents of the Ribbon XML file.|  
   
 ## See also  

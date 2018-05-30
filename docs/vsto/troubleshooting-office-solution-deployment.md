@@ -74,7 +74,7 @@ ms.workload:
   
  After you change the assembly version, you can continue to sign your assembly with a strong name, and Fusion will load the most recent version of the customization.  
   
-## Installation fails when the URI has characters that are't US-ASCII  
+## Installation fails when the URI has characters that aren't US-ASCII  
  When you publish an Office solution to an HTTP/HTTPS/FTP location, the path can't have any Unicode characters that aren't in US-ASCII. Such characters can cause inconsistent behavior in the Setup program. Use US-ASCII characters for the installation path.  
   
 ## Prompt to manually uninstall appears when you publish and install a solution on the development computer  
@@ -117,7 +117,7 @@ ms.workload:
   
  For information about how to define the MIME type in IIS 6, see [Configure MIME Types (IIS 6.0)](http://www.microsoft.com/technet/prodtechnol/WindowsServer2003/Library/IIS/cd72c0dc-c5b8-42e4-96c2-b3c656f99ead.mspx?mfr=true).  
   
- For information about how to define the MIME type in IIS 7, see [Add a MIME Type (IIS7).](http://technet.microsoft.com/library/cc725608(WS.10).aspx).  
+ For information about how to define the MIME type in IIS 7, see [Add a MIME Type (IIS7)](http://technet.microsoft.com/library/cc725608(WS.10).aspx).  
   
  Set the extension to **.vsto** and the MIME type to **application/x-ms-vsto**.  
   
