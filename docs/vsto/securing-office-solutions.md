@@ -31,7 +31,7 @@ ms.workload:
   
 -   [Security during development](#SecurityDuringDeployment)  
   
--   [Visual Studio tools for Office runtime](#VisualStudioToolsForOfficeRuntime)  
+-   [Visual Studio Tools for Office runtime](#VisualStudioToolsForOfficeRuntime)  
   
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]  
   
@@ -83,7 +83,7 @@ ms.workload:
   
  You can start the installation process in one of four ways: by running the Setup program, by opening the deployment manifest, by opening the Microsoft Office application host, or by running *VSTOInstaller.exe*.  
   
- The first security check applies only to document-level solutions. The document of a document-level solution must be in a trusted location. If the document is on a remote network file share or has a .doc or .docm file name extension, the document's location must be added to the trusted locations list. For more information, see [Granting Trust to Documents](../vsto/granting-trust-to-documents.md).  
+ The first security check applies only to document-level solutions. The document of a document-level solution must be in a trusted location. If the document is on a remote network file share or has a *.doc* or *.docm* file name extension, the document's location must be added to the trusted locations list. For more information, see [Grant trust to documents](../vsto/granting-trust-to-documents.md).  
   
  ![VSTO security - installing from Microsoft Office](../vsto/media/host-install.png "VSTO security - installing from Microsoft Office")  
   
@@ -93,20 +93,20 @@ ms.workload:
   
  If the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] trust prompt is allowed and the solution has not yet been granted trust, the runtime will allow the trust decision to be made by the end user. If the user grants trust to the solution, an entry is added to the user inclusion list. All solutions in the user inclusion list have full trust and can be installed and run.  
   
- Starting in Visual Studio 2010, the inclusion list is bypassed if the Office solution is installed by using Windows Installer (MSI) into the Program Files directory. For more information, see [Trusting Office Solutions by Using Inclusion Lists](../vsto/trusting-office-solutions-by-using-inclusion-lists.md).  
+ Starting in Visual Studio 2010, the inclusion list is bypassed if the Office solution is installed by using Windows Installer (MSI) into the Program Files directory. For more information, see [Trust Office solutions by using inclusion lists](../vsto/trusting-office-solutions-by-using-inclusion-lists.md).  
   
  ![VSTO security - using the Setup program to install](../vsto/media/setup-vstoinstaller.png "VSTO security - using the Setup program to install")  
   
-## See Also  
- [Granting Trust to Office Solutions](../vsto/granting-trust-to-office-solutions.md)   
- [Granting Trust to Documents](../vsto/granting-trust-to-documents.md)   
- [Trusting Office Solutions by Using Inclusion Lists](../vsto/trusting-office-solutions-by-using-inclusion-lists.md)   
- [How to: Configure Inclusion List Security](../vsto/how-to-configure-inclusion-list-security.md)   
- [How to: Sign Office Solutions](../vsto/how-to-sign-office-solutions.md)   
- [Troubleshooting Office Solution Security](../vsto/troubleshooting-office-solution-security.md)   
- [Application Manifests for Office Solutions](../vsto/application-manifests-for-office-solutions.md)   
- [Deployment Manifests for Office Solutions](../vsto/deployment-manifests-for-office-solutions.md)   
- [ClickOnce Reference](/visualstudio/deployment/clickonce-reference)   
- [Deploying an Office Solution](../vsto/deploying-an-office-solution.md)  
+## See also  
+ [Grant trust to Office solutions](../vsto/granting-trust-to-office-solutions.md)   
+ [Grant trust to documents](../vsto/granting-trust-to-documents.md)   
+ [Trust Office solutions by using inclusion lists](../vsto/trusting-office-solutions-by-using-inclusion-lists.md)   
+ [How to: Configure inclusion list security](../vsto/how-to-configure-inclusion-list-security.md)   
+ [How to: Sign Office solutions](../vsto/how-to-sign-office-solutions.md)   
+ [Troubleshoot Office solution security](../vsto/troubleshooting-office-solution-security.md)   
+ [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md)   
+ [Deployment manifests for Office solutions](../vsto/deployment-manifests-for-office-solutions.md)   
+ [ClickOnce reference](/visualstudio/deployment/clickonce-reference)   
+ [Deploy an Office solution](../vsto/deploying-an-office-solution.md)  
   
   
