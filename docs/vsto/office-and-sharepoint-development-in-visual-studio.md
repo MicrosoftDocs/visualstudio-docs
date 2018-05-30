@@ -25,7 +25,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Office and SharePoint Development in Visual Studio
+# Office and SharePoint development in Visual Studio
   You can extend Microsoft Office and SharePoint by creating a lightweight app or add-in that users download from the [Office Store](https://store.office.com/) or an organizational catalog, or by creating a .NET Framework-based solution that users install on a computer.  
   
  In this topic:  
@@ -44,8 +44,6 @@ ms.workload:
  These add-ins have very small footprints compared to VSTO add-ins and solutions, and you can build them by using almost any web programming technology such as HTML5, JavaScript, CSS3, and XML.  To get started, use the Office Developer Tools in Visual Studio, or the lightweight web-based tool code-named Napa Office 365 Development Tools, which lets you create projects, write code, and run your add-ins in a browser.  
   
  ![Apps for Office and SharePoint conceptual model](../vsto/media/officeandsharepointapps2015.png "Apps for Office and SharePoint conceptual model")  
-  
-
   
 ### Build an Office add-in  
  To extend the functionality of Office, build an Office add-in. It's basically a webpage that's hosted in an Office application such as Excel, Word, Outlook, and PowerPoint. Your app can add functionality to documents, worksheets, email messages, appointments, presentations, and projects.  
@@ -78,7 +76,7 @@ ms.workload:
 |--------|---------|  
 |Learn more about SharePoint add-ins, and then build one.|[SharePoint Add-ins](https://msdn.microsoft.com/library/office/fp179930.aspx)|  
 |Compare add-ins for SharePoint with traditional SharePoint solutions.|[SharePoint add-ins compared with SharePoint solutions](http://msdn.microsoft.com/library/office/jj163114.aspx)|  
-|Choose whether to build a SharePoint add-in or a SharePoint solution.|[Deciding between SharePoint add-ins and SharePoint solutions](https://msdn.microsoft.com/library/office/jj163114.aspx)|
+|Choose whether to build a SharePoint add-in or a SharePoint solution.|[Decide between SharePoint add-ins and SharePoint solutions](https://msdn.microsoft.com/library/office/jj163114.aspx)|
   
 ##  <a name="Add-ins"></a> Create a VSTO add-in  
  Create a VSTO add-in to target Office 2007 or Office 2010, or to extend Office 2013 and Office 2016 beyond what's possible with Office add-ins. VSTO add-ins run only on the desktop. Users have to install VSTO add-ins, so they're typically more difficult to deploy and support.  However, your VSTO add-in can be integrated more closely with Office. For example, it can add tabs and controls to the Office Ribbon and perform advanced automation tasks such as merging documents or modifying charts. You can leverage the .NET Framework and use C# and Visual Basic to interact with Office objects.  
@@ -104,6 +102,6 @@ ms.workload:
 |To|See|  
 |--------|---------|  
 |Compare SharePoint solutions with SharePoint add-ins.|[SharePoint add-ins compared with SharePoint solutions](http://msdn.microsoft.com/library/office/jj163114.aspx)|  
-|Create a SharePoint solution.|[Create SharePoint Solutions](../sharepoint/create-sharepoint-solutions.md)|  
+|Create a SharePoint solution.|[Create SharePoint solutions](../sharepoint/create-sharepoint-solutions.md)|  
   
   

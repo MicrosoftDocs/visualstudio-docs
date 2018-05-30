@@ -67,4 +67,3 @@ You can update an existing template without using the **Export Template Wizard**
 - [Create project and item templates](../ide/creating-project-and-item-templates.md)
 - [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)
 - [Template parameters](../ide/template-parameters.md)
-- [How to: Create starter kits](../ide/how-to-create-starter-kits.md)

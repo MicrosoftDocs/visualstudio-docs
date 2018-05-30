@@ -18,12 +18,12 @@ ms.workload:
   - "multiple"
 ---
 # VSInstr warnings
-The following table lists warnings issued by the VSInstr.exe tool. You can use the NOWARN option along with the warning numbers to suppress the warning from appearing.  
+The following table lists warnings issued by the *VSInstr.exe* tool. You can use the NOWARN option along with the warning numbers to suppress the warning from appearing.  
   
 |Warning Number|Description|  
 |--------------------|-----------------|  
 |**VSP2000**|Internal Error. Cannot get the module file name for this executable.|  
-|**VSP2001**|\<assembly name> is a strongly named assembly. It must be re-signed before it can be executed.<br /><br /> This warning occurs when a signed assembly is instrumented. You can use the sn.exe tool to resign the binary or to temporarily turn off the strong name requirement. For more information, see [Sn.exe (Strong Name Tool)](/dotnet/framework/tools/sn-exe-strong-name-tool).|  
+|**VSP2001**|\<assembly name> is a strongly named assembly. It must be re-signed before it can be executed.<br /><br /> This warning occurs when a signed assembly is instrumented. You can use the *sn.exe* tool to resign the binary or to temporarily turn off the strong name requirement. For more information, see [Sn.exe (strong name tool)](/dotnet/framework/tools/sn-exe-strong-name-tool).|  
 |**VSP2002**|Could not find function \<funcname> in file \<filename><br /><br /> This warning occurs if a function cannot be located in the specified file.|  
 |**VSP2003**|Could not find any cross jumps to the function \<funcname> in file \<filename>.<br /><br /> This warning occurs if VSInstr cannot nullify cross jumps. Cross jumps are used for code optimization.|  
 |**VSP2004**|Function \<funcname> was excluded by using the EXCLUDE command-line switch but was required because it contained a cross jump.<br /><br /> This warning occurs if the function was excluded by using the EXCLUDE option, but is needed during the instrumentation process. The profiler automatically includes the required function.|  
