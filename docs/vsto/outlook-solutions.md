@@ -1,5 +1,5 @@
 ---
-title: "Outlook Solutions | Microsoft Docs"
+title: "Outlook solutions"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
@@ -22,7 +22,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Outlook Solutions
+# Outlook solutions
   Visual Studio provides project templates you can use to create VSTO Add-ins for Microsoft Office Outlook. You can use VSTO Add-ins to automate Outlook, extend Outlook features, or customize the Outlook user interface (UI). For more information about VSTO Add-ins, see [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md).  
   
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]  
@@ -30,10 +30,10 @@ ms.workload:
 > [!NOTE]  
 >  Interested in developing solutions that extend the Office experience across [multiple platforms](https://dev.office.com/add-in-availability)? Check out the new [Office Add-ins model](https://dev.office.com/docs/add-ins/overview/office-add-ins). Office Add-ins have a small footprint compared to VSTO add-ins and solutions, and you can build them by using almost any web programming technology, such as HTML5, JavaScript, CSS3, and XML.  
   
-## Creating an Outlook VSTO Add-in Project  
+## Create an Outlook VSTO Add-in Project  
  Create Outlook projects by using the **Outlook Add-in** project template in the **New Project** dialog box. This template includes required assembly references and project files.  
   
- For more information about how to create a VSTO Add-in project, see [How to: Create Office Projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md). For more information about the project templates, see [Office project templates overview](../vsto/office-project-templates-overview.md).  
+ For more information about how to create a VSTO Add-in project, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md). For more information about the project templates, see [Office project templates overview](../vsto/office-project-templates-overview.md).  
   
 ## Outlook VSTO Add-in programming model  
  When you create an Outlook VSTO Add-in project, Visual Studio generates a class, called `ThisAddIn`, which is the foundation of your solution. This class provides a starting point for writing your code, and it also exposes the object model of Outlook to your VSTO Add-in.  

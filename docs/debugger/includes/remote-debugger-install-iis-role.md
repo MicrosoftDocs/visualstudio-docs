@@ -20,6 +20,6 @@ For Windows Server operating systems, use the **Add Roles and Features** wizard 
 
 ![The Web Server IIS role is selected in the Select server roles step.](../media/remotedbg-server-roles-ws2012.png)
 
-On the **Role services** step, select the IIS role services you desire or accept the default role services provided.
+On the **Role services** step, select the IIS role services you desire or accept the default role services provided. If you plan to deploy using Web Deploy, make sure that **IIS Management Scripts and Tools** is selected.
 
 Proceed through the confirmation steps to install the web server role and services. A server/IIS restart is not required after installing the Web Server (IIS) role.

@@ -87,6 +87,14 @@ First, follow all the steps described in [Install and run IIS](/azure/virtual-ma
 
 When you open port 80 in the Network security group, also open port 4022 for the Remote Debugger. That way, you won't have to open it later.
 
+### App already running in IIS on the Azure VM?
+
+This article includes steps on setting up a basic configuration of IIS on Windows server and deploying the app from Visual Studio. These steps are included to make sure that the server has the required components installed, that the app can run correctly, and that you are ready to remote debug.
+
+* If your app is running in IIS and you just want to download the remote debugger and start debugging, go to [Download and Install the remote tools on Windows Server](#BKMK_msvsmon).
+
+* If you want help to make sure that your app is set up, deployed, and running correctly in IIS so that you can debug, follow all the steps in this topic.
+
 ### Update browser security settings on Windows Server
 
 If Enhanced Security Configuration is enabled in Internet Explorer (it is enabled by default), then you may need to add some domains as trusted sites to enable you to download some of the web server components. Add the trusted sites by going to **Internet Options > Security > Trusted Sites > Sites**. Add the following domains.
@@ -107,13 +115,45 @@ When you download the software, you may get requests to grant permission to load
 
 3. Restart the system (or execute **net stop was /y** followed by **net start w3svc** from a command prompt to pick up a change to the system PATH).
 
-## (Optional) Install Web Deploy 3.6 for Hosting Servers on Windows Server
+## Choose a deployment option
 
-In some scenarios, it can be faster to import publish settings in Visual Studio instead of manually configuring deployment options. If you prefer to import publish settings instead of configuring the publishing profile in Visual Studio, see [Import publish settings and deploy to IIS](../deployment/tutorial-import-publish-settings-iis.md). Otherwise, stay in this topic and continue reading. If you complete the article on importing publish settings and deploy the app successfully, then return to this topic and start in the section on [downloading the remote tools](#BKMK_msvsmon).
+If you need help to deploy the app to IIS, consider these options:
 
-### <a name="BKMK_install_webdeploy"></a> (Optional) Install Web Deploy 3.6 on Windows Server
+* Deploy by creating a publish settings file in IIS and importing the settings in Visual Studio. In some scenarios, this is a fast way to deploy your app. When you create the publish settings file, permissions are automatically set up in IIS.
 
-[!INCLUDE [remote-debugger-install-web-deploy](../debugger/includes/remote-debugger-install-web-deploy.md)]
+* Deploy by publishing to a local folder and copying the output by a preferred method to a prepared app folder on IIS.
+
+## (Optional) Deploy using a publish settings file
+
+You can use this option create a publish settings file and import it into Visual Studio.
+
+> [!NOTE]
+> This deployment method uses Web Deploy. If you want to configure Web Deploy manually in Visual Studio instead of importing the settings, you can install Web Deploy 3.6 instead of Web Deploy 3.6 for Hosting Servers. However, if you configure Web Deploy manually, you will need to make sure that an app folder on the server is configured with the correct values and permissions (see [Configure ASP.NET Web site](#BKMK_deploy_asp_net)).
+
+### Install and configure Web Deploy for Hosting Servers on Windows Server
+
+[!INCLUDE [install-web-deploy-with-hosting-server](../deployment/includes/install-web-deploy-with-hosting-server.md)]
+
+### Create the publish settings file in IIS on Windows Server
+
+[!INCLUDE [install-web-deploy-with-hosting-server](../deployment/includes/create-publish-settings-iis.md)]
+
+### Import the publish settings in Visual Studio and deploy
+
+[!INCLUDE [install-web-deploy-with-hosting-server](../deployment/includes/import-publish-settings-vs.md)]
+
+After the app deploys successfully, it should start automatically. If the app does not start from Visual Studio, start the app in IIS. For ASP.NET Core, you need to make sure that the Application pool field for the **DefaultAppPool** is set to **No Managed Code**.
+
+1. In the **Settings** dialog box, enable debugging by clicking **Next**, choose a **Debug** configuration, and then choose **Remove additional files at destination** under the **File Publish** options.
+
+    > [!NOTE]
+    > If you choose a Release configuration, you disable debugging in the *web.config* file when you publish.
+
+1. Click **Save** and then republish the app.
+
+## (Optional) Deploy by publishing to a local folder
+
+You can use this option to deploy your app if you want to copy the app to IIS using Powershell, RoboCopy, or you want to manually copy the files.
 
 ### <a name="BKMK_deploy_asp_net"></a> Configure the ASP.NET Web site on the Windows Server computer
 
@@ -129,42 +169,6 @@ If you are importing publish settings, you can skip this section.
 
     If you don't see one of these users with access, go through steps to add IUSR as a user with Read & Execute rights.
 
-### <a name="bkmk_webdeploy"></a> (Optional) Publish and deploy the app using Web Deploy from Visual Studio
-
-If you installed Web Deploy using the Web Platform Installer, you can deploy the app directly from Visual Studio.
-
-1. Start Visual Studio with elevated privileges, and re-open the project.
-
-    This may be required to deploy your app using Web Deploy.
-
-2. In the **Solution Explorer**,  right-click the project node and select **Publish**.
-
-    If you have previously configured any publishing profiles, the **Publish** pane appears. Click **New profile**.
-
-3. Under **Pick a publish target**, select **Azure Virtual Machines** and click **Browse**.
-
-    ![RemoteDBG_Publish_IISl](../debugger/media/remotedbg_azure_vm_profile.png "RemoteDBG_Publish_IIS")
-
-4. In the dialog box that opens, select the Azure VM that you created previously.
-
-4. Enter the correction configuration parameters for your Azure VM and IIS setup.
-
-    ![RemoteDBG_Publish_WebDeployl](../debugger/media/remotedbg_iis_webdeploy_config.png "RemoteDBG_Publish_WebDeploy")
-
-    If a host name doesn't resolve when you try to validate in the next steps in the **Server** text box, try the IP address. Make sure you use port 80 in the **Server** text box, and make sure that port 80 is open in the firewall.
-
-6. Click **Next**, choose a **Debug** configuration, and choose **Remove additional files at destination** under the **File Publish** options.
-
-5. Click **Prev**, and then choose **Validate**. If the connection setup validates, you can try to publish.
-
-6. Click **Publish** to publish the app.
-
-    The Output tab will show you if publishing is successful, and your browser will open the app.
-
-    If you get an error mentioning Web Deploy, recheck the Web Deploy installation steps and make sure the [correct ports are open](#bkmk_openports) are on the server.
-
-    If the app deploys successfully but doesn't run correctly, recheck that both IIS and your Visual Studio project are using the same version of ASP.NET. If that is not the problem, there may be an issue with your IIS configuration or your Web site configuration. On the Windows Server, open the Web site from IIS for more specific error messages, and then recheck earlier steps.
-
 ### (Optional) Publish and Deploy the app by publishing to a local folder from Visual Studio
 
 If you're not using Web Deploy, you must publish and deploy the app using the file system or other tools. You can start by creating a package using the file system, and then either deploy the package manually or use other tools like PowerShell, RoboCopy, or XCopy. In this section, we assume you are manually copying the package if you are not using Web Deploy.
@@ -172,6 +176,10 @@ If you're not using Web Deploy, you must publish and deploy the app using the fi
 [!INCLUDE [remote-debugger-deploy-app-local](../debugger/includes/remote-debugger-deploy-app-local.md)]
 
 ### <a name="BKMK_msvsmon"></a> Download and Install the remote tools on Windows Server
+
+In this tutorial, we are using Visual Studio 2017.
+
+If you have trouble opening the page with the remote debugger download, see [Unblock the file download](../debugger/remote-debugging.md#unblock_msvsmon) for help.
 
 [!INCLUDE [remote-debugger-download](../debugger/includes/remote-debugger-download.md)]
   
@@ -199,9 +207,10 @@ If you're not using Web Deploy, you must publish and deploy the app using the fi
     If you want to use the **Find** button, you may need to [open UDP port 3702](#bkmk_openports) on the server.
 
 5. Check  **Show processes from all users**.
-6. Type the first letter of a process name to quickly find **dotnet.exe** (for ASP.NET Core).
 
-    For an ASP.NET Core app, the previous process name was dnx.exe.
+6. Type the first letter of a process name to quickly find *dotnet.exe* (for ASP.NET Core).
+   
+   For an ASP.NET Core app, the previous process name was *dnx.exe*.
 
     ![RemoteDBG_AttachToProcess](../debugger/media/remotedbg_attachtoprocess_aspnetcore.png "RemoteDBG_AttachToProcess")
 

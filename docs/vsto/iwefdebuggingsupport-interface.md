@@ -19,7 +19,7 @@ ms.workload:
   
 ## Syntax  
   
-```c/c++  
+```csharp 
 [  
     uuid(ccaf1a90-ce1c-4199-9cd6-b40c5c57a671),  
     oleautomation  

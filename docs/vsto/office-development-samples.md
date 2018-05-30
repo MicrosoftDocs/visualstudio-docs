@@ -19,7 +19,7 @@ ms.workload:
 # Office development samples
   Visual Studio includes sample applications that demonstrate how to use the Microsoft Office developer tools to create Office solutions. The code in these samples illustrates the syntax, structure, and techniques used to build Office solutions.  
   
- For the most current samples, see [MSDN Developer Samples: Learn Through Code](http://go.microsoft.com/fwlink/?LinkID=248199) on the Microsoft website.  
+ For the most current samples, see [MSDN developer samples: Learn through code](http://go.microsoft.com/fwlink/?LinkID=248199) on the Microsoft website.  
   
  [!INCLUDE[note_security_multiplesample](../vsto/includes/note-security-multiplesample-md.md)]  
   

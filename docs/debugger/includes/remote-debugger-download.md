@@ -1,6 +1,6 @@
 ---
- title: Deploy to local folder
- description: Deploy an app to the local folder
+ title: Remote debugger download
+ description: Download links for the remote debugger
  services: ""
  author: mikejo5000
  ms.service: ""
