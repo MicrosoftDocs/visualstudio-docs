@@ -17,17 +17,17 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Creating SharePoint Solution Packages
+# Creating SharePoint solution packages
   By using the Package Designer, you can create and customize deployment packages. For example, you can add SharePoint project items and Features, reset the IIS server, set Feature activation scopes, and identify Feature dependencies. The designer also generates a manifest, an XML file that describes each package.  
   
-## Packaging Tools  
+## Packaging tools
  You can use the **Package Designer** to customize the package and generate the manifest. You can include SharePoint project items, configure whether the Web server should be reset, and set the deployment server type. For more information, see [How to: Add and Remove Features and Items to a Package by Using the Package Designer](../sharepoint/how-to-add-and-remove-features-and-items-to-a-package-by-using-the-package-designer.md).  
   
  Alternatively, you can use the **Packaging Explorer** to modify the Features and items in your package file (.wsp). For more information, see [How to: Add and Remove Features and Items to a Package by Using the Packaging Explorer](../sharepoint/how-to-add-and-remove-features-and-items-to-a-package-by-using-the-packaging-explorer.md).  
   
  You can use Visual Studio and MSBuild to create package (.wsp) files to deploy your SharePoint solution. This process generates the manifest files needed for SharePoint deployment. For more information, see [How to: Create a SharePoint Package](http://msdn.microsoft.com/en-us/b24be45c-e91d-49bb-afb0-7b265404214b) and [How to: Create a SharePoint Solution Package by Using MSBuild Tasks](../sharepoint/how-to-create-a-sharepoint-solution-package-by-using-msbuild-tasks.md).  
   
-## Package Designer Options  
+## Package designer options
  The following table shows the properties that you can customize in SharePoint packages with the **Package Designer**.  
   
 |Package Designer Property|Description of default setting|  
@@ -38,7 +38,7 @@ ms.workload:
 |Items in the Solution|All SharePoint project items and Features that can be added to the package.|  
 |Items in the Package|Optional. All SharePoint items and Features that you want to deploy in your package.|  
   
-## Configuring the Packaging Process  
+## Configure the packaging process
  After you develop SharePoint solutions in Visual Studio, you can customize how the projects are packaged.  
   
  The following table shows the two MSBuild targets that you can use to customize how the .wsp file is created.  
@@ -50,7 +50,7 @@ ms.workload:
   
  For more information, [How to: Customize a SharePoint Solution Package by Using MSBuild Targets](../sharepoint/how-to-customize-a-sharepoint-solution-package-by-using-msbuild-targets.md).  
   
-## Packaging Architecture  
+## Packaging architecture
  The following steps occur when you create a SharePoint package (.wsp) in Visual Studio.  
   
 1.  The Features and packages are validated to make sure that the physical and semantic structure of the package is correct.  
@@ -65,14 +65,14 @@ ms.workload:
   
 6.  The files in the intermediate directory are added to the .wsp file.  
   
-## Package Folder Structure  
+## Package folder structure
  When you package your SharePoint project, a .wsp file is created for you in the SolutionFolder\bin\\*BuildConfiguration* folder. For example, if your solution is in *drive*:\Visual Studio 2013\Projects\ListDefinition1 and your build configuration is set to Release, the .wsp file is located in *drive*:\Visual Studio 2013\Projects\ListDefinition1\bin\Release.  
   
-## See Also  
+## See also
  [How to: Customize a SharePoint Solution Package](../sharepoint/how-to-customize-a-sharepoint-solution-package.md)  
  [How to: Add and Remove Features and Items to a Package by Using the Package Designer](../sharepoint/how-to-add-and-remove-features-and-items-to-a-package-by-using-the-package-designer.md)   
  [How to: Create a SharePoint Package](http://msdn.microsoft.com/en-us/b24be45c-e91d-49bb-afb0-7b265404214b)   
  [How to: Create a SharePoint Solution Package by Using MSBuild Tasks](../sharepoint/how-to-create-a-sharepoint-solution-package-by-using-msbuild-tasks.md)   
  [How to: Customize a SharePoint Solution Package by Using MSBuild Targets](../sharepoint/how-to-customize-a-sharepoint-solution-package-by-using-msbuild-targets.md)  
   
-  
+ 
