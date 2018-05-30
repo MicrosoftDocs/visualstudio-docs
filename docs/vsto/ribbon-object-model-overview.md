@@ -33,8 +33,8 @@ ms.workload:
   
 |Event|Description|  
 |-----------|-----------------|  
-|<xref:Microsoft.Office.Tools.Ribbon.RibbonBase.Load>|Raised when the Office application loads the Ribbon customization. The <xref:Microsoft.Office.Tools.Ribbon.OfficeRibbon.Load> event handler is automatically added to the Ribbon code file. Use this event handler to run custom code when the Ribbon loads.|  
-|<xref:Microsoft.Office.Tools.Ribbon.RibbonBase.LoadImage>|Enables you to cache images in the Ribbon customization when the Ribbon loads. You can get a slight performance gain if you write code to cache the Ribbon images in this event handler. For more information, see <xref:Microsoft.Office.Tools.Ribbon.OfficeRibbon.LoadImage>.|  
+|<xref:Microsoft.Office.Tools.Ribbon.RibbonBase.Load>|Raised when the Office application loads the Ribbon customization. The <xref:Microsoft.Office.Tools.Ribbon.OfficeRibbon.Load> event handler is automatically added to the Ribbon code file. Use this event handler to run custom code when the ribbon loads.|  
+|<xref:Microsoft.Office.Tools.Ribbon.RibbonBase.LoadImage>|Enables you to cache images in the Ribbon customization when the ribbon loads. You can get a slight performance gain if you write code to cache the Ribbon images in this event handler. For more information, see <xref:Microsoft.Office.Tools.Ribbon.OfficeRibbon.LoadImage>.|  
 |<xref:Microsoft.Office.Tools.Ribbon.RibbonBase.Close>|Raised when the Ribbon instance closes.|  
   
 ##  <a name="RibbonControlClasses"></a> Ribbon controls  
@@ -87,13 +87,13 @@ ms.workload:
 |Specify the number of rows and columns that appear in a <xref:Microsoft.Office.Tools.Ribbon.RibbonGallery>.|Use the <xref:Microsoft.Office.Tools.Ribbon.RibbonGallery.RowCount%2A> and <xref:Microsoft.Office.Tools.Ribbon.RibbonGallery.ColumnCount%2A> properties.|  
   
 ##  <a name="SettingReadOnlyProperties"></a> Set properties that become read-only  
- Some properties can only be set before the Ribbon loads. There are three places to set these properties:  
+ Some properties can only be set before the ribbon loads. There are three places to set these properties:  
   
 -   In the Visual Studio **Properties** window.  
   
 -   In the constructor of the **Ribbon** class.  
   
--   In the CreateRibbonExtensibilityObject method of the `ThisAddin`, `ThisWorkbook`, or `ThisDocument` class of your project.  
+-   In the `CreateRibbonExtensibilityObject` method of the `ThisAddin`, `ThisWorkbook`, or `ThisDocument` class of your project.  
   
  Dynamic menus provide some exceptions. You can create new controls, set their properties, and then add them to a dynamic menu at runtime, even after the Ribbon that contains the menu is loaded.  
   
@@ -154,13 +154,13 @@ ms.workload:
 |**Tabs**|<xref:Microsoft.Office.Tools.Ribbon.OfficeRibbon>|  
 |**Title**|<xref:Microsoft.Office.Tools.Ribbon.RibbonSeparator>|  
   
-### Set properties for Ribbons that appear in Outlook inspectors  
- A new instance of the Ribbon is created each time a user opens an Inspector in which the Ribbon appears. However, you can set the properties listed in the table above only before the first instance of the Ribbon is created. After the first instance is created, these properties become read-only because the first instance defines the XML file that Outlook uses to load the Ribbon.  
+### Set properties for ribbons that appear in Outlook inspectors  
+ A new instance of the ribbon is created each time a user opens an Inspector in which the ribbon appears. However, you can set the properties listed in the table above only before the first instance of the ribbon is created. After the first instance is created, these properties become read-only because the first instance defines the XML file that Outlook uses to load the ribbon.  
   
- If you have conditional logic that sets any of these properties to a different value when other instances of the Ribbon are created, this code will have no effect.  
+ If you have conditional logic that sets any of these properties to a different value when other instances of the ribbon are created, this code will have no effect.  
   
 > [!NOTE]  
->  Ensure that the **Name** property is set for each control that you add to an Outlook Ribbon. If you add a control to an Outlook Ribbon at run time, you must set this property in your code. If you add a control to an Outlook Ribbon at design time, the Name property is set automatically.  
+>  Ensure that the **Name** property is set for each control that you add to an Outlook Ribbon. If you add a control to an Outlook Ribbon at runtime, you must set this property in your code. If you add a control to an Outlook Ribbon at design time, the Name property is set automatically.  
   
 ## Ribbon control events  
  Each control class contains one or more events. The following table describes these events.  
@@ -184,14 +184,13 @@ ms.workload:
 ## See also  
  [Access the Ribbon at runtime](../vsto/accessing-the-Ribbon-at-run-time.md)   
  [Ribbon overview](../vsto/Ribbon-overview.md)   
- [How to: Get started customizing the Ribbon](../vsto/how-to-get-started-customizing-the-Ribbon.md)   
+ [How to: Get started customizing the ribbon](../vsto/how-to-get-started-customizing-the-Ribbon.md)   
  [Ribbon Designer](../vsto/Ribbon-designer.md)   
  [Walkthrough: Create a custom tab by using the Ribbon Designer](../vsto/walkthrough-creating-a-custom-tab-by-using-the-Ribbon-designer.md)   
- [Walkthrough: Update the controls on a Ribbon at runtime](../vsto/walkthrough-updating-the-controls-on-a-Ribbon-at-run-time.md)   
- [Customize a Ribbon for Outlook](../vsto/customizing-a-Ribbon-for-outlook.md)   
+ [Walkthrough: Update the controls on a ribbon at runtime](../vsto/walkthrough-updating-the-controls-on-a-Ribbon-at-run-time.md)   
+ [Customize a ribbon for Outlook](../vsto/customizing-a-Ribbon-for-outlook.md)   
  [How to: Customize a built-in tab](../vsto/how-to-customize-a-built-in-tab.md)   
  [How to: Add controls to the Backstage view](../vsto/how-to-add-controls-to-the-backstage-view.md)   
  [How to: Export a Ribbon from the Ribbon Designer to Ribbon XML](../vsto/how-to-export-a-Ribbon-from-the-Ribbon-designer-to-Ribbon-xml.md)   
  [How to: Show Add-in user interface errors](../vsto/how-to-show-add-in-user-interface-errors.md)  
-  
-  
+ 
