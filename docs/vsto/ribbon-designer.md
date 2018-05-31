@@ -33,7 +33,7 @@ ms.workload:
 # Ribbon Designer
   The Ribbon Designer is a visual design canvas. Use the Ribbon Designer to add custom tabs, groups, and controls to the ribbon of a Microsoft Office application.  
   
- [!INCLUDE[appliesto_Ribbon](../vsto/includes/appliesto-ribbon-md.md)]  
+ [!INCLUDE[appliesto_ribbon](../vsto/includes/appliesto-ribbon-md.md)]  
   
  To open the Ribbon Designer, add a **Ribbon (Visual Designer)** item to your project. You can then use the design tools for the following tasks:  
   
@@ -165,7 +165,7 @@ ms.workload:
   
  You cannot position controls before or after built-in controls by using the Ribbon designer. A built-in control is a control that already appears in Backstage view. If you want to position controls before or after built-in controls, you must use Ribbon XML. For more information about **Ribbon (XML)**, see [Ribbon XML](../vsto/ribbon-xml.md). For more information about customizing the Backstage view, see [Introduction to the Office 2010 Backstage view for developers](http://go.microsoft.com/fwlink/?LinkId=182189) and [Customize the Office 2010 Backstage view for developers](http://go.microsoft.com/fwlink/?LinkId=182188).  
   
- [!INCLUDE[appliesto_Ribbon_2010](../vsto/includes/appliesto-ribbon-2010-md.md)]  
+ [!INCLUDE[appliesto_ribbon_2010](../vsto/includes/appliesto-ribbon-2010-md.md)]  
   
  For information about how to add controls to the Backstage view, see [How to: Add controls to the Backstage view](../vsto/how-to-add-controls-to-the-backstage-view.md).  
   

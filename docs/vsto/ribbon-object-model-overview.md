@@ -19,7 +19,7 @@ ms.workload:
 # Ribbon object model overview
   The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] exposes a strongly typed object model that you can use to get and set the properties of Ribbon controls at runtime. For example, you can dynamically populate menu controls, or show and hide controls contextually. You can also add tabs, groups, and controls to a ribbon, but only before the ribbon is loaded by the Office application. For information, see [Set properties that become read-only](#SettingReadOnlyProperties).  
   
- [!INCLUDE[appliesto_Ribbon](../vsto/includes/appliesto-ribbon-md.md)]  
+ [!INCLUDE[appliesto_ribbon](../vsto/includes/appliesto-ribbon-md.md)]  
   
  This Ribbon object model consists mainly of the [Ribbon class](#RibbonClass), [Ribbon events](#RibbonEvents), and [Ribbon control classes](#RibbonControlClasses).  
   

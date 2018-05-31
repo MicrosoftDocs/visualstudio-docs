@@ -30,7 +30,7 @@ ms.workload:
 # Ribbon XML
   The Ribbon (XML) item enables you to customize a ribbon by using XML. Use the Ribbon (XML) item if you want to customize the ribbon in a way that is not supported by the Ribbon (Visual Designer) item. For a comparison of what you can do with each item, see [Ribbon overview](../vsto/Ribbon-overview.md).  
   
- [!INCLUDE[appliesto_Ribbon](../vsto/includes/appliesto-ribbon-md.md)]  
+ [!INCLUDE[appliesto_ribbon](../vsto/includes/appliesto-ribbon-md.md)]  
   
 ## Add a Ribbon (XML) item to a project  
  You can add a **Ribbon (XML)** item to any Office project from the **Add New Item** dialog box. Visual Studio automatically adds the following files to your project:  

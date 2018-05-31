@@ -27,7 +27,7 @@ ms.workload:
   
  Most of the features that were accessed by using menus and toolbars in earlier versions of the Microsoft Office system can now be accessed by using the ribbon. For more information, see the technical article [Developer overview of the user interface for the 2007 Microsoft Office system](http://go.microsoft.com/fwlink/?LinkID=70860).  
   
- [!INCLUDE[appliesto_Ribbon](../vsto/includes/appliesto-ribbon-md.md)]  
+ [!INCLUDE[appliesto_ribbon](../vsto/includes/appliesto-ribbon-md.md)]  
   
 ## Customize the Microsoft Office Ribbon  
  To customize the ribbon, add one of the following Ribbon items to your Office project:  
