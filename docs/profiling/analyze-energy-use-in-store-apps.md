@@ -87,7 +87,7 @@ if (performance && performance.mark) {
 2.  Choose **Energy Consumption** and then choose **Start**.  
   
     > [!NOTE]
-    >  When you start the **Energy Consumption** profiler, you might see a **User Account Control** window requesting your permission to run VsEtwCollector.exe. Choose **Yes**.  
+    >  When you start the **Energy Consumption** profiler, you might see a **User Account Control** window requesting your permission to run *VsEtwCollector.exe*. Choose **Yes**.  
   
 3.  Exercise your app to collect data.  
   

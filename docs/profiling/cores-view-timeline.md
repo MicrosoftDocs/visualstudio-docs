@@ -15,9 +15,9 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Cores View Timeline
+# Cores View timeline
 Every row in the timeline represents a logical processor core on the profiled system. For each row, the horizontal axis shows which thread was running on a logical core at a given point in time. You can hover over a color of interest in a timeline to return a tooltip that identifies the thread. To help with thread identification, the legend at the bottom of the window shows what each color represents. Use the Zoom tool to zoom in and out, by clicking and dragging or by pressing CTRL and moving the mouse wheel. Zoom consistency is maintained when you switch between Cores View and Threads View.  
   
-## See Also  
+## See also  
  [Cores View](../profiling/cores-view.md)   
- [Zoom Control (Threads View)](../profiling/zoom-control-threads-view.md)
+ [Zoom control (Threads View)](../profiling/zoom-control-threads-view.md)
