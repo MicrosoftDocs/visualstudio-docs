@@ -11,7 +11,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# XML Schemas Dialog Box
+# XML Schemas dialog box
 
 The **XML Schemas** dialog box is used to select which XML schema definition language (XSD) schema(s) to associate with an XML document. You can select a schema from the schema cache, or specify a schema that is not located in the cache. Selected schema(s) are considered part of a schema set. The schema set is used for IntelliSense and also XML document validation.
 
@@ -44,8 +44,8 @@ Opens the **Open XSD Schema** dialog, which enables you to select additional sch
 
 Removes the currently selected schema from the schema set. This removes the schema from the in-memory schema cache, but not from the file system.
 
-## See Also
+## See also
 
-- [XML Editor Components](../xml-tools/xml-editor-components.md)
-- [How to: Select the XML Schemas to Use](../xml-tools/how-to-select-the-xml-schemas-to-use.md)
-- [Schema Cache](../xml-tools/schema-cache.md)
+- [XML Editor components](../xml-tools/xml-editor-components.md)
+- [How to: Select the XML schemas to use](../xml-tools/how-to-select-the-xml-schemas-to-use.md)
+- [Schema cache](../xml-tools/schema-cache.md)
