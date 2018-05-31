@@ -1,5 +1,5 @@
 ---
-title: "&lt;postActionData&gt; Element (Office Development in Visual Studio) | Microsoft Docs"
+title: "&lt;postActionData&gt; element (Office development in Visual Studio)"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 

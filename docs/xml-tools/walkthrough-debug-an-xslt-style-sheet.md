@@ -11,7 +11,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Walkthrough: Debug an XSLT Style Sheet
+# Walkthrough: Debug an XSLT style sheet
 
 The steps in this walkthrough demonstrate how to use the XSLT debugger. Steps include viewing variables, setting breakpoints, and stepping through the code. The style sheet finds all books that cost below the average book price.
 
@@ -21,19 +21,19 @@ The steps in this walkthrough demonstrate how to use the XSLT debugger. Steps in
 
 2.  Copy the two sample files to your local computer.
 
-## Start Debugging
+## Start debugging
 
 ### To start debugging
 
 1.  From the **File** menu, point to **Open**, and click **File**.
 
-2.  Locate the belowAvg.xsl file and click **Open**.
+2.  Locate the *belowAvg.xsl* file and click **Open**.
 
      The style sheet is opened in the XML Editor.
 
 3.  Click the browse button (**...**) on the **Input** field of the document properties window.
 
-4.  Locate the books.xml file and click **Open**.
+4.  Locate the *books.xml* file and click **Open**.
 
      This sets the source document file that is used for the XSLT transformation.
 
@@ -43,25 +43,25 @@ The steps in this walkthrough demonstrate how to use the XSLT debugger. Steps in
 
 This starts the debugging process and opens several new windows that are used by the debugger.
 
-There are two windows that display the input document and styles sheet. The debugger uses these windows to show the current execution state. The debugger is positioned on the `xsl:if` element of the style sheet and on the first book node in the books.xml file.
+There are two windows that display the input document and styles sheet. The debugger uses these windows to show the current execution state. The debugger is positioned on the `xsl:if` element of the style sheet and on the first book node in the *books.xml* file.
 
-The Locals window displays all the local variables and their current values. This includes variables defined in the style sheet and also variables that the debugger uses to track the nodes that are currently in context.
+The **Locals** window displays all the local variables and their current values. This includes variables defined in the style sheet and also variables that the debugger uses to track the nodes that are currently in context.
 
 The **XSL Output** window displays the output of the XSL transformation. This window is separate from the **Visual Studio Output** window.
 
-## Watch Window
+## Watch window
 
 ### To use the Watch window
 
 1.  From the **Debug** menu, point to **Windows**, point to **Watch**, and click **Watch 1**.
 
-     This makes the Watch 1 window visible.
+     This makes the **Watch 1** window visible.
 
-2.  Type `$bookAverage` in the **Name** field and press ENTER.
+2.  Type `$bookAverage` in the **Name** field and press **Enter**.
 
      The value of the `$bookAverage` variable is displayed in the window.
 
-3.  Type `self::node()` in the **Name** field and press ENTER.
+3.  Type `self::node()` in the **Name** field and press **Enter**.
 
      `self::node()` is an XPath expression that evaluates to the current context node. The value of the `self::node()` XPath expression is the first book node. This changes as we progress through the transformation.
 
@@ -69,28 +69,28 @@ The **XSL Output** window displays the output of the XSL transformation. This wi
 
      This allows you to see the value of the book price and you can easily compare it to the `$bookAverage` value. Because the book price is below the average, the `xsl:if` condition should succeed.
 
-## Step Through the Code
+## Step through the code
  The debugger enables you to execute code one line at a time.
 
 ### To step through the code
 
 1.  Press **F5** to continue.
 
-     Because the first book node satisfied the `xsl:if` condition, the book node is added to the XSL output window. The debugger continues to execute until it is positioned again on the `xsl:if` element in the style sheet. The debugger is now positioned on the second book node in the books.xml file.
+     Because the first book node satisfied the `xsl:if` condition, the book node is added to the **XSL Output** window. The debugger continues to execute until it is positioned again on the `xsl:if` element in the style sheet. The debugger is now positioned on the second book node in the *books.xml* file.
 
-     In the Watch1 window the `self::node()` value changes to the second book node. By examining the value of the price element, you can determine that the price is above the average, thus the `xsl:if` condition should fail.
+     In the **Watch 1** window the `self::node()` value changes to the second book node. By examining the value of the price element, you can determine that the price is above the average, thus the `xsl:if` condition should fail.
 
 2.  Press **F5** to continue.
 
-     Because the second book node does not meet the `xsl:if` condition, the book node is not added to the XSL output window. The debugger continues to execute until it is positioned again on the `xsl:if` element in the style sheet. The debugger is now positioned on the third `book` node in the books.xml file.
+     Because the second book node does not meet the `xsl:if` condition, the book node is not added to the **XSL Output** window. The debugger continues to execute until it is positioned again on the `xsl:if` element in the style sheet. The debugger is now positioned on the third `book` node in the *books.xml* file.
 
-     In the Watch1 window the `self::node()` value changes to the third book node. By examining the value of the `price` element, you can determine that the price is below the average, thus the `xsl:if` condition should succeed.
+     In the **Watch 1** window the `self::node()` value changes to the third book node. By examining the value of the `price` element, you can determine that the price is below the average, thus the `xsl:if` condition should succeed.
 
 3.  Press **F5** to continue.
 
-     Because the `xsl:if` condition was satisfied, the third book is added to the XSL Output window. All books in the XML document have been processed and the debugger stops.
+     Because the `xsl:if` condition was satisfied, the third book is added to the **XSL Output** window. All books in the XML document have been processed and the debugger stops.
 
-## Sample Files
+## Sample files
 
 The following two files are used by the walkthrough.
 
@@ -149,6 +149,6 @@ The following two files are used by the walkthrough.
 </bookstore>
 ```
 
-## See Also
+## See also
 
 - [Debugging XSLT](../xml-tools/debugging-xslt.md)

@@ -11,11 +11,11 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Sorting, Filtering, and Grouping (XML Schema Explorer)
+# Sorting, filtering, and grouping (XML Schema Explorer)
 
-This topic describes the options that are available through the **Sorting, Filtering, and Grouping Options** menu on the XML Schema Explorer toolbar.
+This topic describes the options that are available through the **Sorting, Filtering, and Grouping Options** menu on the **XML Schema Explorer** toolbar.
 
-## Filter Options
+## Filter options
 
  The following filter options are available. By default, the **Show Namespaces** and **Show Schema Files** options are selected.
 
@@ -25,9 +25,9 @@ This topic describes the options that are available through the **Sorting, Filte
 
 -   **Show Compositors (sequence/choice/all)**.
 
-## Sorting Options
+## Sorting options
 
- The following sorting options are available. The default is **Sort By Type**. Sort By options do not apply to files and namespaces.
+ The following sorting options are available. The default is **Sort By Type**. **Sort By** options do not apply to files and namespaces.
 
 -   **Sort By Type**.
 
@@ -73,6 +73,6 @@ This topic describes the options that are available through the **Sorting, Filte
 
  The **Document Order** option is available when the **Show Schema Files** option is selected. When **Document Order** is selected, global nodes are displayed in the order in which they appear in the schema file.
 
-## Persisting Sort/Filter Options
+## Persisting sort/filter options
 
  The sorting, filtering, and grouping options are saved to the registry for each user, no matter which solution or files were open when the settings were changed.

@@ -1,5 +1,5 @@
 ---
-title: "Publish Page, Project Designer (Office Development in Visual Studio) | Microsoft Docs"
+title: "Publish Page, Project Designer (Office development in Visual Studio)"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
@@ -20,15 +20,15 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Publish Page, Project Designer (Office Development in Visual Studio)
+# Publish Page, Project Designer (Office development in Visual Studio)
   The **Publish** page of the **Project Designer** is used to configure properties for deployment.  
   
  To access this page, select the project in **Solution Explorer**, and then, on the **Project** menu, choose *Projectname* **Properties**. If the **Publish** page is not displayed, choose the **Publish** tab.  
   
 > [!NOTE]  
->  You can also set the publishing location in the **Publish Wizard**. For more information, see [How to: Publish an Office Solution by Using ClickOnce](http://msdn.microsoft.com/en-us/2b6c247e-bc04-4ce4-bb64-c4e79bb3d5b8).  
+>  You can also set the publishing location in the **Publish Wizard**. For more information, see [How to: Publish an Office solution by using ClickOnce](http://msdn.microsoft.com/en-us/2b6c247e-bc04-4ce4-bb64-c4e79bb3d5b8).  
   
-## UIElement List  
+## UIElement list  
  **Publishing Folder Location (web site, ftp server, or file path)**  
  Required.  
   
@@ -36,7 +36,7 @@ ms.workload:
   
  Options include the local computer, a UNC file share, or a HTTP/HTTPS web site. The path can be local (*c:\foldername\publishfolder*), relative (*publish\\*), or a fully qualified location (*\\\servername\foldername* or http://*servername/foldername*).  
   
- By default, the publishing location is *http://localhost/projectname/* if you have IIS installed, or the publish\ directory if you do not have IIS installed.  
+ By default, the publishing location is *http://localhost/projectname/* if you have IIS installed, or the *publish\\* directory if you do not have IIS installed.  
   
  **Installation Folder URL**  
  Optional.  
@@ -49,7 +49,7 @@ ms.workload:
   
  If the installation files are in a location relative to the document or Setup program, such as with the CD option, leave this box blank.  
   
- This value can be assigned later by an administrator. For more information, see [How to: Change the Installation Path of an Office Solution](http://msdn.microsoft.com/en-us/d0eaa07b-2d72-4902-899f-2f9fb165b8fd).  
+ This value can be assigned later by an administrator. For more information, see [How to: Change the installation path of an Office solution](http://msdn.microsoft.com/en-us/d0eaa07b-2d72-4902-899f-2f9fb165b8fd).  
   
  **Prerequisites**  
  The prerequisites can be included with the Setup program or downloaded on demand during installation.  
@@ -78,7 +78,7 @@ ms.workload:
   
 -   Support URL: the location for end users to contact technical support for the Office solution.  
   
- **Options (Office Settings)**  
+ **Options (Office settings)**  
  The publish options for the following properties can be set:  
   
 -   Solution name: the name of the Office solution as it appears in the Office application.  
@@ -91,12 +91,12 @@ ms.workload:
   
     -   Load on Demand: specifies that the VSTO Add-in loads when the application requires it, such as when a user clicks a UI element that uses functionality in the VSTO Add-in.  
   
- **Publish Language**  
+ **Publish language**  
  This option sets the language of the Microsoft Software License Terms, and includes the language packs in the list of prerequisites. It does not affect the language of the customization. The language in the Setup program is determined by the installed languages of Visual Studio.  
   
- For more information about how to change the **Publish language**, see [How to: Change the Publish Language for a ClickOnce Application](/visualstudio/deployment/how-to-change-the-publish-language-for-a-clickonce-application).  
+ For more information about how to change the **Publish language**, see [How to: Change the publish language for a ClickOnce application](/visualstudio/deployment/how-to-change-the-publish-language-for-a-clickonce-application).  
   
- **Publish Version**  
+ **Publish version**  
  Sets the version number for the customization. When the version number is changed, the application is published as an update. A new folder is created for each version during the build process to prevent overwriting the previously published version. Each part of the publish version (**Major**, **Minor**, **Build**, **Revision**) can contain up to five digits.  
   
  **Automatically increment revision with each release**  
@@ -105,9 +105,9 @@ ms.workload:
  **Publish Now**  
  Publishes the application using the current settings. Equivalent to the **Finish** button in the **Publish Wizard**.  
   
-## See Also  
- [Deploying an Office Solution](../vsto/deploying-an-office-solution.md)   
- [Deploying an Office Solution by Using ClickOnce](../vsto/deploying-an-office-solution-by-using-clickonce.md)   
- [Office Solution Prerequisites for Deployment](http://msdn.microsoft.com/en-us/9f672809-43a3-40a1-9057-397ce3b5126e)  
+## See also  
+ [Deploy an Office solution](../vsto/deploying-an-office-solution.md)   
+ [Deploy an Office solution by using ClickOnce](../vsto/deploying-an-office-solution-by-using-clickonce.md)   
+ [Office solution prerequisites for deployment](http://msdn.microsoft.com/en-us/9f672809-43a3-40a1-9057-397ce3b5126e)  
   
   
