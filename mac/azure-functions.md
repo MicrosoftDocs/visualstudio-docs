@@ -110,3 +110,14 @@ Function Templates enable you to quickly create new functions using the most com
 - **Image Resizer** – This function creates resized images whenever a blob is added to a container. The template takes path and connection string for the trigger, a small image output, and a medium image output.
 - **SAS token** – This function generates a SAS token for a given Azure Storage container and blob name. In addition to the function name, this template also takes a path and connection property. The path property is the path within your storage account that the trigger will monitor. The connection account is the name of the app setting containing your storage account connection string. The **Access rights** also need to be set. Authorization level controls whether the function requires an API key and which key to use; Function uses a function key; Admin uses your master key. For more information, see the [C# Azure Function for generating SAS tokens](https://azure.microsoft.com/resources/samples/functions-dotnet-sas-token/) sample.
 - **Durable functions orchestration** – Durable Functions let you write stateful functions in a serverless environment. The extension manages state, checkpoints, and restarts for you. For more information, see the Azure functions guides on [Durable functions](https://docs.microsoft.com/azure/azure-functions/durable-functions-overview)
+ 
+
+##  Publish the project to Azure
+
+To deploy function projects to Azure you need to have an Azure subscription. If you don't already have a subscription, you can get one for free from https://azure.com/free.
+
+1. In the **Solution Pad**, right-click the project and select **Publish > Publish to Azure**:
+
+    ![Publish option in Visual Studio for Mac](media/.png)
+
+2. If you haven't already connected Visual Studio for Mac to your Azure subscription, sign in when prompted.
