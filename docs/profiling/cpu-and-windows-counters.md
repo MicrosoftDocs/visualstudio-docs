@@ -40,7 +40,7 @@ The Visual Studio profiler continues to support particular events for a specific
 
 Portable events are a group of CPU counters that are not specific to a specific processor. All other CPU counters are called platform events, and might not be supported on various platforms.
 
- Counters for both portable and platform events are defined in .XML files, where specific values that are related to the counters are provided. There are multiple files for different CPUs, because data for Intel and AMD CPUs, for example, are different. The [!INCLUDE[vs_orcas_long](../debugger/includes/vs_orcas_long_md.md)] Profiler uses this information to present appropriate counters, both portable and platform, to the user for performance measurement.
+ Counters for both portable and platform events are defined in .*xml* files, where specific values that are related to the counters are provided. There are multiple files for different CPUs, because data for Intel and AMD CPUs, for example, are different. The [!INCLUDE[vs_orcas_long](../debugger/includes/vs_orcas_long_md.md)] Profiler uses this information to present appropriate counters, both portable and platform, to the user for performance measurement.
 
 ### Portable events
 

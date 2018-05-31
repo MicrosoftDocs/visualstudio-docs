@@ -15,8 +15,8 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# CvInitProvider Function
-Initializes marker provider. Has to be called before any other Concurrency Visualizer SDK functions.  
+# CvInitProvider function
+Initializes marker provider. Must be called before any other Concurrency Visualizer SDK functions.  
   
 ## Syntax  
   
@@ -34,11 +34,11 @@ HRESULT CvInitProvider(
  `ppProvider`  
  Address of an output variable which will store provider context. Cannot be NULL.  
   
-## Return Value  
+## Return value  
  S_OK when provider is successfully initialized or error code in case there were any errors. Use SUCCEEDED/FAILED macros to check for error condition.  
   
 ## Requirements  
- **Header:** cvmarkers.h  
+ **Header:** *cvmarkers.h*  
   
-## See Also  
+## See also  
  [C++ library reference](../profiling/cpp-library-reference.md)
