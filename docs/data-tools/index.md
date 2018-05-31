@@ -23,7 +23,7 @@ Learn how to use data tools in Visual Studio to develop and test data solutions 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../data-tools/media/logo_VS.svg" alt="Use Visual Studio and .Net framework tooling to develop your data applications" />
+                            <img src="../data-tools/media/logo_VS.svg" alt="Use Visual Studio and .NET framework tooling to develop your data applications" />
                         </div>
                     </div>
                     <div class="cardText">
