@@ -51,7 +51,7 @@ ms.workload:
   
 |Attribute|Description|  
 |---------------|-----------------|  
-|`maximumAge`|-   Required. Set this equal to an integer.|  
+|`maximumAge`|   Required. Set this equal to an integer.|  
 |`unit`|Required. Set `unit` to one of the following values:<br /><br /> -   **hours**<br />-   **days**<br />-   **weeks**|  
   
 ## Example of always checking for updates  

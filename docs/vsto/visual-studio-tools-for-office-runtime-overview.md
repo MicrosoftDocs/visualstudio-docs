@@ -52,7 +52,7 @@ ms.workload:
 ### Interfaces in the Office extensions for the .NET Framework 4 or later  
  Most of the interfaces in the Office extensions for the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later are not intended to be implemented by user code. The only interfaces you can implement directly have names that begin with the letter **I**, such as <xref:Microsoft.Office.Tools.Excel.ISmartTagExtension>.  
   
- All interfaces that do not begin with the letter **I** are implemented internally by the Visual Studio 2010 Tools for Office runtime, and these interfaces might change in future releases. To create objects that implement these interfaces, use methods provided by the `Globals.Factory` object in your project. For example, to get an object that implements the <xref:Microsoft.Office.Tools.Excel.SmartTag> interface, use the Globals.Factory.CreateSmartTag method. For more information about `Globals.Factory`, see [Global access to objects in Office projects](../vsto/global-access-to-objects-in-office-projects.md).  
+ All interfaces that do not begin with the letter **I** are implemented internally by the Visual Studio 2010 Tools for Office runtime, and these interfaces might change in future releases. To create objects that implement these interfaces, use methods provided by the `Globals.Factory` object in your project. For example, to get an object that implements the <xref:Microsoft.Office.Tools.Excel.SmartTag> interface, use the `Globals.Factory.CreateSmartTag` method. For more information about `Globals.Factory`, see [Global access to objects in Office projects](../vsto/global-access-to-objects-in-office-projects.md).  
   
 ### Enable type equivalence and embedded types in projects that target the .NET Framework 4 or later  
  Because the object model of the Office extensions for the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later are based on interfaces, you can use the type equivalence feature in both Visual C# and Visual Basic in Visual Studio to embed type information from the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] into your solution. This feature enables Office solutions and the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] to version independently of each other. For example, if your solution uses the <xref:Microsoft.Office.Tools.Word.Document> interface as an embedded type and the next version of the runtime adds members to the <xref:Microsoft.Office.Tools.Word.Document> interface, your solution will still work with the next version of the runtime. If your solution does not use the <xref:Microsoft.Office.Tools.Word.Document> interface as an embedded type, then your solution will no longer work with the next version of the runtime.  
@@ -90,7 +90,7 @@ ms.workload:
   
 -   It loads the version of the Office extensions for the .NET Framework that is required by the solution.  
   
- VSTOLoader.dll also does several things that are specific to VSTO Add-ins:  
+ *VSTOLoader.dll* also does several things that are specific to VSTO Add-ins:  
   
 -   It implements the <xref:Extensibility.IDTExtensibility2> interface. <xref:Extensibility.IDTExtensibility2> is a COM interface that all VSTO Add-ins for Microsoft Office applications must implement. This interface defines methods that the application calls to communicate with the VSTO Add-in.  
   

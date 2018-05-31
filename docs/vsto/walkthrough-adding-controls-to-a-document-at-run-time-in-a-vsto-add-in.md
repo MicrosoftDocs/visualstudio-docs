@@ -20,7 +20,7 @@ ms.workload:
   - "office"
 ---
 # Walkthrough: Add controls to a document at runtime in a VSTO Add-in
-  You can add controls to any open Microsoft Office Word document by using an VSTO Add-in. This walkthrough demonstrates how to use the Ribbon to enable users to add a <xref:Microsoft.Office.Tools.Word.Controls.Button> or a <xref:Microsoft.Office.Tools.Word.RichTextContentControl> to a document.  
+  You can add controls to any open Microsoft Office Word document by using an VSTO Add-in. This walkthrough demonstrates how to use the ribbon to enable users to add a <xref:Microsoft.Office.Tools.Word.Controls.Button> or a <xref:Microsoft.Office.Tools.Word.RichTextContentControl> to a document.  
   
  **Applies to:** The information in this topic applies to VSTO Add-in projects for Word 2010. For more information, see [Features Available by Office Application and Project Type](../vsto/features-available-by-office-application-and-project-type.md).  
   
@@ -30,7 +30,7 @@ ms.workload:
   
 -   Providing a user interface (UI) to add controls to the document.  
   
--   Adding controls to the document at run time.  
+-   Adding controls to the document at runtime.  
   
 -   Removing controls from the document.  
   
@@ -46,7 +46,7 @@ ms.workload:
 ## Create a new Word Add-in project  
  Start by creating a Word VSTO Add-in project.  
   
-#### To create a new Word VSTO Add-in project  
+### To create a new Word VSTO Add-in project  
   
 1.  Create an VSTO Add-in project for Word with the name **WordDynamicControls**. For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).  
   

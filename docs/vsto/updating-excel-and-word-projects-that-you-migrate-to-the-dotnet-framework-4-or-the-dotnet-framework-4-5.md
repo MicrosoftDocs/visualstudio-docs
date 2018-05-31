@@ -35,8 +35,8 @@ ms.workload:
   
  You must also remove the `Microsoft.Office.Tools.Excel.ExcelLocale1033Attribute` and references to the `Microsoft.Office.Tools.Excel.ExcelLocale1033Proxy` class from Excel projects that are retargeted to the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later. Visual Studio doesn't remove this attribute or the class reference for you.  
   
-## Remove the ExcelLocale1033 attribute From Excel projects  
- The `Microsoft.Office.Tools.Excel.ExcelLocale1033Attribute` has been removed from the portion of the Visual Studio 2010 Tools for Office runtime that is used for solutions that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later. The common language runtime (CLR) in the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] and later always passes locale ID 1033 to the Excel object model, and you can no longer use this attribute to disable this behavior. For more information, see [Globalization and Localization of Excel Solutions](../vsto/globalization-and-localization-of-excel-solutions.md).  
+## Remove the ExcelLocale1033 attribute from Excel projects  
+ The `Microsoft.Office.Tools.Excel.ExcelLocale1033Attribute` has been removed from the portion of the Visual Studio 2010 Tools for Office runtime that is used for solutions that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later. The common language runtime (CLR) in the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] and later always passes locale ID 1033 to the Excel object model, and you can no longer use this attribute to disable this behavior. For more information, see [Globalization and localization of Excel solutions](../vsto/globalization-and-localization-of-excel-solutions.md).  
   
 ### To remove the ExcelLocale1033Attribute  
   
