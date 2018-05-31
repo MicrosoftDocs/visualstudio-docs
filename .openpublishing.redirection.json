@@ -2066,6 +2066,16 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/test/test-windows-phone-8-1-apps-with-coded-ui-tests.md",
+            "redirect_url": "/visualstudio/test/test-uwp-app-with-coded-ui-test",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/test/test-windows-store-8-1-apps-with-coded-ui-tests.md",
+            "redirect_url": "/visualstudio/test/test-uwp-app-with-coded-ui-test",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/test/troubleshooting-code-analysis-issues.md",
             "redirect_url": "/visualstudio/code-quality/analyzing-application-quality-by-using-code-analysis-tools",
             "redirect_document_id": false

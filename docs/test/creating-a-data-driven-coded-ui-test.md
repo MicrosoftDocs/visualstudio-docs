@@ -4,26 +4,27 @@ ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ms.topic: conceptual
-helpviewer_keywords: 
+helpviewer_keywords:
   - "coded UI tests, data-driven"
 author: gewarren
 ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
-# Creating a Data-Driven Coded UI Test
+# Create a Data-Driven Coded UI Test
 
 To test different conditions, you can run your tests multiple times with different parameter values. Data-driven coded UI tests are a convenient way to do this. You define parameter values in a data source, and each row in the data source is an iteration of the coded UI test. The overall result of the test will be based on the outcome for all the iterations. For example, if one test iteration fails, the overall test result is failure.
 
- **Requirements**
+**Requirements**
 
--   Visual Studio Enterprise
+- Visual Studio Enterprise
 
 ## Create a data-driven coded UI test
- This sample creates a coded UI test that runs on the Windows Calculator application. It adds two numbers together and uses an assertion to validate that the sum is correct. Next, the assertion and the parameter values for the two numbers are coded to become data-driven and stored in a comma-separated value (.csv) file.
 
-#### Step 1 - Create a coded UI test
+This sample creates a coded UI test that runs on the Windows Calculator application. It adds two numbers together and uses an assertion to validate that the sum is correct. Next, the assertion and the parameter values for the two numbers are coded to become data-driven and stored in a comma-separated value (.csv) file.
+
+### Step 1 - Create a coded UI test
 
 1.  Create a project.
 
@@ -87,7 +88,7 @@ To test different conditions, you can run your tests multiple times with differe
 
      At this point, all the parameter values are defined in their methods as constants. Next, let's create a data set to make our test data-driven.
 
-#### Step 2 - Create a data set
+### Step 2 - Create a data set
 
 1.  Add a text file to the dataDrivenSample project named `data.csv`.
 
@@ -113,7 +114,7 @@ To test different conditions, you can run your tests multiple times with differe
 
      Now that we have the data set created, let's bind the data to the test.
 
-#### Step 3 - Add data source binding
+### Step 3 - Add data source binding
 
 1.  To bind the data source, add a `DataSource` attribute within the existing `[TestMethod]` attribute that is immediately above the test method.
 
@@ -140,7 +141,7 @@ To test different conditions, you can run your tests multiple times with differe
 
      Next, we'll configure the test to use the values in the data source file.
 
-#### Step 4 - Use the data in the coded UI test
+### Step 4 - Use the data in the coded UI test
 
 1.  Add `using Microsoft.VisualStudio.TestTools.UITesting.WinControls` to the top of the CodedUITest.cs file:
 
@@ -189,7 +190,7 @@ To test different conditions, you can run your tests multiple times with differe
 
 3.  Save the solution.
 
-#### Step 5 - Run the data-driven test
+### Step 5 - Run the data-driven test
 
 1.  Verify that the test is now data-driven by running the test again.
 
@@ -202,9 +203,10 @@ To test different conditions, you can run your tests multiple times with differe
 ## Q & A
 
 ###  <a name="CreateDataDrivenCUIT_QA_DataSourceAttributes"></a> What are the data source attributes for other data source types, such as SQL Express or XML?
- You can use the sample data source strings in the table below by copying them to your code and making the necessary customizations.
 
- **Data Source Types and Attributes**
+You can use the sample data source strings in the table below by copying them to your code and making the necessary customizations.
+
+**Data Source Types and Attributes**
 
 -   CSV
 
@@ -226,20 +228,9 @@ To test different conditions, you can run your tests multiple times with differe
 
      `[DataSource("System.Data.SqlClient", "Data Source=.\\sqlexpress;Initial Catalog=tempdb;Integrated Security=True", "Data", DataAccessMethod.Sequential), TestMethod]`
 
-### Q: Can I use data-driven tests on my Windows Phone app?
- **A:** Yes. Data-driven Coded UI tests for Windows Phone are defined using the DataRow attribute on a test method. In the following example, x and y use the values of 1 and 2 for the first iteration and -1 and -2 for the second iteration of the test.
-
-```csharp
-[DataRow(1, 2, DisplayName = "Add positive numbers")]
-[DataRow(-1, -2, DisplayName = "Add negative numbers")]
-[TestMethod]
-public void DataDrivingDemo_MyTestMethod(int x, int y)
-```
-
-For more information, see [Use Data-driven coded UI tests on Windows Phone apps](../test/test-windows-phone-8-1-apps-with-coded-ui-tests.md#TestingPhoneAppsCodedUI_DataDriven).
-
 ### Q: Why can't I modify the code in the UIMap.Designer file?
- **A:** Any code changes you make in the UIMapDesigner.cs file will be overwritten every time you generate code using the UIMap - Coded UI Test Builder. In this sample, and in most cases, the code changes needed to enable a test to use a data source can be made to the test's source code file (that is, CodedUITest1.cs).
+
+**A:** Any code changes you make in the UIMapDesigner.cs file will be overwritten every time you generate code using the UIMap - Coded UI Test Builder. In this sample, and in most cases, the code changes needed to enable a test to use a data source can be made to the test's source code file (that is, CodedUITest1.cs).
 
 If you have to modify a recorded method, you must copy it to UIMap.cs file and rename it. The UIMap.cs file can be used to override methods and properties in the UIMapDesigner.cs file. You must remove the reference to the original method in the Coded UITest.cs file and replace it with the renamed method name.
 
