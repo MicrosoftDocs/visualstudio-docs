@@ -46,7 +46,7 @@ Set the **AutomationProperties.Name** to **ButtonY** explicitly in the XAML for 
 <Button AutomationProperties.Name="ButtonY" Height="31" HorizontalAlignment="Left" Margin="23,76,0,0" VerticalAlignment="Top" Width="140" Click="ButtonY_Click" />
 ```
 
-### Assign unique automation properties
+## Assign unique names
 
 In Blend for Visual Studio, you can select an option to assign unique names to interactive elements such as buttons, list boxes, combo boxes, and text boxes. This gives the controls unique values for **AutomationProperties.Name**.
 

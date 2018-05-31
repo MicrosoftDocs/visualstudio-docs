@@ -21,7 +21,7 @@ This article explains how to create a coded UI test for a Universal Windows Plat
 
 The first step is to create a simple UWP app to run the test against.
 
-1. In Visual Studio, create a new project using the **Blank App (Universal Windows)** template for Visual C# or Visual Basic template.
+1. In Visual Studio, create a new project using the **Blank App (Universal Windows)** template for Visual C# or Visual Basic.
 
      ![Blank app Universal Windows template](../test/media/blank-uwp-app-template.png)
 
@@ -29,13 +29,15 @@ The first step is to create a simple UWP app to run the test against.
 
 1. From **Solution Explorer**, open *MainPage.xaml*.
 
+   The file opens in the **XAML Designer**.
+
 1. Drag a button control and a textbox control from **Toolbox** to the design surface.
 
      ![Design the UWP app](../test/media/toolbox-controls.png)
 
-1. Give names to the controls. Select the textbox control and in the **Properties** window, enter **textBox** in the **Name** field. Then, select the button control and in the **Properties** window, enter **button** in the **Name** field.
+1. Give names to the controls. Select the textbox control, and then in the **Properties** window, enter **textBox** in the **Name** field. Select the button control, and then in the **Properties** window, enter **button** in the **Name** field.
 
-1. Double-click the button control and add the following code to the body of the `Button_Click` method. This code sets the text in the textbox to the name of the button control.
+1. Double-click the button control and add the following code to the body of the `Button_Click` method. This code simply sets the text in the textbox to the name of the button control, just to give us something to verify with the coded UI test we'll create later.
 
    ```csharp
    this.textBox.Text = this.button.Name;
@@ -65,7 +67,7 @@ The first step is to create a simple UWP app to run the test against.
 
 1. Open the **Coded UI Test Builder** dialog by placing the cursor in the `CodedUITestMethod1` method and then choosing **Test** > **Generate Code for Coded UI Test** > **Use Coded UI Test Builder**.
 
-1. Use the **Coded UI Test Builder** cross-hair tool to select the button control in the UWP app. In the **Add Assertions** dialog, expand the **UI Control Map** pane if necessary, and then select **Add control to UI Control Map**.
+1. Add the controls to the UI control map. Use the **Coded UI Test Builder** cross-hair tool to select the button control in the UWP app. In the **Add Assertions** dialog, expand the **UI Control Map** pane if necessary, and then select **Add control to UI Control Map**.
 
      ![Add control to UI map](../test/media/add-control-to-ui-control-map.png)
 
@@ -75,27 +77,25 @@ The first step is to create a simple UWP app to run the test against.
 
      ![Generate code for the UI map](../test/media/generate-code-dialog.png)
 
-1. Click the button to verify that the text in the textbox is set to **button**.
+1. To verify that the text in the textbox changes to **button** when the button is clicked, click the button.
 
      ![Click button control to set textbox value](../test/media/uwp-app-button-textbox.png)
 
-1. Use the cross-hair tool to select the textbox control, and then select the **Text** property in the **Add Assertions** dialog.
-
-1. In the **Add Assertions** dialog, select **Add Assertion** or press **Alt**+**A**. The assertion verifies that the text value is correct. In the **Message on Assertion Failure** box, enter **Textbox value is unexpected.** and then select **OK**.
+1. Add an assertion to verify the text in the textbox control. Use the cross-hair tool to select the textbox control, and then select the **Text** property in the **Add Assertions** dialog. Then, select **Add Assertion** or press **Alt**+**A**. In the **Message on Assertion Failure** box, enter **Textbox value is unexpected.** and then select **OK**.
 
      ![Choose textbox with cross-hair and add assertion](../test/media/add-assertion-for-text.png)
 
-1. In the **Coded UI Test Builder** dialog, select **Generate Code** to generate code for the assertion. In the **Generate Code** dialog, select **Add and Generate**.
+1. Generate test code for the assertion. In the **Coded UI Test Builder** dialog, select **Generate Code**. In the **Generate Code** dialog, select **Add and Generate**.
 
      ![Generate code for textbox assertion](../test/media/add-and-generate-assert-method.png)
 
-1. In **Solution Explorer**, open *UIMap.Designer.cs* to view the added code for the assert method and the controls.
+   In **Solution Explorer**, open *UIMap.Designer.cs* to view the added code for the assert method and the controls.
 
    > [!TIP]
-   > If you're using Visual Basic,open *CodedUITest1.vb*. Then, in the `CodedUITestMethod1()` test method code, right-click on the call to the assert method (`Me.UIMap.AssertMethod1()`) and choose **Go To Definition**. *UIMap.Designer.vb* opens in the code editor so you can view the added code for the assert method and the controls.
+   > If you're using Visual Basic,open *CodedUITest1.vb*. Then, in the `CodedUITestMethod1()` test method code, right-click on the call to the assert method `Me.UIMap.AssertMethod1()` and choose **Go To Definition**. *UIMap.Designer.vb* opens in the code editor, and you can view the added code for the assert method and the controls.
 
     > [!WARNING]
-    > Do not modify the *UIMap.designer.cs* or *UIMap.Designer.vb* files directly. If you do, the changes to the file will be overwritten when the test is generated.
+    > Do not modify the *UIMap.designer.cs* or *UIMap.Designer.vb* files directly. If you do, your changes will be overwritten when the test is generated.
 
     The assert method looks like this:
 
@@ -127,31 +127,29 @@ The first step is to create a simple UWP app to run the test against.
 
    ![AutomationID in Add Assertion dialog](../test/media/automation-id.png)
 
-1. In **Solution Explorer**, open *CodedUITest1.cs* or *CodedUITest1.vb*. Add code to the `CodedUITestMethod1` method to launch the UWP app and then tap the button:
+1. Add code to the test method to launch the UWP app. In **Solution Explorer**, open *CodedUITest1.cs* or *CodedUITest1.vb*. Above the called to `AssertMethod1`, add code to launch the UWP app:
 
-    1. Above the called to `AssertMethod1`, add code to launch the UWP app:
+   ```csharp
+   XamlWindow.Launch("af5ecd75-f252-45a1-9e7e-c6f1d8f054ff_0q1pp7qrjexbp!App")
+   ```
 
-        ```csharp
-        XamlWindow.Launch("af5ecd75-f252-45a1-9e7e-c6f1d8f054ff_0q1pp7qrjexbp!App")
-        ```
+   ```vb
+   XamlWindow myAppWindow = XamlWindow.Launch("af5ecd75-f252-45a1-9e7e-c6f1d8f054ff_0q1pp7qrjexbp!App");
+   ```
 
-        ```vb
-        XamlWindow myAppWindow = XamlWindow.Launch("af5ecd75-f252-45a1-9e7e-c6f1d8f054ff_0q1pp7qrjexbp!App");
-        ```
+   Replace the automation ID in the example code with the value you copied to the clipboard in the previous step.
 
-       Replace the automation ID in the example code with the value you copied to the clipboard in the previous step.
+   > [!IMPORTANT]
+   > Trim the beginning of the automation ID to remove characters such as **P~**. If you don't trim these characters, the test throws a `Microsoft.VisualStudio.TestTools.UITest.Extension.PlaybackFailureException` when it tries to launch the app.
 
-       > [!IMPORTANT]
-       > Trim the beginning of the automation ID to remove characters such as **P~**. If you don't trim these characters, the test throws a `Microsoft.VisualStudio.TestTools.UITest.Extension.PlaybackFailureException` when it tries to launch the app.
+1. Next, add code to the test method to click the button. On the line after `XamlWindow.Launch`, add a gesture to tap the button control:
 
-    2. On the next line, add a gesture to tap the button control:
+   ```csharp
+   Gesture.Tap(this.UIMap.UIUWPAppWindow.UIButtonButton);
+   ```
 
-        ```csharp
-        Gesture.Tap(this.UIMap.UIUWPAppWindow.UIButtonButton);
-        ```
-
-        ```vb
-        Gesture.Tap(Me.UIMap.UIUWPAppWindow.UIButtonButton)
+   ```vb
+   Gesture.Tap(Me.UIMap.UIUWPAppWindow.UIButtonButton)
 
    After adding the code, the complete `CodedUITestMethod1` test method should appear as follows:
 
@@ -189,7 +187,7 @@ The first step is to create a simple UWP app to run the test against.
 
 1. Select **Run All** to run the test.
 
-   The app opens, the button tap gesture executes, and the textbox's **Text** property is populated. The assert methods validates the textbox's **Text** property.
+   The app opens, the button is tapped, and the textbox's **Text** property is populated. The assert method validates the textbox's **Text** property.
 
    After the test completes, **Test Explorer** displays that the test passed.
 
@@ -205,15 +203,11 @@ The first step is to create a simple UWP app to run the test against.
 
 **A**: No, only XAML-based apps are supported.
 
-### Q: Can I create coded UI tests for my UWP apps on a system that is not running Windows 8.1 or Windows 10?
-
-**A**: No, the Coded UI Test Project templates are only available on Windows 8.1 and Windows 10. To create automation for Universal Windows Platform (UWP) apps, you'll need Windows 10.
-
 ### Q: Why can't I modify the code in the UIMap.Designer file?
 
-**A**: Any code changes you make in the *UIMapDesigner.cs* file will be overwritten every time you generate code using the UIMap - Coded UI Test Builder. If you have to modify a recorded method, you must copy it to the *UIMap.cs* file and rename it. The *UIMap.cs* file can be used to override methods and properties in the *UIMapDesigner.cs* file. Remove the reference to the original method in the *CodedUITest.cs* file and replace it with the renamed method name.
+**A**: Any code changes you make in the *UIMapDesigner.cs* file are overwritten every time you generate code using the **Coded UI Test Builder**. If you have to modify a recorded method, copy it to the *UIMap.cs* file and rename it. The *UIMap.cs* file can be used to override methods and properties in the *UIMapDesigner.cs* file. Remove the reference to the original method in the *CodedUITest.cs* file and replace it with the renamed method name.
 
 ## See also
 
-- [Use UI automation to test Your code](../test/use-ui-automation-to-test-your-code.md)
+- [Use UI automation to test your code](../test/use-ui-automation-to-test-your-code.md)
 - [Set unique automation properties for UWP controls](../test/set-a-unique-automation-property-for-windows-store-controls-for-testing.md)
