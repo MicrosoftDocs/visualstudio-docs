@@ -30,7 +30,7 @@ ms.workload:
 # Ribbon XML
   The Ribbon (XML) item enables you to customize a ribbon by using XML. Use the Ribbon (XML) item if you want to customize the ribbon in a way that is not supported by the Ribbon (Visual Designer) item. For a comparison of what you can do with each item, see [Ribbon overview](../vsto/Ribbon-overview.md).  
   
- [!INCLUDE[appliesto_Ribbon](../vsto/includes/appliesto-Ribbon-md.md)]  
+ [!INCLUDE[appliesto_Ribbon](../vsto/includes/appliesto-ribbon-md.md)]  
   
 ## Add a Ribbon (XML) item to a project  
  You can add a **Ribbon (XML)** item to any Office project from the **Add New Item** dialog box. Visual Studio automatically adds the following files to your project:  
@@ -57,9 +57,9 @@ ms.workload:
 -   Define the callback method in the Ribbon class.  
   
 > [!NOTE]  
->  Outlook requires an additional step. For more information, see [Customize a ribbon for Outlook](../vsto/customizing-a-Ribbon-for-outlook.md).  
+>  Outlook requires an additional step. For more information, see [Customize a ribbon for Outlook](../vsto/customizing-a-ribbon-for-outlook.md).  
   
- For a walkthrough that demonstrates how to automate an application from the ribbon, see [Walkthrough: Create a custom tab by using Ribbon XML](../vsto/walkthrough-creating-a-custom-tab-by-using-Ribbon-xml.md).  
+ For a walkthrough that demonstrates how to automate an application from the ribbon, see [Walkthrough: Create a custom tab by using Ribbon XML](../vsto/walkthrough-creating-a-custom-tab-by-using-ribbon-xml.md).  
   
 ### Assign callback methods to controls  
  To assign a callback method to a control in the Ribbon XML file, add an attribute that specifies the type of the callback method and the name of the method. For example, the following element defines a toggle button that has an **onAction** callback method named `OnToggleButton1`.  
@@ -141,8 +141,8 @@ ms.workload:
 |`GetResourceText`|Called by the `GetCustomUI` method to obtain the contents of the Ribbon XML file.|  
   
 ## See also  
- [Ribbon overview](../vsto/Ribbon-overview.md)   
- [Walkthrough: Create a custom tab by using Ribbon XML](../vsto/walkthrough-creating-a-custom-tab-by-using-Ribbon-xml.md)   
+ [Ribbon overview](../vsto/ribbon-overview.md)   
+ [Walkthrough: Create a custom tab by using Ribbon XML](../vsto/walkthrough-creating-a-custom-tab-by-using-ribbon-xml.md)   
  [Office UI customization](../vsto/office-ui-customization.md)  
   
   

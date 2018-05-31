@@ -19,7 +19,7 @@ ms.workload:
 # Ribbon object model overview
   The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] exposes a strongly typed object model that you can use to get and set the properties of Ribbon controls at runtime. For example, you can dynamically populate menu controls, or show and hide controls contextually. You can also add tabs, groups, and controls to a ribbon, but only before the ribbon is loaded by the Office application. For information, see [Set properties that become read-only](#SettingReadOnlyProperties).  
   
- [!INCLUDE[appliesto_Ribbon](../vsto/includes/appliesto-Ribbon-md.md)]  
+ [!INCLUDE[appliesto_Ribbon](../vsto/includes/appliesto-ribbon-md.md)]  
   
  This Ribbon object model consists mainly of the [Ribbon class](#RibbonClass), [Ribbon events](#RibbonEvents), and [Ribbon control classes](#RibbonControlClasses).  
   
@@ -40,7 +40,7 @@ ms.workload:
 ##  <a name="RibbonControlClasses"></a> Ribbon controls  
  The <xref:Microsoft.Office.Tools.Ribbon> namespace contains a type for each control that you see in the **Office Ribbon Controls** group of the **Toolbox**.  
   
- The following table shows the type for each `Ribbon` control. For a description of each control, see [Ribbon overview](../vsto/Ribbon-overview.md).  
+ The following table shows the type for each `Ribbon` control. For a description of each control, see [Ribbon overview](../vsto/ribbon-overview.md).  
   
 |Control name|Class name|  
 |------------------|----------------|  
@@ -114,7 +114,7 @@ ms.workload:
  In Visual Basic projects, or in Visual C# projects that you created in [!INCLUDE[vs_dev12](../vsto/includes/vs-dev12-md.md)], the constructor appears in the Ribbon Designer code file. This file is named *YourRibbonItem*.Designer.cs or *YourRibbonItem*.Designer.vb. To see this file in Visual Basic projects, you must first click the **Show All Files** button in Solution Explorer.  
   
 ### Set properties in the CreateRibbonExtensibilityObject method  
- You can set the properties of a `Ribbon` control when you override the `CreateRibbonExtensibilityObject` method in the `ThisAddin`, `ThisWorkbook`, or `ThisDocument` class of your project. For more information about the `CreateRibbonExtensibilityObject` method, see [Ribbon Overview](../vsto/Ribbon-overview.md).  
+ You can set the properties of a `Ribbon` control when you override the `CreateRibbonExtensibilityObject` method in the `ThisAddin`, `ThisWorkbook`, or `ThisDocument` class of your project. For more information about the `CreateRibbonExtensibilityObject` method, see [Ribbon Overview](../vsto/ribbon-overview.md).  
   
  The following example sets Ribbon properties in the `CreateRibbonExtensibilityObject` method of the `ThisWorkbook` class of an Excel workbook project.  
   
@@ -182,15 +182,15 @@ ms.workload:
 |*e*|A <xref:Microsoft.Office.Tools.Ribbon.RibbonControlEventArgs> that contains a <xref:Microsoft.Office.Core.IRibbonControl>. Use this control to access any property that is not available in the Ribbon object model provided by the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)].|  
   
 ## See also  
- [Access the ribbon at runtime](../vsto/accessing-the-Ribbon-at-run-time.md)   
- [Ribbon overview](../vsto/Ribbon-overview.md)   
- [How to: Get started customizing the ribbon](../vsto/how-to-get-started-customizing-the-Ribbon.md)   
- [Ribbon Designer](../vsto/Ribbon-designer.md)   
- [Walkthrough: Create a custom tab by using the Ribbon Designer](../vsto/walkthrough-creating-a-custom-tab-by-using-the-Ribbon-designer.md)   
- [Walkthrough: Update the controls on a ribbon at runtime](../vsto/walkthrough-updating-the-controls-on-a-Ribbon-at-run-time.md)   
- [Customize a ribbon for Outlook](../vsto/customizing-a-Ribbon-for-outlook.md)   
+ [Access the ribbon at runtime](../vsto/accessing-the-ribbon-at-run-time.md)   
+ [Ribbon overview](../vsto/ribbon-overview.md)   
+ [How to: Get started customizing the ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md)   
+ [Ribbon Designer](../vsto/ribbon-designer.md)   
+ [Walkthrough: Create a custom tab by using the Ribbon Designer](../vsto/walkthrough-creating-a-custom-tab-by-using-the-ribbon-designer.md)   
+ [Walkthrough: Update the controls on a ribbon at runtime](../vsto/walkthrough-updating-the-controls-on-a-ribbon-at-run-time.md)   
+ [Customize a ribbon for Outlook](../vsto/customizing-a-ribbon-for-outlook.md)   
  [How to: Customize a built-in tab](../vsto/how-to-customize-a-built-in-tab.md)   
  [How to: Add controls to the Backstage view](../vsto/how-to-add-controls-to-the-backstage-view.md)   
- [How to: Export a ribbon from the Ribbon Designer to Ribbon XML](../vsto/how-to-export-a-Ribbon-from-the-Ribbon-designer-to-Ribbon-xml.md)   
+ [How to: Export a ribbon from the Ribbon Designer to Ribbon XML](../vsto/how-to-export-a-ribbon-from-the-ribbon-designer-to-ribbon-xml.md)   
  [How to: Show Add-in user interface errors](../vsto/how-to-show-add-in-user-interface-errors.md)  
  
