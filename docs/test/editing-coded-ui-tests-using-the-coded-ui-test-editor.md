@@ -14,42 +14,40 @@ ms.workload:
   - "multiple"
 author: gewarren
 ---
-# Edit Coded UI Tests Using the Coded UI Test Editor
+# Edit coded UI tests using the Coded UI Test Editor
 
 The Coded UI Test Editor lets you easily modify your coded UI tests. Using the Coded UI Test Editor, you can locate, view, and edit the properties of your test methods and UI actions. In addition, you can use the UI control map to view and edit their corresponding controls.
 
- **Requirements**
+**Requirements**
 
 - Visual Studio Enterprise
 - Coded UI test component
 
-## Why should I do this?
+## Features of the Coded UI Test Editor
 
 Using the Coded UI Test Editor is quicker and more efficient than editing the code in your coded UI test methods using the Code Editor. With the Coded UI Test Editor, you can use the toolbar and shortcut menus to quickly locate and modify property values associated with UI actions and controls. For example, you can use the Coded UI Test Editor's toolbar to perform the following commands:
 
- ![UI Test Editor](../test/media/uitesteditor.png)
+![UI Test Editor](../test/media/uitesteditor.png)
 
-1.  [Find](../ide/finding-and-replacing-text.md) helps you locate UI actions and controls.
+1. [Find](../ide/finding-and-replacing-text.md) helps you locate UI actions and controls.
 
-2.  [Delete](#CodedUITestEditor_DeleteUIActions) removes unwanted UI actions.
+2. **Delete** removes unwanted UI actions.
 
-3.  **Rename** changes the names for test methods and controls.
+3. **Rename** changes the names for test methods and controls.
 
-4.  **Properties** opens the Properties Window for selected item.
+4. **Properties** opens the **Properties** window for the selected item.
 
-5.  [Split into a new method](#CodedUITestEditor_SplitMethods) lets you modularize the UI actions.
+5. **Split into a new method** lets you modularize the UI actions.
 
-6.  [Move Code](#CodedUITestEditor_MoveMethods) adds custom code to your test methods.
+6. **Move Code** adds custom code to your test methods.
 
-7.  [Insert Delay Before](#CodedUITestEditor_InsertDelay) adds a pause prior to a UI action, specified in milliseconds.
+7. **Insert Delay Before** adds a pause prior to a UI action, specified in milliseconds.
 
-8.  [Locate the UI Control](#CodedUITestEditor_LocateUIControl) identifies the location of the control in the UI of application under test.
+8. **Locate the UI Control** identifies the location of the control in the UI of application under test.
 
-9. [Locate All](#CodedUITestEditor_LocateDecendants) helps you verify control property and significant changes to the application's controls.
+9. **Locate All** helps you verify control property and significant changes to the application's controls.
 
-## How do I do this?
-
-Opening the *UIMap.uitest* file affiliated with your coded UI test in your coded UI test project automatically displays the coded UI test in the **Coded UI Test Editor**. The following procedures describe how you can then locate and edit your test methods, and properties for the UI actions, and controls using the editor's toolbar and shortcut menus.
+When you open the *UIMap.uitest* file affiliated with your coded UI test, the coded UI test opens in the **Coded UI Test Editor**. The following procedures describe how you can then locate and edit your test methods, and properties for the UI actions, and controls using the editor's toolbar and shortcut menus.
 
 ## Open a coded UI test
 
@@ -62,7 +60,7 @@ In **Solution Explorer**, open the shortcut menu for *UIMap.uitest* and choose *
 > [!TIP]
 > When you select a UI action that is located in a method in the **UI Actions** pane, the corresponding control is highlighted. You can also modify the UI action or the controls properties.
 
-##  <a name="CodedUITestEditor_EditActionAndControlProperties"></a> Modify UI action properties and their corresponding control properties
+## Modify UI action and control properties
 
 Using the Coded UI Test Editor, you can quickly locate and view all the UI actions in your test methods. When you select the UI action in the editor, the corresponding control is automatically highlighted. Likewise, if you select a control, the associated UI actions are highlighted. When you select either a UI action or a control, it is then easy to use the Properties window to modify the properties that correspond with it.
 
@@ -86,27 +84,27 @@ After completing your modifications, save the changes to the UIMap.Designer file
 
 - To undo the property changes you made, select **Undo** from the **Edit** menu, or press **Ctrl**+**Z**.
 
-- You can use the **Find** button in the Coded UI Test editor toolbar to open the Find and Replace tool in Visual Studio. You can then use the Find control to locate a UI action in the Coded UI Test editor. For example, you can try to find "Click 'Login' button." This can be useful in large tests. Note that you cannot use the replace functionality in the Find and Replace tool in the Coded UI Test Editor. For more information, see Find control in [Finding and Replacing Text](../ide/finding-and-replacing-text.md).
+- You can use the **Find** button in the Coded UI Test editor toolbar to open the Find and Replace tool in Visual Studio. You can then use the Find control to locate a UI action in the Coded UI Test editor. For example, you can try to find "Click 'Login' button." This can be useful in large tests. You cannot use the replace functionality in the Find and Replace tool in the Coded UI Test Editor. For more information, see Find control in [Finding and Replacing Text](../ide/finding-and-replacing-text.md).
 
-- Sometimes, it can be difficult to visualize where controls are located in the UI of the application under test. One of the capabilities of the coded UI Test Editor is that you can select a control listed in the UI control map and view its location in the application under test. For more information, see [Locating a UI Control in the application under Test](#CodedUITestEditor_LocateUIControl) located further below in this topic.
+- Sometimes, it can be difficult to visualize where controls are located in the UI of the application under test. One of the capabilities of the coded UI Test Editor is that you can select a control listed in the UI control map and view its location in the application under test. For more information, see [Locating a UI Control in the application under Test](#CodedUITestEditor_LocateUIControl) located further below in this article.
 
-- It might be necessary to expand the container control that contains the control that you want to edit. For more information, see [Locating a control and its descendants](#CodedUITestEditor_LocateDecendants) located further below in this topic.
+- It might be necessary to expand the container control that contains the control that you want to edit. For more information, see [Locating a control and its descendants](#CodedUITestEditor_LocateDecendants) located further below in this article.
 
-##  <a name="CodedUITestEditor_DeleteUIActions"></a> Delete unwanted UI actions
+## Delete unwanted UI actions
 
 You can easily remove unwanted UI actions in your coded UI test.
 
-![Delete UI action](../test/media/codeduideleteuiaction.png "CodedUIDeleteUIAction")
+![Delete UI action](../test/media/codeduideleteuiaction.png)
 
 In the **UI Action** pane, expand the test method that contains the UI action that you want to delete. Open the shortcut menu for the UI action and choose **Delete**.
 
-##  <a name="CodedUITestEditor_SplitMethods"></a> Split a test method into two separate methods
+## Split a test method into two separate methods
 
 You can split a test method to refine or to modularize the UI actions. For example, your test might have a single test method with UI actions in two container controls. The UI actions might be better modularized in two methods that correspond with one container.
 
-![Splt a test method](../test/media/codeduitestsplitmethod1.png "CodedUITestSplitMethod1")
+![Split a test method](../test/media/codeduitestsplitmethod1.png)
 
-![Two test methods](../test/media/codeduitestsplitmethod2.png "CodedUITestSplitMethod2")
+![Two test methods](../test/media/codeduitestsplitmethod2.png)
 
 In the **UI Action** pane, expand the test method that you want to split into two separate methods and select the UI action where you want the new test method to begin. Either open the shortcut menu for the UI action and then choose **Split into a new method**, or choose the **Split into a new method** button on the Coded UI Test Editor toolbar. The new test method appears in the UI Actions pane. It contains the UI actions starting from the action where you specified the split.
 
@@ -127,7 +125,7 @@ After you are done splitting the method, save the changes to the UIMap.Designer 
 
    A Microsoft Visual Studio dialog box is displayed. It warns you that you must modify any code that references the method. Choose **Yes**.
 
-##  <a name="CodedUITestEditor_MoveMethods"></a> Move a test method to the UIMap File to facilitate customization
+## Move a test method to the UIMap File to facilitate customization
 
 If you determine that one of your test methods in your coded UI test requires custom code, you must move it into either the UIMap.cs or UIMap.vb file. Otherwise, your code will be overwritten whenever the coded UI test is recompiled. If you do not move the method, your custom code will be overwritten each time the test is recompiled.
 
@@ -142,13 +140,13 @@ After you are done moving the method, save the changes to the UIMap.Designer fil
 
 To undo the move, select **Undo** from the **Edit** menu, or press **Ctrl**+**Z**. However, you must then manually remove the code from the UIMap.cs or UIMap.vb file.
 
-##  <a name="CodedUITestEditor_LocateUIControl"></a> Locating a UI Control in the application under test
+## Locate a UI Control in the application under test
 
 Sometimes, it can be difficult to visualize where controls are located in the UI of the application under test. One of the capabilities of the coded UI Test Editor is that you can select a control listed in the UI control map and view its location in the application under test. Using the **Locate the UI Control** feature on the application under test can also be used to verify search property modifications you have made to a control.
 
-![Locate UI control](../test/media/codeduilocatecontrol.png "CodedUILocateControl")
+![Locate UI control](../test/media/codeduilocatecontrol.png)
 
-![Control located in application under test](../test/media/codeduilocatecontrol2.png "CodedUILocateControl2")
+![Control located in application under test](../test/media/codeduilocatecontrol2.png)
 
 In the **UI Control Map** pane, select the control that you want to locate in the application associated with the test. Next, open the shortcut menu for the control and then choose **Locate the UI Control**. In the application that is being tested, the control is designated with a blue border.
 
@@ -159,26 +157,26 @@ In the **UI Control Map** pane, select the control that you want to locate in th
 
 You can use the **Locate All** option to verify that all the controls under a container can be correctly located. This option is described in the next section.
 
-##  <a name="CodedUITestEditor_LocateDecendants"></a> Locating a control and its descendants
+## Locate a control and its descendants
 
 You can verify that all the controls under a container can be correctly located in the UI of the application under test. This can be helpful in verifying search property changes you may have made on the container. Additionally, if there have been significant changes in the UI of the application under test, you can validate that the existing control search properties are still correct.
 
-![Locate all descendant controls](../test/media/codeduilocateall.png "CodedUILocateAll")
+![Locate all descendant controls](../test/media/codeduilocateall.png)
 
-![All controls located](../test/media/codeduilocateall2.png "CodedUILocateAll2")
+![All controls located](../test/media/codeduilocateall2.png)
 
 In the **UI Control Map** pane, select the container control that you want to locate and view all the descendants for. Next, open the shortcut menu for the control and choose **Locate All**. The container control, and all its descendant controls, are marked in the Coded UI Test Editor with either a green check mark or a red 'X'. These marks let you know if the controls were successfully located in the application under test.
 
 > [!NOTE]
 > Prior to locating the UI controls, verify that the application associated with the test is running.
 
-##  <a name="CodedUITestEditor_InsertDelay"></a> Inserting a delay before a UI action
+## Insert a delay before a UI action
 
 Sometimes, you might want to make the test wait for certain events to occur, such as a window to appear, the progress bar to disappear, and so on. Using the Coded UI Test Editor, you can accomplish this by inserting a delay before a UI action. You can specify how many seconds you want the delay to be.
 
-![Insert delay before a UI action](../test/media/codeduidelay.png "CodedUIDelay")
+![Insert delay before a UI action](../test/media/codeduidelay.png)
 
-![Delay added with 5 seconds](../test/media/codeduidealy2.png "CodedUIDealy2")
+![Delay added with 5 seconds](../test/media/codeduidealy2.png)
 
 In the **UI Action** pane, expand the test method that contains the UI action that you want to insert a delay before. Select the UI action. Next, open the shortcut menu for the UI action and choose **Insert Delay Before**. A delay is inserted and highlighted before the selected UI action with the following text: **Wait for 1 seconds for user delay between actions**. In the Properties window, change the value for the **Delay** property to the desired number of milliseconds.
 
