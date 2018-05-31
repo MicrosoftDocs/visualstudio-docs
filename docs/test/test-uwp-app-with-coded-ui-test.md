@@ -25,7 +25,7 @@ The first step is to create a simple UWP app to run the test against.
 
      ![Blank app Universal Windows template](../test/media/blank-uwp-app-template.png)
 
-1. In the **New Universal Windows Platform Project** dialog, select **OK** to accept the default Windows versions.
+1. In the **New Universal Windows Platform Project** dialog, select **OK** to accept the default platform versions.
 
 1. From **Solution Explorer**, open *MainPage.xaml*.
 

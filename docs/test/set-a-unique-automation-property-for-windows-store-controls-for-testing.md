@@ -1,6 +1,6 @@
 ---
-title: "Set a Unique Automation Property for UWP Controls for Testing in Visual Studio"
-ms.date: 11/04/2016
+title: "Set a Unique Automation Property for UWP Controls for Testing"
+ms.date: 05/31/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ms.topic: conceptual
@@ -12,9 +12,7 @@ author: gewarren
 ---
 # Set a Unique Automation Property for UWP Controls for Testing
 
-If you want to run coded UI tests for your XAML-based UWP application, each control must be identified by a unique automation property.
-
-You can assign a unique automation property based on the type of XAML control in your application.
+If you want to run coded UI tests for your XAML-based UWP application, each control must be identified by a unique automation property. You can assign a unique automation property based on the type of XAML control in your application.
 
 ## Static XAML definition
 
@@ -50,34 +48,13 @@ Set the **AutomationProperties.Name** to **ButtonY** explicitly in the XAML for 
 
 ### Assign unique automation properties
 
-You can use Visual Studio or Blend for Visual Studio to assign unique names to interactive elements such as buttons, list boxes, combo boxes, and text boxes. This gives the control a unique value for **AutomationProperties.Name**.
+In Blend for Visual Studio, you can select an option to assign unique names to interactive elements such as buttons, list boxes, combo boxes, and text boxes. This gives the controls unique values for **AutomationProperties.Name**.
 
-**Visual Studio:**
+To assign unique names to existing controls, select **Tools** > **Name Interactive Elements**.
 
-On the **Tools** menu, point to **Options** and then choose **Text Editor** > **XAML** > **Miscellaneous**.
+![Name Interactive Elements in Blend for Visual Studio](../test/media/cuit_windowsstoreproperty_blend_1.png)
 
-Select **Automatically name interactive elements on creation** and then choose **OK**.
-
-![XAML Miscellaneous options](../test/media/cuit_windowsstoreapp_b.png)
-
-**Blend for Visual Studio:**
-
-Use one of the following methods to do this from Blend for Visual Studio.
-
-> [!NOTE]
-> You can only use this method for controls that are created statically using XAML.
-
-**To give a unique name to existing controls**
-
-On the **Tools** menu, choose **Name Interactive Elements**, as shown here:
-
-![Choose Name Interactive Elements from Tools menu](../test/media/cuit_windowsstoreproperty_blend_1.png)
-
-**To automatically give a unique name to controls that you create**
-
-On the **Tools** menu, point to **Options**, and then choose **Project**. Select **Automatically name interactive elements on creation** and then choose **OK**, as shown here:
-
-![Set project to name interactive elements](../test/media/cuit_windowsstoreproeprty_blend_2.png)
+To automatically give unique names to new controls that you add, select **Tools** > **Options** to open the **Options** dialog. Select **XAML Designer** and then select **Automatically name interactive elements on creation**. Select **OK** to close the dialog box.
 
 ## Use a data template
 
@@ -182,4 +159,4 @@ private void CreateCheckBox(string txt, StackPanel panel)
 
 ## See also
 
-- [Test UWP apps with Coded UI tests](../test/test-windows-store-8-1-apps-with-coded-ui-tests.md)
+- [Test UWP apps with Coded UI tests](../test/test-uwp-app-with-coded-ui-test.md)
