@@ -61,7 +61,7 @@ To access the coded UI test tools and templates, install the **Coded UI test** c
    ![Coded UI test project template in New Project dialog](media/coded-ui-test-project-template.png)
 
    > [!NOTE]
-   > If you don't see the **Coded UI Test Project** template, you need to [install the coded UI test component](../test/use-ui-automation-to-test-your-code.md#install-the-coded-UI-test-component).
+   > If you don't see the **Coded UI Test Project** template, you need to [install the coded UI test component](../test/use-ui-automation-to-test-your-code.md#install-the-coded-ui-test-component).
 
 2. Add a coded UI test file.
 

@@ -32,7 +32,7 @@ This sample creates a coded UI test that runs on the Windows Calculator applicat
      ![Create a coded UI test project](../test/media/cuit_datadriven_.png)
 
    > [!NOTE]
-   > If you don't see the **Coded UI Test Project** template, you need to [install the coded UI test component](../test/use-ui-automation-to-test-your-code.md#install-the-coded-UI-test-component).
+   > If you don't see the **Coded UI Test Project** template, you need to [install the coded UI test component](../test/use-ui-automation-to-test-your-code.md#install-the-coded-ui-test-component).
 
 2.  Choose to record the actions.
 

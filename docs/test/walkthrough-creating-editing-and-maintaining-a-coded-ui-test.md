@@ -123,7 +123,7 @@ In this walkthrough, you'll learn how to create, edit, and maintain a coded UI t
 1. In the middle pane, select the **Coded UI Test Project** template.
 
    > [!NOTE]
-   > If you don't see the **Coded UI Test Project** template, you need to [install the coded UI test component](../test/use-ui-automation-to-test-your-code.md#install-the-coded-UI-test-component).
+   > If you don't see the **Coded UI Test Project** template, you need to [install the coded UI test component](../test/use-ui-automation-to-test-your-code.md#install-the-coded-ui-test-component).
 
 1. Choose **OK**.
 
