@@ -85,4 +85,4 @@ HRESULT CvWriteFlagExVA(
  **ANSI:**CvWriteFlagExA, CvWriteFlagExVA  
   
 ## See Also  
- [C++ Library Reference](../profiling/cpp-library-reference.md)
+ [C++ library reference](../profiling/cpp-library-reference.md)
