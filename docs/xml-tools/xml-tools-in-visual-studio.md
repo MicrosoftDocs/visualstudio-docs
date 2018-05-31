@@ -61,7 +61,7 @@ Describes the classes and other elements that make up the <xref:System.Xml.Seria
 
 ## Related sections
 
-[XML document object model (DOM)](/dotnet/standard/data/xml/xml-document-object-model-dom)
+[XML Document Object Model (DOM)](/dotnet/standard/data/xml/xml-document-object-model-dom)
 Describes how the <xref:System.Xml.XmlDocument> and its associated classes comply with the W3C Document Object Model (Core) Level 1 and Level 2 namespace support specifications.
 
 [Processing XML data with XmlReader and XmlWriter](https://msdn.microsoft.com/library/cc189001(v=vs.95).aspx)
@@ -72,5 +72,5 @@ Describes how the <xref:System.Xml.Xsl.XslCompiledTransform> class implements th
 [Process XML data using the XPath data model](/dotnet/standard/data/xml/process-xml-data-using-the-xpath-data-model)
 Describes how the <xref:System.Xml.XPath.XPathNavigator> class can process XML data stored in an <xref:System.Xml.XPath.XPathDocument> or an <xref:System.Xml.XmlDocument> object. The <xref:System.Xml.XPath.XPathNavigator> class is based on the XQuery 1.0 and XPath 2.0 Data Model and can be used to navigate and edit XML data.
 
-[XML schema object model (SOM)](/dotnet/standard/data/xml/xml-schema-object-model-som)
+[XML Schema Object Model (SOM)](/dotnet/standard/data/xml/xml-schema-object-model-som)
 Describes the classes used for creating and manipulating XML Schemas, by providing an <xref:System.Xml.Schema.XmlSchema> class to load and edit a schema.
