@@ -2,7 +2,7 @@
 title: "Visual Studio administrator guide"
 description: "Learn more about how to deploy Visual Studio in an enterprise environment."
 ms.custom: ""
-ms.date: 05/15/2017
+ms.date: 05/29/2018
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
@@ -50,6 +50,20 @@ We have several tools available to help you [detect and manage installed Visual 
 
 > [!TIP]
 > In addition to the documentation in the administrator guide, a good source of information on Visual Studio 2017 setup is [Heath Stewart's blog](https://blogs.msdn.microsoft.com/heaths/tag/vs2017/).
+
+## Specify customer feedback settings
+
+By default, the Visual Studio installation enables customer feedback. When you enable Group Policy, you can configure Visual Studio to disable customer feedback on individual computers. To do so, set a registry-based policy on the following key:
+
+**HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\VisualStudio\SQM**
+
+Entry = **OptIn**
+
+Value = (DWORD)
+* **0** is opted out
+* **1** is opted in
+
+For more information about customer feedback settings, see the [Visual Studio Customer Experience Improvement Program](../ide/visual-studio-experience-improvement-program.md) page.
 
 ## Get support
 

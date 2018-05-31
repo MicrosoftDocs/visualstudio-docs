@@ -82,6 +82,6 @@ For more information about customizing the editor, see [Customize the editor](..
 ## See also
 
 - [Visual Studio IDE](../ide/visual-studio-ide.md)
-- [Get started with C++ in Visual Studio](../ide/quickstart-cpp.md)
+- [Get started with C++ in Visual Studio](../ide/getting-started-with-cpp-in-visual-studio.md)
 - [Get started with C# and ASP.NET in Visual Studio](../ide/tutorial-csharp-aspnet-core.md)
 - [Get started with Python in Visual Studio](../ide/quickstart-python.md)

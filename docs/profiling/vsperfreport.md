@@ -19,7 +19,7 @@ ms.workload:
   - "multiple"
 ---
 # VSPerfReport
-VSPerfReport command line tool is used to create reports using  [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools profiling data files. The default report format is a .csv file.  
+VSPerfReport command line tool is used to create reports using  [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools profiling data files. The default report format is a .*csv* file.  
   
  VSPerfReport uses the following syntax:  
   
@@ -27,18 +27,18 @@ VSPerfReport command line tool is used to create reports using  [!INCLUDE[vsprvs
 VSPerfReport [/U] vspfilename [/options]  
 ```  
   
- Note that `filename` must be a valid .vsp or .vsps file.  
+ Note that `filename` must be a valid .*vsp* or .*vsps* file.  
   
- The VSPerfReport command line tool is also used to compare .vsp or .vsps files. To generate a difference ("diff") report, use the following syntax:  
+ The VSPerfReport command line tool is also used to compare .*vsp* or .*vsps* files. To generate a difference ("diff") report, use the following syntax:  
   
 ```cmd  
 VSPerfReport [/U] /diff vspfilename1 vspfilename2 [/options]  
 ```  
   
- `vspfilename1 and vspfilename2` must be valid .vsp or .vsps files.  
+ `vspfilename1 and vspfilename2` must be valid .*vsp* or .*vsps* files.  
   
 ## Symbol files  
- To display symbol information such as function names and line numbers, VSPerfReport requires access to the symbol (.PDB) files of the profiled components and to Windows symbol files. For more information, see [How to: Specify Symbol File Locations from the Command Line](../profiling/how-to-specify-symbol-file-locations-from-the-command-line.md).  
+ To display symbol information such as function names and line numbers, VSPerfReport requires access to the symbol (.PDB) files of the profiled components and to Windows symbol files. For more information, see [How to: Specify symbol file locations from the command line](../profiling/how-to-specify-symbol-file-locations-from-the-command-line.md).  
   
 ## General report options  
  The following table describes the general report formatting options and the options that select the data to be reported.  
@@ -52,7 +52,7 @@ VSPerfReport [/U] /diff vspfilename1 vspfilename2 [/options]
 |**ClearPackedSymbols**|Removes previously embedded symbols from a profiler data file. Run this command before running PackSymbols a second time.|  
 |**SymbolPath:** `path`|Specifies one or more search paths or symbol servers that contain symbols for the profiler data file.|  
 |**DebugSymPath**|Lists the locations that are searched for symbols and whether they are found. This option is useful to resolve symbol resolution issues.|  
-|**PackSymbols**|Saves symbols into the profiling data (.vsp) file so that symbol (.pdb) files are not required for analysis.|  
+|**PackSymbols**|Saves symbols into the profiling data (.vsp) file so that symbol (.*pdb*) files are not required for analysis.|  
 |**Output:** *path*&#124;*filename*|Specifies an alternate location for the generated report files. By default, reports are created in the current directory.|  
 |**SummaryFile**|Analyze and save the analyzed information in a .vsps summary file.|  
 |**PrintMarks**|Show the names and timestamps for all marks in the specified report file.|  
@@ -79,7 +79,7 @@ VSPerfReport [/U] /diff vspfilename1 vspfilename2 [/options]
   
 |Options|Description|  
 |-------------|-----------------|  
-|**Diff**  `vspfile1 vspfile2`|Compare two report files (.vsp or .vsps) files. Summary options will be ignored using the diff option.|  
+|**Diff**  `vspfile1 vspfile2`|Compare two report files (.*vsp* or .*vsps*) files. Summary options will be ignored using the diff option.|  
 |**Diff:**[*value*]|Below this threshold value the difference between two values will be disregarded. Also, new data with values under this threshold will not be shown.|  
 |**DiffTable:**[*tablename*]|Use this specific table to compare files. The default is the functions table.|  
 |**DiffColumn:**[*columnname*]|Use this specific column compare values. The default is the exclusive samples percent column.|  
