@@ -46,7 +46,7 @@ Use the **Application Timeline** profiler to find and fix application-interactio
 3.  Select **Application Timeline** and then click **Start** at the bottom of the window.  
   
     > [!NOTE]
-    >  You might see a User Account Control window requesting your permission to run VsEtwCollector.exe. Click **Yes**.  
+    >  You might see a User Account Control window requesting your permission to run *VsEtwCollector.exe*. Click **Yes**.  
   
 4.  Run the scenario you are interested in profiling in your app to collect performance data.  
   
@@ -91,7 +91,7 @@ Use the **Application Timeline** profiler to find and fix application-interactio
 |||  
 |-|-|  
 |**Parsing**|Time spent parsing XAML files and creating objects.<br /><br /> Expanding a **Parsing** node in **Timeline details** displays the dependency chain of all the XAML files that were parsed as a result of the root event. This will enable you to identify unnecessary file parsing and object creation in performance sensitive scenarios and optimize them out.|  
-|**Layout**|In large applications, thousands of elements may be shown on the screen at the same time. This might result in a low UI frame rate and correspondingly poor application responsiveness. The Layout event accurately determines the cost of laying out each element (i.e. the time spent in Arrange, Measure, ApplyTemplate, ArrangeOverride, and ArrangeOverride) and builds the visual trees that took part in a Layout pass. You can use this visualization to determine which of your logical trees to prune, or to evaluate other deferral mechanisms to optimize your layout pass.|  
+|**Layout**|In large applications, thousands of elements may be shown on the screen at the same time. This might result in a low UI frame rate and correspondingly poor application responsiveness. The Layout event accurately determines the cost of laying out each element (that is, the time spent in Arrange, Measure, ApplyTemplate, ArrangeOverride, and ArrangeOverride) and builds the visual trees that took part in a Layout pass. You can use this visualization to determine which of your logical trees to prune, or to evaluate other deferral mechanisms to optimize your layout pass.|  
 |**Render**|Time spent drawing XAML elements to the screen.|  
 |**I/0**|Time spent retrieving data from the local disk or from network resources that are accessed through the [Microsoft Windows Internet (WinINet) API](https://msdn.microsoft.com/en-us/library/windows/desktop/aa385331.aspx).|  
 |**App Code**|Time spent executing application (user) code that is not related to parsing or layout.|  
@@ -107,8 +107,8 @@ Use the **Application Timeline** profiler to find and fix application-interactio
 |-|-|  
 |**Sort by**|Sort by start time or the length of events.|  
 |![Group events by frame](../profiling/media/timeline_groupbyframes.png "TIMELINE_GroupByFrames")|Adds or removes a top-level **Frame** category that groups events by frame.|  
-|![Filter Timeline details list](../profiling/media/timeline_filter.png "TIMELINE_Filter")|Filters the list by selected categories and the length of events.|  
-|![Customize Timeline details information](../profiling/media/timeline_viewsettings.png "TIMELINE_ViewSettings")|Lets you specify the annotations to events.|  
+|![Filter timeline details list](../profiling/media/timeline_filter.png "TIMELINE_Filter")|Filters the list by selected categories and the length of events.|  
+|![Customize timeline details information](../profiling/media/timeline_viewsettings.png "TIMELINE_ViewSettings")|Lets you specify the annotations to events.|  
   
 ## See also  
  [WPF team blog: New UI performance analysis tool for WPF applications](http://blogs.msdn.com/b/wpf/archive/2015/01/16/new-ui-performance-analysis-tool-for-wpf-applications.aspx)  
