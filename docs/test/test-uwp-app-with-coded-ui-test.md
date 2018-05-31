@@ -127,7 +127,7 @@ The first step is to create a simple UWP app to run the test against.
 
    ![AutomationID in Add Assertion dialog](../test/media/automation-id.png)
 
-1. Add code to the test method to launch the UWP app. In **Solution Explorer**, open *CodedUITest1.cs* or *CodedUITest1.vb*. Above the called to `AssertMethod1`, add code to launch the UWP app:
+1. Add code to the test method to launch the UWP app. In **Solution Explorer**, open *CodedUITest1.cs* or *CodedUITest1.vb*. Above the call to `AssertMethod1`, add code to launch the UWP app:
 
    ```csharp
    XamlWindow.Launch("af5ecd75-f252-45a1-9e7e-c6f1d8f054ff_0q1pp7qrjexbp!App")
@@ -150,6 +150,7 @@ The first step is to create a simple UWP app to run the test against.
 
    ```vb
    Gesture.Tap(Me.UIMap.UIUWPAppWindow.UIButtonButton)
+   ```
 
    After adding the code, the complete `CodedUITestMethod1` test method should appear as follows:
 
