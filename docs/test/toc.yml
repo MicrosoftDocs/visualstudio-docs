@@ -386,26 +386,8 @@
     href: enable-coded-ui-testing-of-your-controls.md
   - name: Supported Configurations and Platforms
     href: supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md
-  - name: Extend Coded UI Tests and Action Recordings to Support Microsoft Excel
+  - name: Extend the Coded UI Test Framework
     href: extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel.md
-    items:
-    - name: Sample Excel Add-In for Coded UI Testing
-      href: sample-excel-add-in-for-coded-ui-testing.md
-    - name: Sample Excel Communicator Interface
-      href: sample-excel-communicator-interface.md
-    - name: Sample Coded UI Test Extension for Excel
-      href: sample-coded-ui-test-extension-for-excel.md
-      items:
-      - name: "Sample Excel Extension: ExtensionPackage Class"
-        href: sample-excel-extension-extensionpackage-class.md
-      - name: "Sample Excel Extension: TechnologyManager Class"
-        href: sample-excel-extension-technologymanager-class.md
-      - name: "Sample Excel Extension: PropertyProvider Class"
-        href: sample-excel-extension-propertyprovider-class.md
-      - name: "Sample Excel Extension: Element Classes"
-        href: sample-excel-extension-element-classes.md
-      - name: "Sample Excel Extension: ActionFilter Class"
-        href: sample-excel-extension-actionfilter-class.md
 - name: Test lab management
   href: lab-management/using-a-lab-environment-for-your-application-lifecycle.md
   items:
