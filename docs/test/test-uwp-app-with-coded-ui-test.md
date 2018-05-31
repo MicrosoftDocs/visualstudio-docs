@@ -59,6 +59,9 @@ The first step is to create a simple UWP app to run the test against.
 
      ![New coded UI test project](../test/media/coded-ui-test-project-uwp-template.png)
 
+   > [!NOTE]
+   > If you don't see the **Coded UI Test Project (Universal Windows)** template, you need to [install the coded UI test component](../test/use-ui-automation-to-test-your-code.md#install-the-coded-UI-test-component).
+
 1. In the **Generate Code for Coded UI Test** dialog, select **Manually edit the test**.
 
      ![Generate code for coded UI test dialog](../test/media/manually-edit-the-test.png)
