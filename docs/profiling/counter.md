@@ -40,7 +40,7 @@ VSPerfCmd.exe /Start:Method /Counter:Name[,Reload[,FriendlyName]][/Counter:Name[
  `FriendlyName`  
  (Optional) The string to use in place of `Name` in the column headers of profiler reports and views.  
   
-## Required Options  
+## Required options  
  The Counter option can only be used with one of the following options:  
   
  **Start:** `Trace`  
