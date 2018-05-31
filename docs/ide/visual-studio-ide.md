@@ -24,13 +24,61 @@ This article focuses on Visual Studio 2017 for Windows. It introduces you to the
 
 ## Install the Visual Studio IDE
 
-To get started, [download Visual Studio 2017](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) and install it on your system.
+To get started, [download Visual Studio 2017](https://www.visualstudio.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) and install it on your system.
 
-The modular installer enables you to choose and install *workloads*, which are groups of features needed for the programming language or platform you prefer. To follow the steps for [creating a program](#create-a-program), be sure to select the **.NET Core cross-platform development** workload during installation.
+The modular installer enables you to choose and install *workloads*, which are groups of features needed for the programming language or platform you prefer. To follow the steps for [creating a program](#create-a-program), be sure to select the **.NET Core cross-platform development** workload during installation. The quickstart topics, such as [Get started with C++ in Visual Studio](getting-started-with-cpp-in-visual-studio.md), contain instructions for installing other workloads.
 
 ![Visual Studio Installer](../ide/media/overview-net-core-workload.png)
 
 When you start Visual Studio for the first time, you can optionally sign in using your Microsoft account, or your work or school account.
+
+## Tour of the IDE
+
+To give you a high-level visual overview of Visual Studio, the following image shows Visual Studio with an open project along with several key tool windows you will most likely use:
+
+![The Visual Studio IDE](../ide/media/visualstudioide.png)
+
+- [Solution Explorer](../ide/solutions-and-projects-in-visual-studio.md) lets you view, navigate, and manage your code files. Solution Explorer can help organize your code by grouping the files into solutions and projects.
+
+- The [editor](../ide/writing-code-in-the-code-and-text-editor.md) window, where you'll likely spend a majority of your time, shows your code and enables you to edit source code and design a UI.
+
+- The [Output window](../ide/reference/output-window.md) is where Visual Studio sends its notifications, such as debugging and error messages, compiler warnings, publishing status messages, and more. Each message source has its own tab.
+
+- [Team Explorer (VSTS)](/vsts/user-guide/work-team-explorer) lets you track work items and share code with others using version control technologies such as [Git](https://git-scm.com/) and [Team Foundation Version Control (TFVC)](/vsts/tfvc/overview).
+
+Following are some other popular productivity features in Visual Studio:
+
+- [Refactoring](../ide/refactoring-in-visual-studio.md) includes operations such as intelligent renaming of variables, moving selected lines of code into a separate function, moving code to other locations, reordering function parameters, and more.
+
+   ![Refactoring](../ide/media/VSIDE_refactor.png)
+
+- [IntelliSense](../ide/using-intellisense.md) is an umbrella term for a set of popular features that display type information about your code directly in the editor and, in some cases, write small bits of code for you. It's like having basic documentation inline in the editor, which saves you from having to look up type information in a separate help window. IntelliSense features vary by language. For more information, see [C# IntelliSense](../ide/visual-csharp-intellisense.md), [Visual C++ IntelliSense](../ide/visual-cpp-intellisense.md), [JavaScript IntelliSense](../ide/javascript-intellisense.md), and [Visual Basic IntelliSense](../ide/visual-basic-specific-intellisense.md). The following illustration shows some IntelliSense features at work:
+
+   ![Visual Studio Member List](../ide/media/vs2017_Intellisense.png)
+
+- The [Quick Launch](../ide/reference/quick-launch-environment-options-dialog-box.md) search box is a great way to rapidly find what you need in Visual Studio. Just start typing in the name of whatever you are looking for, and Visual Studio lists results that take you exactly where you want to go. **Quick Launch** also shows links that start **Visual Studio Installer** for any workload or individual component.
+
+   ![Quick Launch search box](../ide/media/VSIDE_Tour_QuickLaunch.png)
+
+- **Squiggles** are wavy underlines that alert you to errors or potential problems in your code in real time as you type. This enables you to fix them immediately without waiting for the error to be discovered during compilation or run time. If you hover over the squiggle, you see additional information about the error. A light bulb may also appear in the left margin with actions to fix the error. For more information, see [Quick Actions](../ide/quick-actions.md).
+
+   ![Squiggles](../ide/media/vs2017_squiggle.png)
+
+- The [Call Hierarchy](../ide/reference/call-hierarchy.md) window can be opened on the text editor context menu to show the methods that call, and are called by, the method under the caret (insertion point).
+
+   ![Call Hierarchy window](../ide/media/VSIDE_call_hierarchy.png)
+
+- [CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md) enables you to find references and changes to your code, linked bugs, work items, code reviews, and unit tests, all without leaving the editor.
+
+   ![CodeLens](../ide/media/codelensoverview.png)
+
+- The [Peek to Definition](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md) window shows a method or type definition inline, without navigating away from your current context.
+
+   ![Peek to Definition](../ide/media/VSIDE_peek_definition.png)
+
+- The [Go To Definition](../ide/go-to-and-peek-definition.md) context menu option takes you directly to the place where the function or object is defined. Other navigation commands are also available by right-clicking in the editor.
+
+   ![Go to Definition](../ide/media/VSIDE_go_to_definition.png)
 
 ## Create a program
 
@@ -190,46 +238,6 @@ You can personalize the IDE, including changing the default color theme. To chan
 
 To learn about other ways you can personalize the IDE, see [Personalize Visual Studio](../ide/personalizing-the-visual-studio-ide.md).
 
-## Tour of the IDE
-
-To give you a high-level visual overview of Visual Studio, the following image shows Visual Studio with an open project along with several key tool windows you will most likely use:
-
-- [Solution Explorer](../ide/solutions-and-projects-in-visual-studio.md) lets you view, navigate, and manage your code files. Solution Explorer can help organize your code by grouping the files into solutions and projects.
-
-- The [editor](../ide/writing-code-in-the-code-and-text-editor.md) window, where you'll likely spend a majority of your time, shows your code and enables you to edit source code and design a UI.
-
-- The [Output](../ide/reference/output-window.md) window is where Visual Studio sends its notifications, such as debugging and error messages, compiler warnings, publishing status messages, and more. Each message source has its own tab.
-
-- [Team Explorer (VSTS)](/vsts/user-guide/work-team-explorer) lets you track work items and share code with others using version control technologies such as [Git](https://git-scm.com/) and [Team Foundation Version Control (TFVC)](/vsts/tfvc/overview).
-
-![The Visual Studio IDE](../ide/media/visualstudioide.png)
-
-Following are some other common productivity features in Visual Studio:
-
-- The [Quick Launch](../ide/reference/quick-launch-environment-options-dialog-box.md) search box is a great way to rapidly find what you need in Visual Studio. Just start typing in the name of whatever you are looking for, and Visual Studio lists results that take you exactly where you want to go. **Quick Launch** also shows links that start **Visual Studio Installer** for any workload or individual component.
-
-   ![Quick Launch search box](../ide/media/VSIDE_Tour_QuickLaunch.png)
-
-- **Squiggles** are wavy underlines that alert you to errors or potential problems in your code in real time as you type. This enables you to fix them immediately without waiting for the error to be discovered during compilation or run time. If you hover over the squiggle, you see additional information about the error. A light bulb may also appear in the left margin with actions to fix the error. For more information, see [Quick Actions](../ide/quick-actions.md).
-
-   ![Squiggles](../ide/media/vs2017_squiggle.png)
-
-- The [Call Hierarchy](../ide/reference/call-hierarchy.md) window can be opened on the text editor context menu to show the methods that call, and are called by, the method under the caret (insertion point).
-
-   ![Call Hierarchy window](../ide/media/VSIDE_call_hierarchy.png)
-
-- [CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md) enables you to find references and changes to your code, linked bugs, work items, code reviews, and unit tests, all without leaving the editor.
-
-   ![CodeLens](../ide/media/codelensoverview.png)
-
-- The [Peek to Definition](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md) window shows a method or type definition inline, without navigating away from your current context.
-
-   ![Peek to Definition](../ide/media/VSIDE_peek_definition.png)
-
-- The [Go To Definition](../ide/go-to-and-peek-definition.md) context menu option takes you directly to the place where the function or object is defined. Other navigation commands are also available by right-clicking in the editor.
-
-   ![Go to Definition](../ide/media/VSIDE_go_to_definition.png)
-
 ## Learn more
 
 Do you want to create an app for an Android or iOS phone? How about a 3D game, or a cloud-enabled app? To learn about these and other features of Visual Studio, see [Features of Visual Studio 2017](../ide/advanced-feature-overview.md).
@@ -243,4 +251,4 @@ You can also check out the free Visual Studio courses available on [Microsoft Vi
 * [More Visual Studio features](../ide/advanced-feature-overview.md)
 * [www.visualstudio.com](https://www.visualstudio.com/vs/)
 * [The Visual Studio blog](https://blogs.msdn.microsoft.com/visualstudio/)
-* [Visual Studio downloads](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs)
+* [Visual Studio downloads](https://www.visualstudio.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)
