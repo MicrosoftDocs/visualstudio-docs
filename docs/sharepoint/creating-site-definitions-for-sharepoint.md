@@ -19,18 +19,18 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Creating Site Definitions for SharePoint
+# Creating site definitions for SharePoint
   The SharePoint Site Definition project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] lets you create a *site definition*, which serves as a foundation for a new SharePoint site. These definitions not only determine the appearance and behavior of the SharePoint site, but also its default content and functionality. In the definition you can put preconfigured lists, content types, event receivers, images, and other items. SharePoint includes some site definitions such as BLOG, for example. When you create a site based on the BLOG site definition, the site contains the lists, Web parts, and other items that a blogging site requires.  
   
  For more information about site definitions, see [Site Templates and Definitions](http://go.microsoft.com/fwlink/?LinkId=179134).  
   
-## Site Definition Projects  
+## Site definition projects
  Site definition projects in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] provide only the basic files that a SharePoint site needs; they do not provide any default functionality. You must add files and content to provide the functionality that you want. You can build the site manually, by creating and adding the files that you need.  
   
-## Feature Stapling  
+## Feature stapling
  One benefit of creating site definitions in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] is that they automatically use *Feature Stapling*. Feature Stapling attaches a feature to a site definition instead of embedding its functionality in the site definition itself. Doing this lets you add the feature to any site created by using the site definition without modifying the original site definition. For more information, see [Feature Stapling](http://go.microsoft.com/fwlink/?LinkID=119283).  
   
-## Site Definition Project Components  
+## Site definition project components
  When you create a site definition solution, the following default files are added to its **SiteDefinition** node.  
   
 |File Name|Description|  
@@ -41,7 +41,7 @@ ms.workload:
   
  By default, all site definitions are stored in the *drive:*\Program Files\Common Files\Microsoft Shared\Web Server Extensions\14\TEMPLATE\SiteTemplates folder. Each site definition has its own subfolder.  
   
-## Related Topics  
+## Related topics
   
 |Title|Description|  
 |-----------|-----------------|  
@@ -57,7 +57,7 @@ ms.workload:
 |[Programming ASP.NET Web Pages](http://go.microsoft.com/fwlink/?LinkId=178728)|Provides information about how to create event handlers in [!INCLUDE[vstecasp](../sharepoint/includes/vstecasp-md.md)] pages and how to work with client script.|  
 |[Programming in Windows SharePoint Services](http://go.microsoft.com/fwlink/?LinkId=178729)|Describes how to use the managed object model that is provided in [!INCLUDE[sharepointShort](../sharepoint/includes/sharepointshort-md.md)].|  
   
-## See Also  
+## See also
  [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md)  
   
-  
+ 
