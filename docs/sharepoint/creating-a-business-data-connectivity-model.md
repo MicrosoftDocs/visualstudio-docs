@@ -21,10 +21,10 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Creating a Business Data Connectivity Model
+# Creating a business data connectivity model
   You can create a Business Data Connectivity (BDC) model or customize an existing BDC model by using Visual Studio. Each SharePoint project can contain only one model. For more information, see [Integrating Business Data into SharePoint](../sharepoint/integrating-business-data-into-sharepoint.md).  
   
-## Creating a New Model  
+## Create a new model
  To create a new model, create a **Business Data Connectivity Model** project or add a **Business Data Connectivity Model** item to an **Empty SharePoint Project**.  
   
 > [!NOTE]  
@@ -48,7 +48,7 @@ ms.workload:
 > [!NOTE]  
 >  Visual Studio copies the assembly to both locations on your local computer when you debug the project.  
   
-## Adding an Existing Model  
+## Add an existing model
  You can import a model that was created by using other tools such as SharePoint Designer. You might choose to import an existing model to your project in the following situations:  
   
 -   To customize a model that is already deployed to a SharePoint server farm.  
@@ -59,7 +59,7 @@ ms.workload:
   
  You can add a LOB system of type .NET Framework assembly to the imported model by selecting an option in the **Add .NET assembly LobSystem**. This enables you to write custom code and use a designer to define the metadata for the imported model.  
   
-## Related Topics  
+## Related topics
   
 |Title|Description|  
 |-----------|-----------------|  
@@ -68,4 +68,4 @@ ms.workload:
 |[How to: Use a Resource File to Specify Localized Names, Properties, and Permissions](../sharepoint/how-to-use-a-resource-file-to-specify-localized-names-properties-and-permissions.md)|Describes how to provide strings that are merged with model metadata when the model is consumed by a Web Part or Web Page.|  
 |[How to: Include a Custom Assembly in a BDC Feature](../sharepoint/how-to-include-a-custom-assembly-in-a-bdc-feature.md)|Shows you how to include a custom assembly in the feature.|  
   
-  
+ 

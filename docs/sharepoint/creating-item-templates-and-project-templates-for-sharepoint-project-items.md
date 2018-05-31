@@ -21,14 +21,14 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Creating Item Templates and Project Templates for SharePoint Project Items
+# Creating item templates and project templates for SharePoint project items
   When you define a custom SharePoint project item type, you can associate it with an item template or a project template so that other developers can use the project item in Visual Studio. You can also create a wizard for the template.  
   
  For example, Visual Studio does not include a project template or item template for adding a field to a SharePoint site. You can define a SharePoint project item type that represents a field and then construct an item template that other developers can use to add the field item to a SharePoint project. Or, you can construct a project template so that developers can create a new SharePoint project that contains the field item. In both cases, you can also provide a wizard that appears when developers use your template. This wizard can collect information from developers to configure the new item or project.  
   
  Item templates and project templates are .zip files that contain files that are used by Visual Studio to create a project item or project. For more information about the fundamentals of item templates and project templates, see [Creating Project and Item Templates](/visualstudio/ide/creating-project-and-item-templates).  
   
-##  <a name="creatingitemtemplates"></a> Creating Item Templates  
+## Create item templates
  When you create an item template for a SharePoint project item, there are some files that are always required, and optional files that might be used by certain types of project items. For a walkthrough that demonstrates how to define a SharePoint project item type and create an item template for it, see [Walkthrough: Creating a Custom Action Project Item with an Item Template, Part 1](../sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-1.md).  
   
  The following table lists the required files to create an item template for a SharePoint project item.  
@@ -50,7 +50,7 @@ ms.workload:
 |.aspx|An ASP.NET page file. This file contains XML markup that defines an application page.|  
 |.cs or .vb files|These code files define the behavior of SharePoint customizations that have a programming model that can be accessed from Visual C# or Visual Basic code, such as application pages, Web parts, and workflows.|  
   
-## Creating Project Templates  
+## Create project templates
  When you create a SharePoint project template, there are some files that are always required, and optional files that might be used by certain types of projects. Typically, SharePoint projects include at least one SharePoint project item. However, this is not required. For example, you could define a SharePoint project template that is intended to be used only to deploy SharePoint solutions created in other projects.  
   
  For a walkthrough that demonstrates how to define a SharePoint project item type and create a project template for it, see [Walkthrough: Creating a Site Column Project Item with a Project Template, Part 1](../sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-1.md).  
@@ -72,12 +72,12 @@ ms.workload:
 |*featureName*.feature|This file defines a SharePoint Feature that is used to group several project items for deployment. When you use the Feature Designer to customize a Feature in your project, Visual Studio stores data about the Feature in this file. If you want to group the project items into different Features, you can include multiple .feature files.<br /><br /> When you create a custom SharePoint project template, we recommend that you include only the minimum required content in each .feature file, and that you configure Features by using the APIs in the <xref:Microsoft.VisualStudio.SharePoint.Features> namespace in an extension that is associated with the project template. If you do this, your project template is protected from future changes to the structure of the .feature file. For an example that demonstrates how to create a .feature file with only the minimum required content, see [Walkthrough: Creating a Site Column Project Item with a Project Template, Part 1](../sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-1.md).<br /><br /> If you want to modify a .feature file directly, you can verify the contents by using the schema at %Program Files (x86)%\Microsoft Visual Studio 11.0\Xml\Schemas\FeatureModelSchema.xsd.|  
 |*featureName*.Template.xml|This file provides the basis for the feature manifest file (Feature.xml) for each Feature that is generated from the project. You can add content to this file if you want to specify some behavior that is not intended to be changed by users of your project type. For more information, see [Building Block: Features](http://go.microsoft.com/fwlink/?LinkId=169183) and [Feature.xml](http://go.microsoft.com/fwlink/?LinkId=177795) Files.<br /><br /> When you build a solution package from the project, Visual Studio merges the contents of each pair of *featureName*.feature file and *featureName*.Template.xml files into a feature manifest file. For more information about building solution packages, see [How to: Create a SharePoint Solution Package (wsp)](http://msdn.microsoft.com/en-us/b24be45c-e91d-49bb-afb0-7b265404214b).|  
   
-## Creating Wizards for Item Templates and Project Templates  
+## Create wizards for item templates and project templates
  After you define a SharePoint project item type and associate it with an item or project template, you can also create a wizard. The wizard displays when a developer uses the item template to add the SharePoint project item to a project, or when a developer uses the project template to create a new project that contains the SharePoint project item. The wizard can be used to collect information from developers and to initialize the new SharePoint project item.  
   
  For walkthroughs that demonstrate how to create wizards for item templates and project templates, see [Walkthrough: Creating a Custom Action Project Item with an Item Template, Part 2](../sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-2.md) and [Walkthrough: Creating a Site Column Project Item with a Project Template, Part 2](../sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-2.md).  
   
-## See Also  
+## See also
  [Defining Custom SharePoint Project Item Types](../sharepoint/defining-custom-sharepoint-project-item-types.md)   
  [Walkthrough: Creating a Custom Action Project Item with an Item Template, Part 1](../sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-1.md)   
  [Walkthrough: Creating a Custom Action Project Item with an Item Template, Part 2](../sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-2.md)   
@@ -85,4 +85,4 @@ ms.workload:
  [Walkthrough: Creating a Site Column Project Item with a Project Template, Part 2](../sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-2.md)   
  [Creating Project and Item Templates](/visualstudio/ide/creating-project-and-item-templates)  
   
-  
+ 
