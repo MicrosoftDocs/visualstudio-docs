@@ -217,7 +217,7 @@ After changes have been made in a dataset, you can transmit the changes to a dat
 
  As an illustration of how updates are made, suppose your application uses a dataset that contains a single data table. The application fetches two rows from the database. After the retrieval, the in-memory data table looks like this:
 
-```
+```sql
 (RowState)     CustomerID   Name             Status
 (Unchanged)    c200         Robert Lyon      Good
 (Unchanged)    c400         Nancy Buchanan    Pending
@@ -225,7 +225,7 @@ After changes have been made in a dataset, you can transmit the changes to a dat
 
  Your application changes Nancy Buchanan's status to "Preferred." As a result of this change, the value of the <xref:System.Data.DataRow.RowState%2A> property for that row changes from <xref:System.Data.DataRowState.Unchanged> to <xref:System.Data.DataRowState.Modified>. The value of the <xref:System.Data.DataRow.RowState%2A> property for the first row remains <xref:System.Data.DataRowState.Unchanged>. The data table now looks like this:
 
-```
+```sql
 (RowState)     CustomerID   Name             Status
 (Unchanged)    c200         Robert Lyon      Good
 (Modified)     c400         Nancy Buchanan    Preferred

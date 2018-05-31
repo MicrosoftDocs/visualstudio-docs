@@ -83,7 +83,7 @@ In this section, you'll create two tables, a primary key in each table, and a fe
 
 6.  Name the Customers table by updating the first line in the script pane to match the following sample:
 
-    ```
+    ```sql
     CREATE TABLE [dbo].[Customers]
     ```
 

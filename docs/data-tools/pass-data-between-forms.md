@@ -140,7 +140,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 5.  Add a WHERE clause to the query, to return `Orders` based on the `CustomerID`. The query should be similar to the following:
 
-    ```
+    ```sql
     SELECT OrderID, CustomerID, EmployeeID, OrderDate, RequiredDate, ShippedDate, ShipVia, Freight, ShipName, ShipAddress, ShipCity, ShipRegion, ShipPostalCode, ShipCountry
     FROM Orders
     WHERE CustomerID = @CustomerID
