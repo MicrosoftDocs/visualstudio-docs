@@ -1,6 +1,6 @@
 ---
 title: Advanced features of Visual Studio 2017
-ms.date: 05/25/2018
+ms.date: 06/01/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
@@ -124,10 +124,7 @@ Find [existing extensions](https://marketplace.visualstudio.com/vs) for Visual S
 
 To learn more about extending Visual Studio, see [Extend Visual Studio IDE](https://www.visualstudio.com/vs/extend/).
 
-## Learn more
-
-If you've never used Visual Studio before, look at [Get started developing with Visual Studio](../ide/get-started-developing-with-visual-studio.md), or check out the free Visual Studio courses available on [Microsoft Virtual Academy](https://mva.microsoft.com/product-training/visual-studio-courses#!index=2&lang=1033). If you want to check out the new features in Visual Studio 2017, see [What's new in Visual Studio 2017](../ide/whats-new-in-visual-studio.md).
-
 ## See also
 
 - [Visual Studio IDE overview](../ide/visual-studio-ide.md)
+- [What's new in Visual Studio 2017](../ide/whats-new-in-visual-studio.md)

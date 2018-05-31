@@ -1,6 +1,6 @@
 ---
 title: Overview of Visual Studio 2017
-ms.date: 05/25/2018
+ms.date: 06/01/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
@@ -16,9 +16,11 @@ ms.workload:
 ---
 # Visual Studio IDE overview
 
-The Visual Studio interactive development environment (IDE) is a creative launching pad that you can use to view and edit code, and then debug, build, and publish an app. There are versions available for Mac and Windows.
+The Visual Studio interactive development environment (IDE) is a creative launching pad that you can use to view and edit code, and then debug, build, and publish an app.
 
-This article introduces you to the basic features of the Visual Studio IDE. We'll walk through some things you can do with Visual Studio, including creating a simple project, using IntelliSense as a coding aid, and debugging an app to see the value of a variable "in flight". We'll also take a tour of the various tool windows.
+Visual Studio is available for Windows and Mac. [Visual Studio for Mac](/visualstudio/mac/) has many of the same features as Visual Studio 2017, and is optimized for developing cross-platform and mobile apps.
+
+This article focuses on Visual Studio 2017 for Windows. It introduces you to the basic features of the IDE. We'll walk through some things you can do with Visual Studio, including creating a simple project, using IntelliSense as a coding aid, and debugging an app to see the value of a variable during the program's execution. We'll also take a tour of the various tool windows.
 
 ## Install the Visual Studio IDE
 
@@ -47,7 +49,7 @@ Let's dive in and create a new, simple program.
   > [!NOTE]
   > If you don't see the **.NET Core** category, you need to install the **.NET Core cross-platform development** workload. To do this, choose the **Open Visual Studio Installer** link on the bottom left of the **New Project** dialog. After **Visual Studio Installer** opens, scroll down and select the **.NET Core cross-platform development** workload, and then select **Modify**.
 
-   Shortly, you should see something like the following screenshot:
+   Shortly, you should see something like the following:
 
    ![Visual Studio IDE](../ide/media/overview-ide-console-app.png)
 
@@ -208,10 +210,6 @@ Following are some other common productivity features in Visual Studio:
 
    ![Quick Launch search box](../ide/media/VSIDE_Tour_QuickLaunch.png)
 
-- [Refactoring](../ide/refactoring-in-visual-studio.md) includes operations such as intelligent renaming of variables, moving selected lines of code into a separate function, moving code to other locations, reordering function parameters, and more.
-
-   ![Refactoring](../ide/media/VSIDE_refactor.png)
-
 - [IntelliSense](../ide/using-intellisense.md) is an umbrella term for a set of popular features that display type information about your code directly in the editor and, in some cases, write small bits of code for you. It's like having basic documentation inline in the editor, which saves you from having to look up type information in a separate help window. IntelliSense features vary by language. For more information, see [C# IntelliSense](../ide/visual-csharp-intellisense.md), [Visual C++ IntelliSense](../ide/visual-cpp-intellisense.md), [JavaScript IntelliSense](../ide/javascript-intellisense.md), and [Visual Basic IntelliSense](../ide/visual-basic-specific-intellisense.md). The following illustration shows some IntelliSense features at work:
 
    ![Visual Studio Member List](../ide/media/vs2017_Intellisense.png)
@@ -238,14 +236,15 @@ Following are some other common productivity features in Visual Studio:
 
 ## Learn more
 
-Do you want to create an app for an Android phone? You can do that. How about create a cutting edge game using C++? You can do that too, and much more. Visual Studio provides templates that help you make websites, games, desktop apps, mobile apps, apps for Office, and more. Or, you can simply open some code you get from almost anywhere and get working. See a project on GitHub that you like? Just clone the repository, open it in Visual Studio, and start coding!
+Do you want to create an app for an Android or iOS phone? How about a 3D game, or a cloud-enabled app? To learn about these and other features of Visual Studio, see [Features of Visual Studio 2017](../ide/advanced-feature-overview.md).
 
-To start learning about these and other features of Visual Studio, see [Features of Visual Studio 2017](../ide/advanced-feature-overview.md), or choose one of the Quickstart topics from the table of contents.
+If you're just ready to get started coding now, choose one of the Quickstart topics from the table of contents, such as [Create your first ASP.NET Core web app](quickstart-aspnet-core.md).
+
+You can also check out the free Visual Studio courses available on [Microsoft Virtual Academy](https://mva.microsoft.com/product-training/visual-studio-courses#!index=2&lang=1033)
 
 ## See also
 
-* [Advanced feature tour](../ide/advanced-feature-overview.md)
+* [More Visual Studio features](../ide/advanced-feature-overview.md)
 * [Visual Studio IDE](https://www.visualstudio.com/vs/)
-* [Visual Studio downloads](https://www.visualstudio.com/downloads/)
+* [Visual Studio downloads](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs)
 * [The Visual Studio blog](https://blogs.msdn.microsoft.com/visualstudio/)
-* [Microsoft Virtual Academy](https://mva.microsoft.com/)
