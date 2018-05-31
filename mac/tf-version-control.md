@@ -113,3 +113,11 @@ In Source Control Explorer, press the **Manage Workspaces** Button. Follow the s
 After authenticating you should see the list of projects. By default, only TFS projects to  are shown. To see other types of projects, check the "See all projects" box.
 
 Keep in mind that projects that are on the server will not appear if you don't have the correct privileges.
+
+#### I am getting the error "Cannot create the workspace. Please, try again"
+
+When trying to [create a new workspace](#creating-a-new-workspace), you should make sure the following conditions are met:
+
+- No use of invalid characters in the workspace name.
+- The name must be less than 64 characters.
+- The local path cannot be used by any other workspaces.
