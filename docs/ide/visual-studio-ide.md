@@ -44,7 +44,7 @@ Let's dive in and create a new, simple program.
 
   ![.NET Core app template](../ide/media/overview-new-project-dialog.png)
 
-   Visual Studio creates the project. It's a simple "Hello World" application that calls the <xref:System.Console.WriteLine> method to display the literal string "Hello World!" in the console window.
+   Visual Studio creates the project. It's a simple "Hello World" application that calls the <xref:System.Console.WriteLine?displayProperty=nameWithType> method to display the literal string "Hello World!" in the console window.
 
   > [!NOTE]
   > If you don't see the **.NET Core** category, you need to install the **.NET Core cross-platform development** workload. To do this, choose the **Open Visual Studio Installer** link on the bottom left of the **New Project** dialog. After **Visual Studio Installer** opens, scroll down and select the **.NET Core cross-platform development** workload, and then select **Modify**.
@@ -134,13 +134,13 @@ First, let's rename the `name` variable:
    ```
 
    > [!TIP]
-   > <xref:System.Console.Write%2A> is a little different to <xref:System.Console.WriteLine%2A> in that it doesn't add a line terminator after it prints. That means that the next piece of text that's sent to the output will print on the same line. You can hover over each of these methods in your code to see their description.
+   > <xref:System.Console.Write%2A?displayProperty=nameWithType> is a little different to <xref:System.Console.WriteLine%2A?displayProperty=nameWithType> in that it doesn't add a line terminator after it prints. That means that the next piece of text that's sent to the output will print on the same line. You can hover over each of these methods in your code to see their description.
 
 1. Next, we'll use refactoring again to make the code a little more concise. Click on the variable `now` in the line `DateTime now = DateTime.Now;`.
 
    Notice that a little screwdriver icon appears in the margin on that line.
 
-1. Click the screwdriver icon to see what suggestions Visual Studio has available. In this case, it's showing the [Inline temporary variable](reference/inline-temporary-variable.md) refactoring to remove a line of code without changing its behavior:
+1. Click the screwdriver icon to see what suggestions Visual Studio has available. In this case, it's showing the [Inline temporary variable](reference/inline-temporary-variable.md) refactoring to remove a line of code without changing the overall behavior:
 
    ![Inline temporary variable refactoring in Visual Studio](media/inline-temporary-variable-refactoring.png)
 
@@ -210,10 +210,6 @@ Following are some other common productivity features in Visual Studio:
 
    ![Quick Launch search box](../ide/media/VSIDE_Tour_QuickLaunch.png)
 
-- [IntelliSense](../ide/using-intellisense.md) is an umbrella term for a set of popular features that display type information about your code directly in the editor and, in some cases, write small bits of code for you. It's like having basic documentation inline in the editor, which saves you from having to look up type information in a separate help window. IntelliSense features vary by language. For more information, see [C# IntelliSense](../ide/visual-csharp-intellisense.md), [Visual C++ IntelliSense](../ide/visual-cpp-intellisense.md), [JavaScript IntelliSense](../ide/javascript-intellisense.md), and [Visual Basic IntelliSense](../ide/visual-basic-specific-intellisense.md). The following illustration shows some IntelliSense features at work:
-
-   ![Visual Studio Member List](../ide/media/vs2017_Intellisense.png)
-
 - **Squiggles** are wavy underlines that alert you to errors or potential problems in your code in real time as you type. This enables you to fix them immediately without waiting for the error to be discovered during compilation or run time. If you hover over the squiggle, you see additional information about the error. A light bulb may also appear in the left margin with actions to fix the error. For more information, see [Quick Actions](../ide/quick-actions.md).
 
    ![Squiggles](../ide/media/vs2017_squiggle.png)
@@ -240,11 +236,11 @@ Do you want to create an app for an Android or iOS phone? How about a 3D game, o
 
 If you're just ready to get started coding now, choose one of the Quickstart topics from the table of contents, such as [Create your first ASP.NET Core web app](quickstart-aspnet-core.md).
 
-You can also check out the free Visual Studio courses available on [Microsoft Virtual Academy](https://mva.microsoft.com/product-training/visual-studio-courses#!index=2&lang=1033)
+You can also check out the free Visual Studio courses available on [Microsoft Virtual Academy](https://mva.microsoft.com/product-training/visual-studio-courses#!index=2&lang=1033).
 
 ## See also
 
 * [More Visual Studio features](../ide/advanced-feature-overview.md)
-* [Visual Studio IDE](https://www.visualstudio.com/vs/)
-* [Visual Studio downloads](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs)
+* [www.visualstudio.com](https://www.visualstudio.com/vs/)
 * [The Visual Studio blog](https://blogs.msdn.microsoft.com/visualstudio/)
+* [Visual Studio downloads](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs)

@@ -16,17 +16,11 @@ The [Visual Studio IDE overview](../ide/visual-studio-ide.md) topic gives a basi
 
 ## Modular installation
 
-Visual Studio's modular installer enables you to choose and install *workloads*, which are groups of features needed for the programming language or platform you prefer. This strategy helps to keep the footprint of the Visual Studio installation smaller, which means it installs and updates faster too. In addition to improved installation performance, Visual Studio 2017 also has shorter IDE [startup](optimize-visual-studio-startup-time.md) and solution load times.
+Visual Studio's modular installer enables you to choose and install *workloads*, which are groups of features needed for the programming language or platform you prefer. This strategy helps to keep the footprint of the Visual Studio installation smaller, which means it installs and updates faster too.
 
 If you haven't already, you can download Visual Studio 2017 [here](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs).
 
 To learn more about setting up Visual Studio on your system, see [Install Visual Studio 2017](../install/install-visual-studio.md).
-
-## Create mobile apps
-
-You can create native mobile apps for different platforms by using C# and Xamarin, or Visual C++, or hybrid apps using JavaScript with Apache Cordova. You can write mobile games for Unity, Unreal, DirectX, Cocos, and more. Visual Studio includes an Android emulator to help you run and debug Android apps.
-
-You can leverage the power of the cloud for your mobile apps by creating Azure app services. Azure app services enable your apps to store data on the cloud, securely authenticate users, and automatically scale its resources up or down to accommodate the needs of your app and your business. To learn more, see [Mobile app development](https://www.visualstudio.com/vs/mobile-app-development/).
 
 ## Create cloud-enabled apps for Azure
 
@@ -62,7 +56,7 @@ For more information, see [Modern web tooling](https://www.visualstudio.com/vs/m
 
 ## Build cross-platform apps and games
 
-You can use Visual Studio to build apps and games for macOS, Linux, and Windows, as well as for Android, iOS, and other mobile devices.
+You can use Visual Studio to build apps and games for macOS, Linux, and Windows, as well as for Android, iOS, and other [mobile devices](https://www.visualstudio.com/vs/mobile-app-development/).
 
 - Build [.NET Core](/dotnet/core/) apps that run on Windows, macOS and Linux.
 
@@ -76,8 +70,6 @@ You can use Visual Studio to build apps and games for macOS, Linux, and Windows,
 
 - Deploy, test, and debug Android apps with the [Android emulator](../cross-platform/visual-studio-emulator-for-android.md).
 
-Visual Studio can do help you do many more things. For a more complete list, see [www.visualstudio.com](https://www.visualstudio.com/vs/).
-
 ## Connect to databases
 
 **Server Explorer** helps you browse and manage SQL Server instances and assets locally, remotely, and on Azure, Salesforce.com, Office 365, and websites. To open **Server Explorer**, on the main menu, choose **View** > **Server Explorer**. See [Add new connections](../data-tools/add-new-connections.md) for more information on using Server Explorer.
@@ -90,9 +82,11 @@ Visual Studio can do help you do many more things. For a more complete list, see
 
 ## Debug, test, and improve your code
 
-Nothing runs perfectly all the time. When you write code, you need to run it and test it for bugs and performance. Visual Studio's cutting-edge debugging system enables you to debug code running in your local project, on a remote device, or on an emulator such as [the one for Android devices](../cross-platform/visual-studio-emulator-for-android.md). You can step through code one statement at a time and inspect variables as you go. You can set breakpoints that are only hit when a specified condition is true. You can monitor the values of variables as the code runs, and more. All of this can be managed in the code editor itself, so that you don't have to leave your code. To get more details about debugging in Visual Studio, see [Debugger feature tour](../debugger/debugger-feature-tour.md).
+When you write code, you need to run it and test it for bugs and performance. Visual Studio's cutting-edge debugging system enables you to debug code running in your local project, on a remote device, or on a [device emulator](../cross-platform/visual-studio-emulator-for-android.md). You can step through code one statement at a time and inspect variables as you go. You can set breakpoints that are only hit when a specified condition is true. All of this can be managed in the code editor itself, so that you don't have to leave your code. To get more details about debugging in Visual Studio, see [Debugger feature tour](../debugger/debugger-feature-tour.md).
 
-For testing, Visual Studio offers unit testing, IntelliTest, load and performance testing, and more. To learn more about testing, see [Testing tools and scenarios](../test/developer-testing-scenarios.md). To learn more about improving the performance of your apps, see [Profiling feature tour](../profiling/profiling-feature-tour.md).
+To learn more about improving the performance of your apps, checkout out Visual Studio's [profiling](../profiling/profiling-feature-tour.md) feature.
+
+For [testing](../test/improve-code-quality.md), Visual Studio offers unit testing, Live Unit Testing, IntelliTest, load and performance testing, and more. Visual Studio also has advanced [code analysis](../code-quality/code-analysis-for-managed-code-overview.md) capabilities to catch design, security, and other types of flaws.
 
 ## Deploy your finished application
 
