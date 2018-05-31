@@ -1,5 +1,5 @@
 ---
-title: "Office UI Customization | Microsoft Docs"
+title: "Office UI customization"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 

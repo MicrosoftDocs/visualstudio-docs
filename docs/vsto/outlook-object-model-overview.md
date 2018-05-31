@@ -59,7 +59,7 @@ ms.workload:
   
 -   The <xref:Microsoft.Office.Interop.Outlook._Application.Inspectors%2A> property, which you can use to access the windows that display the contents of a single item, such as an e-mail message or meeting request.  
   
- To get an instance of the <xref:Microsoft.Office.Interop.Outlook.Application> object, use the Application field of the `ThisAddIn` class in your project. For more information, see [Program VSTO add-ins](../vsto/programming-vsto-add-ins.md).  
+ To get an instance of the <xref:Microsoft.Office.Interop.Outlook.Application> object, use the Application field of the `ThisAddIn` class in your project. For more information, see [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md).  
   
 > [!NOTE]  
 >  To help avoid security warnings when you use properties and methods that are blocked by the Outlook object model guard, get Outlook objects from the Application field of the `ThisAddIn` class. For more information, see [Specific security considerations for Office solutions](../vsto/specific-security-considerations-for-office-solutions.md).  

@@ -249,7 +249,7 @@ urlpatterns = [
 ]
 ```
 
-If you're not familiar with the more complex regular expressions used here, you can paste the expression into [regex101.com](https://regex101.com/) for an explanation in plain language. (You'll need to escape the forward slashes `/` by adding a back slash, `\`h before them; escaping isn't necessary in Python because of the `r` prefix on the string, meaning "raw").
+If you're not familiar with the more complex regular expressions used here, you can paste the expression into [regex101.com](https://regex101.com/) for an explanation in plain language. (You'll need to escape the forward slashes `/` by adding a back slash, `\` before them; escaping isn't necessary in Python because of the `r` prefix on the string, meaning "raw").
 
 In Django, the syntax `?P<name>pattern` creates a group named `name`, which gets passed as arguments to views in the order they appear. In the code shown earlier, `PollsDetailView` and `PollsResultsView` receive an argument named `pk` and `app.views.vote` receives an argument named `poll_id`.
 

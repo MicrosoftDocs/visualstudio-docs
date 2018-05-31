@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Office is not installed on this computer | Microsoft Docs"
+title: "Microsoft Office is not installed on this computer"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
