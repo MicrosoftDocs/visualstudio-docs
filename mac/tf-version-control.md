@@ -114,7 +114,7 @@ After authenticating you should see the list of projects. By default, only TFS p
 
 Keep in mind that projects that are on the server will not appear if you don't have the correct privileges.
 
-## I am getting the error "Cannot create the workspace. Please, try again"
+#### I am getting the error "Cannot create the workspace. Please, try again"
 
 When trying to [create a new workspace](#creating-a-new-workspace), you should make sure the following conditions are met:
 
