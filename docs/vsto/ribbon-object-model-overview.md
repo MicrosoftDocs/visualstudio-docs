@@ -101,7 +101,7 @@ ms.workload:
   
  For more information, see [Properties that become read-only](#ReadOnlyProperties).  
   
-### Set properties in the constructor of the Ribbon  
+### Set properties in the constructor of the ribbon  
  You can set the properties of a `Ribbon` control in the constructor of the **Ribbon** class. This code must appear after the call to the `InitializeComponent` method. The following example adds a new button to a group if the current time is 17:00 Pacific Time (UTC-8) or later.  
   
  Add the following code.  
@@ -124,7 +124,7 @@ ms.workload:
  [!code-csharp[Trin_Ribbon_ObjectModel#2](../vsto/codesnippet/CSharp/trin_Ribbon_objectmodel_dotnet4/ThisWorkbook.cs#2)]  
   
 ###  <a name="ReadOnlyProperties"></a> Properties that become read-only  
- The following table shows properties that can only be set before the Ribbon loads.  
+ The following table shows properties that can only be set before the ribbon loads.  
   
 > [!NOTE]  
 >  You can set the properties of controls on dynamic menus at any time. This table does not apply in that case.  

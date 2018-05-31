@@ -23,7 +23,7 @@ ms.workload:
   - "office"
 ---
 # Ribbon overview
-  The Ribbon is a way to organize related commands so that they are easier to find. Commands appear as controls on the Ribbon. Controls are organized into *groups* along a horizontal strip at the top edge of an application window. Related groups are organized on tabs.  
+  The ribbon is a way to organize related commands so that they are easier to find. Commands appear as controls on the ribbon. Controls are organized into *groups* along a horizontal strip at the top edge of an application window. Related groups are organized on tabs.  
   
  Most of the features that were accessed by using menus and toolbars in earlier versions of the Microsoft Office system can now be accessed by using the ribbon. For more information, see the technical article [Developer overview of the user interface for the 2007 Microsoft Office system](http://go.microsoft.com/fwlink/?LinkID=70860).  
   
@@ -118,7 +118,7 @@ ms.workload:
 |[Ribbon designer](../vsto/ribbon-designer.md)|Describes how you can use the Ribbon Designer to add custom tabs, groups, and controls to the ribbon of a Microsoft Office application.|  
 |[Walkthrough: Create a custom tab by using the Ribbon Designer](../vsto/walkthrough-creating-a-custom-tab-by-using-the-ribbon-designer.md)|Shows you how to create a custom Ribbon tab by using the Ribbon Designer. You can use the Ribbon Designer to add and position controls on the custom tab.|  
 |[Ribbon object model overview](../vsto/ribbon-object-model-overview.md)|Provides an overview of the strongly typed object model that you can use to get and set the properties of Ribbon controls at runtime.|  
-|[Walkthrough: Update the controls on a ribbon at runtime](../vsto/walkthrough-updating-the-controls-on-a-ribbon-at-run-time.md)|Demonstrates how to use the Ribbon object model to update the controls on a ribbon after the Ribbon is loaded into the Office application.|  
+|[Walkthrough: Update the controls on a ribbon at runtime](../vsto/walkthrough-updating-the-controls-on-a-ribbon-at-run-time.md)|Demonstrates how to use the Ribbon object model to update the controls on a ribbon after the ribbon is loaded into the Office application.|  
 |[Customize a ribbon for Outlook](../vsto/customizing-a-ribbon-for-outlook.md)|Provides guidance for customizing the ribbon in Microsoft Office Outlook.|  
 |[Customize a ribbon for InfoPath](../vsto/customizing-a-ribbon-for-infopath.md)|Provides guidance for customizing the ribbon in Microsoft Office InfoPath.|  
 |[Access the ribbon at runtime](../vsto/accessing-the-ribbon-at-run-time.md)|Shows how to show, hide, and modify the ribbon, and enable users to run the code from controls in a custom task pane, actions pane, or Outlook form region.|  

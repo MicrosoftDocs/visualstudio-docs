@@ -96,7 +96,7 @@ ms.workload:
 ```xml  
 <?xml version="1.0" encoding="UTF-8"?>  
 <customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" onLoad="OnLoad">  
-  <Ribbon>  
+  <ribbon>  
     <tabs>  
       <tab idMso="TabAddIns">  
         <group id="MyGroup"  
@@ -104,7 +104,7 @@ ms.workload:
         </group>  
       </tab>  
     </tabs>  
-  </Ribbon>  
+  </ribbon>  
 </customUI>  
 ```  
   
@@ -113,7 +113,7 @@ ms.workload:
 |Element|Description|  
 |-------------|-----------------|  
 |**customUI**|Represents the custom ribbon in the VSTO Add-in project.|  
-|**Ribbon**|Represents the ribbon.|  
+|**ribbon**|Represents the ribbon.|  
 |**tabs**|Represents a set of Ribbon tabs.|  
 |**tab**|Represents a single Ribbon tab.|  
 |**group**|Represents a group of controls on the Ribbon tab.|  
