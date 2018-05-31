@@ -94,7 +94,7 @@ The **XSL Output** window displays the output of the XSL transformation. This wi
 
 The following two files are used by the walkthrough.
 
-### *belowAvg.xsl*
+### belowAvg.xsl
 
 ```xml
 <?xml version='1.0'?>
@@ -117,7 +117,7 @@ The following two files are used by the walkthrough.
 </xsl:stylesheet>
 ```
 
-### *books.xml*
+### books.xml
 
 ```xml
 <?xml version='1.0'?>

@@ -73,6 +73,6 @@ This topic describes the options that are available through the **Sorting, Filte
 
  The **Document Order** option is available when the **Show Schema Files** option is selected. When **Document Order** is selected, global nodes are displayed in the order in which they appear in the schema file.
 
-## Persisting sort/Filter options
+## Persisting sort/filter options
 
  The sorting, filtering, and grouping options are saved to the registry for each user, no matter which solution or files were open when the settings were changed.

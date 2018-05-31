@@ -11,7 +11,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Walkthrough: Using XML editor features
+# Walkthrough: Use XML editor features
 
 The steps in this walkthrough show you how to create a new XML document. The walkthrough also uses some of the features of the XML Editor that make it valuable for XML authoring.
 
@@ -66,7 +66,7 @@ The steps in this walkthrough show you how to create a new XML document. The wal
 
 5.  Type `>` to close the tag.
 
-6.  The editor adds the end tag. The end tag is added with a wavy underline indicating a validation error. The **ToolTip** displays the message: The element 'employee' has incomplete content. Expected 'ID'.
+6.  The editor adds the end tag. The end tag is added with a wavy underline indicating a validation error. The **ToolTip** displays the message: **The element 'employee' has incomplete content. Expected 'ID'**.
 
 7.  Type `<` and select **ID** from the member list. Then type `>`.
 
@@ -74,7 +74,7 @@ The steps in this walkthrough show you how to create a new XML document. The wal
 
 8.  Type **abc**.
 
-     The **abc** text has a wavy underline. The **ToolTip** displays the message: The 'ID' element has an invalid value according to its data type.
+     The **abc** text has a wavy underline. The **ToolTip** displays the message: **The 'ID' element has an invalid value according to its data type**.
 
 9. Right-click on the ID element and select **Go To Definition**.
 
@@ -82,7 +82,7 @@ The steps in this walkthrough show you how to create a new XML document. The wal
 
 10. Return to the XML file, and replace the **abc** text with **123**.
 
-     The wavy underline and **ToolTip** are cleared under the ID element value. The **ToolTip** for the employee end tag now displays the message: The element 'employee' has incomplete content. Expected 'hire-date'.
+     The wavy underline and **ToolTip** are cleared under the ID element value. The **ToolTip** for the employee end tag now displays the message: **The element 'employee' has incomplete content. Expected 'hire-date'**.
 
 11. Place the cursor after the ID end tag, type in `<`, select **hire-date** from the member list, and then type in `>`.
 
@@ -104,7 +104,7 @@ The steps in this walkthrough show you how to create a new XML document. The wal
 
 2.  Enter the file name and location for the XML document and click **Save**.
 
-## *hireDate.xsd* file
+## hireDate.xsd file
  The following schema file is used by the walkthrough.
 
 ```xml
