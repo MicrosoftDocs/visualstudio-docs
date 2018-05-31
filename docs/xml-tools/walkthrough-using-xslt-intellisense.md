@@ -41,7 +41,7 @@ This walkthrough demonstrates how to use XSLT IntelliSense to auto-complete valu
     </xsl:stylesheet>
     ```
 
-2.  Insert your cursor after `<xsl:template name="msg23" match="msg23">` and press ENTER. Then start typing the following `xsl:call-template` element:
+2.  Insert your cursor after `<xsl:template name="msg23" match="msg23">` and press **Enter**. Then start typing the following `xsl:call-template` element:
 
     ```xml
     <xsl:call-template name="localized-message">
@@ -50,7 +50,7 @@ This walkthrough demonstrates how to use XSLT IntelliSense to auto-complete valu
 
      The list of template names appears in the `name=""` attribute of the `xsl:call-template` element as you type.
 
-3.  Insert your cursor after `<xsl:call-template name="localized-message">` and press ENTER. Then start typing the following `xsl:with-param` element:
+3.  Insert your cursor after `<xsl:call-template name="localized-message">` and press **Enter**. Then start typing the following `xsl:with-param` element:
 
     ```xml
     <xsl:with-param name="msgcode">msg23</xsl:with-param>
@@ -107,7 +107,7 @@ This walkthrough demonstrates how to use XSLT IntelliSense to auto-complete valu
     </xsl:stylesheet>
     ```
 
-2.  Insert your cursor  after `<xsl:apply-templates select="phone" />` and press ENTER. Then start typing the following `xsl: apply-templates` element:
+2.  Insert your cursor  after `<xsl:apply-templates select="phone" />` and press **Enter**. Then start typing the following `xsl: apply-templates` element:
 
     ```xml
     <xsl:apply-templates select="phone"  mode="accountNumber">
@@ -148,7 +148,7 @@ This walkthrough demonstrates how to use XSLT IntelliSense to auto-complete valu
     </xsl:stylesheet>
     ```
 
-2.  Insert your cursor after `<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:alt="http://www.w3.org/1999/XSL/Transform-alternate" version="1.0">` and press ENTER. Then start typing the following `xsl:namespace-alias` element:
+2.  Insert your cursor after `<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:alt="http://www.w3.org/1999/XSL/Transform-alternate" version="1.0">` and press **Enter**. Then start typing the following `xsl:namespace-alias` element:
 
     ```xml
     <xsl:namespace-alias stylesheet-prefix="alt" result-prefix="xsl"/>
@@ -158,4 +158,4 @@ This walkthrough demonstrates how to use XSLT IntelliSense to auto-complete valu
 
 ## See also
 
-- [XML Editor IntelliSense Features](../xml-tools/xml-editor-intellisense-features.md)
+- [XML Editor IntelliSense features](../xml-tools/xml-editor-intellisense-features.md)

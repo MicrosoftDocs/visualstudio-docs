@@ -353,16 +353,14 @@
         href: how-to-delete-load-test-results-from-a-repository.md
     - name: Create an add-in for the results viewer
       href: how-to-create-an-add-in-for-the-web-performance-test-results-viewer.md
-- name: Use UI automation to test your code
+- name: UI test automation
   href: use-ui-automation-to-test-your-code.md
   items:
-  - name: "Walkthrough: Creating, Editing and Maintaining a Coded UI Test"
+  - name: "Walkthrough: Create, Edit and Maintain a Coded UI Test"
     href: walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md
-  - name: Test Windows UWP Apps with Coded UI Tests
-    href: test-windows-store-8-1-apps-with-coded-ui-tests.md
-  - name: Test Windows UWP and 8.1 Phone Apps with Coded UI Tests
-    href: test-windows-phone-8-1-apps-with-coded-ui-tests.md
-  - name: Set a Unique Automation Property for UWP Controls for Testing
+  - name: Test UWP Apps with Coded UI Tests
+    href: test-uwp-app-with-coded-ui-test.md
+  - name: Set a Unique Automation Property for UWP Controls
     href: set-a-unique-automation-property-for-windows-store-controls-for-testing.md
   - name: Use HTML5 Controls in Coded UI Tests
     href: using-html5-controls-in-coded-ui-tests.md
@@ -370,7 +368,7 @@
     href: testing-sharepoint-2010-applications-with-coded-ui-tests.md
   - name: Create a Data-Driven Coded UI Test
     href: creating-a-data-driven-coded-ui-test.md
-  - name: Make Coded UI Tests Wait For Specific Events During Playback
+  - name: Wait For Specific Events During Playback
     href: making-coded-ui-tests-wait-for-specific-events-during-playback.md
   - name: Use Different Web Browsers with Coded UI Tests
     href: using-different-web-browsers-with-coded-ui-tests.md
@@ -386,28 +384,10 @@
     href: testing-a-large-application-with-multiple-ui-maps.md
   - name: Enable Coded UI Testing of Your Controls
     href: enable-coded-ui-testing-of-your-controls.md
-  - name: Supported Configurations and Platforms for Coded UI Tests and Action Recordings
+  - name: Supported Configurations and Platforms
     href: supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md
-  - name: Extend Coded UI Tests and Action Recordings to Support Microsoft Excel
+  - name: Extend the Coded UI Test Framework
     href: extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel.md
-    items:
-    - name: Sample Excel Add-In for Coded UI Testing
-      href: sample-excel-add-in-for-coded-ui-testing.md
-    - name: Sample Excel Communicator Interface
-      href: sample-excel-communicator-interface.md
-    - name: Sample Coded UI Test Extension for Excel
-      href: sample-coded-ui-test-extension-for-excel.md
-      items:
-      - name: "Sample Excel Extension: ExtensionPackage Class"
-        href: sample-excel-extension-extensionpackage-class.md
-      - name: "Sample Excel Extension: TechnologyManager Class"
-        href: sample-excel-extension-technologymanager-class.md
-      - name: "Sample Excel Extension: PropertyProvider Class"
-        href: sample-excel-extension-propertyprovider-class.md
-      - name: "Sample Excel Extension: Element Classes"
-        href: sample-excel-extension-element-classes.md
-      - name: "Sample Excel Extension: ActionFilter Class"
-        href: sample-excel-extension-actionfilter-class.md
 - name: Test lab management
   href: lab-management/using-a-lab-environment-for-your-application-lifecycle.md
   items:

@@ -21,14 +21,14 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Creating Pages for SharePoint
+# Creating pages for SharePoint
   You can create application pages, site pages, master pages and page layouts for a SharePoint site.  
   
  You can create application pages by using a template in Visual Studio. Create site pages, master pages, and page layouts, by using SharePoint Designer. Then, you can import these pages into Visual Studio to use them in a SharePoint project.  
   
  You can also modify the appearance and behavior of pages by using cascading style sheets, ECMAScript, and themes.  
   
-## Types of SharePoint Pages  
+## Types of SharePoint pages
  The following table describes the four main types of pages that a SharePoint site contains.  
   
 |Page Type|Description|  
@@ -40,29 +40,28 @@ ms.workload:
   
  For an overview of each type of page, see [Building Block: Pages and the User Interface](http://go.microsoft.com/fwlink/?LinkID=182095), and [Page Layouts and Master Pages](http://go.microsoft.com/fwlink/?LinkID=182096).  
   
-## Creating Application Pages  
+## Create application pages
  You can create application pages in Visual Studio by adding an **Application Page** item to a SharePoint project. You can add controls to the page, and then handle control events by adding code.  
   
  You can set breakpoints in the code file of the page, start the debugger, and test the page on a local SharePoint site without performing any additional configuration steps. For more information, see [Creating Application Pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md).  
   
-## Creating Site Pages, Master Pages, and Page Layouts  
+## Create site pages, master pages, and page layouts
  You can create site pages, master pages, and page layouts by using SharePoint Designer. Then, you can import these pages into Visual Studio. Import your pages if you want to take advantage of the deployment or source control features that are available in Visual Studio. For more information, see [Importing Items from an Existing SharePoint Site](../sharepoint/importing-items-from-an-existing-sharepoint-site.md).  
   
  Because it is difficult to modify these pages after you import them, you should design these pages before you import them.  
   
-## Creating Cascading Style Sheets, ECMAScript, and Themes  
+## Create cascading style sheets, ECMAScript, and themes
  Visual Studio does not provide templates for developing Cascading Style Sheets (CSS), ECMAScript (JavaScript, JScript), or theme files for SharePoint sites. You can create these files by using the guidance available in the SharePoint SDK or by using tools such as SharePoint Designer.  
   
  You can add these files to your solution directly or you can import them. In either case, you must create the appropriate mapped folders for each item that you add. For more information about how to create a mapped folder, see [How to: Add and Remove Mapped Folders](../sharepoint/how-to-add-and-remove-mapped-folders.md).  
   
  For more information about creating Cascading Style Sheets, see [Cascading Style Sheets Class Usage in SharePoint Foundation](http://go.microsoft.com/fwlink/?LinkID=182098). For more information about creating JavaScript and JScript files for a SharePoint solution, see [Setting Up a Basic ASPX Page for ECMAScript](http://go.microsoft.com/fwlink/?LinkID=182099). For more information about themes, see [Building Block: Pages and the User Interface](http://go.microsoft.com/fwlink/?LinkID=182095).  
   
-## Related Topics  
+## Related topics
   
 |Title|Description|  
 |-----------|-----------------|  
 |[Creating Application Pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md)|Describes how to add applications pages: .aspx content that is merged with a SharePoint master page.|  
 |[How to: Create an Application Page](../sharepoint/how-to-create-an-application-page.md)|Shows you how to create ASP.NET pages that run on a SharePoint site.|  
 |[Walkthrough: Creating a SharePoint Application Page](../sharepoint/walkthrough-creating-a-sharepoint-application-page.md)|Shows you how to design and debug an ASP.NET Web page for a SharePoint site.|  
-  
   

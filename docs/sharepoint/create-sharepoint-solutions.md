@@ -18,7 +18,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Create SharePoint Solutions
+# Create SharePoint solutions
   You can create SharePoint applications in Visual Studio as an alternative to creating them in SharePoint Designer. Visual Studio promotes rapid SharePoint development by providing such features as advanced debugging tools, IntelliSense, statement completion, and project templates. Visual Studio also takes advantage of advanced .NET Framework-based tools and languages. You can develop SharePoint projects by using either Visual Basic or Visual C#, and you can develop app for SharePoint projects by using JavaScript.  
   
  For information about SharePoint 2013 and SharePoint add-ins, see [SharePoint 2013](http://msdn.microsoft.com/library/jj162979.aspx) and [Build apps for SharePoint](http://msdn.microsoft.com/library/office/apps/jj163230%28v=office.15%29.aspx).  
@@ -40,4 +40,4 @@ ms.workload:
 |![MSDN Developer Center](../sharepoint/media/vs-icon-msdndevcenter.gif "MSDN Developer Center")|**MSDN Developer Centers**<br /><br /> -   [Visual Studio Development Center](http://msdn.microsoft.com/vstudio/default.aspx)<br />-   [SharePoint Developer Center](http://msdn.microsoft.com/sharepoint/default.aspx)<br />-   [SharePoint Server Developer Center](http://msdn.microsoft.com/office/aa905503.aspx)<br />-   [SharePoint Designer Developer Center](http://msdn.microsoft.com/office/bb421303.aspx)<br />-   [ASP.NET Developer Center](http://msdn.microsoft.com/aa336522.aspx)|  
 |![Providing Feedback](../sharepoint/media/vs-icon-feedback.gif "Providing Feedback")|**Providing Feedback**<br /><br /> Provide feedback about Visual Studio:<br /><br /> -   [Microsoft Connect](http://go.microsoft.com/fwlink/?LinkID=150463)<br /><br /> Provide feedback about the documentation for Visual Studio:<br /><br /> -   **Lightweight View.** If you are at the top of any topic, you can choose the **Rate this topic** link to jump to the bottom of that topic, where you can specify **Yes** or **No** in response to **Did you find this helpful?** You can then select one or more of the check boxes that appear if you chose **No**, provide more information in the text box, or both. When you finish, choose the **Submit** button.<br />-   **Scriptfree View.** At the top of the topic, choose the **Feedback** link to provide feedback in the MSDN, TechNet and Expression Library Feedback forum.<br />-   **Classic View.** At the top of the topic, choose the **Click to Rate and Give Feedback** icons to provide feedback about the topic to the documentation team.|  
   
-  
+ 
