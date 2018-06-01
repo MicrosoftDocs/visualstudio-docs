@@ -29,7 +29,7 @@ This topic describes how to use the [Graph View](../xml-tools/graph-view.md) to 
 
 6.  Select **Schema Set** node in the **XML Schema Explorer** and drag the node to design suface of the Graph View. You should see all the global nodes, and arrows connecting the nodes that have relationships.
 
-     ![Graph View](../xml-tools/media/relationshipingraphview.gif)
+     ![Graph View](../xml-tools/media/relationshipingraphview.gif "RelationshipInGraphView")
 
 7.  Click on any node on the design surface and look at the breadcrumb bar to see where the selected node is located in the schema set.
 

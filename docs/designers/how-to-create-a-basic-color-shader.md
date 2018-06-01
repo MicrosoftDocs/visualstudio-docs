@@ -36,7 +36,7 @@ The following illustration shows the completed shader graph and a preview of the
 > [!NOTE]
 > In the illustration, an orange color was specified to better demonstrate the effect of the shader.
 
-![Shader graph and its result on a 3&#45;D model](../designers/media/digit-flat-color-effect.png)
+![Shader graph and its result on a 3&#45;D model](../designers/media/digit-flat-color-effect.png "Digit-Flat-Color-Effect")
 
 Certain shapes might provide better previews for some shaders. For more information about how to preview shaders in the Shader Designer, see [Shader Designer](../designers/shader-designer.md).
 

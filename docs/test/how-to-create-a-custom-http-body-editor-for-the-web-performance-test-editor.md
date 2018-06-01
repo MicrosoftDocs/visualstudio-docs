@@ -47,7 +47,7 @@ These interfaces are contained in the <xref:Microsoft.VisualStudio.TestTools.Web
 
 5.  From the **Toolbox**, under the **Common Controls** category, drag a <xref:System.Windows.Forms.RichTextBox> onto the surface of UserControl1.
 
-6.  Choose the action tag glyph (![Smart Tag Glyph](../test/media/vs_winformsmttagglyph.gif)) on the upper-right corner of the <xref:System.Windows.Forms.RichTextBox> control, and then select and **Dock in Parent Container**.
+6.  Choose the action tag glyph (![Smart Tag Glyph](../test/media/vs_winformsmttagglyph.gif "VS_WinFormSmtTagGlyph")) on the upper-right corner of the <xref:System.Windows.Forms.RichTextBox> control, and then select and **Dock in Parent Container**.
 
 7.  In Solution Explorer, right-click the Windows Forms Library project and select **Properties**.
 

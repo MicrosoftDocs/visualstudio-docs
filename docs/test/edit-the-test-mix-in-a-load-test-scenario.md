@@ -31,7 +31,7 @@ When you create a new scenario by using the New Load Test Wizard, you can specif
 
 You can add more Web performance and unit tests to the text mix of the scenario by using the Load Test Editor.
 
-![Adding a test to an existing load test](../test/media/ltest_addingtests.png)
+![Adding a test to an existing load test](../test/media/ltest_addingtests.png "LTest_AddingTests")
 
 ### To add more tests to an existing scenario
 
@@ -50,7 +50,7 @@ You can add more Web performance and unit tests to the text mix of the scenario 
 5.  (Optional) Adjust the mix control to specify the test distribution. For more information, see [About the Mix Control](../test/edit-the-test-mix-to-specify-which-web-browsers-types-in-a-load-test-scenario.md).
 
 ##  <a name="EditingTestMixRemoveTest"></a> Removing Tests from a Scenario
- ![Removing a test from an existing load test](../test/media/ltest_removetest.png)
+ ![Removing a test from an existing load test](../test/media/ltest_removetest.png "LTest_RemoveTest")
 
 ### To remove tests from a scenario
 

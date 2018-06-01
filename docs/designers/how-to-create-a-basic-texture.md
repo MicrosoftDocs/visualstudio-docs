@@ -31,7 +31,7 @@ This document demonstrates how to use the Image Editor to create a basic texture
 
  The following steps show how to create a texture that represents a "bullseye" target.When you are finished, the texture should look like the following picture. To better demonstrate the transparency in the texture, the Image Editor has been configured to use a green, checkered pattern to display it.
 
- !["Bullseye" target with transparency shown in green](../designers/media/digit-bullseye-texture-in-editor.png)
+ !["Bullseye" target with transparency shown in green](../designers/media/digit-bullseye-texture-in-editor.png "Digit-Bullseye-Texture-In-Editor")
 
  Before you begin, make sure that the **Properties** window is displayed. You use the **Properties** window to set the image size, change tool properties, and specify colors while you work.
 
@@ -79,7 +79,7 @@ This document demonstrates how to use the Image Editor to create a basic texture
 
  The "bullseye" target texture is complete. Here's the final image, shown with transparency.
 
- ![The complete "bullseye" target texture](../designers/media/gfx_image_demo_bullseye.png)
+ ![The complete "bullseye" target texture](../designers/media/gfx_image_demo_bullseye.png "gfx_image_demo_bullseye")
 
  As a next step, you can generate MIP levels for this texture. For information, see [How to: Create and Modify MIP Levels](../designers/how-to-create-and-modify-mip-levels.md).
 

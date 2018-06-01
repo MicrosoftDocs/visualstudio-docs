@@ -47,11 +47,11 @@ To facilitate creating larger, more complicated workflows, .NET Framework 4.5 al
 
    The annotation is displayed in the activity's designer. In the screenshot below, the annotation "Starting activity in the workflow" is displayed in the activity's designer.
 
-   ![Annotation shown in the activity designer](../workflow-designer/media/annotationindesigner.png)
+   ![Annotation shown in the activity designer](../workflow-designer/media/annotationindesigner.png "AnnotationInDesigner")
 
 1. To display the annotation outside the activity's designer, hover over the annotation area in the activity's designer and click the **Unpin** icon
 
-   ![Annotation displayed outside an activity's designe](../workflow-designer/media/annotationoutsidedesigner.png)
+   ![Annotation displayed outside an activity's designe](../workflow-designer/media/annotationoutsidedesigner.png "AnnotationOutsideDesigner")
 
 ## Showing or hiding all annotations
 

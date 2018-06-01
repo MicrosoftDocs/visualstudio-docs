@@ -6,7 +6,7 @@ ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.author: gewarren
 manager: douge
-ms.workload:
+ms.workload: 
   - "multiple"
 author: gewarren
 ---
@@ -14,22 +14,22 @@ author: gewarren
 
 Implement support for the coded UI testing framework to make your control more testable. You can add increasing levels of support incrementally. Start by supporting record and playback and property validation. Then, build on that to enable the coded UI test builder to recognize your control's custom properties. Provide custom classes to access those properties from generated code. You can also help the coded UI test builder capture actions in a way that is closer to the intent of the action being recorded.
 
-![CUIT&#95;Full](../test/media/cuit_full.png)
+![CUIT&#95;Full](../test/media/cuit_full.png "CUIT_Full")
 
 ## Support record and playback and property validation by implementing accessibility
 
 The coded UI test builder captures information about the controls that it encounters during a recording and then generates code to replay that session. If your control doesn't support accessibility, then the coded UI test builder captures actions (like mouse clicks) using screen coordinates. When the test is played back, the generated code issues the actions in the same screen coordinates. If your control appears in a different place on the screen when the test is played back, the generated code will fail to perform the action. By not implementing accessibility for your control, you might see test failures if the test is played back on different screen configurations, in different environments, or when the UI layout changes.
 
- ![CUIT&#95;RecordNoSupport](../test/media/cuit_recordnosupport.png)
+ ![CUIT&#95;RecordNoSupport](../test/media/cuit_recordnosupport.png "CUIT_RecordNoSupport")
 
  If you implement accessibility, the coded UI test builder uses that to capture information about your control when it records a test. Then, when you run the test, the generated code will replay those events against your control, even if it's somewhere else in the user interface. Test authors can also create asserts using the basic properties of your control.
 
- ![CUIT&#95;Record](../test/media/cuit_record.png)
+ ![CUIT&#95;Record](../test/media/cuit_record.png "CUIT_Record")
 
 ### To support record and playback, property validation, and navigation for a Windows Forms control
  Implement accessibility for your control as outlined in the following procedure, and explained in detail in <xref:System.Windows.Forms.AccessibleObject>.
 
- ![CUIT&#95;Accessible](../test/media/cuit_accessible.png)
+ ![CUIT&#95;Accessible](../test/media/cuit_accessible.png "CUIT_Accessible")
 
 1.  Implement a class that derives from <xref:System.Windows.Forms.Control.ControlAccessibleObject>, and override the <xref:System.Windows.Forms.Control.AccessibilityObject%2A> property to return an object of your class.
 
@@ -69,11 +69,11 @@ The coded UI test builder captures information about the controls that it encoun
 
 After you implement basic support for record and playback and property validation, you can make your control's custom properties available to coded UI tests by implementing a <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider> plug-in. For example, the following procedure creates a property provider that allows coded UI tests to access the State property of the chart control's CurveLegend child controls:
 
- ![CUIT&#95;CustomProps](../test/media/cuit_customprops.png)
+ ![CUIT&#95;CustomProps](../test/media/cuit_customprops.png "CUIT_CustomProps")
 
 ### To support custom property validation
 
-![CUIT&#95;Props](../test/media/cuit_props.png)
+![CUIT&#95;Props](../test/media/cuit_props.png "CUIT_Props")
 
 1. Override the curve legend accessible object's <xref:System.Windows.Forms.AccessibleObject.Description%2A> property to pass rich property values in the description string. Separate multiple values with semicolons (;).
 
@@ -141,7 +141,7 @@ If you've implemented a property provider to provide access to your control's cu
 
 ### To add a specialized class to access your control
 
-![CUIT&#95;CodeGen](../test/media/cuit_codegen.png)
+![CUIT&#95;CodeGen](../test/media/cuit_codegen.png "CUIT_CodeGen")
 
 1. Implement a class that's derived from <xref:Microsoft.VisualStudio.TestTools.UITesting.WinControls.WinControl> and add the control's type to the search properties collection in the constructor.
 
@@ -157,7 +157,7 @@ If you've implemented a property provider to provide access to your control's cu
 
 ### To support intent-aware actions
 
-![CUIT&#95;Actions](../test/media/cuit_actions.png)
+![CUIT&#95;Actions](../test/media/cuit_actions.png "CUIT_Actions")
 
 1. Implement an action filter class that's derived from <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter>, overriding the properties <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.ApplyTimeout%2A>, <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.Category%2A>, <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.Enabled%2A>, <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.FilterType%2A>, <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.Group%2A> and <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.Name%2A>.
 

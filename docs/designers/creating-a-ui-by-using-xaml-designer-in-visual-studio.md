@@ -29,7 +29,7 @@ The XAML Designer in Visual Studio provides a visual interface to help you desig
 
  In Design view, the window containing the *artboard* is the active window and you can use it as a primary work surface. You can use it to visually design a page in your app by adding or drawing elements, and then by modifying them. For more info, see [Working with elements in XAML Designer](../designers/working-with-elements-in-xaml-designer.md). This illustration shows the artboard in Design view.
 
- ![Design view of XAML Designer](../designers/media/xaml_editor_design_view.png)
+ ![Design view of XAML Designer](../designers/media/xaml_editor_design_view.png "xaml_editor_design_view")
 
  These features are available in the artboard:
 
@@ -58,7 +58,7 @@ The XAML Designer in Visual Studio provides a visual interface to help you desig
 
  In Design view, additional artboard commands are available in the lower left area of the screen, as shown here:
 
- ![Design view commands](../designers/media/xaml_editor_design_controls.png)
+ ![Design view commands](../designers/media/xaml_editor_design_controls.png "xaml_editor_design_controls")
 
  These commands are available on this toolbar:
 
@@ -76,7 +76,7 @@ The XAML Designer in Visual Studio provides a visual interface to help you desig
 
  In XAML view, the window containing the XAML editor is the active window, and the XAML editor is your primary authoring tool. The Extensible Application Markup Language (XAML) provides a declarative, XML-based vocabulary for specifying an application's user interface. XAML view includes IntelliSense, automatic formatting, syntax highlighting, and tag navigation. This illustration shows XAML view:
 
- ![XAML view](../designers/media/xaml_editor.png)
+ ![XAML view](../designers/media/xaml_editor.png "xaml_editor")
 
  **Split view bar**
  The split view bar appears at the top of XAML view when the XAML editor is in the lower window. The split view bar enables you to control the relative sizes of Design view and XAML view. You can also exchange the locations of the views (using the **Swap Panes** button), specify whether the views are arranged horizontally or vertically, and collapse either view.
@@ -87,7 +87,7 @@ The XAML Designer in Visual Studio provides a visual interface to help you desig
 ## Device window
  The Device window in XAML Designer enables you to simulate at design-time various views, displays, and display options for your project. The Device window is available on the **Design** menu when you are working in the XAML Designer. Here's what it looks like:
 
- ![Device window](../designers/media/xaml_editor_device_panel.png)
+ ![Device window](../designers/media/xaml_editor_device_panel.png "xaml_editor_device_panel")
 
  These are the options available in the Device window:
 
@@ -131,7 +131,7 @@ The XAML Designer in Visual Studio provides a visual interface to help you desig
 
  To view the Document Outline window, on the menu bar choose **View**, **Other Windows**, **Document Outline**.
 
- ![Document Outline window](../designers/media/xaml_editor_doc_outline.png)
+ ![Document Outline window](../designers/media/xaml_editor_doc_outline.png "xaml_editor_doc_outline")
 
  These are the options available in the Document Outline window:
 
@@ -150,7 +150,7 @@ The XAML Designer in Visual Studio provides a visual interface to help you desig
 ## Properties window
  The Properties window enables you to set property values on controls. Here's what it looks like:
 
- ![Properties window](../designers/media/xaml_editor_prop_window.png)
+ ![Properties window](../designers/media/xaml_editor_prop_window.png "xaml_editor_prop_window")
 
  There are various options at the top of the Properties window. You can change the name of the currently selected element by using the **Name** box. In the upper-left corner, there's an icon that represents the currently selected element. To arrange the properties by category or alphabetically, click **Category**, **Name**, or **Source** in the **Arrange by** list. To see the list of events for a control, click the **Events** button, which displays a lightning bolt symbol. To search for a property, start to type the name of the property in the **Search Properties** box. The Properties window displays the properties that match your search as you type. Some properties allow you to set advanced properties by selecting a down arrow button. For more info on using properties and handling events, see [Quickstart: adding controls and handling events](http://go.microsoft.com/fwlink/?LinkID=247983)
 

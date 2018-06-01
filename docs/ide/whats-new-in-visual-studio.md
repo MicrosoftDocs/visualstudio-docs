@@ -53,7 +53,7 @@ Here's more detailed information about some of the most notable improvements and
 
 Choose the workloads you need, and change them when you need to.
 
- ![Visual Studio 2017 setup dialog](../install/media/install-visual-studio-enterprise.png)
+ ![Visual Studio 2017 setup dialog](../install/media/install-visual-studio-enterprise.png "Visual Studio 2017 setup screen")
 
 And you've got options to fine-tune your installation, too:
 
@@ -85,7 +85,7 @@ The new Visual Studio Performance Center can help you optimize your IDE start-up
 
 Visual Studio is moving its extensions (and working with third-party extensions too) so that they load on-demand, rather than at IDE startup. Curious about which extensions impact startup, solution load, and typing performance? You can see this information in **Help** > **Manage Visual Studio Performance**.
 
-  ![Options dialog box in Visual Studio 2017](../ide/media/vs2017ide-manage-vs-perf.png)
+  ![Options dialog box in Visual Studio 2017](../ide/media/vs2017ide-manage-vs-perf.png "Visual Studio Help dialog box - Performance Management")
 
 #### Manage your extensions with Roaming Extensions Manager
 
@@ -93,19 +93,19 @@ It's easier to set up each development environment with your favorite extensions
 
 To see a list of your extensions in Visual Studio, click  **Tools** > **Extensions & Updates**, and then click the **Roaming Extension Manager**.
 
-![Visual Studio 2017 - Extensions and Updates dialog](../ide/media/vs2017ide-extensions-and-updates.png)
+![Visual Studio 2017 - Extensions and Updates dialog](../ide/media/vs2017ide-extensions-and-updates.png "Visual Studio 2017 - Tools > Extensions and Updates dialog")
 
 The Roaming Extension Manager tracks all the extensions you install, but you can choose which ones you want to add to your Roaming list.
 
-![Visual Studio 2017 - Extensions and Updates dialog](../ide/media/vs2017ide-RoamingExtensionManager.png)
+![Visual Studio 2017 - Extensions and Updates dialog](../ide/media/vs2017ide-RoamingExtensionManager.png "Visual Studio 2017 - Roaming Extension Manager")
 
 When you use the Roaming Extension Manager, there are three icon types on your list:
 
-* ![Roamed icon](../ide/media/vs2017ide-roamedicon.png) ***Roamed***: An extension that is part of this Roaming List, but not installed on your machine.
+* ![Roamed icon](../ide/media/vs2017ide-roamedicon.png "Roamed Icon") ***Roamed***: An extension that is part of this Roaming List, but not installed on your machine.
   (You can install these by using the **Download** button.)
-* ![Roamed & Installed icon](../ide/media/vs2017ide-roamedinstalledicon.png) ***Roamed & Installed***: All extensions that are part of this Roaming List and installed in your dev environment.
+* ![Roamed & Installed icon](../ide/media/vs2017ide-roamedinstalledicon.png "Roamed & Installed Icon") ***Roamed & Installed***: All extensions that are part of this Roaming List and installed in your dev environment.
   (If you decide you do not want to roam, you can remove these by using the **Stop Roaming** button.)
-* ![Installed icon](../ide/media/vs2017ide-installedicon.png) ***Installed***: All extensions that are installed in this environment, but are not part of your Roaming List.
+* ![Installed icon](../ide/media/vs2017ide-installedicon.png "Installed Icon") ***Installed***: All extensions that are installed in this environment, but are not part of your Roaming List.
   (You can add extensions to the Roaming List by using the **Start Roaming** button.)
 
 Any extension that you download while you are signed in is added to your list as **Roamed & Installed**. The extension then becomes part of your Roaming list, which gives you access to it from any machine.
@@ -114,7 +114,7 @@ Any extension that you download while you are signed in is added to your list as
 
 In Visual Studio Enterprise 2017, live unit testing gives you live unit test results and code coverage in the editor while you are coding. It works with C# and Visual Basic projects for both the .NET Framework and .NET Core, and it supports three test frameworks of MSTest, xUnit, and NUnit.
 
-![Live Unit Testing](../ide/media/lut-codewindow.png)
+![Live Unit Testing](../ide/media/lut-codewindow.png "An example of the new Live Unit Testing feature in the Enterprise edition of Visual Studio")
 
 For more information, see the [Introducing Live Unit Testing](../test/live-unit-testing-intro.md). For a list of new features added in each release of Visual Studio Enterprise 2017, see [What's new in Live Unit Testing](../test/live-unit-testing-whats-new.md).
 
@@ -149,27 +149,27 @@ For more information, see [Quick Actions](../ide/common-quick-actions.md).
 
 When you are working with a project in Visual Studio, you can set up and quickly commit and publish your code to a Git service. You can also manage your Git repositories by using menu clicks from buttons in the bottom right-hand corner of the IDE.
 
-![Visual Studio 2017 interacts with the Git dialog](../ide/media/vsIDE-GitInteraction.png)
+![Visual Studio 2017 interacts with the Git dialog](../ide/media/vsIDE-GitInteraction.png "Git tools in the Visual Studio IDE")
 
 #### Experience improved navigation controls
 
 We've refreshed the navigation experience to help you get from A to B with greater confidence and fewer distractions.
 
-* **New in 15.4**: **Go To Definition** (**Ctrl**+**click** or **F12**) &ndash; Mouse users have an easier way to navigate to the definition of a member by pressing **Ctrl** and then clicking the member. Pressing **Ctrl** and hovering over a code symbol will underline it and turn it into a link. See [Go To Definition and Peek Definition](../ide/go-to-and-peek-definition.md) for more information.
+* **New in 15.4**: **Go To Definition** (**Ctrl**+**click** or **F12**) &ndash; Mouse users have an easier way to navigate to the definition of a member by pressing **Ctrl** and then clicking the member. Pressing **Ctrl** and hovering over a code symbol will underline it and turn it into a link. See [Go To Definition and Peek Definition](../ide/go-to-and-peek-definition.md) for more information.  
 
 * **Go To Implementation** (**Ctrl**+**F12**) &ndash; Navigate from any base type or member to its various implementations.
 
 * **Go To All** (**Ctrl**+**T** or **Ctrl**+**,**) &ndash; Navigate directly to any file/type/member/symbol declaration. You can filter your result list or use the query syntax (for example, "f searchTerm" for files, "t searchTerm" for types, etc.).
 
-  ![Improved Go To All](../ide/media/vs2017ide-navigation-go-to.png)
+  ![Improved Go To All](../ide/media/vs2017ide-navigation-go-to.png "Example of the improved Go To All feature")
 
 * **Find All References** (**Shift**+**F12**) &ndash; With syntax colorization, you can group Find All Reference results by a combination of project, definition, and path. You can also "lock" results so that you can continue to find other references without losing your original results.
 
-  ![New Find All References tool](../ide/media/vs2017ide-find-all-references.png)
+  ![New Find All References tool](../ide/media/vs2017ide-find-all-references.png "Example of the new Find All References tool")
 
-* **Structure Visualizer** &ndash; Dotted, gray vertical lines (indent guides) act as landmarks in code to provide context within your frame of view. You may recognize them from the popular Productivity Power Tools. You can use them to visualize and discover what block of code you're in at any time without having to scroll. Hovering over the lines displays a tooltip that shows you the opening of that block and its parents. It's available for all the languages supported via TextMate grammars, as well as C#, Visual Basic, and XAML.
+* **Structure Visualizer** &ndash; Dotted, gray vertical lines (indent guides) act as landmarks in code to provide context within your frame of view. You may recognize them from the popular Productivity Power Tools. You can use them to visualize and discover what block of code you're in at any time without having to scroll. Hovering over the lines displays a tooltip that shows you the opening of that block and its parents. It's available for all the languages supported via TextMate grammars, as well as C#, Visual Basic, and XAML.  
 
-  ![Visual Studio 2017 structure visualizer](../ide/media/vsIDE-StructureVisualizer.png)
+  ![Visual Studio 2017 structure visualizer](../ide/media/vsIDE-StructureVisualizer.png "Structure visualizer in Visual Studio")
 
 For more information about the new productivity features, see the [Productivity in Visual Studio 2017](https://blogs.msdn.microsoft.com/visualstudio/2016/11/28/productivity-in-visual-studio-2017-rc/) blog post by Mark Wilson-Thomas.
 
@@ -177,7 +177,7 @@ For more information about the new productivity features, see the [Productivity 
 
 You'll see several improvements in Visual Studio, such as distributing C++ Core Guidelines with Visual Studio, updating the compiler by adding enhanced support for C++11 and C++ features, and adding and updating functionality in the C++ libraries. We've also improved the performance of the C++ IDE, installation workloads, and more.
 
-As well, we've fixed over 250 bugs and reported issues in the compiler and tools, many submitted by customers through the [Developer Community for C++](https://developercommunity.visualstudio.com/spaces/62/index.html).
+As well, we've fixed over 250 bugs and reported issues in the compiler and tools, many submitted by customers through the [Developer Community for C++](https://developercommunity.visualstudio.com/spaces/62/index.html "Developer Community for C++").
 
 For complete details, see the [What's new for Visual C++ in Visual 2017](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio) page.
 
@@ -187,13 +187,13 @@ For complete details, see the [What's new for Visual C++ in Visual 2017](/cpp/to
 
 Now, you can more easily skip ahead during debugging without setting a breakpoint to stop on the line you want. When you are stopped in the debugger, just click the icon that appears next to the line of code. Your code will run and stop on that line the next time it is hit in your code path.
 
-![Visual Studio 2017 debug - Run To Click](../ide/media/vs2017ide-RunToClick.png)
+![Visual Studio 2017 debug - Run To Click](../ide/media/vs2017ide-RunToClick.png "Run To Click in Visual Studio debug & diagnostics")
 
 #### The new Exception Helper
 
 The new Exception Helper helps you view your exception information at-a-glance. The information is presented in a compact form with instant access to inner exceptions. When you diagnose a NullReferenceException, you can quickly see what was null right inside the Exception Helper.
 
-![The New Exception Helper dialog in Visual Studio](../ide/media/vs2017ide-ExceptionHelper.png)
+![The New Exception Helper dialog in Visual Studio](../ide/media/vs2017ide-ExceptionHelper.png "The New Exception Helper dialog")
 
 For more information, see the [Use the new Exception Helper in Visual Studio](https://blogs.msdn.microsoft.com/visualstudioalm/2016/03/31/using-the-new-exception-helper-in-visual-studio-15-preview/) blog post.
 
@@ -203,7 +203,7 @@ For more information, see the [Use the new Exception Helper in Visual Studio](ht
 
 You can navigate and view snapshots by using the **Step Backward** and **Step Forward** buttons in the **Debug** toolbar. These buttons navigate the events that appear in the **Events** tab in the **Diagnostic Tools** window. Stepping backward or forward to an event automatically activates historical debugging on the selected event.
 
-![The New Exception Helper dialog in Visual Studio](../debugger/media/intellitrace-step-back-icons-description.png )
+![The New Exception Helper dialog in Visual Studio](../debugger/media/intellitrace-step-back-icons-description.png  "Step Backward and Forward buttons")
 
 For more information, see the [View snapshots using IntelliTrace step-back](../debugger/how-to-use-intellitrace-step-back.md) page.
 
@@ -243,7 +243,7 @@ For more information, see [Debug live ASP.NET apps using snappoints and logpoint
 
 The Universal Windows Platform (UWP) is the app platform for Windows 10. You can develop apps for UWP with just one API set, one app package, and one store to reach all Windows 10 devices &ndash; PC, tablet, phone, Xbox, HoloLens, Surface Hub, and more. UWP supports different screen sizes and a variety of interaction models, whether it be touch, mouse and keyboard, a game controller, or a pen. At the core of UWP apps is the idea that users want their experiences to be mobile across ALL their devices, and that they want to use whatever device is most convenient or productive for the task at hand.
 
- ![Universal Windows Platform](../cross-platform/media/uwp_coreextensions.png)
+ ![Universal Windows Platform](../cross-platform/media/uwp_coreextensions.png "UWP_CoreExtensions")
 
 Choose your preferred development language&mdash;from C#, Visual Basic, C++, or JavaScript&mdash;to create a Universal Windows Platform app for Windows 10 devices. Visual Studio 2017 provides a UWP app template for each language that lets you create a single project for all devices. When your work is finished, you can produce an app package and submit it to Microsoft Store from within Visual Studio to get your app out to customers on any Windows 10 device.
 
@@ -266,7 +266,7 @@ For more information, see the [Visual Studio and Xamarin](../cross-platform/visu
 
 **New in 15.3**: For your iOS development needs, we've added a stand-alone Entitlements editor. It includes a user-friendly UI that can be easily browsed. To launch it, double-click your *entitlements.plist* file.
 
-![Entitlement editor for Xamarin](../ide/media/xamarin-entitlements-editor.png)
+![Entitlement editor for Xamarin](../ide/media/xamarin-entitlements-editor.png "Entitlement editor for Xamarin")
 
 ### Visual Studio Tools for Xamarin
 
@@ -305,9 +305,9 @@ To learn more, see the [Redgate Data Tools in Visual Studio 2017](https://blogs.
 
 The .NET Core platform is made of several components, which include the managed compilers, the runtime, the base class libraries, and numerous application models, such as ASP.NET Core. .NET Core supports three main operating systems: Windows, Linux, and macOS. You can use .NET Core in device, cloud, and embedded/IoT scenarios.
 
-And, it now includes Docker support.
+And, it now includes Docker support.  
 
-**New in 15.3**: Visual Studio 2017 version 15.3 supports .NET Core 2.0 development. Using .NET Core 2.0 requires downloading and installing the .NET Core 2.0 SDK separately.
+**New in 15.3**: Visual Studio 2017 version 15.3 supports .NET Core 2.0 development. Using .NET Core 2.0 requires downloading and installing the .NET Core 2.0 SDK separately.  
 
 For more information, see the [.NET Core guide](/dotnet/core/index) page.
 

@@ -32,7 +32,7 @@ You can display or hide line numbering in your code.
 
 2.  Select the **Line numbers** checkbox.
 
-    ![Options for displaying line numbers in the editor](../../ide/reference/media/vs_displaylinenumbers.png)
+    ![Options for displaying line numbers in the editor](../../ide/reference/media/vs_displaylinenumbers.png "VS_DisplayLineNumbers")
 
 > [!NOTE]
 > Depending on your language or settings, you may have to select the **Show All Settings** check box in the **Options** dialog box to reveal the **All Languages** sub-node.

@@ -30,23 +30,23 @@ You can test your connection to a database or service, and explore database cont
 
 To create a connection to the database, click the **Add Connection** icon in **Server Explorer**, or right-click in **Server Explorer** on the **Data Connections** node and select **Add Connection**. From here, you can also connect to a database on another server, a SharePoint service, or an Azure service.
 
-![Server Explorer New Connection icon](../data-tools/media/raddata-server-explorer-new-connection-icon.png)
+![Server Explorer New Connection icon](../data-tools/media/raddata-server-explorer-new-connection-icon.png "raddata Server Explorer New Connection icon")
 
 This brings up the **Add Connection** dialog box. Here, we have entered the name of the SQL Server LocalDB instance.
 
-![Add New Connection](../data-tools/media/raddata-add-new-connection-dialog.png)
+![Add New Connection](../data-tools/media/raddata-add-new-connection-dialog.png "raddata Add New Connection Dialog")
 
 ## Change the provider
 
 If the data source is not what you want, click the **Change** button to choose a new data source and/or a new ADO.NET data provider. The new provider might ask for your credentials, depending on how you configured it.
 
-![Change AD0.NET Data Provider](../data-tools/media/raddata-change-ad0.net-data-provider.png)
+![Change AD0.NET Data Provider](../data-tools/media/raddata-change-ad0.net-data-provider.png "raddata Change AD0.NET Data Provider")
 
 ## Test the connection
 
 After you have chosen the data source, click **Test Connection**. If it doesn't succeed, you will need to troubleshoot based on the vendor's documentation.
 
-![Test Connection](../data-tools/media/raddata-test-connection.png)
+![Test Connection](../data-tools/media/raddata-test-connection.png "raddata Test Connection")
 
 If the test succeeds, you are ready to create a *data source*, which is a Visual Studio term that really means a *data model* that is based on the underlying database or service.
 

@@ -23,7 +23,7 @@ A Domain-Specific Language (DSL) solution generates an API that you can use to r
 
  Press F5 and experiment, if you are not familiar with this solution template. Notice in particular that you create ports by dragging a port tool onto a component, and that you can connect ports.
 
- ![Components and interconnected ports](../modeling/media/componentsample.png)
+ ![Components and interconnected ports](../modeling/media/componentsample.png "ComponentSample")
 
 ## The Structure of the DSL Solution
  The **Dsl** project defines the API for your DSL. The **DslPackage** project defines how it integrates with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. You can also add your own projects, which can also contain code generated from the model.

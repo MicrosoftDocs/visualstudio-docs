@@ -58,7 +58,7 @@ A business rule is a requirement that is not associated with a particular use ca
 
  Many business rules are constraints on the relationships among the conceptual classes. You can write these *static**business rules* as comments associated with the relevant classes on a conceptual class diagram. For example:
 
- ![Rule in Comment attached to Order class.](../modeling/media/uml_reqmcd2.png)
+ ![Rule in Comment attached to Order class.](../modeling/media/uml_reqmcd2.png "UML_ReqmCD2")
 
  *Dynamic business rules* constrain the allowable sequences of events. For example, you use a sequence or activity diagram to show that a user must log in before performing other operations on your system.
 

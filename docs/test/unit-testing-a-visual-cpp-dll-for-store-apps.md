@@ -6,7 +6,7 @@ ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.author: mblome
 manager: douge
-ms.workload:
+ms.workload: 
   - "uwp"
 author: mikeblome
 ---
@@ -26,11 +26,11 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
 3.  Name the project `RooterLibTests`; specify the location; name the solution `RooterLib`; and make sure **Create directory for solution** is checked.
 
-     ![Specify the solution and project name and location](../test/media/ute_cpp_windows_unittestlib_createspecs.png)
+     ![Specify the solution and project name and location](../test/media/ute_cpp_windows_unittestlib_createspecs.png "UTE_Cpp_windows_UnitTestLib_CreateSpecs")
 
 4.  In the new project, open **unittest1.cpp**.
 
-     ![unittest1.cpp](../test/media/ute_cpp_windows_unittest1_cpp.png)
+     ![unittest1.cpp](../test/media/ute_cpp_windows_unittest1_cpp.png "UTE_Cpp_windows_unittest1_cpp")
 
      Note that:
 
@@ -59,13 +59,13 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
      The test project builds and runs. The Test Explorer window appears, and the test is listed under **Passed Tests**. The Summary pane at the bottom of the window provides additional details about the selected test.
 
-     ![Test Explorer](../test/media/ute_cpp_testexplorer_testmethod1.png)
+     ![Test Explorer](../test/media/ute_cpp_testexplorer_testmethod1.png "UTE_Cpp_TestExplorer_TestMethod1")
 
 ##  <a name="Add_the_DLL_project_to_the_solution"></a> Add the DLL project to the solution
 
 1.  In Solution Explorer, choose the solution name. From the shortcut menu, choose **Add**, and then **Add New Project**.
 
-     ![Create the RooterLib project](../test/media/ute_cpp_windows_rooterlib_create.png)
+     ![Create the RooterLib project](../test/media/ute_cpp_windows_rooterlib_create.png "UTE_Cpp_windows_RooterLib_Create")
 
 2.  In the **Add New Project** dialog box, choose **DLL (UWP apps)**.
 
@@ -99,7 +99,7 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
     1.  In Solution Explorer, choose the **RooterLib** project, and then choose **Properties** from the shortcut menu.
 
-         ![Add a preprocessor symbol definition](../test/media/ute_cpp_windows_addpreprocessorsymbol.png)
+         ![Add a preprocessor symbol definition](../test/media/ute_cpp_windows_addpreprocessorsymbol.png "UTE_Cpp_windows_AddPreprocessorSymbol")
 
     2.  In the RooterLib Property Page dialog box, expand **Configuration Properties**, expand **C++** and choose **Preprocessor**.
 
@@ -170,7 +170,7 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
 5.  In Test Explorer, choose **Run All**.
 
-     ![Basic Test passed](../test/media/ute_cpp_testexplorer_basictest.png)
+     ![Basic Test passed](../test/media/ute_cpp_testexplorer_basictest.png "UTE_Cpp_TestExplorer_BasicTest")
 
  You have set up the test and the code projects, and verified that you can run tests that run functions in the code project. Now you can begin to write real tests and code.
 
@@ -201,7 +201,7 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
 3.  The test fails.
 
-     ![The RangeTest fails](../test/media/ute_cpp_testexplorer_rangetest_fail.png)
+     ![The RangeTest fails](../test/media/ute_cpp_testexplorer_rangetest_fail.png "UTE_Cpp_TestExplorer_RangeTest_Fail")
 
     > [!TIP]
     > Verify that each test fails immediately after you have written it. This helps you avoid the easy mistake of writing a test that never fails.
@@ -273,7 +273,7 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
      The test fails. Choose the test name in Test Explorer. The failed assertion is highlighted. The failure message is visible in the detail pane of Test Explorer.
 
-     ![NegativeRangeTests failed](../test/media/ute_cpp_testexplorer_negativerangetest_fail.png)
+     ![NegativeRangeTests failed](../test/media/ute_cpp_testexplorer_negativerangetest_fail.png "UTE_Cpp_TestExplorer_NegativeRangeTest_Fail")
 
 3.  To see why the test fails, step through the function:
 
@@ -303,7 +303,7 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
  All tests now pass.
 
- ![All tests pass](../test/media/ute_ult_alltestspass.png)
+ ![All tests pass](../test/media/ute_ult_alltestspass.png "UTE_ULT_AllTestsPass")
 
 ##  <a name="Refactor_the_code_without_changing_tests"></a> Refactor the code without changing tests
 

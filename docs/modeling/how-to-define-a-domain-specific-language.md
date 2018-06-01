@@ -43,7 +43,7 @@ If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**
 
 1.  Create a solution with the **Domain-Specific Language** template, which can be found under **Other Project Types/Extensibility** in the **New Project** dialog box.
 
-     ![Create DSL dialog](../modeling/media/create_dsldialog.png)
+     ![Create DSL dialog](../modeling/media/create_dsldialog.png "Create_DSLDialog")
 
      When you click **OK**, the **Domain-Specific Language Wizard** opens and displays a list of template DSL solutions.
 
@@ -81,7 +81,7 @@ If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**
 
  The user interface now resembles the following picture.
 
- ![dsl designer](../modeling/media/dsl_designer.png)
+ ![dsl designer](../modeling/media/dsl_designer.png "dsl_designer")
 
  This solution defines a domain specific language. For more information, see [Overview of the Domain-Specific Language Tools User Interface](../modeling/overview-of-the-domain-specific-language-tools-user-interface.md).
 
@@ -94,7 +94,7 @@ If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**
 
  If you run a solution that you have created from the **Minimal Language** template, your experimental Visual Studio will resemble the following example:
 
- ![](../modeling/media/dsl_min.png)
+ ![](../modeling/media/dsl_min.png "DSL_min")
 
  Experiment with the tools. Create elements and connect them.
 
@@ -134,11 +134,11 @@ If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**
 
  The following figure shows classes and relationships part of the DSL that is used as an example in this topic.
 
- ![Embedding and Reference relationships](../modeling/media/music_classes.png)
+ ![Embedding and Reference relationships](../modeling/media/music_classes.png "Music_Classes")
 
  The next figure is an example model of this DSL:
 
- ![Instance model of generated DSL](../modeling/media/music_instance.png)
+ ![Instance model of generated DSL](../modeling/media/music_instance.png "Music_Instance")
 
 > [!NOTE]
 >  "Model" refers to an instance of your DSL that users create, and typically is displayed as a diagram. This topic discusses both the DSL Definition diagram and the model diagrams that appear when your DSL is used.
@@ -280,7 +280,7 @@ If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**
 
     4.  Make sure that a check mark appears alongside each decorator name.
 
-     ![Shape Mappings and DSL Details window](../modeling/media/dsldetailswindow.png)
+     ![Shape Mappings and DSL Details window](../modeling/media/dsldetailswindow.png "DslDetailsWindow")
 
 7.  **Make a toolbox item for creating elements of the domain class.**
 
@@ -326,7 +326,7 @@ If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**
 
  For example, if music Albums and Artists are displayed as shapes on your diagram, you could define a relationship named ArtistsAppearedOnAlbums that links Artists to the Albums on which they have worked. See the example in the figure.
 
- ![Instance model of generated DSL](../modeling/media/music_instance.png)
+ ![Instance model of generated DSL](../modeling/media/music_instance.png "Music_Instance")
 
  Reference relationships can also link elements of the same type. For example, in a DSL representing a family tree, the relationship between parents and their children is a reference relationship from Person to Person.
 
@@ -343,7 +343,7 @@ If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**
 
  **Set the Allows Duplicates property of the relationship,** if more than one link of the same class can exist between the same pair of model elements. For example, you could allow a Teacher to teach more than one Subject to the same Student.
 
- ![Shape maps for connectors](../modeling/media/music_connector.png)
+ ![Shape maps for connectors](../modeling/media/music_connector.png "Music_Connector")
 
  For more information, see [Properties of Domain Relationships](../modeling/properties-of-domain-relationships.md) and [Properties of Domain Roles](../modeling/properties-of-domain-roles.md).
 
@@ -406,11 +406,11 @@ If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**
 ##  <a name="compartments"></a> Defining Shapes that Contain Lists: Compartment Shapes
  A compartment shape contains one or more lists of items. For example, in a Music Library DSL, you could use compartment shapes to represent music Albums. In each Album, there is a list of Songs.
 
- ![Compartment Shape](../modeling/media/compartmentshape.png)
+ ![Compartment Shape](../modeling/media/compartmentshape.png "CompartmentShape")
 
  In the simplest method of achieving this effect in a DSL definition, you define one domain class for the container, and one domain class for each list. The container class is mapped to the compartment shape.
 
- ![Shape map](../modeling/media/music_mapcomp.png)
+ ![Shape map](../modeling/media/music_mapcomp.png "Music_MapComp")
 
  For more information, see [Properties of Compartment Shapes](../modeling/properties-of-compartment-shapes.md).
 
@@ -500,7 +500,7 @@ If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**
 
 7.  Open the language Explorer. Verify that you can see the container nodes with the list item nodes inside.
 
- ![Generated explorer of DSL](../modeling/media/music_explorer.png)
+ ![Generated explorer of DSL](../modeling/media/music_explorer.png "Music_Explorer")
 
  After you first test a compartment shape, you might want to adjust some of its properties and add some more advanced features. For more information, see [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md).
 

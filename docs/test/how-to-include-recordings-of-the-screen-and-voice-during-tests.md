@@ -33,7 +33,7 @@ The screen and voice recorder can be used with either manual or automated tests.
 
      The Configure Diagnostic Data Adapter – Screen and Voice Recorder dialog box is displayed.
 
-     ![Video configuration](../test/media/testsettingvideoconfiggdr.png)
+     ![Video configuration](../test/media/testsettingvideoconfiggdr.png "TestSettingVideoConfigGDR")
 
 4.  (Optional) Select **Enable voice recording** to capture audio content in your recording.
 

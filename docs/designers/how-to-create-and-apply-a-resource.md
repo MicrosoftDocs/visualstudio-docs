@@ -27,7 +27,7 @@ Styles and templates for elements in the XAML Designer are stored in reusable en
 
      The appropriate dialog box for creating a resource appears. This dialog box appears when you create a resource from a brush:
 
-     ![Create Resource Dialog Box](../designers/media/xaml_create_resource.png)
+     ![Create Resource Dialog Box](../designers/media/xaml_create_resource.png "xaml_create_resource")
 
 3.  In the **Name (Key)** box, enter a key name. This is the name that you can use when you want other elements to reference the resource.
 

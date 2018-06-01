@@ -55,7 +55,7 @@ In the second part of this tutorial, you make the quiz challenging by adding mat
 
      Notice that when you enter the dot (.) after `randomizer` in the code, an IntelliSense window opens and shows you all of the Random object's methods that you can call. For example, IntelliSense lists the `Next()` method, as follows.
 
-     ![Next method](../ide/media/express_randomwhite.png)
+     ![Next method](../ide/media/express_randomwhite.png "Express_RandomWhite")
 Next method
 
      When you enter a dot after an object, IntelliSense shows a list of the object's members, such as properties, methods, and events.
@@ -85,7 +85,7 @@ Next method
 
      A random addition problem appears, as the following illustration shows.
 
-     ![Random addition problem](../ide/media/express_additionproblem.png)
+     ![Random addition problem](../ide/media/express_additionproblem.png "Express_AdditionProblem")
 Random addition problem
 
      In the next step of the tutorial, you'll add the sum.

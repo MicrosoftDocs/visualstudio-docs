@@ -35,7 +35,7 @@ For an introduction to TableAdapters, see [Fill datasets by using TableAdapters]
 ## Use the TableAdapter Configuration Wizard
 Run the **TableAdapter Configuration Wizard** to create or edit TableAdapters and their associated DataTables. You can configure an existing TableAdapter by right-clicking on it in the **Dataset Designer**.
 
-![raddata Table Adapter Configuration Wizard](../data-tools/media/raddata-table-adapter-configuration-wizard.png)
+![raddata Table Adapter Configuration Wizard](../data-tools/media/raddata-table-adapter-configuration-wizard.png "raddata Table Adapter Configuration Wizard")
 
 If you drag a new TableAdapter from the Toolbox when the **Dataset Designer** is in focus, the wizard starts and prompts you to specify which data source the TableAdapter should connect to. On the next page, the wizard asks what kind of commands it should use to communicate with the database, either SQL statements or stored procedures. (You won't see this if you are configuring a TableAdapter that is already associated with a data source.)
 
@@ -58,7 +58,7 @@ The **Advanced Options** in the wizard enable you to:
 ## Configure a TableAdapter's Fill method
 Sometimes you might want to change the schema of the TableAdapter's table. To do this, you modify the  TableAdapter's primary `Fill` method. TableAdapters are created with a primary `Fill` method that defines the schema of the associated data table. The primary `Fill` method is based on the query or stored procedure you entered when you originally configured the TableAdapter. It's the first (topmost) method under the data table in the DataSet Designer.
 
-![TableAdapter with multiple queries](../data-tools/media/tableadapter.gif)
+![TableAdapter with multiple queries](../data-tools/media/tableadapter.gif "TableAdapter")
 
 Any changes that you make to the TableAdapter's main `Fill` method are reflected in the schema of the associated data table. For example, removing a column from the query in the main `Fill` method also removes the column from the associated data table. Additionally, removing the column from the main `Fill` method removes the column from any additional queries for that TableAdapter.
 

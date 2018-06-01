@@ -78,7 +78,7 @@ Create the sample database by following these steps:
 
  **Navigation form**
 
- ![Navigation dialog box](../data-tools/media/simpleappnav.png)
+ ![Navigation dialog box](../data-tools/media/simpleappnav.png "SimpleAppNav")
 
 |Controls for the Navigation form|Properties|
 |--------------------------------------|----------------|
@@ -88,7 +88,7 @@ Create the sample database by following these steps:
 
  **NewCustomer form**
 
- ![Add  a new customer and place an order](../data-tools/media/simpleappnewcust.png)
+ ![Add  a new customer and place an order](../data-tools/media/simpleappnewcust.png "SimpleAppNewCust")
 
 |Controls for the NewCustomer form|Properties|
 |---------------------------------------|----------------|
@@ -103,7 +103,7 @@ Create the sample database by following these steps:
 
  **FillOrCancel form**
 
- ![fill or cancel orders](../data-tools/media/simpleappcancelfill.png)
+ ![fill or cancel orders](../data-tools/media/simpleappcancelfill.png "SimpleAppCancelFill")
 
 |Controls for the FillOrCancel form|Properties|
 |----------------------------------------|----------------|

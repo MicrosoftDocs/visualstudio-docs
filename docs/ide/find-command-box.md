@@ -22,7 +22,7 @@ To run a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] command, pref
 
 The **Find/Command** box retains the last 20 items entered and displays them in a drop-down list. You can navigate through the list by choosing the **arrow keys**.
 
-![Find&#47;Command Box](../ide/media/findcommandbox.png)
+![Find&#47;Command Box](../ide/media/findcommandbox.png "FindCommandBox")
 
 ## Searching for text
 

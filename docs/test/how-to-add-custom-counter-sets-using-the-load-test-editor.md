@@ -22,7 +22,7 @@ When you create a load test with the **New Load Test Wizard**, you add an initia
 
 You manage your counters in the **Load Test Editor**. The counter sets that are already added to the test are visible in the **Counter Sets** node of the load test. After you create a Load test, you can add new custom counter sets to it.
 
-![Custom Counter Set](../test/media/loadtestcustomcounter.png)
+![Custom Counter Set](../test/media/loadtestcustomcounter.png "LoadTestCustomCounter")
 
 ## To add a custom counter set to a Load Test
 

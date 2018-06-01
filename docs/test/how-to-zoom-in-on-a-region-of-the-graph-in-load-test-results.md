@@ -34,7 +34,7 @@ After a load test has finished, you can use zoom bars to zoom in and scroll to a
 > [!TIP]
 > You can use **Synchronize Horizontal Zoom Controls** in the toolbar to switch on or off automatic horizontal zoom synchronization. With synchronization on, any zooming you apply to a graph will also be applied to any other graphs on the Graphs View.
 
- ![Graph view zoom control](../test/media/ltest_zoomcontrol.png)
+ ![Graph view zoom control](../test/media/ltest_zoomcontrol.png "LTest_ZoomControl")
 Graph View Zoom Control
 
  In the previous illustration, the System under Test graph has been zoomed in to investigate threshold issues. The threshold violations have been enabled by using **Show Threshold Violations On Graph** from the **Graph Options** drop-down in the toolbar.

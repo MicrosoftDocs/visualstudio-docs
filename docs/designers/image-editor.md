@@ -94,7 +94,7 @@ The Image Editor toolbars contain commands that help you work with images.
 
  Here's the **Image Editor Mode** toolbar:
 
- ![The Image Editor modal toolbar.](../designers/media/digit-tre-modal-toolbar.png)
+ ![The Image Editor modal toolbar.](../designers/media/digit-tre-modal-toolbar.png "Digit-TRE-Modal-Toolbar")
 
  This table describes the items on the **Image Editor Mode** toolbar, which are listed in the order in which they appear from left to right.
 
@@ -118,7 +118,7 @@ The Image Editor toolbars contain commands that help you work with images.
 
  Here's the **Image Editor** toolbar.
 
- ![Image Editor toolbar](../designers/media/digit-tre-toolbar.png)
+ ![Image Editor toolbar](../designers/media/digit-tre-toolbar.png "Digit-TRE-Toolbar")
 
  The following table describes the items on the **Image Editor** toolbar, which are listed in the order in which they appear from top to bottom.
 

@@ -18,7 +18,7 @@ ms.technology: vs-ide-test
 
 **Virtual User Activity Chart**
 
- ![Virtual User Activity Chart](../test/media/virtual_actchart.png)
+ ![Virtual User Activity Chart](../test/media/virtual_actchart.png "Virtual_ActChart")
 
  The Details view displays the Virtual User Activity Chart, which is used to visually analyze what the individual virtual users did during the load test. Virtual User Activity Chart lets you see patterns of user activity, load patterns, correlate failed or slow tests, and see requests with other virtual user activity. The Virtual User Activity Chart can also help you determine spikes in CPU usage, drops in requests per second, and what tests or pages were running during the spikes and drops.
 
@@ -27,7 +27,7 @@ ms.technology: vs-ide-test
 
  **Details Legend Panel**
 
- ![Details legend panel](../test/media/ltest_detailslegend.png)
+ ![Details legend panel](../test/media/ltest_detailslegend.png "LTest_DetailsLegend")
 
  The details legend panel is visible in the Virtual User Activity Chart. The details legend pane lets you filter out tests, pages and transactions based on several different criteria. For example, you can remove certain tests from the view, or remove all successful tests, or remove tests which failed with certain failures. You can also remove all tests that do not have logs.
 
@@ -35,7 +35,7 @@ ms.technology: vs-ide-test
 
  **Filter results Panel**
 
- ![Filter results panel](../test/media/ltest_filterresults.png)
+ ![Filter results panel](../test/media/ltest_filterresults.png "LTest_FilterResults")
 
  The Filter results panel is visible in the Virtual User Activity Chart. The Filter results panel can filter on the following:
 

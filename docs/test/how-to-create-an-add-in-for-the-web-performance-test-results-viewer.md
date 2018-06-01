@@ -130,7 +130,7 @@ The Visual Studio add-in created in the previous procedure references a Windows 
 
 6.  From the Toolbox, drag a <xref:System.Windows.Forms.DataGridView> onto the surface of userControl1.
 
-7.  Click the action tag glyph (![Smart Tag Glyph](../test/media/vs_winformsmttagglyph.gif)) on the upper-right corner of the <xref:System.Windows.Forms.DataGridView> and follow these steps:
+7.  Click the action tag glyph (![Smart Tag Glyph](../test/media/vs_winformsmttagglyph.gif "VS_WinFormSmtTagGlyph")) on the upper-right corner of the <xref:System.Windows.Forms.DataGridView> and follow these steps:
 
     1.  Choose **Dock in Parent Container**.
 

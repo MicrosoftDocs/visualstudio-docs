@@ -53,7 +53,7 @@ The *middle tier* is the layer that the presentation tier and the data tier use 
 
 The following illustration shows features and technologies that are available in Visual Studio and where they might fit in to the middle tier of an n-tier application.
 
-![Middle tier components](../data-tools/media/ntiermid.png)
+![Middle tier components](../data-tools/media/ntiermid.png "NtierMid")
 Middle tier
 
 The middle tier typically connects to the data tier by using a data connection. This data connection is typically stored in the data access component.
@@ -63,7 +63,7 @@ The *data tier* is basically the server that stores an application's data (for e
 
 The following illustration shows features and technologies that are available in Visual Studio and where they might fit in to the data tier of an n-tier application.
 
-![Data tier components](../data-tools/media/ntierdatatier.png)
+![Data tier components](../data-tools/media/ntierdatatier.png "ntierdatatier")
 Data tier
 
 The data tier cannot be accessed directly from the client in the presentation tier. Instead, the data access component in the middle tier is used for communication between the presentation and data tiers.

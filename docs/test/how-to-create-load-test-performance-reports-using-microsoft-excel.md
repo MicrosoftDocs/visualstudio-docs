@@ -34,7 +34,7 @@ You can generate Microsoft Excel load test reports that are based on two or more
 
  The following illustration is an example of a report that shows a correlation between a decline in transaction (Update Cart) speed and the degeneration of the (% Processor) counter. This points to a potential problem in the application code, instead of the database or network, and is a good candidate to diagnose by using the ASP.NET Profiler.
 
- ![Potential problem in the application code](../test/media/lt_excel.png)
+ ![Potential problem in the application code](../test/media/lt_excel.png "LT_Excel")
 
  Excel reports can either be generated in the Load Test Analyzer, by using the **Create Excel Report** button in the toolbar, or from Excel by using the **Load Test Report** option in the **Load Test** tab of the Office ribbon.
 

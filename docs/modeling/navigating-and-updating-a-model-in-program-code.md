@@ -50,11 +50,11 @@ You can write code to create and delete model elements, set their properties, an
 ##  <a name="example"></a> An Example DSL Definition
  This is the main part of DslDefinition.dsl for the examples in this topic:
 
- ![DSL Definition diagram &#45; family tree model](../modeling/media/familyt_person.png)
+ ![DSL Definition diagram &#45; family tree model](../modeling/media/familyt_person.png "FamilyT_Person")
 
  This model is an instance of this DSL:
 
- ![Tudor Family Tree Model](../modeling/media/tudor_familytreemodel.png)
+ ![Tudor Family Tree Model](../modeling/media/tudor_familytreemodel.png "Tudor_FamilyTreeModel")
 
 ### References and Namespaces
  To run the code in this topic, you should reference:
@@ -345,7 +345,7 @@ using (Transaction t = targetDiagram.Store.
  In a DSL, the domain model element, which represents a concept such as Person or Song, is separate from the shape element, which represents what you see on the diagram. The domain model element stores the important properties and relationships of the concepts. The shape element stores the size, position and color of the object's view on the diagram, and the layout of its component parts.
 
 ### Presentation Elements
- ![Class diagram of base shape and element types](../modeling/media/dslshapesandelements.png)
+ ![Class diagram of base shape and element types](../modeling/media/dslshapesandelements.png "DSLshapesAndElements")
 
  In your DSL Definition, each element that you specify creates a class that is derived from one of the following standard classes.
 
@@ -504,7 +504,7 @@ partial class MyDiagram
  Shapes, connectors and diagrams are subtypes of <xref:Microsoft.VisualStudio.Modeling.ModelElement> and live in the Store. You must therefore make changes to them only inside a transaction. For more information, see [How to: Use Transactions to Update the Model](../modeling/how-to-use-transactions-to-update-the-model.md).
 
 ##  <a name="docdata"></a> Document View and Document Data
- ![Class diagram of standard diagram types](../modeling/media/dsldiagramsanddocs.png)
+ ![Class diagram of standard diagram types](../modeling/media/dsldiagramsanddocs.png "DSLDiagramsandDocs")
 
 ## Store Partitions
  When a model is loaded, the accompanying diagram is loaded at the same time. Typically, the model is loaded into Store.DefaultPartition, and the diagram content is loaded into another Partition. Usually, the content of each partition is loaded and saved to a separate file.

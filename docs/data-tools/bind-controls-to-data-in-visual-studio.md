@@ -40,7 +40,7 @@ You can display data to users of your application by binding data to controls. Y
 ## Data Sources window
  Data sources are available to your project as items in the **Data Sources** window. This window is visible, or is accessible from the **View** menu, when a form design surface is the active window in your project. You can drag items from this window to create controls that are bound to the underlying data, and you can also configure the data sources by right-clicking.
 
- ![Data Sources window](../data-tools/media/raddata-data-sources-window.png)
+ ![Data Sources window](../data-tools/media/raddata-data-sources-window.png "raddata Data Sources window")
 
  For each data type that appears in the **Data Sources** window, a default control is created when you drag the item to the designer. Before you drag an item from the **Data Sources** window, you can change the control that will be created. For more information, see [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md).
 

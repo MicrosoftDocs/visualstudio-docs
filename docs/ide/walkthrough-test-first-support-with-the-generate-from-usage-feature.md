@@ -36,7 +36,7 @@ This topic demonstrates how to use the [Generate From Usage](../ide/visual-cshar
 
 3.  In the middle pane, choose **Unit Test Project** and accept the default name of `UnitTestProject1`. The following illustration shows the dialog box when it appears in [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)]. In [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)], the dialog box looks similar.
 
-     ![New Test Project dialog](../ide/media/newproject_test.png)
+     ![New Test Project dialog](../ide/media/newproject_test.png "NewProject_Test")
 
 4.  Choose **OK** to close the **New Project** dialog box.
 
@@ -61,9 +61,9 @@ This topic demonstrates how to use the [Generate From Usage](../ide/visual-cshar
 
 3.  Locate the `TestMethod1()` method and rename it to `DefaultAutomobileIsInitializedCorrectly()`. Inside this method, create a new instance of a class named `Automobile`, as shown in the following screenshots. A wavy underline appears, which indicates a compile-time error, and a [Quick Actions](../ide/quick-actions.md) light bulb appears in the left margin (C# only), or directly below the squiggle if you hover over it.
 
-     ![Quick Actions in Visual Basic](../ide/media/genclass_underlinevb.png)
+     ![Quick Actions in Visual Basic](../ide/media/genclass_underlinevb.png "GenClass_UnderlineVB")
 
-     ![Quick Actions in C&#35;](../ide/media/genclass_underline.png)
+     ![Quick Actions in C&#35;](../ide/media/genclass_underline.png "GenClass_Underline")
 
 4.  Choose or click the **Quick Actions** light bulb. You'll see an error message that states that the type `Automobile` is not defined. You are also presented with some solutions.
 
@@ -71,7 +71,7 @@ This topic demonstrates how to use the [Generate From Usage](../ide/visual-cshar
 
 6. In the **Project** list, click **GFUDemo\_VB** or **GFUDemo_CS** to instruct Visual Studio to add the file to the class library project instead of the test project. If it's not already selected, choose **Create new file** and name it *Automobile.cs* or *Automobile.vb*.
 
-     ![Generate New Type dialog box](../ide/media/genotherdialog.png)
+     ![Generate New Type dialog box](../ide/media/genotherdialog.png "GenOtherDialog")
 
 6.  Click **OK** to close the dialog box and create the new file.
 
@@ -128,7 +128,7 @@ Assume that the specification states that a new `Automobile` can be put into a `
 
      The **Test Results** window is shown in the following illustration.
 
-     ![Test results that failed](../ide/media/testsfailed.png)
+     ![Test results that failed](../ide/media/testsfailed.png "TestsFailed")
 
 2.  In the **Test Results** window, double-click on each test result row to go to the location of each test.
 
@@ -150,7 +150,7 @@ Assume that the specification states that a new `Automobile` can be put into a `
 
      This time the tests pass. The **Test Results** window is shown in the following illustration.
 
-     ![Test results that passed](../ide/media/testspassed.png)
+     ![Test results that passed](../ide/media/testspassed.png "TestsPassed")
 
 ## See also
 

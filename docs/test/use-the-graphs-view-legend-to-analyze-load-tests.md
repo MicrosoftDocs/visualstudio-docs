@@ -16,7 +16,7 @@ ms.technology: vs-ide-test
 
 The Load Test Analyzer's Graphs view includes a legend panel that displays information for each performance counter that is associated with the currently selected graph.
 
-![Graphs view legend](../test/media/load_viewlegend.png)
+![Graphs view legend](../test/media/load_viewlegend.png "Load_ViewLegend")
 
 The following information is contained within the legend:
 

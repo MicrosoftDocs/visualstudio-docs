@@ -25,7 +25,7 @@ When you create a load test with the **New Load Test Wizard**, you add an initia
 
 Managing counter sets involves choosing the set of computers you want to collect performance data from, and assigning a set of counter sets to collect from each individual computer. You manage your counters in the **Load Test Editor**.
 
-![Managing Counter Sets](../test/media/loadtestmanagecountersets.png)
+![Managing Counter Sets](../test/media/loadtestmanagecountersets.png "LoadTestManageCounterSets")
 
 ## To manage counter sets
 

@@ -36,7 +36,7 @@ Make sure that the **Properties** window and the **Toolbox** are displayed.
 
 Here's a model that has a modified pivot point:
 
-![A model of a house that has a modified pivot point](../designers/media/digit-modified-model.png)
+![A model of a house that has a modified pivot point](../designers/media/digit-modified-model.png "Digit-Modified-Model")
 
 ## See also
 

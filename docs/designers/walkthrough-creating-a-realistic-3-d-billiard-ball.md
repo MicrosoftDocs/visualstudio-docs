@@ -51,11 +51,11 @@ The sphere is the default preview shape in the Shader Designer; if you are curre
 
      The texture should look similar to this:
 
-     ![Texture for the billiard ball](../designers/media/gfx_shader_demo_billiard_art_ball_texture.png)
+     ![Texture for the billiard ball](../designers/media/gfx_shader_demo_billiard_art_ball_texture.png "gfx_shader_demo_billiard_art_ball_texture")
 
 4.  Optionally, you might want to decrease the storage requirements of this texture. You can do that by reducing the width of the texture to match its height. This compresses the texture along its width, but due to the way that the texture is mapped to the sphere, it will be expanded when the billiard ball is rendered. After resizing, the texture should look similar to this:
 
-     ![Billiard texture compressed into a square](../designers/media/gfx_shader_demo_billiard_art_ball_texture_square.png)
+     ![Billiard texture compressed into a square](../designers/media/gfx_shader_demo_billiard_art_ball_texture_square.png "gfx_shader_demo_billiard_art_ball_texture_square")
 
  Now you can create a shader that applies this texture to the model.
 
@@ -65,11 +65,11 @@ The sphere is the default preview shape in the Shader Designer; if you are curre
 
      By default, a shader graph looks like this:
 
-     ![The default shader graph](../designers/media/gfx_shader_demo_billiard_step_0.png)
+     ![The default shader graph](../designers/media/gfx_shader_demo_billiard_step_0.png "gfx_shader_demo_billiard_step_0")
 
 2.  Modify the default shader so that it applies the value of a texture sample to the current pixel. The shader graph should look like this:
 
-     ![A shader graph that applies texture to an object](../designers/media/gfx_shader_demo_billiard_step_1.png)
+     ![A shader graph that applies texture to an object](../designers/media/gfx_shader_demo_billiard_step_1.png "gfx_shader_demo_billiard_step_1")
 
 3.  Apply the texture that you created in the previous procedure by configuring the texture properties. Set the value of the **Texture** property of the **Texture Sample** node to **Texture1**, and then specify the texture file by using the **Filename** property of the **Texture1** property group in the same property window.
 
@@ -77,7 +77,7 @@ The sphere is the default preview shape in the Shader Designer; if you are curre
 
  Your billiard ball should now look similar to this:
 
- ![A closeup of the textured billiard ball](../designers/media/gfx_shader_demo_.png)
+ ![A closeup of the textured billiard ball](../designers/media/gfx_shader_demo_.png "gfx_shader_demo_")
 
 ## Create depth with the Lambert lighting model
 
@@ -91,7 +91,7 @@ So far, you've created an easily recognizable billiard ball. However, it appears
 
 -   Modify your shader to modulate the value of the texture sample by the Lambert lighting value. Your shader graph should look like this:
 
-     ![The shader graph with Lambert lighting added](../designers/media/gfx_shader_demo_billiard_step_2.png)
+     ![The shader graph with Lambert lighting added](../designers/media/gfx_shader_demo_billiard_step_2.png "gfx_shader_demo_billiard_step_2")
 
 -   Optionally, you can adjust how the lighting behaves by configuring the **MaterialDiffuse** property of the shader graph. To access properties of the shader graph, choose an empty area of the design surface, and then locate the property that you want to access in the **Properties** window.
 
@@ -99,7 +99,7 @@ So far, you've created an easily recognizable billiard ball. However, it appears
 
  With Lambert lighting applied, your billiard ball should look similar to this:
 
- ![A closeup of the textured and lit billiard ball](../designers/media/gfx_shader_demo_billiard_ball_2.png)
+ ![A closeup of the textured and lit billiard ball](../designers/media/gfx_shader_demo_billiard_ball_2.png "gfx_shader_demo_billiard_ball_2")
 
 ## Enhance the basic appearance with specular highlights
 
@@ -113,7 +113,7 @@ The Lambert lighting model provides the sense of shape and dimension that was ab
 
 1.  Modify your shader to include the specular contribution by using additive blending. Your shader graph should look like this:
 
-     ![The shader graph with specular lighting added](../designers/media/gfx_shader_demo_billiard_step_3.png)
+     ![The shader graph with specular lighting added](../designers/media/gfx_shader_demo_billiard_step_3.png "gfx_shader_demo_billiard_step_3")
 
 2.  Optionally, you can adjust the way that the specular highlight behaves by configuring the specular properties (**MaterialSpecular** and **MaterialSpecularPower**) of the shader graph. To access properties of the shader graph, choose an empty area of the design surface, and then in the **Properties** window, locate the property that you want to access.
 
@@ -121,7 +121,7 @@ The Lambert lighting model provides the sense of shape and dimension that was ab
 
  With specular highlighting applied, your billiard ball should look similar to this:
 
- ![A closeup of the billiard ball with specular added](../designers/media/gfx_shader_demo_billiard_ball_3.png)
+ ![A closeup of the billiard ball with specular added](../designers/media/gfx_shader_demo_billiard_ball_3.png "gfx_shader_demo_billiard_ball_3")
 
 ## Create a sense of space by reflecting the environment
 
@@ -145,13 +145,13 @@ With specular highlights applied, your billiard ball looks pretty convincing. It
 
 4.  Create a second texture that is the same size as the first. This texture will be repeated on the four sides of the cube map, which correspond to the surface and sides of a billiard table, and to the area around the billiard table. Make sure to draw the surface of the billiard table in this texture by using the same color as in the bottom texture. The texture should look similar to this:
 
-     ![The texture for the sides of the cubemap](../designers/media/gfx_shader_demo_billiard_art_env_texture_side.png)
+     ![The texture for the sides of the cubemap](../designers/media/gfx_shader_demo_billiard_art_env_texture_side.png "gfx_shader_demo_billiard_art_env_texture_side")
 
      Remember that a reflection map doesn't have to be photorealistic to be effective; for example, the cube map used to create the images in this article contains just four pockets instead of six.
 
 5.  Create a third texture that is the same size as the others. This texture will be the top of the cube map, which corresponds to the ceiling above the billiard table. To make this part of the reflection more interesting, you can draw an overhead light to reinforce the specular highlights that you added to the shader in the previous procedure. The texture should look similar to this:
 
-     ![The texture for the top of the cubemap](../designers/media/gfx_shader_demo_billiard_art_env_texture_top2.png)
+     ![The texture for the top of the cubemap](../designers/media/gfx_shader_demo_billiard_art_env_texture_top2.png "gfx_shader_demo_billiard_art_env_texture_top2")
 
  Now that you have created individual textures for the sides of the cube map, you can use a tool to assemble them into a cube map that can be stored in a single .dds texture. You can use any program you want to create the cube map as long as it can save the cube map in the .dds texture format. This walkthrough demonstrates how to create the texture by using the DirectX Texture Tool that's a part of the June 2010 DirectX SDK.
 
@@ -175,7 +175,7 @@ With specular highlights applied, your billiard ball looks pretty convincing. It
 
  You can imagine the layout of the cube map like this:
 
- ![Layout of the environment cube map](../designers/media/gfx_shader_demo_billiard_art_env_texture_top.png)
+ ![Layout of the environment cube map](../designers/media/gfx_shader_demo_billiard_art_env_texture_top.png "gfx_shader_demo_billiard_art_env_texture_top")
 
  The image at the top is the positive Y (+Y) cube face; in the middle, from left to right, is the -X, +Z, +X, and -Z cube faces; at the bottom is the -Y cube face.
 
@@ -185,13 +185,13 @@ With specular highlights applied, your billiard ball looks pretty convincing. It
 
 1.  Modify your shader to include the environment mapping contribution by using additive blending. Your shader graph should look like this:
 
-     ![A closeup of both kind of reflective shader nodes](../designers/media/gfx_shader_demo_billiard_step_4b.png)
+     ![A closeup of both kind of reflective shader nodes](../designers/media/gfx_shader_demo_billiard_step_4b.png "gfx_shader_demo_billiard_step_4b")
 
      Note that you can use a **Multiply-Add** node to simplify the shader graph.
 
      Here's a more detailed view of the shader nodes that implement environment mapping:
 
-     ![The shader graph with environment mapping added](../designers/media/gfx_shader_demo_billiard_step_4a.png)
+     ![The shader graph with environment mapping added](../designers/media/gfx_shader_demo_billiard_step_4a.png "gfx_shader_demo_billiard_step_4a")
 
 2.  Apply the texture that you created in the previous procedure by configuring the texture properties of the cube map. Set the value of the **Texture** property of the **Cubemap Sample** node to **Texture2**, and then specify the texture file by using the **Filename** property of the **Texture2** property group.
 
@@ -199,7 +199,7 @@ With specular highlights applied, your billiard ball looks pretty convincing. It
 
  With environment mapping applied, your billiard ball should look similar to this:
 
- ![A closeup of the environment mapped billiard ball](../designers/media/gfx_shader_demo_billiard_ball_4.png)
+ ![A closeup of the environment mapped billiard ball](../designers/media/gfx_shader_demo_billiard_ball_4.png "gfx_shader_demo_billiard_ball_4")
 
  In this final image, notice how the effects that you added come together to create a very convincing billiard ball. The shape, texture, and lighting create the basic appearance of a 3D object, and the specular highlights and reflections make the billiard ball more interesting and look like a part of its environment.
 

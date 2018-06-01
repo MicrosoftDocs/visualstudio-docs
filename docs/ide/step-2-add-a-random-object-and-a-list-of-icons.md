@@ -31,7 +31,7 @@ In this step, you create a set of matching symbols for the game. Each symbol is 
 
 3.  When adding the List object, notice the **IntelliSense** window that opens. The following is a Visual C# example, but similar text appears when you add a list in Visual Basic.
 
-     ![Properties window showing Click event](../ide/media/express_listintellisense.png)
+     ![Properties window showing Click event](../ide/media/express_listintellisense.png "Express_ListIntellisense")
 IntelliSense window
 
     > [!NOTE]

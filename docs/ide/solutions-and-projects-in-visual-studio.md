@@ -59,7 +59,7 @@ You can also create custom project and item templates. For more information, see
 
 After you create a new project, you can use **Solution Explorer** to view and manage the project and solution, and their associated items. The following illustration shows **Solution Explorer** with a C# solution that contains two projects.
 
-![Solution Explorer](../ide/media/vs2015_solution_explorer.png)
+![Solution Explorer](../ide/media/vs2015_solution_explorer.png "vs2015_solution_explorer")
 
 ## See also
 

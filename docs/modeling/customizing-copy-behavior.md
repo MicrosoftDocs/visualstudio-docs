@@ -24,7 +24,7 @@ In a domain-specific language (DSL) created with the [!INCLUDE[vsprvs](../code-q
 
  This rule applies recursively to the copied elements and links.
 
- ![Copied and pasted elements](../modeling/media/dslcopypastedefault.png)
+ ![Copied and pasted elements](../modeling/media/dslcopypastedefault.png "DslCopyPasteDefault")
 
  The copied elements and links are serialized and stored in an <xref:Microsoft.VisualStudio.Modeling.ElementGroupPrototype> (EGP), which is placed on the clipboard.
 
@@ -212,7 +212,7 @@ partial class MyDslClipboardCommandSet // EDIT NAME
 ##  <a name="customizeLinks"></a> Customizing Link Copy Behavior
  When the user copies an element, the standard behavior is that any embedded elements are also copied. You can modify the standard copying behavior. In the DSL Definition, select a role at one side of a relationship and in the Properties window set the **Propagates Copy** value.
 
- ![Propagates Copy property of domain role](../modeling/media/dslpropagatescopy.png)
+ ![Propagates Copy property of domain role](../modeling/media/dslpropagatescopy.png "DslPropagatesCopy")
 
  There are three values:
 
@@ -222,7 +222,7 @@ partial class MyDslClipboardCommandSet // EDIT NAME
 
 -   Propagate copy to link and opposite role player - the copied group includes a copy of the element at the other end of the link.
 
- ![Effect of copying with PropagateCopyToLinkOnly](../modeling/media/dslpropagatecopy.png)
+ ![Effect of copying with PropagateCopyToLinkOnly](../modeling/media/dslpropagatecopy.png "DslPropagateCopy")
 
  The changes that you make will affect both the elements and the image that is copied.
 
@@ -232,9 +232,9 @@ partial class MyDslClipboardCommandSet // EDIT NAME
 > [!TIP]
 >  For more information about customizing the model by using program code, see [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md).
 
- ![Sequence diagram for the Copy operation](../modeling/media/dslcopyseqdiagram.png)
+ ![Sequence diagram for the Copy operation](../modeling/media/dslcopyseqdiagram.png "dslCopySeqDiagram")
 
- ![Sequence diagram of Paste operation](../modeling/media/dslpasteseqdiagram.png)
+ ![Sequence diagram of Paste operation](../modeling/media/dslpasteseqdiagram.png "dslPasteSeqDiagram")
 
 #### To define your own ElementOperations
 

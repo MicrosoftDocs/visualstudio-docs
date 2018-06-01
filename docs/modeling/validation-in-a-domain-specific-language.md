@@ -135,7 +135,7 @@ public partial class ParentsHaveChildren
 
  The example applies to the following domain model. The ParentsHaveChildren relationship has roles that are named Child and Parent.
 
- ![DSL Definition diagram &#45; family tree model](../modeling/media/familyt_person.png)
+ ![DSL Definition diagram &#45; family tree model](../modeling/media/familyt_person.png "FamilyT_Person")
 
 ## Validation Categories
  In the <xref:Microsoft.VisualStudio.Modeling.Validation.ValidationMethodAttribute> attribute, you specify when the validation method should be executed.

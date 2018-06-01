@@ -64,7 +64,7 @@ You can search across the IDE for commands, files, and options, in addition to f
 
 - **Find dialog boxes, menu commands, and options**. In the [Quick Launch](../ide/reference/quick-launch-environment-options-dialog-box.md) box, enter keywords or phrases for the items that you're trying to find. For example, the following options appear if you enter `new project`:
 
-    ![Quick Launch Results for 'new project'](../ide/media/productivity_quicklaunch.png)
+    ![Quick Launch Results for 'new project'](../ide/media/productivity_quicklaunch.png "Productivity_QuickLaunch")
 
     **Quick Launch** displays links to the **New Project** dialog box, the **Add New Item** dialog box, and the **Projects and Solutions** page in the **Options** dialog box, among others. Quick Launch results can also include project files and tool windows.
 
@@ -74,7 +74,7 @@ Debugging can consume a lot of time, but the following tips can help you speed u
 
 - **Test the same page, application, or site in different browsers**. As you debug your code, you can easily switch among the installed web browsers, including [Page Inspector (Visual Studio)](http://msdn.microsoft.com/Library/65880969-1ad2-47be-85b9-bb12c81bf209), without having to open the **Browse With** dialog box. You can use the **Debug Target** list, which is on the **Standard** toolbar next to the **Start Debugging** button, to quickly verify which browser you're using as you debug or view pages.
 
-    ![Select Web browser debug options](../ide/media/webbrowserdropdowntoolbar.png)
+    ![Select Web browser debug options](../ide/media/webbrowserdropdowntoolbar.png "WebBrowserDropDownToolbar")
 
 - **Set temporary breakpoints**. You can create a temporary breakpoint in the current line of code and start the debugger simultaneously. When you hit that line of code, the debugger enters break mode. For more information, see [Navigate through code with the debugger](../debugger/navigating-through-code-with-the-debugger.md).
 

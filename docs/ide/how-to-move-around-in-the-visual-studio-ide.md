@@ -50,7 +50,7 @@ You also can switch to a specific file open in the editor, regardless of when yo
 
 The **IDE Navigator** works much like the Windows application switcher. It is not available from menus and can be accessed only using shortcut keys. You can use either of two commands to access the **IDE Navigator** (shown below) to cycle through files, depending on the order in which you want to cycle through.
 
-![Visual Studio IDE Navigator](../ide/media/vs2015_ide_navigator.png)
+![Visual Studio IDE Navigator](../ide/media/vs2015_ide_navigator.png "VS2015_IDE_Navigator")
 
 `Window.PreviousDocumentWindowNav` allows you to move to the file most recently accessed and `Window.NextDocumentWindowNav` allows you to move in the reverse order. **General Development Settings** assigns **Shift**+**Alt**+**F7** to `Window.PreviousDocumentWindowNav` and **Alt**+**F7** to `Window.NextDocumentWindowNav`.
 

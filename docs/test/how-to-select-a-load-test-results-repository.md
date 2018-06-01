@@ -32,7 +32,7 @@ For more information about agents, see [Test controllers and test agents](config
 
 2.  From the **Load Test** toolbar, choose **Manage Test Controllers**. The Manage Test Controller dialog box is displayed. If you are using an agent remotely, you must select a controller.
 
-     ![Load test results store connection properties](../test/media/loadtestconnectionproperties.png)
+     ![Load test results store connection properties](../test/media/loadtestconnectionproperties.png "LoadTestConnectionProperties")
 Load test results store connection properties
 
 3.  In the **Load test results store**, click (…) to display the **Connection Properties** dialog box.

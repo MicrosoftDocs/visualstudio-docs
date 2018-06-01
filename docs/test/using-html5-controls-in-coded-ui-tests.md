@@ -6,7 +6,7 @@ ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.author: gewarren
 manager: douge
-ms.workload:
+ms.workload: 
   - "multiple"
 author: gewarren
 ---
@@ -40,7 +40,7 @@ Coded UI tests include support for some of the HTML5 controls that are included 
 ###  <a name="UsingHTML5ControlsCodedUITestsAudio"></a> Audio Control
  **Audio control:** Actions on the HTML5 Audio control are correctly recorded and played back.
 
- ![HTML5 Audio control](../test/media/codedui_html5_audio.png)
+ ![HTML5 Audio control](../test/media/codedui_html5_audio.png "CodedUI_HTML5_Audio")
 
 |Action|Recording|Generated Code|
 |------------|---------------|--------------------|
@@ -84,7 +84,7 @@ string Volume
 ###  <a name="UsingHTML5ControlsCodedUITestsVideo"></a> Video Control
  **Video control:** Actions on the HTML5 Video control are correctly recorded and played back.
 
- ![HTML5 Video control](../test/media/codedui_html5_video.png)
+ ![HTML5 Video control](../test/media/codedui_html5_video.png "CodedUI_HTML5_Video")
 
 |Action|Recording|Generated Code|
 |------------|---------------|--------------------|
@@ -115,7 +115,7 @@ string VideoWidth
 ###  <a name="UsingHTML5ControlsCodedUITestsSlider"></a> Slider
  **Slider control:** Actions on the HTML5 Slider control are correctly recorded and played back.
 
- ![HTML5 Slider control](../test/media/codedui_html5_slider.png)
+ ![HTML5 Slider control](../test/media/codedui_html5_slider.png "CodedUI_HTML5_Slider")
 
 |Action|Recording|Generated Code|
 |------------|---------------|--------------------|
@@ -135,7 +135,7 @@ string ValueAsNumber
 ###  <a name="UsingHTML5ControlsCodedUITestsProgressbar"></a> ProgressBar
  **ProgreesBar control:** The ProgressBar is a non-interactable control. You can add assertions on the `Value` and `Max` properties of this control.
 
- ![HTML5 ProgressBar control](../test/media/codedui_html5_progressbar.png)
+ ![HTML5 ProgressBar control](../test/media/codedui_html5_progressbar.png "CodedUI_HTML5_ProgressBar")
 
 ## See also
 

@@ -21,7 +21,7 @@ ms.technology: vs-ide-test
 
 After you run a load test, you can view the load test summary to understand the results quickly. The load test summary provides the key results in a compact and easy to read format. You can also print the load test summary. This makes it convenient to use when you communicate results to stakeholders. The load test summary is also the default view when you open a load test result from a previously run load test. For more information, see [How to: Access Load Test Results for Analysis](../test/how-to-access-load-test-results-for-analysis.md).
 
- ![Summary view](../test/media/ltest_summaryview.png)
+ ![Summary view](../test/media/ltest_summaryview.png "LTest_SummaryView")
 
 ## The Load Test Summary
 

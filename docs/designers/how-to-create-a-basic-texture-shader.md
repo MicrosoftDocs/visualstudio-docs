@@ -42,7 +42,7 @@ The following illustration shows the completed shader graph and a preview of the
 > [!NOTE]
 > In this illustration, a plane is used as the preview shape, and a texture has been specified to better demonstrate the effect of the shader.
 
-![Shader graph and a preview of its effect](../designers/media/digit-texture-effect.png)
+![Shader graph and a preview of its effect](../designers/media/digit-texture-effect.png "Digit-Texture-Effect")
 
 Certain shapes might provide better previews for some shaders. For more information about how to preview shaders in the Shader Designer, see [Shader Designer](../designers/shader-designer.md)
 

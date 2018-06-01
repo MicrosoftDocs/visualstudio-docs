@@ -58,11 +58,11 @@ The following limitations apply when you re-target your test projects to use ear
 
 5.  On the **Compile** tab, choose **Advanced Compile Options** as shown in the following illustration.
 
-     ![Advanced Compile Options](../test/media/howtoconfigureunittest35frameworka.png)
+     ![Advanced Compile Options](../test/media/howtoconfigureunittest35frameworka.png "HowToConfigureUnitTest35FrameworkA")
 
 6.  Use the **Target framework (all configurations)** drop-down list to change the target framework to **.NET Framework 3.5** or a later version as shown in callout B in the following illustration. You should not specify a client version.
 
-     ![Target framework drop&#45;down list](../test/media/howtoconfigureunitest35frameworkstepb.png)
+     ![Target framework drop&#45;down list](../test/media/howtoconfigureunitest35frameworkstepb.png "HowToConfigureUniTest35FrameworkStepB")
 
 ## Re-targeting to a specific version of the .NET Framework for Visual C# Unit Test Projects
 
@@ -80,7 +80,7 @@ The following limitations apply when you re-target your test projects to use ear
 
 5.  On the **Application** tab, choose **Target framework**. From the drop-down list, choose **.NET Framework 3.5** or a later version, as shown in the following illustration. You should not specify a client version.
 
-     ![Target framework drop&#45;down list](../test/media/howtoconfigureunittest35frameworkcsharp.png)
+     ![Target framework drop&#45;down list](../test/media/howtoconfigureunittest35frameworkcsharp.png "HowToConfigureUnitTest35FrameworkCSharp")
 
 ## Re-targeting to a specific version of the .NET Framework for C++/CLI Unit Test Projects
 

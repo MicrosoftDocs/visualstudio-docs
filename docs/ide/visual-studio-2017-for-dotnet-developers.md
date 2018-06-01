@@ -83,7 +83,7 @@ Visual Studio 2017 comes with a lot of refactorings, code generation actions, an
   - [SonarLint for Visual Studio](https://marketplace.visualstudio.com/items?itemName=SonarSource.SonarLintforVisualStudio2017)
   - [StyleCopAnalyzers](https://www.nuget.org/packages/stylecop.analyzers/)
 
-![Refactorings in Visual Studio](../ide/media/VSGuide_CodeAnalysis.png)
+![Refactorings in Visual Studio](../ide/media/VSGuide_CodeAnalysis.png "VSGuide_CodeAnalysis")
 
 ## I need Find Usages, Go To Implementation, Navigate To Decompiled Assemblies
 Visual Studio 2017 has many features to help you search and navigate your codebase. Read more about [Code navigation features](../ide/navigating-code.md)
@@ -114,7 +114,7 @@ We've added a ton of new debugging capabilities in Visual Studio 2017.
 - [Step Back](../debugger/how-to-use-intellitrace-step-back.md) debugging enables you to go back to previous breakpoints or steps and view the state of the application as it was in the past.
 - [Snapshot debugging](/azure/application-insights/app-insights-snapshot-debugger) lets you investigate the state of a live web application at the moment an exception was thrown (must be on Azure).
 
-![New Exception Helper in VS2017](../ide/media/VSGuide_Debugging.png)
+![New Exception Helper in VS2017](../ide/media/VSGuide_Debugging.png "VSGuide_Debugging")
 
 ## I want to use version control with my projects.
 You can use git or TFVC to store and update your code in Visual Studio.

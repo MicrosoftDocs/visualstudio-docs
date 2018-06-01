@@ -35,7 +35,7 @@ Quick find finds the following in the designer:
 
 3.  The search term will be located in the current workflow. The following screenshot shows an activity display name being located in the designer.
 
-     ![Search result in the Workflow Designer](../workflow-designer/media/designersearch.png)
+     ![Search result in the Workflow Designer](../workflow-designer/media/designersearch.png "DesignerSearch")
 
 ## Find in files
 

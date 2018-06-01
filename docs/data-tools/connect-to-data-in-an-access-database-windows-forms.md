@@ -32,7 +32,7 @@ You can connect to an Access database (either an .mdf file or an .accdb file) by
 
 2.  On the **View** menu, select **Other Windows** > **Data Sources**.
 
-     ![View Other Windows Data Sources](../data-tools/media/viewdatasources.png)
+     ![View Other Windows Data Sources](../data-tools/media/viewdatasources.png "ViewDataSources")
 
 3.  In the **Data Sources** window, click **Add New Data Source**.
 
@@ -54,7 +54,7 @@ You can connect to an Access database (either an .mdf file or an .accdb file) by
 
 9. Back in the **Add Connection** dialog box, select **Microsoft Office 12.0 Access Database Engine OLE DB Provider** from the **OLE DB Provider** drop-down.
 
-     ![OLE DB Provider Microsoft Office 12.0 Access](../data-tools/media/dataoledbprovideroffice12access.png)
+     ![OLE DB Provider Microsoft Office 12.0 Access](../data-tools/media/dataoledbprovideroffice12access.png "dataOLEDBProviderOffice12Access")
 
      > [!NOTE]
      >  If you don't see **Microsoft Office 12.0 Access Database Engine OLE DB Provider** in the OLE DB provider drop-down, you may need to install the [2007 Office System Driver: Data Connectivity Components](https://www.microsoft.com/download/confirmation.aspx?id=23734).
@@ -82,7 +82,7 @@ You can connect to an Access database (either an .mdf file or an .accdb file) by
 
 2.  On the **View** menu, select **Other Windows** > **Data Sources**.
 
-     ![View Other Windows Data Sources](../data-tools/media/viewdatasources.png)
+     ![View Other Windows Data Sources](../data-tools/media/viewdatasources.png "ViewDataSources")
 
 3.  In the **Data Sources** window, click **Add New Data Source**.
 
@@ -98,7 +98,7 @@ You can connect to an Access database (either an .mdf file or an .accdb file) by
 
 8.  In the **Database file name**, specify the path and name of the .mdb file you want to connect to, and then select **OK**.
 
-     ![Add Connection Access Database File](../data-tools/media/dataaddconnectionaccessmdb.png)
+     ![Add Connection Access Database File](../data-tools/media/dataaddconnectionaccessmdb.png "dataAddConnectionAccessMDB")
 
 9. Select **Next** on the **Choose your Data Connection** page.
 

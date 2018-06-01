@@ -28,11 +28,11 @@ When you are working with long code files, it can be hard to keep everything in 
 
     Here's how the scroll bar looks after a search for a string. Notice that all instances of the string appear.
 
-    ![The scroll bar after searching for a string.](../ide/media/enhancedscrollbarsearch.png)
+    ![The scroll bar after searching for a string.](../ide/media/enhancedscrollbarsearch.png "EnhancedScrollbarSearch")
 
     Here's the scroll bar after replacing all the instances of the string. You can see immediately that the operation caused some problems.
 
-    ![The scrollbar after replacing a string with errors](../ide/media/enhancedscrollbarreplace.png)
+    ![The scrollbar after replacing a string with errors](../ide/media/enhancedscrollbarreplace.png "EnhancedScrollbarReplace")
 
 ## To set the display mode for the scroll bar
 
@@ -42,11 +42,11 @@ When you are working with long code files, it can be hard to keep everything in 
 
     Here's how the search example looks when map mode is on and the width is set to **Medium**:
 
-    ![The scroll bar in map mode](../ide/media/enhancedscrollbar.png)
+    ![The scroll bar in map mode](../ide/media/enhancedscrollbar.png "EnhancedScrollbar")
 
 2. In map mode, to enable previews of the code when you move the cursor up and down the scroll bar, select the **Show Preview Tooltip** option. Here's how it looks:
 
-    ![The scrollbar with a tooltip](../ide/media/enhancedscrollbarsearchtooltip.png)
+    ![The scrollbar with a tooltip](../ide/media/enhancedscrollbarsearchtooltip.png "EnhancedScrollbarSearchTooltip")
 
     If you want to keep the map mode scrolling behavior and the preview tooltip, but don't want to see the source code overview, you can set **Source Overview** to **Off**.
 

@@ -53,7 +53,7 @@ A domain-specific language (DSL) is created by using a specialized [!INCLUDE[vsp
         > [!NOTE]
         >  Preferably, the name that you type should be a valid Visual C# identifier, because it might be used to generate code.
 
-     ![Create DSL dialog](../modeling/media/create_dsldialog.png)
+     ![Create DSL dialog](../modeling/media/create_dsldialog.png "Create_DSLDialog")
 
 2.  Choose a DSL template.
 

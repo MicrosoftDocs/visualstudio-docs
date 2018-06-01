@@ -17,7 +17,7 @@ The Graph View provides a graphic representation of global schema nodes and the 
 
  The following image shows the Graph View with six global nodes on its design surface.
 
- ![XML Schema Designer Graph View](../xml-tools/media/xsddesigner_graphview.gif)
+ ![XML Schema Designer Graph View](../xml-tools/media/xsddesigner_graphview.gif "XSDDesigner_GraphView")
 
 ## Design surface
 
@@ -29,7 +29,7 @@ The Graph View provides a graphic representation of global schema nodes and the 
 
  If the design surface is blank, the XML Editor, the **XML Schema Explorer**, and the watermark are shown. The *watermark* is a list of links to all the XSD Designer views.
 
- ![XSD Designer; Graph View](../xml-tools/media/xsdgraphviewwatermark.gif)
+ ![XSD Designer; Graph View](../xml-tools/media/xsdgraphviewwatermark.gif "XSDGraphViewWatermark")
 
  If the schema set has errors, the following text is displayed at the end of the list: "Use the Error List to view and fix the errors in the set."
 
@@ -93,7 +93,7 @@ The Graph View provides a graphic representation of global schema nodes and the 
 
  The following XSD Toolbar buttons are enabled when the Graph View is active.
 
- ![XML Schema Designer Toolbar](../xml-tools/media/xsdgraphviewtoolbar.gif)
+ ![XML Schema Designer Toolbar](../xml-tools/media/xsdgraphviewtoolbar.gif "XSDGraphViewToolbar")
 
 |Option|Description|
 |------------|-----------------|

@@ -23,7 +23,7 @@ The **XML Schema Explorer** enables you to search the schema set in the followin
 
  You perform keyword searches by entering a substring in the **Search SchemaSet** text box of the **XML Schema Explorer** toolbar.
 
- ![XML Schema Explorer Keyword Search](../xml-tools/media/schemaexplorersearch.gif)
+ ![XML Schema Explorer Keyword Search](../xml-tools/media/schemaexplorersearch.gif "SchemaExplorerSearch")
 
  The **XML Schema Explorer** searches the schema set for the following attributes:
 
@@ -43,7 +43,7 @@ The **XML Schema Explorer** enables you to search the schema set in the followin
 
  You can add the search results to the workspace by clicking the **Add highlighted nodes to Workspace** button on the summary results pane.
 
- ![XML Schema Explorer Search Result](../xml-tools/media/schemaexplorersearchresult.gif)
+ ![XML Schema Explorer Search Result](../xml-tools/media/schemaexplorersearchresult.gif "SchemaExplorerSearchResult")
 
 ## Clear search results
 

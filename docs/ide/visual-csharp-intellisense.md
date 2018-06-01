@@ -88,7 +88,7 @@ The **Add using** IntelliSense operation automatically adds the required `using`
 
 To initiate the **Add using** operation, position the cursor on a type reference that cannot be resolved. For example, when you create a console application and then add `XmlTextReader` to the body of the `Main` method, a red squiggle appears on that line of code because the type reference cannot be resolved. You can then invoke the **Add using** through the **Quick Actions**. The **Quick Actions** is only visible when the cursor is positioned on the unbound type.
 
-![Add using, quick action expanded image](../ide/media/addusing-quickaction.png)
+![Add using, quick action expanded image](../ide/media/addusing-quickaction.png "AddUsing-QuickAction")
 
 Click the light bulb icon, and then choose **using System.Xml;** to automatically add the using directive.
 
@@ -138,11 +138,11 @@ In the code editor, IntelliSense can help you hook up methods (event handlers) t
 
 When you type the `+=` operator after an event field in a *.cs* file, IntelliSense prompts you with the option to press the **Tab** key. This inserts a new instance of a delegate that points to the method handling the event.
 
-![Button Auto Hook Up](../ide/media/vxautohookup.gif)
+![Button Auto Hook Up](../ide/media/vxautohookup.gif "vxAutoHookUp")
 
 If you press **Tab**, IntelliSense automatically finishes the statement for you and displays the event handler reference as selected text in the code editor. To complete the automatic event hookup, IntelliSense prompts you to press the **Tab** key again to create an empty stub for the event handler.
 
-![Generate Event Handler](../ide/media/vxgenerateeventhandler.gif)
+![Generate Event Handler](../ide/media/vxgenerateeventhandler.gif "vxGenerateEventHandler")
 
 > [!NOTE]
 > If a new delegate that is created by IntelliSense references an existing event handler, IntelliSense communicates this information in the tooltip. You can then modify this reference; the text is already selected in the code editor. Otherwise, automatic event hookup is complete at this point.

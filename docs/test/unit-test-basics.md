@@ -4,12 +4,12 @@ ms.date: 2016-01-07
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ms.topic: conceptual
-f1_keywords:
+f1_keywords: 
   - "vs.UnitTest.CreateUnitTest"
 author: gewarren
 ms.author: gewarren
 manager: douge
-ms.workload:
+ms.workload: 
   - "multiple"
 ---
 # Unit test basics
@@ -36,7 +36,7 @@ For an introduction to unit testing that takes you directly into coding, see one
 
 In this topic, we use the development of a fictional application called `MyBank` as an example. You don't need the actual code to follow the explanations in this topic. Test methods are written in C# and presented by using the Microsoft Unit Testing Framework for Managed Code, However, the concepts are easily transferred to other languages and frameworks.
 
- ![MyBank Solution](../test/media/ute_mybanksolution.png)
+ ![MyBank Solution](../test/media/ute_mybanksolution.png "UTE_MyBankSolution")
 
  Our first attempt at a design for the `MyBank` application includes an accounts component that represents an individual account and its transactions with the bank, and a database component that represents the functionality to aggregate and manage the individual accounts.
 
@@ -80,15 +80,15 @@ It is often quicker to generate the unit test project and unit test stubs from y
 
 1.  From the code editor window, right-click and choose **Create Unit Tests** from the context menu.
 
-     ![From the editor window, view the context menu](../test/media/createunittestsrightclick.png)
+     ![From the editor window, view the context menu](../test/media/createunittestsrightclick.png "CreateUnitTestsRightClick")
 
 2.  Click OK to accept the defaults to create your unit tests, or change the values used to create and name the unit test project and the unit tests. You can select the code that is added by default to the unit test methods.
 
-     ![Right&#45;click in editor and choose Create Unit Tests](../test/media/createunittestsdialog.png)
+     ![Right&#45;click in editor and choose Create Unit Tests](../test/media/createunittestsdialog.png "CreateUnitTestsDialog")
 
 3.  The unit test stubs are created in a new unit test project for all the methods in the class.
 
-     ![The unit tests are created](../test/media/createunittestsstubs.png)
+     ![The unit tests are created](../test/media/createunittestsstubs.png "CreateUnitTestsStubs")
 
 4.  Now jump ahead to learn how to [add code to the unit test methods](#BKMK_Writing_your_tests) to make your unit test meaningful, and any extra unit tests that you might want to add to thoroughly test your code.
 
@@ -199,7 +199,7 @@ public void My_Test ()
 
 When you build the test project, the tests appear in Test Explorer. If Test Explorer is not visible, choose **Test** on the Visual Studio menu, choose **Windows**, and then choose **Test Explorer**.
 
- ![Unit Test Explorer](../test/media/ute_failedpassednotrunsummary.png)
+ ![Unit Test Explorer](../test/media/ute_failedpassednotrunsummary.png "UTE_FailedPassedNotRunSummary")
 
  As you run, write, and rerun your tests, the default view of Test Explorer displays the results in groups of **Failed Tests**, **Passed Tests**, **Skipped Tests** and **Not Run Tests**. You can choose a group heading to open the view that displays all them tests in that group.
 
@@ -209,11 +209,11 @@ When you build the test project, the tests appear in Test Explorer. If Test Expl
 
 The Test Explorer toolbar helps you discover, organize, and run the tests that you are interested in.
 
- ![Run tests from the Test Explorer toolbar](../test/media/ute_toolbar.png)
+ ![Run tests from the Test Explorer toolbar](../test/media/ute_toolbar.png "UTE_ToolBar")
 
  You can choose **Run All** to run all your tests, or choose **Run** to choose a subset of tests to run. After you run a set of tests, a summary of the test run appears at the bottom of the Test Explorer window. Select a test to view the details of that test in the bottom pane. Choose **Open Test** from the context menu (Keyboard: F12) to display the source code for the selected test.
 
- If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png) toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
+ If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png "UTE_parallelicon-small") toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
 
 ### Run tests after every build
 
@@ -222,17 +222,17 @@ The Test Explorer toolbar helps you discover, organize, and run the tests that y
 
 |||
 |-|-|
-|![Run after build](../test/media/ute_runafterbuild_btn.png)|To run your unit tests after each local build, choose **Test** on the standard menu, choose **Run Tests After Build** on the Test Explorer toolbar.|
+|![Run after build](../test/media/ute_runafterbuild_btn.png "UTE_RunAfterBuild_btn")|To run your unit tests after each local build, choose **Test** on the standard menu, choose **Run Tests After Build** on the Test Explorer toolbar.|
 
 ### Filter and group the test list
 
 When you have a large number of tests, you can Type in Test Explorer search box to filter the list by the specified string. You can restrict your filter event more by choosing from the filter list.
 
- ![Search filter categories](../test/media/ute_searchfilter.png)
+ ![Search filter categories](../test/media/ute_searchfilter.png "UTE_SearchFilter")
 
 |||
 |-|-|
-|![Test Explorer group button](../test/media/ute_groupby_btn.png)|To group your tests by category, choose the **Group By** button.|
+|![Test Explorer group button](../test/media/ute_groupby_btn.png "UTE_GroupBy_btn")|To group your tests by category, choose the **Group By** button.|
 
  For more information, see [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md)
 
@@ -255,7 +255,7 @@ Learn more details about [debugging unit tests](../debugger/debugging-in-visual-
 
  **A:** Use IntelliSense to generate classes and methods in your project code. Write a statement in a test method that calls the class or method that you want to generate, then open the IntelliSense menu under the call. If the call is to a constructor of the new class, choose **Generate new type** from the menu and follow the wizard to insert the class in your code project. If the call is to a method, choose **Generate new method** from the IntelliSense menu.
 
- ![Generate Method Stub IntelliSense Menu](../test/media/ute_generatemethodstubintellisense.png)
+ ![Generate Method Stub IntelliSense Menu](../test/media/ute_generatemethodstubintellisense.png "UTE_GenerateMethodStubIntellisense")
 
  **Q: Can I create unit tests that take multiple sets of data as input to run the test?**
 
@@ -299,7 +299,7 @@ The attributed method runs once for each row in the table. Test Explorer reports
 
  Coverage results appear in the Code Coverage Results window.
 
- ![Code coverage results](../test/media/ute_codecoverageresults.png)
+ ![Code coverage results](../test/media/ute_codecoverageresults.png "UTE_CodeCoverageResults")
 
  Learn more about [code coverage](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md) .
 
@@ -321,6 +321,6 @@ Learn more about [isolating unit test methods with Microsoft Fakes](../test/isol
 
  **A:** Yes, follow these steps to [find and install other frameworks](../test/install-third-party-unit-test-frameworks.md). After you restart Visual Studio, reopen your solution to create your unit tests, and then select your installed frameworks here:
 
- ![Select other installed unit test framework](../test/media/createunittestsdialogextensions.png)
+ ![Select other installed unit test framework](../test/media/createunittestsdialogextensions.png "CreateUnitTestsDialogExtensions")
 
  Your unit test stubs will be created using the selected framework.

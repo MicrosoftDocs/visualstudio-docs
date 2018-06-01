@@ -145,13 +145,13 @@ Dinner Now must estimate the cost of meeting the new requirement. This depends p
 
  For example, the developer creates a code map. She adjusts its scope to focus on the areas that will be affected by the new scenario. These areas are selected and highlighted on the map:
 
- ![Namespace Dependency Graph](../modeling/media/namespace_reviewsystem.png)
+ ![Namespace Dependency Graph](../modeling/media/namespace_reviewsystem.png "Namespace_ReviewSystem")
 
  **Namespace code map**
 
  The developer expands the selected namespaces to see their classes, methods, and relationships:
 
- ![Expanded namespace dependency graph](../modeling/media/dep_reviewsystem.png)
+ ![Expanded namespace dependency graph](../modeling/media/dep_reviewsystem.png "Dep_ReviewSystem")
 
  **Expanded namespace code map with visible cross-group links**
 
@@ -172,7 +172,7 @@ Dinner Now must estimate the cost of meeting the new requirement. This depends p
 
  For example, the following dependency diagram describes dependencies between layers and the number of artifacts that are associated with each layer:
 
- ![Dependency diagram of integrated payment system](../modeling/media/layer_integrated_dnlucerne.png)
+ ![Dependency diagram of integrated payment system](../modeling/media/layer_integrated_dnlucerne.png "Layer_Integrated_DNLucerne")
 
  **Dependency Diagram**
 
@@ -272,19 +272,19 @@ For example, Dinner Now must estimate the cost of updating the PaymentProcessing
 
 The following map shows the dependencies between the PaymentProcessing class and other parts of the Dinner Now system, which appear selected:
 
-![Dependency graph for Dinner Now payment system](../modeling/media/dep_dnpayment.png)
+![Dependency graph for Dinner Now payment system](../modeling/media/dep_dnpayment.png "Dep_DNPayment")
 
 **Code map for Dinner Now payment system**
 
 The developer explores the map by expanding the PaymentProcessing class and selecting its members to see the areas that are potentially affected:
 
-![Methods inside PaymentProcessing and dependencies](../modeling/media/depgraph_expandeddn.png)
+![Methods inside PaymentProcessing and dependencies](../modeling/media/depgraph_expandeddn.png "DepGraph_ExpandedDN")
 
 **Methods inside PaymentProcessing class and their dependencies**
 
 They generate the following map for the Lucerne Payment System to inspect its classes, methods, and dependencies. The team sees that the Lucerne system might also require work to interact with the other parts of Dinner Now:
 
-![Dependency graph for Lucerne payment system](../modeling/media/depgraph_lucernepay.png)
+![Dependency graph for Lucerne payment system](../modeling/media/depgraph_lucernepay.png "DepGraph_LucernePay")
 
 **Code map for Lucerne Payment System**
 
@@ -292,7 +292,7 @@ Both teams work together to determine the changes that are required to integrate
 
 After reorganizing the code, the teams generate a new code map to see the updated structure and relationships:
 
-![Dependency graph with reorganized code](../modeling/media/depgraph_integrated.png)
+![Dependency graph with reorganized code](../modeling/media/depgraph_integrated.png "DepGraph_Integrated")
 
 **Code map with reorganized code**
 
@@ -333,7 +333,7 @@ This map shows that the PaymentApprover class is now in the DinnerNow.Business n
 
  To help Lucerne describe and discuss the entities that participate in the Process Payment use case, they draw the following class diagram:
 
- ![Process Payment entities on the class diagram](../modeling/media/uml_payentities.png)
+ ![Process Payment entities on the class diagram](../modeling/media/uml_payentities.png "UML_PayEntities")
 
  **Process Payment entities on a class diagram**
 
@@ -341,7 +341,7 @@ This map shows that the PaymentApprover class is now in the DinnerNow.Business n
 
  During development, Lucerne uses the following class diagram to describe and discuss the details of each class:
 
- ![Process Payment entity details on a class diagram](../modeling/media/uml_payment.png)
+ ![Process Payment entity details on a class diagram](../modeling/media/uml_payment.png "UML_Payment")
 
  **Process Payment details on the class diagram**
 
@@ -402,7 +402,7 @@ As a starting point to explore and discuss existing classes, you can use Class D
 
  To keep the code consistent with the design, Dinner Now and Lucerne use the following dependency diagram to validate their code as it evolves:
 
- ![Dependency diagram of integrated payment system](../modeling/media/layer_integrated_dnlucerne.png)
+ ![Dependency diagram of integrated payment system](../modeling/media/layer_integrated_dnlucerne.png "Layer_Integrated_DNLucerne")
 
  **Dependency diagram for Dinner Now integrated with Lucerne**
 
@@ -412,13 +412,13 @@ As a starting point to explore and discuss existing classes, you can use Class D
 
  The following code map shows the new calls between the Dinner Now and PaymentApprover:
 
- ![Updated dependency graph with integrated system](../modeling/media/depgraph_intsystem.png)
+ ![Updated dependency graph with integrated system](../modeling/media/depgraph_intsystem.png "DepGraph_IntSystem")
 
  **Code map with updated method calls**
 
  After they confirm that the system works as expected, Dinner Now comments out the PaymentProcessing code. The layer validation reports are clean, and the resulting code map shows that no more PaymentProcessing dependencies exist:
 
- ![Dependency graph without PaymentProcessing](../modeling/media/depgraph_nomore.png)
+ ![Dependency graph without PaymentProcessing](../modeling/media/depgraph_nomore.png "DepGraph_NoMore")
 
  **Code map without PaymentProcessing**
 
