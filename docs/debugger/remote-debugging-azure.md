@@ -192,7 +192,7 @@ If you have trouble opening the page with the remote debugger download, see [Unb
 
 ### <a name="BKMK_attach"></a> Attach to the ASP.NET application from the Visual Studio computer
 
-1. On the Visual Studio computer, open the **MyASPApp** solution.
+1. On the Visual Studio computer, open the solution that you are trying to debug (**MyASPApp** if you are following the steps in this article).
 2. In Visual Studio, click **Debug > Attach to Process** (Ctrl + Alt + P).
 
     > [!TIP]
