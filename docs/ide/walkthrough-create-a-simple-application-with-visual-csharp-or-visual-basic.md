@@ -23,11 +23,11 @@ By completing this walkthrough, you'll become familiar with many of the tools, d
 
 When you start Visual Studio for the first time, you'll be prompted to sign in. This step is optional for this walkthrough. Next you may be shown a dialog box that asks you to choose your development settings and color theme. Keep the defaults and choose **Start Visual Studio**.
 
-![Choose settings dialog box](../ide/media/exploreide-settings.png "exploreide-settings")
+![Choose settings dialog box](../ide/media/exploreide-settings.png)
 
 After Visual Studio launches, you'll see tool windows, the menus and toolbars, and the main window space. Tool windows are docked on the left and right sides of the application window, with **Quick Launch**, the menu bar, and the standard toolbar at the top. In the center of the application window is the **Start Page**. When you load a solution or project, editors and designers appear in the space where the **Start Page** is. When you develop an application, you'll spend most of your time in this central area.
 
-![IDE with General Settings Applied](../ide/media/exploreide-idewithgeneralsettings.png "ExploreIDE-IDEwithgeneralsettings")
+![IDE with General Settings Applied](../ide/media/exploreide-idewithgeneralsettings.png)
 
 ##  <a name="BKMK_CreateApp"></a> Create a simple application
 
@@ -39,15 +39,15 @@ When you create an application in Visual Studio, you first create a project and 
 
 1.  Create a new project. On the menu bar, choose **File** > **New** > **Project**.
 
-     ![On the menu bar, choose File, New, Project](../ide/media/exploreide-filenewproject.png "ExploreIDE-FileNewProject")
+     ![On the menu bar, choose File, New, Project](../ide/media/exploreide-filenewproject.png)
 
 2.  Choose the Visual Basic or the Visual C# WPF App template by choosing in the left pane **Installed** > **Visual C#** > **Windows Classic Desktop**, for example, and then choosing **WPF App (.NET Framework)** in the middle pane.  Name the project `HelloWPFApp` at the bottom of the **New Project** dialog.
 
-     ![Create a C# WPF Project, HelloWPFApp](../ide/media/exploreide-newprojectcsharp.png "ExploreIDE-NewProjectcsharp")
+     ![Create a C# WPF Project, HelloWPFApp](../ide/media/exploreide-newprojectcsharp.png)
 
 Visual Studio creates the HelloWPFApp project and solution, and **Solution Explorer** shows the various files. The **WPF Designer** shows a design view and a XAML view of *MainWindow.xaml* in a split view. You can slide the splitter to show more or less of either view.  You can choose to see only the visual view or only the XAML view. (For more information, see [WPF Designer for Windows Forms developers](http://msdn.microsoft.com/47ad0909-e89b-4996-b4ac-874d929f94ca).) The following items appear in **Solution Explorer**:
 
-![Solution Explorer with HelloWPFApp files loaded](../ide/media/exploreide-hellowpfappfiles.png "ExploreIDE-HelloWPFAppFiles")
+![Solution Explorer with HelloWPFApp files loaded](../ide/media/exploreide-hellowpfappfiles.png)
 
 After you create the project, you can customize it. By using the **Properties** window (found on the **View** menu), you can display and change options for project items, controls, and other items in an application.
 
@@ -58,7 +58,7 @@ Let's give MainWindow a more specific name.
 1. In **Solution Explorer**, select *MainWindow.xaml*. You should see the **Properties** window, but if you don't, choose the **View** menu and then the **Properties Window** item.
 2. Change the **File Name** property to `Greetings.xaml`.
 
-     ![Properties window with File Name highlighted](../ide/media/exploreide-filenameinpropertieswindow.png "ExploreIDE-FilenameinPropertiesWindow")
+     ![Properties window with File Name highlighted](../ide/media/exploreide-filenameinpropertieswindow.png)
 
      **Solution Explorer** shows that the name of the file is now *Greetings.xaml*, and the nested code file is now named *Greetings.xaml.vb* or *Greetings.xaml.cs*. This code file is nested under the *.xaml* file node to show they are closely related to each other.
 
@@ -72,13 +72,13 @@ We will add three types of controls to this application: a <xref:System.Windows.
 
 2.  In the **Toolbox**, expand the **Common WPF Controls** node to see the TextBlock control.
 
-     ![Toolbox with the TextBlock control highlighted](../ide/media/exploreide-textblocktoolbox.png "ExploreIDE-TextBlockToolbox")
+     ![Toolbox with the TextBlock control highlighted](../ide/media/exploreide-textblocktoolbox.png)
 
 3.  Add a TextBlock control to the design surface by choosing the **TextBlock** item and dragging it to the window on the design surface. Center the control near the top of the window.
 
 Your window should resemble the following illustration:
 
-![TextBlock control on the Greetings form](../ide/media/exploreide-greetingswithtextblockonly.png "ExploreIDE-GreetingswithTextblockonly")
+![TextBlock control on the Greetings form](../ide/media/exploreide-greetingswithtextblockonly.png)
 
 The XAML markup should look something like the following:
 
@@ -102,17 +102,17 @@ Next, you'll add two [RadioButton](/dotnet/framework/wpf/controls/radiobutton) c
 
 1.  In the **Toolbox**, find the **RadioButton** control.
 
-     ![Toolbox window with RadioButton control selected](../ide/media/exploreide-radiobuttontoolbox.png "ExploreIDE-RadioButtonToolbox")
+     ![Toolbox window with RadioButton control selected](../ide/media/exploreide-radiobuttontoolbox.png)
 
 2.  Add two RadioButton controls to the design surface by choosing the **RadioButton** item and dragging it to the window on the design surface. Move the buttons (by selecting them and using the arrow keys) so that the buttons appear side by side under the TextBlock control.
 
      Your window should look like this:
 
-     ![Greetings form with textblock and two radiobuttons](../ide/media/exploreide-greetingswithradiobuttons.png "ExploreIDE-Greetingswithradiobuttons")
+     ![Greetings form with textblock and two radiobuttons](../ide/media/exploreide-greetingswithradiobuttons.png)
 
 3.  In the **Properties** window for the left RadioButton control, change the **Name** property (the property at the top of the **Properties** window) to `HelloButton`.
 
-     ![RadioButton properties window](../ide/media/exploreide-buttonproperties.png "exploreide-buttonproperties")
+     ![RadioButton properties window](../ide/media/exploreide-buttonproperties.png)
 
 4.  In the **Properties** window for the right RadioButton control, change the **Name** property to `GoodbyeButton`, and then save your changes.
 
@@ -147,7 +147,7 @@ The final UI element that you'll add is a [Button](/dotnet/framework/wpf/control
 
      Your window should resemble the following illustration.
 
-     ![Greetings form with control labels](../ide/media/exploreide-greetingswithconrollabels.png "ExploreIDE-Greetingswithconrollabels")
+     ![Greetings form with control labels](../ide/media/exploreide-greetingswithconrollabels.png)
 
 ### Add code to the display button
 
@@ -206,13 +206,13 @@ In this step, you'll find the error that we caused earlier by changing the name 
 
 1.  Start the debugger by selecting **Debug**, then **Start Debugging**.
 
-     ![Start Debugging command on the Debug menu](../ide/media/exploreide-startdebugging.png "ExploreIDE-StartDebugging")
+     ![Start Debugging command on the Debug menu](../ide/media/exploreide-startdebugging.png)
 
      A **Break Mode** window appears, and the **Output** window indicates that an IOException has occurred: Cannot locate resource 'mainwindow.xaml'.
 
 2.  Stop the debugger by choosing **Debug** > **Stop Debugging**.
 
-     ![Stop Debugging command on the Debug menu](../ide/media/exploreide-stopdebugging.png "ExploreIDE-StopDebugging")
+     ![Stop Debugging command on the Debug menu](../ide/media/exploreide-stopdebugging.png)
 
 We renamed *MainWindow.xaml* to *Greetings.xaml* at the start of this walkthrough, but the code still refers to *MainWindow.xaml* as the startup URI for the application, so the project can't start.
 
@@ -234,7 +234,7 @@ You can test the code during debugging by adding some breakpoints. You can add b
 
 2.  Add a breakpoint from the menu by selecting **Debug**, then **Toggle Breakpoint**.
 
-     ![Toggle Breakpoint command on the Debug menu](../ide/media/exploreide-togglebreakpoint.png "ExploreIDE-ToggleBreakpoint")
+     ![Toggle Breakpoint command on the Debug menu](../ide/media/exploreide-togglebreakpoint.png)
 
      A red circle appears next to the line of code in the far left margin of the editor window.
 

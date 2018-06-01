@@ -70,7 +70,7 @@ The procedures below demonstrate how to view the Virtual User Activity Chart, ho
 
      **Details Legend panel**
 
-     ![Details legend panel](../test/media/ltest_detailslegend.png "LTest_DetailsLegend")
+     ![Details legend panel](../test/media/ltest_detailslegend.png)
 
 2.  Select or clear the check boxes for the errors, logs, tests, search, and aspx pages that are associated with the load test.
 
@@ -82,7 +82,7 @@ The procedures below demonstrate how to view the Virtual User Activity Chart, ho
 
      **Filter results panel**
 
-     ![Filter results panel](../test/media/ltest_filterresults.png "LTest_FilterResults")
+     ![Filter results panel](../test/media/ltest_filterresults.png)
 
 3.  In the Filter results, select or clear the check boxes for the following filter options:
 

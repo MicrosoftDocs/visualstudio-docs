@@ -6,7 +6,7 @@ ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 author: gewarren
 ---
@@ -23,7 +23,7 @@ We recommend that you create unit tests to help keep your code working correctly
 -   See in one window all the information that you need.
 
 ## Using Test Explorer
- ![Unit Test Explorer showing Run All button](../test/media/unittestexplorer-beta-.png "UnitTestExplorer(beta)")
+ ![Unit Test Explorer showing Run All button](../test/media/unittestexplorer-beta-.png)
 
 ### To Run Unit Tests by using Test Explorer
 
@@ -39,7 +39,7 @@ We recommend that you create unit tests to help keep your code working correctly
 
     2.  Write each unit test as a method. Prefix each test method with the `[TestMethod]` attribute.
 
-2.  If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png "UTE_parallelicon-small") toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
+2.  If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png) toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
 
 3.  On the menu bar, choose **Test**, **Run Unit Tests**, **All Tests**.
 
@@ -74,7 +74,7 @@ We recommend that you create unit tests to help keep your code working correctly
 
     -   In the **New Project** dialog, choose **Visual C#**, **Test** and then choose **Unit Test Project**.
 
-         ![New code and test projects](../test/media/unittestexplorerwalk1.png "UnitTestExplorerWalk1")
+         ![New code and test projects](../test/media/unittestexplorerwalk1.png)
 
 3.  Write a basic test method. Verify the result obtained for a specific input:
 
@@ -120,7 +120,7 @@ We recommend that you create unit tests to help keep your code working correctly
 
 7.  Select the items under **Stack Trace** to see where the test failed.
 
- ![Unit Test Explorer showing failed test.](../test/media/unittestexplorerwalkthrough2.png "UnitTestExplorerWalkthrough2")
+ ![Unit Test Explorer showing failed test.](../test/media/unittestexplorerwalkthrough2.png)
 
  At this point, you have created a test and a stub that you will modify so that the test passes.
 
@@ -141,7 +141,7 @@ We recommend that you create unit tests to help keep your code working correctly
 
      The test passes.
 
-     ![Unit Test Explorer showing a passing test.](../test/media/unittestexplorerwalkthrough3.png "UnitTestExplorerWalkthrough3")
+     ![Unit Test Explorer showing a passing test.](../test/media/unittestexplorerwalkthrough3.png)
 
 #### Add tests to extend the range of inputs
 
@@ -283,4 +283,4 @@ We recommend that you create unit tests to help keep your code working correctly
 
      All the tests still pass.
 
-     ![Unit Test Explorer showing 3 passed tests.](../test/media/unittestexplorerwalkthrough4.png "UnitTestExplorerWalkthrough4")
+     ![Unit Test Explorer showing 3 passed tests.](../test/media/unittestexplorerwalkthrough4.png)

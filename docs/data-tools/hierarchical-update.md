@@ -34,12 +34,12 @@ ms.workload:
 ## Enable hierarchical update in a dataset
  By default, hierarchical update is enabled for all new datasets that are added or created in a project. Turn hierarchical update on or off by setting the **Hierarchical Update** property of a typed dataset in The dataset to **True** or **False**:
 
- ![Hierarchical update setting](../data-tools/media/hierarchical-update-setting.png "Hierarchical update setting")
+ ![Hierarchical update setting](../data-tools/media/hierarchical-update-setting.png)
 
 ## Create a new relation between tables
  To create a new relation between two tables, in the Dataset Designer, select the title bar of each table, then right-click and select **Add relation**.
 
- ![Hierarchical update add relation menu](../data-tools/media/hierarchical-update-add-relation-menu.png "Hierarchical update add relation menu")
+ ![Hierarchical update add relation menu](../data-tools/media/hierarchical-update-add-relation-menu.png)
 
 ## Understand foreign-key constraints, cascading updates, and deletes
  It's important to understand how foreign-key constraints and cascading behavior in the database are created in the generated dataset code.
