@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating a Master Detail Relation Using a Cached Dataset | Microsoft Docs"
+title: "Walkthrough: Create a master detail relation using a cached dataset"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
@@ -17,7 +17,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Walkthrough: Creating a Master Detail Relation Using a Cached Dataset
+# Walkthrough: Create a master detail relation using a cached dataset
   This walkthrough demonstrates creating a master/detail relation on a worksheet, and caching the data so that the solution can be used offline.  
   
  [!INCLUDE[appliesto_xlalldoc](../vsto/includes/appliesto-xlalldoc-md.md)]  
