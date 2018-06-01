@@ -38,7 +38,7 @@ ms.workload:
   
  Locks are frequently nested. Nesting occurs when a thread executing a critical section performs a function that then requires another lock. Some amount of lock nesting is unavoidable. Your critical section may call a .NET Framework method that relies on locks to ensure it is thread-safe. A call from some critical section in your application into a Framework method that also locks using a different lock handle causes locks to nest. Nested locking conditions can lead to performance problems that are notoriously difficult to unravel and fix.  
   
- This rule fires when measurements taken during a profiling run indicate there is a excessively high amount of lock contention. Lock contentions delay the execution of threads that are waiting for the lock. Even fairly small amounts of lock contention in unit tests or in load tests running on lower end hardware should be investigated.  
+ This rule fires when measurements taken during a profiling run indicate there is an excessively high amount of lock contention. Lock contentions delay the execution of threads that are waiting for the lock. Even fairly small amounts of lock contention in unit tests or in load tests running on lower end hardware should be investigated.  
   
 > [!NOTE]
 >  When the rate of reported lock contentions in the profiling data is excessively high, the [DA0039: Very High Rate of Lock contentions](../profiling/da0039-very-high-rate-of-lock-contentions.md) warning message is fired instead of this information message.  

@@ -15,7 +15,7 @@ manager: douge
 ms.workload: 
   - "dotnet"
 ---
-# DA0018: 32-bit Application running at process managed memory limits
+# DA0018: 32-bit Application running at process-managed memory limits
 |||  
 |-|-|  
 |Rule Id|DA0018|  
@@ -63,4 +63,4 @@ ms.workload:
   
  To gain architectural relief from the virtual memory constraints on the size of the private portion of a process address space, try running this 32-bit process on a 64-bit machine.  A 32-bit process on a 64-bit machine can acquire up to 4 GB of private virtual memory.  
   
- A 64-bit process running on a 64-bit machine can acquire up to 8 TB of virtual memory. Consider re-compiling the application to execute as a native 64-bit application. This rule is for information only, and might not require corrective action.
+ A 64-bit process running on a 64-bit machine can acquire up to 8 TB of virtual memory. Consider recompiling the application to execute as a native 64-bit application. This rule is for information only, and might not require corrective action.
