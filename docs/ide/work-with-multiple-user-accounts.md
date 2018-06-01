@@ -66,7 +66,7 @@ Click on the down arrow next to your user name in the upper corner of Visual Stu
 
 Follow the prompts to enter the new account credentials. The following illustration shows the **Account Manager** after a user has added his *Contoso.com* work account.
 
-![Account Manager](../ide/media/vs2015_accountmanager.gif "VS2015_AccountManager")
+![Account Manager](../ide/media/vs2015_accountmanager.gif)
 
 ## Revisit the Add Connected Services wizard and Server Explorer
 

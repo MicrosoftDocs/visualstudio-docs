@@ -39,7 +39,7 @@ Picture that you create in this tutorial
 
  To download a completed version of the sample, see [Complete picture viewer tutorial sample](http://code.msdn.microsoft.com/Complete-Picture-Viewer-7d91d3a8).
 
- ![link to video](../data-tools/media/playvideo.gif "PlayVideo")For a video version of this topic, see [How do I: Create a picture viewer in Visual Basic?](http://go.microsoft.com/fwlink/?LinkId=205207) or [How do I: Create a picture viewer in C#?](http://go.microsoft.com/fwlink/?LinkId=205198).
+ ![link to video](../data-tools/media/playvideo.gif)For a video version of this topic, see [How do I: Create a picture viewer in Visual Basic?](http://go.microsoft.com/fwlink/?LinkId=205207) or [How do I: Create a picture viewer in C#?](http://go.microsoft.com/fwlink/?LinkId=205198).
 
 > [!NOTE]
 >  These videos use an earlier version of Visual Studio, so there are slight differences in some menu commands and other user interface elements. However, the concepts and procedures work similarly in the current version of Visual Studio. Visual C# and Visual Basic are both covered in this tutorial, so focus on information specific to the programming language that you're using.

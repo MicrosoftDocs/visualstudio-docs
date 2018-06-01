@@ -58,7 +58,7 @@ The **Advanced Options** in the wizard enable you to:
 ## Configure a TableAdapter's Fill method
 Sometimes you might want to change the schema of the TableAdapter's table. To do this, you modify the  TableAdapter's primary `Fill` method. TableAdapters are created with a primary `Fill` method that defines the schema of the associated data table. The primary `Fill` method is based on the query or stored procedure you entered when you originally configured the TableAdapter. It's the first (topmost) method under the data table in the DataSet Designer.
 
-![TableAdapter with multiple queries](../data-tools/media/tableadapter.gif "TableAdapter")
+![TableAdapter with multiple queries](../data-tools/media/tableadapter.gif)
 
 Any changes that you make to the TableAdapter's main `Fill` method are reflected in the schema of the associated data table. For example, removing a column from the query in the main `Fill` method also removes the column from the associated data table. Additionally, removing the column from the main `Fill` method removes the column from any additional queries for that TableAdapter.
 

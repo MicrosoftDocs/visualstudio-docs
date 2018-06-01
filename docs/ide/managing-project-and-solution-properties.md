@@ -14,7 +14,7 @@ ms.workload:
 
 Projects have properties that govern many aspects of compilation, debugging, testing and deploying. Some properties are common among all project types, and some are unique to specific languages or platforms. You access project properties by right-clicking the project node in **Solution Explorer** and choosing **Properties**, or by typing "properties" into the **Quick Launch** search box on the menu bar.
 
-![Project context menu](../ide/media/vs2015_proj_prop_menu.gif "vs2015_proj_prop_menu")
+![Project context menu](../ide/media/vs2015_proj_prop_menu.gif)
 
 .NET projects might also have a properties node in the project tree itself.
 

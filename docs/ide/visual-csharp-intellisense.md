@@ -138,11 +138,11 @@ In the code editor, IntelliSense can help you hook up methods (event handlers) t
 
 When you type the `+=` operator after an event field in a *.cs* file, IntelliSense prompts you with the option to press the **Tab** key. This inserts a new instance of a delegate that points to the method handling the event.
 
-![Button Auto Hook Up](../ide/media/vxautohookup.gif "vxAutoHookUp")
+![Button Auto Hook Up](../ide/media/vxautohookup.gif)
 
 If you press **Tab**, IntelliSense automatically finishes the statement for you and displays the event handler reference as selected text in the code editor. To complete the automatic event hookup, IntelliSense prompts you to press the **Tab** key again to create an empty stub for the event handler.
 
-![Generate Event Handler](../ide/media/vxgenerateeventhandler.gif "vxGenerateEventHandler")
+![Generate Event Handler](../ide/media/vxgenerateeventhandler.gif)
 
 > [!NOTE]
 > If a new delegate that is created by IntelliSense references an existing event handler, IntelliSense communicates this information in the tooltip. You can then modify this reference; the text is already selected in the code editor. Otherwise, automatic event hookup is complete at this point.
