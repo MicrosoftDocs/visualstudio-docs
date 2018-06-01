@@ -73,7 +73,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 1. In Visual Studio, on the **File** menu, select **New**, **Project...**.
 
-2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Classic Desktop**.
+2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Desktop**.
 
 3. In the middle pane, select the **Class Library** project type.
 
@@ -284,7 +284,7 @@ This walkthrough demonstrates how to access the data access tier by using a WCF 
 
 1.  Right-click on the solution in Solution Explorer and choose **Add**, **New Project...**.
 
-2.  In the **New Project** dialog box, in the left-hand pane, select **Windows Classic Desktop**. In the middle pane, select **Windows Forms App**.
+2.  In the **New Project** dialog box, in the left-hand pane, select **Windows Desktop**. In the middle pane, select **Windows Forms App**.
 
 3.  Name the project **PresentationTier** and click **OK**.
 

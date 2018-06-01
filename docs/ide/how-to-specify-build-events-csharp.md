@@ -143,7 +143,7 @@ The following procedure shows how to set the minimum operating system version in
 
 1.  Create a Windows application for the project to be published. From the **File** menu, point to **New**, and then click **Project**.
 
-2.  In the **New Project** dialog box, expand **Visual C#**, click **Windows Classic Desktop**, and then click the **Windows Forms App** template. Name the project `CSWinApp`.
+2.  In the **New Project** dialog box, expand **Visual C#**, click **Windows Desktop**, and then click the **Windows Forms App** template. Name the project `CSWinApp`.
 
 3.  With the project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
 
