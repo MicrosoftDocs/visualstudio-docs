@@ -29,52 +29,51 @@ After Visual Studio launches, you'll see tool windows, the menus and toolbars, a
 
 ![IDE with General Settings Applied](../ide/media/exploreide-idewithgeneralsettings.png)
 
-## Create a simple application
-
-### Create the project
+## Create the project
 
 When you create an application in Visual Studio, you first create a project and a solution. For this example, you'll create a Windows Presentation Foundation (WPF) project.
 
-#### Create the WPF project
-
-1.  Create a new project. On the menu bar, choose **File** > **New** > **Project**.
+1. Create a new project. On the menu bar, select **File** > **New** > **Project**.
 
      ![On the menu bar, choose File, New, Project](../ide/media/exploreide-filenewproject.png)
 
-2.  Choose the Visual Basic or the Visual C# **WPF App** template by choosing the **Installed** > **Visual C#** or **Visual Basic** > **Windows Classic Desktop** category, and then choosing the **WPF App (.NET Framework)** template.  Name the project `HelloWPFApp` at the bottom of the **New Project** dialog.
+1. In the **New Project** dialog, select the **Installed** > **Visual C#** or **Visual Basic** > **Windows Classic Desktop** category, and then select the **WPF App (.NET Framework)** template. Name the project **HelloWPFApp**.
 
      ![WPF app template in Visual Studio New Project dialog](../ide/media/exploreide-newprojectcsharp.png)
 
-Visual Studio creates the HelloWPFApp project and solution, and **Solution Explorer** shows the various files. The **WPF Designer** shows a design view and a XAML view of *MainWindow.xaml* in a split view. You can slide the splitter to show more or less of either view.  You can choose to see only the visual view or only the XAML view. (For more information, see [WPF Designer for Windows Forms developers](http://msdn.microsoft.com/47ad0909-e89b-4996-b4ac-874d929f94ca).) The following items appear in **Solution Explorer**:
+1. Select **OK**.
+
+Visual Studio creates the HelloWPFApp project and solution, and **Solution Explorer** shows the various files. The **WPF Designer** shows a design view and a XAML view of *MainWindow.xaml* in a split view. You can slide the splitter to show more or less of either view. You can choose to see only the visual view or only the XAML view. (For more information, see [WPF Designer for Windows Forms developers](http://msdn.microsoft.com/47ad0909-e89b-4996-b4ac-874d929f94ca).) The following items appear in **Solution Explorer**:
 
 ![Solution Explorer with HelloWPFApp files loaded](../ide/media/exploreide-hellowpfappfiles.png)
 
 After you create the project, you can customize it. By using the **Properties** window (found on the **View** menu), you can display and change options for project items, controls, and other items in an application.
 
-#### Change the name of MainWindow.xaml
+### Change the name of MainWindow.xaml
 
 Let's give MainWindow a more specific name.
 
 1. In **Solution Explorer**, select *MainWindow.xaml*. You should see the **Properties** window, but if you don't, choose the **View** menu and then the **Properties Window** item.
-2. Change the **File Name** property to `Greetings.xaml`.
+
+1. Change the **File Name** property to `Greetings.xaml`.
 
      ![Properties window with File Name highlighted](../ide/media/exploreide-filenameinpropertieswindow.png)
 
      **Solution Explorer** shows that the name of the file is now *Greetings.xaml*, and the nested code file is now named *Greetings.xaml.vb* or *Greetings.xaml.cs*. This code file is nested under the *.xaml* file node to show they are closely related to each other.
 
-### Design the user interface (UI)
+## Design the user interface (UI)
 
 We will add three types of controls to this application: a <xref:System.Windows.Controls.TextBlock> control, two <xref:System.Windows.Controls.RadioButton> controls, and a <xref:System.Windows.Controls.Button> control.
 
-#### Add a TextBlock control
+### Add a TextBlock control
 
-1.  Open the **Toolbox** window by choosing the **View** menu and the **Toolbox** item.
+1. Open the **Toolbox** window by choosing the **View** menu and the **Toolbox** item.
 
-2.  In the **Toolbox**, expand the **Common WPF Controls** node to see the TextBlock control.
+2. In the **Toolbox**, expand the **Common WPF Controls** node to see the TextBlock control.
 
      ![Toolbox with the TextBlock control highlighted](../ide/media/exploreide-textblocktoolbox.png)
 
-3.  Add a TextBlock control to the design surface by choosing the **TextBlock** item and dragging it to the window on the design surface. Center the control near the top of the window.
+3. Add a TextBlock control to the design surface by choosing the **TextBlock** item and dragging it to the window on the design surface. Center the control near the top of the window.
 
 Your window should resemble the following illustration:
 
@@ -86,43 +85,43 @@ The XAML markup should look something like the following:
 <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" RenderTransformOrigin="4.08,2.312" Margin="237,57,221,238"><Run Text="TextBlock"/><InlineUIContainer><TextBlock TextWrapping="Wrap" Text="TextBlock"/>
 ```
 
-#### Customize the text in the text block
+### Customize the text in the text block
 
-1.  In the XAML view, locate the markup for TextBlock and change the Text attribute:
+1. In the XAML view, locate the markup for TextBlock and change the Text attribute:
 
    ```xaml
    Text="Select a message option and then choose the Display button."
    ```
 
-2.  Re-center the TextBlock if necessary, and save your changes by pressing **Ctrl**+**S** or using the **File** menu item.
+2. Re-center the TextBlock if necessary, and save your changes by pressing **Ctrl**+**S** or using the **File** menu item.
 
 Next, you'll add two [RadioButton](/dotnet/framework/wpf/controls/radiobutton) controls to the form.
 
-#### Add radio buttons
+### Add radio buttons
 
-1.  In the **Toolbox**, find the **RadioButton** control.
+1. In the **Toolbox**, find the **RadioButton** control.
 
      ![Toolbox window with RadioButton control selected](../ide/media/exploreide-radiobuttontoolbox.png)
 
-2.  Add two RadioButton controls to the design surface by choosing the **RadioButton** item and dragging it to the window on the design surface. Move the buttons (by selecting them and using the arrow keys) so that the buttons appear side by side under the TextBlock control.
+2. Add two RadioButton controls to the design surface by choosing the **RadioButton** item and dragging it to the window on the design surface. Move the buttons (by selecting them and using the arrow keys) so that the buttons appear side by side under the TextBlock control.
 
      Your window should look like this:
 
      ![Greetings form with textblock and two radiobuttons](../ide/media/exploreide-greetingswithradiobuttons.png)
 
-3.  In the **Properties** window for the left RadioButton control, change the **Name** property (the property at the top of the **Properties** window) to `HelloButton`.
+3. In the **Properties** window for the left RadioButton control, change the **Name** property (the property at the top of the **Properties** window) to `HelloButton`.
 
      ![RadioButton properties window](../ide/media/exploreide-buttonproperties.png)
 
-4.  In the **Properties** window for the right RadioButton control, change the **Name** property to `GoodbyeButton`, and then save your changes.
+4. In the **Properties** window for the right RadioButton control, change the **Name** property to `GoodbyeButton`, and then save your changes.
 
 You can now add display text for each RadioButton control. The following procedure updates the **Content** property for a RadioButton control.
 
-#### Add display text for each radio button
+### Add display text for each radio button
 
-1.  On the design surface, open the shortcut menu for HelloButton by pressing the right mouse button on HelloButton, choose **Edit Text**, and then enter `Hello`.
+1. On the design surface, open the shortcut menu for HelloButton by pressing the right mouse button on HelloButton, choose **Edit Text**, and then enter `Hello`.
 
-2.  Open the shortcut menu for GoodbyeButton by pressing the right mouse button on GoodbyeButton, choose **Edit Text**, and then enter `Goodbye`.
+2. Open the shortcut menu for GoodbyeButton by pressing the right mouse button on GoodbyeButton, choose **Edit Text**, and then enter `Goodbye`.
 
 ### Set a radio button to be checked by default
 
@@ -136,11 +135,11 @@ IsChecked="True"
 
 The final UI element that you'll add is a [Button](/dotnet/framework/wpf/controls/button) control.
 
-#### Add the button control
+### Add the button control
 
-1.  In the **Toolbox**, find the **Button** control, and then add it to the design surface under the RadioButton controls by dragging it to the form in the design view.
+1. In the **Toolbox**, find the **Button** control, and then add it to the design surface under the RadioButton controls by dragging it to the form in the design view.
 
-2.  In the XAML view, change the value of **Content** for the Button control from `Content="Button"` to `Content="Display"`, and then save the changes.
+2. In the XAML view, change the value of **Content** for the Button control from `Content="Button"` to `Content="Display"`, and then save the changes.
 
      The markup should resemble the following example:
      `<Button Content="Display" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="215,204,0,0"/>`
@@ -153,9 +152,7 @@ The final UI element that you'll add is a [Button](/dotnet/framework/wpf/control
 
 When this application runs, a message box appears after a user chooses a radio button and then chooses the **Display** button. One message box will appear for Hello, and another will appear for Goodbye. To create this behavior, you'll add code to the `Button_Click` event in *Greetings.xaml.vb* or *Greetings.xaml.cs*.
 
-#### Add code to display message boxes
-
-1.  On the design surface, double-click the **Display** button.
+1. On the design surface, double-click the **Display** button.
 
      *Greetings.xaml.vb* or *Greetings.xaml.cs* opens, with the cursor in the `Button_Click` event.
 
@@ -164,6 +161,7 @@ When this application runs, a message box appears after a user chooses a radio b
 
     End Sub
     ```
+
     ```csharp
     private void Button_Click_1(object sender, RoutedEventArgs e)
     {
@@ -171,7 +169,7 @@ When this application runs, a message box appears after a user chooses a radio b
     }
     ```
 
-2.  Enter the following code:
+2. Enter the following code:
 
     ```vb
     If HelloButton.IsChecked = True Then
@@ -179,8 +177,8 @@ When this application runs, a message box appears after a user chooses a radio b
     ElseIf GoodbyeButton.IsChecked = True Then
         MessageBox.Show("Goodbye.")
     End If
-
     ```
+
     ```csharp
     if (HelloButton.IsChecked == true)
     {
@@ -192,9 +190,9 @@ When this application runs, a message box appears after a user chooses a radio b
     }
     ```
 
-3.  Save the application.
+3. Save the application.
 
-##  <a name="BKMK_DebugTest"></a> Debug and test the application
+## Debug and test the application
 
 Next, you'll debug the application to look for errors and test that both message boxes appear correctly. The following instructions tell you how to build and launch the debugger, but later you might read [Build a WPF application (WPF)](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf) and [Debug WPF](../debugger/debugging-wpf.md) for more information.
 
@@ -204,13 +202,13 @@ In this step, you'll find the error that we caused earlier by changing the name 
 
 #### Start debugging and find the error
 
-1.  Start the debugger by selecting **Debug**, then **Start Debugging**.
+1. Start the debugger by selecting **Debug**, then **Start Debugging**.
 
      ![Start Debugging command on the Debug menu](../ide/media/exploreide-startdebugging.png)
 
      A **Break Mode** window appears, and the **Output** window indicates that an IOException has occurred: Cannot locate resource 'mainwindow.xaml'.
 
-2.  Stop the debugger by choosing **Debug** > **Stop Debugging**.
+2. Stop the debugger by choosing **Debug** > **Stop Debugging**.
 
      ![Stop Debugging command on the Debug menu](../ide/media/exploreide-stopdebugging.png)
 
@@ -218,9 +216,9 @@ We renamed *MainWindow.xaml* to *Greetings.xaml* at the start of this walkthroug
 
 #### Specify Greetings.xaml as the startup URI
 
-1.  In **Solution Explorer**, open the *App.xaml* file (in the C# project) or the *Application.xaml* file (in the Visual Basic project).
+1. In **Solution Explorer**, open the *App.xaml* file (in the C# project) or the *Application.xaml* file (in the Visual Basic project).
 
-2.  Change `StartupUri="MainWindow.xaml"` to `StartupUri="Greetings.xaml"`, and then save the changes.
+2. Change `StartupUri="MainWindow.xaml"` to `StartupUri="Greetings.xaml"`, and then save the changes.
 
 Start the debugger again (press **F5**). You should see the **Greetings** window of the application. Now close the application window to stop debugging.
 
@@ -230,29 +228,29 @@ You can test the code during debugging by adding some breakpoints. You can add b
 
 #### Add breakpoints
 
-1.  Open *Greetings.xaml.vb* or *Greetings.xaml.cs*, and select the following line: `MessageBox.Show("Hello.")`
+1. Open *Greetings.xaml.vb* or *Greetings.xaml.cs*, and select the following line: `MessageBox.Show("Hello.")`
 
-2.  Add a breakpoint from the menu by selecting **Debug**, then **Toggle Breakpoint**.
+2. Add a breakpoint from the menu by selecting **Debug**, then **Toggle Breakpoint**.
 
      ![Toggle Breakpoint command on the Debug menu](../ide/media/exploreide-togglebreakpoint.png)
 
      A red circle appears next to the line of code in the far left margin of the editor window.
 
-3.  Select the following line: `MessageBox.Show("Goodbye.")`.
+3. Select the following line: `MessageBox.Show("Goodbye.")`.
 
-4.  Press the **F9** key to add a breakpoint, and then press **F5** to start debugging.
+4. Press the **F9** key to add a breakpoint, and then press **F5** to start debugging.
 
-5.  In the **Greetings** window, choose the **Hello** radio button, and then choose the **Display** button.
+5. In the **Greetings** window, choose the **Hello** radio button, and then choose the **Display** button.
 
      The line `MessageBox.Show("Hello.")` is highlighted in yellow. At the bottom of the IDE, the Autos, Locals, and Watch windows are docked together on the left side, and the Call Stack, Breakpoints, Command, Immediate, and Output windows are docked together on the right side.
 
-6.  On the menu bar, choose **Debug** > **Step Out**.
+6. On the menu bar, choose **Debug** > **Step Out**.
 
      The application resumes execution, and a message box with the word "Hello" appears.
 
-7.  Choose the **OK** button on the message box to close it.
+7. Choose the **OK** button on the message box to close it.
 
-8.  In the **Greetings** window, choose the **Goodbye** radio button, and then choose the **Display** button.
+8. In the **Greetings** window, choose the **Goodbye** radio button, and then choose the **Display** button.
 
      The line `MessageBox.Show("Goodbye.")` is highlighted in yellow.
 
@@ -266,17 +264,15 @@ You can test the code during debugging by adding some breakpoints. You can add b
 
 Now that you've verified that everything works, you can prepare a release build of the application.
 
-#### Clean the solution files and build a release version
-
-1.  On the main menu, select **Build** > **Clean solution** to delete intermediate files and output files that were created during previous builds. This is not necessary, but it cleans up the debug build outputs.
+1. On the main menu, select **Build** > **Clean solution** to delete intermediate files and output files that were created during previous builds. This is not necessary, but it cleans up the debug build outputs.
 
      ![The Clean Solution command on the Build menu](../ide/media/exploreide-cleansolution.png)
 
-2.  Change the build configuration for HelloWPFApp from **Debug** to **Release** by using the dropdown control on the toolbar (it says "Debug" currently).
+2. Change the build configuration for HelloWPFApp from **Debug** to **Release** by using the dropdown control on the toolbar (it says "Debug" currently).
 
      ![The Standard toolbar with Release selected](../ide/media/exploreide-releaseversion.png)
 
-3.  Build the solution by choosing **Build**, then **Build Solution**.
+3. Build the solution by choosing **Build** > **Build Solution**.
 
      ![Build Solution command on the Build menu](../ide/media/exploreide-buildsolution.png)
 
