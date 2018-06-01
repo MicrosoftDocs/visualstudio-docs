@@ -27,12 +27,12 @@ This topic explains how to add nodes that are highlighted in the **XML Schema Ex
 
 2.  Type "purchaseOrder" in the search text box of the [XML Explorer](../xml-tools/xml-schema-explorer.md) toolbar and click on the search button.
 
-     ![XML Schema Explorer Keyword Search](../xml-tools/media/schemaexplorersearch.gif "SchemaExplorerSearch")
+     ![XML Schema Explorer Keyword Search](../xml-tools/media/schemaexplorersearch.gif)
 
      The search results are highlighted in the **XML Schema Explorer** and marked by ticks on the vertical scroll bar.
 
 3.  Add the search results to the workspace by clicking the **Add highlighted nodes to Workspace** button on the summary results pane.
 
-     ![XML Schema Explorer Search Result](../xml-tools/media/schemaexplorersearchresult.gif "SchemaExplorerSearchResult")
+     ![XML Schema Explorer Search Result](../xml-tools/media/schemaexplorersearchresult.gif)
 
      The `purchaseOrder` node and the `PurchaseOrderType` node appear next to each other on the design surface of the [Graph View](../xml-tools/graph-view.md). Because the two nodes are related (the `purchaseOrder` element is of the `PurchaseOrderType` type), an arrow is drawn between them.

@@ -23,17 +23,17 @@ This walkthrough shows how to add multiple accounts to Visual Studio, and how to
 
 - Sign into Visual Studio with a Microsoft account or an organizational account. You should see your user name appear in the upper corner of the window, similar to this:
 
-     ![Currentlly logged in user](../ide/media/vs2015_username.png "VS2015_UserName")
+     ![Currentlly logged in user](../ide/media/vs2015_username.png)
 
 ### Access your Azure account in Server Explorer
 
 Press **Ctrl**+**Alt**+**S** to open **Server Explorer**. Choose the **Azure** icon and when it expands you should see the resources available in the Azure account that is associated with the ID that you used to log in to Visual Studio. It should appear something like the following (except that you will see your own resources).
 
-![Server Explorer showing Azure Tools node expanded](../ide/media/vs2015_serverexplorer.png "VS2015_ServerExplorer")
+![Server Explorer showing Azure Tools node expanded](../ide/media/vs2015_serverexplorer.png)
 
 The first time you use Visual Studio on any specific device, the dialog will only show the subscriptions registered under the ID that you signed in to the IDE with. You can access resources for any of your other accounts directly from **Server Explorer** by right-clicking on the **Azure** node and choosing **Manage and Filter Subscriptions** and adding your accounts from the account picker control. You can then choose another account, if desired, by clicking the down arrow and choosing from the list of accounts. After choosing the account, you can choose which subscriptions under that account you want to display in **Server Explorer**.
 
-![Manage Azure Subscriptions dialog](../ide/media/vs2015_manage_subs.png "vs2015_manage_subs")
+![Manage Azure Subscriptions dialog](../ide/media/vs2015_manage_subs.png)
 
 The next time you open **Server Explorer**, the resources for that subscription(s) are displayed.
 
@@ -50,7 +50,7 @@ The next time you open **Server Explorer**, the resources for that subscription(
 
 Azure AD enables support for end-user single Sign-In in ASP.NET MVC web applications, or AD Authentication in Web API services. Domain authentication is different from individual user account authentication; users that have access to your Active Directory domain can use their existing Azure AD accounts to connect to your web applications. Office 365 apps can also use domain authentication. To see this in action, create a web application (**File** > **New Project** > **C#** > **Cloud** > **ASP.NET Web Application**). In the **New ASP.NET Project** dialog, choose **Change Authentication**. The authentication wizard appears and enables you to choose what kind of authentication to use in your application.
 
-![Change authentication dialog for ASP.NET](../ide/media/vs2015_change_authentication.png "VS2015_change_authentication")
+![Change authentication dialog for ASP.NET](../ide/media/vs2015_change_authentication.png)
 
 For more information about the different kinds of authentication in ASP.NET, see [Create ASP.NET web projects in Visual Studio 2013](http://www.asp.net/visual-studio/overview/2013/creating-web-projects-in-visual-studio#orgauth) (the information about authentication is still relevant for current versions of Visual Studio).
 
@@ -62,11 +62,11 @@ From the main menu, choose **Team** > **Connect to Team Foundation Server** to b
 
 Click on the down arrow next to your user name in the upper corner of Visual Studio. Then choose the **Account Settings** menu item. The **Account Manager** dialog appears and displays the account you signed in with. Choose the **Add an account** link in the lower corner of the dialog to add a new Microsoft account or a new work or school account.
 
-![Visual Studio account picker](../ide/media/vs2015_acct_picker.png "VS2015_acct_picker")
+![Visual Studio account picker](../ide/media/vs2015_acct_picker.png)
 
 Follow the prompts to enter the new account credentials. The following illustration shows the **Account Manager** after a user has added his *Contoso.com* work account.
 
-![Account Manager](../ide/media/vs2015_accountmanager.gif "VS2015_AccountManager")
+![Account Manager](../ide/media/vs2015_accountmanager.gif)
 
 ## Revisit the Add Connected Services wizard and Server Explorer
 
