@@ -77,7 +77,7 @@ In XAML Designer, you can set data binding properties by using the artboard and 
 
      The following illustration shows the **Select Object** dialog box with **ShoppingCart** selected.
 
-     ![Select Object dialog box](../designers/media/blendselectobject.PNG "BlendSelectObject")
+     ![Select Object dialog box](../designers/media/blendselectobject.PNG)
 
 1. In the **Toolbox**, choose a `TextBlock` control to add it to the form.
 
@@ -87,7 +87,7 @@ In XAML Designer, you can set data binding properties by using the artboard and 
 
      The following illustration shows the **Create Data Binding** dialog box with the **ItemCount** property selected.
 
-     ![Create Data Binding dialog box](../designers/media/xaml_create_data_binding.png "xaml_create_data_binding")
+     ![Create Data Binding dialog box](../designers/media/xaml_create_data_binding.png)
 
 1. Press **F5** to run the app.
 

@@ -34,7 +34,7 @@ Your users can view a model as a diagram or as a Windows form. Models can also b
 
 The following figure shows a small model in a diagrammatic DSL:
 
-![Tudor Family Tree Model](../modeling/media/tudor_familytreemodel.png "Tudor_FamilyTreeModel")
+![Tudor Family Tree Model](../modeling/media/tudor_familytreemodel.png)
 
 ## What you can do with DSLs
 

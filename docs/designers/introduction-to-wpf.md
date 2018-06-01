@@ -62,7 +62,7 @@ XAML is an XML-based markup language that is used to implement an application's 
 
  The following figure shows the user interface (UI) that is defined by the XAML in the previous example.
 
- ![A window that contains a button](../designers/media/wpfintrofigure10.png "WPFIntroFigure10")
+ ![A window that contains a button](../designers/media/wpfintrofigure10.png)
 
  Since XAML is XML-based, the UI that you compose with it is assembled in a hierarchy of nested elements known as an [element tree](/dotnet/framework/wpf/advanced/trees-in-wpf). The element tree provides a logical and intuitive way to create and manage UIs.
 
@@ -295,7 +295,7 @@ The 2D shapes provided by WPF cover the standard set of basic shapes. However, y
 
 <xref:System.Windows.Media.Geometry> objects can be used for clipping, hit-testing, and rendering 2D graphic data.
 
-![Various uses of a Path](../designers/media/wpfintrofigure5.PNG "WPFIntroFigure5")
+![Various uses of a Path](../designers/media/wpfintrofigure5.PNG)
 
 For more information, see [Geometry Overview](/dotnet/framework/wpf/graphics-multimedia/geometry-overview).
 
@@ -303,7 +303,7 @@ For more information, see [Geometry Overview](/dotnet/framework/wpf/graphics-mul
 
 A subset of WPF 2D capabilities includes visual effects, such as gradients, bitmaps, drawings, painting with videos, rotation, scaling, and skewing. These are all achieved with brushes; the following figure shows some examples.
 
-![Illustration of different brushes](../designers/media/wpfintrofigure6.PNG "WPFIntroFigure6")
+![Illustration of different brushes](../designers/media/wpfintrofigure6.PNG)
 
 For more information, see [WPF Brushes Overview](/dotnet/framework/wpf/graphics-multimedia/wpf-brushes-overview).
 
@@ -311,7 +311,7 @@ For more information, see [WPF Brushes Overview](/dotnet/framework/wpf/graphics-
 
 WPF also includes 3D rendering capabilities that integrate with 2-d graphics to allow the creation of more exciting and interesting user interfaces. For example, the following figure shows 2D images rendered onto 3D shapes.
 
-![Visual3D sample screen shot](../designers/media/wpfintrofigure13.png "WPFIntroFigure13")
+![Visual3D sample screen shot](../designers/media/wpfintrofigure13.png)
 
 For more information, see [3D Graphics Overview](/dotnet/framework/wpf/graphics-multimedia/3-d-graphics-overview).
 
@@ -319,7 +319,7 @@ For more information, see [3D Graphics Overview](/dotnet/framework/wpf/graphics-
 
 WPF animation support lets you make controls grow, shake, spin, and fade, to create interesting page transitions, and more. You can animate most WPF classes, even custom classes. The following figure shows a simple animation in action.
 
-![Images of an animated cube](../designers/media/wpfintrofigure7.png "WPFIntroFigure7")
+![Images of an animated cube](../designers/media/wpfintrofigure7.png)
 
 For more information, see [Animation Overview](/dotnet/framework/wpf/graphics-multimedia/animation-overview).
 
@@ -331,7 +331,7 @@ One way to convey rich content is through the use of audiovisual media. WPF prov
 
 Images are common to most applications, and WPF provides several ways to use them. The following figure shows a user interface with a list box that contains thumbnail images. When a thumbnail is selected, the image is shown full-size.
 
-![Thumbnail images and a full&#45;size image](../designers/media/wpfintrofigure8.PNG "WPFIntroFigure8")
+![Thumbnail images and a full&#45;size image](../designers/media/wpfintrofigure8.PNG)
 
 For more information, see [Imaging Overview](/dotnet/framework/wpf/graphics-multimedia/imaging-overview).
 
@@ -343,7 +343,7 @@ The <xref:System.Windows.Controls.MediaElement> control is capable of playing bo
 
 The window in the following figure shows the <xref:System.Windows.Controls.MediaElement> control in action.
 
-![A MediaElement control with audio and video](../designers/media/wpfintrofigure1.png "WPFIntroFigure1")
+![A MediaElement control with audio and video](../designers/media/wpfintrofigure1.png)
 
 For more information, see [Graphics and Multimedia](/dotnet/framework/wpf/graphics-multimedia).
 
@@ -392,7 +392,7 @@ The main purpose of a majority of the WPF controls is to display content. In WPF
 
 The following figure shows the result.
 
-![A TextBox control that contains text](../designers/media/wpfintrofigure21.png "WPFIntroFigure21")
+![A TextBox control that contains text](../designers/media/wpfintrofigure21.png)
 
 Other controls, however, can contain multiple items of different types of content; the content of a <xref:System.Windows.Controls.Button>, specified by the <xref:System.Windows.Controls.ContentControl.Content%2A> property, can contain a variety of items including layout controls, text, images, and shapes. The following example shows a <xref:System.Windows.Controls.Button> with content that includes a <xref:System.Windows.Controls.DockPanel>, a <xref:System.Windows.Controls.Label>, a <xref:System.Windows.Controls.Border>, and a <xref:System.Windows.Controls.MediaElement>.
 
@@ -418,7 +418,7 @@ Other controls, however, can contain multiple items of different types of conten
 
 The following figure shows the content of this button.
 
-![A button that contains multiple types of content](../designers/media/wpfintrofigure22.png "WPFIntroFigure22")
+![A button that contains multiple types of content](../designers/media/wpfintrofigure22.png)
 
 For more information on the kinds of content that is supported by various controls, see [WPF Content Model](/dotnet/framework/wpf/controls/wpf-content-model).
 
@@ -447,7 +447,7 @@ In this example, the default button user interface has been replaced with an <xr
 
 Whereas a control template lets you specify the appearance of a control, a data template lets you specify the appearance of a control's content. Data templates are frequently used to enhance how bound data is displayed. The following figure shows the default appearance for a <xref:System.Windows.Controls.ListBox> that is bound to a collection of `Task` objects, where each task has a name, description, and priority.
 
-![A list box with the default appearance](../designers/media/wpfintrofigure18.png "WPFIntroFigure18")
+![A list box with the default appearance](../designers/media/wpfintrofigure18.png)
 
 The default appearance is what you would expect from a <xref:System.Windows.Controls.ListBox>. However, the default appearance of each task contains only the task name. To show the task name, description, and priority, the default appearance of the <xref:System.Windows.Controls.ListBox> control's bound list items must be changed by using a <xref:System.Windows.DataTemplate>. The following XAML defines such a <xref:System.Windows.DataTemplate>, which is applied to each task by using the <xref:System.Windows.Controls.ItemsControl.ItemTemplate%2A> attribute.
 
@@ -644,7 +644,7 @@ The following example shows a custom numeric up/down control that derives from <
 
  The following figure shows the `NumericUpDown` control hosted in a <xref:System.Windows.Window>.
 
- ![A custom UserControl](../designers/media/wpfintrofigure3.png "WPFIntroFigure3")
+ ![A custom UserControl](../designers/media/wpfintrofigure3.png)
 
 For more information on custom controls, see [Control Authoring Overview](/dotnet/framework/wpf/controls/control-authoring-overview).
 

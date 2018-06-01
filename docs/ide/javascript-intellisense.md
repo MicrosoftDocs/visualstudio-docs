@@ -32,7 +32,7 @@ ms.workload:
 [!include[vs_dev15](../misc/includes/vs_dev15_md.md)] provides a powerful JavaScript editing experience right out of the box. Powered by a TypeScript based language service, Visual Studio delivers richer IntelliSense, support for modern JavaScript features, and improved productivity features such as Go to Definition, refactoring, and more.
 
 > [!NOTE]
-> The JavaScript language service in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)] uses a new engine for the language service (called "Salsa"). Details are included in this topic, and you can also read this [blog post](https://blogs.msdn.microsoft.com/visualstudio/2016/11/28/more-productive-javascript-in-visual-studio-2017-rc). The new editing experience also mostly applies to Visual Studio Code. See the [VS Code docs](https://code.visualstudio.com/docs/languages/javascript) for more info.
+> The JavaScript language service in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)] uses a new engine for the language service (called). Details are included in this topic, and you can also read this [blog post](https://blogs.msdn.microsoft.com/visualstudio/2016/11/28/more-productive-javascript-in-visual-studio-2017-rc). The new editing experience also mostly applies to Visual Studio Code. See the [VS Code docs](https://code.visualstudio.com/docs/languages/javascript) for more info.
 
 For more information about the general IntelliSense functionality of Visual Studio, see [Using IntelliSense](../ide/using-intellisense.md).
 
