@@ -37,7 +37,7 @@ When you create an application in Visual Studio, you first create a project and 
 
      ![On the menu bar, choose File, New, Project](../ide/media/exploreide-filenewproject.png)
 
-1. In the **New Project** dialog, select the **Installed** > **Visual C#** or **Visual Basic** > **Windows Classic Desktop** category, and then select the **WPF App (.NET Framework)** template. Name the project **HelloWPFApp**.
+1. In the **New Project** dialog, select the **Installed** > **Visual C#** (or **Visual Basic**) > **Windows Desktop** category, and then select the **WPF App (.NET Framework)** template. Name the project **HelloWPFApp**.
 
      ![WPF app template in Visual Studio New Project dialog](../ide/media/exploreide-newprojectcsharp.png)
 
