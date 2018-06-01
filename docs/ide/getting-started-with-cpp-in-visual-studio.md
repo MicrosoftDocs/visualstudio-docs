@@ -94,7 +94,7 @@ Next, add code to display the word "Hello" in the console window.
 
 It's easy to build your code. On the menu bar, choose **Build > Build Solution**. Visual Studio builds the HelloApp solution, and reports progress in the **Output** window.
 
-   ![Build the HelloApp solution](../ide/media/get-started-cpp-build-solution.gif "Build the HelloApp solution")
+   ![Build the HelloApp solution](../ide/media/get-started-cpp-build-solution.gif)
 
 ## Debug and test the app
 

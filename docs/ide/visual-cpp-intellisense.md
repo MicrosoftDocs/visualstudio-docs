@@ -94,7 +94,7 @@ When you open a single file outside of any project, you still get IntelliSense. 
 
 By default, single file IntelliSense only uses standard include directories to find header files. To add additional directories, open the shortcut menu on the **Solution** node, and add your directory to **Debug Source Code** list, as the following illustration shows:
 
-![Adding a path to a header file.](../ide/media/intellisensedebugyourcode.jpg "IntelliSenseDebugYourCode")
+![Adding a path to a header file.](../ide/media/intellisensedebugyourcode.jpg)
 
 ## See also
 

@@ -159,7 +159,7 @@ Create a code map to visually trace the call stack while you're debugging. You c
 
 -   **How do I stop the map from adding new call stacks automatically?**
 
-     Choose ![Button &#45; Show call stack on code map automatically](../debugger/media/debuggermap_automaticupdateicon.gif "DebuggerMap_AutomaticUpdateIcon") on the map toolbar. To manually add the current call stack to the map, press **Ctrl** + **Shift** + **`**.
+     Choose ![Button &#45; Show call stack on code map automatically](../debugger/media/debuggermap_automaticupdateicon.gif) on the map toolbar. To manually add the current call stack to the map, press **Ctrl** + **Shift** + **`**.
 
      The map will continue highlighting existing call stacks on the map while you're debugging.
 

@@ -44,7 +44,7 @@ A TableAdapter component  fills a dataset with data from the database, based on 
 ## TableAdapter overview
  TableAdapters are designer-generated components that connect to a database, run queries or stored procedures, and fill their DataTable with the returned data. TableAdapters  also  send updated data from your application back to the database. You can run as many queries as you want on a TableAdapter as long as they return data that conforms to the schema of the table with which the TableAdapter is associated. The following diagram shows how TableAdapters interact with databases and other objects in memory:
 
- ![Data flow in a client application](../data-tools/media/clientdatadiagram.gif "ClientDataDiagram")
+ ![Data flow in a client application](../data-tools/media/clientdatadiagram.gif)
 
  While TableAdapters are designed with the **Dataset Designer**, the TableAdapter classes are not generated as nested classes of  <xref:System.Data.DataSet>. They are located in separate namespaces that are specific to each dataset. For example, if you have a dataset named `NorthwindDataSet`, the TableAdapters that are associated with  <xref:System.Data.DataTable>s in the `NorthwindDataSet` would be in the `NorthwindDataSetTableAdapters` namespace. To access a particular TableAdapter programmatically, you must declare a new instance of the TableAdapter. For example:
 
@@ -58,7 +58,7 @@ A TableAdapter component  fills a dataset with data from the database, based on 
  The update functionality of a TableAdapter is dependent on how much information is available in the main query  in the TableAdapter Wizard. For example, TableAdapters that are configured to fetch values from multiple tables (JOINs), scalar values, views, or the results of aggregate functions are not initially created with the ability to send updates back to the underlying database. However, you can configure the INSERT, UPDATE, and DELETE commands manually in the **Properties** window.
 
 ## TableAdapter queries
- ![TableAdapter with multiple queries](../data-tools/media/tableadapter.gif "TableAdapter")
+ ![TableAdapter with multiple queries](../data-tools/media/tableadapter.gif)
 
  TableAdapters can contain multiple queries to fill their associated data tables. You can define as many queries for a TableAdapter as your application requires, as long as each query returns data that conforms to the same schema as its associated data table. This capability enables a TableAdapter to load different results based on differing criteria.
 

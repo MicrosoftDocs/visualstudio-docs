@@ -17,7 +17,7 @@ The Content Model View provides a graphic representation of local and global sch
 
  In the following image, the **Workspace** panel contains six schema nodes. The `purchaseOrder` node is selected in the **Workspace** panel and is displayed in the design surface.
 
- ![XML Schema Designer Content Model View](../xml-tools/media/xsddesigner_contentmodelview.gif "XSDDesigner_ContentModelView")
+ ![XML Schema Designer Content Model View](../xml-tools/media/xsddesigner_contentmodelview.gif)
 
 ## Workspace panel
 
@@ -73,7 +73,7 @@ The Content Model View provides a graphic representation of local and global sch
 
  The following XSD Designer Toolbar buttons are enabled when the Content Model View is active.
 
- ![XML Schema Designer Toolbar](../xml-tools/media/xsdcontentmodelviewtoolbar.gif "XSDContentModelViewToolbar")
+ ![XML Schema Designer Toolbar](../xml-tools/media/xsdcontentmodelviewtoolbar.gif)
 
 |Option|Description|
 |------------|-----------------|

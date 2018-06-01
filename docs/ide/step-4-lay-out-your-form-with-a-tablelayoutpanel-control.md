@@ -16,7 +16,7 @@ ms.workload:
 # Step 4: Lay out your form with a TableLayoutPanel control
 In this step, you add a <xref:System.Windows.Forms.TableLayoutPanel> control to your form. The TableLayoutPanel helps properly align controls in the form that you will add later.
 
- ![link to video](../data-tools/media/playvideo.gif "PlayVideo")For a video version of this topic, see [Tutorial 1: Create a picture viewer in Visual Basic - Video 2](http://go.microsoft.com/fwlink/?LinkId=205211) or [Tutorial 1: Create a picture viewer in C# - Video 2](http://go.microsoft.com/fwlink/?LinkId=205200). These videos use an earlier version of Visual Studio, so there are slight differences in some menu commands and other user interface elements. However, the concepts and procedures work similarly in the current version of Visual Studio.
+ ![link to video](../data-tools/media/playvideo.gif)For a video version of this topic, see [Tutorial 1: Create a picture viewer in Visual Basic - Video 2](http://go.microsoft.com/fwlink/?LinkId=205211) or [Tutorial 1: Create a picture viewer in C# - Video 2](http://go.microsoft.com/fwlink/?LinkId=205200). These videos use an earlier version of Visual Studio, so there are slight differences in some menu commands and other user interface elements. However, the concepts and procedures work similarly in the current version of Visual Studio.
 
 ## To lay out your form with a TableLayoutPanel control
 
@@ -61,7 +61,7 @@ In this step, you add a <xref:System.Windows.Forms.TableLayoutPanel> control to 
 
 8.  Currently, the TableLayoutPanel has two equal-size rows and two equal-size columns. You need to resize them so the top row and right column are both much bigger. In **Windows Forms Designer**, select the TableLayoutPanel. In the upper-right corner, there is a small black triangle button, which appears as follows.
 
-     ![Triangle button](../ide/media/express_iconblacktriangle.gif "Express_IconBlackTriangle")
+     ![Triangle button](../ide/media/express_iconblacktriangle.gif)
 **Triangle** button
 
      This button indicates that the control has tasks that help you set its properties automatically.
