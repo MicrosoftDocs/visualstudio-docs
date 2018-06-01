@@ -52,7 +52,7 @@ Now let's add our first project to the solution. We'll start with an empty proje
 
    The **Add New Project** dialog box opens.
 
-1. In the left pane, expand **Visual C#** and choose **Windows Classic Desktop**. Then, in the middle pane, choose **Empty Project (.NET Framework)**. Name the project "QuickDate", then choose the **OK** button.
+1. In the left pane, expand **Visual C#** and choose **Windows Desktop**. Then, in the middle pane, choose **Empty Project (.NET Framework)**. Name the project "QuickDate", then choose the **OK** button.
 
    A project named "QuickDate" appears beneath the solution in **Solution Explorer**. Currently it contains a single file called *App.config*.
 
