@@ -30,8 +30,8 @@ ms.workload:
 ## Cause  
  Processor (CPU) utilization was significantly high in profiling data that was collected using the instrumentation method. Consider using the sampling profiling method when profiling a CPU bound application.  
   
-## Rule Description  
+## Rule description  
  During this profiling run, the processor (or processors) were consistently very busy. High CPU utilization can indicate a CPU-bound application. Instrumented profiles are usually not the most effective way to investigate CPU-usage scenarios. Sampling is usually more effective when you are profiling applications that spend much of their time executing instructions on the processor.  
   
-## How to Fix Violations  
+## How to fix violations  
  Consider profiling your application again using the sampling method instead of instrumentation method unless you require function timings or you are more interested in understanding input/output than processor bottlenecks.
