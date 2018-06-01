@@ -231,5 +231,5 @@ We recommend that you begin analyzing your data by examining the list of functio
 
 ## See Also
 
- [Profiling in Visual Studio](../profiling/index.md)
- [Profiling feature tour](../profiling/profiling-feature-tour.md)
+- [Profiling in Visual Studio](../profiling/index.md)
+- [Profiling feature tour](../profiling/profiling-feature-tour.md)
