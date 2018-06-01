@@ -29,7 +29,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# CvWriteMessage Function
+# CvWriteMessage function
 Writes a message to the Concurrency Visualizer trace file.  
   
 ## Syntax  
@@ -104,15 +104,15 @@ HRESULT CvWriteMessageExVA(
  `pMessage`  
  Message format string. Cannot be NULL.  
   
-## Return Value  
+## Return value  
  S_OK when the message is successfully written. Error code in case there were any errors. Use SUCCEEDED/FAILED macros to check for error condition.  
   
 ## Requirements  
- **Header:** cvmarkers.h  
+ **Header:** *cvmarkers.h*  
   
  **Unicode:** CvWriteMessageW, CvWriteMessageVW, CvWriteMessageExW, CvWriteMessageExVW  
   
  **ANSI:** CvWriteMessageA, CvWriteMessageVA, CvWriteMessageExA, CvWriteMessageExVA  
   
-## See Also  
- [C++ Library Reference](../profiling/cpp-library-reference.md)
+## See also  
+ [C++ library reference](../profiling/cpp-library-reference.md)
