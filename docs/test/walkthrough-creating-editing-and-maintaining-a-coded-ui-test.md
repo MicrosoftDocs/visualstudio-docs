@@ -44,7 +44,7 @@ In this walkthrough, you'll learn how to create, edit, and maintain a coded UI t
 
 12. Select the Checkbox control. In the Properties window, change the value for the **Name** property from \<No Name> to checkBox1 and clear the **IsEnabled** property.
 
-     ![Simple WPF Application](../test/media/codedui_wpfapp.png "CodedUI_WPFApp")
+     ![Simple WPF Application](../test/media/codedui_wpfapp.png)
 
 13. Double-click the button control to add a click event handler.
 

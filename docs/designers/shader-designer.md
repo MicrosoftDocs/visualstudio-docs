@@ -61,7 +61,7 @@ Commands that affect the state of the Shader Designer are located on the **Shade
 
 Here's the **Shader Designer Mode** toolbar:
 
-![The Shader Designer modal toolbar.](../designers/media/digit-dsd-modal-toolbar.png "Digit-DSD-Modal-Toolbar")
+![The Shader Designer modal toolbar.](../designers/media/digit-dsd-modal-toolbar.png)
 
 This table describes the items on the **Shader Designer Mode** toolbar, which are listed in the order in which they appear from left to right:
 

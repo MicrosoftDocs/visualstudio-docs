@@ -88,7 +88,7 @@ The **Add using** IntelliSense operation automatically adds the required `using`
 
 To initiate the **Add using** operation, position the cursor on a type reference that cannot be resolved. For example, when you create a console application and then add `XmlTextReader` to the body of the `Main` method, a red squiggle appears on that line of code because the type reference cannot be resolved. You can then invoke the **Add using** through the **Quick Actions**. The **Quick Actions** is only visible when the cursor is positioned on the unbound type.
 
-![Add using, quick action expanded image](../ide/media/addusing-quickaction.png "AddUsing-QuickAction")
+![Add using, quick action expanded image](../ide/media/addusing-quickaction.png)
 
 Click the light bulb icon, and then choose **using System.Xml;** to automatically add the using directive.
 

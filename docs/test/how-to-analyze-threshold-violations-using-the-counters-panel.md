@@ -17,7 +17,7 @@ The Counters panel is visible in the Graphs view and the Tables view in the Load
 
  Threshold violations are associated with specific performance counters, and indicate that the performance counter either exceeded or fell below a set threshold value. Icons in the counters panel communicate threshold violations.
 
- ![Counter panel's computer node](../test/media/ltest_compnode.png "LTest_CompNode")
+ ![Counter panel's computer node](../test/media/ltest_compnode.png)
 
  The icon for a threshold violation is propagated from the tree node where the failed counter resides to the root. The icon alerts the user to a violation on a counter that might not be visible in the tree because the tree has not been expanded. An example of the icon can be seen in the **Computers Node** in Counters Panel in the previous illustration.
 

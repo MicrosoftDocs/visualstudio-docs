@@ -29,11 +29,11 @@ To take advantage of custom functionality in SQL Server 2005 and later, use the 
 
 3.  Use SQL Server Management Studio to attach the unzipped Northwind.mdf file to localDB. When SQL Server Management Studio starts, connect to (localdb)\MSSQLLocalDB.
 
-     ![SSMS connect dialog](../data-tools/media/raddata-ssms-connect-dialog.png "raddata SSMS connect dialog")
+     ![SSMS connect dialog](../data-tools/media/raddata-ssms-connect-dialog.png)
 
      Then right-click on the localdb node in the left pane, and choose **Attach**.
 
-     ![SSMS Attach database](../data-tools/media/raddata-ssms-attach-database.png "raddata SSMS Attach database")
+     ![SSMS Attach database](../data-tools/media/raddata-ssms-attach-database.png)
 
 4.  Download the ODBC Windows SDK Sample, and unzip it to a new location. This sample shows the basic ODBC commands that are used to connect to a database and issue queries and commands. You can learn more about those functions in the [Microsoft Open Database Connectivity (ODBC)](/sql/odbc/microsoft-open-database-connectivity-odbc). When you first load the solution (it's in the C++ folder), Visual Studio will offer to upgrade the solution to the current version of Visual Studio. Click **Yes**.
 
@@ -62,7 +62,7 @@ And this library directory:
 
 8.  Press F5 to build and run the application. You should see a dialog box from the driver that prompts you to enter a database. Enter `(localdb)\MSSQLLocalDB`, and check **Use Trusted Connection**. Press **OK**. You should see a console with messages that indicate a successful connection. You should also see a command prompt where you can type in a SQL statement. The following screen shows an example query and the results:
 
-     ![ODBC Sample query output](../data-tools/media/raddata-odbc-sample-query-output.png "raddata ODBC Sample query output")
+     ![ODBC Sample query output](../data-tools/media/raddata-odbc-sample-query-output.png)
 
 ## See also
 

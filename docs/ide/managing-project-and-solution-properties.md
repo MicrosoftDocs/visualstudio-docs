@@ -18,7 +18,7 @@ Projects have properties that govern many aspects of compilation, debugging, tes
 
 .NET projects might also have a properties node in the project tree itself.
 
-![Properties node in Solution Explorer tree](../ide/media/vs2015_props_se.png "VS2015_Props_SE")
+![Properties node in Solution Explorer tree](../ide/media/vs2015_props_se.png)
 
 ## Project properties
 
@@ -28,7 +28,7 @@ Project properties are organized into groups, and each group has its own propert
 
 In C#, Visual Basic and F# projects, properties are exposed in the **Project Designer**. The following illustration shows the **Build** property page for a WPF project in C#:
 
-![Visual Studio Project Designer](../ide/media/vs2015_proppage_build.png "VS2015_PropPage_Build")
+![Visual Studio Project Designer](../ide/media/vs2015_proppage_build.png)
 
 For information about each of the property pages in **Project Designer**, see [Project properties reference](../ide/reference/project-properties-reference.md).
 
@@ -39,7 +39,7 @@ For information about each of the property pages in **Project Designer**, see [P
 
 C++ and JavaScript projects have a different user interface for managing project properties. This illustration shows a C++ project property page (JavaScript pages are similar):
 
-![Visual C&#43;&#43; project properties](../ide/media/vs2015_projprops_cpp.png "VS2015_ProjProps_cpp")
+![Visual C&#43;&#43; project properties](../ide/media/vs2015_projprops_cpp.png)
 
 For information about C++ project properties, see [Work with project properties (C++)](/cpp/ide/working-with-project-properties). For more information about JavaScript properties, see [Property pages, JavaScript](../ide/reference/property-pages-javascript.md).
 

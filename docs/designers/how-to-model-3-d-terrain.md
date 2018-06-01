@@ -21,7 +21,7 @@ You can create a 3D terrain by subdividing a plane to make additional faces, and
 
 When you're finished, the model should look like this:
 
-![3&#45;D scene that shows a terrain model](../designers/media/digit-terrain-model.png "Digit-Terrain-Model")
+![3&#45;D scene that shows a terrain model](../designers/media/digit-terrain-model.png)
 
 Before you begin, make sure that the **Properties** window and **Toolbox** are displayed.
 
@@ -47,7 +47,7 @@ Before you begin, make sure that the **Properties** window and **Toolbox** are d
 
 The terrain model is complete. Here's the final model again, with Phong shading applied:
 
-![3&#45;D scene that shows a terrain model](../designers/media/digit-terrain-model.png "Digit-Terrain-Model")
+![3&#45;D scene that shows a terrain model](../designers/media/digit-terrain-model.png)
 
 You can use this terrain model to demonstrate the effect of the gradient shader that's described in [How to: Create a Geometry-Based Gradient Shader](../designers/how-to-create-a-geometry-based-gradient-shader.md).
 

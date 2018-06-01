@@ -26,37 +26,37 @@ You create a typed <xref:System.Data.DataSet> class in Visual Studio at design t
 
 2.  Choose the type of data source that you will be connecting to.
 
-     ![Data Source Configuration Wizard](../data-tools/media/data-source-configuration-wizard.png "Data Source Configuration Wizard")
+     ![Data Source Configuration Wizard](../data-tools/media/data-source-configuration-wizard.png)
 
 3.  For databases, choose the database or databases that will be the data source for your dataset.
 
-     ![Data source choose a connection](../data-tools/media/data-source-choose-a-connection.png "Data source choose a connection")
+     ![Data source choose a connection](../data-tools/media/data-source-choose-a-connection.png)
 
 4.  Choose the tables (or individual columns), stored procedures, functions, and views from the database that you want to be represented in the dataset.
 
-     ![Choose database objects](../data-tools/media/raddata-chose-objects.png "raddata Chose objects")
+     ![Choose database objects](../data-tools/media/raddata-chose-objects.png)
 
 5.  Click **Finish**.
 
 6.  The dataset appears as a node in **Solution Explorer**:
 
-     ![DataSet in Solution Explorer](../data-tools/media/dataset-in-solution-explorer.png "DataSet in Solution Explorer")
+     ![DataSet in Solution Explorer](../data-tools/media/dataset-in-solution-explorer.png)
 
      Click that node, and the dataset appears in the **DataSet Designer**. Note that each table in the dataset has an associated TableAdapter object, which is represented at the bottom. The table adapter is used to populate the dataset and optionally to send commands to the database.
 
-     ![DataSet Designer](../data-tools/media/dataset-designer.png "DataSet Designer")
+     ![DataSet Designer](../data-tools/media/dataset-designer.png)
 
 7.  The relation lines that connect the tables represent table relationships, as defined in the database. By default, foreign-key constraints in a database are represented as a relation only, with the update and delete rules set to none. Typically, that is what you want. However, you can click the lines to bring up the **Relation** dialog, where you can change the behavior of  hierarchical updates. For more information, see [Relationships in datasets](../data-tools/relationships-in-datasets.md) and [Hierarchical update](../data-tools/hierarchical-update.md).
 
-     ![Dataset Relation dialog](../data-tools/media/raddata-relation-dialog.png "raddata Relation dialog")
+     ![Dataset Relation dialog](../data-tools/media/raddata-relation-dialog.png)
 
 8.  Click a table, table adapter, or column name in a table to see its properties in the **Properties** window. You can modify some of the values here. Just remember that you are modifying the dataset, not the source database.
 
-     ![DataSet column properties](../data-tools/media/dataset-column-properties.png "DataSet column properties")
+     ![DataSet column properties](../data-tools/media/dataset-column-properties.png)
 
 9. You can add new tables or table adapters to the dataset, or add new queries for existing table adapters, or specify new relations between tables by dragging those items from the **Toolbox** tab. This tab appears when the **DataSet Designer** is in focus.
 
-     ![Dataset Toolbox](../data-tools/media/raddata-dataset-toolbox.png "raddata Dataset Toolbox")
+     ![Dataset Toolbox](../data-tools/media/raddata-dataset-toolbox.png)
 
 10. Next, you probably want to specify how to populate the dataset with data. For that, you use the **TableAdapter Configuration Wizard**. For more information, see [Fill datasets by using TableAdapters](../data-tools/fill-datasets-by-using-tableadapters.md).
 
@@ -70,7 +70,7 @@ This procedure shows how to add a table from the same database that you used to 
 
 3.  Right-click the dataset node and select **Configure Data Source with Wizard**.
 
-     ![Data Source context menu](../data-tools/media/data-source-context-menu.png "Data Source context menu")
+     ![Data Source context menu](../data-tools/media/data-source-context-menu.png)
 
 4.  Use the wizard to specify which additional tables, or stored procedures or other database object, to add to the dataset.
 
