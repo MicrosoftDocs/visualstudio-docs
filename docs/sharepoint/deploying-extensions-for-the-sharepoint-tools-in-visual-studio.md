@@ -162,7 +162,7 @@ ms.workload:
   
      *YourTemplateName*.zip  
   
-     For example, if you have an item template named ContosoCustomAction.zip that supports the English (United States) locale, the full path might be ItemTemplates\SharePoint\SharePoint14\1033\ContosoCustomAction.zip.  
+     For example, if you have an item template named ContosoCustomAction.zip that supports the English (United States) locale, the full path might be *ItemTemplates\SharePoint\SharePoint14\1033\ContosoCustomAction.zip*.  
   
 3.  In **Solution Explorer**, choose the template file (*YourTemplateName*.zip).  
   
@@ -180,7 +180,7 @@ ms.workload:
   
 8.  In the **Source** list, choose **File on filesystem**.  
   
-9. In the **Path** field, enter the complete path to the assembly (for example, **ItemTemplates\SharePoint\SharePoint14\1033\ContosoCustomAction.zip**, or use the **Browse** button to locate and choose the assembly, and then choose the **OK** button.  
+9. In the **Path** field, enter the complete path to the assembly (for example, *ItemTemplates\SharePoint\SharePoint14\1033\ContosoCustomAction.zip*, or use the **Browse** button to locate and choose the assembly, and then choose the **OK** button.  
   
 ##### To include a wizard for a project template or item template  
   
