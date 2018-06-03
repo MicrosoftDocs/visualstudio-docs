@@ -45,7 +45,7 @@ ms.workload:
   
  To open the BDC Designer, double-click the model file in your project, or open the shortcut menu for the model file and then choose **Open**. Add an entity to the model by dragging or copying an **Entity** from the **Toolbox** onto the designer. To create an association between two entities, choose the **Association** control in the **Toolbox**, choose the first entity, and then choose the second entity.  
   
-## BDC method details window
+## BDC Method Details window
  Use the **BDC Method Details** window to define the parameters, instances, and filter descriptors of a method.  
   
  You can quickly generate Finder, Specific Finder, Creator, Updater, and Deleter methods in the **BDC Method Details** window. When you generate these methods, Visual Studio adds metadata, such as parameters, instances, and type descriptors, to the method. You can modify this metadata to satisfy your specific scenario.  

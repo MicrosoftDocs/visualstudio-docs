@@ -17,7 +17,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Creating SharePoint solution packages
+# Create SharePoint solution packages
   By using the Package Designer, you can create and customize deployment packages. For example, you can add SharePoint project items and Features, reset the IIS server, set Feature activation scopes, and identify Feature dependencies. The designer also generates a manifest, an XML file that describes each package.  
   
 ## Packaging tools

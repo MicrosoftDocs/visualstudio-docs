@@ -29,7 +29,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Creating web parts for SharePoint
+# Create web parts for SharePoint
   By using web parts, you can modify the content, appearance, and behavior of pages of a SharePoint site by using a browser. Web parts are server-side controls that run inside a web part page: they're the building blocks of pages that appear on a SharePoint site. See [Building Block: Web Parts](http://go.microsoft.com/fwlink/?LinkID=182097).  
   
  You can create and debug web parts on a SharePoint site by using templates from Visual Studio.  
@@ -44,7 +44,7 @@ ms.workload:
   
 |File|Description|  
 |----------|-----------------|  
-|Elements.xml|Contains information that the Feature definition file in your project uses to deploy the web part.|  
+|*Elements.xml*|Contains information that the Feature definition file in your project uses to deploy the web part.|  
 |.webpart file|Provides information that SharePoint needs to display your web part in a web part gallery.|  
 |Code File|Contains methods that add controls to the web part and that generate custom content within the web part.|  
   
