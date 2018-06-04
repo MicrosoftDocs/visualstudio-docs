@@ -13,7 +13,7 @@ ms.workload:
 ---
 # Deploy ASP.NET to a remote IIS Computer using Web Deploy in Visual Studio
 
-This article explains how to set up and configure a Visual Studio 2017 ASP.NET MVC 4.5.2 application and deploy it to IIS. This article includes steps on setting up a basic configuration of IIS on Windows server and deploying the app from Visual Studio. These steps are included to make sure that the server has required components installed and that you are ready to deploy. If you are deploying an ASP.NET Core application, see [Publish an application to IIS by importing publish settings](../deployment/tutorial-import-publish-settings-iis.md). In some ASP.NET and ASP.NET Core scenarios, it is faster to deploy to IIS by importing publish settings.
+This article explains how to set up and configure a Visual Studio 2017 ASP.NET MVC 4.5.2 application and deploy it to IIS. This article includes steps on setting up a basic configuration of IIS on Windows server and deploying the app from Visual Studio. These steps are included to make sure that the server has required components installed and that you are ready to deploy. If you are deploying an ASP.NET Core application, some steps are different. To deploy an ASP.NET Core app, see [Publish an application to IIS by importing publish settings](../deployment/tutorial-import-publish-settings-iis.md) for instructions. In some ASP.NET and ASP.NET Core scenarios, it is faster to deploy to IIS by importing publish settings.
 
 These procedures have been tested on these server configurations:
 * Windows Server 2012 R2 and IIS 8 (For Windows Server 2008 R2, the server steps are different)
