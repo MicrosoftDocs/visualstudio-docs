@@ -146,7 +146,7 @@ ms.workload:
   
 1.  In Visual Studio, on the **Build** menu, click **Clean Solution**.  
   
-## Next Steps  
+## Next steps  
  Now that you have created a basic document-level customization for Excel, you can learn more about how to develop customizations from these topics:  
   
 -   General programming tasks that you can perform in document-level customizations: [Program document-level customizations](../vsto/programming-document-level-customizations.md).  
