@@ -61,17 +61,17 @@ A publish settings file (*\*.publishsettings*) is different than a publishing pr
 
 ## Create the publish settings file in IIS on Windows Server
 
-[!INCLUDE [install-web-deploy-with-hosting-server](../deployment/includes/create-publish-settings-iis.md)]
+[!INCLUDE [create-publish-settings-iis](../deployment/includes/create-publish-settings-iis.md)]
 
 ## Import the publish settings in Visual Studio and deploy
 
-[!INCLUDE [install-web-deploy-with-hosting-server](../deployment/includes/import-publish-settings-vs.md)]
+[!INCLUDE [import-publish-settings](../deployment/includes/import-publish-settings-vs.md)]
 
 After the app deploys successfully, it should start automatically. If it does not start from Visual Studio, start the app in IIS. For ASP.NET Core, you need to make sure that the Application pool field for the **DefaultAppPool** is set to **No Managed Code**.
 
 ## Next steps
 
-In this tutorial, you created a publish settings file, imported it into Visual Studio, and deployed an ASP.NET app to IIS.
+In this tutorial, you created a publish settings file, imported it into Visual Studio, and deployed an ASP.NET app to IIS. You may want an overview of other publishing options in Visual Studio.
 
 > [!div class="nextstepaction"]
 > [First look at deployment](../deployment/deploying-applications-services-and-components.md)

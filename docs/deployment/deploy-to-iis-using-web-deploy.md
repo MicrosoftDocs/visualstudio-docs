@@ -13,14 +13,26 @@ ms.workload:
 ---
 # Deploy ASP.NET to a remote IIS Computer using Web Deploy in Visual Studio
 
-This article explains how to set up and configure a Visual Studio 2017 ASP.NET MVC 4.5.2 application and deploy it to IIS. This article includes steps on setting up a basic configuration of IIS on Windows server and deploying the app from Visual Studio. These steps are included to make sure that the server has required components installed and that you are ready to deploy. In some scenarios, it is faster to deploy to IIS by [importing publish settings](../deployment/tutorial-import-publish-settings-iis.md).
+This article explains how to set up and configure a Visual Studio 2017 ASP.NET MVC 4.5.2 application and deploy it to IIS. This article includes steps on setting up a basic configuration of IIS on Windows server and deploying the app from Visual Studio. These steps are included to make sure that the server has required components installed and that you are ready to deploy. If you are deploying an ASP.NET Core application, see [Publish an application to IIS by importing publish settings](../deployment/tutorial-import-publish-settings-iis.md). In some ASP.NET and ASP.NET Core scenarios, it is faster to deploy to IIS by importing publish settings.
 
 These procedures have been tested on these server configurations:
 * Windows Server 2012 R2 and IIS 8 (For Windows Server 2008 R2, the server steps are different)
 
 ## Create the ASP.NET 4.5.2 application on the Visual Studio computer
   
-* In Visual Studio, create a new MVC ASP.NET application. (**File > New > Project**, then select **Visual C# > Web > ASP.NET Web Application. In the **ASP.NET 4.5.2** templates section, select **MVC**. Make sure that **Enable Docker Support** is not selected and that **Authentication** is set to **No Authentication**. Name the project **MyASPApp**.)
+1. On the computer running Visual Studio, choose **File > New Project**.
+
+1. Under **Visual C#** or **Visual Basic**, choose **Web**, and then in the middle pane choose either **ASP.NET Web Application (.NET Framework)** and then click **OK**.
+
+    If you don't see the specified project templates, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. See the prerequisites in this article to identify the required Visual Studio workloads, which you must install.
+
+1. Choose **MVC** (.NET Framework) and make sure that **No Authentication** is selected, and then click **OK**.
+
+1. Type a name like **MyWebApp** and click **OK**.
+
+    Visual Studio creates the project.
+
+1. Choose **Build > Build Solution** to build the project.
 
 ## <a name="bkmk_configureIIS"></a> Install and Configure IIS on Windows Server
 
@@ -101,3 +113,10 @@ Required ports:
     If you want more details on configuring Windows Firewall, see [Configure the Windows Firewall for Remote Debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md).
 
 3. Create additional rules for the other required ports.
+
+## Next steps
+
+In this tutorial, you created a publish settings file, imported it into Visual Studio, and deployed an ASP.NET app to IIS. You can also deploy by importing publish settings.
+
+> [!div class="nextstepaction"]
+> [Deploy to IIS by importing publish settings](../deployment/tutorial-import-publish-settings-iis.md)
