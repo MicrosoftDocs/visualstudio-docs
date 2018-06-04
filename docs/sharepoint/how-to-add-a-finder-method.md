@@ -23,7 +23,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Add a Finder Method
+# How to: Add a Finder method
   To enable the Business Data Connectivity service to display a list of entities in a web part or list, you must create a *Finder* method. A Finder method is a special method that returns a collection of entity instances. For more information, see [Designing a Business Data Connectivity Model](../sharepoint/designing-a-business-data-connectivity-model.md).  
   
 ### To create a Finder method  
@@ -61,7 +61,7 @@ ms.workload:
      [!code-csharp[SP_BDC#2](../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/contactservice.cs#2)]
      [!code-vb[SP_BDC#2](../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/contactservice.vb#2)]  
   
-## See Also  
+## See also
  [BDC Model Design Tools Overview](../sharepoint/bdc-model-design-tools-overview.md)   
  [Designing a Business Data Connectivity Model](../sharepoint/designing-a-business-data-connectivity-model.md)   
  [How to: Add a Specific Finder Method](../sharepoint/how-to-add-a-specific-finder-method.md)   

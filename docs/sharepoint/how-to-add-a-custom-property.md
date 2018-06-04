@@ -23,7 +23,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Add a Custom Property
+# How to: Add a custom property
   You can add custom properties to the model by using the **Property Editor**. You can access these properties in code to retrieve information such as connection strings and other data at run time.  
   
 ### To add a custom property  
@@ -42,7 +42,7 @@ ms.workload:
   
 6.  For the **Value** field of the custom property, specify a value, and then choose the **OK** button.  
   
-## See Also  
+## See also
  [Designing a Business Data Connectivity Model](../sharepoint/designing-a-business-data-connectivity-model.md)   
  [Designing a Business Data Connectivity Model](../sharepoint/designing-a-business-data-connectivity-model.md)   
  [Creating a Business Data Connectivity Model](../sharepoint/creating-a-business-data-connectivity-model.md)   

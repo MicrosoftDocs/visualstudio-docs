@@ -18,7 +18,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Build SharePoint Solutions
+# How to: Build SharePoint solutions
   Building your SharePoint solution is no different than building other applications in Visual Studio. For more information about building applications, see [Compiling and Building in Visual Studio](/visualstudio/ide/compiling-and-building-in-visual-studio). For a discussion of some considerations that are specific to SharePoint solutions, see [How to: Deploy and Publish a SharePoint Solution to a Local SharePoint Site](../sharepoint/how-to-deploy-and-publish-a-sharepoint-solution-to-a-local-sharepoint-site.md).  
   
 ### To build SharePoint solutions  
@@ -29,7 +29,6 @@ ms.workload:
   
 3.  On the menu bar, choose **Build**, **Build Solution**.  
   
-## See Also  
+## See also
  [Building and Debugging SharePoint Solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)  
-  
   

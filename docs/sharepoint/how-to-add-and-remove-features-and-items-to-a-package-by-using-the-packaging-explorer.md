@@ -20,7 +20,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Add and Remove Features and Items to a Package by Using the Packaging Explorer
+# How to: Add and remove features and items to a Package by using the Packaging Explorer
   To configure a package to deploy SharePoint items and Features, you can use the Packaging Explorer. You can adjust the SharePoint project items and Features inside your .wsp file.  
   
  Alternatively, you can use the Packaging Designer to view and re-order the Features to change the activation order. For more information, see [How to: Add and Remove Features and Items to a Package by Using the Package Designer](../sharepoint/how-to-add-and-remove-features-and-items-to-a-package-by-using-the-package-designer.md).  
@@ -34,10 +34,10 @@ ms.workload:
   
      The **Packaging Explorer** appears in the **Toolbox**.  
   
-## Adding a Feature to a Package  
+## Adding a feature to a package  
  You can add new and existing Features to a Package by using the Packaging Explorer.  
   
-#### To add a SharePoint Feature  
+#### To add a SharePoint feature
   
 1.  Open the **Packaging Explorer**, open the shortcut menu for the project, and then choose **Add Feature**.  
   
@@ -52,16 +52,15 @@ ms.workload:
     > [!NOTE]  
     >  Use this procedure if you have more than one SharePoint project in your solution.  
   
-## Validating a Feature or Package  
+## Validating a feature or package  
  You can identify potential problems in the SharePoint Features and packages by validating the files. Warnings and errors are displayed in the Output window and Error List window.  
   
-#### To validate a SharePoint Feature or package  
+#### To validate a SharePoint feature or package
   
 1.  Open the **Packaging Explorer**.  
   
 2.  Open a shortcut menu for a Feature or package, and then choose **Validate**.  
   
-## See Also  
+## See also
  [Packaging and Deploying SharePoint Solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)  
-  
   

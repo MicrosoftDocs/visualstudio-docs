@@ -23,10 +23,10 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Add a Specific Finder Method
+# How to: Add a specific Finder method
   You can return a single entity instance by creating a *Specific Finder* method. The Business Data Connectivity (BDC) service executes the Specific Finder method when a user chooses an entity in a business data web part or external list. For more information, see [Designing a Business Data Connectivity Model](../sharepoint/designing-a-business-data-connectivity-model.md).  
   
-### To create a Specific Finder method  
+### To create a specific Finder method
   
 1.  On the BDC designer, choose an entity.  
   
@@ -84,7 +84,7 @@ ms.workload:
      [!code-csharp[SP_BDC#3](../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/contactservice.cs#3)]
      [!code-vb[SP_BDC#3](../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/contactservice.vb#3)]  
   
-## See Also  
+## See also
  [Designing a Business Data Connectivity Model](../sharepoint/designing-a-business-data-connectivity-model.md)   
  [How to: Add a Finder Method](../sharepoint/how-to-add-a-finder-method.md)   
  [How to: Add a Creator Method](../sharepoint/how-to-add-a-creator-method.md)   
@@ -93,5 +93,4 @@ ms.workload:
  [BDC Model Design Tools Overview](../sharepoint/bdc-model-design-tools-overview.md)   
  [How to: Add a Parameter to a Method](../sharepoint/how-to-add-a-parameter-to-a-method.md)   
  [How to: Define a Method Instance](../sharepoint/how-to-define-a-method-instance.md)  
-  
   

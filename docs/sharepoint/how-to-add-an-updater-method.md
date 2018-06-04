@@ -23,7 +23,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Add an Updater Method
+# How to: Add an Updater method
   You can enable users to update business data in a SharePoint external list by creating an *Updater* method. For more information, see [Designing a Business Data Connectivity Model](../sharepoint/designing-a-business-data-connectivity-model.md).  
   
 ### To create an Updater method  
@@ -63,7 +63,7 @@ ms.workload:
      [!code-csharp[SP_BDC#5](../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/contactservice.cs#5)]
      [!code-vb[SP_BDC#5](../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/contactservice.vb#5)]  
   
-## See Also  
+## See also
  [Designing a Business Data Connectivity Model](../sharepoint/designing-a-business-data-connectivity-model.md)   
  [How to: Add a Finder Method](../sharepoint/how-to-add-a-finder-method.md)   
  [How to: Add a Specific Finder Method](../sharepoint/how-to-add-a-specific-finder-method.md)   
@@ -74,4 +74,4 @@ ms.workload:
  [How to: Add a Parameter to a Method](../sharepoint/how-to-add-a-parameter-to-a-method.md)   
  [How to: Define a Method Instance](../sharepoint/how-to-define-a-method-instance.md)  
   
-  
+ 

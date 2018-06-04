@@ -19,7 +19,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Add a Resource File
+# How to: Add a resource file
   The commands for adding resource files is on the shortcut menu of the solution node and feature nodes in Solution Explorer. For more information, see [Localizing SharePoint Solutions](../sharepoint/localizing-sharepoint-solutions.md).  
   
 ### To add a global resource file to a SharePoint solution  
@@ -49,7 +49,7 @@ ms.workload:
   
 3.  When the **Resource Editor** opens in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], add resources to the resource file.  
   
-## See Also  
+## See also
  [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md)  
   
-  
+ 

@@ -23,7 +23,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Add a Creator Method
+# How to: Add a Creator method
   A Creator method adds new data to the data source of an entity. The Business Data Connectivity (BDC) service calls this method when users choose the **New Item** button on the Ribbon of a list that is based on the model. For more information, see [Designing a Business Data Connectivity Model](../sharepoint/designing-a-business-data-connectivity-model.md).  
   
 ### To add a Creator method  
@@ -62,7 +62,7 @@ ms.workload:
      [!code-csharp[SP_BDC#4](../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/contactservice.cs#4)]
      [!code-vb[SP_BDC#4](../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/contactservice.vb#4)]  
   
-## See Also  
+## See also
  [Designing a Business Data Connectivity Model](../sharepoint/designing-a-business-data-connectivity-model.md)   
  [How to: Add a Finder Method](../sharepoint/how-to-add-a-finder-method.md)   
  [How to: Add a Specific Finder Method](../sharepoint/how-to-add-a-specific-finder-method.md)   

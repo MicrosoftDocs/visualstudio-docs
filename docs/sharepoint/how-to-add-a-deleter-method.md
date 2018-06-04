@@ -25,7 +25,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Add a Deleter Method
+# How to: Add a Deleter method
   You can enable an end user to delete a data record from an external list on a SharePoint site by adding a *Deleter* method to the model. For more information, see [Designing a Business Data Connectivity Model](../sharepoint/designing-a-business-data-connectivity-model.md).  
   
 ### To create a Deleter method  
@@ -65,7 +65,7 @@ ms.workload:
      [!code-csharp[SP_BDC#6](../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/salesorderdetailservice.cs#6)]
      [!code-vb[SP_BDC#6](../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/salesorderdetailservice.vb#6)]  
   
-## See Also  
+## See also
  [Designing a Business Data Connectivity Model](../sharepoint/designing-a-business-data-connectivity-model.md)   
  [How to: Add a Finder Method](../sharepoint/how-to-add-a-finder-method.md)   
  [How to: Add a Specific Finder Method](../sharepoint/how-to-add-a-specific-finder-method.md)   
