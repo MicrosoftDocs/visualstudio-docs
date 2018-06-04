@@ -129,52 +129,52 @@ The MVC pattern helps you create apps that are easier to test and update than tr
 
 1. Choose the **IIS Express** button in the IDE to build and run the app in Debug mode. (Alternatively, press **F5**, or choose **Debug > Start Debugging** from the menu bar.)
 
-  ![Click the IIS Express button in Visual Studio](../ide/media/csharp-aspnet-iis-express-button.png)
+   ![Click the IIS Express button in Visual Studio](../ide/media/csharp-aspnet-iis-express-button.png)
 
   > [!NOTE]
   > If you get an error message that says **Unable to connect to web server 'IIS Express'**, close Visual Studio and then open it by using the **Run as administrator** option from the right-click or context menu. Then, run the application again.
 
-1. Visual Studio launches a browser window. Select **About**.
+2. Visual Studio launches a browser window. Select **About**.
 
- ![Select About in the browser window for your app](../ide/media/csharp-aspnet-browser-page.png)
+   ![Select About in the browser window for your app](../ide/media/csharp-aspnet-browser-page.png)
 
  Among other things, the **About** page in the browser renders the text that is set in the *HomeController.cs* file.
 
    ![View the text on the About page](../ide/media/csharp-aspnet-browser-page-about.png)
 
-1. Keep the browser window open and return to Visual Studio. Open *Controllers/HomeController.cs* if it's not already open.
+3. Keep the browser window open and return to Visual Studio. Open *Controllers/HomeController.cs* if it's not already open.
 
- ![Open the HomeController.cs file from the Solution Explorer in Visual Studio](../ide/media/csharp-aspnet-solution-explorer-home-controller.png)
+   ![Open the HomeController.cs file from the Solution Explorer in Visual Studio](../ide/media/csharp-aspnet-solution-explorer-home-controller.png)
 
-1. Set a breakpoint in the first line of the **About** method. To do this, click in the margin or set the cursor on the line and press **F9**.
+4. Set a breakpoint in the first line of the **About** method. To do this, click in the margin or set the cursor on the line and press **F9**.
 
   This line sets some data in the **ViewData** collection that is rendered in the CSHTML page at *Views/Home/About.cshtml*.
 
- ![Set a breakpoint in the first line of the About method in About.cshtml.  ](../ide/media/csharp-aspnet-home-controller-code-set-breakpoint.png)
+   ![Set a breakpoint in the first line of the About method in About.cshtml.  ](../ide/media/csharp-aspnet-home-controller-code-set-breakpoint.png)
 
-1. Return to the browser and refresh the **About** page. This will trigger the breakpoint in Visual Studio.
+5. Return to the browser and refresh the **About** page. This will trigger the breakpoint in Visual Studio.
 
-1. In Visual Studio, mouse over the **ViewData** member to view its data.
+6. In Visual Studio, mouse over the **ViewData** member to view its data.
 
- ![View the ViewData member of the About method to see more info](../ide/media/csharp-aspnet-home-controller-view-breakpoint-info.png)
+   ![View the ViewData member of the About method to see more info](../ide/media/csharp-aspnet-home-controller-view-breakpoint-info.png)
 
-1. Remove the application breakpoint using the same method you used to add it.
+7. Remove the application breakpoint using the same method you used to add it.
 
-1. Open *Views/Home/About.cshtml*.
+8. Open *Views/Home/About.cshtml*.
 
- ![Select About.cshtml in the Solution Explorer](../ide/media/csharp-aspnet-solution-explorer-view-about.png)
+   ![Select About.cshtml in the Solution Explorer](../ide/media/csharp-aspnet-solution-explorer-view-about.png)
 
-1. Change the text **"additional"** to **"changed"** and save the file.
+9. Change the text **"additional"** to **"changed"** and save the file.
 
- ![Change the text that reads "additional" to text that reads "changed"](../ide/media/csharp-aspnet-about-cshtml-code-change.png)
+   ![Change the text that reads "additional" to text that reads "changed"](../ide/media/csharp-aspnet-about-cshtml-code-change.png)
 
-1. Return to the browser window to see the updated text. (Refresh the browser if you don't see the text that you changed.)
+10. Return to the browser window to see the updated text. (Refresh the browser if you don't see the text that you changed.)
 
-  ![Refresh the browser window to see your changed text](../ide/media/csharp-aspnet-browser-page-about-changed.png)
+    ![Refresh the browser window to see your changed text](../ide/media/csharp-aspnet-browser-page-about-changed.png)
 
-1. Choose the **Stop Debugging** button from the toolbar to stop debugging. (Alternatively, press **Shift**+**F5**, or choose **Debug** > **Stop Debugging** from the menu bar.)
+11. Choose the **Stop Debugging** button from the toolbar to stop debugging. (Alternatively, press **Shift**+**F5**, or choose **Debug** > **Stop Debugging** from the menu bar.)
 
- ![Click the Stop Debugging button on the toolbar](../ide/media/csharp-aspnet-stop-debugging.png)
+   ![Click the Stop Debugging button on the toolbar](../ide/media/csharp-aspnet-stop-debugging.png)
 
 ## Next steps
 
