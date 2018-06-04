@@ -12,7 +12,7 @@ ms.workload:
   - "dotnet"
 ---
 # How to: Attach the Profiler to a .NET Framework Stand-Alone Application to Collect Concurrency Data by Using the Command Line
-This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to attach the Profiler to a running .NET Framework stand-alone (client) application and collect process and thread concurrency data.  
+This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to attach the Profiler to a running .NET Framework stand-alone (client) application and collect process and thread concurrency data.  
   
 > [!NOTE]
 >  Command-line tools of the Profiling Tools are located in the \Team Tools\Performance Tools subdirectory of the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] installation directory. On 64 bit computers, both 64 bit and 32 bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the command prompt window or add it to  the command itself. For more information, see [Specifying the Path to Command Line Tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).  

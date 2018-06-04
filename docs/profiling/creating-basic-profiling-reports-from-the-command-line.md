@@ -12,7 +12,7 @@ ms.workload:
   - "multiple"
 ---
 # Create basic profiling reports from the command line
-This topic describes the basic VSPerfReport commands that generate comma-separated value (.*csv*) reports from a .*vsp* or .*vsps* profiling data file. For a description of all report options, see [VSPerfReport](../profiling/vsperfreport.md).  
+This article describes the basic VSPerfReport commands that generate comma-separated value (.*csv*) reports from a .*vsp* or .*vsps* profiling data file. For a description of all report options, see [VSPerfReport](../profiling/vsperfreport.md).  
   
 ## Report commands  
  Use one of the following commands to create a report for a specified profiling data file.  
