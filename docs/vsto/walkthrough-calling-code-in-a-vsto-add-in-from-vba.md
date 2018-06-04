@@ -141,7 +141,7 @@ ms.workload:
 ## Next steps  
  You can learn more about programming VSTO Add-ins from these topics:  
   
--   Use the `ThisAddIn` class to automate the host application and perform other tasks in VSTO Add-in projects. For more information, see [Program VSTO Add-Ins](../vsto/programming-vsto-add-ins.md).  
+-   Use the `ThisAddIn` class to automate the host application and perform other tasks in VSTO Add-in projects. For more information, see [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md).  
   
 -   Create a custom task pane in a VSTO Add-in. For more information, see [Custom task panes](../vsto/custom-task-panes.md) and [How to: Add a custom task pane to an application](../vsto/how-to-add-a-custom-task-pane-to-an-application.md).  
   

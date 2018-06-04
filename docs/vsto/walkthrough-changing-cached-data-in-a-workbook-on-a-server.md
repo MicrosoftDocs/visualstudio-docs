@@ -70,7 +70,7 @@ ms.workload:
   
 5.  In the **Name** box, type **AdventureWorksDataSet**.  
   
-6.  Click **Browse**, navigate to your %UserProfile%\My Documents (for Windows XP and earlier) or %UserProfile%\Documents (for Windows Vista) folder, and then click **Select Folder**.  
+6.  Click **Browse**, navigate to your *%UserProfile%\My Documents* (for Windows XP and earlier) or *%UserProfile%\Documents* (for Windows Vista) folder, and then click **Select Folder**.  
   
 7.  In the **New Project** dialog box, ensure that the **Create directory for solution** check box is not selected.  
   

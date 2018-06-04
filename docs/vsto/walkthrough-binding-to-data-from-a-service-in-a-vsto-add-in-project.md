@@ -71,7 +71,7 @@ ms.workload:
 6.  In the **Add Reference Wizard** dialog box, click **Finish**.  
   
 ## Add a content control and bind to data at runtime  
- In VSTO Add-in projects, you add and bind controls at run time. For this walkthrough, configure the content control to retrieve data from the Web service when a user clicks inside the control.  
+ In VSTO Add-in projects, you add and bind controls at runtime. For this walkthrough, configure the content control to retrieve data from the Web service when a user clicks inside the control.  
   
 ### To add a content control and bind to data  
   

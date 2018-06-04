@@ -23,7 +23,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Walkthrough: Call code from VBA in a Visual Basic Project
+# Walkthrough: Call code from VBA in a Visual Basic project
   This walkthrough demonstrates how to call a method in a document-level customization for Microsoft Office Word from Visual Basic for Applications (VBA) code in the document. The procedure involves three basic steps: add a method to the `ThisDocument` host item class, expose the method to VBA code, and then call the method from VBA code in the document.  
   
  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]  
@@ -66,7 +66,7 @@ ms.workload:
 3.  On the Ribbon, click the **Developer** tab.  
   
     > [!NOTE]  
-    >  If the **Developer** tab is not visible, you must first show it. For more information, see [How to: Show the Developer Tab on the Ribbon](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md).  
+    >  If the **Developer** tab is not visible, you must first show it. For more information, see [How to: Show the developer tab on the ribbon](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md).  
   
 4.  In the **Code** group, click **Visual Basic**.  
   
