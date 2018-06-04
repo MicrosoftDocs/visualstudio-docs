@@ -283,7 +283,7 @@ Look at the method under test again, and notice that both conditional statements
 throw new ArgumentOutOfRangeException("amount");
 ```
 
-There is a constructor you can use that reports far richer information: <xref:System.ArgumentOutOfRangeException.%23ctor%2A(System.String, System.Object, System.String)> includes the name of the argument, the argument value, and a user-defined message. You can refactor the method under test to use this constructor. Even better, you can use publicly available type members to specify the errors.
+There is a constructor you can use that reports far richer information: <xref:System.ArgumentOutOfRangeException.%23ctor(System.String,System.Object,System.String)> includes the name of the argument, the argument value, and a user-defined message. You can refactor the method under test to use this constructor. Even better, you can use publicly available type members to specify the errors.
 
 ### Refactor the code under test
 
