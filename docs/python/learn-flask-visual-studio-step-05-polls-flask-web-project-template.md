@@ -15,7 +15,7 @@ ms.workload:
 
 # Tutorial step 5: Use the Polls Flask Web Project template
 
-**Previous step: [Use the full Flask Web Project template](learn-flask-in-visual-studio-step-04-full-flask-project-template.md)**
+**Previous step: [Use the full Flask Web Project template](learn-flask-visual-studio-step-04-full-flask-project-template.md)**
 
 Having understood Visual Studio's "Flask Web Project" template, you can now look at the third Flask template, "Polls Flask Web Project", which builds upon the same code base.
 
@@ -27,7 +27,7 @@ In this step you learn how to:
 > - Understand the backing data stores and (step 5-3)
 > - Understand the poll detail and results views (step 5-4)
 
-Visual Studio also projects the "Polls Flask/Jade Web Project" template which produces an identical app, but uses the Jade extension for the Jinja templating engine. For details, see [Step 4 - The Flask/Jade Web Project template](learn-flask-in-visual-studio-step-04-full-flask-project-template.md#the-flaskjade-web-project-template).
+Visual Studio also projects the "Polls Flask/Jade Web Project" template which produces an identical app, but uses the Jade extension for the Jinja templating engine. For details, see [Step 4 - The Flask/Jade Web Project template](learn-flask-visual-studio-step-04-full-flask-project-template.md#the-flaskjade-web-project-template).
 
 ## Step 5-1: Create the project
 
@@ -63,7 +63,7 @@ Visual Studio also projects the "Polls Flask/Jade Web Project" template which pr
 
 1. You can leave the app running for the sections that follow.
 
-    If you want to stop the app and [commit changes to source control](learn-flask-in-visual-studio-step-02-create-an-app.md#commit-to-source-control), first open the **Changes** page in **Team Explorer**, right-click the folder for the virtual environment (probably `env`), and select **Ignore these local items**.
+    If you want to stop the app and [commit changes to source control](learn-flask-visual-studio-step-02-create-app.md#commit-to-source-control), first open the **Changes** page in **Team Explorer**, right-click the folder for the virtual environment (probably `env`), and select **Ignore these local items**.
 
 ### Examine the project contents
 
@@ -118,7 +118,7 @@ The data storage mechanism works as follows:
     REPOSITORY_NAME = environ.get('REPOSITORY_NAME', 'memory')
     ```
 
-- The `settings.py` code then initialize a `REPOSITORY_SETTINGS` object appropriately. If you want to use Azure table store or Mondo DB, you must first initialize those data stores elsewhere, then set the necessary environment variables that tell the app how to connect to the store:
+1. The `settings.py` code then initializes a `REPOSITORY_SETTINGS` object. If you want to use Azure table store or Mondo DB, you must first initialize those data stores elsewhere, then set the necessary environment variables that tell the app how to connect to the store:
 
     ```python
     if REPOSITORY_NAME == 'azuretablestorage':

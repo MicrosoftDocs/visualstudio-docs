@@ -1,7 +1,7 @@
 ---
 title: Tutorial - Learn Flask in Visual Studio, step 1
 description: A walkthrough of Flask basics in the context of Visual Studio projects.
-ms.date: 05/25/2018
+ms.date: 06/04/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: tutorial
@@ -17,7 +17,7 @@ ms.workload:
 
 [Flask](http://flask.pocoo.org/) is a lightweight Python framework for web applications that provides the basics for URL routing and page rendering.
 
-Flask is called a "micro" framework because it doesn't directly provide features like form validation, database abstraction, authentication, and so on. Such features are instead provided by special Python packages called Flask *extensions*. The extensions integrate seamlessly with Flask so that they appear as if they were part of Flask itself. For example, Flask itself doesn't provide a page template engine. Templating is provided by extensions such as Jinja and Jade, as demonstrated in this tutorial.
+Flask is called a "micro" framework because it doesn't directly provide features like form validation, database abstraction, authentication, and so on. Such features are instead provided by special Python packages called Flask *extensions*. The extensions integrate seamlessly with Flask so that they appear as if they are part of Flask itself. For example, Flask itself doesn't provide a page template engine. Templating is provided by extensions such as Jinja and Jade, as demonstrated in this tutorial.
 
 In this tutorial, you learn how to:
 
@@ -123,7 +123,7 @@ Now that you've configured source control for your project, you can create the v
 
 1. Consent to administrator privileges if prompted, then be patient for a few minutes while Visual Studio downloads and installs packages, which for Flask and its dependencies means expanding about a thousand files in over 100 subfolders. You can see progress in the Visual Studio **Output** window. While you're waiting, ponder the Question sections that follow. You can also see a description of Flask's dependencies on the [Flask installation](http://flask.pocoo.org/docs/1.0/installation/#installation) page (flask.pcocoo.org).
 
-1. On the Visual Studio Git controls (on the status bar), select the changes indicator (that shows "99*") which opens the **Changes** page in **Team Explorer**.
+1. On the Visual Studio Git controls (on the status bar), select the changes indicator (that shows "99\*") which opens the **Changes** page in **Team Explorer**.
 
     Creating the virtual environment brought in hundreds of changes, but you don't need to include any of them in source control because you (or anyone else cloning the project) can always recreate the environment from `requirements.txt`.
 
@@ -244,7 +244,7 @@ Answer: In addition to the **Debug** menu commands and toolbar buttons, you can 
 At this point, the basic Flask project contains the startup code and page code in the same file. It's best to separate these two concerns, and to also separate HTML and data by using templates.
 
 > [!div class="nextstepaction"]
-> [Create a Flask app with views and page templates](learn-flask-in-visual-studio-step-02-create-an-app.md)
+> [Create a Flask app with views and page templates](learn-flask-visual-studio-step-02-create-app.md)
 
 ## Going deeper
 

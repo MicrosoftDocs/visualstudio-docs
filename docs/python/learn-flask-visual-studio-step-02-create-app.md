@@ -1,7 +1,7 @@
 ---
 title: Tutorial - Learn Flask in Visual Studio, step 2
-description: A walkthrough of FLask basics in the context of Visual Studio projects, specifically steps of creating an app and using views and templates.
-ms.date: 05/25/2018
+description: A walkthrough of Flask basics in the context of Visual Studio projects, specifically steps of creating an app and using views and templates.
+ms.date: 06/04/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: tutorial
@@ -15,7 +15,7 @@ ms.workload:
 
 # Tutorial step 2: Create a Flask app with views and page templates
 
-**Previous step: [Create a Visual Studio project and solution](learn-flask-in-visual-studio-step-01-project-and-solution.md)**
+**Previous step: [Create a Visual Studio project and solution](learn-flask-visual-studio-step-01-project-solution.md)**
 
 What you have from step 1 of this tutorial is a Flask app with one page and all the code in a single file. To allow for future development, it's best to refactor the code and create a structure for page templates. In particular, you want to separate code for the app's views from other aspects like startup code.
 
@@ -40,7 +40,7 @@ In the code created by the "Blank Flask Web Project" template, you have a single
     import HelloFlask.views
     ```
 
-1. In the `HelloFlask` folder, create a file named `views.py` with the following contents. The name `views.py` is important because we used `import HelloFlask.views` within `__init__.py`; you'll see an error at run time if the names don't match.
+1. In the `HelloFlask` folder, create a file named `views.py` with the following contents. The name `views.py` is important because you used `import HelloFlask.views` within `__init__.py`; you'll see an error at run time if the names don't match.
 
     ```python
     from flask import Flask
@@ -56,7 +56,7 @@ In the code created by the "Blank Flask Web Project" template, you have a single
 
 1. Create a subfolder in `HelloFlask` named `templates`, which remains empty for now.
 
-1. In the project's root folder, rename `app.py` to `runserver.py`, and make the contents match the following:
+1. In the project's root folder, rename `app.py` to `runserver.py`, and make the contents match the following code:
 
     ```python
     import os
@@ -72,7 +72,7 @@ In the code created by the "Blank Flask Web Project" template, you have a single
 
         app.run(HOST, PORT)
     ```
-1. Your project structure should look like the following:
+1. Your project structure should look like the following image:
 
     ![Project structure after refactoring the code](media/flask/step02-project-structure.png)
 
@@ -98,13 +98,13 @@ Because you've made changes to your code and have tested them successfully, now 
 
 ### Question: how frequently should one commit to source control?
 
-Answer: committing changes to source control creates a record in the change log and a point to which you can revert the repository if necessary. Each commit can also be examined for its specific changes. Because commits in Git are very inexpensive, it's better to do frequent commits than to accumulate a larger number of changes into a single commit. Clearly, you don't need to commit every small change to individual files. Typically you make a commit when adding a feature, changing a structure like you've done in this step, or done some code refactoring. Also check with others in your team for the granularity of commits that work best for everyone.
+Answer: committing changes to source control creates a record in the change log and a point to which you can revert the repository if necessary. Each commit can also be examined for its specific changes. Because commits in Git are inexpensive, it's better to do frequent commits than to accumulate a larger number of changes into a single commit. Clearly, you don't need to commit every small change to individual files. Typically you make a commit when adding a feature, changing a structure like you've done in this step, or done some code refactoring. Also check with others in your team for the granularity of commits that work best for everyone.
 
-How often you commit and how often you push commits to a remote repository are two different concerns. You may accumulate multiple commits in your local repository before pushing them to the remote repository. Again, how frequently you do this depends on how your team wants to manage the repository.
+How often you commit and how often you push commits to a remote repository are two different concerns. You may accumulate multiple commits in your local repository before pushing them to the remote repository. Again, how frequently you commit depends on how your team wants to manage the repository.
 
-## Step 2-2: Use a templates to render a page
+## Step 2-2: Use a template to render a page
 
-The `home` function that you have so far in `views.py` generates nothing more than a plain-text HTTP response for the page. Most real-world web pages, of course, respond with rich HTML pages that often incorporate live data. Indeed, the primary reason to define a view using a function is to generate content dynamically.
+The `home` function that you have so far in `views.py` generates nothing more than a plain-text HTTP response for the page. However, most real-world web pages, respond with rich HTML pages that often incorporate live data. Indeed, the primary reason to define a view using a function is to generate content dynamically.
 
 Because the return value for the view is just a string, you can build up any HTML you like within a string, using dynamic content. However, because it's best to separate markup from data, it's much better to place the markup in a template and keep the data in code.
 
@@ -210,7 +210,7 @@ Answer: Yes, you can use subfolders and then refer to the relative path under `t
 ## Next steps
 
 > [!div class="nextstepaction"]
-> [Serve static files, add pages, and use template inheritance](learn-flask-in-visual-studio-step-03-serve-static-files-and-add-pages.md)
+> [Serve static files, add pages, and use template inheritance](learn-flask-visual-studio-step-03-serve-static-files-add-pages.md)
 
 ## Going deeper
 

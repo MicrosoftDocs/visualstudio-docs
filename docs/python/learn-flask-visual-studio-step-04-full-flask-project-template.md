@@ -15,7 +15,7 @@ ms.workload:
 
 # Tutorial step 4: Use the full Flask Web Project template
 
-**Previous step: [Serve static files, add pages, and use template inheritance](learn-flask-in-visual-studio-step-03-serve-static-files-and-add-pages.md)**
+**Previous step: [Serve static files, add pages, and use template inheritance](learn-flask-visual-studio-step-03-serve-static-files-add-pages.md)**
 
 Now that you've explored the basics of Flask by building an app upon the "Blank Flask App Project" template in Visual Studio, you can easily understand the fuller app that's produced by the "Flask Web Project" template.
 
@@ -26,7 +26,7 @@ In this step you now:
 > - Understand the views and page templates created by the project template, which consist of three pages that inherit from a base page template and that employs static JavaScript libraries like jQuery and Bootstrap (step 4-2)
 > - Understand the URL routing provided by the template (step 4-3)
 
-This article applies also to the "Flask/Jade Web Project" template, which produces an app that's identical to that of the "Flask Web Project" using the Jade templating engine instead of Jinja. Additional details are provided at the end of this article.
+This article applies also to the "Flask/Jade Web Project" template, which produces an app that's identical to that of the "Flask Web Project" using the Jade templating engine instead of Jinja. Additional details are included at the end of this article.
 
 ## Step 4-1: Create a project from the template
 
@@ -54,7 +54,7 @@ This article applies also to the "Flask/Jade Web Project" template, which produc
 
 1. You can leave the app running for the sections that follow.
 
-    If you want to stop the app and [commit changes to source control](learn-flask-in-visual-studio-step-02-create-an-app.md#commit-to-source-control), first open the **Changes** page in **Team Explorer**, right-click the folder for the virtual environment (probably `env`), and select **Ignore these local items**.
+    If you want to stop the app and [commit changes to source control](learn-flask-visual-studio-step-02-create-app.md#commit-to-source-control), first open the **Changes** page in **Team Explorer**, right-click the folder for the virtual environment (probably `env`), and select **Ignore these local items**.
 
 ### Examine what the template creates
 
@@ -155,7 +155,7 @@ The individual page templates, `about.html`, `contact.html`, and `index.html`, e
 
 ## The Flask/Jade Web Project template
 
-As noted at the beginning of this article, Visual Studio provide a "Flask/Jade Web Project" template, which creates an application that's visually identical to that produced by the "Flask Web Project". The primary difference is that it uses the Jade templating engine, which is an extension to Jinja that implements the same concepts with a more succinct language. Specifically, Jade uses keywords instead of tags enclosed in {% %} delimeters, for example, and lets you refer to CSS styles and HTML elements using keywords.
+As noted at the beginning of this article, Visual Studio provide a "Flask/Jade Web Project" template, which creates an application that's visually identical to what's produced by the "Flask Web Project". The primary difference is that it uses the Jade templating engine, which is an extension to Jinja that implements the same concepts with a more succinct language. Specifically, Jade uses keywords instead of tags enclosed in {% %} delimiters, for example, and lets you refer to CSS styles and HTML elements using keywords.
 
 To enable Jade, the project template first includes the pyjade package in `requirements.txt`. 
 
@@ -164,9 +164,9 @@ The app's `__init__.py` file contains a line to
     ```python
     app.jinja_env.add_extension('pyjade.ext.jinja.PyJadeExtension')
     ```
-In the `templates` file you see `.jade` files instead of `.html` templates, and the views in `views.py` refer to these files in their calls to `flask.render_template`. Otherwise the views code is the same.
+In the `templates` folder, you see `.jade` files instead of `.html` templates, and the views in `views.py` refer to these files in their calls to `flask.render_template`. Otherwise the views code is the same.
 
-Opening one of the `.jade` files, you can see the more succint expression of a template. For example, here's the contents of `templates/layout.jade` as created by the "Flask/Jade Web Project" template:
+Opening one of the `.jade` files, you can see the more succinct expression of a template. For example, here's the contents of `templates/layout.jade` as created by the "Flask/Jade Web Project" template:
 
     ```jade
     doctype html
@@ -224,7 +224,7 @@ Feel free to experiment with both Jinja and Jade syntaxes to see which one works
 ## Next steps
 
 > [!div class="nextstepaction"]
-> [The Polls Flask Web Project template](learn-flask-in-visual-studio-step-05-polls-flask-web-project-template.md)
+> [The Polls Flask Web Project template](learn-flask-visual-studio-step-05-polls-flask-web-project-template.md)
 
 ## Going deeper
 

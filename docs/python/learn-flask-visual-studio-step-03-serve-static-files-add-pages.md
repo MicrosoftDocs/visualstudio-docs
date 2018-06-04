@@ -1,7 +1,7 @@
 ---
 title: Tutorial - Learn Flask in Visual Studio, step 3
 description: A walkthrough of Flask basics in the context of Visual Studio projects, specifically demonstrating how to serve static files, add pages to the app, and use template inheritance
-ms.date: 05/25/2018
+ms.date: 06/04/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: tutorial
@@ -15,7 +15,7 @@ ms.workload:
 
 # Tutorial step 3: Serve static files, add pages, and use template inheritance
 
-**Previous step: [Create a Flask app with views and page templates](learn-flask-in-visual-studio-step-02-create-an-app.md)**
+**Previous step: [Create a Flask app with views and page templates](learn-flask-visual-studio-step-02-create-app.md)**
 
 In the previous steps of this tutorial, you've learned how to create a minimal Flask app with a single page of self-contained HTML. Modern web apps, however, are typically composed of many pages, and make use of shared resources like CSS and JavaScript files to provide consistent styling and behavior.
 
@@ -80,7 +80,7 @@ In either case, you can organize files under `static` however you like.
     </html>
     ```
 
-1. Run the project to observe the results. Stop the app when done, and commit your changes to source control if you like (as explained in [step 2](learn-flask-in-visual-studio-step-02-create-an-app.md#commit-to-source-control)).
+1. Run the project to observe the results. Stop the app when done, and commit your changes to source control if you like (as explained in [step 2](learn-flask-visual-studio-step-02-create-app.md#commit-to-source-control)).
 
 ### Serve a static file from code
 
@@ -88,7 +88,7 @@ Flask provides a function called `serve_static_file` that you can call from code
 
 1. If you haven't done so already, create a `static` folder: in **Solution Explorer**, right-click the "HelloFlask" folder in the Visual Studio project, select **Add** > **New folder**, and name the folder `static`.
 
-1. In the `static` folder, create a static JSON data file named `data.json` with the following contents (which are just meaningless sample data):
+1. In the `static` folder, create a static JSON data file named `data.json` with the following contents (which are meaningless sample data):
 
     ```json
     {
@@ -114,7 +114,7 @@ Answer: You can add other CSS, JavaScript, and HTML files in your `static` folde
 
 ### Question: how do I handle URL variables and query parameters in an API?
 
-Answer: See the answer in step 1-4 for [Question: how does Flask work with variable URL routes and query parameters?](learn-flask-in-visual-studio-step-01-project-and-solution.md#qa-url-variables)
+Answer: See the answer in step 1-4 for [Question: how does Flask work with variable URL routes and query parameters?](learn-flask-visual-studio-step-01-project-solution.md#qa-url-variables)
 
 ## Step 3-3: Add a page to the app
 
@@ -169,7 +169,7 @@ The following steps add an "About" page to the "HelloFlask" project, and links t
 
 ### Question: Does the name of a page function matter to Flask?
 
-Answer: No, because it's the `@app.route` decorator that determines the URLs for which Flask calls the function to generate a response. Developer's typically match the function name to the route, but such matching isn't required.
+Answer: No, because it's the `@app.route` decorator that determines the URLs for which Flask calls the function to generate a response. Developers typically match the function name to the route, but such matching isn't required.
 
 ## Step 3-4: Use template inheritance to create a header and nav bar
 
@@ -271,12 +271,12 @@ The following steps demonstrate inheritance:
 
     ![Running app showing the nav bar](media/flask/step03-nav-bar.png)
 
-1. Because you'd made substantial changes to the app, it's again a good time to [commit your changes to source control](learn-django-in-visual-studio-step-02-create-an-app.md#commit-to-source-control).
+1. Because you made substantial changes to the app, it's again a good time to [commit your changes to source control](learn-django-in-visual-studio-step-02-create-an-app.md#commit-to-source-control).
 
 ## Next steps
 
 > [!div class="nextstepaction"]
-> [Use the full Flask Web Project template](learn-flask-in-visual-studio-step-04-full-flask-project-template.md)
+> [Use the full Flask Web Project template](learn-flask-visual-studio-step-04-full-flask-project-template.md)
 
 ## Going deeper
 
