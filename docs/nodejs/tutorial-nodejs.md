@@ -174,7 +174,7 @@ IntelliSense is a Visual Studio tool that assists you as you write code.
 
 ## Set a breakpoint
 
-We are going to start the app with the Visual Studio debugger attached. Before we can do that, we need to set a breakpoint.
+We are going to run the app with the Visual Studio debugger attached. Before we can do that, we need to set a breakpoint.
 
 1. In *index.js*, click in the left gutter before the following line of code to set a breakpoint:
 
