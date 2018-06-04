@@ -19,7 +19,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Creating site definitions for SharePoint
+# Create site definitions for SharePoint
   The SharePoint Site Definition project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] lets you create a *site definition*, which serves as a foundation for a new SharePoint site. These definitions not only determine the appearance and behavior of the SharePoint site, but also its default content and functionality. In the definition you can put preconfigured lists, content types, event receivers, images, and other items. SharePoint includes some site definitions such as BLOG, for example. When you create a site based on the BLOG site definition, the site contains the lists, Web parts, and other items that a blogging site requires.  
   
  For more information about site definitions, see [Site Templates and Definitions](http://go.microsoft.com/fwlink/?LinkId=179134).  
@@ -35,11 +35,11 @@ ms.workload:
   
 |File Name|Description|  
 |---------------|-----------------|  
-|default.aspx|The default ASPX home page for the new SharePoint site.|  
-|onet.xml|Specifies the configuration of the new site, the components of the site definition template, and default behavior. These settings can include attributes such as the content types that are enabled, the default list views, document template files, and Web parts included with the site. By default, the `Modules` section lists the files to be added to the SharePoint site and how they are configured.|  
-|webtemp_*SiteDefinitionName*.xml|Specifies the site definition configurations that appears in the **Template Selection** section of the **New SharePoint Site** page.|  
+|*default.aspx*|The default ASPX home page for the new SharePoint site.|  
+|*onet.xml*|Specifies the configuration of the new site, the components of the site definition template, and default behavior. These settings can include attributes such as the content types that are enabled, the default list views, document template files, and Web parts included with the site. By default, the `Modules` section lists the files to be added to the SharePoint site and how they are configured.|  
+|*webtemp_{SiteDefinitionName}.xml*|Specifies the site definition configurations that appears in the **Template Selection** section of the **New SharePoint Site** page.|  
   
- By default, all site definitions are stored in the *drive:*\Program Files\Common Files\Microsoft Shared\Web Server Extensions\14\TEMPLATE\SiteTemplates folder. Each site definition has its own subfolder.  
+ By default, all site definitions are stored in the *{drive:}\Program Files\Common Files\Microsoft Shared\Web Server Extensions\14\TEMPLATE\SiteTemplates* folder. Each site definition has its own subfolder.  
   
 ## Related topics
   
@@ -47,7 +47,7 @@ ms.workload:
 |-----------|-----------------|  
 |[Walkthrough: Create a Basic Site Definition Project](../sharepoint/walkthrough-create-a-basic-site-definition-project.md)|Leads you step-by-step through the creation of a basic site definition project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].|  
 |[How to: Create a Custom Site Definition and Configuration](http://go.microsoft.com/fwlink/?LinkId=183309)|Describes how to create a custom site definition in SharePoint by copying an existing site definition and then modifying the copy.|  
-|[WebTemp.xml](http://go.microsoft.com/fwlink/?LinkId=183310)|Describes the original file that specifies the site definitions available in the **Template Selection** section of the **New SharePoint Site** page.|  
+|[*WebTemp.xml*](http://go.microsoft.com/fwlink/?LinkId=183310)|Describes the original file that specifies the site definitions available in the **Template Selection** section of the **New SharePoint Site** page.|  
 |[Localizing SharePoint Solutions](../sharepoint/localizing-sharepoint-solutions.md)|Describes how to prepare your SharePoint solutions for global use.|  
 |[Creating Web Parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md)|Describes how you can create parts of a SharePoint page that users can modify.|  
 |[Creating Reusable Controls for Web Parts or Application Pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md)|Describes how you can create reusable controls that run in application pages and Web Parts.|  
